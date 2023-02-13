@@ -8,7 +8,7 @@ description: Adobe Workfront에서 킥시작 기능을 사용하여 여러 옵�
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 5e0e1425f45886a805726de49357c43b0aecb7f4
+source-git-commit: 80ad604330e8b55037f1607b754cc8bb34f6a3ec
 workflow-type: tm+mt
 source-wordcount: '2126'
 ht-degree: 0%
@@ -25,16 +25,20 @@ Adobe Workfront에서 킥시작 기능을 사용하여 여러 옵션이 있는 �
 * 다중 선택 드롭다운
 * 드롭다운
 * 확인란
-* 라디오 버튼.
+* 라디오 버튼
 
 이러한 필드에는 때로 수백 개의 선택 사항이 있을 수 있습니다. 킥시작 기능을 사용하여 가져오면 Workfront 관리자로서 많은 시간을 절약할 수 있고 오류가 발생하지 않도록 할 수 있습니다.
 
-킥스타트를 사용하여 여러 선택 사항이 있는 사용자 지정 필드를 가져오려면 아래 섹션에 설명된 단계를 따라야 합니다.
+>[!IMPORTANT]
+>
+>킥스타트를 사용하여 여러 선택 사항이 있는 사용자 지정 필드를 가져오려면 아래 섹션에 설명된 단계를 따라야 합니다.
+>
+>1. Workfront에서 기존 사용자 지정 데이터 내보내기(옵션 단계)
+>1. 사용자 지정 데이터에 대해 킥시작 템플릿 내보내기
+>1. Excel Kick-Starts 스프레드시트 채우기
+>1. Excel 스프레드시트를 Workfront에 업로드
 
-1. Workfront에서 기존 사용자 지정 데이터 내보내기(옵션 단계)
-1. 사용자 지정 데이터에 대해 킥시작 템플릿 내보내기
-1. Excel Kick-Starts 스프레드시트 채우기
-1. Excel 스프레드시트를 Workfront에 업로드
+
 
 ## Workfront에서 기존 사용자 지정 데이터 내보내기(옵션 단계)
 
@@ -115,15 +119,20 @@ Excel 스프레드시트를 채우려면 위의 섹션에 설명된 대로 킥�
 
 1. 이전 섹션에서 다운로드한 Excel 스프레드시트를 열고 많은 시트를 확인합니다. 각 시트는 응용 프로그램의 개체를 나타냅니다.
 
-   예: **매개 변수** (사용자 지정 필드를 참조하는), **매개 변수 옵션**( 사용자 지정 필드 옵션 참조), **카테고리** (사용자 지정 양식을 나타냅니다.)
+   >[!INFO]
+   >
+   >예, **매개 변수** (사용자 지정 필드를 참조하는), **매개 변수 옵션**(사용자 지정 필드 옵션을 참조함), **카테고리** (사용자 지정 양식을 나타냅니다.)
+   >
+   >개체 이름과 특성을 Workfront 데이터베이스에서 지원하는 형식으로 작성해야 합니다.
+   >
+   >이러한 객체의 의미에 대한 자세한 내용은 [Workfront 용어](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+   >
+   >Workfront 데이터베이스의 개체 이름에 대한 자세한 내용은 [API 탐색기](../../../wf-api/general/api-explorer.md).
+   >
+   >![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
 
-   개체 이름과 특성을 Workfront 데이터베이스에서 지원하는 형식으로 작성해야 합니다.
 
-   이러한 객체의 의미에 대한 자세한 내용은 [Workfront 용어](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-   Workfront 데이터베이스의 개체 이름에 대한 자세한 내용은 [API 탐색기](../../../wf-api/general/api-explorer.md).
-
-   ![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
 
 
 1. 다음 정보의 형식이 올바르게 지정되었는지 확인합니다.
@@ -164,7 +173,9 @@ Excel 스프레드시트를 채우려면 위의 섹션에 설명된 대로 킥�
 
    * **`setName`** = Workfront에 표시할 사용자 지정 필드의 이름을 입력합니다.
 
-      예를 들어, _브랜드_, 확인란 필드 및 _미디어_: 라디오 단추 필드입니다.
+      >[!INFO]
+      >
+      >예를 들어, _브랜드_, 확인란 필드 및 _미디어_: 라디오 단추 필드입니다.
 
    * 다음 **`setName`** 그리고 **`setValue`** 열에는 일반적으로 동일한 정보가 포함되며 새 필드의 Workfront 인터페이스에서 원하는 이름을 반영해야 합니다.
    필드의 값은 보고서에 표시되는 이름이고, 이 이름은 객체에 첨부된 사용자 지정 양식에 표시됩니다.
