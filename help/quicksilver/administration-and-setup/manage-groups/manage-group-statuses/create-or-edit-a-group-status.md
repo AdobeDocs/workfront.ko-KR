@@ -1,0 +1,176 @@
+---
+user-type: administrator
+product-area: system-administration;user-management
+navigation-topic: manage-group-statuses
+title: 그룹 상태 만들기 또는 편집
+description: 그룹 관리자는 관리하는 그룹에 대한 사용자 지정 상태를 만들 수 있습니다. 이를 통해 수십 개의 회사 전체의 사용자 지정 상태가 필요하지 않으며 그룹 계층에서 더 많은 자율성이 부여됩니다.
+author: Caroline
+feature: System Setup and Administration, People Teams and Groups
+role: Admin
+exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
+source-git-commit: 027d636e8256c6a12d552af736884f6f27886114
+workflow-type: tm+mt
+source-wordcount: '1313'
+ht-degree: 1%
+
+---
+
+# 그룹 상태 만들기 또는 편집
+
+그룹 관리자는 관리하는 그룹에 대한 사용자 지정 상태를 만들 수 있습니다. 이를 통해 수십 개의 회사 전체의 사용자 지정 상태가 필요하지 않으며 그룹 계층에서 더 많은 자율성이 부여됩니다.
+
+Workfront 관리자가 상태를 잠금 해제한 경우 관리하는 그룹의 시스템 수준 상태를 편집할 수도 있습니다. 자세한 내용은 [잠금 및 잠금 해제된 시스템 수준 상태](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md).
+
+그룹 위에 그룹이 있으면 해당 관리자가 사용자 그룹을 위해 이러한 작업을 수행할 수도 있습니다. Workfront 관리자(모든 그룹의 경우)도 마찬가지입니다.
+
+>[!NOTE]
+>
+>기민한 보기에서 프로젝트를 볼 때 프로젝트에 사용자 지정 그룹 상태를 표시할 수 없습니다. 애자일 보기에서 프로젝트를 볼 때는 기본 및 사용자 지정 잠금 상태만 표시됩니다. 프로젝트에 대한 애자일 보기 사용자 지정에 대한 자세한 내용은 섹션을 참조하십시오 [애자일 뷰 만들기 또는 사용자 정의](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) 기사 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+
+상태에 대한 일반적인 정보는 [상태 개요](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+
+## 액세스 요구 사항
+
+이 문서의 절차를 수행하려면 다음 사항이 있어야 합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Workfront 플랜*</td> 
+   <td>모든</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront 라이선스*</td> 
+   <td> <p>플랜 </p> <p>그룹의 그룹 관리자 또는 Workfront 관리자여야 합니다. 자세한 내용은 <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">그룹 관리자</a> 및 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">사용자에게 전체 관리자 액세스 권한 부여</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;보유하고 있는 플랜 또는 라이선스 유형을 찾아야 하는 경우 Workfront 관리자에게 문의하십시오.
+
+## 그룹의 상태 만들기 또는 편집
+
+1. 을(를) 클릭합니다. **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 을(를) 클릭하고 **설정** ![](assets/gear-icon-settings.png).
+
+1. 왼쪽 패널에서 **그룹** ![](assets/groups-icon.png).
+
+1. 상태를 만들거나 사용자 지정할 그룹의 이름을 클릭합니다.
+1. 왼쪽 패널에서 **상태**.
+
+   보고 있는 그룹이 최상위 그룹인 경우 표시되는 목록에는 다음 항목이 포함됩니다.
+
+   * 시스템 수준 잠금 상태.
+   * 그룹에 대해 이미 생성된 사용자 지정 상태입니다.
+
+   또한 보고 있는 그룹이 하위 그룹인 경우 다음과 같은 정보가 포함됩니다.
+
+   * 하위 그룹 위의 그룹에 속하는 잠긴 상태입니다.
+   * 하위 그룹을 만들 때 하위 그룹 위의 그룹에 속했던 잠금 해제된 상태입니다.
+
+      하위 그룹을 만든 후 위의 그룹에서 만든 잠금 해제된 상태는 하위 그룹의 상태 목록에 포함되지 않습니다. 그러나 나중에 누군가 이 중 하나를 잠근 경우 하위 그룹의 상태 목록에 포함됩니다. 자세한 내용은 [그룹이 상태를 상속하는 방법](../../../administration-and-setup/manage-groups/manage-group-statuses/how-groups-inherit-statuses.md).
+
+
+1. 객체 유형의 탭을 선택합니다(**프로젝트**, **작업**, 또는 **문제**)을 클릭하여 상태를 연결할 수도 있습니다.
+
+1. (조건부) 상태가 문제 상태인 경우 **기본 목록** 이 선택되어 있습니다.
+
+   ![](assets/master-list.png)
+
+   다른 문제 유형(버그 보고서, 변경 순서, 문제, 요청)을 사용자 지정하는 방법에 대한 자세한 내용은 [기본 문제 유형 사용자 지정](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md).
+
+1. (조건부) 새 상태를 만들려면 **새 상태 추가**.
+
+   또는
+
+   기존 상태를 편집하려면 편집할 상태를 마우스로 가리킨 다음 **편집** 맨 오른쪽에 표시되는 옵션입니다.
+
+   ![](assets/group-statuses-edit.jpg)
+
+   >[!NOTE]
+   >다음 경우에만 그룹의 상태를 편집할 수 있습니다.
+   >      
+   >* 상태가 생성된 그룹을 관리합니다
+   >* Workfront 관리자가 시스템 수준에서 상태를 잠금 해제했습니다
+   >* 그룹 위의 그룹 관리자가 상태를 잠금 해제했습니다
+
+   >      
+   >      
+   >기존 상태를 편집할 때는 이름, 설명 및 색상만 변경할 수 있습니다.
+   >
+   >잠긴 상태를 편집하면 변경 사항은 그룹에서 상태를 상속한 모든 하위 그룹에 영향을 줍니다.
+   >   
+   >반대로 잠금 해제된 상태를 편집해도 그룹에서 상태를 상속한 하위 그룹에는 영향을 주지 않습니다.
+
+1. 다음 정보를 지정합니다.
+
+   상태를 편집하는 경우 처음 3개의 설정만 변경할 수 있습니다.
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">상태 이름</td> 
+      <td> <p>상태 이름을 입력합니다. 필수 필드입니다.</p> <p>상태 이름을 만들 때 시스템의 다른 사용자가 동일한 이름으로 상태를 만들 수 있음을 알아두십시오. Workfront에서 상태를 선택할 때 혼동을 방지하기 위해 고유한 이름을 사용하는 것이 좋습니다.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">설명</td> 
+      <td>(선택 사항) 상태에 대한 설명을 입력합니다. 이것은 그것의 목적을 그것을 사용하는 사람들에게 전달한다.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">색상</td> 
+      <td> <p>색상 필드를 클릭하고 견본 패널에서 색상을 선택하여 상태 색상을 사용자 정의합니다. 필드에 16진수 숫자를 입력할 수도 있습니다.</p> <p>사용자가 개체를 볼 때 상태 색상이 Workfront의 오른쪽 위 모서리에 표시됩니다.</p> <p> <img src="assets/status-color.png"> </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">같음</td> 
+      <td> <p>상태 기능을 가장 잘 설명하는 목록에서 옵션 중 하나를 선택합니다. 예를 들어, 상태 이름이 완료 인 경우 과 동일한 옵션은 완료여야 합니다.</p> <p>이 옵션은 상태가 작동하는 방식을 결정하므로 모든 상태는 이러한 옵션 중 하나와 같아야 합니다.</p> <p>상태를 만든 후에는 이 옵션을 수정할 수 없습니다.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">키</td> 
+      <td> <p>새 상태를 만드는 경우 상태에 대한 코드나 약어를 입력하거나 생성된 약어를 사용하십시오. 이 키는 보고 목적으로 사용할 수 있으므로 Workfront에서 고유해야 합니다. 시스템에서 이미 사용 중인 키를 지정하려고 하면 필드가 빨간색으로 표시됩니다.</p> <p>약어를 사용할 사람과 인식할 수 있는 약어를 사용하는 것이 유용할 수 있습니다.</p> <p>상태를 만든 후에는 이 옵션을 수정할 수 없습니다.</p> <p>계획, 현재 및 완료 상태에 대한 키 코드는 변경할 수 없습니다. 텍스트 모드에서 보고서를 작성하는 경우에 중요합니다.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">상태 숨기기</td> 
+      <td> <p>(프로젝트 및 작업 상태만)</p> <p>사용자에게 상태를 숨기지 않으려면 이 옵션을 활성화합니다. 비활성화되면(기본 설정) 그룹 아래의 모든 하위 그룹이 상태를 사용할 수 있습니다.</p> <p>팁: 4가지 문제 유형(버그 보고서, 변경 순서, 문제, 요청)을 모두 비활성화하여 문제 상태를 숨길 수 있습니다.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">모든 그룹에 대해 잠금</td> 
+      <td> 
+       <p>이 옵션을 활성화한 상태로 두면 그룹 및 해당 하위 그룹의 사용자가 상태를 보고 사용할 수 있으며 그룹 관리자는 하위 그룹에 대해 이 옵션을 사용자 지정할 수 없습니다.</p> 
+       <p>이 옵션을 비활성화하면 그룹 관리자가 하위 그룹의 상태를 사용자 지정할 수 있습니다.</p> 
+       <p><b>참고</b>: 그룹 승인 프로세스에서 잠긴 상태와 잠금 해제된 상태를 모두 사용할 수 있습니다. 잠금 해제된 그룹 상태로 그룹 승인 프로세스를 생성하는 경우 사용자는 승인 프로세스를 그룹에 연관된 프로젝트, 작업 또는 문제에 첨부할 수 있습니다.</p> 
+       <p>잠금 상태에 대한 자세한 내용은 <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/lock-or-unlock-a-custom-group-status.md" class="MCXref xref">잠김 및 잠금 해제된 그룹 상태</a>.</p> 
+       </td> 
+     </tr>
+    </tbody> 
+   </table>
+
+1. **저장**&#x200B;을 클릭합니다.
+
+   이제 그룹 또는 하위 그룹과 연결된 모든 프로젝트에 이 상태를 사용할 수 있습니다. 잠근 경우 하위 하위 하위 그룹에서 사용할 수 있습니다.
+
+   상태를 그룹의 기본 상태로 구성할 수 있습니다. 자세한 내용은 [사용자 지정 상태를 그룹의 기본 상태로 사용합니다](../../../administration-and-setup/manage-groups/manage-group-statuses/use-custom-statuses-as-default-statuses-group.md).
+
+## 여러 그룹에 대한 사용자 지정 상태 만들기
+
+Workfront 관리자의 경우, 시스템 전체 상태를 만든 다음, 필요하지 않은 그룹에서 해당 상태를 숨겨 여러 그룹에 대한 사용자 지정 상태를 만들 수 있습니다.
+
+그룹 관리자(또는 Workfront 관리자)인 경우, 상위 수준 그룹에 대한 상태를 만든 다음, 필요하지 않은 하위 그룹에서 해당 상태를 숨겨 관리하는 그룹 계층 내의 여러 하위 그룹에 대한 사용자 지정 상태를 만들 수 있습니다.
+
+1. Workfront 관리자인 경우 의 설명에 따라 시스템 전체의 잠금 해제 상태를 만듭니다 [상태 만들기 또는 편집](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+1. 오른쪽 위 모서리의 상자에서 를 삭제합니다. **시스템 상태**&#x200B;을 입력하여 상태를 숨길 그룹의 이름을 입력한 다음 그룹 이름이 나타나면 이름을 클릭합니다.
+1. 그룹에서 숨길 상태를 마우스로 가리킨 다음 를 클릭합니다 **편집** 표시됩니다.
+
+   ![](assets/hover-click-edit.jpg)
+
+1. 를 활성화합니다 **상태 숨기기** 옵션이 표시됩니다.
+
+   ![](assets/hide-group-status.png)
+
+1. **저장**&#x200B;을 클릭합니다.
+
+   상태는 흐리게 표시되어 해당 그룹의 모든 사용자가 더 이상 표시되지 않습니다.
+
+1. 3~5단계를 반복하여 필요하지 않은 다른 그룹에서 사용자 지정 상태를 숨깁니다.

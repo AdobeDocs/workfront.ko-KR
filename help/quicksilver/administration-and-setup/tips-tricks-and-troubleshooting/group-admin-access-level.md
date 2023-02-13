@@ -1,0 +1,37 @@
+---
+user-type: administrator
+content-type: tips-tricks-troubleshooting
+product-area: system-administration;user-management
+navigation-topic: tips-tricks-troubleshooting-setup-admin
+title: 그룹 관리자는 관리하는 관리자보다 액세스 권한이 더 높아야 합니다
+description: 그룹 관리자가 액세스 수준보다 낮은 액세스 수준의 권한을 가지고 있으면 액세스 수준을 보거나 수정하거나 더 낮은 액세스 수준을 할당할 수 없습니다.
+author: Courtney
+feature: System Setup and Administration
+role: Admin
+source-git-commit: 458149110d71475820dc6f3b27f1e062c3fe66f6
+workflow-type: tm+mt
+source-wordcount: '174'
+ht-degree: 0%
+
+---
+
+
+# 그룹 관리자는 관리하는 관리자보다 액세스 권한이 더 높아야 합니다
+
+그룹 관리자가 액세스 수준보다 낮은 액세스 수준의 권한을 가지고 있으면 액세스 수준을 보거나 수정하거나 더 낮은 액세스 수준을 할당할 수 없습니다.
+
+## 문제
+
+그룹 관리자에게 팀 보기 권한이 있는 수정된 계획자 액세스 레벨이 지정되지만, 특정 사용자에게 팀 편집 권한이 있는 작업자 액세스 레벨이 지정되면 그룹 관리자는 수정된 작업자 액세스 레벨과 상호 작용할 수 없습니다.
+
+![](assets/group-admin-modified-access.png)
+
+
+>[!NOTE]
+>
+>이 논리는 설정 세부 조정 드롭다운 메뉴에도 적용됩니다. 두 액세스 수준 모두 편집 액세스 권한이 있을 수 있지만 설정 세부 조정 드롭다운 메뉴의 설정은 그룹 관리자에 대해 더 높아야 합니다.
+> ![](assets/fine-tune-your-settings.png)
+
+## 솔루션
+
+그룹 관리자는 관리하는 영역보다 액세스 수준의 모든 영역에서 더 높은 권한이 있어야 합니다.

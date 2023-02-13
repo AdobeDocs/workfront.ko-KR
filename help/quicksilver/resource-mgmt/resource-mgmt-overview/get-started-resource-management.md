@@ -1,0 +1,201 @@
+---
+content-type: overview
+product-area: resource-management
+navigation-topic: resource-management-overview
+title: 리소스 관리 시작
+description: 자원 관리를 사용하면 가용성에 따라 자원의 사용을 정확하게 예측하도록 시스템을 구성하여 시간과 예산에 따라 완료해야 합니다.
+author: Alina
+feature: Resource Management
+exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
+source-git-commit: f150c57e8b83e73734b1cbeded7ef4c16d65097c
+workflow-type: tm+mt
+source-wordcount: '1171'
+ht-degree: 0%
+
+---
+
+# 리소스 관리 시작
+
+<!--
+<p>(NOTE: DO NOT DELETE THIS ARTICLE. MANY ARTICLES MENTIONING RES MANAGEMENT ARE AND STILL SHOULD / WILL BE LINKED TO IT.) </p>
+<p>(NOTE: Alina: ***As functionality is removed from Legacy and added to Res Planning - this will be continually updated: remove the Legacy Res Planning when that functionality is removed from the system.) </p>
+</div>
+-->
+
+자원 관리를 사용하면 가용성에 따라 자원의 사용을 정확하게 예측하도록 시스템을 구성하여 시간과 예산에 따라 완료해야 합니다.
+
+## Adobe Workfront의 리소스 관리 개요
+
+리소스 관리는 Adobe Workfront 관리자, 리소스 관리자 및 프로젝트 소유자가 조직의 자원을 계획(자원 또는 시나리오 계획)하고 스케줄(작업 로드 밸런서)하여 수행되어야 하는 작업에 수행되는 모든 활동을 말하며, 해당 가용성을 고려하여 작업을 수행하도록 지정합니다. 또한 자원 관리는 보고서 뷰(가동률 보고서)에서 계획 및 실제 자원 할당에 대한 정보를 보는 것을 말합니다.
+
+Workfront에는 리소스를 관리하는 데 사용되는 몇 가지 도구 세트가 있습니다. 각 도구에는 개별 범위가 있습니다. 현재 사용 중인 리소스 관리 단계에 따라 Workfront에서 다음 리소스 관리 도구를 사용할 수 있습니다.
+
+* 프로젝트에서 실제 작업이 시작되기 전에 더 높은 수준에서 리소스를 할당하는 방법을 계획하려면 다음 도구를 사용하십시오.
+
+   * **리소스 플래너**: 자원 관리의 첫 번째 단계에서 자원 계획자를 사용하여 스케줄링된 가용성에 따라 자원에 대한 프로젝트 시간을 예측할 수 있습니다. 리소스 계획 단계 동안 리소스 풀에서 사용자를 구성하고 여러 리소스 풀을 프로젝트에 할당할 수 있습니다.
+
+      리소스 계획에 대한 자세한 내용은 섹션을 참조하십시오 [Adobe Workfront의 리소스 계획](../../resource-mgmt/resource-planning/resource-planning-overview.md).
+
+   * **시나리오 플래너**: 이는 1년, 3년 또는 5년 계획에 걸쳐 여러 프로젝트를 포함하고 여러 프로젝트를 포함할 수 있는 여러 이니셔티브에서 리소스를 관리할 수 있도록 하는 높은 수준의 리소스 계획입니다. 가용성 및 예산을 최대한 활용할 수 있는 최상의 시나리오를 사용할 수 있습니다.
+
+      시나리오 플래너는 Workfront 라이선스 외에 별도의 라이센스가 필요합니다. Workfront 시나리오 플래너에 대한 자세한 내용은 [시나리오 계획자 개요](../../scenario-planner/scenario-planner-overview.md).
+
+      <!--   
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: when more functionality is added, maybe we add that we recommend to start here if this is available for them?!) </p>   
+     -->
+
+* 실제 작업(작업 및 문제)에 자원을 예약하거나 할당하려면 다음 도구를 사용합니다.
+
+   * **작업 로드 밸런서**: 이 작업은 리소스 관리 수준이 낮은 단계에 속하며, 이 단계에서 리소스를 완료하는 데 필요한 시간과 가용성을 기준으로 완료해야 하는 실제 작업(작업 및 문제)에 할당할 수 있습니다. 작업 로드 밸런서를 사용하여 현재 할당되지 않거나 작업 역할에 할당된 실제 작업에 사용자를 지정할 수 있습니다.
+
+      Workfront 밸런서에 대한 자세한 내용은 섹션을 참조하십시오 [작업 로드 밸런서](../../resource-mgmt/workload-balancer/workload-balancer.md).
+
+<!--
+
+  * **Scheduling** (deprecated <span class="preview">and removed from the Preview environment</span>): Refers to assigning actual work to users by matching the job roles assigned to the tasks and issues with the job roles they can fulfill, or assigning actual work to users on tasks and issues which are currently unassigned. This happens at a lower-level in the process of managing resources, where you can assign your resources to the actual work (tasks and issues) that they must fulfill, according to the hours needed in the project plan to fulfill them.  
+
+     For more information about resource scheduling, see the section [Resource Scheduling](../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md).
+
+    >[!CAUTION]
+    >
+    >
+    >We are no longer supporting the Resource Scheduling tools and they will be removed from Workfront in **January 2023**. We recommend that you use the Workload Balancer for scheduling your resources. 
+    >
+    >
+    >* For information about scheduling resources using the Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).
+    >
+    >
+    >* For more information about the timeline for removing the Resource Scheduling tools and replacing them with the Workload Balancer, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
+
+-->
+* 여러 프로젝트에 걸쳐 예산책정, 계획 및 실제 할당을 분석하려면 다음 도구를 사용합니다.
+
+   * **활용률 보고서**: 이 보고서를 사용하여 프로젝트의 리소스 사용률을 확인합니다. 프로젝트에 대한 예산책정, 계획 및 실제 배부와 프로젝트의 비용 및 수익에 미치는 영향을 비교할 수 있습니다.
+
+      활용률 보고서에 대한 자세한 내용은 [자원 사용률 정보 보기](../../resource-mgmt/resource-utilization/view-utilization-information.md).
+
+## 리소스 관리 프로세스의 구성 요소
+
+>[!NOTE]
+>
+>리소스 관리는 Workfront에서 절대 침체된 프로세스가 아닙니다. 프로젝트 일정, 사용자의 가용성 또는 역할이 변경되므로 리소스, 할당 및 프로젝트, 작업 및 문제에 대한 해당 할당에 대한 정보를 지속적으로 조정해야 합니다.
+
+Workfront에서 리소스를 관리하는 프로세스에는 다음 단계가 포함됩니다.
+
+* **구성**: 시스템 관리자, 리소스 관리자 또는 프로젝트 소유자는 리소스를 관리하기 전에 Workfront 인스턴스에서 특정 필드와 개체를 구성해야 합니다. Workfront에서 리소스 관리를 시작하는 데 필요한 사전 요구 사항에 대한 자세한 내용은 [정확한 리소스 관리를 위한 사전 요구 사항](#prerequisites-for-accurate-resource-management) 섹션에 자세히 설명되어 있습니다.\
+   작업 항목이 있는 프로젝트가 있는 것 외에도, Workfront에서 다음 항목을 구성해야 합니다.
+
+   * 사용자\
+      사용자 만들기에 대한 자세한 내용은 문서를 참조하십시오 [사용자 추가](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+
+   * 작업 역할\
+      작업 역할 만들기에 대한 자세한 내용은 문서를 참조하십시오 [작업 역할 만들기 및 관리](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+
+   * 일정\
+      일정 만들기에 대한 자세한 내용은 문서를 참조하십시오 [예약 만들기](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+
+   * 프로젝트 환경 설정
+
+      >[!TIP]
+      >
+      >시스템 또는 그룹 관리자만 시스템 또는 그룹에 대한 프로젝트 환경 설정을 수정할 수 있습니다.
+
+      프로젝트 환경 설정 정의에 대한 자세한 내용은 문서를 참조하십시오 [시스템 전체 프로젝트 환경 설정 구성](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+
+   * 리소스 풀
+
+      리소스 풀 만들기에 대한 자세한 내용은 [리소스 풀 만들기](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+
+   * 리소스 관리 환경 설정
+
+      시스템은 Workfront에서 사용자의 일정을 사용하거나 시스템의 기본 일정을 사용하는지 여부에 관계없이 시스템 수준에서 사용자 가용성을 계산하는 방법을 결정해야 합니다.
+
+      자세한 내용은 [리소스 관리 환경 설정 구성](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+
+* **리소스 할당**: 리소스 관리자 또는 프로젝트 소유자는 프로젝트에 대한 자원 할당을 정의하고 작업을 할당할 수 있습니다. 이 단계에서는 자원 계획자 또는 시나리오 계획자를 사용하여 자원의 할당 예상 예측을 관리하고 작업 로드 밸런서의 사용자에게 실제 작업을 지정할 수 있습니다.
+
+   자원 계획 및 작업 지정에 대한 자세한 내용은 다음 섹션을 참조하십시오.
+
+   * [Adobe Workfront의 리소스 계획](../../resource-mgmt/resource-planning/resource-planning-overview.md)
+   * [Adobe Workfront 시나리오 플래너](../../scenario-planner/scenario-planning.md)
+   * [작업 로드 밸런서](../../resource-mgmt/workload-balancer/workload-balancer.md)
+
+<!--
+* **Resource scheduling**: After generally planning for resources to use on your projects at a high level, you can start assigning work items (tasks and issues) to users based on their job roles using the Workload Balancer.
+
+  For more information, see [Overview of the Workload Balancer](../workload-balancer/overview-workload-balancer.md). 
+-->
+
+* **분석**: 자원 관리자, 프로젝트 소유자 또는 인력 관리자는 활용률 보고서를 검토하여 자원의 예산책정과 계획 할당이 실제 할당과 어떻게 비교되는지 파악합니다. 시간, 비용 또는 매출별로 정보를 검토합니다. 활용률 보고서에 대한 자세한 내용은 [자원 사용률 정보 보기](../../resource-mgmt/resource-utilization/view-utilization-information.md).
+
+## Workfront의 리소스 관리 도구를 사용하여 리소스를 보고 관리하는 데 필요한 액세스
+
+다음 사용자는 Workfront의 리소스 관리 도구에 액세스할 수 있습니다.
+
+다음 사용자 중 하나여야 하며 리소스 관리 도구에 액세스하려면 다음 액세스 및 권한이 있어야 합니다.
+
+* 시스템 관리자
+* 계획 라이센스가 있는 사용자입니다.
+
+   작업 라이센스가 있는 사용자는 프로젝트의 작업 로드 밸런서를 사용하고 할당 및 할당을 관리할 수 있습니다.
+
+   작업 수준 이상의 라이센스가 있을 뿐만 아니라 특정 리소스 관리 도구를 사용하려면 다음 사항이 있어야 합니다.
+
+   * 리소스 관리에 대한 액세스 편집(작업 로드 밸런서에서 할당 작업을 수행할 필요가 없음)
+   * 재무 데이터에 대한 액세스를 편집하여 자원 계획자에 비용 정보를 표시합니다
+   * 활용률 보고서에서 비용 및 수익 정보를 조회하려면 재무 데이터에 대한 액세스를 조회합니다(계획 라이센스가 있는 사용자만).
+
+* 리소스를 관리할 프로젝트에 대한 지정 작업을 포함하는 Contribute 또는 더 높은 권한
+
+<!--
+* Designated as a Resource Manager for projects to use the Scheduling tool (the Scheduling tool is deprecated).
+
+  >[!TIP]
+  >
+  >You do not have to be a Resource Manager to use the Resource Planner, Scenario Planner, or the Workload Balancer. 
+-->
+
+예산 자원에 필요한 액세스에 대한 자세한 내용은 문서를 참조하십시오 [예산 자원에 필요한 액세스](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
+
+작업 로드 밸런서에서 리소스를 관리하는 데 필요한 액세스에 대한 자세한 내용은 [작업 로드 밸런서에서 리소스를 관리하는 데 필요한 액세스](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
+
+## 정확한 리소스 관리를 위한 사전 요구 사항  {#prerequisites-for-accurate-resource-management}
+
+Workfront에서 리소스 관리 도구를 효율적으로 사용하려면 먼저 일련의 요구 사항을 충족해야 합니다.
+
+Workfront의 각 리소스 관리 도구에 대한 요구 사항에 대한 자세한 내용은 다음을 참조하십시오.
+
+* 문서의 &quot;Resource Planner 작업 사전 요구 사항&quot; 섹션 [리소스 플래너 개요](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+
+<!--remove this at production: * The section "Prerequisites" in the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).-->
+* 문서의 &quot;작업 로드 밸런서 사용 우수 사례&quot; 섹션 [작업 로드 밸런서 개요](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+* [Adobe Workfront의 예산 리소스에 대한 액세스 필요](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
+* [작업 로드 밸런서에서 리소스를 관리하는 데 필요한 액세스](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
+
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>(NOTE: drafted and replaced with the links to each prerequisites instead) </p>
+<p> We recommend that the following settings exist before starting to manage resources for your organization: </p>
+<ul>
+<li> You must have users in the system who have active accounts. </li>
+<li> You must assign a Plan or a Worker license to the users whose work allocation you want to manage. <note type="note">
+Although you can assign work to a Reviewer or a Requestor, they cannot complete it.
+<br>We recommend against assigning work to Reviewers or Requestors. For information about access levels in Workfront, see
+<a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md" class="MCXref xref" xrefformat="{para}">Access levels overview</a>.
+</note></li>
+<li> You must have job roles configured in the system.<br>For information about adding job roles to Workfront, see the article <a href="../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref" xrefformat="{para}">Create and manage job roles</a>.</li>
+<li> (Optional) If you want to budget cost for your work, your job roles and your users must also have rates associated with them.<br></li>
+<li> You must associate at least one job role with your users. </li>
+<li> You must specify a valid value for the FTE field of all users when you use the User's Schedule instead of The Default Schedule in your Resource Management system preferences. <br>For information about editing users to ensure they have a job role, FTE, or cost associated with them, see the article <a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref" xrefformat="{para}">Edit a user's profile</a>. For information about editing the Resource Management preferences in your system, see <a href="../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref" xrefformat="{para}">Configure Resource Management preferences</a>.</li>
+<li>You must associate accurate schedules with your users and they should include schedule exceptions.<br>For information about creating and editing schedules, see the article <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" xrefformat="{para}">Create a schedule</a>.</li>
+<li>The Time Off calendar of the users must be up to date. </li>
+<li> <p>The following is recommended for the Resource Planner when applying the Project and Role views: </p>
+<ul>
+<li> <p>You must associate projects with Resource Pools.<br>For information about associating projects with Resource Pools, see <a href="../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md" class="MCXref xref" xrefformat="{para}">Associate resource pools with projects and templates</a>.</p> </li>
+</ul> </li>
+<li> <p>Your must designate a Resource Manager on your projects and they must have the correct access to budget resources when using the Scheduling tools. </p> <p>For information about the access needed to budget resources, see the article <a href="../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md" class="MCXref xref" xrefformat="{para}">Access needed to budget resources in&nbsp;Adobe Workfront</a>.</p> </li>
+<li> <p>You must assign the tasks and issues in your system to job roles, teams, or users.</p> </li>
+<li>You must specify a valid value for Planned Hours and Duration for all tasks in your system.<br>For information about Planned Hours, see the article <a href="../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref" xrefformat="{para}">Planned Hours overview</a>.<br>For information about Duration, see the article <a href="../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref" xrefformat="{para}">Overview of Task Duration and Duration Type</a>.</li>
+</ul>
+</div>
+-->

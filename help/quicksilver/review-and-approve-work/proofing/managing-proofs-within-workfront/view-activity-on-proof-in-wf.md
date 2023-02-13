@@ -1,0 +1,52 @@
+---
+product-area: documents
+navigation-topic: manage-proofs-within-workfront
+title: Adobe Workfront 내의 증명에 대한 활동 보기
+description: 증명에서 발생한 활동을 볼 수 있습니다. 활동에는 활동을 수행한 사용자와 활동의 날짜 및 설명을 포함하여, 증명에 대한 최근 변경 사항이 포함되어 있습니다.
+author: Courtney
+feature: Digital Content and Documents
+exl-id: 74907330-4507-4ea6-ac28-8a760723f46b
+source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+workflow-type: tm+mt
+source-wordcount: '222'
+ht-degree: 1%
+
+---
+
+# Adobe Workfront 내의 증명에 대한 활동 보기
+
+증명에서 발생한 활동을 볼 수 있습니다. 활동에는 활동을 수행한 사용자와 활동의 날짜 및 설명을 포함하여, 증명에 대한 최근 변경 사항이 포함되어 있습니다.
+
+## 액세스 요구 사항
+
+이 문서의 절차를 수행하려면 다음 액세스 권한이 있어야 합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront 플랜*</td> 
+   <td> <p>현재 계획: Pro 이상</p> <p>또는</p> <p>기존 계획: Select 또는 Premium</p> <p>다양한 계획에 따른 언어 교정에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfront에서 언어 교정 기능에 액세스</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront 라이선스*</td> 
+   <td> <p>현재 계획: 작업 또는 계획</p> <p>기존 계획: 모두(사용자가 교정을 사용하도록 설정되어 있어야 함)</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">증명 권한 프로필 </td> 
+   <td>관리자 이상</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">액세스 수준 구성*</td> 
+   <td> <p>문서 액세스 편집</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체에 대한 액세스 요청 </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;보유하고 있는 계획, 역할 또는 증명 권한 프로필을 알아보려면 Workfront 또는 Workfront 증명 관리자에게 문의하십시오.
+
+## Adobe Workfront 내의 증명에 대한 활동 보기
+
+1. 증명을 포함하는 문서 위로 마우스를 가져간 다음 **문서 세부 사항**.
+1. 왼쪽 탐색 메뉴에서 **교정 활동**.

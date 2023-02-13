@@ -1,0 +1,166 @@
+---
+content-type: overview
+product-area: documents
+navigation-topic: proofing-overview
+title: 증명 역할 개요
+description: 증명 역할을 사용하면 개별 증명에 대한 권한을 부여할 수 있습니다. 증명 역할은 증명 권한 프로필과 다릅니다. 증명 권한 프로필에 대한 자세한 내용은 증명 권한 프로필 개요를 참조하십시오.
+author: Courtney
+feature: Digital Content and Documents
+exl-id: 258213af-0081-412e-bf6b-cdeb75d52966
+source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+workflow-type: tm+mt
+source-wordcount: '323'
+ht-degree: 2%
+
+---
+
+# 증명 역할 개요
+
+증명 역할을 사용하면 개별 증명에 대한 권한을 부여할 수 있습니다. 증명 역할은 증명 권한 프로필과 다릅니다. 증명 권한 프로필에 대한 자세한 내용은 [증명 권한 프로필 개요](../../../review-and-approve-work/proofing/proofing-overview/permission-profiles.md).
+
+## 증명 역할
+
+증명 역할은 사용자가 증명을 검토하도록 초대될 때 사용자에게 개별 증명을 제공할 수 있습니다. Workfront Pro+ 계획이 있는 경우 작업 또는 계획 라이선스가 있는 사용자에게 교정 역할을 부여할 수 있습니다. Workfront Premium 레거시 플랜이 있는 경우, 지정된 교정 라이선스가 있는 사용자에게 교정 역할을 부여할 수 있습니다. 자세한 내용은 [Workfront에서 언어 교정 기능에 액세스](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
+
+>[!NOTE]
+>
+>새 Workfront 계획의 사용자는 시스템의 모든 사용자에게 작성자 또는 중재자 역할을 부여할 수 있습니다. 레거시 플랜의 사용자는 시스템에서 증명 라이센스를 가진 사용자에게 작성자 또는 중재자 역할을 부여할 수 있습니다.
+
+증명 역할은 검토자가 특정 증명과 관련하여 수행할 수 있는 작업을 정의합니다.
+
+**예:** 검토자 역할이 할당된 경우 마크업과 주석을 추가하여 증명을 검토하라는 메시지가 표시되지만, 증명을 승인하거나 거부할 수 있는 옵션이 없습니다.
+
+특정 증명 역할은 검토자가 증명에 대한 편집 권한을 부여하고(계정 프로필이 승인되지 않은 경우에도), 주석에 대한 작업 추가, 새 버전 만들기, 증명에 더 많은 검토자 추가와 같은 일부 추가 기능을 사용할 수 있도록 해줍니다.
+
+<table border="1" cellspacing="15" cellpadding="1"> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th> <p> </p> </th> 
+   <th> <p><strong>증명 보기</strong> </p> </th> 
+   <th> <p><strong>마크업 추가</strong> </p> </th> 
+   <th> <p><strong>댓글 추가</strong> </p> </th> 
+   <th> <p><strong>답글이 없는 경우 댓글 편집</strong> </p> </th> 
+   <th> <p><strong>결정</strong> </p> </th> 
+   <th> <p><strong>다른 사람이 작성한 댓글 삭제</strong> </p> </th> 
+   <th>댓글 해결</th> 
+   <th>주석에 작업 적용</th> 
+   <th> <p><strong>증명 편집</strong> </p> </th> 
+   <th>다른 사람과 증명 공유</th> 
+   <th>새 버전 만들기</th> 
+   <th> <p><strong>홈 영역에서 승인 요청 보기</strong> </p> </th> 
+   <th>새 검토자 추가</th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p><strong>읽기 전용</strong> </p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p> </p> </td> 
+   <td> <p> </p> </td> 
+   <td> <p> </p> </td> 
+   <td> <p> </p> </td> 
+   <td> <p> </p> </td> 
+   <td> </td> 
+   <td>✓</td> 
+   <td> <p> </p> </td> 
+   <td>✓</td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> <p><strong>검토자</strong> </p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p> </p> </td> 
+   <td> <p> </p> </td> 
+   <td> </td> 
+   <td>✓</td> 
+   <td> <p> </p> </td> 
+   <td>✓</td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> <p><strong>승인자</strong> </p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p> </p> </td> 
+   <td> <p> </p> </td> 
+   <td> <p> </p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p> </p> </td> 
+   <td> </td> 
+   <td>✓</td> 
+   <td> <p> </p> </td> 
+   <td>✓</td> 
+   <td> </td> 
+   <td> <p>✓</p> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> <p><strong>검토자 및 승인자</strong> </p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p> </p> </td> 
+   <td> </td> 
+   <td>✓</td> 
+   <td> <p> </p> </td> 
+   <td>✓</td> 
+   <td> </td> 
+   <td> <p>✓</p> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> <p><strong>작성자</strong> </p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p> </p> </td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td> <p>✓</p> </td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td> </td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td> <p><strong>중재자</strong> </p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p><strong>✓</strong> </p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> <p> </p> </td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td> <p>✓</p> </td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+ </tbody> 
+</table>

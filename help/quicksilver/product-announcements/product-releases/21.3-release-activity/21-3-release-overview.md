@@ -1,0 +1,310 @@
+---
+content-type: release-notes
+keywords: 메모,분기별,업데이트
+navigation-topic: 2021-3-release-activity
+title: 21.3 릴리스 개요
+description: 이 페이지에서는 Adobe Workfront Classic과 21.3 릴리스에 포함된 새로운 Adobe Workfront 경험을 위한 기능에 대한 정보를 제공하여 생산성 및 공동 작업을 잠금 해제할 수 있도록 해줍니다. [릴리스를 위한 마케팅 원라이너]
+author: Luke
+feature: Product Announcements
+exl-id: f441a887-0670-4d55-8c60-cbe96aaf8379
+source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+workflow-type: tm+mt
+source-wordcount: '2284'
+ht-degree: 0%
+
+---
+
+# 21.3 릴리스 개요
+
+이 페이지에서는 Adobe Workfront Classic과 21.3 릴리스에 포함된 새로운 Adobe Workfront 경험을 위한 기능에 대한 정보를 제공합니다
+
+<!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+to help you unlock productivity and collaboration
+</MadCap:conditionalText>
+-->
+
+.
+
+<!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+[Marketing one-liner for the release]
+</MadCap:conditionalText>
+-->
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">As the 21.3 release nears its planned Production release the week of June 21, 2021, this page will be updated with all functionality included with 21.3.</p>
+-->
+
+이러한 개선 사항
+
+<!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+are currently available in the Preview environment and will be
+</MadCap:conditionalText>
+-->
+
+는 2021년 6월 21일이 있는 주의 프로덕션 환경에서 사용할 수 있게 되었습니다
+
+<!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+, unless otherwise specified the week of May 10, 2021
+</MadCap:conditionalText>
+-->
+
+.
+
+<!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+For specific release dates and times for each cluster, see the
+<a href="https://status.workfront.com/" target="_blank">Workfront Status Site</a>.
+</MadCap:conditionalText>
+-->
+
+## Adobe Workfront 개선 사항
+
+* [관리자 개선 사항](#administrator-enhancements)
+* [프로젝트 개선 사항](#project-enhancements)
+* [리소스 관리 개선 사항](#resource-management-enhancements)
+* [요청 개선 사항](#requests-enhancements)
+* [향상된 언어 교정](#proofing-enhancements)
+* [기타 개선 사항](#other-enhancements)
+
+### 관리자 개선 사항 {#administrator-enhancements}
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p><strong>기능</strong> </p> </td> 
+   <td> <p><strong>릴리스 날짜 및 환경</strong> </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-admin-enhancements.md#blueprin" class="MCXref xref" xrefformat="{para}">21.3 릴리스와 함께 프로덕션에서 사용 가능한 블루프린트</a> </p> <p>블루프린트 기능은 일반적으로 2021년 6월 21일이 있는 주의 21.3 프로덕션 릴리스에서 사용할 수 있습니다.</p> <p>Blueprint는 기본 구성 요소를 제공하여 사용자 성장에 따라 성장하는 작업 관리 시스템을 만드는 데 도움이 됩니다. 시스템 관리자는 Blueprint 카탈로그를 탐색하고 사용 가능한 프로젝트 템플릿을 설치할 수 있습니다.</p> </td> 
+   <td><strong>다음 날짜에 사용할 수 있습니다.</strong> <p>릴리스 미리 보기: 2021년 4월 22일(21.2 릴리스 포함)<br></p> <p>프로덕션 릴리스: 21.3 릴리스</p> <p><strong>다음 환경에서 사용 가능:</strong> </p> <p>새로운 Adobe Workfront 경험 </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-admin-enhancements.md#new" class="MCXref xref" xrefformat="{para}">그룹 관리자를 위한 새로운 기능: 그룹에 대한 상태를 임의의 수준에서 만들고 관리합니다</a> </p> <p>조직의 모든 수준에서 독립적으로 워크플로우를 관리하고 제어할 수 있도록 하위 그룹에 대한 상태를 만들고 관리하는 기능을 도입했습니다. </p> </td> 
+   <td><strong>다음 날짜에 사용할 수 있습니다.</strong> <p>릴리스 미리 보기: 2021년 6월 3일<br></p> <p>프로덕션 릴리스: 21.3 릴리스</p> <p><strong>다음 환경에서 사용 가능:</strong> </p> <p>새로운 Adobe Workfront 경험 </p> <p>Adobe Workfront Classic </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-admin-enhancements.md#new2" class="MCXref xref" xrefformat="{para}">관리자를 위한 새로운 기능: 청구 레코드 사용자 지정 양식 만들기</a> </p> <p>이제 청구 레코드 사용자 지정 양식을 만들어 사용자가 청구 정보를 캡처하는 방법을 개선할 수 있습니다. 사용자는 사용자 지정 양식을 청구 레코드에 첨부하고, 양식을 작성하고, 양식에 정보가 포함된 보고서를 실행할 수 있습니다.</p> </td> 
+   <td><strong>다음 날짜에 사용할 수 있습니다.</strong> <p>릴리스 미리 보기: 2021년 5월 20일<br></p> <p>프로덕션 릴리스: 21.3 릴리스</p> <p><strong>다음 환경에서 사용 가능:</strong> </p> <p>새로운 Adobe Workfront 경험 </p> <p>Adobe Workfront Classic </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### 프로젝트 개선 사항 {#project-enhancements}
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p><strong>기능</strong> </p> </td> 
+   <td> <p><strong>릴리스 날짜 및 환경</strong> </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#associat" class="MCXref xref" xrefformat="{para}">그룹과 템플릿 연결</a> </p> <p>프로젝트 생성 프로세스를 간소화할 수 있도록, 그리고 프로젝트 템플릿을 소유하는 그룹을 보다 쉽게 식별하고 보고할 수 있도록 돕기 위해 프로젝트 템플릿에 그룹을 할당하는 기능을 추가했습니다.</p> <p>프로젝트 템플릿에 그룹을 지정하면 템플릿에서 만든 모든 프로젝트가 자동으로 템플릿 그룹과 연결됩니다.</p> <p>또한 템플리트와 그룹과 연관된 경우 템플리트 및 템플리트 태스크에 그룹 승인 프로세스를 첨부할 수 있습니다. </p> </td> 
+   <td><strong>다음 날짜에 사용할 수 있습니다.</strong> <p>릴리스 미리 보기: 2021년 6월 3일<br></p> <p>프로덕션 릴리스: 21.3 릴리스 </p> <p><strong>다음 환경에서 사용 가능:</strong> </p> <p>새로운 Adobe Workfront 경험 </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#easier" class="MCXref xref" xrefformat="{para}">세부 사항 섹션에서 필드를 더 쉽게 편집할 수 있습니다</a> </p> <p>다양한 개선 사항을 통해 개체의 세부 정보 섹션에서 정보를 보다 쉽게 편집할 수 있습니다. 이러한 개선 사항에는 마우스로 필드 주위에 회색 윤곽선을 표시하면 편집 가능함을 나타내고, 필드를 한 번 클릭하여 편집하는 기능이 포함됩니다.</p> </td> 
+   <td><strong>다음 날짜에 사용할 수 있습니다.</strong> <p>릴리스 미리 보기: 2021년 6월 3일<br></p> <p>프로덕션 릴리스: 21.3 릴리스</p> <p><strong>다음 환경에서 사용 가능:</strong> </p> <p>새로운 Adobe Workfront 경험 </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#consider" class="MCXref xref" xrefformat="{para}">핸드오프 날짜를 계산할 때 프로젝트 간 선행 작업을 고려하십시오</a> </p> <p>Adobe Workfront이 작업의 핸드오프 날짜를 계산하는 방식이 새롭게 향상되면서 이제 프로젝트 간 종속성이 고려됩니다. </p> <p>이전에는 동일한 프로젝트의 작업 선행 작업만 기준으로 핸드오프 날짜가 계산되었습니다. </p> <p>이제, 프로젝트 간 전임자가 있는 작업에 대해 항상 정확한 핸드오프 날짜가 되도록 하려면 후속 작업 프로젝트의 타임라인을 다시 계산해야 합니다. 타임라인을 다시 계산한 후 작업의 전달 날짜는 작업의 프로젝트 간 종속성을 고려하여 계산됩니다.</p> </td> 
+   <td><strong>다음 날짜에 사용할 수 있습니다.</strong> <p>릴리스 미리 보기: 2021년 6월 3일<br></p> <p>프로덕션 릴리스: 21.3 릴리스</p> <p><strong>다음 환경에서 사용 가능:</strong> </p> <p>새로운 Adobe Workfront 경험 </p> <p>Adobe Workfront Classic </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#add" class="MCXref xref" xrefformat="{para}">스크럼 보드에서 기존 스토리 및 문제 추가</a> </p> <p>이제 스크럼 보드에서 직접 기존 스토리나 문제를 추가할 수 있습니다. 따라서 백로그 페이지로 이동할 필요 없이 현재 반복에 기존 스토리를 더 쉽게 추가할 수 있습니다.</p> </td> 
+   <td><strong>다음 날짜에 사용할 수 있습니다.</strong> <p>릴리스 미리 보기: 2021년 6월 3일<br></p> <p>프로덕션 릴리스: 21.3 릴리스</p> <p><strong>다음 환경에서 사용 가능:</strong> </p> <p>새로운 Adobe Workfront 경험 </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#add2" class="MCXref xref" xrefformat="{para}">Screm 보드에서 새 스토리 및 문제 추가</a> </p> <p>이제 Screm 보드에서 직접 새로운 스토리나 문제를 만들 수 있습니다. 이렇게 하면 현재 반복에 새 스토리를 쉽게 추가할 수 있습니다.</p> </td> 
+   <td><strong>다음 날짜에 사용할 수 있습니다.</strong> <p>릴리스 미리 보기: 2021년 6월 3일<br></p> <p>프로덕션 릴리스: 21.3 릴리스</p> <p><strong>다음 환경에서 사용 가능:</strong> </p> <p>새로운 Adobe Workfront 경험 </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#delete" class="MCXref xref" xrefformat="{para}">간판 보드에서 스토리 또는 문제 삭제</a> </p> <p>이제 스토리 또는 발행 카드에서 자세히 아이콘을 클릭하고 삭제를 선택하여 간판 보드에서 스토리를 삭제하거나 직접 발행할 수 있습니다. 스토리나 문제를 삭제하면 30일 동안 휴지통으로 이동되며 시스템 관리자만 복구할 수 있습니다.</p> </td> 
+   <td><strong>다음 날짜에 사용할 수 있습니다.</strong> <p>릴리스 미리 보기: 2021년 6월 3일<br></p> <p>프로덕션 릴리스: 21.3 릴리스</p> <p><strong>다음 환경에서 사용 가능:</strong> </p> <p>새로운 Adobe Workfront 경험 </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile" class="MCXref xref" xrefformat="{para}">애자일 카드 헤더 및 스토리 보드 업데이트</a> </p> <p>간판 및 스크럼 보드에서 이제 스토리 카드 및 보드 열의 고정 폭, 스토리 열의 상위 스토리로의 이름 변경 등을 비롯하여 다양한 개선 사항을 사용할 수 있습니다.</p> </td> 
+   <td><strong>다음 날짜에 사용할 수 있습니다.</strong> <p>릴리스 미리 보기: 2021년 6월 3일<br></p> <p>프로덕션 릴리스: 21.3 릴리스</p> <p><strong>다음 환경에서 사용 가능:</strong> </p> <p>새로운 Adobe Workfront 경험 </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#group" class="MCXref xref" xrefformat="{para}">프로젝트, 작업 및 문제 환경 설정 그룹화</a> </p> <p>앞서 설명했듯이 프로젝트, 작업 및 문제 환경 설정에 대한 그룹 수준 사용자 지정을 단계별로 롤아웃했습니다. 2021년 6월 24일까지 모든 EMEA 고객 및 다른 모든 고객의 일부에서 프로덕션에서 사용할 수 있었습니다. 이제 모든 고객이 이용할 수 있습니다.</p> </td> 
+   <td><strong>다음 날짜에 사용할 수 있습니다.</strong> <p>미리 보기 릴리스: </p> <p>2020년 7월 9일(그룹에 대한 프로젝트 환경 설정)</p> <p>2020년 12월 3일(그룹에 대한 작업 및 문제 환경 설정)<br></p> <p>프로덕션 릴리스: 21.3 릴리스(2021년 6월 24일 모든 고객에게 제공되는 제한된 수의 고객만 사용할 수 있음)와 함께</p> <p><strong>다음 환경에서 사용 가능:</strong> </p> <p>새로운 Adobe Workfront 경험 </p> <p>Adobe Workfront Classic </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#allow" class="MCXref xref" xrefformat="{para}">외부 사용자가 문서를 승인할 수 있도록 허용</a> </p> <p>이제 외부 이메일 주소를 사용하여 새로운 Workfront 환경의 문서에 승인자를 할당할 수 있습니다.</p> <p>이전에는 Workfront Classic에서 이메일 주소로만 외부 사용자를 추가할 수 있었습니다.</p> </td> 
+   <td><strong>다음 날짜에 사용할 수 있습니다.</strong> <p>릴리스 미리 보기: 2021년 5월 20일<br></p> <p>프로덕션 릴리스: 21.3 릴리스</p> <p><strong>다음 환경에서 사용 가능:</strong> </p> <p>새로운 Adobe Workfront 경험 </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#export" class="MCXref xref" xrefformat="{para}">포트폴리오 또는 프로그램의 세부 정보 섹션에서 정보를 내보냅니다.</a> </p> <p>이제 포트폴리오 및 프로그램의 세부 정보 섹션에서 .pdf 파일 정보로 내보낼 수 있습니다. 이 개선 사항 전에 프로젝트, 작업 및 문제에서만 세부 사항 섹션의 정보를 내보낼 수 있습니다.</p> </td> 
+   <td> <p><strong>다음 날짜에 사용할 수 있습니다.</strong> </p> <p>릴리스 미리 보기: 2021년 5월 20일<br></p> <p>프로덕션 릴리스: 2021년 6월 3일</p> <p><strong>다음 환경에서 사용 가능:</strong> </p> <p>새로운 Adobe Workfront 경험 </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#added" class="MCXref xref" xrefformat="{para}">객체 헤더에 계획된 완료 날짜 타임스탬프가 추가되었습니다.</a> </p> <p>액세스 편의성 및 정확성을 높이기 위해 프로젝트, 작업 또는 문제 헤더의 계획 완료 날짜에 타임스탬프를 선택하는 옵션을 추가했습니다. </p> <p>이 개선 사항 전에 개체의 계획 완료 날짜를 업데이트하면 Workfront에서 자정을 기본 시간으로 선택했습니다. 이제 시간 및 완료 날짜를 사용자 지정할 수 있습니다.</p> </td> 
+   <td><strong>다음 날짜에 사용할 수 있습니다.</strong> <p>릴리스 미리 보기: 2021년 5월 20일<br></p> <p>프로덕션 릴리스: 21.3 릴리스</p> <p><strong>다음 환경에서 사용 가능:</strong> </p> <p>새로운 Adobe Workfront 경험 </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#add3" class="MCXref xref" xrefformat="{para}">사용자 지정 양식을 편집하지 않고 개체에 추가합니다</a> </p> <p>다른 사용자가 채우거나 나중에 작성할 사용자 지정 양식을 개체에 더 쉽게 추가할 수 있도록 했습니다. 양식을 추가할 때 양식이 더 이상 자동으로 편집 모드로 전환되지 않습니다. 빈 양식을 개체에 저장하면 됩니다.</p> <p>이전에는 사용자 지정 양식을 개체에 추가할 때 페이지가 편집 모드로 전환되어 양식에 있는 필수 필드를 모두 완료해야 객체에 저장할 수 있었습니다. 양식을 다른 사용자가 채우도록 했거나 양식에 필수 필드를 어떻게 입력해야 하는지 아직 모를 때 이러한 번거로움이 수정되었습니다.</p> </td> 
+   <td><strong>다음 날짜에 사용할 수 있습니다.</strong> <p>릴리스 미리 보기: 2021년 5월 20일<br></p> <p>프로덕션 릴리스: 21.3 릴리스</p> <p><strong>다음 환경에서 사용 가능:</strong> </p> <p>새로운 Adobe Workfront 경험 </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### 리소스 관리 개선 사항 {#resource-management-enhancements}
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p><strong>기능</strong> </p> </td> 
+   <td> <p><strong>릴리스 날짜 및 환경</strong> </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-resource-management-enhancements.md#deactiva" class="MCXref xref" xrefformat="{para}">더 이상 사용되지 않는 역할 비활성화</a> </p> <p>사용자, 팀 및 회사와 동일한 경험을 제공하기 위해 더 이상 사용하지 않는 역할을 비활성화할 수 있는 새로운 기능이 도입되었습니다. 역할을 비활성화하면 객체를 할당하고 공유하기 위해 더 이상 유형 앞에 있는 필드에서 역할을 선택할 수 없습니다. 비활성화된 역할은 검색 필드 및 필터 옵션에 계속 나타납니다.</p> <p>승인 프로세스 또는 라우팅 규칙뿐만 아니라 비활성화된 역할에 지정된 작업 및 문제는 이러한 역할에 계속 할당됩니다. 아직 완료되지 않은 경우 비활성 역할을 활성 역할로 대체하려면 이러한 개체를 업데이트해야 합니다.</p> </td> 
+   <td> <p><strong>다음 날짜에 사용할 수 있습니다.</strong> </p> <p>릴리스 미리 보기: 2021년 5월 27일<br></p> <p>프로덕션 릴리스: 2021년 6월 10일</p> <p><strong>다음 환경에서 사용 가능:</strong> </p> <p>새로운 Adobe Workfront 경험 </p> <p>Adobe Workfront Classic </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### 요청 개선 사항 {#requests-enhancements}
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p><strong>기능</strong> </p> </td> 
+   <td> <p><strong>릴리스 날짜 및 환경</strong> </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-requests-enhancements.md#find" class="MCXref xref" xrefformat="{para}">최근 경로별로 또는 키워드를 사용하여 요청을 찾습니다</a> </p> <p>최근에 기록된 요청을 참조하여 올바른 요청 큐를 더 빨리 찾을 수 있도록 하기 위해 최근에 사용한 큐를 찾는 데 다음과 같은 개선 사항이 도입되었습니다.</p> 
+    <ul> 
+     <li> <p>요청을 입력한 최근 경로 목록</p> </li> 
+     <li> <p>경로에 포함된 키워드로 요청 유형을 검색할 수 있습니다.</p> </li> 
+    </ul> <p>경로에는 요청 큐와 요청을 제출할 때 이전에 선택한 모든 항목 그룹 및 큐 항목이 포함됩니다.</p> </td> 
+   <td> <p><strong>다음 날짜에 사용할 수 있습니다.</strong> </p> <p>릴리스 미리 보기: 2021년 6월 3일<br></p> <p>프로덕션 릴리스: 21.3 릴리스</p> <p><strong>다음 환경에서 사용 가능:</strong> </p> <p>새로운 Adobe Workfront 경험 </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### 향상된 언어 교정 {#proofing-enhancements}
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p><strong>기능</strong> </p> </td> 
+   <td> <p><strong>릴리스 날짜 및 환경</strong> </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-proofing-enhancements.md#remove" class="MCXref xref" xrefformat="{para}">링크된 폴더에 새 문서 또는 증명 버전을 만드는 기능 제거</a> </p> <p>연결된 폴더 내에서 문서 또는 증명을 새로 만드는 기능을 제거했습니다. 링크된 문서 또는 문서가 링크된 폴더 외부에 있는 경우에도 새 버전의 링크된 문서를 만들 수 있습니다.</p> <p>이전에는 링크된 폴더에 있는 문서와 증명에 대해 이 옵션이 계속 표시되었지만 사용자가 문서의 새 버전을 만들 수 없었습니다.</p> </td> 
+   <td><strong>다음 날짜에 사용할 수 있습니다.</strong> <p>릴리스 미리 보기: 2021년 6월 3일<br></p> <p>프로덕션 릴리스: 2021년 6월 3일</p> <p><strong>다음 환경에서 사용 가능:</strong> </p> <p>새로운 Adobe Workfront 경험 </p> <p>Adobe Workfront Classic </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-proofing-enhancements.md#users" class="MCXref xref" xrefformat="{para}">증명에 추가된 사용자는 문서에 대한 보기 액세스 권한을 자동으로 부여했습니다</a> </p> <p>검토자 또는 읽기 전용 을 증명 역할로 선택한 사용자는 이전에 액세스할 수 없는 경우 문서에 대한 보기 액세스 권한이 자동으로 부여됩니다.</p> <p>이전에는, 위에서 언급한 증명 역할을 가진 사용자가 증명에 추가될 때 문서에 대한 액세스를 요청해야 했습니다.</p> </td> 
+   <td><strong>다음 날짜에 사용할 수 있습니다. 미리 보기 릴리스: 2021년 5월 20일 프로덕션 릴리스: 2021년 6월 17일 다음 환경에서 사용 가능: 새로운 Adobe Workfront 경험</strong>Adobe Workfront Classic </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### 기타 개선 사항 {#other-enhancements}
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p><strong>기능</strong> </p> </td> 
+   <td> <p><strong>릴리스 날짜 및 환경</strong> </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-other-enhancements.md#home" class="MCXref xref" xrefformat="{para}">모바일 앱용 홈 영역 재디자인</a> </p> <p>Adobe Workfront 모바일 앱의 홈 영역에 다음과 같은 다양한 개선 사항이 추가되었습니다. 새롭게 디자인된 작업 항목 위젯과 더 큰 검색 상자를 사용하면 필요한 항목을 신속하게 찾을 수 있습니다. 홈, 가상 도우미, 빠른 작업, 알림 및 사용자 프로필을 위한 탐색 표시줄은 이제 홈 영역 위로 "이동"하여 쉽게 액세스할 수 있습니다. 및 내 작업 메뉴 가 가로로 스크롤되어 다음 항목이 표시됩니다. 프로젝트, 작업 및 문제, 요청, 승인 및 작업표 선택한 항목에 대해 최대 3개의 카드가 메뉴 아래에 표시됩니다.</p> </td> 
+   <td> <p><strong>다음 날짜에 사용할 수 있습니다.</strong> </p> <p>미리 보기 릴리스: 해당 사항 없음<br></p> <p>프로덕션 릴리스: 21.3 릴리스</p> <p><strong>다음 환경에서 사용 가능:</strong> </p> <p>iOS</p> <p>Android</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-other-enhancements.md#event" class="MCXref xref" xrefformat="{para}">이벤트 구독 필터</a> </p> <p>이제 이벤트 구독 필터가 미리 보기 환경에서 활성화됩니다. 이벤트 구독 필터링을 사용하여 관련 메시지만 수신할 수 있습니다. 가입에 대한 필터를 만들면 종단점에서 사용해야 하는 메시지 수가 크게 줄어들 수 있습니다. </p> </td> 
+   <td><strong>다음 날짜에 사용할 수 있습니다. 미리 보기 릴리스: 2021년 5월 20일 프로덕션 릴리스: 2021년 6월 3일 다음 환경에서 사용 가능: 새로운 Adobe Workfront 경험</strong>Adobe Workfront Classic </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+ 
+
+## Workfront 시나리오 플래너 개선 사항
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">There are no Scenario Planner updates at this point in the release. This area will be updated when updates are available.</p>
+-->
+
+21.3 릴리스와 함께 Workfront Scenario Planner 릴리스에 새로운 기능이 제공됩니다. 이제 미리 보기에서 이러한 새로운 기능에 대한 자세한 내용은 [Adobe Workfront 시나리오 플래너(21.3 릴리스 포함)](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-3.md).
+
+## Workfront Fusion 개선 사항
+
+Workfront Fusion의 새로운 기능은 21.3 릴리스 일정을 제외한 케이던스의 프로덕션에서 사용할 수 있습니다. 최신 기능에 대한 자세한 내용은 [Adobe Workfront Fusion 릴리스 활동](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+
+## Workfront 증명 개선 사항
+
+이제 Workfront 증명의 새로운 기능을 사용할 수 있습니다. 자세한 내용은 [Workfront 증명 릴리스 활동: 2021년 5월 17일 주](../../../product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md).
+
+## Workfront 목표 개선 사항
+
+릴리스에는 이 시점에서 Workfront 목표 업데이트가 없습니다. 이 영역은 업데이트를 사용할 수 있으면 업데이트됩니다.
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Most new features coming to Workfront Goals release with the 21.2 release. For information about these new features now available in Preview, see <a href="../../../product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-release-21-2.md" class="MCXref xref" xrefformat="{para}" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Adobe Workfront Goals with the 21.2 release</a>.</p>
+-->
+
+## 공지
+
+### Jira 통합을 위해 Workfront을 사용하기 위해 필요한 IP 허용 목록에 추가하다 업데이트
+
+Jira 통합을 위해 Workfront에 대한 몇 가지 백엔드 업데이트를 만들었습니다. 다음 IP 주소가 [방화벽 허용 목록에 추가하다 구성](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) 인바운드 및 아웃바운드 허용 목록에 추가하다 연결을 위한 문서에 추가되었습니다.
+
+* 34.213.36.118
+* 35.160.0.242
+* 3.209.27.146
+* 18.205.251.4
+
+이러한 주소는 이전에 Workfront의 다른 영역에 필요한 것으로 나열되었지만 이제 Jira 통합에 필요합니다.
+
+Jira 통합을 위한 Workfront의 중단을 방지하려면 조직에서 2021년 8월 4일까지 이러한 IP 주소를 허용해야 합니다.
+
+Jira 통합 구성에 대한 자세한 내용은 다음을 참조하십시오 [Jira용 Adobe Workfront 설치](../../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md).
+
+### API 버전 13
+
+API 버전 13의 경우 다양한 리소스 및 엔드포인트를 수정했습니다. 일부 변경 사항은 새 기능을 지원하며, 다른 변경 사항은 API를 통해 사용할 수 있는 정보를 더 쉽게 사용할 수 있도록 해줍니다.
+
+새로운 기능 및 업데이트되는 사항에 대한 자세한 내용은 [API 버전 13의 새로운 기능](../../../wf-api/api/new-api-version-13.md).
+
+## 21.3 릴리스 웨비나
+
+Workfront 21.3 릴리스 웨비나는 2021년 6월 16일에 제공됩니다. 기록을 볼 수 있습니다 [여기](https://webinars.on24.com/workfront/213Release?partnerref=WFAC).
+
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h2>Functionality being removed from Production</h2>
+<h3>Feature rollback: Carry over the existing proof workflow when generating a new version</h3>
+<p>Due to customer feedback, <b>Workfront is removing this change from Preview environments on March 30, 2021 and from Production environments on March 31, 2021</b>.</p>
+<p>On March 11, 2021, Workfront released a change to existing proof workflows in both Workfront Classic and the new Workfront experience. The change allowed for an existing workflow to carry over to any new proof versions created by a user, regardless of the method used to generate them.</p>
+<p>In the new Workfront experience after this change is removed, proofs created with the Simple proof selection will not include any preset proofing settings, and new versions will not carry over existing workflows or proof settings. A user can adjust settings after proof generation.</p>
+<p>In Workfront Classic after this change is removed, the option to Generate Proof will not include any preset proofing settings, and new versions will not carry over existing workflows or proof settings. A user can adjust settings after proof generation.</p>
+<p>Similar functionality to easily copy existing workflows might be added to Production at a future time.</p>
+</div>
+-->
+
+## 기능이 더 이상 지원되지 않음
+
+### Internet Explorer 11
+
+Internet Explorer에 대한 지원을 제거하면서 Workfront은 이제 공식적으로 Microsoft Edge를 지원합니다.
+
+지원되는 브라우저에 대한 자세한 내용은 [Adobe Workfront 브라우저 요구 사항](../../../workfront-basics/workfront-browser-requirements.md).

@@ -1,0 +1,24 @@
+---
+product-area: agile-and-teams
+navigation-topic: iterations
+title: 반복 개요
+description: 빠른 반복은 완료 상태, 번다운 및 스토리 보드의 세 영역으로 구성됩니다.
+author: Lisa
+feature: Agile
+exl-id: db32d3b9-f573-43e3-b4fb-49b75162057b
+source-git-commit: 6f817ca39c7489b85673ff601faf440fe51ab72c
+workflow-type: tm+mt
+source-wordcount: '55'
+ht-degree: 0%
+
+---
+
+# 반복 개요
+
+애자일 반복은 다음 세 가지 영역으로 구성됩니다. 완료 상태, 번다운 및 스토리 보드
+
+![](assets/agile-iteration-with-callouts.png)
+
+번다운 차트 및 완료 상태에 대한 자세한 내용은 [[!UICONTROL 번다운]](../../../agile/use-scrum-in-an-agile-team/burndown/burndown.md) 섹션을 참조하십시오.
+
+스토리 보드에 대한 자세한 내용은 [[!UICONTROL 스크럼] 보드](../../../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board.md) 섹션을 참조하십시오.
