@@ -5,7 +5,7 @@ description: 자원 계획의 일부로 프로젝트 레벨 자원 계획자를 
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 5433008d93e99d69f8116e222bfce02411b77825
 workflow-type: tm+mt
 source-wordcount: '1249'
 ht-degree: 0%
@@ -13,6 +13,10 @@ ht-degree: 0%
 ---
 
 # 자원 계획자를 사용하여 업무 사례의 예산 자원
+
+<!--drafted for the Budgeted Hours story: 
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 자원 계획의 일부로 프로젝트 레벨 자원 계획자를 사용하여 업무 사례를 작성할 때 프로젝트에서 작업을 완료하는 데 필요한 작업 역할을 예산을 책정할 수 있습니다.
 
@@ -169,3 +173,7 @@ Adobe Workfront 시나리오 계획자를 사용하여 비즈니스 사례에서
    원가는 프로젝트 통화로 비즈니스 사례에 표시됩니다.
 
    업무 사례에 지정된 예산 정보는 자원 계획자에도 표시됩니다.
+
+   <!--drafted for Budgeted Hours: 
+   <span class="preview">When you copy a project, you have the option to also copy the Budgeted Hours to the new project. Only hours budgeted in the Resource Planner are copied. For more information, see [Copy a project](../manage-projects/copy-project.md)</span>
+   -->
