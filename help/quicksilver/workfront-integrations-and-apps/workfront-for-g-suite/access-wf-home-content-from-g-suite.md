@@ -7,14 +7,18 @@ description: 에 액세스할 수 있습니다 [!DNL Adobe Workfront] G Suite를
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: da2ecaf1-5cfb-470e-90a1-fbb386db8670
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
 
 # 액세스 [!DNL Adobe Workfront] [!UICONTROL 홈] 의 콘텐츠 [!DNL G Suite]
+
+>[!NOTE]
+>
+>다음 항목이 있습니다 [알려진 문제](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) 현재 버전의 [!DNL Workfront for G Suite] 예상대로 작동하지 않습니다. Adobe는 새 버전에서 작업하고 있으며 Launch가 [!DNL Google Marketplace] 가까운 미래에.
 
 에 액세스할 수 있습니다 [!DNL Adobe Workfront] [!UICONTROL 홈] G Suite를 종료하지 않고 자신에게 할당된 모든 작업, 문제, 승인 및 액세스 요청을 포함한 컨텐츠.
 

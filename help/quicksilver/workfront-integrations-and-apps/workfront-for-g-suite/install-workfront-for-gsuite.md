@@ -7,14 +7,18 @@ description: 을(를) 설치할 수 있습니다 [!DNL Adobe Workfront] G Suite 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: eb11d62d-86ed-49fc-8bbc-6f04eb30865d
-source-git-commit: db46b22bbd4014fab887ade181f984bed5dacc27
+source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 3%
+source-wordcount: '191'
+ht-degree: 2%
 
 ---
 
 # 설치 [!DNL Adobe Workfront for G Suite]
+
+>[!NOTE]
+>
+>다음 항목이 있습니다 [알려진 문제](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) 현재 버전의 [!DNL Workfront for G Suite] 예상대로 작동하지 않습니다. Adobe는 새 버전에서 작업하고 있으며 Launch가 [!DNL Google Marketplace] 가까운 미래에.
 
 을(를) 설치할 수 있습니다 [!DNL Adobe Workfront for G Suite] 에서 추가 [!DNL G Suite] 마켓플레이스
 

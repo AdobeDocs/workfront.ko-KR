@@ -8,14 +8,18 @@ description: Adobe Workfront for G Suite를 사용하면 가장 중요한 작업
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: dfced3e9-0338-446e-bf70-fa5d07f3ac1f
-source-git-commit: 3143e5a4988b7234d8225da442f5af1d756d461d
+source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront for G Suite]
+
+>[!NOTE]
+>
+>다음 항목이 있습니다 [알려진 문제](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) 현재 버전의 [!DNL Workfront for G Suite] 예상대로 작동하지 않습니다. Adobe는 새 버전에서 작업하고 있으며 Launch가 [!DNL Google Marketplace] 가까운 미래에.
 
 [!DNL Adobe Workfront for G Suite] 에서는 가장 중요한 작업에 연결되므로 내에서 다른 사용자와 협업할 수 있습니다 [!DNL Gmail], [!DNL Google Calendar], 및 [!DNL Google Drive]. 이러한 애플리케이션을 종료하지 않고 이메일 요청이나 작업 업데이트를 캡처하여 [!DNL Workfront]. 에서 일어나는 일을 확인할 수 있습니다 [!DNL Workfront], 기한, 우선 순위, 문서, 업데이트 및 추가 컨텍스트를 포함하여 받은 편지함을 그대로 유지합니다. 승인 결정을 하거나, 댓글에 응답하거나, 새 작업 요청을 수락할 수 있습니다. 또한 이메일을 개인 프로젝트 작업으로 전환하거나 작업 및 우선 순위를 다른 사람에게 할당할 수 있습니다.
 

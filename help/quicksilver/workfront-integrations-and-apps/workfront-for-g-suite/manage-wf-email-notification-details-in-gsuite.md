@@ -7,14 +7,18 @@ description: G Suite에서 알림 이메일 Adobe을 연 경우 [!DNL Workfront]
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: d5ca31d8-3667-4405-a523-3dc248a94746
-source-git-commit: 3143e5a4988b7234d8225da442f5af1d756d461d
+source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '508'
 ht-degree: 1%
 
 ---
 
 # 관리 [!DNL Adobe Workfront] 알림 세부 정보 [!DNL G Suite]
+
+>[!NOTE]
+>
+>다음 항목이 있습니다 [알려진 문제](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) 현재 버전의 [!DNL Workfront for G Suite] 예상대로 작동하지 않습니다. Adobe는 새 버전에서 작업하고 있으며 Launch가 [!DNL Google Marketplace] 가까운 미래에.
 
 in [!DNL G Suite]알림 이메일을 열면 [!DNL Adobe Workfront] 을(를) 보낸 경우, 관련 작업 항목 세부 사항을 보고, [!UICONTROL 받은 편지함]. 요청 승인 등의 작업을 사용할 수 있는 경우, [!DNL Workfront for G Suite].
 

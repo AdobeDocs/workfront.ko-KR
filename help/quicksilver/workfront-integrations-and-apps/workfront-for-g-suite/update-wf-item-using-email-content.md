@@ -7,14 +7,18 @@ description: Adobe Workfront이 아닌 이메일의 기존 프로젝트, 작업 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 2ac392f5-98a3-4ab6-a0e3-cda378f0f68b
-source-git-commit: 3143e5a4988b7234d8225da442f5af1d756d461d
+source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '677'
 ht-degree: 0%
 
 ---
 
 # 업데이트 [!DNL Adobe Workfront] 항목: [!DNL G Suite] 이메일 콘텐츠 사용
+
+>[!NOTE]
+>
+>다음 항목이 있습니다 [알려진 문제](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) 현재 버전의 [!DNL Workfront for G Suite] 예상대로 작동하지 않습니다. Adobe는 새 버전에서 작업하고 있으며 Launch가 [!DNL Google Marketplace] 가까운 미래에.
 
 기존 프로젝트, 작업 또는 문제가 아닌[!DNL Adobe Workfront] 이메일.
 

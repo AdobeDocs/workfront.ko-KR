@@ -7,14 +7,18 @@ description: '에서 업데이트에 대한 알림을 받으면 [!DNL Adobe] [!D
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b39c53b5-02b6-4c13-9f25-83cb3e3096d8
-source-git-commit: 3143e5a4988b7234d8225da442f5af1d756d461d
+source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 2%
+source-wordcount: '242'
+ht-degree: 1%
 
 ---
 
 # 회신 대상 [!DNL Adobe Workfront] 알림 업데이트 [!DNL G Suite]
+
+>[!NOTE]
+>
+>다음 항목이 있습니다 [알려진 문제](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) 현재 버전의 [!DNL Workfront for G Suite] 예상대로 작동하지 않습니다. Adobe는 새 버전에서 작업하고 있으며 Launch가 [!DNL Google Marketplace] 가까운 미래에.
 
 에서 업데이트에 대한 알림을 받으면 [!DNL Adobe] [!DNL Workfront]: 의 응답을 신속하게 게시할 수 있습니다. [!DNL Workfront for G Suite].
 

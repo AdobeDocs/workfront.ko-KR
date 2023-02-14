@@ -7,14 +7,18 @@ description: G Suite를 종료하지 않고도 작업 항목의 세부 사항을
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 0f15b05f-3b4a-4f0b-9d9a-21a0f97de1ea
-source-git-commit: 3143e5a4988b7234d8225da442f5af1d756d461d
+source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
 
 # 보기 및 관리 [!DNL Adobe Workfront] 개체 세부 정보 [!DNL G Suite]
+
+>[!NOTE]
+>
+>다음 항목이 있습니다 [알려진 문제](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) 현재 버전의 [!DNL Workfront for G Suite] 예상대로 작동하지 않습니다. Adobe는 새 버전에서 작업하고 있으며 Launch가 [!DNL Google Marketplace] 가까운 미래에.
 
 작업 항목을 종료하지 않고 세부 사항을 보고 관리할 수 있습니다 [!DNL G Suite]. 예를 들어, 작업 설명을 읽고, 해당 상위 개체를 보고, 상태를 변경하고, 완료된 것으로 표시할 수 있습니다 [!DNL Adobe Workfront for G Suite].
 

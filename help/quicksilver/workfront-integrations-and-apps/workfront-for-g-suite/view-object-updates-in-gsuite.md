@@ -7,14 +7,18 @@ description: G Suite를 종료하지 않으면에서 업데이트에 대한 업�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 13cd0478-4557-4d4c-915e-5b7b70aee8ce
-source-git-commit: 3143e5a4988b7234d8225da442f5af1d756d461d
+source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '217'
 ht-degree: 1%
 
 ---
 
 # 보기 [!DNL Adobe Workfront] 개체 업데이트 [!DNL G Suite]
+
+>[!NOTE]
+>
+>다음 항목이 있습니다 [알려진 문제](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) 현재 버전의 [!DNL Workfront for G Suite] 예상대로 작동하지 않습니다. Adobe는 새 버전에서 작업하고 있으며 Launch가 [!DNL Google Marketplace] 가까운 미래에.
 
 떠나지 않고 [!DNL G Suite], 업데이트에 대한 업데이트 및 응답을 볼 수 있습니다 [!DNL Adobe Workfront] 개체.
 
