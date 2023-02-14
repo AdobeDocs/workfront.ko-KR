@@ -8,9 +8,9 @@ description: Adobe Workfront for G Suite를 사용하면 가장 중요한 작업
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: dfced3e9-0338-446e-bf70-fa5d07f3ac1f
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 66b7d2fa6d6ee2e1c7f096382b183c7ea4e479c4
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
