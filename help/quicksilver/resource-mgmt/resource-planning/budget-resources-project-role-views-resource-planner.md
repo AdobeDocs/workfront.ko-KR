@@ -6,9 +6,9 @@ description: 프로젝트 및 역할 보기를 사용하여 Adobe Workfront 리�
 author: Alina
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-source-git-commit: a55041ad5a6cd41cd11ec3ade27bf5227ae0ac47
+source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
-source-wordcount: '2146'
+source-wordcount: '2160'
 ht-degree: 0%
 
 ---
@@ -146,6 +146,8 @@ ht-degree: 0%
    Business Case의 Resource Budgeting 영역 이해에 대한 자세한 내용은 문서의 &quot;Resource Budgeting&quot; 섹션을 참조하십시오 [비즈니스 사례 영역 개요](../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
 
 1. (선택 사항) 사용자 뷰를 선택하여 각 사용자에 대한 가용 시간과 계획 시간 사이의 초과 할당 또는 저가동률을 확인합니다. 예산책정된 시간은 사용자 뷰에 표시되지 않습니다.
+
+   Workfront이 사용자의 가용성을 계산하는 방법에 대한 자세한 내용은 [리소스 관리 환경 설정 구성](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 ### 역할 보기의 예산 리소스 {#budget-resources-in-the-role-view}
 

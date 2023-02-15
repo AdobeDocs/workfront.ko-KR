@@ -7,9 +7,9 @@ description: 리소스 계획자의 프로젝트 및 역할 뷰의 시간, FTE �
 author: Alina
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
-source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
+source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
-source-wordcount: '2958'
+source-wordcount: '2973'
 ht-degree: 0%
 
 ---
@@ -127,7 +127,8 @@ Resource Planner에서 원가를 계산하는 방법을 이해하는 방법에 �
      <li>기타 프로젝트에 대해 책정된 시간 </li> 
     </ul> <p>사용자 변경에 대한 사용 가능한 시간, FTE 또는 비용은 다음과 같이 변경됩니다. </p> 
     <ul> 
-     <li>시스템 레벨의 리소스 관리 기본 설정을 기반으로 스케줄 및 FTE를 계산하는 방법<br>사용자 및 Job 역할 가용성 계산에 대한 자세한 내용은 문서를 참조하십시오 <a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">리소스 계획자에서 사용자 및 역할에 대한 시간 및 FTE 계산 개요</a>.</li> 
+     <li>시스템 레벨의 리소스 관리 기본 설정을 기반으로 스케줄 및 FTE를 계산하는 방법<br><p>사용자 및 Job 역할 가용성 계산에 대한 자세한 내용은 문서를 참조하십시오 <a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">리소스 계획자에서 사용자 및 역할에 대한 시간 및 FTE 계산 개요</a>.</p>
+     Workfront에서 리소스 관리 환경 설정 구성에 대한 자세한 내용은 다음을 참조하십시오 <a href="../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">리소스 관리 환경 설정 구성</a></li> 
     </ul> 
     <ul> 
      <li>a <strong>프로젝트 계획 우선 순위</strong>: 사용자의 작업 예산이 책정된 경우<br>프로젝트 계획 우선 순위가 사용자의 사용 가능한 시간에 미치는 영향에 대한 자세한 내용은 <a href="../../resource-mgmt/resource-planning/resource-planner-navigation.md" class="MCXref xref">리소스 플래너 탐색 개요 </a>. </li> 
@@ -135,6 +136,8 @@ Resource Planner에서 원가를 계산하는 방법을 이해하는 방법에 �
   </tr> 
  </tbody> 
 </table>
+
+
 
 ### PLN(계획됨) 열 {#the-pln-planned-column}
 
@@ -303,7 +306,7 @@ Resource Planner에서 원가를 계산하는 방법을 이해하는 방법에 �
       <li> <p>사용 가능한 시간 또는 비용과 역할에 대한 예산 책정된 시간 또는 비용 간의 차이:</p> <p><code>Role Net Hours, FTE, or Cost = Role Available Hours, FTE, or Cost - Role Budgeted Hours, FTE, or Cost</code> </p> </li> 
       <li> <p><span>NET 계산 설정에서 계획(PLN) 값 사용 설정을 사용할 경우 역할에 대한 가용 시간 또는 비용과 계획 시간 또는 비용 간의 차이입니다.</span> </p> <p><span><code>Role Net Hours, FTE, or Cost = Role Available Hours, FTE, or Cost - Role Planned Hours, FTE, or Cost</code></span> </p> <p><b>팁</b> <span>
 
-이 옵션은 선택한 항목 표시 섹션에서 보기를 사용자 지정하는 경우에만 적용됩니다.</span> </p> <p><span>자세한 내용은</span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Adobe Workfront Resource Planner를 사용하여 리소스 가용성 및 할당 검토</a> </p> </li>
+이 옵션은 선택한 항목 표시 섹션에서 보기를 사용자 지정하는 경우에만 적용됩니다.</span> </p> <p><span>자세한 내용은 </span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Adobe Workfront Resource Planner를 사용하여 리소스 가용성 및 할당 검토</a> </p> </li>
 </ul>
 </div> </td>
 </tr> 
@@ -316,7 +319,7 @@ Resource Planner에서 원가를 계산하는 방법을 이해하는 방법에 �
       <li> <p>사용 가능한 시간 또는 원가와 사용자의 예산 책정된 시간 또는 원가 간의 차이:</p> <p><code>User Net Hours, FTE, or Cost = USer Available Hours, FTE, or Cost - User Budgeted Hours, FTE, or Cost</code> </p> </li> 
       <li> <p><span>NET 계산 설정에서 계획(PLN) 값 사용 설정을 사용할 경우, 사용 가능한 시간 또는 비용과 사용자의 계획 시간 또는 비용 간의 차이:</span> </p> <p><span><code>User Net Hours, FTE, or Cost = User Available Hours, FTE, or Cost - User Planned Hours, FTE, or Cost</code></span> </p> <p><b>팁</b> <span>
 
-이 옵션은 선택한 항목 표시 섹션에서 보기를 사용자 지정하는 경우에만 적용됩니다.</span> </p> <p><span>자세한 내용은</span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Adobe Workfront Resource Planner를 사용하여 리소스 가용성 및 할당 검토</a> </p> </li>
+이 옵션은 선택한 항목 표시 섹션에서 보기를 사용자 지정하는 경우에만 적용됩니다.</span> </p> <p><span>자세한 내용은 </span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Adobe Workfront Resource Planner를 사용하여 리소스 가용성 및 할당 검토</a> </p> </li>
 </ul>
 </div> </td>
 </tr> 

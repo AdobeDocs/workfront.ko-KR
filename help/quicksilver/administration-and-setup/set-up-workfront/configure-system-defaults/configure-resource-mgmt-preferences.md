@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
-source-git-commit: 5433008d93e99d69f8116e222bfce02411b77825
+source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ When calculating a user's capacity, Workfront takes into account the following i
 
 <!-drafted for Work Time field  
 
-* <span class="preview">The value of [!UICONTROL Work Time] for the user which refers to time that the user spends on project-related work. This does not include overhead time, like meetings and training. The [!UICONTROL Work Time] equals 1 when the user is available for work the entire time as indicated by the [!UICONTROL FTE] or the schedule, which means they don't spend any time in non-project-related work like meetings or trainings.</span>
+* <span class="preview">The value of [!UICONTROL Work Time] for the user which refers to time that the user spends on project-related work. This does not include overhead time, like meetings and training. The [!UICONTROL Work Time] equals 1 when the user is available for work the entire time as indicated by the [!UICONTROL FTE] or the schedule, which means they don't spend any time on non-project-related work like meetings or trainings.</span>
 
 -->
 
@@ -104,7 +104,7 @@ When calculating a user's capacity, Workfront takes into account the following i
 
 >[!NOTE]
 >
->전역 설정이므로 이 옵션은 전체 시스템, 모든 사용자, 모든 리소스 관리 도구 및 모든 리소스 풀에 대한 모든 계산에 영향을 줍니다.
+>전역 설정이므로 이 옵션은 모든 사용자, 모든 리소스 관리 도구의 전체 시스템 계산에 영향을 줍니다.
 
 1. 을(를) 클릭합니다. **[!UICONTROL 기본 메뉴]** 아이콘 ![](assets/main-menu-icon.png) 의 오른쪽 위 모서리에서 [!DNL Workfront]를 클릭한 다음 **[!UICONTROL 설정]** ![](assets/gear-icon-settings.png).
 1. 클릭 **[!UICONTROL 리소스 관리]**.
@@ -114,7 +114,7 @@ When calculating a user's capacity, Workfront takes into account the following i
 
       예약에 대한 자세한 내용은 [예약 만들기](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-      사용자 값에 대한 자세한 정보 [!UICONTROL FTE]를 참조하십시오.  [사용자 프로필 편집](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+      사용자의 값 찾기에 대한 자세한 정보 [!UICONTROL FTE]를 참조하십시오.  [사용자 프로필 편집](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
       Workfront은 Workfront 관리자가 [다음]을 선택하면 다음 공식을 사용하여 사용자의 [사용 가능한 시간]을 계산합니다 [!UICONTROL 기본 예약]:
 
@@ -179,16 +179,22 @@ When calculating a user's capacity, Workfront takes into account the following i
 
       >[!NOTE]
       >
-      >사용자가 예약과 연관되지 않은 경우, 사용자의 사용 가능한 시간은 [!UICONTROL 기본 예약].
+      >사용자가 예약과 연관되지 않은 경우, 사용자에 대한 사용 가능한 시간은 [!UICONTROL 기본 예약].
 
       <!--drafted for Work Time field:
       In the Production environment: 
       -->
 
+      사용자의 사용 가능 시간은 다음 공식으로 계산됩니다.
+
+      ```
+      User Available Hours = Hours from the [!UICONTROL Schedule] of the User - [!UICONTROL Schedule Exceptions] - Time off hours
+      ```
+
       사용 가능한 [!UICONTROL FTE] 의 경우, 사용자는 다음 공식을 사용하여 계산됩니다.
 
       ```
-      User Available [!UICONTROL FTE] = (Hours from the [!UICONTROL Schedule] of the User - Time off hours) / [!UICONTROL Default Schedule] hours
+      User Available [!UICONTROL FTE] = (Hours from the [!UICONTROL Schedule] of the User - [!UICONTROL Schedule Exceptions] - Time off hours) / [!UICONTROL Default Schedule] hours
       ```
 
       >[!INFO]
@@ -229,8 +235,7 @@ When calculating a user's capacity, Workfront takes into account the following i
       >```
       >User Weekly Available FTE = [(30-2) * 0.5] / 40 = 0.35
       >```
-      (************ checking this second other with Dev/ Artur - not sure where Exceptions fit in **********)
-
+      
       </div>
       -->
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.

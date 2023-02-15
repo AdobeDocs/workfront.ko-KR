@@ -6,7 +6,7 @@ description: 리소스 관리자는 Adobe Workfront 작업 로드 밸런서를 �
 author: Alina
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: d6516c0d7b92172ebe10c9f219c9c0ff8d614167
+source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
 source-wordcount: '983'
 ht-degree: 0%
@@ -14,6 +14,10 @@ ht-degree: 0%
 ---
 
 # 작업 로드 밸런서에서 작업 할당 개요
+
+<!--drafted for Work Time story:
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+-->
 
 리소스 관리자는 Adobe Workfront 작업 로드 밸런서를 사용하여 사용자에게 아직 할당되지 않은 작업 항목을 보고 이러한 항목을 할당할 수 있습니다.
 
@@ -47,6 +51,9 @@ Workfront은 다음 정보를 사용하여 작업 로드 밸런서에서 사용�
 * 사용자의 시간입니다. 사용자가 이륙할 날짜를 나타냅니다.
 
    자세한 내용은 [Adobe Workfront에서 개인 시간 설정](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+
+<!--drafted for Work Time: 
+* The user's Work Time. This indicates the percentage of FTE time that the user is available to perform actual project-related work, not including overhead. Set the Work Time value to  1 to indicate that the user is available for project-related work their entire full-time equivalent. -->
 
 ## 작업 로드 밸런서에서 작업 할당
 
