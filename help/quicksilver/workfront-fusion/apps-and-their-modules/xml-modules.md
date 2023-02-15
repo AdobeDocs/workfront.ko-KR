@@ -88,40 +88,40 @@ ht-degree: 1%
 >1. 새 시나리오를 만듭니다.
 >1. 삽입 [!UICONTROL HTTP] > [!UICONTROL 파일 가져오기] 모듈
 >1. 모듈의 구성을 열고 다음과 같이 구성합니다.
-
+>
 >
 >   **URL**: XML 파일의 URL(예: `https://siftrss.com/f/rqLy05ayMBJ`)
 >
 >   ![](assets/url-of-xml-file-350x184.png)
 >
 >1. 클릭 **[!UICONTROL 확인]**&#x200B;모듈&#x200B;의 구성을 저장하고 닫습니다.
-1. 추가 [!UICONTROL XML] > [!UICONTROL XML 구문 분석] 모듈, 뒤에 연결 [!UICONTROL HTTP] > [!UICONTROL 파일 가져오기] 모듈을 사용하여 다음과 같이 구성합니다.
-<table style="table-layout:auto"> 
-&gt;    <col> 
-&gt;    <col> 
-&gt;    <tbody> 
-&gt;     <tr> 
-&gt;      <td role="rowheader">[!UICONTROL 데이터 구조]</td> 
-&gt;      <td> 
-&gt;       <ol> 
-&gt;        <li value="1">을(를) 클릭합니다. <strong>[!UICONTROL Add]</strong> 버튼을 클릭합니다.</li> 
-&gt;        <li value="2">을(를) 클릭합니다. <strong>[!UICONTROL Generator]</strong> 버튼을 클릭합니다.</li> 
-&gt;        <li value="3">웹 브라우저에서 새 탭이나 창을 엽니다.</li> 
-&gt;        <li value="4">주소 표시줄의 세 번째 단계에서 사용한 URL을 넣고 XML 파일을 가져옵니다.</li> 
-&gt;        <li value="5">모든 XML 텍스트를 선택하고 클립보드에 복사합니다.</li> 
-&gt;        <li value="6">탭이나 창을 닫고 시나리오로 돌아갑니다.</li> 
-&gt;        <li value="7">복사한 XML 텍스트를 샘플 데이터 필드에 붙여넣습니다.</li> 
-&gt;        <li value="8">클릭 <strong>[!UICONTROL Save]</strong>.</li> 
-&gt;        <li value="9">데이터 구조가 성공적으로 생성되었는지 확인합니다.</li> 
-&gt;        <li value="10">클릭 <strong>[!UICONTROL Save]</strong> 를 눌러 데이터 구조를 저장합니다.</li> 
-&gt;       </ol> <p>2단계부터 9단계까지 건너뛰고 빈 데이터 구조를 제공할 수 있습니다. 데이터 구조가 비어 있으면 모듈이 적어도 한 번 이상 실행될 때까지 매핑 패널에서 모듈의 출력을 사용할 수 없습니다.</p> </td> 
-&gt;     </tr> 
-&gt;     <tr> 
-&gt;      <td role="rowheader">[!UICONTROL XML]</td> 
-&gt;      <td> <p>맵 <code>Data </code>[!UICONTROL HTTP] &gt; [!UICONTROL 파일 가져오기] 모듈의 출력에 있는 항목입니다. 를 사용하십시오 <code>toString()</code> 함수를 사용하여 값을 [!UICONTROL Buffer](이진 데이터) 형식에서 [!UICONTROL Text] 데이터 형식으로 변환합니다.</p> <p>수식 코드를 복사하여 필드에 붙여넣을 수 있습니다. <code>&#123;&#123;toString(1.data)&#125;&#125;</code></p> <p>버퍼 및 텍스트 데이터 유형에 대한 자세한 내용은 <a href="../../workfront-fusion/mapping/item-data-types.md" class="MCXref xref">Adobe Workfront Fusion의 항목 데이터 유형</a>.</p> <p> <img src="assets/paste-formula-code-350x99.png" style="width: 350;height: 99;"> </p> </td> 
-&gt;     </tr> 
-&gt;    </tbody> 
-&gt;   </table>
+>1. 추가 [!UICONTROL XML] > [!UICONTROL XML 구문 분석] 모듈, 뒤에 연결 [!UICONTROL HTTP] > [!UICONTROL 파일 가져오기] 모듈을 사용하여 다음과 같이 구성합니다.
+><table style="table-layout:auto"> 
+>    <col> 
+>    <col> 
+>    <tbody> 
+>     <tr> 
+>      <td role="rowheader">[!UICONTROL 데이터 구조]</td> 
+>      <td> 
+>       <ol> 
+>        <li value="1">을(를) 클릭합니다. <strong>[!UICONTROL Add]</strong> 버튼을 클릭합니다.</li> 
+>        <li value="2">을(를) 클릭합니다. <strong>[!UICONTROL Generator]</strong> 버튼을 클릭합니다.</li> 
+>        <li value="3">웹 브라우저에서 새 탭이나 창을 엽니다.</li> 
+>        <li value="4">주소 표시줄의 세 번째 단계에서 사용한 URL을 넣고 XML 파일을 가져옵니다.</li> 
+>        <li value="5">모든 XML 텍스트를 선택하고 클립보드에 복사합니다.</li> 
+>        <li value="6">탭이나 창을 닫고 시나리오로 돌아갑니다.</li> 
+>        <li value="7">복사한 XML 텍스트를 샘플 데이터 필드에 붙여넣습니다.</li> 
+>        <li value="8">클릭 <strong>[!UICONTROL Save]</strong>.</li> 
+>        <li value="9">데이터 구조가 성공적으로 생성되었는지 확인합니다.</li> 
+>        <li value="10">클릭 <strong>[!UICONTROL Save]</strong> 를 눌러 데이터 구조를 저장합니다.</li> 
+>       </ol> <p>2단계부터 9단계까지 건너뛰고 빈 데이터 구조를 제공할 수 있습니다. 데이터 구조가 비어 있으면 모듈이 적어도 한 번 이상 실행될 때까지 매핑 패널에서 모듈의 출력을 사용할 수 없습니다.</p> </td> 
+>     </tr> 
+>     <tr> 
+>      <td role="rowheader">[!UICONTROL XML]</td> 
+>      <td> <p>맵 <code>Data </code>[!UICONTROL HTTP] &gt; [!UICONTROL 파일 가져오기] 모듈의 출력에 있는 항목입니다. 를 사용하십시오 <code>toString()</code> 함수를 사용하여 값을 [!UICONTROL Buffer](이진 데이터) 형식에서 [!UICONTROL Text] 데이터 형식으로 변환합니다.</p> <p>수식 코드를 복사하여 필드에 붙여넣을 수 있습니다. <code>&#123;&#123;toString(1.data)&#125;&#125;</code></p> <p>버퍼 및 텍스트 데이터 유형에 대한 자세한 내용은 <a href="../../workfront-fusion/mapping/item-data-types.md" class="MCXref xref">Adobe Workfront Fusion의 항목 데이터 유형</a>.</p> <p> <img src="assets/paste-formula-code-350x99.png" style="width: 350;height: 99;"> </p> </td> 
+>     </tr> 
+>    </tbody> 
+>   </table>
 
 
 ## [!UICONTROL XML 특성 구문 분석]
@@ -181,26 +181,30 @@ ht-degree: 1%
 </table>
 
 >[!INFO]
-**예:**
-일반적인 사용 사례는 [!DNL Google] >스프레드시트를 XML로 변환합니다.
-1. 배치 [!DNL Google Sheets] > [!UICONTROL 행 선택] 모듈의 데이터를 가져옵니다. 모듈에서 행을 검색하도록 모듈을 설정합니다 [!DNL Google] 스프레드시트. 을 &#x200B; 설정합니다.**[!UICONTROL 반환된 최대 행 수]** 작은 숫자에 추가하되, 테스트 목적으로 하나 이상이면 됩니다(예: 3). 를 실행합니다 [!DNL Google Sheets] 마우스 오른쪽 단추를 클릭하고 &quot;**[!UICONTROL 이 모듈만 실행]**.&quot; 모듈의 출력을 확인합니다.
-1. 연결 [!UICONTROL 어레이 누적] 모듈 뒤 [!DNL Google Sheets] 모듈. 모듈의 설정에서 을(를) 선택합니다. [!DNL Google Sheets] 의 모듈 **[!UICONTROL 소스 노드]** 필드. 다른 필드는 현재 상태로 둡니다.
-1. 연결 [!UICONTROL XML] > [!UICONTROL XML 만들기] 모듈 뒤 [!UICONTROL 어레이 누적] 모듈.
-   모듈의 설정에 XML 출력의 구조를 설명하는 데이터 구조가 필요합니다. 을(를) 클릭합니다. **[!UICONTROL 추가]** 단추를 클릭하여 데이터 구조 설정을 엽니다. 이 데이터 구조를 만드는 가장 쉬운 방법은 XML 샘플에서 자동으로 생성하는 것입니다.
-1. 을(를) 클릭합니다. **[!UICONTROL 생성기]** XML 샘플을 [!UICONTROL 샘플 데이터] 필드:
-
-![](assets/sample-data-field-350x146.png)
-1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다. 이제 데이터 구조의 사양 필드에 생성된 구조가 포함됩니다.
-1. 데이터 구조 이름을 좀 더 구체적으로 변경하고 을(를) 클릭합니다 **[!UICONTROL 저장]**. 루트 배열 속성에 해당하는 필드가 JSON 모듈 설정에서 매핑 가능한 필드로 표시됩니다.
-1. 을(를) 클릭합니다. **[!UICONTROL 맵]** 필드 옆에 있는 버튼을 클릭하여 `Array[]` 항목 [!UICONTROL 어레이 누적] 출력 결과를 지정합니다.
-1. 클릭 **[!UICONTROL 확인]** XML 모듈의 설정을 닫습니다.
-1. 설치 프로그램을 엽니다. [!UICONTROL 어레이 누적] 모듈. 변경 **[!UICONTROL Target 구조]** 사용자 지정에서 상위 XML 요소에 해당하는 XML 모듈의 필드에 이르기까지 [!DNL Google Sheets] 모듈이 해당 필드에 삽입됩니다.
-1. 클릭 **[!UICONTROL 확인]** 어레이 누적 모듈의 설정을 닫습니다.
-1. 시나리오를 실행합니다.
-
-   XML 모듈은 올바른 XML 파일을 출력합니다.
-1. 설치 프로그램을 엽니다. [!DNL Google Sheets] 모듈 및 증가 [!UICONTROL 반환된 최대 행 수] 숫자를 스프레드시트의 행 수보다 크게 하여 모든 데이터를 처리합니다.
-   결과 XML은 [!DNL Dropbox]: 이메일을 통해 첨부 파일로 전송되고 FTP를 통해 서버에 업로드되는 등
+>
+>**예:**
+> 
+>일반적인 사용 사례는 [!DNL Google] >스프레드시트를 XML로 변환합니다.
+>1. 배치 [!DNL Google Sheets] > [!UICONTROL 행 선택] 모듈의 데이터를 가져옵니다. 모듈에서 행을 검색하도록 모듈을 설정합니다 [!DNL Google] 스프레드시트. 을 &#x200B; 설정합니다.**[!UICONTROL 반환된 최대 행 수]** 작은 숫자에 추가하되, 테스트 목적으로 하나 이상이면 됩니다(예: 3). 를 실행합니다 [!DNL Google Sheets] 마우스 오른쪽 단추를 클릭하고 &quot;**[!UICONTROL 이 모듈만 실행]**.&quot; 모듈의 출력을 확인합니다.
+>1. 연결 [!UICONTROL 어레이 누적] 모듈 뒤 [!DNL Google Sheets] 모듈. 모듈의 설정에서 을(를) 선택합니다. [!DNL Google Sheets] 의 모듈 **[!UICONTROL 소스 노드]** 필드. 다른 필드는 현재 상태로 둡니다.
+>1. 연결 [!UICONTROL XML] > [!UICONTROL XML 만들기] 모듈 뒤 [!UICONTROL 어레이 누적] 모듈.
+>   모듈의 설정에 XML 출력의 구조를 설명하는 데이터 구조가 필요합니다. 을(를) 클릭합니다. **[!UICONTROL 추가]** 단추를 클릭하여 데이터 구조 설정을 엽니다. 이 데이터 구조를 만드는 가장 쉬운 방법은 XML 샘플에서 자동으로 생성하는 것입니다.
+>1. 을(를) 클릭합니다. **[!UICONTROL 생성기]** XML 샘플을 [!UICONTROL 샘플 데이터] 필드:
+>
+>   ![](assets/sample-data-field-350x146.png)
+>1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다. 이제 데이터 구조의 사양 필드에 생성된 구조가 포함됩니다.
+>1. 데이터 구조 이름을 좀 더 구체적으로 변경하고 을(를) 클릭합니다 **[!UICONTROL 저장]**. 루트 배열 속성에 해당하는 필드가 JSON 모듈 설정에서 매핑 가능한 필드로 표시됩니다.
+>1. 을(를) 클릭합니다. **[!UICONTROL 맵]** 필드 옆에 있는 버튼을 클릭하여 `Array[]` 항목 [!UICONTROL 어레이 누적] 출력 결과를 지정합니다.
+>1. 클릭 **[!UICONTROL 확인]** XML 모듈의 설정을 닫습니다.
+>1. 설치 프로그램을 엽니다. [!UICONTROL 어레이 누적] 모듈. 변경 **[!UICONTROL Target 구조]** 사용자 지정에서 상위 XML 요소에 해당하는 XML 모듈의 필드에 이르기까지 [!DNL Google Sheets] 모듈이 해당 필드에 삽입됩니다.
+>1. 클릭 **[!UICONTROL 확인]** 어레이 누적 모듈의 설정을 닫습니다.
+>1. 시나리오를 실행합니다.
+>
+>   XML 모듈은 올바른 XML 파일을 출력합니다.
+>
+>1. 설치 프로그램을 엽니다. [!DNL Google Sheets] 모듈 및 증가 [!UICONTROL 반환된 최대 행 수] 숫자를 스프레드시트의 행 수보다 크게 하여 모든 데이터를 처리합니다.
+>
+>   결과 XML은 [!DNL Dropbox]: 이메일을 통해 첨부 파일로 전송되고 FTP를 통해 서버에 업로드되는 등
 
 
 ## XML 특성 추가

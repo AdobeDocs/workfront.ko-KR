@@ -83,18 +83,14 @@ PKCE 생성기 코드는 다음과 유사한 출력을 생성합니다.
 >
 >**예:**
 >
->
-```
+>```
 >{
 >
+>  "code\_verifier":"N28zVMsKU6ptUjHaYWg3T1NFTDQqcW1R4BU5NXywapNac4hhfkxjwfhZQat",
 >
-  "code\_verifier":"N28zVMsKU6ptUjHaYWg3T1NFTDQqcW1R4BU5NXywapNac4hhfkxjwfhZQat",
+>  "code\_challenge":"wzgjYF9qEiWep-CwqgrTE78-2ghjwCtRO3vj23o4W\_fw"
 >
->
-  "code\_challenge":"wzgjYF9qEiWep-CwqgrTE78-2ghjwCtRO3vj23o4W\_fw"
->
->
-}
+>}
 >```
 
 앱에서 를 저장합니다. `code_verifier` 나중에 및에서 `code_challenge` 인증 서버의 인증 요청과 함께 `/authorize` URL.
@@ -108,12 +104,10 @@ PKCE 생성기 코드는 다음과 유사한 출력을 생성합니다.
 >**예:**
 >
 >
->
-```
+>```
 >/authorize?client\_id=<clientID>&response\_type=code&redirect\_uri=<redirectURL>
 >
->
-&code\_challenge\_method=S256&code\_challenge=wzgjYF9qEiWep-CwqgrTE78-2ghjwCtRO3vj23o4W\_fw"
+>&code\_challenge\_method=S256&code\_challenge=wzgjYF9qEiWep-CwqgrTE78-2ghjwCtRO3vj23o4W\_fw"
 >```
 
 전달되는 매개 변수를 확인합니다.
@@ -139,21 +133,16 @@ PKCE 생성기 코드는 다음과 유사한 출력을 생성합니다.
 >
 >**예:**
 >
->
-```
+>```
 >/token \\
 >
+>  --header 'accept: application/json' \\
 >
-  --header 'accept: application/json' \\
+>  --header 'cache-control: no-cache' \\
 >
+>  --header 'content-type: application/x-www-form-urlencoded' \\
 >
-  --header 'cache-control: no-cache' \\
->
->
-  --header 'content-type: application/x-www-form-urlencoded' \\
->
->
-  --data 'grant\_type=authorization\_code&client\_id=<clientID>&redirect\_uri=<redirectURL>&code=<code>&code\_verifier=N28zVMsKU6ptUjHaYWg3T1NFTDQqcW1R4BU5NXywapNac4hhfkxjwfhZQat
+>  --data 'grant\_type=authorization\_code&client\_id=<clientID>&redirect\_uri=<redirectURL>&code=<code>&code\_verifier=N28zVMsKU6ptUjHaYWg3T1NFTDQqcW1R4BU5NXywapNac4hhfkxjwfhZQat
 >```
 
 >[!IMPORTANT]
@@ -179,21 +168,16 @@ PKCE 생성기 코드는 다음과 유사한 출력을 생성합니다.
 >
 >**예:**
 >
->
-```
+>```
 >{
 >
+>    "access\_token": "eyJhd\[...\]Yozv",
 >
-    "access\_token": "eyJhd\[...\]Yozv",
+>    "expires\_in": 3600,
 >
+>    "token\_type": "Bearer"
 >
-    "expires\_in": 3600,
->
->
-    "token\_type": "Bearer"
->
->
-}
+>}
 >```
 
 ## 액세스 토큰 유효성 검사
@@ -206,12 +190,10 @@ PKCE 생성기 코드는 다음과 유사한 출력을 생성합니다.
 >
 >**예:**
 >
->
-```
+>```
 >/attask/api/<api version>/proj/search \\
 >
->
-  --header 'sessionID: <access\_token>' \\
+>  --header 'sessionID: <access\_token>' \\
 >```
 
 ## 새로 고침 토큰 요청
@@ -222,19 +204,14 @@ PKCE 생성기 코드는 다음과 유사한 출력을 생성합니다.
 >
 >**예:**
 >
->
-```
+>```
 >/token \\
 >
+>  --header 'accept: application/json' \\
 >
-  --header 'accept: application/json' \\
+>  --header 'cache-control: no-cache' \\
 >
+>  --header 'content-type: application/x-www-form-urlencoded' \\
 >
-  --header 'cache-control: no-cache' \\
->
->
-  --header 'content-type: application/x-www-form-urlencoded' \\
->
->
-  --data 'grant\_type=refresh\_token&client\_id=<clientID>&redirect\_uri=<redirectURL>&refresh\_token=<refresh\_token>
+>  --data 'grant\_type=refresh\_token&client\_id=<clientID>&redirect\_uri=<redirectURL>&refresh\_token=<refresh\_token>
 >```

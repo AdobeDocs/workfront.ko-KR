@@ -133,18 +133,14 @@ JSON 형식으로 매개 변수와 값을 지정합니다.
 >
 >**예:**
 >
->
-```
+>```
 >{"user":"12345c2ecu1hq42ypqzhswbyam34",
 >
+>"token":"123459evz8aepwtxydndydgyumbfx",
 >
-"token":"123459evz8aepwtxydndydgyumbfx",
+>"message":"Hello World!",
 >
->
-"message":"Hello World!",
->
->
-"title":"The Push Notification"}
+>"title":"The Push Notification"}
 >```
 
 <table style="table-layout:auto"> 

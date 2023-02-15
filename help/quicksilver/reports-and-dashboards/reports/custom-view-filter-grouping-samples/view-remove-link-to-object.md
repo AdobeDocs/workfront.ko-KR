@@ -79,24 +79,16 @@ ht-degree: 0%
    >   
    >   
    >   * 바꾸기 **값** 코드 줄 **valueexpression** 등호 뒤에 중괄호 안에 포함된 동일한 이름을 유지합니다.
-   >   
-   >   
    >
+   >     ```>   
+   >     link.
+   >     ```   >   
    >   
-   >   
-   >   * >으로 시작하는 모든 줄 제거
-
-      >   
-      >     ```>   
-      >     link.
-      >     ```   >   
-      >   
-      >     
-      from the original text of the column. For example, eliminate all the following lines:
-      >     <pre>link.linkproperty.0.name=ID</pre><pre>link.linkproperty.0.valuefield=ID</pre><pre>link.linkproperty.0.valueformat=string</pre><pre>link.lookup=link.view</pre><pre>link.value=val(objCode)</pre>
-      >   
-      >   
-      >
+   >     from the original text of the column. For example, eliminate all the following lines:
+   >     <pre>link.linkproperty.0.name=ID</pre><pre>link.linkproperty.0.valuefield=ID</pre><pre>link.linkproperty.0.valueformat=string</pre><pre>link.lookup=link.view</pre><pre>link.value=val(objCode)</pre>
+   >
+   >
+   >
 
 
 

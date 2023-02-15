@@ -68,30 +68,22 @@ ht-degree: 0%
 >  
 >다음은에서 올바르게 인식하지 못합니다. [!UICONTROL Workfront Fusion]:
 >
->
-```
+>```
 ><complexType name="ArrayOfFloat">
 >
->   
-  <complexContent>
+>   <complexContent>
 >
->      
-     <restriction base="soapenc:Array">
+>      <restriction base="soapenc:Array">
 >
->         
-        <attribute ref="soapenc:arrayType"
+>         <attribute ref="soapenc:arrayType"
 >
->            
-           wsdl:arrayType="xsd:integer[]"/>
+>            wsdl:arrayType="xsd:integer[]"/>
 >
->      
-     </restriction>
+>      </restriction>
 >
->   
-  </complexContent>
+>   </complexContent>
 >
->
-</complexType>
+></complexType>
 >```
 
 여기에는 다음이 포함됩니다 `soapenc:Array`, `soapenc:arrayType` 및 `wsdl:arrayType` 참조 - 아직 에서 지원되지 않음 [!UICONTROL Workfront Fusion].
