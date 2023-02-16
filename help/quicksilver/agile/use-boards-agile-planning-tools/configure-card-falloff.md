@@ -6,7 +6,7 @@ title: 카드 폴아웃 구성
 description: 카드를 일정에 따라 보관하거나 보드에서 폴아웃하도록 보드를 구성할 수 있습니다.
 author: Lisa
 exl-id: 0e4f6b3c-75aa-4314-9cb0-737e5a9d3bda
-source-git-commit: 2dfa3e7b215a8234453b2d688031c993978e02ae
+source-git-commit: 5114a135c510d5a7020fd0a0862f9dcc61d9ad93
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 0%
@@ -52,7 +52,7 @@ ht-degree: 0%
 
    ![카드 폴아웃 설정](assets/card-falloff-switch.png)
 
-1. 보드에서 카드를 보관할 시기를 선택합니다. 최대 4주 또는 최대 30일을 선택할 수 있습니다.
+1. 보드에서 카드를 보관할 시기를 선택합니다. 최대 8주 또는 최대 60일을 선택할 수 있습니다.
 
    날짜는 카드를 마지막으로 수정한 시점부터 결정됩니다.
 
