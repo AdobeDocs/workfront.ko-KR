@@ -6,9 +6,9 @@ title: 에 대한 초기 기능 옵트인 [!DNL Adobe Workfront] 보드
 description: 에 대해 알아보려면 이 문서를 참조하십시오. [!DNL Workfront Boards] 초기 기능 옵트인.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 4b494093110edaa82ade13756b5f6717e4013efa
+source-git-commit: e28d3d70e05bc10497e54655499602fe48a392a3
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '631'
 ht-degree: 0%
 
 ---
@@ -126,7 +126,7 @@ ht-degree: 0%
   </tr>
   <tr>
    <td>보드 컬렉션 만들기</td>
-   <td>계획됨</td>
+   <td>부분적으로 릴리즈됨</td>
   </tr>
   <tr>
    <td>반복 생성</td>
@@ -162,7 +162,7 @@ ht-degree: 0%
 전용 [!DNL Workfront] 관리자는 보드에 대한 초기 기능을 선택할 수 있습니다. 다음의 경우 [!DNL Workfront] 관리자는 초기 기능을 활성화하고 조직의 모든 사용자가 옵트인됩니다.
 
 1. 을(를) 클릭합니다. **[!UICONTROL 기본 메뉴]** 아이콘 ![](assets/main-menu-icon.png) 의 오른쪽 위 모서리에서 [!DNL Adobe Workfront]를 클릭한 다음 **[!UICONTROL 보드]**.
-1. 클릭 **[!UICONTROL 초기 기능 옵트인]** 대시보드 화면의 맨 위에 있습니다.
+1. 클릭 ![초기 기능 옵트인](assets/early-feature-opt-in-not-enabled.png) ([!UICONTROL 초기 기능 옵트인])을 클릭하여 제품에서 사용할 수 있습니다.
 1. 클릭 **[!UICONTROL 활성화]**.
 1. 보드의 초기 기능을 사용해 보십시오.
 
@@ -192,5 +192,5 @@ ht-degree: 0%
 전용 [!DNL Workfront] 관리자는 초기 기능 수신을 거부할 수 있습니다. 다음과 같은 경우 [!DNL Workfront] 관리자는 초기 기능을 비활성화하고 조직의 모든 사용자가 옵트아웃됩니다.
 
 1. 을(를) 클릭합니다. **[!UICONTROL 기본 메뉴]** 아이콘 ![](assets/main-menu-icon.png) 의 오른쪽 위 모서리에서 [!DNL Adobe Workfront]를 클릭한 다음 **[!UICONTROL 보드]**.
-1. 클릭 **[!UICONTROL 초기 기능 옵트인 사용]** 대시보드 화면의 맨 위에 있습니다.
+1. 클릭 ![초기 기능 옵트인 사용](assets/early-feature-opt-in-enabled.png) ([!UICONTROL 초기 기능 옵트인 사용])을 클릭하여 제품에서 사용할 수 있습니다.
 1. 클릭 **[!UICONTROL 비활성화]**.

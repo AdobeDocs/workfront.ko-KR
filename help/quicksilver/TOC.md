@@ -2,9 +2,9 @@
 user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 feature-set: Workfront
-source-git-commit: 56af35ff6253a1ddd42ec0a1fdcfb98409d72c40
+source-git-commit: e28d3d70e05bc10497e54655499602fe48a392a3
 workflow-type: tm+mt
-source-wordcount: '12688'
+source-wordcount: '12695'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 1%
       * [Adobe Workfront 분기별 릴리스 준비](product-announcements/product-releases/release-readiness.md)
       * 23.2 릴리스 {#release-23-2}
          * [23.2 릴리스 개요](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
+         * [23.2 릴리스 활동: 2023년 2월 13일 주](product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md)
          * [23.2 릴리스 활동: 2023년 2월 6일 주](product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md)
          * [23.2 릴리스 활동: 2023년 1월 23일 주](product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md)
          * [23.2 릴리스 기간 동안 업데이트 확인 및 감지](product-announcements/product-releases/23.2-release-activity/23-2-look-and-feel.md)
@@ -901,6 +902,7 @@ ht-degree: 1%
       * [보드에 흡기 열 추가](agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
       * [보드에서 그룹 사용](agile/use-boards-agile-planning-tools/group-cards-on-board.md)
       * [카드 폴아웃 구성](agile/use-boards-agile-planning-tools/configure-card-falloff.md)
+      * [컬렉션 관리](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
    * 애자일 팀의 간판 {#kanban}
       * [애자일 팀의 간판](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
       * [간판 개요](agile/use-kanban-in-an-agile-team/kanban-overview.md)
