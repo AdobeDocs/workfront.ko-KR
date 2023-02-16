@@ -6,16 +6,16 @@ description: 프로젝트를 처음부터 만들지 않고 복사할 수 있습�
 author: Alina
 feature: Work Management
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: 5e0e1425f45886a805726de49357c43b0aecb7f4
+source-git-commit: 95c999a72020ce825f3a8377662c71e35a194d80
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '736'
 ht-degree: 5%
 
 ---
 
 # 프로젝트 복사
 
-<!--some areas are drafted for the 23.2 release story-->
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 환경에서만 사용할 수 있습니다.</span>
 
 <!--
 <(LINKED TO THE PRODUCT IN THE COPY PROJECT BOX)</p>
@@ -33,7 +33,7 @@ ht-degree: 5%
 >* 메모
 >* 시간
 >* 프로젝트 간 이전
->* 예산 시간 <!-- drafted for release 23.2: take this out and move it to the one below IF there is no UI component for the story that allows you to check/uncheck this information as you copy the project. If there is a UI component, take this out of here and just add it to the new screen shot below. -->
+>* <span class="preview">예산 시간</span>
 >
 >다음 항목은 항상 기존 프로젝트에서 새 프로젝트로 복사됩니다.
 >
@@ -137,11 +137,6 @@ ht-degree: 5%
 
 1. (선택 사항) 새 프로젝트에 복사하지 않으려는 항목을 선택 취소합니다. 다음 표에서는 항목을 선택 취소할 때 발생하는 내용을 설명합니다.
 
-   <!--drafted for story for the 23.2 release: add another line in the table below for "Budgeted hours" and add this information to that row:
-      Removes the hours budgeted in the Resource Planning area of the project's Business Case from the copied project. 
-      <b>NOTE</b>
-      Hours budgeted using the Scenario Planner are never copied to the new project because the new project is not linked to an initiative in the Scenario Planner. For more information, see <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Budget resources in the Business Case using the Scenario Planner</a>
-      -->
 
    <table style="table-layout:auto"> 
     <col> 
@@ -162,7 +157,7 @@ ht-degree: 5%
       <td>모든 작업의 진행 상태를 제거하고 새 작업으로 표시합니다. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">사용자 지정 데이터</td> 
+      <td role="rowheader">사용자 정의 데이터</td> 
       <td> <p>프로젝트의 사용자 지정 양식에서 정보를 제거하고 다음 항목과 연결된 사용자 지정 양식에 대한 정보를 제거합니다.</p> 
        <ul> 
         <li>작업</li> 
@@ -178,9 +173,20 @@ ht-degree: 5%
      </tr> 
      <tr> 
       <td role="rowheader">모든 선행 작업</td> 
-      <td> <p>프로젝트의 작업 간에 모든 이전 관계를 제거합니다. </p> <p>팁: 프로젝트 간 선행 작업자는 이 옵션이 선택되어 있는지 여부에 관계없이 새 프로젝트로 전송되지 않습니다. </p> </td> 
-     </tr> 
-     <tr> 
+      <td> <p>프로젝트의 작업 간에 모든 이전 관계를 제거합니다. </p> <p><b>팁</b>
+
+   프로젝트 간 선행 작업자는 이 옵션이 선택되어 있는지 여부에 관계없이 새 프로젝트로 전송되지 않습니다. </p> </td>
+   </tr>
+
+<tr> 
+      <td role="rowheader"><span class="preview">예산 시간</span></td> 
+      <td> <p><span class="preview">복사된 프로젝트에서 프로젝트 업무 사례의 Resource Planning 영역에 예산 책정된 시간을 제거합니다. <span class="preview"></p>
+
+<b>메모</b>
+
+<span class="preview">시나리오 계획자를 사용하여 설정한 시간은 새 프로젝트가 시나리오 계획자의 이니셔티브에 연결되지 않으므로 새 프로젝트에 복사되지 않습니다. 자세한 내용은 <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">시나리오 계획자를 사용하여 비즈니스 사례의 예산 자원</a></span>
+</tr></td>
+    <tr> 
       <td role="rowheader">재무 정보</td> 
       <td> <p>다음 영역에서 정보를 제거합니다. </p> 
        <ul> 

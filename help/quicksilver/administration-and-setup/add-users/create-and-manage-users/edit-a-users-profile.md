@@ -8,54 +8,17 @@ author: Courtney, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
+source-git-commit: 95c999a72020ce825f3a8377662c71e35a194d80
 workflow-type: tm+mt
-source-wordcount: '2557'
+source-wordcount: '2760'
 ht-degree: 0%
 
 ---
 
 # 사용자 프로필 편집
 
-<!--drafted for Work Time field: 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
 
-In the table below, under Resource Planning, add the "Work Time" field and update the "FTE" field:
-
-<b><span class="preview">Work Time</span></b>: <span class="preview">Represents the percentage of the Full Time Equivalent (FTE) time that the user is available for actual work, not including overhead. Work Time must be a decimal number up to 1, and it cannot be 0. For example, a 20% availability for actual work would be 0.2.</span> 
-
-<span class="preview">The field's default is 1, indicating that a user spends their entire FTE on actual, project-related work.</span>  
-
-<span class="preview">The system uses this number to calculate the availability of the user for actual, project-related work. </span> 
-
-<span class="preview">For more information about creating schedules in Workfront, see Create a schedule.</span>
-
-<span class="preview">Schedule exceptions and time off might also affect the user capacity. 
-
-Workfront calculates a user's availability depending on the Resource Management preferences in your Setup area. For more information, see Configure Resource Management preferences. (*****INSERT LINK****)
-
-<b>TIP</b>
-
-<span class="preview">Set the Work Time value to  1 to indicate that the user is available for project-related work their entire full-time equivalent.</span>
-
-
-***UPDATED FTE FIELD***
-
-FTE: This is the Full Time Equivalent of the user. Workfront uses this number to calculate the availability of the user based on the Default Schedule only when the Resource Management Preferences at the system level are set to The Default Schedule. The FTE indicates the amount of time that the user can spend at work. This includes overhead, and  time that is not spent on project work, but on other type of work. For example, time that is spent in meetings, or training is also included in the FTE. 
-
-The FTE must be a decimal number up to 1, and it cannot be 0. 
-The field's default is 1.
-
-For example, if the FTE value is 0.5 and the Default Schedule in Workfront is 40 hours, the user is available for 20 hours a week. 
-
-Schedule exceptions, time off might, <span class="preview">and the value of Work Time</span> may affect the amount of available hours or the FTE. 
-
-Workfront calculates a user's availability depending on the Resource Management preferences in your Setup area. For more information, see Configure Resource Management preferences. (*****INSERT LINK****)
-
-If the Resource Management Preferences at the system level are set to The User's Schedule, the value you specify here is ignored and the user is considered to be available according to what is specified in their schedule. 
-
-For more information about creating schedules in Workfront, see Create a schedule. (*****INSERT LINK*****)
--->
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 환경에서만 사용할 수 있습니다.</span>
 
 >[!IMPORTANT]
 >
@@ -144,16 +107,16 @@ Adobe Workfront 관리자는 새 사용자를 만들고 기존 사용자의 프�
       <td role="rowheader">액세스</td> 
       <td> 
        <ul> 
-        <li><b>활성 상태:</b> 사용자가 활성 상태임을 나타내려면 이 상자를 선택합니다. 활성 사용자는 Workfront 라이센스를 사용합니다. 상자를 지우면 사용자가 비활성화됩니다.</li> 
-        <li> <p><b>액세스 수준:</b> 이 사용자에게 할당할 액세스 수준을 선택합니다.</p> 
-        <p>사용자에게 액세스 수준을 할당할 때, 사용자 자신의 액세스 수준 이하로 수준을 지정할 수 있습니다. 예를 들어, 액세스 레벨이 계획자이면 관리자 액세스 레벨을 지정할 수 없습니다. 그러나 Workfront 관리자가 액세스 수준(에 설명된 대로 세부 조정 설정을 통해)에서도 활성화되지 않은 액세스 수준에서 기본적으로 고유한 액세스 수준보다 낮은 액세스 수준을 할당할 수 없습니다 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>). </p> 
-        <p>액세스 수준에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Adobe Workfront에 대한 액세스 구성</a>.</p> </li> 
-        <li> <p><b>레이아웃 템플릿</b>: 사용자의 레이아웃 템플릿을 선택합니다. 이 레이아웃 템플릿은 사용자의 홈 그룹, 홈 팀 또는 기본 작업 역할에 할당된 모든 레이아웃 템플릿보다 우선합니다. 레이아웃 템플릿의 할당 우선 순위에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">레이아웃 템플릿 만들기 및 관리</a>.</p> <p><b>메모</b>:  <p>이 필드에서 사용할 수 있는 템플릿 목록은 액세스 권한에 따라 다릅니다.</p> 
-          <ul> 
-           <li>Workfront 관리자는 모든 시스템 수준 및 그룹 수준 레이아웃 템플릿을 볼 수 있습니다.</li> 
-           <li>그룹 관리자는 시스템 수준 레이아웃 템플릿과 관리하는 그룹과 연관된 템플릿을 볼 수 있습니다.</li> 
-           <li>플랜 라이센스가 있고 사용자 편집에 액세스할 수 있는 사용자는 시스템 수준 레이아웃 템플릿만 볼 수 있습니다.</li> 
-          </ul> <p>그룹 수준 레이아웃 템플릿에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">레이아웃 템플릿 만들기 및 관리</a>.</p> </p> </li> 
+      <li><b>활성 상태:</b> 사용자가 활성 상태임을 나타내려면 이 상자를 선택합니다. 활성 사용자는 Workfront 라이센스를 사용합니다. 상자를 지우면 사용자가 비활성화됩니다.</li> 
+       <li> <p><b>액세스 수준:</b> 이 사용자에게 할당할 액세스 수준을 선택합니다.</p> 
+       <p>사용자에게 액세스 수준을 할당할 때, 사용자 자신의 액세스 수준 이하로 수준을 지정할 수 있습니다. 예를 들어, 액세스 레벨이 계획자이면 관리자 액세스 레벨을 지정할 수 없습니다. 그러나 Workfront 관리자가 액세스 수준(에 설명된 대로 세부 조정 설정을 통해)에서도 활성화되지 않은 액세스 수준에서 기본적으로 고유한 액세스 수준보다 낮은 액세스 수준을 할당할 수 없습니다 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>). </p> 
+       <p>액세스 수준에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Adobe Workfront에 대한 액세스 구성</a>.</p> </li> 
+       <li> <p><b>레이아웃 템플릿</b>: 사용자의 레이아웃 템플릿을 선택합니다. 이 레이아웃 템플릿은 사용자의 홈 그룹, 홈 팀 또는 기본 작업 역할에 할당된 모든 레이아웃 템플릿보다 우선합니다. 레이아웃 템플릿의 할당 우선 순위에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">레이아웃 템플릿 만들기 및 관리</a>.</p> <p><b>메모</b>:  <p>이 필드에서 사용할 수 있는 템플릿 목록은 액세스 권한에 따라 다릅니다.</p> 
+       <ul> 
+       <li>Workfront 관리자는 모든 시스템 수준 및 그룹 수준 레이아웃 템플릿을 볼 수 있습니다.</li> 
+       <li>그룹 관리자는 시스템 수준 레이아웃 템플릿과 관리하는 그룹과 연관된 템플릿을 볼 수 있습니다.</li> 
+       <li>플랜 라이센스가 있고 사용자 편집에 액세스할 수 있는 사용자는 시스템 수준 레이아웃 템플릿만 볼 수 있습니다.</li> 
+       </ul> <p>그룹 수준 레이아웃 템플릿에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">레이아웃 템플릿 만들기 및 관리</a>.</p> </p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -173,7 +136,24 @@ Adobe Workfront 관리자는 새 사용자를 만들고 기존 사용자의 프�
       <td role="rowheader">리소스 계획 수립 </td> 
       <td> 
        <ul>
-       <li><b>비활성화 예약</b>: 일정 기간 후에 이 사용자를 비활성화하도록 예약하려면 이 상자를 선택합니다. </li> 
+       <li>
+       <b><span class="preview">작업 시간</span></b>: <span class="preview">오버헤드를 포함하지 않고 실제 작업에 사용할 수 있는 FTE(Full Time Equivalent) 시간의 백분율을 나타냅니다. 작업 시간은 1까지의 십진수여야 하며 0일 수 없습니다. 예를 들어 실제 작업의 20% 가용성은 0.2입니다.</span>
+
+   <span class="preview">필드의 기본값은 1이며, 사용자가 실제 프로젝트 관련 작업에 전체 FTE를 사용함을 나타냅니다.</span>
+
+   <span class="preview">시스템은 이 숫자를 사용하여 실제 프로젝트 관련 작업에 대한 사용자의 가용성을 계산합니다. </span>
+
+   <span class="preview">Workfront에서 예약 만들기에 대한 자세한 내용은 <a href="../../set-up-workfront/configure-timesheets-schedules/create-schedules.md">예약 만들기</a>.</span>
+
+   <span class="preview">예약 예외 및 해제 시간은 사용자 용량에 영향을 줄 수 있습니다.
+
+   Workfront은 설정 영역의 리소스 관리 환경 설정에 따라 사용자의 가용성을 계산합니다. 자세한 내용은 <a href="../../set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">리소스 관리 환경 설정 구성</a>.
+
+   <b>팁</b>
+
+   <span class="preview">사용자가 프로젝트 관련 작업에 사용할 수 있음을 나타내려면 작업 시간 값을 1로 설정합니다.</span>
+   </li> 
+      <li> <b>비활성화 예약</b>: 일정 기간 후에 이 사용자를 비활성화하도록 예약하려면 이 상자를 선택합니다. </li> 
        <li><b>예약된 비활성화 날짜</b>: 사용자가 비활성화된 날짜입니다. 사용자 비활성화 예약에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#scheduling-users-for-deactivation" class="MCXref xref">사용자 비활성화 예약</a> in <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">사용자 비활성화 또는 다시 활성화</a>.</li> 
        <li> <p><b>기본 역할</b>: 사용자가 Workfront에서 수행할 수 있는 기본 작업 역할입니다. 사용자가 할당되는 모든 작업 및 문제도 이 작업 역할에 할당됩니다. 자원 관리에는 직무 역할이 필수적입니다. 관리자 액세스 권한이 있는 Plan 라이센스가 있거나 Workfront 관리자인 경우에만 이 필드를 업데이트할 수 있습니다. 관리자 액세스 권한이 있는 사용자 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">사용자에게 액세스 권한 부여</a>.</p> <p>활성 작업 역할만 목록에 표시됩니다. </p> </li> 
        <li>선택한 경우 <b>기본 역할</b>, <b>FTE 가용성 비율</b> 필드가 표시됩니다. 이 작업 역할에 할당된 사용자의 일정 시간의 백분율을 지정합니다. 기본 역할에 대한 FTE 가용성 백분율에 대한 기본값은 100%입니다. </li> 
@@ -188,9 +168,28 @@ Adobe Workfront 관리자는 새 사용자를 만들고 기존 사용자의 프�
       </ul></p> </li> 
        <li><b>기본 시간 유형</b>: 사용자의 기본 시간 유형을 선택합니다. 사용자가 시간을 기록할 때 기본적으로 사용되는 시간 유형입니다.</li> 
        <li><b>사용 가능한 시간 유형</b>: 사용자가 사용할 수 있어야 하는 시간 유형을 선택합니다. 이러한 시간 유형은 사용자가 로그인할 수 있는 Workfront의 모든 위치에 표시됩니다. 사용자는 프로젝트 수준에서 활성화된 시간 유형과 사용자 레벨만 볼 수 있습니다. 사용자가 사용할 수 있는 시간 유형에 대한 자세한 내용은 <a href="../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md" class="MCXref xref">작업표의 시간 유형 및 가용성을 정의합니다.</a>.</li> 
-       <li><b>로그인 시간:</b> 사용자가 작업 항목에 대한 시간을 시간 또는 일 단위로 기록할지 여부를 선택합니다. 자세한 내용은 <a href="../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md" class="MCXref xref">시간 또는 일 단위로 로그인 여부 구성</a>.</li> 
-       <li> <p><b>FTE</b>: 시스템 레벨의 자원 관리 환경설정이 <b>기본 예약</b>. 값은 <i>0</i> 또는 다음 사이 <i>.1</i> 및 <i>1</i>.</p> <p>예를 들어 FTE 값이 0.5이고 기본 일정이 40시간인 경우 사용자는 일주일에 20시간 동안 작업할 수 있습니다.</p> <p>시스템 레벨의 자원 관리 환경설정이 <b>사용자 일정</b>로 지정하는 값은 무시되고 사용자는 일정에 지정된 대로 사용할 수 있는 것으로 간주됩니다. 이 경우 리소스 계획자에 대한 사용자의 FTE는 다음 공식으로 계산됩니다.</p> <p ><code>User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours</code><em><br></em> </p> <p>사용자 FTE 계산에 대한 자세한 내용은 <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">리소스 계획자에서 사용자 및 역할에 대한 시간 및 FTE 계산 개요</a>.<br>Workfront에서 예약 만들기에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">예약 만들기</a>.</p> <p>스케줄 예외 및 타임오프는 계획 시간 또는 FTE의 양에 영향을 줄 수 있습니다. 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">리소스 관리 환경 설정 구성</a>. </p> </li> 
-        <li><b>리소스 풀</b>: 사용자를 리소스 풀에 연결합니다. 자세한 내용은 <a href="../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md" class="MCXref xref">사용자와 리소스 풀 연결 </a>.</li> 
+       <li><b>로그인 시간:</b> 사용자가 작업 항목에 대한 시간을 시간 또는 일 단위로 기록할지 여부를 선택합니다. 자세한 내용은 <a href="../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md" class="MCXref xref">시간 또는 일 단위로 로그인 여부 구성</a>.</li>
+
+   <li> <b>FTE</b>: 사용자의 전체 시간과 같습니다. Workfront은 이 숫자를 사용하여 시스템 수준의 리소스 관리 기본 설정이 기본 예약으로 설정된 경우에만 기본 예약을 기반으로 사용자의 가용성을 계산합니다.
+
+   <p>FTE는 사용자가 직장에서 사용할 수 있는 시간을 나타냅니다. 여기에는 오버헤드와 프로젝트 작업 시간이 포함됩니다. 예를 들어, 회의나 교육에 소요되는 시간은 FTE에도 포함됩니다.</p>
+
+   FTE는 최대 1의 소수 숫자여야 하며 0일 수 없습니다. 예를 들어 FTE 값이 0.5이고 Workfront의 기본 일정이 40시간인 경우 사용자는 일주일에 20시간 동안 사용할 수 있습니다.
+
+   필드의 기본값은 1입니다.
+
+   예약 예외, 시간 초과, <span class="preview">작업 시간 값</span> 사용자의 가용성에 영향을 줄 수 있습니다.
+
+   Workfront은 설정 영역의 리소스 관리 환경 설정에 따라 사용자의 가용성을 계산합니다.
+
+   시스템 레벨의 자원 관리 환경설정이 사용자 스케줄로 설정된 경우 여기서 지정하는 값은 무시되며 사용자는 스케줄에 지정된 대로 사용 가능한 것으로 간주됩니다.
+
+   자세한 내용은 <a href="../../set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">리소스 관리 환경 설정 구성</a>.
+
+   Workfront에서 예약 만들기에 대한 자세한 내용은 <a href="../../set-up-workfront/configure-timesheets-schedules/create-schedules.md">예약 만들기</a>.
+   </li>
+
+   <li><b>리소스 풀</b>: 사용자를 리소스 풀에 연결합니다. 자세한 내용은 <a href="../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md" class="MCXref xref">사용자와 리소스 풀 연결 </a>.</li> 
         <li><b>시간당 비용</b>: 사용자의 시간당 비용 금액입니다. </li> 
         <li><b>시간당 청구</b>: 사용자에 대한 시간당 청구 금액입니다.</li> 
        </ul> </td> 

@@ -2,9 +2,9 @@
 user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 feature-set: Workfront
-source-git-commit: 5b7253fb0313e4ba1a2959497c0b3f92cff30e13
+source-git-commit: 56af35ff6253a1ddd42ec0a1fdcfb98409d72c40
 workflow-type: tm+mt
-source-wordcount: '12683'
+source-wordcount: '12688'
 ht-degree: 1%
 
 ---
@@ -1088,6 +1088,7 @@ ht-degree: 1%
          * [블루프린트 카탈로그를 찾아보고 블루프린트 설치를 요청합니다](administration-and-setup/blueprints/browse-catalog.md)
          * [프로젝트 템플릿 복사](manage-work/projects/create-and-manage-templates/copy-template.md)
          * [프로젝트에 템플릿 첨부](manage-work/projects/create-and-manage-templates/attach-template-to-project.md)
+         * [템플릿 작업 복사 및 이동](manage-work/projects/create-and-manage-templates/copy-and-move-template-tasks.md)
          * [프로젝트 템플릿 편집](manage-work/projects/create-and-manage-templates/edit-templates.md)
          * [템플릿 작업 편집](manage-work/projects/create-and-manage-templates/edit-template-task.md)
          * [프로젝트에서 템플릿 만들기](manage-work/projects/create-and-manage-templates/create-template-from-project.md)
