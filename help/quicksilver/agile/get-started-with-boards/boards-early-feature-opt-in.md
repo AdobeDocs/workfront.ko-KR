@@ -6,9 +6,9 @@ title: 에 대한 초기 기능 옵트인 [!DNL Adobe Workfront] 보드
 description: 에 대해 알아보려면 이 문서를 참조하십시오. [!DNL Workfront Boards] 초기 기능 옵트인.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 814765092d5906417513966d9f563ae5e097d1d1
+source-git-commit: d02c6cd8ed8234bc9f8757835956290334f41e30
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '614'
 ht-degree: 0%
 
 ---
@@ -139,6 +139,10 @@ ht-degree: 0%
   <tr>
    <td>하위 작업을 카드의 체크리스트 항목으로 가져오기</td>
    <td>계획됨</td>
+  </tr>
+  <tr>
+   <td>열로 이동한 카드에 대한 기본 상태를 정의합니다</td>
+   <td>부분적으로 릴리즈됨</td>
   </tr>
  </tbody> 
 </table>
