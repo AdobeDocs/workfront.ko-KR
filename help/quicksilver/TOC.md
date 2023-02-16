@@ -2,9 +2,9 @@
 user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 feature-set: Workfront
-source-git-commit: 8d9717a5b24c98f31d8248a87145fb7aa4244219
+source-git-commit: 5b7253fb0313e4ba1a2959497c0b3f92cff30e13
 workflow-type: tm+mt
-source-wordcount: '12675'
+source-wordcount: '12683'
 ht-degree: 1%
 
 ---
@@ -702,7 +702,7 @@ ht-degree: 1%
       * [공유에는 두 개 이상의 권한이 표시됩니다](administration-and-setup/tips-tricks-and-troubleshooting/sharing-shows-more-than-1-permission.md)
       * [인증되지 않은 전자 메일이 수락되지 않음](administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)
       * [사용자 자격 증명과 SAML 자격 증명 비교](administration-and-setup/tips-tricks-and-troubleshooting/wf-user-credentials-vs-saml-user-credentials.md)
-      * [액세스 수준에서 자동 업그레이드 옵션 업데이트](administration-and-setup/tips-tricks-and-troubleshooting/update-auto-upgrade-in-access-levels.md)
+      * [액세스 수준에서 자동 업그레이드 옵션을 업데이트합니다](administration-and-setup/tips-tricks-and-troubleshooting/update-auto-upgrade-in-access-levels.md)
 * Adobe Workfront 기본 사항 {#basics}
    * [Adobe Workfront 기본 사항](workfront-basics/workfront-basics.md)
    * [Adobe Workfront 용어 설명](workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
@@ -891,6 +891,7 @@ ht-degree: 1%
       * [보드에서 연결된 카드 사용](agile/get-started-with-boards/connected-cards.md)
       * [카드 관리](agile/get-started-with-boards/move-board-items.md)
       * [카드의 검사 목록 항목 관리](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md)
+      * [카드에 표시되는 필드를 사용자 정의합니다](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)
       * [보드에서 카드 삭제 또는 보관](agile/get-started-with-boards/delete-board-items.md)
       * [보드에서 필터링 및 검색](agile/get-started-with-boards/filter-search-in-board.md)
       * [태그 추가](agile/get-started-with-boards/add-tags.md)
