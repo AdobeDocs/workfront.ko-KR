@@ -7,9 +7,9 @@ description: Adobe Workfront Fusion DevTool을 사용하면 시나리오를 이�
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: c74a804e5c998a2a127100ae62eac371a7e55d39
 workflow-type: tm+mt
-source-wordcount: '1665'
+source-wordcount: '1666'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 를 사용하려면 [!DNL Workfront Fusion] DevTool을 먼저 설치해야 합니다.
 
-1. 클릭 [이 링크](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion/workfront-fusion-devtool.zip) 확장을 다운로드하려면 다음을 수행하십시오.
+1. 클릭 [이 링크](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion/workfront-fusion-devtool+(3).zip) 확장을 다운로드하려면 다음을 수행하십시오.
 1. 파일이 다운로드되면 선택한 폴더에 추출합니다.
 1. 에서 탭을 엽니다. [!DNL Chrome]
 1. 탭의 검색 막대에서 을 입력합니다. `chrome://extensions`.
