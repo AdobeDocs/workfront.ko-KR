@@ -4,9 +4,9 @@ description: 23.2 릴리스 개요
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 711f1ca5cfa4a8eec67d4bc8307824fd36b0b53e
+source-git-commit: 7de3ebef55a9d11c3a417872f2cfcd1f4ea03640
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '1231'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 0%
 
 * [관리자 개선 사항](#administrator-enhancements)
 * [민첩한 개선 사항](#agile-enhancements)
+* [프로젝트 관리 개선 사항](#project-management-enhancements)
+* [리소스 관리 개선 사항](#resource-management-enhancements)
 * [기타 개선 사항](#other-enhancements)
 
 ### 관리자 개선 사항
@@ -81,6 +83,57 @@ ht-degree: 0%
                         </p>
                     </td>
                 </tr>
+              <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">카드의 필드 표시 사용자 지정</a><span style="color: #ff0000;"> 미리 보기의 새로운 기능!</span></p>
+                        <p>이제 사용자 지정을 사용하여 카드가 열릴 때 전체 보기에서, 보드의 압축된 카드 보기에서 카드에 표시되는 필드를 구성할 수 있습니다. 필드를 비활성화하면 두 보기 모두에 표시되지 않습니다. 전체 보기에서 필드를 활성화하고 압축된 보기에서 숨길 수도 있습니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용할 수 있습니다.</b></p>
+                        <ul>
+                            <li>
+                                <p>미리 보기 릴리스: 2023년 2월 16일<br /></p>
+                            </li>
+                            <li>
+                                 <p>초기 옵트인에 대한 프로덕션 릴리스: 2023년 2월 23일 <span style="color: #ff0000;"> 이 기능은 Workfront 보드의 초기 기능 옵트인을 통해서만 이 날짜의 프로덕션에서 사용할 수 있습니다.</span></p>
+                                <p>모든 고객을 위한 프로덕션 릴리스: 23.2 릴리스 사용</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">보드 열로 이동한 카드에 대한 기본 상태를 정의합니다</a><span style="color: #ff0000;"> 미리 보기의 새로운 기능!</span></p>
+                        <p>이제 열 정책에서 사용자 지정 상태와 시스템 상태를 선택하여 특정 열로 이동한 카드에 적용할 기본 상태를 설정할 수 있습니다. 카드를 열로 이동하면 Workfront은 먼저 사용자 지정 상태(예: 피드백 대기)를 적용하려고 합니다. 해당 카드에 사용자 지정 상태를 사용할 수 없는 경우에는 Workfront이 대신 시스템 상태(예: 보류 중)를 적용합니다. 또한 연결된 작업 또는 문제의 상태가 열 정책에 설정된 사용자 지정 또는 시스템 상태로 변경되면 카드가 자동으로 열로 이동합니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용할 수 있습니다.</b></p>
+                        <ul>
+                            <li>
+                                <p>미리 보기 릴리스: 2023년 2월 16일<br /></p>
+                            </li>
+                            <li>
+                                 <p>초기 옵트인에 대한 프로덕션 릴리스: 2023년 2월 23일 <span style="color: #ff0000;"> 이 기능은 Workfront 보드의 초기 기능 옵트인을 통해서만 이 날짜의 프로덕션에서 사용할 수 있습니다.</span></p>
+                                <p>모든 고객을 위한 프로덕션 릴리스: 23.2 릴리스 사용</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">이제 Adobe Workfront 보드에서 컬렉션을 사용할 수 있습니다</a><span style="color: #ff0000;"> 미리 보기의 새로운 기능!</span></p>
+                        <p>이제 보드 대시보드에서 컬렉션을 만들 수 있습니다. 컬렉션은 공동 작업을 수행하는 보드 그룹입니다. 컬렉션 이름을 지정한 후에는 열 이름과 같이 사전 정의된 설정을 제공하는 템플릿 집합을 사용하여 보드에 보드를 추가할 수 있습니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용할 수 있습니다.</b></p>
+                        <ul>
+                            <li>
+                                <p>미리 보기 릴리스: 2023년 2월 16일<br /></p>
+                            </li>
+                            <li>
+                                 <p>초기 옵트인에 대한 프로덕션 릴리스: 2023년 2월 23일 <span style="color: #ff0000;"> 이 기능은 Workfront 보드의 초기 기능 옵트인을 통해서만 이 날짜의 프로덕션에서 사용할 수 있습니다.</span></p>
+                                <p>모든 고객을 위한 프로덕션 릴리스: 23.2 릴리스 사용</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md" class="MCXref xref" xrefformat="{para}">연결된 카드의 예측 필드는 Workfront 개체의 스토리 포인트 필드에 매핑됩니다</a></p>
@@ -99,7 +152,6 @@ ht-degree: 0%
                         </ul>
                     </td>
                 </tr>
-                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md" class="MCXref xref" xrefformat="{para}">흡입 열에서 카드 미리 보기</a></p>
@@ -113,6 +165,77 @@ ht-degree: 0%
                             <li>
                                  <p>초기 옵트인에 대한 프로덕션 릴리스: 2023년 2월 2일 <span style="color: #ff0000;"> 이 기능은 Workfront 보드의 초기 기능 옵트인을 통해서만 이 날짜의 프로덕션에서 사용할 수 있습니다.</span></p>
                                 <p>모든 고객을 위한 프로덕션 릴리스: 23.2 릴리스 사용</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+### 프로젝트 관리 개선 사항
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">기능</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">릴리스 날짜</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">프로젝트를 복사할 때 예산책정된 시간 복사</a><span style="color: #ff0000;"> 미리 보기의 새로운 기능!</span>
+                        <p>이제 프로젝트를 복사할 때 업무 사례의 자원 예산 책정 영역 또는 자원 계획자 영역에 예산책정된 시간을 복사하는 옵션이 있습니다. 이 개선 사항 전에 프로젝트에 대해 책정된 시간이 복사된 프로젝트로 전송되지 않았습니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용할 수 있습니다.</b></p>
+                        <ul>
+                            <li>
+                                <p>미리 보기 릴리스: 2023년 2월 16일<br /></p>
+                            </li>
+                            <li>
+                                 <p><span class="preview">프로덕션 릴리스: 2023년 3월 2일(비순환)</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+### 리소스 관리 개선 사항
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">기능</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">릴리스 날짜</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">사용자 용량을 정확하게 계산하기 위한 작업 시간 필드 소개</a><span style="color: #ff0000;"> 미리 보기의 새로운 기능!</span>
+                        <p>리소스 관리자가 실제 프로젝트 관련 작업에 전념하는 시간에 대한 사용자 및 계정의 가용성을 정확하게 계산할 수 있도록 Adobe Workfront에 작업 시간 개념을 도입했습니다.</p>
+                        <p>프로파일을 만들거나 편집할 때 모든 사용자에 대해 작업 시간 필드의 값을 정의할 수 있습니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용할 수 있습니다.</b></p>
+                        <ul>
+                            <li>
+                                <p>미리 보기 릴리스: 2023년 2월 16일<br /></p>
+                            </li>
+                            <li>
+                                 <p><span class="preview">프로덕션 릴리스: 2023년 3월 2일(비순환)</span></p>
                             </li>
                         </ul>
                     </td>
@@ -138,8 +261,8 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">XD용 Adobe Workfront에서 단일 PDF 또는 여러 PDF 파일로 대지를 내보냅니다</span></a><span style="color: #ff0000;"> 프로덕션의 새로운 기능!</span>
-                        <p>이제 Adobe Workfront for XD 플러그인에서 대지를 단일 PDF 파일 또는 여러 PDF 파일로 내보내도록 선택할 수 있습니다.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">XD용 Adobe Workfront에서 단일 PDF 또는 여러 PDF 파일로 대지를 내보냅니다</span></a>
+                        </span></a><p>이제 Adobe Workfront for XD 플러그인에서 대지를 단일 PDF 파일 또는 여러 PDF 파일로 내보내도록 선택할 수 있습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용할 수 있습니다.</b></p>
                         <ul>

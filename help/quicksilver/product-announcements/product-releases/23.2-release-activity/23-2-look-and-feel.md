@@ -4,10 +4,10 @@ description: 23.2 릴리스 기간 동안 업데이트 확인 및 감지
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 1010c762d51b379b9734900d3a84a150ed33e675
+source-git-commit: 7de3ebef55a9d11c3a417872f2cfcd1f4ea03640
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 4%
+source-wordcount: '439'
+ht-degree: 2%
 
 ---
 
@@ -42,3 +42,19 @@ ht-degree: 4%
 ## 문서 세부 정보에서 업데이트된 문서 버전 아이콘
 
 문서 버전 아이콘의 모양과 느낌을 업데이트했습니다. 이제 마우스로 &quot;이전 버전&quot;을 가리키면 아이콘에 빨간색 점이 표시됩니다.
+
+## 하나 이상의 템플릿 작업을 복사할 때의 새로운 경험
+
+>[!NOTE]
+>
+>미리 보기 릴리스: 2023년 2월 16일 계획된 생산 릴리스: 2023년 3월 2일
+
+애플리케이션의 모든 위치에서 Adobe Workfront을 일관되게 사용하기 위해 템플릿 작업을 복사하거나 이동할 때 인터페이스를 다시 디자인했습니다. 현재 작업 수준에서 템플릿 작업을 복사하거나 목록에 있는 작업 또는 여러 작업을 복사할 때 사용할 수 있습니다.
+
+일부 개선 사항은 다음과 같습니다.
+
+* 템플릿 작업을 복사하거나 이동하기 전에 업데이트해야 하는 모든 정보가 하나의 연속 페이지에 표시됩니다.
+* Workfront은 템플릿을 선택한 후 즉시 대상 템플릿에 액세스할 수 있는지 여부를 확인합니다. 이 개선 전에 복사 또는 이동을 확인한 후 올바른 액세스 권한이 없음을 나타내는 경고 메시지가 표시되므로 추가 단계가 발생하고 작업이 허용되지 않습니다.
+* 템플리트 복사 또는 이동 태스크 박스를 종료하지 않고 템플리트 태스크를 복사하거나 이동할 템플리트에 대한 액세스를 요청할 수 있습니다.
+
+자세한 내용은 [템플릿 작업 복사 및 이동](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-and-move-template-tasks.md).
