@@ -6,9 +6,9 @@ description: Adobe Workfront에서 문서에 대해 관리자나 다른 사용�
 author: Courtney
 feature: Work Management
 exl-id: f54a221b-4bf0-414e-b2f3-ace861d85496
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 8e903592456512f1ebf5f1e8d6e496e577a7b352
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Adobe Workfront에서 문서에 대해 관리자나 다른 사용자에게 승�
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>요청 액세스 또는 승인과 연관된 객체에 대한 보기 또는 더 높은 액세스 </p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>요청 액세스 또는 승인과 연관된 객체에 대한 액세스 관리 </p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체에 대한 액세스 요청 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

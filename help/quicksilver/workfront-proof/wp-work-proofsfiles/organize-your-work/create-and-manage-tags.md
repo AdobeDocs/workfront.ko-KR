@@ -7,9 +7,9 @@ description: 태그를 만들고 편집하고 증명 및 파일에 적용할 수
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb720a1b-5136-4158-9ea0-bcb5755e1761
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: 8e903592456512f1ebf5f1e8d6e496e577a7b352
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '920'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 0%
 1. 클릭 **[!UICONTROL 태그]** > **[!UICONTROL 태그 관리]** 목록 바로 위에 있습니다.
 
 1. 설정 [!UICONTROL 태그] 표시되는 탭에서는 [탭 생성, 편집 또는 삭제](https://support.workfront.com/knowledge/articles/115004379508/en-us?brand_id=662728&amp;return_to=%2Fhc%2Fen-us%2Farticles%2F115004379508#CreatingEditingDeletingTag)\
-   태그 옆에 있는 확인란에 있는 확인란이 어두운 회색으로 표시되면 선택한 모든 항목에 태그가 적용됩니다. 밝은 회색이면 선택한 배치에 있는 일부 항목만 태그로 지정됩니다. 선택한 모든 항목에서 태그를 제거하려면 태그 옆에 있는 확인 표시가 비어 있는지 확인하십시오.\
+   태그 옆에 있는 확인란이 어두운 회색인 경우 선택한 모든 항목에 태그가 적용됩니다. 밝은 회색이면 선택한 배치에 있는 일부 항목만 태그로 지정됩니다. 선택한 모든 항목에서 태그를 제거하려면 태그 옆에 있는 확인 표시가 비어 있는지 확인하십시오.\
    ![Tags_menu_-_Dark_and_light_checks.png](assets/tags-menu---dark-and-light-checks-350x217.png)
 
 ## 증명 세부 정보나 파일 세부 정보에서 태그 관리

@@ -5,9 +5,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 62a2f9a1-80de-40e7-9d8b-46ed9df083c1
-source-git-commit: eeff0c8a3f7cbccd942c978d771d24f4cf9c425d
+source-git-commit: 8e903592456512f1ebf5f1e8d6e496e577a7b352
 workflow-type: tm+mt
-source-wordcount: '1325'
+source-wordcount: '1334'
 ht-degree: 1%
 
 ---
@@ -92,12 +92,14 @@ ht-degree: 1%
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>(필수) 위젯이 인터넷에 저장되는 URL을 입력하거나 붙여넣습니다.</p> 
+       <p><strong>중요 사항</strong>: 의 URL은 공개 URL이어야 합니다. </p>
       <p>비디오 위젯을 추가하는 경우 현재 URL 상자에 다음을 추가하여 추가할 수 있습니다.</p> 
       <ul> 
       <li> <p>YouTube 또는 Vimeo 링크</p> </li> 
       <li> <p>Google Drive 비디오 링크</p> </li> 
       <li> <p>MP4 및 MOV 확장을 사용하여 비디오에 연결</p> </li> 
-      <li> <p>Workfront 인스턴스의 문서 영역에 이미 업로드된 비디오에 대한 링크입니다. 자세한 내용은 <a href="#add-a-video-widget-to-a-custom-form-from-the-documents-area" class="MCXref xref">문서 영역에서 사용자 지정 양식에 비디오 위젯을 추가합니다</a> 참조하십시오.</p> </li> 
+      <li> <p>Workfront 인스턴스의 문서 영역에 이미 업로드된 비디오에 대한 링크입니다. 자세한 내용은 <a href="#add-a-video-widget-to-a-custom-form-from-the-documents-area" class="MCXref xref">문서 영역에서 사용자 지정 양식에 비디오 위젯을 추가합니다</a> 참조하십시오.</p> 
+      </li> 
       </ul> 
        </td> 
      </tr> 
