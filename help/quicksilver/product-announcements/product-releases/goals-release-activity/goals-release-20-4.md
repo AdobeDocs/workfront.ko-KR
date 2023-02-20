@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Goals
 exl-id: 86d3b8d3-cf91-4f67-9be7-244fc296f43c
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,12 @@ Adobe는 회원님으로부터 받은 피드백을 기반으로 Workfront 목표
 
 * 목표 목록 섹션에서 보다 직관적인 인쇄 링크로 목표 목록을 인쇄하는 경험을 업데이트했습니다.
 
-   인쇄 목표에 대한 자세한 내용은 [Adobe Workfront 목표에 목표 목록 인쇄](../../../workfront-goals/goal-management/print-the-goal-list.md).
+   인쇄 목표에 대한 자세한 내용은 &quot;Adobe Workfront 목표에 목표 목록 인쇄&quot;를 참조하십시오.
+
+   >[!NOTE]
+   >
+   >  목표 인쇄 기능은 Workfront에서 더 이상 사용되지 않고 제거되었습니다.
+
 
 * 결과 및 활동에 대한 추가 정보를 목표 세부 사항 패널에 추가했으므로 이 결과의 차이를 명확히 이해할 수 있습니다.
 

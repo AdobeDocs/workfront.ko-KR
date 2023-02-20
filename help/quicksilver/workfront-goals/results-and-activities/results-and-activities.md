@@ -7,9 +7,9 @@ description: 결과 및 활동은 Adobe Workfront 목표에 대한 진행 상태
 author: Alina
 feature: Workfront Goals
 exl-id: d166674a-a158-4467-bedf-fa5c997c18ec
-source-git-commit: a9a43cba127917be5c030b79fa099a960c1dcd56
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,8 @@ For additional information about access to Workfront Goals, see [Requirements to
 >  Workfront 목표 라이센스에 대한 자세한 내용은 Workfront 계정 관리자에게 문의하십시오.
 >
 >Workfront 목표 액세스에 대한 자세한 내용은 [Workfront 목표 사용 요구 사항](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+Workfront 목표에 대한 진행 상황을 기록하려면 진행 상태 표시기를 목표에 연결해야 합니다. 결과 및 활동 외에도 프로젝트 또는 하위 목표를 목표에 연결하여 진행 상황을 기록할 수도 있습니다.
 
 이 섹션에는 다음 문서가 포함됩니다.
 

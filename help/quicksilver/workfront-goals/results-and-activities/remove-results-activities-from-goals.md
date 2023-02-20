@@ -2,19 +2,19 @@
 product-previous: workfront-goals
 product-area: projects
 navigation-topic: results-and-activities
-title: Adobe Workfront 목표에 있는 결과, 활동 및 프로젝트를 제거합니다
+title: Adobe Workfront 목표의 목표에서 진행 상태 표시기 제거
 description: 결과, 활동 및 프로젝트가 더 이상 관련이 없는 경우 Adobe Workfront 목표에 있는 대상에서 제거할 수 있습니다.
 author: Alina
 feature: Workfront Goals
 exl-id: 0e064dbd-6168-47b4-98ab-b5c0481e839e
-source-git-commit: afc2124a7fd0d9d52c04be1c174fdba314beec7a
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '703'
 ht-degree: 0%
 
 ---
 
-# Adobe Workfront 목표에 있는 결과, 활동 및 프로젝트를 제거합니다
+# Adobe Workfront 목표의 목표에서 진행 상태 표시기 제거
 
 <!-- for goal redesign PRODUCTION RELEASE: Should this article be called "Remove or disconnect progress indicators from goals" when this is available to ALL progress indicators (including "disconnect goals")-- if yes, updte the title everywhere else where this is linked?
 -->

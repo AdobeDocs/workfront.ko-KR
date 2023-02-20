@@ -5,9 +5,9 @@ description: 자원 계획의 일부로, 비즈니스 사례를 작성할 때 �
 author: Alina
 feature: Work Management
 exl-id: 85aa13c7-e48d-4b8c-89f7-1ba7f66670b0
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->예산 책정 자원은 프로젝트에 대한 스케줄링 자원과 다릅니다. 리소스를 예약할 때 프로젝트에서 작업을 완료하는 데 필요한 역할을 예상합니다. 실제로 프로젝트 작업에 사용자를 예약하거나 할당하는 방법은 [리소스 예약 시작](../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md). Adobe Workfront의 리소스 계획에 대한 자세한 내용은 [리소스 계획 시작](../../../resource-mgmt/resource-planning/get-started-resource-planning.md).
+>예산 책정 자원은 프로젝트에 대한 스케줄링 자원과 다릅니다. 리소스를 예약할 때 프로젝트에서 작업을 완료하는 데 필요한 역할을 예상합니다. 실제로 프로젝트 작업에 사용자를 예약하거나 할당하는 방법은 [작업 로드 밸런서에서 사용자 할당 관리](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
 
 작업 역할에 대한 리소스를 예산을 편성하려면 먼저 프로젝트에 작업 역할을 연결해야 합니다. 다음은 프로젝트에 작업 역할을 할당하는 방법입니다.
 

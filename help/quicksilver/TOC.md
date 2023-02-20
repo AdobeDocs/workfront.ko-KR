@@ -2,9 +2,9 @@
 user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 feature-set: Workfront
-source-git-commit: e28d3d70e05bc10497e54655499602fe48a392a3
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '12695'
+source-wordcount: '12587'
 ht-degree: 1%
 
 ---
@@ -1626,18 +1626,6 @@ ht-degree: 1%
       * [리소스 계획자에서 정보 내보내기](resource-mgmt/resource-planning/export-resource-planner.md)
       * [자원 계획자 예산책정 시간 보고서](resource-mgmt/resource-planning/report-on-budgeted-hours.md)
       * [리소스 계획자 표시 제한 사항](resource-mgmt/resource-planning/resource-planner-display-limitations.md)
-   * 리소스 일정 조정 {#resource-scheduling}
-      * [리소스 일정 조정](resource-mgmt/resource-scheduling/resource-scheduling-overview.md)
-      * [리소스 예약 시작](resource-mgmt/resource-scheduling/get-started-resource-scheduling.md)
-      * [예약 영역 개요](resource-mgmt/resource-scheduling/overview-scheduling-areas.md)
-      * [예약 영역에서 설정을 구성합니다](resource-mgmt/resource-scheduling/configure-settings-scheduling-areas.md)
-      * [예약 영역에서 역할 및 그룹 구성원에 관계없이 사용자 지정 허용](resource-mgmt/resource-scheduling/assignments-regardless-of-role-or-group-scheduling-areas.md)
-      * [예약 영역에서 미할당 작업 및 문제를 자동으로 지정](resource-mgmt/resource-scheduling/automatically-assign-items-scheduling-areas.md)
-      * [Workfront에서 예약 영역에 대한 리소스 시간 및 FTE 가용성을 계산하는 방법을 구성합니다](resource-mgmt/resource-scheduling/calculate-hours-fte-scheduling-area.md)
-      * [예약 영역에서 정보를 필터링합니다.](resource-mgmt/resource-scheduling/filter-scheduling-area.md)
-      * [예약 영역에서 사용자 할당 관리](resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)
-      * [예약 영역에서 지정되지 않은 작업 및 문제를 수동으로 지정](resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md)
-      * [예약 영역에서 작업에 할당된 여러 사용자를 수정합니다](resource-mgmt/resource-scheduling/modify-multipl-assignments-scheduling-areas.md)
    * 자원 사용률 {#resource-utilization}
       * [자원 사용률](resource-mgmt/resource-utilization/resource-utilization.md)
       * [자원 사용률 정보 보기](resource-mgmt/resource-utilization/view-utilization-information.md)
@@ -1853,7 +1841,6 @@ ht-degree: 1%
       * [Adobe Workfront 목표에서 정보 필터링](workfront-goals/goal-management/filter-information-wf-goals.md)
       * [Adobe Workfront 목표의 목표 상태 개요](workfront-goals/goal-management/goal-status-overview.md)
       * [Adobe Workfront 목표의 목표 주석 관리](workfront-goals/goal-management/manage-goal-comments.md)
-      * [Adobe Workfront 목표에 목표 목록 인쇄](workfront-goals/goal-management/print-the-goal-list.md)
       * [Adobe Workfront 목표의 목표 세부 사항 섹션에서 목표 업데이트](workfront-goals/goal-management/update-goals-in-goal-details-panel.md)
       * [Adobe Workfront 목표에서 문제가 있는 목표 검토](workfront-goals/goal-management/view-in-trouble-goals.md)
    * Adobe Workfront 목표의 목표 맞춤 {#goal-alignment}
@@ -1869,7 +1856,6 @@ ht-degree: 1%
       * [Adobe Workfront 목표에서 목표 진행 상태 업데이트](workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
       * [Adobe Workfront 목표 목표 목표 목표 목록에서 목표 관리](workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md)
       * [Adobe Workfront 목표의 목표 진행 상황을 이해하려면 그래프를 검토하십시오](workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md)
-      * [Adobe Workfront 목표 펄스 섹션에서 목표 검토](workfront-goals/goal-review-and-workfront-goals-sections/review-goals-in-pulse.md)
    * Adobe Workfront 목표의 결과 및 활동 {#results-activities-adobe-workfront-goals}
       * [Adobe Workfront 목표의 결과 및 활동](workfront-goals/results-and-activities/results-and-activities.md)
       * [Adobe Workfront 목표의 목표에 활동 추가](workfront-goals/results-and-activities/add-activities-to-goals.md)
@@ -1877,7 +1863,7 @@ ht-degree: 1%
       * [Adobe Workfront 목표의 목표에 프로젝트 추가](workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)
       * [Adobe Workfront 목표의 결과 및 활동 편집](workfront-goals/results-and-activities/edit-results-and-activities.md)
       * [Adobe Workfront 목표의 결과 및 활동 시작](workfront-goals/results-and-activities/get-started-with-results-and-activities.md)
-      * [Adobe Workfront 목표에 있는 결과, 활동 및 프로젝트를 제거합니다](workfront-goals/results-and-activities/remove-results-activities-from-goals.md)
+      * [Adobe Workfront 목표의 목표에서 진행 상태 표시기 제거](workfront-goals/results-and-activities/remove-results-activities-from-goals.md)
    * Adobe Workfront 목표 설정 {#adobe-workfront-goal-settings}
       * [Adobe Workfront 목표 설정](workfront-goals/workfront-goals-settings/wf-goals-settings.md)
       * [Adobe Workfront 목표 용어 사용자 지정](workfront-goals/workfront-goals-settings/customize-wf-goals-terminology.md)

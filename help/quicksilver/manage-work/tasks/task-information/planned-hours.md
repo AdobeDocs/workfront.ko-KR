@@ -7,9 +7,9 @@ description: 작업, 문제 또는 프로젝트와 연관된 계획 시간은 �
 author: Alina
 feature: Work Management
 exl-id: 0b86c760-691a-436e-9beb-31e9ac36440a
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '2888'
+source-wordcount: '2789'
 ht-degree: 0%
 
 ---
@@ -76,8 +76,6 @@ ht-degree: 0%
 >
 >일별 계획 시간 또는 일별 할당은 태스크 기간 동안 각 일별 계획 시간 할당이 됩니다. 태스크에 하나의 지정이 있는 경우 이 숫자는 발령당 일별 계획 시간 을 나타냅니다. 작업에 여러 개의 할당이 있는 경우 발령당 하루 계획 시간은 태스크에 대한 하루 계획 시간과 다릅니다. Workfront에는 여러 개의 할당이 있는 작업의 경우 할당당 하루 계획 시간 수에 대한 시각적 표현이 없습니다.
 
- 
-
 ## 계획 시간 값 찾기 및 이해
 
 Workfront의 다양한 영역에서 계획 시간 값을 찾을 수 있습니다. 
@@ -89,7 +87,6 @@ Workfront의 다음 영역에서 계획 시간을 찾을 수 있습니다.
 * [프로젝트, 작업 또는 문제의 세부 정보 섹션](#the-details-section-of-a-project-task-or-issue)
 * [작업 편집 또는 문제 편집 상자](#the-edit-task-or-edit-issue-box)
 * [보고서](#reports)
-* [예약 영역](#the-scheduling-areas)
 * [작업 로드 밸런서](#the-workload-balancer)
 * [리소스 플래너](#the-resource-planner)
 * [활용률 보고서](#the-utilization-report)
@@ -131,20 +128,22 @@ Workfront의 다음 영역에서 계획 시간을 찾을 수 있습니다.
 >
 >프로젝트(재무 데이터) 보고서를 생성하고 일별로 그룹핑하는 경우, 계획 시간은 프로젝트 작업 타임라인에 따라 프로젝트의 계획 시간의 일부를 표시할 수 있습니다. 기본적으로 Workfront은 작업 기간 동안 각 날에 대해 작업 계획 시간을 균등하게 분배합니다. 특정 시간 프레임에 대한 계획 시간은 프로젝트(재무 데이터) 보고서의 해당 시간 프레임에 대해 Workfront에 설정된 동일한 배포 세트와 일치합니다.
 
-### 예약 영역  {#the-scheduling-areas}
+<!--
+### The Scheduling areas  {#the-scheduling-areas}
 
 ![](assets/task-detail-expanded-in-scheduler-with-planned-hours-and-adjusted-daily-allocations-nwe-350x323.png)
 
-작업 및 문제에 대한 계획 시간은 계획 시간 필드의 예약 영역에 표시됩니다.
+The Planned Hours for tasks and issues display in the Scheduling areas in the Planned Hours field.
 
-태스크에 지정된 각 사용자 또는 스케줄링 영역에서 문제에 대한 계획 시간의 일별 할당을 볼 수 있습니다.
+You can view the daily allocation of Planned Hours for each user assigned to a task or an issue in the Scheduling areas.
 
-일별 시간 금액은 다음 중 하나를 나타냅니다. 
+The daily hour amount represents one of the following:
 
-* 작업 또는 문제의 기간 중 각 날에 대해 Workfront이 균등하게 배분하는 기본 금액입니다
-* 리소스 관리자가 관리하는 조정된 일별 할당.
+* the default amount equally distributed by Workfront for each day of the Duration of the tasks or issues
+* the adjusted daily allocation managed by resource managers.
 
-   스케줄링 도구에서 일별 할당 조정에 대한 자세한 내용은 [예약 영역에서 사용자 할당 관리](../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md).
+  For information about adjusting daily allocations in the Scheduling tools, see [Manage user allocations in the Scheduling areas](../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md).
+-->
 
 ### 작업 로드 밸런서 {#the-workload-balancer}
 
@@ -156,7 +155,8 @@ Workfront의 다음 영역에서 계획 시간을 찾을 수 있습니다.
 * 프로젝트의 경우 화면 디스플레이에 표시되는 작업 및 문제로부터 총 계획된 시간입니다.
 
    >[!TIP]
-   작업 로드 밸런서는 프로젝트 세부 정보 영역에 표시된 대로 프로젝트의 모든 계획 시간을 표시하지 않습니다.
+   >
+   >작업 로드 밸런서는 프로젝트 세부 정보 영역에 표시된 대로 프로젝트의 모든 계획 시간을 표시하지 않습니다.
 
 작업에 지정된 각 사용자 또는 작업 로드 밸런서에서 문제에 대한 계획 시간의 일별 할당을 볼 수 있습니다.
 
@@ -176,7 +176,8 @@ Workfront의 다음 영역에서 계획 시간을 찾을 수 있습니다.
 자원 계획자의 PLN 열에서 작업 항목과 연관된 사용자 및 작업 역할에 대한 계획 시간의 주간 할당을 볼 수 있습니다.
 
 >[!TIP]
-작업 로드 밸런서의 일별 할당 조정은 리소스 플래너의 작업 및 문제에 대한 주간 할당에 영향을 줍니다.
+>
+>작업 로드 밸런서의 일별 할당 조정은 리소스 플래너의 작업 및 문제에 대한 주간 할당에 영향을 줍니다.
 
 각 객체에 대한 계획 시간 수는 Resource Planner에 적용하는 뷰에 따라 다릅니다. 자세한 내용은 [리소스 계획자의 프로젝트 및 역할 뷰의 시간, FTE 및 비용 정보 개요](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
 
@@ -194,7 +195,8 @@ Workfront의 다음 영역에서 계획 시간을 찾을 수 있습니다.
 계획 시간 프로젝트는 각 태스크 및 문제에 대한 발령과 연관된 것입니다.
 
 >[!IMPORTANT]
-가동률 보고서의 계획시간은 작업 및 문제 자체가 아니라 발령과 연관되어 있습니다. 활용률 보고서의 계획 시간이 프로젝트의 태스크 및 문제에 대한 계획 시간과 항상 일치하지 않습니다. 하지만 계획 시간은 태스크 및 문제에 대한 발령과 연관된 시간과 일치합니다.
+>
+>가동률 보고서의 계획시간은 작업 및 문제 자체가 아니라 발령과 연관되어 있습니다. 활용률 보고서의 계획 시간이 프로젝트의 태스크 및 문제에 대한 계획 시간과 항상 일치하지 않습니다. 하지만 계획 시간은 태스크 및 문제에 대한 발령과 연관된 시간과 일치합니다.
 
 가동률 보고서에서 다음 유형의 계획 시간을 조회할 수 있습니다.
 

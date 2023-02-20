@@ -7,9 +7,9 @@ description: Adobe Workfront의 필터를 사용하여 목록, 보고서 또는 
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: a74cc358c547e11a55cce728ad5330712ed0bd49
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '1854'
+source-wordcount: '1840'
 ht-degree: 1%
 
 ---
@@ -81,9 +81,6 @@ Workfront의 다음 영역에서 내장 필터를 사용하거나 사용자 지�
 * 활용률 보고서
 
    자세한 내용은 섹션을 참조하십시오 [사용률 정보 필터링](../../../resource-mgmt/resource-utilization/view-utilization-information.md#filtering-utilization-information) 기사 [자원 사용률 정보 보기](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
-
-* 리소스 예약 영역\
-   자세한 내용은 문서를 참조하십시오 [예약 영역에서 정보를 필터링합니다.](../../../resource-mgmt/resource-scheduling/filter-scheduling-area.md).
 
 * 워크로드 밸런서
 

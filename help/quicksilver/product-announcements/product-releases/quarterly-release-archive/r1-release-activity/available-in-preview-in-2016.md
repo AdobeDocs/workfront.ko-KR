@@ -6,9 +6,9 @@ description: 다음 기능은 2016년 미리 보기 환경에서 사용할 수 �
 author: Luke
 feature: Product Announcements
 exl-id: 08e0bd72-5979-449e-9fb2-c4d45f51119e
-source-git-commit: aa1bf796982fa91ff9096d92fef1fb95c2e29778
+source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
@@ -19,19 +19,23 @@ ht-degree: 0%
 
 ## 리소스 예약 개선 사항
 
-이제 리소스 매니저인 프로젝트의 모든 작업을 볼 수 있으므로 예약 결정을 내릴 때 더 많은 정보를 얻을 수 있습니다. 
+>[!NOTE]
+>
+>리소스 예약 도구는 23.1 릴리스의 Workfront에서 더 이상 사용되지 않으며 제거되었습니다. 작업 로드 밸런서를 사용하는 리소스 예약에 대한 자세한 내용은 [작업 로드 밸런서 개요](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
-리소스 예약에 사용할 수 있는 도구에 대한 일반 정보는 [리소스 예약 시작](../../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md)
+이제 리소스 매니저인 프로젝트의 모든 작업을 볼 수 있으므로 예약 결정을 내릴 때 더 많은 정보를 얻을 수 있습니다.
 
-예약 타임라인에 표시되는 정보를 조정하려면 다음에 설명된 대로 필터를 만듭니다. [예약 영역에서 정보를 필터링합니다.](../../../../resource-mgmt/resource-scheduling/filter-scheduling-area.md)
+리소스 예약에 사용할 수 있는 도구에 대한 일반적인 정보는 &quot;리소스 예약 시작&quot;을 참조하십시오.
 
-책임져야 하는 프로젝트에서 작업을 보는 것 외에도 일정 관리 타임라인을 사용하여 리소스 지정 작업을 변경할 수 있습니다. 예약 타임라인에서 사용자 지정을 관리하는 방법에 대한 자세한 내용은 [예약 영역에서 지정되지 않은 작업 및 문제를 수동으로 지정](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md)
+예약 타임라인에 표시되는 정보를 조정하려면 &quot;예약 영역의 필터 정보&quot;에 설명된 대로 필터를 만듭니다.
+
+책임져야 하는 프로젝트에서 작업을 보는 것 외에도 일정 관리 타임라인을 사용하여 리소스 지정 작업을 변경할 수 있습니다. 예약 타임라인에서 사용자 지정을 관리하는 방법에 대한 자세한 내용은 &quot;예약 영역에서 지정되지 않은 작업 및 문제 수동 지정&quot;을 참조하십시오.
 
 ## 예약 타임라인에서 사용자 할당 관리
 
 이제 새로운 리소스 예약 도구를 사용하여 리소스를 예약할 때 작업이나 문제에 대한 계획 시간이 사용자에게 어떻게 할당되는지 확인할 수 있습니다. 작업 기간 및 지정된 사용자 간에 시간 분할을 수행할 수 있습니다.
 
-자세한 내용은 [예약 영역에서 사용자 할당 관리](../../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)
+자세한 내용은 &quot;예약 영역에서 사용자 할당 관리&quot;를 참조하십시오.
 
 ## 사용자 할당은 기본적으로 비활성화됩니다.
 
@@ -39,7 +43,7 @@ ht-degree: 0%
 
 이전에는 할당 음영을 기본적으로 표시했기 때문에 비활성화할 수 없었습니다.
 
-사용자 할당 옵션을 활성화하는 방법에 대한 자세한 내용은 [예약 영역에서 사용자 할당 관리](../../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md) in  [예약 영역에서 사용자 할당 관리](../../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)
+사용자 할당 옵션을 사용하는 방법에 대한 자세한 내용은 &quot;예약 영역에서 사용자 할당 관리&quot;를 참조하십시오.
 
 ## 레이아웃 템플릿 내 작업 영역에 새 달력과 레거시 달력이 표시되는지 여부를 결정합니다.
 

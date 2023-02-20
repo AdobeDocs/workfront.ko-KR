@@ -5,9 +5,9 @@ title: 시간대 작업
 description: 이렇게 하면 [!DNL Adobe Workfront] 시간대를 사용하여 다음 - EDIT ME를 계산합니다.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: ecb6928c946203b03a93cf5687fd53abf8e6a8f3
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1072'
 ht-degree: 0%
 
 ---
@@ -93,11 +93,7 @@ ht-degree: 0%
 
    프로젝트 또는 사용자에게 일정을 지정하는 방법에 대한 지침은 [예약 만들기](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-   예약에 구성된 시간대가 배포 시 미치는 영향에 대한 자세한 내용은 [!UICONTROL 계획 시간] 에서 [!UICONTROL 예약] 도구 및 [!DNL Workload Balancer]를 참조하려면 다음을 참조하십시오.
-
-   * [에서 사용자 할당 관리 [!UICONTROL 예약] 영역](../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)
-   * [에서 사용자 할당 관리 [!DNL Workload Balancer]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
-
+   예약에 구성된 시간대가 배포 시 미치는 영향에 대한 자세한 내용은 [!UICONTROL 계획 시간] 에서 [!DNL Workload Balancer]를 참조하십시오. [에서 사용자 할당 관리 [!DNL Workload Balancer]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 
 ### 사용자 지정 양식에서 계산된 시간 필드 사용 {#use-calculated-time-fields-in-a-custom-form}

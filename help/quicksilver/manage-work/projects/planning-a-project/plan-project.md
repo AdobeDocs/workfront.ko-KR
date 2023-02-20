@@ -6,9 +6,9 @@ description: 프로젝트 개요 계획
 author: Alina
 feature: Work Management
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 1834439ed43fb97c5287fc33abf860de77683e1b
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '1410'
+source-wordcount: '1411'
 ht-degree: 0%
 
 ---
@@ -144,11 +144,11 @@ ht-degree: 0%
 
    계획된 시간에 대한 자세한 내용은 문서를 참조하십시오 [계획 시간 개요](../../../manage-work/tasks/task-information/planned-hours.md).
 
-* 각 작업을 완료할 책임이 있는 사용자 또는 팀에 할당합니다. 
+* 각 작업을 완료할 책임이 있는 사용자 또는 팀에 할당합니다.
 * 작업에 할당할 사용자의 가용성을 확인합니다. 할당된 작업을 완료할 수 있도록 작업이 자유롭고 너무 많이 할당되지 않았는지 확인합니다. 사용자가 너무 많이 할당되었거나 일정에 휴가가 있는 경우 다음 중 하나를 고려하십시오.
 
    * 각 작업의 계획 시간을 줄입니다.
    * 작업에 할당된 시간 동안 작업을 완료할 수 있도록 작업에 사용자를 더 추가합니다.
    * 다른 제한 없이 사용 가능한 사용자에게 작업을 재할당합니다.\
       프로젝트 리소스 계획에 대한 자세한 내용은 문서를 참조하십시오 [Adobe Workfront의 리소스 계획](../../../resource-mgmt/resource-planning/resource-planning-overview.md).\
-      프로젝트에서 작업을 수행할 리소스를 예약하는 방법에 대한 자세한 내용은 문서를 참조하십시오 [리소스 예약](../../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md).
+      프로젝트에서 작업을 수행하기 위해 리소스를 예약하는 방법에 대한 자세한 내용은 [작업 로드 밸런서 개요](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).

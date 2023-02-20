@@ -7,9 +7,9 @@ description: 다음 문서를 검토하여 Workfront 목표 의 시작 위치, �
 author: Alina
 feature: Workfront Goals
 exl-id: cba07613-9912-4929-bda4-50f503faa3e1
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -65,6 +65,5 @@ For additional information about access to Workfront Goals, see [Requirements to
 * [Adobe Workfront 목표의 목표 진행 및 조건 개요](../../workfront-goals/goal-management/calculate-goal-progress.md)
 * [Adobe Workfront 목표에서 정보 필터링](../../workfront-goals/goal-management/filter-information-wf-goals.md)
 * [Adobe Workfront 목표의 목표 주석 관리](../../workfront-goals/goal-management/manage-goal-comments.md)
-* [Adobe Workfront 목표에 목표 목록 인쇄](../../workfront-goals/goal-management/print-the-goal-list.md)
 * [Adobe Workfront 목표의 목표 세부 사항 섹션에서 목표 업데이트](../../workfront-goals/goal-management/update-goals-in-goal-details-panel.md)
 * [Adobe Workfront 목표에서 문제가 있는 목표 검토](../../workfront-goals/goal-management/view-in-trouble-goals.md)

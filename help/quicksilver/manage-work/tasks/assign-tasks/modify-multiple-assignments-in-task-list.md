@@ -6,9 +6,9 @@ description: 작업 지정을 관리할 때 작업 목록의 벌크 편집 기�
 author: Alina
 feature: Work Management
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: 3f5e5e9832fc33d39ea5dfbbc513b80adbf113f5
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '976'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,6 @@ ht-degree: 0%
 
 이 문서는 작업 목록의 여러 작업에 대한 여러 사용자 지정을 수정하는 것을 말합니다. 다른 영역의 여러 작업에 대한 할당을 수정하려면 다음 문서를 참조하십시오.
 
-* 예약 영역에서 여러 작업에 대한 지정 수정에 대한 자세한 내용은 [예약 영역에서 작업에 할당된 여러 사용자를 수정합니다](../../../resource-mgmt/resource-scheduling/modify-multipl-assignments-scheduling-areas.md).
 * 작업 로드 밸런서를 사용하여 작업을 지정하는 방법에 대한 자세한 내용은 [작업 로드 밸런서에서 작업 할당 개요](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 목록의 한 리소스에 작업을 할당하는 방법에 대한 내용은 [작업 할당](../../../manage-work/tasks/assign-tasks/assign-tasks.md).

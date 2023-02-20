@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
-source-git-commit: 95c999a72020ce825f3a8377662c71e35a194d80
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '857'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,9 @@ Edit the first part, once they add more settings in the Res Management Preferenc
 * [!UICONTROL 예약] [!UICONTROL 예외] (항목에 따라 [!UICONTROL 예약] 이 사용됩니다. 사용자 예약의 예외이거나 [!DNL Workfront] [!UICONTROL 기본 예약])
 * 사용자 시간 초과
 * Full Time Equivalent([!UICONTROL FTE]) 또는 [!DNL Workfront] 시스템. 다음 [!UICONTROL FTE] 예약에 정의된 대로 사용자가 상근할 때 1과 같음.
-* <span class="preview">다음 값 [!UICONTROL 작업 시간] 사용자가 프로젝트 관련 작업에 보내는 시간을 나타내는 사용자입니다. 여기에는 회의나 교육 같은 오버헤드 시간이 포함되지 않습니다. 다음 [!UICONTROL 작업 시간] equals 1 (사용자가 작업에 사용 가능한 경우) [!UICONTROL FTE] 또는 일정입니다. 즉, 회의나 훈련 같은 비프로젝트 관련 업무에 아무 시간도 사용하지 않습니다.</span>
+<div class="preview">
+* 사용자가 프로젝트 관련 작업에 사용한 시간을 참조하는 사용자의 [!UICONTROL Work Time] 값입니다. 여기에는 회의나 교육 같은 오버헤드 시간이 포함되지 않습니다. [!UICONTROL Work Time]은 [!UICONTROL FTE]가 지정한 전체 시간 동안 사용자가 작업할 수 있는 경우 1입니다. 즉, 회의나 교육처럼 비프로젝트 관련 작업에 시간을 보내지 않습니다.
+</div>
 
 의 자원 계획 및 스케줄링에 대한 정보 [!DNL Workfront]를 참조하십시오. [리소스 관리 시작](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
 

@@ -7,7 +7,7 @@ description: 사용자, 팀 또는 작업 롤에 작업을 할당하거나 할�
 author: Alina
 feature: Work Management
 exl-id: e774f2db-494d-4f93-8727-3c073e5f930b
-source-git-commit: 7e77223595d3c9cf0d6592a09e893142439adb2c
+source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 * 작업 지정에 대한 자세한 내용은 [작업 할당](../../../manage-work/tasks/assign-tasks/assign-tasks.md) 및 [작업 목록에서 여러 사용자 할당 수정](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
 
-* 예약 영역에서 여러 작업에 대한 지정 수정에 대한 자세한 내용은 [예약 영역에서 작업에 할당된 여러 사용자를 수정합니다](../../../resource-mgmt/resource-scheduling/modify-multipl-assignments-scheduling-areas.md).
+* 예약 영역의 여러 작업에 대한 지정 수정에 대한 자세한 내용은 &quot;예약 영역의 태스크에 지정된 여러 사용자 수정&quot;을 참조하십시오.
 * 작업 로드 밸런서를 사용하여 작업을 지정하는 방법에 대한 자세한 내용은 [작업 로드 밸런서에서 작업 할당 개요](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 이 문서의 일부 정보는 문제에 대한 할당에도 적용됩니다. 문제 지정 및 추가 고려 사항에 대한 자세한 내용은 [문제 지정 수정 개요](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
