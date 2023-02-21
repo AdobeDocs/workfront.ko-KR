@@ -6,9 +6,9 @@ description: 을 검색할 수 있습니다 [!DNL Adobe Workfront] 항목 [!DNL 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 85821f21-d4fd-4f28-bd7a-0c109a4433a8
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '213'
 ht-degree: 6%
 
 ---
@@ -60,8 +60,7 @@ ht-degree: 6%
 
    >[!NOTE]
    >
-   >명령은 대/소문자를 구분합니다. 키워드는 대/소문자를 구분하지 않으며 대괄호나 큰따옴표 없이 입력해야 합니다.\
-   >![slack_search_result_select_object_box.png](assets/slack-search-result-select-object-box-350x30.png)   >
+   >명령은 대/소문자를 구분합니다. 키워드는 대/소문자를 구분하지 않으며 대괄호나 큰따옴표 없이 입력해야 합니다.
 
 1. 표시되는 필드에서 다음 필드에서 객체 유형을 선택합니다.
 

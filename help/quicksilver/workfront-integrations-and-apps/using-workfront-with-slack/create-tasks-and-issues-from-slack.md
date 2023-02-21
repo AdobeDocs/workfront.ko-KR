@@ -6,9 +6,9 @@ description: 설치 및 구성 후 [!DNL Adobe Workfront] Slack의 경우 Slack�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: cf4a514a-fe69-4c2f-8e35-5738dfaab24e
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -62,8 +62,7 @@ ht-degree: 0%
    >
    >명령은 대/소문자를 구분합니다. 명령을 `/wf` 대신 `/workfront`.
    >  
-   >작업 이름은 [!DNL Workfront] 대괄호 또는 큰따옴표가 없는 인터페이스.\
-   >![add_task_to_project.png](assets/add-task-to-project-350x63.png)
+   >작업 이름은 [!DNL Workfront] 대괄호 또는 큰따옴표가 없는 인터페이스.
 
 1. (선택 사항) 새 작업을 연결할 프로젝트의 이름을 입력하고 목록에 표시할 때 선택합니다.\
    작업이 선택한 프로젝트에 추가되었음을 나타내는 확인 메시지가 표시됩니다.
@@ -81,8 +80,7 @@ ht-degree: 0%
    >[!NOTE]
    >
    >명령은 대/소문자를 구분합니다. &#39;/workfront&#39; 대신 &#39;/wf&#39;로 명령을 시작할 수 있습니다. \
-   >문제 이름은 [!DNL Workfront] 대괄호 또는 큰따옴표가 없는 인터페이스.\
-   >![slack_add_issue_to_project.png](assets/slack-add-issue-to-project-350x88.png)
+   >문제 이름은 [!DNL Workfront] 대괄호 또는 큰따옴표가 없는 인터페이스.
 
 1. (선택 사항) 새 문제를 연결할 프로젝트의 이름을 입력하고 목록에 표시할 때 선택합니다.\
    문제가 선택한 프로젝트에 추가되었다는 확인 메시지가 나타납니다.

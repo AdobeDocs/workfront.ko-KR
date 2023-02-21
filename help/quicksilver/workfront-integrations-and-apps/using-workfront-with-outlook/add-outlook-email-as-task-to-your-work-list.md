@@ -6,9 +6,9 @@ description: 변환할 수 있습니다 [!DNL Outlook] 전자 메일 [!DNL Adobe
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: fcd02116-ffeb-43d3-8541-5e30e6cfdc5e
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
@@ -48,11 +48,10 @@ ht-degree: 0%
 1. 을(를) 클릭합니다. **[!DNL Workfront]** 이메일 메시지 오른쪽 위 모서리에 있는 아이콘을 통해 [!DNL Workfront] 추가 기능.\
    전자 메일의 오른쪽 상단에 있는 아래쪽 화살표를 클릭하여 [!DNL Workfront] 아이콘.
 
-1. 을(를) 클릭합니다. **[!UICONTROL 메뉴]** 사용 가능한 목록 표시 아이콘 [!DNL Workfront] 옵션.\
-   ![o365_addin_menu_icon.png](assets/o365-addin-menu-icon.png)
+1. 을(를) 클릭합니다. **[!UICONTROL 메뉴]** ![o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png) 사용 가능한 목록 표시 아이콘 [!DNL Workfront] 옵션.\
+
 
 1. 클릭 **[!UICONTROL 작업에 추가]**.\
-   ![outlook_add_to_work_menu.png](assets/outlook-add-to-work-menu-242x337.png)
 
 1. 선택 취소 **[!UICONTROL 프로젝트에 추가]** 필드.
 1. (선택 사항) 전자 메일에서 다음 정보를 업데이트한 후 작업으로 저장할 수 있습니다.
@@ -68,4 +67,3 @@ ht-degree: 0%
 
 1. (선택 사항) 뒤로 이동 [!DNL Outlook], 원본 이메일을 선택합니다.\
    맨 위에 [!DNL Workfront] 추가 기능 패널에서 이메일이 작업으로 Workfront에 추가되었다는 링크가 포함된 확인을 알 수 있습니다. 링크에는 변환된 날짜가 포함됩니다.\
-   ![outlook_standalone_task_added.png](assets/outlook-standalone-task-added-350x123.png)

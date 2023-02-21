@@ -6,9 +6,9 @@ description: Outlook 전자 메일의 기존 프로젝트, 작업 또는 문제�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 297eb1c4-ee9f-4bb3-a412-18f23c74b0eb
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '451'
 ht-degree: 0%
 
 ---
@@ -48,11 +48,10 @@ ht-degree: 0%
 1. 을(를) 클릭합니다. **[!DNL Workfront]** 이메일 메시지 오른쪽 상단 모서리의 아이콘을 클릭하여 Workfront 추가 기능을 표시합니다.\
    전자 메일의 오른쪽 상단에 있는 아래쪽 화살표를 클릭하여 [!DNL Workfront] 아이콘.
 
-1. 을(를) 클릭합니다. **[!UICONTROL 메뉴]** 사용 가능한 목록 표시 아이콘 [!DNL Workfront] 옵션.\
-   ![o365_addin_menu_icon.png](assets/o365-addin-menu-icon.png)
+1. 을(를) 클릭합니다. **[!UICONTROL 메뉴]** 아이콘 ![o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png) 사용 가능한 목록 표시 [!DNL Workfront] 옵션.\
+
 
 1. 클릭 **[!UICONTROL 업데이트] Workfront**.\
-   ![outlook_Update_in_workfront_menu.png](assets/outlook-update-in-workfront-menu-253x345.png)\
    작업으로 저장되기 전에 이메일에서 다음 정보를 업데이트할 수 있습니다.
 
    * **[!UICONTROL 유형]**: 업데이트할 개체 유형을 선택합니다. 선택할 수 있습니다 **[!UICONTROL 프로젝트]**, **[!UICONTROL 작업]**, 또는 **[!UICONTROL 문제]**. 선택하는 개체에 따라 **[!UICONTROL 이름]** 아래의 필드. 객체 유형을 잘 모르는 경우 **[!UICONTROL 모두]** 프로젝트, 작업 및 문제를 동시에 검색하려면 다음을 수행하십시오.
@@ -67,7 +66,6 @@ ht-degree: 0%
 1. (선택 사항) **[!UICONTROL 다른 항목 포함]**&#x200B;을 눌러 업데이트에 포함할 사용자 이름을 입력한 다음 드롭다운 목록에 표시될 이름을 클릭합니다.\
    추가 사용자를 포함하려면 이 프로세스를 반복한 다음 **[!UICONTROL 완료]**.\
    기본적으로 회신하는 사용자는 포함할지 여부에 관계없이 알림을 받습니다.\
-   ![o365_addin_includeothers.png](assets/o365-addin-includeothers.png)
 
 1. (선택 사항) **[!UICONTROL 잠금]** 아이콘을 사용하여 회사 내 사용자에게 이 업데이트를 제한할 수 있습니다. 업데이트가 잠긴 경우 회사 외부의 사용자가 업데이트를 볼 수 없습니다.
 

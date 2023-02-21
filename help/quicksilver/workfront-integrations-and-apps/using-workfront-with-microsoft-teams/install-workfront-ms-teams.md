@@ -6,9 +6,9 @@ description: 다음 [!DNL Adobe Workfront for Microsoft Teams] 앱에서 의 기
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a8d4e48c-1ccc-4e6e-a0a0-9b68748590c0
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: 473a1fe3cb7e247749d9b540e3e5556cbe17a1dd
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '803'
 ht-degree: 0%
 
 ---
@@ -60,8 +60,6 @@ ht-degree: 0%
 1. 설치할 팀을 선택합니다 [!DNL Workfront for Microsoft Teams] 앱.
 1. 클릭 **[!UICONTROL 스토어]** 을 클릭합니다.
 
-   ![ms_teams_Store_icon.png](assets/ms-teams-store-icon-319x809.png)
-
 1. 에서 **[!UICONTROL 모두 검색]** 상자, 유형 *[!DNL Workfront]*.
 
 1. 을(를) 클릭합니다. **[!DNL Workfront]** 카드를 표시하고 마법사의 지침을 따릅니다.
@@ -69,9 +67,7 @@ ht-degree: 0%
 
    ![ms_teams_add_to_a_team_option.png](assets/ms-teams-add-to-a-team-option-350x122.png)
 
-1. 선택 **[!UICONTROL 일반]** 선택한 팀에 대해 해당 채널의 앱을 사용하려면 **[!UICONTROL 설정]**.
-
-   ![teams_select_wha_channel_to_use_the_app_install.PNG](assets/teams-select-which-channel-to-use-the-app-install-350x330.png)
+1. 채널에 대해 을(를) 선택합니다. **[!UICONTROL 일반]** 선택한 팀에 대해 해당 채널의 앱을 사용하려면 **[!UICONTROL 설정]** 추가 콘텐츠로 가져올 수 있습니다.
 
 1. 설치가 완료되면 설치가 성공적으로 수행되었다는 알림이 [!UICONTROL 일반] 선택한 팀의 채널입니다. 팀의 모든 구성원이 이 알림을 볼 수 있습니다.
 1. (선택 사항) [!DNL Workfront] 액세스 편의성을 위한 앱:
@@ -79,8 +75,6 @@ ht-degree: 0%
    1. 을(를) 클릭합니다. **[!UICONTROL 자세히]** 아이콘 아래의 메시지 필드( [!UICONTROL 일반] 채널.
 
    1. 마우스 [!DNL Workfront] 앱에서 을 클릭한 다음 **[!UICONTROL 자세히]** 아이콘 오른쪽을 누릅니다.
-
-      ![teams_pin_workfront_link.PNG](assets/teams-pin-workfront-link-350x80.png)
 
    1. 클릭 **[!UICONTROL 핀]**.
 
@@ -104,18 +98,14 @@ ht-degree: 0%
 1. 에 로그인합니다. [!DNL Microsoft Teams] 로서의 [!DNL Microsoft] 팀 소유자.
 1. 을(를) 클릭합니다. **[!UICONTROL 자세히]** 설치할 팀의 아이콘 [!DNL Workfront for Microsoft Teams].
 
-   ![ms_teams_more_icon_for_team.png](assets/ms-teams-more-icon-for-team-350x177.png)
-
 1. 클릭 **[!UICONTROL 팀 관리]**.
 1. 을(를) 선택합니다 **[!UICONTROL 앱]** 탭을 클릭한 다음 **[!UICONTROL 사용자 지정 앱 업로드]** 화면 오른쪽 아래 모서리에 있습니다.
 
 1. 컴퓨터에 저장한 개인 파일을 찾은 다음 설치 단계에 따라 설치합니다 [!DNL Workfront for Microsoft Teams].
 1. 설치가 완료되면 선택한 팀의 일반 채널에 설치가 성공적으로 수행되었다는 알림이 나타납니다. 팀의 모든 구성원이 이 알림을 볼 수 있습니다.
-1. (선택 사항) **[!UICONTROL 자세히]** 아이콘 아래의 **[!UICONTROL 여기에 질문 입력]** 필드.
+1. (선택 사항) **[!UICONTROL 자세히]** 아래에 있는 세 점 아이콘 **[!UICONTROL 여기에 질문 입력]** 필드.
 
 1. (선택 사항) 마우스를 [!DNL Workfront] 앱에서 을 클릭한 다음 **[!UICONTROL 자세히]** 아이콘 오른쪽을 누릅니다.
-
-   ![teams_pin_workfront_link.PNG](assets/teams-pin-workfront-link-350x80.png)
 
 1. (선택 사항) **[!UICONTROL 핀]**.
 
@@ -138,15 +128,11 @@ ht-degree: 0%
 
    다음 [!DNL Workfront] 보트 채팅 채널이 [!DNL Microsoft Teams] 채팅 채널.
 
-   ![teams_workfront_bot_channel_highlight.PNG](assets/teams-workfront-bot-channel-highlighted-350x220.png)
-
 1. 로 이동합니다. [!DNL Workfront] 보트 채팅 채널 [!DNL Microsoft Teams] 및 유형 *[!UICONTROL 로그인]* 에서 **[!UICONTROL 여기에 질문 입력]** 필드.
 
    또는
 
    클릭 **[!UICONTROL 로그인]**.
-
-   ![](assets/ms-teams-log-in-prompt-with-4-tabs-350x139.png)
 
    새 브라우저 탭이 열립니다.
 

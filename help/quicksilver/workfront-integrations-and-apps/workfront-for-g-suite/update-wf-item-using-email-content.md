@@ -7,7 +7,7 @@ description: Adobe Workfront이 아닌 이메일의 기존 프로젝트, 작업 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 2ac392f5-98a3-4ab6-a0e3-cda378f0f68b
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 0%
@@ -57,8 +57,6 @@ ht-degree: 0%
 1. 아래 **[!UICONTROL 유형]**&#x200B;드롭다운 화살표를 클릭한 다음 업데이트를 추가할 개체 유형을 클릭합니다.
 1. 을(를) 클릭합니다. **[!UICONTROL 검색 대상]** 옵션을 선택하고 업데이트를 추가할 객체의 이름을 입력한 다음 아래 목록에 표시될 항목을 선택합니다.
 
-   ![](assets/click-search-for-task-issue.png)
-
    이 옵션은 3단계에서 선택한 내용에 따라 달라집니다. 그럴 수도 있지 **[!UICONTROL 프로젝트 검색]**, **[!UICONTROL 작업 검색]**, 또는 **[!UICONTROL 문제 검색]**.
 
    >[!NOTE]
@@ -90,8 +88,6 @@ ht-degree: 0%
 1. 클릭 **[!UICONTROL 업데이트]**.
 
    브라우저를 새로 고치면, [!DNL Workfront for G Suite] 패널에서 이메일을 업데이트로 전환했음을 확인합니다.
-
-   ![](assets/email-was-converted-as-update.png)
 
    링크를 클릭하여 [!UICONTROL 업데이트] 탭 [!DNL Workfront] 4단계에서 지정한 객체에 대해 해당됩니다.
 

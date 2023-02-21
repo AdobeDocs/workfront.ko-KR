@@ -6,9 +6,9 @@ description: 통합 [!DNL Adobe Workfront] 을(를) 통해 액세스 및 생성 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: cac75a81-26e8-4713-a6be-453943b431ab
-source-git-commit: 09b4644a63241fa9e0a213bfa6f1a7e4264a1703
+source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -79,11 +79,8 @@ ht-degree: 0%
 1. 클릭 **[!UICONTROL 여는 위치[!DNL Slack]]**.
 
 1. 을(를) 지정하여 작업 영역에 로그인합니다 [!DNL Slack] URL 및 클릭 **[!UICONTROL 계속]**.\
-   ![Screen_Shot_2017-10-17_at_8.27.38_AM.png](assets/screen-shot-2017-10-17-at-8.27.38-am-350x432.png)
 
 1. 다음 액세스 권한을 검사합니다. [!DNL Slack] 을 요청하는 중입니다. 이 액세스 권한에 동의하는 경우 **[!UICONTROL 액세스 허용]** 권한을 부여하려면 [!DNL Workfront] 앱.
-
-   ![](assets/integrations-access-screen-350x429.png)
 
 이제 액세스할 수 있습니다 [!DNL Workfront] 변환 전: [!DNL Slack]에 설명된 대로 [액세스 [!DNL Workfront] 변환 전: [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md#viewing-all-available-commands) section in [Access [!DNL Adobe Workfront] 변환 전: [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
@@ -98,8 +95,6 @@ ht-degree: 0%
    또는
 
    을(를) 클릭합니다. **[!UICONTROL 앱 추가]** 아이콘 사용 [!DNL Slack] 인스턴스.
-
-   ![add_apps_in_Slack.png](assets/add-apps-in-slack-350x112.png)
 
 1. 입력 시작 *[!DNL Workfront]* 검색 필드에서 을 클릭합니다.
 1. Enter 키를 누릅니다.

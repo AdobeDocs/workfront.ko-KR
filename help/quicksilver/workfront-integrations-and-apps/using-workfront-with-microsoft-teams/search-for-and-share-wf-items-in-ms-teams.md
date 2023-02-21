@@ -6,16 +6,16 @@ description: 을 검색할 수 있습니다 [!DNL Workfront] 항목 [!DNL Adobe 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 71d83723-daea-4b7b-8e5b-cfcf414611fe
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: 473a1fe3cb7e247749d9b540e3e5556cbe17a1dd
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '412'
 ht-degree: 1%
 
 ---
 
 # 검색 및 공유 [!DNL Adobe Workfront] 항목 [!DNL Microsoft Teams]
 
-을 검색할 수 있습니다 [!DNL Workfront] 항목 [!DNL Adobe WorkfrontWorkfront] 채널 [!DNL Microsoft Teams] 이러한 항목을 팀 구성원과 공유할 수 있습니다.
+을 검색할 수 있습니다 [!DNL Workfront] 항목 [!DNL Adobe Workfront] 채널 [!DNL Microsoft Teams] 이러한 항목을 팀 구성원과 공유할 수 있습니다.
 
 * [공유를 위한 사전 요구 사항 [!DNL Workfront] 항목 [!DNL Microsoft Teams]](#prerequisites-for-sharing-workfront-items-in-microsoft-teams-prerequisites-for-sharing-workfront-items-in-microsoft-teams)
 * [검색 및 공유 [!DNL Workfront] 항목 [!DNL Microsoft Teams]](#search-for-and-share-adobe-workfront-items-in-microsoft-teams)
@@ -94,5 +94,5 @@ ht-degree: 1%
    이 경우 다음을 포함한 메시지를 전송합니다 [!DNL Workfront] 항목을 채널에 추가합니다.\
    채널의 모든 구성원에게 [!DNL Workfront] 카드.
 
-1. 클릭 **[!UICONTROL Workfront에서 보기]** 를 클릭하여 Workfront에서 항목을 확인합니다.\
-   사용자가 [!DNL Workfront] 라이센스는 Workfront에서 항목을 볼 수 있습니다.
+1. 클릭 **[!UICONTROL Workfront에서 보기]** 의 항목을 보려면 [!DNL Workfront].\
+   사용자가 [!DNL Workfront] 라이센스는 [!DNL Workfront].

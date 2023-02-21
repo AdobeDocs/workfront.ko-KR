@@ -6,7 +6,7 @@ description: 통합 [!DNL Adobe Workfront] with [!DNL Slack] 액세스 권한 �
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5f531217-3bd6-4156-8b9f-eabc95d4df10
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
 source-wordcount: '1075'
 ht-degree: 1%
@@ -95,8 +95,6 @@ Slack의 메시지 필드에 명령을 입력하면 로그인하라는 메시지
    * `/wf home`
 
       작업, 문제 및 승인 목록에 액세스할 수 있는 단추를 표시합니다. 버튼 중 하나를 클릭하면 각 목록에 있는 처음 20개 항목이 표시됩니다. [!DNL Slack].
-
-      ![](assets/slack-home-buttons-350x80.png)
 
       관리에 대한 자세한 정보 [!DNL Workfront] 작업 항목 [!DNL Slack]를 참조하십시오. [다음 위치에서 작업 및 승인 관리 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md).
 
@@ -203,8 +201,6 @@ Slack의 메시지 필드에 명령을 입력하면 로그인하라는 메시지
    또는
 
    `/wf settings`
-
-   ![](assets/slack-configuring-settings-350x302.png)
 
    모든 설정은 기본적으로 활성화되어 있습니다.
 

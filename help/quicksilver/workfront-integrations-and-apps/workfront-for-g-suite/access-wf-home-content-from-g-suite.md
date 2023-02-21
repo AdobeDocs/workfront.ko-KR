@@ -7,7 +7,7 @@ description: 에 액세스할 수 있습니다 [!DNL Adobe Workfront] G Suite를
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: da2ecaf1-5cfb-470e-90a1-fbb386db8670
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
@@ -56,11 +56,7 @@ ht-degree: 0%
 1. 만약 [!UICONTROL G Suite용 Workfront] 패널이 표시되지 않으면 [!DNL Workfront] 아이콘 ![](assets/wf-lion-icon.png) 에서 [!DNL G Suite] 페이지 맨 오른쪽에 있는 추가 기능 사이드바.
 1. 왼쪽 화살표가 [!DNL Workfront] 대상 [!DNL G Suite]를 클릭하고 화살표를 클릭하여 [!UICONTROL 홈] 영역.
 
-   ![](assets/left-arrow-to-home.png)
-
 1. 에서 **[!UICONTROL 정렬 기준]** 영역에서 확장 화살표를 클릭합니다 ![](assets/dropdown-arrow.png)을 클릭한 다음 옵션을 클릭하여 작업 항목을 그룹화하는 방법을 지정하여 원하는 항목을 찾을 수 있습니다.
-
-   ![](assets/sort-by-area.png)
 
    정렬 기준 **[!UICONTROL 커밋 날짜]** 또는 **[!UICONTROL 계획된 완료]** 가장 오래된 작업 항목이 맨 위에 있습니다.
 

@@ -6,9 +6,9 @@ description: 앱에서 사용할 수 있게 되기 전에 앱을 설치하려면
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4fea9d8f-7729-4fee-86d3-1a986be29f74
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: ad2fc27db2a19ea231e925d5991dbef27ea48030
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '878'
 ht-degree: 1%
 
 ---
@@ -79,8 +79,6 @@ ht-degree: 1%
 
 1. 을(를) 확인합니다. **[!UICONTROL 예, 이러한 타사 웹 사이트에 대한 액세스 권한 부여]** 상자.
 
-   ![salesforce_grant_access.png](assets/salesforce-grant-access-350x249.png)
-
    로드 화면이 표시되고 설치하는 데 시간이 걸릴 수 있습니다.
 
 1. 클릭 **[!UICONTROL 완료]** 설치가 완료되면
@@ -123,11 +121,9 @@ ht-degree: 1%
 
    다음 [!DNL Workfront] 앱은 아래에 나열됩니다. **[!UICONTROL 설치된 패키지]**.
 
-   ![salesforce_classic_Installed_Packages.png](assets/salesforce-classic-installed-packages-350x129.png)
 
 1. 다음으로 이동 **[!UICONTROL 설정>보안 컨트롤>원격 사이트 설정]**.
 1. (조건부) [!DNL Workfront] 에 나열된 URL **[!UICONTROL 모든 원격 사이트]** 목록, **[!UICONTROL 새 원격 사이트]**.\
-   ![salesforce_remote_site_edit.png](assets/salesforce-remote-site-edit-350x176.png)
 
 1. 을(를) 지정합니다. **[!UICONTROL 원격 사이트 이름]**.\
    For example, *[!DNL Workfront]*.
@@ -167,15 +163,11 @@ ht-degree: 1%
 
    다음 [!DNL Workfront] 앱은 아래에 나열됩니다. **[!UICONTROL 설치된 패키지]**.
 
-   ![salesforce_lightning_Installed_packages.png](assets/salesforce-lightning-installed-packages-350x171.png)
-
 1. 다음으로 이동 **[!UICONTROL 설정].**
 1. 에서 **[!UICONTROL 설정]** 섹션, &#x200B; 확장&#x200B;**[!UICONTROL 보안].**
 
 1. 클릭 **[!UICONTROL 원격 사이트 설정]**.
 1. (조건부) [!DNL Workfront] 에 나열된 URL **[!UICONTROL 모든 원격 사이트]** 목록, **[!UICONTROL 새 원격 사이트]**.
-
-   ![Salesforce_remote_site_settings_lightning.png](assets/salesforce-remote-site-settings-lightning-350x136.png)
 
 1. 을(를) 지정합니다. **[!UICONTROL 원격 사이트 이름]**.
 

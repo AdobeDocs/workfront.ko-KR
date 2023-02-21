@@ -6,9 +6,9 @@ description: 설치 후 [!DNL Adobe Workfront] Salesforce as a [!DNL Workfront] 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 81481813-74db-4408-8c85-c3b5b844f932
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: ad2fc27db2a19ea231e925d5991dbef27ea48030
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '705'
 ht-degree: 1%
 
 ---
@@ -69,7 +69,6 @@ A [!UICONTROL Pro] [!DNL Workfront] 이 기능을 사용하려면 계획이 필�
    클릭 **[!UICONTROL 새로 만들기]** 새 레이아웃을 추가하려면
 
 1. (선택 사항) **[!UICONTROL 섹션]** 구성 요소를 레이아웃에 넣고 원하는 위치에 놓습니다.\
-   ![salesforce_new_section_properties.png](assets/salesforce-new-section-properties-350x210.png)
 
 1. (선택 사항) 새 섹션의 이름을 지정합니다.
 
@@ -87,10 +86,8 @@ A [!UICONTROL Pro] [!DNL Workfront] 이 기능을 사용하려면 계획이 필�
    또는
 
    을(를) 끌어다 놓습니다 **[!UICONTROL WorkfrontAccounts]** 구성 요소를  **[!UICONTROL 계정]** 레이아웃.\
-   ![[!DNL WorkfrontAccounts_component].png](assets/workfrontaccounts-component-350x139.png)
 
-1. 을(를) 클릭합니다. **[!UICONTROL 속성]** 새로 추가된 구성 요소의 오른쪽 상단에 있는 아이콘.\
-   ![](assets/salesforce-visualforce-page-properties-350x174.png)
+1. 을(를) 클릭합니다. **[!UICONTROL 속성]** 새로 추가된 구성 요소의 오른쪽 상단에 있는 아이콘\
 
 1. 최적의 디스플레이를 얻으려면 다음 속성을 [!DNL Workfront Visualforce] 페이지:
 
@@ -104,8 +101,6 @@ A [!UICONTROL Pro] [!DNL Workfront] 이 기능을 사용하려면 계획이 필�
    이제 이 레이아웃이 할당된 모든 사용자가 [!DNL Workfront] 섹션 [!UICONTROL 기회] 또는 [!UICONTROL 계정] 개체.
 
    사용자에게 [!DNL Workfront] 로그인 화면 [!DNL Workfront] 섹션을 참조하십시오. 없는 경우 [!DNL Workfront] 계정에서는 섹션을 축소하지만 레이아웃에서 제거할 수 없습니다.
-
-   ![[!DNL salesforce_classic_opportunity_with_workfront_panel].png](assets/salesforce-classic-opportunity-with-workfront-panel-350x161.png)
 
 ## 구성 [!DNL Workfront] 의 섹션 [!DNL Salesforce Lightning Experience] 프레임워크
 
@@ -142,14 +137,11 @@ A [!UICONTROL Pro] [!DNL Workfront] 이 기능을 사용하려면 계획이 필�
 1. 로 이동 **[!UICONTROL 기회]** 또는 **[!UICONTROL 계정]**.
 
 1. 을(를) 클릭합니다. **[!UICONTROL 설정]** 아이콘을 클릭한 다음 **[!UICONTROL 페이지 편집]**.\
-   ![salesforce_lightning_opportunity_edit_area.png](assets/salesforce-lightning-opportunity-edit-area-350x116.png)
 
 1. 를 확장합니다. **[!UICONTROL 사용자 지정 관리]** 섹션을 참조하십시오.
 1. 을(를) 끌어다 놓습니다 **[!DNL Workfront]** 구성 요소 [!UICONTROL 기회] 또는 계정 페이지에서 사용할 수 있습니다.
 
    페이지의 전체 너비를 사용하는 것이 좋습니다 [!DNL Workfront] 섹션에 있는 마지막 항목이 될 필요가 없습니다.
-
-   ![[!DNL salesforce_lightning_builder].png](assets/salesforce-lightning-builder-350x229.png)
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
@@ -159,4 +151,3 @@ A [!UICONTROL Pro] [!DNL Workfront] 이 기능을 사용하려면 계획이 필�
    >
    >사용자에게 [!DNL Workfront] 로그인 화면 [!DNL Workfront] 섹션을 참조하십시오. 없는 경우 [!DNL Workfront] 계정에서는 섹션을 축소하지만 레이아웃에서 제거할 수 없습니다. 사용자는 활성화한 인증 방법을 사용하여 로그인할 수 있습니다. Enhanced Authentication 또는 SAML(Security Assertion Markup Language) URL입니다.
 
-   ![[!DNL salesforce_lightning__workfront_panel].png](assets/salesforce-lightning--workfront-panel-350x127.png)

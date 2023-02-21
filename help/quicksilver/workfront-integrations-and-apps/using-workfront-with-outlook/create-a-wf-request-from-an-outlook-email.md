@@ -6,9 +6,9 @@ description: 을(를) 만들 수 있습니다 [!DNL Adobe Workfront] Outlook에�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4ecfe632-5f2e-4dc2-8c88-6a8229887f53
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -56,14 +56,10 @@ ht-degree: 0%
 1. 을(를) 클릭합니다. **[!DNL Workfront]** 이메일 메시지 오른쪽 상단 모서리의 아이콘을 클릭하여 Workfront 추가 기능을 표시합니다.\
    전자 메일의 오른쪽 상단에 있는 아래쪽 화살표를 클릭하여 [!DNL Workfront] 아이콘.
 
-1. 을(를) 클릭합니다. **[!UICONTROL 메뉴]** 사용 가능한 목록 표시 아이콘 [!DNL Workfront] 옵션.
-
-   ![o365_addin_menu2_icon.png](assets/o365-addin-menu2-icon.png)
+1. 을(를) 클릭합니다. **[!UICONTROL 메뉴]** 아이콘 ![o365_addin_menu2_icon.png](assets/o365-addin-menu2-icon.png) 사용 가능한 목록 표시 [!DNL Workfront] 옵션.
 
 1. 클릭 **[!UICONTROL 요청 제출]**.
 1. 에서 **[!UICONTROL 요청 유형 선택]** 필드에서 요청을 제출할 요청 큐를 선택합니다.
-
-   ![o365_addin_submitrequest.png](assets/o365-addin-submitrequest.png)
 
 1. 다음 정보를 지정합니다.\
    요청 큐의 설정 방식에 따라 사용 가능한 필드가 달라질 수 있습니다. 가능한 필드에 대한 전체 목록 및 설명은 다음을 참조하십시오 [만들기 및 제출 [!DNL Adobe Workfront] 요청](../../manage-work/requests/create-requests/create-submit-requests.md) 문서.
@@ -79,4 +75,3 @@ ht-degree: 0%
 
 1. (선택 사항) 뒤로 이동 [!DNL Outlook], 원본 이메일을 선택합니다.\
    맨 위에 [!DNL Workfront] 추가 기능 패널에서 이메일이 요청으로 Workfront에 추가되었다는 링크가 포함된 확인을 알 수 있습니다. 링크에는 변환된 날짜가 포함됩니다.\
-   ![outlook_submitted_as_a_request.png](assets/outlook-submitted-as-a-request-350x130.png)

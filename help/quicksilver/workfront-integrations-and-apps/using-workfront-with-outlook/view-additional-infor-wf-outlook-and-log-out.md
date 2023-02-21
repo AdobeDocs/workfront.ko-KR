@@ -6,9 +6,9 @@ description: Outlook용 Adobe Workfront 추가 기능 버전에 대한 세부 �
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: f2200d71-c81e-4b15-b631-07e08562609b
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
@@ -47,8 +47,6 @@ ht-degree: 0%
 1. 에서 이메일 선택 [!DNL Outlook].
 1. 클릭 **[!DNL Workfront]** 아이콘을 클릭하여 Workfront 추가 기능을 표시합니다.
 1. 사용자 이름 옆에 있는 드롭다운 화살표를 클릭합니다.
-
-   ![outlook_additional_information_for_the_app.png](assets/outlook-additional-information-for-the-app-249x341.png)
 
 1. 다음 옵션 중 하나를 클릭합니다.
 

@@ -6,9 +6,9 @@ description: 연결할 수 있습니다 [!DNL Jira] 문제 [!DNL Adobe Workfront
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
-source-git-commit: f533c9000c14d5692c87987973eb0b1d6665229d
+source-git-commit: f22a67cd3235a3111f7b874637ec05f8299de271
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1160'
 ht-degree: 0%
 
 ---
@@ -102,8 +102,6 @@ Jira 문제를 자동으로 생성하기 위한 트리거를 정의하는 방법
 
    에서 **[!UICONTROL 업데이트]** 새 작업의 영역에는 새 문제가 [!DNL Jira].
 
-   ![WF_confirmation_that_Jira_issue_was_created.png](assets/wf-confirmation-that-jira-issue-was-created-350x43.png)
-
 1. (선택 사항) Jira 문제에 대한 링크를 클릭하여 Jira에서 엽니다.
 
    또는
@@ -142,15 +140,14 @@ When [!DNL Workfront] 및 [!DNL Jira] 항목이 연결되어 있으면 한 항�
 
    또는
 
-   에서 [!UICONTROL 세부 사항] 영역 ![](assets/details-icon-in-left-panel.png), 복사 **[!UICONTROL 참조 번호]** Workfront에 있는 항목의 수입니다.
+   에서 [!UICONTROL 세부 사항] 영역, 복사 **[!UICONTROL 참조 번호]** Workfront에 있는 항목의 수입니다.
 
    >[!NOTE]
    >
    >다음을 수행해야 합니다. [!DNL Workfront] 로그인하기 위한 라이선스 [!DNL Workfront]. 그렇지 않으면 [!DNL Workfront] 사용자는 이 정보를 제공해야 합니다.
 
 1. in [!DNL Jira]에 수동으로 연결할 문제로 이동합니다. [!DNL Workfront] 항목.
-1. 에서 [!DNL Workfront] 오른쪽 패널, 붙여넣기 **URL** 또는 **[!UICONTROL 참조 번호]** 의 [!DNL Workfront] 연결할 항목입니다.\
-   ![manually_link_items_Jira_WF.png](assets/new-manually-link-items-jira-631x394.png)
+1. 에서 [!DNL Workfront] 오른쪽 패널, 붙여넣기 **URL** 또는 **[!UICONTROL 참조 번호]** 의 [!DNL Workfront] 연결할 항목입니다.
 
 1. 클릭 **[!UICONTROL 링크]**.
 
@@ -168,8 +165,6 @@ When [!DNL Workfront] 및 [!DNL Jira] 항목이 연결되어 있으면 한 항�
 
 오른쪽 패널에 추가 필드를 표시할 수 있도록 하는 방법에 대한 자세한 내용은 [필드 동기화 구성 [!DNL Jira] 및 [!DNL Workfront] 항목](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md#setting-up-field-synchronization) 섹션 [구성 [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md). 의 댓글 [!DNL Workfront] 통합과 관련된 관리자는 **[!DNL Workfront]** 의 탭 [!DNL Jira] 새 [!DNL Jira] 항목이 생성되었습니다. 주석에는 [!DNL Jira] 문제.
 
-![Jira_confirmation_of_the_Jira_issue_created_Workfront_tab.png](assets/new-jira-confirmation-jira-issue-created-workfront-tab-1096x533.png)
-
 ## 간 항목 연결 해제 [!DNL Jira] 및 [!DNL Workfront]
 
 간 연결된 항목 [!DNL Jira] 및 [!DNL Workfront] 에서 수동으로 연결 해제할 수 있습니다. [!DNL Jira].\
@@ -185,6 +180,6 @@ When [!DNL Workfront] 및 [!DNL Jira] 항목이 연결되어 있으면 한 항�
 연결을 해제하려면 [!DNL Jira] 문제 [!DNL Workfront] 항목:
 
 1. in [!DNL Jira]로 이동하여 [!DNL Workfront] 작업 또는 문제입니다.
-1. 로 이동합니다. [!DNL Workfront] 오른쪽 패널에서 **[!UICONTROL 연결 해제]** 아이콘을 클릭한 다음 **[!UICONTROL 연결 해제]**.\
-   ![Jira_WF_unlink_icon.png](assets/new-jira-wf-unlink-icon-631x394.png)\
+1. 로 이동합니다. [!DNL Workfront] 오른쪽 패널에서 **[!UICONTROL 연결 해제]** 아이콘을 클릭한 다음 **[!UICONTROL 연결 해제]**.
+
    이전에 연결된 [!DNL Jira] 및 [!DNL Workfront] 이제 항목이 연결 해제되었습니다. 나중에 개별적으로 업데이트될 수 있는 필드, 주석 또는 문서는 다른 애플리케이션에서 이전 상대 필드에 대해 업데이트되지 않습니다.

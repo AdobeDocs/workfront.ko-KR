@@ -6,9 +6,9 @@ description: 에 연결되는 경우 [!DNL Adobe Workfront] 개체는 Slack 채�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 587c6ac7-cc56-480f-852d-f0bd36b3f3cf
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: eeb90d8f80b1680d880d07f41e9d80c0658495fa
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1118'
 ht-degree: 2%
 
 ---
@@ -62,8 +62,6 @@ ht-degree: 2%
    >[!NOTE]
    >
    >링크를 공유하는 사용자는 적어도 [!UICONTROL 보기] 프로젝트에 대한 추가 정보를 보려면 해당 프로젝트에 대한 권한을 사용하십시오.
-
-   ![slack_project_details.png](assets/slack-project-details-350x199.png)
 
 1. (선택 사항) 프로젝트 이름을 클릭하여 열기 [!DNL Workfront] 새 브라우저 탭에서 을 클릭합니다.
 1. 프로젝트에 대한 다음 추가 정보를 검토하십시오.

@@ -6,9 +6,9 @@ description: 설치 후 [!DNL Adobe Workfront] Salesforce의 경우 [!DNL Workfr
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b38c91ae-342b-4002-a947-7a0ab1aaca93
-source-git-commit: 5b889633a96d634a359181bfd53ec106b0f3705c
+source-git-commit: ad2fc27db2a19ea231e925d5991dbef27ea48030
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1506'
 ht-degree: 3%
 
 ---
@@ -198,8 +198,6 @@ ht-degree: 3%
 1. 을(를) 선택합니다 **[!UICONTROL 프로젝트]** 탭.
 
    정의된 트리거로 만든 모든 프로젝트가 이 탭에 나열됩니다. 의 모든 사용자 [!DNL Salesforce] 또한 [!DNL Workfront] 계정 및 액세스 권한이 있는 사람이 [!DNL Workfront] 또한 이러한 기능이 [!DNL Salesforce] 대상 [!UICONTROL 기회] 또는 생성한 계정입니다.
-
-   ![[!DNL salesforce_projects_tab_with_projects_listed].png](assets/salesforce-projects-tab-with-projects-listed-350x150.png)
 
    통합에서 만든 프로젝트에 대한 다음 정보를 볼 수 있습니다.
 

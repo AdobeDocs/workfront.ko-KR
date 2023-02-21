@@ -7,7 +7,7 @@ description: 외부 이메일(Adobe에서 생성되지 않음)을 변환할 수 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 6bbb4301-2791-4d72-bad8-fef63d6e892a
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 0%
@@ -59,8 +59,6 @@ ht-degree: 0%
 1. 만약 [!UICONTROL G Suite용 Workfront] 패널이 표시되지 않으면 [!DNL Workfront] 아이콘 ![](assets/wf-lion-icon.png) 에서 [!DNL G Suite] 페이지 맨 오른쪽에 있는 추가 기능 사이드바.
 1. 전자 메일 메시지를 연 상태에서 [!DNL G Suite]에서 옵션을 클릭합니다. [!DNL Workfront for G Suite] 이메일을 새 주소로 변환하려면 [!DNL Workfront] 작업.
 
-   ![](assets/convert-email-task-issue-update.png)
-
 1. 선택 **[!UICONTROL 새로 만들기]** 작업이 프로젝트에 포함되는지 아니면 프로젝트에 독립적인 개인 태스크인지를 나타내는 옵션입니다.
 1. 작업을 상위 프로젝트에 첨부하려면 **[!UICONTROL 프로젝트 이름]**&#x200B;을 눌러 작업을 원하는 프로젝트의 이름을 입력하고 아래 목록에 프로젝트 이름이 표시되면 프로젝트 이름을 클릭합니다.
 1. 다음 중 하나를 변경합니다.
@@ -107,8 +105,6 @@ ht-degree: 0%
    아래쪽에서 **[!UICONTROL 세부 사항]** 탭에서 **[!UICONTROL 에서 보기[!DNL Workfront]]** Workfront의 새 작업으로 이동합니다.
 
    브라우저를 새로 고치면, [!DNL Workfront for G Suite] 패널에서 전자 메일을 작업으로 전환했음을 확인합니다.
-
-   ![](assets/email-was-converted.png)
 
    링크를 클릭하여 [!DNL Workfront for G Suite] 패널입니다.
 

@@ -6,9 +6,9 @@ description: 연결할 때 [!DNL Jira] 문제 [!DNL Adobe Workfront] 작업이�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 79ac6ff1-2f7d-4abc-8735-398f6aac5191
-source-git-commit: f533c9000c14d5692c87987973eb0b1d6665229d
+source-git-commit: f22a67cd3235a3111f7b874637ec05f8299de271
 workflow-type: tm+mt
-source-wordcount: '1723'
+source-wordcount: '1703'
 ht-degree: 0%
 
 ---
@@ -106,7 +106,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>사용자 지정 Forms 및 사용자 지정 필드</td> 
-   <td> <p> 에 표시 [!DNL Workfront] 의 오른쪽 패널 [!DNL Jira] 문제. <br>실제 값이 있는 사용자 지정 필드만 패널에 표시됩니다.<br><img src="assets/new-custom-form-in-workfront-side-panel-1012x1314.png" alt="custom_form_in_workfront_side_panel.png" style="width: 1012;height: 1014;"></p> <p>참고: 사용자 지정 양식 섹션은 [!DNL Workfront] 관리자 </p> </td> 
+   <td> <p> 에 표시 [!DNL Workfront] 의 오른쪽 패널 [!DNL Jira] 문제. <br>실제 값이 있는 사용자 지정 필드만 패널에 표시됩니다.<br></p> <p>참고: 사용자 지정 양식 섹션은 [!DNL Workfront] 관리자 </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 문제 또는 작업 우선 순위]</td> 
@@ -201,8 +201,7 @@ Jira에 로그인할 때 [!DNL Workfront] 패널, 시간은 [!DNL Workfront].\
 
 1. 에 로그인합니다. [!DNL Jira].
 1. 로 이동합니다. [!DNL Jira] 에 연결된 문제 [!DNL Workfront] 항목.
-1. 를 확장합니다. **[!UICONTROL 자세히]** 메뉴를 클릭하고 **[!UICONTROL 로그 작업]**.\
-   ![log_time_from_More_menu_in_Jira.png](assets/new-log-time-from-more-menu-in-jira-994x594.png)
+1. 를 확장합니다. **[!UICONTROL 자세히]** 메뉴를 클릭하고 **[!UICONTROL 로그 작업]**.
 
 1. 에서 **[!UICONTROL 체류 시간]** 필드에서 이 문제에 대해 작업하는 데 걸린 시간을 지정합니다. 다음 기간을 사용하여 시간을 지정해야 합니다.
 
@@ -225,8 +224,6 @@ Jira에 로그인할 때 [!DNL Workfront] 패널, 시간은 [!DNL Workfront].\
 
 1. 을(를) 클릭합니다. **[!UICONTROL 로그 시간]** 아이콘.
 
-   ![Log_time_in_Jira.png](assets/log-time-in-jira.png)
-
 1. 의 양을 지정합니다. **[!UICONTROL 시간]** 및 **[!UICONTROL 분]** 문제를 기록하려는 경우
 
 1. 클릭 **[!UICONTROL 로그 시간]**.
@@ -246,7 +243,7 @@ Jira에 로그인할 때 [!DNL Workfront] 패널, 시간은 [!DNL Workfront].\
 
    세부 사항 [!DNL Workfront] 항목이 [!DNL Workfront] 문제의 오른쪽 패널.
 
-1. 을(를) 클릭합니다. **[!UICONTROL 댓글]** 아이콘( [!DNL Workfront] 패널 또는 **[!UICONTROL 댓글]** 탭. ![Jira_comments_icon.png](assets/jira-comments-icon.png)
+1. 을(를) 클릭합니다. **[!UICONTROL 댓글]** 아이콘( [!DNL Workfront] 패널 또는 **[!UICONTROL 댓글]** 탭.
 
 1. 댓글 입력을 시작한 다음 **[!UICONTROL 보내기]**.
 

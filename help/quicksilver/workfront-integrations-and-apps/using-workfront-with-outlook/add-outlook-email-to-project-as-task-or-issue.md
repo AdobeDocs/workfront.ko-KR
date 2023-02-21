@@ -6,9 +6,9 @@ description: 이메일을 [!DNL Adobe Workfront] 작업 또는 문제 전자 메
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 00755c27-9fc9-4357-a39b-4f9772484252
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
@@ -49,13 +49,11 @@ ht-degree: 0%
 
    전자 메일의 오른쪽 상단에 있는 아래쪽 화살표를 클릭하여 [!DNL Workfront] 아이콘.
 
-1. 을(를) 클릭합니다. **[!UICONTROL 메뉴]** 사용 가능한 목록 표시 아이콘 [!DNL Workfront] 옵션.
+1. 을(를) 클릭합니다. **[!UICONTROL 메뉴]** 아이콘 ![o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png) 사용 가능한 목록 표시 [!DNL Workfront] 옵션.
 
-   ![o365_addin_menu_icon.png](assets/o365-addin-menu-icon.png)
+
 
 1. 클릭 **[!UICONTROL 작업에 추가]**.
-
-   ![outlook___add_to_work.png](assets/outlook---add-to-work-302x413.png)
 
 1. 을(를) 선택합니다 **[!UICONTROL 프로젝트에 추가]** 필드.
 1. 에 프로젝트 이름을 입력합니다. **[!UICONTROL 프로젝트]** 필드를 선택한 다음 목록에 표시될 때 선택합니다.
@@ -95,4 +93,3 @@ ht-degree: 0%
 
    맨 위에 [!DNL Workfront] 추가 기능 패널에서 이메일이 추가되었음을 알리는 링크가 포함된 확인을 볼 수 있습니다. [!DNL Workfront] 작업 또는 문제입니다. 링크에는 변환된 날짜가 포함됩니다.
 
-   ![outlook_this_email_was_added_as_an_issue.png](assets/outlook-this-email-was-added-as-an-issue-350x126.png)

@@ -6,9 +6,9 @@ description: Adobe Workfront에서 특정 프로젝트, 작업 또는 문제에 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 18b22f2c-2490-41e2-afb9-0551f9579973
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -45,19 +45,13 @@ ht-degree: 0%
 
 ## 게시 a [!DNL Slack] 에서 업데이트로 주석 달기 [!DNL Workfront]
 
-1. 에서 추가한 댓글 위로 마우스를 가져갑니다. [!DNL Slack] 채널을 클릭한 다음 **[!UICONTROL 추가 작업]** 아이콘.
-
-   ![](assets/slack-more-icon.png)
+1. 에서 추가한 댓글 위로 마우스를 가져갑니다. [!DNL Slack] 채널을 클릭한 다음 **[!UICONTROL 추가 작업]** (3점) 아이콘을 클릭합니다.
 
 1. 클릭 **[!UICONTROL 업데이트 게시] ...`<the name of your Workfront app>`**.
 
    >[!NOTE]
    >
    >을(를) 클릭하여 **[!UICONTROL 추가 메시지 단축키]** 아래로 스크롤하여 **[!UICONTROL 업데이트 게시]** 선택 사항입니다.
-   >
-   >
-   >![](assets/slack-more-message-shortcuts.png)
-
 1. 에서 **[!UICONTROL 프로젝트, 작업 또는 문제]** 상자에서 업데이트를 추가할 프로젝트, 작업 또는 문제의 이름을 입력하고 목록에 표시될 때 프로젝트, 작업 또는 문제의 이름을 클릭합니다. 목록에 객체를 표시하기 전에 객체를 볼 수 있는 액세스 권한이 있어야 합니다.
 1. (선택 사항)에서 **[!UICONTROL 다른 사용자 포함]** 상자에서 업데이트에 포함할 수 있는 사용자 이름을 입력한 다음 목록에 표시되면 클릭합니다.
 1. 클릭 **[!UICONTROL 제출]**.
@@ -66,6 +60,6 @@ ht-degree: 0%
 
 1. (선택 사항) 업데이트를 게시한 프로젝트, 작업 또는 문제의 이름을 클릭하여 액세스할 수 있습니다 [!DNL Workfront].
 
-   여기에 표시가 있습니다 [!DNL Workfront] 업데이트가 시작된 [!DNL Slack].
+   댓글이 시작된 경우입니다. [!DNL Slack]를 입력하면 댓글에 &quot;[!UICONTROL 게시 위치 [!DNL Slack]]&quot; [!DNL Workfront].
 
    ![](assets/slack-update-posted-from-slack-350x112.png)

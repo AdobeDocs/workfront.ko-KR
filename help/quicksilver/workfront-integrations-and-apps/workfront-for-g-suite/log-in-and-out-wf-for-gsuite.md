@@ -7,7 +7,7 @@ description: 이 문서에서는 [!DNL Adobe Workfront for] G 세트 통합.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 8a91f1d9-bc67-4c27-a6c0-2482488c670b
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 1%
@@ -69,8 +69,6 @@ ht-degree: 1%
 
 1. 만약 [!UICONTROL G Suite용 Workfront] 패널이 표시되지 않으면 [!DNL Workfront] 아이콘 ![](assets/wf-lion-icon.png) 에서 [!DNL G Suite] 페이지 맨 오른쪽에 있는 추가 기능 사이드바.
 1. 을(를) 클릭합니다. **[!UICONTROL 추가 작업]** 아이콘을 클릭합니다 [!DNL Workfront for G Suite] 패널.
-
-   ![](assets/more-actions-icon.png)
 
 1. 클릭 **[!UICONTROL 로그아웃]** 나타납니다.
 

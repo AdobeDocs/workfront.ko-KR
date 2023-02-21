@@ -6,9 +6,9 @@ description: 수신 시 [!DNL Adobe Workfront] Outlook 받은 편지함에서 �
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 36239da6-b5f2-423c-9e81-af78bc31bf26
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -48,14 +48,13 @@ ht-degree: 0%
 1. 을(를) 클릭합니다. **[!DNL Workfront]** 이메일 메시지 오른쪽 상단 모서리의 아이콘을 클릭하여 Workfront 추가 기능을 표시합니다.\
    전자 메일의 오른쪽 상단에 있는 아래쪽 화살표를 클릭하여 [!DNL Workfront] 아이콘.
 
-1. 을(를) 클릭합니다. **[!UICONTROL 메뉴]** 사용 가능한 목록 표시 아이콘 [!DNL Workfront] 옵션.\
-   ![o365_addin_menu_icon.png](assets/o365-addin-menu-icon.png)
+1. 을(를) 클릭합니다. **[!UICONTROL 메뉴]** 아이콘 ![o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png) 사용 가능한 목록 표시 [!DNL Workfront] 옵션.\
+
 
 1. 클릭 **[!UICONTROL 댓글에 회신]**.
 1. 제공된 필드에 설명을 지정합니다.
 1. (선택 사항) **[!UICONTROL 다른 항목 포함]**&#x200B;을 눌러 업데이트에 포함할 사용자 이름을 입력한 다음 드롭다운 목록에 표시될 이름을 클릭합니다.\
    추가 사용자를 포함하려면 이 프로세스를 반복한 다음 **[!UICONTROL 완료]**.\
    기본적으로 회신하는 사용자는 포함할지 여부에 관계없이 알림을 받습니다.\
-   ![o365_addin_includeothers.png](assets/o365-addin-includeothers.png)
 
 1. 클릭 **[!UICONTROL 댓글]**.

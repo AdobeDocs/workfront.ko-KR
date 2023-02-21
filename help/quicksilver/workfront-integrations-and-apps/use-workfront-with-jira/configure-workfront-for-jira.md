@@ -6,9 +6,9 @@ description: 다음을 사용할 수 있습니다 [!DNL Adobe Workfront for Jira
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 959adc88-5201-4945-96c4-ea890f0bd371
-source-git-commit: f533c9000c14d5692c87987973eb0b1d6665229d
+source-git-commit: f22a67cd3235a3111f7b874637ec05f8299de271
 workflow-type: tm+mt
-source-wordcount: '2404'
+source-wordcount: '2400'
 ht-degree: 0%
 
 ---
@@ -143,8 +143,6 @@ ht-degree: 0%
 
    다음 **[!UICONTROL Triggers]** 기본적으로 탭이 선택되어 있습니다.
 
-   ![Triggers_tab_Jira_WF.png](assets/new-triggers-tab-jira-wf-1373x754.png)
-
 1. 클릭 **[!UICONTROL 트리거 추가]** 새 트리거를 추가하려면
 1. 에서 **[!UICONTROL Workfront 팀/사용자/역할]** 필드에서 이름 지정 [!DNL Workfront] 팀, 사용자 또는 작업 역할을 클릭한 다음 목록에 표시될 때 클릭하여 선택합니다.
 
@@ -180,8 +178,6 @@ ht-degree: 0%
 1. 클릭 **[!UICONTROL 구성]**.
 1. 에 로그인합니다. [!DNL Workfront] Workfront 관리자로.
 1. 을(를) 클릭합니다. **[!UICONTROL 설정]** 탭.
-
-   ![](assets/new-jira-newsetuptab-1205x1145.png)
 
 1. 에서 **[!UICONTROL Jira에서 Workfront으로 동기화]** 섹션에서 업데이트할 필드를 선택합니다 [!DNL Jira] Workfront에서 업데이트되는 시점.
 
@@ -305,7 +301,7 @@ ht-degree: 0%
            <li>선택 시 <strong>[!UICONTROL Always]</strong> 통합을 활성화하여 [!DNL Jira] 사용자 없이 [!DNL Workfront] 계정은 연결된 [!DNL Jira] 문제:
             <ul>
              <li>에 할당됨 [!DNL Jira] 문제</li>
-             <li><p>에 시간 기록 [!DNL Jira] 문제</p><p>이 새 사용자는 [!DNL Workfront] 라이센스. 기본 설정은 항상 입니다. 사용자가 이 방식으로 생성되었습니다. [!DNL Workfront] 에 "[!UICONTROL Jira]"가 추가되었습니다.</p><p><img src="assets/jira-wf-indication-of-user-created-by-jira-350x66.png" style="width: 350;height: 66;"></p></li>
+             <li><p>에 시간 기록 [!DNL Jira] 문제</p><p>이 새 사용자는 [!DNL Workfront] 라이센스. 기본 설정은 항상 입니다. 사용자가 이 방식으로 생성되었습니다. [!DNL Workfront] 에 "[!UICONTROL Jira]"가 추가되었습니다.</p></li>
             </ul></li>
            <li>선택 시 <strong>[!UICONTROL Never]</strong>, 다음의 상황이 발생합니다.
             <ul>

@@ -6,9 +6,9 @@ description: 팀 소유자가 Microsoft Teams용 Adobe Workfront을 설치한 �
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5975d773-eae6-44ae-8296-2013504da3a8
-source-git-commit: 0cb2ddf2a7d9cd9f1d257829097d467c9f0a5666
+source-git-commit: 473a1fe3cb7e247749d9b540e3e5556cbe17a1dd
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '500'
 ht-degree: 1%
 
 ---
@@ -49,9 +49,7 @@ ht-degree: 1%
 
 ## 제출 [!DNL Workfront] 요청 [!DNL Microsoft Teams]
 
-1. 을(를) 클릭합니다. **[!UICONTROL 추가된 앱]** Microsoft Teams의 왼쪽 탐색 막대에 있는 아이콘.
-
-   ![](assets/ms-teams-more-added-apps-icon.png)
+1. 을(를) 클릭합니다. **[!UICONTROL 추가된 앱]** (3점) 아이콘 사용 [!DNL Microsoft Teams].
 
 1. 클릭 **[!DNL Workfront]** 표시됩니다.
 1. 을(를) 클릭합니다. **[!UICONTROL 요청]** 탭.
@@ -89,14 +87,10 @@ ht-degree: 1%
 
 ## 보기 [!DNL Workfront] 에서 제출한 요청 [!DNL Microsoft Teams]
 
-1. 을(를) 클릭합니다. **[!UICONTROL 추가된 앱]** Microsoft Teams의 왼쪽 탐색 막대에 있는 아이콘.
-
-   ![](assets/ms-teams-more-added-apps-icon.png)
+1. 을(를) 클릭합니다. **[!UICONTROL 추가된 앱]** (3점) 아이콘 사용 [!DNL Microsoft Teams].
 
 1. 클릭 **[!DNL Workfront]** 표시됩니다.
 1. 을(를) 클릭합니다. **[!UICONTROL 요청]** 탭.
-
-   ![](assets/ms-teams-requests-page-with-count-350x198.png)
 
    제출한 요청은 [!UICONTROL 내 제출된 요청] 의 영역 [!UICONTROL 요청] 탭. 이 탭에 표시되는 정보는 제출한 요청에 대해 구성할 수 없습니다.
 

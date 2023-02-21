@@ -6,9 +6,9 @@ description: Adobe Workfront Fusion은 Outlook과의 통합을 제공합니다. 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
@@ -123,8 +123,6 @@ Adobe는 다음 버전을 지원합니다 [!DNL Outlook]:
 
 1. 검색 대상 **[!DNL Workfront]** 에서 **[!UICONTROL 추가 기능 검색]** field 를 누른 다음 **[!UICONTROL Enter 키]**.
 
-   ![workfront_for_outlook_on_the_web.png](assets/workfront-for-outlook-on-the-web-350x116.png)
-
 1. 목록에 표시되면 **추가**.
 
 ### [!DNL Workfront for Outlook] on [!UICONTROL Windows] 또는 [!DNL Mac] {#workfront-for-outlook-on-windows-or-mac}
@@ -132,8 +130,6 @@ Adobe는 다음 버전을 지원합니다 [!DNL Outlook]:
 1. 클릭 **[!UICONTROL 홈]** > **[!UICONTROL 스토어]** 리본 위에
 
 1. 검색 대상 **[!DNL Workfront]** 에서 **[!UICONTROL 검색]** field 를 누른 다음 **[!UICONTROL Enter 키]**.
-
-   ![o365_addin_search.png](assets/o365-addin-search-350x158.png)
 
 1. 토글을 클릭하여 **[!UICONTROL [!DNL Workfront]추가 기능]**.
 

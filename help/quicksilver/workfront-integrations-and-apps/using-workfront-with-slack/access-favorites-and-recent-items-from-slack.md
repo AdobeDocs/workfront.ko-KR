@@ -6,9 +6,9 @@ description: 설치 및 구성 후 [!DNL Adobe Workfront] Slack의 경우 Workfr
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4bf62192-66fe-42a7-b8c0-23b7bdef45e8
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
@@ -56,8 +56,6 @@ ht-degree: 0%
 
    즐겨찾기 목록이 표시됩니다.
 
-* ![slack_favorites_with_show_more_button.png](assets/slack-favorites-with-show-more-button-350x202.png)
-
 1. (선택 사항) **[!UICONTROL 자세히 보기]** 더 많은 즐겨찾기를 나열하려면
 1. 즐겨찾기 이름을 클릭하여 열기 [!DNL Workfront] 새 브라우저 탭에서 을 클릭합니다.
 
@@ -73,7 +71,6 @@ ht-degree: 0%
    >명령은 대/소문자를 구분합니다. 명령을 `/wf` 대신 `/workfront`.
 
    최근 항목 목록이 마지막으로 액세스한 순서대로 표시되고 가장 최근 항목이 맨 위에 표시됩니다. 항목은 한 번에 세 개 나열되며 객체 유형별로 그룹화됩니다.\
-   ![slack_reclate_items.png](assets/slack-recent-items-350x249.png)
 
 1. (선택 사항) **[!UICONTROL 자세히 보기]** 추가 최근 항목 나열
 1. (선택 사항) 최근에 액세스한 항목의 이름을 클릭하여 [!DNL Workfront] 새 브라우저 탭에서 을 클릭합니다.

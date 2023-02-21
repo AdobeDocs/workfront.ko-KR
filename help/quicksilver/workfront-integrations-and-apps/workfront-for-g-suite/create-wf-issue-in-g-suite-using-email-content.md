@@ -7,7 +7,7 @@ description: 외부 이메일을 변환할 수 있습니다(에서 생성하지 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7a15f557-67d8-4be8-8538-4bce06536c0a
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
 workflow-type: tm+mt
 source-wordcount: '804'
 ht-degree: 0%
@@ -102,8 +102,6 @@ ht-degree: 0%
    아래쪽에서 **[!UICONTROL 세부 사항]** 탭에서 **[!UICONTROL Workfront에서 보기]** Workfront의 새 문제로 이동합니다.
 
    브라우저를 새로 고치면, [!UICONTROL G Suite용 Workfront] 패널에서 이메일이 문제로 변환되었는지 확인합니다.
-
-   ![](assets/email-was-converted.png)
 
    링크를 클릭하여 [!DNL Workfront for G Suite] 패널에 표시되어야 합니다.
 

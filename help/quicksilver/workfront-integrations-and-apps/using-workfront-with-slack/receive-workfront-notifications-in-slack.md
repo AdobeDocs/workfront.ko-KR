@@ -6,9 +6,9 @@ description: 수신 [!DNL Adobe Workfront] 알림 [!DNL Slack]
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: bc1ce4ea-58be-4cd7-ab59-7dddb82949b9
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '589'
 ht-degree: 6%
 
 ---
@@ -66,8 +66,6 @@ ht-degree: 6%
 
    `/wf settings`
 
-   <img src="assets/slack-configuring-settings-350x302.png" style="width: 350;height: 302;">
-
 1. 기본적으로 모든 알림이 활성화됩니다.\
    다음 알림 중 하나를 비활성화합니다.
 
@@ -107,25 +105,15 @@ ht-degree: 6%
 
    * 클릭 **[!UICONTROL 작업]** 일을 맡도록 수락하다.
 
-      <!--   
-     <img src="assets/slack-assigned-to-a-task-notification-350x198.png" alt="slack_assigned_to_a_task_notification.png" style="width: 350;height: 198;" data-mc-conditions="QuicksilverOrClassic.Draft mode">   
-     -->
+   * (조건부 및 선택 사항) **[!UICONTROL 회신[!DNL Workfront]]** 댓글에 응답하려면 응답을 입력한 다음 **[!UICONTROL 회신]**.
 
-   * (조건부 및 선택 사항) **[!UICONTROL 회신[!DNL Workfront]]** 댓글에 응답하려면 응답을 입력한 다음 **[!UICONTROL 회신]**.\
+   * (조건부 및 선택 사항) **[!UICONTROL 승인]** 또는 **[!UICONTROL 거부]** 승인 보류 중인 작업, 문제 또는 프로젝트를 승인하거나 거부하려면 다음을 수행하십시오.
 
-      ![slack_tagged_in_a_comment_notification.png](assets/slack-tagged-in-a-comment-notification.png)
+   * (조건부 및 선택 사항) **[!UICONTROL 승인]**, **[!UICONTROL 변경 사항]**, 또는 **[!UICONTROL 거부]**&#x200B;를 사용하여 문서를 승인하거나, 변경 사항으로 승인하거나, 거부할 수 있습니다.
 
-   * (조건부 및 선택 사항) **[!UICONTROL 승인]** 또는 **[!UICONTROL 거부]** 승인 보류 중인 작업, 문제 또는 프로젝트를 승인하거나 거부하려면 다음을 수행하십시오.\
-
-      ![slack_approve_task_notification.png](assets/slack-approve-task-notification-350x105.png)
-
-   * (조건부 및 선택 사항) **[!UICONTROL 승인]**, **[!UICONTROL 변경 사항]**, 또는 **[!UICONTROL 거부]**&#x200B;를 사용하여 문서를 승인하거나, 변경 사항으로 승인하거나, 거부하려면 다음을 수행하십시오.\
-
-      ![slack_approve_a_document.png](assets/slack-approve-a-document-350x362.png)\
       문서의 축소판 위로 마우스를 가져간 다음 확대경 아이콘을 클릭하여 문서를 승인하기 전에 더 큰 미리 보기를 볼 수도 있습니다.\
       승인된 Slack만 [파일 형식](https://api.slack.com/types/file) 미리 보기를 수행할 수 있습니다.
 
    * (조건부 및 선택 사항) **[!UICONTROL 승인]** 또는 **[!UICONTROL 무시]** 다른 사용자에 대한 추가 액세스 요청을 부여하거나 무시하려면\
 
-      ![](assets/slack-access-approvals-list-350x213.png)\
       작업이 완료되었다는 확인 메시지가 나타납니다. [!DNL Workfront]를 설정하는 것이 좋습니다.
