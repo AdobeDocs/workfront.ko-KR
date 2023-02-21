@@ -7,7 +7,7 @@ description: G Suite를 종료하지 않고도 작업 항목의 세부 사항을
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 0f15b05f-3b4a-4f0b-9d9a-21a0f97de1ea
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: f818eadcfbb5a897485a25c25fc25ad057567116
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 0%
@@ -57,7 +57,6 @@ ht-degree: 0%
 
    작업이나 문제를 선택하면 **[!UICONTROL 세부 사항]** 탭이 열려 있습니다. 위 영역 **[!UICONTROL 세부 사항]** 탭에는 상위 개체의 이름, 작업 또는 문제의 이름 및 [!UICONTROL 기한] (작업인 경우) 또는 [!UICONTROL 우선순위 날짜] (문제가 되는 경우)
 
-   ![](assets/details-tab.png)
 
    이 탭에서 다음을 종료하지 않고 다양한 작업을 수행할 수 있습니다 [!DNL G Suite]를 채울 수 있습니다.
 
