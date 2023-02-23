@@ -7,7 +7,7 @@ description: Adobe Workfront 보드는 열과 카드가 포함된 공유 보드�
 author: Lisa
 feature: Agile
 exl-id: 7382e338-3e4c-4a93-a0d4-87ef52f69f36
-source-git-commit: abed861ff3902d1142fec4139a60cffe5f8fa1c0
+source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 0%
@@ -15,8 +15,6 @@ ht-degree: 0%
 ---
 
 # [!UICONTROL 보드] 개요
-
-{{highlighted-preview}}
 
 [!DNL Adobe Workfront] [!UICONTROL 보드] 열과 카드가 포함된 공유 보드에 대한 액세스를 제공하여 팀 공동 작업이 가능한 유연한 도구입니다.
 
@@ -28,7 +26,7 @@ ht-degree: 0%
 * 상태 또는 카테고리를 표시하도록 열 구성
 * 개방형 카드(에 연결된 애드혹 카드 또는 카드)를 사용하여 워크플로우를 사용자 정의합니다 [!DNL Workfront] 작업 및 문제)
 * 한 곳에서 팀을 위한 작업 구성 및 관리
-* <span class="preview">보드를 컬렉션에서 함께 그룹화</span>
+* 보드를 컬렉션에서 함께 그룹화
 * 민첩한 계획 툴 사용
 
 기본 보드 기능을 사용하는 방법에 대한 자세한 내용은 [에서 보드 시작 [!DNL Adobe Workfront]](../agile/get-started-with-boards/get-started-with-boards.md). 보드의 민첩한 계획 도구에 대한 자세한 내용은 [민첩한 계획 도구 개요](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md).

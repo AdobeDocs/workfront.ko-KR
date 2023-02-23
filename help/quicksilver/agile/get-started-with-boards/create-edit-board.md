@@ -6,7 +6,7 @@ description: 에서 [!UICONTROL 보드] 대시보드에서 새 보드를 만들�
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 67870f1bd9b1795b58ced827e888572aa407c28e
+source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 5%
@@ -15,11 +15,9 @@ ht-degree: 5%
 
 # 보드 만들기 또는 편집
 
-{{highlighted-preview}}
-
 에서 [!UICONTROL 보드] 대시보드에서 새 보드를 만들거나 기존 보드를 편집할 수 있습니다.
 
-<span class="preview">컬렉션에 보드를 추가하려면 [컬렉션 관리](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).</span>
+컬렉션에 보드를 추가하려면 [컬렉션 관리](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
 ## 액세스 요구 사항
 
@@ -45,15 +43,13 @@ ht-degree: 5%
 ## 새 보드 만들기
 
 1. 을(를) 클릭합니다. **[!UICONTROL 기본 메뉴]** 아이콘 ![](assets/main-menu-icon.png) 의 오른쪽 위 모서리에서 [!DNL Adobe Workfront]를 클릭한 다음 **[!UICONTROL 보드]**.
-1. 독립형 보드를 만들려면 **[!UICONTROL 새로 만들기]** 에서 [!UICONTROL 보드] 영역. <span class="preview">컬렉션에 보드를 추가하려면 [컬렉션 관리](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).</span>
+1. 독립형 보드를 만들려면 **[!UICONTROL 새로 만들기]** 에서 [!UICONTROL 보드] 영역. 컬렉션에 보드를 추가하려면 [컬렉션 관리](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
    >[!NOTE]
    >
    > 컬렉션은 의 초기 기능 옵트인을 통해서만 사용할 수 있습니다 [!DNL Workfront] [!UICONTROL 보드].
 
-1. <span class="preview">보드의 템플릿을 선택합니다.</span>
-
-   <div class="preview">
+1. 보드의 템플릿을 선택합니다.
 
    | 템플릿 | 설명 |
    |---------|----------|
@@ -64,8 +60,6 @@ ht-degree: 5%
    >[!NOTE]
    >
    > 보드 템플릿은 의 초기 기능 옵트인을 통해서만 사용할 수 있습니다 [!DNL Workfront] [!UICONTROL 보드].
-
-   </div>
 
 1. 에 보드의 이름을 입력합니다 **[!UICONTROL 보드]** 필드를 입력하고 Enter 키를 누릅니다.
 1. 필요에 따라 보드를 구성합니다.

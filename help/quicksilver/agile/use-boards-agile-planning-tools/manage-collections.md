@@ -6,7 +6,7 @@ title: 컬렉션 관리
 description: 컬렉션은 공동 작업을 위해 구성할 수 있는 보드 그룹입니다.
 author: Lisa
 feature: Agile
-source-git-commit: 553e3dd6c903f0ba2f95019b2824cf944745bf09
+source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 4%
@@ -14,8 +14,6 @@ ht-degree: 4%
 ---
 
 # 컬렉션 관리
-
-{{highlighted-preview-article-level}}
 
 컬렉션은 공동 작업을 위해 구성할 수 있는 보드 그룹입니다. 컬렉션에는 템플릿에서 만든 다양한 유형의 보드가 포함될 수 있습니다.
 

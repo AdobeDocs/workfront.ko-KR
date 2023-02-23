@@ -5,9 +5,9 @@ title: 카드에 표시되는 필드를 사용자 정의합니다
 description: 필드를 비활성화하여 전체 카드 또는 압축된 보기에 표시되지 않도록 하거나 압축된 카드 보기에서 필드를 숨기면 카드에 표시되는 필드를 사용자 지정할 수 있습니다.
 author: Lisa
 feature: Agile
-source-git-commit: 5b7253fb0313e4ba1a2959497c0b3f92cff30e13
+source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,9 @@ ht-degree: 0%
 
 # 카드에 표시되는 필드를 사용자 정의합니다
 
-{{highlighted-preview-article-level}}
-
 >[!NOTE]
 >
->이 기능은 Workfront 보드의 초기 기능 옵트인을 통해서만 사용할 수 있습니다.
+>이 기능은 의 초기 기능 옵트인을 통해서만 사용할 수 있습니다. [!DNL Workfront] [!UICONTROL 보드]. 자세한 내용은 [Adobe Workfront 보드에 대한 초기 기능 옵트인](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 기본적으로 사용 가능한 모든 필드는 카드가 열려 있을 때 전체 보기에서, 보드의 압축된 카드 보기에서 카드에 표시됩니다. 표시할 필드를 다음과 같이 사용자 지정할 수 있습니다.
 
@@ -62,7 +60,7 @@ ht-degree: 0%
 1. 클릭 [!UICONTROL **구성**] 보드 오른쪽의 구성 패널을 엽니다.
 1. 확장 [!UICONTROL **카드**].
 
-   모든 필드는 기본적으로 활성화되어 있습니다.
+   대부분의 필드는 기본적으로 활성화되어 있습니다.
 
 1. 두 카드 보기에서 필드를 비활성화하려면 필드를 끄십시오.
 1. 숨기기 아이콘을 클릭합니다 ![아이콘 숨기기](assets/eye-hide-icon.png) 축소 보기에서 숨길 필드 옆에 있습니다.

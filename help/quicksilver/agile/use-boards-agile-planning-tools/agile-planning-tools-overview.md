@@ -7,7 +7,7 @@ description: 애드혹 및 연결된 카드를 사용하여 보드를 만들 때
 author: Lisa
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: abed861ff3902d1142fec4139a60cffe5f8fa1c0
+source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 0%
@@ -16,9 +16,7 @@ ht-degree: 0%
 
 # 민첩한 계획 도구 개요
 
-{{highlighted-preview}}
-
-애드혹 및 연결된 카드를 사용하여 보드를 만들 때 열 WIP 제한, 카드를 수영 라인으로 그룹핑, 백로그에 사용할 수 있는 흡입 열 등 애자일 계획 도구를 추가로 활용할 수 있습니다. <span class="preview">보드 컬렉션</span>.
+애드혹 및 연결된 카드를 사용하여 보드를 만들 때 열 WIP 제한, 카드를 수영 라인으로 그룹핑, 백로그에 사용할 수 있는 흡입 열, 보드 모음을 비롯한 추가 애자일 계획 도구를 활용할 수 있습니다.
 
 간판 또는 스크럼과 같은 특정 애자일 방법론을 커밋하지 않고도 사용자 및 팀에 적합한 방식으로 이러한 도구 또는 모두를 사용할 수 있습니다.
 
