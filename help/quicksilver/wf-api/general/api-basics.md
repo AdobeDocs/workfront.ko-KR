@@ -6,7 +6,7 @@ description: API 기본 사항
 author: John
 feature: Workfront API
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 4c3997f17c4d563849c475d3c0a080129a2b91eb
+source-git-commit: c1cec2c08c66c704385cde1abd0c019fd59702da
 workflow-type: tm+mt
 source-wordcount: '4405'
 ht-degree: 0%
@@ -43,9 +43,9 @@ API의 모든 사용은 프로덕션 환경에서 실행하기 전에 Workfront 
 시스템의 각 객체에는 객체 유형과 ID로 구성된 고유한 URI가 제공됩니다. 다음 예제에서는 세 가지 고유한 개체를 설명하는 URI를 보여 줍니다.
 
 ```
-/attask/api/v9.0/project/4c78821c0000d6fa8d5e52f07a1d54d0
-/attask/api/v9.0/task/4c78821c0000d6fa8d5e52f07a1d54d1
-/attask/api/v9.0/issue/4c78821c0000d6fa8d5e52f07a1d54d2
+/attask/api/v15.0/project/4c78821c0000d6fa8d5e52f07a1d54d0
+/attask/api/v15.0/task/4c78821c0000d6fa8d5e52f07a1d54d1
+/attask/api/v15.0/issue/4c78821c0000d6fa8d5e52f07a1d54d2
 ```
 
 개체 유형은 대/소문자를 구분하지 않으며 약식 ObjCode(예: proj) 또는 대체 개체 이름(프로젝트)일 수 있습니다.
@@ -64,14 +64,14 @@ API의 모든 사용은 프로덕션 환경에서 실행하기 전에 Workfront 
 * **DELETE** - 개체 삭제
 
 클라이언트 부족 또는 프로토콜 길이 제한을 해결하기 위해 메서드 매개 변수를 사용하여 HTTP 동작을 무시할 수 있습니다. 예를 들어 다음 URI를 게시하여 GET 작업을 구현할 수 있습니다.
-<pre>GET /attask/api/v9.0/project?id=4c78...54d0&amp;method=get<br>GET /attask/api/v9.0/project/4c78...54d0?method=get</pre>
+<pre>GET /attask/api/v15.0/project?id=4c78...54d0&amp;method=get<br>GET /attask/api/v15.0/project/4c78...54d0?method=get</pre>
 
 ### 응답
 
 각 요청에는 JSON 형식으로 응답이 제공됩니다. 요청에 성공한 경우 응답에 데이터 속성이 있고 문제가 있는 경우 오류 속성이 있습니다. 예를 들어, 요청
 
 ```
-GET /attask/api/v9.0/proj/4c7c08b20000002de5ca1ebc19edf2d5
+GET /attask/api/v15.0/proj/4c7c08b20000002de5ca1ebc19edf2d5
 ```
 
 는 다음과 유사한 JSON 응답을 반환합니다.
@@ -84,7 +84,7 @@ GET /attask/api/v9.0/proj/4c7c08b20000002de5ca1ebc19edf2d5
 >브라우저의 주소 표시줄을 통해 GET 요청을 실행할 때 요청의 일부로 sessionID를 포함할 필요가 없습니다.
 
 PUT, POST 및 DELETE 요청에 대한 특수 보안이 추가되었습니다. 데이터베이스에 쓰거나 데이터베이스에서 삭제하는 모든 요청은 **sessionID=abc123** 는 URI에 포함됩니다. 다음 예는 이 방법이 DELETE 요청을 찾는 방법을 보여줍니다.
-<pre>GET /attask/api/v9.0/project?id=4c78...54d0&amp;method=delete&amp;sessionID=abc123<br>GET /attask/api/v9.0/project/4c78...54d0?method=delete&amp;sessionID=abc123</pre>
+<pre>GET /attask/api/v15.0/project?id=4c78...54d0&amp;method=delete&amp;sessionID=abc123<br>GET /attask/api/v15.0/project/4c78..54d0?method=delete&amp;sessionID=abc123</pre>
 
 ### 인증
 
@@ -99,7 +99,7 @@ API는 클라이언트가 요청한 개체를 보거나 수정할 수 있는 액
 다음은 요청 헤더의 예입니다.
 
 ```
-GET /attask/api/v9.0/project/search
+GET /attask/api/v15.0/project/search
 SessionID: abc1234
 ```
 
@@ -108,7 +108,7 @@ SessionID: abc1234
 다음 예와 같이 sessionID라는 요청 매개 변수를 전달하여 인증할 수 있습니다. 
 
 ```
-GET /attask/api/v9.0/project/4c78821c0000d6fa8d5e52f07a1d54d0?sessionID=abc1234
+GET /attask/api/v15.0/project/4c78821c0000d6fa8d5e52f07a1d54d0?sessionID=abc1234
 ```
 
 #### 쿠키 기반 인증
@@ -137,7 +137,7 @@ Workfront에서 사용자 인증을 사용하는 방법에 대한 지침은 [인
 유효한 사용자 이름과 암호를 사용하여 다음 요청을 사용하여 세션 ID를 얻을 수 있습니다.
 
 ```
-POST /attask/api/v9.0/login?username=admin&password=user
+POST /attask/api/v15.0/login?username=admin&password=user
 ```
 
 이 설정은 향후 요청을 인증하는 쿠키를 설정하고 새로 생성된 sessionID, 로그인한 사용자의 userID 및 기타 세션 속성으로 JSON 응답을 반환합니다.
@@ -151,7 +151,7 @@ POST /attask/api/v9.0/login?username=admin&password=user
 
 
 ```
-PUT /attask/api/v9.0/user?action=generateApiKey&username= username&password=password&method=put
+PUT /attask/api/v15.0/user?action=generateApiKey&username= username&password=password&method=put
 ```
 
 **이전에 생성한 API 키 검색**
@@ -160,7 +160,7 @@ getApiKey를 실행하여 특정 사용자에 대해 이전에 생성된 API 키
 
 
 ```
-PUT /attask/api/v9.0/user?action=getApiKey&username=user@email.com&password=userspassword&method=put
+PUT /attask/api/v15.0/user?action=getApiKey&username=user@email.com&password=userspassword&method=put
 ```
 
 그런 다음 이 결과를 사용하여 sessionID 또는 사용자 이름 및 암호 대신 이 값을 사용하는 요청 매개 변수로 &quot;apiKey&quot;를 추가하여 모든 API 호출을 인증할 수 있습니다. 이는 안보적 차원에서 볼 수 있다.
@@ -168,7 +168,7 @@ PUT /attask/api/v9.0/user?action=getApiKey&username=user@email.com&password=user
 다음 요청은 apiKey를 사용하여 프로젝트에서 데이터를 검색하는 예입니다.
 
 ```
-GET /attask/api/v9.0/project/abc123xxxxx?apiKey=123abcxxxxxxxxx
+GET /attask/api/v15.0/project/abc123xxxxx?apiKey=123abcxxxxxxxxx
 ```
 
 **API 키 무효화**
@@ -176,7 +176,7 @@ GET /attask/api/v9.0/project/abc123xxxxx?apiKey=123abcxxxxxxxxx
 apiKey 값이 손상된 경우 다음 예와 같이 현재 API 키를 무효화하는 &quot;clearApiKey&quot;를 실행할 수 있습니다.
 
 ```
-GET /attask/api/v9.0/user?action=clearApiKey&username=user@email.com&password=userspassword&method=put
+GET /attask/api/v15.0/user?action=clearApiKey&username=user@email.com&password=userspassword&method=put
 ```
 
 선택을 취소하면 getApiKey를 다시 실행하여 새 API 키를 생성할 수 있습니다.
@@ -186,7 +186,7 @@ GET /attask/api/v9.0/user?action=clearApiKey&username=user@email.com&password=us
 세션이 완료되면 다음 요청을 사용하여 사용자를 로그아웃하여 sessionID로 더 이상 액세스할 수 없습니다.
 
 ```
-GET /attask/api/v9.0/logout?sessionID=abc1234
+GET /attask/api/v15.0/logout?sessionID=abc1234
 ```
 
 로그아웃할 sessionID는 쿠키, 요청 헤더 또는 요청 매개 변수로 지정할 수 있습니다.
@@ -194,12 +194,12 @@ GET /attask/api/v9.0/logout?sessionID=abc1234
 사용자를 로그아웃하려면
 
 1. 로그인 화면으로 이동하지만 로그인하지 마십시오.
-1. URL을 /attask/api/v9.0/project/search 로 변경합니다.\
+1. URL을 /attask/api/v15.0/project/search 로 변경합니다.\
    페이지를 찾을 수 없습니다.
 1. 단어 바꾸기 *검색* 로그인?username=admin&amp;password=user, 사용자 이름 및 암호 바꾸기 *관리* 및 *사용자\
    *이 세션은 브라우저에 쿠키로 저장되며, 이후 각 GET 요청에서 다시 지정할 필요가 없습니다.
 
-1. URL을 다시 **/attask/api/v9.0/project/search**.
+1. URL을 다시 **/attask/api/v15.0/project/search**.
 1. 제공된 응답을 확인합니다.
 
 PUT, POST 및 DELETE 요청을 수행할 때는 항상 로그인 후 제공된 sessionID를 포함해야 합니다.
@@ -217,7 +217,7 @@ HTTP GET 메서드를 사용하여 개체나 여러 개체를 검색하고 보�
 개체의 ID를 알고 있는 경우 해당 고유 URI에 액세스하여 개체를 검색할 수 있습니다. 예를 들어, 요청
 
 ```
-GET /attask/api/v9.0/project/4c78821c0000d6fa8d5e52f07a1d54d0
+GET /attask/api/v15.0/project/4c78821c0000d6fa8d5e52f07a1d54d0
 ```
 
 다음과 유사한 응답을 반환합니다.
@@ -229,10 +229,10 @@ GET /attask/api/v9.0/project/4c78821c0000d6fa8d5e52f07a1d54d0
 
 
 ```
-GET /attask/api/v9.0/project?id=4c78...54d0,4c78...54d1
+GET /attask/api/v15.0/project?id=4c78...54d0,4c78...54d1
 ```
 
-/attask/api/v9.0/project?id=.. 요청은 와 동일합니다 `/attask/api/v9.0/project/...` 요청.
+/attask/api/v15.0/project?id=.. 요청은 와 동일합니다 `/attask/api/v15.0/project/...` 요청.
 
 #### URI를 사용하여 개체 검색
 
@@ -241,19 +241,19 @@ ID 이외의 기준으로 객체를 검색하려면 URI를 검색할 수 있습�
 예를 들어 다음 요청을 사용하여 시스템의 모든 프로젝트 목록을 반환할 수 있습니다.
 
 ```
-GET /attask/api/v9.0/project/search
+GET /attask/api/v15.0/project/search
 ```
 
 요청 매개 변수를 이름-값 쌍으로 사용하여 필터를 지정할 수 있습니다. 예를 들어 다음 예제는 현재 프로젝트를 모두 찾는 요청을 보여줍니다.
 
 ```
-GET /attask/api/v9.0/project/search?status=CUR
+GET /attask/api/v15.0/project/search?status=CUR
 ```
 
 다음 요청은 아직 완료되지 않고 John이라는 사용자에게 할당된 모든 작업을 찾습니다.
 
 ```
-GET /attask/api/v9.0/task/search?percentComplete=100
+GET /attask/api/v15.0/task/search?percentComplete=100
 &percentComplete_Mod=lt &assignedTo:firstName=John
 ```
 
@@ -290,7 +290,7 @@ OR 문은 OR 문의 필터링 기준을 충족하는 API 호출의 레코드만 
 * &quot;최종 작업&quot;이라는 상위 작업이 있는 작업
 
 그런 다음 여러 OR 문과 함께 다음 API 호출을 사용하십시오.
-<pre>GET /attask/api/v9.0/task/search?name=Planning<br>&amp;name_Mod=contains<br>또는(&amp;O):1:portfolio:name=FixedAssets<br>또는(&amp;O):1:portfolio:name_Mod=eq<br>또는(&amp;O):1:assignedTo:name=Steve<br>또는(&amp;O):1:assignedTo:name_Mod=ciconcontains<br>또는(&amp;O):2:parent:name=Final Task<br>또는(&amp;O):2:parent:name_Mod=eq
+<pre>GET /attask/api/v15.0/task/search?name=Planning<br>&amp;name_Mod=contains<br>또는(&amp;O):1:portfolio:name=FixedAssets<br>또는(&amp;O):1:portfolio:name_Mod=eq<br>또는(&amp;O):1:assignedTo:name=Steve<br>또는(&amp;O):1:assignedTo:name_Mod=ciconcontains<br>또는(&amp;O):2:parent:name=Final Task<br>또는(&amp;O):2:parent:name_Mod=eq
 </pre>
 
 #### 필터 매개 변수 사용
@@ -298,13 +298,13 @@ OR 문은 OR 문의 필터링 기준을 충족하는 API 호출의 레코드만 
 검색 필터에 URL 매개 변수를 사용할 때 발생할 수 있는 한 가지 문제는 Workfront이 다른 인증 방법(예: 사용자 이름, 암호, apiKey, 쿠키)을 확인하기 전에 특정 매개 변수를 구문 분석한다는 것입니다. 이런 경우 매개 변수는 호출에서 필터로 사용되지 않습니다. 
 
 이 문제를 방지하기 위해 이러한 값을 JSON 형식이 있는 필터 매개 변수에 배치할 수 있습니다. 예를 들어, 사용자 이름 testuser를 사용하지 않고 필터링하려면 
-<pre>/attask/api/v9.0/user/search?username=testuser@workfront.com</pre>다음 예와 같이 필터에 URL 매개 변수를 전달합니다.
-<pre>/attask/api/v9.0/user/search?filters={"username":"testuser@workfront.com"}</pre>
+<pre>/attask/api/v15.0/user/search?username=testuser@workfront.com</pre>다음 예와 같이 필터에 URL 매개 변수를 전달합니다.
+<pre>/attask/api/v15.0/user/search?filters={"username":"testuser@workfront.com"}</pre>
 
 #### 맵 요청 매개 변수 사용
 
 기본적으로 검색에서 반환된 데이터는 JSON 배열입니다. 사용 사례에 따라 ID로 인덱싱된 JSON 개체로서 결과를 가져오는 것이 더 효율적일 수 있습니다. 이 작업은 맵 요청 매개 변수를 사용하여 수행할 수 있습니다. 예를 들어, 요청 
-<pre>/attask/api/v9.0/task/search?map=true</pre>다음과 유사한 ID로 인덱싱된 응답을 반환합니다.
+<pre>/attask/api/v15.0/task/search?map=true</pre>다음과 유사한 ID로 인덱싱된 응답을 반환합니다.
 <pre>{<br>    "data": {<br>        "4c9a97db0000000f13ee4446b9aead9b": {<br>            "percentComplete": 0,<br>            "status": "새로운",<br>            "name": "첫 번째 작업",<br>            "ID": "4c9a97db0000000f13ee4446b9aead9b",<br>            "taskNumber": 1 <br>        },<br>        "4ca28ba600002024cd49e75bd43cf601": {<br>            "percentComplete": 0,<br>            "status": "INP:A",<br>            "name": "두 번째 작업",<br>            "ID": "4ca28ba600002024cd49e75bd43cf601",<br>            "taskNumber": 2개 <br>        } <br>    } <br>}</pre>
 
 #### 필드 요청 매개 변수 사용
@@ -312,7 +312,7 @@ OR 문은 OR 문의 필터링 기준을 충족하는 API 호출의 레코드만 
 기본적으로 개체 검색은 가장 일반적으로 사용되는 필드의 하위 집합만 반환합니다.
 
 필드 요청 매개 변수를 사용하여 쉼표로 구분된 특정 필드 목록이 반환되도록 지정할 수 있습니다. 예를 들어, 요청
-<pre>/attask/api/v9.0/task/search?fields=planningStartDate,priority</pre>다음과 유사한 응답을 반환합니다.
+<pre>/attask/api/v15.0/task/search?fields=planningStartDate,priority</pre>다음과 유사한 응답을 반환합니다.
 <pre>{<br>    "priority": 2,<br>    "name": "첫 번째 작업",<br>    "ID": "4c7c08fa0000002ff924e298ee148df4",<br>    "planningStartDate": "2010-08-30T09:00:00:000-0600" <br>}</pre>
 
 >[!NOTE]
@@ -323,44 +323,44 @@ OR 문은 OR 문의 필터링 기준을 충족하는 API 호출의 레코드만 
 #### 중첩된 개체 검색
 
 중첩된 개체를 검색할 수 있습니다. 기본적으로 중첩된 개체는 이름과 ID만 사용하여 반환됩니다. 예를 들어 소유자와 함께 모든 문제를 가져오려면 다음 요청을 사용하십시오.
-<pre>/attask/api/v9.0/issue/search?fields=owner</pre>추가 정보가 필요한 경우 콜론 구문을 사용하여 중첩 필드를 요청할 수 있습니다. 예를 들어 다음 요청은 소유자의 이름, ID, 제목 및 전화 번호와 함께 모든 문제를 검색합니다
-<pre>/attask/api/v9.0/issue/search?fields=owner:title,owner:phoneNumber</pre>를 반환하고 다음을 반환합니다. 
+<pre>/attask/api/v15.0/issue/search?fields=owner</pre>추가 정보가 필요한 경우 콜론 구문을 사용하여 중첩 필드를 요청할 수 있습니다. 예를 들어 다음 요청은 소유자의 이름, ID, 제목 및 전화 번호와 함께 모든 문제를 검색합니다
+<pre>/attask/api/v15.0/issue/search?fields=owner:title,owner:phoneNumber</pre>를 반환하고 다음을 반환합니다. 
 <pre>{<br>    "name": "중요한 문제"<br>    "ID": "4c78285f00000908ea8cfd66e084939f",<br>    "owner": {<br>        "title": "운영 전문가",<br>        "phoneNumber": "555-1234",<br>        "name": "관리자 사용자",<br>        "ID": "4c76ed7a0000054c172b2c2d9f7f81c3" <br>    } <br>}</pre>
 
 #### 중첩된 컬렉션 검색
 
 중첩된 개체 컬렉션을 검색할 수 있습니다. 예를 들어 모든 작업이 포함된 프로젝트를 가져오려면 다음 요청을 사용하십시오.
-<pre>/attask/api/v9.0/project/search?fields=tasks</pre>다음 요청은 태스크 지정을 가져옵니다.
-<pre>/attask/api/v9.0/task/search?fields=assignments</pre>
+<pre>/attask/api/v15.0/project/search?fields=tasks</pre>다음 요청은 태스크 지정을 가져옵니다.
+<pre>/attask/api/v15.0/task/search?fields=assignments</pre>
 
 #### 여러 중첩 필드 검색
 
 기본적으로 각 작업의 이름과 ID만 반환되지만 콜론 구문으로 추가 중첩 필드를 지정할 수 있습니다. 관련 개체나 컬렉션에 대해 사용 가능한 모든 필드를 보려면 개체/컬렉션 참조에 콜론 및 별표를 추가하기만 하면 됩니다.
-<pre>/attask/api/v9.0/task/search?fields=assignments:*</pre>
+<pre>/attask/api/v15.0/task/search?fields=assignments:*</pre>
 
 #### 사용자 지정 데이터 검색
 
 접두사 &quot;DE:&quot;를 사용하여 사용자 지정 데이터 필드를 검색할 수 있습니다. 예를 들어 &quot;CustomText&quot;라는 매개 변수를 사용하여 프로젝트를 요청하려면 다음 요청을 사용하십시오.
-<pre>/attask/api/v9.0/project/search?fields=DE:CustomText</pre>어느 것이 반환되는지
+<pre>/attask/api/v15.0/project/search?fields=DE:CustomText</pre>어느 것이 반환되는지
 <pre>{<br>    "name": "사용자 지정 데이터 프로젝트",<br>    "ID": "4c9a954f0000001afad0687d7b1b4e43",<br>    "DE:CustomText": "task b" <br>}</pre>parameterValues 필드를 요청하여 개체의 모든 사용자 지정 데이터를 검색할 수도 있습니다. For example, 
-<pre>/attask/api/v9.0/project/search?fields=parameterValues</pre>는 다음과 유사한 데이터를 반환합니다.
+<pre>/attask/api/v15.0/project/search?fields=parameterValues</pre>는 다음과 유사한 데이터를 반환합니다.
 <pre>{<br>    "name": "사용자 지정 데이터 프로젝트",<br>    "ID": "4c9a954f0000001afad0687d7b1b4e43",<br>    parameterValues: { <br>        "DE:CustomText": "작업 b", <br>        "DE:CustomNumber": 1.4, <br>        "DE:CustomCheckBoxes": ["first", "second", "third"] <br>    } <br>}</pre>
 
 #### 명명된 쿼리 사용
 
 일부 객체 유형에는 일반적으로 실행되는 라는 검색이 있으며 객체 유형 URI 끝에 쿼리 이름을 추가하여 사용할 수 있습니다. 예를 들어 다음 요청은 사용자가 현재 할당된 작업 항목(작업 및 문제)을 검색합니다.
-<pre>/attask/api/v9.0/work/myWork</pre>명명된 쿼리는 필드 매개 변수를 요청하여 추가 필드를 검색할 수 있도록 지원합니다. 이름이 지정된 일부 쿼리는 추가 필터도 허용합니다. 개체에 대해 허용되는 명명된 쿼리 목록을 보려면 [API 탐색기](../../wf-api/general/api-explorer.md)에서 개체의 작업 탭을 참조하십시오.
+<pre>/atask/api/v15.0/work/myWork</pre>명명된 쿼리는 필드 매개 변수를 요청하여 추가 필드를 검색할 수 있도록 지원합니다. 이름이 지정된 일부 쿼리는 추가 필터도 허용합니다. 개체에 대해 허용되는 명명된 쿼리 목록을 보려면 [API 탐색기](../../wf-api/general/api-explorer.md)에서 개체의 작업 탭을 참조하십시오.
 
 #### 카운트 필터 사용
 
 주어진 검색에서 반환할 결과 수를 지정할 수 있습니다. 이렇게 하면 서버가 요청을 보다 신속하게 처리하고 대역폭을 저장할 수 있습니다. 예를 들어, 요청
-<pre>GET /attask/api/v9.0/project/count?status=CUR</pre>다음 형식으로 결과 수를 반환합니다.
+<pre>GET /attask/api/v15.0/project/count?status=CUR</pre>다음 형식으로 결과 수를 반환합니다.
 <pre>{<br>    "count": 3 <br>}</pre>이 결과는 전체 개체가 전송되는 경우보다 훨씬 더 작은 다운로드입니다. 필터 구문은 검색 명령과 동일합니다.
 
 ### 보고서 요청
 
 하나 이상의 그룹화를 사용하여 일부 필드의 합계만 원하는 보고서 요청을 수행할 수 있습니다. 다음 예와 같이 보고서 구문은 SOAP API의 구문과 동일합니다.
-<pre>GET /atask/api/v9.0/hour/report?project:name_1_GroupBy=true&amp;hours_AggFunc=sum</pre>다음 결과를 반환합니다.
+<pre>GET /atask/api/v15.0/hour/report?project:name_1_GroupBy=true&amp;hours_AggFunc=sum</pre>다음 결과를 반환합니다.
 <pre>{<br>    "첫 번째 프로젝트": { <br>        "sum_hours": 15 <br>    }, <br>     "두 번째 프로젝트": { <br>        "sum_hours": 30 <br>    } <br>}</pre>$$ROLLUP=true 매개 변수를 추가하면 각 그룹화 수준에서 합계가 포함됩니다.
 <pre>{<br>    "첫 번째 프로젝트": { <br>        "sum_hours": 15 <br>    }, <br>    "두 번째 프로젝트": { <br>        "sum_hours": 30 <br>    }, <br>    "$$ROLLUP": { <br>        "sum_hours": 45 <br>    } <br>}</pre>
 
@@ -428,19 +428,19 @@ Workfront의 대부분의 필드에 대해 작동합니다.
 ### 페이지 매김된 응답 사용 {#using-paginated-responses}
 
 기본 결과 수 쿼리 제한을 무시하고 200개의 결과를 허용하려면 다음 예와 같이 $LIMIT=200 필터를 쿼리에 포함할 수 있습니다.
-<pre>GET /attask/api/v9.0/project/search?$$LIMIT=200</pre>시스템의 다른 테넌트에 대한 신뢰성 및 성능을 보장하기 위해 쿼리당 허용되는 최대 결과 제한은 2000개 객체입니다. 더 큰 제한을 지정하려고 하면 IllegalArgumentException 오류 메시지가 발생합니다. 
+<pre>GET /attask/api/v15.0/project/search?$$LIMIT=200</pre>시스템의 다른 테넌트에 대한 신뢰성 및 성능을 보장하기 위해 쿼리당 허용되는 최대 결과 제한은 2000개 객체입니다. 더 큰 제한을 지정하려고 하면 IllegalArgumentException 오류 메시지가 발생합니다. 
 
 따라서 큰 데이터 세트에 대해 페이지 매김된 응답 사용을 고려해 보는 것이 좋습니다. 반환할 첫 번째 결과를 지정하려면 $$FIRST 필터를 추가합니다. 예를 들어 다음 요청은 쿼리에 대한 결과 201-250을 반환합니다.
-<pre>GET /attask/api/v9.0/project/search?$$FIRST=201&amp;$$LIMIT=50</pre>
+<pre>GET /attask/api/v15.0/project/search?$$FIRST=201&amp;$$LIMIT=50</pre>
 
 ### 액세스 규칙 만들기
 
 액세스 규칙을 만들어 객체에 액세스할 수 있는 사용자를 결정할 수 있습니다. 다음은 설정할 수 있는 액세스 규칙의 예입니다.
 
 ID가 &quot;abc123&quot;인 사용자만 프로젝트를 공유하도록 설정하려면 다음 요청을 사용하십시오.
-<pre>GET /attask/api/v9.0/project/123abxxxxxxxxxxxxxxxxxxxxxxxxxx?method=put &amp;updates={ accessRules: [ {accessorID: 'abc123', accessorObjCode: 'USER', coreAction: 'VIEW'} ] }</pre>또는 새 개인와만 공유하고 기존 권한을 그대로 유지하려면 다음을 수행하십시오.
-<pre>GET /attask/api/v9.0/project/123abxxxxxxxxxxxxxxxxxxxxxxxxxxxx/share?method=put&amp;accessorID=abc123&amp;accessorObjCode=USER&amp;coreAction=VIEW</pre>기존 액세스 규칙을 검색하려면
-<pre>GET /attask/api/v9.0/project/123abxxxxxxxxxxxxxxxxxxxxxxxxxx?fields=accessRules:*</pre>
+<pre>GET /attask/api/v15.0/project/123abxxxxxxxxxxxxxxxxxxxxxxxx?method=put &amp;updates={ accessRules: [ {accessorID: 'abc123', accessorObjCode: 'USER', coreAction: 'VIEW'} ] }</pre>또는 새 개인와만 공유하고 기존 권한을 그대로 유지하려면 다음을 수행하십시오.
+<pre>GET /attask/api/v15.0/project/123abxxxxxxxxxxxxxxxxxxxxxxxx/share?method=put&amp;accessorID=abc123&amp;accessorObjCode=USER&amp;coreAction=VIEW</pre>기존 액세스 규칙을 검색하려면
+<pre>GET /attask/api/v15.0/project/123abxxxxxxxxxxxxxxxxxxxxxxxx?fields=accessRules:*</pre>
 
 ## POST 동작
 
@@ -449,22 +449,22 @@ POST은 새 개체를 삽입합니다. 구문은 PUT과 동일하지만 몇 가�
 ### 개체 만들기
 
 다음은 새 프로젝트 만들기 요청의 예입니다.
-<pre>POST /attask/api/v9.0/project?name=새 프로젝트</pre>응답에는 새 ID 및 지정된 다른 필드와 함께 새로 만든 프로젝트가 포함되어 있습니다.
+<pre>POST /attask/api/v15.0/project?name=새 프로젝트</pre>응답에는 새 ID 및 지정된 다른 필드와 함께 새로 만든 프로젝트가 포함되어 있습니다.
 
 ### 개체 복사
 
 일부 개체는 복사 작업을 지원합니다. 이러한 개체 유형의 경우 copySourceID 매개 변수를 사용하여 게시하여 새 개체를 만들 수 있습니다. 예를 들어 다음 요청은 지정된 프로젝트를 복사하고 새 이름을 지정합니다.
 
 ```
-POST /attask/api/v9.0/project?copySourceID=4c7...&name=Copied Project
+POST /attask/api/v15.0/project?copySourceID=4c7...&name=Copied Project
 ```
 
 ### 문서 업로드
 
 다음 API URL을 통해 문서를 업로드할 수 있습니다.
-<pre>POST /attask/api/v9.0/upload</pre>API에는 콘텐츠 유형이 다중 부분/양식 데이터여야 합니다. 파일의 매개 변수 이름은 uploadFile이어야 합니다. 서버는 다음 JSON 데이터를 반환합니다.
+<pre>POST /attask/api/v15.0/upload</pre>API에는 콘텐츠 유형이 다중 부분/양식 데이터여야 합니다. 파일의 매개 변수 이름은 uploadFile이어야 합니다. 서버는 다음 JSON 데이터를 반환합니다.
 <pre>{<br>    "handle": "4c7c08fa0000002ff924e298ee148df4"<br>}</pre>Workfront 문서를 만들 때 핸들을 사용하고 다음 URL에 게시할 수 있습니다.
-<pre>POST /attask/api/v9.0/document?updates={<br>    이름: aFileName,<br>    핸들: abc...123, (파일 업로드에서 처리)<br>    docObjCode: PROJ, (또는 작업, OPTASK 등)<br>    objID: abc...123,<br>    currentVersion:{version:v1.0,fileName:aFileName}<br>}</pre>
+<pre>POST /atask/api/v15.0/document?updates={<br>    이름: aFileName,<br>    핸들: abc...123, (파일 업로드에서 처리)<br>    docObjCode: PROJ, (또는 작업, OPTASK 등)<br>    objID: abc...123,<br>    currentVersion:{version:v1.0,fileName:aFileName}<br>}</pre>
 
 ## PUT 동작
 
@@ -475,56 +475,56 @@ PUT에 대한 응답은 GET과 동일합니다. 두 경우 모두 업데이트 �
 ### 개체 편집
 
 개체 업데이트는 항상 개체의 고유한 URI를 사용하여 ID로 수행됩니다. 업데이트할 필드는 요청 매개 변수로 지정됩니다. 예를 들어 프로젝트 이름을 변경하려면 다음과 유사한 요청을 보낼 수 있습니다.
-<pre>PUT /attask/api/v9.0/project/4c7..?name=새 프로젝트 이름 <br>PUT /attask/api/v9.0/project?id=4c7..&amp;name=새 프로젝트 이름</pre>업데이트에 ID가 필요하므로 개체가 서버에 없으면 이 작업이 실패합니다.
+<pre>PUT /attask/api/v15.0/project/4c7..?name=새 프로젝트 이름 <br>PUT /attask/api/v15.0/project?id=4c7..&amp;name=새 프로젝트 이름</pre>업데이트에 ID가 필요하므로 개체가 서버에 없으면 이 작업이 실패합니다.
 
 ### JSON 편집 지정
 
 다음 예와 같이 업데이트 요청 매개 변수를 사용하여 JSON 구문을 사용하여 업데이트할 필드를 지정할 수 있습니다.
-<pre>PUT /attask/api/v9.0/project/4c7..?업데이트= <br>{<br>     이름: "새 프로젝트 이름", <br>     상태: "CUR", <br>     ... <br>}</pre>
+<pre>PUT /attask/api/v15.0/project/4c7..?업데이트= <br>{<br>     이름: "새 프로젝트 이름", <br>     상태: "CUR", <br>     ... <br>}</pre>
 
 ### 중첩 업데이트 만들기
 
 일부 개체에는 업데이트할 수 있는 개인 소유 컬렉션이 있습니다. 예를 들어 다음 예제에서는 지정된 작업의 기존 할당을 덮어쓰는 방법을 보여 줍니다.
-<pre>PUT /attask/api/v9.0/task/4c7..?업데이트= <br>{<br>    지정: [ <br>        { <br>            assignedToID: "2222...54d0, <br>            assignmentPercent: 50.0 <br>        },{ <br>            roleID: "1111...54d0"<br>        } <br>    ] <br>}</pre>
+<pre>PUT /attask/api/v15.0/task/4c7..?업데이트= <br>{<br>    지정: [ <br>        { <br>            assignedToID: "2222...54d0, <br>            assignmentPercent: 50.0 <br>        },{ <br>            roleID: "1111...54d0"<br>        } <br>    ] <br>}</pre>
 
 >[!NOTE]
 최상위 수준의 업데이트는 희박한 반면, 컬렉션이나 중첩 개체에 대한 업데이트는 기존 컬렉션을 완전히 대체합니다. 객체에 영향을 주지 않고 작업에 대한 단일 할당을 편집하려면 작업 대신 할당에 PUT을 사용합니다.
 
 다음 예에서는 프로젝트를 공용 도움말 데스크 대기열로 만듭니다. 기존 큐 속성이 대체됩니다.
-<pre>PUT /attask/api/v9.0/project/4c7..?업데이트= <br>{ <br>    queueDef: { <br>        isPublic: 1 <br>    } <br>}</pre>
+<pre>PUT /attask/api/v15.0/project/4c7..?업데이트= <br>{ <br>    queueDef: { <br>        isPublic: 1 <br>    } <br>}</pre>
 
 ### 작업 요청 매개 변수 사용
 
 일부 개체에서는 간단한 편집 이외에 수행할 수 있는 추가 작업을 지원합니다. 작업 요청 매개 변수를 사용하여 이러한 작업을 지정할 수 있습니다. 예를 들어 다음 요청은 지정된 프로젝트의 타임라인을 다시 계산합니다.
-<pre>PUT /attask/api/v9.0/project/4c7..?action=calculateTimeline<br><br>또는<br><br>PUT /attask/api/v9.0/project/4c7../calculateTimeline </pre>
+<pre>PUT /attask/api/v15.0/project/4c7..?action=calculateTimeline<br><br>또는<br><br>PUT /attask/api/v15.0/project/4c7../calculateTimeline </pre>
 
 ### 객체 이동
 
 다음은 한 프로젝트에서 다른 프로젝트로 작업을 이동하는 구문을 보여 줍니다.
-<pre>PUT /attask/api/v9.0/task/4c7../move?projectID=5d8..</pre>각 작업 유형의 예는 다음과 같습니다. (??)
-<pre>PUT /attask/api/v9.0/project/1234/approveApproval<br><br>PUT /attask/api/v9.0/project/1234/calculateFinance<br><br>PUT /attask/api/v9.0/project/1234/calculateTimeline<br><br>PUT /attask/api/v9.0/project/1234/calculateDataExtension<br><br>PUT /attask/api/v9.0/project/1234/recallApproval<br><br>PUT /attask/api/v9.0/project/1234/rejectApproval<br><br>PUT /attask/api/v9.0/task/1234/move<br><br>PUT /atask/api/v9.0/workitem/1234/markViewed</pre>이동 작업만 작업 항목을 이동할 프로젝트를 지정하려면 추가 속성을 식별해야 합니다.
+<pre>PUT /attask/api/v15.0/task/4c7../move?projectID=5d8..</pre>각 작업 유형의 예는 다음과 같습니다. (??)
+<pre>PUT /atask/api/v15.0/project/1234/approveApproval<br><br>PUT /atask/api/v15.0/project/1234/calculateFinance<br><br>PUT /attask/api/v15.0/project/1234/calculateTimeline<br><br>PUT /atask/api/v15.0/project/1234/calculateDataExtension<br><br>PUT /atask/api/v15.0/project/1234/recallApproval<br><br>PUT /atask/api/v15.0/project/1234/rejectApproval<br><br>PUT /attask/api/v15.0/task/1234/move<br><br>PUT /atask/api/v15.0/workitem/1234/markViewed</pre>이동 작업만 작업 항목을 이동할 프로젝트를 지정하려면 추가 속성을 식별해야 합니다.
 
 다음은 각 작업 유형의 예입니다. 
-<pre>PUT /attask/api/v9.0/project/1234?method=put&amp;updates={accessRules:[{accessorID: 'abc123', accessorObjCode: 'USER', coreAction: 'VIEW'}]}</pre>
+<pre>PUT /attask/api/v15.0/project/1234?method=put&amp;updates={accessRules:[{accessorID: 'abc123', accessorObjCode: 'USER', coreAction: 'VIEW'}]}</pre>
 
 ### 개체 공유
 
 다음 예제에서는 팀과 프로젝트를 공유하는 구문을 보여 줍니다.
-<pre>PUT /atattask/api/v9.0/project/123abxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/share?접근자 ID=123abxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&amp;accessorObjCode=TEAMOB</pre>개체를 편집할 때 다음 예제와 유사한 PUT 및 업데이트를 보내어 개체의 모든 액세스 규칙을 바꿀 수 있습니다.
-<pre>PUT /attask/api/v9.0/project/123abxxxxxxxxxxxxxxxxxxxxxxxxxxxx?method=PUT&amp;updates={accessRules:[{accessorID:'123abcxxxxxxxxxxxxxxxxxxxxxxxx',접근자ObjCode:'TEAMOB',코어Action:'VIEW'}}}</pre>다음 예제에서는 작업을 한 프로젝트에서 다른 프로젝트로 이동하는 구문을 보여 줍니다.
-<pre>PUT /attask/api/v9.0/task/4c7../move?projectID=5d8..</pre>
+<pre>PUT /atattask/api/v15.0/project/123abxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/share?accessorID=123abxxxxxxxxxxxxxxxxxxxxxxxxxx&amp;accesobjCode=TEAMOB</pre>개체를 편집할 때 다음 예제와 유사한 PUT 및 업데이트를 보내어 개체의 모든 액세스 규칙을 바꿀 수 있습니다.
+<pre>PUT /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxx?method=PUT&amp;updates={accessRules:[{accessorID:'123abcxxxxxxxxxxxxxxxxxxxxxxxxxx',접근자ObjCode:'TEAMOB',coreAction:'VIEW'}}</pre>다음 예제에서는 작업을 한 프로젝트에서 다른 프로젝트로 이동하는 구문을 보여 줍니다.
+<pre>PUT /attask/api/v15.0/task/4c7../move?projectID=5d8..</pre>
 
 ## DELETE 동작
 
 DELETE은 개체를 제거합니다. 모든 경우 URI에 매개 변수 force=true가 포함되어 서버가 지정된 데이터와 해당 종속성을 제거할 수 있습니다. 다음 예에서는 URI에서 HTTP DELETE 메서드를 실행하여 작업이 삭제됩니다.
-<pre>DELETE /atask/api/v9.0/task/4c78821c000d6fa8d5e52f07a1d54d0 <br>DELETE /atask/api/v9.0/task?id=4c78821c000d6fa8d5e52f07a1d54d0 <br>DELETE /atask/api/v9.0/task/4c78821c000d6fa8d5e52f07a1d54d0?force=true <br>DELETE /atask/api/v9.0/task?id=4c78821c000d6fa8d5e52f07a1d54d0?force=true</pre>
+<pre>DELETE /atask/api/v15.0/task/4c78821c000d6fa8d5e52f07a1d54d0 <br>DELETE /atask/api/v15.0/task?id=4c78821c000d6fa8d5e52f07a1d54d0 <br>DELETE /atask/api/v15.0/task/4c78821c000d6fa8d5e52f07a1d54d0?force=true <br>DELETE /atask/api/v15.0/task?id=4c78821c000d6fa8d5e52f07a1d54d0?force=true</pre>
 
 ## 벌크 업데이트
 
 벌크 업데이트 문은 단일 API 호출 내에서 동시에 여러 개체를 업데이트합니다. 벌크 만들기 API 호출은 다음 예와 같이 일반 업데이트 호출과 유사하게 빌드됩니다.
-<pre>PUT /atask/api/v9.0/proj?updates=[{"name":"Test_Project_1"},{"name":"Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-ccxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>결과 다음과 유사한 결과가 발생합니다.
+<pre>PUT /atask/api/v15.0/proj?updates=[{"name":"Test_Project_1"},{"name":"Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-ccxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>결과 다음과 유사한 결과가 발생합니다.
 <pre>데이터: [{<br>    ID: "53ff8d3d003b438b57a8a784df38f6b3",<br>    이름: "Test_Project_1",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    planningCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    planningStartDate: "2014-08-28T11:00:00:000-0400",<br>    우선 순위: 0,<br>    projectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br>    상태: "CUR"<br>},<br>{<br>    ID: "53ff8d49003b43a2562aa34eea3b6b10",<br>    이름: "Test_Project_2",<br>    objCode: "PROJ",<br>    percentComplete: 0usi<br>    planningCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    planningStartDate: "2014-08-28T11:00:00:000-0400",<br>    우선 순위: 0,<br>    projectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br>    상태: "CUR"<br>}]</pre>다음과 유사한 벌크 업데이트를 수행할 수도 있습니다.
-<pre>PUT /atattask/api/v9.0/proj?Umethod=PUT&amp;updates=[{"ID":"123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx","이름"},{"Test_Project_1_ Edit"},{"ID":"123xxxxxxxxxxxxxxxxxxxxxxxxxxxx",","이름":"Test_Project_2_Edit"}]&amp;apiKey=123xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>결과 다음과 유사한 결과가 발생합니다.
+<pre>PUT /atattask/api/v15.0/proj?Umethod=PUT&amp;updates=[{"ID":"123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx","name":"Test_Project_1_ Edit"},{"ID":"123abcxxxxxxxxxxxxxxxxxxxxxx","이름":"Test_Project_2_Edit"}]&amp;apiKey=123xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>결과 다음과 유사한 결과가 발생합니다.
 <pre>데이터: [ {<br>     ID: "53ff8e15003b461d4560f7f65a440078",<br>     이름: "Test_Project_1_Edit",<br>     objCode: "PROJ",<br>     percentComplete: 0,<br>     planningCompletionDate: "2014-08-28T11:00:00:000-0400",<br>     planningStartDate: "2014-08-28T11:00:00:000-0400",<br>     우선 순위: 0,<br>     projectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br>     상태: "CUR"<br>},<br>{<br>    ID: "53ff8e19003b46238a58d303608de502",<br>    이름: "Test_Project_2_Edit",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    planningCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    planningStartDate: "2014-08-28T11:00:00:000-0400",<br>    우선 순위: 0,<br>    projectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br>    상태: "CUR"<br>}]</pre>모든 작업이 동일한 트랜잭션에서 수행되도록 하려면 배치 API 호출에 "atomic=true"를 요청 매개 변수로 추가합니다. 이렇게 하면 작업이 실패할 경우 모든 작업이 롤백됩니다.
 
 >[!NOTE]

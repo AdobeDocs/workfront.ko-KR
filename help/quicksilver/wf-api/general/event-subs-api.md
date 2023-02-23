@@ -6,7 +6,7 @@ description: 이벤트 구독 API
 author: John
 feature: Workfront API
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: c52f1839d3d00c71c6d567084dafd586d161d8fb
+source-git-commit: c1cec2c08c66c704385cde1abd0c019fd59702da
 workflow-type: tm+mt
 source-wordcount: '2203'
 ht-degree: 3%
@@ -83,7 +83,7 @@ ht-degree: 3%
 **요청 URL:**
 
 ```
-PUT https://<HOSTNAME>/attask/api/v7.0/USER?action=getApiKey&username=<USERNAME>&password=<PASSWORD>
+PUT https://<HOSTNAME>/attask/api/v15.0/USER?action=getApiKey&username=<USERNAME>&password=<PASSWORD>
 ```
 
 **요청 헤더:**
@@ -130,7 +130,7 @@ PUT https://<HOSTNAME>/attask/api/v7.0/USER?action=getApiKey&username=<USERNAME>
 
 
 ```
-PUT https://<HOSTNAME>/attask/api/v7.0/USER/generateApiKey?username=<USERNAME>&password=<PASSWORD>
+PUT https://<HOSTNAME>/attask/api/v15.0/USER/generateApiKey?username=<USERNAME>&password=<PASSWORD>
 ```
 
 ## 구독 리소스 구성

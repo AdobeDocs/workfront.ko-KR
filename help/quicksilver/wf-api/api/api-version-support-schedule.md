@@ -6,10 +6,10 @@ description: API 버전 관리 및 지원 예약
 author: John
 feature: Workfront API
 exl-id: b072704c-a34c-4a17-aca3-ab93a016dfc8
-source-git-commit: 183f7b766fd6f02b51625778e380cf00c5ecf61f
+source-git-commit: 5804eed9451084614cc6331a4234ae88d9b58b3c
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 10%
+source-wordcount: '217'
+ht-degree: 11%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 10%
 
 
 
-Adobe Workfront은 6~8개월마다 2년마다 새로운 API 버전을 릴리스합니다. API 버전은 릴리스 후 3년 동안 지원됩니다. 3년 이전 API 버전은 더 이상 지원되지 않습니다.
+Adobe Workfront은 새로운 API 버전을 정기적으로 출시하며, 일반적으로 일년에 두 번씩 릴리스됩니다. API 버전은 릴리스 후 3년 동안 지원됩니다. 3년 이전 API 버전은 더 이상 지원되지 않습니다.
 
 다음 표는 Workfront API의 릴리스 및 지원 일정을 보여줍니다.
 
