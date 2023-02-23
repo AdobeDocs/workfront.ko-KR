@@ -6,14 +6,16 @@ description: Workfront의 기존 작업 및 문제에 연결된 카드를 보드
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: de7be49c7ee3fb58c332edd2f6367b31f2f79c17
+source-git-commit: 2a71ffd9180f2fe783675ae005165e1fd078178a
 workflow-type: tm+mt
-source-wordcount: '1079'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 보드에서 연결된 카드 사용
+
+{{highlighted-preview}}
 
 보드에 기존 작업 및 문제에 연결된 카드를 추가할 수 있습니다 [!DNL Workfront].
 
@@ -182,3 +184,27 @@ Workfront 개체에서 연결된 카드의 연결을 끊을 수 있으며, 이 �
    프로젝트 이름은 카드 세부 사항의 연결 영역에 표시됩니다.
 
 1. 클릭 **[!UICONTROL 닫기]** 이사회로 돌아가려고
+
+<div class="preview">
+
+## 연결된 카드의 로그 시간
+
+>[!NOTE]
+>
+>이 기능은 Workfront 보드의 초기 기능 옵트인을 통해서만 사용할 수 있습니다.
+
+연결된 작업 또는 문제에 대한 시간을 기록하려면 올바른 권한이 있어야 합니다.
+
+기본적으로 연결된 카드에 시간 로깅 필드가 표시되지 않습니다. 활성화 [!UICONTROL **시간**] 에서 [!UICONTROL 구성] 지역 [!UICONTROL 카드]. 자세한 내용은 [카드에 표시되는 필드를 사용자 정의합니다](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
+
+1. 작업 또는 문제에 대한 시간(시)을 입력합니다.
+1. 선택 [!UICONTROL 시간 유형] 기본값과 다른 경우 드롭다운 메뉴에서
+1. 클릭 [!UICONTROL **로그 시간**].
+
+   ![카드의 로그 시간](assets/log-hours-on-card.png)
+
+   카드에 기록된 시간도 연결된 작업 또는 문제에 저장됩니다.
+
+카드의 로깅 시간은 작업 또는 문제에 대한 로깅 시간과 같습니다. 자세한 내용은 문서의 &quot;프로젝트, 작업 또는 문제에 대한 로그 시간&quot;을 참조하십시오 [로그 시간](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
+
+</div>

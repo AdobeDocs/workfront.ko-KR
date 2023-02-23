@@ -6,14 +6,16 @@ description: Adobe Workfront에서 작업 항목의 시간을 로그하여 작�
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 23a08c929b0a227c7a555af70ff731ef2df7a179
+source-git-commit: 4fc7e3b62f6518c9c4f93e711017fd27f0ecad4e
 workflow-type: tm+mt
-source-wordcount: '2897'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # 로그 시간
+
+{{highlighted-preview}}
 
 Adobe Workfront에서 작업 항목에 대한 시간을 로그하여 작업 시간을 지정할 수 있습니다. 휴가, 병가 시간, 모임 시간 등 업무와 관련이 없는 로그 타임도 가능합니다. 기록표에 표시하는 시간입니다.
 
@@ -96,6 +98,7 @@ Workfront의 다음 영역에서 시간을 로그인할 수 있습니다.
 * [홈](#home)
 * [프로젝트, 작업 또는 문제](#project-task-or-issue)
 * [요약 패널](#summary-panel)
+* <span class="preview">[보드](#boards)</span>
 * [모바일 앱](#mobile-app)
 
 ### 타임시트 {#timesheet}
@@ -394,7 +397,20 @@ Workfront의 다음 영역에서 시간을 로그인할 수 있습니다.
 
 ![](assets/summary-hour-log.png)
 
+<div class="preview">
+
+### 보드 {#boards}
+
+>[!NOTE]
+>
+>이 기능은 Workfront 보드의 초기 기능 옵트인을 통해서만 사용할 수 있습니다.
+
+Workfront 보드에 연결된 카드에 대해 로그인할 수 있습니다. 이는 작업 또는 문제에 대한 로깅 시간과 동일한 프로세스이며, 카드에 기록된 시간은 연결된 작업 또는 문제에 저장됩니다.
+자세한 내용은 [보드에서 연결된 카드 사용](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+
+</div>
 
 ### 모바일 앱 {#mobile-app}
 
 Workfront 모바일 앱에서 시간을 기록할 수 있습니다.
+자세한 내용은 [Android용 Adobe Workfront](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) 또는 [Adobe Workfront for iOS](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
