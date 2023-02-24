@@ -2,13 +2,13 @@
 product-area: timesheets;system-administration
 navigation-topic: create-and-manage-timesheets
 title: 작업표 프로필 만들기, 편집 및 할당
-description: 사용자의 추가 작업 없이 사용자의 반복 작업표를 생성하는 작업표 프로필을 만들고 편집하고 지정할 수 있습니다. 이렇게 하면 시간이 절약되고 사용자 간에 다음 사항이 일관되도록 할 수 있습니다. EDIT ME.
+description: 사용자의 추가 작업 없이 사용자의 반복 작업표를 생성하는 작업표 프로필을 만들고 편집하고 지정할 수 있습니다. 따라서 시간을 절약하고 사용자 간의 일관성을 보장할 수 있습니다.
 author: Alina
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 7e2a4b02277e8b82ac6ee92a7994250fcdebb0b0
+source-git-commit: 43f1ad86784532ed3a5a3baa12d135ca35f16d21
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1505'
 ht-degree: 1%
 
 ---
@@ -101,10 +101,12 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>타임시트 만들기</strong> </td> 
-      <td> <p> <p>작업표 프로필에서 작업표를 생성할 시기를 지정합니다. 작업표는 주간, 격주, 반월별 또는 월별 기준으로 자동으로 생성되도록 설정할 수 있습니다. 작업표를 작성할 요일을 선택합니다.</p> <p><b>메모</b>
+      <td> <p> <p>작업표 프로필에서 작업표를 생성할 시기를 지정합니다. 작업표는 주간, 격주, 반월별 또는 월별 기준으로 자동으로 생성되도록 설정할 수 있습니다. 작업표를 작성할 요일을 선택합니다.</p>
+      <p>주간 작업표는 생성된 날짜에 시작됩니다. 예를 들어 매주 목요일에 작업표를 만드는 경우 작업표에서 작업표의 첫째 날은 목요일입니다.</p>
+      <p><b>메모</b></p>
 
-   금요일에 작업표를 만들도록 작업표 프로필을 구성하면 사용자는 금요일, 토요일, 일요일에 현재 주의 시간을 기록할 수 없습니다.</p> <p>Workfront은 항상 한 번에 두 개의 작업표를 만듭니다. 첫 번째 작업표는 항상 현재 날짜를 포함하며 첫 번째 작업표의 시간대가 종료되면 두 번째 작업표가 시작됩니다.</p> </p> </td>
-   </tr> 
+   <p>Workfront은 항상 한 번에 두 개의 작업표를 만듭니다. 첫 번째 작업표는 항상 현재 날짜를 포함하며 첫 번째 작업표의 시간대가 종료되면 두 번째 작업표가 시작됩니다.</p> </p> </td> 
+    </tr> 
      <tr> 
       <td role="rowheader"><p><strong>승인자</strong></p> </td> 
       <td> <p> <p>승인자는 작업표와 연관된 사용자의 작업표를 승인하는 사용자입니다. 작업표에서 최대 7명의 사용자를 승인자로 식별할 수 있습니다. 여러 사용자를 식별하는 것은 누군가가 부재 중일 때 승인자를 사용할 수 있도록 하는 데 유용합니다. 사용자가 승인을 위해 작업표를 제출하면 모든 승인자에게 알림이 표시됩니다. 작업표를 승인하려면 한 명의 사용자만 작업표를 승인해야 합니다.</p> <p>작업표 관리 권한이 있는 사용자만 승인자로 설정할 수 있습니다. 작업표 관리 권한에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">특정 영역에 대한 관리자 액세스 권한 부여</a>.</p> <p>드롭다운 메뉴를 사용하여 작업표에 대한 승인자를 선택합니다(승인자가 필요한 경우). 다음 옵션 중에서 선택할 수 있습니다.</p> 
