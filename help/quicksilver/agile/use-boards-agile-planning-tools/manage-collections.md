@@ -6,14 +6,16 @@ title: 컬렉션 관리
 description: 컬렉션은 공동 작업을 위해 구성할 수 있는 보드 그룹입니다.
 author: Lisa
 feature: Agile
-source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
+source-git-commit: d14713f75857d00376f576e4b70f036c9b43e503
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '510'
 ht-degree: 4%
 
 ---
 
 # 컬렉션 관리
+
+{{highlighted-preview-article-level}}
 
 컬렉션은 공동 작업을 위해 구성할 수 있는 보드 그룹입니다. 컬렉션에는 템플릿에서 만든 다양한 유형의 보드가 포함될 수 있습니다.
 
@@ -60,7 +62,7 @@ ht-degree: 4%
 
 | 템플릿 | 설명 |
 |---------|----------|
-| 기본 보드 | 보드에 기본 열 3개가 제공됩니다. 새 열을 추가하고 기본 열의 이름을 바꾸거나 삭제할 수 있습니다. <p>보드에 기본 열 3개가 제공됩니다. 새 열을 추가하고 기본 열의 이름을 바꾸거나 삭제할 수 있습니다. |
+| 기본 보드 | 보드에 기본 열 3개가 제공됩니다. 새 열을 추가하고 기본 열의 이름을 바꾸거나 삭제할 수 있습니다. <p>적용된 열 정책이 없습니다. |
 | 칸반 보드 | 보드에 다음 열이 제공됩니다. 백로그, 신규, 진행 중, 완료 및 보류 중 새 열을 추가하고 기본 열의 이름을 바꾸거나 삭제할 수 있습니다.<p>백로그를 사용하려면 취입 열에 대한 필터를 설정해야 합니다. 자세한 내용은 [보드에 흡기 열 추가](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>각 열에 대한 기본 정책을 검토하려면 [!UICONTROL **자세히** 메뉴] 열에서 [!UICONTROL **편집**]. 이러한 사전 설정된 정책을 변경할 수 있습니다. 자세한 내용은 [보드 열 관리](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 | Retrospective 보드 | 보드에 다음 열이 제공됩니다. 뭐가 잘 됐어? 개선 가능한 사항? 축하해야 할 사람? 보다 빠른 진행을 위해 할 수 있는 일? 새 열을 추가하고 기본 열의 이름을 바꾸거나 삭제할 수 있습니다. <p>적용된 열 정책이 없습니다. |
 
