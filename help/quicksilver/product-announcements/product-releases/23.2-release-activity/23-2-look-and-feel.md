@@ -4,7 +4,7 @@ description: 23.2 릴리스 기간 동안 업데이트 확인 및 감지
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 7de3ebef55a9d11c3a417872f2cfcd1f4ea03640
+source-git-commit: 8ccfa470f7d09a3a7ca0b8414c53e31c1e03f185
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->미리 보기 릴리스: 2023년 2월 9일 계획된 생산 릴리스: 2023년 2월 23일
+>미리 보기 릴리스: 2023년 2월 9일 계획된 생산 릴리스: 2023년 3월 2일
 
 이제 다음 영역에서 사용자를 추가하면 추가 사용자 정보가 표시됩니다.
 

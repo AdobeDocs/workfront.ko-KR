@@ -4,9 +4,9 @@ description: 23.2 릴리스 개요
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 7de3ebef55a9d11c3a417872f2cfcd1f4ea03640
+source-git-commit: 10c7e95f542cb3e05de62cff24f24439af140c0c
 workflow-type: tm+mt
-source-wordcount: '1231'
+source-wordcount: '1454'
 ht-degree: 0%
 
 ---
@@ -50,8 +50,8 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">레이아웃 템플릿의 핀 이름 바꾸기</span></a><span style="color: #ff0000;"> 미리 보기의 새로운 기능!</span>
-                        <p>이제 고정된 페이지에 기본 이름을 사용하는 대신 레이아웃 템플릿의 핀 이름을 사용하여 사용자에게 더 의미 있는 핀을 바꿀 수 있습니다. 관리자가 만드는 핀은 레이아웃 템플릿에 할당된 모든 사용자에 대해 표시되며 사용자는 해당 핀의 이름을 바꿀 수 없습니다.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">레이아웃 템플릿의 핀 이름 바꾸기</span></a>
+                        </span></a><p>이제 고정된 페이지에 기본 이름을 사용하는 대신 레이아웃 템플릿의 핀 이름을 사용하여 사용자에게 더 의미 있는 핀을 바꿀 수 있습니다. 관리자가 만드는 핀은 레이아웃 템플릿에 할당된 모든 사용자에 대해 표시되며 사용자는 해당 핀의 이름을 바꿀 수 없습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용할 수 있습니다.</b></p>
                         <ul>
@@ -83,9 +83,26 @@ ht-degree: 0%
                         </p>
                     </td>
                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-20.md" class="MCXref xref" xrefformat="{para}">보드에 연결된 카드에 대한 로그 시간</a><span style="color: #ff0000;"> 미리 보기의 새로운 기능!</span></p>
+                        <p>이제 작업이나 문제를 일으킬 때와 같은 방법으로 연결된 카드에 시간을 기록할 수 있습니다. 시간을 기록하려면 작업 또는 문제에 대한 올바른 권한이 있어야 합니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용할 수 있습니다.</b></p>
+                        <ul>
+                            <li>
+                                <p>미리 보기 릴리스: 2023년 2월 23일<br /></p>
+                            </li>
+                            <li>
+                                 <p>초기 옵트인에 대한 프로덕션 릴리스: 2023년 3월 2일 <span style="color: #ff0000;"> 이 기능은 Workfront 보드의 초기 기능 옵트인을 통해서만 이 날짜의 프로덕션에서 사용할 수 있습니다.</span></p>
+                                <p>모든 고객을 위한 프로덕션 릴리스: 23.2 릴리스 사용</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
               <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">카드의 필드 표시 사용자 지정</a><span style="color: #ff0000;"> 미리 보기의 새로운 기능!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">카드의 필드 표시 사용자 지정</a></p>
                         <p>이제 사용자 지정을 사용하여 카드가 열릴 때 전체 보기에서, 보드의 압축된 카드 보기에서 카드에 표시되는 필드를 구성할 수 있습니다. 필드를 비활성화하면 두 보기 모두에 표시되지 않습니다. 전체 보기에서 필드를 활성화하고 압축된 보기에서 숨길 수도 있습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용할 수 있습니다.</b></p>
@@ -102,7 +119,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">보드 열로 이동한 카드에 대한 기본 상태를 정의합니다</a><span style="color: #ff0000;"> 미리 보기의 새로운 기능!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">보드 열로 이동한 카드에 대한 기본 상태를 정의합니다</a></p>
                         <p>이제 열 정책에서 사용자 지정 상태와 시스템 상태를 선택하여 특정 열로 이동한 카드에 적용할 기본 상태를 설정할 수 있습니다. 카드를 열로 이동하면 Workfront은 먼저 사용자 지정 상태(예: 피드백 대기)를 적용하려고 합니다. 해당 카드에 사용자 지정 상태를 사용할 수 없는 경우에는 Workfront이 대신 시스템 상태(예: 보류 중)를 적용합니다. 또한 연결된 작업 또는 문제의 상태가 열 정책에 설정된 사용자 지정 또는 시스템 상태로 변경되면 카드가 자동으로 열로 이동합니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용할 수 있습니다.</b></p>
@@ -119,7 +136,7 @@ ht-degree: 0%
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">이제 Adobe Workfront 보드에서 컬렉션을 사용할 수 있습니다</a><span style="color: #ff0000;"> 미리 보기의 새로운 기능!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">이제 Adobe Workfront 보드에서 컬렉션을 사용할 수 있습니다</a></p>
                         <p>이제 보드 대시보드에서 컬렉션을 만들 수 있습니다. 컬렉션은 공동 작업을 수행하는 보드 그룹입니다. 컬렉션 이름을 지정한 후에는 열 이름과 같이 사전 정의된 설정을 제공하는 템플릿 집합을 사용하여 보드에 보드를 추가할 수 있습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용할 수 있습니다.</b></p>
@@ -190,7 +207,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">프로젝트를 복사할 때 예산책정된 시간 복사</a><span style="color: #ff0000;"> 미리 보기의 새로운 기능!</span>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">프로젝트를 복사할 때 예산책정된 시간 복사</a>
                         <p>이제 프로젝트를 복사할 때 업무 사례의 자원 예산 책정 영역 또는 자원 계획자 영역에 예산책정된 시간을 복사하는 옵션이 있습니다. 이 개선 사항 전에 프로젝트에 대해 책정된 시간이 복사된 프로젝트로 전송되지 않았습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용할 수 있습니다.</b></p>
@@ -225,7 +242,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">사용자 용량을 정확하게 계산하기 위한 작업 시간 필드 소개</a><span style="color: #ff0000;"> 미리 보기의 새로운 기능!</span>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">사용자 용량을 정확하게 계산하기 위한 작업 시간 필드 소개</a>
                         <p>리소스 관리자가 실제 프로젝트 관련 작업에 전념하는 시간에 대한 사용자 및 계정의 가용성을 정확하게 계산할 수 있도록 Adobe Workfront에 작업 시간 개념을 도입했습니다.</p>
                         <p>프로파일을 만들거나 편집할 때 모든 사용자에 대해 작업 시간 필드의 값을 정의할 수 있습니다.</p>
                     </td>
@@ -328,6 +345,21 @@ API 버전에 대한 내용은 [API 버전 관리 및 지원 예약](/help/quick
 
 각 Adobe Workfront 제품 릴리스에 대한 학습 프로그램, 학습 경로, 비디오 및 가이드에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [교육 릴리스 업데이트 페이지](https://one.workfront.com/s/training-release-updates).
 
+### Workfront에서 곧 제거될 기능
+
+다음 기능은 곧 Workfront에서 제거됩니다.
+
+#### **Workfront 기본 API에 대한 변경 사항**
+
+API 호출이 최신 Workfront API 기능을 활용할 수 있도록 기본 API를 업데이트하고 있습니다. API 호출이 API 버전을 지정하지 않으면 기본 API가 호출됩니다.
+
+이제 기본 API는 API의 최신 버전을 반영합니다. 앞으로 새로운 API 버전이 릴리스될 때마다 기본 API를 업데이트하므로 기본 API 호출은 항상 최신 버전의 API를 사용합니다.
+
+이전에는 기본 API에서 Workfront API 버전 2.0을 사용했으며 이 버전은 더 이상 사용되지 않았습니다.
+
+조직에서 현재 더 이상 사용되지 않는 기본 API를 사용하는 경우 Workfront 관리자가 기본 API에 대한 추가 지침이 포함된 공지 센터 메시지를 수신했습니다.
+
+자세한 내용은 [기본 API 버전 관리를 사용하는 통합 업데이트](/help/quicksilver/wf-api/api/update-default-api-versioning.md).
 
 
 <!--
@@ -347,7 +379,7 @@ API 버전에 대한 내용은 [API 버전 관리 및 지원 예약](/help/quick
                 </tr>
                 <tr>
                     <td>
-                        <a href="ADD LINK" class="MCXref xref" xrefformat="{para}">Title</a><span style="color: #ff0000;"> Coming soon!</span></p>
+                        <a href="ADD LINK" class="MCXref xref" xrefformat="{para}">Title</a><span style="color: #ff0000;"> New in Preview!</span></p>
                         <p>Body</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
