@@ -6,24 +6,22 @@ title: 컬렉션 관리
 description: 컬렉션은 공동 작업을 위해 구성할 수 있는 보드 그룹입니다.
 author: Lisa
 feature: Agile
-source-git-commit: d14713f75857d00376f576e4b70f036c9b43e503
+source-git-commit: 5202756d21224d6a704750eec00fcfa24241fb6b
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '520'
 ht-degree: 4%
 
 ---
 
 # 컬렉션 관리
 
-{{highlighted-preview-article-level}}
+>[!NOTE]
+>
+>컬렉션은 의 초기 기능 옵트인을 통해서만 사용할 수 있습니다 [!UICONTROL [!DNL Workfront] 보드]. 자세한 내용은 [Adobe Workfront 보드에 대한 초기 기능 옵트인](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 컬렉션은 공동 작업을 위해 구성할 수 있는 보드 그룹입니다. 컬렉션에는 템플릿에서 만든 다양한 유형의 보드가 포함될 수 있습니다.
 
 컬렉션은 컬렉션에 속하지 않은 개별 보드에 액세스할 수 있는 개별 보드와 함께 대시보드에 나타납니다. 보드 대시보드에 대한 자세한 내용은 [보드 대시보드 사용](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md). 대시보드에서 보드 이름을 클릭하여 열 수 있습니다.
-
->[!NOTE]
->
->컬렉션은 의 초기 기능 옵트인을 통해서만 사용할 수 있습니다 [!UICONTROL [!DNL Workfront] 보드].
 
 ## 액세스 요구 사항
 
