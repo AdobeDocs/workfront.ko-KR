@@ -7,9 +7,9 @@ description: 미리 보기 환경은 새로운 기능을 사용하여 일주일�
 author: Luke
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ### 유지 관리 업데이트
 
-Adobe Workfront 제품에 대한 문제 수정 사항은 매주 프로덕션 환경에서 사용할 수 있습니다. 자세한 내용은 [Workfront 유지 관리 업데이트](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) 페이지를 방문하여 최근에 수정된 내용을 확인하십시오.
+Adobe Workfront 제품에 대한 문제 수정 사항은 매주 프로덕션 환경에서 사용할 수 있습니다. 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 페이지를 방문하여 최근에 수정된 내용을 확인하십시오.
 
 ## 분기별 릴리스에서 제거된 기능
 

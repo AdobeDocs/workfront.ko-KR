@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements, Workfront Fusion
 exl-id: 2ad970eb-daa3-4a18-8324-a07a3d75816b
 hidefromtoc: true
-source-git-commit: 9c2321794c5ba773bfda1d6e9dfda6b8de1a1449
+source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 최근 변경 사항 목록을 보려면 [Adobe Workfront Fusion 릴리스 활동](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Workfront Fusion의 최근 버그 수정 목록에 대해서는 다음을 참조하십시오. [Workfront 유지 관리 업데이트](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) 페이지를 방문하여 Workfront Fusion Maintenance Update라는 업데이트를 확인하십시오.
+Workfront Fusion의 최근 버그 수정 목록에 대해서는 다음을 참조하십시오. [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 페이지를 방문하여 Workfront Fusion Maintenance Update라는 업데이트를 확인하십시오.
 
 ## 이제 Workfront Fusion에서 Adobe PDF 서비스 사용 가능
 

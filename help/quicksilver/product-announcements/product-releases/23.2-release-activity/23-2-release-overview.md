@@ -4,9 +4,9 @@ description: 23.2 릴리스 개요
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 10c7e95f542cb3e05de62cff24f24439af140c0c
+source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1455'
 ht-degree: 0%
 
 ---
@@ -339,7 +339,7 @@ API 버전에 대한 내용은 [API 버전 관리 및 지원 예약](/help/quick
 
 ### Workfront 유지 보수 업데이트
 
-23.2 릴리스 동안 수행된 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
+23.2 릴리스 동안 수행된 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### 교육 업데이트
 

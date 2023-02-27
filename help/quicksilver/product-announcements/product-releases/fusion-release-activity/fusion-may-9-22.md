@@ -9,9 +9,9 @@ description: 이 페이지에서는 2022년 5월 9일이 있는 Adobe Workfront 
 author: Luke
 hidefromtoc: true
 exl-id: 199bdc78-08b0-403b-b762-560b25c6d05a
-source-git-commit: 74b86728f7e77ca7c83ae060f244e6459d6e35b2
+source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 최근 변경 사항 목록을 보려면 [Adobe Workfront Fusion 릴리스 활동](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Workfront Fusion의 최근 버그 수정 목록에 대해서는 다음을 참조하십시오. [Workfront 유지 관리 업데이트](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) 페이지를 방문하여 Workfront Fusion Maintenance Update라는 업데이트를 확인하십시오.
+Workfront Fusion의 최근 버그 수정 목록에 대해서는 다음을 참조하십시오. [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 페이지를 방문하여 Workfront Fusion Maintenance Update라는 업데이트를 확인하십시오.
 
 
 ## 시나리오 실행 내역 검색 기능 개선 사항

@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: 80fa784e15c3b4a927ee8ba2d18a80a2d84f4a91
+source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
 workflow-type: tm+mt
-source-wordcount: '3273'
+source-wordcount: '3274'
 ht-degree: 0%
 
 ---
@@ -733,7 +733,7 @@ API 버전에 대한 내용은 [API 버전 관리 및 지원 예약](/help/quick
 
 ### Workfront 유지 보수 업데이트
 
-22.3 릴리스 동안 수행된 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
+22.3 릴리스 동안 수행된 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### 22.4 릴리스 웨비나
 

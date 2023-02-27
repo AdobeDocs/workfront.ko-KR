@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: 00113f7e-2f69-445d-847e-14fd464241de
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Workfront의 문서 영역 성능을 개선했습니다. 이제 문서 페이지
 ### 릴리스 미리 보기: 2022년 2월 10일; 프로덕션 릴리스: 2022년 3월 3일
 
 >[!NOTE]
-대시보드 내에서 이러한 동일한 보고서에 대한 도구 모음도 주 단위의 Production 에서도 업데이트되었습니다 [유지 관리 업데이트](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) 2022년 3월 3일.
+대시보드 내에서 이러한 동일한 보고서에 대한 도구 모음도 주 단위의 Production 에서도 업데이트되었습니다 [유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 2022년 3월 3일.
 
 * 프로젝트 보고서
 * 작업 보고서

@@ -10,9 +10,9 @@ author: Luke
 feature: Product Announcements, Workfront Fusion
 exl-id: 9621683b-735d-40a6-8d7c-b5bd167cbdd2
 hidefromtoc: true
-source-git-commit: e18b23e7d58aced4c95c5df51769a6e959fa3d57
+source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 최근 변경 사항 목록을 보려면 [Adobe Workfront Fusion 릴리스 활동](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Workfront Fusion의 최근 버그 수정 목록에 대해서는 다음을 참조하십시오. [Workfront 유지 관리 업데이트](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) 페이지를 방문하여 Workfront Fusion Maintenance Update라는 업데이트를 확인하십시오.
+Workfront Fusion의 최근 버그 수정 목록에 대해서는 다음을 참조하십시오. [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 페이지를 방문하여 Workfront Fusion Maintenance Update라는 업데이트를 확인하십시오.
 
 ## Workfront Fusion 2.0 웹 후크의 비율 제한.
 
