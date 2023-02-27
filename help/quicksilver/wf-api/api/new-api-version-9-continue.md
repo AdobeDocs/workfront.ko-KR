@@ -3,10 +3,10 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: API 버전 9의 새로운 기능(계속)
 description: 이 목록은 더 큰 목록의 두 번째 부분입니다. 전반부는 API 버전 9의 새로운 기능 을 참조하십시오. 버전 9에 대한 업데이트 목록은 API 버전 9 업데이트에 있습니다.
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 0af97c16-e6a7-4796-92e0-4c2d9751c845
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 29%

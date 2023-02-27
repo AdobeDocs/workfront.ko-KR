@@ -4,10 +4,10 @@ keywords: API,데이터,동기화,저널,항목,개체
 navigation-topic: general-api
 title: API를 사용하여 프로그램 및 서비스의 데이터를 동기화합니다
 description: API를 사용하여 프로그램 및 서비스의 데이터를 동기화합니다
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 1d0583fc-1573-4279-a3fa-a912d9a4213c
-source-git-commit: c1cec2c08c66c704385cde1abd0c019fd59702da
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%

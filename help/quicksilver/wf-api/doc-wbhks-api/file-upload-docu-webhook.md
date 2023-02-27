@@ -4,10 +4,10 @@ product-area: documents
 navigation-topic: documents-webhooks-api
 title: Document Webhooks를 통한 파일 업로드
 description: Document Webhooks를 통한 파일 업로드
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 2c5727ee-bf8f-4664-a9b1-c5da356d94f5
-source-git-commit: b117eb11e4e9325e6249687448d3de98a11e5e00
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 4%

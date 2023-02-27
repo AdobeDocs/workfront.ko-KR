@@ -3,10 +3,10 @@ content-type: api
 navigation-topic: wf-api
 title: 사용자 사용 가능한 시간 API 가져오기
 description: 사용자 사용 가능한 시간 API 가져오기
-author: John
+author: Becky
 feature: Workfront API
 exl-id: fa37920a-c08b-4af3-9896-7e4044834860
-source-git-commit: aea37c1d200dfadf9ccbb7b36145eb04d5ab4b6d
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 7%

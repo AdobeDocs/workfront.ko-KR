@@ -3,10 +3,10 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: 사용자 지정 OAuth 2 애플리케이션에 JWT 흐름 사용
 description: 사용자 지정 OAuth 2 애플리케이션에 JWT 흐름 사용
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 4bd56fe6-1f36-4c36-82cd-96de748ad680
-source-git-commit: 38e957253775f73cee7fe0c0d31bfeedb58ebf53
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 0%

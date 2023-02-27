@@ -3,10 +3,10 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: API 버전 8의 새로운 기능
 description: API 버전 9를 처음 사용하는 리소스 목록입니다. 버전 8 리소스에 대한 업데이트 목록을 보려면 API 버전 8 업데이트 를 참조하십시오.
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 90fefaa6-d387-4cdb-8aea-9a939fe2ac26
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 31%
