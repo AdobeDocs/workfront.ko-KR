@@ -6,7 +6,7 @@ description: 작업 항목에 대한 시간을 Adobe Workfront(&n)에 기록하�
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 1817f3b1a5950823ff6ce600b1fef09ff4ca6767
+source-git-commit: f87f71be1b5f60b95859f3632bae4cf392cc5e84
 workflow-type: tm+mt
 source-wordcount: '2973'
 ht-degree: 0%
@@ -96,7 +96,7 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
 * [홈](#home)
 * [프로젝트, 작업 또는 문제](#project-task-or-issue)
 * [요약 패널](#summary-panel)
-* <span class="preview">[보드](#boards)</span>
+* [보드](#boards)
 * [모바일 앱](#mobile-app)
 
 ### 타임시트 {#timesheet}
