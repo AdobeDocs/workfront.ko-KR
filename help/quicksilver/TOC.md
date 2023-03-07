@@ -2,9 +2,9 @@
 user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 feature-set: Workfront
-source-git-commit: e1df51f5f689d7ecc7db56d1d836d34dbe40d1e1
+source-git-commit: 53781e0df0c748310d254ca149ec371757b90303
 workflow-type: tm+mt
-source-wordcount: '12597'
+source-wordcount: '12602'
 ht-degree: 1%
 
 ---
@@ -884,6 +884,7 @@ ht-degree: 1%
       * [스크럼 구성](agile/get-started-with-agile-in-workfront/configure-scrum.md)
    * Adobe Workfront에서 보드 시작 {#boards-in-workfront}
       * [Adobe Workfront에서 보드 시작](agile/get-started-with-boards/get-started-with-boards.md)
+      * [Adobe Workfront Boards 비디오 데모](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)
       * [게시판 초기 기능 옵트인](agile/get-started-with-boards/boards-early-feature-opt-in.md)
       * [보드 대시보드 사용](agile/get-started-with-boards/use-boards-page.md)
       * [보드 만들기 또는 편집](agile/get-started-with-boards/create-edit-board.md)
