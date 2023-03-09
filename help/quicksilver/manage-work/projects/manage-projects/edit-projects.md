@@ -6,17 +6,16 @@ description: Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편�
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 0b0140245a636db73ae1b6dc2e4abac2eecc6909
+source-git-commit: 7ed42330837149b1e4b813c24c81aa317f3c8b7e
 workflow-type: tm+mt
-source-wordcount: '6670'
+source-wordcount: '7664'
 ht-degree: 2%
 
 ---
 
 # 프로젝트 편집
 
-<!--drafted for bulk editing projects: 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리보기 환경에서만 사용할 수 있습니다.</span>
 
 <!--
 <p>***Linked to many articles,</p>
@@ -691,16 +690,14 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
 
 프로젝트를 일괄적으로 편집하고 선택한 모든 프로젝트에 대한 정보를 동시에 업데이트할 수 있습니다.
 
-<!--
-The information you are changing on all the projects selected will overwrite the existing information on individual projects, except for the Resource Manager field. 
 
-Adding a new resource manager when editing projects in bulk adds that manager to all the selected projects. If other resource managers are associated with the selected projects, they remain on the projects in addition to the one added through bulk edit.
+선택한 모든 프로젝트에서 변경하는 정보는 리소스 관리자 필드를 제외하고 개별 프로젝트에 대한 기존 정보를 덮어씁니다.
 
-Editing projects in bulk differs depending on what environment you choose to update them in. 
+프로젝트를 일괄적으로 편집할 때 새 리소스 관리자를 추가하면 해당 관리자가 선택한 모든 프로젝트에 추가됩니다. 다른 리소스 관리자가 선택한 프로젝트와 연결된 경우 일괄 편집을 통해 추가된 리소스 관리자뿐만 아니라 프로젝트에도 유지됩니다.
 
-### Edit projects in bulk in the Production environment
+프로젝트를 일괄적으로 편집하는 것은 업데이트하기로 선택한 환경에 따라 다릅니다.
 
--->
+### 프로덕션 환경에서 프로젝트를 일괄적으로 편집
 
 프로젝트를 일괄적으로 편집하려면 다음 작업을 수행하십시오.
 
@@ -792,105 +789,103 @@ Editing projects in bulk differs depending on what environment you choose to upd
 
    이제 선택한 모든 프로젝트에 변경 사항이 모두 표시됩니다.
 
-<!--drafted for bulk editing projects:  
-
 <div class="preview">
 
-### Edit projects in the Preview environment
+### 미리보기 환경에서 프로젝트 편집
 
-Consider the following when editing projects in bulk in the Preview environment:
+미리보기 환경에서 프로젝트를 일괄적으로 편집할 때 다음 사항을 고려하십시오.
 
-* When you select projects that have different values for the same field, the field displays a "Multiple values" indicator in the Edit projects box. Fields that are checkboxes, radio buttons, and toggles have a "Multiple values" indicator next to them.
+* 동일한 필드에 대해 다른 값이 있는 프로젝트를 선택하면 필드에 프로젝트 편집 상자에 &quot;여러 값&quot; 표시기가 표시됩니다. 확인란, 라디오 버튼 및 토글 필드의 옆에 &quot;여러 값&quot; 표시기가 있습니다.
 
    ![](assets/multiple-values-indicator-dates-bulk-edit-projects.png)
 
-* In addition to the "Multiple values" indicator, when the chosen options are different on at least one of the selected projects, fields that have multiple options display in one of the following ways:  
+* &quot;복수 값&quot; 표시기 외에도 선택한 프로젝트 중 적어도 하나에서 선택한 옵션이 다른 경우 다음 방법 중 하나로 여러 옵션이 있는 필드가 표시됩니다.
 
-    * Checkbox fields have a line instead of a checkbox for the option that is checked for some but not for all the selected projects.
+   * 확인란 필드에는 선택한 모든 프로젝트가 아닌 일부에 대해 선택된 옵션의 확인란 대신 줄이 표시됩니다.
 
       ![](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
 
-    * Toggle-type fields display dimmed, with the toggle in the middle for the option that is enabled for some but not for all the selected projects. 
+   * 선택한 모든 프로젝트에 대해 활성화되지 않은 일부 옵션에 대해 토글이 중간에 표시되고 토글 유형 필드가 흐리게 표시됩니다.
 
-    ![](assets/multiple-values-highlighted-bulk-edit-projects.png)
+   ![](assets/multiple-values-highlighted-bulk-edit-projects.png)
 
-    * Radio button-type fields that have some options selected but not all, display all radio buttons as empty. 
+   * 일부 옵션이 선택되었지만 전체가 아닌 라디오 단추 유형 필드에는 모든 라디오 단추가 비어 있습니다.
 
       ![](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
 
-* When you update one option in a multiple-option field (such as a field that displays as a set of toggles or checkboxes), all other options must match between the selected projects. 
+
+* 다중 옵션 필드(예: 전환 또는 확인란 세트로 표시되는 필드)의 한 옵션을 업데이트할 경우 선택한 프로젝트 간에 다른 모든 옵션이 일치해야 합니다.
 
    >[!IMPORTANT]
    >
-   >For example, you might have a checkbox field with three checkboxes (Option1, Option 2, and Option 3) and Option 1 is unchecked for all projects, and Option 2 and 3 are checked for some and unchecked for other projects that you selected. If you want to check Option 1 for all projects, you must also make Option 2 and 3 match for all the selected projects before you can save your changes, so you must either select them or deselect them so that they can match on all the selected projects. If you do not change any of the options, you can save the field as is, and the projects maintain their current selection for all options. 
+   >예를 들어 확인란 필드에 세 개의 확인란(옵션1, 옵션2, 옵션3)이 있고 옵션1은 모든 프로젝트에 대해 선택 취소되어 있을 수 있으며 옵션2와 옵션3은 일부 프로젝트에 대해 선택되어 있고 선택한 다른 프로젝트에 대해 선택 취소되어 있을 수 있습니다. 모든 프로젝트에 대해 옵션 1을 선택하려면 변경 사항을 저장하기 전에 선택한 모든 프로젝트에 대해 옵션 2와 3을 일치시켜야 하므로 선택한 모든 프로젝트에서 일치되도록 선택하거나 선택을 취소해야 합니다. 옵션을 변경하지 않으면 필드를 그대로 저장할 수 있으며 프로젝트는 모든 옵션에 대한 현재 선택을 유지합니다.
 
-* When you select multiple projects that belong to different groups, the statuses that display in the Status field are system-level statuses and not group-level statuses. 
+* 다른 그룹에 속하는 여러 프로젝트를 선택할 경우 상태 필드에 표시되는 상태는 그룹 수준 상태가 아니라 시스템 수준 상태입니다.
 
-To edit projects in the Preview environment: 
+미리보기 환경에서 프로젝트를 편집하려면 다음을 수행하십시오.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
-1. Click **Projects**.
-1. Select several projects in the list.
-1. Click the **Edit** icon ![](assets/edit-icon.png) at the top of the list. 
-The **Edit Projects** dialog box opens. 
+1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront 오른쪽 상단에 있습니다.
+1. 클릭 **프로젝트**.
+1. 목록에서 여러 프로젝트를 선택합니다.
+1. 다음을 클릭합니다. **편집** 아이콘 ![](assets/edit-icon.png) 목록의 맨 위에 있습니다.
+다음 **프로젝트 편집** 대화 상자가 열립니다.
 
    ![](assets/edit-projects-in-bulk-modal-unshimmed.png)
 
-Depending on how your Workfront administrator or Group administrator modified your Layout Template, the areas in the left panel of the Edit Project box or any fields listed in these areas might be rearranged or not display. For information, see [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md). 
+Workfront 관리자 또는 그룹 관리자가 레이아웃 템플릿을 수정한 방법에 따라 프로젝트 편집 상자의 왼쪽 패널에 있는 영역이나 이러한 영역에 나열된 필드가 재배열되거나 표시되지 않을 수 있습니다. 자세한 내용은 [레이아웃 템플릿을 사용하여 세부 정보 보기 사용자 지정](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-1. Click **Overview** to edit general information about the selected projects.  For more information about editing the Overview area, see the section [Overview](#overview) in this article.
-
-   >[!TIP]
-   >
-   >Fields that you edit display with a light purple background.
-
-1. Click **Custom Forms** to edit, add, or replace custom forms associated with the selected projects. 
-
-   The custom forms that are attached to all the selected projects display in the **Custom forms in common** subsection in the **Custom Forms** area.
-
-   ![](assets/custom-forms-in-common-unshimmed.png) 
+1. 클릭 **개요** 을 눌러 선택한 프로젝트에 대한 일반 정보를 편집합니다.  개요 영역 편집에 대한 자세한 내용은 섹션을 참조하십시오 [개요](#overview) 이 문서에서.
 
    >[!TIP]
    >
-   >   The names of the forms that are common to all selected projects display in the left panel of the Edit Projects box.
+   >편집한 필드는 밝은 자주색 배경과 함께 표시됩니다.
 
-1. Start typing the name of a custom form in the **Add custom form** field.
+1. 클릭 **사용자 지정 Forms** 을 클릭하여 선택한 프로젝트와 관련된 사용자 정의 양식을 편집, 추가 또는 대체합니다.
+
+   선택한 모든 프로젝트에 첨부된 사용자 정의 양식은 **공통 사용자 정의 양식** 의 하위 섹션 **사용자 지정 Forms** 영역입니다.
+
+   ![](assets/custom-forms-in-common-unshimmed.png)
+
+   >[!TIP]
+   >
+   >   선택한 모든 프로젝트에 공통되는 양식 이름은 프로젝트 편집 상자의 왼쪽 패널에 표시됩니다.
+
+1. 에 사용자 정의 양식 이름을 입력하십시오. **사용자 정의 양식 추가** 필드.
 
 
    ![](assets/forms-already-attached-indication-in-bulk-editing-projects-unshimmed.png)
 
-   The custom forms that are already attached to the selected projects display in the **Attached forms** subsection in the **Add custom form** field. 
-   
-   Additional custom forms that can be associated with projects but are not attached to any of the selected projects display in the **Forms to add** subsection in the **Add custom form** field. 
-   
-1. Click to select the additional custom form in the **Add custom form** or **Forms to add** subsections when it displays in the list. 
+   선택한 프로젝트에 이미 첨부된 사용자 정의 양식은 **첨부된 양식** 의 하위 섹션 **사용자 정의 양식 추가** 필드.
 
-   When a custom form is already attached to some of the selected projects, there is an indication next to the name of the form how many projects already have the form selected, when adding a form.  
+   프로젝트와 연결할 수 있지만 선택한 프로젝트에 첨부되지 않은 추가 사용자 정의 양식이 **추가할 Forms** 의 하위 섹션 **사용자 정의 양식 추가** 필드.
 
-1. (Optional) Click the **x** icon to the right of a custom form's name, then click **Remove** to remove it from all the selected projects.
+1. 에서 추가 사용자 정의 양식을 선택하려면 클릭하십시오. **사용자 정의 양식 추가** 또는 **추가할 Forms** 하위 섹션(목록에 표시되는 경우)
+
+   사용자 정의 양식이 선택한 프로젝트 중 일부에 이미 첨부되어 있는 경우 양식을 추가할 때 양식 이름 옆에 이미 양식이 선택된 프로젝트의 수가 표시됩니다.
+
+1. (선택 사항) **x** 사용자 정의 양식 이름 오른쪽에 있는 아이콘을 클릭하고 **제거** 을 눌러 선택한 모든 프로젝트에서 제거합니다.
 
    >[!CAUTION]
    >
-   >   Removing custom forms causes all existing custom field information on the forms to be lost. This cannot be recovered. 
+   >   사용자 정의 양식을 제거하면 양식에 있는 기존의 모든 사용자 정의 필드 정보가 손실됩니다. 복구할 수 없습니다.
 
-   For more information about editing custom forms, see the section [Custom Forms](#custom-forms) in this article.
+   사용자 정의 양식 편집에 대한 자세한 내용은 섹션을 참조하십시오 [사용자 지정 Forms](#custom-forms) 이 문서에서.
 
-1. Click **Finance** to edit financial information for all selected projects.
-For more information about editing the Finance area, see the section [Finance](#finance) in this article. 
-1. Click **Project Settings** to edit the settings for all selected projects.
-For more information about editing the Project Settings area, see the section [Project Settings](#project-settings) in this article. 
-1. Click **Task Settings** to edit the task settings for all selected projects. 
-For more information about editing the Task Settings area, see the section [Task Settings](#task-settings) in this article.
-1. Click **Issue Settings** to edit the issue settings for all selected projects.
-For more information about editing the Issue Settings area, see the section [Issue Settings](#issue-settings) in this article.
-1. Click **Access** to edit the access settings for all selected projects.
-For more information about editing the Access area, see the section [Access](#access) in this article.
-1. (Optional) To remove any of the information you added in the Edit Projects box, hover over an edited field, then click the **x** discard icon to the upper-right of the field. 
+1. 클릭 **재무** 을 눌러 선택한 모든 프로젝트의 재무 정보를 편집합니다.
+재무 영역 편집에 대한 자세한 내용은 섹션을 참조하십시오 [재무](#finance) 이 문서에서.
+1. 클릭 **프로젝트 설정** 을 클릭하여 선택한 모든 프로젝트의 설정을 편집합니다.
+프로젝트 설정 영역 편집에 대한 자세한 내용은 섹션을 참조하십시오 [프로젝트 설정](#project-settings) 이 문서에서.
+1. 클릭 **작업 설정** 을 눌러 선택한 모든 프로젝트에 대한 작업 설정을 편집합니다.
+작업 설정 영역 편집에 대한 자세한 내용은 섹션을 참조하십시오 [작업 설정](#task-settings) 이 문서에서.
+1. 클릭 **문제 설정** 을 클릭하여 선택한 모든 프로젝트에 대한 문제 설정을 편집합니다.
+문제 설정 영역 편집에 대한 자세한 내용은 섹션을 참조하십시오 [문제 설정](#issue-settings) 이 문서에서.
+1. 클릭 **액세스** 을 눌러 선택한 모든 프로젝트에 대한 액세스 설정을 편집합니다.
+액세스 영역 편집에 대한 자세한 내용은 섹션을 참조하십시오 [액세스](#access) 이 문서에서.
+1. (선택 사항) 프로젝트 편집 상자에서 추가한 정보를 제거하려면 편집된 필드를 마우스로 가리킨 다음 **x** 필드의 오른쪽 위에 있는 무시 아이콘
 
    ![](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)
 
-1. (Optional) Click **Cancel** at the bottom of the **Edit projects** page to remove all the changes made to all projects. 
-1. Click **Save**. 
+1. (선택 사항) **취소** 의 맨 아래에 **프로젝트 편집** 모든 프로젝트에 대한 모든 변경 사항을 제거하는 페이지입니다.
+1. **저장**&#x200B;을 클릭합니다.
 
 <div>
--->
