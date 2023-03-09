@@ -4,9 +4,9 @@ description: 23.2 기타 개선 사항
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 93071f9c9d359ff98a269b07f81ebcf251b1f23c
+source-git-commit: 51ea73c473105f1be1eaa6791ba5b09546fe9922
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,24 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 23.2 릴리스의 기타 모든 개선 사항에 대해 설명합니다. 이러한 개선 사항은 프로덕션 환경에서 23.2 릴리스를 통해 제공될 예정입니다.
 
 23.2 릴리스 주기 내에서 이 시점에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [23.2 릴리스 개요](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+
+## 문제에 대한 새로운 댓글 달기 경험 Beta
+
+Adobe Workfront의 댓글 달기 환경에 대한 업데이트가 현재 개발 중입니다. 이 업데이트에는 일부 개체의 업데이트 섹션에 새로운 인터페이스, 새로운 기능 및 향상된 성능이 포함되어 있습니다.
+
+이 새로운 경험은 결국 Adobe Workfront을 넘어 Adobe Experience Cloud 전반에 걸쳐 댓글 달기를 통합합니다.
+
+이 업데이트의 일부로, 문제의 업데이트 섹션에 새로운 댓글 달기 환경을 소개합니다. 현재 릴리스에서는 각 사용자가 베타 모드에서 자체 환경에서 이 경험을 활성화할 수 있는 토글이 제공됩니다. Beta 계약에 동의한 후 새 업데이트 섹션이 표시되며 현재처럼 해당 섹션에서 작업을 계속 관리할 수 있습니다.
+23.1 릴리스와 함께 Workfront Goals에 유사한 기능이 릴리스되었습니다.
+
+이 업데이트에 포함된 기능 중 일부는 다음과 같습니다.
+
+* 주석 및 시스템 업데이트에 대한 별도의 탭
+* 향상된 성능
+
+기능이 다른 개체에도 추가되므로 향후 릴리스에서 더 많은 기능이 추가됩니다.
+
+새 댓글 달기 경험이 제공하는 기능에 대한 자세한 내용은 [통합 댓글 달기 경험](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 
 ## Adobe Workfront for XD에서 대지를 단일 PDF 또는 여러 PDF 파일로 내보내기
 

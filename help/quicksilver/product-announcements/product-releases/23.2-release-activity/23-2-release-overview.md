@@ -4,9 +4,9 @@ description: 23.2 릴리스 개요
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 4f3764665b902cd52fa15c56294df084111e3399
+source-git-commit: 51ea73c473105f1be1eaa6791ba5b09546fe9922
 workflow-type: tm+mt
-source-wordcount: '2237'
+source-wordcount: '2306'
 ht-degree: 0%
 
 ---
@@ -388,6 +388,23 @@ ht-degree: 0%
                     <td>
                         <p><span class="bold">릴리스 날짜</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">문제에 대한 새로운 댓글 달기 경험 Beta</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span>
+                        <p>Adobe Workfront의 댓글 달기 환경에 대한 업데이트가 현재 개발 중입니다. 이 업데이트에는 일부 개체의 업데이트 섹션에 새로운 인터페이스, 새로운 기능 및 향상된 성능이 포함되어 있습니다.</p>
+                        <p>이 새로운 경험은 결국 Adobe Workfront을 넘어 Adobe Experience Cloud 전반에 걸쳐 댓글 달기를 통합합니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2023년 3월 9일<br /></p>
+                            </li>
+                            <li>
+                                 <p><span class="preview">프로덕션 릴리스: 23.2 릴리스 포함 </span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
