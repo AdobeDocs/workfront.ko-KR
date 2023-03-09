@@ -6,9 +6,9 @@ description: 리소스 풀은 Adobe Workfront에서 리소스를 관리하는 �
 author: Alina
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
-source-git-commit: 78de23b4d5814e5e2ead6bb61a80bba7bd2aed33
+source-git-commit: 23257f11b0795aa1f1e422923f6d596017c58126
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '683'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,13 @@ ht-degree: 0%
 # 리소스 풀을 프로젝트 및 템플릿과 연결
 
 
-<!-- drafted for bulk editing projects: make this live when we release edit projects in bulk and replace the screen shot below (marked) and make the shot in yellow showing adding resource pools to multiple projects:
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+<!-- drafted for bulk editing projects: keep this in yellow till this releases to ALL customers - May 1, 2023
 
+Also - take out all the references to Preview and Prod at prod final
 -->
+
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리보기 환경에서만 사용할 수 있습니다.</span>
+
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -103,11 +106,12 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >프로젝트 또는 템플릿을 일괄적으로 편집할 때 선택한 모든 프로젝트 또는 템플릿에 공통되는 리소스 풀만 이 필드에 나타납니다. 선택한 프로젝트에 공유 리소스 풀이 없는 경우 이 필드는 비어 있습니다. 여기에서 지정한 리소스 풀은 프로젝트 또는 템플릿의 개별 리소스 풀을 덮어씁니다.
+   >* 프로덕션 환경에서 프로젝트나 템플릿을 일괄적으로 편집할 때 선택한 모든 프로젝트 또는 템플릿에 공통되는 리소스 풀만 이 필드에 나타납니다. 선택한 프로젝트에 공유 리소스 풀이 없는 경우 이 필드는 비어 있습니다. 여기에서 지정한 리소스 풀은 프로젝트 또는 템플릿의 개별 리소스 풀을 덮어씁니다.
+   >
+   >* <span class="preview">미리보기 환경에서 프로젝트를 일괄 편집할 때 선택한 프로젝트에 다른 리소스 풀이 있는 경우 &quot;여러 값&quot; 표시기가 있습니다. 리소스 풀을 일괄적으로 추가하면 모든 풀이 선택한 프로젝트에 추가되어 원래 리소스 풀을 덮어씁니다.</span>
 
-   <!--drafted note for bulk editing projects - update the screen shot below for Edit Projects with the new UI in bulk and add the preview tags to the picture for Preview-->
 
-   ![add_resource_pools_to_multiple_projects.png](assets/add-resource-pools-to-multiple-projects-350x358.png)
+   <span class="preview">![add_resource_pools_to_multiple_projects.png](assets/add-resource-pools-to-multiple-projects-350x358.png)</span>
 
 1. 클릭 **변경 내용 저장**.\
    리소스 풀이 프로젝트 또는 템플릿과 연결되면 리소스 플래너 내에서 프로젝트에 대한 사용자 할당의 예산을 책정할 수 있습니다.\

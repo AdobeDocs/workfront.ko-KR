@@ -6,17 +6,16 @@ description: 한 오브젝트에 첨부된 사용자 정의 양식의 표시 순
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: 78de23b4d5814e5e2ead6bb61a80bba7bd2aed33
+source-git-commit: 23257f11b0795aa1f1e422923f6d596017c58126
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1120'
 ht-degree: 0%
 
 ---
 
 # 오브젝트에 첨부된 사용자 정의 양식 관리
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>  -->
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리보기 환경에서만 사용할 수 있습니다.</span>
 
 한 오브젝트에 첨부된 사용자 정의 양식의 표시 순서를 업데이트하거나 제거하거나 여러 오브젝트에 사용자 정의 양식이 표시되는 방식을 벌크 편집할 수 있습니다.
 
@@ -98,13 +97,11 @@ ht-degree: 0%
 ## 오브젝트를 벌크 편집할 때 여러 사용자 정의 양식 관리
 
 <!--
-drafted for bulk-editing projects. When it releases to Prod for projects, take "in the preview environment" and the yellow tags out. Add additional objects here in the same way when they become available:
+drafted for bulk-editing projects. When it releases to Prod for projects, take "in the preview environment" and the yellow tags out. Add additional objects here in the same way when they become available:-->
 
 >[!NOTE]
 >
-><span class="preview">For information about managing custom forms on projects in bulk in the Preview environment, see the article [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md)</span>.
-
--->
+><span class="preview">미리보기 환경에서 프로젝트의 사용자 정의 양식을 대량으로 관리하는 방법에 대한 자세한 내용은 문서 를 참조하십시오. [프로젝트 편집](../../manage-work/projects/manage-projects/edit-projects.md)</span>.
 
 여러 사용자 정의 양식이 적용된 오브젝트를 벌크 편집할 때 해당 오브젝트에 사용자 정의 양식이 표시되는 방식을 편집하고 사용자 정의 양식 간의 공통 필드를 편집할 수 있습니다.
 
