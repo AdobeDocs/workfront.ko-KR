@@ -6,7 +6,7 @@ description: Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편�
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: c8acabde5f4c2588dada4378ff85ff9876681d59
+source-git-commit: a533beb1a28bedb8f7f05e8f0321b275d080eefb
 workflow-type: tm+mt
 source-wordcount: '7664'
 ht-degree: 2%
@@ -882,3 +882,5 @@ Workfront 관리자 또는 그룹 관리자가 레이아웃 템플릿을 수정�
 
 1. (선택 사항) **취소** 의 맨 아래에 **프로젝트 편집** 모든 프로젝트에 대한 모든 변경 사항을 제거하는 페이지입니다.
 1. **저장**&#x200B;을 클릭합니다.
+
+</div>
