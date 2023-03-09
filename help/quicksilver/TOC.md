@@ -2,9 +2,9 @@
 user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 feature-set: Workfront
-source-git-commit: 51d4fdb5a47099f22d171a700ee9cf5270fb1553
+source-git-commit: a0a5346ff017a32ebb678f90ce812a6969039a4b
 workflow-type: tm+mt
-source-wordcount: '12620'
+source-wordcount: '12770'
 ht-degree: 1%
 
 ---
@@ -475,29 +475,48 @@ ht-degree: 1%
       * 사용자 정의 양식 {#custom-forms}
          * [사용자 정의 양식](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
          * [사용자 정의 양식 개요](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
-         * [사용자 정의 양식 만들기 또는 편집](administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
-         * [사용자 정의 양식을 복사하여 새 양식 만들기](administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md)
-         * [사용자 정의 필드 추가](administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)
-         * [사용자 정의 양식에 이미지 또는 기타 에셋 위젯 추가](administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
-         * [섹션 구분 추가](administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
-         * [사용자 정의 필드에 액세스](administration-and-setup/customize-workfront/create-manage-custom-forms/access-for-a-shared-custom-form-you-want-to-use.md)
-         * [계산된 데이터 추가](administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
-         * [기존의 계산된 사용자 정의 필드 재사용](administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
-         * [사용자 정의 필드 및 위젯 배치](administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
-         * [사용자 정의 필드 및 위젯에 대한 공유](administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)
-         * [사용자 정의 필드 또는 위젯 재사용](administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md)
-         * [표시 논리 및 건너뛰기 논리 추가](administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
-         * [사용자 정의 양식 공유](administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
-         * [사용자 정의 양식 미리 보기 및 완료](administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
-         * [보고서에서 사용자 정의 양식 참조](administration-and-setup/customize-workfront/create-manage-custom-forms/reference-custom-forms-in-report.md)
-         * [사용자 정의 필드 또는 위젯을 사용하는 보고서 보기](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md)
-         * [사용자 정의 필드 또는 위젯을 사용하는 사용자 정의 양식 보기](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md)
-         * [개체를 변환할 때 사용자 정의 양식 데이터 전송](administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md)
-         * [사용자 정의 양식 삭제 또는 비활성화](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
-         * [사용자 정의 필드, 섹션 구분 또는 위젯의 속성 편집](administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
-         * [시스템에서 사용자 정의 필드 또는 위젯 삭제](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
-         * [API의 리치 텍스트 필드 스토리지](administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)
-         * [사용자 정의 양식의 오브젝트 유형 삭제](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md)
+         * 기존 사용자 정의 양식 빌더 {#custom-form-builder}
+            * 사용자 정의 양식 빌더 사용 {#use-the-custom-form-builder}
+               * [기존 사용자 정의 양식 빌더 사용](administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
+               * [기존 빌더로 사용자 정의 양식 만들기 또는 편집](administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+               * [기존 빌더로 새 양식을 만들려면 사용자 정의 양식을 복사하십시오.](administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md)
+               * [사용자 정의 필드 추가](administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)
+               * [기존 빌더를 사용하여 이미지 또는 기타 에셋 위젯을 사용자 정의 양식에 추가합니다](administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
+               * [기존 빌더로 섹션 구분 추가](administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
+               * [기존 빌더로 계산된 데이터 추가](administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
+               * [기존 계산된 사용자 정의 필드를 기존 빌더와 재사용](administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
+               * [기존 빌더로 사용자 정의 필드 및 위젯 배치](administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
+               * [기존 빌더와 사용자 정의 필드 및 위젯에 대한 공유](administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)
+               * [기존 빌더로 사용자 정의 필드 또는 위젯 재사용](administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md)
+               * [기존 빌더로 표시 논리 추가 및 건너뛰기 논리 추가](administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
+               * [기존 빌더로 사용자 정의 양식 미리 보기 및 완료](administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
+               * [기존 빌더를 사용하여 사용자 정의 양식의 오브젝트 유형 삭제](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md)
+         * 양식 디자이너 {#form-designer}
+            * [양식 디자이너](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-toc.md)
+            * [양식 디자이너 개요](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md)
+            * 사용자 정의 양식 디자인 {#design-a-form}
+               * [양식 디자인](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form-toc.md)
+               * [양식 디자이너를 사용하여 양식 디자인](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
+               * [양식 디자이너를 사용하여 사본에서 양식 디자인](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-from-copy.md)
+               * [양식 디자이너를 사용하여 계산된 필드 추가](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
+               * [양식 디자이너를 사용하여 양식 구성 및 미리 보기](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)
+            * 양식 관리 {#manage-a-form}
+               * [양식 관리](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/manage-a-form-toc.md)
+               * [양식 디자이너를 사용하여 기존 사용자 정의 양식에서 오브젝트 유형 추가 또는 삭제](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/add-or-remove-objects-from-a-form.md)
+               * [양식 디자이너를 사용하여 사용자 정의 양식 이름 바꾸기](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/rename-a-custom-form.md)
+         * 사용자 정의 양식 관리 {#manage-custom-forms}
+            * [사용자 정의 양식 및 필드 관리](administration-and-setup/customize-workfront/create-manage-custom-forms/manage-custom-forms-toc.md)
+            * [사용자 정의 양식 공유](administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
+            * [사용자 정의 필드에 액세스](administration-and-setup/customize-workfront/create-manage-custom-forms/access-for-a-shared-custom-form-you-want-to-use.md)
+            * [사용자 정의 양식 비활성화 또는 재활성화](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md)
+            * [보고서에서 사용자 정의 양식 참조](administration-and-setup/customize-workfront/create-manage-custom-forms/reference-custom-forms-in-report.md)
+            * [사용자 정의 필드 또는 위젯을 사용하는 보고서 보기](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md)
+            * [사용자 정의 필드 또는 위젯을 사용하는 사용자 정의 양식 보기](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md)
+            * [개체를 변환할 때 사용자 정의 양식 데이터 전송](administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md)
+            * [사용자 정의 필드, 섹션 구분 또는 위젯의 속성 편집](administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
+            * [시스템에서 사용자 정의 필드 또는 위젯 삭제](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
+            * [사용자 정의 양식 삭제](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
+            * [API의 리치 텍스트 필드 스토리지](administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)
       * 상태 및 우선 순위 레이블 {#statuses-priority-labels}
          * [사용자 정의 상태 및 우선 순위 레이블 만들기](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-custom-status-and-priority-labels.md)
          * [상태 개요](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md)
