@@ -4,9 +4,9 @@ description: 23.2 관리자 개선 사항
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 2cfcec04151329918c071b7ed7cb48519d553095
+source-git-commit: 8a533ac04ce35625ed3e6ae5fc7be5148b497cc2
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,9 @@ ht-degree: 0%
 
 * **설명 텍스트 크기 변경**: 이제 설명 텍스트 필드에 작은 크기, 중간 크기 또는 큰 크기를 할당할 수 있습니다. 같은 행에서 다른 필드와 함께 사용할 수도 있습니다. <span style="color: #ff0000;"> 설명 텍스트의 크기 변경이 일시적으로 지연되었지만 곧 제공될 예정입니다.</span></li>
 
-자세한 내용은 [양식 디자이너 개요](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md).<!--link is to new article-->
+자세한 내용은 [양식 디자이너 개요](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md).
+
+[이 기능에 대한 비디오 데모 보기](https://video.tv.adobe.com/v/3416586/){target=_blank}
 
 ## 레이아웃 템플릿의 고정 항목 이름 바꾸기
 
@@ -37,4 +39,4 @@ ht-degree: 0%
 
 자세한 내용은 [레이아웃 템플릿을 사용하여 고정된 페이지 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md). 사용자가 개인 고정 페이지의 이름을 변경할 수 있는 방법에 대한 자세한 내용은 을 참조하십시오. [페이지를 고정하여 작업 영역 사용자 지정](/help/quicksilver/workfront-basics/the-new-workfront-experience/pin-pages.md).
 
-[이 기능에 대한 비디오 데모 보기](https://video.tv.adobe.com/v/3414364/)
+[이 기능에 대한 비디오 데모 보기](https://video.tv.adobe.com/v/3414364/){target=_blank}

@@ -4,9 +4,9 @@ description: 23.2 프로젝트 개선 사항
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 2cfcec04151329918c071b7ed7cb48519d553095
+source-git-commit: 8a533ac04ce35625ed3e6ae5fc7be5148b497cc2
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,8 @@ Workfront 경험의 모양과 느낌을 업데이트하는 과정에서 여러 �
 * 프로젝트 편집 상자에서 주석 달기 기능을 제거했습니다.
 
 자세한 내용은 [프로젝트 편집](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
+
+[이 기능에 대한 비디오 데모 보기](https://video.tv.adobe.com/v/3416587/){target=_blank}
 
 ## Adobe Workfront에서 일반적으로 사용할 수 있는 향상된 필터 경험
 
