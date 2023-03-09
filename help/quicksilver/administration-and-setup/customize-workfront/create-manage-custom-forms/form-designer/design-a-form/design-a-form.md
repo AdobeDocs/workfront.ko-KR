@@ -7,9 +7,9 @@ description: 양식 디자이너를 사용하여 사용자 정의 양식을 디�
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: f416fc6a021a63e3a0cbd905de8e5892455f21a9
+source-git-commit: b56cf20e054b2658ade8aef6c179128e001603c2
 workflow-type: tm+mt
-source-wordcount: '3618'
+source-wordcount: '3803'
 ht-degree: 4%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 4%
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>사용자 정의 양식에 대한 관리 액세스</p> <p>Workfront 관리자가 이 액세스 권한을 부여하는 방법에 대한 자세한 내용은 다음을 참조하십시오. <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">사용자에게 특정 영역에 대한 관리 액세스 권한 부여</a>.</p> </td> 
+   <td> <p>사용자 정의 양식에 대한 관리 액세스</p> <p>Workfront 관리자가 이 액세스 권한을 부여하는 방법에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">사용자에게 특정 영역에 대한 관리 액세스 권한 부여</a>.</p> </td> 
   </tr>  
  </tbody> 
 </table>
@@ -124,7 +124,9 @@ ht-degree: 4%
    >[!NOTE]
    >
    >Workfront 모바일 앱에서는 서식이 있는 텍스트 필드를 사용할 수 없습니다(향후 릴리스에서 사용 가능).
+
 * **설명 텍스트**: 지침을 포함하고 Workfront 외부에 있는 페이지에 연결할 수 있습니다.
+
 +++
 
 텍스트 필드를 추가하려면:
@@ -134,7 +136,7 @@ ht-degree: 4%
    * 한 줄 텍스트:
    * 단락 텍스트
    * 서식이 있는 텍스트 필드
-   * 기술 텍스트
+   * 설명 텍스트
 
    ![](assets/drag-field-to-section.png)
 
@@ -145,6 +147,17 @@ ht-degree: 4%
     <td>에 입력</td>
     <td>설명</td>
     <td>다음에 사용 가능: </td>
+    </tr>
+    <tr>
+    <td>크기</td>
+    <td><p>양식의 텍스트 필드 크기를 변경합니다.<p>
+   </td>
+    <td><ul>
+    <li>한 줄 텍스트</li>
+    <li>단락 텍스트</li>
+    <li>서식 포함 텍스트</li>
+    <li>설명 텍스트 - 곧 제공 예정</li>
+    </ul></td>
     </tr>
     <tr>
     <td>레이블</td>
@@ -209,6 +222,14 @@ ht-degree: 4%
     <td><ul><li>설명 텍스트</li></ul></td>
     </tr>
    </table>
+
+1. (선택 사항) 다른 필드 또는 위젯을 추가하려면 이전 단계를 반복합니다.
+
+   또는
+
+   필드를 복사하려면 필드 위로 마우스를 가져간 다음 복사 아이콘을 클릭합니다.
+
+   ![복사 아이콘](assets/copy-field.png)
 
 1. 변경 사항을 저장하려면 를 클릭합니다. **적용** 양식을 계속 작성하려면 다른 섹션으로 이동하십시오.
 
@@ -346,6 +367,20 @@ ht-degree: 4%
     </tbody> 
     </table>
 
+1. (선택 사항) 다른 필드 또는 위젯을 추가하려면 이전 단계를 반복합니다.
+
+   또는
+
+   필드를 복사하려면 필드 위로 마우스를 가져간 다음 복사 아이콘을 클릭합니다.
+
+   ![복사 아이콘](assets/copy-field.png)
+
+1. 변경 사항을 저장하려면 를 클릭합니다. **적용** 양식을 계속 작성하려면 다른 섹션으로 이동하십시오.
+
+   또는
+
+   클릭 **저장 및 닫기**.
+
 ### 자동 완성 및 날짜 필드 추가
 
 자동 완성 및 날짜 필드를 사용자 정의 양식에 추가할 수 있습니다.
@@ -445,6 +480,14 @@ ht-degree: 4%
     </tbody> 
    </table>
 
+1. (선택 사항) 다른 필드 또는 위젯을 추가하려면 이전 단계를 반복합니다.
+
+   또는
+
+   필드를 복사하려면 필드 위로 마우스를 가져간 다음 복사 아이콘을 클릭합니다.
+
+   ![복사 아이콘](assets/copy-field.png)
+
 1. 변경 사항을 저장하려면 를 클릭합니다. **적용** 양식을 계속 작성하려면 다른 섹션으로 이동하십시오.
 
    또는
@@ -520,6 +563,14 @@ The Workfront Mobile app -->
     </tbody> 
    </table>
 
+1. (선택 사항) 다른 필드 또는 위젯을 추가하려면 이전 단계를 반복합니다.
+
+   또는
+
+   필드를 복사하려면 필드 위로 마우스를 가져간 다음 복사 아이콘을 클릭합니다.
+
+   ![복사 아이콘](assets/copy-field.png)
+
 1. 변경 사항을 저장하려면 를 클릭합니다. **적용** 양식을 계속 작성하려면 다른 섹션으로 이동하십시오.
 
    또는
@@ -588,6 +639,14 @@ Adobe XD 파일을 추가하려면:
      </tr> 
     </tbody> 
    </table>
+
+1. (선택 사항) 다른 필드 또는 위젯을 추가하려면 이전 단계를 반복합니다.
+
+   또는
+
+   필드를 복사하려면 필드 위로 마우스를 가져간 다음 복사 아이콘을 클릭합니다.
+
+   ![복사 아이콘](assets/copy-field.png)
 
 1. 변경 사항을 저장하려면 를 클릭합니다. **적용** 양식을 계속 작성하려면 다른 섹션으로 이동하십시오.
 
