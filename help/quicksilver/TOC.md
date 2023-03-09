@@ -2,9 +2,9 @@
 user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 feature-set: Workfront
-source-git-commit: 53781e0df0c748310d254ca149ec371757b90303
+source-git-commit: a8a3aec50b5538de5867ce3ba7723d92c046b50d
 workflow-type: tm+mt
-source-wordcount: '12602'
+source-wordcount: '12605'
 ht-degree: 1%
 
 ---
@@ -1582,6 +1582,7 @@ ht-degree: 1%
          * [대시보드 인쇄](reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md)
          * [대시보드 공유](reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
          * [대시보드에서 외부 페이지 제거](reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)
+         * [캔버스 대시보드 개요](reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
    * 향상된 분석 {#enhanced-analytics}
       * [향상된 분석](enhanced-analytics/enhanced-analytics.md)
       * [향상된 분석 개요](enhanced-analytics/enhanced-analytics-overview.md)
