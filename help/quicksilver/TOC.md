@@ -2,9 +2,9 @@
 user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 feature-set: Workfront
-source-git-commit: a0a5346ff017a32ebb678f90ce812a6969039a4b
+source-git-commit: 6bf7e4f58aa80271d7ec84576723cdbade55ce9b
 workflow-type: tm+mt
-source-wordcount: '12770'
+source-wordcount: '12759'
 ht-degree: 1%
 
 ---
@@ -20,11 +20,12 @@ ht-degree: 1%
       * [Adobe Workfront 분기 릴리스 준비](product-announcements/product-releases/release-readiness.md)
       * 23.2 릴리스 {#release-23-2}
          * [23.2 릴리스 개요](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
-         * [23.2 릴리스 활동: 2023년 2월 27일 주](product-announcements/product-releases/23.2-release-activity/23-2-feb-27.md)
-         * [23.2 릴리스 활동: 2023년 2월 20일 주](product-announcements/product-releases/23.2-release-activity/23-2-feb-20.md)
-         * [23.2 릴리스 활동: 2023년 2월 13일 주](product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md)
-         * [23.2 릴리스 활동: 2023년 2월 6일 주](product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md)
-         * [23.2 릴리스 활동: 2023년 1월 23일 주](product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md)
+         * [23.2 관리자 개선 사항](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)
+         * [23.2 애자일 개선 사항](product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md)
+         * [23.2 프로젝트 관리 개선 사항](product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md)
+         * [23.2 향상된 리소스 관리 기능](product-announcements/product-releases/23.2-release-activity/23-2-resource-management-enhancements.md)
+         * [23.2 모바일 개선 사항](product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md)
+         * [23.2 기타 개선 사항](product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md)
          * [23.2 릴리스 일정 동안의 업데이트 확인](product-announcements/product-releases/23.2-release-activity/23-2-look-and-feel.md)
       * 23.1 릴리스 {#release-23-1}
          * [23.1 릴리스 개요](product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md)

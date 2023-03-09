@@ -4,9 +4,9 @@ description: 23.2 릴리스 개요
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 26e15632013bc4ecdad67dd3843bc42ca9cc3ddb
+source-git-commit: 4f3764665b902cd52fa15c56294df084111e3399
 workflow-type: tm+mt
-source-wordcount: '1511'
+source-wordcount: '2237'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,13 @@ ht-degree: 0%
 
 예정된 릴리스 준비에 대한 팁은 을 참조하십시오. [Adobe Workfront 분기 릴리스 준비](/help/quicksilver/product-announcements/product-releases/release-readiness.md).
 
-<!-- The 23.2 release webinar will be held on ___. You can [register for the webinar here](link). -->
+## 릴리스 웨비나
+
+릴리스 웨비나 대신 다음 Workfront 세션을 시청하려면 Adobe Summit에 등록하시기 바랍니다.
+
+[영향력 있는 경험: 콘텐츠 작성에서 개인화에 이르기까지](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982243928001D5Z9) 2023년 3월 21일, 콘텐츠를 만들고, 관리하고, 개인화하고, 보다 효율적이고 영향력 있는 경험을 전달하는 새로운 방법을 배웁니다. 이 세션은 가상 대상자를 위해 실시간 스트리밍됩니다.
+
+[Adobe Workfront의 미래](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982239896001DoHU) 2023년 3월 23일, Workfront에 대한 비전 및 Adobe 생태계 내에서의 위치를 확인하고 향후 로드맵을 간단히 살펴볼 수 있습니다. 이 세션은 나중에 온디맨드 콘텐츠로 녹화되고 사용할 수 있습니다.
 
 <span class="preview">오프 사이클 기능(23.2 릴리스 날짜 이전에 프로덕션에 릴리스된 기능)은 노란색으로 강조 표시됩니다.</span>
 
@@ -30,6 +36,7 @@ ht-degree: 0%
 * [애자일 개선 사항](#agile-enhancements)
 * [프로젝트 관리 개선 사항](#project-management-enhancements)
 * [향상된 리소스 관리 기능](#resource-management-enhancements)
+* [모바일 개선 사항](#mobile-enhancements)
 * [기타 개선 사항](#other-enhancements)
 
 ### 관리자 개선 사항
@@ -50,7 +57,30 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">레이아웃 템플릿의 고정 항목 이름 바꾸기</span></a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">새 양식 디자이너를 사용하여 사용자 정의 양식 만들기</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span>
+                        <p>새 양식 디자이너에는 필드, 캔버스 및 필드 설정을 동시에 볼 수 있는 새로운 캔버스 스타일 작업 영역이 있습니다.</p>
+                        <p>새로운 양식 디자이너를 통해 다음과 같은 기능을 추가했습니다. 
+                        <ul>
+                        <li><strong>필드 복사</strong>: 이제 캔버스에서 직접 필드의 복사 아이콘을 클릭하여 기존 필드를 복사할 수 있습니다.</li>
+                        <li><strong>기본 섹션 사용</strong>: 양식 작성자가 양식의 맨 위에 섹션을 추가하지 않은 경우 이제 기본 섹션이 캔버스에 표시되므로 사용자가 사용자 정의 섹션이 할당되지 않은 필드에 대한 권한을 조정할 수 있습니다. </li>
+                        <li><strong>설명 텍스트 크기 변경</strong>: 이제 설명 텍스트 필드에 작은 크기, 중간 크기 또는 큰 크기를 할당할 수 있습니다. 같은 행에서 다른 필드와 함께 사용할 수도 있습니다. <span style="color: #ff0000;"> 설명 텍스트의 크기 변경이 일시적으로 지연되었지만 곧 제공될 예정입니다.</span></li> 
+                        </ul>
+                        </p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2023년 3월 9일<br /></p>
+                            </li>
+                            <li>
+                                 <p>프로덕션 릴리스: 23.2 릴리스 포함</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">레이아웃 템플릿의 고정 항목 이름 바꾸기</span></a>
                         </span></a><p>이제 고정된 페이지에 기본 이름을 사용하는 대신 사용자에게 더 의미 있도록 레이아웃 템플릿에서 고정 항목의 이름을 변경할 수 있습니다. 관리자가 만드는 핀은 레이아웃 템플릿에 할당된 모든 사용자에 대해 표시되며 사용자는 그러한 핀의 이름을 바꿀 수 없습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -82,26 +112,26 @@ ht-degree: 0%
                         <p><span class="bold">릴리스 날짜</span>
                         </p>
                     </td>
-                </tr><!--
+                </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-27.md" class="MCXref xref" xrefformat="{para}">Add tasks and issues to Workfront Boards from lists and reports</a><span style="color: #ff0000;"> New in Preview!</span></p>
-                        <p>You can now add existing tasks or issues to a Workfront board directly from a list or report view. Any items you add to the board will become connected cards.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">목록 및 보고서에서 Workfront 보드에 작업 및 문제 추가</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p>
+                        <p>이제 목록 또는 보고서 보기에서 기존 작업 또는 문제를 Workfront 보드에 직접 추가할 수 있습니다. 보드에 추가한 모든 항목은 연결된 카드가 됩니다.</p>
                     </td>
-                    <td><p><b>Available on these dates:</b></p>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: March 2, 2023<br /></p>
+                                <p>미리보기 릴리스: 2023년 3월 2일<br /></p>
                             </li>
                             <li>
-                                <p>Production release: With the 23.2 release</p>
+                                <p>프로덕션 릴리스: 23.2 릴리스 포함</p>
                             </li>
                         </ul>
                     </td>
-                </tr>-->
+                </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-20.md" class="MCXref xref" xrefformat="{para}">보드에 연결된 카드에 시간 기록</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">보드에 연결된 카드에 시간 기록</a></p>
                         <p>이제 작업 또는 문제와 같은 방식으로 연결된 카드에 시간을 기록할 수 있습니다. 시간을 기록하려면 작업 또는 문제에 대한 올바른 권한이 있어야 합니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -118,7 +148,7 @@ ht-degree: 0%
                 </tr>
               <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">카드의 필드 표시 사용자 지정</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">카드의 필드 표시 사용자 지정</a></p>
                         <p>이제 카드를 열 때의 전체 보기와 보드의 압축된 카드 보기 모두에서 카드에 표시할 필드를 사용자 정의할 수 있습니다. 필드를 비활성화하면 두 보기 중 하나에 필드가 표시되지 않습니다. 전체 보기에서 필드를 활성화하고 압축된 보기에서 숨길 수도 있습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -135,7 +165,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">보드 열로 이동된 카드의 기본 상태 정의</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">보드 열로 이동된 카드의 기본 상태 정의</a></p>
                         <p>이제 열 정책에서 사용자 지정 상태 및 시스템 상태를 선택하여 특정 열로 이동된 카드에 적용할 기본 상태를 설정할 수 있습니다. 카드를 열로 이동하면 Workfront은 먼저 사용자 지정 상태(예: 피드백 대기 중)를 적용하려고 합니다. 해당 카드에 대해 사용자 정의 상태를 사용할 수 없는 경우 Workfront이 시스템 상태를 대신 적용합니다(예: 보류 중). 또한 연결된 작업 또는 문제의 상태가 열 정책에 설정된 사용자 지정 또는 시스템 상태로 변경되면 카드가 자동으로 열로 이동됩니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -152,7 +182,7 @@ ht-degree: 0%
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">이제 Adobe Workfront 보드에서 컬렉션을 사용할 수 있습니다.</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">이제 Adobe Workfront 보드에서 컬렉션을 사용할 수 있습니다.</a></p>
                         <p>이제 보드 대시보드에서 컬렉션을 만들 수 있습니다. 컬렉션은 작업에 대한 공동 작업을 위한 게시판 그룹입니다. 컬렉션 이름을 지정한 후에는 열 이름과 같은 사전 정의된 설정을 제공하는 템플릿 집합을 사용하여 컬렉션에 보드를 추가할 수 있습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -169,7 +199,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md" class="MCXref xref" xrefformat="{para}">연결된 카드의 예상 필드가 Workfront 오브젝트의 스토리 포인트 필드에 매핑됨</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">연결된 카드의 예상 필드가 Workfront 오브젝트의 스토리 포인트 필드에 매핑됨</a></p>
                         <p>이제 Workfront 보드의 연결된 카드에 있는 예상 필드가 연결된 Workfront 개체의 스토리 포인트 필드에 매핑됩니다. </p>
                         <p>새 스토리 포인트 필드는 작업 또는 문제에 대한 목록 또는 보고서의 보기에 추가할 수 있는 편집 가능한 자유 형식 필드입니다. 계획된 시간 또는 팀 할당에 연결되지 않습니다.</p>
                     </td>
@@ -187,7 +217,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md" class="MCXref xref" xrefformat="{para}">접수 열의 카드 미리 보기</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">접수 열의 카드 미리 보기</a></p>
                         <p>이제 접수 열에서 연결된 카드를 클릭하여 해당 컨텐츠의 보기 전용 버전을 볼 수 있습니다. 카드를 접수 열에서 보드의 다른 열로 이동할 때까지 카드 내용을 편집할 수 없습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -223,7 +253,23 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront에서 일반적으로 사용할 수 있는 향상된 필터 경험<span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">프로젝트를 일괄적으로 편집할 때의 새로운 경험</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span>
+                        <p>Workfront 경험의 모양과 느낌을 업데이트하는 과정에서 여러 프로젝트를 동시에 편집할 때 프로젝트 편집 상자를 일괄적으로 다시 디자인했습니다. 프로젝트 목록에서 여러 프로젝트를 동시에 선택할 때 새 프로젝트 편집 상자에 액세스할 수 있습니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2023년 3월 9일<br /></p>
+                            </li>
+                            <li>
+                                 <p><span class="preview">프로덕션 릴리스: 3월 23일부터 2023년 5월 11일에 완료되는 단계별 롤아웃 상태로 프로덕션에 릴리스됩니다</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront에서 일반적으로 사용할 수 있는 향상된 필터 경험</a>
                         <p>향상된 필터 경험은 일반적으로 사용할 수 있으며 2023년 3월 2일 미리보기에서 표준 필터 빌더가 됩니다. 3월 2일부터 프로덕션 단계적 롤아웃이 시작되며, 23.2 릴리스의 모든 고객이 이용할 수 있습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -239,7 +285,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">프로젝트를 복사할 때 예산 시간 복사</a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">프로젝트를 복사할 때 예산 시간 복사</a>
                         <p>이제 프로젝트를 복사할 때 비즈니스 사례 또는 리소스 플래너의 리소스 예산 책정된 시간을 복사할 수 있습니다. 이 개선 이전에는 프로젝트 예산 시간이 복사된 프로젝트로 전송되지 않았습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -274,7 +320,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">작업 시간 필드를 도입하여 사용자 용량을 정확하게 계산</a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-resource-management-enhancements.md" class="MCXref xref" xrefformat="{para}">작업 시간 필드를 도입하여 사용자 용량을 정확하게 계산</a>
                         <p>리소스 관리자가 사용자의 가용성을 정확하게 계산하고 사용자가 실제 프로젝트 관련 작업에 투입하는 시간을 고려할 수 있도록 Adobe Workfront에 작업 시간 개념을 도입하고 있습니다.</p>
                         <p>프로필을 만들거나 편집할 때 모든 사용자에 대한 작업 시간 필드의 값을 정의할 수 있습니다.</p>
                     </td>
@@ -285,6 +331,42 @@ ht-degree: 0%
                             </li>
                             <li>
                                  <p><span class="preview">프로덕션 릴리스: 2023년 3월 2일(오프 사이클)</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+### 모바일 개선 사항
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">기능</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">릴리스 날짜</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">모바일 앱의 생체 인식 로그인 및 보드 컬렉션</span></a><span style="color: #ff0000;"> 곧 출시 예정!</span>
+                        <p>생체 인식 로그인은 이제 모바일 앱에 더 빨리 로그인할 수 있는 옵션입니다! 초기 로그인 후 생체인증이 설정되면 사용자는 지문 또는 안면인식을 활용해 수시 비밀번호 재인증만으로 앱에 빠르게 재로그인할 수 있게 된다. 또한 이후 업데이트에서 도착하는 일반 로그인 경험에 대한 많은 룩앤필 개선 사항이 있습니다.</p>
+                        <p>이제 보드 컬렉션도 모바일 앱에서 지원되므로 모바일 사용자는 모바일 보드 목록에서 데스크탑 버전에서 액세스할 수 있는 모든 컬렉션을 볼 수 있습니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 해당 사항 없음<br /></p>
+                            </li>
+                            <li>
+                                 <p>프로덕션 릴리스: 2023년 3월 13일 Apple App Store 및 Google Play 스토어에서 사용 가능</p>
                             </li>
                         </ul>
                     </td>
@@ -310,7 +392,46 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront for XD에서 대지를 단일 PDF 또는 여러 PDF 파일로 내보내기</span></a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">완전히 새로운 고객은 통합 경험 Adobe에 온보딩됩니다</a><span style="color: #ff0000;"> 곧 출시 예정!</span></p>
+                        <p>통합 경험 Adobe은 다음을 포함합니다.
+                        <ul>
+                        <li>Adobe Experience Cloud을 통한 모든 Adobe 애플리케이션에 대한 단일 로그인</li>
+                        <li>Workfront 조직과 환경 사이를 이동하는 "조직 전환기"</li>
+                        <li>Workfront 페이지, Adobe Experience Cloud 환경 설정 및 Workfront 프로필에 대한 옵션을 사용하여 탐색</li>
+                        </ul>
+                        </p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 해당 사항 없음<br /></p>
+                            </li>
+                            <li>
+                                <p>프로덕션 릴리스: 2023년 3월 중순부터 후반</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">통합 경험의 사용자를 위해 새 탭에서 증명 뷰어가 열립니다</a><span style="color: #ff0000;"> 곧 출시 예정!</span></p>
+                        <p>이제 통합 경험의 사용자를 위한 새 탭에서 증명 뷰어가 열립니다.
+                        </p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 해당 사항 없음<br /></p>
+                            </li>
+                            <li>
+                                <p>프로덕션 릴리스: 2023년 3월 중순부터 후반</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront for XD에서 대지를 단일 PDF 또는 여러 PDF 파일로 내보내기</span></a>
                         </span></a><p>이제 Adobe Workfront for XD 플러그인에서 대지를 단일 PDF 파일 또는 여러 PDF 파일로 내보내도록 선택할 수 있습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -380,6 +501,10 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/
 ### Workfront에서 곧 제거될 기능
 
 다음 기능은 곧 Workfront에서 제거될 예정입니다.
+
+#### **대시보드 외부 페이지는 더 이상 대시보드 URL을 지원하지 않습니다**
+
+대시보드 안정성 및 로드 시간을 개선하기 위해 대시보드의 외부 페이지에서 더 이상 대시보드 URL을 참조할 수 없게 됩니다. 대시보드를 참조하는 외부 페이지가 포함된 계정의 시스템 관리자는 이 변경 사항을 알리기 위해 인앱 알림을 받게 됩니다. 자세한 내용은 [대시보드에 외부 페이지 포함](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
 #### **Workfront 기본 API 변경 사항**
 
