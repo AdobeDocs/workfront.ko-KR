@@ -6,7 +6,7 @@ description: Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편�
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: baaaec2087c692ced0d60c9e4ceb86ee94c1d659
+source-git-commit: c8acabde5f4c2588dada4378ff85ff9876681d59
 workflow-type: tm+mt
 source-wordcount: '7664'
 ht-degree: 2%
@@ -64,6 +64,7 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
  </tbody> 
 </table>
 -->
+
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -230,10 +231,10 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
      <tr> 
       <td role="rowheader"><strong>상태 유형</strong> </td> 
       <td> <p>다음 조건 유형 중에서 선택합니다. 
-        <ul> 
-         <li><strong>수동:</strong> 프로젝트 소유자는 프로젝트에 대한 조건을 수동으로 설정합니다.</li> 
-         <li><strong>진행 상태:</strong> Workfront은 중요 경로에 있는 작업의 진행 상태를 기반으로 조건을 자동으로 설정합니다. 진행 상태 파악에 대한 자세한 내용은 <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">작업 진행 상태 개요</a>.</li> 
-        </ul><p>Workfront 관리자<span> 또는 그룹 관리자</span> 시스템의 프로젝트 상태를 계산하는 방법에 대한 기본값을 선택합니다. <span>또는 내 그룹</span>. 프로젝트 기본값 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">시스템 전체 프로젝트 환경 설정 구성</a>. </p></p> </td> 
+       <ul> 
+       <li><strong>수동:</strong> 프로젝트 소유자는 프로젝트에 대한 조건을 수동으로 설정합니다.</li> 
+       <li><strong>진행 상태:</strong> Workfront은 중요 경로에 있는 작업의 진행 상태를 기반으로 조건을 자동으로 설정합니다. 진행 상태 파악에 대한 자세한 내용은 <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">작업 진행 상태 개요</a>.</li> 
+       </ul><p>Workfront 관리자<span> 또는 그룹 관리자</span> 시스템의 프로젝트 상태를 계산하는 방법에 대한 기본값을 선택합니다. <span>또는 내 그룹</span>. 프로젝트 기본값 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">시스템 전체 프로젝트 환경 설정 구성</a>. </p></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>상황</strong> </td> 
@@ -242,10 +243,10 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
      <tr> 
       <td role="rowheader"><strong>일정 모드</strong> </td> 
       <td> <p>프로젝트를 시작 일자에서 예약할지 또는 완료 일자에서 예약할지 지정합니다. 이 선택은 프로젝트에 대한 작업의 계획된 일자를 결정합니다. 
-        <ul> 
-         <li><strong>시작일</strong>: 프로젝트의 첫 번째 작업에 기본적으로 프로젝트와 계획된 시작 일자가 동일합니다. 작업 계획 시작 일자에 대한 자세한 내용은 <a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">작업 계획 시작 일자 개요</a>. 프로젝트 타임라인은 모든 작업의 기간을 기반으로 프로젝트의 시작 일자와 완료 일자에서 계산됩니다. </li> 
-         <li><strong>완료 일자</strong>: 프로젝트의 마지막 작업이 프로젝트와 동일한 계획된 완료 일자를 갖습니다. 프로젝트 타임라인은 완료 일자에서 계산되며 프로젝트 시작 일자는 시스템이 프로젝트의 완료 일자에서 모든 작업의 기간을 빼서 계산합니다. </li> 
-        </ul><p>Workfront 관리자<span> 또는 그룹 관리자</span> 시스템 또는 그룹에 대한 기본 예약 모드 설정을 선택합니다. 프로젝트 기본값 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">시스템 전체 프로젝트 환경 설정 구성</a>.</p></p> </td> 
+       <ul> 
+       <li><strong>시작일</strong>: 프로젝트의 첫 번째 작업에 기본적으로 프로젝트와 계획된 시작 일자가 동일합니다. 작업 계획 시작 일자에 대한 자세한 내용은 <a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">작업 계획 시작 일자 개요</a>. 프로젝트 타임라인은 모든 작업의 기간을 기반으로 프로젝트의 시작 일자와 완료 일자에서 계산됩니다. </li> 
+       <li><strong>완료 일자</strong>: 프로젝트의 마지막 작업이 프로젝트와 동일한 계획된 완료 일자를 갖습니다. 프로젝트 타임라인은 완료 일자에서 계산되며 프로젝트 시작 일자는 시스템이 프로젝트의 완료 일자에서 모든 작업의 기간을 빼서 계산합니다. </li> 
+       </ul><p>Workfront 관리자<span> 또는 그룹 관리자</span> 시스템 또는 그룹에 대한 기본 예약 모드 설정을 선택합니다. 프로젝트 기본값 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">시스템 전체 프로젝트 환경 설정 구성</a>.</p></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>계획된 시작 일자 및 시간</strong> </td> 
@@ -266,10 +267,10 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
      <tr> 
       <td role="rowheader"><strong>그룹</strong></td> 
       <td> <p> <p>프로젝트와 연계된 그룹의 이름을 지정합니다. </p>필수 필드입니다. 그룹과 연결되지 않은 프로젝트는 가질 수 없습니다. </p> <p>마우스로 가리키고 정보 아이콘을 클릭하여 올바른 그룹을 선택하는지 확인할 수 있습니다 <img src="assets/info-icon.png"> 옆에 표시됩니다. 그룹 및 해당 관리자의 상위 그룹 계층과 같은 그룹에 대한 정보를 나열하는 도구 설명이 표시됩니다.</p> 기본적으로 다음 그룹 중 하나는 다른 그룹을 지정하지 않는 한 프로젝트를 만들 때 자동으로 연결됩니다.</p> 
-        <ul> 
-         <li> <p><span>프로젝트 영역에서 프로젝트를 만들면 프로젝트 작성자의 홈 그룹이 프로젝트와 연결됩니다.</span> </p> <p>이는 포트폴리오 또는 프로그램의 프로젝트 섹션에서 프로젝트를 만드는 경우에도 마찬가지입니다.</p> </li> 
-         <li> <p>프로젝트를 설정 영역의 그룹 기본 페이지에서 만들면 해당 그룹이 프로젝트와 연결됩니다.</p> </li> 
-        </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> <p>프로젝트 또는 프로젝트 작업 또는 문제가 그룹 수준의 사용자 정의 상태를 사용하여 그룹 수준의 승인 프로세스와 이미 연결되어 있는 경우 그룹을 변경하면 이전 그룹의 승인 상태와 시스템 수준의 기존 승인 상태가 충돌할 수 있습니다. 그룹을 업데이트하기 전에 프로젝트에서 그룹 수준 승인 프로세스, 작업 또는 문제를 제거하는 것이 좋습니다. 그룹 수준 승인 프로세스를 만드는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">그룹 수준 승인 프로세스</a>. 그룹 수준 사용자 지정 상태 만들기에 대한 자세한 내용은 <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">그룹 상태 만들기 또는 편집</a></p> </td> 
+       <ul> 
+       <li> <p><span>프로젝트 영역에서 프로젝트를 만들면 프로젝트 작성자의 홈 그룹이 프로젝트와 연결됩니다.</span> </p> <p>이는 포트폴리오 또는 프로그램의 프로젝트 섹션에서 프로젝트를 만드는 경우에도 마찬가지입니다.</p> </li> 
+       <li> <p>프로젝트를 설정 영역의 그룹 기본 페이지에서 만들면 해당 그룹이 프로젝트와 연결됩니다.</p> </li> 
+       </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> <p>프로젝트 또는 프로젝트 작업 또는 문제가 그룹 수준의 사용자 정의 상태를 사용하여 그룹 수준의 승인 프로세스와 이미 연결되어 있는 경우 그룹을 변경하면 이전 그룹의 승인 상태와 시스템 수준의 기존 승인 상태가 충돌할 수 있습니다. 그룹을 업데이트하기 전에 프로젝트에서 그룹 수준 승인 프로세스, 작업 또는 문제를 제거하는 것이 좋습니다. 그룹 수준 승인 프로세스를 만드는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">그룹 수준 승인 프로세스</a>. 그룹 수준 사용자 지정 상태 만들기에 대한 자세한 내용은 <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">그룹 상태 만들기 또는 편집</a></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>회사</strong> </td> 
@@ -293,7 +294,7 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
 
    >[!TIP]
    >
-   >   프로젝트 소유자, 프로젝트 스폰서 및 리소스 관리자 필드를 업데이트할 때 아바타, 사용자의 기본 역할 또는 이메일 주소에 따라 이름이 동일한 사용자를 구별하십시오. 사용자를 추가할 때 이를 보려면 사용자를 하나 이상의 작업 역할과 연결해야 합니다.
+   >프로젝트 소유자, 프로젝트 스폰서 및 리소스 관리자 필드를 업데이트할 때 아바타, 사용자의 기본 역할 또는 이메일 주소에 따라 이름이 동일한 사용자를 구별하십시오. 사용자를 추가할 때 이를 보려면 사용자를 하나 이상의 작업 역할과 연결해야 합니다.
 
 1. (선택 사항) 수정할 정보에 따라 다음 섹션을 계속 편집합니다.
 
@@ -302,7 +303,6 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
    **저장**&#x200B;을 클릭합니다.
 
 ### 사용자 정의 양식 {#custom-forms}
-
 
 액세스 수준 및 프로젝트에 대한 권한에 따라 다음 시나리오가 존재합니다.
 
@@ -333,7 +333,7 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
 
    >[!NOTE]
    >
-   >   이 필드에서 사용자 정의 양식을 선택하려면 먼저 사용자 정의 양식을 작성해야 합니다. 활성 사용자 정의 양식만 목록에 표시됩니다. 사용자 정의 양식 작성에 대한 자세한 내용은 [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). 프로젝트에 최대 10개의 사용자 정의 양식을 추가할 수 있습니다.
+   >이 필드에서 사용자 정의 양식을 선택하려면 먼저 사용자 정의 양식을 작성해야 합니다. 활성 사용자 정의 양식만 목록에 표시됩니다. 사용자 정의 양식 작성에 대한 자세한 내용은 [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). 프로젝트에 최대 10개의 사용자 정의 양식을 추가할 수 있습니다.
 
 
 1. (조건부) 사용자 정의 양식을 프로젝트에 첨부한 경우 양식의 모든 필드를 편집합니다. 프로젝트를 저장하려면 모든 필수 필드를 지정해야 합니다.
@@ -514,17 +514,12 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
        <td> <p>프로젝트와 연계하려는 승인 프로세스를 선택합니다. 프로젝트와 연결하려면 먼저 Workfront 관리자가 시스템 수준 승인 프로세스를 정의해야 합니다. <span>승인 프로세스에 대한 관리 액세스 권한이 있는 사용자는 그룹별 승인 프로세스를 만들 수도 있습니다.</span> 승인 프로세스 만들기에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">작업 항목에 대한 승인 프로세스 만들기</a>.</p> <p>승인 프로세스를 추가할 때는 다음 사항을 고려하십시오. </p> 
        <ul> 
        <li>활성 승인 프로세스만 목록에 표시됩니다. </li> 
-       <li> <p>시스템 전체 및 그룹별 승인 프로세스가 목록에 표시됩니다. 프로젝트 그룹 이외의 그룹과 연결된 승인 프로세스가 목록에 표시되지 않습니다.</p> <p>프로젝트와 연계된 그룹이 변경되면 그룹별 승인 프로세스가 일회용 승인 프로세스가 됩니다. 프로젝트 그룹 또는 승인 프로세스 변경 사항이 승인 설정에 미치는 영향에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">그룹 및 승인 프로세스 변경이 할당된 승인 프로세스에 미치는 영향</a>. </p> </li>
-
-   <!--(NOTE: this bullet stays here although the sections it might appear in are QS only, so we can use the snippet for both Qs and classic)-->
-
-   <p>프로젝트를 대량 편집할 때 다음과 같은 시나리오가 있습니다.</p>
-
-   <ul> 
-   <li> <p>동일한 그룹에서 프로젝트를 선택하면 시스템 수준 및 그룹 수준 승인 프로세스가 모두 이 필드에 표시됩니다.</p> </li> 
-   <li> <p>다른 그룹에서 프로젝트를 선택하면 이 필드에는 시스템 수준 승인 프로세스만 표시됩니다.</p> </li> 
-   <li> <p>프로젝트에 일회용 승인 프로세스가 첨부되어 있으면 사용자가 선택한 시스템 수준 또는 그룹 수준 승인 프로세스로 바뀝니다. </p> </li> 
-   </ul> 
+       <li> <p>시스템 전체 및 그룹별 승인 프로세스가 목록에 표시됩니다. 프로젝트 그룹 이외의 그룹과 연결된 승인 프로세스가 목록에 표시되지 않습니다.</p> <p>프로젝트와 연계된 그룹이 변경되면 그룹별 승인 프로세스가 일회용 승인 프로세스가 됩니다. 프로젝트 그룹 또는 승인 프로세스 변경 사항이 승인 설정에 미치는 영향에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">그룹 및 승인 프로세스 변경이 할당된 승인 프로세스에 미치는 영향</a>. </p> </li> <!--(NOTE: this bullet stays here although the sections it might appear in are QS only, so we can use the snippet for both Qs and classic)-->
+       <p>프로젝트를 대량 편집할 때 다음과 같은 시나리오가 있습니다.</p> 
+       <ul> 
+       <li> <p>동일한 그룹에서 프로젝트를 선택하면 시스템 수준 및 그룹 수준 승인 프로세스가 모두 이 필드에 표시됩니다.</p> </li> 
+       <li> <p>다른 그룹에서 프로젝트를 선택하면 이 필드에는 시스템 수준 승인 프로세스만 표시됩니다.</p> </li> 
+       <li> <p>프로젝트에 일회용 승인 프로세스가 첨부되어 있으면 사용자가 선택한 시스템 수준 또는 그룹 수준 승인 프로세스로 바뀝니다. </p> </li> 
       </ul> </td> 
       </tr> 
       <tr> 
@@ -867,7 +862,7 @@ Workfront 관리자 또는 그룹 관리자가 레이아웃 템플릿을 수정�
 
    >[!CAUTION]
    >
-   >   사용자 정의 양식을 제거하면 양식에 있는 기존의 모든 사용자 정의 필드 정보가 손실됩니다. 복구할 수 없습니다.
+   >사용자 정의 양식을 제거하면 양식에 있는 기존의 모든 사용자 정의 필드 정보가 손실됩니다. 복구할 수 없습니다.
 
    사용자 정의 양식 편집에 대한 자세한 내용은 섹션을 참조하십시오 [사용자 지정 Forms](#custom-forms) 이 문서에서.
 
@@ -887,5 +882,3 @@ Workfront 관리자 또는 그룹 관리자가 레이아웃 템플릿을 수정�
 
 1. (선택 사항) **취소** 의 맨 아래에 **프로젝트 편집** 모든 프로젝트에 대한 모든 변경 사항을 제거하는 페이지입니다.
 1. **저장**&#x200B;을 클릭합니다.
-
-<div>
