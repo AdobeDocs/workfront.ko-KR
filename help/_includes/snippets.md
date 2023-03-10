@@ -1,5 +1,5 @@
 ---
-source-git-commit: e5aa29ba228cf29028b209e6600baa2cfac2d777
+source-git-commit: 7ef1d55a7d743d83bd4f6625252848442919b9f4
 workflow-type: tm+mt
 source-wordcount: '1548'
 ht-degree: 0%
@@ -118,7 +118,7 @@ Workfront 프로젝트에 있는 동안 사용자가 Experience Manager에 연�
 사용 중인 Adobe Creative Cloud 애플리케이션에 올바른 플러그인을 설치해야 합니다.
 * Photoshop의 경우 [Photoshop용 Adobe Workfront 설치](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
 * XD의 경우 [XD용 Adobe Workfront 설치](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
-* InDesign, Illustrator, Premiere Pro 및 After Effects에 대해서는 를 참조하십시오. [디자인 및 비디오용 Adobe Workfront 설치](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
+* InDesign, Illustrator, Premiere Pro 및 After Effects의 경우 다음을 참조하십시오. [디자인 및 비디오용 Adobe Workfront 설치](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
 
 ## CC Applications 목록 {#cc-app-list}
 
@@ -240,7 +240,7 @@ Workfront 프로젝트에 있는 동안 사용자가 Experience Manager에 연�
 
 ## 최신 DPV 버전 {#latest-version}
 
-**최신 버전**: 2023년 1월 11일 현재 2.1.20
+**최신 버전**: 2023년 3월 10일 현재 2.1.22
 
 <!-- Release -->
 
