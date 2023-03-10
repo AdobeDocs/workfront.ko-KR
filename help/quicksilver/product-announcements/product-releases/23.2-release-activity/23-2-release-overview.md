@@ -4,9 +4,9 @@ description: 23.2 릴리스 개요
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 51ea73c473105f1be1eaa6791ba5b09546fe9922
+source-git-commit: ac9155223c22f9872e300111d003fff51bbb4d49
 workflow-type: tm+mt
-source-wordcount: '2306'
+source-wordcount: '2307'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">새 양식 디자이너를 사용하여 사용자 정의 양식 만들기</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">새 양식 디자이너 Beta로 사용자 정의 양식 만들기</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span>
                         <p>새 양식 디자이너에는 필드, 캔버스 및 필드 설정을 동시에 볼 수 있는 새로운 캔버스 스타일 작업 영역이 있습니다.</p>
                         <p>새로운 양식 디자이너를 통해 다음과 같은 기능을 추가했습니다. 
                         <ul>

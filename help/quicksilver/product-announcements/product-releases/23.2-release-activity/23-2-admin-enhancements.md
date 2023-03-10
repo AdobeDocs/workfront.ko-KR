@@ -4,9 +4,9 @@ description: 23.2 관리자 개선 사항
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8a533ac04ce35625ed3e6ae5fc7be5148b497cc2
+source-git-commit: ac9155223c22f9872e300111d003fff51bbb4d49
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 23.2 릴리스 주기 내에서 이 시점에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [23.2 릴리스 개요](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
-## 새 양식 디자이너를 사용하여 사용자 정의 양식 만들기
+## 새 양식 디자이너 Beta로 사용자 정의 양식 만들기
 
-새 양식 디자이너에는 필드, 캔버스 및 필드 설정을 동시에 볼 수 있는 새로운 캔버스 스타일 작업 영역이 있습니다.
+이제 공개 베타에서 사용할 수 있는 새 양식 디자이너에는 필드, 캔버스 및 필드 설정을 모두 동시에 볼 수 있는 새로운 캔버스 스타일 작업 영역이 있습니다.
 
 새로운 양식 디자이너를 통해 다음과 같은 기능을 추가했습니다.
 
