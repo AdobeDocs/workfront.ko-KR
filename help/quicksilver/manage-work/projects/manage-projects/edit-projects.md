@@ -6,9 +6,9 @@ description: Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편�
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 5eddd7765dfafed24b67b58aaf6f6f0e8a4a96ee
+source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
 workflow-type: tm+mt
-source-wordcount: '7664'
+source-wordcount: '7666'
 ht-degree: 2%
 
 ---
@@ -786,7 +786,7 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
 
 <div class="preview">
 
-### 미리보기 환경에서 프로젝트 편집
+### 미리보기 환경에서 북의 프로젝트 편집
 
 미리보기 환경에서 프로젝트를 일괄적으로 편집할 때 다음 사항을 고려하십시오.
 

@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
-source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
+source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -109,9 +109,9 @@ Edit the first part, once they add more settings in the Res Management Preferenc
 
       Workfront은 Workfront 관리자가 다음을 선택할 때 다음 공식을 사용하여 사용자의 사용 가능한 시간을 계산합니다. [!UICONTROL 기본 일정]:
 
-      ```
-      User Available Hours = [([!UICONTROL Default Schedule] Hours - [!UICONTROL Exceptions]) * [!UICONTROL FTE] - Time off hours] * [!UICONTROL Work Time]
-      ```
+
+      `User Available Hours = [([!UICONTROL Default Schedule] Hours - [!UICONTROL Exceptions]) * [!UICONTROL FTE] - Time off hours] * [!UICONTROL Work Time]`
+
 
       >[!INFO]
       >
@@ -120,9 +120,7 @@ Edit the first part, once they add more settings in the Res Management Preferenc
       >사용자에게 하루 1시간의 휴무가 있는 경우 사용 가능한 시간은 다음과 같이 계산됩니다.
       >
       >
-      ```
-      >User Available Hours = [(40 - 0) * 0.5) - 1] * 0.5 = 9.5 hours
-      >```
+      >`User Available Hours = [((40 - 0) * 0.5) - 1] * 0.5 = 9.5 hours`
 
       <!--This used to be the calculation before we implemented the Work Time field: 
     
@@ -166,15 +164,15 @@ Edit the first part, once they add more settings in the Res Management Preferenc
 
       사용자의 가용 시간은 다음 공식에 의해 계산됩니다.
 
-      ```
-      User Available Hours = (Hours from the [!UICONTROL Schedule] of the User - Schedule Exceptions - Time off hours) * [!UICONTROL Work Time]
-      ```
+
+      `User Available Hours = (Hours from the [!UICONTROL Schedule] of the User - Schedule Exceptions - Time off hours) * [!UICONTROL Work Time]`
+
 
       사용 가능한 [!UICONTROL FTE] 사용자의 경우 다음 공식에 의해 계산됩니다.
 
-      ```
-      User Available [!UICONTROL FTE] = [(Hours from the [!UICONTROL Schedule] of the User - Schedule Exceptions - Time off hours) * [!UICONTROL Work Time]] / [!UICONTROL Default Schedule] hours
-      ```
+
+      `User Available [!UICONTROL FTE] = [(Hours from the [!UICONTROL Schedule] of the User - Schedule Exceptions - Time off hours) * [!UICONTROL Work Time]] / [!UICONTROL Default Schedule] hours`
+
 
       >[!INFO]
       >
@@ -183,9 +181,7 @@ Edit the first part, once they add more settings in the Res Management Preferenc
       >사용자가 하루 2시간의 휴무를 사용하는 경우 해당 주별 사용 가능 [!UICONTROL FTE] 는 다음과 같이 계산됩니다.
       >
       >
-      ```
-      >User Weekly Available [!UICONTROL FTE] = [(30-2) * 0.5] / 40 = 0.35
-      >```
+      >`User Weekly Available [!UICONTROL FTE] = [(30-2) * 0.5] / 40 = 0.35`
 
       <!--This used to be the calculation before we implemented the Work Time field: 
       
