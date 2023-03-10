@@ -8,9 +8,9 @@ author: Becky, Caroline
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 15aa025c9a35e30867f942047ec1989fdd6834e5
+source-git-commit: 1290b29ce816673ffc678a1991aea16f0cf5e83f
 workflow-type: tm+mt
-source-wordcount: '2517'
+source-wordcount: '1474'
 ht-degree: 0%
 
 ---
@@ -84,9 +84,44 @@ ht-degree: 0%
 >* 사용자는 를 통해 동일한 사이트, 컬렉션, 폴더, 하위 폴더 및 파일에 액세스할 수 있습니다 [!DNL Workfront] [!DNL SharePoint] 에 있는 것과 같은 통합 [!DNL SharePoint] 계정입니다.
 
 
-## 문서에 대한 지속적인 액세스를 위해 레거시 SharePoint 통합 구성
+## 에 대한 보안, 액세스 및 인증 정보 [!DNL SharePoint] 통합
 
-기존 SharePoint 통합을 통해 사용자가 Workfront에 연결된 문서에 계속 액세스할 수 있도록 하려면 기존 SharePoint 통합에 대한 액세스를 다시 구성하고 SharePoint 클라이언트 보안을 최신 상태로 유지해야 합니다.
+### 인증 및 권한 부여
+
+[!DNL Workfront] 는 OAuth2를 사용하여 액세스 토큰 및 새로 고침 토큰을 검색합니다. 이 액세스 토큰은 모두와의 인증에 사용됩니다. [!DNL SharePoint] 영역.
+
+### 액세스 및 권한
+
+사용자가에 문서를 처음 추가할 때 [!DNL Workfront] 출처: [!DNL SharePoint], 다음 권한을 요청하는 화면으로 이동합니다.
+
+| 액세스 | 이유 |
+|---|---|
+| 파일에 대한 전체 액세스 권한 보유 | 허용 [!DNL Workfront] 를 클릭하여 사용자의 파일에 액세스하여 에셋을 연결합니다. 문서를 보낼 때 [!DNL Workfront] 끝 [!DNL SharePoint], [!DNL Workfront] 에셋을 만들려면 액세스 권한이 필요합니다. |
+| 모든 사이트 모음의 항목 읽기 | 허용 [!DNL Workfront] 에셋을 읽어 사용자 탐색을 활성화합니다. |
+| 모든 사이트 모음의 항목 편집 또는 삭제 | 허용 [!DNL Workfront] 를 클릭하여 사이트 및 사이트 모음에 자산을 만듭니다. 삭제는 실패한 링크 시도 후 정리할 때만 사용됩니다. |
+| 액세스 권한을 부여한 데이터에 대한 액세스 유지 | 허용 [!DNL Workfront] 새로 고침 토큰을 생성합니다. |
+| 로그인 및 사용자 프로필 읽기 | 허용 [!DNL Workfront] OAuth2 로그인 플로우를 통해 액세스 토큰을 사용하여 사용자를 대신하여 작업을 수행합니다. |
+
+이 액세스 권한은 사용자가 통합을 처음 사용할 때 부여되며 언제든지 취소할 수 있습니다.
+
+액세스 권한과 관련하여 다음 사항을 고려하십시오. [!DNL SharePoint] 다음을 통해 [!DNL Workfront] [!DNL SharePoint] 통합:
+
+* [!DNL Workfront] 는 통합에서 작업을 수행하는 데 필요한 최소 액세스를 요청합니다.
+* 보기, 편집 또는 삭제 액세스 권한 [!DNL Adobe Workfront] 문서 연결 대상 [!DNL SharePoint] 에서 사용자의 액세스 권한을 기반으로 합니다. [!DNL Workfront]. 단, 탐색, 다운로드 또는 편집 [!DNL SharePoint] 파일 또는 폴더에 대한 액세스 권한 필요 [!DNL SharePoint], 그리고 이러한 작업에 대한 액세스는 [!DNL SharePoint].
+* 사용자는 썸네일을 보고 다음에서 가져온 이미지를 미리 볼 수 있습니다. [!DNL SharePoint]에서 파일 및 폴더 이름을 볼 수 있습니다 [!DNL SharePoint], 로그인하지 않음 [!DNL SharePoint].
+* 사용자의 액세스 토큰은 사용자가 오프라인 상태이고 다른 사용자가 연결된 폴더의 컨텐츠를 볼 때만 사용됩니다. [!DNL Workfront]. 액세스 토큰은 폴더의 문서가 추가, 제거 또는 편집되었는지 확인하는 데 사용됩니다.
+
+### 보안
+
+간의 모든 통신 [!DNL Workfront] 및 [!DNL SharePoint] 은 정보를 암호화하는 HTTPS를 통해 수행됩니다.
+
+[!DNL Workfront] 에서 데이터를 저장, 복사 또는 복제하지 않음 [!DNL SharePoint]. 유일한 예외는 [!DNL Workfront] 에서 축소판 저장 [!DNL SharePoint] 를 클릭하여 목록 보기 및 미리 보기에 표시합니다.
+
+에셋이에 처음 업로드된 경우 [!DNL Workfront]를 참조한 다음 (으)로 전송됨 [!DNL SharePoint], [!DNL Workfront] 는 사용자가 이전 버전의 를 다운로드할 수 있으므로 첫 번째 파일에 대한 데이터를 유지합니다. [!DNL Workfront] 문서. 문서를 만든 위치: [!DNL SharePoint], [!DNL Workfront] 는 해당 파일 데이터를 저장하지 않습니다.
+
+## 레거시 구성 [!DNL SharePoint] 문서에 대한 지속적인 액세스를 위한 통합
+
+사용자가 레거시를 통해 Workfront에 연결된 문서에 계속 액세스할 수 있도록 합니다 [!DNL SharePoint] 통합하려면 기존 액세스를 다시 구성해야 합니다. [!DNL SharePoint] 통합하고 SharePoint 클라이언트 암호를 최신 상태로 유지합니다.
 
 * [레거시 액세스 재구성 [!DNL SharePoint] 통합](#reconfigure-access-to-the-legacy-dnl-sharepoint-integration)
 * [레거시 액세스를 계속할 수 있도록 클라이언트 암호 구성 [!DNL SharePoint] 통합](#configure-the-client-secret-for-continued-access-to-the-legacy-dnl-sharepoint-integration)
@@ -130,213 +165,220 @@ ht-degree: 0%
 1. 새 클라이언트 암호를 **[!UICONTROL 클라이언트 암호]** 필드.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
+<!--
 
-
-## 기존 SharePoint 통합 설정 지침
+## Instructions for setting up the legacy SharePoint integration
 
 >[!IMPORTANT]
 >
->이 통합은 더 이상 사용되지 않습니다. 여기서의 지침은 정보용이며 곧 제거될 예정입니다.
+>This integration has been deprecated. The instructions here are for information only and will be removed in the near future.
 
 
-Workfront은에 연결합니다. [!DNL SharePoint] 사용자의 인증 및 권한 부여를 위해 대부분의 웹 기반 통합에서 사용하는 표준인 OAuth 2.0을 사용하는 온라인.
+Workfront connects to [!DNL SharePoint] Online using OAuth 2.0, a standard used by most web-based integrations for the authentication and authorization of users.
 
-OAuth를 구성하려면 다음을 생성해야 합니다. [!DNL SharePoint] 사이트 및 사이트 앱 [!DNL SharePoint]. 이 프로세스는 다음 섹션에 설명되어 있습니다.
+To configure OAuth, you need to create a [!DNL SharePoint] site and a Site App within [!DNL SharePoint]. This process is described in the following sections.
 
-OAuth에 대한 자세한 내용은 [http://oauth.net](http://oauth.net/).
+For more information about OAuth, see [http://oauth.net](http://oauth.net/).
 
 >[!TIP]
 >
->다음 사이에 정보를 쉽게 복사하여 붙여넣을 수 있도록 지원 [!DNL Workfront] 및 [!DNL SharePoint] 이 단계에서는 두 응용 프로그램을 별도의 탭에서 열어 두는 것이 좋습니다.
+>To make it easy to copy and paste information between [!DNL Workfront] and [!DNL SharePoint] in these steps, we recommend keeping both applications open in separate tabs.
 
-* [만들기 및 구성 [!DNL SharePoint] 사이트](#create-and-configure-a-sharepoint-site)
-* [사이트 앱에 쓰기 권한 부여](#grant-write-permissions-to-the-site-app)
-* [만들기 [!DNL Workfront] [!DNL SharePoint] 통합 인스턴스](#create-a-workfront-sharepoint-integration-instance)
-* [통합 완료](#complete-your-integration)
-* [문서 추가](#add-documents)
+* [Create and configure a [!DNL SharePoint] site](#create-and-configure-a-sharepoint-site) 
+* [Grant write permissions to the site app](#grant-write-permissions-to-the-site-app) 
+* [Create a [!DNL Workfront] [!DNL SharePoint] integration instance](#create-a-workfront-sharepoint-integration-instance) 
+* [Complete your integration](#complete-your-integration) 
+* [Add documents](#add-documents)
 
-### 만들기 및 구성 [!DNL SharePoint] 사이트  {#create-and-configure-a-sharepoint-site}
+### Create and configure a [!DNL SharePoint] site  {#create-and-configure-a-sharepoint-site}
 
-주문 [!DNL Workfront] 을(를) 통해 인증 [!DNL SharePoint], [!DNL Workfront] 를 사용하는 마스터 사이트를 사용할 수 있습니다. [!UICONTROL 전체 제어] 권한 수준 또는 특정 관리 권한. 이 마스터 사이트는 의 인증 진입점 역할을 합니다. [!DNL Workfront].
+In order for [!DNL Workfront] to authenticate with [!DNL SharePoint], [!DNL Workfront] ca use a master site where users have the [!UICONTROL Full Control] permission level or specific Manage permissions. This master site acts as an Authentication Entry Point for [!DNL Workfront].
 
-을(를) 만들고 구성하려면 [!DNL SharePoint] 사이트:
+To create and configure a [!DNL SharePoint] Site:
 
-1. (선택 사항) 조직의 루트 사이트를 사용하지 않으려면에서 마스터 사이트를 만들 수 있습니다. [!DNL SharePoint].
+1. (Optional) If you do not want to use your organization's root site, you can create a master site in [!DNL SharePoint].
 
-   자세한 내용은 다음을 참조하십시오. [사이트 만들기](https://docs.microsoft.com/en-us/sharepoint/create-site-collection) 다음에서 [!DNL Microsoft] 설명서입니다.
+   For instructions, visit [Create a site](https://docs.microsoft.com/en-us/sharepoint/create-site-collection) in the [!DNL Microsoft] Documentation.
 
-   * 다음 항목 선택 **[!UICONTROL 팀 사이트]** 옵션을 사용하여 사이트를 만들 수 있습니다.
+   * Select the **[!UICONTROL Team Site]** option when creating the site.
 
-1. (조건부) 1단계에서 사이트를 만든 경우 방금 만든 사이트로 이동합니다.
+1. (Conditional) If you created a site in step 1, go to the site you just created.
 
-   또는
+   Or
 
-   1단계에서 사이트를 만들지 않은 경우 조직의 루트 사이트로 이동합니다.
+   If you did not create a site in step 1, go to your organization's root site.
 
-1. 추가 `/_layouts/15/appregnew.aspx` 을 클릭하여 브라우저 창의 맨 위에 있는 검색 막대에서 URL의 끝으로 이동합니다.
-1. 다음 필드를 구성합니다.
+1. Add `/_layouts/15/appregnew.aspx` to the end of the URL in the search bar at the top of your browser window.
+1. Configure the following fields:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p>[!UICONTROL 클라이언트 ID]</p> </td> 
-      <td> <p>클릭 <strong>[!UICONTROL Generate]</strong> 클라이언트 ID를 생성합니다. 이 ID를 보안 위치에 복사합니다. 나중에 를 설정할 때 사용합니다. [!DNL SharePoint] 통합 위치 [!DNL Workfront].</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL Client ID]</p> </td> 
+      <td> <p>Click <strong>[!UICONTROL Generate]</strong> to generate a Client ID. Copy this ID to a secure location. You will use it later when you set up the [!DNL SharePoint] integration in [!DNL Workfront].</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>[!UICONTROL 클라이언트 암호]</p> </td> 
-      <td> <p>클릭 <strong>[!UICONTROL Generate]</strong> 클라이언트 암호를 생성합니다. 이 암호를 안전한 위치에 복사합니다. 나중에 를 설정할 때 사용합니다. [!DNL SharePoint] 통합 위치 [!DNL Workfront].</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL Client Secret]</p> </td> 
+      <td> <p>Click <strong>[!UICONTROL Generate]</strong> to generate a Client Secret. Copy this Secret to a secure location. You will use it later when you set up the [!DNL SharePoint] integration in [!DNL Workfront].</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>제목</p> </td> 
-      <td> <p>다음과 같은 제목 입력 [!DNL Workfront] 사이트 앱. 문서를 추가할 때 이 제목이 표시됩니다.</p> </td> 
+      <td role="rowheader"> <p>Title</p> </td> 
+      <td> <p>Enter a title, such as [!DNL Workfront] Site App. Users see this title when adding documents..</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>[!UICONTROL 앱 도메인]</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL App Domain]</p> </td> 
       <td> <p><code>my.workfront.com</code> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>[!UICONTROL 리디렉션 URI]</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL Redirect URI]</p> </td> 
       <td> <p><code>https://oauth.my.workfront.com/oauth2/redirect</code> </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
 1. Click **[!UICONTROL Create]**
-1. 계속 [사이트 앱에 쓰기 권한 부여](#grant-write-permissions-to-the-site-app).
+1. Continue to [Grant write permissions to the site app](#grant-write-permissions-to-the-site-app).
 
-### 사이트 앱에 쓰기 권한 부여  {#grant-write-permissions-to-the-site-app}
+### Grant write permissions to the site app  {#grant-write-permissions-to-the-site-app}
 
-이 시점에서 사이트 앱을 정상적으로 만들고 다음 내에 등록했습니다. [!DNL Workfront]. 이 사이트 앱은에서 앱 주도자라고도 합니다. [!DNL SharePoint]. 테넌트 내에 있습니다. 새 사이트 앱은 테넌트 내의 사이트 모음에 자동으로 액세스할 수 없습니다. 각 사이트 모음에 대해 명시적으로 권한을 부여해야 합니다. 아래 단계에서는 사이트 모음에 새 사이트 앱에 쓰기 권한을 부여하는 방법을 보여 줍니다. 아래에 추가한 각 사이트 모음에 대해 이 단계를 반복합니다 [!UICONTROL 사이트 모음 표시] 위의 단계에서 다음을 수행합니다.
+At this point, you have successfully created a Site App and registered it within [!DNL Workfront]. This site app is also known as an app principal in [!DNL SharePoint]. It resides within your tenant. New site apps do not automatically have access to site collections within the tenant. Permissions must be granted explicitly, for each site collection. The steps below will show you how to grant Write permission to the new Site App a site collection. Repeat these steps for each of the site collections you added under [!UICONTROL Visible Site Collections] in the steps above.
 
-이 사이트 앱에는 다음이 있어야 합니다. [!UICONTROL 쓰기] 사용자가 액세스해야 하는 사이트 모음에 대한 권한 [!DNL Workfront].
+This site app must have [!UICONTROL Write] permission to any site collections that users need to access through [!DNL Workfront].
 
-1. 의 URL에 &#39;/_layouts/15/appinv.aspx&#39; 추가 [!DNL Sharepoint].
+1. Add '/_layouts/15/appinv.aspx' to the URL in [!DNL Sharepoint].
 
-   **예:**
+   **Example:**
 
    ```
    https://mycompany.sharepoint.com/sites/mysite/_layouts/15/appinv.aspx
    ```
 
-1. 다음 필드 구성
+1. Configure the following fields
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 앱 ID]</td> 
-      <td> <p>만든 클라이언트 ID를 추가합니다 <a href="#create-and-configure-a-sharepoint-site" class="MCXref xref">만들기 및 구성 [!DNL SharePoint] 사이트 </a>및 클릭 <strong>[!UICONTROL 조회]</strong>.</p> </td> 
+      <td role="rowheader">[!UICONTROL App ID]</td> 
+      <td> <p>Add the Client ID that you created in <a href="#create-and-configure-a-sharepoint-site" class="MCXref xref">Create and configure a [!DNL SharePoint] site </a>and click <strong>[!UICONTROL Lookup]</strong>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>[!UICONTROL Client] / [!UICONTROL App Domain] / [!UICONTROL 리디렉션 URL]</p> </td> 
-      <td> <p>[!UICONTROL 조회]를 클릭하면 자동으로 채워집니다.</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL Client] / [!UICONTROL App Domain] / [!UICONTROL Redirect URL]</p> </td> 
+      <td> <p>These automatically fill when you click [!UICONTROL Lookup].</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 권한 요청 XML]</td> 
-      <td> <p>다음 XML을 [!UICONTROL 권한 요청 XML] 필드에 복사합니다. 추가 공백 없이 표시된 대로 정확하게 추가되었는지 확인하십시오. 오류를 방지하기 위해.</p> 
+      <td role="rowheader">[!UICONTROL Permission Request XML]</td> 
+      <td> <p>Copy the following XML to the [!UICONTROL Permission Request XML] field. Make sure that it is added exactly as shown without additional spaces etc. in order to avoid errors.</p> 
       <div></a> 
       <div style="mc-code-lang: XML;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="False"> 
-       <pre></pre></div></div></td></tr></tbody></table>
+       <pre><code><span style="color: #63a35c; ">&lt;AppPermissionRequests&gt;</span><br><span style="color: #63a35c; ">&lt;AppPermissionRequest <span style="color: #795da3; ">Scope</span><span style="color: #df5000; ">="http://sharepoint/content/sitecollection/web"</span> <span style="color: #795da3; ">Right</span><span style="color: #df5000; ">="Write"</span>/&gt;</span><br><span style="color: #63a35c; ">&lt;/AppPermissionRequests&gt;</span></code></pre> 
+      </div> 
+      </div> </td> 
+     </tr> 
+    </tbody> 
+   </table>
 
-1. Click **[!UICONTROL Create]**.
-1. 표시되는 대화 상자에서 **[!UICONTROL 신뢰]**.
-1. 를 클릭하여 사이트 앱에서 사이트 모음에 액세스할 수 있는지 확인합니다. **[!UICONTROL 사이트 모음 앱 권한]** 링크 위치 [!UICONTROL 사이트 설정].
-1. 나머지 사이트 모음에 대해 위의 단계를 반복한 다음 을 사용하여 계속합니다. [만들기 [!DNL Workfront] [!DNL SharePoint] 통합 인스턴스](#create-a-workfront-sharepoint-integration-instance).
+1. Click **[!UICONTROL Create]**. 
+1. In the dialog that appears, click **[!UICONTROL Trust it]**.
+1. Verify that the site app has access to the site collection by clicking the **[!UICONTROL Site collection app permissions]** link in [!UICONTROL Site Settings].
+1. Repeat the steps above for the remaining site collections, then continue with [Create a [!DNL Workfront] [!DNL SharePoint] integration instance](#create-a-workfront-sharepoint-integration-instance).
 
-### 만들기 [!DNL Workfront] [!DNL SharePoint] 통합 인스턴스 {#create-a-workfront-sharepoint-integration-instance}
+### Create a [!DNL Workfront] [!DNL SharePoint] integration instance {#create-a-workfront-sharepoint-integration-instance}
 
-에서 사이트 앱을 만든 경우 [!DNL SharePoint], 이제 사이트 앱의 정보를 [!DNL Workfront]. 사이트 앱은 앱 주체로서 사이트 모음 내의 문서에 액세스하기 위해 OAuth 요청이 수행되는 통로 역할을 합니다.
+When you have created a site app in [!DNL SharePoint], you can now copy information from the site app into [!DNL Workfront]. The site app is an app principal and acts as the conduit through which OAuth requests are made to access documents within site collections.
 
-1. 에 로그인 [!DNL Workfront] 관리자입니다.
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 상단에서 을(를) 클릭한 다음 **[!UICONTROL 설정]** ![](assets/gear-icon-settings.png).
+1. Log into [!DNL Workfront] as an administrator.
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
 
-1. 왼쪽 패널에서 **[!UICONTROL 문서]** > **[!UICONTROL [!DNL SharePoint]통합]**.
-1. 클릭 **[!UICONTROL 추가[!DNL SharePoint]]**.
-1. 다음 필드를 구성합니다.
+1. In the left panel, click **[!UICONTROL Documents]** > **[!UICONTROL [!DNL SharePoint] Integration]**.
+1. Click **[!UICONTROL Add [!DNL SharePoint]]**.
+1. Configure the following fields:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p>[!UICONTROL 이름]</p> </td> 
-      <td> <p>에 대한 이름 입력 [!DNL SharePoint] 통합. 사용자가 [!UICONTROL Add] &gt; [!UICONTROL From] 'name of integration'을 클릭하면 이 이름이 표시됩니다. </p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL Name]</p> </td> 
+      <td> <p>Enter a name for the [!DNL SharePoint] integration. Users see this name when they click [!UICONTROL Add] &gt; [!UICONTROL From] 'name of integration'. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>[!UICONTROL [!DNL SharePoint] 호스트 인스턴스]</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL [!DNL SharePoint] Host Instance]</p> </td> 
       <td> <p><code>&lt;YourDomain&gt;.sharepoint.com</code> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>[!UICONTROL [!DNL Azure] 액세스 도메인]</p> </td> 
-      <td> <p><code>&lt;YourDomain&gt;.onmicrosoft.com</code> </p> <p>사용자가 을 통해 인증하는 데 사용할 기본 사이트를 나타냅니다. [!UICONTROL]과(와) 동일한 도메인일 수 있습니다. [!DNL SharePoint] 호스트 인스턴스].</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL [!DNL Azure] Access Domain]</p> </td> 
+      <td> <p><code>&lt;YourDomain&gt;.onmicrosoft.com</code> </p> <p>This refers to the Master Site that users will use to authenticate through. It is likely the same domain as the [!UICONTROL [!DNL SharePoint] Host Instance].</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>
       </p> </td> 
-      <td> <b>중요 사항</b> 사이트 모음은 레거시에서만 사용됩니다. [!DNL SharePoint] 통합.
+      <td> <b>Important</b> Site collections are used only in the Legacy [!DNL SharePoint] Integration.
        <ul> 
-        <li> <p><b>조직의 루트 사이트를 사용하는 경우</b><b>:</b> </p> <p>입력 <code>/</code></p> </li> 
-        <li> <p><b>마스터 사이트 및 하위 사이트를 사용하는 경우:</b> </p> <p><b>중요 사항</b>: [!DNL Microsoft SharePoint] 는 더 이상 하위 사이트 사용을 권장합니다.</p> <p>위의 섹션에서 만든 사이트 모음의 URL 줄기를 입력합니다.</p> <p>.com 뒤에 있는 URL의 섹션입니다.</p> <p>예: URL <code>https://mycompany.sharepoint.com/sites/mysite</code>, 줄기는 다음과 같습니다 <code>/sites/mysite</code>.</p> </li> 
+        <li> <p><b>If you are using your organization's root site</b><b>:</b> </p> <p>Enter <code>/</code></p> </li> 
+        <li> <p><b>If you are using a master site and subsites:</b> </p> <p><b>IMPORTANT</b>: [!DNL Microsoft SharePoint] no longer recommends the use of subsites.</p> <p>Enter the URL stem for the site collection that you created in the section above.</p> <p>This is the section of the URL after .com.</p> <p>Example: for the URL <code>https://mycompany.sharepoint.com/sites/mysite</code>, the stem would be <code>/sites/mysite</code>.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL [!DNL SharePoint] 클라이언트 ID]</td> 
-      <td>생성한 클라이언트 ID를 입력합니다 <a href="#create-and-configure-a-sharepoint-site" class="MCXref xref">만들기 및 구성 [!DNL SharePoint] 사이트 </a>.</td> 
+      <td role="rowheader">[!UICONTROL [!DNL SharePoint] Client ID]</td> 
+      <td>Enter the Client ID that you generated in <a href="#create-and-configure-a-sharepoint-site" class="MCXref xref">Create and configure a [!DNL SharePoint] site </a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL [!DNL SharePoint] 클라이언트 암호]</td> 
-      <td>에서 생성한 클라이언트 암호 입력 <a href="#create-and-configure-a-sharepoint-site" class="MCXref xref">만들기 및 구성 [!DNL SharePoint] 사이트 </a>.</td> 
+      <td role="rowheader">[!UICONTROL [!DNL SharePoint] Client Secret]</td> 
+      <td>Enter the Client Secret that you generated in <a href="#create-and-configure-a-sharepoint-site" class="MCXref xref">Create and configure a [!DNL SharePoint] site </a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 보이는 사이트 모음]</td> 
-      <td> <b>중요 사항</b> 사이트 모음은 레거시에서만 사용됩니다. [!DNL SharePoint] 통합.
+      <td role="rowheader">[!UICONTROL Visible Site Collections]</td> 
+      <td> <b>Important</b> Site collections are used only in the Legacy [!DNL SharePoint] integration.
        <ul> 
-        <li> <p><b> 조직의 루트 사이트를 사용하는 경우</b><b>:</b> </p> <p>입력 <code>/</code></p> </li> 
-        <li> <p><b>마스터 사이트 및 하위 사이트를 사용하는 경우:</b> </p> <p><b>중요 사항</b>: [!DNL Microsoft SharePoint] 는 더 이상 하위 사이트 사용을 권장합니다.</p> <p>에 추가할 각 하위 사이트 [!DNL SharePoint] 통합에서 하위 사이트의 줄기를 입력합니다.</p> <p>예: URL<code>https://mycompany.sharepoint.com/sites/mysite/mysubsite</code>, 줄기는 다음과 같습니다 <code>/sites/mysite/mysubsite</code>.</p> <p><b>메모</b>:   <p>구성만 테스트하려면(하위 사이트 없음) 마스터 사이트의 스템을 입력합니다. </p> <p>예: URL <code> https://mycompany.sharepoint.com/sites/mysite</code>, 줄기는 다음과 같습니다 <code>/sites/mysite</code>.</p> <p>에 설명된 대로 구성을 테스트한 경우 <a href="#complete-your-integration" class="MCXref xref">통합 완료</a>을(를) 통해 마스터 사이트를 제거하고 하위 사이트를 입력해야 합니다.</p> 
+        <li> <p><b> If you are using your organization's root site</b><b>:</b> </p> <p>Enter <code>/</code></p> </li> 
+        <li> <p><b>If you are using a master site and subsites:</b> </p> <p><b>IMPORTANT</b>: [!DNL Microsoft SharePoint] no longer recommends the use of subsites.</p> <p>For each subsite you want to add to your [!DNL SharePoint] integration, enter the stem of the subsite.</p> <p>Example: for the URL<code>https://mycompany.sharepoint.com/sites/mysite/mysubsite</code>, the stem would be <code>/sites/mysite/mysubsite</code>.</p> <p><b>NOTE</b>:   <p>If you want to test your configuration only (no subsites), enter the stem of the master site. </p> <p>Example: for the URL <code> https://mycompany.sharepoint.com/sites/mysite</code>, the stem would be <code>/sites/mysite</code>.</p> <p>When you have tested your configuration as described in <a href="#complete-your-integration" class="MCXref xref">Complete your integration</a>, you must remove the master site and enter the subsites.</p> 
           <ol> 
-           <li value="1">다음을 클릭합니다. <strong>[!UICONTROL 주 메뉴]</strong> 아이콘 <img src="assets/main-menu-icon.png"> 의 오른쪽 위 모서리 [!DNL Adobe Workfront]을 클릭한 다음 을 클릭합니다 <strong>[!UICONTROL 설치]</strong> <img src="assets/gear-icon-settings.png">.<li><p>왼쪽 패널에서 <strong>[!UICONTROL 문서]</strong> &gt; <strong>[!UICONTROL [!DNL SharePoint] 통합]</strong>.</p></li><li><p>다음을 클릭합니다. [!DNL SharePoint] 설정 중인 통합을 클릭한 다음 편집을 클릭합니다.</p></li><li><p>[!UICONTROL Visible Site Collections] 필드에서 마스터 사이트에 대한 스템을 삭제합니다.</p></li><li><p>에 추가할 각 하위 사이트 [!DNL SharePoint] 통합에서 하위 사이트의 줄기를 입력합니다.</p></li><p>예: URL<code>https://mycompany.sharepoint.com/sites/mysite/mysubsite</code>, 줄기는 다음과 같습니다 <code>/sites/mysite/mysubsite</code>.</p></li> 
+           <li value="1">Click the <strong>[!UICONTROL Main Menu]</strong> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of [!DNL Adobe Workfront], then click <strong>[!UICONTROL Setup]</strong> <img src="assets/gear-icon-settings.png">.<li><p>In the left panel, click <strong>[!UICONTROL Documents]</strong> &gt; <strong>[!UICONTROL [!DNL SharePoint] Integration]</strong>.</p></li><li><p>Click the [!DNL SharePoint] integration you are setting up, then click Edit.</p></li><li><p>Delete the stem for the master site from the [!UICONTROL Visible Site Collections] field.</p></li><li><p>For each subsite you want to add to your [!DNL SharePoint] integration, enter the stem of the subsite.</p></li><p>Example: for the URL<code>https://mycompany.sharepoint.com/sites/mysite/mysubsite</code>, the stem would be <code>/sites/mysite/mysubsite</code>.</p></li> 
           </ol> </p> </li> 
        </ul> <p> </p> <p> </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다
-1. 계속 [통합 완료](#complete-your-integration).
+1. Click **[!UICONTROL Save]**
+1. Continue to [Complete your integration](#complete-your-integration).
 
-### 통합 완료 {#complete-your-integration}
+### Complete your integration {#complete-your-integration}
 
-기본 구성이 거의 완료되었습니다.
+The basic configuration is almost complete.
 
-1. Workfront에서 **[!UICONTROL 메인 메뉴]** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 상단에서 을(를) 클릭한 다음 **[!UICONTROL 문서]** ![](assets/document-icon.png).
-1. 클릭 **[!UICONTROL 새로 추가]**.
-1. 클릭 **[!UICONTROL 출처:]`<title of your [!DNL SharePoint] site>`** 드롭다운에서 을 클릭합니다.
+1. In Workfront, Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **[!UICONTROL Documents]** ![](assets/document-icon.png).
+1. Click **[!UICONTROL Add new]**.
+1. Click **[!UICONTROL From] `<title of your [!DNL SharePoint] site>`** in the dropdown.
 
-   이 사이트를 신뢰하도록 초대하는 대화 상자가 나타납니다.
+   A dialog that invites you to Trust this site appears.
 
    >[!NOTE]
    >
-   >이 대화 상자가 나타나지 않으면 [!DNL SharePoint] 통합이 올바르게 구성되지 않았습니다.
+   >If this dialog does not appear, your [!DNL SharePoint] integration is not configured correctly.
 
-1. 클릭 **[!UICONTROL 신뢰]**.
+1. Click **[!UICONTROL Trust it]**.
 
-### 문서 추가 {#add-documents}
+### Add documents {#add-documents}
 
-이제 의 문서를 추가할 수 있습니다. [!DNL SharePoint] 사이트.
+You can now add documents from your [!DNL SharePoint] site.
 
-자세한 내용은 [외부 문서 연결 대상 [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-existing-documents) 위치: [외부 애플리케이션에서 문서 연결](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)
+For instructions, see [Link an external document to [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-existing-documents) in [Link documents from external applications](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)
 
 >[!IMPORTANT]
 >
->폴더를 연결한 사용자에게 외부 애플리케이션에 대한 액세스 권한이 더 이상 없는 경우 [!DNL Workfront] 은(는) 더 이상 폴더의 콘텐츠에 액세스할 수 없습니다. 예를 들어 원래 폴더를 연결한 사용자가 회사를 그만두는 경우 이러한 상황이 발생할 수 있습니다. 계속 액세스하려면 폴더에 대한 액세스 권한이 있는 사용자가 폴더를 다시 연결해야 합니다.
+>If the user who linked a folder no longer has access to the external application, [!DNL Workfront] can no longer access the contents of the folder. This may happen, for example, if the user who originally linked the folder leaves the company. To ensure continued access, a user with access to the folder must re-link the folder.
+> 
+
+-->
 
 ## 문제 해결
 
 * [문제: 사용자는 다음을 사용할 때 인증 기반 오류가 발생합니다. [!DNL SharePoint] 통합.](#problem-users-experience-authentication-based-errors-when-using-the-sharepoint-integration)
-* [문제: (으)로 [!DNL Workfront] 사용자, 새 사용자를 프로비저닝할 수 없음 [!DNL SharePoint] 인스턴스. 하려고 하면 오류가 표시됩니다.](#problem-as-a-workfront-user-i-am-unable-to-provision-a-new-sharepoint-instance-when-i-attempt-to-do-i-see-an-error)
 * [문제: 찾아보기 시도 시 [!DNL SharePoint] 의 파일 [!DNL Workfront], 사이트 모음이 모두 또는 일부만 표시됩니다.](#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections)
 * [문제: 의 이전에 연결된 폴더 및 문서에 액세스할 수 없음 [!DNL SharePoint].](#problem-i-cannot-access-previously-linked-folders-and-documents-in-sharepoint)
 
@@ -344,7 +386,7 @@ OAuth에 대한 자세한 내용은 [http://oauth.net](http://oauth.net/).
 
 솔루션:
 
-사용자는 다음에 대한 적절한 권한이 있는 그룹의 구성원이어야 합니다. [!DNL SharePoint] 사이트.
+사용자에게 다음에 대한 적절한 권한이 있어야 합니다. [!DNL SharePoint] 사이트.
 
 을 사용하는 사용자 [!UICONTROL 전체 제어] 액세스는 다음에 필요한 모든 권한을 가집니다. [!DNL SharePoint] 통합. 사용자에게 전체 제어 액세스 권한을 부여하지 않으려면 다음 권한을 부여해야 합니다.
 
@@ -373,15 +415,19 @@ OAuth에 대한 자세한 내용은 [http://oauth.net](http://oauth.net/).
 
 권한 수준 만들기 및 편집에 대한 지침은 [권한 수준을 만들고 편집하는 방법](https://docs.microsoft.com/en-us/sharepoint/how-to-create-and-edit-permission-levels) Microsoft 설명서에서 확인할 수 있습니다.
 
-### 문제: (으)로 [!DNL Workfront] 사용자, 새 사용자를 프로비저닝할 수 없음 [!DNL SharePoint] 인스턴스. 하려고 하면 오류가 표시됩니다. {#problem-as-a-workfront-user-i-am-unable-to-provision-a-new-sharepoint-instance-when-i-attempt-to-do-i-see-an-error}
+<!--
 
-솔루션:
+### Problem: As a [!DNL Workfront] user, I am unable to provision a new [!DNL SharePoint] instance. When I attempt to do I see an error. {#problem-as-a-workfront-user-i-am-unable-to-provision-a-new-sharepoint-instance-when-i-attempt-to-do-i-see-an-error}
 
-이 문제는 다음 중 하나에서 비롯된 여러 가지 원인으로 인해 발생할 수 있습니다. [!DNL Workfront] 또는 [!DNL SharePoint]의 구성입니다. 다음을 확인합니다.
+Solutions:
 
-* 클라이언트 ID, 클라이언트 암호, 반환 URL 및 기타 구성 필드가 [!DNL Workfront] [!DNL SharePoint] 통합 인스턴스 및 [!DNL SharePoint] 사이트 앱.
-* 사용자에게 다음이 적용됨: [!UICONTROL 전체 제어] 인증에 사용되는 사이트 모음에 대한 권한입니다.
-* 사이트 앱은 [!UICONTROL 사이트 앱 권한] 대상: [!UICONTROL 사이트 모음] 인증에 사용됩니다.
+This can be caused by a number of things, originating in either [!DNL Workfront] or [!DNL SharePoint]'s configuration. Verify that:
+
+* The Client ID, Client Secret, return URL and other configuration fields are correctly mapped between the [!DNL Workfront] [!DNL SharePoint] Integration instance and the [!DNL SharePoint] Site App.
+* The user has [!UICONTROL Full Control] permission to the Site Collection used for authentication.
+* The Site App is listed under [!UICONTROL Site App Permissions] for the [!UICONTROL Site Collection] used for authentication.
+
+-->
 
 ### 문제: 찾아보기 시도 시 [!DNL SharePoint] 의 파일 [!DNL Workfront], 사이트 모음이 모두 또는 일부만 표시됩니다. {#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections}
 
@@ -389,25 +435,31 @@ OAuth에 대한 자세한 내용은 [http://oauth.net](http://oauth.net/).
 
 에서 사이트 모음을 보려면 [!DNL Workfront], 다음 조건을 충족해야 합니다.
 
-* 사이트 컬렉션이에 등록되어야 합니다. [!DNL Workfront] [!DNL SharePoint] 통합 인스턴스.
+<!--
 
-   에서 확인하려면 [!DNL Workfront]:
+* The site collection must be registered in the [!DNL Workfront] [!DNL SharePoint] Integration instance.
 
-   1. 다음으로 이동 [!UICONTROL 설정] > [!UICONTROL 문서] > [!UICONTROL [!DNL SharePoint] 통합].
-   1. 편집 [!DNL SharePoint] 통합 인스턴스 정보입니다.
-   1. 사이트 모음이 다음 목록에 있는지 확인합니다. [!UICONTROL 사이트 모음 표시].
+  To verify this in [!DNL Workfront]:
+
+   1. Go to [!UICONTROL Setup] > [!UICONTROL Documents] > [!UICONTROL [!DNL SharePoint] Integration].
+   1. Edit the [!DNL SharePoint] Integration instance information.
+   1. Verify that the site collection is listed under [!UICONTROL Visible Site Collections].
+   -->
 
 * 사용자는 의 사이트 모음에 대한 보기 액세스 권한이 있어야 합니다. [!DNL SharePoint].
-* 에서 확인하려면 [!DNL SharePoint]로 이동합니다. [!DNL SharePoint]을 클릭하고 사이트 모음을 엽니다. > [!UICONTROL 설정] > [!UICONTROL 사이트 권한].
-* 다음 [!DNL SharePoint] 사이트 앱은 사이트 모음에 액세스할 수 있어야 합니다.
 
-   에서 확인하려면 [!DNL SharePoint]:
+   에서 확인하려면 [!DNL SharePoint]로 이동합니다. [!DNL SharePoint]을 클릭하고 사이트 모음을 엽니다. > [!UICONTROL 설정] > [!UICONTROL 사이트 권한].
+<!--* The [!DNL SharePoint] Site App must have access to the site collection.
 
-   1. 사이트 모음으로 이동 > [!UICONTROL 설정] > [!UICONTROL 사이트 앱 권한].
-   1. 다음을 확인합니다. [!UICONTROL 사이트 앱] 사용한 사람 [!DNL Workfront] 이(가) 여기에 나열됩니다.
-   1. (조건부) 사이트 앱이 목록에 없으면 _layouts/15/appinv.aspx을 사용하여 사이트 모음에 을 추가합니다.
+  To verify this in [!DNL SharePoint]:
 
-      사이트 모음 추가에 대한 자세한 내용은 사이트 앱에 쓰기 권한 부여를 참조하십시오.
+   1. Go to the site collection > [!UICONTROL Settings] > [!UICONTROL Site app permissions].
+   1. Ensure that the [!UICONTROL Site App] used by [!DNL Workfront] is listed here.
+   1. (Conditional) If the Site App is not listed, add to the site collection using _layouts/15/appinv.aspx.
+
+      For information about adding the site collection, see Granting Write Permissions To The Site App.
+      
+-->
 
 ### 문제: 의 이전에 연결된 폴더 및 문서에 액세스할 수 없음 [!DNL SharePoint]. {#problem-i-cannot-access-previously-linked-folders-and-documents-in-sharepoint}
 
@@ -419,8 +471,10 @@ OAuth에 대한 자세한 내용은 [http://oauth.net](http://oauth.net/).
 
 외부 공급자의 폴더 연결에 대한 자세한 내용은 [외부 애플리케이션에서 문서 연결](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
-### 문제: 에서 문서를 추가하려고 할 때 &quot;404 찾을 수 없음&quot; 오류가 표시됩니다. [!DNL Sharepoint]
+<!--
 
-#### 해결 방법:
+### Problem: I see a "404 not found" error when attempting to add a document from [!DNL Sharepoint]
 
-이 오류는 사이트 중 하나가에 구성된 경우 발생할 수 있습니다. [!UICONTROL 사이트 모음 표시] 목록이 Sharepoint에서 삭제되었습니다. 다음 확인: [!UICONTROL 사이트 모음 표시] sharepoint에서 삭제된 사이트를 모두 나열하고 제거합니다.
+#### Solution:
+
+This error might occur if one of the sites configured in the [!UICONTROL Visible Site Collections] list has been deleted in Sharepoint. Check the [!UICONTROL Visible Site Collections] list, and remove any sites that have been deleted in Sharepoint.-->
