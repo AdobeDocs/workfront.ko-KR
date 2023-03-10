@@ -4,9 +4,9 @@ description: 23.2 프로젝트 개선 사항
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8a533ac04ce35625ed3e6ae5fc7be5148b497cc2
+source-git-commit: c4cb27085ddc3bea86081ddd14a88640d0ed5f90
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,8 @@ Workfront 경험의 모양과 느낌을 업데이트하는 과정에서 여러 �
 * 선택한 프로젝트에 이미 첨부된 사용자 정의 양식과 특정 양식이 이미 첨부된 프로젝트 수를 나타냅니다.
 
 * 프로젝트 편집 상자에서 주석 달기 기능을 제거했습니다.
+
+* 프로젝트를 대량 편집할 때 스코어카드 다시 계산 옵션을 제거했습니다.
 
 자세한 내용은 [프로젝트 편집](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
 
