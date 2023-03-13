@@ -4,7 +4,7 @@ description: 23.2 릴리스 개요
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: ac9155223c22f9872e300111d003fff51bbb4d49
+source-git-commit: 14178b9dadc5da0d858fd3b8d19fde2e7764aaee
 workflow-type: tm+mt
 source-wordcount: '2307'
 ht-degree: 0%
@@ -399,7 +399,7 @@ ht-degree: 0%
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
                             <li>
-                                <p>미리보기 릴리스: 2023년 3월 9일<br /></p>
+                                <p>미리보기 릴리스: 2023년 3월 20일<br /></p>
                             </li>
                             <li>
                                  <p><span class="preview">프로덕션 릴리스: 23.2 릴리스 포함 </span></p>
