@@ -6,9 +6,9 @@ description: 이벤트 구독 API
 author: Becky
 feature: Workfront API
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: e06f6e8ca40da6741982b4ed8c5c53bdbfb253ca
+source-git-commit: 34810c67de5578479ae56cd72865656a89d35aa9
 workflow-type: tm+mt
-source-wordcount: '2109'
+source-wordcount: '2111'
 ht-degree: 3%
 
 ---
@@ -260,7 +260,7 @@ Workfront의 HTTP를 쿼리할 때 GET 메서드를 사용합니다. 이벤트 �
 
 ### 모든 이벤트 구독 쿼리
 
-apiKey 값에 지정된 대로 고객에 대한 모든 이벤트 구독을 쿼리할 수 있습니다. 다음 옵션을 사용하여 응답을 관리할 수도 있습니다.
+고객에 대한 모든 이벤트 구독을 쿼리하거나 다음을 사용하여 응답을 관리할 수 있습니다. 다음 옵션을 사용하여 응답을 관리할 수도 있습니다.
 
 * **페이지**: 반환할 페이지 수를 지정하는 쿼리 매개 변수 옵션입니다. 기본값은 1입니다.
 * **제한**: 페이지당 반환할 결과 수를 지정하는 쿼리 매개 변수 옵션입니다. 기본값은 100(최대 1,000)입니다.
