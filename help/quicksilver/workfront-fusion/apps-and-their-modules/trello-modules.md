@@ -9,7 +9,7 @@ description: 에서 [!DNL Adobe Workfront Fusion] 시나리오는 Trelo를 사�
 author: Becky
 feature: Workfront Fusion
 exl-id: 60630b23-e057-4ecf-a014-6e63b6d69b48
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '5039'
 ht-degree: 0%

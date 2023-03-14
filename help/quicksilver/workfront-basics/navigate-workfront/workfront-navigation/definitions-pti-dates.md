@@ -79,7 +79,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->다음 [!UICONTROL 시작 시기] 작업 또는 고정 날짜 제약 조건이 [!UICONTROL 계획 시작 날짜] 작업, 즉 [!UICONTROL 실제 시작 날짜]. 이 업데이트는 [!UICONTROL 계획 시작 날짜] 지정한 날짜까지. 다음 [!UICONTROL 실제 시작 날짜] 은(는) [!UICONTROL 계획 시작 날짜]위에 설명된 대로,
+>다음 [!UICONTROL 시작 시기] 작업 또는 고정 날짜 제약 조건은 [!UICONTROL 계획 시작 날짜] 작업, 즉 [!UICONTROL 실제 시작 날짜]. 이 업데이트는 [!UICONTROL 계획 시작 날짜] 지정한 날짜까지. 다음 [!UICONTROL 실제 시작 날짜] 은(는) [!UICONTROL 계획 시작 날짜]위에 설명된 대로,
 
 ![](assets/actual-start-date-on-edit-task-highlighted-nwe-350x251.png)
 

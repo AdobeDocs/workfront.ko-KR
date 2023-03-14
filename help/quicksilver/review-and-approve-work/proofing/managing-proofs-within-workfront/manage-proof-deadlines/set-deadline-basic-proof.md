@@ -7,7 +7,7 @@ description: 기본 증명을 만든 후 한 번의 최종 기한을 설정할 �
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8e0c6fd3-5506-4b23-b64a-473c4d20b506
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 1%

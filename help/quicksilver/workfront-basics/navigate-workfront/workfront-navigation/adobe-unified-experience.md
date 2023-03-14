@@ -6,7 +6,7 @@ description: 액세스 [!DNL Workfront] Adobe Experience Cloud을 통해 모든 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 0%

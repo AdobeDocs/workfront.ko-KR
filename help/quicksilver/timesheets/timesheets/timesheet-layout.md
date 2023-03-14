@@ -7,7 +7,7 @@ description: 이 문서에서는 Adobe Workfront의 작업표 레이아웃을 �
 author: Alina
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: ca552b80e9d78fd09068d72479e1b2bddc596c70
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 1%

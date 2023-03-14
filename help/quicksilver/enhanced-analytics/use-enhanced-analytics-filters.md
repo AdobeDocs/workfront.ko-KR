@@ -8,8 +8,8 @@ feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '1501'
-ht-degree: 0%
+source-wordcount: '1498'
+ht-degree: 1%
 
 ---
 
@@ -109,7 +109,7 @@ Enhanced Analytics를 사용하기 위한 사전 요구 사항에 대해서는 [
 | **스폰서** | 선택한 스폰서가 있는 프로젝트에 대한 데이터만 표시합니다 |
 | **프로젝트 소유자** | 선택한 프로젝트 소유자가 있는 프로젝트에 대한 데이터만 표시합니다 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 사용자 지정 양식 필터는 다르게 작동합니다. 자세한 내용은 [프로젝트 필드 필터 추가](#add-a-project-field-filter).
 

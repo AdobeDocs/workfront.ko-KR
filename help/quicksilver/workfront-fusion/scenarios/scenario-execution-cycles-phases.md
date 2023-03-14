@@ -7,7 +7,7 @@ description: 이 문서에서는 [!DNL Adobe Workfront Fusion] 초기화, 작업
 author: Becky
 feature: Workfront Fusion
 exl-id: 5403f476-226d-4268-affc-8e06b1117684
-source-git-commit: 59941ea1ce523a0d1036138a83f771b058049b34
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '502'
 ht-degree: 0%

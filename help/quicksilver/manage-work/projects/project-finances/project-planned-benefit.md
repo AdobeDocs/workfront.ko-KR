@@ -7,7 +7,7 @@ description: 계획 혜택은 프로젝트가 완료된 경우 조직에서 얻�
 author: Alina
 feature: Work Management
 exl-id: 1ded9d16-57be-40e0-b083-ee5273fd9b56
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 1%

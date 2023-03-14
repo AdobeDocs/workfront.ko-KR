@@ -9,7 +9,7 @@ description: 를 사용하려면 [!DNL Google Sheets] with [!DNL Adobe Workfront
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 11d62222-df34-472d-93d7-f0d53eb95c9b
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '3894'
 ht-degree: 0%

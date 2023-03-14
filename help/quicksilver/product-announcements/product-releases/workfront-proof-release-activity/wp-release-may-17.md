@@ -7,7 +7,7 @@ description: 이 페이지에서는 Workfront 증명(독립형 언어 교정 애
 author: Luke
 feature: Product Announcements, Workfront Proof
 exl-id: 8b148684-28bf-40e8-8014-d6458c8d14e1
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 0%

@@ -7,7 +7,7 @@ description: 매핑은 항목으로 구성된 모듈의 출력을 다른 모듈�
 author: Becky
 feature: Workfront Fusion
 exl-id: e8d619e9-6425-4136-ac71-47d979d68a2d
-source-git-commit: 97f91d663df86341a079894cff04d07c18b7bf08
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '1515'
 ht-degree: 0%

@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: 54b54892-f8b3-4704-8221-03bbb9f07917
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '355'
 ht-degree: 9%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 9%
    | 다음보다 늦지 않게 완료 | 자세한 내용은 [작업 제한 개요: 늦어도 다음 날짜 전까지 완료](../../../manage-work/tasks/task-constraints/finish-no-later-than.md). |
    | 보다 빨리 완료 | 자세한 내용은 [작업 제한 개요: 보다 빨리 완료](../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md). |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. 클릭 **저장** **변경 사항**.
 

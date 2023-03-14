@@ -10,8 +10,8 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 96162fe8-eef9-40f4-bc94-02911b970f02
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 17%
+source-wordcount: '557'
+ht-degree: 16%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 17%
 | **관리자** | 아니요 | 예 | 예 | 아니요 | 예 | 아니요 | 예 |
 | **관찰자** | 아니요 | 예 | 아니요 | 아니요 | 아니요 | 아니요 | 아니요 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 관리자가 공용 폴더를 소유한 경우 루트 폴더와 하위 폴더를 삭제할 수 있습니다.
 
@@ -57,7 +57,7 @@ ht-degree: 17%
 | **관리자** | 아니요 | 예 | 아니요 | 아니요 | 아니요 | 아니요 | 아니요 |
 | **관찰자** | 아니요 | 예 | 아니요 | 아니요 | 아니요 | 아니요 | 아니요 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 예를 들어, 프로젝트 관리자 및 해당 팀이 특정 폴더만 표시하도록 하려는 경우 프로젝트 관리자는 비공개 폴더를 설정한 다음 특정 사용자와 폴더를 공유할 수 있습니다.
 

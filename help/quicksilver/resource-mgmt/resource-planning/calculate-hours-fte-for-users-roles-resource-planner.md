@@ -7,7 +7,7 @@ description: 리소스 계획자에서 사용자 및 역할에 대한 시간 및
 author: Alina
 feature: Resource Management
 exl-id: 10b0e507-658e-4d12-994a-e38da6111f5d
-source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '977'
 ht-degree: 1%

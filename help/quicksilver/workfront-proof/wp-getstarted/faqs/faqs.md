@@ -8,7 +8,7 @@ description: 이 섹션에는 다음 문서, EDIT ME가 포함됩니다.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e2bbb311-b56a-46aa-8595-420482fa4ed8
-source-git-commit: d5ffd576fcedf9b10dce5e5d5bd9245dd7f67ef8
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '65'
 ht-degree: 0%

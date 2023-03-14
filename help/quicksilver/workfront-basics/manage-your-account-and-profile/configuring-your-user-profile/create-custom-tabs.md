@@ -8,8 +8,8 @@ feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
 source-git-commit: 073e6c7d4e830dfd2b8920a20e1490c5524d71bd
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 3%
+source-wordcount: '678'
+ht-degree: 2%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 3%
 | [!UICONTROL 사용자] |  ✓ |  ✓ |
 | [!UICONTROL 문서] |  ✓ |  ✓ |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 액세스 요구 사항
 

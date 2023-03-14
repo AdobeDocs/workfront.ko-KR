@@ -6,7 +6,7 @@ description: 프로젝트에 대한 업데이트 유형을 선택하면 프로�
 author: Alina
 feature: Work Management
 exl-id: ffdfffec-d217-4daa-9849-cb0c794992c0
-source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 0%

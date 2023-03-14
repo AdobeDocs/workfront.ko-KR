@@ -97,7 +97,7 @@ Workfront에서 작업 로드 밸런서를 찾을 수 있는 위치에 대한 �
 </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p> 할당에 지정할 권한이 포함된 할당을 관리할 프로젝트에 대한 Contribute 또는 이상의 권한을 부여합니다. </p> <p>프로젝트 권한에 대한 자세한 내용은 문서를 참조하십시오 <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Adobe Workfront에서 프로젝트 공유</a>.</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p> 할당에 지정할 권한이 포함된 할당을 관리할 프로젝트에 대한 Contribute 또는 이상의 권한을 지정합니다. </p> <p>프로젝트 권한에 대한 자세한 내용은 문서를 참조하십시오 <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Adobe Workfront에서 프로젝트 공유</a>.</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체에 대한 액세스 요청 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

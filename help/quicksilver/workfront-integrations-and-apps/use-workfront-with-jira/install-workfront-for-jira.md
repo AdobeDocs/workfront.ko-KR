@@ -6,7 +6,7 @@ description: 다음을 사용할 수 있습니다 [!DNL Adobe Workfront] 대상 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: f6e0feb1-349f-459f-9f93-c7492cb15f11
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 0%

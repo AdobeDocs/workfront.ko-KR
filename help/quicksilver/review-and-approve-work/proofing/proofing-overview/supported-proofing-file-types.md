@@ -7,7 +7,7 @@ description: '시스템에 파일(예: Photoshop 또는 Illustrator)을 만드�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: fa0247796b2d0fc147a0b6a564a306c7e594c6fb
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '933'
 ht-degree: 0%

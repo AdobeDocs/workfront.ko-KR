@@ -10,7 +10,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 865019d7-55b4-4d53-93aa-1370d153916e
 source-git-commit: 699c1d73d768e79890464654a14bdd4573de02c8
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1381'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ Adobe Mobile Apps 또는 Analytics Premium이 될 필요는 없습니다 [!DNL W
 | **최근 보기** | 여기에는 사용자가 최근에 액세스한 증명과 사용자가 소유한 증명이 포함되어 있으며 프로필 권한에 따라 볼 수 있는 권한이 있으며 사용자와 공유된 증명이 포함되어 있습니다. 이 보기에는 ( [!DNL Workfront Proof] 뷰어 또는 증명 세부 사항 페이지를 통해). |
 | **이메일 링크** | 이메일에서 증명을 열려면 이메일 앱에서 이메일을 열고 [!UICONTROL 증명으로 이동] 이메일(1)에 있는 버튼 링크에서 [!DNL Workfront Proof] 앱. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 앱에서 정적 증명 검토
 

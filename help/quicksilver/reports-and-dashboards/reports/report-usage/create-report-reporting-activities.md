@@ -9,8 +9,8 @@ feature: Reports and Dashboards
 exl-id: 3861ac81-d2e4-4dec-b9cd-96eee0b66a38
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 2%
+source-wordcount: '670'
+ht-degree: 1%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 2%
    | **입력한 사람** | 보고서의 소유자입니다. |
    | **마지막으로 조회한 일자** | 사용자가 보고서를 마지막으로 본 날짜 및 시간입니다. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. (선택 사항) 보고서 목록을 비활성화된 특정 사용자로 제한하려면 다음을 수행하십시오.
 

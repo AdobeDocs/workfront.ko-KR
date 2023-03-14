@@ -166,8 +166,7 @@ Workfront에서 리소스 관리 도구를 효율적으로 사용하려면 먼�
 Workfront의 각 리소스 관리 도구에 대한 요구 사항에 대한 자세한 내용은 다음을 참조하십시오.
 
 * 문서의 &quot;Resource Planner 작업 사전 요구 사항&quot; 섹션 [리소스 플래너 개요](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
-
-<!--remove this at production: * The section "Prerequisites" in the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).-->
+   <!--remove this at production: * The section "Prerequisites" in the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).-->
 * 문서의 &quot;작업 로드 밸런서 사용 우수 사례&quot; 섹션 [작업 로드 밸런서 개요](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 * [Adobe Workfront의 예산 리소스에 대한 액세스 필요](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 * [작업 로드 밸런서에서 리소스를 관리하는 데 필요한 액세스](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).

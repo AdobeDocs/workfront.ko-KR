@@ -6,7 +6,7 @@ description: 회사의 상위 수준 전략의 우선 순위를 지정할 때 Wo
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 15c0e519-0164-449d-84f3-470d0d4eb795
-source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '2402'
 ht-degree: 1%

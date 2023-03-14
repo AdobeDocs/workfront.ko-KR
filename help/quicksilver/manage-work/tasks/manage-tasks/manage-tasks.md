@@ -7,7 +7,7 @@ description: 다음 문서에서 작업 관리에 대한 정보를 알아봅니�
 author: Alina
 feature: Work Management
 exl-id: d87311fc-6f60-4fa8-a180-fda6eae473a0
-source-git-commit: 168e8ac6e7491e020164f9cfa9aef6cf1e64ffe5
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 5%

@@ -8,7 +8,7 @@ description: Adobe Workfront Fusion에는 Adobe Workfront 라이선스 외에 Ad
 author: Becky
 feature: Workfront Fusion
 exl-id: 13d6230d-51f6-4f68-8697-30f8ce6c8599
-source-git-commit: 59941ea1ce523a0d1036138a83f771b058049b34
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%

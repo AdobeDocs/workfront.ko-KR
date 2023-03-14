@@ -9,8 +9,8 @@ feature: Reports and Dashboards
 exl-id: 9b55b302-5cdc-4437-9ce4-a15b5b43dccb
 source-git-commit: 68baff382c1c5e6b69906bb021fb20fd513dad0f
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 5%
+source-wordcount: '267'
+ht-degree: 4%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 5%
    | 시작일 | 사용자가 표시한 기간의 시작 날짜입니다. |
    | 종료 일자 | 사용자가 표시한 기간의 종료 날짜입니다. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. (선택 사항) 다음 탭 중 하나를 편집하여 보고서 만들기를 완료합니다.
 

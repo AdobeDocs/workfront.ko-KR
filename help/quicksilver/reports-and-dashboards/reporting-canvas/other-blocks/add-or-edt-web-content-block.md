@@ -6,10 +6,10 @@ description: 웹 컨텐츠 블록을 사용하면 보고서 내에서 직접 외
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 29f0c2e1-1644-4989-81b1-c6db6bfec905
-source-git-commit: 61fcb4c3646f60fa5f667d874af3320360d5d286
+source-git-commit: ''
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 2%
+source-wordcount: '320'
+ht-degree: 1%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 2%
    | 잘못된 URL | 입력한 URL이 올바른 사이트를 반환하지 않습니다. |
    | 공급자 사이트 제한 | 포함하려는 사이트는 허용되지 않습니다. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. (선택 사항) **매개 변수 전달** 사용 가능한 전달 매개 변수 목록을 열려면 를 전환합니다.
 

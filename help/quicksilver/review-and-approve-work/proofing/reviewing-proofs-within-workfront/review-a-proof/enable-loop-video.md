@@ -6,7 +6,7 @@ description: 비디오가 연속적으로 반복되도록 구성할 수 있습�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 944c4d15-e868-4481-9d35-318a319dc375
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 1%

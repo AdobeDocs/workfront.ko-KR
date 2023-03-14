@@ -9,7 +9,7 @@ description: 에서 [!DNL Adobe Workfront Fusion] 시나리오, [!DNL Workfront 
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
-source-git-commit: a79c6b2fb2b651987f973bc0d74e0eeea312c5bc
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '2886'
 ht-degree: 0%

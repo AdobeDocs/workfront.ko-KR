@@ -7,7 +7,7 @@ description: 에 액세스할 수 있습니다 [!DNL Adobe Workfront] G Suite를
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: da2ecaf1-5cfb-470e-90a1-fbb386db8670
-source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%

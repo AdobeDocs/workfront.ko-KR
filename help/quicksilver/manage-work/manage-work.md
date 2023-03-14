@@ -7,7 +7,7 @@ description: 다음 섹션에서 Adobe Workfront에서 작업 관리에 대한 �
 author: Alina
 feature: Work Management
 exl-id: 5d17322b-e517-4475-aa77-faaeb4677152
-source-git-commit: c566eb094e96abca6073554433434822c567bc34
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '33'
 ht-degree: 18%

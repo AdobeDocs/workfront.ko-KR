@@ -6,7 +6,7 @@ description: 작업의 상태를 업데이트하여 작업의 위치와 전체 �
 author: Alina
 feature: Work Management
 exl-id: e1efc676-e110-486e-91dc-f521421575e8
-source-git-commit: 6bb6b834c5af8ad48179fc0d60b184d083b360e4
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 1%

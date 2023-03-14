@@ -6,9 +6,9 @@ description: 프로젝트에서 작업하지 않을 경우에 따라 요청을 �
 author: Alina
 feature: Work Management
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: e83d4742106bc3cb5adb939040997959315dd1e2
+source-git-commit: ''
 workflow-type: tm+mt
-source-wordcount: '2551'
+source-wordcount: '2545'
 ht-degree: 2%
 
 ---
@@ -139,7 +139,7 @@ ht-degree: 2%
       | 이 프로젝트 회사의 사람 | 이 프로젝트와 연결된 회사에 속하는 사용자는 이 큐에 요청을 보고 추가할 수 있습니다. 프로젝트와 연결된 회사가 있는 경우 이 설정 후에는 회사 이름이 괄호로 묶입니다. |
       | 이 프로젝트의 그룹에 있는 직원들 | 이 프로젝트와 연결된 그룹에 속하는 사용자는 이 큐에 요청을 보고 추가할 수 있습니다. 프로젝트와 연결된 그룹이 있는 경우 이 설정 후에는 그룹 이름이 괄호로 묶입니다. |
 
-      {style=&quot;table-layout:auto&quot;}
+      {style="table-layout:auto"}
 
    * **다음 링크와 공유:** 다음 옵션을 사용하면 요청 큐 및 이와 연관된 양식에 직접 액세스할 수 있고, 외부 페이지를 사용하여 Workfront 외부의 사용자 또는 Workfront 사용자에게 직접 액세스할 수 있습니다. 대시보드에 외부 페이지로 요청 큐 포함에 대한 자세한 내용은 [대시보드에 요청 큐 포함](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-request-queue-dashboard.md).
 
@@ -275,7 +275,7 @@ ht-degree: 2%
       | 이 프로젝트에 대한 보기 액세스 권한이 있는 직원(플랜 라이선스) | 이 프로젝트에 대한 보기 권한도 있는 계획 라이센스가 있는 사용자는 선택한 필드와 선택되지 않은 필드를 볼 수 있습니다. 이 프로젝트에 요청을 제출할 수 있는 나머지 사용자는 선택한 필드만 볼 수 있습니다. |
       | 사용자 없음 | 선택되지 않은 필드를 볼 수 있는 사용자가 없습니다. 이 프로젝트에 요청을 제출할 수 있는 모든 사용자는 선택한 필드만 볼 수 있습니다. |
 
-      {style=&quot;table-layout:auto&quot;}
+      {style="table-layout:auto"}
 
    * **사용자 지정 Forms**: 요청 큐와 연결할 사용자 지정 양식을 선택합니다. 이 드롭다운 메뉴에서 문제 사용자 지정 Forms만 선택할 수 있습니다. 요청 큐에 제출된 모든 문제에 선택한 양식이 연결됩니다.\
       요청 큐에 여러 개의 큐 항목이 연결된 경우 사용자 지정 양식을 큐 항목과 대신 연결하는 것이 좋습니다. 요청 큐의 하위 섹션 만들기에 대한 자세한 내용은 다음을 참조하십시오 [큐 항목 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).

@@ -6,9 +6,9 @@ description: 몇 가지 기능이 서로 다릅니다 [!DNL Workfront] 그리고
 author: Lisa
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: ''
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1265'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 | 탐색에는 의 최상위 탐색 영역이 포함되어 있습니다 [!DNL Adobe] products, [!DNL Adobe] 알림, 도움말 및 사용자 프로필 외에 [!DNL Workfront] 탐색 모음 | 탐색에는 다음이 포함됩니다 [!DNL Workfront] 탐색 모음만 |
 | 도움말은 를 통해 액세스할 수 있습니다. [!UICONTROL 기본 메뉴] 및 위쪽 탐색 영역 | 도움말은 를 통해 액세스할 수 있습니다. [!UICONTROL 기본 메뉴] 및 [!DNL Workfront] 탐색 모음 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## FAQ
 

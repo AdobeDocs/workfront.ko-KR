@@ -30,9 +30,9 @@ ht-degree: 3%
 * [Enhanced Analytics에서 리소스 용량 시각화 보기](../enhanced-analytics/resource-capacity-overview.md)
 * [Enhanced Analytics에서 팀 용량 시각화 보기](../enhanced-analytics/team-capacity-overview.md)
 
-<!--* [View Enhanced analytics visualizations by duration](../enhanced-analytics/view-enhanced-analytics-charts-duration.md)-->
+   <!--* [View Enhanced analytics visualizations by duration](../enhanced-analytics/view-enhanced-analytics-charts-duration.md)-->
 
-<!--
+   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../enhanced-analytics/trend-views-overview.md" class="MCXref xref" xrefformat="{para}">Trend views overview</a> </li>
   -->
 

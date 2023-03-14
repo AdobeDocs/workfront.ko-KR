@@ -8,7 +8,7 @@ description: Adobe Workfront 시나리오 플래너는 새 Adobe Workfront 경�
 author: Luke
 feature: Product Announcements, Workfront Scenario Planner
 exl-id: 2e507c0c-76e2-4335-9682-df4f1940ff88
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 0%

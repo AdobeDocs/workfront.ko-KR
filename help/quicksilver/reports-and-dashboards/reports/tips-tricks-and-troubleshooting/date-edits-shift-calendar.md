@@ -7,7 +7,7 @@ description: 개체 목록에서 인라인 편집 날짜를 표시할 때 달력
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 6d053968-1578-4c20-b2a7-43634481696f
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%

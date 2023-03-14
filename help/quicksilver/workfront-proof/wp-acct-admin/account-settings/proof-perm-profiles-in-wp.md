@@ -10,7 +10,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 249aa332-c051-49ac-be85-264d8babfcad
 source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
 workflow-type: tm+mt
-source-wordcount: '1769'
+source-wordcount: '1766'
 ht-degree: 1%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 1%
 | 관찰자 |   | ![](assets/cleaner2.png) |   |   |   |   |   |   |   |
 | 방문자 |   | ![](assets/cleaner2.png) |   |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 역할 및 권한에 대해 다음 사항을 고려하십시오.
 

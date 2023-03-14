@@ -7,7 +7,7 @@ description: 다음 방법 중 하나로 만들거나 편집하는 증명을 구
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ca379054-4737-4796-a812-f2ec38b437ba
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '1061'
 ht-degree: 1%

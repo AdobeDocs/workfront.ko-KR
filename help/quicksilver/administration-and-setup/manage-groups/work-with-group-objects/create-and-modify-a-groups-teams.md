@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51967cd7-962e-4354-a04b-6df4e31e70c6
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '1014'
 ht-degree: 3%

@@ -8,8 +8,8 @@ feature: Workfront API
 exl-id: 29d922f4-f4c6-45e5-b9fa-43e2068ec66d
 source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 25%
+source-wordcount: '168'
+ht-degree: 16%
 
 ---
 
@@ -40,7 +40,7 @@ API 버전 9를 처음 사용하는 리소스 목록으로서, 버전 9의 리�
 | `nameKey` |  |  |  |  |  |  |
 | `securityModelType` |  |  |  |  |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### AccessLevelPermissions
 
@@ -53,7 +53,7 @@ API 버전 9를 처음 사용하는 리소스 목록으로서, 버전 9의 리�
 | `objObjCode` |  |  |  |  |  |  |
 | `secondaryActions` |  |  |  |  |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### AccessRulePreference
 
@@ -61,7 +61,7 @@ API 버전 9를 처음 사용하는 리소스 목록으로서, 버전 9의 리�
 |---|---|---|---|---|---|---|
 | `ID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 예산책정 시간
 
@@ -75,7 +75,7 @@ API 버전 9를 처음 사용하는 리소스 목록으로서, 버전 9의 리�
 | `roleID`  |   |   |   |   |   |   |
 | `userID`  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### CalendarPortalSection
 
@@ -90,7 +90,7 @@ API 버전 9를 처음 사용하는 리소스 목록으로서, 버전 9의 리�
 | `objID`  |   |   |   |   |   |   |
 | `objObjCode`  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### CalendarSection
 
@@ -107,7 +107,7 @@ API 버전 9를 처음 사용하는 리소스 목록으로서, 버전 9의 리�
 | `plannedDate` |   |   |   |   |   |   |
 | `startDate` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 외부 섹션
 
@@ -135,7 +135,7 @@ API 버전 9를 처음 사용하는 리소스 목록으로서, 버전 9의 리�
 | `url` |   |   |   |   |   |   |
 | `viewID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 

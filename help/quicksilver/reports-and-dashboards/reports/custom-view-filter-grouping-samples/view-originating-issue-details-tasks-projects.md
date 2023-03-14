@@ -7,7 +7,7 @@ description: 문제가 작업 또는 프로젝트로 변환되면 작업 또는 
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 5fefb174-3a18-408f-aa12-3f4aff23acfa
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 3%

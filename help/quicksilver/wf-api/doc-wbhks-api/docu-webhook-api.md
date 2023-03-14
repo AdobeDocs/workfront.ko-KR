@@ -9,8 +9,8 @@ feature: Workfront API
 exl-id: 7ac2c6c8-1cb8-49df-8d63-a6b47ad02a13
 source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
-source-wordcount: '3661'
-ht-degree: 4%
+source-wordcount: '3646'
+ht-degree: 3%
 
 ---
 
@@ -396,7 +396,7 @@ GET /files
 |---|---|
 | parentId  | 폴더 ID입니다. 루트 디렉토리의 메타데이터를 가져오려면 &#39;/&#39; 값을 사용하십시오. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 문서 웹 후크 API는 현재 페이지 매김을 지원하지 않습니다.
 
@@ -533,7 +533,7 @@ GET /축소판
 | id  | 문서 ID입니다. |
 | 크기  |  축소판 그림 너비 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -728,7 +728,7 @@ POST /createFolder
 | parentId  | 폴더를 만들어야 하는 폴더 ID입니다 |
 | 이름  | 새 폴더의 이름 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -776,7 +776,7 @@ PUT/삭제
 | documentId  | 삭제할 문서 ID |
 | folderId  |  삭제할 폴더 ID |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 응답 아래 오류 처리 섹션에 지정된 대로 성공 또는 실패를 나타내는 JSON 문자열입니다.
 
@@ -814,7 +814,7 @@ PUT/이름 바꾸기
 | id | 이름을 바꿀 문서 또는 폴더 ID |
 | 이름  | 문서 또는 폴더의 새 이름 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 

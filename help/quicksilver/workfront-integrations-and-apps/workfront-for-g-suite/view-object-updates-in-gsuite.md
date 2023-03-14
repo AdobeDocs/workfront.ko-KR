@@ -7,7 +7,7 @@ description: G Suite를 종료하지 않으면에서 업데이트에 대한 업�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 13cd0478-4557-4d4c-915e-5b7b70aee8ce
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 1%

@@ -7,7 +7,7 @@ description: 작업은 Adobe Workfront에서 프로젝트 완료에 기여하는
 author: Alina
 feature: Work Management
 exl-id: 2c0e7f40-f680-4e7e-8827-be69703a393f
-source-git-commit: 168e8ac6e7491e020164f9cfa9aef6cf1e64ffe5
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%

@@ -6,7 +6,7 @@ description: 업로드한 문서를 삭제할 수 있습니다. 특정 문서에
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1a4c4849-bca1-4ae3-9111-d0ed4dacca14
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 2%
