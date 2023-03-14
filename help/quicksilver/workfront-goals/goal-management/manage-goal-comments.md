@@ -6,9 +6,9 @@ description: Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 7ed42330837149b1e4b813c24c81aa317f3c8b7e
+source-git-commit: d7ae3d47cbc4426630260ab5e726380e4775096a
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -197,7 +197,7 @@ You can edit or delete a comment that you entered in this area, or you can like 
 1. 주석을 추가할 목표를 찾은 다음 해당 이름을 클릭하여 목표 페이지를 엽니다.
 1. 클릭  **업데이트** 왼쪽 패널에서
 1. 다음을 클릭합니다. **댓글** 업데이트 영역의 왼쪽 상단 모서리에 있는 탭입니다.
-1. 에 주석 입력 시작 **댓글 작성** 상자.
+1. 에 주석 입력 시작 **새 댓글** 상자.
 
    ![](assets/comment-box-empty-unshimmed.png)
 
@@ -205,7 +205,7 @@ You can edit or delete a comment that you entered in this area, or you can like 
    >
    >댓글을 입력하고 제출하기 전에 업데이트 섹션에서 다른 곳으로 이동하면 로그오프했다가 다시 로그온한 후에도 페이지에서 댓글이 초안 모드로 유지됩니다. 초안 주석은 설명을 입력한 사용자만 볼 수 있습니다.
 
-1. (선택 사항) **알림** 영역에 이 댓글에 포함할 사용자 또는 팀의 이름 또는 이메일을 입력한 다음 목록에 표시될 때 선택합니다.
+1. (선택 사항) **사람 또는 팀에 태그 지정** 영역에 이 댓글에 포함할 사용자 또는 팀의 이름 또는 이메일을 입력한 다음 목록에 표시될 때 선택합니다.
 1. 클릭 **제출**.
 1. (선택 사항) **답변** 기존 댓글에 회신하려면 위의 5-7단계를 따르십시오. <!--insure this stays accurate-->
 1. (선택 사항) **좋아요** 아이콘![](assets/like-icon.png) 다른 사용자가 추가한 댓글을 좋아하도록 하는 것입니다. 아이콘이 좋아요 수로 업데이트됩니다.
