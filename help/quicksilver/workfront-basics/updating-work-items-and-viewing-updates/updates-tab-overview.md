@@ -7,16 +7,22 @@ description: 업데이트 탭에는 지난 90일 이내에 수행한 최신 업�
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 799a2f3463ee98d57b13edfda8a0c93629439ea3
+source-git-commit: 19872953e847921c0fee6d383026641c05012ead
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 6%
+source-wordcount: '499'
+ht-degree: 7%
 
 ---
 
 # 업데이트 탭 개요
 
-업데이트 탭에는 지난 90일 이내에 수행한 최신 업데이트 중 최대 200개가 표시됩니다. 다음 객체에 대한 업데이트에 응답할 수 있습니다.
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only for a limited number of objects when you opt in to the new commenting experience Beta.</span> -->
+
+<!-- for preview commenting beta: at the release of commenting beta: change the title to: Updates section overview - also update ALL articles from which this is linked-->
+
+업데이트 탭에는 지난 90일 이내에 수행한 최신 업데이트 중 최대 200개가 표시됩니다.
+
+다음 객체에 대한 설명을 작성하고 업데이트에 응답할 수 있습니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -25,21 +31,22 @@ ht-degree: 6%
   <tr> 
    <td> 
     <ul> 
+     <li>문서</li> 
+     <li>목표</li> 
+     <li>문제</li> 
+     <li>반복</li> 
      <li>프로젝트</li> 
-     <li>포트폴리오</li> 
      <li>프로그램</li> 
-     <li>템플릿</li> 
-     <li>템플릿 작업</li> 
-     <li>작업</li> 
+     <li>포트폴리오</li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li>문제</li> 
-     <li>반복</li> 
      <li>스토리</li> 
-     <li>사용자</li> 
-     <li>문서</li> 
+     <li>작업</li> 
+     <li>템플릿</li> 
+     <li>템플릿 작업</li> 
      <li>타임시트</li> 
+     <li>사용자</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -100,6 +107,11 @@ ht-degree: 6%
   <tr> 
    <td>반복</td> 
    <td>팀</td> 
+  </tr>
+
+<tr> 
+   <td>목표</td> 
+   <td>결과, 활동</td> 
   </tr> 
  </tbody> 
 </table>
@@ -107,8 +119,11 @@ ht-degree: 6%
 >[!NOTE]
 >
 >시스템 업데이트에 추가된 응답이 상위 개체에 롤업되지 않습니다. 하위 개체에 대한 직접 답장과 기존 업데이트에 추가된 응답만 상위 개체에 롤업됩니다.
+>
+>Adobe Workfront의 개체 계층에 대한 자세한 내용은 [Adobe Workfront의 개체 이해](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-Adobe Workfront의 개체 계층 구조에 대한 자세한 내용은 [Adobe Workfront의 개체 이해](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+<!-- drafted for the new commenting experience for issues in beta: Add this paragraph to the note above: 
+><span class="preview"> It is not possible to reply to system updates in the new commenting experience Beta. For more information, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).</span> -->
 
 ## 업데이트 탭의 제한 사항
 
