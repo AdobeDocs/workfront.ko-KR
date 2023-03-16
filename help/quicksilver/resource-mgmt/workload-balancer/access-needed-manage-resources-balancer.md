@@ -6,10 +6,10 @@ description: 올바른 액세스 또는 권한이 없으면 작업 로드 밸런
 author: Alina
 feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
-source-git-commit: bba51ba60ad6d2452fa368fd8b0bd708d005a82a
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 1%
+source-wordcount: '535'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Workfront 플랜</td> 
+   <td role="rowheader"><p>Workfront 플랜</p></td> 
    <td> <p>작업 로드 밸런서에 액세스할 수 있는 영역</p> </td> 
   </tr> 
   <tr> 
@@ -56,7 +56,8 @@ Workfront에서 작업 로드 밸런서를 찾을 수 있는 위치에 대한 �
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스*</td> 
-   <td> <p>플랜 </p> </td> 
+   <td> <p>리소스 영역에서 작업 로드 밸런서를 볼 계획</p>
+   <p>팀 또는 프로젝트의 작업 로드 밸런서를 보는 작업</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
@@ -83,8 +84,8 @@ Workfront에서 작업 로드 밸런서를 찾을 수 있는 위치에 대한 �
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스*</td> 
-   <td> <p>플랜 </p> 
-   <p>작업, 프로젝트의 작업 로드 밸런서에서 리소스 관리</p>
+   <td> <p>자원 관리 영역의 작업 로드 밸런서에서 지정을 관리할 계획</p>
+   <p>팀 또는 프로젝트의 작업 로드 밸런서에서 지정을 관리하는 작업</p>
    </td> 
   </tr> 
   <tr> 
@@ -97,7 +98,7 @@ Workfront에서 작업 로드 밸런서를 찾을 수 있는 위치에 대한 �
 </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p> 할당에 지정할 권한이 포함된 할당을 관리할 프로젝트에 대한 Contribute 또는 이상의 권한을 지정합니다. </p> <p>프로젝트 권한에 대한 자세한 내용은 문서를 참조하십시오 <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Adobe Workfront에서 프로젝트 공유</a>.</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p> 할당에 지정할 권한이 포함된 할당을 관리할 프로젝트에 대한 Contribute 또는 이상의 권한을 부여합니다. </p> <p>프로젝트 권한에 대한 자세한 내용은 문서를 참조하십시오 <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Adobe Workfront에서 프로젝트 공유</a>.</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체에 대한 액세스 요청 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

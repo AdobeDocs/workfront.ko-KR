@@ -6,9 +6,9 @@ description: 본인 또는 다른 사용자가 제출한 요청이나 제출하�
 author: Alina
 feature: Work Management
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 168e8ac6e7491e020164f9cfa9aef6cf1e64ffe5
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '880'
 ht-degree: 1%
 
 ---
@@ -121,7 +121,11 @@ ht-degree: 1%
 
    문제가 작업 또는 프로젝트로 변환되고 변환 프로세스에서 문제가 삭제된 경우 요약 패널이 비어 있습니다. 변환 문제에 대한 자세한 내용은 [Adobe Workfront의 변환 문제 개요](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-1. 에서 **필터 아이콘** ![](assets/filter-nwepng.png) 목록의 오른쪽 위에서 다음 필터 중 하나를 선택합니다.
+1. 에서 **필터 아이콘** ![](assets/filter-nwepng.png) 목록의 오른쪽 위에서 아래 표에 나열된 필터 중 하나를 선택합니다.
+
+   >[!TIP]
+   >
+   >요청 영역에서 필터를 수정할 수 없습니다. 또한 요청 영역의 보기를 수정하거나 변경하는 옵션이 없습니다.
 
    <table style="table-layout:auto"> 
     <col> 

@@ -6,9 +6,9 @@ description: Adobe Workfront 작업 로드 밸런서의 할당된 작업 영역 
 author: Alina
 feature: Resource Management
 exl-id: e4293d4a-afb8-48ef-8a8e-6fad2ef82a25
-source-git-commit: 5b889633a96d634a359181bfd53ec106b0f3705c
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '434'
 ht-degree: 2%
 
 ---
@@ -37,8 +37,8 @@ Adobe Workfront 작업 로드 밸런서의 할당된 작업 영역 내의 작업
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스*</td> 
-   <td> <p>팀 또는 자원 영역에서 작업 로드 밸런서를 사용할 계획 </p>
-   <p>프로젝트의 작업 로드 밸런서를 사용할 때 작업 </p>
+   <td> <p>리소스 영역에서 작업 로드 밸런서를 사용할 계획</p>
+   <p>작업, 팀 또는 프로젝트의 작업 로드 밸런서를 사용할 때</p>
 
 </td> 
   </tr> 

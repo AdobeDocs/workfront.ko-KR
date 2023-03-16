@@ -6,9 +6,9 @@ description: Adobe Workfront 작업 로드 밸런서를 사용하여 사용자�
 author: Alina
 feature: Resource Management
 exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
-source-git-commit: 10b905c8a66f2507cbfac7c15a01f38d40ab3e00
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '1545'
+source-wordcount: '1543'
 ht-degree: 2%
 
 ---
@@ -37,8 +37,8 @@ Adobe Workfront 작업 로드 밸런서를 사용하여 사용자에게 작업 �
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스*</td> 
-   <td> <p>팀 또는 자원 영역에서 작업 로드 밸런서를 사용할 계획 </p>
-   <p>프로젝트의 작업 로드 밸런서를 사용할 때 작업 </p>
+   <td> <p>리소스 영역에서 작업 로드 밸런서를 사용할 계획</p>
+   <p>작업, 팀 또는 프로젝트의 작업 로드 밸런서를 사용할 때</p>
 
 </td> 
   </tr> 

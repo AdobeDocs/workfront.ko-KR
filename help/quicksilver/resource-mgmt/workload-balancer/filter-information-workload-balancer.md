@@ -6,9 +6,9 @@ description: 작업 항목을 효율적으로 찾고 관리하는 사용자 또�
 author: Alina
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 10b905c8a66f2507cbfac7c15a01f38d40ab3e00
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '2466'
+source-wordcount: '2464'
 ht-degree: 0%
 
 ---
@@ -49,8 +49,8 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스*</td> 
-   <td> <p>팀 또는 자원 영역에서 작업 로드 밸런서를 사용할 계획 </p>
-   <p>프로젝트의 작업 로드 밸런서를 사용할 때 작업 </p>
+   <td> <p>리소스 영역에서 작업 로드 밸런서를 사용할 계획</p>
+   <p>작업, 팀 또는 프로젝트의 작업 로드 밸런서를 사용할 때</p>
  </td> 
   </tr> 
   <tr> 

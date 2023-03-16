@@ -6,9 +6,9 @@ description: 작업 로드 밸런서에서 요약 패널을 열어 지정된 작
 author: Alina
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
-source-git-commit: 5b889633a96d634a359181bfd53ec106b0f3705c
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '426'
 ht-degree: 2%
 
 ---
@@ -33,8 +33,8 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스*</td> 
-   <td> <p>팀 또는 자원 영역에서 작업 로드 밸런서를 사용할 계획 </p>
-   <p>프로젝트의 작업 로드 밸런서를 사용할 때 작업 </p>
+   <td> <p>리소스 영역에서 작업 로드 밸런서를 사용할 계획</p>
+   <p>작업, 팀 또는 프로젝트의 작업 로드 밸런서를 사용할 때</p> 
  </p> </td> 
   </tr> 
   <tr> 

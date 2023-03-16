@@ -6,7 +6,7 @@ description: 작업을 사용자, 역할 또는 팀에 할당하여 작업을 �
 author: Alina
 feature: Work Management
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: e83d4742106bc3cb5adb939040997959315dd1e2
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
 source-wordcount: '1789'
 ht-degree: 1%
@@ -139,9 +139,9 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
       <li>여러 역할이 할당되고 이 중 하나 이상이 사용자의 다른 역할 중 하나와 일치하는 경우, 작업 또는 문제가 사용자에게 할당됩니다(일치하는 항목이 여러 개 있는 경우 롤이 임의로 선택됨)</li>
       <li>하나 이상의 작업 역할이 할당되고 사용자의 작업 역할과 일치하는 항목이 없으면 작업이나 문제가 역할 또는 역할 및 사용자에게 모두 할당됩니다.</li>
      </ul>
-   <p>사용자의 기본 역할 및 기타 역할에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 프로필 편집</a>.</p>
-   </td>
-  </tr>
+   <p>사용자의 기본 역할 및 기타 역할에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">사용자 프로필 편집</a>.</p>
+   </td> 
+     </tr>
   </tbody>
   </table>
 

@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '2475'
+source-wordcount: '2509'
 ht-degree: 1%
 
 ---
@@ -179,8 +179,15 @@ ht-degree: 1%
        <ul> 
         <li>상태가 [!UICONTROL Current]입니다.</li> 
         <li>지난 3개월 동안 최신 정보를 얻었습니다</li> 
-       </ul> </p> </li> 
-     <li> <p><strong>프로젝트의 범위가 변경되는 경우</strong>: 프로젝트 범위가 변경될 때 프로젝트 타임라인을 즉시 다시 계산하려면 이 옵션을 선택합니다. 프로젝트 범위 변경을 구성하는 사항에 대한 자세한 내용은 <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">프로젝트 타임라인 다시 계산</a>.</p> </li> 
+        <li>다음 중 하나의 업데이트 유형이 있습니다.</li>
+        <ul>
+        <li>자동 및 변경 시</li>
+        <li>변경만</li>
+        <li>자동만</li> 
+      </ul>       
+    <b>팁</b>
+    <p>업데이트 유형의 수동 버전만 있는 프로젝트는 이 설정의 영향을 받지 않습니다.</p>
+    <li> <p><strong>프로젝트의 범위가 변경되는 경우</strong>: 프로젝트 범위가 변경될 때 프로젝트 타임라인을 즉시 다시 계산하려면 이 옵션을 선택합니다. 프로젝트 범위 변경을 구성하는 사항에 대한 자세한 내용은 <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">프로젝트 타임라인 다시 계산</a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

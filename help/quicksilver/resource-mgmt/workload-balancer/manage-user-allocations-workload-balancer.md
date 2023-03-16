@@ -6,9 +6,9 @@ description: 리소스 관리자는 사용자에게 작업을 할당하고 작�
 author: Alina
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '2787'
+source-wordcount: '2785'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,8 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스*</td> 
-   <td> <p>팀 또는 자원 영역에서 작업 로드 밸런서를 사용할 계획 </p>
-   <p>프로젝트의 작업 로드 밸런서를 사용할 때 작업 </p>
+   <td> <p>리소스 영역에서 작업 로드 밸런서를 사용할 계획</p>
+   <p>작업, 팀 또는 프로젝트의 작업 로드 밸런서를 사용할 때</p>
  </td> 
   </tr> 
   <tr> 

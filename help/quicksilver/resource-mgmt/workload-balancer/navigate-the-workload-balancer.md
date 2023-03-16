@@ -6,9 +6,9 @@ description: 작업 로드 밸런서를 사용하여 리소스의 가용성을 �
 author: Alina
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: f150c57e8b83e73734b1cbeded7ef4c16d65097c
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '4050'
+source-wordcount: '4048'
 ht-degree: 0%
 
 ---
@@ -75,8 +75,8 @@ Adobe Workfront의 작업 로드 밸런서를 사용하여 가용성에 따라 �
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스*</td> 
-   <td> <p>팀 또는 자원 영역에서 작업 로드 밸런서를 사용할 계획 </p>
-   <p>프로젝트의 작업 로드 밸런서를 사용할 때 작업 </p>
+   <td> <p>리소스 영역에서 작업 로드 밸런서를 사용할 계획</p>
+   <p>작업, 팀 또는 프로젝트의 작업 로드 밸런서를 사용할 때</p>
  </td> 
   </tr> 
   <tr> 
