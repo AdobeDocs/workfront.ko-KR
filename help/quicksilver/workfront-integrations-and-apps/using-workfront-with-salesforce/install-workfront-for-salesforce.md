@@ -6,7 +6,7 @@ description: 앱에서 사용할 수 있게 되기 전에 앱을 설치하려면
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4fea9d8f-7729-4fee-86d3-1a986be29f74
-source-git-commit: ad2fc27db2a19ea231e925d5991dbef27ea48030
+source-git-commit: 254ffae14b21dbef19b8f6b66a1c11e348c85c85
 workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 1%
@@ -71,11 +71,11 @@ ht-degree: 1%
 
 1. 프로덕션 환경에서 다음 위치로 이동하십시오.
 
-   `https://login.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002aUZY`
+   `https://login.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002eRjb`
 
    샌드박스 환경에서 다음 위치로 이동합니다.
 
-   `https://test.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002aUZY`
+   `https://test.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002eRjb`
 
 1. 을(를) 확인합니다. **[!UICONTROL 예, 이러한 타사 웹 사이트에 대한 액세스 권한 부여]** 상자.
 
