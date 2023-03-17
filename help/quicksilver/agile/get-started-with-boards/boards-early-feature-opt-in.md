@@ -6,9 +6,9 @@ title: 에 대한 초기 기능 옵트인 [!DNL Adobe Workfront] 보드
 description: 에 대해 알아보려면 이 문서를 참조하십시오. [!DNL Workfront Boards] 초기 기능 옵트인.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 88d0ce017401e7767ceeff9abc7a65986a07f0b9
+source-git-commit: 619f1862f3d6fb9280fe97de4b5055d64bb46c6c
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
@@ -125,16 +125,16 @@ ht-degree: 0%
    <td>부분적으로 릴리즈됨</td>
   </tr>
   <tr>
-   <td>보드 컬렉션 만들기</td>
+   <td>작업 스트림을 만들고 작업 스트림에 보드 추가</td>
    <td>부분적으로 릴리즈됨</td>
   </tr>
   <tr>
    <td>반복 생성</td>
-   <td>계획됨</td>
+   <td>부분적으로 릴리스됨(미리 보기에서 사용 가능)</td>
   </tr>
   <tr>
    <td>카드 목록 또는 백로그 정의</td>
-   <td>계획됨</td>
+   <td>부분적으로 릴리스됨(미리 보기에서 사용 가능)</td>
   </tr>
   <tr>
    <td>하위 작업을 카드의 체크리스트 항목으로 가져오기</td>

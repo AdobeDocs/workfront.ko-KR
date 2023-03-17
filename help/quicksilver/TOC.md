@@ -2,9 +2,9 @@
 user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 feature-set: Workfront
-source-git-commit: f4e3991745109bfe9f2d27d4be30bbcf90a23cb4
+source-git-commit: 619f1862f3d6fb9280fe97de4b5055d64bb46c6c
 workflow-type: tm+mt
-source-wordcount: '12763'
+source-wordcount: '12773'
 ht-degree: 1%
 
 ---
@@ -928,7 +928,10 @@ ht-degree: 1%
       * [보드에 흡기 열 추가](agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
       * [보드에서 그룹 사용](agile/use-boards-agile-planning-tools/group-cards-on-board.md)
       * [카드 폴아웃 구성](agile/use-boards-agile-planning-tools/configure-card-falloff.md)
-      * [컬렉션 관리](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
+      * [워크플로우 관리](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
+      * [카드 목록 사용](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
+      * [반복 만들기](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md)
+      * [반복 지표 검토](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)
    * 애자일 팀의 간판 {#kanban}
       * [애자일 팀의 간판](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
       * [간판 개요](agile/use-kanban-in-an-agile-team/kanban-overview.md)

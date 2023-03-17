@@ -6,9 +6,9 @@ description: 카드를 보드의 임의의 열로 이동하거나 카드를 복�
 author: Lisa
 feature: Agile
 exl-id: 83dab74f-903f-41b4-97b4-142f13e654e0
-source-git-commit: 86d168cc13b7b1942877430a9194c38be2dd56de
+source-git-commit: 49af035c3bf8770da89c133a27adea676e5daf6d
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '320'
 ht-degree: 1%
 
 ---
@@ -74,6 +74,8 @@ ht-degree: 1%
    ![추가 메뉴](assets/boards-moremenu-350x329.png)
 
 ## 카드 복사
+
+임시 카드를 복사하면 검사 목록 항목을 포함하여 카드의 모든 필드가 복제됩니다.
 
 >[!NOTE]
 >
