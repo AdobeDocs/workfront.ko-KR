@@ -4,9 +4,9 @@ description: 23.2 릴리스 개요
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: f4e3991745109bfe9f2d27d4be30bbcf90a23cb4
+source-git-commit: 77a4d3291882e0a5284971fa0bc054b8d81e6349
 workflow-type: tm+mt
-source-wordcount: '2376'
+source-wordcount: '2375'
 ht-degree: 0%
 
 ---
@@ -397,13 +397,13 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">캔버스 대시보드</a><span style="color: #ff0000;"> 미리 보기의 새로운 기능!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">캔버스 대시보드</a><span style="color: #ff0000;"> 곧 제공될 예정입니다!</span></p>
                         <p>캔버스 대시보드가 레이아웃 템플릿에서 활성화할 수 있는 진행 중인 대시보드의 기능으로 추가되었습니다. 캔버스 대시보드를 사용하면 새로운 레이아웃 옵션 외에도 보고 캔버스 시각화를 기존 보고서와 결합할 수 있습니다. 현재 목록 보고서만 지원되지만, 개발이 계속되면서 더 많은 옵션이 추가됩니다.</p>
                     </td>
-                    <td><p><b>다음 날짜에 사용할 수 있습니다. 해당 없음</b></p>
+                    <td><p><b>다음 날짜에 사용할 수 있습니다.</b></p>
                         <ul>
                             <li>
-                                <p>미리 보기 릴리스:<br /></p>
+                                <p>미리 보기 릴리스:해당 사항 없음<br /></p>
                             </li>
                             <li>
                                 <p><span class="preview">프로덕션 릴리스: 23.2 릴리스 사용</span></p>
