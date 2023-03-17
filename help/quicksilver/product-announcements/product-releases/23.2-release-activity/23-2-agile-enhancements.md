@@ -4,9 +4,9 @@ description: 23.2 Agile 개선
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 938bccf3b3eedf010b7d1db451c365f6097dc64d
+source-git-commit: 456794da11baf21bcd4f138d15719007ae2759a6
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1121'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,27 @@ Workfront 보드에서 사용할 수 있는 몇 가지 새로운 기능을 사�
 
 자세한 내용은 [워크플로우 관리](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [반복 만들기](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md), 및 [카드 목록 사용](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). 두 번째 문서는 내 분기를 게시하기 전까지 기본 설정에서 사용할 수 없습니다.
 
-## 목록 및 보고서에서 보드 작업 스트림에 작업 및 문제 추가
+## 목록 및 보고서의 작업 및 문제를 작업 스트림 카드 목록에 추가합니다
 
 이제 목록 또는 보고서 보기에서 직접 Workfront 보드의 작업 스트림에 기존 작업 또는 문제를 추가할 수 있습니다. 워크플로우에 추가하는 모든 항목이 카드 목록에 계획되지 않은 카드로 추가됩니다.
+
+자세한 내용은 [보드에 기존 작업 또는 문제 추가](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
+
+## 보드에 카드에 사용자 지정 필드 추가
+
+이제 Adobe Workfront 보드에 사용자 지정 필드를 포함할 수 있습니다. Workfront에서 필드를 이미 만들어야 합니다. 보드 내에서 새 사용자 지정 필드를 디자인하고 만들 수 없습니다.
+
+기본 필드와 마찬가지로 카드의 전체 보기에서 사용자 지정 필드를 표시하고 보드의 압축된 보기를 표시하도록 선택할 수 있습니다.
+
+카드의 사용자 지정 필드의 데이터는 모두 읽기 전용입니다.
+
+자세한 내용은 [카드에 표시되는 필드를 사용자 정의합니다](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
+
+## 목록 및 보고서의 작업 및 문제를 Workfront 보드에 추가합니다
+
+이제 목록 또는 보고서 보기에서 직접 Workfront 보드에 기존 작업 또는 문제를 추가할 수 있습니다. 보드에 추가하는 모든 항목은 연결된 카드가 됩니다.
+
+또한 이제 보드 필드를 사용하여 작업 또는 문제에 대한 목록 및 보고서에 추가할 수 있습니다. 이 필드에는 작업 또는 문제가 추가된 모든 보드가 표시됩니다.
 
 자세한 내용은 [보드에 기존 작업 또는 문제 추가](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
@@ -48,13 +66,6 @@ Workfront 보드에서 사용할 수 있는 몇 가지 새로운 기능을 사�
 
 자세한 내용은 [보드에서 연결된 카드 사용](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-## 목록 및 보고서에서 Workfront 보드에 작업 및 문제 추가
-
-이제 목록 또는 보고서 보기에서 직접 Workfront 보드에 기존 작업 또는 문제를 추가할 수 있습니다. 보드에 추가하는 모든 항목은 연결된 카드가 됩니다.
-
-또한 이제 보드 필드를 사용하여 작업 또는 문제에 대한 목록 및 보고서에 추가할 수 있습니다. 이 필드에는 작업 또는 문제가 추가된 모든 보드가 표시됩니다.
-
-자세한 내용은 [보드에 기존 작업 또는 문제 추가](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
 ## 카드의 필드 표시 사용자 지정
 

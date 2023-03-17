@@ -4,9 +4,9 @@ description: 23.2 릴리스 개요
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 938bccf3b3eedf010b7d1db451c365f6097dc64d
+source-git-commit: 456794da11baf21bcd4f138d15719007ae2759a6
 workflow-type: tm+mt
-source-wordcount: '2571'
+source-wordcount: '2574'
 ht-degree: 0%
 
 ---
@@ -138,7 +138,7 @@ ht-degree: 0%
                 </tr> 
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">목록 및 보고서에서 보드 작업 스트림에 작업 및 문제 추가</a><span style="color: #ff0000;"> 미리 보기의 새로운 기능!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">목록 및 보고서의 작업 및 문제를 작업 스트림 카드 목록에 추가합니다</a><span style="color: #ff0000;"> 미리 보기의 새로운 기능!</span></p>
                         <p>이제 목록 또는 보고서 보기에서 직접 Workfront 보드의 작업 스트림에 기존 작업 또는 문제를 추가할 수 있습니다. 워크플로우에 추가하는 모든 항목이 카드 목록에 계획되지 않은 카드로 추가됩니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용할 수 있습니다.</b></p>
@@ -170,7 +170,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">목록 및 보고서에서 Workfront 보드에 작업 및 문제 추가</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">목록 및 보고서의 작업 및 문제를 Workfront 보드에 추가합니다</a></p>
                         <p>이제 목록 또는 보고서 보기에서 직접 Workfront 보드에 기존 작업 또는 문제를 추가할 수 있습니다. 보드에 추가하는 모든 항목은 연결된 카드가 됩니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용할 수 있습니다.</b></p>
