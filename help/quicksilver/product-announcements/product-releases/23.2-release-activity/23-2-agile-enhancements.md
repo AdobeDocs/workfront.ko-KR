@@ -4,9 +4,9 @@ description: 23.2 Agile 개선
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8a209bbe64b7b69b41cd9e4d2f603ff58491ba30
+source-git-commit: 938bccf3b3eedf010b7d1db451c365f6097dc64d
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '1032'
 ht-degree: 0%
 
 ---
@@ -17,27 +17,24 @@ ht-degree: 0%
 
 23.2 릴리스 주기에 있는 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [23.2 릴리스 개요](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
-<!--
+## Adobe Workfront 보드에서 사용할 수 있는 반복 기능
 
-## Iteration functionality available in Adobe Workfront Boards
+Workfront 보드에서 사용할 수 있는 몇 가지 새로운 기능을 사용하면 기민한 스크럼 기능을 사용할 수 있습니다. 이러한 기능은 다음과 같습니다.
 
-Several new features available in Workfront Boards make it possible to use agile Scrum functionality. These features include:
+* 동일한 팀과 관련된 보드를 그룹화하고 작업을 공동으로 수행하는 워크플로우입니다
+* 카드를 Workfront 작업 및 문제에 연결하기 위해 소스를 사용하는 옵션 사용 시 카드 목록 또는 작업 백로그
+* 반복 계획 및 반복 프로세스 보드
 
-* Workstreams for grouping boards related to the same team, and collaborating on work
-* A list of cards, or backlog of work, with the option to use sources to connect cards to Workfront tasks and issues
-* Iteration planning and iteration process boards
+컬렉션의 이름이 workstreams로 변경되었습니다. 워크플로우는 데이터를 다양한 방식으로 시각화하는 데 도움이 됩니다. 목록, 보드 또는 이터레이션에 있는 카드에 항목을 표시할 수 있습니다. 작업 스트림의 카드는 여러 보드 간에 공유할 수도 있습니다. 워크플로우에서 카드 및 보드를 사용하여 워크플로우를 손쉽게 진행할 수 있습니다.
 
-Note that collections have been renamed to workstreams. Workstreams help you visualize data in different ways. You can display items on cards in a list, on a board, or on an iteration. Cards in a workstream can also be shared among multiple boards. You can easily facilitate workflows using cards and boards in a workstream.
+자세한 내용은 [워크플로우 관리](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [반복 만들기](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md), 및 [카드 목록 사용](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). 두 번째 문서는 내 분기를 게시하기 전까지 기본 설정에서 사용할 수 없습니다.
 
-For more information, see [Manage workstreams](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Create an iteration](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md), and [Use the card list](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). Second two articles will not be available in Main until I publish my branch.
+## 목록 및 보고서에서 보드 작업 스트림에 작업 및 문제 추가
 
-## Add tasks and issues to Boards workstreams from lists and reports
+이제 목록 또는 보고서 보기에서 직접 Workfront 보드의 작업 스트림에 기존 작업 또는 문제를 추가할 수 있습니다. 워크플로우에 추가하는 모든 항목이 카드 목록에 계획되지 않은 카드로 추가됩니다.
 
-You can now add existing tasks or issues to a workstream in Workfront Boards directly from a list or report view. Any items you add to the workstream are added to the card list as unplanned cards.
+자세한 내용은 [보드에 기존 작업 또는 문제 추가](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
-For more information, see [Add existing tasks or issues to a board](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
-
--->
 
 ## 보드에 연결된 카드에 대한 로그 시간
 
@@ -50,6 +47,14 @@ For more information, see [Add existing tasks or issues to a board](/help/quicks
 기본적으로 연결된 카드에 시간 로깅 필드가 표시되지 않습니다. 활성화 **시간** 를 입력합니다.
 
 자세한 내용은 [보드에서 연결된 카드 사용](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+
+## 목록 및 보고서에서 Workfront 보드에 작업 및 문제 추가
+
+이제 목록 또는 보고서 보기에서 직접 Workfront 보드에 기존 작업 또는 문제를 추가할 수 있습니다. 보드에 추가하는 모든 항목은 연결된 카드가 됩니다.
+
+또한 이제 보드 필드를 사용하여 작업 또는 문제에 대한 목록 및 보고서에 추가할 수 있습니다. 이 필드에는 작업 또는 문제가 추가된 모든 보드가 표시됩니다.
+
+자세한 내용은 [보드에 기존 작업 또는 문제 추가](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
 ## 카드의 필드 표시 사용자 지정
 

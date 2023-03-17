@@ -4,9 +4,9 @@ description: 23.2 릴리스 개요
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 77a4d3291882e0a5284971fa0bc054b8d81e6349
+source-git-commit: 938bccf3b3eedf010b7d1db451c365f6097dc64d
 workflow-type: tm+mt
-source-wordcount: '2375'
+source-wordcount: '2571'
 ht-degree: 0%
 
 ---
@@ -114,44 +114,60 @@ ht-degree: 0%
                         </p>
                     </td>
                 </tr>
-              <!-- <tr>
+                <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Add tasks and issues to Boards workstreams from lists and reports</a><span style="color: #ff0000;"> New in Preview!</span></p>
-                        <p>You can now add existing tasks or issues to a workstream in Workfront Boards directly from a list or report view. Any items you add to the workstream are added to the card list as unplanned cards.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront 보드에서 사용할 수 있는 반복 기능</a><span style="color: #ff0000;"> 미리 보기의 새로운 기능!</span></p>
+                        <p>Workfront 보드에서 사용할 수 있는 몇 가지 새로운 기능을 사용하면 기민한 스크럼 기능을 사용할 수 있습니다. 이러한 기능은 다음과 같습니다.
+                        <ul>
+                        <li>동일한 팀과 관련된 보드를 그룹화하고 작업을 공동으로 수행하는 워크플로우입니다</li>
+                        <li>카드를 Workfront 작업 및 문제에 연결하기 위해 소스를 사용하는 옵션 사용 시 카드 목록 또는 작업 백로그</li>
+                        <li>반복 계획 및 반복 프로세스 보드</li>
+                        </ul>
+                        </p>
                     </td>
-                    <td><p><b>Available on these dates:</b></p>
+                    <td><p><b>다음 날짜에 사용할 수 있습니다.</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: March 23, 2023<br /></p>
+                                <p>미리 보기 릴리스: 2023년 3월 17일<br /></p>
                             </li>
                             <li>
-                                <p>Production release: With the 23.2 release</p>
+                                <p>프로덕션 릴리스: 23.2 릴리스 사용</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr> 
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">목록 및 보고서에서 보드 작업 스트림에 작업 및 문제 추가</a><span style="color: #ff0000;"> 미리 보기의 새로운 기능!</span></p>
+                        <p>이제 목록 또는 보고서 보기에서 직접 Workfront 보드의 작업 스트림에 기존 작업 또는 문제를 추가할 수 있습니다. 워크플로우에 추가하는 모든 항목이 카드 목록에 계획되지 않은 카드로 추가됩니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용할 수 있습니다.</b></p>
+                        <ul>
+                            <li>
+                                <p>미리 보기 릴리스: 2023년 3월 17일<br /></p>
+                            </li>
+                            <li>
+                                <p>프로덕션 릴리스: 23.2 릴리스 사용</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Iteration functionality available in Adobe Workfront Boards</a><span style="color: #ff0000;"> New in Preview!</span></p>
-                        <p>Several new features available in Workfront Boards make it possible to use agile Scrum functionality. These features include:
-                        <ul>
-                        <li>Workstreams for grouping boards related to the same team, and collaborating on work</li>
-                        <li>A list of cards, or backlog of work, with the option to use sources to connect cards to Workfront tasks and issues</li>
-                        <li>Iteration planning and iteration process boards</li>
-                        </ul>
-                        </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">보드에 카드에 사용자 지정 필드 추가</a><span style="color: #ff0000;"> 미리 보기의 새로운 기능!</span></p>
+                        <p>이제 Adobe Workfront 보드에 사용자 지정 필드를 포함할 수 있습니다. Workfront에서 필드를 이미 만들어야 합니다. 보드 내에서 새 사용자 지정 필드를 디자인하고 만들 수 없습니다.</p>
                     </td>
-                    <td><p><b>Available on these dates:</b></p>
+                    <td><p><b>다음 날짜에 사용할 수 있습니다.</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: March 23, 2023<br /></p>
+                                <p>미리 보기 릴리스: 2023년 3월 17일<br /></p>
                             </li>
                             <li>
-                                <p>Production release: With the 23.2 release</p>
+                                <p>프로덕션 릴리스: 23.2 릴리스 사용</p>
                             </li>
                         </ul>
                     </td>
-                </tr> -->
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">목록 및 보고서에서 Workfront 보드에 작업 및 문제 추가</a></p>
