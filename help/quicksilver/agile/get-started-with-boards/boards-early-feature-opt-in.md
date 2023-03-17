@@ -6,9 +6,9 @@ title: 에 대한 초기 기능 옵트인 [!DNL Adobe Workfront] 보드
 description: 에 대해 알아보려면 이 문서를 참조하십시오. [!DNL Workfront Boards] 초기 기능 옵트인.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 8837a3ffe8378cf126d0663ea70b7366a9e5b4c5
+source-git-commit: 88d0ce017401e7767ceeff9abc7a65986a07f0b9
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '649'
 ht-degree: 0%
 
 ---
@@ -151,6 +151,10 @@ ht-degree: 0%
   <tr>
    <td>연결된 카드의 로그 시간</td>
    <td>부분적으로 릴리즈됨</td>
+  </tr>
+  <tr>
+   <td>연결된 카드에 사용자 지정 필드 추가</td>
+   <td>부분적으로 릴리스됨(미리 보기에서 사용 가능)</td>
   </tr>
  </tbody> 
 </table>
