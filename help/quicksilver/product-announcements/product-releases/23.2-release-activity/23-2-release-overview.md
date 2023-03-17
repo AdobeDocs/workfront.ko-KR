@@ -4,9 +4,9 @@ description: 23.2 릴리스 개요
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 03908f6ebb5693e48b36f93150267e9986dc1069
+source-git-commit: f4e3991745109bfe9f2d27d4be30bbcf90a23cb4
 workflow-type: tm+mt
-source-wordcount: '2299'
+source-wordcount: '2376'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 * [민첩한 개선 사항](#agile-enhancements)
 * [프로젝트 관리 개선 사항](#project-management-enhancements)
 * [리소스 관리 개선 사항](#resource-management-enhancements)
-* [보고서 및 대시보드 개선 사항]
+* [보고서 및 대시보드 개선 사항](#reports-and-dashboards-enhancements)
 * [모바일 개선 사항](#mobile-enhancements)
 * [기타 개선 사항](#other-enhancements)
 
@@ -377,8 +377,8 @@ ht-degree: 0%
             </tbody>
         </table>
 
-<!--
-### Reports and Dashboards enhancements
+
+### 보고서 및 대시보드 개선 사항
 
 
 <table>
@@ -387,34 +387,32 @@ ht-degree: 0%
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Feature</span>
+                        <p><span class="bold">기능</span>
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Release dates</span>
+                        <p><span class="bold">릴리스 날짜</span>
                         </p>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-resource-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Canvas Dashboards</a><span style="color: #ff0000;"> New in Preview!</span></p>
-                        <p>Canvas Dashboards has been added as a work-in-progress feature for Dashboards that can be enabled in layout templates. Canvas Dashboards will allow Reporting Canvas visualizations to be combined with existing reports in addition to new layout options. Currently only list reports are supported, but more options will be added as development continues.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">캔버스 대시보드</a><span style="color: #ff0000;"> 미리 보기의 새로운 기능!</span></p>
+                        <p>캔버스 대시보드가 레이아웃 템플릿에서 활성화할 수 있는 진행 중인 대시보드의 기능으로 추가되었습니다. 캔버스 대시보드를 사용하면 새로운 레이아웃 옵션 외에도 보고 캔버스 시각화를 기존 보고서와 결합할 수 있습니다. 현재 목록 보고서만 지원되지만, 개발이 계속되면서 더 많은 옵션이 추가됩니다.</p>
                     </td>
-                    <td><p><b>Available on these dates: N/A</b></p>
+                    <td><p><b>다음 날짜에 사용할 수 있습니다. 해당 없음</b></p>
                         <ul>
                             <li>
-                                <p>Preview release:<br /></p>
+                                <p>미리 보기 릴리스:<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Production release: With the 23.2 release</span></p>
+                                <p><span class="preview">프로덕션 릴리스: 23.2 릴리스 사용</span></p>
                             </li>
                         </ul>
                     </td>
                 </tr>
             </tbody>
         </table>
-
-        -->
 
 ### 모바일 개선 사항
 
