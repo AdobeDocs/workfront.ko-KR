@@ -5,7 +5,7 @@ title: 통합 주석 달기 경험
 description: 새로운 통합 주석 달기 경험은
 author: Nolan
 feature: Get Started with Workfront
-source-git-commit: 19872953e847921c0fee6d383026641c05012ead
+source-git-commit: 39647f235c2e131e0ddd5d3b72d2f073387e531e
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 1%
@@ -26,7 +26,7 @@ Adobe Workfront에서 주석 달기 경험에 대한 업데이트가 현재 개�
 >
 >The new commenting experience is only available for the Updates section of select objects. 
 >
->For information about what objects include the Updates section, see [Updates tab overview](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+>For information about what objects include the Updates section, see [Updates section overview](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
 >The new commenting experience is not available for other areas of Workfront that display updates. For example, the new experience is not availabe for the following areas:
 >
 >* Home

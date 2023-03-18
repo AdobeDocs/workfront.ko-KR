@@ -2,27 +2,56 @@
 content-type: overview
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
-title: 업데이트 탭 개요
-description: 업데이트 탭에는 지난 90일 이내에 수행한 최신 업데이트 중 최대 200개가 표시됩니다.
+title: 업데이트 섹션 개요
+description: 업데이트 섹션에는 지난 90일 내에 수행된 최신 업데이트 중 최대 200개가 표시됩니다.
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 19872953e847921c0fee6d383026641c05012ead
+source-git-commit: 39647f235c2e131e0ddd5d3b72d2f073387e531e
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 7%
+source-wordcount: '592'
+ht-degree: 6%
 
 ---
 
-# 업데이트 탭 개요
+# 업데이트 섹션 개요
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only for a limited number of objects when you opt in to the new commenting experience Beta.</span> -->
+<!--take "Beta" references out when we remove the beta-->
 
-<!-- for preview commenting beta: at the release of commenting beta: change the title to: Updates section overview - also update ALL articles from which this is linked-->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
 
-업데이트 탭에는 지난 90일 이내에 수행한 최신 업데이트 중 최대 200개가 표시됩니다.
+>[!NOTE]
+>
+>We are currently redesigning the Updates section of an object. You can access the new design by enabling the commenting Beta. 
+Currently, the Beta is available for <span class="preview">issues</span>. 
+For more information about the new commenting  experience, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md). 
 
-다음 객체에 대한 설명을 작성하고 업데이트에 응답할 수 있습니다.
+-->
+
+객체의 업데이트 섹션에는 객체의 변경 사항을 추적하는 객체 또는 시스템 업데이트 시 사용자가 수행하는 주석이 표시됩니다.
+
+## 업데이트 섹션 개요
+
+<!--drafted for the commenting beta for issues: 
+The information is organized differently in the Updates section, depending on which environment you access it from. 
+
+###  Overview of the current Updates section 
+-->
+
+개체의 업데이트 섹션에는 지난 90일 내에 수행된 최신 업데이트 중 최대 200개가 표시됩니다.
+
+<!--drafted for the commenting beta for issues: 
+The current Updates section shows the following information:
+
+************** AND REMOVE THE SENTENCE BELOW WHEN MAKING THIS LIVE:
+-->
+
+업데이트 섹션에는 다음 정보가 표시됩니다.
+
+* 사용자가 작성한 댓글과 해당 댓글에 대한 회신
+* Workfront이 개체에 특정 이벤트를 기록하기 위해 만드는 정보 메시지인 시스템 업데이트. 예를 들어 시스템 업데이트를 통해 상태, 이름 또는 사용자 지정 필드의 변경 사항을 캡처할 수 있습니다. Workfront 또는 그룹 관리자가 객체에 대한 시스템 업데이트를 활성화할 수 있습니다. 자세한 내용은 [시스템 업데이트 구성](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+
+다음 객체에 대해 업데이트 섹션이 표시됩니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -52,11 +81,43 @@ ht-degree: 7%
  </tbody> 
 </table>
 
+<!--drafted for the commenting beta for issues: 
+###  Overview of the Updates section in the Beta commenting experience
+
+The Updates section displays information in the following tabs in the Beta commenting experience: 
+
+* **Updates**: Displays comments made by users and replies to those comments. 
+* **System Activity**: Displays system updates which are informational messages that Workfront creates to record certain events on an objects. For example, you can capture changes in status, name, or custom fields with system updates. Your Workfront or group administrator can enable system updates for your ojects. For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+
+Currenlty, you can make comments and reply to updates using the Beta commenting experience on the following objects:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> 
+    <ul> 
+     <li>Goals</li> 
+     </ul> </td> 
+   <td> 
+    <ul> 
+     <li><span class="preview">Issues</span></li> 
+     </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+>[!NOTE]
+>
+>The commenting experience Beta is the default current experience for goals. You must have an additional license to access Workfront Goals. For information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+-->
+
 ## 상위 등급 개체에도 표시되는 업데이트
 
-다음 표에 표시된 것처럼 특정 개체의 업데이트에 대한 응답도 상위 등급 개체의 업데이트 탭에 표시됩니다.
+다음 표에 표시된 대로 특정 개체의 업데이트에 대한 응답도 순위가 높은 개체의 업데이트 섹션에도 표시됩니다.
 
-예를 들어 작업에 업데이트를 추가하면 해당 작업의 업데이트 탭 및 작업이 포함된 프로젝트의 업데이트 탭에 업데이트가 나타납니다.
+예를 들어, 작업에 업데이트를 추가하면 해당 업데이트가 작업의 업데이트 섹션과 작업이 포함된 프로젝트의 업데이트 섹션에 표시됩니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -125,18 +186,18 @@ ht-degree: 7%
 <!-- drafted for the new commenting experience for issues in beta: Add this paragraph to the note above: 
 ><span class="preview"> It is not possible to reply to system updates in the new commenting experience Beta. For more information, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).</span> -->
 
-## 업데이트 탭의 제한 사항
+## 업데이트 섹션의 제한 사항
 
 ### 사용자 및 팀의 제한 사항
 
-팀에서 업데이트할 수 없습니다. 팀의 업데이트 탭은 다음 객체에 입력한 업데이트로 채워집니다.
+팀에서 업데이트할 수 없습니다. 팀의 업데이트 섹션은 다음 개체에 입력한 업데이트로 채워집니다.
 
 * 사용자
 * 타임시트
 * 스토리
 * 반복
 
-사용자 및 팀의 업데이트 탭에서 지난 90일 동안 입력한 업데이트를 볼 수 있습니다.
+사용자 및 팀의 업데이트 섹션에서 지난 90일 동안 입력한 업데이트를 볼 수 있습니다.
 
 사용자 또는 팀이 90일 제한 이상의 업데이트를 모두 보려면 노트에 대한 보고서를 작성할 수 있습니다. 보고서에는 사용자 또는 팀에 대한 모든 업데이트를 표시하는 시간 필터가 있지 않아야 합니다. 자세한 내용은 [사용자 지정 보고서 만들기](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 

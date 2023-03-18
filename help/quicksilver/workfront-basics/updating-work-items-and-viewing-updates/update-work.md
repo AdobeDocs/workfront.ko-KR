@@ -6,9 +6,9 @@ description: Adobe Workfront 개체(프로젝트, 작업 또는 문제)에 업�
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 19872953e847921c0fee6d383026641c05012ead
+source-git-commit: 39647f235c2e131e0ddd5d3b72d2f073387e531e
 workflow-type: tm+mt
-source-wordcount: '1827'
+source-wordcount: '1956'
 ht-degree: 1%
 
 ---
@@ -17,15 +17,27 @@ ht-degree: 1%
 
 <!-- Drafted for commenting experience: 
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only for a limited number of objects when you opt in to the new commenting experience Beta.</span> -->
+<!--take "Beta" references out when we remove the beta-->
 
-Workfront의 여러 개체에 주석을 추가할 수 있습니다. 자세한 내용은 [업데이트 탭 개요](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
 
-Adobe Workfront 개체(프로젝트, 작업 또는 문제)에 업데이트를 추가하여 개체의 진행 상황에 대해 주석 달기 외에 전달할 수 있습니다. 객체에 할당되거나 가입된 사용자는 업데이트를 볼 수 있습니다. 또한 사용자에게 업데이트에 관심을 갖도록 태그를 지정할 수도 있습니다.
+>[!NOTE]
+>
+>We are currently redesigning the way you update work when using the Updates section of an object. 
+>You can access the new design by enabling the commenting Beta. 
+>Currently, the Beta is available for <span class="preview">issues</span>. 
+For more information about the new updating experience, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md). 
 
-이 페이지의 정보는 프로젝트, 작업 또는 문제에 대한 작업을 업데이트하는 것입니다. 목표에 주석 및 업데이트를 추가하는 방법은 다음을 참조하십시오 [Adobe Workfront 목표의 목표 주석 관리](../../workfront-goals/goal-management/manage-goal-comments.md).
+-->
 
-다음 Workfront 영역에서 프로젝트, 작업 및 문제를 업데이트할 수 있습니다.
+업데이트 섹션에서 Adobe Workfront의 대부분의 개체에 주석을 추가할 수 있습니다. 업데이트 섹션을 표시하는 객체에 대한 자세한 내용은 [업데이트 섹션 개요](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
+
+개체에 주석을 달 때 Workfront 개체(프로젝트, 작업 또는 문제)에 업데이트를 추가하여 개체의 진행 상황을 전달할 수 있습니다. 객체에 할당되거나 가입된 사용자는 업데이트를 볼 수 있습니다. 또한 사용자에게 업데이트에 관심을 갖도록 태그를 지정할 수도 있습니다. 태그가 지정된 사용자는 인앱 알림 및 업데이트에 대한 이메일을 받게 됩니다.
+
+이 페이지의 정보는 Workfront 개체에 대해 주석을 달 수 있는 방법과 프로젝트, 작업 및 문제를 업데이트하는 방법에 대해 설명합니다. 목표에 대한 댓글 달기에 대한 자세한 내용은 [Adobe Workfront 목표의 목표 주석 관리](../../workfront-goals/goal-management/manage-goal-comments.md). Workfront 목표에 액세스하려면 추가 라이센스가 있어야 합니다.
+
+
+Workfront의 다음 영역에서 프로젝트, 작업 및 문제에 대한 업데이트를 추가할 수 있습니다.
 
 * Workfront 개체의 업데이트 섹션에 있습니다
 * 홈 영역에서(작업 및 문제)
@@ -99,22 +111,162 @@ drafted for P&P release:
 
 ## 작업 항목에 업데이트 추가
 
-<!--drafted for the commenting experience - change the NOTE at the top of this paragraph with every new release to other objects
+<!--drafted for the commenting experience - change the NOTE at the top of the following section with every new release to other objects
 
-Adding an update to a work item differs depending on what environment and what object you choose. 
+Adding an update to a work item differs depending on what version of the Updates section and what object you choose. 
 
-### Add an update to a work item in the Production environment
+### Add an update to a work item in the current Updates section
 
 >[!NOTE]
 >
->The following functionality is available for all objects except for goals, in the Production and Preview environments. You must have an additional license to access Workfront Goals. For information about commenting on goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md)
+>The following functionality is available for all objects except for goals. You must have an additional license to access Workfront Goals. For information about commenting on goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md)
 
 -->
 
 1. 업데이트를 제공할 작업 항목(예: 프로젝트, 작업 또는 문제)으로 이동합니다.
 1. 을(를) 클릭합니다. **업데이트** 섹션을 참조하십시오.
 1. 클릭 **새 업데이트 시작,** 그런 다음 업데이트를 입력합니다.
+1. (선택 사항) 리치 텍스트를 사용하거나 업데이트에 이모지, 링크 또는 이미지를 추가하여 컨텐츠를 개선합니다. 자세한 내용은 이 문서의 &quot;Workfront 업데이트에서 리치 텍스트 사용&quot; 섹션을 참조하십시오
+1. (선택 사항) 작업 항목에 대한 다음 정보를 업데이트합니다.
 
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"><strong>알림</strong></td> 
+      <td>업데이트에 대한 알림을 받아야 하는 사용자를 식별합니다. 업데이트되면 개체에 할당되거나 구독한 사용자가 자동으로 알림을 받습니다.<br><p>업데이트에 다른 사용자를 포함하는 방법에 대한 자세한 내용은 <a href="../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">업데이트에 다른 사용자에게 태그 지정</a>.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>커밋 일자</strong></td> 
+      <td>날짜 선택기에서 작업 항목을 완료하기 위해 커밋하는 날짜를 선택합니다. 커밋 날짜에 대한 자세한 내용은 <a href="../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">커밋 날짜 개요</a>.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>상황</strong></td> 
+      <td>작업 또는 문제에 대한 새 조건을 선택합니다. 조건 선택에 대한 자세한 내용은 <a href="../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">작업 및 문제에 대한 조건 업데이트</a>.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>상태</strong></td> 
+      <td>현재 상태 옆의 화살표를 클릭한 다음 드롭다운 메뉴에서 원하는 상태를 선택합니다. 상태 설정에 대한 자세한 내용은 <a href="../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">작업 상태 업데이트</a>.<p>작업 항목의 상태를 업데이트해도 프로젝트의 상태가 자동으로 변경되지 않습니다. 프로젝트 설정 방식에 따라 프로젝트 상태를 별도로 업데이트해야 할 수 있습니다. 다양한 프로젝트 업데이트 유형에 대한 자세한 내용은 <a href="../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">프로젝트 업데이트 유형을 선택합니다 </a>.</p><p><b>메모</b>
+
+   작업 항목이 승인 대기 중 상태인 동안에는 작업 항목의 상태를 변경할 수 없습니다.</p></td>
+   </tr> 
+     <tr> 
+      <td role="rowheader"><strong>완료 표시줄</strong></td> 
+      <td>(작업에서만 사용 가능) 진행률 표시줄을 원하는 비율로 슬라이딩하여 완료된 작업의 백분율을 나타냅니다. 완료 표시줄을 두 번 클릭하고 완료율을 입력할 수도 있습니다.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>내 회사에 비공개</strong></td> 
+      <td> <p>회사 외부의 사용자가 이 업데이트를 볼 수 없도록 하려면 이 옵션을 비활성화하십시오.</p> 
+      <p><b>메모</b></p>
+      <p>이 옵션은 사용자가 회사와 연결된 경우에만 표시됩니다.</p>
+      </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. 클릭 **업데이트** Workfront 개체에 업데이트를 추가하려면 다음을 수행하십시오.
+
+   >[!NOTE]
+   >
+   >클릭 후 7초 동안 작은 팝업 창이 나타납니다 **업데이트**&#x200B;업데이트를 실행 취소하고 업데이트가 게시되기 전에 편집 창으로 돌아갈 수 있도록 합니다. 실행 취소 팝업을 취소하거나, 업데이트가 사라질 때까지 기다리거나, 페이지에서 멀리 이동하는 경우 업데이트가 게시됩니다.
+   >
+   >Workfront 관리자가 액세스 수준에서 &quot;사용자가 주석을 삭제할 수 없음&quot; 설정을 선택하면 설명을 실행 취소할 수 없습니다. 자세한 내용은 [사용자 정의 액세스 수준 만들기 및 수정](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+
+1. 업데이트에 응답하려면 다음을 참조하십시오 [업데이트에 회신](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+
+<!--
+
+### Add an update to a work item using the commenting Beta experience
+
+
+>[!NOTE]
+>
+>The functionality described in this section is available for the following objects:
+>
+>* <span class="preview">Issues, when you enable the commenting Beta experience.</span>
+>
+>   <span class="preview">This functionality is available only for the Updates section of issues, and it is not available for the following areas:</span>
+>
+>   * <span class="preview">Home</span>
+>   * <span class="preview">Summary panel in lists</span>
+>   * <span class="preview">Summary panel in timesheets</span>
+>* Goals
+>
+>   The commenting experience Beta is the default current experience for goals.
+>   You must have an additional license to access Workfront Goals. For information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+
+1. Locate the object you want to update, then click its name to open the object's page.
+1. Click  **Updates** in the left panel. 
+1. Click **Try out the commenting Beta** button in the lower-right corner of the Updates area, then click **Agree** on the Beta agreement. This switches the Updates area to the commenting Beta experience. 
+   The **Comments** tab is selected by default. 
+1. Start entering a comment in the **New comment** box. 
+   
+   ![](assets/comment-box-empty-unshimmed.png)
+
+   >[!TIP]
+   >
+   >Navigating away from the Updates section before you finish typing and submitting a comment keeps the comment on the page in draft mode even after you log off and log back on. Drafted comments are only visible to the user entering them.
+
+1. (Optional) In the **Tag people or teams** area, start typing the name or the email of a user, or a team that you would like to include in this comment, then select it when it displays in the list. 
+1. (Optional) To add rich text formatting to your update, use any of the following options from the **Rich Text** toolbar to enhance your text: 
+
+   * Bold
+   * Italics
+   * Underline
+   * Link
+   * Bulleted List
+   * Numbered List
+   * Add attachment (mark this parenthesis as draft: ************ this might be renamed)
+   
+   For more information, see the "Use Rich Text in a Workfront update" section in this article.
+
+   >[!TIP]
+   >
+   >   If another user submits a comment to the same item you are updating, there will be a red line with a "New" indicator to inform you of the newer comments. The indicator only displays only after the comment was submitted on the item, and not when the comment is still composed. 
+   >
+   > ![](assets/real-time-new-red-indicator-unified-commenting.png)
+
+
+
+1. Click **Submit** to add the update to the Workfront object. 
+1. (Optional) To edit a comment, click the **More** menu ![](assets/more-menu.png) to the right of the Like icon, then click **Edit**. 
+1. Edit the information in the comment, or remove any of the tagged users. 
+   You can edit your comment within 15 from submitting it. An "Edited" indicator is added to the left of the date stamp that displays when the comment was updated. 
+
+   ![](assets/edited-tag-on-comment-unified-commenting.png)
+
+   >[!TIP]
+   >
+   >   An email is generated to notify users of your update only when you submit the original update. No email is generated after you edited your update.
+1. (Optional) Click **Reply** to reply to an existing comment, then follow the steps 5-7 above. (**************insure this stays accurate***********). For information about replying to an update, see [Reply to updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+1. (Optional) Click the **Like** icon![](assets/like-icon.png). The icon updates with the number of likes.
+1. (Conditional and Optional) If you included additional people in your comment, click the number of members included in the update to display a list of entities that the comment you entered is shared with. 
+
+   ![](assets/members-icons-expanded-unshimmed.png)
+1. (Optional) Click the **System Activity** tab to view updates logged by the system. When the object or any of its children are updated, Workfront generates a note about that update and displays it in the System Activity tab. 
+
+   For more information see [Updates section  overview](../updating-work-items-and-viewing-updates/updates-tab-overview.md)
+
+   >[!TIP]
+   >
+   >You cannot add a comment to a system update.
+-->
+
+
+## Workfront 업데이트에서 리치 텍스트 사용
+
+<!--remove this top note when we get to parity with the current version, OR change the note to mention that some options are ONLY available in the Beta version and not the current one.
+
+>[!NOTE]
+>
+>Some of the options in the Rich Text toolbar are not available for the commenting Beta experience.-->
+
+
+리치 텍스트를 사용하거나 이모지, 링크 또는 이미지와 같은 다양한 항목을 추가하여 업데이트를 향상시킬 수 있습니다.
+
+1. 업데이트 영역으로 이동하여 댓글을 입력을 시작합니다.
 1. (선택 사항) 업데이트에 서식 있는 텍스트 서식을 추가하려면 **리치 텍스트** 입력할 때 도구 모음
 
    | **속성** | **도구 모음 단추** | **Mac 바로 가기 키** | **PC 바로 가기 키** |
@@ -163,8 +315,6 @@ Adding an update to a work item differs depending on what environment and what o
    1. 아래 **표시할 텍스트**&#x200B;링크 텍스트를 입력하거나 붙여넣습니다.
    1. **저장**&#x200B;을 클릭합니다.
 
-
-
 1. (선택 사항) 업데이트에 이미지를 첨부하려면 **이미지** 아이콘 ![](assets/addimageicon-35x32.png) 컴퓨터에서 이미지를 찾습니다.\
    또는\
    이미지를 업데이트 영역으로 드래그합니다.
@@ -176,130 +326,17 @@ Adding an update to a work item differs depending on what environment and what o
    >* 이미지는 객체의 업데이트 탭에서만 액세스할 수 있으며 문서 탭에서 사용할 수 없습니다.
    >* 이미지를 업데이트하여 텍스트를 전송할 수 없습니다.
 
-
-1. (선택 사항) 다음 항목을 지정합니다.
-
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader"><strong>알림</strong></td> 
-      <td>업데이트에 대한 알림을 받아야 하는 사용자를 식별합니다. 업데이트되면 개체에 할당되거나 구독한 사용자가 자동으로 알림을 받습니다.<br><p>업데이트에 다른 사용자를 포함하는 방법에 대한 자세한 내용은 <a href="../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">업데이트에 다른 사용자에게 태그 지정</a>.</p></td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>커밋 일자</strong></td> 
-      <td>날짜 선택기에서 작업 항목을 완료하기 위해 커밋하는 날짜를 선택합니다. 커밋 날짜에 대한 자세한 내용은 <a href="../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">커밋 날짜 개요</a>.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>상황</strong></td> 
-      <td>작업 또는 문제에 대한 새 조건을 선택합니다. 조건 선택에 대한 자세한 내용은 <a href="../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">작업 및 문제에 대한 조건 업데이트</a>.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>상태</strong></td> 
-      <td>현재 상태 옆의 화살표를 클릭한 다음 드롭다운 메뉴에서 원하는 상태를 선택합니다. 상태 설정에 대한 자세한 내용은 <a href="../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">작업 상태 업데이트</a>.<p>작업 항목의 상태를 업데이트해도 프로젝트의 상태가 자동으로 변경되지 않습니다. 프로젝트 설정 방식에 따라 프로젝트 상태를 별도로 업데이트해야 할 수 있습니다. 다양한 프로젝트 업데이트 유형에 대한 자세한 내용은 <a href="../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">프로젝트 업데이트 유형을 선택합니다 </a>.</p><p><b>메모</b>
-
-   작업 항목이 승인 대기 중 상태인 동안에는 작업 항목의 상태를 변경할 수 없습니다.</p></td>
-   </tr> 
-     <tr> 
-      <td role="rowheader"><strong>완료 표시줄</strong></td> 
-      <td>(작업에서만 사용 가능) 진행률 표시줄을 원하는 비율로 슬라이딩하여 완료된 작업의 백분율을 나타냅니다. 완료 표시줄을 두 번 클릭하고 완료율을 입력할 수도 있습니다.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>내 회사에 비공개</strong></td> 
-      <td> <p>회사 외부의 사용자가 이 업데이트를 볼 수 없도록 하려면 이 옵션을 비활성화하십시오.</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
-
-1. 클릭 **업데이트** Workfront 개체에 업데이트를 추가하려면 다음을 수행하십시오.
-
-   >[!NOTE]
-   >
-   >클릭 후 7초 동안 작은 팝업 창이 나타납니다 **업데이트**&#x200B;업데이트를 실행 취소하고 업데이트가 게시되기 전에 편집 창으로 돌아갈 수 있도록 합니다. 실행 취소 팝업을 취소하거나, 업데이트가 사라질 때까지 기다리거나, 페이지에서 멀리 이동하는 경우 업데이트가 게시됩니다.
-   >
-   >Workfront 관리자가 액세스 수준에서 &quot;사용자가 주석을 삭제할 수 없음&quot; 설정을 선택하면 설명을 실행 취소할 수 없습니다. 자세한 내용은 [사용자 정의 액세스 수준 만들기 및 수정](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-
-1. 업데이트에 응답하려면 다음을 참조하십시오 [업데이트에 회신](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
-
-<!--
-### Add an update to a work item in the Preview environment
-
->[!NOTE]
->
-> In the Preview environment, the following functionality is available only for issues, after opting in the Beta program for the new commenting experience.
-> 
-> In the Production environment, the following functionality is available for goals. You must have an additional license to access Workfront Goals. For information about commenting on goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md). 
-
-1. Locate the object you want to add comments to, then click its name to open the object's page.
-1. Click  **Updates** in the left panel. 
-1. Activate the **Beta** toggle in the upper-right corner of the Updates area. This switches the Updates area to the new commenting experience. 
-1. Click the **Comments** tab in the upper-left corner of the Updates area.
-1. Start entering a comment in the **New comment** box. 
-   
-   ![](assets/comment-box-empty-unshimmed.png)
-
-   >[!TIP]
-   >
-   >Navigating away from the Updates section before you finish typing and submitting a comment keeps the comment on the page in draft mode even after you log off and log back on. Drafted comments are only visible to the user entering them.
-
-1. (Optional) In the **Tag people or teams** area, start typing the name or the email of a user, or a team that you would like to include in this comment, then select it when it displays in the list. 
-1. (Optional) To add rich text formatting to your update, use any attributes on the **Rich Text** toolbar as you type.
-
-   | **Attribute** |**Toolbar Button** |**Mac Shortcut Keys** |**PC Shortcut Keys** |
-   |---|---|---|---|
-   | Bold | ![mceclip10.png](assets/mceclip10.png)|⌘+b |Ctrl+B |
-   | Italics | ![mceclip9.png](assets/mceclip9.png)|⌘+i |Ctrl+I |
-   | Underline | ![mceclip8.png](assets/mceclip8.png)|⌘+u |Ctrl+U |
-   | Hyperlink | ![mceclip7.png](assets/mceclip7.png)|⌘+K |Ctrl+K |
-   | Bulleted List | ![mceclip6.png](assets/mceclip6.png)|⌘+Shift+8 |Ctrl+Shift+8 |
-   | Numbered List | ![mceclip5.png](assets/mceclip5.png)|⌘+Shift+7 |Ctrl+Shift+7 |
-   | Block Quote | ![](assets/block-quote-icon-large.png)|⌘+Shift+9 |Ctrl+Shift+9 |
-
-    To stop formatting text, deselect the attribute on the **Rich Text** toolbar.
-
-   >[!NOTE]
-   >
-   >* Formatting also displays in any email notification users receive containing your update.
-   >* Rich Text formatting applied to an update in an email does not display on the update when viewed in the Updates tab.  
-   >* If your organization uses Workfront with Internet Explorer, any formatted text pasted into an update loses its Rich Text formatting and displays as plain text. You can reformat the text using the attributes on the Rich Text toolbar.
-   >* Rich Text formatting is not available for updates made in the Timesheets area or for Note and Last Condition objects viewed in a report.
-
-   ************ HIDE THIS ********* 1. (Optional) If you want to include text from previous updates or from other sources and distinguish it from your own update, you can mark it as a Block Quote. Click the **Block Quote** icon ![](assets/block-quote-small.png) and type the text you want to quote. The quoted text displays marked with a vertical gray line. Click the **Block Quote** icon again to return to normal formatting.
-
-   ********  HIDE THIS ******** 1. (Optional) Add any emojis to your update.
-
-   >[!NOTE]
-   >
-   >* Workfront does not replace punctuation emoticons such as :) with emojis.
-   >* Emojis are not available for updates made in the Timesheets area or for Note and Last Condition objects viewed in a report.
-   >* The emoji feature in Workfront utilizes Unicode characters and, as such, displays only on browsers and operating systems that support Unicode code points. Users on a platform, browser, or operating system version different than yours might not have access to the same emojis.
-   >* An unsupported emoji is represented by a black or white box.
-   >* Windows 7 supports only black and white emojis.  
-   >* Emojis that are applied to an update made via email do not display on the update when viewed in the Updates area.
-
-1. (Optional) To add a URL link to additional information sources:
-
-   1. Click in your update where you want to insert a link.
-   1. On the **Rich Text** toolbar, click the **Hyperlink** icon. ![](assets/link-icon.png)  
-
-   1. In the **Create Link** box that appears, under **URL**, type or paste the URL of the source to which you want to link.
-   
-   1. Under **Text to display**, type or paste the link text.
-   1. Click **Save**.   
-1. Click **Submit**. 
-1. (Optional) Click **Reply** to reply to an existing comment, then follow the steps 5-7 above. (**************insure this stays accurate***********)
-1. (Optional) Click the **Like** icon![](assets/like-icon.png) to like a comment that someone else added. The icon updates with the number of likes.
-1. (Conditional and Optional) If you included additional people in your comment, click on the number of members included in the update to display a list of entities that the comment you entered is shared with. 
-
-   ![](assets/members-icons-expanded-unshimmed.png)
-1. (Optional) Click the **System Activity** tab to view updates logged by the system. When a goal is updated, Workfront generates a note about that update that and displays it in the System Activity tab. Workfront also records a system update when a result, activity, or project is added to the goal or when it is updated. 
-
--->
-
+1. 클릭 **업데이트**  <!--<span class="preview">or **Submit**</span>, in the commenting Beta experience-->.
 
 
 ## 업데이트 정보 복사
+
+<!--drafted for beta release toggle - remove when copying an update will be available: 
+
+>[!NOTE]
+>
+>Copying an update is not possible when using the Beta commenting experience.
+-->
 
 업데이트를 복사할 수 있는 방법에는 몇 가지가 있습니다. 링크를 복사한 후 다른 사용자와 링크를 공유하여 업데이트에 연결할 수 있습니다.
 
@@ -345,7 +382,7 @@ Workfront 사용자(Workfront 관리자 포함)는 다른 사용자가 수행한
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. 표시되는 메시지에서 **확인**.
+1. 표시되는 메시지에서 **확인** <!--<span class="preview">or **Delete**</span>, in the commenting Beta experience-->.
 
 >[!NOTE]
 >
@@ -371,6 +408,17 @@ Workfront 사용자(Workfront 관리자 포함)는 다른 사용자가 수행한
    작업표가 승인자로 설정되지 않은 경우 **작업표 저장 및 닫기** 업데이트를 저장하려면 다음을 수행하십시오.
 
 ## 시스템 업데이트 활성화 또는 비활성화
+
+<!--remove preview with 23.2 production: 
+
+<div class="preview">
+>[!NOTE]
+>
+>It is not possible to disable system updates when using the Beta commenting experience. 
+>The information in this section refers only to functionality available in the current Updtes section. 
+>For more information about system updates in the Beta version, see [Updates section overview](../updating-work-items-and-viewing-updates/updates-tab-overview.md) 
+</div>
+-->
 
 Workfront 개체의 업데이트 섹션에는 두 가지 유형의 정보가 표시됩니다.
 

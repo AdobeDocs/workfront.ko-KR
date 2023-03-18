@@ -2,20 +2,40 @@
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: 업데이트에 회신
-description: 작업 객체의 업데이트에 추가되거나 답글을 지정하면 해당 응답이 객체의 업데이트 탭에 있는 통신 스레드에 나타납니다. 객체에 대한 보기 액세스 권한이 있는 경우 업데이트 또는 유사 응답에 대한 응답을 추가할 수 있습니다.
+description: 작업 개체에 대한 업데이트에 추가하거나 응답하면 해당 응답이 해당 개체의 업데이트 섹션에 있는 통신 스레드에 나타납니다. 객체에 대한 보기 액세스 권한이 있는 경우 업데이트 또는 유사 응답에 대한 응답을 추가할 수 있습니다.
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 923c9e25fbd73c9d6a6a20436333c6e7969e9538
+source-git-commit: ba1d8d5a23da7e252e8c182a6bdb1cdd1e304eab
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '798'
 ht-degree: 1%
 
 ---
 
 # 업데이트에 회신
 
-작업 객체의 업데이트에 추가되거나 답글을 지정하면 해당 응답이 객체의 업데이트 탭에 있는 통신 스레드에 나타납니다. 객체에 대한 보기 액세스 권한이 있는 경우 업데이트 또는 유사 응답에 대한 응답을 추가할 수 있습니다.
+<!--take "Beta" references out when we remove the beta-->
+
+<!-- Drafted for commenting experience: 
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+
+>[!NOTE]
+>
+>We are currently redesigning the commenting experience in Adobe Workfront.
+>For more information about the new updating experience, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md). 
+>
+>You can access the new design for the following objects:
+> * <span class="preview">Issues, when enabling the commenting Beta. </span>
+> * Goals
+>   The new commenting experience is the default for goals. You must have an additional license to access Workfront Goals. For more information, see [Requirements to uses Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
+
+-->
+
+작업 객체의 주석 또는 시스템 업데이트에 응답할 경우 해당 응답이 객체의 업데이트 섹션에 있는 통신 스레드에 나타납니다.
+
 
 ## 액세스 요구 사항
 
@@ -35,8 +55,10 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>액세스 수준 구성*</strong></td> 
-   <td> <p>문제 및 문서에 대한 요청자 이상 다른 모든 개체의 검토자 이상</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한 사항을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
-  </tr> 
+   <td> <p>문제 및 문서에 대한 요청자 이상 다른 모든 개체의 검토자 이상</p> <p><b>메모</b>
+
+여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한 사항을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td>
+</tr> 
   <tr> 
    <td role="rowheader"><strong>개체 권한</strong></td> 
    <td> <p>객체에 대한 액세스 보기</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체에 대한 액세스 요청 </a>.</p> </td> 
@@ -48,26 +70,48 @@ ht-degree: 1%
 
 ## 업데이트 또는 답글에 답장
 
+<!--
+Replying to a comment or reply differs depending on which experience and which object you select.
+
+### Reply to an update or reply in the current Updates section
+-->
 1. 응답을 추가할 개체로 이동합니다.
 1. 설정 **업데이트** 객체의 탭에서 회신할 업데이트 또는 응답을 찾습니다.
 
-   업데이트에서 이미지를 보려면 다음을 수행하십시오.
+1. (선택 사항) 기존 업데이트에서 이미지를 보려면 다음 중 하나를 수행합니다.
 
-   * 을(를) 클릭합니다. **미리 보기** 아이콘 ![](assets/previewimageicon-31x31.png) 이미지 축소판에서 전체 크기 이미지를 새 브라우저 탭에서 엽니다.
-   * 을(를) 클릭합니다. **다운로드** 아이콘 ![](assets/downloadimageicon.png) 이미지 축소판에서 이미지를 다운로드합니다.
-
-   대화에 적극적으로 참여하는 사용자를 보는 것 외에도 해당 업데이트 스레드 맨 위에서 각 응답에서 태그가 지정된 사용자를 볼 수 있습니다. 이러한 사용자는 개체를 구독한 사용자와 함께 개체에 대해 업데이트나 응답이 있을 때마다 알림을 받습니다. 더 많은 사용자에게 태그를 지정하여 응답에 포함할 수도 있습니다.  더 많은 사용자에게 태그를 지정하려면 [업데이트에 다른 사용자에게 태그 지정](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-
-   ![](assets/tagging-transparency-350x192.png)
+   * 을(를) 클릭합니다. **미리 보기** 아이콘 ![](assets/previewimageicon-31x31.png) 이미지 축소판에서 전체 크기 이미지를 새 브라우저 탭에서 엽니다.
+   * 을(를) 클릭합니다. **다운로드** 아이콘 ![](assets/downloadimageicon.png) 이미지 축소판에서 이미지를 다운로드합니다.
 
 1. 클릭 **회신** 업데이트에서 나타나는 상자에 응답을 입력합니다.
-1. (선택 사항) 응답에 이전 업데이트의 텍스트를 포함하려면 **자세히** 견적을 작성할 업데이트 또는 회신 옆에 있는 메뉴를 클릭한 다음 **견적 회신**. 이전 업데이트의 텍스트가 입력 영역에 나타나며 회색 선으로 표시됩니다.
-1. (선택 사항) 형식 및 이모지를 사용하고 섹션에 설명된 대로 링크와 이미지를 포함합니다 [작업 항목에 업데이트 추가](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) 기사 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+   해당 업데이트 스레드 맨 위에서 각 응답에서 대화에 적극적으로 참여하거나 태그가 지정된 사용자를 볼 수 있습니다. 이러한 사용자는 개체를 구독한 사용자와 함께 개체에 대해 업데이트나 응답이 있을 때마다 알림을 받습니다. 더 많은 사용자에게 태그를 지정하여 응답에 포함할 수도 있습니다.  더 많은 사용자에게 태그를 지정하려면 [업데이트에 다른 사용자에게 태그 지정](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+
+   ![](assets/tagging-transparency-350x192.png)
+1. (선택 사항) 응답에 이전 업데이트의 텍스트를 포함하려면 **자세히** 견적을 작성할 업데이트 또는 회신 옆에 있는 메뉴를 클릭한 다음 **견적 회신**. 이전 업데이트의 텍스트가 입력 영역에 세로 회색 선으로 표시되어 나타납니다.
+1. (선택 사항) 문서의 &quot;Workfront 업데이트에 리치 텍스트 사용&quot; 섹션에 설명된 대로 형식 지정, 이모지, 포함 링크 또는 이미지를 사용합니다 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. 클릭 **회신** 을 입력하여 응답을 저장합니다.
 
-   또는
+<!--
 
-   클릭 **완료** 작업이나 문제가 완료 또는 종료됨 상태인 경우
+<div class="preview">
+### Reply to a comment when using the commenting Beta experience
+
+1. Go to the object to which you want to add a reply.
+1. Click **Updates**, then click the **Comments** tab for the object and find the comment or reply to which you want to reply. 
+1. Click **Reply**. 
+
+   You can see the users who are actively engaged in the conversation at the bottom of the **New comment** box and you can add more. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object. You can also tag more users to include them in your reply.  To tag more users, see [Tag others on updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+
+1. Start typing your reply and use any additional options from the Rich Text toolbar. For information about using Rich Text, see the "Use Rich Text in a Workfront update" section in [Update work](../updating-work-items-and-viewing-updates/update-work.md). 
+
+<!--this is not yet available in beta, leave drafted:  
+1. (Optional) To include text from a previous update in your reply, click the **More** menu next to the update or reply you want to quote, then click **Quote Reply**. Text from the previous update appears in the input area, marked with a gray line. -***********close the draft here************
+
+1. Click **Submit** to save the reply.
+</div>
+-->
+
 
 ## 이메일 알림을 통해 업데이트에 응답합니다
 
@@ -103,7 +147,7 @@ ht-degree: 1%
 
 1. 응답을 추가할 업데이트로 이동합니다.
 
-   대화에 적극적으로 참여하는 사용자를 보는 것 외에도 해당 업데이트 스레드 맨 위에서 각 응답에서 태그가 지정된 사용자를 볼 수 있습니다. 이러한 사용자는 개체를 구독한 모든 사용자와 함께 개체에 대해 업데이트나 응답이 있을 때마다 알림을 받습니다. 더 많은 사용자에게 태그를 지정하려면 [업데이트에 다른 사용자에게 태그 지정](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   대화에 적극적으로 참여하는 사용자를 보는 것 외에도 해당 업데이트 스레드 맨 위에서 각 응답에서 태그가 지정된 사용자를 볼 수 있습니다. 이러한 사용자는 개체를 구독한 모든 사용자와 함께 개체에 대해 업데이트나 응답이 있을 때마다 알림을 받습니다. 더 많은 사용자에게 태그를 지정하려면 [업데이트에 다른 사용자에게 태그 지정](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
 1. 클릭 **회신,** 응답을 입력한 다음 **회신**.
 
