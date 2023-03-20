@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: get-started-with-workfront
 title: 작업 항목 업데이트 및 업데이트 보기
 description: 대부분의 객체의 업데이트 섹션을 사용하여 댓글, 회신 또는 객체 변경 사항에 대한 시스템 추적 업데이트를 추가할 수 있습니다.
-author: Lisa and Alina
+author: Alina
 feature: Get Started with Workfront
 exl-id: ef3440fd-92b7-4760-9f53-1b0e736d3a0f
-source-git-commit: 39647f235c2e131e0ddd5d3b72d2f073387e531e
+source-git-commit: 98db73f8c807ff3f6bffcb1ec839a416d9c4111d
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 0%

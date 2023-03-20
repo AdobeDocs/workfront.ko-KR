@@ -3,14 +3,14 @@ content-type: overview
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: 업데이트 섹션 개요
-description: 업데이트 섹션에는 지난 90일 내에 수행된 최신 업데이트 중 최대 200개가 표시됩니다.
-author: Lisa and Alina
+description: 객체의 업데이트 섹션에는 객체의 변경 사항을 추적하는 객체 또는 시스템 업데이트 시 사용자가 수행하는 주석이 표시됩니다.
+author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 39647f235c2e131e0ddd5d3b72d2f073387e531e
+source-git-commit: 4b1a82758a7e3c745e622ddbab4b0651a6b35a33
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 6%
+source-wordcount: '890'
+ht-degree: 4%
 
 ---
 
@@ -18,35 +18,29 @@ ht-degree: 6%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 환경에서만 사용할 수 있습니다.</span>
 
 >[!NOTE]
 >
->We are currently redesigning the Updates section of an object. You can access the new design by enabling the commenting Beta. 
-Currently, the Beta is available for <span class="preview">issues</span>. 
-For more information about the new commenting  experience, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md). 
-
--->
+>현재 개체의 업데이트 섹션을 다시 디자인하고 있습니다. 새 디자인에는 주석 달기 베타를 활성화하여 액세스할 수 있습니다.
+>
+>현재 베타는 <span class="preview">문제</span>.
+>
+>새 주석 달기 경험에 대한 자세한 내용은 [새로운 주석 달기 환경](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 
 객체의 업데이트 섹션에는 객체의 변경 사항을 추적하는 객체 또는 시스템 업데이트 시 사용자가 수행하는 주석이 표시됩니다.
 
 ## 업데이트 섹션 개요
 
-<!--drafted for the commenting beta for issues: 
-The information is organized differently in the Updates section, depending on which environment you access it from. 
+업데이트 섹션의 정보는 사용자가 액세스하는 환경에 따라 다르게 구성됩니다.
 
-###  Overview of the current Updates section 
--->
+### 현재 업데이트 섹션 개요
 
 개체의 업데이트 섹션에는 지난 90일 내에 수행된 최신 업데이트 중 최대 200개가 표시됩니다.
 
-<!--drafted for the commenting beta for issues: 
-The current Updates section shows the following information:
+![](assets/updates-tab-before-unified-experience-for-issues.png)
 
-************** AND REMOVE THE SENTENCE BELOW WHEN MAKING THIS LIVE:
--->
-
-업데이트 섹션에는 다음 정보가 표시됩니다.
+현재 업데이트 섹션에는 다음 정보가 표시됩니다.
 
 * 사용자가 작성한 댓글과 해당 댓글에 대한 회신
 * Workfront이 개체에 특정 이벤트를 기록하기 위해 만드는 정보 메시지인 시스템 업데이트. 예를 들어 시스템 업데이트를 통해 상태, 이름 또는 사용자 지정 필드의 변경 사항을 캡처할 수 있습니다. Workfront 또는 그룹 관리자가 객체에 대한 시스템 업데이트를 활성화할 수 있습니다. 자세한 내용은 [시스템 업데이트 구성](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
@@ -81,15 +75,16 @@ The current Updates section shows the following information:
  </tbody> 
 </table>
 
-<!--drafted for the commenting beta for issues: 
-###  Overview of the Updates section in the Beta commenting experience
+### 베타 주석 달기 경험의 업데이트 섹션 개요
 
-The Updates section displays information in the following tabs in the Beta commenting experience: 
+![](assets/updates-tab-after-unified-experience-for-issues.png)
 
-* **Updates**: Displays comments made by users and replies to those comments. 
-* **System Activity**: Displays system updates which are informational messages that Workfront creates to record certain events on an objects. For example, you can capture changes in status, name, or custom fields with system updates. Your Workfront or group administrator can enable system updates for your ojects. For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+업데이트 섹션에는 베타 주석 달기 환경의 다음 탭에 정보가 표시됩니다.
 
-Currenlty, you can make comments and reply to updates using the Beta commenting experience on the following objects:
+* **업데이트**: 사용자가 작성한 댓글과 해당 댓글에 대한 답글을 표시합니다. 새 주석 달기에서 개체 업데이트에 대한 자세한 내용은 [작업 업데이트](../updating-work-items-and-viewing-updates/update-work.md).
+* **시스템 활동**: 개체에 특정 이벤트를 기록하기 위해 Workfront에서 만드는 정보 메시지인 시스템 업데이트를 표시합니다. 예를 들어 시스템 업데이트를 통해 상태, 이름 또는 사용자 지정 필드의 변경 사항을 캡처할 수 있습니다. Workfront 또는 그룹 관리자가 객체에 대한 시스템 업데이트를 활성화할 수 있습니다. 자세한 내용은 [시스템 업데이트 구성](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+
+현재 다음 개체에 대한 베타 주석 달기 환경을 사용하여 의견을 작성하고 업데이트에 응답할 수 있습니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -98,11 +93,11 @@ Currenlty, you can make comments and reply to updates using the Beta commenting 
   <tr> 
    <td> 
     <ul> 
-     <li>Goals</li> 
+     <li>목표</li> 
      </ul> </td> 
    <td> 
     <ul> 
-     <li><span class="preview">Issues</span></li> 
+     <li><span class="preview">문제</span></li> 
      </ul> </td> 
   </tr> 
  </tbody> 
@@ -110,8 +105,11 @@ Currenlty, you can make comments and reply to updates using the Beta commenting 
 
 >[!NOTE]
 >
->The commenting experience Beta is the default current experience for goals. You must have an additional license to access Workfront Goals. For information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
--->
+>주석 달기 경험 베타는 목표를 위한 기본 현재 경험입니다. Workfront 목표에 액세스하려면 추가 라이센스가 있어야 합니다.
+>
+>자세한 내용은 [Workfront 목표 사용 요구 사항](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>
+>목표에 대한 댓글 달기에 대한 자세한 내용은 [Adobe Workfront 목표의 목표 주석 관리](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 ## 상위 등급 개체에도 표시되는 업데이트
 
@@ -182,11 +180,12 @@ Currenlty, you can make comments and reply to updates using the Beta commenting 
 >시스템 업데이트에 추가된 응답이 상위 개체에 롤업되지 않습니다. 하위 개체에 대한 직접 답장과 기존 업데이트에 추가된 응답만 상위 개체에 롤업됩니다.
 >
 >Adobe Workfront의 개체 계층에 대한 자세한 내용은 [Adobe Workfront의 개체 이해](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
-
-<!-- drafted for the new commenting experience for issues in beta: Add this paragraph to the note above: 
-><span class="preview"> It is not possible to reply to system updates in the new commenting experience Beta. For more information, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).</span> -->
+>
+><span class="preview"> 새 주석 달기 베타 경험에서는 시스템 업데이트에 응답할 수 없습니다. 자세한 내용은 [새로운 주석 달기 환경](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).</span>
 
 ## 업데이트 섹션의 제한 사항
+
+팀의 업데이트 섹션과 다른 사용자를 대신하여 업데이트를 입력할 때 몇 가지 제한 사항이 있습니다.
 
 ### 사용자 및 팀의 제한 사항
 

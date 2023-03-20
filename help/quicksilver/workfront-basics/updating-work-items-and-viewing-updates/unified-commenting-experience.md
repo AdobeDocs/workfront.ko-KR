@@ -3,11 +3,11 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: 통합 주석 달기 경험
 description: 새로운 통합 주석 달기 경험은
-author: Nolan
+author: Alina
 feature: Get Started with Workfront
-source-git-commit: 39647f235c2e131e0ddd5d3b72d2f073387e531e
+source-git-commit: 98db73f8c807ff3f6bffcb1ec839a416d9c4111d
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '552'
 ht-degree: 1%
 
 ---
@@ -15,108 +15,65 @@ ht-degree: 1%
 
 # 새로운 주석 달기 환경
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 환경에서만 사용할 수 있습니다.</span>
 
 Adobe Workfront에서 주석 달기 경험에 대한 업데이트가 현재 개발 중입니다. 이 업데이트에는 선택한 객체의 업데이트 섹션에서 새로운 인터페이스, 새로운 기능 및 향상된 성능이 포함됩니다.
 
-<!--drafted for commenting experience on issues: 
-
->[!NOTE]
->
->The new commenting experience is only available for the Updates section of select objects. 
->
->For information about what objects include the Updates section, see [Updates section overview](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
->The new commenting experience is not available for other areas of Workfront that display updates. For example, the new experience is not availabe for the following areas:
->
->* Home
->* Summary panel in a list
->* Summary panel in a timesheet
->
-
--->
-
-현재 Analysis Workspace 목표에서만 구현되어 있지만 이 새 경험은 Workfront의 업데이트 섹션이 있는 모든 개체에 대해 느리게 사용 가능하게 되며 나중에 다른 Adobe Experience Cloud 응용 프로그램으로 확장됩니다.
-
-<!--when we release to Preview for issues with a toggle, we need to remove the last sentence above and replace it with this: 
-
-The new commenting experience is currently supported for the following objects in Workfront:
-
-By default, in the Preview and Production environments for all customers: 
-
-* Goals
-
-    >[!NOTE]
-    >
-    >You must have an additional license to Adobe Workfront Goals to be able to access this area of Workfront. For more information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-
-    For more information about managing updates for goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md). 
-
-
-<div class="preview">
-
-By enabling the Beta version in the Updates section, in the Preview environment: 
-
-* Issues
-
-    For more information about managing updates for other objects, including issues, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
-
-</div>
-
-The new commenting experience will slowly become available for all the objects with an Updates section in Workfront, and later it will expand to other Adobe Experience Cloud applications.
--->
+새 주석 달기 경험은 Workfront의 업데이트 섹션을 통해 모든 개체에 느리게 사용 가능하게 되며, 나중에 다른 Adobe Experience Cloud 응용 프로그램으로 확장됩니다.
 
 ## 기능
 
 새로운 주석 달기 환경에는 기존 업데이트 스트림에 대한 개선 사항 및 변경 사항이 포함되어 있습니다.
 
+<!-- Previous content here - replaced with the table below: 
+
 >[!IMPORTANT]
->아래에 나열된 통합 주석 달기 경험 기능은 현재 Adobe Workfront 목표에서만 사용할 수 있습니다.
+>The Unified Commenting Experience features listed below are currently only available in Adobe Workfront Goals.
 
-* **댓글 만들기**
+* **Creating comments**
 
-   새 주석을 작성하고 서식 있는 텍스트를 사용하여 서식을 지정하고 다른 사람에게 알림을 보낼 수 있습니다. 주석 만들기에 대한 자세한 내용은 [목표 댓글 관리](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
+    You can create a new comment, format it with rich text, and tag others to be notified. For more information on creating comments, see [Manage goal comments](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
 
-* **댓글에 응답**
+* **Responding to comments**
 
-   개체의 원래 명령 및 소유자에게 알릴 수 있는 새 설명 in-thread와 같은 댓글이 있는 댓글에 응답할 수 있습니다.
+    You can react to a comment with a like or reply with a new comment in-thread that can notify the original commenter and owner of the object.
 
-* **시스템 활동**
+* **System Activity**
+    
+    System-generated updates for an object are now listed seperately from comments made in the update tab. For more information on viewing the System Activity stream, see step 11 of [Manage goal comments](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
 
-   이제 객체에 대해 시스템에서 생성한 업데이트가 업데이트 탭에서 수행한 주석과 별도로 나열됩니다. 시스템 활동 스트림 보기에 대한 자세한 내용은 [목표 댓글 관리](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
+-->
 
-<!-- When releasing this to Issues - preview with 23.2 - remove all the content above in the "Features" section and replace it with this: 
+새 주석 달기 경험에 포함된 개선 사항 중에는 다음과 같은 사항이 포함되어 있습니다.
 
-Among the improvements included in the new commenting experience are the following:
+* 향상된 성능 및 사용자 경험
+* 시스템 활동에서 사용자 주석을 분리하면 됩니다. 시스템 업데이트 기능 방식에는 변경 사항이 없습니다.
+* 개체에 새로운 주석이 추가되는 실시간 표시기
+* 의견 제출 후 편집.
 
-* Improved performance and user experience
-* Separation of user comments from the system activity. There are no changes in the way the system updates function. 
-* Real-time updates
-* Edit comments after submitting them. 
+다음 기능이 새 경험에서 제거되었습니다.
 
-The following features have been removed from the new experience:
+* 시스템 업데이트에 대한 댓글입니다.
 
-* Comment on a system update
-
-The following table illustrates the features that will be available in the new commenting experience as well as their availability now in areas where they are supported: 
+다음 표는 새 주석 달기 환경에서 사용할 수 있는 기능과 지원되는 영역에서 사용 가능한 기능을 보여줍니다.
 
 <table>
   <tr>
-   <td><strong>Feature </strong>
+   <td><strong>기능 </strong>
    </td>
-   <td><strong>Exists in old commenting experience </strong>
+   <td><strong>이전 주석 달기 경험에 있음 </strong>
    </td>
-   <td><strong>Exists in Beta version of the new commenting experience </strong>
+   <td><strong>새 주석 달기 환경의 베타 버전에 있음 </strong>
    </td>
-   <td><strong>Will be introduced in the new commenting experience </strong>
+   <td><strong>새 주석 달기 환경에서 소개합니다 </strong>
    </td>
-   <td><strong>When will be introduced in the new commenting experience </strong>
+   <td><strong>새 주석 달기 경험에서는 언제 도입됩니까 </strong>
    </td>
-   <td><strong>In research </strong>
+   <td><strong>연구 </strong>
    </td>
   </tr>
   <tr>
-   <td>Create/read/reply/delete comments 
+   <td>댓글 만들기/읽기/회신/삭제 
    </td>
    <td>✓ 
   </td>
@@ -130,11 +87,11 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>Rich text (exludes quoting and emojis)
+   <td>리치 텍스트(인용과 이모지 제외)
    </td>
    <td>✓ 
    </td>
-   <td>✓ 
+   <td><span class="preview">✓</span> 
    </td>
    <td> 
    </td>
@@ -145,7 +102,7 @@ The following table illustrates the features that will be available in the new c
   </tr>
   <tr>
  <tr>
-   <td>Rich text (quoting and emojis)
+   <td>리치 텍스트(따옴표 및 이모지)
    </td>
    <td>✓ 
    </td>
@@ -153,14 +110,14 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td> ✓
    </td>
-   <td> Q2, 2023
+   <td> 2023년 2분기
    </td>
    <td> 
    </td>
   </tr>
   <tr>
 
-   <td>React to comments (Like) 
+<td>댓글에 반응(좋아요) 
    </td>
    <td>✓ 
    </td>
@@ -174,7 +131,7 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>Attach images to comments 
+   <td>주석에 이미지 첨부 
    </td>
    <td>✓ 
    </td>
@@ -188,7 +145,7 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>Tag people in comments 
+   <td>댓글에 사람 태깅 
    </td>
    <td>✓ 
    </td>
@@ -202,25 +159,11 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>Remove people from the thread 
+   <td>스레드에서 사용자 제거 
    </td>
    <td> 
    </td>
-   <td>✓ 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
-  <tr>
-   <td>Comments that are private to a company 
-   </td>
-   <td>✓ 
-   </td>
-   <td>✓ 
+   <td><span class="preview">✓ </span>
    </td>
    <td> 
    </td>
@@ -230,49 +173,7 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>Undo posting of a comment 
-   </td>
-   <td>✓ 
-   </td>
-   <td>Replaced with edit comment 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
-  <tr>
-   <td>Turn off system updates 
-   </td>
-   <td>✓ 
-   </td>
-   <td>Replaced with Activity tab 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
-  <tr>
-   <td>Edit comments 
-   </td>
-   <td> 
-   </td>
-   <td>✓ 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
-  <tr>
-   <td>Saving comment drafts when navigating away from the page 
+   <td>회사에 대한 개인 의견 
    </td>
    <td>✓ 
    </td>
@@ -286,7 +187,63 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>See new comments in real time 
+   <td>댓글 게시 취소 
+   </td>
+   <td>✓ 
+   </td>
+   <td><span class="preview">편집 주석으로 대체됨 </span>
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+  </tr>
+  <tr>
+   <td>시스템 업데이트 끄기 
+   </td>
+   <td>✓ 
+   </td>
+   <td>활동 탭으로 대체됨 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+  </tr>
+  <tr>
+   <td>댓글 편집 
+   </td>
+   <td> 
+   </td>
+   <td><span class="preview">✓</span> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+  </tr>
+  <tr>
+   <td>페이지에서 이동할 때 주석 초안 저장 
+   </td>
+   <td>✓ 
+   </td>
+   <td>✓ 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+  </tr>
+  <tr>
+   <td>실시간으로 새 댓글 보기 
    </td>
    <td> 
    </td>
@@ -300,7 +257,7 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>Log time 
+   <td>로그 시간 
    </td>
    <td>✓ 
    </td>
@@ -314,7 +271,7 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>Edit custom form 
+   <td>사용자 지정 양식 편집 
    </td>
    <td>✓ 
    </td>
@@ -328,7 +285,7 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>Ability to edit status, condition, commit date while commenting 
+   <td>댓글을 달면서 상태, 조건, 커밋 날짜 편집 가능 
    </td>
    <td>✓ 
    </td>
@@ -342,7 +299,7 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>Copy thread link 
+   <td>스레드 링크 복사 
    </td>
    <td>✓ 
    </td>
@@ -350,13 +307,13 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
-   <td>Q2, 2023 
+   <td>2023년 2분기 
    </td>
    <td> 
    </td>
   </tr>
   <tr>
-   <td>Copy comment link 
+   <td>주석 링크 복사 
    </td>
    <td>✓ 
    </td>
@@ -364,13 +321,13 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
-   <td>Q2, 2023 
+   <td>2023년 2분기 
    </td>
    <td> 
    </td>
   </tr>
   <tr>
-   <td>Quote comment text 
+   <td>따옴표 설명 텍스트 
    </td>
    <td>✓ 
    </td>
@@ -378,13 +335,13 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
-   <td>Q2, 2023 
+   <td>2023년 2분기 
    </td>
    <td> 
    </td>
   </tr>
   <tr>
-   <td>Copy body text 
+   <td>본문 복사 
    </td>
    <td>✓ 
    </td>
@@ -392,13 +349,13 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
-   <td>Q2, 2023 
+   <td>2023년 2분기 
    </td>
    <td> 
    </td>
   </tr>
   <tr>
-   <td>Resolve comments 
+   <td>댓글 해결 
    </td>
    <td> 
    </td>
@@ -406,13 +363,13 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
-   <td>Q3, 2023 
+   <td>2023년 3분기 
    </td>
    <td>✓ 
    </td>
   </tr>
   <tr>
-   <td>Search in comments 
+   <td>주석에서 검색 
    </td>
    <td> 
    </td>
@@ -420,7 +377,7 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
-   <td>Q3, 2023 
+   <td>2023년 3분기 
    </td>
    <td>✓ 
    </td>
@@ -428,29 +385,42 @@ The following table illustrates the features that will be available in the new c
 </table>
 
 
-## Locate the new commenting experience
+## 새 주석 달기 경험을 찾습니다.
 
-The new commenting experience is the default experience for Workfront goals. 
+다음 버전에서 업데이트 섹션을 볼 때 현재 다음 개체에 대해 새 주석 달기 경험이 지원됩니다.
 
-<div span="preview">
-For all other objects that have an Updates section, you can enable the new commenting experience by opting in to the Beta program. The Beta option will be available, gradually, for all objects that have an Updates section. 
-</div>
+* 업데이트 섹션에서 베타 경험을 활성화하는 경우:
 
+   <div class="preview">
 
-Currently, the new experience is available for the following objects:
+   * 문제.
+   Workfront 개체의 업데이트 관리에 대한 자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-* Goals. The new exprience is already the default experience for Goals. You must have an additional license to access Workfront Goals. For more information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
-* <span class="preview">Issues</span>
+   </div>
+
+* 기본적으로 주석 달기 기본 경험으로서:
+
+   * 목표
+   >[!NOTE]
+   >
+   >Workfront의 이 영역에 액세스할 수 있으려면 Adobe Workfront 목표에 대한 추가 라이센스가 있어야 합니다. 자세한 내용은 [Workfront 목표 사용 요구 사항](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+   목표를 위한 업데이트 관리에 대한 자세한 내용은 [Adobe Workfront 목표의 목표 주석 관리](../../workfront-goals/goal-management/manage-goal-comments.md).
+
 
 <div class="preview">
-To enable the new commenting exprience Beta: 
 
-1. Go to an object you want to activate the new commenting exprience for, then click **Updates** in the left panel.
-1. Click **Try out the Commenting Beta** in the lower-right corner of the Updates area. 
-1. Click **Agree** in the Beta agreement box. This enables the new commenting exprience for the selected object. 
-1. Start typing an update in the **Comments** tab. The Comments tab should be the default tab when the new experience opens. 
-1. Click the  **System Activity** tab to view the activity updates generated by Workfront. 
-    For more information about updating objects in the new commenting exprience, see [Update work](../updating-work-items-and-viewing-updates/update-work.md). 
+새 주석 처리 환경 베타를 활성화하려면
+
+1. 새 주석 처리 환경을 활성화할 개체로 이동한 다음 를 클릭합니다 **업데이트** 왼쪽 패널에 표시됩니다.
+1. 클릭 **주석 달기 베타 시도** 업데이트 영역의 오른쪽 아래 모서리에 있습니다.
+1. 클릭 **동의** 베타 계약 상자에서 선택할 수 있습니다. 이렇게 하면 선택한 객체에 대해 새로운 주석 달기 환경을 사용할 수 있습니다.
+1. 에서 업데이트 입력 시작 **댓글** 탭. 새 경험이 열리면 댓글 탭이 기본 탭이 되어야 합니다
+
+   또는
+
+   을(를) 클릭합니다.  **시스템 활동** 탭을 클릭하여 Workfront에서 생성한 활동 업데이트를 확인합니다.
+
+   새 주석 달기 환경에서 객체 업데이트에 대한 자세한 내용은 [작업 업데이트](../updating-work-items-and-viewing-updates/update-work.md).
 
 </div>
--->
