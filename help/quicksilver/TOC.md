@@ -2,9 +2,9 @@
 user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 feature-set: Workfront
-source-git-commit: 9582a06327901300d2473c1847ddaf46d88ad35e
+source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
 workflow-type: tm+mt
-source-wordcount: '12773'
+source-wordcount: '12776'
 ht-degree: 1%
 
 ---
@@ -930,7 +930,7 @@ ht-degree: 1%
       * [카드 폴아웃 구성](agile/use-boards-agile-planning-tools/configure-card-falloff.md)
       * [워크플로우 관리](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
       * [카드 목록 사용](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
-      * [반복 만들기](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md)
+      * [워크플로우에서 반복 만들기](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
       * [반복 지표 검토](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)
    * 애자일 팀의 간판 {#kanban}
       * [애자일 팀의 간판](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)

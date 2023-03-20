@@ -4,9 +4,9 @@ description: 23.2 Agile 개선
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 456794da11baf21bcd4f138d15719007ae2759a6
+source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1124'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Workfront 보드에서 사용할 수 있는 몇 가지 새로운 기능을 사�
 
 컬렉션의 이름이 workstreams로 변경되었습니다. 워크플로우는 데이터를 다양한 방식으로 시각화하는 데 도움이 됩니다. 목록, 보드 또는 이터레이션에 있는 카드에 항목을 표시할 수 있습니다. 작업 스트림의 카드는 여러 보드 간에 공유할 수도 있습니다. 워크플로우에서 카드 및 보드를 사용하여 워크플로우를 손쉽게 진행할 수 있습니다.
 
-자세한 내용은 [워크플로우 관리](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [반복 만들기](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md), 및 [카드 목록 사용](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). 두 번째 문서는 내 분기를 게시하기 전까지 기본 설정에서 사용할 수 없습니다.
+자세한 내용은 [워크플로우 관리](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [워크플로우에서 반복 만들기](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md), 및 [카드 목록 사용](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). 두 번째 문서는 내 분기를 게시하기 전까지 기본 설정에서 사용할 수 없습니다.
 
 ## 목록 및 보고서의 작업 및 문제를 작업 스트림 카드 목록에 추가합니다
 

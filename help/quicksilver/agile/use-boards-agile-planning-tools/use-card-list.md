@@ -6,9 +6,9 @@ title: 카드 목록 사용
 description: 작업 스트림에 카드 목록을 만들고 이 카드를 이터레이션에 추가할 수 있습니다.
 author: Lisa
 feature: Agile
-source-git-commit: e5f65106226d82b24c7fa359e53136226f3d1239
+source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,7 @@ X를 클릭하여 검색을 지웁니다.
 
 >[!NOTE]
 >
->카드를 추가하려면 먼저 반복을 만들어야 합니다. 자세한 내용은 [반복 만들기](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md).
+>카드를 추가하려면 먼저 반복을 만들어야 합니다. 자세한 내용은 [워크플로우에서 반복 만들기](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
 1. 워크플로우에 대한 카드 목록에 액세스합니다.
 1. 을(를) 선택합니다 [!UICONTROL **반복 보기**] 이터레이션에 지정된 카드와 계획되지 않은 카드를 확인합니다.

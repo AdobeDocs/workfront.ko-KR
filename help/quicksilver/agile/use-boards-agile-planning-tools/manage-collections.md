@@ -6,10 +6,10 @@ title: 워크플로우 관리
 description: 워크스트림은 작업을 공동 작업하기 위해 구성 가능한 보드 및 카드 그룹입니다.
 author: Lisa
 feature: Agile
-source-git-commit: 16e96d55932116cb475eecbe8b6ebfd4661eb494
+source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 2%
+source-wordcount: '868'
+ht-degree: 3%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 워크스트림은 작업을 공동 작업하기 위해 구성 가능한 보드 및 카드 그룹입니다. 워크플로우에는 템플릿에서 만든 다양한 유형의 보드가 포함될 수 있습니다. <span class="preview">그리고 작업 항목의 카드 목록입니다. 워크플로우에서는 반복 또는 스프린트에서 작업을 추적할 수 있습니다.</span>
 
-<span class="preview">자세한 내용은 [카드 목록 사용](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md) 및 [반복 만들기](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md).</span>
+<span class="preview">자세한 내용은 [카드 목록 사용](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md) 및 [워크플로우에서 반복 만들기](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).</span>
 
 작업 스트림은 작업 스트림의 일부가 아닌 개별 보드에 액세스할 수 있는 개별 보드와 함께 대시보드에 나타납니다. 보드 대시보드에 대한 자세한 내용은 [보드 대시보드 사용](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md). 대시보드에서 보드 이름을 클릭하여 열 수 있습니다.
 
@@ -111,7 +111,7 @@ ht-degree: 2%
 
    카드 목록 섹션에 총 카드 수, 포인트의 카드 수 및 반복 수가 표시됩니다. 클릭 [!UICONTROL **목록 보기**] 목록을 열고 카드를 추가합니다. 자세한 내용은 [카드 목록 사용](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
-   이터레이션이 정의된 경우 시작 날짜, 카드 수 및 포인트 수가 표시됩니다. 클릭 [!UICONTROL **이터레이션 보드 보기**] 보드를 열려면 자세한 내용은 [반복 만들기](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md).
+   이터레이션이 정의된 경우 시작 날짜, 카드 수 및 포인트 수가 표시됩니다. 클릭 [!UICONTROL **이터레이션 보드 보기**] 보드를 열려면 자세한 내용은 [워크플로우에서 반복 만들기](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
 1. 클릭 [!UICONTROL **소스 추가**] 카드를 워크플로우로 가져올 소스를 정의하려면 현재 사용 가능한 소스는 [!DNL Adobe Workfront].
 1. 필터를 추가하여 Workfront에서 작업 및 문제를 카드로 가져옵니다.
