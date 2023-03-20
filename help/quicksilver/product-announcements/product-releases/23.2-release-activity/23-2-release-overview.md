@@ -4,7 +4,7 @@ description: 23.2 릴리스 개요
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 456794da11baf21bcd4f138d15719007ae2759a6
+source-git-commit: b1c9a72587c0c7128feee6b5992e2069668af4f7
 workflow-type: tm+mt
 source-wordcount: '2574'
 ht-degree: 0%
@@ -485,8 +485,8 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">문제에 대한 새로운 주석 달기 환경 베타</a>
-                        <p>Adobe Workfront에서 주석 달기 경험에 대한 업데이트가 현재 개발 중입니다. 이 업데이트에는 일부 개체의 업데이트 섹션에서 새 인터페이스, 새 기능 및 향상된 성능이 포함됩니다.</p>
-                        <p>이 새로운 경험은 결국 Adobe Experience Cloud 전체에서 Adobe Workfront 및 그 이상의 주석을 통합하게 됩니다.</p>
+                        <p>Adobe Workfront에서 주석 달기 경험에 대한 업데이트가 현재 개발 중입니다. 이 업데이트에는 일부 개체의 업데이트 섹션에서 새 인터페이스, 새 기능 및 향상된 성능이 포함됩니다. </p>
+                        <p>이 새로운 경험은 결국 Adobe Experience Cloud 전체에서 Adobe Workfront 및 그 이상의 주석을 통합하게 됩니다. </p>
                     </td>
                     <td><p><b>다음 날짜에 사용할 수 있습니다.</b></p>
                         <ul>
