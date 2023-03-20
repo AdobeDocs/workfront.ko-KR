@@ -4,9 +4,9 @@ description: 23.2 기타 개선 사항
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: b1c9a72587c0c7128feee6b5992e2069668af4f7
+source-git-commit: 8cdb0b9f529979ac5eb6ac9b0a7b52ab879defe5
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,8 @@ Adobe Workfront에서 주석 달기 경험에 대한 업데이트가 현재 개�
 이러한 개선 사항이 다른 개체에 계속 추가되므로 향후 릴리스에서 더 많은 기능이 추가됩니다.
 
 새로운 주석 달기 환경에서 제공하는 내용에 대한 자세한 내용은 [통합 주석 달기 경험](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+
+[이 기능에 대한 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3416962/){target=_blank}
 
 ## XD용 Adobe Workfront에서 단일 PDF 또는 여러 PDF 파일로 대지를 내보냅니다
 
