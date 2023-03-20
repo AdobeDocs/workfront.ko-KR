@@ -6,9 +6,9 @@ description: 작업 개체에 대한 업데이트에 추가하거나 응답하�
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: ba1d8d5a23da7e252e8c182a6bdb1cdd1e304eab
+source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '1119'
 ht-degree: 1%
 
 ---
@@ -17,22 +17,28 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!-- Drafted for commenting experience: 
-
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 환경에서만 사용할 수 있습니다.
 
 >[!NOTE]
 >
->We are currently redesigning the commenting experience in Adobe Workfront.
->For more information about the new updating experience, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md). 
+>현재 Adobe Workfront에서 주석 달기 환경을 다시 디자인하고 있습니다.
+>새 업데이트 경험에 대한 자세한 내용은 [새로운 주석 달기 환경](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 >
->You can access the new design for the following objects:
-> * <span class="preview">Issues, when enabling the commenting Beta. </span>
-> * Goals
->   The new commenting experience is the default for goals. You must have an additional license to access Workfront Goals. For more information, see [Requirements to uses Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
+>다음 객체에 대한 새 디자인에 액세스할 수 있습니다.
+> * <span class="preview">주석 달기 베타를 활성화할 때 문제가 발생합니다. </span>
+   >
+   >     <span class="preview">이 기능은 문제의 업데이트 섹션에만 사용할 수 있으며, 다음 영역에는 사용할 수 없습니다.</span>
+   >
+   >     * <span class="preview">홈</span>
+   >     * <span class="preview">목록의 요약 패널</span>
+   >     * <span class="preview">작업표의 요약 패널</span>
+>
+> * 목표
+   >   새로운 주석 달기 경험은 목표의 기본값입니다. Workfront 목표에 액세스하려면 추가 라이센스가 있어야 합니다. 자세한 내용은 [Workfront 목표를 사용하기 위한 요구 사항](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
--->
+   >
+   >    목표에 대한 댓글 달기에 대한 자세한 내용은 [Adobe Workfront 목표의 목표 주석 관리](../../workfront-goals/goal-management/manage-goal-comments.md).
+
 
 작업 객체의 주석 또는 시스템 업데이트에 응답할 경우 해당 응답이 객체의 업데이트 섹션에 있는 통신 스레드에 나타납니다.
 
@@ -70,11 +76,10 @@ ht-degree: 1%
 
 ## 업데이트 또는 답글에 답장
 
-<!--
-Replying to a comment or reply differs depending on which experience and which object you select.
+댓글이나 답글에 답글을 달면 선택한 경험과 객체에 따라 달라집니다.
 
-### Reply to an update or reply in the current Updates section
--->
+### 현재 업데이트 섹션에서 업데이트 또는 응답에 회신
+
 1. 응답을 추가할 개체로 이동합니다.
 1. 설정 **업데이트** 객체의 탭에서 회신할 업데이트 또는 응답을 찾습니다.
 
@@ -92,25 +97,25 @@ Replying to a comment or reply differs depending on which experience and which o
 1. (선택 사항) 문서의 &quot;Workfront 업데이트에 리치 텍스트 사용&quot; 섹션에 설명된 대로 형식 지정, 이모지, 포함 링크 또는 이미지를 사용합니다 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. 클릭 **회신** 을 입력하여 응답을 저장합니다.
 
-<!--
-
 <div class="preview">
-### Reply to a comment when using the commenting Beta experience
 
-1. Go to the object to which you want to add a reply.
-1. Click **Updates**, then click the **Comments** tab for the object and find the comment or reply to which you want to reply. 
-1. Click **Reply**. 
+### 댓글 베타 경험을 사용할 때 주석에 응답합니다.
 
-   You can see the users who are actively engaged in the conversation at the bottom of the **New comment** box and you can add more. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object. You can also tag more users to include them in your reply.  To tag more users, see [Tag others on updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+1. 응답을 추가할 개체로 이동합니다.
+1. 클릭 **업데이트**&#x200B;를 클릭한 다음 **댓글** 개체의 탭과 응답할 댓글 또는 응답을 찾습니다.
+1. 클릭 **회신**.
 
-1. Start typing your reply and use any additional options from the Rich Text toolbar. For information about using Rich Text, see the "Use Rich Text in a Workfront update" section in [Update work](../updating-work-items-and-viewing-updates/update-work.md). 
+   맨 아래에서 대화에 적극적으로 참여하는 사용자를 볼 수 있습니다 **새 댓글** 추가 또는 더 이상 관련이 없는 항목을 제거할 수 있습니다. 이러한 사용자는 개체를 구독한 사용자와 함께 개체에 대해 업데이트나 응답이 있을 때마다 알림을 받습니다. 더 많은 사용자에게 태그를 지정하여 응답에 포함할 수도 있습니다.  더 많은 사용자에게 태그를 지정하려면 [업데이트에 다른 사용자에게 태그 지정](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+
+1. 회신 입력을 시작하고 리치 텍스트 도구 모음에서 추가 옵션을 사용합니다. 리치 텍스트 사용에 대한 자세한 내용은 의 &quot;Workfront 업데이트에서 리치 텍스트 사용&quot; 섹션을 참조하십시오. [작업 업데이트](../updating-work-items-and-viewing-updates/update-work.md).
 
 <!--this is not yet available in beta, leave drafted:  
-1. (Optional) To include text from a previous update in your reply, click the **More** menu next to the update or reply you want to quote, then click **Quote Reply**. Text from the previous update appears in the input area, marked with a gray line. -***********close the draft here************
+1. (Optional) To include text from a previous update in your reply, click the **More** menu next to the update or reply you want to quote, then click **Quote Reply**. Text from the previous update appears in the input area, marked with a gray line. -***********close the draft here************-->
 
-1. Click **Submit** to save the reply.
+1. 클릭 **제출** 을 입력하여 응답을 저장합니다.
+
 </div>
--->
+
 
 
 ## 이메일 알림을 통해 업데이트에 응답합니다

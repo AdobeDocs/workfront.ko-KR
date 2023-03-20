@@ -5,9 +5,9 @@ title: 통합 주석 달기 경험
 description: 새로운 통합 주석 달기 경험은
 author: Alina
 feature: Get Started with Workfront
-source-git-commit: 98db73f8c807ff3f6bffcb1ec839a416d9c4111d
+source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '564'
 ht-degree: 1%
 
 ---
@@ -247,7 +247,8 @@ Adobe Workfront에서 주석 달기 경험에 대한 업데이트가 현재 개�
    </td>
    <td> 
    </td>
-   <td>✓ 
+   <td><span class="preview">✓</span>
+   <p><span class="preview">이 기능은 23.2에서 사용할 수 있어야 하며 일시적으로 지연되었습니다.</span> 
    </td>
    <td> 
    </td>

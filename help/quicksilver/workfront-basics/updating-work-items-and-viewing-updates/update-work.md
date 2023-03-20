@@ -6,9 +6,9 @@ description: Adobe Workfront 개체(프로젝트, 작업 또는 문제)에 업�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 4b1a82758a7e3c745e622ddbab4b0651a6b35a33
+source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
 workflow-type: tm+mt
-source-wordcount: '2690'
+source-wordcount: '2674'
 ht-degree: 1%
 
 ---
@@ -21,13 +21,24 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->현재 개체의 업데이트 섹션을 사용할 때 업데이트 작동 방식을 다시 디자인하고 있습니다.
->
->새 디자인에는 주석 달기 베타를 활성화하여 액세스할 수 있습니다.
->
->현재 베타는 <span class="preview">문제</span>.
->
+>현재 Adobe Workfront에서 주석 달기 환경을 다시 디자인하고 있습니다.
 >새 업데이트 경험에 대한 자세한 내용은 [새로운 주석 달기 환경](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+>
+>다음 객체에 대한 새 디자인에 액세스할 수 있습니다.
+> * <span class="preview">주석 달기 베타를 활성화할 때 문제가 발생합니다. </span>
+   >
+   >     <span class="preview">이 기능은 문제의 업데이트 섹션에만 사용할 수 있으며, 다음 영역에는 사용할 수 없습니다.</span>
+   >
+   >     * <span class="preview">홈</span>
+   >     * <span class="preview">목록의 요약 패널</span>
+   >     * <span class="preview">작업표의 요약 패널</span>
+>
+> * 목표
+   >   새로운 주석 달기 경험은 목표의 기본값입니다. Workfront 목표에 액세스하려면 추가 라이센스가 있어야 합니다. 자세한 내용은 [Workfront 목표를 사용하기 위한 요구 사항](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+   >
+   >    목표에 대한 댓글 달기에 대한 자세한 내용은 [Adobe Workfront 목표의 목표 주석 관리](../../workfront-goals/goal-management/manage-goal-comments.md).
+
 
 업데이트 섹션에서 Adobe Workfront의 대부분의 개체에 주석을 추가할 수 있습니다. 업데이트 섹션을 표시하는 객체에 대한 자세한 내용은 [업데이트 섹션 개요](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
@@ -173,26 +184,6 @@ drafted for P&P release:
 1. 업데이트에 응답하려면 다음을 참조하십시오 [업데이트에 회신](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
 ### 주석 달기 베타 경험을 사용하여 작업 항목에 업데이트 추가
-
-
->[!NOTE]
->
->이 섹션에 설명된 기능은 다음 객체에 사용할 수 있습니다.
->
->* <span class="preview">댓글 베타 환경을 활성화할 때 발생하는 문제.</span>
-   >
-   >   <span class="preview">이 기능은 문제의 업데이트 섹션에만 사용할 수 있으며, 다음 영역에는 사용할 수 없습니다.</span>
-   >
-   >   * <span class="preview">홈</span>
-   >   * <span class="preview">목록의 요약 패널</span>
-   >   * <span class="preview">작업표의 요약 패널</span>
->* 목표
-
-   >
-   >   새로운 주석 달기 경험은 목표에 대한 기본 현재 경험입니다.
-   >   Workfront 목표에 액세스하려면 추가 라이센스가 있어야 합니다. 자세한 내용은 [Workfront 목표 사용 요구 사항](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-
-
 
 1. 업데이트할 개체를 찾은 다음 해당 이름을 클릭하여 개체의 페이지를 엽니다.
 1. 클릭  **업데이트** 왼쪽 패널에 표시됩니다.

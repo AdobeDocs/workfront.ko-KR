@@ -6,7 +6,7 @@ description: 올바른 액세스 또는 권한이 없으면 작업 로드 밸런
 author: Alina
 feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
-source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
+source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
 workflow-type: tm+mt
 source-wordcount: '535'
 ht-degree: 0%
@@ -28,8 +28,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Workfront 플랜</p></td> 
-   <td> <p>작업 로드 밸런서에 액세스할 수 있는 영역</p> </td> 
+   <td role="rowheader"><p><b>Workfront 플랜</b></p></td> 
+   <td> <p><b>작업 로드 밸런서에 액세스할 수 있는 영역</b></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">팀 이상 </td> 

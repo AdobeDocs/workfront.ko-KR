@@ -7,9 +7,9 @@ description: 객체의 업데이트 섹션에는 객체의 변경 사항을 추�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 4b1a82758a7e3c745e622ddbab4b0651a6b35a33
+source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '928'
 ht-degree: 4%
 
 ---
@@ -22,11 +22,30 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->현재 개체의 업데이트 섹션을 다시 디자인하고 있습니다. 새 디자인에는 주석 달기 베타를 활성화하여 액세스할 수 있습니다.
+>현재 개체의 업데이트 섹션을 다시 디자인하고 있습니다.
 >
->현재 베타는 <span class="preview">문제</span>.
+>새 업데이트 경험에 대한 자세한 내용은 [새로운 주석 달기 환경](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 >
->새 주석 달기 경험에 대한 자세한 내용은 [새로운 주석 달기 환경](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+>다음 개체 및 다음 환경에서 새 디자인에 액세스할 수 있습니다.
+>
+>* <span class="preview">다음 개체에 대해 주석 달기 베타 환경을 활성화하는 경우:</span>
+   >
+   >     * <span class="preview">문제</span>
+
+   >     
+   >     <span class="preview">이 기능은 문제의 업데이트 섹션에만 사용할 수 있으며, 다음 영역에는 사용할 수 없습니다.</span>
+   >
+   >     * <span class="preview">홈</span>
+   >     * <span class="preview">목록의 요약 패널</span>
+   >     * <span class="preview">작업표의 요약 패널</span>
+>
+>* 기본적으로 다음 객체에 대한 현재 주석 달기 환경입니다.
+   >
+   >     * 목표
+
+   >
+   >     Workfront 목표에 액세스하려면 추가 라이센스가 있어야 합니다. 자세한 내용은 [Workfront 목표 사용 요구 사항](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 목표에 대한 댓글 달기에 대한 자세한 내용은 [Adobe Workfront 목표의 목표 주석 관리](../../workfront-goals/goal-management/manage-goal-comments.md).
+
 
 객체의 업데이트 섹션에는 객체의 변경 사항을 추적하는 객체 또는 시스템 업데이트 시 사용자가 수행하는 주석이 표시됩니다.
 
@@ -79,9 +98,9 @@ ht-degree: 4%
 
 ![](assets/updates-tab-after-unified-experience-for-issues.png)
 
-업데이트 섹션에는 베타 주석 달기 환경의 다음 탭에 정보가 표시됩니다.
+업데이트 섹션에는 새 주석 달기 환경의 다음 탭에 정보가 표시됩니다.
 
-* **업데이트**: 사용자가 작성한 댓글과 해당 댓글에 대한 답글을 표시합니다. 새 주석 달기에서 개체 업데이트에 대한 자세한 내용은 [작업 업데이트](../updating-work-items-and-viewing-updates/update-work.md).
+* **댓글**: 사용자가 작성한 댓글과 해당 댓글에 대한 답글을 표시합니다. 새 주석 달기에서 개체 업데이트에 대한 자세한 내용은 [작업 업데이트](../updating-work-items-and-viewing-updates/update-work.md).
 * **시스템 활동**: 개체에 특정 이벤트를 기록하기 위해 Workfront에서 만드는 정보 메시지인 시스템 업데이트를 표시합니다. 예를 들어 시스템 업데이트를 통해 상태, 이름 또는 사용자 지정 필드의 변경 사항을 캡처할 수 있습니다. Workfront 또는 그룹 관리자가 객체에 대한 시스템 업데이트를 활성화할 수 있습니다. 자세한 내용은 [시스템 업데이트 구성](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
 현재 다음 개체에 대한 베타 주석 달기 환경을 사용하여 의견을 작성하고 업데이트에 응답할 수 있습니다.
@@ -102,14 +121,6 @@ ht-degree: 4%
   </tr> 
  </tbody> 
 </table>
-
->[!NOTE]
->
->주석 달기 경험 베타는 목표를 위한 기본 현재 경험입니다. Workfront 목표에 액세스하려면 추가 라이센스가 있어야 합니다.
->
->자세한 내용은 [Workfront 목표 사용 요구 사항](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
->
->목표에 대한 댓글 달기에 대한 자세한 내용은 [Adobe Workfront 목표의 목표 주석 관리](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 ## 상위 등급 개체에도 표시되는 업데이트
 

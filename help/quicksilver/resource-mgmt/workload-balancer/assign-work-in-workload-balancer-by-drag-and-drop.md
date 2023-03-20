@@ -6,7 +6,7 @@ description: 작업 항목을 올바른 사용자에게 끌어다 놓아 Adobe W
 author: Alina
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
-source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
+source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
 workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 1%
@@ -36,7 +36,7 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스*</td> 
    <td> <p>리소스 영역에서 작업 로드 밸런서에서 작업을 할당하도록 계획합니다.</p>
-   <p>작업하여 팀 또는 프로젝트의 작업 로드 밸런서에서 작업을 할당합니다</p>
+   <p>작업, 팀 또는 프로젝트의 작업 로드 밸런서에서 작업을 할당합니다.</p>
  </td> 
   </tr> 
   <tr> 

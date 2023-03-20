@@ -6,9 +6,9 @@ description: 필요에 따라 Adobe Workfront에서 프로젝트를 편집할 �
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: ''
+source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
 workflow-type: tm+mt
-source-wordcount: '7666'
+source-wordcount: '7705'
 ht-degree: 2%
 
 ---
@@ -270,7 +270,15 @@ ht-degree: 2%
        <ul> 
        <li> <p><span>[프로젝트] 영역에서 프로젝트가 생성되면 프로젝트 생성자의 홈 그룹이 프로젝트와 연결됩니다.</span> </p> <p>프로젝트가 포트폴리오 또는 프로그램의 프로젝트 섹션에서 만들어지는 경우에도 마찬가지입니다.</p> </li> 
        <li> <p>프로젝트가 설정 영역의 그룹 기본 페이지에서 생성되면 해당 그룹이 프로젝트와 연결됩니다.</p> </li> 
-       </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> <p>프로젝트 또는 해당 작업 또는 문제가 이미 그룹 수준 사용자 지정 상태를 사용하는 그룹 수준 승인 프로세스와 연관된 경우 그룹을 변경하면 이전 그룹의 승인 상태와 시스템 수준의 기존 승인 상태가 충돌할 수 있습니다. 그룹을 업데이트하기 전에 프로젝트에서 그룹 수준의 승인 프로세스 또는 해당 작업 또는 문제를 제거하는 것이 좋습니다. 그룹 수준 승인 프로세스 생성에 대한 자세한 내용은 <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">그룹 수준 승인 프로세스</a>. 그룹 수준 사용자 지정 상태 만들기에 대한 자세한 내용은 <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">그룹 상태 만들기 또는 편집</a></p> </td> 
+       </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> 
+       <p><b>참고</b></p>
+
+   <ul>
+      <li><p>프로젝트 또는 해당 작업 또는 문제가 그룹 수준의 사용자 지정 상태와 연결되어 있는 경우 프로젝트 그룹을 변경하면 프로젝트, 작업 또는 문제가 새 그룹과 일치하도록 변경될 수 있습니다.</p></li>
+      <li><p>프로젝트 또는 해당 작업 또는 문제가 이미 그룹 수준 사용자 지정 상태를 사용하는 그룹 수준 승인 프로세스와 연관된 경우 그룹을 변경하면 이전 그룹의 승인 상태와 시스템 수준의 기존 승인 상태가 충돌할 수 있습니다.</p>
+      <p>그룹을 업데이트하기 전에 프로젝트에서 그룹 수준의 승인 프로세스 또는 해당 작업 또는 문제를 제거하는 것이 좋습니다.</p>
+      <p>그룹 수준 승인 프로세스 생성에 대한 자세한 내용은 <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">그룹 수준 승인 프로세스</a>.</p>
+      <p>그룹 수준 사용자 지정 상태 만들기에 대한 자세한 내용은 <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">그룹 상태 만들기 또는 편집</a></p></li></ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>회사</strong> </td> 
