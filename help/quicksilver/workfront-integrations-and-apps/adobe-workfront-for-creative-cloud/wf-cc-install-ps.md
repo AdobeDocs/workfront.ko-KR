@@ -6,9 +6,9 @@ description: Adobe Marketplace에서 Photoshop용 Adobe Workfront 플러그인�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: 95bedadeb2a0a4e4e91f82c193f6e95e034a6a34
+source-git-commit: 6b6d0794b21f34eb448a1bc4b728cb8e5fe0df72
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '451'
 ht-degree: 1%
 
 ---
@@ -102,8 +102,11 @@ ht-degree: 1%
 
    >[!TIP]
    >
-   >도메인을 찾으려면 브라우저를 열고 [!DNL Workfront] 인스턴스를 선택하고 URL의 첫 번째 부분을 복사합니다.\
-   >![](assets/domain-350x50.png)   >
+   >* 도메인을 찾으려면 브라우저를 열고 [!DNL Workfront] 인스턴스를 선택하고 URL의 첫 번째 부분을 복사합니다.\
+      >![](assets/domain-350x50.png)
+   >
+   > * Workfront 인스턴스가 Experience Cloud과 통합된 경우 관리자에게 Admin Console의 제품 > Workfront 아래에 있는 Workfront 도메인을 제공하라고 요청하십시오.
+
 
 1. 브라우저에서 [!DNL Workfront] 자격 증명 **[!UICONTROL 로그인]**. 회사에서 SSO(Single Sign-On)를 사용하는 경우 로그인할 SSO 공급자 페이지로 이동됩니다.
 

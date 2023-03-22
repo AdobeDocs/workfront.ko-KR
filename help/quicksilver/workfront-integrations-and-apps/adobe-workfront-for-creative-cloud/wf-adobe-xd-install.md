@@ -6,9 +6,9 @@ description: Adobe Marketplace에서 XD용 Adobe Workfront 플러그인을 설�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
-source-git-commit: d4bdbce1c5fd5551ac225290840ba50b0ebeae45
+source-git-commit: 6b6d0794b21f34eb448a1bc4b728cb8e5fe0df72
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '411'
 ht-degree: 1%
 
 ---
@@ -99,8 +99,11 @@ ht-degree: 1%
 
    >[!TIP]
    >
-   >도메인을 찾으려면 브라우저를 열고 [!DNL Workfront] 인스턴스를 선택하고 URL의 첫 번째 부분을 복사합니다.\
-   >![](assets/domain-350x50.png)   >
+   >* 도메인을 찾으려면 브라우저를 열고 [!DNL Workfront] 인스턴스를 선택하고 URL의 첫 번째 부분을 복사합니다.\
+      >![](assets/domain-350x50.png)
+   >
+   > * Workfront 인스턴스가 Experience Cloud과 통합된 경우 관리자에게 Admin Console의 제품 > Workfront 아래에 있는 Workfront 도메인을 제공하라고 요청하십시오.
+
 
 1. 브라우저에서 [!DNL Workfront] 자격 증명 **[!DNL Log in]**. 회사에서 SSO(Single Sign-On)를 사용하는 경우 로그인할 SSO 공급자 페이지로 이동됩니다.
 

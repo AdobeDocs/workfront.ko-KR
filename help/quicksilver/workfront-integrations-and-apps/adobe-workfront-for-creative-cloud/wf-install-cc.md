@@ -6,9 +6,9 @@ description: Adobe Marketplace에서 Creative Cloud 플러그인용 Workfront을
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 95bedadeb2a0a4e4e91f82c193f6e95e034a6a34
+source-git-commit: 6b6d0794b21f34eb448a1bc4b728cb8e5fe0df72
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '504'
 ht-degree: 1%
 
 ---
@@ -119,8 +119,11 @@ ht-degree: 1%
 
    >[!TIP]
    >
-   >도메인을 찾으려면 브라우저를 열고 [!DNL Workfront] 인스턴스를 선택하고 URL의 첫 번째 부분을 복사합니다.\
-   >![](assets/domain-350x50.png)   >
+   >* 도메인을 찾으려면 브라우저를 열고 [!DNL Workfront] 인스턴스를 선택하고 URL의 첫 번째 부분을 복사합니다.\
+      >![](assets/domain-350x50.png)
+   >
+   > * Workfront 인스턴스가 Experience Cloud과 통합된 경우 관리자에게 Admin Console의 제품 > Workfront 아래에 있는 Workfront 도메인을 제공하라고 요청하십시오.
+
 
 1. 브라우저에서 [!DNL Workfront] 자격 증명 **[!UICONTROL 로그인]**. 회사에서 SSO(Single Sign-On)를 사용하는 경우 로그인할 SSO 공급자 페이지로 이동됩니다.
 
