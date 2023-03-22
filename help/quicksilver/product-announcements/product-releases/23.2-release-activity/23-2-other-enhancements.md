@@ -4,9 +4,9 @@ description: 23.2 기타 개선 사항
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8cdb0b9f529979ac5eb6ac9b0a7b52ab879defe5
+source-git-commit: 92c995dff3498f625cf7928ca2cef928b106be8d
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,6 @@ Adobe Workfront에서 주석 달기 경험에 대한 업데이트가 현재 개�
 * 성능 향상
 
 * 새 댓글에 대한 실시간 지표입니다.
-   >[!NOTE]
-   >
-   >실시간 지표의 발표가 연기되었다.
 
 * 주석 제출 후 편집
 
