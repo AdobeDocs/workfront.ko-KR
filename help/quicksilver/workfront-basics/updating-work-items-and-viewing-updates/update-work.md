@@ -6,9 +6,9 @@ description: Adobe Workfront 개체(프로젝트, 작업 또는 문제)에 업�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 661688a5217589da47b8c7a0b043c8292fb346db
+source-git-commit: 809f1c3629c343a55305c0c617f4974dc05439bf
 workflow-type: tm+mt
-source-wordcount: '2674'
+source-wordcount: '2756'
 ht-degree: 1%
 
 ---
@@ -183,13 +183,14 @@ drafted for P&P release:
 
 1. 업데이트에 응답하려면 다음을 참조하십시오 [업데이트에 회신](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
+<div class="preview">
+
 ### 주석 달기 베타 경험을 사용하여 작업 항목에 업데이트 추가
 
 1. 업데이트할 개체를 찾은 다음 해당 이름을 클릭하여 개체의 페이지를 엽니다.
 1. 클릭  **업데이트** 왼쪽 패널에 표시됩니다.
-1. <span class="preview">클릭 **주석 달기 베타 시도** 업데이트 영역의 오른쪽 아래 모서리에 있는 버튼을 클릭한 다음 **동의** 베타 계약에 따라 Analytics Mobile Apps 또는 Analytics Premium에서 사용할 수 없습니다. 이렇게 하면 업데이트 영역이 댓글 베타 경험으로 전환됩니다. </span>
-해당 
-**댓글** 기본적으로 탭이 선택되어 있습니다.
+1. 클릭 **주석 달기 베타 시도** 업데이트 영역의 오른쪽 아래 모서리에 있는 버튼을 클릭한 다음 **동의** 베타 계약에 따라 Analytics Mobile Apps 또는 Analytics Premium에서 사용할 수 없습니다. 이렇게 하면 업데이트 영역이 댓글 베타 경험으로 전환됩니다.
+다음 **댓글** 기본적으로 탭이 선택되어 있습니다.
 1. 에 댓글 입력 시작 **새 댓글** 상자.
 
    ![](assets/comment-box-empty-unshimmed.png)
@@ -211,23 +212,26 @@ drafted for P&P release:
 
    자세한 내용은 이 문서의 &quot;Workfront 업데이트에서 리치 텍스트 사용&quot; 섹션을 참조하십시오. <!--remove this list, above, when we get to parity for Rich Text-->
 
-   <!--not available yet in preview - should be live with production: format this as a TIP: 
-      * If another user submits a comment to the same item you are updating, there will be a red line with a "New" indicator to inform you of the newer comments. 
-      * The indicator only displays only after the comment was submitted on the item, and not when the comment is still composed. 
-      * The "New" indicator displays only when both the user that entered a new update as well as the user who is currently entering an update are using the new commenting experience. 
-      ![](assets/real-time-new-red-indicator-unified-commenting.png)-->
+   >[!TIP]
+   >
+   >업데이트하려는 동일한 항목에 다른 사용자가 주석을 제출하면 최신 주석을 알려주는 &quot;새로 만들기&quot; 표시기가 있는 빨간색 줄이 표시됩니다.
+   >
+   >표시기에는 항목에 대한 설명을 제출한 후에만 표시되며, 주석을 아직 작성할 때는 표시되지 않습니다.
+   >
+   >새로 만들기 지표는 새 업데이트를 입력한 사용자와 현재 업데이트를 입력하는 사용자가 새 주석 달기 경험을 사용하는 경우에만 표시됩니다.
+   >![](assets/real-time-new-red-indicator-unified-commenting.png)
+
 
 1. 클릭 **제출** Workfront 개체에 업데이트를 추가하려면 다음을 수행하십시오.
-1. <span class="preview">(선택 사항) 주석을 편집하려면 **자세히** 메뉴 ![](assets/more-menu.png) 좋아요 아이콘 오른쪽에 있는 를 클릭한 다음 **편집**.</span>
-1. <span class="preview">주석에서 정보를 편집하거나 태그가 지정된 사용자를 모두 제거합니다. </span>
-
-   <span class="preview">댓글을 제출한 후 15분 이내에 편집을 수행할 수 있습니다. 설명이 업데이트될 때 표시되는 날짜 스탬프 왼쪽에 &quot;편집됨&quot; 표시기가 추가됩니다. </span>
+1. (선택 사항) 주석을 편집하려면 **자세히** 메뉴 ![](assets/more-menu.png) 좋아요 아이콘 오른쪽에 있는 를 클릭한 다음 **편집**.
+1. 주석에서 정보를 편집하거나 태그가 지정된 사용자를 모두 제거합니다.
+댓글을 제출한 후 15분 이내에 편집을 수행할 수 있습니다. 설명이 업데이트될 때 표시되는 날짜 스탬프 왼쪽에 &quot;편집됨&quot; 표시기가 추가됩니다.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
-   >   <span class="preview">원본 업데이트를 제출할 때만 사용자에게 업데이트를 알리는 이메일이 생성됩니다. 업데이트를 편집한 후에는 이메일이 생성되지 않습니다.</span>
+   >   원본 업데이트를 제출할 때만 사용자에게 업데이트를 알리는 이메일이 생성됩니다. 업데이트를 편집한 후에는 이메일이 생성되지 않습니다.
 1. (선택 사항) **회신** 기존 주석에 응답하려면 위의 4-7단계를 수행합니다. <!--(**************insure this stays accurate***********)-->. 업데이트에 응답하는 방법에 대한 자세한 내용은 [업데이트에 회신](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 1. (선택 사항) **좋아요** 아이콘![](assets/like-icon.png). 아이콘이 좋아요 수로 업데이트됩니다.
 1. (조건부 및 선택 사항) 댓글에 추가 사용자를 포함시킨 경우 업데이트에 포함된 멤버 수를 클릭하여 입력한 댓글이 공유되는 엔티티 목록을 표시합니다.
@@ -241,6 +245,7 @@ drafted for P&P release:
    >
    >시스템 업데이트에 주석을 추가할 수 없습니다.
 
+</div>
 
 ## Workfront 업데이트에서 리치 텍스트 사용
 

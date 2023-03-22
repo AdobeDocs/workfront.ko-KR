@@ -6,14 +6,16 @@ description: Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 0d53b8651da3602e6f3233597680eede55f847a1
+source-git-commit: 809f1c3629c343a55305c0c617f4974dc05439bf
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
 
 # Adobe Workfront 목표의 목표 주석 관리
+
+<!--consider retiring this article when goals and all objects are in parity - after the new commenting experience goes to production GA-->
 
 <span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 환경에서만 사용할 수 있습니다.</span>
 
@@ -149,16 +151,28 @@ Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석을 추가할
    >
    >   <span class="preview">원본 업데이트를 제출할 때만 사용자에게 업데이트를 알리는 이메일이 생성됩니다. 업데이트를 편집한 후에는 이메일이 생성되지 않습니다.</span>
 
+   <!-- <div class="preview">
+   1. (Optional) Click the **More** menu ![](assets/more-icon.png), then click any of the following options to copy information from a comment to the clipboard:
+
+      * **Copy update link** to copy the link of an update, without the replies.
+      * **Copy thread link** to copy the link of an update, including the replies.
+      * **Copy body text** to copy the text of an update. 
+
+         For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+
+   </div>
+   -->
+
 1. 클릭 **제출**.
 
-   <!--drafted for 23.2 beta release: 
-      >[!TIP]
-      >
-      >   <span class="preview">If another user submits a comment to the same item you are updating, there will be a red line with a "New" indicator to inform you of the newer comments. The indicator only displays only after the comment was submitted on the item, and not when the comment is still composed. </span>
-      >
-      ><span class="preview">The "New" indicator displays only when both the user that entered a new update as well as the user who is currently entering an update are using the new commenting experience.</span>
-      >
-      >![](assets/real-time-new-red-indicator-unified-commenting.png)-->
+   >[!TIP]
+   >
+   >업데이트하려는 동일한 항목에 다른 사용자가 주석을 제출하면 최신 주석을 알려주는 &quot;새로 만들기&quot; 표시기가 있는 빨간색 줄이 표시됩니다.
+   >
+   >표시기에는 항목에 대한 설명을 제출한 후에만 표시되며, 주석을 아직 작성할 때는 표시되지 않습니다.
+   >
+   >새로 만들기 지표는 새 업데이트를 입력한 사용자와 현재 업데이트를 입력하는 사용자가 새 주석 달기 경험을 사용하는 경우에만 표시됩니다.
+   >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
 1. (선택 사항) **회신** 기존 주석에 응답하려면 위의 5~9단계를 수행합니다. <!--insure this stays accurate-->
 1. (선택 사항) **좋아요** 아이콘![](assets/like-icon.png) 다른 사람이 추가한 설명을 좋아합니다. 아이콘이 좋아요 수로 업데이트됩니다.
