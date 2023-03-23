@@ -7,16 +7,16 @@ description: 아래 나열된 개체 중 하나에 기존 사용자 지정 양�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
+source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '869'
 ht-degree: 1%
 
 ---
 
 # 개체에 사용자 지정 양식 추가
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 환경에서만 사용할 수 있습니다.</span>
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 환경의 모든 고객과 프로덕션 환경의 고객 선택 그룹에 대해 사용할 수 있습니다.</span>
 
 아래 나열된 개체 중 하나에 기존 사용자 지정 양식을 추가할 수 있습니다. 사용자 지정 양식에는 개체에 대한 정보를 저장할 수 있는 사용자 지정 필드가 포함되어 있습니다.
 

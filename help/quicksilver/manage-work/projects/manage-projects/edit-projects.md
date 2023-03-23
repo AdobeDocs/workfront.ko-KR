@@ -6,16 +6,16 @@ description: 필요에 따라 Adobe Workfront에서 프로젝트를 편집할 �
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
+source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
 workflow-type: tm+mt
-source-wordcount: '7705'
+source-wordcount: '7718'
 ht-degree: 2%
 
 ---
 
 # 프로젝트 편집
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 환경에서만 사용할 수 있습니다.</span>
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 환경의 모든 고객과 프로덕션 환경의 고객 선택 그룹에 대해 사용할 수 있습니다.</span>
 
 <!--
 <p>***Linked to many articles,</p>
@@ -466,7 +466,7 @@ ht-degree: 2%
        </ul></p> </td> 
        </tr> 
        <tr> 
-       <td role="rowheader"><strong>일정</strong> </td> 
+       <td role="rowheader"><strong>예약</strong> </td> 
        <td> <p>프로젝트 일정을 선택합니다. 프로젝트에서 작업 중인 대부분의 사용자에게 할당된 일정과 같아야 합니다. 프로젝트 또는 사용자에게 할당하려면 먼저 일정을 만들어야 합니다. 시스템에 사용자 지정 일정을 만들지 않은 경우 기본 일정이 선택됩니다.</p> <p>예약 작성에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">예약 만들기</a>. </p> </td> 
        </tr> 
        <tr> 

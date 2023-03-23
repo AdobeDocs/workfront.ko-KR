@@ -6,16 +6,16 @@ description: 한 개체에 첨부된 사용자 지정 양식이 표시되는 순
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: 23257f11b0795aa1f1e422923f6d596017c58126
+source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
 workflow-type: tm+mt
-source-wordcount: '1120'
+source-wordcount: '1133'
 ht-degree: 0%
 
 ---
 
 # 개체에 첨부된 사용자 지정 양식 관리
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 환경에서만 사용할 수 있습니다.</span>
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 환경의 모든 고객과 프로덕션 환경의 고객 선택 그룹에 대해 사용할 수 있습니다.</span>
 
 한 개체에 첨부된 사용자 지정 양식이 표시되는 순서를 업데이트하거나, 제거하거나, 여러 개체에 사용자 지정 양식이 표시되는 방식을 대량 편집할 수 있습니다.
 

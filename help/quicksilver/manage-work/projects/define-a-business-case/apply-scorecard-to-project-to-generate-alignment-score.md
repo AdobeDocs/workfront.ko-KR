@@ -5,16 +5,16 @@ description: 스코어카드를 사용하여 프로젝트가 이전에 설정한
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: b2859f3d268bd947fba5bb0280677465b3039d93
+source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1433'
 ht-degree: 0%
 
 ---
 
 # 프로젝트에 스코어카드를 적용하고 정렬 점수를 생성합니다
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 환경에서만 사용할 수 있습니다.</span>
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 환경의 모든 고객과 프로덕션 환경의 고객 선택 그룹에 대해 사용할 수 있습니다.</span>
 
 스코어카드를 사용하여 프로젝트가 이전에 설정한 포트폴리오 기준에 얼마나 잘 정렬되는지 측정할 수 있습니다. 스코어카드는 종종 조직의 임무, 가치 및 전략적 목표를 반영합니다.
 
