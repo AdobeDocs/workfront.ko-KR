@@ -6,9 +6,9 @@ description: 데이터를 내보내는 몇 가지 이유는 EDIT ME입니다.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: 754ff1d13cd2549f09cfb127786a0a1eeda51a9d
 workflow-type: tm+mt
-source-wordcount: '2116'
+source-wordcount: '2181'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ Workfront 인터페이스에서 보고서를 수동으로 내보내거나 보고
 ### 내보내기 제한 {#export-limits}
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting Up Report Deliveries."])</p>
+NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting Up Report Deliveries."]
 -->
 
 보고서가 Workfront에 표시되는 방식과 수동 내보내기, 배달된 보고서 또는 API를 통해 내보내는 방식 간에는 몇 가지 제한 사항이 있습니다.
@@ -106,9 +106,13 @@ Workfront 인터페이스에서 보고서를 수동으로 내보내거나 보고
    * Excel .xlsx 파일의 경우 이 제한은 다음과 같습니다 **100,000개 행**.
    * 이러한 제한은 열 제목과 보고서 그룹의 행을 제외합니다. 예를 들어 보고서에 6개의 그룹화가 있고 50,000개의 행 또는 데이터가 있는 경우 내보낸 파일에 50,000개의 행이 있습니다.
 
-   >[!NOTE]
+   >[!IMPORTANT]
    >
-   >보고서에 이러한 제한보다 많은 항목이 있는 경우 내보내기가 실패했다는 오류가 표시됩니다. 화면에서 표시되는 항목 수를 이러한 제한보다 작거나 같은 수로 줄여 결과를 내보낼 수 있습니다.
+   >열 내에 컬렉션 참조를 포함하는 보고서를 내보내면 나열된 내보내기 제한 내에 보고서가 있더라도 오류가 발생할 수 있습니다. 참조된 컬렉션이 너무 큰 경우 내보내기 프로세스가 시간 초과되어 오류가 발생합니다.
+   >
+   >이 오류를 방지하려면 큰 컬렉션을 참조하는 열을 제외하거나 내보내기 전에 참조된 컬렉션의 크기를 줄이십시오.
+
+   보고서에 이러한 제한보다 많은 항목이 있는 경우 내보내기가 실패했다는 오류가 표시됩니다. 화면에서 표시되는 항목 수를 이러한 제한보다 작거나 같은 수로 줄여 결과를 내보낼 수 있습니다.
 
    보고서에 50,000/ 65,000/ 100,000개 이상의 행이 있고 모든 데이터를 내보내려면 필터 또는 프롬프트를 사용하여 더 작은 데이터 로드를 가져오고 여러 내보내기를 수행하는 것이 좋습니다.
 
