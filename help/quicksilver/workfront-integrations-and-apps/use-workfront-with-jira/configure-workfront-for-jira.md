@@ -6,9 +6,9 @@ description: 다음을 사용할 수 있습니다 [!DNL Adobe Workfront for Jira
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 959adc88-5201-4945-96c4-ea890f0bd371
-source-git-commit: f22a67cd3235a3111f7b874637ec05f8299de271
+source-git-commit: d2c366a69b986bd8d559a18994810011c6d33441
 workflow-type: tm+mt
-source-wordcount: '2400'
+source-wordcount: '2413'
 ht-degree: 0%
 
 ---
@@ -89,12 +89,13 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >[!UICONTROL Workfront] 연결 대상 [!DNL Jira] using OAuth 2.0(사용자 인증 및 권한 부여를 위해 대부분의 웹 기반 통합에서 사용하는 표준)
+   >사용자에게 유효한 권한이 있어야 합니다. `apiKey` in [!UICONTROL Workfront] 을 입력하여 성공적으로 연결할 수 있습니다.
 
    에 로그인해야 합니다. [!DNL Workfront] 로서의 [!DNL Workfront] 구성을 계속하려면 관리자가 필요합니다.
 
    >[!NOTE]
    >
+   >* [!UICONTROL Workfront] 연결 대상 [!DNL Jira] using OAuth 2.0(사용자 인증 및 권한 부여를 위해 대부분의 웹 기반 통합에서 사용하는 표준)
    >* 도메인 입력 메시지가 표시되면 [!DNL Workfront] 다음 형식으로 입력하십시오. *yourCompany&#39;sDomain.my.workfront.com*. 일반적으로 회사의 도메인은 회사의 이름입니다.
    >* Enhanced Authentication 은 [!DNL Workfront] 관리자가 이 통합을 위해 이 통합을 사용하도록 설정합니다.
 
