@@ -4,9 +4,9 @@ description: 23.2 릴리스 개요
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8cdb0b9f529979ac5eb6ac9b0a7b52ab879defe5
+source-git-commit: b7c32457f3bb39293f4272a69cd3557a08a1ba27
 workflow-type: tm+mt
-source-wordcount: '2577'
+source-wordcount: '2641'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,23 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront 보드에서 사용할 수 있는 반복 기능</a><span style="color: #ff0000;"> 미리 보기의 새로운 기능!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">개체 세부 정보의 작업 및 문제를 Workfront 보드 또는 워크플로우에 추가합니다</a><span style="color: #ff0000;"> 미리 보기의 새로운 기능!</span></p>
+                        <p>이제 기존 작업 또는 문제를 개체 세부 정보에서 직접 Workfront 보드 또는 작업 스트림 카드 목록에 추가할 수 있습니다. 보드에 추가하는 모든 항목은 연결된 카드가 되고 작업 스트림에 추가된 모든 항목은 카드 목록에 계획되지 않은 카드로 추가됩니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용할 수 있습니다.</b></p>
+                        <ul>
+                            <li>
+                                <p>미리 보기 릴리스: 2023년 3월 23일<br /></p>
+                            </li>
+                            <li>
+                                <p>프로덕션 릴리스: 23.2 릴리스 사용</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr> 
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront 보드에서 사용할 수 있는 반복 기능</a></p>
                         <p>Workfront 보드에서 사용할 수 있는 몇 가지 새로운 기능을 사용하면 기민한 스크럼 기능을 사용할 수 있습니다. 이러한 기능은 다음과 같습니다.
                         <ul>
                         <li>동일한 팀과 관련된 보드를 그룹화하고 작업을 공동으로 수행하는 워크플로우입니다</li>
@@ -138,7 +154,7 @@ ht-degree: 0%
                 </tr> 
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">목록 및 보고서의 작업 및 문제를 작업 스트림 카드 목록에 추가합니다</a><span style="color: #ff0000;"> 미리 보기의 새로운 기능!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">목록 및 보고서의 작업 및 문제를 작업 스트림 카드 목록에 추가합니다</a></p>
                         <p>이제 목록 또는 보고서 보기에서 직접 Workfront 보드의 작업 스트림에 기존 작업 또는 문제를 추가할 수 있습니다. 워크플로우에 추가하는 모든 항목이 카드 목록에 계획되지 않은 카드로 추가됩니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용할 수 있습니다.</b></p>
@@ -154,7 +170,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">보드에 카드에 사용자 지정 필드 추가</a><span style="color: #ff0000;"> 미리 보기의 새로운 기능!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">보드에 카드에 사용자 지정 필드 추가</a></p>
                         <p>이제 Adobe Workfront 보드에 사용자 지정 필드를 포함할 수 있습니다. Workfront에서 필드를 이미 만들어야 합니다. 보드 내에서 새 사용자 지정 필드를 디자인하고 만들 수 없습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용할 수 있습니다.</b></p>
@@ -484,7 +500,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">문제에 대한 새로운 주석 달기 환경 베타<span style="color: #ff0000;"> 미리 보기의 새로운 기능!</span></a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">문제에 대한 새로운 주석 달기 환경 베타</a>
                         <p>Adobe Workfront에서 주석 달기 경험에 대한 업데이트가 현재 개발 중입니다. 이 업데이트에는 일부 개체의 업데이트 섹션에서 새 인터페이스, 새 기능 및 향상된 성능이 포함됩니다. </p>
                         <p>이 새로운 경험은 결국 Adobe Experience Cloud 전체에서 Adobe Workfront 및 그 이상의 주석을 통합하게 됩니다. </p>
                     </td>

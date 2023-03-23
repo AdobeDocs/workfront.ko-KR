@@ -4,9 +4,9 @@ description: 23.2 Agile 개선
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
+source-git-commit: b7c32457f3bb39293f4272a69cd3557a08a1ba27
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1204'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,12 @@ ht-degree: 0%
 이 페이지에서는 미리 보기 환경에 대한 23.2 릴리스로 인한 모든 애자일 개선 사항에 대해 설명합니다. 이러한 개선 사항은 23.2 릴리스와 함께 프로덕션 환경에서 사용할 수 있습니다.
 
 23.2 릴리스 주기에 있는 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [23.2 릴리스 개요](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+
+## 개체 세부 정보의 작업 및 문제를 Workfront 보드 또는 워크플로우에 추가합니다
+
+이제 기존 작업 또는 문제를 개체 세부 정보에서 직접 Workfront 보드 또는 작업 스트림 카드 목록에 추가할 수 있습니다. 보드에 추가하는 모든 항목은 연결된 카드가 되고 작업 스트림에 추가된 모든 항목은 카드 목록에 계획되지 않은 카드로 추가됩니다.
+
+자세한 내용은 [보드에 기존 작업 또는 문제 추가](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
 ## Adobe Workfront 보드에서 사용할 수 있는 반복 기능
 
@@ -28,6 +34,8 @@ Workfront 보드에서 사용할 수 있는 몇 가지 새로운 기능을 사�
 컬렉션의 이름이 workstreams로 변경되었습니다. 워크플로우는 데이터를 다양한 방식으로 시각화하는 데 도움이 됩니다. 목록, 보드 또는 이터레이션에 있는 카드에 항목을 표시할 수 있습니다. 작업 스트림의 카드는 여러 보드 간에 공유할 수도 있습니다. 워크플로우에서 카드 및 보드를 사용하여 워크플로우를 손쉽게 진행할 수 있습니다.
 
 자세한 내용은 [워크플로우 관리](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [워크플로우에서 반복 만들기](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md), 및 [카드 목록 사용](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). 두 번째 문서는 내 분기를 게시하기 전까지 기본 설정에서 사용할 수 없습니다.
+
+[이 기능에 대한 비디오 데모 보기](https://video.tv.adobe.com/v/3417059/){target=_blank}
 
 ## 목록 및 보고서의 작업 및 문제를 작업 스트림 카드 목록에 추가합니다
 
