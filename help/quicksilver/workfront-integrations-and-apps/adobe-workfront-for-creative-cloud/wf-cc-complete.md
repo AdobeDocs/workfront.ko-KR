@@ -6,9 +6,9 @@ description: Adobe Creative Cloud 애플리케이션에서 작업을 계속 수�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d94a2b10-51d5-4995-b7b3-793d7911fca9
-source-git-commit: fc3eb30cef2e17524b5cbd50219861f293a2ea9d
+source-git-commit: 012c2fbe923ed75587c236bc32436196bab9d9d0
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
@@ -60,5 +60,11 @@ ht-degree: 0%
 
 1. 에서 **[!UICONTROL 작업 목록]**&#x200B;완료 를 표시할 작업 또는 문제를 선택합니다.
 1. 클릭 **[!UICONTROL 완료]**.\
-   이렇게 하면 Workfront에서 항목 완료가 표시됩니다.\
-   ![](assets/complete-work-350x529.png)
+   이렇게 하면 Workfront에서 항목 완료가 표시됩니다.
+
+   >[!NOTE]
+   >
+   >작업 항목에 선행 작업이 있는 경우 선행 작업이 완료로 표시될 때까지 완료 단추가 회색으로 표시됩니다. 의 내부 선행 작업을 보려면 [!DNL Workfront]을 클릭합니다.
+   >![](assets/navigate-to-workfront.png)
+
+<!-- I dont think we need this one ![](assets/complete-work-350x529.png) -->

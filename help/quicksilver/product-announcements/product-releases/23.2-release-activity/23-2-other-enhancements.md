@@ -4,9 +4,9 @@ description: 23.2 기타 개선 사항
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 92c995dff3498f625cf7928ca2cef928b106be8d
+source-git-commit: d989ab316c48550f35e17fabc58e23a0db108f7f
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,13 @@ ht-degree: 0%
 이 페이지에서는 미리 보기 환경에 대한 23.2 릴리스로 수행된 다른 모든 개선 사항에 대해 설명합니다. 이러한 개선 사항은 23.2 릴리스와 함께 프로덕션 환경에서 사용할 수 있습니다.
 
 23.2 릴리스 주기에 있는 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [23.2 릴리스 개요](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+
+## Creative Cloud 플러그인을 위한 Workfront의 새로운 기능
+
+Creative Cloud 플러그인용 Workfront에 다음 변경 사항을 추가했습니다.
+
+* 이제 작업에 선행 작업이 있을 때 플러그인이 사용자에게 알립니다
+* 이제 한국어는 지원되는 언어입니다
 
 ## 문제에 대한 새로운 주석 달기 환경 베타
 

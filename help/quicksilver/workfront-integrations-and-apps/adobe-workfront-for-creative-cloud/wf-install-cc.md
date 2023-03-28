@@ -6,9 +6,9 @@ description: Adobe Marketplace에서 Creative Cloud 플러그인용 Workfront을
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 6b6d0794b21f34eb448a1bc4b728cb8e5fe0df72
+source-git-commit: 9baddd29b84c3b5d77f8b2e708be53d4150e6e92
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '505'
 ht-degree: 1%
 
 ---
@@ -30,8 +30,7 @@ ht-degree: 1%
 * 포르투갈어
 * 중국어 간체
 * 중국어 번체
-
-<!-- * Korean -->
+* 한국어
 
 >[!NOTE]
 >

@@ -4,9 +4,9 @@ description: 23.2 릴리스 개요
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: b7c32457f3bb39293f4272a69cd3557a08a1ba27
+source-git-commit: d989ab316c48550f35e17fabc58e23a0db108f7f
 workflow-type: tm+mt
-source-wordcount: '2641'
+source-wordcount: '2689'
 ht-degree: 0%
 
 ---
@@ -496,6 +496,26 @@ ht-degree: 0%
                     <td>
                         <p><span class="bold">릴리스 날짜</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Creative Cloud 플러그인을 위한 Workfront의 새로운 기능</a>
+                        <p>Creative Cloud 플러그인용 Workfront에 다음 변경 사항을 추가했습니다.
+                        <ul>
+                        <li>이제 작업에 선행 작업이 있을 때 플러그인이 사용자에게 알립니다</li>
+                        <li>이제 한국어는 지원되는 언어입니다</li>
+                        </ul> </p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용할 수 있습니다.</b></p>
+                        <ul>
+                            <li>
+                                <p>미리 보기 릴리스: 해당 없음<br /></p>
+                            </li>
+                            <li>
+                                 <p><span class="preview">프로덕션 릴리스: 2023년 3월 23일 </span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
