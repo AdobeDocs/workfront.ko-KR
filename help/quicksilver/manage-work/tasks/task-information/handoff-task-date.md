@@ -7,7 +7,7 @@ description: 핸드오프 날짜는 작업을 사용할 수 있게 되는 날짜
 author: Alina
 feature: Work Management
 exl-id: caf2dbba-5311-418d-8c82-ddcc256f9926
-source-git-commit: b2859f3d268bd947fba5bb0280677465b3039d93
+source-git-commit: 161084a3b459d4a9598fa780132d420bf0890c71
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 3%
@@ -76,7 +76,7 @@ Workfront에서는 작업의 핸드오프 날짜를 계산하기 위해 다음 �
 
    다음 시나리오가 있습니다.
 
-   * 작업에 Must Start On 또는 No Early라는 제약 조건이 있는 경우, Handoff Date는 작업에 실제 시작 날짜가 없는 한 제한 날짜입니다. 태스크에 실제 시작 일자가 있는 경우 핸드오프 일자는 전임자의 실제 완료 일자입니다.
+   * 작업에 Must Start On 또는 Start No Early라는 제약 조건이 있는 경우, 작업에 실제 시작 날짜가 없는 한 Handoff Date는 제한 날짜입니다. 태스크에 실제 시작 일자가 있는 경우 핸드오프 일자는 전임자의 실제 완료 일자입니다.
    * 작업에 완료 설정 또는 시작 완료 후로의 제약 조건이 있는 경우, 작업 시작 날짜가 실제 시작 일자인 지의 여부와 관계없이, 완료 날짜는 항상 선행 작업의 실제 완료 날짜입니다.
    * 작업이 고정 날짜에 제약 조건을 갖는 경우, 핸드오프 일자는 선행 작업이 있는지 여부 및 선행 작업이 완료되었는지 여부에 상관없이 작업의 계획 시작 날짜입니다.
 
