@@ -4,9 +4,9 @@ description: 23.2 릴리스 개요
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: d989ab316c48550f35e17fabc58e23a0db108f7f
+source-git-commit: 1dfe9305e7d9de1dfdf9b149ba185b2f061cba2e
 workflow-type: tm+mt
-source-wordcount: '2689'
+source-wordcount: '2692'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 23.2 릴리스 개요
 
-이 페이지에서는 2023년 4월로 예정된 23.2 릴리스에 포함된 기능에 대한 정보를 제공합니다.
+이 페이지에서는 2023년 4월 3일로 예약된 23.2 릴리스에 포함된 기능에 대한 정보를 제공합니다.
 
 이 페이지의 개선 사항은 미리 보기 환경에서 사용할 수 있습니다. 23.2 릴리스가 예정된 프로덕션 릴리스와 가까워지면 이 페이지가 추가 향상된 기능으로 업데이트됩니다.
 
