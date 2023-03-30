@@ -6,9 +6,9 @@ description: Adobe Workfront에서 문제를 프로젝트로 변환
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: e38411056b3f9be6d0241ee18e71984ef2a678a0
 workflow-type: tm+mt
-source-wordcount: '1340'
+source-wordcount: '1373'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 문제를 새 프로젝트로 변환하거나 템플릿을 사용하여 프로젝트로 변환할 수 있습니다. 이 문서에서는 문제를 프로젝트로 변환하는 두 방법에 대해 설명합니다.
 
 문제 변환에 대한 일반적인 내용은 [Adobe Workfront의 변환 문제 개요](../../../manage-work/issues/convert-issues/convert-issues.md).
+
+문제에 따라 프로젝트를 만들 때 프로젝트의 일부 필드가 다른 개체에서 채워집니다. 자세한 내용은 문서의 &quot;새 프로젝트 기본 설정&quot; 섹션을 참조하십시오 [프로젝트 만들기](../../../manage-work/projects/create-projects/create-project.md).
 
 ## 액세스 요구 사항
 
@@ -80,7 +82,7 @@ ht-degree: 0%
       >[!TIP]
       >   
       >* 요청 큐를 사용하여 문제를 만든 경우 새 프로젝트는 요청 큐의 그룹을 상속합니다.
-      >* 프로젝트의 Issues 섹션에 해당 문제를 추가하여 만든 경우 새 프로젝트는 문제의 프로젝트가 있는 경우 Group을 상속합니다.
+      >* 프로젝트의 Issues 섹션에 해당 문제를 추가하여 만든 경우 새 프로젝트는 문제 프로젝트 그룹을 상속합니다.
 
 
    * 템플릿을 사용하여 문제를 프로젝트로 변환하려면 다음 중 하나를 수행합니다.

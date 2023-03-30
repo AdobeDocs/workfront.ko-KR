@@ -2,26 +2,33 @@
 product-area: projects;templates
 navigation-topic: create-projects
 title: 템플릿을 사용하여 프로젝트 만들기
-description: 템플릿을 프레임워크로 사용하여 새 프로젝트를 만들 수 있습니다. 반복되는 프로젝트가 있는 경우 새 프로젝트의 일반 타임라인에 템플릿을 사용하면 동일한 프로젝트를 반복적으로 빌드하지 않아도 됩니다.
+description: 템플릿을 프레임워크로 사용하여 프로젝트를 만들 수 있습니다. 반복되는 프로젝트가 있는 경우 새 프로젝트의 일반 타임라인에 템플릿을 사용하면 동일한 프로젝트를 반복적으로 빌드하지 않아도 됩니다.
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: e38411056b3f9be6d0241ee18e71984ef2a678a0
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1104'
 ht-degree: 1%
 
 ---
 
 # 템플릿을 사용하여 프로젝트 만들기
 
-템플릿을 프레임워크로 사용하여 새 프로젝트를 만들 수 있습니다. 반복되는 프로젝트가 있는 경우 새 프로젝트의 일반 타임라인에 템플릿을 사용하면 동일한 프로젝트를 반복적으로 빌드하지 않아도 됩니다.
+템플릿을 프레임워크로 사용하여 프로젝트를 만들 수 있습니다. 반복되는 프로젝트가 있는 경우 새 프로젝트의 일반 타임라인에 템플릿을 사용하면 동일한 프로젝트를 반복적으로 빌드하지 않아도 됩니다.
 
-템플릿은 프로젝트와 관련된 모든 반복 가능한 프로세스, 정보 및 설정을 캡처하는 방법을 제공합니다. 템플릿과 연결된 모든 정보가 프로젝트로 전송됩니다. 여기에는 작업, 지정, 기간, 문서, 재무 세부 정보, 위험 및 사용자 정의 양식이 포함됩니다.
+템플릿은 프로젝트와 관련된 반복 가능한 프로세스, 정보 및 설정을 캡처하는 방법을 제공합니다. 템플릿과 관련된 정보는 프로젝트로 전송됩니다. 여기에는 작업, 지정, 기간, 문서, 재무 세부 정보, 위험 및 사용자 정의 양식이 포함됩니다.
 
 >[!TIP]
 >
->템플릿에서 새 프로젝트의 상태는 기본 프로젝트 환경 설정 영역에서 Workfront 관리자가 정의한 상태나 그룹의 프로젝트 환경 설정 영역에서 그룹 관리자(또는 Workfront 관리자)가 정의한 상태에 해당합니다. 프로젝트 환경 설정 구성에 대한 자세한 내용은 [시스템 전체 프로젝트 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) 또는 [그룹에 대한 프로젝트 환경 설정 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
+>Workfront은 새 프로젝트의 그룹 및 상태를 다음과 같이 정의합니다.
+>
+>* 템플릿에서 만든 새 프로젝트의 기본 상태는 기본 프로젝트 환경 설정 영역에서 Workfront 관리자가 정의한 상태나 그룹의 프로젝트 환경 설정 영역에서 그룹 관리자(또는 Workfront 관리자)가 정의한 상태에 해당합니다. 프로젝트 환경 설정 구성에 대한 자세한 내용은 [시스템 전체 프로젝트 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) 또는 [그룹에 대한 프로젝트 환경 설정 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
+>
+>* 새 프로젝트의 그룹은 템플릿의 그룹입니다. 템플릿이 그룹과 연관되지 않으면 프로젝트의 그룹은 프로젝트를 생성하는 사용자의 홈 그룹입니다.
+>
+>* 새 프로젝트에 사용할 수 있는 상태는 템플릿 그룹인 프로젝트 그룹 또는 프로젝트를 만드는 사용자의 홈 그룹 상태와 일치합니다.
+
 
 템플릿에서 프로젝트를 작성할 수 있는 옵션은 다음과 같습니다.
 
@@ -88,7 +95,7 @@ ht-degree: 1%
 </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>템플릿에 대한 권한 보기</p> <p>프로젝트를 만들 때 프로젝트에 대한 관리 권한을 자동으로 받습니다 </p> <p> 프로젝트 권한에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Adobe Workfront에서 프로젝트 공유</a>.</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>템플릿에 대한 권한 보기</p> <p>프로젝트를 만들 때 프로젝트에 대한 관리 권한을 자동으로 받게 됩니다 </p> <p> 프로젝트 권한에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Adobe Workfront에서 프로젝트 공유</a>.</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체에 대한 액세스 요청 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: create-projects
 title: 프로젝트 만들기
-description: '(참고: 클래식 UI의 프로젝트 글로벌 탐색 섹션에서 UI에 연결됩니다. 변경/제거 안 함)'
+description: 프로젝트는 Adobe Workfront에서 많은 작업의 단위입니다. 처음부터 프로젝트를 만들거나, 템플릿을 사용하거나, 문제나 작업을 프로젝트로 변환하여 프로젝트를 만들 수 있습니다.
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: e83d4742106bc3cb5adb939040997959315dd1e2
+source-git-commit: 590fd9e5b9ad6cce9c66b708959033ee780b1f10
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '1206'
 ht-degree: 1%
 
 ---
@@ -127,13 +127,21 @@ ht-degree: 1%
 * Workfront은 Workfront 관리자가 설정한 설정을 적용하기 전에 그룹의 설정을 적용합니다(있는 경우).
 * 템플릿을 사용하여 프로젝트를 만드는 경우 템플릿의 설정이 Workfront 또는 그룹 관리자가 설정한 설정에 우선합니다.
 
->[!NOTE]
->
->새 프로젝트의 기본 상태는 Planning인 것이 좋습니다. 새 프로젝트를 변경할 때 알림이 프로젝트에 지정된 사용자에게 트리거되지 않습니다.
+   >[!NOTE]
+   >
+   >새 프로젝트의 기본 상태는 Planning인 것이 좋습니다. 새 프로젝트를 변경할 때 알림이 프로젝트에 지정된 사용자에게 트리거되지 않습니다.
+   >
+   >새 프로젝트에 대한 기본 상태 및 기타 기본 설정 설정에 대한 자세한 내용은 다음을 참조하십시오 [시스템 전체 프로젝트 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) 또는 [그룹에 대한 프로젝트 환경 설정 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
 
-새 프로젝트에 대한 기본 상태 및 기타 기본 설정 설정에 대한 자세한 내용은 다음을 참조하십시오 [시스템 전체 프로젝트 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* Workfront은 새 프로젝트의 그룹 및 상태를 다음과 같이 정의합니다.
 
+   * 템플릿에서 만든 새 프로젝트의 기본 상태는 기본 프로젝트 환경 설정 영역에서 Workfront 관리자가 정의한 상태나 그룹의 프로젝트 환경 설정 영역에서 그룹 관리자(또는 Workfront 관리자)가 정의한 상태에 해당합니다.
 
+   * 새 프로젝트의 그룹은 템플릿의 그룹입니다. 템플릿이 그룹과 연관되지 않으면 프로젝트의 그룹은 프로젝트를 생성하는 사용자의 홈 그룹입니다.
+
+   * 새 프로젝트에 사용할 수 있는 상태는 템플릿 그룹인 프로젝트 그룹 또는 프로젝트를 만드는 사용자의 홈 그룹 상태와 일치합니다.
+
+   * 문제를 프로젝트로 변환하여 만든 새 프로젝트의 그룹은 문제의 기존 프로젝트 그룹입니다. 문제를 변환하는 사용자가 해당 프로젝트의 프로젝트에 액세스할 수 없는 경우 새 프로젝트의 그룹은 문제를 변환하는 사용자의 홈 그룹입니다. 새 프로젝트의 상태는 원래 프로젝트의 그룹이나 문제를 변환하는 사용자의 홈 그룹인 프로젝트와 연결된 그룹의 그룹 상태와 일치합니다.
 
 ## 처음부터 프로젝트 만들기
 
@@ -179,7 +187,7 @@ ht-degree: 1%
 
    프로젝트 편집에 대한 자세한 내용은 [프로젝트 편집](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-1. (선택 사항) 프로젝트 설정을 구성하고 작업을 추가한 후 프로젝트 상태를 **현재**.
+1. (선택 사항) 프로젝트 설정을 구성하고 작업을 추가한 후에 프로젝트의 상태를 로 변경할 수 있습니다. **현재**.
 
    이제 프로젝트를 시작할 준비가 되었고 작업에 할당된 사용자가 이제 프로젝트를 시작할 수 있음을 나타냅니다.
 
