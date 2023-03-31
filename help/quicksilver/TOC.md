@@ -2,9 +2,9 @@
 user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 feature-set: Workfront
-source-git-commit: 4588327c6b02b0d243e2a49f98cb88baac3e1270
+source-git-commit: 25580047b2fe586852b9143f1f33c9858f51ee9f
 workflow-type: tm+mt
-source-wordcount: '12783'
+source-wordcount: '12775'
 ht-degree: 1%
 
 ---
@@ -895,16 +895,7 @@ ht-degree: 1%
       * [필터 단추가 페이지 헤더에 표시되지 않습니다](workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
 * 애자일 {#agile}
    * [애자일](agile/agile.md)
-   * [민첩한 개요](agile/agile-overview.md)
    * [보드 개요](agile/boards-overview.md)
-   * 프로젝트에 민첩한 {#agile-in-projects}
-      * [프로젝트에 민첩한](agile/agile-in-projects/agile-in-projects.md)
-      * [애자일 프로젝트](agile/agile-in-projects/use-agile-on-a-project.md)
-   * Adobe Workfront에서 애자일 시작 {#agile-in-workfront}
-      * [Adobe Workfront에서 애자일 시작](agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
-      * [애자일 팀 만들기](agile/get-started-with-agile-in-workfront/create-an-agile-team.md)
-      * [간판 구성](agile/get-started-with-agile-in-workfront/configure-kanban.md)
-      * [스크럼 구성](agile/get-started-with-agile-in-workfront/configure-scrum.md)
    * Adobe Workfront에서 보드 시작 {#boards-in-workfront}
       * [Adobe Workfront에서 보드 시작](agile/get-started-with-boards/get-started-with-boards.md)
       * [Adobe Workfront 보드 비디오 데모](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)
@@ -933,6 +924,12 @@ ht-degree: 1%
       * [카드 목록 사용](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
       * [워크플로우에서 반복 만들기](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
       * [반복 지표 검토](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)
+   * [민첩한 개요](agile/agile-overview.md)
+   * Adobe Workfront에서 애자일 시작 {#agile-in-workfront}
+      * [Adobe Workfront에서 애자일 시작](agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
+      * [애자일 팀 만들기](agile/get-started-with-agile-in-workfront/create-an-agile-team.md)
+      * [간판 구성](agile/get-started-with-agile-in-workfront/configure-kanban.md)
+      * [스크럼 구성](agile/get-started-with-agile-in-workfront/configure-scrum.md)
    * 애자일 팀의 간판 {#kanban}
       * [애자일 팀의 간판](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
       * [간판 개요](agile/use-kanban-in-an-agile-team/kanban-overview.md)

@@ -7,9 +7,9 @@ description: Agile은 팀이 일관된 범위에서 작고 관리하기 쉬운 �
 author: Lisa
 feature: Agile
 exl-id: 35b329e5-f360-416c-adbb-ec39ab7a50cc
-source-git-commit: 11009f24cd482e83319ed9f1ecf3f7a2f4e79d52
+source-git-commit: 867da7dd9d8b13f13e816c20ccd9a8a96ab04eb8
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
@@ -43,3 +43,7 @@ Workfront에서 고급 애자일 사용을 시작하려면 다음을 수행하�
 1. 프로젝트의 작업을 백로그 또는 팀의 작업 보드에 추가합니다.
 
    자세한 내용은 [애자일 백로그 관리](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md), [기존 작업 또는 문제를 [!UICONTROL 간판] 보드](../agile/use-kanban-in-an-agile-team/add-existing-tasks-or-issues-to-the-kanban-board.md), 및 [기존 반복에 스토리 추가](../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
+
+## 프로젝트에 민첩하게 사용
+
+팀 백로그 관리, 반복 작성 등과 같이 일반적으로 민첩한 작업을 수행하는 관리 문제 없이 프로젝트에 대해 민첩한 기능을 활용할 수 있습니다. 자세한 내용은 [Agile 보기에서 프로젝트 관리](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
