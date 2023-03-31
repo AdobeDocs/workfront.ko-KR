@@ -2,9 +2,9 @@
 user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 feature-set: Workfront
-source-git-commit: 25580047b2fe586852b9143f1f33c9858f51ee9f
+source-git-commit: 19e1b6053f4def9e611bc45eae062cbb96325efe
 workflow-type: tm+mt
-source-wordcount: '12775'
+source-wordcount: '12782'
 ht-degree: 1%
 
 ---
@@ -893,6 +893,7 @@ ht-degree: 1%
       * [Workfront Proof Manager 권한 문제 해결](workfront-basics/tips-tricks-and-troubleshooting/wp-manager-permissions-troubleshooting.md)
       * [홈 작업 목록에 표시되는 중복 승인 프로세스](workfront-basics/tips-tricks-and-troubleshooting/duplicate-apprval-processes-home.md)
       * [필터 단추가 페이지 헤더에 표시되지 않습니다](workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
+      * [현재 진행 중인 프로젝트에 예기치 않은 결과가 포함되어 있습니다.](workfront-basics/tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
 * 애자일 {#agile}
    * [애자일](agile/agile.md)
    * [보드 개요](agile/boards-overview.md)

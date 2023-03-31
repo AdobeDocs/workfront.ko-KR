@@ -4,9 +4,9 @@ description: 에 대한 팁, 요령 및 문제 해결 [!DNL Adobe Workfront] 기
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 89a1ac84-123b-487e-8c91-615a36e246c3
-source-git-commit: ecb6928c946203b03a93cf5687fd53abf8e6a8f3
+source-git-commit: 5a4c98f9ce6bb7eb936a0b24b634d2545a0f13ee
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '80'
 ht-degree: 0%
 
 ---
@@ -25,5 +25,4 @@ ht-degree: 0%
 * [에 표시되는 중복 승인 프로세스 [!UICONTROL 홈 작업 목록]](../../workfront-basics/tips-tricks-and-troubleshooting/duplicate-apprval-processes-home.md)
 * [필터 단추가 페이지 헤더에 표시되지 않습니다](../../workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
 * [날짜의 형식 변경 [!DNL Adobe Workfront]](../tips-tricks-and-troubleshooting/change-date-format-chrome.md)
-
-
+* [현재 진행 중인 프로젝트에 예기치 않은 결과가 포함되어 있습니다.](../tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
