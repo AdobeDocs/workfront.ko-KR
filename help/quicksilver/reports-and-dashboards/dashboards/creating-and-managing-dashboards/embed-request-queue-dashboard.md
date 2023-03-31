@@ -6,9 +6,9 @@ description: 요청 영역으로 이동할 필요 없이 대시보드에 새 요
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2d129095-c7ee-45b1-94ce-055d1d91e2fe
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 2894161b61a00dab04c17ef642ace4a45179eb17
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1178'
 ht-degree: 1%
 
 ---
@@ -97,11 +97,9 @@ ht-degree: 1%
 
    코드는 다음과 유사해야 합니다.
 
-   ```
-   <samp>https://<yourdomain>.my.workfront.com/requests/new?activeTab=tab-new-helpRequest&projectID=50062d6f000849c95ab3513c0e84a51e&path=</samp>
-   ```
+   `https://<yourdomain>.my.workfront.com/requests/new?activeTab=tab-new-helpRequest&projectID=50062d6f000849c95ab3513c0e84a51e&path=`
 
-   선택한 프로젝트와 연결된 요청 큐에 대한 링크입니다.요청 유형 이 미리 선택됩니다.
+   선택한 프로젝트와 연결된 요청 큐에 대한 링크입니다. 요청 유형 이 미리 선택되어 있습니다.
 
    사용자는 필요한 주제 그룹 또는 큐 항목을 선택하거나 다른 요청 유형을 선택할 수 있습니다.
 
@@ -120,19 +118,15 @@ ht-degree: 1%
 
    코드는 다음과 유사해야 합니다.
 
-   ```
-   <samp><iframe src="https://<yourdomain>my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71" frameborder="0" width="500" height="600"></iframe></samp>
-   ```
+   `<iframe src="https://<yourdomain>my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71" frameborder="0" width="500" height="600"></iframe>`
 
 1. 아래 정보만 보존하려면 코드를 편집합니다.
 
-   ```
-   <samp>https://<yourdomain>.my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71</samp>
-   ```
+   `https://<yourdomain>.my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71`
 
    >[!TIP]
    >
-   >을 보존할 수 있습니다 `<samp>iframe </samp>` 태깅 합니다.
+   >을(를) 추가할 수 있습니다 `<samp>iframe </samp>` 태깅 합니다.
 
    선택한 프로젝트와 연결된 요청 큐에 대한 링크입니다. 요청 유형이 미리 선택되어 있으므로 변경할 수 없습니다.
 
