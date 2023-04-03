@@ -6,9 +6,9 @@ description: 브라우저의 언어 환경 설정과 Workfront 내의 기본 이
 feature: Get Started with Workfront
 author: Caroline
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 961eba73186f8fe3f10affc0c6e52067f997ef31
+source-git-commit: 3d2e1dd5121b2495f984bed1ec1b9939de89f175
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '860'
 ht-degree: 0%
 
 ---
@@ -21,15 +21,16 @@ Workfront 용어는 모든 Workfront 업데이트 시 지원되는 언어로 업
 
 Workfront은 다음 언어를 지원합니다.
 
-* 중국어(간체)(zh-CN)
-* 중국어(zh-TW)
 * 영어(미국)
 * 프랑스어(fr-FR)
 * 독일어(de-DE)
-* 이탈리아어(it_IT)
 * 일본어(ja)
+* 스페인어(es)
+* 이탈리아어(it_IT)
 * 포르투갈어(pt-BR)
-* 스페인어 - 라틴 아메리카
+* 한국어(ko)
+* 중국어(간체)(zh-CN)
+* 중국어(zh-TW)
 
 브라우저에서 Workfront을 보는 데 사용되는 언어는 브라우저 언어 설정에 의해 제어됩니다. 지원되는 언어 목록에 나열된 브라우저의 언어를 선택해야 합니다.
 
