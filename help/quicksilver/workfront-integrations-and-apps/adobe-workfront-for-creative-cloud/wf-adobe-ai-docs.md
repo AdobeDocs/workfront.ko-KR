@@ -5,9 +5,9 @@ title: Illustrator에서 문서 업로드
 description: 빠른 검토 및 승인을 위해 또는 Adobe Workfront에 저장하기 위해 아트 보드를 문서로 업로드할 수 있습니다.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
-source-git-commit: 9330ba5e5f828738a8726a3641f39a9b279d2ed0
+source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,10 @@ ht-degree: 0%
 1. 을(를) 클릭합니다. **[!UICONTROL 문서]** 아이콘 ![](assets/documents.png) 을 클릭합니다.
 
 1. 클릭 **[!UICONTROL 새 파일]** 플러그인의 하단 근처에 있습니다.
-1. 을(를) 선택합니다 **[!UICONTROL 자산 유형]** 를 클릭합니다.
 1. (선택 사항) **[!UICONTROL 업데이트]** 영역.
-1. 클릭 **[!UICONTROL 업로드]**그런 다음 위에서 선택한 자산 유형을 기준으로 원하는 내보내기 옵션을 구성합니다.
+1. 을(를) 선택합니다 **[!UICONTROL 자산 유형]** 를 클릭합니다.
+1. 를 엽니다. **[!UICONTROL 내보내기 파일 설정 설정]** 대화 상자 아래에서 위에 선택한 자산 유형을 기준으로 원하는 내보내기 옵션을 구성합니다.
+
+   ![](assets/file-export-settings.png)
+1. 클릭 **[!UICONTROL 업로드]**.
 문서가 [!UICONTROL 문서] 영역(플러그인 및 데스크탑 앱)을 포함합니다.

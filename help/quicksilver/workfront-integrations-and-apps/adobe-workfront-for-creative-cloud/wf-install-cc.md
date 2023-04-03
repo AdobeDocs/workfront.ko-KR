@@ -6,9 +6,9 @@ description: Adobe Marketplace에서 Creative Cloud 플러그인용 Workfront을
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 9baddd29b84c3b5d77f8b2e708be53d4150e6e92
+source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '512'
 ht-degree: 1%
 
 ---
@@ -74,17 +74,11 @@ ht-degree: 1%
 
 를 설치하려면 [!DNL Adobe Workfront for design and video] 플러그인:
 
-1. 를 엽니다. [!DNL Adobe Creative Cloud] 앱.
-1. 을(를) 클릭합니다. **[!UICONTROL Marketplace]** 창 위쪽에 있는 탭.
-1. 에서 **[!UICONTROL 모든 플러그인 검색]** 상자, 유형 *Workfront*, 그런 다음 키를 누릅니다. **[!UICONTROL Enter 키]**.
-
-   ![](assets/adobe-marketplace-350x218.png)
-
-1. When [!DNL Adobe Workfront for design and video] 플러그인이 검색 결과에 표시되면 **[!UICONTROL Get]**.
+1. 로 이동합니다. [Adobe Workfront for Design and Video 설치 페이지](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=108938&amp;workflow=share) Adobe Exchange에서 지원됩니다.
+1. 대화 상자가 나타나면 **열기 [!DNL Adobe Creative Cloud] 데스크탑 앱**.
+1. 한 번 [!DNL Adobe Creative Cloud] 플러그인 관리자가 열립니다. **[!UICONTROL 설치]**.
 1. 대화 상자에서 정보를 읽고 **[!UICONTROL 확인]**.
-1. 플러그인이 설치되면 [!DNL Creative Cloud] 필요한 응용 프로그램을 실행하고 플러그인 패널에서 Workfront 플러그인을 찾습니다.
-
-   <!-- new screen -->
+1. 플러그인이 설치되면 [!DNL Creative Cloud] 필요한 앱을 찾아서 플러그인 패널에서 Workfront 플러그인을 찾습니다.
 
 1. 플러그인을 여는 방법에 대한 자세한 내용을 보려면 다음 섹션으로 이동하십시오.
 

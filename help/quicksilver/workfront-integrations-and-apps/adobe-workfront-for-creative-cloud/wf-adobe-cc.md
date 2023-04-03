@@ -7,10 +7,10 @@ description: Creative Cloud 응용 프로그램을 위한 Adobe Workfront 플러
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: ebccdf17-12e3-4adc-95af-61d6337edb72
-source-git-commit: 04c3f1e3ec9273e3287c777b4f22f0ee44696809
+source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 2%
+source-wordcount: '104'
+ht-degree: 1%
 
 ---
 
@@ -31,8 +31,9 @@ ht-degree: 2%
 
 {{cc-app-list}}
 
-플러그인을 사용하고 설치하는 방법에 대한 자세한 내용은 다음 문서를 참조하십시오.
+플러그인을 사용하고 설치하는 방법에 대한 자세한 내용은 다음 리소스를 참조하십시오.
 
 * [설치 [!DNL Adobe Workfront] 플러그인 [!DNL Creative Cloud] 애플리케이션](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
 * [을 사용하여 작업 관리 [!DNL Adobe Workfront] 플러그인 [!DNL Creative Cloud] 애플리케이션](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
 * [을 사용하여 문서 및 증명을 업로드합니다. [!DNL Adobe Workfront] 플러그인 [!DNL Creative Cloud] 애플리케이션](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
+* [비디오 자습서: 사용 [!DNL Adobe Workfront] plugins for [!DNL Creative Cloud]](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/integrations/adobe-creative-cloud/use-adobe-workfront-extensions-for-creative-cloud.html)

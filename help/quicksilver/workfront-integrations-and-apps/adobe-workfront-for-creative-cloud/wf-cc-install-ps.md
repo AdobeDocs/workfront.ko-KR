@@ -6,9 +6,9 @@ description: Adobe Marketplace에서 Photoshop용 Adobe Workfront 플러그인�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: 9baddd29b84c3b5d77f8b2e708be53d4150e6e92
+source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '465'
 ht-degree: 1%
 
 ---
@@ -64,13 +64,9 @@ ht-degree: 1%
 >만약 [!DNL Adobe Admin Console] 관리자는 [!DNL Creative Cloud] 배포 패키지. 자세한 내용은 [패키지에 플러그인 포함](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
 
 
-1. 를 엽니다. [!DNL Adobe Creative Cloud] 앱.
-1. 을(를) 클릭합니다. **[!UICONTROL Marketplace]** 창 위쪽에 있는 탭.
-1. 에서 **[!UICONTROL 모든 플러그인 검색]** 상자, 유형 *Workfront*, 그런 다음 키를 누릅니다. **[!UICONTROL Enter 키]**.
-
-   ![](assets/adobe-marketplace-350x218.png)
-
-1. Adobe Workfront for Photoshop 플러그인이 검색 결과에 나타나면 **[!UICONTROL Get]**.
+1. 로 이동합니다. [Adobe Workfront for Photoshop 설치 페이지](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=37722a55&amp;workflow=share) Adobe Exchange에서 지원됩니다.
+1. 대화 상자가 나타나면 **열기 [!DNL Adobe Creative Cloud] 데스크탑 앱**.
+1. 한 번 [!DNL Adobe Photoshop] 플러그인 관리자가 열립니다. **[!UICONTROL 설치]**.
 1. 대화 상자에서 정보를 읽고 **[!UICONTROL 확인]**.
 
 1. 플러그인을 여는 방법에 대한 자세한 내용을 보려면 다음 섹션으로 이동하십시오.
@@ -97,7 +93,7 @@ ht-degree: 1%
 
 1. 에서 **[!UICONTROL Plugins]** 화면 상단의 메뉴에서 **[!UICONTROL 플러그인 패널]**.
 1. 선택 **[!DNL Adobe Workfront for Photoshop]**.
-1. 도메인을 입력한 다음 **[!UICONTROL 로그인]**. 브라우저 페이지가 열립니다.
+1. 도메인을 입력한 다음 **[!UICONTROL 로그인]**. 브라우저 페이지가 열립니다. 브라우저를 열려면 Photoshop 권한을 부여해야 할 수 있습니다.
 
    >[!TIP]
    >
