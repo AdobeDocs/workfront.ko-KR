@@ -6,9 +6,9 @@ description: Adobe Workfront 개체(프로젝트, 작업 또는 문제)에 업�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 809f1c3629c343a55305c0c617f4974dc05439bf
+source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
 workflow-type: tm+mt
-source-wordcount: '2756'
+source-wordcount: '2758'
 ht-degree: 1%
 
 ---
@@ -189,7 +189,7 @@ drafted for P&P release:
 
 1. 업데이트할 개체를 찾은 다음 해당 이름을 클릭하여 개체의 페이지를 엽니다.
 1. 클릭  **업데이트** 왼쪽 패널에 표시됩니다.
-1. 클릭 **주석 달기 베타 시도** 업데이트 영역의 오른쪽 아래 모서리에 있는 버튼을 클릭한 다음 **동의** 베타 계약에 따라 Analytics Mobile Apps 또는 Analytics Premium에서 사용할 수 없습니다. 이렇게 하면 업데이트 영역이 댓글 베타 경험으로 전환됩니다.
+1. 를 활성화합니다 **댓글 베타** 업데이트 영역의 오른쪽 위 모서리에서 전환한 다음 **동의** 베타 계약에 따라 Analytics Mobile Apps 또는 Analytics Premium에서 사용할 수 없습니다. 이렇게 하면 업데이트 영역이 댓글 베타 경험으로 전환됩니다.
 다음 **댓글** 기본적으로 탭이 선택되어 있습니다.
 1. 에 댓글 입력 시작 **새 댓글** 상자.
 
@@ -224,7 +224,7 @@ drafted for P&P release:
 
 1. 클릭 **제출** Workfront 개체에 업데이트를 추가하려면 다음을 수행하십시오.
 1. (선택 사항) 주석을 편집하려면 **자세히** 메뉴 ![](assets/more-menu.png) 좋아요 아이콘 오른쪽에 있는 를 클릭한 다음 **편집**.
-1. 주석에서 정보를 편집하거나 태그가 지정된 사용자를 모두 제거합니다.
+1. 주석에서 정보를 편집하거나 태그가 지정된 사용자를 모두 제거합니다. <!--check to make sure you can still remove the users in preview or production. At one point, they were removing this functionality-->
 댓글을 제출한 후 15분 이내에 편집을 수행할 수 있습니다. 설명이 업데이트될 때 표시되는 날짜 스탬프 왼쪽에 &quot;편집됨&quot; 표시기가 추가됩니다.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
@@ -322,11 +322,12 @@ drafted for P&P release:
 
 ## 업데이트 정보 복사
 
-<!--drafted for beta release toggle - remove when copying an update will be available:-->
+<!--drafted for beta release toggle - remove when copying an update will be available:
 
 >[!NOTE]
 >
->베타 주석 달기 환경을 사용할 때는 업데이트를 복사할 수 없습니다.
+>Copying an update is not possible when using the Beta commenting experience.
+-->
 
 업데이트를 복사할 수 있는 방법에는 몇 가지가 있습니다. 링크를 복사한 후 다른 사용자와 링크를 공유하여 업데이트에 연결할 수 있습니다.
 
@@ -348,7 +349,7 @@ drafted for P&P release:
 이 옵션은 클립보드에 전체 스레드 링크를 복사하므로 다른 사용자와 스레드를 공유할 수 있습니다.
 
 1. 복사할 업데이트 스레드로 이동합니다.
-1. 을(를) 클릭합니다. **자세히** 메뉴를 클릭한 다음 **스레드 링크 복사**.
+1. 을(를) 클릭합니다. **자세히** 메뉴를 클릭한 다음 **스레드 링크 복사** <span class="preview">또는 **링크 복사** 베타 경험을 사용할 때</span>.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -357,7 +358,7 @@ drafted for P&P release:
 이 옵션은 특정 업데이트 링크를 클립보드에 복사합니다. 업데이트 링크를 공유하면 업데이트 주위에 테두리가 표시됩니다.
 
 1. 복사하려는 업데이트 또는 응답으로 이동합니다.
-1. 을(를) 클릭합니다. **자세히** 개별 업데이트 옆에 있는 메뉴를 클릭한 다음 **업데이트 링크 복사**.
+1. 을(를) 클릭합니다. **자세히** 개별 업데이트 옆에 있는 메뉴를 클릭한 다음 **업데이트 링크 복사** <span class="preview">또는 **링크 복사** 베타 경험을 사용할 때</span>.
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
 

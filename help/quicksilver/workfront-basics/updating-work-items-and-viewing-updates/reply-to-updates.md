@@ -6,9 +6,9 @@ description: 작업 개체에 대한 업데이트에 추가하거나 응답하�
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
+source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1141'
 ht-degree: 1%
 
 ---
@@ -109,14 +109,11 @@ ht-degree: 1%
 
 1. 회신 입력을 시작하고 리치 텍스트 도구 모음에서 추가 옵션을 사용합니다. 리치 텍스트 사용에 대한 자세한 내용은 의 &quot;Workfront 업데이트에서 리치 텍스트 사용&quot; 섹션을 참조하십시오. [작업 업데이트](../updating-work-items-and-viewing-updates/update-work.md).
 
-<!--this is not yet available in beta, leave drafted:  
-1. (Optional) To include text from a previous update in your reply, click the **More** menu next to the update or reply you want to quote, then click **Quote Reply**. Text from the previous update appears in the input area, marked with a gray line. -***********close the draft here************-->
-
 1. 클릭 **제출** 을 입력하여 응답을 저장합니다.
 
+1. (선택 사항) **자세히** 메뉴 ![](assets/more-menu.png) 회신 관리를 위한 추가 옵션을 보려면 업데이트 옆에 있습니다. 자세한 내용은 [작업 업데이트](../updating-work-items-and-viewing-updates/update-work.md).
+
 </div>
-
-
 
 ## 이메일 알림을 통해 업데이트에 응답합니다
 

@@ -6,9 +6,9 @@ description: Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 809f1c3629c343a55305c0c617f4974dc05439bf
+source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -151,17 +151,12 @@ Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석을 추가할
    >
    >   <span class="preview">원본 업데이트를 제출할 때만 사용자에게 업데이트를 알리는 이메일이 생성됩니다. 업데이트를 편집한 후에는 이메일이 생성되지 않습니다.</span>
 
-   <!-- <div class="preview">
-   1. (Optional) Click the **More** menu ![](assets/more-icon.png), then click any of the following options to copy information from a comment to the clipboard:
+   1. (선택 사항) **자세히** 메뉴 ![](assets/more-icon.png)를 클릭한 다음, 다음 옵션 중 하나를 클릭하여 주석에서 클립보드에 정보를 복사합니다.
 
-      * **Copy update link** to copy the link of an update, without the replies.
-      * **Copy thread link** to copy the link of an update, including the replies.
-      * **Copy body text** to copy the text of an update. 
+      * **링크 복사** 회신 없이 업데이트 링크를 복사하기 위해
+      * **본문 복사** 업데이트 텍스트를 복사하려면
 
-         For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
-
-   </div>
-   -->
+         자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. 클릭 **제출**.
 
@@ -174,6 +169,7 @@ Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석을 추가할
    >새로 만들기 지표는 새 업데이트를 입력한 사용자와 현재 업데이트를 입력하는 사용자가 새 주석 달기 경험을 사용하는 경우에만 표시됩니다.
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
+1. <span class="preview">(선택 사항) **자세히** 메뉴 ![](assets/more-icon.png) 주석 오른쪽에 있는 를 클릭한 다음 **삭제** 추가한 설명을 삭제하려면 </span>
 1. (선택 사항) **회신** 기존 주석에 응답하려면 위의 5~9단계를 수행합니다. <!--insure this stays accurate-->
 1. (선택 사항) **좋아요** 아이콘![](assets/like-icon.png) 다른 사람이 추가한 설명을 좋아합니다. 아이콘이 좋아요 수로 업데이트됩니다.
 1. (선택 사항) 업데이트에 리치 텍스트 서식을 추가하려면 입력할 때 리치 텍스트 도구 모음의 모든 속성을 사용합니다. 자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
