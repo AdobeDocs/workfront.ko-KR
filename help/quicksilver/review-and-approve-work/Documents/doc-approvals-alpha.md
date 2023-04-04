@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management
 hide: true
 hidefromtoc: true
-source-git-commit: 7b1c52da63507e36b6000e74fcb502f9436e19d1
+source-git-commit: 11855fef5f1f1c48ab51cce62a540afae0efba15
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---
@@ -25,13 +25,21 @@ ht-degree: 0%
 
 ## 최신 릴리스
 
+### 알파 릴리스 3 - 2023년 3월
+
+이 세 번째 알파 릴리스에서는 승인자 및 검토자 추가 또는 제거와 같은 작업을 완료하면 표시되는 성공 메시지를 도입하여 피드백을 통합했습니다. 또한 이 릴리스는 보류 중인 승인 여부를 보다 쉽게 파악할 수 있도록 하여 이제 홈 및 내 업데이트 페이지에서 볼 수 있으므로 사용자가 이러한 페이지에서 직접 문서를 쉽게 승인할 수 있습니다.
+
+아래 전체 비디오 둘러보기 를 확인하십시오.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3417854/)
+
+## _이전 릴리스_
+
 ### 알파 릴리스 2 - 2023년 1월
 
 이 Alpha 2 릴리스를 사용하면 검토자 또는 승인자로 개인 및 팀을 추가하고 문서 세부 사항 페이지에서 직접 승인 결정을 내릴 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3413941/?quality=12)
-
-## _이전 릴리스_
+보기 [비디오 둘러보기](https://video.tv.adobe.com/v/3413941){target=_blank}.
 
 ### 알파 릴리스 1 - 2022년 11월
 
