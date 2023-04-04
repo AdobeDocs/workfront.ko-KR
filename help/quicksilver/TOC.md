@@ -2,9 +2,9 @@
 user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 feature-set: Workfront
-source-git-commit: 19e1b6053f4def9e611bc45eae062cbb96325efe
+source-git-commit: 2049958745516d37f41938fbd4b6398f57378959
 workflow-type: tm+mt
-source-wordcount: '12782'
+source-wordcount: '12799'
 ht-degree: 1%
 
 ---
@@ -175,6 +175,9 @@ ht-degree: 1%
          * [20.3 릴리스의 Workfront 시나리오 플래너 - 2020년 8월 14일](product-announcements/product-releases/scenario-planner-release-activity/sp-release-20-3.md)
       * Adobe Workfront 목표 릴리스 활동 {#goals-release}
          * [Adobe Workfront 목표 릴리스 활동](product-announcements/product-releases/goals-release-activity/goals-release-activity.md)
+         * 23.1 릴리스의 목표 {#goals-23-2}
+            * [Adobe Workfront 목표 및 23.2 릴리스](product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-23-2-release.md)
+            * [Adobe Workfront 목표 23.2 릴리스 활동: 2023년 3월 20일 주](product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-march.md)
          * 23.1 릴리스의 목표 {#goals-23-1}
             * [Adobe Workfront 목표 및 23.1 릴리스](product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-23-1-release.md)
             * [Adobe Workfront 목표 23.1 릴리스 활동: 2023년 12월 5일 주](product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-jan.md)

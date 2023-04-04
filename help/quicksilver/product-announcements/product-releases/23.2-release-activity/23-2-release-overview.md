@@ -4,9 +4,9 @@ description: 23.2 릴리스 개요
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 1dfe9305e7d9de1dfdf9b149ba185b2f061cba2e
+source-git-commit: 2049958745516d37f41938fbd4b6398f57378959
 workflow-type: tm+mt
-source-wordcount: '2692'
+source-wordcount: '2698'
 ht-degree: 0%
 
 ---
@@ -625,7 +625,7 @@ Workfront Fusion의 새로운 기능은 23.2 릴리스 일정을 제외한 케�
 
 ### Workfront 목표 개선 사항
 
-릴리스에는 이 시점에서 Workfront 목표 업데이트가 없습니다. 이 영역은 업데이트를 사용할 수 있으면 업데이트됩니다.
+23.2 릴리스와 함께 Workfront 목표 릴리스에 제공되는 새로운 기능. 이제 미리 보기에서 이러한 새로운 기능에 대한 자세한 내용은 [Adobe Workfront 목표 및 23.2 릴리스](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-23-2-release.md).
 
 ### API 버전 15
 
