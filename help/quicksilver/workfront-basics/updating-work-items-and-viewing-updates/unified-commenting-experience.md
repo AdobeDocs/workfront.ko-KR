@@ -5,9 +5,9 @@ title: 통합 주석 달기 경험
 description: 새로운 통합 주석 달기 경험은
 author: Alina
 feature: Get Started with Workfront
-source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
+source-git-commit: 345f63fc78d9bc2b2eff8f19a8a9196641567764
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '561'
 ht-degree: 1%
 
 ---
@@ -414,7 +414,7 @@ Adobe Workfront에서 주석 달기 경험에 대한 업데이트가 현재 개�
 새 주석 처리 환경 베타를 활성화하려면
 
 1. 새 주석 처리 환경을 활성화할 개체로 이동한 다음 를 클릭합니다 **업데이트** 왼쪽 패널에 표시됩니다.
-1. 클릭 **주석 달기 베타 시도** 업데이트 영역의 오른쪽 아래 모서리에 있습니다.
+1. 를 활성화합니다 **댓글 베타** 업데이트 영역의 오른쪽 위 모서리에서 전환합니다.
 1. 클릭 **동의** 베타 계약 상자에서 선택할 수 있습니다. 이렇게 하면 선택한 객체에 대해 새로운 주석 달기 환경을 사용할 수 있습니다.
 1. 에서 업데이트 입력 시작 **댓글** 탭. 새 경험이 열리면 댓글 탭이 기본 탭이 되어야 합니다
 
