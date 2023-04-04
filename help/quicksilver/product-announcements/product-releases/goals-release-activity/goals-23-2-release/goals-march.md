@@ -6,7 +6,7 @@ title: Adobe Workfront 목표 23.2 릴리스 활동 주간(2023년 3월 20일)
 description: 이 페이지에서는 미리 보기 환경에 대한 Adobe Workfront 목표 23.2 릴리스로 향상된 기능에 대해 설명합니다. 이러한 개선 사항은 2023년 3월 20일이 있는 주의 프로덕션 환경에서 사용할 수 있습니다.
 author: Courtney
 feature: Product Announcements, Workfront Goals
-source-git-commit: 69fbdd87bcb7a2743aec6d6ad06246b018b9ff16
+source-git-commit: 71833a09ecde154ddbcf9cac34733641bf55f74d
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Adobe Workfront 목표 23.2 릴리스 활동: 2023년 3월 20일 주
 
-이 페이지에서는 2023년 3월 20일, 미리 보기 환경에 대한 Adobe Workfront 목표 23.2 릴리스로 향상된 기능에 대해 설명합니다.
+이 페이지에서는 2023년 3월 20일 미리 보기 환경에 대한 Adobe Workfront 목표 23.2 릴리스로 향상된 모든 기능에 대해 설명합니다.
 
 이러한 개선 사항은 2023년 4월 3일로 예정된 23.2 릴리스와 함께 프로덕션 환경에서 사용할 수 있습니다.
 

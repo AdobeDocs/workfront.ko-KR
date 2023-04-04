@@ -4,9 +4,9 @@ description: 23.2 릴리스 기간 동안 업데이트 확인 및 감지
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8ccfa470f7d09a3a7ca0b8414c53e31c1e03f185
+source-git-commit: 71833a09ecde154ddbcf9cac34733641bf55f74d
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '529'
 ht-degree: 2%
 
 ---
@@ -17,6 +17,21 @@ ht-degree: 2%
 이 페이지에서는 23.2 릴리스 시간 내에 제공되는 Adobe Workfront 애플리케이션의 다양한 영역의 모양과 느낌에 대한 간단한 업데이트를 설명합니다. 이러한 개선 사항은 미리 보기로 릴리스한 후 최소 2주 후에 프로덕션 환경에서 사용할 수 있습니다.
 
 23.2 릴리스에서 사용할 수 있는 모든 변경 사항 목록에 대해서는 다음을 참조하십시오 [23.2 릴리스 개요](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+
+## 요청 영역에서 초안 목록의 모양과 느낌에 대한 업데이트
+
+>[!NOTE]
+>
+>미리 보기 릴리스: 2023년 4월 4일 계획된 생산 릴리스: 2023년 4월 18일
+
+Workfront의 최신 목록과 일치하도록 요청 영역에서 초안 목록을 업데이트했습니다.
+업데이트 중 일부는 다음과 같습니다.
+
+* &quot;요청 유형으로 필터&quot; 필터를 표준 빠른 필터로 대체했습니다
+* 목록에 요청이 들어 있지 않을 때 초안 목록에서 이미지를 제거했습니다
+* 목록에 페이지 매김 및 열 정렬을 추가했습니다.
+
+자세한 내용은 [초안에서 요청 만들기](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md).
 
 ## Workfront의 추가 영역에서 사용할 수 있는 스마트 사용자 선택
 
