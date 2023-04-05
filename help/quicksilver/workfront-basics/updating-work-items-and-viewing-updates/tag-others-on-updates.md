@@ -6,9 +6,9 @@ description: Adobe Workfront 객체에 대한 업데이트 주석을 제공할 �
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '1370'
+source-wordcount: '1349'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 <!--take "Beta" references out when we remove the beta-->
 
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 환경에서만 사용할 수 있습니다.
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.-->
 
 >[!NOTE]
 >
@@ -26,17 +26,18 @@ ht-degree: 0%
 >새 업데이트 경험에 대한 자세한 내용은 [새로운 주석 달기 환경](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 >
 >다음 객체에 대한 새 디자인에 액세스할 수 있습니다.
-> * <span class="preview">주석 달기 베타를 활성화할 때 문제가 발생합니다. </span>
+> * 주석 달기 베타를 활성화할 때 문제가 발생합니다.
    >
-   >     <span class="preview">이 기능은 문제의 업데이트 섹션에만 사용할 수 있으며, 다음 영역에는 사용할 수 없습니다.</span>
+   >     이 기능은 문제의 업데이트 섹션에만 사용할 수 있으며, 다음 영역에는 사용할 수 없습니다.
    >
-   >     * <span class="preview">홈</span>
-   >     * <span class="preview">목록의 요약 패널</span>
-   >     * <span class="preview">작업표의 요약 패널</span>
+   >     * 홈
+   >     * 목록의 요약 패널
+   >     * 작업표의 요약 패널
 >
 > * 목표
-   >   새로운 주석 달기 경험은 목표의 기본값입니다. Workfront 목표에 액세스하려면 추가 라이센스가 있어야 합니다. 자세한 내용은 [Workfront 목표를 사용하기 위한 요구 사항](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
+   >
+   >   새로운 주석 달기 경험은 목표의 기본값입니다. Workfront 목표에 액세스하려면 추가 라이센스가 있어야 합니다. 자세한 내용은 [Workfront 목표를 사용하기 위한 요구 사항](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
    >
    >    목표에 대한 댓글 달기에 대한 자세한 내용은 [Adobe Workfront 목표의 목표 주석 관리](../../workfront-goals/goal-management/manage-goal-comments.md).
 
@@ -131,8 +132,6 @@ Workfront 객체에 업데이트 추가에 대한 내용은 [작업 업데이트
    ![](assets/tagging-transparency-350x192.png)
 
    작업 항목을 업데이트할 때 사용할 수 있는 추가 기능에 대한 자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-
-<div class="preview">
 
 ### 주석 달기 베타 경험에서 다른 사용자에게 업데이트에 태깅
 

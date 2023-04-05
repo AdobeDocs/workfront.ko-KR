@@ -6,9 +6,9 @@ description: 리소스 풀은 Adobe Workfront에서 리소스를 관리하는 �
 author: Alina
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '649'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 Also - take out all the references to Preview and Prod at prod final
 -->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 환경의 모든 고객과 프로덕션 환경의 고객 선택 그룹에 대해 사용할 수 있습니다.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 
 <!--
@@ -104,9 +104,9 @@ Also - take out all the references to Preview and Prod at prod final
 
    >[!NOTE]
    >
-   >* 프로덕션 환경에서 프로젝트나 템플릿을 일괄적으로 편집할 때 선택한 모든 프로젝트 또는 템플릿에 공통인 리소스 풀만 이 필드에 나타납니다. 선택한 프로젝트에 공유 리소스 풀이 없으면 이 필드는 비어 있습니다. 여기서 지정하는 리소스 풀은 프로젝트 또는 템플릿의 개별 리소스 풀을 덮어씁니다.
+   >* 템플릿을 일괄적으로 편집하면 선택한 모든 템플릿에 공통인 리소스 풀만 이 필드에 나타납니다. 선택한 템플릿에 공유 리소스 풀이 없는 경우 이 필드가 비어 있습니다. 여기서 지정하는 리소스 풀은 프로젝트 또는 템플릿의 개별 리소스 풀을 덮어씁니다.
    >
-   >* <span class="preview">미리 보기 환경에서는 프로젝트를 일괄적으로 편집할 때 선택한 프로젝트에 다른 리소스 풀이 있는 경우 &quot;여러 값&quot; 표시기가 있습니다. 리소스 풀을 일괄적으로 추가하면 모든 풀이 선택한 프로젝트에 추가되어 원래 리소스 풀을 덮어씁니다.</span>
+   >* 프로젝트를 일괄적으로 편집할 때 선택한 프로젝트에 서로 다른 리소스 풀이 있는 경우 &quot;여러 값&quot; 표시기가 표시됩니다. 프로젝트에 대해 리소스 풀을 일괄적으로 추가하면 모든 풀이 선택한 프로젝트에 추가되어 원래 리소스 풀을 덮어씁니다.</span>
 
 
    <span class="preview">![add_resource_pools_to_multiple_projects.png](assets/add-resource-pools-to-multiple-projects-350x358.png)</span>

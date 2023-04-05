@@ -8,16 +8,16 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
 
 # 레이아웃 템플릿을 사용하여 세부 사항 보기 사용자 지정
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 환경의 모든 고객과 프로덕션 환경의 고객 선택 그룹에 대해 사용할 수 있습니다.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 Adobe Workfront 관리자는 레이아웃 템플릿을 사용하여 사용자가 세부 사항 아이콘을 클릭할 때 표시되는 정보를 결정할 수 있습니다 ![](assets/project-details-icon.png) 작업, 문제, 문서, 프로그램 또는 포트폴리오를 보는 동안 왼쪽 패널에서
 
@@ -38,9 +38,9 @@ or billing record
    ![](assets/edit-task-screen.png)
 
 
-* <span class="preview">프로젝트 편집과 같이 프로젝트를 일괄적으로 편집할 때 &quot;개체 편집&quot; 화면이 표시됩니다</span>
+* 객체를 벌크로 편집할 때 &quot;객체 편집&quot; 화면이 표시됩니다. 현재 이 기능은 프로젝트를 벌크로 편집할 수 있습니다.
 
-   <span>![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)</span>
+   ![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)
 
 
 * 요약 ![](assets/summary-panel-icon.png) 작업 및 문제 목록 패널

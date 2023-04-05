@@ -6,9 +6,9 @@ description: 작업 개체에 대한 업데이트에 추가하거나 응답하�
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1120'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 환경에서만 사용할 수 있습니다.
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.-->
 
 >[!NOTE]
 >
@@ -25,17 +25,18 @@ ht-degree: 1%
 >새 업데이트 경험에 대한 자세한 내용은 [새로운 주석 달기 환경](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 >
 >다음 객체에 대한 새 디자인에 액세스할 수 있습니다.
-> * <span class="preview">주석 달기 베타를 활성화할 때 문제가 발생합니다. </span>
+> * 주석 달기 베타를 활성화할 때 문제가 발생합니다.
    >
-   >     <span class="preview">이 기능은 문제의 업데이트 섹션에만 사용할 수 있으며, 다음 영역에는 사용할 수 없습니다.</span>
+   >     이 기능은 문제의 업데이트 섹션에만 사용할 수 있으며, 다음 영역에는 사용할 수 없습니다.
    >
-   >     * <span class="preview">홈</span>
-   >     * <span class="preview">목록의 요약 패널</span>
-   >     * <span class="preview">작업표의 요약 패널</span>
+   >     * 홈
+   >     * 목록의 요약 패널
+   >     * 작업표의 요약 패널
 >
 > * 목표
-   >   새로운 주석 달기 경험은 목표의 기본값입니다. Workfront 목표에 액세스하려면 추가 라이센스가 있어야 합니다. 자세한 내용은 [Workfront 목표를 사용하기 위한 요구 사항](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
+   >
+   >   새로운 주석 달기 경험은 목표의 기본값입니다. Workfront 목표에 액세스하려면 추가 라이센스가 있어야 합니다. 자세한 내용은 [Workfront 목표를 사용하기 위한 요구 사항](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
    >
    >    목표에 대한 댓글 달기에 대한 자세한 내용은 [Adobe Workfront 목표의 목표 주석 관리](../../workfront-goals/goal-management/manage-goal-comments.md).
 
@@ -97,8 +98,6 @@ ht-degree: 1%
 1. (선택 사항) 문서의 &quot;Workfront 업데이트에 리치 텍스트 사용&quot; 섹션에 설명된 대로 형식 지정, 이모지, 포함 링크 또는 이미지를 사용합니다 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. 클릭 **회신** 을 입력하여 응답을 저장합니다.
 
-<div class="preview">
-
 ### 댓글 베타 경험을 사용할 때 주석에 응답합니다.
 
 1. 응답을 추가할 개체로 이동합니다.
@@ -113,7 +112,6 @@ ht-degree: 1%
 
 1. (선택 사항) **자세히** 메뉴 ![](assets/more-menu.png) 회신 관리를 위한 추가 옵션을 보려면 업데이트 옆에 있습니다. 자세한 내용은 [작업 업데이트](../updating-work-items-and-viewing-updates/update-work.md).
 
-</div>
 
 ## 이메일 알림을 통해 업데이트에 응답합니다
 

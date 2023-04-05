@@ -5,9 +5,9 @@ title: 통합 주석 달기 경험
 description: 새로운 통합 주석 달기 경험은
 author: Alina
 feature: Get Started with Workfront
-source-git-commit: 345f63fc78d9bc2b2eff8f19a8a9196641567764
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '530'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # 새로운 주석 달기 환경
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 환경에서만 사용할 수 있습니다.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 Adobe Workfront에서 주석 달기 경험에 대한 업데이트가 현재 개발 중입니다. 이 업데이트에는 선택한 객체의 업데이트 섹션에서 새로운 인터페이스, 새로운 기능 및 향상된 성능이 포함됩니다.
 
@@ -91,7 +91,7 @@ Adobe Workfront에서 주석 달기 경험에 대한 업데이트가 현재 개�
    </td>
    <td>✓ 
    </td>
-   <td><span class="preview">✓</span> 
+   <td>✓
    </td>
    <td> 
    </td>
@@ -163,9 +163,8 @@ Adobe Workfront에서 주석 달기 경험에 대한 업데이트가 현재 개�
    </td>
    <td> 
    </td>
-   <td><span class="preview">✓ </span>
-   </td>
-   <td> 
+   <td>
+   <td>✓ 
    </td>
    <td> 
    </td>
@@ -191,7 +190,7 @@ Adobe Workfront에서 주석 달기 경험에 대한 업데이트가 현재 개�
    </td>
    <td>✓ 
    </td>
-   <td><span class="preview">편집 주석으로 대체됨 </span>
+   <td>편집 주석으로 대체됨 
    </td>
    <td> 
    </td>
@@ -219,7 +218,7 @@ Adobe Workfront에서 주석 달기 경험에 대한 업데이트가 현재 개�
    </td>
    <td> 
    </td>
-   <td><span class="preview">✓</span> 
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -247,8 +246,7 @@ Adobe Workfront에서 주석 달기 경험에 대한 업데이트가 현재 개�
    </td>
    <td> 
    </td>
-   <td><span class="preview">✓</span>
-   <p><span class="preview">이 기능은 23.2에서 사용할 수 있어야 하며 일시적으로 지연되었습니다.</span> 
+   <td>✓
    </td>
    <td> 
    </td>
@@ -304,9 +302,9 @@ Adobe Workfront에서 주석 달기 경험에 대한 업데이트가 현재 개�
    </td>
    <td>✓ 
    </td>
-   <td> 
+   <td> ✓
    </td>
-   <td>✓ 
+   <td> 
    </td>
    <td>2023년 2분기 
    </td>
@@ -318,7 +316,7 @@ Adobe Workfront에서 주석 달기 경험에 대한 업데이트가 현재 개�
    </td>
    <td>✓ 
    </td>
-   <td> <span class="preview">✓</span>
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -346,7 +344,7 @@ Adobe Workfront에서 주석 달기 경험에 대한 업데이트가 현재 개�
    </td>
    <td>✓ 
    </td>
-   <td> <span class="preview">✓</span>
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -388,16 +386,13 @@ Adobe Workfront에서 주석 달기 경험에 대한 업데이트가 현재 개�
 
 ## 새 주석 달기 경험을 찾습니다.
 
-다음 버전에서 업데이트 섹션을 볼 때 현재 다음 개체에 대해 새 주석 달기 경험이 지원됩니다.
+다음 버전의 Workfront에서 업데이트 섹션을 볼 때 현재 다음 개체에 대해 새 주석 달기 경험이 지원됩니다.
 
 * 업데이트 섹션에서 베타 경험을 활성화하는 경우:
 
-   <div class="preview">
-
-   * 문제.
+   * 문제
    Workfront 개체의 업데이트 관리에 대한 자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-   </div>
 
 * 기본적으로 주석 달기 기본 경험으로서:
 
@@ -408,8 +403,6 @@ Adobe Workfront에서 주석 달기 경험에 대한 업데이트가 현재 개�
 
    목표를 위한 업데이트 관리에 대한 자세한 내용은 [Adobe Workfront 목표의 목표 주석 관리](../../workfront-goals/goal-management/manage-goal-comments.md).
 
-
-<div class="preview">
 
 새 주석 처리 환경 베타를 활성화하려면
 
@@ -423,5 +416,3 @@ Adobe Workfront에서 주석 달기 경험에 대한 업데이트가 현재 개�
    을(를) 클릭합니다.  **시스템 활동** 탭을 클릭하여 Workfront에서 생성한 활동 업데이트를 확인합니다.
 
    새 주석 달기 환경에서 객체 업데이트에 대한 자세한 내용은 [작업 업데이트](../updating-work-items-and-viewing-updates/update-work.md).
-
-</div>

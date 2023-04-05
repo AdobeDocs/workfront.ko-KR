@@ -7,9 +7,9 @@ description: 객체의 업데이트 섹션에는 객체의 변경 사항을 추�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '896'
 ht-degree: 4%
 
 ---
@@ -18,33 +18,28 @@ ht-degree: 4%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 환경에서만 사용할 수 있습니다.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 >[!NOTE]
 >
->현재 개체의 업데이트 섹션을 다시 디자인하고 있습니다.
->
+>현재 Adobe Workfront에서 주석 달기 환경을 다시 디자인하고 있습니다.
 >새 업데이트 경험에 대한 자세한 내용은 [새로운 주석 달기 환경](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 >
->다음 개체 및 다음 환경에서 새 디자인에 액세스할 수 있습니다.
+>다음 객체에 대한 새 디자인에 액세스할 수 있습니다.
+> * 주석 달기 베타를 활성화할 때 문제가 발생합니다.
+   >
+   >     이 기능은 문제의 업데이트 섹션에만 사용할 수 있으며, 다음 영역에는 사용할 수 없습니다.
+   >
+   >     * 홈
+   >     * 목록의 요약 패널
+   >     * 작업표의 요약 패널
 >
->* <span class="preview">다음 개체에 대해 주석 달기 베타 환경을 활성화하는 경우:</span>
-   >
-   >     * <span class="preview">문제</span>
-
-   >     
-   >     <span class="preview">이 기능은 문제의 업데이트 섹션에만 사용할 수 있으며, 다음 영역에는 사용할 수 없습니다.</span>
-   >
-   >     * <span class="preview">홈</span>
-   >     * <span class="preview">목록의 요약 패널</span>
-   >     * <span class="preview">작업표의 요약 패널</span>
->
->* 기본적으로 다음 객체에 대한 현재 주석 달기 환경입니다.
-   >
-   >     * 목표
+> * 목표
 
    >
-   >     Workfront 목표에 액세스하려면 추가 라이센스가 있어야 합니다. 자세한 내용은 [Workfront 목표 사용 요구 사항](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 목표에 대한 댓글 달기에 대한 자세한 내용은 [Adobe Workfront 목표의 목표 주석 관리](../../workfront-goals/goal-management/manage-goal-comments.md).
+   >   새로운 주석 달기 경험은 목표의 기본값입니다. Workfront 목표에 액세스하려면 추가 라이센스가 있어야 합니다. 자세한 내용은 [Workfront 목표를 사용하기 위한 요구 사항](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+   >
+   >    목표에 대한 댓글 달기에 대한 자세한 내용은 [Adobe Workfront 목표의 목표 주석 관리](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 
 객체의 업데이트 섹션에는 객체의 변경 사항을 추적하는 객체 또는 시스템 업데이트 시 사용자가 수행하는 주석이 표시됩니다.
@@ -116,7 +111,7 @@ ht-degree: 4%
      </ul> </td> 
    <td> 
     <ul> 
-     <li><span class="preview">문제</span></li> 
+     <li>문제</li> 
      </ul> </td> 
   </tr> 
  </tbody> 
@@ -192,7 +187,7 @@ ht-degree: 4%
 >
 >Adobe Workfront의 개체 계층에 대한 자세한 내용은 [Adobe Workfront의 개체 이해](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 >
-><span class="preview"> 새 주석 달기 베타 경험에서는 시스템 업데이트에 응답할 수 없습니다. 자세한 내용은 [새로운 주석 달기 환경](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).</span>
+> 새 주석 달기 베타 경험에서는 시스템 업데이트에 응답할 수 없습니다. 자세한 내용은 [새로운 주석 달기 환경](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 
 ## 업데이트 섹션의 제한 사항
 

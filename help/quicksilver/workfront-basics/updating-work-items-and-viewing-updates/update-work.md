@@ -6,9 +6,9 @@ description: Adobe Workfront 개체(프로젝트, 작업 또는 문제)에 업�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 345f63fc78d9bc2b2eff8f19a8a9196641567764
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '2758'
+source-wordcount: '2732'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 환경에서만 사용할 수 있습니다.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 >[!NOTE]
 >
@@ -25,17 +25,18 @@ ht-degree: 1%
 >새 업데이트 경험에 대한 자세한 내용은 [새로운 주석 달기 환경](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 >
 >다음 객체에 대한 새 디자인에 액세스할 수 있습니다.
-> * <span class="preview">주석 달기 베타를 활성화할 때 문제가 발생합니다. </span>
+> * 주석 달기 베타를 활성화할 때 문제가 발생합니다.
    >
-   >     <span class="preview">이 기능은 문제의 업데이트 섹션에만 사용할 수 있으며, 다음 영역에는 사용할 수 없습니다.</span>
+   >     이 기능은 문제의 업데이트 섹션에만 사용할 수 있으며, 다음 영역에는 사용할 수 없습니다.
    >
-   >     * <span class="preview">홈</span>
-   >     * <span class="preview">목록의 요약 패널</span>
-   >     * <span class="preview">작업표의 요약 패널</span>
+   >     * 홈
+   >     * 목록의 요약 패널
+   >     * 작업표의 요약 패널
 >
 > * 목표
-   >   새로운 주석 달기 경험은 목표의 기본값입니다. Workfront 목표에 액세스하려면 추가 라이센스가 있어야 합니다. 자세한 내용은 [Workfront 목표를 사용하기 위한 요구 사항](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
+   >
+   >   새로운 주석 달기 경험은 목표의 기본값입니다. Workfront 목표에 액세스하려면 추가 라이센스가 있어야 합니다. 자세한 내용은 [Workfront 목표를 사용하기 위한 요구 사항](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
    >
    >    목표에 대한 댓글 달기에 대한 자세한 내용은 [Adobe Workfront 목표의 목표 주석 관리](../../workfront-goals/goal-management/manage-goal-comments.md).
 
@@ -183,8 +184,6 @@ drafted for P&P release:
 
 1. 업데이트에 응답하려면 다음을 참조하십시오 [업데이트에 회신](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
-<div class="preview">
-
 ### 주석 달기 베타 경험을 사용하여 작업 항목에 업데이트 추가
 
 1. 업데이트할 개체를 찾은 다음 해당 이름을 클릭하여 개체의 페이지를 엽니다.
@@ -224,7 +223,7 @@ drafted for P&P release:
 
 1. 클릭 **제출** Workfront 개체에 업데이트를 추가하려면 다음을 수행하십시오.
 1. (선택 사항) 주석을 편집하려면 **자세히** 메뉴 ![](assets/more-menu.png) 좋아요 아이콘 오른쪽에 있는 를 클릭한 다음 **편집**.
-1. 주석에서 정보를 편집하거나 태그가 지정된 사용자를 모두 제거합니다. <!--check to make sure you can still remove the users in preview or production. At one point, they were removing this functionality-->
+1. 주석에서 정보를 편집합니다 <!--or remove any of the tagged users-->.
 댓글을 제출한 후 15분 이내에 편집을 수행할 수 있습니다. 설명이 업데이트될 때 표시되는 날짜 스탬프 왼쪽에 &quot;편집됨&quot; 표시기가 추가됩니다.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
@@ -246,7 +245,6 @@ drafted for P&P release:
    >
    >시스템 업데이트에 주석을 추가할 수 없습니다.
 
-</div>
 
 ## Workfront 업데이트에서 리치 텍스트 사용
 
@@ -318,7 +316,7 @@ drafted for P&P release:
    >* 이미지는 객체의 업데이트 탭에서만 액세스할 수 있으며 문서 탭에서 사용할 수 없습니다.
    >* 이미지를 업데이트하여 텍스트를 전송할 수 없습니다.
 
-1. 클릭 **업데이트**  <span class="preview">또는 **제출**</span>&#x200B;를 사용 중인지 확인합니다.
+1. 클릭 **업데이트**  또는 **제출**: 댓글 베타 환경을 사용합니다.
 
 
 ## 업데이트 정보 복사
@@ -351,11 +349,7 @@ drafted for P&P release:
 
 1. 복사할 업데이트 스레드로 이동합니다.
 
-1. 을(를) 클릭합니다. **자세히** 메뉴를 클릭한 다음 **스레드 링크 복사**
-
-   또는
-
-   <span class="preview">**링크 복사** 베타 경험을 사용할 때</span>.
+1. 을(를) 클릭합니다. **자세히** 메뉴를 클릭한 다음 **스레드 링크 복사** 또는 **링크 복사**&#x200B;베타 경험을 사용하는 경우
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -364,11 +358,7 @@ drafted for P&P release:
 이 옵션은 특정 업데이트 링크를 클립보드에 복사합니다. 업데이트 링크를 공유하면 업데이트 주위에 테두리가 표시됩니다.
 
 1. 복사하려는 업데이트 또는 응답으로 이동합니다.
-1. 을(를) 클릭합니다. **자세히** 개별 업데이트 옆에 있는 메뉴를 클릭한 다음 **업데이트 링크 복사**
-
-   또는
-
-   <span class="preview">**링크 복사** 베타 경험을 사용할 때</span>.
+1. 을(를) 클릭합니다. **자세히** 개별 업데이트 옆에 있는 메뉴를 클릭한 다음 **업데이트 링크 복사** 또는 **링크 복사**&#x200B;베타 경험을 사용하는 경우
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
 
@@ -383,11 +373,7 @@ Workfront 사용자(Workfront 관리자 포함)는 다른 사용자가 수행한
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. 표시되는 메시지에서 **확인**
-
-   또는
-
-   <span class="preview"> **삭제**: 댓글 베타 환경</span>.
+1. 표시되는 메시지에서 **확인** 또는 **삭제**: 댓글 베타 환경을 사용합니다.
 
 >[!NOTE]
 >
@@ -416,13 +402,11 @@ Workfront 사용자(Workfront 관리자 포함)는 다른 사용자가 수행한
 
 <!--remove the preview tag with 23.2 production, but keep the note till we remove Beta and it becomed the only exprience: -->
 
-
-
 >[!NOTE]
 >
-><span class="preview">베타 주석 달기 환경을 사용할 때는 시스템 업데이트를 비활성화할 수 없습니다. </span>
-><span class="preview">이 섹션의 정보는 현재 업데이트 섹션에서 사용할 수 있는 기능만 참조합니다. </span>
-><span class="preview">베타 버전의 시스템 업데이트에 대한 자세한 내용은 다음을 참조하십시오 [업데이트 섹션 개요](../updating-work-items-and-viewing-updates/updates-tab-overview.md). </span>
+>베타 주석 달기 환경을 사용할 때는 시스템 업데이트를 비활성화할 수 없습니다.
+>이 섹션의 정보는 현재 업데이트 섹션에서 사용할 수 있는 기능만 참조합니다.
+>베타 버전의 시스템 업데이트에 대한 자세한 내용은 다음을 참조하십시오 [업데이트 섹션 개요](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 
 Workfront 개체의 업데이트 섹션에는 두 가지 유형의 정보가 표시됩니다.

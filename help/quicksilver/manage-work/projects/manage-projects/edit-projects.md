@@ -6,16 +6,16 @@ description: 필요에 따라 Adobe Workfront에서 프로젝트를 편집할 �
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '7787'
+source-wordcount: '7310'
 ht-degree: 2%
 
 ---
 
 # 프로젝트 편집
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 환경의 모든 고객과 프로덕션 환경의 고객 선택 그룹에 대해 사용할 수 있습니다.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 <!--
 <p>***Linked to many articles,</p>
@@ -694,110 +694,11 @@ ht-degree: 2%
 
 프로젝트를 일괄적으로 편집하고 선택한 모든 프로젝트에 대한 정보를 동시에 업데이트할 수 있습니다.
 
+프로젝트를 일괄적으로 편집할 때는 다음 사항을 고려하십시오.
 
-선택한 모든 프로젝트에서 변경하는 정보는 리소스 관리자 필드를 제외하고 개별 프로젝트에 대한 기존 정보를 덮어씁니다.
+* 선택한 모든 프로젝트에서 변경하는 정보는 리소스 관리자 필드를 제외하고 개별 프로젝트에 대한 기존 정보를 덮어씁니다.
 
-프로젝트를 일괄적으로 편집할 때 새 리소스 관리자를 추가하면 해당 관리자가 선택한 모든 프로젝트에 추가됩니다. 다른 리소스 관리자가 선택한 프로젝트와 연결된 경우 벌크 편집을 통해 추가된 프로젝트 외에 프로젝트에 남아 있습니다.
-
-프로젝트를 일괄적으로 편집하면 업데이트하도록 선택한 환경에 따라 다릅니다.
-
-### 프로덕션 환경에서 프로젝트를 일괄적으로 편집
-
-프로젝트를 일괄적으로 편집하려면
-
-1. 을(를) 클릭합니다. **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 상단 모서리에서
-
-1. 클릭 **프로젝트**.
-1. 목록에서 여러 프로젝트를 선택합니다.
-1. 클릭 **편집**.
-
-   다음 **프로젝트 편집** 대화 상자가 열립니다.
-
-   ![](assets/edit-projects-in-bulk-nwe-350x303.png)
-
-1. 다음 섹션에서 선택한 모든 프로젝트에 대한 정보를 지정합니다.
-
-   * **개요**
-
-      자세한 내용은 [개요](#overview) 섹션에 자세히 설명되어 있습니다.
-
-   * **재무**
-
-      자세한 내용은 [재무](#finance) 섹션에 자세히 설명되어 있습니다.
-
-   * **포트폴리오**
-
-      자세한 내용은 [개요](#overview) 섹션에 자세히 설명되어 있습니다.
-
-   * **설정**
-
-      자세한 내용은 [프로젝트 설정](#project-settings) 섹션에 자세히 설명되어 있습니다.
-
-   * **액세스**
-
-      자세한 내용은 [액세스](#access) 섹션에 자세히 설명되어 있습니다.
-
-   * **사용자 정의 양식**
-
-      자세한 내용은 아래의 7단계를 계속 참조하십시오.
-
-      <!--   
-     <p>(NOTE:&nbsp;make sure this stays accurate)</p>   
-     -->
-
-   * **작업**
-
-      자세한 내용은 [작업 설정](#task-settings) 섹션에 자세히 설명되어 있습니다.
-
-   * **문제**
-
-      자세한 내용은   [문제 설정](#issue-settings) 섹션에 자세히 설명되어 있습니다.
-
-   * **댓글**
-
-      자세한 내용은 아래의 9단계를 계속 참조하십시오.
-
-      <!--   
-     <p>(NOTE: ensure this step stays accurate)</p>   
-     -->
-
-
-1. (선택 사항) 설정 영역에서 다음 옵션 중 하나를 선택합니다.
-
-   * **원가 및 수익 재계산**: 선택한 모든 프로젝트에서 원가 및 수익을 재계산하려면 이 옵션을 선택합니다.
-   * **타임라인 다시 계산**: 선택한 모든 프로젝트의 타임라인을 다시 계산하려면 이 옵션을 선택합니다.
-   * **스코어카드 재계산**: 선택한 모든 프로젝트에 대한 스코어카드 값을 다시 계산하려면 이 옵션을 선택합니다.
-
-   ![recalculate_cost__scorecards__etc_in_bulk_edit_for_projects.PNG](assets/recalculate-costs--scorecards--etc-in-bulk-edit-for-projects-350x225.png)
-
-1. 클릭 **사용자 지정 Forms** 을 클릭하여 선택한 모든 프로젝트에 첨부된 사용자 지정 양식을 편집합니다.
-
-   선택한 프로젝트에 일반적인 사용자 지정 양식이 없으면 이 섹션에 양식이 나열되지 않습니다.
-
-   선택한 모든 프로젝트에 연결되어 있고 편집할 수 있는 권한이 있는 양식의 필드만 편집할 수 있습니다.
-
-1. (선택 사항) 사용자 지정 Forms 섹션에서 **사용자 지정 표현식 다시 계산** 선택한 프로젝트에 첨부된 사용자 지정 Forms에 있는 모든 계산된 사용자 지정 필드가 최신 상태인지 확인하는 옵션입니다.
-
-   >[!IMPORTANT]
-   >
-   >사용자 지정 표현식을 다시 계산할 때에는 한 번에 500개 이상의 프로젝트를 선택하지 않는 것이 좋습니다.
-
-1. (선택 사항) **댓글**&#x200B;그런 다음 각 프로젝트에 업데이트 게시 상자를 선택하고 사용 가능한 필드의 프로젝트 업데이트 스트림에 표시할 주석을 지정하고 다음 중 하나를 수행합니다.
-
-   * 을(를) 클릭합니다. **사람** 아이콘 ![](assets/people-icon-updates-classic.png) 댓글에 대한 알림을 받을 사용자에게 태그를 지정합니다.
-   * 을(를) 클릭합니다. **잠금** 아이콘 ![](assets/lock-icon-open-updates-classic.png) 을 추가하여 회사 내 사람에게만 설명을 제한합니다.
-
-   이 주석은 프로젝트에 대한 보기 액세스 권한과 메모 보기에 대한 액세스 권한이 있는 모든 사용자에게 표시됩니다.
-
-1. 클릭 **변경 내용 저장**.
-
-   이제 선택한 모든 프로젝트에 변경한 사항이 표시됩니다.
-
-<div class="preview">
-
-### 미리 보기 환경에서 북에서 프로젝트 편집
-
-미리 보기 환경에서 프로젝트를 일괄적으로 편집할 때는 다음 사항을 고려하십시오.
+   프로젝트를 일괄적으로 편집할 때 새 리소스 관리자를 추가하면 해당 관리자가 선택한 모든 프로젝트에 추가됩니다. 다른 리소스 관리자가 선택한 프로젝트와 연결된 경우 벌크 편집을 통해 추가된 프로젝트 외에 프로젝트에 남아 있습니다.
 
 * 동일한 필드에 대해 값이 다른 프로젝트를 선택하면 필드에 프로젝트 편집 상자에 &quot;복수 값&quot; 표시기가 표시됩니다. 확인란, 라디오 단추 및 토글인 필드에는 &quot;복수 값&quot; 표시기가 표시됩니다.
 
@@ -826,7 +727,7 @@ ht-degree: 2%
 
 * 여러 그룹에 속하는 여러 프로젝트를 선택할 때 상태 필드에 표시되는 상태는 그룹 수준 상태가 아니라 시스템 수준 상태입니다.
 
-미리 보기 환경에서 프로젝트를 편집하려면 다음을 수행하십시오.
+프로젝트를 일괄적으로 편집하려면
 
 1. 을(를) 클릭합니다. **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 상단 모서리에서
 1. 클릭 **프로젝트**.
@@ -863,9 +764,9 @@ Workfront 관리자 또는 그룹 관리자가 레이아웃 템플릿을 수정�
 
    프로젝트와 연결할 수 있지만 선택한 프로젝트에 첨부되지 않은 추가 사용자 지정 양식은 **추가할 Forms** 하위 섹션의 **사용자 지정 양식 추가** 필드.
 
-1. 을(를) 클릭하여 **사용자 지정 양식 추가** 또는 **추가할 Forms** 하위 섹션 을 포함할 수 없습니다.
+1. 에서 추가 사용자 지정 양식을 선택하려면 을(를) 클릭합니다 **사용자 지정 양식 추가** 또는 **추가할 Forms** 하위 섹션 을 포함할 수 없습니다.
 
-   선택한 프로젝트 중 일부에 사용자 지정 양식이 이미 첨부된 경우 양식을 추가할 때 양식 이름 옆에 양식을 이미 선택한 프로젝트의 수가 표시되어 있습니다.
+   선택한 프로젝트 중 일부에 사용자 지정 양식이 이미 첨부된 경우 양식을 추가할 때 양식 이름 옆에 이미 양식이 있는 프로젝트 수에 대한 표시가 있습니다.
 
 1. (선택 사항) **x** 사용자 지정 양식 이름의 오른쪽에 있는 아이콘을 클릭한 다음 **제거** 을 눌러 선택한 모든 프로젝트에서 제거합니다.
 
@@ -892,5 +793,100 @@ Workfront 관리자 또는 그룹 관리자가 레이아웃 템플릿을 수정�
 1. (선택 사항) **취소** 맨 아래 **프로젝트 편집** 모든 프로젝트에 대한 모든 변경 사항을 제거하는 페이지입니다.
 1. **저장**&#x200B;을 클릭합니다.
 
-</div>
 
+
+<!-- Old information for how to bulk edit in classic/ before project bulk edit redesign: 
+
+### Edit projects in bulk in the Production environment
+
+To edit projects in bulk:
+
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+
+1. Click **Projects**.  
+1. Select several projects in the list.
+1. Click **Edit**.
+
+   The **Edit Projects** dialog box opens.
+
+   ![](assets/edit-projects-in-bulk-nwe-350x303.png)
+
+1. Specify the information on all selected projects in the following sections:
+
+   * **Overview**
+
+     For information, see the [Overview](#overview) section in this article.
+   
+   * **Finance**
+
+     For information, see the [Finance](#finance) section in this article.
+   
+   * **Portfolio**
+
+     For information, see the "Project association" section in the [Overview](#overview) section in this article.
+   
+   * **Settings**
+
+     For information, see the [Project Settings](#project-settings) section in this article.
+   
+   * **Access**
+
+     For information, see the [Access](#access) section in this article.
+   
+   * **Custom Forms**
+
+     For information, continue with step 7 below.
+
+     <!--   
+     <p>(NOTE:&nbsp;make sure this stays accurate)</p>   
+     
+
+   * **Tasks**
+
+     For information, see the [Task Settings](#task-settings) section in this article.
+   
+   * **Issues**
+
+     For information, see the   [Issue Settings](#issue-settings) section in this article.
+   
+   * **Comment**
+
+     For information, continue with step 9 below.
+
+     <!--   
+     <p>(NOTE: ensure this step stays accurate)</p>   
+     
+
+
+1. (Optional) In the Settings area, select any of the following options:
+
+   * **Recalculate Costs and Revenues**: Select this option to recalculate Costs and Revenues on all projects selected.
+   * **Recalculate Timelines**: Select this option to recalculate the Timelines of all projects selected.
+   * **Recalculate Scorecards**: Select this option to recalculate the Scorecard values for all projects selected.
+
+   ![recalculate_costs__scorecards__etc_in_bulk_edit_for_projects.PNG](assets/recalculate-costs--scorecards--etc-in-bulk-edit-for-projects-350x225.png)
+
+1. Click **Custom Forms** to edit the custom forms attached to all the projects selected.
+
+   If the projects selected do not have any common custom forms, no forms are listed in this section.
+
+   You can edit only the fields on the forms that are attached to all projects selected and which you have permissions to edit. 
+
+1. (Optional) In the Custom Forms section, select the **Recalculate Custom Expressions** option to ensure that all Calculated Custom Fields that are on the Custom Forms attached to the projects selected are up to date.
+
+   >[!IMPORTANT]
+   >
+   >We recommend not to select more than 500 projects at a time when you recalculate custom expressions.
+
+1. (Optional) Click **Comment**, then select the Post an update to each project box and specify a comment that you want to display in the updates stream of the project in the available field and do one of the following:
+
+   * Click the **People** icon ![](assets/people-icon-updates-classic.png) to tag a user who will be notified about your comment.
+   * Click the **Lock** icon ![](assets/lock-icon-open-updates-classic.png) to restrict your comment only to people within your company.
+
+   This comment is visible for everyone with View access to the project and with access to view Notes.
+
+1. Click **Save Changes**.
+
+   All changes you made are now visible on all the selected projects.
+
+-->
