@@ -1,26 +1,26 @@
 ---
-title: 각 객체 유형에 대한 기능에 대한 구성 가능한 액세스
-description: 이 문서에서는 각 액세스 수준에서 각 개체 유형에 대해 Adobe Workfront 관리자로 허용할 수 있는 사항에 대해 설명합니다. 또한 각 액세스 수준 유형에 대한 기본 구성이 무엇인지 설명합니다.
-author: Caroline
+title: 각 객체 유형에 대한 기능에 대한 구성 가능한 기존 액세스
+description: 이 문서에서는 각 레거시 액세스 수준에서 각 개체 유형에 대해 Adobe Workfront 관리자로 허용할 수 있는 사항에 대해 설명합니다. 또한 레거시 액세스 수준 각 유형에 대한 기본 구성이 무엇인지 설명합니다.
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 94e0b205-140c-41c9-bb5a-f89b4c3aaea0
-source-git-commit: d0ab54670d1767e2fa2a9cdf2e7eda1ce8940c7f
+source-git-commit: e3211ac5801c1318978427bc0a48d9b3a3028984
 workflow-type: tm+mt
-source-wordcount: '3435'
+source-wordcount: '3456'
 ht-degree: 10%
 
 ---
 
-# 각 객체 유형에 대한 기능에 대한 구성 가능한 액세스
+# 각 객체 유형에 대한 기능에 대한 구성 가능한 기존 액세스
 
-이 문서에서는 각 액세스 수준에서 각 개체 유형에 대해 Adobe Workfront 관리자로 허용할 수 있는 사항에 대해 설명합니다. 또한 각 액세스 수준 유형에 대한 기본 구성이 무엇인지 설명합니다.
+이 문서에서는 각 레거시 액세스 수준에서 각 개체 유형에 대해 Adobe Workfront 관리자로 허용할 수 있는 사항에 대해 설명합니다. 또한 레거시 액세스 수준 각 유형에 대한 기본 구성이 무엇인지 설명합니다.
 
 각 액세스 수준에서 객체 유형에 사용할 수 있는 모든 기능에 대한 내용은 [각 객체 유형에 사용할 수 있는 기능](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
 
 ## 프로젝트
 
-각 액세스 수준에서 프로젝트에 대해 다음 옵션을 구성할 수 있습니다.
+각 레거시 액세스 수준에서 프로젝트에 대해 다음 옵션을 구성할 수 있습니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -83,7 +83,7 @@ ht-degree: 10%
 
 ## 작업
 
-각 액세스 수준에서 작업에 대해 다음 옵션을 구성할 수 있습니다.
+각 기존 액세스 수준에서 작업에 대해 다음 옵션을 구성할 수 있습니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -149,7 +149,7 @@ ht-degree: 10%
 
 ## 문제
 
-각 액세스 수준에서 문제에 대해 다음 옵션을 구성할 수 있습니다.
+각 기존 액세스 수준에서 문제에 대해 다음 옵션을 구성할 수 있습니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -227,7 +227,7 @@ ht-degree: 10%
 
 ## 포트폴리오
 
-각 액세스 수준에서 포트폴리오에 대해 다음 옵션을 구성할 수 있습니다.
+각 레거시 액세스 수준에서 포트폴리오에 대해 다음 옵션을 구성할 수 있습니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -283,7 +283,7 @@ ht-degree: 10%
 
 ## 프로그램
 
-각 액세스 수준에서 프로그램에 대해 다음 옵션을 구성할 수 있습니다.
+각 레거시 액세스 수준에서 프로그램에 대해 다음 옵션을 구성할 수 있습니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -339,7 +339,7 @@ ht-degree: 10%
 
 ## 보고서, 대시보드 및 달력
 
-각 액세스 수준에서 보고서, 대시보드 및 달력에 대해 다음 옵션을 구성할 수 있습니다.
+각 기존 액세스 수준에서 보고서, 대시보드 및 달력에 대해 다음 옵션을 구성할 수 있습니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -413,7 +413,7 @@ ht-degree: 10%
 
 ## 필터, 보기 및 그룹화
 
-각 액세스 수준에서 필터, 보기 및 그룹화에 대해 다음 옵션을 구성할 수 있습니다.
+각 기존 액세스 수준에서 필터, 보기 및 그룹화에 대해 다음 옵션을 구성할 수 있습니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -490,7 +490,7 @@ ht-degree: 10%
 
 ## 문서
 
-각 액세스 수준에서 문서에 대해 다음 옵션을 구성할 수 있습니다.
+각 기존 액세스 수준에서 문서에 대해 다음 옵션을 구성할 수 있습니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -573,7 +573,7 @@ ht-degree: 10%
 
 ## 사용자
 
-각 액세스 수준에서 사용자에 대해 다음 옵션을 구성할 수 있습니다.
+각 기존 액세스 수준에서 사용자에 대해 다음 옵션을 구성할 수 있습니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -629,7 +629,7 @@ ht-degree: 10%
 
 ## 팀
 
-각 액세스 수준에서 팀에 대해 다음 옵션을 구성할 수 있습니다.
+각 레거시 액세스 수준에서 팀에 대해 다음 옵션을 구성할 수 있습니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -711,7 +711,7 @@ ht-degree: 10%
 
 ## 템플릿
 
-각 액세스 수준에서 템플릿에 대해 다음 옵션을 구성할 수 있습니다.
+각 기존 액세스 수준에서 템플릿에 대해 다음 옵션을 구성할 수 있습니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -768,7 +768,7 @@ ht-degree: 10%
 
 ## 재무 데이터
 
-각 액세스 수준에서 재무 데이터에 대해 다음 옵션을 구성할 수 있습니다.
+각 기존 액세스 수준에서 재무 데이터에 대해 다음 옵션을 구성할 수 있습니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -833,7 +833,7 @@ ht-degree: 10%
 
 ## 리소스 관리
 
-각 액세스 수준에서 리소스 관리에 대해 다음 옵션을 구성할 수 있습니다.
+각 기존 액세스 수준에서 리소스 관리에 대해 다음 옵션을 구성할 수 있습니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -891,7 +891,7 @@ ht-degree: 10%
 
 ## 시나리오 플래너 영역
 
-모든 액세스 수준에 대한 기본 설정은 액세스 없음입니다. Workfront 관리자는 이를 계획자, 작업자 및 검토자 액세스 레벨에 대한 보기 또는 편집 액세스로 변경할 수 있습니다.
+모든 기존 액세스 수준의 기본 설정은 액세스 없음입니다. Workfront 관리자는 이를 계획자, 작업자 및 검토자 액세스 레벨에 대한 보기 또는 편집 액세스로 변경할 수 있습니다.
 
 <!--
 DRAFTED IN FLARE:
@@ -905,6 +905,6 @@ Alina says: This will change overtime for some of the access levels, but right n
 
 ## Workfront 목표 영역
 
-6개의 기본 액세스 수준(및 4개의 모든 라이선스 유형)이 모두 Workfront 목표를 편집하고 볼 수 있습니다.
+6개의 기본 기존 액세스 수준(및 4개의 라이선스 유형 모두)이 모두 Workfront 목표를 편집하고 볼 수 있습니다.
 
 편집은 기본 옵션입니다.

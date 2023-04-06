@@ -6,9 +6,9 @@ description: 만든 객체 또는 사용자와 공유된 객체에 대한 권한
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: c566eb094e96abca6073554433434822c567bc34
+source-git-commit: e3211ac5801c1318978427bc0a48d9b3a3028984
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1156'
 ht-degree: 1%
 
 ---
@@ -21,9 +21,7 @@ ht-degree: 1%
 
 액세스 권한이 있는 개체에 대한 권한을 공유하기 위해 Adobe Workfront 관리자가 될 필요는 없지만, 객체에 대한 권한은 Workfront 관리자가 설정한 액세스 수준 내에서 작동합니다.
 
-액세스 수준 및 권한에 대한 자세한 내용은 [액세스 수준 및 권한이 함께 작동하는 방법](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
-
-만든 객체 또는 사용자와 공유된 객체에 대한 권한을 공유하거나 제거할 수 있습니다. 객체 작성자가 아닌 경우 객체에 대한 공유 권한 외에 액세스 수준에서 공유할 객체에 대한 공유 액세스 권한이 있어야 합니다. 액세스 수준에 대한 자세한 내용은 [액세스 수준 개요](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+만든 객체 또는 사용자와 공유된 객체에 대한 권한을 공유하거나 제거할 수 있습니다. 객체 작성자가 아닌 경우 객체에 대한 공유 권한 외에 액세스 수준에서 공유할 객체에 대한 공유 액세스 권한이 있어야 합니다. 액세스 수준에 대한 자세한 내용은 [액세스 수준 개요](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) 또는 [기존 액세스 수준 개요](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 >[!NOTE]
 >
@@ -73,7 +71,7 @@ Workfront에서 다른 사용자와 다음 개체를 공유할 수 있습니다.
 
    예를 들어 객체에 대한 Contribute 권한이 있는 경우에는 다른 사용자에게 해당 객체에 대한 관리 권한을 부여할 수 없습니다.
 
-* 사용자의 액세스 수준보다 높은 권한 수준을 가진 개체는 공유할 수 없습니다. 예를 들어, 사용자가 액세스 수준에서 프로젝트에 대한 보기 액세스 권한을 가지고 있으면 프로젝트에 대한 관리 권한을 부여할 수 없습니다.
+* 사용자의 액세스 수준보다 높은 권한 수준을 가진 개체는 공유할 수 없습니다. 예를 들어, 사용자가 액세스 수준에서 프로젝트에 대한 보기 액세스 권한을 가지고 있으면 프로젝트에 대한 관리 권한을 부여할 수 없습니다.
 * 적어도 개체 보기에 대한 권한이 있는 사용자는 해당 개체를 다른 사람과 공유할 수 있습니다.
 * 활성 사용자, 작업 역할, 팀, 그룹 또는 회사와 객체를 공유할 수 있습니다.
 

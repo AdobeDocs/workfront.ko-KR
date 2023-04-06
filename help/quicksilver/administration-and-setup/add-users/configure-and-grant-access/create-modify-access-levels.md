@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: 4a7999e6cb46d5b6933f44f1f19ff1979cb68a85
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1405'
 ht-degree: 6%
 
 ---
@@ -19,13 +19,14 @@ ht-degree: 6%
 
 <!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help.-->
 
-Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+Adobe Workfront 관리자는 사용자 지정 액세스 수준을 만들어 사용자에게 적용할 수 있습니다. 액세스 수준을 사용하여 작업할 때 사용자가 객체를 공유할 때 부여하는 객체 권한과 함께 작업하는 방법을 이해하는 것이 중요합니다. 액세스 수준에 대한 자세한 내용은
 
-액세스 수준을 사용하여 작업할 때 사용자가 객체를 공유할 때 부여하는 객체 권한과 함께 작업하는 방법을 이해하는 것이 중요합니다. 자세한 내용은 [액세스 수준 및 권한이 함께 작동하는 방법](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+* [액세스 수준 개요](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
+* [기존 액세스 수준 개요](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 >[!IMPORTANT]
 >
->사용자를 설정한 후 참조할 수 있도록 기본 액세스 수준을 그대로 두는 것이 좋습니다. 액세스 레벨을 사용자 정의하려면 기본 액세스 레벨을 복사하고 복사본을 수정합니다. 시스템 관리자 및 외부 사용자를 제외하고 모든 액세스 수준에 대해 이 작업을 수행할 수 있습니다.
+>사용자를 설정한 후 참조할 수 있도록 기본 액세스 수준을 그대로 두는 것이 좋습니다. 액세스 레벨을 사용자 정의하려면 기본 액세스 레벨을 복사하고 복사본을 수정합니다. 시스템 관리자 및 외부 사용자를 제외한 모든 액세스 수준에 대해 이 작업을 수행할 수 있습니다.
 
 ## 액세스 요구 사항
 
@@ -41,11 +42,13 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td>플랜</td> 
+   <td>현재 계획: 표준
+   <p>또는</p>
+   <p>기존 계획: 계획</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>Workfront 관리자여야 합니다.</p> <p><b>참고</b>: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한 사항을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="#" class="MCXref xref selected">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td> <p>Workfront 관리자여야 합니다.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -69,7 +72,7 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
     <tbody> 
      <tr> 
       <td role="rowheader">이름</td> 
-      <td> <p>액세스 수준의 이름을 입력합니다. </p> <p>액세스 수준을 복사하여 새 액세스 수준을 만든 경우 기본 이름은 액세스 수준 이름(복사)입니다. 여기서 액세스 수준 이름은 복사한 액세스 레벨입니다.</p> <p><strong>팁</strong>: 복사 이름에 액세스 수준의 원래 이름을 포함하는 것이 좋습니다. 예를 들어, ACME 회사에서 계획자 액세스 레벨의 복사본은 ACME Planner라고 명명될 수 있습니다.</p> </td> 
+      <td> <p>액세스 수준의 이름을 입력합니다. </p> <p>액세스 수준을 복사하여 새 액세스 수준을 만든 경우 기본 이름은 액세스 수준 이름(복사)입니다. 여기서 액세스 수준 이름은 복사한 액세스 레벨입니다.</p> <p><strong>팁</strong>: 복사 이름에 액세스 수준의 원래 이름을 포함하는 것이 좋습니다. 예를 들어, ACME 회사에서 표준 액세스 수준의 사본을 ACME Standard로 지정할 수 있습니다.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">설명 </td> 
@@ -77,12 +80,12 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
      </tr> 
      <tr> 
       <td role="rowheader">라이선스 유형</td> 
-      <td>여기에서 선택한 라이센스가 만들거나 편집하는 액세스 수준 유형과 가장 밀접하게 연결되어 있는지 확인합니다. 선택한 라이센스는 액세스 수준에 사용할 수 있는 설정을 결정합니다. 자세한 내용은 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront 라이선스 개요</a>.</td> 
+      <td>여기에서 선택한 라이센스가 만들거나 편집하는 액세스 수준 유형과 가장 밀접하게 연결되어 있는지 확인합니다. 선택한 라이센스는 액세스 수준에 사용할 수 있는 설정을 결정합니다. 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">이전 라이센스 개요</a> 또는 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront 이전 라이센스 개요</a>.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (조건부) **계획** 에서 선택됨 **라이선스 유형** 상자에서 섹션으로 스크롤합니다. **에 대한 관리자 액세스 허용** 그리고 이 액세스 수준을 가질 사용자의 관리 액세스 권한을 선택합니다.
+1. (조건부) **표준** 또는 **계획** 에서 선택됨 **라이선스 유형** 상자에서 섹션으로 스크롤합니다. **에 대한 관리자 액세스 허용** 그리고 이 액세스 수준을 가질 사용자의 관리 액세스 권한을 선택합니다.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -121,7 +124,7 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
         <li>새 작업 역할 추가</li> 
         <li>역할 청구 및 비용 비율 편집</li> 
        </ul> 
-       <p>Job 역할에 대한 관리 액세스 권한이 있는 Planner 사용자가 사용할 수 있는 재무 데이터에 액세스하는 방법에 대한 중요한 정보는 <a href="#planner-users-with-administrative-access-to-job-roles">작업 역할에 대한 관리자 액세스 권한이 있는 계획자 사용자</a>.</p>
+       <p>Job 역할에 대한 관리자 액세스 권한이 있는 Standard 또는 Planner 사용자가 사용할 수 있는 재무 데이터에 액세스하는 방법에 대한 중요한 정보는 <a href="#planner-users-with-administrative-access-to-job-roles">작업 역할에 대한 관리자 액세스 권한이 있는 표준 또는 계획자 사용자</a>.</p>
       </td> 
      </tr> 
      <tr> 
@@ -134,7 +137,7 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
      </tr> 
      <tr> 
       <td role="rowheader">타임시트 및 시간</td> 
-      <td> <p>그룹 관리자는 관리하는 그룹 및 하위 그룹의 사용자에게 작업표 프로필을 할당할 수 있습니다.</p> <p>이 옵션을 활성화하지 않으면 그룹 관리자는 자신이 관리하는 그룹 및 하위 그룹의 다른 사용자에게 작업표 프로필을 할당할 수 없지만, 이를 만들 수는 없습니다.</p> <p>계획 라이센스가 있는 다른 모든 사용자는 Workfront에서 모든 시간 및 작업표를 볼 수 있습니다.</p> <p>이 옵션을 활성화하지 않으면 사용자는 다음에서만 시간을 볼 수 있습니다.</p> 
+      <td> <p>그룹 관리자는 관리하는 그룹 및 하위 그룹의 사용자에게 작업표 프로필을 할당할 수 있습니다.</p> <p>이 옵션을 활성화하지 않으면 그룹 관리자는 자신이 관리하는 그룹 및 하위 그룹의 다른 사용자에게 작업표 프로필을 할당할 수 없지만, 이를 만들 수는 없습니다.</p> <p>표준 또는 계획 라이센스가 있는 다른 모든 사용자는 Workfront에서 모든 시간 및 작업표를 볼 수 있습니다.</p> <p>이 옵션을 활성화하지 않으면 사용자는 다음에서만 시간을 볼 수 있습니다.</p> 
        <ul> 
         <li>관리하는 프로젝트, 작업 또는 문제</li> 
         <li>자신의 작업표</li> 
@@ -203,9 +206,9 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
 
    Adobe 관리자가 사용자에게 시스템 관리자 액세스 수준을 할당하는 방법에 대한 자세한 내용은 [사용자에게 전체 관리자 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
-## 작업 역할에 대한 관리자 액세스 권한이 있는 계획자 사용자 {#planner-users}
+## 작업 역할에 대한 관리자 액세스 권한이 있는 표준 또는 계획자 사용자 {#planner-users}
 
-Job 역할에 계획자 사용자 관리 액세스 권한을 부여하는 경우 Job 역할에 대해 역할 청구 및 비용 비율 편집 설정이 자동으로 사용으로 설정됩니다.
+Job 역할에 표준 또는 계획자 사용자 관리 액세스 권한을 부여하는 경우 Job 역할에 대해 역할 청구 및 비용 비율 편집 설정이 자동으로 사용으로 설정됩니다.
 
 나중에 사용자의 작업 역할에 대한 관리자 액세스를 사용하지 않도록 설정하면 역할 청구 및 비용 비율 편집 설정이 여전히 사용으로 설정되어 있으므로 작업 역할이 사용자에게 계속 표시됩니다.
 

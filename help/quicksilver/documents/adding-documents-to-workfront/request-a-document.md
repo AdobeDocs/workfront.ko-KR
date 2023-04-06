@@ -6,9 +6,9 @@ description: 문서를 지원하는 모든 객체에 대해 문서를 요청할 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >만약 [Adobe Workfront 라이선스 개요](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) 활성화한 경우 모든 이메일 주소로 요청을 보낼 수 있습니다. 에는 설정이 있습니다 [시스템 보안 환경 설정 구성](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) Workfront과 상호 작용하기 전에 이러한 외부 이메일 사용자가 암호를 만들어야 하는지 여부를 결정합니다. 
+   >만약 [이전 라이센스 개요](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) 활성화한 경우 모든 이메일 주소로 요청을 보낼 수 있습니다. 에는 설정이 있습니다 [시스템 보안 환경 설정 구성](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) Workfront과 상호 작용하기 전에 이러한 외부 이메일 사용자가 암호를 만들어야 하는지 여부를 결정합니다. 
 
 1. 문서를 요청하는 이유를 설명합니다.
 1. 클릭 **요청 보내기**.

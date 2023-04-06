@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 5ec772260c965b83824ff307bc84755fe06e1ba0
+source-git-commit: a39720a4529dcd974483f7730b6feb4d6cd6f994
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1103'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Workfront에 추가하는 사용자에게 액세스 수준을 할당하면 사�
 
 1. 왼쪽 패널 아래쪽에서 **시스템** > **라이선스**.
 
-   이 페이지에 나열된 라이센스에 대한 자세한 내용은 [Adobe Workfront 라이선스 개요](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+   이 페이지에 나열된 라이센스에 대한 자세한 내용은 [이전 라이센스 개요](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 
    >[!NOTE]
    >
@@ -88,6 +88,20 @@ If an organization has other paid add-on products, their license information als
 >* 라이선스 유형 제한: 계획자 제한
 >
 >보고서 만들기에 대한 자세한 내용은 [사용자 지정 보고서 만들기](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+
+## 월별 증명 및 문서 결정 배정에 대한 정보 보기
+
+증명 및 문서 결정은 모든 유료 Workfront 라이선스에 대해 제한됩니다. 월별 사용자별로 재설정된 제한.
+
+>[!IMPORTANT]
+>
+>증명 및 문서 의사 결정 제한은 [이전 Workfront 라이선스 및 액세스 수준](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+
+각 라이센스에 대한 결정 제한은 사용 중인 계획에 따라 다릅니다. 설정 > 라이센스에서 월별 할당을 볼 수 있습니다.
+
+증명 및 문서 결정 제한에 대한 자세한 내용은 [유료 사용자가 아닌 사용자를 위한 제한된 문서 및 증명 결정 개요](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
+
+![](assets/monthly-decision-allotment.png)
 
 ## 라이센스 페이지에 홈 그룹 추가 또는 제거 {#add-or-remove-a-home-group-to-the-licenses-page}
 

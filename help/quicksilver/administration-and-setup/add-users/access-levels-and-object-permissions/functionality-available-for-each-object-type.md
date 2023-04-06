@@ -4,20 +4,20 @@ content-type: reference
 product-area: system-administration
 keywords: 액세스,모델,단계,다이어그램,수준,권한
 navigation-topic: access-levels
-title: 각 객체 유형에 사용할 수 있는 기능
+title: 다양한 레거시 액세스 수준에 대해 각 객체 유형에 사용할 수 있는 기능
 description: 다음 표에는 다양한 액세스 레벨의 각 객체 유형에 사용할 수 있는 기능이 나와 있습니다.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: afc2124a7fd0d9d52c04be1c174fdba314beec7a
+source-git-commit: 1949879ec86e2203c422d1fc05fcb19edf19b4fd
 workflow-type: tm+mt
-source-wordcount: '1457'
-ht-degree: 13%
+source-wordcount: '1446'
+ht-degree: 11%
 
 ---
 
-# 각 객체 유형에 사용할 수 있는 기능
+# 다양한 레거시 액세스 수준에 대해 각 객체 유형에 사용할 수 있는 기능
 
 다음 표에는 다양한 액세스 레벨의 각 객체 유형에 사용할 수 있는 기능이 나와 있습니다.
 
@@ -91,7 +91,7 @@ ht-degree: 13%
 | 재무 보기 | ✓ | ✓ | ✓ |   |   |
 | 업데이트/댓글 | ✓ | ✓ | ✓ |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; Workfront 관리자는 액세스 수준을 사용하여 이 기능을 비활성화하거나 활성화할 수 있습니다. 자세한 내용은 [각 객체 유형에 대한 기능에 대한 구성 가능한 액세스](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -187,7 +187,7 @@ ht-degree: 13%
 | 편집 | ✓ |   |   |   |   |
 | 복사 | ✓ |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; Workfront 관리자는 액세스 수준을 사용하여 이 기능을 비활성화하거나 활성화할 수 있습니다. 자세한 내용은 [각 객체 유형에 대한 기능에 대한 구성 가능한 액세스](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -296,7 +296,7 @@ ht-degree: 13%
 | 업데이트 및 주석 추가 | ✓ | ✓ | ✓ | ✓ |   |
 | 새 버전 업로드 | ✓ | ✓ | ✓ | ✓ |   |
 | 버전 삭제 | ✓ | ✓ | ✓ | ✓ |   |
-| 미리 보기 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 미리보기 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | 증명 | ✓ | ✓ | ✓ | ✓ |   |
 | 증명 생성 | ✓ | ✓ |   |   |   |
 | 증명 제거 | ✓ | ✓ | ✓ | ✓ |   |
@@ -305,7 +305,7 @@ ht-degree: 13%
 | 링크(통합 포함) | ✓ | ✓ | ✓ | ✓ |   |
 | 연결 해제(통합 사용) | ✓ | ✓ | ✓ | ✓ |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; Workfront 관리자는 액세스 수준을 사용하여 이 기능을 비활성화하거나 활성화할 수 있습니다. 자세한 내용은 [각 객체 유형에 대한 기능에 대한 구성 가능한 액세스](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -477,7 +477,7 @@ ht-degree: 13%
 | 복사 | ✓ |   |   |   |   |
 | 템플릿 세부 정보 편집 | ✓ |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; Workfront 관리자는 액세스 수준을 사용하여 이 기능을 비활성화하거나 활성화할 수 있습니다. 자세한 내용은 [각 객체 유형에 대한 기능에 대한 구성 가능한 액세스](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -502,7 +502,7 @@ ht-degree: 13%
 | 프로젝트에 대한 위험 요소 생성 | ✓ |   |   |
 | 프로젝트에 대한 위험 보기 | ✓ | ✓ | ✓ |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; Workfront 관리자는 액세스 수준을 사용하여 이 기능을 비활성화하거나 활성화할 수 있습니다. 자세한 내용은 [각 객체 유형에 대한 기능에 대한 구성 가능한 액세스](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -523,7 +523,7 @@ ht-degree: 13%
 | 자원 계획 도구의 예산 자원&#42;&#42; | ✓ |   |   |   |   |
 | 프로젝트, 템플릿 및 사용자에게 리소스 풀 연결 | ✓ |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; Workfront 관리자는 액세스 수준을 사용하여 이 기능을 비활성화하거나 활성화할 수 있습니다. 자세한 내용은 [각 객체 유형에 대한 기능에 대한 구성 가능한 액세스](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -542,7 +542,7 @@ ht-degree: 13%
 | 기본 메뉴에서 시나리오 보기 ![](assets/esp-icon-in-main-menu.png) | ✓ | ✓ | ✓ |  |   |
 | 사용자가 만든 계획 및 이니셔티브 보기&#42; | ✓ | ✓ | ✓ |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >

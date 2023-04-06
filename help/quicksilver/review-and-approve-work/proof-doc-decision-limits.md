@@ -5,12 +5,10 @@ title: 유료 사용자가 아닌 사용자를 위한 제한된 문서 및 증�
 description: 증명 및 문서 결정은 모든 유료 Workfront 라이선스에 대해 제한됩니다. 월별 사용자별로 재설정된 제한.
 author: Courtney
 feature: Work Management
-hide: true
-hidefromtoc: true
-source-git-commit: 6961bc960312d364ee785543e13a7d75035ef326
+source-git-commit: 4a91a00c8089eb3cf424aa10d4ae86219bd6413f
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 8%
+source-wordcount: '225'
+ht-degree: 6%
 
 ---
 
@@ -74,13 +72,13 @@ ht-degree: 8%
 
 ## 기여자 사용자
 
-기여자 라이센스가 있는 사용자가 결정 제한에 도달하면 무제한 증명 및 문서 결정을 통해 자동으로 Light 라이센스로 업그레이드됩니다. <!-- For more information about the Light license, see the [Light access level](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) section in the [Access levels overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) article.-->
+기여자 라이센스가 있는 사용자가 결정 제한에 도달하면 무제한 증명 및 문서 결정을 통해 자동으로 Light 라이센스로 업그레이드됩니다. Light 라이센스에 대한 자세한 내용은 [가벼운 액세스 수준](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) 의 섹션 [액세스 수준 개요](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) 문서.
 
 >[!NOTE]
 >
->Workfront 관리자와 사용자는 모두 이 업그레이드와 관련된 이메일 알림을 받게 됩니다.
+>Workfront 관리자는 이 업그레이드와 관련된 이메일 알림을 받게 됩니다.
 
-<!-- 
-## View the number of decisions for a user
 
-You can view the number of decisions for a user in the Users area of Workfront. For more information, see [View the number of decisions for all users](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md). -->
+## 사용자의 결정 수 보기
+
+Workfront의 사용자 영역에서 사용자에 대한 결정 수를 볼 수 있습니다. 자세한 내용은 [모든 사용자에 대한 의사 결정 수 보기](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md).
