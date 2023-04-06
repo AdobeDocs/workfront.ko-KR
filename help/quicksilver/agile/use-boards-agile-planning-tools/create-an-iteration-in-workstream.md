@@ -6,9 +6,9 @@ title: 워크플로우에서 반복 만들기
 description: 반복은 작업을 완료하기 위해 예약한 일정 시간입니다. 일부 애자일 팀은 스프린트로서 반복을 지칭할 수도 있습니다.
 author: Lisa
 feature: Agile
-source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
+source-git-commit: cc1411f0308e3415a09403e8e3a65d8af2886de9
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '350'
 ht-degree: 1%
 
 ---
@@ -86,3 +86,8 @@ ht-degree: 1%
 
    이터레이션이 시작되면 이터레이션 이름만 변경할 수 있습니다.
 
+## 반복 삭제
+
+1. 을(를) 클릭합니다. [!UICONTROL **카드 목록**] workstream에서 탭을 열고 반복 보기를 엽니다.
+1. 을(를) 클릭합니다. **삭제** 아이콘 옆에 표시됩니다.
+1. 클릭 [!UICONTROL **반복 삭제**] 확인 메시지에 저장됩니다.
