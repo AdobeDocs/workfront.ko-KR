@@ -6,7 +6,7 @@ title: 워크플로우에서 반복 만들기
 description: 반복은 작업을 완료하기 위해 예약한 일정 시간입니다. 일부 애자일 팀은 스프린트로서 반복을 지칭할 수도 있습니다.
 author: Lisa
 feature: Agile
-source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
+source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 1%
@@ -14,8 +14,6 @@ ht-degree: 1%
 ---
 
 # 워크플로우에서 반복 만들기
-
-{{highlighted-preview-article-level}}
 
 반복은 작업을 완료하기 위해 예약한 일정 시간입니다. 일부 애자일 팀은 스프린트로서 반복을 지칭할 수도 있습니다.
 

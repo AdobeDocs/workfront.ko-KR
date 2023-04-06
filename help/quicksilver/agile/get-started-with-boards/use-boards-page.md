@@ -6,27 +6,21 @@ description: 다음 [!UICONTROL 보드] 대시보드에는 사용자가 만든 �
 author: Lisa
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: 16e96d55932116cb475eecbe8b6ebfd4661eb494
+source-git-commit: 0bf2de8cbdcbb21936ac36bdb8cd21552211a8cf
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
 
 # 보드 대시보드 사용
 
-{{highlighted-preview}}
-
 보드 대시보드에는 사용자가 만든 보드와 추가한 보드를 비롯하여 사용자가 액세스할 수 있는 보드 및 작업 스트림 목록이 표시됩니다. 작업 스트림의 일부가 아닌 액세스 권한이 있는 개별 보드가 먼저 표시됩니다.
-
->[!NOTE]
->
->워크플로우는 미리 보기 환경에서 사용할 수 있고, 이른 기능 옵트인을 통해 프로덕션에서 사용할 수 있습니다 [!UICONTROL [!DNL Workfront] 보드]. 자세한 내용은 [Adobe Workfront 보드에 대한 초기 기능 옵트인](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 대시보드에서 보드 및 작업 스트림에 대해 다음을 수행할 수 있습니다.
 
-* 보드 보관 <span class="preview">또는 workstream</span>
-* 보드 필터링 <span class="preview">및 작업 스트림</span>
+* 보드 또는 작업 스트림 보관
+* 보드 및 작업 스트림 필터링
 * 보드 목록을 보드 이름 또는 수정한 날짜별로 정렬합니다.
 * 보드 또는 작업 스트림 검색
 * 보드 또는 작업 스트림 삭제
@@ -54,7 +48,7 @@ ht-degree: 0%
 
 &#42;어떤 계획, 라이센스 유형 또는 액세스 권한을 보유하고 있는지 확인하려면 [!DNL Workfront] 관리자
 
-## 필터 보드 <span class="preview">및 작업 스트림</span> {#filter-boards}
+## 보드 및 작업 스트림 필터링 {#filter-boards}
 
 보드 대시보드를 필터링하여 활성, 보관 또는 모든 보드 또는 작업 스트림을 표시할 수 있습니다.
 
@@ -85,7 +79,7 @@ ht-degree: 0%
 
    ![대시보드에서 보드 검색](assets/boards-searchbox.png)
 
-## 보드 보관 <span class="preview">또는 작업 스트림</span>
+## 보드 또는 작업 스트림 보관
 
 보드나 작업 스트림을 보관하면 보관 파일로 전송되며 나중에 복원할 수 있습니다.
 
@@ -123,17 +117,18 @@ ht-degree: 0%
 
 1. 클릭 **[!UICONTROL 보드 삭제]** 또는 [!UICONTROL **작업 스트림 삭제**] 확인 메시지에 저장됩니다.
 
-## 보드를 작업 스트림으로 이동
+<!-- ## Move a board to a workstream
 
-독립형 보드를 작업 스트림으로 이동하거나 한 작업 스트림에서 다른 작업 스트림으로 보드를 이동할 수 있습니다.
+You can move a standalone board into a workstream, or move a board from one workstream to another workstream.
 
 >[!NOTE]
 >
->추가한 보드가 아니라 만든 보드만 이동할 수 있습니다.
+>You can only move boards that you created, not boards that you were added to.
 
-1. 을(를) 클릭합니다. **[!UICONTROL 기본 메뉴]** 아이콘 ![](assets/main-menu-icon.png) 의 오른쪽 위 모서리에서 [!DNL Adobe Workfront]를 클릭한 다음 **[!UICONTROL 보드]**.
-1. 을(를) 클릭합니다. **[!UICONTROL 자세히]** 메뉴 ![[!UICONTROL 추가 메뉴]](assets/more-icon-spectrum.png) 보드에서 을(를) 선택하고 을(를) 선택합니다. [!UICONTROL **작업 스트림으로 이동**].
-1. 보드를 추가할 작업 스트림을 선택하고 를 클릭합니다 [!UICONTROL **이동**].
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
+1. Click the **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) on the board, and select [!UICONTROL **Move to workstream**].
+1. Select which workstream to add the board to, and click [!UICONTROL **Move**].
 
-   보드가 작업 스트림으로 이동되고 더 이상 [!UICONTROL 보드] 영역.
-아직 작업 스트림을 만들지 않은 경우 보드를 로 이동할 작업 스트림을 만들라는 메시지가 표시됩니다.
+   The board is moved into the workstream and no longer appears in the [!UICONTROL Boards] area.
+   If you have not created a workstream yet, you are prompted to create one to move the board into.
+-->

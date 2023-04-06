@@ -6,24 +6,18 @@ title: 워크플로우 관리
 description: 워크스트림은 작업을 공동 작업하기 위해 구성 가능한 보드 및 카드 그룹입니다.
 author: Lisa
 feature: Agile
-source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
+source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '841'
 ht-degree: 3%
 
 ---
 
 # 워크플로우 관리
 
-{{highlighted-preview}}
+워크스트림은 작업을 공동 작업하기 위해 구성 가능한 보드 및 카드 그룹입니다. 워크플로우에는 템플릿에서 만든 다양한 유형의 보드와 작업 항목의 카드 목록이 포함될 수 있습니다. 워크플로우에서는 반복 또는 스프린트에서 작업을 추적할 수 있습니다.
 
->[!NOTE]
->
->워크플로우는 미리 보기 환경에서 사용할 수 있고, 이른 기능 옵트인을 통해 프로덕션에서 사용할 수 있습니다 [!UICONTROL [!DNL Workfront] 보드]. 자세한 내용은 [Adobe Workfront 보드에 대한 초기 기능 옵트인](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
-
-워크스트림은 작업을 공동 작업하기 위해 구성 가능한 보드 및 카드 그룹입니다. 워크플로우에는 템플릿에서 만든 다양한 유형의 보드가 포함될 수 있습니다. <span class="preview">그리고 작업 항목의 카드 목록입니다. 워크플로우에서는 반복 또는 스프린트에서 작업을 추적할 수 있습니다.</span>
-
-<span class="preview">자세한 내용은 [카드 목록 사용](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md) 및 [워크플로우에서 반복 만들기](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).</span>
+자세한 내용은 [카드 목록 사용](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md) 및 [워크플로우에서 반복 만들기](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
 작업 스트림은 작업 스트림의 일부가 아닌 개별 보드에 액세스할 수 있는 개별 보드와 함께 대시보드에 나타납니다. 보드 대시보드에 대한 자세한 내용은 [보드 대시보드 사용](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md). 대시보드에서 보드 이름을 클릭하여 열 수 있습니다.
 
@@ -68,7 +62,7 @@ ht-degree: 3%
 | 기본 보드 | 보드에 기본 열 3개가 제공됩니다. 새 열을 추가하고 기본 열의 이름을 바꾸거나 삭제할 수 있습니다. <p>적용된 열 정책이 없습니다. |
 | 칸반 보드 | 보드에 다음 열이 제공됩니다. 백로그, 신규, 진행 중, 완료 및 보류 중 새 열을 추가하고 기본 열의 이름을 바꾸거나 삭제할 수 있습니다.<p>백로그를 사용하려면 취입 열에 대한 필터를 설정해야 합니다. 자세한 내용은 [보드에 흡기 열 추가](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>각 열에 대한 기본 정책을 검토하려면 [!UICONTROL **자세히** 메뉴] 열에서 [!UICONTROL **편집**]. 이러한 사전 설정된 정책을 변경할 수 있습니다. 자세한 내용은 [보드 열 관리](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 | Retrospective 보드 | 보드에 다음 열이 제공됩니다. 뭐가 잘 됐어? 개선 가능한 사항? 축하해야 할 사람? 보다 빠른 진행을 위해 할 수 있는 일? 새 열을 추가하고 기본 열의 이름을 바꾸거나 삭제할 수 있습니다. <p>적용된 열 정책이 없습니다. |
-| <span class="preview">반복 프로세스</span> | <span class="preview">반복을 정의하고 실행하는 데 사용되는 보드입니다. <p>보드에 다음 열이 제공됩니다. 백로그, 신규, 진행 중, 완료 및 보류 중 보드에 열을 추가할 수 없습니다. <p>각 열에 대한 기본 정책을 검토하려면 [!UICONTROL **자세히**] 열의 메뉴를 선택하고 [!UICONTROL **편집**]. 이러한 사전 설정된 정책을 변경할 수 있습니다. 자세한 내용은 [보드 열 관리](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).</span> |
+| 반복 프로세스 | 반복을 정의하고 실행하는 데 사용되는 보드입니다. <p>보드에 다음 열이 제공됩니다. 백로그, 신규, 진행 중, 완료 및 보류 중 보드에 열을 추가할 수 없습니다. <p>각 열에 대한 기본 정책을 검토하려면 [!UICONTROL **자세히**] 열의 메뉴를 선택하고 [!UICONTROL **편집**]. 이러한 사전 설정된 정책을 변경할 수 있습니다. 자세한 내용은 [보드 열 관리](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 
 보드 설정에 대한 자세한 내용은 [보드 만들기 또는 편집](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
 
@@ -99,8 +93,6 @@ ht-degree: 3%
 
    이는 보드에 구성원을 추가하는 것과 동일한 프로세스입니다. 자세한 내용은 [보드에서 구성원 추가 또는 제거](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
 
-<div class="preview">
-
 ## 작업 스트림 구성
 
 {{step1-to-boards}}
@@ -118,4 +110,3 @@ ht-degree: 3%
 
    작업 스트림 소스에 대한 필터를 추가하는 것은 기본 보드나 간판 보드의 흡기 열에 대한 필터를 추가하는 것과 같습니다. 자세한 내용은 [보드에 흡기 열 추가](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
-</div>

@@ -6,7 +6,7 @@ title: 카드 목록 사용
 description: 작업 스트림에 카드 목록을 만들고 이 카드를 이터레이션에 추가할 수 있습니다.
 author: Lisa
 feature: Agile
-source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
+source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # 카드 목록 사용
-
-{{highlighted-preview-article-level}}
 
 작업 스트림에 카드 목록을 만들고 이 카드를 이터레이션에 추가할 수 있습니다.
 

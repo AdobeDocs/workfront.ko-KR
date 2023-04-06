@@ -6,9 +6,9 @@ title: 보드 삭제 또는 보관
 description: Workfront에서 보드를 삭제하거나 보관할 수 있습니다. 보드를 삭제하면 Workfront에서 보드가 영구적으로 제거되며, 보드를 보관하면 모든 카드가 보관되며 나중에 복원할 수 있습니다.
 author: Lisa
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: 463585bb3368b0061957c42516f790ed085711d2
+source-git-commit: 67472e2c6d3bf3cbb11c2ba5ad2f3eee13336f74
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '342'
 ht-degree: 1%
 
 ---
@@ -16,11 +16,6 @@ ht-degree: 1%
 # 보드 삭제 또는 보관
 
 보드를 삭제하거나 [!DNL Workfront]. 보드를 삭제하면 보드를 삭제할 때 [!DNL Workfront]를 검색하는 동안 보드를 보관하면 모든 카드가 보관되며 나중에 복원할 수 있습니다. 이 옵션은 작업 스트림에 포함된 독립 실행형 보드와 보드에 모두 적용됩니다.
-
->[!NOTE]
->
->컬렉션이라고 하는 이전 버전의 워크플로우는 용 초기 기능 옵트인을 통해서만 사용할 수 있습니다. [!UICONTROL [!DNL Workfront] 보드]. 자세한 내용은 [Adobe Workfront 보드에 대한 초기 기능 옵트인](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
->미리 보기 환경의 모든 사용자가 작업 스트림을 사용할 수 있습니다.
 
 ## 액세스 요구 사항
 

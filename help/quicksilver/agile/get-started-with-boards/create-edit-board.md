@@ -6,10 +6,10 @@ description: 에서 [!UICONTROL 보드] 대시보드에서 새 보드를 만들�
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 16e96d55932116cb475eecbe8b6ebfd4661eb494
+source-git-commit: 67472e2c6d3bf3cbb11c2ba5ad2f3eee13336f74
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 4%
+source-wordcount: '477'
+ht-degree: 5%
 
 ---
 
@@ -45,10 +45,6 @@ ht-degree: 4%
 1. 을(를) 클릭합니다. **[!UICONTROL 기본 메뉴]** 아이콘 ![](assets/main-menu-icon.png) 의 오른쪽 위 모서리에서 [!DNL Adobe Workfront]를 클릭한 다음 **[!UICONTROL 보드]**.
 1. 독립형 보드를 만들려면 **[!UICONTROL 보드 추가]** 에서 [!UICONTROL 보드] 영역. 작업 스트림에 보드를 추가하려면 다음을 참조하십시오 [워크플로우 관리](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
-   >[!NOTE]
-   >
-   >워크플로우는 미리 보기 환경에서 사용할 수 있고, 이른 기능 옵트인을 통해 프로덕션에서 사용할 수 있습니다 [!UICONTROL [!DNL Workfront] 보드]. 자세한 내용은 [Adobe Workfront 보드에 대한 초기 기능 옵트인](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
-
 1. 보드의 템플릿을 선택합니다.
 
    | 템플릿 | 설명 |
@@ -56,10 +52,6 @@ ht-degree: 4%
    | 기본 보드 | 보드에 기본 열 3개가 제공됩니다. 새 열을 추가하고 기본 열의 이름을 바꾸거나 삭제할 수 있습니다. <p>보드에 기본 열 3개가 제공됩니다. 새 열을 추가하고 기본 열의 이름을 바꾸거나 삭제할 수 있습니다. |
    | 칸반 보드 | 보드에 다음 열이 제공됩니다. 백로그, 신규, 진행 중, 완료 및 보류 중 새 열을 추가하고 기본 열의 이름을 바꾸거나 삭제할 수 있습니다.<p>백로그를 사용하려면 취입 열에 대한 필터를 설정해야 합니다. 자세한 내용은 [보드에 흡기 열 추가](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>각 열에 대한 기본 정책을 검토하려면 [!UICONTROL **자세히** 메뉴] 열에서 [!UICONTROL **편집**]. 이러한 사전 설정된 정책을 변경할 수 있습니다. 자세한 내용은 [보드 열 관리](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
    | Retrospective 보드 | 보드에 다음 열이 제공됩니다. 뭐가 잘 됐어? 개선 가능한 사항? 축하해야 할 사람? 보다 빠른 진행을 위해 할 수 있는 일? 새 열을 추가하고 기본 열의 이름을 바꾸거나 삭제할 수 있습니다. <p>적용된 열 정책이 없습니다. |
-
-   >[!NOTE]
-   >
-   > 보드 템플릿은 의 초기 기능 옵트인을 통해서만 사용할 수 있습니다 [!DNL Workfront] [!UICONTROL 보드]. 그렇지 않으면 기본 보드만 사용할 수 있습니다.
 
 1. 에 보드의 이름을 입력합니다 **[!UICONTROL 보드]** 필드를 입력하고 Enter 키를 누릅니다.
 1. 필요에 따라 보드를 구성합니다.

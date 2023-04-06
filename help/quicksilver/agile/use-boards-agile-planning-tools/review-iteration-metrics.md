@@ -6,18 +6,16 @@ title: 반복 지표 검토
 description: 지표는 반복 프로세스 보드의 작업 스트림의 각 반복에 사용할 수 있습니다.
 author: Lisa
 feature: Agile
-source-git-commit: 463585bb3368b0061957c42516f790ed085711d2
+source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 1%
+source-wordcount: '201'
+ht-degree: 0%
 
 ---
 
 # 반복 지표 검토
 
-{{highlighted-preview-article-level}}
-
-지표는 반복 프로세스 보드의 작업 스트림의 각 반복에 사용할 수 있습니다.
+지표는 작업 스트림, 반복 프로세스 보드 및 대시보드의 각 반복에 사용할 수 있습니다.
 
 ## 액세스 요구 사항
 
