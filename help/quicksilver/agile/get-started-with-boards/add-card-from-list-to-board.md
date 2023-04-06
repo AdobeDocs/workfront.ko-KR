@@ -5,16 +5,14 @@ title: Adobe Workfront 보드 또는 워크플로우에 기존 작업 또는 문
 description: 목록 또는 보고서 보기에서 Adobe Workfront의 보드에 작업이나 문제를 추가할 수 있습니다.
 author: Lisa
 feature: Agile
-source-git-commit: 36144b10a55a4732b7c50c2aea8e2ebb219efc4c
+source-git-commit: a1ab72b3ee416a6a47343eadf4d3dec317e4e27a
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
 
 # 기존 작업 또는 문제를 [!DNL Adobe Workfront] 보드 또는 작업 스트림
-
-{{highlighted-preview-article-level}}
 
 의 보드나 작업 스트림에 작업이나 문제를 추가할 수 있습니다 [!DNL Adobe Workfront] 목록, 보고서 보기 또는 개체 세부 정보에서 선택합니다.
 
