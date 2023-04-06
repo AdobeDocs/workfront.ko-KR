@@ -7,9 +7,9 @@ description: 사용자가 정의한 필터에 따라 작업 및 문제가 Workfr
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 0bcd7cbe43a03216dddabb173aa5888b97cffd23
+source-git-commit: 622a1c48af8612e32ff8aa23971d55aff26eea48
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 0%
 
    이 예는 다음 상태에 있는 특정 프로젝트의 작업에 대한 필터를 보여줍니다. [!UICONTROL 새로 만들기] 또는 [!UICONTROL 진행 중], 및에 할당됩니다.
 
-   필터 만들기에 대한 자세한 내용은 문서의 &quot;베타 빌더에서 필터 만들기 또는 편집&quot; 섹션을 참조하십시오 [에서 필터 만들기 또는 편집 [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   필터 만들기에 대한 자세한 내용은 문서의 &quot;표준 빌더에서 필터 만들기 또는 편집&quot; 섹션을 참조하십시오 [에서 필터 만들기 또는 편집 [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 1. 필터 이름을 지정하고 **[!UICONTROL 저장]**.
 
@@ -96,10 +96,6 @@ ht-degree: 0%
    ![열 접수](assets/intake-column-added3.png)
 
    가져오기 열의 카드는 다른 보드 열로 이동할 때까지 편집할 수 없습니다. 카드를 클릭하여 읽기 전용 보기로 열거나 ![작업 또는 문제 열기](assets/boards-launch-icon.png) 새 브라우저 탭에서 작업이나 문제를 열려면 다음을 수행하십시오.
-
-   >[!NOTE]
-   >
-   >취합 열에 있는 카드에 대한 읽기 전용 보기는 초기 기능 옵트인을 통해서만 사용할 수 있습니다 [!DNL Workfront] [!UICONTROL 보드].
 
    취입 열의 항목을 수동으로 다시 정렬할 수 있습니다.
 

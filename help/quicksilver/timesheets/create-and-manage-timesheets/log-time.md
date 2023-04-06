@@ -6,9 +6,9 @@ description: Adobe Workfront에서 작업 항목의 시간을 로그하여 작�
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: b2859f3d268bd947fba5bb0280677465b3039d93
+source-git-commit: 27e9cfff363ab38c6469b99a8cbb04439f2df61c
 workflow-type: tm+mt
-source-wordcount: '2992'
+source-wordcount: '2979'
 ht-degree: 0%
 
 ---
@@ -400,10 +400,6 @@ Workfront의 다음 영역에서 시간을 로그인할 수 있습니다.
 ![](assets/summary-hour-log.png)
 
 ### 보드 {#boards}
-
->[!NOTE]
->
->이 기능은 Workfront 보드의 초기 기능 옵트인을 통해서만 사용할 수 있습니다.
 
 Workfront 보드에 연결된 카드에 대해 로그인할 수 있습니다. 이는 작업 또는 문제에 대한 로깅 시간과 동일한 프로세스이며, 카드에 기록된 시간은 연결된 작업 또는 문제에 저장됩니다.
 자세한 내용은 [보드에서 연결된 카드 사용](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).

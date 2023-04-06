@@ -6,9 +6,9 @@ description: 새 보드에는 기본적으로 3개의 열이 포함되어 있습
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 0bcd7cbe43a03216dddabb173aa5888b97cffd23
+source-git-commit: df0e23de7ed84d8c13b60866e1814fe19a877c0b
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '910'
 ht-degree: 0%
 
 ---
@@ -118,22 +118,11 @@ ht-degree: 0%
 
       연결된 카드에 대한 상태 변환 옵션도 표시됩니다. (상태 번역은 Ad Hoc 카드에 적용되지 않습니다.) 이 옵션은 의 작업 또는 문제에 적용되는 사용자 지정 상태를 결정합니다 [!DNL Workfront] 연결된 카드를 이 열로 이동하면 됩니다.
 
-   1. 초기 기능 옵트인을 사용하는 경우: 선택 [!UICONTROL **사용자 지정**] 작업 및 문제에 대해 카드에 적용할 상태입니다.
+   1. 선택 [!UICONTROL **사용자 지정**] 작업 및 문제에 대해 카드에 적용할 상태입니다.
 
-      카드를 이 열로 이동하면 [!DNL Workfront] 는 먼저 사용자 지정 상태(예: 해결됨)를 적용하려고 합니다. 선택한 사용자 정의 상태를 해당 카드에 사용할 수 없는 경우 시스템 상태(위의 b 단계에서)에 해당하는 다른 상태를 선택하라는 메시지가 표시됩니다.
+      카드를 이 열로 이동하면 [!DNL Workfront] 는 먼저 사용자 지정 상태(예: 해결됨)를 적용하려고 합니다. 선택한 사용자 정의 상태를 해당 카드에 사용할 수 없는 경우 시스템 상태(위의 b 단계에서)에 해당하는 다른 상태를 선택하라는 메시지가 표시됩니다. 상태에 대한 자세한 내용은 [상태 개요](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
       또한 연결된 작업 또는 문제의 상태가 열 정책에 설정된 사용자 지정 또는 시스템 상태로 변경되면 카드가 자동으로 열로 이동합니다.
-
-      >[!NOTE]
-      >
-      >열에 대한 기본 사용자 지정 상태를 설정하는 것은 초기 기능 옵트인을 통해서만 사용할 수 있습니다. 자세한 내용은 [Adobe Workfront 보드에 대한 초기 기능 옵트인](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
-
-   1. 초기 기능 옵트인을 사용하지 않는 경우: 작업의 상태와 문제의 상태를 선택합니다. 기본값만 [!DNL Workfront] 사용자 지정 상태가 아닌 사용 가능한 상태입니다.
-
-      >[!NOTE]
-      >
-      >에서 사용자 지정 상태를 사용하는 경우 [!DNL Workfront]연결된 카드를 이 열로 처음 이동하면 상태를 선택하라는 메시지가 표시됩니다. 예를 들어 연결된 프로젝트에 모두 해당하는 여러 상태 유형이 있는 경우 [!UICONTROL 완료됨]에서 사용할 상태를 선택해야 합니다. [!DNL Workfront]. 카드를 열로 이동할 때마다 선택할 필요가 없도록 선택 사항을 기본값으로 설정할 수 있습니다.
-      >상태에 대한 자세한 내용은 [상태 개요](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
 1. (선택 사항) 카드 담당자에게 값을 설정합니다.
 

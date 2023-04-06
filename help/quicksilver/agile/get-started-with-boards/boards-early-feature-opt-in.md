@@ -6,9 +6,9 @@ title: 에 대한 초기 기능 옵트인 [!DNL Adobe Workfront] 보드
 description: 에 대해 알아보려면 이 문서를 참조하십시오. [!DNL Workfront Boards] 초기 기능 옵트인.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 619f1862f3d6fb9280fe97de4b5055d64bb46c6c
+source-git-commit: e9fce8cd8062fa6512493c3b0509aa248a76c528
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '659'
 ht-degree: 0%
 
 ---
@@ -118,23 +118,23 @@ ht-degree: 0%
   </tr>
   <tr>
    <td>취입 열에 있는 보기 전용 카드</td>
-   <td>부분적으로 릴리즈됨</td>
+   <td>릴리스됨</td>
   </tr>
   <tr>
    <td>카드의 추정 필드를 작업의 스토리 포인트 필드에 매핑</td>
-   <td>부분적으로 릴리즈됨</td>
+   <td>릴리스됨</td>
   </tr>
   <tr>
    <td>작업 스트림을 만들고 작업 스트림에 보드 추가</td>
-   <td>부분적으로 릴리즈됨</td>
+   <td>릴리스됨</td>
   </tr>
   <tr>
    <td>반복 생성</td>
-   <td>부분적으로 릴리스됨(미리 보기에서 사용 가능)</td>
+   <td>릴리스됨</td>
   </tr>
   <tr>
    <td>카드 목록 또는 백로그 정의</td>
-   <td>부분적으로 릴리스됨(미리 보기에서 사용 가능)</td>
+   <td>릴리스됨</td>
   </tr>
   <tr>
    <td>하위 작업을 카드의 체크리스트 항목으로 가져오기</td>
@@ -142,19 +142,31 @@ ht-degree: 0%
   </tr>
   <tr>
    <td>카드의 필드 표시 사용자 지정</td>
-   <td>부분적으로 릴리즈됨</td>
+   <td>릴리스됨</td>
   </tr>  
   <tr>
    <td>열로 이동한 카드에 대한 기본 상태를 정의합니다</td>
-   <td>부분적으로 릴리즈됨</td>
+   <td>릴리스됨</td>
   </tr>
   <tr>
    <td>연결된 카드의 로그 시간</td>
-   <td>부분적으로 릴리즈됨</td>
+   <td>릴리스됨</td>
   </tr>
   <tr>
    <td>연결된 카드에 사용자 지정 필드 추가</td>
-   <td>부분적으로 릴리스됨(미리 보기에서 사용 가능)</td>
+   <td>릴리스됨</td>
+  </tr>
+  <tr>
+   <td>보드에 대한 이메일 알림 정의</td>
+   <td>계획됨</td>
+  </tr>
+  <tr>
+   <td>기존 간판 카드를 보드로 마이그레이션</td>
+   <td>계획됨</td>
+  </tr>
+  <tr>
+   <td>다이내믹 보드 만들기</td>
+   <td>계획됨</td>
   </tr>
  </tbody> 
 </table>

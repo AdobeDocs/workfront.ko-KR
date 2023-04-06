@@ -6,7 +6,7 @@ description: 보드에 Ad Hoc 카드를 신속하게 추가하여 보드의 구�
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: ed87ad7de2c3ea6dde4a9d0b89882c2717c4fc80
+source-git-commit: e9fce8cd8062fa6512493c3b0509aa248a76c528
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 0%
@@ -79,7 +79,7 @@ ht-degree: 0%
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Estimation]</strong></td> 
-      <td><p>카드를 완료할 예상 시간 수를 입력합니다. 수동 입력만 가능합니다.</p></td>
+      <td>카드를 완료할 예상 시간 수를 입력합니다. 수동 입력만 가능합니다.</td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL 기한]</strong></td> 
