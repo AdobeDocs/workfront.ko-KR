@@ -7,7 +7,7 @@ description: 양식 디자이너를 사용하여 기존 사용자 지정 양식�
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: c0082dd73e3db8123f9cc08f1798ef8e70730625
+source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 
 
 # 양식 디자이너를 사용하여 사용자 지정 양식 이름 바꾸기
-
-{{highlighted-preview-article-level}}
 
 양식 디자이너를 사용하여 사용자 지정 양식을 만든 후 언제든지 사용자 지정 양식의 이름을 바꿀 수 있습니다.
 

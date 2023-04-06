@@ -4,10 +4,10 @@ description: 23.2 릴리스 기간 동안 업데이트 확인 및 감지
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 71833a09ecde154ddbcf9cac34733641bf55f74d
+source-git-commit: f10e84b4afffee5d80a32161300bbcf4b0d20f73
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->미리 보기 릴리스: 2023년 4월 4일 계획된 생산 릴리스: 2023년 4월 18일
+>미리 보기 릴리스: 2023년 4월 4일 계획된 생산 릴리스: 2023년 4월 20일
 
 Workfront의 최신 목록과 일치하도록 요청 영역에서 초안 목록을 업데이트했습니다.
 업데이트 중 일부는 다음과 같습니다.

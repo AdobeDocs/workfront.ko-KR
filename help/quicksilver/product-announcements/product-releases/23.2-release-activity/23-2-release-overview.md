@@ -4,9 +4,9 @@ description: 23.2 릴리스 개요
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 2049958745516d37f41938fbd4b6398f57378959
+source-git-commit: c3ab0f47d8cb31094eb39e314ff11099a647a9f9
 workflow-type: tm+mt
-source-wordcount: '2698'
+source-wordcount: '2677'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,7 @@ ht-degree: 0%
 
 # 23.2 릴리스 개요
 
-이 페이지에서는 2023년 4월 3일로 예약된 23.2 릴리스에 포함된 기능에 대한 정보를 제공합니다.
-
-이 페이지의 개선 사항은 미리 보기 환경에서 사용할 수 있습니다. 23.2 릴리스가 예정된 프로덕션 릴리스와 가까워지면 이 페이지가 추가 향상된 기능으로 업데이트됩니다.
+이 페이지에서는 23.1 릴리스에 포함된 기능에 대한 정보를 제공합니다. 이러한 개선 사항은 2023년 4월 6일 및 7일에 발표된 23.2 릴리스의 프로덕션 환경에서 사용할 수 있었습니다.
 
 향후 릴리스 준비에 대한 팁은 [Adobe Workfront 분기별 릴리스 준비](/help/quicksilver/product-announcements/product-releases/release-readiness.md).
 
@@ -116,7 +114,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">개체 세부 정보의 작업 및 문제를 Workfront 보드 또는 워크플로우에 추가합니다</a><span style="color: #ff0000;"> 미리 보기의 새로운 기능!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">개체 세부 정보의 작업 및 문제를 Workfront 보드 또는 워크플로우에 추가합니다</a></p>
                         <p>이제 기존 작업 또는 문제를 개체 세부 정보에서 직접 Workfront 보드 또는 작업 스트림 카드 목록에 추가할 수 있습니다. 보드에 추가하는 모든 항목은 연결된 카드가 되고 작업 스트림에 추가된 모든 항목은 카드 목록에 계획되지 않은 카드로 추가됩니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용할 수 있습니다.</b></p>
@@ -429,7 +427,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">캔버스 대시보드</a><span style="color: #ff0000;"> 곧 제공될 예정입니다!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">캔버스 대시보드</a></p>
                         <p>캔버스 대시보드가 레이아웃 템플릿에서 활성화할 수 있는 진행 중인 대시보드의 기능으로 추가되었습니다. 캔버스 대시보드를 사용하면 새로운 레이아웃 옵션 외에도 보고 캔버스 시각화를 기존 보고서와 결합할 수 있습니다. 현재 목록 보고서만 지원되지만, 개발이 계속되면서 더 많은 옵션이 추가됩니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용할 수 있습니다.</b></p>
@@ -464,8 +462,8 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">생체 인식 로그인 및 모바일 앱에서의 보드 컬렉션</span></a><span style="color: #ff0000;"> 곧 제공될 예정입니다!</span>
-                        <p>생체 인식 로그인은 이제 모바일 앱에 더 빨리 로그인하는 옵션입니다. 초기 로그인 후 생체 인식 확인이 설정되면 사용자는 지문 또는 얼굴 인식 기능을 사용하여 가끔 암호를 재확인하기만 하면 앱에 빠르게 다시 로그인할 수 있습니다. 또한 나중에 업데이트될 때 도착하는 일반적인 로그인 경험에 대한 많은 모양 및 느낌의 개선 사항이 있을 것입니다.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">생체 인식 로그인 및 모바일 앱에서의 보드 컬렉션</span></a>
+                        </span></a><p>생체 인식 로그인은 이제 모바일 앱에 더 빨리 로그인하는 옵션입니다. 초기 로그인 후 생체 인식 확인이 설정되면 사용자는 지문 또는 얼굴 인식 기능을 사용하여 가끔 암호를 재확인하기만 하면 앱에 빠르게 다시 로그인할 수 있습니다. 또한 나중에 업데이트될 때 도착하는 일반적인 로그인 경험에 대한 많은 모양 및 느낌의 개선 사항이 있을 것입니다.</p>
                         <p>이제 모바일 앱에서도 보드 컬렉션이 지원되므로 모바일 사용자는 모바일 보드 목록에서 데스크탑 버전에서 액세스할 수 있는 모든 컬렉션을 볼 수 있습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용할 수 있습니다.</b></p>
@@ -537,7 +535,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">통합 경험을 Adobe에 온보딩할 신규 고객</a><span style="color: #ff0000;"> 곧 제공될 예정입니다!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">통합 경험을 Adobe에 온보딩할 신규 고객</a></p>
                         <p>Adobe 통합 경험에는 다음이 포함됩니다.
                         <ul>
                         <li>Adobe Experience Cloud을 통한 모든 Adobe 애플리케이션에 대한 단일 로그인</li>
@@ -559,7 +557,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">통합 경험 사용자를 위한 새 탭에서 언어 교정 뷰어가 열립니다</a><span style="color: #ff0000;"> 곧 제공될 예정입니다!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">통합 경험 사용자를 위한 새 탭에서 언어 교정 뷰어가 열립니다</a></p>
                         <p>이제 통합 환경에서 사용자를 위한 새 탭에서 언어 교정 뷰어가 열립니다.
                         </p>
                     </td>
@@ -627,11 +625,11 @@ Workfront Fusion의 새로운 기능은 23.2 릴리스 일정을 제외한 케�
 
 23.2 릴리스와 함께 Workfront 목표 릴리스에 제공되는 새로운 기능. 이제 미리 보기에서 이러한 새로운 기능에 대한 자세한 내용은 [Adobe Workfront 목표 및 23.2 릴리스](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-23-2-release.md).
 
-### API 버전 15
+### API 버전 16
 
-API 버전 15의 경우 일부 리소스 및 엔드포인트를 수정했습니다. 일부 변경 사항은 새 기능을 지원하며, 다른 변경 사항은 API를 통해 사용할 수 있는 정보를 더 쉽게 사용할 수 있도록 해줍니다.
+API 버전 16은 22.3 릴리스와 함께 릴리스됩니다. API 버전 16의 경우 일부 리소스 및 엔드포인트를 수정했습니다. 일부 변경 사항은 새 기능을 지원하며, 다른 변경 사항은 API를 통해 사용할 수 있는 정보를 더 쉽게 사용할 수 있도록 해줍니다.
 
-새로운 기능 및 업데이트되는 사항에 대한 자세한 내용은 [API 버전 15의 새로운 기능](/help/quicksilver/wf-api/api/new-api-version-15.md).
+새로운 기능 및 업데이트되는 사항에 대한 자세한 내용은 [API 버전 16의 새로운 기능](/help/quicksilver/wf-api/api/new-api-version-16.md).
 
 API 버전에 대한 내용은 [API 버전 관리 및 지원 예약](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
