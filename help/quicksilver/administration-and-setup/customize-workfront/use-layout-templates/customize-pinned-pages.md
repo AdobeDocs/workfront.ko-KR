@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 0a32193f54e919972b0a1b10e9f15fea2b6b5b8e
+source-git-commit: 0e6a7c0b5e83c85f848208ac0f79cd6eb7b8b1b2
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 ---
 
 # 레이아웃 템플릿을 사용하여 고정된 페이지 사용자 지정
-
-{{highlighted-preview}}
 
 레이아웃 템플릿에서 사용자가 항상 Adobe Workfront 맨 위에서 사용할 수 있도록 하려는 페이지를 고정할 수 있습니다. 기본 메뉴를 통해 액세스할 수 있는 페이지입니다 ![](assets/main-menu-icon.png) 또는 대시보드
 
@@ -70,9 +68,9 @@ ht-degree: 0%
 
 1. 이전 단계를 반복하여 다른 페이지를 고칩니다.
 
-1. <span class="preview"> (선택 사항) 핀 이름을 바꾸려면 핀 위로 마우스를 가져간 후 핀 이름 옆에 있는 화살표를 클릭하고 선택합니다 **PIN 이름 바꾸기**. 새 핀 이름을 입력하고 확인 표시 아이콘을 클릭하거나 Enter 키를 누릅니다.</span>
+1. (선택 사항) 핀 이름을 바꾸려면 핀 위로 마우스를 가져간 후 핀 이름 옆에 있는 화살표를 클릭하고 선택합니다 **PIN 이름 바꾸기**. 새 핀 이름을 입력하고 확인 표시 아이콘을 클릭하거나 Enter 키를 누릅니다.
 
-   <span class="preview"> 확인 표시를 클릭하거나 Enter 키를 누른 후 몇 초 동안 작은 팝업 창이 나타나므로 PIN 이름 변경을 취소하여 저장할 수 있습니다.</span>
+   확인 표시를 클릭하거나 Enter 키를 누른 후 몇 초 동안 작은 팝업 창이 나타나므로 PIN 이름 변경을 취소하여 저장할 수 있습니다.
 
 1. 레이아웃 템플릿을 계속 사용자 지정합니다.
 
