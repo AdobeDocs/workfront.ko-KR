@@ -5,16 +5,14 @@ description: 스코어카드를 사용하여 프로젝트가 이전에 설정한
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 78878fa3578e4f3a33baec3806298282d3909d8d
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1292'
 ht-degree: 0%
 
 ---
 
 # 프로젝트에 스코어카드를 적용하고 정렬 점수를 생성합니다
-
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 환경의 모든 고객과 프로덕션 환경의 고객 선택 그룹에 대해 사용할 수 있습니다.</span>
 
 스코어카드를 사용하여 프로젝트가 이전에 설정한 포트폴리오 기준에 얼마나 잘 정렬되는지 측정할 수 있습니다. 스코어카드는 종종 조직의 임무, 가치 및 전략적 목표를 반영합니다.
 
@@ -95,17 +93,20 @@ ht-degree: 0%
 
    이제 스코어카드가 프로젝트와 연결되고 프로젝트가 점수가 지정됩니다.
 
-1. (조건부) 스코어카드 질문 값에 변경 사항이 발생하면 프로젝트 점수에 대한 새 값을 반영하도록 스코어카드를 다시 계산해야 합니다. 스코어카드를 기록하려면 다음을 수행합니다.
+<!--This functionality was removed when we redesigned bulk editing projects with 23.2: 
 
-   1. 프로젝트 목록으로 이동한 후 목록에서 모든 프로젝트를 선택합니다.
-   1. 을(를) 클릭합니다. **편집** 아이콘 을 클릭하여 제품에서 사용할 수 있습니다.
-   1. 클릭 **설정** 왼쪽 패널에서 **스코어카드 재계산** 설정 영역 끝에 있는 옵션.
-   1. 저장을 클릭합니다. 이렇게 하면 선택한 모든 프로젝트에 대해 첨부된 스코어카드를 기반으로 점수 값이 다시 계산됩니다.
+1. (Conditional) When changes occur in the values of scorecard questions, you must recalculate the scorecard to reflect the new values for the project score. To recaulate the scorecard, do the following: 
+
+   1. Go to a list of projects and select all projects in the list. 
+   1. Click the **Edit** icon at the top of the list. 
+   1. Click **Settings** in the left panel, then check the **Recalculate Scorecards** option at the end of the Settings area. 
+   1. Click Save. This recalculates the score value based on the scorecards attached for all the selected projects.  
 
       >[!NOTE]
       >
-      >   <span class="preview">프로젝트를 일괄적으로 편집할 때 스코어카드를 다시 계산하기 위한 옵션이 미리 보기 환경에서 제거되었습니다. </span>
+      >   The option to recalculate scorecards has been removed from the Preview environment, when editing projects in bulk. 
 
+-->
 
 ## 정렬 점수 생성
 

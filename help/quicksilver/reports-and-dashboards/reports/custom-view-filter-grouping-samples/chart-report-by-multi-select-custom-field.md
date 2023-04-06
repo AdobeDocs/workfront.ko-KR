@@ -7,16 +7,16 @@ description: 다중 선택 사용자 지정 필드로 보고서를 차트할 수
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 78878fa3578e4f3a33baec3806298282d3909d8d
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '773'
 ht-degree: 0%
 
 ---
 
 # 다중 선택 사용자 지정 필드로 보고서 차트 지정
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 환경의 모든 고객과 프로덕션 환경의 고객 선택 그룹에 대해 사용할 수 있습니다.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 다중 선택 사용자 지정 필드로 보고서를 차트할 수 없습니다. 다중 선택 사용자 지정 필드를 참조하는 추가 계산된 필드를 만들어 다중 선택 사용자 지정 필드의 값으로 보고서를 차트화해야 합니다.
 
@@ -109,7 +109,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   ><span class="preview">이 옵션은 미리 보기 환경에서 프로젝트를 일괄적으로 편집하지 않도록 했습니다.  을 클릭하여 프로젝트의 표현식을 일괄적으로 다시 계산할 수 있습니다 **자세히** ![](assets/more-icon-45x33.png) 프로젝트 목록의 맨 위에서 **표현식 다시 계산**. </span>
+   >이 옵션은 프로젝트를 일괄적으로 편집할 때 제거되었습니다.  을 클릭하여 프로젝트의 표현식을 일괄적으로 다시 계산할 수 있습니다 **자세히** 아이콘 ![](assets/more-icon-45x33.png) 프로젝트 목록의 맨 위에서 **표현식 다시 계산**.
 
 
 1. 다중 선택 사용자 지정 필드를 참조하는 계산된 필드에 대한 차트를 추가할 보고서로 이동합니다.

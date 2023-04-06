@@ -6,16 +6,16 @@ description: 한 개체에 첨부된 사용자 지정 양식이 표시되는 순
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 78878fa3578e4f3a33baec3806298282d3909d8d
 workflow-type: tm+mt
-source-wordcount: '1133'
+source-wordcount: '1108'
 ht-degree: 0%
 
 ---
 
 # 개체에 첨부된 사용자 지정 양식 관리
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 환경의 모든 고객과 프로덕션 환경의 고객 선택 그룹에 대해 사용할 수 있습니다.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 한 개체에 첨부된 사용자 지정 양식이 표시되는 순서를 업데이트하거나, 제거하거나, 여러 개체에 사용자 지정 양식이 표시되는 방식을 대량 편집할 수 있습니다.
 
@@ -101,7 +101,9 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 
 >[!NOTE]
 >
-><span class="preview">미리 보기 환경에서 프로젝트에서 사용자 지정 양식을 일괄적으로 관리하는 방법에 대한 자세한 내용은 문서를 참조하십시오 [프로젝트 편집](../../manage-work/projects/manage-projects/edit-projects.md)</span>.
+>사용자 지정 양식을 객체에 관리하는 것은 프로젝트를 제외한 모든 객체에 대해 동일합니다.
+>
+>프로젝트에 사용자 지정 양식을 대량으로 추가하는 방법에 대한 자세한 내용은 문서를 참조하십시오 [프로젝트 편집](../../manage-work/projects/manage-projects/edit-projects.md).
 
 여러 사용자 정의 양식이 적용된 개체를 벌크 편집하는 경우 사용자 정의 양식이 해당 개체에 표시되는 방식을 편집하고 사용자 정의 양식 간의 공통 필드를 편집할 수 있습니다.
 
