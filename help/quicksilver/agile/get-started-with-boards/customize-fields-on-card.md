@@ -5,21 +5,15 @@ title: 카드에 표시되는 필드를 사용자 정의합니다
 description: 필드를 비활성화하여 전체 카드 또는 압축된 보기에 표시되지 않도록 하거나 압축된 카드 보기에서 필드를 숨기면 카드에 표시되는 필드를 사용자 지정할 수 있습니다.
 author: Lisa
 feature: Agile
-source-git-commit: 88d0ce017401e7767ceeff9abc7a65986a07f0b9
+source-git-commit: 48dc1bcbaa5755888c45fdafbd6471c9ee073a45
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
 
 
 # 카드에 표시되는 필드를 사용자 정의합니다
-
-{{highlighted-preview}}
-
->[!NOTE]
->
->이 기능은 의 초기 기능 옵트인을 통해서만 사용할 수 있습니다. [!DNL Workfront] [!UICONTROL 보드]. 자세한 내용은 [Adobe Workfront 보드에 대한 초기 기능 옵트인](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 기본적으로 사용 가능한 모든 필드는 카드가 열려 있을 때 전체 보기에서, 보드의 압축된 카드 보기에서 카드에 표시됩니다. 표시할 필드를 다음과 같이 사용자 지정할 수 있습니다.
 
@@ -71,13 +65,13 @@ ht-degree: 0%
 1. 두 보기의 모든 필드를 표시하려면 [!UICONTROL **모든 필드를 기본값으로 복원**].
 1. 클릭 [!UICONTROL **구성 숨기기**] 를 클릭하여 구성 패널을 닫습니다.
 
-<div class="preview">
-
 ## 카드에 사용자 지정 필드 추가
+
+사용자 정의 필드는 연결된 카드에서 사용할 수 있습니다. 그것들은 기판의 응축된 보기가 아니라 전체 카드 보기에서만 보입니다.
 
 >[!NOTE]
 >
->사용자 지정 필드를 카드에 추가하면 카드의 데이터는 읽기 전용입니다. 또한 사용자 정의 필드는 연결된 카드에서만 사용할 수 있습니다.
+>사용자 지정 필드를 카드에 추가하면 카드의 데이터는 읽기 전용입니다.
 
 1. 보드 액세스 및 클릭 [!UICONTROL **구성**] 구성 패널을 열려면 다음을 수행하십시오.
 1. 확장 [!UICONTROL **카드**].
@@ -88,8 +82,16 @@ ht-degree: 0%
 
    ![사용자 지정 필드 검색](assets/boards-search-for-custom-field.png)
 
+   >[!NOTE]
+   >
+   >다음 필드 유형은 카드에 추가할 수 없습니다. Adobe XD, 이미지, PDF, 비디오.
+
 1. 필드 이름을 선택합니다.
+1. (선택 사항) **[!UICONTROL 필드 값]** 이 사용자 지정 필드를 다른 필드로 변경할 필드입니다.
+1. (선택 사항) **[!UICONTROL 필드 레이블]** 카드에 표시할 필드 이름으로 지정합니다.
+1. 변경을 마치면 를 클릭합니다 [!UICONTROL **필드 저장**].
 
-   사용자 지정 필드가 사용 가능한 필드 목록에 추가되며 기본적으로 활성화되어 있습니다. 의 단계에 따라 사용자 지정 필드를 비활성화하거나 숨길 수 있습니다 [카드 구성](customize-fields-on-card.md#configure-cards) 위의 섹션을 삭제하거나 보드에서 삭제합니다.
+   ![사용자 지정 필드 값 및 레이블](assets/save-custom-field-value-label.png)
 
-</div>
+   사용자 지정 필드가 사용 가능한 필드 목록에 추가되며 기본적으로 활성화되어 있습니다. 의 단계에 따라 사용자 지정 필드를 비활성화할 수 있습니다 [카드 구성](customize-fields-on-card.md#configure-cards) 위의 섹션에서 필드를 편집하거나 모든 카드에서 삭제합니다.
+
