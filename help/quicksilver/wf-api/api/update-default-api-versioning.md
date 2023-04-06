@@ -6,18 +6,14 @@ description: 기본 API 버전 관리를 사용하는 통합 업데이트
 author: Becky
 feature: Workfront API
 exl-id: ac394b41-63cb-481a-a858-30d8d7f840bb
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 2b9eacc9b2c8f499cdd1794a55879a56224051c8
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '632'
 ht-degree: 0%
 
 ---
 
 # 기본 API 버전 관리를 사용하는 통합 업데이트
-
-<!-- This article is going to need a complete revamp or to be removed-->
-
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
 
 Adobe에서는 2년마다 Adobe Workfront API의 새로운 버전을 릴리스합니다. 각 버전은 릴리스 후 3년 동안 지원되며, 버전은 사용 가능하지만 지원되지 않는 추가 연도 상태로 제공됩니다.
 
@@ -27,38 +23,16 @@ URI에서 API 버전을 지정하지 않는 통합은 자동으로 기본값으�
 >
 >조직에서 현재 기본 API를 사용하고 있는 경우 Workfront 관리자가 기본 API에 대한 추가 지침이 포함된 공지 센터 메시지를 수신했습니다.
 
-
-<!--
-Integrations that do not specify a version of the API in the URI are automatically routed to Default, which has been deprecated. In order for your Workfront integrations to be valid, you must specify a supported API version in your Workfront API requests.
--->
-
 API 요청에서 버전을 지정하는 방법에 대한 자세한 내용은 [통합에서 API 버전 지정](../../wf-api/api/specify-api-version-integrations.md).
 
 ## 기본 API를 사용할 때의 고려 사항
 
 Workfront 기본 API 작업 시 다음 사항을 고려하십시오.
 
-* 23.2 릴리스 이후 API의 기본 버전은 최신 버전으로 설정됩니다. 지정된 버전이 없는 모든 API 호출은 기본 버전을 사용합니다. Workfront이 새로운 버전의 API를 릴리스할 때마다 기본 버전이 최신 버전으로 업데이트됩니다. **따라서 새 버전의 Workfront API가 릴리스된 후에는 기본 버전을 사용하는 모든 API 호출을 확인하여 기능이 계속 지원되는지 확인해야 합니다**.
-* 조직에서 현재 더 이상 사용되지 않는 기본 API를 사용하는 경우 Workfront 관리자가 기본 API에 대한 추가 지침이 포함된 공지 센터 메시지를 수신했습니다.
-* <span class="preview">미리 보기 환경의 기본 API가 현재 최신 버전으로 설정되어 있습니다. 프로덕션 환경의 기본 API는 23.2 릴리스 이후 가장 최신 버전으로 설정됩니다.</span>
+* API의 기본 버전은 최신 버전입니다. 지정된 버전이 없는 모든 API 호출은 기본 버전을 사용합니다. Workfront이 새로운 버전의 API를 릴리스할 때마다 기본 버전이 최신 버전으로 업데이트됩니다. **따라서 새 버전의 Workfront API가 릴리스된 후에는 기본 버전을 사용하는 모든 API 호출을 확인하여 기능이 계속 지원되는지 확인해야 합니다**.
+* 조직에서 현재 더 이상 사용되지 않는 이전 기본 API를 사용하고 있는 경우 Workfront 관리자는 기본 API에 대한 추가 지침이 포함된 공지 센터 메시지를 수신했습니다.
 
 최신 버전의 API를 보려면 [API 버전 관리 및 지원 예약](../../wf-api/api/api-version-support-schedule.md).
-
-<!--
-
-## Deprecating Default
-
-In an effort to improve the Workfront API, we are in the process of removing older API versions that have exceeded our support window of three years. One of these versions is Version 2, to which Default is mapped. This version was released in 2010, and much of the logic supported in the Attask/Workfront application at that time either no longer exists or has substantially changed.
-
-We deprecated Default in July 2017, and we will no longer designate a specific version of the API to be the default version. Instead, all Workfront API requests must specify a specific API version.
-
->[!IMPORTANT]
->
-> By July 1, 2018 all of your Workfront integrations that use Default must be updated to call a specific supported API version. After that date, all of your Workfront API requests used by integrations that do not specify a version will fail.
-
-To learn about the Workfront deprecation cadence, see [API versioning and support schedule](../../wf-api/api/api-version-support-schedule.md).
-
--->
 
 ## 지원되는 API 버전으로 통합 업데이트
 
