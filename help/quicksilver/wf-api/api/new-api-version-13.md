@@ -6,7 +6,7 @@ description: Adobe Workfront은 2021년 4월 22일에 API 버전 13을 릴리스
 author: Becky
 feature: Workfront API
 exl-id: afbc986e-8b5c-40bc-9120-e8d34e0f7004
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 1ea7e1a0435e9d199c3d828723d11ce530a80540
 workflow-type: tm+mt
 source-wordcount: '1064'
 ht-degree: 2%
@@ -456,7 +456,7 @@ QueueDef 개체는 사용자가 문제를 해당 항목에 제출할 수 있도�
 
 ### UITemplate {#uitemplate}
 
-Adobe Workfront 관리자 또는 그룹 관리자는 템플릿을 만들어 Adobe Workfront의 레이아웃 요소를 사용자 지정할 수 있습니다. LayoutTemplate 개체는 새 Adobe Workfront 경험에만 해당됩니다.
+Adobe Workfront 관리자 또는 그룹 관리자는 템플릿을 만들어 Adobe Workfront의 레이아웃 요소를 사용자 지정할 수 있습니다. UITemplate 개체는 새로운 Adobe Workfront 환경에 따라 다릅니다.
 
 Adobe Workfront Classic의 레이아웃 템플릿을 나타내는 개체의 경우 [레이아웃 템플릿](#layouttemplate).
 

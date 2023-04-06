@@ -6,9 +6,9 @@ description: API 버전 관리 및 지원 예약
 author: Becky
 feature: Workfront API
 exl-id: b072704c-a34c-4a17-aca3-ab93a016dfc8
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: bcf8c8a5ce9cbaf596878b85aa134245e811d07d
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '226'
 ht-degree: 11%
 
 ---
@@ -33,6 +33,10 @@ Adobe Workfront은 새로운 API 버전을 정기적으로 출시하며, 일반�
   </tr> 
  </thead> 
  <tbody> 
+   <td>14</td> 
+   <td> <p>2023년 4월</p> <p>(23.2 릴리스 사용)</p> </td> 
+   <td> <p>**2026년 동안</p> <p>(26.2 릴리스 사용)</p> </td> 
+  </tr> 
   <tr> 
    <td>15</td> 
    <td>2022년 상반기</td> 
