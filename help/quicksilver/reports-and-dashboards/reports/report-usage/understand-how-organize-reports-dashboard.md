@@ -7,9 +7,9 @@ description: Adobe Workfront에서 보고서가 대시보드에 추가되었는�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce00c307-9e64-49f5-997b-f7fc461c960c
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: d738ef3f6642d5b1a646f58896575a2971bbc06a
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '639'
 ht-degree: 0%
 
 ---
@@ -62,10 +62,13 @@ Adobe Workfront에서 보고서가 대시보드에 추가되었는지 확인할 
 
 ## 보고서 목록 보기에 대시보드 정보 표시
 
+>[!WARNING]
+>
+>보고서 목록에 대시보드 열을 포함하면 특히 긴 보고서 목록의 경우 로드 시간이 크게 늘어날 수 있습니다.
+
 보고서 목록에 대한 대시보드 정보가 있는 보기를 만들려면,
 
 1. 을(를) 클릭합니다. **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png) Workfront의 오른쪽 위 모서리에서 을(를) 클릭하고 **보고서**.
-
 1. 보고서 목록에서 **보기** 드롭다운 메뉴
 1. 클릭 **새 보기**.
 1. 클릭 **열 추가**.

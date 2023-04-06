@@ -1,15 +1,11 @@
 ---
-content-type: reference
-navigation-topic: betas
 title: '''보고 캔버스 베타: 릴리스 활동'
 description: Adobe Workfront 보고 캔버스 베타에 대한 주간 릴리스 활동
-author: Nolan
-feature: Product Announcements
-exl-id: 41742569-d4bb-48c0-b0a1-f3af57a6c4e5
-source-git-commit: d649decb2875a3af4fd40c323a7836d4468bf04b
+hidefromtoc: true
+source-git-commit: 4d41779e2e93e40f295bcff2bbdc0c84ea290b41
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 0%
+source-wordcount: '543'
+ht-degree: 4%
 
 ---
 
@@ -77,3 +73,152 @@ ht-degree: 0%
 
 * #값! 행별로 계산을 수행할 수 없을 때 셀에 표시됩니다
 * 특정 데이터 유형을 필드 빌더에서 특정 함수로 끌어다 놓을 때 유효성 검사가 추가되었습니다
+
+## 계획된 기능
+
+보고 캔버스 개발에서는 보고서 작성을 간소화하기 위해 몇 가지 기능을 완전히 다시 디자인하고 처음부터 몇 가지 새로운 기능을 개발했습니다. 다음 표에서는 기존 보고 도구 및 현재 릴리스 상태에 비해 보고 캔버스의 주요 기능에 대해 설명합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <th>기능 설명</th> 
+   <th>이전 용어 </th> 
+   <th>보고 캔버스 용어</th> 
+   <th>상태</th> 
+  </tr> 
+  <tr> 
+   <td>보고서</td> 
+   <td>보고서</td> 
+   <td>보고 캔버스</td> 
+   <td>릴리스됨</td> 
+  </tr> 
+  <tr> 
+   <td>대시보드</td> 
+   <td>대시보드</td> 
+   <td>보고 캔버스</td> 
+   <td>릴리스됨</td> 
+  </tr> 
+  <tr> 
+   <td>표</td> 
+   <td>세부 사항 탭</td> 
+   <td>테이블 블록</td> 
+   <td>릴리스됨</td> 
+  </tr> 
+  <tr> 
+   <td>차트</td> 
+   <td>차트 탭</td> 
+   <td>시각화 블록</td> 
+   <td>릴리스됨</td> 
+  </tr> 
+  <tr> 
+   <td>부분합</td> 
+   <td>요약 탭</td> 
+   <td>KPI 시각화</td> 
+   <td>릴리스됨</td> 
+  </tr> 
+  <tr> 
+   <td>드릴 경로</td> 
+   <td>보고서 뷰어 모달</td> 
+   <td>보고서 뷰어 오버레이</td> 
+   <td>릴리스됨</td> 
+  </tr> 
+  <tr> 
+   <td>열</td> 
+   <td>보기 탭</td> 
+   <td>표 편집</td> 
+   <td>릴리스됨</td> 
+  </tr> 
+  <tr> 
+   <td>필터</td> 
+   <td>필터 탭</td> 
+   <td>표 편집</td> 
+   <td>릴리스됨</td> 
+  </tr> 
+  <tr> 
+   <td>그룹</td> 
+   <td>그룹 탭</td> 
+   <td>표 편집</td> 
+   <td>릴리스됨</td> 
+  </tr> 
+  <tr> 
+   <td>필드 구성<br>(합계 및 조건부 서식)</td> 
+   <td>보기 탭</td> 
+   <td>테이블 편집(선택한 열)</td> 
+   <td>릴리스됨</td> 
+  </tr> 
+  <tr> 
+   <td>열 크기 조정</td> 
+   <td>텍스트 모드</td> 
+   <td>테이블 편집(선택한 열)</td> 
+   <td>릴리스됨</td> 
+  </tr> 
+   <tr> 
+   <td>외부 콘텐츠</td> 
+   <td>외부 페이지</td> 
+   <td>웹 콘텐츠 블록</td> 
+   <td>릴리스됨</td> 
+  </tr> 
+   <tr> 
+   <td>내보내는 중</td> 
+   <td>보고서 작업</td> 
+   <td><strong>자세히</strong> 뷰어의 메뉴</td> 
+   <td>부분적으로 릴리즈됨</td> 
+  </tr> 
+  <tr> 
+   <td>열 공유</td> 
+   <td>텍스트 모드</td> 
+   <td>필드 빌더</td> 
+   <td>부분적으로 릴리즈됨</td> 
+  </tr> 
+  <tr> 
+   <td>계산된 열</td> 
+   <td>텍스트 모드</td> 
+   <td>필드 빌더</td> 
+   <td>부분적으로 릴리즈됨</td> 
+  </tr> 
+  <tr> 
+   <td>차트 스타일 지정</td> 
+   <td>차트 탭</td> 
+   <td>시각화 블록(스타일 탭)</td> 
+   <td>계획됨</td> 
+  </tr> 
+  <tr> 
+   <td>예약된 게재</td> 
+   <td>보고서 작업</td> 
+   <td><strong>자세히</strong> 뷰어의 메뉴</td> 
+   <td>계획됨</td> 
+  </tr> 
+  <tr> 
+   <td>보고서 액세스 권한 부여</td> 
+   <td>보고서 작업</td> 
+   <td><strong>자세히</strong> 뷰어의 메뉴</td> 
+   <td>계획됨</td> 
+  </tr> 
+  <tr> 
+   <td>인증되지 않은 대시보드 액세스</td> 
+   <td>대시보드 작업</td> 
+   <td><strong>자세히</strong> 뷰어의 메뉴</td> 
+   <td>계획됨</td> 
+  </tr> 
+  <tr> 
+   <td>보고서 데이터 편집</td> 
+   <td>인라인 편집</td> 
+   <td>요약 창</td> 
+   <td>계획됨</td> 
+  </tr> 
+  <tr> 
+   <td>페이지 필터링</td> 
+   <td>해당 없음</td> 
+   <td>캔버스 필터</td> 
+   <td>계획됨</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+>[!NOTE]
+>
+>여기에 나열된 기능은 계층형 제품 릴리스 구성의 일부로 릴리스됩니다. 이 베타에서 액세스할 수 있는 기능은 조직의 계획에 따라 전체 릴리스에서 사용할 수 없을 수 있습니다.
