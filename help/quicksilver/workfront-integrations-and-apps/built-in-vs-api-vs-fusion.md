@@ -7,16 +7,16 @@ title: Adobe Workfront 통합 방법
 description: 통합할 수 있습니다 [!DNL Adobe Workfront] 타사 애플리케이션에서 사용할 수 있습니다. 이러한 통합은 [!DNL Workfront] 조직의 요구 사항에 맞게 조정할 수 있습니다. 주어진 작업에 가장 유용한 통합에 따라 이러한 통합을 모두 사용하거나 사용할 수 있습니다.
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: bf13a7c9-eab3-4ae3-a060-8a422236122d
-source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
+source-git-commit: 328d3a8d16ace22100d86efc127874d7edd6cb6d
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '946'
 ht-degree: 0%
 
 ---
 
 # Adobe Workfront 통합 방법
 
-통합할 수 있습니다 [!DNL Adobe Workfront] 타사 애플리케이션에서 사용할 수 있습니다. 이러한 통합은 [!DNL Workfront] 조직의 요구 사항에 맞게 조정할 수 있습니다. 주어진 작업에 가장 유용한 통합에 따라 이러한 통합을 모두 사용하거나 사용할 수 있습니다.
+통합할 수 있습니다 [!DNL Adobe Workfront] 타사 애플리케이션과 기타 [!DNL Adobe] 제품. 이러한 통합은 [!DNL Workfront] 조직의 요구 사항에 맞게 조정할 수 있습니다. 주어진 작업에 가장 유용한 통합에 따라 이러한 통합을 모두 사용하거나 사용할 수 있습니다.
 
 ## 내장 통합
 

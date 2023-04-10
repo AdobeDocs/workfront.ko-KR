@@ -6,16 +6,16 @@ title: Adobe Workfront 내장 통합 개요
 description: 통합할 수 있습니다 [!DNL Adobe Workfront] 타사 애플리케이션에서 사용할 수 있습니다. 이러한 통합은 [!DNL Workfront] 조직의 요구 사항에 맞게 조정할 수 있습니다. 예를 들어 마케팅 업계에서 광고 작업자인 경우 Adobe Creative Cloud 추가 기능을 사용하여 자산을 Photoshop에서 Workfront으로 직접 내보낼 수 있습니다.
 feature: Workfront Integrations and Apps
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 5c5c198645006506cb4187196d5bffab72cd1d56
+source-git-commit: 328d3a8d16ace22100d86efc127874d7edd6cb6d
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Adobe Workfront 내장 통합 개요
 
-통합할 수 있습니다 [!DNL Adobe Workfront] 타사 애플리케이션에서 사용할 수 있습니다. 이러한 통합은 [!DNL Workfront] 조직의 요구 사항에 맞게 조정할 수 있습니다. 예를 들어 마케팅 업계에서 광고 작업자인 경우 Adobe Creative Cloud 추가 기능을 사용하여 자산을 Photoshop에서 Workfront으로 직접 내보낼 수 있습니다.
+통합할 수 있습니다 [!DNL Adobe Workfront] 타사 애플리케이션과 기타 [!DNL Adobe] 제품. 이러한 통합은 [!DNL Workfront] 조직의 요구 사항에 맞게 조정할 수 있습니다. 예를 들어 마케팅 업계에서 광고 작업자인 경우 [!DNL Adobe Workfront] 플러그인 [!DNL Creative Cloud] 자산을 Photoshop에서 Workfront으로 바로 내보낼 수 있는 애플리케이션입니다.
 
 사용자 [!DNL Workfront] 기본 제공 통합을 사용하려면 관리자가 먼저 이를 활성화하고 구성해야 합니다. 조직 내에서 사용되는 기본 제공 통합을 알아보려면 [!DNL Workfront] 관리자
 
