@@ -9,9 +9,9 @@ author: Becky, Caroline
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 57dc48ebecc4010f3dc08113878a7d5bb4d3ecc6
+source-git-commit: 5c5c198645006506cb4187196d5bffab72cd1d56
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '1056'
 ht-degree: 0%
 
 ---
@@ -82,6 +82,24 @@ Adobe Workfront을 타사 애플리케이션과 통합할 수 있습니다. 통�
   </tr> 
  </thead> 
  <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>Adobe Creative Cloud </p> <p> <img src="assets/creative-cloud-logo.png"> </p> </td> 
+   <td> 
+    <ul> 
+     <li>통합 [!DNL Workfront] 다음 Adobe Creative Cloud 응용 프로그램을 사용한 주석 및 승인: 
+     <ul>
+     <li>InDesign </li>
+     <li>Illustrator </li>
+     <li>Photoshop </li>
+     <li>XD </li>
+     <li>Premiere Pro </li>
+     <li>After Effects </li>
+     </ul>
+     <li><p>다운로드/설치 위치 <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe 교환</a>.</p></li></ul>
+     <p>자세한 내용 및 지침은 <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">설치  [!DNL Adobe Workfront] 플러그인 [!DNL Creative Cloud] 애플리케이션</a></p> 
+     </td>  <td> </td> 
+   <td> </td> 
+  </tr> 
   <tr> 
    <td> <p>[!DNL Box]</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 
    <td> 
@@ -277,9 +295,9 @@ Adobe Workfront을 타사 애플리케이션과 통합할 수 있습니다. 통�
 
    자세한 내용은 [[!DNL Adobe Workfront Fusion] 개요](../../workfront-fusion/get-started/workfront-fusion-overview.md).
 
-* Adobe Experience Manager Assets
-   [!DNL ]
-자세한 내용은 [구성 [!DNL Workfront] with [!DNL Adobe Experience Manager] 레거시 커넥터](../../administration-and-setup/configure-integrations/configure-workfront-aem.md).
+* [!DNL Adobe Experience Manager Assets]
+
+   자세한 내용은 [구성 [!DNL Workfront] with [!DNL Adobe Experience Manager] 레거시 커넥터](../../administration-and-setup/configure-integrations/configure-workfront-aem.md).
 
 ## 파트너 통합
 

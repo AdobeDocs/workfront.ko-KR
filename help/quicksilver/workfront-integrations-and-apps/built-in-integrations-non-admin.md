@@ -6,9 +6,9 @@ title: Adobe Workfront 내장 통합 개요
 description: 통합할 수 있습니다 [!DNL Adobe Workfront] 타사 애플리케이션에서 사용할 수 있습니다. 이러한 통합은 [!DNL Workfront] 조직의 요구 사항에 맞게 조정할 수 있습니다. 예를 들어 마케팅 업계에서 광고 작업자인 경우 Adobe Creative Cloud 추가 기능을 사용하여 자산을 Photoshop에서 Workfront으로 직접 내보낼 수 있습니다.
 feature: Workfront Integrations and Apps
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 04cf9d37c681398f5a0e2b9d7d45c0f8b93ab44b
+source-git-commit: 5c5c198645006506cb4187196d5bffab72cd1d56
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '512'
 ht-degree: 2%
 
 ---
@@ -28,12 +28,20 @@ ht-degree: 2%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>Adobe Creative Cloud </p> <p> <img src="assets/adobecclogo.png"> </p> </td> 
+   <td role="rowheader"> <p>Adobe Creative Cloud </p> <p> <img src="assets/creative-cloud-logo.png"> </p> </td> 
    <td> 
     <ul> 
-     <li>통합 [!DNL Workfront] InDesign, Illustrator 및 Photoshop을 사용한 주석 및 승인 </li> 
-     <li>Exchange Adobe 또는 수동으로 다운로드/설치</li> 
-    </ul> </td> 
+     <li>통합 [!DNL Workfront] 다음 Adobe Creative Cloud 응용 프로그램을 사용한 주석 및 승인: 
+     <ul>
+     <li>InDesign </li>
+     <li>Illustrator </li>
+     <li>Photoshop </li>
+     <li>XD </li>
+     <li>Premiere Pro </li>
+     <li>After Effects </li>
+     </ul>
+     <li><p>다운로드/설치 위치 <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe 교환</a>.</p></li></ul>
+     <p>자세한 내용 및 지침은 <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">설치  [!DNL Adobe Workfront] 플러그인 [!DNL Creative Cloud] 애플리케이션</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Box</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 
