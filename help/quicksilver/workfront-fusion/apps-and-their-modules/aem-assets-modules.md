@@ -10,7 +10,7 @@ description: 사용 [!DNL Adobe Experience Manager Assets] 커넥터 [!DNL Adobe
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: c978a0eed86e399824d5b383c6db004deb0ec0ce
 workflow-type: tm+mt
 source-wordcount: '1496'
 ht-degree: 0%
@@ -71,7 +71,7 @@ ht-degree: 0%
 
       이 구성에는 [!DNL Adobe Admin Console].
 
-   * **[!DNL AEM Assets Basic]**
+   * **[!DNL AEM Assets Basic]([!DNL Adobe Managed Services])**
 
       이 구성에는 사용자 이름과 암호가 필요합니다.
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 
    대상 [!DNL AEM Assets as a Cloud Service]를 참조하십시오. [연결 구성 [!DNL AEM Assets as a Cloud Service]](#configure-the-connection-for-aem-assets-as-a-cloud-service).
 
-   대상 [!UICONTROL AEM Assets Basic]를 참조하십시오. [연결 구성 [!UICONTROL AEM Assets Basic]](#configure-the-connection-for-aem-assets-basic).
+   대상 [!UICONTROL AEM Assets Basic] ([!DNL Adobe Managed Services]). [연결 구성 [!UICONTROL AEM Assets Basic]](#configure-the-connection-for-aem-assets-basic).
 
 4. 클릭 **[!UICONTROL 계속]** 연결을 저장하고 모듈로 돌아가려면 를 클릭합니다.
 
@@ -135,7 +135,7 @@ ht-degree: 0%
       </table>
 
 
-### 연결 구성 [!DNL AEM Assets Basic]
+### 연결 구성 [!DNL AEM Assets Basic] ([!DNL Adobe Managed Services])
 
 <table style="table-layout:auto"> 
         <col/>
