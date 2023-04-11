@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: 사용자 기반 와일드카드를 사용하여 보고서를 일반화합니다
 description: 특정 보고 요소를 작성할 때 특정 정보 대신 와일드카드를 사용하여 보고서를 일반화할 수 있습니다.
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 216e2869-b4f8-4cc7-9497-a12ebe00fe49
-source-git-commit: 442e0b8fde9e4acaa2686ccd292fb003f72be623
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%

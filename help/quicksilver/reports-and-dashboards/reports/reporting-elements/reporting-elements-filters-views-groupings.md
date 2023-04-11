@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: '''보고 요소: 필터, 보기 및 그룹화'
 description: 모든 목록 및 보고서에 포함해야 하는 기본 요소는 필터, 보기 및 그룹입니다. 각 요소는 보고서 내에서 다른 정보를 제공합니다.
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 5697905e-42c0-403b-85d4-798a1a3a2e7f
-source-git-commit: 442e0b8fde9e4acaa2686ccd292fb003f72be623
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 0%

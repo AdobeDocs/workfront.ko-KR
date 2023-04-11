@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: 와일드카드 필터 변수
 description: 필터에 와일드카드를 사용하여 특정 사용자 또는 날짜 대신 일반 사용자 또는 날짜를 참조할 수 있습니다. 이러한 방식으로 빌드하는 요소는 동적이며 결과는 요소가 사용되는 컨텍스트에 따라 변경됩니다.
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: 442e0b8fde9e4acaa2686ccd292fb003f72be623
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
-source-wordcount: '1456'
-ht-degree: 2%
+source-wordcount: '1447'
+ht-degree: 1%
 
 ---
 
@@ -94,21 +94,21 @@ Workfront 날짜 기반 와일드카드 옵션은 날짜 필터 속성과 함께
 | **m** | 개월 |
 | **y** | 년 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 | **구분자** |  |
 |---|---|
 | **b** | 주 시작(일요일) |
 | **e** | 주 종료(토요일) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 | **연산자** |  |
 |---|---|
 | **+** | 와일드카드 값에 값 추가 |
 | **-** | 와일드카드 값에서 값 빼기 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 예를 들어, 와일드카드 `$$TODAYb+2w` 는 &quot;이번 주 초부터 2주&quot;를 의미합니다. 와일드카드 *`$$NOW+2h` 는 &quot;지금부터 2시간&quot;을 의미합니다.
 

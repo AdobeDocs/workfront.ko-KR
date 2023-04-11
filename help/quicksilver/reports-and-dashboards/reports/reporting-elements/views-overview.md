@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Adobe Workfront의 보기 개요
 description: 목록이나 보고서의 보기를 관리하여 목록이나 보고서에 표시되는 정보 유형을 사용자 지정할 수 있습니다. 뷰에 객체와 해당 속성을 표시할 수 있습니다.
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 18016417-e24d-4797-9422-00915db47bb9
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 0%

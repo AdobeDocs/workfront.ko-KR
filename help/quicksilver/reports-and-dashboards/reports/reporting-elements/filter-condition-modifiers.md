@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: 필터 및 조건 수정자
 description: 필터 및 조건 수정자를 사용하여 필터를 빌드하고 보고서 결과 서식을 위한 조건을 설정할 수 있습니다.
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
-source-git-commit: 442e0b8fde9e4acaa2686ccd292fb003f72be623
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
 source-wordcount: '1556'
 ht-degree: 1%
@@ -66,7 +66,7 @@ ht-degree: 1%
    <td> <p>필터링하는 필드가 존재하며 null 이외의 값을 포함합니다.</p> <p>이 수정자는 텍스트 모드 필터에서만 사용할 수 있습니다. 필터의 텍스트 모드에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">텍스트 모드를 사용하여 필터 편집</a>.</p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p><strong>포함:</strong> </p> </td> 
+   <td> <p><strong>포함</strong> </p> </td> 
    <td> <p><strong>ciconcontains</strong> </p> </td> 
    <td> <p>(대/소문자 구분 안 함) 대/소문자를 구분하지 않는 버전 <strong>다음 포함</strong>. 예: "ciconcontains inf"는 "Inf" 또는 "inf"를 포함하는 모든 값을 캡처합니다.</p> <p> <p>참고: Adobe Workfront은 각 필터 문에 대해 지정하는 정확한 단어 또는 구를 검색합니다. 예를 들어 이름에 "새 프로젝트" 구문을 포함하는 프로젝트를 검색하는 경우 Workfront에 이름에 "신규", "프로젝트" 또는 "새 기본 프로젝트"만 있는 프로젝트가 표시되지 않습니다. 이 필터는 이름에 "새 프로젝트" 구문을 정확히 사용하는 프로젝트만 찾습니다.</p> </p> </td> 
   </tr> 

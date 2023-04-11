@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Adobe Workfront에서 보기 만들기 또는 편집
 description: 뷰를 사용하여 화면에 표시하는 정보의 유형을 사용자 정의할 수 있습니다. Adobe Workfront에서는 여러 유형의 보기를 사용할 수 있습니다.
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 442e0b8fde9e4acaa2686ccd292fb003f72be623
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
 source-wordcount: '1748'
 ht-degree: 1%
