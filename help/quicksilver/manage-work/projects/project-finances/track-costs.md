@@ -7,9 +7,9 @@ description: Adobe Workfront에서 프로젝트, 작업 및 문제에 대한 비
 author: Alina
 feature: Work Management
 exl-id: df3090ae-9721-4e9b-84b4-315890619801
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b4bb6306b7fa088823fba8ef5614aae8551ce02c
 workflow-type: tm+mt
-source-wordcount: '2364'
+source-wordcount: '2372'
 ht-degree: 1%
 
 ---
@@ -113,9 +113,6 @@ Workfront은 프로젝트의 각 개별 태스크에 대한 계획 원가 및 �
 Planned Project Cost = Planned Labor Cost of all tasks + Planned Expense cost of all tasks + Planned Expense Cost of the project + Fixed Cost of the project
 ```
 
-* 
-   * 
-
 예를 들어, 작업의 비용 탭에 다음과 같은 비용이 있습니다. 100달러의 마케팅 비용과 50달러의 관리 비용. 재무 탭에서 사용자 시간별 원가 유형을 선택합니다. 사용자에게 작업이 할당되고 사용자의 시간당 비율은 $15입니다. 사용자는 이 작업에서 5시간 작업에 할당됩니다. 프로젝트의 비용 탭에는 컨설팅이라는 비용에 대해 100달러의 계획 비용이 있습니다. 프로젝트에 대해 200달러의 고정 비용이 있습니다.
 
 프로젝트의 계획 비용은 다음과 같이 계산됩니다.
@@ -148,17 +145,15 @@ $100 (Consulting Expense) + $100 (Marketing Expense) + $50 (Administrative Expen
 실제 원가는 다음 공식을 사용하여 계산됩니다.
 
 ```
-Actual Project Cost = Actual Labor Cost of all tasks + Actual Expense Cost of all tasks + Actual Labor Cost of the project + Actual Expense Cost of the project
+Actual Project Cost = Actual Labor Cost of all tasks + Actual Expense Cost of all tasks + Actual Labor Cost of the project + Actual Expense Cost of the project + Fixed Cost of the project
 ```
 
-.
-
-예를 들어, 작업의 비용 탭에 다음과 같은 비용이 있습니다. 실제 원가가 110달러이고 실제 원가가 40달러인 관리 비용이 있는 마케팅 비용. 역할 시간별 원가 유형을 선택하고 작업에 컨설턴트 작업 역할을 지정합니다. 컨설턴트 작업 역할의 비율은 시간당 15달러이고 컨설턴트 작업 역할에 대해 작업에 로그온하는 6시간이 있습니다. 또한 프로젝트(비용 탭)와 관련된 컨설팅 비용이 있으며 실제 비용은 $100이며 사용자 프로필에서 시간당 비용이 $20인 사용자가 프로젝트에서 10시간 동안 기록됩니다.
+예를 들어, 작업의 비용 탭에 다음과 같은 비용이 있습니다. 실제 원가가 110달러이고 실제 원가가 40달러인 관리 비용이 있는 마케팅 비용. 역할 시간별 원가 유형을 선택하고 작업에 컨설턴트 작업 역할을 지정합니다. 컨설턴트 작업 역할의 비율은 시간당 15달러이고 컨설턴트 작업 역할에 대해 작업에 로그온하는 6시간이 있습니다. 프로젝트(비용 탭)와 연관된 컨설팅 비용이 있으며 실제 비용은 $100이며 사용자 프로필에서 시간당 비용이 $20인 사용자가 프로젝트에서 10시간 동안 기록됩니다. 프로젝트에 대해 200달러의 고정 비용이 있습니다.
 
 프로젝트의 실제 비용은 다음과 같이 계산됩니다.
 
 ```
-$100 (Consulting Expense) + $110 (Marketing Expense) + $40 (Administrative Expense) +$15 (Hourly Rate)*6 (Actual Hours Logged) + $20 (Cost per Hour rate for the user logging time on the project)*10 (hours the user logs on the project)= $540
+$100 (Consulting Expense) + $110 (Marketing Expense) + $40 (Administrative Expense) +$15 (Hourly Rate)*6 (Actual Hours Logged) + $20 (Cost per Hour rate for the user logging time on the project)*10 (hours the user logs on the project) + $200 (Fixed Cost)= $740
 ```
 
 >[!NOTE]
