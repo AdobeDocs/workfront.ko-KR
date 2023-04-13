@@ -7,9 +7,9 @@ description: 애드혹 및 연결된 카드를 사용하여 보드를 만들 때
 author: Lisa
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
+source-git-commit: 4df80a89134ce63903d3d83813fd4ca7c857cd00
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
@@ -41,4 +41,5 @@ ht-degree: 0%
 * [워크플로우 관리](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
 * [카드 목록 사용](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
 * [워크플로우에서 반복 만들기](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
+* [작업 스트림 보드에서 백로그 구성](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-backlog-workstream-board.md)
 * [반복 지표 검토](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)
