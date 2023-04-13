@@ -2,9 +2,9 @@
 user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 feature-set: Workfront
-source-git-commit: 4df80a89134ce63903d3d83813fd4ca7c857cd00
+source-git-commit: 5e049780167b5acf680090e88164d85f661a15a5
 workflow-type: tm+mt
-source-wordcount: '12867'
+source-wordcount: '12875'
 ht-degree: 1%
 
 ---
@@ -2149,6 +2149,7 @@ ht-degree: 1%
    * G Suite용 Adobe Workfront {#workfront-for-g-suite}
       * [G Suite용 Adobe Workfront](workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md)
       * [G Suite용 Adobe Workfront 설치](workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)
+      * [G Suite용 Workfront의 개인 정보 및 권한](workfront-integrations-and-apps/workfront-for-g-suite/privacy-and-permissions-in-g-suite.md)
       * [G Suite용 Adobe Workfront 로그인 및 체크아웃](workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md)
       * [G Suite에서 Adobe Workfront 홈 컨텐츠에 액세스](workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md)
       * [G Suite에서 Adobe Workfront 개체 업데이트](workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md)

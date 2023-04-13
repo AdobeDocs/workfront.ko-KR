@@ -8,9 +8,9 @@ description: Adobe Workfront for G Suite를 사용하면 가장 중요한 작업
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: dfced3e9-0338-446e-bf70-fa5d07f3ac1f
-source-git-commit: 66b7d2fa6d6ee2e1c7f096382b183c7ea4e479c4
+source-git-commit: 0862af846ca77c33132ec631cf1e3eae253d3cd8
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,7 @@ ht-degree: 0%
 이러한 도움말 문서를 통해 다음을 시작할 수 있습니다 [!DNL Workfront for G Suite]:
 
 * [설치 [!DNL Adobe Workfront for G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)
+* [G Suite용 Workfront의 개인 정보 및 권한](../../workfront-integrations-and-apps/workfront-for-g-suite/privacy-and-permissions-in-g-suite.md)
 * [로그인 및 종료 [!DNL Adobe Workfront for G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md)
 
 다음은 관리 방법을 설명합니다 [!DNL Workfront] 종료하지 않고 객체 [!DNL G Suite]:
