@@ -6,9 +6,9 @@ description: 다음 알림은 사용자와 관련된 작업 항목에서 발생�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 473e1760-f85a-4622-beff-9431046d655e
-source-git-commit: f3ba39e02d690dd3a0d50ecdb22af0c12a3d4ffb
+source-git-commit: 2af2a1f7d1a4d0b06cf4e7bfd2b9997ff8b9a6bf
 workflow-type: tm+mt
-source-wordcount: '1546'
+source-wordcount: '1534'
 ht-degree: 4%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 4%
    <td><strong>[!UICONTROL Daily]</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>누군가 내 작업 항목 중 하나에 댓글을 남겼습니다.</strong> </p> <p>작업 항목의 할당자는 사용자가 작업 항목에 업데이트를 추가할 때마다 전자 메일 알림을 받습니다. 단, 업데이트를 추가하는 사용자가 할당자이기도 합니다. </p> <p>요청에 댓글이 게시되면 문제 주요 연락처에 이메일로 보냅니다.</p> <p>문제에 대한 기본 연락처는 댓글을 게시한 사용자도 문제에 대한 기본 연락처가 아닌 한, 요청에 댓글을 게시하면 이메일 알림을 받습니다.</p> <p>주석에 직접 포함된 모든 사용자도 이메일 알림을 받습니다.</p> <p>프로젝트 상태가 [!UICONTROL Current]인 경우에만 알림이 전송됩니다.</p> <p>인스턴트 알림 이메일의 제목은 다음과 같습니다. <em>[!UICONTROL Comment on] &lt;work item="" name=""&gt; on &lt;project name="" ref="" work="" item="" reference="" number=""&gt;)</em></p> <p> 일별 다이제스트 알림의 주제는 다음과 같습니다.<em> [!UICONTROL Digest of Communication] &lt;date of="" daily="" digest=""&gt;</em></p> </td> 
+   <td> <p><strong>누군가 내 작업 항목 중 하나에 댓글을 남겼습니다.</strong> </p> <p>작업 항목의 할당자는 사용자가 작업 항목에 업데이트를 추가할 때마다 전자 메일 알림을 받습니다. 단, 업데이트를 추가하는 사용자가 할당자이기도 합니다. </p> <p>요청에 댓글이 게시되면 문제 주요 연락처에 이메일로 보냅니다.</p> <p>문제에 대한 기본 연락처는 댓글을 게시한 사용자도 문제에 대한 기본 연락처가 아닌 한, 요청에 댓글을 게시하면 이메일 알림을 받습니다.</p> <p>주석에 직접 포함된 모든 사용자도 이메일 알림을 받습니다.</p> <p>인스턴트 알림 이메일의 제목은 다음과 같습니다. <em>[!UICONTROL Comment on] &lt;work item="" name=""&gt; on &lt;project name="" ref="" work="" item="" reference="" number=""&gt;)</em></p> <p> 일별 다이제스트 알림의 주제는 다음과 같습니다.<em> [!UICONTROL Digest of Communication] &lt;date of="" daily="" digest=""&gt;</em></p> </td> 
    <td> 작업 항목 이름<br>프로젝트 이름<br>작업 항목 참조 번호<br>작업 항목에 주석을 표시한 사용자의 이름입니다<br>작업 항목에 대한 설명 텍스트<br>댓글을 작성한 날짜 및 시간<br>*받은 총 댓글 수<br>*각 개체에 대해 받은 댓글 수<br>*프로젝트 이름<br>*<strong>[!UICONTROL 모든 알림 보기]</strong> 버튼<br>*일별 다이제스트 날짜 </td> 
    <td><strong>일별</strong> </td> 
   </tr> 
