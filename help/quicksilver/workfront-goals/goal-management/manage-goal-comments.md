@@ -6,9 +6,9 @@ description: Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
@@ -170,6 +170,11 @@ Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석을 추가할
 
 1. (선택 사항) **자세히** 메뉴 ![](assets/more-icon.png) 주석 오른쪽에 있는 를 클릭한 다음 **삭제** 추가한 설명을 삭제하려면
 1. (선택 사항) **회신** 기존 주석에 응답하려면 위의 5~9단계를 수행합니다. <!--insure this stays accurate-->
+1. (조건부 및 선택 사항) 다른 사용자가 업데이트 섹션에서 표시 영역 외부에 표시되는 주석을 추가한 경우 **보기** 파란색 내부 **새 댓글 배너** 화면 하단에 이러한 설명을 표시합니다.
+
+   ![](assets/blue-new-comments-banner-with-view-button.png)
+
+   화면 하단에 추가 주석이 표시됩니다.
 1. (선택 사항) **좋아요** 아이콘![](assets/like-icon.png) 다른 사람이 추가한 설명을 좋아합니다. 아이콘이 좋아요 수로 업데이트됩니다.
 1. (선택 사항) 업데이트에 리치 텍스트 서식을 추가하려면 입력할 때 리치 텍스트 도구 모음의 모든 속성을 사용합니다. 자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (선택 사항) **시스템 활동** 탭에서 시스템에서 로그된 업데이트를 볼 수 있습니다. 목표가 업데이트되면 Workfront에서는 해당 업데이트에 대한 메모를 생성하여 시스템 활동 탭에 표시합니다. 또한 Workfront은 결과, 활동 또는 프로젝트가 목표에 추가되거나 업데이트될 때 시스템 업데이트를 기록합니다. <!--ensure the casing on the tab has not changed-->

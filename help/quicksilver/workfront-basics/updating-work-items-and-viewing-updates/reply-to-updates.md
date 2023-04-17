@@ -6,9 +6,9 @@ description: 작업 개체에 대한 업데이트에 추가하거나 응답하�
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
 workflow-type: tm+mt
-source-wordcount: '1120'
+source-wordcount: '1114'
 ht-degree: 1%
 
 ---
@@ -106,7 +106,7 @@ ht-degree: 1%
 
    맨 아래에서 대화에 적극적으로 참여하는 사용자를 볼 수 있습니다 **새 댓글** 추가 또는 더 이상 관련이 없는 항목을 제거할 수 있습니다. 이러한 사용자는 개체를 구독한 사용자와 함께 개체에 대해 업데이트나 응답이 있을 때마다 알림을 받습니다. 더 많은 사용자에게 태그를 지정하여 응답에 포함할 수도 있습니다.  더 많은 사용자에게 태그를 지정하려면 [업데이트에 다른 사용자에게 태그 지정](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
-1. 회신 입력을 시작하고 리치 텍스트 도구 모음에서 추가 옵션을 사용합니다. 리치 텍스트 사용에 대한 자세한 내용은 의 &quot;Workfront 업데이트에서 리치 텍스트 사용&quot; 섹션을 참조하십시오. [작업 업데이트](../updating-work-items-and-viewing-updates/update-work.md).
+1. 회신 입력을 시작하고 리치 텍스트 도구 모음에서 추가 옵션을 사용합니다. 리치 텍스트 사용 또는 기타 업데이트 기능에 대한 자세한 내용은 [작업 업데이트](../updating-work-items-and-viewing-updates/update-work.md).
 
 1. 클릭 **제출** 을 입력하여 응답을 저장합니다.
 

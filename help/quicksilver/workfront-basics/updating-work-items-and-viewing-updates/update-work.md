@@ -6,9 +6,9 @@ description: Adobe Workfront 개체(프로젝트, 작업 또는 문제)에 업�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
 workflow-type: tm+mt
-source-wordcount: '2732'
+source-wordcount: '2814'
 ht-degree: 1%
 
 ---
@@ -233,6 +233,17 @@ drafted for P&P release:
    >   원본 업데이트를 제출할 때만 사용자에게 업데이트를 알리는 이메일이 생성됩니다. 업데이트를 편집한 후에는 이메일이 생성되지 않습니다.
 
 1. (선택 사항) **회신** 기존 주석에 응답하려면 위의 4-7단계를 수행합니다. <!--(**************insure this stays accurate***********)-->. 업데이트에 응답하는 방법에 대한 자세한 내용은 [업데이트에 회신](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+1. (조건부 및 선택 사항) 다른 사용자가 업데이트 섹션에서 표시 영역 외부에 표시되는 주석을 추가한 경우 **보기** 파란색 내부 **새 댓글 배너** 화면 하단에 이러한 설명을 표시합니다.
+
+   ![](assets/blue-new-comments-banner-with-view-button.png)
+
+   화면 하단에 추가 주석이 표시됩니다.
+
+   >[!NOTE]
+   >
+   >   새 업데이트를 입력한 사용자와 현재 업데이트 섹션을 보고 있는 사용자가 모두 새 주석 경험을 사용하는 경우에만 &quot;새 주석&quot; 표시기와 &quot;보기&quot; 단추가 표시됩니다.
+
+
 1. (선택 사항) **좋아요** 아이콘![](assets/like-icon.png). 아이콘이 좋아요 수로 업데이트됩니다.
 1. (조건부 및 선택 사항) 댓글에 추가 사용자를 포함시킨 경우 업데이트에 포함된 멤버 수를 클릭하여 입력한 댓글이 공유되는 엔티티 목록을 표시합니다.
 
