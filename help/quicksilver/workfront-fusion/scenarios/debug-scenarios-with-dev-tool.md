@@ -7,9 +7,9 @@ description: Adobe Workfront Fusion DevTool을 사용하면 시나리오를 이�
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: 3d5b9e178cc3222523b558e3c6717ce54f322ff9
+source-git-commit: c7946e975c82f54c1a20e716f73d0cf8053ee1a6
 workflow-type: tm+mt
-source-wordcount: '1659'
+source-wordcount: '1622'
 ht-degree: 0%
 
 ---
@@ -51,17 +51,28 @@ ht-degree: 0%
 
 ## 설치 [!DNL Chrome] 개발 도구 확장
 
-를 사용하려면 [!DNL Workfront Fusion] DevTool을 먼저 설치해야 합니다.
+<!--
+To use the [!DNL Workfront Fusion] DevTool, you first need to install it.
 
-1. 클릭 [이 링크](assets/workfront-fusion-devtool-2023-feb.zip) 확장을 다운로드하려면 다음을 수행하십시오.
-1. 파일이 다운로드되면 선택한 폴더에 추출합니다.
-1. 에서 탭을 엽니다. [!DNL Chrome]
-1. 탭의 검색 막대에서 을 입력합니다. `chrome://extensions`.
-1. 을(를) 클릭합니다. **[!UICONTROL 개발자 모드]** 화면의 오른쪽 상단에서 토글하여 개발자 모드를 활성화합니다. 오른쪽으로 전환하면 개발자 모드가 활성화됩니다.
-1. 클릭 **[!UICONTROL 압축을 푼 로드]**.
-1. DevTool이 포함된 폴더(2단계에서 파일을 추출한 폴더)를 선택합니다.
+1. Click [this link](assets/workfront-fusion-devtool-2023-feb.zip) to download the extension.
+1. When the files have downloaded, extract them to a folder of your choice.
+1. Open a tab in [!DNL Chrome]
+1. In the search bar of the tab, enter `chrome://extensions`.
+1. Click the **[!UICONTROL Developer mode]** toggle at the upper-right of the screen to enable Developer mode. If the toggle to the right, developer mode is enabled.
+1. Click **[!UICONTROL Load unpacked]**.
+1. Select the folder containing the DevTool (where you extracted the files in step 2).
 
-   압축을 풀면 개발 도구가 다른 Chrome 확장 프로그램 중에 표시됩니다.
+   Once unpacked, the DevTool appears among your other Chrome extensions.
+   -->
+
+을(를) 추가할 수 있습니다 [!DNL Workfront Fusion] 개발 도구 대상 [!DNL Chrome] 사용 [!UICONTROL [!DNL Chrome] 웹 스토어].
+
+1. 클릭 [이 링크](https://chrome.google.com/webstore/detail/workfront-fusion-devtool/hkimbmkkmmejdnhbhoaefggkpkndfjnn/related) 로 이동 [!DNL Workfront Fusion] 의 개발 도구 [!UICONTROL [!DNL Chrome] 웹 스토어].
+1. 클릭 [!UICONTROL 추가 대상 [!DNL Chrome]].
+1. 열리는 창에서 권한을 검사합니다. 사용 권한에 동의하는 경우 [!UICONTROL 확장 추가].
+
+다음 [!DNL Workfront Fusion] 개발 도구 확장이 [!DNL Chrome] 확장.
+
 
 ## 을(를) 찾습니다 [!DNL Workfront Fusion] 개발 도구
 
