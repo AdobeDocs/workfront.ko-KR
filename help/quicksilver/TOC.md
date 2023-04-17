@@ -2,10 +2,10 @@
 user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 feature-set: Workfront
-source-git-commit: 06e5f4eb275548c5f1d2740632963a0c2fee48ac
+source-git-commit: 4b396508c85758aa7efeca9e18cdbd204b06146f
 workflow-type: tm+mt
-source-wordcount: '12880'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,6 +18,10 @@ ht-degree: 1%
       * [제품 릴리스 개요](product-announcements/product-releases/product-releases.md)
       * [Adobe Workfront 릴리스 일정 및 프로세스](product-announcements/product-releases/workfront-release-schedule.md)
       * [Adobe Workfront 분기별 릴리스 준비](product-announcements/product-releases/release-readiness.md)
+      * 23.3 릴리스 {#release-23-3}
+         * [23.3 릴리스 개요](product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)
+         * [23.3 릴리스 기간 동안 업데이트 확인 및 감지](product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
+         * [2023년 4월 17일의 23.3 릴리스 활동 주](product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md)
       * 23.2 릴리스 {#release-23-2}
          * [23.2 릴리스 개요](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
          * [23.2 관리자 개선 사항](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)
