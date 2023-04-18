@@ -7,9 +7,9 @@ description: 관리자는 다른 사람이 만든 템플릿을 보고, 수정하
 author: Becky
 feature: Workfront Fusion
 exl-id: 63c14183-0d22-44f3-87e5-c311cfbf5540
-source-git-commit: 59941ea1ce523a0d1036138a83f771b058049b34
+source-git-commit: bcca026e193e66cfb92ab9a0fb1aaf1eeb6892fb
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '578'
 ht-degree: 0%
 
 ---
@@ -99,4 +99,4 @@ ht-degree: 0%
 
 관리자는 시나리오를 템플릿으로 복제할 수 있습니다.
 
-템플릿으로 시나리오를 복제하는 방법에 대한 지침은 [에서 새 템플릿 만들기 [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md#create)in [에서 새 템플릿 만들기 [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md)
+템플릿으로 시나리오를 복제하는 방법에 대한 지침은 [시나리오에서 템플릿 만들기](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md#create-a-template-from-a-scenario) in [에서 새 템플릿 만들기 [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md)

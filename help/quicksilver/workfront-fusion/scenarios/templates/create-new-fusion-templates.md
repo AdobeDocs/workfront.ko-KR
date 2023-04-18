@@ -7,9 +7,9 @@ description: 에서 새 시나리오 템플릿을 만들 수 있습니다 [!DNL 
 author: Becky
 feature: Workfront Fusion
 exl-id: fdfa509c-30c6-431e-89f3-a4bf50261e8a
-source-git-commit: fcaa2136310cad8ef478020a9bae34bbe5520c6d
+source-git-commit: 612de6a98965552da6d534d9d2536237a96f7715
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -55,6 +55,13 @@ ht-degree: 0%
 
 ## 새 템플릿 만들기
 
+시나리오 작성과 유사한 프로세스에서 템플릿을 작성할 수 있습니다. Fusion 관리자는 기존 시나리오에서 템플릿을 생성할 수도 있습니다.
+
+* [템플릿 작성](#build-a-template)
+* [시나리오에서 템플릿 만들기](#create-a-template-from-a-scenario)
+
+### 템플릿 작성
+
 1. 클릭 **[!UICONTROL 템플릿]** ![](assets/fusion-template-icon.png) 왼쪽 탐색 패널
 1. 클릭 **[!UICONTROL 새 템플릿 만들기]** 오른쪽 상단 모서리에서
 1. (선택 사항) 기본값을 대체하여 템플릿 이름을 변경합니다 **[!UICONTROL 새 템플릿 이름]** 왼쪽 위 모서리에서
@@ -81,6 +88,36 @@ ht-degree: 0%
 >[!NOTE]
 >
 >템플릿을 저장하면 모든 팀 구성원이 템플릿을 볼 수 있습니다. 팀 외부에서 템플릿에 액세스할 수 있게 하려면 해당 템플릿을 게시한 다음 공유 링크를 사용하거나 관리자에게 템플릿을 승인하고 게시하도록 요청해야 합니다.
+
+### 시나리오에서 템플릿 만들기
+
+>[!NOTE]
+>
+>시나리오에서 템플릿을 만들려면 Fusion 관리자여야 합니다.
+
+1. 시나리오를 만들 시나리오에 대한 시나리오 세부 정보 페이지를 엽니다.
+1. 을(를) 클릭합니다. **관리** 페이지의 오른쪽 위 모서리 근처에 있는 드롭다운.
+1. 선택 **템플릿으로 복제**.
+
+   시나리오가 새 템플릿 페이지에 복사됩니다.
+1. (선택 사항) 기본값을 대체하여 템플릿 이름을 변경합니다 **[!UICONTROL 새 템플릿 이름]** 왼쪽 위 모서리에서
+1. (선택 사항) 템플릿의 언어를 변경하려면 **[!UICONTROL 템플릿 설정]** ![](assets/fusion-scenario-settings-icon.png) 언어 드롭다운에서 언어를 선택합니다.
+
+   >[!IMPORTANT]
+   >
+   >언어 선택 항목은 시스템 설정에서 사용할 수 있는 언어에 해당하며 공개 템플릿의 이름과 해당 설명만 다룹니다. 템플릿을 저장한 후에는 템플릿 언어를 변경할 수 없습니다.
+
+1. (선택 사항) 템플릿에 대한 설명을 입력하려면 **[!UICONTROL 템플릿 설정]** ![](assets/fusion-scenario-settings-icon.png) 설명을 입력합니다.
+1. 표준 시나리오를 편집할 때와 동일한 방법으로 앱, 모듈 및 도구를 편집합니다.
+
+   모듈에 상황별 도움말을 추가하려면 다음을 참조하십시오 [설정 [!UICONTROL 마법사] 기능](#set-up-wizard-functionality) 참조하십시오.
+
+   >[!NOTE]
+   >
+   >템플릿에 연결, 자격 증명 또는 기타 개인 정보 구분 정보를 추가해야 하는 모듈이 포함되어 있으면 이 정보가 템플릿 사용자와 공유되지 않습니다.
+
+1. (선택 사항) **[!UICONTROL 한 번 실행]** 템플릿을 테스트하려면 다음을 수행하십시오.
+1. 을(를) 클릭합니다. **[!UICONTROL 저장]** 아이콘 ![](assets/save-icon.png).
 
 ## 설정 [!UICONTROL 마법사] 기능 {#set-up-wizard-functionality}
 
