@@ -7,9 +7,9 @@ description: Creative Cloud 응용 프로그램을 위한 Adobe Workfront 플러
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: ebccdf17-12e3-4adc-95af-61d6337edb72
-source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
+source-git-commit: 15307cd34aa0787579a1cb26e0b165222d8d8502
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '121'
 ht-degree: 1%
 
 ---
@@ -37,3 +37,4 @@ ht-degree: 1%
 * [을 사용하여 작업 관리 [!DNL Adobe Workfront] 플러그인 [!DNL Creative Cloud] 애플리케이션](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
 * [을 사용하여 문서 및 증명을 업로드합니다. [!DNL Adobe Workfront] 플러그인 [!DNL Creative Cloud] 애플리케이션](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
 * [비디오 자습서: 사용 [!DNL Adobe Workfront] plugins for [!DNL Creative Cloud]](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/integrations/adobe-creative-cloud/use-adobe-workfront-extensions-for-creative-cloud.html)
+* [비디오 자습서: 패키지 생성 및 관리, 업데이트 배포 및 설치 오류 문제 해결](https://www.youtube.com/watch?v=zzvXNLIBzrc)
