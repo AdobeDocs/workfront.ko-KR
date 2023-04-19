@@ -5,9 +5,9 @@ title: Adobe Experience Manager 자산 통합
 description: 다음 Adobe Experience Manager Assets 통합으로 작업을 연결할 수 있습니다.
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: f3af39e760b2b407cda5ab78497cdc775defdcf6
+source-git-commit: b874cb1a99840db11d6d55c86b7f779aa3e6ef35
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '891'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 0%
 * 자산 및 폴더에 대한 메타데이터 추적
 * 프로젝트 메타데이터 간 동기화 [!DNL Workfront] 및 [!DNL Experience Manager Assets]
 
+여러 Experience Manager Assets 저장소를 하나의 Workfront 환경에 연결하거나 여러 Workfront 환경을 조직 ID에서 하나의 Experience Manager Assets 저장소에 연결할 수도 있습니다. 설정할 각 통합에 대해 이 문서의 구성 지침을 따르십시오.
 
 ## 액세스 요구 사항
 
