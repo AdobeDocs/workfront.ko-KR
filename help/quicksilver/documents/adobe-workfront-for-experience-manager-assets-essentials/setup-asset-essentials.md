@@ -6,10 +6,10 @@ description: Experience Manager Assets Essentials - EDIT ME에서 작업을 컨�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: 059cfa79c57f071b3c7efd690b583099f46c99fb
+source-git-commit: b874cb1a99840db11d6d55c86b7f779aa3e6ef35
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,6 +21,7 @@ Experience Manager Assets Essentials에서 작업을 콘텐츠와 &#x200B; 연�
 * Experience Manager Assets Essentials의 자산을 Workfront의 프로젝트 및 작업에 &#x200B; 연결합니다
 * Experience Manager Assets Essentials로 푸시된 자산에 대한 버전 관리 워크플로우를 용이하게 합니다
 
+여러 Experience Manager Assets 저장소를 하나의 Workfront 환경에 연결하거나 여러 Workfront 환경을 조직 ID에서 하나의 Experience Manager Assets 저장소에 연결할 수도 있습니다. 설정할 각 통합에 대해 이 문서의 구성 지침을 따르십시오.
 
 ## 액세스 요구 사항
 
