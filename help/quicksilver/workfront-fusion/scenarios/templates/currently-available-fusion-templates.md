@@ -7,9 +7,9 @@ description: 현재 Adobe Workfront Fusion에서는 다음 공개 템플릿을 �
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: b397e93842db742456f374a0baf130495b711a2c
+source-git-commit: f0ab9a14fc397b36c5e3dffe07306ebc43e76500
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,10 @@ ht-degree: 0%
 ### Workfront - 매주 기준 작성
 
 이 템플릿은 매주 월요일 오전 6시(포트폴리오로 필터링된 프로젝트에서 기준)에 프로젝트 베이스라인을 캡처하고, 로깅을 위한 업데이트 스트림에 업데이트를 만듭니다.
+
+### 정책 시간에 사용되지 않는 프로젝트 템플릿 찾기 및 알림
+
+한 달에 한 번, 정책을 위반하여 템플릿에 대해 적절한 사용자에게 알리는 템플릿을 관리하기 쉬운 방식으로 고유한 정책을 사용하여 프로젝트 템플릿을 검토합니다.
 
 ## Workfront - Workfront 증명 템플릿
 
