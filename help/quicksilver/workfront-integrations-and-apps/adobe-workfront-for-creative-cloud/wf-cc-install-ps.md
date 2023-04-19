@@ -6,9 +6,9 @@ description: Adobe Marketplace에서 Photoshop용 Adobe Workfront 플러그인�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
+source-git-commit: 15307cd34aa0787579a1cb26e0b165222d8d8502
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '491'
 ht-degree: 1%
 
 ---
@@ -57,12 +57,15 @@ ht-degree: 1%
 
 * 을(를) 설치해야 합니다. [!DNL Adobe Photoshop] 설치하기 전에 앱 [!DNL Workfront] 플러그인.
 
-## 설치 [!DNL Adobe Workfront for Photoshop] 플러그인
+## 설치 [!DNL Adobe Workfront for Photoshop] 조직에 대한 플러그인
 
->[!TIP]
->
->만약 [!DNL Adobe Admin Console] 관리자는 [!DNL Creative Cloud] 배포 패키지. 자세한 내용은 [패키지에 플러그인 포함](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
+만약 [!DNL Adobe Admin Console] 관리자는 [!DNL Creative Cloud] 배포 패키지. 자세한 내용은 [패키지에 플러그인 포함](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
 
+[여기에서 비디오 자습서를 봅니다.](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
+
+## 설치 [!DNL Adobe Workfront for Photoshop] 개별적으로
+
+을(를) 설치할 수 있습니다 [!DNL Adobe Workfront for Photoshop] 플러그인을 직접 사용 [!DNL Adobe Exchange].
 
 1. 로 이동합니다. [Adobe Workfront for Photoshop 설치 페이지](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=37722a55&amp;workflow=share) Adobe Exchange에서 지원됩니다.
 1. 대화 상자가 나타나면 **열기 [!DNL Adobe Creative Cloud] 데스크탑 앱**.
