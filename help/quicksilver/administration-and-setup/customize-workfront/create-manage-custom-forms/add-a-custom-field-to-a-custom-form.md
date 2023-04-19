@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: ''
+source-git-commit: f9fce2715cad3e2ea2bf16de5f4ba457f981725c
 workflow-type: tm+mt
-source-wordcount: '2208'
-ht-degree: 2%
+source-wordcount: '2264'
+ht-degree: 3%
 
 ---
 
@@ -156,11 +156,12 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader">포맷</td> 
-      <td> <p>사용자 지정 필드에 캡처할 데이터 유형을 선택합니다.</p> <p><b>메모</b>:   
-        <ul> 
-         <li>양식을 저장한 후에는 이 필드를 편집할 수 없습니다. 필드를 수학 계산에서 사용하려면 숫자 또는 통화 형식을 선택해야 합니다.<br></li> 
-         <li>번호 또는 통화를 선택하면 0으로 시작하는 숫자가 자동으로 잘립니다.</li> 
-        </ul> </p> </td> 
+      <td> <p>사용자 지정 필드에 캡처할 데이터 유형을 선택합니다. 양식을 저장한 후 형식 선택을 변경할 수 있지만 새 형식은 입력한 값을 지원해야 합니다.</p>
+
+   <p><strong>예:</strong> 하나 이상의 개체에 텍스트 형식이 있는 필드의 숫자 값을 저장하고 나중에 해당 형식을 숫자 또는 통화로 변경하면 오류가 발생하지 않습니다. </p>
+      <p>그러나 하나 이상의 객체에 텍스트 형식이 있는 필드에 영숫자 값을 저장한 다음 숫자 또는 통화로 포맷을 변경하려고 하면 저장된 영숫자 값이 숫자 또는 통화 형식과 호환되지 않으므로 오류가 발생합니다. </p>
+
+   </td> 
      </tr> 
      <tr> 
       <td role="rowheader">표시 유형</td> 
