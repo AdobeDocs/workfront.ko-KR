@@ -6,7 +6,7 @@ description: Adobe Workfront이 모바일 장치에서 이메일 알림, 인앱 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
-source-git-commit: 06e5f4eb275548c5f1d2740632963a0c2fee48ac
+source-git-commit: bfe45a29290631420c3a60d7dcbe470619094ca1
 workflow-type: tm+mt
 source-wordcount: '1301'
 ht-degree: 1%
@@ -14,8 +14,6 @@ ht-degree: 1%
 ---
 
 # [!DNL Adobe Workfront] 알림
-
-{{highlighted-preview}}
 
 [!DNL Adobe Workfront] 모바일 장치에서 이메일 알림, 인앱 알림 및 알림을 보냅니다.
 
@@ -130,15 +128,11 @@ A [!DNL Workfront] 관리자(또는 [!UICONTROL 계획자] 미리 알림 액세�
 
 미리 알림 설정 및 활성화에 대한 자세한 내용은 [미리 알림 설정](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
 
-<span class="preview">
-
 ### 보드 알림
 
 [!DNL Adobe Workfront] [!UICONTROL 보드] 보드에 추가되고 카드가 할당될 때 이메일을 보냅니다.
 
 보드 환경 설정에서 받을 이메일을 선택할 수 있습니다. 자세한 내용은 [전자 메일 알림 및 환경 설정을 게시합니다.](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
-
-</span>
 
 ### 기타 [!DNL Workfront] 이메일
 
