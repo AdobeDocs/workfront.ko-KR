@@ -3,13 +3,13 @@ title: 23.3 릴리스 개요
 description: 23.3 릴리스 개요
 author: Becky
 feature: Product Announcements
-source-git-commit: c1ea77a65df5922f49e2f52091e54584e8a304e5
+exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
+source-git-commit: 3add9b96e2faae0fba2f3b0561271dafd484d281
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '701'
 ht-degree: 0%
 
 ---
-
 
 # 23.3 릴리스 개요
 
@@ -27,6 +27,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Adobe Workfront 개선 사항
 
 * [민첩한 개선 사항](#agile-enhancements)
+* [기타 개선 사항](#other-enhancements)
 
 ### 민첩한 개선 사항
 
@@ -46,7 +47,61 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">전자 메일 알림 및 환경 설정을 게시합니다.</a><span style="color: #ff0000;"> 미리 보기의 새로운 기능!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">동적 보드 템플릿</a><span style="color: #ff0000;"> 미리 보기의 새로운 기능!</span></p>
+                        <p>새로운 템플릿인 다이내믹 보드는 이제 독립형 보드에서 사용할 수 있습니다. 이 템플릿은 작업 스트림 내의 보드에 사용할 수 없습니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용할 수 있습니다.</b></p>
+                        <ul>
+                            <li>
+                                <p>미리 보기 릴리스: 2023년 4월 20일<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">
+                                 <p>초기 옵트인에 대한 프로덕션 릴리스: 2023년 4월 27일 <span style="color: #ff0000;"> 이 기능은 Workfront 보드의 초기 기능 옵트인을 통해서만 프로덕션에서 사용할 수 있습니다.</span></p>
+                                <p>모든 고객을 위한 프로덕션 릴리스: 23.3 릴리스 사용</p></span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">애자일 팀 간판 카드를 보드로 마이그레이션</a><span style="color: #ff0000;"> 미리 보기의 새로운 기능!</span></p>
+                        <p>새로운 <b>보드에 추가</b> 애자일 팀 간판 보드의 버튼을 사용하면 간판 보드의 모든 카드를 Workfront 보드에 추가할 수 있습니다. 새 Workfront 보드를 만들거나 기존 보드에 카드를 추가할 수 있습니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용할 수 있습니다.</b></p>
+                        <ul>
+                            <li>
+                                <p>미리 보기 릴리스: 2023년 4월 20일<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">
+                                 <p>초기 옵트인에 대한 프로덕션 릴리스: 2023년 4월 27일 <span style="color: #ff0000;"> 이 기능은 Workfront 보드의 초기 기능 옵트인을 통해서만 프로덕션에서 사용할 수 있습니다.</span></p>
+                                <p>모든 고객을 위한 프로덕션 릴리스: 23.3 릴리스 사용</p></span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">보드의 카드 세부 사항에 왼쪽 탐색 추가</a><span style="color: #ff0000;"> 미리 보기의 새로운 기능!</span></p>
+                        <p>Workfront 보드의 카드에 더 많은 필드 옵션이 추가되면서 카드 세부 사항이 더 길어졌습니다. 카드 세부 사항 왼쪽의 새 탐색 패널을 사용하면 섹션을 선택하고 해당 필드 그룹으로 자동으로 이동할 수 있습니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용할 수 있습니다.</b></p>
+                        <ul>
+                            <li>
+                                <p>미리 보기 릴리스: 2023년 4월 20일<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">
+                                 <p>초기 옵트인에 대한 프로덕션 릴리스: 2023년 4월 27일 <span style="color: #ff0000;"> 이 기능은 Workfront 보드의 초기 기능 옵트인을 통해서만 프로덕션에서 사용할 수 있습니다.</span></p>
+                                <p>모든 고객을 위한 프로덕션 릴리스: 23.3 릴리스 사용</p></span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-10.md" class="MCXref xref" xrefformat="{para}">전자 메일 알림 및 환경 설정을 게시합니다.</a></p>
                         <p>이제 Adobe Workfront 보드에 대한 이메일 알림을 사용할 수 있습니다. 알림은 기본적으로 켜져 있으며 환경 설정에서 받을 이메일을 선택할 수 있습니다. 보드에 추가되고 카드가 할당되면 이메일이 전송됩니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용할 수 있습니다.</b></p>
@@ -82,7 +137,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         <p><span class="bold">릴리스 날짜</span>
                         </p>
                     </td>
-                </tr>
+                </tr><!--
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3--apr-17.md" class="MCXref xref" xrefformat="{para}">Profiles without avatars now display user initials</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>To make it easier to find specific users within large lists, profiles without customized avatars now display the user's initials on a colored background in lists and legacy reports. This is a minor cosmetic change, and does not apply if an avatar photo is already being used or the user is deactivated.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release:&#160;April 20, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release:&#160;With the 23.3 release</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>-->
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">23.3 릴리스 일정 동안 찾기 및 감지 업데이트</a></p>
@@ -106,7 +177,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ### Workfront Fusion 개선 사항
 
-이 릴리스에는 Workfront Fusion 업데이트가 없습니다. 이 영역은 업데이트를 사용할 수 있으면 업데이트됩니다.
+Workfront Fusion의 새로운 기능은 23.3 릴리스 일정을 제외한 케이던스에서 프로덕션에서 사용할 수 있습니다. 최신 기능에 대한 자세한 내용은 [Adobe Workfront Fusion 릴리스 활동](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 ### Workfront 시나리오 플래너 개선 사항
 
