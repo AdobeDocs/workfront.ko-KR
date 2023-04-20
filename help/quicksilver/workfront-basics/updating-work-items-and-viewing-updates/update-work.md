@@ -6,9 +6,9 @@ description: Adobe Workfront 개체(프로젝트, 작업 또는 문제)에 업�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
+source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
 workflow-type: tm+mt
-source-wordcount: '2814'
+source-wordcount: '2945'
 ht-degree: 1%
 
 ---
@@ -196,7 +196,7 @@ drafted for P&P release:
 
    >[!TIP]
    >
-   >Updates 섹션을 벗어나서 의견 입력을 완료하고 댓글을 제출하면 로그오프한 후 다시 로그온해도 초안 모드로 페이지의 주석이 유지됩니다. 초안 주석은 입력하는 사용자만 볼 수 있습니다.
+   >Updates 섹션을 벗어나서 의견 입력을 완료하고 댓글을 제출하면 로그오프한 후 다시 로그온해도 초안 모드로 페이지의 주석이 유지됩니다. 주석에 추가된 모든 이미지도 초안으로 저장됩니다. 초안은 폐기된 후 7일 동안 저장되며 복구할 수 없습니다. 초안 주석은 입력하는 사용자만 볼 수 있습니다.
 
 1. (선택 사항)에서 **사람 또는 팀에 태그 지정** 영역에서 이 댓글에 포함할 사용자 또는 팀의 이름 또는 전자 메일을 입력한 다음 목록에 표시될 때 선택합니다.
 1. (선택 사항) 업데이트에 서식 있는 텍스트 서식을 추가하려면 **리치 텍스트** 텍스트를 향상시키는 도구 모음:
@@ -223,7 +223,7 @@ drafted for P&P release:
 
 1. 클릭 **제출** Workfront 개체에 업데이트를 추가하려면 다음을 수행하십시오.
 1. (선택 사항) 주석을 편집하려면 **자세히** 메뉴 ![](assets/more-menu.png) 좋아요 아이콘 오른쪽에 있는 를 클릭한 다음 **편집**.
-1. 주석에서 정보를 편집합니다 <!--or remove any of the tagged users-->.
+1. 주석에서 정보를 편집하거나 태그가 지정된 사용자를 모두 제거합니다.
 댓글을 제출한 후 15분 이내에 편집을 수행할 수 있습니다. 설명이 업데이트될 때 표시되는 날짜 스탬프 왼쪽에 &quot;편집됨&quot; 표시기가 추가됩니다.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
@@ -316,9 +316,13 @@ drafted for P&P release:
    1. 아래 **표시할 텍스트**&#x200B;링크 텍스트를 입력하거나 붙여넣습니다.
    1. **저장**&#x200B;을 클릭합니다.
 
-1. (선택 사항) 업데이트에 이미지를 첨부하려면 **이미지** 아이콘 ![](assets/addimageicon-35x32.png) 컴퓨터에서 이미지를 찾습니다.\
-   또는\
-   이미지를 업데이트 영역으로 드래그합니다.
+1. (선택 사항) 업데이트에 이미지를 첨부하려면 사용하는 환경에 따라 다음 중 하나를 수행합니다.
+
+   * 을(를) 클릭합니다. **이미지** 아이콘 ![](assets/addimageicon-35x32.png) 현재 업데이트 환경을 사용할 때 컴퓨터에서 이미지를 찾아보거나 업데이트 영역으로 이미지를 드래그합니다
+
+   또는
+
+   을(를) 클릭합니다. **첨부 파일 추가** 아이콘 ![](assets/add-image-paperclip-icon.png) 댓글을 다는 베타 환경을 사용할 때 컴퓨터에서 이미지를 찾습니다.
 
    >[!NOTE]
    >
@@ -386,9 +390,17 @@ Workfront 사용자(Workfront 관리자 포함)는 다른 사용자가 수행한
 
 1. 표시되는 메시지에서 **확인** 또는 **삭제**: 댓글 베타 환경을 사용합니다.
 
->[!NOTE]
->
->첨부된 이미지로 업데이트를 삭제하면 주석과 이미지가 모두 삭제됩니다.
+   >[!NOTE]
+   >
+   >첨부된 이미지로 업데이트를 삭제하면 주석과 이미지가 모두 삭제됩니다.
+
+   삭제한 댓글에 답장이 연결되어 있으면 해당 댓글이 제거된 사용자의 이름으로 제거되었다는 표시가 있습니다.
+
+   ![](assets/removed-comment-indicator-new-experience.png)
+
+   주석 달기 베타 경험을 사용하면 삭제된 주석이 Workfront에서 즉시 제거됩니다. 업데이트 섹션을 사용하는 사용자는 다른 사용자가 실시간으로 주석을 삭제하는 것을 볼 수 있습니다.
+
+   <!--when we remove the beta, take out the first part of the sentence above about only when commenting in beta experience. Leave the rest though-->
 
 ## 작업표에 업데이트 추가
 
