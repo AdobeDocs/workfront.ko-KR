@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion은 앱과 웹 서비스를 원활하게 연�
 author: Luke
 feature: Product Announcements, Workfront Fusion
 exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
-source-git-commit: fd610e1493724f922672f42f03e7f19bd779828e
+source-git-commit: 8e45f0c0126058236e0c9fd69130937d7f356f4f
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,10 @@ Adobe Workfront Fusion은 앱과 웹 서비스를 원활하게 연결하므로 �
 Workfront Fusion 사용 방법에 대한 자세한 내용은 [Adobe Workfront Fusion](../../../workfront-fusion/workfront-fusion-2.md).
 
 ## 최근 릴리스
+
+### 2023년 4월
+
+* [Workfront Fusion 릴리스 활동: 2023년 4월 17일 주](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-4-20.md)
 
 ### 2023년 3월
 
@@ -84,6 +88,10 @@ Workfront Fusion 사용 방법에 대한 자세한 내용은 [Adobe Workfront Fu
 
 * [Workfront Fusion 릴리스 활동: 2022년 1월 3일의 주](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-3-22.md)
 
+## 2021년 퓨전 릴리스
+
++++**클릭하여 열기**
+
 ### 2021년 11월
 
 * [Workfront Fusion 릴리스 활동: 2021년 11월 29일의 주](../../../product-announcements/product-releases/fusion-release-activity/fusion-nov-29-21.md)
@@ -142,6 +150,12 @@ Workfront Fusion 사용 방법에 대한 자세한 내용은 [Adobe Workfront Fu
 * [Workfront Fusion 릴리스 활동: 2021년 1월 11일 주](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-11.md)
 * [Workfront Fusion 릴리스 활동: 2021년 1월 4일 주](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-4.md)
 
++++
+
+## 2020년 Fusion 릴리스
+
++++**클릭하여 열기**
+
 ### 2020년 12월
 
 * [Workfront Fusion 릴리스 활동: 2020년 12월 7일의 주](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-dec-7.md)
@@ -160,3 +174,5 @@ Workfront Fusion 사용 방법에 대한 자세한 내용은 [Adobe Workfront Fu
 
 * [Workfront Fusion 릴리스 활동: 2020년 8월 24일 주](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-aug-24.md)
 * [Workfront Fusion 릴리스 활동: 2020년 8월 17일 주](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-aug-17.md)
+
++++
