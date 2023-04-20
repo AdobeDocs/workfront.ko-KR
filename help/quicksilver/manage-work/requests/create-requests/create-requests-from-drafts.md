@@ -6,16 +6,14 @@ description: 새 요청을 입력할 때 Workfront에서 제안하는 사용 가
 author: Alina
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 345f63fc78d9bc2b2eff8f19a8a9196641567764
+source-git-commit: 0f30ff23ef828d32c406cc2d9733c23b095014c9
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '613'
 ht-degree: 1%
 
 ---
 
 # 초안에서 요청 만들기
-
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 환경에서만 사용할 수 있습니다.</span>
 
 새 요청을 입력할 때 Workfront에서 제안하는 사용 가능한 초안을 사용하는 것 외에도 초안 섹션에서 초안 요청에 액세스하여 여기에서 제출을 완료할 수 있습니다.
 
@@ -61,7 +59,7 @@ ht-degree: 1%
 
    ![](assets/nwe-drafts-section-with-list-of-drafts-350x169.png)
 
-1. <span class="preview">(선택 사항) 열 헤더를 클릭하여 해당 열을 기준으로 목록을 정렬합니다.</span>
+1. (선택 사항) 열 헤더를 클릭하여 해당 열을 기준으로 목록을 정렬합니다.
 
 1. 초안 목록의 다음 열에서 각 초안에 대한 정보를 검토합니다.
 
@@ -73,7 +71,12 @@ ht-degree: 1%
 
    {style="table-layout:auto"}
 
-1. <span class="preview">(선택 사항) 초안 목록의 오른쪽 위 모서리에 있는 빠른 필터를 사용하여 초안 요청, 요청 큐, 큐 주제 또는 주제 그룹의 이름을 입력하고 초안의 이름을 클릭하여 엽니다. </span>
+1. (선택 사항) 초안 목록의 오른쪽 위 모서리에 있는 빠른 필터를 사용하여 초안 요청, 요청 큐, 큐 주제 또는 주제 그룹의 이름을 입력하고 초안의 이름을 클릭하여 엽니다.
+
+   >[!TIP]
+   >
+   >요청 영역의 초안 섹션에서 영구 필터를 적용할 수 없습니다. 또한 초안 목록의 보기를 수정하거나 변경하는 옵션이 없습니다.
+
 1. 에 설명된 대로 요청에 대한 정보를 업데이트합니다. [Adobe Workfront 요청 만들기 및 제출](../../../manage-work/requests/create-requests/create-submit-requests.md).
 1. (선택 사항 및 조건부) 요청을 입력하는 동안 언제든지 **삭제** 초안을 삭제하려면 초안입니다. 이렇게 하면 복구할 수 없는 초안이 삭제됩니다. 초안 삭제에 대한 자세한 내용은 [요청 초안 삭제](../../../manage-work/requests/create-requests/delete-request-draft.md).
 
