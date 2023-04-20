@@ -5,13 +5,13 @@ title: Illustrator에서 증명 업로드
 description: 빠른 검토 및 승인을 위해 또는 Adobe Workfront에 저장하기 위해 아트 보드를 문서로 업로드할 수 있습니다.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
-source-git-commit: 9330ba5e5f828738a8726a3641f39a9b279d2ed0
+exl-id: e98f27d4-7c07-44cc-8df5-e04472ec946e
+source-git-commit: 9684dff5ea84ffbfc28c49271c2382e6bd0adb27
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 0%
 
 ---
-
 
 # 에서 증명 업로드 [!DNL Illustrator]
 
@@ -99,9 +99,9 @@ ht-degree: 0%
 
 1. 에서 **[!UICONTROL 증명 승인]** 섹션, **[!UICONTROL 자동화된]**.
 1. (선택 사항)에서 **[!UICONTROL 워크플로우 템플릿]** 상자에 증명 워크플로우 템플릿의 이름을 입력합니다.
-
+<!--
 {{adjust-proof-settings}}
-
+-->
 1. (선택 사항) **[!UICONTROL 업데이트]** 영역.
 
    ![](assets/copy-of-proof-approvals-advanced-350x424.png) <!-- new screenshot -->

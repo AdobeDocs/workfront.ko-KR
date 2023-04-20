@@ -1,7 +1,7 @@
 ---
-source-git-commit: c3c19f1913d5bab233a0d218ba87c69dead82215
+source-git-commit: e990b521c20a5bad973c62cbd239e96aca09919b
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1538'
 ht-degree: 0%
 
 ---
@@ -138,83 +138,82 @@ Workfront 프로젝트에서 Experience Manager에 연결된 폴더를 만들 �
 
 ## 자동 증명 설정 조정 {#adjust-proof-settings}
 
-1. (선택 사항) 자동 증명 설정 조정
+1. (선택 사항) 자동화된 증명 워크플로우 설정 조정
 
    <table>
-   <tr>
-      <td colspan="2" ><strong>증명 단계</strong>
-      </td>
-   </tr>
-   <tr>
-      <td>단계 비활성화
-      </td>
-      <td>
-   <ol>
+      <tr>
+         <td colspan="2" ><strong>증명 단계</strong>
+         </td>
+      </tr>
+      <tr>
+         <td>단계 비활성화
+         </td>
+         <td>
+      <ol>
 
    <li>모두 선택 을 전환하여 모든 단계를 비활성화합니다. 
-   <p>또는</p></li>
-   <li>개별 단계를 전환합니다.</li>
+      <p>또는</p></li>
+      <li>개별 단계를 전환합니다.</li>
 
    </ol>
-      </td>
-   </tr>
-   <tr>
-      <td>수신자 추가
-      </td>
-      <td>
-   <ol>
+         </td>
+      </tr>
+      <tr>
+         <td>수신자 추가
+         </td>
+         <td>
+      <ol>
 
    <li>새 수신자 추가 상자에서 사용자 이름을 입력합니다.
-
-   참고: 플러그인의 이메일을 통해 외부 수신자를 추가할 수 없습니다.
 
    <li>증명 역할을 지정합니다.
 
    <li>수신자에 대한 이메일 경고 유형을 선택합니다. 
-   </li>
-   </ol>
-      </td>
-   </tr>
-   <tr>
-      <td>기한 설정
-      </td>
-      <td>
-   <ol>
+      </li>
+      </ol>
+         </td>
+      </tr>
+      <tr>
+         <td>기한 설정
+         </td>
+         <td>
+      <ol>
 
    <li>마감일을 선택하세요.
-   </li>
-   </ol>
-      </td>
-   </tr>
-   <tr>
-      <td colspan="2" ><strong>이메일 알림</strong>
-      </td>
-   </tr>
-   <tr>
-      <td>수신자에게 증명 알림
-      </td>
-      <td>
-   <ol>
+      </li>
+      </ol>
+         </td>
+      </tr>
+      <tr>
+         <td colspan="2" ><strong>이메일 알림</strong>
+         </td>
+      </tr>
+      <tr>
+         <td>수신자에게 증명 알림
+         </td>
+         <td>
+      <ol>
 
    <li>증명을 만들 때 사용자에게 알리는 확인란을 활성화합니다.
-   </li>
-   </ol>
-      </td>
-   </tr>
-   <tr>
-      <td>사용자 지정 메시지 추가
-      </td>
-      <td>
-   <ol>
+      </li>
+      </ol>
+         </td>
+      </tr>
+      <tr>
+         <td>사용자 지정 메시지 추가
+         </td>
+         <td>
+      <ol>
 
    <li>제목을 입력합니다.
 
    <li>사용자 지정 메시지를 입력합니다.
-   </li>
-   </ol>
-      </td>
-   </tr>
-   </table>
+      </li>
+      </ol>
+         </td>
+      </tr>
+      </table>
+
 
 
 
