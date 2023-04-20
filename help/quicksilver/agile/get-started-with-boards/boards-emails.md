@@ -5,7 +5,8 @@ navigation-topic: boards
 title: 전자 메일 알림 및 환경 설정을 게시합니다.
 description: Adobe Workfront 보드에 추가되거나 카드가 할당되면 사용자에게 이메일이 전송됩니다.
 author: Lisa
-source-git-commit: 06e5f4eb275548c5f1d2740632963a0c2fee48ac
+exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
+source-git-commit: bfe45a29290631420c3a60d7dcbe470619094ca1
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 1%
@@ -13,8 +14,6 @@ ht-degree: 1%
 ---
 
 # 전자 메일 알림 및 환경 설정을 게시합니다.
-
-{{highlighted-preview-article-level}}
 
 [!DNL Adobe Workfront] [!UICONTROL 보드] 보드에 추가되고 카드가 할당될 때 이메일을 보냅니다. 알림은 기본적으로 켜져 있으며 보드 환경 설정에서 받을 이메일을 선택할 수 있습니다.
 
