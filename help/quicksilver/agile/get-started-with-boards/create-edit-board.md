@@ -6,14 +6,16 @@ description: 에서 [!UICONTROL 보드] 대시보드에서 새 보드를 만들�
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 67472e2c6d3bf3cbb11c2ba5ad2f3eee13336f74
+source-git-commit: 966a88b8c7761b257a1ad0b2fdb3400f78c5d4f7
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 보드 만들기 또는 편집
+
+{{highlighted-preview}}
 
 에서 [!UICONTROL 보드] 대시보드에서 새 보드를 만들거나 기존 보드를 편집할 수 있습니다.
 
@@ -52,6 +54,29 @@ ht-degree: 5%
    | 기본 보드 | 보드에 기본 열 3개가 제공됩니다. 새 열을 추가하고 기본 열의 이름을 바꾸거나 삭제할 수 있습니다. <p>보드에 기본 열 3개가 제공됩니다. 새 열을 추가하고 기본 열의 이름을 바꾸거나 삭제할 수 있습니다. |
    | 칸반 보드 | 보드에 다음 열이 제공됩니다. 백로그, 신규, 진행 중, 완료 및 보류 중 새 열을 추가하고 기본 열의 이름을 바꾸거나 삭제할 수 있습니다.<p>백로그를 사용하려면 취입 열에 대한 필터를 설정해야 합니다. 자세한 내용은 [보드에 흡기 열 추가](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>각 열에 대한 기본 정책을 검토하려면 [!UICONTROL **자세히** 메뉴] 열에서 [!UICONTROL **편집**]. 이러한 사전 설정된 정책을 변경할 수 있습니다. 자세한 내용은 [보드 열 관리](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
    | Retrospective 보드 | 보드에 다음 열이 제공됩니다. 뭐가 잘 됐어? 개선 가능한 사항? 축하해야 할 사람? 보다 빠른 진행을 위해 할 수 있는 일? 새 열을 추가하고 기본 열의 이름을 바꾸거나 삭제할 수 있습니다. <p>적용된 열 정책이 없습니다. |
+   | <span class="preview">동적 보드</span> | <span class="preview">보드에 다음 열이 제공됩니다. 선택되지 않음, 신규, 진행 중, 보류 중 및 완료 새 열을 추가하고 기본 열의 이름을 바꾸거나 삭제할 수 있습니다. (선택하지 않은 열의 이름은 변경할 수 있지만 삭제할 수는 없습니다. 이 열에는 다른 열 상태와 일치하지 않는 상태가 있는 모든 카드가 포함됩니다. <p>기본 열 정책은 상태를 기준으로 열에 카드를 할당합니다. 자세한 내용은 [보드 열 관리](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).</span> |
+
+1. <span class="preview">동적 보드의 경우에만 설정 마법사 단계를 수행합니다.</span>
+
+   <div class="preview">
+
+   1. 보드 이름을 입력하고 를 클릭합니다 [!UICONTROL **다음**].
+   1. 클릭 [!UICONTROL **소스 추가**].
+   1. 클릭 [!UICONTROL **필터 소스**] 을(를) 선택합니다. [!UICONTROL **작업**] 또는 [!UICONTROL **문제**].
+
+      >[!NOTE]
+      >
+      >작업 및 문제를 모두 포함하도록 보드를 필터링할 수 있지만 각 개체 유형에 대해 필터를 별도로 설정해야 합니다.
+      >
+      >또한 저장된 필터 및 시스템 기본 필터를 선택할 수 있습니다.
+
+   1. 보드를 연결된 카드로 가져올 개체를 정의하는 필터를 만듭니다.
+
+      이것은 흡입 열에 필터를 만드는 것과 동일한 프로세스입니다. 자세한 내용은 [보드에 흡기 열 추가](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+
+   1. 필터를 추가한 후 [!UICONTROL **보드 만들기**].
+
+   </div>
 
 1. 에 보드의 이름을 입력합니다 **[!UICONTROL 보드]** 필드를 입력하고 Enter 키를 누릅니다.
 1. 필요에 따라 보드를 구성합니다.
