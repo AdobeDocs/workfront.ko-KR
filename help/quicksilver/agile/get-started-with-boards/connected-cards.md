@@ -6,14 +6,16 @@ description: Workfront의 기존 작업 및 문제에 연결된 카드를 보드
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: e9fce8cd8062fa6512493c3b0509aa248a76c528
+source-git-commit: 07942865a25153fe50ff627291bb21e1508dddc5
 workflow-type: tm+mt
-source-wordcount: '1181'
-ht-degree: 1%
+source-wordcount: '1242'
+ht-degree: 0%
 
 ---
 
 # 보드에서 연결된 카드 사용
+
+{{highlighted-preview}}
 
 보드에 기존 작업 및 문제에 연결된 카드를 추가할 수 있습니다 [!DNL Workfront].
 
@@ -96,11 +98,11 @@ ht-degree: 1%
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Name]</strong></td> 
-      <td> <p>이름을 변경하면 연결된 파일에서도 이름이 변경됩니다 [!DNL Workfront] 개체.</p> </td> 
+      <td>이름을 변경하면 연결된 파일에서도 이름이 변경됩니다 [!DNL Workfront] 개체.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Description]</strong></td> 
-      <td> <p>설명을 변경하면 연결된 설명도 변경됩니다 [!DNL Workfront] 개체.</p> </td> 
+      <td>설명을 변경하면 연결된 설명도 변경됩니다 [!DNL Workfront] 개체. <span class="preview">설명에 URL을 추가할 수 있으며, 카드를 저장할 때 클릭 가능한 링크가 됩니다.</span></td> 
      </tr> 
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Assignees]</strong></td>
@@ -110,7 +112,7 @@ ht-degree: 1%
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL 열]</strong></td>
-      <td><p>카드의 열을 선택합니다.</p></td>
+      <td>카드의 열을 선택합니다.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL 상태]</strong></td>
@@ -120,7 +122,7 @@ ht-degree: 1%
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL 계획된 완료]</strong></td>
-      <td><p>이 일자를 변경하면 연결된 경우 계획 완료 일자도 변경됩니다 [!DNL Workfront] 개체.</p></td>
+      <td>이 일자를 변경하면 연결된 경우 계획 완료 일자도 변경됩니다 [!DNL Workfront] 개체.</td>
      </tr>
       <tr>
       <td role="rowheader"><strong>[!UICONTROL Estimation]</strong></td>
@@ -137,6 +139,12 @@ ht-degree: 1%
      </tr>
     </tbody> 
    </table>
+
+   <span class="preview">카드 세부 정보에 있는 필드 그룹 간을 이동하려면 왼쪽의 탐색 패널을 사용합니다.</span>
+
+   >[!NOTE]
+   >
+   >왼쪽 탐색 패널과 설명 필드에 클릭 가능한 링크를 추가하는 기능은 Workfront 보드에 대한 초기 기능 옵트인을 통해서만 사용할 수 있습니다.
 
 1. 클릭 **[!UICONTROL 닫기]** 이사회로 돌아가려고
 연결된 객체, 담당자, 태그, 기한, 체크리스트 카운터, 예상 시간 및 상태가 카드에 표시됩니다.
