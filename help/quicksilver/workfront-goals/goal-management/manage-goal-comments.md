@@ -6,9 +6,9 @@ description: Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
+source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '870'
 ht-degree: 0%
 
 ---
@@ -137,11 +137,29 @@ Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석을 추가할
 
    >[!TIP]
    >
-   >Updates 섹션을 벗어나서 의견 입력을 완료하고 댓글을 제출하면 로그오프한 후 다시 로그온해도 초안 모드로 페이지의 주석이 유지됩니다. 초안 주석은 입력하는 사용자만 볼 수 있습니다.
+   >Updates 섹션을 벗어나서 의견 입력을 완료하고 댓글을 제출하면 로그오프한 후 다시 로그온해도 초안 모드로 페이지의 주석이 유지됩니다. 주석에 추가된 모든 이미지도 초안으로 저장됩니다. 초안은 폐기된 후 7일 동안 저장되며 복구할 수 없습니다. 초안 주석은 입력하는 사용자만 볼 수 있습니다.
 
+1. (선택 사항) 업데이트, 하이퍼링크 또는 이미지에 서식 있는 텍스트 서식을 추가하려면 서식 있는 텍스트 도구 모음의 옵션 또는 그 옆에 있는 아이콘을 사용합니다. 자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (선택 사항)에서 **사람 또는 팀에 태그 지정** 영역에서 이 댓글에 포함할 사용자 또는 팀의 이름 또는 전자 메일을 입력한 다음 목록에 표시될 때 선택합니다.
+1. 을(를) 선택합니다 **회사 개인** 을 토글하여 회사 사용자만 주석을 볼 수 있도록 합니다.
+
+   >[!TIP]
+   >
+   >업데이트 영역에서 이 옵션을 사용하려면 프로필에 회사가 지정되어 있어야 합니다.
+
+1. 클릭 **제출**.
+
+   >[!TIP]
+   >
+   >업데이트하려는 동일한 항목에 다른 사용자가 주석을 제출하면 최신 주석을 알려주는 &quot;새로 만들기&quot; 표시기가 있는 빨간색 줄이 표시됩니다.
+   >
+   >표시기에는 항목에 대한 설명을 제출한 후에만 표시되며, 주석을 아직 작성할 때는 표시되지 않습니다.
+   >
+   >새로 만들기 지표는 새 업데이트를 입력한 사용자와 현재 업데이트를 입력하는 사용자가 새 주석 달기 경험을 사용하는 경우에만 표시됩니다.
+   >![](assets/real-time-new-red-indicator-unified-commenting.png)
+
 1. (선택 사항) 주석을 편집하려면 **자세히** 메뉴 ![](assets/more-icon.png) 좋아요 아이콘 오른쪽에 있는 를 클릭한 다음 **편집**.
-1. 주석에서 정보를 편집합니다.&lt;<!--, or remove any of the tagged users-->.
+1. 주석에서 정보를 편집하거나 태그가 지정된 사용자를 모두 제거합니다.
 댓글을 제출한 후 15분 이내에 편집을 수행할 수 있습니다. 설명이 업데이트될 때 표시되는 날짜 스탬프 왼쪽에 &quot;편집됨&quot; 표시기가 추가됩니다.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
@@ -157,18 +175,7 @@ Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석을 추가할
 
          자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. 클릭 **제출**.
-
-   >[!TIP]
-   >
-   >업데이트하려는 동일한 항목에 다른 사용자가 주석을 제출하면 최신 주석을 알려주는 &quot;새로 만들기&quot; 표시기가 있는 빨간색 줄이 표시됩니다.
-   >
-   >표시기에는 항목에 대한 설명을 제출한 후에만 표시되며, 주석을 아직 작성할 때는 표시되지 않습니다.
-   >
-   >새로 만들기 지표는 새 업데이트를 입력한 사용자와 현재 업데이트를 입력하는 사용자가 새 주석 달기 경험을 사용하는 경우에만 표시됩니다.
-   >![](assets/real-time-new-red-indicator-unified-commenting.png)
-
-1. (선택 사항) **자세히** 메뉴 ![](assets/more-icon.png) 주석 오른쪽에 있는 를 클릭한 다음 **삭제** 추가한 설명을 삭제하려면
+1. (선택 사항) **자세히** 메뉴 ![](assets/more-icon.png) 주석 오른쪽에 있는 를 클릭한 다음 **삭제** 추가한 설명을 삭제하려면 자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (선택 사항) **회신** 기존 주석에 응답하려면 위의 5~9단계를 수행합니다. <!--insure this stays accurate-->
 1. (조건부 및 선택 사항) 다른 사용자가 업데이트 섹션에서 표시 영역 외부에 표시되는 주석을 추가한 경우 **보기** 파란색 내부 **새 댓글 배너** 화면 하단에 이러한 설명을 표시합니다.
 
@@ -176,7 +183,7 @@ Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석을 추가할
 
    화면 하단에 추가 주석이 표시됩니다.
 1. (선택 사항) **좋아요** 아이콘![](assets/like-icon.png) 다른 사람이 추가한 설명을 좋아합니다. 아이콘이 좋아요 수로 업데이트됩니다.
-1. (선택 사항) 업데이트에 리치 텍스트 서식을 추가하려면 입력할 때 리치 텍스트 도구 모음의 모든 속성을 사용합니다. 자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
 1. (선택 사항) **시스템 활동** 탭에서 시스템에서 로그된 업데이트를 볼 수 있습니다. 목표가 업데이트되면 Workfront에서는 해당 업데이트에 대한 메모를 생성하여 시스템 활동 탭에 표시합니다. 또한 Workfront은 결과, 활동 또는 프로젝트가 목표에 추가되거나 업데이트될 때 시스템 업데이트를 기록합니다. <!--ensure the casing on the tab has not changed-->
 
 <!--BELOW IS OLD, ATIIM/ WORKFRONT GOALS INFORMATION ABOUT COMMENTS: 
