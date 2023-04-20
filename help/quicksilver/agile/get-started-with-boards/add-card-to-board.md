@@ -6,14 +6,16 @@ description: 보드에 Ad Hoc 카드를 신속하게 추가하여 보드의 구�
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: e9fce8cd8062fa6512493c3b0509aa248a76c528
+source-git-commit: 07942865a25153fe50ff627291bb21e1508dddc5
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '787'
 ht-degree: 0%
 
 ---
 
 # 보드에 임시 카드 추가
+
+{{highlighted-preview}}
 
 보드에 카드를 신속하게 추가하고 보드의 구성원에게 할당할 수 있습니다. 카드는 작업, 문제, 개인, 그룹 또는 보드에 포함할 항목 유형을 나타낼 수 있습니다.
 
@@ -63,7 +65,7 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Description]</strong> </td> 
-      <td>카드에 대한 설명입니다.</td> 
+      <td>카드에 대한 설명입니다. <span class="preview">설명에 URL을 추가할 수 있으며, 카드를 저장할 때 클릭 가능한 링크가 됩니다.</span></td>
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Assignees]</strong> </td> 
@@ -96,7 +98,17 @@ ht-degree: 0%
     </tbody> 
    </table>
 
+   프로덕션 환경의 샘플 카드 세부 사항 이미지:
    ![애드혹 카드 세부 사항](assets/boards-edit-ad-hoc-card-071822.png)
+
+   <span class="preview">미리 보기 환경의 샘플 카드 세부 사항 이미지:
+   ![애드혹 카드 세부 사항](assets/boards-edit-ad-hoc-card-041723.png)</span>
+
+   <span class="preview">카드 세부 정보에 있는 필드 그룹 간을 이동하려면 왼쪽의 탐색 패널을 사용합니다.</span>
+
+   >[!NOTE]
+   >
+   >왼쪽 탐색 패널과 설명 필드에 클릭 가능한 링크를 추가하는 기능은 Workfront 보드에 대한 초기 기능 옵트인을 통해서만 사용할 수 있습니다.
 
 1. 클릭 **[!UICONTROL 닫기]** 카드를 보드에 추가합니다.
 
