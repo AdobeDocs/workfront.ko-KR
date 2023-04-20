@@ -2,7 +2,7 @@
 user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 feature-set: Workfront
-source-git-commit: e405139a2215e4330e6e735a4cf1f8abec528a7c
+source-git-commit: 9f704ee45ce5d9d37e769dca3eb45d1c81065900
 workflow-type: tm+mt
 source-wordcount: '12919'
 ht-degree: 1%
@@ -808,7 +808,7 @@ ht-degree: 1%
       * [업데이트에 다른 사용자에게 태그 지정](workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
       * [참고 보고서에서 모든 업데이트 보기](workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
       * [작업 및 완료 단추 개요](workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
-      * [통합 주석 달기 경험](workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md)
+      * [새로운 주석 달기 환경](workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md)
    * 사용자 지정 양식 작업 {#work-with-custom-forms}
       * [사용자 지정 양식 작업](workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
       * [개체에 사용자 지정 양식 추가](workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)

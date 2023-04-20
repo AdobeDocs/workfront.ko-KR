@@ -6,9 +6,9 @@ description: 본인 또는 다른 사용자가 제출한 요청이나 제출하�
 author: Alina
 feature: Work Management
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
+source-git-commit: 781a6e28b759863f8bc4635c0a8850abb173e038
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '869'
 ht-degree: 1%
 
 ---
@@ -125,7 +125,7 @@ ht-degree: 1%
 
    >[!TIP]
    >
-   >요청 영역의 제출됨 섹션에서 필터를 수정할 수 없습니다. 또한 제출된 요청 목록의 보기를 수정하거나 변경하는 옵션이 없습니다.
+   >요청 영역의 제출됨 섹션에서 필터를 수정할 수 없습니다.
 
    <table style="table-layout:auto"> 
     <col> 
