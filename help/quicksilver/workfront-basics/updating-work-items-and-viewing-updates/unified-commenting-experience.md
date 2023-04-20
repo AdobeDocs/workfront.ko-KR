@@ -6,9 +6,9 @@ description: 새로운 통합 주석 달기 경험은
 author: Alina
 feature: Get Started with Workfront
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
+source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '546'
 ht-degree: 1%
 
 ---
@@ -163,8 +163,9 @@ Adobe Workfront에서 주석 달기 경험에 대한 업데이트가 현재 개�
    </td>
    <td> 
    </td>
-   <td>
-   <td>✓ 
+   <td>✓
+   </td>
+   <td> 
    </td>
    <td> 
    </td>
@@ -242,7 +243,7 @@ Adobe Workfront에서 주석 달기 경험에 대한 업데이트가 현재 개�
    </td>
   </tr>
   <tr>
-   <td>실시간으로 새 댓글 보기 
+   <td>실시간으로 새 댓글 보기(댓글 삭제 시 보기 포함)
    </td>
    <td> 
    </td>
