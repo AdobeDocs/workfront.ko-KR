@@ -7,9 +7,9 @@ description: 사용자가 정의한 필터에 따라 작업 및 문제가 Workfr
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 622a1c48af8612e32ff8aa23971d55aff26eea48
+source-git-commit: 81d68656c5dc4811884cde53193139856f290f4d
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 작업 및 문제가 추가되었을 때 연결된 카드로 자동으로 가져오는 가져오기 열을 보드에 선택적으로 추가할 수 있습니다 [!DNL Workfront], 사용자가 정의한 필터를 기반으로 합니다. 취입 열은 간판 팀의 백로그 열, 지원 팀의 취입 위치로 기능하여 요청 대기열에 추가될 때 문제를 보거나 필요한 다른 용도로 처리할 수 있습니다.
 
 한 보드에는 한 개의 취침 열만 허용되며 항상 맨 왼쪽 열로 표시됩니다.
+
+동적 보드에서 취침 열을 사용할 수 없습니다.
 
 취수열은 300개의 작업과 300개의 문제로 제한됩니다. 항목에 정의된 우선 순위를 기준으로 정렬됩니다. 우선 순위에 대한 자세한 내용은 [작업 우선 순위 업데이트](/help/quicksilver/manage-work/tasks/task-information/task-priority.md) 및 [문제 우선 순위 업데이트](/help/quicksilver/manage-work/issues/issue-information/update-issue-priority.md).
 
