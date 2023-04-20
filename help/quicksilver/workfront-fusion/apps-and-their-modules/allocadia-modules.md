@@ -9,9 +9,9 @@ description: 에서 [!DNL Adobe Workfront Fusion] 시나리오, Allocadia를 사
 author: Becky
 feature: Workfront Fusion
 exl-id: f1edefd1-9fe0-48fc-bea2-c3f9facf7363
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: c88b00a086a9e1c5e44d481dde94f4244c7c959d
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1353'
 ht-degree: 0%
 
 ---
@@ -144,7 +144,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 메서드]</td> 
-   td&gt; <p>API 호출을 구성하는 데 필요한 HTTP 요청 메서드를 선택합니다. 자세한 내용은 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">의 HTTP 요청 메서드 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>API 호출을 구성하는 데 필요한 HTTP 요청 메서드를 선택합니다. 자세한 내용은 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">의 HTTP 요청 메서드 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
