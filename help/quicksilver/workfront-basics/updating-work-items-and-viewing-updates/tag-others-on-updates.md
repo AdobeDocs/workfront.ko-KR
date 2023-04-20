@@ -6,9 +6,9 @@ description: Adobe Workfront 객체에 대한 업데이트 주석을 제공할 �
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '1456'
 ht-degree: 0%
 
 ---
@@ -112,7 +112,7 @@ Workfront 객체에 업데이트 추가에 대한 내용은 [작업 업데이트
 
    ![](assets/tag-users-in-update.png)
 
-1. (선택 사항) 업데이트를 비공개로 설정하려면 다음을 활성화합니다 **회사 개인** 업데이트 상자의 오른쪽 아래 모서리에 있습니다. 이렇게 하면 회사 사용자만 업데이트를 볼 수 있습니다.
+1. (선택 사항) 업데이트를 비공개로 설정하려면 다음을 활성화합니다 **회사 개인** 업데이트 상자의 오른쪽 아래 모서리에 있습니다. 이렇게 하면 회사 사용자만 업데이트를 볼 수 있습니다. 다음 **회사 개인** 옵션이 Workfront 프로필에 회사를 지정한 경우에만 사용할 수 있습니다.
 
    >[!NOTE]
    >
@@ -135,6 +135,8 @@ Workfront 객체에 업데이트 추가에 대한 내용은 [작업 업데이트
 
 ### 주석 달기 베타 경험에서 다른 사용자에게 업데이트에 태깅
 
+주석 달기 베타 경험에서 다른 사람에게 업데이트에 태그를 지정할 수 있습니다. 댓글을 편집할 때 실수로 태그가 지정된 사용자를 제거할 수도 있습니다.
+
 1. 에 설명된 대로 작업 항목 업데이트를 시작합니다. [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. 에서 **사람 또는 팀에 태그 지정** 필드에서는 포함할 사용자 또는 팀의 이름을 입력하고 드롭다운 목록에 표시될 때 이름을 클릭합니다.
 
@@ -148,7 +150,7 @@ Workfront 객체에 업데이트 추가에 대한 내용은 [작업 업데이트
 
    ![](assets/tag-others-unified-commenting.png)
 
-1. (선택 사항) 업데이트를 비공개로 설정하려면 다음을 활성화합니다 **회사 개인** 업데이트 상자의 오른쪽 아래 모서리에 있습니다. 이렇게 하면 회사 사용자만 업데이트를 볼 수 있습니다.
+1. (선택 사항) 업데이트를 비공개로 설정하려면 다음을 활성화합니다 **회사 개인** 업데이트 상자의 오른쪽 아래 모서리에 있습니다. 이렇게 하면 회사 사용자만 업데이트를 볼 수 있습니다. 다음 **회사 개인** 옵션이 Workfront 프로필에 회사를 지정한 경우에만 사용할 수 있습니다.
 
    >[!NOTE]
    >
@@ -171,3 +173,5 @@ Workfront 객체에 업데이트 추가에 대한 내용은 [작업 업데이트
    ![](assets/members-icons-expanded-unshimmed.png)
 
    작업 항목을 업데이트할 때 사용할 수 있는 추가 기능에 대한 자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+1. (선택 사항) **자세히** 메뉴 ![](assets/more-menu.png) 좋아요 아이콘 오른쪽에 있는 를 클릭한 다음 **편집**. 태그가 지정된 사용자를 모두 제거한 다음 **제출**. 댓글을 입력한 후 15분 내에서만 주석을 편집할 수 있습니다. 추가한 주석만 편집할 수 있습니다.
