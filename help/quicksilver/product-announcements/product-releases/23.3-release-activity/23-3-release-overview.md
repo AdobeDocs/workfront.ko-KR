@@ -4,9 +4,9 @@ description: 23.3 릴리스 개요
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 3add9b96e2faae0fba2f3b0561271dafd484d281
+source-git-commit: 2c38c21770b7531293f76cdb24699c0bf76fed57
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '775'
 ht-degree: 0%
 
 ---
@@ -137,23 +137,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         <p><span class="bold">릴리스 날짜</span>
                         </p>
                     </td>
-                </tr><!--
+                </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3--apr-17.md" class="MCXref xref" xrefformat="{para}">Profiles without avatars now display user initials</a><span style="color: #ff0000;"> New in Preview!</span></p>
-                        <p>To make it easier to find specific users within large lists, profiles without customized avatars now display the user's initials on a colored background in lists and legacy reports. This is a minor cosmetic change, and does not apply if an avatar photo is already being used or the user is deactivated.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">이제 아바타가 없는 프로필에는 사용자 이니셜이 표시됩니다</a><span style="color: #ff0000;"> 미리 보기의 새로운 기능!</span></p>
+                        <p>큰 목록 내에서 특정 사용자를 더 쉽게 찾을 수 있도록, 사용자 지정된 아바타가 없는 프로필에는 목록 및 레거시 보고서에서 색상 배경에 사용자 이니셜이 표시됩니다. 사소한 외관 변경 사항이며 아바타 사진이 이미 사용 중이거나 사용자가 비활성화된 경우에는 적용되지 않습니다.</p>
                     </td>
-                    <td><p><b>Available on these dates:</b></p>
+                    <td><p><b>다음 날짜에 사용할 수 있습니다.</b></p>
                         <ul>
                             <li>
-                                <p>Preview release:&#160;April 20, 2023<br /></p>
+                                <p>릴리스 미리 보기: 2023년 4월 20일<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Production release:&#160;With the 23.3 release</span></p>
+                                <p><span class="preview">프로덕션 릴리스: 23.3 릴리스</span></p>
                             </li>
                         </ul>
                     </td>
-                </tr>-->
+                </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">23.3 릴리스 일정 동안 찾기 및 감지 업데이트</a></p>
