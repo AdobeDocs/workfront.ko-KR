@@ -7,9 +7,9 @@ description: 애드혹 및 연결된 카드를 사용하여 보드를 만들 때
 author: Lisa
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: 4df80a89134ce63903d3d83813fd4ca7c857cd00
+source-git-commit: 2c6a828d95df1229780803a173d5013f5b1eb215
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ ht-degree: 0%
 * [보드에 흡기 열 추가](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
 * [보드에서 그룹 사용](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md)
 * [카드 폴아웃 구성](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md)
+* [애자일 팀 간판 카드를 Workfront 보드로 마이그레이션](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
 * [워크플로우 관리](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
 * [카드 목록 사용](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
 * [워크플로우에서 반복 만들기](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
