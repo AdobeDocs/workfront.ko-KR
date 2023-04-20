@@ -6,9 +6,9 @@ title: 에 대한 초기 기능 옵트인 [!DNL Adobe Workfront] 보드
 description: 에 대해 알아보려면 이 문서를 참조하십시오. [!DNL Workfront Boards] 초기 기능 옵트인.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 2c6a828d95df1229780803a173d5013f5b1eb215
+source-git-commit: 199a83eaeb7fb96b41cec44ea116121cb84c1721
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
@@ -166,7 +166,7 @@ ht-degree: 0%
   </tr>
   <tr>
    <td>다이내믹 보드 만들기</td>
-   <td>계획됨</td>
+   <td>부분적으로 릴리즈됨</td>
   </tr>
  </tbody> 
 </table>
