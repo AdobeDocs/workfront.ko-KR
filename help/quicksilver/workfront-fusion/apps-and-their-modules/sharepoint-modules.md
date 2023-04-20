@@ -9,9 +9,9 @@ description: 에서 [!DNL Adobe Workfront Fusion] 시나리오 SharePoint을 사
 author: Becky
 feature: Workfront Fusion
 exl-id: 16d49031-06d2-4c86-bac4-f58cd9b2f1f5
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 8283022f24913988248005da0c8e583b29f19652
 workflow-type: tm+mt
-source-wordcount: '1951'
+source-wordcount: '2371'
 ht-degree: 0%
 
 ---
@@ -90,11 +90,122 @@ ht-degree: 0%
 
 ![](assets/map-toggle-350x74.png)
 
+* [드라이브 항목](#drive-item)
 * [항목](#item)
 * [목록](#list)
 * [페이지(베타)](#page-beta)
 * [사이트](#site)
 * [기타](#other)
+
+### 드라이브 항목
+
+* [파일 만들기](#create-a-file)
+* [폴더 만들기](#create-a-folder)
+* [파일 가져오기](#get-a-file)
+* [감시 폴더 항목](#watch-folder-items)
+
+#### 파일 만들기
+
+이 작업 모듈은 SharePoint에서 새 파일을 만듭니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>연결 방법에 대한 지침은 [!DNL SharePoint] 계정 대상 [!DNL Workfront Fusion]를 참조하십시오. <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 참조하십시오.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 사이트, 드라이브 및 폴더 ID 입력]</td> 
+   <td> <p>만들려는 파일의 위치를 식별하는 방법을 선택합니다.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL 수동으로 Enter]</strong> </p> <p>을 입력하거나 매핑합니다 <strong>[!UICONTROL 사이트 ID]</strong>, <strong>[!UICONTROL 목록 ID]</strong>, 및 <strong>[!UICONTROL 폴더 ID]</strong> 표시됩니다.</p> </li> 
+     <li> <p><strong>[!UICONTROL 팔로우하는 목록에서 선택합니다.]</strong> </p> <p>파일을 만들 위치를 선택합니다. </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 소스 파일]</td> 
+   <td>이전 모듈에서 소스 파일을 선택하거나 소스 파일의 이름과 데이터를 매핑합니다.</td> 
+  </tr>  </tbody> 
+</table>
+
+#### 폴더 만들기
+
+이 작업 모듈은 SharePoint에서 새 폴더를 만듭니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>연결 방법에 대한 지침은 [!DNL SharePoint] 계정 대상 [!DNL Workfront Fusion]를 참조하십시오. <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 참조하십시오.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 사이트, 드라이브 및 폴더 ID 입력]</td> 
+   <td> <p>만들 폴더의 위치를 식별할 방법을 선택합니다.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL 수동으로 Enter]</strong> </p> <p>을 입력하거나 매핑합니다 <strong>[!UICONTROL 사이트 ID]</strong>, <strong>[!UICONTROL 목록 ID]</strong>, 및 <strong>[!UICONTROL 폴더 ID]</strong> 표시됩니다.</p> </li> 
+     <li> <p><strong>[!UICONTROL 팔로우하는 목록에서 선택합니다.]</strong> </p> <p>폴더를 만들 위치를 선택합니다. </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 폴더 이름]</td> 
+   <td>새 폴더의 이름을 입력하거나 매핑합니다.</td> 
+  </tr>
+  </tbody> 
+</table>
+
+#### 파일 가져오기
+
+이 작업 모듈은 지정된 SharePoint 파일을 검색합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>연결 방법에 대한 지침은 [!DNL SharePoint] 계정 대상 [!DNL Workfront Fusion]를 참조하십시오. <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 참조하십시오.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 사이트, 드라이브 및 폴더 ID 입력]</td> 
+   <td> <p>가져올 파일의 위치를 식별하는 방법을 선택합니다.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL 수동으로 Enter]</strong> </p> <p>을 입력하거나 매핑합니다 <strong>[!UICONTROL 사이트 ID]</strong>, <strong>[!UICONTROL 목록 ID]</strong>, 및 <strong>[!UICONTROL 파일 ID]</strong> 표시됩니다.</p> </li> 
+     <li> <p><strong>[!UICONTROL 팔로우하는 목록에서 선택합니다.]</strong> </p> <p>파일의 위치를 선택합니다. </p> </li> 
+    </ul> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+#### 감시 폴더 항목
+
+이 트리거 모듈은 선택한 폴더에서 항목이 업데이트되면 시나리오를 시작합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>연결 방법에 대한 지침은 [!DNL SharePoint] 계정 대상 [!DNL Workfront Fusion]를 참조하십시오. <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 참조하십시오.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 사이트, 드라이브 및 폴더 ID 입력]</td> 
+   <td> <p>가져올 파일의 위치를 식별하는 방법을 선택합니다.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL 수동으로 Enter]</strong> </p> <p>을 입력하거나 매핑합니다 <strong>[!UICONTROL 사이트 ID]</strong>, <strong>[!UICONTROL 목록 ID]</strong>, 및 <strong>[!UICONTROL 폴더 ID]</strong> 표시됩니다.</p> </li> 
+     <li> <p><strong>[!UICONTROL 팔로우하는 목록에서 선택합니다.]</strong> </p> <p>보려는 폴더의 위치를 선택합니다. </p> </li> 
+    </ul> </td> 
+  </tr> 
+   <td role="rowheader">[!UICONTROL 제한]</td> 
+   <td>최대 항목 수를 입력합니다 [!DNL Workfront Fusion] 한 시나리오 실행 주기 동안 를 반환해야 합니다.</td> 
+  <tr>
+  </tr>
+</tbody> 
+</table>
 
 ### 항목
 
