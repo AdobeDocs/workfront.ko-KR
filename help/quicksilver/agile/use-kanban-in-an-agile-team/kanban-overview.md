@@ -7,16 +7,18 @@ description: 간판 보드가 작동하는 방식을 더 잘 이해하려면 이
 author: Lisa
 feature: Agile
 exl-id: d7daa6c1-dae2-4e5c-a765-6a6ebdfaa331
-source-git-commit: a478e5355db33e076b321a6219442198901f3252
+source-git-commit: 2c6a828d95df1229780803a173d5013f5b1eb215
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
 
 # 간판 개요
 
-다음 섹션에서는 [!UICONTROL 간판] 보드 함수:
+다음 섹션에서는 [!UICONTROL 간판] 보드 함수.
+
+민첩한 팀에서 마이그레이션하는 데 관심이 있는 경우 [!UICONTROL 간판] 보드 [!DNL Workfront] [!UICONTROL 보드]를 참조하십시오. [애자일 팀 마이그레이션 [!UICONTROL 간판] 카드 [!DNL Workfront] 보드](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
 
 ## [!UICONTROL 간판] 보드 레이아웃 및 함수
 
