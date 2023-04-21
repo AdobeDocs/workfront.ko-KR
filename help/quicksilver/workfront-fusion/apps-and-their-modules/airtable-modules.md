@@ -8,14 +8,13 @@ navigation-topic: apps-and-their-modules
 title: 에어테이블 모듈
 description: Adobe Workfront Fusion에는 Adobe Workfront 라이선스 외에 Adobe Workfront Fusion 라이센스가 필요합니다.
 author: Becky
-hidefromtoc: true
-source-git-commit: 6955c979d504adb6514ae64bf5108174d7a90ce4
+exl-id: 5d061b23-0a39-44e6-ac9b-0ef5ac7e9ab4
+source-git-commit: 9460e14a66653eaf1856cdf5c1ab3213859f354a
 workflow-type: tm+mt
 source-wordcount: '1863'
 ht-degree: 2%
 
 ---
-
 
 # 에어테이블 모듈
 
