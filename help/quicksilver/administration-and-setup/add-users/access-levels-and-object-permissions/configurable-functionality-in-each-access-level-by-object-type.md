@@ -1,26 +1,26 @@
 ---
-title: 각 객체 유형에 대한 기능에 대한 구성 가능한 기존 액세스
-description: 이 문서에서는 각 레거시 액세스 수준에서 각 개체 유형에 대해 Adobe Workfront 관리자로 허용할 수 있는 사항에 대해 설명합니다. 또한 레거시 액세스 수준 각 유형에 대한 기본 구성이 무엇인지 설명합니다.
+title: 각 객체 유형에 대한 기능에 대한 구성 가능한 액세스
+description: 이 문서에서는 각 액세스 수준에서 각 개체 유형에 대해 Adobe Workfront 관리자로 허용할 수 있는 사항에 대해 설명합니다. 또한 각 액세스 수준 유형에 대한 기본 구성이 무엇인지 설명합니다.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 94e0b205-140c-41c9-bb5a-f89b4c3aaea0
-source-git-commit: e3211ac5801c1318978427bc0a48d9b3a3028984
+source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
 workflow-type: tm+mt
-source-wordcount: '3456'
+source-wordcount: '3435'
 ht-degree: 10%
 
 ---
 
-# 각 객체 유형에 대한 기능에 대한 구성 가능한 기존 액세스
+# 각 객체 유형에 대한 기능에 대한 구성 가능한 액세스
 
-이 문서에서는 각 레거시 액세스 수준에서 각 개체 유형에 대해 Adobe Workfront 관리자로 허용할 수 있는 사항에 대해 설명합니다. 또한 레거시 액세스 수준 각 유형에 대한 기본 구성이 무엇인지 설명합니다.
+이 문서에서는 각 액세스 수준에서 각 개체 유형에 대해 Adobe Workfront 관리자로 허용할 수 있는 사항에 대해 설명합니다. 또한 각 액세스 수준 유형에 대한 기본 구성이 무엇인지 설명합니다.
 
 각 액세스 수준에서 객체 유형에 사용할 수 있는 모든 기능에 대한 내용은 [각 객체 유형에 사용할 수 있는 기능](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
 
 ## 프로젝트
 
-각 레거시 액세스 수준에서 프로젝트에 대해 다음 옵션을 구성할 수 있습니다.
+각 액세스 수준에서 프로젝트에 대해 다음 옵션을 구성할 수 있습니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,7 +37,7 @@ ht-degree: 10%
    <td> 
     <ul> 
      <li> <b>액세스 권한 없음</b> </li> 
-     <li><p> <b></b> 보기</p> <p>이를 세밀하게 조정하려면 프로젝트 공유 기능을 구성할 수 있습니다. 톱니바퀴 아이콘을 클릭합니다 <img src="assets/gear-icon-in-access-levels.png"> 보기 단추에서 <b>공유</b> 선택 사항(기본적으로 활성화됨).</p> </li> 
+     <li><p> <b>보기</b></p> <p>이를 세밀하게 조정하려면 프로젝트 공유 기능을 구성할 수 있습니다. 톱니바퀴 아이콘을 클릭합니다 <img src="assets/gear-icon-in-access-levels.png"> 보기 단추에서 <b>공유</b> 선택 사항(기본적으로 활성화됨).</p> </li> 
      <li> <p><b>편집</b> (기본 선택): 프로젝트에 대한 전체 편집 액세스를 허용합니다.</p> <p>이를 세밀하게 조정하려면 톱니바퀴 아이콘을 클릭합니다 <img src="assets/gear-icon-in-access-levels.png"> on <b>편집</b> 단추를 누른 다음 다음 옵션을 비활성화하거나 활성화합니다. 이러한 모든 구성 요소는 기본적으로 활성화되어 있습니다.</p> 
       <ul> 
        <li> <p>만들기</p> </li> 
@@ -54,7 +54,7 @@ ht-degree: 10%
    <td> 
     <ul> 
      <li> <b>액세스 권한 없음</b> </li> 
-     <li><p> <b></b> 보기</p> <p>이를 세밀하게 조정하려면 프로젝트 공유 기능을 구성할 수 있습니다. 톱니바퀴 아이콘을 클릭합니다 <img src="assets/gear-icon-in-access-levels.png"> 보기 단추에서 <b>공유</b> 선택 사항(기본적으로 활성화됨).</p> </li> 
+     <li><p> <b>보기</b></p> <p>이를 세밀하게 조정하려면 프로젝트 공유 기능을 구성할 수 있습니다. 톱니바퀴 아이콘을 클릭합니다 <img src="assets/gear-icon-in-access-levels.png"> 보기 단추에서 <b>공유</b> 선택 사항(기본적으로 활성화됨).</p> </li> 
      <li> <p><b>편집</b> (기본 선택): 프로젝트에 대한 제한된 편집 액세스를 허용합니다. 프로젝트에 대한 전체 편집 액세스를 허용하는 계획자 액세스 레벨과 비교하여 작업자 액세스 레벨에서 편집 액세스가 어떻게 제한되는지 보려면 섹션을 참조하십시오 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#projects" class="MCXref xref">프로젝트</a> 기사 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md" class="MCXref xref">각 객체 유형에 사용할 수 있는 기능</a>.</p> <p>이를 세밀하게 조정하려면 프로젝트 공유 기능을 구성할 수 있습니다. 톱니바퀴 아이콘을 클릭합니다 <img src="assets/gear-icon-in-access-levels.png"> 편집 단추에서 <b>공유</b> 선택 사항(기본적으로 활성화됨).</p> </li> 
     </ul> </td> 
   </tr> 
@@ -71,7 +71,7 @@ ht-degree: 10%
    <td> 
     <ul> 
      <li> <b>액세스 권한 없음</b> </li> 
-     <li><p> <b></b> 보기</p> (기본 선택) <p>프로젝트 공유를 활성화하거나 비활성화하도록 보기 액세스를 미세 조정할 수 없기 때문에 액세스가 제한됩니다.</p> </li> 
+     <li><p> <b>보기</b></p> (기본 선택) <p>프로젝트 공유를 활성화하거나 비활성화하도록 보기 액세스를 미세 조정할 수 없기 때문에 액세스가 제한됩니다.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -83,7 +83,7 @@ ht-degree: 10%
 
 ## 작업
 
-각 기존 액세스 수준에서 작업에 대해 다음 옵션을 구성할 수 있습니다.
+각 액세스 수준에서 작업에 대해 다음 옵션을 구성할 수 있습니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -100,7 +100,7 @@ ht-degree: 10%
    <td> 
     <ul> 
      <li> <b>액세스 권한 없음</b> </li> 
-     <li><p> <b></b> 보기</p> <p>이를 세밀하게 조정하려면 작업을 공유하는 기능을 구성할 수 있습니다. 톱니바퀴 아이콘을 클릭합니다 <img src="assets/gear-icon-in-access-levels.png"> 보기 단추에서 <b>공유</b> 선택 사항(기본적으로 활성화됨).</p> </li> 
+     <li><p> <b>보기</b></p> <p>이를 세밀하게 조정하려면 작업을 공유하는 기능을 구성할 수 있습니다. 톱니바퀴 아이콘을 클릭합니다 <img src="assets/gear-icon-in-access-levels.png"> 보기 단추에서 <b>공유</b> 선택 사항(기본적으로 활성화됨).</p> </li> 
      <li> <p><b>편집</b> (기본 선택): 작업에 대한 전체 편집 액세스를 허용합니다.</p> <p>이를 세밀하게 조정하려면 톱니바퀴 아이콘을 클릭합니다 <img src="assets/gear-icon-in-access-levels.png"> on <b>편집</b> 단추를 누른 다음 다음 옵션을 비활성화하거나 활성화합니다. 이러한 모든 구성 요소는 기본적으로 활성화되어 있습니다.</p> 
       <ul> 
        <li> <p>만들기</p> </li> 
@@ -115,7 +115,7 @@ ht-degree: 10%
    <td> 
     <ul> 
      <li> <b>액세스 권한 없음</b> </li> 
-     <li><p> <b></b> 보기</p> <p>이를 세밀하게 조정하려면 작업을 공유하는 기능을 구성할 수 있습니다. 톱니바퀴 아이콘을 클릭합니다 <img src="assets/gear-icon-in-access-levels.png"> 보기 단추에서 <b>공유</b> 선택 사항(기본적으로 활성화됨).</p> </li> 
+     <li><p> <b>보기</b></p> <p>이를 세밀하게 조정하려면 작업을 공유하는 기능을 구성할 수 있습니다. 톱니바퀴 아이콘을 클릭합니다 <img src="assets/gear-icon-in-access-levels.png"> 보기 단추에서 <b>공유</b> 선택 사항(기본적으로 활성화됨).</p> </li> 
      <li> <p><b>편집</b> (기본 선택): 작업에 대한 전체 편집 액세스를 허용합니다.</p> <p>이를 세밀하게 조정하려면 톱니바퀴 아이콘을 클릭합니다 <img src="assets/gear-icon-in-access-levels.png"> on <b>편집</b> 단추를 누른 다음 다음 옵션을 비활성화하거나 활성화합니다. 이러한 모든 구성 요소는 기본적으로 활성화되어 있습니다.</p> 
       <ul> 
        <li> <p>만들기</p> </li> 
@@ -137,7 +137,7 @@ ht-degree: 10%
    <td> 
     <ul> 
      <li> <b>액세스 권한 없음</b> </li> 
-     <li><p> <b></b> 보기</p> (기본 선택)<p>프로젝트 공유를 활성화하거나 비활성화하도록 보기 액세스를 미세 조정할 수 없기 때문에 액세스가 제한됩니다.</p> </li> 
+     <li><p> <b>보기</b></p> (기본 선택)<p>프로젝트 공유를 활성화하거나 비활성화하도록 보기 액세스를 미세 조정할 수 없기 때문에 액세스가 제한됩니다.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -149,7 +149,7 @@ ht-degree: 10%
 
 ## 문제
 
-각 기존 액세스 수준에서 문제에 대해 다음 옵션을 구성할 수 있습니다.
+각 액세스 수준에서 문제에 대해 다음 옵션을 구성할 수 있습니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -181,7 +181,7 @@ ht-degree: 10%
    <td> 
     <ul> 
      <li> <b>액세스 권한 없음</b> </li> 
-     <li><p> <b></b> 보기</p> <p>이를 세밀하게 조정하려면 문제를 공유하는 기능을 구성할 수 있습니다. 톱니바퀴 아이콘을 클릭합니다 <img src="assets/gear-icon-in-access-levels.png"> 보기 단추에서 <b>공유</b> 선택 사항(기본적으로 활성화됨).</p> </li> 
+     <li><p> <b>보기</b></p> <p>이를 세밀하게 조정하려면 문제를 공유하는 기능을 구성할 수 있습니다. 톱니바퀴 아이콘을 클릭합니다 <img src="assets/gear-icon-in-access-levels.png"> 보기 단추에서 <b>공유</b> 선택 사항(기본적으로 활성화됨).</p> </li> 
      <li> <p><b>편집</b> (기본 선택): 문제에 대한 전체 편집 액세스를 허용합니다.</p> <p>이를 세밀하게 조정하려면 톱니바퀴 아이콘을 클릭합니다 <img src="assets/gear-icon-in-access-levels.png"> on <b>편집</b> 단추를 누른 다음 다음 옵션을 비활성화하거나 활성화합니다. 이러한 모든 구성 요소는 기본적으로 활성화되어 있습니다.</p> 
       <ul> 
        <li> <p>만들기</p> </li> 
@@ -195,7 +195,7 @@ ht-degree: 10%
    <td> 
     <ul> 
      <li> <b>액세스 권한 없음</b> </li> 
-     <li><p> <b></b> 보기</p> <p>이를 세밀하게 조정하려면 문제를 공유하는 기능을 구성할 수 있습니다. 톱니바퀴 아이콘을 클릭합니다 <img src="assets/gear-icon-in-access-levels.png"> 보기 단추에서 <b>공유</b> 선택 사항(기본적으로 활성화됨).</p> </li> 
+     <li><p> <b>보기</b></p> <p>이를 세밀하게 조정하려면 문제를 공유하는 기능을 구성할 수 있습니다. 톱니바퀴 아이콘을 클릭합니다 <img src="assets/gear-icon-in-access-levels.png"> 보기 단추에서 <b>공유</b> 선택 사항(기본적으로 활성화됨).</p> </li> 
      <li> <p><b>편집</b> (기본 선택): 문제에 대한 전체 편집 액세스를 허용합니다.</p> <p>이를 세밀하게 조정하려면 톱니바퀴 아이콘을 클릭합니다 <img src="assets/gear-icon-in-access-levels.png"> on <b>편집</b> 단추를 누른 다음 다음 옵션을 비활성화하거나 활성화합니다. 이러한 모든 구성 요소는 기본적으로 활성화되어 있습니다.</p> 
       <ul> 
        <li> <p>만들기</p> </li> 
@@ -209,7 +209,7 @@ ht-degree: 10%
    <td> 
     <ul> 
      <li> <b>액세스 권한 없음</b> </li> 
-     <li><p> <b></b> 보기</p> <p>이를 세밀하게 조정하려면 문제를 공유하는 기능을 구성할 수 있습니다. 톱니바퀴 아이콘을 클릭합니다 <img src="assets/gear-icon-in-access-levels.png"> 보기 단추에서 <b>공유</b> 선택 사항(기본적으로 활성화됨).</p> </li> 
+     <li><p> <b>보기</b></p> <p>이를 세밀하게 조정하려면 문제를 공유하는 기능을 구성할 수 있습니다. 톱니바퀴 아이콘을 클릭합니다 <img src="assets/gear-icon-in-access-levels.png"> 보기 단추에서 <b>공유</b> 선택 사항(기본적으로 활성화됨).</p> </li> 
      <li> <p><b>편집</b> (기본 선택): 문제에 대한 전체 편집 액세스를 허용합니다.</p> <p>이를 세밀하게 조정하려면 톱니바퀴 아이콘을 클릭합니다 <img src="assets/gear-icon-in-access-levels.png"> on <b>편집</b> 단추를 누른 다음 다음 옵션을 비활성화하거나 활성화합니다. 이러한 모든 구성 요소는 기본적으로 활성화되어 있습니다.</p> 
       <ul> 
        <li> <p>만들기</p> </li> 
@@ -227,7 +227,7 @@ ht-degree: 10%
 
 ## 포트폴리오
 
-각 레거시 액세스 수준에서 포트폴리오에 대해 다음 옵션을 구성할 수 있습니다.
+각 액세스 수준에서 포트폴리오에 대해 다음 옵션을 구성할 수 있습니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -244,7 +244,7 @@ ht-degree: 10%
    <td> 
     <ul> 
      <li> <b>액세스 권한 없음</b> </li> 
-     <li><p> <b></b> 보기</p> <p>이를 세밀하게 조정하려면 포트폴리오 공유 기능을 구성할 수 있습니다. 톱니바퀴 아이콘을 클릭합니다 <img src="assets/gear-icon-in-access-levels.png"> 보기 단추에서 <b>공유</b> 선택 사항(기본적으로 활성화됨).</p> </li> 
+     <li><p> <b>보기</b></p> <p>이를 세밀하게 조정하려면 포트폴리오 공유 기능을 구성할 수 있습니다. 톱니바퀴 아이콘을 클릭합니다 <img src="assets/gear-icon-in-access-levels.png"> 보기 단추에서 <b>공유</b> 선택 사항(기본적으로 활성화됨).</p> </li> 
      <li> <p><b>편집</b> (기본 선택): 포트폴리오에 대한 전체 편집 액세스를 허용합니다.</p> <p>이를 세밀하게 조정하려면 톱니바퀴 아이콘을 클릭합니다 <img src="assets/gear-icon-in-access-levels.png"> on <b>편집</b> 단추를 누른 다음 다음 옵션을 비활성화하거나 활성화합니다. 이러한 모든 구성 요소는 기본적으로 활성화되어 있습니다.</p> 
       <ul> 
        <li> <p>만들기</p> </li> 
@@ -283,7 +283,7 @@ ht-degree: 10%
 
 ## 프로그램
 
-각 레거시 액세스 수준에서 프로그램에 대해 다음 옵션을 구성할 수 있습니다.
+각 액세스 수준에서 프로그램에 대해 다음 옵션을 구성할 수 있습니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -300,7 +300,7 @@ ht-degree: 10%
    <td> 
     <ul> 
      <li> <b>액세스 권한 없음</b> </li> 
-     <li><p> <b></b> 보기</p> <p>이를 세밀하게 조정하려면 프로그램 공유 기능을 구성할 수 있습니다. 톱니바퀴 아이콘을 클릭합니다 <img src="assets/gear-icon-in-access-levels.png"> 보기 단추에서 <b>공유</b> 선택 사항(기본적으로 활성화됨).</p> </li> 
+     <li><p> <b>보기</b></p> <p>이를 세밀하게 조정하려면 프로그램 공유 기능을 구성할 수 있습니다. 톱니바퀴 아이콘을 클릭합니다 <img src="assets/gear-icon-in-access-levels.png"> 보기 단추에서 <b>공유</b> 선택 사항(기본적으로 활성화됨).</p> </li> 
      <li> <p><b>편집</b> (기본 선택): 프로그램에 대한 전체 편집 액세스를 허용합니다.</p> <p>이를 세밀하게 조정하려면 톱니바퀴 아이콘을 클릭합니다 <img src="assets/gear-icon-in-access-levels.png"> on <b>편집</b> 단추를 누른 다음 다음 옵션을 비활성화하거나 활성화합니다. 이러한 모든 구성 요소는 기본적으로 활성화되어 있습니다.</p> 
       <ul> 
        <li> <p>만들기</p> </li> 
@@ -339,7 +339,7 @@ ht-degree: 10%
 
 ## 보고서, 대시보드 및 달력
 
-각 기존 액세스 수준에서 보고서, 대시보드 및 달력에 대해 다음 옵션을 구성할 수 있습니다.
+각 액세스 수준에서 보고서, 대시보드 및 달력에 대해 다음 옵션을 구성할 수 있습니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -377,7 +377,7 @@ ht-degree: 10%
    <td> 
     <ul> 
      <li> <b>액세스 권한 없음</b> </li> 
-     <li><p> <b></b> 보기</p> (기본 선택)<p>이를 세밀하게 조정하려면 톱니바퀴 아이콘을 클릭합니다 <img src="assets/gear-icon-in-access-levels.png"> on <b>편집</b> 단추를 누른 다음 다음 작업을 비활성화하거나 활성화합니다. 이 두 항목은 기본적으로 활성화되어 있습니다.</p> 
+     <li><p> <b>보기</b></p> (기본 선택)<p>이를 세밀하게 조정하려면 톱니바퀴 아이콘을 클릭합니다 <img src="assets/gear-icon-in-access-levels.png"> on <b>편집</b> 단추를 누른 다음 다음 작업을 비활성화하거나 활성화합니다. 이 두 항목은 기본적으로 활성화되어 있습니다.</p> 
       <ul> 
        <li> <p>기본 제공 보고서 보기</p> </li> 
        <li> <p>공유</p> </li> 
@@ -413,7 +413,7 @@ ht-degree: 10%
 
 ## 필터, 보기 및 그룹화
 
-각 기존 액세스 수준에서 필터, 보기 및 그룹화에 대해 다음 옵션을 구성할 수 있습니다.
+각 액세스 수준에서 필터, 보기 및 그룹화에 대해 다음 옵션을 구성할 수 있습니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -457,7 +457,7 @@ ht-degree: 10%
    <td>검토자</td> 
    <td> 
     <ul> 
-     <li><p> <b></b> 보기</p> <p>이를 세밀하게 조정하려면 필터, 보기 및 그룹화를 공유하는 기능을 구성할 수 있습니다. 톱니바퀴 아이콘을 클릭합니다 <img src="assets/gear-icon-in-access-levels.png"> 보기 단추에서 <b>공유</b> 선택 사항(기본적으로 활성화됨).</p> </li> 
+     <li><p> <b>보기</b></p> <p>이를 세밀하게 조정하려면 필터, 보기 및 그룹화를 공유하는 기능을 구성할 수 있습니다. 톱니바퀴 아이콘을 클릭합니다 <img src="assets/gear-icon-in-access-levels.png"> 보기 단추에서 <b>공유</b> 선택 사항(기본적으로 활성화됨).</p> </li> 
      <li> <p><b>편집</b> (기본 선택): 필터, 보기 및 그룹화에 대한 전체 편집 액세스를 허용합니다.</p> <p>이를 세밀하게 조정하려면 톱니바퀴 아이콘을 클릭합니다 <img src="assets/gear-icon-in-access-levels.png"> on <b>편집</b> 단추를 누른 다음 다음 옵션을 비활성화하거나 활성화합니다. 이러한 모든 구성 요소는 기본적으로 활성화되어 있습니다.</p> 
       <ul> 
        <li> <p>만들기</p> </li> 
@@ -490,7 +490,7 @@ ht-degree: 10%
 
 ## 문서
 
-각 기존 액세스 수준에서 문서에 대해 다음 옵션을 구성할 수 있습니다.
+각 액세스 수준에서 문서에 대해 다음 옵션을 구성할 수 있습니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -507,7 +507,7 @@ ht-degree: 10%
    <td> 
     <ul> 
      <li> <b>액세스 권한 없음</b> </li> 
-     <li><p> <b></b> 보기</p> <p>이를 세밀하게 조정하려면 문서 공유 기능을 구성할 수 있습니다. 톱니바퀴 아이콘을 클릭합니다 <img src="assets/gear-icon-in-access-levels.png"> 보기 단추에서 <b>공유</b> 선택 사항(기본적으로 활성화됨).</p> </li> 
+     <li><p> <b>보기</b></p> <p>이를 세밀하게 조정하려면 문서 공유 기능을 구성할 수 있습니다. 톱니바퀴 아이콘을 클릭합니다 <img src="assets/gear-icon-in-access-levels.png"> 보기 단추에서 <b>공유</b> 선택 사항(기본적으로 활성화됨).</p> </li> 
      <li> <p><b>편집</b> (기본 선택): 문서에 대한 전체 편집 액세스를 허용합니다.</p> <p>이를 세밀하게 조정하려면 톱니바퀴 아이콘을 클릭합니다 <img src="assets/gear-icon-in-access-levels.png"> on <b>편집</b> 단추를 누른 다음 다음 옵션을 비활성화하거나 활성화합니다. 을 제외한 모든 옵션이 기본적으로 활성화됩니다 <b>공개 문서 공유</b> 및 <b>시스템 전체 공유</b>.</p> 
       <ul> 
        <li> <p>만들기</p> </li> 
@@ -539,7 +539,7 @@ ht-degree: 10%
    <td> 
     <ul> 
      <li> <b>액세스 권한 없음</b> </li> 
-     <li><p> <b></b> 보기</p> <p>이를 세밀하게 조정하려면 문서 공유 기능을 구성할 수 있습니다. 톱니바퀴 아이콘을 클릭합니다 <img src="assets/gear-icon-in-access-levels.png"> 보기 단추에서 <b>공유</b> 선택 사항(기본적으로 활성화됨).</p> </li> 
+     <li><p> <b>보기</b></p> <p>이를 세밀하게 조정하려면 문서 공유 기능을 구성할 수 있습니다. 톱니바퀴 아이콘을 클릭합니다 <img src="assets/gear-icon-in-access-levels.png"> 보기 단추에서 <b>공유</b> 선택 사항(기본적으로 활성화됨).</p> </li> 
      <li> <p><b>편집</b> (기본 선택): 문서에 대한 전체 편집 액세스를 허용합니다.</p> <p>이를 세밀하게 조정하려면 톱니바퀴 아이콘을 클릭합니다 <img src="assets/gear-icon-in-access-levels.png"> on <b>편집</b> 단추를 누른 다음 다음 작업을 비활성화하거나 활성화합니다. 마지막 두 개를 제외하고 모두 기본적으로 활성화됩니다 <b>공개 문서 공유</b> 및 <b>시스템 전체 공유</b>.</p> 
       <ul> 
        <li> <p>만들기</p> </li> 
@@ -573,7 +573,7 @@ ht-degree: 10%
 
 ## 사용자
 
-각 기존 액세스 수준에서 사용자에 대해 다음 옵션을 구성할 수 있습니다.
+각 액세스 수준에서 사용자에 대해 다음 옵션을 구성할 수 있습니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -629,7 +629,7 @@ ht-degree: 10%
 
 ## 팀
 
-각 레거시 액세스 수준에서 팀에 대해 다음 옵션을 구성할 수 있습니다.
+각 액세스 수준에서 팀에 대해 다음 옵션을 구성할 수 있습니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -645,7 +645,7 @@ ht-degree: 10%
    <td>플래너 </td> 
    <td> 
     <ul> 
-     <li><b></b> 보기 <p>이를 세밀하게 조정하려면 톱니바퀴 아이콘을 클릭합니다 <img src="assets/gear-icon-in-access-levels.png"> on <b>보기</b> 단추를 누르고 다음 옵션*을 비활성화하거나 활성화하십시오. 두 항목은 기본적으로 비활성화됩니다.</p> 
+     <li><b>보기</b> <p>이를 세밀하게 조정하려면 톱니바퀴 아이콘을 클릭합니다 <img src="assets/gear-icon-in-access-levels.png"> on <b>보기</b> 단추를 누르고 다음 옵션*을 비활성화하거나 활성화하십시오. 두 항목은 기본적으로 비활성화됩니다.</p> 
       <ul> 
        <li>모든 팀 보기</li> 
        <li> <p>내 그룹과 관련된 팀 보기</p> </li> 
@@ -665,7 +665,7 @@ ht-degree: 10%
    <td>보조 </td> 
    <td> 
     <ul> 
-     <li> <b></b> 보기
+     <li> <b>보기</b>
       <p>이를 세밀하게 조정하려면 톱니바퀴 아이콘을 클릭합니다 <img src="assets/gear-icon-in-access-levels.png"> on <b>보기</b> 단추를 누르고 다음 옵션*을 비활성화하거나 활성화하십시오. 둘 다 기본적으로 활성화되어 있습니다.</p> 
       <ul> 
        <li>모든 팀 보기</li> 
@@ -711,7 +711,7 @@ ht-degree: 10%
 
 ## 템플릿
 
-각 기존 액세스 수준에서 템플릿에 대해 다음 옵션을 구성할 수 있습니다.
+각 액세스 수준에서 템플릿에 대해 다음 옵션을 구성할 수 있습니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -728,7 +728,7 @@ ht-degree: 10%
    <td> 
     <ul> 
      <li> <b>액세스 권한 없음</b> </li> 
-     <li><p> <b></b> 보기</p> <p>이를 세밀하게 조정하려면 템플릿을 공유하는 기능을 구성할 수 있습니다. 톱니바퀴 아이콘을 클릭합니다 <img src="assets/gear-icon-in-access-levels.png"> 보기 단추에서 <b>공유</b> 선택 사항(기본적으로 활성화됨).</p> </li> 
+     <li><p> <b>보기</b></p> <p>이를 세밀하게 조정하려면 템플릿을 공유하는 기능을 구성할 수 있습니다. 톱니바퀴 아이콘을 클릭합니다 <img src="assets/gear-icon-in-access-levels.png"> 보기 단추에서 <b>공유</b> 선택 사항(기본적으로 활성화됨).</p> </li> 
      <li> <p><b>편집</b> (기본 선택): 템플릿에 대한 전체 편집 액세스를 허용합니다.</p> <p>이를 세밀하게 조정하려면 톱니바퀴 아이콘을 클릭합니다 <img src="assets/gear-icon-in-access-levels.png"> on <b>편집</b> 단추를 누른 다음 다음 옵션을 비활성화하거나 활성화합니다. 이러한 모든 구성 요소는 기본적으로 활성화되어 있습니다.</p> 
       <ul> 
        <li> <p>만들기</p> </li> 
@@ -768,7 +768,7 @@ ht-degree: 10%
 
 ## 재무 데이터
 
-각 기존 액세스 수준에서 재무 데이터에 대해 다음 옵션을 구성할 수 있습니다.
+각 액세스 수준에서 재무 데이터에 대해 다음 옵션을 구성할 수 있습니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -804,7 +804,7 @@ ht-degree: 10%
    <td> 
     <ul> 
      <li> <p><b>액세스 권한 없음</b> (기본 선택)</p> </li> 
-     <li> <b></b> 보기 </li> 
+     <li> <b>보기</b> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -812,7 +812,7 @@ ht-degree: 10%
    <td> 
     <ul> 
      <li> <p><b>액세스 권한 없음</b> (기본 선택)</p> </li> 
-     <li><b></b> 보기 </li> 
+     <li><b>보기</b> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -833,7 +833,7 @@ ht-degree: 10%
 
 ## 리소스 관리
 
-각 기존 액세스 수준에서 리소스 관리에 대해 다음 옵션을 구성할 수 있습니다.
+각 액세스 수준에서 리소스 관리에 대해 다음 옵션을 구성할 수 있습니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -850,7 +850,7 @@ ht-degree: 10%
    <td> 
     <ul> 
      <li> <b>액세스 권한 없음</b> </li> 
-     <li> <b></b> 보기 </li> 
+     <li> <b>보기</b> </li> 
      <li> <p><b>편집</b> (기본 선택): 리소스 관리에 대한 전체 편집 액세스를 허용합니다.</p> <p>이를 세밀하게 조정하려면 톱니바퀴 아이콘을 클릭합니다 <img src="assets/gear-icon-in-access-levels.png"> on <b>편집</b> 단추를 누른 다음 다음 옵션을 비활성화하거나 활성화합니다. 첫 번째 옵션만 <b>계획자에서 우선순위 및 예산 시간 편집</b>은 기본적으로 활성화되어 있습니다.</p> 
       <ul> 
        <li> <p> 플래너에서 우선 순위 및 예산 시간 편집</p> </li> 
@@ -891,7 +891,7 @@ ht-degree: 10%
 
 ## 시나리오 플래너 영역
 
-모든 기존 액세스 수준의 기본 설정은 액세스 없음입니다. Workfront 관리자는 이를 계획자, 작업자 및 검토자 액세스 레벨에 대한 보기 또는 편집 액세스로 변경할 수 있습니다.
+모든 액세스 수준에 대한 기본 설정은 액세스 없음입니다. Workfront 관리자는 이를 계획자, 작업자 및 검토자 액세스 레벨에 대한 보기 또는 편집 액세스로 변경할 수 있습니다.
 
 <!--
 DRAFTED IN FLARE:
@@ -905,6 +905,6 @@ Alina says: This will change overtime for some of the access levels, but right n
 
 ## Workfront 목표 영역
 
-6개의 기본 기존 액세스 수준(및 4개의 라이선스 유형 모두)이 모두 Workfront 목표를 편집하고 볼 수 있습니다.
+6개의 기본 액세스 수준(및 4개의 모든 라이선스 유형)이 모두 Workfront 목표를 편집하고 볼 수 있습니다.
 
 편집은 기본 옵션입니다.

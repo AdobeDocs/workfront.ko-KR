@@ -3,22 +3,22 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: access-levels
-title: 라이선스 유형별 개체 및 영역에 대한 기존 액세스
-description: 아래 표는 Workfront의 각 Adobe Workfront 레거시 라이센스에서 허용하는 가장 높은 액세스 수준(편집 또는 보기)을 보여줍니다.
+title: 라이선스 유형별 개체 및 영역에 대한 액세스
+description: 아래 표는 각 Adobe Workfront 라이센스에서 Workfront의 개체 및 영역에 대해 허용하는 가장 높은 액세스 수준(편집 또는 보기)을 알려줍니다.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d8f2a295-c053-4763-bf6e-6e836087a839
-source-git-commit: e3211ac5801c1318978427bc0a48d9b3a3028984
+source-git-commit: 4644edd2aac8c77508e940ec42c597aa702c4df1
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '430'
 ht-degree: 19%
 
 ---
 
-# 라이선스 유형별 개체 및 영역에 대한 기존 액세스
+# 라이선스 유형별 개체 및 영역에 대한 액세스
 
-아래 표는 각 Adobe Workfront 라이센스에서 Workfront의 개체 및 영역에 대해 허용하는 가장 높은 수준의 기존 액세스(편집 또는 보기)를 알려줍니다.
+아래 표는 각 Adobe Workfront 라이센스에서 Workfront의 개체 및 영역에 대해 허용하는 가장 높은 액세스 수준(편집 또는 보기)을 알려줍니다.
 
 * **보기**: 사용자는 항목을 검토하고 공유할 수 있습니다.
 * **편집**: 사용자는 항목을 생성, 편집, 삭제 및 공유할 수 있습니다.
@@ -49,11 +49,11 @@ ht-degree: 19%
 
 >[!NOTE]
 >
->검토 라이선스 또는 요청 라이선스를 가진 사용자에게 공유 기능이 제한됩니다. 자세한 내용은 [Adobe Workfront 라이선스 개요](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) 또는 [Adobe Workfront 이전 라이센스 개요](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+>검토 라이선스 또는 요청 라이선스를 가진 사용자에게 공유 기능이 제한됩니다. 자세한 내용은 [Adobe Workfront 라이선스 개요](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) 또는 [Adobe Workfront 라이선스 개요](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 >
 >외부 사용자는 Workfront에서 항목을 검색할 수 없습니다. 이 사용자는 특별히 공유된 문서와 달력을 볼 수 있습니다. 또한 사용자와 항목을 공유하는 사용자를 볼 수 있습니다.
 
-다음 문서에서 각 개체 및 영역에 대해 레거시 액세스 수준이 허용하는 사항에 대한 자세한 정보를 찾을 수 있습니다.
+다음 문서에서 각 개체 및 영역에 대해 액세스 수준이 허용하는 사항에 대한 자세한 정보를 찾을 수 있습니다.
 
 * [프로젝트에 대한 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)
 * [작업에 대한 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)

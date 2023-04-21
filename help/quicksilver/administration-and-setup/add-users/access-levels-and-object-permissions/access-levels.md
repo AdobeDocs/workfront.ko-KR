@@ -1,30 +1,30 @@
 ---
-title: 기존 액세스 수준 작동 방식
+title: 액세스 수준 작동 방식
 content-type: administrator
 product-area: system-administration
 navigation-topic: add-users-to-workfront
-description: Adobe Workfront 관리자는 사용자에게 기존 액세스 수준을 할당하여 객체를 보거나 편집할 수 있는 액세스 권한을 부여할 수 있습니다. 아래 문서에서는 기존 액세스 수준이 작동하는 방식을 설명합니다.
+description: Adobe Workfront 관리자는 액세스 수준을 할당하여 사용자에게 객체를 보거나 편집할 수 있는 액세스 권한을 부여할 수 있습니다. 아래 문서에서는 액세스 수준이 작동하는 방식을 설명합니다.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 14cf53be-e8b5-4508-b0df-c024f1e4f3a7
-source-git-commit: 6a62398de46f23701ee663b9effd074ae6b2dd35
+source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
 
-# 기존 액세스 수준 작동 방식
+# 액세스 수준 작동 방식
 
-Adobe Workfront 관리자는 사용자에게 기존 액세스 수준을 할당하여 객체를 보거나 편집할 수 있는 액세스 권한을 부여할 수 있습니다. 아래 문서에서는 기존 액세스 수준이 작동하는 방식을 설명합니다.
+Adobe Workfront 관리자는 액세스 수준을 할당하여 사용자에게 객체를 보거나 편집할 수 있는 액세스 권한을 부여할 수 있습니다. 아래 문서에서는 액세스 수준이 작동하는 방식을 설명합니다.
 
-* [기존 액세스 수준 개요](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
-* [이전 라이센스 개요](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
-* [Adobe Workfront의 내장된 기존 액세스 수준](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
-* [기존 액세스 수준 및 권한이 함께 작동하는 방식](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
-* [사용자의 기존 액세스 수준 및 라이센스 나열](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
-* [라이선스 유형별 개체 및 영역에 대한 기존 액세스](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
+* [액세스 수준 개요](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
+* [라이선스 개요](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
+* [Adobe Workfront의 내장된 액세스 수준](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
+* [액세스 수준 및 권한이 함께 작동하는 방법](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
+* [사용자의 액세스 수준 및 라이선스 나열](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
+* [라이선스 유형별 개체 및 영역에 대한 액세스](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
 * [각 객체 유형에 사용할 수 있는 기능](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
 
 ## 참조 -

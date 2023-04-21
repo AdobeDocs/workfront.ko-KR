@@ -2,9 +2,9 @@
 user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 feature-set: Workfront
-source-git-commit: 9f704ee45ce5d9d37e769dca3eb45d1c81065900
+source-git-commit: 09f55c5ea7f7bc37886ec1bc2fa41ecb5b6b02b0
 workflow-type: tm+mt
-source-wordcount: '12919'
+source-wordcount: '12923'
 ht-degree: 1%
 
 ---
@@ -417,22 +417,22 @@ ht-degree: 1%
          * [감사 로그 보기 및 내보내기](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
          * [사용자 로그인 정보 보기](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
          * [Adobe Admin Console](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
-      * 액세스 수준 작동 방식 {#access-levels}
-         * [액세스 수준 작동 방식](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
-         * [액세스 수준 개요](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
-         * [라이선스 개요](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
-         * [라이선스 유형별 개체 및 영역에 대한 액세스](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
-         * [각 객체 유형에 사용할 수 있는 기능](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
-      * 기존 액세스 수준 작동 방식 {#legacy-access-levels}
-         * [기존 수준 액세스 작동 방식](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
-         * [기존 액세스 수준 개요](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
-         * [이전 라이센스 개요](administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
-         * [기존 액세스 수준 및 권한](administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
-         * [라이센스 유형별 객체에 대한 기존 액세스](administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
+      * 새로운 액세스 수준 작동 방식 {#access-levels}
+         * [새로운 액세스 수준 작동 방식](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
+         * [새 액세스 수준 개요](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
+         * [새 라이선스 개요](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
+         * [새로운 라이센스를 위해 개체 및 영역에 액세스](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+         * [새로운 액세스 수준에 대해 각 객체 유형에 사용할 수 있는 기능](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
+      * 액세스 수준 작동 방식 {#legacy-access-levels}
+         * [액세스 수준 작동 방식](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
+         * [액세스 개요](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
+         * [라이선스 개요](administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
+         * [액세스 수준 및 권한](administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
+         * [라이선스 유형별 개체 및 영역에 대한 액세스](administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
          * [각 객체 유형에 대한 기능](administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
-         * [각 객체 유형에 대해 구성 가능한 기존 액세스](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
-         * [내장된 기존 액세스 수준](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
-         * [사용자의 기존 액세스 수준 및 라이센스 나열](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
+         * [각 객체 유형에 대해 구성 가능한 액세스](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
+         * [기본 제공 액세스 수준](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
+         * [사용자의 액세스 수준 및 라이선스 나열](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
       * Workfront에 대한 액세스 구성 {#configure-access}
          * [액세스 구성](administration-and-setup/add-users/configure-and-grant-access/configure-access.md)
          * [사용자 정의 액세스 수준 만들기 또는 수정](administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)
@@ -1820,7 +1820,7 @@ ht-degree: 1%
          * [FAQ: Adobe Workfront 내 언어 교정 - EMEA로의 마이그레이션](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
    * 승인을 위한 팁, 요령 및 문제 해결 {#ttt-approvals}
       * [승인을 위한 팁, 요령 및 문제 해결](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
-      * [모든 사용자에 대한 의사 결정 수 보기](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
+      * [모든 사용자의 증명 및 문서 결정 수 보기](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
 * 타임시트 {#timesheets}
    * [타임시트](timesheets/timesheets-all.md)
    * 작업표 세부 정보 {#details}

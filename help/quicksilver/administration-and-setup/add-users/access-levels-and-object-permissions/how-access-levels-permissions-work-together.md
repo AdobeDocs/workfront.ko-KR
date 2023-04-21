@@ -10,14 +10,14 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
-source-git-commit: 1bd454246419e199e5cfd0d8d1d73cd30c0b13b1
+source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 1%
+source-wordcount: '906'
+ht-degree: 2%
 
 ---
 
-# 기존 액세스 수준 및 권한이 함께 작동하는 방식
+# 액세스 수준 및 권한이 함께 작동하는 방법
 
 Adobe Workfront 관리자는 각 사용자가 가져야 하는 액세스 수준을 결정합니다. 해당 액세스 레벨은 시스템에서 객체 유형 및 영역을 보고 수행할 수 있는 작업을 정의합니다.
 
@@ -31,11 +31,11 @@ Adobe Workfront 관리자는 각 사용자가 가져야 하는 액세스 수준�
 
 이 문서에서는 이 조합이 작동하는 방식을 설명합니다.
 
-## 기존 액세스 수준
+## 액세스 수준
 
 Workfront에 로그인하려면 Workfront 관리자가 각 사용자에게 할당한 액세스 수준이 필요합니다.
 
-기본 기존 액세스 수준은 다음과 같습니다.
+기본 액세스 수준은 다음과 같습니다.
 
 * 시스템 관리자(계획 라이센스에 첨부됨)
 * 계획자(계획 라이센스에 첨부됨)

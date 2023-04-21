@@ -1,28 +1,29 @@
 ---
-title: 라이선스 개요
+title: 새 라이선스 개요
 user-type: administrator
 content-type: reference
 product-area: system-administration
 keywords: 라이선스,유형
 navigation-topic: access-levels
-description: 조직에서 Adobe Workfront을 구입할 때 일정 수의 라이선스를 구매했습니다. Workfront 관리자는 사용자에게 액세스 수준을 할당할 때 3가지 유형의 유료 Workfront 라이센스 중 하나를 각 사용자에게 제공합니다.
+description: 조직에서 Adobe Workfront을 구입할 때 일정 수의 라이선스를 구매했습니다. Workfront 관리자는 사용자에게 액세스 수준을 할당할 때 3가지 유형의 새로운 유료 Workfront 라이센스 중 하나를 각 사용자에게 제공합니다.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 6c1103ad00d7ac255aab1a2eb08df7b8b398b923
+exl-id: 10a5c04d-adbf-4985-a81c-1b33868ce260
+source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '351'
 ht-degree: 2%
 
 ---
 
-# 라이선스 개요
+# 새 라이선스 개요
 
 조직에서 Adobe Workfront을 구입할 때 일정 수의 라이선스를 구매했습니다. Workfront 관리자는 사용자에게 액세스 수준을 할당할 때 3가지 유형의 유료 Workfront 라이센스 중 하나를 각 사용자에게 제공합니다.
 
-## Workfront 라이선스 및 액세스 수준 연결 방법
+## 새로운 Workfront 라이센스와 새로운 액세스 수준을 함께 연결하는 방법
 
-3가지 유형의 유료 Workfront 라이센스를 통해 Workfront에 대한 다양한 수준의 액세스를 사용할 수 있습니다. 각 액세스 수준은 이러한 라이센스 중 하나에 연결됩니다.
+새로운 유료 Workfront 라이센스의 3가지 유형을 사용하면 Workfront에 대한 다양한 수준의 액세스를 사용할 수 있습니다. 각 액세스 수준은 이러한 라이센스 중 하나에 연결됩니다.
 
 Workfront 관리자는 사용자에게 라이센스를 할당하는 대신 해당 라이센스에 첨부된 액세스 수준을 사용자에게 할당합니다.
 
@@ -56,4 +57,3 @@ Workfront 관리자는 사용자에게 라이센스를 할당하는 대신 해�
 사용자에게 할당된 라이선스 및 액세스 수준을 볼 수 있습니다. 자세한 내용은 [사용자의 액세스 수준 및 라이선스 나열](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md).<!-- MAY NEED NEW LINK -->
 
 라이선스 관리에 대한 자세한 내용은 [시스템에서 사용 가능한 라이센스 관리](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).<!-- MAY NEED NEW LINK -->
-

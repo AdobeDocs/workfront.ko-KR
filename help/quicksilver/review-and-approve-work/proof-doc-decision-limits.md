@@ -5,23 +5,19 @@ title: 유료 사용자가 아닌 사용자를 위한 제한된 문서 및 증�
 description: 증명 및 문서 결정은 모든 유료 Workfront 라이선스에 대해 제한됩니다. 월별 사용자별로 재설정된 제한.
 author: Courtney
 feature: Work Management
-source-git-commit: 4a91a00c8089eb3cf424aa10d4ae86219bd6413f
+exl-id: f3e68fd8-723a-4e49-9cf1-823e36d04e55
+source-git-commit: a1435e58328b592be749541f47af66c51331759c
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '219'
 ht-degree: 6%
 
 ---
 
-
 # 유료 사용자가 아닌 사용자를 위한 제한된 문서 및 증명 결정 개요
 
-증명 및 문서 결정은 모든 유료 Workfront 라이선스에 대해 제한됩니다. 월별 사용자별로 재설정된 제한.
+증명 및 문서 결정은 새로운 계획에 대해 지불되지 않은 모든 Workfront 라이센스에 대해 제한됩니다. 자세한 내용은 [새 라이선스 개요](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 
->[!IMPORTANT]
->
->증명 및 문서 의사 결정 제한은 [이전 Workfront 라이선스 및 액세스 수준](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
-
-각 라이센스에 대한 결정 한계는 사용 중인 계획에 따라 다릅니다.
+월별 사용자별로 재설정된 제한. 각 라이센스에 대한 결정 한계는 사용 중인 계획에 따라 다릅니다.
 
 <table>
   <tr>

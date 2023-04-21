@@ -1,5 +1,5 @@
 ---
-title: 이전 라이센스 개요
+title: 라이선스 개요
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,26 +10,26 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f30e2d8-f5c3-4811-b780-49a2b0d058e7
-source-git-commit: 6a62398de46f23701ee663b9effd074ae6b2dd35
+source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '347'
 ht-degree: 2%
 
 ---
 
-# 이전 라이센스 개요
+# 라이선스 개요
 
-조직은 Adobe Workfront을 인수할 때 일정 수의 기존 라이센스를 구입했습니다. Workfront 관리자는 사용자에게 액세스 수준을 할당할 때 4가지 유형의 유료 Workfront 레거시 라이선스 중 하나를 각 사용자에게 제공합니다.
+조직은 Adobe Workfront을 인수할 때 특정 수의 라이선스를 구매했습니다. Workfront 관리자는 사용자에게 액세스 수준을 할당할 때 4가지 유형의 유료 Workfront 라이센스 중 하나를 각 사용자에게 제공합니다.
 
-## 기존 라이센스와 기존 액세스 수준을 함께 연결하는 방법
+## 라이센스 및 액세스 수준 연결 방법
 
-4가지 유형의 유료 Workfront 레거시 라이선스를 사용하면 Workfront에 대한 다양한 수준의 액세스를 사용할 수 있습니다. 각 레거시 액세스 수준은 이러한 기존 라이센스 중 하나에 연결됩니다.
+4가지 유형의 유료 Workfront 라이센스를 통해 Workfront에 대한 다양한 수준의 액세스를 사용할 수 있습니다. 각 액세스 수준은 이러한 라이센스 중 하나에 연결됩니다.
 
-Workfront 관리자는 사용자에게 이전 라이선스를 할당하는 대신 기존 라이선스에 연결된 기존 액세스 수준을 할당합니다.
+Workfront 관리자는 사용자에게 라이센스를 할당하는 대신 해당 라이센스에 첨부된 액세스 수준을 사용자에게 할당합니다.
 
 이 테이블 및 다이어그램은 Workfront에 대한 기본 액세스 수준을 보여줍니다.
 
-| 기존 라이센스 | 연결된 기존 액세스 수준 |
+| 라이선스 | 연결된 액세스 수준 |
 |--- |--- |
 | 플랜 | 시스템 관리자, 계획자 |
 | 작업 | 보조 |

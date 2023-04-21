@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 4a7999e6cb46d5b6933f44f1f19ff1979cb68a85
+source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
 workflow-type: tm+mt
-source-wordcount: '1405'
+source-wordcount: '1402'
 ht-degree: 6%
 
 ---
@@ -21,8 +21,8 @@ ht-degree: 6%
 
 Adobe Workfront 관리자는 사용자 지정 액세스 수준을 만들어 사용자에게 적용할 수 있습니다. 액세스 수준을 사용하여 작업할 때 사용자가 객체를 공유할 때 부여하는 객체 권한과 함께 작업하는 방법을 이해하는 것이 중요합니다. 액세스 수준에 대한 자세한 내용은
 
-* [액세스 수준 개요](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
-* [기존 액세스 수준 개요](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+* [새 액세스 수준 개요](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
+* [액세스 수준 개요](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 >[!IMPORTANT]
 >
@@ -80,7 +80,7 @@ Adobe Workfront 관리자는 사용자 지정 액세스 수준을 만들어 사�
      </tr> 
      <tr> 
       <td role="rowheader">라이선스 유형</td> 
-      <td>여기에서 선택한 라이센스가 만들거나 편집하는 액세스 수준 유형과 가장 밀접하게 연결되어 있는지 확인합니다. 선택한 라이센스는 액세스 수준에 사용할 수 있는 설정을 결정합니다. 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">이전 라이센스 개요</a> 또는 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront 이전 라이센스 개요</a>.</td> 
+      <td>여기에서 선택한 라이센스가 만들거나 편집하는 액세스 수준 유형과 가장 밀접하게 연결되어 있는지 확인합니다. 선택한 라이센스는 액세스 수준에 사용할 수 있는 설정을 결정합니다. 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">새 라이선스 개요</a> 또는 <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">라이선스 개요</a>.</td> 
      </tr> 
     </tbody> 
    </table>

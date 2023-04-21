@@ -4,20 +4,20 @@ content-type: reference
 product-area: system-administration
 keywords: 액세스,모델,단계,다이어그램,수준,권한
 navigation-topic: access-levels
-title: 다양한 레거시 액세스 수준에 대해 각 객체 유형에 사용할 수 있는 기능
+title: 다양한 액세스 수준에서 각 객체 유형에 사용할 수 있는 기능
 description: 다음 표에는 다양한 액세스 레벨의 각 객체 유형에 사용할 수 있는 기능이 나와 있습니다.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 1949879ec86e2203c422d1fc05fcb19edf19b4fd
+source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
 workflow-type: tm+mt
-source-wordcount: '1446'
+source-wordcount: '1444'
 ht-degree: 11%
 
 ---
 
-# 다양한 레거시 액세스 수준에 대해 각 객체 유형에 사용할 수 있는 기능
+# 다양한 액세스 수준에서 각 객체 유형에 사용할 수 있는 기능
 
 다음 표에는 다양한 액세스 레벨의 각 객체 유형에 사용할 수 있는 기능이 나와 있습니다.
 

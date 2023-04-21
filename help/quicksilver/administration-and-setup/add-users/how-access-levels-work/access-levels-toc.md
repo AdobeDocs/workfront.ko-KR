@@ -1,26 +1,27 @@
 ---
-title: 액세스 수준 작동 방식
+title: 새로운 액세스 수준 작동 방식
 content-type: administrator
 product-area: system-administration
 navigation-topic: add-users-to-workfront
-description: Adobe Workfront 관리자는 액세스 수준을 할당하여 사용자에게 객체를 보거나 편집할 수 있는 액세스 권한을 부여할 수 있습니다. 아래 문서에서는 액세스 수준이 작동하는 방식을 설명합니다.
+description: Adobe Workfront 관리자는 액세스 수준을 할당하여 사용자에게 객체를 보거나 편집할 수 있는 액세스 권한을 부여할 수 있습니다. 아래 문서에서는 새로운 액세스 수준 작동 방식을 설명합니다.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 1bd454246419e199e5cfd0d8d1d73cd30c0b13b1
+exl-id: 05f575d0-bf42-430b-8648-dbdd9297ca08
+source-git-commit: 4644edd2aac8c77508e940ec42c597aa702c4df1
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
 
-# 액세스 수준 작동 방식
+# 새로운 액세스 수준 작동 방식
 
-Adobe Workfront 관리자는 액세스 수준을 할당하여 사용자에게 객체를 보거나 편집할 수 있는 액세스 권한을 부여할 수 있습니다. 아래 문서에서는 액세스 수준이 작동하는 방식을 설명합니다.
+Adobe Workfront 관리자는 액세스 수준을 할당하여 사용자에게 객체를 보거나 편집할 수 있는 액세스 권한을 부여할 수 있습니다. 아래 문서에서는 새로운 액세스 수준 작동 방식을 설명합니다.
 
-* [액세스 수준 개요](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
-* [라이선스 개요](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
-* [라이선스 유형별 개체 및 영역에 대한 액세스](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+* [새 액세스 수준 개요](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
+* [새 라이선스 개요](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
+* [새로운 라이센스를 위해 개체 및 영역에 액세스](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
 * [각 객체 유형에 사용할 수 있는 기능](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md) <!--need to change name here or in legacy article -->
 
 ## 참조 -

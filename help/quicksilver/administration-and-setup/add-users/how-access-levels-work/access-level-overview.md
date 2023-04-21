@@ -1,5 +1,5 @@
 ---
-title: 액세스 수준 개요
+title: 새 액세스 수준 개요
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -9,23 +9,24 @@ description: Workfront에서 로그인하고 작업하려면 모든 사용자에
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 5baf629b368649ec07a789ea8970ed70ea750d68
+exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
+source-git-commit: 4af7a72a3633f1b669cbc681f230727cc4f54d1e
 workflow-type: tm+mt
-source-wordcount: '1622'
+source-wordcount: '1626'
 ht-degree: 4%
 
 ---
 
-# 액세스 수준 개요
+# 새 액세스 수준 개요
 
 Adobe Workfront 관리자는 두 가지 용도로 사용자에게 액세스 수준을 지정합니다.
 
 * Workfront에서 로그인하고 작업하려면 모든 사용자에게 액세스 수준이 있어야 합니다.
 * 액세스 수준을 사용하여 사용자가 특정 Workfront 개체 및 영역을 보고 수행할 수 있는 작업을 제어할 수 있습니다.
 
-## Adobe Workfront의 내장된 액세스 수준 {#built-in-access}
+## Adobe Workfront의 새로운 내장된 액세스 수준 {#built-in-access}
 
-Workfront에는 6개의 내장된 액세스 수준이 있습니다.
+Workfront에는 6개의 새로운 내장된 액세스 수준이 있습니다.
 
 * 시스템 관리자
 * 표준

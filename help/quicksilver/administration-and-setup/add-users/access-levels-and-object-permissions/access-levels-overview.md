@@ -1,5 +1,5 @@
 ---
-title: 기존 액세스 수준 개요
+title: 액세스 수준 개요
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,14 +10,14 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
-source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
+source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
 
-# 기존 액세스 수준 개요
+# 액세스 수준 개요
 
 Adobe Workfront 관리자는 두 가지 용도로 사용자에게 액세스 수준을 지정합니다.
 
@@ -42,7 +42,7 @@ Adobe Workfront 관리자는 두 가지 용도로 사용자에게 액세스 수�
  <tbody> 
   <tr> 
    <td>라이선스</td> 
-   <td> <p>액세스 수준에 첨부된 라이센스는 액세스 수준을 구성하는 방법을 결정합니다.</p> <p>자세한 내용은 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">이전 라이센스 개요</a>.</p> <p><strong>팁</strong>: 사용자 목록이나 보고서를 보고 각 사용자에게 할당된 액세스 수준 및 라이센스를 확인할 수 있습니다. 자세한 내용은 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md" class="MCXref xref">사용자의 액세스 수준 및 라이선스 나열</a>.</p> </td> 
+   <td> <p>액세스 수준에 첨부된 라이센스는 액세스 수준을 구성하는 방법을 결정합니다.</p> <p>자세한 내용은 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">라이선스 개요</a>.</p> <p><strong>팁</strong>: 사용자 목록이나 보고서를 보고 각 사용자에게 할당된 액세스 수준 및 라이센스를 확인할 수 있습니다. 자세한 내용은 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md" class="MCXref xref">사용자의 액세스 수준 및 라이선스 나열</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>기본 제공 액세스 수준</td> 
