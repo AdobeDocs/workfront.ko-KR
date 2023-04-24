@@ -7,16 +7,16 @@ description: G Suite용 Workfront의 개인 정보 및 권한
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: abb8ffa1-1da6-46dd-a929-18b17014839a
-source-git-commit: 90d088846e72f1632274043c8d8ca7807ff05b4a
+source-git-commit: a156092bf2b6cca70d09b76a65d755fbe05ec8da
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
 
 # G Suite용 Workfront의 개인 정보 및 권한
 
-고객 개인 정보가 중요하므로 Adobe Workfront은 Google 플러그인 앱의 타사 인증을 통해 생성되는 식별 고객 데이터를 저장하거나 수집하지 않습니다. Workfront for G Suite는 제한된 사용 요구 사항을 포함하여 Google API Services 사용자 데이터 정책을 준수합니다.
+고객 개인 정보가 중요하므로 Adobe Workfront은 Google 플러그인 앱의 타사 인증을 통해 생성되는 식별 고객 데이터를 저장하거나 수집하지 않습니다. Workfront for G Suite에서 Google API에서 받은 정보를 다른 앱으로 사용하고 전송하면 제한된 사용 요구 사항을 포함하여 Google API Services 사용자 데이터 정책을 따릅니다.
 
 G Suite용 Workfront 플러그인이 최대 값을 제공할 수 있으려면 다음 권한이 필요합니다.
 
