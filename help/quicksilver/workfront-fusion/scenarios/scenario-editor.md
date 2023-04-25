@@ -7,7 +7,7 @@ description: 시나리오 편집기를 사용하면 시각적 인터페이스에
 author: Becky
 feature: Workfront Fusion
 exl-id: 4377303d-7615-41eb-b0cc-4bf884899361
-source-git-commit: aa58a64ea6b09192f93fa89a42a4bf6731052d10
+source-git-commit: 27db607fd0543b06a502032a9b6b0c88d4ecec41
 workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 0%
@@ -158,3 +158,4 @@ ht-degree: 0%
      <td>클릭 <strong>[!UICONTROL 한 번 실행]</strong> 시나리오를 활성화하기 전에 예상대로 실행되는지 확인합니다. 활성화되면 시나리오가 해당 예약에 따라 실행됩니다. 모든 것이 예상대로 실행되지 않으면 오류 처리 섹션을 방문하여 오류를 처리하는 방법을 알아볼 수 있습니다.</td> 
    </tr> 
 </tbody>
+</table>
