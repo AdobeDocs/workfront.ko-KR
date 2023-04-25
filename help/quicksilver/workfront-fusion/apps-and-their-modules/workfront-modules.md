@@ -9,9 +9,9 @@ description: Adobe Workfront Fusion Adobe Workfront 커넥터를 사용하여 Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 97f063a2e73c28a54cb1e1f99d66a8979ff3718c
 workflow-type: tm+mt
-source-wordcount: '5276'
+source-wordcount: '5288'
 ht-degree: 3%
 
 ---
@@ -771,7 +771,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td>[!UICONTROL 검색 기준]</td> 
-   <td> <p>검색할 필드, 쿼리에 사용할 연산자 및 필드에서 검색할 값을 입력합니다.</p> <p>참고: 사용 안 함 <code>username </code>참조하십시오. 포함 <code>username </code>에 대한 API 쿼리 [!DNL Workfront] 사용자를 Workfront에 로그인하면 검색이 되지 않습니다.</p> </td> 
+   <td> <p>검색할 필드, 쿼리에 사용할 연산자 및 필드에서 검색할 값을 입력합니다.</p> <p>참고: 사용 안 함 <code>username </code>참조하십시오. 포함 <code>username </code>에 대한 API 쿼리 [!DNL Workfront] 사용자를 Workfront에 로그인하면 검색이 되지 않습니다.</p> <p>참고: <code>In</code> 및 <code>NotIn</code>어레이를 사용하여 작업 입력은 배열 형식이어야 합니다.</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL 출력]</td> 
