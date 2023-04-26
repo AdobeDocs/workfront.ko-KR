@@ -7,9 +7,9 @@ description: 다음 작업은 [!DNL Adobe Workfront Fusion] 시나리오.
 author: Becky
 feature: Workfront Fusion
 exl-id: adf66cfc-ccaf-4b29-9199-c13260695569
-source-git-commit: fcaa2136310cad8ef478020a9bae34bbe5520c6d
+source-git-commit: a3fd1da2f0d144fe9d6444c038ac21baba3cd848
 workflow-type: tm+mt
-source-wordcount: '1428'
+source-wordcount: '1384'
 ht-degree: 0%
 
 ---
@@ -62,12 +62,6 @@ Adobe에서 제공하는 데이터를 사용하여 통합 시나리오를 만드
 1. 클릭 **[!UICONTROL 시나리오]** ![](assets/scenarios-icon.png) 왼쪽 패널에 표시됩니다.
 
 1. 클릭 **[!UICONTROL 새 시나리오 만들기]** 페이지의 오른쪽 위 모서리에서 을(를) 클릭합니다.
-1. (선택 사항) 아래에 있습니다. **[!UICONTROL 통합할 서비스]**, 새 시나리오를 만드는 경우 시나리오에서 작업할 앱을 선택한 다음 를 클릭합니다. **[!UICONTROL 계속]**.
-
-   또는
-
-   클릭 **[!UICONTROL 건너뛰기]** 시나리오 편집기 내에서 앱을 선택하려면 다음을 수행하십시오.
-
 1. 표시되는 화면(시나리오 편집기)에서 새 시나리오를 만드는 경우 **[!UICONTROL 새 시나리오]** 왼쪽 위 모서리에 시나리오 이름을 입력합니다.
 1. 계속 [시나리오에서 모듈 추가](#add-a-module-in-a-scenario).
 

@@ -7,9 +7,9 @@ description: 시나리오 편집기를 사용하면 시각적 인터페이스에
 author: Becky
 feature: Workfront Fusion
 exl-id: 4377303d-7615-41eb-b0cc-4bf884899361
-source-git-commit: 27db607fd0543b06a502032a9b6b0c88d4ecec41
+source-git-commit: c19e8c104ac1e93d67300637437d32b6f8534e99
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '804'
 ht-degree: 0%
 
 ---
@@ -61,12 +61,6 @@ ht-degree: 0%
 
    기존 시나리오를 편집하려면 시나리오를 클릭합니다.
 
-1. (조건부) 새 시나리오를 만드는 경우 **[!UICONTROL 통합할 서비스]**&#x200B;를 클릭하고 시나리오에서 작업할 앱을 선택한 다음 **[!UICONTROL 계속]**.
-
-   또는
-
-   클릭 **[!UICONTROL 건너뛰기]** 시나리오 편집기 내에서 앱을 선택하는 것이 좋습니다.
-
    표시되는 시나리오 편집기에서 아래 표에 나열된 모든 작업을 수행할 수 있습니다. 자세한 내용은 [에서 시나리오 만들기 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 1. 시나리오 편집을 완료하거나 편집하는 동안 언제든지 [!UICONTROL 저장] 아이콘. ![](assets/save-icon.gif)
@@ -76,6 +70,8 @@ ht-degree: 0%
    >시나리오를 저장한 후 나중에 액세스해야 하는 경우 3개 점 메뉴 아래에서 새 버전을 사용할 수 있습니다. 이전에 저장한 시나리오 버전은 60일 동안만 사용할 수 있습니다.
 
 ## 사용 가능한 시나리오 편집기 작업
+
+시나리오 편집기에서 다음 작업을 사용할 수 있습니다.
 
 <table style="table-layout:auto"> 
 <tbody>
