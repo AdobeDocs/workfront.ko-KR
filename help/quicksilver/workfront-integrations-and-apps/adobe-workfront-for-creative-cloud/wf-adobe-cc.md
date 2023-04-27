@@ -7,9 +7,9 @@ description: Creative Cloud 응용 프로그램을 위한 Adobe Workfront 플러
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: ebccdf17-12e3-4adc-95af-61d6337edb72
-source-git-commit: 15307cd34aa0787579a1cb26e0b165222d8d8502
+source-git-commit: 48333c6d56a102e8f96887dd13f0c799f3233f80
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '133'
 ht-degree: 1%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 1%
 * 파일 업로드
 * 프로젝트 및 작업 보기
 * 기타 등등
+
+[에서 사용할 수 있는 기능에 대한 비디오 개요를 봅니다. [!DNL Adobe Workfront] 대상 [!DNL Creative Cloud] 플러그인](https://video.tv.adobe.com/v/3418801/){target=_blank}.
 
 ## 플러그인을 설치하고 사용합니다
 

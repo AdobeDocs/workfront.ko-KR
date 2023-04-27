@@ -6,7 +6,7 @@ description: 철저한 검토 및 승인을 위해 대지를 증명을 Adobe Wor
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
-source-git-commit: 4a7fb18674b399b138fd981907f3a9da8e0bb30e
+source-git-commit: d0afdfc7be9177f6ff45dcc247253faa9dc57967
 workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 1%
@@ -99,6 +99,8 @@ ht-degree: 1%
     </tbody> 
    </table>
 
+{{adjust-proof-settings}}
+
 1. (선택 사항) **[!UICONTROL 업데이트]** 영역.
 
    ![](assets/proof-approvals-xd-350x396.png)
@@ -173,6 +175,8 @@ ht-degree: 1%
     </tbody> 
    </table>
 
+{{adjust-proof-settings}}
+
 1. (선택 사항) **[!UICONTROL 업데이트]** 영역.
 
    ![](assets/proof-approvals-xd-350x396.png)
@@ -229,6 +233,8 @@ ht-degree: 1%
      </tr> 
     </tbody> 
    </table>
+
+{{adjust-proof-settings}}
 
 1. 에서 내보내기 형식을 선택합니다 **[!UICONTROL 자산 유형]** 드롭다운 메뉴
 

@@ -6,9 +6,9 @@ description: 빠른 검토 및 승인을 위해 또는 Adobe Workfront에 저장
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: ee3dc446-6886-4285-a942-4f44f5c0ac31
-source-git-commit: 9ed0fcb4344d72d6629cafd16f1a81dee4063a1e
+source-git-commit: 68dae619348c3359ea8a7ae3ff84543d5e4171ec
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -66,22 +66,21 @@ ht-degree: 0%
 1. 을(를) 클릭합니다. **[!UICONTROL 문서]** 아이콘 ![](assets/documents.png) 을 클릭합니다.
 1. 클릭 **[!UICONTROL 새 파일]** 플러그인의 하단 근처에 있습니다.
 1. 를 활성화합니다 **[!UICONTROL 증명 만들기]** 토글.
-1. 을(를) 선택합니다 **[!UICONTROL 자산 유형]** 를 클릭합니다.
-
-   ![](assets/plugin-create-proof-350x182.png)
-
+1. (선택 사항)에 증명의 이름을 입력합니다 **[!UICONTROL 증명 이름]** 텍스트 상자
 1. 에서 **[!UICONTROL 증명 승인]** 섹션, **[!UICONTROL 기본]**.
 1. (선택 사항) 승인자를 추가합니다.
 1. (선택 사항) **[!UICONTROL 업데이트]** 영역.
 
-   ![](assets/plugin-proof-approvals-350x450.png)
+   ![](assets/add-comment.png)
 
-1. (선택 사항)에 증명의 이름을 입력합니다 **[!UICONTROL 증명 이름]** 텍스트 상자
+1. 을(를) 선택합니다 **[!UICONTROL 자산 유형]** 를 클릭합니다.
+
 1. (선택 사항) 선택 **[!UICONTROL 외부 파일 추가]** 컴퓨터에서 파일을 추가하려면
 1. 클릭 **[!UICONTROL 업로드]**&#x200B;그런 다음 위에서 선택한 자산 유형을 기준으로 원하는 내보내기 옵션을 구성합니다.
 
    ![](assets/plugin-files-350x307.png)\
    문서가 [!UICONTROL 문서] 영역(플러그인 및 데스크탑 앱)을 포함합니다.
+
 
 ## 자동화된 증명 업로드
 
@@ -93,26 +92,26 @@ ht-degree: 0%
 1. 을(를) 클릭합니다. **[!UICONTROL 문서]** 아이콘 ![](assets/documents.png) 을 클릭합니다.
 
 1. 클릭 **[!UICONTROL 새 파일]** 플러그인의 하단 근처에 있습니다.
-1. 를 활성화합니다 **[!UICONTROL 증명 만들기]** 토글, 선택 **[!UICONTROL 자산 유형]** 를 클릭합니다.
-
-   ![](assets/plugin-create-proof-350x182.png)
-
+1. 를 활성화합니다 **[!UICONTROL 증명 만들기]** 토글.
+1. (선택 사항)에 증명의 이름을 입력합니다 **[!UICONTROL 증명 이름]** 텍스트 상자
 1. 에서 **[!UICONTROL 증명 승인]** 섹션, **[!UICONTROL 자동화된]**.
 1. (선택 사항)에서 **[!UICONTROL 워크플로우 템플릿]** 상자에 증명 워크플로우 템플릿의 이름을 입력합니다.
 
-<!-- {{adjust-proof-settings}} -->
+{{adjust-proof-settings}}
+
+>[!NOTE]
+>
+> 워크플로우 템플릿에 빈 필수 필드가 있으면 자동화된 증명 설정이 자동으로 열리고 증명을 업로드하려면 해당 필드를 채워야 합니다.
+
 
 1. (선택 사항) **[!UICONTROL 업데이트]** 영역.
 
-   ![](assets/copy-of-proof-approvals-advanced-350x424.png) <!-- new screenshot -->
+   ![](assets/add-comment-automated-approval.png)
 
-1. (선택 사항)에 증명의 이름을 입력합니다 **[!UICONTROL 증명 이름]** 텍스트 상자
+1. 을(를) 선택합니다 **[!UICONTROL 자산 유형]** 를 클릭합니다.
 1. (선택 사항) 선택 **[!UICONTROL 외부 파일 추가]** 컴퓨터에서 파일을 추가하려면
-1. 클릭 **[!UICONTROL 업로드]**&#x200B;그런 다음 위에서 선택한 자산 유형을 기준으로 원하는 내보내기 옵션을 구성합니다.
-
-   ![](assets/plugin-files-350x307.png)\
-   문서가 [!UICONTROL 문서] 영역(플러그인 및 데스크탑 앱)을 포함합니다.
-
+1. 클릭 **[!UICONTROL 업로드]**그런 다음 위에서 선택한 자산 유형을 기준으로 원하는 내보내기 옵션을 구성합니다.
+문서가 [!UICONTROL 문서] 영역(플러그인 및 데스크탑 앱)을 포함합니다.
 
 ## 새 증명 버전 업로드
 
@@ -126,15 +125,13 @@ ht-degree: 0%
 1. 을(를) 클릭합니다. **[!UICONTROL 문서]** 아이콘 ![](assets/documents.png)을 클릭합니다.
 
 1. 클릭 **[!UICONTROL 새 버전]** 플러그인의 하단 근처에 있습니다.
-1. 을(를) 선택합니다 **[!UICONTROL 자산 유형]** 를 클릭합니다.
-1. 를 활성화합니다 **[!UICONTROL 증명 만들기]** 토글, 선택 **[!UICONTROL 자산 유형]** 를 클릭합니다.
-
-   ![](assets/plugin-create-proof-350x182.png)
+1. 를 활성화합니다 **[!UICONTROL 증명 만들기]** 토글.
 
 1. 에서 *[!UICONTROL *증명 승인]** 섹션, **[!UICONTROL 기본]** 또는 **[!UICONTROL 자동화된]**.
 
 1. 추가 **[!UICONTROL 검토자]** 또는 **[!UICONTROL 워크플로우 템플릿]** 7단계에서 선택한 승인 유형에 따라 다릅니다.
 
 1. (선택 사항) **[!UICONTROL 업데이트]** 영역.
+1. 을(를) 선택합니다 **[!UICONTROL 자산 유형]** 를 클릭합니다.
 1. 클릭 **[!UICONTROL 업로드]**그런 다음 위에서 선택한 자산 유형을 기준으로 원하는 내보내기 옵션을 구성합니다.
 문서가 [!UICONTROL 문서] 영역(플러그인 및 데스크탑 앱)을 포함합니다.
