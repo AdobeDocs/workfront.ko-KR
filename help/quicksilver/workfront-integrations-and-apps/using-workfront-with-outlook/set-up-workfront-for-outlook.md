@@ -6,9 +6,9 @@ description: Adobe Workfront Fusion은 Outlook과의 통합을 제공합니다. 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
+source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '761'
 ht-degree: 0%
 
 ---
@@ -88,11 +88,11 @@ Adobe는 다음 버전을 지원합니다 [!DNL Outlook]:
 
 에 연결하면 메일 서버 요구 사항이 기본적으로 충족됩니다 [!DNL Office 365] 또는 [!DNL Outlook.com]. 그러나 On-Premise 설치에 연결된 경우 [!DNL Exchange Server], 다음 요구 사항이 적용됩니다.
 
-* Adobe 지원 [!DNL Exchange 2016 On-Premise]
+* Adobe는 모든 것을 지원합니다 [!DNL Exchange On-Premise] 서버
 * [!DNL Exchange Web Services] (EWS)는 사용하도록 설정되어야 하며 인터넷에 노출되어야 합니다.
 * 서버에서 유효한 ID 토큰을 발급하려면 서버에 유효한 인증 인증서가 있어야 합니다. 새 설치 [!DNL Exchange Server] 기본 인증 인증서를 포함합니다.
 
-   자세한 내용은 [의 디지털 인증서 및 암호화 [!DNL Exchange 2016]](https://technet.microsoft.com/en-us/library/dd351044(v=exchg.160).aspx) 및 [Set-AuthConfig](https://technet.microsoft.com/en-us/library/jj215766(v=exchg.160).aspx).
+   <!--this used to be here but Dev asked for it to be taken out - logged issue for editing this article on 4-26-2023: For more information, see [Digital certificates and encryption in [!DNL Exchange 2016]](https://technet.microsoft.com/en-us/library/dd351044(v=exchg.160).aspx) and [Set-AuthConfig](https://technet.microsoft.com/en-us/library/jj215766(v=exchg.160).aspx).-->
 
 * 에 액세스하려면 [!DNL Workfront] 에서 추가 [[!DNL Office] 스토어](https://store.office.com/)로 지정하는 경우 클라이언트 액세스 서버가  [https://store.office.com](https://store.office.com/).
 

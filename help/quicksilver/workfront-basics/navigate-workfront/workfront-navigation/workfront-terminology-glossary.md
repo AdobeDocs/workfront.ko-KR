@@ -5,9 +5,9 @@ title: 용어 설명 [!DNL Adobe Workfront] 용어
 description: 다음 [!DNL Adobe Workfront] 용어집에서는 Adobe Workfront에서 일반적으로 사용되는 용어를 나열합니다.
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 7e78ca8c8ea7f037b55b06e7452ac5c562b99eca
+source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
 workflow-type: tm+mt
-source-wordcount: '19138'
+source-wordcount: '19387'
 ht-degree: 0%
 
 ---
@@ -844,11 +844,32 @@ ht-degree: 0%
    <td>[!UICONTROL External]</td> 
    <td> <p>일반적으로 라이센스 유형 또는 이러한 라이센스가 있는 사용자이며 시스템에서 정보를 검토할 수만 있습니다.</p> <p>자세한 내용은 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">[!DNL Adobe Workfront] 라이선스 개요</a>.</p> </td> 
   </tr> 
-  <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
+  <tr> 
    <td>[!UICONTROL 외부 시스템]</td> 
    <td>지정된 기록 시스템 외부에서 저장 및 관리되는 모든 서비스 또는 소프트웨어</td> 
-  </tr> 
-  <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Field]</td> 
+   <td><p>모든 Workfront 개체 또는 이와 연관된 정보가 데이터베이스에 표시됩니다. </p>
+   <p>예를 들어 "project", "user", "hour"는 모두 Workfront 객체뿐만 아니라 필드입니다. "Name", "status", "owner", "start date"는 위의 객체와 연관된 Workfront 필드입니다. </p>
+
+<p>개체를 참조할 때 "개체" 및 "필드"라는 항목을 서로 교환하여 사용할 수 있습니다.</p>
+   <p>보고 범위에서 "필드"는 보고서에서 캡처할 개체 또는 개체에 대한 정보를 참조합니다.</p>
+
+<p><b>메모</b></p>
+
+<p>텍스트 추가 보고에서 필드는 데이터베이스에 표시되는 객체 또는 해당 정보를 참조합니다.</p>
+   <p>경우에 따라 사용자 인터페이스에 표시되는 이름이 데이터베이스의 필드 이름과 다릅니다. 예를 들어 "issue"는 Workfront 인터페이스에 있는 개체의 이름이지만 "opTask"는 Workfront 데이터베이스에 있는 개체의 이름(또는 필드)입니다. </p> 
+   <p> 텍스트 모드 보고서, 보기, 필터 또는 그룹을 작성하거나 계산된 필드를 만들 때 데이터베이스에 나타나는 필드를 그대로 사용하는 것이 중요합니다.</p>
+
+<p>자세한 내용은 <a href="../../../wf-api/general/api-explorer.md">API 탐색기</a> 및 <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md">텍스트 모드 개요</a>.</p>
+
+<p>기본적으로 Workfront에는 개체 및 해당 정보를 모두 정의하는 필드 세트가 포함되어 있습니다. 사용자 정의 필드를 만들어 개체를 정의할 수도 있지만 사용자 정의 개체를 만들 수는 없습니다.</p> 
+   </td> 
+  </tr>
+
+<tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Filter]</td> 
    <td> <p>보고서에 표시되는 정보를 정의하는 보고서 또는 목록 요소의 기본 빌딩 블록 중 하나입니다. 보고 요소에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">보고 요소: 필터, 보기 및 그룹화</a>.</p> <p>필터는 보고서 또는 [!DNL Workfront] 프로젝트, 작업 또는 문제와 같은 패널 목록.</p> </td> 
   </tr> 
@@ -1300,7 +1321,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Object]</td> 
-   <td> <p>[!UICONTROL Workfront]에서 조직의 작업 항목 및 보고서와 이 항목을 관리하는 사용자 그룹입니다. 객체는 다음과 같습니다.</p> 
+   <td> <p>표시되는 정보 [!DNL Adobe Workfront] 는 [!DNL Workfront] 데이터베이스. 객체는 Workfront에서 정보를 유도하는 것입니다. 객체 중 일부는 다음과 같습니다.</p> 
     <ul> 
      <li>[!UICONTROL Portfolio]</li> 
      <li>[!UICONTROL 프로그램]</li> 
@@ -1314,7 +1335,17 @@ The designated full time equivalency for users. A full-time user should have 100
      <li>[!UICONTROL Teams]</li> 
      <li>[!UICONTROL Users]</li> 
      <li>[!UICONTROL Companies]</li> 
-    </ul> <p>자세한 내용은 <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">[!UICONTROL Adobe Workfront]의 개체 이해</a>.</p> </td> 
+     <li>[!UICONTROL 사용자 지정 양식]</li>
+     <li>[!UICONTROL 사용자 지정 필드]</li>  
+     <li>[!UICONTROL Hours]</li> 
+     <li>[!UICONTROL 청구율]</li> 
+     <li>[!UICONTROL Templates]</li> 
+     <li>[!UICONTROL 템플릿 작업]</li>
+
+<p><b>메모</b></p>
+  <p>이것은 광범위한 목록이 아닙니다. </p>
+
+</ul> <p>자세한 내용은 <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">[!UICONTROL Adobe Workfront]의 개체 이해</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 개체 유형]</td> 

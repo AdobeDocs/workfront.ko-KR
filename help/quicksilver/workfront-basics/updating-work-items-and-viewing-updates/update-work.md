@@ -6,9 +6,9 @@ description: Adobe Workfront 개체(프로젝트, 작업 또는 문제)에 업�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
+source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
 workflow-type: tm+mt
-source-wordcount: '2945'
+source-wordcount: '2949'
 ht-degree: 1%
 
 ---
@@ -223,7 +223,7 @@ drafted for P&P release:
 
 1. 클릭 **제출** Workfront 개체에 업데이트를 추가하려면 다음을 수행하십시오.
 1. (선택 사항) 주석을 편집하려면 **자세히** 메뉴 ![](assets/more-menu.png) 좋아요 아이콘 오른쪽에 있는 를 클릭한 다음 **편집**.
-1. 주석에서 정보를 편집하거나 태그가 지정된 사용자를 모두 제거합니다.
+1. 주석에서 정보를 편집하거나, 이미지를 추가 또는 제거하거나, 태그가 지정된 사용자를 모두 제거합니다.
 댓글을 제출한 후 15분 이내에 편집을 수행할 수 있습니다. 설명이 업데이트될 때 표시되는 날짜 스탬프 왼쪽에 &quot;편집됨&quot; 표시기가 추가됩니다.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)

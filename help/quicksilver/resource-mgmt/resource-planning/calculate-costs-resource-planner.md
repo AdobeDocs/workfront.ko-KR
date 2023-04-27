@@ -2,13 +2,13 @@
 product-area: resource-management
 navigation-topic: resource-planning
 title: 리소스 계획자에서 비용 계산
-description: '(Alina: ***Resource Planner 문서의 Planning에 연결된 리소스 계획자의 영역 이해 - 이동/변경/삭제 안 함)'
-author: Alina
+description: 시간 또는 FTE 값 대신 비용 값을 사용하여 Adobe Workfront Resource Planner에서 리소스를 예측할 수 있습니다. 원가 값은 리소스 플래너의 **사용자별 보기** 보기에 사용할 수 없습니다.
+author: Lisa
 feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
-source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
+source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
 workflow-type: tm+mt
-source-wordcount: '1373'
+source-wordcount: '1390'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Alina: ***Linked to the Planning in the Resource Planner article, Understanding areas of the Resource Planner. - do not move/ change/ delete.)</p>
 -->
+
+<!--'(Alina: ***Linked to the Planning in the Resource Planner article, Understanding areas of the Resource Planner. - do not move/ change/ delete.)'-->
 
 시간 또는 FTE 값 대신 비용 값을 사용하여 Adobe Workfront Resource Planner에서 리소스를 예측할 수 있습니다. 비용 값은&#x200B;**사용자별 보기** 리소스 계획자에서 보기
 
@@ -70,7 +72,7 @@ Resource Planner에서 비용별 가용 정보, 계획 정보 및 예산 정보�
 1. 을(를) 클릭합니다. **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 상단 모서리에서
 
 1. 클릭 **리소스**.
-1. 로 이동합니다.
+1. 리소스 플래너로 이동합니다.
 1. (조건부) 선택 **프로젝트별 보기** 또는 **역할별 보기**.\
    기본적으로 **프로젝트별 보기** 이 선택되어 있습니다.\
    할당 및 가용성 정보는 시간 단위로 표시됩니다.

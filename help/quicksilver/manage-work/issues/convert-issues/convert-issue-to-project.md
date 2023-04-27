@@ -6,9 +6,9 @@ description: Adobe Workfront에서 문제를 프로젝트로 변환
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: e38411056b3f9be6d0241ee18e71984ef2a678a0
+source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
 workflow-type: tm+mt
-source-wordcount: '1373'
+source-wordcount: '1465'
 ht-degree: 0%
 
 ---
@@ -178,8 +178,8 @@ ht-degree: 0%
 
          >[!TIP]
          >
-         >* 문제에 첨부된 다중 개체 사용자 지정 양식이 문제와 프로젝트에서 모두 사용하도록 구성된 경우 양식에 저장된 모든 정보는 변환 시 유지됩니다.
-         >
+         >* 문제에 첨부된 다중 개체 사용자 지정 양식이 문제와 프로젝트에서 모두 사용하도록 구성된 경우 필드뿐만 아니라 프로젝트의 사용자 지정 양식에도 모두 있는 경우 양식에 저장된 모든 정보가 변환될 때 유지됩니다.
+         >* 계산된 필드가 있는 다중 개체 사용자 지정 양식이 프로젝트 뿐만 아니라 문제에 첨부된 경우 문제 및 프로젝트가 양식의 계산된 사용자 지정 필드에서 참조되는 모든 필드와 호환되어야 합니다. 비호환성이 있는 경우 조정을 하라는 메시지가 표시됩니다. 자세한 내용은 [기존 양식 빌더를 사용하여 계산된 데이터를 사용자 지정 양식에 추가합니다](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
          >* 변환에 템플릿을 사용하고 템플릿에 첨부된 사용자 지정 양식에 사용자 지정 필드도 포함되어 있는 경우 문제에 첨부된 사용자 지정 양식에서도 문제 필드의 값이 새 프로젝트에 사용됩니다. 하지만 문제에 사용자 지정 필드가 비어 있으면 템플릿의 값이 사용됩니다.
 
    1. 클릭 [!UICONTROL **프로젝트로 변환**].
