@@ -6,9 +6,9 @@ description: Workfront의 기존 작업 및 문제에 연결된 카드를 보드
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: f6bee61bbfbac98595d737fa002bbe01c0c573dc
+source-git-commit: 7d671fe66c6a23efad2e8f8f0fa3d2b7b1afcc86
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: '1216'
 ht-degree: 0%
 
 ---
@@ -139,10 +139,6 @@ ht-degree: 0%
    </table>
 
    카드 세부 정보에 있는 필드 그룹 간을 이동하려면 왼쪽의 탐색 패널을 사용합니다.
-
-   >[!NOTE]
-   >
-   >왼쪽 탐색 패널과 설명 필드에 클릭 가능한 링크를 추가하는 기능은 Workfront 보드에 대한 초기 기능 옵트인을 통해서만 사용할 수 있습니다.
 
 1. 클릭 **[!UICONTROL 닫기]** 이사회로 돌아가려고
 연결된 객체, 담당자, 태그, 기한, 체크리스트 카운터, 예상 시간 및 상태가 카드에 표시됩니다.

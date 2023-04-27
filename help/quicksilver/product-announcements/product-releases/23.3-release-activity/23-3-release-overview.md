@@ -4,9 +4,9 @@ description: 23.3 릴리스 개요
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 8e7adb5aefd58c52f30a81e7ec4916701de808b3
+source-git-commit: 7d671fe66c6a23efad2e8f8f0fa3d2b7b1afcc86
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
@@ -57,9 +57,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>미리 보기 릴리스: 2023년 4월 27일<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">
                                  <p>초기 옵트인에 대한 프로덕션 릴리스: 2023년 4월 28일 <span style="color: #ff0000;"> 이 기능은 Workfront 보드의 초기 기능 옵트인을 통해서만 프로덕션에서 사용할 수 있습니다.</span></p>
-                                <p>모든 고객을 위한 프로덕션 릴리스: 23.3 릴리스 사용</p></span></p>
+                                <p>모든 고객을 위한 프로덕션 릴리스: 23.3 릴리스 사용</p>
                             </li>
                         </ul>
                     </td>
@@ -75,9 +74,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>미리 보기 릴리스: 2023년 4월 20일<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">
                                  <p>초기 옵트인에 대한 프로덕션 릴리스: 2023년 4월 28일 <span style="color: #ff0000;"> 이 기능은 Workfront 보드의 초기 기능 옵트인을 통해서만 프로덕션에서 사용할 수 있습니다.</span></p>
-                                <p>모든 고객을 위한 프로덕션 릴리스: 23.3 릴리스 사용</p></span></p>
+                                <p>모든 고객을 위한 프로덕션 릴리스: 23.3 릴리스 사용</p>
                             </li>
                         </ul>
                     </td>
@@ -93,9 +91,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>미리 보기 릴리스: 2023년 4월 20일<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">
                                  <p>초기 옵트인에 대한 프로덕션 릴리스: 2023년 4월 28일 <span style="color: #ff0000;"> 이 기능은 Workfront 보드의 초기 기능 옵트인을 통해서만 프로덕션에서 사용할 수 있습니다.</span></p>
-                                <p>모든 고객을 위한 프로덕션 릴리스: 23.3 릴리스 사용</p></span></p>
+                                <p>모든 고객을 위한 프로덕션 릴리스: 23.3 릴리스 사용</p>
                             </li>
                         </ul>
                     </td>
@@ -111,9 +108,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>미리 보기 릴리스: 2023년 4월 20일<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">
-                                 <p>초기 옵트인에 대한 프로덕션 릴리스: 2023년 4월 28일 <span style="color: #ff0000;"> 이 기능은 Workfront 보드의 초기 기능 옵트인을 통해서만 프로덕션에서 사용할 수 있습니다.</span></p>
-                                <p>모든 고객을 위한 프로덕션 릴리스: 23.3 릴리스 사용</p></span></p>
+                                <p><span class="preview">모든 고객을 위한 프로덕션 릴리스: 2023년 4월 27일</span></p>
                             </li>
                         </ul>
                     </td>
@@ -129,9 +124,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>미리 보기 릴리스: 2023년 4월 13일<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">
-                                 <p>초기 옵트인에 대한 프로덕션 릴리스: 2023년 4월 13일 <span style="color: #ff0000;"> 이 기능은 Workfront 보드의 초기 기능 옵트인을 통해서만 프로덕션에서 사용할 수 있습니다.</span></p>
-                                <p>모든 고객을 위한 프로덕션 릴리스: 23.3 릴리스 사용</p></span></p>
+                                 <p>초기 옵트인에 대한 프로덕션 릴리스: 2023년 4월 13일 <span style="color: #ff0000;"> 이 기능은 Workfront 보드의 초기 기능 옵트인을 통해서만 프로덕션에서 사용할 수 있습니다.</p>
+                                <p>모든 고객을 위한 프로덕션 릴리스: 23.3 릴리스 사용</p>
                             </li>
                         </ul>
                     </td>
