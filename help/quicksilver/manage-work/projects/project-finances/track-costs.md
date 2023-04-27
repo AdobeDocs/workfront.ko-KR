@@ -7,9 +7,9 @@ description: Adobe Workfront에서 프로젝트, 작업 및 문제에 대한 비
 author: Alina
 feature: Work Management
 exl-id: df3090ae-9721-4e9b-84b4-315890619801
-source-git-commit: d8c274d2153836647367c263cad8d786402cbe7f
+source-git-commit: 7e78ca8c8ea7f037b55b06e7452ac5c562b99eca
 workflow-type: tm+mt
-source-wordcount: '2372'
+source-wordcount: '2418'
 ht-degree: 1%
 
 ---
@@ -158,12 +158,18 @@ $100 (Consulting Expense) + $110 (Marketing Expense) + $40 (Administrative Expen
 
 >[!NOTE]
 >
+>프로젝트의 실제 비용 비용은 다음과 같이 계산됩니다.
+>`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
+>
+>이러한 원가는 실제 원가 계산에서 중복되지 않습니다. 예를 들어 고정 비용이 프로젝트의 실제 비용 비용의 일부인 경우 실제 원가에 별도로 추가되지 않습니다.
+
+>[!NOTE]
+>
 >프로젝트에 대한 시간을 기록할 때 프로젝트에 대한 실제 노무비를 계산할 때 다음 시나리오가 존재합니다.
 >
 >* 기본적으로 Workfront은 사용자의 시간당 비용 비율을 사용하여 실제 노무비를 계산합니다.
 >* 시간을 기록하는 사용자가 비용과 연관되지 않은 경우 Workfront은 사용자의 기본 역할에 대한 시간당 비용 비율을 사용합니다.
 >* Workfront 관리자가 **작업 역할을 시간 항목에 수동으로 할당** 작업표 및 시간 기본 설정 영역에서 를 설정하고, 프로젝트의 사용자 로깅 시간이 이 시간과 연결할 다른 역할을 선택하면 프로젝트의 실제 비용은 시간이 기록될 때 지정된 역할에 따라 계산됩니다. 특정 작업 역할에 대한 로깅 시간을 활성화하는 방법에 대한 내용은 문서를 참조하십시오 [작업표 및 시간 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
->
 
 
 ### Workfront이 작업의 비용 유형을 계산하는 방법 {#how-workfront-calculates-cost-types-for-tasks}
