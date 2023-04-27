@@ -6,7 +6,7 @@ description: Workfront의 기존 작업 및 문제에 연결된 카드를 보드
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 07942865a25153fe50ff627291bb21e1508dddc5
+source-git-commit: f6bee61bbfbac98595d737fa002bbe01c0c573dc
 workflow-type: tm+mt
 source-wordcount: '1242'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # 보드에서 연결된 카드 사용
-
-{{highlighted-preview}}
 
 보드에 기존 작업 및 문제에 연결된 카드를 추가할 수 있습니다 [!DNL Workfront].
 
@@ -102,7 +100,7 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Description]</strong></td> 
-      <td>설명을 변경하면 연결된 설명도 변경됩니다 [!DNL Workfront] 개체. <span class="preview">설명에 URL을 추가할 수 있으며, 카드를 저장할 때 클릭 가능한 링크가 됩니다.</span></td> 
+      <td>설명을 변경하면 연결된 설명도 변경됩니다 [!DNL Workfront] 개체. 설명에 URL을 추가할 수 있으며, 카드를 저장할 때 클릭 가능한 링크가 됩니다.</td> 
      </tr> 
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Assignees]</strong></td>
@@ -140,7 +138,7 @@ ht-degree: 0%
     </tbody> 
    </table>
 
-   <span class="preview">카드 세부 정보에 있는 필드 그룹 간을 이동하려면 왼쪽의 탐색 패널을 사용합니다.</span>
+   카드 세부 정보에 있는 필드 그룹 간을 이동하려면 왼쪽의 탐색 패널을 사용합니다.
 
    >[!NOTE]
    >
