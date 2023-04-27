@@ -7,9 +7,9 @@ description: 데이터 표현식을 사용하여 Adobe Workfront에서 계산된
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 22438c38727f5cc36b07b3530818f5bda2b0bacf
+source-git-commit: 1e91514f86a307ffa71cde650b35a2e3b8f0fa88
 workflow-type: tm+mt
-source-wordcount: '2270'
+source-wordcount: '2302'
 ht-degree: 7%
 
 ---
@@ -104,11 +104,11 @@ For example:
  <tbody> 
   <tr> 
    <td><strong>ADDDAYS</strong> </td> 
-   <td> <p>이 표현식은 날짜에 일자 수를 추가하고 형식을 다음과 같이 지정합니다.</p><pre>ADDDAYS(일자, 숫자)</pre> </td> 
+   <td> <p>이 표현식은 날짜에 일 수를 추가합니다. 숫자 값에는 일부 일이 포함될 수 있습니다(예: 1.5는 날짜에 1일 반 추가).</p> <p>표현식의 형식은 다음과 같습니다.</p><pre>ADDDAYS(일자, 숫자)</pre> </td> 
   </tr> 
   <tr> 
    <td><strong>ADDWEEKDAYS</strong> </td> 
-   <td> <p>이 표현식은 날짜에 평일 수를 추가하고 형식을 다음과 같이 지정합니다.</p><pre>ADDWEEKDAYS(date, number)</pre> </td> 
+   <td> <p>이 표현식은 날짜에 평일 수를 추가합니다. 이 표현식은 날짜에 전체 정수 값만 추가하고 반올림합니다. </p> <p>표현식의 형식은 다음과 같습니다.</p><pre>ADDWEEKDAYS(date, number)</pre> </td> 
   </tr> 
   <tr> 
    <td><strong>ADDMONTHS</strong> </td> 
@@ -234,7 +234,7 @@ For example:
    <td>이 표현식은 목록에서 가장 큰 항목을 반환하며 다음과 같이 형식을 지정합니다.<pre>MAX(item1, item2, ...)</pre></td> 
   </tr> 
   <tr> 
-   <td><strong>분</strong> </td> 
+   <td><strong>최소</strong> </td> 
    <td>이 표현식은 목록에서 가장 작은 항목을 반환하며 다음과 같이 형식을 지정합니다.<pre>MIN(item1, item2, ...)</pre></td> 
   </tr> 
   <tr> 

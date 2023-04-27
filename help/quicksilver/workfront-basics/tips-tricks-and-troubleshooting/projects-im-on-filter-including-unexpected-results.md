@@ -5,7 +5,7 @@ title: 예기치 않은 결과가 포함된 프로젝트 진행 중
 description: 예기치 않은 결과가 포함된 현재 진행 중인 프로젝트 문제를 해결하려면 이 문서를 참조하십시오.
 feature: Get Started with Workfront
 author: Nolan
-source-git-commit: 5a4c98f9ce6bb7eb936a0b24b634d2545a0f13ee
+source-git-commit: ba261e5121b4a28f71c58f883c784f4e8d2ada81
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 1%
@@ -47,7 +47,7 @@ ht-degree: 1%
 
 1. 을(를) 확인합니다. [!UICONTROL **프로젝트 세부 사항**] 필터에 포함된 예기치 않은 각 프로젝트에 대해 이름을 제거하고 모든 필드에서 이름을 제거합니다.
 
-또는
+   또는
 
 1. 과 같은 유사한 필터를 사용해 보십시오 [!UICONTROL **프로젝트 소유**]&#x200B;에는 특별히 본인에게 할당된 프로젝트만 포함됩니다.
 
