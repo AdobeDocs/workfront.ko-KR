@@ -6,7 +6,7 @@ description: 프로젝트 재무 영역의 정보 관리
 author: Alina
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: d8c274d2153836647367c263cad8d786402cbe7f
 workflow-type: tm+mt
 source-wordcount: '1304'
 ht-degree: 2%
@@ -189,22 +189,18 @@ Project Finance 하위 탭의 정보를 편집하려면
       <td>이 프로젝트에 대한 예산을 지정합니다.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>고정 비용</strong> </td> 
+      <td role="rowheader">고정 비용</td> 
       <td>이 프로젝트에 대한 고정 비용을 지정합니다. 여기에는 인건비 또는 비용 비용이 포함되지 않아야 합니다.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>고정 수입</strong> </td> 
+      <td role="rowheader">고정 수입</td> 
       <td> <p>이 프로젝트의 고정 수입을 지정합니다. 여기에는 파트너 또는 타사에 청구되는 청구 레코드에서 발생하는 수익이 포함되지 않아야 합니다.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">프로젝트 통화</td> 
       <td> <p>시스템의 기본 통화와 다른 경우 이 프로젝트의 통화를 지정합니다. 시스템의 기본 통화는 Workfront 관리자가 정의합니다. Workfront에서 환율 설정에 대한 자세한 내용은 문서를 참조하십시오 <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">환율 설정</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"> </td> 
-      <td> </td> 
-     </tr> 
+     </tr>
     </tbody> 
    </table>
 
-1. 클릭 **Save****Changes**.
+1. 클릭 **변경 내용 저장**.
