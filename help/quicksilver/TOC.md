@@ -2,9 +2,9 @@
 user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 feature-set: Workfront
-source-git-commit: c57f437108fa70030973e227eb84882477ca386c
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '12928'
+source-wordcount: '12912'
 ht-degree: 1%
 
 ---
@@ -1645,8 +1645,6 @@ ht-degree: 1%
    * 리소스 관리 {#resource-management}
       * [리소스 관리](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
       * [리소스 관리 시작](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
-      * [Adobe Workfront의 리소스 예약 도구 사용 중단](resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md)
-      * [자원 스케줄링에서 작업 로드 밸런서로 마이그레이션](resource-mgmt/resource-mgmt-overview/migrate-resource-scheduling-to-workload-balancer.md)
    * Adobe Workfront의 리소스 계획 {#resource-planning-in-adobe-workfront}
       * [Adobe Workfront의 리소스 계획](resource-mgmt/resource-planning/resource-planning-overview.md)
       * 리소스 풀 {#resource-pools}

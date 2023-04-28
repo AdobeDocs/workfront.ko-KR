@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: 513e0831-5571-4432-ade3-4f11b7e97266
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -44,8 +44,6 @@ in January 2022
 새 벌크 지정에는 이름 외에 프로젝트 및 태스크 상태별 새 필터링 기능도 포함됩니다.
 
 자세한 내용은 [작업 로드 밸런서에서 작업 할당 개요](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
-
-예약 도구 사용 중단에 대한 자세한 내용은 [Adobe Workfront의 리소스 예약 도구 사용 중단](../../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
 
 ## 작업 역할을 관리할 때 통화 대체
 

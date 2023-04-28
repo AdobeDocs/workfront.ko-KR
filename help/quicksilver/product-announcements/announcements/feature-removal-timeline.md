@@ -7,9 +7,9 @@ description: Adobe Workfront 제품에서 다양한 기능이 단계적으로 �
 author: Luke
 feature: Product Announcements
 exl-id: 119d65c7-2925-4b36-832a-ee06a718ce7e
-source-git-commit: 1bc7334423c567ef5f7fd9bcbc28de267e035c0a
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '261'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ Adobe Workfront 제품에서 다양한 기능이 단계적으로 제공되고 �
    <td>21.2 릴리스에서 더 이상 지원되지 않음</td> 
   </tr> 
   <tr> 
-   <td> <p>리소스 일정 조정</p> <p>Workload Balancer는 리소스 스케줄링 환경을 개선합니다.</p> <p>작업 로드 밸런서와 리소스 스케줄링 도구와의 기능 비교에 대한 자세한 내용은 다음을 참조하십시오 <a href="../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md" class="MCXref xref">Adobe Workfront의 리소스 예약 도구 사용 중단</a>.</p> </td> 
+   <td> <p>리소스 일정 조정</p> <p>Workload Balancer는 리소스 스케줄링 환경을 개선합니다.</p> <p>작업 로드 밸런서에 대한 자세한 내용은 <a href="../../resource-mgmt/workload-balancer/overview-workload-balancer.md">작업 로드 밸런서 개요</a>.</p> </td> 
    <td> </td> 
    <td> <p>2020년 11월 9일에 더 이상 지원되지 않음(20.4 릴리스 포함)</p> <p>--</p> <p>2022년 상반기 이후에 Workfront 플랫폼에서 제거됨</p> </td> 
   </tr> 

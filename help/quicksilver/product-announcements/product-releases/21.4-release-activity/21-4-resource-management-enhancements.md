@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: c978e88b-ee07-4af9-b5df-cb62dab4b3ac
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
@@ -29,8 +29,6 @@ ht-degree: 0%
 ## 작업 로드 밸런서에 대한 새 기본 옵션
 
 Workload Balancer Workfront의 기본 리소스 할당 도구를 더 이상 예약하지 않고 사용하기 위한 노력의 일환으로 Workfront 밸런서를 모든 신규 사용자에게 기본 옵션으로 설정했습니다. 현재 예약은 기본 옵션입니다. 이 변경 사항은 프로젝트 및 팀 레벨뿐만 아니라 리소스 영역(새 Adobe Workfront 경험에서) 또는 사용자 영역(Adobe Workfront Classic에서)에 있는 예약에 액세스할 수 있는 모든 영역에 적용됩니다.
-
-예약 사용 중단에 대한 자세한 내용은 [Adobe Workfront의 리소스 예약 도구 사용 중단](../../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md)
 
 ## 작업 로드 밸런서의 새 필터 경험
 

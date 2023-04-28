@@ -3,26 +3,18 @@ content-type: reference
 product-area: resource-management
 navigation-topic: resource-management-navigation-topic
 title: 작업 로드 밸런서
-description: 작업 로드 밸런서는 현재 사용되지 않는 현재 리소스 예약 도구를 최종적으로 대체하는 리소스 예약 도구입니다.
+description: 작업 로드 밸런서는 자원에 작업 항목을 할당할 수 있는 자원 스케줄링 도구입니다.
 author: Alina
 feature: Resource Management
 exl-id: b6a9e2ad-bd69-4075-8b87-3545e07b744d
-source-git-commit: 94799ba026e29f614e98444ebfc5ed2c665b29ab
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
 
 # 작업 로드 밸런서
-
->[!IMPORTANT]
->
->작업 로드 밸런서는 현재 사용되지 않는 예약 도구를 대체하는 리소스 예약 도구입니다.
->
->리소스 예약 도구 제거 및 작업 로드 밸런서로 교체하는 방법에 대한 자세한 내용은 [Adobe Workfront의 리소스 예약 도구 사용 중단](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
->
->리소스를 예약하려면 작업 로드 밸런서를 사용하는 것이 좋습니다.
 
 작업 로드 밸런서의 기능, 작업 로드 밸런서의 탐색 방법 및 작업 할당에 대한 자세한 내용은 다음 문서를 참조하십시오.
 

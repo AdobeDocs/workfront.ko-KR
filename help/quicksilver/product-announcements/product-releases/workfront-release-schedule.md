@@ -7,9 +7,9 @@ description: 미리 보기 환경은 새로운 기능을 사용하여 일주일�
 author: Alina
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: d012f197cc56121c823a08789ba49d6d6a28a3cb
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
@@ -68,9 +68,9 @@ Adobe Workfront 제품에 대한 문제 수정 사항은 매주 프로덕션 환
 
 ## 기타 릴리스
 
-경우에 따라 Workfront은 릴리스 정보, 유지 관리 업데이트 또는 실제 설명서 문서에 문서화되지 않은 기능을 릴리스할 수 있습니다. 이러한 작업은 새 기능을 영구적으로 만들기 전에 테스트하기 위한 목적으로 발생합니다. 일반적으로 이러한 테스트는 제한된 수의 고객에게 제공되지만, 모든 사용자에게 공개되는 시간이 있을 수 있습니다.
+경우에 따라 Workfront은 릴리스 노트, 유지 관리 업데이트 또는 설명서 문서에 문서화되지 않은 기능을 릴리스할 수 있습니다. 이러한 작업은 새 기능을 영구적으로 만들기 전에 테스트하기 위한 목적으로 발생합니다. 일반적으로 이러한 테스트는 제한된 수의 고객에게 제공되지만, 모든 사용자에게 공개되는 시간이 있을 수 있습니다. 미리 보기 또는 프로덕션 환경으로 릴리스할 수 있습니다.
 
-설명서와 일치하지 않는 시스템이 발견되면 고객 지원 팀에 문의합니다. 자세한 내용은 [고객 지원에 문의](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+설명서와 일치하지 않는 시스템과 궁금한 사항이 있는 경우 고객 지원 팀에 문의하시기 바랍니다. 자세한 내용은 [고객 지원에 문의](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
 ## 릴리스 노트
 

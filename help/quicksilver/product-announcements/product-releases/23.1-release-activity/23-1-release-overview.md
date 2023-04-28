@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: e86524d3-5f57-45b6-8582-102d2de92be4
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '2465'
+source-wordcount: '2429'
 ht-degree: 0%
 
 ---
@@ -574,11 +574,7 @@ API 버전에 대한 내용은 [API 버전 관리 및 지원 예약](/help/quick
 
 * 프로젝트 페이지의 예약 섹션
 
-작업 로드 밸런서가 리소스 스케줄러를 교체하는 중입니다. 사용 중단 및 작업 로드 밸런서 사용을 준비하는 방법에 대한 자세한 내용은 다음 리소스를 참조하십시오.
-
-* [Adobe Workfront의 리소스 예약 도구 사용 중단](/help/quicksilver/resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md)
-
-* [자원 스케줄링에서 작업 로드 밸런서로 마이그레이션](/help/quicksilver/resource-mgmt/resource-mgmt-overview/migrate-resource-scheduling-to-workload-balancer.md)
+작업 로드 밸런서가 리소스 스케줄러를 교체하는 중입니다.
 
 #### **이벤트 구독 API의 SHARE 이벤트 유형입니다.**
 
