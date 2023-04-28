@@ -4,9 +4,9 @@ description: 23.3 릴리스 개요
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 7d671fe66c6a23efad2e8f8f0fa3d2b7b1afcc86
+source-git-commit: 3a052c8f6d22c513763875526d6d2b57f20da0cb
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
@@ -151,7 +151,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront for Creative Cloud을 사용하여 자동 증명 워크플로우 템플릿 설정 조정</a><span style="color: #ff0000;"> 미리 보기의 새로운 기능!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront for Creative Cloud을 사용하여 자동 증명 워크플로우 템플릿 설정 조정</a></p>
                         <p>이제 Creative Cloud에서 직접 기존의 자동화된 워크플로우 템플릿 설정을 조정할 수 있습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용할 수 있습니다.</b></p>
