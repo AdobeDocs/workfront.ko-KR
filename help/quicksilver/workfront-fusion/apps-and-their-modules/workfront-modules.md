@@ -9,9 +9,9 @@ description: Adobe Workfront Fusion Adobe Workfront 커넥터를 사용하여 Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 97f063a2e73c28a54cb1e1f99d66a8979ff3718c
+source-git-commit: 852d6acb4363e1926c20a64ada381a114bfe11ee
 workflow-type: tm+mt
-source-wordcount: '5288'
+source-wordcount: '5345'
 ht-degree: 3%
 
 ---
@@ -1665,7 +1665,26 @@ Fusion 사용자는 이벤트 구독 필터를 사용하여 사용 사례에 더
 
 이는 [!DNL Workfront Fusion] 시나리오. 이벤트 구독 필터가 없으면 웹 후크는 선택한 개체 유형과 관련된 모든 이벤트를 수신합니다. 이러한 이벤트 대부분은 시나리오와 관련이 없으며 시나리오를 계속 진행하기 전에 필터링해야 합니다.
 
+Workfront > 감시 이벤트 필터에서는 다음 연산자를 사용할 수 있습니다.
+
+* 다음과 같음
+* 같지 않음
+* 보다 큼
+* 보다 작음
+* 크거나 같음
+* 작거나 같음
+* 포함
+* 있음
+* 존재하지 않음
+* 변경됨
+
 >[!NOTE]
+>
+> * 다음 `Exists`, `Does not exist`, 및 `Changed` 연산자는 값이 필요하지 않으며 값 필드에 이러한 옵션이 없습니다.
+> * 다음 `Changed` 연산자는 상태 필드를 무시합니다.
+
+
+>[!IMPORTANT]
 >
 >기존 필터에서는 편집할 수 없습니다 [!DNL Workfront] 웹 후크. 에 대해 다른 필터를 설정하려면 다음을 수행하십시오 [!DNL Workfront] 이벤트 구독, 현재 웹 후크를 제거하고 새 웹 후크를 만듭니다.
 
