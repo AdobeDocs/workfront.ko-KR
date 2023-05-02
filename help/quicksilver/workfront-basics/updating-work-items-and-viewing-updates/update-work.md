@@ -6,7 +6,7 @@ description: Adobe Workfront 개체(프로젝트, 작업 또는 문제)에 업�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
+source-git-commit: cb770bc7c433f1eac31be39f26893016c1a465fc
 workflow-type: tm+mt
 source-wordcount: '2949'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 >[!NOTE]
 >
 >현재 Adobe Workfront에서 주석 달기 환경을 다시 디자인하고 있습니다.
->새 업데이트 경험에 대한 자세한 내용은 [새로운 주석 달기 환경](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+>새 업데이트 경험에 대한 자세한 내용은 [새로운 주석 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >다음 객체에 대한 새 디자인에 액세스할 수 있습니다.
 > * 주석 달기 베타를 활성화할 때 문제가 발생합니다.

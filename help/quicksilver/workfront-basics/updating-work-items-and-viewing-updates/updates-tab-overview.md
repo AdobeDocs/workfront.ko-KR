@@ -7,7 +7,7 @@ description: 객체의 업데이트 섹션에는 객체의 변경 사항을 추�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
+source-git-commit: 112a5f21c80aaf9b689ee1f518ee633fdba82f3d
 workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 4%
@@ -23,7 +23,7 @@ ht-degree: 4%
 >[!NOTE]
 >
 >현재 Adobe Workfront에서 주석 달기 환경을 다시 디자인하고 있습니다.
->새 업데이트 경험에 대한 자세한 내용은 [새로운 주석 달기 환경](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+>새 업데이트 경험에 대한 자세한 내용은 [새로운 주석 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >다음 객체에 대한 새 디자인에 액세스할 수 있습니다.
 > * 주석 달기 베타를 활성화할 때 문제가 발생합니다.
@@ -189,7 +189,7 @@ ht-degree: 4%
 >
 >Adobe Workfront의 개체 계층에 대한 자세한 내용은 [Adobe Workfront의 개체 이해](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 >
-> 새 주석 달기 베타 경험에서는 시스템 업데이트에 응답할 수 없습니다. 자세한 내용은 [새로운 주석 달기 환경](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+> 새 주석 달기 베타 경험에서는 시스템 업데이트에 응답할 수 없습니다. 자세한 내용은 [새로운 주석 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 ## 업데이트 섹션의 제한 사항
 

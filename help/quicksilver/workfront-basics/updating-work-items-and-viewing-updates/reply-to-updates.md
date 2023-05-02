@@ -6,7 +6,7 @@ description: 작업 개체에 대한 업데이트에 추가하거나 응답하�
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
+source-git-commit: 112a5f21c80aaf9b689ee1f518ee633fdba82f3d
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 >[!NOTE]
 >
 >현재 Adobe Workfront에서 주석 달기 환경을 다시 디자인하고 있습니다.
->새 업데이트 경험에 대한 자세한 내용은 [새로운 주석 달기 환경](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+>새 업데이트 경험에 대한 자세한 내용은 [새로운 주석 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >다음 객체에 대한 새 디자인에 액세스할 수 있습니다.
 > * 주석 달기 베타를 활성화할 때 문제가 발생합니다.

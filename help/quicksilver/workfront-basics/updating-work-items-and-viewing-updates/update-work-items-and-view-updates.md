@@ -7,9 +7,9 @@ description: 대부분의 객체의 업데이트 섹션을 사용하여 댓글, 
 author: Alina
 feature: Get Started with Workfront
 exl-id: ef3440fd-92b7-4760-9f53-1b0e736d3a0f
-source-git-commit: 781a6e28b759863f8bc4635c0a8850abb173e038
+source-git-commit: 112a5f21c80aaf9b689ee1f518ee633fdba82f3d
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
@@ -28,4 +28,4 @@ ht-degree: 0%
 * [업데이트에 다른 사용자에게 태그 지정](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
 * [참고 보고서에서 모든 업데이트 보기](../../workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
 * [작업 및 완료 단추 개요](../../workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
-* [새로운 주석 달기 환경](../../workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md)
+
