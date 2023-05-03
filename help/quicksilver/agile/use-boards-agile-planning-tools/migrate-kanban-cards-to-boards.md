@@ -5,24 +5,22 @@ title: 애자일 팀 간판 카드를 Workfront 보드로 마이그레이션
 description: 작업 항목을 애자일 팀 간판 보드에서 신규 또는 기존 Workfront 보드로 마이그레이션할 수 있습니다.
 author: Lisa
 exl-id: c40b6453-5869-437b-a1e0-f20dd833d2b8
-source-git-commit: f6bee61bbfbac98595d737fa002bbe01c0c573dc
+source-git-commit: c990b897a4e6722515c6b065ee2a5832fdc31231
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
 
 # 애자일 팀 간판 카드를 Workfront 보드로 마이그레이션
 
+{{highlighted-preview-article-level}}
+
 작업 항목을 애자일 팀 간판 보드에서 신규 또는 기존 Workfront 보드로 마이그레이션할 수 있습니다. 마이그레이션을 실행하면 간판 보드의 모든 카드가 Workfront 보드에 복사됩니다. 특정 카드를 선택할 수 없습니다.
 
 Workfront 보드에 카드 배치는 열 정책을 기반으로 합니다. (예를 들어 정책이 &quot;진행 중&quot; 상태인 모든 카드를 특정 열로 이동할 수 있습니다. 열 정책에 대한 자세한 내용은 [보드 열 관리](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)) 정책이 없거나 카드가 정책과 일치하지 않으면 카드가 보드의 맨 왼쪽 열에 배치됩니다. 현재 레거시 보드의 백로그 열에 있는 카드는 Workfront 보드에 추가되지 않습니다.
 
 카드가 애자일 팀 간판 보드에서 제거되지 않으며 카드 상태 변경 사항이 두 보드와 동기화됩니다. Workfront 보드로 전환할 준비가 될 때까지 두 보드를 모두 활성 상태로 유지할 수 있습니다.
-
->[!NOTE]
->
->이 기능은 Workfront 보드의 초기 기능 옵트인을 통해서만 사용할 수 있습니다.
 
 ## 액세스 요구 사항
 

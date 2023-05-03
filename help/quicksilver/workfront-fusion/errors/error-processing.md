@@ -8,9 +8,9 @@ description: 시나리오를 실행하는 동안 오류가 발생할 수 있습�
 author: Becky
 feature: Workfront Fusion
 exl-id: 468d7460-3853-4016-bff9-b9d3b87198ed
-source-git-commit: 97f91d663df86341a079894cff04d07c18b7bf08
+source-git-commit: 184033c8957e955b3011f7e0845a73029f6b7aba
 workflow-type: tm+mt
-source-wordcount: '1191'
+source-wordcount: '1194'
 ht-degree: 0%
 
 ---
@@ -61,8 +61,10 @@ ht-degree: 0%
 * 첫 번째 모듈에서 오류가 발생하면 시나리오의 실행이 경고 메시지로 종료됩니다. [!DNL Workfront Fusion] 그런 다음 시간 간격을 늘리면 시나리오를 다시 실행하려고 반복적으로 시도합니다(아래에 설명되어 있음). 모든 시도가 실패하면 [!DNL Workfront Fusion] 시나리오를 비활성화합니다.
 * 첫 번째 모듈이 아닌 다른 모듈에서 연결 오류가 발생하는 경우 다음 단계는 [불완전한 실행 저장 허용](../../workfront-fusion/scenarios/scenario-settings-panel.md#allow) 시나리오 고급 설정의 옵션:
 
-   * 이 옵션을 활성화하면 시나리오 실행이 [!UICONTROL 완료되지 않은 실행] 폴더 위치 [!DNL Workfront Fusion] 시간 간격이 증가하면 시나리오를 다시 실행하려고 반복적으로 시도합니다. 모든 시도가 실패하면 [에서 불완전한 실행 보기 및 해결 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md) 사용자가 수동 확인을 기다리는 폴더입니다.
-   * 이 옵션을 비활성화하면 시나리오 실행이 오류 후 롤백 단계로 끝납니다. [!DNL Workfront Fusion] 그런 다음 시간 간격을 늘리면 시나리오를 다시 실행하려고 반복해서 시도합니다. 모든 시도가 실패하면 [!DNL Workfront Fusion] 시나리오를 비활성화합니다.
+   * 이 옵션을 활성화하면 시나리오 실행이 [!UICONTROL 완료되지 않은 실행] 폴더 위치 [!DNL Workfront Fusion] 시간 간격이 증가하면 시나리오를 다시 실행하려고 반복적으로 시도합니다. 모든 시도가 실패하면 사용자가 수동 확인을 기다리는 불완전한 실행 폴더에 실행이 유지됩니다.
+
+      불완전한 실행에 대한 자세한 내용은 [에서 불완전한 실행 보기 및 해결 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
+   * 이 옵션을 비활성화하면 시나리오 실행이 오류 뒤에 롤백 단계가 있는 상태로 종료됩니다. [!DNL Workfront Fusion] 그런 다음 시간 간격을 늘리면 시나리오를 다시 실행하려고 반복해서 시도합니다. 모든 시도가 실패하면 [!DNL Workfront Fusion] 시나리오를 비활성화합니다.
 
 ### 시간 간격 증가
 
@@ -80,17 +82,19 @@ ht-degree: 0%
 >
 >**예:**
 >
->시나리오에는 다음이 포함됩니다 [!DNL Google Sheets] 트리거 [!UICONTROL 보기 행]. [!DNL Google Sheets] 유지 관리로 인해 30분 동안 사용할 수 없습니다. [!DNL Workfront Fusion] 에서 시나리오를 시작하므로 새 행을 검색할 수 없습니다. 시나리오가 중단하고 10분 후에 다시 시도합니다. 이 기간 내에 서비스를 계속 사용할 수 없으므로 [!DNL Workfront Fusion] 새 행에 대한 정보를 가져올 수 없습니다. 시나리오의 다음 실행이 1시간 후에 예약됩니다. [!DNL Google Sheets] 이 시간 내에 다시 사용할 수 있으며 시나리오가 성공적으로 실행됩니다.
+>시나리오에는 다음이 포함됩니다 [!DNL Google Sheets] 트리거 [!UICONTROL 보기 행]. [!DNL Google Sheets] 유지 관리로 인해 30분 동안 사용할 수 없습니다. [!DNL Workfront Fusion] 에서 시나리오를 시작하므로 새 행을 검색할 수 없습니다. 시나리오가 중단하고 10분 후에 다시 시도합니다. 왜냐면 [!DNL Google Sheets] 아직 사용할 수 없습니다. [!DNL Workfront Fusion] 새 행에 대한 정보를 가져올 수 없습니다. 시나리오의 다음 실행이 1시간 후에 예약됩니다. [!DNL Google Sheets] 이 다시 활성화되고 시나리오가 성공적으로 실행됩니다.
 
 ## 데이터 오류
 
 `DataError`
 
-항목이 잘못 매핑되고 에서 수행한 유효성 검사를 전달하지 않으면 데이터 오류가 생성됩니다 [!DNL Workfront Fusion] 사용 중인 타사 서비스의 측면에 있는 사이드 또는 입니다. 자세한 내용은 [의 한 모듈에서 다른 모듈로 정보 매핑 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+항목이 잘못 매핑되고 에서 수행한 유효성 검사를 전달하지 않으면 데이터 오류가 생성됩니다 [!DNL Workfront Fusion] 사용 중인 타사 서비스의 측면에 있는 사이드 또는 입니다.
 
 이 오류가 발생하면 모듈이 실패한 최대 시나리오가 문제를 해결할 수 있는 불완전한 실행 폴더로 이동됩니다. 그러나 시나리오는 중지되지 않고 일정에 따라 계속 실행됩니다. 데이터 오류가 표시될 때 시나리오 실행을 중지하려면 시나리오 설정 패널에서 순차적 처리 옵션을 활성화합니다.
 
 을 활성화하지 않은 경우 [!UICONTROL 불완전한 실행 저장 허용] 시나리오 설정에서 옵션은 오류가 발생하여 시나리오 실행이 종료되고 롤백이 수행됩니다.
+
+매핑에 대한 자세한 내용은 [의 한 모듈에서 다른 모듈로 정보 매핑 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 불완전한 실행에 대한 자세한 내용은 [Adobe Workfront Fusion에서 불완전한 실행 보기 및 해결](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
 
@@ -108,7 +112,7 @@ If [!DNL Workfront Fusion] 중복 데이터를 허용하지 않는 서비스에 
 
 `InvalidAccessTokenError`
 
-다음 경우에 잘못된 액세스 토큰 오류가 발생합니다 [!DNL Workfront Fusion] 타사 서비스에 등록된 계정에 액세스할 수 없습니다. 이 문제는 주로 [!DNL Workfront Fusion] 지정된 서비스의 관리에서 하지만 관련 시나리오는 일정에 따라 계속 실행됩니다.
+다음 경우에 잘못된 액세스 토큰 오류가 발생합니다 [!DNL Workfront Fusion] 타사 서비스에 등록된 계정에 액세스할 수 없습니다. 이 문제는 일반적으로 [!DNL Workfront Fusion] 지정된 서비스의 관리에서 하지만 관련 시나리오는 일정에 따라 계속 실행됩니다.
 
 이 오류가 발생하면 시나리오의 실행이 즉시 중지됩니다. 오류가 발생한 모듈부터 시작하는 나머지 시나리오는 불완전한 실행 폴더로 이동됩니다.
 
@@ -118,7 +122,9 @@ If [!DNL Workfront Fusion] 중복 데이터를 허용하지 않는 서비스에 
 
 `RateLimitError`
 
-지정된 서비스에 의해 설정된 한도를 초과하면 비율 제한 오류가 생성됩니다. 이 오류가 발생하면 [!DNL Workfront Fusion] 는 연결 오류와 동일한 방식으로 진행됩니다. 자세한 내용은 [연결 오류](#connection-error).
+지정된 서비스에 의해 설정된 한도를 초과하면 비율 제한 오류가 생성됩니다. 이 오류가 발생하면 [!DNL Workfront Fusion] 는 연결 오류와 동일한 방식으로 진행됩니다.
+
+자세한 내용은 [연결 오류](#connection-error).
 
 ## 불완전한 데이터 오류
 
@@ -126,11 +132,15 @@ If [!DNL Workfront Fusion] 중복 데이터를 허용하지 않는 서비스에 
 
 완료되지 않은 데이터 오류는 트리거로만 발생합니다. 이 오류는 트리거가 지정된 서비스에서 필수 데이터를 다운로드하지 못한 경우 생성됩니다.
 
-시나리오 가 `IncompleteDataError`의 추가 동작은 [!UICONTROL 연속된 최대 오류 수]. 자세한 내용은 [연속 오류 수](../../workfront-fusion/scenarios/scenario-settings-panel.md#number) 기사 [Adobe Workfront Fusion의 시나리오 설정 패널](../../workfront-fusion/scenarios/scenario-settings-panel.md).
+시나리오 가 `IncompleteDataError`의 추가 동작은 [!UICONTROL 연속된 최대 오류 수].
+
+자세한 내용은 [연속 오류 수](../../workfront-fusion/scenarios/scenario-settings-panel.md#number) 기사 [Adobe Workfront Fusion의 시나리오 설정 패널](../../workfront-fusion/scenarios/scenario-settings-panel.md).
 
 >[!INFO]
 >
->**예:** 시나리오에는 [!DNL Workfront] 트리거 [!UICONTROL 감시 레코드] 문서를 감시하도록 설정합니다. 긴 비디오와 같이 큰 문서를 업로드하는 동안 시나리오가 실행됩니다. 왜냐면 [!UICONTROL Workfront Fusion] 는 여전히 Workfront에 업로드하는 동안 비디오를 다운로드하려고 하면 시나리오가 `IncompleteDataError`.
+>**예:**
+>
+>시나리오에는 [!DNL Workfront] 트리거 [!UICONTROL 감시 레코드] 문서를 감시하도록 설정합니다. 긴 비디오와 같이 큰 문서를 업로드하는 동안 시나리오가 실행됩니다. 왜냐면 [!UICONTROL Workfront Fusion] 는 여전히 Workfront에 업로드하는 동안 비디오를 다운로드하려고 하면 시나리오가 `IncompleteDataError`.
 
 ## 실행 시간 오류
 
