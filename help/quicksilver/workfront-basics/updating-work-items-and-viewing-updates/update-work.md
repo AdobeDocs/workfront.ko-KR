@@ -6,10 +6,10 @@ description: Adobe Workfront 개체(프로젝트, 작업 또는 문제)에 업�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: cb770bc7c433f1eac31be39f26893016c1a465fc
+source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
 workflow-type: tm+mt
-source-wordcount: '2949'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,9 +22,10 @@ ht-degree: 1%
 >[!NOTE]
 >
 >현재 Adobe Workfront에서 주석 달기 환경을 다시 디자인하고 있습니다.
->새 업데이트 경험에 대한 자세한 내용은 [새로운 주석 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->다음 객체에 대한 새 디자인에 액세스할 수 있습니다.
+>새 주석 달기 경험에 대한 자세한 내용은 [새로운 주석 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>
+>다음 객체에 대한 새 경험에 액세스할 수 있습니다.
 > * 주석 달기 베타를 활성화할 때 문제가 발생합니다.
    >
    >     이 기능은 문제의 업데이트 섹션에만 사용할 수 있으며, 다음 영역에는 사용할 수 없습니다.
@@ -135,7 +136,7 @@ drafted for P&P release:
 1. 업데이트를 제공할 작업 항목(예: 프로젝트, 작업 또는 문제)으로 이동합니다.
 1. 을(를) 클릭합니다. **업데이트** 섹션을 참조하십시오.
 1. 클릭 **새 업데이트 시작,** 그런 다음 업데이트를 입력합니다.
-1. (선택 사항) 리치 텍스트를 사용하거나 업데이트에 이모지, 링크 또는 이미지를 추가하여 컨텐츠를 개선합니다. 자세한 내용은 이 문서의 &quot;Workfront 업데이트에서 리치 텍스트 사용&quot; 섹션을 참조하십시오
+1. (선택 사항) 리치 텍스트를 사용하거나 업데이트에 이모지, 링크 또는 이미지를 추가하여 컨텐츠를 개선합니다. 자세한 내용은 [Workfront 업데이트에서 리치 텍스트 사용](#use-rich-text-in-a-workfront-update) 이 문서의 섹션
 1. (선택 사항) 작업 항목에 대한 다음 정보를 업데이트합니다.
 
    <table style="table-layout:auto"> 
@@ -209,7 +210,7 @@ drafted for P&P release:
    * 번호 매기기 목록
    * 첨부 파일 추가 <!--(mark this parenthesis as draft: ************ this might be renamed to "Add image")-->
 
-   자세한 내용은 이 문서의 &quot;Workfront 업데이트에서 리치 텍스트 사용&quot; 섹션을 참조하십시오. <!--remove this list, above, when we get to parity for Rich Text-->
+   자세한 내용은 [Workfront 업데이트에서 리치 텍스트 사용](#use-rich-text-in-a-workfront-update) 섹션에 자세히 설명되어 있습니다. <!--remove this list, above, when we get to parity for Rich Text-->
 
    >[!TIP]
    >
@@ -257,7 +258,7 @@ drafted for P&P release:
    >시스템 업데이트에 주석을 추가할 수 없습니다.
 
 
-## Workfront 업데이트에서 리치 텍스트 사용
+## Workfront 업데이트에서 리치 텍스트 사용{#use-rich-text-in-a-workfront-update}
 
 <!--remove this top note when we get to parity with the current version, OR change the note to mention that some options are ONLY available in the Beta version and not the current one.-->
 
@@ -322,13 +323,16 @@ drafted for P&P release:
 
    또는
 
-   을(를) 클릭합니다. **첨부 파일 추가** 아이콘 ![](assets/add-image-paperclip-icon.png) 댓글을 다는 베타 환경을 사용할 때 컴퓨터에서 이미지를 찾습니다.
+   을(를) 클릭합니다. **첨부 파일 추가** 아이콘 ![](assets/add-image-paperclip-icon.png) 댓글을 다는 베타 환경을 사용할 때 컴퓨터에서 이미지를 찾습니다. <!--the name of the icon and the icon for it might change-->
 
    >[!NOTE]
    >
-   >* 이미지 아이콘을 보려면 Workfront 관리자가 이미지 추가를 활성화해야 합니다.
+   >* 이미지 또는 첨부 파일 추가 아이콘을 보려면 Workfront 관리자가 Workfront 인터페이스 영역의 피드 업데이트 환경 설정 섹션에서 이미지를 추가할 수 있도록 설정해야 합니다. 자세한 내용은 [사용자 업데이트에 대한 환경 설정 구성](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* 최대 이미지 파일 크기는 7MB입니다. 지원되는 이미지 파일 유형은 .jpg, .gif 및 .png입니다.
-   >* 이미지는 객체의 업데이트 탭에서만 액세스할 수 있으며 문서 탭에서 사용할 수 없습니다.
+   >* 이미지는 객체의 업데이트 섹션에서 액세스할 수 있으며 문서 영역에서도 사용할 수 있습니다.
+   >* <!--In the current commenting experience,--> 이미지가 포함된 주석을 삭제하면 이미지가 [문서] 영역에 남아 있지만 [업데이트] 섹션에 더 이상 표시되지 않습니다.
+
+   > <!--* In the new commenting experience, when you delete a comment that contains an image, or when you edit a comment and remove the image from it, the image is removed from the Updates section as well as from the Documents area. -->
    >* 이미지를 업데이트하여 텍스트를 전송할 수 없습니다.
 
 1. 클릭 **업데이트**  또는 **제출**: 댓글 베타 환경을 사용합니다.
@@ -392,7 +396,7 @@ Workfront 사용자(Workfront 관리자 포함)는 다른 사용자가 수행한
 
    >[!NOTE]
    >
-   >첨부된 이미지로 업데이트를 삭제하면 주석과 이미지가 모두 삭제됩니다.
+   >첨부된 이미지로 업데이트를 삭제하면 주석과 이미지가 모두 삭제됩니다. 자세한 내용은 [Workfront 업데이트에서 리치 텍스트 사용](#use-rich-text-in-a-workfront-update) 섹션에 자세히 설명되어 있습니다.
 
    삭제한 댓글에 답장이 연결되어 있으면 해당 댓글이 제거된 사용자의 이름으로 제거되었다는 표시가 있습니다.
 

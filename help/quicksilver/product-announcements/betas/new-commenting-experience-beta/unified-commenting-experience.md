@@ -6,10 +6,10 @@ description: Adobe Workfront에서 주석 달기 경험에 대한 업데이트�
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: cb770bc7c433f1eac31be39f26893016c1a465fc
+source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -384,12 +384,9 @@ Adobe Workfront에서 주석 달기 경험에 대한 업데이트가 현재 개�
   </tr>
 </table>
 
+## 새로운 댓글 베타 경험 릴리스 활동
 
-<!--
-## New commenting beta experience release activity
-
-For information about the features recently released, see [New commenting beta exprience release activity] (**********insert link after you move this file to the right folder in Betas**********)
---->
+최근에 릴리스된 기능에 대한 자세한 내용은 [새로운 댓글 베타 환경 릴리스 활동](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 
 ## 새 주석 달기 경험을 찾습니다.
 

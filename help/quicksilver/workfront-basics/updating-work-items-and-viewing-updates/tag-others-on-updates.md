@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: 업데이트에 다른 사용자에게 태그 지정
 description: Adobe Workfront 객체에 대한 업데이트 주석을 제공할 때 프로젝트의 모든 사용자는 제출된 정보를 볼 수 있습니다. 그러나 프로젝트에 없는 사용자가 이 정보를 볼 수 있는 이점이 있을 수 있습니다. 프로젝트에 해당 사용자를 포함시키지 않고 업데이트에서 해당 사용자에게 태그를 지정하여 사용자와 공유할 수 있습니다. 태그가 지정된 사용자는 이벤트 알림을 받습니다.
-author: Lisa and Alina
+author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 112a5f21c80aaf9b689ee1f518ee633fdba82f3d
+source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1413'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,10 @@ ht-degree: 0%
 >[!NOTE]
 >
 >현재 Adobe Workfront에서 주석 달기 환경을 다시 디자인하고 있습니다.
->새 업데이트 경험에 대한 자세한 내용은 [새로운 주석 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->다음 객체에 대한 새 디자인에 액세스할 수 있습니다.
+>새 주석 달기 경험에 대한 자세한 내용은 [새로운 주석 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>
+>다음 객체에 대한 새 경험에 액세스할 수 있습니다.
 > * 주석 달기 베타를 활성화할 때 문제가 발생합니다.
    >
    >     이 기능은 문제의 업데이트 섹션에만 사용할 수 있으며, 다음 영역에는 사용할 수 없습니다.
@@ -48,13 +49,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->사용자가 이메일 알림을 받으려면 이벤트 알림을 활성화해야 합니다. 관리자는 전체 시스템 또는 최상위 그룹에 대한 알림을 활성화할 수 있습니다. 사용자는 자신의 사용자 프로필에서 개별 이벤트 알림을 활성화하고 비활성화할 수도 있습니다. 자세한 내용은 다음을 참조하십시오.
->
->* [시스템의 모든 사용자에 대한 이벤트 알림을 구성합니다](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
->* [그룹에 대한 이벤트 알림 보기 및 구성](../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)
->* [고유한 이벤트 알림 활성화 또는 비활성화](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
->
-
+>사용자가 이메일 알림을 받으려면 프로필에서 개인 알림을 활성화해야 합니다. 자세한 내용은 [고유한 이벤트 알림 활성화 또는 비활성화](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 Workfront 객체에 업데이트 추가에 대한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 

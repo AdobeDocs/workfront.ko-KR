@@ -8,9 +8,9 @@ author: Lisa, Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
-source-git-commit: 730932f6c8d4658273dd943e464a038828d288e9
+source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
 workflow-type: tm+mt
-source-wordcount: '5070'
+source-wordcount: '5008'
 ht-degree: 20%
 
 ---
@@ -220,11 +220,8 @@ ht-degree: 20%
   <tr> 
    <td> <p>문서</p> </td> 
    <td> <p>문제 기본 담당자에게 요청 문서 추가</p> </td> 
-   <td> <p>내가 기본 담당자인 문제에 대한 문서가 변경되거나 업로드됨.</p> <p>문제의 기본 연락처는 문서를 업로드하거나 변경한 사용자도 기본 연락처가 아닌 경우 해당 문제에 대해 문서를 업로드하거나 변경할 때 전자 메일 알림을 받습니다.</p> <p>프로젝트 상태가 현재 상태이고 큐 설정 탭에서 프로젝트에 "도움말 요청 큐로 게시"가 활성화되어 있는 경우에만 알림이 전송됩니다. <!-- FLARE에서 초안 작성: 프로젝트를 도움말 요청 큐로 게시하는 방법에 대한 자세한 내용은 
-       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">프로젝트의 큐 세부 정보 탭 개요</a>.
-
-    -->&lt;/p> &lt;/td>
-<td> <p>활성</p> </td> 
+   <td> <p>내가 기본 담당자인 문제에 대한 문서가 변경되거나 업로드됨.</p> <p>문제의 기본 연락처는 문서를 업로드하거나 변경한 사용자도 기본 연락처가 아닌 경우 해당 문제에 대해 문서를 업로드하거나 변경할 때 전자 메일 알림을 받습니다.</p> <p>프로젝트 상태가 현재 상태이고 큐 설정 탭에서 프로젝트에 "도움말 요청 큐로 게시"가 활성화되어 있는 경우에만 알림이 전송됩니다.</p> </td> 
+   <td> <p>활성</p> </td> 
   </tr> 
   <tr> 
    <td> <p>문제</p> </td> 
@@ -234,6 +231,11 @@ ht-degree: 20%
   </tr> 
  </tbody> 
 </table>
+
+<!--
+      DRAFTED IN FLARE:
+       For more information on publishing a project as a Help Request Queue, see 
+       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.-->
 
 ## 커뮤니케이션
 
@@ -268,10 +270,8 @@ ht-degree: 20%
   <tr> 
    <td> <p>사용자</p> </td> 
    <td>사용자에 대한 지정 업데이트</td> 
-   <td> <p>누가 나를 안내해서 소개한다.</p> <p>지정 업데이트는 다음에 설명된 대로 사용자가 특히 업데이트에 다른 사용자를 포함하는 경우입니다. <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">업데이트에 다른 사용자에게 태그 지정</a>.</p> <p>이 경우 지정 업데이트에 포함된 사용자는 업데이트에 대한 이메일 알림을 받습니다.</p> <p>전자 메일 알림은 사용자에게 객체에 대한 액세스 권한이 있는 경우에만 전송됩니다&lt;!&gt;— FLARE에서 초안 작성: 및 은 업데이트를 입력하는 동일한 사용자가 아닙니다
-
-    -->. &lt;/p> &lt;p>이 이벤트 알림은 기본적으로 활성화되므로 비활성화할 수 없습니다.&lt;/p> &lt;/td>
-<td> <p>활성</p> </td> 
+   <td> <p>누가 나를 안내해서 소개한다.</p> <p>지정 업데이트는 다음에 설명된 대로 사용자가 특히 업데이트에 다른 사용자를 포함하는 경우입니다. <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">업데이트에 다른 사용자에게 태그 지정</a>.</p> <p>이 경우 지정 업데이트에 포함된 사용자는 업데이트에 대한 이메일 알림을 받습니다.</p> <p>전자 메일 알림은 사용자에게 객체에 대한 액세스 권한이 있고 사용자가 해당 객체에 대한 액세스 권한을 프로필에서 활성화한 경우에만 전송됩니다.  </p> <p>이 이벤트 알림은 기본적으로 활성화되므로 비활성화할 수 없습니다.</p> </td> 
+   <td> <p>활성</p> </td> 
   </tr> 
   <tr> 
    <td> <p>팀</p> </td> 
@@ -308,6 +308,10 @@ ht-degree: 20%
   </tr> 
  </tbody> 
 </table>
+
+<!--
+      DRAFTED IN FLARE: for the directed update above, it also mentions:
+        ... and is not the same user that enters the update-->
 
 ## 승인 정보
 
@@ -398,7 +402,7 @@ ht-degree: 20%
   </tr> 
   <tr> 
    <td> <p>문제</p> </td> 
-   <td> <p>지정된 발행에 대한 승인 결정</p> </td> 
+   <td> <p>문제에 할당된 승인 결정</p> </td> 
    <td> <p>내가 해결한 문제가 승인 또는 거부됨.</p> <p>승인 결정이(승인 또는 거부)되면 문제 할당자가 이메일 알림을 받습니다.</p> <p>검토 라이센스가 있는 사용자는 알림을 받지 않습니다.</p> </td> 
    <td> <p>비활성</p> </td> 
   </tr> 
@@ -429,11 +433,8 @@ ht-degree: 20%
   <tr> 
    <td> <p>문서</p> </td> 
    <td> <p>문제 할당 대상에게 요청 문서 추가</p> </td> 
-   <td> <p>지정된 요청에 대해 문서가 업로드되거나 변경됩니다.</p> <p>문제 할당자가 추가한 문제에 대해 문서를 업로드하거나 변경하면 이메일 알림을 받습니다.</p> <p>문제를 입력한 사용자가 문제 담당자인 경우 이메일 알림이 전송되지 않습니다.</p> <p>프로젝트 상태가 현재 상태이고 큐 설정 탭에서 프로젝트에 "도움말 요청 큐로 게시"가 활성화되어 있는 경우에만 알림이 전송됩니다.<!-- FLARE에서 초안 작성: 프로젝트를 도움말 요청 큐로 게시하는 방법에 대한 자세한 내용은 
-       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">프로젝트의 큐 세부 정보 탭 개요</a>.
-
-    -->&lt;/p> &lt;/td>
-<td> <p>활성</p> </td> 
+   <td> <p>지정된 요청에 대해 문서가 업로드되거나 변경됩니다.</p> <p>문제 할당자가 추가한 문제에 대해 문서를 업로드하거나 변경하면 이메일 알림을 받습니다.</p> <p>문제를 입력한 사용자가 문제 담당자인 경우 이메일 알림이 전송되지 않습니다.</p> <p>프로젝트 상태가 현재 상태이고 큐 설정 탭에서 프로젝트에 "도움말 요청 큐로 게시"가 활성화되어 있는 경우에만 알림이 전송됩니다.</p> </td> 
+   <td> <p>활성</p> </td> 
   </tr> 
   <tr> 
    <td> <p>작업</p> </td> 
@@ -461,6 +462,11 @@ ht-degree: 20%
   </tr> 
  </tbody> 
 </table>
+
+<!--
+      DRAFTED IN FLARE: from the Request document add to issue assigned to: 
+        For more information on publishing a project as a Help Request Queue, see 
+       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>. -->
 
 ## 현재 진행 중인 프로젝트 정보
 
@@ -739,12 +745,7 @@ ht-degree: 20%
    <td> </td> 
    <td> <p>오류 알림</p> </td> 
    <td> <p>주의가 필요한 오류가 발견되었습니다.</p> <p>Workfront이 POP 계정에 연결하지 않고 시도하여 실패하면 이메일 알림이 생성됩니다. 25번 시도 후 Workfront에서는 리소스를 유지하기 위해 POP 계정에 대한 연결을 비활성화하고 알림을 보냅니다. </p> <p>이메일 알림은 POP 이메일이 요청 큐와 연결된 경우 프로젝트 소유자에게 전송되거나, POP 계정이 이메일 설정의 "수신 메일" 기능과 연결된 경우 Workfront 관리자에게 전송됩니다.
-     <!--
-      DRAFTED IN FLARE:
-       <br>For more information on how to associate a request queue with a POP account, see 
-       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.
-       For more information on how to enable a POP account for incoming mail, see .
-      --></p> </td> 
+   </p> </td> 
    <td> <p>활성</p> </td> 
   </tr> 
   <tr> 
@@ -797,6 +798,14 @@ ht-degree: 20%
   </tr> 
  </tbody> 
 </table>
+
+<!--
+      DRAFTED IN FLARE: from Error notification above: 
+      
+       <br>For more information on how to associate a request queue with a POP account, see 
+       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.
+       For more information on how to enable a POP account for incoming mail, see .
+      -->
 
 ## 위임
 

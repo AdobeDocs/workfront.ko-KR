@@ -5,10 +5,10 @@ title: '새로운 주석 달기 환경 베타 릴리스 활동'
 description: Adobe Workfront의 새로운 댓글 베타 경험에 대한 주간 릴리스 활동을 검토하십시오.
 author: Alina
 feature: Product Announcements
-source-git-commit: cb770bc7c433f1eac31be39f26893016c1a465fc
+source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 12%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -39,9 +39,7 @@ We are changing the way attachments work when removing or editing a comment that
 
 Available for issue commenting Beta experience and for Workfront Goals on the following dates:
 
-* Preview: May 3, 2023
-* Production: May 4, 2023
-
+* Preview and Production: May 4, 2023
 -->
 
 ## 2023년 4월 27일
