@@ -8,15 +8,14 @@ author: Courtney, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: fed4713d1e9044879db6d34dc4725245a2516634
+source-git-commit: 0bf30319978e1ec41a7ba4dc08788e15024cd03f
 workflow-type: tm+mt
-source-wordcount: '2786'
+source-wordcount: '2802'
 ht-degree: 0%
 
 ---
 
 # 사용자 프로필 편집
-
 
 >[!IMPORTANT]
 >
@@ -200,11 +199,11 @@ Adobe Workfront 관리자는 새 사용자를 만들고 기존 사용자의 프�
      </tr> 
      <tr> 
       <td role="rowheader">사용자 정의 양식</td> 
-      <td>기존 사용자 지정 양식을 이 사용자와 연결합니다. 사용자 지정 양식을 사용자와 연결하려면 먼저 사용자 지정 양식을 만들어야 합니다. 활성 사용자 지정 양식만 목록에 표시됩니다. 사용자 지정 양식 만들기에 대한 내용은 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">사용자 지정 양식 만들기 또는 편집</a>.</td> 
+      <td><p>기존 사용자 지정 양식을 이 사용자와 연결합니다. 사용자 지정 양식을 사용자와 연결하려면 먼저 사용자 지정 양식을 만들어야 합니다. 활성 사용자 지정 양식만 목록에 표시됩니다. 편집할 수 있는 액세스 권한이 없는 필드는 개별 사용자 지정 양식에 표시되지 않습니다.</p> <p>사용자 지정 양식 만들기에 대한 내용은 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">사용자 지정 양식 만들기 또는 편집</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">댓글</td> 
-      <td> <p>사용자에게 보낼 댓글과 사용자 프로필의 업데이트 영역을 입력합니다.</p> </td> 
+      <td>사용자에게 보낼 댓글과 사용자 프로필의 업데이트 영역을 입력합니다.</td> 
      </tr> 
     </tbody> 
    </table>
