@@ -4,9 +4,9 @@ description: 23.3 릴리스 개요
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 99c53f74554e559e5857eff9f5931dc6f70f93b1
+source-git-commit: 7ee8257daa6b621d1b69d784717a13818ea9e098
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '910'
 ht-degree: 0%
 
 ---
@@ -218,7 +218,24 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </ul>
                     </td>
                 </tr>
-            </tbody>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md" class="MCXref xref" xrefformat="{para}">새로운 주석 처리 베타 경험 개선 사항</a></p>
+                        <p>업데이트 섹션에 대한 개선 사항은 새로운 주석 달기 베타 환경을 위한 23.3 릴리스 시간 내에 제공됩니다. 이러한 개선 사항은 별도로 지정하지 않는 한 23.3 릴리스와 함께 프로덕션 환경에서 사용할 수 있습니다. 
+ </p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용할 수 있습니다.</b></p>
+                        <ul>
+                            <li>
+                                <p>릴리스 미리 보기: 23.3 릴리스 기간 동안<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">프로덕션 릴리스: 23.3 릴리스(별도로 지정하지 않는 한)</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
         </table>
 
 ## 공지
@@ -237,7 +254,7 @@ Workfront Fusion의 새로운 기능은 23.3 릴리스 일정을 제외한 케�
 
 ### Workfront 목표 개선 사항
 
-릴리스에는 이 시점에서 Workfront 목표 업데이트가 없습니다. 이 영역은 업데이트를 사용할 수 있으면 업데이트됩니다.
+23.3 릴리스 일정 내에 Workfront 목표 릴리스에 추가될 새로운 기능. 이제 미리 보기에서 이러한 새로운 기능에 대한 자세한 내용은 [Adobe Workfront 목표 및 23.3 릴리스](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-release.md).
 
 ### API 버전 16
 
