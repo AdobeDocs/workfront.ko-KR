@@ -5,10 +5,10 @@ title: '새로운 주석 달기 환경 베타 릴리스 활동'
 description: Adobe Workfront의 새로운 댓글 베타 경험에 대한 주간 릴리스 활동을 검토하십시오.
 author: Alina
 feature: Product Announcements
-source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
+source-git-commit: 3d34d3c6fe9b1d4d825de91b60359215f1afeec0
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 12%
+source-wordcount: '470'
+ht-degree: 9%
 
 ---
 
@@ -19,8 +19,6 @@ ht-degree: 12%
 
 현재 사용 가능한 또는 연구 중인 기능 목록을 포함하여 새 주석 달기 베타 경험에 대한 일반 정보는 [새로운 주석 달기 환경](../new-commenting-experience-beta/unified-commenting-experience.md).
 
-<!--the sections below are copied from the former Canvas beta - replace with real new commenting beta experience content when it becomes available; also, add links to pertinent articles when you add the features for each release, and the year for the week; thought: should we separate these by release in additional sections?! first by release and then by week?!-->
-
 >[!IMPORTANT]
 >
 >새로운 주석 달기 경험은 23.2 릴리스와 함께 베타로 출시되었습니다. 원본 릴리스에 대한 자세한 내용은 [23.2 릴리스 개요](../../product-releases/23.2-release-activity/23-2-release-overview.md).
@@ -29,18 +27,16 @@ ht-degree: 12%
 
 다음 섹션에는 가장 최근에 릴리스된 기능을 시작으로 원본 릴리스 이후에 추가된 기능이 나열됩니다.
 
-<!--
+## 2023년 5월 2일 주
 
-## Week of May 2, 2023
+### 첨부 파일이 주석에서 제거되거나 첨부 파일이 포함된 주석이 제거되면 문서 영역에서 이미지가 제거됩니다
 
-### Images are removed from the Documents area when attachments are removed from comments or when comments containing an attachment are removed
+첨부 파일이 포함된 주석을 제거하거나 편집할 때 첨부 파일이 작동하는 방식을 변경하고 있습니다. 이제 주석을 편집하고 첨부 파일을 제거하거나 첨부 파일이 포함된 주석을 삭제하면 첨부 파일도 문서 영역에서 제거됩니다. 변경 전에 이전 주석 달기 환경에서 첨부 파일은 문서 영역에 남아 있습니다. 자세한 내용은 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-We are changing the way attachments work when removing or editing a comment that contains an attachment. Now, when you edit a comment and remove the attachment, or when you delete a comment that contains an attachment, the attachment is also removed from your Documents area. Prior to this change, in the previous commenting experience, the attachments remained in your Documents area. For information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+기본적으로 다음 날짜에서 베타 경험에 대해 언급하고 Workfront 목표에 대해 사용할 수 있습니다.
 
-Available for issue commenting Beta experience and for Workfront Goals on the following dates:
+* 미리 보기 및 프로덕션: 2023년 5월 4일
 
-* Preview and Production: May 4, 2023
--->
 
 ## 2023년 4월 27일
 

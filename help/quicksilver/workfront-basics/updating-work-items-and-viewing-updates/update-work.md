@@ -6,9 +6,9 @@ description: Adobe Workfront 개체(프로젝트, 작업 또는 문제)에 업�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
+source-git-commit: 4383d0d8178028d13f3d97189acfcabfa5766c41
 workflow-type: tm+mt
-source-wordcount: '3012'
+source-wordcount: '3085'
 ht-degree: 1%
 
 ---
@@ -330,10 +330,13 @@ drafted for P&P release:
    >* 이미지 또는 첨부 파일 추가 아이콘을 보려면 Workfront 관리자가 Workfront 인터페이스 영역의 피드 업데이트 환경 설정 섹션에서 이미지를 추가할 수 있도록 설정해야 합니다. 자세한 내용은 [사용자 업데이트에 대한 환경 설정 구성](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* 최대 이미지 파일 크기는 7MB입니다. 지원되는 이미지 파일 유형은 .jpg, .gif 및 .png입니다.
    >* 이미지는 객체의 업데이트 섹션에서 액세스할 수 있으며 문서 영역에서도 사용할 수 있습니다.
-   >* <!--In the current commenting experience,--> 이미지가 포함된 주석을 삭제하면 이미지가 [문서] 영역에 남아 있지만 [업데이트] 섹션에 더 이상 표시되지 않습니다.
-
-   > <!--* In the new commenting experience, when you delete a comment that contains an image, or when you edit a comment and remove the image from it, the image is removed from the Updates section as well as from the Documents area. -->
    >* 이미지를 업데이트하여 텍스트를 전송할 수 없습니다.
+   >* 이미지가 포함된 주석을 삭제할 때 선택한 경험에 따라 다음 시나리오가 존재합니다.
+      >
+      >     * 현재 주석 달기 환경에서는 이미지가 문서 영역에 남아 있지만 더 이상 업데이트 섹션에 표시되지 않습니다.
+      >     * 새 주석 달기 환경에서 이미지는 업데이트 섹션과 문서 영역에서 제거됩니다. 주석을 편집하고 이미지를 삭제할 때 [문서] 영역에서도 이미지가 삭제됩니다.
+   >* [문서] 영역에서 댓글에 첨부된 이미지를 삭제하면 주석에서도 제거됩니다.
+
 
 1. 클릭 **업데이트**  또는 **제출**: 댓글 베타 환경을 사용합니다.
 
