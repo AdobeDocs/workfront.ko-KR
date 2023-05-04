@@ -8,9 +8,9 @@ author: Courtney and Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 9f7f8a50bb805b1d6845df79ecffaa329d5abc26
+source-git-commit: 3b0a82381d1c33d897b123a597df21ba54cc2565
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1310'
 ht-degree: 1%
 
 ---
@@ -93,7 +93,7 @@ ht-degree: 1%
     </tbody> 
    </table>
 
-1. 에서 **[!UICONTROL 로깅 시간]** 섹션에서 다음 옵션 중 하나를 구성합니다.
+1. 에서 **[!UICONTROL 사용자가 로그할 수 있는 위치]** 섹션에서 다음 옵션 중 하나를 구성합니다.
 
    <table style="table-layout:auto">
     <tr>
@@ -110,7 +110,7 @@ ht-degree: 1%
     </tr>
    </table>
 
-1. 에서 **[!UICONTROL 작업표를 미리 채우기]**&#x200B;섹션에서 &#x200B; 다음 옵션 중 하나를 구성합니다.
+1. 에서 **[!UICONTROL 작업표 미리 채우기]** 섹션에서 다음 옵션 중 하나를 구성합니다.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -135,11 +135,7 @@ ht-degree: 1%
     </tbody> 
    </table>
 
-1. 에서 **[!UICONTROL 프로젝트, 작업 또는 문제 삭제 환경 설정]** 섹션에서 다음을 지정합니다.
-
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Better title would be Deleting projects, tasks, and issues</p>
-   -->
+1. 에서 **[!UICONTROL 삭제된 프로젝트, 작업 및 문제]** 섹션에서 다음을 지정합니다.
 
    <table style="table-layout:auto"> 
     <col> 
