@@ -4,9 +4,9 @@ description: 23.3 릴리스 개요
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 7ee8257daa6b621d1b69d784717a13818ea9e098
+source-git-commit: 5ee2e5c279c8133b1a9441b804d6205111f6fc10
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,41 @@ The <add release> release webinar will be held on <date>. You can [register for 
 * [통합 개선 사항](#integration-enhancements)
 * [기타 개선 사항](#other-enhancements)
 
+### 관리자 개선 사항
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">기능</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">릴리스 날짜</span>
+                        </p>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md" class="MCXref xref" xrefformat="{para}">"사용자가 시간 기록 가능" 작업표 및 시간 기본 설정에 사용할 수 있는 그룹 수준 컨트롤</a> <span style="color: #ff0000;"> 미리 보기의 새로운 기능!</span></p>
+                        <p>이제 시스템 관리자가 "사용자가 시간 기록 가능" 작업표와 시간 기본 설정을 잠금 및 잠금 해제할 수 있습니다. 이 기본 설정의 잠금을 해제하면 그룹 관리자는 각 그룹에 대해 별도로 "사용자가 시간을 기록할 수 있는 위치" 설정을 구성할 수 있습니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용할 수 있습니다.</b></p>
+                        <ul>
+                            <li>
+                                <p>미리 보기 릴리스: 2023년 5월 4일</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">프로덕션 릴리스: 23.3 릴리스 사용</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
 ### 민첩한 개선 사항
 
 <table>
@@ -48,7 +83,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">동적 보드 템플릿에 추가된 단순 필터</a><span style="color: #ff0000;"> 미리 보기의 새로운 기능!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">동적 보드 템플릿에 추가된 단순 필터</a></p>
                         <p>다이내믹 보드 템플릿의 필터를 간소화하여 보드를 보다 신속하게 만들 수 있습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용할 수 있습니다.</b></p>
