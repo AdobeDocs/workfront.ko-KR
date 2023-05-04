@@ -2,9 +2,9 @@
 user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 feature-set: Workfront
-source-git-commit: 62a6cc8f60a2a08a694ae59895072c86764ba9b5
+source-git-commit: 122751851792dfecd062f156f804827cb732c40b
 workflow-type: tm+mt
-source-wordcount: '12934'
+source-wordcount: '12940'
 ht-degree: 1%
 
 ---
@@ -2012,6 +2012,7 @@ ht-degree: 1%
       * [Adobe Workfront Fusion의 시나리오 실행, 주기 및 단계](workfront-fusion/scenarios/scenario-execution-cycles-phases.md)
       * [Adobe Workfront Fusion에서 시나리오의 실행 기록 보기](workfront-fusion/scenarios/view-scenario-execution-history.md)
       * [Adobe Workfront Fusion에서 불완전한 실행 보기 및 해결](workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md)
+      * [에서 잠긴 시나리오 보기 및 관리 [!DNL Adobe Workfront Fusion]](workfront-fusion/scenarios/view-and-manage-locked-scenarios.md)
       * [Adobe Workfront Fusion에서 시나리오 예약](workfront-fusion/scenarios/schedule-a-scenario.md)
       * [Adobe Workfront Fusion에서 시나리오 활성화 또는 비활성화](workfront-fusion/scenarios/activate-or-inactivate-scenario.md)
       * [Adobe Workfront Fusion의 시나리오에 필터 추가](workfront-fusion/scenarios/add-a-filter-to-a-scenario.md)
@@ -2636,6 +2637,7 @@ other dupes
     * [Event subscription resource fields](wf-api/api/event-sub-resource-fields.md)
 
     * [Filter event subscription messages](wf-api/api/filter-event-sub-messages.md)
+
 
 
 -->
