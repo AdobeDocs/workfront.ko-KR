@@ -7,7 +7,7 @@ description: 프로젝트 관리자는 청구 비율을 사용하여 프로젝�
 author: Alina
 feature: Work Management
 exl-id: 400abcde-e368-4a70-89a9-05027900ab81
-source-git-commit: 518a552845598a30fd547d432aa9d22dfef6ec8e
+source-git-commit: 3649e206a294918e7dc42d75bab6538609d22d20
 workflow-type: tm+mt
 source-wordcount: '3313'
 ht-degree: 0%
@@ -98,7 +98,7 @@ Workfront은 작업의 계획 시간을 기반으로 작업을 생성할 때 자
 
 또한 실제 시간이 작업, 문제 및 프로젝트에 기록되면 실제 수익을 자동으로 추적할 수도 있습니다.
 
-다음 표에는 작업, 문제 및 프로젝트와 관련된 매출 유형이 나와 있습니다.
+다음 표는 작업, 문제 및 프로젝트와 관련된 매출 유형을 보여줍니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -106,7 +106,7 @@ Workfront은 작업의 계획 시간을 기반으로 작업을 생성할 때 자
  <tbody> 
   <tr> 
    <td role="rowheader">계획된 수익</td> 
-   <td> <p>작업의 경우, 작업 계획 시간과 연관된 수익입니다. 모든 태스크의 계획 시간은 프로젝트 계획 시간 계산에 기여하기 위해 프로젝트의 계획 시간으로 롤업됩니다. </p> <p>Workfront에서 계획된 시간에 대한 자세한 내용은 <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">계획 시간 개요</a>. </p> <p>Workfront은 다음 공식을 사용하여 작업 및 프로젝트에 대한 계획 수익을 계산합니다.</p> <p><code>Task Planned Revenue = Planned Hours * Billing hourly rate</code> </p> <p><code>Project Planned Revenue = SUM (All tasks Planned Revenue) +&nbsp;Fixed Revenue</code> </p> 
+   <td> <p>작업의 경우, 작업 계획 시간과 연관된 수익입니다. 모든 태스크의 계획 시간은 프로젝트 계획 시간 계산에 기여하기 위해 프로젝트의 계획 시간으로 롤업됩니다. </p> <p>Workfront에서 계획된 시간에 대한 자세한 내용은 <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">계획 시간 개요</a>. </p> <p>Workfront은 다음 공식을 사용하여 작업 및 프로젝트에 대한 계획 수익을 계산합니다.</p> <p><code>Task Planned Revenue = Planned Hours * Billing hourly rate</code> </p> <p><code>Project Planned Revenue = SUM (All tasks Planned Revenue) + Fixed Revenue</code> </p> 
    <p><b>메모</b>
 
 <p>프로젝트 상세내역 영역 및 프로젝트 보고서에 표시되는 프로젝트 계획 수익은 활용률 보고서에 표시되는 계획 수익과 다릅니다. </p> <p>프로젝트 상세내역 영역의 계획 수익은 태스크 계획 시간과 프로젝트의 고정 수익과 연관된 태스크 수익을 반영합니다. 가동률 보고서의 계획 수익에는 프로젝트의 태스크 지정에서 계획된 시간에만 연관된 계획 수익이 표시됩니다. </p> 
@@ -120,7 +120,7 @@ Workfront은 작업의 계획 시간을 기반으로 작업을 생성할 때 자
   </tr> 
   <tr> 
    <td role="rowheader">실제 수익*</td> 
-   <td> <p>작업, 문제 및 프로젝트의 실제 시간과 연관됩니다. </p> <p>일반적으로 Workfront은 다음 공식을 사용하여 실제 매출을 계산합니다.</p> <p><code>Planned Revenue = Planned Hours * Billing rate</code> </p> <p>활용률 보고서의 실제 수익 계산에 대한 자세한 내용은 <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">자원 사용률 정보 보기 </a>. </p> <p><b>팁</b>
+   <td> <p>작업, 문제 및 프로젝트의 실제 시간과 연관됩니다. </p> <p>일반적으로 Workfront은 다음 공식을 사용하여 실제 매출을 계산합니다.</p> <p><code>Actual Revenue = Actual Hours * Billing rate</code> </p> <p>활용률 보고서의 실제 수익 계산에 대한 자세한 내용은 <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">자원 사용률 정보 보기 </a>. </p> <p><b>팁</b>
 
 문제 수준에서는 실제 수익을 볼 수 없지만 문제에 대한 실제 시간과 연관된 수익은 프로젝트의 실제 매출에 기여합니다. </p> </td>
 </tr> 
