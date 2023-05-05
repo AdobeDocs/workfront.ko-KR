@@ -4,7 +4,7 @@ description: 23.3 릴리스 개요
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 5ee2e5c279c8133b1a9441b804d6205111f6fc10
+source-git-commit: d6e9c2b6873f7b74c949a4593d952171e16d9ea1
 workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 0%
@@ -129,7 +129,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                  <s><p>초기 옵트인에 대한 프로덕션 릴리스: 2023년 4월 28일 <span style="color: #ff0000;"> 이 기능은 Workfront 보드의 초기 기능 옵트인을 통해서만 프로덕션에서 사용할 수 있습니다.</span></p></s>
                                  </li>
                                  <li>
-                                <p><span class="preview">모든 고객을 위한 프로덕션 릴리스: 2022년 5월 18일</span>3</p>
+                                <p><span class="preview">모든 고객을 위한 프로덕션 릴리스: 2023년 5월 18일</span></p>
                             </li>
                         </ul>
                     </td>
