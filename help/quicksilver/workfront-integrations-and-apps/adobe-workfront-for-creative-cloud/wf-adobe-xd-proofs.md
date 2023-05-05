@@ -6,9 +6,9 @@ description: 철저한 검토 및 승인을 위해 대지를 증명을 Adobe Wor
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
-source-git-commit: d0afdfc7be9177f6ff45dcc247253faa9dc57967
+source-git-commit: d5255968a96452d9501a285408f67be7da10d933
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '1007'
 ht-degree: 1%
 
 ---
@@ -70,7 +70,9 @@ ht-degree: 1%
 
    >[!TIP]
    >
-   >두 개 이상의 대지를 선택하려면 원하는 대지를 클릭하여 드래그합니다.
+   >* 대지는 선택한 순서대로 증표에 나타납니다. 첫 번째로 선택한 대지는 증명의 첫 번째 페이지가 됩니다.
+   >* 두 개 이상의 대지를 빠르게 선택하려면 마우스를 원하는 대지로 끌어서 놓습니다. 이렇게 해도 증명의 대지 순서를 제어할 수 없습니다.
+
 
 1. 활성화 **[!UICONTROL 증명 만들기]**.
 
