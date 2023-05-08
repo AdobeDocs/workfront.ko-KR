@@ -6,9 +6,9 @@ title: 에 대한 초기 기능 옵트인 [!DNL Adobe Workfront] 보드
 description: 에 대해 알아보려면 이 문서를 참조하십시오. [!DNL Workfront Boards] 초기 기능 옵트인.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 4c59a63d08efe6dcd6be294c49ec98ebf70feed6
+source-git-commit: f77a44a31e57ad8430b162b1c5e6ef355b5fe74d
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
@@ -162,7 +162,7 @@ ht-degree: 0%
   </tr>
   <tr>
    <td>기존 간판 카드를 보드로 마이그레이션</td>
-   <td>이 기능은 2023년 5월 4일 프로덕션에서 사용할 수 있으며, 초기 기능 옵트인의 일부가 아닙니다.</td>
+   <td>이 기능은 2023년 5월 18일에 프로덕션에서 사용할 수 있으며, 초기 기능 옵트인의 일부가 아닙니다.</td>
   </tr>
   <tr>
    <td>다이내믹 보드 만들기</td>
@@ -171,6 +171,10 @@ ht-degree: 0%
   <tr>
    <td>카드 세부 사항에 왼쪽 탐색 사용</td>
    <td>부분적으로 릴리즈됨</td>
+  </tr>
+  <tr>
+   <td>가져오기 열에서 간소화된 필터 사용</td>
+   <td>계획됨</td>
   </tr>
  </tbody> 
 </table>
