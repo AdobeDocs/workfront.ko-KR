@@ -10,7 +10,7 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 4af7a72a3633f1b669cbc681f230727cc4f54d1e
+source-git-commit: 26da544bb8cd833d37dd6a484687495fde5060b1
 workflow-type: tm+mt
 source-wordcount: '1626'
 ht-degree: 4%
@@ -26,7 +26,7 @@ Adobe Workfront 관리자는 두 가지 용도로 사용자에게 액세스 수�
 
 ## Adobe Workfront의 새로운 내장된 액세스 수준 {#built-in-access}
 
-Workfront에는 6개의 새로운 내장된 액세스 수준이 있습니다.
+Workfront에는 5개의 새로운 내장된 액세스 수준이 있습니다.
 
 * 시스템 관리자
 * 표준
