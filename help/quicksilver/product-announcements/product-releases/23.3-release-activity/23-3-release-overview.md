@@ -4,9 +4,9 @@ description: 23.3 릴리스 개요
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 52f6c51a8843852b7eb1880661e3d53f8675c470
+source-git-commit: 6f9067d7d9c955e316546881f3e6883e9a59bcd4
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '1176'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,24 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
-                                <tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">보드 흡기 열에서 사용할 수 있는 단순 필터</a><span style="color: #ff0000;"> 미리 보기의 새로운 기능!</span></p>
+                        <p>흡입량 열을 보다 신속하게 정의할 수 있도록 간소화된 필터가 취침 열 설정에 추가되었습니다. 사용 가능한 필터는 팀 또는 사용자별 Workfront 프로젝트 및 할당입니다. 원하는 경우 고급 필터로 전환할 수 있습니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용할 수 있습니다.</b></p>
+                        <ul>
+                            <li>
+                                <p>미리 보기 릴리스: 2023년 5월 10일<br /></p>
+                            </li>
+                            <li>
+                                 <p>초기 옵트인에 대한 프로덕션 릴리스: 2023년 5월 10일 <span style="color: #ff0000;"> 이 기능은 Workfront 보드의 초기 기능 옵트인을 통해서만 프로덕션에서 사용할 수 있습니다.</span></p>
+                                <p>모든 고객을 위한 프로덕션 릴리스: 23.3 릴리스 사용</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">동적 보드 템플릿에 추가된 단순 필터</a></p>
                         <p>다이내믹 보드 템플릿의 필터를 간소화하여 보드를 보다 신속하게 만들 수 있습니다.</p>
@@ -186,6 +203,38 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Workfront 필드 값을 Experience Manager Assets의 태그에 매핑</a><span style="color: #ff0000;"> 프로덕션의 새로운 기능!</span></p>
+                        <p>이제 Workfront의 데이터를 기반으로 자산을 분류하고 신속하게 찾을 수 있습니다. 이 데이터를 Experience Manager Assets용 Workfront 통합에서 메타데이터 구성의 일부로 매핑할 수 있습니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용할 수 있습니다.</b></p>
+                        <ul>
+                            <li>
+                                <p>미리 보기 릴리스: 2023년 5월 10일</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">프로덕션 릴리스: 2023년 5월 10일</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Workfront 필드를 사용자 지정 Experience Manager Assets 메타데이터 필드에 매핑</a><span style="color: #ff0000;"> 프로덕션의 새로운 기능!</span></p>
+                        <p>이제 기본 통합을 통해 기본 및 기본 제공 Workfront 필드를 모두 Experience Manager Assets as a Cloud Service의 사용자 지정 메타데이터 스키마 필드에 매핑할 수 있습니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용할 수 있습니다.</b></p>
+                        <ul>
+                            <li>
+                                <p>미리 보기 릴리스: 2023년 5월 10일</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">프로덕션 릴리스: 2023년 5월 10일</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront for Creative Cloud을 사용하여 자동 증명 워크플로우 템플릿 설정 조정</a></p>
@@ -285,7 +334,7 @@ Workfront Fusion의 새로운 기능은 23.3 릴리스 일정을 제외한 케�
 
 ### Workfront 증명 개선 사항
 
-릴리스에는 이 시점에 Workfront 증명 업데이트가 없습니다. 이 영역은 업데이트를 사용할 수 있으면 업데이트됩니다.
+23.3 릴리스 일정 내에 Workfront Proof 릴리스에 추가될 새로운 기능. 이제 미리 보기에서 이러한 새로운 기능에 대한 자세한 내용은 [Adobe Workfront 23.3 릴리스가 포함된 증명](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-overview.md).
 
 ### Workfront 목표 개선 사항
 

@@ -2,9 +2,9 @@
 user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 feature-set: Workfront
-source-git-commit: 5ee2e5c279c8133b1a9441b804d6205111f6fc10
+source-git-commit: 6f9067d7d9c955e316546881f3e6883e9a59bcd4
 workflow-type: tm+mt
-source-wordcount: '12962'
+source-wordcount: '12984'
 ht-degree: 1%
 
 ---
@@ -24,6 +24,7 @@ ht-degree: 1%
          * [2023년 4월 17일의 23.3 릴리스 활동 주](product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md)
          * [2023년 4월 24일의 23.3 릴리스 활동 주](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md)
          * [2023년 5월 1일의 23.3 릴리스 활동 주](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md)
+         * [2023년 5월 8일 릴리스 활동 주 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md)
          * [23.3 릴리스 기간 동안 업데이트 확인 및 감지](product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
       * 23.2 릴리스 {#release-23-2}
          * [23.2 릴리스 개요](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
@@ -207,6 +208,9 @@ ht-degree: 1%
          * [Workfront 목표 및 20.4 릴리스](product-announcements/product-releases/goals-release-activity/goals-release-20-4.md)
          * [20.3 릴리스를 통한 Workfront 목표 - 2020년 8월 14일](product-announcements/product-releases/goals-release-activity/goals-release-20.3.md)
       * Workfront 증명 릴리스 활동 {#proof-release}
+         * 증명(23.3 릴리스) {#proof-23-3-release}
+            * [Adobe Workfront 23.3 릴리스가 포함된 증명](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-overview.md)
+            * [Adobe Workfront 증명 23.3 릴리스 활동: 2023년 5월 8일 주](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md)
          * [Workfront 증명 릴리스 활동: 2021년 5월 17일 주](product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md)
          * [Workfront 증명 릴리스 활동: 2021년 11월 29일의 주](product-announcements/product-releases/workfront-proof-release-activity/wp-release-22-1.md)
       * 분기별 릴리스 아카이브 {#quarterly-release}
