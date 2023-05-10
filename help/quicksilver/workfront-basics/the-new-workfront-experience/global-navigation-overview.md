@@ -3,11 +3,11 @@ content-type: overview
 title: 위쪽 탐색 모음 개요
 description: 위쪽 탐색 모음 - 새 창에서 화면 상단에 표시됩니다. [!DNL Adobe Workfront] 경험 - 플랫폼의 다른 영역을 쉽게 찾고 이동할 수 있습니다.
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: d8ca244e430f8a0e96b201bf09eba8b83b774a57
+source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '640'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,6 @@ ht-degree: 0%
 ## [!UICONTROL 홈 아이콘]
 
 다음 **[!UICONTROL 홈]** 아이콘 ![](assets/home-icon.png) 이동 [!UICONTROL 홈] 기본 랜딩 페이지인 페이지입니다. 홈에 대한 자세한 내용은 [를 사용하십시오 [!UICONTROL 홈] 영역](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
-
-An [!DNL Adobe Workfront] 관리자는 사용자 정의할 수 있습니다 [!UICONTROL 홈] 아이콘을 사용하여 회사의 브랜드와 일치시킬 수 있습니다. 자세한 내용은 [브랜드 [!DNL Adobe Workfront] 인스턴스](../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
 
 ## 고정된 페이지
 
@@ -59,6 +57,12 @@ An [!DNL Adobe Workfront] 관리자는 사용자 정의할 수 있습니다 [!UI
 검색에 대한 자세한 내용은 [검색 [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/search/search-workfront.md).
 
 ## [!UICONTROL 메인 메뉴]
+
+>[!IMPORTANT]
+>
+>이 페이지에 설명된 기본 메뉴는 아직 [!DNL Adobe Experience Cloud].
+>
+> 조직에 온보딩된 경우 [!DNL Adobe Experience Cloud]를 참조하십시오. [[!DNL Adobe Unified Experience] 대상 [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 다음 **[!UICONTROL 기본 메뉴]** 아이콘 ![기본 메뉴](assets/main-menu-icon.png) 열기 [!UICONTROL 기본 메뉴]: Workfront의 다른 영역으로 이동할 수 있습니다.
 

@@ -8,14 +8,20 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
 
 # 레이아웃 템플릿을 사용하여 Adobe Workfront 브랜드
+
+>[!IMPORTANT]
+>
+>이 페이지에 설명된 절차는 아직 온보딩되지 않은 조직에만 적용됩니다 [!DNL Adobe Experience Cloud].
+>
+> 조직에 온보딩된 경우 [!DNL Adobe Experience Cloud], 브랜딩을 사용할 수 없습니다.
 
 레이아웃 템플릿을 사용하여 위쪽 탐색 영역과 특정 그룹, 팀, 작업 역할 및 사용자에 대한 기본 메뉴에서 로고를 사용자 지정할 수 있습니다. 이 기능은 브랜딩이 고유한 대규모 조직의 그룹에 특히 유용합니다.
 
@@ -23,7 +29,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Workfront 관리자는 다음과 같이 시스템 수준에서 전체 조직에 대해 동일한 브랜딩 사용자 지정을 만들 수 있습니다. [Adobe Workfront 인스턴스 브랜딩](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). 하지만 레이아웃 템플릿의 브랜딩은 시스템 수준 브랜딩을 무시합니다. >
+>Workfront 관리자는 다음과 같이 시스템 수준에서 전체 조직에 대해 동일한 브랜딩 사용자 지정을 만들 수 있습니다. [Adobe Workfront 인스턴스 브랜딩](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). 하지만 레이아웃 템플릿의 브랜딩은 시스템 수준 브랜딩을 무시합니다.
 ><!--
 >Maybe add a section about deleting these 2 settings to revert to default branding?
 >-->

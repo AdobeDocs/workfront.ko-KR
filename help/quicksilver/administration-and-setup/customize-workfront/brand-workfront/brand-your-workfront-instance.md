@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 94603393-bdea-4673-9256-08da14f6916e
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '909'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,12 @@ ht-degree: 1%
 <!--
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
 -->
+
+>[!IMPORTANT]
+>
+>이 페이지에 설명된 절차는 아직 온보딩되지 않은 조직에만 적용됩니다 [!DNL Adobe Experience Cloud].
+>
+> 조직에 온보딩된 경우 [!DNL Adobe Experience Cloud], 브랜딩을 사용할 수 없습니다.
 
 Workfront 관리자는 다음 위치에서 로고가 있는 Workfront을 브랜딩할 수 있습니다.
 

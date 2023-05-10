@@ -5,9 +5,9 @@ title: 용어 설명 [!DNL Adobe Workfront] 용어
 description: 다음 [!DNL Adobe Workfront] 용어집에서는 Adobe Workfront에서 일반적으로 사용되는 용어를 나열합니다.
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
+source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
 workflow-type: tm+mt
-source-wordcount: '19387'
+source-wordcount: '19399'
 ht-degree: 0%
 
 ---
@@ -265,7 +265,7 @@ ht-degree: 0%
 
 <tr> 
    <td>[!UICONTROL 브랜딩]</td> 
-   <td>사용자 지정 프로세스 [!DNL Workfront] 색상 및 로고를 사용하여 회사를 미러링하는 인터페이스를 제공하기 위한 것입니다.</td> 
+   <td><p>사용자 지정 프로세스 [!DNL Workfront] 색상 및 로고를 사용하여 회사를 미러링하는 인터페이스를 제공하기 위한 것입니다.</p><p><strong>참고</strong><br>조직에 온보딩된 경우 [!DNL Adobe Experience Cloud], 브랜딩을 사용할 수 없습니다.</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 탐색 표시]</td> 

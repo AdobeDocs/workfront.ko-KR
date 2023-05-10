@@ -3,10 +3,10 @@ product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: 에 로그인합니다. [!DNL Adobe Workfront]
 description: Workfront에 로그인하는 방법을 배우려면 이 문서를 참조하십시오.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 69297cca-6b28-47d6-a478-8ac2bc29b959
-source-git-commit: 073e6c7d4e830dfd2b8920a20e1490c5524d71bd
+source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # 에 로그인합니다. [!DNL Adobe Workfront]
+
+{{important-not-on-aec}}
 
 로그인하려면 다음 정보가 필요합니다 [!DNL Adobe Workfront]:
 

@@ -3,13 +3,13 @@ product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: 로그아웃됨 [!DNL Adobe Workfront]
 description: 보안상의 이유로 [!DNL Adobe Workfront] 정기적으로 기본적으로 [!DNL Workfront] 8시간 동안 활동이 없으면 자동으로 사용자를 로그아웃합니다.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 3b457a44-53a1-44c5-99ce-445ab1463303
-source-git-commit: 0dd5577fc937a98900fab17fb434b70e023385af
+source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 1%
+source-wordcount: '212'
+ht-degree: 0%
 
 ---
 
@@ -26,6 +26,12 @@ ht-degree: 1%
 >TEMPORARY note! Remove and update how this works after IMS takes over. There's another note like this in Manage Workfront/Security/configure-security-preferences.html>
 ></MadCap:conditionalText>
 -->
+
+>[!IMPORTANT]
+>
+>이 페이지에 설명된 절차는 아직 온보딩되지 않은 조직에만 적용됩니다 [!DNL Adobe Experience Cloud].
+>
+> 조직에 온보딩된 경우 [!DNL Adobe Experience Cloud]로 로그인하려면 위쪽 탐색에서 프로필 사진을 클릭하고 [!UICONTROL **로그아웃**] 메뉴 아래의 제품에서 사용할 수 있습니다. 자세한 내용은 [[!DNL Adobe Unified Experience] 대상 [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 ## 액세스 요구 사항
 
