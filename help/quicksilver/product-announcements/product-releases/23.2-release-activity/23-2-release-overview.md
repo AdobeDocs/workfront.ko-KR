@@ -4,13 +4,13 @@ description: 23.2 릴리스 개요
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: c3ab0f47d8cb31094eb39e314ff11099a647a9f9
+exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
+source-git-commit: 9965ec9f436724e438fbbc5977f22761cc673878
 workflow-type: tm+mt
-source-wordcount: '2677'
+source-wordcount: '2730'
 ht-degree: 0%
 
 ---
-
 
 # 23.2 릴리스 개요
 
@@ -52,6 +52,22 @@ ht-degree: 0%
                     <td>
                         <p><span class="bold">릴리스 날짜</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront 필드 값을 Experience Manager Assets의 태그에 매핑</a>
+                        <p>이제 Workfront의 데이터를 기반으로 자산을 분류하고 신속하게 찾을 수 있습니다.  이 데이터를 Experience Manager Assets용 Workfront 통합에서 메타데이터 구성의 일부로 매핑할 수 있습니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용할 수 있습니다.</b></p>
+                        <ul>
+                            <li>
+                                <p>미리 보기 릴리스: 해당 없음<br /></p>
+                            </li>
+                            <li>
+                                 <p>프로덕션 릴리스: 2023년 3월 30일</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>

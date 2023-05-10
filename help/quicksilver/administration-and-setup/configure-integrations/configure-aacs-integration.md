@@ -5,9 +5,9 @@ title: Adobe Experience Manager 자산 통합
 description: 다음 Adobe Experience Manager Assets 통합으로 작업을 연결할 수 있습니다.
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: b874cb1a99840db11d6d55c86b7f779aa3e6ef35
+source-git-commit: 96f4d2b65aa630e86fdd4ee28b460069c5fd4987
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '1347'
 ht-degree: 0%
 
 ---
@@ -101,21 +101,76 @@ ht-degree: 0%
 >
 >메타데이터는 한 방향으로만 매핑할 수 있습니다. 변환 전: [!DNL Workfront] to [!DNL Experience Manager]. 에 연결된 문서의 메타데이터 [!DNL Workfront] 변환 전: [!DNL Experience Manager] 로 전송할 수 없음 [!DNL Workfront].
 
-
-
 ### 메타데이터 필드 구성
 
+메타데이터 필드 매핑을 시작하기 전에 Workfront과 Experience Manager Assets 모두에서 메타데이터 필드를 구성해야 합니다.
+
+메타데이터 필드를 구성하려면 다음을 수행합니다.
+
 1. 에서 메타데이터 스키마 구성 [!DNL Experience Manager Assets] 에 설명된 대로 [Adobe 간 자산 메타데이터 매핑 구성 [!DNL Workfront] 및 [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+
+
 1. Workfront에서 사용자 지정 양식 필드를 구성합니다. [!DNL Workfront] 에는 사용할 수 있는 기본 제공 사용자 지정 필드가 많이 있습니다. 그러나 다음에 설명된 대로 사용자 지정 필드를 직접 만들 수도 있습니다. [사용자 지정 양식 만들기 또는 편집](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
++++ **지원되는 Workfront 및 Experience Manager Assets 필드에 대한 자세한 내용을 보려면 를 확장하십시오**
 
-### 자산
+**Experience Manager Assets 태그**
+
+모든 Workfront 지원 필드를 Experience Manager Assets의 태그에 매핑할 수 있습니다. 이렇게 하려면 Experience Manager Assets의 태그 값이 Workfront과 일치하는지 확인해야 합니다.
+
+* 태그와 Workfront 필드 값은 맞춤법 및 형식 면에서 정확히 일치해야 합니다.
+* Experience Manager Assets의 태그에 대문자가 있는 것처럼 보이는 경우에도 experience Manager 자산 태그에 매핑된 Workfront 필드 값은 모두 소문자로 표시되어야 합니다.
+* Workfront 필드 값에는 공백을 포함할 수 없습니다.
+* Workfront의 필드 값에는 Experience Manager Assets 태그의 폴더 구조도 포함되어야 합니다.
+* 여러 단일 행 텍스트 필드를 태그에 매핑하려면 태그 값을 쉼표로 구분한 목록을 메타데이터 매핑의 Workfront 측에 입력합니다. `xcm:keywords` Analytics Standard나 Experience Manager Assets에서 지원됩니다. 각 필드 값은 별도의 태그에 매핑됩니다. 계산된 필드를 사용하여 여러 Workfront 필드를 쉼표로 구분된 단일 텍스트 필드로 결합할 수 있습니다.
+* 해당 필드에 사용 가능한 값에 대한 쉼표로 구분된 목록을 입력하여 드롭다운, 라디오 단추 또는 확인란 필드의 값을 매핑할 수 있습니다.
+
+
+>[!INFO]
+>
+>**예**: 여기에서 폴더 구조에 표시된 태그와 일치시키기 위해 Workfront의 필드 값은 `landscapes:trees/spruce`. Workfront 필드 값에 소문자 를 주목하십시오.
+>
+>태그 트리에서 태그를 가장 왼쪽 항목으로 지정하려면 콜론 뒤에 가 있어야 합니다. 이 예에서 경 태그에 매핑하려면 Workfront의 필드 값은 다음과 같습니다 `landscapes:`.
+>
+>![AEM의 폴더 구조](assets/aem-folder-structure-with-red-boxes.png)
+
+
+Experience Manager Assets에서 태그를 만들면 메타데이터 섹션의 태그 드롭다운 아래에 표시됩니다. 필드를 태그에 연결하려면 `xcm:keywords` 을 클릭합니다.
+
+태그 만들기 및 관리 방법 등 Experience Manager Assets의 태그에 대한 자세한 내용은 [태그 관리](https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html).
+
+**Experience Manager Assets 사용자 지정 메타데이터 스키마 필드**
+
+기본 제공 및 사용자 지정 Workfront 필드를 모두 Experience Manager Assets의 사용자 지정 메타데이터 스키마 필드에 매핑할 수 있습니다.
+
+Experience Manager Assets에서 만든 사용자 지정 메타데이터 필드는 메타데이터 설정 영역의 자체 섹션에 구성됩니다.
+
+![사용자 지정 메타데이터 섹션](assets/custom-metadata.png)
+
+<!-- 
+link to documentation about creating schema - waiting on response from Anuj about best article to link to
+-->
+
+**Workfront 필드**
+
+기본 제공 및 사용자 지정 Workfront 필드를 모두 Experience Manager Assets에 매핑할 수 있습니다. 다음 필드 값은 Workfront과 Experience Manager Assets 간의 철자와 대소문자를 모두 일치해야 합니다.
+
+* 드롭다운 필드
+* 여러 필드 선택
+
+>[!TIP]
+>
+> 필드 값이 정확히 일치하는지 확인하려면 다음 위치로 이동하십시오.
+>
+> * Workfront의 설정 > 사용자 지정 Forms 또는 개체의 필드
+> * Experience Manager Assets의 자산 > 메타데이터 스키마
+
+
++++
+
+### 자산에 대한 메타데이터 매핑
 
 자산이 푸시될 때 메타데이터가 매핑됩니다 [!DNL Workfront] 처음으로 기본 제공 또는 사용자 지정 필드가 있는 문서는 자산을 처음 보낼 때 지정된 필드에 자동으로 매핑됩니다 [!DNL Experience Manager Assets].
-
->[!NOTE]
->
->이 통합은 의 사용자 지정 메타데이터를 지원하지 않습니다. [!DNL Adobe Experience Manager].
 
 자산에 대한 메타데이터를 매핑하려면,
 
@@ -125,13 +180,15 @@ ht-degree: 0%
    >[!NOTE]
    >
    >단일 [!DNL Workfront] 여러 필드 [!UICONTROL Experience Manager Assets] 필드. 여러 개를 매핑할 수 없습니다 [!DNL Workfront] 필드를 단일 [!DNL Experience Manager Assets] 필드.
+   ><!--To map a Workfront field to an Experience Manager Assets tag, see -->
+
 
 1. 에서 [!DNL Experience Manager Assets] 필드, 미리 채워진 카테고리를 검색하거나 검색 필드에 적어도 두 문자를 입력하여 추가 카테고리에 액세스합니다.
 1. 필요에 따라 2단계와 3단계를 반복합니다.
    ![메타데이터 필드](assets/asset-metadata.png)
 1. 클릭 [!UICONTROL 저장] 또는 다음 위치로 이동 [폴더](#folders) 섹션에 자세히 설명되어 있습니다.
 
-### 폴더
+### 폴더에 대한 메타데이터 매핑
 
 사용자가 프로젝트에 연결된 폴더를 만들면 연결된 프로젝트, 포트폴리오 및 프로그램 데이터가 의 폴더 메타데이터 필드에 매핑됩니다 [!DNL Experience Manager Assets].
 
