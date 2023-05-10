@@ -7,7 +7,7 @@ description: 해결 가능한 개체는 해결 개체에 연결되어 있는 문
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: cd0adf2bd44a5c9f093e005b5af54b54ad019e34
+source-git-commit: 4c4a8703cca33066f72f8f2088029382edbafc29
 workflow-type: tm+mt
 source-wordcount: '1732'
 ht-degree: 1%
@@ -169,7 +169,7 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 
 문제와 프로젝트 또는 작업 모두에 대해 동일한 키로 사용자 지정 상태를 만들 수 있습니다. 프로젝트 또는 작업(해결 개체)이 사용자 지정 상태로 변경되면 변경 사항도 문제의 상태에 반영됩니다. 문제 및 프로젝트 또는 작업 상태에 대해 상태 키는 동일해야 합니다.
 
-예를 들어, &quot;Current&quot;와 같은 세 문자 코드 &quot;LCD&quot;를 사용하여 &quot;Launch&quot;라는 프로젝트 사용자 지정 상태를 만듭니다. 또한 &quot;In Progress&quot;와 같은 문자 코드 &quot;LCD&quot;와 함께 &quot;Project Launch&quot;라는 사용자 정의 상태를 만듭니다. 프로젝트를 &quot;시작됨&quot;으로 표시하면 문제가 자동으로 상태를 &quot;프로젝트 시작됨&quot;으로 변경합니다. 상태 키를 사용하여 해결할 수 있는 개체와 일치하도록 자동으로****문제 상태 설정 설정을 사용하지 않으면 문제 상태가 대신 &quot;진행 중&quot;(기본 상태)으로 변경됩니다.
+예를 들어, &quot;Current&quot;와 같은 세 문자 코드 &quot;LCD&quot;를 사용하여 &quot;Launch&quot;라는 프로젝트 사용자 지정 상태를 만듭니다. 또한 &quot;In Progress&quot;와 같은 문자 코드 &quot;LCD&quot;와 함께 &quot;Project Launch&quot;라는 사용자 정의 상태를 만듭니다. 프로젝트를 &quot;시작됨&quot;으로 표시하면 문제가 자동으로 상태를 &quot;프로젝트 시작됨&quot;으로 변경합니다. Resolvable Issue 상태는 개체 변경 해결(Resolving Object changes) 설정이 활성화되지 않은 경우 자동으로 업데이트 해결 가능 문제 상태가 설정되면 문제 상태가 대신 &quot;진행 중&quot;(기본 상태)으로 변경됩니다.
 
 사용자 지정 상태 만들기에 대한 자세한 내용은 [상태 만들기 또는 편집](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 

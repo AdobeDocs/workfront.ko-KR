@@ -6,16 +6,16 @@ description: 필요에 따라 Adobe Workfront에서 프로젝트를 편집할 �
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: 4c4a8703cca33066f72f8f2088029382edbafc29
 workflow-type: tm+mt
-source-wordcount: '7310'
+source-wordcount: '7344'
 ht-degree: 2%
 
 ---
 
 # 프로젝트 편집
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 환경의 모든 고객과 프로덕션 환경의 고객 선택 그룹에 대해 사용할 수 있습니다.</span>
 
 <!--
 <p>***Linked to many articles,</p>
@@ -690,6 +690,8 @@ ht-degree: 2%
 * 상태
 * 현재 승인 프로세스에서 승인자로 설정된 경우 승인 결정을 수행합니다
 
+<div class="preview">
+
 ## 프로젝트를 일괄적으로 편집
 
 프로젝트를 일괄적으로 편집하고 선택한 모든 프로젝트에 대한 정보를 동시에 업데이트할 수 있습니다.
@@ -793,7 +795,7 @@ Workfront 관리자 또는 그룹 관리자가 레이아웃 템플릿을 수정�
 1. (선택 사항) **취소** 맨 아래 **프로젝트 편집** 모든 프로젝트에 대한 모든 변경 사항을 제거하는 페이지입니다.
 1. **저장**&#x200B;을 클릭합니다.
 
-
+</div>
 
 <!-- Old information for how to bulk edit in classic/ before project bulk edit redesign: 
 
