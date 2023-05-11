@@ -9,9 +9,9 @@ description: Adobe Workfront Fusion HTTP 모듈에서 Mutual TLS를 사용할 �
 author: Becky
 feature: Workfront Fusion
 exl-id: ace9c404-34de-4bc5-bc77-2e53df36dbd9
-source-git-commit: 595d6e3e0a7d87240644bf20efd425917f4d953d
+source-git-commit: e67e6b6d3baf9f17a0a451fa4e1dbc365340f76e
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
@@ -83,40 +83,35 @@ HTTP 요청을 사용하여 웹 서비스에 연결하면 웹 서비스에는 �
 
 다음 링크를 사용하여 Workfront Fusion 공개 인증서를 다운로드할 수 있습니다.
 
+### 2023년 5월 25일 - 2024년 6월 9일 인증서
+
+>[!IMPORTANT]
+>
+>* 다음 [!DNL Workfront Fusion] 공개 인증서는 2024년 6월 9일에 만료됩니다. 만료되면 웹 서비스에 새 인증서를 업로드해야 합니다. 다음 사항을 권장합니다.
+   >
+   >   * 만료 날짜를 기록하고 웹 서비스에 인증서를 업로드하도록 직접 미리 알림을 설정하십시오.
+   >   * 이 페이지에 책갈피를 지정하여 새 인증서를 쉽게 찾을 수 있습니다.
+>
+* 와일드카드 mTLS 인증서가 아닙니다.
+>
+
+* [다운로드 [!DNL Workfront Fusion] 인증서 2023](assets/fusion-prod-us-mtls-certificate.pem)
+* [다운로드 [!DNL Workfront Fusion] EU 인증서 2023](assets/fusion-prod-eu-mtls-certificate.pem)
+
+   EU에서 사용
+
 ### 2022년 11월 14일 - 2023년 7월 15일 인증서
 
 >[!IMPORTANT]
 >
->다음 [!DNL Workfront Fusion] 공개 인증서는 2023년 7월 15일에 만료됩니다. 만료되면 웹 서비스에 새 인증서를 업로드해야 합니다. 다음 사항을 권장합니다.
->
->* 만료 날짜를 기록하고 웹 서비스에 인증서를 업로드하도록 직접 미리 알림을 설정하십시오.
->* 이 페이지에 책갈피를 지정하여 새 인증서를 쉽게 찾을 수 있습니다.
->
+>* 다음 [!DNL Workfront Fusion] 공개 인증서는 2023년 7월 15일에 만료됩니다.
+>* 와일드카드 mTLS 인증서입니다.
 
 
 * [다운로드 [!DNL Workfront Fusion] 인증서 2023](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion+2.0+public+certificates/app_workfrontfusion_com-jul-15-2023+updated.cer)
 * [다운로드 [!DNL Workfront Fusion] EU 인증서 2023](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion/app-eu_workfrontfusion_com-jul-15-2023.cer)
 
    EU에서 사용
-
-<!--
-
-Previous US cert
-
-* [Download [!DNL Workfront Fusion] Certificate 2023](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion/app_workfrontfusion_com-jul-15-2023.cer)
-
-### Certificates for November 17, 2021 - November 14, 2022
-
->[!IMPORTANT]
->
->These certificates expire on November 14, 2022. Upload the new certificates to the web service as soon as possible.
-
-* [Download Workfront Fusion Certificate 2022](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion+2.0+public+certificates/app_workfrontfusion_com_certificate-chain-2022.crt) 
-* [Download Workfront Fusion EU Certificate 2022](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion+2.0+public+certificates/app-eu_workfrontfusion_com_certificate-chain-2022.crt)
-
-  For use in the EU
-
-  -->
 
 ## 에서 상호 TLS 활성화 [!DNL Workfront Fusion] HTTP 모듈
 
