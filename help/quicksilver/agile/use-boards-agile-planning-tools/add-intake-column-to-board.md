@@ -7,9 +7,9 @@ description: 사용자가 정의한 필터에 따라 작업 및 문제가 Workfr
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 81d68656c5dc4811884cde53193139856f290f4d
+source-git-commit: 5e73603b695ff7456216ca7a4e15ce527b01559d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '937'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,11 @@ ht-degree: 0%
 
 &#42;어떤 계획, 라이센스 유형 또는 액세스 권한을 보유하고 있는지 확인하려면 [!DNL Workfront] 관리자
 
-## 가져오기 열 만들기
+## 단순 필터를 사용하여 가져오기 열 만들기
+
+>[!NOTE]
+>
+>단순 필터는 Adobe Workfront 보드의 초기 기능 옵트인을 통해서만 사용할 수 있습니다.
 
 1. 을(를) 클릭합니다. **[!UICONTROL 기본 메뉴]** 아이콘 ![기본 메뉴](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 을(를) 클릭하고 **[!UICONTROL 보드]**.
 1. 보드 액세스. 자세한 내용은 [보드 만들기 또는 편집](../../agile/get-started-with-boards/create-edit-board.md).
@@ -57,11 +61,38 @@ ht-degree: 0%
 1. 확장 **[!UICONTROL 보드]**.
 1. 켜기 **[!UICONTROL 동적으로 보드에 항목 가져오기]**.
 
-   ![취량 열 만들기](assets/create-intake-column2.png)
+   ![가져오기 열 단순 필터 옵션](assets/intake-column-simple-filters.png)
 
    보드 왼쪽에 취수열이 추가됩니다. 필터를 적용할 때까지 비어 있는 상태로 유지됩니다.
 
+1. (선택 사항) 을 검색하고 선택합니다 [!DNL Workfront] [!UICONTROL **프로젝트**].
+1. (선택 사항) 사용자 또는 팀을 검색하고 선택합니다 [!UICONTROL **지정**].
+1. 선택 [!UICONTROL **완료된 작업 포함**] 를 눌러 취입 열에 완료 상태의 작업 및 문제를 표시합니다.
+
+   >[!NOTE]
+   >
+   >이 옵션을 선택하지 않으면 다른 상태의 카드가 완료된 것으로 표시되면 해당 카드가 보드의 &quot;폴아웃&quot;되며 더 이상 표시되지 않습니다.
+
+1. 클릭 [!UICONTROL **적용**].
+
+   모든 개체는 보드 취침 열에 연결된 카드로 나타납니다.
+
+   ![열 접수](assets/intake-column-added3.png)
+
+## 고급 필터를 사용하여 취크 열 만들기
+
+1. 을(를) 클릭합니다. **[!UICONTROL 기본 메뉴]** 아이콘 ![기본 메뉴](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 을(를) 클릭하고 **[!UICONTROL 보드]**.
+1. 보드 액세스. 자세한 내용은 [보드 만들기 또는 편집](../../agile/get-started-with-boards/create-edit-board.md).
+1. 클릭 **[!UICONTROL 구성]** 보드 오른쪽의 구성 패널을 엽니다.
+1. 확장 **[!UICONTROL 보드]**.
+1. 켜기 **[!UICONTROL 동적으로 보드에 항목 가져오기]**.
+
+   보드 왼쪽에 취수열이 추가됩니다. 필터를 적용할 때까지 비어 있는 상태로 유지됩니다.
+
+1. 클릭 [!UICONTROL **고급 필터 사용**].
 1. 클릭 **[!UICONTROL 필터 소스]** 을(를) 선택합니다. **[!UICONTROL 작업]** 또는 **[!UICONTROL 문제]**.
+
+   ![가져오기 열 고급 필터 옵션](assets/intake-column-advanced-filters1.png)
 
    >[!NOTE]
    >
@@ -97,15 +128,18 @@ ht-degree: 0%
 
    ![열 접수](assets/intake-column-added3.png)
 
-   가져오기 열의 카드는 다른 보드 열로 이동할 때까지 편집할 수 없습니다. 카드를 클릭하여 읽기 전용 보기로 열거나 ![작업 또는 문제 열기](assets/boards-launch-icon.png) 새 브라우저 탭에서 작업이나 문제를 열려면 다음을 수행하십시오.
-
-   취입 열의 항목을 수동으로 다시 정렬할 수 있습니다.
-
-   흡입량 열의 오른쪽 위에 있는 아이콘은 현재 열에 있는 카드 수와 적용된 필터 수를 보여줍니다.
-
    >[!NOTE]
    >
    >구성 패널을 열고 을 클릭하여 언제든지 필터를 업데이트할 수 있습니다 **[!UICONTROL 필터 소스]**, 및 선택 **[!UICONTROL 작업]** 또는 **[!UICONTROL 문제]**.
+
+## 가져오기 열 사용
+
+가져오기 열의 카드는 다른 보드 열로 이동할 때까지 편집할 수 없습니다. 카드를 클릭하여 읽기 전용 보기로 열거나 ![작업 또는 문제 열기](assets/boards-launch-icon.png) 새 브라우저 탭에서 작업이나 문제를 열려면 다음을 수행하십시오.
+
+
+취입 열의 항목을 수동으로 다시 정렬할 수 있습니다.
+
+흡입량 열의 오른쪽 위에 있는 아이콘은 현재 열에 있는 카드 수와 적용된 필터 수를 보여줍니다.
 
 1. (선택 사항) 흡입량 열에서 항목을 검색하려면 ![검색 아이콘](assets/search-icon.png) 추가 정보.
 1. (선택 사항) 카드를 흡입 열에서 다른 열로 이동하려면 카드를 표시할 위치로 끌어다 놓습니다.

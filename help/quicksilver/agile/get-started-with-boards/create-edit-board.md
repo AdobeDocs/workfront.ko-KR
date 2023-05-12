@@ -6,9 +6,9 @@ description: 에서 [!UICONTROL 보드] 대시보드에서 새 보드를 만들�
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: f6bee61bbfbac98595d737fa002bbe01c0c573dc
+source-git-commit: 5e73603b695ff7456216ca7a4e15ce527b01559d
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '736'
 ht-degree: 3%
 
 ---
@@ -62,6 +62,12 @@ ht-degree: 3%
       모든 개체가 보드에 연결된 카드로 표시됩니다.
 
       다음 [!UICONTROL **카드 추가 중**] 카운터는 몇 개의 카드가 보드에 있는지 표시합니다. 예를 들어 100개의 작업 및 문제가 있는 프로젝트를 선택하면 카운터에 100개가 표시됩니다. 사용자 지정을 추가하고 해당 개인이 프로젝트에서 5개의 작업에 지정되는 경우 카운터는 5개를 표시합니다.
+
+   1. (선택 사항) 선택 [!UICONTROL **완료된 작업 포함**] 보드에 완성된 카드를 포함하기 위해.
+
+      >[!NOTE]
+      >
+      >이 옵션을 선택하지 않으면 다른 상태의 카드가 완료된 것으로 표시되면 해당 카드가 보드의 &quot;폴아웃&quot;되며 더 이상 표시되지 않습니다.
 
    1. (선택 사항) [!UICONTROL **고급 필터 사용**] 추가 필터 옵션을 표시하려면 다음을 수행하십시오.
 

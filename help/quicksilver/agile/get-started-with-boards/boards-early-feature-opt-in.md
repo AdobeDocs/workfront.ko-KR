@@ -6,9 +6,9 @@ title: 에 대한 초기 기능 옵트인 [!DNL Adobe Workfront] 보드
 description: 에 대해 알아보려면 이 문서를 참조하십시오. [!DNL Workfront Boards] 초기 기능 옵트인.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: f77a44a31e57ad8430b162b1c5e6ef355b5fe74d
+source-git-commit: 9278d70e5a44b0dbd26dec705f51d132792418ed
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '695'
 ht-degree: 0%
 
 ---
@@ -174,7 +174,7 @@ ht-degree: 0%
   </tr>
   <tr>
    <td>가져오기 열에서 간소화된 필터 사용</td>
-   <td>계획됨</td>
+   <td>부분적으로 릴리즈됨</td>
   </tr>
  </tbody> 
 </table>
