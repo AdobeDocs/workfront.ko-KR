@@ -7,9 +7,9 @@ description: 템플릿을 만든 후 템플릿 작업에 대한 정보를 편집
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: ad6ade3ff700f1e73c05dfc59aa0108a5d113f2e
 workflow-type: tm+mt
-source-wordcount: '2470'
+source-wordcount: '2503'
 ht-degree: 5%
 
 ---
@@ -152,7 +152,7 @@ ht-degree: 5%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>계획된 시간</strong> </td> 
-      <td> <p>이 템플릿으로 생성된 프로젝트의 향후 작업에 대한 계획 시간(시)을 지정합니다. 이 시간은 작업을 완료하는 데 작업의 할당자가 걸리는 실제 시간입니다. 작업에 대한 계획 시간(시)은<strong>기간 유형</strong> 가 로 설정되어 있습니다. <strong>계산된 할당</strong>. </p> </td> 
+      <td> <p>이 템플릿으로 생성된 프로젝트의 향후 작업에 대한 계획 시간 수를 지정합니다. 이 시간은 작업을 완료하는 데 작업의 할당자가 걸리는 실제 시간입니다. 작업에 대한 계획 시간 수는<strong>기간 유형</strong> 가 로 설정되어 있습니다. <strong>계산된 할당</strong>. </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">작업 노력 </td> 
@@ -276,6 +276,14 @@ ht-degree: 5%
     <col> 
     <col> 
     <tbody> 
+   <tr> 
+      <td role="rowheader"><strong><p>마일스톤</p></strong> </td> 
+      <td> <p>선택한 템플릿 작업과 연결할 이정표를 선택합니다.</p>
+
+   <p><b>중요 사항</b></p>
+   <p>이 필드를 표시하려면 이정표 경로를 템플릿과 연결해야 합니다. 자세한 내용은 <a href="../create-and-manage-templates/edit-templates.md">프로젝트 템플릿 편집</a>.</p> 
+   </td> 
+     </tr>
      <tr> 
       <td role="rowheader"><strong>추적 모드</strong> </td> 
       <td> <p>향후 작업의 진행 상태를 추적하는 방법을 지정합니다. </p> <p>다음 옵션 중에서 선택합니다.</p> 
@@ -348,7 +356,7 @@ ht-degree: 5%
 
    ![custom_forms_edit_task.png](assets/custom-forms-edit-task-350x136.png)
 
-1. 템플릿 작업과 연결할 사용자 지정 양식 또는 양식을 선택합니다. 이 필드에서 사용자 지정 양식을 선택하려면 먼저 사용자 지정 양식을 작성해야 합니다. 활성 사용자 지정 양식만 목록에 표시됩니다. 사용자 지정 양식 작성에 대한 자세한 내용은 [사용자 지정 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).템플릿 작업에 최대 10개의 사용자 지정 양식을 추가할 수 있습니다. 양식은 템플릿에서 만든 작업에 자동으로 추가됩니다.
+1. 템플릿 작업과 연결할 사용자 지정 양식 또는 양식을 선택합니다. 이 필드에서 사용자 지정 양식을 선택하려면 먼저 사용자 지정 양식을 작성해야 합니다. 활성 사용자 지정 양식만 목록에 표시됩니다. 사용자 지정 양식 작성에 대한 자세한 내용은 [사용자 지정 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). 템플릿 작업에 최대 10개의 사용자 지정 양식을 추가할 수 있습니다. 양식은 템플릿에서 만든 작업에 자동으로 추가됩니다.
 1. (조건부 및 선택 사항) 템플릿 작업에 사용자 지정 양식을 첨부한 경우 양식의 필드를 편집합니다. 템플릿 작업을 저장하려면 먼저 모든 필수 필드를 지정해야 합니다.
 
    >[!NOTE]
