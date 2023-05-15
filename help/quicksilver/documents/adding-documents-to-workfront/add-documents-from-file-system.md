@@ -6,9 +6,9 @@ description: Adobe Workfront - EDIT ME의 다음 영역에서 프로젝트, 작�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: c4ec9363bdcf683b4b56eedee17ebf4388e6cee2
+source-git-commit: fe9f1da23f1196dac468ec33aae776950ce49f2c
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '727'
 ht-degree: 1%
 
 ---
@@ -111,8 +111,13 @@ Workfront 사이트에서는 다음과 같은 방법으로 문서를 통해 바�
 
 ### Workfront에서 손상된 파일을 감지하는 방법 {#how-workfront-detects-corrupted-files}
 
-Workfront은 문서가 업로드되면 바이러스를 검사합니다. 손상된 문서를 업로드하려고 하면 Workfront에서 업로드 프로세스를 중단하면 파일이 손상되었음을 나타내는 메시지가 나타납니다. 또한 Workfront에서 잠재적으로 악의적인 콘텐츠를 감지하고 파일이 제거될 때 이메일 알림을 받을 수 있습니다.\
-손상된 파일은 수동으로 제거하지 않으면 검색 후 24시간 이내에 모두 제거됩니다. 손상된 파일을 삭제하면 Workfront은 이 작업을 업데이트로 추적합니다. Workfront에서 제거할 수 있도록 허용하는 경우 업데이트가 기록되지 않습니다.
+요청 시에만 조직에 대해 문서 검색을 사용할 수 있습니다.
+
+문서 스캔이 활성화되면 25MB 이하의 파일을 업로드할 때 스캔됩니다. 25MB가 넘는 파일은 검사되지 않습니다.
+
+Workfront에서 손상된 문서를 발견하면 Workfront에서 업로드 프로세스를 중단하고 파일이 손상되었음을 나타내는 메시지가 나타납니다. 또한 Workfront에서 잠재적으로 악의적인 콘텐츠를 감지하고 파일이 제거될 때 이메일 알림을 받을 수 있습니다.
+
+손상된 파일은 수동으로 제거하지 않으면 검색 후 24시간 이내에 제거됩니다. 손상된 파일을 삭제하면 Workfront은 이 작업을 업데이트로 추적합니다. Workfront에서 제거할 수 있도록 허용하는 경우 업데이트가 기록되지 않습니다.
 
 ### 파일 이름 제한 {#file-name-restrictions}
 
