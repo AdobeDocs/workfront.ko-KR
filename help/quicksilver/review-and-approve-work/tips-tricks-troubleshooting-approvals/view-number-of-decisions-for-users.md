@@ -6,7 +6,7 @@ description: Workfront 인스턴스에서 사용자가 수행한 증명 및 문�
 author: Courtney
 feature: Work Management
 exl-id: e7b1ee0a-3306-49a8-aa4f-142b9d894834
-source-git-commit: a1435e58328b592be749541f47af66c51331759c
+source-git-commit: 870e4c0a3627558d1eba0d119f4abef19d135754
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 0%
@@ -27,4 +27,4 @@ Workfront 인스턴스에서 사용자가 수행한 증명 및 문서 결정 수
 
 1. 를 엽니다. **보기 횟수** 영역을 선택한 다음 **라이선스** 보기.
 
-1. 열 찾기 **이번 달 승인** 을 클릭하여 각 사용자가 해당 월에 수행한 세션 수를 확인합니다.
+1. 열 찾기 **이번 달에 결정** 을 클릭하여 각 사용자가 해당 월에 수행한 세션 수를 확인합니다.
