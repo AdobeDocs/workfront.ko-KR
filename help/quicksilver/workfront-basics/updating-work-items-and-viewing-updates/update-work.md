@@ -6,9 +6,9 @@ description: Adobe Workfront 개체(프로젝트, 작업 또는 문제)에 업�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 4383d0d8178028d13f3d97189acfcabfa5766c41
+source-git-commit: 77a489455b0d058bc53fbb87ffd219cf7b50a213
 workflow-type: tm+mt
-source-wordcount: '3085'
+source-wordcount: '3153'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 환경에서만 사용할 수 있습니다.</span>
 
 >[!NOTE]
 >
@@ -271,17 +271,19 @@ drafted for P&P release:
 1. 업데이트 영역으로 이동하여 댓글을 입력을 시작합니다.
 1. (선택 사항) 업데이트에 서식 있는 텍스트 서식을 추가하려면 **리치 텍스트** 입력할 때 도구 모음
 
-   | **속성** | **도구 모음 단추** | **Mac 바로 가기 키** | **PC 바로 가기 키** |
+   | **속성** | **도구 모음 단추** | **Mac 바로 가기 키** | **Windows 바로 가기 키** |
    |---|---|---|---|
    | 볼드체 | ![mceclip10.png](assets/mceclip10.png) | ⌘+b | Ctrl+B |
    | 기울임꼴 | ![mceclip9.png](assets/mceclip9.png) | ⌘+i | Ctrl+I |
    | 밑줄 | ![mceclip8.png](assets/mceclip8.png) | ⌘+u | Ctrl+U |
-   | 하이퍼링크 | ![mceclip7.png](assets/mceclip7.png) | ⌘+K | Ctrl+K |
+   | 하이퍼링크 | ![mceclip7.png](assets/mceclip7.png) | <br>링크 만들기 또는 링크 추가 상자를 열려면 다음을 수행하십시오. ⌘+K</br> <br><span class="preview">주석 달기 베타 경험에서 선택한 텍스트에 링크를 붙여넣습니다. ⌘+V</span></br> | <br>링크 만들기 또는 링크 추가 상자를 열려면 다음을 수행하십시오. Ctrl+K</br> <br><span class="preview">주석 달기 베타 경험에서 선택한 텍스트에 링크를 붙여넣습니다. Ctrl+V</span></br> |
    | 글머리 기호 목록 | ![mceclip6.png](assets/mceclip6.png) | ⌘+Shift+8 | Ctrl+Shift+8 |
    | 번호 매기기 목록 | ![mceclip5.png](assets/mceclip5.png) | ⌘+Shift+7 | Ctrl+Shift+7 |
    | 견적 차단 | ![](assets/block-quote-icon-large.png) | Shift ⌘+9 | Ctrl+Shift+9 |
 
    텍스트 서식을 중지하려면 **리치 텍스트** 도구 모음
+
+   <!-- in the table above: take "Create Links" verbiage from the hyperlink when the old commenting is removed and the commenting beta is the only way to comment-->
 
    >[!NOTE]
    >
