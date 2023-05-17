@@ -7,9 +7,9 @@ description: 사용자가 정의한 필터에 따라 작업 및 문제가 Workfr
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 5e73603b695ff7456216ca7a4e15ce527b01559d
+source-git-commit: 47fb31980a73759806be8e0db8a2a9bc2d7e6fe4
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '938'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 0%
    보드 왼쪽에 취수열이 추가됩니다. 필터를 적용할 때까지 비어 있는 상태로 유지됩니다.
 
 1. 클릭 [!UICONTROL **고급 필터 사용**].
-1. 클릭 **[!UICONTROL 필터 소스]** 을(를) 선택합니다. **[!UICONTROL 작업]** 또는 **[!UICONTROL 문제]**.
+1. 클릭 **[!UICONTROL 필터 소스 추가]** 을(를) 선택합니다. **[!UICONTROL 작업]** 또는 **[!UICONTROL 문제]**.
 
    ![가져오기 열 고급 필터 옵션](assets/intake-column-advanced-filters1.png)
 
