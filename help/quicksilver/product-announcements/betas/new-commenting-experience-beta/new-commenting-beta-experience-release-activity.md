@@ -5,9 +5,9 @@ title: '새로운 주석 달기 환경 베타 릴리스 활동'
 description: Adobe Workfront의 새로운 댓글 베타 경험에 대한 주간 릴리스 활동을 검토하십시오.
 author: Alina
 feature: Product Announcements
-source-git-commit: 77a489455b0d058bc53fbb87ffd219cf7b50a213
+source-git-commit: f4283cc81fbde9e7c399bb48d483158175ca1dea
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '552'
 ht-degree: 9%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 9%
 
 ## 2023년 5월 15일 주
 
-### 주석(제목)에 하이퍼링크를 추가할 때 경험이 개선되었습니다
+### 주석에 하이퍼링크를 추가할 때 경험이 개선됨
 
 이제 다음 바로 가기 키를 사용하여 주석에 하이퍼링크를 추가할 수 있습니다.
 
