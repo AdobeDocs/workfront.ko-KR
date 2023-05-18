@@ -5,16 +5,14 @@ title: 애자일 팀 간판 카드를 Workfront 보드로 마이그레이션
 description: 작업 항목을 애자일 팀 간판 보드에서 신규 또는 기존 Workfront 보드로 마이그레이션할 수 있습니다.
 author: Lisa
 exl-id: c40b6453-5869-437b-a1e0-f20dd833d2b8
-source-git-commit: c990b897a4e6722515c6b065ee2a5832fdc31231
+source-git-commit: a788a8d39c714463f7ea9aa32f0c5a0f050eabdc
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
 
 # 애자일 팀 간판 카드를 Workfront 보드로 마이그레이션
-
-{{highlighted-preview-article-level}}
 
 작업 항목을 애자일 팀 간판 보드에서 신규 또는 기존 Workfront 보드로 마이그레이션할 수 있습니다. 마이그레이션을 실행하면 간판 보드의 모든 카드가 Workfront 보드에 복사됩니다. 특정 카드를 선택할 수 없습니다.
 
