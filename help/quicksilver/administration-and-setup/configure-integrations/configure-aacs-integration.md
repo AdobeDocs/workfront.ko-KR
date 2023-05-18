@@ -5,14 +5,16 @@ title: Adobe Experience Manager 자산 통합
 description: 다음 Adobe Experience Manager Assets 통합으로 작업을 연결할 수 있습니다.
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 337aead90dba40a3c9104fb0183897c17f2cd66d
+source-git-commit: 9080dfe7e46a3780d493b59c8f2a3c4efbc011e7
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1526'
 ht-degree: 0%
 
 ---
 
 # 구성 [!UICONTROL Experience Manager Assets as a Cloud Service] 통합
+
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
 
 에서 작업을 콘텐츠와 연결할 수 있습니다. [!DNL Experience Manager Assets]&#x200B;:
 
@@ -224,6 +226,8 @@ An [!DNL Experience Manager] 매핑된 필드 [!DNL Workfront] 포트폴리오, 
 
 <!--Courtney start here-->
 
+<div class="preview">
+
 ## 워크플로우 설정(선택 사항)
 
 워크플로우는 Workfront을 Adobe Experience Manager as a Cloud Service에 연결하는 작업 세트입니다. Workfront 관리자는 Workfront에서 워크플로우를 구성한 다음 프로젝트 템플릿에 할당할 수 있습니다. 워크플로우가 할당된 프로젝트 템플릿을 사용하여 프로젝트를 만들 때 워크플로우에 정의된 작업이 트리거됩니다.
@@ -237,6 +241,8 @@ An [!DNL Experience Manager] 매핑된 필드 [!DNL Workfront] 포트폴리오, 
    ![연결된 폴더 탐색](assets/select-folder-aem-integration.png)
 1. 를 활성화합니다 **Portfolio 및 프로그램 이름 추가** 연결된 폴더 이름의 끝에 Portfolio 및 프로그램 이름을 자동으로 포함하는 옵션입니다.
 1. 클릭 **저장** 또는 다음 위치로 이동 [연결된 폴더 설정(선택 사항)](#set-up-linked-folders-optional) 섹션에 자세히 설명되어 있습니다.
+
+</div>
 
 <!--Courtney end here-->
 

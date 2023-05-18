@@ -5,14 +5,16 @@ title: Experience Manager Assets Essentials 통합에서 워크플로우 사용
 description: Experience Manager Assets Essentials 통합에서 워크플로우 사용
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
-source-git-commit: 038f5f3c941ea69feb43492a30b5abea39f7c932
+source-git-commit: 9080dfe7e46a3780d493b59c8f2a3c4efbc011e7
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '759'
 ht-degree: 0%
 
 ---
 
 # Experience Manager Assets 통합에서 워크플로우 사용
+
+<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
 
 워크플로우는 Workfront을 Adobe Experience Manager as a Cloud Service에 연결하는 작업 세트입니다. Workfront 관리자는 Workfront에서 워크플로우를 구성한 다음 프로젝트 템플릿에 할당할 수 있습니다. 워크플로우가 할당된 프로젝트 템플릿을 사용하여 프로젝트를 만들 때 워크플로우에 정의된 작업이 트리거됩니다.
 
