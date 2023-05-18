@@ -9,7 +9,7 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1ee9343e-9452-4e41-a9ff-a6c865d4813b
-source-git-commit: 3b0a82381d1c33d897b123a597df21ba54cc2565
+source-git-commit: df55d6659fac7588610bc05ea0380a766b4277a2
 workflow-type: tm+mt
 source-wordcount: '1368'
 ht-degree: 6%
@@ -18,12 +18,10 @@ ht-degree: 6%
 
 # 그룹에 대한 작업표 및 시간 환경 설정 구성
 
-{{highlighted-preview}}
-
 Adobe Workfront 관리자는 시스템 수준에서 작업표 및 시간 환경 설정의 다음 섹션을 잠금 해제할 수 있으므로 그룹 관리자가 자신의 그룹에 대해 독립적으로 구성할 수 있습니다.
 
 * 일반 환경 설정
-* <span class="preview">사용자가 시간을 기록할 수 있는 위치</span>
+* 사용자가 시간을 기록할 수 있는 위치
 * 작업표 미리 채우기
 
 관리하는 그룹 위에 그룹이 있으면 해당 관리자가 사용자 그룹을 위해 이 작업을 수행할 수도 있습니다. Workfront 관리자(모든 그룹의 경우)도 마찬가지입니다.
@@ -136,23 +134,23 @@ Workfront 관리자가 작업표 및 시간 기본 설정을 잠금 해제하는
     </tbody> 
    </table>
 
-1. <span class="preview">에서 **사용자가 로그할 수 있는 위치** 섹션에서 다음 옵션 중 하나를 구성합니다.</span>
+1. 에서 **사용자가 로그할 수 있는 위치** 섹션에서 다음 옵션 중 하나를 구성합니다.
 
    <table style="table-layout:auto">
     <col>
     <col>
     <tbody>
      <tr>
-      <td role="rowheader"><span class="preview">프로젝트에 직접 시간을 기록합니다</span></td> 
-      <td><span class="preview">사용자가 프로젝트에서 로그할 수 있습니다( 업데이트 탭과 작업표 모두). 사용자가 프로젝트 수준에서 시간을 기록하지 못하도록 제한하려면 이 옵션을 선택 취소합니다.</span></td>
+      <td role="rowheader">프로젝트에 직접 시간을 기록합니다</td> 
+      <td>사용자가 프로젝트에서 로그할 수 있습니다( 업데이트 탭과 작업표 모두). 사용자가 프로젝트 수준에서 시간을 기록하지 못하도록 제한하려면 이 옵션을 선택 취소합니다.</td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview">완료된 프로젝트에 시간을 기록하십시오</span></td>
-      <td><span class="preview">사용자가 완료된 것으로 표시된 프로젝트에 시간을 기록할 수 있습니다. 이 옵션을 비활성화하면 사용자가 완료 상태의 프로젝트에서 완료한 작업에 대한 시간을 기록할 수 없습니다.</span></td>
+      <td role="rowheader">완료된 프로젝트에 시간을 기록하십시오</td>
+      <td>사용자가 완료된 것으로 표시된 프로젝트에 시간을 기록할 수 있습니다. 이 옵션을 비활성화하면 사용자가 완료 상태의 프로젝트에서 완료한 작업에 대한 시간을 기록할 수 없습니다.</td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview">중단된 프로젝트에 시간을 기록합니다</span></td> 
-      <td><span class="preview">이 옵션이 활성화되면 사용자가 중단 상태로 프로젝트에 대한 시간을 기록할 수 있습니다.</span></td>
+      <td role="rowheader">중단된 프로젝트에 시간을 기록합니다</td> 
+      <td>이 옵션이 활성화되면 사용자가 중단 상태로 프로젝트에 대한 시간을 기록할 수 있습니다.</td>
      </tr>
     </tbody>
    </table>
