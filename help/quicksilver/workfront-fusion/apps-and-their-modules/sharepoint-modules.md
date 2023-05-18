@@ -9,9 +9,9 @@ description: 에서 [!DNL Adobe Workfront Fusion] 시나리오 SharePoint을 사
 author: Becky
 feature: Workfront Fusion
 exl-id: 16d49031-06d2-4c86-bac4-f58cd9b2f1f5
-source-git-commit: 8283022f24913988248005da0c8e583b29f19652
+source-git-commit: 83914e54638ffbef2b3ccee12c71b84ca7cc61d2
 workflow-type: tm+mt
-source-wordcount: '2371'
+source-wordcount: '2660'
 ht-degree: 0%
 
 ---
@@ -104,9 +104,9 @@ ht-degree: 0%
 * [파일 가져오기](#get-a-file)
 * [감시 폴더 항목](#watch-folder-items)
 
-#### 파일 만들기
+#### 변경 내용 가져오기
 
-이 작업 모듈은 SharePoint에서 새 파일을 만듭니다.
+이 모듈은 SharePoint에 수행된 변경 사항을 반환합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -118,15 +118,15 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 사이트, 드라이브 및 폴더 ID 입력]</td> 
-   <td> <p>만들려는 파일의 위치를 식별하는 방법을 선택합니다.</p> 
+   <td> <p>에서 변경 내용을 검색할 폴더의 위치를 식별할 방법을 선택합니다.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL 수동으로 Enter]</strong> </p> <p>을 입력하거나 매핑합니다 <strong>[!UICONTROL 사이트 ID]</strong>, <strong>[!UICONTROL 목록 ID]</strong>, 및 <strong>[!UICONTROL 폴더 ID]</strong> 표시됩니다.</p> </li> 
-     <li> <p><strong>[!UICONTROL 팔로우하는 목록에서 선택합니다.]</strong> </p> <p>파일을 만들 위치를 선택합니다. </p> </li> 
+     <li> <p><strong>[!UICONTROL 팔로우하는 목록에서 선택합니다.]</strong> </p> <p>변경 사항을 검색할 위치를 선택합니다. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 소스 파일]</td> 
-   <td>이전 모듈에서 소스 파일을 선택하거나 소스 파일의 이름과 데이터를 매핑합니다.</td> 
+   <td role="rowheader">[!UICONTROL Token]</td> 
+   <td> </td> 
   </tr>  </tbody> 
 </table>
 
@@ -209,47 +209,19 @@ ht-degree: 0%
 
 ### 항목
 
-* [[!UICONTROL 감시 항목]](#watch-items)
-* [[!UICONTROL 목록 항목]](#list-items)
-* [[!UICONTROL 항목 가져오기]](#get-an-item)
+* [[!UICONTROL 항목 복사]](#copy-an-item)
 * [[!UICONTROL 항목 만들기]](#create-an-item)
-* [[!UICONTROL 항목 업데이트]](#update-an-item)
 * [[!UICONTROL 항목 삭제]](#delete-an-item)
+* [[!UICONTROL 항목 가져오기]](#get-an-item)
+* [[!UICONTROL 목록 항목]](#list-items)
+* [[!UICONTROL 항목 이동]](#move-an-item)
+* [[!UICONTROL 항목 업데이트]](#update-an-item)
+* [[!UICONTROL 감시 항목] (예약됨)](#watch-items-scheduled)
 
-#### [!UICONTROL 감시 항목]
 
-이 트리거 모듈은 항목이 만들어지거나 수정되면 시나리오를 시작합니다.
+#### [!UICONTROL 항목 복사]
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>연결 방법에 대한 지침은 [!DNL SharePoint] 계정 대상 [!DNL Workfront Fusion]를 참조하십시오. <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 참조하십시오.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 감시 목록]</td> 
-   <td>만들기 시간(새 항목) 또는 수정 시간(업데이트된 항목)별로 목록을 감시할지 여부를 선택합니다.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 사이트 및 목록 ID 입력]</td> 
-   <td> <p>보려는 사이트 및 목록을 식별하는 방법을 선택합니다.</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL 수동으로 Enter]</strong> </p> <p>을 입력하거나 매핑합니다 <strong>[!UICONTROL 사이트 ID]</strong> 및 <strong>[!UICONTROL 목록 ID]</strong> 표시됩니다.</p> </li> 
-     <li> <p><strong>[!UICONTROL 팔로우하는 목록에서 선택합니다.]</strong> </p> <p>보려는 사이트를 선택한 다음 목록을 선택합니다. 이러한 드롭다운은 팔로우 사이트만 검색합니다.</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 제한]</td> 
-   <td> <p>각 시나리오 실행 주기 동안 모듈이 반환할 최대 항목 수를 입력하거나 매핑합니다.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL 목록 항목]
-
-이 작업 모듈은 지정된 목록의 모든 항목 목록을 검색합니다.
+이 작업 모듈은 SharePoint 목록에 있는 기존 항목을 복사합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -260,39 +232,20 @@ ht-degree: 0%
    <td> <p>연결 방법에 대한 지침은 [!DNL SharePoint] 계정 대상 [!DNL Workfront Fusion]를 참조하십시오. <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL List Items]</td> 
-   <td> <p>항목을 검색할 목록을 식별할 방법을 선택합니다.</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL 수동으로 Enter]</strong> </p> <p>을 입력하거나 매핑합니다 <strong>[!UICONTROL 사이트 ID]</strong> 및 <strong>[!UICONTROL 목록 ID]</strong> 표시됩니다.</p> </li> 
-     <li> <p><strong>[!UICONTROL 목록에서 선택]</strong> </p> <p>항목을 검색할 목록이 들어 있는 사이트를 선택한 다음 목록을 선택합니다. </p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 제한]</td> 
-   <td> <p>각 시나리오 실행 주기 동안 모듈이 반환할 최대 항목 수를 입력하거나 매핑합니다.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL 항목 가져오기]
-
-이 작업 모듈은 지정된 항목의 데이터를 반환합니다.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>연결 방법에 대한 지침은 [!DNL SharePoint] 계정 대상 [!DNL Workfront Fusion]를 참조하십시오. <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 참조하십시오.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 항목 가져오기]</td> 
-   <td> <p>가져올 항목이 들어 있는 사이트 및 목록을 식별하는 방법을 선택합니다.</p> 
+   <td role="rowheader">사이트, 드라이브 및 폴더 ID 입력</td> 
+   <td> <p>복사할 항목이 들어 있는 사이트 및 목록을 식별하는 방법을 선택합니다.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL 수동으로 Enter]</strong> </p> <p>을 입력하거나 매핑합니다 <strong>[!UICONTROL 사이트 ID]</strong>, <strong>[!UICONTROL 목록 ID]</strong>, 및 <strong>[!UICONTROL 항목 ID]</strong> 표시됩니다.</p> </li> 
-     <li> <p><strong>[!UICONTROL 목록에서 선택]</strong> </p> <p>항목을 검색할 목록이 포함된 사이트를 선택한 다음 목록을 선택한 다음 항목을 선택합니다. </p> </li> 
+     <li> <p><strong>[!UICONTROL 팔로우하는 목록에서 선택]</strong> </p> <p>항목 유형 복사 필드에서 필드를 이동할지 폴더를 이동할지 선택합니다.  복사할 항목이 들어 있는 사이트를 선택한 다음 목록을 선택한 다음 항목을 선택합니다. </p> </li> 
     </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 대상 ID]</td> 
+   <td>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 새 이름]</td> 
+   <td>항목의 새 복사본에 대한 이름을 입력하거나 매핑합니다. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -324,6 +277,110 @@ ht-degree: 0%
  </tbody> 
 </table>
 
+#### [!UICONTROL 항목 삭제]
+
+이 작업 모듈은 SharePoint 목록에 있는 기존 항목을 삭제합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>연결 방법에 대한 지침은 [!DNL SharePoint] 계정 대상 [!DNL Workfront Fusion]를 참조하십시오. <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 참조하십시오.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 항목 업데이트]</td> 
+   <td> <p>삭제할 항목을 포함하는 사이트 및 목록을 식별하는 방법을 선택합니다.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL 수동으로 Enter]</strong> </p> <p>을 입력하거나 매핑합니다 <strong>[!UICONTROL 사이트 ID]</strong>, <strong>[!UICONTROL 목록 ID]</strong>, 및 <strong>[!UICONTROL 항목 ID]</strong> 표시됩니다.</p> </li> 
+     <li> <p><strong>[!UICONTROL 목록에서 선택]</strong> </p> <p>삭제할 항목이 포함된 사이트를 선택한 다음 목록을 선택한 다음 항목을 선택합니다. </p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL 항목 가져오기]
+
+이 작업 모듈은 지정된 항목의 데이터를 반환합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>연결 방법에 대한 지침은 [!DNL SharePoint] 계정 대상 [!DNL Workfront Fusion]를 참조하십시오. <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 참조하십시오.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 항목 가져오기]</td> 
+   <td> <p>가져올 항목이 들어 있는 사이트 및 목록을 식별하는 방법을 선택합니다.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL 수동으로 Enter]</strong> </p> <p>을 입력하거나 매핑합니다 <strong>[!UICONTROL 사이트 ID]</strong>, <strong>[!UICONTROL 목록 ID]</strong>, 및 <strong>[!UICONTROL 항목 ID]</strong> 표시됩니다.</p> </li> 
+     <li> <p><strong>[!UICONTROL 목록에서 선택]</strong> </p> <p>항목을 검색할 목록이 포함된 사이트를 선택한 다음 목록을 선택한 다음 항목을 선택합니다. </p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL 목록 항목]
+
+이 작업 모듈은 지정된 목록의 모든 항목 목록을 검색합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>연결 방법에 대한 지침은 [!DNL SharePoint] 계정 대상 [!DNL Workfront Fusion]를 참조하십시오. <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 참조하십시오.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL List Items]</td> 
+   <td> <p>항목을 검색할 목록을 식별할 방법을 선택합니다.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL 수동으로 Enter]</strong> </p> <p>을 입력하거나 매핑합니다 <strong>[!UICONTROL 사이트 ID]</strong> 및 <strong>[!UICONTROL 목록 ID]</strong> 표시됩니다.</p> </li> 
+     <li> <p><strong>[!UICONTROL 목록에서 선택]</strong> </p> <p>항목을 검색할 목록이 들어 있는 사이트를 선택한 다음 목록을 선택합니다. </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 제한]</td> 
+   <td> <p>각 시나리오 실행 주기 동안 모듈이 반환할 최대 항목 수를 입력하거나 매핑합니다.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL 항목 이동]
+
+이 작업 모듈은 SharePoint 목록에 있는 기존 항목을 복사합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>연결 방법에 대한 지침은 [!DNL SharePoint] 계정 대상 [!DNL Workfront Fusion]를 참조하십시오. <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 참조하십시오.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">사이트, 드라이브 및 폴더 ID 입력</td> 
+   <td> <p>이동할 항목이 들어 있는 사이트 및 목록을 식별하는 방법을 선택합니다.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL 수동으로 Enter]</strong> </p> <p>을 입력하거나 매핑합니다 <strong>[!UICONTROL 사이트 ID]</strong>, <strong>[!UICONTROL 목록 ID]</strong>, 및 <strong>[!UICONTROL 항목 ID]</strong> 표시됩니다.</p> </li> 
+     <li> <p><strong>[!UICONTROL 팔로우하는 목록에서 선택]</strong> </p> <p>항목 유형 복사 필드에서 필드를 이동할지 폴더를 이동할지 선택합니다. 복사할 항목이 들어 있는 사이트를 선택한 다음 목록을 선택한 다음 항목을 선택합니다. </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 대상 ID]</td> 
+   <td>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 새 이름]</td> 
+   <td>이동된 항목의 이름을 입력하거나 매핑합니다. </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 #### [!UICONTROL 항목 업데이트]
 
 이 작업 모듈은 SharePoint 목록의 기존 항목을 업데이트합니다.
@@ -351,39 +408,9 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-#### [!UICONTROL 항목 삭제]
+#### [!UICONTROL 감시 항목] (예약됨)
 
-이 작업 모듈은 SharePoint 목록에 있는 기존 항목을 삭제합니다.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>연결 방법에 대한 지침은 [!DNL SharePoint] 계정 대상 [!DNL Workfront Fusion]를 참조하십시오. <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 참조하십시오.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 항목 업데이트]</td> 
-   <td> <p>삭제할 항목을 포함하는 사이트 및 목록을 식별하는 방법을 선택합니다.</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL 수동으로 Enter]</strong> </p> <p>을 입력하거나 매핑합니다 <strong>[!UICONTROL 사이트 ID]</strong>, <strong>[!UICONTROL 목록 ID]</strong>, 및 <strong>[!UICONTROL 항목 ID]</strong> 표시됩니다.</p> </li> 
-     <li> <p><strong>[!UICONTROL 목록에서 선택]</strong> </p> <p>삭제할 항목이 포함된 사이트를 선택한 다음 목록을 선택한 다음 항목을 선택합니다. </p> </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### 목록
-
-* [[!UICONTROL 감시 목록]](#watch-lists)
-* [[!UICONTROL 목록 목록]](#list-lists)
-* [[!UICONTROL 목록 가져오기]](#get-a-list)
-* [[!UICONTROL 목록 만들기]](#create-a-list)
-
-#### [!UICONTROL 감시 목록]
-
-이 트리거 모듈은 목록을 만들거나 수정할 때 시나리오를 시작합니다.
+이 트리거 모듈은 항목이 만들어지거나 수정되면 시나리오를 시작합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -401,66 +428,23 @@ ht-degree: 0%
    <td role="rowheader">[!UICONTROL 사이트 및 목록 ID 입력]</td> 
    <td> <p>보려는 사이트 및 목록을 식별하는 방법을 선택합니다.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL 수동으로 Enter]</strong> </p> <p>을 입력하거나 매핑합니다 <strong>[!UICONTROL 사이트 ID]</strong> 보려는 목록이 있는 위치입니다.</p> </li> 
-     <li> <p><strong>[!UICONTROL 팔로우하는 목록에서 선택합니다.]</strong> </p> <p>보려는 사이트를 선택합니다. 드롭다운은 사용자가 따르는 사이트만 검색합니다.</p> </li> 
+     <li> <p><strong>[!UICONTROL 수동으로 Enter]</strong> </p> <p>을 입력하거나 매핑합니다 <strong>[!UICONTROL 사이트 ID]</strong> 및 <strong>[!UICONTROL 목록 ID]</strong> 표시됩니다.</p> </li> 
+     <li> <p><strong>[!UICONTROL 팔로우하는 목록에서 선택합니다.]</strong> </p> <p>보려는 사이트를 선택한 다음 목록을 선택합니다. 이러한 드롭다운은 팔로우 사이트만 검색합니다.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 제한]</td> 
-   <td> <p>각 시나리오 실행 주기 동안 모듈이 반환할 최대 목록 수를 입력하거나 매핑합니다.</p> </td> 
+   <td> <p>각 시나리오 실행 주기 동안 모듈이 반환할 최대 항목 수를 입력하거나 매핑합니다.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL 목록 목록]
+### 목록
 
-이 작업 모듈은 지정된 목록의 모든 항목 목록을 검색합니다.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>연결 방법에 대한 지침은 [!DNL SharePoint] 계정 대상 [!DNL Workfront Fusion]를 참조하십시오. <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 참조하십시오.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 목록]</td> 
-   <td> <p>목록을 검색할 사이트를 식별하는 방법을 선택합니다.</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL 수동으로 Enter]</strong> </p> <p>을 입력하거나 매핑합니다 <strong>[!UICONTROL 사이트 ID]</strong>.</p> </li> 
-     <li> <p><strong>[!UICONTROL 목록에서 선택]</strong> </p> <p>검색할 목록이 포함된 사이트를 선택합니다. 드롭다운은 팔로우하는 사이트만 검색합니다.</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 제한]</td> 
-   <td> <p>각 시나리오 실행 주기 동안 모듈이 반환할 최대 목록 수를 입력하거나 매핑합니다.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL 목록 가져오기]
-
-이 작업 모듈은 지정된 목록의 데이터를 반환합니다.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>연결 방법에 대한 지침은 [!DNL SharePoint] 계정 대상 [!DNL Workfront Fusion]를 참조하십시오. <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 참조하십시오.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 목록 가져오기]</td> 
-   <td> <p>가져올 항목이 들어 있는 사이트 및 목록을 식별하는 방법을 선택합니다.</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL 수동으로 Enter]</strong> </p> <p>을 입력하거나 매핑합니다 <strong>[!UICONTROL 사이트 ID]</strong> 및 <strong>목록 ID</strong> 표시됩니다.</p> </li> 
-     <li> <p><strong>[!UICONTROL 목록에서 선택]</strong> </p> <p>검색할 목록이 포함된 사이트를 선택한 다음 목록을 선택합니다. </p> </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+* [[!UICONTROL 목록 만들기]](#create-a-list)
+* [[!UICONTROL 목록 가져오기]](#get-a-list)
+* [[!UICONTROL 목록 목록]](#list-lists)
+* [[!UICONTROL 감시 목록]](#watch-lists)
 
 #### [!UICONTROL 목록 만들기]
 
@@ -497,6 +481,87 @@ ht-degree: 0%
  </tbody> 
 </table>
 
+#### [!UICONTROL 목록 가져오기]
+
+이 작업 모듈은 지정된 목록의 데이터를 반환합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>연결 방법에 대한 지침은 [!DNL SharePoint] 계정 대상 [!DNL Workfront Fusion]를 참조하십시오. <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 참조하십시오.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 목록 가져오기]</td> 
+   <td> <p>가져올 항목이 들어 있는 사이트 및 목록을 식별하는 방법을 선택합니다.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL 수동으로 Enter]</strong> </p> <p>을 입력하거나 매핑합니다 <strong>[!UICONTROL 사이트 ID]</strong> 및 <strong>목록 ID</strong> 표시됩니다.</p> </li> 
+     <li> <p><strong>[!UICONTROL 목록에서 선택]</strong> </p> <p>검색할 목록이 포함된 사이트를 선택한 다음 목록을 선택합니다. </p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL 목록 목록]
+
+이 작업 모듈은 지정된 목록의 모든 항목 목록을 검색합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>연결 방법에 대한 지침은 [!DNL SharePoint] 계정 대상 [!DNL Workfront Fusion]를 참조하십시오. <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 참조하십시오.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 목록]</td> 
+   <td> <p>목록을 검색할 사이트를 식별하는 방법을 선택합니다.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL 수동으로 Enter]</strong> </p> <p>을 입력하거나 매핑합니다 <strong>[!UICONTROL 사이트 ID]</strong>.</p> </li> 
+     <li> <p><strong>[!UICONTROL 목록에서 선택]</strong> </p> <p>검색할 목록이 포함된 사이트를 선택합니다. 드롭다운은 팔로우하는 사이트만 검색합니다.</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 제한]</td> 
+   <td> <p>각 시나리오 실행 주기 동안 모듈이 반환할 최대 목록 수를 입력하거나 매핑합니다.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL 감시 목록]
+
+이 트리거 모듈은 목록을 만들거나 수정할 때 시나리오를 시작합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>연결 방법에 대한 지침은 [!DNL SharePoint] 계정 대상 [!DNL Workfront Fusion]를 참조하십시오. <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 참조하십시오.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 감시 목록]</td> 
+   <td>만들기 시간(새 항목) 또는 수정 시간(업데이트된 항목)별로 목록을 감시할지 여부를 선택합니다.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 사이트 및 목록 ID 입력]</td> 
+   <td> <p>보려는 사이트 및 목록을 식별하는 방법을 선택합니다.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL 수동으로 Enter]</strong> </p> <p>을 입력하거나 매핑합니다 <strong>[!UICONTROL 사이트 ID]</strong> 보려는 목록이 있는 위치입니다.</p> </li> 
+     <li> <p><strong>[!UICONTROL 팔로우하는 목록에서 선택합니다.]</strong> </p> <p>보려는 사이트를 선택합니다. 드롭다운은 사용자가 따르는 사이트만 검색합니다.</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 제한]</td> 
+   <td> <p>각 시나리오 실행 주기 동안 모듈이 반환할 최대 목록 수를 입력하거나 매핑합니다.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 ### 페이지(베타)
 
 >[!NOTE]
@@ -528,31 +593,8 @@ ht-degree: 0%
 
 ### 사이트
 
-* [[!UICONTROL 사이트 검색]](#search-sites)
 * [[!UICONTROL 사이트 가져오기]](#get-a-site)
-
-#### [!UICONTROL 사이트 검색]
-
-이 작업 모듈은 지정한 매개 변수로 사이트를 검색합니다.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>연결 방법에 대한 지침은 [!DNL SharePoint] 계정 대상 [!DNL Workfront Fusion]를 참조하십시오. <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 참조하십시오.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Keyword of Display Name]</td> 
-   <td> <p>사이트를 검색할 검색어를 입력하거나 매핑합니다.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 제한]</td> 
-   <td> <p>각 시나리오 실행 주기 동안 모듈이 반환할 최대 사이트 수를 입력하거나 매핑합니다.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+* [[!UICONTROL 사이트 검색]](#search-sites)
 
 #### [!UICONTROL 사이트 가져오기]
 
@@ -577,6 +619,29 @@ ht-degree: 0%
  </tbody> 
 </table>
 
+#### [!UICONTROL 사이트 검색]
+
+이 작업 모듈은 지정한 매개 변수로 사이트를 검색합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>연결 방법에 대한 지침은 [!DNL SharePoint] 계정 대상 [!DNL Workfront Fusion]를 참조하십시오. <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 참조하십시오.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Keyword of Display Name]</td> 
+   <td> <p>사이트를 검색할 검색어를 입력하거나 매핑합니다.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 제한]</td> 
+   <td> <p>각 시나리오 실행 주기 동안 모듈이 반환할 최대 사이트 수를 입력하거나 매핑합니다.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 ### 기타
 
 #### [!UICONTROL API 호출 만들기]
@@ -597,7 +662,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 메서드]</p> </td> 
-   td&gt; <p>API 호출을 구성하는 데 필요한 HTTP 요청 메서드를 선택합니다. 자세한 내용은 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">의 HTTP 요청 메서드 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>API 호출을 구성하는 데 필요한 HTTP 요청 메서드를 선택합니다. 자세한 내용은 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">의 HTTP 요청 메서드 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -617,6 +682,28 @@ ht-degree: 0%
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### 이벤트 보기
+
+이 인스턴트 트리거 모듈은 SharePoint에서 항목이 추가, 업데이트 또는 삭제될 때 시나리오를 시작합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+  <!--
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>For instructions about connecting your [!DNL SharePoint] account to [!DNL Workfront Fusion], see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> in this article.</p> </td> 
+  </tr> 
+  -->
+  <tr> 
+   <td role="rowheader">[!UICONTROL Webhook]</td> 
+   <td> <p>기존 웹 후크를 선택하거나 추가 를 클릭하여 새 웹 후크를 만듭니다.</p> 
+   </td> 
   </tr> 
  </tbody> 
 </table>

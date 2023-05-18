@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion은 앱과 웹 서비스를 원활하게 연�
 author: Luke
 feature: Product Announcements, Workfront Fusion
 exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
-source-git-commit: 852d6acb4363e1926c20a64ada381a114bfe11ee
+source-git-commit: 5c3304556031e83345f6aaaf4457987b55c585be
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '513'
 ht-degree: 0%
 
 ---
@@ -21,10 +21,11 @@ Adobe Workfront Fusion은 앱과 웹 서비스를 원활하게 연결하므로 �
 
 Workfront Fusion 사용 방법에 대한 자세한 내용은 [Adobe Workfront Fusion](../../../workfront-fusion/workfront-fusion-2.md).
 
-## 최근 릴리스
+## 2023년 퓨전 릴리스
 
 ### 2023년 5월
 
+* [Workfront Fusion 릴리스 활동: 2023년 5월 15일 주](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-5-15.md)
 * [Workfront Fusion 릴리스 활동: 2023년 5월 1일 주](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-5-2.md)
 
 ### 2023년 4월
@@ -35,6 +36,10 @@ Workfront Fusion 사용 방법에 대한 자세한 내용은 [Adobe Workfront Fu
 
 * [Workfront Fusion 릴리스 활동: 2023년 3월 20일 주](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-3-21.md)
 * [Workfront Fusion 릴리스 활동: 2023년 3월 6일 주](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-3-6.md)
+
+## 2022년 퓨전 릴리스
+
++++**클릭하여 열기**
 
 ### 2022년 12월
 
@@ -91,6 +96,8 @@ Workfront Fusion 사용 방법에 대한 자세한 내용은 [Adobe Workfront Fu
 ### 2022년 1월
 
 * [Workfront Fusion 릴리스 활동: 2022년 1월 3일의 주](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-3-22.md)
+
++++
 
 ## 2021년 퓨전 릴리스
 
