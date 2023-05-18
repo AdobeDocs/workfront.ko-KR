@@ -6,7 +6,7 @@ description: 리소스 풀은 Adobe Workfront에서 리소스를 관리하는 �
 author: Alina
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: 171ccfe5d2bc9825c9cdb195df1a97a32e515646
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 0%
@@ -106,10 +106,10 @@ Also - take out all the references to Preview and Prod at prod final
    >
    >* 템플릿을 일괄적으로 편집하면 선택한 모든 템플릿에 공통인 리소스 풀만 이 필드에 나타납니다. 선택한 템플릿에 공유 리소스 풀이 없는 경우 이 필드가 비어 있습니다. 여기서 지정하는 리소스 풀은 프로젝트 또는 템플릿의 개별 리소스 풀을 덮어씁니다.
    >
-   >* 프로젝트를 일괄적으로 편집할 때 선택한 프로젝트에 서로 다른 리소스 풀이 있는 경우 &quot;여러 값&quot; 표시기가 표시됩니다. 프로젝트에 대해 리소스 풀을 일괄적으로 추가하면 모든 풀이 선택한 프로젝트에 추가되어 원래 리소스 풀을 덮어씁니다.</span>
+   >* 프로젝트를 일괄적으로 편집할 때 선택한 프로젝트에 서로 다른 리소스 풀이 있는 경우 &quot;여러 값&quot; 표시기가 표시됩니다. 프로젝트에 대해 리소스 풀을 일괄적으로 추가하면 모든 풀이 선택한 프로젝트에 추가되어 원래 리소스 풀을 덮어씁니다.
 
 
-   <span class="preview">![add_resource_pools_to_multiple_projects.png](assets/add-resource-pools-to-multiple-projects-350x358.png)</span>
+   ![add_resource_pools_to_multiple_projects.png](assets/add-resource-pools-to-multiple-projects-350x358.png)
 
 1. 클릭 **변경 내용 저장**.\
    자원 풀이 프로젝트 또는 템플리트와 연관되어 있으면 자원 계획자 내의 프로젝트에 대한 사용자 할당을 예산을 책정할 수 있습니다.\
