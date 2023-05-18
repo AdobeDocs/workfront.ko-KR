@@ -4,9 +4,9 @@ description: 23.3 릴리스 개요
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 6f9067d7d9c955e316546881f3e6883e9a59bcd4
+source-git-commit: 674dcf567b0c77d31072193d8cbc349bbac2029f
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md" class="MCXref xref" xrefformat="{para}">"사용자가 시간 기록 가능" 작업표 및 시간 기본 설정에 사용할 수 있는 그룹 수준 컨트롤</a> <span style="color: #ff0000;"> 미리 보기의 새로운 기능!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md" class="MCXref xref" xrefformat="{para}">"사용자가 시간 기록 가능" 작업표 및 시간 기본 설정에 사용할 수 있는 그룹 수준 컨트롤</a></p>
                         <p>이제 시스템 관리자가 "사용자가 시간 기록 가능" 작업표와 시간 기본 설정을 잠금 및 잠금 해제할 수 있습니다. 이 기본 설정의 잠금을 해제하면 그룹 관리자는 각 그룹에 대해 별도로 "사용자가 시간을 기록할 수 있는 위치" 설정을 구성할 수 있습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용할 수 있습니다.</b></p>
@@ -83,7 +83,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">보드 흡기 열에서 사용할 수 있는 단순 필터</a><span style="color: #ff0000;"> 미리 보기의 새로운 기능!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">보드 흡기 열에서 사용할 수 있는 단순 필터</a></p>
                         <p>흡입량 열을 보다 신속하게 정의할 수 있도록 간소화된 필터가 취침 열 설정에 추가되었습니다. 사용 가능한 필터는 팀 또는 사용자별 Workfront 프로젝트 및 할당입니다. 원하는 경우 고급 필터로 전환할 수 있습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용할 수 있습니다.</b></p>
@@ -205,7 +205,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Workfront 필드 값을 Experience Manager Assets의 태그에 매핑</a><span style="color: #ff0000;"> 프로덕션의 새로운 기능!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md" class="MCXref xref" xrefformat="{para}">프로젝트를 만들 때 Adobe Experience Manager Assets에 연결된 폴더를 자동으로 만듭니다</a><span style="color: #ff0000;"> 프로덕션의 새로운 기능!</span></p>
+                        <p>Adobe Experience Manager 통합을 위해 새로운 연결된 폴더 만들기 워크플로우로 Adobe Experience Manager Assets 폴더 경로로 통합을 구성할 수 있습니다. 통합이 프로젝트 템플릿에 추가되면 템플릿에서 만든 모든 프로젝트가 지정된 폴더에 Experience Manager Assets에 연결된 하위 폴더를 자동으로 만듭니다. </p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용할 수 있습니다.</b></p>
+                        <ul>
+                            <li>
+                                <p>미리 보기 릴리스: 2023년 5월 11일</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">프로덕션 릴리스: 2023년 5월 18일</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Workfront 필드 값을 Experience Manager Assets의 태그에 매핑</a></p>
                         <p>이제 Workfront의 데이터를 기반으로 자산을 분류하고 신속하게 찾을 수 있습니다. 이 데이터를 Experience Manager Assets용 Workfront 통합에서 메타데이터 구성의 일부로 매핑할 수 있습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용할 수 있습니다.</b></p>
@@ -221,7 +237,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Workfront 필드를 사용자 지정 Experience Manager Assets 메타데이터 필드에 매핑</a><span style="color: #ff0000;"> 프로덕션의 새로운 기능!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Workfront 필드를 사용자 지정 Experience Manager Assets 메타데이터 필드에 매핑</a></p>
                         <p>이제 기본 통합을 통해 기본 및 기본 제공 Workfront 필드를 모두 Experience Manager Assets as a Cloud Service의 사용자 지정 메타데이터 스키마 필드에 매핑할 수 있습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용할 수 있습니다.</b></p>
