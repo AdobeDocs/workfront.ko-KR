@@ -6,28 +6,28 @@ description: API를 통해 파일 업로드
 author: Becky
 feature: Workfront API
 exl-id: 4e0b73b6-0d6d-4971-a87a-dfec85fb031a
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3db01c329c005570b782ae3445f83b7c44ced676
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
 
 # API를 통해 파일 업로드
 
-Postman과 같은 API 도구가 있는 Workfront API 또는 간단한 cURL 명령을 사용하여 파일을 업로드할 수 있습니다.
+Postman과 같은 API 도구 또는 간단한 cURL 명령을 사용하여 Workfront API를 사용하여 파일을 업로드할 수 있습니다.
 
-문서를 업로드하려면 다음 지침에 대해 **문서 업로드** Workfront [게시물 동작](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWF_API%2FGeneral%2Fapi-basics.html). cURL 요청에 이와 동일한 지침을 사용할 수도 있습니다.
+문서를 업로드하려면 다음 지침을 참조하십시오. **문서 업로드** Workfront에서 [게시물 비헤이비어](/help/quicksilver/wf-api/general/api-basics.md#post-behavior). cURL 요청에 대해서도 동일한 지침을 사용할 수 있습니다.
 
-**API 도구를 사용하여 파일을 업로드할 때에는 다음 지침을 따르십시오.**
+**API 도구를 사용하여 파일을 업로드할 때 다음 지침을 따르십시오.**
 
-* API 도구 옵션을 사용하여 파일을 업로드합니다. 종종 **파일 선택** 단추를 클릭합니다.
+* API 도구 옵션을 사용하여 파일을 업로드하십시오. 이는 종종 다음과 같습니다. **파일 선택** 요청 화면의 버튼입니다.
 
-* 파일 업로드를 요청하려면 POST HTTP 메서드를 사용합니다.
+* POST HTTP 메서드를 사용하여 파일 업로드를 요청합니다.
 
-* 요청에 따라 해당 핸들에 대한 값이 포함된 응답이 발생합니다.
+* 요청에 따라 핸들 값이 포함된 응답이 생성되어야 합니다.
 
-* JSON 페이로드에서 objID에 대한 핸들 값, 개체 유형 및 GUID 값을 사용하여 후속 호출을 수행하십시오. 다음 예와 같이 파일에 대한 개체를 만들기 위한 것입니다.
+* 후속 호출을 수행하려면 JSON 페이로드의 objID에 대한 핸들 값, 개체 유형 및 GUID 값을 사용하십시오. 다음 예제와 같이 파일에 대한 개체를 만들기 위한 것입니다.
 
 ```
 }
