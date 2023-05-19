@@ -9,9 +9,9 @@ description: 에서 [!DNL Adobe Workfront Fusion] 시나리오 SharePoint을 사
 author: Becky
 feature: Workfront Fusion
 exl-id: 16d49031-06d2-4c86-bac4-f58cd9b2f1f5
-source-git-commit: 83914e54638ffbef2b3ccee12c71b84ca7cc61d2
+source-git-commit: aee0778b08e00b2fc94f6829e6b2cd957ff0fe23
 workflow-type: tm+mt
-source-wordcount: '2660'
+source-wordcount: '2802'
 ht-degree: 0%
 
 ---
@@ -236,12 +236,12 @@ ht-degree: 0%
    <td> <p>복사할 항목이 들어 있는 사이트 및 목록을 식별하는 방법을 선택합니다.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL 수동으로 Enter]</strong> </p> <p>을 입력하거나 매핑합니다 <strong>[!UICONTROL 사이트 ID]</strong>, <strong>[!UICONTROL 목록 ID]</strong>, 및 <strong>[!UICONTROL 항목 ID]</strong> 표시됩니다.</p> </li> 
-     <li> <p><strong>[!UICONTROL 팔로우하는 목록에서 선택]</strong> </p> <p>항목 유형 복사 필드에서 필드를 이동할지 폴더를 이동할지 선택합니다.  복사할 항목이 들어 있는 사이트를 선택한 다음 목록을 선택한 다음 항목을 선택합니다. </p> </li> 
+     <li> <p><strong>[!UICONTROL 팔로우하는 목록에서 선택]</strong> </p> <p>항목 유형 필드에서 필드를 이동할지 또는 폴더를 이동할지 선택합니다.  복사할 항목이 들어 있는 사이트를 선택한 다음 목록을 선택한 다음 항목을 선택합니다. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 대상 ID]</td> 
-   <td>  </td> 
+   <td> 항목을 복사할 폴더의 ID를 입력하거나 매핑합니다. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 새 이름]</td> 
@@ -367,12 +367,12 @@ ht-degree: 0%
    <td> <p>이동할 항목이 들어 있는 사이트 및 목록을 식별하는 방법을 선택합니다.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL 수동으로 Enter]</strong> </p> <p>을 입력하거나 매핑합니다 <strong>[!UICONTROL 사이트 ID]</strong>, <strong>[!UICONTROL 목록 ID]</strong>, 및 <strong>[!UICONTROL 항목 ID]</strong> 표시됩니다.</p> </li> 
-     <li> <p><strong>[!UICONTROL 팔로우하는 목록에서 선택]</strong> </p> <p>항목 유형 복사 필드에서 필드를 이동할지 폴더를 이동할지 선택합니다. 복사할 항목이 들어 있는 사이트를 선택한 다음 목록을 선택한 다음 항목을 선택합니다. </p> </li> 
+     <li> <p><strong>[!UICONTROL 팔로우하는 목록에서 선택]</strong> </p> <p>항목 유형 필드에서 필드를 이동할지 또는 폴더를 이동할지 선택합니다. 복사할 항목이 들어 있는 사이트를 선택한 다음 목록을 선택한 다음 항목을 선택합니다. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 대상 ID]</td> 
-   <td>  </td> 
+   <td> 항목을 이동할 폴더의 ID를 입력하거나 매핑합니다. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 새 이름]</td> 
@@ -643,6 +643,33 @@ ht-degree: 0%
 </table>
 
 ### 기타
+
+#### 변경 내용 가져오기
+
+이 모듈은 SharePoint 폴더에서 수행된 추가, 업데이트 및 삭제를 검색합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>연결 방법에 대한 지침은 [!DNL SharePoint] 계정 대상 [!DNL Workfront Fusion]를 참조하십시오. <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> 참조하십시오.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 사이트, 드라이브 및 폴더 ID 입력]</td> 
+   <td> <p>업데이트할 항목이 들어 있는 사이트 및 목록을 식별하는 방법을 선택합니다.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL 수동으로 Enter]</strong> </p> <p>을 입력하거나 매핑합니다 <strong>[!UICONTROL 사이트 ID]</strong>, <strong>[!UICONTROL 드라이브 ID]</strong>, 및 <strong>[!UICONTROL 폴더 ID]</strong> 표시됩니다.</p> </li> 
+     <li> <p><strong>[!UICONTROL 목록에서 선택]</strong> </p> <p>업데이트할 항목이 들어 있는 사이트를 선택한 다음 드라이브를 선택한 다음 폴더를 선택합니다. </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Token]</td> 
+   <td> 토큰은 모듈이 변경 내용 검색을 시작해야 하는 지점에서 식별합니다.  </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 #### [!UICONTROL API 호출 만들기]
 
