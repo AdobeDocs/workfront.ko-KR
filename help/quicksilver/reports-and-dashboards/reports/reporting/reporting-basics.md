@@ -7,9 +7,9 @@ description: Adobe Workfront의 보고 기본 사항을 이해하려면 이 문�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7cec252f-e5be-4099-8fa6-308f80952a21
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '46'
+source-wordcount: '33'
 ht-degree: 0%
 
 ---
@@ -20,4 +20,4 @@ ht-degree: 0%
 
 * [Adobe Workfront에서 보고서 시작](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
 * [기본 보고서를 새 보고서로 저장](../../../reports-and-dashboards/reports/reporting/save-default-reports-new-reports.md)
-* [새로운 Workfront 경험을 위한 기본 보고서 작성 프로그램](https://one.workfront.com/s/basic-report-creation-program)
+   <!--outdated: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program)-->

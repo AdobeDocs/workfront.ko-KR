@@ -6,9 +6,9 @@ description: 텍스트 모드 개요
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8be8cbd0-da1b-4e90-a52e-dc352f646d18
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '925'
 ht-degree: 0%
 
 ---
@@ -27,33 +27,33 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This will be linked to the Ninja feature about adding a filter to the User typeahead field (which originally is open only for text mode filters). Update the Context Sensitive sheet at release time) </p>
 -->
 
-보고서나 목록을 구성하는 요소를 만들 때 표준 또는 텍스트 모드 인터페이스를 사용하여 Adobe Workfront에서 보고서나 목록을 만들 수 있습니다. 표준 인터페이스를 사용하면 Workfront 인터페이스에서 쉽게 사용할 수 있는 필드 및 해당 속성을 참조할 수 있습니다. 텍스트 모드를 사용하면 표준 모드에서 사용할 수 없지만 Workfront 데이터베이스에서 사용할 수 있는 필드 및 속성을 참조할 수 있습니다.
+보고서나 목록을 구성하는 요소를 만들 때 표준 또는 텍스트 모드 인터페이스를 사용하여 Adobe Workfront에서 보고서나 목록을 빌드할 수 있습니다. 표준 인터페이스를 사용하면 Workfront 인터페이스에서 쉽게 사용할 수 있는 필드 및 해당 속성을 참조할 수 있습니다. 텍스트 모드를 사용하면 표준 모드에서는 사용할 수 없지만 Workfront 데이터베이스에서는 사용할 수 있는 필드 및 속성을 참조할 수 있습니다.
 
-## 텍스트 모드를 사용하기 전의 고려 사항
+## 텍스트 모드 사용 전 고려 사항
 
 >[!TIP]
 >
->사용자 지정 필드에 대한 텍스트 모드 버전을 사용하여 계산된 사용자 지정 필드의 기능을 확장할 수도 있습니다. 계산된 사용자 지정 필드를 만드는 구문과 규칙은 보고서 및 목록에서 사용하는 구문과 규칙과 다릅니다. 계산된 사용자 지정 필드 추가에 대한 자세한 내용은 [사용자 지정 양식에 계산된 데이터 추가](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+>사용자 정의 필드에 대한 텍스트 모드 버전을 사용하여 계산된 사용자 정의 필드의 기능을 확장할 수도 있습니다. 계산된 사용자 정의 필드를 만들기 위한 구문 및 규칙은 보고서 및 목록에서 사용하는 구문 및 규칙과 다릅니다. 계산된 사용자 정의 필드 추가에 대한 자세한 내용은 [사용자 정의 양식에 계산된 데이터 추가](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
-* 보고서에서 텍스트 모드를 사용하기 전에 고급 보고에 대한 클래스를 수강하여 텍스트 모드 언어를 더 잘 이해할 것을 강력히 권장합니다. 보고에 대한 교육 자료는 [Workfront 보고서 및 대시보드 학습 경로](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).
-* Workfront 소프트웨어가 업데이트될 때 표준 모드를 사용하여 작성한 보고서가 그대로 유지되도록 하는 것이 좋습니다. 텍스트 모드를 사용하면 더 복잡한 보기, 필터 및 그룹화를 만들 수 있지만, Workfront 소프트웨어가 업데이트될 때 유지관리가 더 복잡해지고 보장되지 않습니다.
-* 표준 인터페이스에서 항상 모든 보고 요소를 빌드하고 몇 가지 조정을 위해 텍스트 모드 빌더로 전환하는 것이 좋습니다.
+* 보고서에서 텍스트 모드를 사용하기 전에 텍스트 모드 언어를 더 깊이 있게 이해할 수 있도록 고급 보고에 대한 강의를 수강하는 것이 좋습니다. <!--outdated: For training materials on reporting see [Workfront Reports and Dashboards Learning Paths](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).-->
+* Workfront 소프트웨어가 업데이트될 때 만드는 보고서가 그대로 유지되도록 표준 모드를 사용하는 것이 좋습니다. 텍스트 모드를 사용하면 더 복잡한 보기, 필터 및 그룹화를 만들 수 있지만, 유지 관리가 더 복잡하고 Workfront 소프트웨어가 업데이트될 때 보장되지 않습니다.
+* 항상 표준 인터페이스의 모든 보고 요소를 빌드하고 몇 가지 조정만 하기 위해 텍스트 모드 빌더로 전환하는 것이 좋습니다.
 
    >[!TIP]
    >
-   >표준 빌더를 사용하면 텍스트 모드에서 코드를 수정할 때 사용할 수 있는 중요한 코드 빌딩 블록과 패턴을 사용할 수 있습니다.
+   >표준 빌더를 사용하면 텍스트 모드에서 코드를 수정할 때 사용할 수 있는 중요한 구성 요소와 코드 패턴을 얻을 수 있습니다.
 
-* 텍스트 모드에서 보고서와 목록을 성공적으로 빌드하려면 사용해야 하는 규칙 세트와 고유한 구문이 있습니다. 시작하기 전에 텍스트 모드에 대한 Workfront 구문을 잘 알고 있는지 확인합니다.
+* 텍스트 모드에서 보고서와 목록을 성공적으로 작성하기 위해 사용해야 하는 규칙 세트와 고유한 구문이 있습니다. 시작하기 전에 텍스트 모드의 Workfront 구문을 잘 알고 있는지 확인합니다.
 
    텍스트 모드 사용을 위한 구문 및 규칙에 대한 자세한 내용은 [텍스트 모드 구문 개요](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
 
-* 텍스트 모드에서 보고 요소를 사용자 지정한 후 표준 모드(보기에서)로 다시 전환할 수 없거나 만든 요소의 코드가 필터 및 그룹화에서 삭제될 수 있습니다. 텍스트 모드에서 지원되는 모든 필드가 표준 모드에서 지원되지 않기 때문입니다.
+* 텍스트 모드에서 보고 요소를 사용자 지정한 후 보기에서 표준 모드로 다시 전환하지 못하거나 만든 요소의 코드가 필터 및 그룹화에서 삭제될 수 있습니다. 텍스트 모드에서 지원되는 모든 필드가 표준 모드에서 지원되는 것은 아니기 때문입니다.
 
 ## 표준 모드 인터페이스
 
-표준 모드 인터페이스에는 보고서나 목록에 표시할 애플리케이션 요소를 매핑할 필드가 표시됩니다. 표준 모드 인터페이스는 보고서나 목록에 표시할 필드를 선택할 수 있는 드롭다운 메뉴 세트입니다.
+표준 모드 인터페이스에는 보고서나 목록에 표시할 응용 프로그램 요소를 매핑하는 필드가 표시됩니다. 표준 모드 인터페이스는 보고서나 목록에 표시할 필드를 선택할 수 있는 드롭다운 메뉴 세트입니다.
 
-표준 모드 인터페이스에 대한 자세한 정보를 확인하고 보고서나 목록을 만드는 방법을 알아보려면 다음을 참조하십시오.
+표준 모드 인터페이스에 대한 자세한 내용과 보고서나 목록을 만드는 방법에 대한 자세한 내용은 다음을 참조하십시오.
 
 * [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 * [보고 요소: 필터, 보기 및 그룹화](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
@@ -64,20 +64,20 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: add a section or note with a link to an another article about the syntax of text mode >> link to the Calc custom fields vc calc. columns)</p>
 -->
 
-텍스트 모드를 사용하면 표준 모드 인터페이스에서 사용할 수 없는 필드를 사용할 수 있도록 하여 보다 복잡한 보기, 필터, 그룹화 및 프롬프트를 만들 수 있습니다. Workfront 텍스트 모드에서는 보고서나 목록에 표시할 개체를 나타내는 코딩된 명령문의 컬렉션입니다.
+텍스트 모드를 사용하면 표준 모드 인터페이스에서 사용할 수 없는 필드를 사용할 수 있으므로 더 복잡한 보기, 필터, 그룹화 및 프롬프트를 만들 수 있습니다. Workfront 텍스트 모드는 보고서나 목록에 표시할 객체를 나타내는 코딩된 명령문 모음입니다.
 
-모든 보고 가능 필드에 대한 전체 목록은 다음을 참조하십시오. [API 탐색기](../../../wf-api/general/api-explorer.md).
+보고 가능한 모든 필드의 전체 목록은 다음을 참조하십시오. [API 탐색기](../../../wf-api/general/api-explorer.md).
 
 >[!NOTE]
 >
->API를 통해 사용할 수 있는 모든 필드가 텍스트 모드 인터페이스를 통해 사용할 수 있는 것은 아닙니다. 텍스트 모드 코드에서 올바른 필드를 사용하고 예상한 결과를 표시하지 않는 경우 API를 통해서만 필드를 보고할 수 있습니다.
+>API를 통해 사용할 수 있는 일부 필드는 텍스트 모드 인터페이스를 통해 사용할 수 없습니다. 텍스트 모드 코드에서 올바른 필드를 사용하고 예상한 결과를 표시하지 않는 경우 필드는 API를 통해서만 보고할 수 있습니다.
 
 * [보고 요소 액세스 및 텍스트 모드 편집](#access-reporting-elements-and-edit-text-mode)
-* [텍스트 모드를 사용해야 하는 일반적인 이유](#common-reasons-to-use-text-mode)
+* [텍스트 모드를 사용하는 일반적인 이유](#common-reasons-to-use-text-mode)
 
 ## 보고 요소 액세스 및 텍스트 모드 편집 {#access-reporting-elements-and-edit-text-mode}
 
-텍스트 모드 인터페이스에 액세스하는 것은 보고서나 목록에서 보기, 그룹화 및 필터에 액세스할 때 비슷합니다.
+텍스트 모드 인터페이스에 액세스하는 방법은 보고서나 목록에서 텍스트 모드 인터페이스에 액세스할 때 보기, 그룹화 및 필터와 유사합니다.
 
 보기, 필터 및 그룹화에서 텍스트 모드를 사용하는 방법에 대한 자세한 내용은 다음을 참조하십시오.
 
@@ -87,11 +87,11 @@ ht-degree: 0%
 
 * [텍스트 모드를 사용하여 보기 편집](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
 * [텍스트 모드를 사용하여 필터 편집](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
-* [그룹화 시 텍스트 모드 편집](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
+* [그룹화에서 텍스트 모드 편집](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
 
-사용자 정의 프롬프트는 텍스트 모드에서만 편집할 수 있습니다. 보고서에서만 프롬프트에 액세스할 수 있습니다.
+사용자 지정 프롬프트는 텍스트 모드에서만 편집할 수 있습니다. 보고서에서 프롬프트에 대해서만 액세스할 수 있습니다.
 
-사용자 정의 프롬프트에 대한 텍스트 모드 인터페이스에 액세스하는 방법에 대한 자세한 내용은 [보고서에 프롬프트 추가](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+사용자 지정 프롬프트의 텍스트 모드 인터페이스에 액세스하는 방법에 대한 자세한 내용은 [보고서에 프롬프트 추가](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Editing the text mode code inside views, filters, and groupings has some differences outlined below.</p>
@@ -538,19 +538,19 @@ We recommend that you build as much of the grouping as possible in standard mode
    -->
 
     &lt;!—
-    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>보고서의 첫 번째 그룹에는 0의 그룹이 있습니다. 첫 번째 그룹을 참조하는 모든 행은 group.0으로 시작합니다.&lt;/code>&lt;/li>
+    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>보고서의 첫 번째 그룹화는 그룹 번호가 0입니다. 첫 번째 그룹화를 참조하는 모든 줄은 group.0으로 시작합니다.&lt;/code>&lt;/li>
     —>
     
     &lt;!>—
-    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>보고서의 두 번째 그룹에는 그룹 번호가 1입니다. 두 번째 그룹을 참조하는 모든 행은 group&lt;code>.1&lt;/code>로&lt;code> 시작합니다&lt;/code>.&lt;/em>&lt;/li>
+    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>보고서의 두 번째 그룹화는 그룹 번호가 1입니다. 두 번째 그룹화를 참조하는 모든 줄은 group&lt;code>.1&lt;/code>로 시작합니다.&lt;/em>&lt;/li>
     —>
     
     &lt;!>—
-    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>보고서의 세 번째 그룹에는 2라는 그룹이 있습니다. 세 번째 그룹을 참조하는 모든 행은 group&lt;code>.2&lt;/code>로&lt;code> 시작합니다&lt;/code>.&lt;/em>&lt;/li>
+    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>보고서의 세 번째 그룹화는 그룹 번호가 2입니다. 세 번째 그룹화를 참조하는 모든 줄은 group&lt;code>.2&lt;/code>로 시작합니다.&lt;/em>&lt;/li>
     —>
     
     &lt;!>—
-    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>텍스트 모드에서만 네 번째 그룹화에 대해 그룹 번호 3을 추가할 수 있습니다. 네 번째 그룹을 참조하는 모든 행은 group&lt;code>.3&lt;/code>으로&lt;code> 시작합니다&lt;/code>.&lt;/em>&lt;/li>
+    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>텍스트 모드에서만 네 번째 그룹화에 대해 그룹 번호 3을 추가할 수 있습니다. 네 번째 그룹화를 참조하는 모든 줄은 group&lt;code>.3&lt;/code>으로 시작합니다.&lt;/em>&lt;/li>
     —>
 
 <!--
@@ -585,9 +585,9 @@ We recommend that you build as much of the grouping as possible in standard mode
 
 >[!TIP]
 >
->목록을 볼 때 수동으로 그룹화를 조정하면 Workfront은 로그아웃할 때까지 수동 환경 설정을 기억합니다. 다시 로그인하면 이 설정에 따라 목록이 표시됩니다.
+>목록을 볼 때 수동으로 그룹화를 조정하면 Workfront은 로그아웃하기 전까지 수동 기본 설정을 기억합니다. 다시 로그인하면 이 설정에 따라 목록이 표시됩니다.
 >
->그룹 결과는 차트 요소에서 액세스한 후 항상 확장되어 표시됩니다.
+>차트 요소에서 액세스한 후 그룹화 결과는 항상 확장되어 표시됩니다.
 
 <!--
    <li value="8" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Apply</strong> if you want to save your changes and continue editing the report.</li>
@@ -609,8 +609,8 @@ We recommend that you build as much of the grouping as possible in standard mode
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information about creating a custom prompt, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md" class="MCXref xref">Add a prompt to a report</a>.</p>
 -->
 
-## 텍스트 모드를 사용해야 하는 일반적인 이유 {#common-reasons-to-use-text-mode}
+## 텍스트 모드를 사용하는 일반적인 이유 {#common-reasons-to-use-text-mode}
 
-텍스트 모드만 사용하여 구성할 수 있는 사용자 지정 프롬프트를 생성하는 것 외에도 Report Builder를 사용하여 보기, 필터 및 그룹화를 만드는 것이 좋습니다. 그러나 텍스트 모드를 사용하여 보고서와 목록을 향상시킬 수 있는 경우도 있습니다.
+텍스트 모드를 사용해서만 구성할 수 있는 사용자 지정 프롬프트를 만드는 것 외에 Report Builder를 사용하여 보기, 필터 및 그룹화를 빌드하는 것이 좋습니다. 그러나 텍스트 모드를 사용하여 보고서와 목록을 개선할 수 있는 인스턴스가 있습니다.
 
-텍스트 모드의 일반적인 사용에 대한 자세한 내용은 [텍스트 모드에 대한 일반적인 사용 개요](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+텍스트 모드의 일반적인 사용에 대한 자세한 내용은 [텍스트 모드의 일반적인 사용 개요](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
