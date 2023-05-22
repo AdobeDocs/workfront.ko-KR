@@ -4,9 +4,9 @@ description: 23.3 릴리스 개요
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 477d09db70a56a39a6000340cf70f7c89718cca0
+source-git-commit: 7fb37ca286649a1556cd0098f6570786eea8a4c1
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1291'
 ht-degree: 0%
 
 ---
@@ -79,6 +79,22 @@ The <add release> release webinar will be held on <date>. You can [register for 
                     <td>
                         <p><span class="bold">릴리스 날짜</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md" class="MCXref xref" xrefformat="{para}">보드 태그 관리자 개선 사항</a></p>
+                        <p>태그 관리자 인터페이스가 개선되어 새 태그를 빠르게 만들고 카드에 적용할 수 있습니다. 작업 스트림에 대한 태그를 만들 수도 있습니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2023년 5월 19일</p>
+                            </li>
+                            <li>
+                                 <p><span class="preview">프로덕션 릴리스: 2023년 5월 19일</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
