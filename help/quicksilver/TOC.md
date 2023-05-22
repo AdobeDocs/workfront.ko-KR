@@ -2,9 +2,9 @@
 user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 feature-set: Workfront
-source-git-commit: 9b83e1c4a89fa94fe26888e682676c84be1d1d85
+source-git-commit: 09e93cafc549eeb466668000ed5e879c2cf963e0
 workflow-type: tm+mt
-source-wordcount: '13017'
+source-wordcount: '13012'
 ht-degree: 1%
 
 ---
@@ -2505,7 +2505,6 @@ ht-degree: 1%
       * [API 탐색기](wf-api/general/api-explorer.md)
       * [API 탐색기 사용](wf-api/general/using-api-explorer.md)
       * [Adobe Workfront API의 리치 텍스트 필드](wf-api/general/rich-text-field-api.md)
-      * [Adobe Workfront API 개발자 포럼](wf-api/general/api-developer-forum.md)
       * [API 예제 스크립트](wf-api/general/api-example-scripts.md)
       * [API를 사용하여 프로그램 및 서비스의 데이터 동기화](wf-api/general/api-sync-data.md)
       * [API를 통해 사용자 비활성화](wf-api/general/deactivate-user-api.md)
