@@ -6,10 +6,10 @@ description: 다음은 현재 및 이전 릴리스의 릴리스 정보에 대한
 author: Luke
 feature: Product Announcements
 exl-id: 505a9602-580c-4932-a85c-6c9a7c8af457
-source-git-commit: e9faaf52158030cd48ad11938186054594992c34
+source-git-commit: 0e8f8973ad4c1310b973bae4e6fe3578c05db204
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 14%
+source-wordcount: '160'
+ht-degree: 15%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 14%
 
 다음은 현재 및 이전 릴리스의 릴리스 정보에 대한 링크입니다.
 
-Adobe Workfront 릴리스 예약에 대한 자세한 내용은 [Adobe Workfront 릴리스 일정 및 프로세스](../../product-announcements/product-releases/workfront-release-schedule.md).
+Adobe Workfront 릴리스 일정에 대한 자세한 내용은 다음을 참조하십시오. [Adobe Workfront 릴리스 일정 및 프로세스](../../product-announcements/product-releases/workfront-release-schedule.md).
 
-조직에서 새로운 릴리스에 원활하게 적응할 수 있도록 지원하는 방법에 대한 자세한 내용은 [릴리스 준비](../../product-announcements/product-releases/release-readiness.md).
+조직이 새로운 릴리스에 원활하게 적응하는 데 도움이 되는 정보는 다음을 참조하십시오. [릴리스 준비](../../product-announcements/product-releases/release-readiness.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -61,14 +61,14 @@ Adobe Workfront 릴리스 예약에 대한 자세한 내용은 [Adobe Workfront 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p><a href="../../product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-release-21-2.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront 목표 및 21.2 릴리스</a> </p> </li> 
+     <li> <p><a href="../../product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-release-21-2.md" class="MCXref xref" xrefformat="{para}">21.2 릴리스의 Adobe Workfront 목표</a> </p> </li> 
      <li> <p><a href="../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion 릴리스 활동</a> </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td> <p>2020년 릴리스</p> 
     <ul> 
-     <li><a href="../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md" class="MCXref xref" xrefformat="{para}">20.4 릴리스 개요</a> <li><a href="../../product-announcements/product-releases/20.3-release-activity/20.3-release-overview.md" class="MCXref xref" xrefformat="{para}">20.3 릴리스 개요</a> </li> <li><a href="https://one.workfront.com/s/article/2020-2-release-overview-439776658?language=en_US">2020.2 릴리스 개요</a> </li> <li><a href="../../product-announcements/product-releases/2020.1-release-activity/2020.1-release-overview.md" class="MCXref xref" xrefformat="{para}">2020.1 릴리스 개요</a> </li> </li> 
+     <li><a href="../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md" class="MCXref xref" xrefformat="{para}">20.4 릴리스 개요</a> <li><a href="../../product-announcements/product-releases/20.3-release-activity/20.3-release-overview.md" class="MCXref xref" xrefformat="{para}">20.3 릴리스 개요</a> </li> <li><a href="/help/quicksilver/product-announcements/product-releases/2020.2.-release-activity/2020.2-release-overview.md">2020.2 릴리스 개요</a> </li> <li><a href="../../product-announcements/product-releases/2020.1-release-activity/2020.1-release-overview.md" class="MCXref xref" xrefformat="{para}">2020.1 릴리스 개요</a> </li> </li> 
     </ul> <p>2019년 릴리스</p> 
     <ul> 
      <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019.3-release-activity-overview.md" class="MCXref xref" xrefformat="{para}">2019.3 릴리스 활동 개요</a> <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019.2-release-activity-overview.md" class="MCXref xref" xrefformat="{para}">2019.2 릴리스 활동 개요</a> </li> <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019.1-release-activity.md" class="MCXref xref" xrefformat="{para}">2019.1 릴리스 활동</a> </li> </li> 
@@ -78,7 +78,7 @@ Adobe Workfront 릴리스 예약에 대한 자세한 내용은 [Adobe Workfront 
     </ul> </td> 
    <td> 
     <ul> 
-     <li><a href="../../product-announcements/product-releases/goals-release-activity/goals-release-activity.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront 목표 릴리스 활동</a> <li><a href="../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront 시나리오 플래너 릴리스 활동</a> </li> <li><a href="../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion 릴리스 활동</a> </li> </li> 
+     <li><a href="../../product-announcements/product-releases/goals-release-activity/goals-release-activity.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront 목표 릴리스 활동</a> <li><a href="../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Scenario Planner 릴리스 활동</a> </li> <li><a href="../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion 릴리스 활동</a> </li> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
