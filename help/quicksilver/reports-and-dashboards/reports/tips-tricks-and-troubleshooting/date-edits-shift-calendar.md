@@ -2,23 +2,23 @@
 content-type: tips-tricks-troubleshooting
 product-area: reporting;calendars
 navigation-topic: tips-tricks-and-troubleshooting-reports
-title: 인라인 편집 날짜 이동 달력 표시 형식
-description: 개체 목록에서 인라인 편집 날짜를 표시할 때 달력에 필요한 것보다 더 많은 날짜가 표시됩니다. 이로 인해 일 수가 달력 상자 외부에 표시됩니다.
+title: 인라인 편집 일자 교대 달력 표시 외부적
+description: 개체 목록에서 날짜를 인라인 편집할 때 달력에 필요한 것보다 많은 날짜가 표시됩니다. 이렇게 하면 날짜가 달력 상자 외부에 표시됩니다.
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 6d053968-1578-4c20-b2a7-43634481696f
-source-git-commit: ''
+source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%
 
 ---
 
-# 인라인 편집 날짜 이동 달력 표시 형식
+# 인라인 편집 일자 교대 달력 표시 외부적
 
 ## 문제
 
-개체 목록에서 인라인 편집 날짜를 표시할 때 달력에 필요한 것보다 더 많은 날짜가 표시됩니다. 이로 인해 일 수가 달력 상자 외부에 표시됩니다.\
+개체 목록에서 날짜를 인라인 편집할 때 달력에 필요한 것보다 많은 날짜가 표시됩니다. 이렇게 하면 날짜가 달력 상자 외부에 표시됩니다.\
 ![](assets/calendar-view-350x134.png)
 
 ## 원인
@@ -29,10 +29,10 @@ ht-degree: 0%
 
 브라우저의 확대/축소 수준을 100% 이하로 변경해야 합니다.
 
-브라우저에서 확대/축소 수준을 변경하는 것은 사용 중인 브라우저에 따라 다릅니다.
+브라우저의 확대/축소 수준 변경은 사용 중인 브라우저에 따라 다릅니다.
 
 Google Chrome에서 확대/축소 수준을 변경하려면:
 
-1. 브라우저 창 내에서 다음 위치로 이동합니다. **보기**.
-1. 클릭 **확대** 을 눌러 현재 브라우저 창에서 확대/축소 수준을 축소합니다.\
+1. 브라우저 창에서 다음 위치로 이동합니다. **보기**.
+1. 클릭 **확대** 를 클릭하여 현재 브라우저 창의 확대/축소 레벨을 줄입니다.\
    브라우저의 표시 영역이 줄어듭니다.

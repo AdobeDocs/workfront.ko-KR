@@ -3,11 +3,11 @@ content-type: reference
 product-area: projects
 navigation-topic: projects-navigation-topic
 title: 작업 관리
-description: 다음 섹션에서 Adobe Workfront에서 작업 관리에 대한 문서를 찾습니다.
+description: 다음 섹션에서 Adobe Workfront 작업 관리에 대한 문서를 찾으십시오.
 author: Alina
 feature: Work Management
 exl-id: 5d17322b-e517-4475-aa77-faaeb4677152
-source-git-commit: ''
+source-git-commit: c566eb094e96abca6073554433434822c567bc34
 workflow-type: tm+mt
 source-wordcount: '33'
 ht-degree: 18%
