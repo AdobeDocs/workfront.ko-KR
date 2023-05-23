@@ -2,12 +2,12 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '보고서: 결합된 작업 및 문제 보기 및 그룹화'
-description: 이 작업 항목 보고서는 사용자가 하나의 보고서에서 작업을 수락한 작업과 문제를 모두 표시합니다. 사용자 지정 그룹과 결합하는 것이 가장 좋습니다.
+title: '보고서: 작업 및 문제 보기 및 그룹화 결합'
+description: 이 작업 항목 보고서는 사용자가 하나의 보고서에서 작업에 동의한 작업과 문제를 모두 표시합니다. 이 방법은 사용자 지정 그룹화와 결합할 때 가장 좋습니다.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 6eaae772-229d-44ea-b285-cbaf9e46eade
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 0%
@@ -16,19 +16,19 @@ ht-degree: 0%
 
 # 보고서: 결합된 작업 및 문제 보기 및 그룹화
 
-이 작업 항목 보고서는 사용자가 하나의 보고서에서 작업을 수락한 작업과 문제를 모두 표시합니다. 사용자 지정 그룹과 결합하는 것이 가장 좋습니다.
+이 작업 항목 보고서는 사용자가 하나의 보고서에서 작업에 동의한 작업과 문제를 모두 표시합니다. 이 방법은 사용자 지정 그룹화와 결합할 때 가장 좋습니다.
 
-이 보고서는 `sharecol=true` 보기에서 동일한 열 헤더 아래에 여러 필드를 결합합니다. 에 대한 자세한 내용은 `sharecol` 태그 내역에 대한 자세한 내용은 [보기: 하나의 공유 열에 있는 여러 열의 정보 병합](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
+이 보고서는 `sharecol=true` 를 클릭하여 동일한 열 헤더 아래에 여러 필드를 결합합니다. 에 대한 자세한 내용은 `sharecol` 태그, 참조 [보기: 여러 열의 정보를 하나의 공유 열에 병합](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
 
 >[!TIP]
 >
-> 작업 항목 뷰에는 할당된 사용자가 수락한 작업 및 문제만 표시됩니다. 이 보고서는 작업 요청 또는 팀 요청 목록에서 사용자의 작업 중 목록으로 이동하지 않은 작업 항목을 표시하지 않습니다.
+> 작업 항목 보기에는 할당된 사용자가 수락한 작업 및 문제만 표시됩니다. 이 보고서는 작업 요청 또는 팀 요청 목록에서 사용자의 작업 중 목록으로 이동하지 않은 작업 항목을 표시하지 않습니다.
 
 ![work_item_report.png](assets/work-item-report-350x46.png)
 
 ## 액세스 요구 사항
 
-이 문서의 절차를 수행하려면 다음 액세스 권한이 있어야 합니다.
+이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,34 +39,36 @@ ht-degree: 0%
    <td> <p>모든</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스*</td> 
+   <td role="rowheader">Adobe Workfront 라이센스*</td> 
    <td> <p>플랜 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>보고서, 대시보드, 달력에 대한 액세스 편집</p> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한 사항을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
-  </tr> 
+   <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 편집</p> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> <p><b>메모</b>
+
+여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td>
+</tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>보고서에 대한 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>보고서에 대한 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;어떤 계획, 라이선스 유형 또는 액세스 권한을 보유하고 있는지 알아보려면 Workfront 관리자에게 문의하십시오.
+&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
 
-## 작업 및 문제 보기 및 그룹화가 결합된 보고서 작성
+## 결합된 작업 및 문제 보기 및 그룹화를 사용하여 보고서 작성
 
-이 보기를 사용하여 보고서를 만들려면:
+이 보기로 보고서를 작성하려면 다음을 수행합니다.
 
-1. 에서 **기본 메뉴** ![](assets/main-menu-icon.png)를 클릭합니다. **보고서**.
+1. 다음에서 **메인 메뉴** ![](assets/main-menu-icon.png), 클릭 **보고서**.
 
-1. 클릭 **새 보고서** 개체를 선택하고 **작업 항목** 를 클릭합니다.
+1. 클릭 **새 보고서** 및 개체 선택 **작업 항목** 드롭다운 메뉴에서 을(를) 선택합니다.
 
-1. 에서&#x200B;**열 미리 보기** 영역에서 표시되는 유일한 열의 헤더를 클릭합니다.
+1. 다음에서&#x200B;**열 미리보기** 영역을 클릭하고 표시된 유일한 열의 머리글을 클릭합니다.
 1. 클릭&#x200B;**텍스트 모드로 전환**.
-1. 텍스트 모드 영역 위로 마우스를 가져간 후 **텍스트를 편집하려면 클릭하십시오.**.
-1. 에서 찾을 텍스트를 제거합니다. **텍스트 모드** 상자를 열고 다음 코드로 바꿉니다.
+1. 텍스트 모드 영역 위로 마우스를 가져간 다음 **텍스트를 편집하려면 클릭**.
+1. 에서 찾은 텍스트 제거 **텍스트 모드** 확인란을 선택하고 다음 코드로 바꿉니다.
 
    ```
    column.0.description=Task or Issue 
@@ -257,9 +259,9 @@ ht-degree: 0%
    column.15.width=1
    ```
 
-1. (선택 사항) **그룹화** 를 눌러 보고서에 그룹을 추가합니다.
-1. (선택 사항) 그룹을 추가하는 경우 **텍스트 모드로 전환**.
-1. (선택 사항) 그룹화 텍스트 모드 영역 내의 텍스트를 다음 코드로 바꿉니다.
+1. (선택 사항) **그룹화** 보고서에 그룹화를 추가합니다.
+1. (선택 사항) 그룹화를 추가하는 경우 **텍스트 모드로 전환**.
+1. (선택 사항) 그룹화 텍스트 모드 영역의 텍스트를 다음 코드로 바꿉니다.
 
    ```
    group.0.name=
@@ -268,6 +270,6 @@ ht-degree: 0%
    textmode=true
    ```
 
-   이 그룹화는 모든 작업과 모든 문제를 함께 그룹화합니다.
+   이 그룹화는 모든 작업을 함께 그룹화하고 모든 문제를 함께 그룹화합니다.
 
 1. 클릭 **저장 + 닫기**.

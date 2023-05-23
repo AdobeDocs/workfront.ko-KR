@@ -2,13 +2,13 @@
 product-area: reporting
 navigation-topic: reporting-elements
 title: Adobe Workfront에서 그룹화 만들기
-description: 사용자 정의 그룹을 처음부터 만들거나 기존 그룹을 사용자 지정할 수 있습니다.
+description: 사용자 지정 그룹화를 처음부터 만들거나 기존 그룹화를 사용자 지정할 수 있습니다.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 64cc52b7-d97b-4b41-9101-530e7db2d26e
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
@@ -19,13 +19,13 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This is a third part of an article split in 3 about creating and customizing groupings (2 how-tos and one reference) </p>
 -->
 
-보고서 또는 목록의 결과는 그룹으로 구성할 수 있습니다. 그룹화는 특정 정보를 기준으로 정보를 분류합니다.
+보고서 또는 목록의 결과를 그룹화하여 구성할 수 있습니다. 그룹화는 특정 정보에 따라 정보를 분류합니다.
 
-사용자 정의 그룹을 처음부터 만들거나 기존 그룹을 사용자 지정할 수 있습니다. 그룹을 처음부터 만들려면 아래 단계를 따르십시오.
+사용자 지정 그룹화를 처음부터 만들거나 기존 그룹화를 사용자 지정할 수 있습니다. 아래 단계에 따라 그룹화를 처음부터 만듭니다.
 
 ## 액세스 요구 사항
 
-이 문서의 절차를 수행하려면 다음 액세스 권한이 있어야 합니다.
+이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,38 +36,38 @@ ht-degree: 0%
    <td> <p>모든</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront 라이선스*</strong></td> 
-   <td> <p>플랜 </p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront 라이센스*</strong></td> 
+   <td> <p>요청 이상 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>액세스 수준 구성*</strong></td> 
-   <td> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> <p>보고서, 대시보드, 달력에 대한 액세스를 편집하여 보고서에서 그룹을 생성합니다</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한 사항을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> <p>보고서, 대시보드, 캘린더에 대한 액세스 권한을 편집하여 보고서에서 그룹화를 만들 수 있습니다.</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>개체 권한</strong></td> 
-   <td> <p>보고서에 대한 권한을 관리하여 보고서의 그룹을 편집합니다</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>보고서에서 그룹화를 편집하려면 보고서에 대한 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;어떤 계획, 라이선스 유형 또는 액세스 권한을 보유하고 있는지 알아보려면 Workfront 관리자에게 문의하십시오.
+&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
 
-## 그룹 만들기
+## 그룹화 만들기
 
-1. 보고서 또는 사용자 지정 그룹을 만들 목록으로 이동합니다.
-1. 을(를) 클릭합니다. **그룹화** 아이콘 을 클릭하여 제품에서 사용할 수 있습니다.
+1. 사용자 지정 그룹화를 만들 보고서 또는 목록으로 이동합니다.
+1. 다음을 클릭합니다. **그룹화** 아이콘 을 클릭하여 제품에서 사용할 수 있습니다.
 
    ![새 그룹화 선택](assets/newgrouping-nwe-standard-350x304.png)
 
 1. 클릭 **새 그룹화**.
 그룹화 시작을 만들기 위한 인터페이스 빌더입니다.
 
-1. 에서 **그룹화 미리 보기** 섹션을 클릭합니다. **그룹화 추가** 를 입력하여 보고서에 있는 정보를 구성하는 방법을 정의할 수 있습니다. 보고서에서 그룹이 어떻게 보이는지에 대한 미리 보기는 아래에 나와 있습니다.
+1. 다음에서 **그룹화 미리 보기** 섹션, 클릭 **그룹화 추가** 을 클릭하여 보고서의 정보를 구성하는 방법을 정의합니다. 보고서에서 그룹화가 표시되는 모양에 대한 미리보기가 아래에 표시되어 있습니다.
 
-1. 보고서에서 정보를 구성할 방법을 나타내는 필드의 이름을 입력한 다음 드롭다운 목록에 표시될 때 클릭합니다.
-1. (선택 사항 및 조건부) 업데이트된 목록에서 그룹을 작성할 때 **기본적으로 이 그룹을 축소합니다.** 그룹화 결과가 확장되지 않고 축소되도록 하려면 이 설정은 기본적으로 비활성화되며 그룹화 결과는 항상 확장된 목록에 표시됩니다.
+1. 보고서에서 정보를 구성하는 방법을 나타내는 필드 이름을 입력한 다음 드롭다운 목록에 나타나면 해당 필드 이름을 클릭합니다.
+1. (선택 사항 및 조건부) 업데이트된 목록에서 그룹화를 작성할 때 다음을 선택합니다. **기본적으로 이 그룹화 접기** 그룹화의 결과를 확장하지 않고 축소한 상태로 표시하려면 을 선택합니다. 이 설정은 기본적으로 비활성화되며 그룹화 결과는 항상 확장된 목록에 표시됩니다.
 
-   업데이트 및 레거시 목록에 대한 자세한 내용은 섹션을 참조하십시오 [업데이트된 목록과 기존 목록 간의 차이점](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) 기사 [Adobe Workfront에서 목록 시작](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+   업데이트 및 기존 목록에 대한 자세한 내용은 섹션을 참조하십시오 [업데이트된 목록과 기존 목록의 차이점](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) 이 문서에서 [Adobe Workfront에서 목록 시작](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">(NOTE: the tips repeat in the Edit existing grouping article and Common uses of text mode)</p>
@@ -75,18 +75,18 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >* 목록을 볼 때 수동으로 그룹화를 조정하면 Workfront은 로그아웃할 때까지 수동 환경 설정을 기억합니다. 다시 로그인하면 이 설정에 따라 목록이 표시됩니다.
-   >* 그룹화 결과는 항상 차트 요소 또는 레거시 목록에서 액세스한 후에 확장됩니다. 이러한 경우 이 설정은 무시됩니다.
+   >* 목록을 볼 때 수동으로 그룹화를 조정하면 Workfront은 로그아웃하기 전까지 수동 기본 설정을 기억합니다. 다시 로그인하면 이 설정에 따라 목록이 표시됩니다.
+   >* 차트 요소나 레거시 목록에서 그룹화에 액세스하면 그룹화 결과가 항상 확장되어 표시됩니다. 이러한 경우 이 설정은 무시됩니다.
 
 
-1. 추가적인 그룹화를 정의하려면 4, 5 및 6단계를 반복합니다.\
-   정보를 구성할 최대 3개의 그룹을 정의할 수 있습니다. 매트릭스 보고서를 만들어 최대 4개의 그룹으로 정보를 추가로 구성할 수 있습니다. 매트릭스 보고서에 대한 자세한 내용은 [매트릭스 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
+1. 4, 5, 6단계를 반복하여 추가 그룹화를 정의합니다.\
+   정보 구성을 위해 최대 3개의 그룹화를 정의할 수 있습니다. 매트릭스 보고서를 만들어 최대 4개의 그룹화로 정보를 추가로 구성할 수 있습니다. 매트릭스 보고서에 대한 자세한 내용은 [매트릭스 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
 1. 클릭 **그룹화 저장**.
 
 ## 추가 정보
 
-다음을 참조하십시오.
+다음도 참조하십시오.
 
 * [Adobe Workfront의 그룹화 개요](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 * [보고 요소: 필터, 보기 및 그룹화](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)

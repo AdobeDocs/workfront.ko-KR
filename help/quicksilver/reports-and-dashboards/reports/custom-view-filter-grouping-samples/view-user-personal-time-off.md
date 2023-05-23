@@ -2,29 +2,29 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '''보기: 사용자 개인 시간 해제'
-description: '''보기: 사용자 개인 시간 해제'
+title: '보기: 사용자 개인 휴무'
+description: '보기: 사용자 개인 휴무'
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 9b55b302-5cdc-4437-9ce4-a15b5b43dccb
-source-git-commit: 68baff382c1c5e6b69906bb021fb20fd513dad0f
+source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '284'
 ht-degree: 4%
 
 ---
 
-# 보기: 사용자 개인 시간 해제
+# 보기: 사용자 개인 휴무
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider hiding this article because this is not a custom view anymore.)</p>
 -->
 
-휴무일 보고서를 작성하여 사용자의 휴무일 정보를 캡처할 수 있습니다.
+사용자의 휴무 정보를 캡처하는 휴무 보고서를 작성할 수 있습니다.
 
 ## 액세스 요구 사항
 
-이 문서의 절차를 수행하려면 다음 액세스 권한이 있어야 합니다.
+이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,50 +35,53 @@ ht-degree: 4%
    <td> <p>모든</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스*</td> 
-   <td> <p>플랜 </p> </td> 
+   <td role="rowheader">Adobe Workfront 라이센스*</td> 
+   <td> <p>보기 수정 요청 </p>
+   <p>보고서 수정 계획</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>보고서, 대시보드, 달력에 대한 액세스 편집</p> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한 사항을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
-  </tr> 
+   <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 권한을 편집하여 보고서 수정</p> <p>필터, 보기, 그룹화에 대한 액세스 권한을 편집하여 보기 수정</p> <p><b>메모</b>
+
+여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td>
+</tr>  
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>보고서에 대한 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>보고서에 대한 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;어떤 계획, 라이선스 유형 또는 액세스 권한을 보유하고 있는지 알아보려면 Workfront 관리자에게 문의하십시오.
+&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
 
-## 사용자 개인 시간 보기
+## 사용자 개인 휴무 보기
 
-1. 을(를) 클릭합니다. **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png) 오른쪽 위 모서리에서 을(를) 클릭하고 **보고서 > 새 보고서**.
+1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) 오른쪽 상단에서 을(를) 클릭한 다음 **보고서 > 새 보고서**.
 
-1. 드롭다운 메뉴에서 **해제 시간**.
+1. 드롭다운 메뉴에서 을(를) 선택합니다 **휴무**.
 1. 클릭 **저장 + 닫기**.
 
    이 보고서는 기본적으로 보기에 다음 필드를 표시합니다.
 
-   | 사용자 | 프로필에서 시간 초과를 표시한 사용자의 이름입니다. |
+   | 사용자 | 프로필에 휴가를 표시한 사용자의 이름입니다. |
    |---|---|
-   | 시작일 | 사용자가 표시한 기간의 시작 날짜입니다. |
-   | 종료 일자 | 사용자가 표시한 기간의 종료 날짜입니다. |
+   | 시작일 | 사용자가 지정한 휴무 기간의 시작 일자. |
+   | 종료 일자 | 사용자가 지정한 휴무 기간의 종료 일자. |
 
    {style="table-layout:auto"}
 
-1. (선택 사항) 다음 탭 중 하나를 편집하여 보고서 만들기를 완료합니다.
+1. (선택 사항) 다음 탭 중 하나를 편집하여 보고서 작성을 완료합니다.
 
    * 열(조회)
    * 그룹화
    * 필터
    * 차트
 
-   보고서 만들기에 대한 내용은 문서를 참조하십시오 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   보고서 만들기에 대한 자세한 내용은 문서 를 참조하십시오 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
    >[!TIP]
    >
-   >보고서를 더 쉽게 읽을 수 있도록 사용자 개체에 대해 그룹을 추가하는 것이 좋습니다.
+   >보고서를 더 쉽게 읽을 수 있도록 사용자 개체에 대한 그룹화를 추가하는 것이 좋습니다.
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Add Time Off information to a user report</h2>
