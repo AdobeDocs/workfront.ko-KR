@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: 477d09db70a56a39a6000340cf70f7c89718cca0
+source-git-commit: 061d1a08a8c99b2770491ce2fcea63a9dad7a63f
 workflow-type: tm+mt
-source-wordcount: '2732'
+source-wordcount: '2745'
 ht-degree: 0%
 
 ---
@@ -85,10 +85,11 @@ ht-degree: 0%
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
                             <li>
-                                <p>미리보기 릴리스: 2023년 3월 9일<br /></p>
+                                <p>미리보기 릴리스: 2023년 3월 9일</p>
                             </li>
                             <li>
-                                 <p>프로덕션 릴리스: 23.2 릴리스 포함</p>
+                                 <p>프로덕션 릴리스: 23.2 릴리스 포함<br />
+                                 <span style="color: #ff0000;">2023년 5월 24일 미리보기 및 프로덕션에서 양식 디자이너 Beta가 일시적으로 비활성화되었습니다.</span></p>
                             </li>
                         </ul>
                     </td>

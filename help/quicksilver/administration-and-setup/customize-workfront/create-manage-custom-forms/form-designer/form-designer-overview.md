@@ -8,14 +8,18 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
-source-git-commit: c544f209ab952311d23e149a49bb8df308420bca
+source-git-commit: 061d1a08a8c99b2770491ce2fcea63a9dad7a63f
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '435'
 ht-degree: 1%
 
 ---
 
 # 양식 디자이너 개요
+
+>[!IMPORTANT]
+>
+>양식 디자이너는 2023년 5월 24일에 일시적으로 비활성화되었습니다. 기존 양식 빌더를 사용하여 사용자 정의 양식을 만들고 편집할 수 있습니다. 다음을 참조하십시오 [기존 양식 빌더로 사용자 정의 양식 만들기 또는 편집](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md).
 
 새 양식 디자이너를 사용하여 사용자가 Workfront 개체에 첨부할 수 있는 사용자 정의 양식을 디자인할 수 있습니다. 오브젝트에 대한 작업을 수행하는 사용자는 사용자 정의 양식을 작성하여 오브젝트에 대한 정보를 제공할 수 있습니다.
 
