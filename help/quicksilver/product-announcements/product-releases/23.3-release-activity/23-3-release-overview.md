@@ -4,7 +4,7 @@ description: 23.3 릴리스 개요
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 7fb37ca286649a1556cd0098f6570786eea8a4c1
+source-git-commit: 3e72e4a5562e06df8e398c37ca1b9e2c19b98187
 workflow-type: tm+mt
 source-wordcount: '1291'
 ht-degree: 0%
@@ -230,7 +230,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>미리보기 릴리스: 2023년 5월 11일</p>
                             </li>
                             <li>
-                                <p><span class="preview">프로덕션 릴리스: 2023년 5월 18일</span></p>
+                                <p><span class="preview">프로덕션 릴리스: 2023년 5월 24일</span></p>
                             </li>
                         </ul>
                     </td>
