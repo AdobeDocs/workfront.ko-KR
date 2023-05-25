@@ -7,10 +7,10 @@ description: 작업 스트림은 작업에 대해 공동 작업하기 위해 구
 author: Lisa
 feature: Agile
 exl-id: c46c42e8-e14d-414d-b883-c4d885338e42
-source-git-commit: 14175ce94c1395138a31f47ad72951f0120f11ee
+source-git-commit: dd1bd5a27a2ed29af29b88b028d8fd34a592aae2
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 3%
+source-wordcount: '905'
+ht-degree: 2%
 
 ---
 
@@ -94,20 +94,28 @@ ht-degree: 3%
 
    이는 보드에 멤버를 추가하는 것과 동일한 프로세스입니다. 자세한 내용은 [보드에서 구성원 추가 또는 제거](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
 
+## 워크스트림에 소스 추가
+
+소스는 작업 스트림의 카드 출처를 결정합니다.
+
+{{step1-to-boards}}
+
+1. 다음을 클릭합니다. [!UICONTROL **소스**] 아이콘 ![소스 아이콘](assets/sources-icon.png) 카드를 작업 스트림으로 가져올 소스를 정의합니다. 현재 사용 가능한 소스는 [!DNL Adobe Workfront].
+1. 필터를 추가하여 Workfront에서 작업 및 문제를 카드로 가져옵니다.
+
+   작업 스트림 소스에 대한 필터를 추가하는 것은 기본 보드 또는 Kanban 보드에서 접수 열에 대한 고급 필터를 추가하는 것과 같습니다. 자세한 내용은 [보드에 접수 열 추가](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+
 ## 작업 스트림 구성
 
 {{step1-to-boards}}
 
 1. 대시보드에서 을(를) 클릭합니다 [!UICONTROL **작업 스트림 보기**] 워크스트림을 엽니다.
 1. 클릭 [!UICONTROL **구성**] 을(를) 열려면 [!UICONTROL 워크스트림 구성] 패널.
-1. (선택 사항) 작업 스트림에 대한 설명을 입력합니다. 이 설명은 대시보드에 표시됩니다.
-1. (선택 사항) 작업 스트림에 태그를 추가합니다. 자세한 내용은 [태그 추가](/help/quicksilver/agile/get-started-with-boards/add-tags.md).
+1. (선택 사항) 확장 [!UICONTROL **워크스트림**] 워크스트림에 대한 설명을 입력합니다. 이 설명은 대시보드에 표시됩니다.
+1. (선택 사항) 확장 [!UICONTROL **반복**] 을(를) 사용하여 이 워크스트림의 반복 프로세스를 정의합니다.
 
    카드 목록 섹션에 총 카드 수, 뾰족한 카드 수 및 반복 횟수가 표시됩니다. 클릭 [!UICONTROL **목록 보기**] 을 클릭하여 목록을 열고 카드를 추가합니다. 자세한 내용은 [카드 목록 사용](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
-   반복이 정의된 경우 시작 날짜, 카드 수 및 포인트 수가 표시됩니다. 클릭 [!UICONTROL **반복 보드 보기**] 게시판을 엽니다. 자세한 내용은 [작업 스트림에 반복 만들기](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
+   반복이 이미 정의된 경우 해당 시작 날짜, 카드 수 및 포인트 수가 표시됩니다. 클릭 [!UICONTROL **보드 보기**] 를 클릭하여 반복 보드를 엽니다. 자세한 내용은 [작업 스트림에 반복 만들기](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
-1. 클릭 [!UICONTROL **소스 추가**] 카드를 작업 스트림으로 가져올 소스를 정의합니다. 현재 사용 가능한 소스는 [!DNL Adobe Workfront].
-1. 필터를 추가하여 Workfront에서 작업 및 문제를 카드로 가져옵니다.
-
-   작업 스트림 소스에 대한 필터를 추가하는 것은 기본 보드 또는 Kanban 보드에 접수 열에 대한 필터를 추가하는 것과 같습니다. 자세한 내용은 [보드에 접수 열 추가](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+1. (선택 사항) 확장 [!UICONTROL **태그**] 을 눌러 작업 스트림에 태그를 추가합니다. 태그를 검색하거나 검색 상자에 새 태그 이름을 입력하고 Enter 키를 눌러 태그를 만듭니다.
