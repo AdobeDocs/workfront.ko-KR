@@ -3,13 +3,13 @@ content-type: overview
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: 업데이트 섹션 개요
-description: 객체의 업데이트 섹션에는 객체의 변경 사항을 추적하는 객체 또는 시스템 업데이트 시 사용자가 수행하는 주석이 표시됩니다.
+description: 객체의 업데이트 섹션에는 사용자가 객체에 대해 수행하는 설명이나 객체에 대한 변경 사항을 추적하는 시스템 업데이트가 표시됩니다.
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
+source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '911'
 ht-degree: 4%
 
 ---
@@ -22,43 +22,43 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->현재 Adobe Workfront에서 주석 달기 환경을 다시 디자인하고 있습니다.
+>현재 Adobe Workfront의 댓글 달기 환경을 다시 디자인하고 있습니다.
 >
->새 주석 달기 경험에 대한 자세한 내용은 [새로운 주석 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>새 댓글 달기 환경에 대한 자세한 내용은 [새 댓글 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >다음 객체에 대한 새 경험에 액세스할 수 있습니다.
-> * 주석 달기 베타를 활성화할 때 문제가 발생합니다.
+> * 문제, <!--<span class="preview">projects, tasks, and documents</span>,--> 주석 Beta를 활성화하는 경우.
    >
-   >     이 기능은 문제의 업데이트 섹션에만 사용할 수 있으며, 다음 영역에는 사용할 수 없습니다.
+   >     이 기능은 업데이트 섹션에만 사용할 수 있으며 다음 영역에는 사용할 수 없습니다.
    >
    >     * 홈
    >     * 목록의 요약 패널
-   >     * 작업표의 요약 패널
+   >     * 타임시트의 요약 패널
 >
 > * 목표
 
    >
-   >   새로운 주석 달기 경험은 목표의 기본값입니다. Workfront 목표에 액세스하려면 추가 라이센스가 있어야 합니다. 자세한 내용은 [Workfront 목표를 사용하기 위한 요구 사항](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+   >   새로운 댓글 달기 경험은 목표에 대한 기본값입니다. Workfront 목표에 액세스하려면 추가 라이선스가 있어야 합니다. 자세한 내용은 [Workfront 목표를 사용하기 위한 요구 사항](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
    >
-   >    목표에 대한 댓글 달기에 대한 자세한 내용은 [Adobe Workfront 목표의 목표 주석 관리](../../workfront-goals/goal-management/manage-goal-comments.md).
+   >    목표에 대한 댓글에 대한 자세한 내용은 을 참조하십시오. [Adobe Workfront 목표의 목표 주석 관리](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 
-객체의 업데이트 섹션에는 객체의 변경 사항을 추적하는 객체 또는 시스템 업데이트 시 사용자가 수행하는 주석이 표시됩니다.
+객체의 업데이트 섹션에는 사용자가 객체에 대해 수행하는 설명이나 객체에 대한 변경 사항을 추적하는 시스템 업데이트가 표시됩니다.
 
 ## 업데이트 섹션 개요
 
-업데이트 섹션의 정보는 사용자가 액세스하는 환경에 따라 다르게 구성됩니다.
+업데이트 섹션의 정보는 액세스하는 환경에 따라 다르게 구성됩니다.
 
-### 현재 업데이트 섹션 개요
+### 현재 업데이트 섹션의 개요
 
-개체의 업데이트 섹션에는 지난 90일 내에 수행된 최신 업데이트 중 최대 200개가 표시됩니다.
+오브젝트의 업데이트 섹션에는 지난 90일 이내에 이루어진 가장 최근 업데이트 중 최대 200개가 표시됩니다.
 
 ![](assets/updates-tab-before-unified-experience-for-issues.png)
 
 현재 업데이트 섹션에는 다음 정보가 표시됩니다.
 
-* 사용자가 작성한 댓글과 해당 댓글에 대한 회신
-* Workfront이 개체에 특정 이벤트를 기록하기 위해 만드는 정보 메시지인 시스템 업데이트. 예를 들어 시스템 업데이트를 통해 상태, 이름 또는 사용자 지정 필드의 변경 사항을 캡처할 수 있습니다. Workfront 또는 그룹 관리자가 객체에 대한 시스템 업데이트를 활성화할 수 있습니다. 자세한 내용은 [시스템 업데이트 구성](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+* 사용자가 작성한 댓글 및 해당 댓글에 대한 답글.
+* 시스템 업데이트: Workfront이 개체에 특정 이벤트를 기록하기 위해 만드는 정보 메시지입니다. 예를 들어 시스템 업데이트를 통해 상태, 이름 또는 사용자 정의 필드의 변경 사항을 캡처할 수 있습니다. Workfront 또는 그룹 관리자가 개체에 대한 시스템 업데이트를 활성화할 수 있습니다. 자세한 내용은 [시스템 업데이트 구성](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
 다음 객체에 대해 업데이트 섹션이 표시됩니다.
 
@@ -90,16 +90,16 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-### 베타 주석 달기 경험의 업데이트 섹션 개요
+### Beta 주석 달기 환경의 업데이트 섹션 개요
 
 ![](assets/updates-tab-after-unified-experience-for-issues.png)
 
-업데이트 섹션에는 새 주석 달기 환경의 다음 탭에 정보가 표시됩니다.
+업데이트 섹션에는 새 댓글 달기 환경의 다음 탭에 정보가 표시됩니다.
 
-* **댓글**: 사용자가 작성한 댓글과 해당 댓글에 대한 답글을 표시합니다. 새 주석 달기에서 개체 업데이트에 대한 자세한 내용은 [작업 업데이트](../updating-work-items-and-viewing-updates/update-work.md).
-* **시스템 활동**: 개체에 특정 이벤트를 기록하기 위해 Workfront에서 만드는 정보 메시지인 시스템 업데이트를 표시합니다. 예를 들어 시스템 업데이트를 통해 상태, 이름 또는 사용자 지정 필드의 변경 사항을 캡처할 수 있습니다. Workfront 또는 그룹 관리자가 객체에 대한 시스템 업데이트를 활성화할 수 있습니다. 자세한 내용은 [시스템 업데이트 구성](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+* **댓글**: 사용자가 작성한 댓글과 해당 댓글에 대한 답글을 표시합니다. 새 댓글 달기 환경에서 오브젝트를 업데이트하는 방법에 대한 자세한 내용은 [작업 업데이트](../updating-work-items-and-viewing-updates/update-work.md).
+* **시스템 활동**: Workfront이 개체에 특정 이벤트를 기록하기 위해 만드는 정보 메시지인 시스템 업데이트를 표시합니다. 예를 들어 시스템 업데이트를 통해 상태, 이름 또는 사용자 정의 필드의 변경 사항을 캡처할 수 있습니다. Workfront 또는 그룹 관리자가 개체에 대한 시스템 업데이트를 활성화할 수 있습니다. 자세한 내용은 [시스템 업데이트 구성](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-현재 다음 개체에 대한 베타 주석 달기 환경을 사용하여 의견을 작성하고 업데이트에 응답할 수 있습니다.
+현재 다음 개체에 대해 Beta 댓글 달기 환경을 사용하여 댓글을 달거나 업데이트에 답글을 달 수 있습니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -109,9 +109,9 @@ ht-degree: 4%
    <td> 
     <ul> 
      <li><p>목표</p>
-     <p>목표를 위한 기본 경험입니다</p>
+     <p>목표에 대한 기본 경험입니다.</p>
      </li> 
-     </ul> </td> 
+      </ul> </td> 
    <td> 
     <ul> 
      <li>문제</li> 
@@ -120,19 +120,58 @@ ht-degree: 4%
  </tbody> 
 </table>
 
+<!--replace table above with this: 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> 
+    <ul> 
+     <li><p>Goals</p>
+     <p>This is the default experience for goals</p>
+     </li> 
+     <li><span class="preview">Projects</span></li>
+     </ul> </td> 
+   <td> 
+    <ul> 
+     <li>Issues</li> 
+     <li><span class="preview">Tasks</span></li>
+     <li><span class="preview">Documents</span></li>
+     </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+-->
+
 ## 상위 등급 개체에도 표시되는 업데이트
 
-다음 표에 표시된 대로 특정 개체의 업데이트에 대한 응답도 순위가 높은 개체의 업데이트 섹션에도 표시됩니다.
+특정 개체의 업데이트에 대한 댓글이나 답글은 상위 개체의 업데이트 섹션에도 표시됩니다.
 
-예를 들어, 작업에 업데이트를 추가하면 해당 업데이트가 작업의 업데이트 섹션과 작업이 포함된 프로젝트의 업데이트 섹션에 표시됩니다.
+예를 들어 작업에 업데이트를 추가하면 해당 작업의 업데이트 섹션과 해당 작업이 포함된 프로젝트의 업데이트 섹션에 업데이트가 나타납니다.
+
+<!--
+>[!NOTE]
+>
+>When enabling the new commenting Beta experience, comments display on the following higher-ranking objects and in the following environments: 
+>
+>* Issues, in the Preview and Production environments
+>* <span class="preview">Projects and tasks, in the Preview environment</span>
+>
+>For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+
+-->
+
+다음 표는 주석이 상위 객체에 표시되는 객체를 보여 줍니다.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 
   <tr> 
-   <th><strong>원본 업데이트가 추가된 개체</strong> </th> 
-   <th> <p><strong>원래 업데이트도 표시되는 등급이 높은 개체</strong> </p> </th> 
+   <th><strong>원래 업데이트가 추가된 개체</strong> </th> 
+   <th> <p><strong>원래 업데이트가 표시되는 상위 오브젝트</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -150,7 +189,7 @@ ht-degree: 4%
   </tr> 
   <tr data-mc-conditions=""> 
    <td>문서 </td> 
-   <td>문서가 첨부된 객체, 프로젝트 </td> 
+   <td>문서가 첨부된 오브젝트, 프로젝트 </td> 
   </tr> 
   <tr> 
    <td>프로그램</td> 
@@ -186,46 +225,46 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->시스템 업데이트에 추가된 응답이 상위 개체에 롤업되지 않습니다. 하위 개체에 대한 직접 답장과 기존 업데이트에 추가된 응답만 상위 개체에 롤업됩니다.
+>시스템 업데이트에 추가된 답글은 상위 개체로 롤업되지 않습니다. 하위 개체에 직접 회신과 기존 업데이트에 추가된 회신만 상위 개체에 롤업됩니다.
 >
->Adobe Workfront의 개체 계층에 대한 자세한 내용은 [Adobe Workfront의 개체 이해](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+>Adobe Workfront의 개체 계층에 대한 자세한 내용은 [Adobe Workfront의 오브젝트 이해](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 >
-> 새 주석 달기 베타 경험에서는 시스템 업데이트에 응답할 수 없습니다. 자세한 내용은 [새로운 주석 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+> 새 댓글 달기 Beta 경험에서 시스템 업데이트에 답글을 달 수 없습니다. 자세한 내용은 [새 댓글 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 ## 업데이트 섹션의 제한 사항
 
-팀의 업데이트 섹션과 다른 사용자를 대신하여 업데이트를 입력할 때 몇 가지 제한 사항이 있습니다.
+팀의 업데이트 섹션과 다른 사용자 대신 업데이트를 입력할 때 몇 가지 제한 사항이 있습니다.
 
-### 사용자 및 팀의 제한 사항
+### 사용자 및 팀에 대한 제한 사항
 
-팀에서 업데이트할 수 없습니다. 팀의 업데이트 섹션은 다음 개체에 입력한 업데이트로 채워집니다.
+팀에 대해서는 업데이트할 수 없습니다. 팀의 업데이트 섹션은 다음 개체에 입력한 업데이트로 채워집니다.
 
 * 사용자
 * 타임시트
 * 스토리
 * 반복
 
-사용자 및 팀의 업데이트 섹션에서 지난 90일 동안 입력한 업데이트를 볼 수 있습니다.
+사용자 및 팀을 위한 업데이트 섹션에서 지난 90일 동안 입력한 업데이트를 볼 수 있습니다.
 
-사용자 또는 팀이 90일 제한 이상의 업데이트를 모두 보려면 노트에 대한 보고서를 작성할 수 있습니다. 보고서에는 사용자 또는 팀에 대한 모든 업데이트를 표시하는 시간 필터가 있지 않아야 합니다. 자세한 내용은 [사용자 지정 보고서 만들기](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+90일 제한을 초과하여 사용자 또는 팀에 대한 모든 업데이트를 보려면 메모에 대한 보고서를 작성할 수 있습니다. 보고서에는 사용자 또는 팀에 대한 모든 업데이트를 표시하는 시간 필터가 없어야 합니다. 자세한 내용은 [사용자 지정 보고서 만들기](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-### 다른 사용자를 대신하여 주석을 입력할 때 제한 사항
+### 다른 사용자를 대신하여 주석을 입력할 때의 제한 사항
 
-Adobe Workfront 관리자 및 그룹 관리자는 다른 사용자로 로그인하여 Workfront에서 주석 입력과 같은 작업을 수행할 수 있습니다. (자세한 내용은 [다른 사용자로 로그인](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md)) 다른 사용자를 대신하여 작성한 모든 주석은 주석에 표시됩니다.
+Adobe Workfront 관리자 및 그룹 관리자는 다른 사용자로 로그인하고 주석 입력과 같은 작업을 Workfront에서 수행할 수 있습니다. (자세한 내용은 [다른 사용자로 로그인](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).) 다른 사용자를 대신하여 작성한 모든 주석은 주석에 표시됩니다.
 
-그룹 관리자는 다른 사람을 대신하여 주석을 작성할 수 있지만 해당 설명을 삭제할 수는 없습니다. Adobe Workfront 관리자만 다른 사용자를 대신하여 작성한 주석을 삭제할 수 있습니다.
+그룹 관리자는 다른 사용자를 대신하여 댓글을 달 수 있지만 해당 댓글을 삭제할 수는 없습니다. Adobe Workfront 관리자만 다른 사용자를 대신하여 작성한 댓글을 삭제할 수 있습니다.
 
 ## 분개 입력 보고서를 사용하여 작업 항목에 대한 시스템 갱신 조회
 
-분개 입력 보고서 시스템은 프로젝트, 작업 및 문제의 갱신 영역에서 갱신됩니다.
+분개 기입 보고서는 프로젝트, 작업 및 문제의 업데이트 영역에서 시스템 업데이트를 표시합니다.
 
-보고서를 통해 다음을 확인할 수 있습니다.
+이 보고서를 통해 다음을 볼 수 있습니다.
 
-* 발생한 상태 변경 수
+* 얼마나 많은 상태 변경 발생
 * 작업 또는 문제가 삭제된 경우
-* 프로젝트 진행 중에 중요한 사용자 지정 필드의 값이 변경되는 방법
-* 프로젝트 진행 중에 변경된 중요한 날짜
-* 프로젝트 진행 과정에서 우선순위가 변경된 경우
+* 프로젝트 진행 중 중요한 사용자 정의 필드의 값이 변경되는 방법
+* 프로젝트 진행 중 변경된 중요한 일자
+* 프로젝트 진행 중 우선순위가 변경된 경우
 * 프로젝트 소유자가 변경된 경우
 
 자세한 내용은 [업데이트 영역에 대한 보고서](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).

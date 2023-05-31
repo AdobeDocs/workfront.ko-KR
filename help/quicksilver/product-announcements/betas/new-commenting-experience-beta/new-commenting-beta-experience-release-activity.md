@@ -1,42 +1,87 @@
 ---
 product-area: betas
 navigation-topic: new-commenting-exprience-beta
-title: '새로운 주석 달기 환경 베타 릴리스 활동'
-description: Adobe Workfront의 새로운 댓글 베타 경험에 대한 주간 릴리스 활동을 검토하십시오.
+title: 새로운 댓글 달기 경험 Beta 릴리스 활동
+description: Adobe Workfront의 새로운 댓글 달기 Beta 경험에 대한 주간 릴리스 활동을 검토하십시오.
 author: Alina
 feature: Product Announcements
-source-git-commit: f4283cc81fbde9e7c399bb48d483158175ca1dea
+exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
+source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 9%
+source-wordcount: '637'
+ht-degree: 8%
 
 ---
 
+# 새로운 댓글 달기 Beta 경험 릴리스 활동
 
-# 새로운 댓글 베타 경험 릴리스 활동
+이 페이지의 정보는 새 댓글 달기 Beta 경험에 포함된 기능을 기반으로 매주 릴리스 활동을 참조합니다. 이 페이지에는 새로운 댓글 달기 Beta 경험에 대해 추가된 새로운 기능과 해결된 문제가 나열됩니다.
 
-이 페이지의 정보는 새로운 주석 달기 베타 경험에 포함된 기능을 매주 기준으로 릴리스 활동을 나타냅니다. 페이지에는 새로운 주석 달기 베타 환경에서 해결된 새 기능과 문제가 나열됩니다.
-
-현재 사용 가능한 또는 연구 중인 기능 목록을 포함하여 새 주석 달기 베타 경험에 대한 일반 정보는 [새로운 주석 달기 환경](../new-commenting-experience-beta/unified-commenting-experience.md).
+현재 사용 가능하거나 연구 중인 기능 목록을 포함하여 새 댓글 달기 Beta 경험에 대한 일반 정보는 다음을 참조하십시오. [새 댓글 달기 환경](../new-commenting-experience-beta/unified-commenting-experience.md).
 
 >[!IMPORTANT]
 >
->새로운 주석 달기 경험은 23.2 릴리스와 함께 베타로 출시되었습니다. 원본 릴리스에 대한 자세한 내용은 [23.2 릴리스 개요](../../product-releases/23.2-release-activity/23-2-release-overview.md).
+>새로운 댓글 달기 환경은 23.2 릴리스와 함께 Beta로 출시되었습니다. 원본 릴리스에 대한 자세한 내용은 [23.2 릴리스 개요](../../product-releases/23.2-release-activity/23-2-release-overview.md).
 >
->Workfront 개체의 베타 경험에 릴리스된 주석 달기 기능도 Workfront 목표에 있는 목표 개체의 업데이트 섹션에도 릴리스됩니다.
+>Workfront 객체에 대한 Beta 경험에 릴리스된 댓글 달기 기능은 Workfront 목표의 목표 객체의 업데이트 섹션에도 릴리스됩니다.
 
-다음 섹션에는 가장 최근에 릴리스된 기능을 시작으로 원본 릴리스 이후에 추가된 기능이 나열됩니다.
+다음 섹션에는 가장 최근에 릴리스된 기능부터 시작하여 원본 릴리스 이후에 추가된 기능이 나와 있습니다.
+
+## 2023년 5월 29일 주
+
+### 댓글을 편집한 후 &quot;편집된&quot; 태그의 새로운 모양과 느낌
+
+새 댓글 달기 Beta 경험에서 댓글을 편집할 때 &quot;편집됨&quot; 태그가 댓글에 추가됩니다. 이제 이 태그는 원래 릴리스된 태그보다 더 새로운 모양과 느낌을 갖습니다. 주석의 날짜 및 타임스탬프는 원래 주석의 타임스탬프 및 타임스탬프입니다. 편집이 이루어진 날짜와 타임스탬프가 아닙니다.  자세한 내용은 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+미리 보기: 2023년 5월 31일
+
+프로덕션: 2023년 6월 1일
+
+<!--
+
+### Comments from children objects now roll up to a parent object  
+
+When enabling the commenting Beta experience, the comments associated with a child object now roll up to the parent object. For example, comments from documents now display on the issue where the documents are attached. For information, see [Update section overview](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+
+Preview, for issues, projects, and tasks: June 1, 2023  
+
+Production, for issues: June 1, 2023 
+
+Production, for projects, and tasks: with the 23.3 release 
+-->
+
+<!--
+### Log time in the new commenting Beta experience 
+
+You can log time for issues, tasks, and projects from the Updates area, when using the new commenting Beta experience. For more information, see [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md).  
+
+Preview: June 1, 2023 
+
+Production: June 15, 2023
+
+-->
+
+<!--
+
+### New commenting Beta experience for projects, tasks, and issues  
+
+The new commenting Beta experience is now available for projects, tasks, and documents. Prior to this update, the commenting Beta experience was available only for issues and goals.  
+
+Preview: June 1, 2023 
+
+Production: with the 23.3 release 
+-->
 
 ## 2023년 5월 15일 주
 
-### 주석에 하이퍼링크를 추가할 때 경험이 개선됨
+### 댓글에 하이퍼링크를 추가할 때의 경험 개선
 
-이제 다음 바로 가기 키를 사용하여 주석에 하이퍼링크를 추가할 수 있습니다.
+이제 다음 바로 가기 키를 사용하여 댓글에 하이퍼링크를 추가할 수 있습니다.
 
-* CTRL + V(Mac의 경우 CMD + V)는 선택한 텍스트 위에 링크를 붙여넣습니다
-* Ctrl + K(Mac의 경우 CMD + K)를 클릭하면 링크 추가 상자가 열립니다.
+* CTRL+V(Mac의 경우 CMD+V)를 누르면 링크가 선택한 텍스트 위에 붙여넣습니다.
+* CTRL + K (Mac의 경우 CMD + K)를 누르면 링크 추가 상자가 열립니다.
 
-이러한 개선 사항 전에 리치 텍스트 도구 모음에서 링크 아이콘을 클릭하기만 하면 하이퍼링크를 추가할 수 있습니다. 자세한 내용은 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+이러한 개선 사항 이전에는 리치 텍스트 도구 모음에서 링크 아이콘을 클릭해야만 하이퍼링크를 추가할 수 있었습니다. 자세한 내용은 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 미리 보기: 2023년 5월 17일
 
@@ -44,35 +89,35 @@ ht-degree: 9%
 
 ## 2023년 5월 1일 주
 
-### 첨부 파일이 주석에서 제거되거나 첨부 파일이 포함된 주석이 제거되면 문서 영역에서 이미지가 제거됩니다
+### 첨부 파일을 주석에서 제거하거나 첨부 파일이 포함된 주석을 제거하면 문서 영역에서 이미지가 제거됩니다
 
-첨부 파일이 포함된 주석을 제거하거나 편집할 때 첨부 파일이 작동하는 방식을 변경하고 있습니다. 이제 주석을 편집하고 첨부 파일을 제거하거나 첨부 파일이 포함된 주석을 삭제하면 첨부 파일도 문서 영역에서 제거됩니다. 변경 전에 이전 주석 달기 환경에서 첨부 파일은 문서 영역에 남아 있습니다. 자세한 내용은 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+첨부 파일이 포함된 주석을 제거하거나 편집할 때 첨부 파일이 작동하는 방식을 변경하고 있습니다. 이제 주석을 편집하고 첨부 파일을 제거할 때 또는 첨부 파일이 포함된 주석을 삭제할 때 문서 영역에서도 첨부 파일이 제거됩니다. 이 변경 이전에는 이전 댓글 달기 환경에서 첨부 파일이 문서 영역에 남아 있었습니다. 자세한 내용은 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-기본적으로 다음 날짜에서 베타 경험에 대해 언급하고 Workfront 목표에 대해 사용할 수 있습니다.
+Beta 경험에 대한 댓글을 달거나 다음 날짜에 기본적으로 Workfront 목표에 사용할 수 있습니다.
 
-* 미리 보기 및 프로덕션: 2023년 5월 4일
+* 미리보기 및 프로덕션: 2023년 5월 4일
 
 
 ## 2023년 4월 27일
 
-문제 주석 베타 및 목표에 대한 다음 유지 관리 업데이트가 릴리스되었습니다.
+베타 문제를 댓글로 달고 목표에 대해 다음 유지 보수 업데이트가 릴리스되었습니다.
 
-댓글 수정 시 첨부된 이미지 수정. 자세한 내용은 문서의 &quot;4월 27일 유지 관리 업데이트&quot; 섹션을 참조하십시오 <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">2023년 4월 업데이트</a>.
+댓글 수정 시 첨부된 이미지 수정. 자세한 내용은 이 문서의 &quot;4월 27일 유지 보수 업데이트&quot; 섹션을 참조하십시오 <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">2023년 4월 업데이트</a>.
 
 ## 2023년 4월 20일
 
-문제 주석 베타 및 목표에 대한 다음 유지 관리 업데이트가 릴리스되었습니다.
+베타 문제를 댓글로 달고 목표에 대해 다음 유지 보수 업데이트가 릴리스되었습니다.
 
-댓글 달기 Beta 경험의 목표 및 문제에 대한 업데이트에서 이동할 때 이미지를 초안으로 유지. 자세한 내용은 문서의 &quot;4월 20일 유지 관리 업데이트&quot; 섹션을 참조하십시오 <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">2023년 4월 업데이트</a>.
+댓글 달기 Beta 경험의 목표 및 문제에 대한 업데이트에서 이동할 때 이미지를 초안으로 유지. 자세한 내용은 이 문서의 &quot;4월 20일 유지 보수 업데이트&quot; 섹션을 참조하십시오 <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">2023년 4월 업데이트</a>.
 
 ## 2023년 4월 17일
 
-문제 주석 베타 및 목표에 대한 다음 유지 관리 업데이트가 릴리스되었습니다.
+베타 문제를 댓글로 달고 목표에 대해 다음 유지 보수 업데이트가 릴리스되었습니다.
 
-문제의 업데이트 섹션(새로운 댓글 달기 Beta 경험)과 목표에서 보이는 화면 영역 외부에 새 댓글이 표시됨. 자세한 내용은 문서의 &quot;4월 17일 유지 관리 업데이트&quot; 섹션을 참조하십시오  <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">2023년 4월 업데이트</a>.
+문제의 업데이트 섹션(새로운 댓글 달기 Beta 경험)과 목표에서 보이는 화면 영역 외부에 새 댓글이 표시됨. 자세한 내용은 이 문서의 &quot;4월 17일 유지 보수 업데이트&quot; 섹션을 참조하십시오  <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">2023년 4월 업데이트</a>.
 
 
 ## 2023년 4월 6일 주
 
-새로운 주석 달기 베타 경험이 문제에 대해 시작되었습니다.
-Workfront 목표에 액세스할 수 있는 모든 사용자에 대해 Workfront 개체의 주석 달기 베타에 대해 릴리스된 동일한 기능이 동시에 제공됩니다. 자세한 내용은 [23.2 릴리스 개요](../../product-releases/23.2-release-activity/23-2-release-overview.md).
+문제에 대한 새 댓글 달기 Beta 경험이 시작되었습니다.
+Workfront 개체의 댓글 달기 베타에 대해 릴리스된 동일한 기능은 Workfront 목표에 액세스할 수 있는 모든 사용자의 목표에 대해 동시에 릴리스됩니다. 자세한 내용은 [23.2 릴리스 개요](../../product-releases/23.2-release-activity/23-2-release-overview.md).

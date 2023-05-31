@@ -6,9 +6,9 @@ description: Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
+source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '893'
 ht-degree: 0%
 
 ---
@@ -86,16 +86,16 @@ Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석을 추가할
    <td> <p>Pro 이상</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스*</td> 
+   <td role="rowheader">Adobe Workfront 라이센스*</td> 
    <td> <p>요청 이상</p> <p>자세한 내용은 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront 라이선스 개요</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">제품</td> 
-   <td> <p>이 문서에 설명된 기능에 액세스하려면 Adobe Workfront 목표에 대한 추가 라이센스를 구매해야 합니다. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표 사용 요구 사항</a>. </p> </td> 
+   <td> <p>이 문서에 설명된 기능에 액세스하려면 Adobe Workfront 목표에 대한 추가 라이선스를 구입해야 합니다. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표 사용 요구 사항</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준*</td> 
-   <td> <p>목표에 대한 액세스 권한 보기 이상</p> <p><b>메모</b><p>여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한 사항을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 다음을 참조하십시오.</p> 
+   <td> <p>목표에 대한 보기 또는 상위 액세스</p> <p><b>메모</b><p>여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 다음을 참조하십시오.</p> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Adobe Workfront 목표에 대한 액세스 권한 부여</a></span> </p> </li> 
@@ -112,79 +112,82 @@ Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석을 추가할
  </tbody> 
 </table>
 
-*보유하고 있는 플랜, 라이선스 유형 또는 액세스를 알아보려면 Workfront 관리자에게 문의하십시오.
+*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
 
 ## 전제 조건
 
-시작하려면 먼저 다음을 수행해야 합니다.
+시작하려면 먼저 다음 항목이 있어야 합니다.
 
-* 기본 메뉴의 목표 영역을 포함하는 레이아웃 템플릿.
+* 메인 메뉴에 목표 영역을 포함하는 레이아웃 템플릿입니다.
 
 ## 업데이트 섹션을 찾습니다
 
 목표 페이지의 업데이트 섹션에서 목표에 주석을 추가할 수 있습니다.
 
-사용자 또는 다른 사용자가 이 영역에 추가한 댓글에 답글을 달거나 좋아할 수 있습니다.
+이 영역에서 귀하 또는 다른 사람이 추가한 댓글에 답글을 달거나 댓글을 달도록 할 수 있습니다.
 
-1. 을(를) 클릭합니다. **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png) > **목표** 오른쪽 상단 모서리에서
-그러면 목표 목록이 열립니다.
+1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) > **목표** 오른쪽 상단 모서리입니다.
+이렇게 하면 목표 목록이 열립니다.
 1. 주석을 추가할 목표를 찾은 다음 해당 이름을 클릭하여 목표 페이지를 엽니다.
-1. 클릭  **업데이트** 왼쪽 패널에 표시됩니다.
-1. 을(를) 클릭합니다. **댓글** 업데이트 영역의 왼쪽 위 모서리에 있는 탭입니다.
-1. 에 댓글 입력 시작 **새 댓글** 상자.
+1. 클릭  **업데이트** 왼쪽 패널에서
+1. 다음을 클릭합니다. **댓글** 업데이트 영역의 왼쪽 상단 모서리에 있는 탭입니다.
+1. 에 주석 입력 시작 **새 댓글** 상자.
 
    ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
    >
-   >Updates 섹션을 벗어나서 의견 입력을 완료하고 댓글을 제출하면 로그오프한 후 다시 로그온해도 초안 모드로 페이지의 주석이 유지됩니다. 주석에 추가된 모든 이미지도 초안으로 저장됩니다. 초안은 폐기된 후 7일 동안 저장되며 복구할 수 없습니다. 초안 주석은 입력하는 사용자만 볼 수 있습니다.
+   >댓글을 입력하고 제출하기 전에 업데이트 섹션에서 다른 곳으로 이동하면 로그오프했다가 다시 로그온한 후에도 페이지에서 댓글이 초안 모드로 유지됩니다. 주석에 추가된 모든 이미지도 초안에 저장됩니다. 초안은 7일 동안 저장되며 이후 삭제되며 복구할 수 없습니다. 초안 주석은 설명을 입력한 사용자만 볼 수 있습니다.
 
-1. (선택 사항) 업데이트, 하이퍼링크 또는 이미지에 서식 있는 텍스트 서식을 추가하려면 서식 있는 텍스트 도구 모음의 옵션 또는 그 옆에 있는 아이콘을 사용합니다. 자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. (선택 사항)에서 **사람 또는 팀에 태그 지정** 영역에서 이 댓글에 포함할 사용자 또는 팀의 이름 또는 전자 메일을 입력한 다음 목록에 표시될 때 선택합니다.
-1. 을(를) 선택합니다 **회사 개인** 을 토글하여 회사 사용자만 주석을 볼 수 있도록 합니다.
+1. (선택 사항) 업데이트, 하이퍼링크 또는 이미지에 서식 있는 텍스트 서식을 추가하려면 서식 있는 텍스트 도구 모음이나 옆에 있는 아이콘을 사용하십시오. 자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (선택 사항) **사람 또는 팀에 태그 지정** 영역에 이 댓글에 포함할 사용자 또는 팀의 이름 또는 이메일을 입력한 다음 목록에 표시될 때 선택합니다.
+1. 다음 항목 선택 **내 회사에 비공개** 회사 내 사용자에게만 댓글이 표시되도록 전환합니다.
 
    >[!TIP]
    >
-   >업데이트 영역에서 이 옵션을 사용하려면 프로필에 회사가 지정되어 있어야 합니다.
+   >업데이트 영역에서 이 옵션을 사용하려면 프로필에 회사를 지정해야 합니다.
 
 1. 클릭 **제출**.
 
    >[!TIP]
    >
-   >업데이트하려는 동일한 항목에 다른 사용자가 주석을 제출하면 최신 주석을 알려주는 &quot;새로 만들기&quot; 표시기가 있는 빨간색 줄이 표시됩니다.
+   >다른 사용자가 업데이트하고 있는 동일한 항목에 주석을 제출하면 빨간색 줄에 &quot;New&quot; 표시기가 표시되어 최신 주석을 알려 줍니다.
    >
-   >표시기에는 항목에 대한 설명을 제출한 후에만 표시되며, 주석을 아직 작성할 때는 표시되지 않습니다.
+   >표시기는 항목에 대한 댓글이 제출된 후에만 표시되며 댓글이 아직 작성된 경우에는 표시되지 않습니다.
    >
-   >새로 만들기 지표는 새 업데이트를 입력한 사용자와 현재 업데이트를 입력하는 사용자가 새 주석 달기 경험을 사용하는 경우에만 표시됩니다.
+   >&quot;새로 만들기&quot; 표시기는 새 업데이트를 입력한 사용자와 현재 업데이트를 입력 중인 사용자가 모두 새 댓글 달기 경험을 사용하는 경우에만 표시됩니다.
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
-1. (선택 사항) 주석을 편집하려면 **자세히** 메뉴 ![](assets/more-icon.png) 좋아요 아이콘 오른쪽에 있는 를 클릭한 다음 **편집**.
-1. 주석에서 정보를 편집하거나, 이미지를 추가 또는 제거하거나, 태그가 지정된 사용자를 모두 제거합니다.
-댓글 전송 후 15분 이내에 편집을 수행할 수 있습니다. 설명이 업데이트될 때 표시되는 날짜 스탬프 왼쪽에 &quot;편집됨&quot; 표시기가 추가됩니다.
+1. (선택 사항) 주석을 편집하려면 **자세히** 메뉴 ![](assets/more-icon.png) 좋아요 아이콘 오른쪽에 있는 **편집**.
+1. 주석의 정보를 편집하거나, 이미지를 추가 또는 제거하거나, 태그 지정된 사용자를 제거합니다.
+의견을 제출하고 15분 이내에 편집할 수 있습니다. 댓글이 업데이트될 때 표시되는 날짜 스탬프 왼쪽에 &quot;편집됨&quot; 표시기가 추가됩니다.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
-   > 원본 업데이트를 제출할 때만 사용자에게 업데이트를 알리는 이메일이 생성됩니다. 업데이트를 편집한 후에는 이메일이 생성되지 않습니다.
+   > * 원본 업데이트를 제출한 경우에만 사용자에게 업데이트를 알리는 이메일이 생성됩니다. 업데이트를 편집한 후 이메일이 생성되지 않습니다.
+   >
+   > * 날짜 스탬프는 원래 댓글의 날짜이며 최신 업데이트 날짜는 아닙니다.
 
-   1. (선택 사항) **자세히** 메뉴 ![](assets/more-icon.png)를 클릭한 다음, 다음 옵션 중 하나를 클릭하여 주석에서 클립보드에 정보를 복사합니다.
 
-      * **링크 복사** 회신 없이 업데이트 링크를 복사하기 위해
-      * **본문 복사** 업데이트 텍스트를 복사하려면
+   1. (선택 사항) **자세히** 메뉴 ![](assets/more-icon.png)를 클릭한 다음, 다음 옵션 중 하나를 클릭하여 댓글의 정보를 클립보드로 복사합니다.
+
+      * **링크 복사** 를 클릭하여 회신 없이 업데이트 링크를 복사합니다.
+      * **본문 복사** 를 클릭하여 업데이트 텍스트를 복사합니다.
 
          자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (선택 사항) **자세히** 메뉴 ![](assets/more-icon.png) 주석 오른쪽에 있는 를 클릭한 다음 **삭제** 추가한 설명을 삭제하려면 자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. (선택 사항) **회신** 기존 주석에 응답하려면 위의 5~9단계를 수행합니다. <!--insure this stays accurate-->
-1. (조건부 및 선택 사항) 다른 사용자가 업데이트 섹션에서 표시 영역 외부에 표시되는 주석을 추가한 경우 **보기** 파란색 내부 **새 댓글 배너** 화면 하단에 이러한 설명을 표시합니다.
+1. (선택 사항) **자세히** 메뉴 ![](assets/more-icon.png) 주석의 오른쪽에 있는 을(를) 클릭한 다음 **삭제** 주석을 삭제하려면 다음을 수행하십시오. 자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (선택 사항) **답변** 기존 댓글에 회신하려면 위의 5-9단계를 따르십시오. <!--insure this stays accurate-->
+1. (조건부 및 선택 사항) 다른 사용자가 업데이트 섹션의 표시 영역 외부에 표시되는 주석을 추가한 경우 **보기** 파란색 안쪽에 **새 댓글 배너** 이 설명을 표시하려면 이 단추를 클릭하십시오.
 
    ![](assets/blue-new-comments-banner-with-view-button.png)
 
-   화면 하단에 추가 주석이 표시됩니다.
-1. (선택 사항) **좋아요** 아이콘![](assets/like-icon.png) 다른 사람이 추가한 설명을 좋아합니다. 아이콘이 좋아요 수로 업데이트됩니다.
+   추가 주석이 화면 하단에 표시됩니다.
+1. (선택 사항) **좋아요** 아이콘![](assets/like-icon.png) 다른 사용자가 추가한 댓글을 좋아하도록 하는 것입니다. 아이콘이 좋아요 수로 업데이트됩니다.
 
-1. (선택 사항) **시스템 활동** 탭에서 시스템에서 로그된 업데이트를 볼 수 있습니다. 목표가 업데이트되면 Workfront에서는 해당 업데이트에 대한 메모를 생성하여 시스템 활동 탭에 표시합니다. 또한 Workfront은 결과, 활동 또는 프로젝트가 목표에 추가되거나 업데이트될 때 시스템 업데이트를 기록합니다. <!--ensure the casing on the tab has not changed-->
+1. (선택 사항) **시스템 활동** 시스템에 의해 기록된 업데이트를 보려면 탭하십시오. 목표가 업데이트되면 Workfront에서는 해당 업데이트에 대한 메모를 생성하고 시스템 활동 탭에 표시합니다. Workfront은 결과, 활동 또는 프로젝트가 목표에 추가되거나 업데이트될 때도 시스템 업데이트를 기록합니다. <!--ensure the casing on the tab has not changed-->
 
 <!--BELOW IS OLD, ATIIM/ WORKFRONT GOALS INFORMATION ABOUT COMMENTS: 
 
