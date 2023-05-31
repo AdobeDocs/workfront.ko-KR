@@ -6,9 +6,9 @@ description: 다음을 통해 조직 내 팀과 개인의 참여를 가속화하
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
-source-git-commit: aa00992e3d5c8d78dfb3f1b88471fe95a17ec0db
+source-git-commit: 389a4cce56b5b81db521217c9bdd2a9a25850e1c
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 * 1단계 작업으로 워크플로우 유지
 * 이동 중에도 생산성 유지
 
-에서 앱을 다운로드하여 설치할 수 있습니다. [Apple App Store](https://www.apple.com/app-store/) 또는 [Google Play 스토어](https://play.google.com/store/apps;).
+에서 앱을 다운로드하여 설치할 수 있습니다. [Apple App Store](https://apps.apple.com/us/app/adobe-workfront/id1033282981) 또는 [Google Play 스토어](https://play.google.com/store/apps/details?id=com.workfront.android.aware).
 
 모바일 앱에서는 의 브라우저 버전에서 수행하는 것처럼 작업 항목을 완료하고 정보를 볼 수 있습니다. [!DNL Workfront]. 다음 기능 등을 사용할 수 있습니다.
 
