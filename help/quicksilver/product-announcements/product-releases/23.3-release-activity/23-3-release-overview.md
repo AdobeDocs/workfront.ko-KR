@@ -4,9 +4,9 @@ description: 23.3 릴리스 개요
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: a99c746e9863e06ccc1890fc07533f4024cb0059
+source-git-commit: a6dd604db7c12c00048150004323e8426e45cf2b
 workflow-type: tm+mt
-source-wordcount: '1295'
+source-wordcount: '1312'
 ht-degree: 0%
 
 ---
@@ -222,7 +222,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md" class="MCXref xref" xrefformat="{para}">프로젝트를 만들 때 Adobe Experience Manager Assets에 연결된 폴더를 자동으로 만듭니다.</a><span style="color: #ff0000;"> 프로덕션의 새로운 기능!</span></p>
-                        <p>Adobe Experience Manager 통합을 위한 새 연결된 폴더 만들기 워크플로를 사용하여 Adobe Experience Manager Assets 폴더의 경로로 통합을 구성할 수 있습니다. 통합이 프로젝트 템플릿에 추가되면 템플릿에서 만든 모든 프로젝트는 지정된 폴더의 Experience Manager Assets에 연결된 하위 폴더를 자동으로 만듭니다. </p>
+                        <p>Adobe Experience Manager 통합을 위한 새 연결된 폴더 만들기 워크플로를 사용하여 Adobe Experience Manager Assets 폴더의 경로로 통합을 구성할 수 있습니다. 통합이 프로젝트 템플릿에 추가되면 템플릿에서 만든 모든 프로젝트는 지정된 폴더의 Experience Manager Assets에 연결된 하위 폴더를 자동으로 만듭니다. </p><p>이 기능은 Workfront 내의 Adobe Experience Manager as a Cloud Service 통합에서만 사용할 수 있습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
