@@ -5,9 +5,9 @@ title: 시간대 간 작업
 description: 방법을 이해하는 것이 도움이 될 수 있습니다 [!DNL Adobe Workfront] 시간대를 사용하여 이메일과 같은 다른 영역의 오브젝트 및 시간에 대한 시간 필드를 계산합니다.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 114d306d99ae9ba0a18abd63a6137ad0568ab202
+source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ ht-degree: 0%
 
    프로젝트 또는 사용자에게 일정을 할당하는 방법에 대한 지침은 [일정 만들기](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-   일정에 구성된 시간대가 의 분포에 미치는 영향에 대한 자세한 정보 [!UICONTROL 계획된 시간] 다음에서 [!DNL Workload Balancer], 참조 [에서 사용자 할당 관리 [!DNL Workload Balancer]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+   일정에 구성된 시간대가 의 분포에 미치는 영향에 대한 자세한 정보 [!UICONTROL 계획된 시간] 다음에서 [!UICONTROL 업무 균형자], 참조 [에서 사용자 할당 관리 [!UICONTROL 업무 균형자]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 
 ### 사용자 정의 양식에서 계산된 시간 필드 사용 {#use-calculated-time-fields-in-a-custom-form}
