@@ -6,7 +6,7 @@ description: Adobe Workfront의 새로운 댓글 달기 Beta 경험에 대한 �
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
+source-git-commit: e1411ce49d8668ba50bcb9b80d4a4b47d0dd00fc
 workflow-type: tm+mt
 source-wordcount: '807'
 ht-degree: 6%
@@ -29,7 +29,7 @@ ht-degree: 6%
 
 ## 2023년 5월 29일 주
 
-### 프로젝트, 작업 및 문제에 대한 새로운 댓글 달기 Beta 경험
+### 프로젝트, 작업 및 문서에 대한 새로운 댓글 달기 Beta 경험
 
 이제 프로젝트, 작업 및 문서에 새 댓글 달기 Beta 환경을 사용할 수 있습니다. 이 업데이트 이전에는 댓글 달기 Beta 경험을 문제 및 목표에 대해서만 사용할 수 있었습니다.
 

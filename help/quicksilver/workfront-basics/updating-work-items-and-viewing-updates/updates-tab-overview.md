@@ -7,10 +7,10 @@ description: 객체의 업데이트 섹션에는 사용자가 객체에 대해 �
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
+source-git-commit: e1411ce49d8668ba50bcb9b80d4a4b47d0dd00fc
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '963'
+ht-degree: 4%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 >새 댓글 달기 환경에 대한 자세한 내용은 [새 댓글 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >다음 객체에 대한 새 경험에 액세스할 수 있습니다.
-> * 문제, <span class="preview">프로젝트, 작업 및 문서</span> 주석 Beta를 활성화하는 경우.
+> * 문제, <span class="preview">프로젝트</span>, <span class="preview">작업</span>, 및 <span class="preview">문서</span>: 주석 Beta를 활성화하는 경우.
    >
    >     이 기능은 업데이트 섹션에만 사용할 수 있으며 다음 영역에는 사용할 수 없습니다.
    >
@@ -131,7 +131,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->새 댓글 달기 Beta 경험을 활성화하면 다음 상위 오브젝트 및 다음 환경에 댓글이 표시됩니다.
+>새 댓글 달기 Beta 경험을 활성화하면 다음 상위 객체에 댓글이 표시됩니다.
 >
 >* 문제
 >* <span class="preview">프로젝트</span>

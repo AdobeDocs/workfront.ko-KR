@@ -6,9 +6,9 @@ description: Adobe Workfront 개체에 업데이트 설명을 제공하면 프�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: e1411ce49d8668ba50bcb9b80d4a4b47d0dd00fc
 workflow-type: tm+mt
-source-wordcount: '1411'
+source-wordcount: '1436'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 <!--take "Beta" references out when we remove the beta-->
 
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.-->
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리보기 환경에서만 사용할 수 있습니다.
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 0%
 >새 댓글 달기 환경에 대한 자세한 내용은 [새 댓글 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >다음 객체에 대한 새 경험에 액세스할 수 있습니다.
-> * 문제, <!--<span class="preview">projects, tasks, and documents</span>,--> 주석 Beta를 활성화하는 경우.
+> * 문제, <span class="preview">프로젝트</span>, <span class="preview">작업</span>, 및 <span class="preview">문서</span>: 주석 Beta를 활성화하는 경우.
    >
    >     이 기능은 업데이트 섹션에만 사용할 수 있으며 다음 영역에는 사용할 수 없습니다.
    >
@@ -77,8 +77,11 @@ Workfront 개체에 업데이트를 추가하는 방법에 대한 자세한 내�
   </tr> 
   <tr> 
    <td role="rowheader"><strong>액세스 수준 구성*</strong></td> 
-   <td> <p>문제 및 문서에 대한 요청자 이상, 기타 모든 오브젝트에 대한 검토자 이상</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
-  </tr> 
+   <td> <p>문제 및 문서에 대한 요청자 이상, 기타 모든 오브젝트에 대한 검토자 이상</p> 
+   <p><b>메모</b>
+
+여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td>
+</tr> 
   <tr> 
    <td role="rowheader"><strong>개체 권한</strong></td> 
    <td> <p>오브젝트에 대한 액세스 보기</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 

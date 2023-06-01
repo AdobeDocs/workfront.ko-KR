@@ -6,9 +6,9 @@ description: 누군가 작업 개체에 대한 업데이트를 추가하거나 �
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: e1411ce49d8668ba50bcb9b80d4a4b47d0dd00fc
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1159'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.-->
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리보기 환경에서만 사용할 수 있습니다.
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ ht-degree: 1%
 >새 댓글 달기 환경에 대한 자세한 내용은 [새 댓글 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >다음 객체에 대한 새 경험에 액세스할 수 있습니다.
-> * 문제, <!--<span class="preview">projects, tasks, and documents</span>,--> 주석 Beta를 활성화하는 경우.
+> * 문제, <span class="preview">프로젝트, 작업 및 문서</span>: 주석 Beta를 활성화하는 경우.
    >
    >     이 기능은 업데이트 섹션에만 사용할 수 있으며 다음 영역에는 사용할 수 없습니다.
    >
