@@ -6,7 +6,7 @@ description: 누군가 작업 개체에 대한 업데이트를 추가하거나 �
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 7c458a41cd5376b746c93e9ed8e4f379a0ed1f4b
+source-git-commit: 66e843ea0430a86b89b68f6f469763f5e4a348d7
 workflow-type: tm+mt
 source-wordcount: '1164'
 ht-degree: 1%
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리보기 환경에서만 사용할 수 있습니다.
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리보기 환경에서만 사용할 수 있습니다.</span>
 
 >[!NOTE]
 >
@@ -26,22 +26,22 @@ ht-degree: 1%
 >새 댓글 달기 환경에 대한 자세한 내용은 [새 댓글 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >다음 객체에 대한 새 경험에 액세스할 수 있습니다.
-> * 문제, <span class="preview">프로젝트, 작업 및 문서</span>.
-   >
-   >     댓글 달기 Beta 경험을 활성화하면 사용할 수 있습니다.\
-   >     이 기능은 업데이트 섹션에만 사용할 수 있으며 다음 영역에는 사용할 수 없습니다.
-   >
-   >     * 홈
-   >     * 목록의 요약 패널
-   >     * 타임시트의 요약 패널
 >
-> * 목표
-
-   >
-   >   새로운 댓글 달기 경험은 목표에 대한 기본값입니다. Workfront 목표에 액세스하려면 추가 라이선스가 있어야 합니다. 자세한 내용은 [Workfront 목표를 사용하기 위한 요구 사항](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-   >
-   >    목표에 대한 댓글에 대한 자세한 내용은 을 참조하십시오. [Adobe Workfront 목표의 목표 주석 관리](../../workfront-goals/goal-management/manage-goal-comments.md).
-
+>* 문제, <span class="preview">프로젝트, 작업 및 문서</span>.
+>
+>  댓글 달기 Beta 경험을 활성화하면 사용할 수 있습니다.
+>
+>  이 기능은 업데이트 섹션에만 사용할 수 있으며 다음 영역에는 사용할 수 없습니다.
+>
+>  * 홈
+>  * 목록의 요약 패널
+>  * 타임시트의 요약 패널
+>
+>* 목표
+>
+>  새로운 댓글 달기 경험은 목표에 대한 기본값입니다. Workfront 목표에 액세스하려면 추가 라이선스가 있어야 합니다. 자세한 내용은 [Workfront 목표를 사용하기 위한 요구 사항](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>
+>  목표에 대한 댓글에 대한 자세한 내용은 을 참조하십시오. [Adobe Workfront 목표의 목표 주석 관리](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 누군가 작업 개체에 대한 댓글 또는 시스템 업데이트에 답글을 달면 해당 답글이 해당 개체의 업데이트 섹션에 있는 통신 스레드에 나타납니다.
 
@@ -100,6 +100,7 @@ ht-degree: 1%
    해당 업데이트 스레드의 맨 위에서 대화에 적극적으로 참여하거나 각 회신에 태그를 지정한 사용자를 볼 수 있습니다. 이러한 사용자는 오브젝트에 가입된 사용자와 함께 오브젝트에 대한 업데이트 또는 회신이 이루어질 때마다 알림을 받습니다. 더 많은 사용자에 태그를 지정하여 회신에 추가할 수도 있습니다.  더 많은 사용자에 태그를 지정하려면 다음을 참조하십시오. [업데이트에 다른 사용자 태그 지정](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
    ![](assets/tagging-transparency-350x192.png)
+
 1. (선택 사항) 회신에 이전 업데이트의 텍스트를 포함하려면 **자세히** 견적을 작성할 업데이트 또는 회신 옆에 있는 메뉴 **견적 회신**. 이전 업데이트의 텍스트가 입력 영역에 세로로 회색 선으로 표시됩니다.
 1. (선택 사항) 문서의 &quot;Workfront 업데이트에서 리치 텍스트 사용&quot; 섹션에 설명된 대로 서식, 이모지를 사용하고, 링크 또는 이미지를 포함합니다 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. 클릭 **답변** 회신을 저장합니다.
