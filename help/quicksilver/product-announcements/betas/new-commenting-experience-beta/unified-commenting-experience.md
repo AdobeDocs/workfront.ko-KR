@@ -6,16 +6,16 @@ description: Adobe Workfront의 댓글 달기 환경에 대한 업데이트가 �
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 새 댓글 달기 환경
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리보기 환경에서만 사용할 수 있습니다.</span>
 
 Adobe Workfront의 댓글 달기 환경에 대한 업데이트가 현재 개발 중입니다. 이 업데이트에는 선택한 객체의 업데이트 섹션에 새로운 인터페이스, 새로운 기능 및 향상된 성능이 포함되어 있습니다.
 
@@ -47,7 +47,7 @@ Adobe Workfront의 댓글 달기 환경에 대한 업데이트가 현재 개발 
 새 댓글 달기 환경에 포함된 개선 사항 중 하나는 다음과 같습니다.
 
 * 향상된 성능 및 사용자 경험
-* 시스템 활동 업데이트에서 사용자 주석을 분리합니다. 시스템 업데이트 기능에는 변경 사항이 없습니다.
+* 시스템 활동 업데이트에서 사용자 주석을 분리합니다.
 * 오브젝트에 새 댓글이 추가될 때 실시간 표시기
 * 의견 제출 후 편집
 
@@ -261,7 +261,7 @@ Adobe Workfront의 댓글 달기 환경에 대한 업데이트가 현재 개발 
    </td>
    <td>✓ 
    </td>
-   <td> ✓
+   <td><span class="preview">✓</span>
    </td>
    <td> 
    </td>
@@ -409,7 +409,7 @@ Adobe Workfront의 댓글 달기 환경에 대한 업데이트가 현재 개발 
 
 * 업데이트 섹션에서 Beta 경험을 활성화할 때:
 
-   * 문제<!--, <span class="preview">projects, tasks, and documents</span>-->
+   * 문제, <span class="preview">프로젝트, 작업 및 문서</span>
    Workfront 개체의 업데이트 관리에 대한 자세한 내용은 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 
@@ -425,7 +425,7 @@ Adobe Workfront의 댓글 달기 환경에 대한 업데이트가 현재 개발 
 
 새 댓글 달기 경험 Beta를 활성화하려면 다음을 수행하십시오.
 
-1. 새 댓글 달기 경험을 활성화할 개체로 이동한 다음, **업데이트** 왼쪽 패널에서
+1. 새 댓글 달기 경험을 활성화할 개체로 이동한 다음 을 클릭합니다 **업데이트** 왼쪽 패널에서
 1. 활성화 **Beta 댓글 달기** 업데이트 영역의 오른쪽 상단 모서리에서 전환합니다.
 1. 클릭 **동의** Beta 계약 상자. 이렇게 하면 선택한 개체에 대해 새 댓글 달기 경험을 사용할 수 있습니다.
 1. 에서 업데이트를 입력하십시오. **댓글** 탭. 새 경험이 열릴 때 주석 탭이 기본 탭이어야 합니다

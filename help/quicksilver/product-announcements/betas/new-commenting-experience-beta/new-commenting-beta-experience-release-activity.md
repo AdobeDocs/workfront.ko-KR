@@ -6,10 +6,10 @@ description: Adobe Workfront의 새로운 댓글 달기 Beta 경험에 대한 �
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 8%
+source-wordcount: '807'
+ht-degree: 6%
 
 ---
 
@@ -29,48 +29,41 @@ ht-degree: 8%
 
 ## 2023년 5월 29일 주
 
+### 프로젝트, 작업 및 문제에 대한 새로운 댓글 달기 Beta 경험
+
+이제 프로젝트, 작업 및 문서에 새 댓글 달기 Beta 환경을 사용할 수 있습니다. 이 업데이트 이전에는 댓글 달기 Beta 경험을 문제 및 목표에 대해서만 사용할 수 있었습니다.
+
+미리 보기: 2023년 6월 1일
+
+프로덕션: 23.3 릴리스 포함
+
+>[!NOTE]
+>
+>2023년 6월 1일부터 새로운 댓글 달기 Beta 경험에 릴리스된 모든 기능은 프로덕션 23.3 릴리스 이후 프로젝트, 작업 및 문서에 대한 프로덕션에서 사용할 수 있습니다. 자세한 내용은 [23.3 릴리스 개요](../../../product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+
 ### 댓글을 편집한 후 &quot;편집된&quot; 태그의 새로운 모양과 느낌
 
-새 댓글 달기 Beta 경험에서 댓글을 편집할 때 &quot;편집됨&quot; 태그가 댓글에 추가됩니다. 이제 이 태그는 원래 릴리스된 태그보다 더 새로운 모양과 느낌을 갖습니다. 주석의 날짜 및 타임스탬프는 원래 주석의 타임스탬프 및 타임스탬프입니다. 편집이 이루어진 날짜와 타임스탬프가 아닙니다.  자세한 내용은 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+새 댓글 달기 Beta 경험에서 댓글을 편집할 때 &quot;편집됨&quot; 태그가 댓글에 추가됩니다. 이제 이 태그는 원래 릴리스된 태그와 다른 새로운 모양과 느낌을 갖게 되었습니다. 주석의 날짜 및 타임스탬프는 원래 주석의 타임스탬프 및 타임스탬프입니다. 편집이 이루어진 날짜와 타임스탬프가 아닙니다.  자세한 내용은 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 미리 보기: 2023년 5월 31일
 
 프로덕션: 2023년 6월 1일
 
-<!--
+### 하위 객체의 주석이 상위 객체로 롤업됩니다.
 
-### Comments from children objects now roll up to a parent object  
+댓글 달기 Beta 경험을 활성화하면 이제 하위 객체와 연관된 댓글이 상위 객체로 롤업됩니다. 예를 들어 이제 문서의 주석이 문서가 첨부된 문제에 표시됩니다. 자세한 내용은 [업데이트 섹션 개요](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-When enabling the commenting Beta experience, the comments associated with a child object now roll up to the parent object. For example, comments from documents now display on the issue where the documents are attached. For information, see [Update section overview](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+미리 보기: 2023년 6월 1일
 
-Preview, for issues, projects, and tasks: June 1, 2023  
+프로덕션: 2023년 6월 1일
 
-Production, for issues: June 1, 2023 
+### 새 댓글 달기 Beta 경험에 시간 기록
 
-Production, for projects, and tasks: with the 23.3 release 
--->
+새로운 댓글 달기 Beta 환경을 사용할 때 업데이트 영역에서 문제, 작업 및 프로젝트에 대한 시간을 기록할 수 있습니다. 자세한 내용은 [로그 시간](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
-<!--
-### Log time in the new commenting Beta experience 
+미리 보기: 2023년 6월 1일
 
-You can log time for issues, tasks, and projects from the Updates area, when using the new commenting Beta experience. For more information, see [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md).  
-
-Preview: June 1, 2023 
-
-Production: June 15, 2023
-
--->
-
-<!--
-
-### New commenting Beta experience for projects, tasks, and issues  
-
-The new commenting Beta experience is now available for projects, tasks, and documents. Prior to this update, the commenting Beta experience was available only for issues and goals.  
-
-Preview: June 1, 2023 
-
-Production: with the 23.3 release 
--->
+제작: 발표 예정
 
 ## 2023년 5월 15일 주
 

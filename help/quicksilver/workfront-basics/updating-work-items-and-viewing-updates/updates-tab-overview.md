@@ -7,10 +7,10 @@ description: 객체의 업데이트 섹션에는 사용자가 객체에 대해 �
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리보기 환경에서만 사용할 수 있습니다.</span>
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 4%
 >새 댓글 달기 환경에 대한 자세한 내용은 [새 댓글 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >다음 객체에 대한 새 경험에 액세스할 수 있습니다.
-> * 문제, <!--<span class="preview">projects, tasks, and documents</span>,--> 주석 Beta를 활성화하는 경우.
+> * 문제, <span class="preview">프로젝트, 작업 및 문서</span> 주석 Beta를 활성화하는 경우.
    >
    >     이 기능은 업데이트 섹션에만 사용할 수 있으며 다음 영역에는 사용할 수 없습니다.
    >
@@ -99,7 +99,7 @@ ht-degree: 4%
 * **댓글**: 사용자가 작성한 댓글과 해당 댓글에 대한 답글을 표시합니다. 새 댓글 달기 환경에서 오브젝트를 업데이트하는 방법에 대한 자세한 내용은 [작업 업데이트](../updating-work-items-and-viewing-updates/update-work.md).
 * **시스템 활동**: Workfront이 개체에 특정 이벤트를 기록하기 위해 만드는 정보 메시지인 시스템 업데이트를 표시합니다. 예를 들어 시스템 업데이트를 통해 상태, 이름 또는 사용자 정의 필드의 변경 사항을 캡처할 수 있습니다. Workfront 또는 그룹 관리자가 개체에 대한 시스템 업데이트를 활성화할 수 있습니다. 자세한 내용은 [시스템 업데이트 구성](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-현재 다음 개체에 대해 Beta 댓글 달기 환경을 사용하여 댓글을 달거나 업데이트에 답글을 달 수 있습니다.
+현재 다음 개체에 Beta 댓글 달기 환경을 사용하여 댓글을 추가하고 업데이트에 답글을 달 수 있습니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -111,39 +111,17 @@ ht-degree: 4%
      <li><p>목표</p>
      <p>목표에 대한 기본 경험입니다.</p>
      </li> 
-      </ul> </td> 
+     <li><span class="preview">프로젝트</span></li>
+     </ul> </td> 
    <td> 
     <ul> 
      <li>문제</li> 
+     <li><span class="preview">작업</span></li>
+     <li><span class="preview">문서</span></li>
      </ul> </td> 
   </tr> 
  </tbody> 
 </table>
-
-<!--replace table above with this: 
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> 
-    <ul> 
-     <li><p>Goals</p>
-     <p>This is the default experience for goals</p>
-     </li> 
-     <li><span class="preview">Projects</span></li>
-     </ul> </td> 
-   <td> 
-    <ul> 
-     <li>Issues</li> 
-     <li><span class="preview">Tasks</span></li>
-     <li><span class="preview">Documents</span></li>
-     </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
 
 ## 상위 등급 개체에도 표시되는 업데이트
 
@@ -151,17 +129,15 @@ ht-degree: 4%
 
 예를 들어 작업에 업데이트를 추가하면 해당 작업의 업데이트 섹션과 해당 작업이 포함된 프로젝트의 업데이트 섹션에 업데이트가 나타납니다.
 
-<!--
 >[!NOTE]
 >
->When enabling the new commenting Beta experience, comments display on the following higher-ranking objects and in the following environments: 
+>새 댓글 달기 Beta 경험을 활성화하면 다음 상위 오브젝트 및 다음 환경에 댓글이 표시됩니다.
 >
->* Issues, in the Preview and Production environments
->* <span class="preview">Projects and tasks, in the Preview environment</span>
+>* 문제
+>* <span class="preview">프로젝트</span>
+>* <span class="preview">작업</span>
 >
->For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
-
--->
+>자세한 내용은 [새 댓글 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 다음 표는 주석이 상위 객체에 표시되는 객체를 보여 줍니다.
 

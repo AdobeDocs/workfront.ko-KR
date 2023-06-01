@@ -6,10 +6,10 @@ description: Adobe Workfront 개체(프로젝트, 작업 또는 문제)에 업�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
 workflow-type: tm+mt
-source-wordcount: '3151'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리보기 환경에서만 사용할 수 있습니다.</span>
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ ht-degree: 1%
 >새 댓글 달기 환경에 대한 자세한 내용은 [새 댓글 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >다음 객체에 대한 새 경험에 액세스할 수 있습니다.
-> * 문제, <!--<span class="preview">projects, tasks, and documents</span>,--> 주석 Beta를 활성화하는 경우.
+> * 문제, <span class="preview">프로젝트, 작업 및 문서</span>: 주석 Beta를 활성화하는 경우.
    >
    >     이 기능은 업데이트 섹션에만 사용할 수 있으며 다음 영역에는 사용할 수 없습니다.
    >
@@ -193,7 +193,7 @@ drafted for P&P release:
 다음 **댓글** 기본적으로 탭이 선택되어 있습니다.
 1. 에 주석 입력 시작 **새 댓글** 상자.
 
-   ![](assets/comment-box-empty-unshimmed.png)
+   <span class="preview">![](assets/comment-box-empty-unshimmed.png)</span>
 
    >[!TIP]
    >
@@ -314,7 +314,7 @@ drafted for P&P release:
 1. (선택 사항) 추가 정보 소스에 URL 링크를 추가하려면 다음을 수행합니다.
 
    1. 링크를 삽입할 업데이트를 클릭합니다.
-   1. 다음에서 **리치 텍스트** 도구 모음에서 **하이퍼링크** 아이콘. ![](assets/link-icon.png)
+   1. 다음에서 **리치 텍스트** 도구 모음에서 **하이퍼링크** 아이콘 ![](assets/link-icon.png).
 
    1. 다음에서 **링크 만들기** 아래에 나타나는 상자 **URL**&#x200B;을(를) 클릭하거나 연결할 소스의 URL을 입력하거나 붙여넣습니다.
 

@@ -6,14 +6,18 @@ description: 작업 항목에 대한 시간을 Adobe Workfront(&n)에 기록하�
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: aa06f9443a3ac5682ee7ef88f82cb5aad9bfa385
 workflow-type: tm+mt
-source-wordcount: '3234'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # 로그 시간
+
+<!--remove all preview and production references from this article with 23.3 release-->
+
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리보기 환경에서만 사용할 수 있습니다.</span>
 
 Adobe Workfront에서 작업 항목에 대한 시간을 기록하여 작업에 소비한 시간을 나타낼 수 있습니다. 휴가, 병가, 회의 등 업무와 관련 없는 시간도 기록할 수 있다. 기록한 시간이 타임시트에 표시됩니다.
 
@@ -109,7 +113,7 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
 
 >[!NOTE]
 >
->타임시트 프로필에 할당된 검토 사용자에게 타임시트 탭이 표시되고 일반 시간이 기록됩니다. 하지만 타임시트에 표시되는 할당된 작업 또는 문제에 대해서는 시간을 기록할 수 없습니다.
+>타임시트 프로필에 할당된 검토 사용자에게 타임시트 영역이 표시되고 일반 시간이 기록됩니다. 하지만 타임시트에 표시되는 할당된 작업 또는 문제에 대해서는 시간을 기록할 수 없습니다.
 
 1. 다음을 클릭합니다. [!UICONTROL **메인 메뉴**] 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront 오른쪽 상단에 있습니다.
 
@@ -342,40 +346,32 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
 
 ### 프로젝트, 작업 또는 문제 {#project-task-or-issue}
 
-프로젝트, 작업 또는 문제에 프로젝트별 시간을 기록할 수 있습니다.
+다음 섹션에서 프로젝트, 작업 또는 문제에 대한 프로젝트별 시간을 기록할 수 있습니다.
 
-#### 시간 로깅에 필요한 권한
+* [업데이트 섹션](#updates-section)
+* [시간 섹션](#hours-section)
 
-프로젝트, 작업 또는 문제에 시간을 기록하려면 특정 권한이 있어야 합니다. 프로젝트, 작업 또는 문제의 두 위치에서 시간을 기록할 수 있습니다.
+#### 업데이트 섹션{#updates-section}
 
-* [업데이트 탭](#updates-tab)
-* [시간 탭](#hours-tab)
-
-##### 업데이트 탭{#updates-tab}
-
-<!--
+<!--remove the note below when we can log time for projects and tasks in production with the 23.3 release. Also, update the screen shot for the Enter Hours box-->
 
 >[!NOTE]
 >
->When enabling the new commenting Beta experience, logging time is available only for the following objects in the following environments:
+> 문제에 대한 시간을 기록할 수 있습니다. <span class="preview">프로젝트 및 작업</span> 업데이트 섹션에서 새 댓글 달기 Beta 경험을 활성화할 때.
 >
->* In the Preview and Production environments for issues. 
->* <span class="preview">In the Preview environment for tasks and projects.</span> 
->
->For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>자세한 내용은 [새 댓글 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
--->
+프로젝트, 작업 또는 문제의 업데이트 섹션에 시간을 기록하려면 다음 항목이 있어야 합니다.
 
-프로젝트, 작업 또는 문제의 업데이트 탭에 시간을 기록하려면 먼저 다음이 필요합니다.
-
-* 작업 또는 플랜 라이선스가 있어야 합니다.
-* 로그 시간에 액세스할 수 있는 프로젝트, 작업 또는 문제에 대해 적어도 기여 권한이 있어야 합니다.\
+* 작업 또는 플랜 라이선스.
+* 로그 시간에 대한 액세스 권한으로 프로젝트, 작업 또는 문제에 기여하거나 더 높은 권한을 부여합니다.\
    프로젝트에 대한 권한 부여에 대한 자세한 내용은 [Adobe Workfront에서 프로젝트 공유](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
-* 프로젝트에 직접 시간을 기록하려면 Workfront 관리자가 다음에서 프로젝트에 직접 시간 기록 설정을 활성화해야 합니다 [!UICONTROL **타임시트 및 시간** ]> [!UICONTROL **환경 설정**].\
+* Workfront 관리자는 다음에서 프로젝트에 직접 시간 기록 설정을 활성화해야 합니다. [!UICONTROL **타임시트 및 시간** ]> [!UICONTROL **환경 설정**]&#x200B;프로젝트에 직접 시간을 기록하려는 경우.
+
    사용자가 시간을 프로젝트에 직접 기록할 수 있도록 허용하는 방법에 대한 자세한 내용은 [타임시트 및 시간 환경 설정 구성](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-프로젝트, 작업 또는 문제의 업데이트 탭에 시간을 기록하려면 다음을 수행합니다.
+프로젝트, 작업 또는 문제의 업데이트 섹션에 시간을 기록하려면 다음 작업을 수행하십시오.
 
 1. 프로젝트, 작업 또는 문제로 이동합니다.
 1. 왼쪽 패널에서 을 선택합니다 **업데이트**.
@@ -403,22 +399,22 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
 
 1. 클릭 **로그 시간**.
 
-##### 시간 탭{#hours-tab}
+#### 시간 섹션{#hours-section}
 
-프로젝트, 작업 또는 문제의 시간 탭에 시간을 기록하려면 먼저 다음이 필요합니다.
+시간 섹션에 프로젝트, 작업 및 문제에 대한 시간을 기록하려면 Workfront 관리자여야 합니다.
 
-* 시스템 관리자여야 합니다.
+또는
 
-또는 다음을 모두 포함해야 합니다.
+다음 항목이 모두 있어야 합니다.
 
-* 타임시트 및 시간에 대한 관리 액세스 권한이 있는 플랜 라이선스가 있어야 합니다. 타임시트 및 시간에 대한 관리 액세스 권한을 부여하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [사용자에게 특정 영역에 대한 관리 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
-* 로그 시간에 액세스할 수 있는 프로젝트에 대해 적어도 기여 권한이 있어야 합니다. 프로젝트에 대한 권한 부여에 대한 자세한 내용은 [Adobe Workfront에서 프로젝트 공유](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+* 타임시트 및 시간에 대한 관리 액세스 권한이 있는 플랜 라이선스. 타임시트 및 시간에 대한 관리 액세스 권한을 부여하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [사용자에게 특정 영역에 대한 관리 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+* 로그 시간에 액세스할 수 있는 프로젝트에 대한 또는 더 높은 권한을 제공하십시오. 프로젝트에 대한 권한 부여에 대한 자세한 내용은 [Adobe Workfront에서 프로젝트 공유](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 * 프로젝트에 직접 시간을 기록하려면 Workfront 관리자가 타임시트 및 시간 > 환경 설정에서 프로젝트에 직접 시간 기록 설정을 활성화해야 합니다. 사용자가 시간을 프로젝트에 직접 기록할 수 있도록 허용하는 방법에 대한 자세한 내용은 [타임시트 및 시간 환경 설정 구성](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-프로젝트, 작업 또는 문제의 시간 탭에 시간을 기록하려면 다음을 수행합니다.
+프로젝트, 작업 또는 문제의 시간 섹션에 시간을 기록하려면 다음을 수행하십시오.
 
 1. 프로젝트, 작업 또는 문제로 이동합니다.
-1. 왼쪽 패널에서 을 선택합니다 **시간**.
+1. 왼쪽 패널에서 **시간**.
 1. 클릭 **로그 시간**.
 
    로그 시간 대화 상자가 표시됩니다.
