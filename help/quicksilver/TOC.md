@@ -2,9 +2,9 @@
 user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 feature-set: Workfront
-source-git-commit: 09e93cafc549eeb466668000ed5e879c2cf963e0
+source-git-commit: 561ceb9f22e61527fd3303b1e76585ed885039ff
 workflow-type: tm+mt
-source-wordcount: '13012'
+source-wordcount: '13059'
 ht-degree: 1%
 
 ---
@@ -1722,6 +1722,17 @@ ht-degree: 1%
       * [승인 요청 위임](review-and-approve-work/manage-approvals/delegate-approval-requests.md)
       * [신규 또는 기존 승인 프로세스를 작업과 연결](review-and-approve-work/manage-approvals/associate-approval-with-work.md)
       * [제출된 승인 회수](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
+   * 문서 검토 및 승인 {#document-reviews-and-approvals}
+      * [문서 검토 및 승인](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
+      * 문서 승인 관리 {#manage-document-approvals}
+         * [문서 승인 관리](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-document-approvals.md)
+         * [문서 승인 만들기](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+         * [문서에 추가 검토자 또는 승인자 추가](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
+         * [문서에서 승인자 또는 검토자 제거](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
+      * 문서 검토 및 승인 {#review-and-approve-documents}
+         * [문서 검토 및 승인](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-and-approve-documents.md)
+         * [문서 검토](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
+         * [문서 승인](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
    * 증명 {#proofing}
       * [증명](review-and-approve-work/proofing/proofing.md)
       * 증명 개요 {#proofing-overview}
