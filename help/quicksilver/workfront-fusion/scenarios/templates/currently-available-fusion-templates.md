@@ -3,68 +3,72 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: 현재 사용 가능한 Adobe Workfront Fusion 템플릿
-description: 현재 Adobe Workfront Fusion에서는 다음 공개 템플릿을 사용할 수 있습니다.
+description: 현재 Adobe Workfront Fusion에서 사용할 수 있는 공용 템플릿은 다음과 같습니다.
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: f0ab9a14fc397b36c5e3dffe07306ebc43e76500
+source-git-commit: b87a3777fb3f3c873a197eea1ffb051cec50aa93
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
 
 # 현재 사용 가능한 Adobe Workfront Fusion 템플릿
 
-현재 Adobe Workfront Fusion에서는 다음 공개 템플릿을 사용할 수 있습니다.
+현재 Adobe Workfront Fusion에서 사용할 수 있는 공용 템플릿은 다음과 같습니다.
 
-팀이나 조직에 다른 팀이 만든 템플릿을 사용할 수 있습니다.
+팀이나 조직에 다른 팀에서 만든 템플릿을 사용할 수 있습니다.
 
-사용 가능한 템플릿을 보려면 **템플릿** 아이콘 ![](assets/fusion-template-icon.png) 를 클릭합니다.
+사용 가능한 템플릿을 보려면 **템플릿** 아이콘 ![](assets/fusion-template-icon.png) 측면 탐색 메뉴에서 을 선택합니다.
 
 ## Workfront 템플릿
 
-이러한 템플릿은 Workfront 프로세스 및 워크플로우를 자동화합니다.
+이러한 템플릿은 Workfront 프로세스 및 워크플로를 자동화합니다.
 
-### Workfront - 승인된 문제를 프로젝트로 변환
+### Workfront - 프로그램 사용자 지정 Forms 및 필드 데이터를 연결된 새 프로젝트에 복사
+
+이 자동화는 사용자 정의 양식이 있는 프로그램의 새 프로젝트를 감시합니다. 그런 다음 해당 프로그램 사용자 정의 양식 및 필드를 새 프로젝트에 추가합니다.
+
+### Workfront - 승인된 문제를 프로젝트로 전환
 
 이 템플릿은 문제를 프로젝트로 변환합니다. 조직의 표준에 맞게 수정할 수 있습니다.
 
-### 필드 변경에 따른 맞춤형 통지
+### 필드 변경에 따른 맞춤 알림
 
-이 템플릿은 필드 값의 변경과 같은 일부 고유한 이벤트를 기반으로 Workfront 프로젝트를 작업하는 개인에게 맞춤 업데이트(및 관련 알림)를 만듭니다. 시나리오는 작업 또는 문제와 관련하여 지정된 필드가 변경되는 시점을 Workfront에 알립니다. 시나리오가 발생하면 관련 프로젝트의 정보를 평가하고 프로젝트에서 특정 역할에 지정된 사용자에 대해 맞춤 업데이트를 만듭니다.
+이 템플릿은 필드 값 변경과 같은 일부 고유 이벤트를 기반으로 Workfront 프로젝트에서 작업하는 개인에게 맞춤 업데이트(및 관련 알림)를 만듭니다. 시나리오는 작업 또는 문제에서 지정된 필드가 변경될 때 Workfront을 감시합니다. 이 경우 시나리오에서는 관련 프로젝트의 정보를 평가하고 프로젝트의 특정 역할에 할당된 사용자에 대한 맞춤 업데이트를 만듭니다.
 
-### Workfront - 규칙을 사용하여 프로젝트 이름에 벌크 추가
+### Workfront - 규칙을 사용하여 프로젝트 이름에 일괄 추가
 
-이 벌크 업데이트 템플릿은 검색 기준을 충족하는 모든 프로젝트의 이름을 변경하고 표준 형식으로 이름을 바꿉니다.
+이 벌크 업데이트 템플릿은 검색 기준을 충족하는 모든 프로젝트(포트폴리오 내에 포함)의 이름을 바꾸고 표준 형식으로 변경합니다.
 
 ### Workfront - 규칙을 사용하여 프로젝트 이름 변경
 
-이 템플릿은 필터의 기준을 충족하는 모든 프로젝트를 찾아서 표준 형식으로 이름을 변경합니다.
+이 템플릿은 필터(포트폴리오 내에 있음)의 기준을 충족하는 모든 프로젝트를 찾은 다음 표준 형식으로 이름을 바꿉니다.
 
-### Workfront - 상태 변경에 대한 베이스라인 만들기
+### Workfront - 상태 변경 시 기준선 만들기
 
-이 템플릿은 &quot;스위치&quot; 모듈에 언급된 프로젝트 상태 변경 사항에 따라 프로젝트 베이스라인을 캡처하고 로깅을 위한 업데이트 스트림에 업데이트를 만듭니다.
+이 템플릿은 &quot;스위치&quot; 모듈에 기록된 프로젝트 상태 변경 시 프로젝트 베이스라인을 캡처하고 로깅을 위해 업데이트 스트림에 업데이트를 만듭니다.
 
-### Workfront - 매주 기준 작성
+### Workfront - 주별 기준선 만들기
 
-이 템플릿은 매주 월요일 오전 6시(포트폴리오로 필터링된 프로젝트에서 기준)에 프로젝트 베이스라인을 캡처하고, 로깅을 위한 업데이트 스트림에 업데이트를 만듭니다.
+이 템플릿은 포트폴리오로 필터링된 프로젝트에 대해 매주 월요일 오전 6시(ET 기준)에 프로젝트 기준선을 캡처하고 로깅을 위해 업데이트 스트림에 업데이트를 만듭니다.
 
-### 정책 시간에 사용되지 않는 프로젝트 템플릿 찾기 및 알림
+### 정책 시간에 사용되지 않는 프로젝트 템플릿을 찾아 알림
 
-한 달에 한 번, 정책을 위반하여 템플릿에 대해 적절한 사용자에게 알리는 템플릿을 관리하기 쉬운 방식으로 고유한 정책을 사용하여 프로젝트 템플릿을 검토합니다.
+한 달에 한 번, 자체 정책을 사용하여 프로젝트 템플릿을 검토하십시오. 이를 통해 손쉽게 관리할 수 있습니다. 템플릿을 사용하면 정책을 위반하는 템플릿에 대해 적절한 사용자에게 알릴 수 있습니다.
 
 ## Workfront - Workfront 증명 템플릿
 
-이러한 템플릿은 Workfront과 Workfront Proof를 결합한 워크플로우를 자동화합니다.
+이러한 템플릿은 Workfront과 Workfront Proof를 결합하는 워크플로를 자동화합니다.
 
 ### Workfront 증명 > Workfront - 증명 결정에 대한 프로젝트 업데이트
 
-프로젝트에 직접 추가된 증표에 대해 결정을 내리면 이 자동화는 결정을 한 사람과 같은 증명 결정에 대한 정보를 수집한 다음 해당 Workfront 프로젝트의 이 진행 상황을 업데이트로 반영합니다.
+프로젝트에 직접 추가된 Proof에 대한 결정이 내려지면 이 자동화는 결정 주체 등 Proof 결정에 대한 정보를 수집한 다음 해당 Workfront 프로젝트에 이 진행 상황을 업데이트로 반영합니다.
 
 ### Workfront 증명 > Workfront - 증명 결정에 대한 작업 업데이트 및 완료(승인된 경우)
 
-개별 증명에 개별 작업을 연결할 경우, 이 시나리오는 증명에 대한 승인 결정이 있을 때 관련 작업을 닫습니다. 승인되면 작업이 완료되고 프로젝트가 업데이트됩니다.
+개별 증명이 개별 작업에 연결된 경우 이 시나리오는 증명에 대한 승인 결정이 내려지면 관련 작업을 닫습니다. 승인되면 작업이 완료되고 프로젝트가 업데이트됩니다.
 
 ## HTTP - Workfront 템플릿
 
@@ -72,34 +76,34 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 이 섹션에서 템플릿을 사용하려면 작업 자동화 및 통합을 위한 Workfront Fusion 라이센스가 있어야 합니다.
+> 이 섹션의 템플릿을 사용하려면 작업 자동화 및 통합용 Workfront Fusion 라이선스가 있어야 합니다.
 
-### APILayer > Workfront - 일별 환율 업데이트(EUR)
+### APILayer > Workfront - 일일 환율 업데이트 (EUR)
 
-이 템플릿은 특정 시점의 환율 업데이트를 자동화하는 시나리오를 만듭니다. 이 시나리오는 APIlayers.com API에서 유로(EUR) 비율을 미국 달러(USD)로 가져오고 Workfront의 비율을 업데이트합니다.
+이 템플릿은 설정된 시점의 환율 업데이트를 자동화하는 시나리오를 만듭니다. 이 시나리오는 APIlayers.com API에서 유로(EUR) ~ 미국 달러(USD) 요금을 가져오고 Workfront에서 요금을 업데이트합니다.
 
-## Workfront-안압란 템플릿
+## Workfront-아나플란 틀
 
-이러한 템플릿은 Workfront-Anaplan 통합을 지원하며 Workfront의 Anaplan 모두에서 특정 구성을 예상할 수 있습니다. 이러한 템플릿 및 필요한 구성에 대한 자세한 내용은 개별 템플릿에 대한 문서를 참조하십시오.
+이러한 템플릿은 Workfront-Anaplan 통합을 지원하며 Workfront의 두 Anaplan 모두에서 특정 구성을 예상합니다. 이러한 템플릿 및 필수 구성에 대한 자세한 내용은 개별 템플릿 문서를 참조하십시오.
 
-Workfront-Anaplan 통합에 대한 자세한 내용은 다음을 참조하십시오 [Adobe Workfront 및 안팔란](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md).
+Workfront-Anaplan 통합에 대한 자세한 내용은 [Adobe Workfront과 Anaplan](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md).
 
 >[!NOTE]
 >
-> 이 섹션에서 템플릿을 사용하려면 작업 자동화 및 통합을 위한 Workfront Fusion 라이센스가 있어야 합니다.
+> 이 섹션의 템플릿을 사용하려면 작업 자동화 및 통합용 Workfront Fusion 라이선스가 있어야 합니다.
 
-### 비용 최적화 워크플로우
+### 지출 최적화 워크플로우
 
-* [보내기 [!DNL Adobe Workfront] 프로젝트 업데이트 [!DNL Anaplan] 목록 항목](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
-* [보내기 [!DNL Adobe Workfront] 비용 [!DNL Anaplan] 목록 항목](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)
-* [보내기 [!DNL Adobe Workfront] 실제 시간 업데이트 [!DNL Anaplan] 목록 항목](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
+* [보내기 [!DNL Adobe Workfront] 프로젝트 업데이트: [!DNL Anaplan] 목록 항목](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
+* [보내기 [!DNL Adobe Workfront] 에 대한 경비 [!DNL Anaplan] 목록 항목](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)
+* [보내기 [!DNL Adobe Workfront] 에 대한 실제 시간 업데이트 [!DNL Anaplan] 목록 항목](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
 
-### 예산 요청 연결 워크플로우
+### 예산 요청 연결을 위한 워크플로
 
-* [만들기 [!DNL Anaplan] 목록 항목 [!DNL Adobe Workfront] 예산 요청](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
-* [적용 [!DNL Anaplan] 에 예산 할당 [!DNL Adobe Workfront] 프로젝트](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
+* [만들기 [!DNL Anaplan] 의 목록 항목 [!DNL Adobe Workfront] 예산 요청](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
+* [적용 [!DNL Anaplan] 에 대한 예산 할당 [!DNL Adobe Workfront] 프로젝트](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
 
 ### 캠페인 요청 연결을 위한 워크플로우
 
-* [만들기 [!DNL Anaplan] 목록 항목 [!DNL Adobe Workfront] 캠페인 요청](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
-* [적용 [!DNL Anaplan] 에 예산 할당 [!DNL Adobe Workfront] 캠페인 요청 또는 캠페인 프로젝트](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
+* [만들기 [!DNL Anaplan] 의 목록 항목 [!DNL Adobe Workfront] 캠페인 요청](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
+* [적용 [!DNL Anaplan] 에 대한 예산 할당 [!DNL Adobe Workfront] 캠페인 요청 또는 캠페인 프로젝트](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
