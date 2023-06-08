@@ -6,7 +6,7 @@ description: 누군가 작업 개체에 대한 업데이트를 추가하거나 �
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 66e843ea0430a86b89b68f6f469763f5e4a348d7
+source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
 workflow-type: tm+mt
 source-wordcount: '1164'
 ht-degree: 1%
@@ -29,13 +29,13 @@ ht-degree: 1%
 >
 >* 문제, <span class="preview">프로젝트, 작업 및 문서</span>.
 >
->  댓글 달기 Beta 경험을 활성화하면 사용할 수 있습니다.
+>     댓글 달기 Beta 경험을 활성화하면 사용할 수 있습니다.
 >
->  이 기능은 업데이트 섹션에만 사용할 수 있으며 다음 영역에는 사용할 수 없습니다.
+>     이 기능은 업데이트 섹션에만 사용할 수 있으며 다음 영역에는 사용할 수 없습니다.
 >
->  * 홈
->  * 목록의 요약 패널
->  * 타임시트의 요약 패널
+>     * 홈
+>     * 목록의 요약 패널
+>     * 타임시트의 요약 패널
 >
 >* 목표
 >

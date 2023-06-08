@@ -6,9 +6,9 @@ description: 작업 항목에 대한 시간을 Adobe Workfront(&n)에 기록하�
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: aa06f9443a3ac5682ee7ef88f82cb5aad9bfa385
+source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '3336'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ Workfront에 로그인할 수 있는 시간 유형에 대한 자세한 내용은
 
 * 프로젝트, 작업 또는 문제에 시간을 기록하거나 타임시트에 직접 시간을 기록할 수 있습니다.
 
-   타임시트 만들기에 대한 자세한 내용은 [일회용 타임시트 만들기](../../timesheets/create-and-manage-timesheets/create-tmshts.md).
+  타임시트 만들기에 대한 자세한 내용은 [일회용 타임시트 만들기](../../timesheets/create-and-manage-timesheets/create-tmshts.md).
 
 * 타임시트 이외의 도구를 통해 기록된 모든 시간이 해당 기간의 타임시트에 표시됩니다.
 * 현재 상태가 아닌 프로젝트의 작업 및 문제는 타임시트에 미리 채워지지 않습니다.
@@ -108,6 +108,9 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
 * [모바일 앱](#mobile-app)
 
 ### 타임시트 {#timesheet}
+
+
+#### 타임시트에 시간 기록 {#log-time-on-a-timesheet}
 
 타임시트에 일반 시간 또는 프로젝트별 시간을 기록할 수 있습니다.
 
@@ -169,12 +172,11 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
    >
    >   표준 QWERTY 키보드를 사용할 때 타임시트에서 프로젝트 이름을 클릭한 후 다음 키 세트를 눌러 프로젝트를 축소하거나 확장합니다.
    >   * 프로젝트를 확장하고 작업 항목을 표시하려면 다음을 수행합니다.
-      >     * Windows 컴퓨터의 경우 Shift + Alt + 위쪽 화살표
-      >     * Mac 컴퓨터의 Shift + Option + 위쪽 화살표
+   >     * Windows 컴퓨터의 경우 Shift + Alt + 위쪽 화살표
+   >     * Mac 컴퓨터의 Shift + Option + 위쪽 화살표
    >   * 프로젝트를 축소하고 작업 항목을 숨기려면 다음을 수행합니다.
-      >     * Windows 컴퓨터의 경우 Shift + Alt + 아래쪽 화살표
-      >     * Mac 컴퓨터의 Shift + Option + 아래쪽 화살표
-
+   >     * Windows 컴퓨터의 경우 Shift + Alt + 아래쪽 화살표
+   >     * Mac 컴퓨터의 Shift + Option + 아래쪽 화살표
 
 
 1. (선택 사항) 타임시트에 표시되는 항목을 수동으로 고정하려면 항목의 이름을 마우스로 가리킨 다음, **핀** 아이콘 ![](assets/empty-pin-icon.png).
@@ -185,26 +187,7 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
    >   * Windows 및 Mac 컴퓨터 모두에 대해 Option + P입니다.
 
 
-
 1. (선택 사항) 검색 아이콘을 클릭합니다 ![](assets/search-icon.png) 타임시트에서 프로젝트, 작업 또는 문제를 찾으려면 키워드를 입력하십시오.
-
-1. (선택 사항) 항목을 수동으로 추가한 경우(단계 3-6에 설명된 대로), 항목을 고정 해제하여 아직 시간을 기록하지 않은 경우 타임시트에서 항목(프로젝트, 작업 또는 문제)을 제거할 수 있습니다. <!--ensure this stays accurate-->
-
-   타임시트를 미리 채우도록 구성된(에 설명된 대로) Workfront 시스템 또는 그룹의 타임시트 환경 설정에 따라 타임시트에 포함된 항목을 자동으로 제거할 수 없습니다 [타임시트 및 시간 환경 설정 구성](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
-
-   수동으로 추가된 타임시트에서 항목을 제거하려면 다음 작업을 수행하십시오.
-
-   1. 항목에 대해 기록된 시간이 없는지 확인합니다.
-   1. 다음을 클릭합니다. **고정 해제** 아이콘 ![항목 고정](assets/pin-icon.png) 타임시트에서 항목을 고정 해제할 항목 옆에 있습니다.
-
-   >[!TIP]
-   >
-   >   타임시트에서 항목을 클릭한 후 표준 QWERTY 키보드를 사용할 때 다음 키 세트를 눌러 항목을 고정 해제합니다.
-   >   * Windows 및 Mac 컴퓨터 모두에 대해 Option + P입니다.
-
-
-
-   이 항목은 페이지를 새로 고친 후 타임시트에서 제거됩니다.
 
 1. (조건부) Workfront 또는 그룹 관리자가 **시간 항목에 수동으로 작업 역할 할당** 을 설정하고 드롭다운 메뉴에서 작업 역할을 선택합니다. 작업 항목에 할당할 때 지정된 역할이 기본적으로 표시됩니다. 오브젝트에 역할이 할당되지 않은 경우 기본 역할이 기본값으로 표시됩니다. 이 설정에 대한 자세한 내용은 문서를 참조하십시오 [타임시트 및 시간 환경 설정 구성](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
@@ -220,7 +203,6 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
    >   운영 체제나 브라우저에 따라 표준 QWERTY 키보드를 사용할 때는 다음 키 세트를 눌러 다른 행을 추가합니다.
    >   * Windows 컴퓨터의 경우 Ctrl + Option + +
    >   * Mac 컴퓨터의 Cmd + Option + +
-
 
    에 설명된 대로 시스템, 프로젝트 및 사용자 수준에서 정의된 내용에 따라 시간 유형을 사용할 수 있습니다. [타임시트의 시간 유형 및 가용성 정의](define-hour-types-and-availability.md).
 
@@ -241,7 +223,6 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
    >   * Cmd + Option + - Mac 컴퓨터
 
 
-
 1. 타임시트의 타임라인 섹션에서 특정 날짜에 로그인할 시간을 지정한 다음 시간 상자 외부를 클릭하여 시간 항목을 저장합니다. 시간이 자동으로 저장됩니다. 시간을 기록하는 행은 연한 파란색으로 강조 표시되고 시간 항목 상자는 진한 파란색으로 윤곽이 표시됩니다.
 
    ![타임시트에 시간 상자 기록](assets/log-time-with-blue-hightlight-redesigned-timesheet.png)
@@ -253,12 +234,13 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
    >다음 시나리오 중 하나가 발생하는 경우 타임시트를 수동으로 저장해야 합니다.
    >
    >* 이전에 기록한 시간과 연관된 작업 역할이 변경되었으며 **시간 항목에 수동으로 작업 역할 할당** 설정이 비활성화되었습니다. 새 날짜에 대한 로깅 시간은 다른 작업 역할과 연결됩니다.
-      >   
-      >   역할이 변경되고 **시간 항목에 수동으로 작업 역할 할당** 설정이 활성화되면 시간을 기록하거나 역할을 업데이트할 수 있으며 변경 사항이 자동으로 저장됩니다.
+   >   
+   >   역할이 변경되고 **시간 항목에 수동으로 작업 역할 할당** 설정이 활성화되면 시간을 기록하거나 역할을 업데이트할 수 있으며 변경 사항이 자동으로 저장됩니다.
    >
    >* 작업 또는 문제에 할당된 작업 역할이 타임시트 소유자가 시간을 기록하는 작업 역할과 다릅니다. <!--or assigned to them_ this last  piece came from a Support note but but sure what role it's referring to. Leaving it out for now.-->.
    >
    >두 역할 간에 충돌하는 항목이 더 이상 없을 때 타임시트가 다시 시간을 자동으로 절약합니다.
+   >
 
 1. (선택 사항) 타임시트 헤더의 초과 근무 필드에 초과 근무 금액을 지정합니다.
 
@@ -275,7 +257,6 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
    >   시간 입력 상자를 클릭한 후 표준 QWERTY 키보드를 사용할 때 다음 키 세트를 눌러 주석 상자를 엽니다.
    >   * Windows 및 Mac 컴퓨터 모두에 대해 Shift + F2를 누릅니다.
 
-
 1. 클릭 **완료** 주석을 저장합니다.
 
    >[!TIP]
@@ -283,7 +264,6 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
    >   표준 QWERTY 키보드를 사용할 때 주석 상자 내에서 다음 키 세트를 눌러 주석을 저장합니다.
    >   * Windows 컴퓨터의 경우 Ctrl + Enter를 누릅니다.
    >   * Cmd + Mac 컴퓨터용 Return
-
 
 
 1. (선택 사항) **댓글 표시** 을 클릭하여 작업 항목 아래에 시간 입력 설명을 표시합니다.
@@ -317,6 +297,7 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
    * **거부**: 이 옵션은 타임시트 승인자이고 타임시트가 승인을 위해 제출되었을 때 표시됩니다. 타임시트의 상태가 거부됨으로 변경되고 타임시트는 열린 상태로 유지됩니다.
 
    * **승인**: 이 옵션은 타임시트 승인자이고 타임시트가 승인을 위해 제출되었을 때 표시됩니다. 타임시트의 상태를 승인됨으로 변경하고 타임시트를 닫습니다.
+
    >[!TIP]
    >
    >시스템 관리자이고 타임시트가 승인자와 연결된 경우 거부 및 승인 옵션도 타임시트에 표시됩니다.
@@ -325,6 +306,33 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
 
    * **다시 열기**: 이 옵션은 이미 닫았으며 승인자가 없는 타임시트 또는 이미 승인된 타임시트에 사용할 수 있습니다. 시간 항목을 수정하려면 타임시트를 다시 엽니다.
    * **회수**: 이 옵션은 승인을 위해 제출되었지만 아직 승인 또는 거부되지 않은 타임시트에 사용할 수 있습니다. 클릭 **회수** 타임시트를 다시 열고 시간 항목을 수정합니다.
+
+#### 타임시트에서 항목 제거
+
+타임시트에서 시간 항목 또는 항목(프로젝트, 작업 또는 문제)을 제거할 수 있습니다.
+
+타임시트에서 시간 항목을 제거하려면 다음 작업을 수행하십시오.
+
+1. 타임시트로 이동하여 제거할 시간 항목을 찾습니다.
+1. 입력한 시간을 0으로 바꾸거나 시간을 제거하고 0으로 바꾼 다음 Enter 키를 누릅니다.
+
+   시간이 제거되고 타임시트가 자동으로 저장됩니다.
+
+아직 시간 기록이 없고 의 4-8단계에 설명된 대로 항목을 수동으로 추가한 경우 타임시트를 고정 해제하여 항목(프로젝트, 작업 또는 문제)을 타임시트에서 제거할 수 있습니다. [타임시트에 시간 기록](#log-time-on-a-timesheet) 섹션 참조). <!--ensure this stays accurate-->
+
+타임시트를 미리 채우도록 구성된(에 설명된 대로) Workfront 시스템 또는 그룹의 타임시트 환경 설정에 따라 타임시트에 포함된 항목을 자동으로 제거할 수 없습니다 [타임시트 및 시간 환경 설정 구성](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)). 항목의 날짜가 타임시트의 시간 범위를 벗어나는 경우 항목 미리 채우기가 중지됩니다.
+
+수동으로 추가된 타임시트에서 항목을 제거하려면 다음 작업을 수행하십시오.
+
+1. 항목에 대해 기록된 시간이 없는지 확인합니다.
+1. 다음을 클릭합니다. **고정 해제** 아이콘 ![항목 고정](assets/pin-icon.png) 타임시트에서 항목을 고정 해제할 항목 옆에 있습니다.
+
+   >[!TIP]
+   >
+   >   타임시트에서 항목을 클릭한 후 표준 QWERTY 키보드를 사용할 때 다음 키 세트를 눌러 항목을 고정 해제합니다.
+   > * Windows 및 Mac 컴퓨터 모두에 대해 Option + P입니다.
+
+   이 항목은 페이지를 새로 고친 후 타임시트에서 제거됩니다.
 
 ### 홈 {#home}
 
@@ -365,11 +373,11 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
 
 * 작업 또는 플랜 라이선스.
 * 로그 시간에 대한 액세스 권한으로 프로젝트, 작업 또는 문제에 기여하거나 더 높은 권한을 부여합니다.\
-   프로젝트에 대한 권한 부여에 대한 자세한 내용은 [Adobe Workfront에서 프로젝트 공유](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+  프로젝트에 대한 권한 부여에 대한 자세한 내용은 [Adobe Workfront에서 프로젝트 공유](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
-* Workfront 관리자는 다음에서 프로젝트에 직접 시간 기록 설정을 활성화해야 합니다. [!UICONTROL **타임시트 및 시간** ]> [!UICONTROL **환경 설정**]&#x200B;프로젝트에 직접 시간을 기록하려는 경우.
+* Workfront 관리자는 다음에서 프로젝트에 직접 시간 기록 설정을 활성화해야 합니다. [!UICONTROL **타임시트 및 시간**]> [!UICONTROL **환경 설정**]&#x200B;프로젝트에 직접 시간을 기록하려는 경우.
 
-   사용자가 시간을 프로젝트에 직접 기록할 수 있도록 허용하는 방법에 대한 자세한 내용은 [타임시트 및 시간 환경 설정 구성](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+  사용자가 시간을 프로젝트에 직접 기록할 수 있도록 허용하는 방법에 대한 자세한 내용은 [타임시트 및 시간 환경 설정 구성](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 프로젝트, 작업 또는 문제의 업데이트 섹션에 시간을 기록하려면 다음 작업을 수행하십시오.
 
@@ -391,7 +399,7 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
 
    * **시간 유형**: 기본적으로 표시되는 시간 유형과 다른 경우 드롭다운 메뉴에서 시간 유형을 선택합니다.
 
-      시스템에 구성된 시간 유형에 따라 여기 옵션이 다를 수 있습니다. 시간 유형 구성에 대한 자세한 내용은 [타임시트의 시간 유형 및 가용성 정의](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+     시스템에 구성된 시간 유형에 따라 여기 옵션이 다를 수 있습니다. 시간 유형 구성에 대한 자세한 내용은 [타임시트의 시간 유형 및 가용성 정의](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
    * **작업 역할**: (조건부) Workfront 또는 그룹 관리자가 **시간 항목에 수동으로 작업 역할 할당** 설정, 선택 **작업 역할** 드롭다운 메뉴에서 을(를) 선택합니다. 객체에 지정될 때 지정된 역할이 기본적으로 표시됩니다. 오브젝트에 역할이 할당되지 않은 경우 기본 역할이 기본값으로 표시됩니다. 이 설정에 대한 자세한 내용은 문서를 참조하십시오 [타임시트 및 시간 환경 설정 구성](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
@@ -422,16 +430,16 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
 1. 다음 정보를 지정합니다.
 
    * **소유자:** 기본적으로 이름이 이 필드에 표시됩니다.\
-      다른 사용자의 시간을 기록하는 경우 해당 이름을 지정합니다.
+     다른 사용자의 시간을 기록하는 경우 해당 이름을 지정합니다.
 
    * **시간**: 프로젝트, 작업 또는 문제의 시간 수를 입력합니다.
    * **시간 유형**: 기본적으로 표시되는 시간 유형과 다른 경우 드롭다운 메뉴에서 시간 유형을 선택합니다.
 
-      시스템에 구성된 시간 유형에 따라 여기 옵션이 다를 수 있습니다. 시간 유형 구성에 대한 자세한 내용은 [타임시트의 시간 유형 및 가용성 정의](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+     시스템에 구성된 시간 유형에 따라 여기 옵션이 다를 수 있습니다. 시간 유형 구성에 대한 자세한 내용은 [타임시트의 시간 유형 및 가용성 정의](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
    * **작업 역할**: (조건부) Workfront 또는 그룹 관리자가 **시간 항목에 수동으로 작업 역할 할당** 설정, 선택 **작업 역할** 드롭다운 메뉴에서 을(를) 선택합니다. 객체에 지정될 때 지정된 역할이 기본적으로 표시됩니다. 오브젝트에 역할이 할당되지 않은 경우 기본 역할이 기본값으로 표시됩니다. 이 설정에 대한 자세한 내용은 문서를 참조하십시오 [타임시트 및 시간 환경 설정 구성](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-      ![Screen_Shot_2017-05-03_at_10.16.52_AM.png](assets/screen-shot-2017-05-03-at-10.16.52-am-350x346.png)
+     ![Screen_Shot_2017-05-03_at_10.16.52_AM.png](assets/screen-shot-2017-05-03-at-10.16.52-am-350x346.png)
 
 1. 클릭 **시간 기록**.
 
