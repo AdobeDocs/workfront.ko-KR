@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 616bca509b87fbd746132c2eeb5130e0b7789c47
+source-git-commit: 8bcc2859b3b6ce7a264c8f234536a93b7761ab6b
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1212'
 ht-degree: 0%
 
 ---
@@ -105,9 +105,7 @@ ht-degree: 0%
 
 #### 클러스터 1, 2, 3 및 5의 계정에 대한 미리보기 샌드박스 액세스 {#accessing-the-preview-sandbox-for-accounts-on-cluster-1-2-3-and-5}
 
-지금까지 로 이동하여 미리보기 샌드박스에 액세스했습니다 [https://companyname.attasksandbox.com/](https://www.google.com/url?q=https%3A%2F%2Fcompanyname.attasksandbox.com%2F&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNGTfPKCDnAylzkclNwdSuEXksLFRg).
-
-이 URL은 더 이상 지원되지 않으며 미리보기 샌드박스 환경의 새 URL로 리디렉션되지 않았습니다. 미리보기 샌드박스에 대한 새 올바른 URL은 다음과 같습니다. [https://companyname.preview.workfront.com/](https://www.google.com/url?q=https%3A%2F%2Fcompanyname.preview.workfront.com%2F&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNFZQYw9VWjr2tuvQLfSJHneqJj_PQ).
+미리보기 샌드박스의 URL은 다음과 같습니다. `https://companyname.preview.workfront.com/`.
 
 >[!NOTE]
 >
@@ -115,7 +113,7 @@ ht-degree: 0%
 
 URL을 사용하여 미리보기 샌드박스에 로그인하려면 다음과 같이 하십시오.
 
-1. 다음 URL로 이동합니다. [[!DNL https]://companyname.preview.workfront.com/](https://companyname.preview.workfront.com/)
+1. 다음 URL로 이동합니다. `https://companyname.preview.workfront.com/`.
 
    EMEA 고객이고 계정이 Cluster 4에 있는 경우 섹션을 참조하십시오 [클러스터 4(EMEA 계정)의 계정에 대한 샌드박스 미리 보기 액세스](#accessing-the-preview-sandbox-for-accounts-on-cluster-4-emea-accounts) 이 문서에서.
 
