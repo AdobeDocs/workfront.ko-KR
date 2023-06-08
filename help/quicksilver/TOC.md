@@ -2,7 +2,7 @@
 user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 feature-set: Workfront
-source-git-commit: 0d5f0df35136f3a643b2c7a6cfe1c2377671352f
+source-git-commit: 1536d7425b5c5d3c676ff0c8c6a2a9531690ac3e
 workflow-type: tm+mt
 source-wordcount: '13064'
 ht-degree: 1%
@@ -352,9 +352,9 @@ ht-degree: 1%
          * [사용자 지정 SMTP를 보내는 전자 메일 옵션으로 제거](product-announcements/announcements/announcement-archive/remove-custom-smtp.md)
    * 베타 프로그램 {#beta}
       * [베타 프로그램](product-announcements/betas/betas.md)
-      * 보고 캔버스 베타 {#reporting-canvas-beta}
-         * [보고 캔버스 베타 개요](product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md)
-         * [보고 캔버스 Beta: 릴리스 활동](product-announcements/betas/reporting-canvas-beta/reporting-canvas-release-activity.md)
+      * 캔버스 대시보드 베타 {#canvas-dashboards-beta}
+         * [보고 캔버스 베타 개요](product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)
+         * [캔버스 대시보드 베타: 릴리스 활동](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md)
       * 새 댓글 달기 경험 Beta {#new-commenting-experience-beta}
          * [새 댓글 달기 Beta 경험 정보](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
          * [새 댓글 달기 환경](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)

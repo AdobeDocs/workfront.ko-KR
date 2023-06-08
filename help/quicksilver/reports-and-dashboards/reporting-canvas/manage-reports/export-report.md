@@ -5,7 +5,7 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: bd9e2e6f-338e-4cfc-aee5-6de6ecff4f09
-source-git-commit: edad50a392c2d7c474a725254486588b09a12a65
+source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 1%
@@ -14,29 +14,29 @@ ht-degree: 1%
 
 # 보고 캔버스에서 보고서 내보내기
 
-전체 보고서 또는 특정 블록을 필요에 맞게 파일 형식으로 내보낼 수 있습니다. 다음 위치로 내보낼 수 있습니다.
+전체 보고서(또는 특정 블록)를 필요에 맞게 파일 형식으로 내보낼 수 있습니다. 다음과 같이 내보낼 수 있습니다.
 
-* PDF(현재 비활성화되어 있음)
+* PDF(현재 비활성화됨)
 * CSV
 * PNG
 * XLSX
 
 ## 전제 조건
 
-시작하기 전에 보고 캔버스 베타에 등록해야 합니다. 자세한 내용은 [보고 캔버스 베타: 개요](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md).
+시작하기 전에 보고 캔버스 베타에 등록해야 합니다. 자세한 내용은 [보고 캔버스 Beta: 개요](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## 보고서 내보내기
 
 1. 내보낼 보고서로 이동합니다.
-1. 보고서 헤더에서 **자세히** 아이콘 ![](assets/more-icon-27x15.png)를 클릭합니다. **내보내기**&#x200B;을 클릭한 다음 만들 파일 형식을 선택합니다.
+1. 보고서 헤더에서 **자세히** 아이콘 ![](assets/more-icon-27x15.png), 클릭 **내보내기**&#x200B;을 클릭한 후 만들려는 파일 형식을 선택합니다.
 
    >[!NOTE]
    >
    >내보낸 파일에 대해 다음 사항을 고려하십시오.
    >
-   >   * 여러 테이블이 포함된 보고서를 XLSX 형식으로 내보내는 경우 내보낸 파일에는 각 테이블에 대한 별도의 시트가 포함됩니다.
-   >   * 여러 테이블이 포함된 보고서를 CSV 형식으로 내보내는 경우 내보낸 결과는 각 테이블에 대해 별도의 파일을 포함하는 압축 폴더입니다.
-   >   * 그룹화된 행이 포함된 테이블을 CSV 형식으로 내보내면 CSV 파일에 모든 행이 포함되지만 그룹으로 표시되지 않습니다.
+   >   * 여러 테이블이 포함된 보고서를 XLSX 형식으로 내보내는 경우 내보낸 파일에는 각 테이블에 대해 별도의 시트가 포함됩니다.
+   >   * 여러 테이블이 포함된 보고서를 CSV 형식으로 내보내면 내보낸 결과는 각 테이블에 대해 별도의 파일이 포함된 압축 폴더입니다.
+   >   * 그룹화된 행이 포함된 테이블을 CSV 형식으로 내보내면 CSV 파일에 모든 행이 포함되지만 그룹에는 표시되지 않습니다.
 
 
 <!-- 1. (Conditional) If you selected **PDF**, configure the fields below to format the exported file, then click **Download PDF**.
