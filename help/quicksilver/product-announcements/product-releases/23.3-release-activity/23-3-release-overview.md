@@ -4,9 +4,9 @@ description: 23.3 릴리스 개요
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 8e12a80b904a13f60c5c946b48cfed325bb07acf
+source-git-commit: e6ccf6f8f46b61e10ad100a1724e0131207319f3
 workflow-type: tm+mt
-source-wordcount: '1405'
+source-wordcount: '1594'
 ht-degree: 0%
 
 ---
@@ -223,6 +223,22 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">끌어서 놓기로 문서를 연결된 폴더로 이동할 때 경험이 개선되었습니다.</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p> 
+                        <p>문서를 연결된 폴더로 드래그 앤 드롭하는 과정에 투명도를 추가했습니다. 이제 연결된 폴더로 이동한 문서는 완전히 이동될 때까지 문서 목록에 유지됩니다. 문서 옵션은 비활성화되어 있지만 문서를 이동하는 동안 볼 수 있도록 열 수 있습니다. 문서 전송이 완료되면 문서가 연결된 폴더에 완전히 위치하므로 문서 목록에서 사라집니다. </p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2023년 6월 7일</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">프로덕션 릴리스: 2023년 6월 15일</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md" class="MCXref xref" xrefformat="{para}">프로젝트를 만들 때 Adobe Experience Manager Assets에 연결된 폴더를 자동으로 만듭니다.</a></p>
                         <p>Adobe Experience Manager 통합을 위한 새 연결된 폴더 만들기 워크플로를 사용하여 Adobe Experience Manager Assets 폴더의 경로로 통합을 구성할 수 있습니다. 통합이 프로젝트 템플릿에 추가되면 템플릿에서 만든 모든 프로젝트는 지정된 폴더의 Experience Manager Assets에 연결된 하위 폴더를 자동으로 만듭니다. </p>
                     </td>
@@ -306,7 +322,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">새 문서 승인</a> <span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Microsoft Office 증명에 대한 지원 변경</a> </p>
+                        <p>강력하고 확장 가능한 증명 처리 솔루션을 유지하기 위해 지원되는 Microsoft Office 파일 형식 및 파일 크기 제한을 변경하고 있습니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2023년 6월 8일<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">프로덕션 릴리스: 2023년 6월 8일</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">새 문서 승인</a> </p>
                         <p>문서 승인은 각 릴리스를 통해 더 많은 사용자가 사용할 수 있는 단계별 롤아웃에서 재설계 중입니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -343,7 +375,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">프로젝트, 작업 및 문서에 대한 새로운 댓글 달기 Beta 경험</a> <span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">프로젝트, 작업 및 문서에 대한 새로운 댓글 달기 Beta 경험</a> </p>
                         <p>이제 프로젝트, 작업 및 문서에 새 댓글 달기 Beta 환경을 사용할 수 있습니다. 이 업데이트 이전에는 댓글 달기 Beta 경험을 문제 및 목표에 대해서만 사용할 수 있었습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -352,7 +384,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>미리보기 릴리스: 2023년 6월 1일<br /></p>
                             </li>
                             <li>
-                                <p>프로덕션 릴리스:23.3 릴리스 포함</p>
+                                <p>프로덕션 릴리스: 23.3 릴리스 포함</p>
                             </li>
                         </ul>
                     </td>
@@ -406,6 +438,25 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </ul>
                     </td>
                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md" class="MCXref xref" xrefformat="{para}">새로운 캔버스 대시보드 경험 개선 사항</a></p>
+                        <p>캔버스 대시보드에 대한 향상된 기능은 23.3 릴리스 일정 내에 사용할 수 있습니다. 이러한 개선 사항은 별도로 지정하지 않는 한 23.3 릴리스를 통해 프로덕션 환경에서 사용할 수 있습니다. 
+ </p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 23.3 릴리스 일정 전체<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">프로덕션 릴리스: 23.3 릴리스 포함(달리 명시되지 않은 경우)</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>   
            </tbody>
         </table>
 
