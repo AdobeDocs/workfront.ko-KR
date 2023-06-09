@@ -4,9 +4,9 @@ description: 23.3 릴리스 개요
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: e6ccf6f8f46b61e10ad100a1724e0131207319f3
+source-git-commit: b7b50ef85e38384251fadd57974d9b52a1d1525a
 workflow-type: tm+mt
-source-wordcount: '1594'
+source-wordcount: '1556'
 ht-degree: 0%
 
 ---
@@ -319,23 +319,6 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         <p><span class="bold">릴리스 날짜</span>
                         </p>
                     </td>
-                </tr>
-                 <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Microsoft Office 증명에 대한 지원 변경</a> </p>
-                        <p>강력하고 확장 가능한 증명 처리 솔루션을 유지하기 위해 지원되는 Microsoft Office 파일 형식 및 파일 크기 제한을 변경하고 있습니다.</p>
-                    </td>
-                    <td><p><b>다음 날짜에 사용 가능:</b></p>
-                        <ul>
-                            <li>
-                                <p>미리보기 릴리스: 2023년 6월 8일<br /></p>
-                            </li>
-                            <li>
-                                <p><span class="preview">프로덕션 릴리스: 2023년 6월 8일</span></p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">새 문서 승인</a> </p>
@@ -373,7 +356,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
-                 <tr>
+            <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">프로젝트, 작업 및 문서에 대한 새로운 댓글 달기 Beta 경험</a> </p>
                         <p>이제 프로젝트, 작업 및 문서에 새 댓글 달기 Beta 환경을 사용할 수 있습니다. 이 업데이트 이전에는 댓글 달기 Beta 경험을 문제 및 목표에 대해서만 사용할 수 있었습니다.</p>
