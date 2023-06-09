@@ -1,19 +1,19 @@
 ---
 product-area: documents
 navigation-topic: add-documents-to-workfront
-title: 외부 응용 프로그램에서 문서 연결
+title: 외부 애플리케이션에서 문서 연결
 description: 다음 소스 - EDIT ME에서 문서 및 폴더를 Adobe Workfront에 연결할 수 있습니다.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: 0ecee45183f5bc77a1c4a489013e486d8c26094c
+source-git-commit: 5122914acd0ae0fdfb8a5ae7319075ce1072962e
 workflow-type: tm+mt
-source-wordcount: '2586'
+source-wordcount: '2648'
 ht-degree: 0%
 
 ---
 
-# 외부 응용 프로그램에서 문서 연결
+# 외부 애플리케이션에서 문서 연결
 
 다음 소스에서 문서 및 폴더를 Adobe Workfront에 연결할 수 있습니다.
 
@@ -23,7 +23,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">기존 타사 클라우드 문서 공급자</td> 
-   <td>여기에는 다음 항목이 포함되어 있습니다. 
+   <td>여기에는 다음이 포함됩니다. 
     <ul> 
      <li>Box</li> 
      <li>Dropbox</li> 
@@ -36,26 +36,26 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Workfront Proof </td> 
-   <td>Workfront 내에서 원래 Workfront 증명 내에서 만들어진 증명을 사용할 수 있습니다. 이 기능을 사용하려면 Pro Workfront 플랜 이상이 필요합니다. 사용 가능한 다양한 계획에 대한 자세한 내용은 <a href="https://www.workfront.com/plans">Workfront 플랜</a>.</td> 
+   <td>원래 Workfront Proof 내에서 만들어진 증명을 Workfront 내에서 사용할 수 있도록 만들 수 있습니다. 이 기능을 사용하려면 Pro Workfront 플랜 이상이 필요합니다. 사용 가능한 다양한 플랜에 대한 자세한 내용은 <a href="https://www.workfront.com/plans">Workfront 플랜</a>.</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td role="rowheader">Experience Manager Assets Essentials </td> 
-   <td>Experience Manager Assets Essentials에서 Workfront에 문서를 연결할 수 있습니다. 자세한 내용은 <a href="../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md" class="MCXref xref"> Adobe Workfront for Experience Manager Assets Essentials</a>.</td> 
+   <td>Experience Manager Assets Essentials에서 문서를 Workfront에 연결할 수 있습니다. 자세한 내용은 <a href="../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md" class="MCXref xref"> Experience Manager Assets Essentials용 Adobe Workfront</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Workfront DAM </td> 
    <td>이를 위해서는 추가 구매가 필요합니다. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">기타 문서 공급자(사용자 정의 문서 통합을 통해)</td> 
-   <td> <p class="workfront_plans">이 기능을 사용하려면 Pro Workfront 플랜 이상이 필요합니다. 사용 가능한 다양한 계획에 대한 자세한 내용은 <a href="https://www.workfront.com/plans">Workfront 플랜</a>.</p> </td> 
+   <td role="rowheader">기타 문서 공급자(사용자 지정 문서 통합을 통해)</td> 
+   <td> <p class="workfront_plans">이 기능을 사용하려면 Pro Workfront 플랜 이상이 필요합니다. 사용 가능한 다양한 플랜에 대한 자세한 내용은 <a href="https://www.workfront.com/plans">Workfront 플랜</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-문서 또는 폴더를 연결하려면 다음에 설명된 대로 Workfront 관리자가 각 문서 제공업체 또는 사용자 지정 문서 통합에 대해 이 기능을 활성화해야 합니다 [문서 통합 구성](../../administration-and-setup/configure-integrations/configure-document-integrations.md).
+문서나 폴더를 링크하기 전에 Workfront 관리자는 의 설명에 따라 각 문서 공급자나 사용자 정의 문서 통합에 대해 이 기능을 활성화해야 합니다 [문서 통합 구성](../../administration-and-setup/configure-integrations/configure-document-integrations.md).
 
-Workfront에 직접 업로드한 문서를 사용하는 것과 동일한 방식으로 외부 클라우드 공급자에 연결된 문서를 증명 및 승인할 수 있습니다. 
+Workfront에 직접 업로드한 문서를 사용하는 것과 동일한 방식으로 외부 클라우드 공급자에 연결된 문서를 증명하고 승인할 수 있습니다.
 
 ## 액세스 요구 사항
 
@@ -70,28 +70,28 @@ Workfront에 직접 업로드한 문서를 사용하는 것과 동일한 방식�
    <td> <p> 모든</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스*</td> 
+   <td role="rowheader">Adobe Workfront 라이센스*</td> 
    <td> <p>요청 이상</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>문서 액세스 편집</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한 사항을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td> <p>문서에 대한 액세스 편집</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;어떤 계획, 라이선스 유형 또는 액세스 권한을 보유하고 있는지 알아보려면 Workfront 관리자에게 문의하십시오.
+&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
 
-## 문서 저장소
+## 문서 스토리지
 
-외부 애플리케이션에서 Workfront에 연결된 문서는 Workfront이 아니라 외부 클라우드 공급자와 함께 저장됩니다.
+외부 애플리케이션에서 Workfront에 연결된 문서는 Workfront 내부가 아니라 외부 클라우드 공급자와 함께 저장됩니다.
 
 다음 예외가 적용됩니다.
 
-* 문서 서비스에서 제공한 경우 미리 보기 및 미리 보기 이미지가 Workfront 서버에 저장될 수 있습니다.
-* Workfront에서 교정을 사용하면 문서가 복사되어 교정 서버에 추가됩니다. 
+* 문서 서비스에서 제공하는 경우 썸네일 및 미리보기 이미지가 Workfront 서버에 저장될 수 있습니다.
+* Workfront에서 증명을 사용하는 경우 문서가 복사되고 증명 서버에 추가됩니다.
 
-## 외부 애플리케이션에서 Workfront에 문서 연결
+## 외부 애플리케이션의 문서를 Workfront에 연결
 
 기존 문서를 외부 클라우드 공급자와 연결할 수 있습니다. 여기에는 공유 문서가 포함됩니다.
 
@@ -103,7 +103,7 @@ Workfront에 직접 업로드한 문서를 사용하는 것과 동일한 방식�
 
 ### 전제 조건 {#prerequisites}
 
-문서 또는 폴더를 연결하려면 다음에 설명된 대로 Workfront 관리자가 각 문서 제공업체 또는 사용자 지정 문서 통합에 대해 이 기능을 활성화해야 합니다 [문서 통합 구성](../../administration-and-setup/configure-integrations/configure-document-integrations.md).
+문서나 폴더를 링크하기 전에 Workfront 관리자는 의 설명에 따라 각 문서 공급자나 사용자 정의 문서 통합에 대해 이 기능을 활성화해야 합니다 [문서 통합 구성](../../administration-and-setup/configure-integrations/configure-document-integrations.md).
 
 ### Workfront에 외부 문서 연결 {#link-an-external-document-to-workfront}
 
@@ -111,240 +111,255 @@ Google 및 Microsoft OneDrive와 같은 외부 애플리케이션에서 Workfron
 
 >[!IMPORTANT]
 >
->Dropbox은 파일 경로에 따라 문서를 저장합니다. 이로 인해 Dropbox에서 연결된 파일을 이동하거나, 이름을 바꾸거나 삭제하면 Workfront에서 액세스할 수 없게 됩니다.
+>Dropbox은 파일 경로를 기반으로 문서를 저장합니다. 이 때문에 Dropbox에서 링크된 파일을 이동하거나 이름을 바꾸거나 삭제하면 Workfront에서 액세스할 수 없게 됩니다.
 
-1. 로 이동합니다. **문서** Workfront에서 문서를 원하는 영역으로 이동합니다.
-1. 클릭 **새로 추가**&#x200B;을 클릭한 다음 문서를 Workfront에 연결할 외부 문서 공급자를 클릭합니다.
+1. 로 이동 **문서** 문서를 저장할 Workfront의 영역입니다.
+1. 클릭 **새로 추가**&#x200B;에서 문서를 Workfront에 연결할 외부 문서 공급자를 클릭합니다.
 
-   예를 들어 Dropbox에서 문서를 연결하려면 **Dropbox에서**.
+   예를 들어 Dropbox에서 문서를 연결하려면 **출처: Dropbox**.
 
-   이미 허가된 외부 공급자가 목록 맨 위에 표시됩니다.
+   이미 승인한 외부 공급자는 목록의 맨 위에 나타납니다.
 
-1. (조건부) 외부 서비스에 로그인하라는 메시지가 표시되면 나타나는 상자에 서비스에 대한 로그인 자격 증명을 입력한 다음 을 클릭합니다 **로그인**.
-1. (조건부) 외부 애플리케이션을 승인하라는 메시지가 표시되면 **권한 부여** 버튼을 클릭합니다.
+1. (조건부) 외부 서비스에 로그인하라는 메시지가 표시되면 나타나는 상자에 해당 서비스에 대한 로그인 자격 증명을 입력한 다음 를 클릭합니다 **로그인**.
+1. (조건부) 외부 응용 프로그램을 승인하라는 메시지가 표시되면 **승인** 단추를 클릭합니다.
 
-   한 번만 하면 됩니다.
+   이 작업은 한 번만 수행하면 됩니다.
 
-1. 의 검색 상자에서 **외부 파일 및 폴더 연결** 상자가 표시되면 검색할 항목의 이름을 입력한 다음 키를 누릅니다 **Enter 키** 외부 애플리케이션이 저장되는 폴더에 상관없이 외부 애플리케이션의 모든 결과를 확인합니다.
+1. 의 검색 상자에서 **외부 파일 및 폴더 연결** 상자가 나타나면 검색할 항목의 이름을 입력한 다음 키를 누릅니다 **입력** 저장된 폴더와 관계없이 외부 애플리케이션의 모든 결과를 표시합니다.
 
    또는
 
-   연결할 문서를 찾아 선택합니다.
+   연결할 문서로 이동하여 선택합니다.
 
-   여러 문서를 선택할 수 있지만 현재 보기에서 선택한 문서만 연결됩니다. 예를 들어 문서를 선택한 다음 폴더로 이동하면 원래 선택한 문서가 연결되지 않습니다.
+   여러 문서를 선택할 수 있지만 현재 보기에서 선택한 문서만 연결됩니다. 예를 들어, 문서를 선택한 다음 폴더로 이동하면 원래 선택한 문서가 연결되지 않습니다.
 
-1. (조건부) Workfront DAM 고객인 경우 **축소판** 아이콘 - 파일을 축소판 이미지로 표시합니다.
+1. (조건부) Workfront DAM 고객인 경우 **축소판** 썸네일 이미지로 파일을 표시하는 아이콘
 
    >[!NOTE]
-   Workfront DAM 고객은 Workfront DAM에서 문서를 연결할 때 축소판을 볼 수 있습니다. Dropbox 및 상자 등의 기타 서비스에 대해 Workfront DAM 고객이 미리 보기를 표시할 수도 있습니다. 그러나 Workfront 내의 Workfront DAM 이외의 서비스에 대한 축소판 보기는 지원되지 않으며, SharePoint 또는 Google Drive에서 문서를 연결할 때 미리 보기가 표시되지 않습니다.
+   >
+   >Workfront DAM 고객은 Workfront DAM에서 문서를 연결할 때 썸네일을 볼 수 있습니다. Dropbox 및 Box와 같은 다른 서비스에 대해 Workfront DAM 고객을 위해 썸네일이 표시될 수도 있습니다. 그러나 Workfront 내에서 Workfront DAM 이외의 서비스에 대한 축소판 보기는 지원되지 않으며 SharePoint 또는 Google 드라이브의 문서를 연결할 때에는 축소판이 표시되지 않습니다.
 
 1. 클릭 **링크**.
 
    Workfront에서 문서 옆에 클라우드 공급자의 아이콘이 표시됩니다.
 
    >[!NOTE]
-   Box에 연결된 문서의 경우 페이지를 새로 고칠 때까지 상자에 있는 문서에 대한 링크가 표시되지 않습니다.
+   >
+   >Box에 연결된 문서의 경우 페이지를 새로 고칠 때까지 Box에 있는 문서에 대한 링크가 표시되지 않습니다.
 
 ### 링크된 문서의 새 버전 추가 {#add-a-new-version-of-a-linked-document}
 
 외부 애플리케이션에서 Workfront에 연결된 문서의 새 버전을 추가할 수 있습니다.
 
-1. 로 이동합니다. **문서** 문서가 링크된 영역을 선택한 다음 링크된 문서를 선택합니다.
+1. 로 이동 **문서** 문서가 연결된 영역을 선택한 다음 연결된 문서를 선택합니다.
 
    >[!IMPORTANT]
-   새 버전을 만들려면 문서가 링크된 폴더의 외부에 있어야 합니다.
+   >
+   >새 버전을 만들려면 문서가 연결된 폴더 외부에 있어야 합니다.
 
 1. 클릭 **새로 추가** > **버전**&#x200B;을 클릭한 다음 외부 문서 공급자를 클릭합니다.
 
-   예를 들어 Dropbox에서 새 문서 버전을 연결하려면 **Dropbox에서**.
+   예를 들어, Dropbox에서 문서의 새 버전을 연결하려면 **출처: Dropbox**.
 
-   이미 허가된 외부 공급자가 목록 맨 위에 표시됩니다.
+   이미 승인한 외부 공급자는 목록의 맨 위에 나타납니다.
 
-1. (조건부) 외부 서비스에 로그인하라는 메시지가 표시되면 나타나는 상자에 서비스에 대한 로그인 자격 증명을 입력한 다음 을 클릭합니다 **로그인**.
-1. (조건부) 외부 애플리케이션을 승인하라는 메시지가 표시되면 을 클릭합니다 **권한 부여**.
+1. (조건부) 외부 서비스에 로그인하라는 메시지가 표시되면 나타나는 상자에 해당 서비스에 대한 로그인 자격 증명을 입력한 다음 를 클릭합니다 **로그인**.
+1. (조건부) 외부 응용 프로그램을 승인하라는 메시지가 표시되면 **승인**.
 
-   한 번만 하면 됩니다.
+   이 작업은 한 번만 수행하면 됩니다.
 
-1. 의 검색 상자에서 **외부 파일 및 폴더 연결** 상자가 표시되면 검색할 항목의 이름을 입력한 다음 키를 누릅니다 **Enter 키** 외부 애플리케이션이 저장되는 폴더에 상관없이 외부 애플리케이션의 모든 결과를 확인합니다.
+1. 의 검색 상자에서 **외부 파일 및 폴더 연결** 상자가 나타나면 검색할 항목의 이름을 입력한 다음 키를 누릅니다 **입력** 저장된 폴더와 관계없이 외부 애플리케이션의 모든 결과를 표시합니다.
 
    또는
 
-   연결할 문서를 찾아 선택합니다.
+   연결할 문서로 이동하여 선택합니다.
 
-   여러 문서를 선택할 수 있습니다. 그러나 현재 보기에서 선택한 문서만 연결됩니다. 예를 들어 문서를 선택한 다음 폴더로 이동하면 원래 선택한 문서가 연결되지 않습니다.
+   여러 문서를 선택할 수 있지만 현재 보기에서 선택한 문서만 연결됩니다. 예를 들어, 문서를 선택한 다음 폴더로 이동하면 원래 선택한 문서가 연결되지 않습니다.
 
-1. (조건부) Workfront DAM 고객인 경우 **축소판** 아이콘 - 파일을 축소판 이미지로 표시합니다.
+1. (조건부) Workfront DAM 고객인 경우 **축소판** 썸네일 이미지로 파일을 표시하는 아이콘
 
    >[!NOTE]
-   Workfront DAM 고객은 Workfront DAM에서 문서를 연결할 때 축소판을 볼 수 있습니다. Dropbox 및 상자 등의 기타 서비스에 대해 Workfront DAM 고객이 미리 보기를 표시할 수도 있습니다. 그러나 Workfront 내의 Workfront DAM 이외의 서비스에 대한 축소판 보기는 지원되지 않으며, SharePoint 또는 Google Drive에서 문서를 연결할 때 미리 보기가 표시되지 않습니다.
+   >
+   >Workfront DAM 고객은 Workfront DAM에서 문서를 연결할 때 썸네일을 볼 수 있습니다. Dropbox 및 Box와 같은 다른 서비스에 대해 Workfront DAM 고객을 위해 썸네일이 표시될 수도 있습니다. 그러나 Workfront 내에서 Workfront DAM 이외의 서비스에 대한 축소판 보기는 지원되지 않으며 SharePoint 또는 Google 드라이브의 문서를 연결할 때에는 축소판이 표시되지 않습니다.
 
 1. 클릭 **링크**.
 
    Workfront에서 문서 옆에 클라우드 공급자의 아이콘이 표시되어 외부 클라우드 공급자에 연결되어 있음을 나타냅니다.
 
    >[!NOTE]
-   Box에 연결된 문서의 경우 페이지를 새로 고칠 때까지 상자에 있는 문서에 대한 링크가 표시되지 않습니다.
+   >
+   >Box에 연결된 문서의 경우 페이지를 새로 고칠 때까지 Box에 있는 문서에 대한 링크가 표시되지 않습니다.
 
-파일 시스템에서 Workfront에 업로드한 문서의 새 버전을 추가하는 방법에 대한 자세한 내용은 [파일 시스템에서 Adobe Workfront에 문서 추가](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#adding-new-versions-of-documents) in [파일 시스템에서 Adobe Workfront에 문서 추가](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+파일 시스템에서 Workfront으로 업로드한 문서의 새 버전을 추가하는 방법에 대한 자세한 내용은 [파일 시스템에서 Adobe Workfront에 문서 추가](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#adding-new-versions-of-documents) 위치: [파일 시스템에서 Adobe Workfront에 문서 추가](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
 ### Workfront 증명 문서 연결 {#link-workfront-proof-documents}
 
-증명을 Workfront 증명에 원래 있었던 Workfront에 연결할 수 있습니다. Workfront 증명의 증명을 연결하면 증명과 연결된 모든 댓글 및 기타 메타데이터를 Workfront에서 사용할 수 있습니다. 
+Workfront Proof에 원래 있었던 Workfront에 증명을 연결할 수 있습니다. Workfront Proof에서 증명을 연결할 때 증명과 연결된 모든 댓글과 기타 메타데이터를 Workfront에서 사용할 수 있습니다.
 
-Workfront 증명의 보기 액세스 권한이 있는 이러한 증명만 연결할 수 있습니다.
+Workfront Proof에서 보기 권한이 있는 증명만 연결할 수 있습니다.
 
-1. 로 이동합니다. **문서** Workfront에서 문서를 원하는 영역으로 이동합니다.
-1. 클릭 **새로 추가**&#x200B;를 클릭한 다음 **Workfront 증명**.
+1. 로 이동 **문서** 문서를 저장할 Workfront의 영역입니다.
+1. 클릭 **새로 추가**&#x200B;을 클릭한 다음 을 클릭합니다 **출처: Workfront 증명**.
 
    >[!NOTE]
-   이 메뉴의 옵션은 환경에 구성된 타사 공급자에 따라 다를 수 있습니다.
+   >
+   >이 메뉴의 옵션은 환경에 구성된 서드파티 공급자에 따라 달라질 수 있습니다.
 
-1. 에서 **링크** 증명 **변환 전:** Workfront 증명 상자가 표시되면 Workfront에서 사용할 수 있는 증명의 이름을 입력합니다.
+1. 다음에서 **링크** 증명 **출처:** Workfront 증명 상자가 나타나면 Workfront에서 사용할 수 있게 하려는 증명의 이름을 입력하세요.
 
-   입력하는 대로 목록이 필터링됩니다.
+   입력한 대로 목록이 필터링됩니다.
 
-1. 연결할 증명을 최대 10개까지 선택합니다.
+1. 연결할 증명을 최대 10개까지 선택하십시오.
 
-   증명은 Workfront의 문서와 이미 연결되어 있으므로 흐리게 표시되는 증명 이름을 연결할 수 없습니다.
+   증명이 Workfront의 문서와 이미 연결되어 있으므로 흐리게 표시된 모든 증명 이름을 연결할 수 없습니다.
 
 1. 클릭 **링크**.
 
-   증명의 최신 버전은 Workfront에 연결되어 있습니다. 증명을 열면 교정 뷰어에서 모든 버전을 사용할 수 있습니다.
+   가장 최신 버전의 증명이 Workfront에 연결되어 있습니다. 증명을 열면 증명 뷰어에서 모든 버전을 사용할 수 있습니다.
 
 ### Workfront 내에서 Google 문서 만들기 {#create-a-google-document-from-within-workfront}
 
-Workfront 내에서 새 Google 문서를 만들 수 있습니다. Workfront 내에서 다른 클라우드 공급자를 위한 새 문서를 만들 수 없습니다.
+Workfront 내에서 새 Google 문서를 만들 수 있습니다. Workfront 내에서 다른 클라우드 공급자에 대한 새 문서를 만들 수 없습니다.
 
-1. 로 이동합니다. **문서** Workfront에서 문서를 원하는 영역으로 이동합니다.
-1. 클릭 **새로 추가** > **Google 파일**&#x200B;을 클릭한 다음 만들려는 Google 문서의 유형을 선택합니다.
+1. 로 이동 **문서** 문서를 저장할 Workfront의 영역입니다.
+1. 클릭 **새로 추가** > **Google 파일**&#x200B;그런 다음 만들려는 Google 문서 유형을 선택합니다.
 
 1. 만들려는 Google 문서 유형을 선택합니다.
-1. 만약 **Google 드라이브 계정 추가** 상자가 나타나면 **Google 드라이브 인증**.
+1. 다음과 같은 경우 **Google 드라이브 계정 추가** 상자가 나타나면 **Googe 드라이브 인증**.
 
    Google 문서가 **문서** 탭.
 
    >[!NOTE]
-    내 드라이브 및 나와 공유 결과 두 개가 표시됩니다. 내 드라이브에서 파일을 찾을 수 없는 경우 Shared with Me 폴더에서 확인합니다.
+   >
+   > 내 드라이브 및 나와 공유 에는 두 가지 다른 결과가 표시됩니다. 내 드라이브에서 파일을 찾을 수 없는 경우 나와 공유 폴더를 확인합니다.
 
-## Workfront에서 외부 클라우드 공급자로 문서를 업데이트하고 연결합니다
+## Workfront에서 외부 클라우드 공급자로 문서 업데이트 및 연결
 
-Workfront에서 외부 클라우드 공급자에 문서를 업로드하고 연결할 수 있습니다. 이렇게 하면 문서의 저장소가 Workfront에서 외부 클라우드 공급자로 이동합니다. 외부 애플리케이션에서 문서가 변경되면 Workfront에서 자동으로 업데이트됩니다.
+Workfront에서 외부 클라우드 공급자로 문서를 업로드하고 연결할 수 있습니다. 이렇게 하면 문서 저장소가 Workfront에서 외부 클라우드 공급자로 이동합니다. 외부 애플리케이션에서 문서가 변경되면 Workfront에서 자동으로 업데이트됩니다.
 
 Workfront 액세스 권한이 없는 사용자는 애플리케이션에 액세스할 수 있는 경우 외부 애플리케이션에서 문서를 볼 수 있습니다.
 
-1. Workfront에 업로드된 문서를 선택합니다.
-1. 클릭 **자세히** >**보내기**&#x200B;를 선택한 다음 연결된 문서를 저장할 클라우드 공급자를 선택합니다.
+1. Workfront에서 업로드된 문서를 선택합니다.
+1. 클릭 **자세히** >**전송 대상**&#x200B;을(를) 클릭한 후 연결된 문서를 저장할 클라우드 공급자를 선택합니다.
 
-   자세히 메뉴를 사용할 수도 있습니다 ![](assets/more-icon.png) 문서 세부 정보 페이지에서 이 작업을 수행합니다.
+   기타 메뉴를 사용할 수도 있습니다 ![](assets/more-icon.png) 문서 세부 정보 페이지에서 이 작업을 수행합니다.
 
 1. 공급자 응용 프로그램에서 문서를 저장할 폴더를 선택합니다.
 
-   공유 폴더를 포함하여 공급자 응용 프로그램의 모든 폴더일 수 있습니다.
+   공유 폴더를 포함하여 공급자 응용 프로그램의 모든 폴더가 될 수 있습니다.
 
 1. **저장**&#x200B;을 클릭합니다.
 
-   문서 이름 옆에 외부 공급자의 로고가 표시되어 문서가 이제 Workfront에 연결되고 외부 클라우드 공급자가 저장되었음을 나타냅니다.
+   문서 이름 옆에 외부 공급자의 로고가 표시되어 이제 문서가 Workfront에 연결되고 외부 클라우드 공급자가 저장했음을 나타냅니다.
 
    ![doc_with_google_drive_link_highlight__1_.png](assets/doc-with-google-drive-link-highlight--1--350x66.png)
 
-## 폴더 연결
+## 링크 폴더
 
-Workfront과 외부 클라우드 공급자 간에 폴더를 연결하면 폴더 및 해당 모든 컨텐츠가 연결됩니다. Workfront 액세스 권한이 없는 사용자가 외부 문서 애플리케이션에서 파일을 추가, 제거 및 수정하는 경우 변경 사항이 Workfront에 동기화됩니다. 다음 섹션에서는 폴더 및 하위 폴더를 연결하는 방법을 설명합니다.
+Workfront과 외부 클라우드 공급자 간에 폴더를 연결하면 폴더와 해당 폴더의 모든 컨텐츠가 연결됩니다. Workfront 액세스 권한이 없는 사용자가 외부 문서 애플리케이션에서 파일을 추가, 제거 및 수정하는 경우 해당 변경 사항이 Workfront에 동기화됩니다. 다음 섹션에서는 폴더 및 하위 폴더를 연결하는 방법에 대해 설명합니다.
 
 * [폴더 액세스 권한](#folder-access-rights)
 * [하나 이상의 외부 폴더 연결](#link-one-or-more-external-folders)
-* [링크된 폴더에 하위 폴더 추가](#add-subfolders-to-a-linked-folder)
+* [연결된 폴더에 하위 폴더 추가](#add-subfolders-to-a-linked-folder)
 
 ### 폴더 액세스 권한 {#folder-access-rights}
 
-외부 문서 애플리케이션에서 폴더 컨텐츠를 동기화할 때 Workfront은 폴더를 처음 연결한 사용자의 자격 증명을 사용합니다. 따라서 다음 사용자 경험이 제공됩니다.
+외부 문서 애플리케이션에서 폴더 콘텐츠를 동기화할 때 Workfront은 원래 폴더를 연결한 사용자의 자격 증명을 사용합니다. 그 결과 다음과 같은 사용자 환경이 만들어집니다.
 
-* 외부 애플리케이션에서 파일 및 폴더를 볼 수 있는 액세스 권한이 없지만 Workfront을 통해 연결된 폴더를 볼 수 있는 액세스 권한이 있는 경우 Workfront에서 파일 및 폴더의 이름만 보고 해당 컨텐츠를 볼 수 있습니다.
-* 다른 사용자가 Workfront에 연결된 Workfront의 연결된 폴더(예: 연결된 폴더의 하위 폴더)의 내부에 있는 컨텐츠에 액세스하면 해당 컨텐츠는 컨텐츠를 액세스하는 사용자의 자격 증명이 아니라 원래 폴더를 연결한 사용자의 Workfront 로그인 자격 증명을 사용하여 Workfront에 동기화됩니다.
+* 사용자가 외부 애플리케이션에서 파일 및 폴더를 볼 수 있는 액세스 권한이 없지만 Workfront을 통해 연결된 폴더를 볼 수 있는 액세스 권한이 있는 경우 Workfront의 파일 및 폴더 이름만 볼 수 있고 콘텐츠는 볼 수 없습니다.
+* 다른 사용자가 WorkfrontWorkfront 에 연결한 연결된 폴더(예: 연결된 폴더의 하위 폴더) 내의 컨텐츠에 액세스하면 컨텐츠가 컨텐츠에 액세스하는 사용자의 자격 증명이 아니라 해당 폴더를 원래 연결한 사용자의 Workfront 로그인 자격 증명을 사용하여 Workfront에 동기화됩니다.
 
 >[!IMPORTANT]
-* 원래 폴더를 연결한 사용자가 Workfront 시스템에서 제거되면 사용자는 더 이상 Workfront을 통해 연결된 폴더의 컨텐츠에 액세스할 수 없습니다. 이 경우, 폴더는 외부 애플리케이션의 폴더에 대한 권한이 있는 활성 Workfront 사용자가 잠가야 합니다.
-* 폴더를 연결된 사용자가 더 이상 외부 애플리케이션에 액세스할 수 없는 경우, Workfront은 더 이상 폴더의 컨텐츠에 액세스할 수 없습니다. 예를 들어 폴더를 처음 연결한 사용자가 회사를 나가는 경우 이러한 문제가 발생할 수 있습니다. 계속 액세스하려면 폴더에 액세스할 수 있는 사용자가 해당 폴더를 다시 연결해야 합니다.
-
+>
+>* 원래 폴더를 연결한 사용자가 Workfront 시스템에서 제거되면 사용자는 더 이상 Workfront을 통해 연결된 폴더의 콘텐츠에 액세스할 수 없습니다. 이 경우 외부 애플리케이션에서 폴더에 대한 권한이 있는 활성 Workfront 사용자가 폴더를 다시 연결해야 합니다.
+>* 폴더를 연결한 사용자에게 더 이상 외부 애플리케이션에 액세스할 수 없는 경우 Workfront은 더 이상 폴더의 콘텐츠에 액세스할 수 없습니다. 예를 들어 원래 폴더를 연결한 사용자가 회사를 그만두는 경우 이러한 상황이 발생할 수 있습니다. 계속 액세스하려면 폴더에 대한 액세스 권한이 있는 사용자가 폴더를 다시 연결해야 합니다.
 
 ### 하나 이상의 외부 폴더 연결 {#link-one-or-more-external-folders}
 
-1. Workfront에서 폴더를 찾을 영역으로 이동한 다음 를 클릭합니다  **문서** ![](assets/document-icon.png) 왼쪽 패널에서 을 클릭합니다.
+1. Workfront에서 폴더를 원하는 영역으로 이동한 다음  **문서** ![](assets/document-icon.png) 왼쪽 패널에서 .
 
-1. 클릭 **새로 추가**&#x200B;을 클릭한 다음 폴더를 Workfront에 연결할 외부 문서 공급자를 클릭합니다.
-1. (조건부) 외부 서비스를 아직 승인하지 않은 경우 외부 공급자에 대한 로그인 자격 증명을 지정하고 을 클릭합니다 **로그인**.
+1. 클릭 **새로 추가**&#x200B;에서 폴더를 Workfront에 연결할 외부 문서 공급자를 클릭합니다.
+1. (조건부) 외부 서비스를 아직 승인하지 않은 경우 외부 공급자에 대한 로그인 자격 증명을 지정한 다음 을 클릭합니다. **로그인**.
 
-   이미 허가된 외부 공급자가 목록 맨 위에 표시됩니다.
+   이미 승인한 외부 공급자는 목록의 맨 위에 나타납니다.
 
-1. 에서 **외부 파일 및 폴더 연결** 상자가 표시되면 연결할 폴더를 찾아 선택합니다.
+1. 다음에서 **외부 파일 및 폴더 연결** 나타나는 상자에서 연결할 폴더를 찾아 선택합니다.
 
    또는
 
-   검색할 폴더의 이름을 입력한 다음 키를 누릅니다 **Enter 키**.
+   검색할 폴더의 이름을 입력한 다음 키를 누릅니다 **입력**.
 
-   여러 폴더를 선택할 수 있습니다. 그러나 현재 보기에서 선택한 폴더만 연결됩니다. 예를 들어 폴더를 선택한 다음 폴더로 이동하면 원래 선택한 폴더가 연결되지 않습니다.
+   여러 폴더를 선택할 수 있지만 현재 보기에서 선택한 폴더만 연결됩니다. 예를 들어, 폴더를 선택한 다음 폴더로 이동하면 원래 선택한 폴더가 연결되지 않습니다.
 
    >[!NOTE]
-   Google 드라이브에서 폴더를 연결할 때는 개인 드라이브(내 드라이브)와 팀 드라이브 내에 있는 폴더만 연결할 수 있습니다. 나와 공유 영역에서 폴더를 연결할 수 없습니다.
+   >
+   >Google 드라이브에서 폴더를 연결할 때 개인 드라이브(내 드라이브) 및 Team Drive 내에 있는 폴더만 연결할 수 있습니다. 나와 공유 영역에서 폴더를 연결할 수 없습니다.
 
 1. 클릭 **링크**.
 
-   Workfront에서 폴더 옆에 클라우드 공급자의 로고가 표시되어 외부 클라우드 공급자에 연결되어 있음을 나타냅니다.
+   Workfront에서 폴더 옆에 외부 클라우드 공급자에 연결되어 있음을 나타내는 클라우드 공급자의 로고가 표시됩니다.
 
-1. (선택 사항) Workfront의 폴더 이름이 외부 문서 애플리케이션의 폴더 이름과 다르도록 폴더 이름을 변경하려면 **폴더** 섹션에서 자세히 메뉴를 클릭합니다. ![](assets/more-icon.png)  폴더 이름 옆에 표시되는 를 클릭한 다음 **이름 변경**.
+1. (선택 사항) Workfront의 폴더 이름이 외부 문서 애플리케이션의 폴더 이름과 다르도록 폴더 이름을 변경하려면 **폴더** 섹션을 클릭하고 기타 메뉴를 클릭합니다 ![](assets/more-icon.png)  폴더 이름 옆에 표시되는 를 클릭하고 **이름 바꾸기**.
 
    ![](assets/documents-folderlink-rename-nwe-350x154.png)
 
-외부 응용 프로그램의 폴더 이름은 변경되지 않습니다.
+이렇게 해도 외부 애플리케이션에서 폴더의 이름은 변경되지 않습니다.
 
-### 링크된 폴더에 하위 폴더 추가  {#add-subfolders-to-a-linked-folder}
+### 연결된 폴더에 하위 폴더 추가  {#add-subfolders-to-a-linked-folder}
 
-기존 연결된 폴더 내에 새 폴더를 만들 수 있습니다. 다른 폴더를 기존의 연결된 폴더로 드래그할 수도 있습니다.
+기존의 연결된 폴더 내에 새 폴더를 만들 수 있습니다. 다른 폴더를 연결된 기존 폴더로 드래그할 수도 있습니다.
 
-1. 기존 연결된 폴더 내에 새 폴더를 만들려면 기존 폴더로 이동한 다음, 에 설명된 대로 새 폴더를 만듭니다 [문서 폴더 만들기](../../documents/organizing-documents/create-documents-folder.md).
+1. 연결된 기존 폴더에 새 폴더를 만들려면 기존 폴더로 이동한 다음 의 설명에 따라 새 폴더를 만듭니다. [문서 폴더 만들기](../../documents/organizing-documents/create-documents-folder.md).
 
    또는
 
-   기존 폴더를 기존 링크된 폴더로 드래그하려면 하위 폴더를 원하는 Documents 영역으로 이동한 다음 링크된 폴더로 드래그합니다.
+   기존 폴더를 연결된 기존 폴더로 드래그하려면 하위 폴더를 원하는 문서 영역으로 이동한 다음 연결된 폴더로 드래그합니다.
 
    ![](assets/documents-link-folder-move-nwe-350x113.png)
 
    >[!NOTE]
-   기존 Workfront 폴더를 연결된 폴더로 드래그하면 다음 제한 사항이 적용됩니다.
-   * 드래그하는 폴더는 이미 연결할 수 없으며 이미 연결된 컨텐츠는 포함할 수 없습니다.
-   * 드래그하는 폴더(해당 컨텐츠 포함)는 50MB를 초과할 수 없습니다.
+   >
+   >기존 Workfront 폴더를 연결된 폴더로 드래그하면 다음 제한 사항이 적용됩니다.
+   >
+   >* 드래그하는 폴더는 이미 연결되어 있을 수 없으며 이미 연결된 콘텐츠를 포함할 수 없습니다.
+   >* 드래그하는 폴더(해당 콘텐츠 포함)는 50MB를 초과할 수 없습니다.
+
+## 연결된 폴더에 문서 추가
+
+Workfront을 통해 연결된 폴더에 문서를 추가하면 자동으로 연결된 문서로 추가됩니다.
+
+1. 문서를 저장할 연결된 폴더를 선택하고 **새로 추가 > 문서**&#x200B;를 클릭한 다음 문서를 찾아 폴더에 추가합니다.
 
 
-## 링크된 폴더에 문서 추가
-
-Workfront을 통해 링크된 폴더에 문서를 추가하면 링크된 문서로 자동으로 추가됩니다.
-
-1. 에서 **문서** 문서를 원하는 영역으로 문서를 링크된 폴더로 드래그합니다.
-
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"> <img src="assets/documents-linked-document-move-nwe-350x126.png" style="width: 350;height: 126;">Selection box is wonky on the left<br></p>
-   -->
 
    또는
 
-   문서를 원하는 링크된 폴더를 선택하고 **새로 추가 > 문서**&#x200B;로 이동한 다음 문서를 찾아 폴더에 추가합니다.
+   다음에서 **문서** 문서를 저장할 영역에서 문서를 연결된 폴더로 드래그합니다.
 
-   새 버전의 문서는 외부 애플리케이션에서 자동으로 만들어져서 Workfront에 연결됩니다.
+   문서의 새 버전이 외부 애플리케이션에서 자동으로 생성되고 Workfront에 연결됩니다.
 
-## 링크된 문서 또는 폴더 삭제
+>[!NOTE]
+>
+> * 문서를 이동하는 동안에는 문서 옵션을 사용할 수 없습니다. 문서가 Experience Manager Assets으로 이동되면 은 더 이상 Workfront의 문서 목록에 표시되지 않습니다.
+>
+> * 문서를 이동하는 동안 문서에 대해 수행한 작업이나 편집 내용은 Experience Manager Assets의 문서에 표시되지 않으므로 손실됩니다.
 
-외부 애플리케이션에서 링크된 문서나 폴더를 삭제하면 Workfront에서 삭제할 때까지 문서나 폴더가 Workfront 시스템에 유지됩니다.
 
-1. 링크된 문서 또는 폴더를 선택한 다음 **삭제**.
-1. 표시되는 확인 상자에서 **예, 연결 해제**.
+## 연결된 문서 또는 폴더 삭제
 
-   Workfront 사이트에서 문서가 연결 해제되었습니다. 외부 응용 프로그램에서는 영향을 받지 않습니다.
+외부 애플리케이션에서 링크된 문서 또는 폴더를 삭제하면 해당 문서 또는 폴더는 Workfront에서도 삭제될 때까지 Workfront 시스템에 남아 있습니다.
+
+1. 연결된 문서 또는 폴더를 선택한 다음 **삭제**.
+1. 표시되는 확인란에서 **예, 연결 해제합니다.**.
+
+   Workfront 사이트에서 문서의 링크가 해제되었습니다. 외부 애플리케이션에서는 영향을 받지 않습니다.
 
 ## 연결된 문서 및 폴더 이름 바꾸기 정보
 
-링크된 문서 또는 폴더의 이름을 바꾸면 해당 변경 내용이 있는 응용 프로그램에서만 표시됩니다. 예를 들어 Workfront에서 연결된 문서의 이름을 바꾸면 새 이름이 Workfront에서만 표시됩니다.
+연결된 문서나 폴더의 이름을 바꾸면 변경한 내용이 만든 응용 프로그램에서만 표시됩니다. 예를 들어 Workfront에서 연결된 문서의 이름을 바꾸는 경우 새 이름은 Workfront에서만 볼 수 있습니다.
 
-Workfront과 외부 애플리케이션에서 이 이름이 일치하게 하려면 두 위치에서 이름을 변경해야 합니다.
+Workfront과 외부 애플리케이션에서 이름을 일치시키려면 두 위치 모두에서 이름을 변경해야 합니다.
 
 >[!IMPORTANT]
-Dropbox에 연결된 Workfront에서 문서의 이름을 변경하지 마십시오. 이렇게 하면 Workfront의 파일이 액세스할 수 없게 됩니다. 대신, Dropbox에서 파일의 이름을 변경한 다음 다음에 설명된 대로 파일을 다시 동기화합니다 [외부 응용 프로그램에서 문서 연결](#synchronizing-changes-made-on-a-linked-document).
+>
+>Workfront에서 Dropbox에 연결된 문서의 이름을 바꾸지 마십시오. 그렇게 하면 Workfront의 파일에 액세스할 수 없게 됩니다. 대신 Dropbox에서 파일의 이름을 변경한 다음 의 설명에 따라 파일을 다시 동기화합니다 [외부 애플리케이션에서 문서 연결](#synchronizing-changes-made-on-a-linked-document).
