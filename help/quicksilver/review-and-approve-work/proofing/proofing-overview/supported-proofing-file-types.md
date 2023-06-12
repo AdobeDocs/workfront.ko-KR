@@ -7,9 +7,9 @@ description: '시스템에 설치된 파일(예: Photoshop 또는 Illustrator)�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: fa0247796b2d0fc147a0b6a564a306c7e594c6fb
+source-git-commit: 5c0cd18074cffdf0a4fe15affaf61add7314a83a
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '1019'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 0%
 Workfront에는 다음과 같은 제한이 있습니다.
 
 * 파일은 파일당 4GB 미만이어야 합니다.
+* Microsoft Word(DOC, DOCX) 및 PowerPoint(PPT, PPTX) 파일은 512MB 미만이어야 합니다.
 * XLS 및 XLSX 파일은 100MB 미만이어야 합니다.
 * 증명 댓글에 첨부된 파일은 30MB 미만이어야 합니다.
 * PNG의 높이와 너비는 65535px 미만이어야 합니다.
@@ -34,6 +35,18 @@ Workfront에는 다음과 같은 제한이 있습니다.
 >파일이 클수록 업로드하는 데 더 많은 시간이 소요되며, 연결이 안정적이지 않을 경우 작업이 종료/중단될 수 있습니다.
 
 ## 정적 파일
+
+>[!IMPORTANT]
+> 다음 정적 파일 유형은 더 이상 지원되지 않습니다.
+>
+> * DOT - Microsoft Word 문서 템플릿
+> * DOTX - Microsoft Word 문서 템플릿
+> * POT - Microsoft PowerPoint 템플릿
+> * POTX - Microsoft PowerPoint 템플릿
+> * PPS - Microsoft PowerPoint 슬라이드 쇼
+> * PPSX - Microsoft PowerPoint 슬라이드 쇼
+> * XLT - Microsoft Excel 템플릿
+> * XLTX - Microsoft Excel 템플릿
 
 * ABC - LEAD Advanced Bitonal Compression
 * ABIC - 적응형 이중 수준 이미지 압축
@@ -155,12 +168,22 @@ Workfront에는 다음과 같은 제한이 있습니다.
 
 ## 정적 파일 - 텍스트 도구
 
+>[!IMPORTANT]
+> 텍스트 도구에 대해 다음 정적 파일 유형이 더 이상 지원되지 않습니다.
+>
+> * DOT - Microsoft Word 문서 템플릿
+> * DOTX - Microsoft Word 문서 템플릿
+> * POT - Microsoft PowerPoint 템플릿
+> * POTX - Microsoft PowerPoint 템플릿
+> * PPS - Microsoft PowerPoint 슬라이드 쇼
+> * PPSX - Microsoft PowerPoint 슬라이드 쇼
+> * XLT - Microsoft Excel 템플릿
+> * XLTX - Microsoft Excel 템플릿
+
 * AI - Adobe Illustrator 아트워크
 * AIT - Adobe Illustrator 템플릿
 * DOC - Microsoft Word 문서
 * DOCX - Microsoft Word 문서
-* DOT - Microsoft Word 문서 템플릿
-* DOTX - Microsoft Word 문서 템플릿 
 * EPS - 캡슐화된 포스트스크립트
 * PDF - Adobe 휴대용 문서 파일
 * PPT - PowerPoint 프레젠테이션
@@ -169,8 +192,7 @@ Workfront에는 다음과 같은 제한이 있습니다.
 * RTF - 리치 텍스트
 * XLS - Microsoft Excel 스프레드시트
 * XLSX - Microsoft Excel 스프레드시트 2007
-* XLT - Microsoft Excel 템플릿
-* XLTX - Microsoft Excel 템플릿
+
 
 ## 비디오 파일
 
