@@ -6,9 +6,9 @@ description: Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: 7b64e27c441bdbd60884e8be3b2dbbf3b71134b6
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '923'
 ht-degree: 0%
 
 ---
@@ -139,6 +139,9 @@ Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석을 추가할
    >
    >댓글을 입력하고 제출하기 전에 업데이트 섹션에서 다른 곳으로 이동하면 로그오프했다가 다시 로그온한 후에도 페이지에서 댓글이 초안 모드로 유지됩니다. 주석에 추가된 모든 이미지도 초안에 저장됩니다. 초안은 7일 동안 저장되며 이후 삭제되며 복구할 수 없습니다. 초안 주석은 설명을 입력한 사용자만 볼 수 있습니다.
 
+1. (선택 사항) 변경을 실행 취소하거나 재실행하려면 다음 단축키를 사용합니다.
+   * 변경 내용을 취소하려면 CTRL+Z(Mac의 경우 ⌘+z)
+   * CTRL+Y(Mac의 경우 ⌘+y) 를 눌러 변경 사항을 재실행합니다
 1. (선택 사항) 업데이트, 하이퍼링크 또는 이미지에 서식 있는 텍스트 서식을 추가하려면 서식 있는 텍스트 도구 모음이나 옆에 있는 아이콘을 사용하십시오. 자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (선택 사항) **사람 또는 팀에 태그 지정** 영역에 이 댓글에 포함할 사용자 또는 팀의 이름 또는 이메일을 입력한 다음 목록에 표시될 때 선택합니다.
 1. 다음 항목 선택 **내 회사에 비공개** 회사 내 사용자에게만 댓글이 표시되도록 전환합니다.
@@ -170,13 +173,12 @@ Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석을 추가할
    >
    > * 날짜 스탬프는 원래 댓글의 날짜이며 최신 업데이트 날짜는 아닙니다.
 
-
    1. (선택 사항) **자세히** 메뉴 ![](assets/more-icon.png)를 클릭한 다음, 다음 옵션 중 하나를 클릭하여 댓글의 정보를 클립보드로 복사합니다.
 
       * **링크 복사** 를 클릭하여 회신 없이 업데이트 링크를 복사합니다.
       * **본문 복사** 를 클릭하여 업데이트 텍스트를 복사합니다.
 
-         자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+        자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. (선택 사항) **자세히** 메뉴 ![](assets/more-icon.png) 주석의 오른쪽에 있는 을(를) 클릭한 다음 **삭제** 주석을 삭제하려면 다음을 수행하십시오. 자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (선택 사항) **답변** 기존 댓글에 회신하려면 위의 5-9단계를 따르십시오. <!--insure this stays accurate-->

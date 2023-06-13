@@ -6,10 +6,10 @@ description: Adobe Workfront의 새로운 댓글 달기 Beta 경험에 대한 �
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: e1411ce49d8668ba50bcb9b80d4a4b47d0dd00fc
+source-git-commit: 7b64e27c441bdbd60884e8be3b2dbbf3b71134b6
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 6%
+source-wordcount: '871'
+ht-degree: 5%
 
 ---
 
@@ -26,6 +26,24 @@ ht-degree: 6%
 >Workfront 객체에 대한 Beta 경험에 릴리스된 댓글 달기 기능은 Workfront 목표의 목표 객체의 업데이트 섹션에도 릴리스됩니다.
 
 다음 섹션에는 가장 최근에 릴리스된 기능부터 시작하여 원본 릴리스 이후에 추가된 기능이 나와 있습니다.
+
+## 2023년 6월 13일 주
+
+### 댓글 편집 시 향상된 경험
+
+이제 주석을 편집할 때 다음 단축키를 사용할 수 있습니다.
+
+* CTRL+Z (Mac의 경우 CMD+Z) 를 클릭하여 변경 내용을 실행 취소합니다
+
+* CTRL+Y(Mac의 경우 CMD+Y) 를 눌러 변경 사항을 재실행합니다
+
+이러한 개선 사항 이전에는 주석을 편집하는 동안 변경 사항을 실행 취소하거나 다시 실행할 수 없었습니다. 자세한 내용은 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+미리 보기: 2023년 6월 13일
+
+프로덕션: 2023년 6월 13일
+
+<!--I used the date when I found them in Prod. Not sure when these released, but it could have been before this date-->
 
 ## 2023년 5월 29일 주
 
