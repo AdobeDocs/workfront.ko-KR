@@ -5,13 +5,13 @@ product-area: workfront-integrations
 keywords: 커넥터
 navigation-topic: workfront-fusion-2-0
 title: 앱 및 해당 모듈
-description: Adobe Workfront Fusion은 현재 이 목록에 있는 앱용 전용 커넥터를 제공합니다. 작업할 앱이 이 목록에 없으면 HTTP, SOAP 또는 JSON 모듈을 사용하여 해당 앱에 연결할 수 있습니다.
+description: Adobe Workfront Fusion은 현재 이 목록에 있는 앱에 대한 전용 커넥터를 제공합니다. 작업할 앱이 이 목록에 없는 경우 HTTP, SOAP 또는 JSON 모듈을 사용하여 해당 앱에 연결할 수 있습니다.
 author: Becky
 feature: Workfront Fusion
 exl-id: 7075a649-ab0c-4dfc-b726-c5702c90b457
-source-git-commit: 8806688a8e766efd046c49a2980d00d95999d05c
+source-git-commit: 57c6a93dffbf171adfb5b3c9d05f0f820cde8567
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '206'
 ht-degree: 27%
 
 ---
@@ -20,13 +20,12 @@ ht-degree: 27%
 
 >[!IMPORTANT]
 >
->Adobe Workfront Fusion은 거의 모든 웹 서비스에 연결할 수 있습니다. 이 목록에 있는 앱에만 국한되지 않습니다. 작업할 앱이 이 목록에 없으면 다음 모듈을 사용하여 웹 서비스에 직접 연결할 수 있습니다.
+>Adobe Workfront Fusion은 거의 모든 웹 서비스에 연결할 수 있습니다. 이 목록에 있는 앱에만 국한되지 않습니다. 작업할 앱이 이 목록에 없는 경우 다음 모듈을 사용하여 웹 서비스에 직접 연결할 수 있습니다.
 >
 >* [[!UICONTROL HTTP] 모듈](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md)
 >* [[!UICONTROL SOAP] 모듈](../../workfront-fusion/apps-and-their-modules/soap-module.md)
 >* [[!UICONTROL JSON] 모듈](../../workfront-fusion/apps-and-their-modules/json-modules.md)
 >
-
 
 ## Workfront Fusion 앱 및 해당 모듈
 
@@ -44,12 +43,12 @@ ht-degree: 27%
 * [[!DNL Airtable] 모듈](../../workfront-fusion/apps-and-their-modules/airtable-modules.md)
 * [[!DNL Allocadia] 모듈](../../workfront-fusion/apps-and-their-modules/allocadia-modules.md)
 * [[!DNL Anaplan] 모듈](../../workfront-fusion/apps-and-their-modules/anaplan-modules.md)
-* [[!UICONTROL 아카이브] 모듈](../../workfront-fusion/apps-and-their-modules/archive-modules.md)
+* [[!UICONTROL 보관] 모듈](../../workfront-fusion/apps-and-their-modules/archive-modules.md)
 * [[!DNL AWS S3] 모듈](../../workfront-fusion/apps-and-their-modules/aws-s3-modules.md)
 * [[!DNL Azure Active Directory] 모듈](../../workfront-fusion/apps-and-their-modules/azure-ad-modules.md)
 * [[!DNL Azure DevOps] 모듈](../../workfront-fusion/apps-and-their-modules/azure-dev-ops.md)
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/barcodes.md" class="MCXref xref" xrefformat="{para}">Barcodes</a> </li>
   -->
 
@@ -57,7 +56,7 @@ ht-degree: 27%
 * [[!DNL Bynder] 모듈](../../workfront-fusion/apps-and-their-modules/bynder-modules.md)
 * [[!DNL CloudConvert] 모듈](../../workfront-fusion/apps-and-their-modules/cloud-convert-modules.md)
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/converter-modules.md" class="MCXref xref" xrefformat="{para}">Converter</a> (More information coming soon)</li>
   -->
 
@@ -68,12 +67,12 @@ ht-degree: 27%
 * [[!DNL DocuSign] 모듈](../../workfront-fusion/apps-and-their-modules/docusign-modules.md)
 * [[!DNL Dropbox] 모듈](../../workfront-fusion/apps-and-their-modules/dropbox-modules.md)
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/egnyte-modules.md" class="MCXref xref" xrefformat="{para}">Egnyte modules</a> </li>
   -->
 
 * [이메일 모듈](../../workfront-fusion/apps-and-their-modules/email-modules.md)
-* [[!UICONTROL 암호화]](../../workfront-fusion/apps-and-their-modules/encryptor-modules.md)
+* [[!UICONTROL 암호화기]](../../workfront-fusion/apps-and-their-modules/encryptor-modules.md)
 * [[!DNL Figma] 모듈](../../workfront-fusion/apps-and-their-modules/figma-modules.md)
 * [Adobe Workfront Fusion의 흐름 제어](../../workfront-fusion/apps-and-their-modules/flow-control.md)
 * [[!DNL Frame.io] 모듈](../../workfront-fusion/apps-and-their-modules/frame-io-modules.md)
@@ -91,16 +90,17 @@ ht-degree: 27%
 * [[!UICONTROL HTTP] 모듈](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md)
 * [[!DNL HubSpot CRM] 모듈](../../workfront-fusion/apps-and-their-modules/hubspot-crm-modules.md)
 * [이미지 모듈](../../workfront-fusion/apps-and-their-modules/image-module.md)
-* [[!DNL Intacct] 모듈](../../workfront-fusion/apps-and-their-modules/intacct-modules.md)
-
-   <!--
+<!--
+* [[!DNL Intacct] modules](../../workfront-fusion/apps-and-their-modules/intacct-modules.md)
+-->
+<!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/iso-modules.md" class="MCXref xref" xrefformat="{para}">ISO modules</a> </li>
   -->
 
 * [[!DNL Jira] 소프트웨어 모듈](../../workfront-fusion/apps-and-their-modules/jira-software-modules.md)
 * [[!UICONTROL JSON] 모듈](../../workfront-fusion/apps-and-their-modules/json-modules.md)
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/mailchimp-modules.md" class="MCXref xref" xrefformat="{para}">MailChimp modules</a> </li>
   -->
 
@@ -129,10 +129,10 @@ ht-degree: 27%
 * [[!DNL Slack] 모듈](../../workfront-fusion/apps-and-their-modules/slack-modules.md)
 * [[!UICONTROL SOAP] 모듈](../../workfront-fusion/apps-and-their-modules/soap-module.md)
 * [[!DNL Split.io] 모듈](../../workfront-fusion/apps-and-their-modules/split-io-modules.md)
-* [[!UICONTROL 텍스트 파서]](../../workfront-fusion/apps-and-their-modules/text-parser.md)
+* [[!UICONTROL 텍스트 구문 분석기]](../../workfront-fusion/apps-and-their-modules/text-parser.md)
 * [[!UICONTROL 도구]](../../workfront-fusion/apps-and-their-modules/tools-modules.md)
 * [[!DNL Trello] 모듈](../../workfront-fusion/apps-and-their-modules/trello-modules.md)
-* [Webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md)
+* [웹훅](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md)
 * [[!DNL Widen] 모듈](../../workfront-fusion/apps-and-their-modules/widen-modules.md)
 * [[!DNL Workday] 모듈](../../workfront-fusion/apps-and-their-modules/workday-modules.md)
 * [[!UICONTROL XML]](../../workfront-fusion/apps-and-their-modules/xml-modules.md)
