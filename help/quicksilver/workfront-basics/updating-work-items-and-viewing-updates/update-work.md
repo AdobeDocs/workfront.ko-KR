@@ -6,7 +6,7 @@ description: Adobe Workfront 개체(프로젝트, 작업 또는 문제)에 업�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 7b64e27c441bdbd60884e8be3b2dbbf3b71134b6
+source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
 workflow-type: tm+mt
 source-wordcount: '3211'
 ht-degree: 1%
@@ -36,9 +36,9 @@ ht-degree: 1%
 >     * 목록의 요약 패널
 >     * 타임시트의 요약 패널
 >
-> * 목표
+> * 목표<!--, <span class="preview">Cards in the Boards area</span>-->
 >
->   새로운 댓글 달기 경험은 목표에 대한 기본값입니다. Workfront 목표에 액세스하려면 추가 라이선스가 있어야 합니다. 자세한 내용은 [Workfront 목표를 사용하기 위한 요구 사항](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   새로운 댓글 달기 경험은 목표에 대한 기본값입니다 <!--<span class="preview">and cards</span>-->. Workfront 목표에 액세스하려면 추가 라이선스가 있어야 합니다. 자세한 내용은 [Workfront 목표를 사용하기 위한 요구 사항](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
 >    목표에 대한 댓글에 대한 자세한 내용은 을 참조하십시오. [Adobe Workfront 목표의 목표 주석 관리](../../workfront-goals/goal-management/manage-goal-comments.md).
 
@@ -283,7 +283,7 @@ drafted for P&P release:
    | 하이퍼링크 | ![mceclip7.png](assets/mceclip7.png) | <br>링크 만들기 또는 링크 추가 상자를 열려면 다음을 수행하십시오. ⌘+K</br> <br>댓글 달기 Beta 경험에서 선택한 텍스트 위에 링크를 붙여넣으려면: ⌘+V</br> | <br>링크 만들기 또는 링크 추가 상자를 열려면 Ctrl+K</br> <br>댓글 달기 Beta 경험에서 선택한 텍스트 위에 링크를 붙여넣으려면: Ctrl+V</br> |
    | 글머리 기호 목록 | ![mceclip6.png](assets/mceclip6.png) | ⌘+Shift+8 | Ctrl+Shift+8 |
    | 번호 매기기 목록 | ![mceclip5.png](assets/mceclip5.png) | ⌘+Shift+7 | Ctrl+Shift+7 |
-   | 견적 차단 | ![](assets/block-quote-icon-large.png) | ⌘+Shift+9 | Ctrl+Shift+9 |
+   | 견적 차단 | <span class="preview">![](assets/block-quote-icon-large.png)</span> | ⌘+Shift+9 | Ctrl+Shift+9 |
 
    텍스트 서식을 중지하려면 **리치 텍스트** 도구 모음
 

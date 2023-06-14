@@ -6,7 +6,7 @@ description: Adobe Workfront 개체에 업데이트 설명을 제공하면 프�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 7c458a41cd5376b746c93e9ed8e4f379a0ed1f4b
+source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 0%
@@ -28,21 +28,20 @@ ht-degree: 0%
 >
 >다음 객체에 대한 새 경험에 액세스할 수 있습니다.
 > * 문제, <span class="preview">프로젝트, 작업 및 문서</span>.
-   >
-   >     댓글 달기 Beta 경험을 활성화하면 사용할 수 있습니다.
-   >     이 기능은 업데이트 섹션에만 사용할 수 있으며 다음 영역에는 사용할 수 없습니다.
-   >
-   >     * 홈
-   >     * 목록의 요약 패널
-   >     * 타임시트의 요약 패널
 >
-> * 목표
-
-   >
-   >   새로운 댓글 달기 경험은 목표에 대한 기본값입니다. Workfront 목표에 액세스하려면 추가 라이선스가 있어야 합니다. 자세한 내용은 [Workfront 목표를 사용하기 위한 요구 사항](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-   >
-   >    목표에 대한 댓글에 대한 자세한 내용은 을 참조하십시오. [Adobe Workfront 목표의 목표 주석 관리](../../workfront-goals/goal-management/manage-goal-comments.md).
-
+>     댓글 달기 Beta 경험을 활성화하면 사용할 수 있습니다.
+>
+>     이 기능은 업데이트 섹션에만 사용할 수 있으며 다음 영역에는 사용할 수 없습니다.
+>
+>     * 홈
+>     * 목록의 요약 패널
+>     * 타임시트의 요약 패널
+>
+> * 목표<!--, <span class="preview">Cards in the Boards area</span>-->
+>
+>   새로운 댓글 달기 경험은 목표에 대한 기본값입니다 <!--<span class="preview">and cards</span>-->. Workfront 목표에 액세스하려면 추가 라이선스가 있어야 합니다. 자세한 내용은 [Workfront 목표를 사용하기 위한 요구 사항](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>
+>    목표에 대한 댓글에 대한 자세한 내용은 을 참조하십시오. [Adobe Workfront 목표의 목표 주석 관리](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 
 오브젝트를 업데이트할 때 사용자가 따르지 않을 수 있는 오브젝트에 주의를 집중시키려면 사용자를 태그 지정할 수 있습니다.
@@ -51,6 +50,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >사용자는 프로필에서 개인 알림을 활성화해야 이메일 알림을 받을 수 있습니다. 자세한 내용은 [자체 이벤트 알림 활성화 또는 비활성화](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+>
 
 Workfront 개체에 업데이트를 추가하는 방법에 대한 자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
@@ -155,7 +155,6 @@ Workfront 개체에 업데이트를 추가하는 방법에 대한 자세한 내�
    >
    >* 이 옵션은 사용자가 회사와 연결되어 있을 때만 표시됩니다.
    >* 회사 외부의 태그 지정된 사용자는 업데이트 탭에 개인 댓글이 표시되지 않더라도 인앱 알림이나 이메일을 계속 받을 수 있습니다. 외부 사용자와 정보를 공유하지 않으려면 업데이트에 외부 사용자에게 태그를 지정하지 않는 것이 좋습니다.
-
 
 1. (선택 사항) 여러 사용자와 팀을 추가하려면 2단계를 반복합니다. <!--insure this stays accurate-->
 

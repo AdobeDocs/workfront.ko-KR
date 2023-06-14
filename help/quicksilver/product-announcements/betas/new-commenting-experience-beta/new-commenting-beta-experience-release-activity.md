@@ -6,9 +6,9 @@ description: Adobe Workfront의 새로운 댓글 달기 Beta 경험에 대한 �
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 7b64e27c441bdbd60884e8be3b2dbbf3b71134b6
+source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '953'
 ht-degree: 5%
 
 ---
@@ -27,7 +27,27 @@ ht-degree: 5%
 
 다음 섹션에는 가장 최근에 릴리스된 기능부터 시작하여 원본 릴리스 이후에 추가된 기능이 나와 있습니다.
 
-## 2023년 6월 13일 주
+## 2023년 6월 12일 주
+
+### 보드 영역의 카드에 대한 새로운 댓글 달기 Beta 경험
+
+이제 보드 영역의 카드에 새 댓글 달기 Beta 환경을 사용할 수 있습니다. 자세한 내용은 [23.3 릴리스 개요](../../product-releases/23.3-release-activity/23-3-release-overview.md).
+
+미리 보기: 2023년 6월 15일
+
+조기 옵트인을 위한 프로덕션 릴리스: 2023년 6월 22일
+
+모든 고객을 위한 프로덕션: 23.3 릴리스 포함
+
+### 댓글에 블록 따옴표 추가
+
+이제 새로운 댓글 달기 Beta 경험에서 서식 있는 텍스트 도구 모음 옵션을 사용하여 댓글에 블록 따옴표를 추가할 수 있습니다.
+
+자세한 내용은 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+미리 보기: 2023년 6월 14일
+
+프로덕션: 2023년 6월 15일
 
 ### 댓글 편집 시 향상된 경험
 

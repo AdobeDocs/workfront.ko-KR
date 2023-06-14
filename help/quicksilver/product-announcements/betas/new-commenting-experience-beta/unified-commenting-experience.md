@@ -6,10 +6,10 @@ description: Adobe Workfront의 댓글 달기 환경에 대한 업데이트가 �
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
+source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '612'
+ht-degree: 1%
 
 ---
 
@@ -102,7 +102,22 @@ Adobe Workfront의 댓글 달기 환경에 대한 업데이트가 현재 개발 
   </tr>
   <tr>
  <tr>
-   <td>리치 텍스트(따옴표 및 이모지)
+   <td>리치 텍스트(블록 인용)
+   </td>
+   <td>✓ 
+   </td>
+   <td> ✓
+   </td>
+   <td> 
+   </td>
+   <td> 2023년 2분기
+   </td>
+   <td> 
+   </td>
+  </tr>
+  <tr>
+<tr>
+   <td> 견적 주석
    </td>
    <td>✓ 
    </td>
@@ -116,8 +131,7 @@ Adobe Workfront의 댓글 달기 환경에 대한 업데이트가 현재 개발 
    </td>
   </tr>
   <tr>
-
-<td>댓글에 반응(예: 
+   <td>댓글에 반응(예: 
    </td>
    <td>✓ 
    </td>
@@ -410,17 +424,19 @@ Adobe Workfront의 댓글 달기 환경에 대한 업데이트가 현재 개발 
 * 업데이트 섹션에서 Beta 경험을 활성화할 때:
 
    * 문제, <span class="preview">프로젝트, 작업 및 문서</span>
-   Workfront 개체의 업데이트 관리에 대한 자세한 내용은 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+  Workfront 개체의 업데이트 관리에 대한 자세한 내용은 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 
 * 기본적으로 는 기본 댓글 달기 환경으로,
 
    * 목표
-   >[!NOTE]
-   >
-   >이 Workfront 영역에 액세스하려면 Adobe Workfront 목표에 대한 추가 라이선스가 있어야 합니다. 자세한 내용은 [Workfront 목표 사용 요구 사항](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-   목표에 대한 업데이트 관리에 대한 자세한 내용은 을 참조하십시오. [Adobe Workfront 목표의 목표 주석 관리](../../../workfront-goals/goal-management/manage-goal-comments.md).
+  >[!NOTE]
+  >
+  >이 Workfront 영역에 액세스하려면 Adobe Workfront 목표에 대한 추가 라이선스가 있어야 합니다. 자세한 내용은 [Workfront 목표 사용 요구 사항](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+  목표에 대한 업데이트 관리에 대한 자세한 내용은 을 참조하십시오. [Adobe Workfront 목표의 목표 주석 관리](../../../workfront-goals/goal-management/manage-goal-comments.md).
 
 
 새 댓글 달기 경험 Beta를 활성화하려면 다음을 수행하십시오.
