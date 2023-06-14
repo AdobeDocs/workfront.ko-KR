@@ -7,7 +7,7 @@ description: 객체의 업데이트 섹션에는 사용자가 객체에 대해 �
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 7c458a41cd5376b746c93e9ed8e4f379a0ed1f4b
+source-git-commit: 2544bbedfeae731d4cde2ce75d7e09b96c54e32a
 workflow-type: tm+mt
 source-wordcount: '968'
 ht-degree: 4%
@@ -28,22 +28,20 @@ ht-degree: 4%
 >
 >다음 객체에 대한 새 경험에 액세스할 수 있습니다.
 > * 문제, <span class="preview">프로젝트, 작업 및 문서</span>.
-   >
-   >     댓글 달기 Beta 경험을 활성화하면 사용할 수 있습니다.
-   >
-   >     이 기능은 업데이트 섹션에만 사용할 수 있으며 다음 영역에는 사용할 수 없습니다.
-   >
-   >     * 홈
-   >     * 목록의 요약 패널
-   >     * 타임시트의 요약 패널
 >
-> * 목표
-
-   >
-   >   새로운 댓글 달기 경험은 목표에 대한 기본값입니다. Workfront 목표에 액세스하려면 추가 라이선스가 있어야 합니다. 자세한 내용은 [Workfront 목표를 사용하기 위한 요구 사항](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-   >
-   >    목표에 대한 댓글에 대한 자세한 내용은 을 참조하십시오. [Adobe Workfront 목표의 목표 주석 관리](../../workfront-goals/goal-management/manage-goal-comments.md).
-
+>     댓글 달기 Beta 경험을 활성화하면 사용할 수 있습니다.
+>
+>     이 기능은 업데이트 섹션에만 사용할 수 있으며 다음 영역에는 사용할 수 없습니다.
+>
+>     * 홈
+>     * 목록의 요약 패널
+>     * 타임시트의 요약 패널
+>
+> * 목표<!--, <span class="preview">Cards in the Boards area</span>-->
+>
+>   새로운 댓글 달기 경험은 목표에 대한 기본값입니다 <!--<span class="preview">and cards</span>-->. Workfront 목표에 액세스하려면 추가 라이선스가 있어야 합니다. 자세한 내용은 [Workfront 목표를 사용하기 위한 요구 사항](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>
+>    목표에 대한 댓글에 대한 자세한 내용은 을 참조하십시오. [Adobe Workfront 목표의 목표 주석 관리](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 객체의 업데이트 섹션에는 사용자가 객체에 대해 수행하는 설명이나 객체에 대한 변경 사항을 추적하는 시스템 업데이트가 표시됩니다.
 
@@ -124,6 +122,13 @@ ht-degree: 4%
   </tr> 
  </tbody> 
 </table>
+
+<!--for 23.3 preview - June 15: 
+Add this to the table for 23.3 preview - under Goals:
+
+<li><span class="preview">Cards in the Boards area</span></li>
+This is the default experience for goals <span class="preview">and cards</span>. 
+-->
 
 ## 상위 등급 개체에도 표시되는 업데이트
 
