@@ -6,10 +6,10 @@ description: 누군가 작업 개체에 대한 업데이트를 추가하거나 �
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
+source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
 workflow-type: tm+mt
-source-wordcount: '1164'
-ht-degree: 1%
+source-wordcount: '1194'
+ht-degree: 0%
 
 ---
 
@@ -36,11 +36,12 @@ ht-degree: 1%
 >     * 목록의 요약 패널
 >     * 타임시트의 요약 패널
 >
-> * 목표<!--, <span class="preview">Cards in the Boards area</span>-->
+> * 목표, <span class="preview">보드 영역의 카드</span>
 >
->   새로운 댓글 달기 경험은 목표에 대한 기본값입니다 <!--<span class="preview">and cards</span>-->. Workfront 목표에 액세스하려면 추가 라이선스가 있어야 합니다. 자세한 내용은 [Workfront 목표를 사용하기 위한 요구 사항](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   새로운 댓글 달기 경험은 목표에 대한 유일한 경험입니다. <span class="preview">및 카드</span>. Workfront 목표에 액세스하려면 추가 라이선스가 있어야 합니다. 자세한 내용은 [Workfront 목표를 사용하기 위한 요구 사항](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
->    목표에 대한 댓글에 대한 자세한 내용은 을 참조하십시오. [Adobe Workfront 목표의 목표 주석 관리](../../workfront-goals/goal-management/manage-goal-comments.md).
+>     카드에서 주석 및 시스템 활동 섹션을 활성화하면 보드 영역에서 카드에 대한 업데이트를 추가하고 볼 수 있습니다. 자세한 내용은 [보드에 애드혹 카드 추가](../../agile/get-started-with-boards/add-card-to-board.md).
+
 
 누군가 작업 개체에 대한 댓글 또는 시스템 업데이트에 답글을 달면 해당 답글이 해당 개체의 업데이트 섹션에 있는 통신 스레드에 나타납니다.
 

@@ -6,9 +6,9 @@ description: Adobe Workfront의 댓글 달기 환경에 대한 업데이트가 �
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
+source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '621'
 ht-degree: 1%
 
 ---
@@ -47,13 +47,15 @@ Adobe Workfront의 댓글 달기 환경에 대한 업데이트가 현재 개발 
 새 댓글 달기 환경에 포함된 개선 사항 중 하나는 다음과 같습니다.
 
 * 향상된 성능 및 사용자 경험
-* 시스템 활동 업데이트에서 사용자 주석을 분리합니다.
+* 시스템 활동 업데이트에서 사용자 주석 분리
 * 오브젝트에 새 댓글이 추가될 때 실시간 표시기
 * 의견 제출 후 편집
 
 다음 기능이 새 경험에서 제거되었습니다.
 
-* 시스템 업데이트에 대한 댓글을 달습니다.
+* 시스템 업데이트에 대한 주석 달기
+* 댓글을 달면서 상태, 조건, 커밋 일자를 편집할 수 있는 기능
+* 사용자 정의 양식 편집
 
 다음 표는 새 댓글 달기 환경에서 사용할 수 있는 기능과 지원되는 영역에서 사용할 수 있는 기능을 보여 줍니다.
 
@@ -295,7 +297,7 @@ Adobe Workfront의 댓글 달기 환경에 대한 업데이트가 현재 개발 
    </td>
    <td> 
    </td>
-   <td>✓ 
+   <td> 
    </td>
   </tr>
   <tr>
@@ -309,7 +311,7 @@ Adobe Workfront의 댓글 달기 환경에 대한 업데이트가 현재 개발 
    </td>
    <td> 
    </td>
-   <td>✓ 
+   <td>
    </td>
   </tr>
   <tr>
@@ -413,9 +415,9 @@ Adobe Workfront의 댓글 달기 환경에 대한 업데이트가 현재 개발 
   </tr>
 </table>
 
-## 새로운 댓글 달기 Beta 경험 릴리스 활동
+## 릴리스 타임라인
 
-최근 릴리스된 기능에 대한 자세한 내용은 [새로운 댓글 달기 Beta 경험 릴리스 활동](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+새로운 댓글 달기 환경에 최근 릴리스된 기능과 릴리스 타임라인에 대한 자세한 내용은 을 참조하십시오. [새로운 댓글 달기 Beta 경험 릴리스 활동](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 
 ## 새 댓글 달기 환경 찾기
 
@@ -423,21 +425,18 @@ Adobe Workfront의 댓글 달기 환경에 대한 업데이트가 현재 개발 
 
 * 업데이트 섹션에서 Beta 경험을 활성화할 때:
 
-   * 문제, <span class="preview">프로젝트, 작업 및 문서</span>
+   * 문제, <span class="preview">프로젝트, 작업, 스토리 및 문서</span>
 
   Workfront 개체의 업데이트 관리에 대한 자세한 내용은 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 
 * 기본적으로 는 기본 댓글 달기 환경으로,
 
-   * 목표
+   * 목표, <span class="preview">보드 영역의 카드</span>
 
   >[!NOTE]
   >
   >이 Workfront 영역에 액세스하려면 Adobe Workfront 목표에 대한 추가 라이선스가 있어야 합니다. 자세한 내용은 [Workfront 목표 사용 요구 사항](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-
-  목표에 대한 업데이트 관리에 대한 자세한 내용은 을 참조하십시오. [Adobe Workfront 목표의 목표 주석 관리](../../../workfront-goals/goal-management/manage-goal-comments.md).
-
 
 새 댓글 달기 경험 Beta를 활성화하려면 다음을 수행하십시오.
 
