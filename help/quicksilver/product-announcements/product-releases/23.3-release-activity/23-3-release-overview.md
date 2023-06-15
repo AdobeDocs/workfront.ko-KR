@@ -4,9 +4,9 @@ description: 23.3 릴리스 개요
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: b7b50ef85e38384251fadd57974d9b52a1d1525a
+source-git-commit: 8e30fbc97ce083802ae705466b3a9ee3abaecbaf
 workflow-type: tm+mt
-source-wordcount: '1556'
+source-wordcount: '1561'
 ht-degree: 0%
 
 ---
@@ -81,6 +81,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
                     <td>
                         <p><span class="bold">릴리스 날짜</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-12.md" class="MCXref xref" xrefformat="{para}">보드에서 카드에 주석 추가</a> <span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p>
+                        <p>이제 보드에서 애드혹 및 연결된 카드 모두에 주석을 추가하고 주석에서 다른 사용자에게 태그를 지정할 수 있습니다. 설명은 카드 세부 정보에서 확인할 수 있습니다. 보드에 대한 주석 기능은 새로운 Adobe Workfront 주석 달기 경험을 사용합니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2023년 6월 15일</p>
+                            </li>
+                            <li>
+                                 <p>조기 옵트인을 위한 프로덕션 릴리스: 2023년 6월 22일 <span style="color: #ff0000;"> 이 기능은 Workfront 보드에 대한 초기 기능 옵트인을 통해서만 프로덕션에서 사용할 수 있습니다.</span></p>
+                                <p>모든 고객을 위한 프로덕션 릴리스: 23.3 릴리스 포함</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -223,7 +240,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">끌어서 놓기로 문서를 연결된 폴더로 이동할 때 경험이 개선되었습니다.</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p> 
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">끌어서 놓기로 문서를 연결된 폴더로 이동할 때 경험이 개선되었습니다.</a></p> 
                         <p>문서를 연결된 폴더로 드래그 앤 드롭하는 과정에 투명도를 추가했습니다. 이제 연결된 폴더로 이동한 문서는 완전히 이동될 때까지 문서 목록에 유지됩니다. 문서 옵션은 비활성화되어 있지만 문서를 이동하는 동안 볼 수 있도록 열 수 있습니다. 문서 전송이 완료되면 문서가 연결된 폴더에 완전히 위치하므로 문서 목록에서 사라집니다. </p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -390,22 +407,6 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">23.3 릴리스 일정 동안의 룩앤필 업데이트</a></p>
-                        <p>릴리스 기간 23.3 내에서 Adobe Workfront 애플리케이션의 다양한 영역의 모양과 느낌에 대한 작은 업데이트가 이루어지고 있습니다. 이러한 개선 사항은 미리보기에 릴리스한 후 최소 2주 후에 프로덕션 환경에서 사용할 수 있습니다. </p>
-                    </td>
-                    <td><p><b>다음 날짜에 사용 가능:</b></p>
-                        <ul>
-                            <li>
-                                <p>미리보기 릴리스: 23.3 릴리스 일정 전체<br /></p>
-                            </li>
-                            <li>
-                                <p><span class="preview">프로덕션 릴리스: 미리보기에 릴리스한 후 최소 2주(달리 지정되지 않은 경우)</span></p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                 <tr>
-                    <td>
                         <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md" class="MCXref xref" xrefformat="{para}">새로운 주석 달기 Beta 경험 개선 사항</a></p>
                         <p>업데이트 섹션의 개선 사항은 새로운 댓글 달기 베타 환경을 위해 23.3 릴리스 일정 내에 제공될 예정입니다. 이러한 개선 사항은 별도로 지정하지 않는 한 23.3 릴리스를 통해 프로덕션 환경에서 사용할 수 있습니다. 
  </p>
@@ -430,10 +431,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
                             <li>
-                                <p>미리보기 릴리스: 23.3 릴리스 일정 전체<br /></p>
+                                <p>미리보기 릴리스: 2023년 6월 5일<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">프로덕션 릴리스: 23.3 릴리스 포함(달리 명시되지 않은 경우)</span></p>
+                                <p><span class="preview">프로덕션 릴리스: 2023년 6월 5일</span></p>
                             </li>
                         </ul>
                     </td>
