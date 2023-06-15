@@ -2,9 +2,9 @@
 user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 feature-set: Workfront
-source-git-commit: a392ea004c8ab4a2d52bbdb650e21a2f182b8202
+source-git-commit: 2ce444ac32a0f2de64170f7c901b08063c7e04d3
 workflow-type: tm+mt
-source-wordcount: '13078'
+source-wordcount: '13085'
 ht-degree: 1%
 
 ---
@@ -125,6 +125,7 @@ ht-degree: 1%
          * [21.1 기타 개선 사항](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Fusion 릴리스 활동 {#fusion-release}
          * [Adobe Workfront Fusion 릴리스 활동](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+         * [Workfront Fusion 릴리스 활동: 2023년 6월 12일의 주](product-announcements/product-releases/fusion-release-activity/fusion-2023-6-12.md)
          * [Workfront Fusion 릴리스 활동: 2023년 5월 15일이 있는 주](product-announcements/product-releases/fusion-release-activity/fusion-2023-5-15.md)
          * [Workfront Fusion 릴리스 활동: 2023년 5월 1일이 있는 주](product-announcements/product-releases/fusion-release-activity/fusion-2023-5-2.md)
          * [Workfront Fusion 릴리스 활동: 2023년 4월 17일이 있는 주](product-announcements/product-releases/fusion-release-activity/fusion-2023-4-20.md)
