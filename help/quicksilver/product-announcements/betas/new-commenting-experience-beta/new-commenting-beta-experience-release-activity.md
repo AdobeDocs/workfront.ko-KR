@@ -6,9 +6,9 @@ description: Adobe Workfront의 새로운 댓글 달기 환경에 대한 주간 
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
+source-git-commit: 26e2a8ed6b0c6c1e4b51fc27b385b9753072faf9
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1203'
 ht-degree: 4%
 
 ---
@@ -44,10 +44,9 @@ ht-degree: 4%
    * 템플릿, 템플릿 작업, 프로그램, 포트폴리오, 팀, 사용자 및 타임시트에 대한 새로운 댓글 달기 경험(유일한 경험임)
 * 23.4 릴리스 포함(2023년 10월 초)
    * 템플릿, 템플릿 작업, 프로그램, 포트폴리오, 팀, 사용자 및 타임시트에 대한 새로운 댓글 달기 경험(유일한 경험임)
-  <!--wait for Ani to confirm this after June 19, 2023: * Add the new commenting experience to Home and the Summary panel. -->
+  <!--wait for Anna to confirm this after the teams are starting to work on this and will be closer to finish line; QBR is June 19, 2023, but wait until MUCH after this: * Add the new commenting experience to Home and the Summary panel. -->
 * 2023년 말:
-   * 기존 경험이 있는 오브젝트에서 기존 경험을 제거합니다.
-   * 프로젝트, 작업, 문제, 스토리, 문서, 템플릿, 템플릿 작업, 프로그램, 포트폴리오, 팀, 사용자, 타임시트, 목표, 카드 등의 오브젝트는 새로운 주석 달기 환경만 갖습니다.
+   * 프로젝트, 작업, 문제, 스토리, 문서, 템플릿, 템플릿 작업, 프로그램, 포트폴리오, 팀, 사용자, 타임시트, 목표, 카드 등의 오브젝트는 새로운 댓글 달기 환경을 기본 환경으로 가지고 있습니다. 기존 댓글 달기 환경은 옵션으로 유지됩니다.
 
   >[!NOTE]
   >
