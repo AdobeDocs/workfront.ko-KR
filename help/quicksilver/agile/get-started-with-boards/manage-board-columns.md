@@ -6,9 +6,9 @@ description: 새 보드에는 기본적으로 3개의 열이 있습니다. 열�
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: b3322b703380ad649df6313d2341bd2cbe25c860
+source-git-commit: 05cac2441474e0f6ecf18aa777a5a66fefb2dba8
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '937'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 새 보드에는 기본적으로 3개의 열이 있습니다. 열을 더 추가하고, 열의 순서를 변경하고, 열의 이름을 바꾸고, 필요하지 않은 열을 삭제할 수 있습니다.
 
 열 설정에는 정책이 포함되어 있으며, 정책을 사용하면 카드가 해당 열로 이동할 때 발생하는 상황에 대한 옵션을 정의할 수 있습니다.
+
+열에서 카드를 정렬하는 방법에 대한 자세한 내용은 [보드에서 필터링 및 검색](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
 ## 액세스 요구 사항
 
