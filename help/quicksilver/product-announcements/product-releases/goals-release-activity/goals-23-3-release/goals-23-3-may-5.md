@@ -7,9 +7,9 @@ description: 이 페이지에서는 미리보기 환경에 대한 Adobe Workfron
 author: Courtney
 feature: Product Announcements, Workfront Goals
 exl-id: 5fd2e141-af8d-4934-a5f6-a4cdf5820082
-source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
+source-git-commit: 3e6f4b8c8bfb9cb6106dbb9522d77f5133a886e3
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 업데이트 섹션 개선 사항
 
-목표의 업데이트 섹션에 대한 개선 사항이 23.3 릴리스 기간 내에 제공될 예정입니다. 이러한 개선 사항은 미리보기에 릴리스한 직후 프로덕션 환경에서 사용할 수 있습니다.
+목표의 업데이트 섹션에 대한 개선 사항은 23.3 릴리스 일정 내에 새로운 댓글 달기 베타 경험에 릴리스되는 업데이트와 동시에 사용할 수 있습니다. 이러한 개선 사항은 미리보기에 릴리스한 직후 프로덕션 환경에서 사용할 수 있습니다.
 
 목표에 사용할 수 있는 댓글 달기 개선 사항은 다른 Workfront 개체에 대한 새 댓글 달기 베타 경험과 함께 릴리스된 개선 사항과 동일합니다.
 

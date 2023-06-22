@@ -2,9 +2,9 @@
 user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 feature-set: Workfront
-source-git-commit: bb25e08bd81c6c5c2fa35fde7912e8607b894284
+source-git-commit: c75b418f02ea05905d712efe6fd608c8217ba310
 workflow-type: tm+mt
-source-wordcount: '13086'
+source-wordcount: '13071'
 ht-degree: 1%
 
 ---
@@ -20,15 +20,13 @@ ht-degree: 1%
       * [Adobe Workfront 분기 릴리스 준비](product-announcements/product-releases/release-readiness.md)
       * 23.3 릴리스 {#release-23-3}
          * [23.3 릴리스 개요](product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)
-         * [2023년 4월 10일의 23.3 릴리스 활동 주](product-announcements/product-releases/23.3-release-activity/23-3-apr-10.md)
-         * [2023년 4월 17일의 23.3 릴리스 활동 주](product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md)
-         * [2023년 4월 24일의 23.3 릴리스 활동 주](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md)
-         * [2023년 5월 1일의 23.3 릴리스 활동 주](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md)
-         * [2023년 5월 8일의 23.3 릴리스 활동 주](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md)
-         * [2023년 5월 15일의 23.3 릴리스 활동 주](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md)
-         * [2023년 5월 29일의 23.3 릴리스 활동 주](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md)
-         * [2023년 6월 5일의 23.3 릴리스 활동 주](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md)
-         * [2023년 6월 12일의 23.3 릴리스 활동 주](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-12.md)
+         * [23.3 관리자 개선 사항](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-admin-enhancements.md)
+         * [23.3 애자일 개선 사항](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md)
+         * [23.3 통합 개선 사항](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md)
+         * [23.3 프로젝트 개선 사항](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-project-enhancements.md)
+         * [23.3 모바일 개선 사항](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-mobile-enhancements.md)
+         * [23.3 기타 개선 사항](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md)
+         * [23.3 릴리스 일정 동안의 업데이트 확인](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
       * 23.2 릴리스 {#release-23-2}
          * [23.2 릴리스 개요](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
          * [23.2 관리자 개선 사항](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)
@@ -215,6 +213,7 @@ ht-degree: 1%
       * Workfront Proof 릴리스 활동 {#proof-release}
          * 증명(23.3 릴리스) {#proof-23-3-release}
             * [Adobe Workfront Proof 및 23.3 릴리스](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-overview.md)
+            * [Adobe Workfront Proof 23.3 릴리스 활동: 2023년 7월 17일의 주](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jul-17.md)
             * [Adobe Workfront Proof 23.3 릴리스 활동: 2023년 6월 5일 주](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md)
             * [Adobe Workfront Proof 23.3 릴리스 활동: 2023년 5월 8일 주](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md)
          * [Workfront 증명 릴리스 활동: 2021년 5월 17일이 있는 주](product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md)
@@ -341,7 +340,7 @@ ht-degree: 1%
       * [기능 예약이 더 이상 지원되지 않음](product-announcements/announcements/feature-removal-timeline.md)
       * [유지 관리 기간 FAQ](product-announcements/announcements/maintenance-window-faq.md)
       * [허용 목록에 추가하다에 증명을 추가하는 데 필요한 변경 사항](product-announcements/announcements/proofhq-domain-change-workfront.md)
-      * [새 Adobe Workfront 경험에서 공지 센터 메시지 구독 취소](product-announcements/announcements/unsubscribe-from-ac-messages.md)
+      * [새 Adobe Workfront 경험의 알림 센터 메시지 구독 취소](product-announcements/announcements/unsubscribe-from-ac-messages.md)
       * 공지 아카이브 {#announcement-archive}
          * [공지 아카이브](product-announcements/announcements/announcement-archive/announcement-archive.md)
          * [iOS 및 Android용 모바일 앱 업데이트 (2017년 8월 초)](product-announcements/announcements/announcement-archive/updated-mobile-app.md)

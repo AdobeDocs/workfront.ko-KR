@@ -1,19 +1,43 @@
 ---
-title: 23.3 릴리스 기간 동안 업데이트 확인 및 감지
-description: 23.3 릴리스 기간 동안 업데이트 확인 및 감지
+title: 23.3 릴리스 일정 동안의 업데이트 확인
+description: 23.3 릴리스 일정 동안의 업데이트 확인
 author: Courtney
 feature: Product Announcements
-source-git-commit: bb9f8b020a9fd25ff282bf522b92400ad7871f86
+exl-id: 77b43c01-4476-4243-b8c4-062afe786a1d
+source-git-commit: 0f4cdc190ad841a843c5c3d0195b4c654450aa83
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
 
+# 23.3 릴리스 일정 동안의 업데이트 확인
 
-# 23.3 릴리스 기간 동안 업데이트 확인 및 감지
+이 페이지에서는 23.3 릴리스 기간 내에 이루어진 Adobe Workfront 애플리케이션의 다양한 영역의 모양 및 느낌에 대한 작은 업데이트를 설명합니다. 이러한 개선 사항은 미리보기에 릴리스한 후 최소 2주 후에 프로덕션 환경에서 사용할 수 있습니다.
 
-이 페이지에서는 23.3 릴리스 시간 내에 Adobe Workfront 애플리케이션의 다양한 영역의 모양과 느낌에 대한 간단한 업데이트를 설명합니다. 이러한 개선 사항은 미리 보기로 릴리스한 후 최소 2주 후에 프로덕션 환경에서 사용할 수 있습니다.
+23.3 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [23.3 릴리스 개요](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
-23.3 릴리스에서 사용할 수 있는 모든 변경 사항 목록은 다음을 참조하십시오 [23.3 릴리스 개요](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+## 요청 목록에 대한 인터페이스 개선 사항
 
+>[!NOTE]
+>
+>미리보기 및 프로덕션 릴리스: 발표 예정(23.3 릴리스 전)
+
+제출된 요청 목록의 인터페이스가 개선되었습니다.
+
+향상된 기능은 다음과 같습니다.
+
+* 이제 페이지를 업로드할 때 로딩 표시기가 있습니다.
+* 복사 아이콘은 영구적이며 텍스트가 동반되며 요청을 선택하지 않으면 비활성화됩니다.
+
+자세한 내용은 [요청 복사 및 제출](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
+
+## 새 요청을 제출할 때 디자인이 업데이트됨
+
+>[!NOTE]
+>
+>미리보기 릴리스: 발표 예정(23.3 릴리스 전), 프로덕션 릴리스: 23.3 릴리스
+
+새 요청을 제출할 때 표시되는 새 요청 상자를 업데이트했습니다. 이제 인터페이스에 프로젝트에 새 문제를 추가할 때 표시되는 새 문제 상자가 일치합니다.
+
+자세한 내용은 [Adobe Workfront 요청 만들기 및 제출](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).

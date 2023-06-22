@@ -7,9 +7,9 @@ description: 이 페이지에서는 23.3 릴리스가 포함된 프로덕션 환
 author: Nolan
 feature: Product Announcements, Workfront Proof
 exl-id: 4d09b464-9c58-4a7c-9af5-549812826d33
-source-git-commit: ea47e5eae09b7acc9af70b46ecb70c4f8ffcbbea
+source-git-commit: 6f1327ea52dc17d8fac0c80d030c40ccb5b4da2a
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -34,10 +34,25 @@ ht-degree: 0%
                         </p>
                     </td>
                 </tr>
-                </tr>
-                 <tr>
+                <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Microsoft Office 증명에 대한 지원 변경</a><span style="color: #ff0000;"> 프로덕션의 새로운 기능!</span> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jul-17.md" class="MCXref xref" xrefformat="{para}">Desktop Proofing Viewer 업데이트 연기</a> </p>
+                        <p>사용자 피드백을 기반으로 Desktop Proofing Viewer에 대한 업데이트를 연기하는 옵션을 추가하고 있습니다. 이제 사용자는 업데이트를 지연하고 작업을 계속할 수 있지만 Desktop Proofing Viewer를 열 때마다 업데이트를 사용할 수 있다는 메시지가 표시됩니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 23.3 릴리스</p>
+                            </li>
+                            <li>
+                                <p>프로덕션 릴리스: 23.3 릴리스 포함</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Microsoft Office 증명에 대한 지원 변경</a></p>
                         <p>강력하고 확장 가능한 증명 처리 솔루션을 유지하기 위해 지원되는 Microsoft Office 파일 형식 및 파일 크기 제한을 변경하고 있습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -50,7 +65,8 @@ ht-degree: 0%
                             </li>
                         </ul>
                     </td>
-                </tr>                <tr>
+                </tr>                
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md">Desktop Proofing 뷰어 업데이트</a></p>
                         <p>Desktop Proofing Viewer가 버전 2.1.24로 업데이트되었습니다. 이 업데이트에는 대화형 증명 검토를 위한 Chrome v100 지원과 많은 문제 수정 사항이 포함되어 있습니다.</p>
