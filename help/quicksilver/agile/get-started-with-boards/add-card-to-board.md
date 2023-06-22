@@ -6,16 +6,14 @@ description: Ad Hoc 카드를 보드에 빠르게 추가하고 보드에 있는 
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: 80e0a053f39991d3ed8d9bd2a11a8da2d5de588e
+source-git-commit: c1fab97289f1806676f9d80ccaa640fffa5192e5
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '931'
 ht-degree: 0%
 
 ---
 
 # 보드에 애드혹 카드 추가
-
-{{highlighted-preview}}
 
 보드에 카드를 빠르게 추가하고 보드에 있는 멤버에게 카드를 할당할 수 있습니다. 카드는 작업, 문제, 개인, 그룹 또는 보드에 포함할 모든 유형의 항목을 나타낼 수 있습니다.
 
@@ -100,18 +98,18 @@ Ad Hoc 카드가 의 작업 항목에 연결되어 있지 않습니다. [!DNL Ad
       <td> <p>클릭 <strong>[!UICONTROL 체크리스트 항목 추가]</strong>. 그런 다음 항목의 제목을 입력하고 Enter 키를 누릅니다. 다른 항목이 자동으로 추가됩니다. 제목을 계속 입력하여 더 많은 항목을 추가합니다.</p> <p>체크리스트 상단에 있는 카운터는 완료된 항목 수와 전체 항목 수를 보여 준다.</p> <p>체크리스트 항목에 대한 자세한 내용은 <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">카드의 체크리스트 항목 관리</a>.</p> </td> 
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview"><strong>[!UICONTROL Comments]</strong></span> </td>
-      <td><span class="preview"><p>을(를) 클릭합니다. <strong>[!UICONTROL 새 주석]</strong> 필드에 댓글을 입력합니다. 서식 도구를 사용하여 텍스트 서식을 지정하고 <strong>첨부 파일 추가</strong> 아이콘 <img src="assets/attachment-icon.png" alt="첨부 파일 아이콘"> 파일을 주석에 첨부합니다. 사용자 또는 팀에 태그를 지정하려면 댓글 영역 하단에 있는 검색 상자를 사용합니다. 사용자는 보드에서 멤버일 필요가 없습니다.</p><p><strong>참고:</strong> 현재 Ad Hoc 카드에 댓글을 태그 지정한 사용자는 이메일 알림을 받지 못합니다.
+      <td role="rowheader"><strong>[!UICONTROL Comments]</strong></td>
+      <td><p>을(를) 클릭합니다. <strong>[!UICONTROL 새 주석]</strong> 필드에 댓글을 입력합니다. 서식 도구를 사용하여 텍스트 서식을 지정하고 <strong>첨부 파일 추가</strong> 아이콘 <img src="assets/attachment-icon.png" alt="첨부 파일 아이콘"> 파일을 주석에 첨부합니다. 사용자 또는 팀에 태그를 지정하려면 댓글 영역 하단에 있는 검색 상자를 사용합니다. 사용자는 보드에서 멤버일 필요가 없습니다.</p><p><strong>참고:</strong> 현재 Ad Hoc 카드에 댓글을 태그 지정한 사용자는 이메일 알림을 받지 못합니다.
       </p><p>클릭 <strong>[!UICONTROL Submit]</strong> 주석을 카드에 추가합니다.</p>
-      <p><strong>참고:</strong> 카드의 주석 달기 영역에서는 새로운 Adobe Workfront 주석 달기 경험을 사용합니다. 자세한 내용은 <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">새 댓글 달기 환경</a>.</p></span></td>
+      <p><strong>참고:</strong> 카드의 주석 달기 영역에서는 새로운 Adobe Workfront 주석 달기 경험을 사용합니다. 자세한 내용은 <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">작업 업데이트</a>.</p><p><strong>참고:</strong> 카드에 대한 댓글은 Workfront 보드에 대한 초기 기능 옵트인을 통해서만 사용할 수 있습니다.</p></td>
      </tr>
     </tbody> 
    </table>
 
-   프로덕션 환경의 샘플 이미지:
+   초기 기능 옵트인이 사용되지 않은 경우 프로덕션 환경의 샘플 이미지:
    ![애드혹 카드 세부 정보](assets/boards-edit-ad-hoc-card-041723.png)
 
-   <span class="preview">미리보기 환경의 샘플 이미지:</span>
+   초기 기능 옵트인이 활성화된 경우 프로덕션 환경의 샘플 이미지:
    ![애드혹 카드 세부 정보](assets/ad-hoc-card-details-with-comments.png)
 
    왼쪽 탐색 패널을 사용하여 카드 세부 정보에서 필드의 섹션 사이를 이동합니다.
