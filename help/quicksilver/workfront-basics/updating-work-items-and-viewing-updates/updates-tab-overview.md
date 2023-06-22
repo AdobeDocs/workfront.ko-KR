@@ -7,9 +7,9 @@ description: 객체의 업데이트 섹션에는 사용자가 객체에 대해 �
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: c73a63901523d99704f63f2e589b5a333619a19e
+source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1076'
 ht-degree: 4%
 
 ---
@@ -79,7 +79,7 @@ ht-degree: 4%
     </ul> </td> 
    <td> 
     <ul> 
-     <li>스토리</li> 
+     <li>스토리*</li> 
      <li>작업</li> 
      <li>템플릿</li> 
      <li>템플릿 작업</li> 
@@ -89,10 +89,13 @@ ht-degree: 4%
   </tr> 
  </tbody> 
 </table>
+*스토리는 작업입니다. 작업과 관련된 모든 정보를 스토리에 사용할 수도 있습니다.
 
 ### Beta 주석 달기 환경의 업데이트 섹션 개요
 
 ![](assets/updates-tab-after-unified-experience-for-issues.png)
+
+새 댓글 달기 환경에 사용할 수 있는 기능과 개체에 대한 자세한 내용은 [새 댓글 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 업데이트 섹션에는 새 댓글 달기 환경의 다음 탭에 정보가 표시됩니다.
 
@@ -109,7 +112,7 @@ ht-degree: 4%
    <td> 
     <ul> 
      <li><p>목표</p>
-     <li><span class="preview">보드 영역의 카드</span></li>
+     <li><span class="preview">보드 영역의 카드*</span></li>
       이는 목표의 유일한 경험입니다. <span class="preview">및 카드</span>.
      </li> 
      <li><span class="preview">프로젝트</span></li>
@@ -124,10 +127,7 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-
->[!NOTE]
->
->카드에서 주석 및 시스템 활동 섹션을 활성화하면 보드 영역에서 카드에 대한 업데이트를 추가하고 볼 수 있습니다. 자세한 내용은 [보드에 애드혹 카드 추가](../../agile/get-started-with-boards/add-card-to-board.md).
+*카드에 대한 설명 및 시스템 활동 섹션을 활성화하면 보드 영역에서 카드에 대한 업데이트를 추가하고 볼 수 있습니다. 자세한 내용은 [보드에 애드혹 카드 추가](../../agile/get-started-with-boards/add-card-to-board.md).
 
 ## 상위 등급 개체에도 표시되는 업데이트
 

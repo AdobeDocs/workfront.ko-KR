@@ -6,9 +6,9 @@ description: Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 7b64e27c441bdbd60884e8be3b2dbbf3b71134b6
+source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '934'
 ht-degree: 0%
 
 ---
@@ -181,7 +181,7 @@ Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석을 추가할
         자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. (선택 사항) **자세히** 메뉴 ![](assets/more-icon.png) 주석의 오른쪽에 있는 을(를) 클릭한 다음 **삭제** 주석을 삭제하려면 다음을 수행하십시오. 자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. (선택 사항) **답변** 기존 댓글에 회신하려면 위의 5-9단계를 따르십시오. <!--insure this stays accurate-->
+1. (선택 사항) **답변** 기존 댓글에 회신하려면 위의 5-9단계를 따르십시오. 업데이트 회신에 대한 자세한 내용은 [업데이트에 대한 회신](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md). <!--insure this stays accurate-->
 1. (조건부 및 선택 사항) 다른 사용자가 업데이트 섹션의 표시 영역 외부에 표시되는 주석을 추가한 경우 **보기** 파란색 안쪽에 **새 댓글 배너** 이 설명을 표시하려면 이 단추를 클릭하십시오.
 
    ![](assets/blue-new-comments-banner-with-view-button.png)

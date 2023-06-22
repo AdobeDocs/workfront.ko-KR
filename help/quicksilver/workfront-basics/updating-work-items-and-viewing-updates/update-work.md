@@ -6,9 +6,9 @@ description: Adobe Workfront 개체(프로젝트, 작업 또는 문제)에 업�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: c73a63901523d99704f63f2e589b5a333619a19e
+source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
 workflow-type: tm+mt
-source-wordcount: '3373'
+source-wordcount: '3413'
 ht-degree: 1%
 
 ---
@@ -188,6 +188,8 @@ drafted for P&P release:
 1. 업데이트에 회신하려면 다음을 참조하십시오. [업데이트에 대한 회신](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
 ### 댓글 달기 Beta 경험을 사용하여 작업 항목에 업데이트 추가
+
+새 댓글 달기 환경에 사용할 수 있는 기능과 개체에 대한 자세한 내용은 [새 댓글 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 1. 업데이트할 개체를 찾은 다음 개체 이름을 클릭하여 개체의 페이지를 엽니다.
 1. 클릭  **업데이트** 왼쪽 패널에서
@@ -388,6 +390,8 @@ drafted for P&P release:
 
 
 ### 새 댓글 달기 환경에서 업데이트 복사
+
+새 댓글 달기 환경에 사용할 수 있는 기능과 개체에 대한 자세한 내용은 [새 댓글 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 <!--when we remove and deprecate the legacy stream, add screen shots in the secitons below-->
 

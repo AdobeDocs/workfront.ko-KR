@@ -6,9 +6,9 @@ description: Adobe Workfront의 새로운 댓글 달기 환경에 대한 주간 
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 26e2a8ed6b0c6c1e4b51fc27b385b9753072faf9
+source-git-commit: 4e278a2418537fba0d8f2b8462571e4c843324a7
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1205'
 ht-degree: 4%
 
 ---
@@ -37,26 +37,70 @@ ht-degree: 4%
    * 문제에 대한 Experience Beta 주석 달기
    * 목표에 대한 새로운 댓글 달기 경험(유일한 경험으로)
 * 23.3 릴리스(2023년 7월 20일):
-   * 프로젝트, 작업, 스토리 및 문서에 대한 Experience Beta에 댓글을 달기
-   * 프로젝트, 작업, 문제, 스토리 및 문서에 대한 Experience Beta 댓글을 달 수 있는 것이 기본 옵션이 됩니다.
+   * 프로젝트, 작업 및 문서에 대한 Experience Beta에 댓글을 남깁니다.
    * 보드 영역의 카드에 대한 새로운 댓글 달기 경험(유일한 경험으로)
-* 23.4 릴리스 중(발표될 날짜) (제한된 릴리스<!--, only available to Fast Track customers-->):
+* 23.4 릴리스 중(발표될 날짜) (제한된 릴리스<!--, only available to customers that choose the fast release -->):
    * 템플릿, 템플릿 작업, 프로그램, 포트폴리오, 팀, 사용자 및 타임시트에 대한 새로운 댓글 달기 경험(유일한 경험임)
 * 23.4 릴리스 포함(2023년 10월 초)
    * 템플릿, 템플릿 작업, 프로그램, 포트폴리오, 팀, 사용자 및 타임시트에 대한 새로운 댓글 달기 경험(유일한 경험임)
   <!--wait for Anna to confirm this after the teams are starting to work on this and will be closer to finish line; QBR is June 19, 2023, but wait until MUCH after this: * Add the new commenting experience to Home and the Summary panel. -->
+   * 프로젝트, 작업, 문제 및 문서에 대한 Experience Beta 댓글을 달 수 있는 것이 기본 옵션이 됩니다.
 * 2023년 말:
-   * 프로젝트, 작업, 문제, 스토리, 문서, 템플릿, 템플릿 작업, 프로그램, 포트폴리오, 팀, 사용자, 타임시트, 목표, 카드 등의 오브젝트는 새로운 댓글 달기 환경을 기본 환경으로 가지고 있습니다. 기존 댓글 달기 환경은 옵션으로 유지됩니다.
+   * 레거시 댓글 달기 환경은 프로젝트, 작업, 문제 및 문서 개체에 대한 옵션으로 유지됩니다.
+
+     템플릿, 템플릿 작업, 프로그램, 포트폴리오, 팀, 사용자 및 타임시트, 목표, 카드에는 새로운 주석 달기 환경이 유일한 옵션으로 있습니다.
 
   >[!NOTE]
   >
   >    반복에는 기존 댓글 달기 환경이 계속 유지됩니다.
 
-다음 섹션에는 원본 릴리스 이후에 추가된 기능이 가장 최근에 릴리스된 기능부터 나열됩니다.
+다음 섹션에는 원본 릴리스 이후에 추가된 기능 목록이 포함되어 있으며 가장 최근에 릴리스된 기능부터 시작됩니다.
 
 ## 릴리스된 기능
 
 다음 정보는 새 댓글 달기 베타 경험에 포함된 기능을 매주 기반으로 릴리스 활동을 참조합니다. 이 페이지에는 추가된 새 기능과 새 댓글 달기 환경에 대해 해결된 문제가 나열됩니다.
+
+<!--
+### Week of June 19, 2023
+
+#### Quote comment content in a new reply 
+
+Now, you have the ability to copy the content of a comment and add it as a new quote to a reply in the same thread when using the new commenting experience.  
+
+For more information, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+
+Preview and Production: June 22, 2023 
+
+### Upcoming releases, after June 19, 2023
+
+<!--*****************CLOSE THIS COMMENT: restructure this section with actual weeks and dates, when we know them--
+
+The features described in this section are planned to release shortly after the week of June 19, 2023. 
+
+#### Add emojis to an update
+
+You can now add emojis to a comment using a Rich Text toolbar option in the new commenting experience. 
+
+For more information, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+Preview: To be announced 
+
+Production: To be announced. Before the 23.3 release.
+
+#### New commenting experience for additional objects 
+
+The new commenting experience will be available for the following objects, shortly after the 23.3 release to Production: template tasks, templates, timesheets, teams, users, programs, portfolios.  
+
+This will be the only commenting experience for these objects, as the legacy commenting experience is removed when you access them.  
+
+For more information, see [New commenting experience](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+
+Preview release: To be announced, after the 23.3 Production release (July 20, 2023)
+
+Production release for the Fast release customers: To be announced, after the 23.3 Production release  
+
+Production release for all customers: with the 23.4 release 
+-->
 
 ### 2023년 6월 12일 주
 

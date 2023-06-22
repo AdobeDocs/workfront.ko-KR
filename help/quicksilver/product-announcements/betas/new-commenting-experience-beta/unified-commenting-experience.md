@@ -6,9 +6,9 @@ description: Adobe Workfront의 댓글 달기 환경에 대한 업데이트가 �
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
+source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '620'
 ht-degree: 1%
 
 ---
@@ -425,7 +425,7 @@ Adobe Workfront의 댓글 달기 환경에 대한 업데이트가 현재 개발 
 
 * 업데이트 섹션에서 Beta 경험을 활성화할 때:
 
-   * 문제, <span class="preview">프로젝트, 작업, 스토리 및 문서</span>
+   * 문제, <span class="preview">프로젝트, 작업 및 문서</span>
 
   Workfront 개체의 업데이트 관리에 대한 자세한 내용은 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
