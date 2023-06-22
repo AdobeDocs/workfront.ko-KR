@@ -6,16 +6,16 @@ description: Adobe Workfront의 댓글 달기 환경에 대한 업데이트가 �
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
+source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '623'
 ht-degree: 1%
 
 ---
 
 # 새 댓글 달기 환경
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리보기 환경에서만 사용할 수 있습니다.</span>
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객은 미리보기 환경에서만 사용할 수 있습니다.</span>
 
 Adobe Workfront의 댓글 달기 환경에 대한 업데이트가 현재 개발 중입니다. 이 업데이트에는 선택한 객체의 업데이트 섹션에 새로운 인터페이스, 새로운 기능 및 향상된 성능이 포함되어 있습니다.
 
@@ -432,7 +432,7 @@ Adobe Workfront의 댓글 달기 환경에 대한 업데이트가 현재 개발 
 
 * 기본적으로 는 기본 댓글 달기 환경으로,
 
-   * 목표, <span class="preview">보드 영역의 카드</span>
+   * 보드 영역의 목표, 카드
 
   >[!NOTE]
   >

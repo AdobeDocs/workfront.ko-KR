@@ -6,7 +6,7 @@ description: 누군가 작업 개체에 대한 업데이트를 추가하거나 �
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
+source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
 workflow-type: tm+mt
 source-wordcount: '1214'
 ht-degree: 0%
@@ -36,9 +36,9 @@ ht-degree: 0%
 >     * 목록의 요약 패널
 >     * 타임시트의 요약 패널
 >
-> * 목표, <span class="preview">보드 영역의 카드</span>
+> * 보드 영역의 목표, 카드
 >
->   새로운 댓글 달기 경험은 목표에 대한 유일한 경험입니다. <span class="preview">및 카드</span>. Workfront 목표에 액세스하려면 추가 라이선스가 있어야 합니다. 자세한 내용은 [Workfront 목표를 사용하기 위한 요구 사항](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   새로운 댓글 달기 경험은 목표 및 카드에 대한 유일한 경험입니다. Workfront 목표에 액세스하려면 추가 라이선스가 있어야 합니다. 자세한 내용은 [Workfront 목표를 사용하기 위한 요구 사항](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
 >     카드에서 주석 및 시스템 활동 섹션을 활성화하면 보드 영역에서 카드에 대한 업데이트를 추가하고 볼 수 있습니다. 자세한 내용은 [보드에 애드혹 카드 추가](../../agile/get-started-with-boards/add-card-to-board.md).
 
