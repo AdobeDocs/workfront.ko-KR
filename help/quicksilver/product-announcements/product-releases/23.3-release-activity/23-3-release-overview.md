@@ -4,9 +4,9 @@ description: 23.3 릴리스 개요
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 2644afeda2c839ff45c9ee2a89d79b429daed1f0
+source-git-commit: d84450c8cb8a0a05e9372ebbef515e94fbc53f80
 workflow-type: tm+mt
-source-wordcount: '2525'
+source-wordcount: '2520'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 이 페이지의 개선 사항은 미리보기 환경에서 사용할 수 있습니다. 23.3 릴리스가 계획된 프로덕션 릴리스에 가까워지면 이 페이지가 추가 개선 사항으로 업데이트됩니다.
 
-23.3 릴리스 웨비나는 2023년 6월 29일에 열립니다. 다음을 수행할 수 있습니다. [여기서 웨비나 등록](https://wcc.on24.com/webcast/present?e=4212784&amp;k=62C9CAD129E5CEBBAB5D6776CDFCB645).
+23.3 릴리스 웨비나는 2023년 6월 29일에 열립니다. 다음을 수행할 수 있습니다. [여기서 웨비나 등록](https://webinars.on24.com/adobe_workfront/whatsnewin233?partnerref=exlreleaseoverview).
 
 <span class="preview">오프 사이클 기능(23.3 릴리스 날짜 이전에 프로덕션에 릴리스된 기능)은 노란색으로 강조 표시됩니다.</span>
 
