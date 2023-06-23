@@ -4,7 +4,7 @@ description: 23.3 릴리스 개요
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 8de827eb5c187030a1e8d8c8a414c9ddccaa3d80
+source-git-commit: 77ebeb8f9573d7b08b5d22a1522f1d416c6f99ee
 workflow-type: tm+mt
 source-wordcount: '2524'
 ht-degree: 0%
@@ -25,8 +25,10 @@ ht-degree: 0%
 
 * [관리자 개선 사항](#administrator-enhancements)
 * [애자일 개선 사항](#agile-enhancements)
+* [향상된 Financial Management](#financial-management-enhancements)
 * [통합 개선 사항](#integration-enhancements)
 * [프로젝트 개선 사항](#project-enhancements)
+* [모바일 개선 사항](#mobile-enhancements)
 * [기타 개선 사항](#other-enhancements)
 
 ### 관리자 개선 사항
@@ -111,7 +113,23 @@ ht-degree: 0%
                             </li>
                         </ul>
                     </td>
-                </tr>                
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">보드 열별 정렬</a><span style="color: #ff0000;"> 곧 출시 예정!</span></p>
+                        <p>보드에 있는 열의 카드를 정렬하는 기능을 추가했습니다. 정렬 기준 옵션을 선택하면 모든 열이 정렬됩니다. 단일 열을 정렬할 수 없으며 백로그 또는 접수 열이 정렬되지 않았습니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2023년 6월 22일</p>
+                            </li>
+                            <li>
+                                <p>모든 고객을 위한 프로덕션 릴리스: 23.3 릴리스 포함</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                             
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">이제 Adobe Workfront 보드에서 다크 모드를 사용할 수 있습니다.</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p>
@@ -130,24 +148,8 @@ ht-degree: 0%
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront 보드의 작업 스트림 반복 개선 사항</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p>
-                        <p>카드에 목표를 나열하지 않고도 반복에 목표를 추가할 수 있는 기능을 추가했습니다. 목표는 체크리스트 형식으로 추가되며 완료로 표시될 수 있습니다. 반복 오른쪽 상단의 지표 영역에는 몇 개의 목표가 있고 몇 개가 완료되었는지 표시됩니다. 또한 다음 이터레이션 열은 이터레이션 보드에서 사용할 수 있습니다.</p>
-                    </td>
-                    <td><p><b>다음 날짜에 사용 가능:</b></p>
-                        <ul>
-                            <li>
-                                <p>미리보기 릴리스: 2023년 6월 22일</p>
-                            </li>
-                            <li>
-                                <p>모든 고객을 위한 프로덕션 릴리스: 23.3 릴리스 포함</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>                
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">보드 열별 정렬</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p>
-                        <p>보드에 있는 열의 카드를 정렬하는 기능을 추가했습니다. 정렬 기준 옵션을 선택하면 모든 열이 정렬됩니다. 단일 열을 정렬할 수 없으며 백로그 또는 접수 열이 정렬되지 않았습니다.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront 보드의 작업 스트림 반복에서 사용할 수 있는 목표</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p>
+                        <p>카드에 목표를 나열하지 않고도 반복에 목표를 추가할 수 있는 기능을 추가했습니다. 목표는 체크리스트 형식으로 추가되며 완료로 표시될 수 있습니다. 반복 오른쪽 상단의 지표 영역에는 몇 개의 목표가 있고 몇 개가 완료되었는지 표시됩니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
@@ -299,6 +301,42 @@ ht-degree: 0%
             </tbody>
         </table>
 
+### 향상된 Financial Management
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">기능</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">릴리스 날짜</span>
+                        </p>
+                    </td>
+                 </tr>   
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">일자 유효 비용 및 청구 요금</a><span style="color: #ff0000;"> 곧 출시 예정!</span> </p>
+                        <p>이제 Workfront의 회사, 사용자 및 작업 역할 오브젝트에서 날짜 유효 비용 및 청구 요금을 사용할 수 있습니다. 날짜 유효 비율이 프로젝트에 적용되고 시간이 프로젝트 작업에 기록되면 각 기간에 대해 지정된 비율을 사용하여 비용 및 수익이 계산됩니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2023년 6월 29일</p>
+                            </li>
+                            <li>
+                                <p>Fast 릴리스 고객을 위한 프로덕션 릴리스: 23.3 프로덕션 릴리스 이후 발표될 예정입니다</p>
+                                <p>모든 고객을 위한 프로덕션 릴리스: 23.4 릴리스 포함</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+           </tbody>
+        </table>
+
 ### 통합 개선 사항
 
 <table>
@@ -445,24 +483,7 @@ ht-degree: 0%
                         <p><span class="bold">릴리스 날짜</span>
                         </p>
                     </td>
-                 </tr>   
-                 <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">일자 유효 비용 및 청구 요금</a><span style="color: #ff0000;"> 곧 출시 예정!</span> </p>
-                        <p>이제 Workfront의 회사, 사용자 및 작업 역할 오브젝트에서 날짜 유효 비용 및 청구 요금을 사용할 수 있습니다. 날짜 유효 비율이 프로젝트에 적용되고 시간이 프로젝트 작업에 기록되면 각 기간에 대해 지정된 비율을 사용하여 비용 및 수익이 계산됩니다.</p>
-                    </td>
-                    <td><p><b>다음 날짜에 사용 가능:</b></p>
-                        <ul>
-                            <li>
-                                <p>미리보기 릴리스: 2023년 6월 29일</p>
-                            </li>
-                            <li>
-                                <p>Fast 릴리스 고객을 위한 프로덕션 릴리스: 23.3 프로덕션 릴리스 이후 발표될 예정입니다</p>
-                                <p>모든 고객을 위한 프로덕션 릴리스: 23.4 릴리스 포함</p>
-                            </li>
-                        </ul>
-                    </td>
-                 </tr>   
+                 </tr>  
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">새 문서 승인</a> </p>

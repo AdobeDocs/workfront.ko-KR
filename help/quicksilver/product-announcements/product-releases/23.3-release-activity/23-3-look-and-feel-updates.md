@@ -4,9 +4,9 @@ description: 23.3 릴리스 일정 동안의 업데이트 확인
 author: Courtney
 feature: Product Announcements
 exl-id: 77b43c01-4476-4243-b8c4-062afe786a1d
-source-git-commit: 0f4cdc190ad841a843c5c3d0195b4c654450aa83
+source-git-commit: b34325813af7abd0e5107174734f06d6694acfd6
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리보기 및 프로덕션 릴리스: 발표 예정(23.3 릴리스 전)
+>미리 보기 릴리스 예정일: 2023년 6월 28일, 프로덕션 릴리스 예정일: 2023년 7월 13일
 
 제출된 요청 목록의 인터페이스가 개선되었습니다.
 
@@ -36,8 +36,16 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리보기 릴리스: 발표 예정(23.3 릴리스 전), 프로덕션 릴리스: 23.3 릴리스
+>미리보기 릴리스 예정일: 2023년 7월 5일, 프로덕션 릴리스 예정일: 23.3 릴리스
 
 새 요청을 제출할 때 표시되는 새 요청 상자를 업데이트했습니다. 이제 인터페이스에 프로젝트에 새 문제를 추가할 때 표시되는 새 문제 상자가 일치합니다.
 
 자세한 내용은 [Adobe Workfront 요청 만들기 및 제출](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+
+## 업데이트된 청구 요금 목록
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2023년 6월 29일, Fast 릴리스 고객을 위한 계획 프로덕션 릴리스: 23.3 프로덕션 릴리스 이후 발표될 예정, 모든 고객을 위한 계획 프로덕션 릴리스: 23.4 릴리스 포함
+
+이제 프로젝트 청구 요금 목록에 Workfront 전체의 다른 대부분의 목록에서 보다 현대적인 모양과 느낌이 있습니다.

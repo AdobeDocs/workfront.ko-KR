@@ -3,9 +3,9 @@ title: 23.3 애자일 개선 사항
 description: 23.3 애자일 개선 사항
 author: Lisa
 feature: Product Announcements
-source-git-commit: 0f4cdc190ad841a843c5c3d0195b4c654450aa83
+source-git-commit: b7c46cc7a29bdf67e023a01543dffc17be98999a
 workflow-type: tm+mt
-source-wordcount: '1270'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 23.3 릴리스의 모든 애자일 개선 사항에 대해 설명합니다. 이러한 개선 사항은 프로덕션 환경에서 23.3 릴리스를 통해 제공될 예정입니다.
 
 23.3 릴리스 주기 동안 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 을 참조하십시오. [23.3 릴리스 개요](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+
+분기별 릴리스 전에 새 보드 기능을 옵트인하는 방법에 대한 자세한 내용은 을 참조하십시오. [Adobe Workfront 보드에 대한 초기 기능 옵트인](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 ## 프로젝트의 애자일 보기에는 칸반 보드가 표시됩니다
 
@@ -28,24 +30,6 @@ ht-degree: 0%
 
 업데이트된 프로젝트 애자일 보기에 대한 설명서는 미리보기 릴리스와 함께 사용할 수 있습니다.
 
-## 이제 Adobe Workfront 보드에서 다크 모드를 사용할 수 있습니다.
-
-이제 모든 보드와 워크스트림을 어두운 모드로 표시할 수 있습니다. 새 설정은 보드 대시보드의 기본 설정을 통해 사용할 수 있습니다.
-
->[!NOTE]
->
->조직의 Workfront 인스턴스가 통합 경험 Adobe에 온보딩된 경우 환경 설정 메뉴(프로필 사진)를 통해 모든 Adobe Experience Cloud에 대해 어두운 테마 서식을 활성화할 수 있으며 Workfront 보드에 대한 별도의 어두운 모드 옵션이 표시되지 않습니다.
-
-자세한 내용은 [게시판 이메일 알림 및 환경 설정](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
-
-## Adobe Workfront 보드의 작업 스트림 반복 개선 사항
-
-카드에 목표를 나열하지 않고도 반복에 목표를 추가할 수 있는 기능을 추가했습니다. 목표는 체크리스트 형식으로 추가되며 완료로 표시될 수 있습니다. 반복 오른쪽 상단의 지표 영역에는 몇 개의 목표가 있고 몇 개가 완료되었는지 표시됩니다.
-
-또한 다음 이터레이션 열은 이터레이션 보드에서 사용할 수 있습니다. 이 열에 카드를 배치하면 카드가 자동으로 다음 반복으로 전달되고 백로그로 반환되지 않습니다. 다음 반복에서 카드가 해당 상태에 해당하는 열에 나타납니다.
-
-이 두 기능에 대한 자세한 내용은 [작업 스트림에 반복 만들기](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
-
 ## 보드 열별 정렬
 
 보드에 있는 열의 카드를 정렬하는 기능을 추가했습니다. 정렬 기준 옵션을 선택하면 모든 열이 정렬됩니다. 단일 열을 정렬할 수 없으며 백로그 또는 접수 열이 정렬되지 않았습니다.
@@ -56,6 +40,24 @@ ht-degree: 0%
 
 자세한 내용은 [보드에서 필터링 및 검색](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
+## 이제 Adobe Workfront 보드에서 다크 모드를 사용할 수 있습니다.
+
+이제 모든 보드와 워크스트림을 어두운 모드로 표시할 수 있습니다. 새 설정은 보드 대시보드의 기본 설정을 통해 사용할 수 있습니다.
+
+>[!NOTE]
+>
+>조직의 Workfront 인스턴스가 통합 경험 Adobe에 온보딩된 경우 환경 설정 메뉴(프로필 사진)를 통해 모든 Adobe Experience Cloud에 대해 어두운 테마 서식을 활성화할 수 있으며 Workfront 보드에 대한 별도의 어두운 모드 옵션이 표시되지 않습니다.
+
+자세한 내용은 [게시판 이메일 알림 및 환경 설정](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
+
+## Adobe Workfront 보드의 워크플로우 반복에서 사용할 수 있는 목표
+
+카드에 목표를 나열하지 않고도 반복에 목표를 추가할 수 있는 기능을 추가했습니다. 목표는 체크리스트 형식으로 추가되며 완료로 표시될 수 있습니다. 반복 오른쪽 상단의 지표 영역에는 몇 개의 목표가 있고 몇 개가 완료되었는지 표시됩니다.
+
+<!--Also, the Next Iteration column is now available on iteration boards. When you place a card in this column, it is automatically carried to the next iteration and does not return to the backlog. On the next iteration, the card appears in the column that corresponds with its status.-->
+
+자세한 내용은 [작업 스트림에 반복 만들기](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
+
 ## 보드에서 카드에 주석 추가
 
 >[!NOTE]
@@ -65,6 +67,8 @@ ht-degree: 0%
 이제 보드에서 애드혹 및 연결된 카드 모두에 주석을 추가하고 주석에서 다른 사용자에게 태그를 지정할 수 있습니다. 설명은 카드 세부 정보에서 확인할 수 있습니다. 보드에 대한 주석 기능은 새로운 Adobe Workfront 주석 달기 경험을 사용합니다.
 
 자세한 내용은 [보드에 애드혹 카드 추가](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) 및 [보드에서 연결된 카드 사용](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+
+[이 기능에 대한 비디오 데모 보기](https://video.tv.adobe.com/v/3420832/){target=_blank}
 
 ## 보드 태그 관리자 개선 사항
 
