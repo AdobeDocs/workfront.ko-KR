@@ -3,7 +3,7 @@ title: 23.3 Financial Management 개선 사항
 description: 23.3 Financial Management 개선 사항
 author: Lisa
 feature: Product Announcements
-source-git-commit: b7c46cc7a29bdf67e023a01543dffc17be98999a
+source-git-commit: 2644afeda2c839ff45c9ee2a89d79b429daed1f0
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
@@ -24,4 +24,4 @@ ht-degree: 0%
 
 새로운 기능인 요금 카드를 사용하면 위치에 따라 작업 역할당 여러 청구 요금을 정의할 수 있습니다. 작업 역할 및 위치에 대한 청구 요금에 유효 일자가 포함될 수도 있습니다. 프로젝트에 비율 카드를 부착하여 특정 작업 역할 및 위치에 대한 모든 비율 정보를 한 번에 적용할 수 있습니다. 또한 위치 기반 역할은 할당 수준에서 비율을 대체할 수 있는 가능성이 있는 작업에 할당할 수 있습니다.
 
-이러한 모든 기능은 2023년 7월 미리보기에 출시될 예정이며 그때 업데이트된 사용자 설명서를 사용할 수 있습니다.
+이러한 모든 기능은 2023년 7월 29일 미리보기에 출시될 예정이며 그때 업데이트된 사용자 설명서를 사용할 수 있습니다.

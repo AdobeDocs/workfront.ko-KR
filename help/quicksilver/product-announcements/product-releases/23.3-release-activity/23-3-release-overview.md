@@ -4,9 +4,9 @@ description: 23.3 릴리스 개요
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 77ebeb8f9573d7b08b5d22a1522f1d416c6f99ee
+source-git-commit: 2644afeda2c839ff45c9ee2a89d79b429daed1f0
 workflow-type: tm+mt
-source-wordcount: '2524'
+source-wordcount: '2525'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">보드 열별 정렬</a><span style="color: #ff0000;"> 곧 출시 예정!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">보드 열별 정렬</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p>
                         <p>보드에 있는 열의 카드를 정렬하는 기능을 추가했습니다. 정렬 기준 옵션을 선택하면 모든 열이 정렬됩니다. 단일 열을 정렬할 수 없으며 백로그 또는 접수 열이 정렬되지 않았습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
