@@ -6,9 +6,9 @@ description: Adobe Workfront의 새로운 댓글 달기 환경에 대한 주간 
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
+source-git-commit: 3793f68faf2ec0a8050f8f0c6e06a32579b43879
 workflow-type: tm+mt
-source-wordcount: '1411'
+source-wordcount: '1492'
 ht-degree: 3%
 
 ---
@@ -71,15 +71,25 @@ ht-degree: 3%
 
 이제 새로운 댓글 달기 경험을 사용할 때 동일한 스레드에서 댓글 콘텐츠를 복사하고 회신에 새 인용구로 추가할 수 있습니다.
 
-자세한 내용은 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+자세한 내용은 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 설명서는 릴리스 시점에 업데이트됩니다.
 
-미리보기 및 프로덕션: 2023년 6월 29일로 계획됨
+예정된 미리보기 및 프로덕션 릴리스: 2023년 6월 29일
+
+#### 시간 기록을 위한 새로운 인터페이스
+
+새 댓글 달기 환경의 업데이트 영역에서 시간을 기록하기 위한 인터페이스를 다시 설계했습니다.
+
+자세한 내용은 [로그 시간](../../../timesheets/create-and-manage-timesheets/log-time.md). 설명서는 릴리스 시점에 업데이트됩니다.
+
+예정된 미리보기 릴리스: 2023년 6월 29일
+
+계획된 프로덕션 릴리스: 23.3 릴리스 포함
 
 #### 업데이트에 이모지 추가
 
 이제 새 댓글 달기 환경에서 서식 있는 텍스트 도구 모음 옵션을 사용하여 댓글에 이모지를 추가할 수 있습니다.
 
-자세한 내용은 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+자세한 내용은 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 설명서는 릴리스 시점에 업데이트됩니다.
 
 미리보기: 발표 예정(23.3 릴리스 중)
 
@@ -91,11 +101,11 @@ ht-degree: 3%
 
 이러한 오브젝트에 액세스할 때 기존 댓글 달기 경험이 제거되므로 이 환경은 유일한 댓글 달기 경험이 됩니다.
 
-자세한 내용은 [새 댓글 달기 환경](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+자세한 내용은 [새 댓글 달기 환경](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 설명서는 릴리스 시점에 업데이트됩니다.
 
 미리보기 릴리스: 23.3 프로덕션 릴리스 이후 발표됩니다(2023년 7월 20일)
 
-Fast 릴리스 고객을 위한 프로덕션 릴리스: 23.3 프로덕션 릴리스 이후 발표될 예정입니다
+Fast 릴리스 고객을 위한 프로덕션 릴리스: 23.3 릴리스 이후 발표될 예정입니다
 
 모든 고객을 위한 프로덕션 릴리스: (23.4 릴리스 포함)
 
