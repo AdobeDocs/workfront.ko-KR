@@ -6,7 +6,7 @@ description: 완료 버튼을 사용하면 작업 또는 문제의 상태를 자
 author: Lisa
 feature: People Teams and Groups
 exl-id: 2e72854a-2d49-4665-b307-b88f660b141e
-source-git-commit: 3793f68faf2ec0a8050f8f0c6e06a32579b43879
+source-git-commit: 1f749ba9a54ce75a917e4b1e95713ac7abeaa66b
 workflow-type: tm+mt
 source-wordcount: '1168'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 특정 권한이 있는 사용자는 [!UICONTROL 완료] 시스템의 특정 상태를 반영하는 버튼. 다음과 같은 세 가지 방법이 있습니다. [!UICONTROL 완료] 버튼은 의 문제에 대해 작동합니다. [!DNL Workfront]:
 
 * 사용자에게 할당된 이(가) 있는 경우 [!UICONTROL 홈 팀], a [!DNL Workfront] 관리자 또는 을 가진 사용자 [!UICONTROL 플랜] 라이선스에서 다음을 구성할 수 있습니다. [!UICONTROL 완료] 단추를 클릭하여 팀 구성원의 특정 상태를 반영합니다. 다음을 참조하십시오 [구성 [!UICONTROL 완료] 팀용 단추](#configure-the-uicontrol-done-button-for-a-team) 이 문서에서.
-* 사용자에게 다음이 없는 경우 [!UICONTROL 홈 팀], 하지만[!UICONTROL 다른 팀] Workfront은 프로필에서 [!UICONTROL 완료] 사용자와 연결된 모든 팀의 단추입니다. 선택은 임의이며 팀과 연결된 상태가 문제에 사용됩니다.
+* 사용자에게 다음이 없는 경우 [!UICONTROL 홈 팀], 하지만 [!UICONTROL 다른 팀] Workfront은 프로필에서 [!UICONTROL 완료] 사용자와 연결된 모든 팀의 단추입니다. 선택은 임의이며 팀과 연결된 상태가 문제에 사용됩니다.
 * 사용자에게 다음이 없는 경우 [!UICONTROL 홈 팀] 할당됨, [!UICONTROL 완료] 문제 버튼은 시스템 생성 버튼과 연결되어 있습니다 [!UICONTROL 해결됨] 세 글자로 된 코드가 있는 상태 [!UICONTROL RLV]. 이 시나리오에는 사용 가능한 구성 옵션이 없습니다. 다음 [!UICONTROL 완료] 버튼의 기본값은 자동으로 이 상태로 설정됩니다.
 * 다음과 같은 경우 [!UICONTROL 해결됨] ([!UICONTROL RLV]) 상태가 삭제되고 사용자가 문제를 다음으로 표시 [!UICONTROL 완료] 없음 [!UICONTROL 홈 팀], 기본 문제 상태는 기본값으로 설정된 모든 항목에 연결되어 있습니다. [!UICONTROL 종료됨] 이 문제가 속한 프로젝트에 할당된 그룹의 경우. Workfront 관리자는 그룹에 대한 시스템 전체 기본 설정을 구성할 수 있습니다. 다음을 참조하십시오 [구성 [!UICONTROL 완료] 단추를 클릭합니다. [!UICONTROL 해결됨] 상태가 삭제되었습니다.](#configure-the-uicontrol-done-button-when-the-uicontrol-resolved-status-has-been-deleted) 이 문서에서.
 
