@@ -3,9 +3,9 @@ title: 23.3 애자일 개선 사항
 description: 23.3 애자일 개선 사항
 author: Lisa
 feature: Product Announcements
-source-git-commit: b7c46cc7a29bdf67e023a01543dffc17be98999a
+source-git-commit: bcd3484316089140a58ecda8c4420d69dd65e373
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1303'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,8 @@ ht-degree: 0%
 
 자세한 내용은 [보드에서 필터링 및 검색](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
+[이 기능에 대한 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3420932/){target=_blank}
+
 ## 이제 Adobe Workfront 보드에서 다크 모드를 사용할 수 있습니다.
 
 이제 모든 보드와 워크스트림을 어두운 모드로 표시할 수 있습니다. 새 설정은 보드 대시보드의 기본 설정을 통해 사용할 수 있습니다.
@@ -54,7 +56,7 @@ ht-degree: 0%
 
 카드에 목표를 나열하지 않고도 반복에 목표를 추가할 수 있는 기능을 추가했습니다. 목표는 체크리스트 형식으로 추가되며 완료로 표시될 수 있습니다. 반복 오른쪽 상단의 지표 영역에는 몇 개의 목표가 있고 몇 개가 완료되었는지 표시됩니다.
 
-<!--Also, the Next Iteration column is now available on iteration boards. When you place a card in this column, it is automatically carried to the next iteration and does not return to the backlog. On the next iteration, the card appears in the column that corresponds with its status.-->
+또한 다음 이터레이션 열은 이터레이션 보드에서 사용할 수 있습니다. 이 열에 카드를 배치하면 카드가 자동으로 다음 반복으로 전달되고 백로그로 반환되지 않습니다. 다음 반복에서 카드가 해당 상태에 해당하는 열에 나타납니다.
 
 자세한 내용은 [작업 스트림에 반복 만들기](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 

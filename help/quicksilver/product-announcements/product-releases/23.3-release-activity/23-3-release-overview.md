@@ -4,9 +4,9 @@ description: 23.3 릴리스 개요
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: d84450c8cb8a0a05e9372ebbef515e94fbc53f80
+source-git-commit: bcd3484316089140a58ecda8c4420d69dd65e373
 workflow-type: tm+mt
-source-wordcount: '2520'
+source-wordcount: '2538'
 ht-degree: 0%
 
 ---
@@ -132,32 +132,32 @@ ht-degree: 0%
                 </tr>                             
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">이제 Adobe Workfront 보드에서 다크 모드를 사용할 수 있습니다.</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">이제 Adobe Workfront 보드에서 다크 모드를 사용할 수 있습니다.</a></p>
                         <p>이제 모든 보드와 워크스트림을 어두운 모드로 표시할 수 있습니다. 새 설정은 보드 대시보드의 기본 설정을 통해 사용할 수 있습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
                             <li>
-                                <p>미리보기 릴리스: 2023년 6월 22일</p>
+                                <p>미리보기 릴리스: 2023년 6월 22일<span style="color: #ff0000;"> 이 기능은 미리보기에서 제거되었으며 23.3과 함께 릴리스되지 않습니다.</span></p>
                             </li>
                             <li>
-                                <p>모든 고객을 위한 프로덕션 릴리스: 23.3 릴리스 포함</p>
+                                <p>모든 고객을 위한 프로덕션 릴리스: 해당 사항 없음</p>
                             </li>
                         </ul>
                     </td>
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront 보드의 작업 스트림 반복에서 사용할 수 있는 목표</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront 보드의 작업 스트림 반복에서 사용할 수 있는 목표</a></p>
                         <p>카드에 목표를 나열하지 않고도 반복에 목표를 추가할 수 있는 기능을 추가했습니다. 목표는 체크리스트 형식으로 추가되며 완료로 표시될 수 있습니다. 반복 오른쪽 상단의 지표 영역에는 몇 개의 목표가 있고 몇 개가 완료되었는지 표시됩니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
                             <li>
-                                <p>미리보기 릴리스: 2023년 6월 22일</p>
+                                <p>미리보기 릴리스: 2023년 6월 22일<span style="color: #ff0000;"> 이 기능은 미리보기에서 제거되었으며 23.3과 함께 릴리스되지 않습니다.</span></p>
                             </li>
                             <li>
-                                <p>모든 고객을 위한 프로덕션 릴리스: 23.3 릴리스 포함</p>
+                                <p>모든 고객을 위한 프로덕션 릴리스: 해당 사항 없음</p>
                             </li>
                         </ul>
                     </td>
