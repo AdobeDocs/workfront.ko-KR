@@ -7,16 +7,14 @@ description: 반복은 작업을 완료하기 위해 예약된 설정된 시간�
 author: Lisa
 feature: Agile
 exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
-source-git-commit: 563e0f443ecef9ee99e9f9bfb5a0d579aa50cef4
+source-git-commit: 0ca3428d7442564a9753db04790fd40839ae24ea
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 0%
+source-wordcount: '369'
+ht-degree: 1%
 
 ---
 
 # 작업 스트림에 반복 만들기
-
-{{highlighted-preview}}
 
 반복은 작업을 완료하기 위해 예약된 설정된 시간입니다. 일부 애자일 팀은 반복을 스프린트로 지칭할 수 있습니다.
 
@@ -90,12 +88,13 @@ ht-degree: 0%
 
    반복이 시작되면 일자 또는 반복 길이가 아닌 반복 이름만 변경할 수 있습니다.
 
-1. <span class="preview">반복에 목표를 추가하려면 다음을 확장합니다. [!UICONTROL **목표**].</span>
-1. <span class="preview">클릭 [!UICONTROL **목표 추가**]&#x200B;을 클릭하고 목표 이름을 입력합니다.</span>
+<!--   
 
-   <span class="preview">목표가 이터레이션 중에 완료될 때 확인란을 선택하여 완료로 표시하거나 **삭제** 아이콘 ![삭제 아이콘](assets/delete.png) 을 클릭하여 목표를 삭제합니다. 반복 오른쪽 상단의 지표 영역에는 몇 개의 목표가 있고 몇 개가 완료되었는지 표시됩니다.</span>
+1. <span class="preview">To add goals to the iteration, expand [!UICONTROL **Goals**].</span>
+1. <span class="preview">Click [!UICONTROL **Add goal**], and type the goal name.</span>
 
-<!--
+   <span class="preview">As goals are completed during the iteration, you can select the check box to mark them complete, or click the **Delete** icon ![Delete icon](assets/delete.png) to delete a goal. The metrics area on the top right of the iteration shows how many goals exist and how many have been completed.</span>
+
 <div class="preview">
 
 ## Assign cards to the next iteration

@@ -6,16 +6,14 @@ title: 게시판 이메일 알림 및 환경 설정
 description: Adobe Workfront 보드는 보드에 추가되거나 카드에 할당되면 이메일을 보냅니다.
 author: Lisa
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: e5e8819db11f39734d9fcada833a2cb808bc88fe
+source-git-commit: 0ca3428d7442564a9753db04790fd40839ae24ea
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 0%
+source-wordcount: '181'
+ht-degree: 1%
 
 ---
 
 # 게시판 이메일 알림 및 환경 설정
-
-{{highlighted-preview}}
 
 [!DNL Adobe Workfront] [!UICONTROL 게시판] 귀하가 보드에 추가되거나 카드에 할당되면 이메일을 전송합니다. 알림은 기본적으로 켜져 있으며 보드 환경 설정에서 수신할 이메일을 선택할 수 있습니다.
 
@@ -59,19 +57,23 @@ ht-degree: 0%
 
    이메일에 대해 설정한 환경 설정은 모든 보드에 적용됩니다.
 
+<!--
+
 <div class="preview">
 
-## 어두운 모드 환경 설정
+## Set the dark mode preference
 
 >[!NOTE]
 >
->조직의 Workfront 인스턴스가 통합 경험 Adobe에 온보딩된 경우 환경 설정 메뉴(프로필 사진)를 통해 모든 Adobe Experience Cloud에 대해 어두운 테마 서식을 활성화할 수 있으며 Workfront 보드에 대한 별도의 어두운 모드 옵션이 표시되지 않습니다. 자세한 내용은 [Workfront용 통합 경험 Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+>If your organization's instance of Workfront has been onboarded to the Adobe Unified Experience, you can enable dark theme formatting for all of Adobe Experience Cloud through your preferences menu (your profile picture), and you will not see a separate dark mode option for Workfront Boards. For more information, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 {{step1-to-boards}}
 
-1. 클릭 [!UICONTROL **환경 설정**] 게시판 대시보드에서.
-1. 테마 영역에서 어두운 모드를 활성화하거나 비활성화합니다.
+1. Click [!UICONTROL **Preferences**] on the boards dashboard.
+1. In the Themes area, enable or disable Dark mode.
 
-   어두운 모드에 대해 설정한 기본 설정은 모든 보드와 작업 스트림, 대시보드에 적용됩니다.
+   The preference you set for dark mode applies to all of your boards and workstreams, and the dashboard.
 
 </div>
+
+-->
