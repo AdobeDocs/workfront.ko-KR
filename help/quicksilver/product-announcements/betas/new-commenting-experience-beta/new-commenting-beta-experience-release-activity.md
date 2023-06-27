@@ -5,8 +5,9 @@ title: 새로운 댓글 달기 경험 릴리스 활동
 description: Adobe Workfront의 새로운 댓글 달기 환경에 대한 주간 릴리스 활동을 검토합니다.
 author: Alina
 feature: Product Announcements
+role: User
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 63e3575addf8aaaa3eda1a9e52d57619c48ded91
+source-git-commit: 742565b06395e5092152b1d04262344dc1020d74
 workflow-type: tm+mt
 source-wordcount: '1500'
 ht-degree: 3%

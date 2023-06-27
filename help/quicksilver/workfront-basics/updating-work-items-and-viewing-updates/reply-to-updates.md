@@ -5,8 +5,10 @@ title: 업데이트에 대한 회신
 description: 누군가 작업 개체에 대한 업데이트를 추가하거나 답장을 보내면 해당 개체의 업데이트 섹션에 있는 통신 스레드에 답장이 나타납니다. 오브젝트에 대한 보기 액세스 권한이 있는 경우 업데이트 또는 좋아요 표시에 회신을 추가할 수 있습니다.
 author: Lisa and Alina
 feature: Get Started with Workfront
+role: User
+topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
+source-git-commit: 742565b06395e5092152b1d04262344dc1020d74
 workflow-type: tm+mt
 source-wordcount: '1214'
 ht-degree: 0%
@@ -111,7 +113,7 @@ ht-degree: 0%
 
 1. 회신을 추가할 객체로 이동합니다.
 1. 클릭 **업데이트**&#x200B;을(를) 클릭하고 **댓글** 을 탭하여 개체에서 답글을 달거나 답글을 달 수 있습니다.
-   <!-- Ensure this link is called and cased the same way as  before: 1. (Optional) To include text from a previous update in your reply, click the **More** menu next to the update or reply you want to quote, then click **Quote Reply**. Text from the previous update appears in the input area, marked with a vertical gray line.-->
+   <!--1. (Optional) To include text from a previous update in your reply, click the **More** menu next to the update or reply you want to quote, then click **Quote reply**. Text from the previous update appears in the input area, marked with a vertical gray line.-->
 1. 클릭 **답변**.
 
    대화에 적극적으로 참여하는 사용자를 아래 부분에서 확인할 수 있습니다 **새 댓글** 상자를 선택하면 더 이상 관련이 없는 항목을 추가하거나 제거할 수 있습니다. 이러한 사용자는 오브젝트에 가입된 사용자와 함께 오브젝트에 대한 업데이트 또는 회신이 이루어질 때마다 알림을 받습니다. 더 많은 사용자에 태그를 지정하여 회신에 추가할 수도 있습니다.  더 많은 사용자에 태그를 지정하려면 다음을 참조하십시오. [업데이트에 다른 사용자 태그 지정](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).

@@ -5,10 +5,11 @@ title: 새 댓글 달기 환경
 description: Adobe Workfront의 댓글 달기 환경에 대한 업데이트가 현재 개발 중입니다. 이 업데이트에는 선택한 객체의 업데이트 섹션에 새로운 인터페이스, 새로운 기능 및 향상된 성능이 포함되어 있습니다.
 author: Alina
 feature: Product Announcements
+role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 63e3575addf8aaaa3eda1a9e52d57619c48ded91
+source-git-commit: 742565b06395e5092152b1d04262344dc1020d74
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '673'
 ht-degree: 1%
 
 ---
@@ -61,12 +62,12 @@ Adobe Workfront의 댓글 달기 환경에 대한 업데이트가 현재 개발 
 >
 >아래 나열된 객체에는 Beta 경험을 활성화할 때 사용할 수 있는 지난 해(2022년 6월 시작)의 주석 및 시스템 업데이트만 있습니다.
 >
+>현재 경험의 업데이트 섹션을 볼 때 2022년 6월 이전에 이러한 오브젝트에 대한 주석 및 시스템 업데이트를 볼 수 있습니다.
 >* 문제
 >* <span class="preview">프로젝트</span>
 >* <span class="preview">작업</span>
 >* <span class="preview">문서</span>
->
->현재 경험의 업데이트 섹션을 볼 때 2022년 6월 이전의 주석 및 시스템 업데이트를 볼 수 있습니다.
+
 
 
 다음 표는 새 댓글 달기 환경에서 사용할 수 있는 기능과 지원되는 영역에서 사용할 수 있는 기능을 보여 줍니다.
@@ -135,7 +136,7 @@ Adobe Workfront의 댓글 달기 환경에 대한 업데이트가 현재 개발 
    </td>
    <td>✓ 
    </td>
-   <td> 
+   <td> <!--<span class="preview">✓</span>-->
    </td>
    <td> ✓
    </td>

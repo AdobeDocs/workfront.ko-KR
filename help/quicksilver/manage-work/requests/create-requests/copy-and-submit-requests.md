@@ -1,13 +1,14 @@
 ---
 title: 요청 복사 및 제출
-description: 요청 복사 및 제출
+description: 유사한 요청을 자주 제출하는 경우 제출된 기존 요청을 복사할 수 있습니다. 이 경우 기존 요청을 복사하고 최소 변경 내용을 적용한 다음 새 요청으로 다시 제출할 수 있습니다.
 author: Alina
-draft: Probably
 feature: Work Management
+role: User
+topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
+source-git-commit: 742565b06395e5092152b1d04262344dc1020d74
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1339'
 ht-degree: 2%
 
 ---
@@ -121,7 +122,7 @@ ht-degree: 2%
 1. (조건부) 제출됨 섹션이 기본적으로 표시되지 않으면 **제출됨** 왼쪽 패널에서
 1. 새로 복사하여 제출할 요청을 찾은 후 다음 중 하나를 수행합니다.
 
-   * 선택한 다음 **새 항목으로 복사 및 제출** 아이콘 ![](assets/copy-and-submit-as-new-requests-area-nwe.png) 을 클릭합니다. <!--update this icon AND change its name to "Copy" with the 23.3 preview release, or shortly after-->
+   * 선택한 다음 **새 항목으로 복사 및 제출** 아이콘 ![](assets/copy-and-submit-as-new-requests-area-nwe.png) 을 클릭합니다. <!--update this icon the 23.3 preview release, or shortly after: replace this step with this: Select it, then click the **Copy** icon ![](assets/copy-and-submit-as-new-requests-area-nwe.png) in the upper-left corner of the Submitted requests list.-->
 
    <!-- reveal this tip for 23.3 preview release:
    >[!TIP]
