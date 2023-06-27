@@ -3,24 +3,24 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: workfront-fusion-basics
 title: 에서 사용자 데이터 삭제 [!DNL Adobe Workfront Fusion]
-description: 사용자 데이터를 [!DNL Adobe Workfront Fusion] 계정이 필요합니다.
+description: 에서 사용자 데이터를 저장하고 삭제할 수 있습니다. [!DNL Adobe Workfront Fusion] 계정입니다.
 author: Becky
 feature: Workfront Fusion
 exl-id: 4b0a0abe-a913-429b-b02e-809b2e7410af
-source-git-commit: aa58a64ea6b09192f93fa89a42a4bf6731052d10
+source-git-commit: 759472ada4595625e3a02b55c455564e24343743
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '202'
 ht-degree: 1%
 
 ---
 
 # 에서 사용자 데이터 삭제 [!DNL Adobe Workfront Fusion]
 
-사용자 데이터는 [!DNL Adobe Workfront Fusion] 계정:
+의 다음 영역에서 사용자 데이터를 저장하고 삭제할 수 있습니다. [!DNL Adobe Workfront Fusion] 계정:
 
 * [!UICONTROL 시나리오]
 * [!UICONTROL 연결]
-* [!UICONTROL Webhooks]
+* [!UICONTROL 웹훅]
 * [!UICONTROL 키]
 * [!UICONTROL 장치]
 * [!UICONTROL 데이터 저장소]
@@ -43,19 +43,23 @@ ht-degree: 1%
    <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] 라이센스**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] 작업 자동화 및 통합을 위한] </p><p>[!UICONTROL [!DNL Workfront Fusion] 작업 자동화를 위한]</p>   </td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] 라이선스**</td> 
+   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p><p>[!UICONTROL [!DNL Workfront Fusion] 작업 자동화용]</p>   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">제품</td> 
-   <td>조직이 구매해야 합니다 [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 을 참조하십시오.</td> 
+   <td>
+   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime]이 있는 경우 [!DNL Adobe Workfront] 플랜, 조직은 다음을 구매해야 합니다. [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오. [!DNL Workfront Fusion] [!UICONTROL Ultimate]에 포함되어 있습니다. [!DNL Workfront] 계획.</p>
+   <p>또는</p>
+   <p>레거시 제품 요구 사항: 조직에서 구매해야 함 [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-어떤 계획, 라이센스 유형 또는 액세스 권한을 보유하고 있는지 확인하려면 [!DNL Workfront] 관리자
+보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
 
-에 대한 자세한 정보 [!DNL Adobe Workfront Fusion] 라이센스 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+다음에 대한 정보: [!DNL Adobe Workfront Fusion] 라이센스, 참조 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## 사용자 데이터 삭제
 
@@ -63,7 +67,7 @@ ht-degree: 1%
 
 1. 왼쪽 패널에서 영역을 클릭합니다 .
 
-   예를 들어 시나리오를 삭제하려면 **[!UICONTROL 시나리오]** 왼쪽 패널에 표시됩니다.
+   예를 들어, 시나리오를 삭제하려면 **[!UICONTROL 시나리오]** 왼쪽 패널에서
 
-1. 삭제할 항목 오른쪽에 있는 아래쪽 화살표를 클릭한 다음 **[!UICONTROL 삭제]**.
-1. 클릭 **[!UICONTROL 정말]** 확인합니다.
+1. 삭제할 항목의 오른쪽에 있는 아래쪽 화살표를 클릭한 다음 를 클릭합니다 **[!UICONTROL 삭제]**.
+1. 클릭 **[!UICONTROL 정말로요]** 확인할 수 있습니다.

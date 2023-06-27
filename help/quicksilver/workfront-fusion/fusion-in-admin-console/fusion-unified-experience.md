@@ -7,16 +7,16 @@ description: Adobe Experience Cloud을 통해 Workfront Fusion에 액세스하�
 author: Becky
 feature: Workfront Fusion
 exl-id: ea89cf36-f08d-4f4c-b89f-4895b5947e7a
-source-git-commit: 2ce444ac32a0f2de64170f7c901b08063c7e04d3
+source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '495'
 ht-degree: 1%
 
 ---
 
 # [!DNL Workfront Fusion]에 대한 [!DNL Adobe Unified Experience]
 
-액세스 [!DNL Workfront Fusion] 에서 [!DNL Adobe Experience Cloud] 는 모든 광고를 관리할 수 있는 매끄럽고 통합된 환경을 제공합니다[!DNL]obe 애플리케이션. 단일 ID 관리를 사용하면 여러 URL이나 로그인 ID 없이 한 곳에서 로그인할 수 있습니다.
+액세스 [!DNL Workfront Fusion] 에서 [!DNL Adobe Experience Cloud] 는 모든 환경을 완벽하게 관리할 수 있는 통합 환경을 제공합니다. [!DNL Adobe] 응용 프로그램. 단일 ID 관리를 사용하면 여러 URL이나 로그인 ID 없이 한 곳에서 로그인할 수 있습니다.
 
 의 탐색을 설명하는 비디오용 [!DNL Fusion] 다음에서 [!DNL Adobe Experience Cloud]를 참조하십시오.
 
@@ -40,11 +40,18 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 라이센스**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p> <p>[!UICONTROL [!DNL Workfront Fusion] 작업 자동화용] </p>  </td> 
+   <td>
+   <p>현재 라이선스 요구 사항: 아니요 [!DNL Workfront Fusion] 라이센스 요구 사항.</p>
+   <p>또는</p>
+   <p>기존 라이선스 요구 사항: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p> 
   </tr> 
   <tr> 
    <td role="rowheader">제품</td> 
-   <td>조직은 다음을 구매해야 합니다. [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오.</td> 
+   <td>
+   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime]이 있는 경우 [!DNL Adobe Workfront] 플랜, 조직은 다음을 구매해야 합니다. [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오. [!DNL Workfront Fusion] [!UICONTROL Ultimate]에 포함되어 있습니다. [!DNL Workfront] 계획.</p>
+   <p>또는</p>
+   <p>레거시 제품 요구 사항: 조직에서 구매해야 함 [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>

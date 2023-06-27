@@ -9,9 +9,9 @@ description: Adobe Workfront Fusion HTTP 모듈에서 Mutual TLS를 사용하여
 author: Becky
 feature: Workfront Fusion
 exl-id: ace9c404-34de-4bc5-bc77-2e53df36dbd9
-source-git-commit: 790f5da3af32ffdfcbb596f467f882a7408e3f28
+source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '663'
 ht-degree: 0%
 
 ---
@@ -33,11 +33,10 @@ ht-degree: 0%
 >**예:**
 >
 >* **TLS**: 브라우저에 &quot;MyGreatBank.com&quot;을 입력하면 뱅킹 정보를 오용하거나 판매할 수 있는 웹 사이트가 아니라 My Great Bank로 이동하는지 확인하려고 합니다. 그들은 또한 그들의 은행 계좌 정보가 암호화되어 있는지 확인하기를 원한다.
-   >
-   >   브라우저(클라이언트)가 MyGreatBank.com(서버)에 연결하면 TLS는 MyGreatBank.com에서 인증서를 요청하여 ID를 확인합니다. 인증서는 와 같은 인증 기관에서 제공합니다. [!DNL DigiCert] 또는 [!DNL Thawte]. 브라우저는 인증 기관을 신뢰하므로 연결을 허용합니다.
+>
+>   브라우저(클라이언트)가 MyGreatBank.com(서버)에 연결하면 TLS는 MyGreatBank.com에서 인증서를 요청하여 ID를 확인합니다. 인증서는 와 같은 인증 기관에서 제공합니다. [!DNL DigiCert] 또는 [!DNL Thawte]. 브라우저는 인증 기관을 신뢰하므로 연결을 허용합니다.
 >
 >* **상호 TLS**: MySoftware.com 는 MyGreatBank.com API의 정보가 필요한 소프트웨어 클라이언트입니다. MyGreatBank는 신뢰할 수 있는 클라이언트만 서버에 연결할 수 있도록 합니다. 따라서 MyGreatBank.com의 ID를 확인하는 일반 TLS 외에 TLS/인증서 기관 프로세스는 MySoftware.com의 요청도 확인합니다.
-
 
 ## 액세스 요구 사항
 
@@ -57,11 +56,19 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 라이센스**</td> 
-   <td> <p>작업 자동화 및 통합을 위한 [!UICONTROL Workfront Fusion] </p> </td> 
+   <td>
+   <p>현재 라이선스 요구 사항: 아니요 [!DNL Workfront Fusion] 라이센스 요구 사항.</p>
+   <p>또는</p>
+   <p>기존 라이선스 요구 사항: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">제품</td> 
-   <td>조직은 다음을 구매해야 합니다. [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오.</td> 
+   <td>
+   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime]이 있는 경우 [!DNL Adobe Workfront] 플랜, 조직은 다음을 구매해야 합니다. [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오. [!DNL Workfront Fusion] [!UICONTROL Ultimate]에 포함되어 있습니다. [!DNL Workfront] 계획.</p>
+   <p>또는</p>
+   <p>레거시 제품 요구 사항: 조직에서 구매해야 함 [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -88,17 +95,16 @@ HTTP 요청을 사용하여 웹 서비스에 연결할 때 웹 서비스에는 �
 >[!IMPORTANT]
 >
 >* 다음 [!DNL Workfront Fusion] 공개 인증서는 2024년 6월 9일에 만료됩니다. 만료되면 웹 서비스에 새 인증서를 업로드해야 합니다. 권장 사항:
-   >
-   >   * 만료 날짜를 기록하고 인증서를 웹 서비스에 업로드하도록 미리 알림을 설정하십시오.
-   >   * 새 인증서를 쉽게 찾으려면 이 페이지에 책갈피를 지정합니다.
+>
+>   * 만료 날짜를 기록하고 인증서를 웹 서비스에 업로드하도록 미리 알림을 설정하십시오.
+>   * 새 인증서를 쉽게 찾으려면 이 페이지에 책갈피를 지정합니다.
 >
 >* 이는 비 와일드카드 mTLS 인증서입니다.
-
 
 * [다운로드 [!DNL Workfront Fusion] 인증서 2023](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-eu-mtls-certificate.pem)
 * [다운로드 [!DNL Workfront Fusion] EU 인증서 2023](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-eu-mtls-certificate.pem)
 
-   유럽연합용
+  유럽연합용
 
 <!--
 

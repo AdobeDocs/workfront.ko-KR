@@ -3,19 +3,19 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
-title: 의 날짜 및 시간 형식에 대한 토큰 [!DNL Adobe Workfront Fusion]
-description: 날짜 및 시간 서식에 대한 다음 토큰은 [!DNL Adobe Workfront Fusion mapping] 패널.
+title: 의 날짜 및 시간 서식에 대한 토큰 [!DNL Adobe Workfront Fusion]
+description: 날짜 및 시간 형식에 대한 다음 토큰은 [!DNL Adobe Workfront Fusion mapping] 패널.
 author: Becky
 feature: Workfront Fusion
 exl-id: 19d0608e-7902-4d09-b71d-e6ae8ed7a6fd
-source-git-commit: 97f91d663df86341a079894cff04d07c18b7bf08
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '365'
 ht-degree: 6%
 
 ---
 
-# 의 날짜 및 시간 형식에 대한 토큰 [!DNL Adobe Workfront Fusion]
+# 의 날짜 및 시간 서식에 대한 토큰 [!DNL Adobe Workfront Fusion]
 
 ## 액세스 요구 사항
 
@@ -34,21 +34,29 @@ ht-degree: 6%
    <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] 라이센스**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] 작업 자동화 및 통합을 위한] </p><p>[!UICONTROL [!DNL Workfront Fusion] 작업 자동화를 위한]</p>  </td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] 라이선스**</td> 
+   <td>
+   <p>현재 라이선스 요구 사항: 아니요 [!DNL Workfront Fusion] 라이센스 요구 사항.</p>
+   <p>또는</p>
+   <p>기존 라이선스 요구 사항: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">제품</td> 
-   <td>조직이 구매해야 합니다 [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 을 참조하십시오.</td> 
+   <td>
+   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime]이 있는 경우 [!DNL Adobe Workfront] 플랜, 조직은 다음을 구매해야 합니다. [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오. [!DNL Workfront Fusion] [!UICONTROL Ultimate]에 포함되어 있습니다. [!DNL Workfront] 계획.</p>
+   <p>또는</p>
+   <p>레거시 제품 요구 사항: 조직에서 구매해야 함 [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-어떤 계획, 라이센스 유형 또는 액세스 권한을 보유하고 있는지 확인하려면 [!DNL Workfront] 관리자
+보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
 
-에 대한 자세한 정보 [!DNL Adobe Workfront Fusion] 라이센스 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+다음에 대한 정보: [!DNL Adobe Workfront Fusion] 라이센스, 참조 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## 연도, 월 및 일 토큰
+## 년, 월, 일 토큰
 
 <table style="table-layout:auto"> 
  <col> 
@@ -75,7 +83,7 @@ ht-degree: 6%
   <tr> 
    <td><code>Y</code> </td> 
    <td><code>1970 1971 ... 9999 +10000 +10001</code> </td> 
-   <td> <p>[!UICONTROL Year with any number of digits and sign]</p> </td> 
+   <td> <p>[!UICONTROL 연도(숫자 및 기호 포함)]</p> </td> 
   </tr> 
   <tr> 
    <td><code>Q</code> </td> 
@@ -100,7 +108,7 @@ ht-degree: 6%
   <tr> 
    <td><code>MM</code> </td> 
    <td><code>01 02 ... 11 12 </code> </td> 
-   <td> <p> 앞에 0이 있는 월 번호</p> </td> 
+   <td> <p> 앞에 0이 있는 월 숫자</p> </td> 
   </tr> 
   <tr> 
    <td><code>MMM</code> </td> 
@@ -125,7 +133,7 @@ ht-degree: 6%
   <tr> 
    <td><code>DD</code> </td> 
    <td><code>01 02 ... 30 31</code></td> 
-   <td> <p> 선행 0이 있는 날짜(월 기준)</p> </td> 
+   <td> <p> 앞에 0이 있는 날짜</p> </td> 
   </tr> 
   <tr> 
    <td><code>DDD</code> </td> 
@@ -135,17 +143,17 @@ ht-degree: 6%
   <tr> 
    <td><code>DDDo</code> </td> 
    <td><code>1st 2nd ... 364th 365th</code> </td> 
-   <td> <p>서수가 있는 [!UICONTROL Day of Year]</p> </td> 
+   <td> <p>서수가 있는 [!UICONTROL Day of year]</p> </td> 
   </tr> 
   <tr> 
    <td><code>DDDD </code> </td> 
    <td><code>001 002 ... 364 365</code> </td> 
-   <td> <p> 0으로 시작하는 일</p> </td> 
+   <td> <p> 앞에 0이 있는 요일</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 주, 주 및 요일 토큰
+## 주 연도, 주 및 요일 토큰
 
 <table style="table-layout:auto"> 
  <col> 
@@ -167,22 +175,22 @@ ht-degree: 6%
   <tr> 
    <td><code>do</code> </td> 
    <td><code>0th 1st ... 5th 6th </code> </td> 
-   <td> <p>[!UICONTROL Day of week with ordinal]</p> </td> 
+   <td> <p>[!UICONTROL 서수가 있는 요일]</p> </td> 
   </tr> 
   <tr> 
    <td><code>dd </code> </td> 
    <td><code>Su Mo ... Fr Sa </code> </td> 
-   <td> <p>Day 약어</p> </td> 
+   <td> <p>요일 약어</p> </td> 
   </tr> 
   <tr> 
    <td><code>ddd</code> </td> 
    <td><code>Sun Mon ... Fri Sat </code> </td> 
-   <td> <p> Day 약어</p> </td> 
+   <td> <p> 요일 약어</p> </td> 
   </tr> 
   <tr> 
    <td><code>dddd </code> </td> 
    <td><code>Sunday Monday ... Friday Saturday</code> </td> 
-   <td> <p> 일 이름</p> </td> 
+   <td> <p> 요일 이름</p> </td> 
   </tr> 
   <tr> 
    <td><code>E</code> </td> 
@@ -197,12 +205,12 @@ ht-degree: 6%
   <tr> 
    <td><code>wo </code> </td> 
    <td><code>1st 2nd ... 52nd 53rd</code> </td> 
-   <td> <p>[!UICONTROL 서수가 있는 연간 주]</p> </td> 
+   <td> <p>[!UICONTROL 서수 포함 주]</p> </td> 
   </tr> 
   <tr> 
    <td><code>ww </code> </td> 
    <td><code>01 02 ... 52 53 </code> </td> 
-   <td> <p>0으로 시작하는 주</p> </td> 
+   <td> <p>선행 0이 있는 주</p> </td> 
   </tr> 
   <tr> 
    <td><code>W</code></td> 
@@ -212,32 +220,32 @@ ht-degree: 6%
   <tr> 
    <td><code>Wo</code> </td> 
    <td><code>1st 2nd ... 52nd 53rd </code> </td> 
-   <td> <p> 서수(ISO)가 있는 일 주</p> </td> 
+   <td> <p> 서수가 있는 주(ISO)</p> </td> 
   </tr> 
   <tr> 
    <td><code>WW</code> </td> 
    <td><code>01 02 ... 52 53 </code> </td> 
-   <td> <p> 선행 0(ISO)이 있는 주</p> </td> 
+   <td> <p> 선행 0이 있는 주(ISO)</p> </td> 
   </tr> 
   <tr> 
    <td><code>gg</code></td> 
    <td><code>70 71 ... 29 30 </code> </td> 
-   <td> <p>주/년</p> </td> 
+   <td> <p>주 연도</p> </td> 
   </tr> 
   <tr> 
    <td><code>gggg </code> </td> 
    <td><code>1970 1971 ... 2029 2030</code> </td> 
-   <td> <p> 주/년</p> </td> 
+   <td> <p> 주 연도</p> </td> 
   </tr> 
   <tr> 
    <td><code>GG </code> </td> 
    <td><code>70 71 ... 29 30 </code> </td> 
-   <td> <p>주 연도(ISO)</p> </td> 
+   <td> <p>주(ISO)</p> </td> 
   </tr> 
   <tr> 
    <td><code>GGGG </code> </td> 
    <td><code>1970 1971 ... 2029 2030</code> </td> 
-   <td> <p> 주 연도(ISO)</p> </td> 
+   <td> <p> 주(ISO)</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -264,7 +272,7 @@ ht-degree: 6%
   <tr> 
    <td><code>HH</code> </td> 
    <td><code>00 01 ... 22 23</code></td> 
-   <td> <p> 선행 0이 있는 24시간</p> </td> 
+   <td> <p> 앞에 0이 있는 24시간</p> </td> 
   </tr> 
   <tr> 
    <td><code>h</code> </td> 
@@ -284,17 +292,17 @@ ht-degree: 6%
   <tr> 
    <td><code>kk</code></td> 
    <td><code>01 02 ... 23 24</code> </td> 
-   <td> <p> 선행 0이 있는 24시간</p> </td> 
+   <td> <p> 앞에 0이 있는 24시간</p> </td> 
   </tr> 
   <tr> 
    <td><code>A</code></td> 
    <td><code>AM PM </code> </td> 
-   <td> <p>"우편번호" 또는 "우편번호"(대문자)</p> </td> 
+   <td> <p>이후 또는 전각(대문자)</p> </td> 
   </tr> 
   <tr> 
    <td><code>a</code> </td> 
    <td><code>am pm </code> </td> 
-   <td> <p> "우편번호" 또는 "일급"(소문자)</p> </td> 
+   <td> <p> 이후 또는 전각(소문자)</p> </td> 
   </tr> 
   <tr> 
    <td><code>m</code> </td> 
@@ -304,7 +312,7 @@ ht-degree: 6%
   <tr> 
    <td><code>mm</code> </td> 
    <td><code>00 01 ... 58 59</code> </td> 
-   <td> <p>[!UICONTROL Minutes with] leading zero</p> </td> 
+   <td> <p>[!UICONTROL 분,] 앞에 0</p> </td> 
   </tr> 
   <tr> 
    <td><code>s</code> </td> 
@@ -314,7 +322,7 @@ ht-degree: 6%
   <tr> 
    <td><code>ss</code> </td> 
    <td><code>00 01 ... 58 59</code></td> 
-   <td> <p>앞에 0이 있는 초</p> </td> 
+   <td> <p>초(앞에 0이 있음)</p> </td> 
   </tr> 
   <tr> 
    <td><code>S</code> </td> 
@@ -324,12 +332,12 @@ ht-degree: 6%
   <tr> 
    <td><code>SS</code> </td> 
    <td><code>00 01 ... 98 99</code> </td> 
-   <td> <p> 0으로 시작하는 분수 초</p> </td> 
+   <td> <p> 앞에 0이 있는 분수 초</p> </td> 
   </tr> 
   <tr> 
    <td><code>SSS</code> </td> 
    <td><code>000 001 ... 998 999</code> </td> 
-   <td> <p> 2개의 앞에 0이 있는 분수 초</p> </td> 
+   <td> <p> 앞에 두 개의 0이 있는 분수 초</p> </td> 
   </tr> 
   <tr> 
    <td><code>SSSS ... SSSSSSSSS</code> </td> 

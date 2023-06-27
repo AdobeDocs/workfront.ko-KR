@@ -3,15 +3,15 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
-title: Adobe Workfront Fusion의 날짜 및 시간 구문 분석에 대한 토큰
-description: 날짜 및 시간 구문 분석에 대한 다음 토큰은 [!DNL Adobe Workfront Fusion mapping] 패널.
+title: Adobe Workfront Fusion의 날짜 및 시간 구문 분석용 토큰
+description: 날짜 및 시간 구문 분석에 대한 다음 토큰은에서 사용할 수 있습니다. [!DNL Adobe Workfront Fusion mapping] 패널.
 author: Becky
 feature: Workfront Fusion
 exl-id: f5a92ccb-cdc6-4f7d-8373-31fd17d314d3
-source-git-commit: c57a796ccbfb36bce58d49345e7515dd524604c5
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 7%
+source-wordcount: '278'
+ht-degree: 6%
 
 ---
 
@@ -34,21 +34,29 @@ ht-degree: 7%
    <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] 라이센스**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] 작업 자동화 및 통합을 위한] </p><p>[!UICONTROL [!DNL Workfront Fusion] 작업 자동화를 위한]</p>  </td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] 라이선스**</td> 
+   <td>
+   <p>현재 라이선스 요구 사항: 아니요 [!DNL Workfront Fusion] 라이센스 요구 사항.</p>
+   <p>또는</p>
+   <p>기존 라이선스 요구 사항: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">제품</td> 
-   <td>조직이 구매해야 합니다 [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 을 참조하십시오.</td> 
+   <td>
+   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime]이 있는 경우 [!DNL Adobe Workfront] 플랜, 조직은 다음을 구매해야 합니다. [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오. [!DNL Workfront Fusion] [!UICONTROL Ultimate]에 포함되어 있습니다. [!DNL Workfront] 계획.</p>
+   <p>또는</p>
+   <p>레거시 제품 요구 사항: 조직에서 구매해야 함 [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-어떤 계획, 라이센스 유형 또는 액세스 권한을 보유하고 있는지 확인하려면 [!DNL Workfront] 관리자
+보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
 
-에 대한 자세한 정보 [!DNL Adobe Workfront Fusion] 라이센스 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+다음에 대한 정보: [!DNL Adobe Workfront Fusion] 라이센스, 참조 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## 연도, 월 및 일 토큰
+## 년, 월, 일 토큰
 
 <table style="table-layout:auto"> 
  <col> 
@@ -65,7 +73,7 @@ ht-degree: 7%
   <tr> 
    <td><code>YYYY </code> </td> 
    <td><code>2014 </code> </td> 
-   <td> <p>4자리 또는 2자리 연도</p> </td> 
+   <td> <p>연도 4자리 또는 2자리</p> </td> 
   </tr> 
   <tr> 
    <td><code>YY</code></td> 
@@ -75,12 +83,12 @@ ht-degree: 7%
   <tr> 
    <td><code>Y</code> </td> 
    <td><code>-25</code> </td> 
-   <td> <p>[!UICONTROL Year with any number of digits and sign]</p> </td> 
+   <td> <p>[!UICONTROL 연도(숫자 및 기호 포함)]</p> </td> 
   </tr> 
   <tr> 
    <td><code>Q</code> </td> 
    <td><code>1..4</code> </td> 
-   <td> <p> 사분기. 분기에 월을 첫째 달로 설정합니다.</p> </td> 
+   <td> <p> 사분기. 분기의 월에서 첫째 달까지 설정합니다.</p> </td> 
   </tr> 
   <tr> 
    <td><code>M MM</code> </td> 
@@ -120,7 +128,7 @@ ht-degree: 7%
  </tbody> 
 </table>
 
-## 주, 주 및 요일 토큰
+## 주 연도, 주 및 요일 토큰
 
 <table style="table-layout:auto"> 
  <col> 
@@ -137,12 +145,12 @@ ht-degree: 7%
   <tr> 
    <td><code>ddd dddd</code> </td> 
    <td><code>Mon...Sunday</code> </td> 
-   <td> <p> 일 이름</p> </td> 
+   <td> <p> 요일 이름</p> </td> 
   </tr> 
   <tr> 
    <td><code>GGGG</code> </td> 
    <td><code>2014</code> </td> 
-   <td> <p> ISO 4자리 주 연도</p> </td> 
+   <td> <p> ISO 주 4자리 연도</p> </td> 
   </tr> 
   <tr> 
    <td><code>GG </code> </td> 
@@ -152,12 +160,12 @@ ht-degree: 7%
   <tr> 
    <td><code>W WW</code> </td> 
    <td><code>1..53</code></td> 
-   <td> <p> ISO 주(연 기준)</p> </td> 
+   <td> <p> 연간 ISO 주</p> </td> 
   </tr> 
   <tr> 
    <td><code>E</code> </td> 
    <td><code>1..7</code> </td> 
-   <td> <p> ISO 요일</p> </td> 
+   <td> <p> 요일</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -184,17 +192,17 @@ ht-degree: 7%
   <tr> 
    <td><code>h hh</code> </td> 
    <td><code>1..12</code> </td> 
-   <td> <p> 시간(A에 사용된 12시간)</p> </td> 
+   <td> <p> 시간(A에 12시간 사용)</p> </td> 
   </tr> 
   <tr> 
    <td><code>k kk</code> </td> 
    <td><code>1..24</code> </td> 
-   <td> <p> 시간(1~24시간)</p> </td> 
+   <td> <p> 시간(1~24까지 24시간)</p> </td> 
   </tr> 
   <tr> 
    <td><code>a A</code> </td> 
    <td><code>am pm</code> </td> 
-   <td> <p> "p"를 사용할 수 있습니다.</p> </td> 
+   <td> <p> Post 또는 상쇄(a p도 유효한 것으로 간주됨)</p> </td> 
   </tr> 
   <tr> 
    <td><code>m mm</code> </td> 
@@ -214,7 +222,7 @@ ht-degree: 7%
   <tr> 
    <td><code>Z ZZ</code> </td> 
    <td><code>+12:00</code> </td> 
-   <td> <p> UTC에서 +-HH:mm, +-Hmm 또는 Z로 오프셋</p> </td> 
+   <td> <p> UTC에서 +-HH:mm, +-HHmm 또는 Z로 오프셋</p> </td> 
   </tr> 
  </tbody> 
 </table>

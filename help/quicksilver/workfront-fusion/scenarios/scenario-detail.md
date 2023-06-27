@@ -2,23 +2,23 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: 의 시나리오 세부 사항 [!DNL Adobe Workfront Fusion]
-description: 의 시나리오 세부 사항 [!DNL Adobe Workfront Fusion]
+title: 의 시나리오 세부 정보 [!DNL Adobe Workfront Fusion]
+description: 의 시나리오 세부 정보 [!DNL Adobe Workfront Fusion]
 author: Becky
 feature: Workfront Fusion
 exl-id: 1d8a3492-d609-43c8-a486-a401a597f160
-source-git-commit: aa58a64ea6b09192f93fa89a42a4bf6731052d10
+source-git-commit: 759472ada4595625e3a02b55c455564e24343743
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
 
-# 의 시나리오 세부 사항 [!DNL Adobe Workfront Fusion]
+# 의 시나리오 세부 정보 [!DNL Adobe Workfront Fusion]
 
-시나리오 세부 사항 페이지는 특정 시나리오의 홈페이지입니다. 페이지에 표시되는 시나리오에 대한 특정 정보에 액세스할 수 있습니다.
+시나리오 세부 정보 페이지는 특정 시나리오의 홈 페이지입니다. 페이지에 표시되는 시나리오의 특정 정보에 액세스할 수 있습니다.
 
-또한 [의 시나리오 편집기 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md): 시나리오를 편집할 수 있는 위치입니다.
+또한 다음에 대한 액세스를 제공합니다. [의 시나리오 편집기 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md)시나리오를 편집할 수 있는 위치입니다.
 
 ## 액세스 요구 사항
 
@@ -37,27 +37,31 @@ ht-degree: 0%
    <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] 라이센스**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] 작업 자동화 및 통합을 위한] </p><p>[!UICONTROL [!DNL Workfront Fusion] 작업 자동화를 위한] </p><p>[!UICONTROL [!DNL Workfront Fusion] 작업 자동화를 위한]</p>   </td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] 라이선스**</td> 
+   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p><p>[!UICONTROL [!DNL Workfront Fusion] 작업 자동화용] </p><p>[!UICONTROL [!DNL Workfront Fusion] 작업 자동화용]</p>   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">제품</td> 
-   <td>조직이 구매해야 합니다 [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 을 참조하십시오.</td> 
+   <td>
+   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime]이 있는 경우 [!DNL Adobe Workfront] 플랜, 조직은 다음을 구매해야 합니다. [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오. [!DNL Workfront Fusion] [!UICONTROL Ultimate]에 포함되어 있습니다. [!DNL Workfront] 계획.</p>
+   <p>또는</p>
+   <p>레거시 제품 요구 사항: 조직에서 구매해야 함 [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-어떤 계획, 라이센스 유형 또는 액세스 권한을 보유하고 있는지 확인하려면 [!DNL Workfront] 관리자
+보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
 
-에 대한 자세한 정보 [!DNL Adobe Workfront Fusion] 라이센스 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+다음에 대한 정보: [!DNL Adobe Workfront Fusion] 라이센스, 참조 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## 를 엽니다. [!UICONTROL 시나리오 세부 사항] 페이지:
 
-1. 을(를) 클릭합니다. **[!UICONTROL 시나리오]** 왼쪽 패널에서 탭을 클릭한 다음 세부 사항을 보려는 시나리오를 클릭합니다.
+1. 다음을 클릭합니다. **[!UICONTROL 시나리오]** 왼쪽 패널에서 을 탭한 다음 세부 정보를 보려는 시나리오를 클릭합니다.
 
    또는
 
-   에서 시나리오에서 작업 중인 경우 [의 시나리오 편집기 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md)을 클릭하고 왼쪽 화살표를 클릭합니다 ![](assets/exit-editing-arrow.png) 창문의 왼쪽 위 모서리 근처에 있어요.
+   에서 시나리오를 작업 중인 경우 [의 시나리오 편집기 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md)왼쪽 화살표 클릭 ![](assets/exit-editing-arrow.png) 창의 왼쪽 상단 모서리 근처.
 
 1. 표시되는 페이지에서 아래 표에 나열된 요소를 검토할 수 있습니다.
 
@@ -69,13 +73,13 @@ ht-degree: 0%
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL Modules 다이어그램] </td> 
-      <td>이 탭에는 시나리오의 시각적 표현이 표시됩니다. 다이어그램은 시나리오 편집기에 표시되는 다이어그램과 같습니다</td> 
+      <td>이 탭에는 시나리오의 시각적 표현이 표시됩니다. 다이어그램은 시나리오 편집기에 표시되는 것과 동일합니다</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL History](탭) </td> 
-      <td> <p>이 탭을 열어 시나리오 편집 등 시나리오 내역을 확인합니다. </p> <p>[!UICONTROL 작업 내역] 탭에서는 각 실행의 시나리오 실행 내역이 제공되며, 여기에는 다음 항목이 포함됩니다.</p> 
+      <td role="rowheader">[!UICONTROL History] (tab) </td> 
+      <td> <p>이 탭을 열면 시나리오 편집을 비롯한 시나리오 기록을 볼 수 있습니다. </p> <p>[!UICONTROL History] 탭은 다음을 포함하는 각 실행의 시나리오 실행 기록도 제공합니다.</p> 
        <ul> 
-        <li>각 실행 상태(성공 또는 오류)</li> 
+        <li>각 실행의 상태(성공 또는 오류)</li> 
         <li>실행 기간</li> 
         <li>작업 수</li> 
         <li>데이터 전송 크기</li> 
@@ -83,8 +87,8 @@ ht-degree: 0%
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 불완전한 실행]</td> 
-      <td> <p>이 탭은 시나리오의 불완전한 실행에 대한 정보를 제공합니다. 여기에는 완료되지 않은 각 실행에 대한 다음 정보가 포함됩니다.</p> 
+      <td role="rowheader">[!UICONTROL 미완료 실행]</td> 
+      <td> <p>이 탭은 시나리오의 불완전한 실행에 대한 정보를 제공합니다. 각 불완전 실행에 대한 다음 정보가 포함됩니다.</p> 
        <ul> 
         <li>만든 날짜</li> 
         <li>데이터 전송 크기</li> 
@@ -94,20 +98,20 @@ ht-degree: 0%
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Activate scenario](설정/해제 단추)</td> 
-      <td>시나리오를 만든 후에는 해당 일정에 따라 실행하려면 시나리오를 활성화해야 합니다. 오른쪽 위 모서리 근처에 있는 설정/해제 단추를 클릭하여 시나리오를 활성화하거나 비활성화할 수 있습니다. 이 기능을 설정하면 시나리오가 일정에 따라 실행됩니다.</td> 
+      <td role="rowheader">[!UICONTROL Activate scenario](켜기/끄기 단추)</td> 
+      <td>시나리오가 만들어지면 스케줄에 따라 실행하려면 시나리오가 활성화되어야 합니다. 오른쪽 상단 모서리 근처에 있는 켜기/끄기 버튼을 클릭하면 시나리오를 활성화하거나 비활성화할 수 있습니다. 시나리오가 켜지면 스케줄에 따라 실행됩니다.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Edit]</td> 
-      <td>시나리오 편집기에서 작업할 수 있는 시나리오 편집기를 열려면 오른쪽 상단 모서리에서 이 단추를 클릭하십시오.</td> 
+      <td role="rowheader">[!UICONTROL 편집]</td> 
+      <td>시나리오 작업을 수행할 수 있는 시나리오 편집기를 열려면 오른쪽 상단에 있는 이 단추를 클릭하십시오.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Options]</td> 
-      <td> <p>이 메뉴는 시나리오 편집기를 열 필요 없이 추가 옵션을 제공합니다. 다음과 같은 보고서가 포함됩니다.</p> 
+      <td> <p>이 메뉴는 시나리오 편집기를 열지 않고도 추가 옵션을 제공합니다. 여기에는 다음이 포함됩니다.</p> 
        <ul> 
-        <li>[!UICONTROL Scheduling]</li> 
-        <li>[!UICONTROL Rename]</li> 
-        <li>[!UICONTROL Clone]</li> 
+        <li>[!UICONTROL 예약]</li> 
+        <li>[!UICONTROL 이름 바꾸기]</li> 
+        <li>[!UICONTROL 복제]</li> 
         <li>[!UICONTROL Delete]</li> 
        </ul> </td> 
      </tr> 
@@ -116,8 +120,8 @@ ht-degree: 0%
       <td>이 영역에는 현재 실행 중인 실행과 관련된 정보가 표시됩니다.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>[!UICONTROL History](영역)</p> <p> </p> </td> 
-      <td> <p>이 영역에는 시나리오의 마지막 실행과 관련된 정보가 표시됩니다. 실행 시마다 다음이 표시됩니다.</p> 
+      <td role="rowheader"> <p>[!UICONTROL History] (area)</p> <p> </p> </td> 
+      <td> <p>이 영역에는 시나리오의 마지막 실행과 관련된 정보가 표시됩니다. 실행할 때마다 다음이 표시됩니다.</p> 
        <ul> 
         <li>실행 날짜</li> 
         <li>상태(성공 또는 실패)</li> 
@@ -128,7 +132,7 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Stats]</p>  </td> 
-      <td>이 그래프를 사용하면 [!UICONTROL line] 그래프의 시나리오 실행 전체에서 사용된 데이터 전송 및 작업의 양을 볼 수 있습니다.</td> 
+      <td>이 그래프를 사용하면 [!UICONTROL line] 그래프에서 시나리오 실행 전체에 사용된 데이터 전송 및 작업의 양을 볼 수 있습니다.</td> 
      </tr> 
     </tbody> 
    </table>
