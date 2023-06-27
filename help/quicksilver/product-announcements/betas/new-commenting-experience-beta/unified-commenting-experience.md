@@ -6,9 +6,9 @@ description: Adobe Workfront의 댓글 달기 환경에 대한 업데이트가 �
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
+source-git-commit: 63e3575addf8aaaa3eda1a9e52d57619c48ded91
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '670'
 ht-degree: 1%
 
 ---
@@ -56,6 +56,18 @@ Adobe Workfront의 댓글 달기 환경에 대한 업데이트가 현재 개발 
 * 시스템 업데이트에 대한 주석 달기
 * 댓글을 달면서 상태, 조건, 커밋 일자를 편집할 수 있는 기능
 * 사용자 정의 양식 편집
+
+>[!NOTE]
+>
+>아래 나열된 객체에는 Beta 경험을 활성화할 때 사용할 수 있는 지난 해(2022년 6월 시작)의 주석 및 시스템 업데이트만 있습니다.
+>
+>* 문제
+>* <span class="preview">프로젝트</span>
+>* <span class="preview">작업</span>
+>* <span class="preview">문서</span>
+>
+>현재 경험의 업데이트 섹션을 볼 때 2022년 6월 이전의 주석 및 시스템 업데이트를 볼 수 있습니다.
+
 
 다음 표는 새 댓글 달기 환경에서 사용할 수 있는 기능과 지원되는 영역에서 사용할 수 있는 기능을 보여 줍니다.
 

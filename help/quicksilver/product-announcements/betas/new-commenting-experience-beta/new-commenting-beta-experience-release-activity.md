@@ -6,9 +6,9 @@ description: Adobe Workfront의 새로운 댓글 달기 환경에 대한 주간 
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 3793f68faf2ec0a8050f8f0c6e06a32579b43879
+source-git-commit: 63e3575addf8aaaa3eda1a9e52d57619c48ded91
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1500'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,9 @@ ht-degree: 3%
 >
 >새로운 댓글 달기 환경은 23.2 릴리스와 함께 Beta로 출시되었습니다. 원본 릴리스에 대한 자세한 내용은 [23.2 릴리스 개요](../../product-releases/23.2-release-activity/23-2-release-overview.md).
 >
->Workfront 객체에 대한 Beta 경험에 릴리스된 댓글 달기 기능은 Workfront 목표의 목표 객체의 업데이트 섹션에도 릴리스됩니다.
+>Workfront 개체에 대한 Beta 경험에 릴리스된 댓글 달기 기능은 유일한 댓글 달기 경험으로 다음 개체의 업데이트 섹션에도 릴리스됩니다.
+>* 목표
+>* 보드 영역의 카드.
 
 ## 릴리스 타임라인
 

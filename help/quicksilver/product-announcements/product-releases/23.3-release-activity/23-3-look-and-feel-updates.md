@@ -4,9 +4,9 @@ description: 23.3 릴리스 일정 동안의 업데이트 확인
 author: Courtney
 feature: Product Announcements
 exl-id: 77b43c01-4476-4243-b8c4-062afe786a1d
-source-git-commit: b34325813af7abd0e5107174734f06d6694acfd6
+source-git-commit: 63e3575addf8aaaa3eda1a9e52d57619c48ded91
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -30,17 +30,17 @@ ht-degree: 0%
 * 이제 페이지를 업로드할 때 로딩 표시기가 있습니다.
 * 복사 아이콘은 영구적이며 텍스트가 동반되며 요청을 선택하지 않으면 비활성화됩니다.
 
-자세한 내용은 [요청 복사 및 제출](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
+자세한 내용은 [요청 복사 및 제출](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md). 기능 릴리스 이후에 설명서가 업데이트됩니다.
 
-## 새 요청을 제출할 때 디자인이 업데이트됨
+## 프로젝트에 새 문제를 추가할 때 디자인이 업데이트됨
 
 >[!NOTE]
 >
 >미리보기 릴리스 예정일: 2023년 7월 5일, 프로덕션 릴리스 예정일: 23.3 릴리스
 
-새 요청을 제출할 때 표시되는 새 요청 상자를 업데이트했습니다. 이제 인터페이스에 프로젝트에 새 문제를 추가할 때 표시되는 새 문제 상자가 일치합니다.
+프로젝트에 새 문제를 제출할 때 표시되는 새 문제 상자를 업데이트했습니다. 이제 인터페이스는 요청 대기열에 새 요청을 제출할 때 표시되는 새 요청 상자와 일치합니다.
 
-자세한 내용은 [Adobe Workfront 요청 만들기 및 제출](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+자세한 내용은 [문제 만들기](../../../manage-work/issues/manage-issues/create-issues.md). 기능 릴리스 이후에 설명서가 업데이트됩니다.
 
 ## 업데이트된 청구 요금 목록
 
