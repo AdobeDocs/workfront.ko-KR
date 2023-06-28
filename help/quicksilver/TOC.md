@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 42abf0163e5ad25923a913d315bdd0f4b95418be
+source-git-commit: 281712542566aec87c51a2eccb301dd3a83a94b3
 workflow-type: tm+mt
-source-wordcount: '13093'
+source-wordcount: '13094'
 ht-degree: 1%
 
 ---
@@ -619,7 +619,7 @@ ht-degree: 1%
          * [새 사용자에게 전자 메일 초대](administration-and-setup/manage-workfront/emails/manage-email-invitations.md)
       * 보안 {#security}
          * [보안](administration-and-setup/manage-workfront/security/security.md)
-         * [보안 환경 설정](administration-and-setup/manage-workfront/security/configure-security-preferences.md)
+         * [시스템 환경 설정 구성](administration-and-setup/manage-workfront/security/configure-security-preferences.md)
          * [인증 암호](administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md)
          * [SSO(Single Sign-On) 옵션 제거](administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
          * [SAML 2.0 메타데이터 인증서 갱신](administration-and-setup/manage-workfront/security/renew-wf-saml-2-certificate.md)

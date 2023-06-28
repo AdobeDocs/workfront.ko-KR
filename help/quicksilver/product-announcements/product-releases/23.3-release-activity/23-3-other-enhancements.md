@@ -3,7 +3,7 @@ title: 23.3 기타 개선 사항
 description: 23.3 기타 개선 사항
 author: Lisa
 feature: Product Announcements
-source-git-commit: b34325813af7abd0e5107174734f06d6694acfd6
+source-git-commit: 281712542566aec87c51a2eccb301dd3a83a94b3
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 0%
@@ -30,7 +30,7 @@ New Home은 우리가 계속 발전하고 발전할 것으로 기대되는 주�
 
 자세한 내용은 [Adobe Workfront의 새 홈 시작](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
-[이 기능에 대한 비디오 데모 보기](https://video.tv.adobe.com/v/3420860/){target=_blank}
+[이 기능에 대한 비디오 데모 보기](https://video.tv.adobe.com/v/3420969/){target=_blank}
 
 ## 추가 오브젝트에 대한 새로운 댓글 달기 환경
 
