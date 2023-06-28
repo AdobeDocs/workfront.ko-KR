@@ -4,9 +4,9 @@ description: 23.3 릴리스 개요
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: bcd3484316089140a58ecda8c4420d69dd65e373
+source-git-commit: d8420930738102e64fbab2eecf91f2eb4429cb0e
 workflow-type: tm+mt
-source-wordcount: '2538'
+source-wordcount: '2687'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,19 @@ ht-degree: 0%
 23.3 릴리스 웨비나는 2023년 6월 29일에 열립니다. 다음을 수행할 수 있습니다. [여기서 웨비나 등록](https://webinars.on24.com/adobe_workfront/whatsnewin233?partnerref=exlreleaseoverview).
 
 <span class="preview">오프 사이클 기능(23.3 릴리스 날짜 이전에 프로덕션에 릴리스된 기능)은 노란색으로 강조 표시됩니다.</span>
+
+>[!IMPORTANT]
+>
+>23.3 릴리스에는 조직을 월별 릴리스로 이동하는 옵션이 포함됩니다. 따라서 Workfront은 월별 및 분기별 릴리스 트랙을 모두 고려하여 릴리스의 번호 매기기 체계를 변경하고 있습니다.
+>
+>* 을(를) 사용하는 경우 **빠른 릴리스(월별)** track. 23.3 이후 릴리스는 **23.8**, 2023년 8월.
+> * 을(를) 사용하는 경우 **분기별** 릴리스 트랙, 23.3 이후 릴리스는 다음과 같습니다. **23.10**, 2023년 10월.
+> 
+> 분기별 릴리스에는 3개의 월별 릴리스의 기능이 포함됩니다. 예를 들어 23.10 분기 릴리스에는 23.8, 23.9 및 23.10 월별 릴리스에 포함된 기능이 포함됩니다.
+>|월별 릴리스|분기별 릴리스|
+>--------
+>|<ul><li>23.8 (2023년 8월)</li><li>23.9 (2023년 9월)</li><li>23.10 (2023년 10월)</li></ul>| <ul><li>23.10 (2023년 10월)</li></ul>|
+>|<ul><li>23.11 (2023년 11월)</li><li>23.12 (2023년 12월)</li><li>24.1 (2024년 1월)</li></ul>| <ul><li>24.1 (2024년 1월)</li></ul>|
 
 ## Adobe Workfront 개선 사항
 
@@ -353,6 +366,22 @@ ht-degree: 0%
                         </p>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">새로운 G Suite 통합 사용 가능</a></p> 
+                        <p>이제 Google Marketplace에서 새로운 G Suite 통합을 사용할 수 있습니다. 새 통합은 OAuth2를 사용하여 인증하고 이전 통합을 대체합니다.</p><p>이전 G Suite 통합은 이제 더 이상 사용되지 않으며 자동으로 제거됩니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 해당 사항 없음</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">프로덕션 릴리스: 2023년 6월 27일</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">이제 Adobe Creative Cloud 통합은 할당된 여러 사용자를 지원합니다</a></p> 

@@ -3,9 +3,9 @@ title: 23.3 통합 개선 사항
 description: 23.3 통합 개선 사항
 author: Lisa
 feature: Product Announcements
-source-git-commit: 3ebf408bb03a97de78600ab771834a7d7f29e2e0
+source-git-commit: d8420930738102e64fbab2eecf91f2eb4429cb0e
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '851'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,16 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 23.3 릴리스의 모든 통합 개선 사항에 대해 설명합니다. 이러한 개선 사항은 프로덕션 환경에서 23.3 릴리스를 통해 제공될 예정입니다.
 
 23.3 릴리스 주기 동안 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 을 참조하십시오. [23.3 릴리스 개요](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+
+## 새로운 G Suite 통합 사용 가능
+
+이제 Google Marketplace에서 새로운 G Suite 통합을 사용할 수 있습니다. 새 통합은 OAuth2를 사용하여 인증하고 이전 통합을 대체합니다.
+
+이전 G Suite 통합은 이제 더 이상 사용되지 않으며 자동으로 제거됩니다.
+
+새 통합을 설치하는 방법에 대한 지침은 [설치 [!DNL Adobe Workfront for G Suite]](/help/quicksilver/workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
+
+G Suite용 Workfront에 대한 자세한 내용은 [Workfront for G Suite](/help/quicksilver/workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md).
 
 ## 이제 Adobe Creative Cloud 통합은 할당된 여러 사용자를 지원합니다
 
