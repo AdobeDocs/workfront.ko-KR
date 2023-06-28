@@ -4,7 +4,7 @@ description: 23.3 릴리스 일정 동안의 업데이트 확인
 author: Courtney
 feature: Product Announcements
 exl-id: 77b43c01-4476-4243-b8c4-062afe786a1d
-source-git-commit: 63e3575addf8aaaa3eda1a9e52d57619c48ded91
+source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리 보기 릴리스 예정일: 2023년 6월 28일, 프로덕션 릴리스 예정일: 2023년 7월 13일
+>미리 보기 릴리스 예정일: 2023년 6월 29일, 프로덕션 릴리스 예정일: 2023년 7월 13일
 
 제출된 요청 목록의 인터페이스가 개선되었습니다.
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리보기 릴리스 예정일: 2023년 7월 5일, 프로덕션 릴리스 예정일: 23.3 릴리스
+>미리보기 릴리스 예정일: 2023년 7월 6일, 프로덕션 릴리스 예정일: 23.3 릴리스
 
 프로젝트에 새 문제를 제출할 때 표시되는 새 문제 상자를 업데이트했습니다. 이제 인터페이스는 요청 대기열에 새 요청을 제출할 때 표시되는 새 요청 상자와 일치합니다.
 

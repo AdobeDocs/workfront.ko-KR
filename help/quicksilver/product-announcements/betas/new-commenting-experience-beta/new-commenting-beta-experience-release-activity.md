@@ -7,7 +7,7 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 742565b06395e5092152b1d04262344dc1020d74
+source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
 workflow-type: tm+mt
 source-wordcount: '1500'
 ht-degree: 3%
@@ -76,7 +76,9 @@ ht-degree: 3%
 
 자세한 내용은 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 설명서는 릴리스 시점에 업데이트됩니다.
 
-예정된 미리보기 및 프로덕션 릴리스: 2023년 6월 29일
+미리 보기: 2023년 6월 28일
+
+프로덕션 릴리스 예정일: 2023년 6월 29일
 
 #### 시간 기록을 위한 새로운 인터페이스
 
