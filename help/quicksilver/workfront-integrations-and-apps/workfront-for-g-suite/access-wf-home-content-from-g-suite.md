@@ -7,9 +7,9 @@ description: 다음에 액세스할 수 있습니다. [!DNL Adobe Workfront] G S
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: da2ecaf1-5cfb-470e-90a1-fbb386db8670
-source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
+source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->다음 항목이 있습니다. [알려진 문제](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) 의 현재 버전으로 [!DNL Workfront for G Suite] 예상대로 작동하지 않습니다. 새 버전을 개발 중이며 릴리스될 예정입니다. [!DNL Google Marketplace] 가까운 미래에.
+>Google용 Adobe Workfront 플러그인의 최신 버전은 2023년 6월 26일에 릴리스되었습니다.
 
 다음에 액세스할 수 있습니다. [!DNL Adobe Workfront] [!UICONTROL 홈] G Suite를 종료하지 않고 사용자에게 할당된 모든 작업, 문제, 승인 및 액세스 요청을 포함하는 컨텐츠
 
