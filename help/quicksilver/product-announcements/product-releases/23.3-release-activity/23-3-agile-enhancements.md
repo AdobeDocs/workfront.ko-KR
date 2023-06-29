@@ -3,9 +3,9 @@ title: 23.3 애자일 개선 사항
 description: 23.3 애자일 개선 사항
 author: Lisa
 feature: Product Announcements
-source-git-commit: bcd3484316089140a58ecda8c4420d69dd65e373
+source-git-commit: 11e239bd47a007adbec1770dafc7f7a5d97eb57e
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1298'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 보드에 있는 동안 기존 애자일 보기로 전환하도록 선택할 수 있습니다.
 
-업데이트된 프로젝트 애자일 보기에 대한 설명서는 미리보기 릴리스와 함께 사용할 수 있습니다.
+자세한 내용은 [애자일 보기에서 프로젝트 관리](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
 ## 보드 열별 정렬
 

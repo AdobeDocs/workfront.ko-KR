@@ -6,14 +6,16 @@ description: 보기를 사용하여 화면에 표시할 정보 유형을 사용�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 11e239bd47a007adbec1770dafc7f7a5d97eb57e
 workflow-type: tm+mt
-source-wordcount: '1750'
+source-wordcount: '1787'
 ht-degree: 1%
 
 ---
 
 # Adobe Workfront에서 보기 만들기 또는 편집
+
+{{highlighted-preview}}
 
 보기를 사용하여 화면에 표시할 정보 유형을 사용자 정의할 수 있습니다. Adobe Workfront에서 여러 유형의 보기를 사용할 수 있습니다.
 
@@ -72,12 +74,12 @@ ht-degree: 1%
    * 열 제목을 새 위치로 끌어 열 표시 순서를 조정합니다.
 
       * (선택 사항) **열 설정** 영역을 클릭하고 **다음 기준으로 이 열 요약** 드롭다운 목록에서 정보를 요약하는 데 사용할 수 있는 옵션 중 하나를 선택합니다. 이 옵션을 선택하면 열의 정보가 보고서 그룹화로 집계됩니다.\
-         날짜 필드의 경우 다음 옵션으로 값을 요약할 수 있습니다.
+        날짜 필드의 경우 다음 옵션으로 값을 요약할 수 있습니다.
 
          * 최대
          * 최소
 
-         숫자 및 통화 필드의 경우 다음 옵션으로 값을 요약할 수 있습니다.
+        숫자 및 통화 필드의 경우 다음 옵션으로 값을 요약할 수 있습니다.
 
          * 수
          * Sum
@@ -85,20 +87,21 @@ ht-degree: 1%
          * 최대
          * 최소
 
-         >[!NOTE]
-         >
-         >그룹화에서 다음 필드의 값을 합산하는 경우 상위 객체(예: 상위 작업)에 다음 예외가 적용됩니다.
-         >   
-         >   * 실제 시간을 제외한 모든 숫자 및 통화 필드(예: 계획된/실제 인건비, 계획된/실제 경비, 계획된/실제 원가, 계획된 시간)는 하위 태스크 및 독립형 태스크에 대한 값만 집계합니다. 상위 작업 또는 상위 작업의 값을 집계하지 않습니다.
-         >   * 실제 시간은 기본 상위 작업과 독립형 작업에 대한 값을 집계합니다. 상위 작업 또는 하위 작업의 상위 작업에 대한 값은 집계하지 않습니다.
-         >   * 숫자 및 통화 값에 대한 사용자 정의 데이터 필드는 상위, 1차 하위 구성요소, 1차 상위 구성요소 및 독립 실행형 작업과 같은 모든 작업을 집계합니다.
+        >[!NOTE]
+        >
+        >그룹화에서 다음 필드의 값을 합산하는 경우 상위 객체(예: 상위 작업)에 다음 예외가 적용됩니다.
+        >   
+        >   * 실제 시간을 제외한 모든 숫자 및 통화 필드(예: 계획된/실제 인건비, 계획된/실제 경비, 계획된/실제 원가, 계획된 시간)는 하위 태스크 및 독립형 태스크에 대한 값만 집계합니다. 상위 작업 또는 상위 작업의 값을 집계하지 않습니다.
+        >   * 실제 시간은 기본 상위 작업과 독립형 작업에 대한 값을 집계합니다. 상위 작업 또는 하위 작업의 상위 작업에 대한 값은 집계하지 않습니다.
+        >   * 숫자 및 통화 값에 대한 사용자 정의 데이터 필드는 상위, 1차 하위 구성요소, 1차 상위 구성요소 및 독립 실행형 작업과 같은 모든 작업을 집계합니다.
+        >   
+        >
 
-
-         보고서에서 그룹화를 사용하는 방법에 대한 자세한 내용은 이 문서 를 참조하십시오 [Adobe Workfront의 그룹화 개요](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+        보고서에서 그룹화를 사용하는 방법에 대한 자세한 내용은 이 문서 를 참조하십시오 [Adobe Workfront의 그룹화 개요](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
       * (선택 사항) **고급 옵션** 열에 대해 다음 정보를 지정하려면 다음을 수행합니다.
 
-         <table style="table-layout:auto"> 
+        <table style="table-layout:auto"> 
          <col> 
          <col> 
          <tbody> 
@@ -121,9 +124,7 @@ ht-degree: 1%
          </tbody> 
         </table>
 
-         보고서에서 보기 형식을 조건부로 지정하는 방법에 대한 자세한 내용은 문서를 참조하십시오 [텍스트 모드에서 조건부 서식 사용](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
-
-
+        보고서에서 보기 형식을 조건부로 지정하는 방법에 대한 자세한 내용은 문서를 참조하십시오 [텍스트 모드에서 조건부 서식 사용](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
 
 1. (조건부) 을 클릭한 경우 **고급 옵션**, 클릭 **완료**.
 
@@ -147,14 +148,18 @@ ht-degree: 1%
 
 애자일 보기에 대한 자세한 내용은 문서 를 참조하십시오 [애자일 보기에서 프로젝트 관리](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: [! The information in the following steps is more or less duplicated in "Creating and Managing Agile Teams."])</p>
--->
+>[!NOTE]
+>
+><span class="preview">이 절차는 프로젝트의 보드 보기가 아닌 레거시 애자일 보기에만 적용됩니다.</span>
 
 애자일 보기를 생성하거나 사용자 정의하려면
 
 1. 프로젝트의 작업 목록으로 이동합니다.
-1. 다음을 클릭합니다. **애자일 스토리보드** 아이콘 ![](assets/agile-storyboard-nwe.png).
+1. 다음을 클릭합니다. **애자일 스토리보드** 아이콘 ![애자일 스토리보드 아이콘](assets/agile-storyboard-nwe.png).
+
+   <span class="preview">또는</span>
+
+   <span class="preview">다음을 클릭합니다. **보드** 아이콘 ![보드 아이콘](assets/board-icon-for-agile-view.png)을 클릭한 다음 을 클릭합니다 **기존 애자일 사용** 게시판 보기에서</span>
 
 1. (조건부) 기존 애자일 보기를 사용자 정의하려면 다음을 수행합니다.
 
@@ -239,7 +244,7 @@ ht-degree: 1%
 
    * 작업에 직접 연결된 링크가 있는 스토리 이름
    * 프로젝트에 직접 연결되는 링크가 있는 프로젝트 이름\
-      이 링크는 반복에서 애자일 보기를 사용할 때만 표시되고, 프로젝트에서 애자일 보기를 사용할 때는 표시되지 않습니다.
+     이 링크는 반복에서 애자일 보기를 사용할 때만 표시되고, 프로젝트에서 애자일 보기를 사용할 때는 표시되지 않습니다.
    * 작업 설명
    * 현재 약정
    * 완료율 자체를 조정하거나 완료된 점수 또는 시간을 조정하여 완료율을 조회 및 편집합니다.
