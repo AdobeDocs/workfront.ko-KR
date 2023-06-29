@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
+source-git-commit: bb68f15c2d8ffabfb67a7789de14ef916cd2dbef
 workflow-type: tm+mt
-source-wordcount: '1500'
+source-wordcount: '1499'
 ht-degree: 3%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 3%
 
 미리 보기: 2023년 6월 28일
 
-프로덕션 릴리스 예정일: 2023년 6월 29일
+프로덕션 릴리스: 2023년 6월 29일
 
 #### 시간 기록을 위한 새로운 인터페이스
 

@@ -6,16 +6,16 @@ description: 귀하 또는 다른 사람이 제출한 요청 또는 제출한 �
 author: Alina
 feature: Work Management
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
+source-git-commit: bb68f15c2d8ffabfb67a7789de14ef916cd2dbef
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '890'
 ht-degree: 1%
 
 ---
 
 # 제출된 요청 찾기
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리보기 환경에서만 사용할 수 있습니다.</span>
 
 본인이나 다른 사람이 제출한 다음 유형의 요청이나 시작했지만 제출하지 않은 요청을 찾을 수 있습니다. Adobe Workfront의 다음 영역에서 이러한 요청을 찾을 수 있습니다.
 
@@ -62,7 +62,7 @@ ht-degree: 1%
 사용자 또는 다른 사용자가 제출한 요청을 찾으려면 다음을 수행합니다.
 
 1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront 오른쪽 상단에 있습니다.
-1. 클릭 **제출됨** 을 클릭하여 모든 제출된 요청을 확인합니다.
+1. 클릭 **제출됨** 을 클릭하여 모든 제출된 요청을 확인합니다.
 
    최대 2000개의 요청을 볼 수 있으며 여러 페이지에 표시될 수 있습니다.
 
@@ -70,44 +70,43 @@ ht-degree: 1%
    >
    >제출된 요청 목록의 열은 사용자 정의할 수 없습니다.
 
-   ![](assets/nwe-submitted-requests-new-list-350x57.png)
+   <span class="preview">![](assets/nwe-submitted-requests-new-list-350x57.png)</span>
 
-   <!--update the shot above when we release the new Copy button to preview - for or after the 23.3 release-->
 
 1. 기본적으로 다음 열이 표시됩니다.
 
    <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">이름</td> 
-      <td> <p>요청의 이름입니다.</p> <p>요청 이름을 클릭하여 엽니다. </p> <p><b>팁</b>
+      <col> 
+      <col> 
+      <tbody> 
+      <tr> 
+         <td role="rowheader">이름</td> 
+         <td> <p>요청의 이름입니다.</p> <p>요청 이름을 클릭하여 엽니다. </p> <p><b>팁</b>
 
    작업 또는 프로젝트로 전환할 때 문제가 유지되지 않으면 문제의 이름이 흐리게 표시되어 더 이상 클릭할 수 없습니다. 문제 변환에 대한 자세한 내용은 <a href="../../../manage-work/issues/convert-issues/convert-issues.md" class="MCXref xref">Adobe Workfront의 문제 전환 개요</a>. </p> </td>
    </tr> 
-     <tr> 
-      <td role="rowheader">전환 대상:</td> 
-      <td> <p>요청이 전환된 작업 또는 프로젝트일 수 있는 해결 중 오브젝트의 이름. </p> <p>작업 또는 프로젝트의 이름을 클릭하여 엽니다. </p> <p>요청이 전환되지 않은 경우 이 필드는 비어 있습니다. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">경로</td> 
-      <td>요청이 원래 제출된 요청 대기열, 주제 그룹 및 대기열 주제의 이름입니다. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">상태</td> 
-      <td>요청 또는 해결 중 오브젝트(작업 또는 프로젝트)의 현재 상태</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">시작 날짜</td> 
-      <td>요청이 제출된 날짜 또는 전환 시 요청이 삭제된 경우 해결 중 오브젝트가 생성된 날짜입니다. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">마지막 업데이트 날짜</td> 
-      <td> <p>요청이 마지막으로 업데이트된 날짜.</p> <p>Submitted 요청 목록은 기본적으로 이 필드별로 정렬됩니다. </p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+      <tr> 
+         <td role="rowheader">전환 대상:</td> 
+         <td> <p>요청이 전환된 작업 또는 프로젝트일 수 있는 해결 중 오브젝트의 이름. </p> <p>작업 또는 프로젝트의 이름을 클릭하여 엽니다. </p> <p>요청이 전환되지 않은 경우 이 필드는 비어 있습니다. </p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">경로</td> 
+         <td>요청이 원래 제출된 요청 대기열, 주제 그룹 및 대기열 주제의 이름입니다. </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">상태</td> 
+         <td>요청 또는 해결 중 오브젝트(작업 또는 프로젝트)의 현재 상태</td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">시작 날짜</td> 
+         <td>요청이 제출된 날짜 또는 전환 시 요청이 삭제된 경우 해결 중 오브젝트가 생성된 날짜입니다. </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">마지막 업데이트 날짜</td> 
+         <td> <p>요청이 마지막으로 업데이트된 날짜.</p> <p>Submitted 요청 목록은 기본적으로 이 필드별로 정렬됩니다. </p> </td> 
+      </tr> 
+      </tbody> 
+      </table>
 
 1. (선택 사항) 정렬할 열의 헤더를 클릭합니다.
 

@@ -6,16 +6,16 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: 742565b06395e5092152b1d04262344dc1020d74
+source-git-commit: bb68f15c2d8ffabfb67a7789de14ef916cd2dbef
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1367'
 ht-degree: 2%
 
 ---
 
 # 요청 복사 및 제출
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리보기 환경에서만 사용할 수 있습니다.</span>
 
 유사한 요청을 자주 제출하는 경우 제출된 기존 요청을 복사할 수 있습니다. 이 경우 기존 요청을 복사하고 최소 변경 내용을 적용한 다음 새 요청으로 다시 제출할 수 있습니다.
 
@@ -122,15 +122,13 @@ ht-degree: 2%
 1. (조건부) 제출됨 섹션이 기본적으로 표시되지 않으면 **제출됨** 왼쪽 패널에서
 1. 새로 복사하여 제출할 요청을 찾은 후 다음 중 하나를 수행합니다.
 
-   * 선택한 다음 **새 항목으로 복사 및 제출** 아이콘 ![](assets/copy-and-submit-as-new-requests-area-nwe.png) 을 클릭합니다. <!--update this icon the 23.3 preview release, or shortly after: replace this step with this: Select it, then click the **Copy** icon ![](assets/copy-and-submit-as-new-requests-area-nwe.png) in the upper-left corner of the Submitted requests list.-->
+   * 선택한 다음 를 클릭합니다. <span class="preview"> **복사** ![](assets/copy-and-submit-as-new-requests-area-nwe.png)</span> 을 클릭합니다.
 
-   <!-- reveal this tip for 23.3 preview release:
    >[!TIP]
    >
-   > <span class="preview">If you did not select a request first, the Copy icon is dimmed.</span> 
-   -->
+   > <span class="preview">요청을 먼저 선택하지 않은 경우 복사 아이콘이 흐리게 표시됩니다.</span>
 
-   * 다음을 클릭합니다. **자세히** 메뉴 ![](assets/more-icon.png) 요청 이름 오른쪽에 있는 을 클릭합니다. **새 항목으로 복사 및 제출** <!--ensure this does not change with the Copy icon improvements with 23.3 preview-->
+   * 다음을 클릭합니다. **자세히** 메뉴 ![](assets/more-icon.png) 요청 이름 오른쪽에 있는 을 클릭합니다. **새 항목으로 복사 및 제출**
 
      또는
 
