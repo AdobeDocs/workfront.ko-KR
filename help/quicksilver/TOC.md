@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 281712542566aec87c51a2eccb301dd3a83a94b3
+source-git-commit: 37a5c0dbc862436e06afea6ca2f0e1994355cbe8
 workflow-type: tm+mt
-source-wordcount: '13094'
+source-wordcount: '13106'
 ht-degree: 1%
 
 ---
@@ -392,6 +392,8 @@ ht-degree: 1%
          * [스코어카드 만들기](administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)
          * [프로젝트 타임라인 재계산](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
          * [프로젝트에 대한 사용자 정의 분기](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
+         * [위치 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-locations.md)
+         * [등급 카드 관리](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)
       * 일정 및 타임시트 환경 설정 구성 {#configure-timesheets-schedules}
          * [일정 및 타임시트 환경 설정 구성](administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-timesheets-and-schedules.md)
          * [일정 개요](administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md)
@@ -1199,6 +1201,7 @@ ht-degree: 1%
          * [프로젝트 수준 청구 요율을 회사 수준 청구 요율로 재정의](manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md)
          * [작업 역할 청구 요금 재정의 및 프로젝트의 수익 계산에 대한 개요](manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)
          * [프로젝트 수준에서 작업 역할 청구 요금 재정의](manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)
+         * [프로젝트에 요금 카드 첨부](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)
          * [프로젝트 계획 이익 개요](manage-work/projects/project-finances/project-planned-benefit.md)
          * [PIM(성과 지표 메서드) 설정](manage-work/projects/project-finances/set-pim.md)
          * [투자 수익률(ROI) 계산](manage-work/projects/project-finances/calculate-roi.md)

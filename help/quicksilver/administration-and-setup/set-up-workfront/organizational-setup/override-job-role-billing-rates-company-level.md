@@ -2,24 +2,26 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: organization-setup
-title: 회사 레벨에서 직무 역할 청구 비율 대체
-description: 작업 역할이 생성되면 해당 역할에 대한 시간별 청구 비율을 선택할 수 있습니다. 회사에 고유한 시간별 청구 비율을 생성할 수 있습니다.
+title: 회사 수준에서 작업 역할 청구 요금 재정의
+description: 작업 역할이 생성되면 해당 역할에 대한 시간당 청구 요금을 선택할 수 있습니다. 회사별로 고유한 시간당 청구 요금을 생성할 수 있습니다.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: ee60987e-78b5-4853-9a4f-e44aa7a81c05
-source-git-commit: b6f6964bb80f172849434c669df2b0ecd735a590
+source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 0%
+source-wordcount: '480'
+ht-degree: 1%
 
 ---
 
-# 회사 레벨에서 직무 역할 청구 비율 대체
+# 회사 수준에서 작업 역할 청구 요금 재정의
 
-작업 역할이 생성되면 해당 역할에 대한 시간별 청구 비율을 선택할 수 있습니다. 회사에 고유한 시간별 청구 비율을 생성할 수 있습니다.
+{{highlighted-preview}}
 
-프로젝트 레벨에서 회사 수준의 청구 비율이 프로젝트 레벨 비율을 대체하도록 허용하는 옵션을 활성화할 수 있습니다. 자세한 내용은 [회사 수준 청구 단가로 프로젝트 레벨 청구 비율 대체](../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md).
+작업 역할이 생성되면 해당 역할에 대한 시간당 청구 요금을 선택할 수 있습니다. <span class="preview">한 회사에만 해당되는 여러 개의 시간별 청구 요금을 생성할 수 있습니다. 각 청구 요금은 특정 날짜 범위에 유효합니다.</span>
+
+프로젝트 수준에서 회사 수준의 청구 요금이 프로젝트 수준의 요금을 재정의할 수 있도록 하는 옵션을 활성화할 수 있습니다. 자세한 내용은 [프로젝트 수준 청구 요율을 회사 수준 청구 요율로 재정의](../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md).
 
 ## 액세스 요구 사항
 
@@ -39,22 +41,44 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>시스템 관리자가 아닌 회사에 대한 관리자 액세스</p> <p>[!UICONTROL Edit] 재무 데이터 액세스</p> <p><b>참고</b>: 여전히 액세스할 수 없는 경우 [!DNL Workfront] 관리자가 액세스 수준에서 추가 제한을 설정한 경우 자세한 내용은 [!DNL Workfront] 관리자는 액세스 수준을 수정할 수 있습니다. <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td> <p>시스템 관리자가 아닌 경우 회사에 대한 관리 액세스</p> <p>재무 데이터에 대한 [!UICONTROL 편집] 액세스</p> <p><b>참고</b>: 아직 액세스 권한이 없는 경우 [!DNL Workfront] 관리자가 액세스 수준에 추가 제한을 설정하는 경우. 자세한 내용: [!DNL Workfront] 관리자가 액세스 수준을 수정할 수 있습니다. 다음을 참조하십시오. <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;어떤 계획, 라이센스 유형 또는 액세스 권한을 보유하고 있는지 확인하려면 [!DNL Workfront] 관리자
+&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
 
-## 특정 Job 역할에 사용되는 설정된 청구 비율을 대체 또는 변경합니다
+## 특정 작업 역할에 사용된 기존 청구 요금 재정의 또는 변경
 
-1. 을(를) 클릭합니다. **[!UICONTROL 기본 메뉴]** 아이콘 ![](assets/main-menu-icon.png) 의 오른쪽 위 모서리에서 [!DNL Adobe] Workfront을 클릭한 다음 **[!UICONTROL 설정]** ![](assets/gear-icon-settings.png).
+1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![](assets/main-menu-icon.png) 의 오른쪽 위 모서리 [!DNL Adobe] Workfront을 클릭한 다음 **[!UICONTROL 설정]** ![](assets/gear-icon-settings.png).
 
 1. 클릭 **[!UICONTROL 회사]**.
-1. Job 역할이 할당된 회사를 찾습니다.
-1. 클릭 **[!UICONTROL 회사 편집]** 오른쪽 상단 모서리에서
-1. 에서 **[!UICONTROL 청구 비율]** 섹션에서 편집할 작업 역할을 선택하고 해당 작업 역할에 대한 새 청구 비율을 입력합니다 **[!UICONTROL 회사 청구 비율]** 상자.
+1. 작업 역할이 할당된 회사를 찾습니다.
+1. <span class="preview">목록에서 회사 이름을 클릭합니다.</span>
+1. <span class="preview">클릭 **[!UICONTROL 청구 요금]** 왼쪽 패널에서</span>
+1. <span class="preview">클릭 **[!UICONTROL 청구 요금 추가] > [!UICONTROL 새 청구 요금]**&#x200B;또는 편집할 기존 비율을 선택합니다.</span>
+1. <span class="preview">다음에서 [!UICONTROL 새 청구 요금] 대화 상자에서 다음을 선택합니다. [!UICONTROL **작업 역할**] 에 대한 청구 요율을 정의합니다.</span>
+
+   <span class="preview">다음 [!UICONTROL **기본 청구 요금**] 이 작업 역할에 대한 시스템 수준 비율을 표시합니다.</span>
+
+   <span class="preview">![새 청구 요금 대화 상자](assets/date-effective-billing-rates-for-company.png)</span>
+
+1. <span class="preview">다음에서 [!DNL **청구 요금 1**] 필드에 청구 요금을 입력합니다. 그런 다음 을 클릭합니다. [!UICONTROL **저장**] 청구 요율을 한 번 재정의합니다.</span>
+
+   <span class="preview">또는</span>
+
+   <span class="preview">클릭 [!UICONTROL **비율 추가**] 유효 일자가 있는 더 많은 청구 요율을 추가하려면.</span>
+
+1. <span class="preview">(조건부) 두 개 이상의 청구 요율을 추가하는 경우 다음 정보를 입력합니다.</span>
+
+   * <span class="preview">**[!UICONTROL 청구 요금 1], 2 등&#x200B;**: 기간에 대한 청구 요금의 값입니다.</span>
+   * <span class="preview">**[!UICONTROL 시작일&#x200B;]**: 요금이 적용되는 날짜.</span>
+   * <span class="preview">**[!UICONTROL 종료일&#x200B;]**: 요금이 끝나는 날짜.</span>
+
+     <span class="preview">청구 요금 1에는 시작 일자가 없으며 마지막 청구 요금에 종료 일자가 없습니다. 일부 날짜는 자동으로 추가됩니다. 예를 들어, 청구 요금 1에 종료 일자가 없고 시작 일자가 2023년 5월 1일인 청구 요금 2를 추가하는 경우, 2023년 4월 30일인 종료 일자가 청구 요금 1에 추가되므로 간격이 없습니다.</span>
+
+1. <span class="preview">[!UICONTROL **저장**]&#x200B;을 클릭합니다.</span>
 
    >[!NOTE]
    >
-   >프로젝트에서 변경된 작업 역할 비율은 해당 프로젝트에만 영향을 줍니다. 회사 수준에서 변경된 비율은 모든 프로젝트에 영향을 줍니다. 자세한 내용은 [Job 역할 청구 비율 대체 및 프로젝트에 대한 수익 계산 개요](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+   >프로젝트에서 변경된 작업 역할 비율은 해당 프로젝트에만 영향을 줍니다. 회사 수준에서 변경된 요금은 모든 프로젝트에 영향을 줍니다. 자세한 내용은 [작업 역할 청구 요금 재정의 및 프로젝트의 수익 계산에 대한 개요](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
