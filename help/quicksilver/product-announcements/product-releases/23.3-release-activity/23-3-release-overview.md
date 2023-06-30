@@ -4,9 +4,9 @@ description: 23.3 릴리스 개요
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: d8420930738102e64fbab2eecf91f2eb4429cb0e
+source-git-commit: 3aa19652024cd6df1c9560aad6e982e4b615569c
 workflow-type: tm+mt
-source-wordcount: '2687'
+source-wordcount: '2701'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,8 @@ ht-degree: 0%
 > * 을(를) 사용하는 경우 **분기별** 릴리스 트랙, 23.3 이후 릴리스는 다음과 같습니다. **23.10**, 2023년 10월.
 > 
 > 분기별 릴리스에는 3개의 월별 릴리스의 기능이 포함됩니다. 예를 들어 23.10 분기 릴리스에는 23.8, 23.9 및 23.10 월별 릴리스에 포함된 기능이 포함됩니다.
->
 >|월별 릴리스|분기별 릴리스|
->|----|----|
+>--------
 >|<ul><li>23.8 (2023년 8월)</li><li>23.9 (2023년 9월)</li><li>23.10 (2023년 10월)</li></ul>| <ul><li>23.10 (2023년 10월)</li></ul>|
 >|<ul><li>23.11 (2023년 11월)</li><li>23.12 (2023년 12월)</li><li>24.1 (2024년 1월)</li></ul>| <ul><li>24.1 (2024년 1월)</li></ul>|
 
@@ -114,7 +113,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">프로젝트의 애자일 보기에는 칸반 보드가 표시됩니다</a><span style="color: #ff0000;"> 곧 출시 예정!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">프로젝트의 애자일 보기에는 칸반 보드가 표시됩니다</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p>
                         <p>이제 프로젝트의 애자일 보기에는 칸반 보드에서 작업을 필터링, 그룹화 및 정렬할 수 있는 추가 기능이 포함됩니다. 새롭고 유연한 보기 디자인에는 강력한 검색 기능과 보드에서 바로 프로젝트에 새 작업을 추가할 수 있는 기능이 포함되어 있습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -333,7 +332,7 @@ ht-degree: 0%
                  </tr>   
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">일자 유효 비용 및 청구 요금</a><span style="color: #ff0000;"> 곧 출시 예정!</span> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">일자 유효 비용 및 청구 요금</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span> </p>
                         <p>이제 Workfront의 회사, 사용자 및 작업 역할 오브젝트에서 날짜 유효 비용 및 청구 요금을 사용할 수 있습니다. 날짜 유효 비율이 프로젝트에 적용되고 시간이 프로젝트 작업에 기록되면 각 기간에 대해 지정된 비율을 사용하여 비용 및 수익이 계산됩니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -343,7 +342,8 @@ ht-degree: 0%
                             </li>
                             <li>
                                 <p>Fast 릴리스 고객을 위한 프로덕션 릴리스: 23.3 프로덕션 릴리스 이후 발표될 예정입니다</p>
-                                <p>모든 고객을 위한 프로덕션 릴리스: 23.4 릴리스 포함</p>
+                                <p>모든 고객을 위한 프로덕션 릴리스: 23.4 릴리스 포함<br>
+                                <span style="color: #ff0000;"> 할당률 재정의 기능이 2023년 6월 30일 미리보기에서 일시적으로 비활성화되었습니다.</span></p>
                             </li>
                         </ul>
                     </td>

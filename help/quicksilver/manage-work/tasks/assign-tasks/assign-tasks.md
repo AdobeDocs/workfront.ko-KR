@@ -6,9 +6,9 @@ description: 작업을 사용자, 역할 또는 팀에 할당하여 작업 완�
 author: Alina
 feature: Work Management
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+source-git-commit: 3aa19652024cd6df1c9560aad6e982e4b615569c
 workflow-type: tm+mt
-source-wordcount: '1901'
+source-wordcount: '1913'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 1%
 # 작업 할당
 
 {{highlighted-preview}}
+
+>[!IMPORTANT]
+>
+>할당률 재정의 기능이 2023년 6월 30일 미리보기에서 일시적으로 비활성화되었습니다.
 
 작업을 사용자, 작업 역할 또는 팀에 할당하여 작업 완료를 담당하는 사람을 표시할 수 있습니다. 한 번에 두 개 이상의 리소스에 작업을 할당할 수 있습니다.
 

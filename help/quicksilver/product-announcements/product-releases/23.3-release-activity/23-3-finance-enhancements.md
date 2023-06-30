@@ -3,9 +3,9 @@ title: 23.3 Financial Management 개선 사항
 description: 23.3 Financial Management 개선 사항
 author: Lisa
 feature: Product Announcements
-source-git-commit: 2644afeda2c839ff45c9ee2a89d79b429daed1f0
+source-git-commit: 3aa19652024cd6df1c9560aad6e982e4b615569c
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -18,10 +18,14 @@ ht-degree: 0%
 
 ## 일자 유효 비용 및 청구 요금
 
+>[!IMPORTANT]
+>
+>할당률 재정의 기능이 2023년 6월 30일 미리보기에서 일시적으로 비활성화되었습니다.
+
 이제 Workfront의 회사, 사용자 및 작업 역할 오브젝트에서 날짜 유효 비용 및 청구 요금을 사용할 수 있습니다. 날짜 유효 비율이 프로젝트에 적용되고 시간이 프로젝트 작업에 기록되면 각 기간에 대해 지정된 비율을 사용하여 비용 및 수익이 계산됩니다.
 
 또한 이제 사용자 프로필에서 유효 날짜 작업 역할 세트를 사용할 수 있습니다. 프로젝트 중 사용자의 작업 역할이 변경되는 경우 재무 계산에서 이러한 일자 유효 역할 연관을 고려합니다.
 
 새로운 기능인 요금 카드를 사용하면 위치에 따라 작업 역할당 여러 청구 요금을 정의할 수 있습니다. 작업 역할 및 위치에 대한 청구 요금에 유효 일자가 포함될 수도 있습니다. 프로젝트에 비율 카드를 부착하여 특정 작업 역할 및 위치에 대한 모든 비율 정보를 한 번에 적용할 수 있습니다. 또한 위치 기반 역할은 할당 수준에서 비율을 대체할 수 있는 가능성이 있는 작업에 할당할 수 있습니다.
 
-이러한 모든 기능은 2023년 7월 29일 미리보기에 출시될 예정이며 그때 업데이트된 사용자 설명서를 사용할 수 있습니다.
+자세한 내용은 [사용자 프로필 편집](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md), [작업 역할 만들기 및 관리](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md), [등급 카드 관리](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md), 및 [청구 및 수익 개요](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).

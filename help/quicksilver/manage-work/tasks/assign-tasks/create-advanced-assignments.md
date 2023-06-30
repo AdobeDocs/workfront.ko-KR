@@ -6,9 +6,9 @@ description: 고급 할당을 사용하여 작업 또는 문제 할당을 관리
 author: Alina
 feature: Work Management
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 2b48377653a77d3d71c90fac9c64cb48fc7877a3
+source-git-commit: 3aa19652024cd6df1c9560aad6e982e4b615569c
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1321'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 0%
 # 고급 할당 만들기
 
 {{highlighted-preview}}
+
+>[!IMPORTANT]
+>
+>할당률 재정의 기능이 2023년 6월 30일 미리보기에서 일시적으로 비활성화되었습니다.
 
 고급 할당을 사용하여 작업 또는 문제 할당을 관리할 수 있습니다.
 
