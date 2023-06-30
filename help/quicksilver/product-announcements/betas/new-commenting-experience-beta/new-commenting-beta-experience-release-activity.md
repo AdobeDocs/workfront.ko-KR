@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: bb68f15c2d8ffabfb67a7789de14ef916cd2dbef
+source-git-commit: 62db557f6347004836fac1ea37e55d557dcc6b87
 workflow-type: tm+mt
-source-wordcount: '1499'
+source-wordcount: '1514'
 ht-degree: 3%
 
 ---
@@ -86,9 +86,11 @@ ht-degree: 3%
 
 자세한 내용은 [로그 시간](../../../timesheets/create-and-manage-timesheets/log-time.md). 설명서는 릴리스 시점에 업데이트됩니다.
 
-예정된 미리보기 릴리스: 2023년 6월 29일
+프로젝트, 작업 및 문제에 대한 예정된 미리보기 릴리스: 2023년 7월 5일
 
-계획된 프로덕션 릴리스: 23.3 릴리스 포함
+문제에 대한 계획된 프로덕션 릴리스: 2023년 7월 6일
+
+프로젝트 및 작업에 대한 계획된 프로덕션 릴리스: (23.3 릴리스 포함)
 
 #### 업데이트에 이모지 추가
 
@@ -188,7 +190,7 @@ Fast 릴리스 고객을 위한 프로덕션 릴리스: 23.3 릴리스 이후 �
 
 미리 보기: 2023년 6월 1일
 
-제작: 발표 예정
+프로덕션: 23.3 릴리스 포함
 
 ### 2023년 5월 15일 주
 
