@@ -3,9 +3,9 @@ title: 23.3 관리자 개선 사항
 description: 23.3 관리자 개선 사항
 author: Lisa
 feature: Product Announcements
-source-git-commit: 3ebf408bb03a97de78600ab771834a7d7f29e2e0
+source-git-commit: f49f1275ec0911cc05a74c694436bf654a02bfe2
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 이전에는 모든 고객을 위해 기능을 분기별로 릴리스했습니다.
 
-자세한 내용은 23.3 릴리스에서 확인할 수 있습니다.
+자세한 내용은 [빠른 릴리스 프로세스 활성화 또는 비활성화](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 ## &quot;사용자가 시간을 기록할 수 있는 위치&quot; 타임시트 및 시간 환경 설정에 사용할 수 있는 그룹 수준 제어
 
