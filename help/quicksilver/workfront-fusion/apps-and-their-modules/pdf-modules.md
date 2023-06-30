@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e0a5736b-dbdb-43c6-83ff-e88a5625a5bf
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 154905c0ed82052c38e87b6d49385deef28b83aa
 workflow-type: tm+mt
-source-wordcount: '3261'
+source-wordcount: '3465'
 ht-degree: 0%
 
 ---
@@ -22,18 +22,22 @@ ht-degree: 0%
 
 PDF 서비스에 사용되는 API에 대한 자세한 내용은 [Adobe 문서 생성 API](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html).
 
-## 사용 시 고려 사항 [!DNL Adobe PDF Services]
+## 사용 시 보안 고려 사항 [!DNL Adobe PDF Services]
 
-* [필요 없음 [!DNL Adobe] account](#you-do-not-need-an-adobe-account)
-* [[!DNL Workfront Fusion] 은(는) 파일을 저장하지 않습니다.](#workfront-fusion-does-not-store-your-files)
+<!--
 
-### 필요 없음 [!DNL Adobe] account
+* [You do not need an [!DNL Adobe] account](#you-do-not-need-an-adobe-account) 
+* [[!DNL Workfront Fusion] does not store your files](#workfront-fusion-does-not-store-your-files)
 
-이유 [!DNL Workfront Fusion] 의 일부임 [!DNL Adobe] 제품 세트, 별도로 필요하지 않음 [!DNL Adobe] 계정 을 참조하십시오. 각 도구 액세스 [!DNL Adobe] 연결을 사용하지 않고 기능을 PDF 합니다.
+### You do not need an [!DNL Adobe] account 
 
-그러나 [!DNL Workfront Fusion] 이(가) 필요하지 않음 [!DNL Adobe] PDF 서비스를 사용하려면 모듈에 연결이 필요합니다. 이 연결과 관련된 자격 증명이 없으며 연결 자체에 대한 이름만 제공합니다.
+Because [!DNL Workfront Fusion] is part of the [!DNL Adobe] product suite, you don't need a separate [!DNL Adobe] account to use these tools. Each tool accesses [!DNL Adobe] PDF functionality without using a connection.
 
-### [!DNL Workfront Fusion] 은(는) 파일을 저장하지 않습니다.
+Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use the PDF Services, the modules do require a connection. There are no credentials involved in this connection, and you provide only a name for the connection itself.
+
+### [!DNL Workfront Fusion] does not store your files 
+
+-->
 
 다음 [!DNL Adobe PDF Services] 는 파일을 읽거나, 변환하거나, 수정할 수 있지만 둘 다 할 수는 없습니다 [!DNL Adobe] nor [!DNL Workfront Fusion] 파일 또는 데이터를 저장합니다. 이것은 다음을 의미합니다.
 
@@ -79,6 +83,59 @@ PDF 서비스에 사용되는 API에 대한 자세한 내용은 [Adobe 문서 �
 
 다음에 대한 정보: [!DNL Adobe Workfront Fusion] 라이센스, 참조 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
+## 에 대한 연결 만들기 [!DNL Adobe PDF Services]
+
+에 대한 연결을 만들려면 [!DNL Adobe PDF Services] 모듈:
+
+1. 다음 중 하나 [!DNL Adobe PDF Services] 모듈, 클릭 **[!UICONTROL 추가]** 연결 상자 옆에 있습니다.
+
+1. 다음 필드를 채웁니다.
+
+   <table style="table-layout:auto"> 
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+      </col>
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+      </col>
+      <tbody>
+        <tr>
+          <td role="rowheader">[!UICONTROL 연결 유형]</td>
+          <td>
+            <p>서버 간 연결을 만들지 JWT 연결을 만들지 선택합니다.</p>
+          </td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL 연결 이름]</td>
+          <td>
+            <p>이 연결의 이름을 입력하십시오.</p>
+          </td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL 클라이언트 ID]</td>
+          <td>다음을 입력하십시오. [!DNL Adobe] [!UICONTROL 클라이언트 ID]. 이 정보는 의 [!UICONTROL 자격 증명 세부 정보] 섹션에서 찾을 수 있습니다. [!DNL Adobe Developer Console].</td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL 클라이언트 암호]</td>
+          <td>다음을 입력하십시오. [!DNL Adobe] [!UICONTROL 클라이언트 암호]. 이 정보는 의 [!UICONTROL 자격 증명 세부 정보] 섹션에서 찾을 수 있습니다. [!DNL Adobe Developer Console].
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL 기술 계정 ID](JWT만 해당)</td>
+          <td>다음을 입력하십시오. [!DNL Adobe] [!UICONTROL 기술 계정 ID]. 이 정보는 의 [!UICONTROL 자격 증명 세부 정보] 섹션에서 찾을 수 있습니다. [!DNL Adobe Developer Console].
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL 조직 ID](JWT만 해당)</td>
+          <td>다음을 입력하십시오. [!DNL Adobe] [!UICONTROL 조직 ID]. 이 정보는 의 [!UICONTROL 자격 증명 세부 정보] 섹션에서 찾을 수 있습니다. [!DNL Adobe Developer Console].
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL 메타 범위](JWT만 해당)</td>
+          <td>
+            연결에 필요한 메타 범위를 입력합니다.
+          </td>
+        </tr>
+       </tbody>
+    </table>
+1. 클릭 **[!UICONTROL 계속]** 연결을 저장하고 모듈로 돌아갑니다.
+
+
 ## [!DNL Adobe PDF Services] 모듈 및 해당 필드
 
 를 구성할 때 [!DNL PDF Services], [!DNL Workfront Fusion] 아래 나열된 필드를 표시합니다. 이러한 필드와 함께 앱이나 서비스의 액세스 수준과 같은 요소에 따라 추가 필드가 표시될 수 있습니다. 모듈의 굵은 제목은 필수 필드를 나타냅니다.
@@ -98,10 +155,12 @@ PDF 서비스에 사용되는 API에 대한 자세한 내용은 [Adobe 문서 �
 * [[!UICONTROL PDF을 이미지로 변환]](#convert-pdf-to-image)
 * [[!UICONTROL PDF 파일 선형화]](#linearize-a-pdf-file)
 * [[!UICONTROL PDF 파일용 OCR]](#ocr-for-pdf-file)
-* [[!UICONTROL PDF 페이지 조작]](#pdf-page-manipulation)
+* [[!UICONTROL 페이지 조작]](#page-manipulation)
+* [[!UICONTROL PDF 접근성 자동 태그 지정]](#pdf-accessibility-auto-tag)
 * [[!UICONTROL PDF 파일 속성]](#pdf-file-properties)
 * [[!UICONTROL Protect PDF 파일]](#protect-pdf-file)
 * [[!UICONTROL PDF 파일 보호 제거]](#remove-protection-of-a-pdf-file)
+* [PDF 파일 분할](#split-a-pdf-file)
 
 ### [!UICONTROL 문서 생성]
 
@@ -132,7 +191,7 @@ PDF 서비스에 사용되는 API에 대한 자세한 내용은 [Adobe 문서 �
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> <p>필요 없음 [!DNL Adobe] PDF 서비스 연결을 만들 계정입니다. 자세한 내용은 <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">필요 없음 [!DNL Adobe] account</a> 이 문서에서.</p> </td> 
+   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> 에 대한 연결 만들기에 대한 지침: [!DNL Adobe PDF Services], 참조 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe PDF Services]</a> 이 문서에서. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 소스 파일]</td> 
@@ -168,7 +227,7 @@ PDF 서비스에 사용되는 API에 대한 자세한 내용은 [Adobe 문서 �
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> <p>필요 없음 [!DNL Adobe] PDF 서비스 연결을 만들 계정입니다. 자세한 내용은 <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">필요 없음 [!DNL Adobe] account</a> 이 문서에서.</p> </td> 
+   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> 에 대한 연결 만들기에 대한 지침: [!DNL Adobe PDF Services], 참조 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe PDF Services]</a> 이 문서에서. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 소스 파일]</td> 
@@ -199,7 +258,7 @@ PDF 서비스에 사용되는 API에 대한 자세한 내용은 [Adobe 문서 �
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> <p>필요 없음 [!DNL Adobe] PDF 서비스 연결을 만들 계정입니다. 자세한 내용은 <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">필요 없음 [!DNL Adobe] account</a> 이 문서에서.</p> </td> 
+   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> 에 대한 연결 만들기에 대한 지침: [!DNL Adobe PDF Services], 참조 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe PDF Services]</a> 이 문서에서. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 소스 파일]</td> 
@@ -234,7 +293,7 @@ PDF 서비스에 사용되는 API에 대한 자세한 내용은 [Adobe 문서 �
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> <p>필요 없음 [!DNL Adobe] PDF 서비스 연결을 만들 계정입니다. 자세한 내용은 <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">필요 없음 [!DNL Adobe] account</a> 이 문서에서.</p> </td> 
+   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> 에 대한 연결 만들기에 대한 지침: [!DNL Adobe PDF Services], 참조 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe PDF Services]</a> 이 문서에서. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 문서]</td> 
@@ -261,7 +320,7 @@ PDF 서비스에 사용되는 API에 대한 자세한 내용은 [Adobe 문서 �
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> <p>필요 없음 [!DNL Adobe] PDF 서비스 연결을 만들 계정입니다. 자세한 내용은 <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">필요 없음 [!DNL Adobe] account</a> 이 문서에서.</p> </td> 
+   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> 에 대한 연결 만들기에 대한 지침: [!DNL Adobe PDF Services], 참조 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe PDF Services]</a> 이 문서에서. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 소스 파일]</td> 
@@ -292,7 +351,7 @@ PDF 서비스에 사용되는 API에 대한 자세한 내용은 [Adobe 문서 �
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> <p>필요 없음 [!DNL Adobe] PDF 서비스 연결을 만들 계정입니다. 자세한 내용은 <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">필요 없음 [!DNL Adobe] account</a> 이 문서에서.</p> </td> 
+   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> 에 대한 연결 만들기에 대한 지침: [!DNL Adobe PDF Services], 참조 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe PDF Services]</a> 이 문서에서. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 소스 파일]</td> 
@@ -361,7 +420,7 @@ PDF 서비스에 사용되는 API에 대한 자세한 내용은 [Adobe 문서 �
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> <p>필요 없음 [!DNL Adobe] PDF 서비스 연결을 만들 계정입니다. 자세한 내용은 <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">필요 없음 [!DNL Adobe] account</a> 이 문서에서.</p> </td> 
+   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> 에 대한 연결 만들기에 대한 지침: [!DNL Adobe PDF Services], 참조 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe PDF Services]</a> 이 문서에서. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 소스 파일]</td> 
@@ -406,7 +465,7 @@ PDF 서비스에 사용되는 API에 대한 자세한 내용은 [Adobe 문서 �
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> <p>필요 없음 [!DNL Adobe] PDF 서비스 연결을 만들 계정입니다. 자세한 내용은 <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">필요 없음 [!DNL Adobe] account</a> 이 문서에서.</p> </td> 
+   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> 에 대한 연결 만들기에 대한 지침: [!DNL Adobe PDF Services], 참조 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe PDF Services]</a> 이 문서에서. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 소스 파일]</td> 
@@ -433,7 +492,7 @@ PDF 서비스에 사용되는 API에 대한 자세한 내용은 [Adobe 문서 �
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> <p>필요 없음 [!DNL Adobe] PDF 서비스 연결을 만들 계정입니다. 자세한 내용은 <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">필요 없음 [!DNL Adobe] account</a> 이 문서에서.</p> </td> 
+   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> 에 대한 연결 만들기에 대한 지침: [!DNL Adobe PDF Services], 참조 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe PDF Services]</a> 이 문서에서. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 소스 파일]</td> 
@@ -467,7 +526,7 @@ PDF 서비스에 사용되는 API에 대한 자세한 내용은 [Adobe 문서 �
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> <p>필요 없음 [!DNL Adobe] PDF 서비스 연결을 만들 계정입니다. 자세한 내용은 <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">필요 없음 [!DNL Adobe] account</a> 이 문서에서.</p> </td> 
+   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> 에 대한 연결 만들기에 대한 지침: [!DNL Adobe PDF Services], 참조 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe PDF Services]</a> 이 문서에서. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 소스 파일]</td> 
@@ -496,7 +555,7 @@ PDF 서비스에 사용되는 API에 대한 자세한 내용은 [Adobe 문서 �
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> <p>필요 없음 [!DNL Adobe] PDF 서비스 연결을 만들 계정입니다. 자세한 내용은 <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">필요 없음 [!DNL Adobe] account</a> 이 문서에서.</p> </td> 
+   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> 에 대한 연결 만들기에 대한 지침: [!DNL Adobe PDF Services], 참조 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe PDF Services]</a> 이 문서에서. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 소스 파일]</td> 
@@ -517,7 +576,7 @@ PDF 서비스에 사용되는 API에 대한 자세한 내용은 [Adobe 문서 �
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> <p>필요 없음 [!DNL Adobe] PDF 서비스 연결을 만들 계정입니다. 자세한 내용은 <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">필요 없음 [!DNL Adobe] account</a> 이 문서에서.</p> </td> 
+   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> 에 대한 연결 만들기에 대한 지침: [!DNL Adobe PDF Services], 참조 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe PDF Services]</a> 이 문서에서. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 소스 파일]</td> 
@@ -538,7 +597,7 @@ PDF 서비스에 사용되는 API에 대한 자세한 내용은 [Adobe 문서 �
  </tbody> 
 </table>
 
-### [!UICONTROL PDF 페이지 조작]
+### [!UICONTROL 페이지 조작]
 
 이 모듈에서는 PDF 문서의 페이지를 선택적으로 회전하거나 삭제할 수 있습니다. 예를 들어 세로 보기를 가로 보기로 변경하거나 PDF 문서에서 특정 페이지를 제거할 수 있습니다.
 
@@ -550,7 +609,7 @@ PDF 서비스에 사용되는 API에 대한 자세한 내용은 [Adobe 문서 �
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> <p>필요 없음 [!DNL Adobe] PDF 서비스 연결을 만들 계정입니다. 자세한 내용은 <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">필요 없음 [!DNL Adobe] account</a> 이 문서에서.</p> </td> 
+   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> 에 대한 연결 만들기에 대한 지침: [!DNL Adobe PDF Services], 참조 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe PDF Services]</a> 이 문서에서. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 소스 파일]</td> 
@@ -579,6 +638,34 @@ PDF 서비스에 사용되는 API에 대한 자세한 내용은 [Adobe 문서 �
  </tbody> 
 </table>
 
+### [!UICONTROL PDF 접근성 자동 태그 지정]
+
+이 작업 모듈은 접근성 사용 사례에 대해 태그가 지정된 PDF을 만듭니다. 또한 문제를 나열하고 수정 사항을 제안하는 선택적 Microsoft Excel 보고서를 만듭니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> 에 대한 연결 만들기에 대한 지침: [!DNL Adobe PDF Services], 참조 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe PDF Services]</a> 이 문서에서. </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 소스 파일]</td> 
+   <td> <p>이전 모듈에서 소스 파일을 선택하거나 소스 파일의 이름과 데이터를 매핑합니다.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Shift Headings]</td> 
+   <td> <p>문서의 제목을 이동하려면 이 옵션을 활성화합니다.</p> 
+    <ul> 
+     <li> <p><b>[!UICONTROL 보고서 생성]</b> </p> <p>이 옵션을 활성화하면 PDF의 접근성 문제를 위치와 함께 나열하고 이러한 문제를 해결하는 방법에 대한 제안을 제공하는 보고서를 생성할 수 있습니다.</p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 ### [!UICONTROL PDF 파일 속성]
 
 이 도구는 다음과 같은 문서에 대한 기본 정보를 추출합니다.
@@ -597,7 +684,7 @@ PDF 서비스에 사용되는 API에 대한 자세한 내용은 [Adobe 문서 �
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> <p>필요 없음 [!DNL Adobe] PDF 서비스 연결을 만들 계정입니다. 자세한 내용은 <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">필요 없음 [!DNL Adobe] account</a> 이 문서에서.</p> </td> 
+   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> 에 대한 연결 만들기에 대한 지침: [!DNL Adobe PDF Services], 참조 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe PDF Services]</a> 이 문서에서. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 소스 파일]</td> 
@@ -618,7 +705,7 @@ PDF 서비스에 사용되는 API에 대한 자세한 내용은 [Adobe 문서 �
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> <p>필요 없음 [!DNL Adobe] PDF 서비스 연결을 만들 계정입니다. 자세한 내용은 <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">필요 없음 [!DNL Adobe] account</a> 이 문서에서.</p> </td> 
+   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> 에 대한 연결 만들기에 대한 지침: [!DNL Adobe PDF Services], 참조 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe PDF Services]</a> 이 문서에서. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 소스 파일]</td> 
@@ -668,7 +755,7 @@ PDF 서비스에 사용되는 API에 대한 자세한 내용은 [Adobe 문서 �
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> <p>필요 없음 [!DNL Adobe] PDF 서비스 연결을 만들 계정입니다. 자세한 내용은 <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">필요 없음 [!DNL Adobe] account</a> 이 문서에서.</p> </td> 
+   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> 에 대한 연결 만들기에 대한 지침: [!DNL Adobe PDF Services], 참조 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe PDF Services]</a> 이 문서에서. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 소스 파일]</td> 
@@ -680,3 +767,35 @@ PDF 서비스에 사용되는 API에 대한 자세한 내용은 [Adobe 문서 �
   </tr> 
  </tbody> 
 </table>
+
+### [!UICONTROL PDF 파일 분할]
+
+이 작업 모듈은 PDF 문서를 여러 개의 작은 문서로 분할합니다. 파일 수, 파일당 페이지 수 또는 페이지 범위별로 분할할지 여부를 지정합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <tbody> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> 에 대한 연결 만들기에 대한 지침: [!DNL Adobe PDF Services], 참조 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe PDF Services]</a> 이 문서에서. </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 소스 파일]</td> 
+   <td> <p>이전 모듈에서 소스 파일을 선택하거나 소스 파일의 이름과 데이터를 매핑합니다.</p> <p>소스 파일은 PDF 형식이어야 합니다.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 분할 옵션]</td> 
+   <td>파일을 분할할 방법을 선택합니다. 
+   <ul>
+   <li><p><b>페이지 범위</b></p><p>별도의 문서로 분할할 각 페이지 범위에 대해 <b>추가</b> 시작할 페이지와 종료할 페이지를 입력합니다.</p></li>
+   <li><p><b>페이지 수</b></p><p>새 문서에 포함할 페이지 수를 입력합니다.</p></li>
+   <li><p><b>파일 수</b></p><p>문서를 분할할 파일 크기를 동일하게 입력합니다.</p></li>
+   </ul>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
