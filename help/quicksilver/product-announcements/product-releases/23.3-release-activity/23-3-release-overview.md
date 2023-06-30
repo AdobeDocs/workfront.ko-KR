@@ -4,9 +4,9 @@ description: 23.3 릴리스 개요
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 186c102a0b1751ab0eba03bd86d2d9db6de9ec5b
+source-git-commit: 5b4aa5c806d0f930250e9238d460833cd1aed71a
 workflow-type: tm+mt
-source-wordcount: '2701'
+source-wordcount: '2737'
 ht-degree: 0%
 
 ---
@@ -530,6 +530,22 @@ ht-degree: 0%
                             </li>
                         </ul>
                         <p><span style="color: #ff0000;">이 기능은 단계별 릴리스의 일부이며 현재 특정 고객에게만 제공됩니다.</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">새 공유 단추</a> </p>
+                        <p>공유 옵션을 더 직관적으로 공유하기 위해 프로젝트, 작업 및 문제에 대한 더 보기 메뉴에서 제거했습니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2023년 6월 22일<br /></p>
+                            </li>
+                            <li>
+                                <p>프로덕션 릴리스: 23.3 릴리스 포함</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
            </tbody>
