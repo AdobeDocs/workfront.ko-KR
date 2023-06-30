@@ -7,9 +7,9 @@ description: 뷰에 표시되는 일부 객체는 기본적으로 객체의 세�
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 08264437-f12d-43fa-8cb4-264806c6479b
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 5480d6b5e97c4c2e21080bb92ffe255f60ed6f60
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -72,33 +72,22 @@ ht-degree: 0%
 1. 클릭 **텍스트 모드로 전환**.
 1. 텍스트 모드 영역 위로 마우스를 가져간 다음 **텍스트를 편집하려면 클릭**.
 1. 에서 찾은 텍스트 제거 **텍스트 모드** 확인란을 선택하고 다음 코드로 바꿉니다.
-
    <pre>displayname=작업 이름<br>linkedname=direct<br>namekey=name<br>querysort=name<br>textmode=true<br><strong>valueexpression={name}</strong><br>valueformat=Compound</pre>
 
    >[!TIP]
    >
    >다음을 조정하여 다른 개체에 대해 유사한 코드를 사용할 수 있습니다.
    >
-   >   
-   >   
-   >   * 바꾸기 **valuefield** 코드 줄 **valueexpression** 중괄호 안에 동일한 이름을 등호 뒤에 포함시킵니다.
-   >   
-   >   
+   >* 바꾸기 **valuefield** 코드 줄 **valueexpression** 중괄호 안에 동일한 이름을 등호 뒤에 포함시킵니다.
+   >* 다음으로 시작하는 모든 줄 제거 `link.` 열의 원본 텍스트에서 가져옵니다. 예를 들어 다음 줄을 모두 제거합니다.
    >
-   >   
-   >   
-   >   * >로 시작하는 모든 줄 제거
-   >   
-   >     ```>   
-   >     link.
-   >     ```   >   
-   >   
-   >     from the original text of the column. For example, eliminate all the following lines:
-   >     <pre>link.linkproperty.0.name=ID</pre><pre>link.linkproperty.0.valuefield=ID</pre><pre>link.linkproperty.0.valueformat=string</pre><pre>link.lookup=link.view</pre><pre>link.value=val(objCode)</pre>
-   >   
-   >   
+   >  ```
+   >  link.linkproperty.0.name=ID
+   >  link.linkproperty.0.valuefield=ID
+   >  link.linkproperty.0.valueformat=string
+   >  link.lookup=link.view
+   >  link.value=val(objCode)
+   >  ```
    >
-
-
 
 1. 클릭 **저장**, 그런 다음 **보기 저장**.

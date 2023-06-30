@@ -1,81 +1,81 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: OAuth 2 응용 프로그램에 PKCE 흐름 사용
-description: OAuth 2 응용 프로그램에 PKCE 흐름 사용
+title: OAuth 2 애플리케이션에 PKCE 플로우 사용
+description: OAuth 2 애플리케이션에 PKCE 플로우 사용
 author: Becky
 feature: Workfront API
 exl-id: 61fe77b6-c6d7-4f23-bfb6-617bccaa1989
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 5480d6b5e97c4c2e21080bb92ffe255f60ed6f60
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 0%
 
 ---
 
-# PKCE 플로우를 사용하여 조직의 사용자 지정 OAuth 2 응용 프로그램 구성 및 사용
+# PKCE 플로우를 사용하여 조직의 사용자 정의 OAuth 2 애플리케이션 구성 및 사용
 
-PKCE는 모바일 앱과 같은 응용 프로그램을 동적으로 새로 고치는 데 잘 작동하지만 모든 OAuth2 클라이언트에서 중요합니다. PKCE는 정적 클라이언트 암호 대신 동적으로 생성된 문자열을 사용하여 유출된 클라이언트 비밀의 위험을 제거합니다.
+PKCE는 모바일 앱과 같이 동적으로 새로 고치는 애플리케이션에서 잘 작동하는 보안 인증 흐름이지만 모든 OAuth2 클라이언트에서 매우 중요합니다. PKCE에서는 정적 클라이언트 암호 대신 동적으로 생성된 문자열을 사용하므로 클라이언트 암호가 유출될 위험이 없습니다.
 
 ## PKCE 개요
 
-PKCE 플로우에는 다음 단계가 있습니다. 이 섹션의 단계는 정보에 대해서만 제공됩니다. 이러한 절차를 수행하려면 이 문서의 다른 섹션을 참조하십시오.
+PKCE 흐름에는 다음과 같은 단계가 있습니다. 이 섹션의 단계는 정보용으로만 제공됩니다. 이러한 절차를 수행하려면 이 문서의 다른 섹션을 참조하십시오.
 
-1. 클라이언트가 `code_challenge` 변환 `code_verifier` 사용 `S256` 암호화.
+1. 클라이언트가 다음을 만듭니다. `code_challenge` 변환 사용 `code_verifier` 사용 `S256` 암호화.
 
-1. 클라이언트는 생성된 와 함께 브라우저를 OAuth2 로그인 페이지로 보냅니다 `code_challenge`. OAuth2가 인증 요청을 수락할 수 있도록 앱(클라이언트)을 등록해야 합니다. 등록 후 앱은 브라우저를 OAuth2로 리디렉션할 수 있습니다.
+1. 클라이언트는 생성된 페이지와 함께 브라우저를 OAuth2 로그인 페이지로 보냅니다 `code_challenge`. OAuth2가 인증 요청을 수락할 수 있도록 앱(클라이언트)을 등록해야 합니다. 등록 후 앱에서 브라우저를 OAuth2로 리디렉션할 수 있습니다.
 
 1. OAuth2 인증 서버는 인증 프롬프트를 사용자에게 리디렉션합니다.
 
-1. 사용자는 구성된 로그인 옵션 중 하나를 사용하여 인증되며, OAuth2 권한이 애플리케이션에 제공되는 동의 페이지를 볼 수 있습니다.
+1. 사용자는 구성된 로그인 옵션 중 하나를 사용하여 인증하며, OAuth2가 애플리케이션에 부여할 권한을 나열하는 동의 페이지를 볼 수 있습니다.
 
-1. OAuth2는 를 사용하여 다시 응용 프로그램으로 리디렉션합니다. `authorization code`.
+1. OAuth2가 를 사용하여 애플리케이션으로 다시 리디렉션합니다. `authorization code`.
 
-1. 애플리케이션이 와 함께 이 코드를 전송합니다 `code_verifier`를 OAuth2로 전송하는 중입니다.
+1. 응용 프로그램에서 `code_verifier`를 사용하여 OAuth2에 업로드했습니다.
 
-1. OAuth2 인증 서버가 `code_verifier` 사용 `code_challenge_method` 초기 인증 요청에서 결과를 확인하고 `code_challenge`. 두 문자열의 값이 일치하는 경우 서버는 요청이 동일한 클라이언트에서 전달되었음을 확인하고 `access token`.
+1. OAuth2 인증 서버는 `code_verifier` 사용 `code_challenge_method` 을(를) 통해 처음 인증 요청에서 `code_challenge`. 두 문자열의 값이 일치하면 서버는 요청이 동일한 클라이언트에서 왔음을 확인하고 를 발행합니다 `access token`.
 
 1. OAuth2는 `access token`, 및 선택적으로 `refresh token`.
 
-1. 이제 애플리케이션에서 이러한 토큰을 사용하여 사용자를 대신하여 API와 같은 리소스 서버를 호출할 수 있습니다.
+1. 이제 애플리케이션은 이러한 토큰을 사용하여 사용자를 대신하여 API와 같은 리소스 서버를 호출할 수 있습니다.
 
-1. 리소스 서버는 요청에 응답하기 전에 토큰의 유효성을 검사합니다.
+1. 리소스 서버는 요청에 응답하기 전에 토큰을 확인합니다.
 
 
 ## 애플리케이션 구성
 
 인증을 구현하려면 먼저 Workfront에서 앱 통합을 만들어 OAuth2에 앱을 등록해야 합니다.
 
-OAuth2 애플리케이션 만들기에 대한 지침은 [PKCE를 사용하여 OAuth2 단일 페이지 웹 응용 프로그램 만들기 ](../../administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-single-page-web-application-using-pkce) in [Workfront 통합을 위한 OAuth2 애플리케이션 만들기](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+OAuth2 애플리케이션 만들기에 대한 지침은 [PKCE를 사용하여 OAuth2 단일 페이지 웹 애플리케이션 만들기](../../administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-single-page-web-application-using-pkce) 위치: [Workfront 통합을 위한 OAuth2 애플리케이션 만들기](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 
 
-## 코드 교환용 증명 키 만들기
+## 코드 교환을 위한 증명 키 만들기
 
-표준 인증 코드 흐름과 유사하게, 앱은 사용자의 브라우저를 인증 서버의 브라우저로 리디렉션하여 시작합니다 `/authorize` 엔드포인트. 그러나 이 경우 코드 문제를 통과해야 합니다.
+표준 인증 코드 흐름과 마찬가지로 사용자의 브라우저를 인증 서버의 로 리디렉션하여 앱을 시작합니다. `/authorize` 엔드포인트. 그러나 이 경우 코드 챌린지도 전달해야 합니다.
 
-첫 번째 단계는 코드 확인 프로그램과 과제를 생성하는 것입니다.
+첫 번째 단계는 코드 검증기 및 챌린지를 생성하는 것입니다.
 
 <table>
   <col/>
   <col/>
     <tbody>
       <tr>
-        <td role="rowheader">코드 확인 프로그램</td>
+        <td role="rowheader">코드 검증기</td>
         <td>
           <p>최소 길이가 43자인 임의의 URL 안전 문자열</p>
         </td>
       </tr>
       <tr>
-        <td role="rowheader">코드 문제</td>
+        <td role="rowheader">코드 챌린지</td>
         <td>
-          <p>코드 확인기의 Base64 URL로 인코딩된 SHA-256 해시</p>
+          <p>코드 검증자의 Base64 URL 인코딩 SHA-256 해시</p>
         </td>
       </tr>
     </tbody>
 </table>
 
 
-코드 확인 및 코드 문제를 만들려면 클라이언트 앱에 코드를 추가해야 합니다.
+코드 검증자와 코드 챌린지를 만들려면 클라이언트 앱에 코드를 추가해야 합니다.
 
 PKCE 생성기 코드는 다음과 유사한 출력을 생성합니다.
 
@@ -85,15 +85,12 @@ PKCE 생성기 코드는 다음과 유사한 출력을 생성합니다.
 >
 >```
 >{
->
 >  "code\_verifier":"N28zVMsKU6ptUjHaYWg3T1NFTDQqcW1R4BU5NXywapNac4hhfkxjwfhZQat",
->
 >  "code\_challenge":"wzgjYF9qEiWep-CwqgrTE78-2ghjwCtRO3vj23o4W\_fw"
->
 >}
 >```
 
-앱에서 를 저장합니다. `code_verifier` 나중에 및에서 `code_challenge` 인증 서버의 인증 요청과 함께 `/authorize` URL.
+앱이 `code_verifier` 나중에 를 보낼 때 `code_challenge` 인증 서버에 대한 인증 요청과 함께 `/authorize` URL.
 
 ## 인증 코드 요청
 
@@ -106,28 +103,27 @@ PKCE 생성기 코드는 다음과 유사한 출력을 생성합니다.
 >
 >```
 >/authorize?client\_id=<clientID>&response\_type=code&redirect\_uri=<redirectURL>
->
 >&code\_challenge\_method=S256&code\_challenge=wzgjYF9qEiWep-CwqgrTE78-2ghjwCtRO3vj23o4W\_fw"
 >```
 
-전달되는 매개 변수를 확인합니다.
+전달되는 매개 변수를 주목하십시오.
 
-* `client_id` 는 애플리케이션을 구성할 때에서 만든 OAuth2 애플리케이션의 클라이언트 ID와 일치합니다.
+* `client_id` 는 애플리케이션을 구성할 때에서 생성한 OAuth2 애플리케이션의 클라이언트 ID와 일치합니다.
 
-   지침은 Workfront 통합을 위한 OAuth2 애플리케이션 만들기에서 PKCE를 사용하여 OAuth2 단일 페이지 웹 애플리케이션 만들기 를 참조하십시오.
+  지침은 Workfront 통합을 위한 OAuth2 애플리케이션 만들기에서 PKCE를 사용하여 OAuth2 단일 페이지 웹 애플리케이션 만들기 를 참조하십시오.
 
-* `response_type` is `code`는 응용 프로그램에서 인증 코드 부여 유형을 사용하기 때문에 발생합니다.
+* `response_type` 은(는) `code`: 응용 프로그램에서 인증 코드 부여 유형을 사용하기 때문입니다.
 
-* `redirect_uri` 는 사용자 에이전트가 과 함께 전달되는 콜백 위치입니다 `code`. 이 값은 OAuth2 애플리케이션을 만들 때 지정한 리디렉션 URL 중 하나와 일치해야 합니다.
+* `redirect_uri` 는 사용자 에이전트와 함께 전달되는 콜백 위치입니다. `code`. OAuth2 애플리케이션을 만들 때 지정한 리디렉션 URL 중 하나와 일치해야 합니다.
 
-* `code_challenge_method` 이 해시 메서드는 항상 문제를 생성하는 데 사용됩니다 `S256` PKCE를 사용하는 Workfront Oauth2 애플리케이션용.
+* `code_challenge_method` 은 문제를 생성하는 데 사용되는 해시 메서드로, 항상 `S256` pkce를 사용하는 Workfront Oauth2 애플리케이션용
 
-* `code_challenge` 는 PKCE에 사용되는 코드 과제입니다.
+* `code_challenge` pkce에 사용되는 코드 챌린지입니다.
 
 
-## 토큰에 대한 코드 교환
+## 토큰을 위한 코드 교환
 
-액세스 토큰에 대한 인증 코드를 교환하려면 인증 서버의 `/token` 끝점과 `code_verifier`.
+인증 코드를 액세스 토큰으로 교환하려면 인증 서버에 전달합니다. `/token` 끝점과 `code_verifier`.
 
 >[!INFO]
 >
@@ -135,34 +131,30 @@ PKCE 생성기 코드는 다음과 유사한 출력을 생성합니다.
 >
 >```
 >/token \\
->
 >  --header 'accept: application/json' \\
->
 >  --header 'cache-control: no-cache' \\
->
 >  --header 'content-type: application/x-www-form-urlencoded' \\
->
 >  --data 'grant\_type=authorization\_code&client\_id=<clientID>&redirect\_uri=<redirectURL>&code=<code>&code\_verifier=N28zVMsKU6ptUjHaYWg3T1NFTDQqcW1R4BU5NXywapNac4hhfkxjwfhZQat
 >```
 
 >[!IMPORTANT]
 >
-> 일반 인증 코드 흐름과 달리, 이 호출에는 클라이언트 ID와 암호가 있는 인증 헤더가 필요하지 않습니다. 따라서 이 버전의 인증 코드 흐름은 백엔드가 없는 모바일 애플리케이션이나 단일 페이지 애플리케이션과 같은 기본 앱에 적합합니다.
+> 일반 인증 코드 흐름과 달리 이 호출에는 클라이언트 ID 및 암호가 포함된 인증 헤더가 필요하지 않습니다. 이 버전의 인증 코드 흐름은 모바일 애플리케이션이나 백엔드가 없는 단일 페이지 애플리케이션과 같은 기본 앱에 적합합니다.
 
-전달되는 매개 변수를 확인합니다.
+전달되는 매개 변수를 주목하십시오.
 
-* `grant_type` is `authorization_code`: 앱이 인증 코드 부여 유형을 사용하므로.
+* `grant_type` 은(는) `authorization_code`앱이 인증 코드 부여 유형을 사용하므로 입니다.
 
-* `redirect_uri` 는 인증 코드를 가져오는 데 사용된 URI와 일치해야 합니다.
+* `redirect_uri` 은(는) 인증 코드를 가져오는 데 사용된 URI와 일치해야 합니다.
 
-* `code` 은 /authorization 끝점에서 받은 인증 코드입니다.
+* `code` 는 /authorize 끝점에서 받은 인증 코드입니다.
 
-* `code_verifier` 는 앱이 [코드 교환용 증명 키 만들기](#Create).
+* `code_verifier` 는 앱에서 생성한 PKCE 코드 검증자입니다. [코드 교환을 위한 증명 키 만들기](#Create).
 
-* `client_id` 클라이언트를 식별하고 OAuth2에 사전 등록된 값과 일치해야 합니다.
+* `client_id` 는 클라이언트를 식별하며 OAuth2에 사전 등록된 값과 일치해야 합니다.
 
 
-코드가 여전히 유효하고 코드 확인자가 일치하는 경우 애플리케이션이 액세스 토큰을 받습니다.
+코드가 여전히 유효하고 코드 검증자가 일치하는 경우 응용 프로그램에서 액세스 토큰을 받습니다.
 
 >[!INFO]
 >
@@ -170,19 +162,15 @@ PKCE 생성기 코드는 다음과 유사한 출력을 생성합니다.
 >
 >```
 >{
->
 >    "access\_token": "eyJhd\[...\]Yozv",
->
 >    "expires\_in": 3600,
->
 >    "token\_type": "Bearer"
->
 >}
 >```
 
 ## 액세스 토큰 유효성 검사
 
-애플리케이션이 액세스 토큰을 사용하여 요청을 전달하면 리소스 서버가 이 요청을 확인해야 합니다.
+애플리케이션이 액세스 토큰을 사용하여 요청을 전달하면 리소스 서버에서 유효성을 검사해야 합니다.
 
 다음과 유사한 API 호출을 사용하여 액세스 토큰의 유효성을 검사할 수 있습니다.
 
@@ -192,13 +180,12 @@ PKCE 생성기 코드는 다음과 유사한 출력을 생성합니다.
 >
 >```
 >/attask/api/<api version>/proj/search \\
->
 >  --header 'sessionID: <access\_token>' \\
 >```
 
 ## 새로 고침 토큰 요청
 
-새로 고침 토큰을 요청하기 위해 다음과 같이 API에 POST 호출을 수행할 수 있습니다.
+새로 고침 토큰을 요청하려면 다음과 같이 API에 대한 POST 호출을 수행할 수 있습니다.
 
 >[!INFO]
 >
@@ -206,12 +193,8 @@ PKCE 생성기 코드는 다음과 유사한 출력을 생성합니다.
 >
 >```
 >/token \\
->
 >  --header 'accept: application/json' \\
->
 >  --header 'cache-control: no-cache' \\
->
 >  --header 'content-type: application/x-www-form-urlencoded' \\
->
 >  --data 'grant\_type=refresh\_token&client\_id=<clientID>&redirect\_uri=<redirectURL>&refresh\_token=<refresh\_token>
 >```

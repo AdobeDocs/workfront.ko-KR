@@ -9,9 +9,9 @@ description: 를 사용하려면 [!DNL Google Sheets] 포함 [!DNL Adobe Workfro
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 11d62222-df34-472d-93d7-f0d53eb95c9b
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 6f4e5042054f3936fa0e387bfbebaa1775d16573
 workflow-type: tm+mt
-source-wordcount: '3942'
+source-wordcount: '3941'
 ht-degree: 0%
 
 ---
@@ -698,7 +698,7 @@ ht-degree: 0%
 ### 에서 빈 셀을 가져오는 방법 [!DNL Google Sheet]
 
 사용 [!UICONTROL 행 검색(고급)] 모듈 및 이 수식을 사용하여 빈 열을 가져옵니다.
-<pre>select * [!UICONTROL 여기서 E는 null​]</pre>여기서 "E"는 열이고 "is null"은 조건입니다. [Google Query Lang]을 사용하여 고급 쿼리를 만들 수 있습니다.](https://developers.google.com/chart/interactive/docs/querylanguage)
+<pre>select * 여기서 E는 null</pre>여기서 "E"는 열이고 "is null"은 조건입니다. [Google Query Lang](https://developers.google.com/chart/interactive/docs/querylanguage)을 사용하여 고급 쿼리를 만들 수 있습니다.
 
 ### 시트에 단추를 추가하여 시나리오 실행
 

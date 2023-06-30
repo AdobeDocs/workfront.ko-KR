@@ -7,7 +7,7 @@ description: 일부 서비스는 다음과 같은 통합 솔루션을 허용하�
 author: Becky
 feature: Workfront Fusion
 exl-id: 0feb745a-1ee0-4b29-92ab-14c12a8647d4
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: e61dc6646e221cffb30aad055663dcf8fd3299e2
 workflow-type: tm+mt
 source-wordcount: '946'
 ht-degree: 0%
@@ -143,14 +143,8 @@ API 토큰을 통해 서비스를 연결하는 절차는 대부분의 웹 서비
 >
 >```
 >{"user":"12345c2ecu1hq42ypqzhswbyam34",
->
->
 >"token":"123459evz8aepwtxydndydgyumbfx",
->
->
 >"message":"Hello World!",
->
->
 >"title":"The Push Notification"}
 >```
 
