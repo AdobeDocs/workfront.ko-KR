@@ -7,9 +7,9 @@ description: 미리보기 환경은 매주 한 번 업데이트되며 새로운 
 author: Alina
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: c31fe134c0a0494301adb49f5e8d14c009e72d11
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '881'
 ht-degree: 0%
 
 ---
@@ -24,21 +24,26 @@ ht-degree: 0%
 
 ### 제품 기능
 
-일반적으로 미리보기 의 기능은 다음 분기 릴리스와 함께 프로덕션 환경에서 사용할 수 있습니다. 그러나 경우에 따라 분기별 릴리스 이외의 프로덕션 환경에서 기능을 사용할 수 있습니다. 이러한 변경 사항은 변경 사항을 숙지할 수 있는 적절한 시간을 제공하기 위해 최소 2주 동안 미리보기에 남아 있습니다. 이러한 변경 사항은 미리보기에 추가될 때 공지 센터를 통해서도 전달됩니다.
+
+Adobe Workfront에는 새로운 기능과 업데이트를 릴리스하기 위한 두 가지 모델이 있습니다. 조직은 분기별로 새로운 기능을 받을지 아니면 더 빠른 릴리스 일정으로 받을지 선택할 수 있습니다.
+
+일반적으로 미리보기의 기능은 다음 릴리스와 함께 프로덕션 환경에서 사용할 수 있습니다. 그러나 경우에 따라 기능이 예약된 릴리스 외부의 프로덕션 환경에서 사용할 수 있습니다. 이러한 변경 사항은 변경 사항을 숙지할 수 있는 적절한 시간을 제공하기 위해 최소 2주 동안 미리보기에 남아 있습니다. 이러한 변경 사항은 미리보기에 추가될 때 공지 센터를 통해서도 전달됩니다.
+
+분기별 및 빠른 릴리스 프로세스에 대한 자세한 내용은 [조직의 빠른 릴리스 활성화 또는 비활성화](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 ### 유지 보수 업데이트
 
 Adobe Workfront 제품에 대한 문제 수정은 매주 프로덕션 환경에서 사용할 수 있습니다. 다음을 참조하십시오. [Workfront 유지 보수 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 최근 수정된 사항을 확인할 수 있는 페이지입니다.
 
-## 분기별 릴리스에서 제거된 기능
+## 예약된 릴리스에서 제거된 기능
 
-지정된 분기별 릴리스와 관련된 모든 기능은 프로덕션 최종 릴리스 전 최소 2~4주 동안 미리보기에서 테스트할 수 있습니다. 이 시간 이전에 분기별 릴리스에서 기능이 제거된 경우 고객에게 알리기 위해 다음 작업이 수행됩니다.
+지정된 릴리스(월별 또는 분기별)와 관련된 모든 기능은 프로덕션 최종 릴리스 전 최소 2~4주 동안 미리보기에서 테스트할 수 있습니다. 이 시간 전에 예약된 릴리스에서 기능이 제거되면 고객에게 알리기 위해 다음 작업이 수행됩니다.
 
-* 분기별 릴리스의 릴리스 정보(다음에서 제공됨) [제품 릴리스](../../product-announcements/product-releases/product-releases.md) page)가 업데이트되어 기능이 제거되었음을 나타냅니다.
+* 예약된 릴리스에 대한 릴리스 정보(다음에서 찾음) [제품 릴리스](../../product-announcements/product-releases/product-releases.md) page)가 업데이트되어 기능이 제거되었음을 나타냅니다.
 
-모든 기능을 미리보기에서 테스트할 수 있게 한 후 분기별 릴리스에서 기능이 제거되면 고객에게 알리기 위해 다음 작업을 수행합니다.
+모든 기능을 미리보기에서 테스트할 수 있게 한 후 예약된 릴리스에서 기능이 제거되는 경우 고객에게 알리기 위해 다음 작업이 수행됩니다.
 
-* 분기별 릴리스의 릴리스 정보(다음에서 제공됨) [제품 릴리스](../../product-announcements/product-releases/product-releases.md) page)가 업데이트되어 기능이 제거되었음을 나타냅니다.
+* 릴리스에 대한 릴리스 정보(에서 찾음) [제품 릴리스](../../product-announcements/product-releases/product-releases.md) page)가 업데이트되어 기능이 제거되었음을 나타냅니다.
 * 기능이 제거되었다는 게시물이 Workfront 커뮤니티에 추가됩니다.
 * 기능이 제거되었다는 메시지가 공지 센터를 통해 모든 고객에게 전송됩니다. (공지 센터는 Workfront의 인앱 알림 센터입니다. 자세한 내용은 [공지 보내기](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md).)
 
@@ -74,9 +79,9 @@ Workfront은 릴리스 노트, 유지 관리 업데이트 또는 설명서 문�
 
 ## 릴리스 정보
 
-예정된 분기별 릴리스의 릴리스 정보를 사용하여 미리보기에서 사용할 수 있는 새로운 기능과 프로덕션에 릴리스될 시기를 확인하십시오.
+예정된 예정된 릴리스의 릴리스 노트를 사용하여 미리보기에서 사용할 수 있는 새로운 기능과 프로덕션에 릴리스될 시기를 확인합니다.
 
-다음 분기 릴리스에 대한 릴리스 정보를 찾으려면 다음을 참조하십시오. [제품 릴리스](../../product-announcements/product-releases/product-releases.md)를 클릭한 다음 링크를 클릭하여 예정된 릴리스에 대한 릴리스 개요 페이지로 이동합니다.
+예약된 다음 릴리스에 대한 릴리스 정보를 찾으려면 다음을 참조하십시오. [제품 릴리스](../../product-announcements/product-releases/product-releases.md)를 클릭한 다음 링크를 클릭하여 예정된 릴리스에 대한 릴리스 개요 페이지로 이동합니다.
 
 릴리스 정보는 왼쪽 열에 기능 목록과 각 기능에 대한 간단한 설명을 표로 제공합니다. 기능 링크를 클릭하여 새 기능의 데모 비디오를 보고 새 기능에 대한 설명서에 액세스할 수 있습니다. 오른쪽 열에는 각 기능에 대한 다음 정보가 표시됩니다.
 
