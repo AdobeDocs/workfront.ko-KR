@@ -7,9 +7,9 @@ description: 현재 Adobe Workfront Fusion에서 사용할 수 있는 공용 템
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 4e618a0b91a44a6232ff6a72b9c7384b774b0fda
+source-git-commit: 3897606db8a80d04a3b8d8f0cba69365ceb86c17
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '861'
 ht-degree: 0%
 
 ---
@@ -81,6 +81,26 @@ ht-degree: 0%
 ### APILayer > Workfront - 일일 환율 업데이트 (EUR)
 
 이 템플릿은 설정된 시점의 환율 업데이트를 자동화하는 시나리오를 만듭니다. 이 시나리오는 APIlayers.com API에서 유로(EUR) ~ 미국 달러(USD) 요금을 가져오고 Workfront에서 요금을 업데이트합니다.
+
+## Workfront-Marketo 틀
+
+이러한 템플릿은 Workfront-Marketo 통합을 지원합니다.
+
+>[!NOTE]
+>
+> 이 섹션의 템플릿을 사용하려면 작업 자동화 및 통합용 Workfront Fusion 라이선스가 있어야 합니다.
+
+### Workfront 승인 워크플로우로 Marketo Engage 이메일 초안 승인
+
+이는 Workfront과 Marketo Engage 간의 검토 및 승인 통합의 일부입니다. 이 템플릿은 Workfront의 이메일 증명이 승인되었는지 감지한 다음, Marketo Engage에서 해당 이메일을 승인됨으로 업데이트합니다.
+
+### Workfront에서 마케팅 캠페인 요청 접수 및 Marketo Engage에서 캠페인 생성 자동화
+
+이 시나리오는 Workfront에서 만든 요청으로 Marketo Engage에서 이메일 및 웨비나 캠페인을 만드는 프로그래밍 방식을 제공합니다. 자동화를 사용하여 캠페인을 만들고, 구성하고, 구성함으로써 팀은 효율성을 향상시킬 수 있습니다.
+
+### Workfront에서 Marketo Engage 이메일 초안의 이메일 증명 검토
+
+이 템플릿은 Workfront 작업이 검토 준비됨 상태로 설정되어 있는지 감지한 다음, Marketo Engage에서 이메일 초안을 내보내어 Workfront의 증명으로 저장합니다.
 
 ## Workfront-아나플란 틀
 
