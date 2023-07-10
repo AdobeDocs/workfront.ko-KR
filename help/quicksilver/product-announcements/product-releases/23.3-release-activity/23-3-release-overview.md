@@ -4,9 +4,9 @@ description: 23.3 릴리스 개요
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 5b4aa5c806d0f930250e9238d460833cd1aed71a
+source-git-commit: f3807e83a2d9fdbe351269bb1ecc9c6defc78a76
 workflow-type: tm+mt
-source-wordcount: '2737'
+source-wordcount: '2752'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,8 @@ ht-degree: 0%
 >|----|----|
 >| <ul><li>23.8 (2023년 8월)</li><li>23.9 (2023년 9월)</li><li>23.10 (2023년 10월)</li></ul> | <ul><li>23.10 (2023년 10월)</li></ul> |
 >| <ul><li>23.11 (2023년 11월)</li><li>23.12 (2023년 12월)</li><li>24.1 (2024년 1월)</li></ul> | <ul><li>24.1 (2024년 1월)</li></ul> |
+>
+>월별 및 분기별 릴리스는 해당 월의 마지막 목요일에 사용할 수 있습니다.
 
 ## Adobe Workfront 개선 사항
 
@@ -69,7 +71,7 @@ ht-degree: 0%
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
                             <li>
-                                <p>미리보기 릴리스: 해당 사항 없음</p>
+                                <p>미리보기 릴리스: 2023년 6월 22일</p>
                             </li>
                             <li>
                                 <p>프로덕션 릴리스: 23.3 릴리스 포함</p>

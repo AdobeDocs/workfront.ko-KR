@@ -7,9 +7,9 @@ description: 미리보기 환경은 매주 한 번 업데이트되며 새로운 
 author: Alina
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: c31fe134c0a0494301adb49f5e8d14c009e72d11
+source-git-commit: f3807e83a2d9fdbe351269bb1ecc9c6defc78a76
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 0%
 
 
 Adobe Workfront에는 새로운 기능과 업데이트를 릴리스하기 위한 두 가지 모델이 있습니다. 조직은 분기별로 새로운 기능을 받을지 아니면 더 빠른 릴리스 일정으로 받을지 선택할 수 있습니다.
+
+월별 및 분기별 릴리스는 해당 월의 마지막 목요일에 사용할 수 있습니다.
 
 일반적으로 미리보기의 기능은 다음 릴리스와 함께 프로덕션 환경에서 사용할 수 있습니다. 그러나 경우에 따라 기능이 예약된 릴리스 외부의 프로덕션 환경에서 사용할 수 있습니다. 이러한 변경 사항은 변경 사항을 숙지할 수 있는 적절한 시간을 제공하기 위해 최소 2주 동안 미리보기에 남아 있습니다. 이러한 변경 사항은 미리보기에 추가될 때 공지 센터를 통해서도 전달됩니다.
 
