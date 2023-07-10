@@ -7,10 +7,10 @@ description: 객체의 업데이트 섹션에는 사용자가 객체에 대해 �
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
+source-git-commit: 38f46324219f297523ff262b083f41a2dd388579
 workflow-type: tm+mt
-source-wordcount: '1079'
-ht-degree: 4%
+source-wordcount: '1141'
+ht-degree: 3%
 
 ---
 
@@ -232,7 +232,18 @@ ht-degree: 4%
 
 ### 다른 사용자를 대신하여 주석을 입력할 때의 제한 사항
 
-Adobe Workfront 관리자 및 그룹 관리자는 다른 사용자로 로그인하고 주석 입력과 같은 작업을 Workfront에서 수행할 수 있습니다. (자세한 내용은 [다른 사용자로 로그인](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).) 다른 사용자를 대신하여 작성한 모든 주석은 주석에 표시됩니다.
+Adobe Workfront 관리자 및 그룹 관리자는 다른 사용자로 로그인하고 주석 입력과 같은 작업을 Workfront에서 수행할 수 있습니다.
+
+자세한 내용은 [다른 사용자로 로그인](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+
+다른 사용자를 대신하여 작성한 모든 주석은 주석에 표시됩니다.
+
+>[!NOTE]
+>
+><span class="preview">새 댓글 달기 경험을 사용할 때 댓글은 다른 사용자로 로그인한 사용자로 추가되며 다른 사용자를 대신하여 댓글을 추가한다는 표시가 없습니다.
+>
+>예를 들어 Workfront 관리자가 다른 사용자로 로그인하는 경우 댓글과 연관된 사용자는 Workfront 관리자입니다. 자세한 내용은 [새 댓글 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). </span>
+
 
 그룹 관리자는 다른 사용자를 대신하여 댓글을 달 수 있지만 해당 댓글을 삭제할 수는 없습니다. Adobe Workfront 관리자만 다른 사용자를 대신하여 작성한 댓글을 삭제할 수 있습니다.
 

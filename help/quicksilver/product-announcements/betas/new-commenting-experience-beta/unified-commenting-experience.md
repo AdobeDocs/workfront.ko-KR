@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
+source-git-commit: 82f42d81970c7572f43519423ec3a8c0889aaff4
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '713'
 ht-degree: 1%
 
 ---
@@ -57,6 +57,7 @@ Adobe Workfront의 댓글 달기 환경에 대한 업데이트가 현재 개발 
 * 시스템 업데이트에 대한 주석 달기
 * 댓글을 달면서 상태, 조건, 커밋 일자를 편집할 수 있는 기능
 * 사용자 정의 양식 편집
+* Workfront 또는 그룹 관리자가 다른 사용자로 로그인하여 주석을 추가할 때의 &quot;대신하여 &lt; 사용자 이름 >&quot; 정보입니다.
 
 >[!NOTE]
 >
@@ -115,8 +116,23 @@ Adobe Workfront의 댓글 달기 환경에 대한 업데이트가 현재 개발 
    <td> 
    </td>
   </tr>
-  <tr>
- <tr>
+
+<tr>
+   <td>리치 텍스트(이모티콘)
+   </td>
+   <td>✓ 
+   </td>
+   <td>
+   </td>
+   <td>✓ 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+  </tr>
+
+<tr>
    <td>리치 텍스트(블록 인용)
    </td>
    <td>✓ 
@@ -188,13 +204,13 @@ Adobe Workfront의 댓글 달기 환경에 대한 업데이트가 현재 개발 
    </td>
   </tr>
   <tr>
-   <td>스레드에서 사람 제거 
+   <td>모든 스레드 참가자에 자동으로 태그 지정
    </td>
    <td> 
    </td>
-   <td>✓
+   <td>
    </td>
-   <td> 
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -299,35 +315,7 @@ Adobe Workfront의 댓글 달기 환경에 대한 업데이트가 현재 개발 
    <td> 
    </td>
   </tr>
-  <tr>
-   <td>사용자 정의 양식 편집 
-   </td>
-   <td>✓ 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
-  <tr>
-   <td>댓글을 달면서 상태, 조건, 커밋 일자를 편집할 수 있는 기능 
-   </td>
-   <td>✓ 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
+    <tr>
    <td>스레드 링크 복사 
    </td>
    <td>✓ 
@@ -360,9 +348,9 @@ Adobe Workfront의 댓글 달기 환경에 대한 업데이트가 현재 개발 
    </td>
    <td>✓ 
    </td>
-   <td> 
+   <td><span class="preview">✓</span> 
    </td>
-   <td>✓ 
+   <td> 
    </td>
    <td>2023년 2분기 
    </td>
@@ -411,9 +399,50 @@ Adobe Workfront의 댓글 달기 환경에 대한 업데이트가 현재 개발 
    <td>✓ 
    </td>
   </tr>
-
+<tr>
+   <td>사용자 정의 양식 편집 
+   </td>
+   <td>✓ 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+  </tr>
+  <tr>
+   <td>댓글을 달면서 상태, 조건, 커밋 일자를 편집할 수 있는 기능 
+   </td>
+   <td>✓ 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td>
+   </td>
+  </tr>
 <tr>
    <td>시스템 업데이트에 대한 회신 
+   </td>
+   <td> ✓
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td>
+   </td>
+   <td> 
+   </td>
+  </tr>
+<tr>
+   <td>다른 사용자로 로그인한 댓글을 추가할 때 "대신" 표시
    </td>
    <td> ✓
    </td>

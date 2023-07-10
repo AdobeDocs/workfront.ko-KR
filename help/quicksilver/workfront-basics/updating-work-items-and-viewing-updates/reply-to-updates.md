@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
+source-git-commit: 82f42d81970c7572f43519423ec3a8c0889aaff4
 workflow-type: tm+mt
-source-wordcount: '1262'
+source-wordcount: '1308'
 ht-degree: 0%
 
 ---
@@ -84,6 +84,8 @@ ht-degree: 0%
 &#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
 
 ## 업데이트 또는 회신에 회신
+
+볼 수 있는 오브젝트의 스레드에서 댓글에 답글을 달 수 있습니다. 또는 Workfront 또는 그룹 관리자로 로그인하여 다른 사용자를 대신하여 댓글에 답글을 달 수 있습니다. 자세한 내용은 [다른 사용자로 로그인](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
 댓글 또는 답글에 대한 답글은 선택한 경험과 개체에 따라 다릅니다.
 
