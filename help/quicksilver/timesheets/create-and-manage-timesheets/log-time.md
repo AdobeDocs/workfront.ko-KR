@@ -6,7 +6,7 @@ description: 작업 항목에 대한 시간을 Adobe Workfront(&n)에 기록하�
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
+source-git-commit: 4116cd1610cc5b8de0407a96a4bc67532d78a25e
 workflow-type: tm+mt
 source-wordcount: '3336'
 ht-degree: 0%
@@ -385,7 +385,7 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
 1. 왼쪽 패널에서 을 선택합니다 **업데이트**.
 1. 클릭 **로그 시간**.
 
-   시간 입력 대화 상자가 표시됩니다.
+   <span class="preview">로그 시간 대화 상자가 표시됩니다. </span>
 
    >[!TIP]
    >
@@ -393,7 +393,7 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
    >   
    >   일 입력 상자의 오른쪽 상단 모서리에는 하루에 몇 시간이 포함되는지 표시됩니다.
 
-   ![](assets/log-time-box-in-updates-stream.png)
+   <span class="preview">![](assets/log-time-box-in-updates-stream.png)</span>
 
 1. 다음 정보를 지정합니다.
 
