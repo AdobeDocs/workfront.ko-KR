@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+source-git-commit: fda9c07ee43cc4e6ba1a26ea937ca820367800a8
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1173'
 ht-degree: 0%
 
 ---
@@ -83,11 +83,11 @@ ht-degree: 0%
      <tr> 
       <td role="rowheader">[!UICONTROL 비용/ 시간.]</td> 
       <td><p>작업 역할의 시간당 비용입니다. 이 값은 역할과 관련된 작업 및 문제의 계획 및 실제 비용과 궁극적으로 프로젝트의 계획 및 실제 비용을 계산합니다. [!UICONTROL 기본 통화]를 사용하여 환율을 입력합니다.</p> 
-      <p><span class="preview">날짜 유효 원가율을 확인하려면 다음을 클릭합니다. <strong>[!UICONTROL 추가 속도]</strong>. 기간에 대한 비용/시간 값을 입력하고 필요에 따라 [!UICONTROL 시작 날짜] 및 [!UICONTROL 종료 날짜]를 지정합니다. 첫 번째 원가에는 시작 일자가 없고 마지막 원가에는 종료 일자가 없습니다.</span></p> <p><span class="preview">일부 날짜는 자동으로 추가됩니다. 예를 들어, 첫 번째 원가율에 종료 일자가 없고 시작 일자가 2023년 5월 1일인 두 번째 원가율을 추가하면, 종료 일자가 2023년 4월 30일인 첫 번째 원가율에 추가되므로 공백이 없습니다.</span></p></td> 
+      <p><span class="preview">날짜 유효 원가율을 확인하려면 다음을 클릭합니다. <strong>[!UICONTROL 추가 속도]</strong>. 기간에 대한 비용/시간 값을 입력하고 필요에 따라 [!UICONTROL 시작 날짜] 및 [!UICONTROL 종료 날짜]를 지정합니다. 첫 번째 원가에는 시작 일자가 없고 마지막 원가에는 종료 일자가 없습니다.</span></p> <p><span class="preview">일부 날짜는 자동으로 추가됩니다. 예를 들어, 첫 번째 원가율에 종료 일자가 없고 시작 일자가 2023년 5월 1일인 두 번째 원가율을 추가하면, 종료 일자가 2023년 4월 30일인 첫 번째 원가율에 추가되므로 공백이 없습니다.</span></p> <p><span class="preview">팁: 기존 작업 역할을 편집할 때 다음을 선택할 수 있습니다 <strong>시작 날짜별 정렬</strong> 요금 목록의 맨 위에 가장 최근 시작 날짜를 표시합니다. </span></p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Bill/ Hr.] </td> 
-      <td><p>작업 역할의 시간당 청구 요금입니다. 이 값은 역할과 관련된 작업 및 문제의 계획 및 실제 수익과 궁극적으로 프로젝트의 계획 및 실제 수익을 계산합니다. [!UICONTROL 기본 통화]를 사용하여 환율을 입력합니다.</p> <p><span class="preview">유효 청구 요금 날짜를 확인하려면 다음을 클릭하십시오. <strong>[!UICONTROL 추가 속도]</strong>. 해당 기간에 대한 청구/시간 값을 입력하고 필요에 따라 [!UICONTROL 시작 날짜] 및 [!UICONTROL 종료 날짜]를 지정합니다. 첫 번째 청구 요금에 시작 일자가 없고 마지막 청구 요금에 종료 일자가 없습니다.</span></p> <p><span class="preview">일부 날짜는 자동으로 추가됩니다. 예를 들어 첫 번째 청구 요금에 종료 일자가 없고 시작 일자가 2023년 5월 1일인 두 번째 청구액을 추가한 경우, 간격이 없도록 종료 일자가 2023년 4월 30일인 첫 번째 청구 요금에 추가됩니다.</span></p> </td> 
+      <td><p>작업 역할의 시간당 청구 요금입니다. 이 값은 역할과 관련된 작업 및 문제의 계획 및 실제 수익과 궁극적으로 프로젝트의 계획 및 실제 수익을 계산합니다. [!UICONTROL 기본 통화]를 사용하여 환율을 입력합니다.</p> <p><span class="preview">유효 청구 요금 날짜를 확인하려면 다음을 클릭하십시오. <strong>[!UICONTROL 추가 속도]</strong>. 해당 기간에 대한 청구/시간 값을 입력하고 필요에 따라 [!UICONTROL 시작 날짜] 및 [!UICONTROL 종료 날짜]를 지정합니다. 첫 번째 청구 요금에 시작 일자가 없고 마지막 청구 요금에 종료 일자가 없습니다.</span></p> <p><span class="preview">일부 날짜는 자동으로 추가됩니다. 예를 들어 첫 번째 청구 요금에 종료 일자가 없고 시작 일자가 2023년 5월 1일인 두 번째 청구액을 추가한 경우, 간격이 없도록 종료 일자가 2023년 4월 30일인 첫 번째 청구 요금에 추가됩니다.</span></p> <p><span class="preview">팁: 기존 작업 역할을 편집할 때 다음을 선택할 수 있습니다 <strong>시작 날짜별 정렬</strong> 요금 목록의 맨 위에 가장 최근 시작 날짜를 표시합니다. </span></p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span>[!UICONTROL 통화 재정의]</span> </td> 
