@@ -4,9 +4,9 @@ navigation-topic: use-the-home-area
 title: Adobe Workfront의 새 홈 시작
 description: 새 홈은 작업 관리를 위한 강력한 새 기능입니다.
 author: Nolan
-source-git-commit: 281712542566aec87c51a2eccb301dd3a83a94b3
+source-git-commit: f25b435d2615eabba6e9feaef4e59c65d46bb819
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '930'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ New Home은 사용자 정의 기능이 뛰어나게 설계되어 있어 가장 �
     사용자 지정 가능한 필터, 보기 및 그룹화가 있는 테이블에서 사용자에게 할당된 문제와 새 문제를 직접 만들 수 있는 단추를 표시합니다.
 
 * **내 요청**\
-    할당된 모든 요청, 열려 있는 요청만 표시할 수 있는 필터 및 요청에 대한 요약 창을 여는 단추를 표시합니다.
+    제출한 모든 요청, 열려 있는 요청만 표시하는 필터 및 요청에 대한 요약 창을 여는 단추를 표시합니다.
 
 * **팀 요청**\
     팀별로 정렬한 팀에 대해 보류 중인 모든 요청과 사용자에게 요청을 직접 할당하거나 직접 작업할 수 있는 단추를 표시합니다.
