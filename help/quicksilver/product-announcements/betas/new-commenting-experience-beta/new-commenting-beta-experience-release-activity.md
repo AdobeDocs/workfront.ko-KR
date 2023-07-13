@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 4116cd1610cc5b8de0407a96a4bc67532d78a25e
+source-git-commit: 3f12cc51897b1fd090f14f3c58c98eb9f74ec33c
 workflow-type: tm+mt
-source-wordcount: '1591'
+source-wordcount: '1569'
 ht-degree: 3%
 
 ---
@@ -79,7 +79,7 @@ ht-degree: 3%
 
 새 댓글 달기 환경의 업데이트 영역에서 시간을 기록하기 위한 인터페이스를 다시 설계했습니다.
 
-자세한 내용은 [로그 시간](../../../timesheets/create-and-manage-timesheets/log-time.md). 설명서는 릴리스 시점에 업데이트됩니다.
+자세한 내용은 [로그 시간](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
 미리보기 릴리스: 2023년 7월 5일
 
@@ -89,7 +89,7 @@ ht-degree: 3%
 
 이제 새로운 댓글 달기 경험을 사용할 때 동일한 스레드에서 댓글 콘텐츠를 복사하고 회신에 새 인용구로 추가할 수 있습니다.
 
-자세한 내용은 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 설명서는 릴리스 시점에 업데이트됩니다.
+자세한 내용은 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 미리 보기: 2023년 6월 28일
 
