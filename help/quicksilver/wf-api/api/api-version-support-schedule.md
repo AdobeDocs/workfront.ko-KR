@@ -1,25 +1,25 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: API 버전 관리 및 지원 예약
-description: API 버전 관리 및 지원 예약
+title: API 버전 관리 및 지원 일정
+description: API 버전 관리 및 지원 일정
 author: Becky
 feature: Workfront API
 exl-id: b072704c-a34c-4a17-aca3-ab93a016dfc8
-source-git-commit: bcf8c8a5ce9cbaf596878b85aa134245e811d07d
+source-git-commit: 5a4868451384718e359bfd5f876081961b16485d
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 11%
 
 ---
 
-# API 버전 관리 및 지원 예약
+# API 버전 관리 및 지원 일정
 
 
 
-Adobe Workfront은 새로운 API 버전을 정기적으로 출시하며, 일반적으로 일년에 두 번씩 릴리스됩니다. API 버전은 릴리스 후 3년 동안 지원됩니다. 3년 이전 API 버전은 더 이상 지원되지 않습니다.
+Adobe Workfront은 일반적으로 1년에 두 번 새로운 API 버전을 정기적으로 출시합니다. API 버전은 릴리스 후 3년 동안 지원됩니다. 3년 이전의 API 버전은 더 이상 지원되지 않습니다.
 
-다음 표는 Workfront API의 릴리스 및 지원 일정을 보여줍니다.
+다음 표는 Workfront API에 대한 릴리스 및 지원 일정을 보여 줍니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,34 +33,34 @@ Adobe Workfront은 새로운 API 버전을 정기적으로 출시하며, 일반�
   </tr> 
  </thead> 
  <tbody> 
-   <td>14</td> 
-   <td> <p>2023년 4월</p> <p>(23.2 릴리스 사용)</p> </td> 
-   <td> <p>**2026년 동안</p> <p>(26.2 릴리스 사용)</p> </td> 
+   <td>16</td> 
+   <td> <p>2023년 4월</p> <p>(23.2 릴리스 포함)</p> </td> 
+   <td> <p>**2026년 중</p> <p>(26.2 릴리스 포함)</p> </td> 
   </tr> 
   <tr> 
    <td>15</td> 
    <td>2022년 상반기</td> 
-   <td>**2025년 동안</td> 
+   <td>**2025년 중</td> 
   </tr> 
   <tr> 
    <td>14</td> 
-   <td> <p>2021년 10월 일</p> <p>(21.4 릴리스 사용)</p> </td> 
-   <td> <p>**2024년 동안</p> <p>(24.4 릴리스 포함)</p> </td> 
+   <td> <p>2021년 10월</p> <p>(21.4 릴리스 포함)</p> </td> 
+   <td> <p>**2024년 중</p> <p>(24.4 릴리스 포함)</p> </td> 
   </tr> 
   <tr> 
    <td>13</td> 
    <td> <p>2021년 6월</p> <p>(2021.2 릴리스 포함)</p> </td> 
-   <td> <p>*2024년 동안</p> <p>(2024.4 릴리스 포함)</p> </td> 
+   <td> <p>*2024년 중</p> <p>(2024.4 릴리스 포함)</p> </td> 
   </tr> 
   <tr> 
    <td>12</td> 
    <td> <p>2020년 하반기</p> <p>(2020.4 릴리스 포함)</p> </td> 
-   <td> <p>**2023년 동안</p> <p>(2023.4 릴리스 포함)</p> </td> 
+   <td> <p>**2023년 중</p> <p>(2023.4 릴리스 포함)</p> </td> 
   </tr> 
   <tr> 
    <td>11</td> 
    <td> <p>2020년 상반기</p> <p>(2020.2 릴리스 포함)</p> </td> 
-   <td> <p>**</p> <p>(2023.2 릴리스 포함)</p> </td> 
+   <td> <p>** 중 오류 발생</p> <p>(2023.2 릴리스 포함)</p> </td> 
   </tr> 
   <tr> 
    <td>10</td> 
@@ -125,8 +125,8 @@ Adobe Workfront은 새로운 API 버전을 정기적으로 출시하며, 일반�
  </tbody> 
 </table>
 
-&#42;지원되지 않는 버전의 API와 관련된 문제는 Workfront에서 해결하지 않습니다.
+&#42;지원되지 않는 버전의 API와 관련된 문제는 Workfront에서 해결되지 않습니다.
 
-&#42;&#42;변경할 날짜입니다.
+&#42;&#42;날짜는 변경될 수 있습니다.
 
-API의 특정 버전을 사용하는 방법에 대한 자세한 내용은 [통합에서 API 버전 지정](../../wf-api/api/specify-api-version-integrations.md)
+특정 버전의 API 사용에 대한 자세한 내용은 [통합에서 API 버전 지정](../../wf-api/api/specify-api-version-integrations.md)
