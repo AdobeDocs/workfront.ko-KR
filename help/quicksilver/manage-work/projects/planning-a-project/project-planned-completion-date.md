@@ -2,25 +2,26 @@
 content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
-title: 프로젝트 계획 완료 일자 설정
-description: 프로젝트의 계획 완료 일자는 프로젝트가 완료되도록 설정된 일자입니다.
+title: 프로젝트 계획된 완료 일자 설정
+description: 프로젝트의 계획된 완료 일자는 프로젝트가 완료되도록 설정된 일자입니다.
 author: Alina
-feature: Work Management
+feature: Work Management, Projects
+role: User
 exl-id: 996398c5-de92-445e-8e86-36b2efdcf6b5
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
 
-# 프로젝트 계획 완료 일자 설정
+# 프로젝트 계획된 완료 일자 설정
 
-프로젝트의 계획 완료 일자는 프로젝트가 완료되도록 설정된 일자입니다.
+프로젝트의 계획된 완료 일자는 프로젝트가 완료되도록 설정된 일자입니다.
 
-프로젝트의 계획 시작 및 계획 완료 일자는 프로젝트 태스크 일자에 따라 결정됩니다. 이 문서에서는 프로젝트의 계획 완료 일자를 수동으로 또는 자동으로 설정하는 방법에 대해 설명합니다. 작업의 계획 완료 날짜에 대한 자세한 내용은 [작업 계획 완료 일자 개요](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
+프로젝트의 계획된 시작 및 계획된 완료 일자는 프로젝트에 대한 작업 일자에 따라 달라집니다. 이 문서에서는 프로젝트의 계획된 완료 일자를 수동 또는 자동으로 설정하는 방법에 대해 설명합니다. 작업의 계획된 완료 일자에 대한 자세한 내용은 [작업 계획 완료 일자 개요](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
-프로젝트의 계획 완료 일자는 시작 또는 완료 일자부터 프로젝트를 스케줄링하는지 여부에 따라 수동으로 또는 자동으로 설정할 수 있습니다.
+프로젝트의 계획된 완료 일자는 시작 일자부터 또는 완료 일자부터 프로젝트를 스케줄링하는지에 따라 수동 또는 자동으로 설정할 수 있습니다.
 
 ## 액세스 요구 사항
 
@@ -55,7 +56,7 @@ ht-degree: 0%
 </table>
 -->
 
-이 문서의 절차를 수행하려면 다음 액세스 권한이 있어야 합니다.
+이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -66,69 +67,74 @@ ht-degree: 0%
    <td> <p>모든</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스*</td> 
+   <td role="rowheader">Adobe Workfront 라이센스*</td> 
    <td> <p>플랜 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
    <td> <p>프로젝트에 대한 액세스 편집</p> <p><b>메모</b>
 
-여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한 사항을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td>
+여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>프로젝트에 대한 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>프로젝트에 대한 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;어떤 계획, 라이선스 유형 또는 액세스 권한을 보유하고 있는지 알아보려면 Workfront 관리자에게 문의하십시오.
+&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
 
-## 프로젝트의 계획 완료 일자를 수동으로 설정합니다.
+## 프로젝트의 계획된 완료 일자 수동 설정
 
-완료 일자부터 프로젝트를 스케줄링할 때 프로젝트의 계획 완료 일자를 수동으로 설정해야 합니다. 
+완료 일자부터 프로젝트를 예약할 때 프로젝트의 계획된 완료 일자를 수동으로 설정해야 합니다.
+
+>[!NOTE]
+>
+>프로젝트의 계획된 완료 일자를 수동으로 설정하면 Workfront은 모든 작업의 기간을 기반으로 프로젝트의 계획된 시작 일자를 자동으로 계산합니다.
+
 
 완료 일자부터 프로젝트를 스케줄링하려면
 
-1. 을(를) 클릭합니다. **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png) 오른쪽 위 모서리에서 을(를) 클릭하고 **프로젝트**.
+1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) 오른쪽 상단에서 을(를) 클릭한 다음 **프로젝트**.
 
-1. 클릭 **새 프로젝트** 그런 다음&#x200B;**새 프로젝트**.
+1. 클릭 **새 프로젝트** 그러면&#x200B;**새 프로젝트**.
 
-   프로젝트 만들기에 대한 자세한 내용은 문서를 참조하십시오 [프로젝트 만들기](../../../manage-work/projects/create-projects/create-project.md).
+   프로젝트 만들기에 대한 자세한 내용은 문서 를 참조하십시오 [프로젝트 만들기](../../../manage-work/projects/create-projects/create-project.md).
 
-1. 선택 **프로젝트 세부 사항** 왼쪽 패널에서 **프로젝트 편집** 오른쪽 위 모서리에 있는 아이콘.
+1. 선택 **프로젝트 세부 정보** 왼쪽 패널에서 를 클릭한 다음 **프로젝트 편집** 오른쪽 위 모서리에 있는 아이콘
 
-1. 에서 **예약 모드** 필드, 선택 **완료 날짜**.
+1. 다음에서 **일정 모드** 필드, 선택 **완료 일자**.
 
-1. 을(를) 지정합니다. **계획 완료 일자** 프로젝트 구성
+1. 다음을 지정합니다. **계획된 완료 일자** 을 참조하십시오.
 1. 클릭 **변경 내용 저장**.
 
-   프로젝트에 작업을 추가하기 시작하면 **계획 시작 날짜** 이 프로젝트에서는 모든 작업의 총 기간을 기준으로 계산됩니다. 
+   프로젝트에 작업을 추가하면 **계획된 시작 일자** 모든 작업의 총 지속 시간을 기반으로 계산됩니다. 
 
-## 프로젝트의 계획 완료 일자를 자동으로 설정
+## 프로젝트의 계획된 완료 일자 자동 설정
 
-프로젝트의 계획 완료 일자는 시작 일자에서 프로젝트를 스케줄링할 때 Adobe Workfront에 의해 자동으로 계산됩니다. 
+프로젝트의 계획된 완료 일자는 시작 일자부터 프로젝트를 예약할 때 Workfront에 의해 자동으로 계산됩니다. 
 
-시작 날짜에서 프로젝트를 예약하려면
+시작 일자부터 프로젝트를 스케줄링하려면
 
-1. 을(를) 클릭합니다. **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png) 오른쪽 위 모서리에서 을(를) 클릭하고 **프로젝트**.
+1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) 오른쪽 상단에서 을(를) 클릭한 다음 **프로젝트**.
 
-1. 클릭 **새 프로젝트** 그런 다음&#x200B;**새 프로젝트**.
+1. 클릭 **새 프로젝트** 그러면&#x200B;**새 프로젝트**.
 
-   프로젝트 만들기에 대한 자세한 내용은 문서를 참조하십시오 [프로젝트 만들기](../../../manage-work/projects/create-projects/create-project.md).
+   프로젝트 만들기에 대한 자세한 내용은 문서 를 참조하십시오 [프로젝트 만들기](../../../manage-work/projects/create-projects/create-project.md).
 
-1. 선택 **프로젝트 세부 사항** 왼쪽 패널에서 **프로젝트 편집** 오른쪽 위 모서리에 있는 아이콘.
+1. 선택 **프로젝트 세부 정보** 왼쪽 패널에서 를 클릭한 다음 **프로젝트 편집** 오른쪽 위 모서리에 있는 아이콘
 
-1. 에서 **예약 모드** 필드, 선택 **시작 날짜**.
+1. 다음에서 **일정 모드** 필드, 선택 **시작일**.
 
-1. 을(를) 지정합니다. **계획 시작 날짜** 프로젝트 구성
+1. 다음을 지정합니다. **계획된 시작 일자** 을 참조하십시오.
 1. 클릭 **변경 내용 저장**.
 
-   프로젝트에 작업을 추가하기 시작하면 **계획 완료 일자** 이 프로젝트에서는 모든 작업의 총 기간을 기준으로 계산됩니다. 
+   프로젝트에 작업을 추가하면 **계획된 완료 일자** 모든 작업의 총 지속 시간을 기반으로 계산됩니다. 
 
-   작업 기간에 대한 자세한 내용은 문서를 참조하십시오 [작업 기간 및 기간 유형 개요](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+   작업 기간에 대한 자세한 내용은 문서 를 참조하십시오 [작업 기간 및 기간 유형 개요](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
-   프로젝트의 계획 완료 일자가 이 경우 프로젝트의 마지막 태스크의 계획 완료 일자와 일치합니다.
+   이 경우 프로젝트의 계획된 완료 일자와 프로젝트의 마지막 작업의 계획된 완료 일자가 일치합니다.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

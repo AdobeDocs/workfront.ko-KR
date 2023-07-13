@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 40b6ba5c4deb312fb40aecad4978b5a385e0f1e9
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '713'
 ht-degree: 1%
 
 ---
@@ -69,8 +69,6 @@ Adobe Workfront의 댓글 달기 환경에 대한 업데이트가 현재 개발 
 >* <span class="preview">작업</span>
 >* <span class="preview">문서</span>
 
-
-
 다음 표는 새 댓글 달기 환경에서 사용할 수 있는 기능과 지원되는 영역에서 사용할 수 있는 기능을 보여 줍니다.
 
 <table>
@@ -79,7 +77,7 @@ Adobe Workfront의 댓글 달기 환경에 대한 업데이트가 현재 개발 
    </td>
    <td><strong>이전 댓글 환경에 있음 </strong>
    </td>
-   <td><strong>새 댓글 달기 환경의 Beta 버전에 있음 </strong>
+   <td><strong>새 댓글 달기 환경에 있음 </strong>
    </td>
    <td><strong>새로운 댓글 달기 환경에 도입될 예정입니다. </strong>
    </td>
@@ -224,9 +222,9 @@ Adobe Workfront의 댓글 달기 환경에 대한 업데이트가 현재 개발 
    </td>
    <td> 
    </td>
-   <td>
+   <td><span class="preview">✓</span>
    </td>
-   <td> ✓
+   <td> 
    </td>
    <td> 
    </td>

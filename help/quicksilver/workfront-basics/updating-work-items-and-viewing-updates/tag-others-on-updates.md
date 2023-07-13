@@ -6,9 +6,9 @@ description: Adobe Workfront 개체에 업데이트 설명을 제공하면 프�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 4116cd1610cc5b8de0407a96a4bc67532d78a25e
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '1485'
+source-wordcount: '1571'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 >새 댓글 달기 환경에 대한 자세한 내용은 [새 댓글 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >다음 객체에 대한 새 경험에 액세스할 수 있습니다.
-> * 문제, <span class="preview">프로젝트, 작업 및 문서</span>.
+> * 문제, <span class="preview" style="display-inline">프로젝트, 작업 및 문서</span>.
 >
 >     댓글 달기 Beta 경험을 활성화하면 사용할 수 있습니다.
 >
@@ -136,19 +136,19 @@ Workfront 개체에 업데이트를 추가하는 방법에 대한 자세한 내�
 
 ### 댓글 달기 Beta 경험의 업데이트에 다른 사용자에게 태그 지정
 
-<!--replace the first paragraph in this section with the commented out piece when this releases to preview - July 13, 2023??
+다음과 같은 방법으로 새 댓글 달기 환경의 업데이트에 다른 사용자에게 태그를 지정할 수 있습니다.
 
-You can tag others on updates in the new commenting experience in the following ways:
+* <span class="preview"> **자동**: 사용자가 댓글 또는 답글을 추가하면 자동으로 태그가 지정되고 댓글 달기 상자의 사람 또는 팀 태그 영역에 추가됩니다. </span>
+* **수동**: 댓글 달기 상자의 인물 태그 영역에 사용자를 수동으로 추가하는 경우.
 
-* <span class="preview"> **Automatically**: When a user adds a comment or a reply, they are automatically tagged and added to the Tag people or teams area of the commenting box. </span>
-* **Manually**: When you manually add a user to the Tag people area of the commenting box.
+댓글을 편집하거나 답글을 달 때 실수로 태그가 지정된 사용자를 제거할 수도 있습니다.
 
-You can also remove users who are tagged by mistake when you edit or reply to a comment.-->
+1. 에 설명된 대로 작업 항목 업데이트를 시작합니다. [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). <span class="preview">댓글 소유자는 자동으로 태그를 지정하고 댓글 달기 상자의 사람 또는 팀 태그 영역에 추가됩니다. </span>
 
+   >[!TIP]
+   >
+   ><span class="preview">댓글 소유자는 댓글 상자의 태그 사용자 또는 팀 영역에서 자신의 이름을 볼 수 없습니다.</span>
 
-댓글 달기 Beta 경험에서 업데이트에 다른 사용자를 수동으로 태그 지정할 수 있습니다. 댓글을 편집하거나 답글을 달 때 실수로 태그가 지정된 사용자를 제거할 수도 있습니다.
-
-1. 에 설명된 대로 작업 항목 업데이트를 시작합니다. [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). <!--<span class="preview">As the comment owner, you are automatically tagged and added to the Tag people or teams area of the commenting box. </span> -->
 1. 다음에서 **사람 또는 팀에 태그 지정** 필드에 포함할 사용자 또는 팀의 이름을 입력한 다음 드롭다운 목록에 나타나면 이름을 클릭합니다.
 
    또는
