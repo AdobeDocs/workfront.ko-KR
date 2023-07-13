@@ -4,9 +4,9 @@ description: 23.3 릴리스 개요
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: f3807e83a2d9fdbe351269bb1ecc9c6defc78a76
+source-git-commit: 793b1b0db3fcf66782cd25566df5803df955cb0d
 workflow-type: tm+mt
-source-wordcount: '2752'
+source-wordcount: '2754'
 ht-degree: 0%
 
 ---
@@ -346,7 +346,7 @@ ht-degree: 0%
                             <li>
                                 <p>Fast 릴리스 고객을 위한 프로덕션 릴리스: 23.3 프로덕션 릴리스 이후 발표될 예정입니다</p>
                                 <p>모든 고객을 위한 프로덕션 릴리스: 23.4 릴리스 포함<br>
-                                <span style="color: #ff0000;"> 할당률 재정의 기능이 2023년 6월 30일 미리보기에서 일시적으로 비활성화되었습니다.</span></p>
+                                <span style="color: #ff0000;"> 할당률 재정의 기능이 2023년 6월 30일부터 7월 13일까지 미리보기에서 일시적으로 비활성화되었습니다.</span></p>
                             </li>
                         </ul>
                     </td>

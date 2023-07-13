@@ -3,24 +3,20 @@ title: 23.3 Financial Management 개선 사항
 description: 23.3 Financial Management 개선 사항
 author: Lisa
 feature: Product Announcements
-source-git-commit: 3aa19652024cd6df1c9560aad6e982e4b615569c
+source-git-commit: 793b1b0db3fcf66782cd25566df5803df955cb0d
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
 
 # 23.3 Financial Management 개선 사항
 
-이 페이지에서는 미리보기 환경에 대한 23.3 릴리스의 모든 재무 개선 사항에 대해 설명합니다. 이러한 개선 사항은 프로덕션 환경에서 23.3 릴리스를 통해 제공될 예정입니다.
+이 페이지에서는 미리보기 환경에 대한 23.3 릴리스의 모든 Financial Management 개선 사항에 대해 설명합니다. 이러한 개선 사항은 프로덕션 환경에서 23.3 릴리스를 통해 제공될 예정입니다.
 
 23.3 릴리스 주기 동안 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 을 참조하십시오. [23.3 릴리스 개요](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 ## 일자 유효 비용 및 청구 요금
-
->[!IMPORTANT]
->
->할당률 재정의 기능이 2023년 6월 30일 미리보기에서 일시적으로 비활성화되었습니다.
 
 이제 Workfront의 회사, 사용자 및 작업 역할 오브젝트에서 날짜 유효 비용 및 청구 요금을 사용할 수 있습니다. 날짜 유효 비율이 프로젝트에 적용되고 시간이 프로젝트 작업에 기록되면 각 기간에 대해 지정된 비율을 사용하여 비용 및 수익이 계산됩니다.
 
