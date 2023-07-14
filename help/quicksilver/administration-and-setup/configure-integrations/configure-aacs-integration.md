@@ -5,7 +5,7 @@ title: Adobe Experience Manager Assets 통합
 description: 다음 Adobe Experience Manager Assets 통합으로 작업을 연결할 수 있습니다.
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 3849bd8ce80f40ae7d05b81e0dd8e846851dffc0
+source-git-commit: e03e6a3cacc8eb65764d86854a9847eb414aa340
 workflow-type: tm+mt
 source-wordcount: '1504'
 ht-degree: 0%
@@ -23,7 +23,9 @@ ht-degree: 0%
 * 에셋 및 폴더에 대한 메타데이터 추적
 * 프로젝트 메타데이터 동기화 [!DNL Workfront] 및 [!DNL Experience Manager Assets]
 
-여러 Experience Manager Assets 저장소를 조직 ID를 통해 하나의 Workfront 환경에 연결하거나 여러 Workfront 환경을 하나의 Experience Manager Assets 저장소에 연결할 수도 있습니다. 설정하려는 각 통합에 대해 이 문서의 구성 지침을 따르십시오.
+>[!NOTE]
+>
+>여러 Experience Manager Assets 저장소를 조직 ID를 통해 하나의 Workfront 환경에 연결하거나 여러 Workfront 환경을 하나의 Experience Manager Assets 저장소에 연결할 수도 있습니다. 설정하려는 각 통합에 대해 이 문서의 구성 지침을 따르십시오.
 
 ## 액세스 요구 사항
 
@@ -165,7 +167,6 @@ link to documentation about creating schema - waiting on response from Anuj abou
 > * 설정 > Workfront의 사용자 지정 Forms 또는 오브젝트의 필드
 > * Experience Manager Assets의 에셋 > 메타데이터 스키마
 
-
 +++
 
 ### 에셋의 메타데이터 매핑
@@ -181,7 +182,6 @@ link to documentation about creating schema - waiting on response from Anuj abou
    >
    >단일 항목을 매핑할 수 있습니다 [!DNL Workfront] 여러 필드 [!UICONTROL Experience Manager Assets] 필드. 여러 개를 매핑할 수 없음 [!DNL Workfront] 단일 필드 [!DNL Experience Manager Assets] 필드.
    ><!--To map a Workfront field to an Experience Manager Assets tag, see -->
-
 
 1. 다음에서 [!DNL Experience Manager Assets] 필드, 미리 채워진 범주를 검색하거나 검색 필드에 두 개 이상의 문자를 입력하여 추가 범주에 액세스합니다.
 1. 필요에 따라 2단계와 3단계를 반복합니다.
