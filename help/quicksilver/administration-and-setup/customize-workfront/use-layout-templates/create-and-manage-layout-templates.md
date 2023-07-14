@@ -5,11 +5,11 @@ content-type: overview
 product-area: system-administration;templates
 navigation-topic: layout-templates
 description: Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 만들고 수정하여 사용자를 위해 Workfront의 레이아웃 요소를 사용자 정의할 수 있습니다.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 0%

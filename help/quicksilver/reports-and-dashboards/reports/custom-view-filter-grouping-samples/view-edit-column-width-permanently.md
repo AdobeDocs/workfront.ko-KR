@@ -7,9 +7,9 @@ description: 원하는 너비와 일치하도록 여백을 드래그 앤 드롭�
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 42633036-8e42-4cec-876c-f20a5ece2478
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,8 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >문서의 &quot;일시적으로 열 너비 및 순서 수정&quot; 섹션에 설명된 대로 열의 너비를 수동으로 수정하는 경우 [열 너비 및 순서 수정](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md) 열의 너비를 영구적으로 수정하면 수동 크기 조정에 따라 열의 너비가 유지되며 다음 단계에 따라 업데이트된 열의 너비가 덮어쓰기됩니다. 캐시를 지우거나 다른 브라우저에서 로그인한 후 다음 단계에 정의된 너비에 따라 열을 볼 수 있습니다.
+>
+>텍스트 모드 인터페이스를 사용할 때 열의 너비를 사용자 정의하는 방법에 대한 자세한 내용은 [Adobe Workfront 용어 목록](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 1. 개체 목록으로 이동합니다.
 1. 다음에서 **보기** 드롭다운 메뉴, 클릭 **새 보기**.
@@ -79,3 +81,5 @@ ht-degree: 0%
    의 경우 **폭** 행에서 열에 표시할 너비를 나타내는 숫자(픽셀 단위)를 지정합니다.
 
 1. 클릭 **저장**, 그런 다음 **보기 저장**.
+
+

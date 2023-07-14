@@ -4,12 +4,12 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration;templates
 navigation-topic: layout-templates
-description: 기본 레이아웃은 Adobe Workfront 관리자가 레이아웃 템플릿을 사용하여 변경하기 전에 기본 메뉴 , 왼쪽 패널 및 보기, 그룹화 및 필터의 배열입니다.
-author: Caroline
+description: 기본 레이아웃은 Adobe Workfront 관리자가 레이아웃 템플릿을 사용하여 변경 작업을 수행하기 전에 기본 메뉴 , 왼쪽 패널 및 보기, 그룹화, 필터의 배열입니다.
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 14%
@@ -18,19 +18,19 @@ ht-degree: 14%
 
 # 기본 Adobe Workfront 레이아웃 정보
 
-기본 레이아웃은 기본 메뉴의 배열입니다 ![](assets/main-menu-icon.png)Adobe Workfront 관리자가 레이아웃 템플릿을 사용하여 변경 작업을 수행하기 전에 왼쪽 패널과 보기, 그룹화 및 필터를 확인하십시오.
+기본 레이아웃은 기본 메뉴의 배열입니다 ![](assets/main-menu-icon.png), 왼쪽 패널, Adobe Workfront 관리자가 레이아웃 템플릿을 사용하여 변경하기 전의 보기, 그룹화 및 필터 등이 포함됩니다.
 
-Workfront 관리자가 사용자에게 레이아웃 템플릿을 할당하여 사용자의 기본 레이아웃을 수정하는 방법에 대한 자세한 내용은 [레이아웃 템플릿에 사용자 할당](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
+Workfront 관리자가 사용자에게 레이아웃 템플릿을 할당하여 사용자의 기본 레이아웃을 수정하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [레이아웃 템플릿에 사용자 할당](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
 >[!NOTE]
 >
->사용자는 사용자 프로필 환경 설정을 편집하여 자신의 레이아웃을 변경할 수 있습니다. 자세한 내용은 [기본 설정](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md#preferences) 섹션 [내 설정 구성](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+>사용자는 사용자 프로필 환경 설정을 편집하여 자신의 레이아웃을 변경할 수 있습니다. 자세한 내용은 [환경 설정](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md#preferences) 의 섹션 [내 설정 구성](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 
 ## 각 액세스 수준에 대한 기본 레이아웃
 
-각 사용자의 기본 레이아웃은 액세스 수준에 따라 다릅니다. 일부 사용자는 지정된 액세스 수준에 따라 기본 메뉴 또는 특정 왼쪽 패널 항목에 특정 영역이 표시되지 않을 수 있습니다.
+각 사용자의 기본 레이아웃은 액세스 수준에 따라 다릅니다. 일부 사용자는 할당된 액세스 수준에 따라 주 메뉴나 특정 왼쪽 패널 항목의 특정 영역이 표시되지 않을 수 있습니다.
 
-다음 표는 기본적으로 각 액세스 수준에 대해 표시되는 왼쪽 패널 항목을 보여줍니다. 각 액세스 수준에 대한 기본 랜딩 영역도 표시됩니다.
+다음 표는 기본적으로 각 액세스 수준에 대해 표시되는 왼쪽 패널 항목을 보여 줍니다. 각 액세스 수준에 대한 기본 랜딩 영역도 표시됩니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -102,7 +102,7 @@ Workfront 관리자가 사용자에게 레이아웃 템플릿을 할당하여 �
    <td> </td> 
   </tr> 
   <tr> 
-   <td rowspan="5"><strong>사람</strong> (으)로 이름이 변경됨 <strong>팀</strong> 작업 라이센스가 있는 사용자)</td> 
+   <td rowspan="5"><strong>사람</strong> (이름이 변경됨) <strong>팀</strong> 작업 라이선스가 있는 사용자의 경우)</td> 
    <td><strong>팀</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 

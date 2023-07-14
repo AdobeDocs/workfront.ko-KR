@@ -5,9 +5,9 @@ title: 용어집 [!DNL Adobe Workfront] 용어
 description: 다음 [!DNL Adobe Workfront] 용어집 에는 Adobe Workfront에서 일반적으로 사용되는 용어가 나열되어 있습니다.
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '19551'
+source-wordcount: '19720'
 ht-degree: 0%
 
 ---
@@ -814,7 +814,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!UICONTROL 종료 날짜]</td> 
-   <td> <p> [!UICONTROL 요금] 보고서에서 프로젝트 수준의 작업 역할에 대한 새 청구 요금이 종료되는 날짜입니다. 이 일자 이전의 프로젝트와 연계된 시간에 이 청구 요금을 곱하여 프로젝트의 수익을 계산합니다. </p> </td> 
+   <td> <p> [!UICONTROL 요금] 보고서에서 프로젝트 수준의 작업 역할에 대한 새 청구 요금이 종료되는 날짜입니다. 이 일자 이전의 프로젝트와 연계된 시간에 이 청구 요율을 곱하여 프로젝트의 수익을 계산합니다. </p> </td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL 참여]</td> 
@@ -2103,8 +2103,17 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Strategic Alignment]</td> 
    <td>포트폴리오 및 프로그램 전반에서 회사 목표를 측정하고 정렬합니다.</td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
+   <td><code>[!UICONTROL stretch]</code></td> 
+   <td><p>텍스트 모드 인터페이스를 사용할 때 보고서 열에 사용됩니다. </p>
+   <p>다음 <code>[!UICONTROL stretch]</code> 는 보기에서 필요하지 않은 추가 공간을 차지하는 열을 식별하는 데 사용됩니다. 일반적인 사용자를 위한 작업 영역의 사용자 인터페이스 폭은 약 850픽셀이다. 즉, 보기가 850픽셀 중 600픽셀을 차지하는 4개의 열(각각 150픽셀)이 있는 보기입니다. UI에 250개의 추가 픽셀이 있으며, 이 픽셀은 스트레치 비율이 제공된 열에 추가됩니다. </p>
+   <p>추가 코드 행을 사용하면 열 스트레치가 적용됩니다. <code>[!UICONTROL usewidths=true]</code> 뷰에 있는 하나 이상의 열에 대해 설명합니다. 
+   </td> 
+  </tr>
+
+<tr> 
    <td>[!UICONTROL 구독자]</td> 
    <td> <p>프로젝트, 작업 또는 문제를 구독하는 사용자.</p> <p>보고서에서 이 필드를 사용하면 구독자 목록이 표시되고 각 구독자는 쉼표로 구분됩니다.</p> <p>자세한 내용은 이 문서 를 참조하십시오. <a href="../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md" class="MCXref xref">의 항목 구독 [!DNL Adobe Workfront]</a>.</p> </td> 
   </tr> 
@@ -2304,11 +2313,22 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr> 
    <td>[!UICONTROL 올해의 조회수]</td> 
    <td>보고서 목록에는 올해 동안 보고서를 본 횟수가 표시됩니다.<br>보고서 목록의 사용 정보에 대한 자세한 내용은 이 문서 를 참조하십시오 <a href="../../../reports-and-dashboards/reports/report-usage/view-report-usage.md">보고서 사용 보기</a>.</td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr>
+  <td> <code>[!UICONTROL width]</code>
+  </td>
+<td> 보고서에서 [!UICONTROL 텍스트 모드] 인터페이스를 사용할 때 각 열의 너비를 픽셀 단위로 지정할 수 있는 코드 행입니다. Workfront에서는 각 필드에 대해 제안된 너비를 제공하지만 필드 유형과 형식에 따라 조정할 수 있습니다.
+추가 항목을 사용해야 합니다. <code>[!UICONTROL usewidths=true]</code> 열에 지정된 너비를 적용하는 코드 줄입니다. 
+  </td>
+
+</tr>
+
+<tr> 
    <td><code>[!UICONTROL work]</code> </td> 
    <td> <p>프로젝트, 작업 또는 문제 보고서에서 텍스트 모드에서 다음 문을 사용하면 프로젝트, 작업 또는 문제의 계획된 시간이 표시됩니다.</p>
-   <p></p><p></p> 
+   <code><p>valuefield=work</p>
+   <p>valueformat=HTML</p></code> 
    <p>텍스트 모드 사용에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">텍스트 모드 구문 개요</a>. </p> 
    <p><b>팁</b> 
    <p>문제 보고서에서 [!UICONTROL 계획된 시간] 필드 중 하나를 추가하면 <code>work </code>보고서에 대한 필드. </p> </td> 
@@ -2396,7 +2416,10 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr> 
    <td><code>[!UICONTROL workRequiredExpression]</code> </td> 
    <td> <p>프로젝트, 작업 또는 문제 보고서에서 텍스트 모드에서 다음 문을 사용하면 프로젝트, 작업 또는 문제의 계획된 시간 수 다음에 "시간"이라는 단어가 표시됩니다.</p>
-   <p></p><p></p>
+   <code>
+   <p>valuefield=workRequiredExpression</p>
+   <p>valueformat=HTML</p>
+   </code>
     <p>텍스트 모드 사용에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">텍스트 모드 구문 개요</a>. </p> </td> 
   </tr> 
  </tbody> 
