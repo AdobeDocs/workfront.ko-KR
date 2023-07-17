@@ -6,9 +6,9 @@ description: '사용자 [!DNL Adobe Workfront] 프로필에는 자신에 대한 
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 1079f85651ec691280e2cccefaa6e48e0b9d89f8
+source-git-commit: 699498fb286c53b6ba4ddde88ba59e79699fd7b3
 workflow-type: tm+mt
-source-wordcount: '3228'
+source-wordcount: '3208'
 ht-degree: 1%
 
 ---
@@ -196,7 +196,7 @@ ht-degree: 1%
 
 ## 구성 [!UICONTROL 내 설정] 영역
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![](assets/main-menu-icon.png) 의 오른쪽 위 모서리 [!DNL Adobe Workfront]그런 다음 프로필 사진 옆에 있는 사용자 이름을 클릭합니다.
+1. {#step1-click-profile-pic}
 
 1. 다음을 클릭합니다. **[!UICONTROL 자세히]** 메뉴 ![](assets/more-icon.png)을 클릭한 다음 을 클릭합니다 **[!UICONTROL 편집]**.
 

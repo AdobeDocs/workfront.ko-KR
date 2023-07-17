@@ -6,9 +6,9 @@ description: 액세스 [!DNL Workfront] Adobe Experience Cloud을 통해 모든 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 8bf83e73706b5e994d091dc56d43a9f027b01fe8
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
@@ -86,3 +86,17 @@ ht-degree: 0%
 * 설정 **[!UICONTROL 환경 설정]** 대상 [!DNL Adobe Experience Cloud], 기본 및 보조 언어 환경 설정 포함.
 * 액세스 권한 **[!UICONTROL [!DNL Workfront]프로필]**. 프로필에 있는 경우 **[!UICONTROL 자세히]** 메뉴 ![](assets/more-icon.png) 및 선택 **[!UICONTROL 편집]**. 프로필에 대한 자세한 내용은 [내 설정 구성](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 * **[!UICONTROL 로그아웃]** Adobe Experience Cloud.
+
+## 암호 관리
+
+>[!NOTE]
+>
+>암호를 변경하면 모든 사용자의 암호가 변경됩니다. [!DNL Adobe Experience Cloud] 응용 프로그램.
+
+암호는에서 관리되지 않습니다. [!DNL Workfront].
+
+조직에서 암호를 관리하기 위해 별도의 애플리케이션을 사용하는 경우 해당 공급자를 통해 암호를 변경합니다.
+
+암호를에서 관리하는 경우 [!DNL Adobe], 다음을 수행할 수 있습니다. [Adobe 계정의 암호 변경](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html) {target="_blank"}.
+
+암호 변경에 대한 자세한 내용은 관리자에게 문의하십시오.

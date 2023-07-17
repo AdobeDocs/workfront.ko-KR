@@ -7,10 +7,10 @@ description: Adobe Workfront은 개인 휴무를 관리, 저장 및 추적하기
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 1079f85651ec691280e2cccefaa6e48e0b9d89f8
+source-git-commit: 699498fb286c53b6ba4ddde88ba59e79699fd7b3
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 0%
+source-wordcount: '398'
+ht-degree: 1%
 
 ---
 
@@ -31,7 +31,6 @@ ht-degree: 0%
 >* [일정 만들기](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 >* [사용자 프로필 편집](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
 >
-
 
 ## 액세스 요구 사항
 
@@ -63,7 +62,7 @@ ht-degree: 0%
 
 ## 에서 개인 휴무 구성 [!DNL Workfront]
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![](assets/main-menu-icon.png) 의 오른쪽 위 모서리 [!DNL Adobe Workfront]그런 다음 프로필 사진 옆에 있는 사용자 이름을 클릭합니다.
+1. {#step1-click-profile-pic}
 
 1. 왼쪽 패널에서 **[!UICONTROL 휴무]**.
 1. 개인 휴무에 대해 원하는 날짜를 선택합니다.
@@ -71,4 +70,4 @@ ht-degree: 0%
    하루 종일 쉬지 않고 휴무 시작 및 종료 시간을 나타내는 경우 선택하지 마십시오.
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.\
-   이제 휴무가 다음에 표시됩니다. [!DNL Workfront] 리소스 그리드 같은 예약 도구의 시스템입니다. 이 시간 동안 작업을 할당하면 사용자에게 휴무 일정을 지정했음을 알리는 도구 설명이 표시됩니다.
+   이제 휴무가 다음에 표시됩니다. [!DNL Workfront] 리소스 플래너 및 업무 균형자 와 같은 리소스 관리 도구의 시스템. 이 시간 동안 작업을 할당하면 사용자에게 휴무 일정을 지정했음을 알리는 도구 설명이 표시됩니다.
