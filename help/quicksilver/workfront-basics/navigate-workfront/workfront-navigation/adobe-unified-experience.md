@@ -6,7 +6,7 @@ description: 액세스 [!DNL Workfront] Adobe Experience Cloud을 통해 모든 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: b6008546089a420e5bb487d2035b8d87782905c1
+source-git-commit: 4331917d133c52cf727f148b75a213853c1e5679
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%
@@ -99,6 +99,6 @@ ht-degree: 0%
 
 암호를에서 관리하는 경우 [!DNL Adobe], Adobe 계정에서 암호를 변경할 수 있습니다.
 
-[Adobe 암호 변경에 대해서는 이 문서 를 참조하십시오.](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}.
+[Adobe 암호 변경에 대해서는 이 문서 를 참조하십시오.](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}
 
 암호 변경에 대한 자세한 내용은 관리자에게 문의하십시오.
