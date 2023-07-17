@@ -5,10 +5,11 @@ title: 텍스트 모드 구문 개요
 description: 텍스트 모드 인터페이스를 사용하여 목록 및 보고서에서 보다 복잡한 보기, 필터, 그룹화 및 사용자 지정된 프롬프트를 만들 수 있습니다. 텍스트 모드를 사용하면 표준 모드 인터페이스에서 사용할 수 없는 필드 및 해당 속성에 액세스할 수 있습니다.
 author: Nolan
 feature: Reports and Dashboards
+role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: 976e8c7fe0362392928ac9cd6be1a9ba7c653dda
 workflow-type: tm+mt
-source-wordcount: '1478'
+source-wordcount: '1833'
 ht-degree: 0%
 
 ---
@@ -37,25 +38,22 @@ ht-degree: 0%
    * 뷰에서 보고서나 목록 객체에서 멀리 떨어진 세 개의 객체를 표시할 수 있습니다.
    * 그룹화, 필터 또는 사용자 지정 프롬프트에서 주 개체와 2개 이상의 개체를 참조할 수 없습니다.
 
-   **예:** 작업 보기에 Portfolio 소유자의 이름 또는 GUID를 표시할 수 있습니다.
+  **예:** 작업 보기에 Portfolio 소유자의 이름 또는 GUID를 표시할 수 있습니다.
 
-   ```
-   valuefield=project:portfolio:ownerID
-   ```
 
-   작업 보기에서 Portfolio 소유자를 그룹화하거나 필터링하거나 프롬프트를 표시할 수 없습니다.
+  `valuefield=project:portfolio:ownerID`
 
-   ```
-   project:portfolio:ownerID=5808f4bc00790b270a9629dd128e63fa
-   ```
+  작업 보기에서 Portfolio 소유자를 그룹화하거나 필터링하거나 프롬프트를 표시할 수 없습니다.
 
-   이러한 예에서 Portfolio 소유자 ID는 목록의 객체에서 3개의 객체입니다.
+  `project:portfolio:ownerID=5808f4bc00790b270a9629dd128e63fa`
 
-   Workfront의 개체 계층 구조에 대한 자세한 내용은 다음을 참조하십시오.
+
+  이러한 예에서 Portfolio 소유자 ID는 목록의 객체에서 3개의 객체입니다.
+
+  Workfront의 개체 계층 구조에 대한 자세한 내용은 다음을 참조하십시오.
 
    * [Adobe Workfront의 오브젝트 이해](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
    * [API 탐색기](../../../wf-api/general/api-explorer.md)
-
 
 * 가능한 경우 언제든지 와일드카드를 사용하여 보고서와 목록을 보다 동적이고 다양한 사용자 및 유사한 타임라인에 대해 중복을 피하십시오.
 
@@ -63,9 +61,7 @@ ht-degree: 0%
 
 텍스트 모드에서 Workfront 필드 또는 해당 속성을 참조할 때 Workfront에서는 카멜 표기법으로 해당 이름을 입력해야 합니다. 이 경우 단일 이름 필드는 소문자로 입력됩니다. 컴파운드 필드의 맞춤법은 다음 패턴에 따라 결정됩니다.
 
-```
-camelCaseSyntax
-```
+`camelCaseSyntax`
 
 >[!IMPORTANT]
 >
@@ -79,11 +75,7 @@ camelCaseSyntax
 
 **예:** 프로젝트의 실제 완료 일자를 참조하기 위해 텍스트 모드 보고 요소를 작성할 때 사용할 필드의 이름은 입니다.
 
-```
-actualCompletionDate
-```
-
-.
+`actualCompletionDate`
 
 ## 다양한 보고 요소의 텍스트 모드 구문
 
@@ -91,14 +83,14 @@ actualCompletionDate
 
 * 코드 및 구문 행은 보기 및 그룹화에서 유사합니다.
 
-   텍스트 모드에서 뷰 및 그룹화를 작성할 때의 코드 키 행에 대한 자세한 내용은 다음을 참조하십시오.
+  텍스트 모드에서 뷰 및 그룹화를 작성할 때의 코드 키 행에 대한 자세한 내용은 다음을 참조하십시오.
 
    * [텍스트 모드를 사용하여 보기 편집](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
    * [그룹화에서 텍스트 모드 편집](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
 
 * 코드 및 구문 행은 필터 및 사용자 지정 프롬프트에 대해 유사합니다.
 
-   자세한 내용은 다음을 참조하십시오.
+  자세한 내용은 다음을 참조하십시오.
 
    * [텍스트 모드를 사용하여 필터 편집](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
    * [보고서에 프롬프트 추가](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
@@ -112,22 +104,17 @@ actualCompletionDate
 * [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
 * [Adobe Workfront의 그룹화 개요](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
-뷰 또는 그룹화에 대한 가장 중요한 코드 행은 뷰의 열 또는 그룹화에서 참조된 객체를 식별하는 행입니다. 이 필드가 Workfront 데이터베이스 필드에 대한 직접 참조인지 또는 여러 필드 간의 계산인지에 따라 코드 줄이 다음으로 시작될 수 있습니다.
+뷰 또는 그룹화에 대한 가장 중요한 코드 행은 뷰의 열 또는 그룹화에서 참조된 객체를 식별하는 행입니다. 이 필드가 Workfront 데이터베이스 필드에 대한 직접 참조인지 또는 여러 필드 간의 계산인지에 따라 코드 줄이 다음으로 시작될 수 있습니다. `valuefield` 또는 `valueexpression`
 
-```
-valuefield
-```
+다음 표에는 뷰 또는 그룹화에서 가장 일반적인 코드 행이 나열되어 있습니다.
 
-또는
-
-```
-valueexpression
-```
-
-.
-
-* [보기 및 그룹화에 대한 Valuefield 구문 개요](#valuefield-syntax-overview-for-views-and-groupings)
-* [보기 및 그룹화에 대한 Valueexpression 구문 개요](#valueexpression-syntax-overview-for-views-and-groupings)
+| 코드 라인 | 설명 |
+|-----------------|------------------------------------------------------------------------------------------------------------------------------|
+| `valuefield` | 보기의 열이나 그룹화에 참조된 개체를 식별합니다. 참조된 개체에 대한 직접 참조입니다. |
+| `valueexpression` | 보기의 열이나 그룹화에 참조된 개체를 식별합니다. 여러 필드 간의 계산입니다. |
+| `valueformat` | Workfront이 valuefield 또는 valueexpression 행에 지정된 값을 반환하는 형식을 식별합니다. |
+| `width` | 열의 너비를 픽셀 단위로 식별합니다. |
+| `stretch` | 보기에서 필요하지 않은 추가 공간을 차지하는 열을 식별합니다. |
 
 >[!TIP]
 >
@@ -135,93 +122,48 @@ valueexpression
 >
 >  프로젝트 목록 또는 보고서에서 프로젝트 이름별로 그룹화하려면 첫 번째 계층 그룹화에 대해 다음 줄을 사용하십시오.
 >
+>  `group.0.valuefield=name`
 >  
-```>
->  group.0.valuefield=name
->  ```>
->* If you edit multiple columns in a view in the same column (as it is the case of shared columns), remember that every line of code for each column starts with the column number. 
+>* 공유 열의 경우와 마찬가지로 동일한 열의 보기에서 여러 열을 편집하는 경우 각 열의 모든 코드 행은 열 번호로 시작합니다.
 >
->  
-Use the following format to identify the first column of a view: 
+>  다음 형식을 사용하여 보기의 첫 번째 열을 식별합니다.
 >
+>  `column.0.valuefield=name`
 >  
-```>
->  column.0.valuefield=name
->  ```>
->  For information about sharing columns, see [View: merge information from multiple columns in one shared column](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md). 
+>  열 공유에 대한 자세한 내용은 [보기: 여러 열의 정보를 하나의 공유 열에 병합](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
 >
 
+#### `Valuefield` 보기 및 그룹화에 대한 구문 개요
 
-
-```
-Valuefield
-```
-
-보기 및 그룹화에 대한 구문 개요 {#valuefield-syntax-overview-for-views-and-groupings}
-
-```
-Valuefield=
-```
-
-는 직접 참조하는 개체를 식별하는 보기 및 그룹화의 주요 코드 행입니다.
+`Valuefield=` 는 직접 참조하는 개체를 식별하는 보기 및 그룹화의 주요 코드 행입니다.
 
 필드를 직접 참조하는 구문은 그룹화 및 보기에 대해 동일합니다.
 
-다음을 사용하여 Workfront 개체를 참조할 때 다음 규칙이 적용됩니다
-
-```
-valuefield
-```
-
-줄:
+다음을 사용하여 Workfront 개체를 참조할 때 다음 규칙이 적용됩니다 `valuefield` 줄:
 
 * 필드를 직접 참조하려면 카멜 표식을 사용하십시오.
 
-   **예:** 태스크 뷰에서 태스크 실제 완료 일자를 참조하려면 다음 라인을 사용합니다.
+  **예:** 태스크 뷰에서 태스크 실제 완료 일자를 참조하려면 다음 라인을 사용합니다.
 
-   ```
-   valuefield=actualCompletionDate
-   ```
+  `valuefield=actualCompletionDate`
 
 * 카멜 대/소문자와 콜론을 사용하여 동일한 오브젝트에 대해 서로 관련된 필드를 구분합니다.
 
-   **예:** 작업 보기에서 프로젝트 계획 완료 일자를 참조하려면 다음 라인을 사용합니다.
+  **예:** 작업 보기에서 프로젝트 계획 완료 일자를 참조하려면 다음 라인을 사용합니다.
 
-   ```
-   valuefield=project:plannedCompletionDate
-   ```
+  `valuefield=project:plannedCompletionDate`
 
-   개체가 Workfront 데이터베이스에서 서로 참조하는 방법에 대한 자세한 내용은 [API 탐색기](../../../wf-api/general/api-explorer.md).
+  개체가 Workfront 데이터베이스에서 서로 참조하는 방법에 대한 자세한 내용은 [API 탐색기](../../../wf-api/general/api-explorer.md).
 
 * 사용자 정의 필드를 참조할 때는 인터페이스에 표시되는 것과 정확히 동일한 필드의 이름을 사용하십시오.
 
-   **예:** 작업 보기에서 추가 세부 정보 레이블이 지정된 프로젝트 사용자 정의 필드를 참조하려면 다음 줄을 사용하십시오.
+  **예:** 작업 보기에서 추가 세부 정보 레이블이 지정된 프로젝트 사용자 정의 필드를 참조하려면 다음 줄을 사용하십시오.
 
-   ```
-   valuefield=project:Additional Details
-   ```
+  `valuefield=project:Additional Details`
 
- 
+#### `Valueexpression` 보기 및 그룹화에 대한 구문 개요
 
-```
-Valueexpression
-```
-
-보기 및 그룹화에 대한 구문 개요 {#valueexpression-syntax-overview-for-views-and-groupings}
-
-다음을 바꿀 수 있습니다.
-
-```
-valuefield=
-```
-
-코드 줄 포함
-
-```
-valueexpression=
-```
-
-텍스트 모드에서 보기 및 그룹화를 작성할 때 2개 이상의 필드 간에 계산을 참조하려는 경우.
+다음을 바꿀 수 있습니다. `valuefield=` 코드 줄 포함 `valueexpression=` 텍스트 모드에서 보기 및 그룹화를 작성할 때 2개 이상의 필드 간에 계산을 참조하려는 경우.
 
 >[!TIP]
 >
@@ -231,44 +173,28 @@ valueexpression=
 
 계산된 그룹화를 작성하는 것은 뷰에서 계산된 열을 작성하는 것과 비슷합니다.
 
-다음을 사용하여 Workfront 개체를 참조할 때 다음 규칙이 적용됩니다
-
-```
-valueexpression
-```
-
-줄:
+다음을 사용하여 Workfront 개체를 참조할 때 다음 규칙이 적용됩니다 `valueexpression` 줄:
 
 * 필드를 직접 참조하고 각 필드를 중괄호로 묶으려면 카멜 대/소문자를 사용하십시오.
 
-   **예:** 다음을 사용하여 작업 열에 작업 이름 필드를 표시하려면
+  **예:** 다음을 사용하여 작업 열에 작업 이름 필드를 표시하려면 `valueexpression`, 다음 줄을 사용하십시오.
 
-   ```
-   valueexpression
-   ```
+  `valueexpression={name}`
 
-   , 다음 줄을 사용하십시오.
-
-   ```
-   valueexpression={name}
-   ```
 
 * 카멜 대/소문자와 마침표를 사용하여 서로 관련된 필드를 구분합니다.
 
-   **예:** 작업 보고서에 작업 이름과 연결된 프로젝트 이름을 표시하려면 다음 줄을 사용합니다.
+  **예:** 작업 보고서에 작업 이름과 연결된 프로젝트 이름을 표시하려면 다음 줄을 사용합니다.
 
    * 보기에서:
 
-      ```
-      valueexpression=CONCAT({project}.{name},' - ',{name})
-      ```
+     `valueexpression=CONCAT({project}.{name},' - ',{name})`
 
    * 그룹화:
 
-      ```
-      group.0.valueexpression=CONCAT({project}.{name},' - ',{name})
-      ```
-   개체가 Workfront 데이터베이스에서 서로 참조하는 방법에 대한 자세한 내용은 [API 탐색기](../../../wf-api/general/api-explorer.md).
+     `group.0.valueexpression=CONCAT({project}.{name},' - ',{name})`
+
+  개체가 Workfront 데이터베이스에서 서로 참조하는 방법에 대한 자세한 내용은 [API 탐색기](../../../wf-api/general/api-explorer.md).
 
 * 사용자 정의 필드를 참조할 때 다음 규칙을 사용합니다.
 
@@ -277,63 +203,51 @@ valueexpression
    * 필드를 중괄호로 묶습니다.
    * 객체와 관련된 필드를 마침표로 구분합니다.
 
-   **예:** Valueexpression 라인의 작업 보기에 추가 세부 정보 프로젝트 사용자 정의 필드를 표시하려면 다음 줄을 사용하십시오.
+  **예:** Valueexpression 라인의 작업 보기에 추가 세부 정보 프로젝트 사용자 정의 필드를 표시하려면 다음 줄을 사용하십시오.
 
-   ```
-   valueexpression={project}.{DE:Additional Details}
-   ```
+  `valueexpression={project}.{DE:Additional Details}`
 
-* 다음에서 와일드카드를 사용할 수 있습니다.
+* 다음에서 와일드카드를 사용할 수 있습니다. `valueexpression` 그러나 에는 없습니다. `valuefield` 줄.
 
-   ```
-   valueexpression
-   ```
+  와일드카드에 대한 자세한 내용은 [와일드카드 필터 변수](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
-   그러나 에는 없습니다.
 
-   ```
-   valuefield
-   ```
+#### `Valueformat` 보기 및 그룹화 개요
 
-   줄.
+보기 또는 그룹화에서 두 번째로 중요한 코드 행은 `valueformat=` 줄. 이것은 Workfront에 지정하는 값을 반환할 형식을 알려줍니다.
+`valuefield` 또는 valueexpression 행입니다. 에 다양한 형식을 사용할 수 있지만 `valueformat` 행, 을 사용할 때는 항상 다음 값을 사용하는 것이 좋습니다
+`valueexpression`:
 
-   와일드카드에 대한 자세한 내용은 [와일드카드 필터 변수](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+`valueformat=HTML`
 
-```
-Valueformat
-```
+추가 `valueformats` 값은 다음 문서를 참조하십시오.
 
-개요
+* [텍스트 모드 보고서에서 날짜 형식 지정](../../reports/text-mode/format-dates-in-text-mode-reports.md)
+* [텍스트 모드 보고서에서 숫자, 통화 및 백분율 값 서식 지정](../../reports/text-mode/format-numbers-in-text-mode-reports.md)
 
-보기 또는 그룹화에서 두 번째로 중요한 코드 행은
+#### `width` 보기에 대한 개요
 
-```
-valueformat=
-```
+`width=` 는 각 열의 너비를 픽셀 단위로 지정할 수 있는 코드 행입니다. Workfront에서는 각 필드에 대해 제안된 너비를 제공하지만 필드 유형과 형식에 따라 조정할 수 있습니다.
 
-줄. 이것은 Workfront에 지정하는 값을 반환할 형식을 알려줍니다.
+추가 항목을 사용해야 합니다. `usewidths=true` 열에 지정된 너비를 적용하는 코드 줄입니다.
 
-```
-valuefield
-```
+**예:** 너비가 80픽셀인 열을 표시하려면 다음 줄을 사용합니다.
 
-또는 valueexpression 행입니다. 에 다양한 형식을 사용할 수 있지만
+`width=80`
 
-```
-valueformat
-```
+`usewidths=true`
 
-행, 을 사용할 때는 항상 다음 값을 사용하는 것이 좋습니다
+#### `stretch` 보기에 대한 개요
 
-```
-valueexpression
-```
+다음 `stretch` 는 보기에서 필요하지 않은 추가 공간을 차지하는 열을 식별하는 데 사용됩니다. 일반적인 사용자를 위한 작업 영역의 사용자 인터페이스 폭은 약 850픽셀이다. 즉, 보기가 850픽셀 중 600픽셀을 차지하는 4개의 열(각각 150픽셀)이 있는 보기입니다. UI에 250개의 추가 픽셀이 있으며, 이 픽셀은 스트레치 비율이 제공된 열에 추가됩니다.
 
-:
+추가 코드 행을 사용하면 열 스트레치가 적용됩니다. `usewidths=true` 뷰에 있는 하나 이상의 열에 대해 설명합니다.
 
-```
-valueformat=HTML
-```
+**예:** 열에 보기에서 빈 공간의 70%를 사용할 수 있음을 나타내려면 다음 줄을 사용합니다.
+
+`stretch=70`
+
+`usewidths=true`
 
 ### 필터 및 사용자 지정 프롬프트 구문
 
@@ -355,20 +269,20 @@ valueformat=HTML
 * 필터 문의 개체를 참조하는 코드 줄입니다. 필터 개체에 카멜 대/소문자를 사용합니다.
 * 필터 개체 및 필터 개체의 값에 대한 수정자를 참조하는 코드 줄입니다. 이 줄의 필터 개체에 대해 카멜 표식을 사용하십시오.
 
-   >[!TIP]
-   >
-   >범위를 참조할 때 2개의 수정자 라인이 필요합니다.
+  >[!TIP]
+  >
+  >범위를 참조할 때 2개의 수정자 라인이 필요합니다.
 
 * 여러 필터 문을 연결하는 문 커넥터:
 
    * 및
 
-      필터 문 사이의 기본 커넥터입니다.
+     필터 문 사이의 기본 커넥터입니다.
 
    * 또는
 
-      >[!TIP]
-      >
-      >문 커넥터는 대소문자를 구분하며 항상 대문자입니다. 텍스트 모드에서 &quot;AND&quot;를 생략할 수 있습니다.
+     >[!TIP]
+     >
+     >문 커넥터는 대소문자를 구분하며 항상 대문자입니다. 텍스트 모드에서 &quot;AND&quot;를 생략할 수 있습니다.
 
 * 필터를 보다 동적으로 만들고 현재 시간 또는 로그인한 사용자에 대해 사용자 지정하는 와일드카드. 와일드카드에 대한 자세한 내용은 [와일드카드 필터 변수](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).

@@ -7,9 +7,9 @@ description: 여러 개별 열에 표시되는 정보를 병합하여 하나의 
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 976e8c7fe0362392928ac9cd6be1a9ba7c653dda
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '1023'
 ht-degree: 0%
 
 ---
@@ -54,16 +54,10 @@ ht-degree: 0%
 
 * 두 개의 인접한 열을 병합하고 각 열의 정보를 줄 바꿈으로 구분하여 표시할 수도 있고, 각 열의 정보 사이에 구분 기호가 없는 두 개의 인접한 열에 정보를 병합할 수도 있습니다.
 * 이 문서에 설명된 것과 동일한 구문을 이미 공유된 열과 인접한 열에 적용하여 두 개 이상의 열의 정보를 병합할 수 있습니다.
-* 해당
-
-   ```
-   valueformat=HTML
-   ```
-
-   라인은 공유 열에서 필수입니다. 그렇지 않으면 Adobe Workfront에서 보고서를 내보낼 때 열에 정보가 포함되지 않습니다(비어 있음).
+* 다음 `valueformat=HTML` 라인은 공유 열에서 필수입니다. 그렇지 않으면 Adobe Workfront에서 보고서를 내보낼 때 열에 정보가 포함되지 않습니다(비어 있음).
 * 병합된 열에서는 조건부 서식이 지원되지 않을 수 있습니다.
 
-   다음과 같은 예외가 있습니다.
+  다음과 같은 예외가 있습니다.
 
    * Workfront에서 정보를 볼 때 병합된 열을 구성하는 열의 서식이 서로 다른 경우 첫 번째 열의 서식은 유지되고 다른 모든 열의 서식은 무시됩니다.
    * 보기를 PDF 파일로 내보낼 때 조건부 서식이 병합된 열의 첫 번째 열에 적용됩니다.
@@ -73,80 +67,47 @@ ht-degree: 0%
 
 * 공유 열이 있는 목록을 Excel 또는 탭으로 구분된 형식으로 내보내면 내보낸 파일에서 해당 열이 구분됩니다.
 
+* 열 중 하나 또는 둘 다에 `tile` 형식 필드에서는 강제 줄 바꿈이 병합된 열에 자동으로 삽입됩니다. 예를 들어 서식이 지정된 텍스트 필드는 다음과 같습니다 `tile` 필드를 입력합니다. 이 경우 다음 줄 코드가 있습니다. `type=tile` 텍스트 모드에서 열을 볼 때
+
 ## 줄 바꿈 없이 두 열의 데이터 병합
 
 서로 다른 여러 열의 데이터를 병합하여 각 열의 값 사이에 나누거나 공백이 없이 한 열에 표시할 수 있습니다.
 
 >[!TIP]
 >
->동일한 레코드에 대한 값을 동시에 표시할 수 없는 두 열을 병합하는 경우에는 이 방법을 사용하는 것이 좋습니다. 예를 들어 작업 항목 보고서에서 [문제 이름] 열과 [작업 이름] 열은 줄 바꿈 없이 병합될 수 있습니다. 작업 항목에는 [문제 이름]과 [작업 이름]이 동시에 포함될 수 없기 때문입니다. 작업 항목은 Workfront의 문제 또는 작업일 수 있습니다.
+>동일한 레코드에 대한 값을 동시에 표시할 수 없는 두 열을 병합하는 경우에는 이 방법을 사용하는 것이 좋습니다. 예를 들어 작업 항목 보고서에서 [문제 이름] 열과 [작업 이름] 열은 줄 바꿈 없이 병합될 수 있습니다. 작업 항목에는 [문제 이름]과 [작업 이름]이 동시에 포함될 수 없기 때문입니다. 작업 항목은 Workfront의 문제 또는 작업일 수 있습니다.
 
 방법은 다음과 같습니다.
 
 1. 뷰에 텍스트 모드를 사용하여 병합할 첫 번째 열에 다음 텍스트를 추가합니다.
 
-   ```
-   sharecol=true
-   ```
+   `sharecol=true`
 
-   목록 또는 보고서의 처음 두 열을 병합할 때 첫 번째 열의 개체에 대한 정보가 들어 있는 각 텍스트 줄보다 Workfront이 우선합니다.
+   목록 또는 보고서의 처음 두 열을 병합할 때 첫 번째 열의 개체에 대한 정보가 들어 있는 각 텍스트 줄보다 Workfront이 우선합니다. `column.0.` 및 두 번째 열에 대한 정보가 들어 있는 텍스트 줄 `column.1.` .
 
-   ```
-   column.0.
-   ```
-
-   및 두 번째 열에 대한 정보가 들어 있는 텍스트 줄
-
-   ```
-   column.1.
-   ```
-
-   .\
-   첫 번째 열의 열 번호 앞에 해당 열의 번호를 붙여야 합니다. 열 계산은 항상 목록 또는 보고서의 맨 왼쪽 열에서 다음으로 시작합니다.
-
-   ```
-   column.0.
-   ```
-
-   .
+   첫 번째 열의 열 번호 앞에 해당 열의 번호를 붙여야 합니다. 열 계산은 항상 목록 또는 보고서의 맨 왼쪽 열에서 다음으로 시작합니다. `column.0.`.
 
    두 개 이상의 열을 공유하는 경우 각 열에 대한 공유 정보가 들어 있는 코드 행에 열 번호를 추가해야 합니다.
 
    **예:** 다음은 목록의 두 번째 열부터 시작하여 세 개의 별도 열이 포함된 병합된 열에 대한 텍스트 모드 코드입니다. 병합된 값은 프로젝트 이름, 계획된 시작 일자 및 프로젝트 소유자의 이름이며 세 값 사이에는 차이가 없습니다.
 
-   ```
-   column.1.valuefield=name
-   ```
+   `column.1.valuefield=name`
 
-   ```
-   column.1.valueformat=HTML
-   ```
+   `column.1.valueformat=HTML`
 
-   ```
-   column.1.sharecol=true
-   ```
+   `column.1.sharecol=true`
 
-   ```
-   column.2.valuefield=plannedStartDate
-   ```
+   `column.2.valuefield=plannedStartDate`
 
-   ```
-   column.2.valueformat=atDate
-   ```
+   `column.2.valueformat=atDate`
 
-   ```
-   column.2.sharecol=true
-   ```
+   `column.2.sharecol=true`
 
-   ```
-   column.3.valuefield=owner:name
-   ```
+   `column.3.valuefield=owner:name`
 
-   ```
-   column.3.valueformat=HTML
-   ```
+   `column.3.valueformat=HTML`
 
-   <pre><img src="assets/shared-column-no-line-breaks-350x142.png" style="width: 350;height: 142;"></pre>
+![](assets/shared-column-no-line-breaks-350x142.png)
 
 1. 클릭 **저장**, 그런 다음 **보기 저장**.
 
@@ -157,140 +118,74 @@ ht-degree: 0%
 1. 병합할 두 열 사이에 세 번째 열을 추가합니다.
 
    >[!TIP]
-   * 병합할 열은 서로 인접해야 합니다.
-   * 병합할 첫 번째 열을 클릭해야 합니다.
-
+   >
+   >* 병합할 열은 서로 인접해야 합니다.
+   >* 병합할 첫 번째 열을 클릭해야 합니다.
 
 1. 클릭 **텍스트 모드로 전환** 1단계에서 추가한 가운데 열에 다음 코드를 추가합니다.
 
-   ```
-   value=<br>
-   ```
+   `value=<br>`
 
-   ```
-   valueformat=HTML
-   ```
+   `valueformat=HTML`
 
-   ```
-   width=1
-   ```
+   `width=1`
 
-   ```
-   sharecol=true
-   ```
+   `sharecol=true`
+
 
 1. 첫 번째 열에 다음 텍스트를 추가합니다.
 
-   ```
-   sharecol=true
-   ```
+   `sharecol=true`
 
-   목록 또는 보고서의 처음 두 열을 병합할 때 첫 번째 열의 개체에 대한 정보가 들어 있는 각 텍스트 줄보다 Workfront이 우선합니다.
+   목록 또는 보고서의 처음 두 열을 병합할 때 첫 번째 열의 개체에 대한 정보가 들어 있는 각 텍스트 줄보다 Workfront이 우선합니다. `column.0.`, 공유 정보가 있는 열 `column.1.`및 로 구성된 두 번째 열에 대한 정보가 들어 있는 텍스트 줄 `column.2.`.
 
-   ```
-   column.0.
-   ```
-
-   , 공유 정보가 있는 열
-
-   ```
-   column.1.
-   ```
-
-   및 로 구성된 두 번째 열에 대한 정보가 들어 있는 텍스트 줄
-
-   ```
-   column.2.
-   ```
-
-   . 결합된 열이 뷰의 중간에 있으면 뷰의 위치에 따라 열의 번호가 매겨집니다. 열 계산은 항상 목록 또는 보고서의 맨 왼쪽 열에서 다음으로 시작합니다.
-
-   ```
-   column.0.
-   ```
-
-   .
+   결합된 열이 뷰의 중간에 있으면 뷰의 위치에 따라 열의 번호가 매겨집니다. 열 계산은 항상 목록 또는 보고서의 맨 왼쪽 열에서 다음으로 시작합니다. `column.0.`.
 
    두 개 이상의 열을 공유하는 경우 공유 정보가 들어 있는 코드 행에 열 번호를 추가해야 합니다.
 
    **예:** 다음은 프로젝트 이름, 계획된 시작 일자, 프로젝트 소유자 이름(줄 바꿈 포함)이 포함된 공유 열에 대한 텍스트 모드 코드입니다. 공유 열은 프로젝트 보기의 두 번째 열입니다.
 
-   ```
-   column.1.displayname=Project_StartDate_Owner
-   ```
 
-   ```
-   column.1.sharecol=true
-   ```
+   `column.1.displayname=Project_StartDate_Owner`
 
-   ```
-   column.1.textmode=true
-   ```
+   `column.1.sharecol=true`
 
-   ```
-   column.1.valuefield=name
-   ```
+   `column.1.textmode=true`
 
-   ```
-   column.1.valueformat=HTML
-   ```
+   `column.1.valuefield=name`
 
-   ```
-   column.2.value=<br>
-   ```
+   `column.1.valueformat=HTML`
 
-   ```
-   column.2.width=1
-   ```
+   `column.2.value=<br>`
 
-   ```
-   column.2.valueformat=HTML
-   ```
+   `column.2.width=1`
 
-   ```
-   column.2.sharecol=true
-   ```
+   `column.2.valueformat=HTML`
 
-   ```
-   column.3.valuefield=plannedStartDate
-   ```
+   `column.2.sharecol=true`
 
-   ```
-   column.3.valueformat=atDate
-   ```
+   `column.3.valuefield=plannedStartDate`
 
-   ```
-   column.3.sharecol=true
-   ```
+   `column.3.valueformat=atDate`
 
-   ```
-   column.4.value=<br>
-   ```
+   `column.3.sharecol=true`
 
-   ```
-   column.4.width=1
-   ```
+   `column.4.value=<br>`
 
-   ```
-   column.4.valueformat=HTML
-   ```
+   `column.4.width=1`
 
-   ```
-   column.4.sharecol=true
-   ```
+   `column.4.valueformat=HTML`
 
-   ```
-   column.5.textmode=true
-   ```
+   `column.4.sharecol=true`
 
-   ```
-   column.5.valuefield=owner:name
-   ```
+   `column.5.textmode=true`
 
-   ```
-   column.5.valueformat=HTML
-   ```
+   `column.5.valuefield=owner:name`
 
-   <pre><img src="assets/shared-column-with-line-breaks-350x199.png" style="width: 350;height: 199;"></pre>
+   `column.5.valueformat=HTML`
+
+
+   ![](assets/shared-column-with-line-breaks-350x199.png)
+
 
 1. 클릭 **저장**, 그런 다음 **보기 저장**.
