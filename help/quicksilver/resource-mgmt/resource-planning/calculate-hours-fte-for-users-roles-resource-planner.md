@@ -7,7 +7,7 @@ description: 리소스 플래너에서 사용자 및 역할에 대한 시간 및
 author: Alina
 feature: Resource Management
 exl-id: 10b0e507-658e-4d12-994a-e38da6111f5d
-source-git-commit: 243d177857e37e4ea406b112d667b946e7e7e8a8
+source-git-commit: de015496d4cb960b10368e4dfa0f7abec1b7d989
 workflow-type: tm+mt
 source-wordcount: '1379'
 ht-degree: 1%
@@ -115,7 +115,7 @@ Workfront 관리자는 설정의 리소스 관리 영역에서 다음 중 하나
 
 * 40시간의 시스템 기본 일정
 * 20시간의 사용자 일정
-* 사용자 FTE 0.75
+* 사용자 FTE 0.8
 
 | FTE 계산 방법(시스템 설정) | **사용자 일정 후 경과 시간** | **기본 일정의 시간** | **사용자 FTE 필드** | **리소스 플래너의 사용 가능한 시간** | **리소스 플래너에서 사용 가능한 FTE** |
 |---|---|---|---|---|---|
