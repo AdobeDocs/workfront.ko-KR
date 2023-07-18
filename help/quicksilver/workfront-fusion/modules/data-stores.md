@@ -8,9 +8,9 @@ description: 데이터베이스 또는 간단한 테이블과 유사한 데이�
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 259ffbbaeddeea64ea2e7f77db258472162c9d8d
 workflow-type: tm+mt
-source-wordcount: '1224'
+source-wordcount: '1253'
 ht-degree: 1%
 
 ---
@@ -111,7 +111,7 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td> <p>[!UICONTROL 데이터 저장소 크기(MB)]</p> </td> 
-      <td> <p>전체 내부 데이터 저장소에서 데이터 저장소의 크기를 할당합니다.</p> <p>참고: 예약된 금액은 언제든지 변경할 수 있습니다.</p>  </td> 
+      <td> <p>전체 내부 데이터 저장소에서 데이터 저장소의 크기를 할당합니다.</p> <p> 기본값은 10MB입니다. 500MB 할당에서 할당되지 않은 데이터 저장소 공간이 10MB 미만이면 기본 크기는 할당되지 않은 저장소의 양입니다.  <p>참고: 예약된 금액은 언제든지 변경할 수 있습니다.</p>  </td> 
      </tr> 
     </tbody> 
    </table>
