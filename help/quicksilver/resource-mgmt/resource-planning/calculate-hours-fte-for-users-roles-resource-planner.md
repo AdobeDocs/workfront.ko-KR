@@ -7,7 +7,7 @@ description: 리소스 플래너에서 사용자 및 역할에 대한 시간 및
 author: Alina
 feature: Resource Management
 exl-id: 10b0e507-658e-4d12-994a-e38da6111f5d
-source-git-commit: 3aad2a3d9ad32313cb14670965bc3ad05ab215d3
+source-git-commit: 243d177857e37e4ea406b112d667b946e7e7e8a8
 workflow-type: tm+mt
 source-wordcount: '1379'
 ht-degree: 1%
@@ -68,21 +68,22 @@ Workfront 관리자는 설정의 리소스 관리 영역에서 다음 중 하나
      기본 스케줄을 포함하여 스케줄에 대한 자세한 내용은 [일정 만들기](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
    * 다음 **사용 가능한 FTE** 리소스 플래너의 사용자에 대한 은 사용자 설정에 지정된 사용자 FTE와 동일합니다.
-예를 들어 사용자 설정에서 사용자 FTE가 0.5이면 리소스 플래너에서 사용자의 사용 가능한 FTE는 0.5입니다. 사용자 설정에 표시되는 사용자 FTE의 값에 대한 자세한 내용은 [사용자 프로필 편집](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+
+     예를 들어 사용자 설정에서 사용자 FTE가 0.5이면 리소스 플래너에서 사용자의 사용 가능한 FTE는 0.5입니다. 사용자 설정에 표시되는 사용자 FTE의 값에 대한 자세한 내용은 [사용자 프로필 편집](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * **사용자의 일정**: 사용자 일정은 리소스 플래너에서 사용자의 가용성을 확인하는 데 사용됩니다. 사용자 FTE의 값은 무시됩니다. 이 경우:
 
    * 다음 **사용 가능한 시간** 리소스 플래너의 시간은 사용자 예약의 시간과 동일합니다.
 
-  예를 들어 사용자의 스케줄에 주 40시간을 작업에 사용할 수 있는 경우 사용자는 리소스 플래너에서 주 40시간 동안 작업할 수 있습니다.
+     예를 들어 사용자의 스케줄에 주 40시간을 작업에 사용할 수 있는 경우 사용자는 리소스 플래너에서 주 40시간 동안 작업할 수 있습니다.
 
    * 다음 **사용 가능한 FTE** 리소스 플래너에서 계산되는 공식은 다음과 같습니다.
 
-  `User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours`
+     `User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours`
 
-  예를 들어 사용자의 일정에 20시간을 사용할 수 있고 Workfront의 기본 일정에 40시간을 사용할 수 있는 경우 사용자의 FTE는 0.5입니다.
+     예를 들어 사용자의 일정에 20시간을 사용할 수 있고 Workfront의 기본 일정에 40시간을 사용할 수 있는 경우 사용자의 FTE는 0.5입니다.
 
-  기본 스케줄을 포함하여 스케줄에 대한 자세한 내용은 [일정 만들기](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+     기본 스케줄을 포함하여 스케줄에 대한 자세한 내용은 [일정 만들기](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 >[!NOTE]
 >
