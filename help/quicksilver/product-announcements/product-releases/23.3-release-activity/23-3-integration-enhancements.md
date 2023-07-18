@@ -3,9 +3,9 @@ title: 23.3 통합 개선 사항
 description: 23.3 통합 개선 사항
 author: Lisa
 feature: Product Announcements
-source-git-commit: d8420930738102e64fbab2eecf91f2eb4429cb0e
+source-git-commit: 75e035bcdf75501e34fd9de57dd6eab85d9e5542
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '732'
 ht-degree: 0%
 
 ---
@@ -50,13 +50,17 @@ Creative Cloud 플러그인용 Workfront 설치에 대한 자세한 내용은 [C
 
 Creative Cloud 플러그인용 Workfront 설치에 대한 자세한 내용은 [Creative Cloud 애플리케이션용 Adobe Workfront 플러그인 설치](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md).
 
-## 끌어서 놓기로 문서를 연결된 폴더로 이동할 때 경험이 개선되었습니다.
+<!--
 
-문서를 연결된 폴더로 드래그 앤 드롭하는 과정에 투명도를 추가했습니다. 이제 연결된 폴더로 이동한 문서는 완전히 이동될 때까지 문서 목록에 유지됩니다. 문서 옵션은 비활성화되어 있지만 문서를 이동하는 동안 볼 수 있도록 열 수 있습니다. 문서 전송이 완료되면 문서가 연결된 폴더에 완전히 위치하므로 문서 목록에서 사라집니다.
+## Improved experience when moving a document to a linked folder with drag and drop
 
-이전에는 연결된 폴더로 이동하기 전에 문서가 문서 목록에서 즉시 사라졌습니다.
+We've added some transparency to the process of dragging and dropping a document into a linked folder. Now, the document that you moved to a linked folder remains in the document list until it has fully moved. The document options are disabled, but you can still open the document for view while it is moving. When the document has completed the transfer, it disappears from the document list, because it is now fully located in the linked folder.
 
-자세한 내용은 [외부 애플리케이션에서 문서 연결](/help/quicksilver/documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Previously, documents would immediately disappear from the document list, before they had finished moving to the linked folder.
+
+For more information, see [Link documents from external applications](/help/quicksilver/documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+
+-->
 
 ## 프로젝트를 만들 때 Adobe Experience Manager Assets에 연결된 폴더를 자동으로 만듭니다.
 
