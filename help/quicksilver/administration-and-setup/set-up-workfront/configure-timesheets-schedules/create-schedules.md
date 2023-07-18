@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f7347ba6-68bf-45d8-b5d2-6136f3e696c9
-source-git-commit: 9f7f8a50bb805b1d6845df79ecffaa329d5abc26
+source-git-commit: 3aad2a3d9ad32313cb14670965bc3ad05ab215d3
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '834'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,8 @@ Linked to Editing Users, Editing Projects, Creating and managing groups
 그룹 관리자는 자신이 관리하는 그룹과 관련된 일정을 만들 수도 있습니다. 자세한 내용은 [그룹의 일정 만들기 및 수정](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-schedules.md).
 
 사용자가에서 공동 작업을 지원하는 데 일정을 사용하는 방법에 대한 자세한 정보 [!DNL Workfront] 시간대에서 다음을 참조하십시오. [시간대 간 작업](../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md).
+
+리소스 계획에 스케줄을 사용하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [일정 개요](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md) 및 [리소스 플래너 개요](/help/quicksilver/resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ## 액세스 요구 사항
 
