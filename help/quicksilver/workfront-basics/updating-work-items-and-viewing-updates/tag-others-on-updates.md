@@ -6,9 +6,9 @@ description: Adobe Workfront 개체에 업데이트 설명을 제공하면 프�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '1571'
+source-wordcount: '1550'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 <!--take "Beta" references out when we remove the beta-->
 
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리보기 환경에서만 사용할 수 있습니다.
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.-->
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 0%
 >새 댓글 달기 환경에 대한 자세한 내용은 [새 댓글 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >다음 객체에 대한 새 경험에 액세스할 수 있습니다.
-> * 문제, <span class="preview" style="display-inline">프로젝트, 작업 및 문서</span>.
+> * 문제, 프로젝트, 작업 및 문서.
 >
 >     댓글 달기 Beta 경험을 활성화하면 사용할 수 있습니다.
 >
@@ -138,16 +138,16 @@ Workfront 개체에 업데이트를 추가하는 방법에 대한 자세한 내�
 
 다음과 같은 방법으로 새 댓글 달기 환경의 업데이트에 다른 사용자에게 태그를 지정할 수 있습니다.
 
-* <span class="preview"> **자동**: 사용자가 댓글 또는 답글을 추가하면 자동으로 태그가 지정되고 댓글 달기 상자의 사람 또는 팀 태그 영역에 추가됩니다. </span>
+* **자동**: 사용자가 댓글 또는 답글을 추가하면 자동으로 태그가 지정되고 댓글 달기 상자의 사람 또는 팀 태그 영역에 추가됩니다.
 * **수동**: 댓글 달기 상자의 인물 태그 영역에 사용자를 수동으로 추가하는 경우.
 
 댓글을 편집하거나 답글을 달 때 실수로 태그가 지정된 사용자를 제거할 수도 있습니다.
 
-1. 에 설명된 대로 작업 항목 업데이트를 시작합니다. [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). <span class="preview">댓글 소유자는 자동으로 태그를 지정하고 댓글 달기 상자의 사람 또는 팀 태그 영역에 추가됩니다. </span>
+1. 에 설명된 대로 작업 항목 업데이트를 시작합니다. [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 댓글 소유자는 자동으로 태그를 지정하고 댓글 달기 상자의 사람 또는 팀 태그 영역에 추가됩니다.
 
    >[!TIP]
    >
-   ><span class="preview">댓글 소유자는 댓글 상자의 태그 사용자 또는 팀 영역에서 자신의 이름을 볼 수 없습니다.</span>
+   >댓글 소유자는 댓글 상자의 태그 사용자 또는 팀 영역에서 자신의 이름을 볼 수 없습니다.
 
 1. 다음에서 **사람 또는 팀에 태그 지정** 필드에 포함할 사용자 또는 팀의 이름을 입력한 다음 드롭다운 목록에 나타나면 이름을 클릭합니다.
 

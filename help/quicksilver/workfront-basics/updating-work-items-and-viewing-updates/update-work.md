@@ -6,9 +6,9 @@ description: Adobe Workfront 개체(프로젝트, 작업 또는 문제)에 업�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '3497'
+source-wordcount: '3471'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객은 미리보기 환경에서만 사용할 수 있습니다.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>-->
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ ht-degree: 1%
 >새 댓글 달기 환경에 대한 자세한 내용은 [새 댓글 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >다음 객체에 대한 새 경험에 액세스할 수 있습니다.
-> * 문제, <span class="preview">프로젝트, 작업 및 문서</span>.
+> * 문제, 프로젝트, 작업 및 문서.
 >
 >     댓글 달기 Beta 경험을 활성화하면 사용할 수 있습니다.
 >
@@ -38,7 +38,7 @@ ht-degree: 1%
 >
 > * 보드 영역의 목표, 카드
 >
->   새로운 댓글 달기 경험은 목표 및 카드에 대한 유일한 경험입니다. Workfront 목표에 액세스하려면 추가 라이선스가 있어야 합니다. 자세한 내용은 [Workfront 목표를 사용하기 위한 요구 사항](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   새로운 댓글 달기 경험은 목표 및 카드에 대한 유일한 경험입니다. Workfront 목표에 액세스하려면 추가 라이선스가 있어야 합니다. 자세한 내용은 [Workfront 목표 사용 요구 사항](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
 >     카드에서 주석 및 시스템 활동 섹션을 활성화하면 보드 영역에서 카드에 대한 업데이트를 추가하고 볼 수 있습니다. 자세한 내용은 [보드에 애드혹 카드 추가](../../agile/get-started-with-boards/add-card-to-board.md).
 
@@ -53,7 +53,7 @@ ht-degree: 1%
 
   >[!TIP]
   >
-  >   <span class="preview">새 댓글 달기 경험에서 댓글 소유자는 자동으로 태그 지정됩니다. 자세한 내용은 [업데이트에 다른 사용자 태그 지정](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).</span>
+  >   새 댓글 달기 경험에서 댓글 소유자는 자동으로 태그 지정됩니다. 자세한 내용은 [업데이트에 다른 사용자 태그 지정](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
   <!--take the "in the new commenting experience" out when this is the only experience-->
 
 * 볼 수 있는 오브젝트에 댓글을 추가하거나 Workfront 또는 그룹 관리자로 로그인하고 다른 사용자를 대신하여 댓글을 추가할 수 있습니다. 자세한 내용은 [다른 사용자로 로그인](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
@@ -69,7 +69,7 @@ ht-degree: 1%
 
 목표에 대한 댓글에 대한 자세한 내용은 을 참조하십시오. [Adobe Workfront 목표의 목표 주석 관리](../../workfront-goals/goal-management/manage-goal-comments.md). Workfront 목표에 액세스하려면 추가 라이선스가 있어야 합니다.
 
-보드 영역의 카드에 대한 설명은 를 참조하십시오. [보드에 애드혹 카드 추가](../../agile/get-started-with-boards/add-card-to-board.md).
+보드 영역의 카드에 댓글을 다는 방법에 대한 자세한 내용은 [보드에 애드혹 카드 추가](../../agile/get-started-with-boards/add-card-to-board.md).
 
 ## 액세스 요구 사항
 
@@ -174,7 +174,7 @@ drafted for P&P release:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>상태</strong></td> 
-      <td>현재 상태 옆의 화살표를 클릭한 다음, 드롭다운 메뉴에서 원하는 상태를 선택합니다. 상태 설정에 대한 자세한 내용은 <a href="../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">작업 상태 업데이트</a>.<p>작업 항목의 상태를 업데이트해도 프로젝트의 상태가 자동으로 변경되지 않습니다. 프로젝트 설정 방법에 따라 프로젝트 상태를 별도로 업데이트해야 할 수 있습니다. 다양한 프로젝트 업데이트 유형에 대한 자세한 내용은 을 참조하십시오. <a href="../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">프로젝트 업데이트 유형 선택 </a>.</p><p><b>메모</b>
+      <td>현재 상태 옆의 화살표를 클릭한 다음, 드롭다운 메뉴에서 원하는 상태를 선택합니다. 상태 설정에 대한 자세한 내용은 <a href="../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">작업 상태 업데이트</a>.<p>작업 항목의 상태를 업데이트해도 프로젝트의 상태가 자동으로 변경되지 않습니다. 프로젝트 설정 방법에 따라 프로젝트 상태를 별도로 업데이트할 수 있습니다. 다양한 프로젝트 업데이트 유형에 대한 자세한 내용은 을 참조하십시오. <a href="../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">프로젝트 업데이트 유형 선택 </a>.</p><p><b>메모</b>
 
    작업 항목이 승인 보류 중 상태인 동안에는 상태를 변경할 수 없습니다.</p></td>
    </tr> 
@@ -212,7 +212,7 @@ drafted for P&P release:
 다음 **댓글** 기본적으로 탭이 선택되어 있습니다.
 1. 에 주석 입력 시작 **새 댓글** 상자.
 
-   <span class="preview">![](assets/comment-box-empty-unshimmed.png)</span>
+   ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
    >
@@ -325,7 +325,7 @@ drafted for P&P release:
    >
    >* Workfront은 :)와 같은 구두점 이모티콘을 이모티콘으로 대체하지 않습니다.
    >* 타임시트 영역에서 수행한 업데이트 또는 보고서에서 본 메모 및 마지막 조건 개체에 대해 이모지를 사용할 수 없습니다.
-   >* Workfront의 이모지 기능은 유니코드 문자를 사용하며, 따라서 유니코드 코드 포인트를 지원하는 브라우저와 운영 체제에만 표시됩니다. 사용자의 버전과 다른 플랫폼, 브라우저 또는 운영 체제 버전의 사용자는 동일한 이모지에 액세스할 수 없습니다.
+   >* Workfront의 이모지 기능은 유니코드 문자를 사용하며, 따라서 유니코드 코드 포인트를 지원하는 브라우저와 운영 체제에만 표시됩니다. 사용자의 것과 다른 플랫폼, 브라우저 또는 운영 체제 버전의 사용자는 동일한 이모지에 액세스하지 못할 수 있습니다.
    >* 지원되지 않는 이모지는 검은색 또는 흰색 상자로 표시됩니다.
    >* Windows 7에서는 흑백 이모티콘만 지원합니다.
    >* 이메일을 통해 수행한 업데이트에 적용되는 이모지는 업데이트 영역에서 볼 때 업데이트에 표시되지 않습니다.
@@ -462,7 +462,7 @@ Workfront 사용자(Workfront 관리자 포함)는 다른 사용자가 업데이
 
    ![timesheet_update_stream.png](assets/timesheet-update-stream-350x50.png)
 
-1. (조건부) 승인을 위해 타임시트를 제출하지 않고 업데이트를 저장하려면 **나중에 저장**.
+1. (조건부) 승인을 위해 타임시트를 제출하지 않고 업데이트를 저장하려면 을 클릭합니다. **나중에 저장**.
 
    또는
 
@@ -478,7 +478,7 @@ Workfront 사용자(Workfront 관리자 포함)는 다른 사용자가 업데이
 
 >[!NOTE]
 >
->Beta 주석 달기 환경을 사용할 때는 시스템 업데이트를 비활성화할 수 없습니다.
+>새 댓글 달기 환경을 사용할 때 시스템 업데이트를 비활성화할 수 없습니다.
 >이 섹션의 정보는 현재 업데이트 섹션에서 사용할 수 있는 기능에만 적용됩니다.
 >Beta 버전의 시스템 업데이트에 대한 자세한 내용은 [업데이트 섹션 개요](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 

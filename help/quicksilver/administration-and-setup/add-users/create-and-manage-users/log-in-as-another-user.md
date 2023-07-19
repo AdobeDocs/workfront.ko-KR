@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 82f42d81970c7572f43519423ec3a8c0889aaff4
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '871'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,8 @@ ht-degree: 0%
 # 다른 사용자로 로그인
 
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 이 기능은 미리보기 환경에서만 모든 사용자가 사용할 수 있습니다.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all users only in the Preview environment.</span> -->
+
 <!--
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. Also linked to other articles: Creating and Managing Groups, etc.</p>
 -->
@@ -147,11 +148,13 @@ Workfront은 관리자가 다른 사용자로 로그인하는 동안 발생하�
 
 예를 들어 다른 사용자로 로그인된 상태에서 항목에 댓글을 다는 경우, 문은 사용자가 해당 댓글을 대신 작성했음을 나타냅니다.
 
+<!--you might need to reword this note when we go to a global way for the update stream; or refer to areas where this is possible as something else than "New commenting" - not sure if this will affect areas that stay old, like iterations???-->
+
 >[!NOTE]
 >
-><span class="preview">새 댓글 달기 경험을 사용할 때 댓글은 다른 사용자로 로그인한 사용자로 추가되며 다른 사용자를 대신하여 댓글을 추가한다는 표시가 없습니다.
+>새 댓글 달기 경험을 사용할 때 댓글은 다른 사용자로 로그인한 사용자로 추가되며 다른 사용자를 대신하여 댓글을 추가한다는 표시가 없습니다.
 >
->예를 들어 Workfront 관리자가 다른 사용자로 로그인하는 경우 댓글과 연관된 사용자는 Workfront 관리자입니다. 자세한 내용은 [새 댓글 달기 환경](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). </span>
+>예를 들어 Workfront 관리자가 다른 사용자로 로그인하는 경우 댓글과 연관된 사용자는 Workfront 관리자입니다. 자세한 내용은 [새 댓글 달기 환경](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 
 ### 감사 정보 보기 {#view-audit-information}

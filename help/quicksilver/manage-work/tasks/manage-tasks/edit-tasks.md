@@ -6,9 +6,9 @@ description: 직접 만들었거나 Contribute 또는 Manage 권한이 있는 �
 author: Alina
 feature: Work Management
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '3663'
+source-wordcount: '3711'
 ht-degree: 4%
 
 ---
@@ -356,7 +356,7 @@ ht-degree: 4%
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader">발생 횟수 당 기간</td> 
-      <td> <p>자동연장 작업의 상위 항목에만 표시됩니다. 각 반복 작업의 기간을 표시합니다. 반복 작업 만들기에 대한 자세한 내용은 <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">반복 작업 만들기</a>. </p> <p> <b>메모</b>
+      <td> <p>자동연장 작업의 상위 항목에만 표시됩니다. 작업을 만들 때 정의된 대로 각 반복 작업의 기간이 표시됩니다. 반복 작업 만들기에 대한 자세한 내용은 <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">반복 작업 만들기</a>. </p> <p> <b>메모</b>
 
    개별 반복 작업에서 수정된 기간은 이 필드에 표시된 값을 표시하지 않습니다. </p> </td>
    </tr> 
@@ -437,7 +437,13 @@ ht-degree: 4%
    </tr> 
    <tr> 
    <td role="rowheader">계획된 시간</td> 
-   <td> <p>작업에 대한 계획된 시간(시간)을 지정합니다. 작업의 할당자가 작업을 완료하는 데 걸리는 실제 시간입니다. [기간 유형]이 [계산된 할당]으로 설정된 경우에만 작업에 대한 계획된 시간을 지정할 수 있습니다. 기간 유형에 대한 자세한 내용은 <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">작업 기간 및 기간 유형 개요</a>.</p> </td> 
+   <td> <p>작업에 대한 계획된 시간(시간)을 지정합니다. 작업의 할당자가 작업을 완료하는 데 걸리는 실제 시간입니다. [기간 유형]이 [계산된 할당]으로 설정된 경우에만 작업에 대한 계획된 시간을 지정할 수 있습니다. 기간 유형에 대한 자세한 내용은 <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">작업 기간 및 기간 유형 개요</a>.</p> 
+   <b>메모</b>
+   <p>
+   반복 작업을 만들 때 계획된 시간은 각 발생에 해당하는 시간입니다. 상위 작업의 계획된 시간은 모든 발생 항목에서 모든 계획된 시간의 합계입니다. 반복 작업 만들기에 대한 자세한 내용은 <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">반복 작업 만들기</a>.
+   </p>
+
+   </td> 
    </tr> 
    <tr> 
    <td role="rowheader">할당</td> 

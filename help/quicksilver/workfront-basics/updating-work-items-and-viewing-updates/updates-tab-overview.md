@@ -7,10 +7,10 @@ description: 객체의 업데이트 섹션에는 사용자가 객체에 대해 �
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 38f46324219f297523ff262b083f41a2dd388579
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '1141'
-ht-degree: 3%
+source-wordcount: '1116'
+ht-degree: 4%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객은 미리보기 환경에서만 사용할 수 있습니다.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>-->
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 3%
 >새 댓글 달기 환경에 대한 자세한 내용은 [새 댓글 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >다음 객체에 대한 새 경험에 액세스할 수 있습니다.
-> * 문제, <span class="preview">프로젝트, 작업 및 문서</span>.
+> * 문제, 프로젝트, 작업 및 문서.
 >
 >     댓글 달기 Beta 경험을 활성화하면 사용할 수 있습니다.
 >
@@ -115,13 +115,13 @@ ht-degree: 3%
      <li>보드 영역의 카드*</li>
       목표 및 카드에 대한 유일한 경험입니다.
      </li> 
-     <li><span class="preview">프로젝트</span></li>
+     <li>프로젝트</li>
     </ul> </td> 
    <td> 
     <ul> 
      <li>문제</li> 
-     <li><span class="preview">작업</span></li>
-     <li><span class="preview">문서</span></li>
+     <li>작업</li>
+     <li>문서</li>
      </ul> </td> 
   </tr> 
  </tbody> 
@@ -137,11 +137,11 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->새 댓글 달기 Beta 경험을 활성화하면 다음 상위 객체에 댓글이 표시됩니다.
+>새 댓글 달기 경험을 활성화하면 다음과 같은 상위 오브젝트에 댓글이 표시됩니다.
 >
 >* 문제
->* <span class="preview">프로젝트</span>
->* <span class="preview">작업</span>
+>* 프로젝트
+>* 작업
 >
 >자세한 내용은 [새 댓글 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
@@ -238,11 +238,13 @@ Adobe Workfront 관리자 및 그룹 관리자는 다른 사용자로 로그인�
 
 다른 사용자를 대신하여 작성한 모든 주석은 주석에 표시됩니다.
 
+<!--might need to update this note when the new commenting experience will be the only experience; also - how will this affect the areas that will keep the old experience, like Iterations?-->
+
 >[!NOTE]
 >
-><span class="preview">새 댓글 달기 경험을 사용할 때 댓글은 다른 사용자로 로그인한 사용자로 추가되며 다른 사용자를 대신하여 댓글을 추가한다는 표시가 없습니다.
+>새 댓글 달기 경험을 사용할 때 댓글은 다른 사용자로 로그인한 사용자로 추가되며 다른 사용자를 대신하여 댓글을 추가한다는 표시가 없습니다.
 >
->예를 들어 Workfront 관리자가 다른 사용자로 로그인하는 경우 댓글과 연관된 사용자는 Workfront 관리자입니다. 자세한 내용은 [새 댓글 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). </span>
+>예를 들어 Workfront 관리자가 다른 사용자로 로그인하는 경우 댓글과 연관된 사용자는 Workfront 관리자입니다. 자세한 내용은 [새 댓글 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 
 그룹 관리자는 다른 사용자를 대신하여 댓글을 달 수 있지만 해당 댓글을 삭제할 수는 없습니다. Adobe Workfront 관리자만 다른 사용자를 대신하여 작성한 댓글을 삭제할 수 있습니다.

@@ -6,9 +6,9 @@ description: 작업 항목에 대한 시간을 Adobe Workfront(&n)에 기록하�
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 4116cd1610cc5b8de0407a96a4bc67532d78a25e
+source-git-commit: 38a7329ebac4051439601ddd8ad2a89ee24c7971
 workflow-type: tm+mt
-source-wordcount: '3336'
+source-wordcount: '3337'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!--remove all preview and production references from this article with 23.3 release-->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리보기 환경에서만 사용할 수 있습니다.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 Adobe Workfront에서 작업 항목에 대한 시간을 기록하여 작업에 소비한 시간을 나타낼 수 있습니다. 휴가, 병가, 회의 등 업무와 관련 없는 시간도 기록할 수 있다. 기록한 시간이 타임시트에 표시됩니다.
 
@@ -361,13 +361,13 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
 
 #### 업데이트 섹션{#updates-section}
 
-<!--remove the note below when we can log time for projects and tasks in production with the 23.3 release. Also, update the screen shot for the Enter Hours box-->
+<!--remove the note below when the -->
 
 >[!NOTE]
 >
-> 문제에 대한 시간을 기록할 수 있습니다. <span class="preview">프로젝트 및 작업</span> 업데이트 섹션에서 새 댓글 달기 Beta 경험을 활성화할 때.
+> 현재 업데이트 섹션과 새 업데이트 섹션 사이에는 사용자 인터페이스의 모양과 느낌에 약간의 차이가 있습니다. 이 섹션의 정보는 새 댓글 달기 경험에 표시되는 기능을 참조합니다.
 >
->자세한 내용은 [새 댓글 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>새 업데이트 섹션에 대한 자세한 내용은 [새 댓글 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 프로젝트, 작업 또는 문제의 업데이트 섹션에 시간을 기록하려면 다음 항목이 있어야 합니다.
 
@@ -383,9 +383,9 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
 
 1. 프로젝트, 작업 또는 문제로 이동합니다.
 1. 왼쪽 패널에서 을 선택합니다 **업데이트**.
-1. 클릭 **로그 시간**.
+1. 클릭 **로그 시간**. <!-- did Anna B change the casing for this button? If yes and if she changed it for the other areas, update screen shot too-->
 
-   <span class="preview">로그 시간 대화 상자가 표시됩니다. </span>
+   로그 시간 대화 상자가 표시됩니다.
 
    >[!TIP]
    >
@@ -393,7 +393,7 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
    >   
    >   일 입력 상자의 오른쪽 상단 모서리에는 하루에 몇 시간이 포함되는지 표시됩니다.
 
-   <span class="preview">![](assets/log-time-box-in-updates-stream.png)</span>
+   ![](assets/log-time-box-in-updates-stream.png)
 
 1. 다음 정보를 지정합니다.
 

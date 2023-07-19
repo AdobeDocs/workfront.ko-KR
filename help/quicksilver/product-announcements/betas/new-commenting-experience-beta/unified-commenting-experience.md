@@ -7,16 +7,16 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: ba1450e247bd47b775f3171e722bd4e70773b98e
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '689'
 ht-degree: 1%
 
 ---
 
 # 새 댓글 달기 환경
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객은 미리보기 환경에서만 사용할 수 있습니다.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>-->
 
 Adobe Workfront의 댓글 달기 환경에 대한 업데이트가 현재 개발 중입니다. 이 업데이트에는 선택한 객체의 업데이트 섹션에 새로운 인터페이스, 새로운 기능 및 향상된 성능이 포함되어 있습니다.
 
@@ -74,9 +74,9 @@ For additional resources for the new commenting experience, also see the followi
 >
 >현재 경험의 업데이트 섹션을 볼 때 2022년 6월 이전에 이러한 오브젝트에 대한 주석 및 시스템 업데이트를 볼 수 있습니다.
 >* 문제
->* <span class="preview">프로젝트</span>
->* <span class="preview">작업</span>
->* <span class="preview">문서</span>
+>* 프로젝트
+>* 작업
+>* 문서
 
 다음 표는 새 댓글 달기 환경에서 사용할 수 있는 기능과 지원되는 영역에서 사용할 수 있는 기능을 보여 줍니다.
 
@@ -159,7 +159,7 @@ For additional resources for the new commenting experience, also see the followi
    </td>
    <td>✓ 
    </td>
-   <td> <span class="preview">✓</span>
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -215,7 +215,7 @@ For additional resources for the new commenting experience, also see the followi
    </td>
    <td> 
    </td>
-   <td><span class="preview">✓</span>
+   <td>✓
    </td>
    <td> 
    </td>
@@ -231,7 +231,7 @@ For additional resources for the new commenting experience, also see the followi
    </td>
    <td> 
    </td>
-   <td><span class="preview">✓</span>
+   <td>✓
    </td>
    <td> 
    </td>
@@ -330,7 +330,7 @@ For additional resources for the new commenting experience, also see the followi
    </td>
    <td>✓ 
    </td>
-   <td><span class="preview">✓</span>
+   <td>✓
    </td>
    <td> 
    </td>
@@ -372,7 +372,7 @@ For additional resources for the new commenting experience, also see the followi
    </td>
    <td>✓ 
    </td>
-   <td><span class="preview">✓</span> 
+   <td>✓
    </td>
    <td> 
    </td>
@@ -491,7 +491,7 @@ For additional resources for the new commenting experience, also see the followi
 
 * 업데이트 섹션에서 Beta 경험을 활성화할 때:
 
-   * 문제, <span class="preview">프로젝트, 작업 및 문서</span>
+   * 문제, 프로젝트, 작업 및 문서
 
   Workfront 개체의 업데이트 관리에 대한 자세한 내용은 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
