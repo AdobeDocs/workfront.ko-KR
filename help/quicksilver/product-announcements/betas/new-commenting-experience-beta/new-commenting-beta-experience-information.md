@@ -5,8 +5,9 @@ title: 새로운 댓글 달기 Beta 경험에 대한 정보
 description: 현재 대부분의 Adobe Workfront 오브젝트의 업데이트 섹션에서 새로운 댓글 달기 경험을 릴리스하고 있습니다. 다음 문서에서는 현재 새 경험에서 사용할 수 있는 기능을 설명합니다.
 author: Alina
 feature: Product Announcements
+role: User, Admin
 exl-id: 5909b09d-626e-4294-9048-6db940f45e37
-source-git-commit: 976e8c7fe0362392928ac9cd6be1a9ba7c653dda
+source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
 workflow-type: tm+mt
 source-wordcount: '82'
 ht-degree: 0%

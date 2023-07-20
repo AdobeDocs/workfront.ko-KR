@@ -4,9 +4,10 @@ navigation-topic: create-tasks
 title: 반복 작업 만들기
 description: 단일 프로젝트의 일부로 반복해야 하는 작업에 대해 반복 작업을 만들 수 있습니다.
 author: Alina
-feature: Work Management
+feature: Work Management, Tasks
+role: User
 exl-id: dbde5419-02ce-456b-a430-b2825d81fb87
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 1%
@@ -66,7 +67,7 @@ ht-degree: 1%
 
    >[!TIP]
    >
-   >   새 반복 작업에 표시된 기간 및 계획된 시간은 각 반복의 기간 및 계획된 시간입니다. 상위 작업의 기간은 가장 빠른 작업의 계획된 시작 일자와 가장 최근 작업의 계획된 완료 일자 사이의 시간입니다. 상위 작업의 계획된 시간은 모든 반복에서 모든 계획된 시간의 합계입니다.
+   >   새 반복 작업에 표시된 기간 및 계획된 시간은 각 발생의 기간 및 계획된 시간입니다. 상위 작업의 기간은 가장 빠른 작업의 계획된 시작 일자와 가장 최근 작업의 계획된 완료 일자 사이의 시간입니다. 상위 작업의 계획된 시간은 모든 발생 항목에서 모든 계획된 시간의 합계입니다.
 
 1. 클릭 **개요** 왼쪽 패널에서
 1. 아래로 스크롤하여 **자동연장 일정** 섹션을 선택한 다음 **자동연장 작업으로 만들기** 옵션을 선택합니다.

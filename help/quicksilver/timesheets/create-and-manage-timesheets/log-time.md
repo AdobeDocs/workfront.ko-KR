@@ -5,8 +5,9 @@ title: 로그 시간
 description: 작업 항목에 대한 시간을 Adobe Workfront(&n)에 기록하여 작업에 소비한 시간을 나타낼 수 있습니다. 휴가, 병가, 회의 등 업무와 관련 없는 시간도 기록할 수 있다. 기록한 시간이 타임시트에 표시됩니다.
 author: Alina
 feature: Timesheets
+role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 38a7329ebac4051439601ddd8ad2a89ee24c7971
+source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
 workflow-type: tm+mt
 source-wordcount: '3337'
 ht-degree: 0%

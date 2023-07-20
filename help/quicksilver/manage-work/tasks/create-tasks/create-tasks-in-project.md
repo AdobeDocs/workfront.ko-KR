@@ -4,9 +4,10 @@ navigation-topic: create-tasks
 title: 프로젝트에서 작업 만들기
 description: 프로젝트를 만든 후에만 프로젝트에서 작업을 만들 수 있습니다.
 author: Alina
-feature: Work Management
+feature: Work Management, Tasks
+role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: af6e906035073cde4782b73bdab39b02026cb20a
+source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 1%
