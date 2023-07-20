@@ -6,9 +6,9 @@ description: 작업 목록 간트 차트는 프로젝트 또는 템플릿에 있
 author: Alina
 feature: Work Management
 exl-id: 0a8e6fd5-985c-49e5-842d-67ade29ee1c9
-source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
+source-git-commit: e2f6eada24b4e48bce58189ec16447eda89f4a09
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1036'
 ht-degree: 1%
 
 ---
@@ -99,7 +99,7 @@ ht-degree: 1%
 
    다음 **[!UICONTROL 자동 저장]** 기본적으로 옵션이 선택되어 있으며, 이 경우 모든 변경 사항이 자동으로 저장됩니다.
 
-   ![](assets/qs-gantt-icon-on-task-list-highlighted-350x199.png)
+   ![간트 차트 아이콘 클릭](assets/click-gantt-chart-icon.png)
 
 1. (선택 사항) **[!UICONTROL 플랜 모드]** 아이콘 및 선택 **[!UICONTROL 수동 저장 Standard]** 또는 **[!UICONTROL 타임라인 계획 수립]** 변경 사항을 수동으로 저장합니다.
 
@@ -131,7 +131,7 @@ ht-degree: 1%
 
    다음 경우에 모든 변경 사항이 자동으로 저장됩니다. **[!UICONTROL 자동 저장]** 옵션이 활성화되어 있습니다. 기본적으로 활성화되어 있습니다.
 
-   ![](assets/qs-gantt-icon-on-task-list-highlighted-350x199.png)
+   ![간트 차트 아이콘 클릭](assets/click-gantt-chart-icon.png)
 
 1. (선택 사항) **[!UICONTROL 플랜 모드]** 아이콘 및 선택 **[!UICONTROL 수동 저장 Standard]** 또는 **[!UICONTROL 타임라인 계획 수립]** 변경 사항을 수동으로 저장합니다.
 
@@ -178,7 +178,7 @@ ht-degree: 1%
 1. 수정할 프로젝트로 이동합니다.
 1. 다음에서 **[!UICONTROL 작업]** 영역을 클릭하고 **[!UICONTROL 간트 차트]** 아이콘.
 
-   ![](assets/qs-gantt-icon-on-task-list-highlighted-350x199.png)
+   ![간트 차트 아이콘 클릭](assets/click-gantt-chart-icon.png)
 
    다음 경우에 모든 변경 사항이 자동으로 저장됩니다. **[!UICONTROL 자동 저장]** 옵션이 활성화되어 있습니다. 기본적으로 활성화되어 있습니다.
 

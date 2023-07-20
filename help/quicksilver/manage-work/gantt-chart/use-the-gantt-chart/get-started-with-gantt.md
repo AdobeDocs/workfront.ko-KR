@@ -6,9 +6,9 @@ description: Adobe Workfront의 간트 차트는 작업 또는 프로젝트 목�
 author: Alina
 feature: Work Management
 exl-id: 96c4e254-ebbe-41d8-a178-7a79ac0abbbd
-source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
+source-git-commit: e2f6eada24b4e48bce58189ec16447eda89f4a09
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '560'
 ht-degree: 5%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 5%
 
 에 액세스하려면 [!UICONTROL 프로젝트 목록 간트 차트], 위에 언급된 영역으로 이동하여 [!UICONTROL 간트 차트] 아이콘.
 
-![](assets/qs-gantt-icon-on-task-list-highlighted-350x199.png)
+![간트 차트 아이콘 클릭](assets/click-gantt-chart-icon.png)
 
 ## 에 정보가 표시되는 방식 구성 [!UICONTROL 간트 차트]
 
