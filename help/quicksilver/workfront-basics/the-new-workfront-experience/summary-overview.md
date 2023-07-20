@@ -4,9 +4,9 @@ title: 요약 개요
 description: 요약 패널을 사용하여 작업 문제 목록, 문서 또는 의 다른 영역에서 직접 작업 항목 정보를 검토하고 업데이트할 수 있습니다 [!DNL Adobe Workfront] 작업 및 문제를 표시합니다.
 feature: Get Started with Workfront
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
+source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '896'
 ht-degree: 2%
 
 ---
@@ -116,21 +116,21 @@ ht-degree: 2%
    >
    >한 번에 하나의 작업 또는 문제만 선택하여 다음에서 해당 세부 사항을 볼 수 있습니다. [!UICONTROL 요약] 패널.
 
-   ![](assets/summary-overview--open-task-from-summary-icon-350x112.png)
+   ![요약 패널](assets/summary-panel-for-task.png)
 
 1. (선택 사항) [!UICONTROL 요약] 패널, 다음 중 하나를 수행합니다.
 
    * 작업 또는 문제 목록에서 **[!UICONTROL 요약 열기]** 아이콘 ![](assets/summary-panel-icon.png)
 
-      또는
+     또는
 
-      다음을 클릭합니다. **X** 의 오른쪽 위 모서리에 있는 아이콘 [!UICONTROL 요약] 패널.
+     다음을 클릭합니다. **X** 의 오른쪽 위 모서리에 있는 아이콘 [!UICONTROL 요약] 패널.
 
    * 다음에서 [!UICONTROL 제출됨] 의 섹션 [!UICONTROL 요청] 영역을 클릭하고 **[!UICONTROL 요약 닫기]** 아이콘 ![](assets/close-summary-with-text-nwe.png)
 
-      또는
+     또는
 
-      다음을 클릭합니다. **X** 아이콘: 요약 패널의 오른쪽 위 모서리
+     다음을 클릭합니다. **X** 아이콘: 요약 패널의 오른쪽 위 모서리
 
 ## [!UICONTROL 완료율]
 
