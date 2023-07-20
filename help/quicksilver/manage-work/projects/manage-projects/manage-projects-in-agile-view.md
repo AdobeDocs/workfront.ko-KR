@@ -6,16 +6,14 @@ description: 필요한 계획, 라이선스 유형 및 액세스 Adobe Workfront
 author: Alina
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 11e239bd47a007adbec1770dafc7f7a5d97eb57e
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1384'
 ht-degree: 0%
 
 ---
 
 # 애자일 보기에서 프로젝트 관리
-
-{{highlighted-preview}}
 
 <!--
 Required plans, license types, and access
@@ -82,7 +80,7 @@ Required plans, license types, and access
 
 >[!NOTE]
 >
-><span class="preview">이 섹션은 프로젝트의 보드 보기가 아닌 레거시 애자일 보기에만 적용됩니다.</span>
+>이 섹션은 프로젝트의 보드 보기가 아닌 레거시 애자일 보기에만 적용됩니다.
 
 * [프로젝트의 애자일 기능](#agile-functionality-in-a-project)
 * [프로젝트에서 애자일 보기를 사용할 때와 반복에서 사용할 때의 차이점](#differences-when-using-the-agile-view-on-a-project-versus-on-an-iteration)
@@ -164,25 +162,19 @@ Required plans, license types, and access
 ## 애자일 보기에서 프로젝트 보기
 
 1. 애자일 보기에서 보려는 프로젝트로 이동합니다.
-1. 다음을 클릭합니다. **애자일** 아이콘 ![애자일 아이콘](assets/agile-icon-nwe.png).
+1. 다음을 클릭합니다. **보드** 아이콘 ![보드 아이콘](assets/board-icon-for-agile-view.png).
 
-   <span class="preview">또는</span>
-
-   <span class="preview">다음을 클릭합니다. **보드** 아이콘 ![보드 아이콘](assets/board-icon-for-agile-view.png).</span>
-
-   기본 애자일 보기에 프로젝트가 표시됩니다.
-
-   <span class="preview">미리보기 환경에서는 기본적으로 보드 보기가 표시됩니다.</span>
+   기본적으로 프로젝트의 보드 보기가 표시됩니다.
 
    ![프로젝트 게시판 보기](assets/project-agile-board-view.png)
 
-   (이전 애자일 보기 전용) 이전에 사용자 정의 애자일 보기에서 프로젝트를 본 경우 기본 애자일 보기가 아닌 해당 보기에 프로젝트가 표시됩니다.
+   <!--(Legacy agile view only) If you previously viewed the project in a custom agile view, the project is displayed in that view rather than in the default agile view.-->
 
-1. <span class="preview">(선택 사항) **구성** 을 클릭하여 열 및 카드에 대한 옵션을 설정합니다.</span>
+1. (선택 사항) **구성** 을 클릭하여 열 및 카드에 대한 옵션을 설정합니다.
 
-   <span class="preview">자세한 내용은 [보드 열 관리](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md) 및 [카드에 표시할 필드 사용자 지정](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md). 프로젝트의 보드 보기에서 열 정책을 정의할 수 없습니다.</span>
+   자세한 내용은 [보드 열 관리](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md) 및 [카드에 표시할 필드 사용자 지정](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md). 프로젝트의 보드 보기에서 열 정책을 정의할 수 없습니다.
 
-1. <span class="preview">(선택 사항) **기존 애자일 사용** 보드 보기 대신 레거시 애자일 보기를 사용합니다.</span>
+1. (선택 사항) **기존 애자일 사용** 보드 보기 대신 레거시 애자일 보기를 사용합니다.
 
 1. (선택 사항 - 이전 애자일 보기 전용) 사용자 정의 애자일 보기를 만들었거나, 다른 사용자가 사용자 정의 애자일 보기를 만들어 공유한 경우, 기본 애자일 보기 대신 볼 수 있습니다.
 
@@ -200,14 +192,13 @@ Required plans, license types, and access
 
    애자일 보기에 상태를 추가하려면 문서의 &quot;애자일 보기 만들기 또는 사용자 지정&quot; 섹션에 설명된 대로 새 애자일 보기를 만들거나 기존 애자일 보기를 사용자 지정합니다 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. (선택 사항) 목록 보기로 돌아가려면 **목록** 아이콘.\
-   ![목록 아이콘](assets/list-icon.png)
+1. (선택 사항) 목록 보기로 돌아가려면 **목록** 아이콘.
 
 ## 애자일 보기 만들기 및 사용자 지정 {#create-and-customize-agile-views}
 
 >[!NOTE]
 >
-><span class="preview">이 섹션은 프로젝트의 보드 보기가 아닌 레거시 애자일 보기에만 적용됩니다.</span>
+>이 섹션은 프로젝트의 보드 보기가 아닌 레거시 애자일 보기에만 적용됩니다.
 
 Workfront의 표준 보기와 마찬가지로 기존 애자일 보기를 사용자 정의하거나 새 애자일 보기를 처음부터 만들 수 있습니다. 표준 보기와 달리 기존 애자일 보기를 기반으로 새 애자일 보기를 만들 수 없습니다.
 
@@ -217,7 +208,7 @@ Workfront의 표준 보기와 마찬가지로 기존 애자일 보기를 사용�
 
 >[!NOTE]
 >
-><span class="preview">이 섹션은 프로젝트의 보드 보기가 아닌 레거시 애자일 보기에만 적용됩니다.</span>
+>이 섹션은 프로젝트의 보드 보기가 아닌 레거시 애자일 보기에만 적용됩니다.
 
 애자일 보기를 공유하는 방법에 대한 자세한 내용은 [필터, 보기 또는 그룹화 공유](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
@@ -225,6 +216,6 @@ Workfront의 표준 보기와 마찬가지로 기존 애자일 보기를 사용�
 
 >[!NOTE]
 >
-><span class="preview">이 섹션은 프로젝트의 보드 보기가 아닌 레거시 애자일 보기에만 적용됩니다.</span>
+>이 섹션은 프로젝트의 보드 보기가 아닌 레거시 애자일 보기에만 적용됩니다.
 
 보기를 삭제하는 방법에 대한 자세한 내용은 문서의 &quot;보기 제거&quot; 섹션을 참조하십시오 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).

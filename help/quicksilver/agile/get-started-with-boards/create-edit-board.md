@@ -2,26 +2,26 @@
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: 보드 만들기 또는 편집
-description: 에서 [!UICONTROL 보드] 대시보드에서 새 보드를 만들거나 기존 보드를 편집할 수 있습니다.
+description: 다음에서 [!UICONTROL 게시판] 대시보드에서 새 보드를 만들거나 기존 보드를 편집할 수 있습니다.
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 5e73603b695ff7456216ca7a4e15ce527b01559d
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '721'
 ht-degree: 3%
 
 ---
 
 # 보드 만들기 또는 편집
 
-에서 [!UICONTROL 보드] 대시보드에서 새 보드를 만들거나 기존 보드를 편집할 수 있습니다.
+다음에서 [!UICONTROL 게시판] 대시보드에서 새 보드를 만들거나 기존 보드를 편집할 수 있습니다.
 
-작업 스트림에 보드를 추가하려면 다음을 참조하십시오 [워크플로우 관리](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
+워크스트림에 보드를 추가하려면 를 참조하십시오. [작업 스트림 관리](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
 ## 액세스 요구 사항
 
-이 문서의 절차를 수행하려면 다음 액세스 권한이 있어야 합니다.
+이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,62 +38,62 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-&#42;어떤 계획, 라이센스 유형 또는 액세스 권한을 보유하고 있는지 확인하려면 [!DNL Workfront] 관리자
+&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
 
-## 새 보드 만들기
+## 새 게시판 만들기
 
-1. 을(를) 클릭합니다. **[!UICONTROL 기본 메뉴]** 아이콘 ![](assets/main-menu-icon.png) 의 오른쪽 위 모서리에서 [!DNL Adobe Workfront]를 클릭한 다음 **[!UICONTROL 보드]**.
-1. 독립형 보드를 만들려면 **[!UICONTROL 보드 추가]** 에서 [!UICONTROL 보드] 영역. 작업 스트림에 보드를 추가하려면 다음을 참조하십시오 [워크플로우 관리](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
+1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![](assets/main-menu-icon.png) 의 오른쪽 위 모서리 [!DNL Adobe Workfront]을 클릭한 다음 을 클릭합니다 **[!UICONTROL 게시판]**.
+1. 독립 실행형 보드를 만들려면 **[!UICONTROL 보드 추가]** 다음에서 [!UICONTROL 게시판] 영역입니다. 워크스트림에 보드를 추가하려면 를 참조하십시오. [작업 스트림 관리](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
-1. 보드의 템플릿을 선택합니다.
+1. 보드에 사용할 템플릿을 선택합니다.
 
    | 템플릿 | 설명 |
    |---------|----------|
-   | 기본 보드 | 보드에 기본 열 3개가 제공됩니다. 새 열을 추가하고 기본 열의 이름을 바꾸거나 삭제할 수 있습니다. <p>보드에 기본 열 3개가 제공됩니다. 새 열을 추가하고 기본 열의 이름을 바꾸거나 삭제할 수 있습니다. |
-   | 칸반 보드 | 보드에 다음 열이 제공됩니다. 백로그, 신규, 진행 중, 완료 및 보류 중 새 열을 추가하고 기본 열의 이름을 바꾸거나 삭제할 수 있습니다.<p>백로그를 사용하려면 취입 열에 대한 필터를 설정해야 합니다. 자세한 내용은 [보드에 흡기 열 추가](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>각 열에 대한 기본 정책을 검토하려면 [!UICONTROL **자세히** 메뉴] 열에서 [!UICONTROL **편집**]. 이러한 사전 설정된 정책을 변경할 수 있습니다. 자세한 내용은 [보드 열 관리](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
-   | Retrospective 보드 | 보드에 다음 열이 제공됩니다. 뭐가 잘 됐어? 개선 가능한 사항? 축하해야 할 사람? 보다 빠른 진행을 위해 할 수 있는 일? 새 열을 추가하고 기본 열의 이름을 바꾸거나 삭제할 수 있습니다. <p>적용된 열 정책이 없습니다. |
-   | 동적 보드 | 보드에 다음 열이 제공됩니다. 선택되지 않음, 신규, 진행 중, 보류 중 및 완료 새 열을 추가하고 기본 열의 이름을 바꾸거나 삭제할 수 있습니다. (선택하지 않은 열의 이름은 변경할 수 있지만 삭제할 수는 없습니다. 이 열에는 다른 열 상태와 일치하지 않는 상태가 있는 모든 카드가 포함됩니다. <p>기본 열 정책은 상태를 기준으로 열에 카드를 할당합니다. 자세한 내용은 [보드 열 관리](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). <p>**참고:** 동적 보드는 Workfront 보드에 대한 초기 기능 옵트인을 통해서만 사용할 수 있습니다. |
+   | 기본 보드 | 보드에는 세 개의 기본 열이 제공됩니다. 새 열을 추가하고 기본 열의 이름을 바꾸거나 삭제할 수 있습니다. <p>보드에는 세 개의 기본 열이 제공됩니다. 새 열을 추가하고 기본 열의 이름을 바꾸거나 삭제할 수 있습니다. |
+   | 칸반 보드 | 백로그, 신규, 진행 중, 완료 및 보류 중 열이 보드에 제공됩니다. 새 열을 추가하고 기본 열의 이름을 바꾸거나 삭제할 수 있습니다.<p>백로그를 사용하려면 접수 열에 대한 필터를 설정해야 합니다. 자세한 내용은 [보드에 접수 열 추가](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>각 열에 대한 기본 정책을 검토하려면 [!UICONTROL **자세히** 메뉴] 열에서 [!UICONTROL **편집**]. 이러한 사전 설정된 정책을 변경할 수 있습니다. 자세한 내용은 [보드 열 관리](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
+   | Retrospective 보드 | 게시판에는 다음과 같은 열이 제공됩니다. 무엇이 잘 되었습니까? 개선 가능한 사항? 축하해야 할 사람? 보다 빠른 진행을 위해 할 수 있는 일? 새 열을 추가하고 기본 열의 이름을 바꾸거나 삭제할 수 있습니다. <p>열 정책이 적용되지 않습니다. |
+   | 동적 보드 | 보드에 선택되지 않음, 새로 만들기, 진행 중, 보류 및 완료 열이 제공됩니다. 새 열을 추가하고 기본 열의 이름을 바꾸거나 삭제할 수 있습니다. 선택 해제됨 열의 이름은 변경할 수 있지만 삭제할 수는 없습니다. 이 열에는 다른 열 상태와 일치하지 않는 상태의 모든 카드가 포함됩니다.) <p>기본 열 정책은 상태에 따라 열에 카드를 할당합니다. 자세한 내용은 [보드 열 관리](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 
-1. 동적 보드의 경우에만 설정 마법사 단계를 수행합니다.
+1. 동적 보드에 대해서만 설정 마법사 단계를 수행합니다.
 
-   1. 을(를) 검색하고 선택합니다 [!DNL Workfront] [!UICONTROL **프로젝트**] 작업 및 문제를 보드에 가져오기
-   1. 을(를) 검색하고 선택합니다 [!UICONTROL **지정**] 작업 및 문제를 보드에 가져오기
+   1. 검색 및 선택 [!DNL Workfront] [!UICONTROL **프로젝트**] 작업 및 문제를 게시판으로 가져오기
+   1. 검색 및 선택 [!UICONTROL **할당**] 작업 및 문제를 게시판으로 가져오기
 
-      모든 개체가 보드에 연결된 카드로 표시됩니다.
+      모든 개체는 보드에 연결된 카드로 표시됩니다.
 
-      다음 [!UICONTROL **카드 추가 중**] 카운터는 몇 개의 카드가 보드에 있는지 표시합니다. 예를 들어 100개의 작업 및 문제가 있는 프로젝트를 선택하면 카운터에 100개가 표시됩니다. 사용자 지정을 추가하고 해당 개인이 프로젝트에서 5개의 작업에 지정되는 경우 카운터는 5개를 표시합니다.
+      다음 [!UICONTROL **카드 추가 중**] 카운터는 보드에 표시될 카드의 수를 보여줍니다. 예를 들어 작업 및 문제가 100개인 프로젝트를 선택하면 카운터에 100개가 표시됩니다. 사용자 할당을 추가하고 해당 사람이 프로젝트에서 5개의 작업에 할당되면 카운터에 5개가 표시됩니다.
 
-   1. (선택 사항) 선택 [!UICONTROL **완료된 작업 포함**] 보드에 완성된 카드를 포함하기 위해.
+   1. (선택 사항) 선택 [!UICONTROL **완료된 작업 포함**] 보드에 완성된 카드를 포함시키십시오.
 
       >[!NOTE]
       >
-      >이 옵션을 선택하지 않으면 다른 상태의 카드가 완료된 것으로 표시되면 해당 카드가 보드의 &quot;폴아웃&quot;되며 더 이상 표시되지 않습니다.
+      >이 옵션을 선택하지 않으면 다른 상태의 카드가 완료로 표시되면 보드에서 &quot;떨어져&quot; 더 이상 표시되지 않습니다.
 
-   1. (선택 사항) [!UICONTROL **고급 필터 사용**] 추가 필터 옵션을 표시하려면 다음을 수행하십시오.
+   1. (선택 사항) [!UICONTROL **고급 필터 사용**] 추가 필터 옵션을 표시합니다.
 
-      이것은 흡입 열에 필터를 만드는 것과 동일한 프로세스입니다. 자세한 내용은 [보드에 흡기 열 추가](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+      이 프로세스는 접수 열에 필터를 만드는 프로세스와 동일합니다. 자세한 내용은 [보드에 접수 열 추가](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
-   1. 필터를 추가한 후 [!UICONTROL **보드 만들기**].
+   1. 필터를 추가한 후 다음을 클릭합니다. [!UICONTROL **보드 만들기**].
 
-1. 에 보드의 이름을 입력합니다 **[!UICONTROL 보드]** 필드를 입력하고 Enter 키를 누릅니다.
+1. 보드에 대한 이름을 입력합니다. **[!UICONTROL 보드]** 필드를 입력하고 Enter 키를 누릅니다.
 1. 필요에 따라 보드를 구성합니다.
 
-   자세한 내용은 [보드에서 구성원 추가 또는 제거](../../agile/get-started-with-boards/add-members-to-board.md), [보드 열 관리](../../agile/get-started-with-boards/manage-board-columns.md), [보드에 임시 카드 추가](../../agile/get-started-with-boards/add-card-to-board.md), 및 [보드에서 연결된 카드 사용](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+   자세한 내용은 [보드에서 구성원 추가 또는 제거](../../agile/get-started-with-boards/add-members-to-board.md), [보드 열 관리](../../agile/get-started-with-boards/manage-board-columns.md), [보드에 애드혹 카드 추가](../../agile/get-started-with-boards/add-card-to-board.md), 및 [보드에서 연결된 카드 사용](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-1. 클릭 **[!UICONTROL 모든 보드]** 보드 대시보드로 돌아갑니다.
+1. 클릭 **[!UICONTROL 모든 게시판]** 을 눌러 보드 대시보드로 돌아갑니다.
 
-   현재 보드의 이름으로 표시된 드롭다운 메뉴를 찾아 클릭하여 다른 보드로 전환할 수도 있습니다.
+   현재 보드 이름으로 레이블이 지정된 드롭다운 메뉴를 찾은 다음 클릭하여 다른 보드로 전환할 수도 있습니다.
 
    ![보드 목록](assets/boards-button-list-of-boards-350x188.png)
 
-## 기존 보드 편집
+## 기존 게시판 편집
 
-1. 을(를) 클릭합니다. **[!UICONTROL 기본 메뉴]** 아이콘 ![](assets/main-menu-icon.png) 의 오른쪽 위 모서리에서 [!DNL Adobe Workfront]를 클릭한 다음 **[!UICONTROL 보드]**.
+1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![](assets/main-menu-icon.png) 의 오른쪽 위 모서리 [!DNL Adobe Workfront]을 클릭한 다음 을 클릭합니다 **[!UICONTROL 게시판]**.
 1. 대시보드에서 열 보드를 선택합니다.
 1. 필요에 따라 보드를 편집합니다. 보드 이름을 클릭하여 이름을 바꿀 수 있습니다.
 
    자세한 내용은 [보드에서 구성원 추가 또는 제거](../../agile/get-started-with-boards/add-members-to-board.md), [보드 열 관리](../../agile/get-started-with-boards/manage-board-columns.md), 및 [보드에 카드 추가](../../agile/get-started-with-boards/add-card-to-board.md).
 
-1. 클릭 **[!UICONTROL 모든 보드]** 보드 대시보드로 돌아갑니다.
+1. 클릭 **[!UICONTROL 모든 게시판]** 을 눌러 보드 대시보드로 돌아갑니다.
 
-   현재 보드의 이름으로 표시된 드롭다운 메뉴를 찾아 클릭하여 다른 보드로 전환할 수도 있습니다.
+   현재 보드 이름으로 레이블이 지정된 드롭다운 메뉴를 찾은 다음 클릭하여 다른 보드로 전환할 수도 있습니다.

@@ -6,9 +6,9 @@ description: Ad Hoc 카드를 보드에 빠르게 추가하고 보드에 있는 
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: c1fab97289f1806676f9d80ccaa640fffa5192e5
+source-git-commit: 964273ad38230e28411083cf616617e14b2d2d0e
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '885'
 ht-degree: 0%
 
 ---
@@ -101,15 +101,11 @@ Ad Hoc 카드가 의 작업 항목에 연결되어 있지 않습니다. [!DNL Ad
       <td role="rowheader"><strong>[!UICONTROL Comments]</strong></td>
       <td><p>을(를) 클릭합니다. <strong>[!UICONTROL 새 주석]</strong> 필드에 댓글을 입력합니다. 서식 도구를 사용하여 텍스트 서식을 지정하고 <strong>첨부 파일 추가</strong> 아이콘 <img src="assets/attachment-icon.png" alt="첨부 파일 아이콘"> 파일을 주석에 첨부합니다. 사용자 또는 팀에 태그를 지정하려면 댓글 영역 하단에 있는 검색 상자를 사용합니다. 사용자는 보드에서 멤버일 필요가 없습니다.</p><p><strong>참고:</strong> 현재 Ad Hoc 카드에 댓글을 태그 지정한 사용자는 이메일 알림을 받지 못합니다.
       </p><p>클릭 <strong>[!UICONTROL Submit]</strong> 주석을 카드에 추가합니다.</p>
-      <p><strong>참고:</strong> 카드의 주석 달기 영역에서는 새로운 Adobe Workfront 주석 달기 경험을 사용합니다. 자세한 내용은 <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">작업 업데이트</a>.</p><p><strong>참고:</strong> 카드에 대한 댓글은 Workfront 보드에 대한 초기 기능 옵트인을 통해서만 사용할 수 있습니다.</p></td>
+      <p><strong>참고:</strong> 카드의 주석 달기 영역에서는 새로운 Adobe Workfront 주석 달기 경험을 사용합니다. 자세한 내용은 <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">작업 업데이트</a>.</p></td>
      </tr>
     </tbody> 
    </table>
 
-   초기 기능 옵트인이 사용되지 않은 경우 프로덕션 환경의 샘플 이미지:
-   ![애드혹 카드 세부 정보](assets/boards-edit-ad-hoc-card-041723.png)
-
-   초기 기능 옵트인이 활성화된 경우 프로덕션 환경의 샘플 이미지:
    ![애드혹 카드 세부 정보](assets/ad-hoc-card-details-with-comments.png)
 
    왼쪽 탐색 패널을 사용하여 카드 세부 정보에서 필드의 섹션 사이를 이동합니다.

@@ -6,16 +6,14 @@ description: 보기를 사용하여 화면에 표시할 정보 유형을 사용�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 11e239bd47a007adbec1770dafc7f7a5d97eb57e
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
-source-wordcount: '1787'
+source-wordcount: '1777'
 ht-degree: 1%
 
 ---
 
 # Adobe Workfront에서 보기 만들기 또는 편집
-
-{{highlighted-preview}}
 
 보기를 사용하여 화면에 표시할 정보 유형을 사용자 정의할 수 있습니다. Adobe Workfront에서 여러 유형의 보기를 사용할 수 있습니다.
 
@@ -150,16 +148,12 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-><span class="preview">이 절차는 프로젝트의 보드 보기가 아닌 레거시 애자일 보기에만 적용됩니다.</span>
+>이 절차는 프로젝트의 보드 보기가 아닌 레거시 애자일 보기에만 적용됩니다.
 
 애자일 보기를 생성하거나 사용자 정의하려면
 
 1. 프로젝트의 작업 목록으로 이동합니다.
-1. 다음을 클릭합니다. **애자일 스토리보드** 아이콘 ![애자일 스토리보드 아이콘](assets/agile-storyboard-nwe.png).
-
-   <span class="preview">또는</span>
-
-   <span class="preview">다음을 클릭합니다. **보드** 아이콘 ![보드 아이콘](assets/board-icon-for-agile-view.png)을 클릭한 다음 을 클릭합니다 **기존 애자일 사용** 게시판 보기에서</span>
+1. 다음을 클릭합니다. **보드** 아이콘 ![보드 아이콘](assets/board-icon-for-agile-view.png)을 클릭한 다음 을 클릭합니다 **기존 애자일 사용** 게시판 보기에서
 
 1. (조건부) 기존 애자일 보기를 사용자 정의하려면 다음을 수행합니다.
 
@@ -255,4 +249,4 @@ ht-degree: 1%
 1. **저장**&#x200B;을 클릭합니다.\
    액세스 권한에 따라 보기가 저장되는 방법이 결정됩니다. 원래 뷰를 생성한 경우 변경 사항을 저장할 수 있습니다. 그렇지 않으면 버전을 저장하라는 메시지가 표시됩니다. 보기에 대한 변경 내용은 보기가 공유된 사용자에게 영향을 줍니다.
 
-1. (선택 사항) **목록 보기** 아이콘 ![](assets/list-view-in-agile-view-for-tasks.png) 작업 목록으로 돌아갑니다.
+1. (선택 사항) **목록** 작업 목록으로 돌아가는 아이콘.

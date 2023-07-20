@@ -6,9 +6,9 @@ description: Workfront의 기존 작업 및 문제에 연결된 카드를 보드
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 4b006b18b0532d3162be2361807962986d5e2e1b
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
-source-wordcount: '1415'
+source-wordcount: '1386'
 ht-degree: 0%
 
 ---
@@ -146,11 +146,11 @@ ht-degree: 0%
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Comments]</strong></td>
       <td><p>을(를) 클릭합니다. <strong>[!UICONTROL 새 주석]</strong> 필드에 댓글을 입력합니다. 서식 도구를 사용하여 텍스트 서식을 지정하고 <strong>첨부 파일 추가</strong> 아이콘 <img src="assets/attachment-icon.png" alt="첨부 파일 아이콘"> 파일을 주석에 첨부합니다. 사용자 또는 팀에 태그를 지정하려면 댓글 영역 하단에 있는 검색 상자를 사용합니다. 사용자는 보드에서 멤버일 필요가 없습니다. 연결된 카드에 태그가 지정된 사용자는 이메일 알림을 받게 됩니다.</p><p>클릭 <strong>[!UICONTROL Submit]</strong> 주석을 카드에 추가합니다.</p>
-      <p><strong>참고:</strong> 카드의 주석 달기 영역에서는 새로운 Adobe Workfront 주석 달기 경험을 사용합니다. 자세한 내용은 <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">작업 업데이트</a>.</p><p><strong>참고:</strong> 카드에 대한 댓글은 Workfront 보드에 대한 초기 기능 옵트인을 통해서만 사용할 수 있습니다.</p></td>
+      <p><strong>참고:</strong> 카드의 주석 달기 영역에서는 새로운 Adobe Workfront 주석 달기 경험을 사용합니다. 자세한 내용은 <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">작업 업데이트</a>.</p></td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL System activity]</strong></td> 
-      <td><p>다음을 보유한 경우: <strong>시스템 활동</strong> 카드 섹션으로 활성화되면 활동이 이 영역에 표시됩니다.</p> <p>자세한 내용은 <a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md">카드에 표시할 필드 사용자 지정</a> 및 <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md">시스템 추적 업데이트</a>.</p><p><strong>참고:</strong> 시스템 활동은 Workfront 보드에 대한 초기 기능 옵트인을 통해서만 사용할 수 있습니다.</p></td>
+      <td><p>다음을 보유한 경우: <strong>시스템 활동</strong> 카드 섹션으로 활성화되면 활동이 이 영역에 표시됩니다.</p> <p>자세한 내용은 <a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md">카드에 표시할 필드 사용자 지정</a> 및 <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md">시스템 추적 업데이트</a>.</p></td>
      </tr>     
     </tbody> 
    </table>

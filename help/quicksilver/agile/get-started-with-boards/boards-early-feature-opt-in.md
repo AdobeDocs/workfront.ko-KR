@@ -6,9 +6,9 @@ title: 의 초기 기능 옵트인 [!DNL Adobe Workfront] 게시판
 description: 에 대해 알아보려면 이 문서 를 참조하십시오. [!DNL Workfront Boards] 초기 기능 옵트인.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 80e0a053f39991d3ed8d9bd2a11a8da2d5de588e
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -158,7 +158,7 @@ Ad Hoc 및 연결된 카드가 있는 보드는 모든 사용자가 사용할 �
   </tr>
   <tr>
    <td>보드에 대한 이메일 알림 정의</td>
-   <td>부분적으로 릴리스됨</td>
+   <td>릴리스됨</td>
   </tr>
   <tr>
    <td>보드에 레거시 Kanban 카드 마이그레이션</td>
@@ -166,19 +166,19 @@ Ad Hoc 및 연결된 카드가 있는 보드는 모든 사용자가 사용할 �
   </tr>
   <tr>
    <td>동적 보드 만들기</td>
-   <td>부분적으로 릴리스됨</td>
+   <td>릴리스됨</td>
   </tr>
   <tr>
    <td>카드 세부 정보에서 왼쪽 탐색 사용</td>
-   <td>부분적으로 릴리스됨</td>
+   <td>릴리스됨</td>
   </tr>
   <tr>
    <td>접수 열에서 간소화된 필터 사용</td>
-   <td>부분적으로 릴리스됨</td>
+   <td>릴리스됨</td>
   </tr>
   <tr>
    <td>Ad Hoc 및 연결된 카드에 주석 사용</td>
-   <td>부분적으로 릴리스됨</td>
+   <td>릴리스됨</td>
   </tr>
  </tbody> 
 </table>

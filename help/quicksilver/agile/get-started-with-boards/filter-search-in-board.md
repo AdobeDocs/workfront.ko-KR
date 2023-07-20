@@ -6,7 +6,7 @@ description: 보드를 필터링하여 특정 카드만 표시할 수 있습니�
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: 05cac2441474e0f6ecf18aa777a5a66fefb2dba8
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # 보드에서 필터링 및 검색
-
-{{highlighted-preview}}
 
 표시할 보드를 필터링할 수 있습니다.
 
@@ -26,7 +24,7 @@ ht-degree: 0%
 * 보관된 카드
 * 특정 프로젝트에 연결된 카드
 
-<span class="preview">보드를 정렬하면 열에 있는 모든 카드가 정렬됩니다. 단일 열을 정렬할 수 없으며 백로그 또는 접수 열이 정렬되지 않았습니다.</span>
+보드를 정렬하면 열에 있는 모든 카드가 정렬됩니다. 단일 열을 정렬할 수 없으며 백로그 또는 접수 열이 정렬되지 않았습니다.
 
 검색은 보드에서 특정 카드를 찾는 데에도 도움이 됩니다.
 
@@ -110,8 +108,6 @@ ht-degree: 0%
 
    ![연결로 필터링](assets/boards-filter-by-connection.png)
 
-<div class="preview">
-
 ## 게시판에서 정렬
 
 정렬 기준 옵션을 선택하면 모든 열이 정렬됩니다. 단일 열을 정렬할 수 없으며 백로그 또는 접수 열이 정렬되지 않았습니다.
@@ -130,8 +126,6 @@ ht-degree: 0%
    기본값 이외의 정렬을 적용하면 정렬 아이콘에 표시기가 표시됩니다 ![정렬 적용됨](assets/sort-applied-boards.png).
 
    ![보드에서 열을 기준으로 정렬](assets/sort-by-columns-in-board.png)
-
-</div>
 
 ## 보드에서 검색
 
