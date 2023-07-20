@@ -3,16 +3,16 @@ title: 23.3 통합 개선 사항
 description: 23.3 통합 개선 사항
 author: Lisa
 feature: Product Announcements
-source-git-commit: 75e035bcdf75501e34fd9de57dd6eab85d9e5542
+source-git-commit: 29ef11a804cbb7e8da9ddac13bf51de7aa50db53
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '730'
 ht-degree: 0%
 
 ---
 
 # 23.3 통합 개선 사항
 
-이 페이지에서는 미리보기 환경에 대한 23.3 릴리스의 모든 통합 개선 사항에 대해 설명합니다. 이러한 개선 사항은 프로덕션 환경에서 23.3 릴리스를 통해 제공될 예정입니다.
+이 페이지에서는 23.3 릴리스의 모든 통합 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2023년 7월 20일과 21일에 23.3 릴리스를 통해 프로덕션 환경에서 사용할 수 있습니다.
 
 23.3 릴리스 주기 동안 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 을 참조하십시오. [23.3 릴리스 개요](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 

@@ -4,20 +4,18 @@ description: 23.3 릴리스 개요
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: bcb657df8b38c6bdea5c24a917a9adad51da017d
+source-git-commit: 29ef11a804cbb7e8da9ddac13bf51de7aa50db53
 workflow-type: tm+mt
-source-wordcount: '2657'
+source-wordcount: '2648'
 ht-degree: 0%
 
 ---
 
 # 23.3 릴리스 개요
 
-이 페이지에서는 2023년 7월 17일로 예정된 23.3 릴리스에 포함된 기능에 대한 정보를 제공합니다.
+이 페이지에서는 23.3 릴리스에 포함된 기능에 대한 정보를 제공합니다. 이러한 개선 사항은 2023년 7월 20일과 21일에 23.3 릴리스를 통해 프로덕션 환경에서 사용할 수 있습니다.
 
-이 페이지의 개선 사항은 미리보기 환경에서 사용할 수 있습니다. 23.3 릴리스가 계획된 프로덕션 릴리스에 가까워지면 이 페이지가 추가 개선 사항으로 업데이트됩니다.
-
-23.3 릴리스 웨비나는 2023년 6월 29일에 열립니다. 다음을 수행할 수 있습니다. [여기서 웨비나 등록](https://webinars.on24.com/adobe_workfront/whatsnewin233?partnerref=exlreleaseoverview).
+23.3 릴리스 웨비나는 2023년 6월 29일에 있었습니다. 다음을 수행할 수 있습니다. [여기서 웨비나를 등록하여 주문형 녹화를 볼 수 있습니다.](https://webinars.on24.com/adobe_workfront/whatsnewin233?partnerref=exlreleaseoverview).
 
 <span class="preview">오프 사이클 기능(23.3 릴리스 날짜 이전에 프로덕션에 릴리스된 기능)은 노란색으로 강조 표시됩니다.</span>
 
@@ -116,7 +114,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">프로젝트의 애자일 보기에는 칸반 보드가 표시됩니다</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">프로젝트의 애자일 보기에는 칸반 보드가 표시됩니다</a></p>
                         <p>이제 프로젝트의 애자일 보기에는 칸반 보드에서 작업을 필터링, 그룹화 및 정렬할 수 있는 추가 기능이 포함됩니다. 새롭고 유연한 보기 디자인에는 강력한 검색 기능과 보드에서 바로 프로젝트에 새 작업을 추가할 수 있는 기능이 포함되어 있습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -132,7 +130,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">보드 열별 정렬</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">보드 열별 정렬</a></p>
                         <p>보드에 있는 열의 카드를 정렬하는 기능을 추가했습니다. 정렬 기준 옵션을 선택하면 모든 열이 정렬됩니다. 단일 열을 정렬할 수 없으며 백로그 또는 접수 열이 정렬되지 않았습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -189,7 +187,7 @@ ht-degree: 0%
                                 <p>미리보기 릴리스: 2023년 6월 15일</p>
                             </li>
                             <li>
-                                 <p>조기 옵트인을 위한 프로덕션 릴리스: 2023년 6월 22일 <span style="color: #ff0000;"> 이 기능은 Workfront 보드에 대한 초기 기능 옵트인을 통해서만 프로덕션에서 사용할 수 있습니다.</span></p>
+                                 <p>조기 옵트인을 위한 프로덕션 릴리스: 2023년 6월 22일 <span style="color: #ff0000;"> 이 기능은 Workfront 보드에 대한 초기 기능 옵트인을 통해서만 이 날짜의 프로덕션에서 사용할 수 있습니다.</span></p>
                                 <p>모든 고객을 위한 프로덕션 릴리스: 23.3 릴리스 포함</p>
                             </li>
                         </ul>
@@ -222,7 +220,7 @@ ht-degree: 0%
                                 <p>미리보기 릴리스: 2023년 5월 10일<br /></p>
                             </li>
                             <li>
-                                 <p>조기 옵트인을 위한 프로덕션 릴리스: 2023년 5월 10일 <span style="color: #ff0000;"> 이 기능은 Workfront 보드에 대한 초기 기능 옵트인을 통해서만 프로덕션에서 사용할 수 있습니다.</span></p>
+                                 <p>조기 옵트인을 위한 프로덕션 릴리스: 2023년 5월 10일 <span style="color: #ff0000;"> 이 기능은 Workfront 보드에 대한 초기 기능 옵트인을 통해서만 이 날짜의 프로덕션에서 사용할 수 있습니다.</span></p>
                                 <p>모든 고객을 위한 프로덕션 릴리스: 23.3 릴리스 포함</p>
                             </li>
                         </ul>
@@ -239,7 +237,7 @@ ht-degree: 0%
                                 <p>미리보기 릴리스: 2023년 4월 27일<br /></p>
                             </li>
                             <li>
-                                 <p>초기 옵트인을 위한 프로덕션 릴리스: 2023년 4월 28일 <span style="color: #ff0000;"> 이 기능은 Workfront 보드에 대한 초기 기능 옵트인을 통해서만 프로덕션에서 사용할 수 있습니다.</span></p>
+                                 <p>초기 옵트인을 위한 프로덕션 릴리스: 2023년 4월 28일 <span style="color: #ff0000;"> 이 기능은 Workfront 보드에 대한 초기 기능 옵트인을 통해서만 이 날짜의 프로덕션에서 사용할 수 있습니다.</span></p>
                                 <p>모든 고객을 위한 프로덕션 릴리스: 23.3 릴리스 포함</p>
                             </li>
                         </ul>
@@ -256,7 +254,7 @@ ht-degree: 0%
                                 <p>미리보기 릴리스: 2023년 4월 20일<br /></p>
                             </li>
                             <li>
-                                 <p>초기 옵트인을 위한 프로덕션 릴리스: 2023년 4월 28일 <span style="color: #ff0000;"> 이 기능은 Workfront 보드에 대한 초기 기능 옵트인을 통해서만 프로덕션에서 사용할 수 있습니다.</span></p>
+                                 <p>초기 옵트인을 위한 프로덕션 릴리스: 2023년 4월 28일 <span style="color: #ff0000;"> 이 기능은 Workfront 보드에 대한 초기 기능 옵트인을 통해서만 이 날짜의 프로덕션에서 사용할 수 있습니다.</span></p>
                                 <p>모든 고객을 위한 프로덕션 릴리스: 23.3 릴리스 포함</p>
                             </li>
                         </ul>
@@ -273,7 +271,7 @@ ht-degree: 0%
                                 <p>미리보기 릴리스: 2023년 4월 20일<br /></p>
                             </li>
                             <li>
-                                 <s><p>초기 옵트인을 위한 프로덕션 릴리스: 2023년 4월 28일 <span style="color: #ff0000;"> 이 기능은 Workfront 보드에 대한 초기 기능 옵트인을 통해서만 프로덕션에서 사용할 수 있습니다.</span></p></s>
+                                 <s><p>초기 옵트인을 위한 프로덕션 릴리스: 2023년 4월 28일 <span style="color: #ff0000;"> 이 기능은 Workfront 보드에 대한 초기 기능 옵트인을 통해서만 이 날짜의 프로덕션에서 사용할 수 있습니다.</span></p></s>
                                  </li>
                                  <li>
                                 <p><span class="preview">모든 고객을 위한 프로덕션 릴리스: 2023년 5월 18일</span></p>
@@ -308,7 +306,7 @@ ht-degree: 0%
                                 <p>미리보기 릴리스: 2023년 4월 13일<br /></p>
                             </li>
                             <li>
-                                 <p>초기 옵트인을 위한 프로덕션 릴리스: 2023년 4월 13일 <span style="color: #ff0000;"> 이 기능은 Workfront 보드에 대한 초기 기능 옵트인을 통해서만 프로덕션에서 사용할 수 있습니다.</p>
+                                 <p>초기 옵트인을 위한 프로덕션 릴리스: 2023년 4월 13일 <span style="color: #ff0000;"> 이 기능은 Workfront 보드에 대한 초기 기능 옵트인을 통해서만 이 날짜의 프로덕션에서 사용할 수 있습니다.</p>
                                 <p>모든 고객을 위한 프로덕션 릴리스: 23.3 릴리스 포함</p>
                             </li>
                         </ul>
@@ -335,7 +333,7 @@ ht-degree: 0%
                  </tr>   
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">일자 유효 비용 및 청구 요금</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">일자 유효 비용 및 청구 요금</a></p>
                         <p>이제 Workfront의 회사, 사용자 및 작업 역할 오브젝트에서 날짜 유효 비용 및 청구 요금을 사용할 수 있습니다. 날짜 유효 비율이 프로젝트에 적용되고 시간이 프로젝트 작업에 기록되면 각 기간에 대해 지정된 비율을 사용하여 비용 및 수익이 계산됩니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -346,7 +344,7 @@ ht-degree: 0%
                             <li>
                                 <p>Fast 릴리스 고객을 위한 프로덕션 릴리스: 23.3 프로덕션 릴리스 이후 발표될 예정입니다</p>
                                 <p>모든 고객을 위한 프로덕션 릴리스: 23.4 릴리스 포함<br>
-                                <span style="color: #ff0000;"> 할당률 재정의 기능이 2023년 6월 30일부터 7월 13일까지 미리보기에서 일시적으로 비활성화되었습니다.</span></p>
+                                할당률 재정의 기능이 2023년 6월 30일부터 7월 13일까지 미리보기에서 일시적으로 비활성화되었습니다.</p>
                             </li>
                         </ul>
                     </td>
@@ -606,7 +604,7 @@ ht-degree: 0%
                 </tr>
             <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">새로운 홈 경험</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">새로운 홈 경험</a></p>
                         <p>모든 유형의 사용자가 특정 요구 사항에 맞게 Workfront을 더 잘 활용할 수 있도록 하기 위해 Home이 주요 업데이트를 받았습니다! 새로운 홈 환경에서는 홈 페이지에 대한 시각적 및 콘텐츠 사용자 지정을 제공하여 작업과 가장 관련이 있는 정보만 표시할 수 있는 유연성을 제공합니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
