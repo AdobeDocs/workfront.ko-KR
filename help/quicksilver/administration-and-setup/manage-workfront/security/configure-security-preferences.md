@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 9f6338dc79740e13b71e9266fed17f6dc61039e1
+source-git-commit: 9ebcbf43d4cf84d1f68aeff7e443f41193a9fe76
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 5%
@@ -20,8 +20,6 @@ ht-degree: 5%
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
 -->
-
-{{highlighted-preview}}
 
 {{important-admin-console-onboard}}
 
@@ -70,8 +68,8 @@ Workfront 구현 중에 시스템 환경 설정을 구성하고, 그 이후에 �
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p><span class="preview">빠른 검토 프로세스 활성화</span></p> </td> 
-      <td><span class="preview">분기별 릴리스 대신 조직에 대한 월별 Workfront 릴리스를 활성화할 수 있습니다.</p><p>빠른 릴리스 프로세스에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">조직의 빠른 릴리스 활성화 또는 비활성화</a>.</span></p></td> 
+      <td role="rowheader"> <p>빠른 검토 프로세스 활성화</p> </td> 
+      <td>분기별 릴리스 대신 조직에 대한 월별 Workfront 릴리스를 활성화할 수 있습니다.</p><p>빠른 릴리스 프로세스에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">조직의 빠른 릴리스 활성화 또는 비활성화</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>포함 허용 <strong>Workfront</strong> iframe에서</p> </td> 

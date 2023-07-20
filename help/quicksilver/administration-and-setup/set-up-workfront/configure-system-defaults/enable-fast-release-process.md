@@ -7,7 +7,7 @@ description: 새 Workfront 기능을 월별 또는 분기별로 수신할지 선
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 9f6338dc79740e13b71e9266fed17f6dc61039e1
+source-git-commit: 9ebcbf43d4cf84d1f68aeff7e443f41193a9fe76
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 1%
@@ -15,8 +15,6 @@ ht-degree: 1%
 ---
 
 # 조직의 빠른 릴리스 활성화 또는 비활성화
-
-{{highlighted-preview-article-level}}
 
 Adobe Workfront에는 새로운 기능과 업데이트를 릴리스하기 위한 두 가지 모델이 있습니다. 분기별로 새로운 기능을 받을지 아니면 더 빠른 릴리스 일정으로 받을지 선택할 수 있습니다.
 
