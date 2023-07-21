@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: a99c746e9863e06ccc1890fc07533f4024cb0059
+source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
 workflow-type: tm+mt
-source-wordcount: '2749'
+source-wordcount: '2751'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ ht-degree: 0%
                             </li>
                             <li>
                                  <p>프로덕션 릴리스: 23.2 릴리스 포함<br />
-                                 <span style="color: #ff0000;">2023년 5월 24일 미리보기 및 프로덕션에서 양식 디자이너 Beta가 일시적으로 비활성화되었습니다.</span></p>
+                                 <span style="color: #ff0000;">양식 디자이너 베타가 2023년 5월 24일부터 7월 21일까지 미리보기 및 프로덕션에서 일시적으로 비활성화되었습니다.</span></p>
                             </li>
                         </ul>
                     </td>
@@ -97,7 +97,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">레이아웃 템플릿의 고정 항목 이름 바꾸기</span></a>
-                        </span></a><p>이제 고정된 페이지에 기본 이름을 사용하는 대신 사용자에게 더 의미 있도록 레이아웃 템플릿에서 고정 항목의 이름을 변경할 수 있습니다. 관리자가 만드는 핀은 레이아웃 템플릿에 할당된 모든 사용자에 대해 표시되며 사용자는 그러한 핀의 이름을 바꿀 수 없습니다.</p>
+                        <p>이제 고정된 페이지에 기본 이름을 사용하는 대신 사용자에게 더 의미 있도록 레이아웃 템플릿에서 고정 항목의 이름을 변경할 수 있습니다. 관리자가 만드는 핀은 레이아웃 템플릿에 할당된 모든 사용자에 대해 표시되며 사용자는 그러한 핀의 이름을 바꿀 수 없습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
@@ -480,7 +480,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">모바일 앱의 생체 인식 로그인 및 보드 컬렉션</span></a>
-                        </span></a><p>생체 인식 로그인은 이제 모바일 앱에 더 빨리 로그인할 수 있는 옵션입니다! 초기 로그인 후 생체인증이 설정되면 사용자는 지문 또는 안면인식을 활용해 수시 비밀번호 재인증만으로 앱에 빠르게 재로그인할 수 있게 된다. 또한 이후 업데이트에서 도착하는 일반 로그인 경험에 대한 많은 룩앤필 개선 사항이 있습니다.</p>
+                        <p>생체 인식 로그인은 이제 모바일 앱에 더 빨리 로그인할 수 있는 옵션입니다! 초기 로그인 후 생체인증이 설정되면 사용자는 지문 또는 안면인식을 활용해 수시 비밀번호 재인증만으로 앱에 빠르게 재로그인할 수 있게 된다. 또한 이후 업데이트에서 도착하는 일반 로그인 경험에 대한 많은 룩앤필 개선 사항이 있습니다.</p>
                         <p>이제 보드 컬렉션도 모바일 앱에서 지원되므로 모바일 사용자는 모바일 보드 목록에서 데스크탑 버전에서 액세스할 수 있는 모든 컬렉션을 볼 수 있습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -592,7 +592,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront for XD에서 대지를 단일 PDF 또는 여러 PDF 파일로 내보내기</span></a>
-                        </span></a><p>이제 Adobe Workfront for XD 플러그인에서 대지를 단일 PDF 파일 또는 여러 PDF 파일로 내보내도록 선택할 수 있습니다.</p>
+                        <p>이제 Adobe Workfront for XD 플러그인에서 대지를 단일 PDF 파일 또는 여러 PDF 파일로 내보내도록 선택할 수 있습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>

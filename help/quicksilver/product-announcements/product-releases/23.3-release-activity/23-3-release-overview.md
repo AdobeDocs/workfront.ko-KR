@@ -4,9 +4,9 @@ description: 23.3 릴리스 개요
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 29ef11a804cbb7e8da9ddac13bf51de7aa50db53
+source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
 workflow-type: tm+mt
-source-wordcount: '2648'
+source-wordcount: '2704'
 ht-degree: 0%
 
 ---
@@ -89,6 +89,22 @@ ht-degree: 0%
                             </li>
                             <li>
                                 <p><span class="preview">프로덕션 릴리스: 2023년 5월 18일</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">양식 디자이너 베타에 표시되는 논리 표시 및 건너뛰기 논리 표시기 및 규칙</a></p>
+                        <p>양식 디자이너 공개 베타가 2023년 7월 21일 미리보기 및 프로덕션에서 다시 활성화되었습니다. 또한 이제 양식 디자이너 내에서 이전 사용자 정의 양식에서 만든 기존 논리 규칙을 볼 수 있습니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2023년 7월 21일</p>
+                            </li>
+                            <li>
+                                <p>프로덕션 릴리스: 2023년 7월 21일</p>
                             </li>
                         </ul>
                     </td>

@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 exl-id: 46da311a-0e22-4def-9df8-e30b142c815d
-source-git-commit: 061d1a08a8c99b2770491ce2fcea63a9dad7a63f
+source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -29,10 +29,6 @@ Experience Manager Assets as a Cloud Service의 이 기능에 대한 자세한 �
 Experience Manager Assets Essentials의 이 기능에 대한 자세한 내용은 다음을 참조하십시오. [Experience Manager Assets Essentials 통합 구성](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 ## 새 양식 디자이너 Beta로 사용자 정의 양식 만들기
-
->[!IMPORTANT]
->
->양식 디자이너 베타가 2023년 5월 24일에 일시적으로 비활성화되었습니다. 기존 양식 빌더를 사용하여 사용자 정의 양식을 만들고 편집할 수 있습니다. 다음을 참조하십시오 [기존 양식 빌더로 사용자 정의 양식 만들기 또는 편집](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md).
 
 이제 공개 베타에서 사용할 수 있는 새 양식 디자이너에는 필드, 캔버스 및 필드 설정을 모두 동시에 볼 수 있는 새로운 캔버스 스타일 작업 영역이 있습니다.
 

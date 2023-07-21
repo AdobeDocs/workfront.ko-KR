@@ -3,9 +3,9 @@ title: 23.3 관리자 개선 사항
 description: 23.3 관리자 개선 사항
 author: Lisa
 feature: Product Announcements
-source-git-commit: 9eda5871d6712ca46580b79275a79f0e769af58f
+source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -31,3 +31,15 @@ ht-degree: 0%
 자세한 내용은 [타임시트 및 시간 환경 설정 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) 및 [그룹에 대한 타임시트 및 시간 환경 설정 구성](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
 [이 기능에 대한 비디오 데모 보기](https://video.tv.adobe.com/v/3419111/){target=_blank}
+
+## 양식 디자이너 베타에 표시되는 논리 표시 및 건너뛰기 논리 표시기 및 규칙
+
+양식 디자이너 공개 베타가 2023년 7월 21일 미리보기 및 프로덕션에서 다시 활성화되었습니다. 새 양식 디자이너에는 필드, 캔버스 및 필드 설정을 동시에 볼 수 있는 새로운 캔버스 스타일 작업 영역이 있습니다.
+또한 기존 양식 빌더에서 만든 표시 또는 건너뛰기 논리가 포함된 양식 디자이너 베타에서 사용자 정의 양식을 열 때 이제 논리를 볼 수 있습니다.
+
+* 양식 디자이너 캔버스의 필드에 있는 아이콘은 해당 필드에 논리가 구성되었거나 필드가 다른 필드에 구성된 논리 규칙에 사용되었음을 나타냅니다.
+* 논리가 적용된 필드를 선택하면 필드 설정에 기존 논리 규칙이 표시됩니다.
+
+기존 논리를 편집하고 사용자 정의 양식에 새 논리를 추가하는 작업은 양식 디자이너 Beta에서 아직 사용할 수 없지만 나중에 수행할 예정입니다.
+
+자세한 내용은 [양식 디자이너 개요](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md).
