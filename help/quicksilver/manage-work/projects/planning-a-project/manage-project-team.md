@@ -2,20 +2,21 @@
 product-area: projects;agile-and-teams
 navigation-topic: plan-a-project
 title: 프로젝트 팀 관리
-description: 프로젝트 팀은 프로젝트와 연결된 사용자로 구성됩니다. 프로젝트 팀의 멤버가 프로젝트의 사람 섹션에 표시됩니다.
+description: 프로젝트 팀은 프로젝트와 연계된 사용자로 구성됩니다. 프로젝트 팀의 멤버가 프로젝트의 사람 섹션에 표시됩니다.
 author: Alina
-feature: Work Management
+feature: Work Management, Projects
+role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '684'
 ht-degree: 0%
 
 ---
 
 # 프로젝트 팀 관리
 
-프로젝트 팀은 프로젝트와 연결된 사용자로 구성됩니다. 프로젝트 팀의 멤버가 프로젝트의 사람 섹션에 표시됩니다.
+프로젝트 팀은 프로젝트와 연계된 사용자로 구성됩니다. 프로젝트 팀의 멤버가 프로젝트의 사람 섹션에 표시됩니다.
 
 ## 액세스 요구 사항
 
@@ -49,7 +50,7 @@ ht-degree: 0%
 </table>
 -->
 
-이 문서의 절차를 수행하려면 다음 액세스 권한이 있어야 합니다.
+이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -60,27 +61,27 @@ ht-degree: 0%
    <td> <p>모든</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스*</td> 
+   <td role="rowheader">Adobe Workfront 라이센스*</td> 
    <td> <p>플랜 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>프로젝트에 대한 액세스 편집</p> <p>사용자에 대한 액세스 권한 보기 이상</p> <p><b>메모</b>
+   <td> <p>프로젝트에 대한 액세스 편집</p> <p>사용자에 대한 보기 또는 상위 액세스 권한</p> <p><b>메모</b>
 
-여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한 사항을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td>
+여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>프로젝트에 대한 권한 보기 이상</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>프로젝트에 대한 이상의 권한 보기</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*보유하고 있는 플랜, 라이선스 유형 또는 액세스를 알아보려면 Workfront 관리자에게 문의하십시오.
+*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
 
 ## 프로젝트 팀에 사용자 추가
 
-프로젝트 팀에 사용자를 추가하면 프로젝트에 대한 보기 권한 및 프로젝트의 작업, 문제 및 문서에 대한 권한이 제공됩니다. 자세한 내용은 문서를 참조하십시오 [프로젝트 팀 개요](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+프로젝트 팀에 사용자를 추가하면 해당 사용자는 프로젝트와 프로젝트의 작업, 문제 및 문서에 대한 보기 권한을 갖게 됩니다. 자세한 내용은 이 문서 를 참조하십시오. [프로젝트 팀 개요](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 >[!TIP]
 >
@@ -95,20 +96,20 @@ ht-degree: 0%
 
 프로젝트에서 다음 역할을 수행하는 사용자는 프로젝트 팀에 자동으로 추가되고 프로젝트를 만들 때 사람 섹션에 표시됩니다.
 
-* 프로젝트 작성자
+* 프로젝트 제작자
 * 프로젝트 소유자
-* 프로젝트 후원자
+* 프로젝트 스폰서
 
-사용자는 다음에 할당되면 프로젝트 팀에도 자동으로 추가됩니다.
+또한 사용자는 다음에 할당되면 프로젝트 팀에 자동으로 추가됩니다.
 
 * 작업
 * 문제
 
 ### 수동으로 프로젝트 팀에 사용자 추가 {#manually-add-users-to-a-project-team}
 
-프로젝트에서 역할을 수행하지 않는 사용자가 프로젝트 수명 동안 특정 업데이트 또는 변경 사항에 대한 알림을 받으려는 경우 프로젝트 팀에 수동으로 추가할 수 있습니다.
+프로젝트에서 어떤 역할도 수행하지 않는 사용자가 프로젝트 기간 동안 특정 업데이트 또는 변경 사항에 대한 알림을 받으려면 해당 사용자를 프로젝트 팀에 수동으로 추가할 수 있습니다.
 
-프로젝트 팀의 사용자에게 어떤 알림을 활성화할 수 있는지에 대한 자세한 내용은 [Adobe Workfront에서 사용할 수 있는 이벤트 알림](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+프로젝트 팀의 사용자에 대해 활성화할 수 있는 알림에 대한 자세한 내용은 을 참조하십시오. [Adobe Workfront에서 사용할 수 있는 이벤트 알림](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 <!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
 
@@ -120,7 +121,7 @@ ht-degree: 0%
 
 1. 사용자를 추가할 프로젝트로 이동합니다.
 
-1. 클릭 **사람** 왼쪽 패널에 표시됩니다. 을(를) 클릭하여 **자세히 표시** 먼저
+1. 클릭 **사람** 왼쪽 패널에서 다음을 클릭해야 할 수 있습니다. **더 보기** 첫 번째.
 
 1. 클릭 **사용자 추가**.
 
@@ -128,27 +129,28 @@ ht-degree: 0%
 
    ![add_users_dialog.png](assets/add-users-dialog-350x217.png)
 
-1. 에서 **사용자 추가** 상자에서 프로젝트 팀에 추가할 활성 Workfront 사용자의 이름을 입력하고 드롭다운 목록에 이 이름이 나타나면 이름을 클릭합니다.
+1. 다음에서 **사용자 추가** 상자에서 프로젝트 팀에 추가할 활성 Workfront 사용자의 이름을 입력한 다음 드롭다운 목록에 표시될 때 이름을 클릭합니다.
 
-   이 단계를 반복하여 프로젝트 팀에 여러 사용자를 추가합니다. 사용자는 프로젝트와 연결된 그룹에 속해야 합니다.
+   이 단계를 반복하여 프로젝트 팀에 여러 사용자를 추가합니다. 사용자는 프로젝트와 연계된 그룹에 속해야 합니다.
 
    >[!TIP]
    >
    >* 팀, 그룹, 회사 또는 작업 역할을 추가하여 사용자를 추가할 수 없습니다.
-   >* 사용자를 추가하면 아바타, 사용자의 기본 역할 및 이메일 주소를 확인하여 동일한 이름의 사용자를 구별합니다. 사용자를 추가할 때 해당 역할을 보려면 사용자를 하나 이상의 작업 역할과 연결해야 합니다.
-
+   >* 사용자를 추가할 때 아바타, 사용자의 기본 역할 및 이메일 주소에 따라 동일한 이름을 가진 사용자가 구별됩니다. 사용자를 추가할 때 이를 보려면 사용자를 하나 이상의 작업 역할과 연결해야 합니다.
+   >
+   >  사용자의 이메일을 보려면 사용자의 액세스 수준에서 연락처 정보 보기 설정을 활성화해야 합니다. 자세한 내용은 [사용자에게 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 
 1. 클릭 **추가**.
 
-   사용자는 프로젝트에 대한 보기 권한을 획득하고 프로젝트 팀의 일부로 프로젝트에 대한 알림을 받습니다.
+   사용자는 프로젝트에 대한 보기 권한을 얻고 프로젝트 팀의 일부로 프로젝트에 대한 알림을 받게 됩니다.
 
 ## 프로젝트 팀에서 사용자 제거
 
-사용자가 프로젝트에서 해당 역할에서 제거되면 해당 사용자는 프로젝트 팀의 일부로 남습니다.
+프로젝트에서 사용자를 역할에서 제거하면 해당 사용자는 프로젝트 팀의 일부로 유지됩니다.
 
-프로젝트 팀에서 사용자를 제거하고 사용자가 프로젝트의 작업이나 문제에 할당되면 완료되지 않은 작업 및 문제에 대해 사용자의 지정이 취소됩니다. 이 경우 작업 및 문제는 작업 로드 밸런서에서 지정되지 않은 작업 영역으로 돌아갑니다.
+프로젝트 팀에서 사용자를 제거하고 사용자가 프로젝트의 작업 또는 문제에 할당되면 완료되지 않은 작업 및 문제에서 사용자가 할당 해제됩니다. 이 경우 작업과 문제는 업무 균형자의 미할당 작업 영역으로 돌아갑니다.
 
-완료된 작업 및 문제에 지정된 사용자는 프로젝트 팀에서 제거한 후에도 계속 할당됩니다.
+완료된 작업 및 문제에 할당된 사용자는 프로젝트 팀에서 제거한 후에도 할당된 상태로 유지됩니다.
 
-프로젝트 팀에서 사용자 제거에 대한 자세한 내용은 [프로젝트에서 사용자 제거](../../../manage-work/projects/manage-projects/remove-users-from-projects.md).
+프로젝트 팀에서 사용자를 제거하는 방법에 대한 자세한 내용은 [프로젝트에서 사용자 제거](../../../manage-work/projects/manage-projects/remove-users-from-projects.md).
