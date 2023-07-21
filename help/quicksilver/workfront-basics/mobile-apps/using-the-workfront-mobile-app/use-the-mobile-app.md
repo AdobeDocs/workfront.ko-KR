@@ -6,9 +6,9 @@ description: 다음을 통해 조직 내 팀과 개인의 참여를 가속화하
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
-source-git-commit: 389a4cce56b5b81db521217c9bdd2a9a25850e1c
+source-git-commit: 9f033787076a78f9693aa8d1e6cea714ea7cef2c
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
@@ -35,11 +35,9 @@ ht-degree: 0%
 * Workfront 요청 만들기 및 처리
 * 타임시트에 시간 기록
 
-<!--
 >[!NOTE]
 >
->The [!DNL Adobe Workfront] mobile app is replacing the [!DNL Workfront Proof] app, which is no longer supported and will be removed entirely with the 23.4 release in October. [!DNL Workfront] customers should now use the [!DNL Adobe Workfront] mobile app for conducting their proof reviews and approvals.
--->
+>다음 [!DNL Adobe Workfront] 모바일 앱이 다음을 대체하고 있습니다. [!DNL Workfront Proof] 더 이상 지원되지 않는 앱으로, 10월에 23.10 릴리스를 통해 완전히 제거됩니다. [!DNL Workfront] 이제 고객은 [!DNL Adobe Workfront] 증명 검토 및 승인을 수행하기 위한 모바일 앱.
 
 에 대한 자세한 내용은 [!DNL Adobe Workfront] 모바일 앱에서 다음 문서를 검토하십시오.
 
