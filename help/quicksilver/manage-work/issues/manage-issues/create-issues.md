@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
+source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
 workflow-type: tm+mt
-source-wordcount: '1397'
+source-wordcount: '1495'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 # 문제 만들기
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+
+<!--remove Preview and Prod references when this comes to Prod-->
 
 프로젝트를 작업하는 동안 예기치 않은 이벤트가 발생할 수 있습니다. 이러한 예기치 않은 이벤트를 특정 프로젝트 또는 작업에 대한 문제로 기록할 수 있습니다. 적절한 액세스 권한이 있는 사용자는 프로젝트 또는 작업이 완료될 때까지 문제 상태를 보고 모니터링할 수 있으므로 긴 이메일 체인 또는 상태 미팅이 필요하지 않습니다. 계획된 이벤트인 작업과 달리 문제는 Adobe Workfront에서 계획되지 않은 작업 항목을 나타냅니다.
 
@@ -79,6 +81,13 @@ ht-degree: 0%
 
 프로젝트에서 새 문제 양식의 필드를 정의한 후 문제 만들기를 시작할 수 있습니다.
 
+<!--
+Creating issues differs depending on which environment you choose to create the issue. 
+
+### Create issues on a task or project using the New Issue button in the Production environment
+
+-->
+
 작업 또는 프로젝트에 문제를 만들려면 다음 작업을 수행하십시오.
 
 1. 문제를 만들려는 프로젝트로 이동합니다.
@@ -91,17 +100,15 @@ ht-degree: 0%
 
    ![](assets/qs-issue-list-on-project-with-new-issue-button-highlighted-350x270.png)
 
-1. (조건부) 프로젝트 생성자가 프로젝트에서 대기열 주제 또는 주제 그룹을 생성하면 새 문제 양식에 추가됩니다. 다음을 지정합니다. **주제 그룹** 또는 **대기열 주제** 을 참조하십시오. 사용자 환경에 맞게 사용자 정의된 이름이 있어야 합니다.\
+1. (조건부) 프로젝트 생성자가 프로젝트에서 대기열 주제 또는 주제 그룹을 생성하면 새 문제 양식에 추가됩니다. 다음을 지정합니다. **주제 그룹** 또는 **대기열 주제** 을 참조하십시오. 주제 그룹 및 대기열 주제의 이름이 사용자 환경에 맞게 사용자 정의되었습니다.\
    주제 그룹 만들기에 대한 자세한 내용은 [주제 그룹 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). 대기열 주제 만들기에 대한 자세한 내용은 [대기열 주제 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
    ![](assets/new-issue-screen-when-creating-issue-from-list-project-level-nwe-350x422.png)
 
-   <!--update the screen shot above for preview and highlight in yellow-->
-
    * 프로젝트에 설정된 대기열 주제가 하나뿐인 경우 자동으로 표시됩니다.
    * 주제 그룹에 대기열 주제 또는 주제 그룹이 없으면 주제 그룹 드롭다운에서 사용할 수 없습니다.
 
-1. (조건부) 프로젝트 생성자가 **문제 유형** 새 문제 양식에 표시할 필드에서 다음 선택 사항 중에서 문제 유형을 선택합니다.
+1. (조건부) 프로젝트 생성자가 **요청 유형** 새 문제 양식에 표시할 필드에서 다음 선택 사항 중에서 문제 유형을 선택합니다.
 
    * 버그 신고
    * 순서 변경
@@ -109,16 +116,94 @@ ht-degree: 0%
    * 요청\
      Workfront 관리자가 프로젝트 환경 설정을 구성한 방법에 따라 문제 유형의 이름이 다를 수 있습니다.
 
-1. 에서 사용할 수 있는 필드를 지정합니다. **새 문제** 양식. 새 문제를 입력할 때 필드를 정의하는 방법에 대한 자세한 내용은 [문제 편집](../../../manage-work/issues/manage-issues/edit-issues.md).
+   >[!TIP]
+   >
+   >요청 유형은 대기열 세부 정보 및 대기열 주제를 만들 때뿐만 아니라 새 문제 양식에 선택 항목으로 표시할 때에도 활성화되어야 합니다. 자세한 내용은 다음 문서를 참조하십시오.
+   >* [요청 대기열 만들기](../../requests/create-and-manage-request-queues/create-request-queue.md)
+   >  * [대기열 주제 만들기](../../requests/create-and-manage-request-queues/create-queue-topics.md)
+
+
+1. 에 새 문제의 이름 추가 **문제 이름** 필드.
+1. 에서 사용할 수 있는 필드를 계속 지정합니다. **새 문제** 양식. 새 문제를 입력할 때 사용할 수 있는 필드에 대한 자세한 내용은 [문제 편집](../../../manage-work/issues/manage-issues/edit-issues.md).
+
+   >[!IMPORTANT]
+   >
+   >새 문제 양식에서 모든 문제 관련 필드를 사용할 수 있는 것은 아닙니다. 프로젝트 생성자는 프로젝트의 대기열 세부 정보 영역을 정의할 때 문제를 생성할 때 사용할 수 있는 필드를 활성화합니다. 자세한 내용은 [요청 대기열 만들기](../../requests/create-and-manage-request-queues/create-request-queue.md).
+
+
 1. (조건부) 대기열 주제가 사용자 정의 양식과 연관되어 있으면 해당 사용자 정의 양식이 **새 문제** 양식.\
    또는\
-   프로젝트가 대기열 세부 정보 영역을 통해 문제 사용자 정의 양식과 연결된 경우 양식에 **새 문제** 기본 Workfront 필드 아래에 있는 양식입니다.
+   프로젝트가 대기열 세부 정보 영역을 통해 문제 사용자 정의 양식과 연결된 경우 양식에 **새 문제** 양식, 기본 Workfront 필드 뒤
 
    자세한 내용은 [요청 대기열 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 1. 클릭 **새 문제를 저장합니다.**
 
 여러 사용자, 작업 역할 또는 팀에 문제를 할당할 수 있습니다. 요청 할당 및 관리에 대한 자세한 내용은 [작업 및 팀 요청 관리](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
+
+<!--When this is coming to Production, remove the "Production" section above and replace it with the following content: 
+
+<div class="preview">
+
+### Create issues on a task or project using the New Issue button in the Preview environment
+
+To create an issue on a task or a project:
+
+1. Go to a project where you want to create the issue. 
+1. (Optional) If you want to log the issue for a task, go to the **Tasks** area, then click the name of a task. 
+1. Click the **Issues** section.
+
+   ![](assets/qs-issues-icon-highlighted-on-project-350x216.png)
+
+1. Click **New Issue**.
+   The New issue box displays.
+
+      ![](assets/new-issue-box-matches-new-request-ui.png)
+
+1. (Conditional) If the project creator created Queue Topics or Topic Groups on the project they are added to the new issue form. Specify the **Topic Group** or the **Queue Topic** of your new issue. Topic Groups and Queue Topics have names customized to your environment.  
+   For more information about creating Topic Groups, see [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). For more information about creating Queue Topics, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+
+   * If there is only one Queue Topic set on the project, it is displayed automatically.
+   * If the Topic Group does not have any Queue Topics or Topic Groups under it, nothing is available in the Topic Group drop-down.
+
+1. Add the issue name in the **Subject** field, then add a **Description**.
+
+1. (Conditional) If the project creator allowed for the **Request Type** field to display on the New Issue form, select the type of your issue from the following options:
+
+   * Bug Report
+   * Change Order
+   * Issue
+   * Request  
+     Depending on how your Workfront administrator has configured your Project Preferences, the names of the issue types might be different for you. 
+
+   >[!TIP]
+   >
+   >The Request Types must be enabled in the Queue Details and as well as when creating the Queue Topic to display as a selection in the New Issue form. For information, see the following articles: 
+   >* [Create a Request Queue](../../requests/create-and-manage-request-queues/create-request-queue.md)
+   >  * [Create Queue Topics](../../requests/create-and-manage-request-queues/create-queue-topics.md)
+
+1. Continue specifying the fields available in the **New issue** form. For more information about the fields available as you enter a new issue, see [Edit issues](../../../manage-work/issues/manage-issues/edit-issues.md).
+
+   >[!IMPORTANT]
+   >
+   >Not all the issue-related fields are available in the New issue form. The project creator enables the fields available when creating an issue when they define the Queue Details area of the project. For more information, see [Create a Requests Queue](../../requests/create-and-manage-request-queues/create-request-queue.md). 
+
+
+1. (Conditional) If the Queue Topics are associated with a custom form, that custom form will display in the **New issue** form.  
+   Or  
+   If the project is associated with an issue custom form through the Queue Details area, the form displays in the **New issue** form, after the default Workfront fields.
+
+   For information, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+
+1. Click **Submit**. 
+
+   Issues can be assigned to multiple users, job roles or to a team. For more information about assigning and managing requests, see [Manage work and team requests](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
+
+</div>
+-->
+
+
+
 
 ## 작업 또는 프로젝트에 대한 문제 인라인 만들기
 

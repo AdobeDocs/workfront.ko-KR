@@ -4,11 +4,12 @@ navigation-topic: create-and-manage-request-queues
 title: 대기열 주제 만들기
 description: 대기열 항목은 라우팅 규칙과 함께 작동하여 들어오는 작업을 자동으로 사용자, 작업 역할, 팀에 할당하거나 프로젝트에 배치합니다. 대기열 항목은 라우팅 규칙을 구현하기 위해 존재해야 하는 조건을 정의합니다.
 author: Alina
-feature: Work Management
+feature: Work Management, Requests
+role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '890'
 ht-degree: 3%
 
 ---
@@ -140,14 +141,18 @@ ht-degree: 3%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>요청 유형</strong> </td> 
-      <td> <p>이 대기열 주제가 저장할 요청 종류를 선택합니다. 표시되는 옵션은에서 설정됩니다. <strong>대기열 세부 정보</strong> 프로젝트의 탭. 필수 필드입니다. </p> <p>주: 요청 유형은 대기열 세부 정보 및 대기열 주제 페이지에서 모두 요청 유형을 선택한 경우에만 요청 영역에 선택 항목으로 표시됩니다. 프로젝트의 대기열 세부 정보 영역 설정에 대한 자세한 내용은 <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">요청 대기열 만들기</a>. </p> <p>다음 유형 중에서 선택합니다.</p> 
-       <ul> 
-        <li>버그 신고</li> 
-        <li>순서 변경</li> 
-        <li>문제</li> 
-        <li>요청</li> 
-       </ul> <p>Workfront 관리자가 이러한 옵션 중 일부의 이름을 변경했을 수 있습니다. </p> </td> 
-     </tr> 
+      <td> <p>이 대기열 주제가 저장할 요청 종류를 선택합니다. 표시되는 옵션은에서 설정됩니다. <strong>대기열 세부 정보</strong> 프로젝트의 탭. 필수 필드입니다. </p>
+
+   <p><b>메모</b>:
+
+   유형은 [대기열 세부 정보] 및 [대기열 주제] 페이지에서 [요청 유형]이 선택된 경우에만 [요청] 영역에 선택 항목으로 표시됩니다. 프로젝트의 대기열 세부 정보 영역 설정에 대한 자세한 내용은 <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">요청 대기열 만들기</a>. </p> <p>다음 유형 중에서 선택합니다.</p>
+   <ul>
+   <li>버그 신고</li>
+   <li>순서 변경</li>
+   <li>문제</li>
+   <li>요청</li>
+   </ul> <p>Workfront 관리자가 이러한 옵션 중 일부의 이름을 변경했을 수 있습니다. </p> </td>
+   </tr> 
     </tbody> 
    </table>
 
