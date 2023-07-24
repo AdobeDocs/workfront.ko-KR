@@ -7,9 +7,9 @@ description: '시스템에 설치된 파일(예: Photoshop 또는 Illustrator)�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 5c0cd18074cffdf0a4fe15affaf61add7314a83a
+source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1051'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 Workfront에는 다음과 같은 제한이 있습니다.
 
 * 파일은 파일당 4GB 미만이어야 합니다.
-* Microsoft Word(DOC, DOCX) 및 PowerPoint(PPT, PPTX) 파일은 512MB 미만이어야 합니다.
+* Microsoft Word(DOC, DOCX) 및 PowerPoint(PPT, PPTX) 파일은 512MB 미만이어야 합니다. (크기 제한이 적용되기 전에 생성된 이러한 파일 유형의 증명을 보관 해제하는 데에도 적용됩니다.)
 * XLS 및 XLSX 파일은 100MB 미만이어야 합니다.
 * 증명 댓글에 첨부된 파일은 30MB 미만이어야 합니다.
 * PNG의 높이와 너비는 65535px 미만이어야 합니다.
@@ -180,11 +180,15 @@ Workfront에는 다음과 같은 제한이 있습니다.
 > * XLT - Microsoft Excel 템플릿
 > * XLTX - Microsoft Excel 템플릿
 
+>[!WARNING]
+> 보안 문제로 인해 일시적으로 다음 정적 파일 형식을 지원하지 않습니다.
+>
+> * EPS - 캡슐화된 포스트스크립트
+
 * AI - Adobe Illustrator 아트워크
 * AIT - Adobe Illustrator 템플릿
 * DOC - Microsoft Word 문서
 * DOCX - Microsoft Word 문서
-* EPS - 캡슐화된 포스트스크립트
 * PDF - Adobe 휴대용 문서 파일
 * PPT - PowerPoint 프레젠테이션
 * PPTX - PowerPoint Presentation 2007 PS - PostScript 파일

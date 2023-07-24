@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: eac210d8-0e25-4aae-94f4-b26a81240482
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">표 <img src="assets/table-icon.png"></td> 
+      <td role="rowheader">테이블 <img src="assets/table-icon.png"></td> 
       <td> <p>열에 필드 데이터를 표시하는 테이블을 추가합니다.</p> <p>자세한 내용은 <a href="../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md" class="MCXref xref">보고 캔버스에서 테이블 블록 추가 또는 편집</a>.</p> </td> 
      </tr> 
      <tr> 
@@ -53,7 +53,7 @@ ht-degree: 0%
      </tr>
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader">스토리</td> 
-       <td> <p>보고서의 정보에 컨텍스트를 제공하는 텍스트를 추가합니다.</p> <p>자세한 내용은 [최종 링크]를 참조하십시오.</p> </td> 
+       <td> <p>보고서의 정보에 컨텍스트를 제공하는 텍스트를 추가합니다.</p> </td> 
       </tr>
      <tr data-mc-conditions=""> 
       <td role="rowheader">웹 콘텐츠</td> 
@@ -61,7 +61,7 @@ ht-degree: 0%
      </tr>
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader">캔버스 필터</td> 
-       <td> <p>사용자가 보고서의 다양한 측면을 볼 수 있도록 해 주는 필터를 추가합니다. 이 필터는 보고서의 모든 데이터에 적용됩니다.</p> <p>자세한 내용은 [최종 링크]를 참조하십시오.</p> </td> 
+       <td> <p>사용자가 보고서의 다양한 측면을 볼 수 있도록 해 주는 필터를 추가합니다. 이 필터는 보고서의 모든 데이터에 적용됩니다.</p> </td> 
       </tr>
     </tbody> 
    </table>
@@ -107,7 +107,7 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader">보고서 즐겨찾기</td> 
-      <td>편집 창에서 나간 후 <strong>별</strong> 아이콘 [아이콘] 을 클릭하여 보고서의 이름 옆에 즐겨찾는 보고서 목록에 추가합니다.</td> 
+      <td>편집 창에서 나간 후 <strong>별</strong> 아이콘을 클릭하여 보고서 이름 옆에 있는 즐겨찾는 보고서 목록에 추가합니다.</td> 
      </tr> 
     </tbody> 
    </table>
