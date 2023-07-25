@@ -3,29 +3,29 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: access-levels
-title: 새로운 라이센스를 위해 개체 및 영역에 액세스
-description: 아래 표는 각 Adobe Workfront 라이센스에서 Workfront의 개체 및 영역에 대해 허용하는 가장 높은 액세스 수준(편집 또는 보기)을 알려줍니다.
+title: 새 라이센스로 오브젝트 및 영역에 액세스
+description: 아래 표는 각 Adobe Workfront 라이선스에서 Workfront의 개체 및 영역에 대해 허용하는 가장 높은 수준의 액세스(편집 또는 보기)를 보여 줍니다.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
+source-git-commit: 38e548594b37ef3109d7df436955a5255881bb6d
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '397'
 ht-degree: 17%
 
 ---
 
-# 새로운 라이센스를 위해 개체 및 영역에 액세스
+# 새 라이센스로 오브젝트 및 영역에 액세스
 
-아래 표는 각 Adobe Workfront 라이센스에서 Workfront의 개체 및 영역에 대해 허용하는 가장 높은 액세스 수준(편집 또는 보기)을 알려줍니다.
+아래 표는 각 Adobe Workfront 라이선스에서 Workfront의 개체 및 영역에 대해 허용하는 가장 높은 수준의 액세스(편집 또는 보기)를 보여 줍니다.
 
-* **보기**: 사용자는 항목을 검토하고 공유할 수 있습니다.
-* **편집**: 사용자는 항목을 생성, 편집, 삭제 및 공유할 수 있습니다.
+* **보기**: 사용자가 항목을 검토하고 공유할 수 있습니다.
+* **편집**: 사용자가 항목을 만들고, 편집하고, 삭제하고, 공유할 수 있습니다.
 
-   >[!NOTE]
-   >
-   >다른 사용자가 개체를 공유할 때 공유자는 개체를 편집하는 능력을 제한하는 권한을 지정할 수 있습니다. 자세한 내용은 [개체에 대한 권한 공유 개요](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+  >[!NOTE]
+  >
+  >다른 사용자가 오브젝트를 공유할 때 공유자는 오브젝트를 편집하는 기능을 제한하는 권한을 지정할 수 있습니다. 자세한 내용은 [오브젝트에 대한 공유 권한 개요](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 <table style="table-layout:auto">
     <tr>
@@ -39,7 +39,7 @@ ht-degree: 17%
         <td>프로젝트</td>
         <td>편집</td>
         <td>보기</td>
-        <td>보기(세부 사항 페이지만)</td>
+        <td>보기(세부 정보 페이지만)</td>
         <td>액세스 권한 없음</td>
     </tr>
     <tr>
@@ -71,11 +71,11 @@ ht-degree: 17%
         <td>액세스 권한 없음</td>
     </tr>
     <tr>
-        <td>보고서, 대시보드 및 달력</td>
+        <td>보고서, 대시보드 및 캘린더</td>
         <td>편집</td>
         <td>보기</td>
         <td>보기*</td>
-        <td>보기(달력에 대해서만, 공유 권한 없음)</td>
+        <td>보기(캘린더에만 해당되며 공유 권한 없음)</td>
     </tr>
     <tr>
         <td>필터, 보기 및 그룹화</td>
@@ -142,15 +142,15 @@ ht-degree: 17%
     </tr>
 </table>
 
-&#42; 기여자 라이선스가 있는 사용자는 공유되는 보고서, 대시보드 및 달력만 볼 수 있습니다.
+&#42; 기여자 라이선스가 있는 사용자는 공유된 보고서, 대시보드 및 캘린더만 볼 수 있습니다.
 
 >[!NOTE]
 >
->Light 라이선스 또는 기여자 라이선스가 있는 사용자는 공유 기능이 제한됩니다. 자세한 내용은 [라이선스 개요](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+>Light 라이선스나 기여자 라이선스가 있는 사용자는 공유 기능이 제한됩니다. 자세한 내용은 [라이선스 개요](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 >
->외부 사용자는 Workfront에서 항목을 검색할 수 없습니다. 이 사용자는 특별히 공유된 문서와 달력을 볼 수 있습니다. 또한 사용자와 항목을 공유하는 사용자를 볼 수 있습니다.
+>외부 사용자가 Workfront에서 항목을 검색할 수 없습니다. 문서 및 캘린더와 특별히 공유되는 문서를 볼 수 있습니다. 또한 사용자와 항목을 공유하는 사용자를 볼 수 있습니다.
 
-다음 문서에서 각 개체 및 영역에 대해 액세스 수준이 허용하는 사항에 대한 자세한 정보를 찾을 수 있습니다.
+다음 문서에서 액세스 수준이 각 개체 및 영역에 허용하는 내용에 대한 자세한 정보를 찾을 수 있습니다.
 
 * [프로젝트에 대한 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)
 * [작업에 대한 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)
@@ -158,10 +158,10 @@ ht-degree: 17%
 * [문서에 대한 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md)
 * [포트폴리오 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md)
 * [프로그램에 대한 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md)
-* [보고서, 대시보드 및 달력에 대한 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)
+* [보고서, 대시보드 및 캘린더에 대한 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)
 * [필터, 보기 및 그룹화에 대한 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)
 * [사용자에게 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
-* [팀에 대한 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-teams.md)
+* [팀에 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-teams.md)
 * [템플릿에 대한 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md)
 * [재무 데이터에 대한 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)
 * [리소스 관리에 대한 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
