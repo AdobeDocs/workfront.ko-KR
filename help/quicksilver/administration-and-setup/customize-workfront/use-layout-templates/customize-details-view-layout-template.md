@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
+source-git-commit: 7c624eff8931d206285b6c4d91083f4bf09a88b0
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
@@ -35,14 +35,13 @@ or billing record
 
 객체에 대한 세부 정보 보기의 변경 사항은 사용자가 다음 영역에서 볼 수 있는 필드의 가용성과 순서를 결정합니다.
 
-<!-- the New box is not affected by the LT yet. Might be in the future. Commenting this one out for now: 
-* "New object" boxes, such as New Task and New Issue
+
+* Create Task와 같은 &quot;Create object&quot; 상자
 
   ![](assets/new-task-dialog.png)
 
--->
 
-* 작업 편집, 문제 편집 및 프로젝트 편집과 같은 &quot;개체 편집&quot; 화면
+* 작업 편집, 문제 편집 및 프로젝트 편집과 같이 오브젝트를 편집할 때 &quot;오브젝트 편집&quot; 화면
 
   ![](assets/edit-task-screen.png)
 
