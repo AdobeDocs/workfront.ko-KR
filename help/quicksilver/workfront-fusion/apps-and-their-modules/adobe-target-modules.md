@@ -7,8 +7,9 @@ navigation-topic: apps-and-their-modules
 title: Adobe Target 모듈
 description: 다음에서 [!DNL Adobe Workfront Fusion] 시나리오에서는 다음을 사용하는 워크플로를 자동화할 수 있습니다 [!DNL Adobe Target], as well as connect it to multiple third-party applications and services. [!DNL Adobe Target] 모듈을 사용하면 레코드를 만들거나, 읽거나, 업데이트하거나, 삭제하고, 지정된 유형의 모든 레코드를 나열하거나, 지정한 기준을 기반으로 레코드를 검색하거나, [!DNL Adobe Target] API.
 author: Becky
+feature: Workfront Fusion
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '2646'
 ht-degree: 0%

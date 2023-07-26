@@ -7,8 +7,9 @@ navigation-topic: apps-and-their-modules
 title: Adobe Journey Optimizer 모듈
 description: 다음에서 [!DNL Adobe Workfront Fusion] 시나리오에서는 다음을 사용하는 워크플로를 자동화할 수 있습니다 [!DNL Adobe Journey Optimizer]을 여러 타사 응용 프로그램 및 서비스에 연결할 수 있습니다.
 author: Becky
+feature: Workfront Fusion
 exl-id: 2c1aea46-edbf-42a3-a6e9-f8aea042a48d
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1602'
 ht-degree: 0%

@@ -5,10 +5,10 @@ navigation-topic: create-and-manage-custom-forms
 title: 시스템에서 사용자 정의 필드 또는 위젯 삭제
 description: 시스템 성능을 개선하고 양식을 사용자가 쉽게 사용할 수 있도록 하기 위해 더 이상 사용되지 않는 사용자 정의 필드 및 위젯을 시스템에서 제거할 수 있습니다.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c22a7ced-da81-40b5-bb4d-69d59b855add
-source-git-commit: f43a0aae33b96f5a061d9134122078d73fc21e40
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 0%
@@ -74,8 +74,8 @@ ht-degree: 0%
 
       * 사용자 정의 양식 빌더를 사용하는 경우 [사용자 정의 양식에서 사용자 정의 필드 또는 위젯 재사용](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
       * 양식 디자이너를 사용하는 경우 [사용자 정의 양식에 새 필드 또는 기존 필드 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-new-or-existing-fields-to-your-custom-form).
-   1. 새 사용자 정의 양식을 저장합니다.
 
+   1. 새 사용자 정의 양식을 저장합니다.
 
 1. 에 설명된 대로 관리 액세스 권한이 있는 사용자만 사용자 정의 양식에 액세스할 수 있도록 제한합니다. [사용자 정의 양식 공유](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md).
 1. 에 설명된 대로 원래 사용자 정의 양식이 이미 적용된 객체에 새 사용자 정의 양식을 적용합니다. [오브젝트에 사용자 정의 양식 추가](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).

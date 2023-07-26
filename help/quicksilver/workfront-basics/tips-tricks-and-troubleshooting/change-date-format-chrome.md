@@ -2,25 +2,26 @@
 filename: change-date-format-chrome
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
-title: 날짜의 형식 변경 [!DNL Adobe Workfront]
+title: 날짜 형식 변경 [!DNL Adobe Workfront]
 description: 날짜의 날짜 형식을 변경하려면 [!DNL Adobe Workfront] 브라우저에서 언어 설정을 변경해야 합니다.
+feature: Get Started with Workfront
 exl-id: 9fac92fb-e3d1-4537-b324-4b35447cef28
-source-git-commit: ecb6928c946203b03a93cf5687fd53abf8e6a8f3
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 0%
 
 ---
 
-# 날짜의 형식 변경 [!DNL Adobe Workfront]
+# 날짜 형식 변경 [!DNL Adobe Workfront]
 
 <!--this article used to be called "Change the date format in Adobe Workfront when using Chrome". The team decieded to make it more generic and hide the steps. Also see drafted content below-->
 
-날짜 형식을 변경하려면 [!DNL Adobe Workfront], 예 [!UICONTROL 계획 완료 일자], [!UICONTROL 실제 완료 날짜], 또는 [!UICONTROL 예상 완료 일자], DD/MM/YYYY에서 MM/DD/YYYY로, 또는 그 반대로, 브라우저의 언어 설정을 변경해야 합니다.
+날짜 형식을 변경하려면 [!DNL Adobe Workfront], 예: [!UICONTROL 계획된 완료 일자], [!UICONTROL 실제 완료 일자], 또는 [!UICONTROL 예상 완료 일자]예를 들어 DD/MM/YYYY에서 MM/DD/YYYY로 또는 그 반대로 브라우저에서 언어 설정을 변경해야 합니다.
 
-브라우저의 기본 언어가 *[!UICONTROL 영어(미국)]* yyyy/MM/DD 형식으로 날짜가 표시됩니다.
+브라우저의 기본 언어가 로 설정된 경우 *[!UICONTROL 영어(미국)]*, 날짜는 YYYY/MM/DD 형식으로 표시됩니다.
 
-에서 언어 설정을 변경하려면 [!DNL Chrome] 또는 다른 브라우저에서는 해당 브라우저의 설정을 수정해야 합니다. 브라우저의 설정을 수정하는 단계는 브라우저마다 다릅니다. 브라우저의 [!UICONTROL 도움말], [!UICONTROL 기본 설정], 또는 [!UICONTROL 설정] 영역을 사용하여 설정을 수정하는 방법을 알아보십시오.
+에서 언어 설정을 변경하려면 [!DNL Chrome] 또는 다른 모든 브라우저에서 해당 브라우저의 설정을 수정해야 합니다. 브라우저 설정을 동기화하는 단계는 브라우저마다 다릅니다. 브라우저의 [!UICONTROL 도움말], [!UICONTROL 환경 설정], 또는 [!UICONTROL 설정] 설정을 수정하는 방법을 배울 영역.
 
 <!--drafted because we should not document steps for a third-party application
 

@@ -5,10 +5,10 @@ navigation-topic: create-and-manage-custom-forms
 title: 기존 양식 빌더와 사용자 정의 필드 및 위젯에 대한 공유 구성
 description: 기본적으로 사용자 정의 양식에 새 사용자 정의 필드 또는 위젯을 추가하면 사용자 정의 양식에 대한 액세스 권한이 있는 시스템의 모든 사용자가 해당 항목에 대한 레이블 및 이름과 같은 속성을 편집할 수 있습니다. 공유할 수 있는 사용자를 제어하여 변경할 수 있습니다.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: ae774e73-9798-40d1-a96d-a4511f729e7f
-source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 2%
@@ -39,7 +39,7 @@ ht-degree: 2%
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>사용자 정의 양식에 대한 관리 액세스</p> <p>Workfront 관리자가 이 액세스 권한을 부여하는 방법에 대한 자세한 내용은 다음을 참조하십시오. <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">사용자에게 특정 영역에 대한 관리 액세스 권한 부여</a>.</p> </td> 
+   <td> <p>사용자 정의 양식에 대한 관리 액세스</p> <p>Workfront 관리자가 이 액세스 권한을 부여하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">사용자에게 특정 영역에 대한 관리 액세스 권한 부여</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,7 +61,6 @@ ht-degree: 2%
    1. 사용자 정의 양식을 선택한 다음 **편집**.
    1. 오른쪽의 양식 편집 영역에서 공유를 구성할 항목을 선택합니다.
    1. 왼쪽 패널에서 **필드 공유**.
-
 
 1. 다음에서 **사용자 정의 필드 액세스** 항목을 공유할 사람과 공유할 방법을 지정하는 상자가 표시됩니다.
 
@@ -95,11 +94,11 @@ ht-degree: 2%
 
    * **Workfront의 모든 사용자가 편집할 수 있도록 시스템 전체에서 편집 가능하도록 설정** (기본 옵션)
 
-      사용자 정의 필드 또는 위젯을 추가하고 이에 대한 공유를 제한하지 않으면 사용자 정의 양식에 대한 액세스 권한이 있는 모든 사용자가 사용자 정의 필드 또는 위젯을 보고 속성을 편집할 수 있습니다.
+     사용자 정의 필드 또는 위젯을 추가하고 이에 대한 공유를 제한하지 않으면 사용자 정의 양식에 대한 액세스 권한이 있는 모든 사용자가 사용자 정의 필드 또는 위젯을 보고 속성을 편집할 수 있습니다.
 
    * **시스템 전체 편집 액세스 제거**
 
-      목록에 추가한 사용자만 액세스할 수 있습니다.
+     목록에 추가한 사용자만 액세스할 수 있습니다.
 
    * **Workfront의 모든 사용자가 볼 수 있도록 시스템 전체에 표시**
 

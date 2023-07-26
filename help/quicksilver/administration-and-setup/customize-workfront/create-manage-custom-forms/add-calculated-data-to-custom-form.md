@@ -5,10 +5,10 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: 사용자 정의 양식에서 계산을 생성하는 계산된 사용자 정의 필드를 작성할 수 있습니다. 이를 위해 사용자 지정 필드, 계산된 사용자 지정 데이터 필드 및 기본 제공 Workfront 필드일 수 있는 데이터 표현식과 기존 필드의 이름을 사용하는 문을 만듭니다. 이 명령문은 사용자가 입력하는 데이터를 계산하고 새 계산된 사용자 정의 필드에 결과를 표시합니다.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
-source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '2573'
 ht-degree: 0%
@@ -23,19 +23,19 @@ ht-degree: 0%
 
 * 단일 기본 제공 필드에 대한 간단한 참조입니다.
 
-   >[!INFO]
-   >
-   > **예:** 프로젝트 및 작업에서 생성된 수입을 계산하기 위해 기본 제공 필드 실제 수입을 포함하는 계산된 사용자 정의 필드를 만들 수 있습니다. 누군가 사용자 정의 양식을 프로젝트 또는 작업에 첨부하면 프로젝트 또는 작업의 수익이 필드에 표시됩니다.
+  >[!INFO]
+  >
+  > **예:** 프로젝트 및 작업에서 생성된 수입을 계산하기 위해 기본 제공 필드 실제 수입을 포함하는 계산된 사용자 정의 필드를 만들 수 있습니다. 누군가 사용자 정의 양식을 프로젝트 또는 작업에 첨부하면 프로젝트 또는 작업의 수익이 필드에 표시됩니다.
 
 * 하나 이상의 필드를 참조하는 표현식입니다. 사용자 정의 필드, 기타 계산된 사용자 정의 필드 및 기본 제공 필드일 수 있습니다.
 
-   >[!INFO]
-   >
-   >**예:** 프로젝트 및 태스크에서 생성된 이익을 계산하기 위해 매출에서 비용을 빼는 수학 표현식이 포함된 Profit이라는 계산된 사용자 정의 필드를 생성할 수 있습니다.
-   >
-   >이를 위해 내장된 Workfront 필드 실제 비용 및 실제 수익과 함께 수학 표현식 SUB(빼기)를 사용할 수 있습니다.
-   >
-   >아래 단계에서 이 예제를 수행하는 방법을 확인할 수 있습니다.
+  >[!INFO]
+  >
+  >**예:** 프로젝트 및 태스크에서 생성된 이익을 계산하기 위해 매출에서 비용을 빼는 수학 표현식이 포함된 Profit이라는 계산된 사용자 정의 필드를 생성할 수 있습니다.
+  >
+  >이를 위해 내장된 Workfront 필드 실제 비용 및 실제 수익과 함께 수학 표현식 SUB(빼기)를 사용할 수 있습니다.
+  >
+  >아래 단계에서 이 예제를 수행하는 방법을 확인할 수 있습니다.
 
 조직의 사용자 정의 양식을 만들고 연결할 수 있는 필드 유형을 이해하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
@@ -57,7 +57,7 @@ ht-degree: 0%
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>사용자 정의 양식에 대한 관리 액세스</p> <p>Workfront 관리자가 이 액세스 권한을 부여하는 방법에 대한 자세한 내용은 다음을 참조하십시오. <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">사용자에게 특정 영역에 대한 관리 액세스 권한 부여</a>.</p> </td> 
+   <td> <p>사용자 정의 양식에 대한 관리 액세스</p> <p>Workfront 관리자가 이 액세스 권한을 부여하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">사용자에게 특정 영역에 대한 관리 액세스 권한 부여</a>.</p> </td> 
   </tr>  
  </tbody> 
 </table>
@@ -95,7 +95,7 @@ ht-degree: 0%
       <td> 기본적으로 필드에 대해 만드는 수식은 여기에 저장됩니다. 텍스트를 추가하여 필드 및 그 안에 있는 공식에 대한 추가 정보를 제공할 수 있습니다. 이 기능은 다음 두 가지 방법으로 유용할 수 있습니다. 
        <ul> 
         <li> <p>공식이 무엇인지, 어떻게 작동하는지 다시 알리기 위해 이 기능은 여러 양식에서 이 계산된 사용자 정의 필드를 사용하려는 경우 특히 유용합니다.</p> </li> 
-        <li> <p>툴팁으로 사용자는 필드를 마우스로 가리키면 표시됩니다. 도구 설명에 표시할 텍스트를 여기에 추가합니다.</p> <p>도구 설명에 수식을 표시하지 않고 헷갈릴 수 있도록 하려면 숨길 수 있습니다. 자세한 내용은 섹션의 "지침에 수식 표시" 테이블 행을 참조하십시오. <a href="#build-the-calculation-for-your-calculated-custom-field" class="MCXref xref">계산된 사용자 정의 필드에 대한 계산을 작성합니다</a> 이 문서에서.</p> </li> 
+        <li> <p>툴팁으로 사용자는 필드 위로 마우스를 가져가면 볼 수 있습니다. 도구 설명에 표시할 텍스트를 여기에 추가합니다.</p> <p>도구 설명에 수식을 표시하지 않고 헷갈릴 수 있도록 하려면 숨길 수 있습니다. 자세한 내용은 섹션의 "지침에 수식 표시" 테이블 행을 참조하십시오. <a href="#build-the-calculation-for-your-calculated-custom-field" class="MCXref xref">계산된 사용자 정의 필드에 대한 계산을 작성합니다</a> 이 문서에서.</p> </li> 
        </ul> <p>새 양식에서 동일한 계산된 사용자 정의 필드를 사용하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md#using-an-existing-calculated-custom-field-on-a-new-form" class="MCXref xref">사용자 정의 양식에서 기존의 계산된 사용자 정의 필드 재사용</a>.</p> </td> 
      </tr> 
      <tr> 
@@ -139,17 +139,15 @@ ht-degree: 0%
    >다음 중 원하는 작업을 수행하여 계산에 도움을 받을 수 있습니다.
    > 
    >* 계산에서 표현식 위로 마우스를 가져가 설명, 사용 방법을 보여주는 예 및 문서의 추가 정보에 대한 &quot;자세히 알아보기&quot; 링크를 확인합니다 [계산된 데이터 표현식](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
-      >  ![](assets/hover-expression-help-text.jpg)
+   >  ![](assets/hover-expression-help-text.jpg)
    >* 색상 코딩을 사용하여 추가한 구성 요소를 식별합니다. 표현식은 파란색으로 표시되고 필드는 녹색으로 표시됩니다.
-      >  ![](assets/colors-fields-expressions.jpg)
+   >  ![](assets/colors-fields-expressions.jpg)
    >* 가면서 분홍색으로 강조 표시된 계산 오류를 찾습니다. 강조 표시된 오류 위로 마우스를 가져가 원인에 대한 간단한 설명을 표시할 수 있습니다.
-      >  ![](assets/error-help.png)
+   >  ![](assets/error-help.png)
    >* 계산 아래 영역에서 기존 Workfront 객체에서 결과를 미리 봅니다.
-      ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
-
-      >  ![](assets/preview-calc.jpg)
+   ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
+   >  ![](assets/preview-calc.jpg)
    >* 왼쪽에 표시되는 줄 번호를 사용하여 긴 계산에서 참조 표현식입니다.
-
 
 1. 클릭 **최소화** 계산된 사용자 정의 필드에 대한 계산 생성을 마치면
 
@@ -220,15 +218,15 @@ For example: `{DE:Profit}`
 
 * 계산에서 데이터를 가져올 필드를 참조하도록 하려면 *상위* object 사용자 정의 양식이 오브젝트에 첨부되어 있는 경우 필드 이름 앞에 부모 오브젝트의 오브젝트 유형(중괄호)을 추가해야 합니다.
 
-   예를 들어 사용자 정의 양식이 작업에서 작동하도록 구성되어 있고 양식을 작업에 첨부할 때 필드가 상위 개체의 실제 수입을 계산하도록 하려면 다음을 표시해야 합니다 `Project` 을(를) 필드의 오브젝트 유형으로 만들면:
+  예를 들어 사용자 정의 양식이 작업에서 작동하도록 구성되어 있고 양식을 작업에 첨부할 때 필드가 상위 개체의 실제 수입을 계산하도록 하려면 다음을 표시해야 합니다 `Project` 을(를) 필드의 오브젝트 유형으로 만들면:
 
-   `{project}.{actualRevenue}`
+  `{project}.{actualRevenue}`
 
-   또는 사용자 정의 필드인 경우:
+  또는 사용자 정의 필드인 경우:
 
-   `{project}.{DE:profit}`
+  `{project}.{DE:profit}`
 
-   에 대한 사용자 지정이 여러 객체 유형에 대해 구성되어 있으므로 상위 객체의 객체 유형을 잘 모를 경우 와일드카드 필터 변수를 사용할 수 있습니다 `$$OBJCODE` 가능한 각 유형에 대해 계산이 작동하도록 합니다. 자세한 내용은 [다중 오브젝트 사용자 정의 양식의 계산된 사용자 정의 필드](#calculated-custom-fields-in-multi-object-custom-forms) 이 문서에서.
+  에 대한 사용자 지정이 여러 객체 유형에 대해 구성되어 있으므로 상위 객체의 객체 유형을 잘 모를 경우 와일드카드 필터 변수를 사용할 수 있습니다 `$$OBJCODE` 가능한 각 유형에 대해 계산이 작동하도록 합니다. 자세한 내용은 [다중 오브젝트 사용자 정의 양식의 계산된 사용자 정의 필드](#calculated-custom-fields-in-multi-object-custom-forms) 이 문서에서.
 
 ### 마침표로 항목 구분
 
@@ -294,7 +292,6 @@ For example: `{DE:Profit}`
 * 누군가 개체의 계산된 사용자 정의 필드에서 참조하는 다른 필드를 편집합니다.
 * 계산된 표현식이 비어 있고 필드에 값이 있습니다. 이 값은 null로 설정됩니다.
 
-   >[!NOTE]
-   >
-   ><div>오브젝트에 첨부된 사용자 정의 양식에서 계산된 사용자 정의 필드의 날짜 및 시간 문은 조직의 인스턴스 및 사용자 프로필에 대해 설정된 시간대 구성이 아니라 UTC(협정 세계시)에 의해 계산되고 저장됩니다. 사용자 정의 양식의 계산은 각 사용자의 개별 시간대를 기반으로 하여 생성됩니다.</div>
-
+  >[!NOTE]
+  >
+  ><div>오브젝트에 첨부된 사용자 정의 양식에서 계산된 사용자 정의 필드의 날짜 및 시간 문은 조직의 인스턴스 및 사용자 프로필에 대해 설정된 시간대 구성이 아니라 UTC(협정 세계시)에 의해 계산되고 저장됩니다. 사용자 정의 양식의 계산은 각 사용자의 개별 시간대를 기반으로 하여 생성됩니다.</div>

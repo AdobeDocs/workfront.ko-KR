@@ -7,8 +7,9 @@ navigation-topic: apps-and-their-modules
 title: Figma 모듈
 description: 포함 [!DNL Adobe Workfront Fusion] 그림 모듈에서는 주석, 파일, 파일 버전 또는 프로젝트 목록을 검색할 수 있습니다. Figma API에 댓글을 게시하거나 호출할 수도 있습니다.
 author: Becky
+feature: Workfront Fusion
 exl-id: d88db592-32d4-4765-952f-9ffb58cf1720
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '2309'
 ht-degree: 1%

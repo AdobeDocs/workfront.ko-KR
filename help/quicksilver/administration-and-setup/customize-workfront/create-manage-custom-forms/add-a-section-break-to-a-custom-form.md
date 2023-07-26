@@ -4,10 +4,10 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: 기존 양식 빌더로 사용자 정의 양식에 섹션 구분 추가
 description: 사용자 정의 양식의 사용자 정의 필드 및 위젯을 제목이 있는 섹션으로 그룹화할 수 있습니다. 이 기능은 양식을 작성할 사용자에게 구성된 경험을 제공하는 데 유용합니다. 또한 특정 사용자 정의 필드 및 위젯에 대한 액세스를 특정 사용자로 제한해야 하는 경우 섹션에 배치한 다음 해당 사용자에게만 섹션에 대한 액세스 권한을 부여할 수 있습니다.
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 44a52767-60a7-4aaa-b3b8-6b8fb7da7e72
-source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1131'
 ht-degree: 0%
@@ -50,7 +50,7 @@ ht-degree: 0%
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>사용자 정의 양식에 대한 관리 액세스</p> <p>Workfront 관리자가 이 액세스 권한을 부여하는 방법에 대한 자세한 내용은 다음을 참조하십시오. <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">사용자에게 특정 영역에 대한 관리 액세스 권한 부여</a>.</p> </td> 
+   <td> <p>사용자 정의 양식에 대한 관리 액세스</p> <p>Workfront 관리자가 이 액세스 권한을 부여하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">사용자에게 특정 영역에 대한 관리 액세스 권한 부여</a>.</p> </td> 
   </tr>  
  </tbody> 
 </table>

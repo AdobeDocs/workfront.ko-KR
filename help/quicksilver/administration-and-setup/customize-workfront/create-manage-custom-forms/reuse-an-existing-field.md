@@ -5,10 +5,10 @@ navigation-topic: create-and-manage-custom-forms
 title: 기존 양식 빌더를 사용하여 사용자 정의 양식의 사용자 정의 필드 또는 에셋 위젯 재사용
 description: 사용자 정의 양식을 만들거나 편집할 때 다른 사용자 정의 양식에 이미 추가된 사용자 정의 필드 또는 위젯을 추가할 수 있습니다.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 2c617909-48cb-4ee1-b0e8-002f2e57b0f0
-source-git-commit: ac5b7e0237dbcaea14010eda658f7d5a6be089cc
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 0%

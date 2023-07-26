@@ -7,8 +7,9 @@ navigation-topic: apps-and-their-modules
 title: Adobe Creative Cloud 라이브러리 모듈
 description: 포함 [!DNL Adobe Workfront Fusion Adobe Creative Cloud] 라이브러리 모듈에서는 요소나 라이브러리를 만들거나 업데이트할 때 시나리오를 시작할 수 있습니다. 요소를 업로드, 검색, 보관 또는 나열하거나 [!DNL Adobe Creative Cloud Libraries] API.
 author: Becky
+feature: Workfront Fusion
 exl-id: 8affa34b-803d-48a5-a986-9fbe0cb8c8f5
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1241'
 ht-degree: 1%

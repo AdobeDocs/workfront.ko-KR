@@ -4,8 +4,9 @@ navigation-topic: delegate-work
 title: 작업 및 문제 위임
 description: 부재 중 할당된 작업을 임시로 위임할 수 있습니다. 이 문서에서는 작업 및 문제 할당을 위임하는 방법에 대해 설명합니다.
 author: Alina
+feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1487'
 ht-degree: 1%
@@ -32,16 +33,14 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
 >
 >* 위임자로 선택한 사용자는 위임한 작업 및 문제에 대한 권한과 동일한 권한을 받습니다.
 >* 권한은 자신의 액세스 수준 내에서 작동해야 하며 경우에 따라 액세스 수준이 본인의 액세스 수준보다 낮을 수 있습니다.
-
-   >
-   >   
-   >   예를 들어, 사용자가 자신의 액세스 수준에 있는 작업에 대한 보기 액세스만 가지고 있고 위임된 작업에 대한 관리 권한이 있는 경우, 위임한 작업에 대한 관리 권한을 받게 됩니다. 그러나 위임된 작업에 대해 사용자와 동일한 작업을 수행할 수 없습니다. 부재 중 작업을 업데이트할 수 있도록 시스템 관리자에게 작업에 대한 편집 액세스 권한을 요청해야 합니다.
-   >
-   >   
-   >   이 액세스 수준을 수정하는 방법에 대한 자세한 내용은 [사용자 정의 액세스 수준 만들기 또는 수정](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>
+>   
+>   예를 들어, 사용자가 자신의 액세스 수준에 있는 작업에 대한 보기 액세스만 가지고 있고 위임된 작업에 대한 관리 권한이 있는 경우, 위임한 작업에 대한 관리 권한을 받게 됩니다. 그러나 위임된 작업에 대해 사용자와 동일한 작업을 수행할 수 없습니다. 부재 중 작업을 업데이트할 수 있도록 시스템 관리자에게 작업에 대한 편집 액세스 권한을 요청해야 합니다.
+>
+>   
+>   이 액세스 수준을 수정하는 방법에 대한 자세한 내용은 [사용자 정의 액세스 수준 만들기 또는 수정](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 >
 >* 위임이 이미 시작된 후 할당된 항목의 경우 항목이 할당된 후 최대 1시간이 걸릴 수 있습니다. [!DNL Workfront] 을 클릭하여 새로 할당된 항목을 대리인과 공유할 수 있습니다.
-
 
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
@@ -87,7 +86,7 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
 
 * 사용자 [!DNL Workfront] 또는 그룹 관리자가 [!UICONTROL 사용자가 기록된 시간이 있는 작업 및 문제를 삭제할 수 있도록 허용] 에서 설정 [!UICONTROL 설정] 내 영역 [!DNL Workfront] 인스턴스.
 
-   자세한 내용은 [시스템 전체 작업 및 문제 환경 설정 구성](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  자세한 내용은 [시스템 전체 작업 및 문제 환경 설정 구성](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 ## 다른 사용자에게 작업 및 문제 위임
 
@@ -105,29 +104,30 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
 
    * [!UICONTROL **작업 및 문제 위임 대상**]: 작업 및 문제를 위임할 사용자 이름을 입력한 다음 목록에 표시될 때 선택합니다. 한 명의 사용자만 선택할 수 있습니다.\
 
-      위임자로 선택한 사용자는 위임한 작업 및 문제에 대한 권한과 동일한 권한을 받습니다. 자세한 내용은 [작업 및 문제 개요 위임](delegate-work-overview.md).
+     위임자로 선택한 사용자는 위임한 작업 및 문제에 대한 권한과 동일한 권한을 받습니다. 자세한 내용은 [작업 및 문제 개요 위임](delegate-work-overview.md).
 
    * [!UICONTROL **시작일**]: 캘린더에서 작업 항목의 위임을 시작해야 하는 날짜를 선택합니다.
 
-      >[!TIP]
-      >
-      >시작 날짜는 과거일 수 없습니다.
+     >[!TIP]
+     >
+     >시작 날짜는 과거일 수 없습니다.
 
    * [!UICONTROL **종료일 없음**]: 위임에 대한 종료 날짜를 지정하지 않으려면 이 옵션을 선택합니다.
 
    * [!UICONTROL **종료일**]: 캘린더에서 위임을 중지할 날짜를 선택합니다.
 
-      >[!TIP]
-      >
-      >종료 날짜를 선택하지 않으면 현재 날짜에만 위임이 활성화됩니다.
+     >[!TIP]
+     >
+     >종료 날짜를 선택하지 않으면 현재 날짜에만 위임이 활성화됩니다.
 
-      ![](assets/delegate-box-expanded-in-home.png)
+     ![](assets/delegate-box-expanded-in-home.png)
 
 1. [!UICONTROL **저장**]&#x200B;을 클릭합니다.
 
    다음과 같은 상황이 발생합니다.
 
    * 작업이 지정된 사용자에게 위임됩니다. 선택한 시간대 내에 날짜가 있는(위임을 활성화한 후 새로 할당된 작업 포함) 모든 미완료 작업 또는 문제가 위임됩니다.
+
    >[!TIP]
    >
    >   위임 시간대 내에 날짜가 있는 완료된 작업 항목은 위임되지 않습니다.
@@ -138,7 +138,6 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
    * 작업 및 문제가 다른 사용자에게 위임되었다는 표시는에서 할당을 볼 수 있는 대부분의 영역에 표시됩니다. [!DNL Workfront]. 대리자 이름이 포함되지 않은 영역에 대한 자세한 내용은 [작업 및 문제 개요 위임](delegate-work-overview.md).
 
    * 다음 [!UICONTROL **위임**] 의 단추 [!UICONTROL 홈] 영역 변경 대상 [!UICONTROL **위임 편집**] 위임이 있음을 나타냅니다.
-
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
    (NOTE: is this shot correct?&nbsp;See UI - this is a mock)
@@ -151,8 +150,7 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
 
    * 대리인으로 선택한 사용자는 이벤트 알림이 활성화된 경우 위임에 대한 이메일을 받게 됩니다.
 
-      개인 이메일 알림 활성화에 대한 자세한 내용은 [자체 이벤트 알림 활성화 또는 비활성화](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
-
+     개인 이메일 알림 활성화에 대한 자세한 내용은 [자체 이벤트 알림 활성화 또는 비활성화](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 
 
@@ -203,13 +201,13 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
 
 * 작업 또는 문제 헤더
 
-   ![](assets/assignments-and-delegates-panel-in-task-header.png)
+  ![](assets/assignments-and-delegates-panel-in-task-header.png)
 
-   다음 [!UICONTROL 할당] 작업 또는 문제 헤더의 필드가 다음으로 변경됨 [!UICONTROL 할당 및 위임].
+  다음 [!UICONTROL 할당] 작업 또는 문제 헤더의 필드가 다음으로 변경됨 [!UICONTROL 할당 및 위임].
 
 * 다음 [!UICONTROL 업무 균형자] 작업 또는 문제를 수동으로 할당할 때
 
-   ![](assets/assignments-and-delegates-panel-in-workload-balancer.png)
+  ![](assets/assignments-and-delegates-panel-in-workload-balancer.png)
 
 >[!NOTE]
 >
@@ -243,6 +241,7 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
    * 다른 사용자에게 위임한 항목의 경우 대리자의 이름이에 표시됩니다. [!UICONTROL **작업 목록**] 및 [!UICONTROL **할당 및 위임**] 오른쪽 필드.
 
    * 내게 위임된 항목의 경우 할당자의 이름이에 표시됩니다. [!UICONTROL **작업 목록**] 및 **[!UICONTROL 할당 및 위임]** 오른쪽 필드.
+
    >[!TIP]
    >
    >    위임이 오늘 일자 이후의 일자에 시작되도록 설정된 경우 위임 시작 일자도 [!UICONTROL 작업 목록]. 위임된 항목은 선택한 그룹화에 표시됩니다. [!UICONTROL 작업 목록]그룹화의 유형에 따라 다릅니다. 예를 들어 다음을 기준으로 그룹화하는 경우 [!UICONTROL 계획된 완료 일자], 위임된 항목은 계획된 완료 일자와 일치하는 그룹화에 표시됩니다.

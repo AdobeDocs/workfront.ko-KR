@@ -4,7 +4,8 @@ navigation-topic: new-home
 title: 새 홈에서 위젯 추가, 편집 또는 제거
 description: 다양한 위젯 중에서 선택하여 홈 페이지에 표시되는 콘텐츠를 맞춤화할 수 있습니다. 홈 페이지에서 이러한 위젯의 크기를 조정하고 정렬할 수 있습니다.
 author: Nolan
-source-git-commit: 73a1c2c2df48ea47c09c0a69e48ae59ead5cbbd9
+feature: Get Started with Workfront
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 0%

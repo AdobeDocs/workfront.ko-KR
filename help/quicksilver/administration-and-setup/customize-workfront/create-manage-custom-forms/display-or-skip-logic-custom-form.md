@@ -5,13 +5,13 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: 사용자가 양식을 작성할 때 선택한 사항에 따라 사용자 정의 양식의 표시 또는 생략 섹션을 결정할 수 있습니다.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c687c4a8-a99d-4ac0-b785-5bfe503a7e2c
-source-git-commit: 7835b5f9b5903e19b03cb7e25bfae37c9739f064
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '917'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 0%
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>사용자 정의 양식에 대한 관리 액세스</p> <p>Workfront 관리자가 이 액세스 권한을 부여하는 방법에 대한 자세한 내용은 다음을 참조하십시오. <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">사용자에게 특정 영역에 대한 관리 액세스 권한 부여</a>.</p> </td> 
+   <td> <p>사용자 정의 양식에 대한 관리 액세스</p> <p>Workfront 관리자가 이 액세스 권한을 부여하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">사용자에게 특정 영역에 대한 관리 액세스 권한 부여</a>.</p> </td> 
   </tr>  
  </tbody> 
 </table>
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 * 사용자 지정 필드, 위젯 또는 섹션 구분에 표시 논리를 추가하려면 적어도 하나의 다중 선택 필드(라디오 버튼, 드롭다운 또는 확인란)를 양식에서 그 앞에 배치해야 합니다.
 
-   사용자 정의 양식의 사용자 정의 필드 및 위젯에 대한 자세한 내용은 [기존 양식 빌더로 사용자 정의 양식에 사용자 정의 필드 추가](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) 및 [기존 양식 빌더를 사용하여 사용자 정의 양식의 자산 위젯 추가 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+  사용자 정의 양식의 사용자 정의 필드 및 위젯에 대한 자세한 내용은 [기존 양식 빌더로 사용자 정의 양식에 사용자 정의 필드 추가](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) 및 [기존 양식 빌더를 사용하여 사용자 정의 양식의 자산 위젯 추가 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 * 위젯 또는 섹션 구분에 건너뛰기 논리를 추가할 수 없습니다. 다중 선택 필드(라디오 버튼, 드롭다운 또는 확인란)에만 추가할 수 있습니다.
 

@@ -2,10 +2,10 @@
 title: 기존 양식 빌더를 사용하여 사용자 정의 양식의 이미지 또는 기타 에셋 위젯 추가 또는 편집
 description: 이미지, 비디오, PDF 파일 및 Adobe XD 파일과 같은 다음 에셋 위젯의 속성을 사용자 정의 양식에 추가하거나 편집할 수 있습니다. 이 기능은 디자인하는 앱에 대한 브랜딩 이미지, 지침 비디오 또는 대화형 프로토타입과 같은 시각적 콘텐츠를 포함해야 할 때 유용합니다.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 62a2f9a1-80de-40e7-9d8b-46ed9df083c1
-source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1344'
 ht-degree: 1%
@@ -68,7 +68,7 @@ ht-degree: 1%
 
    * 새 위젯을 추가하는 경우 **이미지**, **PDF**, 또는 **비디오** 을 클릭하여 폼의 맨 아래에 추가하거나, 폼에서 원하는 위치로 끕니다.
 
-      ![](assets/add-widget.png)
+     ![](assets/add-widget.png)
 
 
    * 다른 사용자 정의 양식에 이미 추가된 위젯을 추가하려면 **필드 라이브러리**&#x200B;을 클릭한 다음 표시되는 목록에서 위젯 이름을 클릭합니다. 자세한 내용은 [사용자 정의 양식에서 사용자 정의 필드 또는 위젯 재사용](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).

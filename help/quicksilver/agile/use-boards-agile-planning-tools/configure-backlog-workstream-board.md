@@ -5,8 +5,9 @@ navigation-topic: boards
 title: 워크스트림 보드에서 백로그 구성
 description: 워크스트림의 보드에 백로그 열을 표시하도록 선택하고, 워크스트림 카드 목록에서 보드 백로그로 가져온 카드에 대한 질의를 정의할 수 있습니다.
 author: Lisa
+feature: Agile
 exl-id: fd2f6eeb-a565-4461-a153-0504ad3c07d7
-source-git-commit: fffbf47e75e5ff1b6cd7ce37e0198a07459006da
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%

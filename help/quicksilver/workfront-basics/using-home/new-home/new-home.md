@@ -4,7 +4,8 @@ navigation-topic: home-navigation-topic
 title: 새 홈
 description: Adobe Workfront의 새 홈을 사용하는 방법을 배우려면 이 문서를 검토하십시오.
 author: Nolan
-source-git-commit: 203bf8d55017f4ea088613abda92623e9c2d7735
+feature: Get Started with Workfront
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '37'
 ht-degree: 0%

@@ -5,15 +5,15 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: 사용자 정의 양식을 다시 활성화하거나 비활성화할 수 있습니다. 이전 데이터를 유지하는 데 더 이상 사용하지 않는 양식을 삭제하는 것보다 사용자 정의 양식을 비활성화하는 것이 좋습니다.
 author: Courtney
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: c0082dd73e3db8123f9cc08f1798ef8e70730625
+exl-id: 6d9a409d-8d16-4c58-ad02-f60aa1ac1714
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 0%
 
 ---
-
 
 # 사용자 정의 양식 비활성화 또는 재활성화
 
@@ -37,7 +37,7 @@ ht-degree: 0%
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>사용자 정의 양식에 대한 관리 액세스</p> <p>Workfront 관리자가 이 액세스 권한을 부여하는 방법에 대한 자세한 내용은 다음을 참조하십시오. <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">사용자에게 특정 영역에 대한 관리 액세스 권한 부여</a>.</p></td> 
+   <td> <p>사용자 정의 양식에 대한 관리 액세스</p> <p>Workfront 관리자가 이 액세스 권한을 부여하는 방법에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">사용자에게 특정 영역에 대한 관리 액세스 권한 부여</a>.</p></td> 
   </tr>  
  </tbody> 
 </table>

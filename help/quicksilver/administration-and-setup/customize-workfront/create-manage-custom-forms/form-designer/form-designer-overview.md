@@ -5,10 +5,10 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: 사용자가 Workfront 개체에 첨부할 수 있는 사용자 정의 양식을 디자인할 수 있습니다. 오브젝트에 대한 작업을 수행하는 사용자는 사용자 정의 양식을 작성하여 오브젝트에 대한 정보를 제공할 수 있습니다.
 author: Courtney / Lisa
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
-source-git-commit: ad04b732adac345bc015bb290dfd12898bb0a604
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 0%

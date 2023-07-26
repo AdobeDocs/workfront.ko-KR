@@ -4,7 +4,8 @@ navigation-topic: use-the-home-area
 title: Adobe Workfront의 새 홈 시작
 description: 새 홈은 작업 관리를 위한 강력한 새 기능입니다.
 author: Nolan
-source-git-commit: f25b435d2615eabba6e9feaef4e59c65d46bb819
+feature: Get Started with Workfront
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '930'
 ht-degree: 0%

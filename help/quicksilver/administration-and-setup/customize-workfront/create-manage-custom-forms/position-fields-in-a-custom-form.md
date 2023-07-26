@@ -5,10 +5,10 @@ navigation-topic: create-and-manage-custom-forms
 title: 기존 양식 빌더를 사용하여 사용자 정의 양식에 사용자 정의 필드 및 위젯 배치
 description: 사용자 정의 양식에서 사용자 정의 필드 및 위젯의 위치를 변경할 수 있습니다.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: f96425e3-8e20-43ac-8340-915538ae5886
-source-git-commit: ac5b7e0237dbcaea14010eda658f7d5a6be089cc
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 0%
@@ -39,7 +39,7 @@ ht-degree: 0%
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>사용자 정의 양식에 대한 관리 액세스</p> <p>Workfront 관리자가 이 액세스 권한을 부여하는 방법에 대한 자세한 내용은 다음을 참조하십시오. <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">사용자에게 특정 영역에 대한 관리 액세스 권한 부여</a>.</p> </td> 
+   <td> <p>사용자 정의 양식에 대한 관리 액세스</p> <p>Workfront 관리자가 이 액세스 권한을 부여하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">사용자에게 특정 영역에 대한 관리 액세스 권한 부여</a>.</p> </td> 
   </tr>  
  </tbody> 
 </table>
@@ -67,7 +67,6 @@ Courtney, this is a story that got postponed after I did the work. Slated for so
 >* 다음을 사용할 수 있습니다. **미리 보기** 오른쪽 아래 모서리에 있는 버튼을 클릭하여 사용자 정의 필드 및 위젯이 양식에 표시되는 방식을 파악할 수 있습니다.
 >* 설명 텍스트 필드는 행을 공유할 수 없습니다.
 >* 사용자 정의 필드 및 위젯은 사용자가 볼 때 사용할 수 있는 화면 공간의 크기에 따라 양식에서 항상 동일한 방식으로 표시되지 않을 수 있습니다. 예를 들어, 수평 공간이 제한되는 경우 필드 행의 세 번째 필드는 다음 필드 행으로 래핑될 수 있다.
-
 
 1. (선택 사항) 사용자 정의 필드 또는 위젯을 다른 필드 위 또는 아래에 배치하려면 항목 사이에 가로 파란색 선이 나타날 때까지 위 또는 아래로 드래그합니다.
 1. 클릭 **적용**.

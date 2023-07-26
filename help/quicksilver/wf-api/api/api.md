@@ -5,8 +5,9 @@ navigation-topic: api-navigation-topic
 title: API
 description: Workfront API 문서
 author: Becky
+feature: Workfront API
 exl-id: 90e00a71-1a3a-4e3f-99d8-47700052a9dc
-source-git-commit: 1ea7e1a0435e9d199c3d828723d11ce530a80540
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 1%
@@ -26,12 +27,12 @@ ht-degree: 1%
 
 * [핵심 API 변경 사항: 상태 검색 응답](../../wf-api/api/api-changes-search.md)
 * [기본 API 버전 관리를 사용하는 통합 업데이트](../../wf-api/api/update-default-api-versioning.md)
-* [API-Internal 사용 중단](../../wf-api/api/deprecation-api-internal.md)
+* [API 내부 사용 중단](../../wf-api/api/deprecation-api-internal.md)
 * [API 응답에서 이스케이프 처리된 문자](../../wf-api/api/escaped-characters-api.md)
-* [API 버전 관리 및 지원 예약](../../wf-api/api/api-version-support-schedule.md)
-* [인증 코드 흐름을 사용하여 조직의 사용자 지정 OAuth 2 애플리케이션을 구성하고 사용합니다](../../wf-api/api/oauth-app-code-token-flow.md)
-* [JWT 흐름을 사용하여 조직의 사용자 지정 OAuth 2 애플리케이션을 구성하고 사용합니다](../../wf-api/api/oauth-app-jwt-flow.md)
-* [PKCE 플로우를 사용하여 조직의 사용자 지정 OAuth 2 응용 프로그램 구성 및 사용](../../wf-api/api/oauth-app-pkce-flow.md)
+* [API 버전 관리 및 지원 일정](../../wf-api/api/api-version-support-schedule.md)
+* [인증 코드 흐름을 사용하여 조직의 사용자 지정 OAuth 2 애플리케이션 구성 및 사용](../../wf-api/api/oauth-app-code-token-flow.md)
+* [JWT 플로우를 사용하여 조직의 사용자 지정 OAuth 2 애플리케이션 구성 및 사용](../../wf-api/api/oauth-app-jwt-flow.md)
+* [PKCE 플로우를 사용하여 조직의 사용자 정의 OAuth 2 애플리케이션 구성 및 사용](../../wf-api/api/oauth-app-pkce-flow.md)
 * [API 버전 16의 새로운 기능](../../wf-api/api/new-api-version-16.md)
 * [API 버전 15의 새로운 기능](../../wf-api/api/new-api-version-15.md)
 * [API 버전 14의 새로운 기능](../../wf-api/api/new-api-version-14.md)
