@@ -6,9 +6,9 @@ description: 다음은 현재 및 이전 릴리스의 릴리스 정보에 대한
 author: Luke
 feature: Product Announcements
 exl-id: 505a9602-580c-4932-a85c-6c9a7c8af457
-source-git-commit: 0e8f8973ad4c1310b973bae4e6fe3578c05db204
+source-git-commit: a20ff4ea67ac2745663896df0e0ae792f4f21024
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '169'
 ht-degree: 15%
 
 ---
@@ -32,6 +32,7 @@ Adobe Workfront 릴리스 일정에 대한 자세한 내용은 다음을 참조�
   <tr data-mc-conditions=""> 
    <td> <p>2023년 릴리스</p> 
     <ul> 
+    <li> <p><a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md" class="MCXref xref" xrefformat="{para}">2023년 4분기 릴리스 개요</a> </p> <p> 릴리스 포함: <ul><li>23.8</li><li>23.9</li><li>23.10</li></ul></p>
     <li> <p><a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md" class="MCXref xref" xrefformat="{para}">23.3 릴리스 개요</a> </p> </li>
     <li> <p><a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md" class="MCXref xref" xrefformat="{para}">23.2 릴리스 개요</a> </p> </li>
     <li> <p><a href="../../product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md" class="MCXref xref" xrefformat="{para}">23.1 릴리스 개요</a> </p> </li>

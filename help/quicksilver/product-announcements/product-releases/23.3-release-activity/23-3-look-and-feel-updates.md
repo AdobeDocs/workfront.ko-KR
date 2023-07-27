@@ -4,9 +4,9 @@ description: 23.3 릴리스 일정 동안의 업데이트 확인
 author: Courtney
 feature: Product Announcements
 exl-id: 77b43c01-4476-4243-b8c4-062afe786a1d
-source-git-commit: 9eda5871d6712ca46580b79275a79f0e769af58f
+source-git-commit: 2fc3799b97e353e124a3ee2f181ad62fbadec592
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->계획된 미리보기 릴리스: 발표 예정; 계획된 프로덕션 릴리스: 발표 예정.
+>미리보기 릴리스 예정일: 2023년 7월 27일, 빠른 릴리스를 위한 프로덕션 예정: 23.8 릴리스 포함. 분기별 릴리스의 계획 프로덕션: 23.10 릴리스 포함
 >
 >이 기능은 원래 23.3 릴리스와 함께 릴리스될 예정이었으나 나중에 연기되었습니다.
 
