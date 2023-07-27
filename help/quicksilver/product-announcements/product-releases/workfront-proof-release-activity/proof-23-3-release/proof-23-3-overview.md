@@ -7,9 +7,9 @@ description: 이 페이지에서는 23.3 릴리스가 포함된 프로덕션 환
 author: Nolan
 feature: Product Announcements, Workfront Proof
 exl-id: 4d09b464-9c58-4a7c-9af5-549812826d33
-source-git-commit: 6f1327ea52dc17d8fac0c80d030c40ccb5b4da2a
+source-git-commit: fde4d0abf494c32cb53d3c4bc1b150f1825df433
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -42,10 +42,12 @@ ht-degree: 0%
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
                             <li>
-                                <p>미리보기 릴리스: 23.3 릴리스</p>
+                                <p><i>수동 설치를 사용하는 사용자의 경우, 버전 2.1.26</i></p>
+                                <p>미리보기 및 프로덕션 릴리스: 2023년 7월 27일</p>
                             </li>
                             <li>
-                                <p>프로덕션 릴리스: 23.3 릴리스 포함</p>
+                                <p><i>자동 설치를 사용하는 사용자의 경우, 버전 2.1.27</i></p>
+                                <p>미리보기 및 프로덕션 릴리스: 2023년 8월 3일</p>
                             </li>
                         </ul>
                     </td>
