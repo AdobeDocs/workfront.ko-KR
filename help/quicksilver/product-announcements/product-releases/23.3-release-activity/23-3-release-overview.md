@@ -4,9 +4,9 @@ description: 23.3 릴리스 개요
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 80a2b3e3decc7beb7f7b9eb4f4933ca5938963eb
+source-git-commit: 368ad085a1f07ea9301bd1d5279add76b9cd86d9
 workflow-type: tm+mt
-source-wordcount: '2724'
+source-wordcount: '2736'
 ht-degree: 0%
 
 ---
@@ -361,7 +361,7 @@ ht-degree: 0%
                             </li>
                             <li>
                                 <p>Fast 릴리스 고객을 위한 프로덕션 릴리스: 23.3 프로덕션 릴리스 이후 발표될 예정입니다</p>
-                                <p>모든 고객을 위한 프로덕션 릴리스: 23.4 릴리스 포함<br>
+                                <p>모든 고객을 위한 프로덕션 릴리스: 23.10 릴리스 포함(2023년 10월)<br>
                                 할당률 재정의 기능이 2023년 6월 30일부터 7월 13일까지 미리보기에서 일시적으로 비활성화되었습니다.</p>
                             </li>
                         </ul>
@@ -588,7 +588,7 @@ ht-degree: 0%
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront 모바일 앱의 새로운 증명 기능</a> </p>
-                        <p>23.4에서 독립형 Workfront 증명 앱의 사용 중단으로 기본 Workfront 모바일 앱에는 모바일에서의 증명을 계속할 수 있도록 증명 기능이 추가되었습니다.</p>
+                        <p>23.10 릴리스(2023년 10월)에서 독립형 Workfront 증명 앱의 사용 중지와 함께 기본 Workfront 모바일 앱에는 모바일에서의 증명을 계속할 수 있도록 증명 기능이 추가되었습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
@@ -648,7 +648,7 @@ ht-degree: 0%
                             </li>
                             <li>
                                 <p>Fast 릴리스 고객을 위한 프로덕션 릴리스: 23.3 프로덕션 릴리스 이후 발표될 예정입니다 </p>
-                                <p>모든 고객을 위한 프로덕션 릴리스: 23.4 릴리스 포함</p>
+                                <p>모든 고객을 위한 프로덕션 릴리스: 23.10 릴리스 포함(2023년 10월)</p>
                             </li>
                         </ul>
                     </td>
@@ -777,11 +777,11 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/
 
 다음 기능은 곧 Workfront에서 제거될 예정입니다.
 
-#### 23.4로 Proof 모바일 앱 사용 중단
+#### 23.10 릴리스로 Proof 모바일 앱의 사용 중단(2023년 10월)
 
-23.4 릴리스에서는 Proof 모바일 앱에 대한 사용을 공식적으로 중단합니다. 일반 Workfront 모바일 앱은 새로운 증명 기능으로 향상되었습니다(자세한 내용은 Workfront 모바일 개선 사항 아래의 릴리스 노트 참조). 사용자는 가능한 한 빨리 증명 작업에 이 앱을 사용하는 것이 좋습니다.
+Proof 모바일 앱은 23.10 릴리스(2023년 10월)를 통해 공식적으로 더 이상 사용되지 않을 예정입니다. 일반 Workfront 모바일 앱은 새로운 증명 기능으로 향상되었습니다(자세한 내용은 Workfront 모바일 개선 사항 아래의 릴리스 노트 참조). 사용자는 가능한 한 빨리 증명 작업에 이 앱을 사용하는 것이 좋습니다.
 
-Workfront 모바일 앱에는 Workfront 로그인이 필요합니다. 외부 사용자 및 게스트는 증명 작업에 증명 앱을 계속 사용할 수 있지만, 더 이상 지원되지 않으며 23.4에서 사용할 수 없습니다.
+Workfront 모바일 앱에는 Workfront 로그인이 필요합니다. 외부 사용자 및 게스트는 증명 작업에 증명 앱을 계속 사용할 수 있지만, 더 이상 지원되지 않으며 23.10 릴리스(2023년 10월)를 통해 사용할 수 없게 됩니다.
 
 
 <!-- HTML you might need
