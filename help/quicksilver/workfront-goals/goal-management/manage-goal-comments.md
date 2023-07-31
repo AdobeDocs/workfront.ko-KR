@@ -6,9 +6,9 @@ description: Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
+source-git-commit: c1bc58be18e43a0c9cce10d0117a186ba2abca9e
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '921'
 ht-degree: 0%
 
 ---
@@ -154,11 +154,9 @@ Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석을 추가할
 
    >[!TIP]
    >
-   >다른 사용자가 업데이트하고 있는 동일한 항목에 주석을 제출하면 빨간색 줄에 &quot;New&quot; 표시기가 표시되어 최신 주석을 알려 줍니다.
+   >다른 사용자가 업데이트하고 있는 동일한 항목에 주석을 제출하는 경우 새로운 주석을 알려주는 &quot;New&quot; 표시기가 있는 빨간색 라인과 새 주석의 수를 표시하는 화면 하단에 파란색 알림이 있습니다.
    >
    >표시기는 항목에 대한 댓글이 제출된 후에만 표시되며 댓글이 아직 작성된 경우에는 표시되지 않습니다.
-   >
-   >&quot;새로 만들기&quot; 표시기는 새 업데이트를 입력한 사용자와 현재 업데이트를 입력 중인 사용자가 모두 새 댓글 달기 경험을 사용하는 경우에만 표시됩니다.
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
 1. (선택 사항) 주석을 편집하려면 **자세히** 메뉴 ![](assets/more-icon.png) 좋아요 아이콘 오른쪽에 있는 **편집**.
