@@ -7,9 +7,9 @@ description: Adobe Workfront Fusion DevTool을 사용하면 시나리오를 이�
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 19de44559be7b5bd7584012f1d6f7e12523f12be
 workflow-type: tm+mt
-source-wordcount: '1670'
+source-wordcount: '1687'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 0%
 # 을 사용하여 시나리오 디버그 [!DNL Adobe Workfront Fusion] DevTool
 
 다음 [!DNL Adobe Workfront Fusion] DevTool을 사용하면 시나리오를 이해하고 문제를 해결할 수 있습니다. DevTool이 추가 패널을 [!DNL Chrome Developer Tools]. 이 디버거 패널을 사용하면 시나리오의 모든 수동 실행을 확인하고, 수행된 모든 작업을 검토하고, 수행된 모든 API 호출에 대한 세부 정보를 볼 수 있습니다. 오류를 일으킨 모듈, 작업 또는 단일 응답을 확인하고 해당 지식을 사용하여 시나리오를 구체화할 수 있습니다.
+
+>[!NOTE]
+>
+>Adobe 통합 쉘을 통해 Fusion에 액세스하는 조직에서는 Workfront Fusion DevTool을 사용할 수 없습니다.
 
 ## 액세스 요구 사항
 
