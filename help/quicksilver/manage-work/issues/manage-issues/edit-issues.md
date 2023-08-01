@@ -8,10 +8,10 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
 workflow-type: tm+mt
-source-wordcount: '2493'
-ht-degree: 2%
+source-wordcount: '2504'
+ht-degree: 3%
 
 ---
 
@@ -45,7 +45,13 @@ ht-degree: 2%
 </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>문제에 대한 권한을 기여하여 문제 세부 정보 영역에서 편집 </p> <p>문제에 대한 권한을 관리하여 문제 편집 상자에서 편집</p> <p> 문제에 대한 권한 부여에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">문제 공유 </a></p> <p>추가 권한 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>세부 정보 영역에서 다음 필드를 편집할 수 있는 권한을 문제에 기여합니다. </p>
+   <ul>
+   <li>설명</li>
+   <li>상태</li>
+   <li>심각도</li>
+   </ul>
+   <p>세부 정보 영역 또는 문제 편집 상자의 모든 필드를 편집할 수 있는 문제에 대한 권한 관리</p> <p> 문제에 대한 권한 부여에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">문제 공유 </a></p> <p>추가 권한 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -70,7 +76,7 @@ ht-degree: 2%
 
    ![](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
-1. (선택 사항) 문제에 대한 제한된 정보를 편집하려면 **문제 세부 정보** 왼쪽 패널에서
+1. (선택 사항) 문제에 대한 제한된 정보를 편집하려면 다음을 클릭하십시오. **문제 세부 정보** 왼쪽 패널에서
 
    ![](assets/qs-issue-details-icon-highlighted-and-expanded-on-issue-350x206.png)
 

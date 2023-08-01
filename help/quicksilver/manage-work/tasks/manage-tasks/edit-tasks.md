@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
+source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
 workflow-type: tm+mt
-source-wordcount: '3711'
+source-wordcount: '3712'
 ht-degree: 4%
 
 ---
@@ -53,8 +53,13 @@ ht-degree: 4%
    <td role="rowheader">개체 권한</td> 
    <td> 
     <ul> 
-     <li> <p>작업에 대한 기여 권한을 사용하여 작업 세부 정보 영역에서 편집 </p> </li> 
-     <li> <p>작업 편집 상자에서 편집할 작업에 대한 권한을 관리합니다.</p> </li> 
+     <li> <p>작업에 대한 기여 권한을 사용하여 작업 세부 정보 영역에서 다음 정보를 편집할 수 있습니다. </p>
+     <ul>
+     <li>설명</li>
+     <li>상태</li>
+     </ul>  
+      </li> 
+     <li> <p>세부 정보 영역 및 작업 편집 상자의 모든 정보를 편집하려면 작업에 대한 권한 관리</p> </li> 
     </ul> 
     <ul> 
      <li> <p>프로젝트에 대한 상위 권한 기여</p> </li> 
@@ -103,7 +108,7 @@ ht-degree: 4%
 1. 클릭 **프로젝트**&#x200B;을 클릭한 다음 프로젝트 이름을 클릭하여 엽니다.
 1. 클릭 **작업** 왼쪽 패널에서
 1. 편집할 작업을 클릭합니다.
-1. (조건부) 작업에 대한 기여 권한이 있는 사용자가 작업에 대해 제한된 정보를 편집하려면 다음을 클릭하십시오. **작업 세부 정보** 왼쪽 패널에서
+1. (조건부) 작업에 대한 제한된 정보를 편집하려면 다음을 클릭하십시오. **작업 세부 정보** 왼쪽 패널에서
 
    ![](assets/nwe-task-details-expanded-350x273.png)
 
@@ -247,7 +252,7 @@ ht-degree: 4%
       <li> <p><span>다음 이후에 시작:</span> </p> <p>지정 <strong>계획된 시작 일자</strong>. </p> </li> 
       <li> <p> 완료 <span>다음 이후까지</span></p> <p>지정 <strong>계획된 완료 일자</strong>. </p> </li> 
       <li> <p> 완료 <span>다음 이후부터</span></p> <p>지정 <strong>계획된 완료 일자</strong></p> </li> 
-       </ul> <p>작업 제한 사항에 대한 자세한 내용은 <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">작업 제한 개요</a>.</p> </td> 
+       </ul> <p>작업 제한에 대한 자세한 내용은 <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">작업 제한 개요</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">커밋 일자 및 시간</td> 
