@@ -7,9 +7,9 @@ description: Experience Manager Assets Essentials용 Adobe Workfront
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 8aad1efc-1a91-441a-8bb8-0ce9429492c6
-source-git-commit: 77b5af4c523113a2a525fb8c45971ae177e9dc56
+source-git-commit: d74b0aa22644b7c79d3c6c3c3bbd5e67efdff732
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
@@ -24,3 +24,4 @@ ht-degree: 0%
 * [Experience Manager Assets 또는 Assets Essentials에서 연결된 에셋 보기 또는 다운로드](../../documents/adobe-workfront-for-experience-manager-assets-essentials/view-download-asset.md)
 * [Experience Manager Assets 또는 Assets Essentials과 연결된 폴더 만들기](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/create-linked-folder.md)
 * [Experience Manager Assets Essentials 통합에서 워크플로우 사용](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)
+* [Adobe Experience Manager 통합 문제 해결](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
