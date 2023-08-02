@@ -2,12 +2,12 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Adobe Experience Manager 통합 문제 해결
-description: Experience Manager Assets Essentials - EDIT ME에서 작업과 콘텐츠를 연결합니다.
+description: "문제: 자산이 Adobe Experience Manager에 저장되지 않음"
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
-source-git-commit: e4bf79b8c5d53870aec6d415510acccb53a5c7f6
+source-git-commit: a73ebfe8c735eb9e103b01a201a8f71d6ab7bda2
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
