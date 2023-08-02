@@ -7,9 +7,9 @@ description: 이 비디오에서는 Adobe Workfront에서 사용할 수 있는 �
 author: Lisa
 feature: Agile
 exl-id: 54a5fe37-7a0a-45b1-a0bb-c5e345d3f34d
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 1f4975a883206126fee7536cb6abb9d32b7ff1a7
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '347'
 ht-degree: 1%
 
 ---
@@ -31,6 +31,12 @@ ht-degree: 1%
 Kanban 보드에는 Workfront에서 작업 및 문제를 보드로 가져오기 위한 필터로 구성된 백로그 또는 접수 열이 포함될 수 있습니다.
 
 [칸반 보드의 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3416383/){target=_blank}
+
+### 동적 보드
+
+동적 보드를 사용하면 Workfront 프로젝트에 따라 보드를 카드로 자동으로 채울 수 있습니다. 필터를 사용하면 카드를 상태에 따라 열에 추가합니다.
+
+[다이내믹 보드의 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3422404/){target=_blank}
 
 ### 모바일 보드
 
