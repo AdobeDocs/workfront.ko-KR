@@ -6,14 +6,16 @@ description: Workfront의 기존 작업 및 문제에 연결된 카드를 보드
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
+source-git-commit: c063bd9505a785ea738d07e082328871245216f2
 workflow-type: tm+mt
-source-wordcount: '1386'
+source-wordcount: '1434'
 ht-degree: 0%
 
 ---
 
 # 보드에서 연결된 카드 사용
+
+{{preview-and-fast-release}}
 
 의 기존 작업 및 문제에 연결된 카드를 보드에 추가할 수 있습니다. [!DNL Workfront].
 
@@ -137,7 +139,12 @@ ht-degree: 0%
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL 검사 목록]</strong> </td> 
-      <td> <p>클릭 <strong>[!UICONTROL 체크리스트 항목 추가]</strong>. 그런 다음 항목의 제목을 입력하고 Enter 키를 누릅니다. 다른 항목이 자동으로 추가됩니다. 제목을 계속 입력하여 더 많은 항목을 추가합니다.</p> <p>체크리스트 상단에 있는 카운터는 완료된 항목 수와 전체 항목 수를 보여 준다.</p> <p>체크리스트 항목에 대한 자세한 내용은 <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">카드의 체크리스트 항목 관리</a>.</p></td>
+      <td> <p>클릭 <strong>[!UICONTROL 체크리스트 항목 추가]</strong>. 그런 다음 항목의 제목을 입력하고 Enter 키를 누릅니다. 다른 항목이 자동으로 추가됩니다. 제목을 계속 입력하여 더 많은 항목을 추가합니다.</p> <p>체크리스트 상단의 카운터는 완료된 품목 수와 전체 품목 수를 보여준다.</p> <p>체크리스트 항목에 대한 자세한 내용은 <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">카드의 체크리스트 항목 관리</a>.</p></td>
+     </tr>
+     <tr>
+      <td role="rowheader"><span class="preview"><strong>[!UICONTROL 문서]</strong></span></td>
+      <td><span class="preview"><p>문서 축소판 위로 마우스를 가져간 다음 <strong>미리 보기</strong> 브라우저에서 파일을 보려면 <strong>다운로드</strong> 를 클릭하여 파일을 컴퓨터에 다운로드합니다.</p></span>
+      <span class="preview"><p><strong>참고:</strong> 이때 연결된 카드에서 문서를 사용하려면 Workfront 작업에 문서를 업로드해야 합니다.</p></span></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL 시간]</strong></td>

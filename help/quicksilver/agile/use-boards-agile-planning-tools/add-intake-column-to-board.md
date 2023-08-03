@@ -7,9 +7,9 @@ description: 정의한 필터에 따라 Workfront에 작업 및 문제를 추가
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
+source-git-commit: 070bc906d7ca0729697cf9def08416b00e691fc8
 workflow-type: tm+mt
-source-wordcount: '975'
+source-wordcount: '984'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,17 @@ ht-degree: 0%
 
 작업 스트림의 일부인 보드에서는 접수 열을 사용할 수 없습니다. 대신 카드 목록에서 카드를 가져오도록 백로그 열을 설정할 수 있습니다. 워크스트림의 보드에 백로그 열을 추가하는 방법에 대한 자세한 내용은 [워크스트림 보드에서 백로그 구성](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-backlog-workstream-board.md).
 
-접수 열은 300개의 작업과 300개의 문제로 제한됩니다. 항목에 정의된 우선 순위별로 정렬됩니다. 우선 순위에 대한 자세한 내용은 [작업 우선 순위 업데이트](/help/quicksilver/manage-work/tasks/task-information/task-priority.md) 및 [문제 우선 순위 업데이트](/help/quicksilver/manage-work/issues/issue-information/update-issue-priority.md).
+접수 열은 300개의 작업과 300개의 문제로 제한됩니다. 접수 열의 기본 항목 순서는 다음과 같습니다.
+
+작업:
+
+* 기본 순서: 프로젝트 이름
+* 2차 주문: 작업 분류 구조
+
+문제:
+
+* 기본 순서: 프로젝트 이름
+* 2차 주문: 참조 번호
 
 열에 대한 자세한 내용은 [보드 열 관리](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). 연결된 카드에 대한 자세한 내용은 [보드에서 연결된 카드 사용](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 

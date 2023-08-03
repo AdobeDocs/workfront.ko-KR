@@ -7,9 +7,9 @@ description: 에 대해 알아보려면 이 문서 를 참조하십시오. [!DNL
 author: Lisa
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 1594382c48d18a4da99bc5c47ddbbd4f63b76cd4
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '707'
 ht-degree: 0%
 
 ---
@@ -180,6 +180,10 @@ Ad Hoc 및 연결된 카드가 있는 보드는 모든 사용자가 사용할 �
   <tr>
    <td>Ad Hoc 및 연결된 카드에 주석 사용</td>
    <td>릴리스됨</td>
+  </tr>
+  <tr>
+   <td>연결된 카드의 문서 보기</td>
+   <td>부분적으로 릴리스됨</td>
   </tr>
  </tbody> 
 </table>
