@@ -3,9 +3,9 @@ title: 2023년 4분기 릴리스 개요
 description: 2023년 4분기 릴리스 개요
 author: Becky
 feature: Product Announcements
-source-git-commit: c6edc9530b2731ecd8ae0cc0feb208049cb16105
+source-git-commit: 3bb44437bb1c994497735132f26a00da34bd7874
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,76 @@ ht-degree: 0%
 
 ## Adobe Workfront 개선 사항
 
-* 프로젝트 개선 사항
+* [보드 개선 사항](#boards-enhancements)
+* [프로젝트 개선 사항](#project-enhancements)
+
+### 보드 개선 사항
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">기능</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">릴리스 날짜</span>
+                        </p>
+                    </td>
+                 </tr>  
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">연결된 카드에서 보기 전용으로 사용할 수 있는 문서</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span> </p><p>이제 Adobe Workfront 보드의 연결된 카드에 대해 이미지 및 PDF 등의 문서를 볼 수 있습니다. 브라우저에서 문서를 미리 보거나 컴퓨터에 다운로드할 수 있습니다. </p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2023년 8월 3일<br /></p>
+                            </li>
+                            <li>
+                                <p>보드 조기 액세스 프로덕션: 2023년 8월 10일</p>
+                            </li>
+                            <li>
+                                <p>빠른 릴리스를 위한 프로덕션: 23.8 릴리스 포함</p>
+                            </li>
+                            <li>
+                                <p>분기별 릴리스 프로덕션: 23.10 릴리스 포함</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><span class="bold">기능</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">릴리스 날짜</span>
+                        </p>
+                    </td>
+                 </tr>  
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">이제 문제에 사용할 수 있는 프로젝트 보드 보기</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span> </p><p>이제 프로젝트 문제 목록의 게시판 보기에 액세스할 수 있습니다. 칸반 보드는 목록에서 문제를 보는 것보다 더 시각적인 방식으로 문제의 진행 상황을 추적하는 데 도움이 될 수 있습니다. </p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2023년 8월 3일<br /></p>
+                            </li>
+                             <li>
+                                <p>빠른 릴리스를 위한 프로덕션: 23.8 릴리스 포함</p>
+                            </li>
+                            <li>
+                                <p>분기별 릴리스 프로덕션: 23.10 릴리스 포함</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
 
 ### 프로젝트 개선 사항
 
