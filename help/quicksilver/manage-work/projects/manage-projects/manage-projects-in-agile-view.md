@@ -6,7 +6,7 @@ description: 필요한 계획, 라이선스 유형 및 액세스 Adobe Workfront
 author: Alina
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 070bc906d7ca0729697cf9def08416b00e691fc8
+source-git-commit: 0b6b71fae698d34e9c96ba5a699006b3df294a5c
 workflow-type: tm+mt
 source-wordcount: '1393'
 ht-degree: 0%
@@ -163,7 +163,7 @@ Required plans, license types, and access
 
 ## 애자일 보기에서 프로젝트 보기
 
-1. 작업 목록에서 애자일 보기로 보려는 프로젝트로 이동합니다. <span class="preview">또는 문제 목록</span>.
+1. <span class="preview">작업 목록 또는 문제 목록에서 애자일 보기로 보려는 프로젝트로 이동합니다.</span>
 1. 다음을 클릭합니다. **보드** 아이콘 ![보드 아이콘](assets/board-icon-for-agile-view.png).
 
    기본적으로 프로젝트의 보드 보기가 표시됩니다.
