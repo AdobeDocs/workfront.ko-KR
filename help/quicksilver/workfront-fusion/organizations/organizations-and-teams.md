@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion의 조직 및 팀 기능을 통해 기업은
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 6531f318d9fb34b38a378a28e4d478c428bd1c25
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1133'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 0%
 * **[!UICONTROL 소유자]**: 소유자는 조직에서 사용 가능한 모든 권한을 가지고 있습니다.
 * **[!UICONTROL 관리자]**: 관리자 역할을 통해 사용자는 조직의 팀 및 사용자를 만들고 관리할 수 있습니다.
 * **[!UICONTROL 멤버]**: 구성원은 다음을 사용할 수 있습니다. [!DNL Workfront Fusion] 그러나 조직을 변경할 수 없습니다.
-* **[!UICONTROL 회계사]**: 회계사 역할은 사용자가 조직 대시보드에서 라이선스 정보만 볼 수 있도록 합니다.
+* **[!UICONTROL 회계사]**: 회계사 역할은 사용자가 조직 대시보드에서 라이선스 정보만 볼 수 있도록 허용합니다.
 * **[!UICONTROL 앱 개발자]**: 이 역할의 기능은 현재 사용할 수 없으며 곧 제공될 예정입니다. 지금은 이 역할에 사용자를 할당하지 않는 것이 좋습니다.
 
 ### 조직에 사용자 초대
@@ -146,6 +146,8 @@ Fusion에서 두 개 이상의 조직에 속해 있을 수 있습니다. 조직 
 * **[!UICONTROL 팀 모니터링]**: [!UICONTROL 모니터링] 역할을 통해 사용자는 시나리오의 실행 정보에 액세스할 수 있지만 시나리오를 디자인하거나 &quot;활성&quot; 상태를 변경할 수 없습니다.
 * **[!UICONTROL 팀 운영자]**: [!UICONTROL 연산자] 역할을 통해 사용자는 실행 데이터를 보고 시나리오의 &quot;활성&quot; 상태를 변경할 수 있습니다.
 * **[!UICONTROL 팀 제한된 구성원]**: 이 역할의 기능은 현재 사용할 수 없으며 곧 제공될 예정입니다. 지금은 이 역할에 사용자를 할당하지 않는 것이 좋습니다.
+
+팀 역할에 사용할 수 있는 특정 작업에 대한 자세한 내용은[조직 및 팀 역할](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
 
 ### 팀 관리
 
