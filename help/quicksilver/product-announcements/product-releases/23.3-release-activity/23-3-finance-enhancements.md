@@ -3,16 +3,16 @@ title: 23.3 Financial Management 개선 사항
 description: 23.3 Financial Management 개선 사항
 author: Lisa
 feature: Product Announcements
-source-git-commit: c1bc58be18e43a0c9cce10d0117a186ba2abca9e
+source-git-commit: 685529997d785b1bd98ef0fbc97b47dc59ea0244
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
 
 # 23.3 Financial Management 개선 사항
 
-이 페이지에서는 23.3 릴리스의 모든 Financial Management 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2023년 7월 20일과 21일에 23.3 릴리스에서 사용할 수 있습니다.
+이 페이지에서는 23.3 릴리스의 모든 Financial Management 개선 사항에 대해 설명합니다.
 
 23.3 릴리스 주기 동안 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 을 참조하십시오. [23.3 릴리스 개요](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
