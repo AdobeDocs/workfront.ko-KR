@@ -5,10 +5,10 @@ title: Adobe Workfront의 새 홈 시작
 description: 새 홈은 작업 관리를 위한 강력한 새 기능입니다.
 author: Nolan
 feature: Get Started with Workfront
-source-git-commit: 63aa6bcbdf7e31a61a497f8d89c3bfe3debd5ff1
+source-git-commit: 40eccf1fa13b4221ca599b74c0adff9063b7249a
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 21%
+source-wordcount: '1048'
+ht-degree: 20%
 
 ---
 
@@ -55,16 +55,65 @@ New Home은 사용자 정의 기능이 뛰어나게 설계되어 있어 가장 �
 * **할 일**\
     이 고유한 위젯을 사용하면 자유롭게 편집할 수 있는 개인 체크리스트에 텍스트 항목을 추가할 수 있습니다.
 
+  >[!NOTE]
+  >
+  >할 일 위젯에서 할 일을 만들려면 작업을 만들 수 있는 권한이 있어야 합니다.
+
 기본적으로 홈 페이지는 라이선스 유형에 따라 몇 가지 특정 위젯으로 채워집니다. 아래 표는 각 라이선스 유형의 사용자가 새 홈으로 처음 이동할 때 표시되는 위젯에 대한 개요입니다.
 
-| **레거시 라이선스 유형** | **기본 위젯** | **현재 라이선스 유형** | **기본 위젯** |
-|---|---|---|---|
-| 플랜 | 내 프로젝트, 언급, 할 일 | 표준 | 내 프로젝트, 내 작업, 언급, 할 일 |
-| 작업 | 내 작업, 언급, 할 일 | 라이트 | 내 작업, 승인 대기 중, 할 일 |
-| 검토 | 내 작업, 언급, 할 일 | 참여자 | 내 작업, 언급, 할 일 |
-| 제한적 | 내 프로젝트, 승인 대기 중, 할 일 | 외부 | 내 승인 대기 중, 할 일 |
-| 참여자 | 내 작업, 언급, 할 일 |  |  |
-| 외부 | 내 승인 대기 중, 할 일 |  |  |
+<table border="1" class="inlineTable">
+    <tr>
+        <td><b>현재 라이선스 유형</b></td>
+        <td><b>기본 위젯</b></td>
+    </tr>
+    <tr>
+        <td>표준</td>
+        <td>내 프로젝트, 내 작업, 언급, 할 일</td>
+    </tr>
+    <tr>
+        <td>라이트</td>
+        <td>내 작업, 승인 대기 중, 할 일</td>
+    </tr>
+    <tr>
+        <td>참여자</td>
+        <td>내 작업, 언급, 할 일</td>
+    </tr>
+    <tr>
+        <td>외부</td>
+        <td>내 승인 대기 중, 할 일</td>
+    </tr>
+</table>
+
+<table border="1" class="inlineTable">
+    <tr>
+        <td><b>레거시 라이선스 유형</b></td>
+        <td><b>기본 위젯</b></td>
+    </tr>
+    <tr>
+        <td>플랜</td>
+        <td>내 프로젝트, 언급, 할 일</td>
+    </tr>
+    <tr>
+        <td>작업</td>
+        <td>내 작업, 언급, 할 일</td>
+    </tr>
+    <tr>
+        <td>검토</td>
+        <td>내 작업, 언급, 할 일</td>
+    </tr>
+    <tr>
+        <td>제한적</td>
+        <td>내 프로젝트, 승인 대기 중, 할 일</td>
+    </tr>
+    <tr>
+        <td>참여자</td>
+        <td>내 작업, 언급, 할 일</td>
+    </tr>
+    <tr>
+        <td>외부</td>
+        <td>내 승인 대기 중, 할 일</td>
+    </tr>
+</table>
 
 위젯 추가, 이동, 크기 조정 또는 삭제에 대한 자세한 내용은 다음을 참조하십시오. [새 홈에서 위젯 추가, 편집 또는 제거](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
 
