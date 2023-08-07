@@ -8,7 +8,7 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: 3d4ba0396c5a59b1109ec70a6e85b77d0d093bf5
 workflow-type: tm+mt
 source-wordcount: '2227'
 ht-degree: 2%
@@ -16,6 +16,8 @@ ht-degree: 2%
 ---
 
 # 작업 항목에 대한 승인 프로세스 만들기
+
+<!--see below the "hidden" content for the redesigned tabs - August 2023-->
 
 사용자가 작업 항목(프로젝트, 작업, 문제, 템플릿 또는 템플릿 작업), 문서 또는 증명에 첨부할 수 있는 승인 프로세스를 만들 수 있습니다. 승인 프로세스를 통해 시스템에서 객체를 진행하기 전에 객체에 지정된 임무 책임자가 특정 변경 사항을 검토하도록 할 수 있습니다.
 
@@ -71,6 +73,10 @@ ht-degree: 2%
    또는
 
    그룹 수준 승인 프로세스를 만드는 경우 **그룹** ![](assets/groups-icon.png)을 클릭하고 그룹 이름을 클릭한 다음 을 클릭합니다 **승인**.
+
+   <!--hidden for the new tab redesign - August 2023: 
+   ![](assets/approvals-area-in-setup-processes.png)
+   -->
 
 1. 다음을 클릭합니다. **프로젝트 승인**, **작업 승인**, 또는 **문제 승인** 탭입니다. 만들려는 승인 프로세스의 유형에 따라 다릅니다.
 
