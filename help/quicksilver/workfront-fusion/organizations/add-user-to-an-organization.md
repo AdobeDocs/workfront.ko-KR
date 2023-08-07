@@ -7,9 +7,9 @@ description: Adobe Workfront Fusion에서 조직에 사용자를 추가할 수 �
 author: Becky
 feature: Workfront Fusion
 exl-id: 98248cca-98f5-4eb5-b203-67e261df33f1
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 2884f709ef9ea89f275ff88db41ddde725dbd781
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -105,4 +105,4 @@ ht-degree: 0%
 >
 >   <p>에 온보딩된 조직에 사용자를 추가하는 방법에 대한 지침 [!DNL Adobe Business Platform], 참조 <a href="#add-a-user-to-an-organization-that-has-been-onboarded-to-the-adobe-business-platform" class="MCXref xref">에 온보딩된 조직에 사용자 추가 [!DNL Adobe Business Platform]</a></p>
 
-사용자는 다음을 클릭하여 초대를 수락할 수 있는 초대 이메일을 수신합니다. [!UICONTROL 역할 수락] 단추를 클릭합니다.
+사용자는 초대를 수락할 수 있는 초대 이메일을 수신합니다.

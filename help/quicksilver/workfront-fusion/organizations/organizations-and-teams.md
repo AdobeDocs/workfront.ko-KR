@@ -8,7 +8,7 @@ description: Adobe Workfront Fusion의 조직 및 팀 기능을 통해 기업은
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: 6531f318d9fb34b38a378a28e4d478c428bd1c25
+source-git-commit: 9828fe3602342520ef203ac174990f0ea03f0588
 workflow-type: tm+mt
 source-wordcount: '1133'
 ht-degree: 0%
@@ -97,8 +97,6 @@ ht-degree: 0%
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 [!DNL Fusion] 은(는) 특정 조직 및 [!UICONTROL 역할 수락] 단추를 클릭합니다.
-
-![](assets/accept-the-role.png)
 
 수신자가 버튼을 클릭하면 초대를 수락할 수 있는 초대 페이지로 리디렉션됩니다.
 
