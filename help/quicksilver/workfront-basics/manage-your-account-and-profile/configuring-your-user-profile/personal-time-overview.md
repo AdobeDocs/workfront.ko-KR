@@ -7,9 +7,9 @@ description: Adobe Workfront은 개인 휴무를 관리, 저장 및 추적하기
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 4e4cf18fb9a8936deab935f55eb6cfd0b5c7a41a
+source-git-commit: 91eb8770c07396b5772029e9d2370f0b1f10d4a1
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -65,8 +65,13 @@ ht-degree: 0%
 1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](assets/main-menu-icon.png) Adobe Workfront 오른쪽 상단에서 프로필 사진 옆에 있는 사용자 이름을 클릭합니다. 또는 (사용 가능한 경우) 위쪽 탐색 영역에서 프로필 사진을 클릭한 다음 을 클릭합니다 **[!UICONTROL Workfront 프로필]**.
 1. 왼쪽 패널에서 **[!UICONTROL 휴무]**.
 1. 개인 휴무에 대해 원하는 날짜를 선택합니다.
-1. 선택 **[!UICONTROL 하루 종일]**&#x200B;하루 종일 쉬는 경우 입니다.\
+
+   ![개인 휴무 일정](assets/personal-time-off-calendar.png)
+
+1. 선택 **[!UICONTROL 하루 종일]**&#x200B;하루 종일 쉬는 경우 입니다.
+
    하루 종일 쉬지 않고 휴무 시작 및 종료 시간을 나타내는 경우 선택하지 마십시오.
 
-1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.\
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+
    이제 휴무가 다음에 표시됩니다. [!DNL Workfront] 리소스 플래너 및 업무 균형자 와 같은 리소스 관리 도구의 시스템. 이 시간 동안 작업을 할당하면 사용자에게 휴무 일정을 지정했음을 알리는 도구 설명이 표시됩니다.

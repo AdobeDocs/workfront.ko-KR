@@ -9,7 +9,7 @@ author: Lisa, Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: 4331917d133c52cf727f148b75a213853c1e5679
+source-git-commit: 91eb8770c07396b5772029e9d2370f0b1f10d4a1
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 0%
@@ -22,7 +22,10 @@ Adobe Workfront 관리자이거나 다른 사용자의 설정을 편집할 수 �
 
 알림 설정을 대량으로 구성할 때 선택한 사용자가 공통으로 가지는 설정만 변경할 수 있습니다.
 
-자신의 프로필을 포함하여 한 번에 한 명의 사용자에 대한 이메일 알림을 구성할 수도 있습니다. 자세한 내용은 [자체 이벤트 알림 활성화 또는 비활성화](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+>[!NOTE]
+>
+>자신의 프로필을 포함하여 한 번에 한 명의 사용자에 대한 이메일 알림을 구성할 수도 있습니다. 자세한 내용은 [자체 이벤트 알림 활성화 또는 비활성화](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+
 
 ## 액세스 요구 사항
 
