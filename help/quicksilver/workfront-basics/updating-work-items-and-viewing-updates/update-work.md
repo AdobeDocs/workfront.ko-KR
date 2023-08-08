@@ -6,14 +6,16 @@ description: Adobe Workfront 개체(프로젝트, 작업 또는 문제)에 업�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: fb18fb0793a9e28ecc4d1b91c3a1010ee842028e
 workflow-type: tm+mt
-source-wordcount: '3471'
+source-wordcount: '3486'
 ht-degree: 1%
 
 ---
 
 # 작업 업데이트
+
+<!--for the August 10 release: look for these words to see the edits: "August 10"-->
 
 <!--take "Beta" references out when we remove the beta-->
 
@@ -47,7 +49,13 @@ ht-degree: 1%
 
 * 업데이트 섹션에서 Adobe Workfront의 대부분의 오브젝트에 주석을 추가할 수 있습니다. 업데이트 섹션이 표시되는 객체에 대한 자세한 내용은 [업데이트 섹션 개요](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-* Workfront 개체(프로젝트, 작업 또는 문제)에 업데이트를 추가하여 개체에 대한 댓글로 개체의 진행 상황을 전달할 수 있습니다. 개체를 할당받거나 구독 중인 사용자는 업데이트를 볼 수 있습니다.
+* Workfront과 통합된 다른 애플리케이션 또는 Workfront 모바일 앱에서 Workfront 오브젝트에 주석을 추가할 수 있습니다.
+
+  Workfront과 통합된 모든 애플리케이션에 Workfront 개체에 주석을 추가할 수 있는 기능은 없습니다.
+
+  Workfront에 있는 오브젝트의 업데이트 섹션에서 사용할 수 있는 기능 중 일부가 다른 애플리케이션에서 Workfront 오브젝트에 액세스할 때 사용할 수 있는 것은 아닙니다. 예를 들어 서드파티 애플리케이션에서 Workfront 객체에 댓글을 추가할 때 리치 텍스트 기능이나 댓글을 누군가의 회사에 비공개로 만들 수 없는 경우가 있을 수 있습니다.
+
+* Workfront 개체(프로젝트, 작업 또는 문제)에 대한 댓글을 달면서 해당 개체의 진행 상황에 대해 소통할 수 있습니다. 개체를 할당받거나 구독하는 사용자는 업데이트에 대한 알림을 받을 수 있습니다. 오브젝트에 대한 보기 액세스 권한이 있는 모든 사람이 업데이트를 볼 수 있습니다.
 
 * 사용자에 태그를 지정하여 업데이트에 주의를 기울일 수 있습니다. 태그가 지정된 사용자는 인앱 알림 및 업데이트에 대한 이메일을 받습니다.
 
@@ -62,8 +70,7 @@ ht-degree: 1%
 
    * Workfront 개체의 업데이트 섹션에서
    * 홈 영역에서(작업 및 문제의 경우)
-   * 오브젝트 목록의 요약 패널에서 시작(작업 및 문제용)
-   * 타임시트에서(작업 및 문제의 경우)
+   * 오브젝트 목록의 요약 패널 또는 타임시트(작업 및 문제용)에서
 
 이 페이지의 정보에서는 Workfront 개체에 댓글을 다는 방법과 프로젝트, 작업 및 문제를 업데이트하는 방법을 설명합니다.
 
@@ -153,7 +160,7 @@ drafted for P&P release:
 1. 업데이트를 제공할 작업 항목(예: 프로젝트, 작업 또는 문제)으로 이동합니다.
 1. 다음을 클릭합니다. **업데이트** 섹션.
 1. 클릭 **새 업데이트 시작,** 그런 다음 업데이트를 입력합니다.
-1. (선택 사항) 컨텐츠를 향상하려면 리치 텍스트 를 사용하거나 이모지, 링크 또는 이미지를 업데이트에 추가하십시오. 자세한 내용은 [Workfront 업데이트에서 리치 텍스트 사용](#use-rich-text-in-a-workfront-update) 이 문서의 섹션
+1. (선택 사항) 컨텐츠를 향상하려면 리치 텍스트 를 사용하거나 이모지, 링크 또는 이미지를 업데이트에 추가하십시오. 자세한 내용은 [Workfront 업데이트에서 리치 텍스트 사용](#use-rich-text-in-a-workfront-update) 이 문서의 섹션.
 1. (선택사항) 작업 항목에 대해 다음 정보를 갱신합니다.
 
    <table style="table-layout:auto"> 
@@ -222,17 +229,7 @@ drafted for P&P release:
    * 변경 내용을 취소하려면 CTRL+Z(Mac의 경우 ⌘+z)
    * CTRL+Y(Mac의 경우 ⌘+y) 를 눌러 변경 사항을 재실행합니다
 1. (선택 사항) **사람 또는 팀에 태그 지정** 영역에 이 댓글에 포함할 사용자 또는 팀의 이름 또는 이메일을 입력한 다음 목록에 표시될 때 선택합니다.
-1. (선택 사항) 업데이트에 서식 있는 텍스트 서식을 추가하려면 **리치 텍스트** 텍스트를 개선하기 위한 도구 모음:
-
-   * 볼드체
-   * 기울임체
-   * 밑줄
-   * 링크
-   * 글머리 기호 목록
-   * 번호 매기기 목록
-   * 첨부 파일 추가 <!--(mark this parenthesis as draft: ************ this might be renamed to "Add image")-->
-
-   자세한 내용은 [Workfront 업데이트에서 리치 텍스트 사용](#use-rich-text-in-a-workfront-update) 이 문서의 섹션. <!--remove this list, above, when we get to parity for Rich Text-->
+1. (선택 사항) 리치 텍스트 사용 또는 추가 <!--hidden for August 10: emojis,--> 콘텐츠를 개선하기 위한 업데이트 링크 또는 이미지. 자세한 내용은 [Workfront 업데이트에서 리치 텍스트 사용](#use-rich-text-in-a-workfront-update) 이 문서의 섹션.
 
    >[!TIP]
    >
@@ -243,6 +240,7 @@ drafted for P&P release:
    >&quot;새로 만들기&quot; 표시기는 새 업데이트를 입력한 사용자와 현재 업데이트를 입력 중인 사용자가 모두 새 댓글 달기 경험을 사용하는 경우에만 표시됩니다.
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
+1. 다음을 클릭합니다. **첨부 파일 추가** 아이콘 ![](assets/add-image-paperclip-icon.png) <!--replace this icon with this new one for August 10: ![](assets/add-image-mountain-with-plus-icon.png)--> 이미지를 주석에 추가합니다. 이미지를 첨부하려면 먼저 컴퓨터에 저장해야 합니다. <!--**************** this might be renamed to "Add image")-->
 
 1. 클릭 **제출** Workfront 개체에 업데이트를 추가합니다.
 1. (선택 사항) 주석을 편집하려면 **자세히** 메뉴 ![](assets/more-menu.png) 좋아요 아이콘 오른쪽에 있는 **편집**.
@@ -256,7 +254,7 @@ drafted for P&P release:
    >* 원본 업데이트를 제출한 경우에만 사용자에게 업데이트를 알리는 이메일이 생성됩니다. 업데이트를 편집한 후 이메일이 생성되지 않습니다.
    >* 주석 옆에 있는 날짜 스탬프는 마지막 편집 날짜가 아닌 원래 주석의 날짜입니다.
 
-1. (선택 사항) **답변** 기존 댓글에 회신하려면 위의 4-7단계를 따르십시오. <!--(**************insure this stays accurate***********)-->. 업데이트 회신에 대한 자세한 내용은 [업데이트에 대한 회신](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+1. (선택 사항) **답변** 기존 댓글에 회신하려면 위의 4-8단계를 따르십시오. <!--(**************insure this stays accurate***********)--> 업데이트 회신에 대한 자세한 내용은 [업데이트에 대한 회신](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 1. (조건부 및 선택 사항) 다른 사용자가 업데이트 섹션의 표시 영역 외부에 표시되는 주석을 추가한 경우 **보기** 파란색 안쪽에 **새 댓글 배너** 이 설명을 표시하려면 이 단추를 클릭하십시오.
 
    ![](assets/blue-new-comments-banner-with-view-button.png)
@@ -283,7 +281,7 @@ drafted for P&P release:
 
 ## Workfront 업데이트에서 리치 텍스트 사용{#use-rich-text-in-a-workfront-update}
 
-<!--remove this top note when we get to parity with the current version, OR change the note to mention that some options are ONLY available in the Beta version and not the current one.-->
+<!--August 10: remove this top note when we get to parity with the current version, OR change the note to mention that some options are ONLY available in the Beta version and not the current one.-->
 
 >[!NOTE]
 >
@@ -291,8 +289,8 @@ drafted for P&P release:
 
 리치 텍스트를 사용하거나 이모지, 링크 또는 이미지와 같은 다양한 항목을 추가하여 업데이트를 향상시킬 수 있습니다.
 
-1. 업데이트 영역으로 이동하여 댓글을 입력하십시오.
-1. (선택 사항) 업데이트에 서식 있는 텍스트 서식을 추가하려면 **리치 텍스트** 입력할 때 도구 모음
+1. 로 이동 **업데이트** Workfront 개체의 영역이며 댓글을 입력하십시오.
+1. (선택 사항) 리치 텍스트 서식을 업데이트에 추가하려면 **리치 텍스트** 입력할 때 도구 모음 <!--on August 10, add a screen shot of the complete Rich Text bar here, before the table-->
 
    | **속성** | **도구 모음 단추** | **Mac 단축키** | **Windows 바로 가기 키** |
    |---|---|---|---|
@@ -303,6 +301,7 @@ drafted for P&P release:
    | 글머리 기호 목록 | ![mceclip6.png](assets/mceclip6.png) | ⌘+Shift+8 | Ctrl+Shift+8 |
    | 번호 매기기 목록 | ![mceclip5.png](assets/mceclip5.png) | ⌘+Shift+7 | Ctrl+Shift+7 |
    | 견적 차단 | ![](assets/block-quote-icon-large.png) | ⌘+Shift+9 | Ctrl+Shift+9 |
+   | 이모지 | ![](assets/emoji-icon.png) | ⌘+. | ⊞+. |
 
    텍스트 서식을 중지하려면 **리치 텍스트** 도구 모음
 
@@ -324,7 +323,7 @@ drafted for P&P release:
    >[!NOTE]
    >
    >* Workfront은 :)와 같은 구두점 이모티콘을 이모티콘으로 대체하지 않습니다.
-   >* 타임시트 영역에서 수행한 업데이트 또는 보고서에서 본 메모 및 마지막 조건 개체에 대해 이모지를 사용할 수 없습니다.
+   >* 보고서에서 본 메모 및 마지막 조건 개체에는 이모지를 사용할 수 없습니다.
    >* Workfront의 이모지 기능은 유니코드 문자를 사용하며, 따라서 유니코드 코드 포인트를 지원하는 브라우저와 운영 체제에만 표시됩니다. 사용자의 것과 다른 플랫폼, 브라우저 또는 운영 체제 버전의 사용자는 동일한 이모지에 액세스하지 못할 수 있습니다.
    >* 지원되지 않는 이모지는 검은색 또는 흰색 상자로 표시됩니다.
    >* Windows 7에서는 흑백 이모티콘만 지원합니다.
@@ -443,7 +442,7 @@ Workfront 사용자(Workfront 관리자 포함)는 다른 사용자가 업데이
 
    >[!NOTE]
    >
-   >이미지가 첨부된 업데이트를 삭제하면 댓글과 이미지가 모두 삭제됩니다. 자세한 내용은 [Workfront 업데이트에서 서식 있는 텍스트 사용](#use-rich-text-in-a-workfront-update) 이 문서의 섹션.
+   >이미지가 첨부된 업데이트를 삭제하면 댓글과 이미지가 모두 삭제됩니다. 자세한 내용은 [Workfront 업데이트에서 리치 텍스트 사용](#use-rich-text-in-a-workfront-update) 이 문서의 섹션.
 
    삭제한 댓글에 연결된 댓글이 있는 경우 댓글을 삭제한 사용자의 이름으로 댓글이 제거되었음을 나타냅니다.
 
@@ -453,24 +452,28 @@ Workfront 사용자(Workfront 관리자 포함)는 다른 사용자가 업데이
 
    <!--when we remove the beta, take out the first part of the sentence above about only when commenting in beta experience. Leave the rest though-->
 
-## 타임시트에 업데이트 추가
+<!--this is no longer needed - adding timesheet comments is just like adding comments to any other object now
 
-1. 업데이트할 타임시트로 이동합니다.
-1. 타임시트를 클릭하여 엽니다.
-1. 타임시트 하단에서 **주석 포함**.
-1. 타임시트의 맨 아래에 표시되는 상자에 업데이트를 입력합니다.
+## Add an update on a Timesheet
+
+1. Go to a Timesheet on which you want to make an update.
+1. Click the Timesheet to open it.
+1. At the bottom of the Timesheet, click **Include a comment**.
+1. In the box that displays at the bottom of the Timesheet, type an update.
 
    ![timesheet_update_stream.png](assets/timesheet-update-stream-350x50.png)
 
-1. (조건부) 승인을 위해 타임시트를 제출하지 않고 업데이트를 저장하려면 을 클릭합니다. **나중에 저장**.
+1. (Conditional) To save your update without submitting the Timesheet for approval, click **Save for Later**.
 
-   또는
+   Or
 
-   업데이트를 저장하고 승인을 위해 타임시트를 제출하려면 **승인을 위해 제출**.
+   To save your update and submit the Timesheet for approval, click **Submit for Approval**.
 
-   또는
+   Or
 
-   타임시트가 승인자와 함께 설정되지 않은 경우 다음을 클릭하십시오. **타임시트 저장 및 닫기** 업데이트를 저장합니다.
+   If your Timesheet is not set up with an approver, click **Save and Close Timesheet** to save your update.
+
+-->
 
 ## 시스템 업데이트 활성화 또는 비활성화
 
@@ -493,9 +496,13 @@ Workfront 객체의 업데이트 섹션에는 두 가지 유형의 정보가 표
 
   ![](assets/system-updates-cl-350x277.png)
 
-Workfront 라이선스에 따라 시스템 업데이트가 기본적으로 활성화될 수 있습니다. Workfront 관리자는에 설명된 대로 시스템 업데이트에서 추적되는 항목을 결정할 수 있습니다. [시스템 추적 업데이트](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). 모든 객체에 대한 사용자 업데이트만 표시되도록 시스템 업데이트 또는 활동을 필터링할 수도 있습니다.
+  Workfront 라이선스에 따라 시스템 업데이트가 기본적으로 활성화될 수 있습니다. Workfront 관리자는에 설명된 대로 시스템 업데이트에서 추적되는 항목을 결정할 수 있습니다. [시스템 추적 업데이트](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). 모든 객체에 대한 사용자 업데이트만 표시되도록 시스템 업데이트 또는 활동을 필터링할 수도 있습니다.
 
-사용자 업데이트와 시스템 업데이트의 차이점에 대한 자세한 내용은 [시스템 추적 업데이트](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+  다음 개체에는 시스템 생성 업데이트가 없습니다.
+
+   * 팀
+   * 템플릿
+   * 템플릿 작업
 
 시스템 업데이트를 활성화하거나 비활성화하려면 다음 작업을 수행하십시오.
 
@@ -505,4 +512,11 @@ Workfront 라이선스에 따라 시스템 업데이트가 기본적으로 활�
    ![](assets/show-system-updates-qs-350x55.png)
 
    이 옵션은 Workfront 전체의 모든 오브젝트에서 영구적이며 Workfront에서 로그아웃한 경우에도 선택한 위치에 유지됩니다.
+
+   >[!TIP]
+   >
+   >   시스템 업데이트를 기록하지 않는 개체에는 업데이트 영역에 시스템 업데이트 표시 옵션이 없습니다.
+
+   <!--when Anna adds the new updates stream to ALL objects, she will remove the System Activity tab from the objects that don't record system updates - add another line to the TIP above to say: The System Activity tab is not available for objects that don't record system-generated updates.*************** OR: maybe make this part of the statement where we list which objects these are, above???  -->
+
 

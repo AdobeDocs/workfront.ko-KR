@@ -7,9 +7,9 @@ description: 객체의 업데이트 섹션에는 사용자가 객체에 대해 �
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: fb18fb0793a9e28ecc4d1b91c3a1010ee842028e
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1127'
 ht-degree: 4%
 
 ---
@@ -51,83 +51,99 @@ ht-degree: 4%
 
 ### 현재 업데이트 섹션의 개요
 
-오브젝트의 업데이트 섹션에는 지난 90일 이내에 이루어진 가장 최근 업데이트 중 최대 200개가 표시됩니다.
+* 오브젝트의 업데이트 섹션에는 지난 90일 이내에 이루어진 가장 최근 업데이트 중 최대 200개가 표시됩니다.
 
-![](assets/updates-tab-before-unified-experience-for-issues.png)
+  ![](assets/updates-tab-before-unified-experience-for-issues.png)
 
-현재 업데이트 섹션에는 다음 정보가 표시됩니다.
+* 다음 객체에 대해 업데이트 섹션이 표시됩니다.
 
-* 사용자가 작성한 댓글 및 해당 댓글에 대한 답글.
-* 시스템 업데이트: Workfront이 개체에 특정 이벤트를 기록하기 위해 만드는 정보 메시지입니다. 예를 들어 시스템 업데이트를 통해 상태, 이름 또는 사용자 정의 필드의 변경 사항을 캡처할 수 있습니다. Workfront 또는 그룹 관리자가 개체에 대한 시스템 업데이트를 활성화할 수 있습니다. 자세한 내용은 [시스템 업데이트 구성](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+  <table style="table-layout:auto"> 
+  <col> 
+  <col> 
+  <tbody> 
+    <tr> 
+    <td> 
+      <ul> 
+      <li>문서</li> 
+      <li>목표</li> 
+      <li>문제</li> 
+      <li>반복</li> 
+      <li>프로젝트</li> 
+      <li>프로그램</li> 
+      <li>포트폴리오</li> 
+      </ul> </td> 
+    <td> 
+      <ul> 
+      <li>스토리*</li> 
+      <li>작업</li> 
+      <li>템플릿</li> 
+      <li>템플릿 작업</li> 
+      <li>타임시트</li> 
+      <li>사용자</li>
+      </ul> </td> 
+    </tr> 
+  </tbody> 
+  </table>
 
-다음 객체에 대해 업데이트 섹션이 표시됩니다.
+  *스토리는 작업입니다. 작업과 관련된 모든 정보를 스토리에 사용할 수도 있습니다.
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> 
-    <ul> 
-     <li>문서</li> 
-     <li>목표</li> 
-     <li>문제</li> 
-     <li>반복</li> 
-     <li>프로젝트</li> 
-     <li>프로그램</li> 
-     <li>포트폴리오</li> 
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li>스토리*</li> 
-     <li>작업</li> 
-     <li>템플릿</li> 
-     <li>템플릿 작업</li> 
-     <li>타임시트</li> 
-     <li>사용자</li>
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-*스토리는 작업입니다. 작업과 관련된 모든 정보를 스토리에 사용할 수도 있습니다.
+* 현재 업데이트 섹션에는 다음 정보가 표시됩니다.
+
+   * 사용자 업데이트: 사용자가 작성한 댓글과 해당 댓글에 대한 답글.
+   * 시스템 업데이트: Workfront이 개체에 특정 이벤트를 기록하기 위해 만드는 정보 메시지입니다. 예를 들어 시스템 업데이트를 통해 상태, 이름 또는 사용자 정의 필드의 변경 사항을 캡처할 수 있습니다. Workfront 또는 그룹 관리자가 개체에 대한 시스템 업데이트를 활성화할 수 있습니다. 자세한 내용은 [시스템 업데이트 구성](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+
+* 다음 개체는 시스템 업데이트를 기록하지 않습니다.
+
+   * 팀
+   * 템플릿
+   * 템플릿 작업
 
 ### Beta 주석 달기 환경의 업데이트 섹션 개요
 
-![](assets/updates-tab-after-unified-experience-for-issues.png)
-
 새 댓글 달기 환경에 사용할 수 있는 기능과 개체에 대한 자세한 내용은 [새 댓글 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-업데이트 섹션에는 새 댓글 달기 환경의 다음 탭에 정보가 표시됩니다.
+![](assets/updates-tab-after-unified-experience-for-issues.png)
 
-* **댓글**: 사용자가 작성한 댓글과 해당 댓글에 대한 답글을 표시합니다. 새 댓글 달기 환경에서 오브젝트를 업데이트하는 방법에 대한 자세한 내용은 [작업 업데이트](../updating-work-items-and-viewing-updates/update-work.md).
-* **시스템 활동**: Workfront이 개체에 특정 이벤트를 기록하기 위해 만드는 정보 메시지인 시스템 업데이트를 표시합니다. 예를 들어 시스템 업데이트를 통해 상태, 이름 또는 사용자 정의 필드의 변경 사항을 캡처할 수 있습니다. Workfront 또는 그룹 관리자가 개체에 대한 시스템 업데이트를 활성화할 수 있습니다. 자세한 내용은 [시스템 업데이트 구성](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+* 업데이트 섹션에는 새 댓글 달기 환경의 다음 탭에 정보가 표시됩니다.
 
-현재 다음 개체에 대한 새 댓글 달기 환경을 사용하여 댓글을 추가하고 업데이트에 답글을 달 수 있습니다.
+   * **댓글**: 사용자가 작성한 댓글과 해당 댓글에 대한 답글을 표시합니다. 새 댓글 달기 환경에서 오브젝트를 업데이트하는 방법에 대한 자세한 내용은 [작업 업데이트](../updating-work-items-and-viewing-updates/update-work.md).
+   * **시스템 활동**: Workfront이 개체에 특정 이벤트를 기록하기 위해 만드는 정보 메시지인 시스템 업데이트를 표시합니다. 예를 들어 시스템 업데이트를 통해 상태, 이름 또는 사용자 정의 필드의 변경 사항을 캡처할 수 있습니다. Workfront 또는 그룹 관리자가 개체에 대한 시스템 업데이트를 활성화할 수 있습니다. 자세한 내용은 [시스템 업데이트 구성](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> 
-    <ul> 
-     <li><p>목표</p>
-     <li>보드 영역의 카드*</li>
-      목표 및 카드에 대한 유일한 경험입니다.
-     </li> 
-     <li>프로젝트</li>
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li>문제</li> 
-     <li>작업</li>
-     <li>문서</li>
-     </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+* 현재 다음 개체에 대한 새 댓글 달기 환경을 사용하여 댓글을 추가하고 업데이트에 답글을 달 수 있습니다.
 
-*카드에 대한 설명 및 시스템 활동 섹션을 활성화하면 보드 영역에서 카드에 대한 업데이트를 추가하고 볼 수 있습니다. 자세한 내용은 [보드에 애드혹 카드 추가](../../agile/get-started-with-boards/add-card-to-board.md).
+  <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+      <tr> 
+      <td> 
+        <ul> 
+        <li><p>목표</p>
+        <li>보드 영역의 카드*</li>
+          목표 및 카드에 대한 유일한 경험입니다.
+        </li> 
+        <li>프로젝트</li>
+        </ul> </td> 
+      <td> 
+        <ul> 
+        <li>문제</li> 
+        <li>작업</li>
+        <li>문서</li>
+        </ul> </td> 
+      </tr> 
+    </tbody> 
+    </table>
+
+  *카드에 대한 설명 및 시스템 활동 섹션을 활성화하면 보드 영역에서 카드에 대한 업데이트를 추가하고 볼 수 있습니다. 자세한 내용은 [보드에 애드혹 카드 추가](../../agile/get-started-with-boards/add-card-to-board.md).
+
+<!--enable this when we release the new update stream to ALL other objects and only if Anna's bug was fixed to include this: 
+
+* The following objects don't have a System Activity tab:
+
+  * Team
+  * Template
+  * Template Task
+-->
 
 ## 상위 등급 개체에도 표시되는 업데이트
 
