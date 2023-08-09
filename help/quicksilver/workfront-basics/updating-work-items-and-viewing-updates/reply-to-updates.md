@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
+source-git-commit: 413e5ff710b4c77b7ea2d870b34bb0627a4fcd86
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 &#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
 
-## 업데이트 또는 회신에 회신
+## Workfront에서 업데이트 또는 회신에 회신
 
 볼 수 있는 오브젝트의 스레드에서 댓글에 답글을 달 수 있습니다. 또는 Workfront 또는 그룹 관리자로 로그인하여 다른 사용자를 대신하여 댓글에 답글을 달 수 있습니다. 자세한 내용은 [다른 사용자로 로그인](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
@@ -127,53 +127,23 @@ ht-degree: 0%
 1. (선택 사항) **자세히** 메뉴 ![](assets/more-menu.png) 업데이트 옆에 있는 을(를) 클릭하여 회신을 관리할 수 있습니다. 자세한 내용은 [작업 업데이트](../updating-work-items-and-viewing-updates/update-work.md).
 
 
-## 이메일 알림을 통해 업데이트에 회신
+## 이메일 알림에서 업데이트에 회신
 
 이메일 알림 구성 방식에 따라 액세스 권한이 있는 특정 오브젝트가 업데이트될 때 이메일 알림을 받을 수 있습니다.
 
->[!NOTE]
->
->클러스터 6의 환경에서는 이메일로 업데이트에 대한 답장을 보낼 수 없습니다.
+다음과 같은 방법으로 이메일 알림에서 업데이트에 회신할 수 있습니다.
+
+* 받은 이메일에 답장을 보냅니다. 답글 이메일이 원래 의견에 대한 Workfront 답글로 추가됩니다.
+* 이메일 내의 댓글 버튼을 사용하여 Workfront으로 다시 이동하고 업데이트 영역에서 업데이트에 회신할 수 있습니다.
 
 다음은 작업의 업데이트 탭에서 업데이트한 결과로서 트리거되는 이메일 알림의 예입니다.
 
 ![email.png](assets/email-350x202.png)
 
-이메일에서 Workfront에 있는 개체의 통신 스레드에 직접 회신을 쉽게 추가할 수 있습니다. 다음 개체에 대한 댓글로 생성된 이메일의 Workfront에 로그인하지 않고 회신을 추가할 수도 있습니다.
+자세한 내용은 [이메일 알림에 회신](../updating-work-items-and-viewing-updates/reply-to-email-notifications.md).
 
-* 프로젝트
-* 작업
-* 문제
-* 문서
-* 템플릿 및 템플릿 작업
-* 포트폴리오
-* 프로그램
-* 반복
-* 타임시트
 
-### 이메일 알림에서 업데이트에 회신
 
-이메일 알림을 받으면 연결된 Workfront 개체를 빠르게 열고 회신을 통신 스레드에 바로 추가할 수 있습니다.
 
-1. 클릭 **댓글** 이메일 알림.
 
-   개체에 대한 세부 정보 페이지가 Workfront에서 열립니다.
 
-1. 회신을 추가할 업데이트로 이동합니다.
-
-   대화에 적극적으로 참여하는 사용자를 보는 것 외에도 해당 업데이트 스레드의 맨 위에서 각 회신에서 누가 태그 지정되었는지 확인할 수 있습니다. 이러한 사용자는 오브젝트에 가입된 사용자와 함께 오브젝트에 대한 업데이트나 회신이 있을 때마다 알림을 받습니다. 더 많은 사용자에 태그를 지정하려면 다음을 참조하십시오. [업데이트에 다른 사용자 태그 지정](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-
-1. 클릭 **회신,** 답글을 입력한 다음 **답변**.
-
-### Workfront 외부의 오브젝트에 업데이트 추가
-
-Workfront 이메일 알림을 받으면 Workfront에 로그인하지 않고도 통신 스레드에 업데이트를 빠르게 추가할 수 있습니다.
-
-Workfront 이메일에 업데이트를 추가하려면 다음 작업을 수행하십시오.
-
-1. 이메일 애플리케이션에서 응답하려는 Workfront 이메일을 연 다음 회신 이메일 창을 엽니다.
-1. 업데이트를 입력합니다.\
-   첨부 파일이 허용되지 않으며 이메일의 업데이트에 적용된 서식 있는 텍스트 서식이 업데이트 탭에서 볼 때 업데이트에 표시되지 않습니다.
-1. 클릭 **보내기**.
-
-   업데이트가 개체의 통신 스레드에 추가됩니다.
