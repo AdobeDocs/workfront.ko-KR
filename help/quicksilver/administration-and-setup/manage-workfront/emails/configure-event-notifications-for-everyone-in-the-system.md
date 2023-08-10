@@ -5,7 +5,7 @@ author: Caroline, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: 3d4ba0396c5a59b1109ec70a6e85b77d0d093bf5
+source-git-commit: 207a8c8a642f3204a2d007789eb7ee8cd9379f1b
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 0%
@@ -13,8 +13,6 @@ ht-degree: 0%
 ---
 
 # 시스템의 모든 사용자를 위한 이벤트 알림 구성
-
-<!--look for the "hidden" addition below for the tab redesign - August 2023-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS-->
 
@@ -69,9 +67,8 @@ ht-degree: 0%
 
 1. 클릭 **이메일** > **알림**.
 
-   <!--hidden shot for the tab redesign - make live in August 2023:
    ![](assets/notifications-area-under-setup-emails.png)
-   -->
+
 
 1. 다음을 확인합니다. **이벤트 알림** 탭이 열려 있습니다.
 1. 이벤트 이름 왼쪽에 있는 스위치를 클릭하여 켜거나 끕니다.

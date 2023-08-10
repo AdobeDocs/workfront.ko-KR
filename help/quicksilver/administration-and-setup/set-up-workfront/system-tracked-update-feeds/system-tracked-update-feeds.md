@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: 413e5ff710b4c77b7ea2d870b34bb0627a4fcd86
+source-git-commit: 207a8c8a642f3204a2d007789eb7ee8cd9379f1b
 workflow-type: tm+mt
 source-wordcount: '360'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -62,14 +62,15 @@ ht-degree: 6%
      에 액세스하려면 추가 라이선스가 있어야 합니다. [!UICONTROL 목표] 영역입니다. 자세한 내용은 [Workfront 목표 사용 요구 사항](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
    * [!UICONTROL 카드] 게시판에서
 
-     카드 업데이트에 대한 자세한 내용은 [보드에 애드혹 카드 추가](../../../agile/get-started-with-boards/add-card-to-board.md).
-
+     카드 업데이트에 대한 자세한 내용은 [보드에서 연결된 카드 사용](../../../agile/get-started-with-boards/connected-cards.md).
 
 * [!DNL Workfront] 은 다음 개체에 대한 시스템 업데이트를 추적하지 않습니다.
 
    * [!UICONTROL 팀]
    * [!UICONTROL 템플릿]
    * [!UICONTROL 템플릿 작업]
+   * 애드혹 [!UICONTROL 카드]
+
 
 <!--hiding this bit because this is not true, at this time (August 2023). Users with a Work or Review license can see system updates by default as well.
 
@@ -99,4 +100,6 @@ Your [!DNL Workfront] license determines whether system updates display by defau
    * [!UICONTROL 문서]
    * [!UICONTROL 타임시트]
    * [!UICONTROL 반복]
+   * [!UICONTROL 목표]
+
 
