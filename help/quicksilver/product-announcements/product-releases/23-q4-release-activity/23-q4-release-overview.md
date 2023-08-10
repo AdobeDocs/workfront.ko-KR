@@ -3,9 +3,9 @@ title: 2023년 4분기 릴리스 개요
 description: 2023년 4분기 릴리스 개요
 author: Becky
 feature: Product Announcements
-source-git-commit: 3bb44437bb1c994497735132f26a00da34bd7874
+source-git-commit: 381dafce2163b3f2bba3f5775ec6314d704eb61d
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '828'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,7 @@ ht-degree: 0%
 
 * [보드 개선 사항](#boards-enhancements)
 * [프로젝트 개선 사항](#project-enhancements)
+* [기타 개선 사항](#other-enhancements)
 
 ### 보드 개선 사항
 
@@ -61,7 +62,7 @@ ht-degree: 0%
                  </tr>  
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">연결된 카드에서 보기 전용으로 사용할 수 있는 문서</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span> </p><p>이제 Adobe Workfront 보드의 연결된 카드에 대해 이미지 및 PDF 등의 문서를 볼 수 있습니다. 브라우저에서 문서를 미리 보거나 컴퓨터에 다운로드할 수 있습니다. </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">연결된 카드에서 보기 전용으로 사용할 수 있는 문서</a></p><p>이제 Adobe Workfront 보드의 연결된 카드에 대해 이미지 및 PDF 등의 문서를 볼 수 있습니다. 브라우저에서 문서를 미리 보거나 컴퓨터에 다운로드할 수 있습니다. </p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
@@ -92,7 +93,7 @@ ht-degree: 0%
                  </tr>  
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">이제 문제에 사용할 수 있는 프로젝트 보드 보기</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span> </p><p>이제 프로젝트 문제 목록의 게시판 보기에 액세스할 수 있습니다. 칸반 보드는 목록에서 문제를 보는 것보다 더 시각적인 방식으로 문제의 진행 상황을 추적하는 데 도움이 될 수 있습니다. </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">이제 문제에 사용할 수 있는 프로젝트 보드 보기</a></p><p>이제 프로젝트 문제 목록의 게시판 보기에 액세스할 수 있습니다. 칸반 보드는 목록에서 문제를 보는 것보다 더 시각적인 방식으로 문제의 진행 상황을 추적하는 데 도움이 될 수 있습니다. </p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
@@ -149,11 +150,65 @@ ht-degree: 0%
            </tbody>
         </table>
 
+### 기타 개선 사항
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">기능</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">릴리스 날짜</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <!--
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-7.md" class="MCXref xref" xrefformat="{para}">Dynamic re-calculation of calculated fields on native and custom forms</a> <span style="color: #ff0000;"> New in Preview!</span></p><p>Calculated fields on a form attached to an object are now dynamically re-calculated in real time when dependent values on any form on the page are modified. This allows you to see the updated results without saving the form.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: August 17, 2023</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 23.8 release</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 23.10 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                -->
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">2023년 4분기 동안의 룩앤필 업데이트</a></p><p>2023년 4분기 내에 Adobe Workfront 애플리케이션의 다양한 영역의 모양과 느낌에 대한 작은 업데이트가 이루어지고 있습니다. 특정 릴리스 날짜는 개별 릴리스 정보를 검토하십시오.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2023년 4분기 릴리스 일정 전체</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">프로덕션 릴리스: 특정 날짜에 대한 릴리스 정보 검토</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
 ## 공지
 
 ### Workfront Fusion 개선 사항
 
-릴리스의 현재 시점에는 Workfront Fusion 업데이트가 없습니다. 업데이트를 사용할 수 있으면 이 영역이 업데이트됩니다.
+Workfront Fusion의 새로운 기능은 2023년 4분기 릴리스 일정 이외의 케이던스로 프로덕션에서 사용할 수 있습니다. 최신 기능에 대한 자세한 내용은 [Adobe Workfront Fusion 릴리스 활동](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 ### Workfront Scenario Planner 개선 사항
 

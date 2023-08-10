@@ -4,9 +4,9 @@ description: 23.3 릴리스 개요
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 368ad085a1f07ea9301bd1d5279add76b9cd86d9
+source-git-commit: 53c124eec4d78b59e5b44e95ec28db7de779aec7
 workflow-type: tm+mt
-source-wordcount: '2736'
+source-wordcount: '2738'
 ht-degree: 0%
 
 ---
@@ -729,7 +729,7 @@ ht-degree: 0%
                                 <p>미리보기 릴리스: 23.3 릴리스 일정 전체</p>
                             </li>
                             <li>
-                                <p><span class="preview">미리 보기로 릴리스한 후 최소 2주(별도로 지정하지 않는 경우)</span></p>
+                                <p><span class="preview">프로덕션 릴리스: 미리보기에 릴리스한 후 최소 2주(달리 지정되지 않은 경우)</span></p>
                             </li>
                         </ul>
                     </td>
