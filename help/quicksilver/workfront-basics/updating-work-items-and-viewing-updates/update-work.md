@@ -6,9 +6,9 @@ description: Adobe Workfront 개체(프로젝트, 작업 또는 문제)에 업�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 413e5ff710b4c77b7ea2d870b34bb0627a4fcd86
+source-git-commit: ca4b3bc9f88a42102f33537dc7b9fd45e0a108d8
 workflow-type: tm+mt
-source-wordcount: '3486'
+source-wordcount: '3460'
 ht-degree: 1%
 
 ---
@@ -240,8 +240,6 @@ drafted for P&P release:
    >&quot;새로 만들기&quot; 표시기는 새 업데이트를 입력한 사용자와 현재 업데이트를 입력 중인 사용자가 모두 새 댓글 달기 경험을 사용하는 경우에만 표시됩니다.
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
-1. 다음을 클릭합니다. **첨부 파일 추가** 아이콘 ![](assets/add-image-paperclip-icon.png) <!--replace this icon with this new one for August 10: ![](assets/add-image-mountain-with-plus-icon.png)--> 이미지를 주석에 추가합니다. 이미지를 첨부하려면 먼저 컴퓨터에 저장해야 합니다. <!--**************** this might be renamed to "Add image")-->
-
 1. 클릭 **제출** Workfront 개체에 업데이트를 추가합니다.
 1. (선택 사항) 주석을 편집하려면 **자세히** 메뉴 ![](assets/more-menu.png) 좋아요 아이콘 오른쪽에 있는 **편집**.
 1. 주석의 정보를 편집하거나, 이미지를 추가 또는 제거하거나, 태그 지정된 사용자를 제거합니다.
@@ -301,7 +299,6 @@ drafted for P&P release:
    | 글머리 기호 목록 | ![mceclip6.png](assets/mceclip6.png) | ⌘+Shift+8 | Ctrl+Shift+8 |
    | 번호 매기기 목록 | ![mceclip5.png](assets/mceclip5.png) | ⌘+Shift+7 | Ctrl+Shift+7 |
    | 견적 차단 | ![](assets/block-quote-icon-large.png) | ⌘+Shift+9 | Ctrl+Shift+9 |
-   | 이모지 | ![](assets/emoji-icon.png) | ⌘+. | ⊞+. |
 
    텍스트 서식을 중지하려면 **리치 텍스트** 도구 모음
 
@@ -345,7 +342,7 @@ drafted for P&P release:
 
    또는
 
-   다음을 클릭합니다. **첨부 파일 추가** 아이콘 ![](assets/add-image-paperclip-icon.png) 댓글 달기 Beta 경험을 사용할 때는 컴퓨터에서 이미지를 찾아봅니다. <!--the name of the icon and the icon for it might change-->
+   다음을 클릭합니다. **첨부 파일 추가** 아이콘 ![](assets/add-image-mountain-with-plus-icon.png) 댓글 달기 Beta 경험을 사용할 때는 컴퓨터에서 이미지를 찾아봅니다. <!--**************** the tooltip of this icon might be renamed to "Add image")-->
 
    >[!NOTE]
    >

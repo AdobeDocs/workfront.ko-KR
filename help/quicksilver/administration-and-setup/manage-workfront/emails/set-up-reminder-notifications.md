@@ -5,7 +5,7 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: 3d4ba0396c5a59b1109ec70a6e85b77d0d093bf5
+source-git-commit: 1129f8ab93d349325bed56bc2b3ba94c2600c03f
 workflow-type: tm+mt
 source-wordcount: '1142'
 ht-degree: 1%
@@ -13,8 +13,6 @@ ht-degree: 1%
 ---
 
 # 미리 알림 설정
-
-<!--hidden content for the tab redesign in August 2023-->
 
 미리 알림 은 지정된 기준에 따라 수신자에게 이메일을 전송합니다. Adobe Workfront 관리자 또는 플래너 액세스 수준과 미리 알림에 대한 관리 액세스 권한을 가진 사용자는 미리 알림을 프로젝트, 작업, 문제 및 타임시트와 같은 작업 항목과 수동으로 연결할 수 있습니다.
 
@@ -68,9 +66,8 @@ An example of how this can be used would be helpful here and/or in the section <
 
 1. 클릭 **이메일** > **알림** > **미리 알림**.
 
-   <!--hidden for the tab redesign for August 2023:
    ![](assets/remider-notifications-tab-in-setup-email-notifications-area.png)
-   -->
+
 1. 클릭 **새 미리 알림**.
 
 1. 드롭다운 목록에서 미리 알림과 연결할 객체 유형을 클릭합니다.

@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: fb18fb0793a9e28ecc4d1b91c3a1010ee842028e
+source-git-commit: ca4b3bc9f88a42102f33537dc7b9fd45e0a108d8
 workflow-type: tm+mt
-source-wordcount: '1569'
+source-wordcount: '1561'
 ht-degree: 3%
 
 ---
@@ -101,7 +101,7 @@ ht-degree: 3%
 
 자세한 내용은 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 설명서는 릴리스 시점에 업데이트됩니다.
 
-미리보기 및 프로덕션: 발표 예정(23.3 릴리스 중 또는 출시 직후) <!--August 10, 2023-->
+미리보기 및 프로덕션: 2023년 8월 10일
 
 #### 추가 오브젝트에 대한 새로운 댓글 달기 환경
 
