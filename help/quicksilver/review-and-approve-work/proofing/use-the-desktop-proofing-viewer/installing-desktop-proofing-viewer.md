@@ -6,7 +6,7 @@ description: 주로 대화형 콘텐츠의 증명을 위해 설계된 Desktop Pr
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: fde4d0abf494c32cb53d3c4bc1b150f1825df433
+source-git-commit: 8c18753f5bd51a90f74357b8630ca6404e779f8f
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 0%
@@ -53,8 +53,8 @@ Adobe Workfront 관리자 또는 Workfront Proof 관리자가 워크스테이션
 
 1. 다음 중 하나를 수행하여 앱을 다운로드합니다.
 
-   * 프로덕션 환경을 사용하는 경우 [Desktop Proofing Viewer에 대한 Mac 프로덕션 다운로드.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.26.pkg)
-   * 미리보기 환경을 사용하는 경우 [Desktop Proofing Viewer에 대한 Mac 미리 보기 다운로드.](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.26.pkg)
+   * 프로덕션 환경을 사용하는 경우 [Desktop Proofing Viewer에 대한 Mac 프로덕션 다운로드.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.28.pkg)
+   * 미리보기 환경을 사용하는 경우 [Desktop Proofing Viewer에 대한 Mac 미리 보기 다운로드.](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.28.pkg)
 
 1. 방금 다운로드한 파일을 열어 설치를 시작합니다.
 1. 표시되는 설치 상자에서 **계속**&#x200B;을 클릭한 다음 을 클릭합니다 **설치**.
@@ -77,8 +77,8 @@ Workfront 또는 Workfront Proof 관리자가 워크스테이션에서 앱을 �
 
 1. 다음 중 하나를 수행하여 앱을 다운로드합니다.
 
-   * 프로덕션 환경에서 [Desktop Proofing Viewer에 대한 Windows 프로덕션 다운로드입니다.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.26.exe)
-   * 미리보기 환경에서 [Desktop Proofing Viewer에 대한 Windows 미리 보기 다운로드](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.26.exe).
+   * 프로덕션 환경에서 [Desktop Proofing Viewer에 대한 Windows 프로덕션 다운로드입니다.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.28.exe)
+   * 미리보기 환경에서 [Desktop Proofing Viewer에 대한 Windows 미리 보기 다운로드](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.28.exe)
 
 1. 방금 다운로드한 파일을 열어 설치를 시작합니다.
 1. 표시되는 설치 상자에서 방금 다운로드한 파일을 열어 설치를 시작합니다.
