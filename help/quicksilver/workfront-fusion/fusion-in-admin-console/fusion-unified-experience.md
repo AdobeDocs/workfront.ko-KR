@@ -7,9 +7,9 @@ description: Adobe Experience Cloud을 통해 Workfront Fusion에 액세스하�
 author: Becky
 feature: Workfront Fusion
 exl-id: ea89cf36-f08d-4f4c-b89f-4895b5947e7a
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: d43d17f59d8ecc071cf953994721b586ff9328d2
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '545'
 ht-degree: 1%
 
 ---
@@ -102,4 +102,11 @@ ht-degree: 1%
 * 설정 **[!UICONTROL 환경 설정]** 대상 [!DNL Adobe Experience Cloud], 기본 및 보조 언어 환경 설정 포함.
 * 액세스 권한 **[!UICONTROL [!DNL Workfront Fusion]프로필]**. 프로필에 있는 경우 **[!UICONTROL 자세히]** 메뉴 ![](assets/more-icon.png) 및 선택 **[!UICONTROL 편집]**. 프로필에 대한 자세한 내용은 [내 설정 구성](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 * **[!UICONTROL 로그아웃]** Adobe Experience Cloud.
+
+
+## 알림 액세스
+
+통합 쉘의 알림 영역에서 알림 및 공지를 찾을 수 있습니다.
+
+알림을 보려면 알림 아이콘을 클릭합니다 ![알림 아이콘](assets/notifications-icon.png) 화면 오른쪽 상단 모서리 근처. 알림 아이콘에 빨간색 점이 있으면 읽지 않은 알림 또는 공지가 있음을 나타냅니다.
 
