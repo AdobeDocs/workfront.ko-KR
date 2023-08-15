@@ -6,20 +6,45 @@ description: Adobe Workfront 개체(프로젝트, 작업 또는 문제)에 업�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: ca4b3bc9f88a42102f33537dc7b9fd45e0a108d8
+source-git-commit: d93d42322d62ff5eb927ca13febcb763cbec3f13
 workflow-type: tm+mt
-source-wordcount: '3460'
+source-wordcount: '3430'
 ht-degree: 1%
 
 ---
 
 # 작업 업데이트
 
-<!--for the August 10 release: look for these words to see the edits: "August 10"-->
 
-<!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>-->
+<!--take "Beta" references out when we remove the beta and change "current" to "legacy" after October 26-->
+
+<!--after August 17: 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/enable-fast-release-process.html?lang=en ). </span>  
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>-->
+
+<!--replace the note below with this at August 17: 
+>[!NOTE]
+>
+>We are currently redesigning the commenting experience in Adobe Workfront.
+>Depending on what environment and what objects you access the commenting experience from, you might see different functionality in the Updates section. 
+>For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+>
+>The new commenting experience is available only for the Updates section, and it is not available for the following areas:
+>
+> * Home
+> * Summary panel in lists
+> * Summary panel in timesheets
+
+-->
+
+<!-- with October 26 release: add somewhere this:
+
+>[!NOTE]
+>
+>Iterations display the legacy commenting experience.-->
+
 
 >[!NOTE]
 >
@@ -151,6 +176,8 @@ drafted for P&P release:
 
 ### 현재 업데이트 섹션에서 작업 항목에 업데이트 추가
 
+<!--on October 26, replace "current" with "legacy"-->
+
 >[!NOTE]
 >
 >다음 기능은 목표 및 카드를 제외한 모든 객체에 사용할 수 있습니다. Workfront 목표에 액세스하려면 추가 라이선스가 있어야 합니다. 목표에 대한 댓글에 대한 자세한 내용은 을 참조하십시오. [Adobe Workfront 목표의 목표 주석 관리](../../workfront-goals/goal-management/manage-goal-comments.md).
@@ -209,15 +236,16 @@ drafted for P&P release:
 
 1. 업데이트에 회신하려면 다음을 참조하십시오. [업데이트에 대한 회신](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
-### 댓글 달기 Beta 경험을 사용하여 작업 항목에 업데이트 추가
+### 새 댓글 달기 경험을 사용하여 작업 항목에 업데이트 추가
 
 새 댓글 달기 환경에 사용할 수 있는 기능과 개체에 대한 자세한 내용은 [새 댓글 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 1. 업데이트할 개체를 찾은 다음 개체 이름을 클릭하여 개체의 페이지를 엽니다.
 1. 클릭  **업데이트** 왼쪽 패널에서
-1. 활성화 **Beta 댓글 달기** 업데이트 영역의 오른쪽 위 모서리에서 전환한 다음 **동의** Beta 계약. 업데이트 영역이 댓글 달기 Beta 경험으로 전환됩니다.
-다음 **댓글** 기본적으로 탭이 선택되어 있습니다.
+
+   다음 **댓글** 기본적으로 탭이 선택되어 있습니다.
 1. 에 주석 입력 시작 **새 댓글** 상자.
+   <!-- August 17 - add new screen shot and make yellow-->
 
    ![](assets/comment-box-empty-unshimmed.png)
 
@@ -245,6 +273,8 @@ drafted for P&P release:
 1. 주석의 정보를 편집하거나, 이미지를 추가 또는 제거하거나, 태그 지정된 사용자를 제거합니다.
 댓글을 제출한 후 15일 이내에 편집할 수 있습니다. 댓글이 업데이트될 때 표시되는 날짜 스탬프 왼쪽에 &quot;편집됨&quot; 표시기가 추가됩니다.
 
+   <!--August 17 - new screen shot and make yellow-->
+
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
@@ -254,6 +284,8 @@ drafted for P&P release:
 
 1. (선택 사항) **답변** 기존 댓글에 회신하려면 위의 4-8단계를 따르십시오. <!--(**************insure this stays accurate***********)--> 업데이트 회신에 대한 자세한 내용은 [업데이트에 대한 회신](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 1. (조건부 및 선택 사항) 다른 사용자가 업데이트 섹션의 표시 영역 외부에 표시되는 주석을 추가한 경우 **보기** 파란색 안쪽에 **새 댓글 배너** 이 설명을 표시하려면 이 단추를 클릭하십시오.
+
+   <!--August 17 - new screen shot and make yellow-->
 
    ![](assets/blue-new-comments-banner-with-view-button.png)
 
@@ -267,7 +299,9 @@ drafted for P&P release:
 1. (선택 사항) **좋아요** 아이콘![](assets/like-icon.png). 아이콘이 좋아요 수로 업데이트됩니다.
 1. (조건부 및 선택 사항) 댓글에 다른 사람을 포함한 경우 업데이트에 포함된 멤버 수를 클릭하여 입력한 댓글이 공유된 엔티티 목록을 표시합니다.
 
-   ![](assets/members-icons-expanded-unshimmed.png)
+<!--August 17 - new screen shot and make yellow-->
+
+![](assets/members-icons-expanded-unshimmed.png)
 1. (선택 사항) **시스템 활동** 시스템에 의해 기록된 업데이트를 보려면 탭하십시오. 개체 또는 그 하위 항목이 업데이트되면 Workfront은 해당 업데이트에 대한 메모를 생성하고 시스템 활동 탭에 표시합니다.
 
    자세한 내용은 [업데이트 섹션 개요](../updating-work-items-and-viewing-updates/updates-tab-overview.md)
@@ -308,10 +342,12 @@ drafted for P&P release:
    >
    >* 서식은 사용자가 업데이트를 포함하여 받는 모든 이메일 알림에도 표시됩니다.
    >* 전자 메일의 업데이트에 적용된 서식 있는 텍스트 서식을 업데이트 탭에서 보면 업데이트에 표시되지 않습니다.
-   >* 조직에서 Internet Explorer와 함께 Workfront을 사용하는 경우 업데이트에 붙여넣은 서식 있는 텍스트 서식이 손실되고 일반 텍스트로 표시됩니다. 리치 텍스트 도구 모음의 속성을 사용하여 텍스트 서식을 다시 지정할 수 있습니다.
+   >* 조직에서 Internet Explorer와 함께 Workfront을 사용하는 경우 업데이트에 붙여넣은 서식 있는 텍스트 서식이 손실되고 일반 텍스트로 표시됩니다. 리치 텍스트 도구 모음의 속성을 사용하여 텍스트 서식을 변경할 수 있습니다.
    >* 타임시트 영역에서 수행한 업데이트 또는 보고서에서 본 메모 및 마지막 조건 개체에 대해 서식 있는 텍스트 서식을 사용할 수 없습니다.
 
 1. (선택 사항) 이전 업데이트 또는 다른 소스의 텍스트를 포함하여 자신의 업데이트와 구분하려면 해당 텍스트를 블록 인용으로 표시할 수 있습니다. 다음을 클릭합니다. **견적 차단** 아이콘 ![](assets/block-quote-small.png) 인용 텍스트를 입력합니다. 인용된 텍스트가 세로 회색 선으로 표시됩니다. 다음을 클릭합니다. **견적 차단** 아이콘을 다시 클릭하여 일반적인 서식으로 돌아갑니다.
+
+   <!--August 17 - new screen shot and make yellow-->
 
    ![](assets/block-quote-marked-350x144.png)
 
@@ -342,7 +378,7 @@ drafted for P&P release:
 
    또는
 
-   다음을 클릭합니다. **첨부 파일 추가** 아이콘 ![](assets/add-image-mountain-with-plus-icon.png) 댓글 달기 Beta 경험을 사용할 때는 컴퓨터에서 이미지를 찾아봅니다. <!--**************** the tooltip of this icon might be renamed to "Add image")-->
+   다음을 클릭합니다. **첨부 파일 추가** 아이콘 ![](assets/add-image-mountain-with-plus-icon.png) 새 댓글 달기 환경을 사용할 때는 컴퓨터에서 이미지를 찾아봅니다. <!--**************** the tooltip of this icon might be renamed to "Add image")--> <!--in October 26 - leave this as the only icon instead of the OR option-->
 
    >[!NOTE]
    >
@@ -366,6 +402,8 @@ drafted for P&P release:
 업데이트 복사는 사용하는 댓글 달기 경험에 따라 다릅니다.
 
 ### 현재 댓글 달기 경험에서 업데이트 복사
+
+<!--October 26 - replace current with legacy-->
 
 * [업데이트 복사](#copy-the-update)
 * [스레드 링크 복사](#copy-the-thread-link)
@@ -431,7 +469,7 @@ Workfront 관리자가 제공하는 액세스 권한에 따라, 오브젝트의 
 Workfront 사용자(Workfront 관리자 포함)는 다른 사용자가 업데이트한 내용을 삭제할 수 없습니다. 그러나 사용자의 액세스 수준에서 자체 업데이트를 삭제할 수 있는 경우 Workfront 관리자가 해당 사용자로 로그인하여 수행한 업데이트를 삭제할 수 있습니다. 자세한 내용은 [사용자 정의 액세스 수준 만들기 또는 수정](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) 및 [다른 사용자로 로그인](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
 1. 삭제할 업데이트 또는 회신으로 이동합니다.
-1. 다음을 클릭합니다. **자세히** 삭제할 업데이트 또는 답글 옆에 있는 메뉴를 클릭한 다음 **삭제**.
+1. 다음을 클릭합니다. **자세히** 삭제할 업데이트 또는 답글 옆에 있는 메뉴를 클릭한 다음 **삭제**. <!--October 26 - replace screen shot here-->
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -442,6 +480,8 @@ Workfront 사용자(Workfront 관리자 포함)는 다른 사용자가 업데이
    >이미지가 첨부된 업데이트를 삭제하면 댓글과 이미지가 모두 삭제됩니다. 자세한 내용은 [Workfront 업데이트에서 리치 텍스트 사용](#use-rich-text-in-a-workfront-update) 이 문서의 섹션.
 
    삭제한 댓글에 연결된 댓글이 있는 경우 댓글을 삭제한 사용자의 이름으로 댓글이 제거되었음을 나타냅니다.
+
+   <!-- August 17 - replace screen shot??? - if yes, make it yellow-->
 
    ![](assets/removed-comment-indicator-new-experience.png)
 
@@ -481,17 +521,17 @@ Workfront 사용자(Workfront 관리자 포함)는 다른 사용자가 업데이
 >[!NOTE]
 >
 >새 댓글 달기 환경을 사용할 때 시스템 업데이트를 비활성화할 수 없습니다.
->이 섹션의 정보는 현재 업데이트 섹션에서 사용할 수 있는 기능에만 적용됩니다.
+>이 섹션의 정보는 현재 업데이트 섹션에서 사용할 수 있는 기능에만 적용됩니다. <!--October 26: replace current with legacy-->
 >Beta 버전의 시스템 업데이트에 대한 자세한 내용은 [업데이트 섹션 개요](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 
 Workfront 객체의 업데이트 섹션에는 두 가지 유형의 정보가 표시됩니다.
 
-* **사용자 업데이트:** 사용자 업데이트는 사용자와 시스템의 다른 사용자가 입력하는 주석입니다.
+* **사용자 업데이트:** 사용자 업데이트는 사용자와 시스템의 다른 사용자가 입력하는 주석입니다. <!--August 17 - new screen shot and make yellow-->
 
   ![](assets/user-update-cl-350x277.png)
 
-* **시스템 업데이트:** 시스템은 객체의 문서에 대한 편집 또는 변경 사항뿐만 아니라 에셋 제거, 버전 추가 또는 삭제, 승인 요청 첨부 또는 제거를 기록하는 레코드를 업데이트합니다.
+* **시스템 업데이트:** 시스템은 객체의 문서에 대한 편집 또는 변경 사항뿐만 아니라 에셋 제거, 버전 추가 또는 삭제, 승인 요청 첨부 또는 제거를 기록하는 레코드를 업데이트합니다. <!--August 17 - new screen shot and make yellow-->
 
   ![](assets/system-updates-cl-350x277.png)
 

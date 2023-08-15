@@ -7,9 +7,9 @@ description: 객체의 업데이트 섹션에는 사용자가 객체에 대해 �
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: fb18fb0793a9e28ecc4d1b91c3a1010ee842028e
+source-git-commit: d93d42322d62ff5eb927ca13febcb763cbec3f13
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1126'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,31 @@ ht-degree: 4%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>-->
+<!--after August 17: 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/enable-fast-release-process.html?lang=en ). </span>  
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>-->
+
+<!--replace the note below with this at August 17: 
+>[!NOTE]
+>
+>We are currently redesigning the commenting experience in Adobe Workfront.
+>Depending on what environment and what objects you access the commenting experience from, you might see different functionality in the Updates section. 
+>For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+>
+>The new commenting experience is available only for the Updates section, and it is not available for the following areas:
+>
+> * Home
+> * Summary panel in lists
+> * Summary panel in timesheets
+
+-->
+
+<!-- with October 26 release: add somewhere this:
+
+>[!NOTE]
+>
+>Iterations display the legacy commenting experience.-->
 
 >[!NOTE]
 >
@@ -29,7 +53,7 @@ ht-degree: 4%
 >다음 객체에 대한 새 경험에 액세스할 수 있습니다.
 > * 문제, 프로젝트, 작업 및 문서.
 >
->     댓글 달기 Beta 경험을 활성화하면 사용할 수 있습니다.
+>     새 댓글 달기 환경을 활성화하면 사용할 수 있습니다.
 >
 >     이 기능은 업데이트 섹션에만 사용할 수 있으며 다음 영역에는 사용할 수 없습니다.
 >
@@ -50,6 +74,8 @@ ht-degree: 4%
 업데이트 섹션의 정보는 액세스하는 환경에 따라 다르게 구성됩니다.
 
 ### 현재 업데이트 섹션의 개요
+
+<!--October 26 - replace current with legacy-->
 
 * 오브젝트의 업데이트 섹션에는 지난 90일 이내에 이루어진 가장 최근 업데이트 중 최대 200개가 표시됩니다.
 
@@ -89,8 +115,8 @@ ht-degree: 4%
 
 * 현재 업데이트 섹션에는 다음 정보가 표시됩니다.
 
-   * 사용자 업데이트: 사용자가 작성한 댓글과 해당 댓글에 대한 답글.
-   * 시스템 업데이트: Workfront이 개체에 특정 이벤트를 기록하기 위해 만드는 정보 메시지입니다. 예를 들어 시스템 업데이트를 통해 상태, 이름 또는 사용자 정의 필드의 변경 사항을 캡처할 수 있습니다. Workfront 또는 그룹 관리자가 개체에 대한 시스템 업데이트를 활성화할 수 있습니다. 자세한 내용은 [시스템 업데이트 구성](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+   * **사용자 업데이트**: 사용자가 작성한 댓글과 해당 댓글에 대한 답글.
+   * **시스템 업데이트**: Workfront이 개체에 특정 이벤트를 기록하기 위해 만드는 정보 메시지입니다. 예를 들어 시스템 업데이트를 통해 상태, 이름 또는 사용자 정의 필드의 변경 사항을 캡처할 수 있습니다. Workfront 또는 그룹 관리자가 개체에 대한 시스템 업데이트를 활성화할 수 있습니다. 자세한 내용은 [시스템 업데이트 구성](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
 * 다음 개체는 시스템 업데이트를 기록하지 않습니다.
 
@@ -98,9 +124,11 @@ ht-degree: 4%
    * 템플릿
    * 템플릿 작업
 
-### Beta 주석 달기 환경의 업데이트 섹션 개요
+### 새 댓글 달기 환경의 업데이트 섹션 개요
 
 새 댓글 달기 환경에 사용할 수 있는 기능과 개체에 대한 자세한 내용은 [새 댓글 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+
+<!--update screen shot and maybe save it under a new name??? with the August 17 release-->
 
 ![](assets/updates-tab-after-unified-experience-for-issues.png)
 
@@ -111,7 +139,31 @@ ht-degree: 4%
 
 * 현재 다음 개체에 대한 새 댓글 달기 환경을 사용하여 댓글을 추가하고 업데이트에 답글을 달 수 있습니다.
 
-  <table style="table-layout:auto"> 
+<!--replace the table with this list on August 17: 
+
+    * Projects
+    * Tasks (and stories)
+    * Issues
+    * Documents
+
+    <span class="preview">
+    
+    * Templates
+    * Template Tasks
+    * Timesheets
+    * Users
+    * Portfolios
+    * Programs
+    
+    >[!NOTE]
+    >
+    >    You cannot display the new commenting experience for iterations. 
+
+    </span>
+  
+  -->
+
+<table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -134,7 +186,7 @@ ht-degree: 4%
     </tbody> 
     </table>
 
-  *카드에 대한 설명 및 시스템 활동 섹션을 활성화하면 보드 영역에서 카드에 대한 업데이트를 추가하고 볼 수 있습니다. 자세한 내용은 [보드에 애드혹 카드 추가](../../agile/get-started-with-boards/add-card-to-board.md).
+*카드에 대한 설명 및 시스템 활동 섹션을 활성화하면 보드 영역에서 카드에 대한 업데이트를 추가하고 볼 수 있습니다. 자세한 내용은 [보드에 애드혹 카드 추가](../../agile/get-started-with-boards/add-card-to-board.md).
 
 <!--enable this when we release the new update stream to ALL other objects and only if Anna's bug was fixed to include this: 
 
@@ -227,7 +279,7 @@ ht-degree: 4%
 >
 >Adobe Workfront의 개체 계층에 대한 자세한 내용은 [Adobe Workfront의 오브젝트 이해](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 >
-> 새 댓글 달기 Beta 경험에서 시스템 업데이트에 답글을 달 수 없습니다. 자세한 내용은 [새 댓글 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+> 새 댓글 달기 환경에서 시스템 업데이트에 회신할 수 없습니다. 자세한 내용은 [새 댓글 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 ## 업데이트 섹션의 제한 사항
 

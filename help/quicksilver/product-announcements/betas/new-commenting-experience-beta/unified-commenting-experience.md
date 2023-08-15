@@ -7,16 +7,20 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: ca4b3bc9f88a42102f33537dc7b9fd45e0a108d8
+source-git-commit: d93d42322d62ff5eb927ca13febcb763cbec3f13
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '678'
 ht-degree: 1%
 
 ---
 
 # 새 댓글 달기 환경
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>-->
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
+
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> -->
 
 Adobe Workfront의 댓글 달기 환경에 대한 업데이트가 현재 개발 중입니다. 이 업데이트에는 선택한 객체의 업데이트 섹션에 새로운 인터페이스, 새로운 기능 및 향상된 성능이 포함되어 있습니다.
 
@@ -34,25 +38,6 @@ For additional resources for the new commenting experience, also see the followi
 ## 기능
 
 새 주석 달기 경험에는 기존 업데이트 스트림에 대한 개선 사항 및 변경 사항이 포함되어 있습니다.
-
-<!-- Previous content here - replaced with the table below: 
-
->[!IMPORTANT]
->The Unified Commenting Experience features listed below are currently only available in Adobe Workfront Goals.
-
-* **Creating comments**
-
-    You can create a new comment, format it with rich text, and tag others to be notified. For more information on creating comments, see [Manage goal comments](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
-
-* **Responding to comments**
-
-    You can react to a comment with a like or reply with a new comment in-thread that can notify the original commenter and owner of the object.
-
-* **System Activity**
-    
-    System-generated updates for an object are now listed seperately from comments made in the update tab. For more information on viewing the System Activity stream, see step 11 of [Manage goal comments](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
-
--->
 
 새 댓글 달기 환경에 포함된 개선 사항 중 하나는 다음과 같습니다.
 
@@ -73,6 +58,7 @@ For additional resources for the new commenting experience, also see the followi
 >아래 나열된 객체에는 Beta 경험을 활성화할 때 사용할 수 있는 지난 해(2022년 6월 시작)의 주석 및 시스템 업데이트만 있습니다.
 >
 >현재 경험의 업데이트 섹션을 볼 때 2022년 6월 이전에 이러한 오브젝트에 대한 주석 및 시스템 업데이트를 볼 수 있습니다.
+>
 >* 문제
 >* 프로젝트
 >* 작업
@@ -487,26 +473,82 @@ For additional resources for the new commenting experience, also see the followi
 
 ## 새 댓글 달기 환경 찾기
 
-현재 다음 버전의 Workfront에서 업데이트 섹션을 보면 다음 개체에 대해 새 댓글 달기 환경이 지원됩니다.
+새 댓글 달기 환경은 현재 다음 개체에 대해 지원됩니다.
 
-* 업데이트 섹션에서 Beta 경험을 활성화할 때:
+<!--replace the first bullet with this on August 17: 
+
+<span class="preview">
+
+* By default, when you enable the New commenting experience in the Updates section for the following objects: 
+
+   * Project
+   * Task
+   * Issue
+   * Document
+
+   >[!TIP]
+   >
+   >The New commenting experience option is enabled by default for these objects. You can deselect the New commenting toggle to display the legacy commenting experience. 
+
+   For more information about managing updates for Workfront objects, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+
+</span>
+
+-->
+
+* 다음에 대한 업데이트 섹션에서 Beta 경험을 활성화할 때:
 
    * 문제, 프로젝트, 작업 및 문서
 
   Workfront 개체의 업데이트 관리에 대한 자세한 내용은 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
+<!--replace the second bullet with this on August 17: 
 
-* 기본적으로 는 기본 댓글 달기 환경으로,
+<span class="preview">
 
-   * 보드 영역의 목표, 카드
+* By default, as the only commenting experience for the following objects:  
+
+  * Goal
+
+    >[!NOTE]
+    >
+    >You must have an additional license to Adobe Workfront Goals to be able to access this area of Workfront. For more information, see [Requirements to use Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+  * Card on a board
+  * Team
+  * Template
+  * Template Task
+  * Timesheet
+  * Program
+  * Portfolio
+  * User
+
+>[!TIP]
+>
+>There is no option to enable the new commenting experience for iterations. Only the legacy commenting experience is available for iterations. 
+
+</span>
+
+-->
+
+* 기본적으로 유일한 댓글 달기 경험으로
+
+   * 골대, 보드에 있는 카드
 
   >[!NOTE]
   >
   >이 Workfront 영역에 액세스하려면 Adobe Workfront 목표에 대한 추가 라이선스가 있어야 합니다. 자세한 내용은 [Workfront 목표 사용 요구 사항](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-새 댓글 달기 경험 Beta를 활성화하려면 다음을 수행하십시오.
+<!--display on August 17: 
 
-1. 새 댓글 달기 경험을 활성화할 개체로 이동한 다음 을 클릭합니다 **업데이트** 왼쪽 패널에서
+Depending on the environment you access the commenting experience you can do one of the following: 
+
+* Enable the commenting experience Beta in the Production environment
+* <span class="preview">Enable the legacy commenting experience in the Preview or Production environment if your administrator opted in for fast releases. </span>
+-->
+
+댓글 달기 경험 Beta를 활성화하려면 다음을 수행하십시오.
+
+1. 새 댓글 달기 경험을 활성화할 개체로 이동한 다음, **업데이트** 왼쪽 패널에서
 1. 활성화 **Beta 댓글 달기** 업데이트 영역의 오른쪽 상단 모서리에서 전환합니다.
 1. 클릭 **동의** Beta 계약 상자. 이렇게 하면 선택한 개체에 대해 새 댓글 달기 경험을 사용할 수 있습니다.
 1. 에서 업데이트를 입력하십시오. **댓글** 탭. 새 경험이 열릴 때 주석 탭이 기본 탭이어야 합니다
@@ -516,3 +558,19 @@ For additional resources for the new commenting experience, also see the followi
    다음을 클릭합니다.  **시스템 활동** 탭으로 이동하여 Workfront에서 생성한 활동 업데이트를 봅니다.
 
    새 댓글 달기 환경에서 개체를 업데이트하는 방법에 대한 자세한 내용은 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+<!--make this available for August 17: 
+
+<span class="preview">
+
+To disable the new commenting experience and display the legacy experience: 
+
+1. Go to a project, task, issue, or document, then click **Updates** in the left panel.
+1. Click the **New commenting** toggle in the upper-right corner of the Updates area to deselect the toggle and disable the new experience. 
+  
+  This changes the Updates area to the legacy commenting stream. 
+
+1. Start typing an update in the space provided. 
+</span>
+
+-->

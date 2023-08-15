@@ -6,7 +6,7 @@ description: Adobe Workfront 개체에 업데이트 설명을 제공하면 프�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: d93d42322d62ff5eb927ca13febcb763cbec3f13
 workflow-type: tm+mt
 source-wordcount: '1602'
 ht-degree: 0%
@@ -15,10 +15,27 @@ ht-degree: 0%
 
 # 업데이트에 다른 사용자 태그 지정
 
-<!--take "Beta" references out when we remove the beta-->
+<!--take "Beta" references out when we remove the beta and change "current" to "legacy" after October 26-->
 
+<!--after August 17: 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/enable-fast-release-process.html?lang=en ). </span>  
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.-->
+<!--replace the note below with this at August 17: 
+>[!NOTE]
+>
+>We are currently redesigning the commenting experience in Adobe Workfront.
+>Depending on what environment and what objects you access the commenting experience from, you might see different functionality in the Updates section. 
+>For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+>
+>The new commenting experience is available only for the Updates section, and it is not available for the following areas:
+>
+> * Home
+> * Summary panel in lists
+> * Summary panel in timesheets
+
+-->
 
 >[!NOTE]
 >
@@ -98,6 +115,8 @@ Workfront 개체에 업데이트를 추가하는 방법에 대한 자세한 내�
 
 ### 현재 업데이트 섹션의 업데이트에 대해 다른 사람에게 태그 지정
 
+<!--change "current" to "legacy" at the October 26, 2023 release-->
+
 현재 업데이트 섹션에서 사용자에 수동으로 태그를 지정할 수 있습니다.
 
 1. 에 설명된 대로 작업 항목 업데이트를 시작합니다. [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
@@ -117,7 +136,7 @@ Workfront 개체에 업데이트를 추가하는 방법에 대한 자세한 내�
 
    ![](assets/tag-users-in-update.png)
 
-1. (선택 사항) 업데이트를 비공개로 설정하려면 을 활성화합니다 **내 회사에 비공개** 업데이트 상자의 오른쪽 아래 모서리에 있는 을 참조하십시오. 이렇게 하면 회사의 사용자에게만 업데이트가 표시됩니다. 다음 **내 회사에 비공개** 옵션은 회사가 Workfront 프로필에 지정된 경우에만 사용할 수 있습니다.
+1. (선택 사항) 업데이트를 비공개로 설정하려면 을 활성화합니다 **내 회사에 비공개** 업데이트 상자의 오른쪽 아래 모서리에 있습니다. 이렇게 하면 회사의 사용자에게만 업데이트가 표시됩니다. 다음 **내 회사에 비공개** 옵션은 회사가 Workfront 프로필에 지정된 경우에만 사용할 수 있습니다.
 
    >[!NOTE]
    >
@@ -138,7 +157,7 @@ Workfront 개체에 업데이트를 추가하는 방법에 대한 자세한 내�
 
    작업 항목을 업데이트할 때 사용할 수 있는 추가 기능에 대한 자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-### 댓글 달기 Beta 경험의 업데이트에 다른 사용자에게 태그 지정
+### 새로운 댓글 달기 환경의 업데이트에 다른 사람에게 태그 지정
 
 다음과 같은 방법으로 새 댓글 달기 환경의 업데이트에 다른 사용자에게 태그를 지정할 수 있습니다.
 
@@ -169,7 +188,7 @@ Workfront 개체에 업데이트를 추가하는 방법에 대한 자세한 내�
 
    ![](assets/tag-others-unified-commenting.png)
 
-1. (선택 사항) 업데이트를 비공개로 설정하려면 을 활성화합니다 **내 회사에 비공개** 업데이트 상자의 오른쪽 아래 모서리에 있는 을 참조하십시오. 이렇게 하면 회사의 사용자에게만 업데이트가 표시됩니다. 다음 **내 회사에 비공개** 옵션은 회사가 Workfront 프로필에 지정된 경우에만 사용할 수 있습니다.
+1. (선택 사항) 업데이트를 비공개로 설정하려면 을 활성화합니다 **내 회사에 비공개** 업데이트 상자의 오른쪽 아래 모서리에 있습니다. 이렇게 하면 회사의 사용자에게만 업데이트가 표시됩니다. 다음 **내 회사에 비공개** 옵션은 회사가 Workfront 프로필에 지정된 경우에만 사용할 수 있습니다.
 
    >[!NOTE]
    >
@@ -186,10 +205,15 @@ Workfront 개체에 업데이트를 추가하는 방법에 대한 자세한 내�
    업데이트에 포함된 사용자에게는 객체에 대한 보기 권한이 자동으로 부여되고 객체에 대한 업데이트를 보고 응답할 수 있습니다.
 
    업데이트 텍스트 아래에 있는 각 회신에서 누가 태그 지정되었는지 멤버 영역에서 확인할 수 있습니다. 이러한 사용자는 오브젝트에 가입된 사용자와 함께 오브젝트에 대한 업데이트 또는 회신이 이루어질 때마다 알림을 받습니다.
+
+   <!-- for August 17, replace the blurb above about Members: <span class="preview">The names of the tagged users display next to their avatars, up to two users. If more than two users are tagged the name of the first tagged user displays, in addition to a number of how many additional users are tagged.</span> -->
+
 1. (선택 사항) 숫자를 클릭합니다. **구성원** 입력한 업데이트가 공유된 엔티티 목록을 표시하는 업데이트에는 이 포함됩니다.
+
+   <!--update screen shot for August 17-->
 
    ![](assets/members-icons-expanded-unshimmed.png)
 
    작업 항목을 업데이트할 때 사용할 수 있는 추가 기능에 대한 자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (선택 사항) **자세히** 메뉴 ![](assets/more-menu.png) 좋아요 아이콘 오른쪽에 있는 **편집**. 태그된 사용자를 제거한 다음 **제출**. 댓글을 입력한 후 15분 이내에만 편집할 수 있습니다. 추가한 의견만 편집할 수 있습니다.
+1. (선택 사항) **자세히** 메뉴 ![](assets/more-menu.png) 좋아요 아이콘 오른쪽에 <!--with the August 17 release - replace placing of the More icon: <span class="preview">in the upper-right corner of the comment</span>-->을 클릭한 다음 을 클릭합니다 **편집**. 태그된 사용자를 제거한 다음 **제출**. 댓글을 입력한 후 15분 이내에만 편집할 수 있습니다. 추가한 의견만 편집할 수 있습니다.
