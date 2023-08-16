@@ -5,7 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: bd9e2e6f-338e-4cfc-aee5-6de6ecff4f09
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 1%
@@ -37,7 +39,7 @@ ht-degree: 1%
    >   * 여러 테이블이 포함된 보고서를 XLSX 형식으로 내보내는 경우 내보낸 파일에는 각 테이블에 대해 별도의 시트가 포함됩니다.
    >   * 여러 테이블이 포함된 보고서를 CSV 형식으로 내보내면 내보낸 결과는 각 테이블에 대해 별도의 파일이 포함된 압축 폴더입니다.
    >   * 그룹화된 행이 포함된 테이블을 CSV 형식으로 내보내면 CSV 파일에 모든 행이 포함되지만 그룹에는 표시되지 않습니다.
-
+   >   
 
 <!-- 1. (Conditional) If you selected **PDF**, configure the fields below to format the exported file, then click **Download PDF**.
 

@@ -4,7 +4,9 @@ description: 보고 캔버스에서 시각화 블록 추가 또는 편집
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 14750eb1-d0a3-42ea-bd2e-100b633322ff
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 1%

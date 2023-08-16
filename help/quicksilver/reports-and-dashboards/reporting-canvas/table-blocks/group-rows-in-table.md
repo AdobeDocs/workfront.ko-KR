@@ -5,7 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: 355bbe5b-9c66-4b6b-b479-a48a20b53fe6
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 2%
@@ -95,7 +97,7 @@ ht-degree: 2%
    * 다른 그룹을 추가하려면 사이드 패널에서 다른 필드를 드래그합니다.
    * 기본적으로 축소된 그룹의 행을 표시하려면 **기타 메뉴** 아이콘 ![](assets/more-icon.png) 그룹 옆에 있는 을(를) 클릭한 다음 **그룹 접기**.
 
-      각 그룹은 축소되거나 확장된 행으로 표시되도록 개별적으로 구성할 수 있습니다. 기본적으로 그룹화된 모든 행은 축소됩니다.
+     각 그룹은 축소되거나 확장된 행으로 표시되도록 개별적으로 구성할 수 있습니다. 기본적으로 그룹화된 모든 행은 축소됩니다.
 
    * 그룹 행에 개수를 표시하려면 **기타 메뉴** 아이콘 ![](assets/more-icon-27x15.png) 그룹 옆에 있는 을(를) 클릭한 다음 **개수 표시**.
    * 그룹을 제거하려면 **기타 메뉴** 아이콘 ![](assets/more-icon.png) 그룹 옆에 있는 을(를) 클릭한 다음 **그룹 제거**.

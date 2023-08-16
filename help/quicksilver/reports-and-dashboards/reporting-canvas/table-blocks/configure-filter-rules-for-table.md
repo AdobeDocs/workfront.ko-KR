@@ -5,10 +5,12 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: 1838b142-d845-4795-b27f-80bfba18e9d4
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '857'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -89,7 +91,7 @@ ht-degree: 1%
       <td> <p>필터링 중인 필드가 존재하며 해당 필드에 값이 지정되었습니다.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>보다 작음</strong> </td> 
+      <td role="rowheader"><strong>다음보다 작음</strong> </td> 
       <td> <p>입력한 값을 포함하지 않고 입력한 값보다 작은 값을 갖는 모든 결과를 검색합니다.</p> </td> 
      </tr> 
      <tr> 
@@ -109,7 +111,7 @@ ht-degree: 1%
       <td> <p>2개의 필수 필드 값을 제공하고 입력한 값을 포함하여 두 필드 범위 내에서 모든 결과를 검색합니다.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>포함</strong> </td> 
+      <td role="rowheader"><strong>다음을 포함함</strong> </td> 
       <td> <p>전체 텍스트 문자열에서 지정된 텍스트를 검색합니다.</p> <p>예를 들어 "Contains Inf"를 사용하면 "Infinity"와 같이 "Inf" 또는 "inf"가 포함된 모든 항목이 캡처됩니다.</p> <p>참고: Adobe Workfront은 각 필터 규칙에 대해 입력한 전체 단어 또는 구를 검색합니다. 예를 들어 이름에 "new project"라는 문구가 있는 필드를 검색하는 경우 Workfront은 이름에 "new" 또는 "project"만 있는 프로젝트 또는 "new main project"와 같이 그 사이에 추가 단어가 포함된 구문을 표시하지 않습니다. 필터는 이름에 "새 프로젝트"와 정확히 일치하는 구문이 있는 프로젝트만 찾습니다.</p> </td> 
      </tr> 
      <tr> 

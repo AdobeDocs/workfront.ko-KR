@@ -6,7 +6,9 @@ description: 웹 콘텐츠 블록을 사용하면 보고서 내에서 직접 외
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 29f0c2e1-1644-4989-81b1-c6db6bfec905
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 1%
@@ -61,7 +63,6 @@ ht-degree: 1%
    >   * powerbi.com
    >   * domo.com
    >   * looker.com
-
 
    포함할 수 없는 경우 입력한 URL 아래에 경고가 표시됩니다. 이러한 경고에는 다음이 포함됩니다.
 

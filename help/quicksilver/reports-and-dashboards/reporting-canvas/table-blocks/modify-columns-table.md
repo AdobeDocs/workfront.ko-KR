@@ -4,7 +4,9 @@ description: 보고 캔버스에서 테이블 열 구성
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce33888f-344d-4f69-b527-9679340d134b
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 2%
@@ -97,7 +99,7 @@ ht-degree: 2%
       <td role="rowheader"><strong>조건부 서식</strong> </td> 
       <td> 
        <ol data-mc-continue="false"> 
-        <li value="1"> <p>추가 <img src="assets/add-rule.png">, 편집 <img src="assets/edit-icon.png">, 또는 삭제 <img src="assets/delete.png"> 값이 사용자가 지정한 기준을 만족할 때 열에서 셀 서식을 지정하는 규칙입니다.</p> <p>예를 들어 "프로젝트 상태" 필드의 값이 "작성 중"인 경우 해당 필드의 글꼴을 굵게 자주색으로 변경하는 규칙을 만들 수 있습니다.</p> <p>또는 <b>아이콘 표시</b> "현재" 상태인 열의 모든 항목에 녹색 플래그 아이콘을 추가합니다.</p> <p> <img src="assets/conditional-formatting-options.png"> </p> <p>참고: 다음을 사용하는 경우 <strong>아이콘 표시</strong>다른 서식 지정 옵션은 사용할 수 없습니다.</p> <p>다음을 선택할 수 있습니다. <strong>전체 행에 적용</strong> 서식 지정이 규칙 조건을 충족하는 셀의 전체 행에 영향을 미치도록 하려면 다음을 수행합니다. 예를 들어 "기한" 열의 날짜 셀뿐만 아니라 해당 날짜가 발생하는 전체 행에 노란색 배경색을 적용하여 특정 날짜 이후에 만료되는 프로젝트를 강조 표시할 수 있습니다.</p> <p>팁: 규칙에 서식 옵션을 추가하면 결과 셀 서식이 <strong>미리 보기</strong> 패널 하단에서.</p> </li> 
+        <li value="1"> <p>추가 <img src="assets/add-rule.png">, 편집 <img src="assets/edit-icon.png">, 또는 삭제 <img src="assets/delete.png"> 값이 사용자가 지정한 기준을 만족할 때 열의 셀 서식을 지정하는 규칙입니다.</p> <p>예를 들어 "프로젝트 상태" 필드의 값이 "작성 중"인 경우 해당 필드의 글꼴을 굵게 자주색으로 변경하는 규칙을 만들 수 있습니다.</p> <p>또는 <b>아이콘 표시</b> "현재" 상태인 열의 모든 항목에 녹색 플래그 아이콘을 추가합니다.</p> <p> <img src="assets/conditional-formatting-options.png"> </p> <p>참고: 다음을 사용하는 경우 <strong>아이콘 표시</strong>다른 서식 지정 옵션은 사용할 수 없습니다.</p> <p>다음을 선택할 수 있습니다. <strong>전체 행에 적용</strong> 서식 지정이 규칙 조건을 충족하는 셀의 전체 행에 영향을 미치도록 하려면 다음을 수행합니다. 예를 들어 "기한" 열의 날짜 셀뿐만 아니라 해당 날짜가 발생하는 전체 행에 노란색 배경색을 적용하여 특정 날짜 이후에 만료되는 프로젝트를 강조 표시할 수 있습니다.</p> <p>팁: 규칙에 서식 옵션을 추가하면 결과 셀 서식이 <strong>미리 보기</strong> 패널 하단에서.</p> </li> 
         <li value="2">규칙을 추가하고 나면 <strong>저장</strong>.</li> 
         <li value="3"> <p>(선택 사항) <b>+ 규칙 추가</b> 를 클릭하여 동일한 열에 규칙을 추가합니다.</p> <p>테이블의 여러 조건부 서식 규칙은 다음 순서로 적용됩니다.</p> 
          <ul> 
