@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: a1d312167292c1e37a96233e26c378d72fee2032
+source-git-commit: 7df70ed43b9ee7320bae5f0f6b5e632000af78c3
 workflow-type: tm+mt
-source-wordcount: '1894'
+source-wordcount: '1902'
 ht-degree: 2%
 
 ---
@@ -69,7 +69,9 @@ ht-degree: 2%
 
 다음 정보는 새 댓글 달기 Beta 경험에 포함된 기능을 기반으로 매주 릴리스 활동을 참조합니다. 이 문서에는 새로운 댓글 달기 환경에 대해 추가된 새로운 기능과 해결된 문제가 나열되어 있습니다.
 
-### 2023년 8월 14일 주(2023년 4분기 릴리스 시작)
+### 2023년 8월 14일 주
+
+[2023년 8월 14일이 있는 주에 릴리스된 모든 기능에 대한 비디오 데모를 확인하십시오](https://video.tv.adobe.com/v/3422912/){target=_blank}
 
 #### 추가 오브젝트에 대한 새로운 댓글 달기 환경
 
