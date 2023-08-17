@@ -6,9 +6,9 @@ description: Workfront의 기존 작업 및 문제에 연결된 카드를 보드
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: c063bd9505a785ea738d07e082328871245216f2
+source-git-commit: 55ba26b65cf046806f5a198e4de1b5eed2e08384
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1426'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,10 @@ ht-degree: 0%
 * [!UICONTROL 상태]
 * [!UICONTROL 계획된 완료 일자]
 * [!UICONTROL 예상] / [!UICONTROL 스토리 포인트]
+* <span class="preview">[!UICONTROL 문서]</span>
 
 >[!NOTE]
+>
 >연결된 단일 작업 또는 문제는 보드당 한 번만 추가할 수 있습니다. 동일한 작업 또는 문제를 여러 보드에 연결할 수 있습니다.
 
 ## 액세스 요구 사항
@@ -143,8 +145,7 @@ ht-degree: 0%
      </tr>
      <tr>
       <td role="rowheader"><span class="preview"><strong>[!UICONTROL 문서]</strong></span></td>
-      <td><span class="preview"><p>문서 축소판 위로 마우스를 가져간 다음 <strong>미리 보기</strong> 브라우저에서 파일을 보려면 <strong>다운로드</strong> 를 클릭하여 파일을 컴퓨터에 다운로드합니다.</p></span>
-      <span class="preview"><p><strong>참고:</strong> 이때 연결된 카드에서 문서를 사용하려면 Workfront 작업에 문서를 업로드해야 합니다.</p></span></td>
+      <td><span class="preview">기존 문서의 경우 문서 축소판 위로 마우스를 가져간 다음 <strong>미리 보기</strong> 브라우저에서 파일을 보려면 <strong>다운로드</strong> 를 클릭하여 파일을 컴퓨터에 다운로드합니다. 새 문서에 대해서는 다음을 참조하십시오. <a href="/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md">카드에 문서 추가</a>.</span></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL 시간]</strong></td>

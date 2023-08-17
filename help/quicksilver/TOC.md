@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 381dafce2163b3f2bba3f5775ec6314d704eb61d
+source-git-commit: 6871cd4faea6b02cf0ed3f89e32f6963fd4b4df9
 workflow-type: tm+mt
-source-wordcount: '13160'
+source-wordcount: '13164'
 ht-degree: 1%
 
 ---
@@ -962,6 +962,7 @@ ht-degree: 1%
       * [보드에 기존 작업 또는 문제 추가](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md)
       * [카드 관리](agile/get-started-with-boards/move-board-items.md)
       * [카드의 체크리스트 항목 관리](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md)
+      * [카드에 문서 추가](/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md)
       * [카드에 표시할 필드 사용자 지정](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)
       * [보드에서 카드 삭제 또는 보관](agile/get-started-with-boards/delete-board-items.md)
       * [보드에서 필터링 및 검색](agile/get-started-with-boards/filter-search-in-board.md)
@@ -1096,7 +1097,7 @@ ht-degree: 1%
          * [Adobe Experience Manager 통합 문제 해결](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
    * 레거시 또는 향상된 커넥터에서 마이그레이션 {#migrate-from-legacy-enhanced-connectors}
       * [레거시 또는 향상된 커넥터에서 마이그레이션](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
-      * [기존 또는 향상된 커넥터에서 Adobe Experience Manager용 Workfront as a Cloud Service 통합으로 마이그레이션](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
+      * [Adobe Experience Manager as a Cloud Service 통합을 위해 레거시 또는 향상된 커넥터에서 Workfront으로 마이그레이션](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
       * [기존 커넥터에서 향상된 커넥터로 마이그레이션](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-to-enhanced.md)
       * [Adobe Experience Manager 레거시 커넥터를 사용하여 Workfront 제거](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-legacy-connector.md)
       * [Workfront with Adobe Experience Manager 강화 커넥터 제거](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-enhanced-connector.md)

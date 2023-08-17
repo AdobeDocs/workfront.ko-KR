@@ -6,19 +6,22 @@ description: Adobe Workfront - 편집 나의 다음 영역에서 프로젝트, �
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: d7fd5e4ec315e564ec3ff4d4311f753dc1c8b359
+source-git-commit: 55ba26b65cf046806f5a198e4de1b5eed2e08384
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '751'
 ht-degree: 1%
 
 ---
 
 # 파일 시스템에서 Adobe Workfront에 문서 추가
 
+{{preview-and-fast-release}}
+
 Adobe Workfront의 다음 영역에서 프로젝트, 작업 또는 문제에 문서를 추가할 수 있습니다.
 
 * 글로벌 문서 영역
 * Workfront 객체의 문서 영역
+* <span class="preview">Workfront 보드에 연결된 카드</span>
 
 새 버전의 문서를 업로드하고 Google 드라이브, Dropbox 및 Microsoft OneDrive와 같은 서드파티 클라우드 공급업체의 문서에 대한 링크를 추가할 수도 있습니다. 새 버전의 문서를 추가하는 방법에 대한 자세한 내용은 [새 문서 버전 업로드](../../documents/managing-documents/upload-new-document-version.md). 타사 클라우드 공급업체의 문서를 추가하는 방법에 대한 자세한 내용은 [외부 애플리케이션에서 문서 연결](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
