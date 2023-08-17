@@ -4,7 +4,7 @@ description: 2023년 4분기 릴리스 기간 동안의 룩앤필 업데이트
 author: Lisa
 draft: Probably
 feature: Product Announcements
-source-git-commit: 381dafce2163b3f2bba3f5775ec6314d704eb61d
+source-git-commit: 7cc8c27848082c0547440ae98e4c4ec62809f5bd
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 0%
@@ -26,4 +26,4 @@ ht-degree: 0%
 
 설정 > 이메일 > 알림 영역의 이메일 알림, 미리 알림 및 이메일 템플릿에 대한 탭을 Workfront의 다른 영역과 일관된 보다 현대적인 디자인으로 업데이트했습니다.
 
-자세한 내용은 [시스템의 모든 사용자를 위한 이벤트 알림 구성](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
+자세한 내용은 [시스템의 모든 사용자를 위한 이벤트 알림 구성](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
