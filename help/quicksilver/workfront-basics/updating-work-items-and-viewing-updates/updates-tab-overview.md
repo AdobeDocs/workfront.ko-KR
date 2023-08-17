@@ -7,9 +7,9 @@ description: 객체의 업데이트 섹션에는 사용자가 객체에 대해 �
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: d93d42322d62ff5eb927ca13febcb763cbec3f13
+source-git-commit: 5b9ee4d5d792d78f127f88bac3a0e4fea5cdf788
 workflow-type: tm+mt
-source-wordcount: '1126'
+source-wordcount: '1174'
 ht-degree: 4%
 
 ---
@@ -18,25 +18,24 @@ ht-degree: 4%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--after August 17: 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/enable-fast-release-process.html?lang=en ). </span>  
-<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>-->
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>\
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 활성화 또는 비활성화](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-<!--replace the note below with this at August 17: 
->[!NOTE]
->
->We are currently redesigning the commenting experience in Adobe Workfront.
->Depending on what environment and what objects you access the commenting experience from, you might see different functionality in the Updates section. 
->For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
->
->The new commenting experience is available only for the Updates section, and it is not available for the following areas:
->
-> * Home
-> * Summary panel in lists
-> * Summary panel in timesheets
+<span class="preview">현재 릴리스 일정에 대한 자세한 내용은 [2023년 4분기 릴리스 개요](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
 
--->
+>[!IMPORTANT]
+>
+>현재 Adobe Workfront의 댓글 달기 환경을 다시 디자인하고 있습니다.
+>
+>댓글 달기 경험에 액세스하는 환경과 개체에 따라 업데이트 섹션에 다른 기능이 표시될 수 있습니다.
+>
+>새 댓글 달기 경험과 사용 가능 여부에 대한 자세한 내용은 [새 댓글 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>
+>새 주석 달기 경험은 업데이트 섹션에만 사용할 수 있고 다음 영역에는 사용할 수 없습니다.
+>
+> * 홈
+> * 목록의 요약 패널
+> * 타임시트의 요약 패널
 
 <!-- with October 26 release: add somewhere this:
 
@@ -44,38 +43,36 @@ ht-degree: 4%
 >
 >Iterations display the legacy commenting experience.-->
 
+<!--old note, removed with August 2023: 
+
 >[!NOTE]
 >
->현재 Adobe Workfront의 댓글 달기 환경을 다시 디자인하고 있습니다.
+>We are currently redesigning the commenting experience in Adobe Workfront.
 >
->새 댓글 달기 환경에 대한 자세한 내용은 [새 댓글 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>For more information about the new commenting experience, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
->다음 객체에 대한 새 경험에 액세스할 수 있습니다.
-> * 문제, 프로젝트, 작업 및 문서.
+>You can access the new experience for the following objects:
+> * Issues, projects, tasks, and documents.
 >
->     새 댓글 달기 환경을 활성화하면 사용할 수 있습니다.
+>     This is available when you enable the new commenting experience.
 >
->     이 기능은 업데이트 섹션에만 사용할 수 있으며 다음 영역에는 사용할 수 없습니다.
+>     This functionality is available only for the Updates section, and it is not available for the following areas:
 >
->     * 홈
->     * 목록의 요약 패널
->     * 타임시트의 요약 패널
+>     * Home
+>     * Summary panel in lists
+>     * Summary panel in timesheets
 >
-> * 보드 영역의 목표, 카드
+> * Goals, cards in the Boards area
 >
->   새로운 댓글 달기 경험은 목표 및 카드에 대한 유일한 경험입니다. Workfront 목표에 액세스하려면 추가 라이선스가 있어야 합니다. 자세한 내용은 [Workfront 목표를 사용하기 위한 요구 사항](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   The new commenting experience is the only experience for goals and cards. You must have an additional license to access Workfront Goals. For more information, see [Requirements to uses Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
 >
->     카드에서 주석 및 시스템 활동 섹션을 활성화하면 보드 영역에서 카드에 대한 업데이트를 추가하고 볼 수 있습니다. 자세한 내용은 [보드에 애드혹 카드 추가](../../agile/get-started-with-boards/add-card-to-board.md).
+>     You can add and view updates to cards in the Boards area when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
 
-객체의 업데이트 섹션에는 사용자가 객체에 대해 수행하는 설명이나 객체에 대한 변경 사항을 추적하는 시스템 업데이트가 표시됩니다.
+The Updates section of an object displays comments that users make on the object or system updates that track changes to the object.
+
+-->
 
 ## 업데이트 섹션 개요
-
-업데이트 섹션의 정보는 액세스하는 환경에 따라 다르게 구성됩니다.
-
-### 현재 업데이트 섹션의 개요
-
-<!--October 26 - replace current with legacy-->
 
 * 오브젝트의 업데이트 섹션에는 지난 90일 이내에 이루어진 가장 최근 업데이트 중 최대 200개가 표시됩니다.
 
@@ -106,12 +103,20 @@ ht-degree: 4%
       <li>템플릿 작업</li> 
       <li>타임시트</li> 
       <li>사용자</li>
+      <li>보드에 있는 카드</li>
       </ul> </td> 
     </tr> 
   </tbody> 
   </table>
 
   *스토리는 작업입니다. 작업과 관련된 모든 정보를 스토리에 사용할 수도 있습니다.
+
+업데이트 섹션의 정보는 액세스하는 환경에 따라 다르게 구성됩니다.
+
+
+### 현재 업데이트 섹션의 개요
+
+<!--October 26 - replace current with legacy-->
 
 * 현재 업데이트 섹션에는 다음 정보가 표시됩니다.
 
@@ -128,74 +133,88 @@ ht-degree: 4%
 
 새 댓글 달기 환경에 사용할 수 있는 기능과 개체에 대한 자세한 내용은 [새 댓글 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-<!--update screen shot and maybe save it under a new name??? with the August 17 release-->
+<!--update screen shot and maybe save it under a new name??? with the August 17 release - also make sure you have some people tagged, similar to what we show in the old UI-->
 
-![](assets/updates-tab-after-unified-experience-for-issues.png)
+<span class="preview">![](assets/updates-tab-after-unified-experience-for-tasks.png)</span>
 
 * 업데이트 섹션에는 새 댓글 달기 환경의 다음 탭에 정보가 표시됩니다.
 
    * **댓글**: 사용자가 작성한 댓글과 해당 댓글에 대한 답글을 표시합니다. 새 댓글 달기 환경에서 오브젝트를 업데이트하는 방법에 대한 자세한 내용은 [작업 업데이트](../updating-work-items-and-viewing-updates/update-work.md).
    * **시스템 활동**: Workfront이 개체에 특정 이벤트를 기록하기 위해 만드는 정보 메시지인 시스템 업데이트를 표시합니다. 예를 들어 시스템 업데이트를 통해 상태, 이름 또는 사용자 정의 필드의 변경 사항을 캡처할 수 있습니다. Workfront 또는 그룹 관리자가 개체에 대한 시스템 업데이트를 활성화할 수 있습니다. 자세한 내용은 [시스템 업데이트 구성](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
+  <!--enable this when we release the new update stream to ALL other objects and only if Anna's bug was fixed to include this - on or before October 2023: 
+
+  * The following objects don't have a System Activity tab:
+
+  * Team
+  * Template
+  * Template Task
+    -->
+
 * 현재 다음 개체에 대한 새 댓글 달기 환경을 사용하여 댓글을 추가하고 업데이트에 답글을 달 수 있습니다.
 
-<!--replace the table with this list on August 17: 
 
-    * Projects
-    * Tasks (and stories)
-    * Issues
-    * Documents
+   * 프로젝트
+   * 작업(및 스토리)
+   * 문제
+   * 문서
+   * 목표
 
-    <span class="preview">
-    
-    * Templates
-    * Template Tasks
-    * Timesheets
-    * Users
-    * Portfolios
-    * Programs
-    
-    >[!NOTE]
-    >
-    >    You cannot display the new commenting experience for iterations. 
+  >[!NOTE]
+  >
+  >Workfront 목표에 액세스하려면 추가 라이선스가 있어야 합니다. 자세한 내용은 [Workfront 목표 사용 요구 사항](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-    </span>
-  
-  -->
+   * 보드에 있는 카드
 
-<table style="table-layout:auto"> 
+  >[!NOTE]
+  >
+  > 카드에서 주석 및 시스템 활동 섹션을 활성화하면 보드 영역에서 카드에 대한 업데이트를 추가하고 볼 수 있습니다. 자세한 내용은 [보드에 애드혹 카드 추가](../../agile/get-started-with-boards/add-card-to-board.md).
+
+
+  <span class="preview">
+
+   * 템플릿
+   * 템플릿 작업
+   * 타임시트
+   * 사용자
+   * 포트폴리오
+   * 프로그램
+
+  >[!NOTE]
+  >
+  >    반복에 대한 새 주석 달기 경험을 표시할 수 없습니다.
+
+  </span>
+
+<!--hidden in August 2023 and replaced by the list above: 
+
+  <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
       <tr> 
       <td> 
         <ul> 
-        <li><p>목표</p>
-        <li>보드 영역의 카드*</li>
-          목표 및 카드에 대한 유일한 경험입니다.
+        <li><p>Goals</p>
+        <li>Cards in the Boards area*</li>
+          This is the only experience for goals and cards.
         </li> 
-        <li>프로젝트</li>
+        <li>Projects</li>
         </ul> </td> 
       <td> 
         <ul> 
-        <li>문제</li> 
-        <li>작업</li>
-        <li>문서</li>
+        <li>Issues</li> 
+        <li>Tasks</li>
+        <li>Documents</li>
         </ul> </td> 
       </tr> 
     </tbody> 
     </table>
 
-*카드에 대한 설명 및 시스템 활동 섹션을 활성화하면 보드 영역에서 카드에 대한 업데이트를 추가하고 볼 수 있습니다. 자세한 내용은 [보드에 애드혹 카드 추가](../../agile/get-started-with-boards/add-card-to-board.md).
+  *You can add and view updates to cards in the Board areas when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md). 
+  -->
 
-<!--enable this when we release the new update stream to ALL other objects and only if Anna's bug was fixed to include this: 
 
-* The following objects don't have a System Activity tab:
-
-  * Team
-  * Template
-  * Template Task
--->
 
 ## 상위 등급 개체에도 표시되는 업데이트
 
@@ -287,7 +306,11 @@ ht-degree: 4%
 
 ### 사용자 및 팀에 대한 제한 사항
 
-팀에 대해서는 업데이트할 수 없습니다. 팀의 업데이트 섹션은 다음 개체에 입력한 업데이트로 채워집니다.
+팀의 업데이트 섹션에서 새 주석을 추가할 수 없습니다.
+
+<span class="preview">팀에서 보는 업데이트에 회신을 추가할 수 있습니다. 응답이 속한 객체의 업데이트 섹션뿐만 아니라 팀의 업데이트 섹션에도 표시됩니다. </span>
+
+팀의 업데이트 섹션은 다음 개체에 입력한 업데이트로 채워집니다.
 
 * 사용자
 * 타임시트

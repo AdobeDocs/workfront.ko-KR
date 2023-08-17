@@ -7,20 +7,19 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: d93d42322d62ff5eb927ca13febcb763cbec3f13
+source-git-commit: 71948e70c49ee3b3d678fb54847ff79f2632bd84
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 1%
+source-wordcount: '1024'
+ht-degree: 2%
 
 ---
 
 # 새 댓글 달기 환경
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>\
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 활성화 또는 비활성화](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>
 
-<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> -->
+<span class="preview">현재 릴리스 일정에 대한 자세한 내용은 [2023년 4분기 릴리스 개요](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
 
 Adobe Workfront의 댓글 달기 환경에 대한 업데이트가 현재 개발 중입니다. 이 업데이트에는 선택한 객체의 업데이트 섹션에 새로운 인터페이스, 새로운 기능 및 향상된 성능이 포함되어 있습니다.
 
@@ -473,83 +472,97 @@ For additional resources for the new commenting experience, also see the followi
 
 ## 새 댓글 달기 환경 찾기
 
-새 댓글 달기 환경은 현재 다음 개체에 대해 지원됩니다.
+새 주석 달기 환경은 현재 다음 오브젝트 및 다음 환경에서 사용할 수 있습니다.
 
-<!--replace the first bullet with this on August 17: 
+* 모든 고객을 위한 프로덕션 환경에서:
 
-<span class="preview">
+   * 다음에 대한 업데이트 섹션에서 Beta 경험을 활성화할 때:
 
-* By default, when you enable the New commenting experience in the Updates section for the following objects: 
+      * 문제, 프로젝트, 작업 및 문서
 
-   * Project
-   * Task
-   * Issue
-   * Document
+     Workfront 개체의 업데이트 관리에 대한 자세한 내용은 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-   >[!TIP]
-   >
-   >The New commenting experience option is enabled by default for these objects. You can deselect the New commenting toggle to display the legacy commenting experience. 
+   * 기본적으로 유일한 댓글 달기 경험으로
 
-   For more information about managing updates for Workfront objects, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+      * 골대, 보드에 있는 카드
 
-</span>
+     >[!NOTE]
+     >
+     >이 Workfront 영역에 액세스하려면 Adobe Workfront 목표에 대한 추가 라이선스가 있어야 합니다. 자세한 내용은 [Workfront 목표 사용 요구 사항](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
--->
+* <span class="preview"> 모든 고객을 위한 미리보기 환경에서 </span>
 
-* 다음에 대한 업데이트 섹션에서 Beta 경험을 활성화할 때:
+  <span class="preview">
 
-   * 문제, 프로젝트, 작업 및 문서
+   * 기본적으로 다음 개체에 대해 업데이트 섹션에서 새 댓글 달기 경험을 활성화하면 다음과 같은 결과가 발생합니다.
 
-  Workfront 개체의 업데이트 관리에 대한 자세한 내용은 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+      * 프로젝트
+      * 작업
+      * 문제
+      * 문서
 
-<!--replace the second bullet with this on August 17: 
+     >[!TIP]
+     >
+     >새 댓글 달기 경험 선택 사항은 이러한 오브젝트에 대해 기본적으로 활성화되어 있습니다. 새 주석 달기 토글을 선택 해제하여 기존 주석 달기 경험을 표시할 수 있습니다.
 
-<span class="preview">
+     Workfront 개체의 업데이트 관리에 대한 자세한 내용은 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-* By default, as the only commenting experience for the following objects:  
+  </span>
 
-  * Goal
+  <span class="preview">
+
+   * 기본적으로 다음 개체에 대한 유일한 댓글 달기 환경으로 설정되어 있습니다.
+
+      * 목표
+
+        >[!NOTE]
+        >
+        >이 Workfront 영역에 액세스하려면 Adobe Workfront 목표에 대한 추가 라이선스가 있어야 합니다. 자세한 내용은 [Workfront 목표 사용 요구 사항](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+      * 보드에 있는 카드
+      * 팀
+      * 템플릿
+      * 템플릿 작업
+      * 타임시트
+      * 프로그램
+      * 포트폴리오
+      * 사용자
+
+     >[!TIP]
+     >
+     >반복에 대한 새 주석 달기 경험을 활성화하는 옵션은 없습니다. 반복에는 기존 주석 달기 경험만 사용할 수 있습니다.
+
+  </span>
+
+<!--before August 17: 
+
+The new commenting experience is currently supported for the following objects:
+
+
+* When enabling the Beta experience in the Updates section for 
+
+    * Issues, projects, tasks, and documents
+
+    For more information about managing updates for Workfront objects, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+
+* By default, as the only commenting experience for
+
+    * Goals, cards on a board
 
     >[!NOTE]
     >
     >You must have an additional license to Adobe Workfront Goals to be able to access this area of Workfront. For more information, see [Requirements to use Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-  * Card on a board
-  * Team
-  * Template
-  * Template Task
-  * Timesheet
-  * Program
-  * Portfolio
-  * User
-
->[!TIP]
->
->There is no option to enable the new commenting experience for iterations. Only the legacy commenting experience is available for iterations. 
-
-</span>
 
 -->
 
-* 기본적으로 유일한 댓글 달기 경험으로
+환경에 따라 댓글 달기 환경에 액세스하면 다음 중 하나를 수행할 수 있습니다.
 
-   * 골대, 보드에 있는 카드
+* 프로덕션 환경에서 댓글 달기 경험 Beta 활성화
+* <span class="preview">미리보기 환경에서 레거시 주석 달기 환경 활성화 </span>
 
-  >[!NOTE]
-  >
-  >이 Workfront 영역에 액세스하려면 Adobe Workfront 목표에 대한 추가 라이선스가 있어야 합니다. 자세한 내용은 [Workfront 목표 사용 요구 사항](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-
-<!--display on August 17: 
-
-Depending on the environment you access the commenting experience you can do one of the following: 
-
-* Enable the commenting experience Beta in the Production environment
-* <span class="preview">Enable the legacy commenting experience in the Preview or Production environment if your administrator opted in for fast releases. </span>
--->
-
-댓글 달기 경험 Beta를 활성화하려면 다음을 수행하십시오.
+프로덕션 환경에서 댓글 달기 경험 Beta를 활성화하려면 다음을 수행하십시오.
 
 1. 새 댓글 달기 경험을 활성화할 개체로 이동한 다음, **업데이트** 왼쪽 패널에서
-1. 활성화 **Beta 댓글 달기** 업데이트 영역의 오른쪽 상단 모서리에서 전환합니다.
+1. 을(를) 클릭합니다 **Beta 댓글 달기** 업데이트 영역의 오른쪽 상단 모서리에서 전환하여 활성화합니다.
 1. 클릭 **동의** Beta 계약 상자. 이렇게 하면 선택한 개체에 대해 새 댓글 달기 경험을 사용할 수 있습니다.
 1. 에서 업데이트를 입력하십시오. **댓글** 탭. 새 경험이 열릴 때 주석 탭이 기본 탭이어야 합니다
 
@@ -557,20 +570,19 @@ Depending on the environment you access the commenting experience you can do one
 
    다음을 클릭합니다.  **시스템 활동** 탭으로 이동하여 Workfront에서 생성한 활동 업데이트를 봅니다.
 
-   새 댓글 달기 환경에서 개체를 업데이트하는 방법에 대한 자세한 내용은 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-
-<!--make this available for August 17: 
-
 <span class="preview">
 
-To disable the new commenting experience and display the legacy experience: 
+새 댓글 달기 경험을 비활성화하고 미리보기 환경에서 이전 경험을 표시하려면 다음을 수행하십시오.
 
-1. Go to a project, task, issue, or document, then click **Updates** in the left panel.
-1. Click the **New commenting** toggle in the upper-right corner of the Updates area to deselect the toggle and disable the new experience. 
-  
-  This changes the Updates area to the legacy commenting stream. 
+1. 프로젝트, 작업, 문제 또는 문서로 이동한 다음 **업데이트** 왼쪽 패널에서
+1. 다음을 클릭합니다. **새 댓글 달기** 업데이트 영역의 오른쪽 위 모서리에서 전환하여 전환 선택을 취소하고 새 경험을 비활성화합니다.
 
-1. Start typing an update in the space provided. 
+업데이트 영역이 기존 주석 스트림으로 변경됩니다.
+
+1. 에서 업데이트를 입력하십시오. **댓글** 탭. 새 경험이 열릴 때 주석 탭이 기본 탭이어야 합니다
+
+   또는
+
+   다음을 클릭합니다.  **시스템 활동** 탭으로 이동하여 Workfront에서 생성한 활동 업데이트를 봅니다.
+
 </span>
-
--->

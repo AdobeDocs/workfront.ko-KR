@@ -7,10 +7,10 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: d93d42322d62ff5eb927ca13febcb763cbec3f13
+source-git-commit: a1d312167292c1e37a96233e26c378d72fee2032
 workflow-type: tm+mt
-source-wordcount: '1618'
-ht-degree: 3%
+source-wordcount: '1894'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
+* <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
 
 <span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> -->
 
@@ -27,17 +27,6 @@ ht-degree: 3%
 
 현재 사용할 수 있거나 연구 중인 기능 목록을 포함하여 새 댓글 달기 환경에 대한 일반 정보는 다음을 참조하십시오. [새 댓글 달기 환경](../new-commenting-experience-beta/unified-commenting-experience.md).
 
-
-<!--On August 17, replace the Important box below with the following - AND MAKE SURE THAT THE "WEEKLY RELEASE OF AUGUST 14" IS AN ACTUAL PAGE: 
-
->[!IMPORTANT]
->
->The new commenting experience launched in Beta with the 23.2 release. For information about the original release, see [23.2 Release overview](../../product-releases/23.2-release-activity/23-2-release-overview.md). 
->
->Starting with the weekly release of August 14, 2023, the beta commenting experience ended. 
->
-><span class="preview">New commenting features continued to be released to the Preview and Production environments, as described in the section [Release timeline](#release-timeline) in this article.</span>
--->
 
 >[!IMPORTANT]
 >
@@ -61,12 +50,11 @@ ht-degree: 3%
 * 23.3 릴리스(2023년 7월 20일):
    * 프로젝트, 작업 및 문서에 대한 Experience Beta에 댓글을 남깁니다.
    * 보드 영역의 카드에 대한 새로운 댓글 달기 경험(유일한 경험으로)
-* 23.10 릴리스(발표될 날짜) 동안(제한된 릴리스, 빠른 릴리스를 선택하는 고객만 사용 가능): <!--for August 17 - add the actual date in here-->
+* 2023년 4분기 릴리스(제한된 릴리스, 빠른 릴리스를 선택하는 고객만 사용 가능) 중:
    * 템플릿, 템플릿 작업, 프로그램, 포트폴리오, 팀, 사용자 및 타임시트에 대한 새로운 댓글 달기 경험(유일한 경험임)
-   * 프로젝트, 작업, 문제 및 문서에 대한 Experience Beta 댓글을 달 수 있는 것이 기본 옵션이 됩니다. 이렇게 하면 새 댓글 달기 환경의 베타 단계가 종료됩니다.
-* 23.10 릴리스(2023년 10월) 포함
+   * 프로젝트, 작업, 문제 및 문서에 대한 Experience Beta 댓글을 달 수 있는 것이 기본 옵션이 됩니다. Beta 레이블이 제거됩니다.
+* 2023년 4분기(23.10) 릴리스 포함(2023년 10월)
    * 템플릿, 템플릿 작업, 프로그램, 포트폴리오, 팀, 사용자 및 타임시트에 대한 새로운 댓글 달기 경험(유일한 경험임)
-  <!--wait for Anna to confirm this after the teams are starting to work on this and will be closer to finish line; QBR is June 19, 2023, but wait until MUCH after this: * Add the new commenting experience to Home and the Summary panel. -->
    * 프로젝트, 작업, 문제 및 문서에 대한 새로운 댓글 달기 환경이 기본 옵션이 됩니다. 이렇게 하면 새 댓글 달기 환경의 베타 단계가 종료됩니다.
 * 2023년 말:
    * 기존 댓글 달기 경험은 프로젝트, 작업, 문제 및 문서 개체에 대한 보조 옵션으로 유지됩니다.
@@ -79,48 +67,93 @@ ht-degree: 3%
 
 다음 섹션에는 원래 23.2 릴리스 이후 가장 최근에 릴리스된 기능부터 추가된 기능 목록이 포함되어 있습니다.
 
-<!--For the August 17 release - IF ANNA AGREES NOT TO SEND STUFF TO BETA ANYMORE: 
-
->[!IMPORTANT]
->
-><span class="preview">The following section contains as a list of features released during the Beta phase of the commenting experience, between April - August 2023. </span>
->
-><span class="preview"></span>
->
-><span class="preview">All features released after August 17, 2023 will be announced in the main release overview page for the current releases, starting with the Fourth Quarter release of 2023. For information, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>
-
--->
-
-<!--for the August 17 release: remove the paragraph below and replace it with this: 
-
-The following information refers to the release activity on a weekly basis of the features included in the commenting beta experience between April - August, 2023. This article lists new features that were added and issues that were resolved for the new commenting experience. For information about features released after August 17, 2023, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
--->
-
 다음 정보는 새 댓글 달기 Beta 경험에 포함된 기능을 기반으로 매주 릴리스 활동을 참조합니다. 이 문서에는 새로운 댓글 달기 환경에 대해 추가된 새로운 기능과 해결된 문제가 나열되어 있습니다.
 
-<!--add the following with the August 17 release: 
+### 2023년 8월 14일 주(2023년 4분기 릴리스 시작)
 
-### Week of August 14, 2023
+#### 추가 오브젝트에 대한 새로운 댓글 달기 환경
 
-#### Avatar improvements when tagging users in an update
+새로운 주석 달기 환경은 23.3 프로덕션 릴리스 직후 다음 오브젝트(템플릿 작업, 템플릿, 타임시트, 팀, 사용자, 프로그램, 포트폴리오)에 대해 사용할 수 있습니다.
 
-To give you better visibility into which users are tagged in an update, we now display the names of the users (up to two users) that are tagged in an update. For more information, see [Tag others in updates](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+이러한 오브젝트에 액세스할 때 기존 댓글 달기 경험이 제거되므로 이 환경은 유일한 댓글 달기 경험이 됩니다.
 
--->
+자세한 내용은 [새 댓글 달기 환경](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-### 2023년 6월 19일 이후 릴리스된 기능
+미리보기 릴리스: 2023년 8월 17일
 
-<!--restructure this section with actual weeks and dates, when we know them-->
+빠른 릴리스를 위한 프로덕션 릴리스: 23.8 릴리스 포함(2023년 8월 31일)
 
-이 섹션에 나열된 기능은 2023년 6월 19일 주 이후에 곧 출시될 예정입니다.
+모든 고객을 위한 프로덕션 릴리스: 23.10 릴리스 포함(2023년 10월)
+
+#### 새 댓글 스트림에 대한 새 디자인 업데이트
+
+새로운 주석 처리 스트림을 재설계하여 보다 업데이트된 디자인을 제공했습니다. 몇 가지 개선 사항은 다음과 같습니다.
+
+* 주석 스트림의 콘텐츠는 페이지의 전체 너비를 차지하지 않고 페이지 중앙에 있습니다.
+
+* 기타 메뉴 아이콘은 좋아요 단추 옆에 있지 않고 댓글의 오른쪽 상단 모서리에 재배치됩니다.
+
+* 이제 [좋아요] 및 [회신] 단추가 서로 옆에 있습니다.
+
+* 로그 시간 단추가 댓글 달기 영역의 오른쪽 위 모서리에 재배치되었습니다.
+
+* 기존 회신에 회신을 추가할 것인지 묻는 메시지를 표시하기 위해 회신 추가 프롬프트가 추가되었습니다.
+
+* 각 주석 스레드 사이에는 분리 선이 있습니다
+
+자세한 내용은 [업데이트 탭 개요](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+
+미리보기 릴리스: 2023년 8월 17일
+
+빠른 릴리스를 위한 프로덕션: 23.8 릴리스 포함(2023년 8월 31일)
+
+분기별 릴리스 프로덕션: 23.10 릴리스 포함(2023년 10월)
+
+#### 새 댓글 달기 환경은 프로젝트, 작업, 문제 및 문서에 대한 기본 경험입니다
+
+새 댓글 달기 경험을 프로젝트, 작업, 문제 및 문서 개체에 대한 기본 경험으로 만들고 있습니다.  이러한 오브젝트에 액세스할 때 기존 댓글 달기 경험이 대체 옵션으로 유지됩니다.
+
+이 변경 사항을 지원하기 위해 &quot;댓글 달기 Beta&quot; 토글을 &quot;새 댓글 달기&quot;로 변경했습니다.
+
+자세한 내용은 [새 댓글 달기 환경](../new-commenting-experience-beta/unified-commenting-experience.md).
+
+미리보기 릴리스: 2023년 8월 17일
+
+빠른 릴리스를 위한 프로덕션: 23.8 릴리스 포함(2023년 8월 31일)
+
+분기별 릴리스 프로덕션: 23.10 릴리스 포함(2023년 10월)
+
+#### 업데이트에서 사용자를 태그 지정할 때 아바타 개선
+
+업데이트에서 태그가 지정된 사용자를 더 잘 보이도록 하기 위해, 이제 업데이트에서 태그가 지정된 사용자(최대 2명의 사용자)의 이름이 표시됩니다. 자세한 내용은 [업데이트의 다른 사용자에게 태그 지정](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+
+미리보기 릴리스: 2023년 8월 17일
+
+빠른 릴리스를 위한 프로덕션: 23.8 릴리스 포함(2023년 8월 31일)
+
+모든 고객을 위한 프로덕션: 23.10 릴리스 포함(2023년 10월)
+
+### 2023년 8월 7일 주
+
+#### 업데이트에 이모지 추가
+
+이제 새 댓글 달기 환경에서 서식 있는 텍스트 도구 모음 옵션을 사용하여 댓글에 이모지를 추가할 수 있습니다.
+
+자세한 내용은 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 설명서는 릴리스 시점에 업데이트됩니다.
+
+미리보기 및 프로덕션: 2023년 8월 10일
+
+### 2023년 7월 10일 주
 
 #### 모든 스레드 참가자에 자동으로 태그 지정
 
 이제 댓글 소유자에 스레드에서 자동으로 태그가 지정됩니다. 이 업데이트 이전에는 &quot;@name&quot; 태그를 사용하거나 태그가 지정된 사용자 목록에 표시되는 &quot;사람 또는 팀 태그 지정&quot; 섹션에 추가하여 태그가 지정된 사용자만 볼 수 있었습니다. 이제 필요한 경우 이전에 수동으로 태그가 지정되지 않은 경우에도 스레드에서 주석 소유자를 제거할 수 있습니다.
 
-예정된 미리보기 릴리스: 2023년 7월 12일
+미리보기 릴리스: 2023년 7월 12일
 
-프로덕션 릴리스 예정일: 2023년 7월 13일
+프로덕션 릴리스: 2023년 7월 13일
+
+### 2023년 7월 3일 주
 
 #### 시간 기록을 위한 새로운 인터페이스
 
@@ -130,7 +163,9 @@ To give you better visibility into which users are tagged in an update, we now d
 
 미리보기 릴리스: 2023년 7월 5일
 
-프로덕션 릴리스: (23.3 릴리스 포함)
+프로덕션 릴리스: 23.3 릴리스 포함(2023년 7월)
+
+### 2023년 6월 26일 주
 
 #### 새 회신에서 댓글 내용 인용
 
@@ -142,28 +177,6 @@ To give you better visibility into which users are tagged in an update, we now d
 
 프로덕션 릴리스: 2023년 6월 29일
 
-#### 업데이트에 이모지 추가
-
-이제 새 댓글 달기 환경에서 서식 있는 텍스트 도구 모음 옵션을 사용하여 댓글에 이모지를 추가할 수 있습니다.
-
-자세한 내용은 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 설명서는 릴리스 시점에 업데이트됩니다.
-
-미리보기 및 프로덕션: 2023년 8월 10일
-
-#### 추가 오브젝트에 대한 새로운 댓글 달기 환경
-
-새로운 주석 달기 환경은 23.3 프로덕션 릴리스 직후 다음 오브젝트(템플릿 작업, 템플릿, 타임시트, 팀, 사용자, 프로그램, 포트폴리오)에 대해 사용할 수 있습니다.
-
-이러한 오브젝트에 액세스할 때 기존 댓글 달기 경험이 제거되므로 이 환경은 유일한 댓글 달기 경험이 됩니다.
-
-자세한 내용은 [새 댓글 달기 환경](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 설명서는 릴리스 시점에 업데이트됩니다.
-
-미리보기 릴리스: 23.3 프로덕션 릴리스 이후 발표됩니다(2023년 7월 20일)
-
-Fast 릴리스 고객을 위한 프로덕션 릴리스: 23.3 릴리스 이후 발표될 예정입니다
-
-모든 고객을 위한 프로덕션 릴리스: (23.4 릴리스 포함)
-
 ### 2023년 6월 12일 주
 
 #### 보드 영역의 카드에 대한 새로운 댓글 달기 경험
@@ -174,7 +187,7 @@ Fast 릴리스 고객을 위한 프로덕션 릴리스: 23.3 릴리스 이후 �
 
 조기 옵트인을 위한 프로덕션 릴리스: 2023년 6월 22일
 
-모든 고객을 위한 프로덕션: 23.3 릴리스 포함
+모든 고객을 위한 프로덕션: 23.3 릴리스 포함(2023년 7월)
 
 #### 댓글에 블록 따옴표 추가
 
@@ -210,7 +223,7 @@ Fast 릴리스 고객을 위한 프로덕션 릴리스: 23.3 릴리스 이후 �
 
 미리 보기: 2023년 6월 1일
 
-프로덕션: 23.3 릴리스 포함
+프로덕션: 23.3 릴리스(2023년 7월) 포함
 
 >[!NOTE]
 >
@@ -238,7 +251,7 @@ Fast 릴리스 고객을 위한 프로덕션 릴리스: 23.3 릴리스 이후 �
 
 미리 보기: 2023년 6월 1일
 
-프로덕션: 23.3 릴리스 포함
+프로덕션: 23.3 릴리스(2023년 7월) 포함
 
 ### 2023년 5월 15일 주
 

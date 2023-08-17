@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: a751b0fab898130bbe681bfd824cc8026eb3607c
+source-git-commit: 71948e70c49ee3b3d678fb54847ff79f2632bd84
 workflow-type: tm+mt
-source-wordcount: '1670'
+source-wordcount: '1723'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,9 @@ ht-degree: 0%
 
 **[!UICONTROL IT 조직 설정]**
 이 블루프린트에는 정보 기술 사용 사례로 확장할 조직 구조의 구성이 포함되어 있습니다.
+
+**[!UICONTROL 상속된 인스턴스 기본 사항 | 체크리스트]**
+이 블루프린트에는 Workfront 인스턴스 구성 방법을 명확하게 이해하기 위해 간단한 질문, 리소스 및 링크 목록과 함께 검토할 수 있는 프로젝트 템플릿(또는 체크리스트)이 포함되어 있습니다. 최근에 Workfront 인스턴스를 상속했으며 시작할 위치에 대한 지침이 필요한 경우 사용하십시오.
 
 **[!UICONTROL 통합 캠페인 실행]**
 다음 [!UICONTROL 통합 캠페인 실행] 블루프린트에는 다중 채널 캠페인을 실행하기 위해 여러 팀에 분산된 작업을 구성하는 단일 프로젝트 템플릿이 포함되어 있습니다.
