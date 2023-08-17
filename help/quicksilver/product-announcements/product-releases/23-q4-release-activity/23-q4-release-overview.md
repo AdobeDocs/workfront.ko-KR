@@ -3,9 +3,9 @@ title: 2023년 4분기 릴리스 개요
 description: 2023년 4분기 릴리스 개요
 author: Becky
 feature: Product Announcements
-source-git-commit: 381dafce2163b3f2bba3f5775ec6314d704eb61d
+source-git-commit: 1950effcb3bb0b36784159a214ed7e3db9d161d2
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '1286'
 ht-degree: 0%
 
 ---
@@ -59,8 +59,8 @@ ht-degree: 0%
                         <p><span class="bold">릴리스 날짜</span>
                         </p>
                     </td>
-                 </tr>  
-                 <tr>
+                </tr>  
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">연결된 카드에서 보기 전용으로 사용할 수 있는 문서</a></p><p>이제 Adobe Workfront 보드의 연결된 카드에 대해 이미지 및 PDF 등의 문서를 볼 수 있습니다. 브라우저에서 문서를 미리 보거나 컴퓨터에 다운로드할 수 있습니다. </p>
                     </td>
@@ -83,16 +83,6 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <p><span class="bold">기능</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">릴리스 날짜</span>
-                        </p>
-                    </td>
-                 </tr>  
-                 <tr>
-                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">이제 문제에 사용할 수 있는 프로젝트 보드 보기</a></p><p>이제 프로젝트 문제 목록의 게시판 보기에 액세스할 수 있습니다. 칸반 보드는 목록에서 문제를 보는 것보다 더 시각적인 방식으로 문제의 진행 상황을 추적하는 데 도움이 될 수 있습니다. </p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -101,6 +91,26 @@ ht-degree: 0%
                                 <p>미리보기 릴리스: 2023년 8월 3일<br /></p>
                             </li>
                              <li>
+                                <p>빠른 릴리스를 위한 프로덕션: 23.8 릴리스 포함</p>
+                            </li>
+                            <li>
+                                <p>분기별 릴리스 프로덕션: 23.10 릴리스 포함</p>
+                            </li>
+                        </ul>
+                    </td>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">연결된 카드에 문서 추가</a></p><p>이제 Adobe Workfront 보드에서 연결된 카드에 문서를 첨부할 수 있습니다. 카드에 추가한 모든 문서는 연결된 작업 또는 문제의 문서 탭에서 사용할 수 있으며 두 영역에서 동일한 파일 유형이 지원됩니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2023년 8월 17일<br /></p>
+                            </li>
+                            <li>
+                                <p>보드 조기 액세스 프로덕션: 2023년 8월 24일</p>
+                            </li>
+                            <li>
                                 <p>빠른 릴리스를 위한 프로덕션: 23.8 릴리스 포함</p>
                             </li>
                             <li>
@@ -147,8 +157,105 @@ ht-degree: 0%
                         </ul>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">양식의 계산된 필드 동적 재계산</a> </p>
+                        <p>이제 페이지의 모든 양식에 대한 종속 값이 수정되면 개체에 첨부된 양식의 계산된 필드가 실시간으로 동적으로 다시 계산됩니다. 이렇게 하면 양식을 저장하지 않고도 업데이트된 결과를 볼 수 있습니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2023년 8월 17일<br /></p>
+                            </li>
+                            <li>
+                                <p>빠른 릴리스를 위한 프로덕션: 23.8 릴리스 포함</p>
+                            </li>
+                            <li>
+                                <p>분기별 릴리스 프로덕션: 23.10 릴리스 포함</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">할당이 없는 단순 기간 유형의 하위 반복 작업에 대해 계획된 시간 설정</a></p>
+                        <p>할당이 없고 간단한 기간 유형이 있는 반복 작업에 계획된 시간이 할당되는 방식을 변경했습니다. 이제, 단순 기간 유형이 있고 할당이 없는 새 반복 작업에 대해 계획된 시간을 설정하면 해당 시간이 개별 반복에도 할당됩니다. 이 변경 이전에는 상위 작업이 할당 해제된 경우 개별 반복에 대한 시간이 저장되지 않았습니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2023년 8월 17일<br /></p>
+                            </li>
+                            <li>
+                                <p>빠른 릴리스를 위한 프로덕션: 23.8 릴리스 포함</p>
+                            </li>
+                            <li>
+                                <p>분기별 릴리스 프로덕션: 23.10 릴리스 포함</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
            </tbody>
         </table>
+
+<!--
+### Financial management enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                 </tr>  
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Date effective cost and billing rates</a> </p><p>This update has been announced with the 23.3 release.</p>
+                        <p>Date effective cost and billing rates are now available on the company, user, and job role objects in Workfront. When date effective rates are applied to a project, and hours are logged on project tasks, the costs and revenue are calculated using the specified rates for each time period.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: June 29, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 23.8 release</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 23.10 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Bulk delete rates from rate cards</a> </p>
+                        <p>You can now remove multiple rates at one time from a rate card in the Setup area.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: August 17, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 23.8 release</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 23.10 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+-->
 
 ### 기타 개선 사항
 
@@ -165,27 +272,64 @@ ht-degree: 0%
                         <p><span class="bold">릴리스 날짜</span>
                         </p>
                     </td>
-                 </tr>
-                 <!--
-                 <tr>
+                </tr>
+                <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-7.md" class="MCXref xref" xrefformat="{para}">Dynamic re-calculation of calculated fields on native and custom forms</a> <span style="color: #ff0000;"> New in Preview!</span></p><p>Calculated fields on a form attached to an object are now dynamically re-calculated in real time when dependent values on any form on the page are modified. This allows you to see the updated results without saving the form.</p>
+                        <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md" class="MCXref xref" xrefformat="{para}">새로운 주석 달기 경험 Beta 개선 사항</a> </p>
+                        <p>업데이트 섹션의 개선 사항은 2023년 4분기 릴리스 일정 내에 주석 달기 경험 Beta에 제공될 예정입니다. 이러한 개선 사항은 2023년 4분기 릴리스(2023년 10월)를 사용하는 모든 고객을 위한 프로덕션 환경에서 사용할 수 있습니다.</p>
                     </td>
-                    <td><p><b>Available on these dates:</b></p>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: August 17, 2023</p>
+                                <p>미리보기 릴리스: 2023년 4분기 릴리스 일정 전체<br /></p>
                             </li>
                             <li>
-                                <p>Production for fast release: With the 23.8 release</p>
+                                <p>빠른 릴리스를 위한 프로덕션: 23.8 릴리스부터</p>
                             </li>
                             <li>
-                                <p>Production for quarterly release: With the 23.10 release</p>
+                                <p>분기별 릴리스 프로덕션: 23.10 릴리스 사용(달리 명시되지 않은 경우)</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
-                -->
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md" class="MCXref xref" xrefformat="{para}">새로운 캔버스 대시보드 Beta 개선 사항</a> </p>
+                        <p>캔버스 대시보드에 대한 개선 사항은 2023년 4분기 릴리스 일정 내에 진행 중인 베타의 일부로 사용할 수 있습니다. 이러한 개선 사항은 2023년 4분기 릴리스(2023년 10월)를 사용하는 모든 고객을 위한 프로덕션 환경에서 사용할 수 있습니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2023년 4분기 릴리스 일정 전체<br /></p>
+                            </li>
+                            <li>
+                                <p>빠른 릴리스를 위한 프로덕션: 23.8 릴리스부터</p>
+                            </li>
+                            <li>
+                                <p>분기별 릴리스 프로덕션: 23.10 릴리스 사용(달리 명시되지 않은 경우)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">새 홈 기본 위젯 집합으로 변경</a> </p>
+                        <p>작업을 만들 수 있는 권한이 필요한 할 일 위젯은 이제 표준, 계획 또는 작업 라이선스 유형을 가진 사용자에 대해 설정된 기본 위젯에만 표시됩니다. 또한 위젯은 다른 모든 라이선스 유형을 사용하는 사용자의 홈 페이지에서 자동으로 제거되었습니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2023년 8월 17일<br /></p>
+                            </li>
+                            <li>
+                                <p>빠른 릴리스를 위한 프로덕션: 2023년 8월 17일</p>
+                            </li>
+                            <li>
+                                <p>분기 릴리스 프로덕션: 2023년 8월 17일</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">2023년 4분기 동안의 룩앤필 업데이트</a></p><p>2023년 4분기 내에 Adobe Workfront 애플리케이션의 다양한 영역의 모양과 느낌에 대한 작은 업데이트가 이루어지고 있습니다. 특정 릴리스 날짜는 개별 릴리스 정보를 검토하십시오.</p>

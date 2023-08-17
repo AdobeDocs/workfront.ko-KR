@@ -5,10 +5,10 @@ title: Adobe Workfront의 새 홈 시작
 description: 새 홈은 작업 관리를 위한 강력한 새 기능입니다.
 author: Nolan
 feature: Get Started with Workfront
-source-git-commit: 8c18753f5bd51a90f74357b8630ca6404e779f8f
+source-git-commit: 1950effcb3bb0b36784159a214ed7e3db9d161d2
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 19%
+source-wordcount: '1088'
+ht-degree: 20%
 
 ---
 
@@ -74,15 +74,15 @@ New Home은 사용자 정의 기능이 뛰어나게 설계되어 있어 가장 �
     </tr>
     <tr>
         <td>라이트</td>
-        <td>내 작업, 승인 대기 중, 할 일</td>
+        <td>내 작업, 승인 대기 중</td>
     </tr>
     <tr>
         <td>기여자</td>
-        <td>내 작업, 언급, 할 일</td>
+        <td>내 작업, 언급</td>
     </tr>
     <tr>
         <td>외부</td>
-        <td>내 승인 대기 중, 할 일</td>
+        <td>내 승인 대기 중</td>
     </tr>
 </table>
 
@@ -101,19 +101,19 @@ New Home은 사용자 정의 기능이 뛰어나게 설계되어 있어 가장 �
     </tr>
     <tr>
         <td>검토</td>
-        <td>내 작업, 언급, 할 일</td>
+        <td>내 작업, 언급</td>
     </tr>
     <tr>
         <td>제한적</td>
-        <td>내 프로젝트, 승인 대기 중, 할 일</td>
+        <td>내 프로젝트, 승인 대기 중</td>
     </tr>
     <tr>
         <td>기여자</td>
-        <td>내 작업, 언급, 할 일</td>
+        <td>내 작업, 언급</td>
     </tr>
     <tr>
         <td>외부</td>
-        <td>내 승인 대기 중, 할 일</td>
+        <td>내 승인 대기 중</td>
     </tr>
 </table>
 
