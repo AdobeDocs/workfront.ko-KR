@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 538e3a5090dce6f6e441da9911269a1d264833f8
+source-git-commit: 1e062b38f0b8e0be1857a1a1fe9e64f1d6fa6c36
 workflow-type: tm+mt
-source-wordcount: '13169'
+source-wordcount: '13176'
 ht-degree: 1%
 
 ---
@@ -430,6 +430,7 @@ ht-degree: 1%
          * [테스트 환경](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-testing-environments.md)
          * [샌드박스 환경 미리보기](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)
          * [사용자 정의 샌드박스 환경 새로 고침](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
+         * [한 개체에서 개체 이동 [!DNL Workfront] 환경을 다른 환경에](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
    * 사용자 추가 {#add-users}
       * [Workfront에 사용자 추가](administration-and-setup/add-users/add-users.md)
       * 사용자 만들기 및 관리 {#create-manage-users}
