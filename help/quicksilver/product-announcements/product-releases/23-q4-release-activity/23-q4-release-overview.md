@@ -3,7 +3,7 @@ title: 2023년 4분기 릴리스 개요
 description: 2023년 4분기 릴리스 개요
 author: Becky
 feature: Product Announcements
-source-git-commit: a84c879fac143c898ea11b7b71ebf22818adbd78
+source-git-commit: e2ecd03aea12892b6eb4b2660133998aa430c916
 workflow-type: tm+mt
 source-wordcount: '1493'
 ht-degree: 0%
@@ -67,7 +67,7 @@ ht-degree: 0%
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
                             <li>
-                                <p>미리보기 릴리스: 2023년 8월 3일<br /></p>
+                                <p>미리보기 릴리스: 2023년 8월 3일</p>
                             </li>
                             <li>
                                 <p>보드 조기 액세스 프로덕션: 2023년 8월 10일</p>
@@ -88,7 +88,7 @@ ht-degree: 0%
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
                             <li>
-                                <p>미리보기 릴리스: 2023년 8월 3일<br /></p>
+                                <p>미리보기 릴리스: 2023년 8월 3일</p>
                             </li>
                              <li>
                                 <p>빠른 릴리스를 위한 프로덕션: 23.8 릴리스 포함</p>
@@ -105,10 +105,10 @@ ht-degree: 0%
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
                             <li>
-                                <p>미리보기 릴리스: 2023년 8월 21일<br /></p>
+                                <p>미리보기 릴리스: 2023년 8월 21일</p>
                             </li>
                             <li>
-                                <p>조기 액세스를 위한 보드 프로덕션: TBD</p>
+                                <p>보드 조기 액세스 프로덕션: 2023년 8월 24일</p>
                             </li>
                             <li>
                                 <p>빠른 릴리스를 위한 프로덕션: TBD</p>
