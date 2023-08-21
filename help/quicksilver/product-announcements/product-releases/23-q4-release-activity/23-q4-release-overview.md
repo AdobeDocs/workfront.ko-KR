@@ -3,9 +3,9 @@ title: 2023년 4분기 릴리스 개요
 description: 2023년 4분기 릴리스 개요
 author: Becky
 feature: Product Announcements
-source-git-commit: 3764fba07e9d6ac80e793d92edd960281162c805
+source-git-commit: a84c879fac143c898ea11b7b71ebf22818adbd78
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1493'
 ht-degree: 0%
 
 ---
@@ -307,6 +307,63 @@ ht-degree: 0%
                             </li>
                             <li>
                                 <p>분기별 릴리스 프로덕션: 23.10 릴리스 사용(달리 명시되지 않은 경우)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">새 홈에 대한 새 필터 옵션</a> </p>
+                        <p>이제 새 홈의 내 작업 위젯에 새 필터 옵션을 사용할 수 있습니다. 옵션에는 오브젝트 유형(작업, 문제 및 요청)과 상태(준비되지 않음, 시작 준비, 작업 중 및 완료)에 대한 필터가 포함됩니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2023년 8월 17일<br /></p>
+                            </li>
+                            <li>
+                                <p>빠른 릴리스를 위한 프로덕션: 23.8 릴리스 포함</p>
+                            </li>
+                            <li>
+                                <p>분기별 릴리스 프로덕션: 23.10 릴리스 포함</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">새 홈에 대한 사용자 정의 용어 지원</a> </p>
+                        <p>조직의 고유한 요구 사항을 더 잘 충족하기 위해 이제 New Home은 인스턴스의 레이아웃 템플릿에 정의된 오브젝트에 대해 사용자 정의 용어를 사용합니다. 예를 들어 Workfront 인스턴스에서 "Project" 오브젝트의 레이블이 "Campaigns"로 다시 지정된 경우 내 프로젝트 위젯이 대신 새 홈에서 내 캠페인으로 표시됩니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2023년 8월 17일<br /></p>
+                            </li>
+                            <li>
+                                <p>빠른 릴리스를 위한 프로덕션: 23.8 릴리스 포함</p>
+                            </li>
+                            <li>
+                                <p>분기별 릴리스 프로덕션: 23.10 릴리스 포함</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">새 홈 시도 단추가 새 홈을 비활성화한 계정에 대해 제거됨</a> </p>
+                        <p>새 홈을 사용하지 않도록 설정한 계정의 경우 새 홈 시도 버튼이 더 이상 없습니다. 개별 사용자가 버튼을 사용하여 새 홈을 시도할 수 있으려면 시스템 관리자가 새 홈을 다시 활성화해야 합니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2023년 8월 17일<br /></p>
+                            </li>
+                            <li>
+                                <p>빠른 릴리스를 위한 프로덕션: 23.8 릴리스 포함</p>
+                            </li>
+                            <li>
+                                <p>분기별 릴리스 프로덕션: 23.10 릴리스 포함</p>
                             </li>
                         </ul>
                     </td>
