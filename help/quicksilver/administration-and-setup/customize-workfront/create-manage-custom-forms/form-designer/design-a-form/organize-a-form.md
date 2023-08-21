@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 961e0451ce9011a8a9f511d7d5da99368d22d6fb
 workflow-type: tm+mt
-source-wordcount: '1107'
+source-wordcount: '1113'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,8 @@ ht-degree: 0%
       <td role="rowheader"> <p>액세스 권한 부여</p> </td> 
       <td> <p> 이 섹션을 보고 해당 필드 값을 편집하려면 사용자 정의 양식이 첨부된 오브젝트에서 사용자에게 필요한 권한을 선택하십시오. 
        <p>다음 권한은 다음에서 사용할 수 있습니다. <b>오브젝트에 대한 이 액세스 권한이 있는 사용자는 필드 값을 볼 수 있습니다.</b>:</p> 
-         <ul>  
+         <ul>
+          <li><strong>보기</strong>: 오브젝트에 대한 권한 보기</li>
           <li><p><b>제한된 편집</b>: (객체가 프로젝트, 작업, 문제 또는 사용자인 경우에만 사용 가능):</p> 
           <p>프로젝트, 작업 또는 문제인 경우 사용자가 오브젝트에 기여할 수 있도록 허용합니다.</p>
           <p>사용자가 프로필을 편집하거나, 사용자의 경우 개체에 대한 프로필 권한을 소유할 수 있습니다.</p></li> 
