@@ -7,9 +7,9 @@ description: 에서 새 시나리오 템플릿을 만들 수 있습니다. [!DNL
 author: Becky
 feature: Workfront Fusion
 exl-id: fdfa509c-30c6-431e-89f3-a4bf50261e8a
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: b7879e8f2d4590d6347762d66c82de293d00c995
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '782'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->템플릿을 저장하면 모든 팀원이 볼 수 있습니다. 팀 외부에서 템플릿에 액세스할 수 있게 하려면 템플릿을 게시한 다음 공유 링크를 사용하거나 관리자에게 템플릿을 승인하고 게시하도록 요청해야 합니다.
+>템플릿을 저장하면 모든 팀원이 볼 수 있습니다. 팀 외부에서 템플릿에 액세스할 수 있게 하려면 요청을 제출하여 템플릿을 승인 및 게시해야 합니다. 요청이 승인을 위해 Adobe Workfront으로 이동하고 승인되면 팀 외부의 다른 사용자가 템플릿에 액세스할 수 있습니다.
 
 ### 시나리오에서 템플릿 만들기
 
