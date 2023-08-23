@@ -2,13 +2,13 @@
 product-area: agile-and-teams
 navigation-topic: customize-fields-on-card
 title: 카드에 표시할 필드 사용자 지정
-description: 전체 카드나 요약 보기에 표시되지 않도록 필드를 비활성화하거나, 압축된 카드 보기에서 필드를 숨겨서 카드에 표시되는 필드를 사용자 정의할 수 있습니다.
+description: 전체 카드나 압축된 보기로 표시되지 않도록 필드를 비활성화하거나 압축된 카드 보기에서 필드를 숨겨서 카드에 표시되는 필드를 사용자 정의할 수 있습니다.
 author: Lisa
 feature: Agile
 exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
-source-git-commit: 80e0a053f39991d3ed8d9bd2a11a8da2d5de588e
+source-git-commit: 0beb96dc3869e6f913d87f699aa9a51c5aaa8f79
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -96,3 +96,7 @@ ht-degree: 0%
    ![사용자 정의 필드 값 및 레이블](assets/save-custom-field-value-label.png)
 
    사용자 지정 필드는 사용 가능한 필드 목록에 추가되며 기본적으로 활성화됩니다. 의 단계에 따라 사용자 정의 필드를 비활성화할 수 있습니다. [카드 구성](customize-fields-on-card.md#configure-cards) 위의 섹션에서 필드를 편집하거나 모든 카드에서 삭제하십시오.
+
+>[!NOTE]
+>
+>나중에 Workfront에서 사용자 정의 필드의 이름을 바꾸는 경우 일치시키려면 구성 패널에서 필드 레이블을 편집해야 합니다. 그렇지 않으면 필드가 카드에 표시되지 않습니다.
