@@ -8,9 +8,9 @@ author: Becky, Caroline
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: e08b56b3bc212d49fd594912b6b28cd8e8f77b8b
+source-git-commit: 80e0bd0cd391372f48e8dddc4228fc431f54d052
 workflow-type: tm+mt
-source-wordcount: '1483'
+source-wordcount: '1573'
 ht-degree: 0%
 
 ---
@@ -81,6 +81,27 @@ ht-degree: 0%
 >* A [!DNL SharePoint] 통합은 하나에 연결할 수 있음 [!DNL SharePoint] 인스턴스. 따라서 사용자는 하나의 통합을 설정할 수 있습니다 [!DNL SharePoint], 하지만 을(를) 초로 통합을 설정할 수 없습니다. [!DNL SharePoint], 및에 대한 권한이 있는 경우에도 두 번째 [!DNL SharePoint].
 >
 >* 사용자는 를 통해 동일한 사이트, 컬렉션, 폴더, 하위 폴더 및 파일에 액세스할 수 있습니다 [!DNL Workfront] [!DNL SharePoint] 에 있는 것과 같은 통합 [!DNL SharePoint] 계정입니다.
+
+### SharePoint에서 문서 연결
+
+SharePoint의 문서를 새 페이지를 통해 연결하는 방법에 대한 지침 [!DNL SharePoint] 통합, 참조 [외부 문서 연결 대상 [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#link-an-external-document-to-workfront)
+
+### SharePoint에 문서 보내기
+
+SharePoint으로 문서를 전송하려면 다음 작업을 수행하십시오.
+
+1. 다음을 클릭합니다. **전송 대상** 아이콘 ![전송 대상](assets/send-to-icon.png) SharePoint(Graph API)를 선택합니다.
+1. (선택 사항) 검색 창에서 문서를 보낼 사이트 또는 폴더를 검색합니다.
+1. 목록에서 사이트 또는 폴더를 선택합니다.
+
+   * 사이트가 다음으로 표시됨 ![사이트 아이콘](assets/site-icon.png).
+
+   * 폴더가 다음으로 표시됨 ![폴더 아이콘](assets/folder-icon.png).
+
+   * 파일이 아이콘으로 표시되지 않습니다.
+
+1. **저장**&#x200B;을 클릭합니다.
+
 
 ## 에 대한 보안, 액세스 및 인증 정보 [!DNL SharePoint] 통합
 
