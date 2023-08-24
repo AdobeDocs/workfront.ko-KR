@@ -6,9 +6,9 @@ description: Workfront의 기존 작업 및 문제에 연결된 카드를 보드
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 55ba26b65cf046806f5a198e4de1b5eed2e08384
+source-git-commit: 0208beb1f45377b151a526738b6d182880c37774
 workflow-type: tm+mt
-source-wordcount: '1426'
+source-wordcount: '1375'
 ht-degree: 0%
 
 ---
@@ -80,10 +80,6 @@ ht-degree: 0%
 
    카드가 맨 왼쪽 열 하단에 추가됩니다. 연결됨 [!DNL Workfront] 객체와 해당 할당자가 카드에 표시됩니다.
 
-   >[!NOTE]
-   >
-   >의 피할당자가 [!DNL Workfront] 작업 또는 문제가 게시판의 구성원이 아니므로 카드에 할당되지 않습니다.
-
    ![연결된 카드](assets/boards-connected-card-first-added.png)
 
 1. 클릭 ![작업 또는 문제 열기](assets/boards-launch-icon.png) 을(를) 열려면 [!DNL Workfront] 새 브라우저 탭의 작업 또는 문제
@@ -124,9 +120,8 @@ ht-degree: 0%
       <td><p>카드를 완료할 시간입니다.</p><p>추정을 변경하면 연결된 항목의 스토리 포인트 값도 변경됩니다 [!DNL Workfront] 개체.</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 담당자]</strong></td>
-      <td><p>카드에 더 많은 사람이나 팀을 할당하려면 검색 필드에 이름을 입력한 다음 목록에 표시될 때 선택합니다. 개인 사용자와 팀을 모두 추가할 수 있습니다. 연결된 카드에는 팀 할당이 하나만 허용됩니다.</p>
-      <p>피할당자는 보드에 속한 구성원이어야 합니다. 그렇지 않으면 선택 목록에 나타나지 않습니다. 팀이 이사회의 구성원이면 개별 팀원을 카드에 할당할 수 있습니다.</p>
+      <td role="rowheader"><strong>[!UICONTROL Assignments]</strong></td>
+      <td><p>카드에 더 많은 사람 또는 팀을 할당하려면 <strong>[!UICONTROL 할당 추가]</strong> 검색 필드에 이름을 입력하십시오. 그런 다음 결과 목록에 표시될 때 선택합니다. 개인 사용자와 팀을 모두 추가할 수 있습니다. 연결된 카드에는 팀 할당이 하나만 허용됩니다.</p>
       <p>선택한 모든 피할당자도 의 작업 또는 문제에 할당됩니다. [!DNL Workfront].</p></td>
      </tr>
      <tr>

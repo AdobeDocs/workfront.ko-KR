@@ -7,9 +7,9 @@ description: 에 대해 알아보려면 이 문서 를 참조하십시오. [!DNL
 author: Lisa
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 1594382c48d18a4da99bc5c47ddbbd4f63b76cd4
+source-git-commit: 28fd1872b05c620cf4e86a4044317cd7958e4482
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -212,7 +212,7 @@ Ad Hoc 및 연결된 카드가 있는 보드는 모든 사용자가 사용할 �
 
 ### 조직에서 초기 기능을 옵트인했는지 어떻게 알 수 있습니까?
 
-다음의 경우 [!DNL Workfront] 관리자가 보드에 대한 초기 기능을 활성화했습니다. [!UICONTROL 초기 기능 옵트인] 대시보드 화면 상단에 있는 활성화 단추입니다. 활성화된 기능을 확인하려면 버튼을 클릭합니다.
+다음으로 연락 [!DNL Workfront] 관리자가 보드에 대한 초기 기능을 활성화했는지 확인합니다.
 
 ### 특정 사용자에게만 초기 기능을 활성화할 수 있습니까?
 

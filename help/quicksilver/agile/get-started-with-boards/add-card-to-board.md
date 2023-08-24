@@ -6,9 +6,9 @@ description: Ad Hoc 카드를 보드에 빠르게 추가하고 보드에 있는 
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: 964273ad38230e28411083cf616617e14b2d2d0e
+source-git-commit: 0208beb1f45377b151a526738b6d182880c37774
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '856'
 ht-degree: 0%
 
 ---
@@ -82,8 +82,8 @@ Ad Hoc 카드가 의 작업 항목에 연결되어 있지 않습니다. [!DNL Ad
       <td>카드를 완료할 예상 시간을 입력합니다. 수동 입력만 가능합니다.</td>
      </tr>
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 담당자]</strong> </td> 
-      <td> <p>카드를 할당하려면 검색 필드에 이름을 입력한 다음 목록에 표시될 때 선택합니다. 개인 및 팀을 모두 추가할 수 있으며 한 카드에 둘 이상의 개인 또는 팀을 할당할 수 있습니다.</p> <p>피할당자는 보드에 속한 구성원이어야 합니다. 그렇지 않으면 선택 목록에 나타나지 않습니다. 팀이 이사회의 구성원이면 개별 팀원을 카드에 할당할 수 있습니다.</p></td>
+      <td role="rowheader"><strong>[!UICONTROL Assignments]</strong> </td> 
+      <td>카드를 할당하려면 <strong>[!UICONTROL 할당 추가]</strong> 검색 필드에 이름을 입력하십시오. 그런 다음 결과 목록에 표시될 때 선택합니다. 개인 및 팀을 모두 추가할 수 있으며 한 카드에 둘 이상의 개인 또는 팀을 할당할 수 있습니다.</td>
      </tr>     
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL 태그]</strong></td> 
@@ -95,7 +95,7 @@ Ad Hoc 카드가 의 작업 항목에 연결되어 있지 않습니다. [!DNL Ad
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL 검사 목록]</strong> </td> 
-      <td> <p>클릭 <strong>[!UICONTROL 체크리스트 항목 추가]</strong>. 그런 다음 항목의 제목을 입력하고 Enter 키를 누릅니다. 다른 항목이 자동으로 추가됩니다. 제목을 계속 입력하여 더 많은 항목을 추가합니다.</p> <p>체크리스트 상단에 있는 카운터는 완료된 항목 수와 전체 항목 수를 보여 준다.</p> <p>체크리스트 항목에 대한 자세한 내용은 <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">카드의 체크리스트 항목 관리</a>.</p> </td> 
+      <td> <p>클릭 <strong>[!UICONTROL 체크리스트 항목 추가]</strong>. 그런 다음 항목의 제목을 입력하고 Enter 키를 누릅니다. 다른 항목이 자동으로 추가됩니다. 제목을 계속 입력하여 더 많은 항목을 추가합니다.</p> <p>체크리스트 상단의 카운터는 완료된 품목 수와 전체 품목 수를 보여준다.</p> <p>체크리스트 항목에 대한 자세한 내용은 <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">카드의 체크리스트 항목 관리</a>.</p> </td> 
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Comments]</strong></td>

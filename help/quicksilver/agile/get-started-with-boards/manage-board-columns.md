@@ -6,9 +6,9 @@ description: 새 보드에는 기본적으로 3개의 열이 있습니다. 열�
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 05cac2441474e0f6ecf18aa777a5a66fefb2dba8
+source-git-commit: 8097842fedb468d8f0e5c9eed94bf74d489edd2b
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '934'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >보관된 카드를 포함하여 카드가 포함된 열은 삭제할 수 없습니다. 카드가 포함된 열을 삭제하려는 경우 해당 카드에 대해 다른 열을 선택해야 합니다.
+   >보관된 카드를 포함하여 카드가 포함된 열은 삭제할 수 없습니다. 카드가 들어 있는 열을 삭제하려는 경우 해당 카드에 대해 다른 열을 선택해야 합니다.
 
 ## 카드 수 표시
 
@@ -135,10 +135,10 @@ ht-degree: 0%
 
       * **[!UICONTROL 피할당자에 추가]:** 선택한 피할당자는 이 열로 이동할 때 카드의 기존 피할당자 목록에 추가됩니다.
       * **[!UICONTROL 피할당자 무시]:** 선택한 피할당자는 다른 모든 피할당자를 재정의하고 이 열로 이동할 때 카드의 유일한 피할당자가 됩니다.
-   1. 드롭다운 목록에서 피할당자를 선택합니다. 게시판의 멤버만 선택할 수 있습니다. 자세한 내용은 [보드에서 구성원 추가 또는 제거](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
+
+   1. 클릭 [!UICONTROL **할당 추가**] 사용자를 검색합니다. 검색 결과에서 피할당자를 선택합니다. 모든 Workfront 사용자 및 팀을 선택할 수 있습니다.
 
       ![열의 할당자](assets/boards-column-assignees.png)
-
 
 1. (선택 사항) 카드 태그의 값을 설정합니다.
 
@@ -147,10 +147,10 @@ ht-degree: 0%
 
       * **[!UICONTROL 태그에 추가]:** 선택한 태그는 이 열로 이동할 때 카드의 기존 태그 목록에 추가됩니다.
       * **[!UICONTROL 태그 재정의]:** 선택하는 태그는 다른 모든 태그를 재정의하며, 이 열로 이동할 때 카드에서 유일한 태그가 됩니다.
+
    1. 드롭다운 목록에서 태그를 선택합니다. 에 이미 만들어진 태그만 [!UICONTROL 태그 관리자] 선택할 수 있습니다. 새 태그 추가에 대한 자세한 내용은 [태그 추가](/help/quicksilver/agile/get-started-with-boards/add-tags.md).
 
       ![열에 대한 태그](assets/boards-column-tags.png)
-
 
 1. 활성화 **[!UICONTROL 진행 중인 작업 제한]** 열에 추가할 수 있는 카드 수를 제한하는 정책. 그런 다음, **[!UICONTROL 제한 설정]** 필드.
 
