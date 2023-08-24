@@ -6,9 +6,9 @@ description: Adobe Workfront 개체(프로젝트, 작업 또는 문제)에 업�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 4b6d14559f776ed5484a67fcc5f461f154cc5e30
+source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
 workflow-type: tm+mt
-source-wordcount: '3496'
+source-wordcount: '3521'
 ht-degree: 1%
 
 ---
@@ -267,7 +267,7 @@ drafted for P&P release:
 1. 클릭 **제출** Workfront 개체에 업데이트를 추가합니다.
 1. (선택 사항) 주석을 편집하려면 **자세히** 메뉴 ![](assets/more-menu.png)  <span class="preview">주석의 오른쪽 상단</span>을 클릭한 다음 을 클릭합니다 **편집**.
 1. 주석의 정보를 편집하거나, 이미지를 추가 또는 제거하거나, 태그 지정된 사용자를 제거합니다.
-댓글을 제출한 후 15일 이내에 편집할 수 있습니다. 댓글이 업데이트될 때 표시되는 날짜 스탬프 왼쪽에 &quot;편집됨&quot; 표시기가 추가됩니다.
+댓글을 제출한 후 15일 이내에 편집할 수 있습니다. 댓글을 입력했을 때 표시되는 날짜 스탬프 왼쪽에 &quot;편집됨&quot; 표시기가 추가됩니다.
 
    <span class="preview">![](assets/edited-tag-on-comment-unified-commenting.png)</span>
 
@@ -275,6 +275,7 @@ drafted for P&P release:
    >
    >* 원본 업데이트를 제출한 경우에만 사용자에게 업데이트를 알리는 이메일이 생성됩니다. 업데이트를 편집한 후 이메일이 생성되지 않습니다.
    >* 주석 옆에 있는 날짜 스탬프는 마지막 편집 날짜가 아닌 원래 주석의 날짜입니다.
+   >* 현재 연도의 주석은 날짜 스탬프에 연도를 표시하지 않습니다. 타임스탬프를 마우스로 가리키면 연도를 포함한 전체 날짜가 표시됩니다.
 
 1. (선택 사항) **답변** 기존 댓글에 회신하려면 위의 4-8단계를 따르십시오. <!--(**************insure this stays accurate***********)--> 업데이트 회신에 대한 자세한 내용은 [업데이트에 대한 회신](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
