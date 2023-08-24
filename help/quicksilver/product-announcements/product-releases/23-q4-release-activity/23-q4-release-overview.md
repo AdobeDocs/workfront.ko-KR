@@ -3,9 +3,9 @@ title: 2023년 4분기 릴리스 개요
 description: 2023년 4분기 릴리스 개요
 author: Becky
 feature: Product Announcements
-source-git-commit: e2ecd03aea12892b6eb4b2660133998aa430c916
+source-git-commit: 06f7c4b940e4b658b35bbee13d5027f622892700
 workflow-type: tm+mt
-source-wordcount: '1493'
+source-wordcount: '1636'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,7 @@ ht-degree: 0%
 ## Adobe Workfront 개선 사항
 
 * [보드 개선 사항](#boards-enhancements)
+* [통합 개선 사항](#integration-enhancements)
 * [프로젝트 개선 사항](#project-enhancements)
 * [기타 개선 사항](#other-enhancements)
 
@@ -60,6 +61,42 @@ ht-degree: 0%
                         </p>
                     </td>
                 </tr>  
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">보드 및 카드의 사용자 할당 개선 사항</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p><p>이제 Adobe Workfront 보드의 보드 및 카드에 사용자를 추가할 때 유연성을 더하는 개선 사항이 제공됩니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2023년 8월 21일</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">모든 고객을 위한 프로덕션: 2023년 8월 24일</span>
+                            </li> 
+                       </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">연결된 카드에 문서 추가</a></p><p>이제 Adobe Workfront 보드에서 연결된 카드에 문서를 첨부할 수 있습니다. 카드에 추가한 모든 문서는 연결된 작업 또는 문제의 문서 탭에서 사용할 수 있으며 두 영역에서 동일한 파일 유형이 지원됩니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2023년 8월 21일</p>
+                            </li>
+                            <li>
+                                <p>보드 조기 액세스 프로덕션: 2023년 8월 24일</p>
+                            </li>
+                            <li>
+                                <p>빠른 릴리스를 위한 프로덕션: TBD</p>
+                            </li>
+                            <li>
+                                <p>분기별 릴리스 프로덕션: 23.10 릴리스 포함</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">연결된 카드에서 보기 전용으로 사용할 수 있는 문서</a></p><p>이제 Adobe Workfront 보드의 연결된 카드에 대해 이미지 및 PDF 등의 문서를 볼 수 있습니다. 브라우저에서 문서를 미리 보거나 컴퓨터에 다운로드할 수 있습니다. </p>
@@ -98,29 +135,65 @@ ht-degree: 0%
                             </li>
                         </ul>
                     </td>
+                </tr>    
+           </tbody>
+        </table>
+
+### 통합 개선 사항
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">연결된 카드에 문서 추가</a></p><p>이제 Adobe Workfront 보드에서 연결된 카드에 문서를 첨부할 수 있습니다. 카드에 추가한 모든 문서는 연결된 작업 또는 문제의 문서 탭에서 사용할 수 있으며 두 영역에서 동일한 파일 유형이 지원됩니다.</p>
+                        <p><span class="bold">기능</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">릴리스 날짜</span>
+                        </p>
+                    </td>
+                 </tr>  
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">SharePoint(GraphAPI)로 문서를 전송할 때의 경험 개선 사항</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span> </p><p>SharePoint(GraphAPI) 폴더로 문서를 보낼 때 폴더를 더 쉽게 찾을 수 있도록 몇 가지 사항이 변경되었습니다</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
                             <li>
-                                <p>미리보기 릴리스: 2023년 8월 21일</p>
-                            </li>
-                            <li>
-                                <p>보드 조기 액세스 프로덕션: 2023년 8월 24일</p>
+                                <p>미리보기 릴리스: 8월 24일<br /></p>
                             </li>
                             <li>
                                 <p>빠른 릴리스를 위한 프로덕션: TBD</p>
                             </li>
                             <li>
-                                <p>분기별 릴리스 프로덕션: 23.10 릴리스 포함</p>
+                                <p>분기별 릴리스: TBD</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">문서 통합을 위한 드래그 앤 드롭으로 업그레이드</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span> </p><p>파일을 연결된 폴더로 드래그 앤 드롭할 때 명확성을 추가하고 사용자 오류를 제거하는 몇 가지 개선 사항이 있습니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 8월 24일<br /></p>
+                            </li>
+                            <li>
+                                <p>빠른 릴리스를 위한 프로덕션: TBD</p>
+                            </li>
+                            <li>
+                                <p>분기별 릴리스: TBD</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
            </tbody>
         </table>
+
 
 ### 프로젝트 개선 사항
 
