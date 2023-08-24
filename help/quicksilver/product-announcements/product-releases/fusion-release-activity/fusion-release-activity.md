@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion은 앱과 웹 서비스를 원활하게 연�
 author: Luke
 feature: Product Announcements, Workfront Fusion
 exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
-source-git-commit: 2884f709ef9ea89f275ff88db41ddde725dbd781
+source-git-commit: 59bb1a038fbbc7296173988fef24786d73642035
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,7 @@ Workfront Fusion 사용 방법에 대한 자세한 내용은 [Adobe Workfront Fu
 
 ### 2023년 8월
 
+* [Workfront Fusion 릴리스 활동: 2023년 8월 21일 주](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-8-21.md)
 * [Workfront Fusion 릴리스 활동: 2023년 8월 7일 주](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-8-7.md)
 
 ### 2023년 7월
