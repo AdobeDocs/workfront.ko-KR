@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 4042384f4e3c70bb23d585d5a5e392d624ac6cb4
+source-git-commit: 5d3c8e3626dabf88394bd6b3c2dd48e6168b56c4
 workflow-type: tm+mt
-source-wordcount: '2407'
+source-wordcount: '2325'
 ht-degree: 3%
 
 ---
@@ -72,14 +72,14 @@ Add to tocs
 
 ### 작업 오브젝트
 
-| 프로모션 가능 개체 | 포함된 하위 오브젝트 |
+| 프로모션 가능 개체 | 포함된 프로모션 가능한 하위 오브젝트 |
 | --- | --- |
 | 프로젝트(프로젝트) | 프로젝트<br>작업<br>할당<br>전임 작업<br>회사<br>오버라이드 비율<br>그룹<br>역할<br>팀<br>승인 진행<br>승인 경로<br>승인 단계<br>단계 승인자<br>예약<br>비근무일<br>대기열 정의<br>대기열 주제 그룹<br>대기열 주제<br>라우팅 규칙<br>마일스톤 경로<br>마일스톤<br>시간 유형<br>리소스 풀<br>범주<br>범주 매개변수<br>매개 변수<br>매개변수 그룹<br>매개변수 옵션<br>범주 표시 논리 |
 | 템플릿(TMPL) | 템플릿<br>템플릿 작업<br>템플릿 작업 할당<br>템플릿 작업 전임 작업<br>회사<br>오버라이드 비율<br>그룹<br>역할<br>팀<br>승인 진행<br>승인 경로<br>승인 단계<br>단계 승인자<br>예약<br>비근무일<br>대기열 정의<br>대기열 주제 그룹<br>대기열 주제<br>라우팅 규칙<br>마일스톤 경로<br>마일스톤<br>시간 유형<br>리소스 풀<br>범주<br>범주 매개변수<br>매개 변수<br>매개변수 그룹<br>매개변수 옵션<br>범주 표시 논리 |
 
 ### 보고 개체
 
-| 프로모션 가능 개체 | 포함된 하위 오브젝트 |
+| 프로모션 가능 개체 | 포함된 프로모션 가능한 하위 오브젝트 |
 | --- | --- |
 | 레이아웃 템플릿(UITMPL) | 레이아웃 템플릿<br>대시보드<br>캘린더<br>달력 섹션<br>외부 페이지<br>보고서<br>필터<br>그룹화<br>보기<br>매개 변수 |
 | 대시보드(PTLTAB) | 대시보드<br>캘린더<br>달력 섹션<br>외부 페이지<br>보고서<br>필터<br>그룹화<br>보기<br>매개 변수 |
@@ -92,7 +92,7 @@ Add to tocs
 
 ### 사용자 지정 데이터 개체
 
-| 프로모션 가능 개체 | 포함된 하위 오브젝트 |
+| 프로모션 가능 개체 | 포함된 프로모션 가능한 하위 오브젝트 |
 | --- | --- |
 | 범주(CTGY) | 범주<br>범주 매개변수<br>매개 변수<br>매개변수 그룹<br>매개변수 옵션<br>범주 표시 논리<br>그룹 |
 | 매개 변수(매개 변수) | 매개 변수<br>매개변수 옵션 |
@@ -100,7 +100,7 @@ Add to tocs
 
 ### 조직 개체
 
-| 프로모션 가능 개체 | 포함된 하위 오브젝트 |
+| 프로모션 가능 개체 | 포함된 프로모션 가능한 하위 오브젝트 |
 | --- | --- |
 | 그룹(그룹) | 그룹 <br>하위 그룹(최대 5개 수준)<br>범주<br>범주 매개변수<br>매개 변수<br>매개변수 그룹<br>매개변수 옵션<br>범주 표시 논리 |
 | 역할(역할) | 역할 |
@@ -111,7 +111,7 @@ Add to tocs
 
 ### 기타 구성 객체
 
-| 프로모션 가능 개체 | 포함된 하위 오브젝트 |
+| 프로모션 가능 개체 | 포함된 프로모션 가능한 하위 오브젝트 |
 | --- | --- |
 | 승인 프로세스(ARVPRC) | 승인 진행<br>승인 경로<br>승인 단계<br>단계 승인자<br>역할<br>팀<br>그룹 |
 | 일정(일정) | 예약<br>비근무일<br>그룹 |
@@ -126,7 +126,7 @@ Add to tocs
 
 API는 각 요청을 인증하여 클라이언트가 요청된 개체를 보거나 수정할 수 있는 액세스 권한을 보유하는지 확인합니다.
 
-인증은 다음 방법 중 하나를 사용하여 제공할 수 있는 세션 ID를 전달하여 수행됩니다.
+인증은 다음 방법 중 하나를 사용하여 제공할 수 있는 세션 ID 또는 API 키를 전달하여 수행됩니다.
 
 ### 요청 헤더 인증
 
@@ -138,22 +138,6 @@ API는 각 요청을 인증하여 클라이언트가 요청된 개체를 보거�
 GET /attask/api/v15.0/project/search
 SessionID: abc1234
 ```
-
-### 매개 변수 인증 요청
-
-다음 예와 같이 sessionID라는 요청 매개 변수를 전달하여 인증할 수 있습니다. 
-
-```
-GET /attask/api/v15.0/project/4c78821c0000d6fa8d5e52f07a1d54d0?sessionID=abc1234
-```
-
-### 쿠키 기반 인증
-
-API는 웹 UI에서 시스템에 사용하는 것과 동일한 쿠키 기반 인증을 사용합니다. 클라이언트가 웹 UI를 사용하여 Workfront에 로그인하는 경우 동일한 브라우저 내에서 수행된 모든 AJAX 호출은 동일한 인증을 사용합니다.
-
->[!NOTE]
->
->CSRF(Cross Site Request Forgery) 공격으로부터 보호하기 위해 이 인증 방법은 읽기 전용 작업에만 사용할 수 있습니다.
 
 ## API 엔드포인트
 
@@ -189,13 +173,13 @@ API는 웹 UI에서 시스템에 사용하는 것과 동일한 쿠키 기반 인
 
 >[!NOTE]
 >
-의 구조를 확인합니다. `objectCollections`  배열입니다.
+>의 구조를 확인합니다. `objectCollections`  배열입니다.
 >
-배열의 각 항목에는 `objCode` Workfront API 탐색기에 문서화된 개체 코드에 해당하는 키입니다.
+>배열의 각 항목에는 `objCode` Workfront API 탐색기에 문서화된 개체 코드에 해당하는 키입니다.
 >
-각 항목에는 `entities` 컬렉션. 이는 다음을 예상합니다. `ID` 및 `name` 표시할 키.
+>각 항목에는 `entities` 컬렉션. 이는 다음을 예상합니다. `ID` 및 `name` 표시할 키.
 >
-에서 요청할 수 있는 개체 코드 목록 `objectCollections` list, see the [환경 프로모션을 위해 지원되는 오브젝트](#supported-objects-for-environment-promotion) 이 문서의 섹션.
+>에서 요청할 수 있는 개체 코드 목록 `objectCollections` list, see the [환경 프로모션을 위해 지원되는 오브젝트](#supported-objects-for-environment-promotion) 이 문서의 섹션.
 
 #### URL
 
@@ -207,7 +191,9 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 
 ```json
 {
-    "Authorization": "Bearer ****************",
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
 ```
@@ -273,7 +259,6 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
         "createdAt": "2023-06-06T17:29:21.600Z",
         "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
         "publishedAt": null,
-        "isPrivate": true,
         "customerId": "61aa9d090005fa42152c1cb66659f38d"
 }
 ```
@@ -303,7 +288,9 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 
 ```json
 {
-    "Authorization": "Bearer ****************"
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
 }
 ```
 
@@ -330,7 +317,6 @@ _비어 있음_
             "createdAt": "2023-06-06T17:29:21.600Z",
             "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
             "publishedAt": null,
-            "isPrivate": true,
             "customerId": "61aa9d090005fa42152c1cb66659f38d"
         },
         {...}
@@ -363,7 +349,9 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 
 ```json
 {
-    "Authorization": "Bearer ****************"
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
 }
 ```
 
@@ -389,21 +377,15 @@ _비어 있음_
         "createdAt": "2023-06-06T17:29:21.600Z",
         "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
         "publishedAt": null,
-        "isPrivate": true,
         "customerId": "61aa9d090005fa42152c1cb66659f38d",
-        "metadata": {
-            "displayOrder": ["GROUP","ROLE","TMPL","PROJ","PTLTAB"], 
-            "historyOrder": ["GROUP","ROLE","TMPL","TTSK","PROJ","PTLTAB"], 
-            "installOrder": ["GROUP","ROLE","TMPL","TTSK","TPRED","TASSGN","PROJ","QUED","RRUL","QUET","UIFT","UIGB","UIVW","PTLTAB"], 
-            "summaryOrder": ["GROUP","ROLE","TMPL"], 
-            "shapeVersion": 2
-        },
         "displayEntities": {
             "GROUP": [
                {
                    "id": "52aa9d0e0005fcee8f212835bdaa2691",
                    "name": "Default Group",
-                   "description"
+                   "description": "null"
+                   - or -
+                   "description": "..."
                }
             ],
             "ROLE": [
@@ -436,7 +418,9 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 
 ```json
 {
-    "Authorization": "Bearer ****************"
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
 }
 ```
 
@@ -452,13 +436,6 @@ _비어 있음_
 
 ```json
 {
-    "metadata": {
-        "displayOrder": ["GROUP","ROLE","TMPL","PROJ","PTLTAB"], 
-        "historyOrder": ["GROUP","ROLE","TMPL","TTSK","PROJ","PTLTAB"], 
-        "installOrder": ["GROUP","ROLE","TMPL","TTSK","TPRED","TASSGN","PROJ","QUED","RRUL","QUET","UIFT","UIGB","UIVW","PTLTAB"], 
-        "summaryOrder": ["GROUP","ROLE","TMPL"], 
-        "shapeVersion": 2
-    },
     "packageEntities": {
         "GROUP": [
            {
@@ -472,7 +449,7 @@ _비어 있음_
                "isActive": true,
                "isGroupPublic": true,
                "isPublic": true,
-               "parentID" null,
+               "parentID": null,
                "rootID": null,
                "rootName": null,
                "uiTemplateID": null
@@ -504,12 +481,11 @@ _비어 있음_
 편집 가능한 속성은 다음과 같습니다.
 
 1. 이름(문자열)
-2. 설명(문자열)
-3. 소스(URL 유효성 검사가 있는 문자열)
-4. 상태(값 유효성 검사가 포함된 문자열)
-5. 버전(정수)
-6. metadata(콜렉션)
-7. packageEntities(콜렉션)
+1. 설명(문자열)
+1. 소스(URL 유효성 검사가 있는 문자열)
+1. 상태(값 유효성 검사가 포함된 문자열)
+1. 버전(정수)
+1. packageEntities(콜렉션)
 
 상태 옵션에는 다음이 포함됩니다.
 
@@ -554,7 +530,9 @@ PUT https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 
 ```json
 {
-    "Authorization": "Bearer ****************",
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
 ```
@@ -588,7 +566,7 @@ PUT https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
                "isActive": true,
                "isGroupPublic": true,
                "isPublic": true,
-               "parentID" null,
+               "parentID": null,
                "rootID": null,
                "rootName": null,
                "uiTemplateID": null
@@ -620,15 +598,7 @@ PUT https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
         "createdAt": "2023-06-06T17:29:21.600Z",
         "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
         "publishedAt": null,
-        "isPrivate": true,
         "customerId": "61aa9d090005fa42152c1cb66659f38d",
-        "metadata": {
-            "displayOrder": ["GROUP","ROLE","TMPL","PROJ","PTLTAB"], 
-            "historyOrder": ["GROUP","ROLE","TMPL","TTSK","PROJ","PTLTAB"], 
-            "installOrder": ["GROUP","ROLE","TMPL","TTSK","TPRED","TASSGN","PROJ","QUED","RRUL","QUET","UIFT","UIGB","UIVW","PTLTAB"], 
-            "summaryOrder": ["GROUP","ROLE","TMPL"], 
-            "shapeVersion": 2
-        },
         "displayEntities": {
             "GROUP": [
                {
@@ -666,7 +636,6 @@ PUT https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 1. 소스(URL 유효성 검사가 있는 문자열)
 1. 상태(값 유효성 검사가 포함된 문자열)
 1. 버전(정수)
-1. metadata(콜렉션)
 1. packageEntities(콜렉션)
 
    또는
@@ -688,7 +657,9 @@ PATCH https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/
 
 ```json
 {
-    "Authorization": "Bearer ****************",
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
 ```
@@ -719,15 +690,7 @@ PATCH https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/
         "createdAt": "2023-06-06T17:29:21.600Z",
         "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
         "publishedAt": "2023-06-06T19:39:01.600Z",
-        "isPrivate": true,
         "customerId": "61aa9d090005fa42152c1cb66659f38d",
-        "metadata": {
-            "displayOrder": ["GROUP","ROLE","TMPL","PROJ","PTLTAB"], 
-            "historyOrder": ["GROUP","ROLE","TMPL","TTSK","PROJ","PTLTAB"], 
-            "installOrder": ["GROUP","ROLE","TMPL","TTSK","TPRED","TASSGN","PROJ","QUED","RRUL","QUET","UIFT","UIGB","UIVW","PTLTAB"], 
-            "summaryOrder": ["GROUP","ROLE","TMPL"], 
-            "shapeVersion": 2
-        },
         "displayEntities": {
             "GROUP": [
                {
@@ -760,7 +723,7 @@ PATCH https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/
 
 >[!NOTE]
 >
-프로모션 패키지를 삭제하는 대신 패키지의 상태를 DISABLED로 변경하는 것이 좋습니다. 이렇게 하면 패키지를 검색할 수 있고 패키지가 배포된 위치의 설치 기록을 유지할 수 있습니다.
+>프로모션 패키지를 삭제하는 대신 패키지의 상태를 DISABLED로 변경하는 것이 좋습니다. 이렇게 하면 패키지를 검색할 수 있고 패키지가 배포된 위치의 설치 기록을 유지할 수 있습니다.
 
 #### URL
 
@@ -772,7 +735,9 @@ DELETE https://{domain}.{environment}.workfront.com/environment-promotion/api/v1
 
 ```json
 {
-    "Authorization": "Bearer ****************"
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
 }
 ```
 
@@ -838,7 +803,9 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/t
 
 ```json
 {
-    "Authorization": "Bearer ****************",
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
 ```
@@ -888,7 +855,9 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/i
 
 ```json
 {
-    "Authorization": "Bearer ****************",
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
 ```
@@ -935,7 +904,9 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1v1/
 
 ```json
 {
-    "Authorization": "Bearer ****************"
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
 }
 ```
 
@@ -953,8 +924,8 @@ _비어 있음_
 [
     {
         "id": "2892b936-e09e-455a-935f-e1462ab9753c",
-        "blueprintId": "4fae2b9d-d315-45f4-909f-a0c0d79fc65d",
-        "blueprintVersion": 1,
+        "environmentPromotionPackageId": "4fae2b9d-d315-45f4-909f-a0c0d79fc65d",
+        "environmentPromotionPackageVersion": 1,
         "userId": "8fbbc5bcf4f94a5b862483ee05573e73",
         "customerId": "54286d78b064451096752b99bf968481",
         "status": "COMPLETED",
@@ -1024,7 +995,9 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/in
 
 ```json
 {
-    "Authorization": "Bearer ****************"
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
 }
 ```
 
@@ -1041,8 +1014,8 @@ _비어 있음_
 ```json
 {
     "id": "2892b936-e09e-455a-935f-e1462ab9753c",
-    "blueprintId": "4fae2b9d-d315-45f4-909f-a0c0d79fc65d",
-    "blueprintVersion": 1,
+    "environmentPromotionPackageId": "4fae2b9d-d315-45f4-909f-a0c0d79fc65d",
+    "environmentPromotionPackageVersion": 1,
     "userId": "8fbbc5bcf4f94a5b862483ee05573e73",
     "customerId": "54286d78b064451096752b99bf968481",
     "status": "COMPLETED",
