@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 4501594415c21deb2ff00afad05ca257266f656c
+source-git-commit: fdf53e84054a51ae7bcf2a888740c03171941f32
 workflow-type: tm+mt
-source-wordcount: '13192'
+source-wordcount: '13201'
 ht-degree: 1%
 
 ---
@@ -528,6 +528,7 @@ ht-degree: 1%
          * [레이아웃 템플릿에 대한 관리 액세스](administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
          * [레이아웃 템플릿에 사용자 할당](administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
          * [레이아웃 템플릿 복사](administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)
+         * [API 호출을 사용하여 클래식 레이아웃 템플릿 삭제](administration-and-setup/customize-workfront/use-layout-templates/delete-classic-layout-templates.md)
       * 사용자 정의 양식 {#custom-forms}
          * [사용자 정의 양식](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
          * [사용자 정의 양식 개요](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
