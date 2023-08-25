@@ -1,14 +1,9 @@
 ---
-product-area: reporting
-navigation-topic: other-blocks
 title: 보고 캔버스에서 웹 콘텐츠 블록 추가 또는 편집
 description: 웹 콘텐츠 블록을 사용하면 보고서 내에서 직접 외부 웹 사이트의 정보를 표시할 수 있습니다.
-author: Nolan
-feature: Reports and Dashboards
-exl-id: 29f0c2e1-1644-4989-81b1-c6db6bfec905
 hidefromtoc: true
 hide: true
-source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
+source-git-commit: 350d64577bac677bb0cc9bcb804c32b0301bc5d4
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 1%

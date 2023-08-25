@@ -1,15 +1,9 @@
 ---
-content-type: overview;reference
-product-area: reporting
-navigation-topic: reports-and-dashboards
 title: 보고 캔버스
 description: 이 섹션에는 다음 문서 - EDIT ME가 포함됩니다.
-author: Nolan
-feature: Reports and Dashboards
-exl-id: d82bb8a2-a2a6-43d6-a62e-e90f69229533
 hidefromtoc: true
 hide: true
-source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
+source-git-commit: 350d64577bac677bb0cc9bcb804c32b0301bc5d4
 workflow-type: tm+mt
 source-wordcount: '24'
 ht-degree: 0%

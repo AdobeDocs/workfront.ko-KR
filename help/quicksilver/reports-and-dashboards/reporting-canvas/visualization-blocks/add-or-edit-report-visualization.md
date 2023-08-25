@@ -1,12 +1,9 @@
 ---
 title: 보고 캔버스에서 시각화 블록 추가 또는 편집
 description: 보고 캔버스에서 시각화 블록 추가 또는 편집
-author: Nolan
-feature: Reports and Dashboards
-exl-id: 14750eb1-d0a3-42ea-bd2e-100b633322ff
 hidefromtoc: true
 hide: true
-source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
+source-git-commit: 350d64577bac677bb0cc9bcb804c32b0301bc5d4
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 1%

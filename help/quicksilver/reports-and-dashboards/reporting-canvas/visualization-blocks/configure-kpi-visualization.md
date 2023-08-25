@@ -1,12 +1,9 @@
 ---
 title: 보고 캔버스에서 KPI 시각화 구성
 description: 보고 캔버스에서 KPI 시각화 구성
-author: Nolan
-feature: Reports and Dashboards
-exl-id: 38beccf6-d7bc-478f-8bba-56607d315e6f
 hidefromtoc: true
 hide: true
-source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
+source-git-commit: 350d64577bac677bb0cc9bcb804c32b0301bc5d4
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 2%
