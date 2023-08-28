@@ -6,9 +6,9 @@ description: 타임시트에 대한 관리 액세스 권한이 있는 사용자�
 author: Alina
 feature: Timesheets
 exl-id: e6cffe81-ab45-4c34-aafe-2f947f9a67fd
-source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
+source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '817'
 ht-degree: 2%
 
 ---
@@ -111,6 +111,16 @@ ht-degree: 2%
      <tr> 
       <td role="rowheader"><strong>종료 일자</strong> </td> 
       <td> 타임시트의 종료 날짜입니다.</td> 
+     </tr>
+<tr> 
+      <td role="rowheader"><strong>상태</strong> </td> 
+      <td> 타임시트의 상태입니다.
+      다음은 가능한 타임시트 상태 옵션입니다. 
+      <ul><li><b>열기</b>: 타임시트가 열려 있으며 시간 항목을 편집할 수 있습니다.</li>
+      <li><b>제출됨</b>: 타임시트가 지정된 승인자에게 승인을 위해 제출됩니다.</li>
+      <li><b>거부됨</b>: 타임시트가 승인자에 의해 승인되지 않았으므로 사용자가 시간 항목을 편집할 수 있습니다.</li>
+      <li><b>종료됨</b>: 타임시트가 사용자에 의해 종료되거나 승인자에 의해 승인되어 현재 종료되었습니다. 종료된 타임시트에 시간을 추가할 수 없습니다.</li>
+   </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>승인자</strong> </td> 
@@ -127,4 +137,4 @@ ht-degree: 2%
     </tbody> 
    </table>
 
-1. 저장을 클릭합니다.
+1. **저장**&#x200B;을 클릭합니다.

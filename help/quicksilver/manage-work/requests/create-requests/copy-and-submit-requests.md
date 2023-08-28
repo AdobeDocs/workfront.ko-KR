@@ -6,9 +6,9 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
 workflow-type: tm+mt
-source-wordcount: '1346'
+source-wordcount: '1380'
 ht-degree: 2%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 2%
    <td role="rowheader">액세스 수준 구성*</td> 
    <td> <p>문제에 대한 액세스 편집</p> <p><b>메모</b>
 
-여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td>
+액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
@@ -120,6 +120,11 @@ ht-degree: 2%
 
 1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 상단에서 을(를) 클릭한 다음 **요청**.
 1. (조건부) 제출됨 섹션이 기본적으로 표시되지 않으면 **제출됨** 왼쪽 패널에서
+
+   >[!TIP]
+   >
+   >   Workfront 또는 그룹 관리자는 레이아웃 템플릿을 사용자 정의하고 주 메뉴 또는 사용자 환경의 왼쪽 패널에서 영역을 제거할 수 있습니다. 이 경우 사용하지 못할 수 있습니다.
+
 1. 새로 복사하여 제출할 요청을 찾은 후 다음 중 하나를 수행합니다.
 
    * 선택한 다음 를 클릭합니다. **복사** ![](assets/copy-and-submit-as-new-requests-area-nwe.png) 을 클릭합니다.
@@ -156,7 +161,7 @@ ht-degree: 2%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>주제</strong> </td> 
+      <td role="rowheader"><strong>제목</strong> </td> 
       <td>원래 요청의 이름을 표시합니다. 필요한 경우 업데이트합니다. 그렇지 않으면 Workfront에서 복사된 요청의 이름을 지정합니다 <b>다음의 사본 &lt;name of="" original="" request=""&gt;</b>. 필수 필드입니다.</td> 
      </tr> 
      <tr> 
@@ -209,11 +214,11 @@ ht-degree: 2%
       <td> <p>이 요청을 완료하는 데 걸리는 시간을 예상합니다.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>계획된 시작 일자</strong> </td> 
+      <td role="rowheader"><strong>계획된 시작 일자 기준</strong> </td> 
       <td> <p>이 요청에 대한 작업이 시작되어야 하는 날짜입니다.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>계획된 완료 일자</strong> </td> 
+      <td role="rowheader"><strong>계획된 완료 일자 기준</strong> </td> 
       <td>이 요청을 해결하고자 하는 날짜.</td> 
      </tr> 
      <tr> 

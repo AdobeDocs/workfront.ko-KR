@@ -6,9 +6,9 @@ description: Adobe Workfront 개체에 업데이트 설명을 제공하면 프�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 4b6d14559f776ed5484a67fcc5f461f154cc5e30
+source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1626'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # 업데이트에 다른 사용자 태그 지정
 
 <!--take "Beta" references out when we remove the beta and change "current" to "legacy" after October 26-->
+
+<!--take new commenting and legacy commenting out when we remove the legacy commenting and the new one is the only experience-->
 
 <span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>\
 <span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 활성화 또는 비활성화](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>
@@ -163,7 +165,12 @@ Workfront 개체에 업데이트를 추가하는 방법에 대한 자세한 내�
 
 다음과 같은 방법으로 새 댓글 달기 환경의 업데이트에 다른 사용자에게 태그를 지정할 수 있습니다.
 
-* **자동**: 사용자가 댓글 또는 답글을 추가하면 자동으로 태그가 지정되고 댓글 달기 상자의 사람 또는 팀 태그 영역에 추가됩니다.
+* **자동**: 사용자가 스레드를 시작하거나, 댓글을 추가하거나, 답글을 추가하면 자동으로 태그가 지정되고 댓글 달기 상자의 사람 또는 팀 태그 영역에 추가됩니다. <!--remove the tip below when the new commenting stream is the only stream and the legacy commenting is removed-->
+
+  >[!TIP]
+  >
+  >스레드가 레거시 댓글 달기 환경에서 시작되면 스레드 참여자에 자동으로 태그가 지정되지 않습니다.
+
 * **수동**: 댓글 달기 상자의 인물 태그 영역에 사용자를 수동으로 추가하는 경우.
 
 댓글을 편집하거나 답글을 달 때 실수로 태그가 지정된 사용자를 제거할 수도 있습니다.
@@ -213,3 +220,10 @@ Workfront 개체에 업데이트를 추가하는 방법에 대한 자세한 내�
    작업 항목을 업데이트할 때 사용할 수 있는 추가 기능에 대한 자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. (선택 사항) **자세히** 메뉴 ![](assets/more-menu.png) <span class="preview">주석의 오른쪽 상단</span>을 클릭한 다음 을 클릭합니다 **편집**. 태그된 사용자를 제거한 다음 **제출**. 댓글을 입력한 후 15분 이내에만 편집할 수 있습니다. 추가한 의견만 편집할 수 있습니다.
+
+   >[!TIP]
+   >
+   >기존 댓글 달기 경험을 사용하여 댓글과 댓글을 추가할 때 새로운 댓글 달기 경험을 사용하는 사람은 특별히 태그가 지정되지 않은 댓글 소유자를 수동으로 제거할 수 없습니다.
+
+
+
