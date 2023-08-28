@@ -8,9 +8,9 @@ author: Becky, Caroline
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 80e0bd0cd391372f48e8dddc4228fc431f54d052
+source-git-commit: d76dde079748e11949acd322dbe6a4400c0d4ca9
 workflow-type: tm+mt
-source-wordcount: '1573'
+source-wordcount: '1595'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
+
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
 
 >[!IMPORTANT]
 >
@@ -91,12 +93,12 @@ SharePoint의 문서를 새 페이지를 통해 연결하는 방법에 대한 �
 SharePoint으로 문서를 전송하려면 다음 작업을 수행하십시오.
 
 1. 다음을 클릭합니다. **전송 대상** 아이콘 ![전송 대상](assets/send-to-icon.png) SharePoint(Graph API)를 선택합니다.
-1. (선택 사항) 검색 창에서 문서를 보낼 사이트 또는 폴더를 검색합니다.
+1. <span class="preview">(선택 사항) 검색 창에서 문서를 보낼 사이트 또는 폴더를 검색합니다.</span>
 1. 목록에서 사이트 또는 폴더를 선택합니다.
 
-   * 사이트가 다음으로 표시됨 ![사이트 아이콘](assets/site-icon.png).
+   * <span class="preview">사이트가 다음으로 표시됨 ![사이트 아이콘](assets/site-icon.png).</span>
 
-   * 폴더가 다음으로 표시됨 ![폴더 아이콘](assets/folder-icon.png).
+   * <span class="preview">폴더가 다음으로 표시됨 ![폴더 아이콘](assets/folder-icon.png).</span>
 
    * 파일이 아이콘으로 표시되지 않습니다.
 
