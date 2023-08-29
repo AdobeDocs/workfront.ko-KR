@@ -6,9 +6,9 @@ description: 보드를 필터링하여 특정 카드만 표시할 수 있습니�
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
+source-git-commit: 44ced4ec8af150bc373699389bd63d150cc387f6
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '625'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,9 @@ ht-degree: 0%
 
 검색은 보드에서 특정 카드를 찾는 데에도 도움이 됩니다.
 
-필터를 적용하면 표시기가 보드에 표시됩니다 ![보드에 적용된 필터](assets/boards-filterapplied-30x30.png). 클릭 **[!UICONTROL 모두 지우기]** 보드에서 모든 필터를 제거하려면 **[!UICONTROL 필터 숨기기]** 필터 패널을 닫습니다.
+필터를 적용하면 표시기가 보드에 표시됩니다 ![보드에 적용된 필터](assets/boards-filterapplied-30x30.png). 클릭 **[!UICONTROL 모두 지우기]** 보드에서 모든 필터를 제거하려면 축소 아이콘을 클릭하여 필터 패널을 닫습니다.
 
-![필터 패널](assets/boards-all-filters-collapsed-1022.png)
+![필터 패널](assets/boards-all-filters-collapsed-0823.png)
 
 ## 액세스 요구 사항
 
