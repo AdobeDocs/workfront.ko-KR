@@ -5,9 +5,9 @@ title: Adobe Experience Manager Assets 통합
 description: 다음 Adobe Experience Manager Assets 통합으로 작업을 연결할 수 있습니다.
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: e03e6a3cacc8eb65764d86854a9847eb414aa340
+source-git-commit: 69f1ee95754207ea9e6bcaf8ee2d270a15c9fc6b
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1539'
 ht-degree: 0%
 
 ---
@@ -79,6 +79,7 @@ ht-degree: 0%
 
 1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘을 클릭한 다음 Adobe Workfront 오른쪽 위 모서리에 있는 **[!UICONTROL 설정]** .
 1. 선택 **[!UICONTROL 문서]** 왼쪽 패널에서 을 선택합니다. **[!UICONTROL [!DNL Experience Manager]통합]**.
+
    >[!NOTE]
    >
    >이 구성 영역은 [!DNL Workfront] 환경은 다음 아래에 포함됩니다. [!DNL Adobe Admin Console].
@@ -214,6 +215,8 @@ link to documentation about creating schema - waiting on response from Anuj abou
 ### 오브젝트 메타데이터 동기화
 
 An [!DNL Experience Manager] 매핑된 필드 [!DNL Workfront] 포트폴리오, 프로그램, 프로젝트, 작업, 문제 및 문서 필드는에서 필드가 변경되면 자동으로 업데이트됩니다. [!DNL Workfront].
+
+이 옵션을 활성화하면 Adobe Experience Manager로 푸시된 자산에는 문서의 Adobe Experience Manager 메타데이터의 실시간 보기를 표시하는 카드가 문서 세부 정보 페이지에 포함됩니다.
 
 >[!IMPORTANT]
 >
