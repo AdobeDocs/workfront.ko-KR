@@ -9,9 +9,9 @@ description: Adobe Workfront Fusion Adobe Workfront 커넥터를 사용하여 Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 3604e67309b76c4e0e8c3af1341b80a607b95d6f
+source-git-commit: 0810f2db8ef85b73de591649712580f23b72b5af
 workflow-type: tm+mt
-source-wordcount: '5428'
+source-wordcount: '5468'
 ht-degree: 3%
 
 ---
@@ -496,6 +496,14 @@ ht-degree: 3%
 </table>
 
 목록 보기 [!DNL Workfront] 에서 이 모듈을 사용할 수 있는 객체 유형 [[!DNL Workfront] object types available for each [!DNL Workfront] 모듈](#workfront-object-types-available-for-each-workfront-module).
+
+>[!NOTE]
+>
+>비동기 작업으로 인해 레코드가 삭제되지 않도록 다음 시나리오 구성을 권장합니다.
+>
+>1. 동기적으로 레코드를 삭제합니다.
+>1. 기록 삭제 모듈에 오류 처리를 추가하여 40초 시간 초과로 인해 발생한 오류를 무시합니다.
+
 
 +++
 
@@ -1689,7 +1697,7 @@ Workfront > 이벤트 보기 필터에서 다음 연산자를 사용할 수 있�
 * 보다 작음
 * 크거나 같음
 * 작거나 같음
-* 포함
+* 다음을 포함함
 * 있음
    * 이 연산자에는 값이 필요하지 않으며 값 필드가 없습니다.
 * 존재하지 않음
