@@ -7,14 +7,16 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
+source-git-commit: 3d1bf0ec9aa9156f6acdc12a3a7188eec76460d7
 workflow-type: tm+mt
-source-wordcount: '1976'
+source-wordcount: '1994'
 ht-degree: 2%
 
 ---
 
 # 새로운 댓글 달기 경험 릴리스 활동
+
+<!--take the badge out when it comes to production GA for everyone-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
@@ -77,13 +79,15 @@ ht-degree: 2%
 
 시스템 활동 탭의 시스템 업데이트에는 변경 사항이 적용되지 않습니다.
 
-미리보기 및 프로덕션: 2023년 8월 24일
+모든 고객을 위한 미리보기 및 프로덕션: 2023년 8월 24일
 
 ### 2023년 8월 14일 주
 
 [2023년 8월 14일이 있는 주에 릴리스된 모든 기능에 대한 비디오 데모를 확인하십시오](https://video.tv.adobe.com/v/3422912/){target=_blank}
 
 #### 추가 오브젝트에 대한 새로운 댓글 달기 환경
+
+[!BADGE Fast Release를 위한 프로덕션]{type=Positive}
 
 새로운 주석 달기 환경은 23.3 프로덕션 릴리스 직후 다음 오브젝트(템플릿 작업, 템플릿, 타임시트, 팀, 사용자, 프로그램, 포트폴리오)에 대해 사용할 수 있습니다.
 
@@ -98,6 +102,8 @@ ht-degree: 2%
 모든 고객을 위한 프로덕션 릴리스: 23.10 릴리스 포함(2023년 10월)
 
 #### 새 댓글 스트림에 대한 새 디자인 업데이트
+
+[!BADGE Fast Release를 위한 프로덕션]{type=Positive}
 
 새로운 주석 처리 스트림을 재설계하여 보다 업데이트된 디자인을 제공했습니다. 몇 가지 개선 사항은 다음과 같습니다.
 
@@ -122,6 +128,8 @@ ht-degree: 2%
 분기별 릴리스 프로덕션: 23.10 릴리스 포함(2023년 10월)
 
 #### 새 댓글 달기 환경은 프로젝트, 작업, 문제 및 문서에 대한 기본 경험입니다
+
+[!BADGE Fast Release를 위한 프로덕션]{type=Positive}
 
 새 댓글 달기 경험을 프로젝트, 작업, 문제 및 문서 개체에 대한 기본 경험으로 만들고 있습니다.  이러한 오브젝트에 액세스할 때 기존 댓글 달기 경험이 대체 옵션으로 유지됩니다.
 
