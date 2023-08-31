@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: fdf53e84054a51ae7bcf2a888740c03171941f32
+source-git-commit: db4d0e82f0f12d4e8c210565231a6f6569d7d90c
 workflow-type: tm+mt
-source-wordcount: '13201'
+source-wordcount: '13214'
 ht-degree: 1%
 
 ---
@@ -528,7 +528,7 @@ ht-degree: 1%
          * [레이아웃 템플릿에 대한 관리 액세스](administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
          * [레이아웃 템플릿에 사용자 할당](administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
          * [레이아웃 템플릿 복사](administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)
-         * [API 호출을 사용하여 클래식 레이아웃 템플릿 삭제](administration-and-setup/customize-workfront/use-layout-templates/delete-classic-layout-templates.md)
+         * [API 호출을 사용하여 클래식 레이아웃 템플릿을 삭제합니다](administration-and-setup/customize-workfront/use-layout-templates/delete-classic-layout-templates.md)
       * 사용자 정의 양식 {#custom-forms}
          * [사용자 정의 양식](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
          * [사용자 정의 양식 개요](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
@@ -1099,6 +1099,7 @@ ht-degree: 1%
          * [Experience Manager Assets 또는 Assets Essentials에게 문서 보내기](documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
          * [Experience Manager Assets 또는 Asset Essentials에 대해 연결된 에셋 증명](documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
          * [Experience Manager Assets 또는 Assets Essentials과 연결된 폴더 만들기](documents/adobe-workfront-for-experience-manager-assets-essentials/create-linked-folder.md)
+         * [Experience Manager Assets 또는 Assets Essentials에서 에셋 및 폴더 연결 해제 또는 삭제](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/unlink-or-delete-aem-assets.md)
          * [Experience Manager Assets Essentials 통합에서 워크플로우 사용](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)
          * [Adobe Experience Manager 통합 문제 해결](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
    * 레거시 또는 향상된 커넥터에서 마이그레이션 {#migrate-from-legacy-enhanced-connectors}
