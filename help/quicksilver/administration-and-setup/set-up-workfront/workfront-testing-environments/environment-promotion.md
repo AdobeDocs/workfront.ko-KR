@@ -10,7 +10,7 @@ feature: System Setup and Administration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: f886c67c80439e2e8158c4616479ffabaa53c3d3
+source-git-commit: b0142b75e507081ebfb6ce700f37d5c287c72cde
 workflow-type: tm+mt
 source-wordcount: '2334'
 ht-degree: 3%
@@ -839,7 +839,7 @@ Deleted
 #### URL
 
 ```
-POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/translationmap
+POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages/:id/prepare-installation
 ```
 
 #### 헤더
@@ -891,14 +891,14 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/t
 
 #### 옵션
 
-다음과 같은 경우 `translationmap` 이(가) POST 본문에 제공되지 않으면 프로세스가 자동으로 `/translationmap` 호출합니다. 다음 `translationmap` 반환된 콘텐츠는 그대로 사용되며, 검토하거나 조정할 기회가 없습니다.
+다음과 같은 경우 `translationmap` 이(가) POST 본문에 제공되지 않으면 프로세스가 자동으로 `/prepare-installation` 호출합니다. 다음 `translationmap` 반환된 콘텐츠는 그대로 사용되며, 검토하거나 조정할 기회가 없습니다.
 
 다음과 같은 경우 `translationmap` 은 POST 본문에 제공되고, 설치 프로세스는 제공된 매핑을 사용합니다. 따라서 설치 사용자는 설치 시도를 실행하기 전에 필요에 따라 검토하고 조정할 수 있습니다.
 
 #### URL
 
 ```
-POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/install
+POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/installations/{id}/install
 ```
 
 #### 헤더
@@ -954,7 +954,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/i
 #### URL
 
 ```
-GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1v1/installations?environmentPromotionPackageId={environmentPromotionPackageId}
+GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/installations?environmentPromotionPackageId={environmentPromotionPackageId}
 ```
 
 #### 헤더
