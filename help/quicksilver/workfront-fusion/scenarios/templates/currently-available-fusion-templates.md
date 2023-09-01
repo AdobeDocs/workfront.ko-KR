@@ -7,9 +7,9 @@ description: 현재 Adobe Workfront Fusion에서 사용할 수 있는 공용 템
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 3897606db8a80d04a3b8d8f0cba69365ceb86c17
+source-git-commit: 2211431b4c4e3d751519fe8441cfa578e713ac77
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '866'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,13 @@ ht-degree: 0%
 
 이러한 템플릿은 Workfront 프로세스 및 워크플로를 자동화합니다.
 
-### Workfront - 프로그램 사용자 지정 Forms 및 필드 데이터를 연결된 새 프로젝트에 복사
+### [!BADGE 신규!]{type=Informative}
 
 이 자동화는 사용자 정의 양식이 있는 프로그램의 새 프로젝트를 감시합니다. 그런 다음 해당 프로그램 사용자 정의 양식 및 필드를 새 프로젝트에 추가합니다.
+
+### [!BADGE 신규!]{type=Informative}
+
+이 자동화는 사용자 정의 양식으로 포트폴리오의 새 프로젝트를 감시합니다. 그런 다음 해당 포트폴리오 사용자 정의 양식 및 필드를 새 프로젝트에 추가합니다.
 
 ### Workfront - 승인된 문제를 프로젝트로 전환
 
@@ -54,7 +58,7 @@ ht-degree: 0%
 
 이 템플릿은 포트폴리오로 필터링된 프로젝트에 대해 매주 월요일 오전 6시(ET 기준)에 프로젝트 기준선을 캡처하고 로깅을 위해 업데이트 스트림에 업데이트를 만듭니다.
 
-### 정책 시간에 사용되지 않는 프로젝트 템플릿을 찾아 알림
+### [!BADGE 신규!]{type=Informative}
 
 한 달에 한 번, 자체 정책을 사용하여 프로젝트 템플릿을 검토하십시오. 이를 통해 손쉽게 관리할 수 있습니다. 템플릿을 사용하면 정책을 위반하는 템플릿에 대해 적절한 사용자에게 알릴 수 있습니다.
 
