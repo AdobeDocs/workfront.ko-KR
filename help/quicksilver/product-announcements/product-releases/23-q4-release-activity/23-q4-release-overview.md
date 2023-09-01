@@ -3,9 +3,9 @@ title: 2023년 4분기 릴리스 개요
 description: 2023년 4분기 릴리스 개요
 author: Becky
 feature: Product Announcements
-source-git-commit: c23586101f1d4d44598a55793fd6cb9247e1b796
+source-git-commit: 0ea724f63729822ec2ab60b14f83264a36727fbf
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1678'
 ht-degree: 0%
 
 ---
@@ -168,7 +168,7 @@ ht-degree: 0%
                                 <p>미리보기 릴리스: 8월 24일<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">모든 고객을 위한 프로덕션: 2023년 8월 31일</span>
+                                <p><span class="preview">모든 고객을 위한 프로덕션: 2023년 8월 31일</span></p>
                             </li>
                         </ul>
                     </td>
@@ -183,7 +183,7 @@ ht-degree: 0%
                                 <p>미리보기 릴리스: 8월 24일<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">모든 고객을 위한 프로덕션: 2023년 8월 31일</span>
+                                <p><span class="preview">모든 고객을 위한 프로덕션: 2023년 8월 31일</span></p>
                             </li>
                         </ul>
                     </td>
@@ -418,10 +418,7 @@ ht-degree: 0%
                                 <p>미리보기 릴리스: 2023년 8월 17일<br /></p>
                             </li>
                             <li>
-                                <p>빠른 릴리스를 위한 프로덕션: 23.8 릴리스 포함</p>
-                            </li>
-                            <li>
-                                <p>분기별 릴리스 프로덕션: 23.10 릴리스 포함</p>
+                                <p><span class="preview">모든 고객을 위한 프로덕션: 2023년 8월 31일</span></p>
                             </li>
                         </ul>
                     </td>
