@@ -7,9 +7,9 @@ description: 객체의 업데이트 섹션에는 사용자가 객체에 대해 �
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 5b9ee4d5d792d78f127f88bac3a0e4fea5cdf788
+source-git-commit: 096d4a50ae4c392f149d4dd54b19c6f1c86c5b1b
 workflow-type: tm+mt
-source-wordcount: '1174'
+source-wordcount: '1189'
 ht-degree: 4%
 
 ---
@@ -142,14 +142,12 @@ The Updates section of an object displays comments that users make on the object
    * **댓글**: 사용자가 작성한 댓글과 해당 댓글에 대한 답글을 표시합니다. 새 댓글 달기 환경에서 오브젝트를 업데이트하는 방법에 대한 자세한 내용은 [작업 업데이트](../updating-work-items-and-viewing-updates/update-work.md).
    * **시스템 활동**: Workfront이 개체에 특정 이벤트를 기록하기 위해 만드는 정보 메시지인 시스템 업데이트를 표시합니다. 예를 들어 시스템 업데이트를 통해 상태, 이름 또는 사용자 정의 필드의 변경 사항을 캡처할 수 있습니다. Workfront 또는 그룹 관리자가 개체에 대한 시스템 업데이트를 활성화할 수 있습니다. 자세한 내용은 [시스템 업데이트 구성](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-  <!--enable this when we release the new update stream to ALL other objects and only if Anna's bug was fixed to include this - on or before October 2023: 
+      * 다음 개체에는 시스템 활동 탭이 없습니다.
 
-  * The following objects don't have a System Activity tab:
-
-  * Team
-  * Template
-  * Template Task
-    -->
+         * 팀
+         * 템플릿
+         * 템플릿 작업
+         * 임시 카드
 
 * 현재 다음 개체에 대한 새 댓글 달기 환경을 사용하여 댓글을 추가하고 업데이트에 답글을 달 수 있습니다.
 
