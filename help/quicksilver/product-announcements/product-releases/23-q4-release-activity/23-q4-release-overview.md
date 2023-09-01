@@ -3,9 +3,9 @@ title: 2023년 4분기 릴리스 개요
 description: 2023년 4분기 릴리스 개요
 author: Becky
 feature: Product Announcements
-source-git-commit: eb337ec6b467cd4f52d852dc90975c0679ef59fe
+source-git-commit: c23586101f1d4d44598a55793fd6cb9247e1b796
 workflow-type: tm+mt
-source-wordcount: '1635'
+source-wordcount: '1687'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 0%
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">보드 및 카드의 사용자 할당 개선 사항</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p><p>이제 Adobe Workfront 보드의 보드 및 카드에 사용자를 추가할 때 유연성을 더하는 개선 사항이 제공됩니다.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">보드 및 카드의 사용자 할당 개선 사항</a></p><p>이제 Adobe Workfront 보드의 보드 및 카드에 사용자를 추가할 때 유연성을 더하는 개선 사항이 제공됩니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
@@ -127,6 +127,9 @@ ht-degree: 0%
                             <li>
                                 <p>미리보기 릴리스: 2023년 8월 3일</p>
                             </li>
+                            <li>
+                                <p>조기 액세스 보드에 대한 프로덕션: 해당 사항 없음</p>
+                            </li>
                              <li>
                                 <p>빠른 릴리스를 위한 프로덕션: 해당 사항 없음</p>
                             </li>
@@ -157,7 +160,7 @@ ht-degree: 0%
                  </tr>  
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">SharePoint(GraphAPI)로 문서를 전송할 때의 경험 개선 사항</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span> </p><p>SharePoint(GraphAPI) 폴더로 문서를 보낼 때 폴더를 더 쉽게 찾을 수 있도록 몇 가지 사항이 변경되었습니다</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">SharePoint(GraphAPI)로 문서를 전송할 때의 경험 개선 사항</a></p><p>SharePoint(GraphAPI) 폴더로 문서를 보낼 때 폴더를 더 쉽게 찾을 수 있도록 몇 가지 사항이 변경되었습니다</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
@@ -165,17 +168,14 @@ ht-degree: 0%
                                 <p>미리보기 릴리스: 8월 24일<br /></p>
                             </li>
                             <li>
-                                <p>빠른 릴리스를 위한 프로덕션: TBD</p>
-                            </li>
-                            <li>
-                                <p>분기별 릴리스: TBD</p>
+                                <p><span class="preview">모든 고객을 위한 프로덕션: 2023년 8월 31일</span>
                             </li>
                         </ul>
                     </td>
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">문서 통합을 위한 드래그 앤 드롭으로 업그레이드</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span> </p><p>파일을 연결된 폴더로 드래그 앤 드롭할 때 명확성을 추가하고 사용자 오류를 제거하는 몇 가지 개선 사항이 있습니다.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">문서 통합을 위한 드래그 앤 드롭으로 업그레이드</a></p><p>파일을 연결된 폴더로 드래그 앤 드롭할 때 명확성을 추가하고 사용자 오류를 제거하는 몇 가지 개선 사항이 있습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
@@ -183,10 +183,7 @@ ht-degree: 0%
                                 <p>미리보기 릴리스: 8월 24일<br /></p>
                             </li>
                             <li>
-                                <p>빠른 릴리스를 위한 프로덕션: TBD</p>
-                            </li>
-                            <li>
-                                <p>분기별 릴리스: TBD</p>
+                                <p><span class="preview">모든 고객을 위한 프로덕션: 2023년 8월 31일</span>
                             </li>
                         </ul>
                     </td>
@@ -213,8 +210,10 @@ ht-degree: 0%
                  </tr>  
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-26.md" class="MCXref xref" xrefformat="{para}">프로젝트에 새 문제를 추가할 때 디자인이 업데이트됨</a> </p><p>이 업데이트는 23.3 릴리스와 함께 발표되었습니다.
-                        <p>프로젝트에 새 문제를 제출할 때 표시되는 새 문제 상자를 업데이트했습니다. 이제 인터페이스는 요청 대기열에 새 요청을 제출할 때 표시되는 새 요청 상자와 일치합니다.  </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-26.md" class="MCXref xref" xrefformat="{para}">프로젝트에 새 문제를 추가할 때 디자인이 업데이트됨</a> </p>
+                        <p>[!BADGE In Production for Fast Release ]{type=Positive}</p>
+                        <p>이 업데이트는 23.3 릴리스와 함께 발표되었습니다.</p>
+                        <p>프로젝트에 새 문제를 제출할 때 표시되는 새 문제 상자를 업데이트했습니다. 이제 인터페이스는 요청 대기열에 새 요청을 제출할 때 표시되는 새 요청 상자와 일치합니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
@@ -232,7 +231,8 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">양식의 계산된 필드 동적 재계산</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">양식의 계산된 필드 동적 재계산</a></p>
+                        <p>[!BADGE In Production for Fast Release ]{type=Positive}</p>
                         <p>이제 페이지의 모든 양식에 대한 종속 값이 수정되면 개체에 첨부된 양식의 계산된 필드가 실시간으로 동적으로 다시 계산됩니다. 이렇게 하면 양식을 저장하지 않고도 업데이트된 결과를 볼 수 있습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -252,6 +252,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">할당이 없는 단순 기간 유형의 하위 반복 작업에 대해 계획된 시간 설정</a></p>
+                        <p>[!BADGE In Production for Fast Release ]{type=Positive}</p>
                         <p>할당이 없고 간단한 기간 유형이 있는 반복 작업에 계획된 시간이 할당되는 방식을 변경했습니다. 이제, 단순 기간 유형이 있고 할당이 없는 새 반복 작업에 대해 계획된 시간을 설정하면 해당 시간이 개별 반복에도 할당됩니다. 이 변경 이전에는 상위 작업이 할당 해제된 경우 개별 반복에 대한 시간이 저장되지 않았습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -349,6 +350,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md" class="MCXref xref" xrefformat="{para}">새로운 주석 달기 경험 Beta 개선 사항</a> </p>
+                        <p>[!BADGE In Production for Fast Release ]{type=Positive}</p>
                         <p>업데이트 섹션의 개선 사항은 2023년 4분기 릴리스 일정 내에 주석 달기 경험 Beta에 제공될 예정입니다. 이러한 개선 사항은 2023년 4분기 릴리스(2023년 10월)를 사용하는 모든 고객을 위한 프로덕션 환경에서 사용할 수 있습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -368,6 +370,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md" class="MCXref xref" xrefformat="{para}">새로운 캔버스 대시보드 Beta 개선 사항</a> </p>
+                        <p>[!BADGE In Production for Fast Release ]{type=Positive}</p>
                         <p>캔버스 대시보드에 대한 개선 사항은 2023년 4분기 릴리스 일정 내에 진행 중인 베타의 일부로 사용할 수 있습니다. 이러한 개선 사항은 2023년 4분기 릴리스(2023년 10월)를 사용하는 모든 고객을 위한 프로덕션 환경에서 사용할 수 있습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -387,6 +390,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">새 홈에 대한 새 필터 옵션</a> </p>
+                        <p>[!BADGE In Production for Fast Release ]{type=Positive}</p>
                         <p>이제 새 홈의 내 작업 위젯에 새 필터 옵션을 사용할 수 있습니다. 옵션에는 오브젝트 유형(작업, 문제 및 요청)과 상태(준비되지 않음, 시작 준비, 작업 중 및 완료)에 대한 필터가 포함됩니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -425,6 +429,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">새 홈 시도 단추가 새 홈을 비활성화한 계정에 대해 제거됨</a> </p>
+                        <p>[!BADGE In Production for Fast Release ]{type=Positive}</p>
                         <p>새 홈을 사용하지 않도록 설정한 계정의 경우 새 홈 시도 버튼이 더 이상 없습니다. 개별 사용자가 버튼을 사용하여 새 홈을 시도할 수 있으려면 시스템 관리자가 새 홈을 다시 활성화해야 합니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -444,6 +449,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">새 홈 기본 위젯 집합으로 변경</a> </p>
+                        <p>[!BADGE In Production for Fast Release ]{type=Positive}</p>
                         <p>작업을 만들 수 있는 권한이 필요한 할 일 위젯은 이제 표준, 계획 또는 작업 라이선스 유형을 가진 사용자에 대해 설정된 기본 위젯에만 표시됩니다. 또한 위젯은 다른 모든 라이선스 유형을 사용하는 사용자의 홈 페이지에서 자동으로 제거되었습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
