@@ -6,9 +6,9 @@ description: 다음을 설치할 수 있습니다. [!DNL Adobe Workfront for des
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 66186bb8af14e7ce86b3fb5e8bb1b07fe32dca7a
+source-git-commit: 78a6cee213887c72aedc14bbb4552f28fc27625d
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '547'
 ht-degree: 1%
 
 ---
@@ -71,6 +71,8 @@ ht-degree: 1%
 다음과 같은 경우 [!DNL Adobe Admin Console] 관리자, 다음을 포함할 수 있습니다. [!DNL Adobe Workfront for design and video] 위치: [!DNL Creative Cloud] 배포 패키지. 자세한 내용은 [패키지에 플러그인 포함](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
 
 [여기서 비디오 튜토리얼 보기](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
+
+[!DNL Adobe Admin Console] 관리자는 사용자에게 배포할 플러그인 전용 패키지를 만들 수도 있습니다. 자세한 내용은 [[!UICONTROL 만들기 [!DNL Adobe Workfront] 대상 [!DNL Creative Cloud]] 에서 사용자를 위한 패키지 [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
 
 ## 설치 [!DNL Workfront for design and video] 개별적으로
 
