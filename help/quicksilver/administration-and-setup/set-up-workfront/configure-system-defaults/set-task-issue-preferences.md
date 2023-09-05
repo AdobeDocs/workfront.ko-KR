@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: db0891e0c607b9297d4fcd6b48916b47e8a0b990
+source-git-commit: ca3ded2d18f369a0859efce49d185fa0de4cf54f
 workflow-type: tm+mt
-source-wordcount: '2103'
+source-wordcount: '2105'
 ht-degree: 1%
 
 ---
@@ -86,7 +86,7 @@ Linked to Converting Issues.-->
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Revenue Type]</td> 
-   <td> <p>작업에 대한 계획 및 실제 수익 추정치를 계산합니다. 다음의 경우 <strong>[!UICONTROL Revenue Type]</strong> 이(가) (으)로 설정됨<strong>[!UICONTROL 청구 불가]</strong>, 계획된 시간 및 기록된 실제 시간은 작업에 대한 매출 추정치를 생성하지 않으며, 작업에 대한 작업이 프로젝트 수준 매출에 기여하지 않습니다.</p> </td> 
+   <td> <p>작업에 대한 계획 및 실제 수익 추정치를 계산합니다. 다음의 경우 <strong>[!UICONTROL Revenue Type]</strong> 이(가) (으)로 설정됨 <strong>[!UICONTROL 청구 불가]</strong>, 계획된 시간 및 기록된 실제 시간은 작업에 대한 매출 추정치를 생성하지 않으며, 작업에 대한 작업이 프로젝트 수준 매출에 기여하지 않습니다.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 비용 유형]</td> 
@@ -118,7 +118,7 @@ Linked to Converting Issues.-->
         <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">문제에 대한 액세스 권한 부여</a> </p> </li> 
         <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">문제 공유 </a> </p> </li> 
        </ul> </p> </li> 
-     <li><strong>[!UICONTROL 기본 담당자가 작업에 액세스할 수 있도록 허용]</strong>: 기본 담당자(문제 작성자)에게 작업을 검토하고 진행 상황을 계속 알려주며 작업의 업데이트 섹션에 댓글을 달 수 있는 작업에 대한 액세스 권한을 제공합니다.</li> 
+     <li><strong>[!UICONTROL 기본 담당자가 작업에 액세스할 수 있도록 허용]</strong>: 기본 담당자(문제 작성자)에게 작업을 검토하고 진행 상황을 계속 알려주며 작업의 업데이트 섹션에 댓글을 달 수 있는 작업에 대한 보기 액세스 권한을 제공합니다.</li> 
      <li> <p><strong>[!UICONTROL 전환 중에 이러한 설정을 변경할 수 있도록 허용]</strong>: 문제를 작업으로 변환하는 동안 문제를 전환하는 사용자가 이러한 옵션을 변경할 수 있습니다.</p> <!--
        Screenshot when possible</p>
       --> </li> 
@@ -133,7 +133,7 @@ Linked to Converting Issues.-->
         <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">문제에 대한 액세스 권한 부여</a> </p> </li> 
         <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">문제 공유 </a> </p> </li> 
        </ul> </p> </li> 
-     <li><strong>[!UICONTROL 기본 담당자가 프로젝트에 액세스할 수 있도록 허용]</strong>: 기본 담당자(문제 작성자)에게 프로젝트에 대한 액세스 권한을 부여하여 프로젝트를 검토하고 진행 상황을 계속 알려주며 프로젝트의 업데이트 섹션에 주석을 달 수 있습니다.</li> 
+     <li><strong>[!UICONTROL 기본 담당자가 프로젝트에 액세스할 수 있도록 허용]</strong>: 기본 담당자(문제 작성자)에게 프로젝트에 대한 보기 액세스 권한을 제공하여 프로젝트를 검토하고 진행 상황을 계속 알려주며 프로젝트의 업데이트 섹션에 주석을 달 수 있습니다.</li> 
      <li><strong>[!UICONTROL 전환 중에 이러한 설정을 변경할 수 있도록 허용]</strong>: 문제를 프로젝트로 전환하는 사용자가 문제 전환 중 나열된 옵션을 변경할 수 있습니다.</li> 
     </ul> </td>
   </tr> 
@@ -234,7 +234,7 @@ I have not had a chance to follow up with customers to verify if this is still a
    <td role="rowheader">[!UICONTROL 누군가가 작업에 할당되었을 때]</td> 
    <td> 
     <ul> 
-     <li><strong>[!UICONTROL 사용자에게 ... 작업에 대한 액세스 권한 부여]</strong>: 할당된 작업에 대한 사용자의 기본 권한을 정의합니다. 작업 권한에 대한 자세한 내용은<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">사용자에게 액세스 권한 부여</a>.</li> 
+     <li><strong>[!UICONTROL 사용자에게 ... 작업에 대한 액세스 권한 부여]</strong>: 할당된 작업에 대한 사용자의 기본 권한을 정의합니다. 작업 권한에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">사용자에게 액세스 권한 부여</a>.</li> 
      <li> <p><strong>[!UICONTROL 프로젝트에 대한 액세스 권한도 부여]</strong>: 작업이 할당된 프로젝트에 대해 사용자가 갖는 기본 권한을 정의합니다. 프로젝트 권한에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">시스템 전체 프로젝트 환경 설정 구성</a>.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -242,7 +242,7 @@ I have not had a chance to follow up with customers to verify if this is still a
    <td role="rowheader">[!UICONTROL 누군가가 문제에 할당되었을 때]</td> 
    <td> 
     <ul> 
-     <li><strong>[!UICONTROL 사용자에게 ... 작업에 대한 액세스 권한 부여]</strong>: 할당된 작업에 대한 사용자의 기본 권한을 정의합니다. 작업 권한에 대한 자세한 내용은<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">사용자에게 액세스 권한 부여</a>.</li> 
+     <li><strong>[!UICONTROL 사용자에게 ... 작업에 대한 액세스 권한 부여]</strong>: 할당된 작업에 대한 사용자의 기본 권한을 정의합니다. 작업 권한에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">사용자에게 액세스 권한 부여</a>.</li> 
      <li> <p><strong>[!UICONTROL 프로젝트에 대한 액세스 권한도 부여]</strong>: 작업이 할당된 프로젝트에 대해 사용자가 갖는 기본 권한을 정의합니다. 프로젝트 권한에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">시스템 전체 프로젝트 환경 설정 구성</a>.</p> </li> 
     </ul> </td> 
   </tr> 
