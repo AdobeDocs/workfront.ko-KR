@@ -6,9 +6,9 @@ description: Adobe Workfront 개체(프로젝트, 작업 또는 문제)에 업�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
+source-git-commit: bdbb970aa0bb49fe9e69a15f93c96609eb2c1bfe
 workflow-type: tm+mt
-source-wordcount: '3521'
+source-wordcount: '3550'
 ht-degree: 1%
 
 ---
@@ -218,6 +218,7 @@ drafted for P&P release:
       <td> <p>회사 외부의 사용자가 이 업데이트를 볼 수 있는 액세스 권한을 보유하지 못하도록 하려면 이 옵션을 비활성화하십시오.</p> 
       <p><b>메모</b></p>
       <p>이 옵션은 사용자가 회사와 연결되어 있을 때만 표시됩니다.</p>
+      <p>이 옵션은에서 업데이트를 추가할 수 있는 모든 영역에서 사용할 수 없습니다. 예를 들어에서 업데이트를 추가할 수 있는 서드파티 애플리케이션에서는 사용할 수 없습니다. </p>
       </td> 
      </tr> 
     </tbody> 
