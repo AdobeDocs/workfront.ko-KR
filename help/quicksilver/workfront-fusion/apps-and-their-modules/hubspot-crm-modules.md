@@ -4,9 +4,9 @@ description: 다음 [!DNL Adobe Workfront Fusion] HubSpot CRM 모듈을 사용�
 author: Becky
 feature: Workfront Fusion
 exl-id: d58e0c12-a798-495c-8f88-fbf2a532f8a4
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 5bb394c2fffb4426d66a8b144802db8f7c97afe1
 workflow-type: tm+mt
-source-wordcount: '2533'
+source-wordcount: '2582'
 ht-degree: 0%
 
 ---
@@ -730,6 +730,19 @@ ID로 기존 티켓을 삭제합니다.
 ### [!UICONTROL API 호출 만들기]
 
 사용자 지정 API 호출을 수행할 수 있습니다.
+
+>[!NOTE]
+>
+>다음 엔드포인트는 2023년 8월 31일에 HubSpot API에서 더 이상 사용되지 않으며 Fusion 모듈에서 더 이상 사용할 수 없습니다.
+>
+>* 콘텐츠 이벤트 나열
+>* 소셜 이벤트 나열
+>* 달력 작업 이벤트 나열
+>* 모든 캘린더 이벤트 나열
+>* 캘린더 작업 만들기
+>* ID별 캘린더 작업 가져오기
+>* 캘린더 작업 업데이트
+>* 캘린더 작업 삭제
 
 <table style="table-layout:auto"> 
  <col> 
