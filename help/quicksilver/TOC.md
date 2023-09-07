@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 78a6cee213887c72aedc14bbb4552f28fc27625d
+source-git-commit: 01f91f31cf97ece80d7f7b98a96e846b4c8ad914
 workflow-type: tm+mt
-source-wordcount: '13223'
+source-wordcount: '13232'
 ht-degree: 1%
 
 ---
@@ -132,6 +132,7 @@ ht-degree: 1%
          * [21.1 기타 개선 사항](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Fusion 릴리스 활동 {#fusion-release}
          * [Adobe Workfront Fusion 릴리스 활동](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+         * [Workfront Fusion 릴리스 활동: 2023년 9월 1일 주](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-9-1.md)
          * [Workfront Fusion 릴리스 활동: 2023년 8월 21일 주](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-8-21.md)
          * [Workfront Fusion 릴리스 활동: 2023년 8월 7일 주](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-8-7.md)
          * [Workfront Fusion 릴리스 활동: 2023년 7월 10일이 있는 주](product-announcements/product-releases/fusion-release-activity/fusion-2023-7-10.md)
@@ -2004,6 +2005,7 @@ ht-degree: 1%
       * [Adobe Workfront Fusion의 연결](workfront-fusion/connections/connections.md)
       * [앱 또는 서비스에 Adobe Workfront Fusion 연결 정보](workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md)
       * [Adobe Workfront Fusion에서 연결 만들기](workfront-fusion/connections/connection-instruction-toc.md)
+      * [연결 메타데이터](/help/quicksilver/workfront-fusion/connections/connection-metadata.md)
       * [Adobe Workfront Fusion에 대한 연결 만들기 - 기본 지침](workfront-fusion/connections/connect-to-fusion-general.md)
       * [모든 웹 서비스에 Adobe Workfront Fusion 연결](workfront-fusion/connections/connect-wf-fusion-to-any-web-service.md)
       * [API 토큰 인증을 사용하는 웹 서비스에 Adobe Workfront Fusion 연결](workfront-fusion/connections/connect-wf-web-service-uses-api-token-auth.md)
