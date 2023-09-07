@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: e05ecf25ec5a6102c42a405116488752f87cc3b1
+source-git-commit: 68c3a66a91f4c0936d256398b5d30518226396a6
 workflow-type: tm+mt
-source-wordcount: '2334'
+source-wordcount: '2346'
 ht-degree: 3%
 
 ---
@@ -177,7 +177,7 @@ SessionID: abc1234
 >
 >배열의 각 항목에는 `objCode` Workfront API 탐색기에 문서화된 개체 코드에 해당하는 키입니다.
 >
->각 항목에는 `entities` 컬렉션. 이는 다음을 예상합니다. `ID` 및 `name` 표시할 키.
+>각 항목에는 `entities` 컬렉션. 이는 다음을 예상합니다. `ID` 필드. 선택 사항도 사용할 수 있습니다 `name` 을(를) 보다 쉽게 알 수 있도록 하는 속성 `ID` 를 나타냅니다.
 >
 >에서 요청할 수 있는 개체 코드 목록 `objectCollections` list, see the [환경 프로모션을 위해 지원되는 오브젝트](#supported-objects-for-environment-promotion) 이 문서의 섹션.
 
