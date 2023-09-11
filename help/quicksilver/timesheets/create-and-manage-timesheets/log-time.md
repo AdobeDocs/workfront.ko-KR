@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 4b6d14559f776ed5484a67fcc5f461f154cc5e30
+source-git-commit: ecbba9b1da674328df866ec30e48fe44dd02cb86
 workflow-type: tm+mt
-source-wordcount: '3409'
+source-wordcount: '3470'
 ht-degree: 0%
 
 ---
@@ -99,6 +99,7 @@ Workfront에 로그인할 수 있는 시간 유형에 대한 자세한 내용은
 * 타임시트에는 기록된 모든 날짜에 대한 총 시간이 포함됩니다. 에 설명된 대로 타임라인 계산이 주말을 제외하도록 구성된 경우에도 주말은 항상 포함됩니다 [시스템 전체 프로젝트 환경 설정 구성](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)).
 * 타임시트에 표시되는 최대 항목 수는 45개입니다. 일자가 타임시트 시간대와 일치하는 항목이 45개를 초과하는 경우 가장 최근에 업데이트된 항목만 표시됩니다.
 * 청구된 청구 기록에 포함된 시간 항목은 흐리게 표시되어 타임시트에서 편집할 수 없습니다. 자세한 내용은 [청구 기록 만들기](../../manage-work/projects/project-finances/create-billing-records.md).
+* 개인 작업은 기본적으로 타임시트에 표시되지 않습니다. 개인 작업은 시간이 기록된 경우에만 타임시트에 표시됩니다. 개인 작업에 시간을 기록한 후 작업을 타임시트에 고정할 수 있으며 고정된 상태로 유지되면 타임시트에 유지됩니다. 자세한 내용은 [홈 영역에서 작업 항목 만들기](../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
 ## 로그 시간
 

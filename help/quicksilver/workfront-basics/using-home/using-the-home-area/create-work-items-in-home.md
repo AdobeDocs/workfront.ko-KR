@@ -6,9 +6,9 @@ description: 홈 영역에서 작업 항목 만들기
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 3793f68faf2ec0a8050f8f0c6e06a32579b43879
+source-git-commit: ecbba9b1da674328df866ec30e48fe44dd02cb86
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '793'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,8 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>액세스 수준 구성*</strong></td> 
-   <td> <p>[!UICONTROL Worker]</p> <p>참고: 여전히 액세스 권한이 없는 경우 [!DNL Workfront] 관리자가 액세스 수준에 추가 제한을 설정하는 경우. 자세한 내용: [!DNL Workfront] 관리자가 액세스 수준을 수정할 수 있습니다. 다음을 참조하십시오. <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td> <p>[!UICONTROL Worker]</p> <p><b>메모</b></p> 
+   <p>아직 액세스 권한이 없는 경우 [!DNL Workfront] 관리자가 액세스 수준에 추가 제한을 설정하는 경우. 자세한 내용: [!DNL Workfront] 관리자가 액세스 수준을 수정할 수 있습니다. 다음을 참조하십시오. <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>개체 권한</strong></td> 
@@ -72,6 +73,9 @@ ht-degree: 0%
 >
 >* 일반 프로젝트 작업과 달리, 개인 작업은 Workfront 인터페이스에 표시되는 제한된 필드 집합을 가지며 타임라인이나 프로젝트의 진행에 영향을 주지 않습니다. 개인 작업을 다른 사용자에게 재할당하면 모든 작업 필드가 개인 작업에 추가되지만 작업은 작업을 만든 사용자의 개인 프로젝트에 유지됩니다.
 >
+>
+>* 개인 작업은 시간이 기록되거나 타임시트에 고정된 경우에만 타임시트에 표시됩니다. 작업에 기록된 시간이 있는 경우에만 개인 작업을 타임시트에 고정할 수 있습니다. 자세한 내용은 [로그 시간](../../../timesheets/create-and-manage-timesheets/log-time.md).
+> 
 >* 개인 작업을 일반 워크플로우의 일부로 만들려면 프로젝트를 만들고 개인 작업을 프로젝트로 이동하는 것이 좋습니다.
 >
 > ![[!UICONTROL 개인 작업을 위한 프로젝트]](assets/createworkitems-personal--project-350x105.png)
