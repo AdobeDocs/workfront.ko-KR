@@ -6,7 +6,7 @@ description: Adobe Workfront은 2022년 4월 6일에 API 버전 16을 출시했�
 author: Becky
 feature: Workfront API
 exl-id: a3d8534b-fe6e-4782-baab-7c94555ea40c
-source-git-commit: 7abb4f2ec2d42b0f8b12504646ade720e53f567b
+source-git-commit: 8afbb1f45331d79bb849afb3acf3e9ff054cefc3
 workflow-type: tm+mt
 source-wordcount: '1180'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # API 버전 16의 새로운 기능
 
-Adobe Workfront은 2022년 4월 6일에 API 버전 16을 출시했습니다. API 버전 16에는 버전 15의 다음 변경 사항이 포함되어 있습니다.
+Adobe Workfront은 2023년 4월 6일에 API 버전 16을 출시했습니다. API 버전 16에는 버전 15의 다음 변경 사항이 포함되어 있습니다.
 
 ## 추가된 리소스
 
