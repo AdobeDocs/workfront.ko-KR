@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 01f91f31cf97ece80d7f7b98a96e846b4c8ad914
+source-git-commit: 71ce412ead1590b8511ec4219d3ba72fbf32b98d
 workflow-type: tm+mt
-source-wordcount: '13232'
+source-wordcount: '13335'
 ht-degree: 1%
 
 ---
@@ -1978,6 +1978,41 @@ ht-degree: 1%
       * [Adobe Workfront 목표 용어 사용자 정의](workfront-goals/workfront-goals-settings/customize-wf-goals-terminology.md)
       * [Workfront 목표에서 목표 공유](workfront-goals/workfront-goals-settings/share-a-goal.md)
       * [Adobe Workfront 목표 알림 활성화](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
+* Adobe 마에스트로 {#adobe-maestro}
+   * [Adobe 마에스트로 정보](maestro/maestro-information.md)
+   * [Adobe 마에스트로 개요](maestro/maestro-overview.md)
+   * [Adobe Maestro 릴리스 활동](maestro/release-activity.md)
+   * Adobe 마에스트로 건축 {#adobe-maestro-architecture}
+      * [아키텍처 정보](maestro/architecture-and-fields/architecture-and-fields-information.md)
+      * [작업 공간 만들기](maestro/architecture-and-fields/create-workspaces.md)
+      * [레코드 유형 및 분류 개요](maestro/architecture-and-fields/overview-of-record-types-and-taxonomies.md)
+      * [레코드 유형 만들기](maestro/architecture-and-fields/create-record-types.md)
+      * [분류 레코드 유형 만들기](maestro/architecture-and-fields/create-a-taxonomy.md)
+      * [레코드 유형 연결](maestro/architecture-and-fields/connect-record-types.md)
+      * [필드 만들기](maestro/architecture-and-fields/create-fields.md)
+      * [레코드 유형 편집](maestro/architecture-and-fields/edit-record-types.md)
+      * [필드 편집](maestro/architecture-and-fields/edit-fields.md)
+      * [작업 영역 삭제](maestro/architecture-and-fields/delete-workspaces.md)
+      * [레코드 유형 삭제](maestro/architecture-and-fields/delete-record-types.md)
+      * [필드 삭제](maestro/architecture-and-fields/delete-fields.md)
+      * [레코드 종류 및 레코드 연결의 예](maestro/architecture-and-fields/example-connect-record-types-and-records.md)
+      * [작업 공간 템플릿 목록](maestro/architecture-and-fields/workspace-templates.md)
+   * Adobe 마에스트로 액세스 {#adobe-maestro-access}
+      * [액세스 정보](maestro/access/access-information.md)
+      * [액세스 개요](maestro/access/access-overview.md)
+      * [Adobe 마에스트로에 대한 액세스 권한 부여](maestro/access/grant-access.md)
+   * Adobe 마에스트로 레코드 {#adobe-maestro-records}
+      * [레코드 정보](maestro/records/records-information.md)
+      * [레코드 만들기](maestro/records/create-records.md)
+      * [레코드 연결](maestro/records/connect-records.md)
+      * [레코드 편집](maestro/records/edit-records.md)
+      * [레코드 삭제](maestro/records/delete-records.md)
+      * [레코드 공유](maestro/records/share-records.md)
+   * Adobe Maestro 조회수 {#adobe-maestro-views}
+      * [보기 정보](maestro/views/views-information.md)
+      * [레코드 보기 관리](maestro/views/manage-record-views.md)
+      * [표 보기 관리](maestro/views/manage-the-table-view.md)
+      * [타임라인 보기 관리](maestro/views/manage-the-timeline-view.md)
 * Adobe Workfront Fusion {#adobe-workfront-fusion}
    * [Adobe Workfront Fusion](workfront-fusion/workfront-fusion-2.md)
    * Adobe Workfront Fusion 시작 {#get-started-with-workfront-fusion}
