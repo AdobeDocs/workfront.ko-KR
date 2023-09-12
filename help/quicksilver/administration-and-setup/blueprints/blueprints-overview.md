@@ -9,14 +9,35 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4c487598-2066-4507-8dfe-1a54d38f5eea
-source-git-commit: 006df3f8c391596cd0c769df5d7eb843949b4e01
+source-git-commit: af869fc8f57458f0f006ab86d6c19fe07f3eb81b
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '816'
 ht-degree: 0%
 
 ---
 
 # 블루프린트 개요
+
+블루프린트는 Workfront의 일반적인 사용 사례를 처리하는 Workfront 개체 세트입니다. 블루프린트를 다운로드하여 설치한 다음 특정 사용 사례에 맞게 개체를 구성할 수 있습니다.
+
+>[!INFO]
+>
+>예:
+>
+>* **인적 자원 조직 설정**
+>
+>   이 블루프린트에는 인적 자원 부서로 확장할 조직 구조의 구성이 포함되어 있습니다.
+>
+>* **새 직원 IT 검사 목록 추가**
+>
+>   이 블루프린트에는 새 직원 온보딩 활동을 구성하는 템플릿이 들어 있습니다. 이 템플릿을 사용하면 IT 팀이 효율적으로 운영할 수 있으므로 새로운 직원의 업무 경험이 향상되고 업무 생산성을 보다 빠르게 추적할 수 있습니다.
+>
+>* **상속된 인스턴스 기본 사항 검사 목록**
+>
+>    이 블루프린트에는 Workfront 인스턴스 구성 방법을 명확하게 이해하기 위해 간단한 질문, 리소스 및 링크 목록과 함께 검토할 수 있는 프로젝트 템플릿(또는 체크리스트)이 포함되어 있습니다. 최근에 Workfront 인스턴스를 상속했으며 시작할 위치에 대한 지침이 필요한 경우 사용하십시오.
+>
+>현재 블루프린트를 검토하려면 다음을 참조하십시오 [사용 가능한 블루프린트 목록](/help/quicksilver/administration-and-setup/blueprints/list-of-available-blueprints.md).
+
 
 블루프린트는 사용자와 함께 성장하는 작업 관리 시스템을 만드는 데 도움이 되는 기본 구성 요소를 제공합니다. 시스템 관리자는 블루프린트 카탈로그를 검색하고 바로 사용할 수 있는 프로젝트 템플릿, 대시보드 및 조직 구조를 설치할 수 있습니다. 다른 사용자는 카탈로그를 탐색하고 블루프린트 설치를 요청할 수 있습니다. 자세한 내용은 [블루프린트 카탈로그 검색 및 블루프린트 설치 요청](../../administration-and-setup/blueprints/browse-catalog.md).
 
