@@ -7,10 +7,10 @@ description: 제출 날짜는 작업이 작업에 사용 가능한 날짜입니�
 author: Alina
 feature: Work Management
 exl-id: caf2dbba-5311-418d-8c82-ddcc256f9926
-source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 3%
+source-wordcount: '723'
+ht-degree: 2%
 
 ---
 
@@ -52,8 +52,8 @@ Workfront에서는 작업의 전달 날짜를 계산하기 위해 다음 규칙�
 
 * **작업에 전임 작업 및**:
 
-   * **계획된 시작 일자가 과거입니다.**: 제출 날짜가 프로젝트의 계획된 시작 날짜와 동일합니다.
-   * **계획된 시작 일자는 미래(현재 일자 이후의 일자)입니다.**: 제출 날짜가 작업의 계획된 시작 날짜와 동일합니다.
+   * **계획된 시작 일자가 과거입니다.**: 작업에 강제 제한 세트가 없는 경우 전달 일자는 프로젝트의 계획된 시작 일자와 동일합니다. 작업에 강제 제한이 있는 경우 아래 &quot;계획된 일자에 대해 작업에 강제 제한이 있는 경우&quot; 섹션을 참조하십시오.
+   * **계획된 시작 일자는 미래(현재 일자 이후의 일자)입니다.**: 작업에 강제 제한 설정이 없는 경우 전달 날짜는 작업의 계획된 시작 날짜와 동일합니다. 작업에 강제 제한이 있는 경우 아래 &quot;계획된 일자에 대해 작업에 강제 제한이 있는 경우&quot; 섹션을 참조하십시오.
 
 >[!NOTE]
 >
@@ -75,9 +75,16 @@ Workfront에서는 작업의 전달 날짜를 계산하기 위해 다음 규칙�
 
   다음과 같은 시나리오가 있습니다.
 
-   * 작업의 제한 사항이 &#39;다음에서 시작&#39; 또는 &#39;다음 이후에 시작&#39;인 경우 작업에 실제 시작 일자가 없으면 &#39;전달 일자&#39;가 제한 일자입니다. 작업에 실제 시작 일자가 있는 경우 전달 일자는 전임 작업의 실제 완료 일자입니다.
-   * 작업에 완료 일자 또는 늦지 않게 시작해야 한다는 제한이 있는 경우 작업에 실제 시작 일자가 있는지 여부에 관계없이 전달 일자는 항상 전임 작업의 실제 완료 일자입니다.
-   * 작업에 고정 일자 제한이 있는 경우 전달 일자는 전임 작업이 있는지 여부와 전임 작업이 완료되었는지 여부에 관계없이 작업의 계획된 시작 일자입니다.
+   * **작업의 제한 사항이 다음 일자에 시작 또는 다음 이후에 시작:**: 작업 제한 일자가 과거이고 작업에 대한 실제 시작 일자가 없는 경우(작업이 아직 시작되지 않음) 전달 일자는 작업을 시작할 수 있는 가장 가까운 날짜입니다. 작업이 시작된 경우 전달 날짜는 프로젝트의 시작 날짜와 같습니다.
+   * **작업의 제한 사항이 다음보다 늦지 않게 완료 또는 시작해야 함:**: 작업 제한 일자가 미래이고 작업에 대한 실제 시작 일자가 없는 경우(작업이 아직 시작되지 않음) 전달 일자는 작업의 계획된 시작 일자입니다. 작업에 실제 시작 일자가 있는 경우 핸드오프 일자가 프로젝트의 시작 일자입니다.
+   * **작업에 고정 일자 제한이 있는 경우**: 전달 일자는 전임 작업이 있는지 여부와 전임 작업이 완료되었는지 여부와 관계없이 작업의 계획된 시작 일자입니다.
+
+<!--these are old descriptions, edited by Anna As. on August 25, 2023 in this issue - https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/64c0032500018fabd4fc484167eb10dc/updates
+   * When the task has a constraint of Must Start On or Start No Earlier Than, the Handoff Date is the Constraint date, unless there is an Actual Start Date on the task. If there is an Actual Start Date on the task, the Handoff Date is the Actual Completion Date of the predecessor.
+   * When the task has a constraint of Must Finish On or Start No Later Than, the Handoff Date is always the Actual Completion Date of the predecessor, regardless of whether there is an Actual Start Date on the task or not. 
+   * When the task has a constraint of Fixed Dates, the Handoff Date is the Planned Start Date of the task, regardless of whether it has a predecessor or not and regardless of whether the predecessor is completed or not.
+
+-->
 
 ## 제출 일자 찾기
 

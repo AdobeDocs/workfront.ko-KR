@@ -3,9 +3,9 @@ title: Adobe Maestro 릴리스 활동
 description: Maestro를 사용하여 사용자 정의 객체, 필드 및 작업 공간을 만듭니다.
 hidefromtoc: true
 hide: true
-source-git-commit: 6e219089f68db651f5eb8369e3c6df83b6cd823b
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1431'
 ht-degree: 0%
 
 ---
@@ -155,7 +155,7 @@ Workfront 프로젝트에 연결을 포함하여 레코드 유형을 연결하�
 
 미리보기 및 프로덕션: 2023년 7월 13일
 
-이제 Checkbox 필드 유형을 Maestro 레코드 유형에 추가할 수 있습니다. 확인란 필드 유형을 사용하여 레코드에 단일 확인란 옵션을 추가할 수 있습니다. 이 필드를 사용하여 특정 레코드에 대한 특정 속성이나 상태를 표시할 수 있습니다. 예를 들어 각 레코드의 완료, 승인 또는 기타 모든 이진 속성을 추적하기 위한 플래그로 사용할 수 있습니다.
+이제 Checkbox 필드 유형을 Maestro 레코드 유형에 추가할 수 있습니다. 확인란 유형 필드를 사용하여 레코드에 단일 확인란 옵션을 추가할 수 있습니다. 이 필드를 사용하여 특정 레코드에 대한 특정 속성이나 상태를 표시할 수 있습니다. 예를 들어 각 레코드의 완료, 승인 또는 기타 모든 이진 속성을 추적하기 위한 플래그로 사용할 수 있습니다.
 
 ## 2023년 6월 26일 주
 

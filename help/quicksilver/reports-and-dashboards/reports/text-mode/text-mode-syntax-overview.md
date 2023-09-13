@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: 976e8c7fe0362392928ac9cd6be1a9ba7c653dda
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '1833'
+source-wordcount: '1857'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 0%
 시작하기 전에 텍스트 모드에 대한 정보 및 고려 사항은 다음을 참조하십시오. [텍스트 모드 개요](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 보고 가능한 모든 필드와 해당 속성에 대한 전체 목록은 다음을 참조하십시오. [API 탐색기](../../../wf-api/general/api-explorer.md).
+
+클래스, 비디오 및 튜토리얼을 포함하여 텍스트 모드를 사용하여 보고서를 만드는 방법에 대한 자세한 내용은 Adobe Experience League 사이트의 학습 섹션을 참조하십시오.
 
 ## 텍스트 모드 구문에 대한 고려 사항
 

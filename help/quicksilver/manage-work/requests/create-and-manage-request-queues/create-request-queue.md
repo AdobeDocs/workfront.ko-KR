@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '2597'
+source-wordcount: '2630'
 ht-degree: 2%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 2%
 -->
 
 사용자가 프로젝트에서 계획된 작업이 아닌 간혹 요청을 입력할 수 있는 요청 대기열을 설정할 수 있습니다. 예를 들어 IT 부서에 접수되는 모든 사용자 요청을 캡처하도록 헬프 데스크 요청 대기열을 설정할 수 있습니다.
+
+이 문서에서는 사용자가 요청을 제출할 수 있는 요청 대기열을 만드는 방법에 대해 설명합니다. 새 요청을 요청 대기열에 제출하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [요청 복사 및 제출](../create-requests/copy-and-submit-requests.md).
 
 ## 액세스 요구 사항
 

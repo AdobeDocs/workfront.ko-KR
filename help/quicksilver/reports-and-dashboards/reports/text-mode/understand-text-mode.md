@@ -2,13 +2,13 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: 텍스트 모드 개요
-description: 텍스트 모드 개요
+description: 보고서나 목록을 구성하는 요소를 만들 때 표준 또는 텍스트 모드 인터페이스를 사용하여 Adobe Workfront에서 보고서나 목록을 빌드할 수 있습니다.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8be8cbd0-da1b-4e90-a52e-dc352f646d18
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ ht-degree: 0%
 
 보고서나 목록을 구성하는 요소를 만들 때 표준 또는 텍스트 모드 인터페이스를 사용하여 Adobe Workfront에서 보고서나 목록을 빌드할 수 있습니다. 표준 인터페이스를 사용하면 Workfront 인터페이스에서 쉽게 사용할 수 있는 필드 및 해당 속성을 참조할 수 있습니다. 텍스트 모드를 사용하면 표준 모드에서는 사용할 수 없지만 Workfront 데이터베이스에서는 사용할 수 있는 필드 및 속성을 참조할 수 있습니다.
 
+클래스, 비디오 및 튜토리얼을 포함하여 텍스트 모드를 사용하여 보고서를 만드는 방법에 대한 자세한 내용은 Adobe Experience League 사이트의 학습 섹션을 참조하십시오.
+
 ## 텍스트 모드 사용 전 고려 사항
 
 >[!TIP]
@@ -39,13 +41,13 @@ ht-degree: 0%
 * Workfront 소프트웨어가 업데이트될 때 만드는 보고서가 그대로 유지되도록 표준 모드를 사용하는 것이 좋습니다. 텍스트 모드를 사용하면 더 복잡한 보기, 필터 및 그룹화를 만들 수 있지만, 유지 관리가 더 복잡하고 Workfront 소프트웨어가 업데이트될 때 보장되지 않습니다.
 * 항상 표준 인터페이스의 모든 보고 요소를 빌드하고 몇 가지 조정만 하기 위해 텍스트 모드 빌더로 전환하는 것이 좋습니다.
 
-   >[!TIP]
-   >
-   >표준 빌더를 사용하면 텍스트 모드에서 코드를 수정할 때 사용할 수 있는 중요한 구성 요소와 코드 패턴을 얻을 수 있습니다.
+  >[!TIP]
+  >
+  >표준 빌더를 사용하면 텍스트 모드에서 코드를 수정할 때 사용할 수 있는 중요한 구성 요소와 코드 패턴을 얻을 수 있습니다.
 
 * 텍스트 모드에서 보고서와 목록을 성공적으로 작성하기 위해 사용해야 하는 규칙 세트와 고유한 구문이 있습니다. 시작하기 전에 텍스트 모드의 Workfront 구문을 잘 알고 있는지 확인합니다.
 
-   텍스트 모드 사용을 위한 구문 및 규칙에 대한 자세한 내용은 [텍스트 모드 구문 개요](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
+  텍스트 모드 사용을 위한 구문 및 규칙에 대한 자세한 내용은 [텍스트 모드 구문 개요](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
 
 * 텍스트 모드에서 보고 요소를 사용자 지정한 후 보기에서 표준 모드로 다시 전환하지 못하거나 만든 요소의 코드가 필터 및 그룹화에서 삭제될 수 있습니다. 텍스트 모드에서 지원되는 모든 필드가 표준 모드에서 지원되는 것은 아니기 때문입니다.
 

@@ -7,10 +7,10 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 71948e70c49ee3b3d678fb54847ff79f2632bd84
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '1024'
-ht-degree: 2%
+source-wordcount: '1020'
+ht-degree: 3%
 
 ---
 
@@ -54,9 +54,9 @@ For additional resources for the new commenting experience, also see the followi
 
 >[!NOTE]
 >
->아래 나열된 객체에는 Beta 경험을 활성화할 때 사용할 수 있는 지난 해(2022년 6월 시작)의 주석 및 시스템 업데이트만 있습니다.
+>아래 나열된 객체에는 새로운 댓글 달기 환경에서 사용할 수 있는 2019년 1월 1일부터 시작되는 댓글 및 시스템 업데이트만 있습니다.
 >
->현재 경험의 업데이트 섹션을 볼 때 2022년 6월 이전에 이러한 오브젝트에 대한 주석 및 시스템 업데이트를 볼 수 있습니다.
+>현재 경험의 업데이트 섹션을 볼 때 2019년 1월 1일 이전에 이러한 오브젝트에 대한 주석 및 시스템 업데이트를 볼 수 있습니다.
 >
 >* 문제
 >* 프로젝트
