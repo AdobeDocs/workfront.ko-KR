@@ -3,9 +3,9 @@ title: Adobe Maestro 릴리스 활동
 description: Maestro를 사용하여 사용자 정의 객체, 필드 및 작업 공간을 만듭니다.
 hidefromtoc: true
 hide: true
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '1431'
+source-wordcount: '1430'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->현재 Adobe 마에스트로는 제한된 수의 고객에게 제공되는 비공개 베타 프로그램의 일부입니다.
+>현재 Adobe 마에스트로는 제한된 수의 고객에게 제공되는 베타 프로그램의 일부입니다.
 >
 >Maestro용 Beta 프로그램 가입에 대한 자세한 내용은 계정 담당자에게 문의하십시오.
 >

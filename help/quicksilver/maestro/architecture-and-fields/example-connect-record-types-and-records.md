@@ -3,9 +3,9 @@ title: 레코드 종류 및 레코드 연결의 예
 description: 이 문서에서는 Adobe Maestro 레코드 유형과 Workfront 프로젝트 객체 유형 간에 연결을 만드는 방법의 예를 설명합니다. 또한 Maestro 레코드를과 개별 프로젝트에 연결하는 방법에 대해 설명합니다.
 hidefromtoc: true
 hide: true
-source-git-commit: 71ce412ead1590b8511ec4219d3ba72fbf32b98d
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '1743'
+source-wordcount: '1742'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->현재 Adobe 마에스트로는 제한된 수의 고객에게 제공되는 비공개 베타 프로그램의 일부입니다.
+>현재 Adobe 마에스트로는 제한된 수의 고객에게 제공되는 베타 프로그램의 일부입니다.
 >
 >Maestro용 Beta 프로그램 가입에 대한 자세한 내용은 계정 담당자에게 문의하십시오.
 >

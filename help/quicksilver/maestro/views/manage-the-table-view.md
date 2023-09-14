@@ -3,9 +3,9 @@ title: 표 보기 관리
 description: Adobe Maestro의 레코드 유형 페이지에 액세스할 때 테이블 보기에서 레코드와 해당 필드를 표시할 수 있습니다.
 hidefromtoc: true
 hide: true
-source-git-commit: 4a3cf7211eef2b161a29b74e8e9b2b12c21eaf4d
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1493'
 ht-degree: 5%
 
 ---
@@ -27,7 +27,7 @@ hide: yes
 
 >[!IMPORTANT]
 >
->현재 Adobe 마에스트로는 제한된 수의 고객에게 제공되는 비공개 베타 프로그램의 일부입니다.
+>현재 Adobe 마에스트로는 제한된 수의 고객에게 제공되는 베타 프로그램의 일부입니다.
 >
 >Maestro용 Beta 프로그램 가입에 대한 자세한 내용은 계정 담당자에게 문의하십시오.
 >

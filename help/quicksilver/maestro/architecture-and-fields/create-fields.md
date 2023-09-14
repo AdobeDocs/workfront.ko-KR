@@ -3,9 +3,9 @@ title: 필드 만들기
 description: Adobe Maestro에서 각 유형의 운영 레코드 유형 또는 분류법에 대한 사용자 정의 필드를 만들 수 있습니다. 그런 다음 필드를 Maestro 레코드와 연결할 수 있습니다.
 hidefromtoc: true
 hide: true
-source-git-commit: 62c67c8db01c9fc40f530a83162476dd0972f464
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '2556'
+source-wordcount: '2555'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->현재 Adobe 마에스트로는 제한된 수의 고객에게 제공되는 비공개 베타 프로그램의 일부입니다.
+>현재 Adobe 마에스트로는 제한된 수의 고객에게 제공되는 베타 프로그램의 일부입니다.
 >
 >Maestro용 Beta 프로그램 가입에 대한 자세한 내용은 계정 담당자에게 문의하십시오.
 >

@@ -3,9 +3,9 @@ title: 액세스 개요
 description: 조직의 모든 사용자는 Adobe Maestro에 액세스할 수 있습니다. 현재 Maestro에는 사용자 또는 정보와 연관된 액세스 수준이나 권한이 없습니다.
 hidefromtoc: true
 hide: true
-source-git-commit: 71ce412ead1590b8511ec4219d3ba72fbf32b98d
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '214'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,11 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->현재 Adobe 마에스트로는 제한된 수의 고객에게 제공되는 비공개 베타 프로그램의 일부입니다.
+>현재 Adobe 마에스트로는 제한된 수의 고객에게 제공되는 베타 프로그램의 일부입니다.
+>
+>Maestro용 Beta 프로그램 가입에 대한 자세한 내용은 계정 담당자에게 문의하십시오.
+>
+>자세한 내용은 [Adobe 마에스트로 개요](../maestro-overview.md).
 
 <!-- the table will change after we implement access levels/ permissions for Maestro-->
 <!-- fix the formatting on the table - some lines are way too spaced out-->

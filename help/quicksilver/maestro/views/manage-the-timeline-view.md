@@ -3,9 +3,9 @@ title: 타임라인 보기 관리
 description: Adobe Maestro의 레코드 유형 페이지에 액세스할 때 타임라인 보기에서 레코드를 표시할 수 있습니다.
 hidefromtoc: true
 hide: true
-source-git-commit: bac066b90c7fd69ffd423988c4cf736c16807f2b
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1077'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ role: User
 
 >[!IMPORTANT]
 >
->현재 Adobe 마에스트로는 제한된 수의 고객에게 제공되는 비공개 베타 프로그램의 일부입니다.
+>현재 Adobe 마에스트로는 제한된 수의 고객에게 제공되는 베타 프로그램의 일부입니다.
 >
 >Maestro용 Beta 프로그램 가입에 대한 자세한 내용은 계정 담당자에게 문의하십시오.
 >

@@ -3,9 +3,9 @@ title: 레코드 삭제
 description: 사용자 또는 다른 사용자가 만든 레코드를 삭제할 수 있습니다. 삭제된 레코드는 복구할 수 없습니다.
 hidefromtoc: true
 hide: true
-source-git-commit: 14b456f32dd2c8735e0a5252387f25305efc7610
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '465'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->현재 Adobe 마에스트로는 제한된 수의 고객에게 제공되는 비공개 베타 프로그램의 일부입니다.
+>현재 Adobe 마에스트로는 제한된 수의 고객에게 제공되는 베타 프로그램의 일부입니다.
 >
 >Maestro용 Beta 프로그램 가입에 대한 자세한 내용은 계정 담당자에게 문의하십시오.
 >

@@ -3,9 +3,9 @@ title: 작업 영역 삭제
 description: 더 이상 관련이 없는 작업 공간은 삭제할 수 있습니다.
 hidefromtoc: true
 hide: true
-source-git-commit: 71ce412ead1590b8511ec4219d3ba72fbf32b98d
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '312'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,7 @@ Adobe Maestro에서 작업 공간은 팀이 작업을 계획하기 위한 중앙
   </tr>  
  <td role="rowheader"><p>Adobe Workfront 계약</p></td>
    <td>
-<p>Adobe Maestro Closed Beta 프로그램에 조직을 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
+<p>Adobe Maestro Beta 프로그램에 조직이 등록되어야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
    </td>
   </tr>
   <tr>

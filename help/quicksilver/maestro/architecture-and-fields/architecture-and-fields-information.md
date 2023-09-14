@@ -3,9 +3,9 @@ title: 아키텍처 정보
 description: 다음 문서에서는 Adobe Maestro의 아키텍처를 구성하는 방법을 설명합니다. 이 구성의 일부로, Adobe Maestro에서 관리할 워크플로우를 매핑하기 위해 작업 공간, 레코드 유형 및 사용자 지정 필드를 만드는 방법을 알아봅니다.
 hidefromtoc: true
 hide: true
-source-git-commit: 71ce412ead1590b8511ec4219d3ba72fbf32b98d
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ hide: yes
 
 >[!IMPORTANT]
 >
->현재 Adobe 마에스트로는 제한된 수의 고객에게 제공되는 비공개 베타 프로그램의 일부입니다.
+>현재 Adobe 마에스트로는 제한된 수의 고객에게 제공되는 베타 프로그램의 일부입니다.
 >
 >Maestro용 Beta 프로그램 가입에 대한 자세한 내용은 계정 담당자에게 문의하십시오.
 >
