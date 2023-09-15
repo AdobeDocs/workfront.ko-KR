@@ -7,9 +7,9 @@ description: G Suite에서 알림 이메일 Adobe을 열 때 [!DNL Workfront] �
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: d5ca31d8-3667-4405-a523-3dc248a94746
-source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '478'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> [!DNL Workfront for G Suite] 은(는) 수신할 수 있는 거의 모든 유형의 이메일 알림을 지원합니다 [!DNL Workfront] (약 120개의 다른 유형). [!UICONTROL 일별 요약] 이메일 발송 위치 [!DNL Workfront] 다음에 나타나지 않음 [!DNL Workfront for G Suite]. 에 대한 자세한 내용은 [!DNL Workfront] 이메일 알림 유형, 참조 [자체 이벤트 알림 활성화 또는 비활성화](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+> [!DNL Workfront for G Suite] 은(는) 수신할 수 있는 거의 모든 유형의 이메일 알림을 지원합니다 [!DNL Workfront] (약 120개의 다른 유형). [!UICONTROL 일별 요약] 이메일 발송 위치 [!DNL Workfront] 다음에 나타나지 않음 [!DNL Workfront for G Suite]. 에 대한 자세한 내용은 [!DNL Workfront] 이메일 알림 유형, 참조 [이메일 알림 수정](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## 액세스 요구 사항
 

@@ -6,9 +6,9 @@ description: Adobe Workfront 개체에 업데이트 설명을 제공하면 프�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1620'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->사용자는 프로필에서 개인 알림을 활성화해야 이메일 알림을 받을 수 있습니다. 자세한 내용은 [자체 이벤트 알림 활성화 또는 비활성화](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+>사용자는 프로필에서 개인 알림을 활성화해야 이메일 알림을 받을 수 있습니다. 자세한 내용은 [이메일 알림 수정](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 >
 
 Workfront 개체에 업데이트를 추가하는 방법에 대한 자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
@@ -150,7 +150,7 @@ Workfront 개체에 업데이트를 추가하는 방법에 대한 자세한 내�
 
    >[!NOTE]
    >
-   >알림 필드에 나열된 모든 사용자 및 팀원은 업데이트에 대한 인앱 알림을 받으며 이메일 알림 설정의 구성에 따라 이메일을 받을 수 있습니다. 댓글 또는 회신에 태그를 지정한 사용자는 해당 댓글 또는 회신에 대한 알림을 받으며 스레드의 나머지 부분에 대해 알림 필드에서 자신의 이름을 볼 수 있지만 다시 태그 지정하지 않는 한 다른 알림을 받지 않습니다. 자세한 내용은 [자체 이벤트 알림 활성화 또는 비활성화](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) 및 [시스템의 모든 사용자를 위한 이벤트 알림 구성](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+   >알림 필드에 나열된 모든 사용자 및 팀원은 업데이트에 대한 인앱 알림을 받으며 이메일 알림 설정의 구성에 따라 이메일을 받을 수 있습니다. 댓글 또는 회신에 태그를 지정한 사용자는 해당 댓글 또는 회신에 대한 알림을 받으며 스레드의 나머지 부분에 대해 알림 필드에서 자신의 이름을 볼 수 있지만 다시 태그 지정하지 않는 한 다른 알림을 받지 않습니다. 자세한 내용은 [이메일 알림 수정](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) 및 [시스템의 모든 사용자를 위한 이벤트 알림 구성](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
 1. 클릭 **업데이트**.\
    업데이트에 포함된 사용자에게는 객체에 대한 보기 권한이 자동으로 부여되고 객체에 대한 업데이트를 보고 응답할 수 있습니다.
@@ -208,7 +208,7 @@ Workfront 개체에 업데이트를 추가하는 방법에 대한 자세한 내�
 
    >[!NOTE]
    >
-   >&quot;직원 또는 팀 태그&quot; 필드에 나열된 모든 사용자 및 팀 구성원은 업데이트에 대한 인앱 알림을 받으며 이메일 알림 설정의 구성에 따라 이메일을 받을 수 있습니다. 댓글 또는 회신에 태그를 지정한 사용자는 해당 댓글 또는 회신에 대한 알림을 받고, 나머지 스레드 동안 스레드 멤버로 이름이 나열된 상태로 볼 수 있지만 자신을 다시 태그 지정하지 않는 한 다른 알림을 받지 않습니다. 자세한 내용은 [자체 이벤트 알림 활성화 또는 비활성화](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) 및 [시스템의 모든 사용자를 위한 이벤트 알림 구성](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+   >&quot;직원 또는 팀 태그&quot; 필드에 나열된 모든 사용자 및 팀 구성원은 업데이트에 대한 인앱 알림을 받으며 이메일 알림 설정의 구성에 따라 이메일을 받을 수 있습니다. 댓글 또는 회신에 태그를 지정한 사용자는 해당 댓글 또는 회신에 대한 알림을 받고, 나머지 스레드 동안 스레드 멤버로 이름이 나열된 상태로 볼 수 있지만 자신을 다시 태그 지정하지 않는 한 다른 알림을 받지 않습니다. 자세한 내용은 [이메일 알림 수정](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) 및 [시스템의 모든 사용자를 위한 이벤트 알림 구성](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
 1. 클릭 **제출**.\
    업데이트에 포함된 사용자에게는 객체에 대한 보기 권한이 자동으로 부여되고 객체에 대한 업데이트를 보고 응답할 수 있습니다.

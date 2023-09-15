@@ -1,23 +1,24 @@
 ---
 product-area: setup
 navigation-topic: notifications
-title: 자체 이벤트 알림 활성화 또는 비활성화
-description: Adobe Workfront 관리자는 Workfront에서 이벤트가 발생할 때 사용자가 수신하는 이벤트 알림을 구성합니다.
+keywords: 수정,이메일,알림,설정
+title: 이메일 알림 수정
+description: 이 문서에서는 사용자 프로필에서 이메일 알림을 관리하는 방법을 설명합니다.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
-source-git-commit: cfa1439ac2c08c5304457041fe246639b7512dde
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '605'
 ht-degree: 0%
 
 ---
 
-# 자체 이벤트 알림 활성화 또는 비활성화
+# 이메일 알림 수정
 
-내 Adobe [!DNL Workfront] 관리자는에서 설명한 대로 Workfront에서 이벤트가 발생할 때 사용자가 수신하는 이벤트 알림을 구성합니다. [[!UICONTROL 이벤트 구성] 시스템의 모든 사용자를 위한 알림](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
+내 Adobe [!DNL Workfront] 관리자는에서 설명한 대로 Workfront에서 이벤트가 발생할 때 사용자가 수신하는 이메일 알림을 구성합니다. [[!UICONTROL 이벤트 구성] 시스템의 모든 사용자를 위한 알림](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
 
-그룹 관리자는 사용자와 홈 그룹의 사용자에 대해 활성화된 이벤트 알림을 구성할 수도 있습니다. 다음의 경우 [!UICONTROL 홈 그룹] 는 하위 그룹이며, 그룹 위의 최상위 그룹에 대해 활성화된 이벤트 알림을 받습니다.
+그룹 관리자는 사용자와 사용자의 알림을 구성할 수도 있습니다. [!UICONTROL 홈 그룹]. 다음의 경우 [!UICONTROL 홈 그룹] 는 하위 그룹이며, 그룹 위의 최상위 그룹에 대해 활성화된 알림을 받습니다.
 
 수신할 알림을 구성하여 이를 추가로 사용자 정의할 수 있습니다. 이벤트 발생 시 알림을 수신할지 또는 일일 요약 이메일 1개로 알림을 수신할지 선택할 수도 있습니다.
 
@@ -54,9 +55,9 @@ ht-degree: 0%
 
 ## 이메일 알림 설정 보기 및 수정
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![](assets/main-menu-icon.png) 의 오른쪽 위 모서리 [!DNL Adobe Workfront]그런 다음 프로필 사진 옆에 있는 사용자 이름을 클릭합니다.
+{{step1-click-profile-pic}}
 
-1. 다음을 클릭합니다. **[!UICONTROL 자세히]** 아이콘 ![](assets/more-icon.png) 을 클릭한 다음 을 클릭합니다 **[!UICONTROL 편집]**.
+1. 다음을 클릭합니다. **[!UICONTROL 자세히]** 아이콘 ![](assets/more-icon.png) 이름 옆에 있는 을(를) 클릭한 다음 을(를) 클릭합니다 **[!UICONTROL 편집]**.
 
 1. 다음에서 **[!UICONTROL 사용자 편집]** 표시되는 상자에서 **[!UICONTROL 알림]** 섹션.
 
@@ -74,7 +75,7 @@ ht-degree: 0%
 
    의 경우 **[!UICONTROL 커뮤니케이션]** 범주, 인스턴트 게재에 대해서만 개별 알림을 선택할 수 있습니다. 일별 요약으로 알림을 전달하려면 알림을 모두 선택해야 합니다.
 
-   지정된 카테고리에 대한 모든 이메일 알림이 활성화되면 카테고리 제목의 상자가 선택된 상태로 표시됩니다. 지정된 카테고리의 모든 이메일 알림이 비활성화되면 상자를 선택 취소합니다. 일부 알림이 활성화되고 다른 알림이 비활성화되면 카테고리 확인란이 직선으로 표시됩니다.\
+   지정된 카테고리에 대한 모든 이메일 알림이 활성화되면 카테고리 제목의 상자가 선택된 상태로 표시됩니다. 지정된 범주의 모든 이메일 알림이 비활성화되면 상자를 선택 취소합니다. 일부 알림이 활성화되고 다른 알림이 비활성화되면 카테고리 확인란이 직선으로 표시됩니다.\
    알림 설정을 수정할 때 레이블은 **[!UICONTROL 편집됨]** 은 해당 알림 설정에 대해 표시되어 해당 알림 설정이 수정되었음을 알려줍니다.
 
 1. 일별 요약으로 보낼 알림을 선택한 경우, 맨 위에서 알림을 받을 시간을 선택합니다. **[!UICONTROL 알림]** 의 섹션 **[!UICONTROL 다음 이후 이메일 일일 요약:]** 메뉴 아래의 제품에서 사용할 수 있습니다.

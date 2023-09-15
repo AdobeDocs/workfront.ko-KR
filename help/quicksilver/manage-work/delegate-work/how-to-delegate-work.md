@@ -6,9 +6,9 @@ description: 부재 중 할당된 작업을 임시로 위임할 수 있습니다
 author: Alina
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '1487'
+source-wordcount: '1485'
 ht-degree: 1%
 
 ---
@@ -150,7 +150,7 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
 
    * 대리인으로 선택한 사용자는 이벤트 알림이 활성화된 경우 위임에 대한 이메일을 받게 됩니다.
 
-     개인 이메일 알림 활성화에 대한 자세한 내용은 [자체 이벤트 알림 활성화 또는 비활성화](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+     개인 이메일 알림 활성화에 대한 자세한 내용은 [이메일 알림 수정](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 
 

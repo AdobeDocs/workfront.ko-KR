@@ -6,9 +6,9 @@ description: '사용자 [!DNL Adobe Workfront] 프로필에는 자신에 대한 
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 4e4cf18fb9a8936deab935f55eb6cfd0b5c7a41a
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '3248'
+source-wordcount: '3246'
 ht-degree: 1%
 
 ---
@@ -356,7 +356,7 @@ ht-degree: 1%
 
 ### [!UICONTROL 알림]
 
-수신할 알림 지정 [!DNL Workfront]. 알림 구성에 대한 자세한 내용은 [자체 이벤트 알림 활성화 또는 비활성화](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+수신할 알림 지정 [!DNL Workfront]. 알림 구성에 대한 자세한 내용은 [이메일 알림 수정](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ### [!UICONTROL 액세스]
 
@@ -528,6 +528,6 @@ ht-degree: 1%
 
 에 저장된 사용자 프로필에 주석을 기록할 수 있습니다. [!UICONTROL 업데이트] 사용자의 탭입니다.
 
-다음을 클릭할 수 있습니다 [!UICONTROL 사람] 업데이트에 다른 사용자를 포함하는 아이콘.
+다음을 클릭할 수 있습니다 [!UICONTROL 명] 업데이트에 다른 사용자를 포함하는 아이콘.
 
 다음을 클릭할 수 있습니다 [!UICONTROL 잠금] 사용자와 동일한 회사에 있는 사용자에게 이 업데이트를 비공개로 설정하는 아이콘.

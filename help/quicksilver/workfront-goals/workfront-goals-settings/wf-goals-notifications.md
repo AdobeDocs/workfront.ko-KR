@@ -7,9 +7,9 @@ description: Adobe Workfront 목표에는 계정에 대해 활성화할 수 있�
 author: Alina
 feature: Workfront Goals
 exl-id: 40f9b9a3-c829-480b-9897-099b68389cd4
-source-git-commit: a9a43cba127917be5c030b79fa099a960c1dcd56
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '148'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Adobe Workfront 목표에는 계정에 대해 활성화할 수 있는 이벤트 알림 세트가 포함되어 있습니다. 이러한 이벤트 알림은 이벤트에 의해 정의된 조건이 충족될 때마다 이메일 통신을 트리거합니다.
 
-Workfront 목표에 대해 활성화할 수 있는 알림에 대한 자세한 내용은 [알림: 목표](../../workfront-basics/using-notifications/notifications-goals.md).
+Workfront 목표에 대해 활성화할 수 있는 알림에 대한 자세한 내용은 을 참조하십시오. [알림: 목표](../../workfront-basics/using-notifications/notifications-goals.md).
 
-Adobe Workfront의 알림 관리에 대한 자세한 내용은 [고유한 이벤트 알림 활성화 또는 비활성화](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Adobe Workfront에서의 알림 관리에 대한 자세한 내용은 [이메일 알림 수정](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -121,6 +121,6 @@ A personal goal is a goal where you are designated as the owner.
 
 ## Workfront 목표 이메일 알림의 예
 
-활성화한 알림으로 정의된 이벤트가 발생하면 이벤트를 설명하는 이메일을 받게 됩니다. 다음은 새 목표 소유자로 지정되었음을 알리는 전자 메일의 예입니다.
+활성화한 알림에 의해 정의된 이벤트가 발생하면 이벤트를 설명하는 이메일을 받게 됩니다. 다음은 사용자가 새 목표의 소유자로 할당되었음을 알리는 이메일의 예입니다.
 
 ![](assets/wf-align-notification-email-350x164.png)

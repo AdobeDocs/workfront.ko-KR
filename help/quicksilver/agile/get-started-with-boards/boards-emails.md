@@ -7,9 +7,9 @@ description: Adobe Workfront 보드는 보드에 추가되거나 카드에 할�
 author: Lisa
 feature: Agile
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: 9a9b64ce2bacbffbde40a15a201c4be35dfc3097
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 [!DNL Adobe Workfront] [!UICONTROL 게시판] 귀하가 보드에 추가되거나 카드에 할당되면 이메일을 전송합니다. 알림은 기본적으로 켜져 있으며 보드 환경 설정에서 수신할 이메일을 선택할 수 있습니다.
 
-또한 이메일 알림 설정에 따라 연결된 카드에 댓글을 달면 이메일을 받게 됩니다. 자세한 내용은 [자체 이벤트 알림 활성화 또는 비활성화](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md). 현재 Ad Hoc 카드에 댓글을 태그 지정한 사용자는 이메일 알림을 받지 못합니다.
+또한 이메일 알림 설정에 따라 연결된 카드에 댓글을 달면 이메일을 받게 됩니다. 자세한 내용은 [이메일 알림 수정](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md). 현재 Ad Hoc 카드에 댓글을 태그 지정한 사용자는 이메일 알림을 받지 못합니다.
 
 ## 액세스 요구 사항
 

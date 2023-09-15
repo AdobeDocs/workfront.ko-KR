@@ -4,14 +4,14 @@ product-area: system-administration
 keywords: 수정,이메일,알림,설정,일괄,일괄 편집,구성,다중,사용자
 navigation-topic: emails-administration
 title: 사용자 프로필의 이메일 알림 설정 수정
-description: Adobe Workfront 관리자이거나 다른 사용자의 설정을 편집할 수 있는 플래너 액세스 수준이 있는 경우 한 번에 여러 사용자에 대한 알림 설정을 구성할 수 있습니다. 여기에는 Adobe Workfront 알림에 설명된 대로 이벤트 발생 시 또는 일별 다이제스트 이메일 하나로 알림을 수신하는지 여부를 지정하는 작업이 포함됩니다. 사용자 편집에 필요한 액세스 수준에 대한 자세한 내용은 사용자에게 액세스 권한 부여를 참조하십시오.
-author: Lisa, Caroline
+description: 이 문서에서는 Workfront 또는 그룹 관리자가 다른 사용자의 이메일 알림을 업데이트하는 방법에 대한 정보를 제공합니다.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: 91eb8770c07396b5772029e9d2370f0b1f10d4a1
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Adobe Workfront 관리자이거나 다른 사용자의 설정을 편집할 수 �
 
 >[!NOTE]
 >
->자신의 프로필을 포함하여 한 번에 한 명의 사용자에 대한 이메일 알림을 구성할 수도 있습니다. 자세한 내용은 [자체 이벤트 알림 활성화 또는 비활성화](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+>자신의 프로필을 포함하여 한 번에 한 명의 사용자에 대한 이메일 알림을 구성할 수도 있습니다. 자세한 내용은 [이메일 알림 수정](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 
 ## 액세스 요구 사항

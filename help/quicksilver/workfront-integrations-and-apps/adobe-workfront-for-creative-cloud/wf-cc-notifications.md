@@ -5,9 +5,9 @@ title: 보기 및 관리 [!DNL Adobe Workfront] Adobe Creative Cloud의 알림
 description: 다음 위치에서 Adobe Creative Cloud으로 알림을 받을 수 있습니다. [!DNL Adobe Workfront] 승인해야 하는 항목, 주어진 할당 또는 연결된 항목에 대한 댓글 및 변경 사항 정보.
 author: Courtney,Becky
 feature: Workfront Integrations and Apps, Digital Content and Documents
-source-git-commit: 8dbe15370287e47416164b5df6542bbb11405099
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 {{cc-install-prereq}}
 
-* 에서 인스턴트 알림을 활성화했습니다. [!DNL Workfront]. 즉시 알림 활성화에 대한 자세한 내용은 [자체 이벤트 알림 활성화 또는 비활성화](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+* 에서 인스턴트 알림을 활성화했습니다. [!DNL Workfront]. 즉시 알림 활성화에 대한 자세한 내용은 [이메일 알림 수정](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## 보기 및 관리 [!DNL Workfront] Adobe Creative Cloud의 알림
 

@@ -6,9 +6,9 @@ description: Adobe Workfront은 모바일 디바이스에서 이메일 알림, �
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
-source-git-commit: 4331917d133c52cf727f148b75a213853c1e5679
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1307'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 [!DNL Workfront] 은 Workfront의 활동에 대해 사용자에게 경고하고 유용한 정보와 링크를 제공하기 위해 여러 이메일 알림을 보냅니다.
 
-이메일 알림에 대한 기본 설정을 변경하려면 다음을 참조하십시오. [자체 이벤트 알림 활성화 또는 비활성화](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+이메일 알림에 대한 기본 설정을 변경하려면 다음을 참조하십시오. [이메일 알림 수정](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ ht-degree: 1%
 
 이벤트 알림의 전체 목록과 시스템 수준, 그룹 수준 또는 사용자 수준에서 이벤트 알림을 활성화하고 구성하는 방법에 대한 자세한 내용은 [에서 사용할 수 있는 이벤트 알림 [!DNL Adobe Workfront]](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
-수신하려는 이벤트 알림을 선택하는 방법에 대한 자세한 내용은 [자체 이벤트 알림 활성화 또는 비활성화](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+수신하려는 이벤트 알림을 선택하는 방법에 대한 자세한 내용은 [이메일 알림 수정](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 >[!NOTE]
 >
@@ -85,13 +85,13 @@ ht-degree: 1%
 
 통신이 발생한 객체에 대한 정보가 요약되고, 각 객체에 대한 총 통신 메시지 수가 표시됩니다.
 
-이메일 알림 구성에 대한 자세한 내용은 [자체 이벤트 알림 활성화 또는 비활성화](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+이메일 알림 구성에 대한 자세한 내용은 [이메일 알림 수정](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 의 댓글 달기 지침 [!UICONTROL 커뮤니케이션] 이메일, 참조 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-에 대해 자세히 알아보기 [!UICONTROL 커뮤니케이션] 이메일, 참조 [자체 이벤트 알림 활성화 또는 비활성화](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+에 대해 자세히 알아보기 [!UICONTROL 커뮤니케이션] 이메일, 참조 [이메일 알림 수정](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-일별 다이제스트 알림 활성화에 대한 자세한 내용은 [자체 이벤트 알림 활성화 또는 비활성화](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+일별 다이제스트 알림 활성화에 대한 자세한 내용은 [이메일 알림 수정](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ### 자동 미리 알림
 

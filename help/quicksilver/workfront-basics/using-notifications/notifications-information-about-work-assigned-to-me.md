@@ -6,9 +6,9 @@ description: 다음 알림은 사용자에게 할당된 작업 항목에서 발�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 5d7fdee8-cb5c-4ab8-bec3-beff9851b8f6
-source-git-commit: 901605917347297a1ee077f00905b03427582650
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '2090'
+source-wordcount: '2088'
 ht-degree: 6%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 6%
 
 다음 알림은 사용자에게 할당된 작업 항목에서 발생하는 활동에 대해 알려줍니다.
 
-수신하는 알림 구성에 대한 자세한 내용은 [자체 이벤트 알림 활성화 또는 비활성화](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+수신하는 알림 구성에 대한 자세한 내용은 [이메일 알림 수정](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 참조: [이벤트 알림](../../workfront-basics/using-notifications/event-notifications.md).
 
@@ -100,7 +100,7 @@ ht-degree: 6%
    <td><strong>일별</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>내가 할당된 요청에 따라 문서가 업로드되거나 변경됩니다.</strong> </p> <p>문제 피할당자는 추가한 문제에 대한 문서가 업로드되거나 문서 세부 정보가 변경되면 이메일 알림을 받습니다.</p> <p>문제를 트리거한 사용자가 문제 피할당자인 경우 이메일 알림이 전송되지 않습니다.</p> <p>알림은 프로젝트 상태가 [!UICONTROL Current]이고 프로젝트가 도움말 요청 큐(에 설명된 대로)로 설정된 경우에만 전송됩니다 <a href="../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">요청 대기열 만들기</a>).</p> <p>인스턴트 알림 이메일의 제목은 다음과 같습니다. <em>[!UICONTROL 문서가]에 추가됨 &lt;request name=""&gt;</em></p> <p> 일별 요약 알림의 주제는 다음과 같습니다. <em> [!UICONTROL 귀하에게 할당된 작업의 다이제스트] &lt;date of="" daily="" digest=""&gt; </em></p> </td> 
+   <td> <p><strong>내가 할당된 요청에 대한 문서가 업로드 또는 변경되었습니다.</strong> </p> <p>문제 피할당자는 추가한 문제에 대한 문서가 업로드되거나 문서 세부 정보가 변경되면 이메일 알림을 받습니다.</p> <p>문제를 트리거한 사용자가 문제 피할당자인 경우 이메일 알림이 전송되지 않습니다.</p> <p>알림은 프로젝트 상태가 [!UICONTROL Current]이고 프로젝트가 도움말 요청 큐(에 설명된 대로)로 설정된 경우에만 전송됩니다 <a href="../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">요청 대기열 만들기</a>).</p> <p>인스턴트 알림 이메일의 제목은 다음과 같습니다. <em>[!UICONTROL 문서가]에 추가됨 &lt;request name=""&gt;</em></p> <p> 일별 요약 알림의 주제는 다음과 같습니다. <em> [!UICONTROL 귀하에게 할당된 작업의 다이제스트] &lt;date of="" daily="" digest=""&gt; </em></p> </td> 
    <td> <p>요청 이름<br>프로젝트 이름(요청 대기열 이름)<br>문서 참조 번호 <br>문서를 업로드한 사용자의 이름<br>문서 이름 <br>추가된 날짜<br>문서 세부 정보(형식, 크기, 버전 번호)<br>문서 썸네일<br><strong>[!UICONTROL 미리 보기]</strong> 및 <strong>[!UICONTROL 다운로드]</strong> 단추<br>*프로젝트 이름<br>*프로젝트 참조 번호<br>*업로드되거나 변경된 총 문서 수<br>*문서 이름<br>*개체 이름<br>*문서를 업로드한 사용자의 이름<br>*일별 요약 날짜</p> </td> 
    <td><strong>일별</strong> </td> 
   </tr> 
