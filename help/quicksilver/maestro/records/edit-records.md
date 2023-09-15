@@ -3,10 +3,10 @@ title: 레코드 편집
 description: Adobe 마에스트로에서 레코드 정보를 편집할 수 있습니다. 레코드 만들기 및 편집을 시작하려면 먼저 레코드 유형을 만들어야 합니다.
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+source-git-commit: b0447fd2ea9419fabcc21a1131910485c18b75d0
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 2%
+source-wordcount: '567'
+ht-degree: 1%
 
 ---
 
@@ -88,6 +88,7 @@ Adobe 마에스트로에서 레코드 정보를 편집할 수 있습니다. 레�
 * 편집된 레코드가 다른 레코드에 연결되어 있는 경우 편집 중인 레코드의 새 정보는 연결된 레코드에 반영됩니다.
 * 레코드를 일괄적으로 편집할 수 없습니다. <!--this will probably change-->
 
+
 ## 레코드 편집
 
 다음 영역에서 레코드를 편집할 수 있습니다.
@@ -140,7 +141,9 @@ Adobe 마에스트로에서 레코드 정보를 편집할 수 있습니다. 레�
 
    >[!TIP]
    >
-   >연결된 필드는 편집할 수 없습니다. 이러한 필드에 대한 정보는 연결된 레코드에서 자동으로 채워집니다. 자세한 내용은 [레코드 유형 연결](../architecture-and-fields/connect-record-types.md).
+   >* 연결된 필드는 편집할 수 없습니다. 이러한 필드에 대한 정보는 연결된 레코드에서 자동으로 채워집니다. 자세한 내용은 [레코드 유형 연결](../architecture-and-fields/connect-record-types.md).
+   >
+   >* URL은 http://, https://, ftp:// 또는 www로 시작하는 경우에만 한 줄 텍스트 필드 유형에서 링크로 인식됩니다. .
 
 
 
