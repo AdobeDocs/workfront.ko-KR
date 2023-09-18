@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 9b4faccb6b4d61970abb69af60a0e8d47c9408e7
 workflow-type: tm+mt
-source-wordcount: '2264'
-ht-degree: 3%
+source-wordcount: '2305'
+ht-degree: 2%
 
 ---
 
@@ -125,6 +125,10 @@ ht-degree: 3%
      </tr> 
     </tbody> 
    </table>
+
+   >[!NOTE]
+   >
+   >확인란 및 드롭다운과 같이 여러 항목을 선택할 수 있는 필드는 보고서에서 차트 및 그룹화하기 어렵습니다. 보고서에서 차트 및 그룹화를 보다 쉽게 수행할 수 있도록 각 선택 사항에 대해 별도의 필드(예: 한 줄 텍스트 필드)를 만들 수 있습니다.
 
 1. 다음에서 **필드 설정** 탭에서 추가하는 사용자 정의 필드 유형에 사용할 수 있는 옵션을 구성합니다.
 
