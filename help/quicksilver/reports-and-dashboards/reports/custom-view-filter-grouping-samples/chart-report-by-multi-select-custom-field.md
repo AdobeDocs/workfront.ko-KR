@@ -7,7 +7,7 @@ description: 다중 선택 사용자 지정 필드에서 선택한 선택 사항
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: b0447fd2ea9419fabcc21a1131910485c18b75d0
+source-git-commit: a2f0ef565b0f0dbcfec7f3f5b5fece4c7b4b1ec6
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 0%
@@ -132,7 +132,6 @@ ht-degree: 0%
    >[!NOTE]
    >
    >이 옵션은 프로젝트 일괄 편집에서 제거되었습니다.  을 클릭하여 프로젝트에 대한 표현식을 일괄적으로 다시 계산할 수 있습니다. **자세히** 아이콘 ![](assets/more-icon-45x33.png) 프로젝트 목록 맨 위에 **표현식 다시 계산**.
-
 
 1. 다중 선택 사용자 정의 필드를 참조하는 계산된 필드에 대한 차트를 추가하려는 보고서로 이동합니다.
 1. 클릭 **보고서 작업**, 그런 다음 **편집**.
