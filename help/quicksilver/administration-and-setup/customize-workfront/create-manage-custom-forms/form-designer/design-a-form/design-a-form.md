@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 9b4faccb6b4d61970abb69af60a0e8d47c9408e7
+source-git-commit: b015f442ba028e452abbab3cd7e6d9b6d86f9622
 workflow-type: tm+mt
-source-wordcount: '4747'
+source-wordcount: '4774'
 ht-degree: 4%
 
 ---
@@ -257,7 +257,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->확인란 그룹과 같이 여러 항목을 선택할 수 있는 필드는 보고서에서 차트로 작성하고 그룹화하기 어렵습니다. 보고서에서 차트 및 그룹화를 보다 쉽게 수행할 수 있도록 각 선택 사항에 대해 별도의 필드(예: 한 줄 텍스트 필드)를 만들 수 있습니다.
+>확인란 그룹 및 드롭다운과 같이 여러 항목을 선택할 수 있는 필드는 보고서에서 차트 및 그룹화하기 어렵습니다. 보고서에서 차트 및 그룹화를 보다 쉽게 수행할 수 있도록 각 선택 사항에 대해 별도의 필드(예: 한 줄 텍스트 필드)를 만들 수 있습니다.
 
 라디오 단추 및 확인란을 추가하려면 다음 작업을 수행하십시오.
 
@@ -328,7 +328,7 @@ ht-degree: 4%
     </tr> 
     <tr> 
      <td role="rowheader">표시 유형</td> 
-    <td>필드의 라디오 버튼, 확인란 그룹 또는 드롭다운 간에 전환합니다.</td> 
+    <td>라디오 단추, 확인란 그룹, 드롭다운 또는 다중 선택 드롭다운 간을 전환합니다.</td> 
     <td><ul>
     <li>라디오 버튼</li>
     <li>확인란 그룹</li>
@@ -559,7 +559,7 @@ ht-degree: 4%
      </tr>
      <tr> 
       <td role="rowheader">헤더</td>
-      <td>클릭 <strong>헤더 추가</strong>을 클릭하고 API를 사용한 인증에 필요한 키-값 쌍을 입력하거나 붙여넣습니다.</td>
+      <td><p>클릭 <strong>헤더 추가</strong>을 클릭하고 API를 사용한 인증에 필요한 키-값 쌍을 입력하거나 붙여넣습니다.</p><p><strong>참고:</strong> 헤더 필드는 자격 증명을 저장할 수 있는 안전한 위치가 아니므로 입력하고 저장하는 내용에 주의해야 합니다.</p></td>
      </tr>
     </tbody>
    </table>
@@ -579,7 +579,7 @@ ht-degree: 4%
 >* 재시도 횟수: 3
 >* 재시도 사이의 대기 기간: 500ms
 >* 예상 응답 상태: 2xx
->* 사용자는 Workfront 목록 및 보고서에서 선택한 값(및 값 편집)을 볼 수 있지만 외부 API에서 제공되는 옵션이 있는 드롭다운은 표시되지 않습니다.
+>* 사용자는 Workfront 목록 및 보고서에서 선택한 값을 보고 값을 편집할 수 있지만 외부 API에서 제공되는 옵션이 있는 드롭다운은 표시되지 않습니다.
 
 </div>
 
