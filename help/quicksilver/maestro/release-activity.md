@@ -3,9 +3,9 @@ title: Adobe Maestro 릴리스 활동
 description: Maestro를 사용하여 사용자 정의 객체, 필드 및 작업 공간을 만듭니다.
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+source-git-commit: 1dffebd5075dc353f28402c79d0c87aff2c12cfa
 workflow-type: tm+mt
-source-wordcount: '1430'
+source-wordcount: '1458'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,14 @@ ht-degree: 0%
 이 섹션에는 2023년 5월 22일 Maestro Closed Beta 프로그램 출시 후 출시된 기능 및 패치가 나열되어 있습니다.
 
 기능은 매주 릴리스되고 릴리스 순서대로 나열되며, 가장 최근의 기능이 먼저 나열됩니다. Maestro Closed Beta 프로그램에 참여하는 고객은 미리보기 및 프로덕션 환경의 모든 기능에 액세스할 수 있습니다.
+
+## 2023년 9월 18일 주
+
+### 행 순서 바꾸기
+
+미리보기 및 프로덕션: 2023년 9월 20일
+
+이제 레코드 유형 페이지의 테이블 보기에서 하나 또는 여러 행(또는 레코드)의 순서를 변경할 수 있습니다.
 
 ## 2023년 9월 4일 주
 
