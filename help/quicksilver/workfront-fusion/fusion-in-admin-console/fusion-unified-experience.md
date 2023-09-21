@@ -7,9 +7,9 @@ description: Adobe Experience Cloud을 통해 Workfront Fusion에 액세스하�
 author: Becky
 feature: Workfront Fusion
 exl-id: ea89cf36-f08d-4f4c-b89f-4895b5947e7a
-source-git-commit: 609772ae587c8bb8b05d48fada478f3419616dda
+source-git-commit: 0cb3a77c1b9b00fa886a3321c6a8d4119f58f84d
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '605'
 ht-degree: 1%
 
 ---
@@ -109,4 +109,11 @@ ht-degree: 1%
 통합 쉘의 알림 영역에서 알림 및 공지를 찾을 수 있습니다.
 
 알림을 보려면 알림 아이콘을 클릭합니다 ![알림 아이콘](assets/notifications-icon.png) 화면 오른쪽 상단 모서리 근처. 알림 아이콘에 빨간색 점이 있으면 읽지 않은 알림 또는 공지가 있음을 나타냅니다.
+
+Adobe Experience Cloud에서 알림을 구성하는 방법은 을 참조하십시오. [알림 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/notifications.html?lang=en#:~:text=You%20can%20customize%20how%20you,how%20you%20receive%20your%20notifications.) Adobe 설명서에서 확인할 수 있습니다.
+
+구성할 때는 다음을 참고하십시오.
+
+* **경고** 중단 시나리오를 참조하십시오.
+* **콘텐츠 업데이트** 시나리오 실행의 오류 및 경고를 참조하십시오.
 

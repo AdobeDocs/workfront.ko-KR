@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion의 조직 및 팀 기능을 통해 기업은
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: 9828fe3602342520ef203ac174990f0ea03f0588
+source-git-commit: 0cb3a77c1b9b00fa886a3321c6a8d4119f58f84d
 workflow-type: tm+mt
-source-wordcount: '1133'
+source-wordcount: '1155'
 ht-degree: 0%
 
 ---
@@ -164,6 +164,12 @@ Fusion에서 두 개 이상의 조직에 속해 있을 수 있습니다. 조직 
 1. 새 팀의 이름을 입력하고 **추가**.
 
 #### 팀 알림 옵션 설정
+
+>[!NOTE]
+>
+>에 액세스하는 경우 [!DNL Fusion] 다음을 통해 [!DNL Adobe Experience Cloud]에서 알림이 처리됨 [!DNL Experience Cloud] 알림 센터.
+>
+>자세한 내용은 [알림 액세스](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications) 위치: [[!DNL Adobe Unified Experience] 대상 [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md)
 
 이메일 알림 옵션은 팀 수준에서 설정됩니다.
 
