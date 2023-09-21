@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 9ebcbf43d4cf84d1f68aeff7e443f41193a9fe76
+source-git-commit: b8416108a16d973435d070f8d2738fee585cc6d3
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '793'
 ht-degree: 5%
 
 ---
@@ -111,7 +111,7 @@ Workfront 구현 중에 시스템 환경 설정을 구성하고, 그 이후에 �
      </tr> 
      <tr> 
       <td role="rowheader">시스템의 사용자는 기본적으로 새 홈 환경을 볼 수 있습니다. </td> 
-      <td>기본적으로 사용자에게 새 홈 환경이 표시되는지 여부를 지정할 수 있습니다. 두 경우 모두, 사용자는 개별적으로 새 홈을 활성화 또는 비활성화하도록 선택할 수 있습니다. 이 옵션은 기본적으로 활성화되어 있습니다.</td> 
+      <td>기본적으로 사용자에게 새 홈 환경이 표시되는지 여부를 지정할 수 있습니다. 활성화된 경우 사용자는 개별적으로 새 홈을 활성화하거나 비활성화할 수 있습니다. 비활성화하면 사용자는 새 홈을 사용할 수 없습니다. 이 옵션은 기본적으로 활성화되어 있습니다.</td> 
      </tr> 
     </tbody> 
    </table>
