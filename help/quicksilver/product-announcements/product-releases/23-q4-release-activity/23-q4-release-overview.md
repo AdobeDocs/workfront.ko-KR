@@ -3,9 +3,9 @@ title: 2023년 4분기 릴리스 개요
 description: 2023년 4분기 릴리스 개요
 author: Becky
 feature: Product Announcements
-source-git-commit: abb94dcce6d35f97d35a3c9540e88ec60621bb45
+source-git-commit: eb5fb3fdc99bcbc5e6fa8c37bddcfd53b045816f
 workflow-type: tm+mt
-source-wordcount: '1822'
+source-wordcount: '1845'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 >| 월별 릴리스 | 분기별 릴리스 |
 >|----|----|
 >| <ul><li>23.8 (2023년 8월 31일)</li><li>23.9 (2023년 9월 28일)</li><li>23.10 (2023년 10월 26일)</li></ul> | <ul><li>23.10 (2023년 10월 26일의 주)</li></ul> |
+
+23.10 릴리스 웨비나는 2023년 10월 5일에 개최됩니다. 다음을 수행할 수 있습니다. [여기서 웨비나 등록](https://webinars.on24.com/adobe_workfront/whatsnewin2310?partnerref=releasenotes).
 
 <span class="preview">오프 사이클 기능(2023년 4분기 릴리스 날짜 이전에 프로덕션에 릴리스된 기능)은 노란색으로 강조 표시됩니다.</span>
 
