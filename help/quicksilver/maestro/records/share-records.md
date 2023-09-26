@@ -3,7 +3,8 @@ title: 레코드 공유
 description: 다른 사용자와 레코드를 공유하여 공동 작업을 향상시킬 수 있습니다.
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 1%

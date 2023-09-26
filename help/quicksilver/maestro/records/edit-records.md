@@ -3,7 +3,8 @@ title: 레코드 편집
 description: Adobe 마에스트로에서 레코드 정보를 편집할 수 있습니다. 레코드 만들기 및 편집을 시작하려면 먼저 레코드 유형을 만들어야 합니다.
 hidefromtoc: true
 hide: true
-source-git-commit: b0447fd2ea9419fabcc21a1131910485c18b75d0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '567'
 ht-degree: 1%

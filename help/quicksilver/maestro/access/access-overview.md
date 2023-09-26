@@ -3,7 +3,8 @@ title: 액세스 개요
 description: 조직의 모든 사용자는 Adobe Maestro에 액세스할 수 있습니다. 현재 Maestro에는 사용자 또는 정보와 연관된 액세스 수준이나 권한이 없습니다.
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 2%

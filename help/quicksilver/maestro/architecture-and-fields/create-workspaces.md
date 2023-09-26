@@ -3,7 +3,8 @@ title: 작업 공간 만들기
 description: 작업 공간은 팀에서 사용하는 운영 레코드 유형 및 분류의 모음이며 팀의 작업 주기를 나타냅니다. Maestro에서 작업 공간을 완전히 사용자 지정할 수 있습니다.
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 1%

@@ -3,7 +3,8 @@ title: Adobe Maestro 릴리스 활동
 description: Maestro를 사용하여 사용자 정의 객체, 필드 및 작업 공간을 만듭니다.
 hidefromtoc: true
 hide: true
-source-git-commit: 1dffebd5075dc353f28402c79d0c87aff2c12cfa
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '1458'
 ht-degree: 0%

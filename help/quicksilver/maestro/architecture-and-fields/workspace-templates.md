@@ -3,7 +3,8 @@ title: 작업 공간 템플릿 목록
 description: 작업 공간은 팀에서 사용하는 운영 레코드 유형 및 분류의 모음이며 팀의 작업 주기를 나타냅니다. Maestro에는 작업 영역을 구축할 때 기본 레코드 유형, 분류 및 필드를 시작할 수 있는 템플릿 세트가 제공됩니다.
 hide: true
 hidefromtoc: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%

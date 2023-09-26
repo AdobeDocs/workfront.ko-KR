@@ -3,7 +3,8 @@ title: 레코드 유형 삭제
 description: 운영 레코드 유형 또는 분류 레코드 유형이 더 이상 관련이 없는 경우 삭제할 수 있습니다.
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 1%

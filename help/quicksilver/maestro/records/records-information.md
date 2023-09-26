@@ -3,7 +3,8 @@ title: 레코드 정보
 description: Adobe Maestro에서 레코드 유형을 만든 후 해당 유형의 개별 레코드를 만들 수 있습니다. 다음 문서에서는 Adobe Maestro에서 레코드를 만들고 관리하는 방법을 설명합니다.
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 0%

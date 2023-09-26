@@ -3,7 +3,8 @@ title: 레코드 유형 편집
 description: 레코드 유형을 저장한 후 편집할 수 있습니다. 레코드 유형은 Adobe 마에스트로의 객체 유형입니다.
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 1%

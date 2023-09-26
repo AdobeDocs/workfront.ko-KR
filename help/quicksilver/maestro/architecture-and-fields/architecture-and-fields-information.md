@@ -3,7 +3,8 @@ title: 아키텍처 정보
 description: 다음 문서에서는 Adobe Maestro의 아키텍처를 구성하는 방법을 설명합니다. 이 구성의 일부로, Adobe Maestro에서 관리할 워크플로우를 매핑하기 위해 작업 공간, 레코드 유형 및 사용자 지정 필드를 만드는 방법을 알아봅니다.
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 0%

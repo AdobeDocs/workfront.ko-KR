@@ -3,7 +3,8 @@ title: 액세스 정보
 description: Workfront 관리자는 Maestro를 사용하려면 사용자에게 액세스 권한을 부여해야 합니다. 다음 문서에는 사용자가 Maestro를 사용하기 위해 필요한 액세스 권한에 대한 정보가 포함되어 있습니다.
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 0%

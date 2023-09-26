@@ -3,7 +3,8 @@ title: 보기 정보
 description: 테이블 또는 타임라인 보기에서 Adobe Maestro 레코드를 표시할 수 있습니다. 다음 문서에서는 Adobe Maestro 레코드 보기를 만들고 관리하는 방법을 설명합니다.
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 0%

@@ -3,7 +3,8 @@ title: Adobe 마에스트로에 대한 액세스 권한 부여
 description: Adobe Maestro에서 액세스 권한을 부여하고 정보를 공유하는 방법을 알아봅니다.
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 0%
