@@ -4,13 +4,13 @@ description: 2023년 4분기 릴리스 기간 동안의 룩앤필 업데이트
 author: Lisa
 draft: Probably
 feature: Product Announcements
-source-git-commit: 7cc8c27848082c0547440ae98e4c4ec62809f5bd
+exl-id: d667c25f-87c3-4465-81e6-481cd1e93e87
+source-git-commit: ab046a9ee532b7ef97f721e4c7b41a1a0543d647
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
-
 
 # 2023년 4분기 릴리스 일정 동안의 룩앤필 업데이트
 
@@ -27,3 +27,13 @@ ht-degree: 0%
 설정 > 이메일 > 알림 영역의 이메일 알림, 미리 알림 및 이메일 템플릿에 대한 탭을 Workfront의 다른 영역과 일관된 보다 현대적인 디자인으로 업데이트했습니다.
 
 자세한 내용은 [시스템의 모든 사용자를 위한 이벤트 알림 구성](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+
+## 작업 역할 화면에 대한 룩앤필 업데이트
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2023년 9월 21일, 모든 고객을 위한 프로덕션 릴리스: 요금 카드 및 기타 재무 관리 업데이트가 릴리스되는 경우
+
+새 작업 역할 및 작업 역할 편집 화면을 Workfront의 다른 영역과 일관된 보다 현대적인 디자인으로 업데이트했습니다.
+
+자세한 내용은 [작업 역할 만들기 및 관리](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
