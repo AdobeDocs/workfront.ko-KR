@@ -4,9 +4,9 @@ description: 2023년 4분기 릴리스 개요
 author: Becky
 feature: Product Announcements
 exl-id: 16d18e6c-b169-4c5d-8d0a-57711e24583d
-source-git-commit: ab046a9ee532b7ef97f721e4c7b41a1a0543d647
+source-git-commit: 723c2b7b57b1e876ec6edaf4b1ac14ec1b983667
 workflow-type: tm+mt
-source-wordcount: '1875'
+source-wordcount: '1884'
 ht-degree: 0%
 
 ---
@@ -182,6 +182,141 @@ ht-degree: 0%
                         </ul>
                     </td>
                 </tr>    
+           </tbody>
+        </table>
+
+### 홈 개선 사항
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">기능</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">릴리스 날짜</span>
+                        </p>
+                    </td>
+                 </tr>
+                <!--<tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Changes to New Home </a> </p>
+                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
+                        <p>Based on user feedback, we are removing the page-wide time range filter and summary bar. Project, Task, and Issue widgets each have built-in filtering features allowing you to customize their scope on an individual basis. Additionally, these widgets will now only include content marked ??Current??, ensuring the work they track is always relevant. we've also changed which widgets display "counter bubbles".</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: September 13, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 23.9 release</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 23.10 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>-->
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">프로젝트, 작업 및 문제 추적 위젯에 대한 새로운 빠른 액세스 버튼</a> </p>
+                        <p>[!BADGE In Production for Fast Release ]{type=Positive}</p>
+                        <p>새 홈에서 바로 작업을 관리할 수 있는 기능이 더욱 확장되어 프로젝트, 작업 및 문제 추적 위젯에 새로운 빠른 액세스 버튼이 추가되었습니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2023년 9월 13일<br /></p>
+                            </li>
+                            <li>
+                                <p>빠른 릴리스를 위한 프로덕션: 23.9 릴리스 포함</p>
+                            </li>
+                            <li>
+                                <p>분기별 릴리스 프로덕션: 23.10 릴리스 포함</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">새 홈에 대한 새 필터 옵션</a> </p>
+                        <p>[!BADGE In Production for Fast Release ]{type=Positive}</p>
+                        <p>이제 새 홈의 내 작업 위젯에 새 필터 옵션을 사용할 수 있습니다. 옵션에는 오브젝트 유형(작업, 문제 및 요청)과 상태(준비되지 않음, 시작 준비, 작업 중 및 완료)에 대한 필터가 포함됩니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2023년 8월 17일<br /></p>
+                            </li>
+                            <li>
+                                <p>빠른 릴리스를 위한 프로덕션: 23.8 릴리스 포함</p>
+                            </li>
+                            <li>
+                                <p>분기별 릴리스 프로덕션: 23.10 릴리스 포함</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">새 홈에 대한 사용자 정의 용어 지원</a> </p><p>[!BADGE In production ]{type=Informative}</p>
+                        <p>조직의 고유한 요구 사항을 더 잘 충족하기 위해 이제 New Home은 인스턴스의 레이아웃 템플릿에 정의된 오브젝트에 대해 사용자 정의 용어를 사용합니다. 예를 들어 Workfront 인스턴스에서 "Project" 오브젝트의 레이블이 "Campaigns"로 다시 지정된 경우 내 프로젝트 위젯이 대신 새 홈에서 내 캠페인으로 표시됩니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2023년 8월 17일<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">모든 고객을 위한 프로덕션: 2023년 8월 31일</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">새 홈 시도 단추가 새 홈을 비활성화한 계정에 대해 제거됨</a> </p>
+                        <p>[!BADGE In Production for Fast Release ]{type=Positive}</p>
+                        <p>새 홈을 사용하지 않도록 설정한 계정의 경우 새 홈 시도 버튼이 더 이상 없습니다. 개별 사용자가 버튼을 사용하여 새 홈을 시도할 수 있으려면 시스템 관리자가 새 홈을 다시 활성화해야 합니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2023년 8월 17일<br /></p>
+                            </li>
+                            <li>
+                                <p>빠른 릴리스를 위한 프로덕션: 23.8 릴리스 포함</p>
+                            </li>
+                            <li>
+                                <p>분기별 릴리스 프로덕션: 23.10 릴리스 포함</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">새 홈 기본 위젯 집합으로 변경</a> </p>
+                        <p>[!BADGE In Production for Fast Release ]{type=Positive}</p>
+                        <p>작업을 만들 수 있는 권한이 필요한 할 일 위젯은 이제 표준, 계획 또는 작업 라이선스 유형을 가진 사용자에 대해 설정된 기본 위젯에만 표시됩니다. 또한 위젯은 다른 모든 라이선스 유형을 사용하는 사용자의 홈 페이지에서 자동으로 제거되었습니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2023년 8월 17일<br /></p>
+                            </li>
+                            <li>
+                                <p>빠른 릴리스를 위한 프로덕션: 2023년 8월 17일</p>
+                            </li>
+                            <li>
+                                <p>분기 릴리스 프로덕션: 2023년 8월 17일</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
            </tbody>
         </table>
 
@@ -366,102 +501,6 @@ ht-degree: 0%
                             </li>
                             <li>
                                 <p>분기별 릴리스 프로덕션: 23.10 릴리스 사용(달리 명시되지 않은 경우)</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">내 작업 위젯에 대한 새로운 빠른 액세스 버튼</a> </p>
-                        <p>[!BADGE In Production for Fast Release ]{type=Positive}</p>
-                        <p>새 홈에서 바로 작업을 관리할 수 있는 기능이 더욱 확장되면서 내 작업 위젯에 새로운 빠른 액세스 버튼이 추가되었습니다.</p>
-                    </td>
-                    <td><p><b>다음 날짜에 사용 가능:</b></p>
-                        <ul>
-                            <li>
-                                <p>미리보기 릴리스: 2023년 9월 13일<br /></p>
-                            </li>
-                            <li>
-                                <p>빠른 릴리스를 위한 프로덕션: 23.9 릴리스 포함</p>
-                            </li>
-                            <li>
-                                <p>분기별 릴리스 프로덕션: 23.10 릴리스 포함</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>                
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">새 홈에 대한 새 필터 옵션</a> </p>
-                        <p>[!BADGE In Production for Fast Release ]{type=Positive}</p>
-                        <p>이제 새 홈의 내 작업 위젯에 새 필터 옵션을 사용할 수 있습니다. 옵션에는 오브젝트 유형(작업, 문제 및 요청)과 상태(준비되지 않음, 시작 준비, 작업 중 및 완료)에 대한 필터가 포함됩니다.</p>
-                    </td>
-                    <td><p><b>다음 날짜에 사용 가능:</b></p>
-                        <ul>
-                            <li>
-                                <p>미리보기 릴리스: 2023년 8월 17일<br /></p>
-                            </li>
-                            <li>
-                                <p>빠른 릴리스를 위한 프로덕션: 23.8 릴리스 포함</p>
-                            </li>
-                            <li>
-                                <p>분기별 릴리스 프로덕션: 23.10 릴리스 포함</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">새 홈에 대한 사용자 정의 용어 지원</a> </p><p>[!BADGE In production ]{type=Informative}</p>
-                        <p>조직의 고유한 요구 사항을 더 잘 충족하기 위해 이제 New Home은 인스턴스의 레이아웃 템플릿에 정의된 오브젝트에 대해 사용자 정의 용어를 사용합니다. 예를 들어 Workfront 인스턴스에서 "Project" 오브젝트의 레이블이 "Campaigns"로 다시 지정된 경우 내 프로젝트 위젯이 대신 새 홈에서 내 캠페인으로 표시됩니다.</p>
-                    </td>
-                    <td><p><b>다음 날짜에 사용 가능:</b></p>
-                        <ul>
-                            <li>
-                                <p>미리보기 릴리스: 2023년 8월 17일<br /></p>
-                            </li>
-                            <li>
-                                <p><span class="preview">모든 고객을 위한 프로덕션: 2023년 8월 31일</span></p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">새 홈 시도 단추가 새 홈을 비활성화한 계정에 대해 제거됨</a> </p>
-                        <p>[!BADGE In Production for Fast Release ]{type=Positive}</p>
-                        <p>새 홈을 사용하지 않도록 설정한 계정의 경우 새 홈 시도 버튼이 더 이상 없습니다. 개별 사용자가 버튼을 사용하여 새 홈을 시도할 수 있으려면 시스템 관리자가 새 홈을 다시 활성화해야 합니다.</p>
-                    </td>
-                    <td><p><b>다음 날짜에 사용 가능:</b></p>
-                        <ul>
-                            <li>
-                                <p>미리보기 릴리스: 2023년 8월 17일<br /></p>
-                            </li>
-                            <li>
-                                <p>빠른 릴리스를 위한 프로덕션: 23.8 릴리스 포함</p>
-                            </li>
-                            <li>
-                                <p>분기별 릴리스 프로덕션: 23.10 릴리스 포함</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">새 홈 기본 위젯 집합으로 변경</a> </p>
-                        <p>[!BADGE In Production for Fast Release ]{type=Positive}</p>
-                        <p>작업을 만들 수 있는 권한이 필요한 할 일 위젯은 이제 표준, 계획 또는 작업 라이선스 유형을 가진 사용자에 대해 설정된 기본 위젯에만 표시됩니다. 또한 위젯은 다른 모든 라이선스 유형을 사용하는 사용자의 홈 페이지에서 자동으로 제거되었습니다.</p>
-                    </td>
-                    <td><p><b>다음 날짜에 사용 가능:</b></p>
-                        <ul>
-                            <li>
-                                <p>미리보기 릴리스: 2023년 8월 17일<br /></p>
-                            </li>
-                            <li>
-                                <p>빠른 릴리스를 위한 프로덕션: 2023년 8월 17일</p>
-                            </li>
-                            <li>
-                                <p>분기 릴리스 프로덕션: 2023년 8월 17일</p>
                             </li>
                         </ul>
                     </td>

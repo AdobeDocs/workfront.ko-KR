@@ -8,9 +8,9 @@ feature: Work Management
 hide: true
 hidefromtoc: true
 exl-id: 0ede24f4-4bba-4812-9dd9-e7af77ea5ecc
-source-git-commit: cc82da7970d8f9c90b3a0dcebfed3feaa4bb1173
+source-git-commit: 723c2b7b57b1e876ec6edaf4b1ac14ec1b983667
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 이 5번째 Alpha 릴리스에는 다음이 있습니다.
 
 * 승인자 및 검토자를 표시하는 목록이 개선되었습니다.
-* 아직 승인 결정을 내리지 않은 승인자에게 기능을 추가했습니다.
+* 아직 승인 결정을 내리지 않은 승인자에게 알림 기능을 추가했습니다
 * 승인 목록에서 개별 팀원을 보는 기능이 추가되었습니다
 * 외부 승인자를 추가하는 기능이 추가되었습니다.
 * 외부 승인자가 문서를 미리 보고, 다운로드하고, 댓글을 달 수 있도록 보기가 개선되었습니다
