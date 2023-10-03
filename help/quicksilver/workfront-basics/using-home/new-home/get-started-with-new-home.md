@@ -5,13 +5,13 @@ title: Adobe Workfront의 새 홈 시작
 description: 새 홈은 작업 관리를 위한 강력한 새 기능입니다.
 author: Nolan
 feature: Get Started with Workfront
-source-git-commit: 1950effcb3bb0b36784159a214ed7e3db9d161d2
+exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
+source-git-commit: f776fb88000ea6044b88cba88d0cb7198c205d05
 workflow-type: tm+mt
-source-wordcount: '1088'
-ht-degree: 20%
+source-wordcount: '927'
+ht-degree: 23%
 
 ---
-
 
 # Adobe Workfront의 새 홈 시작
 
@@ -131,24 +131,9 @@ New Home은 사용자 정의 기능이 뛰어나게 설계되어 있어 가장 �
 
 1. 다음에서 **배경** 의 섹션 **사용자 지정** 나타나는 창에서 홈 배경에 대해 선택할 색상을 클릭합니다. 다음을 클릭할 수도 있습니다. **없음** 배경을 제거합니다.
 
-### 시간 범위별로 필터링
-
-홈 페이지의 모든 정보를 빠르게 필터링하여 세 가지 특정 시간 범위(일, 주 또는 월) 내에 오브젝트 정보를 표시할 수 있습니다. 또한 기한이 정해진 작업 수와 범위 내에서 완료한 작업 수에 대한 요약이 홈 페이지 맨 위에 표시됩니다.
-
-**홈 페이지의 시간 범위를 변경하려면:**
-
-1. Adobe Workfront 아이콘을 클릭하여 홈 페이지로 이동합니다 ![Adobe Workfront 아이콘](../new-home/assets/home-icon-30x29.png) 홈 이 랜딩 페이지로 설정된 경우 화면 맨 위에서 또는 기본 메뉴 아이콘을 클릭하여 ![메인 메뉴 아이콘](../new-home/assets/main-menu-icon-left-nav.png) 그런 다음 클릭 **홈**.
-
-1. 홈 페이지의 왼쪽 상단 모서리에 있는 시간 범위 필터를 클릭합니다. 기본적으로 필터는 로 설정됩니다 **내 주**.
-
-   ![시간 범위 필터 드롭다운](../new-home/assets/time-range-filter-dropdown-home.png)
-
-1. 다음 중 하나를 클릭합니다. **일**, **주**, 또는 **월** 홈 페이지를 필터링하여 해당 기간 내에 만기되는 오브젝트에 대한 정보만 표시하도록 할 수 있습니다.
-
 ## 현재 홈 경험으로 되돌리기
 
 기존 홈 환경을 선호하는 사용자의 경우 새 홈을 전환할 수 있습니다.
-
 
 **현재 홈 경험으로 돌아가려면**
 

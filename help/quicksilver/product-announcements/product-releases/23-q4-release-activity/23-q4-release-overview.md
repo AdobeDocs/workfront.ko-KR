@@ -3,10 +3,10 @@ title: 2023년 4분기 릴리스 개요
 description: 2023년 4분기 릴리스 개요
 author: Becky
 feature: Product Announcements
-exl-id: 16d18e6c-b169-4c5d-8d0a-57711e24583d
-source-git-commit: 723c2b7b57b1e876ec6edaf4b1ac14ec1b983667
+exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
+source-git-commit: f776fb88000ea6044b88cba88d0cb7198c205d05
 workflow-type: tm+mt
-source-wordcount: '1884'
+source-wordcount: '1963'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,7 @@ ht-degree: 0%
 
 * [관리자 개선 사항](#administrator-enhancements)
 * [보드 개선 사항](#boards-enhancements)
+* [홈 개선 사항](#home-enhancements)
 * [통합 개선 사항](#integration-enhancements)
 * [프로젝트 개선 사항](#project-enhancements)
 * [기타 개선 사항](#other-enhancements)
@@ -201,26 +202,26 @@ ht-degree: 0%
                         </p>
                     </td>
                  </tr>
-                <!--<tr>
+                <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Changes to New Home </a> </p>
-                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
-                        <p>Based on user feedback, we are removing the page-wide time range filter and summary bar. Project, Task, and Issue widgets each have built-in filtering features allowing you to customize their scope on an individual basis. Additionally, these widgets will now only include content marked ??Current??, ensuring the work they track is always relevant. we've also changed which widgets display "counter bubbles".</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">새 홈에서 작업 추적 변경 사항 </a> </p>
+                        <p>[!BADGE In Production for Fast Release ]{type=Positive}</p>
+                        <p>사용자 피드백을 기반으로 마감 및 완료된 작업을 집계한 페이지 전체 시간 범위 필터 및 요약 표시줄을 제거했습니다. 프로젝트, 작업 및 문제 위젯에는 각각 개별적으로 범위를 사용자 지정할 수 있는 필터링 기능이 내장되어 있습니다.</p>
                     </td>
-                    <td><p><b>Available on these dates:</b></p>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: September 13, 2023<br /></p>
+                                <p>미리보기 릴리스: 2023년 9월 13일<br /></p>
                             </li>
                             <li>
-                                <p>Production for fast release: With the 23.9 release</p>
+                                <p>빠른 릴리스를 위한 프로덕션: 23.9 릴리스 포함</p>
                             </li>
                             <li>
-                                <p>Production for quarterly release: With the 23.10 release</p>
+                                <p>분기별 릴리스 프로덕션: 23.10 릴리스 포함</p>
                             </li>
                         </ul>
                     </td>
-                </tr>-->
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">프로젝트, 작업 및 문제 추적 위젯에 대한 새로운 빠른 액세스 버튼</a> </p>
