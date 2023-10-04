@@ -10,9 +10,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 10a5c04d-adbf-4985-a81c-1b33868ce260
-source-git-commit: 74b9876dbe630ae0e0264bb98f59ad5b61f10501
+source-git-commit: 9317f8ef2f31497dd7bb864472e4da4b1eca8edb
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '348'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 ## 새로운 Workfront 라이선스와 새로운 액세스 수준을 연결하는 방법
 
-새로운 유료 Workfront 라이선스의 3가지 유형을 사용하면 Workfront에 대한 다양한 액세스 수준을 사용할 수 있습니다. 각 액세스 수준은 이러한 라이선스 중 하나에 연결되어 있습니다.
+새로운 Workfront 라이선스의 3가지 유형을 사용하면 Workfront에 대한 다양한 액세스 수준을 사용할 수 있습니다. 각 액세스 수준은 이러한 라이선스 중 하나에 연결되어 있습니다.
 
 Workfront 관리자는 사용자에게 라이선스를 할당하는 대신 해당 라이선스에 첨부된 액세스 수준을 사용자에게 할당합니다.
 
