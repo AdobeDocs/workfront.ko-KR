@@ -7,9 +7,9 @@ description: 현재 Adobe Workfront Fusion에서 사용할 수 있는 공용 템
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 2211431b4c4e3d751519fe8441cfa578e713ac77
+source-git-commit: 12f6d4f261dec50f76b3ecb35e3159900d34bbff
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,29 @@ ht-degree: 0%
 
 ### [!BADGE 신규!]{type=Informative}
 
-이 자동화는 사용자 정의 양식이 있는 프로그램의 새 프로젝트를 감시합니다. 그런 다음 해당 프로그램 사용자 정의 양식 및 필드를 새 프로젝트에 추가합니다.
+이 자동화는 CSV로 지정한 이름, Portfolio, 상태, 계획된 시작 일자 및 템플릿 세부 사항을 기반으로 Workfront에서 새 프로젝트를 만듭니다.
 
 ### [!BADGE 신규!]{type=Informative}
+
+이 템플릿을 사용하여 요청에 대해 30일 노트 업데이트를 적용하십시오. 30일 후에 업데이트되지 않은 요청은 상태가 변경되고 60일에 마감됩니다.
+
+### [!BADGE 신규!]{type=Informative}
+
+이 자동화는 프로젝트를 1005 완료 시 모든 작업이 있는 완료 상태로 업데이트합니다. 진행 중인 문제나 진행 중인 작업 또는 프로젝트 승인이 있는 프로젝트는 업데이트를 받으며, 해결되면 프로젝트가 완료 상태로 이동합니다.
+
+### [!BADGE 신규!]{type=Informative}
+
+이 시나리오를 사용하면 조직의 부실 프로젝트 정책을 충족하는 프로젝트에 대한 경고 및 종료를 자동화할 수 있습니다.
+
+### [!BADGE 신규!]{type=Informative}
+
+이 템플릿을 사용하여 문제 또는 요청의 메모 및 회신을 이미 전환된 프로젝트 또는 작업으로 복사합니다.
+
+### Workfront - 프로그램 사용자 지정 Forms 및 필드 데이터를 연결된 새 프로젝트에 복사
+
+이 자동화는 사용자 정의 양식이 있는 프로그램의 새 프로젝트를 감시합니다. 그런 다음 해당 프로그램 사용자 정의 양식 및 필드를 새 프로젝트에 추가합니다.
+
+### Workfront - Portfolio 사용자 지정 Forms 및 필드 데이터를 연결된 새 프로젝트에 복사
 
 이 자동화는 사용자 정의 양식으로 포트폴리오의 새 프로젝트를 감시합니다. 그런 다음 해당 포트폴리오 사용자 정의 양식 및 필드를 새 프로젝트에 추가합니다.
 
@@ -58,7 +78,7 @@ ht-degree: 0%
 
 이 템플릿은 포트폴리오로 필터링된 프로젝트에 대해 매주 월요일 오전 6시(ET 기준)에 프로젝트 기준선을 캡처하고 로깅을 위해 업데이트 스트림에 업데이트를 만듭니다.
 
-### [!BADGE 신규!]{type=Informative}
+### 정책 시간에 사용되지 않는 프로젝트 템플릿을 찾아 알림
 
 한 달에 한 번, 자체 정책을 사용하여 프로젝트 템플릿을 검토하십시오. 이를 통해 손쉽게 관리할 수 있습니다. 템플릿을 사용하면 정책을 위반하는 템플릿에 대해 적절한 사용자에게 알릴 수 있습니다.
 
@@ -81,6 +101,10 @@ ht-degree: 0%
 >[!NOTE]
 >
 > 이 섹션의 템플릿을 사용하려면 작업 자동화 및 통합용 Workfront Fusion 라이선스가 있어야 합니다.
+
+### [!BADGE 신규!]{type=Informative}
+
+클라이언트 API에 대한 JWT 권한 부여를 설정합니다.
 
 ### APILayer > Workfront - 일일 환율 업데이트 (EUR)
 
@@ -105,6 +129,19 @@ ht-degree: 0%
 ### Workfront에서 Marketo Engage 이메일 초안의 이메일 증명 검토
 
 이 템플릿은 Workfront 작업이 검토 준비됨 상태로 설정되어 있는지 감지한 다음, Marketo Engage에서 이메일 초안을 내보내어 Workfront의 증명으로 저장합니다.
+
+## Workfront-SharePoint 틀
+
+이러한 템플릿은 Workfront 및 SharePoint을 연결합니다.
+
+>[!NOTE]
+>
+> 이 섹션의 템플릿을 사용하려면 작업 자동화 및 통합용 Workfront Fusion 라이선스가 있어야 합니다.
+
+### [!BADGE 신규!]{type=Informative}
+
+이 템플릿을 사용하면 SharePoint 폴더가 변경되었는지 확인할 수 있습니다.
+
 
 ## Workfront-아나플란 틀
 
@@ -131,3 +168,6 @@ Workfront-Anaplan 통합에 대한 자세한 내용은 [Adobe Workfront과 Anapl
 
 * [만들기 [!DNL Anaplan] 의 목록 항목 [!DNL Adobe Workfront] 캠페인 요청](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
 * [적용 [!DNL Anaplan] 에 대한 예산 할당 [!DNL Adobe Workfront] 캠페인 요청 또는 캠페인 프로젝트](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
+
+
+<!--[!BADGE New!]{type=Informative} -->
