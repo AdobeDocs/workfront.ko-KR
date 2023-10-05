@@ -4,9 +4,9 @@ description: 2023년 4분기 릴리스 개요
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: f776fb88000ea6044b88cba88d0cb7198c205d05
+source-git-commit: f0385bd49e11ed95ea36e4ccdf7a6ba4774c3f7e
 workflow-type: tm+mt
-source-wordcount: '1963'
+source-wordcount: '2017'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,25 @@ ht-degree: 0%
                         </p>
                     </td>
                  </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-oct-2.md" class="MCXref xref" xrefformat="{para}">이제 사용자 정의 양식의 계산된 필드에서 $$USER 와일드카드를 사용할 수 있습니다.</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p>
+                        <p>이제 $$USER 와일드카드를 새 양식 디자이너의 계산된 사용자 정의 필드 및 외부 조회 필드에서 사용할 수 있습니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2023년 10월 5일</p>
+                            </li>
+                            <li>
+                                <p>빠른 릴리스를 위한 프로덕션: 23.10 릴리스 포함</p>
+                            </li>
+                            <li>
+                                <p>분기별 릴리스 프로덕션: 23.10 릴리스 포함</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">외부 API의 값 옵션을 사용자 정의 양식에 추가</a></p>
