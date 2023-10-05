@@ -2,17 +2,22 @@
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: 카드에 문서 추가
-description: 곧 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+description: Adobe Workfront 보드에서 연결된 카드에 문서를 추가할 수 있습니다.
 author: Lisa
 feature: Agile
-source-git-commit: 5c7842352a5b69d04e018e13756a2047c77a0855
+exl-id: d68c1eec-c527-44b0-bdc5-ca3b7731b648
+source-git-commit: 72197651cc13b8a8509510663d840b76f4b23a4f
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
 
 # 카드에 문서 추가
+
+>[!IMPORTANT]
+>
+>이 기능은 모든 환경에서 일시적으로 비활성화됩니다.
 
 {{article-preview-and-fast-release}}
 
