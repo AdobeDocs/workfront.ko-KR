@@ -6,9 +6,9 @@ description: 보드를 필터링하여 특정 카드만 표시할 수 있습니�
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: 44ced4ec8af150bc373699389bd63d150cc387f6
+source-git-commit: 55d47665ca53c63142d5b71830fe56a05d991c74
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -91,11 +91,18 @@ ht-degree: 0%
 기본적으로 활성 카드만 보드에 표시됩니다. 보드를 필터링하여 보관된 카드도 표시할 수 있습니다.
 
 1. 보드에 액세스합니다.
+1. 클릭 [!UICONTROL **구성**] 보드 오른쪽에서 Configure 패널을 엽니다.
+1. 확장 [!UICONTROL **카드**].
+1. 켜기 [!UICONTROL **보드에 보관된 카드 표시**].
 1. 클릭 [!UICONTROL **필터**]&#x200B;를 확장합니다. [!UICONTROL 보관된 카드] 섹션, 선택 **[!UICONTROL 보관된 카드]** 보관된 카드를 표시합니다.
 
    필터에는 보관된 카드 수가 표시됩니다.
 
-   ![보관된 카드 필터링](assets/boards-filter-by-archived-cards_0822.png)
+   ![보관된 카드 필터링](assets/filter-by-archived-cards.png)
+
+   >[!NOTE]
+   >
+   >다음 [!UICONTROL 보관된 카드] 보관된 카드를 표시하도록 구성 설정을 켜지 않은 경우 필터에서 섹션을 사용할 수 없습니다.
 
 1. 선택 **[!UICONTROL 보관된 카드]** 다시 클릭하여 옵션을 지우고 활성 카드만 표시합니다.
 
