@@ -6,13 +6,13 @@ description: 이 문서에는 새로운 댓글 달기 환경에 대해 가장 �
 author: Alina
 feature: Product Announcements
 role: User, Admin
-source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
+exl-id: 5ce15530-0858-44a4-b928-779654310dee
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
-
 
 # 새로운 주석 달기 경험 FAQ
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 현재 주석에 대한 이미지 첨부 파일만 지원합니다. 다른 파일 유형을 보려면 기능이 필요한 방식을 파악할 수 있도록 Innovation Lab 요청을 제출하십시오.
 
-## 새 댓글 달기 환경에서 작업 항목의 상태, 상태 또는 계획된 완료 일자 를 편집할 수 있는 기능을 다시 추가하시겠습니까?
+## 새 댓글 달기 경험에서 작업 항목의 상태, 조건, 커밋 일자 또는 계획된 완료 일자를 편집할 수 있는 기능을 다시 추가하시겠습니까?
 
 이러한 작업은 헤더와 객체의 세부 정보 영역에서 사용할 수 있으므로 이러한 작업을 수행할 수 있는 기능을 다시 가져올 계획은 없습니다. 우리는 귀하에게 댓글 스트림 사용 패턴을 변경해 달라고 요청하는 것은 이해하지만, 커뮤니케이션 및 공동 작업을 위한 직접적인 목적으로 댓글 사용 경험을 유지하기 위해 이 작업을 수행하고 있습니다.
 

@@ -4,13 +4,13 @@ description: Adobe Maestro는 Adobe Workfront의 새로운 서비스입니다. �
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '1811'
+source-wordcount: '1818'
 ht-degree: 1%
 
 ---
-
 
 # Adobe 마에스트로 개요
 
@@ -358,6 +358,7 @@ Maestro를 찾으려면
 | 타임라인 보기에서 그룹화 정렬 |                               | ✓ |                  |
 | 작업 공간 연결 |                               | ✓ |                  |
 | Maestro 레코드 및 분류 연결 | ✓ |
+| 표 보기에서 레코드 검색 | ✓ |   |
 | Maestro 기록을 Workfront 프로젝트, 프로그램, 포트폴리오, 회사, 그룹에 연결 | ✓ |                                 |                  |
 | 레코드 세부 정보 페이지 | ✓ |                                  |                  |
 | 레코드 세부 정보 페이지의 레이아웃 업데이트 |                               | ✓ |                  |
@@ -527,7 +528,3 @@ Preview and production: May 31, 2023
 
 You must have at least two date fields associated with a record type in order to create a Timeline view. 
 -->
-
-
-
-

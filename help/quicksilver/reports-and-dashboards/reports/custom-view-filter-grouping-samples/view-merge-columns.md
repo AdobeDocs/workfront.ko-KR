@@ -7,9 +7,9 @@ description: 여러 개별 열에 표시되는 정보를 병합하여 하나의 
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: 976e8c7fe0362392928ac9cd6be1a9ba7c653dda
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1033'
 ht-degree: 0%
 
 ---
@@ -133,7 +133,7 @@ ht-degree: 0%
    `sharecol=true`
 
 
-1. 첫 번째 열에 다음 텍스트를 추가합니다.
+1. 첫 번째 열을 클릭하고 **텍스트 모드로 전환**&#x200B;을 클릭한 후 열에 다음 텍스트를 추가합니다.
 
    `sharecol=true`
 

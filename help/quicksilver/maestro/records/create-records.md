@@ -4,15 +4,15 @@ description: Adobe 마에스트로에서 레코드는 레코드 유형의 인스
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 0%
 
 ---
 
-
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--udpate the metadata with real information when making this available in TOC and in the left nav-->
 
 # 레코드 만들기
 
@@ -167,4 +167,3 @@ Adobe 마에스트로에서 레코드는 레코드 유형의 인스턴스입니�
 
    * 행에는 새 레코드가 포함됩니다
    * 열은 레코드의 필드에 대한 정보를 채웁니다.
-
