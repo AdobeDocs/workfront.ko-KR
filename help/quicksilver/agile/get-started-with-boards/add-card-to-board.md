@@ -6,9 +6,9 @@ description: Ad Hoc 카드를 보드에 빠르게 추가하고 보드에 있는 
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: 0208beb1f45377b151a526738b6d182880c37774
+source-git-commit: b25a165dd85b64a154233b64ae2fc9b676a5aaa2
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '904'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,13 @@ Ad Hoc 카드가 의 작업 항목에 연결되어 있지 않습니다. [!DNL Ad
 1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![](assets/main-menu-icon.png) 의 오른쪽 위 모서리 [!DNL Adobe] Workfront을 클릭한 다음 **[!UICONTROL 게시판]**.
 1. 보드에 액세스합니다. 자세한 내용은 [보드 만들기 또는 편집](../../agile/get-started-with-boards/create-edit-board.md).
 1. 클릭 **[!UICONTROL 카드 추가] > [!UICONTROL 새 카드]**.
+
+   다음 [!UICONTROL 카드 세부 정보] 상자가 나타납니다.
+
+   >[!NOTE]
+   >
+   >이름 필드 외부를 클릭하면 Ad Hoc 카드가 맨 왼쪽 열 하단에 자동으로 &quot;제목 없음&quot;으로 저장됩니다. 카드를 저장하지 않고 종료하려면 [!UICONTROL **취소**] 의 아무 곳이나 클릭하지 않고 [!UICONTROL 카드 세부 정보] 상자.
+
 1. 다음에서 **[!UICONTROL 카드 세부 정보]** 상자에서 다음 정보를 추가합니다.
 
    <table style="table-layout:auto"> 
