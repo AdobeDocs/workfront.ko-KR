@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
+source-git-commit: 7614652b57c57e1176dfb48058f890fd4e5c942e
 workflow-type: tm+mt
-source-wordcount: '1659'
+source-wordcount: '1687'
 ht-degree: 4%
 
 ---
@@ -145,12 +145,6 @@ Maestro 테이블 보기의 열 헤더에는 보기의 레코드와 관련된 �
    >
    >* 이름 필드가 고정되어 있고 가로 스크롤의 일부가 아닙니다.
 
-1. 한 행에서 하나 이상의 레코드를 선택한 다음 **핸들** 아이콘 ![](assets/handle-icon.png) 레코드 이름 왼쪽에 행 순서를 변경합니다.
-
-   >[!NOTE]
-   >
-   >테이블 뷰에 정렬을 하나 이상 적용하면 행 순서를 재정렬할 수 없습니다.
-
 1. 열 구분선을 클릭하고 드래그하여 원하는 위치에 놓아 열의 너비를 늘립니다.
 
    >[!TIP]
@@ -191,9 +185,16 @@ Maestro 테이블 보기의 행에는 선택한 레코드 유형의 개별 레�
 
 Maestro에서 레코드 유형에 대해 최대 10,000개의 레코드(또는 행)를 가질 수 있습니다.
 
-Maestro 테이블 보기에 행을 추가하는 것은 테이블에서 레코드를 만드는 것과 같습니다.
+1. 레코드 유형 페이지로 이동하여 **표** 보기 드롭다운 메뉴에서 보기
+1. 문서에 설명된 대로 레코드(또는 행) 추가를 시작합니다 [레코드 만들기](../records/create-records.md).
 
-자세한 내용은 [레코드 만들기](../records/create-records.md).
+   표 보기에서 추가하는 레코드는 즉시 저장되며 Maestro에 액세스하는 모든 사용자에게 표시됩니다. <!--this will change with permissions-->
+
+1. (선택 사항) 한 행에서 하나 이상의 레코드를 선택한 다음 **핸들** 아이콘 ![](assets/handle-icon.png) 레코드 이름 왼쪽에 행 순서를 변경합니다.
+
+   >[!NOTE]
+   >
+   >테이블 뷰에 정렬을 하나 이상 적용하면 행 순서를 재정렬할 수 없습니다.
 
 <!-- this is not possible right now:
 

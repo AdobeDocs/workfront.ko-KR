@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 3aad2a3d9ad32313cb14670965bc3ad05ab215d3
+source-git-commit: 7614652b57c57e1176dfb48058f890fd4e5c942e
 workflow-type: tm+mt
-source-wordcount: '2421'
+source-wordcount: '2510'
 ht-degree: 8%
 
 ---
@@ -315,12 +315,17 @@ ht-degree: 8%
 
    * 가져오려는 개체가 Workfront 시스템에 이미 있는 경우(입력한 경우) **FALSE** 다음에서 **isNew** column)을 입력하면 ID는 해당 개체의 Workfront에 있는 영숫자 GUID여야 합니다.
 
+     ![그룹에 대한 샘플 ID](assets/kick-start-group-example.png)
+
+   * 프로젝트를 가져올 때 그룹 ID를 표시해야 합니다.
+
+      * 그룹이 Workfront에 이미 있는 경우 고유한 ID를 **집합 ID** 프로젝트용 필드입니다.
+      * 그룹이 Workfront에 없는 경우 **그룹** 시트를 가져오기 파일로 설정한 다음 **isNew** 필드 대상 **참** 그룹 시트에서 새 그룹의 숫자 ID를 **ID** 열. 다음 **집합 ID** 새 프로젝트의 필드는 숫자와 일치해야 합니다. **ID** 새 그룹용입니다.
+
      **예:** 프로젝트의 경우 다음에 표시되는 값 **집합 ID** 열은 다음 중 하나여야 합니다.
 
       * Workfront 인스턴스의 기존 그룹에 대한 GUID
       * 의 ID 열에 있는 값(숫자) **그룹** 시트(가져오는 동안 새 그룹을 만드는 경우)
-
-        ![그룹에 대한 샘플 ID](assets/kick-start-group-example.png)
 
 1. 가져오기 중에 채울 필수 필드 및 기타 필드의 입력 값.
 1. (선택 사항) 사용자 지정 데이터를 추가하려면:
@@ -390,7 +395,7 @@ Workfront에서도 시간 값을 날짜의 일부로 허용합니다(예: 07/10/
 
 가능하면 ID를 사용하는 것이 좋지만 를 설정할 때 한 시트에서 다른 시트로 ID를 상호 참조하기가 불편한 경우가 있습니다 **setAttributeID** 값. 열 머리글을 변경하여 이름별로 값을 참조할 수 있습니다.
 
-**예:**
+**예시:**
 
 * **(프로젝트 가져오기)**
 
