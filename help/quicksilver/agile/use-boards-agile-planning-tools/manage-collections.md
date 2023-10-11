@@ -7,14 +7,18 @@ description: 작업 스트림은 작업에 대해 공동 작업하기 위해 구
 author: Lisa
 feature: Agile
 exl-id: c46c42e8-e14d-414d-b883-c4d885338e42
-source-git-commit: 0ccec525069557fdc2a17e37e00968f8fb6d3a41
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '915'
 ht-degree: 2%
 
 ---
 
 # 작업 스트림 관리
+
+>[!IMPORTANT]
+>
+>작업 스트림은 특정 고객 그룹만 사용할 수 있습니다.
 
 작업 스트림은 작업에 대해 공동 작업하기 위해 구성 가능한 보드 및 카드 그룹입니다. 작업 스트림에는 템플릿과 작업 항목의 카드 목록에서 생성된 다양한 유형의 보드가 포함될 수 있습니다. 워크스트림에서 반복 또는 스프린트로 작업을 추적할 수 있습니다.
 

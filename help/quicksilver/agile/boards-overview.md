@@ -7,9 +7,9 @@ description: Adobe Workfront 보드는 열과 카드가 포함된 공유 보드�
 author: Lisa
 feature: Agile
 exl-id: 7382e338-3e4c-4a93-a0d4-87ef52f69f36
-source-git-commit: 11e239bd47a007adbec1770dafc7f7a5d97eb57e
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,7 @@ ht-degree: 0%
 * 상태 또는 범주를 표시하도록 열 구성
 * 개방형 카드(Ad Hoc 카드 또는 연결된 카드)를 사용하여 워크플로 사용자 지정 [!DNL Workfront] 작업 및 문제)
 * 한 곳에서 팀의 작업 구성 및 관리
-* 작업 스트림을 사용하여 데이터(예: 보드 및 카드)를 그룹화하고 작업에 대해 공동 작업합니다
-* 카드 목록 및 반복 계획뿐만 아니라 Kanban 보드에 대한 접수 열과 같은 애자일 계획 도구를 사용합니다
+* 칸반 보드에 대한 접수 열과 같은 애자일 계획 도구 사용
 
 기본 보드 기능을 사용하는 방법에 대한 자세한 내용은 [에서 보드 시작 [!DNL Adobe Workfront]](../agile/get-started-with-boards/get-started-with-boards.md). 보드의 애자일 계획 도구에 대한 자세한 내용은 [애자일 계획 도구 개요](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md).
 

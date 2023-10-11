@@ -7,16 +7,16 @@ description: Workfront에서 보드를 삭제하거나 보관할 수 있습니�
 author: Lisa
 feature: Agile
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: c1bc58be18e43a0c9cce10d0117a186ba2abca9e
+source-git-commit: a3e9b758867bdbad6afbc0e6cc5e6c81a54f6030
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '328'
 ht-degree: 1%
 
 ---
 
 # 보드 삭제 또는 보관
 
-보드를 삭제하거나 보관할 수 있습니다. [!DNL Workfront]. 보드를 삭제하면 다음에서 영구적으로 제거됩니다. [!DNL Workfront]를 사용하는 동안 보드에 모든 카드가 보관되어 나중에 복원할 수 있습니다. 이러한 옵션은 독립형 보드와 작업 스트림의 일부인 보드에 모두 적용됩니다.
+보드를 삭제하거나 보관할 수 있습니다. [!DNL Workfront]. 보드를 삭제하면 다음에서 영구적으로 제거됩니다. [!DNL Workfront]를 사용하는 동안 보드에 모든 카드가 보관되어 나중에 복원할 수 있습니다.
 
 ## 액세스 요구 사항
 

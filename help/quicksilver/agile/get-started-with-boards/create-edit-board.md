@@ -6,9 +6,9 @@ description: 다음에서 [!UICONTROL 게시판] 대시보드에서 새 보드�
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '692'
 ht-degree: 3%
 
 ---
@@ -16,8 +16,6 @@ ht-degree: 3%
 # 보드 만들기 또는 편집
 
 다음에서 [!UICONTROL 게시판] 대시보드에서 새 보드를 만들거나 기존 보드를 편집할 수 있습니다.
-
-워크스트림에 보드를 추가하려면 를 참조하십시오. [작업 스트림 관리](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
 ## 액세스 요구 사항
 
@@ -43,7 +41,7 @@ ht-degree: 3%
 ## 새 게시판 만들기
 
 1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![](assets/main-menu-icon.png) 의 오른쪽 위 모서리 [!DNL Adobe Workfront]을 클릭한 다음 을 클릭합니다 **[!UICONTROL 게시판]**.
-1. 독립 실행형 보드를 만들려면 **[!UICONTROL 보드 추가]** 다음에서 [!UICONTROL 게시판] 영역입니다. 워크스트림에 보드를 추가하려면 를 참조하십시오. [작업 스트림 관리](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
+1. 클릭 **[!UICONTROL 보드 추가]**.
 
 1. 보드에 사용할 템플릿을 선택합니다.
 

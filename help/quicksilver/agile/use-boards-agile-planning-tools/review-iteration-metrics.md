@@ -7,14 +7,18 @@ description: 지표는 작업 스트림의 각 반복에 대해 반복 프로세
 author: Lisa
 feature: Agile
 exl-id: 09743566-161d-4850-9a1a-b96da6d537a7
-source-git-commit: bda865111eacf5df874a09f184db039b5f837765
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
 
 # 반복 지표 검토
+
+>[!IMPORTANT]
+>
+>작업 스트림은 특정 고객 그룹만 사용할 수 있습니다.
 
 지표는 작업 스트림의 각 반복에 대해 반복 프로세스 보드와 대시보드에서 사용할 수 있습니다.
 

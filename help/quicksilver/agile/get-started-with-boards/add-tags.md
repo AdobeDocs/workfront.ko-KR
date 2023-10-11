@@ -6,16 +6,20 @@ description: 카드에 태그를 추가하여 비슷하다는 것을 시각적�
 author: Lisa
 feature: Agile
 exl-id: 0071fa0d-8164-42d2-bbc6-bd60f8e0c052
-source-git-commit: 14175ce94c1395138a31f47ad72951f0120f11ee
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '534'
 ht-degree: 2%
 
 ---
 
 # 태그 추가
 
-카드에 태그를 추가하여 비슷하다는 것을 시각적으로 표시할 수 있습니다. 그런 다음 해당 태그로 필터링하여 관련 카드를 표시할 수 있습니다. 보드 태그는 보드 간에 공유되지 않지만 작업 스트림 태그는 작업 스트림의 모든 보드에서 사용할 수 있습니다.
+카드에 태그를 추가하여 비슷하다는 것을 시각적으로 표시할 수 있습니다. 그런 다음 해당 태그로 필터링하여 관련 카드를 표시할 수 있습니다.
+
+>[!NOTE]
+>
+>태그는 보드 간에 공유되지 않습니다.
 
 ## 액세스 요구 사항
 
@@ -57,6 +61,12 @@ ht-degree: 2%
    ![태그 관리자](assets/tag-manager-2023.png)
 
 ## 작업 스트림에 대한 태그 만들기
+
+>[!IMPORTANT]
+>
+>작업 스트림은 특정 고객 그룹만 사용할 수 있습니다.
+
+작업 스트림 태그는 작업 스트림의 모든 보드에서 사용할 수 있습니다.
 
 {{step1-to-boards}}
 

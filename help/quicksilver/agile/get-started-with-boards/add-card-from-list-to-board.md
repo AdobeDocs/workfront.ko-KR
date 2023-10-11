@@ -6,14 +6,18 @@ description: 목록 또는 보고서 보기에서 Adobe Workfront의 보드에 �
 author: Lisa
 feature: Agile
 exl-id: 5e6fd681-8068-4091-9f42-0364b17e0465
-source-git-commit: eb337ec6b467cd4f52d852dc90975c0679ef59fe
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
 
 # 에 기존 작업 또는 문제 추가 [!DNL Adobe Workfront] 보드 또는 워크플로우
+
+>[!IMPORTANT]
+>
+>작업 스트림은 특정 고객 그룹만 사용할 수 있습니다.
 
 의 게시판이나 워크스트림에 작업 또는 문제를 추가할 수 있습니다. [!DNL Adobe Workfront] 목록 또는 보고서 보기, 객체 세부 정보에서
 

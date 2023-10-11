@@ -7,14 +7,18 @@ description: 반복은 작업을 완료하기 위해 예약된 설정된 시간�
 author: Lisa
 feature: Agile
 exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
-source-git-commit: 0ca3428d7442564a9753db04790fd40839ae24ea
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '379'
 ht-degree: 1%
 
 ---
 
 # 작업 스트림에 반복 만들기
+
+>[!IMPORTANT]
+>
+>작업 스트림은 특정 고객 그룹만 사용할 수 있습니다.
 
 반복은 작업을 완료하기 위해 예약된 설정된 시간입니다. 일부 애자일 팀은 반복을 스프린트로 지칭할 수 있습니다.
 
