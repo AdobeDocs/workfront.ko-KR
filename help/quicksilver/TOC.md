@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: f0385bd49e11ed95ea36e4ccdf7a6ba4774c3f7e
+source-git-commit: 372f330849bfcdc265e567931527497ddb19d9bb
 workflow-type: tm+mt
-source-wordcount: '13343'
+source-wordcount: '13347'
 ht-degree: 1%
 
 ---
@@ -971,6 +971,7 @@ ht-degree: 1%
       * [보드에서 연결된 카드 사용](agile/get-started-with-boards/connected-cards.md)
       * [보드에 기존 작업 또는 문제 추가](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md)
       * [카드 관리](agile/get-started-with-boards/move-board-items.md)
+      * [보드에서 하위 작업 관리](/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md)
       * [카드의 체크리스트 항목 관리](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md)
       * [카드에 문서 추가](/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md)
       * [카드에 표시할 필드 사용자 지정](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)

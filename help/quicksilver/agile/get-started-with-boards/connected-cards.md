@@ -6,9 +6,9 @@ description: Workfront의 기존 작업 및 문제에 연결된 카드를 보드
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 0208beb1f45377b151a526738b6d182880c37774
+source-git-commit: e7b4fef2485f08df6655b5e441784ae84fc36de8
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1426'
 ht-degree: 0%
 
 ---
@@ -134,9 +134,17 @@ ht-degree: 0%
       <td><p>추가한 모든 사용자 정의 필드가 이 영역에 표시됩니다.</p>
       <p>자세한 내용은 <a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md">카드에 표시할 필드 사용자 지정</a>.</p></td>
      </tr>
+     <tr>
+     <tr>
+      <td role="rowheader"><span class="preview"><strong>[!UICONTROL 하위 작업]</strong></span></td>
+      <td><span class="preview"><p>작업에 대한 기존 하위 작업이 이 섹션에 표시됩니다. 클릭 <strong>[!UICONTROL 하위 작업 추가]</strong> 을 눌러 새 하위 작업을 추가합니다.</p>
+      <p>섹션 맨 위에 있는 카운터는 완료된 하위 작업 수와 총 하위 작업 수를 보여 줍니다.</p>
+      <p>하위 작업에 대한 자세한 내용은 <a href="/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md">보드에서 하위 작업 관리</a>.</p></span></td>
+     </tr>
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 검사 목록]</strong> </td> 
-      <td> <p>클릭 <strong>[!UICONTROL 체크리스트 항목 추가]</strong>. 그런 다음 항목의 제목을 입력하고 Enter 키를 누릅니다. 다른 항목이 자동으로 추가됩니다. 제목을 계속 입력하여 더 많은 항목을 추가합니다.</p> <p>체크리스트 상단의 카운터는 완료된 품목 수와 전체 품목 수를 보여준다.</p> <p>체크리스트 항목에 대한 자세한 내용은 <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">카드의 체크리스트 항목 관리</a>.</p></td>
+      <td role="rowheader"><strong>[!UICONTROL 검사 목록]</strong></td>
+      <td><p>클릭 <strong>[!UICONTROL 체크리스트 항목 추가]</strong>. 그런 다음 항목의 제목을 입력하고 Enter 키를 누릅니다. 다른 항목이 자동으로 추가됩니다. 제목을 계속 입력하여 더 많은 항목을 추가합니다.</p>
+      <p>체크리스트 상단의 카운터는 완료된 품목 수와 전체 품목 수를 보여준다.</p> <p>체크리스트 항목에 대한 자세한 내용은 <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">카드의 체크리스트 항목 관리</a>.</p></td>
      </tr>
      <tr>
       <td role="rowheader"><span class="preview"><strong>[!UICONTROL 문서]</strong></span></td>
