@@ -4,13 +4,13 @@ description: Adobe Maestro에서 각 유형의 운영 레코드 유형 또는 �
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
+source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
-source-wordcount: '2555'
+source-wordcount: '2600'
 ht-degree: 2%
 
 ---
-
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
@@ -186,6 +186,7 @@ Adobe Maestro에서 운영 레코드 유형 또는 분류법에 대한 사용자
    * [백분율](#percentage)
    * [통화](#currency)
    * [확인란](#checkbox)
+     <!--* [People](#people)-->
 
    >[!IMPORTANT]
    >
@@ -201,7 +202,7 @@ Adobe Maestro에서 운영 레코드 유형 또는 분류법에 대한 사용자
 
    ![](assets/single-line-text-field-type.png)
 
-1. 다음 정보를 추가합니다.
+1. 에 다음 정보를 추가합니다. **새 필드** 탭:
    * **이름**: 테이블 또는 레코드의 세부 정보 페이지에 표시되는 필드 유형의 이름입니다. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **설명**: 필드에 대한 추가 정보입니다. 테이블의 필드 열 헤더 위로 마우스를 가져가면 필드에 대한 설명이 표시됩니다.
 1. Click **Create**.
@@ -213,12 +214,22 @@ Adobe Maestro에서 운영 레코드 유형 또는 분류법에 대한 사용자
 
 단락 필드는 설명 필드와 마찬가지로 레코드에 대한 추가 영숫자 정보를 캡처합니다. 단락 필드의 컨텐츠는 최대 1,000자까지 사용할 수 있습니다.
 
+<!-- remove the last sentence above and add this tip when we go to rich text: 
+
+>[!TIP]
+>
+>* The content of a paragraph field can have up to 1,000 characters. 
+
+* You can use Rich Text formatting to enhance the content of paragraph fields when they display in the table view or the Details page of a record. (********check to make sure this is true about Details page***********)
+
+-->
+
 1. 섹션에 설명된 대로 필드 만들기를 시작합니다. [처음부터 필드 만들기](#create-fields-from-scratch) 이 문서에서 **단락** 필드 유형입니다.
 
    ![](assets/paragraph-field-type.png)
 
 
-1. 다음 정보를 추가합니다.
+1. 에 다음 정보를 추가합니다. **새 필드** 탭:
    * **이름**: 테이블 또는 레코드의 세부 정보 페이지에 표시되는 필드 유형의 이름입니다. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **설명**: 필드에 대한 추가 정보입니다. 필드의 설명은 테이블에서 필드의 열 위로 마우스를 가져가면 표시됩니다.
 1. Click **Create**.
@@ -235,7 +246,7 @@ Adobe Maestro에서 운영 레코드 유형 또는 분류법에 대한 사용자
    ![](assets/multi-select-field-type.png)
 
 
-1. 다음 정보를 추가합니다.
+1. 에 다음 정보를 추가합니다. **새 필드** 탭:
    * **이름**: 테이블 또는 레코드의 세부 정보 페이지에 표시되는 필드 유형의 이름입니다. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **설명**: 필드에 대한 추가 정보입니다. 필드의 설명은 테이블에서 필드의 열 위로 마우스를 가져가면 표시됩니다.
    * **선택 사항**: 필드가 저장된 후 드롭다운 메뉴에서 선택할 수 있는 옵션입니다. 각 선택 항목의 이름에 숫자와 문자를 모두 사용할 수 있습니다.
@@ -257,7 +268,7 @@ Adobe Maestro에서 운영 레코드 유형 또는 분류법에 대한 사용자
    ![](assets/single-select-field-type.png)
 
 
-1. 다음 정보를 추가합니다.
+1. 에 다음 정보를 추가합니다. **새 필드** 탭:
    * **이름**: 테이블 또는 레코드의 세부 정보 페이지에 표시되는 필드 유형의 이름입니다. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **설명**: 필드에 대한 추가 정보입니다. 필드의 설명은 테이블에서 필드의 열 위로 마우스를 가져가면 표시됩니다.
    * **선택 사항**: 필드가 저장된 후 드롭다운 메뉴에서 선택할 수 있는 옵션입니다. 각 선택 항목의 이름에 숫자와 문자를 모두 사용할 수 있습니다.
@@ -279,7 +290,7 @@ Adobe Maestro에서 운영 레코드 유형 또는 분류법에 대한 사용자
    ![](assets/date-field-type.png)
 
 
-1. 다음 정보를 추가합니다.
+1. 에 다음 정보를 추가합니다. **새 필드** 탭:
    * **이름**: 테이블 또는 레코드의 세부 정보 페이지에 표시되는 필드 유형의 이름입니다. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **설명**: 필드에 대한 추가 정보입니다. 필드의 설명은 테이블에서 필드의 열 위로 마우스를 가져가면 표시됩니다.
    * **날짜 형식**: 이 필드에 표시할 날짜 형식의 유형입니다.
@@ -308,7 +319,7 @@ Adobe Maestro에서 운영 레코드 유형 또는 분류법에 대한 사용자
 1. 섹션에 설명된 대로 필드 만들기를 시작합니다. [처음부터 필드 만들기](#create-fields-from-scratch) 이 문서에서 **숫자** 필드 유형입니다.
 
    ![](assets/number-field-type.png)
-1. 다음 정보를 추가합니다.
+1. 에 다음 정보를 추가합니다. **새 필드** 탭:
 
    * **이름**: 테이블 또는 레코드의 세부 정보 페이지에 표시되는 필드 유형의 이름입니다.
    * **설명**: 필드에 대한 추가 정보입니다. 필드의 설명은 테이블에서 필드의 열 위로 마우스를 가져가면 표시됩니다.
@@ -331,7 +342,7 @@ Adobe Maestro에서 운영 레코드 유형 또는 분류법에 대한 사용자
 
    ![](assets/percentage-field-type.png)
 
-1. 다음 정보를 추가합니다.
+1. 에 다음 정보를 추가합니다. **새 필드** 탭:
    * **이름**: 테이블 또는 레코드의 세부 정보 페이지에 표시되는 필드 유형의 이름입니다.
    * **설명**: 필드에 대한 추가 정보입니다. 필드의 설명은 테이블에서 필드의 열 위로 마우스를 가져가면 표시됩니다.
    * **정밀도**: 필드에 기록할 소수 자릿수입니다. 최대 6개의 소수를 표시할 수 있습니다.
@@ -353,7 +364,7 @@ Adobe Maestro에서 운영 레코드 유형 또는 분류법에 대한 사용자
 
    ![](assets/currency-field-type.png)
 
-1. 다음 정보를 추가합니다.
+1. 에 다음 정보를 추가합니다. **새 필드** 탭:
    * **이름**: 테이블 또는 레코드의 세부 정보 페이지에 표시되는 필드 유형의 이름입니다. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **설명**: 필드에 대한 추가 정보입니다. 필드의 설명은 테이블에서 필드의 열 위로 마우스를 가져가면 표시됩니다.
    * **통화**: 이 필드에 표시할 통화 유형입니다. ISO(International Organization of Standardization)에 따른 통화 목록입니다.
@@ -376,12 +387,30 @@ Adobe Maestro에서 운영 레코드 유형 또는 분류법에 대한 사용자
 
    ![](assets/checkbox-field-type.png)
 
-1. 다음 정보를 추가합니다.
+1. 에 다음 정보를 추가합니다. **새 필드** 탭:
    * **이름**: 테이블 또는 레코드의 세부 정보 페이지에 표시되는 필드 유형의 이름입니다. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **설명**: 필드에 대한 추가 정보입니다. 필드의 설명은 테이블에서 필드의 열 위로 마우스를 가져가면 표시됩니다.
 1. Click **Create**.
 
    새 확인란 필드가 레코드 유형에 열로 추가되고 해당 값을 레코드와 연결할 수 있습니다. 필드는 레코드의 세부 정보 페이지에도 표시됩니다.
+
+<!--
+### People
+
+You can use the People field type to add a user, job role, or team to a record. This is a type-ahead field, and you can add only users, roles, or teams that already exist in Workfront.
+ 
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **People** field type.
+ 
+    ***************INSERT SCREEN SHOT HERE - DO YOU HAVE TO REPLACE OTHER SCREEN SHOTS ABOVE OR IN OTHER DOCS THAT SHOW ALL THE FIELDS, IN INCLUDE THE NEW ONE?! ***************
+
+1. Add the following information in the **New field** tab:
+     * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. *************ensure they updated this; and update the screen shot: it used to be "Label"**********
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
+1. Click **Create**.
+
+    The new People-type field is added as a column to the record type and its values can be associated with records. The field also displays on the Details page of a record. 
+
+-->
 
 ## 레코드 유형을 함께 연결하여 필드 만들기
 
@@ -402,6 +431,3 @@ Maestro 레코드 유형 연결에 대한 자세한 내용은 [레코드 유형 
 템플릿에서 작업 영역을 만들 때 Maestro는 작동 기록 유형 및 분류법에 대한 필드를 만듭니다.
 
 자세한 내용은 [작업 공간 만들기](../architecture-and-fields/create-workspaces.md).
-
-
-

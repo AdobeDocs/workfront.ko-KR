@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 0%
@@ -148,7 +148,7 @@ Workfront은 관리자가 다른 사용자로 로그인하는 동안 발생하�
 
 예를 들어 다른 사용자로 로그인된 상태에서 항목에 댓글을 다는 경우, 문은 사용자가 해당 댓글을 대신 작성했음을 나타냅니다.
 
-<!--you might need to reword this note when we go to a global way for the update stream; or refer to areas where this is possible as something else than "New commenting" - not sure if this will affect areas that stay old, like iterations???-->
+<!--remove the note below when we bring this back to Prod: -->
 
 >[!NOTE]
 >

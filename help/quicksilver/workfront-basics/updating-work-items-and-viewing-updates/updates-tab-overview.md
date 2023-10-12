@@ -7,7 +7,7 @@ description: 객체의 업데이트 섹션에는 사용자가 객체에 대해 �
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 096d4a50ae4c392f149d4dd54b19c6f1c86c5b1b
+source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 4%
@@ -327,7 +327,7 @@ Adobe Workfront 관리자 및 그룹 관리자는 다른 사용자로 로그인�
 
 다른 사용자를 대신하여 작성한 모든 주석은 주석에 표시됩니다.
 
-<!--might need to update this note when the new commenting experience will be the only experience; also - how will this affect the areas that will keep the old experience, like Iterations?-->
+<!--remove the note below when we release this back to the new commenting-->
 
 >[!NOTE]
 >

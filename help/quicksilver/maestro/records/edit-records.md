@@ -4,13 +4,13 @@ description: Adobe 마에스트로에서 레코드 정보를 편집할 수 있�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
+source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '577'
 ht-degree: 1%
 
 ---
-
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
@@ -88,7 +88,7 @@ Adobe 마에스트로에서 레코드 정보를 편집할 수 있습니다. 레�
 * 사용자 또는 다른 사용자가 만든 레코드를 편집할 수 있습니다. <!--will change with access levels-->
 * 편집된 레코드가 다른 레코드에 연결되어 있는 경우 편집 중인 레코드의 새 정보는 연결된 레코드에 반영됩니다.
 * 레코드를 일괄적으로 편집할 수 없습니다. <!--this will probably change-->
-
+* 다른 레코드에서 연결된 필드는 편집할 수 없습니다.
 
 ## 레코드 편집
 
@@ -145,6 +145,11 @@ Adobe 마에스트로에서 레코드 정보를 편집할 수 있습니다. 레�
    >* 연결된 필드는 편집할 수 없습니다. 이러한 필드에 대한 정보는 연결된 레코드에서 자동으로 채워집니다. 자세한 내용은 [레코드 유형 연결](../architecture-and-fields/connect-record-types.md).
    >
    >* URL은 http://, https://, ftp:// 또는 www로 시작하는 경우에만 한 줄 텍스트 필드 유형에서 링크로 인식됩니다. .
+<!--for rich text formatting - when released:
 
+1. (Conditional) When you edit a Paragraph-type field, use the following Rich Text formatting capabilities: 
 
-
+    * Bold
+    * Italic
+    * Underline (*****anything else?? insert a screen shot?***********)
+-->

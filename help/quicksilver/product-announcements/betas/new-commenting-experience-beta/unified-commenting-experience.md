@@ -7,7 +7,7 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: b0447fd2ea9419fabcc21a1131910485c18b75d0
+source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
 source-wordcount: '1036'
 ht-degree: 3%
@@ -50,7 +50,7 @@ For additional resources for the new commenting experience, also see the followi
 * 시스템 업데이트에 대한 주석 달기
 * 댓글을 달면서 상태, 조건, 커밋 일자를 편집할 수 있는 기능
 * 사용자 정의 양식 편집
-* Workfront 또는 그룹 관리자가 다른 사용자로 로그인하여 주석을 추가할 때의 &quot;대신하여 &lt; 사용자 이름 >&quot; 정보입니다.
+* Workfront 또는 그룹 관리자가 다른 사용자로 로그인하여 주석을 추가할 때의 &quot;대신하여 &lt; 사용자 이름 >&quot; 정보입니다. <!-- Replace this bullet with this, when re bring this back: The "on behalf of < user name >" information when a Workfront or group administrator logs in as another user and adds a comment on their behalf was originally removed. It has been reinstated in October 2023.-->
 * 문서에 주석을 추가하는 동안 다른 사용자에게 태그를 지정할 때 &quot;승인 요청&quot; 옵션이 표시됩니다.
 
 >[!NOTE]

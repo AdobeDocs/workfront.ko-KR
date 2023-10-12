@@ -6,8 +6,8 @@ description: Adobe Workfront의 새로운 댓글 달기 환경에 대한 주간 
 author: Alina
 feature: Product Announcements
 role: User, Admin
-exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
+source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
 source-wordcount: '2047'
 ht-degree: 2%
@@ -70,6 +70,18 @@ ht-degree: 2%
 다음 섹션에는 원래 23.2 릴리스 이후 가장 최근에 릴리스된 기능부터 추가된 기능 목록이 포함되어 있습니다.
 
 다음 정보는 새 댓글 달기 Beta 경험에 포함된 기능을 기반으로 매주 릴리스 활동을 참조합니다. 이 문서에는 새로운 댓글 달기 환경에 대해 추가된 새로운 기능과 해결된 문제가 나열되어 있습니다.
+
+<!--CHECK THE DATES BELOW, BEFORE POSTING: 
+
+### Week of October 9, 2023
+
+#### Add back the "on behalf of <user name>" information when commenting on behalf of other users
+
+While redesigning the commenting experience, we had removed the "on behalf of < user name >" indicator when a Workfront or group administrator added comments while logged in as another user. This information has now been restored. 
+
+Preview and production for all customers: October 13, 2023. 
+
+-->
 
 ### 2023년 9월 11일 주
 
