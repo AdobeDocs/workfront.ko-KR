@@ -3,9 +3,10 @@ title: 23.3 Financial Management 개선 사항
 description: 23.3 Financial Management 개선 사항
 author: Lisa
 feature: Product Announcements
-source-git-commit: 685529997d785b1bd98ef0fbc97b47dc59ea0244
+exl-id: dc8ea58d-ad8a-45c8-bd02-552ab6127c38
+source-git-commit: 46d0a392875f24a55ebddaa7ff123bca0289a0bf
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -27,7 +28,7 @@ ht-degree: 0%
 >
 >* Fast 릴리스 고객을 위한 프로덕션 릴리스: 23.3 프로덕션 릴리스 이후 발표될 예정입니다
 >
->* 모든 고객을 위한 프로덕션 릴리스: 모든 고객을 위한 프로덕션 릴리스: 23.10 릴리스(2023년 10월) 포함
+>* 모든 고객을 위한 프로덕션 릴리스: 모든 고객을 위한 프로덕션 릴리스: 발표 예정
 >
 >할당률 재정의 기능이 2023년 6월 30일부터 7월 13일까지 미리보기에서 일시적으로 비활성화되었습니다.
 

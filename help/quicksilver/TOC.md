@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: f3dc40ec75433508ab617bbdbd0f5cb57866f411
+source-git-commit: 0df32f5b41f4b426325d3eab8f70a4ef2538b452
 workflow-type: tm+mt
-source-wordcount: '13352'
+source-wordcount: '13344'
 ht-degree: 1%
 
 ---
@@ -21,12 +21,13 @@ ht-degree: 1%
       * [Adobe Workfront 분기 릴리스 준비](product-announcements/product-releases/release-readiness.md)
       * 2023년 4분기 릴리스 {#release-23-q4}
          * [2023년 4분기 릴리스 개요](product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)
-         * [2023년 7월 24일의 2023년 4분기 릴리스 주](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-26.md)
-         * [2023년 7월 31일의 2023년 4분기 릴리스 주](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md)
-         * [2023년 8월 14일의 2023년 4분기 릴리스 주](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md)
-         * [2023년 8월 21일의 2023년 4분기 릴리스 주](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md)
-         * [2023년 9월 11일의 2023년 4분기 릴리스 주](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md)
-         * [2023년 10월 2일의 2023년 4분기 릴리스 주](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-oct-2.md)
+         * [2023년 4분기 관리자 개선 사항](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md)
+         * [2023년 4분기 보드 개선 사항](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md)
+         * [2023년 4분기 재무 관리 개선 사항](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-financial-mgmt-enhancements.md)
+         * [2023년 4분기 홈 개선 사항](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md)
+         * [2023년 4분기 통합 개선 사항](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md)
+         * [2023년 4분기 프로젝트 개선 사항](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md)
+         * [2023년 4분기 기타 개선 사항](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md)
          * [2023년 4분기 릴리스 기간 동안의 룩앤필 업데이트](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-look-and-feel-updates.md)
       * 23.3 릴리스 {#release-23-3}
          * [23.3 릴리스 개요](product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)

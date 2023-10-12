@@ -3,10 +3,10 @@ title: 23.3 릴리스 개요
 description: 23.3 릴리스 개요
 author: Becky
 feature: Product Announcements
-exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 53c124eec4d78b59e5b44e95ec28db7de779aec7
+exl-id: 441d84d6-6c40-4a03-967e-836cf78c8fc1
+source-git-commit: 46d0a392875f24a55ebddaa7ff123bca0289a0bf
 workflow-type: tm+mt
-source-wordcount: '2738'
+source-wordcount: '2737'
 ht-degree: 0%
 
 ---
@@ -361,7 +361,7 @@ ht-degree: 0%
                             </li>
                             <li>
                                 <p>Fast 릴리스 고객을 위한 프로덕션 릴리스: 23.3 프로덕션 릴리스 이후 발표될 예정입니다</p>
-                                <p>모든 고객을 위한 프로덕션 릴리스: 23.10 릴리스 포함(2023년 10월)<br>
+                                <p>모든 고객을 위한 프로덕션 릴리스: 발표 예정<br>
                                 할당률 재정의 기능이 2023년 6월 30일부터 7월 13일까지 미리보기에서 일시적으로 비활성화되었습니다.</p>
                             </li>
                         </ul>

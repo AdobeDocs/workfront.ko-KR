@@ -6,9 +6,9 @@ description: Workfront의 기존 작업 및 문제에 연결된 카드를 보드
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: e7b4fef2485f08df6655b5e441784ae84fc36de8
+source-git-commit: 99e985642fff751ac67a9de562908bd2156b3812
 workflow-type: tm+mt
-source-wordcount: '1426'
+source-wordcount: '1427'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,7 @@ ht-degree: 0%
 * [!UICONTROL 상태]
 * [!UICONTROL 계획된 완료 일자]
 * [!UICONTROL 예상] / [!UICONTROL 스토리 포인트]
+* <span class="preview">[!UICONTROL 하위 작업]</span>
 * <span class="preview">[!UICONTROL 문서]</span>
 
 >[!NOTE]
