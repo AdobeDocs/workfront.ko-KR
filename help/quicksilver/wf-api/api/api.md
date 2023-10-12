@@ -7,9 +7,9 @@ description: Workfront API 문서
 author: Becky
 feature: Workfront API
 exl-id: 90e00a71-1a3a-4e3f-99d8-47700052a9dc
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 7b7261a7d26a898697c9a2223c9fbeaecebccf99
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '156'
 ht-degree: 1%
 
 ---
@@ -33,6 +33,7 @@ ht-degree: 1%
 * [인증 코드 흐름을 사용하여 조직의 사용자 지정 OAuth 2 애플리케이션 구성 및 사용](../../wf-api/api/oauth-app-code-token-flow.md)
 * [JWT 플로우를 사용하여 조직의 사용자 지정 OAuth 2 애플리케이션 구성 및 사용](../../wf-api/api/oauth-app-jwt-flow.md)
 * [PKCE 플로우를 사용하여 조직의 사용자 정의 OAuth 2 애플리케이션 구성 및 사용](../../wf-api/api/oauth-app-pkce-flow.md)
+* [API 버전 17의 새로운 기능](../../wf-api/api/new-api-version-17.md)
 * [API 버전 16의 새로운 기능](../../wf-api/api/new-api-version-16.md)
 * [API 버전 15의 새로운 기능](../../wf-api/api/new-api-version-15.md)
 * [API 버전 14의 새로운 기능](../../wf-api/api/new-api-version-14.md)

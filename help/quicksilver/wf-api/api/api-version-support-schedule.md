@@ -6,9 +6,9 @@ description: API 버전 관리 및 지원 일정
 author: Becky
 feature: Workfront API
 exl-id: b072704c-a34c-4a17-aca3-ab93a016dfc8
-source-git-commit: 6b341310e06e75e47b94b7c27031ce8398e91c68
+source-git-commit: f3dc40ec75433508ab617bbdbd0f5cb57866f411
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '249'
 ht-degree: 10%
 
 ---
@@ -35,9 +35,15 @@ API 버전 식별 및 사용에 대한 자세한 내용은 을 참조하십시�
   </tr> 
  </thead> 
  <tbody> 
+ <tr>
+   <td>17</td> 
+   <td> <p>2023년 10월 12일</p> </td> 
+   <td> <p>**2026년 중</p> <p>(26.10 릴리스 포함)</p> </td> 
+  </tr> 
+ <tr>
    <td>16</td> 
    <td> <p>2023년 4월</p> <p>(23.2 릴리스 포함)</p> </td> 
-   <td> <p>**2026년 중</p> <p>(26.2 릴리스 포함)</p> </td> 
+   <td> <p>**2026년 중</p> <p>(26.4 릴리스 포함)</p> </td> 
   </tr> 
   <tr> 
    <td>15</td> 

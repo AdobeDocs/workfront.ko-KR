@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 372f330849bfcdc265e567931527497ddb19d9bb
+source-git-commit: f3dc40ec75433508ab617bbdbd0f5cb57866f411
 workflow-type: tm+mt
-source-wordcount: '13347'
+source-wordcount: '13352'
 ht-degree: 1%
 
 ---
@@ -2569,6 +2569,7 @@ ht-degree: 1%
       * [JWT 플로우를 사용하여 조직의 사용자 지정 OAuth 2 애플리케이션 구성 및 사용](wf-api/api/oauth-app-jwt-flow.md)
       * [PKCE 플로우를 사용하여 조직의 사용자 정의 OAuth 2 애플리케이션 구성 및 사용](wf-api/api/oauth-app-pkce-flow.md)
       * [API 내부 사용 중단](wf-api/api/deprecation-api-internal.md)
+      * [API 버전 17의 새로운 기능](wf-api/api/new-api-version-17.md)
       * [API 버전 16의 새로운 기능](wf-api/api/new-api-version-16.md)
       * [API 버전 15의 새로운 기능](wf-api/api/new-api-version-15.md)
       * [API 버전 14의 새로운 기능](wf-api/api/new-api-version-14.md)
