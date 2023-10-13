@@ -6,9 +6,9 @@ description: 프로젝트에서 다른 프로젝트로 작업을 복사하거나
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: 1f749ba9a54ce75a917e4b1e95713ac7abeaa66b
+source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
 workflow-type: tm+mt
-source-wordcount: '1705'
+source-wordcount: '1774'
 ht-degree: 1%
 
 ---
@@ -85,9 +85,14 @@ ht-degree: 1%
 
 작업을 복사할 때에는 다음 사항을 고려하십시오.
 
-* 문제는 작업과 함께 복사되지 않습니다.
 * 마일스톤은 복사된 작업으로 전송되고 원래 작업에서 제거됩니다.
 * 한 프로젝트에서 다른 프로젝트로 작업을 복사할 때 작업 날짜가 다시 계산될 수 있습니다. 재계산에는 새 프로젝트가 사용하는 일정 및 프로젝트의 일정 시작 정보가 고려됩니다.
+* 하위 작업이 새 작업으로 전송됩니다.
+* 사용자 정의 양식이 작업과 함께 복사됩니다. 사용자 정의 필드의 정보는 작업을 복사할 때 사용자 정의 데이터를 복사하도록 선택한 경우에만 복사된 작업으로 전송됩니다.
+* 복사 프로세스 중에 작업과 연관된 일부 항목을 복사된 작업에 복사하도록 선택할 수 있습니다. 그러나 기본적으로 다음 객체는 복사된 작업으로 전송되지 않습니다.
+   * 문제
+   * 기록된 시간
+   * 사용자 댓글 <!--not sure about this, enable only if requested by users and vrified by Product: System activity comments transfer to the new task if they relate to information that you specifically select to be copied. For example, if you select to copy Expenses to the new task, system comments that identify adding expenses to the task will transfer to the copied task. -->
 
 Adobe Workfront 웹 애플리케이션의 다음 영역에서 작업을 복사할 수 있습니다.
 
