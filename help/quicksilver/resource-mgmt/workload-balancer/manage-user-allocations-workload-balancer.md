@@ -6,7 +6,7 @@ description: 리소스 관리자는 사용자에게 작업을 할당하고 업�
 author: Alina
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: cc7e0d3a44d81149cd691332821df016b9e57419
+source-git-commit: b68436ff0c7edf3129b13e10859d63d73e4553de
 workflow-type: tm+mt
 source-wordcount: '2808'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # 업무 균형자에서 사용자 할당 관리
+
+{{highlighted-preview}}
 
 리소스 관리자는 사용자에게 작업을 할당하고 업무 균형자에서 일별, 주별 또는 월별 할당을 관리하여 사용 가능한 일정에 맞는 시간을 할당할 수 있습니다.
 
@@ -256,7 +258,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->작업 항목 이름 오른쪽에 연필 아이콘이 표시되어 수동으로 조정되었음을 나타냅니다.
+><span class="preview">작업 항목 이름 오른쪽에 연필 아이콘이 표시되어 수동으로 조정되었음을 나타냅니다.</span>
 
 ![수동으로 조정된 시간 아이콘](assets/icon-for-manually-adjusted-hours.png)
 
