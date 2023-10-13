@@ -3,9 +3,9 @@ title: 2023년 4분기 홈 개선 사항
 description: 2023년 4분기 홈 개선 사항
 author: Lisa
 feature: Product Announcements
-source-git-commit: 4d5a8958137e5f85510c5239dfc797ddf1ca24ed
+source-git-commit: 2fa6cfa10bab8714c8e30b9b1e084ee626ec933a
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '839'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,12 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2023년 4분기 릴리스의 모든 홈 개선 사항에 대해 설명합니다. 이러한 개선 사항은 프로덕션 환경에서 23.10 릴리스를 통해 제공될 예정입니다.
 
 2023년 4분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [2023년 4분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+
+## 프로젝트, 작업 및 문제 위젯에 대한 작업 위임 버튼
+
+이전 홈 페이지에서 일반적으로 요청하는 기능인 이제 부재 중 작업을 쉽게 위임할 수 있도록 내 작업, 내 작업 및 내 문제 위젯에 위임 단추를 추가했습니다. 새 홈 이전의 방식과 동일하게 작동하는 위임 메뉴에서 스토리 및 문제를 위임할 대상 및 기간을 선택할 수 있습니다. 단추가 나타나도록 하려면 Workfront 환경에서 작업 위임을 활성화해야 합니다.
+
+Workfront 위임에 대한 자세한 내용은 [작업 및 문제 위임 관리](/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md)
 
 ## 새 홈을 위한 새 보드 위젯
 
