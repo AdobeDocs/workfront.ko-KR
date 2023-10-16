@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 1%
+source-wordcount: '621'
+ht-degree: 2%
 
 ---
 
@@ -86,9 +86,18 @@ Adobe 마에스트로에서 레코드 정보를 편집할 수 있습니다. 레�
 ## 레코드 편집에 대한 고려 사항
 
 * 사용자 또는 다른 사용자가 만든 레코드를 편집할 수 있습니다. <!--will change with access levels-->
-* 편집된 레코드가 다른 레코드에 연결되어 있는 경우 편집 중인 레코드의 새 정보는 연결된 레코드에 반영됩니다.
+* 다른 레코드에서 연결된 필드나 계산이 들어 있는 필드는 편집할 수 없습니다.
+* 표시되는 레코드가 다른 레코드에 연결되어 있는 경우 편집 중인 레코드의 새 정보가 연결된 레코드에 반영됩니다.
 * 레코드를 일괄적으로 편집할 수 없습니다. <!--this will probably change-->
-* 다른 레코드에서 연결된 필드는 편집할 수 없습니다.
+* URL은 http://, https://, ftp:// 또는 www로 시작하는 경우에만 한 줄 텍스트 필드 유형에서 링크로 인식됩니다. .
+* 단락 유형 필드를 편집할 때 다음과 같은 서식 있는 텍스트 서식 옵션을 사용할 수 있습니다.
+
+   * 볼드체
+   * 이탤릭체
+   * 밑줄
+   * 링크 추가
+   * 글머리 기호 목록 추가
+   * 번호 매기기 목록 추가
 
 ## 레코드 편집
 
@@ -99,9 +108,11 @@ Adobe 마에스트로에서 레코드 정보를 편집할 수 있습니다. 레�
 
 ### 레코드의 세부 정보 페이지에서 레코드 편집
 
-1. 다음을 클릭합니다. **메인 메뉴** ![](assets/main-menu-workfront.png) 오른쪽 상단 또는 **메인 메뉴** ![](assets/main-menu-shell.png) 왼쪽 상단 모서리에서 사용 가능한 경우 Maestro 를 클릭합니다.
+1. 다음을 클릭합니다. **메인 메뉴** ![](assets/main-menu-workfront.png) 오른쪽 상단 또는 **메인 메뉴** ![](assets/main-menu-shell.png) 왼쪽 위 모서리에서 사용 가능한 경우 을(를) 클릭합니다. **마에스트로**.
 
    마지막으로 액세스한 작업공간이 열립니다.
+
+1. (선택 사항) 작업 영역 이름의 오른쪽에 있는 아래쪽 방향 화살표를 클릭하여 레코드를 업데이트할 작업 영역을 선택합니다.
 1. 다음 중 하나를 수행하십시오.
 
    * 테이블 보기에서 레코드 이름을 클릭합니다.
@@ -120,11 +131,6 @@ Adobe 마에스트로에서 레코드 정보를 편집할 수 있습니다. 레�
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 
-   >[!NOTE]
-   >
-   >    계산이 들어 있거나 시스템에서 생성한 연결된 필드 또는 필드는 편집할 수 없습니다.
-
-
 1. 클릭 **변경 내용 저장**. <!--logged a bug for this - this needs to be "Save"-->
 
 ### 레코드 유형 테이블 보기에서 레코드 편집
@@ -132,24 +138,15 @@ Adobe 마에스트로에서 레코드 정보를 편집할 수 있습니다. 레�
 1. 다음을 클릭합니다. **메인 메뉴** ![](assets/main-menu-workfront.png) 오른쪽 위 모서리에서 <!--or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it is available,--> 그런 다음 을 클릭합니다. **마에스트로** ![](assets/maestro-icon.png).
 
    마지막으로 액세스한 작업 영역이 열립니다.
+
+1. (선택 사항) 작업 영역 이름의 오른쪽에 있는 아래쪽 방향 화살표를 클릭하여 레코드를 업데이트할 작업 영역을 선택합니다.
 1. 레코드 유형 카드를 클릭합니다.
 
    레코드 유형 페이지가 열립니다.
 1. (조건부) **보기** 테이블 오른쪽 위 모서리에서 드롭다운 메뉴를 사용하여 테이블 뷰를 선택합니다. 레코드 유형에 마지막으로 액세스했을 때 타임라인 보기에서 확인하지 않은 경우 기본 보기여야 합니다.
 
    선택한 레코드 유형과 연관된 레코드가 테이블 뷰에 표시됩니다.
-1. 레코드 행 내부를 클릭하여 레코드에 대한 정보 편집을 인라인으로 시작한 다음 키를 누릅니다 **입력** 키보드에서 을(를) 클릭하여 변경 내용을 저장합니다. 변경 사항은 자동으로 저장됩니다.
+1. 레코드 행 내부를 클릭하여 인라인 레코드에 대한 정보 편집을 시작합니다.
 
-   >[!TIP]
-   >
-   >* 연결된 필드는 편집할 수 없습니다. 이러한 필드에 대한 정보는 연결된 레코드에서 자동으로 채워집니다. 자세한 내용은 [레코드 유형 연결](../architecture-and-fields/connect-record-types.md).
-   >
-   >* URL은 http://, https://, ftp:// 또는 www로 시작하는 경우에만 한 줄 텍스트 필드 유형에서 링크로 인식됩니다. .
-<!--for rich text formatting - when released:
-
-1. (Conditional) When you edit a Paragraph-type field, use the following Rich Text formatting capabilities: 
-
-    * Bold
-    * Italic
-    * Underline (*****anything else?? insert a screen shot?***********)
--->
+   ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
+1. 누르기 **입력** 키보드에서 를 클릭하거나 행 외부를 클릭하여 변경 내용을 저장합니다. 변경 사항은 자동으로 저장됩니다.

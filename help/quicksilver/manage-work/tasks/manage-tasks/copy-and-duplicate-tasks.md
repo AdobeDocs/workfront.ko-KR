@@ -6,9 +6,9 @@ description: 프로젝트에서 다른 프로젝트로 작업을 복사하거나
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
+source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
 workflow-type: tm+mt
-source-wordcount: '1774'
+source-wordcount: '1717'
 ht-degree: 1%
 
 ---
@@ -85,30 +85,18 @@ ht-degree: 1%
 
 작업을 복사할 때에는 다음 사항을 고려하십시오.
 
-* 마일스톤은 복사된 작업으로 전송되고 원래 작업에서 제거됩니다.
 * 한 프로젝트에서 다른 프로젝트로 작업을 복사할 때 작업 날짜가 다시 계산될 수 있습니다. 재계산에는 새 프로젝트가 사용하는 일정 및 프로젝트의 일정 시작 정보가 고려됩니다.
-* 하위 작업이 새 작업으로 전송됩니다.
 * 사용자 정의 양식이 작업과 함께 복사됩니다. 사용자 정의 필드의 정보는 작업을 복사할 때 사용자 정의 데이터를 복사하도록 선택한 경우에만 복사된 작업으로 전송됩니다.
 * 복사 프로세스 중에 작업과 연관된 일부 항목을 복사된 작업에 복사하도록 선택할 수 있습니다. 그러나 기본적으로 다음 객체는 복사된 작업으로 전송되지 않습니다.
    * 문제
    * 기록된 시간
-   * 사용자 댓글 <!--not sure about this, enable only if requested by users and vrified by Product: System activity comments transfer to the new task if they relate to information that you specifically select to be copied. For example, if you select to copy Expenses to the new task, system comments that identify adding expenses to the task will transfer to the copied task. -->
+   * 사용자 댓글 <!--not sure about this, enable only if requested by users and verified by Product: System activity comments transfer to the new task if they relate to information that you specifically select to be copied. For example, if you select to copy Expenses to the new task, system comments that identify adding expenses to the task will transfer to the copied task. -->
+* 다음 항목은 기본적으로 복사된 작업으로 이동합니다.
 
-Adobe Workfront 웹 애플리케이션의 다음 영역에서 작업을 복사할 수 있습니다.
+   * 마일스톤은 복사된 작업으로 전송되고 원래 작업에서 제거됩니다.
+   * 하위 작업이 새 작업으로 전송됩니다.
 
-* 작업 수준에서 **기타 아이콘** ![](assets/qs-more-menu-19x7.png) 작업 이름의 오른쪽에 있습니다.
-
-  자세한 내용은 [작업 수준에서 작업 복사](#copy-a-task-at-the-task-level) 이 문서의 섹션.
-
-* 작업 목록에서 다음 중 하나를 수행합니다.
-
-   * 작업 이름을 마우스 오른쪽 단추로 클릭합니다.
-   * 작업(또는 작업)을 선택하고 **자세히** 아이콘 ![](assets/more-icon-task-list.png) 을 클릭합니다.
-   * 작업 선택 및 확장 **자세히** 아이콘 ![](assets/more-icon-task-list.png) 을 클릭합니다.
-
-     여러 작업을 선택할 때는 이 옵션을 사용할 수 없습니다.
-
-  자세한 내용은 [목록의 작업 복사](#copy-tasks-in-a-list) 이 문서의 섹션.
+* 한 번에 하나의 작업을 복사할 수도 있고 목록에서 작업을 편집할 때 한 번에 여러 작업을 복사할 수도 있습니다.
 
 ## 목록의 작업 복사 {#copy-tasks-in-a-list}
 
@@ -118,7 +106,7 @@ Adobe Workfront 웹 애플리케이션의 다음 영역에서 작업을 복사�
 
    작업 보고서로 이동합니다.
 
-1. 클릭 **작업** 왼쪽 패널에서
+1. (조건부) 클릭 **작업** 왼쪽 패널에서 작업이 포함된 프로젝트를 연 경우
 1. 다음을 클릭합니다. **플랜 모드 메뉴** ![](assets/qs-list-mode-or-save-mode-icon-small.png) , 그런 다음 **자동 저장**.
 
    >[!IMPORTANT]
@@ -129,24 +117,22 @@ Adobe Workfront 웹 애플리케이션의 다음 영역에서 작업을 복사�
 
    * 다음을 클릭합니다. **기타 메뉴** 작업 목록 맨 위에서 을(를) 클릭한 다음 **복사 위치:**.
    * 선택한 작업을 마우스 오른쪽 단추로 클릭한 다음 **복사 위치:**.
-   * 작업 하나를 선택할 때 **자세히** 메뉴 ![](assets/more-icon-task-list.png) 목록에서 작업 이름 옆에 있는 을(를) 클릭한 다음 **복사 위치:**.
+   * 작업 하나를 선택할 때 **자세히** 메뉴 ![](assets/more-icon-task-list.png) 목록에서 작업 이름 옆에 있는 을(를) 클릭한 다음 **복사 위치:**.
 
    ![](assets/copy-task-in-list-nwe-350x131.png)
 
 1. 섹션에 설명된 대로 작업 복사를 계속합니다. [작업 수준에서 작업 복사](#copy-a-task-at-the-task-level) 4단계부터 시작합니다.
 
    <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   (NOTE: is this still accurate?!)
-   </MadCap:conditionalText>
+      (NOTE: is this still accurate?!)
    -->
 
 ## 작업 수준에서 작업 복사 {#copy-a-task-at-the-task-level}
 
-작업 목록에서 작업을 복사할 수 있을 뿐만 아니라 작업을 연 후에도 복사할 수 있습니다. 
+작업 목록에서 작업을 복사할 수 있을 뿐만 아니라 작업을 연 후에도 복사할 수 있습니다.
 
 1. 검색하여 Workfront 시스템에서 작업을 찾습니다.
-1. 작업 이름을 클릭하여 엽니다. 
+1. 작업 이름을 클릭하여 엽니다.
 1. 다음을 클릭합니다. **자세히** 드롭다운 메뉴 ![](assets/qs-more-menu.png) 작업 이름 옆에 있는 을 클릭합니다. **복사** **끝**.
 
    ![](assets/taskcopy-to-at-the-task-level-nwe-350x200.png)
@@ -161,7 +147,7 @@ Adobe Workfront 웹 애플리케이션의 다음 영역에서 작업을 복사�
    >
    >![](assets/copy-task-multiple-tasks-box-with-list-of-task-names-nwe-350x130.png)
 
-1. 의 이름을 입력합니다. **대상 프로젝트** 에서 작업을 복사할 위치 **대상 프로젝트 선택** 필드. 
+1. 의 이름을 입력합니다. **대상 프로젝트** 에서 작업을 복사할 위치 **대상 프로젝트 선택** 필드.
 
    >[!TIP]
    >
@@ -171,20 +157,20 @@ Adobe Workfront 웹 애플리케이션의 다음 영역에서 작업을 복사�
 
    기본적으로 현재 프로젝트 이름이 표시됩니다. 동일한 프로젝트 내에서 작업을 복사하려면 이 필드를 변경하지 마십시오.
 
-1. (조건부) 클릭 **액세스 권한 요청** 선택한 프로젝트에 대한 액세스 권한이 없는 경우 프로젝트에 대한 액세스 권한을 요청하십시오.
+1. (조건부) 클릭 **액세스 권한 요청** 선택한 프로젝트에 대한 액세스 권한이 없는 경우 프로젝트에 대한 액세스 권한을 요청하십시오.
 1. (조건부) 대상 프로젝트의 작업 중 하나에 작업을 추가할 수 있는 액세스 권한이 있는 경우 액세스 권한 요청 없이 선택한 대상 프로젝트에 작업을 계속 복사합니다.
 
    ![](assets/copy-task-request-access-from-project-nwe-350x125.png)
 
    >[!TIP]
    >
-   >Workfront 관리자가 이러한 프로젝트에 작업을 추가할 수 없을 때 선택한 프로젝트가 승인 보류 중, 완료 또는 정지된 경우에도 유사한 메시지가 표시됩니다. 자세한 내용은 [시스템 전체 프로젝트 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+   >Workfront 관리자가 이러한 프로젝트에 작업을 추가할 수 없을 때 선택한 프로젝트가 승인 보류 중, 완료 또는 정지된 경우에도 유사한 메시지가 표시됩니다. 자세한 내용은 [시스템 전체 프로젝트 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-1. 클릭 **옵션** 왼쪽 패널에서 작업과 함께 복사하지 않으려는 작업 속성을 선택 취소합니다. 기본적으로 모든 옵션이 선택되어 있습니다.
+1. 클릭 **옵션** 왼쪽 패널에서 작업과 함께 복사하지 않으려는 작업 속성을 선택 취소합니다. 기본적으로 모든 옵션이 선택되어 있습니다.
 
    >[!TIP]
    >
-   선택 후 선택 해제 **모두 선택** 모든 옵션을 선택 취소합니다.
+   >선택 후 선택 해제 **모두 선택** 모든 옵션을 선택 취소합니다.
 
    다음 옵션에서 선택을 해제하여 복사된 작업으로 전송하지 않습니다. 다음 표에서는 옵션을 선택 해제할 때 발생하는 상황을 설명합니다.
 
@@ -239,24 +225,24 @@ Adobe Workfront 웹 애플리케이션의 다음 영역에서 작업을 복사�
     </tbody> 
    </table>
 
-1.  (선택 사항) **상위 선택** 왼쪽 패널에서 복사한 작업의 상위가 될 대상 프로젝트의 작업을 선택합니다.
+1. (선택 사항) **상위 선택** 왼쪽 패널에서 복사한 작업의 상위가 될 대상 프로젝트의 작업을 선택합니다.
 
-   >[!TIP]
-   >
-   목록에서 여러 작업을 복사하도록 선택하면 선택한 모든 작업이 선택한 상위의 1차 하위 구성요소가 됩니다.
+>[!TIP]
+>
+>목록에서 여러 작업을 복사하도록 선택하면 선택한 모든 작업이 선택한 상위의 1차 하위 구성요소가 됩니다.
 
-   다음 중 하나를 수행하여 상위 항목을 선택합니다.
+다음 중 하나를 수행하여 상위 항목을 선택합니다.
 
-   * 작업 목록에서 프로젝트 계획의 상위 항목 중 하나를 선택합니다.
-   * 검색 아이콘 클릭 ![검색 아이콘](assets/search-icon.png) 이름으로 상위 작업을 검색합니다.
+* 작업 목록에서 프로젝트 계획의 상위 항목 중 하나를 선택합니다.
+* 검색 아이콘 클릭 ![검색 아이콘](assets/search-icon.png) 이름으로 상위 작업을 검색합니다.
 
-   작업이 목록에 표시됩니다.
+작업이 목록에 표시됩니다.
 
-   ![검색 기능이 있는 작업을 이동할 때 상위 작업 선택 ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+![검색 기능이 있는 작업을 이동할 때 상위 작업 선택 ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
-1. 상위 항목을 찾으면 해당 라디오 단추를 선택합니다. 
+1. 상위 항목을 찾으면 해당 라디오 단추를 선택합니다.
 
-   상위 작업을 선택하지 않으면 작업이 하위 작업이 아닌 기본 작업으로 복사되고 대상 프로젝트의 작업 목록 끝에 배치됩니다. 
+   상위 작업을 선택하지 않으면 작업이 하위 작업이 아닌 기본 작업으로 복사되고 대상 프로젝트의 작업 목록 끝에 배치됩니다.
 
 1. 클릭 **작업 복사**
 
@@ -275,7 +261,6 @@ Adobe Workfront 웹 애플리케이션의 다음 영역에서 작업을 복사�
 ### 작업 중복에 대한 고려 사항 {#considerations-for-duplicating-tasks}
 
 * 작업 번호별로 목록을 정렬한 경우에만 작업 목록에서 작업을 복제할 수 있습니다.
-
 * 새 작업의 이름이 원래 작업과 동일합니다.
 * 새 작업에 복제되는 정보는 선택할 수 없습니다. 원래 작업의 거의 모든 정보는 기본적으로 상위 관계를 포함하여 중복 작업으로 전송됩니다.
 * 다음 항목은 새 작업으로 전송되지 않습니다.
@@ -285,10 +270,12 @@ Adobe Workfront 웹 애플리케이션의 다음 영역에서 작업을 복사�
    * 문제
    * 복사된 작업 그룹과 동일한 그룹에 있는 전임 작업만 후속 작업과 함께 복사됩니다.
 
-     **예:** 예를 들어 작업 2와 전임 작업 1을 동시에 복사하면 작업 2의 사본과 작업 1의 사본이 있습니다. 작업 1의 복사본이 작업 2의 전신이 됩니다. 그러나 전임 작업을 복사하지 않고 작업 2만 복사하면 해당 복사에는 전임 작업이 없습니다.
+     **예**
+
+     예를 들어 작업 2와 전임 작업 1을 동시에 복사하면 작업 2의 사본과 작업 1의 사본이 있습니다. 작업 1의 복사본이 작업 2의 전신이 됩니다. 그러나 전임 작업을 복사하지 않고 작업 2만 복사하면 해당 복사에는 전임 작업이 없습니다.
 
 * 상위 작업을 복제하면 하위 작업이 선택되지 않은 경우에도 모든 하위 작업이 복제됩니다.
-* 여러 작업을 동시에 복제할 수 있습니다.
+* 하나 이상의 작업을 동시에 복제할 수 있습니다.
 
   하지만 동시에 순차적이 아닌 여러 작업을 복제할 수는 없습니다.
 
@@ -312,4 +299,4 @@ Adobe Workfront 웹 애플리케이션의 다음 영역에서 작업을 복사�
 
       1. 클릭 **저장** 변경 사항을 저장합니다.
 
-   1. 목록에서 작업 편집
+         작업이 복제되고 원래 작업과 동일한 프로젝트에 추가됩니다.

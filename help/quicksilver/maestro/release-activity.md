@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1610'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,22 @@ ht-degree: 0%
 
 기능은 매주 릴리스되고 릴리스 순서대로 나열되며, 가장 최근의 기능이 먼저 나열됩니다. Maestro Closed Beta 프로그램에 참여하는 고객은 미리보기 및 프로덕션 환경의 모든 기능에 액세스할 수 있습니다.
 
+## 2023년 10월 16일 주
+
+### 새 사람 필드 유형
+
+미리보기 및 프로덕션: 2023년 10월 16일
+
+이제 Maestro 레코드 유형에 사람 유형 필드를 추가할 수 있습니다. 사람 유형 필드를 사용하여 기존 사용자를 레코드와 연결할 수 있습니다. 자세한 내용은 [필드 만들기](../maestro/architecture-and-fields/create-fields.md).
+
+
+### 단락 필드에 대한 리치 텍스트 형식
+
+미리보기 및 프로덕션: 2023년 10월 16일
+
+단락 유형 필드에 리치 텍스트 형식 컨트롤을 추가했습니다. 레코드 유형의 표 보기 또는 레코드의 세부 정보 페이지에서 서식 있는 텍스트를 사용하여 단락 필드의 서식을 지정할 수 있습니다. 자세한 내용은 [레코드 편집](../maestro/records/edit-records.md).
+
+
 ## 2023년 10월 9일 주
 
 ### 표 보기에서 검색
@@ -41,24 +57,6 @@ ht-degree: 0%
 미리보기 및 프로덕션: 2023년 10월 9일
 
 이제 키워드를 검색하여 테이블 보기에서 레코드를 빠르게 찾을 수 있습니다. 화면에 표시되는 모든 필드에 키워드와 특수 문자를 사용하여 레코드를 찾을 수 있습니다. 자세한 내용은 [표 보기 관리](../maestro/views/manage-the-table-view.md).
-
-<!--
-***********WHICH WEEK IS THIS???***********
-
-### New People field type 
-
-Preview and production: ************ADD INFORMATION HERE***********
-
-You can now add a People-type field to Maestro record types. You can use People-type fields to add existing users, job roles, or teams to a record. For information, see [Create fields](../maestro/architecture-and-fields/create-fields.md). 
-
-
-### Rich Text- format for Paragraph fields
-
-Preview and production: ************ADD INFORMATION HERE***********
-
-We have added Rich Text format controls for Paragraph-type fields. For more information, see [Edit records](../maestro/records/edit-records.md). 
-
--->
 
 ## 2023년 9월 18일 주
 

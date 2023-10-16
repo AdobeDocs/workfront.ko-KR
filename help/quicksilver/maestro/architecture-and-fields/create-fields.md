@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
 workflow-type: tm+mt
-source-wordcount: '2600'
+source-wordcount: '2828'
 ht-degree: 2%
 
 ---
@@ -186,7 +186,7 @@ Adobe Maestro에서 운영 레코드 유형 또는 분류법에 대한 사용자
    * [백분율](#percentage)
    * [통화](#currency)
    * [확인란](#checkbox)
-     <!--* [People](#people)-->
+   * [사용자](#people)
 
    >[!IMPORTANT]
    >
@@ -212,17 +212,13 @@ Adobe Maestro에서 운영 레코드 유형 또는 분류법에 대한 사용자
 
 ### 단락 {#paragraph}
 
-단락 필드는 설명 필드와 마찬가지로 레코드에 대한 추가 영숫자 정보를 캡처합니다. 단락 필드의 컨텐츠는 최대 1,000자까지 사용할 수 있습니다.
-
-<!-- remove the last sentence above and add this tip when we go to rich text: 
+단락 필드는 설명 필드와 마찬가지로 레코드에 대한 추가 영숫자 정보를 캡처합니다.
 
 >[!TIP]
 >
->* The content of a paragraph field can have up to 1,000 characters. 
-
-* You can use Rich Text formatting to enhance the content of paragraph fields when they display in the table view or the Details page of a record. (********check to make sure this is true about Details page***********)
-
--->
+>* 단락 필드의 컨텐츠는 최대 1,000자까지 사용할 수 있습니다.
+>
+>* 서식 있는 텍스트 서식을 사용하면 단락 필드가 표 보기 또는 레코드의 세부 정보 페이지에 표시될 때 단락 필드의 내용을 향상시킬 수 있습니다.
 
 1. 섹션에 설명된 대로 필드 만들기를 시작합니다. [처음부터 필드 만들기](#create-fields-from-scratch) 이 문서에서 **단락** 필드 유형입니다.
 
@@ -394,23 +390,25 @@ Adobe Maestro에서 운영 레코드 유형 또는 분류법에 대한 사용자
 
    새 확인란 필드가 레코드 유형에 열로 추가되고 해당 값을 레코드와 연결할 수 있습니다. 필드는 레코드의 세부 정보 페이지에도 표시됩니다.
 
-<!--
-### People
+### 사용자
 
-You can use the People field type to add a user, job role, or team to a record. This is a type-ahead field, and you can add only users, roles, or teams that already exist in Workfront.
- 
-1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **People** field type.
- 
-    ***************INSERT SCREEN SHOT HERE - DO YOU HAVE TO REPLACE OTHER SCREEN SHOTS ABOVE OR IN OTHER DOCS THAT SHOW ALL THE FIELDS, IN INCLUDE THE NEW ONE?! ***************
+사람 필드 유형을 사용하여 사용자를 추가할 수 있습니다 <!--, job role, or team--> 레코드로. 이는 자동 완성 필드이며 사용자만 추가할 수 있습니다.<!--, roles, or teams--> Workfront에 이미 존재합니다.
 
-1. Add the following information in the **New field** tab:
-     * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. *************ensure they updated this; and update the screen shot: it used to be "Label"**********
-     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
+1. 섹션에 설명된 대로 필드 만들기를 시작합니다. [처음부터 필드 만들기](#create-fields-from-scratch) 이 문서에서 **사람** 필드 유형입니다.
+
+   ![](assets/people-field-type.png)
+
+1. 에 다음 정보를 추가합니다. **새 필드** 탭:
+   * **이름**: 테이블 또는 레코드의 세부 정보 페이지에 표시되는 필드 유형의 이름입니다.
+   * **설명**: 필드에 대한 추가 정보입니다. 필드의 설명은 테이블에서 필드의 열 위로 마우스를 가져가면 표시됩니다.
+   * **여러 값 허용**: 사용자가 이 필드에 두 명 이상의 사용자를 추가할 수 있도록 하려면 이 옵션을 선택합니다. 이 옵션은 기본적으로 선택되지 않습니다.
+
+   >[!NOTE]
+   >
+   >    여러 값 허용을 선택하고 필드가 첨부된 레코드에 여러 사용자가 저장되는 경우 이 필드를 편집할 때 나중에 설정을 선택 해제할 수 없습니다.
 1. Click **Create**.
 
-    The new People-type field is added as a column to the record type and its values can be associated with records. The field also displays on the Details page of a record. 
-
--->
+   새 사람 유형 필드가 레코드 유형에 열로 추가되고 해당 값이 레코드와 연결될 수 있습니다. 필드는 레코드의 세부 정보 페이지에도 표시됩니다.
 
 ## 레코드 유형을 함께 연결하여 필드 만들기
 
