@@ -6,9 +6,9 @@ description: 프로젝트에서 다른 프로젝트로 작업을 복사하거나
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '1717'
+source-wordcount: '1727'
 ht-degree: 1%
 
 ---
@@ -107,7 +107,9 @@ ht-degree: 1%
    작업 보고서로 이동합니다.
 
 1. (조건부) 클릭 **작업** 왼쪽 패널에서 작업이 포함된 프로젝트를 연 경우
-1. 다음을 클릭합니다. **플랜 모드 메뉴** ![](assets/qs-list-mode-or-save-mode-icon-small.png) , 그런 다음 **자동 저장**.
+1. 다음을 클릭합니다. **플랜 모드** 아이콘 ![](assets/qs-list-mode-or-save-mode-icon-small.png), 및 **자동 저장** 옵션이 활성화되어 있습니다.
+
+   ![](assets/autosave-icon-on-highlighted-350x202.png)
 
    >[!IMPORTANT]
    >
@@ -227,18 +229,18 @@ ht-degree: 1%
 
 1. (선택 사항) **상위 선택** 왼쪽 패널에서 복사한 작업의 상위가 될 대상 프로젝트의 작업을 선택합니다.
 
->[!TIP]
->
->목록에서 여러 작업을 복사하도록 선택하면 선택한 모든 작업이 선택한 상위의 1차 하위 구성요소가 됩니다.
+   >[!TIP]
+   >
+   >목록에서 여러 작업을 복사하도록 선택하면 선택한 모든 작업이 선택한 상위의 1차 하위 구성요소가 됩니다.
 
-다음 중 하나를 수행하여 상위 항목을 선택합니다.
+   다음 중 하나를 수행하여 상위 항목을 선택합니다.
 
-* 작업 목록에서 프로젝트 계획의 상위 항목 중 하나를 선택합니다.
-* 검색 아이콘 클릭 ![검색 아이콘](assets/search-icon.png) 이름으로 상위 작업을 검색합니다.
+   * 작업 목록에서 프로젝트 계획의 상위 항목 중 하나를 선택합니다.
+   * 검색 아이콘 클릭 ![검색 아이콘](assets/search-icon.png) 이름으로 상위 작업을 검색합니다.
 
-작업이 목록에 표시됩니다.
+   작업이 목록에 표시됩니다.
 
-![검색 기능이 있는 작업을 이동할 때 상위 작업 선택 ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+   ![검색 기능이 있는 작업을 이동할 때 상위 작업 선택 ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
 1. 상위 항목을 찾으면 해당 라디오 단추를 선택합니다.
 
@@ -287,11 +289,11 @@ ht-degree: 1%
 1. 클릭 **작업** 왼쪽 패널에서
 1. 다음 중 하나를 수행하십시오.
 
-   * (조건부) **플랜 모드 메뉴** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **자동 저장**&#x200B;을(를) 클릭하고 복제할 작업을 선택한 다음 **기타 메뉴** ![](assets/qs-more-menu-29x11.png) > **복제**.
+   * (조건부) **플랜 모드** 아이콘 ![](assets/qs-list-mode-or-save-mode-icon-small.png) 및 다음을 확인합니다. **자동 저장** 옵션이 활성화되어 복제할 작업을 선택한 다음 **기타 메뉴** ![](assets/qs-more-menu-29x11.png) > **복제**.
 
      ![](assets/duplicate-tasks-in-list-nwe-350x196.png)
 
-   * (조건부) **플랜 모드 메뉴** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **수동 저장** > **표준** 또는 **타임라인 계획 수립**&#x200B;을 클릭한 후 다음을 수행합니다.
+   * (조건부) **플랜 모드** 아이콘 ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **수동 저장** > **표준** 또는 **타임라인 계획 수립**&#x200B;을 클릭한 후 다음을 수행합니다.
 
       1. 복제할 작업을 선택하고 다음을 클릭합니다. **복제**.
       1. (선택 사항) **실행 취소** 변경 내용을 취소하고 작업을 복제하지 않습니다.

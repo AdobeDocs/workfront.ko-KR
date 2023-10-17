@@ -4,9 +4,10 @@ description: 다음 문서에서는 Adobe Maestro의 아키텍처를 구성하�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
@@ -51,10 +52,8 @@ Maestro를 사용하면 조직에서 사용하는 오브젝트 유형(또는 레
 * [레코드 유형 편집](../architecture-and-fields/edit-record-types.md)
 * [레코드 유형 연결](../architecture-and-fields/connect-record-types.md)
 * [레코드 종류 및 레코드 연결의 예](../architecture-and-fields/example-connect-record-types-and-records.md)
-* [Adobe Maestro에서 필드 만들기](../architecture-and-fields/create-fields.md)
+* [필드 만들기](../architecture-and-fields/create-fields.md)
 * [필드 편집](../architecture-and-fields/edit-fields.md)
 * [작업 영역 삭제](../architecture-and-fields/delete-workspaces.md)
 * [레코드 유형 삭제](../architecture-and-fields/delete-record-types.md)
 * [필드 삭제](../architecture-and-fields/delete-fields.md)
-
-

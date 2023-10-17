@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
 source-wordcount: '2828'
 ht-degree: 2%
@@ -406,6 +406,7 @@ Adobe Maestro에서 운영 레코드 유형 또는 분류법에 대한 사용자
    >[!NOTE]
    >
    >    여러 값 허용을 선택하고 필드가 첨부된 레코드에 여러 사용자가 저장되는 경우 이 필드를 편집할 때 나중에 설정을 선택 해제할 수 없습니다.
+
 1. Click **Create**.
 
    새 사람 유형 필드가 레코드 유형에 열로 추가되고 해당 값이 레코드와 연결될 수 있습니다. 필드는 레코드의 세부 정보 페이지에도 표시됩니다.

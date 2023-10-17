@@ -4,13 +4,13 @@ description: 마케팅 운영 리더로서 Maestro Adobe을 사용하여 모든 
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
-
 
 # Adobe 마에스트로 정보
 
@@ -53,8 +53,8 @@ Adobe Maestro에 대한 개요는 다음 문서에 액세스합니다.
 <!--update the video when we have something better, especially after Open Beta - remove it-->
 
 * [Adobe Maestro 비디오 데모 보기](https://video.tv.adobe.com/v/3424253/){target=_blank}
-* [Maestro 개요](maestro-overview.md): 이 솔루션에 고유한 용어 및 개념을 포함하여 Adobe Maestro에 대한 높은 수준의 개요입니다. 여기서 Maestro와 여정을 시작하는 것이 좋습니다.
-* [릴리스 활동](../maestro/release-activity.md): 2023년 5월 22일 Maestro Closed Beta 프로그램이 출시된 이후 출시된 모든 기능 목록과 정확한 릴리스 날짜 및 각 기능에 대한 간단한 개요
+* [Adobe 마에스트로 개요](maestro-overview.md): 이 솔루션에 고유한 용어 및 개념을 포함하여 Adobe Maestro에 대한 높은 수준의 개요입니다. 여기서 Maestro와 여정을 시작하는 것이 좋습니다.
+* [Adobe Maestro 릴리스 활동](../maestro/release-activity.md): 2023년 5월 22일 Maestro Closed Beta 프로그램이 출시된 이후 출시된 모든 기능 목록과 정확한 릴리스 날짜 및 각 기능에 대한 간단한 개요
 
 ## Maestro 아키텍처 및 기능
 
@@ -64,4 +64,3 @@ Adobe Maestro에 대한 개요는 다음 문서에 액세스합니다.
 * [아키텍처 정보](../maestro/architecture-and-fields/architecture-and-fields-information.md): 작업 공간, 레코드 유형 및 필드를 만들고 관리하는 방법에 대한 단계별 지침을 통해 Adobe Maestro의 아키텍처에 대한 심층적인 정보입니다.
 * [레코드 정보](../maestro/records/records-information.md): 레코드를 만들고 관리하는 방법에 대한 심층적인 정보와 단계별 지침입니다.
 * [보기 정보](../maestro/views/views-information.md): Maestro 보기와 관리 방법에 대한 심층적인 정보.
-

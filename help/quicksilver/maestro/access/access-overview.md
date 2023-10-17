@@ -4,19 +4,21 @@ description: 조직의 모든 사용자는 Adobe Maestro에 액세스할 수 있
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 99fac041-a235-4991-b826-d19944164bc9
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '208'
 ht-degree: 2%
 
 ---
-
 
 <!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Maestro. This article describes the levels of access that users could have to Adobe Maestro. -->
 
 # 액세스 개요
 
 >[!IMPORTANT]
+>
+>Adobe Maestro는 Adobe Workfront의 새로운 서비스입니다.
 >
 >현재 Adobe 마에스트로는 제한된 수의 고객에게 제공되는 베타 프로그램의 일부입니다.
 >
@@ -26,8 +28,6 @@ ht-degree: 2%
 
 <!-- the table will change after we implement access levels/ permissions for Maestro-->
 <!-- fix the formatting on the table - some lines are way too spaced out-->
-
-Adobe Maestro는 Adobe Workfront의 새로운 서비스입니다. 자세한 내용은 [Maestro 개요](../maestro-overview.md).
 
 현재 Workfront 관리자가 Maestro에 대한 액세스를 허용하는 경우 조직의 모든 사용자가 Maestro에 액세스할 수 있습니다.
 

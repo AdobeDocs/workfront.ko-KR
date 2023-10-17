@@ -1,20 +1,20 @@
 ---
-title: 레코드 유형 만들기
+title: 운영 레코드 유형 만들기
 description: 레코드 유형은 Adobe 마에스트로의 객체 유형입니다. Maestro에서는 조직의 라이프사이클에 필요한 작업 항목을 설명하는 사용자 정의 레코드 유형을 만들 수 있습니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '1398'
 ht-degree: 1%
 
 ---
 
-
 <!--udpate the metadata with real information when making this available in TOC and in the left nav-->
 
-# 레코드 유형 만들기
+# 운영 레코드 유형 만들기
 
 >[!IMPORTANT]
 >
@@ -260,11 +260,3 @@ Excel 파일을 사용하여 레코드 유형을 가져오려면 다음을 수�
    * 프로그램
 
 자세한 내용은 [레코드 유형 연결](../architecture-and-fields/connect-record-types.md).
-
-
-
-
-
-
-
-
