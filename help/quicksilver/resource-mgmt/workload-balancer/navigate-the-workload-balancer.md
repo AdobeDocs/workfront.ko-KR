@@ -6,9 +6,9 @@ description: 업무 균형자 를 사용하여 리소스의 가용성을 이해�
 author: Alina
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: d1390144d60aee3f278729da230a3458b49ca4f0
+source-git-commit: 01351c0d86b0deea2d952564172841ba6a77c894
 workflow-type: tm+mt
-source-wordcount: '4077'
+source-wordcount: '4168'
 ht-degree: 0%
 
 ---
@@ -115,13 +115,13 @@ Adobe Workfront의 업무 균형자 를 사용하여 가용성에 따라 사용�
 
   자세한 내용은 의 &quot;업무 균형자 의 할당 영역&quot;을 참조하십시오. [업무 균형자에서 작업 할당 개요](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
-* 일정 기간 동안 프로젝트에 작업이 없으면 프로젝트 수준의 막대가 흐리게 표시됩니다.
+* 일정 기간 동안 프로젝트에 작업이 없으면 해당 시간 동안 프로젝트 수준의 표시줄이 비어 있습니다.
 
-  ![](assets/wb-break-in-project-timeline-with-no-tasks-highlight-350x80.png)
+  ![일정 기간 동안 작업이 없는 프로젝트](assets/wb-no-tasks-in-time-period.png)
 
 * 특정 항목을 볼 수 있는 권한이 없는 경우 다음과 같이 표시됩니다. **액세스할 수 없는 작업 항목** 또는 **액세스할 수 없는 프로젝트**.
 
-  ![](assets/balancer-inaccessible-items-and-projects-highlighted-350x108.png)
+  ![액세스할 수 없는 작업 항목](assets/wb-inaccessible-work-items.png)
 
 * 작업 항목의 이름은 왼쪽에 표시되고 타임라인은 오른쪽에 표시됩니다.
 * 각 작업 항목에 대한 총 계획된 시간은 작업 항목 이름 오른쪽과 작업 항목의 타임라인을 나타내는 막대 왼쪽에 표시됩니다.
@@ -159,7 +159,7 @@ Adobe Workfront의 업무 균형자 를 사용하여 가용성에 따라 사용�
 1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) Workfront의 오른쪽 상단에서 을(를) 클릭한 다음 **리소스 조달**.
 1. 클릭 **업무 균형자** 왼쪽 패널에서
 
-   ![](assets/nwe-balancer-global.png)
+   ![워크로드 밸런서](assets/nwe-balancer-global.png)
 
    업무 균형자에 현재 주부터 시작되는 작업 할당 정보가 다음 두 영역에 표시됩니다.
 
@@ -192,7 +192,7 @@ Adobe Workfront의 업무 균형자 를 사용하여 가용성에 따라 사용�
             > 
             >설정 사용자 지정에 대한 자세한 내용은 섹션을 참조하십시오 [보기 사용자 지정](#customize-the-view) 이 문서에서.
 
-1. (선택 사항) **필터** 아이콘 ![](assets/filter-icon.png) 다음에서 **할당된 작업** 영역을 선택한 다음 **기본 필터** 다음에서 **제안됨** 필터 상자의 영역입니다.
+1. (선택 사항) **필터** 아이콘 ![필터 아이콘](assets/filter-icon.png) 다음에서 **할당된 작업** 영역을 선택한 다음 **기본 필터** 다음에서 **제안됨** 필터 상자의 영역입니다.
 
    기본 필터를 적용하면 팀에 속한 사용자와 해당 작업 항목이 표시됩니다. 이 필터의 복사본을 편집할 수 있습니다.
 
@@ -214,10 +214,10 @@ Adobe Workfront의 업무 균형자 를 사용하여 가용성에 따라 사용�
    업무 균형자에 현재 주부터 시작되는 작업 할당 정보가 표시됩니다.
 
 1. 가로 스크롤을 사용하여 화면 제한을 초과하는 작업 항목의 타임라인을 봅니다.
-1. 다음을 클릭합니다. **뒤로 또는 앞으로** 아이콘 ![](assets/back-and-forward-icons.png) 왼쪽 위 모서리에서 타임라인을 탐색한 다음 **오늘** 현재 주로 돌아갑니다.
+1. 다음을 클릭합니다. **뒤로 또는 앞으로** 아이콘 ![뒤로 및 앞으로 아이콘](assets/back-and-forward-icons.png) 왼쪽 위 모서리에서 타임라인을 탐색한 다음 **오늘** 현재 주로 돌아갑니다.
 1. 다음을 클릭합니다. **시간대 드롭다운 메뉴** 도구 모음에서 표시할 기간의 시작 날짜를 클릭합니다. 기본적으로 캘린더에서 선택한 첫 번째 주는 탐색한 주입니다.
 
-   ![](assets/calendar-date-picker-wb.png)
+   ![달력 선택](assets/calendar-date-picker-wb.png)
 
 1. 다음 선택 사항에서 업무 균형자에 한 번에 표시할 주 수를 선택합니다.
    * 1주
@@ -226,7 +226,7 @@ Adobe Workfront의 업무 균형자 를 사용하여 가용성에 따라 사용�
    * 6주
    * 3개월
 
-   ![](assets/3-months-12-weeks-drop-down-wb.png)
+   ![주 선택](assets/3-months-12-weeks-drop-down-wb.png)
 
 1. 도구 모음에서 다음 옵션 중 하나를 클릭하여 시간대별로 정보를 표시합니다.
    * **일**: 기본적으로 오늘 날짜부터 시작하여 4주 동안 일별로 정보를 표시합니다.
@@ -260,18 +260,17 @@ Adobe Workfront의 업무 균형자 를 사용하여 가용성에 따라 사용�
    >
    >&quot;프로젝트별 그룹&quot; 설정을 활성화한 경우에만 작업 항목이 미할당 영역의 프로젝트 이름 아래에 나열됩니다.
 
-
 1. 다음을 클릭합니다. **아래쪽 방향 화살표** 프로젝트 이름(미할당 영역) 및 사용자 이름(할당 영역) 아래의 모든 항목을 축소하려면 미할당 또는 할당 영역 왼쪽에
 
 1. 을(를) 끌어다 놓습니다. **분리선** 왼쪽 패널과 타임라인 영역 사이에서 왼쪽 패널의 크기를 조정합니다.
 
-   ![](assets/separation-line-between-left-panel-and-timeline-highlighted-nwe-350x174.png)
+   ![분리선](assets/wb-adjust-panel-size.png)
 
-1. 다음을 클릭합니다. **설정** 아이콘 ![](assets/settings-gear-icon.png).
+1. 다음을 클릭합니다. **설정** 아이콘 ![설정 아이콘](assets/settings-gear-icon.png).
 
    설정 패널이 오른쪽에 표시됩니다.
 
-   ![](assets/settings-box-options-global-with-color-theme-and-percentage-wb-nwe.png)
+   ![설정 패널](assets/settings-box-options-global-with-color-theme-and-percentage-wb-nwe.png)
 
    아래 나열된 옵션 중에서 선택하여 업무 균형자에서 보는 정보를 업데이트한 다음 **X 아이콘** 설정 상자의 오른쪽 상단에서 닫습니다.
 
@@ -319,12 +318,12 @@ Adobe Workfront의 업무 균형자 를 사용하여 가용성에 따라 사용�
 
 1. (선택 사항 및 조건부) 색상 테마를 프로젝트 상태로 변경할 때 왼쪽의 프로젝트 이름을 마우스로 가리키면 프로젝트의 상태가 표시됩니다.
 
-   ![](assets/hover-over-project-status-tooltip-350x115.png)
+   ![프로젝트 상태 툴팁](assets/hover-over-project-status-tooltip-350x115.png)
 
 ### 작업 항목 할당 및 사용자 할당 조정
 
 1. 섹션에 설명된 대로 리소스 조달 영역의 업무 균형자에 액세스합니다 [리소스 조달 영역의 여러 프로젝트에 대한 업무 균형자 액세스](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) 이 문서에서.
-1. 다음을 클릭합니다. **할당 표시 아이콘** ![](assets/show-allocations-icon-small.png) 작업 항목에 대한 일별 또는 주별 계획된 시간을 조회합니다.
+1. 다음을 클릭합니다. **할당 표시 아이콘** ![할당 표시 아이콘](assets/show-allocations-icon-small.png) 작업 항목에 대한 일별 또는 주별 계획된 시간을 조회합니다.
 
    이 옵션은 작업 항목 막대의 이름을 미할당 및 할당된 작업 영역의 일일 또는 주간 계획 시간으로 바꿉니다. 이 설정은 기본적으로 비활성화되어 있습니다.
 
@@ -339,12 +338,12 @@ Adobe Workfront의 업무 균형자 를 사용하여 가용성에 따라 사용�
 
 1. (선택 사항) 사용자 라인에서 할당된 시간 위로 마우스를 가져가면 사용자의 용량 및 할당을 이해할 수 있습니다. 용량은 사용자가 일정에 따라 사용할 수 있는 용량입니다.
 
-   ![](assets/overallocation-vs-capacity-tooltip-wb-nwe.png)
+   ![할당된 시간 세부 정보](assets/overallocation-vs-capacity-tooltip-wb-nwe.png)
 
 1. (선택 사항) **할당 숨기기 아이콘** ![](assets/show-allocations-icon-small.png) 작업 항목의 막대에 작업 및 문제의 이름을 표시합니다.
 1. 다음을 클릭합니다. **기타 메뉴** 아이콘 ![](assets/more-icon.png) 작업 또는 문제 이름 오른쪽에서 아래 옵션 중 하나를 클릭합니다.
 
-   ![](assets/more-menu-right-of-task-350x104.png)
+   ![기타 메뉴](assets/more-menu-right-of-task-350x104.png)
 
    * **할당 대상:**&#x200B;을(를) 시작한 다음 작업 항목을 지정할 사용자, 역할 또는 팀의 이름을 **사람, 역할 또는 팀 검색** 필드.
 
@@ -363,13 +362,13 @@ Adobe Workfront의 업무 균형자 를 사용하여 가용성에 따라 사용�
 
    * **요약 열기**. 오른쪽에 요약 패널이 열린 다음 할당 필드를 클릭하고 의 사용자, 역할 또는 팀 이름을 입력합니다 **사람, 역할 또는 팀 검색** 항목을 지정할 필드입니다. 자세한 내용은 섹션을 참조하십시오 [작업 및 문제에 대한 추가 정보 표시](#display-more-information-about-tasks-and-issues) 이 문서에서.
 
-1. (선택 사항) 작업 항목의 막대 내에서 사용자에 대한 일별 또는 주별 할당을 두 번 클릭하여 할당된 시간 수를 편집한 다음 **저장** 아이콘 ![](assets/save-allocations-wb.png) 할당 또는 을 저장하려면 **취소** 아이콘  ![](assets/cancel-allocations-wb.png) 조정된 할당을 제거합니다.
+1. (선택 사항) 작업 항목의 막대 내에서 사용자에 대한 일별 또는 주별 할당을 두 번 클릭하여 할당된 시간 수를 편집한 다음 **저장** 아이콘 ![저장 아이콘](assets/save-allocations-wb.png) 할당 또는 을 저장하려면 **취소** 아이콘 ![취소 아이콘](assets/cancel-allocations-wb.png) 조정된 할당을 제거합니다.
 
    >[!TIP]
    >
    >작업 또는 문제의 타임라인 표시줄의 끝에 저장 및 취소 아이콘이 표시됩니다.
    >
-   >![](assets/cancel-and-save-icon-on-adjust-allocation-bar-wb-highlighted.png)
+   >![수동 할당 저장 또는 취소](assets/cancel-and-save-icon-on-adjust-allocation-bar-wb-highlighted.png)
 
    사용자 할당 관리에 대한 자세한 내용은 [업무 균형자에서 사용자 할당 관리](../workload-balancer/manage-user-allocations-workload-balancer.md).
 
@@ -380,26 +379,22 @@ Adobe Workfront의 업무 균형자 를 사용하여 가용성에 따라 사용�
 
    자세한 내용은 [드래그 앤 드롭으로 업무 균형자에서 작업 할당](../workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
 
-
 ### 차트에서 할당 보기
 
 일별 또는 주별 숫자로 할당을 보는 대신 차트에서 할당을 볼 수 있습니다.
 
 1. 섹션에 설명된 대로 리소스 조달 영역의 업무 균형자에 액세스합니다 [리소스 조달 영역의 여러 프로젝트에 대한 업무 균형자 액세스](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) 이 문서에서.
-1. 다음을 클릭합니다. **차트 아이콘** ![](assets/user-allocation-chart-icon.png) 을 눌러 사용자 할당을 차트 형식으로 표시합니다.
+1. 다음을 클릭합니다. **차트 아이콘** ![차트 아이콘](assets/user-allocation-chart-icon.png) 을 눌러 사용자 할당을 차트 형식으로 표시합니다.
 
    사용자가 초과 할당된 일수는 빨간색 블록으로 표시되고, 사용자가 과소 할당되거나 최대 용량에 할당된 일수는 파란색 블록으로 표시됩니다.
 
    블록의 크기는 할당량을 나타냅니다. 상자가 클수록 사용자가 해당 일 또는 주에 대한 작업 항목에 더 많은 시간이 할당됩니다.
 
-   ![](assets/user-allocation-chart-350x237.png)
-
-
+   ![차트로 사용자 할당](assets/wb-allocation-as-chart.png)
 
 ### 작업 및 문제에 대한 추가 정보 표시
 
 업무 균형자에서 작업 및 문제에 대한 자세한 정보를 볼 수 있습니다.
-
 
 1. 섹션에 설명된 대로 리소스 조달 영역의 업무 균형자에 액세스합니다 [리소스 조달 영역의 여러 프로젝트에 대한 업무 균형자 액세스](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) 이 문서에서.
 1. 요약 패널에서 자세한 정보를 보려면 다음 중 하나를 수행합니다.
@@ -419,31 +414,30 @@ Adobe Workfront의 업무 균형자 를 사용하여 가용성에 따라 사용�
    * 작업의 경우 전임 작업 번호입니다.
    * 작업의 경우 작업 준비 여부를 나타내는 상자 상단 모서리에 있는 표시기입니다.
 
-   ![](assets/task-bar-hover-over-detail-wb.png)
+   ![작업 세부 정보](assets/task-bar-hover-over-detail-wb.png)
 
 1. 왼쪽에 있는 작업 항목의 이름을 클릭하여 액세스합니다. 작업 항목이 새 브라우저 탭에서 열립니다.
-
 
 ### 전체 화면에 업무 균형자 표시
 
 1. 섹션에 설명된 대로 리소스 조달 영역의 업무 균형자에 액세스합니다 [리소스 조달 영역의 여러 프로젝트에 대한 업무 균형자 액세스](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) 이 문서에서.
 
-1. 다음을 클릭합니다. **전체 화면** 아이콘 ![](assets/full-screen.png) 전체 화면에 업무 균형자 를 표시합니다.
+1. 다음을 클릭합니다. **전체 화면** 아이콘 ![전체 화면 아이콘](assets/full-screen.png) 전체 화면에 업무 균형자 를 표시합니다.
 
    업무 균형자 가 전체 화면을 차지합니다. 브라우저 창과 탭은 보기에서 제외됩니다.
 
-1. 다음을 클릭합니다. **전체 화면 종료** 아이콘 ![](assets/exit-full-screen.png) 기본 화면으로 돌아가서 브라우저 탭 내부에 있는 업무 균형자 를 봅니다.
+1. 다음을 클릭합니다. **전체 화면 종료** 아이콘 ![전체 화면 종료 아이콘](assets/exit-full-screen.png) 기본 화면으로 돌아가서 브라우저 탭 내부에 있는 업무 균형자 를 봅니다.
 
 
 ## 팀의 업무 균형자 탐색
 
 팀의 업무 균형자 탐색은 여러 프로젝트에 대한 업무 균형자 탐색 방법과 유사합니다. 자세한 내용은 섹션을 참조하십시오 [여러 프로젝트에 대한 업무 균형자 탐색](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) 이 문서에서.
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png)을 클릭한 다음 을 클릭합니다 **팀**.
+1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![메인 메뉴](assets/main-menu-icon.png)을 클릭한 다음 을 클릭합니다 **팀**.
 홈 팀의 페이지가 기본적으로 표시됩니다.
 1. 클릭 **업무 균형자** 왼쪽 패널에서 기본적으로 팀의 업무 균형자 가 표시되어야 합니다.
 
-   ![](assets/nwe-balancer-team-350x172.png)
+   ![팀의 업무 균형자](assets/nwe-balancer-team-350x172.png)
 
    팀의 업무 균형자 에는 기본적으로 다음 정보가 표시됩니다.
 
@@ -454,11 +448,11 @@ Adobe Workfront의 업무 균형자 를 사용하여 가용성에 따라 사용�
 
 ## 단일 프로젝트의 업무 균형자 탐색
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png)을 클릭한 다음 을 클릭합니다 **프로젝트**.
+1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![메인 메뉴](assets/main-menu-icon.png)을 클릭한 다음 을 클릭합니다 **프로젝트**.
 1. 프로젝트 이름을 클릭하여 프로젝트 페이지를 엽니다.
 1. 클릭 **업무 균형자** 왼쪽 패널에서 다음을 클릭해야 할 수 있습니다. **더 보기**, 그런 다음 **업무 균형자**.
 
-   ![](assets/nwe-balancer-project-350x152.png)
+   ![프로젝트의 업무 균형자](assets/nwe-balancer-project-350x152.png)
 
    프로젝트에 대한 업무 균형자 에는 기본적으로 다음 정보가 표시됩니다.
 
@@ -469,13 +463,13 @@ Adobe Workfront의 업무 균형자 를 사용하여 가용성에 따라 사용�
 
    예를 들어, 팀이나 그룹에 속한 사용자만 표시하는 것을 고려할 수 있습니다. 자세한 내용은 [업무 균형자에서 정보 필터링](../workload-balancer/filter-information-workload-balancer.md).
 
-1. (선택 사항) **필터** 아이콘 ![](assets/filter-icon.png) 할당된 작업 영역에서 **이 프로젝트의 작업 항목** 옵션에서 **제안됨** 필터 패널의 영역입니다. 이 필터는 기본적으로 선택 해제되어 있습니다.
+1. (선택 사항) **필터** 아이콘 ![필터 아이콘](assets/filter-icon.png) 할당된 작업 영역에서 **이 프로젝트의 작업 항목** 옵션에서 **제안됨** 필터 패널의 영역입니다. 이 필터는 기본적으로 선택 해제되어 있습니다.
 
    이 옵션을 선택하면 선택한 프로젝트의 사용자에게 할당된 항목만 표시됩니다.
 
    이 옵션을 선택하지 않으면 항목이 속한 프로젝트에 관계없이 프로젝트의 사용자에게 할당된 모든 항목이 표시됩니다.
 
-1. (선택 사항 및 권장) 할당된 작업 영역에서 필터를 적용하여 자신에게 중요하지만 프로젝트의 항목에 할당되지 않을 수 있는 사용자를 표시한 다음, **모든 사용자 표시** 아이콘 ![](assets/show-all-users-icon-project-workload-balancer.png).
+1. (선택 사항 및 권장) 할당된 작업 영역에서 필터를 적용하여 자신에게 중요하지만 프로젝트의 항목에 할당되지 않을 수 있는 사용자를 표시한 다음, **모든 사용자 표시** 아이콘 ![모든 사용자 표시 아이콘](assets/show-all-users-icon-project-workload-balancer.png).
 
    모든 사용자를 표시하면 프로젝트의 작업 또는 다른 역할에 아직 할당되지 않은 Workfront의 모든 사용자를 표시할 수 있습니다.
 
@@ -489,8 +483,7 @@ Adobe Workfront의 업무 균형자 를 사용하여 가용성에 따라 사용�
    >
    > 모든 사용자 표시 옵션은 프로젝트의 업무 균형자에 대해서만 사용할 수 있습니다.
 
-
-1. (선택 사항) **역할 할당 표시** 아이콘 ![](assets/show-role-allocation-icon.png).
+1. (선택 사항) **역할 할당 표시** 아이콘 ![역할 할당 표시 아이콘](assets/show-role-allocation-icon.png).
 
    역할 할당 패널이 표시됩니다.
 
@@ -502,7 +495,6 @@ Adobe Workfront의 업무 균형자 를 사용하여 가용성에 따라 사용�
    >[!NOTE]
    >
    >조직에서 Workfront 시나리오 플래너에 대한 라이선스를 구매하지 않은 경우 이니셔티브 작업 역할 정보를 볼 수 없습니다. 이 경우 프로젝트의 작업 역할과 연관된 계획된 시간만 볼 수 있습니다. 자세한 내용은 [시나리오 플래너를 사용하는 데 필요한 액세스](../../scenario-planner/access-needed-to-use-sp.md).
-
 
 1. 에 설명된 대로 프로젝트의 업무 균형자 를 계속 탐색합니다. [여러 프로젝트에 대한 업무 균형자 탐색](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) 이 문서의 섹션.
 
