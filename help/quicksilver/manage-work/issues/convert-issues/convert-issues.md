@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1374'
+source-wordcount: '1375'
 ht-degree: 2%
 
 ---
@@ -113,7 +113,7 @@ ht-degree: 2%
   <tr> 
    <td>그룹</td> 
    <td><p> 다음과 같은 시나리오가 있습니다.</p>
-     <ul><li>변환 중에 그룹이 지정되면 해당 그룹이 프로젝트의 그룹이 됩니다</li>
+     <ul><li>변환 중에 그룹이 지정된 경우 해당 그룹이 프로젝트의 그룹이 됩니다</li>
      <li>템플릿을 사용하여 프로젝트로 변환할 때 템플릿에 그룹이 있고 변환 중에 그룹을 지정하지 않으면 템플릿 그룹이 새 프로젝트의 그룹이 됩니다</li>
       <li> 템플릿에 그룹이 없고 전환하는 동안 그룹을 지정하지 않으면 원래 문제의 프로젝트 그룹이 새 프로젝트의 그룹이 됩니다</li> </ul>
       </td> 

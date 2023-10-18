@@ -6,9 +6,9 @@ description: Adobe Workfront에서 작업을 다른 프로젝트 또는 다른 �
 author: Alina
 feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1491'
+source-wordcount: '1479'
 ht-degree: 2%
 
 ---
@@ -72,7 +72,7 @@ Adobe Workfront에서 다음 개체 간에 작업을 이동할 수 있습니다.
 
 다음 항목은 기본적으로 작업과 함께 이동하지 않습니다.
 
-* 마일스톤은 복사된 작업으로 전송되고 원래 작업에서 제거됩니다.
+* 마일스톤
 
 ## 목록에서 작업 이동
 

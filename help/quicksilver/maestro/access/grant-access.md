@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 1e49cbaf8dfc0c308f45faabb45ebbfaaba3d65d
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Adobe Maestro는 Adobe Workfront의 새로운 서비스입니다.
+>이 문서의 정보는 Adobe의 새로운 서비스인 Adobe 마에스트로를 참조합니다.
 >
 >현재 Adobe 마에스트로는 제한된 수의 고객에게 제공되는 베타 프로그램의 일부입니다.
 >
@@ -50,7 +50,7 @@ Maestro를 사용해야 하는 액세스 권한에 대한 자세한 내용은 [A
 
 레이아웃 템플릿을 사용하여 마에스트로 영역을 공유하려면 다음 작업을 수행하십시오.
 
-1. 에 로그인 **Workfront** 시스템 관리자입니다.
+1. 에 로그인 **Workfront** Workfront 관리자입니다.
 
 1. 추가 **마에스트로** 아이콘 ![](assets/maestro-icon.png) (으)로 **메인 메뉴** 사용 **레이아웃 템플릿**.
 

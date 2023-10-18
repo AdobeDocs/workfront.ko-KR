@@ -4,17 +4,19 @@ description: Workfront 관리자는 Maestro를 사용하려면 사용자에게 �
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 98ca7d04-35c2-420a-a87c-50c00939853c
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
 
-
 # 액세스 정보
 
 >[!IMPORTANT]
+>
+>이 문서의 정보는 Adobe의 새로운 서비스인 Adobe 마에스트로를 참조합니다.
 >
 >현재 Adobe 마에스트로는 제한된 수의 고객에게 제공되는 베타 프로그램의 일부입니다.
 >
@@ -28,4 +30,3 @@ Workfront 관리자는 Maestro를 사용하려면 사용자에게 액세스 권�
 
 * [액세스 개요](../access/access-overview.md)
 * [Adobe 마에스트로에 대한 액세스 권한 부여](../access/grant-access.md)
-

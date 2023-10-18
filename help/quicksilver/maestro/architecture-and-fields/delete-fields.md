@@ -4,19 +4,21 @@ description: Adobe Maestro에서 더 이상 관련이 없는 사용자 정의 �
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '370'
 ht-degree: 1%
 
 ---
-
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # 필드 삭제
 
 >[!IMPORTANT]
+>
+>이 문서의 정보는 Adobe의 새로운 서비스인 Adobe 마에스트로를 참조합니다.
 >
 >현재 Adobe 마에스트로는 제한된 수의 고객에게 제공되는 베타 프로그램의 일부입니다.
 >
@@ -35,6 +37,9 @@ Maestro에서 사용자 정의 필드를 만드는 방법에 대한 자세한 �
 * 생성한 필드나 다른 사용자가 생성한 필드를 삭제할 수 있습니다. <!--this will change with access levels/ permissions-->
 * 레코드 유형 테이블에서만 필드를 삭제할 수 있습니다.
 * 필드에 저장된 모든 정보는 삭제되며 복구할 수 없습니다.
+* 연결된 레코드 필드를 삭제하면 연결된 모든 조회 필드도 연결된 레코드 유형에서 삭제됩니다. 연결된 레코드 종류의 연결된 레코드 필드는 삭제되지 않습니다.
+
+  자세한 내용은 [레코드 유형 연결](../architecture-and-fields/connect-record-types.md).
   <!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
 
 ## 액세스 요구 사항

@@ -4,19 +4,21 @@ description: 분류는 Adobe Workfront Maestro의 운영 레코드 유형에 대
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: e90a3ebe-fc02-4cce-8472-1ca5004ddde8
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '366'
 ht-degree: 1%
 
 ---
-
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # 분류 레코드 유형 만들기
 
 >[!IMPORTANT]
+>
+>이 문서의 정보는 Adobe의 새로운 서비스인 Adobe 마에스트로를 참조합니다.
 >
 >현재 Adobe 마에스트로는 제한된 수의 고객에게 제공되는 베타 프로그램의 일부입니다.
 >

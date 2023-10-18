@@ -6,7 +6,7 @@ description: 템플릿 작업을 동일한 템플릿 또는 다른 템플릿으�
 author: Alina
 feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
 source-wordcount: '2127'
 ht-degree: 3%
@@ -70,9 +70,9 @@ ht-degree: 3%
 
 * 다음 정보는 기본적으로 이동된 작업으로 전송됩니다.
 
-   * 사용자 정의 양식 및 사용자 정의 필드 정보.
-   * 하위 작업.
-   * 사용자 댓글.
+   * 사용자 정의 양식 및 사용자 정의 필드 정보
+   * 하위 작업
+   * 사용자 댓글
 
 * 다음 정보는 이동된 작업으로 전송되지 않습니다.
 

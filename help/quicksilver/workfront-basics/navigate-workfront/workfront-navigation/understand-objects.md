@@ -5,10 +5,10 @@ title: 의 오브젝트 이해 [!DNL Adobe Workfront]
 description: 의 오브젝트 이해 [!DNL Adobe Workfront]
 feature: Get Started with Workfront
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '2263'
-ht-degree: 6%
+source-wordcount: '2237'
+ht-degree: 7%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 6%
 
 객체 정의 방법 이해 [!DNL Workfront] 는 조직에서 필요한 요구 사항에 맞게 올바른 개체를 사용할 수 있도록 중요합니다.
 
-예를 들어 많은 양의 작업을 계획하는 경우 [!UICONTROL 프로젝트] 작업을 정의하는 개체입니다. 이 작업을 더 작은 계획 증분으로 나누려면 다음을 사용할 수 있습니다. [!UICONTROL 작업] 개체. 계획되지 않고 예기치 않게 발생할 수 있는 적은 양의 작업의 경우 Issue 개체를 사용할 수 있습니다. 프로젝트 그룹의 진행 상황과 예산 및 타임라인 준수를 추적하려는 경우에서 이를 구성할 수 있습니다. [!UICONTROL Portfolio] 및 [!UICONTROL 프로그램]. 작업을 해결하는 데 도움이 되는 다른 요소를 정의하려면 아래에 저장된 다른 개체를 사용합니다. [!UICONTROL 프로젝트], [!UICONTROL 작업], [!UICONTROL 문제], 또는 [!UICONTROL Portfolio], 좋아요 [!UICONTROL 문서], [!UICONTROL 메모], [!UICONTROL 시간], [!UICONTROL 사용자], 또는 [!UICONTROL 작업 역할].
+예를 들어 많은 양의 작업을 계획하는 경우 [!UICONTROL 프로젝트] 작업을 정의하는 개체입니다. 이 작업을 더 작은 계획 증분으로 나누려면 다음을 사용할 수 있습니다. [!UICONTROL 작업] 개체. 계획되지 않고 예기치 않게 발생할 수 있는 적은 양의 작업의 경우 Issue 개체를 사용할 수 있습니다. 프로젝트 그룹의 진행 상황과 예산 및 타임라인 준수를 추적하려는 경우에서 이를 구성할 수 있습니다. [!UICONTROL Portfolio] 및 [!UICONTROL 프로그램]. 작업을 해결하는 데 도움이 되는 다른 요소를 정의하려면 아래에 저장된 다른 개체를 사용합니다. [!UICONTROL 프로젝트], [!UICONTROL 작업], [!UICONTROL 문제], 또는 [!UICONTROL Portfolio], 좋아요 [!UICONTROL 문서], [!UICONTROL 업데이트], [!UICONTROL 시간], [!UICONTROL 사용자], 또는 [!UICONTROL 작업 역할].
 
 [!UICONTROL 보고서] 및 [!UICONTROL 대시보드] 보유하고 있는 데이터의 양을 구성하는 데 도움이 되는 또 다른 객체의 예입니다 [!DNL Workfront] 시각적으로, 모든 사용자가 쉽게 액세스할 수 있도록 합니다.
 
@@ -53,9 +53,9 @@ ht-degree: 6%
 
 의 전체 오브젝트 목록 [!DNL Workfront], 다음을 참조하십시오. [API 탐색기](../../../wf-api/general/api-explorer.md).
 
-*플랜은 [!DNL Workfront Scenario Planner]. 에 대한 자세한 내용은 [!DNL Scenario Planner], 참조 [다음 [!UICONTROL 시나리오 플래너] 개요](../../../scenario-planner/scenario-planner-overview.md).
+*플랜은 [!DNL Adobe Workfront Scenario Planner]. 에 대한 자세한 내용은 [!DNL Scenario Planner], 참조 [다음 [!UICONTROL 시나리오 플래너] 개요](../../../scenario-planner/scenario-planner-overview.md).
 
-*[!UICONTROL 목표] 은(는) 의 개체입니다. [!DNL Workfront Goals]. 다음에 대한 정보: [!DNL Workfront Goals], 참조 [[!DNL Adobe Workfront Goals] 개요](../../../workfront-goals/goal-management/wf-goals-overview.md).
+*[!UICONTROL 목표] 은(는) 의 개체입니다. [!DNL Adobe Workfront Goals]. 다음에 대한 정보: [!DNL Workfront Goals], 참조 [[!DNL Adobe Workfront Goals] 개요](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
 
 ## 개체 이름 사용자 지정
@@ -91,13 +91,13 @@ ht-degree: 6%
 * [!UICONTROL 결과]*
 * [!UICONTROL 활동]*
 
-   *[!UICONTROL 목표], [!UICONTROL 결과], 및 [!UICONTROL 활동] 은(는) 귀사에서 구입한 경우에만 사용할 수 있습니다. [!DNL Workfront Goals]. 다음에 대한 정보: [!DNL Workfront Goals], 참조 [[!DNL Adobe Workfront Goals] 개요](../../../workfront-goals/goal-management/wf-goals-overview.md).
+  *[!UICONTROL 목표], [!UICONTROL 결과], 및 [!UICONTROL 활동] 은(는) 귀사에서 구입한 경우에만 사용할 수 있습니다. [!DNL Workfront Goals]. 다음에 대한 정보: [!DNL Workfront Goals], 참조 [[!DNL Adobe Workfront Goals] 개요](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
 * [!UICONTROL 이니셔티브]**
 * [!UICONTROL 시나리오]**
 * [!UICONTROL 플랜]**
 
-   **[!UICONTROL 이니셔티브], [!UICONTROL 시나리오], 및 [!UICONTROL 플랜] 귀사에서 를 구입한 경우에만 사용할 수 있습니다. [!DNL Workfront Scenario Planner]. 에 대한 자세한 내용은 [!DNL Scenario Planner], 참조 [시작하기 [!DNL Scenario Planner]](../../../scenario-planner/get-started-with-scenario-planning.md).
+  **[!UICONTROL 이니셔티브], [!UICONTROL 시나리오], 및 [!UICONTROL 플랜] 귀사에서 를 구입한 경우에만 사용할 수 있습니다. [!DNL Workfront Scenario Planner]. 에 대한 자세한 내용은 [!DNL Scenario Planner], 참조 [시작하기 [!DNL Scenario Planner]](../../../scenario-planner/get-started-with-scenario-planning.md).
 
 
 예를 들어 조직에서 더 많은 양의 작업을 &#39;참여&#39;라고 하는 경우 &#39; 이름을 바꿀 수 있습니다.[!UICONTROL 프로젝트]&#39; &#39;참여&#39;를 사용하는 경우. 사용자 [!DNL Workfront] 인터페이스에 &#39;&#39; 대신 &#39;Engagement&#39;가 표시됨[!UICONTROL 프로젝트]&#39; 이름이 &#39;[!UICONTROL 프로젝트]&#39; 이 표시됩니다.
@@ -132,7 +132,7 @@ Workfront에서 다른 개체의 이름은 사용자 지정할 수 없습니다.
 
 * [!DNL Outlook] 추가 기능
 
-## 개체 이름 사용자 지정의 의미
+### 개체 이름 사용자 지정의 의미
 
 에서 개체 이름을 사용자 지정할 때는 다음 사항에 유의해야 합니다 [!DNL Workfront]:
 
@@ -143,9 +143,9 @@ Workfront에서 다른 개체의 이름은 사용자 지정할 수 없습니다.
 * 이메일 알림 및 게재된 보고서에는 항상  [!UICONTROL 레이아웃 템플릿] 이메일을 생성하는 사용자. 사용자는 다른 팀 및 그룹의 사용자로부터 이메일 알림을 받는 경우 그룹 또는 팀과 관련되지 않은 이메일의 개체 이름을 볼 수 있도록 준비해야 합니다.\
    로서의 [!DNL Workfront] 관리자는 사용자에게 각 객체와 연관된 아이콘을 볼 것을 권장합니다. 아이콘은 데이터베이스에 나타나는 것처럼 다양한 객체 이름 간에 일관되고 기본 객체와 일관됩니다. 모든 항목 목록 [!DNL Workfront] 객체와 연결된 아이콘은 다음을 참조하십시오. [개체 아이콘](#object-icons).
 
-   >[!TIP]
-   >
-   >조직의 일반적인 작업의 경우 용어를 반영하도록 사용자 지정 설명서를 만드는 것이 좋습니다.
+  >[!TIP]
+  >
+  >조직의 일반적인 작업의 경우 용어를 반영하도록 사용자 지정 설명서를 만드는 것이 좋습니다.
 
 ## 개체 아이콘
 
@@ -197,7 +197,7 @@ Workfront에서 다른 개체의 이름은 사용자 지정할 수 없습니다.
 | [!UICONTROL 프로그램] | ✓ | ✓ |
 | [!UICONTROL 대시보드] | ✓ | ✓ |
 | [!UICONTROL 회사] | ✓ | ✓ |
-| [!UICONTROL 메모] | ✓ |  |
+| [!UICONTROL 메모] (또는 [!UICONTROL 업데이트]) | ✓ |  |
 
 에서 기본 및 고급 검색을 실행하는 방법에 대한 자세한 내용 [!DNL Workfront], 참조 [검색 [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/search/search-workfront.md).
 
@@ -232,26 +232,26 @@ API에 대한 자세한 내용은 [API 탐색기](../../../wf-api/general/api-ex
 * [!UICONTROL 승인]
 * [!UICONTROL 승인 진행]
 * [!UICONTROL 할당]
-* [!UICONTROL 백로그 작업 항목]\
-   애자일 백로그에 작업 또는 문제를 표시합니다. 애자일 백로그에 대한 자세한 내용은 [애자일 백로그 관리](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+<!--this is no longer available: * [!UICONTROL Backlog Work Item]\
+   Displays tasks or issues on the agile backlog. For more information about the agile backlog, see [Manage the agile backlog](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).-->
 
 * [!UICONTROL 기준선]
 * [!UICONTROL 기준선 작업]
 * [!UICONTROL 청구 기록]
 * [!UICONTROL 예산 시간]
 
-   다음 은 [!UICONTROL 예산 시간], 더 이상 사용되지 않는 이전 리소스 관리 도구에 표시됨.
+  다음 은 [!UICONTROL 예산 시간], 더 이상 사용되지 않는 이전 리소스 관리 도구에 표시됨.
 
-   &quot;싹&quot;이요 의 &quot;시간&quot; 필드 [!UICONTROL 예산 시간] 보고서는 의 작업 역할에 대해 예산이 책정된 시간을 나타냅니다. [!UICONTROL 리소스 플래너]. 자세한 내용은 [이해 [!UICONTROL 예산 인건비] 및 [!UICONTROL 예산 시간] 프로젝트용](../../../manage-work/projects/project-finances/budgeted-labor-cost.md).
+  &quot;싹&quot;이요 의 &quot;시간&quot; 필드 [!UICONTROL 예산 시간] 보고서는 의 작업 역할에 대해 예산이 책정된 시간을 나타냅니다. [!UICONTROL 리소스 플래너]. 자세한 내용은 [이해 [!UICONTROL 예산 인건비] 및 [!UICONTROL 예산 시간] 프로젝트용](../../../manage-work/projects/project-finances/budgeted-labor-cost.md).
 
 * [!UICONTROL 캘린더 이벤트]
-* [!UICONTROL 범주] (또는 [!UICONTROL 사용자 정의 양식])
 * [!UICONTROL 회사]
+* [!UICONTROL 사용자 정의 양식]
 * [!UICONTROL 대시보드]
 * [!UICONTROL 문서]
 * [!UICONTROL 문서 승인]
 * [!UICONTROL 문서 버전]\
-   문서 버전, 버전과 연관된 문서, 버전을 생성한 사람, 문서 버전에서 증명을 생성한 사용자(있는 경우)에 대한 다양한 정보를 볼 수 있습니다(증명 생성자).
+   문서 버전, 버전과 연관된 문서, 버전을 생성한 사람, 문서 버전에서 증명을 생성한 사용자(있는 경우)에 대한 정보를 볼 수 있습니다(증명 생성자).
 * [!UICONTROL 이메일 템플릿]
 * [!UICONTROL 경비]
 * [!UICONTROL 경비 유형]
@@ -260,56 +260,50 @@ API에 대한 자세한 내용은 [API 탐색기](../../../wf-api/general/api-ex
 * [!UICONTROL 필터]
 * [!UICONTROL 목표]
 
-   전략적 목표에 대한 보고서를 작성하거나 프로젝트가 목표 활동과 연결되어 있을 때 프로젝트 보고서에 목표 관련 정보를 표시할 수 있습니다. 조직에서 다음을 구입한 경우에만 전략적 목표를 생성하고 프로젝트를 연결할 수 있습니다. [!DNL Workfront Goals] 라이센스. 다음에 대한 정보: [!DNL Workfront Goals], 참조 [[!DNL Workfront Goals] 개요](../../../workfront-goals/goal-management/wf-goals-overview.md). 프로젝트를 전략적 목표에 연결하는 방법에 대한 자세한 내용은 [Adobe Workfront 목표의 목표에 프로젝트 추가](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+  전략적 목표에 대한 보고서를 작성하거나 프로젝트가 목표 활동과 연결되어 있을 때 프로젝트 보고서에 목표 관련 정보를 표시할 수 있습니다. 조직에서 다음을 구입한 경우에만 전략적 목표를 생성하고 프로젝트를 연결할 수 있습니다. [!DNL Workfront Goals] 라이센스. 다음에 대한 정보: [!DNL Workfront Goals], 참조 [[!DNL Workfront Goals] 개요](../../../workfront-goals/goal-management/wf-goals-overview.md). 프로젝트를 전략적 목표에 연결하는 방법에 대한 자세한 내용은 [Adobe Workfront 목표의 목표에 프로젝트 추가](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
-   <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-  (NOTE: hardcoded links in this paragraph)
-  </MadCap:conditionalText>
-  -->
-
-   >[!TIP]
-   >
-   >과(와) 연결된 프로젝트 목표에 대해서는 보고할 수 없습니다. [!UICONTROL 비즈니스 사례]. 프로젝트 목표와 전략적 목표에 대한 자세한 내용은 [용어집 [!DNL Adobe Workfront] 용어](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+  >[!TIP]
+  >
+  >과(와) 연결된 프로젝트 목표에 대해서는 보고할 수 없습니다. [!UICONTROL 비즈니스 사례]. 프로젝트 목표와 전략적 목표에 대한 자세한 내용은 [용어집 [!DNL Adobe Workfront] 용어](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 * [!UICONTROL 그룹]
 * [!UICONTROL 그룹화]
 * [!UICONTROL 시간 유형]
 * [!UICONTROL 이니셔티브]
 
-   회사에서 를 구입한 경우에만 계획의 하위 객체인 이니셔티브에 대한 보고서를 작성할 수 있습니다. [!DNL Workfront Scenario Planner] 라이센스. 이니셔티브에 대한 자세한 내용은 [의 이니셔티브 개요 [!DNL Workfront Scenario Planner]](../../../scenario-planner/initiatives-overview.md).
+  회사에서 를 구입한 경우에만 계획의 하위 객체인 이니셔티브에 대한 보고서를 작성할 수 있습니다. [!DNL Workfront Scenario Planner] 라이센스. 이니셔티브에 대한 자세한 내용은 [의 이니셔티브 개요 [!DNL Workfront Scenario Planner]](../../../scenario-planner/initiatives-overview.md).
 
 
 * 이니셔티브 작업 역할
 
-   회사에서 를 구입한 경우에만 플랜의 이니셔티브와 연결된 작업 역할에 대한 보고서를 작성할 수 있습니다. [!DNL Workfront Scenario Planner] 라이센스. 이니셔티브 생성 및 작업 역할과 연관시키는 방법에 대한 자세한 내용은 다음을 참조하십시오. [에서 이니셔티브 만들기 및 편집 [!DNL Workfront Scenario Planner]](../../../scenario-planner/create-and-edit-initiatives.md).
+  회사에서 를 구입한 경우에만 플랜의 이니셔티브와 연결된 작업 역할에 대한 보고서를 작성할 수 있습니다. [!DNL Workfront Scenario Planner] 라이센스. 이니셔티브 생성 및 작업 역할과 연관시키는 방법에 대한 자세한 내용은 다음을 참조하십시오. [에서 이니셔티브 만들기 및 편집 [!DNL Workfront Scenario Planner]](../../../scenario-planner/create-and-edit-initiatives.md).
 
 
 * [!UICONTROL 반복]
 * [!UICONTROL 작업 역할]
 * [!UICONTROL 저널 항목]
 
-   에서 추적된 시스템 업데이트를 보고할 수 있습니다. [!UICONTROL 업데이트] 작업, 프로젝트, 문제 등과 같은 오브젝트의 영역 자세한 내용은 다음을 참조하십시오. [다음에 대한 보고서 [!UICONTROL 업데이트] 영역](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+  에서 추적된 시스템 업데이트를 보고할 수 있습니다. [!UICONTROL 업데이트] 작업, 프로젝트, 문제 등과 같은 오브젝트의 영역 자세한 내용은 다음을 참조하십시오. [다음에 대한 보고서 [!UICONTROL 업데이트] 영역](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
 
 * [!UICONTROL 레이아웃 템플릿]
 * [!UICONTROL 마일스톤]
 * [!UICONTROL 마일스톤 경로]
-* [!UICONTROL 참고]
+* [!UICONTROL 참고] 또는 [!UICONTROL 업데이트]
 
-   >[!NOTE]
-   >
-   >개별 사용자가 추가한 댓글에 대해 보고할 수 있습니다.
+  >[!NOTE]
+  >
+  >개별 사용자가 추가한 댓글에 대해 보고할 수 있습니다.
 
 * [!UICONTROL 매개 변수] (또는 [!UICONTROL 사용자 정의 필드])
 * [!UICONTROL 매개변수 그룹] (또는 [!UICONTROL 섹션 구분])
-* [!UICONTROL 포털 프로필] (더 이상 사용되지 않는 정보가 표시됩니다.)
+  <!--this is no longer in the UI: * [!UICONTROL Portal Profile] (this displays information that has been deprecated)-->
 * [!UICONTROL 포트폴리오]
 * [!UICONTROL 프로그램]
 * [!UICONTROL 프로젝트] ([!UICONTROL 재무 데이터])
 
-   >[!NOTE]
-   >
-   >재무 정보는 [!UICONTROL 프로젝트] ([!UICONTROL 재무 데이터])는 연결된 데이터가 5년 미만인 경우에만 보고합니다. 예를 들어 2015년 1월에 작업 역할이 작업에 할당되었고 오늘이 2021년 9월인 경우 다음과 같은 재무 파일이 생성됩니다. [!UICONTROL 할당 일자] 작업 역할이에 이(가) 채워지지 않음 [!UICONTROL 프로젝트(재무 데이터)] 보고서.
+  >[!NOTE]
+  >
+  >재무 정보는 [!UICONTROL 프로젝트] ([!UICONTROL 재무 데이터])는 연결된 데이터가 5년 미만인 경우에만 보고합니다. 예를 들어 2015년 1월에 작업 역할이 작업에 할당되었고 오늘이 2021년 9월인 경우 다음과 같은 재무 파일이 생성됩니다. [!UICONTROL 할당 일자] 작업 역할이에 이(가) 채워지지 않음 [!UICONTROL 프로젝트(재무 데이터)] 보고서.
 
 * [!UICONTROL 증명 승인]\
    승인을 위해 제출된 증명, 다음에 대한 정보를 포함하여 증명 승인에 대한 다양한 정보를 볼 수 있습니다. [!UICONTROL 승인자], 요청자에 대한 정보(요청자가 라이센스가 있는 경우) [!DNL Workfront] 사용자), 버전 정보, 증명 ID 및 증명 생성일.\
@@ -331,14 +325,15 @@ API에 대한 자세한 내용은 [API 탐색기](../../../wf-api/general/api-ex
 * [!UICONTROL 템플릿 작업]
 * [!UICONTROL 휴무]
 
-   프로필에서 사용자가 지정한 대로 사용자의 휴무를 보고할 수 있습니다.
+  프로필에서 사용자가 지정한 대로 사용자의 휴무를 보고할 수 있습니다.
 
 * [!UICONTROL 타임시트]
 * [!UICONTROL 타임시트 프로필]
 * [!UICONTROL 주제 그룹]
+* [!UICONTROL 사용자 승인]
 * [!UICONTROL 사용자 위임]
 
-   부재 중 다른 사람의 작업 및 문제를 수행하도록 위임된 사용자에 대해 보고할 수 있습니다. 이 보고서에는 부재 중인 사용자와 부재 중 직무를 수행하는 사용자가 표시됩니다.
-
+  부재 중 다른 사람의 작업 및 문제를 수행하도록 위임된 사용자에 대해 보고할 수 있습니다. 이 보고서에는 부재 중인 사용자와 부재 중 직무를 수행하는 사용자가 표시됩니다.
+* [!UICONTROL 사용자 결정]
 * [!UICONTROL 보기]
-* [!UICONTROL 작업 항목] (작업 및 문제를 나타냅니다.)
+* [!UICONTROL 작업 항목] (작업 및 문제에 대한 보고서를 생성합니다.)

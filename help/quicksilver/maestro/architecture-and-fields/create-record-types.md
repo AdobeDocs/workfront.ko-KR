@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1398'
+source-wordcount: '1408'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 1%
 # 운영 레코드 유형 만들기
 
 >[!IMPORTANT]
+>
+>이 문서의 정보는 Adobe의 새로운 서비스인 Adobe 마에스트로를 참조합니다.
 >
 >현재 Adobe 마에스트로는 제한된 수의 고객에게 제공되는 베타 프로그램의 일부입니다.
 >
@@ -100,7 +102,7 @@ Maestro 레코드 유형에 대한 자세한 내용은 [레코드 유형 및 분
 
         자세한 내용은 [작업 공간 만들기](../architecture-and-fields/create-workspaces.md).
       * Excel 또는 CSV 파일을 사용하여 가져올 때. 분류 레코드 유형에는 사용할 수 없습니다.
-      * 다른 응용 프로그램에서 개체 유형에 대한 연결을 만들 때 레코드 유형에 필드를 추가할 때 이렇게 하면 원본 응용 프로그램의 개체 유형에 연결된 Maestro에 읽기 전용 레코드 유형이 만들어집니다. 분류 레코드 유형에는 사용할 수 없습니다.
+      * 다른 응용 프로그램에서 개체 유형에 대한 연결을 만들 때 레코드 유형에 필드를 추가할 때 이렇게 하면 원본 응용 프로그램의 개체 유형에 연결된 Maestro에 읽기 전용 레코드 유형이 만들어집니다.
 
      객체 유형을 Maestro 레코드와 연결하는 방법에 대한 자세한 내용은 [레코드 연결](../records/connect-records.md).
    * 수동:
@@ -258,5 +260,7 @@ Excel 파일을 사용하여 레코드 유형을 가져오려면 다음을 수�
    * 프로젝트
    * 포트폴리오
    * 프로그램
+   * 회사
+   * 그룹
 
 자세한 내용은 [레코드 유형 연결](../architecture-and-fields/connect-record-types.md).

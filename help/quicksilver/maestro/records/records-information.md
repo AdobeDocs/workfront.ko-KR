@@ -4,13 +4,13 @@ description: Adobe Maestro에서 레코드 유형을 만든 후 해당 유형의
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
-
 
 <!-- update the metadata with real information when making this available in TOC and in the left nav
 ---
@@ -27,6 +27,8 @@ hide: yes
 # 레코드 정보
 
 >[!IMPORTANT]
+>
+>이 문서의 정보는 Adobe의 새로운 서비스인 Adobe 마에스트로를 참조합니다.
 >
 >현재 Adobe 마에스트로는 제한된 수의 고객에게 제공되는 베타 프로그램의 일부입니다.
 >

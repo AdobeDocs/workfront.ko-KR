@@ -4,17 +4,19 @@ description: 이 문서에서는 Adobe Maestro 레코드 유형과 Workfront 프
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1742'
+source-wordcount: '1758'
 ht-degree: 0%
 
 ---
 
-
 # 레코드 종류 및 레코드 연결의 예
 
 >[!IMPORTANT]
+>
+>이 문서의 정보는 Adobe의 새로운 서비스인 Adobe 마에스트로를 참조합니다.
 >
 >현재 Adobe 마에스트로는 제한된 수의 고객에게 제공되는 베타 프로그램의 일부입니다.
 >
@@ -193,6 +195,3 @@ Workfront에서 특정 캠페인에 대한 프로젝트의 계획된 수익 필�
    >    Workfront Project Maestro 레코드에 추가하는 필드는 Workfront Project 페이지에만 추가되며, 연결된 필드로 Campaign 레코드 유형 페이지에는 추가되지 않습니다. 캠페인에 대한 프로젝트 필드를 보려면 캠페인 레코드 유형의 프로젝트 정보 연결 개체 필드에서 프로젝트 필드를 추가해야 합니다.
 
 1. (선택 사항 및 조건부) 프로젝트에 대해 두 개 이상의 날짜 필드를 표시하도록 선택한 경우 **보기** Workfront 프로젝트 레코드 유형 테이블의 드롭다운 메뉴, **보기 만들기** > **타임라인** > **만들기** 을 클릭하여 타임라인 보기를 만들고 타임라인에 프로젝트를 표시할 수 있습니다.
-
-
-

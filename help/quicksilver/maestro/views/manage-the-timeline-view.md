@@ -4,13 +4,13 @@ description: Adobe Maestro의 레코드 유형 페이지에 액세스할 때 타
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1093'
 ht-degree: 1%
 
 ---
-
 
 # 타임라인 보기 관리
 
@@ -27,6 +27,8 @@ role: User
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 >[!IMPORTANT]
+>
+>이 문서의 정보는 Adobe의 새로운 서비스인 Adobe 마에스트로를 참조합니다.
 >
 >현재 Adobe 마에스트로는 제한된 수의 고객에게 제공되는 베타 프로그램의 일부입니다.
 >
@@ -261,5 +263,3 @@ this is not possible right now; if this is the same functionality as the table v
 1. **저장**&#x200B;을 클릭합니다.
 
    선택한 사양과 함께 레코드가 타임라인 보기에 표시됩니다.
-
-

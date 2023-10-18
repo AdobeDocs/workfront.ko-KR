@@ -4,13 +4,13 @@ description: 레코드 종류 간에 연결을 만든 후에는 개별 레코드
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1803'
+source-wordcount: '1819'
 ht-degree: 0%
 
 ---
-
 
 <!--when you make this live, update the metadata above to this: 
 ---
@@ -29,6 +29,8 @@ hide: yes
 # 레코드 연결
 
 >[!IMPORTANT]
+>
+>이 문서의 정보는 Adobe의 새로운 서비스인 Adobe 마에스트로를 참조합니다.
 >
 >현재 Adobe 마에스트로는 제한된 수의 고객에게 제공되는 베타 프로그램의 일부입니다.
 >
@@ -276,15 +278,3 @@ Maestro 레코드 유형과 Workfront 객체 유형 간에 연결을 만든 후 
    >  Workfront 개체 레코드 유형 페이지에서 추가하거나 제거하는 필드는 Workfront 개체 유형에 연결되는 Maestro 레코드 유형에서 추가되거나 제거되지 않습니다. 필드는 읽기 전용 Workfront 레코드 유형 페이지에만 표시되므로 Maestro에서 검토할 수 있습니다.
 
 1. (선택 사항) Workfront 객체 레코드 유형 페이지의 보기 드롭다운 메뉴에서 타임라인 보기를 선택하여 타임라인 보기에 Workfront 연결된 객체를 표시합니다.
-
-
-
-
-
-
-
-
-
-
-
-

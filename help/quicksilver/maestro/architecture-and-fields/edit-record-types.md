@@ -4,13 +4,13 @@ description: 레코드 유형을 저장한 후 편집할 수 있습니다. 레�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '433'
 ht-degree: 1%
 
 ---
-
 
 <!--update the metadata with real information when making this available in TOC and in the left nav
 ---
@@ -29,6 +29,8 @@ hide: yes
 # 레코드 유형 편집
 
 >[!IMPORTANT]
+>
+>이 문서의 정보는 Adobe의 새로운 서비스인 Adobe 마에스트로를 참조합니다.
 >
 >현재 Adobe 마에스트로는 제한된 수의 고객에게 제공되는 베타 프로그램의 일부입니다.
 >
@@ -123,4 +125,3 @@ hide: yes
    ![](assets/more-menu-options-from-record-details-page.png) <!--check this screen shot - not sure this is valid ???-->
 
    레코드 유형 페이지의 헤더에서 레코드 유형의 이름을 바꿀 수도 있습니다.
-

@@ -9,10 +9,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 7614652b57c57e1176dfb48058f890fd4e5c942e
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '2510'
-ht-degree: 8%
+source-wordcount: '2515'
+ht-degree: 7%
 
 ---
 
@@ -46,7 +46,8 @@ ht-degree: 8%
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>Workfront 관리자여야 합니다.</p> <p><b>참고</b>: 아직 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가적인 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td> <p>Workfront 관리자여야 합니다.</p> <p><b>메모</b>:</p> 
+   <p> 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -433,14 +434,20 @@ Excel 템플릿을 데이터로 채운 후 해당 데이터를 Workfront에 업�
 
 킥스타트 가져오기는 다음 파일 유형을 지원합니다.
 
-* XML 기반 Excel (&#42;.xlsx)
-* 이전 Excel(&#42;.xls)
-* 압축 (&#42;ZIP) xlsx 또는 xls 파일
+* XML 기반 Excel(.xlsx)
+* 이전 Excel(.xls)
+* 압축(.ZIP) 파일(.xlsx 또는 .xls 파일만 포함)
 
   >[!NOTE]
   >
-  >문서, 아바타 등의 보고서를 참조하거나 속성 파일을 보거나 필터링하거나 그룹화하는 Excel 스프레드시트를 가져올 때 ZIP 파일을 사용해야 합니다. 압축 가져오기 파일을 사용할 때 &#42;ZIP 파일의 이름은 &#42;.xlsx 또는 &#42;.xls 파일과 모든 콘텐츠는 동일한 파일 구조 수준(폴더 없음)에 있어야 합니다.
-
+  >다음 개체를 참조하는 Excel 스프레드시트를 가져올 때 .ZIP 파일을 사용해야 합니다.
+  >
+  >* 보고서
+  >* 문서
+  >* 아바타
+  >* 속성 파일을 보거나 필터링하거나 그룹화합니다.
+  >
+  >압축 가져오기 파일을 사용하는 경우 .ZIP 파일의 이름은 .xlsx 또는 .xls 파일과 같아야 하며 모든 파일의 구조 수준은 같아야 합니다(폴더 없음).
 
 템플릿 스프레드시트 데이터를 Workfront으로 가져오려면 다음을 수행하십시오.
 
