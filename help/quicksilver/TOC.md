@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: dc9d331045f5381290983a5b37bf16e72249422c
 workflow-type: tm+mt
-source-wordcount: '13345'
+source-wordcount: '13358'
 ht-degree: 1%
 
 ---
@@ -379,6 +379,8 @@ ht-degree: 1%
          * [새 댓글 달기 환경](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
          * [새로운 댓글 달기 경험 릴리스 활동](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
          * [새로운 주석 달기 경험 FAQ](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
+      * Workfront 및 Frame.io 통합 알파 {#frame-io-wf-integration-alpha}
+         * [Adobe Workfront 및 Frame.io 기본 통합 알파: 개요](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
 * 관리 및 설정 {#administration-and-setup}
    * [관리 및 설정](administration-and-setup/administration-and-setup.md)
    * 관리 시작 {#get-started-administration}

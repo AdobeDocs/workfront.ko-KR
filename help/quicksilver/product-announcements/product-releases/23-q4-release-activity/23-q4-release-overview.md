@@ -4,9 +4,9 @@ description: 2023년 4분기 릴리스 개요
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 2fa6cfa10bab8714c8e30b9b1e084ee626ec933a
+source-git-commit: 93191e047dbf0344647e41f9e4280c08c1172001
 workflow-type: tm+mt
-source-wordcount: '2599'
+source-wordcount: '2547'
 ht-degree: 0%
 
 ---
@@ -326,7 +326,7 @@ These enhancements will be included in the following releases:
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">새 기여자 기본 랜딩 페이지: 새 홈</a> <span style="color: #ff0000;"> 미리보기의 새로운 기능!</span> </p>
-                        <p>이제 New Home이 기여자 계정의 기본 랜딩 페이지입니다. 이 새로운 기본 홈 페이지에는 기여자가 즉시 작업을 관리할 수 있도록 가장 잘 하도록 특별히 선택된 많은 위젯이 포함되어 있습니다.</p>
+                        <p>이제 New Home이 기여자/요청자 계정의 기본 랜딩 페이지입니다. 이 새로운 기본 홈 페이지에는 기여자가 즉시 작업을 관리할 수 있도록 가장 잘 하도록 특별히 선택된 많은 위젯이 포함되어 있습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
@@ -628,27 +628,8 @@ These enhancements will be included in the following releases:
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">업데이트된 이메일 템플릿</a> <span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p>
-                        <p>이벤트 알림 이메일을 업데이트하기 위한 새 이니셔티브의 시작으로서 가장 일반적으로 사용되는 두 가지, 즉 문서 승인 및 개체 공유가 업데이트되었습니다.</p>
-                    </td>
-                    <td><p><b>다음 날짜에 사용 가능:</b></p>
-                        <ul>
-                            <li>
-                                <p>미리보기 릴리스: 2023년 10월 12일</p>
-                            </li>
-                            <li>
-                                <p>빠른 릴리스를 위한 프로덕션: 23.10 릴리스 포함</p>
-                            </li>
-                            <li>
-                                <p>분기별 릴리스 프로덕션: 23.10 릴리스 포함</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">기여자 메인 메뉴 변경 사항</a> <span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p>
-                        <p>기여자에게 유료 Workfront 라이선스 유형과 함께 사용할 수 있는 기능을 더 잘 알리기 위해 이제 기본 메뉴에서 사용할 수 있는 모든 옵션을 볼 수 있습니다.</p>
+                        <p>이제 기여자/요청자에게 유료 Workfront 라이선스 유형에서 사용할 수 있는 기능을 더 잘 알리기 위해 기본 메뉴에서 사용할 수 있는 모든 옵션을 볼 수 있습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>

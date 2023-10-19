@@ -6,9 +6,9 @@ description: Documents를 지원하는 모든 객체에 대한 문서를 요청�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 93191e047dbf0344647e41f9e4280c08c1172001
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ Documents를 지원하는 모든 객체에 대한 문서를 요청할 수 있습
 
    이메일 알림에 있는 링크를 클릭한 다음 문서를 업로드할 수 있습니다. 또는 인앱 알림을 클릭할 수 있습니다. 각 옵션은 요청한 문서를 업로드할 수 있는 사용자 프로필 페이지로 안내합니다.
 
-   이메일에 직접 회신하고 요청된 문서를 첨부할 수도 있습니다(이메일 응답을 지원하도록 구성된 경우). 이메일 응답을 구성하려면 을 참조하십시오.
+   이메일에 직접 회신하고 요청된 문서를 첨부할 수도 있습니다(이메일 응답을 지원하도록 구성된 경우).
 
 1. 문서를 업로드한 후에는 요청한 사람이 개인적으로 문서에 액세스할 수 있습니다 **문서** 영역입니다.
 
