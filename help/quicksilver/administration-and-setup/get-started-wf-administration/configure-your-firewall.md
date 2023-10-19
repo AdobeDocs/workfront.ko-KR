@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: d74b0aa22644b7c79d3c6c3c3bbd5e67efdff732
+source-git-commit: ed5f941690754f631c16c5206faeeeb30d126841
 workflow-type: tm+mt
-source-wordcount: '1543'
+source-wordcount: '1569'
 ht-degree: 13%
 
 ---
@@ -24,6 +24,10 @@ ht-degree: 13%
 >조직에서 Adobe Admin Console에 온보딩된 경우 허용 목록에 추가하다를 구성하려면 을 참조하십시오. [Adobe 앱 및 서비스에 대해 허용되는 도메인](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
 >조직이 Adobe Admin Console에 온보딩되었는지 여부에 따라 달라지는 절차 목록은 을 참조하십시오. [플랫폼 기반 관리의 차이점(Adobe Workfront/Adobe 비즈니스 플랫폼)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+
+>[!NOTE]
+>
+>조직이 허용 목록에 추가하다를 구성하는 방식은 각 조직마다 고유합니다. IT 팀과 협력하여 조직의 절차를 식별하고 이러한 추가 사항을 구현합니다.
 
 허용 목록에 추가하다 방화벽 또는 메일 서버가 특정 공급업체에 대해서만 액세스를 허용하도록 구성된 경우 특정 IP 주소를 해당 공급업체에 추가해야 합니다. 이렇게 하면 사용자 환경과 Adobe Workfront 서버 간에 통신이 열리고 다음 프로세스가 허용됩니다.
 
