@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 89d590551ffbd23b357f5697163fa56651f294fb
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '751'
 ht-degree: 1%
 
 ---
@@ -144,13 +144,11 @@ Adobe Maestro에서 레코드 유형을 선택한 후 다음 보기에서 해당
 | 레코드 필터링 | ✓ | ✓ |
 | 그룹 레코드 |           | ✓ |
 | 레코드 정렬 | ✓ |              |
+| 색상 코드 레코드 |           | ✓ |
+| 색상 코드 그룹화 |           | ✓ |
 
 <!--| Sort groupings                                                        | ✓          | ✓             |-->
-
 <!--| Display a limited number of fields as columns, by default                      | ✓          |               |-->
-
-<!--| Color-code records                     |           | ✓              |-->
-<!--| Color-code groupings                     |           | ✓              |-->
 
 ## 보기 만들기 또는 편집 {#create-or-edit-views}
 

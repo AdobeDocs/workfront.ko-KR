@@ -7,10 +7,10 @@ description: 객체의 업데이트 섹션에는 사용자가 객체에 대해 �
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
 workflow-type: tm+mt
-source-wordcount: '1189'
-ht-degree: 4%
+source-wordcount: '1170'
+ht-degree: 5%
 
 ---
 
@@ -133,8 +133,6 @@ The Updates section of an object displays comments that users make on the object
 
 새 댓글 달기 환경에 사용할 수 있는 기능과 개체에 대한 자세한 내용은 [새 댓글 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-<!--update screen shot and maybe save it under a new name??? with the August 17 release - also make sure you have some people tagged, similar to what we show in the old UI-->
-
 <span class="preview">![](assets/updates-tab-after-unified-experience-for-tasks.png)</span>
 
 * 업데이트 섹션에는 새 댓글 달기 환경의 다음 탭에 정보가 표시됩니다.
@@ -211,8 +209,6 @@ The Updates section of an object displays comments that users make on the object
 
   *You can add and view updates to cards in the Board areas when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md). 
   -->
-
-
 
 ## 상위 등급 개체에도 표시되는 업데이트
 
@@ -325,18 +321,13 @@ Adobe Workfront 관리자 및 그룹 관리자는 다른 사용자로 로그인�
 
 자세한 내용은 [다른 사용자로 로그인](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
-다른 사용자를 대신하여 작성한 모든 주석은 주석에 표시됩니다.
+다른 사용자로 로그인하고 주석을 추가할 때 다음 사항을 고려하십시오.
 
-<!--remove the note below when we release this back to the new commenting-->
+* 다른 사용자를 대신하여 작성한 모든 주석은 주석에 표시됩니다.
 
->[!NOTE]
->
->새 댓글 달기 경험을 사용할 때 댓글은 다른 사용자로 로그인한 사용자로 추가되며 다른 사용자를 대신하여 댓글을 추가한다는 표시가 없습니다.
->
->예를 들어 Workfront 관리자가 다른 사용자로 로그인하는 경우 댓글과 연관된 사용자는 Workfront 관리자입니다. 자세한 내용은 [새 댓글 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+* 그룹 관리자는 다른 사용자를 대신하여 댓글을 달 수 있지만 해당 댓글을 삭제할 수는 없습니다. Adobe Workfront 관리자만 다른 사용자를 대신하여 작성한 댓글을 삭제할 수 있습니다.
 
-
-그룹 관리자는 다른 사용자를 대신하여 댓글을 달 수 있지만 해당 댓글을 삭제할 수는 없습니다. Adobe Workfront 관리자만 다른 사용자를 대신하여 작성한 댓글을 삭제할 수 있습니다.
+* Workfront 또는 그룹 관리자는 사용자로 로그아웃하고 자신으로 다시 로그인하는 경우에만 다른 사용자를 대신하여 추가한 주석을 편집할 수 있습니다.
 
 ## 분개 입력 보고서를 사용하여 작업 항목에 대한 시스템 갱신 조회
 

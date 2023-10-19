@@ -5,9 +5,9 @@ title: 용어집 [!DNL Adobe Workfront] 용어
 description: 다음 [!DNL Adobe Workfront] 용어집 에는 Adobe Workfront에서 일반적으로 사용되는 용어가 나열되어 있습니다.
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
 workflow-type: tm+mt
-source-wordcount: '19720'
+source-wordcount: '19729'
 ht-degree: 0%
 
 ---
@@ -589,7 +589,7 @@ ht-degree: 0%
    <td>[!UICONTROL Condition]</td> 
    <td> <p>작업, 문제 또는 프로젝트의 진행 상황을 시각적으로 보여줍니다.</p> <p>프로젝트의 경우 조건은 프로젝트 소유자가 수동으로 설정하거나 사용자가 자동으로 설정할 수 있습니다. [!DNL Workfront], 프로젝트의 진행 상태를 기반으로 합니다. </p> <p>프로젝트 조건에 사용할 수 있는 값은 다음과 같습니다.</p> 
     <ul> 
-     <li>Target 시 [!UICONTROL]</li> 
+     <li>[!UICONTROL On Target]</li> 
      <li>[!UICONTROL At Risk]</li> 
      <li>[!UICONTROL 문제 발생]</li> 
     </ul> <p>프로젝트 상태에 대한 자세한 내용은 문서 를 참조하십시오 <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">[!UICONTROL 프로젝트 상태] 및 [!UICONTROL 상태 유형] 개요</a>.</p>
@@ -814,7 +814,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!UICONTROL 종료 날짜]</td> 
-   <td> <p> [!UICONTROL 요금] 보고서에서 프로젝트 수준의 작업 역할에 대한 새 청구 요금이 종료되는 날짜입니다. 이 일자 이전의 프로젝트와 연계된 시간에 이 청구 요율을 곱하여 프로젝트의 수익을 계산합니다. </p> </td> 
+   <td> <p> [!UICONTROL 요금] 보고서에서 프로젝트 수준의 작업 역할에 대한 새 청구 요금이 종료되는 날짜입니다. 이 일자 이전의 프로젝트와 연계된 시간에 이 청구 요금을 곱하여 프로젝트의 수익을 계산합니다. </p> </td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL 참여]</td> 
@@ -2078,7 +2078,8 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL 상태 업데이트]</td> 
-   <td> <p>이 필드에는 사용자가 '[!UICONTROL 업데이트 상태]' 필드에 제공한 가장 최근 상태 업데이트가 표시됩니다. 상태 업데이트에 대한 댓글은 [!UICONTROL 상태 업데이트] 열에 표시되지 않습니다.</p> <p>'[!UICONTROL New],' '[!UICONTROL In Process]' 및 '[!UICONTROL Complete]' 상태를 표시하려면 [!UICONTROL Status] 열을 사용하십시오.</p> <p>상태 업데이트에 대한 댓글은 [!UICONTROL 상태 업데이트] 열에 표시되지 않습니다.</p> <p>상태에 대한 자세한 내용은 문서 를 참조하십시오 <a href="../../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">작업 상태 업데이트</a>.</p> </td> 
+   <td> <p>이 필드에는 개체 소유자가 '[!UICONTROL 업데이트 상태]' 필드에 제공한 가장 최근 상태 업데이트가 표시됩니다. 프로젝트의 경우 프로젝트 소유자가 작성한 댓글을 의미하며 작업 및 문제의 경우 할당자가 작성한 댓글을 의미합니다.</p> 
+   <p> 상태 업데이트에 대한 댓글은 [!UICONTROL 상태 업데이트] 열에 표시되지 않습니다.</p> <p>'[!UICONTROL New],' '[!UICONTROL In Process]' 및 '[!UICONTROL Complete]' 상태를 표시하려면 [!UICONTROL Status] 열을 사용하십시오.</p> <p>상태에 대한 자세한 내용은 문서 를 참조하십시오 <a href="../../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">작업 상태 업데이트</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 상태]</td> 

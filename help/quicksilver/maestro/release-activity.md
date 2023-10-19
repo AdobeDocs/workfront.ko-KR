@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1743'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,34 @@ ht-degree: 0%
 
 단락 유형 필드에 리치 텍스트 형식 컨트롤을 추가했습니다. 레코드 유형의 표 보기 또는 레코드의 세부 정보 페이지에서 서식 있는 텍스트를 사용하여 단락 필드의 서식을 지정할 수 있습니다. 자세한 내용은 [레코드 편집](../maestro/records/edit-records.md).
 
+
+### 타임라인 보기에 대한 색상 코딩 기록 및 그룹화
+
+미리보기 및 프로덕션: 2023년 10월 19일
+
+이제 타임라인 보기에서 레코드 창과 그룹화에 대해 색상 코드를 지정할 수 있습니다.
+
+다음은 타임라인 보기에서 레코드 막대 및 그룹화에 대해 표시하도록 선택할 수 있는 색상에 대한 옵션입니다.
+
+* 그룹화는 다음 색과 일치할 수 있습니다.
+
+   * 회색(기본값)
+
+   * 그룹화할 필드의 색상
+
+* 막대는 다음 색상과 일치할 수 있습니다.
+
+   * 레코드 유형의 색상
+
+   * 선택하는 필드의 색상
+
+   * 그룹화의 색상
+
+   * 색상 없음(기본값)
+
+특정 필드에 색상을 일치시킬 때는 색상으로 구분된 옵션이 있는 필드만 선택할 수 있습니다.
+
+자세한 내용은 [타임라인 보기 관리](../maestro/views/manage-the-timeline-view.md).
 
 ## 2023년 10월 9일 주
 

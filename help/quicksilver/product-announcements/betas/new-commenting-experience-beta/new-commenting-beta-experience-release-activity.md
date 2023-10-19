@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
 workflow-type: tm+mt
-source-wordcount: '2047'
+source-wordcount: '2143'
 ht-degree: 2%
 
 ---
@@ -65,23 +65,23 @@ ht-degree: 2%
   >
   >    반복에는 기존 댓글 달기 환경이 계속 유지됩니다. 새 주석 달기 경험을 반복할 수 없습니다.
 
+* 2024년 1분기(2024년 1월):
+
+   * 기존 댓글 달기 스트림으로 다시 전환하는 옵션이 제거되고 새 댓글 달기 스트림이 반복을 제외한 모든 개체의 유일한 경험이 됩니다.
+
 ## 릴리스된 기능
 
 다음 섹션에는 원래 23.2 릴리스 이후 가장 최근에 릴리스된 기능부터 추가된 기능 목록이 포함되어 있습니다.
 
 다음 정보는 새 댓글 달기 Beta 경험에 포함된 기능을 기반으로 매주 릴리스 활동을 참조합니다. 이 문서에는 새로운 댓글 달기 환경에 대해 추가된 새로운 기능과 해결된 문제가 나열되어 있습니다.
 
-<!--CHECK THE DATES BELOW, BEFORE POSTING: 
+### 2023년 10월 16일 주
 
-### Week of October 9, 2023
+#### 다른 사용자로 로그인된 상태에서 댓글을 달 때 &quot;대신하여 &lt; 사용자 이름 >&quot; 정보 추가
 
-#### Add back the "on behalf of <user name>" information when commenting on behalf of other users
+댓글 달기 경험을 다시 디자인하는 동안 Workfront 또는 그룹 관리자가 다른 사용자로 로그인된 상태에서 댓글을 추가할 때 &quot;대신하여 &lt; 사용자 이름 >&quot; 표시기를 제거했습니다. 이제 이 정보가 복원되었습니다.
 
-While redesigning the commenting experience, we had removed the "on behalf of < user name >" indicator when a Workfront or group administrator added comments while logged in as another user. This information has now been restored. 
-
-Preview and production for all customers: October 13, 2023. 
-
--->
+모든 고객을 위한 미리 보기 및 프로덕션: 2023년 10월 19일.
 
 ### 2023년 9월 11일 주
 

@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: 01618ee7a4002128d0ad6a519de3a58fa72e8818
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1050'
 ht-degree: 3%
 
 ---
@@ -25,13 +25,10 @@ Adobe Workfront의 댓글 달기 환경에 대한 업데이트가 현재 개발 
 
 새로운 댓글 달기 환경은 Workfront에 업데이트 섹션이 있는 모든 개체에 대해 서서히 사용할 수 있게 되며 나중에 다른 Adobe Experience Cloud 애플리케이션으로 확장됩니다.
 
-<!--  ****************UNCOMMENT THIS SECTION WHEN THE FAQs ARTICLE IS LIVE: 
-
-For additional resources for the new commenting experience, also see the following articles:
+<!--For additional resources for the new commenting experience, also see the following articles:
 
 * [New commenting experience release activity](../new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
-* [New commenting experience FAQs](../new-commenting-experience-beta/new-commenting-faq.md.draft)
-
+* [New commenting experience FAQs](../../betas/new-commenting-experience-beta/new-commenting-faq.md)
 -->
 
 ## 기능
@@ -50,7 +47,7 @@ For additional resources for the new commenting experience, also see the followi
 * 시스템 업데이트에 대한 주석 달기
 * 댓글을 달면서 상태, 조건, 커밋 일자를 편집할 수 있는 기능
 * 사용자 정의 양식 편집
-* Workfront 또는 그룹 관리자가 다른 사용자로 로그인하여 주석을 추가할 때의 &quot;대신하여 &lt; 사용자 이름 >&quot; 정보입니다. <!-- Replace this bullet with this, when re bring this back: The "on behalf of < user name >" information when a Workfront or group administrator logs in as another user and adds a comment on their behalf was originally removed. It has been reinstated in October 2023.-->
+* Workfront 또는 그룹 관리자가 다른 사용자로 로그인하고 대신 주석을 추가할 때의 &quot;대신하여 &lt; 사용자 이름 >&quot; 정보는 원래 제거되었습니다. 2023년 10월 19일에 복원되었습니다.
 * 문서에 주석을 추가하는 동안 다른 사용자에게 태그를 지정할 때 &quot;승인 요청&quot; 옵션이 표시됩니다.
 
 >[!NOTE]
@@ -381,34 +378,36 @@ For additional resources for the new commenting experience, also see the followi
    <td> 
    </td>
   </tr>
-  <tr>
-   <td>댓글 확인 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td>✓ 
-   </td>
-   <td>2023년 3분기 
-   </td>
-   <td>✓ 
-   </td>
-  </tr>
-  <tr>
+    <tr>
    <td>댓글에서 검색 
    </td>
    <td> 
    </td>
    <td> 
    </td>
-   <td>✓ 
+   <td> 
    </td>
-   <td>2023년 3분기 
+   <td>2024년 1분기 
    </td>
    <td>✓ 
    </td>
   </tr>
+
+<tr>
+   <td>댓글에 이미지 복사 및 붙여넣기
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td>2024년 1분기 
+   </td>
+   <td>✓ 
+   </td>
+  </tr>
+
 <tr>
    <td>사용자 정의 양식 편집 
    </td>
@@ -456,7 +455,7 @@ For additional resources for the new commenting experience, also see the followi
    </td>
    <td> ✓
    </td>
-   <td> 
+   <td> ✓
    </td>
    <td> 
    </td>

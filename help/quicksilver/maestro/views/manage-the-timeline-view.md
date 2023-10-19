@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1432'
 ht-degree: 1%
 
 ---
@@ -156,7 +156,7 @@ Maestro 보기에 대한 자세한 내용은 [Adobe Maestro에서 레코드 보�
 
 ### 필터 추가
 
-필터는 화면에 표시되는 정보의 양을 줄이는 데 도움이 됩니다.
+필터를 사용하여 화면에 표시되는 정보의 양을 줄일 수 있습니다.
 
 타임라인 보기에서 필터를 사용하여 작업할 때는 다음 사항을 고려하십시오.
 
@@ -166,13 +166,13 @@ Maestro 보기에 대한 자세한 내용은 [Adobe Maestro에서 레코드 보�
 
 * 필터는 사용자가 선택한 보기에 고유합니다. 동일한 레코드 종류의 두 타임라인 보기에는 서로 다른 필터가 적용될 수 있습니다. 동일한 타임라인 보기를 보는 두 명의 사용자에게 현재 적용된 동일한 필터가 표시됩니다.
 
-* 타임라인 보기에 빌드하고 적용하는 필터의 이름을 지정할 수 없습니다.
+* 타임라인 보기를 위해 빌드하는 필터의 이름을 지정할 수 없습니다.
 
-* 필터를 제거하면 사용자와 동일한 레코드 종류에 액세스하고 사용하는 것과 동일한 보기를 사용하는 모든 사용자에서 필터가 제거됩니다.
+* 필터를 제거하면 사용자와 동일한 레코드 종류에 액세스하고 사용자와 동일한 보기를 표시하는 모든 사용자에서 필터가 제거됩니다.
 
-타임라인 보기에서 필터를 추가하는 것은 테이블 보기에서 필터를 추가하는 것과 동일합니다.
+* 타임라인 보기에서 필터를 추가하는 것은 테이블 보기에서 필터를 추가하는 것과 동일합니다.
 
-자세한 내용은 문서의 &quot;필터 추가&quot; 섹션을 참조하십시오 [표 보기 관리](../views/manage-the-table-view.md).
+  자세한 내용은 문서의 &quot;필터 추가&quot; 섹션을 참조하십시오 [표 보기 관리](../views/manage-the-table-view.md).
 
 ### 그룹화 추가
 
@@ -180,45 +180,49 @@ Maestro 보기에 대한 자세한 내용은 [Adobe Maestro에서 레코드 보�
 
 Adding groupings in the timeline view is identical to adding filters in the table view. 
 
-For more information, see the "Add filters" section in the article [Manage the table view](../views/manage-the-table-view.md). -->
-
+For more information, see the "Add groupings" section in the article [Manage the table view](../views/manage-the-table-view.md). BUT: you would need to create this section for the Table view and move the steps below (and maybe edit them) to the Manage the table view article, in this case. OR ... link from that section to this article?! -->
 
 보기에 그룹화를 적용할 때 유사한 정보별로 레코드를 그룹화할 수 있습니다.
 
 타임라인 보기에서 그룹화를 사용하여 작업할 때 다음 사항을 고려하십시오.
 
-* 표 및 타임라인 보기에서 그룹화를 적용할 수 있습니다. 테이블 보기의 그룹화는 동일한 레코드 유형의 타임라인 보기의 그룹화와는 독립적입니다.
+<!--not yet: * You can apply groupings both in the table and timeline views. The groupings of the table view are independent from those in the timeline view of the same record type. -->
 * Maestro 보기에서 3가지 수준의 그룹화를 적용할 수 있습니다. 선택한 그룹화 순서대로 레코드가 그룹화됩니다.
 * API 사용 시 최대 4가지 수준의 그룹화를 적용할 수 있습니다.
+* 그룹화는 선택하는 보기에 대해 고유합니다. 동일한 레코드 종류의 두 타임라인 보기에는 서로 다른 그룹화가 적용될 수 있습니다. 동일한 타임라인 보기를 보고 있는 두 명의 사용자에게 현재 적용된 동일한 그룹화가 표시됩니다.
+
+* 타임라인 보기를 위해 빌드하는 그룹화의 이름을 지정할 수 없습니다.
+
+* 그룹화를 제거하면 사용자와 동일한 레코드 유형에 액세스하거나 사용자와 동일한 보기를 표시하는 모든 사용자에게서 그룹화가 제거됩니다.
 
 그룹화를 추가하려면:
 
-1. 문서에 설명된 대로 타임라인 보기를 만듭니다. [레코드 보기 관리](../views/manage-record-views.md).
-1. 클릭 **그룹화**.
+1. 문서에 설명된 대로 레코드 유형에 대한 타임라인 보기를 만듭니다 [레코드 보기 관리](../views/manage-record-views.md).
+1. 클릭 **그룹화** 을 클릭합니다.
 
    ![](assets/grouping-ui-timeline-view.png)
 
-1. 제안된 필드 중 하나를 클릭하거나 **다른 필드 선택** 다른 필드를 검색하여 목록에 표시되면 클릭합니다.
+1. 제안된 필드 중 하나를 클릭하거나 **다른 필드 선택**&#x200B;에서 다른 필드를 검색한 다음 목록에 표시되면 해당 필드를 클릭합니다.
 
    >[!TIP]
    >
    >연결된 필드는 선택할 수 없습니다.
 
-   그룹화는 타임라인에 자동으로 적용되며 그룹화 상자 내에 레코드가 표시됩니다. 그룹화의 항목 수가 그룹화 행에 표시됩니다.
+   그룹화는 타임라인에 자동으로 적용되며 그룹화 상자 내에 레코드가 표시됩니다.
 
    <!-- add a step that you can rearrange the groupings here, when this will be possible-->
 
 1. (선택 사항) 위의 단계를 반복하여 최대 3개의 그룹화를 추가합니다.
 
-   적용된 그룹화 수는 도구 모음의 오른쪽 상단 모서리에 있는 그룹화 아이콘 왼쪽에 표시됩니다.
+   그룹화를 위해 선택한 필드 수가 그룹화 아이콘 옆에 표시됩니다.
 
    ![](assets/grouping-applied-in-timeline-view.png)
 
-1. (선택 사항) **x** 그룹화 오른쪽에 있는 아이콘을 클릭하여 그룹화 제거
+1. (선택 사항) **x** 그룹화를 제거하기 위해 선택한 필드 오른쪽의 아이콘
 
    또는
 
-   클릭 **모두 지우기** 모든 그룹화를 제거합니다.
+   클릭 **모두 지우기** 모든 필드를 제거합니다.
 
 1. 바깥쪽을 클릭합니다. **레코드 그룹화 기준** 상자를 닫으십시오.
 
@@ -232,20 +236,19 @@ this is not possible right now; if this is the same functionality as the table v
 
 ### 타임라인 보기 설정 편집 {#edit-the-timeline-view-settings}
 
-타임라인 보기 설정을 업데이트하여 보기의 타임라인 섹션에 표시되는 정보를 나타냅니다.
+타임라인 보기 설정을 업데이트하여 보기의 타임라인 섹션에 표시되는 정보와 방법을 나타냅니다.
 
-1. 문서에 설명된 대로 타임라인 보기를 만듭니다. [레코드 보기 관리](../views/manage-record-views.md).
+1. 문서에 설명된 대로 레코드 유형에 대한 타임라인 보기를 만듭니다 [레코드 보기 관리](../views/manage-record-views.md).
 1. 클릭 **설정**.
 1. 클릭 **날짜 및 시간** 왼쪽 패널에서 를 선택합니다. **시작일** 및 **종료일** 타임라인에 표시할 수 있습니다. 기본 시작 및 종료 날짜를 선택하거나 사용 가능한 날짜 필드를 선택할 수 있습니다. 레코드를 나타내는 막대는 시작 날짜에 해당하는 날짜에 시작하여 종료 날짜에 해당하는 날짜에 끝납니다.
 
    >[!NOTE]
    >
-   >    시작 또는 종료 날짜에 대한 값이 없거나 시작 날짜가 종료 날짜보다 늦은 레코드는 타임라인 보기에 표시되지 않습니다.
+   >시작 또는 종료 날짜에 대한 값이 없거나 시작 날짜가 종료 날짜보다 늦은 레코드는 타임라인 보기에 표시되지 않습니다.
 
+1. 클릭 **막대 스타일** 왼쪽 패널에서 레코드 막대에 표시할 필드를 나타냅니다.
 
-1. 클릭 **레코드 세부 정보** 레코드 상자에 표시할 필드를 나타냅니다.
-
-   기본적으로 이름 필드가 선택되어 있습니다.
+   기본적으로 이름 필드가 선택되어 있습니다. <!--adjust this when the primary field is released??-->
 
 1. 클릭 **필드 추가** 레코드 모음에 최대 4개의 필드를 추가할 수 있습니다.
 1. 내부를 클릭합니다. **필드 검색** 상자를 클릭하고 추가할 필드를 클릭합니다.
@@ -259,6 +262,41 @@ this is not possible right now; if this is the same functionality as the table v
    타임라인에서 막대가 어떻게 보이는지에 대한 미리보기가 오른쪽에 표시됩니다.
 
    ![](assets/record-details-panel-timeline-settings-with-preview.png)
+
+1. 클릭 **색상** 왼쪽 패널에서 타임라인에 있는 레코드 및 그룹화의 색상을 사용자 지정합니다.
+
+   ![](assets/color-tab-timeline-view.png)
+
+1. (조건부 및 선택 사항) 타임라인 보기에 그룹화를 추가한 경우 다음 선택 사항 중에서 선택하여 의 그룹화에 대한 색상을 설정합니다. **그룹화 색상 설정** 섹션:
+
+   * **기본값(회색)**: 그룹화의 색상이 회색으로 설정됩니다. 이것이 기본값입니다.
+   * **필드 값**: 그룹화의 색상은 그룹화하는 필드의 색상과 일치합니다.
+그룹화의 색상을 색상으로 구분된 옵션이 있는 필드에만 일치시킬 수 있습니다.
+
+   예를 들어 다중 선택 또는 단일 선택 필드에는 색상으로 구분된 옵션이 있을 수 있습니다.
+
+   색상으로 구분된 옵션이 없는 필드를 기준으로 그룹화하면 그룹화 색상이 회색으로 유지됩니다.
+
+   >[!TIP]
+   >
+   >타임라인 보기에 그룹화를 추가하지 않은 경우 이 섹션이 표시되지 않습니다.
+
+1. 다음에서 **레코드 색상 설정** 섹션에서 다음 옵션 중 하나를 선택하여 레코드 색상을 설정합니다.
+
+   * **레코드 유형**: 레코드 색상이 선택한 레코드 유형의 색상과 일치합니다. 기본 옵션입니다.
+   * **필드 값**: 레코드 색상은 지정한 필드 색상과 일치합니다. 10단계를 계속합니다. <!--ensure this stays accurate-->
+   * **그룹화**: 레코드 색상이 그룹화에 표시한 색상과 일치합니다. 타임라인 보기에 적용된 그룹화가 없으면 이 옵션은 흐리게 표시됩니다.
+   * **없음**: 레코드가 흰색 막대에 표시됩니다.
+
+1. (조건부) (선택한 경우) **필드 값** 레코드 색상의 경우 **레코드 색상 일치** 드롭다운 메뉴.
+
+   ![](assets/field-selector-drop-down-menu-timeline-view.png)
+
+   색상 코드 옵션이 있는 필드만 드롭다운 메뉴에 표시됩니다.
+
+   예를 들어 다중 선택 또는 단일 선택 필드에는 색상으로 구분된 옵션이 있을 수 있습니다.
+
+   선택한 레코드 유형에 대해 색상으로 구분된 옵션이 있는 필드가 없는 경우 이 옵션은 흐리게 표시됩니다.
 
 1. **저장**&#x200B;을 클릭합니다.
 

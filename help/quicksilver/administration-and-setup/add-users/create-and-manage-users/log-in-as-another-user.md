@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ Some users, such as executives, need to be able to control which administrators 
 1. 클릭 **로그인합니다.**
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Might come in a future story:</p>
+   <p> Might come in a future story:</p>
    -->
 
    <!--
@@ -147,15 +147,6 @@ Workfront은 관리자가 다른 사용자로 로그인하는 동안 발생하�
 다른 사용자로 Workfront에 로그인하여 작업을 수행하면, Workfront은 사용자가 수행한 모든 작업이 로그인한 사용자를 대신하여 귀하가 수행함을 명확히 표시합니다.
 
 예를 들어 다른 사용자로 로그인된 상태에서 항목에 댓글을 다는 경우, 문은 사용자가 해당 댓글을 대신 작성했음을 나타냅니다.
-
-<!--remove the note below when we bring this back to Prod: -->
-
->[!NOTE]
->
->새 댓글 달기 경험을 사용할 때 댓글은 다른 사용자로 로그인한 사용자로 추가되며 다른 사용자를 대신하여 댓글을 추가한다는 표시가 없습니다.
->
->예를 들어 Workfront 관리자가 다른 사용자로 로그인하는 경우 댓글과 연관된 사용자는 Workfront 관리자입니다. 자세한 내용은 [새 댓글 달기 환경](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
-
 
 ### 감사 정보 보기 {#view-audit-information}
 
