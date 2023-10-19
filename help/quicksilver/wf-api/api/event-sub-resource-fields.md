@@ -6,9 +6,9 @@ description: 이벤트 구독 리소스 필드
 author: Becky
 feature: Workfront API
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: 012d53d4773ea8fa377ea7c65cea6cc411ef5321
+source-git-commit: a000e1fc353bfbe47851062945adb810804d8dee
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '646'
 ht-degree: 10%
 
 ---
@@ -146,7 +146,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>작업 날짜</td> 
+   <td>작업 날짜 <p><span style="color: #ff0000;"> 이 필드는 더 이상 사용되지 않으며 2023년 10월 23일이 있는 주에 제거됩니다.</p></span></td> 
   </tr> 
   <tr> 
    <td> </td> 
