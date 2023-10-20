@@ -3,12 +3,13 @@ user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administration-and-setup
 title: 블루프린트
-description: Adobe Workfront에서 Blueprint를 사용하는 방법을 배우려면 이 문서를 검토하십시오.
+description: 이 문서를 검토하여 Adobe Workfront에서 블루프린트를 사용하는 방법을 알아보십시오.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 03a23bb6-f30d-4f4d-9e17-069e37ec474a
-source-git-commit: 88f02e5183590ae9ce03268ff00331624b7f4f38
+source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
 source-wordcount: '37'
 ht-degree: 5%

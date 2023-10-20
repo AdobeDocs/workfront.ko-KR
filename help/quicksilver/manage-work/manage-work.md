@@ -6,8 +6,9 @@ title: 작업 관리
 description: 다음 섹션에서 Adobe Workfront 작업 관리에 대한 문서를 찾으십시오.
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: 5d17322b-e517-4475-aa77-faaeb4677152
-source-git-commit: c566eb094e96abca6073554433434822c567bc34
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '33'
 ht-degree: 18%

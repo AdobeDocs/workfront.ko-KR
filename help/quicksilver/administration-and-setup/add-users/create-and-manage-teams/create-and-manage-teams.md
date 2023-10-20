@@ -8,8 +8,9 @@ description: Adobe Workfront 관리자는 설정 영역에서 팀을 만들 수 
 author: Caroline, Courtney
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: ccf55d72-1a8a-48a0-88c3-64408a5bf688
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
 source-wordcount: '43'
 ht-degree: 0%

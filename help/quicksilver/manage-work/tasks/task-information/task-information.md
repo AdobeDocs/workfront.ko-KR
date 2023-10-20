@@ -6,8 +6,9 @@ title: 작업 정보
 description: 작업은 Adobe Workfront에서 프로젝트 완료에 기여하는 작업 항목입니다. 다음 문서에서 작업 정보에 대해 알아보십시오.
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: 2c0e7f40-f680-4e7e-8827-be69703a393f
-source-git-commit: 168e8ac6e7491e020164f9cfa9aef6cf1e64ffe5
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%
@@ -38,6 +39,6 @@ ht-degree: 0%
 * [원래 작업 기간 및 원래 계획된 시간 개요](../../../manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md)
 * [작업의 계획된 기간 및 기간 차이](../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md)
 
-   <!--
+  <!--
   <li><a href="../../../manage-work/tasks/task-information/project-task-issue-dates.md">Overview of project, task, and issue dates</a> </li>
   -->

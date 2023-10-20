@@ -6,8 +6,9 @@ title: 작업 검토 및 승인
 description: 이 섹션에는 다음 하위 섹션 - EDIT ME가 포함됩니다.
 author: Courtney
 feature: Work Management, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: c88c09aa-166f-4ae1-bcfc-89b678590f51
-source-git-commit: 171ea2fcad223026c7fb560041867be3ebff8741
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '27'
 ht-degree: 33%

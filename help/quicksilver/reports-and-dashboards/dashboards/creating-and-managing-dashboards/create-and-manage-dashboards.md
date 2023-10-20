@@ -6,8 +6,9 @@ title: 대시보드 만들기 및 관리
 description: 이 문서를 검토하여 Adobe Workfront에서 대시보드를 만드는 방법을 알아보십시오.
 author: Nolan
 feature: Reports and Dashboards
+recommendations: noDisplay, noCatalog
 exl-id: a7f29a8e-1aa8-4c6c-adeb-e6177291999a
-source-git-commit: a8a3aec50b5538de5867ce3ba7723d92c046b50d
+source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
 workflow-type: tm+mt
 source-wordcount: '78'
 ht-degree: 10%

@@ -4,11 +4,12 @@ navigation-topic: approvals
 title: 알파 프로그램 - 문서 승인
 description: 문서 승인을 위한 Alpha 프로그램의 출시를 발표하게 되어 매우 기쁘게 생각합니다. 여기에서 최신 Alpha 릴리스와 간단한 비디오 연습을 통해 시작할 수 있습니다.
 author: Courtney
-feature: Work Management
+feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
+recommendations: noDisplay, noCatalog
 exl-id: 0ede24f4-4bba-4812-9dd9-e7af77ea5ecc
-source-git-commit: 723c2b7b57b1e876ec6edaf4b1ac14ec1b983667
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 0%

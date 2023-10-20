@@ -6,8 +6,9 @@ title: 프로젝트 재무
 description: 다음 문서에는 프로젝트 재무 정보를 찾을 수 있는 영역 및 프로젝트 재무 관리 방법에 대한 정보가 포함되어 있습니다.
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: 7dda021d-4cf8-4f65-b187-23fcd935a842
-source-git-commit: 1517e3e28fe536a8a72d2802919c8b8819e9ea1a
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 0%

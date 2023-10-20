@@ -3,11 +3,12 @@ content-type: reference
 product-area: templates
 navigation-topic: create-and-manage-projects
 title: 프로젝트 템플릿 만들기 및 관리
-description: 다음 문서에서 프로젝트 템플릿을 만들고 관리하는 방법에 대한 정보를 알아봅니다.
+description: 프로젝트 템플릿을 만들고 관리하는 방법에 대한 자세한 내용은 다음 문서를 참조하십시오.
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: 64fbad12-ce16-449f-8991-62af31e595b2
-source-git-commit: c566eb094e96abca6073554433434822c567bc34
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 0%
@@ -22,8 +23,8 @@ ht-degree: 0%
 
 * [프로젝트 템플릿 개요](../../../manage-work/projects/create-and-manage-templates/project-template-overview.md)
 * [프로젝트 템플릿 만들기](../../../manage-work/projects/create-and-manage-templates/create-template.md)
-* [예에서 프로젝트 템플릿 만들기](../../../manage-work/projects/create-and-manage-templates/create-templates-from-examples.md)
-* [블루프린트 카탈로그를 찾아보고 블루프린트 설치를 요청합니다](../../../administration-and-setup/blueprints/browse-catalog.md)
+* [예제에서 프로젝트 템플릿 만들기](../../../manage-work/projects/create-and-manage-templates/create-templates-from-examples.md)
+* [블루프린트 카탈로그 검색 및 블루프린트 설치 요청](../../../administration-and-setup/blueprints/browse-catalog.md)
 * [프로젝트 템플릿 복사](../../../manage-work/projects/create-and-manage-templates/copy-template.md)
 * [프로젝트에 템플릿 첨부 개요](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md)
 * [프로젝트에 템플릿 첨부](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md)

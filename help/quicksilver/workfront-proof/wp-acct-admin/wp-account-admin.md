@@ -3,12 +3,13 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: workfront-proof-navigation-topic
-title: Workfront 증명 계정 관리
+title: Workfront Proof 계정 관리
 description: 이 섹션에는 다음 하위 섹션 - EDIT ME가 포함됩니다.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 451b9f13-edeb-4e4b-9cee-d1a053bea17c
-source-git-commit: 1312e3d5256f28ca0197c73a6c06016d6d7c7e2a
+source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
 workflow-type: tm+mt
 source-wordcount: '55'
 ht-degree: 16%
@@ -19,7 +20,7 @@ ht-degree: 16%
 
 >[!IMPORTANT]
 >
->이 문서는 독립형 제품의 기능을 참조합니다 [!DNL Workfront Proof]. 내부 교정에 대한 자세한 정보 [!DNL Adobe Workfront]를 참조하십시오. [교정](../../review-and-approve-work/proofing/proofing.md).
+>이 문서는 독립 실행형 제품의 기능에 대해 설명합니다 [!DNL Workfront Proof]. 내부 교정에 대한 정보 [!DNL Adobe Workfront], 참조 [증명](../../review-and-approve-work/proofing/proofing.md).
 
 이 섹션에는 다음 하위 섹션이 포함됩니다.
 

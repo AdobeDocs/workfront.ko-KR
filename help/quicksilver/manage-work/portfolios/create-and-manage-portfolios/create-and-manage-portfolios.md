@@ -3,11 +3,12 @@ content-type: reference
 product-area: portfolios
 navigation-topic: portfolios-navigation-topic
 title: 포트폴리오 만들기 및 관리
-description: Portfolio은 동일한 리소스, 예산 및 일정에 대해 경쟁하는 프로젝트 모음입니다. Portfolio의 프로젝트는 동일한 리소스 풀을 사용하고 동일한 스코어카드에 대해 측정할 만큼 충분히 유사합니다.
+description: Portfolio은 동일한 리소스, 예산 및 일정을 위해 경쟁하는 프로젝트의 컬렉션입니다. Portfolio의 프로젝트는 동일한 리소스 풀을 사용하고 동일한 스코어카드에 대해 측정될 만큼 유사합니다.
 author: Alina
 feature: Work Management, Strategic Planning
+recommendations: noDisplay, noCatalog
 exl-id: eea47cc9-becb-4617-b49c-265c20753908
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 0%
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 # 포트폴리오 만들기 및 관리
 
-Portfolio은 동일한 리소스, 예산 및 일정에 대해 경쟁하는 프로젝트 모음입니다. Portfolio의 프로젝트는 동일한 리소스 풀을 사용하고 동일한 스코어카드에 대해 측정할 만큼 충분히 유사합니다.
+Portfolio은 동일한 리소스, 예산 및 일정을 위해 경쟁하는 프로젝트의 컬렉션입니다. Portfolio의 프로젝트는 동일한 리소스 풀을 사용하고 동일한 스코어카드에 대해 측정될 만큼 유사합니다.
 
 이 섹션에는 다음 문서가 포함됩니다.
 

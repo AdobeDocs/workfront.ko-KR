@@ -8,8 +8,9 @@ title: 앱 및 해당 모듈
 description: Adobe Workfront Fusion은 현재 이 목록에 있는 앱에 대한 전용 커넥터를 제공합니다. 작업할 앱이 이 목록에 없는 경우 HTTP, SOAP 또는 JSON 모듈을 사용하여 해당 앱에 연결할 수 있습니다.
 author: Becky
 feature: Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 7075a649-ab0c-4dfc-b726-c5702c90b457
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 27%

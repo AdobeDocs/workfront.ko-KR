@@ -6,8 +6,9 @@ title: 보고 요소 개요
 description: 모든 Adobe Workfront 보고서와 목록은 세 가지 필수 요소인 보기, 필터 및 그룹화의 조합입니다.
 author: Nolan
 feature: Reports and Dashboards
+recommendations: noDisplay, noCatalog
 exl-id: 5b5385ac-3b75-4500-bf4d-ec6ad4bf727a
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%

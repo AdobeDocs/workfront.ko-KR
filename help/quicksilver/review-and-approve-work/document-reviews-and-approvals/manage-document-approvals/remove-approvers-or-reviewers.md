@@ -4,14 +4,14 @@ navigation-topic: approvals
 title: 문서에서 승인자 또는 검토자 제거
 description: 문서에서 개별 승인자 또는 검토자를 제거할 수 있습니다.
 author: Nolan
-feature: Work Management
-source-git-commit: 2ae69970ebf5c72d4c192f8158bdc412c084ce35
+feature: Work Management, Digital Content and Documents
+exl-id: 6877ee90-9a70-4616-98f4-4b0ff932d79a
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '495'
 ht-degree: 0%
 
 ---
-
 
 # 문서에서 승인자 또는 검토자 제거
 

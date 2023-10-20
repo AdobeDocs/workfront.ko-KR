@@ -7,8 +7,9 @@ title: Adobe Workfront for G Suite
 description: Adobe Workfront for G Suite를 사용하면 가장 중요한 작업에 연결할 수 있으며 Gmail, Google Calendar 및 Google 드라이브 내에서 다른 사용자와 공동 작업을 수행할 수 있습니다. 이러한 애플리케이션을 종료하지 않고 이메일 요청 또는 작업 업데이트를 캡처하여 Workfront에 추가할 수 있습니다. 기한, 우선 순위, 문서, 업데이트 및 추가 컨텍스트 등 Workfront에서 일어나고 있는 일을 상자에 입력하지 않고도 확인할 수 있습니다. 승인 결정을 내리거나, 댓글에 답글을 달거나, 새 작업 요청을 수락할 수 있습니다. 또한 이메일을 개인 프로젝트 작업으로 변환하거나 작업과 우선 순위를 다른 사람에게 할당할 수 있습니다.
 author: Becky
 feature: Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: dfced3e9-0338-446e-bf70-fa5d07f3ac1f
-source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
+source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 0%

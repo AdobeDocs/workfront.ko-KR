@@ -4,14 +4,14 @@ navigation-topic: approvals
 title: 문서 승인 만들기
 description: Adobe Workfront에서 문서에 대한 다른 사용자의 승인을 요청할 수 있습니다.
 author: Nolan
-feature: Work Management
-source-git-commit: 2ae69970ebf5c72d4c192f8158bdc412c084ce35
+feature: Work Management, Digital Content and Documents
+exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 0%
 
 ---
-
 
 # 문서 승인 요청 만들기
 

@@ -8,11 +8,12 @@ description: Workfront 관리자 또는 그룹 관리자는 레이아웃 템플�
 author: Alina
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: f8961140-948f-4bea-956b-a8126008b8cb
-source-git-commit: c68b63230b07ea8c8475b710e256b5e0f049b1eb
+source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
 workflow-type: tm+mt
 source-wordcount: '151'
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
@@ -35,4 +36,4 @@ ht-degree: 2%
 * [레이아웃 템플릿에 대한 관리 액세스 권한 부여](../../../administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
 * [레이아웃 템플릿에 사용자 할당](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
 * [레이아웃 템플릿 복사](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)
-* [API 호출을 사용하여 클래식 레이아웃 템플릿 삭제](../../../administration-and-setup/customize-workfront/use-layout-templates/delete-classic-layout-templates.md)
+* [API 호출을 사용하여 클래식 레이아웃 템플릿을 삭제합니다](../../../administration-and-setup/customize-workfront/use-layout-templates/delete-classic-layout-templates.md)

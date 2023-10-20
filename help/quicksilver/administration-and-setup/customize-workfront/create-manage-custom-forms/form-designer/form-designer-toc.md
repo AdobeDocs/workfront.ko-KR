@@ -8,8 +8,9 @@ description: 사용자가 Workfront 개체에 첨부할 수 있는 사용자 정
 author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: abd52301-a054-4ebf-86c1-141c3011b8c7
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
 workflow-type: tm+mt
 source-wordcount: '45'
 ht-degree: 0%

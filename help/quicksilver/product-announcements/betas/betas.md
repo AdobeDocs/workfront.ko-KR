@@ -4,8 +4,9 @@ title: 베타 프로그램
 description: Adobe Workfront의 최신 베타 릴리스에 대해 알아봅니다.
 author: Alina
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: c46e625f-b3d5-4bdd-827b-5b16493cdc6b
-source-git-commit: 1536d7425b5c5d3c676ff0c8c6a2a9531690ac3e
+source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
 workflow-type: tm+mt
 source-wordcount: '61'
 ht-degree: 0%

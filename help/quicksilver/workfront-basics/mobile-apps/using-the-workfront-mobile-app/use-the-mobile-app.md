@@ -5,8 +5,9 @@ title: 사용 [!DNL Adobe Workfront] 모바일 앱
 description: 다음을 통해 조직 내 팀과 개인의 참여를 가속화하고 작업을 능률화합니다. [!DNL Adobe Workfront's] 모바일 앱(iOS 또는 Android 장치에서 사용 가능).
 author: Nolan
 feature: Get Started with Workfront
+recommendations: noDisplay, noCatalog
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
-source-git-commit: 9f033787076a78f9693aa8d1e6cea714ea7cef2c
+source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 0%

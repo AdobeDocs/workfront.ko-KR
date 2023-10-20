@@ -3,10 +3,11 @@ content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
 title: Adobe Workfront 통합 개요
-description: Adobe Workfront은 다음과 같은 기타 일반적인 애플리케이션과의 통합을 제공합니다 [!DNL Adobe Creative Cloud], [!DNL Salesforce], Jira 및 Slack. 이 문서는 현재 제공되는 모든 통합에 대한 설명서에 연결합니다.
+description: Adobe Workfront은 다음과 같은 다른 공통 애플리케이션과의 통합을 제공합니다. [!DNL Adobe Creative Cloud], [!DNL Salesforce], Jira 및 Slack. 이 문서는 현재 제공되는 모든 통합에 대한 설명서에 연결되어 있습니다.
 feature: Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: 6298e42d-3cf4-4bed-8a9d-3df2f6d74f93
-source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
+source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '46'
 ht-degree: 0%

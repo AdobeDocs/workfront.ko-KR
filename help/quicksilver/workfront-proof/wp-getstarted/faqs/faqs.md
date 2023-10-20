@@ -7,8 +7,9 @@ title: Workfront 증명 - 자주 묻는 질문
 description: 이 섹션에는 다음 문서 - EDIT ME가 포함됩니다.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: e2bbb311-b56a-46aa-8595-420482fa4ed8
-source-git-commit: d5ffd576fcedf9b10dce5e5d5bd9245dd7f67ef8
+source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
 workflow-type: tm+mt
 source-wordcount: '65'
 ht-degree: 0%
@@ -28,7 +29,7 @@ ht-degree: 0%
 * [FAQ - [!DNL Workfront Proof] account](../../../workfront-proof/wp-getstarted/faqs/faq-wp-account.md)
 * [로그인 및 암호 및 이메일 변경 [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/faqs/log-in-change-password.md)
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../workfront-proof/wp-getstarted/faqs/open-wp-basic-trial.md" class="MCXref xref" xrefformat="{para}">Opening a Workfront Proof basic trial account</a> </li>
   -->
 

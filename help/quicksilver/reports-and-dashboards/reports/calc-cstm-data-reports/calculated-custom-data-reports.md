@@ -6,8 +6,9 @@ title: 보고서의 계산된 사용자 정의 데이터
 description: 이 섹션에는 다음 문서 - EDIT ME가 포함됩니다.
 author: Nolan
 feature: Reports and Dashboards
+recommendations: noDisplay, noCatalog
 exl-id: 673792b6-7369-47ce-b0df-9bda4254781c
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 0%
@@ -25,4 +26,4 @@ ht-degree: 0%
 * [계산된 사용자 정의 필드 예: 문제 사용자 정의 양식에 문제 작성자의 관리자 표시](../../../reports-and-dashboards/reports/calc-cstm-data-reports/custom-field-manager-issue-creator-on-issue-form.md)
 * [계산된 사용자 정의 필드 예: 사용자 정의 양식에 상태 타임스탬프 표시](../../../reports-and-dashboards/reports/calc-cstm-data-reports/example-status-timestamp-in-calculated-field.md)
 * [계산된 사용자 정의 필드 예: 필드의 편집 내역 표시](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-field-example-edit-history-of-another-field.md)
-   <!--outdated: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program)-->
+  <!--outdated: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program)-->

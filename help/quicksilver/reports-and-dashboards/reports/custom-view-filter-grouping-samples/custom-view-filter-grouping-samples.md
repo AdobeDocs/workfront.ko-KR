@@ -3,11 +3,12 @@ content-type: reference
 product-area: reporting
 navigation-topic: reports
 title: 사용자 정의 보기, 필터 및 그룹화 샘플
-description: 사용자 지정 보기, 필터 및 그룹화 샘플TOC-적절한 문서"입니다. 나는 이것을 물체별로 조직하는데 큰 가치를 보지 못했다.)
+description: 사용자 지정 보기, 필터링 및 그룹화 샘플TOC-proper article". 나는 이것을 물체로 조직하는 것에 큰 가치를 보지 못했다.)"
 author: Lisa and Nolan
 feature: Reports and Dashboards
+recommendations: noDisplay, noCatalog
 exl-id: beac1ea6-a983-4d12-8972-91150914f731
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
 workflow-type: tm+mt
 source-wordcount: '695'
 ht-degree: 0%
@@ -20,7 +21,7 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this used to be the content of this article but when I did the reorg of text mode for Kyna, Luke asked me to make this article a "TOC-proper article". I did not see much value in organizing this by objects.) </p>
 -->
 
-이 섹션에서는 Adobe Workfront 계정에서 사용할 수 있는 사용자 지정 보기, 필터 및 그룹화의 예를 제공합니다. 별도로 지정하지 않는 한, 이러한 예제는 표준 모드 인터페이스를 사용해서만 작성할 수 있으며 텍스트 모드 인터페이스를 사용해야만 작성할 수 있습니다. 텍스트 모드에 대한 자세한 내용은 [텍스트 모드 개요](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+이 섹션에서는 Adobe Workfront 계정에서 사용할 수 있는 사용자 정의 보기, 필터 및 그룹화의 예를 제공합니다. 이 예제는 달리 지정하지 않는 한 표준 모드 인터페이스를 사용해서만 작성할 수 없으며 텍스트 모드 인터페이스를 사용해서만 작성할 수 있습니다. 텍스트 모드에 대한 자세한 내용은 [텍스트 모드 개요](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;below, drafted because not sure if the links are currently working - April 2022)</p>
@@ -33,100 +34,100 @@ ht-degree: 0%
 ## 사용자 정의 보기 샘플
 
 * [보기: 상위 작업의 이름을 모두 대문자로 표시](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/column-show-name-parent-tasks-all-caps.md)
-* [보기: 작업 뷰의 동일한 열에 있는 계획 시간에 대한 실제 시간](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-actual-hours-planned-hours-task-view.md)
-* [보기: 지정된 사용자 회사 및 홈 그룹](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-assigned-users-company-home-group.md)
-* [보기: 작업 보기의 기간 및 계획 작업에 대한 베이스라인 차이](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-baseline-variance-duration-planned-work-task-view.md)
-* [보기: 작업표 보기에서 초과 작업 비용 계산](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculate-overtime-cost-timesheet-view.md)
+* [보기: 작업 보기의 동일한 열에서 계획된 시간에 대한 실제 시간](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-actual-hours-planned-hours-task-view.md)
+* [보기: 할당된 사용자의 회사 및 홈 그룹](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-assigned-users-company-home-group.md)
+* [보기: 작업 보기의 기간 및 계획된 작업에 대한 기준선 차이](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-baseline-variance-duration-planned-work-task-view.md)
+* [보기: 타임시트 보기에서 초과 작업 비용 계산](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculate-overtime-cost-timesheet-view.md)
 * [보기: 시간 및 날짜 차이 계산](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculate-time-and-date-differences.md)
-* [보기: 열에 있는 두 필드 사이의 계산 결과 표시](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculation-between-two-fields.md)
-* [보기: 열에 작업 승계자 목록 추가](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-list-successors.md)
-* [보기 및 그룹화: 그룹화에서 평균별로 집계된 프로젝트 실제 기간을 표시합니다.](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-project-average-actual-duration-aggregated-grouping.md)
-* [보기: 작업 및 문제 세부 정보가 시간 목록에 결합되었습니다.](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-combined-task-issue-details-hour-list.md)
+* [보기: 열에 있는 두 필드 간의 계산 결과를 표시합니다](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculation-between-two-fields.md)
+* [보기: 열에 작업 후임 작업 목록 추가](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-list-successors.md)
+* [보기 및 그룹화: 그룹화의 평균으로 집계된 프로젝트 실제 기간 표시](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-project-average-actual-duration-aggregated-grouping.md)
+* [보기: 시간 목록의 결합된 작업 및 문제 세부 정보](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-combined-task-issue-details-hour-list.md)
 * [보기: 열에 문자열 대신 이미지 표시](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-image-in-view.md)
-* [보기: 표준 인터페이스에 포함되지 않은 객체 표시](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-objects-not-in-standard-interface.md)
+* [보기: 표준 인터페이스에 포함되지 않은 객체를 표시합니다.](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-objects-not-in-standard-interface.md)
 * [보기: 작업 및 프로젝트 목록에 원래 문제 정보 표시](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
 * [보기: 작업 보기에 프로그램 및 Portfolio 정보 표시](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-program-portfolio-info-task-view.md)
 * [보기: 작업 목록에 작업 들여쓰기 표시](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-task-identations.md)
-* [보기: 증명 링크가 있는 문서 보고서](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-document-report-with-proof-link.md)
-* [보기: 열 너비를 영구적으로 편집](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-edit-column-width-permanently.md)
-* [보기: 확장 사용자 세부 정보](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-expanded-user-details.md)
-* [보기: 열의 내용 숨기기](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-hide-column-content.md)
+* [보기: 증명에 대한 링크가 있는 문서 보고서](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-document-report-with-proof-link.md)
+* [보기: 열의 너비를 영구적으로 편집](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-edit-column-width-permanently.md)
+* [보기: 확장된 사용자 세부 정보](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-expanded-user-details.md)
+* [보기: 열의 콘텐츠 숨기기](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-hide-column-content.md)
 * [보기: 상위 작업 정보가 있는 시간](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-hours-parent-task-information.md)
-* [보기: 승인 정보 문제](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-issues-approval-information.md)
-* [보기: 작성자의 회사 이름과 관련된 문제](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-issues-company-name-originator.md)
-* [보기: 개체 세부 사항 해결 문제](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-issues-resolving-object-details.md)
-* [보기: 하나의 공유 열에 있는 여러 열의 정보 병합](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md)
+* [보기: 승인 정보 관련 문제](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-issues-approval-information.md)
+* [보기: 작성자의 회사 이름 관련 문제](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-issues-company-name-originator.md)
+* [보기: 오브젝트 세부 정보 해결 문제](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-issues-resolving-object-details.md)
+* [보기: 여러 열의 정보를 하나의 공유 열에 병합](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md)
 * [보기: 다중 행 프로젝트 보기](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-multi-row-project-view.md)
-* [보기: 작업 및 프로젝트의 원래 문제 세부 정보](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md)
+* [보기: 작업 및 프로젝트에 대한 시작 문제 세부 정보](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md)
 * [보기: 작업을 들여써서 작업의 상위-하위 관계를 표시합니다.](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-parent-child-relationship-by-indenting-tasks-with-custom-view.md)
-* [보기: 작업 뷰의 발령당 계획 시간과 실제 시간 비교](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-planned-hours-actual-hours-assignment-task-view.md)
-* [보기: 이전 세부 사항](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-predecessor-details.md)
+* [보기: 작업 보기에서 계획된 시간과 할당당 실제 시간 비교](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-planned-hours-actual-hours-assignment-task-view.md)
+* [보기: 전임 작업 세부 정보](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-predecessor-details.md)
 * [보기: 모든 프로젝트 팀 사용자 및 역할이 있는 프로젝트](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-all-project-team-users-roles.md)
 * [보기: 작업 역할이 있는 프로젝트 사용자 목록](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md)
-* [보기: 열의 개체에 대한 링크 제거](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-remove-link-to-object.md)
+* [보기: 열의 오브젝트에 대한 링크 제거](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-remove-link-to-object.md)
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p><a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-report-delivery-details.md" class="MCXref xref" xrefformat="{para}">View: report delivery details</a> </p> </li>
   -->
 
 * [보기: 보고서에 사용된 보고 요소](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-reporting-elements-used-reports.md)
-* [보기: 작업 또는 프로젝트 보고서의 해결 가능한 개체](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resolvable-objects-task-project-report.md)
+* [보기: 작업 또는 프로젝트 보고서의 해결 가능한 객체](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resolvable-objects-task-project-report.md)
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p><a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resource-pool-quick-links.md" class="MCXref xref" xrefformat="{para}">View: Resource Pool quick links</a> </p> </li>
   -->
 
-* [보기: 상위 작업 최대 4개 수준 표시](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-show-parent-tasks-4-levels.md)
+* [보기: 상위 작업을 최대 4개 수준 아래에 표시](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-show-parent-tasks-4-levels.md)
 * [보기: 문제에 대한 제출 경로](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-submission-path-issues.md)
-* [보기: 모든 날짜 분산이 있는 작업](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-task-all-dates-variance.md)
-* [보기: 예약 예외에 영향을 주는 작업](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-tasks-impacted-schedule-exceptions.md)
+* [보기: 모든 일자 차이가 있는 작업](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-task-all-dates-variance.md)
+* [보기: 일정 예외의 영향을 받는 작업](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-tasks-impacted-schedule-exceptions.md)
 * [보기: 사용자 지정 데이터 필드를 사용하는 외부 URL](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-url-using-custom-data-field.md)
-* [보기: 사용자 FTE 가용성의 작업 역할 백분율](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-job-role-percentage-fte-availability.md)
-* [보기: 사용자 개인 시간 해제](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-personal-time-off.md)
+* [보기: FTE 가용성의 사용자 작업 역할 백분율](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-job-role-percentage-fte-availability.md)
+* [보기: 사용자 개인 휴무](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-personal-time-off.md)
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p><a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-username.md" class="MCXref xref" xrefformat="{para}">View: username</a> </p> </li>
   -->
 
-## 사용자 지정 필터 샘플
+## 맞춤형 필터 샘플
 
-* [필터: 불완전한 상호 프로젝트 선행 작업 표시](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-predecessors.md)
-* [필터: 불완전한 교차 프로젝트 후속 사람 표시](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-successors.md)
+* [필터: 불완전한 프로젝트 간 전임 작업 표시](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-predecessors.md)
+* [필터: 불완전한 프로젝트 간 후임 작업 표시](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-successors.md)
 * [필터: 승인 보류 중인 현재 프로젝트 표시](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-current-projects-pending-approval.md)
 * [필터: 승인 상태의 항목만 표시](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-for-items-in-approval-status.md)
 * [필터: 두 필드를 비교하여 목록의 항목 제거](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-items-by-comparing-two-fields.md)
 * [필터: 상위 작업 표시](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-parent-task-filter.md)
-* [필터: 증명 승인 보고서에서 이전 증명 버전을 생략합니다.](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-proof-approval-report.md)
-* [필터: 동일한 필드(&quot;AND&quot; 문)를 참조하는 여러 필터 규칙 만들기](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-refrence-the-same-field-multiple-times.md)
-* [필터: 게재에 예약된 보고서 표시](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-report-delivery-filter.md)
-* [필터: 상태가 다른 그룹과 연결되어 있을 때 동일한 이름 상태의 항목을 표시합니다](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-same-name-statuses-from-different-groups.md)
+* [필터: 이전 증명 버전을 생략하기 위한 증명 승인 보고서](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-proof-approval-report.md)
+* [필터: 동일한 필드(&quot;AND&quot; 문)를 참조하는 여러 필터 규칙을 만듭니다.](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-refrence-the-same-field-multiple-times.md)
+* [필터: 배달 예약된 보고서 표시](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-report-delivery-filter.md)
+* [필터: 상태가 다른 그룹과 연결된 경우 동일한 이름 상태별로 항목 표시](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-same-name-statuses-from-different-groups.md)
 
-## 사용자 지정 그룹화 샘플
+## 사용자 정의 그룹화 샘플
 
-* [다중 선택 사용자 지정 필드로 보고서 그룹화](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-multi-select-custom-field.md)
-* [그룹화: 시간 목록 내 프로젝트 소유자 홈 그룹](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-home-group-project-owner-list-hours.md)
-* [그룹화: Portfolio 소유자, 프로그램 소유자, 프로젝트 소유자 및 프로젝트 상태에 대한 4레벨 태스크 그룹핑](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-4-level-task-grouping.md)
-* [그룹화: 목록에 네 번째 그룹 추가](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-add-fourth-grouping.md)
-* [그룹화: 목록 결과를 그룹화 내의 모든 개체에 공통되는 계산된 값으로 구성합니다.](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-calculated-common-values.md)
-* [그룹화: 그룹화에서 여러 계산된 값을 합산한 결과 표시](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md)
-* [그룹화: 텍스트 모드를 사용하여 그룹화 결과를 축소하거나 확장해야 하는지 여부를 나타냅니다](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-collapsed-or-expanded-results.md)
-* [그룹화: 프로젝트 비율 분류 1](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-percent-breakdown-1.md)
-* [그룹화: 프로젝트 비율 분류 2](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-percent-breakdown-2.md)
-* [그룹화: 시작 날짜별 프로젝트](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-projects-entry-date.md)
-* [그룹화: 프로젝트 스폰서 수 시간](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-sponsor-hours.md)
+* [다중 선택 사용자 정의 필드로 보고서 그룹화](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-multi-select-custom-field.md)
+* [그룹화: 시간 목록의 프로젝트 소유자 홈 그룹](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-home-group-project-owner-list-hours.md)
+* [그룹화: Portfolio 소유자, 프로그램 소유자, 프로젝트 소유자 및 프로젝트 상태에 대한 4단계 작업 그룹화](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-4-level-task-grouping.md)
+* [그룹화: 목록에 네 번째 그룹화 추가](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-add-fourth-grouping.md)
+* [그룹화: 그룹화에 있는 모든 객체에 공통되는 계산된 값으로 목록 결과를 구성합니다.](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-calculated-common-values.md)
+* [그룹화: 그룹화에 있는 여러 계산된 값을 집계한 결과를 표시합니다.](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md)
+* [그룹화: 텍스트 모드를 사용하여 그룹화 결과를 축소할지 또는 확장할지 여부를 나타냅니다.](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-collapsed-or-expanded-results.md)
+* [그룹화: 프로젝트 백분율 분류 1](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-percent-breakdown-1.md)
+* [그룹화: 프로젝트 백분율 분류 2](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-percent-breakdown-2.md)
+* [그룹화: 입력 날짜별 프로젝트](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-projects-entry-date.md)
+* [그룹화: 시간 동안 프로젝트 스폰서](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-sponsor-hours.md)
 * [그룹화: 작업 목록에 대한 프로젝트 스폰서](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-sponsor-task-list.md)
-* [그룹화: 그룹에서 표시 이름 편집](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-rename-grouping.md)
-* [그룹화: 시간 목록 내 프로젝트 소유자 홈 그룹](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-home-group-project-owner-list-hours.md)
-* [그룹화: 작업 퍼센트 분류 1](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-task-percent-breakdown-1.md)
-* [그룹화: 작업 퍼센트 분류 2](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-task-percent-breakdown-2.md)
+* [그룹화: 그룹화에서 표시 이름 편집](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-rename-grouping.md)
+* [그룹화: 시간 목록의 프로젝트 소유자 홈 그룹](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-home-group-project-owner-list-hours.md)
+* [그룹화: 작업 비율 분류 1](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-task-percent-breakdown-1.md)
+* [그룹화: 작업 비율 분류 2](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-task-percent-breakdown-2.md)
 * [그룹화: 포트폴리오, 프로그램 및 프로젝트별 작업](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-tasks-portfolio-program-project.md)
 
 ## 기타 사용자 지정 보고 요소 및 보고서
 
-* [보고서 또는 목록: 객체와 연관된 사용자 표시](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/display-object-users-in-report.md)
-* [보고서: 예산책정 시간](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md)
+* [보고서 또는 목록: 객체와 연관된 사용자를 표시합니다.](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/display-object-users-in-report.md)
+* [보고서: 예산 시간](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md)
 * [보고서: 결합된 작업 및 문제 보기 및 그룹화](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-combined-task-issue-view-grouping.md)
-* [다중 선택 사용자 지정 필드로 보고서 차트 지정](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md)
+* [다중 선택 사용자 정의 필드로 보고서 차트 작성](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md)
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

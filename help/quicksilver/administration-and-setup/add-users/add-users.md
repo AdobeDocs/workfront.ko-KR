@@ -4,12 +4,13 @@ content-type: reference
 product-area: system-administration;user-management
 navigation-topic: administration-and-setup
 title: 사용자 추가 개요
-description: 개별 사용자를 처음부터 만들거나 기존 사용자를 복사하여 Adobe Workfront에서 사용자를 추가할 수 있습니다.
+description: 처음부터 개별 사용자를 만들거나 기존 사용자를 복사하여 Adobe Workfront에서 사용자를 추가할 수 있습니다.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 92b02c31-7e77-4b27-9b17-d7803df2ba2d
-source-git-commit: 4644edd2aac8c77508e940ec42c597aa702c4df1
+source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 3%
@@ -23,6 +24,6 @@ ht-degree: 3%
 * [사용자 만들기 및 관리](../../administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
 * [새로운 액세스 수준 작동 방식](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
 * [액세스 수준 작동 방식](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
-* [Adobe Workfront에 대한 액세스 구성](../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)
-* [Adobe Workfront에서 단일 사인온](../../administration-and-setup/add-users/single-sign-on/single-sign-on.md)
+* [Adobe Workfront 액세스 구성](../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)
+* [Adobe Workfront에서 SSO(Single Sign-On)](../../administration-and-setup/add-users/single-sign-on/single-sign-on.md)
 * [팀 만들기 및 관리](../../administration-and-setup/add-users/create-and-manage-teams/create-and-manage-teams.md)

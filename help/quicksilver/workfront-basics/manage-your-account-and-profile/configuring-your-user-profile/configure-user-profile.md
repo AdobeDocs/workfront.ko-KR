@@ -6,8 +6,9 @@ title: 사용자 프로필 구성
 description: 이 섹션의 문서를 검토하여 을(를) 구성하는 방법을 알아보십시오 [!DNL Workfront] 사용자 프로필.
 author: Nolan
 feature: Get Started with Workfront
+recommendations: noDisplay, noCatalog
 exl-id: 1a64a148-529c-4c66-9ee8-fbfa205b0a67
-source-git-commit: 1079f85651ec691280e2cccefaa6e48e0b9d89f8
+source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
 workflow-type: tm+mt
 source-wordcount: '36'
 ht-degree: 0%

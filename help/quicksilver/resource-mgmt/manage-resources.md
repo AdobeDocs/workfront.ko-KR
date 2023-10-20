@@ -3,11 +3,12 @@ content-type: reference
 product-area: resource-management
 navigation-topic: resource-management-navigation-topic
 title: 리소스 관리
-description: 자원 관리는 작업 및 가용성을 적절히 관리하는 데 중요합니다. 다음 문서에서 작업 리소스를 계획하고 예약하는 방법을 알아봅니다.
+description: 리소스 관리는 작업을 올바르게 관리하고 가용성을 예측하기 위해 중요합니다. 다음 문서에서 작업에 대한 리소스를 계획하고 예약하는 방법을 알아봅니다.
 author: Alina
 feature: Resource Management
+recommendations: noDisplay, noCatalog
 exl-id: 6f8b3f4a-acdc-4d15-95f7-c71b85d5a8d3
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '48'
 ht-degree: 4%
@@ -20,5 +21,5 @@ ht-degree: 4%
 
 * [리소스 관리](../resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
 * [Adobe Workfront의 리소스 계획](../resource-mgmt/resource-planning/resource-planning-overview.md)
-* [자원 사용률](../resource-mgmt/resource-utilization/resource-utilization.md)
-* [작업 로드 밸런서](../resource-mgmt/workload-balancer/workload-balancer.md)
+* [리소스 사용률](../resource-mgmt/resource-utilization/resource-utilization.md)
+* [업무 균형자](../resource-mgmt/workload-balancer/workload-balancer.md)
