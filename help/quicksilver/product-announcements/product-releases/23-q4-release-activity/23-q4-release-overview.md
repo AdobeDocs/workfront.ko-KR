@@ -4,9 +4,9 @@ description: 2023년 4분기 릴리스 개요
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 93191e047dbf0344647e41f9e4280c08c1172001
+source-git-commit: 803c03845b834757b4643d8fd5c88f185ad6c32e
 workflow-type: tm+mt
-source-wordcount: '2547'
+source-wordcount: '2606'
 ht-degree: 0%
 
 ---
@@ -544,6 +544,23 @@ These enhancements will be included in the following releases:
                             </li>
                         </ul>
                         <p><span style="color: #ff0000;">이 기능은 단계별 릴리스의 일부이며 현재 특정 고객에게만 제공됩니다.</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">작업 목록의 실시간 업데이트</a> </p>
+                        <p>[!BADGE In production]{type=Informative}</p>
+                        <p>이제 작업 목록이 실시간으로 업데이트됩니다. 작업에 대한 변경 사항이 작업 목록에서 업데이트되므로 작업 목록을 보는 사용자는 페이지를 새로 고치지 않고도 변경 사항을 볼 수 있습니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 해당 사항 없음<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">모든 고객을 위한 프로덕션: 단계적 롤아웃, 2023년 10월 19일에 완료</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>

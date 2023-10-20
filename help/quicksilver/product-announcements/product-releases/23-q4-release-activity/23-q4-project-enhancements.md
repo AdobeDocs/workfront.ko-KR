@@ -3,9 +3,9 @@ title: 2023년 4분기 프로젝트 개선 사항
 description: 2023년 4분기 프로젝트 개선 사항
 author: Lisa
 feature: Product Announcements
-source-git-commit: 4d5a8958137e5f85510c5239dfc797ddf1ca24ed
+source-git-commit: 803c03845b834757b4643d8fd5c88f185ad6c32e
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -55,3 +55,7 @@ ht-degree: 0%
 할당이 없고 간단한 기간 유형이 있는 반복 작업에 계획된 시간이 할당되는 방식을 변경했습니다. 이제, 단순 기간 유형이 있고 할당이 없는 새 반복 작업에 대해 계획된 시간을 설정하면 해당 시간이 개별 반복에도 할당됩니다. 이 변경 이전에는 상위 작업이 할당 해제된 경우 개별 반복에 대한 시간이 저장되지 않았습니다.
 
 반복 작업 만들기에 대한 자세한 내용은 [반복 작업 만들기](/help/quicksilver/manage-work/tasks/create-tasks/create-recurring-tasks.md).
+
+## 작업 목록의 실시간 업데이트
+
+이제 작업 목록이 실시간으로 업데이트됩니다. 작업에 대한 변경 사항이 작업 목록에서 업데이트되므로 작업 목록을 보는 사용자는 페이지를 새로 고치지 않고도 변경 사항을 볼 수 있습니다.
