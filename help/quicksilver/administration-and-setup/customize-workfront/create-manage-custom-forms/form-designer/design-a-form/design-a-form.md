@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: b015f442ba028e452abbab3cd7e6d9b6d86f9622
+source-git-commit: 4559a60729fb0001d973c794dc40a8c7ec90cd91
 workflow-type: tm+mt
-source-wordcount: '4774'
+source-wordcount: '4886'
 ht-degree: 4%
 
 ---
@@ -502,7 +502,7 @@ ht-degree: 4%
 
 ### 외부 조회 필드 추가
 
-외부 조회 필드는 외부 API를 호출하고 드롭다운 필드에 값을 옵션으로 반환합니다. 사용자 정의 양식이 첨부된 오브젝트로 작업하는 사용자는 드롭다운에서 이러한 옵션 중 하나를 선택할 수 있습니다.
+외부 조회 필드는 외부 API를 호출하고 드롭다운 필드에 값을 옵션으로 반환합니다. 사용자 정의 양식이 첨부된 오브젝트로 작업하는 사용자는 드롭다운에서 이러한 옵션 중 하나 이상을 선택할 수 있습니다.
 
 외부 조회를 추가하려면:
 
@@ -540,7 +540,8 @@ ht-degree: 4%
      <tr> 
       <td role="rowheader">기본 API URL</td> 
       <td><p>API에 대한 URL을 입력하거나 붙여넣습니다.</p><p>API URL은 드롭다운에 표시할 옵션의 JSON 콘텐츠를 반환해야 합니다. JSON 경로 필드를 사용하여 반환된 JSON에서 드롭다운 옵션으로 특정 값을 선택할 수 있습니다.</p><p>API URL을 입력할 때 URL에 다음 값을 선택적으로 전달할 수 있습니다.</p>
-      <ul><li>$$query - 최종 사용자가 필드에 입력하는 검색 텍스트를 나타내며, 이를 통해 최종 사용자를 위한 쿼리 필터링을 구현할 수 있습니다. (사용자가 드롭다운에서 값을 검색합니다.)</li>
+      <ul><li>$$QUERY - 최종 사용자가 필드에 입력하는 검색 텍스트를 나타내며, 이를 통해 최종 사용자에 대한 쿼리 필터링을 구현할 수 있습니다. (사용자가 드롭다운에서 값을 검색합니다.)</li>
+      <li>$$HOST - 현재 Workfront 호스트를 나타내며 Workfront API에 대한 /search API를 호출하는 데 사용할 수 있습니다. 이 와일드카드를 사용하면 인증이 처리되고 사용자가 인증 헤더를 보낼 필요가 없습니다. (예를 들어 사용자는 기본 URL "$$HOST/attask/api/task/search"를 사용하여 작업을 검색할 수 있으며, 이를 통해 작업을 검색하고 반환된 작업 목록에서 값을 선택할 수 있습니다.)</li>
       <li>{fieldName} - 여기서 fieldName은 Workfront의 사용자 지정 또는 네이티브 필드입니다. 이 방법으로 이미 선택한 필드의 값을 외부 조회 필드에 전달하여 옵션을 필터링할 때 계단식 드롭다운 옵션 필터를 구현할 수 있습니다. (예를 들어 지역 필드가 양식에 이미 있고 API의 국가 목록을 특정 지역에 있는 국가로 좁히고 있습니다.)</li></ul>
       <p><strong>참고:</strong> 정의할 수 있는 특정 쿼리에 대해 작업 중인 API에 대한 설명서를 검토하십시오.</p></td> 
      </tr>
@@ -561,6 +562,15 @@ ht-degree: 4%
       <td role="rowheader">헤더</td>
       <td><p>클릭 <strong>헤더 추가</strong>을 클릭하고 API를 사용한 인증에 필요한 키-값 쌍을 입력하거나 붙여넣습니다.</p><p><strong>참고:</strong> 헤더 필드는 자격 증명을 저장할 수 있는 안전한 위치가 아니므로 입력하고 저장하는 내용에 주의해야 합니다.</p></td>
      </tr>
+     <tr> 
+      <td role="rowheader">다중 선택 드롭다운</td>
+      <td><p>사용자가 드롭다운에서 두 개 이상의 값을 선택할 수 있도록 하려면 이 옵션을 선택합니다.</p></td>
+     </tr>
+     </tr>
+     <tr> 
+      <td role="rowheader">필수 필드 만들기</td>
+      <td><p>사용자가 사용자 정의 양식을 작성하기 위해 필드를 요구하려면 이 옵션을 선택합니다.</p></td>
+     </tr>       
     </tbody>
    </table>
 
