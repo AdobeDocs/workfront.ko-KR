@@ -3,9 +3,9 @@ title: 2023년 4분기 홈 개선 사항
 description: 2023년 4분기 홈 개선 사항
 author: Lisa
 feature: Product Announcements
-source-git-commit: 93191e047dbf0344647e41f9e4280c08c1172001
+source-git-commit: f4aeb9b5afa5b0d3dcb5e4eee2cf2acda2b66398
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '852'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 이전 홈 페이지에서 일반적으로 요청하는 기능인 이제 부재 중 작업을 쉽게 위임할 수 있도록 내 작업, 내 작업 및 내 문제 위젯에 위임 단추를 추가했습니다. 새 홈 이전의 방식과 동일하게 작동하는 위임 메뉴에서 스토리 및 문제를 위임할 대상 및 기간을 선택할 수 있습니다. 단추가 나타나도록 하려면 Workfront 환경에서 작업 위임을 활성화해야 합니다.
 
-Workfront 위임에 대한 자세한 내용은 [작업 및 문제 위임 관리](/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md)
+Workfront 위임에 대한 자세한 내용은 [작업 및 문제 위임 관리](/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md).
 
 ## 새 홈을 위한 새 보드 위젯
 
@@ -30,7 +30,7 @@ Workfront 위임에 대한 자세한 내용은 [작업 및 문제 위임 관리]
 
 ## 새 기여자 기본 랜딩 페이지: 새 홈
 
-이제 New Home이 기여자/요청자 계정의 기본 랜딩 페이지입니다. 이 새로운 기본 홈 페이지에는 기여자가 즉시 작업을 관리할 수 있도록 가장 잘 하도록 특별히 선택된 많은 위젯이 포함되어 있습니다. 또한 첫 번째 페이지 방문 시 기여자는 맞춤화된 연습에서 기본적으로 사용할 수 있는 새 홈 및 특정 위젯의 사용에 대한 지침을 받게 됩니다. 현재 기여자 계정이 사용자 정의 홈 페이지를 사용하는 레이아웃이 있는 경우 해당 레이아웃은 홈 페이지로 유지됩니다.
+이제 New Home이 기여자/요청자 계정의 기본 랜딩 페이지입니다. 이 새로운 기본 홈 페이지에는 기여자가 즉시 작업을 관리할 수 있도록 가장 잘 하도록 특별히 선택된 많은 위젯이 포함되어 있습니다. 또한 첫 번째 페이지 방문 시 기여자는 맞춤화된 연습에서 기본적으로 사용할 수 있는 새 홈 및 특정 위젯의 사용에 대한 지침을 받게 됩니다. 기여자의 기본 위젯은 요청, 언급, 문제 및 게시판입니다. 사용자 정의 홈 페이지가 있는 레이아웃을 기여자 계정이 현재 사용 중인 경우 해당 레이아웃은 홈 페이지로 유지됩니다.
 
 새 홈 사용에 대한 자세한 내용은 [새 홈 시작](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
