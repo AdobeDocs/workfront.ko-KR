@@ -6,9 +6,9 @@ description: 다음에서 [!DNL Workfront] 모바일 앱에서는 의 데스크�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 34a009f6-6b4f-43ee-9689-2b9d1876db07
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1073'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,10 @@ ht-degree: 0%
 앱의 보드 열 및 카드에 대한 변경 사항은 보드의 데스크탑 버전에도 반영됩니다.
 
 모바일 보드에 대한 피드백을 제공하려면 다음을 선택하십시오. **[!UICONTROL 보내기]** ![피드백 보내기](assets/mobile-send-feedback-icon.png) 을 클릭하고 나타나는 메시지를 따릅니다.
+
+>[!NOTE]
+>
+>이때 모바일 앱은 모든 종류의 보드를 지원한다 **제외** 반복 프로세스 보드.
 
 ## 보드 목록 보기 및 필터링
 
@@ -44,7 +48,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->이 경우 의 데스크탑 버전에서만 보드를 보관하거나 삭제할 수 있습니다. [!DNL Workfront] [!UICONTROL 게시판], 모바일 앱에서는 얻을 수 없습니다.
+>현재 데스크탑 버전에서만 보드를 보관하거나 삭제할 수 있습니다. [!DNL Workfront] [!UICONTROL 게시판], 모바일 앱에서는 얻을 수 없습니다.
 
 ## 보드 내용 보기
 
