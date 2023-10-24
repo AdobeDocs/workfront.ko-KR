@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 908a3136b2537310305f282b7a76d8f09cae3836
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 1%
@@ -113,6 +113,9 @@ Adobe 마에스트로 필드 생성에 대한 자세한 내용은 [필드 만들
    레코드 유형의 페이지가 열립니다.
 1. (조건부) 선택 **표 보기** 다음에서 **보기** 레코드 유형 페이지의 오른쪽 위 모서리에 있는 드롭다운 메뉴.
 1. 편집할 필드의 열 헤더 위로 마우스를 가져간 다음 필드 이름 뒤에 있는 아래쪽 화살표를 클릭합니다.
+
+   ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
+
 1. 클릭 **필드 편집**&#x200B;을(를) 클릭한 다음 필드에 대한 정보를 업데이트하고 **저장**.
 
    <!--insert screen shot when finalized-->

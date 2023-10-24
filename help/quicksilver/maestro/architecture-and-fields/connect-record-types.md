@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 908a3136b2537310305f282b7a76d8f09cae3836
 workflow-type: tm+mt
-source-wordcount: '1739'
+source-wordcount: '1740'
 ht-degree: 0%
 
 ---
@@ -262,7 +262,7 @@ Adobe Maestro를 사용하여 조직에 필요한 레코드 유형이 포함된 
 
    ![](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
 
-   필드를 추가하거나 제거하려면 위의 7-12단계에 있는 지침을 따르십시오. <!--ensure these step numbers stay accurate-->
+   조회 필드를 추가하거나 제거하려면 위의 7-12단계에 있는 지침을 따르십시오. <!--ensure these step numbers stay accurate-->
 
 1. (선택 사항) 연결하려는 레코드 종류에서 연결된 레코드 필드의 머리글에 있는 아래쪽 방향 화살표를 클릭한 다음 를 클릭합니다 **삭제**.
 
