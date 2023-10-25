@@ -5,14 +5,18 @@ title: 구성 [!UICONTROL Experience Manager Assets as a Cloud Service] 통합
 description: 다음 위치에서 작업을 콘텐츠와 연결할 수 있습니다. [!DNL Experience Manager Assets].
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 4915dfb923a661befaf33007b8bcb9834e38a3e4
+source-git-commit: 2669530c2901e77599a80a852a428b558291ef36
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1317'
 ht-degree: 0%
 
 ---
 
 # 구성 [!UICONTROL Experience Manager Assets as a Cloud Service] 통합
+
+>[!IMPORTANT]
+>
+>이 기능은 (으)로 온보딩된 조직에서만 사용할 수 있습니다. [!DNL Adobe Admin Console].
 
 다음 위치에서 작업을 콘텐츠와 연결할 수 있습니다. [!DNL Experience Manager Assets]&#x200B;:
 
@@ -25,7 +29,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->여러 Experience Manager Assets 저장소를 조직 ID를 통해 하나의 Workfront 환경에 연결하거나 여러 Workfront 환경을 하나의 Experience Manager Assets 저장소에 연결할 수도 있습니다. 설정하려는 각 통합에 대해 이 문서의 구성 지침을 따르십시오.
+>여러 개를 연결할 수도 있습니다 [!DNL Experience Manager Assets] 저장소를 하나로 [!UICONTROL Workfront] 환경 또는 여러 [!DNL Workfront] 환경을으로 [!DNL Experience Manager Assets] 조직 ID에 대한 리포지토리. 설정하려는 각 통합에 대해 이 문서의 구성 지침을 따르십시오.
 
 ## 액세스 요구 사항
 
@@ -176,7 +180,9 @@ link to documentation about creating schema - waiting on response from Anuj abou
 
 에셋의 메타데이터를 매핑하려면 다음을 수행합니다.
 
-1. 선택 **[!UICONTROL 에셋]** 메타데이터 테이블 위
+<!--
+1. Select **[!UICONTROL Assets]** above the metadata table.
+-->
 1. 다음에서 **[!UICONTROL [!DNL Workfront]필드]** 열에서 기본 제공 또는 사용자 지정 Workfront 필드를 선택합니다.
 
    >[!NOTE]
@@ -186,44 +192,46 @@ link to documentation about creating schema - waiting on response from Anuj abou
 
 1. 다음에서 [!DNL Experience Manager Assets] 필드, 미리 채워진 범주를 검색하거나 검색 필드에 두 개 이상의 문자를 입력하여 추가 범주에 액세스합니다.
 1. 필요에 따라 2단계와 3단계를 반복합니다.
-   ![메타데이터 필드](assets/asset-metadata.png)
-1. 클릭 [!UICONTROL 저장] 또는 로 이동합니다. [폴더](#folders) 이 문서의 섹션.
+   ![메타데이터 필드](assets/metadata-no-asset-toggle.png)
+1. 클릭 [!UICONTROL 저장] 또는 로 이동합니다. [워크플로우 설정](#set-up-workflows-optional) 이 문서의 섹션.
 
-### 폴더에 대한 메타데이터 매핑
+<!--
 
-사용자가 프로젝트에 연결된 폴더를 만들면 연결된 프로젝트, 포트폴리오 및 프로그램 데이터가 의 폴더 메타데이터 필드에 매핑됩니다. [!DNL Experience Manager Assets].
+### Map metadata for folders
+
+When users create a linked folder on a project, the associated project, portfolio, and program data is mapped to folder metadata fields in [!DNL Experience Manager Assets].
 
 >[!NOTE]
 >
->이 통합은 의 사용자 지정 메타데이터를 지원하지 않습니다. [!DNL Adobe Experience Manager].
+>This integration does not support custom metadata from [!DNL Adobe Experience Manager].
 
-폴더의 메타데이터를 매핑하려면 다음을 수행합니다.
+To map metadata for folders: 
 
-1. 선택 **[!UICONTROL 폴더]** 메타데이터 테이블 위
-1. 다음에서 **[!UICONTROL [!DNL Workfront]필드]** 열에서 기본 제공 또는 사용자 지정 Workfront 필드를 선택합니다.
+1. Select **[!UICONTROL Folders]** above the metadata table.
+1. In the **[!UICONTROL [!DNL Workfront] field]** column, choose a built-in or custom Workfront field.
 
-   >[!NOTE]
-   >
-   >단일 Workfront 필드를 여러 Experience Manager Assets 필드에 매핑할 수 있습니다. 여러 개를 매핑할 수 없음 [!DNL Workfront] 단일 필드 [!DNL Experience Manager Assets] 필드.
+    >[!NOTE]
+    >
+    >You can map a single Workfront field to multiple Experience Manager Assets fields. You can't map multiple [!DNL Workfront] fields to a single [!DNL Experience Manager Assets] field.
 
-1. 다음에서 **[!DNL Experience Manager Assets]** 필드, 미리 채워진 범주를 검색하거나 검색 필드에 두 개 이상의 문자를 입력하여 추가 범주에 액세스합니다.
-1. 필요에 따라 2단계와 3단계를 반복합니다.
-   ![폴더 메타데이터](assets/folder-metadata.png)
-1. 클릭 **[!UICONTROL 저장]** 또는 로 이동합니다. [프로젝트 메타데이터 동기화](#project-metadata-sync) 이 문서의 섹션.
+1. In the **[!DNL Experience Manager Assets]** field, search through the pre-populated categories or enter at least two letters in the search field to access additional categories.
+1. Repeat steps 2 and 3 as needed.
+![folder metadata](assets/folder-metadata.png)
+1. Click **[!UICONTROL Save]** or move on to the [Project metadata sync](#project-metadata-sync) section in this article.
 
 
-### 오브젝트 메타데이터 동기화
+### Object metadata sync
 
-An [!DNL Experience Manager] 매핑된 필드 [!DNL Workfront] 포트폴리오, 프로그램, 프로젝트, 작업, 문제 및 문서 필드는에서 필드가 변경되면 자동으로 업데이트됩니다. [!DNL Workfront].
+An [!DNL Experience Manager] fields that is mapped to [!DNL Workfront] portfolio, program, project, task, issue, and document fields update automatically when the field is changed in [!DNL Workfront].
 
-이 옵션을 활성화하면 Adobe Experience Manager로 푸시된 자산에는 문서의 Adobe Experience Manager 메타데이터의 실시간 보기를 표시하는 카드가 문서 세부 정보 페이지에 포함됩니다.
+When this option is enabled, any asset that has been pushed to Adobe Experience manager includes a card on the Document Details page that displays a real-time view of the document's Adobe Experience Manager metadata.
 
 >[!IMPORTANT]
 >
->사용자는에 대한 쓰기 액세스 권한이 있어야 합니다. [!DNL Experience Manager] 업데이트된 메타데이터를 동기화하기 위해 개체에 있는 에셋의 경우.
+>Users must have write access in [!DNL Experience Manager] for assets living in the object in order for the metadata to sync when it's updated.
 
-1. 활성화 **[!UICONTROL 오브젝트 메타데이터 동기화]** 필드.
-1. 클릭 **저장** 또는 로 이동합니다. [워크플로우 설정(선택 사항)](#set-up-workflows-optional) 이 문서의 섹션.
+1. Enable the **[!UICONTROL Sync object metadata]** field.
+1. Click **Save** or move on to the [Set up workflows (Optional)](#set-up-workflows-optional) section in this article.
 
 <!--Courtney start here-->
 
