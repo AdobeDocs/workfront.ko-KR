@@ -5,9 +5,9 @@ title: 의 오브젝트 이해 [!DNL Adobe Workfront]
 description: 의 오브젝트 이해 [!DNL Adobe Workfront]
 feature: Get Started with Workfront
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: a2650ccc3deffd841a7b497e6ff1b5eed6145211
 workflow-type: tm+mt
-source-wordcount: '2237'
+source-wordcount: '2255'
 ht-degree: 7%
 
 ---
@@ -334,6 +334,10 @@ API에 대한 자세한 내용은 [API 탐색기](../../../wf-api/general/api-ex
 * [!UICONTROL 사용자 위임]
 
   부재 중 다른 사람의 작업 및 문제를 수행하도록 위임된 사용자에 대해 보고할 수 있습니다. 이 보고서에는 부재 중인 사용자와 부재 중 직무를 수행하는 사용자가 표시됩니다.
+
 * [!UICONTROL 사용자 결정]
+
+  이번 달에 사용자가 증명 및 문서에 대해 내린 결정 횟수를 보고할 수 있습니다.
+
 * [!UICONTROL 보기]
 * [!UICONTROL 작업 항목] (작업 및 문제에 대한 보고서를 생성합니다.)

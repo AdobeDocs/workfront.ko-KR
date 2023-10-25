@@ -3,9 +3,9 @@ title: 2023년 4분기 관리자 개선 사항
 description: 2023년 4분기 관리자 개선 사항
 author: Lisa
 feature: Product Announcements
-source-git-commit: 8488cb46b3dd9b377c59121597db5b6fe784fdab
+source-git-commit: a2650ccc3deffd841a7b497e6ff1b5eed6145211
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,12 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2023년 4분기 릴리스의 모든 관리자 개선 사항에 대해 설명합니다. 이러한 개선 사항은 프로덕션 환경에서 23.10 릴리스를 통해 제공될 예정입니다.
 
 2023년 4분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [2023년 4분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+
+## 기존 라이선스 모델 고객이 사용할 수 있는 증명 및 문서 결정
+
+새로운 Adobe Workfront 라이선스 모델로 전환되지 않은 이전 고객은 이제 단일 보고서에서 사용자당 월별 증명/문서 결정 수가 포함된 데이터를 볼 수 있습니다. 이 데이터는 사용자 의사 결정 보고서를 실행할 때 사용할 수 있습니다.
+
+자세한 내용은 [Adobe Workfront의 오브젝트 이해](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) 및 [모든 사용자에 대한 증명 및 문서 결정 수 보기](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md).
 
 ## 이제 사용자 정의 양식의 계산된 필드에서 $$USER 와일드카드를 사용할 수 있습니다.
 
