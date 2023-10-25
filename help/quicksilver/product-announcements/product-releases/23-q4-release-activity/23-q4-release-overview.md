@@ -4,9 +4,9 @@ description: 2023년 4분기 릴리스 개요
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
+source-git-commit: 383c87843b3a9a3a7e4e9b78ddd41828013c23c7
 workflow-type: tm+mt
-source-wordcount: '2602'
+source-wordcount: '2665'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,22 @@ These enhancements will be included in the following releases:
                         </p>
                     </td>
                  </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">기존 라이선스 모델 고객이 사용할 수 있는 증명 및 문서 결정</a></p>
+                        <p>새로운 Adobe Workfront 라이선스 모델로 전환되지 않은 이전 고객은 이제 단일 보고서에서 사용자당 월별 증명/문서 결정 수가 포함된 데이터를 볼 수 있습니다. 이 데이터는 사용자 의사 결정 보고서를 실행할 때 사용할 수 있습니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2023년 10월 12일</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">모든 고객을 위한 프로덕션: 2023년 10월 12일</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>            
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">이제 사용자 정의 양식의 계산된 필드에서 $$USER 와일드카드를 사용할 수 있습니다.</a></p>
@@ -494,7 +510,7 @@ These enhancements will be included in the following releases:
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">문서 통합을 위한 드래그 앤 드롭으로 업그레이드</a></p><p>[!BADGE In production ]{type=Informative}</p><p>파일을 연결된 폴더로 드래그 앤 드롭할 때 명확성을 추가하고 사용자 오류를 제거하는 몇 가지 개선 사항이 있습니다.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">문서 통합을 위한 드래그 앤 드롭으로 업그레이드</a></p><p>파일을 연결된 폴더로 드래그 앤 드롭할 때 명확성을 추가하고 사용자 오류를 제거하는 몇 가지 개선 사항이 있습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
@@ -502,7 +518,7 @@ These enhancements will be included in the following releases:
                                 <p>미리보기 릴리스: 2023년 8월 24일<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">모든 고객을 위한 프로덕션: 2023년 8월 31일</span></p>
+                                <p><span class="preview">모든 고객을 위한 프로덕션: 23.10 릴리스 이후</span></p>
                             </li>
                         </ul>
                     </td>
