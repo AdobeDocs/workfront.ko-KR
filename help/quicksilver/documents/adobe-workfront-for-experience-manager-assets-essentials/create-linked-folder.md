@@ -7,7 +7,7 @@ description: Workfront에 있는 동안 Experience Manager Assets 또는 Assets 
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: f12b271f87f9f0dfc5a04c019466b83dbe2b08ca
+source-git-commit: 1744e6f2b78c64ba2fa4856d9c6a0611404e4458
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 0%
@@ -79,6 +79,7 @@ Workfront에 있는 동안 Experience Manager Assets 또는 Assets Essentials과
 
 1. 폴더를 원하는 프로젝트로 이동합니다.
 1. 선택 **새로 추가**&#x200B;그런 다음 관리자가 설정한 Experience manager 통합으로 이동합니다.
+
    >[!NOTE]
    >
    >Workfront 관리자는 이 통합에 사용할 이름을 선택할 수 있으므로 Experience Manager Assets 또는 Assets Essentials에 대해 구체적으로 언급하지 않을 수 있습니다.
