@@ -7,9 +7,9 @@ author: Nolan
 feature: Product Announcements
 hide: true
 hidefromtoc: true
-source-git-commit: 58118f98d2d17960e4383c63b564aa2e56ea49f6
+source-git-commit: 0ad33f377086f71699c550e2300731056a834e72
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -23,19 +23,14 @@ Workfront + Frame.io 통합 알파 프로그램을 시작합니다! 이 알파�
 
 Frame.io와 Workfront(새 문서 승인 포함) 간의 능률적인 경험이 작업 시작에서 승인 및 게재에 이르기까지 콘텐츠 라이프사이클을 어떻게 주도하는지 확인하십시오.
 
-<!--
-Learn more about 
 
-This program and feedback participation activities: <link> 
-
-The new experience and features and how you can test them: <link> 
--->
+알파의 계획된 기능과 이를 테스트하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [Adobe Workfront 및 Frame.io 기본 통합 알파: 기능](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-features.md)
 
 >[!NOTE]
 >
 >이 알파 프로그램에 귀사가 참여하지 않은 상태에서 이 페이지를 접한 경우, 여기에서 정보를 주의 깊게 처리하고 자세한 내용은 Workfront 또는 Frame.io 관리자에게 문의하십시오.
 
-## 계획된 피드백 활동 및 커뮤니케이션 채널
+## 소통 채널
 
 이 알파 프로그램은 Workfront과 Frame.io의 장점을 모두 활용하여 구축하고자 하는 매끄러운 경험을 테스트할 수 있는 고유한 기회를 제공합니다. 요청된 에셋의 검토 및 승인 프로세스를 계획, 모니터링 및 관리하는 Workfront, 크리에이티브 협업을 위한 Frame.io와 검토 및 승인 수행.
 
