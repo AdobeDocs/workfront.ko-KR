@@ -6,7 +6,7 @@ description: Adobe Workfront 보드에서 연결된 카드에 문서를 추가�
 author: Lisa
 feature: Agile
 exl-id: d68c1eec-c527-44b0-bdc5-ca3b7731b648
-source-git-commit: 2e9ba58c01f3c5c6569c88e05993674d56124806
+source-git-commit: ec753f4176208708de0a39679788d34f486f759b
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # 카드에 문서 추가
-
-{{article-preview-and-fast-release}}
 
 Adobe Workfront 보드에서 연결된 카드에 문서를 추가할 수 있습니다. 카드에 추가한 모든 문서는 연결된 작업 또는 문제의 문서 탭에서 사용할 수 있으며 작업 또는 문제에 추가된 문서는 카드에 표시됩니다. 두 영역에서 동일한 파일 유형이 지원됩니다. Workfront의 문서에 대한 자세한 내용은 [파일 시스템에서 Adobe Workfront에 문서 추가](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
