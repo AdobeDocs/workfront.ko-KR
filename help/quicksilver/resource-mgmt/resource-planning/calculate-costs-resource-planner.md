@@ -6,7 +6,7 @@ description: 시간 또는 FTE 값 대신 비용 값을 사용하여 Adobe Workf
 author: Lisa
 feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
-source-git-commit: d2b62f2ec2f52c54129b342d68c336c782601242
+source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
 workflow-type: tm+mt
 source-wordcount: '1445'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # 리소스 플래너에서 비용 계산
-
-{{highlighted-preview}}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Alina: ***Linked to the Planning in the Resource Planner article, Understanding areas of the Resource Planner. - do not move/ change/ delete.)</p>
@@ -142,13 +140,9 @@ ht-degree: 0%
 * 다음 **비용 유형** 프로젝트의 작업 중\
   작업의 비용 유형에 대한 자세한 내용은 [비용 추적](../../manage-work/projects/project-finances/track-costs.md).
 
-<div class="preview">
-
 * 작업 역할 및 사용자에 대한 비용 요율의 유효 일자.
 
   예를 들어 역할 또는 사용자가 2월에 계획된 시간이 10시간이고 3월에 계획된 시간이 10시간이지만 원가율이 3월에 $12에서 $20로 변경된 경우 2월의 계획된 비용 값은 $120이고 3월의 계획된 비용 값은 $200입니다.
-
-</div>
 
 >[!NOTE]
 >
@@ -172,11 +166,7 @@ ht-degree: 0%
 
      사용자 계획 원가는 다음 공식을 사용하여 계산됩니다.
 
-
-
-     ```
-     User Planned Cost Rate = User Planned Hours * User Cost per Hour Rate
-     ```
+     `User Planned Cost Rate = User Planned Hours * User Cost per Hour Rate`
 
      사용자가 프로필에 원가율이 있는 경우 해당 원가율은 계획된 원가를 계산하는 데 사용됩니다. 그렇지 않으면 기본 역할의 시스템 수준 시간당 비용 비율이 사용됩니다.
 
@@ -186,9 +176,7 @@ ht-degree: 0%
 
      역할 계획 비용은 다음 공식을 사용하여 계산됩니다.
 
-     ```
-     Role Planned Cost = SUM(User Planned Cost)
-     ```
+     `Role Planned Cost = SUM(User Planned Cost)`
 
    * **프로젝트 계획 비용**:
 
@@ -202,9 +190,7 @@ ht-degree: 0%
 
      역할 계획 비용은 다음 공식을 사용하여 계산됩니다.
 
-     ```
-     Role Planned Cost = Role Planned Hours * Role Cost per Hours
-     ```
+     `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
 
      작업에 할당된 작업 역할의 시스템 수준 시간당 비용 비율을 사용하여 계획된 비용을 계산합니다.
 
@@ -230,9 +216,7 @@ ht-degree: 0%
 
      역할 계획 원가는 다음 공식에 의해 계산됩니다.
 
-     ```
-     Role Planned Cost = Role Planned Hours * Role Cost per Hours
-     ```
+     `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
 
      Workfront은 사용자가 작업을 수행하는 작업 역할을 확인하여 역할에 대한 계획된 비용을 계산합니다.
 
@@ -242,9 +226,7 @@ ht-degree: 0%
 
      프로젝트 계획 원가는 다음 공식을 사용하여 계산됩니다.
 
-     ```
-     Project Planned Cost = SUM(Role Planned Costs)
-     ```
+     `Project Planned Cost = SUM(Role Planned Costs)`
 
 * 다음의 경우 **비용 유형** 은(는) **시간별 역할** and there is a **작업 역할 할당** 작업:
 
@@ -254,9 +236,7 @@ ht-degree: 0%
 
      역할 계획 원가는 다음 공식에 의해 계산됩니다.
 
-     ```
-     Role Planned Cost = Role Planned Hours * Role Cost per Hours
-     ```
+     `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
 
      Workfront은 사용자가 작업을 수행하는 작업 역할을 확인하여 역할에 대한 계획된 비용을 계산합니다.
 
@@ -264,9 +244,7 @@ ht-degree: 0%
 
      프로젝트 계획 원가는 다음 공식을 사용하여 계산됩니다.
 
-     ```
-     Project Planned Cost = SUM(Role Planned Costs)
-     ```
+     `Project Planned Cost = SUM(Role Planned Costs)`
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(table below ideal but drafted because it does not display correctly in Markdown)</p>

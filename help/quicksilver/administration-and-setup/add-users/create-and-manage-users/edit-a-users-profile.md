@@ -8,7 +8,7 @@ author: Courtney, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
 workflow-type: tm+mt
 source-wordcount: '3139'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 ---
 
 # 사용자 프로필 편집
-
-{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
@@ -120,7 +118,7 @@ Adobe Workfront 관리자는 새 사용자를 만들고 기존 사용자의 프�
        <ul> 
        <li>Workfront 관리자는 모든 시스템 수준 및 그룹 수준의 레이아웃 템플릿을 볼 수 있습니다.</li> 
        <li>그룹 관리자는 시스템 수준 레이아웃 템플릿과 관리하는 그룹과 관련된 템플릿을 볼 수 있습니다.</li> 
-       <li>플랜 라이선스가 있고 사용자 편집 액세스 권한이 있는 사용자는 시스템 수준의 레이아웃 템플릿만 볼 수 있습니다.</li> 
+       <li>플랜 라이선스가 있고 사용자 편집에 대한 액세스 권한이 있는 사용자는 시스템 수준의 레이아웃 템플릿만 볼 수 있습니다.</li> 
        </ul> <p>그룹 수준 레이아웃 템플릿에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">레이아웃 템플릿 만들기 및 관리</a>.</p> </p> </li> 
        </ul> </td> 
      </tr> 
@@ -163,7 +161,7 @@ Adobe Workfront 관리자는 새 사용자를 만들고 기존 사용자의 프�
        <li> <p><b>기본 역할</b>: 사용자가 Workfront에서 수행할 수 있는 기본 작업 역할입니다. 사용자가 할당된 모든 작업 및 문제도 이 작업 역할에 할당됩니다. 작업 역할은 리소스 관리에서 필수적입니다. 관리 사용자 액세스 권한이 있는 플랜 라이선스가 있거나 Workfront 관리자인 경우에만 이 필드를 업데이트할 수 있습니다. 관리자 액세스 권한을 가진 사용자 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">사용자에게 액세스 권한 부여</a>.</p> <p>활성 작업 역할만 목록에 표시됩니다. </p> </li> 
        <li>다음을 선택한 경우 <b>기본 역할</b>, <b>FTE 가용성 백분율</b> 필드가 표시됩니다. 사용자의 일정 중 이 작업 역할에 할당되는 시간의 백분율을 지정합니다. 기본 역할에 대한 FTE 가용성 백분율의 기본값은 100%입니다. </li> 
        <li> <p><b>기타 역할</b>: 사용자는 Workfront에서 여러 작업 역할을 가질 수 있습니다. 작업 역할은 리소스 관리에서 필수적입니다. 사용자가 이행할 수 있는 작업 역할 수에는 제한이 없습니다. 그러나 너무 많은 수의 작업 역할에 한 명의 사용자를 할당하지 않는 것이 좋습니다. 리소스 관리가 너무 복잡해질 수 있기 때문입니다.<p>활성 작업 역할만 목록에 표시됩니다. 작업 역할에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">작업 역할 만들기 및 관리</a>.</p> <p>관리 사용자 액세스 권한이 있는 플랜 라이선스가 있거나 Workfront 관리자인 경우에만 이 필드를 업데이트할 수 있습니다. <br>관리자 액세스 권한을 가진 사용자 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">사용자에게 액세스 권한 부여</a>.</p> </li> 
-       <li> <p>(조건부) 하나 또는 여러 개를 선택한 경우 <b>기타 역할</b>, <b>FTE 가용성 백분율</b> 각 역할에 대한 필드가 표시됩니다. 사용자 일정이 각 작업 역할에 할당되는 시간의 백분율을 지정합니다. 다른 역할에 대한 FTE 가용성 백분율의 기본값은 0%입니다.</p> <p><b>참고</b>: 다른 역할에 0% FTE 가용성이 있는 경우 사용자가 이러한 역할의 작업에 할당되지 않는 한 리소스 플래너에 표시되지 않습니다.</p> <p> <img alt="user_settings_roles_and_dte_boxes_rp_story.png" src="assets/user-settings-roles-and-dte-boxes-rp-story.png"> </p> <p><b>메모</b>: <p>모든 항목의 합계 <b>FTE 가용성 백분율</b> 모든 역할에 대해 100%가 같아야 합니다. FTE 가용성의 각 비율은 리소스 플래너의 사용자당 각 역할에 대한 가용 시간을 계산합니다. 사용자당 각 역할에 대한 사용 가능한 시간은 사용자의 사용 가능한 시간에 따라 다릅니다.</p> <p>Workfront 관리자가 리소스 관리 환경 설정에서 FTE를 계산하기 위해 선택한 방법에 따라 사용자의 사용 가능한 시간이 Workfront에서 계산됩니다.</p> <p>사용자의 가용성 계산에 대한 자세한 내용은 <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">리소스 플래너에서 사용자 및 역할에 대한 시간 및 FTE 계산 개요</a>.</p> <p>리소스 관리 환경 설정 구성에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">리소스 관리 환경 설정 구성</a>.</p> </p> <p><span class="preview">(선택 사항) 프로젝트 중에 사용자의 작업 역할이 변경된 경우 재무 계산에 유효 일자 작업 역할 할당이 사용됩니다.</span></p><p><span class="preview">클릭 <b>날짜별 역할 정의</b>를 선택하고 <b>기본 역할</b> 및 <b>기타 역할</b>을 누르고 각 역할에 대한 할당 백분율을 입력합니다. 역할은 기존 역할(다른 백분율 사용)과 동일하거나 새 역할일 수 있습니다. 다음 항목 선택 <b>시작일</b> 이러한 역할이 활성화되면 미래의 날짜가 될 수 있습니다. 최신 역할이 활성화되면 다음을 클릭할 수 있습니다. <b>이전 역할 표시</b> 을 클릭하여 이전의 비활성 역할을 확인합니다.</span></p> </li> 
+       <li> <p>(조건부) 하나 또는 여러 개를 선택한 경우 <b>기타 역할</b>, <b>FTE 가용성 백분율</b> 각 역할에 대한 필드가 표시됩니다. 사용자 일정이 각 작업 역할에 할당되는 시간의 백분율을 지정합니다. 다른 역할에 대한 FTE 가용성 백분율의 기본값은 0%입니다.</p> <p><b>참고</b>: 다른 역할에 0% FTE 가용성이 있는 경우 사용자가 이러한 역할의 작업에 할당되지 않는 한 리소스 플래너에 표시되지 않습니다.</p> <p> <img alt="user_settings_roles_and_dte_boxes_rp_story.png" src="assets/user-settings-roles-and-dte-boxes-rp-story.png"> </p> <p><b>메모</b>: <p>모든 항목의 합계 <b>FTE 가용성 백분율</b> 모든 역할에 대해 100%가 같아야 합니다. FTE 가용성의 각 비율은 리소스 플래너의 사용자당 각 역할에 대한 가용 시간을 계산합니다. 사용자당 각 역할에 대한 사용 가능한 시간은 사용자의 사용 가능한 시간에 따라 다릅니다.</p> <p>Workfront 관리자가 리소스 관리 환경 설정에서 FTE를 계산하기 위해 선택한 방법에 따라 사용자의 사용 가능한 시간이 Workfront에서 계산됩니다.</p> <p>사용자의 가용성 계산에 대한 자세한 내용은 <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">리소스 플래너에서 사용자 및 역할에 대한 시간 및 FTE 계산 개요</a>.</p> <p>리소스 관리 환경 설정 구성에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">리소스 관리 환경 설정 구성</a>.</p> </p> <p>(선택 사항) 프로젝트 중에 사용자의 작업 역할이 변경된 경우 재무 계산에 유효 일자 작업 역할 할당이 사용됩니다.</p><p>클릭 <b>날짜별 역할 정의</b>를 선택하고 <b>기본 역할</b> 및 <b>기타 역할</b>을 누르고 각 역할에 대한 할당 백분율을 입력합니다. 역할은 기존 역할(다른 백분율 사용)과 동일하거나 새 역할일 수 있습니다. 다음 항목 선택 <b>시작일</b> 이러한 역할이 활성화되면 미래의 날짜가 될 수 있습니다. 최신 역할이 활성화되면 다음을 클릭할 수 있습니다. <b>이전 역할 표시</b> 을 클릭하여 이전의 비활성 역할을 확인합니다.</p> </li> 
        <li> <p><b>예약</b>: 일정을 사용자와 연결합니다. 사용자의 일정은 사용자가 할당된 작업의 타임라인을 계산합니다.</p> <p>일정을 사용자와 연결하려면 먼저 일정을 만들어야 합니다. 일정 만들기에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">일정 만들기</a>.</p> <p><b>참고</b>: 사용자와 연결하는 일정이 사용자의 시간대와 일치하는 것이 좋습니다.</p> </li> 
        <li> <p><b>타임시트 프로필</b>: 타임시트 프로필을 사용자와 연결하여 타임시트가 사용자를 위해 자동으로 생성되도록 합니다.</p> <p><b>참고</b>: 이 필드에서 사용할 수 있는 프로필 목록은 액세스 권한에 따라 다릅니다.
        <ul>
@@ -197,10 +195,10 @@ Adobe Workfront 관리자는 새 사용자를 만들고 기존 사용자의 프�
    <li><b>리소스 풀</b>: 사용자를 리소스 풀과 연결합니다. 자세한 내용은 <a href="../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md" class="MCXref xref">사용자와 리소스 풀 연결 </a>.</li>
 
    <li><b>원가율</b>: 사용자의 시간당 비용입니다.
-      <p><span class="preview">날짜 유효 원가율을 확인하려면 다음을 클릭합니다. <strong>비율 추가</strong>. 기간에 대한 원가율 값을 입력하고 필요에 따라 시작 일자와 종료 일자를 지정합니다. 원가율 1에는 시작 일자가 없고 최종 원가율에는 종료 일자가 없습니다.</span></p><p><span class="preview">일부 날짜는 자동으로 추가됩니다. 예를 들어, 원가 환율 1에 종료 일자가 없고 시작 일자가 2023년 5월 1일인 원가 환율 2를 추가하면, 종료 일자가 2023년 4월 30일로 원가 환율 1에 추가되므로 간격이 없습니다.</span></p></li>
+      <p>날짜 유효 원가율을 확인하려면 다음을 클릭합니다. <strong>비율 추가</strong>. 기간에 대한 원가율 값을 입력하고 필요에 따라 시작 일자와 종료 일자를 지정합니다. 원가율 1에는 시작 일자가 없고 최종 원가율에는 종료 일자가 없습니다.</p><p>일부 날짜는 자동으로 추가됩니다. 예를 들어, 원가 환율 1에 종료 일자가 없고 시작 일자가 2023년 5월 1일인 원가 환율 2를 추가하면, 종료 일자가 2023년 4월 30일로 원가 환율 1에 추가되므로 간격이 없습니다.</p></li>
 
    <li><b>청구 요금</b>: 사용자의 시간당 청구 금액입니다.
-      <p><span class="preview">유효 청구 요금 날짜를 확인하려면 다음을 클릭하십시오. <strong>비율 추가</strong>. 기간에 대한 청구 요금의 값을 입력하고 필요에 따라 시작 일자와 종료 일자를 지정합니다. 청구 요금 1에는 시작 일자가 없으며 마지막 청구 요금에 종료 일자가 없습니다.</span></p> <p><span class="preview">일부 날짜는 자동으로 추가됩니다. 예를 들어 청구 요금 1에 종료 일자가 없고 시작 일자가 2023년 5월 1일인 초를 추가하는 경우, 2023년 4월 30일인 종료 일자가 청구 요금 1에 추가되므로 간격이 없습니다.</span></p><p> <img alt="사용자 비용 및 청구 요금" src="assets/edit-user-cost-billing-rate-2.png"> </p></li>
+      <p>유효 청구 요금 날짜를 확인하려면 다음을 클릭하십시오. <strong>비율 추가</strong>. 기간에 대한 청구 요금의 값을 입력하고 필요에 따라 시작 일자와 종료 일자를 지정합니다. 청구 요금 1에는 시작 일자가 없으며 마지막 청구 요금에 종료 일자가 없습니다.</p> <p>일부 날짜는 자동으로 추가됩니다. 예를 들어 청구 요금 1에 종료 일자가 없고 시작 일자가 2023년 5월 1일인 초를 추가하는 경우, 2023년 4월 30일인 종료 일자가 청구 요금 1에 추가되므로 간격이 없습니다.</p><p> <img alt="사용자 비용 및 청구 요금" src="assets/edit-user-cost-billing-rate-2.png"> </p></li>
 
    </ul> </td> 
      </tr> 

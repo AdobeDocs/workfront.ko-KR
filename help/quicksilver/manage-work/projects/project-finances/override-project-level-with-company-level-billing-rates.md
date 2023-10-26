@@ -6,16 +6,14 @@ description: 프로젝트 수준 청구 요율을 회사 수준 청구 요율로
 author: Alina
 feature: Work Management
 exl-id: 02ea4c7c-0473-4cc4-913c-3baa613767b7
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
 
 # 프로젝트 수준 청구 요율을 회사 수준 청구 요율로 재정의
-
-{{highlighted-preview}}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: THIS IS LINKED TO THE UI IN THE EDIT PROJECT MODAL)</p>
@@ -80,17 +78,9 @@ ht-degree: 0%
 1. 클릭 **회사**.
 1. 회사 수준 청구 요금 대체를 활성화한 프로젝트와 연관된 회사의 이름을 클릭합니다.
 1. 클릭 **청구 요금** 왼쪽 패널에서
-1. 프로덕션 환경에서 의 기존 작업 역할에 대한 새 청구 요금을 입력합니다. **회사 청구 요금** 필드를 입력한 다음 Enter 키를 누릅니다.
+1. 업데이트 **회사 청구 요금** 기존 작업 역할의 시작/종료 날짜를 클릭한 다음 Enter 키를 누릅니다.
 
-   또는
-
-   <div class="preview">
-
-   미리보기 환경에서 **회사 청구 요금** 기존 작업 역할의 시작/종료 날짜를 클릭한 다음 Enter 키를 누릅니다.
-
-   새 일자 유효 회사 청구 단가를 추가하려면 작업 역할에 대한 청구 단가를 선택하고 편집을 누릅니다. 유효 회사 청구 요금에 대한 자세한 내용은 [회사 수준에서 작업 역할 청구 요금 재정의](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
-
-   </div>
+   새 일자 유효 회사 청구 단가를 추가하려면 작업 역할에 대한 청구 단가를 선택하고 **편집**. 유효 회사 청구 요금에 대한 자세한 내용은 [회사 수준에서 작업 역할 청구 요금 재정의](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
 
 1. 하나 이상의 프로젝트에 대한 회사 비율을 갱신하려면 다음 중 하나를 수행합니다.
 

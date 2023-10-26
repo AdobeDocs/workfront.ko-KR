@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: ee60987e-78b5-4853-9a4f-e44aa7a81c05
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 1%
@@ -17,9 +17,7 @@ ht-degree: 1%
 
 # 회사 수준에서 작업 역할 청구 요금 재정의
 
-{{highlighted-preview}}
-
-작업 역할이 생성되면 해당 역할에 대한 시간당 청구 요금을 선택할 수 있습니다. <span class="preview">한 회사에만 해당되는 여러 개의 시간별 청구 요금을 생성할 수 있습니다. 각 청구 요금은 특정 날짜 범위에 유효합니다.</span>
+작업 역할이 생성되면 해당 역할에 대한 시간당 청구 요금을 선택할 수 있습니다. 한 회사에만 해당되는 여러 개의 시간별 청구 요금을 생성할 수 있습니다. 각 청구 요금은 특정 날짜 범위에 유효합니다.
 
 프로젝트 수준에서 회사 수준의 청구 요금이 프로젝트 수준의 요금을 재정의할 수 있도록 하는 옵션을 활성화할 수 있습니다. 자세한 내용은 [프로젝트 수준 청구 요율을 회사 수준 청구 요율로 재정의](../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md).
 
@@ -54,30 +52,30 @@ ht-degree: 1%
 
 1. 클릭 **[!UICONTROL 회사]**.
 1. 작업 역할이 할당된 회사를 찾습니다.
-1. <span class="preview">목록에서 회사 이름을 클릭합니다.</span>
-1. <span class="preview">클릭 **[!UICONTROL 청구 요금]** 왼쪽 패널에서</span>
-1. <span class="preview">클릭 **[!UICONTROL 청구 요금 추가] > [!UICONTROL 새 청구 요금]**&#x200B;또는 편집할 기존 비율을 선택합니다.</span>
-1. <span class="preview">다음에서 [!UICONTROL 새 청구 요금] 대화 상자에서 다음을 선택합니다. [!UICONTROL **작업 역할**] 에 대한 청구 요율을 정의합니다.</span>
+1. 목록에서 회사 이름을 클릭합니다.
+1. 클릭 **[!UICONTROL 청구 요금]** 왼쪽 패널에서
+1. 클릭 **[!UICONTROL 청구 요금 추가] > [!UICONTROL 새 청구 요금]**&#x200B;또는 편집할 기존 비율을 선택합니다.
+1. 다음에서 [!UICONTROL 새 청구 요금] 대화 상자에서 다음을 선택합니다. [!UICONTROL **작업 역할**] 에 대한 청구 요율을 정의합니다.
 
-   <span class="preview">다음 [!UICONTROL **기본 청구 요금**] 이 작업 역할에 대한 시스템 수준 비율을 표시합니다.</span>
+   다음 [!UICONTROL **기본 청구 요금**] 이 작업 역할에 대한 시스템 수준 비율을 표시합니다.
 
-   <span class="preview">![새 청구 요금 대화 상자](assets/date-effective-billing-rates-for-company.png)</span>
+   ![새 청구 요금 대화 상자](assets/date-effective-billing-rates-for-company.png)
 
-1. <span class="preview">다음에서 [!DNL **청구 요금 1**] 필드에 청구 요금을 입력합니다. 그런 다음 을 클릭합니다. [!UICONTROL **저장**] 청구 요율을 한 번 재정의합니다.</span>
+1. 다음에서 [!DNL **청구 요금 1**] 필드에 청구 요금을 입력합니다. 그런 다음 을 클릭합니다. [!UICONTROL **저장**] 청구 요율을 한 번 재정의합니다.
 
-   <span class="preview">또는</span>
+   또는
 
-   <span class="preview">클릭 [!UICONTROL **비율 추가**] 유효 일자가 있는 더 많은 청구 요율을 추가하려면.</span>
+   클릭 [!UICONTROL **비율 추가**] 유효 일자가 있는 더 많은 청구 요율을 추가하려면.
 
-1. <span class="preview">(조건부) 두 개 이상의 청구 요율을 추가하는 경우 다음 정보를 입력합니다.</span>
+1. (조건부) 두 개 이상의 청구 요율을 추가하는 경우 다음 정보를 입력합니다.
 
-   * <span class="preview">**[!UICONTROL 청구 요금 1], 2 등&#x200B;**: 기간에 대한 청구 요금의 값입니다.</span>
-   * <span class="preview">**[!UICONTROL 시작일&#x200B;]**: 요금이 적용되는 날짜.</span>
-   * <span class="preview">**[!UICONTROL 종료일&#x200B;]**: 요금이 끝나는 날짜.</span>
+   * **[!UICONTROL 청구 요금 1], 2 등**: 기간에 대한 청구 요금의 값입니다.
+   * **[!UICONTROL 시작일]**: 요금이 적용되는 날짜.
+   * **[!UICONTROL 종료일]**: 요금이 끝나는 날짜.
 
-     <span class="preview">청구 요금 1에는 시작 일자가 없으며 마지막 청구 요금에 종료 일자가 없습니다. 일부 날짜는 자동으로 추가됩니다. 예를 들어, 청구 요금 1에 종료 일자가 없고 시작 일자가 2023년 5월 1일인 청구 요금 2를 추가하는 경우, 2023년 4월 30일인 종료 일자가 청구 요금 1에 추가되므로 간격이 없습니다.</span>
+     청구 요금 1에는 시작 일자가 없으며 마지막 청구 요금에 종료 일자가 없습니다. 일부 날짜는 자동으로 추가됩니다. 예를 들어, 청구 요금 1에 종료 일자가 없고 시작 일자가 2023년 5월 1일인 청구 요금 2를 추가하는 경우, 2023년 4월 30일인 종료 일자가 청구 요금 1에 추가되므로 간격이 없습니다.
 
-1. <span class="preview">[!UICONTROL **저장**]&#x200B;을 클릭합니다.</span>
+1. [!UICONTROL **저장**]&#x200B;을 클릭합니다.
 
    >[!NOTE]
    >

@@ -8,16 +8,14 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
 workflow-type: tm+mt
-source-wordcount: '1472'
+source-wordcount: '1406'
 ht-degree: 0%
 
 ---
 
 # 회사 만들기 및 편집
-
-{{highlighted-preview}}
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -109,11 +107,7 @@ ht-degree: 0%
         <li> <p><b>[!UICONTROL Group]</b>: 회사와 거래하는 그룹이 있는 경우 여기에 그룹의 이름을 추가할 수 있습니다. 이 기능은 그룹이 거래하는 모든 회사에 대해 보고하고 관리해야 하는 그룹 관리자에게 유용합니다.</p> <p><b>중요 사항</b>: 이 회사에서 작업할 그룹을 연결하지 않은 경우, 그룹 관리자는 액세스 수준의 회사에 대한 관리 액세스 권한이 없으면 액세스할 수 없습니다. 이 액세스 권한 부여 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">사용자에게 특정 영역에 대한 관리 액세스 권한 부여</a>.</p> <p data-mc-conditions="SnippetConditions-wf-groups.system-level">그룹 이름을 입력한 다음 키를 누릅니다 <strong>[!UICONTROL Enter]</strong> 표시되는 시간.</p> <p data-mc-conditions="SnippetConditions-wf-groups.system-level">회사에 그룹을 할당하면 해당 그룹의 그룹 관리자는 회사에 대한 [!UICONTROL 관리] 액세스 권한을 갖게 됩니다. 자세한 내용은 <a href="#group-administrators-and-companies" class="MCXref xref">그룹 관리자 및 회사</a> 이 문서에서.</p> </li> 
         <li> <p><b>[!UICONTROL 회사 구성원]</b>: 회사에 기존 사용자를 추가합니다. 이렇게 하면 이러한 사용자를 이 회사와 연결하게 됩니다.</p> <p>한 회사에 연결하는 사용자 수에는 제한이 없지만 사용자는 두 개 이상의 회사에 연결할 수 없습니다.</p> </li> 
        </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL 청구 요금] 섹션</td> 
-      <td> <p><span class="preview">이 섹션은 미리보기 환경에서 제거되었습니다.</span></p><p>회사 수준에서 작업 역할과 연관된 청구 요금을 대체할 수 있습니다. 작업 역할 생성 및 청구 요금과 연관시키는 방법에 대한 자세한 내용은 다음을 참조하십시오. <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">작업 역할 만들기 및 관리</a>.</p> <p>회사 수준에서 청구 요금 재정의에 대한 자세한 내용은 다음을 참조하십시오. <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md" class="MCXref xref">회사 수준에서 작업 역할 청구 요금 재정의</a>.</p> </td> 
-     </tr> 
+     </tr>
      <tr> 
       <td role="rowheader">[!UICONTROL 사용자 지정 Forms] 섹션</td> 
       <td> <p>회사에 추가하려는 필드에서 을(를) 사용할 수 없는 경우 [!DNL Workfront], 사용자 정의 양식을 작성하여 회사와 연결할 수 있습니다. 드롭다운 메뉴에서 이 양식을 선택하여 회사에 첨부할 수 있습니다. 활성 회사만 드롭다운 메뉴에 나열됩니다. 사용자 지정 Forms 만들기에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">사용자 정의 양식 만들기 또는 편집</a>. </p> </td> 
