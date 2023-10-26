@@ -8,7 +8,7 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 4559a60729fb0001d973c794dc40a8c7ec90cd91
+source-git-commit: 456310e460bae44183de390efc4be919fda3f36d
 workflow-type: tm+mt
 source-wordcount: '4886'
 ht-degree: 4%
@@ -16,8 +16,6 @@ ht-degree: 4%
 ---
 
 # 양식 디자이너를 사용하여 양식 디자인
-
-{{preview-and-fast-release}}
 
 양식 디자이너를 사용하여 사용자 정의 양식을 디자인할 수 있습니다. 다른 Workfront 개체에 사용자 정의 양식을 첨부하여 해당 개체에 대한 데이터를 캡처할 수 있습니다.
 
@@ -498,8 +496,6 @@ ht-degree: 4%
 
    클릭 **저장 및 닫기**.
 
-<div class="preview">
-
 ### 외부 조회 필드 추가
 
 외부 조회 필드는 외부 API를 호출하고 드롭다운 필드에 값을 옵션으로 반환합니다. 사용자 정의 양식이 첨부된 오브젝트로 작업하는 사용자는 드롭다운에서 이러한 옵션 중 하나 이상을 선택할 수 있습니다.
@@ -590,8 +586,6 @@ ht-degree: 4%
 >* 재시도 사이의 대기 기간: 500ms
 >* 예상 응답 상태: 2xx
 >* 사용자는 Workfront 목록 및 보고서에서 선택한 값을 보고 값을 편집할 수 있지만 외부 API에서 제공되는 옵션이 있는 드롭다운은 표시되지 않습니다.
-
-</div>
 
 ### 이미지, PDF 및 비디오 추가
 

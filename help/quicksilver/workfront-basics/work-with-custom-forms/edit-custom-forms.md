@@ -7,7 +7,7 @@ description: 양식을 오브젝트에 첨부한 후 사용자 정의 양식에 
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: b2bb5d1292291cb6632cc5d1b1fb32ce37e594a6
+source-git-commit: 456310e460bae44183de390efc4be919fda3f36d
 workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 0%
@@ -15,8 +15,6 @@ ht-degree: 0%
 ---
 
 # 사용자 정의 양식 필드의 정보 편집
-
-{{preview-and-fast-release}}
 
 양식을 오브젝트에 첨부한 후 사용자 정의 양식에 대한 정보를 편집할 수 있습니다. 오브젝트에 사용자 정의 양식을 추가하는 방법에 대한 자세한 내용은 [오브젝트에 사용자 정의 양식 추가](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
@@ -105,7 +103,7 @@ ht-degree: 0%
 
    다른 사용자가 오브젝트의 계산된 사용자 정의 필드에서 참조하는 다른 오브젝트의 데이터를 변경할 때 변경 사항이 오브젝트에 자동으로 반영되지 않습니다. 개체의 모든 계산된 사용자 지정 필드를 수동으로 업데이트하는 방법에 대한 자세한 내용은 [오브젝트에 대해 계산된 모든 사용자 정의 필드 다시 계산](#recalculate-all-calculated-custom-fields-for-an-object) 이 문서에서.
 
-   <span class="preview">페이지의 종속 필드가 수정되면 사용자 정의 양식의 계산된 필드가 실시간으로 동적으로 다시 계산됩니다. 양식을 저장하지 않고 새 계산된 필드 값을 볼 수 있지만 변경 사항을 저장할 때까지 실제로 양식 및 개체에 적용되지 않습니다. 이는 기본 양식의 계산된 필드와 사용자 정의 양식에 적용됩니다.</span>
+   페이지의 종속 필드가 수정되면 사용자 정의 양식의 계산된 필드가 실시간으로 동적으로 다시 계산됩니다. 양식을 저장하지 않고 새 계산된 필드 값을 볼 수 있지만 변경 사항을 저장할 때까지 실제로 양식 및 개체에 적용되지 않습니다. 이는 기본 양식의 계산된 필드와 사용자 정의 양식에 적용됩니다.
 
    목록의 다른 오브젝트와 함께 오브젝트를 일괄 편집할 때 오브젝트에 대한 모든 계산된 사용자 정의 필드를 수동으로 업데이트할 수도 있습니다. 자세한 내용은 [객체를 편집할 때 목록의 여러 객체에 대해 계산된 모든 사용자 정의 필드 다시 계산](#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects) 이 문서에서.
 
