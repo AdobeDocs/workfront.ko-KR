@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
-source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
+source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
 workflow-type: tm+mt
-source-wordcount: '2143'
+source-wordcount: '2209'
 ht-degree: 2%
 
 ---
@@ -25,41 +25,70 @@ ht-degree: 2%
 <span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> -->
 
 
-이 페이지에는 현재 Adobe Workfront에서 진행 중인 새 댓글 달기 환경의 릴리스 타임라인에 대한 정보가 포함되어 있습니다.
+>[!IMPORTANT]
+>
+>이 문서의 정보는 새 댓글 달기 경험을 위해 베타 단계 동안 릴리스된 기능을 참조합니다.
+>
+>새로운 댓글 달기 경험을 위한 베타 프로그램은 2023년 4월에 시작하여 2023년 10월에 종료되었습니다.
+>
+>베타 기간 동안 릴리스된 기능은 2023년 4분기 릴리스(2023년 10월)부터 모든 고객이 사용할 수 있으며 베타 프로그램이 종료되었습니다.
+> 
+><br>자세한 내용은 다음 문서를 참조하십시오. </br>
+>
+>* 새 경험 베타 기간 동안 릴리스된 기능에 대한 자세한 내용은 다음을 참조하십시오. [새 댓글 달기 환경](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>
+>* 새 댓글 달기 경험 Beta 프로그램이 종료된 후 댓글 달기 경험을 위해 릴리스된 기능에 대한 자세한 내용은 현재 제품 릴리스 개요 페이지를 참조하십시오.
 
-현재 사용할 수 있거나 연구 중인 기능 목록을 포함하여 새 댓글 달기 환경에 대한 일반 정보는 다음을 참조하십시오. [새 댓글 달기 환경](../new-commenting-experience-beta/unified-commenting-experience.md).
+<!--
+ This page contains information about the release timeline for the new commenting experience which is currently ongoing in Adobe Workfront. 
+
+For general information on the new commenting experience, including a list of features that are currently available or in research, see [New commenting experience](../new-commenting-experience-beta/unified-commenting-experience.md). 
 
 
 >[!IMPORTANT]
 >
->새로운 댓글 달기 환경은 23.2 릴리스와 함께 Beta로 출시되었습니다. 원본 릴리스에 대한 자세한 내용은 [23.2 릴리스 개요](../../product-releases/23.2-release-activity/23-2-release-overview.md).
+>The new commenting experience launched in Beta with the 23.2 release. For information about the original release, see [23.2 Release overview](../../product-releases/23.2-release-activity/23-2-release-overview.md). 
 >
->Beta 댓글 달기 경험을 지원하는 Workfront 개체에 릴리스된 기능은 유일한 댓글 달기 경험으로 다음 개체의 업데이트 섹션에도 릴리스됩니다.
->* 목표
->* 보드 영역의 카드.
+>Features that are released to the Workfront objects that support the beta commenting experience are also released to the Updates section of the following objects as the only commenting experience: 
+>* Goals
+>* Cards in the Boards area. 
 
-## 릴리스 타임라인
+-->
 
-새로운 댓글 달기 경험을 반복적으로 출시할 예정입니다. 각 릴리스의 일부 오브젝트에 영향을 줍니다. 처음에는 작은 기능 세트가 릴리스될 수 있으며 시간이 지남에 따라 더 많은 기능이 나머지 개체에 추가됩니다.
+## 새로운 댓글 달기 경험 릴리스 타임라인
 
-업데이트 섹션이 표시되는 Workfront 개체에 대한 자세한 내용은   [업데이트 섹션 개요](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+새로운 댓글 달기 환경은 Workfront 개체의 업데이트 섹션에 새로운 디자인을 도입합니다.
 
-다음은 프로덕션 환경에 대한 새로운 댓글 달기 환경의 릴리스에 대한 주요 이정표가 포함된 계획된 타임라인입니다. 아래 이정표 외에도, 더 작은 개선 사항으로 주석 달기 환경을 계속 개선해 나갈 것입니다. 릴리스된 모든 기능에 대한 자세한 내용은 [릴리스된 기능](#released-features) 이 문서의 섹션.
+업데이트 섹션이 표시되는 Workfront 개체에 대한 자세한 내용은 [업데이트 섹션 개요](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+
+다음은 프로덕션 환경에 대한 새로운 댓글 달기 환경의 릴리스에 대한 주요 이정표가 포함된 계획된 타임라인입니다. 아래 이정표 외에도, 더 작은 개선 사항으로 주석 달기 환경을 계속 개선해 나갈 것입니다.
+
+베타 기간 동안 릴리스된 기능과 출시된 시기에 대한 자세한 내용은 [베타 기간 동안 릴리스된 기능](#features-released-during-the-beta-period) 이 문서의 섹션.
+
+Beta 기간이 종료된 후 새 주석 달기 경험을 위해 릴리스된 기능에 대한 자세한 내용은 현재 릴리스 개요 페이지를 참조하십시오.
+
+다음은 새로운 댓글 달기 환경의 릴리스에 대해 계획된 타임라인입니다.
 
 * 23.2 릴리스(2023년 4월 6일):
-   * 문제에 대한 Experience Beta 주석 달기
-   * 목표에 대한 새로운 댓글 달기 경험(유일한 경험으로)
+   * 문제에 대한 댓글 달기 경험 베타 시작
+   * 목표에 대한 새 댓글 달기 경험 릴리스(유일한 경험으로)
 * 23.3 릴리스(2023년 7월 20일):
-   * 프로젝트, 작업 및 문서에 대한 Experience Beta에 댓글을 남깁니다.
-   * 보드 영역의 카드에 대한 새로운 댓글 달기 경험(유일한 경험으로)
+   * 프로젝트, 작업 및 문서에 대한 댓글 달기 경험 Beta를 시작합니다.
+   * 보드 영역에서 카드에 대한 새 댓글 달기 경험을 해제합니다(유일한 경험으로).
 * 2023년 4분기 릴리스(제한된 릴리스, 빠른 릴리스를 선택하는 고객만 사용 가능) 중:
-   * 템플릿, 템플릿 작업, 프로그램, 포트폴리오, 팀, 사용자 및 타임시트에 대한 새로운 댓글 달기 경험(유일한 경험임)
-   * 프로젝트, 작업, 문제 및 문서에 대한 Experience Beta 댓글을 달 수 있는 것이 기본 옵션이 됩니다. Beta 레이블이 제거됩니다.
-* 2023년 4분기(23.10) 릴리스 포함(2023년 10월)
-   * 템플릿, 템플릿 작업, 프로그램, 포트폴리오, 팀, 사용자 및 타임시트에 대한 새로운 댓글 달기 경험(유일한 경험임)
-   * 프로젝트, 작업, 문제 및 문서에 대한 새로운 댓글 달기 환경이 기본 옵션이 됩니다. 이렇게 하면 새 댓글 달기 환경의 베타 단계가 종료됩니다.
+   * 템플릿, 템플릿 작업, 프로그램, 포트폴리오, 팀, 사용자 및 타임시트에 대한 새로운 댓글 달기 환경(유일한 경험으로) 릴리스
+   * 프로젝트, 작업, 문제 및 문서에 대한 댓글 달기 경험 Beta를 업데이트하여 기본 옵션으로 설정합니다. Beta 레이블이 제거됩니다.
+* 2023년 4분기(23.10) 릴리스 포함(2023년 10월 26일)
+   * 모든 고객에게 템플릿, 템플릿 작업, 프로그램, 포트폴리오, 팀, 사용자 및 타임시트에 대한 새로운 댓글 달기 환경(유일한 경험으로)을 릴리스합니다.
+   * 프로젝트, 작업, 문제 및 문서에 대한 새로운 댓글 달기 환경을 기본 옵션으로 설정합니다.
+
+  >[!IMPORTANT]
+  >
+  >    이렇게 하면 새 댓글 달기 환경의 베타 단계가 종료됩니다.
+
+   * 현재 정기 월별 및 분기별 릴리스의 이 날짜 부분부터 시작하여 주석 달기 경험에 대해 모든 기능을 릴리스할 수 있습니다.
 * 2023년 말:
-   * 기존 댓글 달기 경험은 프로젝트, 작업, 문제 및 문서 개체에 대한 보조 옵션으로 유지됩니다.
+   * 프로젝트, 작업, 문제 및 문서 개체에 대한 보조 옵션으로 기존 주석 달기 환경을 유지합니다. 새로운 댓글 달기 환경은 모든 사용자의 기본 옵션입니다.
 
   >[!NOTE]
   >
@@ -67,13 +96,15 @@ ht-degree: 2%
 
 * 2024년 1분기(2024년 1월):
 
-   * 기존 댓글 달기 스트림으로 다시 전환하는 옵션이 제거되고 새 댓글 달기 스트림이 반복을 제외한 모든 개체의 유일한 경험이 됩니다.
+   * 기존 댓글 달기 스트림으로 다시 전환하고 새 댓글 달기 스트림을 반복을 제외하고 모든 개체에 대한 유일한 경험으로 만드는 옵션을 제거합니다.
 
-## 릴리스된 기능
+## 베타 기간 동안 릴리스된 기능
 
-다음 섹션에는 원래 23.2 릴리스 이후 가장 최근에 릴리스된 기능부터 추가된 기능 목록이 포함되어 있습니다.
+이제 모든 고객과 모든 환경에서 이 섹션에 설명된 기능을 사용할 수 있습니다.
 
-다음 정보는 새 댓글 달기 Beta 경험에 포함된 기능을 기반으로 매주 릴리스 활동을 참조합니다. 이 문서에는 새로운 댓글 달기 환경에 대해 추가된 새로운 기능과 해결된 문제가 나열되어 있습니다.
+23.2 릴리스(2023년 4월 6일)와 2023년 4분기 릴리스(2023년 10월 26일) 사이의 Beta 단계에서 주석 달기 환경에 다음 기능이 추가되었습니다.
+
+다음 정보는 최신 업데이트부터 시작하여 매주 릴리스 활동을 참조합니다.
 
 ### 2023년 10월 16일 주
 
@@ -109,7 +140,9 @@ ht-degree: 2%
 
 #### 추가 오브젝트에 대한 새로운 댓글 달기 환경
 
-[!BADGE Fast Release를 위한 프로덕션]{type=Positive}
+<!--
+[!BADGE In production for Fast Release ]{type=Positive}
+-->
 
 새로운 주석 달기 환경은 23.3 프로덕션 릴리스 직후 다음 오브젝트(템플릿 작업, 템플릿, 타임시트, 팀, 사용자, 프로그램, 포트폴리오)에 대해 사용할 수 있습니다.
 
@@ -125,7 +158,9 @@ ht-degree: 2%
 
 #### 새 댓글 스트림에 대한 새 디자인 업데이트
 
-[!BADGE Fast Release를 위한 프로덕션]{type=Positive}
+<!--
+[!BADGE In production for Fast Release ]{type=Positive}
+-->
 
 새로운 주석 처리 스트림을 재설계하여 보다 업데이트된 디자인을 제공했습니다. 몇 가지 개선 사항은 다음과 같습니다.
 
@@ -151,7 +186,9 @@ ht-degree: 2%
 
 #### 새 댓글 달기 환경은 프로젝트, 작업, 문제 및 문서에 대한 기본 경험입니다
 
-[!BADGE Fast Release를 위한 프로덕션]{type=Positive}
+<!--
+[!BADGE In production for Fast Release ]{type=Positive}
+-->
 
 새 댓글 달기 경험을 프로젝트, 작업, 문제 및 문서 개체에 대한 기본 경험으로 만들고 있습니다.  이러한 오브젝트에 액세스할 때 기존 댓글 달기 경험이 대체 옵션으로 유지됩니다.
 

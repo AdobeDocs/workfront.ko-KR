@@ -8,28 +8,37 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 4b6d14559f776ed5484a67fcc5f461f154cc5e30
+source-git-commit: 97a89293989fd5dcc3ba40dd12ad0e1cf97d69ff
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1043'
 ht-degree: 0%
 
 ---
 
 # 업데이트에 대한 회신
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>\
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 활성화 또는 비활성화](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>
+<!--remove legacy and new experience references when we remove the legacy updates in the UI - Jan 2024???-->
 
-<span class="preview">현재 릴리스 일정에 대한 자세한 내용은 [2023년 4분기 릴리스 개요](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
+
+<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> 
+
+-->
 
 >[!IMPORTANT]
 >
 >현재 Adobe Workfront의 댓글 달기 환경을 다시 디자인하고 있습니다.
->댓글 달기 경험에 액세스하는 환경과 개체에 따라 업데이트 섹션에 다른 기능이 표시될 수 있습니다.
+>
+>댓글 달기 경험에 액세스하는 객체에 따라 업데이트 섹션에 다음과 같은 기능이 표시될 수 있습니다.
+>* 새로운 경험
+>* 기존 경험
+>* 새로운 및 기존 경험
 >
 >새 댓글 달기 경험과 사용 가능 여부에 대한 자세한 내용은 [새 댓글 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->새 주석 달기 경험은 업데이트 섹션에만 사용할 수 있고 다음 영역에는 사용할 수 없습니다.
+>새 주석 달기 경험은 Workfront 오브젝트의 업데이트 섹션에만 사용할 수 있고 다음 영역에서 오브젝트에 액세스할 때는 사용할 수 없습니다.
 >
 > * 홈
 > * 목록의 요약 패널
@@ -41,6 +50,7 @@ ht-degree: 0%
 >
 >새 댓글 달기 환경에서 시스템 업데이트에 회신할 수 없습니다. 자세한 내용은 [새 댓글 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
+<!--adjust the sentence before the second IMPORTANT and remove this important note when we remove legacy from the system-->
 
 ## 액세스 요구 사항
 
@@ -79,7 +89,30 @@ ht-degree: 0%
 
 댓글 또는 답글에 대한 답글은 선택한 경험과 개체에 따라 다릅니다.
 
-### 업데이트에 대한 회신 또는 현재 업데이트 섹션의 회신
+### 새 댓글 달기 경험을 사용할 때 댓글에 회신
+
+새 댓글 달기 환경에서 사용할 수 있는 기능과 개체에 대한 자세한 내용은 [새 댓글 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+
+1. 회신을 추가할 객체로 이동합니다.
+1. 클릭 **업데이트**&#x200B;을(를) 클릭하고 **댓글** 을 탭하여 개체에서 답글을 달거나 답글을 달 수 있습니다.
+1. (선택 사항) 회신에 이전 업데이트의 텍스트를 포함하려면 **자세히** 회신할 댓글의 오른쪽 위 모서리에 있는 메뉴를 클릭한 다음 **견적 회신**. 이전 업데이트의 텍스트가 입력 영역에 세로로 회색 선으로 표시됩니다.
+1. 클릭 **답변**.
+
+   ![](assets/reply-to-update-empty-box.png)
+
+   대화에 적극적으로 참여하는 사용자를 아래 부분에서 확인할 수 있습니다 **회신 추가...** 상자를 선택하면 더 이상 관련이 없는 항목을 추가하거나 제거할 수 있습니다. 이러한 사용자는 오브젝트에 가입된 사용자와 함께 오브젝트에 대한 업데이트 또는 회신이 이루어질 때마다 알림을 받습니다. 더 많은 사용자에 태그를 지정하여 회신에 추가할 수도 있습니다.  더 많은 사용자에 태그를 지정하려면 다음을 참조하십시오. [업데이트에 다른 사용자 태그 지정](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+
+   >[!TIP]
+   >
+   >   기존 회신에 추가 회신을 추가하려면 **회신 추가...** 상자 또는 클릭 **답변** 원래 주석에. 답변은 스레드 끝에 추가됩니다.
+
+1. 답글 입력을 시작하고 리치 텍스트 도구 모음에서 추가 옵션을 사용하십시오. 리치 텍스트 또는 기타 업데이트 기능 사용에 대한 자세한 내용은 [작업 업데이트](../updating-work-items-and-viewing-updates/update-work.md).
+
+1. 클릭 **제출** 회신을 저장합니다.
+
+1. (선택 사항) **자세히** 메뉴 ![](assets/more-menu.png) 답글을 관리할 추가 옵션을 보려면 답글을 달려는 댓글의 오른쪽 상단 모서리에서 을(를) 참조하십시오. 자세한 내용은 [작업 업데이트](../updating-work-items-and-viewing-updates/update-work.md).
+
+### 업데이트에 대한 회신 또는 레거시 업데이트 섹션의 회신
 
 1. 회신을 추가할 객체로 이동합니다.
 1. 다음에서 **업데이트** 오브젝트의 탭에서 회신할 업데이트 또는 회신을 찾습니다.
@@ -98,30 +131,6 @@ ht-degree: 0%
 1. (선택 사항) 회신에 이전 업데이트의 텍스트를 포함하려면 **자세히** 견적을 작성할 업데이트 또는 회신 옆에 있는 메뉴 **견적 회신**. 이전 업데이트의 텍스트가 입력 영역에 세로로 회색 선으로 표시됩니다.
 1. (선택 사항) 문서의 &quot;Workfront 업데이트에서 리치 텍스트 사용&quot; 섹션에 설명된 대로 서식, 이모지를 사용하고, 링크 또는 이미지를 포함합니다 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. 클릭 **답변** 회신을 저장합니다.
-
-### 새 댓글 달기 경험을 사용할 때 댓글에 회신
-
-새 댓글 달기 환경에서 사용할 수 있는 기능과 개체에 대한 자세한 내용은 [새 댓글 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
-
-1. 회신을 추가할 객체로 이동합니다.
-1. 클릭 **업데이트**&#x200B;을(를) 클릭하고 **댓글** 을 탭하여 개체에서 답글을 달거나 답글을 달 수 있습니다.
-1. (선택 사항) 회신에 이전 업데이트의 텍스트를 포함하려면 **자세히** 메뉴 <span class="preview">답글을 달려는 댓글의 오른쪽 상단</span>을 클릭한 다음 을 클릭합니다 **견적 회신**. 이전 업데이트의 텍스트가 입력 영역에 세로로 회색 선으로 표시됩니다.
-1. 클릭 **답변**.
-
-   ![](assets/reply-to-update-empty-box.png)
-
-   대화에 적극적으로 참여하는 사용자를 아래 부분에서 확인할 수 있습니다 **회신 추가...** 상자를 선택하면 더 이상 관련이 없는 항목을 추가하거나 제거할 수 있습니다. 이러한 사용자는 오브젝트에 가입된 사용자와 함께 오브젝트에 대한 업데이트 또는 회신이 이루어질 때마다 알림을 받습니다. 더 많은 사용자에 태그를 지정하여 회신에 추가할 수도 있습니다.  더 많은 사용자에 태그를 지정하려면 다음을 참조하십시오. [업데이트에 다른 사용자 태그 지정](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-
-   >[!TIP]
-   >
-   >   <span class="preview">기존 회신에 추가 회신을 추가하려면 **회신 추가...** 상자 또는 클릭 **답변** 원래 주석에. 답변은 스레드 끝에 추가됩니다. </span>
-
-1. 답글 입력을 시작하고 리치 텍스트 도구 모음에서 추가 옵션을 사용하십시오. 리치 텍스트 또는 기타 업데이트 기능 사용에 대한 자세한 내용은 [작업 업데이트](../updating-work-items-and-viewing-updates/update-work.md).
-
-1. 클릭 **제출** 회신을 저장합니다.
-
-1. (선택 사항) **자세히** 메뉴 ![](assets/more-menu.png) <span class="preview">답글을 달려는 댓글의 오른쪽 상단</span> 추가 옵션을 사용하여 회신을 관리할 수 있습니다. 자세한 내용은 [작업 업데이트](../updating-work-items-and-viewing-updates/update-work.md).
-
 
 ## 이메일 알림에서 업데이트에 회신
 

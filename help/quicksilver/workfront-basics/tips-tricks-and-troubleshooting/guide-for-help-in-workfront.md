@@ -5,9 +5,9 @@ title: 에서 도움말 찾기에 대한 빠른 안내서 [!DNL Adobe Workfront]
 description: 에서 도움말 찾기에 대한 빠른 안내서 [!DNL Adobe Workfront]
 feature: Get Started with Workfront
 exl-id: 3cdbf342-4809-44e3-ad9b-b5841950a1e4
-source-git-commit: ccc20edf13c2cdec1d81d5ab90dcd0d24c0e2ff3
+source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '890'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,6 @@ ht-degree: 0%
 >(NOTE: from Luke: I wonder who added this. This article does containa lot of good information. I wonder if we should update the TOC so that it appears in a more prominent section?)>
 ></MadCap:conditionalText>>
 >-->
-
 
 
 ## 질문에 대한 답변을 얻고 이에 대해 알아보려면 어떻게 해야 합니까? [!DNL Workfront?]
@@ -68,7 +67,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td><strong>온디맨드 학습 및 자세히 알아보기 [!DNL Workfront] 교육</strong> </td> 
-   <td><a href="https://experienceleague.adobe.com">Experience League</a> 은 플래너, 작업자, 공동 작업자 및 시스템 관리자가 의 주요 기능을 사용하여 구축하고 실행할 수 있도록 역할 기반 학습 경로를 제공합니다. [!DNL Workfront].<br>확장 [!DNL Workfront] 지식</a> 학습 경로, 비디오 튜토리얼 및 다운로드 가능한 안내서를 탐색하여 관심 주제를 확인하십시오.</a><br></td> 
+   <td><a href="https://experienceleague.adobe.com">Experience League</a> 은 플래너, 작업자, 공동 작업자 및 시스템 관리자가 의 주요 기능을 사용하여 구축하고 실행할 수 있도록 역할 기반 학습 경로를 제공합니다. [!DNL Workfront].<br>확장 [!DNL Workfront] 지식</a> 학습 경로, 비디오 튜토리얼 및 다운로드 가능한 안내서를 탐색하여 관심 주제를 확인하십시오.<br></td> 
   </tr> 
  </tbody> 
 </table>
@@ -156,10 +155,14 @@ ht-degree: 0%
 
 주간 유지 보수 업데이트에서 수정된 사항을 알아보려면 를 참조하십시오. [유지 보수 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
-## 유지 관리 및 조정 모범 사례는 무엇입니까? [!DNL Workfront?]
+<!-- the links in this section don't work anymore and I am not sure who would have the content?! Made a note to update this but will have to do some searching - October 26, 2023: 
 
-다음 대시보드는 로서 사용자에게 도움이 될 수 있습니다 [!DNL Workfront] 관리자가 Workfront 유지 관리:
+## What are best practices for maintaining and tuning up [!DNL Workfront?]
 
-| [[!DNL Workfront] 사용 대시보드](https://experienceleaguecommunities.adobe.com/t5/workfront-archived-groups/workfront-usage-dashboard/m-p/461045#M2624) | 사용자가 을 활용하는 방법 이해 [!DNL Workfront] 는 시스템의 전반적인 채택률을 측정하고 주의가 필요한 문제 영역에 대해 살펴보는 데 도움이 됩니다. |
+The following dashboards can help you as a [!DNL Workfront] administrator maintain Workfront:
+
+| [[!DNL Workfront] Usage Dashboard](https://experienceleaguecommunities.adobe.com/t5/workfront-archived-groups/workfront-usage-dashboard/m-p/461045#M2624) | Understanding how your users are leveraging [!DNL Workfront] can help you gauge the overall adoption of your system as well as dive into any problem areas that may need some attention. |
 |---|---|
-| [[!DNL Workfront] 대시보드 정리: 사용하지 않는 오브젝트 비활성화](https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-workfront-cleaned-up-its-own-unbridled-instance-of-workfront/ba-p/518299) | 유지 [!DNL Workfront] 사용하지 않는 물건으로부터 청소하는 것은 오랜 모범 사례이지만 적절한 도구가 없으면 어렵게 느껴질 수 있습니다. 이 대시보드는 시스템 관리자 또는 프로세스 소유자가 쉽게 찾을 수 있도록 설계되었습니다 [!DNL Workfront] 사용자 경험을 개선하는 데 도움이 되도록 정리해야 할 수 있는 데이터. 이 대시보드를 분기마다 검토하여 다음을 유지하는 것이 좋습니다. [!DNL Workfront] 깨끗해 |
+| [[!DNL Workfront] Cleanup Dashboard: Deactivate Unused Objects](https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-workfront-cleaned-up-its-own-unbridled-instance-of-workfront/ba-p/518299) | Keeping [!DNL Workfront] clean from unused objects is a long-standing best practice but one that can seem daunting without the right tools. This dashboard is designed for System Administrators or Process Owners to easily find [!DNL Workfront] data that may need to be cleaned up to help improve the user experience. We recommend reviewing this dashboard every quarter to help keep [!DNL Workfront] clean. |
+
+-->

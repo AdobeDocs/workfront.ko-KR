@@ -6,9 +6,9 @@ description: Adobe Workfront 개체(프로젝트, 작업 또는 문제)에 업�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
+source-git-commit: 97a89293989fd5dcc3ba40dd12ad0e1cf97d69ff
 workflow-type: tm+mt
-source-wordcount: '3606'
+source-wordcount: '3617'
 ht-degree: 1%
 
 ---
@@ -17,21 +17,28 @@ ht-degree: 1%
 
 
 
-<!--take "Beta" references out when we remove the beta and change "current" to "legacy" after October 26-->
+<!--take "legacy" and "new commnenting" references out when we remove the legacy - Jan 2024???-->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>\
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 활성화 또는 비활성화](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
 
-<span class="preview">현재 릴리스 일정에 대한 자세한 내용은 [2023년 4분기 릴리스 개요](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
+<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> 
+
+-->
 
 >[!IMPORTANT]
 >
 >현재 Adobe Workfront의 댓글 달기 환경을 다시 디자인하고 있습니다.
->댓글 달기 경험에 액세스하는 환경과 개체에 따라 업데이트 섹션에 다른 기능이 표시될 수 있습니다.
+>
+>댓글 달기 경험에 액세스하는 객체에 따라 업데이트 섹션에 다음과 같은 기능이 표시될 수 있습니다.
+>* 새로운 경험
+>* 기존 경험
+>* 새로운 및 기존 경험
 >
 >새 댓글 달기 경험과 사용 가능 여부에 대한 자세한 내용은 [새 댓글 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->새 주석 달기 경험은 업데이트 섹션에만 사용할 수 있고 다음 영역에는 사용할 수 없습니다.
+>새 주석 달기 경험은 Workfront 오브젝트의 업데이트 섹션에만 사용할 수 있고 다음 영역에서 오브젝트에 액세스할 때는 사용할 수 없습니다.
 >
 > * 홈
 > * 목록의 요약 패널
@@ -169,20 +176,18 @@ drafted for P&P release:
 
 ## 작업 항목에 업데이트 추가
 
-작업 항목에 업데이트를 추가하는 방법은 업데이트 섹션의 버전과 선택한 오브젝트에 따라 다릅니다.
-
-### 현재 업데이트 섹션에서 작업 항목에 업데이트 추가
-
-<!--on October 26, replace "current" with "legacy"-->
-
->[!NOTE]
+>[!IMPORTANT]
 >
->다음 기능은 목표 및 카드를 제외한 모든 객체에 사용할 수 있습니다. Workfront 목표에 액세스하려면 추가 라이선스가 있어야 합니다. 목표에 대한 댓글에 대한 자세한 내용은 을 참조하십시오. [Adobe Workfront 목표의 목표 주석 관리](../../workfront-goals/goal-management/manage-goal-comments.md).
->
->카드에서 주석 및 시스템 활동 섹션을 활성화하면 보드 영역에서 카드에 대한 업데이트를 추가하고 볼 수 있습니다. 자세한 내용은 [보드에 애드혹 카드 추가](../../agile/get-started-with-boards/add-card-to-board.md).
+>이 페이지의 정보에서는 프로젝트, 작업 및 문제를 업데이트하는 방법을 설명합니다.
+
+
+작업 항목에 업데이트를 추가하는 방법은 사용하는 업데이트 섹션의 버전에 따라 다릅니다.
+
+### 레거시 업데이트 섹션에서 작업 항목에 업데이트 추가
 
 1. 업데이트를 제공할 작업 항목(예: 프로젝트, 작업 또는 문제)으로 이동합니다.
 1. 다음을 클릭합니다. **업데이트** 섹션.
+1. (조건부) 활성화되면 **새 댓글 달기** 업데이트 섹션의 오른쪽 위 모서리에 있는 옵션을 비활성화하여 기존 댓글 달기 경험을 활성화합니다.
 1. 클릭 **새 업데이트 시작,** 그런 다음 업데이트를 입력합니다.
 1. (선택 사항) 컨텐츠를 향상하려면 리치 텍스트 를 사용하거나 이모지, 링크 또는 이미지를 업데이트에 추가하십시오. 자세한 내용은 [Workfront 업데이트에서 리치 텍스트 사용](#use-rich-text-in-a-workfront-update) 이 문서의 섹션.
 1. (선택사항) 작업 항목에 대해 다음 정보를 갱신합니다.
@@ -236,15 +241,14 @@ drafted for P&P release:
 
 ### 새 댓글 달기 경험을 사용하여 작업 항목에 업데이트 추가
 
-새 댓글 달기 환경에 사용할 수 있는 기능과 개체에 대한 자세한 내용은 [새 댓글 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
-
-1. 업데이트할 개체를 찾은 다음 개체 이름을 클릭하여 개체의 페이지를 엽니다.
+1. 업데이트할 개체(프로젝트, 작업 또는 문제)를 찾은 다음 해당 이름을 클릭하여 개체의 페이지를 엽니다.
 1. 클릭  **업데이트** 왼쪽 패널에서
+1. (조건부) **새 댓글 달기** 옵션이 비활성화되어 있습니다. 활성화하려면 클릭하십시오.
 
-   다음 **댓글** 기본적으로 탭이 선택되어 있습니다.
+   이렇게 하면 새 댓글 달기 경험을 사용할 수 있습니다. 다음 **댓글** 기본적으로 탭이 선택되어 있습니다.
 1. 에 주석 입력 시작 **새 댓글** 상자.
 
-   <span class="preview">![](assets/comment-box-empty-unshimmed.png)</span>
+   ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
    >
@@ -263,19 +267,23 @@ drafted for P&P release:
    >표시기는 항목에 대한 댓글이 제출된 후에만 표시되며 댓글이 아직 작성된 경우에는 표시되지 않습니다.
    >
    >&quot;새로 만들기&quot; 표시기는 새 업데이트를 입력한 사용자와 현재 업데이트를 입력 중인 사용자가 모두 새 댓글 달기 경험을 사용하는 경우에만 표시됩니다.
-   ><span class="preview">![](assets/real-time-new-red-indicator-unified-commenting.png)</span>
+   >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
 1. 클릭 **제출** Workfront 개체에 업데이트를 추가합니다.
-1. (선택 사항) 주석을 편집하려면 **자세히** 메뉴 ![](assets/more-menu.png)  <span class="preview">주석의 오른쪽 상단</span>을 클릭한 다음 을 클릭합니다 **편집**.
-1. 주석의 정보를 편집하거나, 이미지를 추가 또는 제거하거나, 태그 지정된 사용자를 제거합니다.
-의견을 제출한 후 15일 이내에만 편집할 수 있습니다. 댓글을 입력했을 때 표시되는 날짜 스탬프 왼쪽에 &quot;편집됨&quot; 표시기가 추가됩니다.
+1. (선택 사항) 주석을 편집하려면 **자세히** 메뉴 ![](assets/more-menu.png) 주석의 오른쪽 상단 모서리에서 을(를) 클릭한 다음 을(를) 클릭합니다 **편집**.
+
+   >[!IMPORTANT]
+   >
+   >의견을 제출한 후 15일 이내에만 편집할 수 있습니다.
+
+1. 주석의 정보를 편집하거나, 이미지를 추가 또는 제거하거나, 태그 지정된 사용자를 제거합니다. 댓글을 입력했을 때 표시되는 날짜 스탬프 왼쪽에 &quot;편집됨&quot; 표시기가 추가됩니다.
 
    >[!TIP]
    >
    >현재 연도의 주석은 날짜 스탬프에 연도를 표시하지 않습니다. 타임스탬프를 마우스로 가리키면 연도를 포함한 전체 날짜가 표시됩니다.
 
 
-   <span class="preview">![](assets/edited-tag-on-comment-unified-commenting.png)</span>
+   ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
@@ -284,34 +292,27 @@ drafted for P&P release:
    >* 다른 사용자를 대신하여 주석을 게시할 때(Workfront 또는 그룹 관리자로 다른 사용자로 로그인할 때) 다른 사용자로 로그인한 경우에는 주석을 편집할 수 없습니다. 사용자로 로그아웃한 후 다시 사용자로 로그인한 후에만 주석을 편집할 수 있습니다.
 
 
-1. (선택 사항) **답변** 기존 댓글에 회신하려면 위의 4-8단계를 따르십시오. <!--(**************insure this stays accurate***********)--> 업데이트 회신에 대한 자세한 내용은 [업데이트에 대한 회신](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+1. (선택 사항) **답변** 또는에서 댓글을 입력해 보십시오. **회신 추가...** 영역에서 기존 댓글에 응답한 다음 위의 4-8단계를 따릅니다. <!--(**************insure this stays accurate***********)--> 업데이트 회신에 대한 자세한 내용은 [업데이트에 대한 회신](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
-   >[!TIP]
-   >
-   >   <span class="preview">기존 회신에 더 많은 회신을 추가하려면 **회신 추가...** 상자 또는 클릭 **답변** 원래 주석에. 답변은 스레드 끝에 추가됩니다.</span>
+1. (조건부 및 선택 사항) 다른 사용자가 주석을 추가하는 동안 업데이트 섹션의 표시 영역 외부에 표시되는 주석을 추가한 경우 **보기** 파란색 안쪽에 **새 댓글 배너** 이 설명을 표시하려면 이 단추를 클릭하십시오.
 
-
-1. (조건부 및 선택 사항) 다른 사용자가 업데이트 섹션의 표시 영역 외부에 표시되는 주석을 추가한 경우 **보기** 파란색 안쪽에 **새 댓글 배너** 이 설명을 표시하려면 이 단추를 클릭하십시오.
-
-   <span class="preview">![](assets/blue-new-comments-banner-with-view-button.png)</span>
+   ![](assets/blue-new-comments-banner-with-view-button.png)
 
    추가 주석이 화면 하단에 표시됩니다.
-
 
 
    >[!NOTE]
    >
    >   새 업데이트를 입력한 사용자와 현재 업데이트 섹션을 보고 있는 사용자가 모두 새 댓글 달기 환경을 사용하는 경우에만 &quot;새 댓글&quot; 표시기와 &quot;보기&quot; 버튼이 표시됩니다.
 
-
 1. (선택 사항) **좋아요** 아이콘![](assets/like-icon.png). 아이콘이 좋아요 수로 업데이트됩니다.
-1. (조건부 및 선택 사항) 댓글에 다른 사람을 포함한 경우 업데이트에 포함된 멤버 수를 클릭하여 입력한 댓글이 공유된 엔티티 목록을 표시합니다.
+1. (조건부 및 선택 사항) 댓글에 다른 사람을 포함한 경우 업데이트에 포함된 멤버 수를 클릭하여 입력한 댓글이 공유되는 엔티티 목록을 표시합니다.
 
-   <span class="preview">![](assets/members-icons-expanded-unshimmed.png)</span>
+   ![](assets/members-icons-expanded-unshimmed.png)
 
    >[!TIP]
    >
-   >   <span class="preview">태그가 지정된 처음 두 엔티티의 이름이 아바타 옆에 표시됩니다. 두 개 이상의 엔티티에 태그가 지정되면 첫 번째 엔티티 이름과 추가 엔티티 수만 표시됩니다.</span>
+   >태그가 지정된 처음 두 엔티티의 이름이 아바타 옆에 표시됩니다. 두 개 이상의 엔티티에 태그가 지정되면 첫 번째 엔티티 이름과 추가 엔티티 수만 표시됩니다.
 
 1. (선택 사항) **시스템 활동** 시스템에 의해 기록된 업데이트를 보려면 탭하십시오. 개체 또는 그 하위 항목이 업데이트되면 Workfront은 해당 업데이트에 대한 메모를 생성하고 시스템 활동 탭에 표시합니다.
 
@@ -327,7 +328,7 @@ drafted for P&P release:
 
 >[!NOTE]
 >
->리치 텍스트 도구 모음의 일부 옵션은 새 댓글 달기 환경에서 사용하지 못할 수 있습니다.
+>다음 정보는 별도로 지정하지 않는 한 새 댓글 달기 환경에서 서식 있는 텍스트 사용에 대해 설명합니다.
 
 리치 텍스트를 사용하거나 이모지, 링크 또는 이미지와 같은 다양한 항목을 추가하여 업데이트를 향상시킬 수 있습니다.
 
@@ -340,15 +341,18 @@ drafted for P&P release:
 
    | **속성** | **도구 모음 단추** | **Mac 단축키** | **Windows 바로 가기 키** |
    |---|---|---|---|
-   | 볼드체 | ![mceclip10.png](assets/mceclip10.png) | ⌘+b | Ctrl+B |
+   | 볼드체 | ![](assets/mceclip10.png) | ⌘+b | Ctrl+B |
    | 기울임체 | ![mceclip9.png](assets/mceclip9.png) | ⌘+i | Ctrl+I |
    | 밑줄 | ![mceclip8.png](assets/mceclip8.png) | ⌘+u | Ctrl+U |
-   | 하이퍼링크 | ![mceclip7.png](assets/mceclip7.png) | <br>링크 만들기 또는 링크 추가 상자를 열려면 다음을 수행하십시오. ⌘+K</br> <br>댓글 달기 Beta 경험에서 선택한 텍스트 위에 링크를 붙여넣으려면: ⌘+V</br> | <br>링크 만들기 또는 링크 추가 상자를 열려면 Ctrl+K</br> <br>댓글 달기 Beta 경험에서 선택한 텍스트 위에 링크를 붙여넣으려면: Ctrl+V</br> |
+   | 하이퍼링크 | ![mceclip7.png](assets/mceclip7.png) | <br>링크 추가 상자를 열려면: ⌘+K</br> <br>선택한 텍스트 위에 링크를 붙여넣으려면: ⌘+V</br> | <br>링크 추가 상자를 열려면 Ctrl+K</br> <br>선택한 텍스트 위에 링크를 붙여넣으려면: Ctrl+V</br> |
    | 글머리 기호 목록 | ![mceclip6.png](assets/mceclip6.png) | ⌘+Shift+8 | Ctrl+Shift+8 |
    | 번호 매기기 목록 | ![mceclip5.png](assets/mceclip5.png) | ⌘+Shift+7 | Ctrl+Shift+7 |
-   | 견적 차단 | ![](assets/block-quote-icon-large.png) | ⌘+Shift+9 | Ctrl+Shift+9 |
+   | 견적 차단 | ![](assets/block-quote-icon-large.png) | ⌘+Shift+9 | <br>Ctrl+Shift+9</br> <br>새 댓글 달기 환경에서는 사용할 수 없습니다. </br> |
+
+   <!--remove the last row when we remove legacy from the system-->
 
    텍스트 서식을 중지하려면 **리치 텍스트** 도구 모음
+
 
    <!-- in the table above: take "Create Links" verbiage from the hyperlink when the old commenting is removed and the commenting beta is the only way to comment - with October 2023-->
 
@@ -359,11 +363,13 @@ drafted for P&P release:
    >* 조직에서 Internet Explorer와 함께 Workfront을 사용하는 경우 업데이트에 붙여넣은 서식 있는 텍스트 서식이 손실되고 일반 텍스트로 표시됩니다. 리치 텍스트 도구 모음의 속성을 사용하여 텍스트 서식을 변경할 수 있습니다.
    >* 타임시트 영역에서 수행한 업데이트 또는 보고서에서 본 메모 및 마지막 조건 개체에 대해 서식 있는 텍스트 서식을 사용할 수 없습니다.
 
-1. (선택 사항) 이전 업데이트 또는 다른 소스의 텍스트를 포함하여 자신의 업데이트와 구분하려면 해당 텍스트를 블록 인용으로 표시할 수 있습니다. 다음을 클릭합니다. **견적 차단** 아이콘 ![](assets/block-quote-small.png) 인용 텍스트를 입력합니다. 인용된 텍스트가 세로 회색 선으로 표시됩니다. 다음을 클릭합니다. **견적 차단** 아이콘을 다시 클릭하여 일반적인 서식으로 돌아갑니다.
+1. (선택 사항 및 조건부) 이전 업데이트 또는 다른 소스의 텍스트를 포함하여 자신의 업데이트와 구분하려면 해당 텍스트를 블록 인용으로 표시할 수 있습니다. 다음을 클릭합니다. **견적 차단** 아이콘 ![](assets/block-quote-small.png) 인용 텍스트를 입력합니다. 인용된 텍스트가 세로 회색 선으로 표시됩니다. 다음을 클릭합니다. **견적 차단** 아이콘을 다시 클릭하여 일반적인 서식으로 돌아갑니다. 새 댓글 달기 환경에서는 사용할 수 없습니다.
 
-   <span class="preview">![](assets/block-quote-marked-350x144.png)</span>
+   <!--remove this picture below and the bullet above when we remove legacy-->
 
-1. (선택 사항) 업데이트에 이모지를 추가합니다.
+   ![](assets/block-quote-marked-350x144.png)</span>
+
+1. (선택 사항) **이모지** 아이콘 ![](assets/emoji-icon.png) 를 클릭하여 업데이트에 이모지를 추가합니다.
 
    >[!NOTE]
    >
@@ -384,13 +390,7 @@ drafted for P&P release:
    1. 아래 **표시할 텍스트**, 링크 텍스트를 입력하거나 붙여넣습니다.
    1. **저장**&#x200B;을 클릭합니다.
 
-1. (선택 사항) 이미지를 업데이트에 첨부하려면 사용 환경에 따라 다음 중 하나를 수행합니다.
-
-   * 다음을 클릭합니다. **이미지** 아이콘 ![](assets/addimageicon-35x32.png) 현재 업데이트 환경을 사용하는 경우 컴퓨터에서 이미지를 찾아보거나 이미지를 업데이트 영역으로 끌어서 놓습니다
-
-   또는
-
-   다음을 클릭합니다. **첨부 파일 추가** 아이콘 ![](assets/add-image-mountain-with-plus-icon.png) 새 댓글 달기 환경을 사용할 때는 컴퓨터에서 이미지를 찾아봅니다. <!--**************** the tooltip of this icon might be renamed to "Add image")--> <!--in October 26 - leave this as the only icon instead of the OR option-->
+1. (선택 사항) 이미지를 업데이트에 첨부하려면 **이미지 추가** 아이콘 ![](assets/add-image-mountain-with-plus-icon.png) 새 댓글 달기 환경을 사용할 때는 컴퓨터에서 이미지를 찾아봅니다.
 
    >[!NOTE]
    >
@@ -400,11 +400,13 @@ drafted for P&P release:
    >* 텍스트가 아닌 이미지로 업데이트를 보낼 수 있습니다.
    >* 이미지가 포함된 댓글을 삭제하면 선택한 경험에 따라 다음과 같은 시나리오가 존재합니다.
    >
-   >     * 현재 주석 달기 경험에서 이미지는 문서 영역에 남아 있지만 더 이상 업데이트 섹션에 표시되지 않습니다.
+   >     * 기존 주석 달기 경험에서 이미지는 문서 영역에 남아 있지만 더 이상 업데이트 섹션에 표시되지 않습니다.
    >     * 새 주석 달기 경험에서 이미지는 업데이트 섹션과 문서 영역에서 제거됩니다. 댓글을 편집하고 이미지를 삭제하면 문서 영역에서도 이미지가 삭제됩니다.
    >* 누군가 문서 영역에서 댓글에 첨부된 이미지를 삭제하면 해당 이미지도 댓글에서 제거됩니다.
 
-1. 클릭 **업데이트**  또는 **제출**: 댓글 달기 Beta 경험 사용 시.
+   <!--remove the statement above about legacy, when we remove the legacy environment.-->
+
+1. 클릭 **제출** 주석을 추가합니다.
 
 
 ## 업데이트 정보 복사
@@ -413,13 +415,14 @@ drafted for P&P release:
 
 업데이트 복사는 사용하는 댓글 달기 경험에 따라 다릅니다.
 
-### 현재 댓글 달기 경험에서 업데이트 복사
+### 기존 댓글 달기 환경에서 업데이트 복사
 
-<!--October 26 - replace current with legacy-->
+<!--remove legacy when removed from the UI-->
 
 * [업데이트 복사](#copy-the-update)
 * [스레드 링크 복사](#copy-the-thread-link)
 * [업데이트 링크 복사](#copy-the-update-link)
+* [견적 회신](#quote-reply)
 
 #### 업데이트 복사 {#copy-the-update}
 
@@ -449,18 +452,35 @@ drafted for P&P release:
 
    ![](assets/copy-update-link-old-ui.png)
 
+
+#### 견적 회신
+
+견적 회신 옵션은 원래 댓글을 새 회신에 블록 견적으로 복사합니다.
+
+1. 복사하려는 업데이트 또는 회신으로 이동합니다.
+1. 다음을 클릭합니다. **자세히** 메뉴를 선택한 다음 **견적 회신**.
+
+   새 댓글 상자가 열리고 인용된 회신이 새 댓글에 포함되어 블록 인용으로 표시됩니다.
+
+1. 업데이트 추가를 계속하고 **답변** 주석을 추가합니다.
+
 ### 새 댓글 달기 환경에서 업데이트 복사
 
 새 댓글 달기 환경에 사용할 수 있는 기능과 개체에 대한 자세한 내용은 [새 댓글 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 <!--when we remove and deprecate the legacy stream, add screen shots in the sections below- October 2023-->
 
+다음 중 하나를 수행하여 기존 주석에서 정보를 복사할 수 있습니다.
+
 * [링크 복사](#copy-link)
 * [본문 복사](#copy-body-text)
+* [견적 회신](#quote-reply-1)
+
+![](assets/copy-comment-ways-from-more-menu-on-comment.png)
 
 #### 링크 복사
 
-이 옵션은 댓글 또는 스레드 링크를 클립보드에 복사하므로 다른 사용자와 댓글 또는 전체 스레드를 공유할 수 있습니다.
+링크 복사 옵션은 댓글 또는 스레드 링크를 클립보드에 복사하여 다른 사용자와 댓글 또는 전체 스레드를 공유할 수 있습니다.
 
 1. 링크를 복사할 업데이트로 이동합니다.
 
@@ -468,10 +488,25 @@ drafted for P&P release:
 
 #### 본문 복사
 
-이 옵션은 특정 업데이트의 텍스트를 클립보드로 복사합니다.
+본문 텍스트 복사 옵션은 특정 업데이트의 텍스트를 클립보드로 복사합니다.
 
 1. 복사하려는 업데이트 또는 회신으로 이동합니다.
 1. 다음을 클릭합니다. **자세히** 메뉴를 선택한 다음 **본문 복사**.
+
+#### 견적 회신
+
+견적 회신 옵션은 원래 댓글을 새 회신에 블록 견적으로 복사합니다.
+
+1. 복사하려는 업데이트 또는 회신으로 이동합니다.
+1. 다음을 클릭합니다. **자세히** 메뉴를 선택한 다음 **견적 회신**.
+
+   새 댓글 상자가 열리고 인용된 회신이 새 댓글에 포함되어 블록 인용으로 표시됩니다.
+
+   ![](assets/block-quote-highlighted-mid-comment-before-submit.png)
+
+   <!--ensure the screen shot above is correct - missing he block quote icon in rich text -->
+
+1. 업데이트 추가를 계속하고 **제출** 주석을 추가합니다.
 
 ## 업데이트 또는 회신 삭제
 
@@ -484,7 +519,7 @@ Workfront 사용자(Workfront 관리자 포함)는 다른 사용자가 업데이
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. 표시되는 메시지에서 다음을 클릭합니다. **확인** 또는 클릭 **삭제**: 댓글 달기 Beta 경험 사용 시.
+1. 표시되는 메시지에서 다음을 클릭합니다. **삭제**.
 
    >[!NOTE]
    >
@@ -492,9 +527,9 @@ Workfront 사용자(Workfront 관리자 포함)는 다른 사용자가 업데이
 
    삭제한 댓글에 연결된 댓글이 있는 경우 댓글을 삭제한 사용자의 이름으로 댓글이 제거되었음을 나타냅니다.
 
-   <span class="preview">![](assets/removed-comment-indicator-new-experience.png)</span>
+   ![](assets/removed-comment-indicator-new-experience.png)
 
-   댓글 달기 Beta 경험을 사용할 때 삭제된 댓글은 Workfront에서 즉시 제거됩니다. 업데이트 섹션을 사용하는 사용자는 다른 사용자가 삭제 중인 댓글을 실시간으로 볼 수 있습니다.
+   삭제된 주석은 Workfront에서 즉시 제거됩니다. 업데이트 섹션을 사용하는 사용자는 다른 사용자가 삭제 중인 댓글을 실시간으로 볼 수 있습니다.
 
    <!--when we remove the beta, take out the first part of the sentence above about only when commenting in beta experience. Leave the rest though-->
 
@@ -521,18 +556,19 @@ Workfront 사용자(Workfront 관리자 포함)는 다른 사용자가 업데이
 
 -->
 
+
+
 ## 시스템 업데이트 활성화 또는 비활성화
 
-<!--October 2023: remove the whole section because this is no longer possible -->
+<!--update this section when we remove legacy, to just point to the article in green below and rename this section as "Review system activity updates" or something-->
 
 <!--October 2023: when the new stream goes to all objects production, consider updating this article also, to say there is no System Activity tab to be disabled for objects anymore: help\quicksilver\administration-and-setup\set-up-workfront\system-tracked-update-feeds\system-tracked-update-feeds.md-->
 
 >[!NOTE]
 >
 >새 댓글 달기 환경을 사용할 때 시스템 업데이트를 비활성화할 수 없습니다.
->이 섹션의 정보는 현재 업데이트 섹션에서 사용할 수 있는 기능에만 적용됩니다. <!--October 26: replace current with legacy-->
->Beta 버전의 시스템 업데이트에 대한 자세한 내용은 [업데이트 섹션 개요](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
-
+>이 섹션의 정보는 기존 업데이트 섹션에서 사용할 수 있는 기능에만 적용됩니다. &lt;!—시스템에서 레거시 제거->
+>새 댓글 달기 환경의 시스템 업데이트에 대한 자세한 내용은 [업데이트 섹션 개요](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 Workfront 객체의 업데이트 섹션에는 두 가지 유형의 정보가 표시됩니다.
 

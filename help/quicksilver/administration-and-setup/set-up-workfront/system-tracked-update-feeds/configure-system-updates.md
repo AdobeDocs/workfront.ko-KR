@@ -4,13 +4,13 @@ product-area: system-administration;setup
 navigation-topic: system-tracked-update-feeds
 title: 시스템 업데이트 구성
 description: Workfront은 오브젝트의 [!UICONTROL 업데이트] 사용자가 개체에서 수행하는 변경 사항을 기록하는 영역입니다. 로서의 [!DNL Workfront] 관리자는 어떤 객체 필드와 작업을 구성할 수 있습니다 [!DNL Workfront] 시스템 업데이트를 기록합니다.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: 413e5ff710b4c77b7ea2d870b34bb0627a4fcd86
+source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '888'
 ht-degree: 7%
 
 ---
@@ -22,7 +22,11 @@ ht-degree: 7%
 * 사용자가 오브젝트 필드에서 변경한 사항
 * 사용자가 객체에 대해 수행하는 작업
 
-이러한 시스템 업데이트에는 수행된 변경 사항, 변경한 사용자의 이름, 변경 시간 및 날짜가 포함됩니다.
+이러한 시스템 업데이트에는 다음 유형의 정보가 포함됩니다.
+
+* 변경된 내용
+* 변경한 사용자의 이름
+* 변경 시간 및 날짜
 
 시스템 업데이트에 대한 자세한 내용은 [시스템 추적 업데이트](../system-tracked-update-feeds/system-tracked-update-feeds.md).
 
@@ -70,7 +74,7 @@ ht-degree: 7%
 
 ### 원하는 필드 추가 [!DNL Workfront] 추적하기 {#add-fields-you-want-workfront-to-track}
 
-원하는 필드를 추가할 수 있습니다. [!DNL Workfront] 를 사용하여 전체에서 특정 유형의 객체를 추적합니다 [!DNL Workfront] 인터페이스. 사용자가 해당 필드의 정보를 변경할 때 [!DNL Workfront] 변경 내용에 대한 정보를 시스템 업데이트로 [!UICONTROL 업데이트] 객체의 영역입니다.
+원하는 필드를 추가할 수 있습니다. [!DNL Workfront] 를 사용하여 전체에서 특정 유형의 객체를 추적합니다. [!DNL Workfront] 인터페이스. 사용자가 해당 필드의 정보를 변경할 때 [!DNL Workfront] 변경 내용에 대한 정보를 시스템 업데이트로 [!UICONTROL 업데이트] 객체의 영역입니다.
 
 >[!NOTE]
 >

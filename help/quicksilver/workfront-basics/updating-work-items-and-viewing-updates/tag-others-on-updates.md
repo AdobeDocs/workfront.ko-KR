@@ -6,78 +6,53 @@ description: Adobe Workfront 개체에 업데이트 설명을 제공하면 프�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 97a89293989fd5dcc3ba40dd12ad0e1cf97d69ff
 workflow-type: tm+mt
-source-wordcount: '1620'
+source-wordcount: '1574'
 ht-degree: 0%
 
 ---
 
 # 업데이트에 다른 사용자 태그 지정
 
-<!--take "Beta" references out when we remove the beta and change "current" to "legacy" after October 26-->
-
 <!--take new commenting and legacy commenting out when we remove the legacy commenting and the new one is the only experience-->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>\
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 활성화 또는 비활성화](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>
+<!--
 
-<span class="preview">현재 릴리스 일정에 대한 자세한 내용은 [2023년 4분기 릴리스 개요](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
+
+<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> 
+-->
 
 >[!IMPORTANT]
 >
 >현재 Adobe Workfront의 댓글 달기 환경을 다시 디자인하고 있습니다.
->댓글 달기 경험에 액세스하는 환경과 개체에 따라 업데이트 섹션에 다른 기능이 표시될 수 있습니다.
+>
+>댓글 달기 경험에 액세스하는 객체에 따라 업데이트 섹션에 다음과 같은 기능이 표시될 수 있습니다.
+>* 새로운 경험
+>* 기존 경험
+>* 새로운 및 기존 경험
 >
 >새 댓글 달기 경험과 사용 가능 여부에 대한 자세한 내용은 [새 댓글 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->새 주석 달기 경험은 업데이트 섹션에만 사용할 수 있고 다음 영역에는 사용할 수 없습니다.
+>새 주석 달기 경험은 Workfront 오브젝트의 업데이트 섹션에만 사용할 수 있고 다음 영역에서 오브젝트에 액세스할 때는 사용할 수 없습니다.
 >
 > * 홈
 > * 목록의 요약 패널
 > * 타임시트의 요약 패널
 
-
-<!--old note before August 17: 
-
->[!NOTE]
->
->We are currently redesigning the commenting experience in Adobe Workfront.
->
->For more information about the new commenting experience, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
->
->You can access the new experience for the following objects:
-> * Issues, projects, tasks, and documents.
->
->     This is available when you enable the commenting Beta experience.
->
->     This functionality is available only for the Updates section, and it is not available for the following areas:
->
->     * Home
->     * Summary panel in lists
->     * Summary panel in timesheets
->
-> * Goals, cards in the Boards area
->
->   The new commenting experience is the only experience for goals and cards. You must have an additional license to access Workfront Goals. For more information, see [Requirements to uses Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
->
->     You can add and view updates to cards in the Boards area when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
-
--->
-
 오브젝트를 업데이트할 때 사용자가 따르지 않을 수 있는 오브젝트에 주의를 집중시키려면 사용자를 태그 지정할 수 있습니다.
+
 이러한 사용자를 객체에 할당하거나 구독하도록 하여 해당 사용자를 객체에 포함시키는 대신, 업데이트에서 태그를 지정하여 사용자와 공유할 수 있습니다. 태그가 지정된 사용자는 입력한 업데이트에 대한 알림을 받습니다.
 
->[!NOTE]
->
->사용자는 프로필에서 개인 알림을 활성화해야 이메일 알림을 받을 수 있습니다. 자세한 내용은 [이메일 알림 수정](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
->
+## 업데이트의 사용자 태그 지정에 대한 고려 사항
 
-Workfront 개체에 업데이트를 추가하는 방법에 대한 자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+* 업데이트를 태그 지정한 사용자가 이메일 알림을 받으려면 프로필에서 개인 알림을 활성화해야 합니다. 자세한 내용은 [이메일 알림 수정](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
->[!NOTE]
->
->문제가 프로젝트 또는 작업으로 전환되면 업데이트가 새 프로젝트 또는 작업에 복사되지만 태그가 지정된 사용자는 복사되지 않습니다. 대화를 계속하려면 참가자를 다시 태그 지정해야 합니다.
+  Workfront 개체에 업데이트를 추가하는 방법에 대한 자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+* 문제가 프로젝트 또는 작업으로 전환되면 업데이트가 새 프로젝트 또는 작업에 복사되지만 태그가 지정된 사용자는 복사되지 않습니다. 대화를 계속하려면 참가자를 다시 태그 지정해야 합니다.
 
 ## 액세스 요구 사항
 
@@ -116,50 +91,6 @@ Workfront 개체에 업데이트를 추가하는 방법에 대한 자세한 내�
 ## 업데이트에 다른 사용자 태그 지정
 
 업데이트의 다른 사람에 대한 태깅은 선택한 경험과 개체에 따라 다릅니다.
-
-### 현재 업데이트 섹션의 업데이트에 대해 다른 사람에게 태그 지정
-
-<!--change "current" to "legacy" at the October 26, 2023 release-->
-
-현재 업데이트 섹션에서 사용자에 수동으로 태그를 지정할 수 있습니다.
-
-1. 에 설명된 대로 작업 항목 업데이트를 시작합니다. [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. 다음에서 **알림** 필드에 포함할 사용자 또는 팀의 이름을 입력한 다음 드롭다운 목록에 나타나면 이름을 클릭합니다.
-
-   또는
-
-   다음에 @ 기호를 입력합니다. **새 업데이트 시작** 영역에 업데이트에 포함할 사용자 또는 팀의 이름을 입력한 다음 드롭다운 목록에 나타나면 이름을 클릭합니다.
-
-   >[!TIP]
-   >
-   >이름이 유사하거나 동일한 사용자가 있을 때 올바른 사용자를 식별하려면 아바타, 사용자의 기본 역할 또는 이메일 주소를 확인합니다.
-   >
-   >업데이트에서 태그 지정할 때 사용자를 보려면 최소 하나 이상의 작업 역할과 연결되어 있어야 합니다.
-   >
-   >사용자의 이메일을 보려면 사용자의 액세스 수준에서 연락처 정보 보기 설정을 활성화해야 합니다. 자세한 내용은 [사용자에게 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
-
-   ![](assets/tag-users-in-update.png)
-
-1. (선택 사항) 업데이트를 비공개로 설정하려면 을 활성화합니다 **내 회사에 비공개** 업데이트 상자의 오른쪽 아래 모서리에 있습니다. 이렇게 하면 회사의 사용자에게만 업데이트가 표시됩니다. 다음 **내 회사에 비공개** 옵션은 회사가 Workfront 프로필에 지정된 경우에만 사용할 수 있습니다.
-
-   >[!NOTE]
-   >
-   >회사 외부의 태그 지정된 사용자는 업데이트 탭에 개인 댓글이 표시되지 않더라도 인앱 알림이나 이메일을 계속 받을 수 있습니다. 외부 사용자와 정보를 공유하지 않으려면 업데이트에 외부 사용자에게 태그를 지정하지 않는 것이 좋습니다.
-
-1. (선택 사항) 여러 사용자와 팀을 추가하려면 2단계를 반복합니다.
-
-   >[!NOTE]
-   >
-   >알림 필드에 나열된 모든 사용자 및 팀원은 업데이트에 대한 인앱 알림을 받으며 이메일 알림 설정의 구성에 따라 이메일을 받을 수 있습니다. 댓글 또는 회신에 태그를 지정한 사용자는 해당 댓글 또는 회신에 대한 알림을 받으며 스레드의 나머지 부분에 대해 알림 필드에서 자신의 이름을 볼 수 있지만 다시 태그 지정하지 않는 한 다른 알림을 받지 않습니다. 자세한 내용은 [이메일 알림 수정](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) 및 [시스템의 모든 사용자를 위한 이벤트 알림 구성](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
-
-1. 클릭 **업데이트**.\
-   업데이트에 포함된 사용자에게는 객체에 대한 보기 권한이 자동으로 부여되고 객체에 대한 업데이트를 보고 응답할 수 있습니다.
-
-   업데이트 스레드의 맨 위에서 각 회신에서 누가 태그 지정되었는지 확인할 수 있습니다. 이러한 사용자는 오브젝트에 가입된 사용자와 함께 오브젝트에 대한 업데이트 또는 회신이 이루어질 때마다 알림을 받습니다.
-
-   ![](assets/tagging-transparency-350x192.png)
-
-   작업 항목을 업데이트할 때 사용할 수 있는 추가 기능에 대한 자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ### 새로운 댓글 달기 환경의 업데이트에 다른 사람에게 태그 지정
 
@@ -213,17 +144,60 @@ Workfront 개체에 업데이트를 추가하는 방법에 대한 자세한 내�
 1. 클릭 **제출**.\
    업데이트에 포함된 사용자에게는 객체에 대한 보기 권한이 자동으로 부여되고 객체에 대한 업데이트를 보고 응답할 수 있습니다.
 
-   <span class="preview">태그가 지정된 엔티티의 이름이 해당 아바타 옆에 최대 2개의 엔티티로 표시됩니다. 두 개 이상의 엔티티에 태그가 지정되어 있으면 태그가 지정된 추가 엔티티 수와 함께 첫 번째 엔티티의 이름이 표시됩니다.</span>
+   태그가 지정된 엔티티의 이름이 해당 아바타 옆에 최대 2개의 엔티티로 표시됩니다. 두 개 이상의 엔티티에 태그가 지정되어 있으면 태그가 지정된 추가 엔티티 수와 함께 첫 번째 엔티티의 이름이 표시됩니다.
 
    ![](assets/members-icons-expanded-unshimmed.png)
 
    작업 항목을 업데이트할 때 사용할 수 있는 추가 기능에 대한 자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (선택 사항) **자세히** 메뉴 ![](assets/more-menu.png) <span class="preview">주석의 오른쪽 상단</span>을 클릭한 다음 을 클릭합니다 **편집**. 태그된 사용자를 제거한 다음 **제출**. 댓글을 입력한 후 15분 이내에만 편집할 수 있습니다. 추가한 의견만 편집할 수 있습니다.
+1. (선택 사항) **자세히** 메뉴 ![](assets/more-menu.png) 주석의 오른쪽 상단 모서리에서 을(를) 클릭한 다음 을(를) 클릭합니다 **편집**. 태그된 사용자를 제거한 다음 **제출**. 댓글을 입력한 후 15분 이내에만 편집할 수 있습니다. 추가한 의견만 편집할 수 있습니다.
 
    >[!TIP]
    >
    >기존 댓글 달기 경험을 사용하여 댓글과 댓글을 추가할 때 새로운 댓글 달기 경험을 사용하는 사람은 특별히 태그가 지정되지 않은 댓글 소유자를 수동으로 제거할 수 없습니다.
+
+
+### 기존 업데이트 섹션의 업데이트에 대해 다른 사람에게 태그 지정
+
+기존 업데이트 섹션에서 사용자에 수동으로 태그를 지정할 수 있습니다.
+
+1. 에 설명된 대로 작업 항목 업데이트를 시작합니다. [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. 다음에서 **알림** 필드에 포함할 사용자 또는 팀의 이름을 입력한 다음 드롭다운 목록에 나타나면 이름을 클릭합니다.
+
+   또는
+
+   다음에 @ 기호를 입력합니다. **새 업데이트 시작** 영역에 업데이트에 포함할 사용자 또는 팀의 이름을 입력한 다음 드롭다운 목록에 나타나면 이름을 클릭합니다.
+
+   >[!TIP]
+   >
+   >이름이 유사하거나 동일한 사용자가 있을 때 올바른 사용자를 식별하려면 아바타, 사용자의 기본 역할 또는 이메일 주소를 확인합니다.
+   >
+   >업데이트에서 태그 지정할 때 사용자를 보려면 최소 하나 이상의 작업 역할과 연결되어 있어야 합니다.
+   >
+   >사용자의 이메일을 보려면 사용자의 액세스 수준에서 연락처 정보 보기 설정을 활성화해야 합니다. 자세한 내용은 [사용자에게 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+
+   ![](assets/tag-users-in-update.png)
+
+1. (선택 사항) 업데이트를 비공개로 설정하려면 을 활성화합니다 **내 회사에 비공개** 업데이트 상자의 오른쪽 아래 모서리에 있습니다. 이렇게 하면 회사의 사용자에게만 업데이트가 표시됩니다. 다음 **내 회사에 비공개** 옵션은 회사가 Workfront 프로필에 지정된 경우에만 사용할 수 있습니다.
+
+   >[!NOTE]
+   >
+   >회사 외부의 태그 지정된 사용자는 업데이트 탭에 개인 댓글이 표시되지 않더라도 인앱 알림이나 이메일을 계속 받을 수 있습니다. 외부 사용자와 정보를 공유하지 않으려면 업데이트에 외부 사용자에게 태그를 지정하지 않는 것이 좋습니다.
+
+1. (선택 사항) 여러 사용자와 팀을 추가하려면 2단계를 반복합니다.
+
+   >[!NOTE]
+   >
+   >알림 필드에 나열된 모든 사용자 및 팀원은 업데이트에 대한 인앱 알림을 받으며 이메일 알림 설정의 구성에 따라 이메일을 받을 수 있습니다. 댓글 또는 회신에 태그를 지정한 사용자는 해당 댓글 또는 회신에 대한 알림을 받으며 스레드의 나머지 부분에 대해 알림 필드에서 자신의 이름을 볼 수 있지만 다시 태그 지정하지 않는 한 다른 알림을 받지 않습니다. 자세한 내용은 [이메일 알림 수정](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) 및 [시스템의 모든 사용자를 위한 이벤트 알림 구성](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+
+1. 클릭 **업데이트**.\
+   업데이트에 포함된 사용자에게는 객체에 대한 보기 권한이 자동으로 부여되고 객체에 대한 업데이트를 보고 응답할 수 있습니다.
+
+   업데이트 스레드의 맨 위에서 각 회신에서 누가 태그 지정되었는지 확인할 수 있습니다. 이러한 사용자는 오브젝트에 가입된 사용자와 함께 오브젝트에 대한 업데이트 또는 회신이 이루어질 때마다 알림을 받습니다.
+
+   ![](assets/tagging-transparency-350x192.png)
+
+   작업 항목을 업데이트할 때 사용할 수 있는 추가 기능에 대한 자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 
 

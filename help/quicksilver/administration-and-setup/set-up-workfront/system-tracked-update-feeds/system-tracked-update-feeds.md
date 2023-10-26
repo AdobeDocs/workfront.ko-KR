@@ -9,14 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: 207a8c8a642f3204a2d007789eb7ee8cd9379f1b
+source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 7%
+source-wordcount: '405'
+ht-degree: 6%
 
 ---
 
 # 시스템 추적 업데이트
+
+<!--remove new experience and legacy notes when we remove legacy in the UI - Jan 24???-->
 
 [!DNL Adobe Workfront] 의 객체에 상태 정보를 기록하여 특정 객체에서 수행되는 활동을 캡처합니다. [!UICONTROL 업데이트] 영역입니다.
 
@@ -32,6 +34,8 @@ ht-degree: 7%
 
   시스템 업데이트 피드 및 업데이트 피드를 활성화하는 방법에 대한 자세한 내용은 [시스템 업데이트 구성](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
+  ![](assets/system-updates-example-unified-stream.png)
+
   <!--
   DRAFTED IN FLARE:
   Timestamps for system updates are based on your operating system's timezone.
@@ -40,7 +44,9 @@ ht-degree: 7%
 
 ## 시스템 추적 업데이트에 대한 고려 사항
 
-* 업데이트 영역이 있는 모든 개체에 대해 시스템 추적 업데이트를 사용할 수 없습니다. 다음 [!UICONTROL 업데이트] 영역은 다음 개체에 사용할 수 있습니다.
+업데이트 영역이 있는 모든 개체에 대해 시스템 추적 업데이트를 사용할 수 없습니다.
+
+* 다음 [!UICONTROL 업데이트] 영역은 다음 개체에 사용할 수 있습니다.
 
    * [!UICONTROL 프로젝트]
    * [!UICONTROL 작업]
@@ -70,6 +76,7 @@ ht-degree: 7%
    * [!UICONTROL 템플릿]
    * [!UICONTROL 템플릿 작업]
    * 애드혹 [!UICONTROL 카드]
+   * [!UICONTROL 반복]
 
 
 <!--hiding this bit because this is not true, at this time (August 2023). Users with a Work or Review license can see system updates by default as well.
@@ -77,17 +84,17 @@ ht-degree: 7%
 Your [!DNL Workfront] license determines whether system updates display by default in the [!UICONTROL Updates] area of objects. [!DNL Workfront] users with a [!UICONTROL Plan] license have system updates displayed in the [!UICONTROL Updates] area by default. However, users can filter out system updates, as described in the [Enable or disable system updates](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) section in [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). All other [!DNL Workfront] licenses filter system updates by default.
 -->
 
-* 사용자는 기본적으로 시스템 업데이트를 보거나 표시하지 않도록 선택할 수 있습니다.
+* 다음은 새 주석 달기 경험과 기존 주석 달기 경험의 차이점입니다.
 
-  시스템 업데이트 표시를 비활성화하는 방법에 대한 자세한 내용은 섹션을 참조하십시오 [시스템 업데이트 활성화 또는 비활성화](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) 이 문서에서 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   * 새 댓글 달기 경험을 사용할 때 사용자 업데이트는 댓글 탭에 표시되고 시스템 업데이트는 시스템 활동 탭에 표시됩니다.
 
-  >[!NOTE]
-  >
-  >현재 댓글 달기 경험과 을 다시 디자인하는 중입니다. [!UICONTROL 업데이트] 영역 [!DNL Workfront].
-  >
-  > 새 댓글 달기 환경을 사용할 때는 시스템 업데이트를 숨길 수 없습니다.
-  > 
-  >새 댓글 달기 환경에 대한 자세한 내용은 [새 댓글 달기 환경](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+     새 댓글 달기 환경에 대한 자세한 내용은 [새 댓글 달기 환경](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+
+   * 기존 댓글 달기 경험을 사용하는 경우 시스템 및 사용자 업데이트가 하나의 연속 피드에 표시됩니다.
+
+   * 기존 댓글 달기 경험을 사용하는 경우 사용자는 기본적으로 시스템 업데이트를 보거나 표시하지 않도록 선택할 수 있습니다. 새 댓글 달기 환경을 사용할 때는 시스템 업데이트를 비활성화할 수 없습니다.
+
+     시스템 업데이트 표시를 비활성화하는 방법에 대한 자세한 내용은 섹션을 참조하십시오 [시스템 업데이트 활성화 또는 비활성화](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) 이 문서에서 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 * Workfront은 다음 개체에 대해 시스템에서 추적한 업데이트를 기록하지만 표시를 비활성화하는 옵션이 없습니다.
 
