@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: bc9d47dddacf82b352ed4dbfe8e57861859d752b
 workflow-type: tm+mt
-source-wordcount: '2515'
+source-wordcount: '2609'
 ht-degree: 7%
 
 ---
@@ -308,13 +308,21 @@ ht-degree: 7%
 1. 에서 셀을 완료합니다. **isNew** 열:
 
    * 가져오려는 개체가 새 개체인 경우 **참** 행에서 데이터를 가져옵니다.
-   * 개체가 이미 Workfront에 있는 경우 **FALSE** 행을 무시합니다.
+   * 개체가 이미 Workfront에 있는 경우 **FALSE** 행을 무시하려면 열에 있어야 합니다.
+
+      * Workfront에 이미 존재하는 레코드는 업데이트되지 않습니다.
+      * 데이터가 있는 템플릿을 다운로드한 경우 기존 개체가 이미 로 표시되어 있습니다. **FALSE**.
+      * 빈 템플릿을 다운로드한 경우에는 기존 객체에 대해 새 행을 추가할 필요가 없습니다.
 
 1. 에서 셀을 완료합니다. **ID** 다음 방법 중 하나로 열을 만듭니다.
 
-   * 가져오려는 개체가 새 개체인 경우(입력한 경우) **참** 다음에서 **isNew** 열)에서 ID에 대한 숫자를 지정합니다. 이 번호는 스프레드시트에서 고유해야 합니다.
+   * 가져오려는 개체가 새 개체인 경우(입력한 경우) **참** 다음에서 **isNew** 열)에서 ID에 대한 숫자를 입력합니다. 이 번호는 스프레드시트에서 고유해야 합니다.
 
-   * 가져오려는 개체가 Workfront 시스템에 이미 있는 경우(입력한 경우) **FALSE** 다음에서 **isNew** column)을 입력하면 ID는 해당 개체의 Workfront에 있는 영숫자 GUID여야 합니다.
+   * 개체가 Workfront에 이미 있는 경우 (및 **FALSE** 다음에 있음 **isNew** column)을 입력하면 ID는 해당 개체의 Workfront에 있는 영숫자 GUID여야 합니다.
+
+      * Workfront에 이미 존재하는 레코드는 업데이트되지 않습니다.
+      * 데이터가 있는 템플릿을 다운로드한 경우 기존 개체에는 이미 ID로 GUID가 포함되어 있습니다.
+      * 를 변경하여 기존 개체를 기반으로 새 개체를 가져올 수 있습니다 **FALSE** 끝 **참** 다음에서 **isNew** 열, ID 변경 및 가져오기 전에 필요한 데이터 조정
 
      ![그룹에 대한 샘플 ID](assets/kick-start-group-example.png)
 
