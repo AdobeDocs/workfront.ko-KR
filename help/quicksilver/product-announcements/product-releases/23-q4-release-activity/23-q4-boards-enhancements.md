@@ -3,16 +3,16 @@ title: 2023년 4분기 보드 개선 사항
 description: 2023년 4분기 보드 개선 사항
 author: Lisa
 feature: Product Announcements
-source-git-commit: 8488cb46b3dd9b377c59121597db5b6fe784fdab
+source-git-commit: ee84471418590401fe143741cadd1d76a8917149
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
 
 # 2023년 4분기 보드 개선 사항
 
-이 페이지에서는 미리보기 환경에 대한 2023년 4분기 릴리스의 모든 보드 개선 사항에 대해 설명합니다. 이러한 개선 사항은 프로덕션 환경에서 23.10 릴리스를 통해 제공될 예정입니다.
+이 페이지에서는 미리보기 환경에 대한 2023년 4분기 릴리스의 모든 보드 개선 사항에 대해 설명합니다. 이러한 개선 사항은 프로덕션 환경에서 23.10 릴리스를 통해 사용할 수 있습니다.
 
 2023년 4분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [2023년 4분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
 
