@@ -7,9 +7,9 @@ description: 시나리오 편집기를 사용하면 시각적 인터페이스에
 author: Becky
 feature: Workfront Fusion
 exl-id: 4377303d-7615-41eb-b0cc-4bf884899361
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 28ca9bab8d6a5aed395dc3297eb62912ebb506c7
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '867'
 ht-degree: 0%
 
 ---
@@ -160,6 +160,11 @@ ht-degree: 0%
    <tr> 
      <td role="rowheader">시나리오 테스트 실행</td>   
      <td>클릭 <strong>[!UICONTROL 한 번 실행]</strong> 활성화하기 전에 시나리오가 예상대로 실행되는지 확인합니다. 활성화되면 시나리오는 일정에 따라 실행됩니다. 모든 것이 예상대로 실행되지 않는 경우 오류 처리 섹션을 방문하여 오류를 처리하는 방법을 배울 수 있습니다.</td> 
+   </tr> 
+   <tr> 
+     <td role="rowheader">Devtool을 사용하여 시나리오를 디버그합니다.</td>   
+     <td>자세한 내용은 를 참조하십시오. <a href="../../workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md" class="MCXref xref">을 사용하여 시나리오 디버그 [!DNL Adobe Workfront Fusion] Devtool</a>.
+</td> 
    </tr> 
 </tbody>
 </table>

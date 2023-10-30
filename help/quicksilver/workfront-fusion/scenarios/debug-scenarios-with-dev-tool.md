@@ -2,25 +2,21 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Adobe Workfront Fusion DevTool로 시나리오 디버그
-description: Adobe Workfront Fusion DevTool을 사용하면 시나리오를 이해하고 문제를 해결할 수 있습니다. DevTool은 Chrome 개발자 도구에 추가 패널을 추가합니다. 이 디버거 패널을 사용하면 시나리오의 모든 수동 실행을 확인하고, 수행된 모든 작업을 검토하고, 수행된 모든 API 호출에 대한 세부 정보를 볼 수 있습니다. 오류를 일으킨 모듈, 작업 또는 단일 응답을 확인하고 해당 지식을 사용하여 시나리오를 구체화할 수 있습니다.
+title: Adobe Workfront Fusion Devtool을 사용하여 시나리오 디버그
+description: Adobe Workfront Fusion Devtool을 사용하면 시나리오를 이해하고 문제를 해결할 수 있습니다. [개발자 도구]는 Chrome 개발자 도구에 추가 패널을 추가합니다. 이 디버거 패널을 사용하면 시나리오의 모든 수동 실행을 확인하고, 수행된 모든 작업을 검토하고, 수행된 모든 API 호출에 대한 세부 정보를 볼 수 있습니다. 오류를 일으킨 모듈, 작업 또는 단일 응답을 확인하고 해당 지식을 사용하여 시나리오를 구체화할 수 있습니다.
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: 19de44559be7b5bd7584012f1d6f7e12523f12be
+source-git-commit: 28ca9bab8d6a5aed395dc3297eb62912ebb506c7
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1816'
 ht-degree: 0%
 
 ---
 
-# 을 사용하여 시나리오 디버그 [!DNL Adobe Workfront Fusion] DevTool
+# 을 사용하여 시나리오 디버그 [!DNL Adobe Workfront Fusion] Devtool
 
-다음 [!DNL Adobe Workfront Fusion] DevTool을 사용하면 시나리오를 이해하고 문제를 해결할 수 있습니다. DevTool이 추가 패널을 [!DNL Chrome Developer Tools]. 이 디버거 패널을 사용하면 시나리오의 모든 수동 실행을 확인하고, 수행된 모든 작업을 검토하고, 수행된 모든 API 호출에 대한 세부 정보를 볼 수 있습니다. 오류를 일으킨 모듈, 작업 또는 단일 응답을 확인하고 해당 지식을 사용하여 시나리오를 구체화할 수 있습니다.
-
->[!NOTE]
->
->Adobe 통합 쉘을 통해 Fusion에 액세스하는 조직에서는 Workfront Fusion DevTool을 사용할 수 없습니다.
+다음 [!DNL Adobe Workfront Fusion] Devtool을 사용하면 시나리오를 이해하고 문제를 해결할 수 있습니다. Devtool이 추가 패널을 [!DNL Chrome Developer Tools]. 이 디버거 패널을 사용하면 시나리오의 모든 수동 실행을 확인하고, 수행된 모든 작업을 검토하고, 수행된 모든 API 호출에 대한 세부 정보를 볼 수 있습니다. 오류를 일으킨 모듈, 작업 또는 단일 응답을 확인하고 해당 지식을 사용하여 시나리오를 구체화할 수 있습니다.
 
 ## 액세스 요구 사항
 
@@ -61,34 +57,49 @@ ht-degree: 0%
 
 다음에 대한 정보: [!DNL Adobe Workfront Fusion] 라이센스, 참조 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## 설치 [!DNL Chrome] DevTool 확장
+## Workfront Fusion Devtool 액세스
 
-<!--
-To use the [!DNL Workfront Fusion] DevTool, you first need to install it.
+Devtool 액세스는 Fusion을 사용하는지 여부에 따라 다릅니다. [!DNL Adobe Unified Experience].
 
-1. Click [this link](assets/workfront-fusion-devtool-2023-feb.zip) to download the extension.
-1. When the files have downloaded, extract them to a folder of your choice.
-1. Open a tab in [!DNL Chrome]
-1. In the search bar of the tab, enter `chrome://extensions`.
-1. Click the **[!UICONTROL Developer mode]** toggle at the upper-right of the screen to enable Developer mode. If the toggle to the right, developer mode is enabled.
-1. Click **[!UICONTROL Load unpacked]**.
-1. Select the folder containing the DevTool (where you extracted the files in step 2).
+* [에서 Devtool에 액세스 [!DNL Adobe Unified Experience]](#access-the-devtool-in-the-adobe-unified-experience)
+* [클래식 Devtool에 액세스 [!DNL Fusion] 경험](#access-the-devtool-in-the-classic-fusion-experience)
 
-   Once unpacked, the DevTool appears among your other Chrome extensions.
-   -->
+### 에서 Devtool에 액세스 [!DNL Adobe Unified Experience]
 
-다음을 추가할 수 있습니다. [!DNL Workfront Fusion] 개발자 도구: [!DNL Chrome] 다음을 통해 [!UICONTROL [!DNL Chrome] 웹 스토어].
+Adobe 통합 쉘에서 Fusion을 사용하는 경우 시나리오 편집기에서 개발 도구에 액세스할 수 있습니다.
 
-1. 클릭 [이 링크](https://chrome.google.com/webstore/detail/workfront-fusion-devtool/hkimbmkkmmejdnhbhoaefggkpkndfjnn/related) 로 이동 [!DNL Workfront Fusion] 의 DevTool [!UICONTROL [!DNL Chrome] 웹 스토어].
+1. 디버그하려는 시나리오의 시나리오 편집기로 이동합니다.
+
+   시나리오 편집기를 찾으려면 다음을 참조하십시오. [시나리오 편집기](/help/quicksilver/workfront-fusion/scenarios/scenario-editor.md).
+
+1. 모듈이 아닌 페이지의 빈 영역을 마우스 오른쪽 버튼으로 클릭합니다.
+1. 선택 **Devtool 열기**.
+
+>[!NOTE]
+>
+>현재는 **라이브 스트림** Devtool 영역은 통합 쉘의 사용자가 사용할 수 있습니다.
+
+### 클래식 Devtool에 액세스 [!DNL Fusion] 경험
+
+Classic에서 Devtool을 사용하려면 [!DNL Fusion] 경험, 다음을 설치해야 합니다. [!DNL Chrome] 확장명. 그런 다음 다음에서 이 확장을 사용할 수 있습니다. [!DNL Chrome] 개발자 도구.
+
+* [설치 설치 [!DNL Chrome] Devtool 확장](#install-the-chrome-devtool-extension)
+* [를 찾습니다. [!DNL Workfront Fusion] Devtool](#locate-the-workfront-fusion-devtool)
+
+#### 설치 [!DNL Chrome] Devtool 확장
+
+다음을 추가할 수 있습니다. [!DNL Workfront Fusion] 개발자 도구 [!DNL Chrome] 다음을 통해 [!UICONTROL [!DNL Chrome] 웹 스토어].
+
+1. 클릭 [이 링크](https://chrome.google.com/webstore/detail/workfront-fusion-Devtool/hkimbmkkmmejdnhbhoaefggkpkndfjnn/related) 로 이동 [!DNL Workfront Fusion] 에 대한 개발자 도구 [!UICONTROL [!DNL Chrome] 웹 스토어].
 1. 클릭 **[!UICONTROL 추가[!DNL Chrome]]**.
 1. 열려 있는 창에서 권한을 검사합니다. 권한에 동의하는 경우 **[!UICONTROL 확장 추가]**.
 
-다음 [!DNL Workfront Fusion] DevTool 확장이 [!DNL Chrome] 확장.
+다음 [!DNL Workfront Fusion] Devtool 확장이 [!DNL Chrome] 확장.
 
 
-## 를 찾습니다. [!DNL Workfront Fusion] DevTool
+#### 를 찾습니다. [!DNL Workfront Fusion] Devtool
 
-을(를) 사용하려면 [!DNL Workfront Fusion] DevTool, [!DNL Workfront Fusion] 에 대한 DevTool 확장 [!DNL Chrome] 에 설명된 대로 브라우저 [Chrome DevTool 확장 설치](#install-the-chrome-devtool-extension).
+을(를) 사용하려면 [!DNL Workfront Fusion] Devtool, [!DNL Workfront Fusion] Devtool 확장을 [!DNL Chrome] 에 설명된 대로 브라우저 [Chrome Devtool 확장 설치](#install-the-chrome-Devtool-extension).
 
 1. 을(를) 엽니다 [!DNL Workfront Fusion] 시나리오.
 1. 열기 [!DNL Chrome Developer Tools]:
@@ -114,9 +125,9 @@ To use the [!DNL Workfront Fusion] DevTool, you first need to install it.
 
 1. 다음을 클릭합니다. **[!DNL Workfront Fusion]** 의 탭 [!DNL Chrome Dev Tools].
 
-## 사용 [!DNL Workfront Fusion] DevTool
+## 사용 [!DNL Workfront Fusion] Devtool
 
-Workfront Fusion DevTool은 3개의 기본 섹션으로 나뉩니다. DevTool 창의 왼쪽 패널에서 찾을 수 있습니다.
+Workfront Fusion Devtool은 3개의 기본 섹션으로 나뉩니다. Devtool 창의 왼쪽 패널에서 찾을 수 있습니다.
 
 * [라이브 스트림](#live-stream)
 * [시나리오 디버거](#scenario-debugger)
@@ -147,26 +158,26 @@ Workfront Fusion DevTool은 3개의 기본 섹션으로 나뉩니다. DevTool �
         <li> <p>요청 본문</p> </li> 
         <li> <p>응답 헤더</p> </li> 
         <li> <p>응답 본문</p> </li> 
-       </ul> <p>이 정보를 보려면 오른쪽 패널의 해당 탭을 클릭합니다. [!DNL Workfront Fusion] DevTool.</p> </td> 
+       </ul> <p>이 정보를 보려면 오른쪽 패널의 해당 탭을 클릭합니다. [!DNL Workfront Fusion] Devtool.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>요청 및 응답 검색</p> </td> 
-      <td> <p>검색어를 왼쪽 패널의 검색 필드에 입력합니다. [!DNL Workfront Fusion] 검색어가 포함된 요청만 표시하는 DevTool.</p> </td> 
+      <td> <p>검색어를 왼쪽 패널의 검색 필드에 입력합니다. [!DNL Workfront Fusion] 검색어가 포함된 요청만 표시하는 Devtool.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>요청 목록 제거 </p> </td> 
-      <td> <p>DevTool의 왼쪽 패널 오른쪽 위 모서리에 있는 휴지통 아이콘을 클릭하여 [!DNL Workfront Fusion] DevTool. </p> </td> 
+      <td> <p>Devtool의 왼쪽 패널 오른쪽 위 모서리에 있는 휴지통 아이콘을 클릭하여 [!DNL Workfront Fusion] Devtool. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>콘솔 로깅 활성화</p> </td> 
-      <td> <p>컴퓨터 아이콘 클릭 <img src="assets/console-computer-icon.png"> DevTool의 왼쪽 패널의 오른쪽 상단 모서리에서</p> <p>컴퓨터 아이콘이 녹색이면 콘솔에 로그인할 수 있습니다.</p> </td> 
+      <td> <p>컴퓨터 아이콘 클릭 <img src="assets/console-computer-icon.png"> 을 클릭합니다.</p> <p>컴퓨터 아이콘이 녹색이면 콘솔에 로그인할 수 있습니다.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>원시 JSON 형식 또는 cURL로 요청 검색</p> </td> 
       <td> 
        <ul> 
-        <li> <p><strong>원시 JSON</strong> </p> <p>클릭 <strong>[!UICONTROL Copy RAW]</strong> DevTool 오른쪽 창의 오른쪽 위 모서리에 있습니다.</p> </li> 
-        <li> <p><strong>cURL</strong> </p> <p>클릭 <strong>[!UICONTROL Copy cURL]</strong> DevTool 오른쪽 창의 오른쪽 위 모서리에 있습니다.</p> </li> 
+        <li> <p><strong>원시 JSON</strong> </p> <p>클릭 <strong>[!UICONTROL Copy RAW]</strong> Devtool 오른쪽 창의 오른쪽 위 모서리에서 참조할 수 있습니다.</p> </li> 
+        <li> <p><strong>cURL</strong> </p> <p>클릭 <strong>[!UICONTROL Copy cURL]</strong> Devtool 오른쪽 창의 오른쪽 위 모서리에서 참조할 수 있습니다.</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -177,13 +188,13 @@ Workfront Fusion DevTool은 3개의 기본 섹션으로 나뉩니다. DevTool �
 시나리오 디버거는 보다 복잡한 시나리오에 유용합니다. 시나리오 실행 기록이 표시되며, 이를 사용하여 모듈 이름이나 ID로 모듈을 검색할 수 있습니다.
 
 1. 다음을 클릭합니다. **[!UICONTROL 시나리오 디버거]** 아이콘 ![](assets/scenario-debugger-icon.png) 시나리오 디버거를 엽니다.
-1. (선택 사항) 왼쪽 창의 검색 필드에 검색어(이름 또는 모듈 ID)를 입력합니다 [!DNL Workfront Fusion] 의 DevTool [!UICONTROL 시나리오 디버거] 섹션.
+1. (선택 사항) 왼쪽 창의 검색 필드에 검색어(이름 또는 모듈 ID)를 입력합니다 [!DNL Workfront Fusion] 에서 Devtool [!UICONTROL 시나리오 디버거] 섹션.
 1. 모듈 이름을 두 번 클릭하여 시나리오 편집기에서 설정을 엽니다.
 1. 원하는 작업을 클릭하여 요청 세부 정보를 봅니다.
 
 ### 도구
 
-다음 [!DNL Workfront Fusion] DevTool은 시나리오를 보다 쉽게 설정할 수 있는 도구를 제공합니다.
+다음 [!DNL Workfront Fusion] Devtool은 시나리오를 보다 쉽게 설정할 수 있는 도구를 제공합니다.
 
 1. 다음을 클릭합니다. **[!UICONTROL 도구]** 아이콘 ![](assets/console-tools-icon.png) 도구를 엽니다.
 1. 사용할 도구를 선택합니다
@@ -264,7 +275,7 @@ Workfront Fusion DevTool은 3개의 기본 섹션으로 나뉩니다. DevTool �
    <td> <p> 모듈을 선택하거나 필드 값을 복사할 대상 모듈의 ID를 입력합니다.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Target 모듈]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Target Module]</p> </td> 
    <td> <p>모듈을 선택하거나 소스 모듈 값을 삽입할 모듈의 ID를 입력합니다.</p> <p>중요: 대상 모듈의 값을 덮어씁니다.</p> </td> 
   </tr> 
  </tbody> 
@@ -287,7 +298,7 @@ Workfront Fusion DevTool은 3개의 기본 섹션으로 나뉩니다. DevTool �
    <td> <p> 모듈을 선택하거나 필터 값을 복사할 원본 모듈의 ID를 입력합니다.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Target 모듈]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Target Module]</p> </td> 
    <td> <p>모듈을 선택하거나 소스 모듈의 필터 값을 삽입할 모듈의 ID를 입력합니다.</p> <p>중요: 대상 모듈의 값을 덮어씁니다.</p> </td> 
   </tr> 
   <tr> 
@@ -401,7 +412,7 @@ Workfront Fusion DevTool은 3개의 기본 섹션으로 나뉩니다. DevTool �
    <td> <p> 시나리오의 다른 모듈에 대한 매핑 소스로 바꿀 모듈을 선택합니다.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Target 모듈]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Target Module]</p> </td> 
    <td> <p>새 매핑 소스로 사용할 모듈을 선택합니다.</p> </td> 
   </tr> 
   <tr> 
