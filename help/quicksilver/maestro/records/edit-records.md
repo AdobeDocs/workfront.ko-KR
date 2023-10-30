@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: b781687b175167784367a2fdec158d97fb3fd6a4
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '657'
 ht-degree: 2%
 
 ---
@@ -151,4 +151,4 @@ Adobe 마에스트로에서 레코드 정보를 편집할 수 있습니다. 레�
 1. 레코드 행 내부를 클릭하여 인라인 레코드에 대한 정보 편집을 시작합니다.
 
    ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
-1. 누르기 **입력** 키보드에서 를 클릭하거나 행 외부를 클릭하여 변경 내용을 저장합니다. 변경 사항은 자동으로 저장됩니다.
+1. 누르기 **입력** 키보드에서 를 클릭하거나 행 외부를 클릭하여 변경 내용을 저장합니다. 변경 사항은 자동으로 저장됩니다. 변경 사항이 저장되었음을 나타내기 위해 테이블 보기의 오른쪽 위 모서리에 저장된 표시기가 잠시 표시됩니다.

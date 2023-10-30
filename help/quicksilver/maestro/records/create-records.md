@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: b781687b175167784367a2fdec158d97fb3fd6a4
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
@@ -110,6 +110,12 @@ Adobe 마에스트로에서 레코드는 레코드 유형의 인스턴스입니�
 1. 클릭 **새로 만들기 &lt; 레코드 유형 이름 >** 을 눌러 테이블에 새 행을 추가합니다.
 
    ![](assets/adding-a-new-campaign-in-table-row.png)
+
+   >[!TIP]
+   >
+   >    새 행에 새 레코드를 추가하려면 Ctrl+Enter를 입력합니다.
+
+   <!--ensure this is the shortcut for adding a new row AND that it is not different for Macs-->
 
 1. 새 레코드에 대한 정보를 새 행에 입력하십시오.
 
