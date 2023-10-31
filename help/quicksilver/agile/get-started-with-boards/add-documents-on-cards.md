@@ -6,9 +6,9 @@ description: Adobe Workfront 보드에서 연결된 카드에 문서를 추가�
 author: Lisa
 feature: Agile
 exl-id: d68c1eec-c527-44b0-bdc5-ca3b7731b648
-source-git-commit: ec753f4176208708de0a39679788d34f486f759b
+source-git-commit: d76b2931217d4124eac13356e9142e7bbe0873c4
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -59,3 +59,7 @@ Adobe Workfront 보드에서 연결된 카드에 문서를 추가할 수 있습�
 
 1. 카드에서 [!UICONTROL 문서] 영역입니다. 클릭 ![목록 아이콘](assets/docs-list-icon.png) 목록에 있는 모든 문서를 보려면 ![갤러리 아이콘](assets/docs-gallery-icon.png) 갤러리에서 문서를 봅니다.
 1. 문서 축소판 위로 마우스를 가져간 다음 [!UICONTROL **미리 보기**] 브라우저에서 파일을 보려면 [!UICONTROL **다운로드**] 를 클릭하여 파일을 컴퓨터에 다운로드합니다.
+
+   >[!NOTE]
+   >
+   >PDF은 썸네일 이미지를 표시하지 않습니다.
