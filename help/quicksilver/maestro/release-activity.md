@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
+source-git-commit: c39782606358fbb9983b23421588e392dd12ae8a
 workflow-type: tm+mt
-source-wordcount: '1743'
+source-wordcount: '1882'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,38 @@ ht-degree: 0%
 이 섹션에는 2023년 5월 22일 Maestro Closed Beta 프로그램 출시 후 출시된 기능 및 패치가 나열되어 있습니다.
 
 기능은 매주 릴리스되고 릴리스 순서대로 나열되며, 가장 최근의 기능이 먼저 나열됩니다. Maestro Closed Beta 프로그램에 참여하는 고객은 미리보기 및 프로덕션 환경의 모든 기능에 액세스할 수 있습니다.
+
+## 2023년 10월 30일 주
+
+### 레코드를 만들었거나 마지막으로 수정한 사람 또는 날짜를 캡처하는 사용자 및 날짜 필드의 새 필드 유형
+
+미리보기 및 프로덕션: 2023년 10월 30일
+
+Maestro 레코드에 대해 다음 필드 유형을 도입했습니다.
+
+* 제작자:
+
+* 제작 일자
+
+* 마지막 수정자
+
+* 마지막 수정일
+
+이러한 필드 유형에서 생성된 필드의 필드 값은 읽기 전용이며 레코드를 만들거나 마지막으로 수정한 사용자의 이름 또는 레코드를 만들거나 마지막으로 수정한 날짜를 캡처합니다.
+
+자세한 내용은 [필드 만들기](../maestro/architecture-and-fields/create-fields.md).
+
+### Maestro 레코드에서 Workfront 오브젝트 탐색
+
+미리보기 및 프로덕션: 2023년 10월 31일
+
+이제 Maestro의 다음 영역에서 Workfront 개체 페이지를 열 수 있습니다.
+
+* 읽기 전용으로 연결된 Workfront 개체 레코드 테이블 보기
+
+* 읽기 전용 Workfront 개체 레코드 세부 정보 페이지
+
+자세한 내용은 [레코드 연결](../maestro/records/connect-records.md).
 
 ## 2023년 10월 16일 주
 

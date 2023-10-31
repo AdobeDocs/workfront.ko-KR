@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: c39782606358fbb9983b23421588e392dd12ae8a
 workflow-type: tm+mt
-source-wordcount: '1819'
+source-wordcount: '1833'
 ht-degree: 0%
 
 ---
@@ -277,4 +277,4 @@ Maestro 레코드 유형과 Workfront 객체 유형 간에 연결을 만든 후 
    >
    >  Workfront 개체 레코드 유형 페이지에서 추가하거나 제거하는 필드는 Workfront 개체 유형에 연결되는 Maestro 레코드 유형에서 추가되거나 제거되지 않습니다. 필드는 읽기 전용 Workfront 레코드 유형 페이지에만 표시되므로 Maestro에서 검토할 수 있습니다.
 
-1. (선택 사항) Workfront 객체 레코드 유형 페이지의 보기 드롭다운 메뉴에서 타임라인 보기를 선택하여 타임라인 보기에 Workfront 연결된 객체를 표시합니다.
+1. (선택 사항 및 조건부) 두 개 이상의 날짜 필드를 Workfront 개체에 추가한 경우 **보기** Workfront 개체 레코드 유형 페이지의 드롭다운 메뉴에서 **타임라인** 보기. Workfront 연결 개체가 타임라인 보기에 표시됩니다.
