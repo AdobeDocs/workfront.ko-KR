@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 908a3136b2537310305f282b7a76d8f09cae3836
+source-git-commit: ec6a12f2ffbacabac6124ec3a7d85a3ba292e621
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '383'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,8 @@ Maestro에서 사용자 정의 필드를 만드는 방법에 대한 자세한 �
 
 ## Maestro 필드 삭제에 대한 고려 사항:
 
-* 생성한 필드나 다른 사용자가 생성한 필드를 삭제할 수 있습니다. <!--this will change with access levels/ permissions-->
+* 생성한 필드나 다른 사용자나 시스템에서 생성한 필드를 삭제할 수 있습니다. <!--this will change with access levels/ permissions-->
+* 레코드의 이름 필드는 삭제할 수 없습니다. <!--change this to say you can't delete the field selected to be the primary-->
 * 레코드 유형 테이블에서만 필드를 삭제할 수 있습니다.
 * 필드에 저장된 모든 정보는 삭제되며 복구할 수 없습니다.
 * 연결된 레코드 필드를 삭제하면 연결된 모든 조회 필드도 연결된 레코드 유형에서 삭제됩니다. 연결된 레코드 종류의 연결된 레코드 필드는 삭제되지 않습니다.

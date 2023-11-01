@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: ec6a12f2ffbacabac6124ec3a7d85a3ba292e621
 workflow-type: tm+mt
-source-wordcount: '1835'
+source-wordcount: '1845'
 ht-degree: 1%
 
 ---
@@ -223,6 +223,10 @@ Maestro를 위한 프레임워크는 완전히 맞춤화가 가능합니다. 조
    * 통화
    * 확인란
    * 사용자
+   * 제작자:
+   * 제작 일자
+   * 마지막 수정자
+   * 마지막 수정일
 
 * **연결된 레코드 유형**, **연결된 레코드**, 및 **연결된 레코드 필드**: 다음 엔티티 간에 연결을 만들 수 있습니다.
 

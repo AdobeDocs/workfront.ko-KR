@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 908a3136b2537310305f282b7a76d8f09cae3836
+source-git-commit: 1dcc267f04242782efea4a219410380ca5a01e1d
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 2%
+source-wordcount: '515'
+ht-degree: 1%
 
 ---
 
@@ -88,6 +88,7 @@ Adobe 마에스트로에서 더 이상 관련되지 않는 레코드를 삭제�
 * 삭제된 레코드가 다른 레코드와 연결된 경우 연결된 레코드는 삭제되지 않지만 삭제된 레코드의 정보도 삭제됩니다.
 * 레코드를 일괄적으로 삭제할 수 없습니다. <!--this will probably change-->
 * 타임라인 보기에서 레코드를 삭제할 수 없습니다.
+* 다른 애플리케이션에서 연결된 레코드 유형은 삭제할 수 없습니다. 예를 들어 Maestro 레코드를 Workfront 객체에 연결하는 경우 Workfront 객체 레코드 페이지에서 Workfront 객체를 삭제할 수 없습니다.
 
 ## 레코드 삭제
 

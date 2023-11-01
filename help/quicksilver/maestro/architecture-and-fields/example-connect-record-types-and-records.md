@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 1dcc267f04242782efea4a219410380ca5a01e1d
 workflow-type: tm+mt
-source-wordcount: '1758'
+source-wordcount: '1877'
 ht-degree: 0%
 
 ---
@@ -179,13 +179,32 @@ Workfront에서 특정 캠페인에 대한 프로젝트의 계획된 수익 필�
    * 캠페인에 연결하기 위해 선택한 프로젝트는 Workfront 프로젝트 레코드 유형 페이지에 별도의 레코드로 표시됩니다. 또한 프로젝트 레코드는 읽기 전용이며 프로젝트가 Workfront에서 업데이트될 때 해당 정보가 자동으로 업데이트됩니다. Workfront 프로젝트 레코드 유형에서 보려면 연결된 Maestro 레코드에서 더 많은 프로젝트를 추가해야 합니다.
    * 캠페인 링크 레코드 필드는 캠페인 레코드 유형 페이지에서 프로젝트에 연결된 캠페인의 이름으로 채워집니다.
 
-1. (선택 사항) **자세히** 아이콘 ![](assets/more-menu.png) Workfront 프로젝트 레코드 유형 이름의 오른쪽에 있는 **이름 바꾸기** 레코드 유형의 이름을 변경합니다.
+1. (선택 사항) Maestro에서 Workfront 프로젝트 세부 정보 페이지를 열려면 다음 중 하나를 수행하십시오.
 
-   >[!TIP]
-   >
-   >레코드 유형 헤더에서 이름을 클릭하여 레코드 유형 이름의 이름을 바꿀 수 있습니다.
+   * (으)로 연결한 레코드 종류&#x200B;**캠페인**) Workfront 프로젝트 연결 레코드 필드( )로 이동합니다.**프로젝트 정보**) Workfront 프로젝트의 이름을 클릭합니다.
+   * 다음에서 **표** 보기 **Workfront 프로젝트** 레코드 페이지에서 Workfront 프로젝트의 이름을 클릭합니다.
 
-1. 필드 추가 아이콘 클릭 ![](assets/add-fields-icon.png) Workfront 프로젝트 레코드 유형 테이블의 오른쪽 상단 모서리에서 더 많은 프로젝트 필드를 Workfront 프로젝트 마에스트로 레코드 유형에 추가합니다.
+     또는
+
+     다음을 클릭합니다. **자세히** 메뉴를 사용하여 Workfront 프로젝트 오른쪽에서 **보기**.
+
+     ![](assets/workfront-object-more-menu-in-table-with-go-to-source-link.png)
+
+   연결된 Workfront 프로젝트의 Maestro 세부 정보 페이지가 열립니다. 읽기 전용 페이지입니다.
+
+1. (선택 사항) 연결된 Workfront 프로젝트를 Workfront에서 열려면 다음 중 하나를 수행합니다.
+
+   * 다음에서 **표** 보기 **Workfront 프로젝트** 페이지에서 Workfront 프로젝트 이름을 클릭하고
+
+   또는
+
+   다음을 클릭합니다. **자세히** 메뉴를 사용하여 Workfront 프로젝트 이름 오른쪽에서 **소스로 이동**.
+
+   ![](assets/workfront-project-maestro-details-page-with-go-to-source-link.png)
+
+   Workfront 프로젝트 페이지가 열립니다. 권한이 있는 경우 Workfront 프로젝트에 대한 정보를 편집할 수 있습니다.
+
+1. 다음을 클릭합니다. **필드 추가** 아이콘 ![](assets/add-fields-icon.png) Workfront 프로젝트 레코드 유형 테이블의 오른쪽 상단 모서리에서 더 많은 프로젝트 필드를 Workfront 프로젝트 마에스트로 레코드 유형에 추가합니다.
 1. 다음을 클릭합니다. **+** ( Workfront Project Maestro 레코드에 추가할 프로젝트 필드의 아이콘) **선택하지 않은 필드** 섹션.
 1. 다음을 클릭합니다. **-** 의 Workfront Project Maestro 레코드에서 제거할 프로젝트 필드의 아이콘 **선택된 필드** 섹션.
 1. **저장**&#x200B;을 클릭합니다.

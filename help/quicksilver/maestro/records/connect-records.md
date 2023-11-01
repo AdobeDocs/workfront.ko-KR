@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: c39782606358fbb9983b23421588e392dd12ae8a
+source-git-commit: 1dcc267f04242782efea4a219410380ca5a01e1d
 workflow-type: tm+mt
-source-wordcount: '1833'
+source-wordcount: '1964'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Adobe Maestro 레코드를 서로 연결하거나 다른 응용 프로그램의 
 * Maestro 운영 레코드를 분류 레코드로 변환
 * 다른 응용 프로그램의 Maestro 운영 기록 및 객체
 
-  현재 지원되는 응용 프로그램 및 개체 유형은 다음과 같습니다.
+  다음 응용 프로그램에서 아래 나열된 형식의 개체에 Maestro 레코드를 연결할 수 있습니다.
 
    * Adobe Workfront
 
@@ -138,7 +138,7 @@ Adobe Maestro 레코드를 서로 연결하거나 다른 응용 프로그램의 
 * Maestro에 액세스할 수 있는 모든 사용자는 Maestro 레코드 간 또는 Maestro 레코드와 Workfront 오브젝트 간 연결을 볼 수 있습니다. 또한 다른 모든 사용자의 연결을 보고 편집할 수 있습니다. <!--add that this is based on your permissions in both Maestro and Workfront (or, later, any other application)-->
 * 하나의 Maestro 레코드를 다른 애플리케이션에서 하나 또는 여러 객체에 연결할 수 있습니다.
 * 분류법을 레코드 유형이나 다른 응용 프로그램의 개체에 연결할 수 없습니다. <!-- this is temporary; there will be certain objects (teams, etc) that will be linked to taxonomies, per Lilit-->
-* 현재 Maestro 레코드는 Workfront 객체에만 연결할 수 있습니다. Maestro 레코드를 Workfront 오브젝트와 연결하려면 다음이 필요합니다.
+* Maestro 레코드를 Workfront 오브젝트와 연결하려면 다음이 필요합니다.
 
    * Workfront 개체입니다. 예를 들어 먼저 Workfront에서 프로젝트, 포트폴리오, 프로그램, 회사 또는 그룹을 만들어야 합니다.
    * Maestro 작업 공간, 레코드 유형 및 레코드. 자세한 내용은 다음 문서를 참조하십시오.
@@ -151,16 +151,16 @@ Adobe Maestro 레코드를 서로 연결하거나 다른 응용 프로그램의 
 
 ### Connect Maestro 레코드
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-workfront.png) Workfront의 오른쪽 위 모서리에서 <!---or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> 그런 다음 을 클릭합니다. **마에스트로** ![](assets/maestro-icon.png).
+1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-workfront.png) Workfront의 오른쪽 위 모서리 또는 **메인 메뉴** 아이콘 ![](assets/main-menu-shell.png)  왼쪽 위 모서리에서 사용 가능한 경우 을(를) 클릭합니다. **마에스트로** ![](assets/maestro-icon.png).
 
    기본적으로 마지막으로 액세스한 작업 영역이 열립니다.
 
 1. (선택 사항) 기존 작업 영역 이름의 오른쪽에 있는 아래쪽 방향 화살표를 확장하고 레코드를 연결할 작업 영역을 선택합니다.
 1. 레코드 유형의 카드를 클릭하여 레코드 유형 페이지를 엽니다.
-1. 다음에서 테이블 뷰를 선택합니다. **보기** 레코드 유형 페이지의 오른쪽 위 모서리에 있는 드롭다운 메뉴.
+1. 선택 **표** 다음에서 보기 **보기** 레코드 유형 페이지의 오른쪽 위 모서리에 있는 드롭다운 메뉴.
 1. 선택한 레코드 유형에서 다른 레코드 또는 개체 유형에 연결을 추가합니다. 자세한 내용은 [레코드 유형 연결](../architecture-and-fields/connect-record-types.md).
 
-연결된 레코드 종류를 표시하는 새 열이 표에 추가됩니다.
+   연결된 레코드 종류를 표시하는 새 열이 표에 추가됩니다.
 
 1. 테이블에 새 행을 추가하여 선택한 레코드 유형에 레코드를 추가합니다. 자세한 내용은 [레코드 만들기](../../maestro/records/create-records.md).
 1. 표 보기에 나열된 레코드에서 연결된 레코드 열로 이동하여 다른 Maestro 레코드와 연결할 레코드에 해당하는 셀을 마우스로 가리킨 다음 **+** 아이콘.
@@ -201,7 +201,7 @@ Adobe Maestro 레코드를 서로 연결하거나 다른 응용 프로그램의 
 
 Maestro 레코드 유형과 Workfront 객체 유형 간에 연결을 만든 후 개별 Maestro 레코드를 Workfront의 객체에 연결할 수 있습니다. Workfront 객체의 필드를 Maestro 레코드 유형에 연결할 수도 있습니다.
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-workfront.png) Workfront의 오른쪽 위 모서리에서 <!---or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> 그런 다음 을 클릭합니다. **마에스트로** ![](assets/maestro-icon.png).
+1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-workfront.png) Workfront의 오른쪽 위 모서리 또는 **메인 메뉴** 아이콘 ![](assets/main-menu-shell.png)  왼쪽 위 모서리에서 사용 가능한 경우 을(를) 클릭합니다. **마에스트로** ![](assets/maestro-icon.png).
 
    기본적으로 마지막으로 액세스한 작업 영역이 열립니다.
 
@@ -265,11 +265,30 @@ Maestro 레코드 유형과 Workfront 객체 유형 간에 연결을 만든 후 
    >
    >    * 타임라인 보기에서 Workfront 개체 레코드 유형을 표시하려면 읽기 전용 Workfront 레코드 유형 페이지의 테이블 보기에 두 개 이상의 날짜 필드가 표시되어야 합니다.
 
-1. (선택 사항) **자세히** 메뉴 ![](assets/more-menu.png) 페이지 헤더의 Workfront 개체 레코드 유형 이름 옆에 있는 **이름 바꾸기** 레코드 이름을 편집합니다.
+1. (선택 사항) Maestro에서 Workfront 객체 레코드 세부 사항 페이지를 열려면 다음 중 하나를 수행하십시오.
 
-   >[!NOTE]
-   >
-   >    연결된 Workfront 레코드 종류 또는 개체는 Workfront 레코드 종류 페이지에서 삭제할 수 없습니다.
+   * 연결한 레코드 유형에서 Workfront 개체로 연결된 레코드 필드로 이동하여 Workfront 개체의 이름을 클릭합니다.
+   * 다음에서 **표** Workfront 레코드 유형 페이지에서 Workfront 개체의 이름을 클릭합니다
+
+     또는
+
+     다음을 클릭합니다. **자세히** 메뉴를 사용하여 Workfront 개체 이름 오른쪽에서 **보기**.
+
+     ![](assets/workfront-object-more-menu-in-table-with-go-to-source-link.png)
+
+   링크된 Workfront 객체의 Maestro 세부 정보 페이지가 열립니다. 읽기 전용 페이지입니다.
+
+1. (선택 사항) Workfront에서 연결된 Workfront 개체를 열려면 다음 중 하나를 수행하십시오.
+
+   * 다음에서 **표** Workfront 레코드 유형 페이지를 보고 Workfront 개체의 이름을 클릭합니다.
+
+   또는
+
+   다음을 클릭합니다. **자세히** 메뉴를 사용하여 Workfront 개체 이름 오른쪽에서 **소스로 이동**.
+
+   ![](assets/workfront-project-maestro-details-page-with-go-to-source-link.png)
+
+   Workfront 개체 페이지가 열립니다. 권한이 있는 경우 Workfront 개체에 대한 정보를 편집할 수 있습니다.
 
 1. (선택 사항) **필드 추가** 아이콘 ![](assets/add-fields-icon.png) Workfront 레코드 유형 페이지의 표 보기 오른쪽 상단 모서리에서 Workfront 레코드 유형에서 Workfront 필드를 추가하거나 제거합니다.
 
