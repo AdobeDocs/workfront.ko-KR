@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: 949907d7d4c37fa6541a021b458f84f1ebff2896
+source-git-commit: d777e42a91b18586da22be3aeb35be32e1439104
 workflow-type: tm+mt
-source-wordcount: '2412'
+source-wordcount: '2301'
 ht-degree: 3%
 
 ---
@@ -104,7 +104,7 @@ Add to tocs
 
 | 프로모션 가능 개체 | 포함된 프로모션 가능한 하위 오브젝트 |
 | --- | --- |
-| 그룹(그룹) | 그룹 <br>하위 그룹(최대 5개 수준)<br>범주<br>범주 매개변수<br>매개 변수<br>매개변수 그룹<br>매개변수 옵션<br>범주 표시 논리 |
+| 그룹(그룹) | 그룹 <br>하위 그룹(최대 5개 수준) *<br>범주<br>범주 매개변수<br>매개 변수<br>매개변수 그룹<br>매개변수 옵션<br>범주 표시 논리 |
 | 역할(역할) | 역할 |
 | 팀(팀) | 팀<br>그룹 |
 | 회사(CMPY) | 회사<br>오버라이드 비율<br>범주<br>범주 매개변수<br>매개 변수<br>매개변수 그룹<br>매개 변수 <br>범주 표시 논리<br>그룹 |
@@ -146,8 +146,6 @@ SessionID: abc1234
 * [패키지 만들기](#create-a-package)
 * [패키지 목록 가져오기](#get-a-list-of-packages)
 * [ID로 패키지 가져오기](#get-a-package-by-id)
-* [패키지의 구성 정의 가져오기](#get-a-packages-configuration-definition)
-* [패키지 세부 정보 및 정의 바꾸기](#replace-package-details-and-definition)
 * [패키지의 특정 속성 업데이트](#update-specific-properties-of-a-package)
 * [패키지 삭제](#delete-a-package)
 * [사전 실행](#execute-a-pre-run)
@@ -262,13 +260,14 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
         "id": "1d5693b9-b7b5-492d-8219-c21f34bcaca6",
         "name": "Agency Onboarding - 2023-06-06",
         "description": "This promotion package contains configuration to support the agency onboarding processes...",
+        "source": "https://{domain}.{environment}.workfront.com",
         "status": "ASSEMBLING",
         "version": 1,
-        "installationCounts": {},
         "createdAt": "2023-06-06T17:29:21.600Z",
         "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
         "publishedAt": null,
         "customerId": "61aa9d090005fa42152c1cb66659f38d"
+    }
 }
 ```
 
@@ -327,17 +326,15 @@ _비어 있음_
             "name": "Agency Onboarding - 2023-06-06",
             "description": "This promotion package contains configuration to support the agency onboarding processes...",
             "status": "ASSEMBLING",
-            "version": 1,
-            "installationCounts": {},
             "createdAt": "2023-06-06T17:29:21.600Z",
-            "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
-            "publishedAt": null,
-            "customerId": "61aa9d090005fa42152c1cb66659f38d"
-        },
+            "deletedAt": null
+},
         {...}
     ]
 }
 ```
+
+&lt;!—위의 &quot;상태&quot;를 확인하십시오. 추가되었습니까?—>
 
 ### ID로 패키지 가져오기
 
@@ -392,14 +389,13 @@ _비어 있음_
         "id": "1d5693b9-b7b5-492d-8219-c21f34bcaca6",
         "name": "Agency Onboarding - 2023-06-06",
         "description": "This promotion package contains configuration to support the agency onboarding processes...",
+        "source": "https://{domain}.{environment}.workfront.com",
         "status": "DRAFT",
         "version": 1,
-        "installationCounts": {},
         "createdAt": "2023-06-06T17:29:21.600Z",
-        "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
         "publishedAt": null,
         "customerId": "61aa9d090005fa42152c1cb66659f38d",
-        "displayEntities": {
+        "packageEntities": {
             "GROUP": [
                {
                    "id": "52aa9d0e0005fcee8f212835bdaa2691",
@@ -418,101 +414,24 @@ _비어 있음_
 }
 ```
 
-### 패키지의 구성 정의 가져오기
+### 패키지의 특정 속성 업데이트
 
 <table style="table-layout:auto"> 
  <col> 
  <tbody> 
   <tr> 
-   <td><code>GET /packages/{id}/definition</code></td> 
+   <td><code>PATCH /packages/{id}</code></td> 
   </tr> 
   </tbody> 
 </table>
 
-#### URL
-
-```
-GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages/{id}/definition
-```
-
-#### 헤더
-
-```json
-{
-    "apikey": "**********"
-}
-```
-
-또는
-
-```json
-{
-    "sessionID": "*****************"
-}
-```
-
-#### 본문
-
-_비어 있음_
-
-#### 응답
-
-```
-200
-```
-
-```json
-{
-    "packageEntities": {
-        "GROUP": [
-           {
-               "id": "52aa9d0e0005fcee8f212835bdaa2691",
-               "name": "Default Group",
-               "businessLeaderID": "...",
-               "categoryID": "...",
-               "defaultInterface": 1,
-               "description": "...",
-               "extRefID": null,
-               "isActive": true,
-               "isGroupPublic": true,
-               "isPublic": true,
-               "parentID": null,
-               "rootID": null,
-               "rootName": null,
-               "uiTemplateID": null
-           }
-        ],
-        "ROLE": [
-           {...}
-        ],
-        ...
-    }
-}
-```
-
-### 패키지 세부 정보 및 정의 바꾸기
-
-<table style="table-layout:auto"> 
- <col> 
- <tbody> 
-  <tr> 
-   <td><code>PUT /packages/{id}</code></td> 
-  </tr> 
-  </tbody> 
-</table>
-
-이 호출은 프로모션 패키지의 모든 콘텐츠를 대체합니다.
-
-요청에서는 편집 가능한 모든 필드가 제공될 것으로 예상합니다.
+이 호출은 PATCH 본문에 제공되는 프로모션 패키지의 콘텐츠를 업데이트합니다.
 
 편집 가능한 속성은 다음과 같습니다.
 
 1. 이름(문자열)
 1. 설명(문자열)
-1. 소스(URL 유효성 검사가 있는 문자열)
 1. 상태(값 유효성 검사가 포함된 문자열)
-1. 버전(정수)
-1. packageEntities(콜렉션)
 
 상태 옵션에는 다음이 포함됩니다.
 
@@ -547,136 +466,6 @@ _비어 있음_
   </tbody> 
 </table>
 
-#### URL
-
-```
-PUT https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages/{id}
-```
-
-#### 헤더
-
-```json
-{
-    "apikey": "**********",
-    "Content-Type": "application/json"
-}
-```
-
-```json
-{
-    "sessionID": "*****************", 
-    "Content-Type": "application/json"
-}
-```
-
-#### 본문
-
-```json
-{
-    "name": "Agency Onboarding - 2023-06-06",
-    "description": "This promotion package contains configuration to support the agency onboarding processes... with a description change",
-    "source": "https://{domain}.{environment}.workfront.com",
-    "status": "TESTING",
-    "version": 1,
-    "metadata": {
-        "displayOrder": ["GROUP","ROLE","TMPL","PROJ","PTLTAB"],
-        "historyOrder": ["GROUP","ROLE","TMPL","TTSK","PROJ","PTLTAB"], 
-        "installOrder": ["GROUP","ROLE","TMPL","TTSK","TPRED","TASSGN","PROJ","QUED","RRUL","QUET","UIFT","UIGB","UIVW","PTLTAB"], 
-        "summaryOrder": ["GROUP","ROLE","TMPL"], 
-        "shapeVersion": 2
-    },
-    "packageEntities": {
-        "GROUP": [
-           {
-               "id": "52aa9d0e0005fcee8f212835bdaa2691",
-               "name": "Default Group",
-               "businessLeaderID": "...",
-               "categoryID": "...",
-               "defaultInterface": 1,
-               "description": "...",
-               "extRefID": null,
-               "isActive": true,
-               "isGroupPublic": true,
-               "isPublic": true,
-               "parentID": null,
-               "rootID": null,
-               "rootName": null,
-               "uiTemplateID": null
-           }
-        ],
-        "ROLE": [
-           {...}
-        ],
-        ...
-    }
-}
-```
-
-#### 응답
-
-```
-200
-```
-
-```json
-{
-    "data": {
-        "id": "1d5693b9-b7b5-492d-8219-c21f34bcaca6",
-        "name": "Agency Onboarding - 2023-06-06",
-        "description": "This promotion package contains configuration to support the agency onboarding processes...",
-        "status": "TESTING",
-        "version": 1,
-        "installationCounts": {},
-        "createdAt": "2023-06-06T17:29:21.600Z",
-        "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
-        "publishedAt": null,
-        "customerId": "61aa9d090005fa42152c1cb66659f38d",
-        "displayEntities": {
-            "GROUP": [
-               {
-                   "id": "52aa9d0e0005fcee8f212835bdaa2691",
-                   "name": "Default Group",
-                   "description": "..."
-               }
-            ],
-            "ROLE": [
-               {...}
-            ],
-            ...
-        }
-   }
-}
-```
-
-### 패키지의 특정 속성 업데이트
-
-<table style="table-layout:auto"> 
- <col> 
- <tbody> 
-  <tr> 
-   <td><code>PATCH /packages/{id}</code></td> 
-  </tr> 
-  </tbody> 
-</table>
-
-이 호출은 PATCH 본문에 제공되는 프로모션 패키지의 콘텐츠를 업데이트합니다.
-
-편집 가능한 속성은 다음과 같습니다.
-
-1. 이름(문자열)
-1. 설명(문자열)
-1. 소스(URL 유효성 검사가 있는 문자열)
-1. 상태(값 유효성 검사가 포함된 문자열)
-1. 버전(정수)
-1. packageEntities(콜렉션)
-
-   또는
-
-   objectCollections(배열)
-
-제공 `packageEntities` 제공된 구성 정의로 프로모션 패키지가 업데이트됩니다.
-
-제공 `objectCollections` 에서 다시 추출을 시작합니다. `source` 프로모션 패키지와 연계된 환경. 다음 `source` 다음과 같은 경우 필드를 제공해야 합니다. `objectCollections` 이(가) 제공됩니다.
 
 #### URL
 
@@ -723,14 +512,13 @@ PATCH https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/
         "id": "1d5693b9-b7b5-492d-8219-c21f34bcaca6",
         "name": "Agency Onboarding - 2023-06-06",
         "description": "This promotion package contains configuration to support the agency onboarding processes...",
+        "source": "https://{domain}.{environment}.workfront.com",
         "status": "ACTIVE",
         "version": 1,
-        "installationCounts": {},
         "createdAt": "2023-06-06T17:29:21.600Z",
-        "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
         "publishedAt": "2023-06-06T19:39:01.600Z",
         "customerId": "61aa9d090005fa42152c1cb66659f38d",
-        "displayEntities": {
+        "packageEntities": {
             "GROUP": [
                {
                    "id": "52aa9d0e0005fcee8f212835bdaa2691",
@@ -1027,7 +815,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/i
 #### 응답
 
 ```
-200
+202
 ```
 
 
@@ -1089,7 +877,7 @@ _비어 있음_
         "environmentPromotionPackageVersion": 1,
         "userId": "8fbbc5bcf4f94a5b862483ee05573e73",
         "customerId": "54286d78b064451096752b99bf968481",
-        "status": "COMPLETED",
+        "status": "INSTALLED",
         "environment": "https://{domain}.{environment}.workfront.com",
         "registeredAt": "2021-03-16T02:21:31.908Z",
         "updatedAt": null,
@@ -1185,7 +973,7 @@ _비어 있음_
     "environmentPromotionPackageVersion": 1,
     "userId": "8fbbc5bcf4f94a5b862483ee05573e73",
     "customerId": "54286d78b064451096752b99bf968481",
-    "status": "COMPLETED",
+    "status": "INSTALLED",
     "environment": "https://{domain}.{environment}.workfront.com",
     "registeredAt": "2021-03-16T02:21:31.908Z",
     "updatedAt": null,
