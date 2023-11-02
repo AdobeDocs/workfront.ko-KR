@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: c39782606358fbb9983b23421588e392dd12ae8a
+source-git-commit: 0699740f8ef0932316843d9aec0008ccdeb319f5
 workflow-type: tm+mt
-source-wordcount: '1882'
+source-wordcount: '1971'
 ht-degree: 0%
 
 ---
@@ -67,6 +67,22 @@ Maestro 레코드에 대해 다음 필드 유형을 도입했습니다.
 * 읽기 전용 Workfront 개체 레코드 세부 정보 페이지
 
 자세한 내용은 [레코드 연결](../maestro/records/connect-records.md).
+
+### 표 보기에서 탐색 기능이 개선됨
+
+미리보기 및 프로덕션: 2023년 11월 2일
+
+레코드 유형 페이지의 표 보기에서 탐색을 개선했습니다.
+
+다음은 몇 가지 개선 사항입니다.
+
+* 키보드의 tab 키를 사용하여 표의 열과 행을 탐색합니다
+
+* 열 위치에서 새 레코드를 추가합니다. 이 개선 이전에는 첫 번째 열에서만 레코드를 추가할 수 있었습니다.
+
+* Shift 키와 Enter 키 조합을 사용하여 표에 새 레코드(또는 행)를 추가합니다.
+
+자세한 내용은 [레코드 만들기](../maestro/records/connect-records.md).
 
 ## 2023년 10월 16일 주
 
