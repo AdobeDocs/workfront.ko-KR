@@ -4,9 +4,9 @@ description: 2023년 4분기 릴리스 개요
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: b179a4681ab08773ceaa4a6cd81c764acda1dcf1
+source-git-commit: 73e6a62e4c4103d0a4dc7e3f58ddd68cbd145b8c
 workflow-type: tm+mt
-source-wordcount: '2679'
+source-wordcount: '2695'
 ht-degree: 0%
 
 ---
@@ -304,7 +304,7 @@ These enhancements will be included in the following releases:
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">프로젝트, 작업 및 문제 위젯에 대한 작업 위임 버튼</a> </p><p>[!BADGE In production ]{type=Informative}</p>
-                        <p>이전 홈 페이지에서 일반적으로 요청하는 기능인 이제 부재 중 작업을 쉽게 위임할 수 있도록 내 작업, 내 작업 및 내 문제 위젯에 위임 단추를 추가했습니다.</p>
+                        <p>이전 홈 페이지에서 일반적으로 요청하는 기능인 이제 부재 중 작업을 쉽게 위임할 수 있도록 내 작업, 내 작업 및 내 문제 위젯에 위임 단추를 추가했습니다. 단추가 나타나도록 하려면 Workfront 환경에서 작업 위임을 활성화해야 합니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
