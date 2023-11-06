@@ -9,7 +9,7 @@ description: 다음에서 [!DNL Adobe Workfront Fusion] 시나리오에서는 �
 author: Becky
 feature: Workfront Fusion
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 51db439995430dad86e41190520824743216df69
 workflow-type: tm+mt
 source-wordcount: '2646'
 ht-degree: 0%
@@ -188,7 +188,7 @@ ht-degree: 0%
 <tbody>
   <tr>
     <td role="rowheader">[!UICONTROL Connection]</td>
-    <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Target], 참조 <a href="#Create" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Target]</a> 이 문서에서.</td>
+    <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Target], 참조 <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Target]</a> 이 문서에서.</td>
   </tr>
   <tr>
     <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">[!UICONTROL 레코드 유형]</td>
@@ -197,19 +197,19 @@ ht-degree: 0%
       <ul>
         <li>
           <p>[!UICONTROL AB Activity]</p>
-          <p>계속 <a href="#AB%C2%A0Activ" class="MCXref xref" >AB 활동 필드</a>.</p>
+          <p>계속 <a href="#ab-activity-fields" class="MCXref xref" >AB 활동 필드</a>.</p>
         </li>
         <li>
           <p>[!UICONTROL XT 활동]</p>
-          <p>계속 <a href="#XT" class="MCXref xref" >XT 활동 필드</a>.</p>
+          <p>계속 <a href="#xt-activity-fields" class="MCXref xref" >XT 활동 필드</a>.</p>
         </li>
         <li>
           <p>[!UICONTROL 오퍼]</p>
-          <p>계속 <a href="#Offer" class="MCXref xref" >오퍼 필드</a>.</p>
+          <p>계속 <a href="#offer-fields" class="MCXref xref" >오퍼 필드</a>.</p>
         </li>
         <li>
           <p>[!UICONTROL 대상]</p>
-          <p>계속 <a href="#Audience" class="MCXref xref" >대상 필드</a>.</p>
+          <p>계속 <a href="#audience-fields" class="MCXref xref" >대상 필드</a>.</p>
         </li>
       </ul>
     </td>
@@ -607,12 +607,12 @@ ht-degree: 0%
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Target 규칙]</td>
+      <td role="rowheader">[!UICONTROL 대상 규칙]</td>
       <td>
         <p>토글을 활성화하여 규칙을 AND로 만듭니다. 즉, 모든 규칙이 적용되어야 합니다.</p>
         <p>대상에 적용할 각 규칙에 대해 <b>[!UICONTROL 항목 추가]</b> 적용할 규칙의 JSON을 입력합니다. </p>
         <div class="example"><span class="autonumber"><span><b>예: </b></span></span>
-          <p>예:</p>
+          <p>예시:</p>
           <p ><code>&lbrace;</code></p>
                     <p ><code>                "page": "url",</code>
                     </p>
@@ -657,7 +657,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Target], 참조 <a href="#Create" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Target]</a> 이 문서에서.</td>
+      <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Target], 참조 <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Target]</a> 이 문서에서.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL [!DNL Target] 기본 URL]</td>
@@ -710,7 +710,7 @@ ht-degree: 0%
 <tbody>
   <tr>
     <td role="rowheader">[!UICONTROL Connection]</td>
-    <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Target], 참조 <a href="#Create" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Target]</a> 이 문서에서.</td>
+    <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Target], 참조 <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Target]</a> 이 문서에서.</td>
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL 레코드 유형]</td>
@@ -733,7 +733,7 @@ ht-degree: 0%
 <tbody>
   <tr>
     <td role="rowheader">[!UICONTROL Connection]</td>
-    <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Target], 참조 <a href="#Create" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Target]</a> 이 문서에서.</td>
+    <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Target], 참조 <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Target]</a> 이 문서에서.</td>
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL 레코드 유형]</td>
@@ -756,7 +756,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Target], 참조 <a href="#Create" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Target]</a> 이 문서에서.</td>
+      <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Target], 참조 <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Target]</a> 이 문서에서.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 레코드 유형]</td>
@@ -766,12 +766,12 @@ ht-degree: 0%
           <li>
             <p><b>[!UICONTROL AB Activity]</b>
             </p>
-            <p>에서 필드 설명 보기 <a href="#AB%C2%A0Activ" class="MCXref xref" >AB 활동 필드</a> 아래에 <a href="#Create2" class="MCXref xref" >레코드 만들기</a>.</p>
+            <p>에서 필드 설명 보기 <a href="#ab-activity-fields" class="MCXref xref" >AB 활동 필드</a> 아래에 <a href="#create-a-record" class="MCXref xref" >레코드 만들기</a>.</p>
           </li>
           <li>
             <p><b>[!UICONTROL XT 활동]</b>
             </p>
-            <p>에서 필드 설명 보기 <a href="#XT" class="MCXref xref" >XT 활동 필드</a> 아래에 <a href="#Create2" class="MCXref xref" >레코드 만들기</a>.</p>
+            <p>에서 필드 설명 보기 <a href="#xt-activity-fields" class="MCXref xref" >XT 활동 필드</a> 아래에 <a href="#create-a-record" class="MCXref xref" >레코드 만들기</a>.</p>
           </li>
           <li>
             <p><b>[!UICONTROL Other Activity]</b>
@@ -781,12 +781,12 @@ ht-degree: 0%
           <li>
             <p><b>[!UICONTROL 오퍼]</b>
             </p>
-            <p>에서 필드 설명 보기 <a href="#Offer" class="MCXref xref" >오퍼 필드</a> 아래에 <a href="#Create2" class="MCXref xref" >레코드 만들기</a>.</p>
+            <p>에서 필드 설명 보기 <a href="#offer-fields" class="MCXref xref" >오퍼 필드</a> 아래에 <a href="#create-a-record" class="MCXref xref" >레코드 만들기</a>.</p>
           </li>
           <li>
             <p><b>[!DNL Audience]</b>
             </p>
-            <p>에서 필드 설명 보기 <a href="#Audience" class="MCXref xref" >대상 필드</a> 아래에 <a href="#Create2" class="MCXref xref" >레코드 만들기</a>.</p>
+            <p>에서 필드 설명 보기 <a href="#audience-fields" class="MCXref xref" >대상 필드</a> 아래에 <a href="#create-a-record" class="MCXref xref" >레코드 만들기</a>.</p>
           </li>
         </ul>
       </td>
@@ -815,7 +815,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Target], 참조 <a href="#Create" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Target]</a> 이 문서에서.</td>
+      <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Target], 참조 <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Target]</a> 이 문서에서.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 레코드 유형]</td>
@@ -852,7 +852,7 @@ ht-degree: 0%
 <tbody>
   <tr>
     <td role="rowheader">[!UICONTROL Connection]</td>
-    <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Target], 참조 <a href="#Create" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Target]</a> 이 문서에서.</td>
+    <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Target], 참조 <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Target]</a> 이 문서에서.</td>
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL 레코드 유형]</td>
