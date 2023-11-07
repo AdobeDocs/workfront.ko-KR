@@ -5,8 +5,9 @@ title: Adobe Workfront API를 사용하여 고급 증명 옵션 추가
 description: Adobe Workfront API를 사용하여 고급 증명 옵션 추가
 author: Becky
 feature: Workfront API, Workfront Proof
+role: Developer
 exl-id: 5fcdf07e-d077-4d6a-bc3f-973983877c7c
-source-git-commit: e2a334ad16fc16b49d8e8b8186fa89fc0e09d998
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 0%
@@ -38,21 +39,21 @@ ProofHQ API에 대한 개요는 다음을 참조하십시오. [PoofHQ 개요](..
 >* ProofHQ API에서 생성된 증명은 Workfront에 자동으로 연결되지 않습니다. 따라서 ProofHQ API로 업데이트하기 전에 Workfront API에서 증명을 생성하는 것이 좋습니다.
 >
 
-
 ### 고급 증명 옵션을 사용하여 증명 만들기
 
 1. 를 사용하여 증명 만들기 `Document createProof` Workfront API의 작업.
 
    >[!NOTE]
+   >
    증명을 만들 때 다음을 설정합니다. `{}` 을 위한 값으로 `advancedProofingOptions` 매개 변수.
 
 1. 증명이 생성된 후 ProofHQ API를 사용하여 고급 옵션을 추가합니다.
 
-### 예
+### 예시
 
 이 섹션에서는 ProofHQ API를 사용하여 업데이트할 수 있는 몇 가지 샘플 업데이트를 보여줍니다.
 
-**예:**
+**예시:**
 
 * [증명을 다운로드하고, 메시지를 남기고, 공개적으로 공유할 수 있습니다](#proof-can-be-downloaded-has-a-message-and-is-shared-publicly)
 * [단계가 비공개가 아니고 필수가 아니며 하나의 승인만 필요하도록 업데이트합니다](#update-a-stage-so-that-it-is-not-private-not-mandatory-and-requires-only-one-approval)
@@ -151,7 +152,9 @@ ProofHQ API에 대한 개요는 다음을 참조하십시오. [PoofHQ 개요](..
 다음을 사용하여 Workfront API를 통해 증명을 만들 수 있습니다. `Document createProof` 작업. 이 작업은 `advancedProofingOptions` 매개 변수, 값 유형이 인 `string`. 고급 증명 옵션을 포함하려면 `createProof` 매크로 함수에서 옵션을 입력해야 합니다. `advancedProofingOptions` json 형식의 매개 변수.
 
 >[!NOTE]
+>
 advancedProofingOptions JSON에 포함할 필드를 예측하기 어려울 수 있습니다. Workfront에서 고급 증명을 사용하는 동안 조직의 네트워크 데이터를 검사하고 조직에서 일반적으로 사용하는 필드 및 값을 기준으로 JSON을 작성할 수 있습니다.
+>
 이러한 필드는 예측하기 어려울 수 있으므로 Workfront API를 사용하여 증명을 만든 다음 ProofHQ API를 사용하여 업데이트하는 것이 좋습니다. 자세한 내용은 [Workfront 및 ProofHQ API를 사용하여 증명 만들기(권장)](#create-a-proof-using-the-workfront-and-proofhq-apis-recommended) 이 문서에서
 
 ### 예

@@ -5,11 +5,12 @@ title: API 버전 6의 새로운 기능
 description: API 버전 6의 새로운 기능
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: e671a881-b8c2-4234-a3a0-76b1fbfafd32
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 42%
+source-wordcount: '495'
+ht-degree: 38%
 
 ---
 
@@ -24,7 +25,7 @@ ht-degree: 42%
 | ID | 고객 |   |   |   |   | 추가 |
 | customerID | 프로젝트 |   |   |   |   | 수 |
 | projectID | resourceManager |   |   |   |   | 삭제 |
-| resourceManagerID | 템플릿 |   |   |   |   | Get |
+| 리소스 관리자 ID | 템플릿 |   |   |   |   | Get |
 | templateID |   |   |   |   |   | 보고서  |
 |   |   |   |   |   |   | 검색  |
 
@@ -38,12 +39,12 @@ ht-degree: 42%
 | objCode |   |   |   |   |   |   |
 
 
-### 사용자 지정 레이블
+### 사용자 정의 레이블
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| ID |   |   |   | checkDelete | customLabels | 추가 |
-|   |   |   |   | inUseByOtherLayoutTemplate | userCustomLabels | 수 |
+| ID |   |   |   | checkDelete | 사용자 정의 레이블 | 추가 |
+|   |   |   |   | inUseByOtherLayoutTemplate | 사용자 정의 레이블 | 수 |
 |   |   |   |   | removeCustomLabel |   | 삭제 |
 |   |   |   |   |   |   | Get |
 |   |   |   |   |   |   | 보고서 |
@@ -52,7 +53,7 @@ ht-degree: 42%
 
 ## 업데이트된 개체
 
-기존 객체에 대한 변경 사항: 추가 항목을 간단히 나열하거나, 제거 시 취소가 있고, 기존 변경 사항에 대한 표 뒤에 메모가 첨부되어 있습니다.
+기존 객체에 대한 변경 사항: 추가는 간단히 나열되고, 제거는 취소선이 있으며, 기존 객체에 대한 변경 사항은 테이블 뒤에 메모가 첨부되어 있습니다
 
 ### 업데이트
 
@@ -60,14 +61,14 @@ ht-degree: 42%
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| updateType¹ |   |   |   |   | `sinceDate` |   |
-|   |   |   |   |   | objectUpdatesByCommentID² |   |
+| updateType<sup>1</sup> |   |   |   |   | `sinceDate` |   |
+|   |   |   |   |   | objectUpdatesByCommentID<sup>2</sup> |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ 가능한 값 변경
+<sup>1</sup> 가능한 값 변경
 
-² hasFilters 속성이 true로 변경됨
+<sup>2</sup> hasFilters 속성이 true로 변경됨
 
  
 
@@ -75,17 +76,17 @@ ht-degree: 42%
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| completedHours |   | resourceManager | resourceManagerIDs |   |   |   |
-| constraintDate¹ |   |   |   |   |   |   |
-| isOriginalPlanningHoursSet |   |   |   |   |   |   |
+| completedHours |   | resourceManager | resourceManagerID |   |   |   |
+| constraintDate<sup>1</sup> |   |   |   |   |   |   |
+| isOriginalPlannedHoursSet |   |   |   |   |   |   |
 | syncBurndownDate |   |   |   |   |   |   |
-| workRequired² |   |   |   |   |   |   |
+| 작업 필요<sup>2</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ 날짜 유효성 검사 추가
+<sup>1</sup> 날짜 유효성 검사 추가됨
 
-² NOT_FILTERABLE 플래그가 추가되었습니다.
+<sup>2</sup> NOT_FILTERABLE 플래그가 추가됨
 
  
 
@@ -93,9 +94,9 @@ ht-degree: 42%
 
 |   | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|---|
-|  |  | `attachedApprovalPaths` |   |   |   |   |   |
+|   |  | `attachedApprovalPaths` |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -105,34 +106,34 @@ ht-degree: 42%
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| approvalType¹ |   |   |   |   |   |   |
+| approvalType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ 가능한 값 변경
+<sup>1</sup> 가능한 값 변경
 
  
 
-### 승인 경로¹
+### 승인 경로<sup>1</sup>
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
 | approvedStatus |   |   |   |   |   | 추가 |
 | approvedStatusLabel |   |   |   |   |   | 수 |
-| 개의 주석 |   |   |   |   |   | 삭제 |
-| enteredByID |   |   |   |   |   | 편집 |
+| 댓글 |   |   |   |   |   | 삭제 |
+| 입력자 ID |   |   |   |   |   | 편집 |
 | entryDate |   |   |   |   |   | Get |
-| globalPathID |   |   |   |   |   | 보고서 |
+| 글로벌 경로 ID |   |   |   |   |   | 보고서 |
 | isPrivate |   |   |   |   |   | 검색 |
-| lastUpdateDate |   |   |   |   |   |   |
-| lastUpdateByID |   |   |   |   |   |   |
-| 이름² |   |   |   |   |   |   |
+| 마지막 업데이트 날짜 |   |   |   |   |   |   |
+| lastUpdateById |   |   |   |   |   |   |
+| 이름<sup>2</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Reporttable로 변경됨
+<sup>1</sup> 보고 가능으로 변경됨
 
-² 최대 길이 유효성 검사기를 추가했습니다.
+<sup>2</sup> 최대 길이 유효성 검사기가 추가되었습니다.
 
  
 
@@ -140,14 +141,14 @@ ht-degree: 42%
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| constraintDate¹ |   |   |   | getMyWorkCountFiltered |   |   |
-| workRequired² |   |   |   | workItemStatusLabels  |   |   |
+| constraintDate<sup>1</sup> |   |   |   | getMyWorkCountFiltered |   |   |
+| 작업 필요<sup>2</sup> |   |   |   | 작업 항목 상태 레이블  |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ 추가된 날짜 유효성 검사
+<sup>1</sup> 날짜 유효성 검사 추가됨
 
-² Not_Filterable 플래그가 추가됨
+<sup>2</sup> Not_Filterable 플래그가 추가됨
 
  
 
@@ -155,11 +156,11 @@ ht-degree: 42%
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-|   |   |   |   | assignUserToRoleOnProjects |   |   |
-|   |   |   |   | swapUsersOnProjects |   |   |
-|   |   |   |   | unassignUserFromProjects |   |   |
+|   |   |   |   | assignUserToRoleOnprojects |   |   |
+|   |   |   |   | swapUserOnProjects |   |   |
+|   |   |   |   | 프로젝트에서 사용자 할당 해제 |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -167,11 +168,11 @@ ht-degree: 42%
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| workRequired¹ |   |   |   |   |   |   |
+| 작업 필요<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Not_Filterable 플래그가 추가됨
+<sup>1</sup> Not_Filterable 플래그가 추가됨
 
  
 
@@ -179,11 +180,11 @@ ht-degree: 42%
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| workRequired¹ |   |   |   |   |   |   |
+| 작업 필요<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Not_Filterable 플래그가 추가됨
+<sup>1</sup> Not_Filterable 플래그가 추가됨
 
  
 
@@ -191,11 +192,11 @@ ht-degree: 42%
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| billingDate¹ |   |   |   |   |   |   |
+| billingDate<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ NO_TIME 필드 플래그가 추가되었습니다.
+<sup>1</sup> no_TIME 필드 플래그가 추가되었습니다.
 
 ### 번다운 이벤트 
 
@@ -204,7 +205,7 @@ ht-degree: 42%
 | eventInitiator |   |   |   |   |   | `ADD` |
 |   |   |   |   |   |   | `DELETE` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -213,9 +214,9 @@ ht-degree: 42%
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
 |   |   |   |   | getCascadingRules |   |   |
-|   |   |   |   | reorderCategories |   |   |
+|   |   |   |   | 카테고리 재정렬 |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -223,11 +224,11 @@ ht-degree: 42%
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-|   |   |   |   | getGroupDefaultProjectStatus | opTaskGroupStatus |   |
+|   |   |   |   | getGroupDefaultProjectStatus | 작업 그룹 상태 |   |
 |   |   |   |   | isPossibleToUnlockStatus | projectGroupStatus |   |
-|   |   |   |   |   | taskGroupStatus |   |
+|   |   |   |   |   | 작업 그룹 상태 |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -238,7 +239,7 @@ ht-degree: 42%
 | `checkedOutByID` | `checkedOutBy`  |   |  isDir |   |   |   |
 | `isDir`  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -246,11 +247,11 @@ ht-degree: 42%
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| rate¹ |   |   |   |   |   |   |
+| 비율<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ 8용 PRECISION 유효성 검사기를 9로 변경했습니다.
+<sup>1</sup> PRECISION 검사기를 8에서 9로 변경했습니다.
 
  
 
@@ -260,7 +261,7 @@ ht-degree: 42%
 |---|---|---|---|---|---|---|
 | syncBurndownDate |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -268,61 +269,61 @@ ht-degree: 42%
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| changeType¹ |   |   |   |   |   |   |
+| changeType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ 가능한 값 변경
+<sup>1</sup> 가능한 값 변경
 
  
 
-### Optask(문제)¹ 
+### Optask(문제)<sup>1</sup> 
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| workRequired² |   |   |   |   |   |   |
+| 작업 필요<sup>2</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ 복원 가능 플래그가 지정됨
+<sup>1</sup> 복원 가능으로 플래그 지정됨
 
-² Not_Filterable 플래그가 추가됨
+<sup>2</sup> Not_Filterable 플래그가 추가됨
 
  
 
-### 프로젝트¹ 
+### 프로젝트<sup>1</sup> 
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
 | completedHours |   | `openOpTasks` |  openOpTasks |   |   |   |
-| isOriginalPlanningHoursSet |   | resourceManager | resourceManagerIDs  |   |   |   |
+| isOriginalPlannedHoursSet |   | resourceManager | resourceManagerID  |   |   |   |
 | originalWorkRequired |   |   | `work` |   |   |   |
 | syncBurndownDate |   |   |   |   |   |   |
 | 작업 |   |   |   |   |   |   |
-| workRequired |   |   |   |   |   |   |
+| 작업 필요 |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ 복원 가능 및 자원 관리 가능
+<sup>1</sup> 복원 가능 및 RESOURCE_MANAGABLE로 플래그가 지정됨
 
-² Not_Filterable 플래그가 추가됨
+<sup>2</sup> Not_Filterable 플래그가 추가됨
 
  
 
-### 작업¹
+### 작업<sup>1</sup>
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| constraintDate² |   |   |   |   |   |   |
-| workRequired³ |   |   |   |   |   |   |
+| constraintDate<sup>2</sup> |   |   |   |   |   |   |
+| 작업 필요<sup>3</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ 복원 가능 플래그가 지정됨
+<sup>1</sup> 복원 가능으로 플래그 지정됨
 
-² AT_DATE_YEAR_BEFORE 유효성 검사기가 추가되었습니다.
+<sup>2</sup> AT_DATE_YEAR_BEFORE 유효성 검사기 추가됨
 
-³ Not_Filterable 플래그가 추가됨
+<sup>3</sup> Not_Filterable 플래그가 추가됨
 
  
 
@@ -333,31 +334,31 @@ ht-degree: 42%
 | `myWorkViewID` |  `myWorkView` |   |   |   |   |   |
 | `requestsViewID`  | `myRequestsView`  |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
-### 템플릿¹ 
+### 템플릿<sup>1</sup> 
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-|   |   | resourceManager | resourceManagerIDs |   |   |   |
+|   |   | resourceManager | resourceManagerID |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ 복원 가능 및 자원 관리 가능
+<sup>1</sup> 복원 가능 및 RESOURCE_MANAGABLE로 플래그가 지정됨
 
-### 템플릿 작업¹ 
+### 템플릿 작업<sup>1</sup> 
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| workRequired² |   |   |   |   |   |   |
+| 작업 필요<sup>2</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ 복원 가능 플래그가 지정됨
+<sup>1</sup> 복원 가능으로 플래그 지정됨
 
-² Not_Filterable 플래그가 추가됨
+<sup>2</sup> Not_Filterable 플래그가 추가됨
 
  
 
@@ -365,25 +366,25 @@ ht-degree: 42%
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| myInfo¹ |   |   |   |   |   |   |
+| myInfo<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ MAX_LENGTH 위반자
+<sup>1</sup> MAX_LENGTH 위반
 
  
 
-### 사용자 참고
+### 사용자 메모
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| eventType¹ |   |   |   |   | myNotifications² |   |
+| eventType<sup>1</sup> |   |   |   |   | 내 알림<sup>2</sup> |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ 가능한 값이 변경됨
+<sup>1</sup> 가능한 값이 변경됨
 
-²에 필터가 `[true]`
+<sup>2</sup> 이(가) 다음으로 필터 변경됨: `[true]`
 
  
 

@@ -2,11 +2,12 @@
 content-type: api
 navigation-topic: api-navigation-topic
 title: API 버전 12의 새로운 기능
-description: Workfront은 2020년 11월 12일에 API 버전 12를 릴리스했습니다. API 버전 12는 버전 11에서 다음과 같은 변경 사항을 제공합니다
+description: Workfront은 2020년 11월 12일에 API 버전 12를 출시했습니다. API 버전 12에는 버전 11의 다음 변경 사항이 포함되어 있습니다
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 1ffba3b5-ab24-4ca2-a1ef-f7e5b77e776c
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '2516'
 ht-degree: 2%
@@ -15,20 +16,20 @@ ht-degree: 2%
 
 # API 버전 12의 새로운 기능
 
-Workfront은 2020년 11월 12일에 API 버전 12를 릴리스했습니다. API 버전 12는 버전 11에서 다음과 같은 변경 사항을 제공합니다
+Workfront은 2020년 11월 12일에 API 버전 12를 출시했습니다. API 버전 12에는 버전 11의 다음 변경 사항이 포함되어 있습니다
 
 ## 추가된 리소스
 
-Workfront API 버전 12의 새로운 리소스는 다음과 같습니다.
+다음 리소스는 Workfront API 버전 12의 새로운 리소스입니다.
 
-* [BreadCrumb](#breadcrumb)
-* [RichTextParameterValue](#richtextparametervalue)
+* [빵 부스러기](#breadcrumb)
+* [리치 텍스트 매개 변수 값](#richtextparametervalue)
 
-### BreadCrumb {#breadcrumb}
+### 빵 부스러기 {#breadcrumb}
 
-BreadCrumb 개체는 Adobe Workfront 작업 항목의 부모/자식 계층에 있는 요소를 나타냅니다. 탐색 표시는 작업 항목이 Portfolio, 프로젝트, 프로젝트 및 작업의 더 큰 구조에 어떻게 적합한지 나타냅니다.
+BreadCrumb 개체는 Adobe Workfront 작업 항목의 상위/하위 계층에 있는 요소를 나타냅니다. 이동 경로는 작업 항목이 더 큰 구조의 Portfolio, 프로젝트, 프로젝트 및 작업에 어떻게 적합한지 나타냅니다.
 
-Workfront의 탐색 표시에 대한 자세한 내용은 [새 Adobe Workfront 경험의 탐색 표시 개요](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
+Workfront의 이동 경로에 대한 자세한 내용은 [새로운 Adobe Workfront 경험의 탐색 표시 개요](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
 
 <table style="table-layout:auto"> <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -46,9 +47,9 @@ Workfront의 탐색 표시에 대한 자세한 내용은 [새 Adobe Workfront �
  </tbody> 
 </table>
 
-### RichTextParameterValue {#richtextparametervalue}
+### 리치 텍스트 매개 변수 값 {#richtextparametervalue}
 
-이제 더 많은 개체에서 리치 텍스트 필드를 사용할 수 있습니다. 이 가용성을 지원하기 위해 RichTextParameterValue 개체가 Workfront에 추가되었습니다.
+이제 더 많은 오브젝트에서 서식 있는 텍스트 필드를 사용할 수 있습니다. 이 가용성을 지원하기 위해 RichTextParameterValue 개체가 Workfront에 추가되었습니다.
 
 자세한 내용은 [Adobe Workfront API의 리치 텍스트 필드](../../wf-api/general/rich-text-field-api.md).
 
@@ -66,7 +67,7 @@ Workfront의 탐색 표시에 대한 자세한 내용은 [새 Adobe Workfront �
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>핵심 필드</td> 
+   <td>코어 필드</td> 
    <td> 
     <ul> 
      <li style="font-weight: bold;">ID</li> 
@@ -93,7 +94,7 @@ Workfront API 버전 12에 대해 다음 리소스가 수정되었습니다.
    <td role="rowheader"> 
     <ul> 
      <li> <p><a href="#accesslevel" class="MCXref xref">AccessLevel</a> </p> </li> 
-     <li> <p><a href="#accesslevelpermissions" class="MCXref xref">AccessLevelPermissions</a> </p> </li> 
+     <li> <p><a href="#accesslevelpermissions" class="MCXref xref">액세스 수준 권한</a> </p> </li> 
      <li> <p><a href="#accessrequest" class="MCXref xref">AccessRequest</a> </p> </li> 
      <li> <p><a href="#accessrule" class="MCXref xref">AccessRule</a> </p> </li> 
      <li> <p><a href="#activitylog" class="MCXref xref">ActivityLog</a> </p> </li> 
@@ -105,7 +106,7 @@ Workfront API 버전 12에 대해 다음 리소스가 수정되었습니다.
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p><a href="#customerpreferences" class="MCXref xref">고객 기본 설정</a> </p> </li> 
+     <li> <p><a href="#customerpreferences" class="MCXref xref">고객 환경 설정</a> </p> </li> 
      <li> <p><a href="#document" class="MCXref xref">문서</a> </p> </li> 
      <li> <p><a href="#documentversion" class="MCXref xref">DocumentVersion</a> </p> </li> 
      <li> <p><a href="#group" class="MCXref xref">그룹 </a> </p> </li> 
@@ -119,7 +120,7 @@ Workfront API 버전 12에 대해 다음 리소스가 수정되었습니다.
     <ul> 
      <li> <p><a href="#queuedef" class="MCXref xref">QueueDef</a> </p> </li> 
      <li> <p><a href="#scheduledreport" class="MCXref xref">예약된 보고서</a> </p> </li> 
-     <li> <p><a href="#scorecardquestion" class="MCXref xref">ScoreCardQuestion</a> </p> </li> 
+     <li> <p><a href="#scorecardquestion" class="MCXref xref">스코어카드 질문</a> </p> </li> 
      <li> <p><a href="#task" class="MCXref xref">작업</a> </p> </li> 
      <li> <p><a href="#team" class="MCXref xref">팀</a> </p> </li> 
      <li> <p><a href="#templatetask" class="MCXref xref">TemplateTask</a> </p> </li> 
@@ -135,7 +136,7 @@ Workfront API 버전 12에 대해 다음 리소스가 수정되었습니다.
 
 ### AccessLevel {#accesslevel}
 
-AccessLevel 개체는 사용자와 연결되며 사용자가 액세스할 수 있는 항목을 결정하는 AccessLevelPermissions 집합을 설명합니다.
+AccessLevel 개체는 사용자와 연결되어 있으며 사용자가 액세스할 수 있는 항목을 결정하는 AccessLevelPermissions 집합에 대해 설명합니다.
 
 액세스 수준에 대한 자세한 내용은 [액세스 수준 작동 방식](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
 
@@ -160,9 +161,9 @@ AccessLevel 개체는 사용자와 연결되며 사용자가 액세스할 수 �
  </tbody> 
 </table>
 
-### AccessLevelPermissions {#accesslevelpermissions}
+### 액세스 수준 권한 {#accesslevelpermissions}
 
-AccessLevelPermissions 개체는 Workfront 개체에 액세스, 만들기 또는 수정하기 위한 특정 권한을 나타냅니다. 그런 다음 액세스 수준과 연결할 수 있습니다.
+AccessLevelPermissions 개체는 Workfront 개체에 액세스, 만들기 또는 수정할 수 있는 특정 권한을 나타냅니다. 그런 다음 이러한 권한을 액세스 수준과 연결할 수 있습니다.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -174,21 +175,21 @@ AccessLevelPermissions 개체는 Workfront 개체에 액세스, 만들기 또는
     <ul> 
      <li> <p><strong>coreAction</strong> </p> <p>다음 possibleValues가 추가되었습니다.</p> 
       <ul> 
-       <li> <p>PLANNING_HOURS_CONTOLING </p> <p>이 권한을 포함하는 액세스 수준을 가진 사용자는 작업 로드 밸런서에서 계획 시간을 업데이트할 수 있습니다.</p> <p>자세한 내용은 <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">사용자 할당을 관리할 때 작업 계획 시간 업데이트</a> in <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">작업 로드 밸런서에서 사용자 할당 관리</a>.</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS. </p> <p>이 권한을 포함하는 액세스 수준을 가진 사용자는 사용자 지정 양식에 필드를 추가할 수 있습니다.</p> <p>자세한 내용은 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">사용자 지정 양식 만들기 또는 편집</a>.</p> </li> 
-       <li> <p>EDIT_SYSTEMWIDE </p> <p>이 권한을 포함하는 액세스 수준을 가진 사용자는 사용자 정의 필드 시스템 전체를 삭제 액세스와 공유할 수 있습니다.</p> <p>자세한 내용은 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">사용자 지정 필드 및 위젯에 대한 공유 구성</a>.</p> </li> 
+       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>이 권한을 포함하는 액세스 수준이 있는 사용자는 업무 균형자에서 계획된 시간을 업데이트할 수 있습니다.</p> <p>자세한 내용은 <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">사용자 할당 관리 시 작업 계획 시간 업데이트</a> 위치: <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">업무 균형자에서 사용자 할당 관리</a>.</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>이 권한을 포함하는 액세스 수준이 있는 사용자는 사용자 정의 양식에 필드를 추가할 수 있습니다.</p> <p>자세한 내용은 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> 위치: <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">사용자 정의 양식 만들기 또는 편집</a>.</p> </li> 
+       <li> <p>시스템 전체 편집 </p> <p>이 권한을 포함하는 액세스 수준이 있는 사용자는 삭제 액세스로 시스템 전체에 사용자 정의 필드를 공유할 수 있습니다.</p> <p>자세한 내용은 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">사용자 정의 필드 및 위젯에 대한 공유 구성</a>.</p> </li> 
       </ul> </li> 
      <li> <p><strong>forbiddenActions</strong> </p> <p>다음 possibleValues가 추가되었습니다.</p> 
       <ul> 
-       <li> <p>PLANNING_HOURS_CONTOLING </p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS. </p> </li> 
-       <li> <p>EDIT_SYSTEMWIDE </p> </li> 
+       <li> <p>PLANNED_HOURS_CONTOURING </p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> </li> 
+       <li> <p>시스템 전체 편집 </p> </li> 
       </ul> </li> 
      <li> <p><strong>secondaryActions</strong> </p> <p>다음 possibleValues가 추가되었습니다.</p> 
       <ul> 
-       <li> <p>PLANNING_HOURS_CONTOLING </p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS. </p> </li> 
-       <li> <p>EDIT_SYSTEMWIDE </p> </li> 
+       <li> <p>PLANNED_HOURS_CONTOURING </p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> </li> 
+       <li> <p>시스템 전체 편집 </p> </li> 
       </ul> </li> 
     </ul> <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">OR</p>
@@ -233,7 +234,7 @@ AccessLevelPermissions 개체는 Workfront 개체에 액세스, 만들기 또는
 
 ### AccessRequest {#accessrequest}
 
-사용자에게 필요한 Workfront의 객체에 대한 액세스 권한이 없는 경우 해당 객체에 대한 액세스를 요청할 수 있습니다. AccessRequest 개체는 이 요청을 나타냅니다.
+사용자에게 Workfront의 필요한 오브젝트에 대한 액세스 권한이 없는 경우 해당 오브젝트에 대한 액세스를 요청할 수 있습니다. AccessRequest 개체는 이 요청을 나타냅니다.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -245,9 +246,9 @@ AccessLevelPermissions 개체는 Workfront 개체에 액세스, 만들기 또는
     <ul> 
      <li> <p style="font-weight: bold;">작업</p> <p>다음 possibleValues가 추가되었습니다.</p> 
       <ul> 
-       <li> <p>PLANNING_HOURS_CONTOLING </p> <p>이 권한을 포함하는 액세스 수준을 가진 사용자는 작업 로드 밸런서에서 계획 시간을 업데이트할 수 있습니다.</p> <p>자세한 내용은 <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">사용자 할당을 관리할 때 작업 계획 시간 업데이트</a> in <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">작업 로드 밸런서에서 사용자 할당 관리</a>.</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS. </p> <p>이 권한을 포함하는 액세스 수준을 가진 사용자는 사용자 지정 양식에 필드를 추가할 수 있습니다.</p> <p>자세한 내용은 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">사용자 지정 양식 만들기 또는 편집</a>.</p> </li> 
-       <li> <p>EDIT_SYSTEMWIDE </p> <p>이 권한을 포함하는 액세스 수준을 가진 사용자는 사용자 정의 필드 시스템 전체를 삭제 액세스와 공유할 수 있습니다.</p> <p>자세한 내용은 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">사용자 지정 필드 및 위젯에 대한 공유 구성</a>.</p> </li> 
+       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>이 권한을 포함하는 액세스 수준이 있는 사용자는 업무 균형자에서 계획된 시간을 업데이트할 수 있습니다.</p> <p>자세한 내용은 <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">사용자 할당 관리 시 작업 계획 시간 업데이트</a> 위치: <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">업무 균형자에서 사용자 할당 관리</a>.</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>이 권한을 포함하는 액세스 수준이 있는 사용자는 사용자 정의 양식에 필드를 추가할 수 있습니다.</p> <p>자세한 내용은 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> 위치: <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">사용자 정의 양식 만들기 또는 편집</a>.</p> </li> 
+       <li> <p>시스템 전체 편집 </p> <p>이 권한을 포함하는 액세스 수준이 있는 사용자는 삭제 액세스로 시스템 전체에 사용자 정의 필드를 공유할 수 있습니다.</p> <p>자세한 내용은 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">사용자 정의 필드 및 위젯에 대한 공유 구성</a>.</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
@@ -256,7 +257,7 @@ AccessLevelPermissions 개체는 Workfront 개체에 액세스, 만들기 또는
 
 ### AccessRule {#accessrule}
 
-AccessRule 개체는 사용자가 만드는 프로젝트를 공유할 수 있는 방법을 결정하는 사용자 지정 액세스 수준의 규칙 세트를 나타냅니다.
+AccessRule 개체는 사용자가 만드는 프로젝트를 공유할 수 있는 방법을 결정하는 사용자 지정 액세스 수준에 설정된 규칙을 나타냅니다.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -268,21 +269,21 @@ AccessRule 개체는 사용자가 만드는 프로젝트를 공유할 수 있는
     <ul> 
      <li><strong>coreAction</strong> <p>다음 possibleValues가 추가되었습니다.</p> 
       <ul> 
-       <li> <p>PLANNING_HOURS_CONTOLING </p> <p>이 권한을 포함하는 액세스 수준을 가진 사용자는 작업 로드 밸런서에서 계획 시간을 업데이트할 수 있습니다.</p> <p>자세한 내용은 <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">사용자 할당을 관리할 때 작업 계획 시간 업데이트</a> in <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">작업 로드 밸런서에서 사용자 할당 관리</a>.</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS. </p> <p>이 권한을 포함하는 액세스 수준을 가진 사용자는 사용자 지정 양식에 필드를 추가할 수 있습니다.</p> <p>자세한 내용은 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">사용자 지정 양식 만들기 또는 편집</a>.</p> </li> 
-       <li> <p>EDIT_SYSTEMWIDE </p> <p>이 권한을 포함하는 액세스 수준을 가진 사용자는 사용자 정의 필드 시스템 전체를 삭제 액세스와 공유할 수 있습니다.</p> <p>자세한 내용은 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">사용자 지정 필드 및 위젯에 대한 공유 구성</a>.</p> </li> 
+       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>이 권한을 포함하는 액세스 수준이 있는 사용자는 업무 균형자에서 계획된 시간을 업데이트할 수 있습니다.</p> <p>자세한 내용은 <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">사용자 할당 관리 시 작업 계획 시간 업데이트</a> 위치: <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">업무 균형자에서 사용자 할당 관리</a>.</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>이 권한을 포함하는 액세스 수준이 있는 사용자는 사용자 정의 양식에 필드를 추가할 수 있습니다.</p> <p>자세한 내용은 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> 위치: <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">사용자 정의 양식 만들기 또는 편집</a>.</p> </li> 
+       <li> <p>시스템 전체 편집 </p> <p>이 권한을 포함하는 액세스 수준이 있는 사용자는 삭제 액세스로 시스템 전체에 사용자 정의 필드를 공유할 수 있습니다.</p> <p>자세한 내용은 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">사용자 정의 필드 및 위젯에 대한 공유 구성</a>.</p> </li> 
       </ul> </li> 
      <li> <p><strong>forbiddenActions</strong> </p> <p>다음 possibleValues가 추가되었습니다.</p> 
       <ul> 
-       <li> <p>PLANNING_HOURS_CONTOLING </p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS. </p> </li> 
-       <li> <p>EDIT_SYSTEMWIDE </p> </li> 
+       <li> <p>PLANNED_HOURS_CONTOURING </p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> </li> 
+       <li> <p>시스템 전체 편집 </p> </li> 
       </ul> </li> 
      <li> <p><strong>secondaryActions</strong> </p> <p>다음 possibleValues가 추가되었습니다.</p> 
       <ul> 
-       <li> <p>PLANNING_HOURS_CONTOLING </p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS. </p> </li> 
-       <li> <p>EDIT_SYSTEMWIDE </p> </li> 
+       <li> <p>PLANNED_HOURS_CONTOURING </p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> </li> 
+       <li> <p>시스템 전체 편집 </p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
@@ -291,7 +292,7 @@ AccessRule 개체는 사용자가 만드는 프로젝트를 공유할 수 있는
 
 ### ActivityLog {#activitylog}
 
-ActivityLog 개체는 지정된 Workfront 증명 계정에서 발생한 모든 활동의 전체 목록입니다.
+ActivityLog 개체는 주어진 Workfront 증명 계정에서 발생한 모든 활동의 전체 목록입니다.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -299,7 +300,7 @@ ActivityLog 개체는 지정된 Workfront 증명 계정에서 발생한 모든 �
  <tbody> 
   <tr> 
    <td> <p>작업</p> </td> 
-   <td> <p>ActivityLog 개체에서 다음 작업이 제거되었습니다.</p> 
+   <td> <p>다음 작업이 ActivityLog 개체에서 제거되었습니다.</p> 
     <ul> 
      <li> <p><strong>추가</strong> </p> </li> 
     </ul> </td> 
@@ -309,9 +310,9 @@ ActivityLog 개체는 지정된 Workfront 증명 계정에서 발생한 모든 �
 
 ### 공지 첨부 파일 {#announcementattachment}
 
-AnnouncementAttachment 개체는 Workfront 공지에 첨부된 파일을 나타냅니다.
+AnnouncementAttachment 객체는 Workfront 공지에 첨부된 파일을 나타냅니다.
 
-발표 첨부 파일에 대한 자세한 내용은 [공지 보내기](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md)
+공지 첨부에 대한 자세한 내용은 [공지 보내기](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md)
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -321,11 +322,11 @@ AnnouncementAttachment 개체는 Workfront 공지에 첨부된 파일을 나타�
    <td> <p>직접 필드</p> </td> 
    <td> 
     <ul> 
-     <li> <p><strong>fileExtension</strong> </p> <p>가능한 값을 추가했습니다.</p> 
+     <li> <p><strong>파일 확장명</strong> </p> <p>가능한 값이 추가되었습니다.</p> 
       <ul> 
-       <li> <p>qdoc(enum.fileextension.qdoc)</p> </li> 
-       <li> <p>qslides(enum.fileextension.qslids)</p> </li> 
-       <li> <p>qsheet(enum.fileextension.qsheet)</p> </li> 
+       <li> <p>qdoc (enum.fileextension.qdoc)</p> </li> 
+       <li> <p>qslides(enum.fileextension.qslides)</p> </li> 
+       <li> <p>qsheet (enum.fileextension.qsheet)</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
@@ -334,7 +335,7 @@ AnnouncementAttachment 개체는 Workfront 공지에 첨부된 파일을 나타�
 
 ### 승인 {#approval}
 
-작업, 문서 또는 작업표와 같은 특정 작업 항목에서는 감독자나 다른 사용자가 작업 항목에 대해 로그오프해야 할 수 있습니다. Approval 객체는 작업 항목에 대해 로그오프하는 작업을 나타냅니다.
+작업, 문서 또는 타임시트와 같은 특정 작업 항목에서는 감독자 또는 다른 사용자가 해당 작업 항목을 승인해야 할 수 있습니다. 승인 오브젝트는 작업 항목에 대한 사인오프 작업을 나타냅니다.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -344,24 +345,24 @@ AnnouncementAttachment 개체는 Workfront 공지에 첨부된 파일을 나타�
    <td>직접 필드</td> 
    <td> 
     <ul> 
-     <li> <p><strong>backlogOrder</strong> </p> <p>다음 플래그를 제거했습니다.</p> 
+     <li> <p><strong>backlogOrder</strong> </p> <p>다음 플래그가 제거되었습니다.</p> 
       <ul> 
        <li> <p>동적,</p> </li> 
-       <li> <p>LAZY_READ,</p> </li> 
+       <li> <p>레이지 읽기,</p> </li> 
        <li> <p>NOT_GROUPABLE</p> </li> 
       </ul> </li> 
      <li> <p><strong>groupID</strong> </p> <p>다음 플래그가 추가되었습니다</p> 
       <ul> 
-       <li> <p>AUTO_LOAD,</p> </li> 
+       <li> <p>자동 로드,</p> </li> 
        <li> <p>동적,</p> </li> 
        <li> <p>READ_ONLY</p> </li> 
       </ul> </li> 
-     <li> <p><strong>workFuture</strong> </p> <p>이 필드가 추가되었으며 작업을 완료하는 데 사용자에게 작은 작업, 중간 작업 또는 많은 양의 노력이 필요하는지 여부를 나타냅니다. 가능한 값은 다음과 같습니다.</p> 
+     <li> <p><strong>작업 노력</strong> </p> <p>이 필드가 추가되었으며, 사용자가 작업을 완료하는 데 일일 작업량이 작은지, 중간인지 또는 큰지 여부를 나타냅니다. 가능한 값:</p> 
       <ul> 
-       <li> <p>1 (작음)</p> </li> 
+       <li> <p>1(작음)</p> </li> 
        <li> <p>2(중간)</p> </li> 
-       <li> <p>3(큰)</p> </li> 
-      </ul> <p>Workfront의 작업 수행에 대한 자세한 내용은 <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">작업 시간 개요</a>.</p> </li> 
+       <li> <p>3(큼)</p> </li> 
+      </ul> <p>Workfront의 작업 노력에 대한 자세한 내용은 <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">작업 노력 개요</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -369,7 +370,7 @@ AnnouncementAttachment 개체는 Workfront 공지에 첨부된 파일을 나타�
 
 ### CalendarSection {#calendarsection}
 
-달력 섹션은 달력 보고서입니다.
+캘린더 섹션은 캘린더 보고서입니다.
 
 달력 보고서에 대한 자세한 내용은 [달력 보고서 개요](../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
@@ -379,7 +380,7 @@ AnnouncementAttachment 개체는 Workfront 공지에 첨부된 파일을 나타�
  <tbody> 
   <tr> 
    <td>직접 필드</td> 
-   <td> <p style="font-weight: normal;">달력 보고서에서 사용자 지정 날짜를 사용하는 새 기능을 지원하기 위해 다음 필드가 CalendarSection 개체에 추가되었습니다. </p> <p style="font-weight: normal;">자세한 내용은 <a href="../../reports-and-dashboards/reports/calendars/use-custom-dates.md" class="MCXref xref">달력 보고서에서 사용자 지정 날짜 필드 사용</a>.</p> 
+   <td> <p style="font-weight: normal;">달력 보고서에서 사용자 지정 날짜를 사용하는 새로운 기능을 지원하기 위해 다음 필드가 CalendarSection 개체에 추가되었습니다. </p> <p style="font-weight: normal;">자세한 내용은 <a href="../../reports-and-dashboards/reports/calendars/use-custom-dates.md" class="MCXref xref">달력 보고서에서 사용자 정의 날짜 필드 사용</a>.</p> 
     <ul> 
      <li> <p style="font-weight: normal;">customDate</p> </li> 
      <li> <p style="font-weight: normal;">customEndDateParameterID</p> </li> 
@@ -392,7 +393,7 @@ AnnouncementAttachment 개체는 Workfront 공지에 첨부된 파일을 나타�
 
 ### 회사 {#company}
 
-회사 객체는 사람 컬렉션으로 구성된 조직을 나타냅니다.
+Company 객체는 사람들의 컬렉션으로 구성된 조직을 나타냅니다.
 
 회사에 대한 자세한 내용은 [회사 만들기 및 편집](../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
@@ -404,14 +405,14 @@ AnnouncementAttachment 개체는 Workfront 공지에 첨부된 파일을 나타�
    <td>직접 필드</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>groupID</p> <p style="font-weight: normal;">회사가 연결된 그룹의 ID입니다.</p> </li> 
+     <li style="font-weight: bold;"> <p>groupID</p> <p style="font-weight: normal;">회사가 연계된 그룹의 ID.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>참조 필드</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>그룹</p> <p style="font-weight: normal;">회사가 연관된 그룹입니다. 회사를 그룹에 연결하면 그룹 관리자가 그룹 액세스 및 권한을 회사에 확장할 수 있습니다.</p> </li> 
+     <li style="font-weight: bold;"> <p>그룹</p> <p style="font-weight: normal;">회사가 연계된 그룹. 회사를 그룹과 연결하면 그룹 관리자는 회사에 대한 그룹 액세스 및 권한을 확장할 수 있습니다.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -419,7 +420,7 @@ AnnouncementAttachment 개체는 Workfront 공지에 첨부된 파일을 나타�
 
 ### 고객 {#customer}
 
-고객 개체는 Workfront 인스턴스를 사용하는 조직을 나타냅니다.
+Customer 개체는 Workfront 인스턴스를 사용하는 조직을 나타냅니다.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -429,15 +430,15 @@ AnnouncementAttachment 개체는 Workfront 공지에 첨부된 파일을 나타�
    <td>액션</td> 
    <td> 
     <ul> 
-     <li> <p style="font-weight: normal;"><strong>productEnabled</strong> </p> <p style="font-weight: normal;">이 작업은 CustomerProductTypeEnum 인수를 사용하고 해당 고객에게 해당 제품에 대한 계정이 있는지 여부를 나타내는 부울을 반환합니다. </p> </li> 
+     <li> <p style="font-weight: normal;"><strong>제품 활성화됨</strong> </p> <p style="font-weight: normal;">이 작업은 CustomerProductTypeEnum 인수를 취하고 해당 고객에 해당 제품에 대한 계정이 있는지 여부를 나타내는 부울을 반환합니다. </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### 고객 기본 설정 {#customerpreferences}
+### 고객 환경 설정 {#customerpreferences}
 
-CustomerPreferences 개체는 고객이 Workfront 인스턴스에 대해 설정한 환경 설정 집합을 나타냅니다.
+CustomerPreferences 객체는 고객이 Workfront 인스턴스에 대해 설정한 환경 설정 집합을 나타냅니다.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -447,10 +448,10 @@ CustomerPreferences 개체는 고객이 Workfront 인스턴스에 대해 설정�
    <td>직접 필드</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>이름</p> <p style="font-weight: normal;">가능한 값을 추가했습니다.</p> 
+     <li style="font-weight: bold;"> <p>이름</p> <p style="font-weight: normal;">가능한 값이 추가되었습니다.</p> 
       <ul> 
-       <li style="font-weight: normal;">password:zoomIntegrationEnabled(업데이트 스트림에서 확대/축소 통합 사용)</li> 
-       <li style="font-weight: normal;"> password:quipIntegrationEnabled(config.general.quip.enabled)  </li> 
+       <li style="font-weight: normal;">password:zoomIntegrationEnabled (업데이트 스트림에서 확대/축소 통합 활성화)</li> 
+       <li style="font-weight: normal;"> password:quipIntegrationEnabled (config.general.quip.enabled)  </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
@@ -459,7 +460,7 @@ CustomerPreferences 개체는 고객이 Workfront 인스턴스에 대해 설정�
 
 ### 문서 {#document}
 
-Document 객체는 문서 자료, 이미지 또는 기타 정보 유형과 같은 파일을 나타냅니다.
+Document 객체는 파일(예: 작성된 자료, 이미지 또는 기타 정보 형식)을 나타냅니다.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -477,9 +478,9 @@ Document 객체는 문서 자료, 이미지 또는 기타 정보 유형과 같�
 
 ### DocumentVersion {#documentversion}
 
-DocumentVersion 개체는 파일(예: 문서 자료, 이미지 또는 기타 정보 형식)의 특정 버전을 나타냅니다.
+DocumentVersion 개체는 작성된 자료, 이미지 또는 다른 형태의 정보 등 파일의 특정 버전을 나타냅니다.
 
-문서 버전에 대한 자세한 내용은 [문서의 새 버전 업로드](../../documents/managing-documents/upload-new-document-version.md).
+문서 버전에 대한 자세한 내용은 [새 문서 버전 업로드](../../documents/managing-documents/upload-new-document-version.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -489,24 +490,24 @@ DocumentVersion 개체는 파일(예: 문서 자료, 이미지 또는 기타 정
    <td>직접 필드</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>externalIntegrationType</p> <p style="font-weight: normal;">가능한 값이 제거됨:</p> 
+     <li style="font-weight: bold;"> <p>externalIntegrationType</p> <p style="font-weight: normal;">제거된 가능한 값:</p> 
       <ul> 
        <li style="font-weight: normal;">QUIP(Quip)</li> 
       </ul> </li> 
     </ul> 
     <ul> 
-     <li> <p style="font-weight: normal;"><strong>proofDecision</strong> </p> <p>추가됨</p> </li> 
+     <li> <p style="font-weight: normal;"><strong>증명 결정</strong> </p> <p>추가됨</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>액션</td> 
-   <td> <p>다음 작업이 Document 객체에 추가되었습니다.</p> 
+   <td> <p>Document 객체에 다음과 같은 작업이 추가되었습니다.</p> 
     <ul> 
-     <li> <p style="font-weight: bold;">getDocumentReviewerDecision</p> <p style="font-weight: normal;">이 작업은 documentVersionID 인수(문자열)를 취하여 검토자의 결정을 나타내는 맵을 반환합니다.</p> </li> 
+     <li> <p style="font-weight: bold;">getDocumentReviewerDecision</p> <p style="font-weight: normal;">이 작업은 documentVersonID 인수(문자열)를 가져와 검토자의 결정을 나타내는 맵을 반환합니다.</p> </li> 
      <li style="font-weight: bold;"> <p>setDocumentReviewerDecision</p> <p style="font-weight: normal;">이 작업은 다음 인수를 사용합니다.</p> 
       <ul style="font-weight: normal;"> 
-       <li> <p>documentVersionID(문자열)</p> </li> 
-       <li> <p>reviewerDecision(문자열)</p> </li> 
+       <li> <p>documentVersionID (문자열)</p> </li> 
+       <li> <p>reviewerDecision (string)</p> </li> 
        <li> <p>주석(문자열)</p> </li> 
       </ul> </li> 
     </ul> </td> 
@@ -516,7 +517,7 @@ DocumentVersion 개체는 파일(예: 문서 자료, 이미지 또는 기타 정
 
 ### 그룹  {#group}
 
-그룹 개체는 사용자 및 팀 집합을 나타냅니다. 그룹은 종종 부서별 구조를 나타냅니다.
+Group 객체는 사용자 및 팀 집합을 나타냅니다. 그룹은 종종 부서 구조를 나타냅니다.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -526,14 +527,14 @@ DocumentVersion 개체는 파일(예: 문서 자료, 이미지 또는 기타 정
    <td>직접 필드</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>businessLeaderID</p> <p style="font-weight: normal;">그룹에 지정된 비즈니스 리더의 ID입니다.</p> </li> 
+     <li style="font-weight: bold;"> <p>businessLeaderID</p> <p style="font-weight: normal;">그룹에 할당된 비즈니스 리더의 ID입니다.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>참조 필드</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>businessLeader</p> <p style="font-weight: normal;">그룹에 지정된 비즈니스 리더 비즈니스 리더는 그룹을 위한 비즈니스 결정을 내리는 사람이다.</p> <p style="font-weight: normal;">비즈니스 리더에 대한 자세한 내용은 <a href="../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref">비즈니스 리더 개요</a>.<br></p> </li> 
+     <li style="font-weight: bold;"> <p>businessLeader</p> <p style="font-weight: normal;">그룹에 할당된 비즈니스 리더입니다. 비즈니스 리더는 그룹을 위해 비즈니스 결정을 내리는 사람입니다.</p> <p style="font-weight: normal;">비즈니스 리더에 대한 자세한 내용은 <a href="../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref">비즈니스 리더 개요</a>.<br></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -549,8 +550,8 @@ DocumentVersion 개체는 파일(예: 문서 자료, 이미지 또는 기타 정
      <li> <p><strong>getGroupMembers</strong> </p> </li> 
      <li> <p><strong>updateMembersList</strong> </p> <p>이 작업은 다음 인수를 사용합니다.</p> 
       <ul> 
-       <li> <p>newMemberIDs(string[])</p> </li> 
-       <li> <p>removedMemberDs(string[])</p> </li> 
+       <li> <p>newMemberIDs (string[])</p> </li> 
+       <li> <p>removedMemberDs (string[])</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
@@ -559,9 +560,9 @@ DocumentVersion 개체는 파일(예: 문서 자료, 이미지 또는 기타 정
 
 ### LinkedFolder {#linkedfolder}
 
-LinkedFolder 개체는 Google 드라이브나 Dropbox과 같은 외부 문서 공급자에서 연결된 폴더를 나타냅니다.
+LinkedFolder 개체는 Google 드라이브 또는 Dropbox과 같은 외부 문서 공급자로부터 연결된 폴더를 나타냅니다.
 
-링크된 폴더에 대한 자세한 내용은 [외부 응용 프로그램에서 문서 연결](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+연결된 폴더에 대한 자세한 내용은 [외부 애플리케이션에서 문서 연결](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -571,7 +572,7 @@ LinkedFolder 개체는 Google 드라이브나 Dropbox과 같은 외부 문서 �
    <td> <p>직접 필드</p> </td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>externalIntegrationType</p> <p style="font-weight: normal;">가능한 값이 제거됨:</p> 
+     <li style="font-weight: bold;"> <p>externalIntegrationType</p> <p style="font-weight: normal;">제거된 가능한 값:</p> 
       <ul> 
        <li style="font-weight: normal;">QUIP(Quip)</li> 
       </ul> </li> 
@@ -582,7 +583,7 @@ LinkedFolder 개체는 Google 드라이브나 Dropbox과 같은 외부 문서 �
 
 ### OpTask {#optask}
 
-일반적으로 OpTask 개체를 Issue라고 합니다. 문제는 일반적으로 작업 또는 프로젝트 완료를 방지하는 데 문제가 있음을 나타내는 작업 항목입니다. 헬프데스크 요청도 있습니다. 변경 주문, 요청 및 버그도 문제입니다.
+OpTask 객체를 일반적으로 문제라고 합니다. 문제는 일반적으로 작업 또는 프로젝트의 완료를 방해하는 문제가 있음을 나타내는 작업 항목입니다. 문제는 헬프 데스크 요청일 수도 있습니다. 변경 주문, 요청 및 버그도 문제가 됩니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -592,17 +593,17 @@ LinkedFolder 개체는 Google 드라이브나 Dropbox과 같은 외부 문서 �
    <td role="rowheader"> <p>직접 필드</p> </td> 
    <td> 
     <ul> 
-     <li> <p><strong>backlogOrder</strong> </p> <p>순서는 Agile 백로그에 대한 작업 또는 스토리의 위치를 나타냅니다.</p> <p>이 필드에서 다음 플래그가 제거되었습니다.
+     <li> <p><strong>backlogOrder</strong> </p> <p>순서는 애자일 백로그에 대한 작업 또는 스토리의 위치를 나타냅니다.</p> <p>이 필드에서 다음 플래그가 제거되었습니다.
        <ul>
         <li>동적,</li>
-        <li>LAZY_READ,</li>
+        <li>레이지 읽기,</li>
         <li>NOT_GROUPABLE:</li>
        </ul></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액션</td> 
-   <td> <p>이러한 작업으로 사용자가 단추를 클릭하여 해당 항목에서 작업을 시작했음을 나타내는 작업 항목의 상태를 변경하는 새 시작 단추 기능을 지원하도록 인수 상태가 추가되었습니다.</p> <p>자세한 내용은 <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Work On It 단추를 시작 단추로 바꿉니다.</a>.</p> 
+   <td> <p>이러한 작업은 새 시작 버튼 기능을 지원하도록 인수 상태를 추가했습니다. 이 기능은 사용자가 버튼을 클릭하여 항목에 대한 작업을 시작했음을 나타낼 때 작업 항목의 상태를 변경합니다.</p> <p>자세한 내용은 <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">처리 중 단추를 시작 단추로 바꾸기</a>.</p> 
     <ul> 
      <li> <p><strong>acceptWork</strong> </p> </li> 
      <li> <p><strong>unacceptWork</strong> </p> </li> 
@@ -617,7 +618,7 @@ Parameter 개체는 사용자 지정 필드입니다.
 
 매개 변수 리소스가 SHARABLE 플래그를 추가했습니다.
 
-사용자 지정 필드에 대한 자세한 내용은 [사용자 지정 양식 만들기 또는 편집](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) in [사용자 지정 양식 만들기 또는 편집](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+사용자 지정 필드에 대한 자세한 내용은 [사용자 정의 양식 만들기 또는 편집](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) 위치: [사용자 정의 양식 만들기 또는 편집](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -627,13 +628,13 @@ Parameter 개체는 사용자 지정 필드입니다.
    <td role="rowheader">직접 필드</td> 
    <td> 
     <ul> 
-     <li> <p><strong>dataType</strong> </p> <p>가능한 값을 추가했습니다.</p> 
+     <li> <p><strong>dataType</strong> </p> <p>추가된 가능한 값:</p> 
       <ul> 
        <li> <p>리치(리치 텍스트)</p> <p>자세한 내용은 <a href="../../wf-api/general/rich-text-field-api.md" class="MCXref xref">Adobe Workfront API의 리치 텍스트 필드</a>.</p> </li> 
       </ul> </li> 
-     <li> <p><strong>displayType</strong> </p> <p>가능한 값을 추가했습니다.</p> 
+     <li> <p><strong>displayType</strong> </p> <p>추가된 가능한 값:</p> 
       <ul> 
-       <li> <p>리치(서식이 있는 텍스트 필드)</p> <p>자세한 내용은 <a href="../../wf-api/general/rich-text-field-api.md" class="MCXref xref">Adobe Workfront API의 리치 텍스트 필드</a>.</p> </li> 
+       <li> <p>리치(서식 있는 텍스트 필드)</p> <p>자세한 내용은 <a href="../../wf-api/general/rich-text-field-api.md" class="MCXref xref">Adobe Workfront API의 리치 텍스트 필드</a>.</p> </li> 
       </ul> </li> 
      <li> <p><strong>레이블</strong> </p> <p>추가됨</p> </li> 
     </ul> </td> 
@@ -657,7 +658,7 @@ Parameter 개체는 사용자 지정 필드입니다.
 
 ### 포트폴리오 {#portfolio}
 
-Portfolio 객체는 일반적으로 동일한 리소스, 즉 완료 비용 또는 사람에 대해 경쟁하는 프로젝트 컬렉션입니다.
+Portfolio 객체는 동일한 리소스(일반적으로 돈 또는 완료하는 사람)에 대해 경쟁하는 프로젝트의 컬렉션입니다.
 
 포트폴리오에 대한 자세한 내용은 [Adobe Workfront의 Portfolio 개요](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
@@ -669,7 +670,7 @@ Portfolio 객체는 일반적으로 동일한 리소스, 즉 완료 비용 또�
    <td>직접 필드</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>groupID</p> <p style="font-weight: normal;">포트폴리오가 연결된 그룹의 ID입니다.</p> </li> 
+     <li style="font-weight: bold;"> <p>groupID</p> <p style="font-weight: normal;">포트폴리오와 연결된 그룹의 ID입니다.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -684,7 +685,7 @@ Portfolio 객체는 일반적으로 동일한 리소스, 즉 완료 비용 또�
 
 ### 프로그램 {#program}
 
-프로그램 객체는 유사한 프로젝트를 함께 그룹화할 수 있는 포트폴리오 내의 프로젝트의 하위 집합입니다.
+프로그램 객체는 유사한 프로젝트를 함께 그룹화할 수 있는 포트폴리오 내의 프로젝트 하위 집합입니다.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -694,7 +695,7 @@ Portfolio 객체는 일반적으로 동일한 리소스, 즉 완료 비용 또�
    <td>직접 필드</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>groupID</p> <p style="font-weight: normal;">프로그램이 연결된 그룹의 ID입니다.</p> </li> 
+     <li style="font-weight: bold;"> <p>groupID</p> <p style="font-weight: normal;">프로그램과 연계된 그룹의 ID.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -709,9 +710,9 @@ Portfolio 객체는 일반적으로 동일한 리소스, 즉 완료 비용 또�
 
 ### QueueDef {#queuedef}
 
-QueueDef 개체는 사용자가 문제를 해당 항목에 제출할 수 있도록 도움말 데스크 영역에 게시된 프로젝트인 Queue를 나타냅니다.
+QueueDef 개체는 사용자가 문제를 제출할 수 있도록 헬프 데스크 영역에 게시된 프로젝트인 Queue를 나타냅니다.
 
-요청 큐에 대한 자세한 내용은 [요청 큐 만들기](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+요청 대기열에 대한 자세한 내용은 [요청 대기열 만들기](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -723,14 +724,14 @@ QueueDef 개체는 사용자가 문제를 해당 항목에 제출할 수 있도�
     <ul> 
      <li><strong>requestorCoreAction</strong> <p>다음 possibleValues가 추가되었습니다.</p> 
       <ul> 
-       <li> <p>PLANNING_HOURS_CONTOLING </p> <p>이 권한을 포함하는 액세스 수준을 가진 사용자는 작업 로드 밸런서에서 계획 시간을 업데이트할 수 있습니다.</p> <p>자세한 내용은 <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">사용자 할당을 관리할 때 작업 계획 시간 업데이트</a> in <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">작업 로드 밸런서에서 사용자 할당 관리</a>.</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS. </p> <p>이 권한을 포함하는 액세스 수준을 가진 사용자는 사용자 지정 양식에 필드를 추가할 수 있습니다.</p> <p>자세한 내용은 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">사용자 지정 양식 만들기 또는 편집</a>.</p> </li> 
-       <li> <p>EDIT_SYSTEMWIDE </p> <p>이 권한을 포함하는 액세스 수준을 가진 사용자는 사용자 정의 필드 시스템 전체를 삭제 액세스와 공유할 수 있습니다.</p> <p>자세한 내용은 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">사용자 지정 필드 및 위젯에 대한 공유 구성</a></p> </li> 
+       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>이 권한을 포함하는 액세스 수준이 있는 사용자는 업무 균형자에서 계획된 시간을 업데이트할 수 있습니다.</p> <p>자세한 내용은 <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">사용자 할당 관리 시 작업 계획 시간 업데이트</a> 위치: <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">업무 균형자에서 사용자 할당 관리</a>.</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>이 권한을 포함하는 액세스 수준이 있는 사용자는 사용자 정의 양식에 필드를 추가할 수 있습니다.</p> <p>자세한 내용은 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> 위치: <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">사용자 정의 양식 만들기 또는 편집</a>.</p> </li> 
+       <li> <p>시스템 전체 편집 </p> <p>이 권한을 포함하는 액세스 수준이 있는 사용자는 삭제 액세스로 시스템 전체에 사용자 정의 필드를 공유할 수 있습니다.</p> <p>자세한 내용은 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">사용자 정의 필드 및 위젯에 대한 공유 구성</a></p> </li> 
       </ul> <li> <p><strong>requestorForbiddenActions</strong> </p> <p>다음 possibleValues가 추가되었습니다.</p> 
        <ul> 
-        <li> <p>PLANNING_HOURS_CONTOLING </p> </li> 
-        <li> <p>ADD_TO_CUSTOM_FORMS. </p> </li> 
-        <li> <p>EDIT_SYSTEMWIDE </p> </li> 
+        <li> <p>PLANNED_HOURS_CONTOURING </p> </li> 
+        <li> <p>ADD_TO_CUSTOM_FORMS </p> </li> 
+        <li> <p>시스템 전체 편집 </p> </li> 
        </ul> </li> </li> 
     </ul> </td> 
   </tr> 
@@ -739,7 +740,7 @@ QueueDef 개체는 사용자가 문제를 해당 항목에 제출할 수 있도�
 
 ### 예약된 보고서 {#scheduledreport}
 
-ScheduledReport 개체는 배달하도록 구성된 보고서를 나타냅니다.
+ScheduledReport 개체는 전송을 위해 예약되도록 구성된 보고서를 나타냅니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -749,22 +750,22 @@ ScheduledReport 개체는 배달하도록 구성된 보고서를 나타냅니다
    <td role="rowheader">직접 필드</td> 
    <td> 
     <ul> 
-     <li> <p><strong>포맷</strong> </p> <p>가능한 값을 추가했습니다.</p> 
+     <li> <p><strong>형식</strong> </p> <p>가능한 값이 추가되었습니다.</p> 
       <ul> 
-       <li> <p>qdoc(enum.fileextension.qdoc)</p> </li> 
-       <li> <p>qslides(enum.fileextension.qslids)</p> </li> 
-       <li> <p>qsheet(enum.fileextension.qsheet)</p> </li> 
+       <li> <p>qdoc (enum.fileextension.qdoc)</p> </li> 
+       <li> <p>qslides(enum.fileextension.qslides)</p> </li> 
+       <li> <p>qsheet (enum.fileextension.qsheet)</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### ScoreCardQuestion {#scorecardquestion}
+### 스코어카드 질문 {#scorecardquestion}
 
-ScoreCardQuestion 개체는 스코어카드에 추가된 질문을 나타냅니다. 이러한 질문은 일반적으로 Portfolio 관리자에 의해 결정되며 관리자가 이러한 질문에 대한 답변을 통해 프로젝트가 포트폴리오의 목표에 얼마나 잘 부합하는지 이해할 수 있습니다.
+ScoreCardQuestion 객체는 스코어카드에 추가된 질문을 나타냅니다. 이러한 질문은 일반적으로 Portfolio 관리자가 결정하며, 관리자는 이에 대한 답변을 통해 프로젝트가 포트폴리오의 목표에 얼마나 잘 부합하는지 파악할 수 있습니다.
 
-스코어카드 질문에 대한 자세한 내용은 [스코어카드 만들기](../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
+스코어카드 질문에 대한 자세한 내용은 다음을 참조하십시오. [스코어카드 만들기](../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -774,7 +775,7 @@ ScoreCardQuestion 개체는 스코어카드에 추가된 질문을 나타냅니�
    <td>직접 필드</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>displayType</p> <p style="font-weight: normal;">가능한 값 RICH(서식이 있는 텍스트 필드)가 추가되었습니다. </p> <p style="font-weight: normal;">자세한 내용은 <a href="../../wf-api/general/rich-text-field-api.md" class="MCXref xref">Adobe Workfront API의 리치 텍스트 필드</a>.  </p> </li> 
+     <li style="font-weight: bold;"> <p>displayType</p> <p style="font-weight: normal;">가능한 리치 값 추가(서식이 있는 텍스트 필드) </p> <p style="font-weight: normal;">자세한 내용은 <a href="../../wf-api/general/rich-text-field-api.md" class="MCXref xref">Adobe Workfront API의 리치 텍스트 필드</a>.  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -782,7 +783,7 @@ ScoreCardQuestion 개체는 스코어카드에 추가된 질문을 나타냅니�
 
 ### 작업 {#task}
 
-작업 객체는 최종 목표(프로젝트 완료)를 달성하는 단계로 수행되어야 하는 작업 항목을 나타냅니다.
+작업 객체는 최종 목표 달성(프로젝트 완료)을 위한 단계로 수행해야 하는 작업 항목을 나타냅니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -792,17 +793,17 @@ ScoreCardQuestion 개체는 스코어카드에 추가된 질문을 나타냅니�
    <td role="rowheader">직접 필드</td> 
    <td> 
     <ul> 
-     <li> <p><strong>workFuture</strong> </p> <p>이 필드가 추가되었으며 작업을 완료하는 데 사용자에게 작은 작업, 중간 작업 또는 많은 양의 노력이 필요하는지 여부를 나타냅니다. 가능한 값은 다음과 같습니다.</p> 
+     <li> <p><strong>작업 노력</strong> </p> <p>이 필드가 추가되었으며, 사용자가 작업을 완료하는 데 일일 작업량이 작은지, 중간인지 또는 큰지 여부를 나타냅니다. 가능한 값:</p> 
       <ul> 
-       <li> <p>1 (작음)</p> </li> 
+       <li> <p>1(작음)</p> </li> 
        <li> <p>2(중간)</p> </li> 
-       <li> <p>3(큰)</p> </li> 
-      </ul> <p>Workfront의 작업 수행에 대한 자세한 내용은 <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">작업 시간 개요</a>.</p> </li> 
+       <li> <p>3(큼)</p> </li> 
+      </ul> <p>Workfront의 작업 노력에 대한 자세한 내용은 <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">작업 노력 개요</a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액션</td> 
-   <td> <p>이러한 작업으로 사용자가 단추를 클릭하여 해당 항목에서 작업을 시작했음을 나타내는 작업 항목의 상태를 변경하는 새 시작 단추 기능을 지원하도록 인수 상태가 추가되었습니다.</p> <p>자세한 내용은 <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Work On It 단추를 시작 단추로 바꿉니다.</a>.</p> 
+   <td> <p>이러한 작업은 새 시작 버튼 기능을 지원하도록 인수 상태를 추가했습니다. 이 기능은 사용자가 버튼을 클릭하여 항목에 대한 작업을 시작했음을 나타낼 때 작업 항목의 상태를 변경합니다.</p> <p>자세한 내용은 <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">처리 중 단추를 시작 단추로 바꾸기</a>.</p> 
     <ul> 
      <li> <p><strong>acceptWork</strong> </p> </li> 
      <li> <p><strong>unacceptWork</strong> </p> </li> 
@@ -813,7 +814,7 @@ ScoreCardQuestion 개체는 스코어카드에 추가된 질문을 나타냅니�
 
 ### 팀 {#team}
 
-팀 개체는 작업 항목에 지정할 수 있는 사용자 모음입니다.
+팀 개체는 작업 항목에 할당할 수 있는 사용자 컬렉션입니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -823,23 +824,23 @@ ScoreCardQuestion 개체는 스코어카드에 추가된 질문을 나타냅니�
    <td role="rowheader">직접 필드</td> 
    <td> <p>다음 필드가 팀 리소스에 추가되었습니다.</p> 
     <ul> 
-     <li> <p><strong>completeDaysOnKanbanBoard</strong> </p> <p>이 필드는 완료된 카드가 간판 보드에 남아 있는 일수를 나타냅니다.</p> <!--
+     <li> <p><strong>completeDaysOnKanbanBoard</strong> </p> <p>이 필드는 완료된 카드가 Kanban 보드에 남아 있는 일 수를 나타냅니다.</p> <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information, see <a href="../../agile/get-started-with-agile-in-workfront/configure-kanban.md" class="MCXref xref">Configure Kanban</a>.</p>
       --> </li> 
-     <li> <p><strong>groupID</strong> </p> <p>이 필드는 한 팀을 그룹과 연결합니다. 팀을 그룹의 일부로 식별하고 그룹 관리자가 팀을 관리할 수 있도록 합니다.</p> </li> 
-     <li> <p><strong>workOnItStatusChange</strong> </p> <p>팀의 작업 중 단추가 시작 단추로 구성되었는지 여부를 나타내는 부울 매개 변수입니다. 팀 구성원이 시작 단추를 클릭하여 작업 항목에 대한 작업을 시작하면 항목의 상태가 새로 작성에서 팀 설정에 구성된 상태로 변경됩니다.</p> </li> 
-     <li> <p>다음 필드를 사용하면 개별 작업 항목의 시작 단추에 대한 사용자 지정 상태를 지정할 수 있습니다.</p> 
+     <li> <p><strong>groupID</strong> </p> <p>이 필드는 팀을 그룹과 연결합니다. 이렇게 하면 팀을 그룹의 일부로 식별하고 그룹 관리자가 팀을 관리할 수 있습니다.</p> </li> 
+     <li> <p><strong>workOnItStatusChange</strong> </p> <p>팀의 [처리 중] 단추가 시작 단추로 구성되었는지 여부를 나타내는 부울 매개 변수입니다. 팀 구성원이 시작 단추를 클릭하여 작업 항목에 대한 작업을 시작하면 항목의 상태가 새로 만들기에서 팀 설정에 구성된 상태로 변경됩니다.</p> </li> 
+     <li> <p>다음 필드에서는 개별 작업 항목의 시작 단추에 대한 사용자 지정 상태를 지정할 수 있습니다.</p> 
       <ul> 
-       <li> <p><strong>workOnItOpTaskBugReportStatus</strong> </p> </li> 
-       <li> <p><strong>workOnItOpTaskChangeOrderStatus</strong> </p> </li> 
-       <li> <p><strong>workOnItOpTaskIssueStats</strong> </p> </li> 
-       <li> <p><strong>workOnItOpTaskRequestStatus</strong> </p> <p><strong>workOnItTaskStatus</strong> </p> </li> 
-      </ul> <p>시작 단추에 대한 자세한 내용은 <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Work On It 단추를 시작 단추로 바꿉니다.</a>.</p> </li> 
+       <li> <p><strong>workOnOpTaskBugReportStates</strong> </p> </li> 
+       <li> <p><strong>workOnItOpTaskChangeOrderStates</strong> </p> </li> 
+       <li> <p><strong>workOnItOpTaskIssueStates</strong> </p> </li> 
+       <li> <p><strong>workOnItOpTaskRequestStates</strong> </p> <p><strong>workOnItTaskStatus</strong> </p> </li> 
+      </ul> <p>시작 단추에 대한 자세한 내용은 <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">처리 중 단추를 시작 단추로 바꾸기</a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">참조 필드</td> 
-   <td> <p>팀 리소스에 다음 필드가 추가되었습니다.</p> 
+   <td> <p>다음 필드가 팀 리소스에 추가되었습니다.</p> 
     <ul> 
      <li> <p><strong>그룹</strong> </p> </li> 
     </ul> </td> 
@@ -849,7 +850,7 @@ ScoreCardQuestion 개체는 스코어카드에 추가된 질문을 나타냅니�
 
 ### TemplateTask {#templatetask}
 
-TemplateTask 개체는 템플릿에 속하는 작업을 나타냅니다. 템플릿 작업은 템플릿이 사용되는 프로젝트에서 작업이 됩니다.
+TemplateTask 개체는 Template의 일부인 작업을 나타냅니다. 템플릿 작업은 템플릿이 사용되는 프로젝트의 작업이 됩니다.
 
 템플릿 작업에 대한 자세한 내용은 [템플릿 작업 편집](../../manage-work/projects/create-and-manage-templates/edit-template-task.md).
 
@@ -861,12 +862,12 @@ TemplateTask 개체는 템플릿에 속하는 작업을 나타냅니다. 템플�
    <td role="rowheader">직접 필드</td> 
    <td> 
     <ul> 
-     <li> <p><strong>workFuture</strong> </p> <p>이 필드가 추가되었으며 작업을 완료하는 데 사용자에게 작은 작업, 중간 작업 또는 많은 양의 노력이 필요하는지 여부를 나타냅니다. 가능한 값은 다음과 같습니다.</p> 
+     <li> <p><strong>작업 노력</strong> </p> <p>이 필드가 추가되었으며, 사용자가 작업을 완료하는 데 일일 작업량이 작은지, 중간인지 또는 큰지 여부를 나타냅니다. 가능한 값:</p> 
       <ul> 
-       <li> <p>1 (작음)</p> </li> 
+       <li> <p>1(작음)</p> </li> 
        <li> <p>2(중간)</p> </li> 
-       <li> <p>3(큰)</p> </li> 
-      </ul> <p>Workfront의 작업 수행에 대한 자세한 내용은 <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">작업 시간 개요</a>.</p> </li> 
+       <li> <p>3(큼)</p> </li> 
+      </ul> <p>Workfront의 작업 노력에 대한 자세한 내용은 <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">작업 노력 개요</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -874,19 +875,19 @@ TemplateTask 개체는 템플릿에 속하는 작업을 나타냅니다. 템플�
 
 ### 타임시트 {#timesheet}
 
-작업표 개체는 사용자가 작업, 프로젝트 및 오버헤드 시간 유형에 대해 실제 작업 시간을 입력할 수 있도록 하는 가상 타임카드를 나타냅니다.
+타임시트 오브젝트는 사용자가 작업, 프로젝트 및 오버헤드 시간 유형에 대한 실제 작업 시간을 입력할 수 있는 가상 타임카드를 나타냅니다.
 
-작업표에 대한 자세한 내용은 [작업표 개요](../../timesheets/timesheets/timesheets-overview.md)
+타임시트에 대한 자세한 내용은 [타임시트 개요](../../timesheets/timesheets/timesheets-overview.md)
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">핵심 필드</td> 
-   <td> <p>작업표 리소스에서 다음 필드가 제거되었습니다.</p> 
+   <td role="rowheader">코어 필드</td> 
+   <td> <p>다음 필드가 타임시트 리소스에서 제거되었습니다.</p> 
     <ul> 
-     <li> <p><strong>개체 코드</strong> </p> </li> 
+     <li> <p><strong>objcode</strong> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -902,10 +903,10 @@ TemplateTask 개체는 템플릿에 속하는 작업을 나타냅니다. 템플�
    <td role="rowheader">직접 필드</td> 
    <td> 
     <ul> 
-     <li> <p><strong>updateType</strong> </p> <p>다음 가능한 값을 추가했습니다.</p> 
+     <li> <p><strong>updateType</strong> </p> <p>다음과 같은 가능한 값이 추가되었습니다.</p> 
       <ul> 
-       <li> <p>initiativeAdd (enum.updatetime.initiativeadd)</p> </li> 
-       <li> <p>initiativeEdit (enum.updatetime.initiativeedit)</p> </li> 
+       <li> <p>initiativeAdd (enum.updatetypeenum.initiativeadd)</p> </li> 
+       <li> <p>initiativeEdit(enum.updatetypeenum.initiativeedit)</p> </li> 
       </ul> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">이니셔티브에 대한 자세한 내용은 <a href="../../scenario-planner/initiatives-overview.md" class="MCXref xref">시나리오 플래너의 이니셔티브 개요</a>.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -914,7 +915,7 @@ TemplateTask 개체는 템플릿에 속하는 작업을 나타냅니다. 템플�
 
 ### 사용자 {#user}
 
-사용자 개체는 로그인하고 시스템과 상호 작용할 수 있는 Workfront에 계정이 있는 사람을 나타냅니다.
+사용자 개체는 로그인하여 시스템과 상호 작용할 수 있는 Workfront의 계정을 가진 사용자를 나타냅니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -922,10 +923,10 @@ TemplateTask 개체는 템플릿에 속하는 작업을 나타냅니다. 템플�
  <tbody> 
   <tr> 
    <td role="rowheader">직접 필드</td> 
-   <td> <p>다음 필드가 사용자 리소스에 추가되었습니다.</p> 
+   <td> <p>사용자 리소스에 다음 필드가 추가되었습니다.</p> 
     <ul> 
-     <li> <p><strong>actualDeactivationDate</strong> </p> <p>사용자가 비활성화된 날짜 및 시간을 나타냅니다.</p> <p>비활성화된 사용자에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">사용자 비활성화 또는 다시 활성화</a>.</p> </li> 
-     <li> <p><strong>alignAccessType</strong> </p> <p>이 필드는 Workfront 목표에 대한 사용자의 액세스를 보여줍니다. 가능한 값은 다음과 같습니다.</p> 
+     <li> <p><strong>actualDeactivationDate</strong> </p> <p>사용자가 비활성화된 날짜 및 시간을 나타냅니다.</p> <p>비활성화된 사용자에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">사용자 비활성화 또는 재활성화</a>.</p> </li> 
+     <li> <p><strong>정렬 액세스 유형</strong> </p> <p>이 필드에는 Workfront 목표에 대한 사용자의 액세스 권한이 표시됩니다. 가능한 값:</p> 
       <ul> 
        <li> <p>액세스 권한 없음</p> </li> 
        <li> <p>보기</p> </li> 
@@ -940,7 +941,7 @@ TemplateTask 개체는 템플릿에 속하는 작업을 나타냅니다. 템플�
      <li> <p><strong>getUserAccessPermissionsByObjCode</strong> </p> <p>이 작업은 다음 인수를 사용합니다</p> 
       <ul> 
        <li> <p>id(문자열)</p> </li> 
-       <li> <p>objCode(문자열)</p> </li> 
+       <li> <p>objCode (문자열)</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
@@ -949,7 +950,7 @@ TemplateTask 개체는 템플릿에 속하는 작업을 나타냅니다. 템플�
 
 ### 작업  {#work}
 
-작업 개체는 Task 및 OpTask가 모두 상속하고 두 Task 간에 공통 코드를 공유하는 공통 인터페이스입니다.
+Work 개체는 Task와 OpTask가 모두 상속하는 공통 인터페이스이며 두 개체 간에 공통 코드를 공유합니다.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -959,24 +960,24 @@ TemplateTask 개체는 템플릿에 속하는 작업을 나타냅니다. 템플�
    <td>직접 필드</td> 
    <td> 
     <ul> 
-     <li> <p><strong>backlogOrder</strong> </p> <p>순서는 Agile 백로그에 대한 작업 또는 스토리의 위치를 나타냅니다.</p> <p>이 필드에서 다음 플래그가 제거되었습니다.</p> 
+     <li> <p><strong>backlogOrder</strong> </p> <p>순서는 애자일 백로그에 대한 작업 또는 스토리의 위치를 나타냅니다.</p> <p>이 필드에서 다음 플래그가 제거되었습니다.</p> 
       <ul> 
        <li> <p>동적,</p> </li> 
-       <li> <p>LAZY_READ,</p> </li> 
+       <li> <p>레이지 읽기,</p> </li> 
        <li> <p>NOT_GROUPABLE</p> </li> 
       </ul> </li> 
-     <li> <p><strong>groupID</strong> </p> <p>이 필드에 다음 플래그가 추가되었습니다.</p> 
+     <li> <p><strong>groupID</strong> </p> <p>이 필드에는 다음 플래그가 추가되었습니다.</p> 
       <ul> 
-       <li> <p>AUTO_LOAD,</p> </li> 
+       <li> <p>자동 로드,</p> </li> 
        <li> <p>동적,</p> </li> 
        <li> <p>READ_ONLY</p> </li> 
       </ul> </li> 
-     <li> <p><strong>workFuture</strong> </p> <p>이 필드가 추가되었으며 작업을 완료하는 데 사용자에게 작은 작업, 중간 작업 또는 많은 양의 노력이 필요하는지 여부를 나타냅니다. 가능한 값은 다음과 같습니다.</p> 
+     <li> <p><strong>작업 노력</strong> </p> <p>이 필드가 추가되었으며, 사용자가 작업을 완료하는 데 일일 작업량이 작은지, 중간인지 또는 큰지 여부를 나타냅니다. 가능한 값:</p> 
       <ul> 
-       <li> <p>1 (작음)</p> </li> 
+       <li> <p>1(작음)</p> </li> 
        <li> <p>2(중간)</p> </li> 
-       <li> <p>3(큰)</p> </li> 
-      </ul> <p>Workfront의 작업 수행에 대한 자세한 내용은 <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">작업 시간 개요</a>.</p> </li> 
+       <li> <p>3(큼)</p> </li> 
+      </ul> <p>Workfront의 작업 노력에 대한 자세한 내용은 <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">작업 노력 개요</a>.</p> </li> 
     </ul> <p style="font-weight: normal;">  </p> </td> 
   </tr> 
  </tbody> 

@@ -1,23 +1,24 @@
 ---
 content-type: api
 navigation-topic: wf-api
-title: 사용자 사용 가능한 시간 API 가져오기
-description: 사용자 사용 가능한 시간 API 가져오기
+title: 사용 가능한 시간 API 사용자 가져오기
+description: 사용 가능한 시간 API 사용자 가져오기
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: fa37920a-c08b-4af3-9896-7e4044834860
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '94'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
-# 사용 가능한 시간 API 사용자
+# 사용자 사용 가능 시간 API
 
 **URI: attask/api/v15.0/user/getUsersAvailableTime**
 
-사용 가능한 시간 끝점은 사용자가 사용 가능한 시간에 데이터를 검색합니다. 이를 통해 사용자 특성 및 시간 간격에 따라 데이터를 수집할 수 있습니다.
+사용자 사용 가능한 시간 엔드포인트는 사용자의 사용 가능한 시간에 대한 데이터를 검색합니다. 이를 통해 사용자 특성 및 시간 간격에 따른 데이터 집계를 위한 통합이 가능합니다.
 
 ## 요청 예
 
@@ -25,11 +26,11 @@ ht-degree: 7%
 
 ## 요청 매개 변수
 
-* **userIDs**: 문자열의 배열입니다. 필수. 예: `"61a9cc0500002f9fdaa7a6f824f557e1"`.
+* **사용자 ID**: 문자열 배열. 필수. 예: `"61a9cc0500002f9fdaa7a6f824f557e1"`.
 
-* **fromDate**: datetime. 문자열. 필수. 예:  `"2022-07-10T00:00:00"`.
+* **fromDate**: 날짜/시간입니다. 문자열. 필수. 예:  `"2022-07-10T00:00:00"`.
 
-* **toDate**: datetime. 문자열. 필수. 예 `"2022-07-20T23:59:59"`.
+* **toDate**: 날짜/시간입니다. 문자열. 필수. 예 `"2022-07-20T23:59:59"`.
 
 ## 응답 예:
 
@@ -74,5 +75,5 @@ ht-degree: 7%
 
 ## 응답 매개 변수
 
-* **AVL**: 실제 사용 가능 시간 숫자 배열입니다.
-* **PAVL**: 비근무 일수 또는 사용자 타임오프가 포함되지 않는 예약에 사용할 수 있는 순수 시간입니다. 문자열.
+* **AVL**: 실제 사용 가능한 시간. 숫자 배열.
+* **PAVL**: 휴무일 또는 사용자 휴무를 포함하지 않는 예약에 사용 가능한 순수 시간. 문자열.

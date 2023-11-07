@@ -5,8 +5,9 @@ title: 이벤트 구독 API
 description: 이벤트 구독 API
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 34810c67de5578479ae56cd72865656a89d35aa9
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '2111'
 ht-degree: 3%
@@ -76,7 +77,7 @@ ht-degree: 3%
 * 이벤트 구독을 사용하려면 &quot;시스템 관리자&quot;의 액세스 수준이 필요합니다.
 * A `sessionID`  이벤트 구독 API를 사용하려면 헤더가 필요합니다.
 
-   자세한 내용은 [인증](api-basics.md#authentication) 위치: [API 기본 사항](api-basics.md).
+  자세한 내용은 [인증](api-basics.md#authentication) 위치: [API 기본 사항](api-basics.md).
 
 ## 구독 리소스 구성
 
@@ -90,7 +91,7 @@ ht-degree: 3%
 
    * **문자열** - 변경 사항을 구독 중인 오브젝트의 objCode입니다. 아래 표에는 objCode에 대해 가능한 값이 나열되어 있습니다.
 
-      <table style="table-layout:auto"> 
+     <table style="table-layout:auto"> 
       <col> 
       <col> 
       <thead> 
@@ -419,6 +420,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 예: **업데이트 - 작업** 이벤트 구독은 다음 경우에만 트리거되도록 설정할 수 있습니다. **newState** 이벤트 페이로드의 **taskStatus** 다음으로: **현재**.
 
 >[!IMPORTANT]
+>
 다음 속성은 이벤트 구독 필터링에 적용됩니다
 
 * 필터 필드에 비어 있지 않은 값이 있는 경우 **newState** 필터 키 및 값이 포함된 은 구독한 URL로 전송됩니다.
@@ -580,6 +582,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 이 필터는 지정된 필드(`fieldName`)의 값은 oldstate와 newstate에서 다릅니다. 지정된 필드 이외의 다른 필드 업데이트(`fieldName`)은 해당 변경 사항을 반환하지 않습니다.
 
 >[!NOTE]
+>
 `fieldValue` 아래의 필터 배열에서는 영향을 주지 않습니다.
 
 ```
@@ -604,6 +607,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 `oldState` 만들 수 없음 `eventTypes`.
 
 >[!NOTE]
+>
 지정된 필터가 있는 아래 구독은 작업 이름에 포함된 메시지만 반환합니다. `again` 다음에 있음 `oldState`, 작업에 대한 업데이트가 수행되기 전의 작업.
 이 메서드의 사용 사례는 사물 간에 변경된 objCode 메시지를 찾는 것입니다. 예를 들어 &quot;Research Some name&quot;에서 &quot;Research TeamName Some name&quot;으로 변경된 모든 작업을 찾으려면
 

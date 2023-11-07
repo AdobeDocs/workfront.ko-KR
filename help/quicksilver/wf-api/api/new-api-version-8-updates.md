@@ -2,14 +2,15 @@
 content-type: api
 navigation-topic: api-navigation-topic
 title: API 버전 8 업데이트
-description: 다음 기존 리소스가 이 Adobe Workfront API 릴리스로 업데이트되었습니다. 버전 8의 새로운 리소스를 보려면 API 버전 8의 새로운 기능 을 참조하십시오. 리소스에 대한 변경 사항은 다음 방법으로 표시됩니다. EDIT ME.
+description: 다음 기존 리소스가 Adobe Workfront API의 이번 릴리스로 업데이트되었습니다. 버전 8의 새로운 리소스를 보려면 API 버전 8의 새로운 기능 을 참조하십시오. 리소스에 대한 변경 사항은 다음 방식으로 표시됩니다. - EDIT ME.
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: c6d7d2d2-cd21-4ca8-a5a0-afe3669dc959
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 37%
+source-wordcount: '529'
+ht-degree: 31%
 
 ---
 
@@ -17,97 +18,97 @@ ht-degree: 37%
 
 ## 업데이트된 리소스
 
-다음 기존 리소스가 이 Adobe Workfront API 릴리스로 업데이트되었습니다. 버전 8의 새로운 리소스를 보려면 [API 버전 8의 새로운 기능](../../wf-api/api/new-api-version-8.md). 리소스에 대한 변경 사항은 다음과 같은 방식으로 표시됩니다.
+다음 기존 리소스가 Adobe Workfront API의 이번 릴리스로 업데이트되었습니다. 버전 8의 새로운 리소스를 보려면 [API 버전 8의 새로운 기능](../../wf-api/api/new-api-version-8.md). 리소스에 대한 변경 사항은 다음 방법으로 표시됩니다.
 
-* 추가는 단순히 나열됨
+* 추가 사항은 간단히 나열되어 있습니다
 * 제거는 취소선 텍스트로 표시됩니다
-* 변경 사항은 표 뒤에 메모에 기록됩니다
+* 변경 사항은 표 뒤에 있는 메모에 명시되어 있습니다
 
 ### AccessRequest
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| action¹  |   |   |   |   |   |   |
+| 작업<sup>1</sup>  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ 가능한 값 변경
+<sup>1</sup> 가능한 값 변경
 
-### AccessRule¹ 
+### AccessRule<sup>1</sup> 
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| coreAction²  |   |   |   |   |   |   |
-| forbiddenActions² |   |   |   |   |   |   |
-| secondaryActions² |   |   |   |   |   |   |
+| coreAction<sup>2</sup>  |   |   |   |   |   |   |
+| forbiddenActions<sup>2</sup> |   |   |   |   |   |   |
+| secondaryActions<sup>2</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ 플래그가 제거됨: REPORTTABLE\
-² 가능한 값 변경
+<sup>1</sup> 플래그 제거됨: 보고 가능\
+<sup>2</sup> 가능한 값 변경
 
 ### 승인
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| auditTypes¹ | agileWork  | resourcePools |   |   |   |   |
-| backlogOrder² | 간판  |   |   |   |   |   |
-| backlogParent |   |   |   |   |   |   |
-| 간판ID |   |   |   |   |   |   |
+| auditType<sup>1</sup> | 애자일 작업  | 리소스 풀 |   |   |   |   |
+| backlogOrder<sup>2</sup> | kanbanBoard  |   |   |   |   |   |
+| 백로그 상위 |   |   |   |   |   |   |
+| 칸반 보드 ID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹가능한 값에 대한 변경 사항\
-²추가된 플래그: DYNAMIC, LAZY_READ 및 NOT_GROUPABLE
+<sup>1</sup>가능한 값 변경\
+<sup>2</sup>추가된 플래그: DYNAMIC, LAZY_READ 및 NOT_GROUPABLE
 
 ### 할당
 
 |   |   |   |   | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|---|---|---|---|
-|   |   |   |   | assignUserToRoleOnTasks | getAssignAssignmentsForTasks  |   |   |   |   |   |
-|   |   |   |   | swapUsersOnTasks | getUnassignmentForTasks |   |   |   |   |   |
+|   |   |   |   | assignUserToRoleOntasks | getAssignAssignmentsForTasks  |   |   |   |   |   |
+|   |   |   |   | swapUserOnTasks | getUnassignAssignmentsForTasks |   |   |   |   |   |
 |   |   |   |   | unassignUserFromTasks |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 고객
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| bizRuleExclusions¹ |   |   |   | getPackagingOptionValue |   |   |
-| proofPlan¹ |   |   |   | isPackagingOptionEnabled |   |   |
+| bizRuleExclusions<sup>1</sup> |   |   |   | getPackagingOptionValue |   |   |
+| proofPlan<sup>1</sup> |   |   |   | isPackagingOptionEnabled |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹가능한 값에 대한 변경 사항
+<sup>1</sup>가능한 값 변경
 
-### 고객 기본 설정
+### 고객 환경 설정
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| 이름¹ |   |   |   |   |   |   |
+| 이름<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹가능한 값에 대한 변경 사항
+<sup>1</sup>가능한 값 변경
 
 ### DocumentApproval
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| ID¹ |   |   |   |   |   |   |
+| ID<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹추가된 플래그: NOT_FILTERABLE
+<sup>1</sup>플래그 추가됨: NOT_FILTERABLE
 
 ### DocumentVersion
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| activeProofStage |   |   |   |   |   |   |
+| active증명 단계 |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 그룹
 
@@ -115,17 +116,17 @@ ht-degree: 37%
 |---|---|---|---|---|---|---|
 |   |   | 소유자 |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### HourType
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| appGlobalID¹ |   |   |   |   |   |   |
+| appGlobalID<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹추가된 플래그: NOT_FILTERABLE
+<sup>1</sup>플래그 추가됨: NOT_FILTERABLE
 
 ### 반복
 
@@ -133,7 +134,7 @@ ht-degree: 37%
 |---|---|---|---|---|---|---|
 |   |   |   |   | moveStories |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 좋아요
 
@@ -141,85 +142,85 @@ ht-degree: 37%
 |---|---|---|---|---|---|---|
 | `endorsementID` | `endorsement` |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 참고
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| auditType¹ |   |   |   |   |   |   |
+| auditType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹가능한 값에 대한 변경 사항
+<sup>1</sup>가능한 값 변경
 
 ### OpTask
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| auditTypes¹ | agileWork  |   |   |   | default표시된 작업표Issues  |   |
+| auditType<sup>1</sup> | 애자일 작업  |   |   |   | defaultShownTimesheetIssues  |   |
 | backlogOrder | 반복 |   |   |   |   |   |
-| backlogParent |   |   |   |   |   |   |
+| 백로그 상위 |   |   |   |   |   |   |
 | 예상 |   |   |   |   |   |   |
-| iterationID |   |   |   |   |   |   |
+| 반복 ID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹가능한 값에 대한 변경 사항
+<sup>1</sup>가능한 값 변경
 
 ### 포트폴리오
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| auditTypes¹ |   |   |   |   |   |   |
+| auditType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹가능한 값에 대한 변경 사항
+<sup>1</sup>가능한 값 변경
 
 ### 프로그램
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| auditTypes¹ |   |   |   |   |   |   |
+| auditType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹가능한 값에 대한 변경 사항
+<sup>1</sup>가능한 값 변경
 
 ### 프로젝트
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| auditTypes¹ |   | resourcePools |   |   | defaultShowTimesetProjects |   |
+| auditType<sup>1</sup> |   | 리소스 풀 |   |   | defaultShownTimesheetProjects |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹가능한 값에 대한 변경 사항
+<sup>1</sup>가능한 값 변경
 
-### 증명 승인
+### ProofApproval
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| 승인자 ID | 승인자 |   |   |   |   |   |
-| documentVersionID | documentVersion |   |   |   |   |   |
-| ID¹ |   |   |   |   |   |   |
-| proofCreationDate |   |   |   |   |   |   |
+| approverID | 승인자 |   |   |   |   |   |
+| 문서 버전 ID | documentVersion |   |   |   |   |   |
+| ID<sup>1</sup> |   |   |   |   |   |   |
+| 증명 생성 날짜 |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹추가된 플래그: NOT_FILTERABLE
+<sup>1</sup>플래그 추가됨: NOT_FILTERABLE
 
 ### QueueDef
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| requestorCoreAction¹ |   |   |   |   |   |   |
-| requestorForbiddenActions¹ |   |   |   |   |   |   |
+| requestorCoreAction<sup>1</sup> |   |   |   |   |   |   |
+| requestorForbiddenActions<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹가능한 값에 대한 변경 사항
+<sup>1</sup>가능한 값 변경
 
 ### 요금
 
@@ -229,15 +230,15 @@ ht-degree: 37%
 | 이름 |   |   |   |   |   |   |
 | startDate |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-### ReservedTime
+### 예약된 시간
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
 | extRefID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 리소스 관리자
 
@@ -245,69 +246,69 @@ ht-degree: 37%
 |---|---|---|---|---|---|---|
 | projectPriority |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 작업
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| auditTypes¹ | agileWork  |   |   |   | allTasksOnIterations  |   |
-| backlogParent | 간판 |   |   |   | defaultShowTimesetTasks |   |
-| 간판ID |   |   |   |   |   |   |
+| auditType<sup>1</sup> | 애자일 작업  |   |   |   | 모든 작업 반복  |   |
+| 백로그 상위 | kanbanBoard |   |   |   | defaultShownTimesheetTasks |   |
+| 칸반 보드 ID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹가능한 값에 대한 변경 사항
+<sup>1</sup>가능한 값 변경
 
 ### 팀
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| agileMethodology |   |   |   |   |   |   |
-| autoAddNextStory |   |   |   |   |   |   |
+| 애자일 방법론 |   |   |   |   |   |   |
+| autoAdd다음 스토리 |   |   |   |   |   |   |
 | includeIssues |   |   |   |   |   |   |
-| teamStoryBoardIssueStatus |   |   |   |   |   |   |
+| teamStoryBoardIssueStates |   |   |   |   |   |   |
 | wipLimit |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 템플릿
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-|   |   | resourcePools |   |   |   |   |
+|   |   | 리소스 풀 |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### TemplateTask
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| auditTypes¹ |   |   |   |   |   |   |
+| auditType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹가능한 값에 대한 변경 사항
+<sup>1</sup>가능한 값 변경
 
 업데이트
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| updateType¹ | `updateEndorsement` |   |   |   |   |   |
+| updateType<sup>1</sup> | `updateEndorsement` |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹가능한 값에 대한 변경 사항
+<sup>1</sup>가능한 값 변경
 
 ### 사용자
 
 |   |   | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|---|---|
-|   |   | resourcePools |   |   |   |   |   |   |
-|   |   | userGroups |   |   |   |   |   |   |
+|   |   | 리소스 풀 |   |   |   |   |   |   |
+|   |   | 사용자 그룹 |   |   |   |   |   |   |
 |   |   | userRoles |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### UserNote
 
@@ -315,22 +316,22 @@ ht-degree: 37%
 |---|---|---|---|---|---|---|
 | `endorsementID` | `endorsement` |   |   |   |   |   |
 | `endorsementShareID` | `endorsementShare` |   |   |   |   |   |
-| eventType¹ |   |   |   |   |   |   |
+| eventType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹가능한 값에 대한 변경 사항
+<sup>1</sup>가능한 값 변경
 
 ### 작업
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| auditTypes¹ | agileWork  |   |   |   |   |   |
-| backlogOrder² | 간판  |   |   |   |   |   |
-| backlogParent  |   |   |   |   |   |   |
-| 간판ID |   |   |   |   |   |   |
+| auditType<sup>1</sup> | 애자일 작업  |   |   |   |   |   |
+| backlogOrder<sup>2</sup> | kanbanBoard  |   |   |   |   |   |
+| 백로그 상위  |   |   |   |   |   |   |
+| 칸반 보드 ID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹가능한 값에 대한 변경 사항\
-²추가된 플래그: DYNAMIC, LAZY_READ 및 NOT_GROUPABLE
+<sup>1</sup>가능한 값 변경\
+<sup>2</sup>추가된 플래그: DYNAMIC, LAZY_READ 및 NOT_GROUPABLE

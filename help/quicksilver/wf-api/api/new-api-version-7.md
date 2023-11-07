@@ -5,11 +5,12 @@ title: API 버전 7의 새로운 기능
 description: 컬렉션
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 8c575251-677b-474d-84aa-02b637ef7760
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 50%
+source-wordcount: '474'
+ht-degree: 47%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 50%
 
 ## 새 개체
 
-### Proof Bean
+### 증명 빈
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
@@ -25,9 +26,9 @@ ht-degree: 50%
 | deadLine |   |   |   |   |   |   |
 | 이름 |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-### DocMetadataLink
+### 문서 메타데이터 링크
 
 <table style="table-layout:auto"> 
  <col> 
@@ -106,7 +107,7 @@ ht-degree: 50%
  </tbody> 
 </table>
 
-### DocMetadataLinkGroup
+### 문서 메타데이터 링크 그룹
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
@@ -117,9 +118,9 @@ ht-degree: 50%
 |   |   |   |   |   |   | 보고서 |
 |   |   |   |   |   |   | 검색 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-### 증명 승인
+### ProofApproval
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
@@ -128,7 +129,7 @@ ht-degree: 50%
 |   |   |   |   |   |   | 보고서 |
 |   |   |   |   |   |   | 검색 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -144,7 +145,7 @@ ht-degree: 50%
 |   |   |   |   |   |   | 보고서 |
 |   |   |   |   |   |   | 검색 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -156,15 +157,15 @@ ht-degree: 50%
 | isOwner  | 사용자  |   |   |   |   |   |
 | userID  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
-### 작업표 프로필
+### 타임시트 프로필
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| ID |   |  hourTypes |   |   |   | 추가 |
+| ID |   |  hourType |   |   |   | 추가 |
 | 이름 |   |   |   |   |   | 복사 |
 |   |   |   |   |   |   | 수 |
 |   |   |   |   |   |   | 삭제 |
@@ -174,7 +175,7 @@ ht-degree: 50%
 |   |   |   |   |   |   | 검색 |
 |   |   |   |   |   |   | 바꾸기 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -183,20 +184,20 @@ ht-degree: 50%
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
 | ID | 고객 | 사용자 |   |   |   | 추가 |
-| customerID  | enteredBy  |   |   |   |   | 수 |
+| customerID  | 입력한 사람  |   |   |   |   | 수 |
 | 설명  | lastUpdatedBy  |   |   |   |   | 삭제 |
-| enteredByID  |   |   |   |   |   | 편집 |
+| 입력자 ID  |   |   |   |   |   | 편집 |
 | entryDate  |   |   |   |   |   | Get |
 | extRefID  |   |   |   |   |   | 보고서 |
-| lastUpdateDate |   |   |   |   |   | 검색 |
-| lastUpdateByID |   |   |   |   |   |   |
+| 마지막 업데이트 날짜 |   |   |   |   |   | 검색 |
+| lastUpdateById |   |   |   |   |   |   |
 | 이름 |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
-### DocMetadataLinkGroup
+### 문서 메타데이터 링크 그룹
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
@@ -205,7 +206,7 @@ ht-degree: 50%
 | pageID  |   |   |   |   |   | 보고서 |
 | url  |   |   |   |   |   | 검색 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -215,17 +216,17 @@ ht-degree: 50%
 
 ## 업데이트된 개체
 
-기존 객체에 대한 변경 사항: 추가 항목을 간단히 나열하거나, 제거 시 취소가 있고, 기존 변경 사항에 대한 표 뒤에 메모가 첨부되어 있습니다.
+기존 객체에 대한 변경 사항: 추가는 간단히 나열되고, 제거는 취소선이 있으며, 기존 객체에 대한 변경 사항은 테이블 뒤에 메모가 첨부되어 있습니다
 
 ### UpdateBean
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| updateType¹ |   |   |   |   |   |   |
+| updateType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ 가능한 값 변경 
+<sup>1</sup> 가능한 값 변경 
 
  
 
@@ -233,17 +234,17 @@ ht-degree: 50%
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| approvalCompletionDate |   |   |   |   |   |   |
-| approvalStartDate¹ |   |   |   |   |   |   |
-| workPerDayList |   |   |   |   |   |    |
+| approvalCompleteDate |   |   |   |   |   |   |
+| approvalStartDate<sup>1</sup> |   |   |   |   |   |   |
+| 일별 작업 목록 |   |   |   |   |   |    |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
-### AccessRule¹
+### AccessRule<sup>1</sup>
 
-¹ 보고 가능한 것으로 플래그 지정됨
+<sup>1</sup> 보고 가능한 것으로 플래그 지정됨
 
  
 
@@ -253,11 +254,11 @@ ht-degree: 50%
 |---|---|---|---|---|---|---|
 |   |   | `AttachedApprovalPaths`  |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
   
 
-### 승인 경로¹
+### 승인 경로<sup>1</sup>
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
@@ -265,9 +266,9 @@ ht-degree: 50%
 |   |   |   |   |   |   | `Delete` |
 |   |   |   |   |   |   | `Edit` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ 제거된 보고 가능 플래그
+<sup>1</sup> 보고 가능 플래그 제거됨
 
  
 
@@ -275,15 +276,15 @@ ht-degree: 50%
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| approvalCompletionDate |   |   |   |   |   |   |
+| approvalCompleteDate |   |   |   |   |   |   |
 | approvalStartDate |   |   |   |   |   |   |
-| workPerDayList |   |   |   |   |   |   |
+| 일별 작업 목록 |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ 추가된 날짜 유효성 검사
+<sup>1</sup> 날짜 유효성 검사 추가됨
 
-² Not_Filterable 플래그가 추가됨
+<sup>2</sup> Not_Filterable 플래그가 추가됨
 
  
 
@@ -291,13 +292,13 @@ ht-degree: 50%
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-|  workPerDayList |   |   |   | assignUserToRoleOnProjects¹ |   |   |
-|   |   |   |   | swapUsersOnProjects¹ |   |   |
-|   |   |   |   | unassignUserFromProjects¹ |   |   |
+|  일별 작업 목록 |   |   |   | assignUserToRoleOnprojects<sup>1</sup> |   |   |
+|   |   |   |   | swapUserOnProjects<sup>1</sup> |   |   |
+|   |   |   |   | 프로젝트에서 사용자 할당 해제<sup>1</sup> |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ 포함 문제 필드가 추가되었습니다.
+<sup>1</sup> 추가된 필드 includeIssues
 
  
 
@@ -305,11 +306,11 @@ ht-degree: 50%
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| bizRuleExclusions¹ |   |   |   |   |   |   |
+| bizRuleExclusions<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ 가능한 값 변경 
+<sup>1</sup> 가능한 값 변경 
 
  
 
@@ -319,7 +320,7 @@ ht-degree: 50%
 |---|---|---|---|---|---|---|
 | groupID  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -329,7 +330,7 @@ ht-degree: 50%
 |---|---|---|---|---|---|---|
 | checkOutTimestamp |   |   |   |  createProof |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -339,7 +340,7 @@ ht-degree: 50%
 |---|---|---|---|---|---|---|
 |   |   |   |   |  getProofingTokens |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -347,12 +348,12 @@ ht-degree: 50%
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| isPublic |  layoutTemplate | userGroups  |   |   |   |   |
-| layoutTemplateID |   |   |   |   |   |   |
+| isPublic |  layoutTemplate | 사용자 그룹  |   |   |   |   |
+| 레이아웃 템플릿 ID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ 8용 PRECISION 유효성 검사기를 9로 변경했습니다.
+<sup>1</sup> PRECISION 검사기를 8에서 9로 변경했습니다.
 
  
 
@@ -366,7 +367,7 @@ ht-degree: 50%
 |   |   |   |   |   | globalHourTypes  |   |
 |   |   |   |   |   | objectHourTypes  |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -374,11 +375,11 @@ ht-degree: 50%
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| changeType¹ |   |   |   |   |   |   |
+| changeType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ 가능한 값 변경
+<sup>1</sup> 가능한 값 변경
 
  
 
@@ -386,10 +387,10 @@ ht-degree: 50%
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| approvalCompletionDate |   |   |   |  assignMultiple |   |   |
+| approvalCompleteDate |   |   |   |  assignMultiple |   |   |
 | approvalStartDate |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -399,10 +400,10 @@ ht-degree: 50%
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| approvalCompletionDate |   |   |   |   |   |   |
+| approvalCompleteDate |   |   |   |   |   |   |
 | approvalStartDate |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -414,17 +415,17 @@ ht-degree: 50%
 |---|---|---|---|---|---|---|
 | allowedLegacyQueueTopicIDs |  |  |  | getQueueDefTree |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
-### 큐 항목
+### 대기열 주제
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-|   |   |   |   |   |  queueTopicID |   |
+|   |   |   |   |   |  대기열 주제 ID |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -432,9 +433,9 @@ ht-degree: 50%
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-|   |   |   |   |  updateLastViewedObject |   |   |
+|   |   |   |   |  updateLastViewsObject |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -442,11 +443,11 @@ ht-degree: 50%
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| approvalCompletionDate |   |   |   | assignMultiple  |   |   |
+| approvalCompleteDate |   |   |   | assignMultiple  |   |   |
 | approvalStartDate |   |   |   |   |   |   |
-| workPerDayList |   |   |   |   |   |   |
+| 일별 작업 목록 |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -454,11 +455,11 @@ ht-degree: 50%
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| workRequired¹ |   |   |   |   |   |   |
+| 작업 필요<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Type Changed from Int에서 Double로 
+<sup>1</sup> 유형이 Int에서 Double로 변경됨 
 
  
 
@@ -491,14 +492,14 @@ ht-degree: 50%
    <td>
     <code>roles</code> </td> 
    <td> 역할</td> 
-   <td>addMobileDevice</td> 
+   <td>add모바일 장치</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;scheduleDeactivationDate&quot;}" data-sheets-userformat="{&quot;2&quot;:8707,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:14277081},&quot;12&quot;:0,&quot;16&quot;:10}">scheduleDeactivationDate</span></td> 
    <td> </td> 
-   <td><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;timesheetProfileHourTypes&quot;}" data-sheets-userformat="{&quot;2&quot;:8707,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:14277081},&quot;12&quot;:0,&quot;16&quot;:10}">timesetProfileHourTypes</span> </td> 
+   <td><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;timesheetProfileHourTypes&quot;}" data-sheets-userformat="{&quot;2&quot;:8707,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:14277081},&quot;12&quot;:0,&quot;16&quot;:10}">timesheetProfileHourTypes</span> </td> 
    <td> </td> 
    <td>getAvailableActions</td> 
    <td> </td> 
@@ -543,15 +544,15 @@ ht-degree: 50%
  </tbody> 
 </table>
 
-### 사용자 참고
+### 사용자 메모
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
 | `acknowledgedmentIDs` |   |   |   |  unackknowledgeMany |   |   |
-| ackDate |   |   |   |   |   |   |
+| 날짜 |   |   |   |   |   |   |
 | ackType |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -563,6 +564,6 @@ ht-degree: 50%
 |---|---|---|---|---|---|---|
 |  이름 |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ 가능한 값 변경
+<sup>1</sup> 가능한 값 변경

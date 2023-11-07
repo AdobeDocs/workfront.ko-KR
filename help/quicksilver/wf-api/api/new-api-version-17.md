@@ -5,7 +5,9 @@ title: API 버전 17의 새로운 기능
 description: Adobe Workfront은 2022년 4월 6일에 API 버전 17을 출시했습니다. API 버전 17에는 버전 15의 다음 변경 사항이 포함되어 있습니다.
 author: Becky
 feature: Workfront API
-source-git-commit: e0b040b062796a1d1b1e0c029ca0ef71b77ed54a
+role: Developer
+exl-id: 08e90754-5505-424c-ae67-015cc987b5df
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '1351'
 ht-degree: 4%

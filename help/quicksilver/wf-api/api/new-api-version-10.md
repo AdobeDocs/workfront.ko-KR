@@ -5,11 +5,12 @@ title: API 버전 10의 새로운 기능
 description: 업데이트된 리소스
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 8ac384ae-5d65-4c0e-98c1-cf38cfbff460
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 45%
+source-wordcount: '472'
+ht-degree: 41%
 
 ---
 
@@ -26,52 +27,52 @@ ht-degree: 45%
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
 |   |   |   |   |   |   | 추가 |
-|   |   |   |   |   |   | 카운트 |
+|   |   |   |   |   |   | 수 |
 |   |   |   |   |   |   | GET |
 |   |   |   |   |   |   | 검색 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### CalendarEntry
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | 추가 |
-|   |   |   |   |   |   | 카운트  |
+|   |   |   |   |   |   | 수  |
 |   |   |   |   |   |   | DELETE  |
 |   |   |   |   |   |   | 편집  |
 |   |   |   |   |   |   | GET  |
 |   |   |   |   |   |   | 보고서  |
 |   |   |   |   |   |   | 검색 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### CalendarEntryExternalReference
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| ID |   |   |   |   |   | 카운트 |
+| ID |   |   |   |   |   | 수 |
 |   |   |   |   |   |   | GET  |
 |   |   |   |   |   |   | 보고서  |
 |   |   |   |   |   |   | 검색  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### ExternalAuthToken
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | 추가 |
-|   |   |   |   |   |   | 카운트 |
+|   |   |   |   |   |   | 수 |
 |   |   |   |   |   |   | DELETE  |
 |   |   |   |   |   |   | 편집  |
 |   |   |   |   |   |   | GET  |
 |   |   |   |   |   |   | 보고서  |
 |   |   |   |   |   |   | 검색  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-### LicenseTypeGroupLimit
+### 라이선스 유형 그룹 제한
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
@@ -79,118 +80,118 @@ ht-degree: 45%
 | groupID | 그룹 |   |   |   |   |   |
 | planLimit |   |   |   |   |   |   |
 | usedLicenses |   |   |   |   |   |   |
-| 작업량 제한 |   |   |   |   |   |   |
+| 작업 제한 |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### UserHomeCalendarPreference
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
 | customerID | 고객 |   |   |   |   | 추가 |
-| edTime | 사용자 |   |   |   |   | 카운트 |
+| edTime | 사용자 |   |   |   |   | 수 |
 | firstDayOfWeek |   |   |   |   |   | DELETE |
 | ID |   |   |   |   |   | 편집 |
 | showPTO |   |   |   |   |   | GET |
 | startTime |   |   |   |   |   | 보고서 |
 | userID |   |   |   |   |   | 검색 |
-| workDate |   |   |   |   |   |   |
+| 작업 날짜 |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 **업데이트된 리소스**
 
-다음 기존 리소스가 이 Workfront API 릴리스로 업데이트되었습니다. 리소스에 대한 변경 사항은 다음과 같이 표시됩니다.
+다음 기존 리소스가 Workfront API의 이번 릴리스로 업데이트되었습니다. 리소스에 대한 변경 사항은 다음과 같이 표시됩니다.
 
-* 추가는 단순히 나열됨
+* 추가 사항은 간단히 나열되어 있습니다
 * 제거는 취소선 텍스트로 표시됩니다
-* 변경 사항은 테이블 뒤에 메모에 나열됩니다
+* 변경 사항은 표 뒤에 있는 메모에 나열되어 있습니다
 
 ### 승인
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| 간판 플래그 |  |  | pendingApproval `¹`   |   |   |   |
+| kanbanbflag |  |  | pendingApproval `<sup>1</sup>`   |   |   |   |
 | `masterTaskID` |   |   |   |   |   |   |
 | priorityColor  |   |   |   |   |   |   |
 | projectBudgetCost  |   |   |   |   |   |   |
-| projectNetValue  |   |   |   |   |   |   |
+| 프로젝트 순 가치  |   |   |   |   |   |   |
 | projectRoi  |   |   |   |   |   |   |
-| resourcePlannerScheduledLaborCost  |   |   |   |   |   |   |
+| resourcePlannerBudgetedLaborCost  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-`¹ Type changed from null to boolean`
+`<sup>1</sup> Type changed from null to boolean`
 
 ### 할당
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| assignmentPercent `¹` |   |   |   |   |   |   |
+| assignmentPercent `<sup>1</sup>` |   |   |   |   |   |   |
 | viewedByAssignedToUser |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-`¹`유효성 검사기 LESS_THAN_EQUAL가 추가되었습니다.
+`<sup>1</sup>`검사기 LESS_THAN_EQUAL 추가됨
 
-### 예산책정 시간
+### BudgetedHour
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
-### 고객 기본 설정
+### 고객 환경 설정
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| 이름 `¹` |   |   |   |   |   |   |
+| 이름 `<sup>1</sup>` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ 가능한 값 변경
+<sup>1</sup> 가능한 값 변경
 
-### DocMetadataLinkGroup
+### 문서 메타데이터 링크 그룹
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
 |   |   |   |   | getMetadataForDocument |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 문서
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| `masterTaskID` |  |  |  |  |  |  |
+| `masterTaskID` |  |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### DocumentRequest
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| `masterTaskID` |  |  |  |  |  |  |
+| `masterTaskID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 DocumentVersion
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| externalIntegrationType ¹ |   |   |   |   |   |   |
+| externalIntegrationType <sup>1</sup> |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ 가능한 값 변경
+<sup>1</sup> 가능한 값 변경
 
 경비
 
@@ -198,7 +199,7 @@ DocumentVersion
 |---|---|---|---|---|---|---|
 | `masterTaskID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 그룹
 
@@ -207,83 +208,83 @@ DocumentVersion
 |   | licenseTypeLimit |   |   | addRemoveLicenseTypeLimits  |   |   |
 |   |   |   |   | setLicenseTypeLimit |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### LinkedFolder
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| externalIntegrationType¹ |  |  |  |  |  |  |
+| externalIntegrationType<sup>1</sup> |  |  |  |  |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ 가능한 값 변경
+<sup>1</sup> 가능한 값 변경
 
 ### OpTask
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| priorityColor |  |  | pendingApproval¹ |  |  |  |
+| priorityColor |   |  | pendingApproval<sup>1</sup> |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ 유형이 null에서 부울로 변경됨
+<sup>1</sup> 유형이 null에서 부울로 변경됨
 
-### 포털 섹션
+### PortalSection
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-|  |  |  | groupIDs |  |  |  |
+|   |  |   | groupIDs |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 포트폴리오
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| portfolioNetValue |  |  |  |  |  |  |
+| portfolioNetValue |   |   |   |  |  |   |
 | portfolioRoi |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 프로젝트
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
 | projectBudgetCost  |   |   |   | linkExternalObject  |   |   |
-| projectNetValue |   |   |   | unlinkExternalObject |   |   |
+| 프로젝트 순 가치 |   |   |   | 외부 개체 연결 해제 |   |   |
 | projectRoi |   |   |   |   |   |   |
-| resourcePlannerScheduledLaborCost |   |   |   |   |   |   |
+| resourcePlannerBudgetedLaborCost |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-### 증명 승인
+### ProofApproval
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| 승인자 결정 |  |  |  |  |  |  |
+| 승인자 결정 |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 요금
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| rateValue ¹ |  |  |  |  |  |  |
+| rateValue <sup>1</sup> |  |  |  |  |  |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹유효성 검사기 통화가 추가되었습니다.
+<sup>1</sup>유효성 검사기 통화 추가됨
 
 ### 작업
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| 간판 플래그 |   |   |   |   |   |   |
+| kanbanbflag |   |   |   |   |   |   |
 | `masterTaskID` |   |   |   |   |   |   |
 | priorityColor  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -291,19 +292,19 @@ DocumentVersion
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| hoursPerPoint ¹ |   |   |   |   |   |   |
+| hoursPerPoint <sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ 유효성 검사기 LESS_THAN 추가
+<sup>1</sup> 유효성 검사기 LESS_THAN 추가됨
 
-### TeamAssignment
+### 팀 할당
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
 | `masterTaskID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### TeamTask
 
@@ -311,7 +312,7 @@ DocumentVersion
 |---|---|---|---|---|---|---|
 | `masterTaskID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 타임시트
 
@@ -319,63 +320,63 @@ DocumentVersion
 |---|---|---|---|---|---|---|
 |   |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 업데이트
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| updateType `¹` |   |   |   |   |   | objectUpdatesWithNoteAndJournalEntryIndex  |
+| updateType `<sup>1</sup>` |   |   |   |   |   | objectUpdatesWithNoteAndJournalEntryIndex  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-가능한 값 ¹ 변경
+<sup>1</sup> possibleValues 변경
 
 ### 사용자
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-|   | accessLevel  |   |   |   |   |   |
+|   | 액세스 수준  |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### UserNote
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| eventType ¹ |   |   |   |   |   |   |
+| eventType <sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-가능한 값 ¹ 변경
+<sup>1</sup> possibleValues 변경
 
 ### 작업
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| 간판 플래그 |  |  | pendingApproval ¹  |   |   |   |
+| kanbanbflag |  |  | pendingApproval <sup>1</sup>  |   |   |   |
 | `masterTaskID` |   |   |   |   |   |   |
 | priorityColor  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ 유형이 null에서 부울로 변경됨
+<sup>1</sup> 유형이 null에서 부울로 변경됨
 
 ## 제거된 리소스 {#removed-resources}
 
-### 자원_예산책정된_시간
+### 리소스 예산 시간
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
 | allocationDate |   |   |   |   |   | 추가  |
-| backgroundHours |   |   |   |   |   | 카운트  |
+| budgetHours |   |   |   |   |   | 수  |
 | ID |   |   |   |   |   | DELETE  |
-| planningScheduledHours |   |   |   |   |   | 편집  |
+| plannedBudgetHours |   |   |   |   |   | 편집  |
 | projectID |   |   |   |   |   | GET  |
 | roleID |   |   |   |   |   | 보고서  |
 | userID |   |   |   |   |   | 검색 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 

@@ -6,8 +6,9 @@ navigation-topic: api-navigation-topic
 title: '핵심 API 변경: 상태 검색 응답'
 description: Workfront이 상태 개체를 저장하는 방식의 변경 사항입니다.
 feature: Workfront API
+role: Developer
 exl-id: 322f1525-d1d5-4845-a590-e34eb94ccdc2
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 1%

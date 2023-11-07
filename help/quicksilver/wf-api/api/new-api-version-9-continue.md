@@ -2,22 +2,23 @@
 content-type: api
 navigation-topic: api-navigation-topic
 title: API 버전 9의 새로운 기능(계속)
-description: 이 목록은 더 큰 목록의 두 번째 부분입니다. 전반부는 API 버전 9의 새로운 기능 을 참조하십시오. 버전 9에 대한 업데이트 목록은 API 버전 9 업데이트에 있습니다.
+description: 이 목록은 더 큰 목록의 후반부입니다. 전반부는 API 버전 9의 새로운 기능에 위치할 수 있습니다. API 버전 9에 대한 업데이트에서 버전 9에 대한 업데이트 목록을 확인할 수 있습니다.
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 0af97c16-e6a7-4796-92e0-4c2d9751c845
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 29%
+source-wordcount: '145'
+ht-degree: 25%
 
 ---
 
 # API 버전 9의 새로운 기능(계속)
 
-이 목록은 더 큰 목록의 두 번째 부분입니다. 전반부는 다음 위치에 있습니다. [API 버전 9의 새로운 기능](../../wf-api/api/new-api-version-9.md). 버전 9에 대한 업데이트 목록을 찾을 수 있습니다. [API 버전 9 업데이트](../../wf-api/api/new-api-version-9-updates.md).
+이 목록은 더 큰 목록의 후반부입니다. 전반부는 다음 위치에 있습니다. [API 버전 9의 새로운 기능](../../wf-api/api/new-api-version-9.md). 버전 9에 대한 업데이트 목록은 다음 위치에서 찾을 수 있습니다. [API 버전 9 업데이트](../../wf-api/api/new-api-version-9-updates.md).
 
-## 포털 섹션
+## PortalSection
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
@@ -83,21 +84,21 @@ ht-degree: 29%
 | `viewID` |   |   |   |   |   |   |
 | `width` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-## PortalSectionLastViewer
+## 포털 섹션 마지막 뷰어
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| createDate | `customer` |  |  |  |  | `COUNT` |
+| creationDate | `customer` |  |  |  |  | `COUNT` |
 | `customerID` | `report` |  |  |  |  | `GET` |
 | `ID` | `viewer` |  |  |  |  | `REPORT` |
 | `reportID` |  |  |  |  |  | `SEARCH` |
 | viewerID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-## PortalSectionStatisticsInfo
+## PortalSectionStatisticInfo
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
@@ -113,9 +114,9 @@ ht-degree: 29%
 | `viewsThisQuarter`  |   |   |   |   |   |   |
 | `viewsThisYear`  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-## PortalTab
+## 포털 탭
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
@@ -135,9 +136,9 @@ ht-degree: 29%
 | `tabname` |   |   |   |   |   |   |
 | `userID`  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-## PortalTabSection
+## 포털 탭 섹션
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
@@ -152,9 +153,9 @@ ht-degree: 29%
 | `portalSectionObjID`  |   |   |   |   |   |   |
 | `portalTabID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-## ReportFolder
+## 보고서 폴더
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
@@ -162,9 +163,9 @@ ht-degree: 29%
 | `ID`  |   |   |   |   |   |   |
 | 이름 |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-## 예약 보고서
+## 일정 보고서
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|

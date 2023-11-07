@@ -2,11 +2,12 @@
 content-type: api
 navigation-topic: api-navigation-topic
 title: API 버전 15의 새로운 기능
-description: Adobe Workfront은 2022년 6월 14일에 API 버전 14를 릴리스했습니다. API 버전 15는 버전 14에서 다음과 같은 변경 사항을 제공합니다.
+description: Adobe Workfront은 2022년 6월 14일에 API 버전 14를 출시했습니다. API 버전 15에는 버전 14의 다음 변경 사항이 포함되어 있습니다.
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 1cfdc136-f3b4-4beb-b58b-f546a5510e6d
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '2349'
 ht-degree: 3%
@@ -15,25 +16,25 @@ ht-degree: 3%
 
 # API 버전 15의 새로운 기능
 
-Adobe Workfront은 2022년 6월 14일에 API 버전 15를 릴리스했습니다. API 버전 15는 버전 14에서 다음과 같은 변경 사항을 제공합니다.
+Adobe Workfront은 2022년 6월 14일에 API 버전 15를 출시했습니다. API 버전 15에는 버전 14의 다음 변경 사항이 포함되어 있습니다.
 
-## 리소스를 추가했습니다.
+## 추가된 리소스
 
 * [이니셔티브(INITIV)](#Initiati)
 
-* [Issudef(ISDEF)](#IssueDef)
+* [IssueDef (ISSDEF)](#IssueDef)
 
-* [개체 통합(OBJECT)](#ObjectIn)
+* [ObjectIntegration(OBJINT)](#ObjectIn)
 
 * [RichTextGroupParameterValue(GRCVAL)](#RichText)
 
 * [TaskDef(TSKDEF)](#TaskDef)
 
-* [사용자 승인(USRAPV)](#UserAppr)
+* [UserApproval (USPRAPV)](#UserAppr)
 
 ### 이니셔티브(INITIV)
 
-이니셔티브 객체는 Workfront 시나리오 플래너에 작업 역할의 종류 및 수, 고정 비용 및 계획 혜택에 대한 예측을 생성합니다.
+이 이니셔티브 오브젝트는 Workfront 시나리오 플래너에서 작업 역할의 종류와 수, 고정 비용 및 계획된 혜택에 대한 예상치를 생성합니다.
 
 이니셔티브에 대한 자세한 내용은 [시나리오 플래너의 이니셔티브 개요](../../scenario-planner/initiatives-overview.md).
 
@@ -58,12 +59,12 @@ Adobe Workfront은 2022년 6월 14일에 API 버전 15를 릴리스했습니다.
           <li>
             <p><b>endDate</b>
             </p>
-            <p>이니셔티브 계획 완료 일자.</p>
+            <p>이니셔티브의 계획된 완료 일자.</p>
           </li>
           <li>
-            <p><b>enteredByID</b>
+            <p><b>입력자 ID</b>
             </p>
-            <p>요청을 제출한 사용자와 연결된 ID입니다.</p>
+            <p>요청을 제출한 사용자와 연계된 ID.</p>
           </li>
           <li>
             <p><b>ID</b>
@@ -73,12 +74,12 @@ Adobe Workfront은 2022년 6월 14일에 API 버전 15를 릴리스했습니다.
           <li>
             <p><b>initiativeID</b>
             </p>
-            <p>이니셔티브와 연관된 ID입니다.</p>
+            <p>이니셔티브와 연계된 ID.</p>
           </li>
           <li>
-            <p><b>lastPublishedDate</b>
+            <p><b>lastPublishDate</b>
             </p>
-            <p>이니셔티브가 Workfront 시나리오 플래너에 마지막으로 게시된 날짜입니다.</p>
+            <p>Workfront 시나리오 플래너에 이니셔티브가 마지막으로 게시된 날짜입니다.</p>
           </li>
           <li>
             <p><b>이름</b>
@@ -88,27 +89,27 @@ Adobe Workfront은 2022년 6월 14일에 API 버전 15를 릴리스했습니다.
           <li>
             <p><b>planID</b>
             </p>
-            <p>이니셔티브와 연관된 계획의 ID입니다.</p>
+            <p>이니셔티브와 연계된 플랜의 ID.</p>
           </li>
           <li>
             <p><b>planName</b>
             </p>
-            <p>이니셔티브와 연관된 계획의 이름입니다.</p>
+            <p>이니셔티브와 연계된 플랜의 이름입니다.</p>
           </li>
           <li>
             <p><b>projectID</b>
             </p>
-            <p>이니셔티브와 연관된 프로젝트의 ID입니다.</p>
+            <p>이니셔티브와 연계된 프로젝트의 ID.</p>
           </li>
           <li>
-            <p><b>scenarioID</b>
+            <p><b>시나리오 ID</b>
             </p>
-            <p>이니셔티브와 연관된 Workfront 시나리오 플래너의 시나리오 ID입니다.</p>
+            <p>이니셔티브와 연결된 Workfront 시나리오 플래너에 있는 시나리오의 ID입니다.</p>
           </li>
           <li>
             <p><b>startDate</b>
             </p>
-            <p>이니셔티브 계획 시작 일자.</p>
+            <p>이니셔티브의 계획된 시작 일자입니다.</p>
           </li>
         </ul>
       </td>
@@ -122,7 +123,7 @@ Adobe Workfront은 2022년 6월 14일에 API 버전 15를 릴리스했습니다.
             </p>
           </li>
           <li>
-            <p><b>enteredBy</b>
+            <p><b>입력한 사람</b>
             </p>
           </li>
           <li>
@@ -133,7 +134,7 @@ Adobe Workfront은 2022년 6월 14일에 API 버전 15를 릴리스했습니다.
       </td>
     </tr>
     <tr>
-      <td role="rowheader">핵심 필드</td>
+      <td role="rowheader">코어 필드</td>
       <td>
         <ul>
           <li>
@@ -156,7 +157,7 @@ Adobe Workfront은 2022년 6월 14일에 API 버전 15를 릴리스했습니다.
       <td>
         <ul>
           <li>
-            <p><b>카운트</b>
+            <p><b>수</b>
             </p>
           </li>
           <li>
@@ -177,9 +178,9 @@ Adobe Workfront은 2022년 6월 14일에 API 버전 15를 릴리스했습니다.
   </tbody>
 </table>
 
-### Issudef(ISDEF)
+### IssueDef (ISSDEF)
 
-IssueDef 개체는 문제 형식과 관련된 데이터 집합을 나타냅니다. 이 개체는 프로젝트 또는 템플릿에 첨부할 수 있으며 해당 프로젝트 또는 템플릿에 추가된 문제에 영향을 줍니다.
+IssueDef 개체는 문제 형식과 관련된 데이터 집합을 나타냅니다. 이 개체는 프로젝트 또는 템플릿에 첨부할 수 있으며, 해당 프로젝트 또는 템플릿에 추가된 문제에 영향을 줍니다.
 
 <table>
   <col/>
@@ -201,7 +202,7 @@ IssueDef 개체는 문제 형식과 관련된 데이터 집합을 나타냅니�
       </td>
     </tr>
     <tr>
-      <td role="rowheader">핵심 필드</td>
+      <td role="rowheader">코어 필드</td>
       <td>
         <ul>
           <li>
@@ -218,7 +219,7 @@ IssueDef 개체는 문제 형식과 관련된 데이터 집합을 나타냅니�
   </tbody>
 </table>
 
-### 개체 통합(OBJECT)
+### ObjectIntegration(OBJINT)
 
 경우에 따라 Workfront 작업 항목을 외부 소프트웨어 제품의 개체에 직접 연결할 수 있습니다. ObjectIntegration 개체는 이 링크를 나타냅니다.
 
@@ -238,7 +239,7 @@ IssueDef 개체는 문제 형식과 관련된 데이터 집합을 나타냅니�
           <li>
             <p><b>entryDate</b>
             </p>
-            <p>Workfront 시스템에 ObjectIntegration을 입력한 날짜 및 시간입니다.</p>
+            <p>ObjectIntegration이 Workfront 시스템에 입력된 날짜 및 시간입니다.</p>
           </li>
           <li>
             <p><b>ID</b>
@@ -248,32 +249,32 @@ IssueDef 개체는 문제 형식과 관련된 데이터 집합을 나타냅니�
           <li>
             <p><b>integrationType</b>
             </p>
-            <p>ObjectIntegration 개체가 연결되는 링크를 만드는 외부 소프트웨어입니다. 가능한 값은 다음과 같습니다.</p>
+            <p>ObjectIntegration 개체가 링크를 만드는 외부 소프트웨어입니다. 가능한 값:</p>
             <ul>
               <li>
-                <p>JIRA</p>
+                <p>JRA</p>
               </li>
               <li>
                 <p>SALESFORCE</p>
               </li>
               <li>
-                <p>안팔란</p>
+                <p>ANAPLAN</p>
               </li>
             </ul>
           </li>
           <li>
-            <p><b>linkedObjectID</b>
+            <p><b>linkedObjectId</b>
             </p>
           </li>
           <li>
             <p><b>objID</b>
             </p>
-            <p>ObjectIntegration이 연결된 Workfront의 객체입니다.</p>
+            <p>ObjectIntegration이 연결된 Workfront의 개체입니다.</p>
           </li>
           <li>
             <p><b>objObjCode</b>
             </p>
-            <p>ObjectIntegration이 연결된 Workfront의 개체 코드입니다.</p>
+            <p>ObjectIntegration이 연결된 Workfront에 있는 객체의 객체 코드입니다.</p>
           </li>
           <li>
             <p><b>param1</b>
@@ -305,7 +306,7 @@ IssueDef 개체는 문제 형식과 관련된 데이터 집합을 나타냅니�
       </td>
     </tr>
     <tr>
-      <td role="rowheader">핵심 필드</td>
+      <td role="rowheader">코어 필드</td>
       <td>
         <ul>
           <li>
@@ -324,7 +325,7 @@ IssueDef 개체는 문제 형식과 관련된 데이터 집합을 나타냅니�
 
 ### TaskDef(TSKDEF)
 
-TaskDef 개체는 작업 형식과 관련된 데이터 집합을 나타냅니다. 이 객체는 프로젝트 또는 템플릿에 첨부할 수 있으며 해당 프로젝트 또는 템플릿에 추가된 작업에 영향을 줍니다.
+TaskDef 개체는 작업 형식에 대한 데이터 집합을 나타냅니다. 이 개체는 프로젝트 또는 템플릿에 첨부할 수 있으며, 해당 프로젝트 또는 템플릿에 추가된 작업에 영향을 줍니다.
 
 <table>
   <col/>
@@ -335,7 +336,7 @@ TaskDef 개체는 작업 형식과 관련된 데이터 집합을 나타냅니다
       <td>
         <ul>
           <li>
-            <p><b>autoCalcPlanningHours </b>
+            <p><b>autoCalcPlannedHours </b>
             </p>
           </li>
           <li>
@@ -361,7 +362,7 @@ TaskDef 개체는 작업 형식과 관련된 데이터 집합을 나타냅니다
       <td>
         <ul>
           <li>
-            <p><b>objectCategories
+            <p><b>objectCategors
 </b>
             </p>
           </li>
@@ -369,7 +370,7 @@ TaskDef 개체는 작업 형식과 관련된 데이터 집합을 나타냅니다
       </td>
     </tr>
     <tr>
-      <td role="rowheader">핵심 필드</td>
+      <td role="rowheader">코어 필드</td>
       <td>
         <ul>
           <li>
@@ -386,7 +387,7 @@ TaskDef 개체는 작업 형식과 관련된 데이터 집합을 나타냅니다
   </tbody>
 </table>
 
-### 사용자 승인(USRAPV)
+### UserApproval (USPRAPV)
 
 <table>
   <col/>
@@ -397,7 +398,7 @@ TaskDef 개체는 작업 형식과 관련된 데이터 집합을 나타냅니다
       <td>
         <ul>
           <li>
-            <p><b>승인자 ID</b>
+            <p><b>approverID</b>
             </p>
           </li>
           <li>
@@ -413,7 +414,7 @@ TaskDef 개체는 작업 형식과 관련된 데이터 집합을 나타냅니다
             </p>
           </li>
           <li>
-            <p><b>requestorID</b>
+            <p><b>요청자 ID</b>
             </p>
           </li>
           <li>
@@ -451,7 +452,7 @@ TaskDef 개체는 작업 형식과 관련된 데이터 집합을 나타냅니다
       </td>
     </tr>
     <tr>
-      <td role="rowheader">핵심 필드</td>
+      <td role="rowheader">코어 필드</td>
       <td>
         <ul>
           <li>
@@ -470,11 +471,11 @@ TaskDef 개체는 작업 형식과 관련된 데이터 집합을 나타냅니다
       <td >
         <ul>
           <li>
-            <p><b>승인자 ID</b>
+            <p><b>approverID</b>
             </p>
           </li>
           <li>
-            <p><b>requestorID</b>
+            <p><b>요청자 ID</b>
             </p>
           </li>
           <li>
@@ -512,7 +513,7 @@ TaskDef 개체는 작업 형식과 관련된 데이터 집합을 나타냅니다
             </p>
           </li>
           <li>
-            <p><b>카운트</b>
+            <p><b>수</b>
             </p>
           </li>
           <li>
@@ -547,47 +548,47 @@ API 버전 15에 대해 제거된 리소스가 없습니다.
 
 * [AccessLevelPermissions(ALVPER)](#AccessLe2)
 
-* [AccessRequest(ACSCREQ)](#AccessRe)
+* [AccessRequest(ACSREQ)](#AccessRe)
 
-* [액세스 규칙(ACSURL)](#AccessRu)
+* [AccessRule(ACSRUL)](#AccessRu)
 
 * [승인(승인)](#Approval)
 
-* [카테고리(CTGY)](#Category)
+* [범주(CTGY)](#Category)
 
-* [CategoryParameter(CTGYPA)](#Category2)
+* [CategoryParameter(CTGAA)](#Category2)
 
-* [고객 기본 설정(CUSTOMER)](#Customer)
+* [CustomerPreferences (CUSTPR)](#Customer)
 
 * [DocumentFolder(DOCFDR)](#Document)
 
-* [DocumentVersion(DOCV)](#Document2)
+* [DocumentVersion (DOCV)](#Document2)
 
 * [그룹(그룹)](#Group)
 
-* [분개 입력(JRNLE)](#JournalE)
+* [저널 게시물(JRNL)](#JournalE)
 
 * [LinkedFolder(LNKFDR)](#LinkedFo)
 
-* [OpTask/Issue(OPTASK)](#OpTask)
+* [OpTask / 문제 (OPTASK)](#OpTask)
 
-* [매개 변수(PARAM)](#Paramete)
+* [매개 변수(매개 변수)](#Paramete)
 
 * [Portfolio(포트)](#Portfoli)
 
 * [프로그램(PRGM)](#Program)
 
-* [프로젝트(PROJ)](#Project)
+* [프로젝트(프로젝트)](#Project)
 
 * [QueueDef(QUED)](#QueueDef)
 
-* [ScoreCardQuestion(SCOREQ)](#ScoreCar)
+* [ScoreCardQuestion(SCORREQ)](#ScoreCar)
 
 * [작업(작업)](#Task)
 
 * [템플릿(TMPL)](#Template)
 
-* [작업표(TSHET)](#Timeshee)
+* [타임시트(세트)](#Timeshee)
 
 * [보기(UIVIEW)](#View)
 
@@ -595,13 +596,13 @@ API 버전 15에 대해 제거된 리소스가 없습니다.
 
 * [사용자(사용자)](#User)
 
-* [UserNote (USRNOT)](#UserNote)
+* [UserNote(USRNOT)](#UserNote)
 
-* [작업 시간(작업 시간)](#Work)
+* [작업(작업)](#Work)
 
 ### 액세스 수준(ACSLVL)
 
-AccessLevel 개체는 사용자와 연결되며 사용자가 액세스할 수 있는 항목을 결정하는 AccessLevelPermissions 집합을 설명합니다.
+AccessLevel 개체는 사용자와 연결되어 있으며 사용자가 액세스할 수 있는 항목을 결정하는 AccessLevelPermissions 집합에 대해 설명합니다.
 
 액세스 수준에 대한 자세한 내용은 [액세스 수준](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
 
@@ -614,14 +615,14 @@ AccessLevel 개체는 사용자와 연결되며 사용자가 액세스할 수 �
       <td>
         <ul>
           <li>
-            <p><b>fieldAccessPrivileges</b> (문자열[])</p>
-            <p>다음 가능한 값을 추가했습니다.</p>
+            <p><b>필드 액세스 권한</b> (string[])</p>
+            <p>다음과 같은 가능한 값이 추가되었습니다.</p>
             <ul>
               <li>
-                <p>VTMAWMG(내 그룹과 연결된 팀 보기)</p>
+                <p>VTMAWMG(내 그룹과 관련된 팀 보기)</p>
               </li>
               <li>
-                <p>VALLTM(모든 팀 보기)</p>
+                <p>VALLTM (모든 팀 보기)</p>
               </li>
             </ul>
           </li>
@@ -633,7 +634,7 @@ AccessLevel 개체는 사용자와 연결되며 사용자가 액세스할 수 �
 
 ### AccessLevelPermissions(ALVPER)
 
-AccessLevelPermissions 개체는 Workfront 개체에 액세스, 만들기 또는 수정하기 위한 특정 권한을 나타냅니다. 그런 다음 액세스 수준과 연결할 수 있습니다.
+AccessLevelPermissions 개체는 Workfront 개체에 액세스, 만들기 또는 수정할 수 있는 특정 권한을 나타냅니다. 그런 다음 이러한 권한을 액세스 수준과 연결할 수 있습니다.
 
 <table>
   <col/>
@@ -644,38 +645,38 @@ AccessLevelPermissions 개체는 Workfront 개체에 액세스, 만들기 또는
       <td>
         <ul>
           <li>
-            <p><b>coreAction</b> (문자열[])</p>
-            <p>다음 가능한 값을 추가했습니다.</p>
+            <p><b>coreAction</b> (string[])</p>
+            <p>다음과 같은 가능한 값이 추가되었습니다.</p>
             <ul>
               <li>
-                <p>EDIT_TEAMS_I_AM_ON(현재 팀 편집)</p>
+                <p>EDIT_TEAMS_I_AM_ON(내가 속한 팀 편집)</p>
               </li>
               <li>
-                <p>EDIT_TEAMS_I_GROUP_ADMIN(관리 그룹의 팀 편집(그룹 관리자만 해당)</p>
+                <p>EDIT_TEAMS_I_GROUP_ADMIN(내가 관리하는 그룹의 팀 편집(그룹 관리자만))</p>
               </li>
             </ul>
           </li>
           <li>
-            <p><b>forbiddenActions</b> (문자열[])</p>
-            <p>다음 가능한 값을 추가했습니다.</p>
+            <p><b>forbiddenActions</b> (string[])</p>
+            <p>다음과 같은 가능한 값이 추가되었습니다.</p>
             <ul>
               <li>
-                <p>EDIT_TEAMS_I_AM_ON(현재 팀 편집)</p>
+                <p>EDIT_TEAMS_I_AM_ON(내가 속한 팀 편집)</p>
               </li>
               <li>
-                <p>EDIT_TEAMS_I_GROUP_ADMIN(관리 그룹의 팀 편집(그룹 관리자만 해당)</p>
+                <p>EDIT_TEAMS_I_GROUP_ADMIN(내가 관리하는 그룹의 팀 편집(그룹 관리자만))</p>
               </li>
             </ul>
           </li>
           <li>
-            <p><b>secondaryActions</b> (문자열[])</p>
-            <p>다음 가능한 값을 추가했습니다.</p>
+            <p><b>secondaryActions</b> (string[])</p>
+            <p>다음과 같은 가능한 값이 추가되었습니다.</p>
             <ul>
               <li>
-                <p>EDIT_TEAMS_I_AM_ON(현재 팀 편집)</p>
+                <p>EDIT_TEAMS_I_AM_ON(내가 속한 팀 편집)</p>
               </li>
               <li>
-                <p>EDIT_TEAMS_I_GROUP_ADMIN(관리 그룹의 팀 편집(그룹 관리자만 해당)</p>
+                <p>EDIT_TEAMS_I_GROUP_ADMIN(내가 관리하는 그룹의 팀 편집(그룹 관리자만))</p>
               </li>
             </ul>
           </li>
@@ -685,9 +686,9 @@ AccessLevelPermissions 개체는 Workfront 개체에 액세스, 만들기 또는
   </tbody>
 </table>
 
-### AccessRequest(ACSCREQ)
+### AccessRequest(ACSREQ)
 
-사용자에게 필요한 Workfront의 객체에 대한 액세스 권한이 없는 경우 해당 객체에 대한 액세스를 요청할 수 있습니다. AccessRequest 개체는 이 요청을 나타냅니다.
+사용자에게 Workfront의 필요한 오브젝트에 대한 액세스 권한이 없는 경우 해당 오브젝트에 대한 액세스를 요청할 수 있습니다. AccessRequest 개체는 이 요청을 나타냅니다.
 
 <table>
   <col/>
@@ -699,19 +700,19 @@ AccessLevelPermissions 개체는 Workfront 개체에 액세스, 만들기 또는
         <ul>
           <li>
             <p><b>작업</b> (문자열)</p>
-            <p>다음 가능한 값을 추가했습니다.</p>
+            <p>다음과 같은 가능한 값이 추가되었습니다.</p>
             <ul>
               <li>
-                <p>EDIT_TEAMS_I_AM_ON(현재 팀 편집)</p>
+                <p>EDIT_TEAMS_I_AM_ON(내가 속한 팀 편집)</p>
               </li>
               <li>
-                <p>EDIT_TEAMS_I_GROUP_ADMIN(관리 그룹의 팀 편집(그룹 관리자만 해당)</p>
+                <p>EDIT_TEAMS_I_GROUP_ADMIN(내가 관리하는 그룹의 팀 편집(그룹 관리자만))</p>
               </li>
             </ul>
           </li>
           <li>
             <p><b>autoShareAction</b> (문자열)</p>
-            <p>다음 가능한 값을 추가했습니다.</p>
+            <p>다음과 같은 가능한 값이 추가되었습니다.</p>
             <ul>
               <li>
                 <p>WDL</p>
@@ -724,9 +725,9 @@ AccessLevelPermissions 개체는 Workfront 개체에 액세스, 만들기 또는
   </tbody>
 </table>
 
-### 액세스 규칙(ACSURL)
+### AccessRule(ACSRUL)
 
-AccessRule 개체는 사용자가 만드는 프로젝트를 공유할 수 있는 방법을 결정하는 사용자 지정 액세스 수준의 규칙 세트를 나타냅니다.
+AccessRule 개체는 사용자가 만드는 프로젝트를 공유할 수 있는 방법을 결정하는 사용자 지정 액세스 수준에 설정된 규칙을 나타냅니다.
 
 <table>
   <col/>
@@ -737,38 +738,38 @@ AccessRule 개체는 사용자가 만드는 프로젝트를 공유할 수 있는
       <td>
         <ul>
           <li>
-            <p><b>coreAction</b> (문자열[])</p>
-            <p>다음 가능한 값을 추가했습니다.</p>
+            <p><b>coreAction</b> (string[])</p>
+            <p>다음과 같은 가능한 값이 추가되었습니다.</p>
             <ul>
               <li>
-                <p>EDIT_TEAMS_I_AM_ON(현재 팀 편집)</p>
+                <p>EDIT_TEAMS_I_AM_ON(내가 속한 팀 편집)</p>
               </li>
               <li>
-                <p>EDIT_TEAMS_I_GROUP_ADMIN(관리 그룹의 팀 편집(그룹 관리자만 해당)</p>
+                <p>EDIT_TEAMS_I_GROUP_ADMIN(내가 관리하는 그룹의 팀 편집(그룹 관리자만))</p>
               </li>
             </ul>
           </li>
           <li>
-            <p><b>forbiddenActions</b> (문자열[])</p>
-            <p>다음 가능한 값을 추가했습니다.</p>
+            <p><b>forbiddenActions</b> (string[])</p>
+            <p>다음과 같은 가능한 값이 추가되었습니다.</p>
             <ul>
               <li>
-                <p>EDIT_TEAMS_I_AM_ON(현재 팀 편집)</p>
+                <p>EDIT_TEAMS_I_AM_ON(내가 속한 팀 편집)</p>
               </li>
               <li>
-                <p>EDIT_TEAMS_I_GROUP_ADMIN(관리 그룹의 팀 편집(그룹 관리자만 해당)</p>
+                <p>EDIT_TEAMS_I_GROUP_ADMIN(내가 관리하는 그룹의 팀 편집(그룹 관리자만))</p>
               </li>
             </ul>
           </li>
           <li>
-            <p><b>secondaryActions</b> (문자열[])</p>
-            <p>다음 가능한 값을 추가했습니다.</p>
+            <p><b>secondaryActions</b> (string[])</p>
+            <p>다음과 같은 가능한 값이 추가되었습니다.</p>
             <ul>
               <li>
-                <p>EDIT_TEAMS_I_AM_ON(현재 팀 편집)</p>
+                <p>EDIT_TEAMS_I_AM_ON(내가 속한 팀 편집)</p>
               </li>
               <li>
-                <p>EDIT_TEAMS_I_GROUP_ADMIN(관리 그룹의 팀 편집(그룹 관리자만 해당)</p>
+                <p>EDIT_TEAMS_I_GROUP_ADMIN(내가 관리하는 그룹의 팀 편집(그룹 관리자만))</p>
               </li>
             </ul>
           </li>
@@ -780,7 +781,7 @@ AccessRule 개체는 사용자가 만드는 프로젝트를 공유할 수 있는
 
 ### 승인(승인)
 
-작업, 문서 또는 작업표와 같은 특정 작업 항목에서는 감독자나 다른 사용자가 작업 항목에 대해 로그오프해야 할 수 있습니다. Approval 객체는 작업 항목에 대해 로그오프하는 작업을 나타냅니다.
+작업, 문서 또는 타임시트와 같은 특정 작업 항목에서는 감독자 또는 다른 사용자가 해당 작업 항목을 승인해야 할 수 있습니다. 승인 오브젝트는 작업 항목에 대한 사인오프 작업을 나타냅니다.
 
 <table>
   <col/>
@@ -791,7 +792,7 @@ AccessRule 개체는 사용자가 만드는 프로젝트를 공유할 수 있는
       <td>
         <ul>
           <li>
-            <p><b>resourcePlannerScheduledHours </b>
+            <p><b>resourcePlannerBudgetHours </b>
             </p>
           </li>
         </ul>
@@ -805,7 +806,7 @@ AccessRule 개체는 사용자가 만드는 프로젝트를 공유할 수 있는
             <p><b>이니셔티브</b>
             </p>
             <p>추가됨.</p>
-            <p>이니셔티브 객체는 Workfront 시나리오 플래너에 작업 역할의 종류 및 수, 고정 비용 및 계획 혜택에 대한 예측을 생성합니다. </p>
+            <p>이 이니셔티브 오브젝트는 Workfront 시나리오 플래너에서 작업 역할의 종류와 수, 고정 비용 및 계획된 혜택에 대한 예상치를 생성합니다. </p>
           </li>
           <li>
             <p><b>issueDef</b>
@@ -813,7 +814,7 @@ AccessRule 개체는 사용자가 만드는 프로젝트를 공유할 수 있는
             <p>추가됨.</p>
           </li>
           <li>
-            <p><b>taskDef</b>
+            <p><b>작업 정의</b>
             </p>
             <p>추가됨.</p>
           </li>
@@ -825,7 +826,7 @@ AccessRule 개체는 사용자가 만드는 프로젝트를 공유할 수 있는
       <td>
         <ul>
           <li>
-            <p style="font-weight: bold;"><b>objectIntegrations
+            <p style="font-weight: bold;"><b>objectIntegration
 </b>
             </p>
             <p style="font-weight: normal;">추가됨.</p>
@@ -837,9 +838,9 @@ AccessRule 개체는 사용자가 만드는 프로젝트를 공유할 수 있는
   </tbody>
 </table>
 
-### 카테고리(CTGY)
+### 범주(CTGY)
 
-Category 개체는 사용자 지정 양식입니다.
+Category 객체는 사용자 정의 양식입니다.
 
 <table>
   <col/>
@@ -851,19 +852,19 @@ Category 개체는 사용자 지정 양식입니다.
         <ul>
           <li>
             <p><b>catObjCode</b> (문자열)</p>
-            <p>다음 가능한 값을 추가했습니다.</p>
+            <p>다음과 같은 가능한 값이 추가되었습니다.</p>
             <ul>
               <li>
-                <p>그룹(그룹)</p>
+                <p>GROUP(그룹)</p>
               </li>
             </ul>
           </li>
           <li>
-            <p><b>objTypes</b> (문자열[])</p>
+            <p><b>objType</b> (string[])</p>
             <p>추가됨.</p>
-            <p style="font-weight: normal;">이 매개 변수는 사용자 지정 양식을 첨부할 수 있는 가능한 개체의 배열입니다. 여러 유형의 객체에 사용자 지정 양식을 첨부할 수 있도록 이 양식을 추가했습니다.</p>
+            <p style="font-weight: normal;">이 매개 변수는 사용자 정의 양식을 첨부할 수 있는 가능한 객체의 배열입니다. 여러 유형의 오브젝트에 사용자 정의 양식을 첨부할 수 있는 기능을 지원하기 위해 추가되었습니다.</p>
             <p>가능한 값: </p>
-            <p>CMPY, 포트, PRGM, PROJ, 작업, OPTASK, 사용자, DOCX, EXPNS, ITRN, BILL, 그룹</p>
+            <p>CMPY, 포트, PRGM, 프로젝트, 작업, OPTASK, 사용자, DOCU, EXPNS, ITRN, BILL, 그룹</p>
           </li>
         </ul>
       </td>
@@ -873,11 +874,11 @@ Category 개체는 사용자 지정 양식입니다.
       <td>
         <ul>
           <li>
-            <p><b>objTypes</b> (문자열[])</p>
+            <p><b>objType</b> (string[])</p>
             <p>추가됨.</p>
-            <p style="font-weight: normal;">이 매개 변수는 사용자 지정 양식을 첨부할 수 있는 가능한 개체의 배열입니다. 여러 유형의 객체에 사용자 지정 양식을 첨부할 수 있도록 이 양식을 추가했습니다.</p>
+            <p style="font-weight: normal;">이 매개 변수는 사용자 정의 양식을 첨부할 수 있는 가능한 객체의 배열입니다. 여러 유형의 오브젝트에 사용자 정의 양식을 첨부할 수 있는 기능을 지원하기 위해 추가되었습니다.</p>
             <p>가능한 값: </p>
-            <p>CMPY, 포트, PRGM, PROJ, 작업, OPTASK, 사용자, DOCX, EXPNS, ITRN, BILL, 그룹</p>
+            <p>CMPY, 포트, PRGM, 프로젝트, 작업, OPTASK, 사용자, DOCU, EXPNS, ITRN, BILL, 그룹</p>
           </li>
         </ul>
       </td>
@@ -885,7 +886,7 @@ Category 개체는 사용자 지정 양식입니다.
   </tbody>
 </table>
 
-### CategoryParameter(CTGYPA)
+### CategoryParameter(CTGAA)
 
 <table>
   <col/>
@@ -896,7 +897,7 @@ Category 개체는 사용자 지정 양식입니다.
       <td>
         <ul>
           <li>
-            <p><b>hideFormulaFromDescription</b>
+            <p><b>설명 숨기기공식</b>
             </p>
             <p>추가됨.</p>
           </li>
@@ -916,9 +917,9 @@ Category 개체는 사용자 지정 양식입니다.
   </tbody>
 </table>
 
-### 고객 기본 설정(CUSTOMER)
+### CustomerPreferences (CUSTPR)
 
-CustomerPreferences 개체는 고객이 Workfront 인스턴스에 대해 설정한 환경 설정 집합을 나타냅니다.
+CustomerPreferences 객체는 고객이 Workfront 인스턴스에 대해 설정한 환경 설정 집합을 나타냅니다.
 
 <table>
   <col/>
@@ -931,7 +932,7 @@ CustomerPreferences 개체는 고객이 Workfront 인스턴스에 대해 설정�
           <li>
             <p><b>이름</b>
             </p>
-            <p>다음 값을 추가했습니다.</p>
+            <p>다음 값이 추가되었습니다.</p>
             <ul>
               <li>
                 <p><code>password:sharePointV2IntegrationEnabled</code> (SharePoint(Graph API) 통합 활성화됨)</p>
@@ -953,15 +954,15 @@ CustomerPreferences 개체는 고객이 Workfront 인스턴스에 대해 설정�
 
 ### DocumentFolder(DOCFDR)
 
-문서를 폴더로 구성할 수 있습니다. 개인 문서 영역에서 개인 폴더를 만들 수 있습니다. DocumentFolder 개체는 이러한 폴더 중 하나를 나타냅니다.
+문서를 폴더로 구성할 수 있습니다. 개인 문서 영역에 개인 폴더를 만들 수 있습니다. DocumentFolder 개체는 이러한 폴더 중 하나를 나타냅니다.
 
 DocumentFolder 개체가 플래그를 추가했습니다. `SHARABLE`.
 
-### DocumentVersion(DOCV)
+### DocumentVersion (DOCV)
 
-DocumentVersion 개체는 파일(예: 문서 자료, 이미지 또는 기타 정보 형식)의 특정 버전을 나타냅니다.
+DocumentVersion 개체는 작성된 자료, 이미지 또는 다른 형태의 정보 등 파일의 특정 버전을 나타냅니다.
 
-문서 버전에 대한 자세한 내용은 [문서의 새 버전 업로드](../../documents/managing-documents/upload-new-document-version.md).
+문서 버전에 대한 자세한 내용은 [새 문서 버전 업로드](../../documents/managing-documents/upload-new-document-version.md).
 
 <table>
   <col/>
@@ -974,7 +975,7 @@ DocumentVersion 개체는 파일(예: 문서 자료, 이미지 또는 기타 정
           <li>
             <p><b>externalIntegrationType</b>
             </p>
-            <p>다음 값을 추가했습니다. </p>
+            <p>다음 값이 추가되었습니다. </p>
             <ul>
               <li>
                 <p><code>SHAREPOINT_V2</code> (SharePoint(Graph API))</p>
@@ -990,7 +991,7 @@ DocumentVersion 개체는 파일(예: 문서 자료, 이미지 또는 기타 정
 
 ### 그룹(그룹)
 
-그룹 개체는 사용자 및 팀 집합을 나타냅니다. 그룹은 종종 부서별 구조를 나타냅니다.
+Group 객체는 사용자 및 팀 집합을 나타냅니다. 그룹은 종종 부서 구조를 나타냅니다.
 
 그룹에 대한 자세한 내용은 그룹 및 팀 을 참조하십시오.
 
@@ -1006,14 +1007,14 @@ Group 개체가 플래그를 추가했습니다. `DATA_EXTENDIBLE`
         <p>다음 필드가 추가되었습니다.</p>
         <ul>
           <li>
-            <p><b>categoryID</b>
+            <p><b>범주 ID</b>
             </p>
-            <p>카테고리는 사용자 지정 양식입니다. 이 매개 변수는 그룹 개체에 사용자 지정 Forms을 추가하는 기능을 지원하기 위해 추가되었습니다. </p>
+            <p>범주는 사용자 정의 양식입니다. 이 매개 변수는 그룹 개체에 사용자 지정 Forms을 추가하는 기능을 지원하기 위해 추가되었습니다. </p>
           </li>
           <li>
-            <p><b>isActive</b>
+            <p><b>활성</b>
             </p>
-            <p>객체가 활성 상태인 경우 true 값을 갖는 부울 매개 변수입니다. 그렇지 않은 경우 false 값을 갖습니다. 활성(Active)으로 설정된 객체는 드롭다운 메뉴 및 미리 입력 필드에 표시되며 다른 객체에 첨부할 수 있습니다.</p>
+            <p>객체가 활성이면 true 값을 갖고 그렇지 않으면 false 값을 갖는 부울 매개변수입니다. 활성으로 설정된 객체는 드롭다운 메뉴와 앞에 입력 필드에 나타나며 다른 객체에 첨부할 수 있습니다.</p>
           </li>
         </ul>
       </td>
@@ -1048,11 +1049,11 @@ Group 개체가 플래그를 추가했습니다. `DATA_EXTENDIBLE`
         <p>다음 필드가 추가되었습니다.</p>
         <ul>
           <li>
-            <p><b>objectCategories</b>
+            <p><b>objectCategors</b>
             </p>
           </li>
           <li>
-            <p><b>objectIntegrations</b>
+            <p><b>objectIntegration</b>
             </p>
             <p>경우에 따라 Workfront 작업 항목을 외부 소프트웨어 제품의 개체에 직접 연결할 수 있습니다. ObjectIntegration 개체는 이 링크를 나타냅니다.</p>
           </li>
@@ -1065,9 +1066,9 @@ Group 개체가 플래그를 추가했습니다. `DATA_EXTENDIBLE`
         <p>다음 필드가 추가되었습니다.</p>
         <ul>
           <li>
-            <p><b>isActive</b>
+            <p><b>활성</b>
             </p>
-            <p>객체가 활성 상태인 경우 true 값을 갖는 부울 매개 변수입니다. 그렇지 않은 경우 false 값을 갖습니다. 활성(Active)으로 설정된 객체는 드롭다운 메뉴 및 미리 입력 필드에 표시되며 다른 객체에 첨부할 수 있습니다.</p>
+            <p>객체가 활성이면 true 값을 갖고 그렇지 않으면 false 값을 갖는 부울 매개변수입니다. 활성으로 설정된 객체는 드롭다운 메뉴와 앞에 입력 필드에 나타나며 다른 객체에 첨부할 수 있습니다.</p>
           </li>
         </ul>
       </td>
@@ -1080,7 +1081,7 @@ Group 개체가 플래그를 추가했습니다. `DATA_EXTENDIBLE`
           <li>
             <p><b>calculateDataExtension</b>
             </p>
-            <p>이 작업은 사용자 지정 양식 필드의 표현식을 다시 계산합니다.</p>
+            <p>이 작업은 사용자 정의 양식 필드의 표현식을 다시 계산합니다.</p>
           </li>
           <li>
             <p><b>completeGroupInfo</b>
@@ -1091,7 +1092,7 @@ Group 개체가 플래그를 추가했습니다. `DATA_EXTENDIBLE`
             </p>
           </li>
           <li>
-            <p><b>unlinkExternalObject</b>
+            <p><b>외부 개체 연결 해제</b>
             </p>
           </li>
         </ul>
@@ -1100,9 +1101,9 @@ Group 개체가 플래그를 추가했습니다. `DATA_EXTENDIBLE`
   </tbody>
 </table>
 
-### 분개 입력(JRNLE)
+### 저널 게시물(JRNL)
 
-JournalEntry 개체는 해당 필드가 수정될 때마다 특정 개체 필드에 대한 정보를 기록하도록 설정할 수 있습니다. 필드를 분개 입력 객체의 일부로 기록하도록 설정하면 해당 필드가 수정될 때마다 해당 분개 항목이 생성됩니다.
+JournalEntry 개체는 특정 개체 필드에 대한 정보를 해당 필드가 수정될 때마다 기록하도록 설정할 수 있습니다. 필드가 저널 게시물 개체의 일부로 기록되도록 설정되면 해당 필드를 수정할 때마다 해당 저널 게시물이 만들어집니다.
 
 <table>
   <col/>
@@ -1113,7 +1114,7 @@ JournalEntry 개체는 해당 필드가 수정될 때마다 특정 개체 필드
       <td>
         <p><b>changeType</b>
         </p>
-        <p>다음 값을 추가했습니다. </p>
+        <p>다음 값이 추가되었습니다. </p>
         <ul>
           <li>
             <p>DW(다운로드)</p>
@@ -1126,9 +1127,9 @@ JournalEntry 개체는 해당 필드가 수정될 때마다 특정 개체 필드
 
 ### LinkedFolder(LNKFDR)
 
-LinkedFolder 개체는 Google 드라이브나 Dropbox과 같은 외부 문서 공급자에서 연결된 폴더를 나타냅니다.
+LinkedFolder 개체는 Google 드라이브 또는 Dropbox과 같은 외부 문서 공급자로부터 연결된 폴더를 나타냅니다.
 
-링크된 폴더에 대한 자세한 내용은 외부 응용 프로그램에서 문서 연결을 참조하십시오.
+연결된 폴더에 대한 자세한 내용은 외부 응용 프로그램에서 문서 연결을 참조하십시오.
 
 <table>
   <col/>
@@ -1141,7 +1142,7 @@ LinkedFolder 개체는 Google 드라이브나 Dropbox과 같은 외부 문서 �
           <li>
             <p><b>externalIntegrationType</b>
             </p>
-            <p>다음 값을 추가했습니다. </p>
+            <p>다음 값이 추가되었습니다. </p>
             <ul>
               <li>
                 <p><code>SHAREPOINT_V2</code> (SharePoint(Graph API))</p>
@@ -1155,9 +1156,9 @@ LinkedFolder 개체는 Google 드라이브나 Dropbox과 같은 외부 문서 �
   </tbody>
 </table>
 
-### OpTask/Issue(OPTASK)
+### OpTask / 문제 (OPTASK)
 
-일반적으로 OpTask 개체를 Issue라고 합니다. 문제는 일반적으로 작업 또는 프로젝트 완료를 방지하는 데 문제가 있음을 나타내는 작업 항목입니다. 헬프데스크 요청도 있습니다. 변경 주문, 요청 및 버그도 문제입니다.
+OpTask 객체를 일반적으로 문제라고 합니다. 문제는 일반적으로 작업 또는 프로젝트의 완료를 방해하는 문제가 있음을 나타내는 작업 항목입니다. 문제는 헬프 데스크 요청일 수도 있습니다. 변경 주문, 요청 및 버그도 문제가 됩니다.
 
 <table>
   <col/>
@@ -1182,7 +1183,7 @@ LinkedFolder 개체는 Google 드라이브나 Dropbox과 같은 외부 문서 �
           <li>
             <p><b>copyIssue</b>
             </p>
-            <p>필드가 추가되었습니다 <code>parentID</code></p>
+            <p>추가된 필드 <code>parentID</code></p>
           </li>
         </ul>
       </td>
@@ -1190,7 +1191,7 @@ LinkedFolder 개체는 Google 드라이브나 Dropbox과 같은 외부 문서 �
   </tbody>
 </table>
 
-### 매개 변수(PARAM)
+### 매개 변수(매개 변수)
 
 Parameter 개체는 사용자 지정 필드입니다.
 
@@ -1214,13 +1215,13 @@ Parameter 개체는 사용자 지정 필드입니다.
             <p><b>dataType</b>
             </p>
             <p>가능한 값을 추가했습니다. <code>WIDGET </code>(위젯) </p>
-            <p>이 값은 사용자 지정 양식에서 이미지 사용을 지원합니다.</p>
+            <p>이 값은 사용자 정의 양식에서 이미지 사용을 지원합니다.</p>
           </li>
           <li>
             <p><b>displayType</b>
             </p>
             <p>가능한 값을 추가했습니다. <code>WIDGET </code>(위젯)</p>
-            <p>이 값은 사용자 지정 양식에서 이미지 사용을 지원합니다.</p>
+            <p>이 값은 사용자 정의 양식에서 이미지 사용을 지원합니다.</p>
           </li>
         </ul>
       </td>
@@ -1230,7 +1231,7 @@ Parameter 개체는 사용자 지정 필드입니다.
 
 ### Portfolio(포트)
 
-Portfolio 객체는 일반적으로 동일한 리소스, 즉 완료 비용 또는 사람에 대해 경쟁하는 프로젝트 컬렉션입니다.
+Portfolio 객체는 동일한 리소스(일반적으로 돈 또는 완료하는 사람)에 대해 경쟁하는 프로젝트의 컬렉션입니다.
 
 <table>
   <col/>
@@ -1241,7 +1242,7 @@ Portfolio 객체는 일반적으로 동일한 리소스, 즉 완료 비용 또�
       <td>
         <ul>
           <li>
-            <p><b>objectIntegrations</b>
+            <p><b>objectIntegration</b>
             </p>
           </li>
         </ul>
@@ -1256,7 +1257,7 @@ Portfolio 객체는 일반적으로 동일한 리소스, 즉 완료 비용 또�
             </p>
           </li>
           <li>
-            <p><b>unlinkExternalObject</b>
+            <p><b>외부 개체 연결 해제</b>
             </p>
           </li>
         </ul>
@@ -1267,7 +1268,7 @@ Portfolio 객체는 일반적으로 동일한 리소스, 즉 완료 비용 또�
 
 ### 프로그램(PRGM)
 
-프로그램 객체는 유사한 프로젝트를 함께 그룹화할 수 있는 포트폴리오 내의 프로젝트의 하위 집합입니다.
+프로그램 객체는 유사한 프로젝트를 함께 그룹화할 수 있는 포트폴리오 내의 프로젝트 하위 집합입니다.
 
 <table>
   <col/>
@@ -1278,7 +1279,7 @@ Portfolio 객체는 일반적으로 동일한 리소스, 즉 완료 비용 또�
       <td>
         <ul>
           <li>
-            <p><b>objectIntegrations</b>
+            <p><b>objectIntegration</b>
             </p>
           </li>
         </ul>
@@ -1293,7 +1294,7 @@ Portfolio 객체는 일반적으로 동일한 리소스, 즉 완료 비용 또�
             </p>
           </li>
           <li>
-            <p><b>unlinkExternalObject</b>
+            <p><b>외부 개체 연결 해제</b>
             </p>
           </li>
         </ul>
@@ -1302,9 +1303,9 @@ Portfolio 객체는 일반적으로 동일한 리소스, 즉 완료 비용 또�
   </tbody>
 </table>
 
-### 프로젝트(PROJ)
+### 프로젝트(프로젝트)
 
-프로젝트는 Workfront 내의 작업 항목이며, Workfront이 사람들이 작업을 수행하는 데 도움이 되는 기본 빌딩 블록입니다. 프로젝트 객체는 공통, 특정 목표를 가진 작업 그룹을 나타냅니다.
+프로젝트는 Workfront 내의 작업 항목이며 Workfront이 작업을 수행하는 데 도움을 주는 방식의 주요 빌딩 블록입니다. Project 개체는 일반적인 특정 목표를 가진 작업 그룹을 나타냅니다.
 
 <table>
   <col/>
@@ -1315,7 +1316,7 @@ Portfolio 객체는 일반적으로 동일한 리소스, 즉 완료 비용 또�
       <td>
         <ul>
           <li>
-            <p><b>resourcePlannerScheduledHours</b>
+            <p><b>resourcePlannerBudgetHours</b>
             </p>
           </li>
         </ul>
@@ -1328,14 +1329,14 @@ Portfolio 객체는 일반적으로 동일한 리소스, 즉 완료 비용 또�
           <li>
             <p><b>이니셔티브</b>
             </p>
-            <p>이니셔티브 객체는 Workfront 시나리오 플래너에 작업 역할의 종류 및 수, 고정 비용 및 계획 혜택에 대한 예측을 생성합니다. </p>
+            <p>이 이니셔티브 오브젝트는 Workfront 시나리오 플래너에서 작업 역할의 종류와 수, 고정 비용 및 계획된 혜택에 대한 예상치를 생성합니다. </p>
           </li>
           <li>
             <p><b>issueDef</b>
             </p>
           </li>
           <li>
-            <p><b>taskDef</b>
+            <p><b>작업 정의</b>
             </p>
           </li>
         </ul>
@@ -1346,7 +1347,7 @@ Portfolio 객체는 일반적으로 동일한 리소스, 즉 완료 비용 또�
       <td>
         <ul>
           <li>
-            <p><b>objectIntegrations</b>
+            <p><b>objectIntegration</b>
             </p>
             <p>경우에 따라 Workfront 작업 항목을 외부 소프트웨어 제품의 개체에 직접 연결할 수 있습니다. ObjectIntegration 개체는 이 링크를 나타냅니다.</p>
           </li>
@@ -1358,9 +1359,9 @@ Portfolio 객체는 일반적으로 동일한 리소스, 즉 완료 비용 또�
 
 ### QueueDef(QUED)
 
-QueueDef 개체는 사용자가 문제를 해당 대기열에 제출할 수 있도록 도움말 데스크 영역에 게시된 프로젝트인 Queue를 나타냅니다.
+QueueDef 개체는 사용자가 문제를 제출할 수 있도록 헬프 데스크 영역에 게시된 프로젝트인 Queue를 나타냅니다.
 
-요청 큐에 대한 자세한 내용은 [요청 큐 만들기](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+요청 대기열에 대한 자세한 내용은 [요청 대기열 만들기](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 <table>
   <col/>
@@ -1373,26 +1374,26 @@ QueueDef 개체는 사용자가 문제를 해당 대기열에 제출할 수 있�
           <li>
             <p><b>requestorCoreAction</b>
             </p>
-            <p>다음 가능한 값을 추가했습니다.</p>
+            <p>다음과 같은 가능한 값이 추가되었습니다.</p>
             <ul>
               <li>
-                <p>EDIT_TEAMS_I_AM_ON(현재 팀 편집)</p>
+                <p>EDIT_TEAMS_I_AM_ON(내가 속한 팀 편집)</p>
               </li>
               <li>
-                <p>EDIT_TEAMS_I_GROUP_ADMIN(관리 그룹의 팀 편집(그룹 관리자만 해당)</p>
+                <p>EDIT_TEAMS_I_GROUP_ADMIN(내가 관리하는 그룹의 팀 편집(그룹 관리자만))</p>
               </li>
             </ul>
           </li>
           <li>
             <p><b>requestorForbiddenActions</b>
             </p>
-            <p>다음 가능한 값을 추가했습니다.</p>
+            <p>다음과 같은 가능한 값이 추가되었습니다.</p>
             <ul>
               <li>
-                <p>EDIT_TEAMS_I_AM_ON(현재 팀 편집)</p>
+                <p>EDIT_TEAMS_I_AM_ON(내가 속한 팀 편집)</p>
               </li>
               <li>
-                <p>EDIT_TEAMS_I_GROUP_ADMIN(관리 그룹의 팀 편집(그룹 관리자만 해당)</p>
+                <p>EDIT_TEAMS_I_GROUP_ADMIN(내가 관리하는 그룹의 팀 편집(그룹 관리자만))</p>
               </li>
             </ul>
           </li>
@@ -1402,11 +1403,11 @@ QueueDef 개체는 사용자가 문제를 해당 대기열에 제출할 수 있�
   </tbody>
 </table>
 
-### ScoreCardQuestion(SCOREQ)
+### ScoreCardQuestion(SCORREQ)
 
-ScoreCardQuestion 개체는 스코어카드에 추가된 질문을 나타냅니다. 이러한 질문은 일반적으로 Portfolio 관리자에 의해 결정되며 관리자가 이러한 질문에 대한 답변을 통해 프로젝트가 포트폴리오의 목표에 얼마나 잘 부합하는지 이해할 수 있습니다.
+ScoreCardQuestion 객체는 스코어카드에 추가된 질문을 나타냅니다. 이러한 질문은 일반적으로 Portfolio 관리자가 결정하며, 관리자는 이에 대한 답변을 통해 프로젝트가 포트폴리오의 목표에 얼마나 잘 부합하는지 파악할 수 있습니다.
 
-스코어카드 질문에 대한 자세한 내용은 [스코어카드 만들기](../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
+스코어카드 질문에 대한 자세한 내용은 다음을 참조하십시오. [스코어카드 만들기](../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
 <table>
   <col/>
@@ -1429,7 +1430,7 @@ ScoreCardQuestion 개체는 스코어카드에 추가된 질문을 나타냅니�
 
 ### 작업(작업)
 
-작업 객체는 최종 목표(프로젝트 완료)를 달성하는 단계로 수행되어야 하는 작업 항목을 나타냅니다.
+작업 객체는 최종 목표 달성(프로젝트 완료)을 위한 단계로 수행해야 하는 작업 항목을 나타냅니다.
 
 <table>
   <col/>
@@ -1440,7 +1441,7 @@ ScoreCardQuestion 개체는 스코어카드에 추가된 질문을 나타냅니�
       <td>
         <ul>
           <li>
-            <p><b>objectIntegrations</b>
+            <p><b>objectIntegration</b>
             </p>
             <p>경우에 따라 Workfront 작업 항목을 외부 소프트웨어 제품의 개체에 직접 연결할 수 있습니다. ObjectIntegration 개체는 이 링크를 나타냅니다.</p>
           </li>
@@ -1452,7 +1453,7 @@ ScoreCardQuestion 개체는 스코어카드에 추가된 질문을 나타냅니�
 
 ### 템플릿(TMPL)
 
-Template 객체는 프로젝트의 패턴을 나타냅니다. 템플릿을 통해 프로젝트를 만들어 시간을 절약할 수 있습니다. 템플릿에는 팀 및 작업이 포함되어 있으며, 이 작업은 템플릿에서 만든 프로젝트에 복사됩니다.
+Template 객체는 프로젝트의 패턴을 나타냅니다. 템플릿에서 프로젝트를 생성하여 시간을 절약할 수 있습니다. 템플릿에는 팀과 작업이 포함되어 있으며, 이 작업은 템플릿에서 만든 프로젝트에 복사됩니다.
 
 <table>
   <col/>
@@ -1467,7 +1468,7 @@ Template 객체는 프로젝트의 패턴을 나타냅니다. 템플릿을 통�
             </p>
           </li>
           <li>
-            <p><b>taskDef</b>
+            <p><b>작업 정의</b>
             </p>
           </li>
         </ul>
@@ -1476,16 +1477,16 @@ Template 객체는 프로젝트의 패턴을 나타냅니다. 템플릿을 통�
   </tbody>
 </table>
 
-### 작업표(TSHET)
+### 타임시트(세트)
 
-작업표 개체는 사용자가 작업, 프로젝트 및 오버헤드 시간 유형에 대해 실제 작업 시간을 입력할 수 있도록 하는 가상 타임카드를 나타냅니다.
+타임시트 오브젝트는 사용자가 작업, 프로젝트 및 오버헤드 시간 유형에 대한 실제 작업 시간을 입력할 수 있는 가상 타임카드를 나타냅니다.
 
 <table>
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">핵심 필드</td>
+      <td role="rowheader">코어 필드</td>
       <td>
         <p>다음 필드가 제거되었습니다.</p>
         <ul>
@@ -1560,7 +1561,7 @@ Template 객체는 프로젝트의 패턴을 나타냅니다. 템플릿을 통�
 
 ### 업데이트(업데이트)
 
-Workfront의 작업 항목을 업데이트하여 사용자에게 현재 상태에 대한 정보를 제공할 수 있습니다. Update 개체는 이러한 업데이트 중 하나를 나타냅니다. 업데이트는 사용자가 입력하거나 Workfront 시스템에서 만들 수 있습니다.
+Workfront의 작업 항목을 업데이트하여 사용자에게 현재 상태를 알릴 수 있습니다. Update 개체는 이러한 업데이트 중 하나를 나타냅니다. 업데이트는 사용자가 입력하거나 Workfront 시스템에서 만들 수 있습니다.
 
 <table>
   <col/>
@@ -1573,7 +1574,7 @@ Workfront의 작업 항목을 업데이트하여 사용자에게 현재 상태�
           <li>
             <p><b>updateType</b>
             </p>
-            <p>가능한 값을 추가했습니다. <code>documentVersionDownload </code>(enum.updatetime.documentversiondownload)</p>
+            <p>가능한 값을 추가했습니다. <code>documentVersionDownload </code>(enum.updatetypeenum.documentversiondownload)</p>
           </li>
         </ul>
       </td>
@@ -1583,7 +1584,7 @@ Workfront의 작업 항목을 업데이트하여 사용자에게 현재 상태�
 
 ### 사용자(사용자)
 
-사용자 개체는 로그인하고 시스템과 상호 작용할 수 있는 Workfront에 계정이 있는 사람을 나타냅니다.
+사용자 개체는 로그인하여 시스템과 상호 작용할 수 있는 Workfront의 계정을 가진 사용자를 나타냅니다.
 
 <table>
   <col/>
@@ -1618,9 +1619,9 @@ Workfront의 작업 항목을 업데이트하여 사용자에게 현재 상태�
   </tbody>
 </table>
 
-### UserNote (USRNOT)
+### UserNote(USRNOT)
 
-UserNote 개체는 알림입니다.
+UserNote 객체는 알림입니다.
 
 <table>
   <col/>
@@ -1633,13 +1634,13 @@ UserNote 개체는 알림입니다.
           <li>
             <p><b>eventType</b>
             </p>
-            <p>다음 가능한 값을 추가했습니다.</p>
+            <p>다음과 같은 가능한 값이 추가되었습니다.</p>
             <ul>
               <li>
                 <p><code>DUP </code>(문서 증명을 요청함)</p>
               </li>
               <li>
-                <p><code>DUV </code>(문서를 볼 수 있도록 허용)</p>
+                <p><code>DUV </code>(문서를 볼 수 있음)</p>
               </li>
             </ul>
           </li>
@@ -1649,9 +1650,9 @@ UserNote 개체는 알림입니다.
   </tbody>
 </table>
 
-### 작업 시간(작업 시간)
+### 작업(작업)
 
-작업 개체는 Task 및 OpTask가 모두 상속하고 두 Task 간에 공통 코드를 공유하는 공통 인터페이스입니다.
+Work 개체는 Task와 OpTask가 모두 상속하는 공통 인터페이스이며 두 개체 간에 공통 코드를 공유합니다.
 
 <table>
   <col/>
@@ -1662,7 +1663,7 @@ UserNote 개체는 알림입니다.
       <td>
         <ul>
           <li>
-            <p><b>objectIntegrations</b>
+            <p><b>objectIntegration</b>
             </p>
             <p>경우에 따라 Workfront 작업 항목을 외부 소프트웨어 제품의 개체에 직접 연결할 수 있습니다. ObjectIntegration 개체는 이 링크를 나타냅니다.</p>
           </li>
