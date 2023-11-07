@@ -7,7 +7,7 @@ description: 매핑은 항목으로 구조화된 모듈의 출력을 다른 모�
 author: Becky
 feature: Workfront Fusion
 exl-id: e8d619e9-6425-4136-ac71-47d979d68a2d
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 3772223938008e3a54ce0a48aaae1f3edb5bf252
 workflow-type: tm+mt
 source-wordcount: '1563'
 ht-degree: 0%
@@ -102,7 +102,7 @@ ht-degree: 0%
 
 여러 항목을 필드에 매핑하고, 리터럴(고정 값)과 결합하고, 연산자 및 함수를 사용하여 복잡한 공식을 작성할 수 있습니다.
 
-![](assets/operators-and-functions-350x187.png)
+![](assets/operators-and-functions.png)
 
 매핑 패널의 탭 중 하나에서 함수 및 연산자를 찾을 수 있습니다.
 
