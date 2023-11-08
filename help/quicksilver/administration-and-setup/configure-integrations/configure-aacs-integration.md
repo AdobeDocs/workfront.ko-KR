@@ -5,7 +5,7 @@ title: 구성 [!UICONTROL Experience Manager Assets as a Cloud Service] 통합
 description: 다음 위치에서 작업을 콘텐츠와 연결할 수 있습니다. [!DNL Experience Manager Assets].
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 2669530c2901e77599a80a852a428b558291ef36
+source-git-commit: b9cb7dd0663b498937ced48fd1a098cbea5294cd
 workflow-type: tm+mt
 source-wordcount: '1317'
 ht-degree: 0%
@@ -231,9 +231,7 @@ When this option is enabled, any asset that has been pushed to Adobe Experience 
 >Users must have write access in [!DNL Experience Manager] for assets living in the object in order for the metadata to sync when it's updated.
 
 1. Enable the **[!UICONTROL Sync object metadata]** field.
-1. Click **Save** or move on to the [Set up workflows (Optional)](#set-up-workflows-optional) section in this article.
-
-<!--Courtney start here-->
+1. Click **Save** or move on to the [Set up workflows (Optional)](#set-up-workflows-optional) section in this article.-->
 
 ## 워크플로우 설정(선택 사항)
 
@@ -248,8 +246,6 @@ When this option is enabled, any asset that has been pushed to Adobe Experience 
    ![연결된 폴더 탐색](assets/select-folder-aem-integration.png)
 1. 활성화 **Portfolio 및 프로그램 이름 추가** 연결된 폴더 이름 끝에 Portfolio 및 프로그램 이름을 자동으로 포함하는 옵션입니다.
 1. 클릭 **저장** 또는 로 이동합니다. [연결된 폴더 설정(선택 사항)](#set-up-linked-folders-optional) 이 문서의 섹션.
-
-<!--Courtney end here-->
 
 ## 연결된 폴더 설정(선택 사항)
 
