@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 908a3136b2537310305f282b7a76d8f09cae3836
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '1710'
+source-wordcount: '2069'
 ht-degree: 4%
 
 ---
@@ -319,45 +319,55 @@ Maestro에서 레코드 유형에 대해 최대 10,000개의 레코드(또는 �
 
 1. (선택 사항) **필터**&#x200B;을(를) 클릭하고 **x** 아이콘을 클릭하여 필터를 제거합니다. <!--right now you cannot "clear all" for filters, but this might come later-->
 
-<!-- this is not available yet
+### 그룹화 추가 {#add-groupings}
 
-### Add groupings {#add-groupings}
+<!--this section exists in the timeline view too, but the display is slightly different, so I kept both steps; consider updating both sections if any updates to groupings are introduced-->
 
-*******************this section might link in the future from the timeline view; right now it's only documented there; also, check the steps below because this was not released to the table when they were written*****************
+보기에 그룹화를 적용할 때 유사한 정보별로 레코드를 그룹화할 수 있습니다.
 
-You can group records by similar information when applying  a grouping to a view.
+표 보기에서 그룹화를 추가하는 것은 타임라인 보기에 그룹화를 추가하는 것과 비슷합니다.
 
-You can apply groupings both in the table and timeline views. The groupings of the table view are independent from those in the timeline view of the same record type. 
+다음 사항을 고려하십시오.
 
-Consider the following:
+* 표 및 타임라인 보기에서 그룹화를 적용할 수 있습니다. 테이블 보기의 그룹화는 동일한 레코드 유형의 타임라인 보기의 그룹화와는 독립적입니다.
+* Maestro 보기에서 3가지 수준의 그룹화를 적용할 수 있습니다. 선택한 그룹화 순서대로 레코드가 그룹화됩니다.
+&lt;!—* API를 사용할 때 최대 4가지 수준의 그룹화를 적용할 수 있습니다. —현재 이 항목을 확인하고 있습니다—>
+* 그룹화는 선택하는 보기에 대해 고유합니다. 동일한 레코드 종류의 두 테이블 보기에는 서로 다른 그룹화가 적용될 수 있습니다. 동일한 테이블 보기를 보는 두 명의 사용자에게 현재 적용된 동일한 그룹화가 표시됩니다.
+* 테이블 보기에 대해 빌드하는 그룹화의 이름을 지정할 수 없습니다.
+* 그룹화를 제거하면 사용자와 동일한 레코드 유형에 액세스하거나 사용자와 동일한 보기를 표시하는 모든 사용자에게서 그룹화가 제거됩니다.
+* 그룹화 아래에 나열된 레코드를 편집할 수 있습니다.
+<!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
+<!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 
-* You can apply 3 levels of grouping in a Maestro view. The records are grouped in the order of groupings that you select. (***************check on this; this might be true for timeline, but not for table??? One dev said in a demo that there are unlimited groupings in a table - check *********************)
-* You can apply up to 4 levels of grouping when using the API. 
+그룹화를 추가하려면:
 
-To add a grouping:
+1. 문서에 설명된 대로 레코드 유형에 대한 타임라인 보기를 만듭니다 [레코드 보기 관리](../views/manage-record-views.md).
+1. 클릭 **그룹화** 을 클릭합니다.
 
-1. Create a view, as described in [Create or edit record views](#create-or-edit-record-views). 
-1. (Conditional) To apply a grouping in the table view, do the following:
-    
-    1. ***************start adding steps for building a grouping - see if there it a global setting or just per column; also, see if the steps are different for a table vs a timeline view?!**********************
-1. (Conditional) To apply a grouping in the timeline view, do the following:
+   ![](assets/grouping-ui-table-view.png)
 
-    1. Go to a timeline view, then click **Group**. ************************did they rename this to "Grouping"?!****************************
-        ******************insert screen shot***********
-    1. Click one of the 5 suggested fields, or click **Choose a different field** to display all fields, then click one when it displays in the list. 
-    
-        >[!TIP]
-        >
-        > You cannot select linked fields. For information, see [Create fields](../architecture-and-fields/create-fields.md).  
-    The grouping is applied automatically to the timeline and records display inside the grouping box.    <********************ensure this is correct functionality here*************
-    
-    1. (Optional) Click **Add grouping** to add up to 3 groupings. 
+1. 제안된 필드 중 하나를 클릭하거나 **다른 필드 선택**&#x200B;에서 다른 필드를 검색한 다음 목록에 표시되면 해당 필드를 클릭합니다.
 
-        The number of groupings applied displays to the left of the Grouping icon in the upper-right corner of the toolbar. **********ensure this says "grouping" and not "group"*****************
-    
-    1. (Optional) Click **Clear all** to remove all groupings.  
+   >[!TIP]
+   >
+   >연결된 필드는 선택할 수 없습니다.
 
--->
+   그룹화가 테이블에 자동으로 적용되며 그룹화 구분선 아래에 레코드가 표시됩니다
+
+1. (선택 사항) 위의 단계를 반복하여 최대 3개의 그룹화를 추가합니다.
+
+   그룹화를 위해 선택한 필드 수가 그룹화 아이콘 옆에 표시됩니다.
+
+   ![](assets/grouping-applied-in-table-view.png)
+
+1. (선택 사항) **레코드 그룹화 기준** 상자를 클릭하고 **x** 그룹화를 제거하기 위해 선택한 필드 오른쪽의 아이콘
+
+   또는
+
+   클릭 **모두 지우기** 모든 필드를 제거합니다.
+
+1. 바깥쪽을 클릭합니다. **레코드 그룹화 기준** 상자를 닫으십시오.
+1. (선택 사항) **+ 신규 &lt; 레코드 유형 이름 >** 그룹화가 끝날 때 새 레코드를 추가한 다음 페이지를 새로 고쳐 새 레코드를 적절한 그룹화에 추가합니다. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
 ### 정렬 추가 {#sort-information}
 

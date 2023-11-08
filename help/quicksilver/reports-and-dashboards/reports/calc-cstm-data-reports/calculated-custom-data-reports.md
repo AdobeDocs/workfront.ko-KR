@@ -3,21 +3,21 @@ content-type: reference
 product-area: reporting
 navigation-topic: reports
 title: 보고서의 계산된 사용자 정의 데이터
-description: 이 섹션에는 다음 문서 - EDIT ME가 포함됩니다.
+description: 계산된 사용자 지정 데이터를 사용하여 보고서를 만들 수 있습니다.
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 673792b6-7369-47ce-b0df-9bda4254781c
-source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
 
 # 보고서의 계산된 사용자 정의 데이터
 
-이 섹션에는 다음 문서가 포함됩니다.
+계산된 사용자 지정 데이터를 사용하여 보고서를 만들 수 있습니다. 다음 문서에서는 그 방법을 설명합니다.
 
 * [계산된 데이터 표현식](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)
 * [계산된 사용자 정의 필드와 계산된 열 비교](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md)

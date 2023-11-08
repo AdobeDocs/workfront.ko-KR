@@ -7,7 +7,7 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
 source-wordcount: '3349'
 ht-degree: 0%
@@ -115,7 +115,6 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
 * [모바일 앱](#mobile-app)
 
 ### 타임시트 {#timesheet}
-
 
 #### 타임시트에 시간 기록 {#log-time-on-a-timesheet}
 

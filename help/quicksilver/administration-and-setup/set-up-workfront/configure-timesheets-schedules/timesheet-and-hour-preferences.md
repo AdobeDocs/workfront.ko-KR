@@ -8,9 +8,9 @@ author: Courtney and Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 62c600a13f61f7f5e889a92b446252e5ca0777f9
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1380'
 ht-degree: 1%
 
 ---
@@ -21,11 +21,15 @@ ht-degree: 1%
 
 (으)로 [!DNL Adobe Workfront] 관리자는에서 타임시트 및 시간에 대한 환경 설정을 지정할 수 있습니다. [!DNL Workfront] 타임시트가 미리 채울 수 있는 항목과 사용자가 시간을 기록할 수 있는 항목을 정의하기 위한 것입니다.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->타임시트를 미리 채우는 데 이 문서에 설명된 조건을 충족하지 못할 수 있지만 타임시트의 시간대 동안 시간을 기록한 항목은 기본적으로 타임시트에 표시됩니다.
+>이 문서에 설명된 조건에 따라 타임시트를 미리 채우는 항목 외에도 기본적으로 다음 항목이 타임시트에 표시됩니다.
+>* 타임시트의 시간대 동안 시간을 기록한 항목
+>* 타임시트에 고정된 항목
+>* 검색하고 타임시트에 수동으로 추가하는 항목입니다. 수동으로 추가된 항목은 기본적으로 고정됩니다.
 >
->로깅 시간에 대한 자세한 내용은 [로그 시간](../../../timesheets/create-and-manage-timesheets/log-time.md).
+>자세한 내용은 [로그 시간](../../../timesheets/create-and-manage-timesheets/log-time.md).
+
 
 
 타임시트의 변경 사항은 나중에 만들어지는 모든 타임시트에 영향을 줍니다.

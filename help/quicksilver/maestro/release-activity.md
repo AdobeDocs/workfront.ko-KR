@@ -1,13 +1,13 @@
 ---
 title: Adobe Maestro 릴리스 활동
-description: Maestro를 사용하여 사용자 정의 객체, 필드 및 작업 공간을 만듭니다.
+description: 현재 일부 Workfront 고객은 Adobe Maestro를 사용할 수 있습니다. 이 문서를 자주 검토하여 Adobe Maestro에 대해 최근 릴리스된 기능에 대해 알아보십시오.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 0699740f8ef0932316843d9aec0008ccdeb319f5
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '1971'
+source-wordcount: '2030'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,16 @@ ht-degree: 0%
 이 섹션에는 2023년 5월 22일 Maestro Closed Beta 프로그램 출시 후 출시된 기능 및 패치가 나열되어 있습니다.
 
 기능은 매주 릴리스되고 릴리스 순서대로 나열되며, 가장 최근의 기능이 먼저 나열됩니다. Maestro Closed Beta 프로그램에 참여하는 고객은 미리보기 및 프로덕션 환경의 모든 기능에 액세스할 수 있습니다.
+
+## 2023년 11월 6일 주
+
+### 테이블 보기에 대한 그룹화
+
+미리보기 및 프로덕션: 2023년 11월 7일
+
+이제 레코드 유형 페이지의 표 보기에서 레코드를 그룹화할 수 있습니다. Maestro 인터페이스에서 3개의 고유한 필드별로 그룹화할 수 있습니다 <!--checking into this for now: and by four fields when using the API-->.
+
+자세한 내용은 [표 보기 관리](../maestro/views/manage-the-table-view.md).
 
 ## 2023년 10월 30일 주
 

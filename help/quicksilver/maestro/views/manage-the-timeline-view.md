@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1474'
 ht-degree: 1%
 
 ---
@@ -120,8 +120,6 @@ Maestro 보기에 대한 자세한 내용은 [Adobe Maestro에서 레코드 보�
      * Edit record information
 -->
 
-타임라인 보기를 만들 때는 기본적으로 선택한 레코드 유형의 모든 레코드가 타임라인에 막대로 표시됩니다.
-
 타임라인 보기를 관리하려면 다음을 수행합니다.
 
 1. 타임라인을 보려는 레코드 유형 페이지로 이동합니다.
@@ -129,7 +127,7 @@ Maestro 보기에 대한 자세한 내용은 [Adobe Maestro에서 레코드 보�
 
    ![](assets/timeline-view-example.png)
 
-   선택한 레코드 유형과 연관된 레코드는 시간별 타임라인에 막대로 표시됩니다.
+   선택한 레코드 유형과 연관된 레코드는 타임라인에서 막대로 표시되며 기본적으로 시간 순서대로 정렬됩니다.
 
 1. 다음 중 하나를 수행하여 타임라인을 탐색합니다.
 
@@ -176,26 +174,22 @@ Maestro 보기에 대한 자세한 내용은 [Adobe Maestro에서 레코드 보�
 
 ### 그룹화 추가
 
-<!-- if groupings are identical between the table and the timeline, consider replacing this section with this: 
-
-Adding groupings in the timeline view is identical to adding filters in the table view. 
-
-For more information, see the "Add groupings" section in the article [Manage the table view](../views/manage-the-table-view.md). BUT: you would need to create this section for the Table view and move the steps below (and maybe edit them) to the Manage the table view article, in this case. OR ... link from that section to this article?! -->
+<!-- groupings are almost identical between this view and table  but they display a little differently, so I kept the steps for both; update in both places if they make changes to groupings-->
 
 보기에 그룹화를 적용할 때 유사한 정보별로 레코드를 그룹화할 수 있습니다.
 
+타임라인 보기에서 그룹화를 추가하는 것은 테이블 보기에 그룹화를 추가하는 것과 비슷합니다.
+
 타임라인 보기에서 그룹화를 사용하여 작업할 때 다음 사항을 고려하십시오.
 
-<!--not yet: * You can apply groupings both in the table and timeline views. The groupings of the table view are independent from those in the timeline view of the same record type. -->
+* 표 및 타임라인 보기에서 그룹화를 적용할 수 있습니다. 테이블 보기의 그룹화는 동일한 레코드 유형의 타임라인 보기의 그룹화와는 독립적입니다.
 * Maestro 보기에서 3가지 수준의 그룹화를 적용할 수 있습니다. 선택한 그룹화 순서대로 레코드가 그룹화됩니다.
 * API 사용 시 최대 4가지 수준의 그룹화를 적용할 수 있습니다.
 * 그룹화는 선택하는 보기에 대해 고유합니다. 동일한 레코드 종류의 두 타임라인 보기에는 서로 다른 그룹화가 적용될 수 있습니다. 동일한 타임라인 보기를 보고 있는 두 명의 사용자에게 현재 적용된 동일한 그룹화가 표시됩니다.
-
 * 타임라인 보기를 위해 빌드하는 그룹화의 이름을 지정할 수 없습니다.
-
 * 그룹화를 제거하면 사용자와 동일한 레코드 유형에 액세스하거나 사용자와 동일한 보기를 표시하는 모든 사용자에게서 그룹화가 제거됩니다.
 
-그룹화를 추가하려면:
+타임라인 보기에서 그룹화를 추가하려면 다음을 수행합니다.
 
 1. 문서에 설명된 대로 레코드 유형에 대한 타임라인 보기를 만듭니다 [레코드 보기 관리](../views/manage-record-views.md).
 1. 클릭 **그룹화** 을 클릭합니다.
@@ -218,7 +212,7 @@ For more information, see the "Add groupings" section in the article [Manage the
 
    ![](assets/grouping-applied-in-timeline-view.png)
 
-1. (선택 사항) **x** 그룹화를 제거하기 위해 선택한 필드 오른쪽의 아이콘
+1. (선택 사항) **레코드 그룹화 기준** 상자를 클릭하고 **x** 그룹화를 제거하기 위해 선택한 필드 오른쪽의 아이콘
 
    또는
 

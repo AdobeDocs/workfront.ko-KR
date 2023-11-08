@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: ec6a12f2ffbacabac6124ec3a7d85a3ba292e621
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
 source-wordcount: '1845'
 ht-degree: 1%
@@ -358,7 +358,7 @@ Maestro를 찾으려면
 | 타임라인에서 레코드 보기 | ✓ |                                  |                  |
 | 레코드 필터링 | ✓ |                                  |                  |
 | 타임라인 보기에서 레코드 그룹화 | ✓ |                                  |                  |
-| 표 보기에서 레코드 그룹화 |                               | ✓ |                  |
+| 표 보기에서 레코드 그룹화 | ✓ |                                 |                  |
 | 테이블 보기에서 레코드 정렬 | ✓ |                                 |                  |
 | 타임라인 보기에서 레코드 정렬 |                               | ✓ |                  |
 | 표 보기에서 그룹화 정렬 |                               | ✓ |                  |

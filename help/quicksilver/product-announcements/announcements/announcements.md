@@ -2,21 +2,21 @@
 content-type: reference
 navigation-topic: product-announcements
 title: 공지
-description: 이 섹션에는 다음 문서 - EDIT ME가 포함됩니다.
+description: 다음은 숙지해야 할 몇 가지 공지 사항입니다.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3fe99aec-1489-4434-b787-cc3f940c9062
-source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '42'
+source-wordcount: '50'
 ht-degree: 4%
 
 ---
 
 # 공지
 
-이 섹션에는 다음 문서가 포함됩니다.
+다음은 익숙해질 수 있는 공지 사항입니다.
 
 * [사용자 정의 양식 개선 사항](../../product-announcements/announcements/custom-form-enhancements.md)
 * [유지 관리 기간 FAQ](../../product-announcements/announcements/maintenance-window-faq.md)
