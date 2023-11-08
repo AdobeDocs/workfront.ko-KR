@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: 7f11ddf290c24ac3436ea98f14eff1338388f314
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '698'
 ht-degree: 10%
 
 ---
@@ -768,6 +768,96 @@ ht-degree: 10%
    <td> </td> 
    <td> </td> 
    <td>topReferenceObjID</td> 
+  </tr> 
+  <tr> 
+   <td>필드</td> 
+   <td>필드</td> 
+   <td>createdAt</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> createdBy </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> customerId </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> dateOptions </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> 설명 </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> displayName </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> 수식 옵션 </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> hasError </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> linkedField </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> lookupOptions </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> numberOptions </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objCode </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> 옵션 </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> referenceOptions </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> 유형 </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> updatedAt </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> 업데이트한 사람 </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> userOptions </td> 
   </tr> 
   <tr> 
    <td>시간</td> 
@@ -1743,6 +1833,146 @@ ht-degree: 10%
    <td> </td> 
    <td> </td> 
    <td><span>requesterID</span> </td> 
+  </tr> 
+  <tr> 
+   <td>기록</td> 
+   <td>기록</td> 
+   <td>createdAt</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>createdBy</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>customerId</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>데이터</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>id</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>objCode</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>recordExternalOptions</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>recordTypeId</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>updatedAt</td> 
+  </tr> 
+  <tr> 
+   <td>레코드 유형 </td> 
+   <td>RECORD_TYPE </td> 
+   <td>색상</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>createdAt</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>createdBy</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>customerId</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>데이터</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>설명</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>displayName</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>externalOptions</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>필드</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>아이콘</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>id</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>isExternal</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>isTaxomy</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>objCode</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>권한</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>primaryFieldId</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>recordsCount</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>updatedAt</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>업데이트한 사람</td> 
   </tr> 
   <tr> 
    <td>보고서</td> 

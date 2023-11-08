@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 7f11ddf290c24ac3436ea98f14eff1338388f314
 workflow-type: tm+mt
-source-wordcount: '2111'
+source-wordcount: '2123'
 ht-degree: 3%
 
 ---
@@ -56,12 +56,15 @@ ht-degree: 3%
 * 대시보드
 * 문서
 * 경비
+* 필드
 * 시간
 * 문제
 * 참고
 * 포트폴리오
 * 프로그램
 * 프로젝트
+* 기록
+* 레코드 유형
 * 보고서
 * 작업
 * 템플릿
@@ -122,6 +125,10 @@ ht-degree: 3%
         <td scope="col">확장</td> 
        </tr> 
        <tr> 
+        <td scope="col"><p>필드</p></td> 
+        <td scope="col"><p>필드</p></td> 
+       </tr> 
+      <tr> 
         <td scope="col"><p>시간</p></td> 
         <td scope="col">시간</td> 
        </tr> 
@@ -144,6 +151,14 @@ ht-degree: 3%
        <tr> 
         <td scope="col"><p>프로젝트</p></td> 
         <td scope="col"><p>프로젝트</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>기록</p></td> 
+        <td scope="col"><p>기록</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>레코드 유형</p></td> 
+        <td scope="col"><p>RECORD_TYPE</p></td> 
        </tr> 
        <tr> 
         <td scope="col"><p>보고서</p></td> 
