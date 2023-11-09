@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '1474'
+source-wordcount: '1496'
 ht-degree: 1%
 
 ---
@@ -219,6 +219,7 @@ Maestro 보기에 대한 자세한 내용은 [Adobe Maestro에서 레코드 보�
    클릭 **모두 지우기** 모든 필드를 제거합니다.
 
 1. 바깥쪽을 클릭합니다. **레코드 그룹화 기준** 상자를 닫으십시오.
+1. (선택 사항) **설정**, 그런 다음 **색상** 색상 코드 그룹화입니다. 자세한 내용은 [타임라인 보기 설정 편집](#edit-the-timeline-view-settings) 이 문서의 섹션.
 
 <!-- 
 

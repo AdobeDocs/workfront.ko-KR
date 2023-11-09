@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 89d590551ffbd23b357f5697163fa56651f294fb
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '762'
 ht-degree: 1%
 
 ---
@@ -152,7 +152,7 @@ Adobe Maestro에서 레코드 유형을 선택한 후 다음 보기에서 해당
 
 ## 보기 만들기 또는 편집 {#create-or-edit-views}
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-workfront.png) 오른쪽 위 모서리 <!--or the **Main Menu** icon ![](assets/main-menu-shell.png) in the upper-left corner, if available-->을 클릭한 다음 을 클릭합니다 **마에스트로** ![](assets/maestro-icon.png).
+1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-workfront.png) 오른쪽 상단 또는 **메인 메뉴** 아이콘 ![](assets/main-menu-shell.png) 왼쪽 위 모서리에서 사용 가능한 경우 을(를) 클릭합니다. **마에스트로** ![](assets/maestro-icon.png).
 마지막으로 액세스한 작업공간은 기본적으로 열립니다. 작업 공간 만들기에 대한 자세한 내용은 [작업 공간 만들기](../architecture-and-fields/create-workspaces.md).
 1. 레코드 유형 카드를 클릭합니다. 레코드 종류 만들기에 대한 내용은 [레코드 유형 만들기](../architecture-and-fields/create-record-types.md).
 

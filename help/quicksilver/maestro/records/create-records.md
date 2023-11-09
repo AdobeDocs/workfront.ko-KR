@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 0699740f8ef0932316843d9aec0008ccdeb319f5
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '965'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Adobe 마에스트로에서 레코드는 레코드 유형의 인스턴스입니�
 
 레코드 유형 페이지의 표 보기에서 레코드를 만들 수 있습니다.
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-workfront.png) 오른쪽 위 모서리 <!--or the **Main Menu** icon ![](assets/main-menu-shell.png) in the upper-left corner, if available-->을 클릭한 다음 을 클릭합니다 **마에스트로** ![](assets/maestro-icon.png).
+1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-workfront.png) 오른쪽 상단 또는 **메인 메뉴** 아이콘 ![](assets/main-menu-shell.png) 왼쪽 위 모서리에서 사용 가능한 경우 을(를) 클릭합니다. **마에스트로** ![](assets/maestro-icon.png).
 마지막으로 액세스한 작업공간은 기본적으로 열립니다. 작업 공간 만들기에 대한 자세한 내용은 [작업 공간 만들기](../architecture-and-fields/create-workspaces.md).
 1. 레코드 유형 카드를 클릭합니다. 레코드 종류 만들기에 대한 내용은 [레코드 유형 만들기](../architecture-and-fields/create-record-types.md).
 

@@ -7,9 +7,9 @@ description: 객체의 업데이트 섹션에는 사용자가 객체에 대해 �
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 2647b060b604eb167554153d9b1e6c6a99f4845b
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '1156'
+source-wordcount: '1170'
 ht-degree: 4%
 
 ---
@@ -172,8 +172,11 @@ ht-degree: 4%
    <td>팀</td> 
   </tr> 
   <tr> 
-   <td>타임시트*</td> 
-   <td>사용자, 팀</td> 
+   <td>타임시트</td> 
+   <td><p>사용자, 팀</p>
+   <p><b>메모</b></p>
+   <p>타임시트 댓글은 댓글을 작성하는 사용자의 업데이트 섹션과 홈 팀의 업데이트 섹션에 표시됩니다.</p>
+   </td> 
   </tr> 
   <tr> 
    <td>템플릿 작업</td> 
@@ -184,7 +187,7 @@ ht-degree: 4%
    <td>반복, 팀</td> 
   </tr> 
   <tr> 
-   <td>반복*</td> 
+   <td>반복</td> 
    <td>팀</td> 
   </tr>
 
@@ -198,7 +201,7 @@ ht-degree: 4%
   </tr> 
  </tbody> 
 </table>
-* 새로운 댓글 달기 경험에는 사용할 수 없습니다.
+
 
 <br>
 
