@@ -4,9 +4,9 @@ description: 2023년 4분기 통합 개선 사항
 author: Lisa
 feature: Product Announcements
 exl-id: 0e8952db-5103-4730-860b-e3d6088497ec
-source-git-commit: 24ffde1850a005428a3f619fc00842a8779bbc6d
+source-git-commit: 706e531be6f6269a927f94fee4d2c37d9367c9af
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -28,10 +28,6 @@ ht-degree: 0%
 자세한 내용은 [새로운 SharePoint 통합을 통해 문서 연결](/help/quicksilver/administration-and-setup/configure-integrations/configure-sharepoint-integration.md#link-documents-through-the-new-sharepoint-integration).
 
 ## 문서 통합을 위한 드래그 앤 드롭으로 업그레이드
-
->[!NOTE]
->
->이 기능은 아직 프로덕션 환경에 릴리스되지 않았습니다.
 
 파일을 연결된 폴더로 드래그 앤 드롭할 때 사용자 경험을 몇 가지 개선했습니다.
 

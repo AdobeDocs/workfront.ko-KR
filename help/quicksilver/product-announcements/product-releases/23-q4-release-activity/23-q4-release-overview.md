@@ -4,9 +4,9 @@ description: 2023년 4분기 릴리스 개요
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 421cfdeaab4ef102b6b896677dae824cbeae4d70
+source-git-commit: 706e531be6f6269a927f94fee4d2c37d9367c9af
 workflow-type: tm+mt
-source-wordcount: '2700'
+source-wordcount: '2705'
 ht-degree: 0%
 
 ---
@@ -510,7 +510,7 @@ These enhancements will be included in the following releases:
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">문서 통합을 위한 드래그 앤 드롭으로 업그레이드</a></p><p>파일을 연결된 폴더로 드래그 앤 드롭할 때 명확성을 추가하고 사용자 오류를 제거하는 몇 가지 개선 사항이 있습니다.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">문서 통합을 위한 드래그 앤 드롭으로 업그레이드</a></p><p>[!BADGE In production ]{type=Informative}</p><p>파일을 연결된 폴더로 드래그 앤 드롭할 때 명확성을 추가하고 사용자 오류를 제거하는 몇 가지 개선 사항이 있습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>

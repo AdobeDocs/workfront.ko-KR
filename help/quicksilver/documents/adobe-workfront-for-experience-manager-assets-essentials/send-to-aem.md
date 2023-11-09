@@ -6,16 +6,14 @@ description: Workfront에서 Experience Manager Assets 또는 Assets Essentials�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
-source-git-commit: 24ffde1850a005428a3f619fc00842a8779bbc6d
+source-git-commit: 706e531be6f6269a927f94fee4d2c37d9367c9af
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '866'
 ht-degree: 0%
 
 ---
 
 # Experience Manager Assets 또는 Assets Essentials에게 문서 보내기
-
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
 
 Workfront에서 Experience Manager Assets 또는 Assets Essentials으로 문서를 보낼 수 있습니다. Workfront에서 Assets Essentials으로 업로드되고 전송된 문서는 여전히 전체 문서 스토리지에 대해 계산됩니다. Assets Essentials에서 연결된 자산은 전체 스토리지에 포함되지 않습니다.
 
@@ -116,9 +114,9 @@ Workfront에서 Experience Manager Assets 또는 Assets Essentials으로 문서�
 1. 이동할 문서를 찾습니다.
 1. 이동할 연결된 Experience Manager Assets 폴더로 문서를 끌어다 놓습니다.
 
-<div class="preview">문서를 이동하는 동안에는 문서 옵션을 사용할 수 없습니다. 문서가 Experience Manager Assets으로 이동되면 은 더 이상 Workfront의 문서 목록에 표시되지 않습니다.
+문서를 이동하는 동안에는 문서 옵션을 사용할 수 없습니다. 문서가 Experience Manager Assets으로 이동되면 은 더 이상 Workfront의 문서 목록에 표시되지 않습니다.
 
 >[!NOTE]
 >
 > 문서를 이동하는 동안 문서에 대해 수행한 작업이나 편집 내용은 Experience Manager Assets의 문서에 표시되지 않으므로 손실됩니다.
-</div>
+

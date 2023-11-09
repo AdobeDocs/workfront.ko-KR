@@ -6,16 +6,14 @@ description: Experience Manager Assets Essentials 통합에서 워크플로우 �
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 0f625e7d058c6d3ccbfd9dbb12175ad3e2797911
+source-git-commit: 706e531be6f6269a927f94fee4d2c37d9367c9af
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '816'
 ht-degree: 0%
 
 ---
 
 # Experience Manager Assets 통합에서 워크플로우 사용
-
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
 
 워크플로는 Workfront을 Adobe Experience Manager as a Cloud Service에 연결하는 작업 세트입니다. Workfront 관리자는 Workfront에서 워크플로우를 구성한 다음 프로젝트 템플릿에 할당할 수 있습니다. 워크플로가 할당된 프로젝트 템플릿을 사용하여 프로젝트를 만들면 워크플로에 정의된 작업이 트리거됩니다.
 
@@ -147,8 +145,6 @@ ht-degree: 0%
 
 #### 자산 게시
 
-<div class="preview">
-
 자산 게시를 위한 워크플로우를 편집하려면:
 
 1. 전환 **에셋 자동 게시** 원하는 대로 켜거나 끕니다.
@@ -159,4 +155,4 @@ ht-degree: 0%
 
    다음에 있는 경우 [!DNL Adobe Experience Manager area], 변경 사항이 자동으로 저장됩니다. <!--Do they though?-->
 
-</div>
+
