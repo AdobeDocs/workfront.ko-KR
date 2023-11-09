@@ -5,9 +5,9 @@ title: 구성 [!UICONTROL Experience Manager Assets as a Cloud Service] 통합
 description: 다음 위치에서 작업을 콘텐츠와 연결할 수 있습니다. [!DNL Experience Manager Assets].
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: b9cb7dd0663b498937ced48fd1a098cbea5294cd
+source-git-commit: 0f625e7d058c6d3ccbfd9dbb12175ad3e2797911
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1418'
 ht-degree: 0%
 
 ---
@@ -239,13 +239,25 @@ When this option is enabled, any asset that has been pushed to Adobe Experience 
 
 통합에서 설정한 기본 워크플로 값은 프로젝트 템플릿 및 프로젝트 수준에서 재정의할 수 있습니다.
 
-### Adobe Experience Manager 연결 폴더를 만들기 위한 워크플로우 설정
+Adobe Experience Manager 통합에서 사용할 수 있는 워크플로는 다음과 같습니다.
+
+* [Adobe Experience Manager 연결 폴더 만들기](#create-adobe-experience-manager-linked-folders)
+* [Adobe Experience Manager Assets로 전송된 자산 게시](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)
+
+### Adobe Experience Manager 연결 폴더 만들기
 
 1. 전환 **[!UICONTROL 연결된 폴더 만들기]** 켜짐.
 1. 폴더 경로를 선택하여 이 통합과 연결된 모든 폴더를 연결할 위치를 지정합니다.
    ![연결된 폴더 탐색](assets/select-folder-aem-integration.png)
-1. 활성화 **Portfolio 및 프로그램 이름 추가** 연결된 폴더 이름 끝에 Portfolio 및 프로그램 이름을 자동으로 포함하는 옵션입니다.
-1. 클릭 **저장** 또는 로 이동합니다. [연결된 폴더 설정(선택 사항)](#set-up-linked-folders-optional) 이 문서의 섹션.
+1. 활성화 **[!UICONTROL Portfolio 및 프로그램 이름 추가]** 연결된 폴더 이름 끝에 Portfolio 및 프로그램 이름을 자동으로 포함하는 옵션입니다.
+1. 클릭 **[!UICONTROL 저장]** 또는 로 이동합니다. [Adobe Experience Manager Assets로 전송된 자산 게시](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) 이 문서의 섹션.
+
+### Adobe Experience Manager Assets로 전송된 자산 게시
+
+1. 켜기 **[!UICONTROL 에셋 자동 게시]**.
+1. Adobe Experience Manager Assets로 전송된 자산을 게시할 위치 옆에 있는 상자를 선택합니다. 두 옵션 중 하나 또는 모두를 활성화할 수 있습니다.
+1. (조건부) Brand Portal 옵션을 활성화한 경우 에셋을 게시할 Brand Portal을 선택합니다.
+1. 클릭 **[!UICONTROL 저장]** 또는 로 이동합니다. [연결된 폴더 설정(선택 사항)](#set-up-linked-folders-optional) 이 문서의 섹션.
 
 ## 연결된 폴더 설정(선택 사항)
 
