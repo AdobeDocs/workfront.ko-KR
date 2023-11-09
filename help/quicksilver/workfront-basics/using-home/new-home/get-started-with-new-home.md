@@ -6,10 +6,10 @@ description: 새 홈은 작업 관리를 위한 강력한 새 기능입니다.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
+source-git-commit: aff9ba1082af998f104fa01bbc437f7e2ec9b16a
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 21%
+source-wordcount: '945'
+ht-degree: 20%
 
 ---
 
@@ -37,7 +37,7 @@ New Home은 사용자 정의 기능이 뛰어나게 설계되어 있어 가장 �
     맞춤형 필터, 보기, 그룹화 및 새 작업을 직접 만들 수 있는 버튼이 포함된 표에 나에게 할당된 작업을 표시합니다.
 
 * **내 문제**\
-    사용자 지정 가능한 필터, 보기 및 그룹화가 있는 테이블에서 사용자에게 할당된 문제와 새 문제를 직접 만들 수 있는 단추를 표시합니다.
+    사용자 지정 가능한 필터, 보기 및 그룹화가 있는 테이블에서 사용자에게 할당된 문제와 새 문제를 직접 만들 수 있는 단추를 표시합니다. 이 위젯에는 연결된 프로젝트가 현재로 설정된 문제만 포함됩니다.
 
 * **내 요청**\
     제출한 모든 요청, 열려 있는 요청만 표시하는 필터 및 요청에 대한 요약 창을 여는 단추를 표시합니다.

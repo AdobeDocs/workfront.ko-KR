@@ -5,9 +5,9 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: 1129f8ab93d349325bed56bc2b3ba94c2600c03f
+source-git-commit: aff9ba1082af998f104fa01bbc437f7e2ec9b16a
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1141'
 ht-degree: 1%
 
 ---
@@ -85,7 +85,7 @@ An example of how this can be used would be helpful here and/or in the section <
       <td>미리 알림의 이름을 지정합니다.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">적합한 기간</td> 
+      <td role="rowheader">대상 기간</td> 
       <td> <p>에서 날짜 전후의 시간, 작업 일, 일(달력 일), 주 또는 개월 수를 지정합니다. <strong>시간</strong> 필드.</p> <p><b>메모</b>:  
         <ul> 
          <li> <p>미리 알림은 지정된 날짜 및 모든 기준이 충족되면 24시간 후에 시작됩니다.</p> </li> 
@@ -94,7 +94,7 @@ An example of how this can be used would be helpful here and/or in the section <
         </ul> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">시간</td> 
+      <td role="rowheader">타이밍</td> 
       <td> <p>미리 알림을 예약하도록 트리거하는 이벤트를 선택합니다.</p> <p>미리 알림이 프로젝트, 작업 또는 문제를 위한 경우 사용 가능한 옵션은 완료 일자 또는 시작 일자와 관련이 있습니다. 미리 알림은 프로젝트, 작업 및 문제의 완료 및 시작 날짜에 대한 타임스탬프를 고려합니다.</p>
 
    <p>미리 알림이 타임시트를 대상으로 하는 경우 사용 가능한 옵션은 종료 날짜, 시작 날짜 또는 마지막 업데이트 날짜와 관련이 있습니다. 타임시트에 대한 미리 알림은 타임시트 종료, 시작 및 마지막 업데이트 날짜의 타임스탬프를 고려합니다. 타임시트는 시작 날짜의 자정(오전 12:00)에 시작되고 종료 날짜의 자정 직전(오후 11:59)에 종료됩니다.</p>
@@ -109,13 +109,13 @@ An example of how this can be used would be helpful here and/or in the section <
       <td role="rowheader">기준</td> 
       <td> <p>미리 알림을 예약하려면 조건을 선택하십시오. 기준 선택을 충족하지 않으면 미리 알림이 예약되지 않습니다.</p> <p>4단계에서 선택한 객체 유형에 따라 다음 기준 옵션을 사용할 수 있습니다.</p> 
        <ul> 
-        <li><strong>현재 프로젝트에서 미완료:</strong> (작업 및 문제 미리 알림에 사용 가능) 미리 알림과 연관된 객체 상태가 완료됨이 아니고 프로젝트 상태가 현재인 경우에만 미리 알림이 전송되도록 예약됩니다.</li> 
-        <li><strong>현재 프로젝트의 모든 항목:</strong>(작업 및 문제 미리 알림에 사용 가능) 미리 알림은 객체 상태에 관계없이 미리 알림과 연관된 프로젝트 상태가 현재인 경우에만 전송되도록 예약됩니다.</li> 
-        <li><strong>미완료 프로젝트:</strong> (프로젝트 미리 알림에 사용 가능) 미리 알림은 프로젝트 상태가 완료가 아닐 때 전송되도록 예약됩니다.</li> 
-        <li><strong>전체 프로젝트:</strong> (프로젝트 미리 알림에 사용 가능) 미리 알림은 프로젝트 상태가 완료일 때 전송되도록 예약됩니다.</li> 
-        <li><strong>타임시트 열기:</strong> (타임시트 미리 알림에 사용 가능) 타임시트 상태가 [열림]일 때 미리 알림이 전송되도록 예약되어 있습니다.</li> 
-        <li><strong>제출된 타임시트:</strong> (타임시트 미리 알림에 사용 가능) 타임시트 상태가 제출되면 미리 알림이 전송되도록 예약됩니다.</li> 
-        <li><strong>미종료 타임시트 또는 주당 40시간 미만:</strong> (타임시트 미리 알림에 사용 가능) 미리 알림은 타임시트 상태가 [열림]이거나 타임시트에 기록된 시간이 40시간 미만일 때 전송되도록 예약됩니다.</li> 
+        <li><strong>현재 프로젝트에서 미완료:</strong> <i>(작업 및 문제 미리 알림에 사용 가능)</i> 미리 알림은 미리 알림과 연관된 객체 상태가 완료됨이 아니고 프로젝트 상태가 현재인 경우에만 전송되도록 예약됩니다.</li> 
+        <li><strong>현재 프로젝트의 모든 항목:</strong> <i>(작업 및 문제 미리 알림에 사용 가능)</i> 미리 알림은 객체 상태에 관계없이 미리 알림과 연관된 프로젝트 상태가 현재인 경우에만 전송되도록 예약됩니다.</li> 
+        <li><strong>미완료 프로젝트:</strong> <i>(프로젝트 미리 알림에 사용 가능)</i> 미리 알림은 프로젝트 상태가 완료됨이 아닐 때 전송되도록 예약됩니다.</li> 
+        <li><strong>모든 프로젝트:</strong> <i>(프로젝트 미리 알림에 사용 가능)</i> 미리 알림은 프로젝트 상태와 관계없이 전송되도록 예약되었습니다.</li> 
+        <li><strong>타임시트 열기:</strong> <i>(타임시트 미리 알림에 사용 가능)</i> 미리 알림은 타임시트 상태가 [열기]일 때 전송되도록 예약되었습니다.</li> 
+        <li><strong>제출된 타임시트:</strong> <i>(타임시트 미리 알림에 사용 가능)</i> 미리 알림은 타임시트 상태가 제출되면 전송되도록 예약됩니다.</li> 
+        <li><strong>미종료 타임시트 또는 주당 40시간 미만:</strong> <i>(타임시트 미리 알림에 사용 가능)</i> 미리 알림은 타임시트 상태가 [열림]이거나 타임시트가 40시간 미만으로 기록된 경우 전송되도록 예약됩니다.</li> 
         <li><strong>이메일 템플릿:</strong> 드롭다운에서 미리 알림에 첨부할 이메일 템플릿을 선택합니다.<br>이메일 템플릿 작성 방법에 대한 자세한 내용은 을(를) 참조하십시오. <a href="../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md" class="MCXref xref">이메일 템플릿 구성</a>.</li> 
        </ul> </td> 
      </tr> 
