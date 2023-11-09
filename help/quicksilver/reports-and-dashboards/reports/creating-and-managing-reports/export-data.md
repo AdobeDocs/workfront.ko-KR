@@ -310,14 +310,14 @@ PDF 파일로 내보낸 보고서에는 제목이 있습니다.
 
 >[!TIP]
 >
-줄이 있는 경우 `valueformat=HTML` 사용자 정의 필드 열의 텍스트 모드에 나타나며 링크 값이 내보낸 .pdf 파일에 표시되지 않습니다. 텍스트 모드에서 열에 추가 코드 행을 입력해야 합니다.
+>줄이 있는 경우 `valueformat=HTML` 사용자 정의 필드 열의 텍스트 모드에 나타나며 링크 값이 내보낸 .pdf 파일에 표시되지 않습니다. 텍스트 모드에서 열에 추가 코드 행을 입력해야 합니다.
 >
-예를 들어 링크가 포함된 Q1 프로젝트 열기 라는 사용자 정의 필드가 있는 경우 다음 코드를 추가합니다.
+>예를 들어 링크가 포함된 Q1 프로젝트 열기 라는 사용자 정의 필드가 있는 경우 다음 코드를 추가합니다.
 >
-```
-link.url=customDataLabelsAsString(Open Q1 Projects)
-linkedname=direct
-```
+>```
+>link.url=customDataLabelsAsString(Open Q1 Projects)
+>linkedname=direct
+>```
 
 Excel 형식으로 내보낼 때 Workfront 내의 오브젝트에 대한 링크만 내보낸 파일에 포함되며 보고서 게재와 같이 내보낸 Excel 문서에서 링크를 허용하도록 선택할 수 있는 위치에서만 지원됩니다.
 
