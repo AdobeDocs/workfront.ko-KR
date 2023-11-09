@@ -7,17 +7,15 @@ author: Nolan
 feature: Product Announcements
 hide: true
 hidefromtoc: true
-source-git-commit: 0ad33f377086f71699c550e2300731056a834e72
+exl-id: a1603a06-957b-4d52-89f3-f0cec1a4e02c
+source-git-commit: 2778cd34a70f2c268490bdf4cbc2e8ef81bdead2
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '1136'
 ht-degree: 0%
 
 ---
 
-
-# Adobe Workfront 및 Frame.io 기본 통합 알파: 기능
-
-## 사용 사례 및 기능 테스트
+# Adobe Workfront 및 Frame.io 기본 통합 알파: 기능 및 테스트
 
 이 통합을 통해 크리에이티브가 원하는 도구(CC 또는 Frame.io)에 머무르며 컨텐츠 생성 및 피어 검토를 수행하는 동시에 프로젝트 관리자가 작업을 조정하고 Workfront 내부에서 공식 검토 프로세스를 초기화 및 모니터링할 수 있도록 하는 것이 목표입니다. 이는 Frame.io에서 제공하는 콘텐츠 검토 기능과 함께 콘텐츠 승인 관리를 위한 Workfront의 새 문서 승인이라는 두 가지 솔루션의 장점을 활용하여 달성할 수 있습니다. 전체적으로 새로운 문서 승인 및 Frame.io는 새로운 컨텐츠 검토 및 승인 환경을 형성합니다. 
 
@@ -28,38 +26,39 @@ ht-degree: 0%
 >
 >이 알파 프로그램에 귀사가 참여하지 않은 상태에서 이 페이지를 접한 경우, 여기에서 정보를 주의 깊게 처리하고 자세한 내용은 Workfront 또는 Frame.io 관리자에게 문의하십시오.
 
-<!--Initial setup and basic test scenario 
+## 기본 테스트 시나리오
 
-As part of the alpha program, we've provisioned a new test Frame.io account for you and connected it to a new group "Frame.io alpha testing" in your existing Workfront Preview or Sandbox environment. To test the delivered functionality please log in to your Workfront Preview or Sandbox instance and  perform the following steps: 
+알파 프로그램의 새로운 기능을 쉽게 테스트할 수 있도록 새로운 테스트 Frame.io 계정을 만들고 다음과 같은 새 그룹에 연결했습니다. `Frame.io alpha testing` 기존 Workfront 미리보기 또는 샌드박스 환경에서.
 
-Coordinators: Within Workfront, create a project with the "Frame.io alpha testing" group assigned as project group 
+기능을 테스트하려면 Workfront 미리보기 또는 샌드박스 인스턴스에 로그인하고 다음 단계를 수행하십시오.
 
-Coordinators: Within Workfront, assign your creatives to the project or Frame enabled tasks and change the project status to "Current" 
+1. **코디네이터:** Workfront 내에서 `Frame.io alpha testing` 프로젝트 그룹으로 할당된 그룹.
 
-Creatives: Check your emails for an invite to the newly created Frame.io project 
+1. **코디네이터:** Workfront 내에서 프로젝트 또는 프레임 활성화 작업에 크리에이티브를 할당하고 프로젝트 상태를 &quot;현재&quot;로 변경합니다.
 
-Creatives: Click on the "Join project" button within the invitation email to join the Frame.io project, review the creative brief within the project and start your content creation within your CC tool of choice 
+1. **광고:** 새로 만든 Frame.io 프로젝트에 대한 초대를 위해 이메일을 확인하십시오.
 
-Creatives: Upload your created assets to Frame.io and add them to the linked Workfront project (or assigned Frame enabled tasks)  
+1. **광고:** 초대 이메일의 &quot;프로젝트 참여&quot; 버튼을 클릭하여 Frame.io 프로젝트에 참여하고, 프로젝트 내의 Creative Brief를 검토하고, 선택한 Creative Cloud 도구에서 컨텐츠 생성을 시작합니다.
 
-Coordinators: Within Workfront, see the linked Frame.io assets in your project and assign reviewers / approvers (new document approvals: More help on this feature) 
+1. **광고:** 만든 에셋을 Frame.io에 업로드하고 연결된 Workfront 프로젝트(또는 할당된 프레임 사용 작업)에 추가합니다.
 
-Stakeholders: Withing Workfront, view your approval request in Workfront Home or Document Details and review the Frame connected document in the Frame.io Viewer. Leave a comment feedback 
+1. **코디네이터:** Workfront 내에서 연결된 Frame.io 에셋을 찾아 프로젝트에서 검토자/승인자를 할당합니다(검토자/승인자 할당에 대한 자세한 내용은 다음을 참조하십시오.) [문서에 승인자 또는 검토자 추가](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)).
 
-Coordinators: Within Workfront, view the stakeholder created comments within the Updates section of the Frame.io connected document in Workfront 
+1. **이해 당사자:** Workfront 내에서 홈 또는 문서 세부 정보에서 승인 요청을 보고 Frame.io 뷰어에서 프레임 연결 문서를 검토한 다음 피드백이 포함된 댓글을 남깁니다.
 
-Stakeholders: Make a decision from within the Frame.io Viewer 
+1. **코디네이터:** Workfront 내에서 Frame.io 연결 문서의 업데이트 섹션 내에서 관련자가 작성한 주석을 확인합니다.
 
-Creatives: Within Frame.io, notice the overall approval decision made for your assets 
+1. **이해 당사자:** Frame.io 뷰어 내에서 결정합니다.
 
-Creatives: Within Frame.io, Apply the requested changes by adding the updated version to the version stack of the connected asset 
+1. **광고:** Frame.io 내에서 자산에 대해 결정된 전반적인 승인 결정을 확인합니다.
 
-Coordinators: Within Workfront, assign approvers / reviewers to the new version upload and monitor the progress until it reaches sign-off-->
+1. **광고:** Frame.io 내에서 업데이트된 버전을 연결된 자산의 버전 스택에 추가하여 요청된 변경 사항을 적용합니다.
+
+1. **코디네이터:** Workfront 내에서 승인자/검토자를 새로 업로드한 버전에 할당하고 로그오프에 도달할 때까지 진행 상황을 모니터링합니다.
 
 ## 기능 계획
 
 다음은 해결하고자 하는 주요 사용 사례와 현재 계획한 기능에 대한 정보입니다. <!--, along with documentation to get you started testing.-->
-
 
 ### Workfront 관리자는 Workfront 그룹과 Frame.io 계정 간의 연결을 설정할 수 있습니다
 
