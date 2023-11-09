@@ -4,14 +4,14 @@ product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: basics-workfront-proof
 title: 의 개인 설정 [!DNL Workfront Proof]
-description: 이 섹션에는 다음 문서 - EDIT ME가 포함됩니다.
+description: Workfront Proof에서 개인 설정에 대해 알아봅니다.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 6d19a4f9-04f6-4965-9651-4763892955fd
-source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
+source-git-commit: 692d0e903c1b92ad539eacf6d26e18e81530a8b0
 workflow-type: tm+mt
-source-wordcount: '44'
+source-wordcount: '43'
 ht-degree: 0%
 
 ---

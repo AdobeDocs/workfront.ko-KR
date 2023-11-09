@@ -3,13 +3,13 @@ content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: '보기: 시간 및 날짜 차이 계산'
-description: 개체의 두 날짜 필드 또는 개체의 날짜 필드와 부모 개체의 다른 날짜 필드 간의 차이를 표시하는 보기를 만듭니다.
+description: 시간 및 날짜 차이를 계산하는 방법을 알아봅니다.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
+source-git-commit: 92ebfc6e2f33c15865b824c99546c8856d4f8edd
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---

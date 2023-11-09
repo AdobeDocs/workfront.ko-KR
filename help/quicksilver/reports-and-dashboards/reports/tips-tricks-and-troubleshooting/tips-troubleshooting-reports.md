@@ -3,14 +3,14 @@ content-type: tips-tricks-troubleshooting
 product-area: reporting
 navigation-topic: reports
 title: 보고서에 대한 팁, 요령 및 문제 해결
-description: 이 섹션에는 다음 문서 - EDIT ME가 포함됩니다.
+description: 보고서 문제 해결 방법을 알아봅니다.
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 76ca4656-79a6-43da-a6d5-56a30f542d1e
-source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '69'
 ht-degree: 0%
 
 ---

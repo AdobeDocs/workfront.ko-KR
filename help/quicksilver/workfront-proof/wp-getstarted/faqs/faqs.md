@@ -4,14 +4,14 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: basics-workfront-proof
 title: Workfront 증명 - 자주 묻는 질문
-description: 이 섹션에는 다음 문서 - EDIT ME가 포함됩니다.
+description: Workfront Proof에 대해 자주 묻는 질문 을 참조하십시오.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: e2bbb311-b56a-46aa-8595-420482fa4ed8
-source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
+source-git-commit: 692d0e903c1b92ad539eacf6d26e18e81530a8b0
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '64'
 ht-degree: 0%
 
 ---

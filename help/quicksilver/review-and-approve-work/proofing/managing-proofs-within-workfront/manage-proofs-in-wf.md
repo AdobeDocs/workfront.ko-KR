@@ -3,12 +3,12 @@ content-type: reference
 product-area: documents
 navigation-topic: proofing-in-workfront-navigation-topic
 title: Adobe Workfront 내에서 증명 관리
-description: 이 섹션에는 다음 문서 - EDIT ME가 포함됩니다.
+description: Adobe Workfront에서 증명을 관리하는 방법을 알아봅니다.
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: dcd049e4-2e9f-49b9-adac-8b8e67187a3b
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
 source-wordcount: '41'
 ht-degree: 0%

@@ -3,13 +3,13 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
 title: 에서 증명 설정 구성 [!DNL Workfront Proof]
-description: 다음 방법 중 하나로 만들거나 편집하는 증명을 구성할 수 있습니다. 편집
+description: 증명에서 만들거나 편집할 증명을 구성할 수 있습니다.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ca379054-4737-4796-a812-f2ec38b437ba
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1055'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,6 @@ ht-degree: 1%
 >
 >* *누군가가 증명에 로그인하려면(로그인 요구 기능이 활성화된 경우) 증명에 추가되어 있어야 합니다.*
 >* *로그인 요구 사항을 활성화하면 구독을 활성화할 수 없습니다.*
-
 
 증명을 검토하는 모든 사용자에 대해 로그인을 요구하려면 다음 작업을 수행하십시오.
 

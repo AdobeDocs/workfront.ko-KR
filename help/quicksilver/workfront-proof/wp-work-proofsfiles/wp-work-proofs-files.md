@@ -4,15 +4,15 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: workfront-proof-navigation-topic
 title: 에서 증명 및 파일 작업 [!DNL Workfront Proof]
-description: 이 섹션에는 다음 하위 섹션 - EDIT ME가 포함됩니다.
+description: 에서 증명 및 파일 작업 [!DNL Workfront Proof].
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 31b97154-e506-4a1c-ab9a-92395156ed47
-source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 10%
+source-wordcount: '74'
+ht-degree: 0%
 
 ---
 

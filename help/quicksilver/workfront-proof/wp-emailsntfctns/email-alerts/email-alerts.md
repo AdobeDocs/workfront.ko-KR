@@ -4,14 +4,14 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: emails-and-notifications-workfront-proof
 title: 이메일 경고
-description: 이 섹션에는 다음 문서 - EDIT ME가 포함됩니다.
+description: Workfront Proof에서 이메일 경고 설정에 대해 알아봅니다.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: eacd6ff8-49f3-46d5-89e0-1bb44554cce7
-source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '47'
+source-wordcount: '48'
 ht-degree: 0%
 
 ---

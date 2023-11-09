@@ -3,13 +3,13 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: '보기: 표준 인터페이스에 포함되지 않은 개체 표시'
-description: 표준 모드 인터페이스에 포함되지 않은 객체를 뷰에 표시할 수 있습니다. 이 작업은 텍스트 모드를 통해 참조해야만 수행할 수 있습니다. 다음 방법 중 하나로 보기에 포함할 수 있는 필드를 결정할 수 있습니다.
+description: 표준 모드 인터페이스에 포함되지 않은 객체를 뷰에 표시할 수 있습니다. 이 작업은 텍스트 모드를 통해 참조해야만 수행할 수 있습니다.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: c0138730-494b-4443-865a-44f8f00d5342
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 0%
 다음 방법 중 하나로 보기에 포함할 수 있는 필드를 결정할 수 있습니다.
 
 * 사용 [API 탐색기](../../../wf-api/general/api-explorer.md) 텍스트 모드를 통해 참조할 수 있는 다른 객체를 검색합니다.\
-   API 탐색기에 문서화된 모든 필드가 텍스트 모드에 유효한 필드는 아닙니다. 일부 필드는 API를 통해서만 보고할 수 있습니다.
+  API 탐색기에 문서화된 모든 필드가 텍스트 모드에 유효한 필드는 아닙니다. 일부 필드는 API를 통해서만 보고할 수 있습니다.
 
 * 열에서 개체의 ID 필드를 찾습니다. 필드 ID가 있는 대부분의 개체에는 표준 모드 인터페이스를 통해 액세스할 수 없는 해당 열 또는 필드 이름도 있습니다.
 
-   텍스트 모드를 사용하여 ID 대신 열 또는 필드 이름을 뷰에 포함할 수 있습니다. `fieldnameID` (으)로 `fieldname:name`.
+  텍스트 모드를 사용하여 ID 대신 열 또는 필드 이름을 뷰에 포함할 수 있습니다. `fieldnameID` (으)로 `fieldname:name`.
 
-   예를 들어 표준 모드 인터페이스에서 **Portfolio 소유자 ID** 필드는 프로젝트 보기에 사용할 수 있지만 **Portfolio 소유자 이름** 필드가 아닙니다. 텍스트 모드를 사용하여 다음을 표시할 수 있습니다 **Portfolio 소유자 이름** 를 입력합니다.
+  예를 들어 표준 모드 인터페이스에서 **Portfolio 소유자 ID** 필드는 프로젝트 보기에 사용할 수 있지만 **Portfolio 소유자 이름** 필드가 아닙니다. 텍스트 모드를 사용하여 다음을 표시할 수 있습니다 **Portfolio 소유자 이름** 를 입력합니다.
 
 ## 액세스 요구 사항
 

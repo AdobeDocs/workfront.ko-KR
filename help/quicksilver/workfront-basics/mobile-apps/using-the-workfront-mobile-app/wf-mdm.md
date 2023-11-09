@@ -3,13 +3,13 @@ content-type: reference
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: 모바일 장치 관리용 Adobe Workfront(MDM)
-description: Adobe [!DNL Workfront] 은(는) 몇 개의 모바일 장치 관리(MDM) 플랫폼과 파트너 관계를 맺어 조직에 보다 안전하고 통제된 모바일 경험을 제공합니다. Workfront 모바일 앱은 다음 모바일 장치 관리 플랫폼인 EDIT ME에서 사용할 수 있습니다.
+description: Adobe [!DNL Workfront] 은(는) 몇 개의 모바일 장치 관리(MDM) 플랫폼과 파트너 관계를 맺어 조직에 보다 안전하고 통제된 모바일 경험을 제공합니다.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 6f989fb8-5e33-4626-92cf-1d3a629698b0
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---

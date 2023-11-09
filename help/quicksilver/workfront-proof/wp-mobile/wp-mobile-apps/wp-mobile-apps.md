@@ -3,12 +3,12 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: mobile-workfront-proof
 title: Workfront Proof 모바일 앱
-description: 이 섹션에는 다음 문서 - EDIT ME가 포함됩니다.
+description: Workfront Proof 모바일 앱을 사용하는 방법을 알아봅니다.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 8a868212-cf8e-4752-8aa6-ed74f10f5cea
-source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 0%

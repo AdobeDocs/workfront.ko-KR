@@ -3,15 +3,15 @@ content-type: overview;reference
 product-area: documents
 navigation-topic: documents-navigation-topic
 title: 문서
-description: 이 섹션에는 다음 하위 섹션 - EDIT ME가 포함됩니다.
+description: 문서 사용 방법에 대해 알아봅니다.
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 75635712-c237-4a83-9ab0-fe37c8069284
-source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 26%
+source-wordcount: '35'
+ht-degree: 5%
 
 ---
 

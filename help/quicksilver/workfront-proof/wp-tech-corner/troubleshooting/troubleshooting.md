@@ -4,14 +4,14 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: tech-corner
 title: 에서 문제 해결 [!DNL Workfront Proof]
-description: 이 섹션에는 다음 문서 - EDIT ME가 포함됩니다.
+description: Workfront 증명 문제를 해결하는 방법에 대해 알아봅니다.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: f9e93cc2-9dff-4150-a809-10598e110ef8
-source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '60'
 ht-degree: 0%
 
 ---

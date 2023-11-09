@@ -3,14 +3,14 @@ content-type: reference
 product-area: reporting
 navigation-topic: reports
 title: 보고서의 계산된 사용자 정의 데이터
-description: 계산된 사용자 지정 데이터를 사용하여 보고서를 만들 수 있습니다.
+description: 보고서의 사용자 지정 데이터에 대해 알아봅니다.
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 673792b6-7369-47ce-b0df-9bda4254781c
-source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
+source-git-commit: 92ebfc6e2f33c15865b824c99546c8856d4f8edd
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---

@@ -2,14 +2,14 @@
 content-type: release-notes
 navigation-topic: product-announcements
 title: 제품 공지
-description: 예정된 제품 릴리스, 최신 Beta 프로그램 또는 공지 사항에 대해 알아봅니다.
+description: 제품 공지에 대해 알아봅니다.
 author: Luke
 feature: Product Announcements
 exl-id: 47325ca8-653b-47c9-b84e-e10f1a57cf6f
-source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
+source-git-commit: 92ebfc6e2f33c15865b824c99546c8856d4f8edd
 workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 2%
+source-wordcount: '29'
+ht-degree: 3%
 
 ---
 
