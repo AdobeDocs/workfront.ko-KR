@@ -3,9 +3,7 @@ title: 2024년 1분기 통합 개선 사항
 description: 2024년 1분기 통합 개선 사항
 author: Becky
 feature: Product Announcements
-hidefromtoc: true
-hide: true
-source-git-commit: d2087f465114d33145a49745815abedeb020afdf
+source-git-commit: 2dfb6cb4034b12c42808644f1a3966fb95948763
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 0%
