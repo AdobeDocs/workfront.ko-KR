@@ -6,9 +6,9 @@ description: 다음 알림은 후원 중인 프로젝트에서 발생하는 활�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: fd93a48b-ef09-4489-b93d-5328240ffed6
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 298b74c2d228a76c02d34470fa8298028605cab4
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '970'
 ht-degree: 8%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 8%
    <td><strong>인스턴트</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>주의가 필요한 오류가 발견되었습니다.</strong> </p> <p>이메일을 통해 댓글에 답글을 다는 사용자는 답글이 게재되지 않을 때 이메일 알림을 받습니다.</p> <p>인스턴트 알림 이메일의 제목은 다음과 같습니다. <em>[!UICONTROL가에서 처리하지 못함] &lt;subject of="" original="" message=""&gt;</em></p> <p>이메일을 사용하여 댓글에 회신하는 방법에 대한 자세한 내용은 을 참조하십시오.<strong></strong></p> </td> 
+   <td> <p><strong>주의가 필요한 오류가 발견되었습니다.</strong> </p> <p>이메일을 통해 댓글에 답글을 다는 사용자는 답글이 게재되지 않을 때 이메일 알림을 받습니다.</p> <p>인스턴트 알림 이메일의 제목은 다음과 같습니다. <em>[!UICONTROL가에서 처리하지 못함] &lt;subject of="" original="" message=""&gt;</em></p> <p>전자 메일을 사용하여 댓글에 회신하는 방법에 대한 자세한 내용은 <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/reply-to-email-notifications.md">이메일 알림에 회신</a>.</p> </td>
    <td> </td> 
    <td><strong>인스턴트</strong> </td> 
   </tr> 

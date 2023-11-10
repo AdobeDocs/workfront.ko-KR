@@ -6,7 +6,7 @@ description: 프로젝트, 작업, 문제 및 기타 오브젝트에 대한 댓�
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: fea88410-8f37-49d0-9f5d-9fbac4ab5de6
-source-git-commit: 413e5ff710b4c77b7ea2d870b34bb0627a4fcd86
+source-git-commit: 298b74c2d228a76c02d34470fa8298028605cab4
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 1%
@@ -19,12 +19,8 @@ ht-degree: 1%
 
 다음과 같은 방법으로 이메일 알림에서 업데이트에 회신할 수 있습니다.
 
-원래 댓글에 답글 남기기.
-
 * 이메일 내의 댓글 버튼을 사용하여 Workfront으로 다시 이동하고 업데이트 영역에서 업데이트에 회신할 수 있습니다.
-* 받은 이메일에 답장을 보냅니다. 회신 이메일이 Workfront으로 추가되었습니다.
-
-
+* 받은 이메일에 답장을 보냅니다. 답글 이메일이 원래 의견에 대한 Workfront 답글로 추가됩니다.
 
 >[!NOTE]
 >
@@ -46,7 +42,7 @@ ht-degree: 1%
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
