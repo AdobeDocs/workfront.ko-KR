@@ -3,15 +3,15 @@ content-type: overview;reference
 product-area: dashboards
 navigation-topic: reports-and-dashboards
 title: 대시보드
-description: Adobe Workfront의 대시보드를 이해하려면 이러한 영역을 검토하십시오.
+description: 대시보드는 Adobe Workfront의 보고서 컬렉션입니다. Workfront의 대시보드를 이해하려면 이러한 영역을 검토하십시오.
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: e4ee3729-a39d-4d1f-971f-4eb557d151d4
-source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
+source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
 workflow-type: tm+mt
-source-wordcount: '26'
-ht-degree: 23%
+source-wordcount: '33'
+ht-degree: 18%
 
 ---
 

@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
+source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
 workflow-type: tm+mt
-source-wordcount: '3349'
+source-wordcount: '3451'
 ht-degree: 0%
 
 ---
@@ -344,9 +344,33 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
 
 홈에서 프로젝트별 시간을 기록할 수 있습니다.
 
-홈 영역 사용에 대한 일반 정보는 다음을 참조하십시오. [홈 영역 사용](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+홈 영역 사용에 대한 일반 정보는 다음 섹션을 참조하십시오.
 
-홈 영역에서 작업 항목에 시간을 기록하려면 다음을 수행합니다.
+* 기존 홈 영역 사용에 대한 자세한 내용은 [홈 영역 사용](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+* 새 홈 영역 사용에 대한 자세한 내용은 [Adobe Workfront의 새 홈 시작](../../workfront-basics/using-home/new-home/get-started-with-new-home.md).
+
+#### 새 홈 영역의 작업 항목에 시간을 기록합니다.
+
+1. 에 연결 **홈** 영역입니다.
+1. 다음 위젯 중 하나를 추가합니다.
+
+   * 내 작업
+   * 내 문제
+   * 내 작업
+   * 내 요청
+1. 목록에서 작업, 문제 또는 요청을 선택한 다음 **요약**
+
+   또는
+
+   다음을 클릭합니다. **요약** 아이콘 ![](assets/open-summary-icon-in-home.png) 내 작업 위젯의 작업 또는 문제에서 참조할 수 있습니다.
+
+   요약 패널이 오른쪽에 열립니다.
+
+   ![](assets/log-time-new-home-my-work-widget.png)
+1. 에 설명된 대로 요약 패널에서 시간을 계속 기록합니다. [요약 개요](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+
+
+#### 기존 홈 영역의 작업 항목에 시간을 기록합니다.
 
 1. 다음에서 **작업 목록** 영역에서 시간을 기록할 항목을 선택합니다.
 1. 오른쪽 패널에서 를 클릭합니다. **로그 시간**.
@@ -430,16 +454,16 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
    * **소유자:** 기본적으로 이름이 이 필드에 표시됩니다.\
      다른 사용자의 시간을 기록하는 경우 해당 이름을 지정합니다.
 
-   * **시간**: 프로젝트, 작업 또는 문제의 시간 수를 입력합니다.
    * **시간 유형**: 기본적으로 표시되는 시간 유형과 다른 경우 드롭다운 메뉴에서 시간 유형을 선택합니다.
 
      시스템에 구성된 시간 유형에 따라 여기 옵션이 다를 수 있습니다. 시간 유형 구성에 대한 자세한 내용은 [타임시트의 시간 유형 및 가용성 정의](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
    * **작업 역할**: (조건부) Workfront 또는 그룹 관리자가 **시간 항목에 수동으로 작업 역할 할당** 설정, 선택 **작업 역할** 드롭다운 메뉴에서 을(를) 선택합니다. 객체에 지정될 때 지정된 역할이 기본적으로 표시됩니다. 오브젝트에 역할이 할당되지 않은 경우 기본 역할이 기본값으로 표시됩니다. 이 설정에 대한 자세한 내용은 문서를 참조하십시오 [타임시트 및 시간 환경 설정 구성](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-     ![Screen_Shot_2017-05-03_at_10.16.52_AM.png](assets/screen-shot-2017-05-03-at-10.16.52-am-350x346.png)
+     ![](assets/log-time-box-in-hours-section-on-task.png)
+   * **시간**: 프로젝트, 작업 또는 문제의 시간 수를 입력합니다.
 
-1. 클릭 **시간 기록**.
+1. 클릭 **로그 시간**.
 
 ### 요약 패널
 

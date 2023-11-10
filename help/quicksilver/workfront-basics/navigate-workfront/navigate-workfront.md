@@ -2,21 +2,21 @@
 content-type: reference
 navigation-topic: get-started-with-workfront
 title: 탐색 [!DNL Adobe Workfront]
-description: Workfront을 탐색하고 Workfront 용어를 학습하는 방법을 이해하려면 이 문서를 검토하십시오.
+description: Adobe Workfront을 탐색하고 Workfront 용어를 학습하는 방법을 이해하려면 이 문서를 검토하십시오.
 feature: Get Started with Workfront
 author: Lisa
 recommendations: noDisplay, noCatalog
 exl-id: 2ee82e53-1cc3-4438-a325-8c2c4d4ca1fb
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '109'
 ht-degree: 1%
 
 ---
 
 # 탐색 [!DNL Adobe Workfront]
 
-Workfront을 탐색하고 Workfront 용어를 학습하는 방법을 이해하려면 이 문서를 검토하십시오.
+Adobe Workfront을 탐색하고 Workfront 용어를 학습하는 방법을 이해하려면 이 문서를 검토하십시오.
 
 이 섹션에는 다음 하위 섹션 및 문서가 포함되어 있습니다.
 
