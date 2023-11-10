@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51967cd7-962e-4354-a04b-6df4e31e70c6
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: 6f9eddd46430990e11d5d661ea09f0595a9acebc
 workflow-type: tm+mt
 source-wordcount: '1014'
 ht-degree: 3%
@@ -53,11 +53,12 @@ Workfront 관리자가 팀을 만드는 방법에 대한 자세한 내용은 [�
 1. 왼쪽 패널에서 **그룹** ![](assets/groups-icon.png).
 
 1. 팀을 만들거나 수정할 그룹의 이름을 클릭합니다.
-1. 왼쪽 패널에서 **팀** ![](assets/teams.png) 을(를) 사용하여 그룹 및 그룹에 포함될 수 있는 모든 하위 그룹과 연결된 팀을 나열할 수 있습니다.
+1. 왼쪽 패널에서 **팀** ![](assets/teams.png) 을(를) 사용하여 그룹 및 해당 그룹에 속한 하위 그룹과 연결된 팀을 나열할 수 있습니다.
 
 1. 다음 중 하나를 수행합니다.
 
    * **팀 추가**: 클릭 **새 팀**&#x200B;를 클릭한 다음 다음 옵션을 사용하여 구성합니다.
+
    <!-- WRITER please check table below. I stripped out wonky conditions-->
 
    <table style="table-layout:auto"> 
@@ -70,7 +71,7 @@ Workfront 관리자가 팀을 만드는 방법에 대한 자세한 내용은 [�
        </tr> 
        <tr> 
        <td role="rowheader">그룹</td> 
-       <td> <p> 시스템이 새 포트폴리오의 그룹 필드에 사용자가 보고 있는 그룹을 채웁니다. 팀을 다른 그룹과 연결하려면 그룹 이름을 입력한 다음 표시될 때 이름을 선택합니다.</p> <p>마우스로 가리키고 정보 아이콘을 클릭하여 올바른 그룹을 팀과 연결하는지 확인할 수 있습니다 <img src="assets/info-icon.png"> 옆에 표시됩니다. 그룹 및 해당 관리자의 상위 그룹 계층과 같은 그룹에 대한 정보를 나열하는 도구 설명이 표시됩니다.</p> <p><b>참고</b>: 팀이 그룹 또는 하위 그룹에 할당되면 해당 그룹 또는 하위 그룹의 모든 그룹 관리자는 해당 그룹의 구성원이 되지 않고도 팀을 관리할 수 있습니다. 그룹 관리자는 메인 메뉴에서 팀 영역으로 이동하여 팀 전환 화살표를 클릭할 수 있습니다 <img src="assets/switch-team-icon.png" alt="팀 전환 아이콘"> 자신이 관리하는 그룹에 할당된 모든 팀을 나열합니다.</p> </td> 
+       <td> <p> 시스템이 새 팀의 그룹 필드에 사용자가 보고 있는 그룹을 채웁니다. 팀을 다른 그룹과 연결하려면 그룹 이름을 입력한 다음 표시될 때 이름을 선택합니다.</p> <p>마우스로 가리키고 정보 아이콘을 클릭하여 올바른 그룹을 팀과 연결하는지 확인할 수 있습니다 <img src="assets/info-icon.png"> 옆에 표시됩니다. 그룹 및 해당 관리자의 상위 그룹 계층과 같은 그룹에 대한 정보를 나열하는 도구 설명이 표시됩니다.</p> <p><b>참고</b>: 팀이 그룹 또는 하위 그룹에 할당되면 해당 그룹 또는 하위 그룹의 모든 그룹 관리자는 해당 그룹의 구성원이 되지 않고도 팀을 관리할 수 있습니다. 그룹 관리자는 메인 메뉴에서 팀 영역으로 이동하여 팀 전환 화살표를 클릭할 수 있습니다 <img src="assets/switch-team-icon.png" alt="팀 전환 아이콘"> 자신이 관리하는 그룹에 할당된 모든 팀을 나열합니다.</p> </td> 
        </tr> 
        <tr> 
        <td role="rowheader">팀원</td> 
@@ -85,7 +86,7 @@ Workfront 관리자가 팀을 만드는 방법에 대한 자세한 내용은 [�
        <td>이 팀에 표시할 캘린더 탭을 선택합니다.</td> 
        </tr> 
        <tr> 
-       <td role="rowheader">작업 수행</td> 
+       <td role="rowheader">처리 중</td> 
        <td>처리 중(Work On It) 단추를 시작(Start) 단추로 변경합니다. 사용자가 시작을 클릭하면 항목의 상태가 자동으로 업데이트됩니다.</td> 
        </tr> 
        <tr> 
@@ -97,7 +98,7 @@ Workfront 관리자가 팀을 만드는 방법에 대한 자세한 내용은 [�
 
    * **팀 편집**: 하나 이상의 팀을 선택하고 클릭 **다음** 편집 아이콘 ![](assets/edit-icon.png)를 클릭한 다음 다음 옵션을 사용하여 구성합니다.
 
-      <table style="table-layout:auto"> 
+     <table style="table-layout:auto"> 
       <col> 
       <col> 
       <tbody> 
@@ -130,7 +131,7 @@ Workfront 관리자가 팀을 만드는 방법에 대한 자세한 내용은 [�
        <td>애자일 팀인지 여부를 지정합니다. 애자일 팀 및 팀 작업 관리 방법에 대한 자세한 내용은 <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">애자일 팀 만들기</a>.</td> 
        </tr> 
        <tr> 
-       <td role="rowheader">작업 수행</td> 
+       <td role="rowheader">처리 중</td> 
        <td> <p>처리 중(Work On It) 단추를 시작(Start) 단추로 변경합니다. 사용자가 시작을 클릭하면 항목의 상태가 자동으로 업데이트됩니다.</p> <p>시작 단추를 구성하는 방법에 대한 자세한 내용은 <a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">처리 중 단추를 시작 단추로 바꾸기</a>.</p> </td> 
        </tr> 
        <tr> 
