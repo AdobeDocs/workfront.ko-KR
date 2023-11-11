@@ -12,7 +12,7 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: a485f213cc735cd6596a89c560b33ee1b896c47d
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '2304'
 ht-degree: 3%
@@ -134,7 +134,7 @@ API는 각 요청을 인증하여 클라이언트가 요청된 개체를 보거�
 
 ### 요청 헤더 인증
 
-기본 인증 방법은 세션 토큰이 포함된 SessionID라는 요청 헤더를 전달하는 것입니다. 이는 안전하다는 장점이 있다 [CSRF(크로스 사이트 요청 위조)](http://en.wikipedia.org/wiki/Cross-site_request_forgery) 캐싱을 위해 URI를 공격하고 방해하지 않습니다.
+기본 인증 방법은 세션 토큰이 포함된 SessionID라는 요청 헤더를 전달하는 것입니다. 이는 안전하다는 장점이 있다 [CSRF(크로스 사이트 요청 위조)](https://en.wikipedia.org/wiki/Cross-site_request_forgery) 캐싱을 위해 URI를 공격하고 방해하지 않습니다.
 
 다음은 요청 헤더의 예입니다.
 

@@ -6,7 +6,7 @@ draft: Probably
 feature: Workfront API, Workfront Proof
 role: Developer
 exl-id: fcf89bd6-0e07-42a7-9ae3-9a1309e51946
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 0%
@@ -57,9 +57,9 @@ API를 호출할 때마다 새 세션 ID를 가져올 필요가 없으며 24시�
 
 ## 증명/개인 URL이란 무엇입니까?
 
-**팀/공용**: 각 증명 버전에는 고유한 팀(공개) URL이 있습니다. 활성화되면 증명이 읽기 전용 모드로 열립니다. 다음을 사용하여 팀 URL을 가져올 수 있습니다 [getProofURL()](http://api.proofhq.com/home/proofs/getproofurl) 메서드를 사용합니다.
+**팀/공용**: 각 증명 버전에는 고유한 팀(공개) URL이 있습니다. 활성화되면 증명이 읽기 전용 모드로 열립니다. 다음을 사용하여 팀 URL을 가져올 수 있습니다 [getProofURL()](https://api.proofhq.com/home/proofs/getproofurl.html) 메서드를 사용합니다.
 
-**개인**: 개인 URL은 모든 검토자 및 증명 버전에 대해 고유합니다. 증명 세트에 3개의 버전이 포함되어 있고 검토자가 모든 버전에 있는 경우 검토자는 3개의 고유한 개인 URL을 갖게 됩니다. 개인 URL은 검토자가 이미 식별한 증명 버전을 엽니다. 따라서 안전하고 공유되지 않아야 합니다. 개인 URL은 [getProofReviewers()](http://api.proofhq.com/home/proofs/getproofreviewers) 메서드, 각 요소에 대해 반복  [SOAPRecepentObject](http://api.proofhq.com/home/objects/soaprecipientobject) 및 매개 변수 &quot;proof_url&quot;을 가져오는 중.
+**개인**: 개인 URL은 모든 검토자 및 증명 버전에 대해 고유합니다. 증명 세트에 3개의 버전이 포함되어 있고 검토자가 모든 버전에 있는 경우 검토자는 3개의 고유한 개인 URL을 갖게 됩니다. 개인 URL은 검토자가 이미 식별한 증명 버전을 엽니다. 따라서 안전하고 공유되지 않아야 합니다. 개인 URL은 [getProofReviewers()](https://api.proofhq.com/home/proofs/getproofreviewers.html) 메서드, 각 요소에 대해 반복  [SOAPRecepentObject](https://api.proofhq.com/home/objects/soaprecipientobject.html) 및 매개 변수 &quot;proof_url&quot;을 가져오는 중.
 
 ## >축소판을 열 때 사용자 지정 매개 변수를 포함하는 방법
 
@@ -71,5 +71,5 @@ API를 호출할 때마다 새 세션 ID를 가져올 필요가 없으며 24시�
 
 ## Java Web Service 클라이언트를 만드는 방법
 
-[이 비디오](http://screencast.com/t/xsSNrqs5b) eclipse 및 Workfront Proof WSDL 정의를 사용하여 Java 웹 서비스 클라이언트를 만드는 방법을 보여 줍니다.
+[이 비디오](https://screencast.com/t/xsSNrqs5b) eclipse 및 Workfront Proof WSDL 정의를 사용하여 Java 웹 서비스 클라이언트를 만드는 방법을 보여 줍니다.
 

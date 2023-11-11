@@ -9,7 +9,7 @@ description: 다음에서 [!DNL Adobe Workfront Fusion] 시나리오에서는 Mi
 author: Becky
 feature: Workfront Fusion
 exl-id: 814c285e-c106-458a-a0b1-760677634f4f
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '1883'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 다음에서 [!DNL Adobe Workfront Fusion] 시나리오에서는 다음을 사용하는 워크플로를 자동화할 수 있습니다 [!DNL Microsoft Office 365 Calendar]을 여러 타사 응용 프로그램 및 서비스에 연결할 수 있습니다.
 
-를 사용하려면 [!DNL Office 365 Calendar] 포함 [!DNL Adobe Workfront Fusion], 다음을 수행해야 합니다. [!DNL Office 365 Excel] 계정입니다. 다음 위치에 만들 수 있습니다. [www.office.com](http://www.office.com/).
+를 사용하려면 [!DNL Office 365 Calendar] 포함 [!DNL Adobe Workfront Fusion], 다음을 수행해야 합니다. [!DNL Office 365 Excel] 계정입니다. 다음 위치에 만들 수 있습니다. [www.office.com](https://www.office.com/).
 
 Office 365 계정 연결에 대한 자세한 내용 [!DNL Workfront Fusion], 참조 [Adobe에 대한 연결 만들기 [!DNL Workfront Fusion] - 기본 지침](../../workfront-fusion/connections/connect-to-fusion-general.md)
 

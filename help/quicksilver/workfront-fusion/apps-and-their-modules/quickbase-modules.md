@@ -9,7 +9,7 @@ description: 다음에서 [!DNL Adobe Workfront Fusion] 시나리오에서는 Qu
 author: Becky
 feature: Workfront Fusion
 exl-id: 3c94a6d8-6994-40b1-b4fe-2de09795799c
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 2%
@@ -77,7 +77,7 @@ ht-degree: 2%
 
 ### [!DNL Custom API Call]
 
-이 모듈은 사용 가능한 모든 을 호출합니다. [!DNL Quickbase] RESTful API 엔드포인트 문서화 위치: [developer.quickbase.com](http://developer.quickbase.com/).
+이 모듈은 사용 가능한 모든 을 호출합니다. [!DNL Quickbase] RESTful API 엔드포인트 문서화 위치: [developer.quickbase.com](https://developer.quickbase.com/).
 
 <table style="table-layout:auto"> 
  <col> 

@@ -9,7 +9,7 @@ description: SOAP 모듈을 사용하여 Adobe Workfront Fusion의 SOAP API에 �
 author: Becky
 feature: Workfront Fusion
 exl-id: 752e0766-25f2-4d22-bed5-7c931284258d
-source-git-commit: e61dc6646e221cffb30aad055663dcf8fd3299e2
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 1%
@@ -68,7 +68,7 @@ ht-degree: 1%
 * 총 자릿수 제한
 * 공백 제한
 * 입력 및 출력 메시지의 여러 부분. 단일 부분 메시지만 지원됩니다.
-* 다음을 통해 정의된 사용자 지정 XML 스키마 요소 [[!UICONTROL SOAP] 인코딩](http://schemas.xmlsoap.org) 스키마 및 요소입니다.
+* 다음을 통해 정의된 사용자 지정 XML 스키마 요소 [[!UICONTROL SOAP] 인코딩](https://schemas.xmlsoap.org) 스키마 및 요소입니다.
 
 >[!INFO]
 >

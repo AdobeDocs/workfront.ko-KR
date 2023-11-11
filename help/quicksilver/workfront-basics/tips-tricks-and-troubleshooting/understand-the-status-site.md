@@ -4,10 +4,10 @@ description: 의 상태를 볼 수 있습니다. [!DNL Workfront] 장애, 예약
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 2d8509b4-b0fc-435c-8c2f-3154fe152e7a
-source-git-commit: 114d306d99ae9ba0a18abd63a6137ad0568ab202
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '406'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
    또는
 
-   유형 [status.adobe.com](http://status.adobe.com/) 을 클릭하여 상태 사이트에 액세스합니다.
+   유형 [status.adobe.com](https://status.adobe.com/) 을 클릭하여 상태 사이트에 액세스합니다.
 
 1. 선택 **[!UICONTROL Experience Cloud]**.
 1. 아래로 스크롤하여 선택 **[!UICONTROL Adobe Workfront]** 솔루션 목록에서 참조할 수 있습니다.
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 이미 구독한 후 상태 사이트에 가입하거나 구독을 관리하려면 다음을 수행하십시오.
 
-1. 다음으로 이동 [status.adobe.com](http://status.adobe.com/).
+1. 다음으로 이동 [status.adobe.com](https://status.adobe.com/).
 1. 상태 표시줄에서 을 선택합니다. **[!UICONTROL 구독 관리]**.
 1. 기존 계정이 있는 경우 계정에 로그인하고, 없는 경우 새 계정을 만듭니다.
 1. 다음을 클릭합니다. **[!UICONTROL 구독 만들기]** 단추를 클릭합니다.
