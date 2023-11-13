@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 45b42fe8-7ce3-441d-8fbc-b8db7f9b254e
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: acc7414a9c6eef838147aee675603b6cc2566fb9
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
@@ -37,8 +37,12 @@ https://<domainname>.my.workfront.com/attask/api/api-internal/proj/4c70…
 다음 예제는 API-Unsupported를 호출하는 URI를 보여 줍니다.
 
 ```
-https://<domainname>.my.workfront.com/attask/api/api-unsupported/proj/4c70...
+https://<domainname>.my.workfront.com/attask/api-unsupported/proj/4c70...
 ```
+
+>[!NOTE]
+>
+>API 지원 안 됨 호출에서는 `/api` 섹션에 있는 마지막 항목이 될 필요가 없습니다.
 
 다음 예제는 API 버전 15.0을 호출하는 URI를 보여 줍니다.
 
