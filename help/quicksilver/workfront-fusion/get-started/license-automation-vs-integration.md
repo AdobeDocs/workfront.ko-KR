@@ -8,20 +8,26 @@ description: Adobe Workfront Fusion은 사용자가 액세스할 수 있는 기�
 author: Becky
 feature: Workfront Fusion
 exl-id: 37fecce9-c1b8-474b-abc2-09398bfcc629
-source-git-commit: 8c781894022661bee229a88556728659ff634310
+source-git-commit: 7bae22ba1211298ac77b8909c06e18f2a35cd405
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '527'
 ht-degree: 0%
 
 ---
 
-# 레거시 [!DNL Adobe Workfront Fusion] 라이선스
+# [!DNL Adobe Workfront Fusion] 라이선스
+
+[!DNL Workfront Fusion] 에는 두 개의 라이센스 모델, 새로운 작업 기반 모델 및 레거시 커넥터 기반 모델이 있습니다.
+
+## 운영 기반 라이센스 모델(신규)
+
+새로운 [!DNL Workfront Fusion] 라이선스 모델은 조직에서 사용하는 작업 수를 기반으로 합니다. 이 모델에서 모든 조직은 동일한 기능에 액세스할 수 있습니다.
+
+새 라이선스 모델에서 작업으로 계산되는 사항에 대한 자세한 내용은 [의 작업 [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/operations-in-workfront-fusion.md).
+
+## 커넥터 기반 라이센스 모델(기존)
 
 다음에서 [!DNL Adobe Workfront Fusion] 레거시 라이선스 모델, [!DNL Fusion] 에서는 액세스할 수 있는 기능을 결정하는 두 가지 다른 라이선스를 제공합니다. 조직에서 구입할 때 이러한 라이선스 중 하나를 선택했습니다. [!DNL Workfront Fusion].
-
->[!NOTE]
->
->새로운 Fusion 라이센스 모델은 조직에서 사용하는 작업 수를 기반으로 합니다. 이 모델에서 모든 조직은 동일한 기능에 액세스할 수 있습니다.
 
 * [[!DNL Workfront Fusion for Work Automation]](#workfront-fusion-for-work-automation)
 * [[!DNL Workfront Fusion for Work Automation and Integration]](#workfront-fusion-for-work-automation-and-integration)
