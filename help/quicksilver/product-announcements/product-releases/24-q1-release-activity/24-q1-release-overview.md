@@ -3,7 +3,7 @@ title: 2024년 1분기 릴리스 개요
 description: 2024년 1분기 릴리스 개요
 author: Becky
 feature: Product Announcements
-source-git-commit: 2dfb6cb4034b12c42808644f1a3966fb95948763
+source-git-commit: 0e133e36bd322cd0967246ad2176e90a7591cac7
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 1%
@@ -65,10 +65,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
                             <li>
-                                <p>미리보기 릴리스: 2024년 11월 9일<br /></p>
+                                <p>미리보기 릴리스: 2023년 11월 9일<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">모든 고객을 위한 프로덕션: 11월 9일. 2024</span></p>
+                                <p><span class="preview">모든 고객을 위한 프로덕션: 11월 9일. 2023</span></p>
                             </li>
                         </ul>
                     </td>
