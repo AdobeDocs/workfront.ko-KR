@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: d817bd2b-1aaa-4dde-8e75-392c1da2943a
-source-git-commit: b9e088a0cdb32f3e8c565ea17f4613dda104bd7b
+source-git-commit: 22ea9b623d7bc7b216511538cf88e4d020529bd3
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Adobe Workfront 관리자 및 인증된 Workfront 지원 담당자는 Workfront 
 
 ## 도메인 변경 요청
 
-1. 다음을 클릭합니다. **지원** Workfront One 페이지에서 탭을 클릭한 다음 지원 사례를 만들기 시작합니다.
+1. Experience League 시 지원 티켓 만들기를 시작합니다.
 1. 다음에서 **설명** 상자에는 원하는 새 도메인과 새 도메인을 시작하려는 일정이 포함됩니다.
 1. 지원 사례에 대한 상자 채우기를 완료한 다음 을(를) 클릭합니다 **제출**.
 
