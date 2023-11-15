@@ -9,7 +9,7 @@ description: Adobe Workfront Fusion HTTP 모듈에서 Mutual TLS를 사용하여
 author: Becky
 feature: Workfront Fusion
 exl-id: ace9c404-34de-4bc5-bc77-2e53df36dbd9
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 355d060d67685a98bfc9e7c37073024f3a82c5c9
 workflow-type: tm+mt
 source-wordcount: '663'
 ht-degree: 0%
@@ -101,7 +101,7 @@ HTTP 요청을 사용하여 웹 서비스에 연결할 때 웹 서비스에는 �
 >
 >* 이는 비 와일드카드 mTLS 인증서입니다.
 
-* [다운로드 [!DNL Workfront Fusion] 인증서 2023](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-eu-mtls-certificate.pem)
+* [다운로드 [!DNL Workfront Fusion] 인증서 2023](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-us-mtls-certificate.pem)
 * [다운로드 [!DNL Workfront Fusion] EU 인증서 2023](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-eu-mtls-certificate.pem)
 
   유럽연합용
