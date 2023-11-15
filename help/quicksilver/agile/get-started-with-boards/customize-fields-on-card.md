@@ -6,9 +6,9 @@ description: 전체 카드나 압축된 보기로 표시되지 않도록 필드�
 author: Lisa
 feature: Agile
 exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
-source-git-commit: 0beb96dc3869e6f913d87f699aa9a51c5aaa8f79
+source-git-commit: 63d043a85c2e5300d8b5872b2ec7983de4ba1f50
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '572'
 ht-degree: 0%
 
 ---
@@ -71,9 +71,7 @@ ht-degree: 0%
 
 사용자 정의 필드는 연결된 카드에서 사용할 수 있습니다. 보드에 있는 요약 보기가 아닌 전체 카드 보기에서만 볼 수 있습니다.
 
->[!NOTE]
->
->사용자 정의 필드를 카드에 추가하면 카드의 데이터가 읽기 전용입니다.
+사용자 정의 필드의 데이터는 카드에서 편집할 수 있지만 특정 사용자 정의 요소는 카드가 아닌 원래 필드에서만 편집할 수 있습니다.
 
 1. 보드에 액세스하여 클릭 [!UICONTROL **구성**] 구성 패널을 엽니다.
 1. 확장 [!UICONTROL **카드**].

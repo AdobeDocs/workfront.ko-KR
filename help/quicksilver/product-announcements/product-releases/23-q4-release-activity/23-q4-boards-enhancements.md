@@ -4,9 +4,9 @@ description: 2023년 4분기 보드 개선 사항
 author: Lisa
 feature: Product Announcements
 exl-id: 4a527328-df5d-446a-899c-a613131c7001
-source-git-commit: 421cfdeaab4ef102b6b896677dae824cbeae4d70
+source-git-commit: 63d043a85c2e5300d8b5872b2ec7983de4ba1f50
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -20,10 +20,6 @@ ht-degree: 0%
 분기별 릴리스 전에 새 보드 기능을 옵트인하는 방법에 대한 자세한 내용은 을 참조하십시오. [Adobe Workfront 보드에 대한 초기 기능 옵트인](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 ## 이제 Adobe Workfront 보드에서 하위 작업을 사용할 수 있습니다.
-
->[!NOTE]
->
->이 기능은 2023년 11월 7일부터 일시적으로 사용할 수 없습니다. 이 기능을 사용할 수 있으면 이 페이지가 업데이트됩니다.
 
 Workfront 작업의 보드에 연결된 카드를 추가하면 기존의 모든 하위 작업을 카드로 가져옵니다. 또한 연결된 카드에 하위 작업을 만들면 하위 작업이 Workfront 작업에 추가됩니다.
 
