@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
+source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
 workflow-type: tm+mt
 source-wordcount: '2030'
 ht-degree: 0%
@@ -35,6 +35,30 @@ ht-degree: 0%
 이 섹션에는 2023년 5월 22일 Maestro Closed Beta 프로그램 출시 후 출시된 기능 및 패치가 나열되어 있습니다.
 
 기능은 매주 릴리스되고 릴리스 순서대로 나열되며, 가장 최근의 기능이 먼저 나열됩니다. Maestro Closed Beta 프로그램에 참여하는 고객은 미리보기 및 프로덕션 환경의 모든 기능에 액세스할 수 있습니다.
+
+<!--
+## Week of November 13, 2023
+
+### Maestro permissions for users and groups
+
+Preview and production: November 16, 2023
+
+You can now share a workspace with users and groups and set their permissions to different levels, depending on what information they need to view or edit in a Maestro workspace.  
+
+The following are the permissions levels for Maestro workspaces:  
+
+No permissions: Users cannot access any workspaces in Maestro, even if the Maestro area is shared with them through a layout template. 
+
+View permissions: Users can view workspaces that are shared with them. They can also view record types, and records from the shared workspace. 
+
+Contribute permissions: Users can create, edit, or delete records in the workspace that is shared with them.  They cannot create or edit record types or workspaces ones shared with them.  
+
+Manage permissions: Users can create, edit, and delete record types, records, and fields in workspaces that are shared with them. They cannot create workspaces.  
+
+Only Workfront administrators can create, edit, or delete workspaces and all information associated with them. They also can add users and groups with various permission levels to Maestro workspaces.  
+ 
+
+For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md). -->
 
 ## 2023년 11월 6일 주
 

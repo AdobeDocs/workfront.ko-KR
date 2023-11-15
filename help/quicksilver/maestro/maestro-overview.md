@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
+source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
 workflow-type: tm+mt
-source-wordcount: '1845'
+source-wordcount: '1843'
 ht-degree: 1%
 
 ---
@@ -369,7 +369,7 @@ Maestro를 찾으려면
 | Maestro 기록을 Workfront 프로젝트, 프로그램, 포트폴리오, 회사, 그룹에 연결 | ✓ |                                 |                  |
 | 레코드 세부 정보 페이지 | ✓ |                                  |                  |
 | 레코드 세부 정보 페이지의 레이아웃 업데이트 |                               | ✓ |                  |
-| 액세스 수준 및 권한 | | ✓ |  |
+| 작업 공간 권한 | | ✓ |  |
 | 요청 제출 |                               |                                  | ✓ |
 | 크리에이티브 개요 |                               |                                  | ✓ |
 | 레코드의 색상 및 아이콘 사용자 지정 | ✓ |                                  |                 |

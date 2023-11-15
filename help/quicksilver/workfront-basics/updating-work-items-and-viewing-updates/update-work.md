@@ -6,9 +6,9 @@ description: Adobe Workfront 개체(프로젝트, 작업 또는 문제)에 업�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 62c600a13f61f7f5e889a92b446252e5ca0777f9
+source-git-commit: 4e06eaf0755f284692db1cf6511fa5b598b88e28
 workflow-type: tm+mt
-source-wordcount: '3810'
+source-wordcount: '3803'
 ht-degree: 1%
 
 ---
@@ -390,7 +390,7 @@ drafted for P&P release:
    1. 아래 **표시할 텍스트**, 링크 텍스트를 입력하거나 붙여넣습니다.
    1. **저장**&#x200B;을 클릭합니다.
 
-1. (선택 사항) 이미지를 업데이트에 첨부하려면 **이미지 추가** 아이콘 ![](assets/add-image-mountain-with-plus-icon.png) 새 댓글 달기 환경을 사용할 때는 컴퓨터에서 이미지를 찾아봅니다.
+1. (선택 사항) <!--<span class="preview">To attach an image to your update, copy a screen shot from your computer, then click **CTRL + V** for Windows (or **CMD + V** for Mac) to paste it in the comment</span> Or--> 다음을 클릭합니다. **이미지 추가** 아이콘 ![](assets/add-image-mountain-with-plus-icon.png) 새 댓글 달기 환경을 사용할 때는 컴퓨터에서 이미지를 찾아봅니다.
 
    >[!NOTE]
    >
@@ -408,6 +408,30 @@ drafted for P&P release:
 
 1. 클릭 **제출** 주석을 추가합니다.
 
+<!-- for the search for comments - November 2023 release to Preview: 
+
+<div class="preview">
+
+## Search for an update
+
+>[!NOTE]
+>
+>This functionality is available only for the Comments tab in the new comment experience. This is not available for the System Activity tab of the Updates section. 
+
+You can search for a comment or a reply in the Updates section of an object. 
+
+1. Go to the **Updates** section of an object.
+1. Start typing a keyword or a user's name in the **Search** box in the upper-right corner of the Updates section. You can search for comment owner's names or for users who are tagged on comments. 
+
+   ![](assets/search-field-in-updates-tab.png)
+
+   The keyword or user you searched for is highlighted and the comments that contain it display at the top of the Updates section. 
+
+1. Click the **x** icon in the search field to clear the search results and return to the complete up.
+
+</div>
+
+-->
 
 ## 업데이트 정보 복사
 

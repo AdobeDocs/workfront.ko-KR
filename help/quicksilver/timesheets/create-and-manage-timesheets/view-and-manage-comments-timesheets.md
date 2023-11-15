@@ -6,9 +6,9 @@ description: 타임시트, 타임시트에 포함된 작업 항목 및 사용자
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
+source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '841'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,12 @@ ht-degree: 0%
 
 1. 클릭 **타임시트**.
 1. 댓글을 달려는 타임시트로 이동합니다.
-1. 클릭 **업데이트** 왼쪽 패널에서 **댓글** 탭을 선택한 다음 **새 댓글** 상자.
+1. 클릭 **업데이트** 왼쪽 패널에서 를 클릭한 다음 **댓글** 탭.
+<!--
+1. (Optional) Start typing a keyword or a the name of a user associated with a comment in the **Search** field, in the upper-right corner of the Comments tab. 
+
+   If found, the keyword or user you searched for is highlighted and the comments associated with them display at the top of the Comments tab. -->
+1. 에 업데이트 입력 **새 댓글** 상자.
 1. (선택 사항) **사람 또는 팀에 태그 지정** 업데이트에 다른 사용자를 포함하는 필드입니다. 자세한 내용은 [업데이트에 다른 사용자 태그 지정](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 1. (선택 사항) 설명에 서식 있는 텍스트 서식을 추가합니다. 자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (선택 사항) **내 회사에 비공개** 회사 직원만 업데이트를 볼 수 있도록 하려면 옵션을 선택합니다.

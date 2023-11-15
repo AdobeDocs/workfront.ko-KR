@@ -6,9 +6,9 @@ description: Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: c1bc58be18e43a0c9cce10d0117a186ba2abca9e
+source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '952'
 ht-degree: 0%
 
 ---
@@ -120,16 +120,28 @@ Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석을 추가할
 
 * 메인 메뉴에 목표 영역을 포함하는 레이아웃 템플릿입니다.
 
-## 업데이트 섹션을 찾습니다
+## 목표 댓글 관리
 
 목표 페이지의 업데이트 섹션에서 목표에 주석을 추가할 수 있습니다.
 
 이 영역에서 귀하 또는 다른 사람이 추가한 댓글에 답글을 달거나 댓글을 달도록 할 수 있습니다.
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) > **목표** 오른쪽 상단 모서리입니다.
+1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) 오른쪽 상단 또는 **메인 메뉴** 아이콘 ![](assets/lines-main-menu.png) 왼쪽 위 모서리에서 사용 가능한 경우 을(를) 클릭합니다. **목표**.
 이렇게 하면 목표 목록이 열립니다.
 1. 주석을 추가할 목표를 찾은 다음 해당 이름을 클릭하여 목표 페이지를 엽니다.
 1. 클릭  **업데이트** 왼쪽 패널에서
+<!--
+1. (Optional) To locate an existing comment, start typing a keyword or a user's name in the **Search** box in the upper-right corner of the Updates section. You can search for comment owner's names or for users who are tagged on comments. 
+
+   ![](assets/search-field-in-updates-tab-goals.png)
+
+   The keyword or user you searched for is highlighted and the comments that contain it display at the top of the Updates section. 
+
+      >[!TIP]
+      >
+      >   Searching for a comment is not available for system activity updates. -->
+
+1. 다음을 클릭합니다. **x** 아이콘을 클릭하여 검색 결과를 지우고 완료로 돌아갈 수 있습니다.
 1. 다음을 클릭합니다. **댓글** 업데이트 영역의 왼쪽 상단 모서리에 있는 탭입니다.
 1. 에 주석 입력 시작 **새 댓글** 상자.
 

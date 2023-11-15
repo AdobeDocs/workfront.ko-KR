@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '229'
 ht-degree: 2%
 
 ---
@@ -18,11 +18,9 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->이 문서의 정보는 Adobe의 새로운 서비스인 Adobe 마에스트로를 참조합니다.
+>이 문서의 정보는 Adobe Workfront의 새로운 오퍼링인 Adobe Maestro를 참조합니다.
 >
->Adobe Maestro는 Adobe Workfront의 새로운 서비스입니다.
->
->현재 Adobe 마에스트로는 제한된 수의 고객에게 제공되는 베타 프로그램의 일부입니다.
+>현재 Adobe 마에스트로는 제한된 수의 고객에게 제공되는 베타 프로그램의 일부입니다. Maestro에 액세스하려면 Workfront 고객이어야 합니다.
 >
 >Maestro용 Beta 프로그램 가입에 대한 자세한 내용은 계정 담당자에게 문의하십시오.
 >
@@ -36,6 +34,8 @@ ht-degree: 2%
 >[!NOTE]
 >
 >사용자 또는 Maestro의 정보와 관련된 액세스 수준 또는 권한이 없습니다. 해당 환경에서 Maestro가 활성화된 모든 사용자는 다른 사용자가 Maestro에 추가하는 모든 정보를 보고, 편집하고, 삭제할 수 있습니다.
+
+## 액세스 요구 사항
 
 Adobe 마에스트로를 사용하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -71,18 +71,30 @@ Adobe 마에스트로를 사용하려면 다음 액세스 권한이 있어야 �
   </tr>
 
 <tr>
-   <td role="rowheader">액세스 수준</td>
+   <td role="rowheader"><p>액세스 수준</p></td>
    <td> <p>모든</p>  
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader">레이아웃 템플릿</td>
+   <td role="rowheader"><p>레이아웃 템플릿</p></td>
    <td> <p>시스템 관리자가 레이아웃 템플릿에 마에스트로 영역을 추가해야 합니다. 자세한 내용은 <a href="../access/grant-access.md">Adobe 마에스트로에 대한 액세스 권한 부여</a>. </p>  
 </td>
   </tr>
  </tbody>
 </table>
+
+<!--
+## Considerations about accessing Adobe Maestro
+
+* There are no access level restrictions for Adobe Maestro. 
+* There are only permissions associated with workspaces in Maestro.
+* Only Workfront administrators can create workspaces. 
+* All Workfront administrators have access to edit or delete existing workspaces, even when they are created by other users. 
+* For information about sharing the Maestro area with users or sharing permissions to Maestro workspaces, see the following articles:
+
+   * [Overview of sharing permissions in Adobe Maestro](../access/sharing-permissions-overview.md)
+   * [Grant access to Adobe Maestro](../access/grant-access.md)
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
