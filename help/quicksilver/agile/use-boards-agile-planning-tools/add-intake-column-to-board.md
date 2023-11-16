@@ -7,9 +7,9 @@ description: 정의한 필터에 따라 Workfront에 작업 및 문제를 추가
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: a3e9b758867bdbad6afbc0e6cc5e6c81a54f6030
+source-git-commit: b816f41796e33fed81b76e80823c83fcb45d2b6b
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '995'
 ht-degree: 2%
 
 ---
@@ -114,7 +114,11 @@ ht-degree: 2%
 
    ![필터 빌더](assets/intake-filter-dialog6.png)
 
-   다음 예에서는 상태에 있는 특정 프로젝트의 작업에 대한 필터를 보여 줍니다. [!UICONTROL 신규] 또는 [!UICONTROL 진행 중]및 이(가) 나에게 할당되었습니다.
+   다음 예에서는 상태에 있는 특정 프로젝트의 작업에 대한 필터를 보여 줍니다. [!UICONTROL 신규] 또는 [!UICONTROL 진행 중].
+
+   >[!NOTE]
+   >
+   >로그인한 사용자에 대한 작업 또는 문제를 항상 표시할 수는 없으므로 보드 필터에 &quot;Me&quot;(로그인한 사용자) 와일드카드를 사용하지 않는 것이 좋습니다. 보드를 올바른 작업 및 문제로 설정한 후 보드를 필터링하여 특정 피할당자에 대한 항목을 표시할 수 있습니다. 자세한 내용은 [보드에서 필터링 및 검색](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
    필터 빌드에 대한 자세한 내용은 문서의 &quot;표준 빌더에서 필터 만들기 또는 편집&quot; 섹션을 참조하십시오 [에서 필터 만들기 또는 편집 [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
@@ -141,7 +145,6 @@ ht-degree: 2%
 ## 접수 열 사용
 
 접수 열의 카드는 다른 보드 열로 이동할 때까지 편집할 수 없습니다. 카드를 클릭하여 읽기 전용 보기로 열거나 ![작업 또는 문제 열기](assets/boards-launch-icon.png) 새 브라우저 탭에서 작업 또는 문제를 엽니다.
-
 
 접수 열의 항목을 수동으로 재정렬할 수 있습니다.
 
