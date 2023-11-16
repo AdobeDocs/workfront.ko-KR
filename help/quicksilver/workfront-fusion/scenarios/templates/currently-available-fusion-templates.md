@@ -7,9 +7,9 @@ description: 현재 Adobe Workfront Fusion에서 사용할 수 있는 공용 템
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 12f6d4f261dec50f76b3ecb35e3159900d34bbff
+source-git-commit: 3f07ccb23c6697547742537aa63211ac594c1062
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1145'
 ht-degree: 0%
 
 ---
@@ -26,23 +26,23 @@ ht-degree: 0%
 
 이러한 템플릿은 Workfront 프로세스 및 워크플로를 자동화합니다.
 
-### [!BADGE 신규!]{type=Informative}
+### Workfront - CSV로 프로젝트 만들기
 
 이 자동화는 CSV로 지정한 이름, Portfolio, 상태, 계획된 시작 일자 및 템플릿 세부 사항을 기반으로 Workfront에서 새 프로젝트를 만듭니다.
 
-### [!BADGE 신규!]{type=Informative}
+### Workfront - 지난 30일 동안 새 메모 없이 요청 정리
 
 이 템플릿을 사용하여 요청에 대해 30일 노트 업데이트를 적용하십시오. 30일 후에 업데이트되지 않은 요청은 상태가 변경되고 60일에 마감됩니다.
 
-### [!BADGE 신규!]{type=Informative}
+### Workfront - 프로젝트 상태를 100% 완료 시 완료로 변경합니다.
 
 이 자동화는 프로젝트를 1005 완료 시 모든 작업이 있는 완료 상태로 업데이트합니다. 진행 중인 문제나 진행 중인 작업 또는 프로젝트 승인이 있는 프로젝트는 업데이트를 받으며, 해결되면 프로젝트가 완료 상태로 이동합니다.
 
-### [!BADGE 신규!]{type=Informative}
+### Workfront - 오래된 프로젝트를 경고하고 닫으려고 시도함
 
 이 시나리오를 사용하면 조직의 부실 프로젝트 정책을 충족하는 프로젝트에 대한 경고 및 종료를 자동화할 수 있습니다.
 
-### [!BADGE 신규!]{type=Informative}
+### Workfront - 소스 문제/요청에서 이미 전환된 프로젝트 또는 작업으로 새 메모 및 답글 복사
 
 이 템플릿을 사용하여 문제 또는 요청의 메모 및 회신을 이미 전환된 프로젝트 또는 작업으로 복사합니다.
 
@@ -57,6 +57,10 @@ ht-degree: 0%
 ### Workfront - 승인된 문제를 프로젝트로 전환
 
 이 템플릿은 문제를 프로젝트로 변환합니다. 조직의 표준에 맞게 수정할 수 있습니다.
+
+### [!BADGE 신규!]{type=Informative}
+
+이 유연한 시나리오는 문제 또는 요청에서 이전에 전환된 프로젝트 또는 작업으로 문서를 복사합니다.
 
 ### 필드 변경에 따른 맞춤 알림
 
@@ -102,7 +106,7 @@ ht-degree: 0%
 >
 > 이 섹션의 템플릿을 사용하려면 작업 자동화 및 통합용 Workfront Fusion 라이선스가 있어야 합니다.
 
-### [!BADGE 신규!]{type=Informative}
+### JWT(JSON 웹 토큰)를 사용하여 연결 설정
 
 클라이언트 API에 대한 JWT 권한 부여를 설정합니다.
 
@@ -138,7 +142,7 @@ ht-degree: 0%
 >
 > 이 섹션의 템플릿을 사용하려면 작업 자동화 및 통합용 Workfront Fusion 라이선스가 있어야 합니다.
 
-### [!BADGE 신규!]{type=Informative}
+### SharePoint 폴더 변경 사항 보기
 
 이 템플릿을 사용하면 SharePoint 폴더가 변경되었는지 확인할 수 있습니다.
 
