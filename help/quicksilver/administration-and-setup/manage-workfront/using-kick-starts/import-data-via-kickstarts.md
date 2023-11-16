@@ -9,10 +9,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: bc9d47dddacf82b352ed4dbfe8e57861859d752b
+source-git-commit: 81a9f33f5707e37a62a81546b9249410ded23ab5
 workflow-type: tm+mt
-source-wordcount: '2609'
-ht-degree: 7%
+source-wordcount: '2642'
+ht-degree: 6%
 
 ---
 
@@ -300,6 +300,7 @@ ht-degree: 7%
 >
 >  예를 들어 **프로젝트 프로젝트** 탭, **setCondition** 및 **setConditionType** 필드는 비워 둘 수 있지만 **집합 ID** 및 **setName** 열은 사용할 수 없습니다.
 >
+>* 특정 필드: **setResourceRevenue** 및 **setEnteredByID**&#x200B;는 시스템에서 자동으로 생성됩니다. 스프레드시트에서 이러한 필드에 대한 데이터를 입력하면 스프레드시트를 업로드할 때 킥스타트 프로세스가 우선합니다.
 
 ### 레코드 가져오기  {#import-a-record}
 
