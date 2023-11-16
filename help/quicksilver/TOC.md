@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
+source-git-commit: a38a512b9d2b1c23e26ee6871076a5ce20ea9794
 workflow-type: tm+mt
-source-wordcount: '13399'
+source-wordcount: '13402'
 ht-degree: 1%
 
 ---
@@ -1774,6 +1774,7 @@ ht-degree: 1%
          * [문서 승인 만들기](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
          * [문서에 추가 검토자 또는 승인자 추가](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
          * [문서에서 승인자 또는 검토자 제거](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
+         * [문서 승인 상태](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
       * 문서 검토 및 승인 {#review-and-approve-documents}
          * [문서 검토 및 승인](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-and-approve-documents.md)
          * [문서 검토](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
