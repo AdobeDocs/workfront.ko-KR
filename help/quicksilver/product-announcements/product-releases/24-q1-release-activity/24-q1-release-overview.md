@@ -3,10 +3,10 @@ title: 2024년 1분기 릴리스 개요
 description: 2024년 1분기 릴리스 개요
 author: Becky
 feature: Product Announcements
-source-git-commit: 0e133e36bd322cd0967246ad2176e90a7591cac7
+source-git-commit: cc07fee3d98ff67894ed040cc9125b8cf903a09b
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 1%
+source-wordcount: '778'
+ht-degree: 0%
 
 ---
 
@@ -40,7 +40,64 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Adobe Workfront 개선 사항
 
+* [문서 관리 개선 사항](#document-management-enhancements)
 * [통합 개선 사항](#integration-enhancements)
+* [스트림 및 알림 개선 사항 업데이트](#update-stream-and-notification-enhancements)
+
+### 문서 관리 개선 사항
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">기능</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">릴리스 날짜</span>
+                        </p>
+                    </td>
+                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">검토를 완료로 표시</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p><p>문서가 검토되고 다음 승인 단계를 위해 준비되는 시기를 더 명확히 하기 위해 새 문서가 만들어졌습니다 <strong>내 검토 완료</strong> 단추를 클릭합니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2023년 11월 16일</p>
+                            </li>
+                            <li>
+                                <p>빠른 릴리스를 위한 프로덕션: 24.1 릴리스 포함</p>
+                            </li>
+                            <li>
+                                <p>분기별 릴리스 프로덕션: 24.1 릴리스 포함</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">문서 검토 및 승인 상태가 문서 헤더에 표시됨</a></p><p>검토 및 승인 프로세스를 보다 투명하게 하기 위해 상태를 문서 세부 정보 페이지의 헤더에 추가했습니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2023년 11월 9일</p>
+                            </li>
+                            <li>
+                                <p>빠른 릴리스를 위한 프로덕션: 24.1 릴리스 포함</p>
+                            </li>
+                            <li>
+                                <p>분기별 릴리스 프로덕션: 24.1 릴리스 포함</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
+           </tbody>
+</table>
 
 ### 통합 개선 사항
 
@@ -60,21 +117,91 @@ The <add release> release webinar will be held on <date>. You can [register for 
                  </tr>
                  <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">이제 Adobe Experience Manager 통합에서 자동 완성 필드를 사용할 수 있습니다.</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p><p>Workfront과 Adobe Experience Manager 간에 필드를 더 쉽게 연결할 수 있도록 메타데이터 매핑에서 자동 완성 필드에 대한 지원이 추가되었습니다. 이제 자동 완성 필드를 Adobe Experience Manager의 해당 필드에 매핑할 수 있습니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2023년 11월 16일</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">모든 고객을 위한 프로덕션: 2023년 12월 7일</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager에서 에셋 자동 게시</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Adobe Experience Manager 통합에 다른 워크플로우를 추가했습니다. 이제 Adobe Experience Manager으로 전송할 때 자산을 자동으로 게시하도록 설정할 수 있습니다. Adobe Experience Manager 게시 서비스 또는 Adobe Experience Manager Brand Portal에 게시하도록 통합을 구성할 수 있습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
                             <li>
-                                <p>미리보기 릴리스: 2023년 11월 9일<br /></p>
+                                <p>미리보기 릴리스: 2023년 11월 9일</p>
                             </li>
                             <li>
-                                <p><span class="preview">모든 고객을 위한 프로덕션: 11월 9일. 2023</span></p>
+                                <p><span class="preview">모든 고객을 위한 프로덕션: 2023년 11월 9일</span></p>
                             </li>
                         </ul>
                     </td>
+                    </tr>
            </tbody>
         </table>
 
+### 스트림 및 알림 개선 사항 업데이트
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">기능</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">릴리스 날짜</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">업데이트 섹션에서 주석 또는 사용자 검색</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p><p>이제 오브젝트의 업데이트 섹션에서 정보를 빠르게 찾기 위해 댓글에서 키워드나 댓글과 연관된 사용자를 검색할 수 있습니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2023년 11월 16일</p>
+                            </li>
+                            <li>
+                                <p>빠른 릴리스를 위한 프로덕션: 24.1 릴리스 포함</p>
+                            </li>
+                            <li>
+                                <p>분기별 릴리스 프로덕션: 24.1 릴리스 포함</p>
+                            </li>
+                        </ul>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">업데이트 섹션의 주석에 이미지 복사 및 붙여넣기</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p><p>이제 메시지 내용에 대한 컨텍스트를 제공하기 위해 컴퓨터에서 이미지를 복사하고 새 업데이트 또는 회신에 붙여넣어 이미지에 이미지를 주석에 빠르게 첨부할 수 있습니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2023년 11월 16일</p>
+                            </li>
+                            <li>
+                                <p>빠른 릴리스를 위한 프로덕션: 24.1 릴리스 포함</p>
+                            </li>
+                            <li>
+                                <p>분기별 릴리스 프로덕션: 24.1 릴리스 포함</p>
+                            </li>
+                        </ul>
+                    </td>
+                    </tr>
+           </tbody>
+</table>
 
 ## 공지
 
