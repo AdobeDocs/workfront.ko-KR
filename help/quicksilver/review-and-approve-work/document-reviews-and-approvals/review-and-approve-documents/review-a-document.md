@@ -6,16 +6,16 @@ description: 검토자는 검토를 위해 제출한 문서를 미리 볼 수 �
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 803dccc3ede32cd2f74eb4646fb5b054b5bcc78e
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
 
 # 문서 검토
 
-검토자는 검토를 위해 제출한 문서를 미리 볼 수 있습니다.
+검토자는 검토를 위해 제출한 문서를 볼 수 있습니다. 승인과 달리, 결정을 내리지 않습니다. 대신 에셋을 검토했음을 확인합니다.
 
 >[!IMPORTANT]
 >
@@ -70,6 +70,7 @@ Add once functionality is added
    클릭 **다운로드** 를 클릭하여 문서의 로컬 복사본을 장치에 다운로드합니다.
 
 1. (선택 사항) 문서를 검토한 후에는 요청자를 위한 주석을 문서 **업데이트** 섹션. 댓글에 대한 자세한 내용은 [작업 업데이트](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. 검토를 완료했음을 기록하려면 **검토 완료**.
 
 ## 문서 요약 창에서 문서 검토
 
@@ -90,3 +91,4 @@ Add once functionality is added
 1. (선택 사항) 문서를 검토한 후에는 요청자를 위한 주석을 문서 **업데이트** 섹션. 댓글에 대한 자세한 내용은 [작업 업데이트](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. (선택 사항) 아래로 스크롤하여 문서의 특정 버전을 미리 보거나 다운로드할 수도 있습니다. **버전** 문서 요약 창의 섹션을 클릭한 다음 자세히 아이콘을 클릭합니다 ![](../assets/more-icon.png) 을 클릭하고 을 선택합니다. **다운로드** 또는 **미리 보기**.
+1. 검토를 완료했음을 기록하려면 **검토 완료**.
