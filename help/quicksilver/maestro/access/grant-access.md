@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
+source-git-commit: 937498a68a994d19b0005d518d7e313c48961672
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
@@ -26,29 +26,28 @@ ht-degree: 0%
 >
 >자세한 내용은 [Adobe 마에스트로 개요](../maestro-overview.md).
 
-<!-- the table will change after we implement access levels/ permissions for Maestro-->
-<!-- fix the formatting on the table - some lines are way too spaced out-->
+다음 전제 조건이 충족되는 경우 조직의 모든 사용자가 Maestro에 액세스할 수 있습니다.
 
-현재 다음 전제 조건이 충족되는 경우 조직의 모든 사용자가 Maestro에 액세스할 수 있습니다.
+<!--the first requisite will be removed when we go to GA-->
 
 * 조직이 Adobe Maestro 비공개 베타 프로그램에 등록되었습니다.
+* 시스템 관리자는 레이아웃 템플릿을 사용하여 Main Menu에 Maestro 영역을 추가해야 합니다.
 
-  이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오.
+  시스템 관리자를 포함한 모든 사용자에 대해 기본적으로 Maestro가 Main Menu에 표시되지 않습니다.
 
+  자세한 내용은 [레이아웃 템플릿을 사용하여 메인 메뉴 사용자 정의](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
-Maestro를 사용해야 하는 액세스 권한에 대한 자세한 내용은 [Adobe Maestro 액세스 개요](../access/access-overview.md).
+<!-- take out the note below when we release permissions-->
 
 >[!NOTE]
 >
 >사용자 또는 Maestro의 정보와 관련된 액세스 수준 또는 권한이 없습니다. 해당 환경에서 Maestro가 활성화된 모든 사용자는 다른 사용자가 Maestro에 추가하는 모든 정보를 보고, 편집하고, 삭제할 수 있습니다.
 
-## Workfront 인스턴스의 사용자에 대해 Maestro 활성화
+## 다른 사용자와 메인 메뉴의 마에스트로 영역 공유
 
 <!--First, contact your account manager to obtain access to the current Maestro closed beta program.-->
 
-조직이 Maestro Beta 프로그램에 등록되면 레이아웃 템플릿을 사용하여 다른 사용자의 Maestro 영역을 추가할 수 있습니다.
-
-레이아웃 템플릿을 사용하여 마에스트로 영역을 공유하려면 다음 작업을 수행하십시오.
+조직이 Maestro Beta 프로그램에 등록되면 레이아웃 템플릿을 사용하여 모든 사용자의 메인 메뉴에 Maestro 영역을 추가할 수 있습니다.
 
 1. 에 로그인 **Workfront** Workfront 관리자입니다.
 
@@ -65,11 +64,16 @@ Maestro를 사용해야 하는 액세스 권한에 대한 자세한 내용은 [A
    사용자는 작업 공간, 레코드 유형, 레코드 및 필드를 만들 수 있습니다.
 
 <!--
+
 ## Share permissions to a workspace
+
+Only system administrators can access all workspaces in Maestro. As a system administrator, you must share a workspace with other users for them to view, manage, or contribute to it. 
+
+To share a workspace with others: 
 
 1. Click the **Main Menu** icon ![](assets/dots-main-menu.png) in the upper-right or the **Main Menu** icon ![](assets/lines-main-menu.png) in the upper-left corner, if available, then click **Maestro**.
 1. Open the workspace you want to share, then click **Share** in the upper-right corner of the screen. (*************add screen shot when UI is finalized and maybe edit the steps*********)
-1. In the field provided, start typing the name of a user or a group, then click it when it displays in the list. 
+1. In the field provided, start typing the name of a user or a group (******ensure you can share with groups*******), then click it when it displays in the list. 
 1. Select one of the following permission levels from the drop-down menu: 
     * View
     * Contribute
@@ -82,7 +86,7 @@ Maestro를 사용해야 하는 액세스 권한에 대한 자세한 내용은 [A
 ## Remove permissions to a workspace
 
 1. Click the **Main Menu** icon ![](assets/dots-main-menu.png) in the upper-right or the **Main Menu** icon ![](assets/lines-main-menu.png) in the upper-left corner, if available, then click **Maestro**.
-1. Open the workspace you want to share, then click **Share** in the upper-right corner of the screen. (********) add screen shot when UI is finalized and maybe edit the steps???****)
+1. Open the workspace you want to share, then click **Share** in the upper-right corner of the screen. (********add screen shot when UI is finalized and maybe edit the steps???****)
 1. Click the drop-down menu at the right of a user or group name, then click **Remove**. 
     
     The user or the users that belong to the group removed no longer have access to the workspace or its objects. 

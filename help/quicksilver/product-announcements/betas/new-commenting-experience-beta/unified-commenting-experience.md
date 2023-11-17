@@ -7,28 +7,33 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 3c22ea2ac3a597b5fd5f43d29b937c90c6295b28
+source-git-commit: 937498a68a994d19b0005d518d7e313c48961672
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '918'
 ht-degree: 3%
 
 ---
 
 # 새 댓글 달기 환경
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
 
-<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> -->
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다.  </span>
+
+<span class="preview">현재 릴리스 일정에 대한 자세한 내용은 [2024년 1분기 릴리스 개요](../../product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+
+<!--
+
+After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases.
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  -->
 
 >[!IMPORTANT]
 >
->이 문서의 정보는 새 댓글 달기 경험을 위해 베타 단계 동안 릴리스된 기능을 참조합니다.
+>이 문서의 정보는 새로운 댓글 달기 환경에 릴리스된 기능을 참조합니다.
 >
->새로운 댓글 달기 경험을 위한 베타 프로그램은 2023년 4월에 시작하여 2023년 10월에 종료되었습니다.
+>새로운 댓글 달기 경험을 위한 베타 프로그램은 2023년 4월에 시작하여 2023년 10월에 종료되었습니다. 새로운 댓글 달기 경험을 위한 베타 프로그램은 2023년 10월 릴리스로 종료되었습니다.
 >
->베타 기간 동안 릴리스된 기능은 2023년 4분기 릴리스(2023년 10월)부터 모든 고객이 사용할 수 있으며 베타 프로그램이 종료되었습니다.
+>이 문서에 설명된 기능은 별도로 지정하지 않는 한 2023년 10월에 모든 고객에게 릴리스되었습니다.
 
 <!--An update to the commenting experience in Adobe Workfront is currently in development. This update includes a new interface, new features, and improved performance in the Updates section of select objects. 
 
@@ -394,13 +399,13 @@ The new commenting experience will slowly become available for all the objects w
    </td>
    <td> 
    </td>
-   <td> 
+   <td> <span class="preview">✓</span>
    </td>
    <td> 
    </td>
    <td>2024년 1분기 
    </td>
-   <td>✓ 
+   <td> 
    </td>
   </tr>
 
@@ -409,13 +414,13 @@ The new commenting experience will slowly become available for all the objects w
    </td>
    <td> 
    </td>
-   <td> 
+   <td> <span class="preview">✓</span>
    </td>
    <td> 
    </td>
    <td>2024년 1분기 
    </td>
-   <td>✓ 
+   <td> 
    </td>
   </tr>
 
@@ -508,15 +513,15 @@ Workfront 개체의 업데이트 관리에 대한 자세한 내용은 [작업 �
 
 * 다음 개체에 대한 새 댓글 및 이전 댓글 사용 환경:
 
-      * 프로젝트
-      * 작업(스토리 포함)
-      * 문제
-      * 문서
-      
-      >[!TIP]
-      >
-      >이 섹션에 설명된 대로 새 댓글 달기 옵션을 사용하여 새 댓글 달기 경험(활성화 시) 또는 기존 댓글 달기 경험(비활성화 시)을 표시합니다. 새 댓글 달기 환경이 기본값입니다.
-  
+   * 프로젝트
+   * 작업(스토리 포함)
+   * 문제
+   * 문서
+
+  >[!TIP]
+  >
+  >새 주석 달기 옵션을 사용하여 이 섹션에 설명된 대로 새 주석 달기 경험(활성화할 경우) 또는 기존 주석 달기 경험(비활성화할 경우)을 표시합니다. 새 댓글 달기 환경이 기본값입니다.
+
    * 아래 나열된 객체에 대한 새 댓글 달기 경험만 해당됩니다. 다음 객체에 대한 기존 댓글 달기 환경을 활성화하는 옵션은 없습니다.
 
       * 목표
