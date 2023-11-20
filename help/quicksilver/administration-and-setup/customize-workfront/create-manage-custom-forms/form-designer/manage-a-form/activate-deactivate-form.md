@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 6d9a409d-8d16-4c58-ad02-f60aa1ac1714
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 3319fbfad98350635b7194a434f26e8528753e7b
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 0%
 # 사용자 정의 양식 비활성화 또는 재활성화
 
 사용자 정의 양식을 다시 활성화하거나 비활성화할 수 있습니다. 이전 데이터를 유지하는 데 더 이상 사용하지 않는 양식을 삭제하는 것보다 사용자 정의 양식을 비활성화하는 것이 좋습니다.
+
+>[!NOTE]
+>
+>사용자 정의 양식이 비활성화되었지만 여전히 대기열 주제 또는 요청 대기열 정의에 속하는 경우 새 요청에 첨부됩니다. 요청에서 양식을 사용하지 않으려면 요청 대기열에서 수동으로 제거해야 합니다.
 
 ## 액세스 요구 사항
 
