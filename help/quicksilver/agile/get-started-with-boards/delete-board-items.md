@@ -6,9 +6,9 @@ description: 보드에서 카드를 삭제하면 영구적으로 삭제되며 �
 author: Lisa
 feature: Agile
 exl-id: 68b7d2e5-92f0-462d-8122-eaecb1e6b87c
-source-git-commit: 55d47665ca53c63142d5b71830fe56a05d991c74
+source-git-commit: b6a824ac6248c86043f7f21866c8a14a6c97602f
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,6 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >다음 [!UICONTROL 보관된 카드] 보관된 카드를 표시하도록 구성 설정을 켜지 않은 경우 필터에서 섹션을 사용할 수 없습니다.
+   >다음 [!UICONTROL 보관된 카드] 보관된 카드를 표시하도록 구성 설정을 켜지 않은 경우 필터에서 섹션을 사용할 수 없습니다. 자세한 내용은 [카드에 표시할 필드 사용자 지정](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
 
 1. 선택 **[!UICONTROL 보관된 카드]** 다시 클릭하여 옵션을 지우고 활성 카드만 표시합니다.
