@@ -10,9 +10,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 608a5beb5e29a786e41d713f1414a0cb79baf093
+source-git-commit: 681d3b74eec1388f3b6cc7edf51422e0019cc318
 workflow-type: tm+mt
-source-wordcount: '1634'
+source-wordcount: '1636'
 ht-degree: 4%
 
 ---
@@ -257,6 +257,7 @@ Standard 라이선스에 첨부된 이 기본 제공 액세스 수준은 Adobe W
 * 요청 제출
 * 요청 추적
 * 요청 업데이트 및 검토
+* 요청 승인
 
 기본 제공 액세스 수준이 있는 사용자:
 
