@@ -8,9 +8,9 @@ description: 이 문서는에서 역할의 액세스 및 권한에 대한 정보
 author: Becky
 feature: Workfront Fusion
 exl-id: 0370fa9d-6680-4724-a431-8df884ce4f9a
-source-git-commit: 5b6f8c882b3452725a1db77420865038abb5dab1
+source-git-commit: 2169ce1dd7fe48c26b4a80a28b5cd7b0bf4e2617
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '568'
 ht-degree: 1%
 
 ---
@@ -24,10 +24,6 @@ ht-degree: 1%
 >조직 역할은 의 팀 역할과 별개입니다. [!DNL Workfront Fusion]. 조직 및 팀 역할에 대한 자세한 내용은 [조직 및 팀](../organizations/organizations-and-teams.md).
 
 ## 액세스 요구 사항
-
-이 문서의 기능을 사용하려면 다음 액세스 권한이 있어야 합니다.
-
-&lt;## 액세스 요구 사항
 
 이 문서의 기능을 사용하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -122,7 +118,7 @@ ht-degree: 1%
   <tr> 
    <td> <p>조직 사용자 관리</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span></td> 
    <td> </td> 
    <td> </td> 
   </tr> 
