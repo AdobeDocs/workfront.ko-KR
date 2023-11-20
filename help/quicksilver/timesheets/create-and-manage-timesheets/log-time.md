@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
+source-git-commit: 4705c3fc76c1544f8c71e70a773432f164282abb
 workflow-type: tm+mt
-source-wordcount: '3451'
+source-wordcount: '3491'
 ht-degree: 0%
 
 ---
@@ -118,24 +118,27 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
 
 #### 타임시트에 시간 기록 {#log-time-on-a-timesheet}
 
-타임시트에 일반 시간 또는 프로젝트별 시간을 기록할 수 있습니다.
+타임시트의 다음 항목에 시간을 기록할 수 있습니다.
+
+* Workfront 관리자가 타임시트 환경 설정을 지정하는 방법에 따라 자동으로 표시되는 미리 채워진 작업, 문제 및 프로젝트입니다. 타임시트를 미리 채우는 방법에 대한 자세한 내용은 [타임시트 및 시간 환경 설정 구성](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+
+  나에게 할당된 작업 및 문제만 타임시트에 미리 채워집니다. 팀 또는 작업 역할에 할당된 작업 및 문제가 타임시트를 자동으로 채우지 않습니다.
+
+  팀에 할당된 항목에 대한 처리 작업을 클릭하면 항목이 사용자에게 할당되고 해당 항목이 타임시트에 표시됩니다.
+* 수동으로 추가하는 작업, 문제 또는 프로젝트.
+* Workfront의 다른 곳에서 이미 시간을 기록한 작업, 문제 또는 프로젝트입니다.
+* 일반 시간(휴가, 교육, 오버헤드 시간).
 
 >[!NOTE]
 >
 >타임시트 프로필에 할당된 검토 사용자에게 타임시트 영역이 표시되고 일반 시간이 기록됩니다. 하지만 타임시트에 표시되는 할당된 작업 또는 문제에 대해서는 시간을 기록할 수 없습니다.
 
-1. 다음을 클릭합니다. [!UICONTROL **메인 메뉴**] 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront 오른쪽 상단에 있습니다.
+타임시트에 시간을 기록하려면 다음을 수행하십시오.
+
+1. 다음을 클릭합니다. [!UICONTROL **메인 메뉴**] 아이콘 ![](assets/main-menu-icon.png) 오른쪽 상단 또는 **메인 메뉴** 아이콘 ![](assets/lines-main-menu.png) 사용 가능한 경우 Workfront의 왼쪽 상단 모서리에서
 
 1. 클릭 [!UICONTROL **타임시트**]. 현재 타임시트가 기본적으로 표시됩니다.
    ![타임시트](assets/timesheet-redesigned-nwe.png)
-
-   타임시트는 타임시트의 시간대 동안 사용자에게 할당된 항목으로 미리 채워집니다. 타임시트를 미리 채우는 방법에 대한 자세한 내용은 [타임시트 및 시간 환경 설정 구성](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md). 타임시트에 항목이 표시되지 않으면 추가할 수 있습니다.
-
-   >[!NOTE]
-   >
-   >타임시트는 사용자에게 할당된 항목으로만 미리 채워집니다. 팀이나 작업 역할에 할당된 항목으로 미리 채우지 않습니다.
-   >
-   >팀에 할당된 항목에 대한 처리 작업을 클릭하면 항목이 사용자에게 할당되고 해당 항목이 타임시트에 표시됩니다.
 
 
 1. (선택 사항) **전체 화면** 아이콘 ![](assets/full-screen.png) 타임시트를 전체 화면 모드로 표시하려면 다음 아이콘을 클릭합니다. **전체 화면 종료** ![](assets/exit-full-screen.png) ( 타임시트로 돌아가는 아이콘)
