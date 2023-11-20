@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion의 조직 및 팀 기능을 통해 기업은
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: 0cb3a77c1b9b00fa886a3321c6a8d4119f58f84d
+source-git-commit: a51dfcfc3024fd7d1d2612d6f258379d4d166c49
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1175'
 ht-degree: 0%
 
 ---
@@ -80,6 +80,8 @@ ht-degree: 0%
 * **[!UICONTROL 회계사]**: 회계사 역할은 사용자가 조직 대시보드에서 라이선스 정보만 볼 수 있도록 허용합니다.
 * **[!UICONTROL 앱 개발자]**: 이 역할의 기능은 현재 사용할 수 없으며 곧 제공될 예정입니다. 지금은 이 역할에 사용자를 할당하지 않는 것이 좋습니다.
 
+각 조직 역할의 사용자가 사용할 수 있는 특정 작업에 대한 자세한 내용은 [조직 및 팀 역할](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
+
 ### 조직에 사용자 초대
 
 기본적으로 조직 소유자(또는 인증된 사용자)는 다른 사용자를 초대하여 조직에 가입할 수 있습니다.
@@ -145,7 +147,7 @@ Fusion에서 두 개 이상의 조직에 속해 있을 수 있습니다. 조직 
 * **[!UICONTROL 팀 운영자]**: [!UICONTROL 연산자] 역할을 통해 사용자는 실행 데이터를 보고 시나리오의 &quot;활성&quot; 상태를 변경할 수 있습니다.
 * **[!UICONTROL 팀 제한된 구성원]**: 이 역할의 기능은 현재 사용할 수 없으며 곧 제공될 예정입니다. 지금은 이 역할에 사용자를 할당하지 않는 것이 좋습니다.
 
-팀 역할에 사용할 수 있는 특정 작업에 대한 자세한 내용은[조직 및 팀 역할](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
+각 팀 역할의 사용자가 사용할 수 있는 특정 작업에 대한 자세한 내용은 [조직 및 팀 역할](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
 
 ### 팀 관리
 
