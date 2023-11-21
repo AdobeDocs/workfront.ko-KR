@@ -1,20 +1,32 @@
 ---
-title: 레코드 공유
-description: 다른 사용자와 레코드를 공유하여 공동 작업을 향상시킬 수 있습니다.
+title: 레코드 유형 편집
+description: 레코드 유형을 저장한 후 편집할 수 있습니다. 레코드 유형은 Adobe 마에스트로의 객체 유형입니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
+exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
 source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '455'
 ht-degree: 1%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--update the metadata with real information when making this available in TOC and in the left nav
+---
+title: Edit record types
+description: You can edit record types after they have been saved. Record types are the objec types of Adobe Maestro.
+author: Alina
+role: User
+feature: Work Management 
+topic: Architecture
+hidefromtoc: yes
+hide: yes
+---
 
-# 레코드 공유
+-->
+
+# 레코드 유형 편집
 
 >[!IMPORTANT]
 >
@@ -26,25 +38,7 @@ ht-degree: 1%
 >
 >자세한 내용은 [Adobe 마에스트로 개요](../maestro-overview.md).
 
-다른 사용자와 공동 작업하려면 레코드를 다른 사용자와 공유할 수 있습니다.
-
-다음과 같은 방법으로 Maestro 레코드를 공유할 수 있습니다.
-
-* 페이지가 열릴 때 브라우저에서 레코드의 세부 정보 페이지의 링크를 복사합니다.
-
-* 레코드 유형의 테이블 보기에서 레코드를 볼 때 레코드의 세부 정보 페이지에 대한 링크를 복사합니다.
-
-<!-- Update with this when we release permissions: 
-
-* You can share all records in a workspace with other users by sharing the workspace. For more information, see [Grant access to Adobe Maestro](../access/grant-access.md).
--->
-
-이 문서에서는 레코드 유형의 테이블 보기에서 레코드의 세부 정보 페이지에 대한 링크를 복사하는 방법에 대해 설명합니다.
-
-<!-- add information about permissions, like:
-- in the table below, you must have at least View permissions to the record
-- the user you're sharing with must have at least View permissions to the record to view it
-- etc - others???-->
+레코드 유형은 Adobe 마에스트로의 객체 유형입니다. 사용자 또는 다른 사용자가 만든 레코드 유형의 모양을 편집할 수 있습니다. Maestro 레코드 유형 생성에 대한 자세한 내용은 [레코드 유형 만들기](../architecture/create-record-types.md).
 
 ## 액세스 요구 사항
 
@@ -89,9 +83,9 @@ ht-degree: 1%
  </tbody>
 </table>
 
+
 <!--
-After permissions - replace the table with - below
-****AND - see more above, another bullet point to update when permissions are released****
+After permssions - replace the table with: 
 
 <table style="table-layout:auto">
  <col>
@@ -136,7 +130,7 @@ After permissions - replace the table with - below
   </tr>
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
+   <td> <p>Manage permissions to a workspace</a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
 </td>
   </tr>
@@ -156,32 +150,34 @@ After permissions - replace the table with - below
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## 레코드 유형 테이블 보기에서 레코드 링크 공유
+## 레코드 유형 편집
 
-1. 다음을 클릭합니다. **메인 메뉴** ![](assets/main-menu-workfront.png) 오른쪽 상단 또는 **메인 메뉴** ![](assets/main-menu-shell.png) 왼쪽 위 모서리에서 사용 가능한 경우 을(를) 클릭합니다. **마에스트로**.
+1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-workfront.png) Workfront의 오른쪽 위 모서리 또는 **메인 메뉴** 아이콘 ![](assets/main-menu-shell.png)  왼쪽 위 모서리에서 사용 가능한 경우 을(를) 클릭합니다. **마에스트로** ![](assets/maestro-icon.png).
 
-   마지막으로 액세스한 작업 영역이 열립니다.
-1. 레코드 유형 카드를 클릭합니다.
+   기본적으로 마지막으로 액세스한 작업 영역이 열립니다.
 
-   레코드 유형 페이지가 열립니다.
-1. (조건부) **보기** 테이블 오른쪽 위 모서리에서 드롭다운 메뉴를 사용하여 테이블 뷰를 선택합니다. 레코드 유형에 마지막으로 액세스했을 때 타임라인 보기에서 확인하지 않은 경우 기본 보기여야 합니다.
+1. (선택 사항) 기존 작업 영역 이름의 오른쪽에 있는 아래쪽 방향 화살표를 확장하고 레코드 유형을 만들 작업 영역을 선택합니다.
+1. 기록 유형의 카드 위로 마우스를 가져간 다음 **자세히** 메뉴 ![](assets/more-menu.png) 기록 유형 카드의 오른쪽 상단 모서리에서 을(를) 클릭합니다. **모양 업데이트**.
 
-   선택한 레코드 유형과 연관된 레코드가 테이블 뷰에 표시됩니다.
-1. 레코드 행을 마우스 오른쪽 단추로 클릭
+   ![](assets/update-appearance-link-from-more-menu-on-record-type-card.png)
+
+1. 레코드 유형 갱신 상자에서 다음 정보를 갱신합니다.
+
+   * **레코드 이름**: 필요한 경우 레코드 유형 이름을 편집합니다. <!--correct this - I asked Garik to change this field to "Record type name"-->
+   * **모양**: 레코드 종류와 관련된 아이콘의 색 및 모양을 편집합니다. 다음을 수행합니다.
+      * 레코드 유형을 식별할 색상을 선택합니다. 레코드 유형 아이콘의 색상입니다. 기본적으로 회색이 선택되어 있습니다.
+      * 목록에서 아이콘을 선택하거나 아이콘 이름을 입력하여 아이콘이 나타내는 내용을 설명한 다음 표시될 때 선택합니다. 레코드 유형의 아이콘입니다. 기본적으로 파일 아이콘이 선택되어 있습니다.
+
+     ![](assets/update-record-type-box.png)
+
+1. 레코드 유형 업데이트 상자 외부를 클릭하여 변경 내용을 저장합니다.
+1. (선택 사항) 작업 영역 영역에서 레코드 유형 카드를 클릭하여 레코드 유형의 페이지를 엽니다.
+1. 다음을 클릭합니다. **자세히** 레코드 종류 이름의 오른쪽에 있는 메뉴를 클릭한 다음 **이름 바꾸기** 레코드 유형의 이름을 변경하려면
 
    또는
 
-   레코드 이름 위로 마우스를 가져간 후 **자세히** 메뉴 ![](assets/more-menu.png)을 클릭한 다음 을 클릭합니다 **링크 복사**.
+   헤더에서 레코드 유형의 이름을 변경합니다.  <!--check to see if they renamed this to "Rename" - it kept going back and forth between Rename and Edit-->
 
-   ![](assets/contextual-menu-for-record-row.png)
+   ![](assets/more-menu-options-from-record-details-page.png) <!--check this screen shot - not sure this is valid ???-->
 
-   링크가 클립보드에 복사됩니다.
-
-1. 링크를 이메일 또는 채팅 창에 붙여넣어 다른 사용자와 공유할 수 있습니다. 사용자가 링크를 수신하면 레코드의 세부 정보 페이지가 열립니다.
-
-   >[!TIP]
-   >
-   >세부 정보 페이지에 있는 레코드의 필드는 해당 레코드의 테이블 보기에서 사용할 수 있는 동일한 필드입니다.
-
-
-   <!--add there when it will be available: if they have access to this record-->
+   레코드 유형 페이지의 헤더에서 레코드 유형의 이름을 바꿀 수도 있습니다.

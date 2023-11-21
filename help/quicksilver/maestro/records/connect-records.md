@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 1dcc267f04242782efea4a219410380ca5a01e1d
+source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
 workflow-type: tm+mt
-source-wordcount: '1964'
+source-wordcount: '1975'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,9 @@ hide: yes
 
 >[!IMPORTANT]
 >
->이 문서의 정보는 Adobe의 새로운 서비스인 Adobe 마에스트로를 참조합니다.
+>이 문서의 정보는 Adobe Workfront의 새로운 오퍼링인 Adobe Maestro를 참조합니다.
 >
->현재 Adobe 마에스트로는 제한된 수의 고객에게 제공되는 베타 프로그램의 일부입니다.
+>현재 Adobe 마에스트로는 제한된 수의 고객에게 제공되는 베타 프로그램의 일부입니다. Maestro 기능을 사용하려면 Workfront 고객이어야 합니다.
 >
 >Maestro용 Beta 프로그램 가입에 대한 자세한 내용은 계정 담당자에게 문의하십시오.
 >
@@ -42,9 +42,9 @@ Adobe Maestro 레코드를 서로 연결하거나 다른 응용 프로그램의 
 
 먼저 두 개의 레코드 형식을 함께 연결하거나 다른 응용 프로그램의 개체 형식에 레코드 형식을 연결해야 합니다. 그런 다음 레코드 형식의 표 보기를 사용하여 레코드를 서로 연결하거나 레코드를 다른 개체에 연결할 수 있습니다.
 
-레코드 형식을 서로 연결하거나 다른 응용 프로그램의 개체 형식에 연결하는 방법에 대한 자세한 내용은 [레코드 유형 연결](../architecture-and-fields/connect-record-types.md).
+레코드 형식을 서로 연결하거나 다른 응용 프로그램의 개체 형식에 연결하는 방법에 대한 자세한 내용은 [레코드 유형 연결](../architecture/connect-record-types.md).
 
-레코드 종류 연결에 대한 예는 [레코드 종류 및 레코드 연결의 예](../architecture-and-fields/example-connect-record-types-and-records.md).
+레코드 종류 연결에 대한 예는 [레코드 종류 및 레코드 연결의 예](../architecture/example-connect-record-types-and-records.md).
 
 다음을 연결할 수 있습니다.
 
@@ -113,6 +113,61 @@ Adobe Maestro 레코드를 서로 연결하거나 다른 응용 프로그램의 
  </tbody>
 </table>
 
+<!--
+After permssions - replace the table with: 
+
+<table style="table-layout:auto">
+ <col>
+ </col>
+ <col>
+ </col>
+ <tbody>
+    <tr>
+<tr>
+<td>
+   <p> Adobe product</p> </td>
+   <td>
+   <p> Adobe Workfront</p> </td>
+  </tr>  
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
+   <td>
+<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
+   <td>
+<p>Any</p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront license</p></td>
+   <td>
+   <p>Any</p> 
+  </td>
+  </tr>
+  
+  <tr>
+   <td role="rowheader"><p>Access level</p></td>
+   <td> <p>Any</p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Manage permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+</td>
+  </tr>
+ </tbody>
+</table>
+
+-->
+
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
@@ -143,11 +198,11 @@ Adobe Maestro 레코드를 서로 연결하거나 다른 응용 프로그램의 
    * Workfront 개체입니다. 예를 들어 먼저 Workfront에서 프로젝트, 포트폴리오, 프로그램, 회사 또는 그룹을 만들어야 합니다.
    * Maestro 작업 공간, 레코드 유형 및 레코드. 자세한 내용은 다음 문서를 참조하십시오.
 
-      * [작업 공간 만들기](../architecture-and-fields/create-workspaces.md)
-      * [레코드 유형 만들기](../architecture-and-fields/create-record-types.md)
+      * [작업 공간 만들기](../architecture/create-workspaces.md)
+      * [레코드 유형 만들기](../architecture/create-record-types.md)
       * [레코드 만들기](../records/create-records.md)
 
-   * 레코드 유형 간 또는 레코드 유형과 다른 응용 프로그램의 개체 간 연결입니다. 자세한 내용은 [레코드 유형 연결](../architecture-and-fields/connect-record-types.md).
+   * 레코드 유형 간 또는 레코드 유형과 다른 응용 프로그램의 개체 간 연결입니다. 자세한 내용은 [레코드 유형 연결](../architecture/connect-record-types.md)
 
 ### Connect Maestro 레코드
 
@@ -158,7 +213,7 @@ Adobe Maestro 레코드를 서로 연결하거나 다른 응용 프로그램의 
 1. (선택 사항) 기존 작업 영역 이름의 오른쪽에 있는 아래쪽 방향 화살표를 확장하고 레코드를 연결할 작업 영역을 선택합니다.
 1. 레코드 유형의 카드를 클릭하여 레코드 유형 페이지를 엽니다.
 1. 선택 **표** 다음에서 보기 **보기** 레코드 유형 페이지의 오른쪽 위 모서리에 있는 드롭다운 메뉴.
-1. 선택한 레코드 유형에서 다른 레코드 또는 개체 유형에 연결을 추가합니다. 자세한 내용은 [레코드 유형 연결](../architecture-and-fields/connect-record-types.md).
+1. 선택한 레코드 유형에서 다른 레코드 또는 개체 유형에 연결을 추가합니다. 자세한 내용은 [레코드 유형 연결](../architecture/connect-record-types.md).
 
    연결된 레코드 종류를 표시하는 새 열이 표에 추가됩니다.
 
@@ -216,7 +271,7 @@ Maestro 레코드 유형과 Workfront 객체 유형 간에 연결을 만든 후 
    * 회사
    * 그룹
 
-   자세한 내용은 [레코드 유형 연결](../architecture-and-fields/connect-record-types.md).
+   자세한 내용은 [레코드 유형 연결](../architecture/connect-record-types.md).
 
    연결된 객체 유형을 표시하기 위해 새 열이 테이블에 추가됩니다.
 

@@ -1,20 +1,20 @@
 ---
-title: 레코드 공유
-description: 다른 사용자와 레코드를 공유하여 공동 작업을 향상시킬 수 있습니다.
+title: 분류 레코드 유형 만들기
+description: 분류는 Adobe Workfront Maestro의 운영 레코드 유형에 대한 속성을 캡처하는 재사용 가능한 레코드 유형의 유형입니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
+exl-id: e90a3ebe-fc02-4cce-8472-1ca5004ddde8
+source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '377'
 ht-degree: 1%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# 레코드 공유
+# 분류 레코드 유형 만들기
 
 >[!IMPORTANT]
 >
@@ -26,25 +26,11 @@ ht-degree: 1%
 >
 >자세한 내용은 [Adobe 마에스트로 개요](../maestro-overview.md).
 
-다른 사용자와 공동 작업하려면 레코드를 다른 사용자와 공유할 수 있습니다.
+분류는 Adobe Maestro의 운영 레코드 유형에 대한 속성을 캡처하는 레코드 유형입니다.
 
-다음과 같은 방법으로 Maestro 레코드를 공유할 수 있습니다.
+예를 들어 Campaign은 운영 레코드 유형일 수 있습니다. 다음은 캠페인 레코드 유형에 대한 속성을 캡처하는 분류입니다(지역, 대상자, 국가).
 
-* 페이지가 열릴 때 브라우저에서 레코드의 세부 정보 페이지의 링크를 복사합니다.
-
-* 레코드 유형의 테이블 보기에서 레코드를 볼 때 레코드의 세부 정보 페이지에 대한 링크를 복사합니다.
-
-<!-- Update with this when we release permissions: 
-
-* You can share all records in a workspace with other users by sharing the workspace. For more information, see [Grant access to Adobe Maestro](../access/grant-access.md).
--->
-
-이 문서에서는 레코드 유형의 테이블 보기에서 레코드의 세부 정보 페이지에 대한 링크를 복사하는 방법에 대해 설명합니다.
-
-<!-- add information about permissions, like:
-- in the table below, you must have at least View permissions to the record
-- the user you're sharing with must have at least View permissions to the record to view it
-- etc - others???-->
+Maestro 레코드 유형에 대한 자세한 내용은 [레코드 유형 및 분류 개요](../architecture/overview-of-record-types-and-taxonomies.md).
 
 ## 액세스 요구 사항
 
@@ -52,7 +38,9 @@ ht-degree: 1%
 
 <table style="table-layout:auto">
  <col>
+ <col>
  <tbody>
+ <tr>
 <td>
    <p> Adobe 제품</p> </td>
    <td>
@@ -81,6 +69,7 @@ ht-degree: 1%
    <td> <p>모든</p>  
 </td>
   </tr>
+
 <tr>
    <td role="rowheader">레이아웃 템플릿</td>
    <td> <p>시스템 관리자가 레이아웃 템플릿에 마에스트로 영역을 추가해야 합니다. 자세한 내용은 <a href="../access/grant-access.md">Adobe 마에스트로에 대한 액세스 권한 부여</a>. </p>  
@@ -90,8 +79,7 @@ ht-degree: 1%
 </table>
 
 <!--
-After permissions - replace the table with - below
-****AND - see more above, another bullet point to update when permissions are released****
+After permssions - replace the table with: 
 
 <table style="table-layout:auto">
  <col>
@@ -136,15 +124,14 @@ After permissions - replace the table with - below
   </tr>
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+   <td> <p>Manage permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create
 </td>
   </tr>
  </tbody>
 </table>
 
 -->
-
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
@@ -156,32 +143,34 @@ After permissions - replace the table with - below
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## 레코드 유형 테이블 보기에서 레코드 링크 공유
+## 분류 생성에 대한 고려 사항
 
-1. 다음을 클릭합니다. **메인 메뉴** ![](assets/main-menu-workfront.png) 오른쪽 상단 또는 **메인 메뉴** ![](assets/main-menu-shell.png) 왼쪽 위 모서리에서 사용 가능한 경우 을(를) 클릭합니다. **마에스트로**.
+* 작업 영역에서 분류를 만들려면 먼저 작업 영역을 만들어야 합니다.
 
-   마지막으로 액세스한 작업 영역이 열립니다.
-1. 레코드 유형 카드를 클릭합니다.
+  작업 공간에 대한 자세한 내용은 [작업 공간 만들기](../architecture/create-workspaces.md).
+* 다음 중 하나를 수행하여 분류 레코드 유형을 만들 수 있습니다.
+   * 템플릿을 사용하여 작업 공간을 만들 때 자동으로 만듭니다. 자세한 내용은 [작업 공간 만들기](../architecture/create-workspaces.md).
+   * 처음부터 직접 만듭니다.
+   * 외부 목록의 정보를 붙여 넣어 수동으로 만듭니다.
 
-   레코드 유형 페이지가 열립니다.
-1. (조건부) **보기** 테이블 오른쪽 위 모서리에서 드롭다운 메뉴를 사용하여 테이블 뷰를 선택합니다. 레코드 유형에 마지막으로 액세스했을 때 타임라인 보기에서 확인하지 않은 경우 기본 보기여야 합니다.
+  <!--this is not possible yet:
+  * You can taxonomies to a workspace by doing one of the following:
+    * Create a connection to object types from other systems, when adding fields to a taxnomy record type. This creates a read-only record type in Maestro.  - update this sentence when you can connect taxonomies as well as operational records to a third-party system.-->
 
-   선택한 레코드 유형과 연관된 레코드가 테이블 뷰에 표시됩니다.
-1. 레코드 행을 마우스 오른쪽 단추로 클릭
+* 새로 생성된 모든 분류는 다음 필드와 함께 제공됩니다.
 
-   또는
+   * 이름 <!--if there won't be any more fields, consider rephrasing this-->
 
-   레코드 이름 위로 마우스를 가져간 후 **자세히** 메뉴 ![](assets/more-menu.png)을 클릭한 다음 을 클릭합니다 **링크 복사**.
+  또한 사용자 지정 필드를 분류법에 추가할 수 있습니다. 자세한 내용은 [필드 만들기](../fields/create-fields.md).
 
-   ![](assets/contextual-menu-for-record-row.png)
+  >[!NOTE]
+  >
+  >    작업 영역 템플릿을 사용할 때 생성되는 분류에는 추가 필드가 있습니다.
 
-   링크가 클립보드에 복사됩니다.
+## 분류 체계 만들기
 
-1. 링크를 이메일 또는 채팅 창에 붙여넣어 다른 사용자와 공유할 수 있습니다. 사용자가 링크를 수신하면 레코드의 세부 정보 페이지가 열립니다.
+분류를 만드는 것은 처음부터 또는 작업 영역 템플릿에서 작업 기록 유형을 만드는 것과 비슷합니다.
 
-   >[!TIP]
-   >
-   >세부 정보 페이지에 있는 레코드의 필드는 해당 레코드의 테이블 보기에서 사용할 수 있는 동일한 필드입니다.
+자세한 내용은 이 문서의 &quot;처음부터 레코드 유형 만들기&quot; 섹션을 참조하십시오 [레코드 유형 만들기](../architecture/create-record-types.md).
 
-
-   <!--add there when it will be available: if they have access to this record-->
+템플릿에서 작업 영역을 생성할 때 분류를 자동으로 생성하는 방법에 대한 자세한 내용은 [작업 공간 만들기](../architecture/create-workspaces.md).

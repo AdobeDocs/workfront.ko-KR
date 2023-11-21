@@ -7,7 +7,7 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 4705c3fc76c1544f8c71e70a773432f164282abb
+source-git-commit: edd4aa9556b624de3634af26d6d9efd59f5d2e44
 workflow-type: tm+mt
 source-wordcount: '3491'
 ht-degree: 0%
@@ -125,6 +125,7 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
   나에게 할당된 작업 및 문제만 타임시트에 미리 채워집니다. 팀 또는 작업 역할에 할당된 작업 및 문제가 타임시트를 자동으로 채우지 않습니다.
 
   팀에 할당된 항목에 대한 처리 작업을 클릭하면 항목이 사용자에게 할당되고 해당 항목이 타임시트에 표시됩니다.
+
 * 수동으로 추가하는 작업, 문제 또는 프로젝트.
 * Workfront의 다른 곳에서 이미 시간을 기록한 작업, 문제 또는 프로젝트입니다.
 * 일반 시간(휴가, 교육, 오버헤드 시간).

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
+source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1854'
 ht-degree: 1%
 
 ---
@@ -26,9 +26,9 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->이 문서의 정보는 Adobe의 새로운 서비스인 Adobe 마에스트로를 참조합니다.
+>이 문서의 정보는 Adobe Workfront의 새로운 오퍼링인 Adobe Maestro를 참조합니다.
 >
->현재 Adobe 마에스트로는 제한된 수의 고객에게 제공되는 베타 프로그램의 일부입니다.
+>현재 Adobe 마에스트로는 제한된 수의 고객에게 제공되는 베타 프로그램의 일부입니다. Maestro 기능을 사용하려면 Workfront 고객이어야 합니다.
 >
 >Maestro용 Beta 프로그램 가입에 대한 자세한 내용은 계정 담당자에게 문의하십시오.
 >[Adobe Maestro 비디오 데모 보기](https://video.tv.adobe.com/v/3424253/){target=_blank}
@@ -130,7 +130,7 @@ Maestro를 위한 프레임워크는 완전히 맞춤화가 가능합니다. 조
 
   ![](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
 
-  자세한 내용은 [작업 공간 만들기](../maestro/architecture-and-fields/create-workspaces.md).
+  자세한 내용은 [작업 공간 만들기](../maestro/architecture/create-workspaces.md).
 
 * **레코드 유형**: Maestro 기본 오브젝트 유형.
 
@@ -140,7 +140,7 @@ Maestro를 위한 프레임워크는 완전히 맞춤화가 가능합니다. 조
 
   Maestro에서는 조직의 워크플로우에 맞는 레코드 유형을 만들 수 있습니다. 나중에 레코드 종류 간에 어떤 관계가 있는지 정의하거나 양식 종속성을 정의할 수 있습니다.
 
-  자세한 내용은 [운영 레코드 유형 및 분류 개요](../maestro/architecture-and-fields/overview-of-record-types-and-taxonomies.md).
+  자세한 내용은 [운영 레코드 유형 및 분류 개요](../maestro/architecture/overview-of-record-types-and-taxonomies.md).
 
   Maestro에는 다음과 같은 레코드 유형이 있습니다.
 
@@ -150,7 +150,7 @@ Maestro를 위한 프레임워크는 완전히 맞춤화가 가능합니다. 조
 
      예를 들어 Campaign, Activity, Program은 운영 레코드 유형일 수 있습니다.
 
-     자세한 내용은 [레코드 유형 만들기](../maestro/architecture-and-fields/create-record-types.md).
+     자세한 내용은 [레코드 유형 만들기](../maestro/architecture/create-record-types.md).
 
    * **분류**: 작업 레코드 유형에 대한 속성을 캡처하는 레코드 유형입니다.
 
@@ -160,7 +160,7 @@ Maestro를 위한 프레임워크는 완전히 맞춤화가 가능합니다. 조
 
      예를 들어 대상, 지역 또는 주소는 분류법 유형 레코드 유형일 수 있습니다.
 
-     자세한 내용은 [분류 레코드 유형 만들기](../maestro/architecture-and-fields/create-a-taxonomy.md).
+     자세한 내용은 [분류 레코드 유형 만들기](../maestro/architecture/create-a-taxonomy.md).
 
 * **기록**: Maestro 레코드 유형의 인스턴스 레코드는 운영 레코드 유형 또는 분류법을 참조할 수 있습니다.
 
@@ -183,7 +183,7 @@ Maestro를 위한 프레임워크는 완전히 맞춤화가 가능합니다. 조
 
   Maestro에는 Sales, Marketing 및 Product Management 작업 영역 템플릿이 제공됩니다.
 
-  자세한 내용은 [작업 공간 만들기](../maestro/architecture-and-fields/create-workspaces.md).
+  자세한 내용은 [작업 공간 만들기](../maestro/architecture/create-workspaces.md).
 
 * **필드**: 필드는 레코드 유형에 대한 정보가 포함된 운영 또는 분류 레코드 유형에 추가할 수 있는 속성입니다. <!--check the shot below, "Connection" needs to be in lowercase-->
 
@@ -199,7 +199,7 @@ Maestro를 위한 프레임워크는 완전히 맞춤화가 가능합니다. 조
 
    * Maestro 필드는 사용자 정의가 가능하며 Maestro에서만 액세스할 수 있습니다. Workfront에서 Maestro 필드에 액세스할 수 없습니다.
 
-  자세한 내용은 [필드 만들기](../maestro/architecture-and-fields/create-fields.md)
+  자세한 내용은 [필드 만들기](../maestro/fields/create-fields.md)
 
   새 작업 레코드 유형은 기본적으로 다음과 같은 사전 정의된 필드와 연결되어 있습니다.
 
@@ -243,7 +243,7 @@ Maestro를 위한 프레임워크는 완전히 맞춤화가 가능합니다. 조
 
   레코드 유형, 레코드 연결 및 연결된 필드 만들기에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
-   * [레코드 유형 연결](../maestro/architecture-and-fields/connect-record-types.md)
+   * [레코드 유형 연결](../maestro/architecture/connect-record-types.md)
    * [레코드 연결](../maestro/records/connect-records.md)
 
 <!--not yet:* Fields are reusable across Record Types.  -->

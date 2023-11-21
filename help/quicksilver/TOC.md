@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: b7dcb97f5741a5c8b3710494e4cde25d6de9036e
+source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
 workflow-type: tm+mt
-source-wordcount: '13421'
+source-wordcount: '13428'
 ht-degree: 1%
 
 ---
@@ -1999,20 +1999,23 @@ ht-degree: 1%
    * [Adobe 마에스트로 개요](maestro/maestro-overview.md)
    * [Adobe Maestro 릴리스 활동](maestro/release-activity.md)
    * Adobe 마에스트로 건축 {#adobe-maestro-architecture}
-      * [아키텍처 정보](maestro/architecture-and-fields/architecture-and-fields-information.md)
-      * [작업 공간 만들기](maestro/architecture-and-fields/create-workspaces.md)
-      * [레코드 유형 및 분류 개요](maestro/architecture-and-fields/overview-of-record-types-and-taxonomies.md)
-      * [운영 레코드 유형 만들기](maestro/architecture-and-fields/create-record-types.md)
-      * [분류 레코드 유형 만들기](maestro/architecture-and-fields/create-a-taxonomy.md)
-      * [레코드 유형 연결](maestro/architecture-and-fields/connect-record-types.md)
-      * [필드 만들기](maestro/architecture-and-fields/create-fields.md)
-      * [레코드 유형 편집](maestro/architecture-and-fields/edit-record-types.md)
-      * [필드 편집](maestro/architecture-and-fields/edit-fields.md)
-      * [작업 영역 삭제](maestro/architecture-and-fields/delete-workspaces.md)
-      * [레코드 유형 삭제](maestro/architecture-and-fields/delete-record-types.md)
-      * [필드 삭제](maestro/architecture-and-fields/delete-fields.md)
-      * [레코드 종류 및 레코드 연결의 예](maestro/architecture-and-fields/example-connect-record-types-and-records.md)
-      * [작업 공간 템플릿 목록](maestro/architecture-and-fields/workspace-templates.md)
+      * [아키텍처 정보](maestro/architecture/architecture-information.md)
+      * [작업 공간 만들기](maestro/architecture/create-workspaces.md)
+      * [레코드 유형 및 분류 개요](maestro/architecture/overview-of-record-types-and-taxonomies.md)
+      * [운영 레코드 유형 만들기](maestro/architecture/create-record-types.md)
+      * [분류 레코드 유형 만들기](maestro/architecture/create-a-taxonomy.md)
+      * [레코드 유형 연결](maestro/architecture/connect-record-types.md)
+      * [레코드 유형 편집](maestro/architecture/edit-record-types.md)
+      * [작업 영역 삭제](maestro/architecture/delete-workspaces.md)
+      * [레코드 유형 삭제](maestro/architecture/delete-record-types.md)
+      * [레코드 종류 및 레코드 연결의 예](maestro/architecture/example-connect-record-types-and-records.md)
+      * [작업 공간 템플릿 목록](maestro/architecture/workspace-templates.md)
+   * Adobe 마에스트로 필드 {#adobe-maestro-fields}
+      * [필드 정보](maestro/fields/fields-information.md)
+      * [필드 개요](maestro/fields/fields-overview.md)
+      * [필드 만들기](maestro/fields/create-fields.md)
+      * [필드 편집](maestro/fields/edit-fields.md)
+      * [필드 삭제](maestro/fields/delete-fields.md)
    * Adobe 마에스트로 액세스 {#adobe-maestro-access}
       * [액세스 정보](maestro/access/access-information.md)
       * [액세스 개요](maestro/access/access-overview.md)

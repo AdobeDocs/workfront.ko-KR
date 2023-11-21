@@ -1,20 +1,32 @@
 ---
-title: 레코드 공유
-description: 다른 사용자와 레코드를 공유하여 공동 작업을 향상시킬 수 있습니다.
+title: 필드 편집
+description: Adobe Maestro에서 이미 만들어진 필드의 필드 설정을 편집할 수 있습니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
+exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
+source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '473'
 ht-degree: 1%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# 레코드 공유
+<!---
+title: Formula fields
+description: In Adobe Maestro, you can edit the field settings for fields that are already created.
+hidefromtoc: yes
+hide: yes
+author: Alina
+feature: (*******************WE NEED A NEW ONE*******************)
+role: User, Administrator (************is this right???************)
+recommendations: noDisplay, noCatalog
+--->
+
+
+# 필드 편집
 
 >[!IMPORTANT]
 >
@@ -26,25 +38,24 @@ ht-degree: 1%
 >
 >자세한 내용은 [Adobe 마에스트로 개요](../maestro-overview.md).
 
-다른 사용자와 공동 작업하려면 레코드를 다른 사용자와 공유할 수 있습니다.
+이미 만들어진 필드의 필드 설정을 편집할 수 있습니다.
 
-다음과 같은 방법으로 Maestro 레코드를 공유할 수 있습니다.
+Adobe 마에스트로 필드 생성에 대한 자세한 내용은 [필드 만들기](../fields/create-fields.md).
 
-* 페이지가 열릴 때 브라우저에서 레코드의 세부 정보 페이지의 링크를 복사합니다.
+이 문서에서는 Maestro 필드의 설정을 편집하는 방법을 설명합니다. Maestro 레코드의 필드 값 편집에 대한 자세한 내용은 [레코드 편집](../records/edit-records.md).
 
-* 레코드 유형의 테이블 보기에서 레코드를 볼 때 레코드의 세부 정보 페이지에 대한 링크를 복사합니다.
+## 필드 정보 편집에 대한 고려 사항
 
-<!-- Update with this when we release permissions: 
+* 직접 만든 필드나 다른 사용자가 만든 필드를 편집할 수 있습니다. <!--this will change with access levels/ permissions-->
+* 레코드 유형 테이블에서 필드를 편집할 수 있습니다.
+* 필드를 저장한 후에는 필드 유형을 편집할 수 없습니다.
+* 이미 음수 값이 첨부된 레코드에 저장된 경우 숫자, 백분율 또는 통화 필드에 대해 이전에 선택한 음수 허용 설정을 선택 해제할 수 없습니다.
+<!--this is not true yet; one piece of it is true and I added it as the bullet above: 
+* You cannot edit the options, or the special format of the following fields, after they are saved:
 
-* You can share all records in a workspace with other users by sharing the workspace. For more information, see [Grant access to Adobe Maestro](../access/grant-access.md).
+    * Allow negative numbers option from a Number, Percentage, or Currency field. 
+    * The Options of a Single-select or a Multi-select field.
 -->
-
-이 문서에서는 레코드 유형의 테이블 보기에서 레코드의 세부 정보 페이지에 대한 링크를 복사하는 방법에 대해 설명합니다.
-
-<!-- add information about permissions, like:
-- in the table below, you must have at least View permissions to the record
-- the user you're sharing with must have at least View permissions to the record to view it
-- etc - others???-->
 
 ## 액세스 요구 사항
 
@@ -90,8 +101,7 @@ ht-degree: 1%
 </table>
 
 <!--
-After permissions - replace the table with - below
-****AND - see more above, another bullet point to update when permissions are released****
+After permssions - replace the table with: 
 
 <table style="table-layout:auto">
  <col>
@@ -136,7 +146,7 @@ After permissions - replace the table with - below
   </tr>
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
+   <td> <p>Manage permissions to a workspace</a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
 </td>
   </tr>
@@ -156,32 +166,36 @@ After permissions - replace the table with - below
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## 레코드 유형 테이블 보기에서 레코드 링크 공유
+## 필드 편집
 
-1. 다음을 클릭합니다. **메인 메뉴** ![](assets/main-menu-workfront.png) 오른쪽 상단 또는 **메인 메뉴** ![](assets/main-menu-shell.png) 왼쪽 위 모서리에서 사용 가능한 경우 을(를) 클릭합니다. **마에스트로**.
+1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-workfront.png) Workfront의 오른쪽 위 모서리 또는 **메인 메뉴** 아이콘 ![](assets/main-menu-shell.png)  왼쪽 위 모서리에서 사용 가능한 경우 을(를) 클릭합니다. **마에스트로** ![](assets/maestro-icon.png).
 
-   마지막으로 액세스한 작업 영역이 열립니다.
-1. 레코드 유형 카드를 클릭합니다.
+   기본적으로 마지막으로 액세스한 작업 영역이 열립니다.
 
-   레코드 유형 페이지가 열립니다.
-1. (조건부) **보기** 테이블 오른쪽 위 모서리에서 드롭다운 메뉴를 사용하여 테이블 뷰를 선택합니다. 레코드 유형에 마지막으로 액세스했을 때 타임라인 보기에서 확인하지 않은 경우 기본 보기여야 합니다.
+1. (선택 사항) 기존 작업 영역 이름의 오른쪽에 있는 아래쪽 방향 화살표를 확장하고 레코드 유형을 삭제할 작업 영역을 선택합니다.
 
-   선택한 레코드 유형과 연관된 레코드가 테이블 뷰에 표시됩니다.
-1. 레코드 행을 마우스 오른쪽 단추로 클릭
+   작업공간이 열리고 작업공간과 연관된 레코드 유형 및 분류가 표시됩니다.
+1. 편집할 필드를 포함하는 레코드 유형 또는 분류법에 대한 카드를 클릭합니다.
+
+   레코드 유형의 페이지가 열립니다.
+1. (조건부) 선택 **표 보기** 다음에서 **보기** 레코드 유형 페이지의 오른쪽 위 모서리에 있는 드롭다운 메뉴.
+1. 편집할 필드의 열 헤더 위로 마우스를 가져간 다음 필드 이름 뒤에 있는 아래쪽 화살표를 클릭하고 **필드 편집**
 
    또는
 
-   레코드 이름 위로 마우스를 가져간 후 **자세히** 메뉴 ![](assets/more-menu.png)을 클릭한 다음 을 클릭합니다 **링크 복사**.
+   필드의 열 머리글을 두 번 클릭합니다.
 
-   ![](assets/contextual-menu-for-record-row.png)
+   ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
-   링크가 클립보드에 복사됩니다.
+1. 필드에 대한 정보를 업데이트하고 **저장**.
 
-1. 링크를 이메일 또는 채팅 창에 붙여넣어 다른 사용자와 공유할 수 있습니다. 사용자가 링크를 수신하면 레코드의 세부 정보 페이지가 열립니다.
+   <!--insert screen shot when finalized-->
 
    >[!TIP]
    >
-   >세부 정보 페이지에 있는 레코드의 필드는 해당 레코드의 테이블 보기에서 사용할 수 있는 동일한 필드입니다.
+   >필드를 저장한 후에는 필드 유형을 업데이트할 수 없습니다.
 
 
-   <!--add there when it will be available: if they have access to this record-->
+1. (조건부) 연결된 레코드 필드의 경우 **조회 필드 편집** 연결된 레코드 종류에서 필드를 추가하거나 제거합니다.
+
+   자세한 내용은 [레코드 유형 연결](../architecture/connect-record-types.md).

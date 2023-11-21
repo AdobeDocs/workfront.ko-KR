@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
@@ -32,9 +32,9 @@ hide: yes
 
 >[!IMPORTANT]
 >
->이 문서의 정보는 Adobe의 새로운 서비스인 Adobe 마에스트로를 참조합니다.
+>이 문서의 정보는 Adobe Workfront의 새로운 오퍼링인 Adobe Maestro를 참조합니다.
 >
->현재 Adobe 마에스트로는 제한된 수의 고객에게 제공되는 베타 프로그램의 일부입니다.
+>현재 Adobe 마에스트로는 제한된 수의 고객에게 제공되는 베타 프로그램의 일부입니다. Maestro 기능을 사용하려면 Workfront 고객이어야 합니다.
 >
 >Maestro용 Beta 프로그램 가입에 대한 자세한 내용은 계정 담당자에게 문의하십시오.
 >
@@ -62,7 +62,8 @@ Adobe Maestro에 대한 개요는 다음 문서에 액세스합니다.
 
 다음 섹션에는 현재 사용 가능한 Maestro 기능에 대해 자세히 설명하는 문서가 포함되어 있습니다.
 
-* [액세스 정보](../maestro/access/access-information.md): Adobe Maestro를 사용하는 데 필요한 액세스 권한 정보입니다.
-* [아키텍처 정보](../maestro/architecture-and-fields/architecture-and-fields-information.md): 작업 공간, 레코드 유형 및 필드를 만들고 관리하는 방법에 대한 단계별 지침을 통해 Adobe Maestro의 아키텍처에 대한 심층적인 정보입니다.
+* [액세스 정보](../maestro/access/access-information.md): Adobe Maestro를 사용하는 데 필요한 액세스 및 권한 정보입니다.
+* [아키텍처 정보](../maestro/architecture/architecture-information.md): 작업 공간 및 레코드 유형을 만들고 관리하는 방법에 대한 단계별 지침을 통해 Adobe Maestro의 아키텍처에 대한 심층적인 정보입니다.
+* [필드 정보](../maestro/fields/fields-information.md): Maestro 레코드 유형의 사용자 정의 필드 만들기에 대한 심층적인 정보 및 단계별 지침입니다.
 * [레코드 정보](../maestro/records/records-information.md): 레코드를 만들고 관리하는 방법에 대한 심층적인 정보와 단계별 지침입니다.
-* [보기 정보](../maestro/views/views-information.md): Maestro 보기와 관리 방법에 대한 심층적인 정보.
+* [보기 정보](../maestro/views/views-information.md): 레코드 유형 페이지에서 레코드를 볼 때 Maestro 보기와 이를 관리하는 방법에 대한 심층적인 정보입니다.

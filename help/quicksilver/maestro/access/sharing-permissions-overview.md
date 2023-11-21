@@ -4,9 +4,9 @@ description: 만든 Adobe Maestro 작업 영역에 대한 권한을 공유하거
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: b4b144a36b5ab7d3aab400d4fcd2007df2a2e4a1
+source-git-commit: 6d1d3d82e15f4232ff81294d9094c2683b01ca89
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '375'
 ht-degree: 2%
 
 ---
@@ -14,6 +14,8 @@ ht-degree: 2%
 <!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Maestro. This article describes the levels of access that users could have to Adobe Maestro. -->
 
 <!--over time, this article should look like this one does: https://experienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
+
+<!-- *********add to TOC****************-->
 
 # Adobe Maestro에서의 권한 공유 개요
 
@@ -35,7 +37,7 @@ Maestro에서 다음 오브젝트를 공유할 수 있습니다.
 
 * 작업 영역
 
-  작업 영역을 공유하면 작업 영역과 연관된 모든 레코드 유형, 레코드 및 필드가 공유됩니다.
+  작업 영역을 공유하면 작업 영역과 연관된 모든 레코드 유형, 레코드 및 필드도 공유됩니다.
 
 ## Maestro에서 오브젝트 공유에 대한 고려 사항
 
@@ -54,9 +56,14 @@ Maestro에서 다음 오브젝트를 공유할 수 있습니다.
  <col> 
  <col> 
  <tbody> 
+ <tr> 
+   <td role="rowheader"><p><b>권한 수준</b></p></td> 
+   <td> <p><b>수행할 수 있는 작업</b></p> 
+    </td> 
+  </tr> 
   <tr> 
-   <td role="rowheader">보기</td> 
-   <td> <p>다음 작업을 수행할 수 있습니다.</p> 
+   <td role="rowheader"><p>보기</p></td> 
+   <td> 
     <ul> 
      <li>작업 영역 보기</li> 
      <li>작업 영역에서 모든 레코드 유형 보기</li> 
@@ -65,8 +72,8 @@ Maestro에서 다음 오브젝트를 공유할 수 있습니다.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">참여</td> 
-   <td> <p>다음 작업을 수행할 수 있습니다.</p> 
+   <td role="rowheader"><p>참여</p></td> 
+   <td>  
     <ul> 
      <li>보기 권한에 포함된 모든 작업</li> 
      <li>레코드 추가</li>
@@ -77,8 +84,8 @@ Maestro에서 다음 오브젝트를 공유할 수 있습니다.
      </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">관리</td> 
-   <td> <p>다음 작업을 수행할 수 있습니다.</p> 
+   <td role="rowheader"><p>관리</p></td> 
+   <td> 
     <ul> 
      <li>보기 및 기여 권한에 포함된 모든 작업</li> 
      <li>레코드 유형 편집</li> 
@@ -90,7 +97,7 @@ Maestro에서 다음 오브젝트를 공유할 수 있습니다.
      </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Workfront 관리자</td> 
+   <td role="rowheader"><p>Workfront 관리자</p></td> 
    <td> <p>이건 마에스트로의 허가가 아니야</p>
    <p> 모든 Workfront 관리자는 다음 작업을 수행할 수 있습니다. </p>
    <ul><li>작업 공간 만들기</li>
@@ -101,13 +108,15 @@ Maestro에서 다음 오브젝트를 공유할 수 있습니다.
  </tbody> 
 </table>
 
+<!-- the following sections are hidden in the links below - ensure they are visible-->
+
 ## 작업 영역 공유
 
-Maestro 작업 영역 공유에 대한 자세한 내용은 [액세스 권한 부여](../access/grant-access.md).
+Maestro 작업 영역 공유에 대한 자세한 내용은 [Adobe 마에스트로에 대한 액세스 권한 부여](../access/grant-access.md).
 
 ## 작업 공간에 대한 권한 제거
 
-Maestro 작업 영역 공유에 대한 자세한 내용은 [액세스 권한 부여](../access/grant-access.md).
+Maestro 작업 영역 공유에 대한 자세한 내용은 [Adobe 마에스트로에 대한 액세스 권한 부여](../access/grant-access.md).
 
 <!--This is currently not possible: ## Request permissions to objects -->
 

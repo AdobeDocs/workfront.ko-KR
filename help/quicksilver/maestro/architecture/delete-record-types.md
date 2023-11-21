@@ -1,20 +1,31 @@
 ---
-title: 레코드 공유
-description: 다른 사용자와 레코드를 공유하여 공동 작업을 향상시킬 수 있습니다.
+title: 레코드 유형 삭제
+description: 운영 레코드 유형 또는 분류 레코드 유형이 더 이상 관련이 없는 경우 삭제할 수 있습니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
+exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
 source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '409'
 ht-degree: 1%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--udpate the metadata with real information when making this avilable in TOC and in the left nav:
+---
+title: Delete record types
+description: You can delete operational record types or taxonomy record types when they are no longer relevant. 
+author: Alina
+feature: Work Management
+topic: Architecture
+role: User
+hidefromtoc: yes
+hide: yes
+---
+-->
 
-# 레코드 공유
+# 레코드 유형 삭제
 
 >[!IMPORTANT]
 >
@@ -26,25 +37,13 @@ ht-degree: 1%
 >
 >자세한 내용은 [Adobe 마에스트로 개요](../maestro-overview.md).
 
-다른 사용자와 공동 작업하려면 레코드를 다른 사용자와 공유할 수 있습니다.
+운영 레코드 유형 또는 분류 레코드 유형이 더 이상 관련이 없는 경우 삭제할 수 있습니다.
 
-다음과 같은 방법으로 Maestro 레코드를 공유할 수 있습니다.
+레코드 유형 및 분류법에 대한 자세한 내용은 [레코드 유형 및 분류 개요](../architecture/overview-of-record-types-and-taxonomies.md).
 
-* 페이지가 열릴 때 브라우저에서 레코드의 세부 정보 페이지의 링크를 복사합니다.
+삭제하기 전에 다른 레코드 유형에서 삭제할 레코드 유형 또는 분류와 관련된 필드 및 레코드를 다시 만드는 것이 좋습니다.
 
-* 레코드 유형의 테이블 보기에서 레코드를 볼 때 레코드의 세부 정보 페이지에 대한 링크를 복사합니다.
-
-<!-- Update with this when we release permissions: 
-
-* You can share all records in a workspace with other users by sharing the workspace. For more information, see [Grant access to Adobe Maestro](../access/grant-access.md).
--->
-
-이 문서에서는 레코드 유형의 테이블 보기에서 레코드의 세부 정보 페이지에 대한 링크를 복사하는 방법에 대해 설명합니다.
-
-<!-- add information about permissions, like:
-- in the table below, you must have at least View permissions to the record
-- the user you're sharing with must have at least View permissions to the record to view it
-- etc - others???-->
+<!-- last sentence might need to be deleted when we can recover or replace deleted record types-->
 
 ## 액세스 요구 사항
 
@@ -90,8 +89,7 @@ ht-degree: 1%
 </table>
 
 <!--
-After permissions - replace the table with - below
-****AND - see more above, another bullet point to update when permissions are released****
+After permssions - replace the table with: 
 
 <table style="table-layout:auto">
  <col>
@@ -136,14 +134,16 @@ After permissions - replace the table with - below
   </tr>
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+   <td> <p>Manage permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create
 </td>
   </tr>
  </tbody>
 </table>
 
 -->
+
+
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -156,32 +156,29 @@ After permissions - replace the table with - below
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## 레코드 유형 테이블 보기에서 레코드 링크 공유
+## 레코드 유형 삭제 시 고려 사항
 
-1. 다음을 클릭합니다. **메인 메뉴** ![](assets/main-menu-workfront.png) 오른쪽 상단 또는 **메인 메뉴** ![](assets/main-menu-shell.png) 왼쪽 위 모서리에서 사용 가능한 경우 을(를) 클릭합니다. **마에스트로**.
+<!--check this and ensure these are still true - some things might change with / after closed beta-->
 
-   마지막으로 액세스한 작업 영역이 열립니다.
-1. 레코드 유형 카드를 클릭합니다.
+* 사용자 또는 조직의 모든 사용자가 만든 레코드 유형 또는 분류를 삭제할 수 있습니다. <!--this will change with access levels and permissions-->
+* 레코드 유형을 삭제하면 해당 유형의 필드 및 레코드를 포함하여 레코드 유형과 관련된 모든 정보가 제거됩니다.
+* 삭제된 레코드 종류 또는 해당 정보는 복구할 수 없습니다.
 
-   레코드 유형 페이지가 열립니다.
-1. (조건부) **보기** 테이블 오른쪽 위 모서리에서 드롭다운 메뉴를 사용하여 테이블 뷰를 선택합니다. 레코드 유형에 마지막으로 액세스했을 때 타임라인 보기에서 확인하지 않은 경우 기본 보기여야 합니다.
+## 레코드 유형 삭제
 
-   선택한 레코드 유형과 연관된 레코드가 테이블 뷰에 표시됩니다.
-1. 레코드 행을 마우스 오른쪽 단추로 클릭
+분류 레코드 유형을 삭제하는 것은 운영 레코드 유형을 삭제하는 것과 동일합니다.
 
-   또는
+1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-workfront.png) Workfront의 오른쪽 위 모서리 또는 **메인 메뉴** 아이콘 ![](assets/main-menu-shell.png)  왼쪽 위 모서리에서 사용 가능한 경우 을(를) 클릭합니다. **마에스트로** ![](assets/maestro-icon.png).
 
-   레코드 이름 위로 마우스를 가져간 후 **자세히** 메뉴 ![](assets/more-menu.png)을 클릭한 다음 을 클릭합니다 **링크 복사**.
+   기본적으로 마지막으로 액세스한 작업 영역이 열립니다.
 
-   ![](assets/contextual-menu-for-record-row.png)
+1. (선택 사항) 기존 작업 영역 이름의 오른쪽에 있는 아래쪽 방향 화살표를 확장하고 레코드 유형을 삭제할 작업 영역을 선택합니다.
 
-   링크가 클립보드에 복사됩니다.
+   작업공간이 열리고 작업공간과 연관된 레코드 유형 및 분류가 표시됩니다.
+1. 삭제할 레코드 유형 또는 분류에 대한 카드를 클릭합니다.
 
-1. 링크를 이메일 또는 채팅 창에 붙여넣어 다른 사용자와 공유할 수 있습니다. 사용자가 링크를 수신하면 레코드의 세부 정보 페이지가 열립니다.
+   레코드 유형의 페이지가 열립니다.
+1. 다음을 클릭합니다. **자세히** 메뉴 ![](assets/more-menu.png) 레코드 유형 이름의 오른쪽에 있는 **삭제**.
+1. 클릭 **삭제** 확인할 수 있습니다.
 
-   >[!TIP]
-   >
-   >세부 정보 페이지에 있는 레코드의 필드는 해당 레코드의 테이블 보기에서 사용할 수 있는 동일한 필드입니다.
-
-
-   <!--add there when it will be available: if they have access to this record-->
+   선택한 레코드 유형 또는 분류와 해당 필드 및 관련 레코드가 삭제됩니다.

@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
+source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
 workflow-type: tm+mt
-source-wordcount: '2069'
-ht-degree: 4%
+source-wordcount: '2080'
+ht-degree: 3%
 
 ---
 
@@ -28,9 +28,9 @@ hide: yes
 
 >[!IMPORTANT]
 >
->이 문서의 정보는 Adobe의 새로운 서비스인 Adobe 마에스트로를 참조합니다.
+>이 문서의 정보는 Adobe Workfront의 새로운 오퍼링인 Adobe Maestro를 참조합니다.
 >
->현재 Adobe 마에스트로는 제한된 수의 고객에게 제공되는 베타 프로그램의 일부입니다.
+>현재 Adobe 마에스트로는 제한된 수의 고객에게 제공되는 베타 프로그램의 일부입니다. Maestro 기능을 사용하려면 Workfront 고객이어야 합니다.
 >
 >Maestro용 Beta 프로그램 가입에 대한 자세한 내용은 계정 담당자에게 문의하십시오.
 >
@@ -125,7 +125,7 @@ Maestro 테이블 보기의 열 헤더에는 보기의 레코드와 관련된 �
 테이블 보기에서 최대 500개의 필드(또는 열)를 추가할 수 있습니다.
 
 1. 레코드 유형 페이지로 이동하여 **표** 보기 드롭다운 메뉴에서 보기
-1. 문서에 설명된 대로 필드(또는 열) 추가 시작 [필드 만들기](../architecture-and-fields/create-fields.md).
+1. 문서에 설명된 대로 필드(또는 열) 추가 시작 [필드 만들기](../fields/create-fields.md).
 
    추가한 열은 레코드 유형에 액세스하는 모든 사용자가 볼 수 있으며 선택한 레코드 유형의 레코드에 대한 세부 정보 페이지에서 새 필드로 추가됩니다.
 
@@ -238,7 +238,7 @@ Maestro에서 레코드 유형에 대해 최대 10,000개의 레코드(또는 �
 
      >[!TIP]
      >
-     > 연결된 필드는 선택할 수 없습니다. 자세한 내용은 [필드 만들기](../architecture-and-fields/create-fields.md).
+     > 연결된 필드는 선택할 수 없습니다. 자세한 내용은 [필드 만들기](../fields/create-fields.md).
 
      <table>
         <thead>
@@ -412,7 +412,7 @@ Maestro에서 레코드 유형에 대해 최대 10,000개의 레코드(또는 �
 
    >[!TIP]
    >
-   > 연결된 필드는 선택할 수 없습니다. 자세한 내용은 [필드 만들기](../architecture-and-fields/create-fields.md).
+   > 연결된 필드는 선택할 수 없습니다. 자세한 내용은 [필드 만들기](../fields/create-fields.md).
 
 1. (선택 사항) **레코드 정렬 기준** 상자를 클릭하고 **x** 정렬을 제거할 정렬 필드 오른쪽의 아이콘
 

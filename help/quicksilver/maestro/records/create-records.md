@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
+source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '976'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->이 문서의 정보는 Adobe의 새로운 서비스인 Adobe 마에스트로를 참조합니다.
+>이 문서의 정보는 Adobe Workfront의 새로운 오퍼링인 Adobe Maestro를 참조합니다.
 >
->현재 Adobe 마에스트로는 제한된 수의 고객에게 제공되는 베타 프로그램의 일부입니다.
+>현재 Adobe 마에스트로는 제한된 수의 고객에게 제공되는 베타 프로그램의 일부입니다. Maestro 기능을 사용하려면 Workfront 고객이어야 합니다.
 >
 >Maestro용 Beta 프로그램 가입에 대한 자세한 내용은 계정 담당자에게 문의하십시오.
 >
@@ -83,6 +83,62 @@ Adobe 마에스트로에서 레코드는 레코드 유형의 인스턴스입니�
  </tbody>
 </table>
 
+
+<!--
+After permssions - replace the table with: 
+
+<table style="table-layout:auto">
+ <col>
+ </col>
+ <col>
+ </col>
+ <tbody>
+    <tr>
+<tr>
+<td>
+   <p> Adobe product</p> </td>
+   <td>
+   <p> Adobe Workfront</p> </td>
+  </tr>  
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
+   <td>
+<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
+   <td>
+<p>Any</p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront license</p></td>
+   <td>
+   <p>Any</p> 
+  </td>
+  </tr>
+  
+  <tr>
+   <td role="rowheader"><p>Access level</p></td>
+   <td> <p>Any</p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Contribute or higher permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+</td>
+  </tr>
+ </tbody>
+</table>
+
+-->
+
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
@@ -99,8 +155,8 @@ Adobe 마에스트로에서 레코드는 레코드 유형의 인스턴스입니�
 레코드 유형 페이지의 표 보기에서 레코드를 만들 수 있습니다.
 
 1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-workfront.png) 오른쪽 상단 또는 **메인 메뉴** 아이콘 ![](assets/main-menu-shell.png) 왼쪽 위 모서리에서 사용 가능한 경우 을(를) 클릭합니다. **마에스트로** ![](assets/maestro-icon.png).
-마지막으로 액세스한 작업공간은 기본적으로 열립니다. 작업 공간 만들기에 대한 자세한 내용은 [작업 공간 만들기](../architecture-and-fields/create-workspaces.md).
-1. 레코드 유형 카드를 클릭합니다. 레코드 종류 만들기에 대한 내용은 [레코드 유형 만들기](../architecture-and-fields/create-record-types.md).
+마지막으로 액세스한 작업공간은 기본적으로 열립니다. 작업 공간 만들기에 대한 자세한 내용은 [작업 공간 만들기](../architecture/create-workspaces.md).
+1. 레코드 유형 카드를 클릭합니다. 레코드 종류 만들기에 대한 내용은 [레코드 유형 만들기](../architecture/create-record-types.md).
 
    마지막으로 액세스한 보기에서 레코드 유형 페이지가 열립니다. 기본적으로 레코드 유형 페이지가 표 뷰에 열립니다.
 선택한 유형의 모든 레코드가 테이블 뷰에 표시됩니다.
@@ -129,11 +185,11 @@ Adobe 마에스트로에서 레코드는 레코드 유형의 인스턴스입니�
 
 다른 응용 프로그램에서 레코드를 Maestro 연결 레코드에 연결하여 가져올 수 있습니다.
 
-1. 에 설명된 대로 Maestro 레코드 유형을 만듭니다. [레코드 유형 만들기](../architecture-and-fields/create-record-types.md).
+1. 에 설명된 대로 Maestro 레코드 유형을 만듭니다. [레코드 유형 만들기](../architecture/create-record-types.md).
 
 1. 이전 단계에서 생성한 레코드 유형에 대해 Maestro 레코드를 생성합니다. 자세한 내용은 섹션을 참조하십시오 [수동으로 레코드 유형에 추가하여 레코드 만들기](#create-records-by-manually-adding-them-to-a-record-type) 이 문서에서.
 
-1. 생성한 Maestro 레코드 유형의 서드파티 애플리케이션에서 객체 유형에 대한 연결을 생성합니다. 자세한 내용은 [레코드 유형 연결](../architecture-and-fields/connect-record-types.md).
+1. 생성한 Maestro 레코드 유형의 서드파티 애플리케이션에서 객체 유형에 대한 연결을 생성합니다. 자세한 내용은 [레코드 유형 연결](../architecture/connect-record-types.md).
 
 1. 이전 단계에서 생성한 연결된 레코드 필드를 사용하여 위에서 생성한 Maestro 레코드에 타사 애플리케이션의 레코드를 추가합니다. 자세한 내용은 [레코드 연결](../records/connect-records.md).
 
