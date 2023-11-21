@@ -6,22 +6,20 @@ description: Adobe Workfront 개체(프로젝트, 작업 또는 문제)에 업�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: fd876089c964d57224452023b4656cd6df40b5a3
+source-git-commit: fdf4c86ce70402885e109a680ed1b088dcf71f55
 workflow-type: tm+mt
-source-wordcount: '3985'
+source-wordcount: '4005'
 ht-degree: 1%
 
 ---
 
 # 작업 업데이트
 
-
-
-<!--take "legacy" and "new commnenting" references out when we remove the legacy - Jan 2024???-->
+<!--take "legacy" and "new commenting" references out when we remove the legacy - Jan 2024???-->
 
 <span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. </span>
 
-<span class="preview">현재 릴리스 일정에 대한 자세한 내용은 [2024년 1분기 릴리스 개요](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)</span>
+<span class="preview">현재 릴리스 일정에 대한 자세한 내용은 [2024년 1분기 릴리스 개요](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
 
 <!--
 After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
@@ -83,7 +81,7 @@ After the monthly releases to Production, the same features are also available i
 
 * Workfront과 통합된 다른 애플리케이션 또는 Workfront 모바일 앱에서 Workfront 오브젝트에 주석을 추가할 수 있습니다.
 
-  Workfront과 통합된 모든 애플리케이션에 Workfront 개체에 주석을 추가할 수 있는 기능은 없습니다.
+  Workfront과 통합된 모든 애플리케이션이 Workfront 개체에 주석을 추가할 수 있는 것은 아닙니다.
 
   Workfront에 있는 오브젝트의 업데이트 섹션에서 사용할 수 있는 기능 중 일부가 다른 애플리케이션에서 Workfront 오브젝트에 액세스할 때 사용할 수 있는 것은 아닙니다. 예를 들어 서드파티 애플리케이션에서 Workfront 객체에 댓글을 추가할 때 리치 텍스트 기능이나 댓글을 누군가의 회사에 비공개로 만들 수 없는 경우가 있을 수 있습니다.
 
@@ -263,7 +261,7 @@ drafted for P&P release:
 
    >[!TIP]
    >
-   >다른 사용자가 업데이트하고 있는 동일한 항목에 주석을 제출하면 빨간색 줄에 &quot;New&quot; 표시기가 표시되어 최신 주석을 알려 줍니다.
+   >다른 사용자가 업데이트하고 있는 동일한 항목에 주석을 제출하는 경우 새로운 주석을 알려주는 &quot;신규&quot; 표시기가 있는 빨간색 줄이 있습니다.
    >
    >표시기는 항목에 대한 댓글이 제출된 후에만 표시되며 댓글이 아직 작성된 경우에는 표시되지 않습니다.
    >
@@ -290,7 +288,7 @@ drafted for P&P release:
    >
    >* 원본 업데이트를 제출한 경우에만 사용자에게 업데이트를 알리는 이메일이 생성됩니다. 업데이트를 편집한 후 이메일이 생성되지 않습니다.
    >* 주석 옆에 있는 날짜 스탬프는 마지막 편집 날짜가 아닌 원래 주석의 날짜입니다.
-   >* 다른 사용자를 대신하여 주석을 게시할 때(Workfront 또는 그룹 관리자로 다른 사용자로 로그인할 때) 다른 사용자로 로그인한 경우에는 주석을 편집할 수 없습니다. 사용자로 로그아웃한 후 다시 사용자로 로그인한 후에만 주석을 편집할 수 있습니다.
+   >* 다른 사용자를 대신하여 주석을 추가할 때(Workfront 또는 그룹 관리자로 다른 사용자로 로그인할 때) 다른 사용자로 로그인된 경우 주석을 편집할 수 없습니다. 사용자로 로그아웃한 후 다시 사용자로 로그인한 후에만 주석을 편집할 수 있습니다.
 
 
 1. (선택 사항) **답변** 또는에서 댓글을 입력해 보십시오. **회신 추가...** 영역에서 기존 댓글에 응답한 다음 위의 4-8단계를 따릅니다. <!--(**************insure this stays accurate***********)--> 업데이트 회신에 대한 자세한 내용은 [업데이트에 대한 회신](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
@@ -391,17 +389,18 @@ drafted for P&P release:
    1. 아래 **표시할 텍스트**, 링크 텍스트를 입력하거나 붙여넣습니다.
    1. **저장**&#x200B;을 클릭합니다.
 
-1. (선택 사항) <span class="preview">이미지를 업데이트에 첨부하려면 컴퓨터에서 스크린샷을 복사한 다음 **CTRL + V** Windows용(또는 **CMD + V** Mac의 경우) 주석을 붙여넣습니다.</span>
+1. (선택 사항) <span class="preview">업데이트에 이미지를 첨부하려면 컴퓨터에서 스크린샷을 복사한 다음 주석에 붙여넣습니다 </span>
 
    또는
 
-   다음을 클릭합니다. **이미지 추가** 아이콘 ![](assets/add-image-mountain-with-plus-icon.png) 새 댓글 달기 환경을 사용할 때는 컴퓨터에서 이미지를 찾아봅니다.
+   다음을 클릭합니다. **이미지 추가** 아이콘 ![](assets/add-image-mountain-with-plus-icon.png) 컴퓨터에서 이미지를 찾습니다.
 
    >[!NOTE]
    >
    >* 이미지 또는 첨부 파일 추가 아이콘을 보려면 Workfront 관리자가 Workfront 인터페이스 영역의 피드 업데이트 환경 설정 섹션에서 이미지 추가를 활성화해야 합니다. 자세한 내용은 [사용자 업데이트에 대한 환경 설정 구성](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* 최대 이미지 파일 크기는 7MB입니다. 지원되는 이미지 파일 유형은 .jpg, .gif 및 .png입니다.
    >* 이미지는 개체의 업데이트 섹션에서 액세스할 수 있으며 기본 메뉴 아래의 문서 영역에서도 사용할 수 있습니다.
+   >* <span class="preview">새 주석을 마우스 오른쪽 단추로 클릭하거나 키보드에서 Ctrl + V for Windows(또는 CMD + V for Mac)를 눌러 이미지를 붙여넣을 수 있습니다.</span>
    >* 텍스트가 아닌 이미지로 업데이트를 보낼 수 있습니다.
    >* 이미지가 포함된 댓글을 삭제하면 선택한 경험에 따라 다음과 같은 시나리오가 존재합니다.
    >
@@ -424,13 +423,17 @@ drafted for P&P release:
 오브젝트의 업데이트 섹션에서 댓글 또는 답글을 검색할 수 있습니다.
 
 1. 로 이동 **업데이트** 섹션에 있는 마지막 항목이 될 필요가 없습니다.
-1. 키워드 입력 시작 <!--or a user's name--> 다음에서 **검색** 업데이트 섹션의 오른쪽 상단에 있는 상자입니다. <!--You can search for comment owner's names or for users who are tagged on comments. -->
+1. 키워드 입력 시작 <!--or a user's name --> 다음에서 **검색** 의 오른쪽 위 모서리에 있는 상자 **댓글** 탭.
+
+   <!--Add this tip when it'll be possible: You can search for users who have been tagged or for comment owners.-->
 
    ![](assets/search-field-in-updates-tab.png)
 
    키워드 <!--or user--> 을 검색하면 강조 표시되고 이 검색어가 포함된 주석이 업데이트 섹션의 맨 위에 표시됩니다.
 
-1. 다음을 클릭합니다. **x** 아이콘을 클릭하여 검색 결과를 지우고 완료로 돌아갈 수 있습니다.
+   Workfront은 화면에 표시되는 주석 외부에서 개체의 전체 업데이트 스트림을 검색합니다.
+
+1. 다음을 클릭합니다. **x** 아이콘을 클릭하여 검색 결과를 지우고 모든 주석으로 돌아갈 수 있습니다.
 
 </div>
 

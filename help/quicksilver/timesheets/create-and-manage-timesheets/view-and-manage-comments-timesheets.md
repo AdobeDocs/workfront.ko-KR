@@ -6,9 +6,9 @@ description: 타임시트, 타임시트에 포함된 작업 항목 및 사용자
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
+source-git-commit: fdf4c86ce70402885e109a680ed1b088dcf71f55
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '849'
 ht-degree: 0%
 
 ---
@@ -76,28 +76,23 @@ ht-degree: 0%
 
 ### 전체 타임시트에 주석 달기 {#comment-on-the-overall-timesheet}
 
-타임시트에 대한 일반적인 설명을 할 수 있습니다.
+타임시트에 대한 일반적인 설명을 할 수 있습니다. 전체 타임시트에 댓글을 다는 것은 다른 오브젝트에 댓글을 다는 것과 비슷합니다.
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront 오른쪽 상단에 있습니다.
+1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) 오른쪽 상단 또는 **메인 메뉴** 아이콘 ![](assets/lines-main-menu.png) 사용 가능한 경우 왼쪽 상단 모서리 또는 Workfront에 있습니다.
 
 1. 클릭 **타임시트**.
 1. 댓글을 달려는 타임시트로 이동합니다.
 1. 클릭 **업데이트** 왼쪽 패널에서 를 클릭한 다음 **댓글** 탭.
-<!--
-1. (Optional) Start typing a keyword or a the name of a user associated with a comment in the **Search** field, in the upper-right corner of the Comments tab. 
-
-   If found, the keyword or user you searched for is highlighted and the comments associated with them display at the top of the Comments tab. -->
-1. 에 업데이트 입력 **새 댓글** 상자.
+1. 에 설명된 대로 새 의견 또는 기존 의견에 대한 답변을 추가합니다. [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (선택 사항) **사람 또는 팀에 태그 지정** 업데이트에 다른 사용자를 포함하는 필드입니다. 자세한 내용은 [업데이트에 다른 사용자 태그 지정](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-1. (선택 사항) 설명에 서식 있는 텍스트 서식을 추가합니다. 자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (선택 사항) **내 회사에 비공개** 회사 직원만 업데이트를 볼 수 있도록 하려면 옵션을 선택합니다.
 1. 댓글을 입력한 다음 **제출**.
 
-   댓글이에 표시됩니다. [!UICONTROL 업데이트] 섹션에 있는 마지막 항목이 될 필요가 없습니다.
+   댓글이에 표시됩니다. [!UICONTROL 업데이트] 구성 요소 탭의 타임시트 섹션.
 
 1. (선택 사항) **시스템 활동** 시스템 생성 업데이트를 검토하는 탭입니다.
 
-   자세한 내용은 문서의 &quot;시스템 업데이트 사용 또는 사용 안 함&quot; 섹션을 참조하십시오 [작업 업데이트](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   자세한 내용은 [작업 업데이트](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ### 타임시트의 개별 시간 항목에 주석 달기 {#comment-on-an-individual-hour-entry-in-a-timesheet}
 

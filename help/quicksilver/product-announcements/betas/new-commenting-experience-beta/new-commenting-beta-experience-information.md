@@ -2,15 +2,15 @@
 product-area: betas
 navigation-topic: new-commenting-exprience-beta
 title: 새로운 댓글 달기 Beta 경험에 대한 정보
-description: 새 댓글 달기 Beta 경험은 현재 종료되었습니다. 다음 문서에서는에서 사용할 수 있는 기능을 새로운 댓글 달기 환경으로 문서화합니다.
+description: 새로운 댓글 달기 경험 베타 프로그램은 현재 종료되었습니다. 다음 문서에서는에서 사용할 수 있는 기능을 새로운 댓글 달기 환경으로 문서화합니다.
 author: Alina
 feature: Product Announcements
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 08aea7a6-1ce2-46d9-9807-c94526851655
-source-git-commit: 0ffa49583d8c248c8e248caccd1bb5edd18e9a91
+source-git-commit: fdf4c86ce70402885e109a680ed1b088dcf71f55
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '94'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->새 댓글 달기 Beta 경험은 현재 종료되었습니다.
+>새로운 댓글 달기 경험 베타 프로그램은 현재 종료되었습니다.
 >
 >Beta 기간 동안 릴리스된 기능은 2023년 4분기 릴리스(2023년 10월)부터 모든 고객이 사용할 수 있습니다.
 
