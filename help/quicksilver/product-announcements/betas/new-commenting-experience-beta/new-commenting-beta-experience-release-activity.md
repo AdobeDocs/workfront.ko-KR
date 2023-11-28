@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
-source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
+source-git-commit: c3abb5dce14c0b19ab2e5b82f159cd29f80f79e4
 workflow-type: tm+mt
-source-wordcount: '2209'
+source-wordcount: '2223'
 ht-degree: 2%
 
 ---
@@ -117,6 +117,11 @@ Beta 기간이 종료된 후 새 주석 달기 경험을 위해 릴리스된 기
 ### 2023년 9월 11일 주
 
 #### 새로운 댓글 달기 환경은 2019년 1월 1일부터 정보를 캡처합니다
+
+>[!NOTE]
+>
+>이 제한은 2023년 11월 28일 이후에 제거되었습니다. 자세한 내용은 [2024년 1분기 릴리스 개요](../../product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
 
 현재 프로젝트, 작업, 문제 및 문서에는 2019년 1월 1일부터 업데이트가 표시됩니다. 이 개선 이전에는 새로운 댓글 달기 환경에서 2022년 6월 이러한 오브젝트에 대한 업데이트만 캡처했습니다.
 

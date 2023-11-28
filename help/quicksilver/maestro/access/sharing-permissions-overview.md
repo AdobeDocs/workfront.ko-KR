@@ -4,9 +4,10 @@ description: 만든 Adobe Maestro 작업 영역에 대한 권한을 공유하거
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 6d1d3d82e15f4232ff81294d9094c2683b01ca89
+exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
+source-git-commit: c3abb5dce14c0b19ab2e5b82f159cd29f80f79e4
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '382'
 ht-degree: 2%
 
 ---
@@ -94,6 +95,7 @@ Maestro에서 다음 오브젝트를 공유할 수 있습니다.
      <li>필드 추가</li> 
      <li>필드 삭제</li> 
      <li>레코드 종류 간에 새 연결 추가</li> 
+     <li>사용자 및 그룹과 작업 영역 공유</li> 
      </ul> </td> 
   </tr> 
   <tr> 
@@ -119,5 +121,3 @@ Maestro 작업 영역 공유에 대한 자세한 내용은 [Adobe 마에스트�
 Maestro 작업 영역 공유에 대한 자세한 내용은 [Adobe 마에스트로에 대한 액세스 권한 부여](../access/grant-access.md).
 
 <!--This is currently not possible: ## Request permissions to objects -->
-
-

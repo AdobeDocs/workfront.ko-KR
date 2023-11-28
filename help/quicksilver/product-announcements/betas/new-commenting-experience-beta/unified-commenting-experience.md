@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 937498a68a994d19b0005d518d7e313c48961672
+source-git-commit: c3abb5dce14c0b19ab2e5b82f159cd29f80f79e4
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '863'
 ht-degree: 3%
 
 ---
@@ -64,18 +64,21 @@ The new commenting experience will slowly become available for all the objects w
 * Workfront 또는 그룹 관리자가 다른 사용자로 로그인하고 대신 주석을 추가할 때의 &quot;대신하여 &lt; 사용자 이름 >&quot; 정보는 원래 제거되었습니다. 2023년 10월 19일에 복원되었습니다.
 * 문서에 주석을 추가하는 동안 다른 사용자에게 태그를 지정할 때 &quot;승인 요청&quot; 옵션이 표시됩니다.
 
+<!--removed this note on November 28, 2023, when this limitation was removed: 
+
 >[!NOTE]
 >
->아래 나열된 객체에는 새로운 댓글 달기 환경에서 사용할 수 있는 2019년 1월 1일부터 시작되는 댓글 및 시스템 업데이트만 있습니다.
+>The objects listed below have only the comments and system updates starting with January 1, 2019 available in the new commenting experience.  
 >
->현재 경험의 업데이트 섹션을 볼 때 2019년 1월 1일 이전에 이러한 오브젝트에 대한 주석 및 시스템 업데이트를 볼 수 있습니다.
+>You can view comments and system updates on these objects prior to January 1, 2019 when viewing the Updates section in the current experience:
 >
->* 문제
->* 프로젝트
->* 작업
->* 문서
+>* Issues
+>* Projects
+>* Tasks
+>* Documents
 
-자세한 내용은 [새로운 주석 달기 경험 FAQ](../../betas/new-commenting-experience-beta/new-commenting-faq.md).
+For more information, see the [New commenting experience FAQs](../../betas/new-commenting-experience-beta/new-commenting-faq.md). 
+-->
 
 다음 표는 새 댓글 달기 환경에서 사용할 수 있는 기능과 지원되는 영역에서 사용할 수 있는 기능을 보여 줍니다.
 
