@@ -3,19 +3,27 @@ content-type: reference
 product-area: projects
 navigation-topic: projects-navigation-topic
 title: 작업 관리
-description: 다음 섹션에서 Adobe Workfront 작업 관리에 대한 문서를 찾으십시오.
+description: Adobe Workfront을 사용하여 작업을 관리할 수 있습니다. 작업의 복잡성과 작업에 할당하는 리소스 또는 예산에 따라 작업을 정의하는 데 사용하는 작업 개체를 결정하는 것부터 시작할 수 있습니다. 이 섹션에서는 프로젝트, 포트폴리오 또는 프로그램과 같은 더 큰 작업 항목으로 작업을 구성하는 방법과 더 많은 양의 작업을 작업 및 문제와 같이 더 관리하기 쉬운 작업 항목으로 나누는 방법에 대해 설명합니다. 또한 간트 차트 를 사용하여 작업의 타임라인을 정의하거나 작업을 완료할 수 없을 때 다른 사람에게 작업을 위임할 수 있습니다.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 5d17322b-e517-4475-aa77-faaeb4677152
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 579c30d1090f80d7fecef47286206e4ba03ddbb7
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 18%
+source-wordcount: '218'
+ht-degree: 2%
 
 ---
 
-# 작업 관리
+# 작업 정보 관리
+
+Adobe Workfront을 사용하여 작업을 관리할 수 있습니다.
+
+작업의 복잡성과 작업에 할당하는 리소스 또는 예산에 따라 작업을 정의하는 데 사용하는 작업 개체를 결정하는 것부터 시작할 수 있습니다.
+
+이 섹션에서는 프로젝트, 포트폴리오 또는 프로그램과 같은 더 큰 작업 항목으로 작업을 구성하는 방법과 더 많은 양의 작업을 작업 및 문제와 같이 더 관리하기 쉬운 작업 항목으로 나누는 방법에 대해 설명합니다.
+
+또한 간트 차트 를 사용하여 작업의 타임라인을 정의하거나 작업을 완료할 수 없을 때 다른 사람에게 작업을 위임할 수 있습니다.
 
 이 섹션에는 다음 하위 섹션이 포함됩니다.
 

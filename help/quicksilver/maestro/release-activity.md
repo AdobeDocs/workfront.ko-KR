@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
+source-git-commit: 579c30d1090f80d7fecef47286206e4ba03ddbb7
 workflow-type: tm+mt
-source-wordcount: '2041'
+source-wordcount: '2161'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,30 @@ The following are the permissions levels for Maestro workspaces:
 Only Workfront administrators can create, edit, or delete workspaces and all information associated with them.  
 
 For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
+
+## 2023년 11월 27일 주
+
+### Maestro 표 보기의 한 필드에서 다른 필드로 정보를 복사하여 붙여넣기
+
+미리보기 및 프로덕션: 2023년 11월 28일
+
+이제 Maestro 레코드 유형 표 보기에서 한 필드의 정보를 같은 유형의 다른 필드로 복사하여 붙여넣을 수 있습니다.
+
+다음 사항을 고려하십시오.
+
+* 정보를 붙여넣은 필드와 동일한 유형의 마에스트로 필드 이외의 다른 소스에서 정보를 복사할 수 없습니다.
+
+* 레코드의 세부 정보 영역에 표시되는 필드의 필드 값을 복사하여 붙여넣을 수 없습니다.
+
+* 다음 필드 유형에 대한 필드 값을 복사하여 붙여넣을 수 없습니다.
+
+   * 사용자
+
+   * 시스템 필드
+
+   * 레코드 연결 결과로 생성된 연결된 필드
+
+자세한 내용은 [레코드 편집](../maestro/records/edit-records.md).
 
 ## 2023년 11월 6일 주
 

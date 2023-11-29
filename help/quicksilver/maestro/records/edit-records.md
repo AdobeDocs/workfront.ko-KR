@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
+source-git-commit: 66a4a1e11ff04008d1d0c77fbd6887e8f5f1c46b
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 2%
+source-wordcount: '821'
+ht-degree: 1%
 
 ---
 
@@ -193,7 +193,7 @@ After permssions - replace the table with:
 
 ### 레코드 유형 테이블 보기에서 레코드 편집
 
-1. 다음을 클릭합니다. **메인 메뉴** ![](assets/main-menu-workfront.png) 오른쪽 위 모서리에서 <!--or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it is available,--> 그런 다음 을 클릭합니다. **마에스트로** ![](assets/maestro-icon.png).
+1. 다음을 클릭합니다. **메인 메뉴** ![](assets/main-menu-workfront.png) 오른쪽 상단 또는 **메인 메뉴** ![](assets/main-menu-shell.png) 왼쪽 위 모서리에서 사용 가능한 경우 을(를) 클릭합니다. **마에스트로** ![](assets/maestro-icon.png).
 
    마지막으로 액세스한 작업 영역이 열립니다.
 
@@ -201,10 +201,38 @@ After permssions - replace the table with:
 1. 레코드 유형 카드를 클릭합니다.
 
    레코드 유형 페이지가 열립니다.
-1. (조건부) **보기** 테이블 오른쪽 위 모서리에서 드롭다운 메뉴를 사용하여 테이블 뷰를 선택합니다. 레코드 유형에 마지막으로 액세스했을 때 타임라인 보기에서 확인하지 않은 경우 기본 보기여야 합니다.
+1. (조건부) **보기** 테이블 오른쪽 위 모서리에서 드롭다운 메뉴를 선택하고 **표** 보기. 레코드 유형에 마지막으로 액세스했을 때 타임라인 보기에서 확인하지 않은 경우 기본 보기여야 합니다.
 
    선택한 레코드 유형과 연관된 레코드가 테이블 뷰에 표시됩니다.
 1. 레코드 행 내부를 클릭하여 인라인 레코드에 대한 정보 편집을 시작합니다.
 
    ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
 1. 누르기 **입력** 키보드에서 를 클릭하거나 행 외부를 클릭하여 변경 내용을 저장합니다. 변경 사항은 자동으로 저장됩니다. 변경 사항이 저장되었음을 나타내기 위해 테이블 보기의 오른쪽 위 모서리에 저장된 표시기가 잠시 표시됩니다.
+
+   >[!NOTE]
+   >
+   >  다음 필드는 읽기 전용이고 Workfront에서 자동으로 업데이트하므로 해당 필드에 대한 정보는 편집할 수 없습니다.
+   >  
+   >  * 레코드 종류를 연결하여 만든 연결된 필드
+   >  * 생성자, 생성일, 마지막 수정자, 마지막 수정자 유형의 필드
+
+
+1. (선택 사항) 필드의 기존 값을 복사한 다음, 다른 레코드에서 동일한 유형의 필드에 붙여 넣은 다음 을 클릭합니다 **입력** 키보드에서 을(를) 클릭하여 변경 내용을 저장합니다.
+
+   >[!NOTE]
+   >
+   >다음 사항을 고려하십시오.
+   >
+   >* 정보를 붙여넣은 필드와 동일한 유형의 마에스트로 필드 이외의 다른 소스에서 정보를 복사할 수 없습니다.
+   >
+   >* 레코드의 세부 정보 영역에 표시되는 필드의 필드 값을 복사하여 붙여넣을 수 없습니다.
+   >* 다음 필드 유형에 대한 필드 값을 복사하여 붙여넣을 수 없습니다.
+   ><ul>
+   >
+   > * 사용자
+   >
+   > * 시스템 필드
+   >
+   > * 레코드 연결 결과로 생성된 연결된 필드
+
+   <!--take People out of the list above when they release this - this might be coming later-->
