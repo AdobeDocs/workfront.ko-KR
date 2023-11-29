@@ -3,9 +3,10 @@ title: 2024년 1분기 업데이트 스트림 및 알림 개선 사항
 description: 2024년 1분기 업데이트 스트림 및 알림 개선 사항
 author: Lisa
 feature: Product Announcements
-source-git-commit: cc07fee3d98ff67894ed040cc9125b8cf903a09b
+exl-id: 837b5a23-162d-4862-b6fd-be3048ab0269
+source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,11 @@ ht-degree: 0%
 
 이 페이지에서는 미리보기 환경에 대한 2024년 1분기 릴리스의 모든 업데이트 스트림 및 알림 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2024년 1분기 릴리스를 통해 프로덕션 환경에서 사용할 수 있습니다.
 
-2024년 1분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [2024년 1분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+2024년 1분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [2024년 1분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
+## 새로운 댓글 달기 환경에서는 프로젝트, 작업, 문제 및 문서에 대한 모든 정보를 캡처합니다
+
+Workfront 인스턴스가 시작된 이후 프로젝트, 작업, 문제 및 문서는 새 댓글 달기 경험 영역에 모든 업데이트를 표시합니다. 이 개선 이전에는 새로운 댓글 달기 환경에서 2019년 1월부터 이러한 오브젝트에 대한 업데이트만 캡처했습니다.
 
 ## 업데이트 섹션에서 주석 또는 사용자 검색
 

@@ -3,7 +3,8 @@ title: 2024년 1분기 문서 관리 개선 사항
 description: 2024년 1분기 문서 관리 개선 사항
 author: Lisa
 feature: Product Announcements
-source-git-commit: 5c5052798b485a94ee820899ebd5babeded99494
+exl-id: 94fb579a-b5a8-42f1-b98f-05c5ac31d29a
+source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 이 페이지에서는 미리보기 환경에 대한 2024년 1분기 릴리스의 모든 문서 관리 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2024년 1분기 릴리스를 통해 프로덕션 환경에서 사용할 수 있습니다.
 
-2024년 1분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [2024년 1분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+2024년 1분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [2024년 1분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
 ## 문서 검토 및 승인 상태가 문서 헤더에 표시됨
 

@@ -3,13 +3,13 @@ title: 2024년 1분기 릴리스 개요
 description: 2024년 1분기 릴리스 개요
 author: Becky
 feature: Product Announcements
-source-git-commit: e58f502917e0091b046152531bcda0ee9b759b25
+exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
+source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
-
 
 # 2024년 1분기 릴리스 개요
 
@@ -99,6 +99,40 @@ The <add release> release webinar will be held on <date>. You can [register for 
            </tbody>
 </table>
 
+### 홈 개선 사항
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">기능</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">릴리스 날짜</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">내 작업 빠른 작업 버튼이 마우스오버에만 표시되도록 변경됨</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p><p>성능 향상을 위해 이제 내 작업 위젯에서 사용할 수 있는 빠른 작업 버튼이 작업 항목을 마우스로 가리킬 때만 표시됩니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2023년 11월 29일</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">모든 고객을 위한 프로덕션: 2023년 11월 29일</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+           </tbody>
+        </table>
+
 ### 통합 개선 사항
 
 <table>
@@ -164,6 +198,21 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                  </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">새로운 댓글 달기 환경에서는 프로젝트, 작업, 문제 및 문서에 대한 모든 정보를 캡처합니다</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p><p>Workfront 인스턴스가 시작된 이후 프로젝트, 작업, 문제 및 문서는 새 댓글 달기 경험 영역에 모든 업데이트를 표시합니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2023년 11월 28일</p>
+                            </li>
+                            <li>
+                                <p>모든 고객을 위한 프로덕션: 2023년 11월 28일</p>
+                            </li>
+                        </ul>
+                    </td>
+                    </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">업데이트 섹션에서 주석 또는 사용자 검색</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p><p>이제 오브젝트의 업데이트 섹션에서 정보를 빠르게 찾기 위해 댓글에서 키워드나 댓글과 연관된 사용자를 검색할 수 있습니다.</p>
