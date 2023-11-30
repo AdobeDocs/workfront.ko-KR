@@ -8,9 +8,9 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 exl-id: a1603a06-957b-4d52-89f3-f0cec1a4e02c
-source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
+source-git-commit: 15e2869417d8315bf8e96f7d9d537cd70a5e39df
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1204'
 ht-degree: 0%
 
 ---
@@ -32,25 +32,30 @@ ht-degree: 0%
 
 기능을 테스트하려면 Workfront 미리보기 또는 샌드박스 인스턴스에 로그인하고 다음 단계를 수행하십시오.
 
+>[!NOTE]
+>
+><span class="preview">강조 표시된 텍스트</span> 아래는 테스트를 위해 아직 구현되지 않았지만 이후 릴리스에 포함될 기능을 참조합니다.
+>
+
 1. **코디네이터:** Workfront 내에서 `Frame.io alpha testing` 프로젝트 그룹으로 할당된 그룹.
 
-1. **코디네이터:** Workfront 내에서 프로젝트 또는 프레임 활성화 작업에 크리에이티브를 할당하고 프로젝트 상태를 &quot;현재&quot;로 변경합니다.
+1. **코디네이터:** Workfront 내에서 프로젝트에 창의성을 할당합니다 <span class="preview">또는 프레임 사용 작업</span> 프로젝트 상태를 &quot;현재&quot;로 변경합니다.
 
 1. **광고:** 새로 만든 Frame.io 프로젝트에 대한 초대를 위해 이메일을 확인하십시오.
 
 1. **광고:** 초대 이메일의 &quot;프로젝트 참여&quot; 버튼을 클릭하여 Frame.io 프로젝트에 참여하고, 프로젝트 내의 Creative Brief를 검토하고, 선택한 Creative Cloud 도구에서 컨텐츠 생성을 시작합니다.
 
-1. **광고:** 만든 에셋을 Frame.io에 업로드하고 연결된 Workfront 프로젝트(또는 할당된 프레임 사용 작업)에 추가합니다.
+1. **광고:** 만든 에셋을 Frame.io에 업로드하고 연결된 Workfront 프로젝트에 추가합니다. <span class="preview">(또는 할당된 프레임 사용 작업).</span>
 
 1. **코디네이터:** Workfront 내에서 연결된 Frame.io 에셋을 찾아 프로젝트에서 검토자/승인자를 할당합니다(검토자/승인자 할당에 대한 자세한 내용은 다음을 참조하십시오.) [문서에 승인자 또는 검토자 추가](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)).
 
 1. **이해 당사자:** Workfront 내에서 홈 또는 문서 세부 정보에서 승인 요청을 보고 Frame.io 뷰어에서 프레임 연결 문서를 검토한 다음 피드백이 포함된 댓글을 남깁니다.
 
-1. **코디네이터:** Workfront 내에서 Frame.io 연결 문서의 업데이트 섹션 내에서 관련자가 작성한 주석을 확인합니다.
+1. <span class="preview">**코디네이터:** Workfront 내에서 Frame.io 연결 문서의 업데이트 섹션 내에서 관련자가 작성한 주석을 확인합니다.</span>
 
-1. **이해 당사자:** Frame.io 뷰어 내에서 결정합니다.
+1. <span class="preview">**이해 당사자:** Frame.io 뷰어 내에서 결정합니다.</span>
 
-1. **광고:** Frame.io 내에서 자산에 대해 결정된 전반적인 승인 결정을 확인합니다.
+1. <span class="preview">**광고:** Frame.io 내에서 자산에 대해 결정된 전반적인 승인 결정을 확인합니다.</span>
 
 1. **광고:** Frame.io 내에서 업데이트된 버전을 연결된 자산의 버전 스택에 추가하여 요청된 변경 사항을 적용합니다.
 
