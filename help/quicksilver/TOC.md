@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 925e0779d4f3fd32957204ee88df4d61c9395168
+source-git-commit: 7a700709e76105de9a0ad9505ed2db485066af2d
 workflow-type: tm+mt
-source-wordcount: '13425'
+source-wordcount: '13430'
 ht-degree: 1%
 
 ---
@@ -755,7 +755,7 @@ ht-degree: 1%
       * [문서 통합 비활성화](administration-and-setup/configure-integrations/disable-document-integrations.md)
       * [SharePoint 통합 구성](administration-and-setup/configure-integrations/configure-sharepoint-integration.md)
       * [메타데이터 매핑 설정](administration-and-setup/configure-integrations/set-up-metadata-mapping.md)
-      * [[!UICONTROL 만들기 [!DNL Adobe Workfront] 대상 [!DNL Creative Cloud]] 에서 사용자를 위한 패키지 [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
+      * [Adobe Admin Console에서 사용자를 위한 Adobe Workfront Creative Cloud 패키지 만들기](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
       * [Workfront 통합을 위한 OAuth2 애플리케이션 만들기](administration-and-setup/configure-integrations/create-oauth-application.md)
       * [사용자 정의 OAuth2 애플리케이션 보기 및 관리](administration-and-setup/configure-integrations/manage-custom-oauth2-apps.md)
       * [JumpSeat 통합 구성](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)
