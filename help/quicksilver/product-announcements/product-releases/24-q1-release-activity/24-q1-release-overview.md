@@ -4,9 +4,9 @@ description: 2024년 1분기 릴리스 개요
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
+source-git-commit: e46a471ce0d2d7c3a6a95cfc056516555628c150
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '899'
 ht-degree: 0%
 
 ---
@@ -151,7 +151,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">이제 Adobe Experience Manager 통합에서 자동 완성 필드를 사용할 수 있습니다.</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p><p>Workfront과 Adobe Experience Manager 간에 필드를 더 쉽게 연결할 수 있도록 메타데이터 매핑에서 자동 완성 필드에 대한 지원이 추가되었습니다. 이제 자동 완성 필드를 Adobe Experience Manager의 해당 필드에 매핑할 수 있습니다.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">이제 Adobe Experience Manager 통합에서 자동 완성 필드를 사용할 수 있습니다.</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Workfront과 Adobe Experience Manager 간에 필드를 더 쉽게 연결할 수 있도록 메타데이터 매핑에서 자동 완성 필드에 대한 지원이 추가되었습니다. 이제 자동 완성 필드를 Adobe Experience Manager의 해당 필드에 매핑할 수 있습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
@@ -159,7 +159,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>미리보기 릴리스: 2023년 11월 16일</p>
                             </li>
                             <li>
-                                <p><span class="preview">모든 고객을 위한 프로덕션: 2023년 12월 7일</span></p>
+                                <p><span class="preview">모든 고객을 위한 프로덕션: 2023년 11월 29일</span></p>
                             </li>
                         </ul>
                     </td>
