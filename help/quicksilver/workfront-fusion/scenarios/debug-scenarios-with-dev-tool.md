@@ -7,9 +7,9 @@ description: Adobe Workfront Fusion Devtool을 사용하면 시나리오를 이�
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: 27117543df0d2ba0a5c5035c71a3105d7a855345
+source-git-commit: 82ff5d2731c981c89eb02c86d6d6eddc5d87dec7
 workflow-type: tm+mt
-source-wordcount: '1845'
+source-wordcount: '1799'
 ht-degree: 0%
 
 ---
@@ -74,10 +74,6 @@ Adobe 통합 쉘에서 Fusion을 사용하는 경우 시나리오 편집기에�
 
 1. 모듈이 아닌 페이지의 빈 영역을 마우스 오른쪽 버튼으로 클릭합니다.
 1. 선택 **Devtool 열기**.
-
->[!NOTE]
->
->현재는 **라이브 스트림** 및 **시나리오 디버거** Devtool 영역은 통합 환경의 사용자가 사용할 수 있습니다. 다음 **도구** 현재 통합 경험에서 영역을 사용할 수 없습니다.
 
 ### 클래식 Devtool에 액세스 [!DNL Fusion] 경험
 
@@ -193,10 +189,6 @@ Workfront Fusion Devtool은 3개의 기본 섹션으로 나뉩니다. Devtool �
 1. 원하는 작업을 클릭하여 요청 세부 정보를 봅니다.
 
 ### 도구
-
->[!NOTE]
->
->이 영역은 현재 통합 경험 Adobe의 사용자가 사용할 수 없습니다.
 
 다음 [!DNL Workfront Fusion] Devtool은 시나리오를 보다 쉽게 설정할 수 있는 도구를 제공합니다.
 
