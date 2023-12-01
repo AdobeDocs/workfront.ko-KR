@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
+source-git-commit: 3ec1b40ec66b7fa043412203b6c0303a27eb8bfc
 workflow-type: tm+mt
-source-wordcount: '1854'
+source-wordcount: '1864'
 ht-degree: 1%
 
 ---
@@ -260,7 +260,7 @@ Maestro를 위한 프레임워크는 완전히 맞춤화가 가능합니다. 조
 
      ![](assets/table-view-example.png)
 
-   * **타임라인 보기**: 시간 표시 막대에 날짜 필드가 두 개 이상 있는 레코드를 표시합니다.
+   * **타임라인 보기**: 시간 표시 막대에 날짜 유형 필드가 두 개 이상 있는 레코드를 표시합니다.
 
      ![](assets/grouping-applied-in-timeline-view.png)
 
@@ -373,12 +373,8 @@ Maestro를 찾으려면
 | 요청 제출 |                               |                                  | ✓ |
 | 크리에이티브 개요 |                               |                                  | ✓ |
 | 레코드의 색상 및 아이콘 사용자 지정 | ✓ |                                  |                 |
-<!--
-Add another row for Rich text formatting:
-
-
-|     Rich Text formatting for Paragraph fields                                 |      ✓                         |                                  |                 |
--->
+| 레코드에 주석 추가 |                               | ✓ |                 |
+| 단락 필드에 대한 서식 있는 텍스트 서식 | ✓ |                                  |                 |
 
 ## Maestro 릴리스 활동
 
