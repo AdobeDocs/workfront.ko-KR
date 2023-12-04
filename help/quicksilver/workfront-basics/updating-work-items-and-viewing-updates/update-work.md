@@ -6,9 +6,9 @@ description: Adobe Workfront 개체(프로젝트, 작업 또는 문제)에 업�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: fdf4c86ce70402885e109a680ed1b088dcf71f55
+source-git-commit: 97f6e3390a2bf2a4f01c2780561bad80d271f03a
 workflow-type: tm+mt
-source-wordcount: '4005'
+source-wordcount: '4052'
 ht-degree: 1%
 
 ---
@@ -102,7 +102,9 @@ After the monthly releases to Production, the same features are also available i
    * 홈 영역에서(작업 및 문제의 경우)
    * 오브젝트 목록의 요약 패널 또는 타임시트(작업 및 문제용)에서
 
-이 페이지의 정보에서는 Workfront 개체에 댓글을 다는 방법과 프로젝트, 작업 및 문제를 업데이트하는 방법을 설명합니다.
+이 페이지의 정보에서는 Workfront 개체에 댓글을 다는 방법과 댓글을 추가하는 동안 프로젝트, 작업 및 문제를 업데이트하는 방법을 설명합니다.
+
+<!--take this out (below) when we remove legacy out of the application-->
 
 목표에 대한 댓글에 대한 자세한 내용은 을 참조하십시오. [Adobe Workfront 목표의 목표 주석 관리](../../workfront-goals/goal-management/manage-goal-comments.md). Workfront 목표에 액세스하려면 추가 라이선스가 있어야 합니다.
 
@@ -152,17 +154,18 @@ drafted for P&P release:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront 플랜*</strong></td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront 라이센스*</strong></td> 
-   <td> <p>문제 및 문서에 대해 요청 이상, 기타 모든 오브젝트에 대해 검토 이상</p> </td> 
+   <td> <p>문제 및 문서에 대한 요청 이상</p>
+   <p> 기타 모든 객체에 대해 검토 이상</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>액세스 수준 구성*</strong></td> 
    <td> <p>업데이트가 있는 오브젝트에 대한 보기 또는 편집 액세스 권한</p> <p><b>메모</b>
 
-여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td>
+액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader"><strong>개체 권한</strong></td> 
@@ -175,14 +178,29 @@ drafted for P&P release:
 
 ## 작업 항목에 업데이트 추가
 
+작업 항목에 업데이트를 추가하는 방법은 사용하는 업데이트 섹션의 버전에 따라 다릅니다.
+
+다음 개체에 업데이트를 추가할 수 있습니다.
+
+* 프로젝트
+* 작업
+* 문제
+* 프로그램
+* 포트폴리오
+* 템플릿
+* 템플릿 작업
+* 사용자
+* 타임시트
+* 팀
+* 목표
+* 보드 영역의 카드
+* 반복
+
+### 레거시 업데이트 섹션에서 작업 항목에 업데이트 추가
+
 >[!IMPORTANT]
 >
 >이 페이지의 정보에서는 프로젝트, 작업 및 문제를 업데이트하는 방법을 설명합니다.
-
-
-작업 항목에 업데이트를 추가하는 방법은 사용하는 업데이트 섹션의 버전에 따라 다릅니다.
-
-### 레거시 업데이트 섹션에서 작업 항목에 업데이트 추가
 
 1. 업데이트를 제공할 작업 항목(예: 프로젝트, 작업 또는 문제)으로 이동합니다.
 1. 다음을 클릭합니다. **업데이트** 섹션.
