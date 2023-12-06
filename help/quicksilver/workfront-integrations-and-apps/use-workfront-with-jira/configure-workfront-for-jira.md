@@ -6,9 +6,9 @@ description: 다음을 사용할 수 있습니다. [!DNL Adobe Workfront for Jir
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 959adc88-5201-4945-96c4-ea890f0bd371
-source-git-commit: 9ff647ba4eca31e6d2d06a8c9b787badaf965477
+source-git-commit: 4ade799ff735183f83f045e7eaa876961d266208
 workflow-type: tm+mt
-source-wordcount: '2427'
+source-wordcount: '2424'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL [!DNL Adobe Workfront] 플랜]*</td> 
-   <td><p>새 플랜: [!UICONTROL Prime] 이상</p>
+   <td><p>새 플랜: 모두</p>
        <p>또는</p>
        <p>현재 계획: [!UICONTROL Pro] 이상</p>
    </td> 
