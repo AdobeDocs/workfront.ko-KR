@@ -6,9 +6,9 @@ description: Adobe Workfront 개체(프로젝트, 작업 또는 문제)에 업�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 97f6e3390a2bf2a4f01c2780561bad80d271f03a
+source-git-commit: 3ffb6fdebb54682abc737e55186850458a133f7c
 workflow-type: tm+mt
-source-wordcount: '4052'
+source-wordcount: '4073'
 ht-degree: 1%
 
 ---
@@ -206,7 +206,7 @@ drafted for P&P release:
 1. 다음을 클릭합니다. **업데이트** 섹션.
 1. (조건부) 활성화되면 **새 댓글 달기** 업데이트 섹션의 오른쪽 위 모서리에 있는 옵션을 비활성화하여 기존 댓글 달기 경험을 활성화합니다.
 1. 클릭 **새 업데이트 시작,** 그런 다음 업데이트를 입력합니다.
-1. (선택 사항) 컨텐츠를 향상하려면 리치 텍스트 를 사용하거나 이모지, 링크 또는 이미지를 업데이트에 추가하십시오. 자세한 내용은 [Workfront 업데이트에서 리치 텍스트 사용](#use-rich-text-in-a-workfront-update) 이 문서의 섹션.
+1. (선택 사항) 리치 텍스트 도구 모음의 옵션을 사용하여 텍스트 서식을 지정하고, 업데이트에 이모지, 링크 또는 이미지를 추가하여 콘텐츠를 개선합니다. 자세한 내용은 [Workfront 업데이트에서 리치 텍스트 사용](#use-rich-text-in-a-workfront-update) 이 문서의 섹션.
 1. (선택사항) 작업 항목에 대해 다음 정보를 갱신합니다.
 
    <table style="table-layout:auto"> 
@@ -275,7 +275,7 @@ drafted for P&P release:
    * 변경 내용을 취소하려면 CTRL+Z(Mac의 경우 ⌘+z)
    * CTRL+Y(Mac의 경우 ⌘+y) 를 눌러 변경 사항을 재실행합니다
 1. (선택 사항) **사람 또는 팀에 태그 지정** 영역에 이 댓글에 포함할 사용자 또는 팀의 이름 또는 이메일을 입력한 다음 목록에 표시될 때 선택합니다.
-1. (선택 사항) 컨텐츠를 향상하려면 리치 텍스트 를 사용하거나 이모지, 링크 또는 이미지를 업데이트에 추가하십시오. 자세한 내용은 [Workfront 업데이트에서 리치 텍스트 사용](#use-rich-text-in-a-workfront-update) 이 문서의 섹션.
+1. (선택 사항) 리치 텍스트 도구 모음의 옵션을 사용하여 텍스트 서식을 지정하고, 업데이트에 이모지, 링크 또는 이미지를 추가하여 콘텐츠를 개선합니다. 자세한 내용은 [Workfront 업데이트에서 리치 텍스트 사용](#use-rich-text-in-a-workfront-update) 이 문서의 섹션.
 
    >[!TIP]
    >
@@ -291,7 +291,7 @@ drafted for P&P release:
 
    >[!IMPORTANT]
    >
-   >의견을 제출한 후 15일 이내에만 편집할 수 있습니다.
+   >의견을 제출한 후 15분 이내에만 편집할 수 있습니다.
 
 1. 주석의 정보를 편집하거나, 이미지를 추가 또는 제거하거나, 태그 지정된 사용자를 제거합니다. 댓글을 입력했을 때 표시되는 날짜 스탬프 왼쪽에 &quot;편집됨&quot; 표시기가 추가됩니다.
 
@@ -407,11 +407,15 @@ drafted for P&P release:
    1. 아래 **표시할 텍스트**, 링크 텍스트를 입력하거나 붙여넣습니다.
    1. **저장**&#x200B;을 클릭합니다.
 
-1. (선택 사항) <span class="preview">업데이트에 이미지를 첨부하려면 컴퓨터에서 스크린샷을 복사한 다음 주석에 붙여넣습니다 </span>
+1. (선택 사항) 이미지를 업데이트에 첨부하려면 다음 중 하나를 수행합니다.
 
-   또는
+   <!--* <span class="preview">Save the image on our computer, then drag and drop it in the New comment area.</span>
+   <span class="preview">This is not available in the Production environment for the new commenting experience.</span>
+   -->
 
-   다음을 클릭합니다. **이미지 추가** 아이콘 ![](assets/add-image-mountain-with-plus-icon.png) 컴퓨터에서 이미지를 찾습니다.
+   * <span class="preview">컴퓨터에서 스크린샷을 복사한 다음 주석에 붙여넣습니다. </span>
+   * 다음을 클릭합니다. **이미지 추가** 아이콘 ![](assets/add-image-mountain-with-plus-icon.png) 컴퓨터에서 이미지를 찾습니다.
+
 
    >[!NOTE]
    >
