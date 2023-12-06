@@ -6,9 +6,9 @@ description: Adobe Workfront에서 작업을 다른 프로젝트 또는 다른 �
 author: Alina
 feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
 workflow-type: tm+mt
-source-wordcount: '1479'
+source-wordcount: '1488'
 ht-degree: 2%
 
 ---
@@ -35,11 +35,13 @@ Adobe Workfront에서 다음 개체 간에 작업을 이동할 수 있습니다.
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>작업 이상</p> </td> 
+   <td> <p>새 플랜: 표준 </p> 
+ <p>또는</p>  
+<p>현재 플랜: 작업 이상 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
@@ -202,7 +204,7 @@ Adobe Workfront에서 다음 개체 간에 작업을 이동할 수 있습니다.
      <tr> 
       <td role="rowheader">문서</td> 
       <td> <p>작업에 첨부된 문서는 이동된 작업으로 전송되지 않습니다. 여기에는 버전, 증명 및 연결된 문서가 포함됩니다.</p> <p>여기에는 문서 승인이 포함되지 않습니다. 작업을 이동할 때 문서 승인은 이동할 수 없습니다.</p> 
-      <b>메모</b>
+      <b>참고</b>
 
    작업과 함께 문서를 이동하지 않도록 선택하면 문서가 삭제되고 30일 동안 휴지통에 보관됩니다. 관리자는 이를 복원할 수 있으며 이동된 작업에 복원됩니다.
 

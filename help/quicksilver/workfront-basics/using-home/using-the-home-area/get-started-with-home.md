@@ -2,27 +2,27 @@
 content-type: overview
 navigation-topic: use-the-home-area
 title: 시작 [!UICONTROL 홈]
-description: 에서 작업을 보는 방법에는 두 가지가 있습니다. [!UICONTROL 홈] 다음 중 하나에서 영역입니다. [!UICONTROL 작업 목록] 또는 [!UICONTROL 캘린더].
+description: 다음 [!UICONTROL 홈] area는 할당된 작업, 문제 및 승인을 찾기 위한 원스톱 샵입니다. 에서 작업을 보는 방법에는 두 가지가 있습니다. [!UICONTROL 홈] 다음 중 하나에서 영역입니다. [!UICONTROL 작업 목록] 또는 [!UICONTROL 캘린더].
 author: Nolan
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 97f6e3390a2bf2a4f01c2780561bad80d271f03a
+source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1237'
 ht-degree: 0%
 
 ---
 
 # 시작 [!UICONTROL 홈]
 
-이 문서에서는 현재 의 개요를 설명합니다 [!UICONTROL 홈] 영역 [!DNL Adobe Workfront]. 새 작업에서 작업에 대한 정보 [!UICONTROL 홈], 참조 [Adobe Workfront의 새 홈 시작](../new-home/get-started-with-new-home.md).
+이 문서에서는 현재 의 개요를 설명합니다 [!UICONTROL 홈] 영역 [!DNL Adobe Workfront]. 새 작업에서 작업에 대한 정보 [!UICONTROL 홈], 참조 [새 홈 시작](../new-home/get-started-with-new-home.md).
 
 현재 상태에서 작업을 보는 방법에는 두 가지가 있습니다 [!UICONTROL 홈] 영역:
 
 * 다음에서 [!UICONTROL 작업 목록]
 * 다음에서 [!UICONTROL 캘린더].
 
-## 작업 목록
+## [!UICONTROL 작업 목록]
 
 할당된 모든 작업을 [!UICONTROL 작업 목록]:
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 * [에 항목 표시 [!UICONTROL 작업 목록] 다음에서 [!UICONTROL 홈] 영역](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
 * [에서 작업 항목 만들기 [!UICONTROL 홈] 영역](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
 
-## 캘린더
+## [!UICONTROL 캘린더]
 
 작업 항목의 기한이 되었을 때 표시하여 작업을 시각화할 수 있으며, 작업 시간을 차단하여 작업을 완료할 수 있습니다. [!UICONTROL 캘린더] 다음에서 [!UICONTROL 홈] 영역:
 
@@ -59,15 +59,15 @@ ht-degree: 0%
 
 ## 내 작업 찾기
 
-다음 [!UICONTROL 홈] area는 할당된 작업, 문제 및 승인을 찾기 위한 원스톱 샵입니다. 필터 및 정렬 옵션은 [!UICONTROL 홈] 영역은 여러분이 원하는 방식으로 작업할 수 있도록 지원하기 위해 함께 협력합니다. 다음을 사용할 수 있습니다. [!UICONTROL 정렬 기준:] 옵션을 사용하여 항목을 함께 그룹화한 다음 필터를 사용하여 완료해야 하는 작업에 집중합니다.
+다음 [!UICONTROL 홈] area는 할당된 작업, 문제 및 승인을 찾기 위한 원스톱 샵입니다. 필터, 그룹화 및 정렬 옵션은 함께 작동하여 원하는 방식으로 작업 항목을 구성할 수 있습니다. 그룹화를 사용하여 항목을 함께 그룹화하고, 필터를 사용하여 완료해야 하는 작업에 초점을 맞추고, 마지막으로 정렬을 사용하여 항목을 그룹화의 오름차순 또는 내림차순으로 나열할 수 있습니다.
 
 >[!NOTE]
 >
 >필터 및 정렬 옵션은 브라우저에 저장됩니다. 동일한 컴퓨터에서 동일한 브라우저를 일관되게 사용하는 경우(그리고 사이트 데이터를 지우지 않는 경우) 필터 및 정렬은 변경되지 않지만 브라우저나 컴퓨터를 전환하는 경우 필터 및 정렬은 달라집니다.
 
-### 유사한 작업 항목을 &#39;[!UICONTROL 그룹화 기준]&#39; 옵션
+### 그룹화를 사용하여 유사한 작업 항목 그룹화
 
-다음 [!UICONTROL 정렬 기준:] 옵션을 사용하면 작업 목록에서 같은 항목을 그룹화할 수 있습니다. 다음을 기준으로 정렬할 수 있습니다.
+그룹화를 사용하여 작업 목록의 공통 헤더 아래에 유사 항목을 표시할 수 있습니다. 다음과 같은 방법으로 항목을 그룹화할 수 있습니다.
 
 * [!UICONTROL 계획된 완료]
 * [!UICONTROL 계획된 시작]
@@ -93,21 +93,17 @@ ht-degree: 0%
 
   예를 들어 다음을 선택할 수 있습니다 [!UICONTROL 문제] 모든 상태의 모든 문제를 보려면 ([!UICONTROL 작업 중] 또는 [!UICONTROL 요청됨]), 또는 [!UICONTROL 승인] 모든 작업 항목을 보려면 액세스 요청, 타임시트, 문서 및 증명 승인을 받으십시오.
 
-* 상태로만 필터링합니다.
-
-  예를 들어 [!UICONTROL 완료됨] 완료된 작업 및 문제를 표시하도록 필터링합니다. 여기에는 개인 작업이 포함되지만 승인에는 포함되지 않습니다.
-
 필터 사용 방법에 대한 자세한 내용은 [에 항목 표시 [!UICONTROL 작업 목록] 다음에서 [!UICONTROL 홈] 영역](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
 ![](assets/displaying-work-items-filters-nwe-350x401.png)
 
 ### 내 팀에 할당된 액세스 작업
 
-다음 [!UICONTROL 홈] 영역에는 팀의 요청 페이지에 대한 직접 링크와 함께 팀 요청 전용 영구 그룹화가 있습니다. 이 그룹화를 사용하여 진행 중인 모든 팀에 대한 요청을 보고 액세스할 수 있습니다.
+다음 [!UICONTROL 홈] 영역에 영구 그룹화([!UICONTROL 팀 요청])을 클릭하여 팀에 할당된 작업 및 문제를 표시합니다. 이 섹션에는 팀이 표시됩니다. 팀 이름을 클릭하면 해당 팀의 팀 요청 페이지가 열립니다.
 
 >[!NOTE]
 >
->다음 [!UICONTROL 필터] 및 [!UICONTROL 정렬 기준:] 옵션은 [!UICONTROL 팀 요청] 그룹화. 이 그룹화는 팀에 할당된 작업이 있는 한 볼 수 있습니다.
+>필터 및 정렬 옵션은 [!UICONTROL 팀 요청] 그룹화. 이 그룹화는 팀에 할당된 작업이 있는 한 볼 수 있습니다.
 
 팀 요청 액세스에 대한 자세한 내용은 문서 를 참조하십시오 [[!UICONTROL 관리] 의 작업 및 팀 요청 [!UICONTROL 홈] 영역](../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md).
 
@@ -115,19 +111,19 @@ ht-degree: 0%
 
 ### 제출한 작업 모니터링
 
-승인을 위해 제출한 작업을에서 직접 추적합니다. [!UICONTROL 작업 목록]. 승인자에게 승인이 필요한 작업을 알려 줄 수 있습니다. 필요한 경우 승인을 회수할 수도 있습니다.
+승인을 위해 제출한 작업을에서 직접 추적합니다. [!UICONTROL 작업 목록]. 다음에 대한 영구 그룹화가 있습니다. [!UICONTROL 내가 제출한 승인] 을(를) 보려고 선택한 경우 [!UICONTROL 승인] 다음에서 [!UICONTROL 작업 목록]. 승인자에게 승인이 필요한 작업을 알려 줄 수 있습니다. 필요한 경우 승인을 회수할 수도 있습니다.
 
 >[!NOTE]
 >
->다음 [!UICONTROL 필터] 및 [!UICONTROL 정렬 기준:] 옵션은 [!UICONTROL 내가 제출한 승인] 그룹화. 승인 대기 중인 작업이 있는 한 이 그룹화가 표시됩니다.
-
-
+>필터 및 정렬은 [!UICONTROL 내가 제출한 승인] 그룹화. 승인 대기 중인 작업이 있는 한 이 그룹화가 표시됩니다.
+>
+>의 승인 수 [!UICONTROL 승인] 필터는 승인을 위해 제출한 항목의 수를 표시하지 않습니다. 다음 [!UICONTROL 승인] 필터는 승인 대기 중인 항목만 표시합니다.
 
 ![](assets/approvals-expanded-home-group-by-drop-down-nwe-350x415.png)
 
 ## 본인에게 중요한 것에 우선 순위 지정
 
-다음 [!UICONTROL 작업 목록] 을(를) 통해 자신에게 중요한 작업을 표시하고 우선 순위를 지정할 수 있습니다. [!UICONTROL 내 우선 순위 정렬 기준] 옵션을 선택합니다. 에 최대 20개의 항목을 추가할 수 있습니다. [!UICONTROL 내 우선 순위] 목록을 표시합니다. 사용 [!UICONTROL 자세히] 작업 항목을 우선순위 목록에 추가하는 메뉴.
+다음 [!UICONTROL 작업 목록] 을(를) 통해 자신에게 중요한 작업을 표시하고 우선 순위를 지정할 수 있습니다. [!UICONTROL 내 우선 순위] 그룹화. 에 최대 20개의 항목을 추가할 수 있습니다. [!UICONTROL 내 우선 순위] 목록을 표시합니다.
 
 >[!NOTE]
 >
@@ -139,34 +135,31 @@ ht-degree: 0%
 
 ## 완료
 
-에서 오른쪽 패널 사용 [!UICONTROL 홈] 작업을 업데이트하고 완료합니다.
+에서 항목의 이름을 클릭한 후 [!UICONTROL 작업 목록], 의 오른쪽 패널 사용 [!UICONTROL 홈] 작업을 업데이트하고 완료합니다.
 
 ### 사용자 지정된 공간에서 작업
 
-사용자 [!DNL Adobe Workfront] 관리자는 필요한 정보를 더 쉽게 찾고 업데이트할 수 있도록 최대 16개의 사용자 정의 필드를 추가할 수 있습니다. 대부분의 필드는 편집할 수 있으므로 작업 항목으로 이동할 필요가 없습니다.
+사용자 [!DNL Workfront] 관리자는 의 항목에 최대 16개의 사용자 정의 필드를 추가할 수 있습니다. [!UICONTROL 작업 목록]필요한 정보를 쉽게 찾고 업데이트할 수 있습니다. 대부분의 필드는 편집할 수 있으므로 작업 항목으로 이동할 필요가 없습니다.
 
-이 영역의 필드를 업데이트하려면 필드를 클릭하면 됩니다.
+이 영역의 필드를 업데이트하려면 필드를 클릭하면 됩니다. 필드를 편집할 수 있는 경우 오른쪽 패널에서 수정할 수 있습니다.
 
 >[!NOTE]
 >
->다음 항목을 업데이트할 수 없습니다. [!UICONTROL 커밋 일자] 이 지역에서요.
+>다음 항목을 업데이트할 수 없습니다. [!UICONTROL 커밋 일자] 이 필드가 레이아웃 템플릿의 작업 항목에 추가된 경우
 
 ![](assets/16-fields-home-350x137.png)
 
-### 중요한 정보로 동료 업데이트
+### 다른 사용자에게 중요한 정보 업데이트
 
-의 동료와 신속하고 효율적으로 의사 소통 [!UICONTROL 홈] 영역입니다. 동료에게 질문하거나 최근 업데이트를 알리거나 댓글에 직접 답글을 달 수 있습니다. 또한 다음과 같은 방법으로 진행 상황에 대한 다른 정보를 업데이트할 수 있습니다.
+에서 다른 사용자와 신속하고 효율적으로 의사 소통 [!UICONTROL 홈] 영역입니다. 작업 항목의 댓글 달기 영역을 사용하여 질문을 하거나 다른 사용자에게 최근 업데이트를 알리거나 의 직접 의견에 답글을 달 수 있습니다. [!UICONTROL 홈] 영역입니다. 또한 다음과 같은 방법으로 진행 상황에 대한 다른 정보를 업데이트할 수 있습니다.
 
-* 업데이트 중 [!UICONTROL 커밋 일자]
+* 업데이트 중 [!UICONTROL 커밋 일자] 주석 영역 내
 
-  <!--
-  <note type="note">
-  This is the only place you can update the Commit Date in Home.
-  <br>
-  </note>
-  -->
+  >[!NOTE]
+  >
+  >   홈에서 커밋 일자를 갱신할 수 있는 유일한 위치입니다.
 
-* 진행 상황에 대한 의견 보고
+* 댓글을 추가하거나 업데이트를 통해 진행 상황을 보고하는 방법 [!UICONTROL 조건] 개 항목 중
 * 완료율 막대 업데이트
 
 에서 통신하는 방법에 대한 자세한 내용은 [!UICONTROL 홈] 영역, 참조 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
+source-git-commit: 98b57b08b87e47a402684428a76576455df664d7
 workflow-type: tm+mt
-source-wordcount: '1762'
+source-wordcount: '1784'
 ht-degree: 0%
 
 ---
@@ -84,19 +84,19 @@ Adobe Maestro를 사용하여 조직에 필요한 레코드 유형이 포함된 
   <tr>
    <td role="rowheader"><p>Adobe Workfront 플랜</p></td>
    <td>
-<p>모든</p>
+<p>임의</p>
    </td>
   </tr>
   <tr>
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td>
    <td>
-   <p>모든</p> 
+   <p>임의</p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader">액세스 수준</td>
-   <td> <p>모든</p>  
+   <td> <p>임의</p>  
 </td>
   </tr>
 <tr>
@@ -173,7 +173,10 @@ After permssions - replace the table with:
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
+
 ## 레코드 유형 연결에 대한 고려 사항
+
+다음 사항을 고려하십시오.
 
 * Maestro에서 다음 엔티티를 연결할 수 있습니다.
 
@@ -219,7 +222,7 @@ After permssions - replace the table with:
 
 <!--when changes here, also update the article for "Connect records"-->
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-workfront.png) Workfront의 오른쪽 위 모서리 또는 **메인 메뉴** 아이콘 ![](assets/main-menu-shell.png)  왼쪽 위 모서리에서 사용 가능한 경우 을(를) 클릭합니다. **마에스트로** ![](assets/maestro-icon.png).
+1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](assets/dots-main-menu.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](assets/lines-main-menu.png) 왼쪽 상단 모서리에서 을(를) 클릭하고 **[!UICONTROL 마에스트로]**.
 
    기본적으로 마지막으로 액세스한 작업 영역이 열립니다.
 
@@ -252,7 +255,7 @@ After permssions - replace the table with:
    * **여러 레코드 허용**: 이 옵션을 선택하면 연결된 레코드 유형 필드가 원본 레코드에 표시될 때 사용자가 여러 레코드를 추가할 수 있음을 나타냅니다. 이 옵션은 기본적으로 선택되어 있습니다.
    * **조회 필드 선택**: 선택한 레코드 유형에서 필드를 추가하려면 이 옵션을 선택합니다. 이 옵션은 기본적으로 선택되어 있습니다.
 
-1. Click **Create**.
+1. 클릭 **만들기**.
 
 1. (조건부) 이전 단계에서 조회 필드 선택 설정을 선택한 경우 **조회 필드 추가** 상자가 열립니다.
 

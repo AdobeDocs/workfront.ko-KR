@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 66a4a1e11ff04008d1d0c77fbd6887e8f5f1c46b
+source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '813'
 ht-degree: 1%
 
 ---
@@ -51,19 +51,19 @@ Adobe 마에스트로에서 레코드 정보를 편집할 수 있습니다. 레�
   <tr>
    <td role="rowheader"><p>Adobe Workfront 플랜</p></td>
    <td>
-<p>모든</p>
+<p>임의</p>
    </td>
   </tr>
   <tr>
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td>
    <td>
-   <p>모든</p> 
+   <p>임의</p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader">액세스 수준</td>
-   <td> <p>모든</p>  
+   <td> <p>임의</p>  
 </td>
   </tr>
 <tr>
@@ -217,7 +217,7 @@ After permssions - replace the table with:
    >  * 생성자, 생성일, 마지막 수정자, 마지막 수정자 유형의 필드
 
 
-1. (선택 사항) 필드의 기존 값을 복사한 다음, 다른 레코드에서 동일한 유형의 필드에 붙여 넣은 다음 을 클릭합니다 **입력** 키보드에서 을(를) 클릭하여 변경 내용을 저장합니다.
+1. (선택 사항) 필드의 기존 값을 하나 또는 여러 개 복사한 다음 다른 레코드의 같은 유형 필드에 붙여넣은 다음 **입력** 키보드에서 을(를) 클릭하여 변경 내용을 저장합니다.
 
    >[!NOTE]
    >
@@ -229,10 +229,7 @@ After permssions - replace the table with:
    >* 다음 필드 유형에 대한 필드 값을 복사하여 붙여넣을 수 없습니다.
    ><ul>
    >
-   > * 사용자
-   >
    > * 시스템 필드
-   >
-   > * 레코드 연결 결과로 생성된 연결된 필드
+
 
    <!--take People out of the list above when they release this - this might be coming later-->
