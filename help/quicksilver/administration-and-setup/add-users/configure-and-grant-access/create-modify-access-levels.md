@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: b3869a9339cf1c0aedd7dcd00cc679fb4717b2db
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
 source-wordcount: '1402'
 ht-degree: 6%
@@ -38,13 +38,13 @@ Adobe Workfront 관리자는 사용자 정의 액세스 수준을 만들고 사�
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td>모든</td> 
+   <td>임의</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td>현재 플랜: 표준
+   <td>새 플랜: 표준
    <p>또는</p>
-   <p>레거시 플랜: 플랜</p></td> 
+   <p>현재 플랜: 플랜</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 

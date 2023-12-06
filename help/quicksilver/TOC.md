@@ -3,10 +3,10 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 2ed1d2df76f27ef6e2fe2c9612f8cdf867ed994d
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
-source-wordcount: '13442'
-ht-degree: 1%
+source-wordcount: '13775'
+ht-degree: 0%
 
 ---
 
@@ -544,7 +544,7 @@ ht-degree: 1%
          * [레이아웃 템플릿에 대한 관리 액세스](administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
          * [레이아웃 템플릿에 사용자 할당](administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
          * [레이아웃 템플릿 복사](administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)
-         * [API 호출을 사용하여 클래식 레이아웃 템플릿을 삭제합니다](administration-and-setup/customize-workfront/use-layout-templates/delete-classic-layout-templates.md)
+         * [API 호출을 사용하여 클래식 레이아웃 템플릿 삭제](administration-and-setup/customize-workfront/use-layout-templates/delete-classic-layout-templates.md)
       * 사용자 정의 양식 {#custom-forms}
          * [사용자 정의 양식](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
          * [사용자 정의 양식 개요](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
@@ -800,7 +800,7 @@ ht-degree: 1%
       * [공유에 두 개 이상의 권한이 표시됨](administration-and-setup/tips-tricks-and-troubleshooting/sharing-shows-more-than-1-permission.md)
       * [인증되지 않은 이메일이 승인되지 않음](administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)
       * [사용자 자격 증명과 SAML 자격 증명 비교](administration-and-setup/tips-tricks-and-troubleshooting/wf-user-credentials-vs-saml-user-credentials.md)
-      * [액세스 수준에서 자동 업그레이드 옵션 업데이트](administration-and-setup/tips-tricks-and-troubleshooting/update-auto-upgrade-in-access-levels.md)
+      * [액세스 수준의 자동 업그레이드 옵션 업데이트](administration-and-setup/tips-tricks-and-troubleshooting/update-auto-upgrade-in-access-levels.md)
 * Adobe Workfront 기본 사항 {#basics}
    * [Adobe Workfront 기본 사항](workfront-basics/workfront-basics.md)
    * [Adobe Workfront 용어 목록](workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
@@ -1156,7 +1156,7 @@ ht-degree: 1%
       * 프로젝트 만들기 {#create-projects}
          * [프로젝트 만들기](manage-work/projects/create-projects/create-projects-overview.md)
          * [프로젝트 만들기](manage-work/projects/create-projects/create-project.md)
-         * [프로젝트를 요청합니다](manage-work/projects/create-projects/request-project.md)
+         * [프로젝트 요청](manage-work/projects/create-projects/request-project.md)
          * [템플릿을 사용하여 프로젝트 만들기](manage-work/projects/create-projects/create-project-from-template.md)
          * [Microsoft 프로젝트에서 프로젝트 가져오기](manage-work/projects/create-projects/import-project-from-ms-project.md)
          * [프로젝트 기준선 만들기](manage-work/projects/create-projects/create-baselines.md)
@@ -1393,7 +1393,7 @@ ht-degree: 1%
          * [작업 목록 간트 차트에서 정보 업데이트](manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)
          * [간트 차트에서 리소스 레벨링](manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md)
          * [간트 차트를 PDF으로 내보내기](manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)
-   * 포트폴리오 관리 {#portfolio-management}
+   * Portfolio 관리 {#portfolio-management}
       * [포트폴리오 관리](manage-work/portfolios/portfolio-management-overview.md)
       * Adobe Workfront의 Portfolio 개요 {#portfolio-overview-in-adobe-workfront}
          * [포트폴리오](manage-work/portfolios/portfolios-overview/portfolio-overview-1.md)
@@ -2338,8 +2338,8 @@ ht-degree: 1%
       * [Adobe Workfront 프로젝트에 Anaplan 예산 할당 적용](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
       * [Adobe Workfront 캠페인 요청에서 Anaplan 목록 항목 만들기](workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
       * [Adobe Workfront 캠페인 요청 또는 캠페인 프로젝트에 Anaplan 예산 할당 적용](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
-* Workfront Proof {#workfront-proof}
-   * [Workfront Proof](workfront-proof/workfront-proof.md)
+* Workfront 증명 {#workfront-proof}
+   * [Workfront 증명: 문서 색인](workfront-proof/workfront-proof.md)
    * Workfront 증명 시작 {#get-started-wf-proof}
       * [Workfront 증명 시작하기](workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md)
       * 워크플로 예 {#workflow-examples}

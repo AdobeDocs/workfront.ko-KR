@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 85afa798eacb297ad4e5fd3a92277e307eea5a97
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
-source-wordcount: '4908'
+source-wordcount: '4918'
 ht-degree: 4%
 
 ---
@@ -29,14 +29,14 @@ ht-degree: 4%
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Adobe Workfront 플랜*</p> </td> 
-   <td>모든</td> 
+   <td>임의</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
    <td>
-   <p>현재 플랜: 표준</p>
+   <p>새 플랜: 표준</p>
    <p>또는</p>
-   <p>레거시 플랜: 플랜</p></td> 
+   <p>현재 플랜: 플랜</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">액세스 수준 구성*</td> 
@@ -196,7 +196,7 @@ ht-degree: 4%
     </tr>
     <tr>
     <td>포맷</td>
-    <td><p>사용자 정의 필드에 캡처할 데이터 유형을 선택합니다.</p> <p><b>메모</b>:   
+    <td><p>사용자 정의 필드에 캡처할 데이터 유형을 선택합니다.</p> <p><b>참고</b>:   
     <ul> 
     <li>양식을 저장한 후에는 이 필드를 편집할 수 없습니다. 수학 계산에서 필드를 사용하려면 숫자 또는 통화 형식을 선택해야 합니다.<br></li> 
     <li>숫자 또는 통화를 선택하면 0으로 시작하는 숫자가 자동으로 잘립니다.</li> 
@@ -313,7 +313,7 @@ ht-degree: 4%
     </tr> 
     <tr> 
     <td role="rowheader">포맷</td> 
-    <td> <p>사용자 정의 필드에 캡처할 데이터 유형을 선택합니다.</p> <p><b>메모</b>:   
+    <td> <p>사용자 정의 필드에 캡처할 데이터 유형을 선택합니다.</p> <p><b>참고</b>:   
      <ul> 
     <li>양식을 저장한 후에는 이 필드를 편집할 수 없습니다. 수학 계산에서 필드를 사용하려면 숫자 또는 통화 형식을 선택해야 합니다.<br></li> 
     <li>숫자 또는 통화를 선택하면 0으로 시작하는 숫자가 자동으로 잘립니다.</li> 
@@ -462,7 +462,7 @@ ht-degree: 4%
      </tr> 
      <tr> 
       <td role="rowheader">참조 오브젝트 유형</td> 
-      <td> <p>필드와 연결할 객체 유형을 선택합니다.</p> <p>적용 또는 저장+닫기를 클릭하면 필드의 오브젝트 유형을 변경할 수 없습니다.</p> <p><b>메모</b>:   
+      <td> <p>필드와 연결할 객체 유형을 선택합니다.</p> <p>적용 또는 저장+닫기를 클릭하면 필드의 오브젝트 유형을 변경할 수 없습니다.</p> <p><b>참고</b>:   
         <ul> 
          <li>Workfront 관리자가 Workfront 사용자 인터페이스에서 Portfolio, 프로그램 또는 프로젝트 이름을 사용자 지정한 경우 개체의 기본 Workfront 이름이 사용자 지정된 이름이 아니라 이 드롭다운 목록에 표시됩니다. 이에 대한 도움이 필요한 경우 Workfront 관리자에게 문의하십시오.<br></li> 
          <li>iOS 및 Android Workfront Mobile 앱에서는 사용자, 회사, 그룹, 작업 역할, Portfolio, 프로그램, 프로젝트 및 템플릿과 같은 오브젝트 유형이 지원됩니다.</li> 
@@ -529,7 +529,7 @@ ht-degree: 4%
      <tr> 
       <td role="rowheader">포맷</td>
       <td><p>사용자 정의 필드에 캡처할 데이터 유형을 선택합니다.</p>
-      <p><strong>메모:</strong></p>
+      <p><strong>참고:</strong></p>
       <ul><li>양식을 저장한 후 형식 유형을 변경할 수 있습니다. 한 가지 제한 사항은 개체의 기존 모든 값을 새 유형으로 변환할 수 있어야 한다는 것입니다. (예를 들어, 형식 유형이 텍스트이고 객체가 "abc" 값을 저장하는 경우 필드를 변환할 수 없으며 "abc"를 숫자/통화로 변환할 수 없다는 오류가 발생합니다.) 수학 계산에서 필드를 사용하려면 숫자 또는 통화 형식을 선택해야 합니다.</li>
       <li>숫자 또는 통화를 선택하면 0으로 시작하는 숫자가 자동으로 잘립니다.</li></ul></td>
      </tr> 

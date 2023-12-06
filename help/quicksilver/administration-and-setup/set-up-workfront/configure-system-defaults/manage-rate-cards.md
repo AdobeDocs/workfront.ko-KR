@@ -7,9 +7,10 @@ description: 요금 카드를 사용하면 위치에 따라 역할당 여러 청
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 961e0451ce9011a8a9f511d7d5da99368d22d6fb
+exl-id: 3972f498-c461-4535-82c6-ad1b60d3ed86
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
@@ -30,12 +31,14 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
-   <td>모든</td> 
+   <td>임의</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
-   <td><p>기존 계획: [!UICONTROL 계획]</p>
-       <p>현재 계획: [!UICONTROL Standard]</p></td> 
+   <td><p>새 플랜: [!UICONTROL Standard] </p>
+       <p>또는</p> 
+       <p>현재 계획: [!UICONTROL 계획] </p>
+   </td>    
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 

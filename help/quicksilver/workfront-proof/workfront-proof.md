@@ -3,20 +3,20 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: workfront-proof-navigation-topic
-title: Workfront Proof
-description: Workfront Proof 사용 방법을 알아봅니다.
+title: "Workfront 증명: 문서 색인"
+description: Workfront Proof 독립 실행형 제품을 사용하는 방법을 알아봅니다.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: f9c782b7-23dc-4fde-83e1-b7ef71a3b741
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 6%
+source-wordcount: '68'
+ht-degree: 0%
 
 ---
 
-# Workfront Proof
+# Workfront 증명: 문서 색인
 
 >[!IMPORTANT]
 >
@@ -31,6 +31,5 @@ ht-degree: 6%
 * [증명 알림 및 미리 알림](../workfront-proof/wp-emailsntfctns/wp-emails-and-notifications.md)
 * [이메일 경고](../workfront-proof/wp-emailsntfctns/email-alerts/email-alerts.md)
 * [에서 사용자 및 연락처 관리 [!DNL Workfront Proof]](../workfront-proof/wp-mnguserscontacts/manage-user-contacts.md)
-* [[!DNL Workfront Proof] 모바일](../workfront-proof/wp-mobile/wp-mobile.md)
 * [[!DNL Workfront Proof] 기술 코너](../workfront-proof/wp-tech-corner/tech-corner.md)
 * [[!DNL Workfront Proof] 통합](../workfront-proof/wp-integrations/wp-integrations.md)

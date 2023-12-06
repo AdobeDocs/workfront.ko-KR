@@ -9,10 +9,10 @@ description: Workfront에 로그인하고 작업하려면 모든 사용자에게
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-exl-id: 1ff727f1-bc26-4ffe-a510-615bebfe5b96
-source-git-commit: 8807636d2309435cb5f4e08d6a7d27246342200d
+exl-id: 58c76187-fc74-4ab4-80e8-c3e296a84f27
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '205'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,6 @@ ht-degree: 1%
 >
 >비활성화되면 할당된 결정 수를 초과하는 비유료 사용자는 자동으로 업그레이드되지 않습니다.
 
-
 ## 액세스 요구 사항
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
@@ -38,13 +37,13 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td>모든</td> 
+   <td>임의</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td>현재 플랜: 표준
+   <td>새 플랜: 표준
    <p>또는</p>
-   <p>레거시 플랜: 플랜</p></td> 
+   <p>현재 플랜: 플랜</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 

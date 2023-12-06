@@ -8,7 +8,7 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8c49c2c8-4056-46a2-9ede-efb91ff237e5
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
@@ -29,14 +29,14 @@ ht-degree: 0%
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Adobe Workfront 플랜*</p> </td> 
-   <td>모든</td> 
+   <td>임의</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
    <td>
-   <p>현재 플랜: 표준</p>
+   <p>새 플랜: 표준</p>
    <p>또는</p>
-   <p>레거시 플랜: 플랜</p></td> 
+   <p>현재 플랜: 플랜</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">액세스 수준 구성*</td> 

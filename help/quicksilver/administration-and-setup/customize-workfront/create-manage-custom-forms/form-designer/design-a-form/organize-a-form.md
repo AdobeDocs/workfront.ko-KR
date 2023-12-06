@@ -8,7 +8,7 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 961e0451ce9011a8a9f511d7d5da99368d22d6fb
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
 source-wordcount: '1113'
 ht-degree: 0%
@@ -29,14 +29,14 @@ ht-degree: 0%
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Adobe Workfront 플랜*</p> </td> 
-   <td>모든</td> 
+   <td>임의</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
    <td>
-   <p>현재 플랜: 표준</p>
+   <p>새 플랜: 표준</p>
    <p>또는</p>
-   <p>레거시 플랜: 플랜</p></td> 
+   <p>현재 플랜: 플랜</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">액세스 수준 구성*</td> 
@@ -105,7 +105,7 @@ ht-degree: 0%
          </ul> </li> 
        </ul> 
        <p>개체의 사용 권한에 대한 자세한 내용은 <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">오브젝트에 대한 공유 권한 개요</a>.</p> 
-       <p><b>메모</b>:  
+       <p><b>참고</b>:  
        <ul> 
        <li> <p>여기에서 지정한 권한이 없는 사용자는 섹션에서 사용자 정의 필드 및 위젯을 볼 수 없습니다. </p> <p>이는 보고서의 필드 값을 표시하거나 텍스트 모드 보고의 계산된 필드에서 사용하는 경우에도 마찬가지입니다.</p> </li> 
        <li> <p>여러 객체 유형을 양식과 연결하면 다음 단계에서 사용할 수 있는 보기 및 편집 권한이 변경될 수 있습니다. 자세한 내용은 <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">여러 오브젝트 유형이 사용자 정의 양식의 섹션 구분 권한에 영향을 주는 방법</a> 이 문서에서.</p> </li> 
