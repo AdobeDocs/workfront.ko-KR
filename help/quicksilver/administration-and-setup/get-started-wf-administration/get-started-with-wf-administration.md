@@ -3,21 +3,23 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: set-up-workfront
-title: Adobe Workfront 관리 시작
-description: 조직의 Workfront 시스템 기본값, 타임시트 및 일정, 조직 설정, 시스템 추적 업데이트 정보 및 테스트 환경을 구성할 수 있습니다
-author: Caroline
+title: "Adobe Workfront 관리 시작: 문서 인덱스"
+description: 이 섹션에서는 Adobe Workfront의 최초 설정에 대한 정보 및 지침과 Workfront 관리자로서 필요한 정보를 찾을 수 있습니다.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8d5497fa-3432-4188-ad71-92ab91cd19fa
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: 3d2124260b041ec7566f0873a57514d84c5f7025
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
 
-# Adobe Workfront 관리 시작
+# Adobe Workfront 관리 시작: 문서 색인
+
+이 섹션에서는 Adobe Workfront의 최초 설정에 대한 정보 및 지침과 Workfront 관리자로서 필요한 정보를 찾을 수 있습니다.
 
 이 섹션에는 다음 문서가 포함됩니다.
 

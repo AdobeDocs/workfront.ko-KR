@@ -3,14 +3,14 @@ title: 구성 [!DNL SharePoint] 통합
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
-description: 다음을 통합할 수 있습니다. [!DNL Workfront] 포함 [!DNL SharePoint] 온라인 - 사용자에게 탐색, 링크 및 추가 기능 제공 [!DNL SharePoint] Workfront 내의 문서입니다. 제공된 기능은 다른 기능과 유사합니다 [!DNL Workfront] Google Drive, Box 및 Dropbox 등의 통합
-author: Becky, Caroline
+description: 다음을 통합할 수 있습니다. [!DNL Workfront] 포함 [!DNL SharePoint] 온라인 - 사용자에게 탐색, 링크 및 추가 기능 제공 [!DNL SharePoint] Workfront 내의 문서입니다. 제공된 기능은 다른 기능과 유사합니다 [!DNL Workfront] 문서 통합.
+author: Becky
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 3fafc4d782e518d774e981c2e37f9a5f1595edb1
+source-git-commit: 3cc1745b33d645d37248185b4163a39c1bead60e
 workflow-type: tm+mt
-source-wordcount: '1572'
+source-wordcount: '1588'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
-   <td>모든</td> 
+   <td>임의</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
@@ -55,7 +55,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>다음이어야 합니다: [!DNL Workfront] 관리자. 다음에 대한 정보: [!DNL Workfront] 관리자, 참조 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">사용자에게 전체 관리 액세스 권한 부여</a>.</p> </td> 
+   <td>다음이어야 합니다: [!DNL Workfront] 관리자. 다음에 대한 정보: [!DNL Workfront] 관리자, 참조 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">사용자에게 전체 관리 액세스 권한 부여</a>. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 ## 전제 조건
 
-에서 필요한 액세스 또는 권한이 있어야 합니다. [!DNL SharePoint] 조직의 를 수정하거나 구성하려면 [!DNL SharePoint].
+에서 필요한 액세스 또는 권한이 있어야 합니다. [!DNL SharePoint] 을(를) 수정하거나 구성하려면 [!DNL SharePoint] 통합.
 
 ## 새로운 SharePoint 통합을 통해 문서 연결
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 ### SharePoint에서 문서 연결
 
-SharePoint의 문서를 새 페이지를 통해 연결하는 방법에 대한 지침 [!DNL SharePoint] 통합, 참조 [외부 문서 연결 대상 [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#link-an-external-document-to-workfront)
+SharePoint의 문서를 새 페이지를 통해 연결하는 방법에 대한 지침 [!DNL SharePoint] 통합, 참조 [외부 문서 연결 대상 [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#link-an-external-document-to-workfront).
 
 ### SharePoint에 문서 보내기
 
@@ -121,10 +121,7 @@ SharePoint으로 문서를 전송하려면 다음 작업을 수행하십시오.
 | 액세스 권한을 부여한 데이터에 대한 액세스 유지 | 허용 [!DNL Workfront] 새로 고침 토큰을 생성합니다. |
 | 로그인 및 사용자 프로필 읽기 | 허용 [!DNL Workfront] OAuth2 로그인 플로우를 통해 액세스 토큰을 사용하여 사용자를 대신하여 작업을 수행합니다. |
 
-이 액세스 권한은 사용자가 통합을 처음 사용할 때 부여되며 언제든지 취소할 수 있습니다.
-
-액세스 권한과 관련하여 다음 사항을 고려하십시오. [!DNL SharePoint] 다음을 통해 [!DNL Workfront] [!DNL SharePoint] 통합:
-
+* 이 액세스 권한은 사용자가 통합을 처음 사용할 때 부여되며 언제든지 취소할 수 있습니다.
 * 이 통합에 대해 요청된 권한은 다음과 같습니다. **위임됨** 사용 권한.
 * [!DNL Workfront] 는 통합에서 작업을 수행하는 데 필요한 최소 액세스를 요청합니다.
 * 보기, 편집 또는 삭제 액세스 권한 [!DNL Adobe Workfront] 문서 연결 대상 [!DNL SharePoint] 에서 사용자의 액세스 권한을 기반으로 합니다. [!DNL Workfront]. 단, 탐색, 다운로드 또는 편집 [!DNL SharePoint] 파일 또는 폴더에 대한 액세스 권한 필요 [!DNL SharePoint], 그리고 이러한 작업에 대한 액세스는 [!DNL SharePoint].
@@ -143,24 +140,25 @@ SharePoint으로 문서를 전송하려면 다음 작업을 수행하십시오.
 
 사용자가 레거시를 통해 Workfront에 연결된 문서에 계속 액세스할 수 있도록 합니다 [!DNL SharePoint] 통합하려면 기존 액세스를 다시 구성해야 합니다. [!DNL SharePoint] 통합하고 SharePoint 클라이언트 암호를 최신 상태로 유지합니다.
 
-* [레거시 액세스 재구성 [!DNL SharePoint] 통합](#reconfigure-access-to-the-legacy-dnl-sharepoint-integration)
-* [레거시 액세스를 계속할 수 있도록 클라이언트 암호 구성 [!DNL SharePoint] 통합](#configure-the-client-secret-for-continued-access-to-the-legacy-dnl-sharepoint-integration)
+* [레거시 액세스 재구성 [!DNL SharePoint] 통합](#reconfigure-access-to-the-legacy-sharepoint-integration)
+* [레거시 액세스를 계속할 수 있도록 클라이언트 암호 구성 [!DNL SharePoint] 통합](#configure-the-client-secret-for-continued-access-to-the-legacy-sharepoint-integration)
 
 ### 레거시 액세스 재구성 [!DNL SharePoint] 통합
 
-기존 을 통해 연결된 문서에 액세스할 수 있도록 합니다. [!DNL SharePoint] 통합하되, 사용자가 해당 통합을 통해 새 문서를 연결할 수 없도록 하려면 다음 절차를 완료하십시오.
+레거시 다시 구성 [!DNL SharePoint] 통합을 통해 사용자는 기존 을 통해 연결된 문서에 액세스할 수 있습니다. [!DNL SharePoint] 통합을 통해 사용자가 해당 통합을 통해 새 문서를 연결할 수 없도록 합니다.
 
 >[!NOTE]
 >
 > * 레거시 [!DNL SharePoint] 통합에는 &quot; 레이블이 지정됩니다[!DNL SharePoint].&quot;
 > * 새로운 [!DNL SharePoint] 통합에는 &quot; 레이블이 지정됩니다[!UICONTROL [!DNL SharePoint] (Graph API)].&quot;
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 상단에서 을(를) 클릭한 다음 **[!UICONTROL 설정]** ![설정](../get-started-wf-administration/assets/gear-icon-settings.png).
+1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리에서 을(를) 클릭하고 **[!UICONTROL 설정]** ![설정 아이콘](/help/_includes/assets/gear-icon-setup.png).
 1. 선택 **[!UICONTROL 문서]** 왼쪽 탐색에서 을(를) 선택합니다. **[!UICONTROL 클라우드 공급자]**.
 1. 다음을 확인하십시오. **[!DNL SharePoint]** 옵션 및 **[!UICONTROL [!DNL SharePoint](Graph API)]** 옵션이 모두 활성화됩니다.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 1. 선택 **[!UICONTROL 문서]** 왼쪽 탐색에서 을(를) 선택합니다. **[!UICONTROL [!DNL SharePoint]통합]**.
 1. 기존의 모든 통합에 대해 목록 왼쪽에 있는 확인 표시를 선택한 다음 를 선택합니다 **[!UICONTROL 사용 안 함]**.
+   ![](assets/disable-old-sharepoint.png)
 
 
 ### 레거시 액세스를 계속할 수 있도록 클라이언트 암호 구성 [!DNL SharePoint] 통합
@@ -175,13 +173,13 @@ SharePoint으로 문서를 전송하려면 다음 작업을 수행하십시오.
 
 1. Add `/_layouts/15/appregnew.aspx` to the end of the URL in the search bar at the top of your browser window.-->
 
-1. 에 설명된 대로 새 클라이언트 암호 생성 [에서 만료될 클라이언트 암호 바꾸기 [!DNL SharePoint] 추가 기능](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/replace-an-expiring-client-secret-in-a-sharepoint-add-in#generate-a-new-secret)
+1. 에 설명된 대로 새 클라이언트 암호 생성 [에서 만료될 클라이언트 암호 바꾸기 [!DNL SharePoint] 추가 기능](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/replace-an-expiring-client-secret-in-a-sharepoint-add-in#generate-a-new-secret).
 1. 이 클라이언트 암호를 안전한 위치에 복사합니다.
 1. 에 로그인 [!DNL Workfront] 관리자입니다.
-1. Workfront에서 **[!UICONTROL 메인 메뉴]** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 상단에서 을(를) 클릭한 다음 **[!UICONTROL 설정]** ![](assets/gear-icon-settings.png).
+1. Workfront에서 **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리에서 을(를) 클릭하고 **[!UICONTROL 설정]** ![설정 아이콘](/help/_includes/assets/gear-icon-setup.png).
 1. 왼쪽 패널에서 **[!UICONTROL 문서]** > **[!UICONTROL [!DNL SharePoint]통합]**.
 1. 을(를) 클릭합니다 [!DNL SharePoint] 업데이트할 통합을 클릭한 다음 **[!UICONTROL 편집]**.
-1. 새 클라이언트 암호를 **[!UICONTROL 클라이언트 암호]** 필드.
+1. 를 찾습니다. **연결 정보** 편집 창의 섹션에서 새 클라이언트 암호를 **[!UICONTROL SharePoint 클라이언트 암호]** 필드.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 <!--
@@ -467,7 +465,8 @@ This can be caused by a number of things, originating in either [!DNL Workfront]
 
 * 사용자는 의 사이트 모음에 대한 보기 액세스 권한이 있어야 합니다. [!DNL SharePoint].
 
-  에서 확인하려면 [!DNL SharePoint]로 이동합니다. [!DNL SharePoint]을 클릭하고 사이트 모음을 엽니다. > [!UICONTROL 설정] > [!UICONTROL 사이트 권한].
+  에서 확인하려면 [!DNL SharePoint], SharePoint에서 사이트 모음의 권한을 확인합니다.
+
 <!--* The [!DNL SharePoint] Site App must have access to the site collection.
 
   To verify this in [!DNL SharePoint]:

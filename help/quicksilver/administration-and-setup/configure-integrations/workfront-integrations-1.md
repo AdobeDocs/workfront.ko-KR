@@ -4,21 +4,21 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
-description: Adobe Workfront을 타사 애플리케이션과 통합할 수 있습니다. 통합은 Workfront의 유틸리티를 확장하고 조직의 요구 사항에 맞게 조정할 수 있습니다.
-author: Becky, Caroline
+description: Adobe Workfront을 타사 애플리케이션뿐만 아니라 다른 애플리케이션과 통합할 수 있습니다 [!DNL Adobe] 제품. 통합은 Workfront의 유틸리티를 확장하고 조직의 요구 사항에 맞게 조정할 수 있습니다. 이 문서에서 다양한 유형의 통합에 대한 세부 정보를 확인하십시오.
+author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 8e283fce9aa2ad981c88e0b8cd5201c7408ab878
+source-git-commit: 68bfc55b68863682c3a0e3fcf303c4501420dd98
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1136'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront] 통합
 
-Adobe Workfront을 타사 애플리케이션뿐만 아니라 다른 애플리케이션과 통합할 수 있습니다 [!DNL Adobe] 제품. 통합은 Workfront의 유틸리티를 확장하고 조직의 요구 사항에 맞게 조정할 수 있습니다.
+다음을 통합할 수 있습니다. [!DNL Adobe Workfront] 타사 애플리케이션과 기타 [!DNL Adobe] 제품. 통합은 Workfront의 유틸리티를 확장하고 조직의 요구 사항에 맞게 조정할 수 있습니다.
 
 용 통합 [!DNL Workfront] 다음 범주에 속합니다.
 
@@ -44,13 +44,13 @@ Adobe Workfront을 타사 애플리케이션뿐만 아니라 다른 애플리케
 
 1. **기술 관리자 식별**
 
-   통합할 응용 프로그램에 대한 조직의 기술 관리자 식별 [!DNL Workfront]. 예를 들어 을 와 통합하도록 선택하는 경우 [!DNL Jira], 회사의 과(와) 연결해야 합니다. [!DNL Jira] 를 관리하고 플랫폼 내의 모든 구성 요구 사항에 이 사용자를 참여시킵니다. 또한 이 관리자를 와의 대화에 참여시켜야 합니다. [!DNL Workfront] 고객 지원.
+   통합할 응용 프로그램에 대한 조직의 기술 관리자 식별 [!DNL Workfront]. 예를 들어 을 와 통합하도록 선택하는 경우 [!DNL Jira], 회사의 과(와) 연결해야 합니다. [!DNL Jira] 관리자는 플랫폼 내의 모든 구성 요구 사항에 이 관리자를 참여시킵니다. 또한 이 관리자를 와의 대화에 참여시켜야 합니다. [!DNL Workfront] 고객 지원.
 
    관리자를 시작하려면 관리자에게 해당 통합에 대한 특정 지침을 제공해야 합니다. 이 지침에 대한 링크는 를 참조하십시오. [추가 비용 없이 통합 사용 가능](#integrations-available-at-no-additional-cost).
 
 1. **참여 대상 [!DNL Workfront] 고객 지원**
 
-   관리자가 기본 통합 설정에 문제가 있는 경우 [!DNL Workfront] 고객 지원 센터 의 도움을 받아 문제를 해결하십시오. While [!DNL Workfront] 은(는) 통합을 설정해 주지 않으며, 고객이 직접 통합에 필요한 모든 도구와 리소스를 제공하기 위해 최선을 다하고 있습니다. 고객 지원 센터에 직접 문의하거나 광범위한 리소스 문서를 탐색하여 통합을 쉽게 설정할 수 있습니다.
+   관리자가 기본 통합 설정에 문제가 있는 경우 다음 작업을 수행할 수 있습니다. [!DNL Workfront] 고객 지원 센터 의 도움을 받아 문제를 해결하십시오. While [!DNL Workfront] 은(는) 통합을 설정해 주지 않으며, 고객이 직접 통합에 필요한 모든 도구와 리소스를 제공하기 위해 최선을 다하고 있습니다. 고객 지원 센터에 직접 문의하거나 광범위한 리소스 문서를 탐색하여 통합을 쉽게 설정할 수 있습니다.
 
    고객 지원에 연결하려면 다음을 참조하십시오. [고객 지원 문의](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
@@ -60,7 +60,7 @@ Adobe Workfront을 타사 애플리케이션뿐만 아니라 다른 애플리케
 
    >[!NOTE]
    >
-   >지원 사례를 제출하려면 조직의 할당된 지원 담당자여야 합니다. 사례를 제출한 후 다른 시스템에 대한 기술 관리자를 대화에 추가할 수 있습니다. 지원 센터에 직접 문의할 수 없습니다.
+   >지원 사례를 제출하려면 조직의 할당된 지원 담당자여야 합니다. 사례를 제출한 후 다른 시스템의 기술 관리자를 대화에 추가할 수 있습니다. 지원 센터에 직접 문의할 수 없습니다.
 
 사용 가능한 기본 제공 통합이 회사의 모든 요구 사항을 충족하지는 않을 수 있습니다. 이 경우 계정 담당자에게 문의하여 사용자 정의 통합에 대해 논의하십시오.
 
@@ -130,7 +130,7 @@ Adobe Workfront을 타사 애플리케이션뿐만 아니라 다른 애플리케
     <ul> 
      <li>[!DNL G Suite] 사용자에게 다음이 있어야 함: [!DNL Workfront] 라이센스 </li> 
      <li>[!DNL Workfront] 액세스 수준별로 보기 및 작업 공유 권한을 설정해야 합니다. </li> 
-     <li> POP 활성화 이메일 계정 </li> 
+     <li> 사용자에게 POP가 활성화된 이메일 계정이 있어야 합니다. </li> 
      <li>[!DNL Workfront] 요청 설정에 POP 설정이 포함되어야 함 </li> 
     </ul> </td> 
    <td> 
@@ -158,7 +158,7 @@ Adobe Workfront을 타사 애플리케이션뿐만 아니라 다른 애플리케
     </ul> <p>자세한 내용은 <a href="../../workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md" class="MCXref xref">[!DNL Adobe Workfront for Jira]</a>.</p> </td> 
    <td> 
     <ul> 
-     <li>[!UICONTROL Pro] [!DNL Workfront] 계획 이상</li> 
+     <li><p>새 Workfront 계획: [!UICONTROL Select] [!DNL Workfront] 계획 이상</p><p>현재 Workfront 플랜: [!UICONTROL Pro] [!DNL Workfront] 계획 이상</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
@@ -234,7 +234,7 @@ Adobe Workfront을 타사 애플리케이션뿐만 아니라 다른 애플리케
     </ul> <p>자세한 내용은 <a href="../../workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce.md" class="MCXref xref">[!DNL Adobe Workfront for Salesforce]</a>.</p> </td> 
    <td> 
     <ul> 
-     <li>[!UICONTROL Pro] [!DNL Workfront] 계획 이상</li> 
+     <li><p>새 Workfront 계획: [!UICONTROL Select] [!DNL Workfront] 계획 이상</p><p>현재 Workfront 플랜: [!UICONTROL Pro] [!DNL Workfront] 계획 이상</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
@@ -289,18 +289,26 @@ Adobe Workfront을 타사 애플리케이션뿐만 아니라 다른 애플리케
 
 * [!DNL Workfront Fusion]
 
+  [!DNL Adobe Workfront Fusion] 는 앱 및 서비스 내 및 간의 작업을 연결하여 데이터를 자동으로 전송하고 변환하는 시나리오를 만듭니다. 많은 앱에 대한 전용 커넥터를 보유하고 있지만 공개 API를 사용하여 모든 애플리케이션에 연결할 수 있습니다.
+
   자세한 내용은 [[!DNL Adobe Workfront Fusion] 개요](../../workfront-fusion/get-started/workfront-fusion-overview.md).
 
 * [!DNL Adobe Experience Manager Assets]
 
-  자세한 내용은 [Experience Manager Assets 및 Assets Essentials용 Adobe Workfront](../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md).
+Workfront과 Experience Manager Assets 또는 Assets Essentials 간의 통합을 통해 조직은 작업과 디지털 에셋 관리를 본질적으로 연결하여 콘텐츠 속도와 마켓 출시 속도를 개선할 수 있습니다.
+
+자세한 내용은 [Adobe Workfront for Experience Manager Assets 통합 개요](../../documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
 
 ## 파트너 통합
 
-[!DNL Workfront] 에는 다음과 같은 이점을 제공하는 수십 가지 통합 기능을 포함하는 풍부한 파트너 에코시스템이 있습니다. [!DNL Workfront] 경험.
+[!DNL Workfront] 은(는) 많은 파트너 통합을 통해 다음을 강화할 수 있습니다 [!DNL Workfront] 경험.
 
-기존 파트너 오퍼링의 예에는 과의 통합이 포함됩니다. [!DNL Salesforce.com], [!DNL Oracle Responsys], 및 [!DNL Microsoft Visual Studio]. 이러한 통합 및 기타 흥미로운 통합에 대한 자세한 내용은 다음을 참조하십시오. [[!DNL Workfront] 마켓플레이스](https://www.workfront.com/enterprise/marketplace/apps/).
+기존 파트너 오퍼링의 예에는 과의 통합이 포함됩니다. [!DNL Salesforce.com], [!DNL Oracle Responsys], 및 [!DNL Microsoft Visual Studio].
+
+이러한 파트너 통합과 다른 파트너 통합에 대한 자세한 내용은 [[!DNL Workfront] 마켓플레이스](https://www.workfront.com/enterprise/marketplace/apps/).
 
 ## [!DNL Workfront] API
 
-다음 [!DNL Workfront] API를 사용하면 을(를) 확장하고 개선할 수 있습니다. [!DNL Workfront] 퍼블릭 API를 활용하여 경험할 수 있습니다. 개방형 API를 사용하여 자체 통합을 만들 수 있습니다. 에서 사용 가능한 객체의 자세한 목록을 보려면 [!DNL Workfront] API에서 다음을 참조하십시오. [!DNL Workfront] [API 탐색기](../../wf-api/general/api-explorer.md).
+다음 [!DNL Workfront] API를 사용하면 을(를) 확장하고 개선할 수 있습니다. [!DNL Workfront] 퍼블릭 API를 활용하여 경험할 수 있습니다. 개방형 API를 사용하여 자체 통합을 만들 수 있습니다.
+
+에서 사용 가능한 객체의 자세한 목록을 보려면 [!DNL Workfront] API에서 다음을 참조하십시오. [!DNL Workfront] [API 탐색기](../../wf-api/general/api-explorer.md).
