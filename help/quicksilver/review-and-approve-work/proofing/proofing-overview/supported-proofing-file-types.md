@@ -7,9 +7,9 @@ description: '시스템에 설치된 파일(예: Photoshop 또는 Illustrator)�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
+source-git-commit: d3aefd7ec045b9bf4c5b42c0bb3576061a1056b0
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1066'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 Workfront에는 다음과 같은 제한이 있습니다.
 
 * 파일은 파일당 4GB 미만이어야 합니다.
-* Microsoft Word(DOC, DOCX) 및 PowerPoint(PPT, PPTX) 파일은 512MB 미만이어야 합니다. (크기 제한이 적용되기 전에 생성된 이러한 파일 유형의 증명을 보관 해제하는 데에도 적용됩니다.)
+* Microsoft Word(DOC, DOCX) 및 PowerPoint(PPT, PPTX) 파일은 512MB 미만이어야 합니다. (크기 제한이 적용되기 전에 생성된 이러한 파일 유형의 증명을 보관 해제하는 경우에도 적용됩니다.)
 * XLS 및 XLSX 파일은 100MB 미만이어야 합니다.
 * 증명 댓글에 첨부된 파일은 30MB 미만이어야 합니다.
 * PNG의 높이와 너비는 65535px 미만이어야 합니다.

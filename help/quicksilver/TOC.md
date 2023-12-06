@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 9d273023179c3f650b043be2de8f6bd15febf130
+source-git-commit: 27a4305826a6e9516d110c5bf7a82d2e465c58c8
 workflow-type: tm+mt
-source-wordcount: '13779'
+source-wordcount: '13776'
 ht-degree: 0%
 
 ---
@@ -833,7 +833,7 @@ ht-degree: 0%
       * [페이지를 고정하여 작업 영역 사용자 지정](workfront-basics/the-new-workfront-experience/pin-pages.md)
       * [사용자 정의 섹션 만들기](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
       * [Adobe Workfront 도움말 액세스](workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)
-      * [Adobe Workfront의 오브젝트 이해](workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
+      * [[!DNL Adobe Workfront] 개체 개요](workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
       * [작업 라이선스 사용자의 탐색 이해](workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
       * [Review-license 사용자의 탐색 이해](workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)
       * [Adobe Workfront의 프로젝트, 작업 및 문제 날짜 개요](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
