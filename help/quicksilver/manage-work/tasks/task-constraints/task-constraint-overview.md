@@ -7,9 +7,9 @@ description: 작업 제한 사항은 프로젝트에서 작업이 시작 및 종
 author: Alina
 feature: Work Management
 exl-id: 91b0844b-95a3-4d18-9fdb-a907dd42e1bf
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: 45c82f659d02dca69d2a2c390b084330773d4252
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '691'
 ht-degree: 6%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 6%
 
 >[!TIP]
 >
->작업 간 전임 작업 관계를 사용하는 경우 특정 날짜가 필요하지 않은 제한 유형을 사용하는 것이 좋습니다.
+>작업 간에 전임 작업 관계를 사용하는 경우 특정 날짜가 필요하지 않은 제한 유형을 사용하는 것이 좋습니다.
 
 다음 표에는 각 제약 조건과 그 약어가 나와 있습니다. 약어는 작업 목록 및 킥스타트 가져오기 파일을 만들 때 사용됩니다. 해당 제한 유형에 대한 자세한 내용을 보려면 각 작업 제한 사항의 연결된 제목을 클릭하십시오.
 
@@ -55,7 +55,7 @@ ht-degree: 6%
    <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/as-late-as-possible.md" class="MCXref xref">작업 제한 개요: 가능한 한 늦게 </a> </p> </td> 
    <td scope="col"> <p>ALAP</p> </td> 
    <td scope="col"> <p>작업의 완료 시간을 가능한 한 프로젝트 끝에 가깝게 배치합니다.</p> 
-   <p>이는 프로젝트 일정 모드가 완료 일자부터 이고 작업 시작 일자에 대한 시스템 또는 그룹 기본값이 프로젝트 계획 일자를 기준으로 할 때의 기본 제한입니다. </p>
+   <p>이는 프로젝트 일정 모드가 완료 일자부터 이고 작업 시작 일자에 대한 시스템 또는 그룹 기본값이 프로젝트 계획 일자 기준으로 설정된 경우 기본 제한입니다. </p>
    </td> 
   </tr> 
   <tr> 
@@ -66,7 +66,7 @@ ht-degree: 6%
   <tr> 
    <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/latest-available-time.md" class="MCXref xref">작업 제한 개요: 사용 가능한 최신 시간</a> </p> </td> 
    <td scope="col"> <p>LAT</p> </td> 
-   <td scope="col"> <p>프로젝트의 전임 작업-후임 작업 관계를 고려한 후 가능한 가장 늦은 시간에 작업을 시작하도록 예약합니다.</p> </td>
+   <td scope="col"> <p>프로젝트의 전임 작업-후임 작업 관계를 고려한 후 사용 가능한 가장 늦은 시간에 작업을 시작하도록 예약합니다.</p> </td>
   </tr> 
   <tr> 
    <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/start-no-earlier-than.md" class="MCXref xref">작업 제한 개요: 다음 이후에 시작:</a> </p> </td> 
@@ -78,7 +78,7 @@ ht-degree: 6%
    <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/start-no-later-than.md" class="MCXref xref">작업 제한 개요: 다음 이후에 시작</a> </p> </td> 
    <td scope="col"> <p>SNLT</p> </td> 
    <td scope="col"> <p>지정한 날짜 이전에 작업을 시작하도록 예약합니다.</p> 
-   <p>프로젝트 일정 모드가 완료 일자부터 이며 작업의 시작 일자에 대한 시스템 또는 그룹 기본값이 오늘인 경우 STis는 기본 제한입니다. 
+   <p>프로젝트 일정 모드가 완료 일자부터 이고 작업 시작 일자에 대한 시스템 또는 그룹 기본값이 오늘로 설정된 경우 이 제한이 기본 제한입니다. 
    </td> 
   </tr> 
   <tr> 
@@ -109,7 +109,7 @@ ht-degree: 6%
  </tbody> 
 </table>
 
-## 기본 제한 개요
+## 기본 제약 조건 개요
 
 새 작업을 만들 때 Workfront에서 작업 제한 사항을 자동으로 선택합니다.
 
@@ -121,7 +121,7 @@ Workfront은 두 개의 변수를 사용하여 새 작업에 대해 기본적으
 
 * 다음 **시작일** 에서 Workfront 또는 그룹 관리자가 구성한 환경 설정 **작업 및 문제** 영역 **설정**.
 
-  작업 및 문제 환경 설정에 대한 자세한 내용은 의 &quot;새 작업 기본값&quot; 섹션을 참조하십시오. [시스템 전체 작업 및 문제 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  작업 및 문제 환경 설정에 대한 자세한 내용은 [새 작업 기본값](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#new-task-defaults) 의 섹션 [시스템 전체 작업 및 문제 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 다음 표에서는 프로젝트 및 새 작업에 대해 서로 다른 변수를 선택할 때의 기본 작업 제한 사항을 보여 줍니다.
 
