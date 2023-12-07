@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: edd4aa9556b624de3634af26d6d9efd59f5d2e44
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '3491'
+source-wordcount: '3496'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Workfront에 로그인할 수 있는 시간 유형에 대한 자세한 내용은
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
@@ -351,7 +351,7 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
 홈 영역 사용에 대한 일반 정보는 다음 섹션을 참조하십시오.
 
 * 기존 홈 영역 사용에 대한 자세한 내용은 [홈 영역 사용](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
-* 새 홈 영역 사용에 대한 자세한 내용은 [Adobe Workfront의 새 홈 시작](../../workfront-basics/using-home/new-home/get-started-with-new-home.md).
+* 새 홈 영역 사용에 대한 자세한 내용은 [새 홈 시작](../../workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 #### 새 홈 영역의 작업 항목에 시간을 기록합니다.
 

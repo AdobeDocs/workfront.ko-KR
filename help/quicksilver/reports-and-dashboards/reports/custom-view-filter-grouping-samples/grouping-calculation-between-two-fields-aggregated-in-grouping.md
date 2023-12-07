@@ -8,7 +8,7 @@ description: 열에서 텍스트 모드를 사용하여 보고서나 목록 보�
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: e67c0b10-af9f-4657-8f99-8b63ae3c0865
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 열에서 텍스트 모드를 사용하여 보고서나 목록 보기에서 두 필드 간의 계산을 표시할 수 있습니다. 각 행은 보고서나 목록의 각 객체에 대한 계산을 표시합니다.
 
-예를 들어 작업 보고서의 각 작업에 대한 작업 균형이라는 세 번째 열에 실제 시간과 계획된 시간 간의 차이를 표시할 수 있습니다. 계산된 데이터 표현식에 대한 자세한 내용은 [계산된 데이터 표현식](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+예를 들어 작업 보고서의 각 작업에 대한 작업 균형이라는 세 번째 열에 실제 시간과 계획된 시간 간의 차이를 표시할 수 있습니다. 계산된 데이터 표현식에 대한 자세한 내용은 [계산된 데이터 표현식 개요](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 계산을에 추가하여 그룹화에서 동일한 열에 있는 여러 계산된 보기 항목의 합산된 값을 표시할 수 있습니다 `aggregator` 계산된 값을 포함하는 열의 행입니다. 예를 들어, 보고서 그룹이나 작업 균형 열의 목록에서 모든 작업의 작업 균형 시간을 집계(합계를 표시)할 수 있습니다. 이 문서에서는 이 작업을 수행하는 방법에 대해 설명합니다.
 
@@ -33,7 +33,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 

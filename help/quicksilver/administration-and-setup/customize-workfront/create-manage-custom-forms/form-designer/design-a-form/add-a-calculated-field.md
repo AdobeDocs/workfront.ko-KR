@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '2317'
+source-wordcount: '2319'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 0%
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Adobe Workfront 플랜*</p> </td> 
-   <td>모든</td> 
+   <td>임의</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
@@ -151,7 +151,7 @@ ht-degree: 0%
       <td> 기본적으로 필드에 대해 만드는 수식은 여기에 저장됩니다. 텍스트를 추가하여 필드 및 그 안에 있는 공식에 대한 추가 정보를 제공할 수 있습니다. 이 기능은 다음 두 가지 방법으로 유용할 수 있습니다. 
        <ul> 
       <li><p>공식이 무엇인지, 어떻게 작동하는지 다시 알리기 위해 이 기능은 여러 양식에서 이 계산된 사용자 정의 필드를 사용하려는 경우 특히 유용합니다.</p> </li> 
-      <li> <p>툴팁으로 사용자는 필드 위로 마우스를 가져가면 볼 수 있습니다. 도구 설명에 표시할 텍스트를 여기에 추가합니다.</p> <p>도구 설명에 수식을 표시하지 않고 헷갈릴 수 있도록 하려면 숨길 수 있습니다.</li> 
+      <li> <p>툴팁으로 사용자는 필드를 마우스로 가리키면 표시됩니다. 도구 설명에 표시할 텍스트를 여기에 추가합니다.</p> <p>도구 설명에 수식을 표시하지 않고 헷갈릴 수 있도록 하려면 숨길 수 있습니다.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -180,7 +180,7 @@ ht-degree: 0%
 
       * 계산에서 기본 제공 필드를 참조하도록 하려면 필드 이름을 중괄호로 묶어야 합니다.
 
-        For example: `{actualRevenue}`
+        예: `{actualRevenue}`
 
         필드 이름은 대/소문자를 구분하므로 Workfront 시스템에 표시되는 방식과 동일하게 계산에 표시되어야 합니다.
 
@@ -188,7 +188,7 @@ ht-degree: 0%
 
       * 계산에서 사용자 정의 필드를 참조하도록 하려면 필드 이름을 중괄호로 묶고 앞에 를 붙여야 합니다 `DE:` 대괄호 안에 있습니다.
 
-        For example: `{DE:Profit}`
+        예: `{DE:Profit}`
 
         입력할 때 선택할 수 있는 모든 사용자 정의 필드가 시스템에 나열됩니다 `DE:`.
 
@@ -281,7 +281,7 @@ ht-degree: 0%
       >
       >다음 중 원하는 작업을 수행하여 계산에 도움을 받을 수 있습니다.
       > 
-      >* 계산에서 표현식 위로 마우스를 가져가 설명, 사용 방법을 보여주는 예 및 문서의 추가 정보에 대한 &quot;자세히 알아보기&quot; 링크를 확인합니다 [계산된 데이터 표현식](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+      >* 계산에서 표현식 위로 마우스를 가져가 설명, 사용 방법을 보여주는 예 및 문서의 추가 정보에 대한 &quot;자세히 알아보기&quot; 링크를 확인합니다 [계산된 데이터 표현식 개요](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
       >  ![](assets/hover-expression-help-text.jpg)
       >* 색상 코딩을 사용하여 추가한 구성 요소를 식별합니다. 표현식은 파란색으로 표시되고 필드는 녹색으로 표시됩니다.
       >  ![](assets/colors-fields-expressions.jpg)

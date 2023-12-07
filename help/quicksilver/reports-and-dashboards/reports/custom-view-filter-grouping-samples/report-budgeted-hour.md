@@ -7,9 +7,9 @@ description: '보고서: 예산 시간'
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 2c0b60a6-fae4-4b29-8243-2a7f7d1f574b
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '647'
 ht-degree: 1%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
@@ -87,7 +87,7 @@ ht-degree: 1%
 
    이렇게 하면 예산 시간이 지정한 소수 자릿수로 반올림됩니다.
 
-   Workfront에서 숫자를 반올림하는 방법에 대한 자세한 내용은 문서를 참조하십시오 [계산된 데이터 표현식](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   Workfront에서 숫자를 반올림하는 방법에 대한 자세한 내용은 문서를 참조하십시오 [계산된 데이터 표현식 개요](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 1. (선택 사항) **열 추가** 추가 열을 추가합니다.
 1. (선택 사항) 보고서를 더 쉽게 읽을 수 있도록 보고서 세트에 그룹화를 추가하는 것이 좋습니다. 다음 그룹화를 제안합니다.
