@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
+source-git-commit: 8f8a274eb872f78f888cf76b2d5fd3d39c6d6223
 workflow-type: tm+mt
-source-wordcount: '1380'
-ht-degree: 2%
+source-wordcount: '1382'
+ht-degree: 1%
 
 ---
 
@@ -23,17 +23,13 @@ ht-degree: 2%
 
 ## 작업 기간 개요
 
->[!NOTE]
->
->프로젝트에 대한 기본 피할당자의 휴가를 고려할 때 작업의 계획된 일자가 조정될 수 있지만 작업의 기간은 동일하게 유지됩니다. 프로젝트를 계획할 때 기본 피할당자의 휴무 고려에 대한 자세한 내용은  [시스템 전체 프로젝트 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
-
 작업의 실제 시작 및 실제 완료 일자가 프로젝트, 기본 담당자 또는 기본 일정의 일정을 벗어나는 경우 작업 기간은 0입니다.
 
 **예:** 오전 9시에 시작하여 오후 12시에 끝나는 일정과 오후 2시에 시작하여 오후 4시에 끝나도록 예정된 작업이 있는 경우 작업의 기간은 0입니다.
 
 다음은 Adobe Workfront에서 기간을 계산할 때 발생하는 두 가지 시나리오입니다.
 
-* 작업이 사용자에게 할당된 경우 Workfront은 다음 일정 중 하나를 정확히 같은 순서로 사용하여 기간을 계산합니다.
+* 작업이 사용자 Workfront에 할당된 경우 에서는 다음 일정 중 하나를 이 순서로 사용하여 기간을 계산합니다.
 
    1. Workfront은 사용자의 일정을 고려합니다.
    1. 사용자가 일정과 연결되어 있지 않으면 Workfront에서 프로젝트의 일정을 고려합니다.
@@ -41,11 +37,15 @@ ht-degree: 2%
 
 * 작업이 여러 사용자에게 할당된 경우:
 
-  Workfront은 프로젝트 또는 기본 피할당자의 일정을 고려합니다.
+   1. Workfront은 프로젝트 또는 기본 피할당자의 일정을 고려합니다.
 
   Workfront 관리자는 작업이 여러 사용자에게 할당될 때 Workfront에서 사용하는 일정을 결정합니다. 자세한 내용은 [시스템 전체 프로젝트 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
   단계는 Workfront에서 기간을 계산하는 데 사용하는 일정을 파악한 후 첫 번째 시나리오와 유사합니다.
+
+>[!NOTE]
+>
+>프로젝트에 대한 기본 피할당자의 휴가를 고려할 때 작업의 계획된 일자가 조정될 수 있지만 작업의 기간은 동일하게 유지됩니다. 프로젝트를 계획할 때 기본 피할당자의 휴무 고려에 대한 자세한 내용은  [시스템 전체 프로젝트 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 ## 작업 기간 단위
 
@@ -60,11 +60,11 @@ ht-degree: 2%
 | 일. 이것이 기본값입니다. | D |
 | 주 | 주 |
 | 개월 | T |
-| 경과 시간 (분) | EM |
+| 경과 시간(분) | EM |
 | 경과 시간 | EH |
 | 경과 일수 | 에드 |
-| 경과 주 수 | EW |
-| 경과 기간 (월) | ET |
+| 경과 주수 | EW |
+| 경과 기간(월) | ET |
 
 {style="table-layout:auto"}
 
@@ -94,7 +94,7 @@ ht-degree: 2%
 * 그 일은 얼마나 큰가요?
 * 얼마나 걸리나요?
 
-![duration_type_triangle.png](assets/duration-type-triangle-350x245.png)
+![duration_type_triangle.png](assets/duration_type_triangle.png)
 
 ## 기간 유형 정의
 
@@ -104,7 +104,7 @@ ht-degree: 2%
  <col> 
  <thead> 
   <tr> 
-   <th scope="row">기간 유형 </th> 
+   <th scope="row"><p><strong>기간 유형</strong></p></th> 
    <th scope="col"> <p><strong>함수</strong> </p> </th> 
    <th scope="col"> <p><strong>자원이 It에 미치는 영향</strong> </p> </th> 
   </tr> 
@@ -121,7 +121,7 @@ ht-degree: 2%
    <td scope="col"> <p>피할당자가 작업에 추가되면 계획된 시간이 늘어납니다. </p> <p>피할당자가 작업에서 제거되면 계획된 시간이 감소합니다.</p> </td> 
   </tr> 
   <tr> 
-   <th scope="col"> <p>작업량 고정</p> </th> 
+   <th scope="col"> <p><strong>작업량 고정</strong></p> </th> 
    <td scope="col"> <p>리소스 수에 따라 계획된 시간을 결정합니다.</p> <p>이 기간 유형을 선택하면 작업에 대해 개별 기간을 입력할 수 있습니다. Workfront은 해당 기간의 일 수에 일정의 작업 시간을 곱한 후 이를 작업에 대한 할당자 수로 나누어 작업의 계획된 시간을 계산합니다. </p> <p>작업에 대한 각 할당자의 할당 백분율을 수동으로 변경할 수 있지만 계획된 시간 수는 동일하게 유지됩니다.</p> <p>자세한 내용은 <a href="../../../manage-work/tasks/taskdurtn/effort-driven.md" class="MCXref xref">기간 유형 개요: 작업량 고정</a>.</p> </td> 
    <td scope="col"> <p>피할당자가 작업에서 제거되면 계획된 시간이 증가합니다.</p> <p>피할당자가 작업에 추가되면 계획된 시간이 줄어듭니다. </p> <p>피할당자 수 또는 일정이 변경되더라도 기간은 변경되지 않습니다. </p> <p>기간은 계획된 시간과 같습니다. 계획된 기간은 계획된 시간을 할당자의 수로 나눈 시간과 같습니다.</p> </td> 
   </tr> 

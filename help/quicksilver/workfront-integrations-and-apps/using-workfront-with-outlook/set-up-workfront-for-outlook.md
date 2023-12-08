@@ -2,20 +2,20 @@
 product-area: workfront-integrations
 navigation-topic: workfront-for-outlook
 title: 설정 [!DNL Adobe Workfront] 대상 [!DNL Outlook]
-description: Adobe Workfront Fusion은 Outlook과의 통합을 제공합니다. 이 문서에서는 자체 워크플로우에서 이 통합을 사용하는 방법을 설명합니다.
+description: 다음 [!DNL Adobe Workfront] [!DNL Outlook] 추가 기능을 사용하면 키를 수행할 수 있습니다 [!DNL Workfront] Outlook에서 직접 작업.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: a1569362dee8cd686a91698af3c9c217e920c263
+source-git-commit: fe370eee9e1fa53edc615f82ece8bc46a9cdb0ce
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '726'
 ht-degree: 0%
 
 ---
 
 # 설정 [!DNL Adobe Workfront for Outlook]
 
-다음 [!DNL Adobe Workfront] [!DNL Outlook] 추가 기능을 사용하면 다음 키를 수행할 수 있습니다 [!DNL Workfront] Outlook에서 직접 작업:
+다음 [!DNL Adobe Workfront] [!DNL Outlook] 추가 기능을 사용하여 다음 키를 수행할 수 있습니다 [!DNL Workfront] Outlook에서 직접 작업:
 
 * 이메일의 정보로 기존 프로젝트, 작업 또는 문제를 업데이트합니다. 자세한 내용은 [에서 기존 개체 업데이트 [!DNL Outlook] 이메일](../../workfront-integrations-and-apps/using-workfront-with-outlook/update-an-existing-object-from-an-outlook-email.md).
 * 만들기 [!DNL Workfront] 다음 내의 이메일을 기반으로 한 요청: [!DNL Outlook]. 자세한 내용은 [에서 Adobe Workfront 요청 만들기 [!DNL Outlook] 이메일](../../workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md).
@@ -41,12 +41,11 @@ ht-degree: 0%
    <td role="rowheader">[!DNL Adobe Workfront] 플랜*</td> 
    <td> <p>임의</p> </td> 
   </tr> 
-  <tr>
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>새 플랜: 표준 </p>
- <p>또는</p> 
-<p>현재 계획: [!UICONTROL Work], [!UICONTROL Plan] </p> 
-  </td> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
+   <td> 
+   <p>새 플랜: [!UICONTROL Standard]</p> 
+   <p>현재 계획:[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -71,7 +70,7 @@ ht-degree: 0%
 
 ### 클라이언트 요구 사항 {#client-requirements}
 
-다음 버전을 지원합니다. [!DNL Outlook]:
+Workfront은 다음 버전의 를 지원합니다 [!DNL Outlook]:
 
 * [!DNL Outlook 2013] 또는 나중에 [!DNL Windows]
 *[!DNL  Outlook 2016] 또는 나중에 [!DNL Windows]
@@ -91,7 +90,7 @@ ht-degree: 0%
 
 에 연결할 때 기본적으로 메일 서버 요구 사항이 충족됩니다. [!DNL Office 365] 또는 [!DNL Outlook.com]. 단, 의 온프레미스 설치에 연결되어 있는 경우 [!DNL Exchange Server], 다음 요구 사항이 적용됩니다.
 
-* 모든 지원 [!DNL Exchange On-Premise] 서버
+* Workfront은 모든 [!DNL Exchange On-Premise] 서버
 * [!DNL Exchange Web Services] (EWS)를 활성화해야 하며 인터넷에 노출되어야 합니다.
 * 서버가 유효한 ID 토큰을 발급하려면 서버에 유효한 인증 인증서가 있어야 합니다. 의 새로운 설치 [!DNL Exchange Server] 기본 인증 인증서를 포함합니다.
 
@@ -103,11 +102,7 @@ ht-degree: 0%
 
 ## 추가 기능 설치
 
-설정에 대한 자세한 내용은 [!DNL Workfront] 용 추가 기능 [!DNL Outlook], 참조 [[!DNL Workfront] - 공동 작업 관리.](https://appsource.microsoft.com/en-us/product/office/WA104380943?tab=Overview)
-
-* [[!DNL Workfront] 대상 [!DNL Outlook 365]](#workfront-for-outlook-365-workfront-for-outlook-365)
-* [[!DNL Workfront] 대상 [!DNL Outlook] 웹에서](#workfront-for-outlook-on-the-web-workfront-for-outlook-on-the-web)
-* [[!DNL Workfront] 대상 [!DNL Outlook] 날짜 [!DNL Windows] 또는 [!DNL Mac]](#workfront-for-outlook-on-windows-or-mac-workfront-for-outlook-on-windows-or-mac)
+다음에서 Outlook용 Workfront 추가 기능을 가져올 수 있습니다. [Microsoft 스토어](https://appsource.microsoft.com/en-us/product/office/WA104380943?tab=Overview).
 
 ### [!DNL Outlook 365]에 대한 [!DNL Workfront] {#workfront-for-outlook-365}
 
