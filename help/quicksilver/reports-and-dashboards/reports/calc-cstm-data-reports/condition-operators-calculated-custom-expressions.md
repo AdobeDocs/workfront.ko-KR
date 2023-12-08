@@ -7,9 +7,9 @@ description: 텍스트 모드를 사용할 때 Adobe Workfront에서 계산된 �
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce98ca39-cb86-4ef7-b75c-29ceb916e885
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '718'
 ht-degree: 1%
 
 ---
@@ -55,27 +55,27 @@ Workfront에서 다음 조건 수정자를 사용할 수 있습니다.
   <tr> 
    <td>같음</td> 
    <td>= </td> 
-   <td> <p>이 연산자를 사용하여 명령문의 첫 번째 필드가 두 번째 필드와 같을 때 조건이 충족되었음을 나타냅니다.</p> <p>예를 들어 계산된 사용자 정의 필드에서 다음 문을 사용하여 계획된 완료 일자와 작업의 예상 완료 일자를 비교하는 "IF" 문을 작성할 수 있습니다. </p><pre>IF({projectedCompletionDate}={plannedCompletionDate},"트랙에","트랙에서")</pre> </td> 
+   <td> <p>이 연산자를 사용하여 명령문의 첫 번째 필드가 두 번째 필드와 같을 때 조건이 충족되었음을 나타냅니다.</p> <p>예를 들어 계산된 사용자 정의 필드에서 다음 문을 사용하여 계획된 완료 일자와 작업의 예상 완료 일자를 비교하는 "IF" 문을 작성할 수 있습니다. </p><p><code>IF({projectedCompletionDate}={plannedCompletionDate},"On Track","Off Track")</code></p> </td> 
   </tr> 
   <tr> 
    <td>보다 큼 </td> 
    <td>&gt; </td> 
-   <td>이 연산자를 사용하여 명령문의 첫 번째 필드가 두 번째 필드보다 클 때 조건이 충족되었음을 나타냅니다. <p>예를 들어 계산된 사용자 정의 필드에서 다음 문을 사용하여 계획된 완료 일자와 작업의 예상 완료 일자를 비교하는 "IF" 문을 작성할 수 있습니다. </p><pre>IF({projectedCompletionDate}&gt;{plannedCompletionDate},"지연",")</pre></td> 
+   <td>이 연산자를 사용하여 명령문의 첫 번째 필드가 두 번째 필드보다 클 때 조건이 충족되었음을 나타냅니다. <p>예를 들어 계산된 사용자 정의 필드에서 다음 문을 사용하여 계획된 완료 일자와 작업의 예상 완료 일자를 비교하는 "IF" 문을 작성할 수 있습니다. </p><p><code>IF({projectedCompletionDate}&gt;{plannedCompletionDate},"Late","")</code></p></td> 
   </tr> 
   <tr> 
    <td>크거나 같음 </td> 
    <td>&gt;= </td> 
-   <td>이 연산자를 사용하여 명령문의 첫 번째 필드가 두 번째 필드보다 크거나 같을 때 조건이 충족되었음을 나타냅니다. <p>예를 들어 계산된 사용자 정의 필드에서 다음 문을 사용하여 계획된 완료 일자와 작업의 예상 완료 일자를 비교하는 "IF" 문을 작성할 수 있습니다. </p><pre>IF({projectedCompletionDate}&gt;={plannedCompletionDate},"지연","조기")</pre></td> 
+   <td>이 연산자를 사용하여 명령문의 첫 번째 필드가 두 번째 필드보다 크거나 같을 때 조건이 충족되었음을 나타냅니다. <p>예를 들어 계산된 사용자 정의 필드에서 다음 문을 사용하여 계획된 완료 일자와 작업의 예상 완료 일자를 비교하는 "IF" 문을 작성할 수 있습니다. </p><p><code>IF({projectedCompletionDate}&gt;={plannedCompletionDate},"Late","Early")</code></p></td> 
   </tr> 
   <tr> 
    <td>보다 작음 </td> 
    <td>&lt; </td> 
-   <td>이 연산자를 사용하여 명령문의 첫 번째 필드가 두 번째 필드보다 작을 때 조건이 충족되었음을 나타냅니다. <p>예를 들어 계산된 사용자 정의 필드에서 다음 문을 사용하여 계획된 완료 일자와 작업의 예상 완료 일자를 비교하는 "IF" 문을 작성할 수 있습니다. </p><pre>IF({projectedCompletionDate}&lt;{plannedCompletionDate},"조기",")</pre></td> 
+   <td>이 연산자를 사용하여 명령문의 첫 번째 필드가 두 번째 필드보다 작을 때 조건이 충족되었음을 나타냅니다. <p>예를 들어 계산된 사용자 정의 필드에서 다음 문을 사용하여 계획된 완료 일자와 작업의 예상 완료 일자를 비교하는 "IF" 문을 작성할 수 있습니다. </p><p><code>IF({projectedCompletionDate}&lt;{plannedCompletionDate},"Early","")</code></p></td> 
   </tr> 
   <tr> 
    <td>작거나 같음 </td> 
    <td>&lt;= </td> 
-   <td>이 연산자를 사용하여 명령문의 첫 번째 필드가 두 번째 필드보다 작거나 같을 때 조건이 충족되었음을 나타냅니다. <p>예를 들어 계산된 사용자 정의 필드에서 다음 문을 사용하여 계획된 완료 일자와 작업의 예상 완료 일자를 비교하는 "IF" 문을 작성할 수 있습니다. </p><pre>IF({projectedCompletionDate}&lt;={plannedCompletionDate},"조기","지연")</pre></td> 
+   <td>이 연산자를 사용하여 명령문의 첫 번째 필드가 두 번째 필드보다 작거나 같을 때 조건이 충족되었음을 나타냅니다. <p>예를 들어 계산된 사용자 정의 필드에서 다음 문을 사용하여 계획된 완료 일자와 작업의 예상 완료 일자를 비교하는 "IF" 문을 작성할 수 있습니다. </p><p><code>IF({projectedCompletionDate}&lt;={plannedCompletionDate},"Early","Late")</code></p></td> 
   </tr> 
   <tr> 
    <td>다음이 아님 </td> 
@@ -95,12 +95,12 @@ Workfront에서 다음 조건 수정자를 사용할 수 있습니다.
   <tr> 
    <td>또는 </td> 
    <td>|| </td> 
-   <td> <p>이 연산자를 사용하여 표현식이 명령문의 첫 번째 또는 두 번째 값을 찾을 때 조건이 충족되었음을 나타냅니다. </p> <p>예를 들어 계산된 사용자 정의 필드에서 다음 문을 사용하여 현재 또는 계획 상태의 프로젝트를 "활성"으로 표시하는 "IF" 문을 작성합니다. </p><pre>IF({status}="계획됨"||{status}="CUR","Active","Not Active")</pre> </td> 
+   <td> <p>이 연산자를 사용하여 표현식이 명령문의 첫 번째 또는 두 번째 값을 찾을 때 조건이 충족되었음을 나타냅니다. </p> <p>예를 들어 계산된 사용자 정의 필드에서 다음 문을 사용하여 현재 또는 계획 상태의 프로젝트를 "활성"으로 표시하는 "IF" 문을 작성합니다. </p><p><code>IF({status}="PLN"||{status}="CUR","Active","Not Active")</code></p> </td> 
   </tr> 
   <tr> 
    <td> 및 </td> 
    <td>&amp;&amp; </td> 
-   <td> <p>이 연산자를 사용하여 표현식이 동시에 두 가지 조건을 충족하는 항목을 찾을 때 조건이 충족되었음을 나타냅니다. </p> <p>예를 들어 계산된 사용자 정의 필드에서 다음 문을 사용하여 현재 상태에 있고 위험 상태인 프로젝트를 찾아서 "조정 필요"로 표시하는 "IF" 문을 작성합니다. </p><pre>IF({status}="CUR"&amp;{condition}="AR","중재 필요","))</pre> </td> 
+   <td> <p>이 연산자를 사용하여 표현식이 동시에 두 가지 조건을 충족하는 항목을 찾을 때 조건이 충족되었음을 나타냅니다. </p> <p>예를 들어 계산된 사용자 정의 필드에서 다음 문을 사용하여 현재 상태에 있고 위험 상태인 프로젝트를 찾아서 "조정 필요"로 표시하는 "IF" 문을 작성합니다. </p><p><code>IF({status}="CUR"&&{condition}="AR","Mediation Needed","")</code></p> </td> 
   </tr> 
  </tbody> 
 </table>

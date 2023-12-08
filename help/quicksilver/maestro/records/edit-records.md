@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
+source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '868'
 ht-degree: 1%
 
 ---
@@ -191,7 +191,7 @@ After permssions - replace the table with:
 
 1. 클릭 **변경 내용 저장**. <!--logged a bug for this - this needs to be "Save"-->
 
-### 레코드 유형 테이블 보기에서 레코드 편집
+### 레코드 유형의 표 보기에서 레코드 편집
 
 1. 다음을 클릭합니다. **메인 메뉴** ![](assets/main-menu-workfront.png) 오른쪽 상단 또는 **메인 메뉴** ![](assets/main-menu-shell.png) 왼쪽 위 모서리에서 사용 가능한 경우 을(를) 클릭합니다. **마에스트로** ![](assets/maestro-icon.png).
 
@@ -213,7 +213,7 @@ After permssions - replace the table with:
    >
    >  다음 필드는 읽기 전용이고 Workfront에서 자동으로 업데이트하므로 해당 필드에 대한 정보는 편집할 수 없습니다.
    >  
-   >  * 레코드 종류를 연결하여 만든 연결된 필드
+   >  * 레코드 종류를 연결하여 만든 연결된 필드. 자세한 내용은 [레코드 유형 연결](../architecture/connect-record-types.md).
    >  * 생성자, 생성일, 마지막 수정자, 마지막 수정자 유형의 필드
 
 
@@ -225,11 +225,12 @@ After permssions - replace the table with:
    >
    >* 정보를 붙여넣은 필드와 동일한 유형의 마에스트로 필드 이외의 다른 소스에서 정보를 복사할 수 없습니다.
    >
-   >* 레코드의 세부 정보 영역에 표시되는 필드의 필드 값을 복사하여 붙여넣을 수 없습니다.
+   >* 레코드의 세부 정보 영역에는 필드 값을 복사하여 붙여넣을 수 없습니다. 이 기능은 레코드 종류의 표 보기에서만 지원됩니다.
    >* 다음 필드 유형에 대한 필드 값을 복사하여 붙여넣을 수 없습니다.
-   ><ul>
    >
-   > * 시스템 필드
+   >
+   >    * 레코드 종류를 연결하여 만든 연결된 필드. 연결된 레코드 필드를 복사하여 붙여 넣을 수 있습니다. 자세한 내용은 [레코드 유형 연결](../architecture/connect-record-types.md).
+   >    * 생성자, 생성일, 마지막 수정자, 마지막 수정자 유형의 필드
 
 
    <!--take People out of the list above when they release this - this might be coming later-->
