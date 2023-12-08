@@ -7,9 +7,9 @@ description: '시스템에 설치된 파일(예: Photoshop 또는 Illustrator)�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: d3aefd7ec045b9bf4c5b42c0bb3576061a1056b0
+source-git-commit: 8d9fc0f391f24a513f118e904da35af4467f0c95
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1067'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Workfront에는 다음과 같은 제한이 있습니다.
 
 >[!NOTE]
 >
->파일이 클수록 업로드하는 데 더 많은 시간이 소요되며, 연결이 안정적이지 않을 경우 작업이 종료/중단될 수 있습니다.
+>파일이 클수록 업로드하는 데 더 많은 시간이 소요되며, 연결이 안정적이지 않을 경우 작업이 종료되거나 중단될 수 있습니다.
 
 ## 정적 파일
 

@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 3d9631f0108487b4cad312ed1a6be5ae313eee93
 workflow-type: tm+mt
-source-wordcount: '3496'
+source-wordcount: '3570'
 ht-degree: 0%
 
 ---
@@ -72,8 +72,11 @@ Workfront에 로그인할 수 있는 시간 유형에 대한 자세한 내용은
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <ul><li>타임시트에 일반 시간을 기록하려면 이상을 검토하십시오.</li>
-   <li> 프로젝트, 작업 또는 문제에 시간을 기록하려면 이상 작업</li></ul>
+   <td> <p>새 플랜:<ul><li>타임시트에 일반 시간을 기록하려면 표시등 이상 사용</li></p>
+   <li> 프로젝트, 작업 또는 문제에 시간을 기록하려면 표준 이상</li></ul></p>
+   <p>또는</p>
+   <p>현재 플랜:<ul><li>타임시트에 일반 시간을 기록하려면 이상을 검토하십시오.</li></p>
+   <li> 프로젝트, 작업 또는 문제에 시간을 기록하려면 이상 작업</li></ul></p>
    </td> 
   </tr> 
   <tr> 
@@ -103,7 +106,7 @@ Workfront에 로그인할 수 있는 시간 유형에 대한 자세한 내용은
 * 청구된 청구 기록에 포함된 시간 항목은 흐리게 표시되어 타임시트에서 편집할 수 없습니다. 자세한 내용은 [청구 기록 만들기](../../manage-work/projects/project-finances/create-billing-records.md).
 * 개인 작업은 기본적으로 타임시트에 표시되지 않습니다. 개인 작업은 시간이 기록된 경우에만 타임시트에 표시됩니다. 개인 작업에 시간을 기록한 후 작업을 타임시트에 고정할 수 있으며 고정된 상태로 유지되면 타임시트에 유지됩니다. 자세한 내용은 [홈 영역에서 작업 항목 만들기](../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
-## 로그 시간
+## 로그 시간 {#log-time-section}
 
 Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
 
@@ -136,7 +139,7 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
 
 타임시트에 시간을 기록하려면 다음을 수행하십시오.
 
-1. 다음을 클릭합니다. [!UICONTROL **메인 메뉴**] 아이콘 ![](assets/main-menu-icon.png) 오른쪽 상단 또는 **메인 메뉴** 아이콘 ![](assets/lines-main-menu.png) 사용 가능한 경우 Workfront의 왼쪽 상단 모서리에서
+1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리입니다.
 
 1. 클릭 [!UICONTROL **타임시트**]. 현재 타임시트가 기본적으로 표시됩니다.
    ![타임시트](assets/timesheet-redesigned-nwe.png)
@@ -157,6 +160,8 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
 1. (선택 사항) 필터, 보기 또는 그룹화 드롭다운 메뉴를 확장하여 드롭다운 메뉴를 적용하거나 사용자 지정하고 원하는 항목 정보를 봅니다.
 
 1. 목록에서 항목을 하나 이상 선택한 다음 **추가**.
+
+   한 번에 50개 미만의 항목을 추가한 경우 항목이 타임시트에 추가됩니다. 작업 및 문제는 프로젝트 이름 아래에 나열됩니다.
 
    >[!NOTE]
    >
@@ -208,6 +213,7 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
 
    ![시간 유형 드롭다운 메뉴](assets/hour-type-drop-down-expanded-redesigned-timesheet.png)
 
+
    >[!TIP]
    >
    >   운영 체제나 브라우저에 따라 표준 QWERTY 키보드를 사용할 때는 다음 키 세트를 눌러 다른 행을 추가합니다.
@@ -231,7 +237,6 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
    >   운영 체제나 브라우저에 따라 표준 QWERTY 키보드를 사용할 때는 다음 키 세트를 눌러 행을 삭제합니다.
    >   * Windows 컴퓨터의 경우 Ctrl + Option + -
    >   * Cmd + Option + - Mac 컴퓨터
-
 
 1. 타임시트의 타임라인 섹션에서 특정 날짜에 로그인할 시간을 지정한 다음 시간 상자 외부를 클릭하여 시간 항목을 저장합니다. 시간이 자동으로 저장됩니다. 시간을 기록하는 행은 연한 파란색으로 강조 표시되고 시간 항목 상자는 진한 파란색으로 윤곽이 표시됩니다.
 
@@ -299,6 +304,8 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
 1. (선택 사항) [!UICONTROL **업데이트**] 왼쪽 패널에서 업데이트를 타임시트에 추가합니다. Workfront 업데이트에 대한 자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
    ![재설계된 타임시트 왼쪽 패널 업데이트](assets/enter-an-update-in-redesigned-timesheet-left-panel.png)
+
+1. (선택 사항) **타임시트** 타임시트를 닫거나 제출할 영역입니다.
 
    * **닫기**: 타임시트 업데이트를 마치면 타임시트를 닫습니다. 이 옵션은 타임시트가 승인자와 연결되어 있지 않은 경우에만 사용할 수 있습니다.
 

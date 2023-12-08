@@ -1,25 +1,25 @@
 ---
 content-type: overview;reference
 navigation-topic: notifications
-title: Adobe Workfront 알림
+title: 알림 개요
 description: Adobe Workfront은 모바일 디바이스에서 이메일 알림, 인앱 알림 및 알림을 보냅니다.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: f0ad08f21101bca3f881b6e5a8267d30ce3988ed
 workflow-type: tm+mt
-source-wordcount: '1307'
-ht-degree: 1%
+source-wordcount: '1395'
+ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Workfront] 알림
+# 알림 개요
 
 [!DNL Adobe Workfront] 모바일 장치에서 이메일 알림, 인앱 알림 및 알림을 보냅니다.
 
 ## 이메일 알림
 
-[!DNL Workfront] 은 Workfront의 활동에 대해 사용자에게 경고하고 유용한 정보와 링크를 제공하기 위해 여러 이메일 알림을 보냅니다.
+[!DNL Workfront] 은 사용자에게 Workfront의 활동에 대해 경고하는 이메일 알림을 보내고 유용한 정보와 링크를 제공합니다.
 
 이메일 알림에 대한 기본 설정을 변경하려면 다음을 참조하십시오. [이메일 알림 수정](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
@@ -39,11 +39,11 @@ ht-degree: 1%
 
 ### 이벤트 알림
 
-이벤트 알림은에 사전 정의되어 있습니다. [!DNL Workfront]. 이러한 이벤트는 일반적으로 특정 이벤트에 의해 트리거됩니다.
+이벤트 알림은 일반적으로 사용자에게 작업을 할당하거나 작성한 댓글에 대한 답변을 받는 것과 같이 사전 정의된 특정 이벤트에 의해 트리거됩니다.
 
-에서 이벤트 알림을 활성화한 후 [!DNL Workfront] 관리자 또는 그룹 관리자는 을(를) 편집하여 수신하려는 항목을 선택할 수 있습니다. [!UICONTROL 알림] 사용자 프로필의 환경 설정. 이벤트 발생 시 알림을 수신할지 또는 일일 요약 이메일 하나로 요약된 이벤트를 수신할지 여부를 선택할 수도 있습니다.
+에서 이벤트 알림이 활성화된 후 [!DNL Workfront] 에 의한 시스템 [!DNL Workfront] 관리자 또는 그룹 관리자는 을(를) 편집하여 수신하려는 항목을 선택할 수 있습니다. [!UICONTROL 알림] 사용자 프로필의 환경 설정. 이벤트 발생 시 알림을 수신할지 또는 일일 요약 이메일 하나로 요약된 이벤트를 수신할지 여부를 선택할 수도 있습니다.
 
-다음 방법에 따라 [!DNL Workfront] 관리자가 다음에 대한 이벤트 알림을 구성했습니다. [!DNL Workfront] 시스템(에 설명됨) [시스템의 모든 사용자를 위한 이벤트 알림 구성](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md))을 설정하는 경우 이러한 알림의 하위 집합만 표시될 수 있습니다.
+설정에 따라 이러한 알림의 하위 집합만 표시될 수 있습니다. [!DNL Workfront] 관리자가 다음에 대한 이벤트 알림을 구성했습니다. [!DNL Workfront] 시스템. 자세한 내용은 [시스템의 모든 사용자를 위한 이벤트 알림 구성](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
 새 사용자를 만들 때 새 사용자에 대해 기본적으로 활성화되어 있는 알림(매일, 인스턴트 또는 둘 다)이 기본 상태에 표시됩니다.
 
@@ -56,6 +56,8 @@ ht-degree: 1%
 >이벤트 알림은 일별 다이제스트 업데이트에서 전달하도록 구성할 수 있는 유일한 알림입니다.
 
 ### 일별 다이제스트 알림
+
+일별 요약 알림은 이메일 24시간 전에 받은 특정 유형의 알림이 모두 포함된 이메일입니다.
 
 일별 요약 이메일 게재에 대해 활성화된 이메일 알림과 이메일 알림의 모든 카테고리에 대한 전체 목록은 을 참조하십시오. [이벤트 알림](../../workfront-basics/using-notifications/event-notifications.md#understanding-instant-and-daily-digest-notifications).
 
@@ -72,6 +74,10 @@ ht-degree: 1%
 
   의 경우 **[!UICONTROL 커뮤니케이션]** 범주, 알림은 통신이 발생한 객체별로 그룹화됩니다.
 
+  >[!NOTE]
+  >
+  >통신 범주의 경우 즉시 게재에 대해서만 개별 알림을 선택할 수 있습니다. 일별 요약으로 알림을 전달하려면 알림을 모두 선택해야 합니다.
+
 * 일별 요약 이메일에는 특정 영역(예: **내가 소유한 프로젝트 정보**)를 게재하기 위해 선택한 시간 전 24시간 이내.
 * 일별 다이제스트 배달을 위해 선택한 시간의 시간대는 브라우저에 구성되어 있으므로 해당 시간대와 일치합니다.
 * 일별 요약 이메일에는 제목란에 있는 섹션의 이름과 게재된 날짜가 있습니다.
@@ -85,13 +91,15 @@ ht-degree: 1%
 
 통신이 발생한 객체에 대한 정보가 요약되고, 각 객체에 대한 총 통신 메시지 수가 표시됩니다.
 
-이메일 알림 구성에 대한 자세한 내용은 [이메일 알림 수정](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Workfront에서 댓글에 답글을 달거나 댓글을 보려면 다음 작업을 수행하십시오.
 
-의 댓글 달기 지침 [!UICONTROL 커뮤니케이션] 이메일, 참조 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. 다음을 클릭합니다. **[!UICONTROL 댓글]** 이메일의 단추.
 
-에 대해 자세히 알아보기 [!UICONTROL 커뮤니케이션] 이메일, 참조 [이메일 알림 수정](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+   다음 [!UICONTROL 업데이트] 오브젝트의 영역이 열리고 구체적인 설명이 파란색으로 표시됩니다.
 
-일별 다이제스트 알림 활성화에 대한 자세한 내용은 [이메일 알림 수정](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+   댓글에 회신하는 데 사용할 수 있는 회신 상자가 열려 있습니다.
+
+일별 요약 알림 활성화를 포함하여 이메일 알림 구성에 대한 자세한 내용은 [이메일 알림 설정 보기 및 수정](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view-and-modify-your-email-notification-settings) 위치: [이메일 알림 수정](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ### 자동 미리 알림
 
@@ -120,7 +128,7 @@ ht-degree: 1%
 
 ### 미리 알림
 
-A [!DNL Workfront] 관리자(또는 가 있는 사용자) [!UICONTROL 플래너] 액세스 수준 및 미리 알림에 대한 관리 액세스)은 기한이 임박한 것에 대한 미리 알림을 디자인하고 프로젝트, 작업, 문제 및 타임시트에 첨부할 수 있습니다. 필요한 관리 액세스 권한을 얻는 방법에 대한 자세한 내용은 [사용자에게 특정 영역에 대한 관리 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+A [!DNL Workfront] 관리자(또는 가 있는 사용자) [!UICONTROL 플래너] 액세스 수준 및 미리 알림에 대한 관리 액세스)은 기한이 임박한 것에 대한 미리 알림을 디자인하고 프로젝트, 작업, 문제 및 타임시트와 수동으로 연결할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -130,15 +138,19 @@ A [!DNL Workfront] 관리자(또는 가 있는 사용자) [!UICONTROL 플래너]
 
 미리 알림 설정 및 활성화에 대한 자세한 내용은 [미리 알림 설정](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
 
+필요한 관리 액세스 권한을 얻는 방법에 대한 자세한 내용은 [사용자에게 특정 영역에 대한 관리 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+
 ### 게시판 알림
 
-[!DNL Adobe Workfront] [!UICONTROL 게시판] 귀하가 보드에 추가되거나 카드에 할당되면 이메일을 전송합니다.
+[!DNL Adobe Workfront] [!UICONTROL 게시판] 귀하가 보드에 추가되거나 카드에 할당되면 이메일을 전송합니다. 보드 환경 설정에서 수신할 이메일을 선택할 수 있습니다.
 
-보드 환경 설정에서 수신할 이메일을 선택할 수 있습니다. 자세한 내용은 [게시판 이메일 알림 및 환경 설정](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
+자세한 내용은 [게시판 이메일 알림 및 환경 설정](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
 
 ### 기타 [!DNL Workfront] 이메일
 
-받을 수 있는 다른 이메일이 있습니다. [!DNL Workfront] 구성할 수 없습니다. 다음 이메일은 다음에 의해 자동으로 전송됩니다. [!DNL Workfront] 다음 조건이 충족되는 경우:
+받을 수 있는 다른 이메일이 있습니다. [!DNL Workfront] 구성할 수 없습니다.
+
+다음 이메일은 다음에 의해 자동으로 전송됩니다. [!DNL Workfront] 다음 조건이 충족되는 경우:
 
 * 항목 복원: [!DNL Workfront] 관리자가 다음에서 객체를 복원합니다. [!UICONTROL 재활용] Bin으로 이메일이 전송됩니다. [!DNL Workfront] 관리자.
 * 복원 실패: 다음과 같은 경우 [!DNL Workfront] 관리자가 휴지통에서 개체를 복원하려고 할 때 복원이 실패하면 이메일이 [!DNL Workfront] 관리자.
@@ -165,7 +177,7 @@ A [!DNL Workfront] 관리자(또는 가 있는 사용자) [!UICONTROL 플래너]
 * [!UICONTROL 승인 결정]
 * [!UICONTROL 모든 알림 보기]
 * [!UICONTROL 추가]
-* [!UICONTROL 시작하기]
+* [!UICONTROL 시작]
 * [!UICONTROL 자세한 내용 보기]
 
 에 대한 자세한 내용은 [!DNL Workfront] 모바일 앱, 참조: [사용 [!DNL Adobe Workfront] 모바일 앱](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md).

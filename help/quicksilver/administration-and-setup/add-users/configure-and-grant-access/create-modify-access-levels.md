@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: configure-access-to-workfront
 description: Adobe Workfront 관리자는 사용자 정의 액세스 수준을 만들고 사용자에게 적용할 수 있습니다.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: bf4236d4a7ac5dc9bf5b91c5c70126f6e4de78a1
 workflow-type: tm+mt
-source-wordcount: '1402'
+source-wordcount: '1420'
 ht-degree: 6%
 
 ---
@@ -19,10 +19,10 @@ ht-degree: 6%
 
 <!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help. -->
 
-Adobe Workfront 관리자는 사용자 정의 액세스 수준을 만들고 사용자에게 적용할 수 있습니다. 액세스 수준으로 작업할 때는 사용자가 서로 개체를 공유할 때 부여하는 개체 권한으로 함께 작업하는 방법을 이해하는 것이 중요합니다. 액세스 수준에 대한 자세한 내용은
+Adobe Workfront 관리자는 사용자 정의 액세스 수준을 만들고 사용자에게 적용할 수 있습니다. 액세스 수준으로 작업할 때는 사용자가 서로 개체를 공유할 때 부여하는 개체 권한으로 함께 작업하는 방법을 이해하는 것이 중요합니다. 액세스 수준에 대한 자세한 내용은 다음을 참조하십시오.
 
 * [새로운 액세스 수준 개요](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
-* [액세스 수준 개요](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+* [액세스 수준 개요](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
 
 >[!IMPORTANT]
 >
@@ -105,7 +105,7 @@ Adobe Workfront 관리자는 사용자 정의 액세스 수준을 만들고 사�
      </tr> 
      <tr> 
       <td role="rowheader">환율</td> 
-      <td> <p>Workfront에서 새 통화를 추가합니다.</p> <p>이 액세스 권한이 없으면 사용자는 자신이 만드는 프로젝트에만 기존 통화를 추가할 수 있습니다.</p> </td> 
+      <td> Workfront에서 새 통화를 추가합니다. <p>이 액세스 권한이 없으면 사용자는 자신이 만드는 프로젝트에만 기존 통화를 추가할 수 있습니다.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">경비</td> 
@@ -118,13 +118,13 @@ Adobe Workfront 관리자는 사용자 정의 액세스 수준을 만들고 사�
      </tr> 
      <tr> 
       <td role="rowheader">작업 역할</td> 
-      <td> <p>이 액세스 권한을 통해 사용자는 다음 작업을 수행할 수 있습니다.</p> 
+      <td> 이 액세스 권한을 통해 사용자는 다음 작업을 수행할 수 있습니다. 
        <ul> 
         <li>기존 작업 역할 보기 및 편집</li> 
         <li>새 작업 역할 추가</li> 
         <li>역할 청구 및 비용 요금 편집</li> 
        </ul> 
-       <p>작업 역할에 대한 관리 액세스 권한이 있는 Standard 또는 Planner 사용자가 사용할 수 있는 재무 데이터에 대한 중요한 정보는 다음을 참조하십시오. <a href="#planner-users-with-administrative-access-to-job-roles">작업 역할에 대한 관리 액세스 권한이 있는 표준 또는 플래너 사용자</a>.</p>
+       <p>작업 역할에 대한 관리 액세스 권한이 있는 Standard 또는 Planner 사용자가 사용할 수 있는 재무 데이터에 대한 중요한 정보는 다음을 참조하십시오. <a href="#standard-or-planner-users-with-administrative-access-to-job-roles">작업 역할에 대한 관리 액세스 권한이 있는 표준 또는 플래너 사용자</a>.</p>
       </td> 
      </tr> 
      <tr> 
@@ -137,7 +137,7 @@ Adobe Workfront 관리자는 사용자 정의 액세스 수준을 만들고 사�
      </tr> 
      <tr> 
       <td role="rowheader">타임시트 및 시간</td> 
-      <td> <p>그룹 관리자는 자신이 관리하는 그룹 및 하위 그룹의 사용자에게 타임시트 프로필을 할당할 수 있습니다.</p> <p>이 옵션을 활성화하지 않으면 그룹 관리자는 자신이 관리하는 그룹 및 하위 그룹의 다른 사용자에게 타임시트 프로필을 만들 수 있지만 할당할 수 없습니다.</p> <p>Standard 또는 Plan 라이선스가 있는 다른 모든 사용자는 Workfront에서 모든 시간과 타임시트를 볼 수 있습니다.</p> <p>이 옵션을 활성화하지 않으면 사용자는 다음에 대한 시간만 볼 수 있습니다.</p> 
+      <td> 그룹 관리자는 자신이 관리하는 그룹 및 하위 그룹의 사용자에게 타임시트 프로필을 할당할 수 있습니다. <p>이 옵션을 활성화하지 않으면 그룹 관리자는 자신이 관리하는 그룹 및 하위 그룹의 다른 사용자에게 타임시트 프로필을 만들 수 있지만 할당할 수 없습니다.</p> <p>Standard 또는 Plan 라이선스가 있는 다른 모든 사용자는 Workfront에서 모든 시간과 타임시트를 볼 수 있습니다.</p> <p>이 옵션을 활성화하지 않으면 사용자는 다음에 대한 시간만 볼 수 있습니다.</p> 
        <ul> 
         <li>프로젝트, 작업 또는 문제</li> 
         <li>자신의 타임시트</li> 
@@ -168,11 +168,11 @@ Adobe Workfront 관리자는 사용자 정의 액세스 수준을 만들고 사�
      </tr> 
      <tr> 
       <td role="rowheader">대화에 포함된 업데이트만 보기</td> 
-      <td> <p>사용자 이름 또는 팀 이름이 포함된 주석만 볼 수 있습니다.</p> <p> <p><b>참고</b>: 사용자가 Workfront의 항목을 구독할 수 없습니다. 항목 구독에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">사용자 추가</a>.</p> </p> </td> 
+      <td> 사용자 이름 또는 팀 이름이 포함된 주석만 볼 수 있습니다. <p> <p><b>참고</b>: 사용자가 Workfront의 항목을 구독할 수 없습니다. 항목 구독에 대한 자세한 내용은 <a href="../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md" class="MCXref xref">Adobe Workfront에서 항목 구독</a>.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">사용자가 주석을 삭제하도록 허용하지 않음 </td> 
-      <td> <p>사용자가 항목에 대한 주석을 삭제하지 못하도록 합니다. </p> <p><b>참고</b>: 다른 사용자의 댓글을 삭제할 수 없습니다.</p> </td> 
+      <td> 사용자가 항목에 대한 주석을 삭제하지 못하도록 합니다.  <p><b>참고</b>: 다른 사용자의 댓글을 삭제할 수 없습니다.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">소속 회사, 그룹 및 팀만 보기</td> 
@@ -191,7 +191,7 @@ Adobe Workfront 관리자는 사용자 정의 액세스 수준을 만들고 사�
 
 1. (조건부 및 선택 사항) Workfront 시스템이 여러 회사에 속하는 사용자에 대해 설정된 경우 섹션에서 해당 회사가 속한 다른 사용자에 대한 가시성을 제한합니다 **다른 회사의 직원들은 다음 위치의 사용자만 볼 수 있습니다.**.
 
-   자신의 회사 또는 기본 회사로 지정한 회사의 사용자만 보도록 사용자를 제한할 수 있습니다. 기본 회사에 대한 자세한 내용은 [회사 만들기 및 편집](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+   자신의 회사 또는 기본 회사로 지정한 회사의 사용자만 보도록 사용자를 제한할 수 있습니다. 기본 회사는 일반적으로 대부분의 사용자가 근무하는 Workfront 계정을 나타냅니다. 기본 회사에 대한 자세한 내용은 [회사 만들기 및 편집](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
    >[!NOTE]
    >

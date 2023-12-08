@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: a04347593c19e278e2e7fe4443a0449c65ff991d
 workflow-type: tm+mt
-source-wordcount: '13778'
+source-wordcount: '13777'
 ht-degree: 0%
 
 ---
@@ -877,7 +877,7 @@ ht-degree: 0%
       * [오브젝트에 첨부된 사용자 정의 양식 관리](workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)
    * 알림 사용 {#use-notifications}
       * [알림 사용](workfront-basics/using-notifications/use-notifications.md)
-      * [Adobe Workfront 알림](workfront-basics/using-notifications/wf-notifications.md)
+      * [알림 개요](workfront-basics/using-notifications/wf-notifications.md)
       * [이메일 알림 수정](workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
       * [Adobe Workfront에서 항목 구독](workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
       * [인앱 알림 개요](workfront-basics/using-notifications/in-app-notifications-overview.md)

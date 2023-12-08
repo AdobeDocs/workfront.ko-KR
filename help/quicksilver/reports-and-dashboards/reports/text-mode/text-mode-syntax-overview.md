@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: dcbb55f57d189c715cc1111fde3c4bc597495851
 workflow-type: tm+mt
-source-wordcount: '1857'
+source-wordcount: '1863'
 ht-degree: 0%
 
 ---
@@ -99,14 +99,14 @@ ht-degree: 0%
 
 ### 보기 및 그룹화 구문
 
-보기와 그룹화를 작성할 때 코드 줄이 비슷하다는 것을 알 수 있습니다.
+보기와 그룹화를 작성할 때의 코드 행은 유사합니다.
 
 보기 및 그룹화 만들기에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
 * [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
 * [Adobe Workfront의 그룹화 개요](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
-뷰 또는 그룹화에 대한 가장 중요한 코드 행은 뷰의 열 또는 그룹화에서 참조된 객체를 식별하는 행입니다. 이 필드가 Workfront 데이터베이스 필드에 대한 직접 참조인지 또는 여러 필드 간의 계산인지에 따라 코드 줄이 다음으로 시작될 수 있습니다. `valuefield` 또는 `valueexpression`
+뷰 또는 그룹화에 대한 가장 중요한 코드 행은 뷰의 열 또는 그룹화에서 참조된 객체를 식별하는 행입니다. 이 코드 행은 다음으로 시작될 수 있습니다. `valuefield` 또는 `valueexpression` 이 필드가 Workfront 데이터베이스 필드에 대한 직접 참조인지 또는 여러 필드 간의 계산인지 여부를 기반으로 합니다.
 
 다음 표에는 뷰 또는 그룹화에서 가장 일반적인 코드 행이 나열되어 있습니다.
 
@@ -216,13 +216,11 @@ ht-degree: 0%
 
 #### `Valueformat` 보기 및 그룹화 개요
 
-보기 또는 그룹화에서 두 번째로 중요한 코드 행은 `valueformat=` 줄. 이것은 Workfront에 지정하는 값을 반환할 형식을 알려줍니다.
-`valuefield` 또는 valueexpression 행입니다. 에 다양한 형식을 사용할 수 있지만 `valueformat` 행, 을 사용할 때는 항상 다음 값을 사용하는 것이 좋습니다
-`valueexpression`:
+보기 또는 그룹화에서 두 번째로 중요한 코드 행은 `valueformat=` 줄. 이것은 Workfront에 지정하는 값을 반환할 형식을 알려줍니다. `valuefield` 또는 `valueexpression` 줄. 에 다양한 형식을 사용할 수 있지만 `valueformat` 행, 을 사용할 때는 항상 다음 값을 사용하는 것이 좋습니다 `valueexpression`:
 
 `valueformat=HTML`
 
-추가 `valueformats` 값은 다음 문서를 참조하십시오.
+추가 `valueformat` 값은 다음 문서를 참조하십시오.
 
 * [텍스트 모드 보고서에서 날짜 형식 지정](../../reports/text-mode/format-dates-in-text-mode-reports.md)
 * [텍스트 모드 보고서에서 숫자, 통화 및 백분율 값 서식 지정](../../reports/text-mode/format-numbers-in-text-mode-reports.md)
