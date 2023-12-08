@@ -7,7 +7,7 @@ description: Adobe Workfront Fusion Devtool을 사용하면 시나리오를 이�
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: a84c59e44055dec25928f34f1a795bb8565ff199
+source-git-commit: fb0ead5a39d95b3228fccd417947fa77b49305dd
 workflow-type: tm+mt
 source-wordcount: '1809'
 ht-degree: 0%
@@ -88,7 +88,7 @@ Classic에서 Devtool을 사용하려면 [!DNL Fusion] 경험, 다음을 설치�
 
 다음을 추가할 수 있습니다. [!DNL Workfront Fusion] 개발자 도구 [!DNL Chrome] 다음을 통해 [!UICONTROL [!DNL Chrome] 웹 스토어].
 
-1. 클릭 [이 링크](https://chrome.google.com/webstore/detail/workfront-fusion-Devtool/hkimbmkkmmejdnhbhoaefggkpkndfjnn/related) 로 이동 [!DNL Workfront Fusion] 에 대한 개발자 도구 [!UICONTROL [!DNL Chrome] 웹 스토어].
+1. 클릭 [이 링크](https://chromewebstore.google.com/u/1/detail/workfront-fusion-devtool/hkimbmkkmmejdnhbhoaefggkpkndfjnn) 로 이동 [!DNL Workfront Fusion] 에 대한 개발자 도구 [!UICONTROL [!DNL Chrome] 웹 스토어].
 1. 클릭 **[!UICONTROL 추가[!DNL Chrome]]**.
 1. 열려 있는 창에서 권한을 검사합니다. 권한에 동의하는 경우 **[!UICONTROL 확장 추가]**.
 
