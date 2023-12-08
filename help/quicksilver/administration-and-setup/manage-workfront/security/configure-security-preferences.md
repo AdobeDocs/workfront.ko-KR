@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 73e6a62e4c4103d0a4dc7e3f58ddd68cbd145b8c
+source-git-commit: c709ecd8023a0a9ce9c5b4591145d0a70912e003
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 6%
+source-wordcount: '833'
+ht-degree: 4%
 
 ---
 
@@ -42,7 +42,7 @@ Workfront 구현 중에 시스템 환경 설정을 구성하고, 그 이후에 �
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td>모든</td> 
+   <td>임의</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -69,7 +69,7 @@ Workfront 구현 중에 시스템 환경 설정을 구성하고, 그 이후에 �
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>빠른 검토 프로세스 활성화</p> </td> 
-      <td>분기별 릴리스 대신 조직에 대한 월별 Workfront 릴리스를 활성화할 수 있습니다.</p><p>빠른 릴리스 프로세스에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">조직의 빠른 릴리스 활성화 또는 비활성화</a>.</p></td> 
+      <td>분기별 릴리스 대신 조직에 대한 월별 Workfront 릴리스를 활성화할 수 있습니다.</p><p>빠른 릴리스 프로세스에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md" class="MCXref xref">조직의 빠른 릴리스 활성화 또는 비활성화</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>포함 허용 <strong>Workfront</strong> iframe에서</p> </td> 
@@ -80,7 +80,7 @@ Workfront 구현 중에 시스템 환경 설정을 구성하고, 그 이후에 �
       <td> <p>Workfront을 SAML 2.0 Single Sign-On 솔루션과 통합할 때 Office 365 추가 기능에 대한 iframe에서만 Workfront을 포함할 수 있습니다. </p> <p>이 옵션은 기본적으로 활성화되어 있습니다.</p> <p><b>참고</b>: 위의 옵션을 활성화하는 경우 <strong>iframe에 Workfront 포함 허용</strong>, 옵션 <strong>Office 365 추가 기능에서 SAML 2.0 인증 허용</strong> 은 활성화되고 흐리게 표시됩니다.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">외부 페이지 URL을 생성할 때 세션 정보 사용을 활성화합니다</td> 
+      <td role="rowheader">외부 페이지 URL을 만들 때 세션 정보 사용을 활성화합니다.</td> 
       <td> <p>대시보드에 외부 페이지를 추가할 때 사용자가 사이트의 세션 ID 정보를 사용할 수 있도록 허용합니다.</p> <p>대시보드에 외부 페이지 추가에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">외부 웹 페이지를 대시보드에 포함</a>.</p> </td> 
      </tr> 
      <tr> 
@@ -98,7 +98,7 @@ Workfront 구현 중에 시스템 환경 설정을 구성하고, 그 이후에 �
        </ul><p>이 옵션은 기본적으로 활성화되어 있습니다.</p> <p><b>중요 사항</b>: 이 옵션이 비활성화되면 Workfront 인스턴스에서 외부 사용자 액세스 수준을 사용할 수 없습니다. 자세한 내용은 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Workfront의 기본 액세스 수준</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">외부 사용자는 암호를 사용해 등록해야 합니다</td> 
+      <td role="rowheader">외부 사용자가 암호로 등록해야 함</td> 
       <td> <p>외부 사용자가 Workfront에서 항목을 볼 수 있으려면 먼저 등록해야 합니다. 기본적으로 이 옵션은 비활성화되어 있습니다. 이 옵션을 활성화하면 이메일 주소로 특정 업데이트에 포함된 Workfront 계정이 없는 사람에게 포함된 항목을 보기 전에 계정을 만들라는 메시지가 표시됩니다. 그러면 해당 사용자에 대한 외부 사용자 계정이 생성됩니다.</p> <p>이 옵션은 기본적으로 비활성화되어 있습니다.</p> </td> 
      </tr> 
      <tr> 
