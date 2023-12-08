@@ -6,9 +6,9 @@ description: 특정 보고 요소를 작성할 때 특정 정보 대신 와일�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 759b0bea-729e-4206-808c-0a7216ded4ff
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront 플랜*</strong></td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront 라이센스*</strong></td> 
@@ -90,7 +90,7 @@ ht-degree: 0%
 1. (선택 사항) 보고서가 실행된 날짜 이후 일정 내에 발생하는 정보를 표시하려면 다음을 입력합니다 `$$TODAY+1w` 다음 주에 정보를 표시하려면 `$$TODAY+2m` 다음 두 달 안에 정보를 표시할 수 있습니다. 분기, 시간, 일 또는 연도의 기간을 표시할 수도 있습니다.
 1. (선택 사항) 보고서가 실행되기 전 일정 기간 내에 발생한 사항에 대한 정보를 표시하려면 다음을 입력합니다 `$$TODAY-1w` 이전 주의 정보를 표시하려면 `$$TODAY-2m` 이전 두 달의 정보를 표시합니다. 분기, 시간, 일 또는 연도의 기간을 표시할 수도 있습니다.
 
-   날짜 기반 와일드카드에 사용할 수 있는 속성, 한정자 및 연산자의 전체 목록에 대해서는 문서를 참조하십시오 [와일드카드 필터 변수](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+   날짜 기반 와일드카드에 사용할 수 있는 속성, 한정자 및 연산자의 전체 목록에 대해서는 문서를 참조하십시오 [와일드카드 필터 변수 개요](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
    ![](assets/video-date-based-wildcard-in-task-filter-350x81.png)
 
@@ -101,7 +101,7 @@ ht-degree: 0%
 다음도 참조하십시오.
 
 <!--outdated: * [Basic Report Creation Program](https://one.workfront.com/s/basic-report-creation-program) -->
-* [와일드카드 필터 변수](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
+* [와일드카드 필터 변수 개요](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
 * [Adobe Workfront에서 필터 만들기 또는 편집](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
 * [보고서에 프롬프트 추가](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 * [보기에서 조건부 서식 사용](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)

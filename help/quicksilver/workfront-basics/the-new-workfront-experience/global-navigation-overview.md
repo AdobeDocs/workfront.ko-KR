@@ -5,9 +5,9 @@ description: 위쪽 탐색 모음 - 새 화면의 맨 위에 나타납니다. [!
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: 98d3240bb57ff10c7031eb324f3ce67c1bf6ac9e
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td> <p class="bold">[!UICONTROL 설치]</p> </td> 
-   <td> <p>클릭 <b>[!UICONTROL 설치]</b> 의 다양한 측면을 구성할 수 있는 [!UICONTROL 설정] 영역으로 이동합니다. [!DNL Workfront] 계정입니다. 액세스 설정에 따라 구성할 수 있는 항목이 제한될 수 있습니다.</p> <p>[!UICONTROL Setup] 영역에 대한 자세한 내용은 <a href="../../administration-and-setup/administration-and-setup.md" class="MCXref xref">관리 및 설정</a>.</p> </td> 
+   <td> <p>클릭 <b>[!UICONTROL 설치]</b> 의 다양한 측면을 구성할 수 있는 [!UICONTROL 설정] 영역으로 이동합니다. [!DNL Workfront] 계정입니다. 액세스 설정에 따라 구성할 수 있는 항목이 제한될 수 있습니다.</p> <p>[!UICONTROL Setup] 영역에 대한 자세한 내용은 <a href="../../administration-and-setup/administration-and-setup.md" class="MCXref xref">관리 및 설정: 문서 색인</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <p class="bold">[!UICONTROL 도움말]</p> </td> 

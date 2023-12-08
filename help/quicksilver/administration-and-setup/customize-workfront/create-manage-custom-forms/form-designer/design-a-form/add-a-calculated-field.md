@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
 workflow-type: tm+mt
-source-wordcount: '2319'
+source-wordcount: '2320'
 ht-degree: 0%
 
 ---
@@ -254,7 +254,7 @@ ht-degree: 0%
         >
         >`IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})`
 
-        변수에 대한 자세한 내용은 다음을 참조하십시오 `$$OBJCODE,` 참조 [와일드카드 필터 변수](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+        변수에 대한 자세한 내용은 다음을 참조하십시오 `$$OBJCODE,` 참조 [와일드카드 필터 변수 개요](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
         **계산된 사용자 정의 필드의 자동 업데이트**
 

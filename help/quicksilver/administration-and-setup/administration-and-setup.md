@@ -3,22 +3,22 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;setup
 navigation-topic: administration-and-setup
-title: 관리 및 설정
-description: 이 섹션에서 Workfront 시스템을 관리하는 데 필요한 정보를 찾으십시오.
+title: "관리 및 설정: 문서 색인"
+description: Workfront 시스템을 관리하는 데 필요한 정보를 찾습니다.
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: f80bb267-be96-41d4-98c5-398bde66499e
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: a1569362dee8cd686a91698af3c9c217e920c263
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 27%
+source-wordcount: '73'
+ht-degree: 1%
 
 ---
 
-# 관리 및 설정
+# 관리 및 설정: 문서 색인
 
-이 섹션에는 다음 하위 섹션이 포함됩니다.
+관리자는 Workfront에서 사용자 경험을 제어하고 사용자 정의할 수 있습니다. 아래 링크를 사용하여 시작하십시오.
 
 * [Adobe Workfront 관리 시작](../administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
   <!--

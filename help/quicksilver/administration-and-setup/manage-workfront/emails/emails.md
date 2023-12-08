@@ -10,7 +10,7 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: cdc0a2bb-f125-42b2-acab-c869bc71250c
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: 7c1115065e4d2f4732b392336aed692c055ba97c
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Workfront의 이메일(내부 및 외부 모두)은 다양하고 동적입니다
 * [Adobe Workfront에서 사용할 수 있는 이벤트 알림](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
 * [모든 그룹에 대한 이벤트 알림 구성 잠금 해제 또는 잠금](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
 * [이벤트 알림에 대한 이메일 제목 사용자 지정](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)
-* [사용자 프로필의 이메일 알림 설정 수정](../../../administration-and-setup/manage-workfront/emails/modify-email-notification-settings-user-profiles.md)
+* [여러 사용자의 이메일 알림 설정 수정](../../../administration-and-setup/manage-workfront/emails/modify-email-notification-settings-user-profiles.md)
 * [미리 알림 설정](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md)
 * [객체에 미리 알림 첨부](../../../workfront-basics/using-notifications/attach-reminder-notification-object.md)
 * [자동 미리 알림 설정](../../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md)

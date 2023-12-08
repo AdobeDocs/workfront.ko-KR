@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: dcbb55f57d189c715cc1111fde3c4bc597495851
+source-git-commit: 6279106f56fa0d128e0dd03cd13b63a71d4c2952
 workflow-type: tm+mt
-source-wordcount: '1863'
+source-wordcount: '1865'
 ht-degree: 0%
 
 ---
@@ -211,7 +211,7 @@ ht-degree: 0%
 
 * 다음에서 와일드카드를 사용할 수 있습니다. `valueexpression` 그러나 에는 없습니다. `valuefield` 줄.
 
-  와일드카드에 대한 자세한 내용은 [와일드카드 필터 변수](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+  와일드카드에 대한 자세한 내용은 [와일드카드 필터 변수 개요](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 
 #### `Valueformat` 보기 및 그룹화 개요
@@ -285,4 +285,4 @@ ht-degree: 0%
      >
      >문 커넥터는 대소문자를 구분하며 항상 대문자입니다. 텍스트 모드에서 &quot;AND&quot;를 생략할 수 있습니다.
 
-* 필터를 보다 동적으로 만들고 현재 시간 또는 로그인한 사용자에 대해 사용자 지정하는 와일드카드. 와일드카드에 대한 자세한 내용은 [와일드카드 필터 변수](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+* 필터를 보다 동적으로 만들고 현재 시간 또는 로그인한 사용자에 대해 사용자 지정하는 와일드카드. 와일드카드에 대한 자세한 내용은 [와일드카드 필터 변수 개요](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).

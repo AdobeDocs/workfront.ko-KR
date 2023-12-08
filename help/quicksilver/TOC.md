@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: a04347593c19e278e2e7fe4443a0449c65ff991d
+source-git-commit: 6279106f56fa0d128e0dd03cd13b63a71d4c2952
 workflow-type: tm+mt
-source-wordcount: '13777'
+source-wordcount: '13783'
 ht-degree: 0%
 
 ---
@@ -392,7 +392,7 @@ ht-degree: 0%
          * [Adobe Workfront 및 Frame.io 기본 통합 알파: 개요](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
          * [Adobe Workfront 및 Frame.io 기본 통합 알파: 기능](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-features.md)
 * 관리 및 설정 {#administration-and-setup}
-   * [관리 및 설정](administration-and-setup/administration-and-setup.md)
+   * [관리 및 설정: 문서 색인](administration-and-setup/administration-and-setup.md)
    * 관리 시작 {#get-started-administration}
       * [관리 시작: 문서 색인](administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
       * [구현 목표 정의](administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
@@ -807,7 +807,7 @@ ht-degree: 0%
    * [Adobe Workfront 브라우저 요구 사항](workfront-basics/workfront-browser-requirements.md)
    * [Adobe Workfront에서 지원되는 언어](workfront-basics/supported-languages-in-workfront.md)
    * Adobe Workfront 탐색 {#navigate}
-      * [Adobe Workfront 탐색](workfront-basics/navigate-workfront/navigate-workfront.md)
+      * [Adobe Workfront 탐색: 문서 색인](workfront-basics/navigate-workfront/navigate-workfront.md)
       * Adobe Workfront 검색 {#search}
          * [Adobe Workfront 검색](workfront-basics/navigate-workfront/search/search.md)
          * [Adobe Workfront 검색](workfront-basics/navigate-workfront/search/search-workfront.md)
@@ -973,7 +973,7 @@ ht-degree: 0%
    * [애자일](agile/agile.md)
    * [보드 개요](agile/boards-overview.md)
    * Adobe Workfront에서 보드 시작 {#boards-in-workfront}
-      * [Adobe Workfront에서 보드 시작](agile/get-started-with-boards/get-started-with-boards.md)
+      * [보드 시작: 문서 색인](agile/get-started-with-boards/get-started-with-boards.md)
       * [Adobe Workfront Boards 비디오 데모](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)
       * [게시판 초기 기능 옵트인](agile/get-started-with-boards/boards-early-feature-opt-in.md)
       * [보드 대시보드 사용](agile/get-started-with-boards/use-boards-page.md)
@@ -1516,7 +1516,7 @@ ht-degree: 0%
          * [Adobe Workfront의 그룹화 개요](reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
          * [Adobe Workfront에서 그룹화 만들기](reports-and-dashboards/reports/reporting-elements/create-groupings.md)
          * [기존 그룹화 편집](reports-and-dashboards/reports/reporting-elements/edit-existing-groupings.md)
-         * [와일드카드 필터 변수](reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
+         * [와일드카드 필터 변수 개요](reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
          * [날짜 기반 와일드카드를 사용하여 보고서를 일반화합니다.](reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md)
          * [사용자 기반 와일드카드를 사용하여 보고서 일반화](reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md)
          * [필터, 보기 또는 그룹화 공유](reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
@@ -1785,7 +1785,7 @@ ht-degree: 0%
          * [문서 검토](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
          * [문서 승인](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
    * 증명 {#proofing}
-      * [증명](review-and-approve-work/proofing/proofing.md)
+      * [증명: 문서 색인](review-and-approve-work/proofing/proofing.md)
       * 증명 개요 {#proofing-overview}
          * [증명 개요](review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
          * [증명 권한 프로필 개요](review-and-approve-work/proofing/proofing-overview/permission-profiles.md)

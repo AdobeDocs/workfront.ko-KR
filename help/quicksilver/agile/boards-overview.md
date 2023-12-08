@@ -7,9 +7,9 @@ description: Adobe Workfront 보드는 열과 카드가 포함된 공유 보드�
 author: Lisa
 feature: Agile
 exl-id: 7382e338-3e4c-4a93-a0d4-87ef52f69f36
-source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
+source-git-commit: e2db904bc5b4e3682421677b30b0187a6fff46d9
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -28,12 +28,12 @@ ht-degree: 0%
 * 한 곳에서 팀의 작업 구성 및 관리
 * 칸반 보드에 대한 접수 열과 같은 애자일 계획 도구 사용
 
-기본 보드 기능을 사용하는 방법에 대한 자세한 내용은 [에서 보드 시작 [!DNL Adobe Workfront]](../agile/get-started-with-boards/get-started-with-boards.md). 보드의 애자일 계획 도구에 대한 자세한 내용은 [애자일 계획 도구 개요](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md).
+기본 보드 기능을 사용하는 방법에 대한 자세한 내용은 [보드 시작: 문서 색인](../agile/get-started-with-boards/get-started-with-boards.md). 보드의 애자일 계획 도구에 대한 자세한 내용은 [애자일 계획 도구 개요](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md).
 
 프로젝트에서 보드를 사용하는 방법에 대한 자세한 내용은 [애자일 보기에서 프로젝트 관리](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
-모바일 앱에서 보드에 액세스할 수도 있습니다. 자세한 내용은 [[!DNL Adobe Workfront] [!UICONTROL Boards] 모바일용](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
+모바일 앱에서 보드에 액세스할 수도 있습니다. 자세한 내용은 [[!DNL Adobe Workfront] [!UICONTROL 게시판] 모바일용](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
 
-보드 기능 비디오 연습은 다음을 참조하십시오. [[!DNL Adobe Workfront] [!UICONTROL Boards] 비디오 데모](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md).
+보드 기능 비디오 연습은 다음을 참조하십시오. [[!DNL Adobe Workfront] [!UICONTROL 게시판] 비디오 데모](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md).
 
 의 추가 애자일 도구에 대한 정보 [!DNL Workfront], 참조 [애자일 개요](../agile/agile-overview.md).

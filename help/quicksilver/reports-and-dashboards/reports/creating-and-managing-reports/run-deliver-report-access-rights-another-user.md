@@ -6,9 +6,9 @@ description: 기본적으로 사용자는 보기 권한이 있는 보고서 내�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e5e2b683-876c-45b4-ab61-07b1ad0b5650
-source-git-commit: e68e470da3b03e418584898c4098f0be302c68ec
+source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
 workflow-type: tm+mt
-source-wordcount: '1206'
+source-wordcount: '1207'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
@@ -74,6 +74,7 @@ ht-degree: 0%
    ![](assets/qs-access-rights-of-350x251.png)
 
    >[!NOTE]
+   >
    보고서를 작성할 수 있는 액세스 수준이 낮은 사용자는에 대해 자신 이외의 사용자를 선택할 수 없습니다. **다음의 액세스 권한으로 이 보고서 실행:** 필드.
 
 1. 클릭 **완료**.
@@ -81,8 +82,10 @@ ht-degree: 0%
    이제 보고서가 다음에 지정된 사용자가 본 것처럼 공유된 모든 사용자에 대해 보고서가 표시됩니다. **다음의 액세스 권한으로 이 보고서 실행:** 필드.
 
 >[!IMPORTANT]
-에 로그인한 사용자 이외의 사용자 입력 **다음의 액세스 권한으로 이 보고서 실행:** 필드는 보고서에 로그인한 사용자를 참조하는 와일드카드를 사용하는 필터가 포함된 경우 보고서에 표시되는 정보에 영향을 줍니다. 보고서는 다음에 지정된 값에 따라 표시됩니다 **다음의 액세스 권한으로 이 보고서 실행:** 와일드카드 필터에 정의된 필드가 아닙니다.
-사용자 필드의 와일드카드에 대한 자세한 내용은 의 &quot;사용자 기반 변수&quot; 섹션을 참조하십시오 [와일드카드 필터 변수](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+>
+에 로그인한 사용자 이외의 사용자 입력 **다음의 액세스 권한으로 이 보고서 실행:** 필드는 보고서에 로그인한 사용자를 참조하는 와일드카드를 사용하는 필터가 포함된 경우 보고서에 표시되는 정보에 영향을 줍니다. 보고서는 다음에 지정된 값에 따라 표시됩니다 **다음의 액세스 권한으로 이 보고서 실행:** 와일드카드 필터에 정의된 필드 대신 를 사용하십시오.
+>
+사용자 필드의 와일드카드에 대한 자세한 내용은 의 &quot;사용자 기반 변수&quot; 섹션을 참조하십시오 [와일드카드 필터 변수 개요](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ## 다른 사용자의 액세스 권한이 있는 보고서 게재
 
@@ -101,6 +104,7 @@ ht-degree: 0%
    ![](assets/qs-send-report-access-rights-of-350x446.png)
 
    >[!NOTE]
+   >
    보고서를 작성할 수 있는 액세스 수준이 낮은 사용자는에 대해 자신 이외의 사용자를 선택할 수 없습니다. **다음의 액세스 권한으로 이 보고서 게재:** 필드.
 
 1. 다음 항목 선택 **형식** 보고서를 전자 메일에 표시하려는 경우:
@@ -134,20 +138,20 @@ ht-degree: 0%
 * 문제 보고서에 대한 프로젝트 이름 또는 작업 이름 열입니다.
 * 세 개체를 모두 참조하는 텍스트 모드 표현식을 사용하는 열입니다. 다음은 시간 보고서의 예입니다.
 
-   `displayname=Custom Source`
+  `displayname=Custom Source`
 
-   `linkedname=opTask`
+  `linkedname=opTask`
 
-   `namekey=view.relatedcolumn`
+  `namekey=view.relatedcolumn`
 
-   `namekeyargkey.0=opTask`
+  `namekeyargkey.0=opTask`
 
-   `namekeyargkey.1=name`
+  `namekeyargkey.1=name`
 
-   `textmode=true`
+  `textmode=true`
 
-   `valueexpression=IF(!ISBLANK({opTaskID}),{opTask}.{name},IF(!ISBLANK({taskID}),{task}.{name},IF(!ISBLANK({projectID}),{project}.{name},IF(!ISBLANK({timesheetID}),CONCAT({owner}.{name}," ",{timesheet}.{startDate}," - ",{timesheet}.{endDate}),""))))`
+  `valueexpression=IF(!ISBLANK({opTaskID}),{opTask}.{name},IF(!ISBLANK({taskID}),{task}.{name},IF(!ISBLANK({projectID}),{project}.{name},IF(!ISBLANK({timesheetID}),CONCAT({owner}.{name}," ",{timesheet}.{startDate}," - ",{timesheet}.{endDate}),""))))`
 
-   `valueformat=HTML`
+  `valueformat=HTML`
 
-   텍스트 모드 보기에 대한 자세한 내용은 [텍스트 모드를 사용하여 보기 편집](../text-mode/edit-text-mode-in-view.md).
+  텍스트 모드 보기에 대한 자세한 내용은 [텍스트 모드를 사용하여 보기 편집](../text-mode/edit-text-mode-in-view.md).

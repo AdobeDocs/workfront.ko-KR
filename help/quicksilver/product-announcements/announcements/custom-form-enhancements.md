@@ -4,9 +4,9 @@ description: 22.2 릴리스에서 사용자 정의 양식 관리에 대해 다�
 author: Luke
 feature: Product Announcements, Custom Forms
 exl-id: 81568eab-8a65-4767-b8ab-fb9353a90bb6
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1186'
 ht-degree: 0%
 
 ---
@@ -127,7 +127,7 @@ ht-degree: 0%
 
 사용자 정의 양식에 계산된 사용자 정의 필드를 추가하는 방법에 대한 지침은 [사용자 정의 양식에 계산된 데이터 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
-변수에 대한 자세한 내용은 다음을 참조하십시오 `$$OBJCODE`, 참조 [와일드카드 필터 변수](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+변수에 대한 자세한 내용은 다음을 참조하십시오 `$$OBJCODE`, 참조 [와일드카드 필터 변수 개요](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ### 사용자 정의 양식에서 오브젝트 유형 삭제에 대한 주의
 
