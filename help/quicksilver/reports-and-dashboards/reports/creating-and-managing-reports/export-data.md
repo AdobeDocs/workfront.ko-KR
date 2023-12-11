@@ -6,9 +6,9 @@ description: 보고서 데이터를 내보내는 방법 알아보기
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 3980d24b4a9c34b85c475a124c2b83dae7aa55ff
 workflow-type: tm+mt
-source-wordcount: '2177'
+source-wordcount: '2185'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Workfront 인터페이스에서 보고서를 수동으로 내보내거나 보고
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
@@ -100,6 +100,7 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
 Workfront에 보고서가 표시되는 방식과 수동 내보내기, 배달된 보고서 또는 API를 통해 내보내는 방식에 따라 몇 가지 제한 사항이 있습니다.
 
+* **50,000개 셀:** Excel 파일에 대한 보고서 내보내기에 허용되는 최대 셀 수입니다.
 * **50,000행:** .pdf 및 탭으로 구분된 파일에 대한 보고서 내보내기에 허용되는 데이터 행 수입니다.
 
    * Excel .xls 파일의 경우 이 제한은 **65,000행**.
@@ -310,14 +311,14 @@ PDF 파일로 내보낸 보고서에는 제목이 있습니다.
 
 >[!TIP]
 >
->줄이 있는 경우 `valueformat=HTML` 사용자 정의 필드 열의 텍스트 모드에 나타나며 링크 값이 내보낸 .pdf 파일에 표시되지 않습니다. 텍스트 모드에서 열에 추가 코드 행을 입력해야 합니다.
+줄이 있는 경우 `valueformat=HTML` 사용자 정의 필드 열의 텍스트 모드에 나타나며 링크 값이 내보낸 .pdf 파일에 표시되지 않습니다. 텍스트 모드에서 열에 추가 코드 행을 입력해야 합니다.
 >
->예를 들어 링크가 포함된 Q1 프로젝트 열기 라는 사용자 정의 필드가 있는 경우 다음 코드를 추가합니다.
+예를 들어 링크가 포함된 Q1 프로젝트 열기 라는 사용자 정의 필드가 있는 경우 다음 코드를 추가합니다.
 >
->```
->link.url=customDataLabelsAsString(Open Q1 Projects)
->linkedname=direct
->```
+```
+link.url=customDataLabelsAsString(Open Q1 Projects)
+linkedname=direct
+```
 
 Excel 형식으로 내보낼 때 Workfront 내의 오브젝트에 대한 링크만 내보낸 파일에 포함되며 보고서 게재와 같이 내보낸 Excel 문서에서 링크를 허용하도록 선택할 수 있는 위치에서만 지원됩니다.
 
