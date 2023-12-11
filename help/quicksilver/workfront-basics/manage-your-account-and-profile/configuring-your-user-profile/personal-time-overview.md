@@ -2,23 +2,23 @@
 content-type: overview
 product-area: user-management
 navigation-topic: configure-your-user-profile
-title: 에서 개인 휴무 구성 [!DNL Adobe Workfront]
-description: Adobe Workfront은 개인 휴무를 관리, 저장 및 추적하기 위해 기존 시스템을 복제하거나 대체하도록 설계되지 않았습니다. 하지만 이는 일정에 영향을 주고 할당된 작업의 계획된 완료 일자에 영향을 주기 때문에 승인된 휴무가 발생하는 시기를 표시하는 것이 중요합니다.
+title: 개인 휴무 구성
+description: 승인된 휴무는 일정에 영향을 주고 할당된 작업의 계획된 완료 일자에 영향을 주기 때문에 Adobe Workfront에 시간을 표시하는 것이 중요합니다.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 91eb8770c07396b5772029e9d2370f0b1f10d4a1
+source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
 
-# 에서 개인 휴무 구성 [!DNL Adobe Workfront]
+# 개인 휴무 구성
 
 [!DNL Adobe Workfront] 는 개인 휴무를 관리, 적립 및 추적하기 위해 기존 시스템을 복제하거나 대체하도록 설계되지 않았습니다.
 
-그러나 승인된 휴무는 일정에 영향을 주고 다음에 영향을 주므로 해당 시기를 표시하는 것이 중요합니다. [!UICONTROL 계획된 완료 일자] 을(를) 할당한 대상입니다.
+그러나 승인된 휴무가 발생하는 시기를 표시하는 것이 중요합니다. 이는 일정과 [!UICONTROL 계획된 완료 일자] 을(를) 할당한 대상입니다.
 
 예를 들어, 2주가 걸리도록 예정된 작업에 할당되고 해당 시간 동안 3일 동안 휴식을 취할 계획이라면 [!DNL Workfront] 휴무를 고려하여 작업 타임라인에 3일을 추가합니다.
 
@@ -43,15 +43,17 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 플랜*</strong></td> 
-   <td>모든</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 플랜*</td> 
+   <td>임의</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
-   <td>[!UICONTROL 작업] 이상(개인 휴무를 구성하기 위해)</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
+   <td> <p>새로운 플랜: 표준(개인 휴무 구성)</p>
+        <p>또는</p>
+        <p>현재 플랜: 회사 또는 그 이상(개인 휴무 구성)</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>액세스 수준 구성*</strong></td> 
+   <td role="rowheader">액세스 수준 구성*</td> 
    <td>[!UICONTROL Edit User] 액세스 권한이 있는 [!UICONTROL Manager](다른 사용자의 휴무 달력을 변경하기 위해)<br>
    <strong>참고:</strong> 관리자가 다른 사용자의 개인 휴무 일정을 편집하는 경우 모든 항목은 관리자의 시간대가 아니라 사용자의 시간대로 표시됩니다.</td> 
   </tr> 
@@ -62,7 +64,8 @@ ht-degree: 0%
 
 ## 에서 개인 휴무 구성 [!DNL Workfront]
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](assets/main-menu-icon.png) Adobe Workfront 오른쪽 상단에서 프로필 사진 옆에 있는 사용자 이름을 클릭합니다. 또는 (사용 가능한 경우) 위쪽 탐색 영역에서 프로필 사진을 클릭한 다음 을 클릭합니다 **[!UICONTROL Workfront 프로필]**.
+{{step1-click-profile-pic}}
+
 1. 왼쪽 패널에서 **[!UICONTROL 휴무]**.
 1. 개인 휴무에 대해 원하는 날짜를 선택합니다.
 
@@ -70,8 +73,8 @@ ht-degree: 0%
 
 1. 선택 **[!UICONTROL 하루 종일]**&#x200B;하루 종일 쉬는 경우 입니다.
 
-   하루 종일 쉬지 않고 휴무 시작 및 종료 시간을 나타내는 경우 선택하지 마십시오.
+   하루 미만의 휴무를 수행하는 경우 확인란을 선택 취소한 상태로 두고 휴무 시작 및 종료 시간을 나타냅니다.
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-   이제 휴무가 다음에 표시됩니다. [!DNL Workfront] 리소스 플래너 및 업무 균형자 와 같은 리소스 관리 도구의 시스템. 이 시간 동안 작업을 할당하면 사용자에게 휴무 일정을 지정했음을 알리는 도구 설명이 표시됩니다.
+   이제 휴무가 다음에 표시됩니다. [!DNL Workfront] 리소스 플래너 및 업무 균형자 와 같은 리소스 관리 도구의 시스템. 이 시간 동안 작업에 할당되면 도구 팁은 사용자에게 휴무가 예약되었음을 알려줍니다.

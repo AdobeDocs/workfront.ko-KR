@@ -7,9 +7,9 @@ description: 프로젝트 관리자가 프로젝트에 대한 작업을 계획�
 author: Alina
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
-source-git-commit: e4230e1d74e36439ec36b569232ab1cdf3629b3e
+source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1147'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ ht-degree: 0%
      일정 만들기에 대한 자세한 내용은 [일정 만들기](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 
    * 프로필에서 휴무 캘린더를 업데이트했습니다.\
-     사용자의 휴무 캘린더 업데이트에 대한 자세한 내용은 [Adobe Workfront에서 개인 휴무 구성](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+     사용자의 휴무 캘린더 업데이트에 대한 자세한 내용은 [개인 휴무 구성](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
      <!--   
      <div data-mc-conditions="QuicksilverOrClassic.Draft mode">   

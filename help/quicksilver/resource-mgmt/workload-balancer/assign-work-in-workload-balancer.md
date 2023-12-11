@@ -1,88 +1,89 @@
 ---
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: 작업 로드 밸런서에서 작업 할당 개요
-description: 리소스 관리자는 Adobe Workfront 작업 로드 밸런서를 사용하여 사용자에게 아직 할당되지 않은 작업 항목을 보고 이러한 항목을 할당할 수 있습니다.
+title: 업무 균형자에서 작업 할당 개요
+description: 리소스 관리자는 Adobe Workfront 업무 균형자 를 사용하여 사용자에게 아직 할당되지 않은 작업 항목을 보고 사용자에게 할당할 수 있습니다.
 author: Alina
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
+source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1035'
 ht-degree: 0%
 
 ---
 
-# 작업 로드 밸런서에서 작업 할당 개요
+# 업무 균형자에서 작업 할당 개요
 
-리소스 관리자는 Adobe Workfront 작업 로드 밸런서를 사용하여 사용자에게 아직 할당되지 않은 작업 항목을 보고 이러한 항목을 할당할 수 있습니다.
+리소스 관리자는 Adobe Workfront 업무 균형자 를 사용하여 사용자에게 아직 할당되지 않은 작업 항목을 보고 사용자에게 할당할 수 있습니다.
 
-작업 로드 밸런서에 대한 일반적인 정보는 다음을 참조하십시오 [작업 로드 밸런서 개요](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+업무 균형자에 대한 일반 정보는 [업무 균형자 개요](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
-Workfront의 다른 영역에서 사용자에게 작업 항목(작업 및 문제)을 할당할 수 있습니다. 그러나 Workload Balancer를 사용하면 사용자의 가용성을 쉽게 파악하고 다른 모든 항목을 명확히 볼 수 있으므로 작업 시간을 더 많이 할당할 수 있습니다.
+Workfront의 다른 영역에 있는 사용자에게 작업 항목(작업 및 문제)을 할당할 수 있습니다. 그러나 업무 균형자 를 사용하면 사용자의 가용성을 쉽게 이해하고 추가 작업을 할당하기 전에 할당된 다른 모든 항목을 명확하게 볼 수 있습니다.
 
-Workfront의 다른 영역에서 작업 항목을 지정하는 방법에 대한 자세한 내용은 다음 문서를 참조하십시오.
+Workfront의 다른 영역에서 작업 항목을 할당하는 방법에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
 * [작업 할당](../../manage-work/tasks/assign-tasks/assign-tasks.md)
 * [문제 할당](../../manage-work/issues/manage-issues/assign-issues.md)
 
-## 작업 로드 밸런서의 사용자 가용성
+## 업무 균형자에서 사용자 가용성
 
-작업 로드 밸런서에서 사용자의 사용 가능한 시간과 일치하도록 작업을 지정할 수 있습니다. 사용자에게 적합한 작업 금액을 할당하고 초과 할당하지 않도록 하려면 사용자에게 할당된 작업 항목의 총 계획 시간의 합계가 사용자 일별 또는 주별 할당과 일치해야 합니다.
+사용자의 사용 가능한 시간과 일치하도록 업무 균형자에서 작업을 할당할 수 있습니다. 적절한 양의 작업을 할당하고 사용자를 과다 할당하지 않도록 하려면 사용자에게 할당된 작업 항목의 총 계획된 시간이 사용자에게 일별 또는 주별 할당과 일치해야 합니다.
 
-Workfront이 사용자의 사용 가능한 시간을 계산하는 방법을 이해해야 합니다.
+Workfront에서 사용자의 사용 가능한 시간을 계산하는 방법을 이해해야 합니다.
 
-Workfront은 다음 정보를 사용하여 작업 로드 밸런서에서 사용자의 용량을 계산합니다.
+Workfront은 다음 정보를 사용하여 업무 균형자에서 사용자의 용량을 계산합니다.
 
-* 리소스 관리 기본 설정입니다. Workfront 관리자는 설정의 리소스 관리 영역에서 다음 중 하나를 사용하도록 선택하여 시스템에 대해 사용 가능한 시간을 계산하는 방법을 결정합니다.
+* 리소스 관리 기본 설정. Workfront 관리자는 설정의 리소스 관리 영역에서 다음 중 하나를 사용하도록 선택하여 시스템에 대한 사용 가능 시간이 계산되는 방법을 결정합니다.
 
-   * Workfront 시스템의 기본 일정 및 사용자의 FTE입니다.
+   * Workfront 시스템 및 사용자 FTE의 기본 일정.
    * 사용자 프로필 영역에 표시된 사용자의 일정입니다.
 
-      이 경우 사용자의 일별 및 주별 가용성을 계산합니다. 선택한 스케줄에 대한 모든 스케줄 예외는 작업 로드 밸런서에서 사용자의 능력에 반영됩니다.
-   자세한 내용은 [리소스 관리 환경 설정 구성](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+     사용자의 일별 및 주별 가용성을 계산합니다. 선택한 일정에 대한 모든 일정 예외는 업무 균형자에서 사용자의 용량에 반영됩니다.
 
-   예약에 대한 자세한 내용은 [예약 만들기](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
+  자세한 내용은 [리소스 관리 환경 설정 구성](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-* 사용자의 시간입니다. 사용자가 이륙할 날짜를 나타냅니다.
+  일정에 대한 자세한 내용은 [일정 만들기](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 
-   자세한 내용은 [Adobe Workfront에서 개인 시간 설정](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+* 사용자의 휴무. 사용자가 이륙 예정일을 나타냅니다.
 
-* 사용자의 작업 시간입니다. 오버헤드를 포함하지 않고 실제 프로젝트 관련 작업을 수행할 수 있는 FTE 시간의 백분율을 나타냅니다. 사용자가 프로젝트 관련 작업에 사용할 수 있음을 나타내려면 작업 시간 값을 1로 설정합니다.
+  자세한 내용은 [개인 휴무 구성](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+
+* 사용자의 작업 시간입니다. 이는 사용자가 간접비를 포함하지 않고 실제 프로젝트 관련 작업을 수행할 수 있는 FTE 시간의 백분율을 나타냅니다. 작업 시간 값을 1로 설정하면 사용자가 프로젝트 관련 작업에 전체 시간에 해당하는 전체 시간을 사용할 수 있음을 나타냅니다.
 
 
-## 작업 로드 밸런서에서 작업 할당
+## 업무 균형자에서 작업 할당
 
-사용자에게 아직 할당되지 않은 작업 항목을 할당하거나 작업 로드 밸런서에서 사용자에게 할당된 항목을 재할당할 수 있습니다.
+사용자에게 아직 할당되지 않은 작업 항목을 할당하거나 업무 균형자에서 사용자에게 할당된 항목을 재할당할 수 있습니다.
 
-다음과 같은 방법으로 작업 로드 밸런서에서 작업을 할당할 수 있습니다.
+업무 균형자에서 다음과 같은 방법으로 작업을 할당할 수 있습니다.
 
-* 각 항목을 수동으로 할당하여 한 번에 한 개 품목.
+* 각 항목을 수동으로 할당하여 한 번에 한 항목씩.
 
-   품목을 수동으로 한 번에 하나씩 지정할 때 고급 지정을 수행할 수 있습니다.
+  항목을 한 번에 하나씩 수동으로 할당할 때 고급 할당을 수행할 수 있습니다.
 
-   자세한 내용은 [작업 로드 밸런서를 사용하여 수동으로 작업 할당](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
+  자세한 내용은 [업무 균형자 를 사용하여 수동으로 작업 할당](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
 
-* 작업 항목을 할당해야 하는 사용자에게 끌어다 놓아 한 번에 한 개의 항목을 드래그하여 놓습니다.
+* 할당이 필요한 사용자에게 작업 항목을 끌어다 놓아 한 번에 한 항목씩 할당
 
-   자세한 내용은 [드래그 앤 드롭으로 작업 로드 밸런서에서 작업 할당](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
+  자세한 내용은 [드래그 앤 드롭으로 업무 균형자에서 작업 할당](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
 
-* 일괄 지정 옵션을 사용하여 한 번에 여러 항목을 지정합니다. 한 번에 여러 사용자에게 항목을 할당하는 규칙을 정의할 수 있습니다.
+* 일괄 지정(Bulk Assignments) 옵션을 사용하여 한 번에 여러 항목을 지정합니다. 한 번에 여러 사용자에게 항목을 할당하는 규칙을 정의할 수 있습니다.
 
-   자세한 내용은 [작업 로드 밸런서를 사용하여 일괄 작업 할당](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+  자세한 내용은 [업무 균형자 를 사용하여 일괄 작업 할당](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
-작업 할당 해제에 대한 자세한 내용은 [작업 로드 밸런서에서 작업 할당 취소](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
+작업 할당 해제에 대한 자세한 내용은 [업무 균형자에서 작업 할당 해제](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
 
-## 작업 로드 밸런서의 지정 영역
+## 업무 균형자의 할당 영역
 
-자원 조정 영역, 프로젝트 또는 팀 레벨에서 작업 로드 밸런서를 사용하여 사용자에게 작업을 할당할 수 있습니다. 작업 로드 밸런서가 Workfront에 있는 위치에 대한 자세한 내용은 [작업 로드 밸런서를 찾습니다.](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+리소스 영역, 프로젝트 또는 팀 수준에서 업무 균형자 를 사용하여 사용자에게 작업을 할당할 수 있습니다. Workfront에서 업무 균형자 위치에 대한 자세한 내용은 [업무 균형자 찾기](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
-작업 로드 밸런서에는 작업 항목을 볼 수 있는 두 가지 영역이 있습니다.
+업무 균형자에는 작업 항목을 볼 수 있는 두 가지 영역이 있습니다.
 
-* **할당되지 않은 작업**: 사용자에게 할당되지 않은 항목을 표시합니다.
-* **지정된 작업 시간**: 사용자에게 할당된 항목을 표시합니다.
+* **할당 해제된 작업**: 사용자에게 할당되지 않은 항목을 표시합니다.
+* **할당된 작업**: 사용자에게 할당된 항목을 표시합니다.
 
-다음 표에서는 지정된 내용에 따라 각 영역에 표시되는 항목을 설명합니다.
+다음 테이블에서는 지정에 따라 각 영역에 표시되는 항목을 설명합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -99,7 +100,7 @@ Workfront은 다음 정보를 사용하여 작업 로드 밸런서에서 사용�
    <td>할당된 작업 </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><span style="font-weight: normal;">지정되지 않은 항목</span> </td> 
+   <td><span style="font-weight: normal;">할당 해제된 항목</span> </td> 
    <td><span>✔</span> </td> 
    <td> </td> 
   </tr> 
@@ -141,26 +142,26 @@ Workfront은 다음 정보를 사용하여 작업 로드 밸런서에서 사용�
  </tbody> 
 </table>
 
-&#42;작업 항목이 사용자 및 역할에 지정되면 해당 역할이 주 할당자인 경우에만 미지정 작업 영역에 표시됩니다.
+&#42;작업 항목이 사용자 및 역할에 할당되면 역할이 기본 피할당자인 경우에만 미할당 작업 영역에 표시됩니다.
 
-&#42;&#42;작업 항목이 사용자 및 다른 엔티티에 지정되면 사용자가 기본 할당자인 경우에만 지정된 작업 영역에 표시됩니다.
+&#42;&#42;작업 항목이 사용자 및 다른 엔티티에 할당되면 사용자가 기본 할당자인 경우에만 할당된 작업 영역에 표시됩니다.
 
-작업 로드 밸런서의 지정되지 않음 및 할당된 영역에 대한 자세한 내용은 다음을 참조하십시오 [작업 로드 밸런서 탐색](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+업무 균형자의 미할당 및 할당 영역에 대한 자세한 내용은 [업무 균형자 탐색](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-## Job 역할, 팀 및 사용자에게 여러 지정 고려 사항
+## 작업 역할, 팀 및 사용자에 대한 여러 할당 고려 사항
 
-여러 리소스를 작업 항목에 할당할 때 다음 사항을 고려하십시오.
+작업 항목에 여러 리소스를 할당할 때 다음 사항을 고려하십시오.
 
-* 사용자는 프로필과 연결된 두 개 이상의 작업 역할을 가질 수 있습니다. 사용자와 작업 역할 연결에 대한 자세한 내용은 [사용자 프로필 편집](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+* 사용자는 프로필과 연결된 작업 역할을 두 개 이상 가질 수 있습니다. 사용자를 작업 역할과 연결하는 방법에 대한 자세한 내용은 [사용자 프로필 편집](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * 작업 또는 문제는 일반적으로 하나 이상의 작업 역할이나 팀에 먼저 할당됩니다. 프로젝트를 시작할 준비가 되면 사용자에게 할당해야 할 수도 있습니다.\
-   작업 또는 문제가 하나 이상의 역할에 할당되어 있고 그 다음 사용자도 할당하면 Adobe Workfront에서 다음 규칙에 따라 추가 사용자(있는 경우)와 연결할 작업 역할을 결정합니다.
+  작업 또는 문제가 하나 이상의 역할에 할당된 다음 사용자도 할당하는 경우, Adobe Workfront은 다음 규칙에 따라 추가 사용자와 연결할 작업 역할(있는 경우)을 결정합니다.
 
-   * 할당된 작업 역할이 하나만 있고 사용자의 기본 역할과 일치하는 경우 해당 작업이나 문제는 기본 역할을 수행하는 사용자만 할당됩니다.
-   * 여러 개의 역할이 할당되고 역할 중 하나 이상이 사용자의 보조 역할과 일치하는 경우 해당 작업이나 문제가 다른 역할 중 하나를 수행하는 사용자에게 할당됩니다. 즉, Workfront에서 일치하는 항목이 여러 개 있으면 무작위로 선택합니다. 또한 할당된 추가 역할과 해당 역할 중 하나 이상이 할당됩니다.
-   * 하나 이상의 작업 역할이 할당되어 있고 사용자의 역할에 일치하는 항목이 없는 경우 해당 작업이나 문제는 사용자뿐만 아니라 역할이나 역할 모두에 할당됩니다.
+   * 할당된 작업 역할이 하나뿐이고 사용자의 기본 역할과 일치하는 경우 작업 또는 문제는 기본 역할을 수행하는 사용자에게만 할당됩니다.
+   * 여러 개의 역할이 할당되고 하나 이상의 역할이 사용자의 보조 역할과 일치하는 경우 작업 또는 문제는 다른 역할(여러 개의 일치하는 역할이 있는 경우 Workfront에서 임의로 선택) 중 하나를 이행하는 사용자와 할당된 추가 역할에 할당됩니다.
+   * 하나 이상의 작업 역할이 할당되고 사용자의 역할에 일치하는 항목이 없는 경우 작업 또는 문제는 사용자뿐만 아니라 역할이나 역할 모두에 할당됩니다.
 
-* 작업이나 문제가 팀에 할당되어 있고 사용자도 할당하면 작업이나 문제가 팀과 사용자 모두에 할당된 상태로 유지됩니다.
+* 작업 또는 문제가 팀에 할당되고 사용자도 할당되면 작업 또는 문제는 팀과 사용자 모두에게 할당된 상태로 유지됩니다.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

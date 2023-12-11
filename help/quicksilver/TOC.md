@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 6279106f56fa0d128e0dd03cd13b63a71d4c2952
+source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
 workflow-type: tm+mt
-source-wordcount: '13783'
+source-wordcount: '13780'
 ht-degree: 0%
 
 ---
@@ -919,7 +919,7 @@ ht-degree: 0%
       * 사용자 프로필 구성 {#configure-user-profile}
          * [사용자 프로필 구성](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-user-profile.md)
          * [내 설정 구성](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)
-         * [Adobe Workfront에서 개인 휴무 구성](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)
+         * [개인 휴무 구성](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)
       * Adobe Workfront 계정 관리 {#manage-workfront-account}
          * [Adobe Workfront 계정 관리](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/manage-workfront-account.md)
          * [Adobe Workfront에 로그인](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md)
