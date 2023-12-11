@@ -2,13 +2,13 @@
 product-area: reporting
 navigation-topic: create-and-manage-reports
 title: 사용자 지정 보고서 만들기
-description: 보고서를 만드는 방법을 이해하면 Adobe Workfront 내에서 조직에 필요한 정보에 액세스할 수 있습니다. Workfront에서 사용할 수 있는 모든 기본 제공 보고서를 사용하거나 보고서를 처음부터 빌드할 수 있습니다.
+description: 보고서를 만들어 Adobe Workfront에서 조직에 필요한 정보에 대한 액세스 권한을 제공할 수 있습니다. Workfront에서 사용할 수 있는 모든 기본 제공 보고서를 사용하거나 사용자 지정 보고서를 처음부터 빌드할 수 있습니다.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: ad309990a4e09f5c083c1518fd503078718a97d1
 workflow-type: tm+mt
-source-wordcount: '1807'
+source-wordcount: '1820'
 ht-degree: 1%
 
 ---
@@ -34,11 +34,13 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>플랜 </p> </td> 
+   <td> <p>새로운 기능: 표준 </p>
+   또는
+   <p>현재: 플랜 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
@@ -47,7 +49,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>작성한 보고서에 대한 관리 권한을 받게 됩니다.</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>작성한 보고서에 대한 관리 권한을 받습니다.</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,9 +58,8 @@ ht-degree: 1%
 
 ## 보고서 만들기 {#create-a-report}
 
-보고서를 만드는 방법에 대한 비디오를 보려면 다음을 참조하십시오. [사용자 지정 보고서 만들기](#Walk-thr) 아래요.
+{{step1-to-reports}}
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) 오른쪽 상단에서 을(를) 클릭한 다음 **보고서**.
 1. 클릭 **새 보고서**&#x200B;을 클릭하고 보고서에 사용할 객체 유형을 선택합니다.
 
    Report Builder가 로드됩니다.
@@ -109,17 +110,17 @@ ht-degree: 1%
 
 1. 에 설명된 대로 보고서 만들기를 시작합니다. [보고서 만들기](#create-a-report) 이 문서의 섹션.
 1. Report Builder에서 **열(보기)** 탭하여 보고서에 표시할 열을 식별합니다.
-1. (선택 사항) **기존 보기 적용** 기존 보기를 사용합니다.
+1. (선택 사항) **기존 보기 적용** 드롭다운 메뉴에서 뷰 이름을 클릭하여 기존 뷰를 사용합니다.
 
-   새 보기 만들기에 대한 자세한 내용은 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   뷰 만들기에 대한 자세한 내용은 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+
+1. (선택 사항) 기존 열을 제거하려면 제거할 열을 클릭한 다음 **x** 열 머리글의 현재 이름 옆에 있습니다.
 
 1. 새 열을 추가하려면 **열 추가**.
 
    또는
 
-   기존 열을 변경하려면 변경할 열을 선택한 다음 현재 이름 옆에 있는 (x)를 클릭합니다.
-
-1. 추가할 필드를 입력하십시오. 필드를 사용할 수 있는 경우 해당 필드는 연결할 수 있는 각 오브젝트에 대해 채워집니다. 필드 이름을 클릭하여 열에 추가합니다.
+   기존 열을 변경하려면 열을 클릭하고 **제거** 아이콘 ![](assets/x-icon-circled.png) 의 현재 필드 왼쪽에 **이 열 필드에 표시** report builder의 왼쪽 위 모서리에 있는 상자에 새 필드를 입력한 다음 목록에 표시될 때 필드를 클릭합니다.
 
    열에 표시되는 필드에 대한 자세한 내용은 [Adobe Workfront 용어 목록](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
@@ -150,7 +151,7 @@ ht-degree: 1%
    >
    >그룹화에서 다음 필드의 값을 합산하는 경우 상위 객체(예: 상위 작업)에 다음 예외가 적용됩니다.
    >
-   >* 실제 시간을 제외한 모든 숫자 및 통화 필드(예: 계획된/실제 인건비, 계획된/실제 경비, 계획된/실제 원가, 계획된 시간)는 하위 태스크 및 독립형 태스크에 대한 값만 집계합니다. 상위 작업 또는 상위 작업의 값을 집계하지 않습니다.
+   >* 실제 시간을 제외한 모든 숫자 및 통화 필드(예: 계획된 또는 실제 인건비, 계획된 또는 실제 경비, 계획된 또는 실제 원가, 계획된 시간)는 하위 태스크 및 독립형 태스크에 대한 값만 집계합니다. 상위 작업 또는 상위 작업의 값을 집계하지 않습니다.
    >* 실제 시간은 기본 상위 작업과 독립형 작업에 대한 값을 집계합니다. 상위 작업 또는 하위 작업의 상위 작업에 대한 값은 집계하지 않습니다.
    >* 숫자 및 통화 값에 대한 사용자 정의 데이터 필드는 상위, 1차 하위 구성요소, 1차 상위 구성요소 및 독립 실행형 작업과 같은 모든 작업을 집계합니다.
 
@@ -193,7 +194,8 @@ ht-degree: 1%
 
    또는
 
-   선택 **기존 그룹화 적용** 기존 그룹화를 선택하려면
+   선택 **기존 그룹화 적용** 기존 그룹화가 목록에 표시될 때 선택합니다.
+
    ![](assets/nwe-add-grouping-350x230.png)
 
 1. 그룹화로 추가할 필드를 입력하십시오. 필드를 사용할 수 있는 경우 해당 필드는 연결할 수 있는 각 오브젝트에 대해 채워집니다. 필드 이름을 클릭하여 해당 그룹화에 추가합니다.
@@ -210,7 +212,7 @@ ht-degree: 1%
    >* 목록을 볼 때 수동으로 그룹화를 조정하면 Workfront은 로그아웃하기 전까지 수동 기본 설정을 기억합니다. 다시 로그인하면 이 설정에 따라 목록이 표시됩니다.
    >* 차트 요소에서 액세스한 후 그룹화 결과는 항상 확장되어 표시됩니다.
 
-1. (선택 사항) 매트릭스 그룹화를 작성하여 결과를 그리드 형식으로 표시하도록 선택할 수 있습니다.
+1. (선택 사항) **매트릭스 그룹화로 전환**&#x200B;를 입력하여 매트릭스 그룹화를 작성하고 결과를 그리드 형식으로 표시합니다.
 
    매트릭스 보고서 빌드에 대한 자세한 내용은 [매트릭스 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
