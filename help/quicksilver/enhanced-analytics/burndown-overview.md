@@ -7,9 +7,9 @@ description: 번다운 시각화는 시간 경과에 따른 특정 프로젝트�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e67c92d5-b309-406b-b6f0-4d414d0e7dcc
-source-git-commit: d42b6312d5a85570558abcd0c6be8fe87bb01699
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -31,16 +31,16 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
    <td>
-      <p>새 플랜: 모두</p>
+      <p>새로 만들기: 모두</p>
       <p>또는</p>
-      <p>현재 플랜: 비즈니스 이상</p></td>
+      <p>현재: 비즈니스 이상</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
    <td>
-      <p>새 플랜: 라이트 이상</p>
+      <p>새로운 기능: 밝게 또는 높음</p>
       <p>또는</p>
-      <p>현재 계획: 검토 이상</p>
+      <p>현재: 검토 이상</p>
    </td> 
   </tr> 
   <tr> 

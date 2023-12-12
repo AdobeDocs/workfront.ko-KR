@@ -2,23 +2,23 @@
 content-type: reference
 product-area: timesheets
 navigation-topic: timesheets-navigation-topic
-title: 타임시트
-description: 다음 섹션에서 작업표, 작업표 프로필, 시간 유형을 작성, 편집, 승인 및 관리하는 방법에 대해 자세히 알아봅니다.
+title: "타임시트: 문서 인덱스"
+description: 타임시트, 타임시트 프로필 및 시간 유형을 만들고, 편집하고, 승인하고, 관리하는 방법은 다음 섹션에서 자세히 알아보세요.
 author: Alina
 feature: Timesheets
 exl-id: aff5e7a9-e1a0-460e-bb6b-be9c50db5755
-source-git-commit: 028b6ee8921750b3807934fcadd24b24781e5c34
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 4%
+source-wordcount: '58'
+ht-degree: 0%
 
 ---
 
-# 타임시트
+# 타임시트: 문서 색인
 
-이 섹션에는 다음 하위 섹션이 포함됩니다.
+이 섹션에는 다음 하위 섹션의 문서가 포함되어 있습니다.
 
-* [Adobe Workfront의 작업표 세부 정보](../timesheets/timesheets/timesheets.md)
-* [Adobe Workfront에서 작업표 만들기 및 관리](../timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
-* [로그된 시간 구성](../timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
-* [팁, 요령 및 문제 해결](../timesheets/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-timesheets.md)
+* [타임시트 세부 정보: 문서 색인](../timesheets/timesheets/timesheets.md)
+* [타임시트 만들기 및 관리: 문서 인덱스](../timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
+* [시간 기록 방법 구성: 문서 색인](../timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
+* [팁, 요령 및 문제 해결: 문서 색인](../timesheets/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-timesheets.md)

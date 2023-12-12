@@ -5,9 +5,9 @@ description: 위쪽 탐색 모음 - 새 화면의 맨 위에 나타납니다. [!
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 98d3240bb57ff10c7031eb324f3ce67c1bf6ac9e
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ ht-degree: 0%
    <td> 
     <ul> 
      <li>[!UICONTROL 요청]: <a href="../../manage-work/requests/create-requests/create-requests.md" class="MCXref xref">요청 만들기</a></li> 
-     <li>[!UICONTROL 타임시트]: <a href="../../timesheets/timesheets-all.md" class="MCXref xref">타임시트</a></li> 
+     <li>[!UICONTROL 타임시트]: <a href="../../timesheets/timesheets-all.md" class="MCXref xref">타임시트: 문서 색인</a></li> 
      <li>[!UICONTROL 문서]: <a href="../../documents/documents-overview.md" class="MCXref xref">문서</a></li> 
      <li>[!UICONTROL 템플릿]: <a href="../../manage-work/projects/create-and-manage-templates/create-manage-templates.md" class="MCXref xref">프로젝트 템플릿 만들기 및 관리</a></li> 
      <li>[!UICONTROL 분석]: <a href="../../enhanced-analytics/enhanced-analytics-overview.md" class="MCXref xref">향상된 분석 개요</a></li> 

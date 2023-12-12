@@ -7,9 +7,9 @@ description: 승인된 휴무는 일정에 영향을 주고 할당된 작업의 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -48,9 +48,9 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
-   <td> <p>새로운 플랜: 표준(개인 휴무 구성)</p>
+   <td> <p>새로운 기능: 표준(개인 휴무 구성)</p>
         <p>또는</p>
-        <p>현재 플랜: 회사 또는 그 이상(개인 휴무 구성)</p> </td>
+        <p>현재: 회사 또는 그 이상(개인 휴무 구성)</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 

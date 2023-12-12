@@ -7,9 +7,9 @@ description: 메인 메뉴는 사용자가 할당한 액세스 수준에 따라 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: e2db904bc5b4e3682421677b30b0187a6fff46d9
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 * **[!UICONTROL 요청]**: 여기에서 요청을 제출하고 귀하 또는 귀하의 팀 구성원이 제출한 요청을 검토할 수 있습니다. 자세한 내용은 [요청](../../../manage-work/requests/requests-overview.md).
 
-* **[!UICONTROL 타임시트]**: 여기에서 현재, 미래 또는 이전 타임시트에 액세스할 수 있습니다. 자세한 내용은 [타임시트](../../../timesheets/timesheets-all.md).
+* **[!UICONTROL 타임시트]**: 여기에서 현재, 미래 또는 이전 타임시트에 액세스할 수 있습니다. 자세한 내용은 [타임시트: 문서 색인](../../../timesheets/timesheets-all.md).
 
 * **[!UICONTROL 문서]**: 여기에서 문서를 업로드하거나 나와 공유된 문서를 검토할 수 있습니다. 자세한 내용은 [문서](../../../documents/documents-overview.md).
 

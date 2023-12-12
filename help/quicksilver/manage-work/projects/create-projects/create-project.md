@@ -6,9 +6,9 @@ description: 프로젝트는 Adobe Workfront의 대규모 작업 단위입니다
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: 45c82f659d02dca69d2a2c390b084330773d4252
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1245'
 ht-degree: 1%
 
 ---
@@ -67,9 +67,9 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>새 플랜: 표준</p>
+   <td> <p>새로운 기능: 표준</p>
         <p>또는</p>
-        <p>현재 플랜: 플랜 </p> </td> 
+        <p>현재: 플랜 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준*</td> 

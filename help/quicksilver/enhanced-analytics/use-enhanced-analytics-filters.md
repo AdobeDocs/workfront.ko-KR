@@ -6,9 +6,9 @@ description: Adobe Workfront의 향상된 분석 영역에 있는 필터를 사�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
-source-git-commit: 2f6664aefd664e1275648abd6f7e41b1d545b9e7
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '1508'
+source-wordcount: '1504'
 ht-degree: 0%
 
 ---
@@ -34,16 +34,16 @@ Adobe Workfront의 향상된 분석 영역에 있는 필터를 사용하면 특�
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
    <td>
-      <p>새 플랜: 모두</p>
+      <p>새로 만들기: 모두</p>
       <p>또는</p>
-      <p>현재 플랜: 비즈니스 이상</p></td> 
+      <p>현재: 비즈니스 이상</p></td> 
   </tr>
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
    <td>
-      <p>새 플랜: 라이트 이상</p>
+      <p>새로운 기능: 밝게 또는 높음</p>
       <p>또는</p>
-      <p>현재 계획: 검토 이상</p>
+      <p>현재: 검토 이상</p>
    </td> 
   </tr>
   <tr> 

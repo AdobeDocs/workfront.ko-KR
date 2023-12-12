@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '13780'
+source-wordcount: '13781'
 ht-degree: 0%
 
 ---
@@ -1899,13 +1899,13 @@ ht-degree: 0%
       * [승인을 위한 팁, 요령 및 문제 해결](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [모든 사용자에 대한 증명 및 문서 결정 수 보기](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
 * 타임시트 {#timesheets}
-   * [타임시트](timesheets/timesheets-all.md)
+   * [타임시트: 문서 색인](timesheets/timesheets-all.md)
    * 타임시트 세부 정보 {#details}
-      * [Adobe Workfront의 타임시트 세부 정보](timesheets/timesheets/timesheets.md)
+      * [타임시트 세부 정보: 문서 색인](timesheets/timesheets/timesheets.md)
       * [타임시트 개요](timesheets/timesheets/timesheets-overview.md)
       * [타임시트 레이아웃 이해](timesheets/timesheets/timesheet-layout.md)
-   * Adobe Workfront에서 타임시트 만들기 및 관리 {#create-and-manage-timesheets-in-adobe-workfront}
-      * [Adobe Workfront에서 타임시트 만들기 및 관리](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
+   * 타임시트 만들기 및 관리 {#create-and-manage-timesheets-in-adobe-workfront}
+      * [타임시트 만들기 및 관리: 문서 인덱스](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
       * [타임시트 프로필 만들기, 편집 및 할당](timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
       * [타임시트의 시간 유형 및 가용성 정의](timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
       * [일회용 타임시트 만들기](timesheets/create-and-manage-timesheets/create-tmshts.md)
@@ -1920,10 +1920,10 @@ ht-degree: 0%
       * [수동으로 타임시트 생성](timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)
       * [타임시트 목록 내보내기](timesheets/create-and-manage-timesheets/export-timesheets.md)
    * 시간 기록 방법 구성 {#configure-timesheet-preferences}
-      * [시간 기록 방법 구성](timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
+      * [시간 기록 방법 구성: 문서 색인](timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
       * [시간이 시간 단위로 기록되는지 또는 일 단위로 기록되는지 구성](timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)
    * 타임시트에 대한 팁, 요령 및 문제 해결 {#tips-tricks-troubleshooting-for-timesheets}
-      * [팁, 요령 및 문제 해결](timesheets/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-timesheets.md)
+      * [팁, 요령 및 문제 해결: 문서 색인](timesheets/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-timesheets.md)
       * [타임시트의 작업 주 시작일 수정](timesheets/tips-tricks-and-troubleshooting/correct-start-day-of-work-week.md)
       * [재무 다시 계산 작업이 요금이 변경될 때 기록 시간에 영향을 주지 않도록 합니다.](timesheets/tips-tricks-and-troubleshooting/prevent-recalculate-finance-action.md)
       * [Adobe Workfront API를 사용하여 시간 레코드 추적](timesheets/tips-tricks-and-troubleshooting/track-hour-records-with-wfapi.md)

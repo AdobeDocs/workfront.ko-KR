@@ -7,9 +7,9 @@ description: 타임시트를 사용하여 Adobe Workfront 내부 및 외부에�
 author: Alina
 feature: Timesheets
 exl-id: 2174a879-4a19-4a0f-803a-f19a8909f227
-source-git-commit: e2db904bc5b4e3682421677b30b0187a6fff46d9
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '498'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Workfront에서 시간을 기록하는 방법에 대한 자세한 내용은 [로
 
 >[!TIP]
 >
->Workfront 또는 그룹 관리자인 경우 타임시트를 만들고 사용자와 연결할 수 있습니다. 타임시트 만들기에 대한 자세한 내용은 [타임시트 만들기 및 관리](../create-and-manage-timesheets/create-and-manage-timesheets.md).
+>Workfront 또는 그룹 관리자인 경우 타임시트를 만들고 사용자와 연결할 수 있습니다. 타임시트 만들기에 대한 자세한 내용은 [타임시트 만들기 및 관리: 문서 인덱스](../create-and-manage-timesheets/create-and-manage-timesheets.md).
 
 
 ## 프로젝트 시간과 비프로젝트 시간 이해
