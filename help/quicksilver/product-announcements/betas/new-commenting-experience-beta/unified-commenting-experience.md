@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 3ec1b40ec66b7fa043412203b6c0303a27eb8bfc
+source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
 workflow-type: tm+mt
-source-wordcount: '1226'
+source-wordcount: '1289'
 ht-degree: 2%
 
 ---
@@ -102,7 +102,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td>✓ 덧신 
   </td>
-   <td>✓ 
+   <td>✓ 덧신 
    </td>
    <td> 
    </td>
@@ -114,9 +114,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>리치 텍스트(인용 및 이모지 제외)
    </td>
-   <td>✓ 
+   <td>✓ 덧신 
    </td>
-   <td>✓
+   <td>✓ 덧신
    </td>
    <td> 
    </td>
@@ -129,9 +129,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 <tr>
    <td>리치 텍스트(이모티콘)
    </td>
-   <td>✓ 
+   <td>✓ 덧신 
    </td>
-   <td>✓
+   <td>✓ 덧신
    </td>
    <td> 
    </td>
@@ -144,9 +144,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 <tr>
    <td>리치 텍스트(블록 인용)
    </td>
-   <td>✓ 
+   <td>✓ 덧신 
    </td>
-   <td> ✓
+   <td> ✓ 덧신
    </td>
    <td> 
    </td>
@@ -159,9 +159,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 <tr>
    <td> 견적 주석
    </td>
-   <td>✓ 
+   <td>✓ 덧신 
    </td>
-   <td> ✓
+   <td> ✓ 덧신
    </td>
    <td> 
    </td>
@@ -173,9 +173,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>댓글에 반응(예: 
    </td>
-   <td>✓ 
+   <td>✓ 덧신 
    </td>
-   <td>✓ 
+   <td>✓ 덧신 
    </td>
    <td> 
    </td>
@@ -187,9 +187,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>댓글에 이미지 첨부 
    </td>
-   <td>✓ 
+   <td>✓ 덧신 
    </td>
-   <td>✓ 
+   <td>✓ 덧신 
    </td>
    <td> 
    </td>
@@ -201,9 +201,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>댓글에 직원 태그 지정 
    </td>
-   <td>✓ 
+   <td>✓ 덧신 
    </td>
-   <td>✓ 
+   <td>✓ 덧신 
    </td>
    <td> 
    </td>
@@ -217,7 +217,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td>✓
+   <td>✓ 덧신
    </td>
    <td> 
    </td>
@@ -233,7 +233,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td>✓
+   <td>✓ 덧신
    </td>
    <td> 
    </td>
@@ -246,9 +246,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 <tr>
    <td>회사에 비공개인 댓글 
    </td>
-   <td>✓ 
+   <td>✓ 덧신 
    </td>
-   <td>✓ 
+   <td>✓ 덧신 
    </td>
    <td> 
    </td>
@@ -260,7 +260,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>댓글 게시 취소 
    </td>
-   <td>✓ 
+   <td>✓ 덧신 
    </td>
    <td>댓글 편집으로 대체됨 
    </td>
@@ -274,7 +274,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>시스템 업데이트 끄기 
    </td>
-   <td>✓ 
+   <td>✓ 덧신 
    </td>
    <td>활동 탭으로 대체됨 
    </td>
@@ -290,7 +290,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> ✓
+   <td> ✓ 덧신
    </td>
    <td> 
    </td>
@@ -302,9 +302,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>페이지에서 이동할 때 주석 초안 저장 
    </td>
-   <td>✓ 
+   <td>✓ 덧신 
    </td>
-   <td>✓ 
+   <td>✓ 덧신 
    </td>
    <td> 
    </td>
@@ -318,7 +318,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td>✓
+   <td>✓ 덧신
    </td>
    <td> 
    </td>
@@ -330,9 +330,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>로그 시간 
    </td>
-   <td>✓ 
+   <td>✓ 덧신 
    </td>
-   <td>✓
+   <td>✓ 덧신
    </td>
    <td> 
    </td>
@@ -344,7 +344,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
     <tr>
    <td>스레드 링크 복사 
    </td>
-   <td>✓ 
+   <td>✓ 덧신 
    </td>
    <td> 복사 링크로 대체됨
    </td>
@@ -358,7 +358,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>주석 링크 복사 
    </td>
-   <td>✓ 
+   <td>✓ 덧신 
    </td>
    <td> 복사 링크로 대체됨
    </td>
@@ -372,9 +372,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>견적 주석 텍스트 
    </td>
-   <td>✓ 
+   <td>✓ 덧신 
    </td>
-   <td>✓
+   <td>✓ 덧신
    </td>
    <td> 
    </td>
@@ -386,9 +386,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>본문 복사 
    </td>
-   <td>✓ 
+   <td>✓ 덧신 
    </td>
-   <td> ✓
+   <td> ✓ 덧신
    </td>
    <td> 
    </td>
@@ -402,7 +402,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> <span class="preview">✓</span>
+   <td> <span class="preview">✓ 덧신</span>
    </td>
    <td> 
    </td>
@@ -417,7 +417,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> <span class="preview">✓</span>
+   <td> <span class="preview">✓ 덧신</span>
    </td>
    <td> 
    </td>
@@ -430,7 +430,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 <tr>
    <td>댓글에 이미지 드래그 앤 드롭
    </td>
-   <td> 
+   <td> ✓ 덧신
    </td>
    <td> 
    </td>
@@ -438,14 +438,14 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td>2024년 1분기 
    </td>
-   <td>✓ 
+   <td>✓ 덧신 
    </td>
   </tr>
 
 <tr>
    <td>사용자 정의 양식 편집 
    </td>
-   <td>✓ 
+   <td>✓ 덧신 
    </td>
    <td> 
    </td>
@@ -459,7 +459,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>댓글을 달면서 상태, 조건, 커밋 일자를 편집할 수 있는 기능 
    </td>
-   <td>✓ 
+   <td>✓ 덧신 
    </td>
    <td> 
    </td>
@@ -473,7 +473,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 <tr>
    <td>시스템 업데이트에 대한 회신 
    </td>
-   <td> ✓
+   <td> ✓ 덧신
    </td>
    <td> 
    </td>
@@ -487,9 +487,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 <tr>
    <td>다른 사용자로 로그인한 댓글을 추가할 때 "대신" 표시
    </td>
-   <td> ✓
+   <td> ✓ 덧신
    </td>
-   <td> ✓
+   <td> ✓ 덧신
    </td>
    <td> 
    </td>

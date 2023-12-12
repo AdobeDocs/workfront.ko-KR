@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
+source-git-commit: 2e38fcf19d19b9ceabf2d7fe2c42cf9343b60067
 workflow-type: tm+mt
-source-wordcount: '13781'
+source-wordcount: '13783'
 ht-degree: 0%
 
 ---
@@ -1741,7 +1741,7 @@ ht-degree: 0%
       * [리소스 사용률](resource-mgmt/resource-utilization/resource-utilization.md)
       * [자원 가동률 정보 보기](resource-mgmt/resource-utilization/view-utilization-information.md)
    * 업무 균형자 {#the-workload-balancer}
-      * [업무 균형자](resource-mgmt/workload-balancer/workload-balancer.md)
+      * [업무 균형자: 문서 색인](resource-mgmt/workload-balancer/workload-balancer.md)
       * [업무 균형자 개요](resource-mgmt/workload-balancer/overview-workload-balancer.md)
       * [업무 균형자에서 리소스를 관리하는 데 필요한 액세스](resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md)
       * [업무 균형자 찾기](resource-mgmt/workload-balancer/locate-workload-balancer.md)

@@ -6,9 +6,9 @@ description: 프로젝트에 대한 작업 분류 구조(WBS) 정의는 프로�
 author: Alina
 feature: Work Management
 exl-id: a76c468d-6373-4dab-93ff-a0b3734f368c
-source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
+source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
 workflow-type: tm+mt
-source-wordcount: '1745'
+source-wordcount: '1748'
 ht-degree: 1%
 
 ---
@@ -108,7 +108,7 @@ Workfront의 리소스 관리를 사용하면 프로젝트를 완료할 수 있�
 상위 수준에서 리소스 사용 계획에 대한 자세한 내용은 문서 를 참조하십시오 [리소스 계획 시작](../../../resource-mgmt/resource-planning/get-started-resource-planning.md).
 
 한 프로젝트의 작업 분류 구조를 작성하는 맥락에서 리소스를 관리하고 각 작업이 올바른 리소스에 지정되도록 하면 수행해야 하는 작업에 대한 리소스를 예약할 수 있습니다.\
-리소스 예약에 대한 자세한 내용은 [업무 균형자](../../../resource-mgmt/workload-balancer/workload-balancer.md) 섹션.
+리소스 예약에 대한 자세한 내용은 [업무 균형자: 문서 색인](../../../resource-mgmt/workload-balancer/workload-balancer.md) 섹션.
 
 ## 프로젝트 재무 예상
 

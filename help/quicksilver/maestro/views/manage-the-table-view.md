@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
+source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
 workflow-type: tm+mt
 source-wordcount: '2085'
 ht-degree: 3%
@@ -118,7 +118,7 @@ Maestro 보기 및 관리 방법에 대한 자세한 내용은 다음을 참조�
 
 Maestro 테이블 보기의 열 헤더에는 보기의 레코드와 관련된 필드가 표시됩니다. 표 보기에 표시된 동일한 필드가 Maestro 레코드의 세부 정보 섹션에도 표시됩니다. 자세한 내용은 [레코드 편집](../records/edit-records.md).
 
-<!-- this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default. -->
+<!--this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default.-->
 
 보기에 열을 추가하는 것은 레코드 유형에 필드를 추가하는 것과 같습니다.
 
@@ -128,21 +128,6 @@ Maestro 테이블 보기의 열 헤더에는 보기의 레코드와 관련된 �
 1. 문서에 설명된 대로 필드(또는 열) 추가 시작 [필드 만들기](../fields/create-fields.md).
 
    추가한 열은 레코드 유형에 액세스하는 모든 사용자가 볼 수 있으며 선택한 레코드 유형의 레코드에 대한 세부 정보 페이지에서 새 필드로 추가됩니다.
-
-<!--1. Hover over a field name in the column header, then click the downward-pointing arrow to the right of the field name, then click **Make this a primary field**. (****accurate UI element?!*****)
-
-    (******add screen shot*****)
-
-    The field becomes a primary field which means it displays as the first column of the table view. The previous primary field moves in the second column
-
-    >[!NOTE]
-    >
-    >    Only fields of the following types can be primary fields: 
-
-        * Single-line text
-        * Number
-        * Formula -->
-
 
 1. 다음 중 하나를 수행하여 테이블의 열 순서를 변경합니다.
 
@@ -161,6 +146,27 @@ Maestro 테이블 보기의 열 헤더에는 보기의 레코드와 관련된 �
    >* 이름 필드는 숨길 수 없습니다.
    >
    >* 이름 필드가 고정되어 있고 가로 스크롤의 일부가 아닙니다.
+
+   <!--* Replace the field in the first column with another field by changing the primary field. For more information, continue to step 4. (******ensure this is accurate****)-->
+
+   <!--1. (Optional) Hover over a field name in the column header of any field that does not display in the first field of the table, click the downward-pointing arrow to the right of the field name, then click **Set as primary field**. 
+    (******add screen shot*****)
+
+    1. Click **Set field** to confirm. 
+    The field becomes a primary field which means it displays as the first column of the table view. The previous primary field moves in the second column.
+    >[!NOTE]
+    >
+    >   * Only fields of the following types can be primary fields: 
+    >
+    >       * Single-line text
+    >       * Number
+    >       * Formula (********HIDE THIS FOR NOW???********)
+    >
+    >   * The primary field is always frozen.
+    >
+    >   * Changing the primary field in your table view affects the view for all other users who choose it.
+    
+    ************ALSO UPDATE THE TIP BELOW ABOUT THE PRIMARY FIELD******-->
 
 1. 열 구분선을 클릭하고 드래그하여 원하는 위치에 놓아 열의 너비를 늘립니다.
 
@@ -213,12 +219,12 @@ Maestro에서 레코드 유형에 대해 최대 10,000개의 레코드(또는 �
    >
    >테이블 뷰에 정렬을 하나 이상 적용하면 행 순서를 재정렬할 수 없습니다.
 
-<!-- this is not possible right now:
+   <!-- this is not possible right now:
 
-1. To reorder the rows, click the row header, drag and drop it in the desired location. 
+    1. To reorder the rows, click the row header, drag and drop it in the desired location. 
 
-    The changes you make to the row order are permanent and visible to all users who access the record type
--->
+        The changes you make to the row order are permanent and visible to all users who access the record type
+    -->
 
 ### 필터 추가 {#add-filters}
 

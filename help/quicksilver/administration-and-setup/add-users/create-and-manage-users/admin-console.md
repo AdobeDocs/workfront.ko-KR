@@ -1,13 +1,13 @@
 ---
 title: Adobe Admin Console에서 사용자 관리
 description: Adobe 관리자는 Adobe Admin Console을 사용하여 Adobe Workfront 사용자와 시스템 관리자를 만들 수 있습니다.
-author: Becky, Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: 01b60a2fab1188c8510857490ea87f609897b0bb
+source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1121'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Adobe 관리자는 Adobe Admin Console을 사용하여 Adobe Workfront 사용자
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td>모든</td> 
+   <td>임의</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe 관리자 권한</td> 
@@ -45,13 +45,42 @@ Adobe 관리자는 Adobe Admin Console을 사용하여 Adobe Workfront 사용자
 
 ## 전제 조건
 
-Workfront용 Admin Console을 사용하기 전에 콘솔로 초대하는 이메일 수신 을 받아야 합니다.
+Workfront용 Admin Console을 사용하기 전에 콘솔로 초대하는 이메일을 수신해야 합니다.
 
 1. Adobe을 처음 사용하는 경우 이제 조직의 Adobe 소프트웨어 및 서비스를 관리할 수 있는 권한이 있다는 전자 메일을 받은 경우, 전자 메일의 버튼을 클릭하여 Adobe 계정을 만들고 Admin Console을 엽니다.
 
    또는
 
    이미 Adobe 계정이 있는 경우 [Adobe Admin Console 페이지](https://adminconsole.adobe.com/).
+
+## Adobe Admin Console에 대한 추가 세부 정보
+
+* Workfront 시스템 관리자는 Workfront 내에서 Workfront 사용자를 비활성화할 수 있지만 이렇게 해도 Admin Console의 사용자는 비활성화되지 않습니다.
+
+  <!--
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about deactivating a user in Workfront, see </p>
+  -->
+
+* 사용자 **홈 그룹** 은 폴더를 만든 사용자를 기반으로 결정됩니다. Admin Console 내에서 사용자 지정할 수 없습니다.
+* Workfront 시스템 관리자 액세스 수준은 Adobe Admin Console 내에서만 편집할 수 있습니다.
+
+  <!--
+  DRAFTED IN FLARE:
+  How is this done?
+  
+  -->
+
+* 사용자의 액세스 권한을 시스템 관리자에서 다른 액세스 수준으로 변경하는 것은 먼저 Admin Console을 통해 수행해야 합니다.
+
+  <!--
+   This is not clear
+  -->
+
+* Workfront의 사용자로부터 시스템 관리자 액세스 권한을 제거하려면 Adobe Admin Console을 사용하여 제품 프로필 관리자로 해당 사용자를 제거해야 합니다. 이렇게 하면 사용자의 Workfront 액세스 수준이 시스템 관리자에서 요청자로 변경됩니다.
+
+  >[!IMPORTANT]
+  >
+  >제품 프로필 자체를 변경하지 마십시오.
 
 ## Workfront 프로덕션 인스턴스의 사용자 및 관리 영역에 액세스 {#access-the-user-and-admin-area-for-your-production-instance-of-workfront}
 
@@ -96,7 +125,7 @@ Workfront 사용자를 Adobe Admin Console에 추가해야 합니다. 관리자�
 
 ### Adobe Admin Console에서 바로 Workfront에서 사용자 만들기
 
-1. 에 설명된 대로 Admin Console의 사용자 및 관리 영역으로 이동합니다. [Workfront 프로덕션 인스턴스의 사용자 및 관리 영역에 액세스](#access-the-user-and-admin-area-for-your-production-instance-of-workfront) 이 문서에서.
+1. 섹션에 설명된 대로 Admin Console의 사용자 및 관리 영역으로 이동합니다. [Workfront 프로덕션 인스턴스의 사용자 및 관리 영역에 액세스](#access-the-user-and-admin-area-for-your-production-instance-of-workfront) 이 문서에서.
 1. 포함 **사용자** 목록 위에서 선택한 탭을 선택합니다. **사용자 추가**.
 1. 다음에서 **이 제품 프로필에 사용자 추가** 상자에서 추가하려는 사용자의 이메일 주소 또는 이름을 입력한 다음 을 선택합니다 **저장**.
 
@@ -114,7 +143,7 @@ Workfront 사용자를 Adobe Admin Console에 추가해야 합니다. 관리자�
 
    >[!NOTE]
    >
-   >신규 Adobe Admin Console의 경우 등록 프로세스를 완료하도록 초대하는 이메일을 제공합니다. 모든 사용자가 모든 Adobe 시스템에 액세스하려면 등록 프로세스를 완료해야 합니다.
+   >신규 Adobe Admin Console의 경우 등록 프로세스를 완료하도록 초대하는 이메일을 제공합니다. 모든 사용자가 모든 Adobe 애플리케이션에 액세스하려면 등록 프로세스를 완료해야 합니다.
    >
    >기존 Adobe 사용자의 경우, 사용자는 사용 가능한 Workfront에 대한 이메일을 받을 수도 있고 받지 못할 수도 있습니다. 제품에 대해 Adobe 관리자가 제어하는 기본 설정입니다.
 
@@ -134,9 +163,9 @@ Workfront에서 사용자를 만드는 방법에 대한 지침은 [사용자 추
 
 사용자를 승인하려면:
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 상단에서 을(를) 클릭한 다음 **사용자** ![](assets/users-icon-in-main-menu.png).
+{{step-1-to-users}}
 
-1. 사용자를 선택한 다음 기타 아이콘을 클릭합니다 ![](assets/more-icon.png).
+1. 사용자를 선택한 다음 M을 클릭합니다&#x200B;**o** re 아이콘 ![](assets/more-icon.png).
 
 1. 사용자를 승인하려면 **승인**&#x200B;을 클릭한 다음 을 클릭합니다 **제출**.
 
@@ -144,9 +173,9 @@ Workfront에서 사용자를 만드는 방법에 대한 지침은 [사용자 추
 
    사용자를 거부하고 Workfront에서 삭제하려면 **거부**&#x200B;을 클릭한 다음 을 클릭합니다 **제출**.
 
-승인된 사용자는 Adobe Admin Console에 자동으로 추가됩니다.
+   승인된 사용자는 Adobe Admin Console에 자동으로 추가됩니다.
 
-거부된 사용자는 Workfront에서 자동으로 삭제됩니다.
+   거부된 사용자는 Workfront에서 자동으로 삭제됩니다.
 
 
 
@@ -154,9 +183,9 @@ Workfront에서 사용자를 만드는 방법에 대한 지침은 [사용자 추
 
 시스템 관리자 액세스 수준은 Adobe Admin Console에만 부여됩니다. Workfront 내에서는 관리자 액세스 권한을 부여하거나 제거할 수 없습니다.
 
-사용자를 Workfront 시스템 관리자로 지정하려면 먼저 Workfront의 프로덕션 인스턴스에 사용자를 추가해야 합니다. 자세한 내용은 [Adobe Admin Console을 사용하여 Workfront에서 사용자 만들기](#create-users-in-workfront-with-the-adobe-admin-console) 이 문서에서.
+사용자를 Workfront 시스템 관리자로 지정하려면 먼저 Workfront의 프로덕션 인스턴스에 사용자를 추가해야 합니다. 자세한 내용은 섹션을 참조하십시오. [Adobe Admin Console을 사용하여 Workfront에서 사용자 만들기](#create-users-in-workfront-with-the-adobe-admin-console) 이 문서에서.
 
-1. 에 설명된 대로 Admin Console의 사용자 및 관리 영역으로 이동합니다. [Workfront 프로덕션 인스턴스의 사용자 및 관리 영역에 액세스](#access-the-user-and-admin-area-for-your-production-instance-of-workfront) 이 문서에서.
+1. 섹션에 설명된 대로 Admin Console의 사용자 및 관리 영역으로 이동합니다. [Workfront 프로덕션 인스턴스의 사용자 및 관리 영역에 액세스](#access-the-user-and-admin-area-for-your-production-instance-of-workfront) 이 문서에서.
 1. 다음 항목 선택 **관리자** 사용자 목록 위에 있는 탭입니다.
 1. 선택 **관리자 추가**.
 1. 다음에서 **제품 프로필 관리자 추가** 상자에서 추가하려는 관리자의 이메일 주소 또는 이름을 입력한 다음 을 선택합니다 **저장**.
@@ -169,34 +198,7 @@ Workfront에서 사용자를 만드는 방법에 대한 지침은 [사용자 추
    >
    >제품 프로필 자체를 변경하지 마십시오.
 
-## Adobe Admin Console에 대한 추가 세부 정보:
 
-* Workfront 시스템 관리자는 Workfront 내에서 Workfront 사용자를 비활성화할 수 있지만 이렇게 해도 Admin Console의 사용자는 비활성화되지 않습니다.
-
-  <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about deactivating a user in Workfront, see </p>
-  -->
-
-* 사용자 **홈 그룹** 은 폴더를 만든 사용자를 기반으로 결정됩니다. 현재 Admin Console 내에서 사용자 지정할 수 없습니다.
-* Workfront 시스템 관리자 액세스 수준은 Adobe Admin Console 내에서만 편집할 수 있습니다.
-
-  <!--
-  DRAFTED IN FLARE:
-  How is this done?
-  
-  -->
-
-* 시스템 관리자인 사용자를 다른 액세스 수준으로 편집하려면 먼저 Admin Console을 통해 수행해야 합니다.
-
-  <!--
-   This is not clear
-  -->
-
-* Workfront의 사용자로부터 시스템 관리자 액세스 권한을 제거하려면 Adobe Admin Console을 사용하여 제품 프로필 관리자로 해당 사용자를 제거해야 합니다. 이렇게 하면 사용자의 Workfront 액세스 수준이 시스템 관리자에서 요청자로 변경됩니다.
-
-  >[!IMPORTANT]
-  >
-  >제품 프로필 자체를 변경하지 마십시오.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

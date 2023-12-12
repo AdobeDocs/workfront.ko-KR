@@ -3,10 +3,10 @@ title: '[!DNL Adobe Workfront] 설명서'
 description: 설명서 [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: 647788221b4acff1cfd5e0ce14d5b99cf90ceee0
+source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 2%
+source-wordcount: '379'
+ht-degree: 0%
 
 ---
 
@@ -75,7 +75,7 @@ Workfront에서 필요한 보고서를 만드는 방법을 찾을 수 없는 경
 
 Workfront에서 리소스를 예약하는 대신 업무 균형자 를 사용하십시오.
 
-다음을 참조하십시오 [업무 균형자](/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md).
+다음을 참조하십시오 [업무 균형자: 문서 색인](/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md).
 
 ### Adobe Workfront 목표
 
