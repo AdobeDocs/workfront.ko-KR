@@ -8,9 +8,9 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 exl-id: a1603a06-957b-4d52-89f3-f0cec1a4e02c
-source-git-commit: 15e2869417d8315bf8e96f7d9d537cd70a5e39df
+source-git-commit: 31adfeffeda9fc6aa4e76ceae7ef410d9c4c178c
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1246'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 1. **코디네이터:** Workfront 내에서 `Frame.io alpha testing` 프로젝트 그룹으로 할당된 그룹.
 
-1. **코디네이터:** Workfront 내에서 프로젝트에 창의성을 할당합니다 <span class="preview">또는 프레임 사용 작업</span> 프로젝트 상태를 &quot;현재&quot;로 변경합니다.
+1. **코디네이터:** Workfront 내에서 프로젝트에 창의성을 할당합니다 <span class="preview">또는 프레임 사용 작업(하위 작업은 프레임 사용으로 표시할 수 없음)</span> 프로젝트 상태를 &quot;현재&quot;로 변경합니다.
 
 1. **광고:** 새로 만든 Frame.io 프로젝트에 대한 초대를 위해 이메일을 확인하십시오.
 
@@ -60,6 +60,10 @@ ht-degree: 0%
 1. **광고:** Frame.io 내에서 업데이트된 버전을 연결된 자산의 버전 스택에 추가하여 요청된 변경 사항을 적용합니다.
 
 1. **코디네이터:** Workfront 내에서 승인자/검토자를 새로 업로드한 버전에 할당하고 로그오프에 도달할 때까지 진행 상황을 모니터링합니다.
+
+## 자세한 테스트 시나리오
+
+추가 기능을 테스트하려는 참가자를 위해 더 많은 관련 테스트 시나리오를 만들었습니다. 이 세부 테스트 시나리오에 대한 안내서는 여기에서 다운로드할 수 있습니다. [WF + Frame.io 상세 테스트 시나리오 연습](/help/quicksilver/product-announcements/betas/assets/WF-Frame-Detailed-Test-Scenario-Walkthrough.pdf).
 
 ## 기능 계획
 
