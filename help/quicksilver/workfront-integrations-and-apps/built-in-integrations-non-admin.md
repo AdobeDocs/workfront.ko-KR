@@ -5,11 +5,12 @@ navigation-topic: workfront-integrations-navigation-topic
 title: Adobe Workfront 기본 제공 통합 개요
 description: 다음을 통합할 수 있습니다. [!DNL Adobe Workfront] 타사 응용 프로그램 사용. 이러한 통합은 의 유틸리티를 확장할 수 있습니다. [!DNL Workfront] 조직의 요구 사항에 맞게 조정할 수 있습니다. 예를 들어 마케팅 업계의 크리에이티브 작업자인 경우 Adobe Creative Cloud 추가 기능을 사용하여 자산을 Photoshop에서 Workfront으로 직접 내보낼 수 있습니다.
 feature: Workfront Integrations and Apps
+author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 8e283fce9aa2ad981c88e0b8cd5201c7408ab878
+source-git-commit: 02bacdc99c23b70bbe8dd71e493c940f91058965
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 2%
+source-wordcount: '482'
+ht-degree: 3%
 
 ---
 
@@ -41,7 +42,7 @@ ht-degree: 2%
      <li>After Effects </li>
      </ul>
      <li><p>다음에서 다운로드/설치 <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe 교환</a>.</p></li></ul>
-     <p>자세한 내용 및 지침은 <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">설치  [!DNL Adobe Workfront] 플러그인 [!DNL Creative Cloud] 애플리케이션</a></p> </td> 
+     <p>자세한 내용 및 지침은 <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">설치  [!DNL Adobe Workfront] 플러그인 [!DNL Creative Cloud] 애플리케이션</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Box</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 
