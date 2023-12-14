@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
+source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
 workflow-type: tm+mt
-source-wordcount: '2492'
+source-wordcount: '2629'
 ht-degree: 0%
 
 ---
@@ -96,6 +96,27 @@ For more information, see [Grant access to Adobe Maestro](../maestro/access/gran
 * 레코드 유형의 모든 테이블 보기에는 선택하는 기본 필드가 동일합니다.
 
 자세한 내용은 [테이블 보기 관리](/help/quicksilver/maestro/views/manage-the-table-view.md).
+
+
+### Maestro 레코드를 AEM(Adobe Experience Manager) 에셋과 연결
+
+미리보기 릴리스: 2023년 12월 14일
+
+프로덕션 릴리스: 2023년 12월 15일
+
+이제 Maestro 레코드 유형과 Adobe Experience Manager 에셋 간에 연결을 설정할 수 있습니다.
+
+연결을 설정하면 이 업데이트에서 다음 기능을 사용할 수 있습니다.
+
+* Maestro 사용자는 액세스 권한이 있는 AEM의 특정 저장소에서 AEM 에셋, 폴더 또는 컬렉션을 Maestro 레코드에 연결할 수 있습니다
+
+* Maestro 사용자는 레코드에 연결된 후 Maestro에서 연결된 모든 에셋을 볼 수 있습니다.
+
+* 연결을 설정하면 Experience Manager Assets 레코드 유형이 Maestro에서 자동으로 만들어집니다. 연결된 에셋은 Maestro 테이블 및 이 새로운 레코드 유형의 타임라인 보기에서 볼 수 있습니다.
+
+* 연결 중인 Maestro 레코드 테이블에서 AEM 에셋 정보를 볼 수 있습니다.
+
+자세한 내용은 [레코드 유형 연결](/help/quicksilver/maestro/architecture/connect-record-types.md)
 
 ## 2023년 12월 4일 주
 

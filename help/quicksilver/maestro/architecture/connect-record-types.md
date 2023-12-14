@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 98b57b08b87e47a402684428a76576455df664d7
+source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
 workflow-type: tm+mt
-source-wordcount: '1784'
+source-wordcount: '1941'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,9 @@ Adobe Maestro를 사용하여 조직에 필요한 레코드 유형이 포함된 
 <td>
    <p> Adobe 제품</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> 
+   <p>Maestro 레코드 유형을 Experience Manager Assets과 연결하려면 Adobe Experience Manager Assets이 있어야 합니다.</p>
+   </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront 계약</p></td>
    <td>
@@ -121,7 +123,7 @@ After permssions - replace the table with:
 <td>
    <p> Adobe product</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> <p>To connect Maestro record types with Experience Manager Assets, you must have an Adobe Experience Manager Assets</p> </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
@@ -199,6 +201,12 @@ After permssions - replace the table with:
       * 회사
       * 그룹
 
+   * Adobe Experience Manager Assets:
+
+      * 자산
+      * 폴더
+      * 컬렉션
+
 * 레코드 유형을 다른 레코드 유형이나 다른 응용 프로그램의 개체 유형과 연결한 후에는 다음과 같은 시나리오가 있습니다.
 
    * 두 개의 레코드 종류를 연결하면 연결된 레코드 종류에 연결된 레코드 필드가 만들어집니다. 연결하는 레코드 유형에 유사한 연결된 레코드 필드가 만들어집니다.
@@ -230,12 +238,14 @@ After permssions - replace the table with:
 1. 레코드 유형의 카드를 클릭하여 레코드 유형 페이지를 엽니다.
 1. 다음을 클릭합니다. **+** 아이콘을 클릭하여 테이블 보기 오른쪽 위 모서리에서 **새 연결** 탭.
 
-   ![](assets/new-connection-tab-with-workfront-option.png)
+   ![](assets/new-connection-tab-with-workfront-aem-options.png)
+
 1. 다음에서 **레코드 유형** 필드에서 다음 중 하나를 선택합니다. <!--is the field name spelled right? lowercase "t"?-->
 
-   * 다른 작업 레코드 유형
-   * 분류 체계
-   * Workfront 프로젝트, Portfolio, 프로그램, 회사 또는 그룹.
+   * 선택한 작업 영역의 다른 작업 레코드 유형
+   * 선택한 작업 영역의 분류입니다.
+   * Workfront 객체 유형 섹션의 프로젝트, Portfolio, 프로그램, 회사 또는 그룹.
+   * Adobe 애플리케이션 섹션의 Experience Manager Assets.
 
    ![](assets/new-connection-tab-fields-with-another-record-selected.png)
 
@@ -255,9 +265,17 @@ After permssions - replace the table with:
    * **여러 레코드 허용**: 이 옵션을 선택하면 연결된 레코드 유형 필드가 원본 레코드에 표시될 때 사용자가 여러 레코드를 추가할 수 있음을 나타냅니다. 이 옵션은 기본적으로 선택되어 있습니다.
    * **조회 필드 선택**: 선택한 레코드 유형에서 필드를 추가하려면 이 옵션을 선택합니다. 이 옵션은 기본적으로 선택되어 있습니다.
 
-1. 클릭 **만들기**.
+1. (조건부 및 선택 사항) Workfront 개체를 연결하도록 선택한 경우 **사용자 정의 양식** 다음에서 **이 기준과 일치하는 프로젝트만 연결** 섹션. <!--this needs to be updated for each object when they fix this UI.--> 선택한 사용자 정의 양식이 첨부된 객체만 선택한 Maestro 레코드 유형에 연결할 수 있습니다. 두 개 이상의 양식을 선택할 수 있습니다.
 
-1. (조건부) 이전 단계에서 조회 필드 선택 설정을 선택한 경우 **조회 필드 추가** 상자가 열립니다.
+   ![](assets/workfront-project-connection-selection.png)
+
+1. (조건부) Experience Manager Assets에 연결하도록 선택한 경우 **Experience Manager 저장소** 드롭다운 메뉴 **다음 저장소에서 에셋 연결** 섹션. 필수 필드입니다. Experience Manager Assets에서 액세스할 수 있는 저장소만 이 필드에 표시됩니다.
+
+   ![](assets/aem-assets-connection-selection.png)
+
+1. Click **Create**.
+
+1. (조건부) 다음을 선택한 경우 **조회 필드 선택** 이전 단계에서 를 설정하는 중 **조회 필드 추가** 상자가 열립니다.
 
    다음을 클릭합니다. **+** 에서 필드를 추가하는 아이콘 **선택하지 않은 필드** 영역입니다.
 
@@ -274,6 +292,10 @@ After permssions - replace the table with:
 1. (선택 사항 및 조건부) 숫자, 통화, 백분율 또는 날짜 유형 필드를 연결하도록 선택하는 경우 집계기 값도 선택합니다. 사용자가 연결된 레코드 필드에서 둘 이상의 연결된 레코드를 선택하면 연결된 필드의 값이 선택한 집계기에 따라 쉼표로 구분되거나 집계된 값으로 표시됩니다.
 
    ![](assets/aggregator-drop-down-for-number-linked-field.png)
+
+   >[!NOTE]
+   >
+   > 기록 유형을 Experience Manager Assets에 연결할 때 집계자를 사용할 수 없습니다.
 
    다음 중에서 선택합니다.
 
