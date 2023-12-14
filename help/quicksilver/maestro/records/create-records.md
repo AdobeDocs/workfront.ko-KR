@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
+source-git-commit: 92e8b9949f13536b3464922a93fafcb74688d916
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,12 @@ Adobe 마에스트로에서 레코드는 레코드 유형의 인스턴스입니�
 
 * 수동으로 Maestro 레코드 유형에 대해 만듭니다.
 * 서드파티 애플리케이션에서 Maestro 레코드에 연결합니다.
+* 외부 목록에서 정보를 복사하여 붙여 넣어 레코드를 만듭니다.
+
+이 문서에서는 Maestro 레코드를 만드는 방법을 설명합니다. 테이블 또는 타임라인 보기에서 레코드 관리에 대한 자세한 내용은 다음 문서를 참조하십시오.
+
+* [표 보기 관리](/help/quicksilver/maestro/views/manage-the-table-view.md)
+* [타임라인 보기 관리](/help/quicksilver/maestro/views/manage-the-timeline-view.md)
 
 ## 액세스 요구 사항
 
@@ -60,19 +66,19 @@ Adobe 마에스트로에서 레코드는 레코드 유형의 인스턴스입니�
   <tr>
    <td role="rowheader"><p>Adobe Workfront 플랜</p></td>
    <td>
-<p>모든</p>
+<p>임의</p>
    </td>
   </tr>
   <tr>
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td>
    <td>
-   <p>모든</p> 
+   <p>임의</p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader">액세스 수준</td>
-   <td> <p>모든</p>  
+   <td> <p>임의</p>  
 </td>
   </tr>
 <tr>
@@ -183,7 +189,7 @@ After permssions - replace the table with:
 
 ## 다른 애플리케이션에서 연결하여 레코드 만들기
 
-다른 응용 프로그램에서 레코드를 Maestro 연결 레코드에 연결하여 가져올 수 있습니다.
+다른 응용 프로그램에서 레코드를 Maestro 연결 레코드에 연결하여 가져올 수 있습니다. 이렇게 하면 서드파티 애플리케이션 연결 개체에 대한 Maestro 레코드 유형이 생성됩니다. 원래 Maestro 레코드에 연결하는 레코드는 서드파티 애플리케이션 연결 객체 Maestro 레코드 유형 테이블 보기에 표시됩니다.
 
 1. 에 설명된 대로 Maestro 레코드 유형을 만듭니다. [레코드 유형 만들기](../architecture/create-record-types.md).
 
@@ -199,7 +205,6 @@ After permssions - replace the table with:
 
      예를 들어 Maestro 레코드 유형을 Workfront 프로젝트에 연결하는 경우 &quot;Workfront 프로젝트&quot;라는 읽기 전용 레코드 유형이 동일한 작업 영역에 생성됩니다.
    * 서드파티 레코드 유형 페이지의 읽기 전용 레코드. 타사 응용 프로그램에서 가져온 레코드는 읽기 전용으로 유지되며 원래 응용 프로그램에서만 업데이트할 수 있습니다.
-
 
 ## 외부 목록에서 정보를 복사하여 붙여 넣어 레코드 만들기
 

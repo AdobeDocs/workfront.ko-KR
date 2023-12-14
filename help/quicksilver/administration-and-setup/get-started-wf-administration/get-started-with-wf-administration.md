@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8d5497fa-3432-4188-ad71-92ab91cd19fa
-source-git-commit: 3d2124260b041ec7566f0873a57514d84c5f7025
+source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [Adobe Workfront 구현을 위한 목표 정의](../../administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
+* [Adobe Workfront 구현을 위한 목표 정의 개요](../../administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
 * [시스템에서 사용 가능한 라이선스 관리](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
 * [시스템에 대한 기본 정보 구성](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md)
 * [방화벽 개요](../../administration-and-setup/get-started-wf-administration/firewall-overview.md)

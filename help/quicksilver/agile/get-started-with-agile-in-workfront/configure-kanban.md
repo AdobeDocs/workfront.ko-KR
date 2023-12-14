@@ -6,10 +6,10 @@ description: 에서 Kanban 또는 Scrum Agile 팀을 만듭니다. [!DNL Adobe W
 author: Lisa
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
 workflow-type: tm+mt
-source-wordcount: '1548'
-ht-degree: 0%
+source-wordcount: '1476'
+ht-degree: 1%
 
 ---
 
@@ -42,16 +42,23 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 플랜*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 플랜*</td> 
    <td> <p>임의</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
+  </tr>
+
+<tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
    <td> <p>새로운 기능: [!UICONTROL Standard]</p> 
    또는
    <p>현재: [!UICONTROL Work] 이상</p> </td> 
-  </tr> 
- </tbody> 
+  </tr>
+
+<tr> 
+   <td role="rowheader">액세스 수준</td> 
+   <td> <p>팀에 대한 액세스 편집</p>  </td> 
+  </tr>
+
+</tbody> 
 </table>
 
 *보유 중인 플랜 또는 라이선스 유형을 확인하려면 다음 연락처로 문의하십시오. [!DNL Workfront] 관리자.
@@ -68,14 +75,13 @@ ht-degree: 0%
 1. 관리할 애자일 팀을 선택합니다.
 1. 다음을 클릭합니다. **[!UICONTROL 자세히]** 메뉴 ![](assets/more-menu.png) 을 선택한 다음 을 선택합니다. **[!UICONTROL 편집]**.
 
-   다음 중 하나를 가진 팀원만 [!UICONTROL 플랜] 또는 [!UICONTROL 작업] 라이센스 이 옵션을 참조하십시오.\
    ![팀 편집](assets/edit-team-settings-350x205.png)
 
 1. 다음에서 **[!UICONTROL 애자일]** 섹션, **[!UICONTROL 다음에서 스토리 예상:]** 영역에서 스토리의 크기(작업 로드)를 예상하는 데 포인트를 사용할지 또는 시간을 사용할지 선택합니다. 점(Points)을 선택하는 경우 1점과 동일한 시간을 지정합니다. (기본값은 1포인트 = 8시간입니다.) 스토리에 추가된 계획된 시간 수입니다.
 
    **예:** 스토리를 포인트 단위로 추정하도록 선택했는데 1포인트가 8시간과 같고 스토리가 3포인트로 추정되는 경우 24개의 계획된 시간이 스토리에 추가됩니다.
 
-1. 클릭 **[!UICONTROL 변경 내용 저장]**.
+1. **[!UICONTROL 변경 내용 저장]**&#x200B;을 클릭합니다.
 
 ## 애자일 스토리 보드에서 상태 열 구성
 
@@ -89,8 +95,6 @@ ht-degree: 0%
 
 1. 관리할 애자일 팀을 선택합니다.
 1. 다음을 클릭합니다. **[!UICONTROL 자세히]** 메뉴, 선택 **[!UICONTROL 편집]**.
-
-   다음 중 하나를 가진 팀원만 [!UICONTROL 플랜] 또는 [!UICONTROL 작업] 라이센스 이 옵션을 참조하십시오.
 
    ![팀 편집](assets/edit-team-settings-350x205.png)
 
@@ -109,7 +113,7 @@ ht-degree: 0%
 
    다음과 같은 경우 사용자 정의 상태를 추가할 수 있습니다. [!DNL Workfront] 관리자가 구성했습니다. 자세한 내용은 [상태 만들기 또는 편집](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
-1. 클릭 **[!UICONTROL 변경 내용 저장]**.
+1. **[!UICONTROL 변경 내용 저장]**&#x200B;을 클릭합니다.
 
 ## 애자일 스토리 보드에서 스토리 카드에 표시할 추가 필드를 구성합니다.
 
@@ -139,7 +143,6 @@ ht-degree: 0%
 
 1. 관리할 애자일 팀을 선택합니다.
 1. 다음을 클릭합니다. **[!UICONTROL 자세히]** 메뉴, 선택 **[!UICONTROL 편집]**.\
-   다음 중 하나를 가진 팀원만 [!UICONTROL 플랜] 또는 [!UICONTROL 작업] 라이센스 이 옵션을 참조하십시오.
 
    ![팀 편집](assets/edit-team-settings-350x205.png)
 
@@ -149,7 +152,7 @@ ht-degree: 0%
 
 1. 추가할 필드의 이름을 선택합니다.
 1. 을(를) 입력합니다 **[!UICONTROL 표시 이름]** 스토리나 발급 카드에 표시할 필드용입니다.
-1. 클릭 **[!UICONTROL 변경 내용 저장]**.
+1. **[!UICONTROL 변경 내용 저장]**&#x200B;을 클릭합니다.
 
 ## WIP(Work In Progress) 한도 구성
 
@@ -166,8 +169,6 @@ Kanban 팀의 WIP를 제한하려면
 1. 관리할 Kanban 팀을 선택합니다.
 1. 다음을 클릭합니다. **[!UICONTROL 자세히]** 메뉴 ![](assets/more-menu.png)을 선택한 다음 을 선택합니다. **[!UICONTROL 편집]**.
 
-   다음 중 하나를 가진 팀원만 [!UICONTROL 플랜] 또는 [!UICONTROL 작업] 라이센스 이 옵션을 참조하십시오.
-
    ![팀 편집](assets/edit-team-settings-350x205.png)
 
 1. 다음에서 **[!UICONTROL 애자일]** 섹션, **[!UICONTROL 방법론]** 섹션, Kanban이 선택되어 있는지 확인합니다.
@@ -178,7 +179,7 @@ Kanban 팀의 WIP를 제한하려면
 
    ![WIP 제한](assets/wip-limit-350x193.png)
 
-1. 클릭 **변경 내용 저장**.
+1. **변경 내용 저장**&#x200B;을 클릭합니다.
 
 ## 백로그에서 스토리를 자동으로 추가하도록 구성
 
@@ -193,8 +194,6 @@ Kanban 팀의 WIP를 제한하려면
 1. 관리할 Kanban 팀을 선택합니다.
 1. 다음을 클릭합니다. **[!UICONTROL 자세히]** 메뉴 ![](assets/more-menu.png)을 선택한 다음 을 선택합니다. **[!UICONTROL 편집]**.
 
-   다음 중 하나를 가진 팀원만 [!UICONTROL 플랜] 또는 [!UICONTROL 작업] 라이센스 이 옵션을 참조하십시오.
-
    ![팀 편집](assets/edit-team-settings-350x205.png)
 
 1. 선택 **[!UICONTROL 백로그에서 다음 스토리를 자동으로 추가]** 백로그의 다음 항목을 **[!UICONTROL 신규]** 열: 항목을 **[!UICONTROL 진행 중]** 열.
@@ -204,7 +203,7 @@ Kanban 팀의 WIP를 제한하려면
    스토리가에 있는 [!UICONTROL 진행 중] 열을 스토리 보드에서 다음을 나타내는 열로 바꿉니다. [!UICONTROL 완료] 상태(또는 와 동일한 상태) [!UICONTROL 완료]) 백로그 열의 스토리가 자동으로 다음으로 이동합니다. [!UICONTROL 신규] 열 [!UICONTROL 칸반 보드].
 백로그에서 추가되면 우선 순위가 가장 높은 스토리가 스토리 보드에 추가됩니다.
 
-1. 클릭 **[!UICONTROL 변경 내용 저장]**.
+1. **[!UICONTROL 변경 내용 저장]**&#x200B;을 클릭합니다.
 
 ## 카드에 남아 있는 기간을 구성합니다. [!UICONTROL 칸반] 보드
 
@@ -216,11 +215,9 @@ Kanban 팀의 WIP를 제한하려면
 1. 칸반 팀을 선택합니다.
 1. 다음을 클릭합니다. **[!UICONTROL 자세히]** 메뉴 ![](assets/more-menu.png) 을 선택한 다음 을 선택합니다. **[!UICONTROL 편집]**.
 
-   다음 중 하나를 가진 팀원만 [!UICONTROL 플랜] 또는 [!UICONTROL 작업] 라이센스 이 옵션을 참조하십시오.
-
    ![팀 편집](assets/edit-team-settings-350x205.png)
 
 1. 다음에서 **[!UICONTROL 완료된 카드가 칸반 보드에 남아 있는 일 수]** 드롭다운 메뉴에서 값을 선택합니다.
 
    1일에서 30일 사이의 숫자를 선택할 수 있습니다.
-1. 클릭 **[!UICONTROL 변경 내용 저장]**.
+1. **[!UICONTROL 변경 내용 저장]**&#x200B;을 클릭합니다.

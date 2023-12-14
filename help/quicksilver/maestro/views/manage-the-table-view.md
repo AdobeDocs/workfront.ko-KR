@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
 workflow-type: tm+mt
-source-wordcount: '2085'
+source-wordcount: '2271'
 ht-degree: 3%
 
 ---
@@ -137,36 +137,44 @@ Maestro 테이블 보기의 열 헤더에는 보기의 레코드와 관련된 �
 
      ![](assets/fields-setting-table-view-toolbar-expanded.png)
 
-   >[!TIP]
-   >
-   >* 이름 필드는 항상 테이블 보기의 첫 번째 필드입니다.
-   >
-   >* 이름 필드를 다른 위치로 이동할 수 없습니다.
-   >
-   >* 이름 필드는 숨길 수 없습니다.
-   >
-   >* 이름 필드가 고정되어 있고 가로 스크롤의 일부가 아닙니다.
 
-   <!--* Replace the field in the first column with another field by changing the primary field. For more information, continue to step 4. (******ensure this is accurate****)-->
+     >[!TIP]
+     >
+     >* 이름 필드는 항상 테이블 보기의 첫 번째 필드입니다.
+     >
+     >* 이름 필드를 다른 위치로 이동할 수 없습니다.
+     >
+     >* 이름 필드는 숨길 수 없습니다.
+     >
+     >* 이름 필드가 고정되어 있고 가로 스크롤의 일부가 아닙니다.
 
-   <!--1. (Optional) Hover over a field name in the column header of any field that does not display in the first field of the table, click the downward-pointing arrow to the right of the field name, then click **Set as primary field**. 
-    (******add screen shot*****)
+   * 기본 필드를 변경하여 첫 번째 열의 필드를 다른 필드로 바꿉니다. 자세한 내용을 보려면 4단계를 계속 진행하십시오. <!--accurate?-->
 
-    1. Click **Set field** to confirm. 
-    The field becomes a primary field which means it displays as the first column of the table view. The previous primary field moves in the second column.
-    >[!NOTE]
-    >
-    >   * Only fields of the following types can be primary fields: 
-    >
-    >       * Single-line text
-    >       * Number
-    >       * Formula (********HIDE THIS FOR NOW???********)
-    >
-    >   * The primary field is always frozen.
-    >
-    >   * Changing the primary field in your table view affects the view for all other users who choose it.
-    
-    ************ALSO UPDATE THE TIP BELOW ABOUT THE PRIMARY FIELD******-->
+1. (선택 사항) 테이블의 첫 번째 열에 표시되지 않는 필드의 열 헤더에 있는 필드 이름을 마우스로 가리키고 필드 이름의 오른쪽에 있는 아래쪽 방향 화살표를 클릭한 다음 를 클릭합니다 **기본 필드로 설정**.
+
+   ![](assets/set-as-primary-field-option-table-view.png)
+
+1. 클릭 **필드 설정** 확인할 수 있습니다.
+
+   필드는 기본 필드가 되어 테이블 보기의 첫 번째 열로 표시됩니다. 이전 기본 필드가 두 번째 열로 이동합니다.
+
+   >[!NOTE]
+   >
+   >   * 다음 유형의 필드만 기본 필드가 될 수 있습니다.
+   >
+   >       * 한 줄 텍스트
+   >       * 숫자
+   >       * 공식
+   >
+   >         수식 필드는 나중에 릴리스됩니다.
+   >
+   >   * 기본 필드는 항상 고정되어 있으므로 이동할 수 없습니다. 기본 필드를 다른 위치로 이동해야 하는 경우 다른 필드를 선택하여 기본 필드를 대체할 수 있습니다.
+   >
+   >   * 테이블 보기의 기본 필드를 변경하면 기본 필드를 선택하는 다른 모든 사용자의 보기에 영향을 줍니다.
+   >
+   >   * 테이블 보기에서 기본 필드를 변경하면 모든 테이블 보기에 영향을 줍니다.
+   >
+   >   * 기본 필드는 삭제하거나 숨길 수 없습니다.
 
 1. 열 구분선을 클릭하고 드래그하여 원하는 위치에 놓아 열의 너비를 늘립니다.
 

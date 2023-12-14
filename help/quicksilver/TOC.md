@@ -3,10 +3,10 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 2e38fcf19d19b9ceabf2d7fe2c42cf9343b60067
+source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
 workflow-type: tm+mt
-source-wordcount: '13783'
-ht-degree: 0%
+source-wordcount: '13788'
+ht-degree: 1%
 
 ---
 
@@ -395,7 +395,7 @@ ht-degree: 0%
    * [관리 및 설정: 문서 색인](administration-and-setup/administration-and-setup.md)
    * 관리 시작 {#get-started-administration}
       * [관리 시작: 문서 색인](administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
-      * [구현 목표 정의](administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
+      * [Adobe Workfront 구현을 위한 목표 정의 개요](administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
       * [라이선스 관리](administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
       * [기본 사항 구성](administration-and-setup/get-started-wf-administration/configure-basic-info.md)
       * [방화벽 개요](administration-and-setup/get-started-wf-administration/firewall-overview.md)
@@ -2228,7 +2228,7 @@ ht-degree: 0%
       * [텍스트 구문 분석기](workfront-fusion/apps-and-their-modules/text-parser.md)
       * [도구](workfront-fusion/apps-and-their-modules/tools-modules.md)
       * [Trello 모듈](workfront-fusion/apps-and-their-modules/trello-modules.md)
-      * [웹훅](workfront-fusion/apps-and-their-modules/webhooks-updated.md)
+      * [웹후크](workfront-fusion/apps-and-their-modules/webhooks-updated.md)
       * [모듈 확장](workfront-fusion/apps-and-their-modules/widen-modules.md)
       * [Workday 모듈](workfront-fusion/apps-and-their-modules/workday-modules.md)
       * [XML](workfront-fusion/apps-and-their-modules/xml-modules.md)
@@ -2338,7 +2338,7 @@ ht-degree: 0%
       * [Adobe Workfront 프로젝트에 Anaplan 예산 할당 적용](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
       * [Adobe Workfront 캠페인 요청에서 Anaplan 목록 항목 만들기](workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
       * [Adobe Workfront 캠페인 요청 또는 캠페인 프로젝트에 Anaplan 예산 할당 적용](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
-* Workfront 증명 {#workfront-proof}
+* Workfront Proof {#workfront-proof}
    * [Workfront 증명: 문서 색인](workfront-proof/workfront-proof.md)
    * Workfront 증명 시작 {#get-started-wf-proof}
       * [Workfront 증명 시작하기](workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md)

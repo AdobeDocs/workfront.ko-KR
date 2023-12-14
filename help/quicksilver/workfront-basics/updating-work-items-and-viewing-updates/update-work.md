@@ -6,9 +6,9 @@ description: Adobe Workfront 개체(프로젝트, 작업 또는 문제)에 업�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 3ffb6fdebb54682abc737e55186850458a133f7c
+source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
 workflow-type: tm+mt
-source-wordcount: '4073'
+source-wordcount: '4163'
 ht-degree: 1%
 
 ---
@@ -409,9 +409,8 @@ drafted for P&P release:
 
 1. (선택 사항) 이미지를 업데이트에 첨부하려면 다음 중 하나를 수행합니다.
 
-   <!--* <span class="preview">Save the image on our computer, then drag and drop it in the New comment area.</span>
-   <span class="preview">This is not available in the Production environment for the new commenting experience.</span>
-   -->
+   * <span class="preview">이미지를 컴퓨터에 저장한 다음 새 댓글 영역에 끌어서 놓습니다.</span>
+     <span class="preview">프로덕션 환경에서는 새 주석 달기 환경을 위해 사용할 수 없습니다. 댓글에 이미지를 드래그 앤 드롭하는 것은 프로덕션의 레거시 댓글 달기 환경에서 사용할 수 있습니다. </span>
 
    * <span class="preview">컴퓨터에서 스크린샷을 복사한 다음 주석에 붙여넣습니다. </span>
    * 다음을 클릭합니다. **이미지 추가** 아이콘 ![](assets/add-image-mountain-with-plus-icon.png) 컴퓨터에서 이미지를 찾습니다.
@@ -431,6 +430,11 @@ drafted for P&P release:
    >* 누군가 문서 영역에서 댓글에 첨부된 이미지를 삭제하면 해당 이미지도 댓글에서 제거됩니다.
 
    <!--remove the statement above about legacy, when we remove the legacy environment.-->
+
+1. (선택 사항) 기존 업데이트에서 이미지를 보려면 다음 중 하나를 수행하십시오.
+
+   * 다음을 클릭합니다. **미리 보기** 아이콘 <span class="preview">![](assets/previewimageicon-31x31.png)</span> 이미지 축소판을 클릭하여 새 브라우저 탭에서 전체 크기 이미지를 엽니다.
+   * 다음을 클릭합니다. **다운로드** 아이콘 ![](assets/downloadimageicon.png) 이미지를 다운로드하려면 이미지 썸네일에서 을(를) 선택합니다.
 
 1. 클릭 **제출** 주석을 추가합니다.
 

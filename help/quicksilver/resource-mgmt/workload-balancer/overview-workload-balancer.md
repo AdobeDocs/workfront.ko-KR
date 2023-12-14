@@ -3,13 +3,13 @@ content-type: overview
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: 업무 균형자 개요
-description: 프로젝트 관리자가 프로젝트에 대한 작업을 계획하고 작업을 생성하면 업무 균형자 를 사용하여 이 작업을 팀의 사용자에게 할당할 수 있습니다.
-author: Alina
+description: 프로젝트 관리자가 작업을 생성하여 프로젝트에 대한 작업을 계획한 후 리소스 관리자가 리소스 플래너의 프로젝트에 작업 역할 리소스를 할당하면 프로젝트 소유자 및 팀 관리자는 업무 균형자 를 사용하여 사용자에게 작업 항목을 할당할 수 있습니다.
+author: Lisa
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
-source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
+source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 <p>(NOTE: this is linked from the UI for the Workload Balancer page. DO NOT CHANGE TITLE OR LINK) </p>
 -->
 
-프로젝트 관리자가 프로젝트에 대한 작업을 계획하고 작업을 생성하면 업무 균형자 를 사용하여 이 작업을 사용자에게 할당할 수 있습니다.
+프로젝트 관리자가 작업을 생성하여 프로젝트에 대한 작업을 계획한 후 리소스 관리자가 리소스 플래너의 프로젝트에 작업 역할 리소스를 할당하면 프로젝트 소유자 및 팀 관리자는 업무 균형자 를 사용하여 사용자에게 작업 항목을 할당할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -60,7 +60,7 @@ ht-degree: 0%
 
   자세한 내용은 [업무 균형자에서 작업 할당 개요](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
-  또한 작업 항목을 일괄적으로 할당하여 여러 프로젝트에 한 번에 많은 작업 항목을 더 쉽게 배포할 수 있습니다. 자세한 내용은 [업무 균형자 를 사용하여 일괄 작업 할당](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+  또한 작업 항목을 일괄적으로 할당하여 여러 프로젝트에 한 번에 많은 작업 항목을 보다 쉽게 배포할 수 있습니다. 자세한 내용은 [업무 균형자 를 사용하여 일괄 작업 할당](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
 * 경영진은 조직 내 사람들이 어떻게 활용되는지에 대한 투명성을 통해 시기적절한 인사 결정을 내릴 수 있습니다.
 * 팀 구성원은 주어진 시간에 동료가 무슨 작업을 하고 있는지 모두 확인할 수 있으므로 더 나은 공동 작업 혜택을 얻을 수 있습니다. 업무 균형자에서 리소스를 보거나 관리하는 데 필요한 액세스에 대한 자세한 내용은 [업무 균형자에서 리소스를 관리하는 데 필요한 액세스](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
@@ -95,12 +95,15 @@ ht-degree: 0%
 * 관리하려는 워크로드의 사용자는 가용성 및 스킬에 대한 정보가 정확하도록 다음 기준을 충족해야 합니다.
 
    * 일정 및 작업 역할이 프로필과 연결되어 있습니다.
-   * 일정 및 작업 역할을 사용자와 연관시키는 방법에 대한 자세한 내용은 [사용자 추가](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)
+
+     일정 및 작업 역할을 사용자와 연관시키는 방법에 대한 자세한 내용은 [사용자 추가](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)
    * 사용자가 일정과 연결되어 있지 않으면 리소스 관리를 위해 Workfront 시스템의 기본 일정이 기본적으로 사용자와 연결되어 있습니다.
-   * 스케줄에서 스케줄 예외를 갱신합니다.\
+   * 스케줄에서 스케줄 예외를 갱신합니다.
+
      일정 만들기에 대한 자세한 내용은 [일정 만들기](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 
-   * 프로필에서 휴무 캘린더를 업데이트했습니다.\
+   * 프로필에서 휴무 캘린더를 업데이트했습니다.
+
      사용자의 휴무 캘린더 업데이트에 대한 자세한 내용은 [개인 휴무 구성](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
      <!--   
@@ -110,13 +113,15 @@ ht-degree: 0%
      </div>   
      -->
 
-* Workfront 관리자는 Workfront이 사용자 가용성을 계산하는 방법을 결정해야 합니다. 사용자는 Workfront에서 시스템 기본 일정 또는 사용자 일정을 사용하여 사용자가 작업할 수 있는 시간을 계산할지 여부를 결정할 수 있습니다. 자세한 내용은 [리소스 관리 환경 설정 구성](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+* Workfront 관리자는 Workfront이 사용자 가용성을 계산하는 방법을 결정해야 합니다. 관리자는 Workfront의 설정 영역에서 리소스 관리 기본 설정을 조정하여 Workfront이 시스템 기본 일정을 사용할지 또는 사용자의 일정을 사용하여 사용자가 작업할 수 있는 시간을 계산할지 결정할 수 있습니다.
+
+  자세한 내용은 [리소스 관리 환경 설정 구성](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 ### 작업 및 문제 설정에 대한 우수 사례 {#best-practices-for-setting-up-tasks-and-issues}
 
 업무 균형자에서 사용자에게 작업 할당을 시작하기 전에 다음 작업 및 문제 설정이 있는지 확인하십시오.
 
-* 상위 작업이 사용자 또는 역할에 할당되지 않았습니다. 업무 균형자에 표시되지 않습니다.
+* 상위 작업이 사용자 또는 역할에 할당되지 않았습니다. 상위 작업이 업무 균형자에 표시되지 않습니다.
 * 작업 및 문제의 계획된 시간 값이 0보다 큽니다.
 
 * 작업 및 문제의 기간 값이 0보다 큽니다.
@@ -124,16 +129,16 @@ ht-degree: 0%
 
 ## 업무 균형자 를 사용하기 전에
 
-* 업무 균형자 를 사용하여 작업을 할당하고 조직의 사용자에 대한 일별 할당을 관리할 수 있습니다.
+* 업무 균형자 사용을 시작하기 전에 다음 문서를 검토하십시오.
 
-  이 문서에서는 다음 작업을 수행하기 위해 업무 균형자 를 탐색하는 방법을 안내합니다. [업무 균형자 탐색](../workload-balancer/navigate-the-workload-balancer.md).
+   * 이 문서에서는 다음 작업을 수행하기 위해 업무 균형자 를 탐색하는 방법을 안내합니다. [업무 균형자 탐색](../workload-balancer/navigate-the-workload-balancer.md).
 
-  다음 문서에서는 작업을 할당하고 사용자 할당을 관리하는 방법을 안내합니다.
+   * 다음 문서에서는 작업을 할당하고 사용자 할당을 관리하는 방법을 안내합니다.
 
-   * [업무 균형자에서 작업 할당 개요](../workload-balancer/assign-work-in-workload-balancer.md).
-   * [업무 균형자에서 사용자 할당 관리](../workload-balancer/manage-user-allocations-workload-balancer.md).
+      * [업무 균형자에서 작업 할당 개요](../workload-balancer/assign-work-in-workload-balancer.md).
+      * [업무 균형자에서 사용자 할당 관리](../workload-balancer/manage-user-allocations-workload-balancer.md).
 
-* 업무 균형자 는 Workfront의 여러 다른 영역에 위치할 수 있습니다. 업무 균형자 를 찾을 수 있는 위치에 대한 자세한 내용은 [업무 균형자 찾기](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+* 업무 균형자 는 Workfront의 여러 다른 영역에서 찾을 수 있습니다. 업무 균형자 를 찾을 수 있는 위치에 대한 자세한 내용은 [업무 균형자 찾기](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
 ## 업무 균형자 사용에 필요한 액세스
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
+source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
 workflow-type: tm+mt
-source-wordcount: '2305'
+source-wordcount: '2492'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,40 @@ The following are the permissions levels for Maestro workspaces:
 Only Workfront administrators can create, edit, or delete workspaces and all information associated with them.  
 
 For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
+
+## 2023년 12월 18일이 있는 주
+
+### 레코드 유형의 표 보기에서 기본 필드 업데이트
+
+미리보기 및 프로덕션: 2023년 12월 14일
+
+이제 Maestro 테이블 보기의 첫 번째 열에 표시할 필드를 선택할 수 있습니다. 이제 이 필드를 기본 필드라고 합니다.
+
+이 개선 이전에는 레코드의 이름 필드가 항상 테이블 보기의 첫 번째 열에 표시되므로 다른 위치에 배치할 수 없었습니다.
+
+이 개선 사항을 통해 다음 사항에 주목하십시오.
+
+* 이름 열이나 필드는 기본적으로 여전히 테이블의 첫 번째 열입니다.
+
+* 다음 유형의 필드를 기본 필드로 선택하고 첫 번째 열의 이름 필드를 바꿀 수 있습니다.
+
+   * 한 줄 텍스트
+
+   * 숫자
+
+   * 공식
+
+     >[!NOTE]
+     >
+     >수식 유형 필드는 나중에 릴리스됩니다.
+
+* 테이블 뷰의 기본 필드는 항상 동결되며 다른 필드를 기본 필드로 설정하지 않는 한 이동할 수 없습니다.
+
+* 기본 필드가 아닌 열 헤더에서 기본 필드를 변경할 수 있습니다.
+
+* 레코드 유형의 모든 테이블 보기에는 선택하는 기본 필드가 동일합니다.
+
+자세한 내용은 [테이블 보기 관리](/help/quicksilver/maestro/views/manage-the-table-view.md).
 
 ## 2023년 12월 4일 주
 
