@@ -4,9 +4,9 @@ description: 2024년 1분기 릴리스 개요
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 7de68150d1da45d88e987b59056f906ed15d0080
+source-git-commit: 1ccbab53684928974ef739b0176a6ea893a27320
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1140'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 >
 >23.3 릴리스에는 조직을 월별 릴리스로 이동하는 옵션이 포함되었습니다. 따라서 Workfront은 월별 및 분기별 릴리스 트랙을 모두 고려하여 릴리스의 번호 지정 체계를 변경했습니다.
 >
->월별 및 분기별 릴리스는 달리 지정하지 않는 한 해당 월의 마지막 목요일에 사용할 수 있습니다.
+>월별 및 분기별 릴리스는 달리 지정하지 않는 한 해당 월의 두 번째 전체 주 목요일에 사용할 수 있습니다.
 >
 >| 월별 릴리스 | 분기별 릴리스 |
 >|----|----|
