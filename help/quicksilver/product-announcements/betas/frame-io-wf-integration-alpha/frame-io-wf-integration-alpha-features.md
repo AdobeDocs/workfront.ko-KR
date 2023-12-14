@@ -8,9 +8,9 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 exl-id: a1603a06-957b-4d52-89f3-f0cec1a4e02c
-source-git-commit: 31adfeffeda9fc6aa4e76ceae7ef410d9c4c178c
+source-git-commit: 4ab78cff65141636e9e2c95526d68face1f278ba
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1248'
 ht-degree: 0%
 
 ---
@@ -21,10 +21,10 @@ ht-degree: 0%
 
 알파의 작동 방식과 참여 방법에 대한 자세한 내용은 다음을 참조하십시오. [Adobe Workfront 및 Frame.io 통합 알파: 개요](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
 
-
 >[!NOTE]
 >
 >이 알파 프로그램에 귀사가 참여하지 않은 상태에서 이 페이지를 접한 경우, 여기에서 정보를 주의 깊게 처리하고 자세한 내용은 Workfront 또는 Frame.io 관리자에게 문의하십시오.
+>
 
 ## 기본 테스트 시나리오
 
@@ -32,30 +32,32 @@ ht-degree: 0%
 
 기능을 테스트하려면 Workfront 미리보기 또는 샌드박스 인스턴스에 로그인하고 다음 단계를 수행하십시오.
 
->[!NOTE]
->
-><span class="preview">강조 표시된 텍스트</span> 아래는 테스트를 위해 아직 구현되지 않았지만 이후 릴리스에 포함될 기능을 참조합니다.
->
-
 1. **코디네이터:** Workfront 내에서 `Frame.io alpha testing` 프로젝트 그룹으로 할당된 그룹.
 
-1. **코디네이터:** Workfront 내에서 프로젝트에 창의성을 할당합니다 <span class="preview">또는 프레임 사용 작업(하위 작업은 프레임 사용으로 표시할 수 없음)</span> 프로젝트 상태를 &quot;현재&quot;로 변경합니다.
+1. **코디네이터:** Workfront 내에서 크리에이티브 작업이 필요한 작업을 프레임 사용(작업 세부 정보에서)으로 표시하고 크리에이티브를 이 작업에 할당합니다(전체 워크플로우를 테스트하려는 경우 자신을 할당).
+
+>[!NOTE]
+>
+>하위 작업은 프레임을 사용하도록 설정한 것으로 표시할 수 없습니다.
+>
+
+1. **코디네이터:** Creative Brief를 업로드하고 프로젝트 상태를 &quot;현재&quot;로 변경합니다.
 
 1. **광고:** 새로 만든 Frame.io 프로젝트에 대한 초대를 위해 이메일을 확인하십시오.
 
 1. **광고:** 초대 이메일의 &quot;프로젝트 참여&quot; 버튼을 클릭하여 Frame.io 프로젝트에 참여하고, 프로젝트 내의 Creative Brief를 검토하고, 선택한 Creative Cloud 도구에서 컨텐츠 생성을 시작합니다.
 
-1. **광고:** 만든 에셋을 Frame.io에 업로드하고 연결된 Workfront 프로젝트에 추가합니다. <span class="preview">(또는 할당된 프레임 사용 작업).</span>
+1. **광고:** 생성된 에셋을 Frame.io에 업로드하고 할당된 프레임 사용 작업 중 하나를 선택하여 연결된 Workfront 프로젝트에 추가합니다. 작업을 완료로 표시하려면 옵션을 선택합니다.
 
-1. **코디네이터:** Workfront 내에서 연결된 Frame.io 에셋을 찾아 프로젝트에서 검토자/승인자를 할당합니다(검토자/승인자 할당에 대한 자세한 내용은 다음을 참조하십시오.) [문서에 승인자 또는 검토자 추가](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)).
+1. **코디네이터:** Workfront 내에서 프레임 지원 작업에서 연결된 Frame.io 자산을 찾아 작업의 상태가 &quot;완료&quot;로 변경되었는지 확인합니다.
 
-1. **이해 당사자:** Workfront 내에서 홈 또는 문서 세부 정보에서 승인 요청을 보고 Frame.io 뷰어에서 프레임 연결 문서를 검토한 다음 피드백이 포함된 댓글을 남깁니다.
+1. **코디네이터:** 연결된 Frame.io 자산에 검토자/승인자를 할당합니다. 전체 워크플로우를 테스트하려면 자신을 승인자로 지정하십시오. (검토/승인자 지정에 대한 자세한 내용은 [문서에 승인자 또는 검토자 추가](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)).
 
-1. <span class="preview">**코디네이터:** Workfront 내에서 Frame.io 연결 문서의 업데이트 섹션 내에서 관련자가 작성한 주석을 확인합니다.</span>
+1. **이해 당사자:** Workfront 내에서 홈, 문서 세부 정보 또는 수신한 이메일 알림에서 승인 요청을 봅니다. Frame.io 뷰어에서 에셋을 열고 피드백이 포함된 댓글을 남긴 다음 의사 결정을 합니다.
 
-1. <span class="preview">**이해 당사자:** Frame.io 뷰어 내에서 결정합니다.</span>
+1. **코디네이터:** Workfront 내에서 Frame.io 연결 문서의 업데이트 섹션 내에서 관련자가 작성한 댓글과 승인 섹션 또는 문서 요약 창 내의 결정을 봅니다.
 
-1. <span class="preview">**광고:** Frame.io 내에서 자산에 대해 결정된 전반적인 승인 결정을 확인합니다.</span>
+1. **광고:** Frame.io 내에서 자산에 대해 결정된 전반적인 승인 결정을 확인합니다.
 
 1. **광고:** Frame.io 내에서 업데이트된 버전을 연결된 자산의 버전 스택에 추가하여 요청된 변경 사항을 적용합니다.
 
@@ -71,17 +73,14 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-><span class="preview">강조 표시된 텍스트</span> 아래는 아직 구현되지 않았지만 이후 릴리스에 포함될 기능을 참조합니다.
->
 >아래에 글머리 기호 **&quot;향후 릴리스에서 잠재적인 개선 사항&quot;** 알파 피드백 및 발전하는 개발 계획에 따라 헤더가 향후 릴리스에 포함될 수도 있고 포함되지 않을 수도 있습니다.
 >
 
-
 ### Workfront 관리자는 Workfront 그룹과 Frame.io 계정 간의 연결을 설정할 수 있습니다
 
-* <span class="preview">Workfront 내에서는 Workfront 그룹을 Frame.io 계정에 연결할 수 있습니다</span>
+* Workfront 내에서는 Workfront 그룹을 Frame.io 계정에 연결할 수 있습니다
 
-* 연결된 Workfront 그룹을 나타내는 Frame.io 내에 새 Frame.io 팀이 만들어집니다
+* 연결된 Workfront 그룹을 나타내는 새 Frame.io 팀이 Frame.io 내에 만들어집니다(이 기능은 프로덕션에서 통합을 사용하는 고객에게만 활성화되었습니다.). 샌드박스 또는 미리보기에서 테스트하는 고객은 Adobe 팀이 연결을 구성합니다.)
 
 **향후 릴리스에서 잠재적인 개선 사항:**
 
@@ -93,19 +92,17 @@ ht-degree: 0%
 
 * Frame 연결 그룹을 할당하여 활성화된 Frame.io로 Workfront 프로젝트를 표시하는 기능
 
-* <span class="preview">개선 사항: Workfront 프로젝트 내의 작업을 프레임 작업으로 전환하여 Frame.io 내에 작업 폴더를 만드는 기능</span>
+* Workfront 프로젝트 내의 작업을 프레임 작업으로 전환하여 Frame.io 내에 작업 폴더를 만드는 기능
 
-* Workfront 프로젝트 상태를 현재로 설정하면 연결된 프로젝트가 프레임에 만들어지고 Workfront에서 할당한 사용자가 프레임 프로젝트에 추가되고 Frame.io에서 이메일 알림이 전송됩니다
+* Workfront 프로젝트에 프레임 연결 그룹이 할당되고 하나 이상의 프레임 사용 작업이 있는 경우 Workfront 프로젝트 상태가 현재로 설정되면 연결된 프로젝트가 프레임에서 생성되고 Workfront 할당 사용자가 프레임 프로젝트에 추가되며 Frame.io에서 이메일 알림이 전송됩니다
 
-   * 모든 Workfront 프로젝트 멤버(사용자 및 팀)는 프로젝트 생성 시 Frame.io 프로젝트에 공동 작업자로 추가됩니다.
-
-   * <span class="preview">변경: 프레임 사용 Workfront 작업에 할당된 사용자 및 팀은 Frame.io 프로젝트에 공동 작업자로 추가되고 알림을 받습니다(프로젝트 생성 및 이후 시)</span>
+   * 프레임 사용 Workfront 작업에 할당된 사용자 및 팀은 Frame.io 프로젝트에 공동 작업자로 추가되고 알림을 받습니다(프로젝트 생성 및 이후 시)
 
 * 프로젝트 및 프레임 사용 작업에 추가된 문서(Creative Brief)는 프로젝트가 만들어지면(트리거: 프로젝트 상태를 현재로 설정) Frame.io 프로젝트(각 작업 폴더 내)로 푸시됩니다.
 
    * Frame.io로 불필요한 여러 문서를 보내지 않도록 Creative Brief만 활성화하기 전에 프로젝트에 추가되는 문서의 양을 제한하는 것이 좋습니다
 
-* <span class="preview">개선 사항: 프레임 사용 Workfront 작업에서 명시적으로 할당 해제된 사용자/팀은 Frame.io 프로젝트에서 제거됩니다</span>
+   * 초기 프로젝트 동기화 후 추가된 문서/작업은 Frame.io로 푸시되지 않고 사용자/팀만 푸시됩니다.
 
 **향후 릴리스에서 잠재적인 개선 사항:**
 
@@ -121,9 +118,9 @@ ht-degree: 0%
 
 * Frame.io 내의 새 버전 업로드는 연결된 자산에서 Workfront 내의 새 문서 버전을 자동으로 만듭니다.
 
-* <span class="preview">개선 사항: 참조된 Workfront 작업을 Frame.io 내에서 완료된 것으로 표시하는 기능</span>
+* Frame.io 내에서 참조된 Workfront 작업을 완료로 표시하는 기능
 
-* <span class="preview">개선 사항: 연결된 Workfront 문서가 삭제되면 Frame.io 내에 유지되며 동일한 프로젝트 작업 또는 다른 프로젝트 작업에 다시 연결할 수 있습니다</span>
+* 연결된 Workfront 문서가 삭제되는 경우 Frame.io 내에 유지되며 동일한 프로젝트 작업 또는 다른 프로젝트 작업에 다시 연결할 수 있습니다
 
 **향후 릴리스에서 잠재적인 개선 사항:**
 
@@ -135,7 +132,7 @@ ht-degree: 0%
 
 * Workfront 사용자 및 팀을 Frame.io 연결 문서에 대한 새 문서 승인에 추가할 수 있습니다.
 
-* <span class="preview">개선 사항: 사용자/팀이 프레임 활성화 문서에서 공유되지 않으면 Frame.io 뷰어의 자산에 대한 액세스 권한도 상실됩니다.</span>
+* 사용자/팀이 프레임 사용 문서에서 공유되지 않으면 Frame.io Viewer의 자산에 대한 액세스 권한도 상실됩니다
 
 **향후 릴리스에서 잠재적인 개선 사항:**
 
@@ -151,12 +148,4 @@ ht-degree: 0%
 
 * Workfront의 업데이트 스트림과 동기화되는 Frame.io 뷰어에서 제공하는 기존 검토 및 주석 달기 기능을 활용하는 기능
 
-* <span class="preview">Frame.io 뷰어 내에서 새 문서 승인 결정을 내리는 기능</span>
-
-### Frame.io 내에서 크리에이티브에게 연결된 Frame.io 자산에 대해 결정된 전반적인 사항에 대해 알려줍니다
-
-* <span class="preview">개선 사항: 전체 문서 승인 상태가 Frame.io 내의 자산에 표시됩니다.</span>
-
-### 프로젝트 코디네이터는 최종 에셋을 AEM에 보낼 수 있습니다.
-
-* <span class="preview">개선 사항: 기존 Workfront + AEM Asset CS 커넥터를 사용하여 메타데이터를 비롯한 프레임에 연결된 문서를 AEM으로 보낼 수 있습니다.</span>
+* Frame.io 뷰어 내에서 새 문서 승인 결정을 내리는 기능
