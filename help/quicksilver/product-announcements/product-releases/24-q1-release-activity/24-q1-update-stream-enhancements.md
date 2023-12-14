@@ -4,9 +4,9 @@ description: 2024년 1분기 업데이트 스트림 및 알림 개선 사항
 author: Lisa
 feature: Product Announcements
 exl-id: 837b5a23-162d-4862-b6fd-be3048ab0269
-source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
+source-git-commit: 7e1bcff7361a76988a319b266c7b885a6b614c15
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,16 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2024년 1분기 릴리스의 모든 업데이트 스트림 및 알림 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2024년 1분기 릴리스를 통해 프로덕션 환경에서 사용할 수 있습니다.
 
 2024년 1분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [2024년 1분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
+## 업데이트 섹션의 댓글에 이미지 드래그 앤 드롭
+
+이제 댓글의 내용을 개선하기 위해 오브젝트의 업데이트 섹션에서 댓글 또는 답글에 이미지를 빠르게 끌어서 놓을 수 있습니다.
+
+컴퓨터에 저장된 이미지는 .jpg, .jpeg, .png, .gif 형식으로만 추가할 수 있습니다.
+
+이 기능은 기존 댓글 달기 스트림에 있었으며 이제 새 댓글 달기 환경에 추가되었습니다.
+
+자세한 내용은 [작업 업데이트](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## 새로운 댓글 달기 환경에서는 프로젝트, 작업, 문제 및 문서에 대한 모든 정보를 캡처합니다
 

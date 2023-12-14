@@ -4,9 +4,9 @@ description: 2024년 1분기 릴리스 개요
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 17a4a607354cdc991b1c1f72697c530c32f713bd
+source-git-commit: 7de68150d1da45d88e987b59056f906ed15d0080
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1136'
 ht-degree: 0%
 
 ---
@@ -37,9 +37,47 @@ ht-degree: 0%
 
 ## Adobe Workfront 개선 사항
 
+* [관리자 개선 사항](#administrator-enhancements)
 * [문서 관리 개선 사항](#document-management-enhancements)
 * [통합 개선 사항](#integration-enhancements)
 * [스트림 및 알림 개선 사항 업데이트](#update-stream-and-notification-enhancements)
+
+### 관리자 개선 사항
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">기능</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">릴리스 날짜</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">이제 이전 12개월 동안 증명/문서 결정을 사용할 수 있음</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p><p>이제 새 라이선스 유형과 기존 라이선스 유형 모두에 대한 사용자 결정 보고서에 이전 12개월뿐만 아니라 현재 월의 결정 수가 표시됩니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2023년 12월 14일</p>
+                            </li>
+                            <li>
+                                <p>빠른 릴리스를 위한 프로덕션: 24.1 릴리스 포함</p>
+                            </li>
+                            <li>
+                                <p>분기별 릴리스 프로덕션: 24.1 릴리스 포함</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+           </tbody>
+        </table>
 
 ### 문서 관리 개선 사항
 
@@ -59,7 +97,7 @@ ht-degree: 0%
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">문서 승인에 대해 업데이트된 상태</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p><p>문서 승인 상태를 보다 명확하게 하기 위해 사용 가능한 문서 상태 승인을 업데이트했습니다. 이제 승인 상태는 검토자만 있고 승인자는 없는 경우뿐만 아니라 검토 완료를 표시하는 검토자를 설명합니다.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">문서 승인에 대해 업데이트된 상태</a></p><p>문서 승인 상태를 보다 명확하게 하기 위해 사용 가능한 문서 상태 승인을 업데이트했습니다. 이제 승인 상태는 검토자만 있고 승인자는 없는 경우뿐만 아니라 검토 완료를 표시하는 검토자를 설명합니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
@@ -132,7 +170,7 @@ ht-degree: 0%
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">내 작업 빠른 작업 버튼이 마우스오버에만 표시되도록 변경됨</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p><p>성능 향상을 위해 이제 내 작업 위젯에서 사용할 수 있는 빠른 작업 버튼이 작업 항목을 마우스로 가리킬 때만 표시됩니다.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">내 작업 빠른 작업 버튼이 마우스오버에만 표시되도록 변경됨</a></p><p>[!BADGE In production ]{type=Informative}</p><p>성능 향상을 위해 이제 내 작업 위젯에서 사용할 수 있는 빠른 작업 버튼이 작업 항목을 마우스로 가리킬 때만 표시됩니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
@@ -215,7 +253,25 @@ ht-degree: 0%
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">새로운 댓글 달기 환경에서는 프로젝트, 작업, 문제 및 문서에 대한 모든 정보를 캡처합니다</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p><p>Workfront 인스턴스가 시작된 이후 프로젝트, 작업, 문제 및 문서는 새 댓글 달기 경험 영역에 모든 업데이트를 표시합니다.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">업데이트 섹션의 댓글에 이미지 드래그 앤 드롭</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p><p>이제 댓글의 내용을 개선하기 위해 오브젝트의 업데이트 섹션에서 댓글 또는 답글에 이미지를 빠르게 끌어서 놓을 수 있습니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2023년 12월 14일</p>
+                            </li>
+                            <li>
+                                <p>빠른 릴리스를 위한 프로덕션: 24.1 릴리스 포함</p>
+                            </li>
+                            <li>
+                                <p>분기별 릴리스 프로덕션: 24.1 릴리스 포함</p>
+                            </li>
+                        </ul>
+                    </td>
+                    </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">새로운 댓글 달기 환경에서는 프로젝트, 작업, 문제 및 문서에 대한 모든 정보를 캡처합니다</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Workfront 인스턴스가 시작된 이후 프로젝트, 작업, 문제 및 문서는 새 댓글 달기 경험 영역에 모든 업데이트를 표시합니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
@@ -223,14 +279,14 @@ ht-degree: 0%
                                 <p>미리보기 릴리스: 2023년 11월 28일</p>
                             </li>
                             <li>
-                                <p>모든 고객을 위한 프로덕션: 2023년 11월 28일</p>
+                                <p><span class="preview">모든 고객을 위한 프로덕션: 2023년 11월 28일</span></p>
                             </li>
                         </ul>
                     </td>
                     </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">업데이트 섹션에서 주석 또는 사용자 검색</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p><p>이제 오브젝트의 업데이트 섹션에서 정보를 빠르게 찾기 위해 댓글에서 키워드나 댓글과 연관된 사용자를 검색할 수 있습니다.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">업데이트 섹션에서 주석 또는 사용자 검색</a></p><p>이제 오브젝트의 업데이트 섹션에서 정보를 빠르게 찾기 위해 댓글에서 키워드나 댓글과 연관된 사용자를 검색할 수 있습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
@@ -248,7 +304,7 @@ ht-degree: 0%
                     </tr>
                     <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">업데이트 섹션의 주석에 이미지 복사 및 붙여넣기</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p><p>이제 메시지 내용에 대한 컨텍스트를 제공하기 위해 컴퓨터에서 이미지를 복사하고 새 업데이트 또는 회신에 붙여넣어 이미지에 이미지를 주석에 빠르게 첨부할 수 있습니다.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">업데이트 섹션의 주석에 이미지 복사 및 붙여넣기</a></p><p>이제 메시지 내용에 대한 컨텍스트를 제공하기 위해 컴퓨터에서 이미지를 복사하고 새 업데이트 또는 회신에 붙여넣어 이미지에 이미지를 주석에 빠르게 첨부할 수 있습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
