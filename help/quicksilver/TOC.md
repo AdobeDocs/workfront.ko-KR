@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 3361cf540b5a32cb4621b550b17253675ef43222
+source-git-commit: 62b18c06c05a2a36386bd7fb3c0e33c32b507d63
 workflow-type: tm+mt
-source-wordcount: '13793'
+source-wordcount: '13796'
 ht-degree: 1%
 
 ---
@@ -451,8 +451,8 @@ ht-degree: 1%
          * [샌드박스 환경 미리보기](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)
          * [사용자 정의 샌드박스 환경 새로 고침](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
          * [한 개체에서 개체 이동 [!DNL Workfront] 환경을 다른 환경에](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
-   * 사용자 추가 {#add-users}
-      * [Workfront에 사용자 추가](administration-and-setup/add-users/add-users.md)
+   * 사용자 관리 {#add-users}
+      * [사용자 관리: 문서 색인](administration-and-setup/add-users/add-users.md)
       * 사용자 만들기 및 관리 {#create-manage-users}
          * [사용자 관리](administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
          * [사용자 추가](administration-and-setup/add-users/create-and-manage-users/add-users.md)
@@ -1111,7 +1111,7 @@ ht-degree: 1%
          * [향상된 커넥터로 연결된 자산 증명](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-proof-asset.md)
          * [강화된 커넥터로 연결된 에셋 보기 또는 다운로드](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-view-download-asset.md)
       * Experience Manager Assets 및 Assets Essentials용 Adobe Workfront {#wf-aem-essentials}
-         * [Experience Manager Assets 및 Assets Essentials용 Adobe Workfront](documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
+         * [Experience Manager Assets 및 Assets Essentials용 Adobe Workfront: 문서 색인](documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
          * [Adobe Experience Manager Assets 통합 개요](documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
          * [Experience Manager Assets Essentials에서 에셋 및 폴더 연결](documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
          * [Experience Manager Assets 또는 Assets Essentials에 대해 매핑된 메타데이터 보기](documents/adobe-workfront-for-experience-manager-assets-essentials/view-asset-metadata.md)

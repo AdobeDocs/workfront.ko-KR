@@ -7,14 +7,16 @@ description: 자원 관리를 사용하면 자원 가용성에 따라 자원의 
 author: Alina
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: '1171'
 ht-degree: 0%
 
 ---
 
 # 리소스 관리 시작
+
+<!-- Audited: 12/2023 -->
 
 <!--
 <p>(NOTE: DO NOT DELETE THIS ARTICLE. MANY ARTICLES MENTIONING RES MANAGEMENT ARE AND STILL SHOULD / WILL BE LINKED TO IT.) </p>
@@ -34,7 +36,7 @@ Workfront에는 리소스를 관리하는 데 사용되는 몇 가지 도구 세
 
    * **리소스 플래너**: 리소스 관리의 첫 번째 단계에서 리소스 플래너를 사용하여 예약된 가용성에 따라 리소스에 대한 프로젝트 시간을 예약할 수 있습니다. 리소스 계획 단계에서 리소스 풀의 사용자를 구성하고 프로젝트에 여러 리소스 풀을 할당할 수 있습니다.
 
-     리소스 계획에 대한 자세한 내용은 섹션 을 참조하십시오 [Adobe Workfront의 리소스 계획](../../resource-mgmt/resource-planning/resource-planning-overview.md).
+     리소스 계획에 대한 자세한 내용은 [Adobe Workfront의 리소스 계획](../../resource-mgmt/resource-planning/resource-planning-overview.md).
 
    * **시나리오 플래너**: 1년, 3년 또는 5년 계획에 걸쳐 여러 개의 이니셔티브를 관리하고 여러 프로젝트를 포함할 수 있는 상위 수준의 리소스 계획입니다. 가용성과 예산을 최대한 활용하기 위해 최상의 시나리오를 사용할 수 있습니다.
 
@@ -48,7 +50,7 @@ Workfront에는 리소스를 관리하는 데 사용되는 몇 가지 도구 세
 
    * **업무 균형자**: 완료하는 데 필요한 시간 및 가용성을 기반으로 실제 작업(작업 및 문제)을 완료해야 하는 데 리소스를 할당할 수 있는 리소스 관리의 하위 수준 단계에 속합니다. 업무 균형자 를 사용하여 현재 할당 해제되거나 작업 역할에 할당된 실제 작업에 사용자를 할당할 수 있습니다.
 
-     Workfront 밸런서에 대한 자세한 내용은 섹션 을 참조하십시오 [업무 균형자: 문서 색인](../../resource-mgmt/workload-balancer/workload-balancer.md).
+     Workfront 밸런서에 대한 자세한 내용은 [업무 균형자: 문서 색인](../../resource-mgmt/workload-balancer/workload-balancer.md).
 
 <!--
 
@@ -165,9 +167,9 @@ Workfront에서 리소스 관리 도구를 효율적으로 사용하려면 먼�
 
 Workfront의 각 리소스 관리 도구에 대한 요구 사항 정보는 다음을 참조하십시오.
 
-* 문서의 &quot;리소스 플래너에서 작업하기 위한 사전 요구 사항&quot; 섹션 [리소스 플래너 개요](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+* 섹션 [리소스 플래너에서 작업하기 위한 사전 요구 사항](../../resource-mgmt/resource-planning/get-started-resource-planner.md#prerequisites-for-working-in-the-resource-planner) 이 문서에서 [리소스 플래너 개요](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
   <!--remove this at production: * The section "Prerequisites" in the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).-->
-* 문서의 &quot;업무 균형자 사용 우수 사례&quot; 섹션 [업무 균형자 개요](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+* 섹션 [업무 균형자 사용에 대한 우수 사례](../../resource-mgmt/workload-balancer/overview-workload-balancer.md#best-practices-for-using-the-workload-balancer) 이 문서에서 [업무 균형자 개요](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 * [Adobe Workfront에서 리소스 예산을 책정하는 데 필요한 액세스 권한](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 * [업무 균형자에서 리소스를 관리하는 데 필요한 액세스](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
 

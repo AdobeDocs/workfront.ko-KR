@@ -5,30 +5,32 @@ product-area: system-administration
 navigation-topic: workfront-testing-environments
 title: 다음 [!DNL Adobe Workfront] 샌드박스 환경 미리보기
 description: 미리보기 샌드박스는 라이브 환경의 복제본 역할을 하는 테스트 환경입니다. 그것은 Workfront에 의해 매 주말마다 새로 고쳐집니다. 금요일에 라이브 환경에 추가된 데이터는 다음 월요일까지 미리보기 샌드박스에 표시됩니다. 모든 지원 패키지는 이 샌드박스에 액세스할 수 있습니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 8bcc2859b3b6ce7a264c8f234536a93b7761ab6b
+source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
 
 # 다음 [!DNL Adobe Workfront] 샌드박스 환경 미리보기
 
+<!-- Audited: 12/2023 -->
+
 에는 두 가지 테스트 환경이 있습니다. [!DNL Workfront] 의 복제본 [!DNL Workfront] 프로덕션 환경:
 
 * 미리보기 샌드박스
 
-   미리보기 샌드박스는 라이브 환경의 복제본 역할을 하는 테스트 환경이며 매주 주말마다 새로 고쳐집니다. [!DNL Workfront]. 금요일에 라이브 환경에 추가된 데이터는 다음 월요일까지 미리보기 샌드박스에 표시됩니다.
+  미리보기 샌드박스는 라이브 환경의 복제본 역할을 하는 테스트 환경이며 매주 주말마다 새로 고쳐집니다. [!DNL Workfront]. 금요일에 라이브 환경에 추가된 데이터는 다음 월요일까지 미리보기 샌드박스에 표시됩니다.
 
-   모든 지원 패키지는 미리보기 샌드박스에 액세스할 수 있습니다.
+  모든 지원 패키지는 미리보기 샌드박스에 액세스할 수 있습니다.
 
 * 사용자 정의 새로 고침 샌드박스
 
-   사용자 지정 새로 고침 샌드박스는 사용자가 수동으로 새로 고치는 별도의 테스트 환경입니다. 사용자 지정 새로 고침 샌드박스를 얻는 데 추가 비용이 있습니다. 이 환경에 대한 자세한 내용은 [다음 [!DNL Adobe Workfront] 사용자 정의 샌드박스 환경 새로 고침](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
+  사용자 지정 새로 고침 샌드박스는 사용자가 수동으로 새로 고치는 별도의 테스트 환경입니다. 사용자 지정 새로 고침 샌드박스를 얻는 데 추가 비용이 있습니다. 이 환경에 대한 자세한 내용은 [다음 [!DNL Adobe Workfront] 사용자 정의 샌드박스 환경 새로 고침](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -79,8 +81,6 @@ ht-degree: 0%
 
 기본적으로 다음과 같습니다 [!DNL Workfront] 관리자, 다음에 대한 액세스 권한이 있습니다. [!UICONTROL 미리 보기] 샌드박스 환경. 에 액세스할 수 없는 경우 [!UICONTROL 미리 보기] 이 섹션에 설명된 샌드박스 환경 [!DNL Workfront] 관리자 또는 고객 지원 팀.
 
-* [에서 미리보기 샌드박스 액세스 [!DNL Workfront] 인터페이스](#accessing-the-preview-sandbox-from-the-workfront-interface)
-* [URL을 사용하여 미리보기 샌드박스 액세스](#accessing-the-preview-sandbox-using-a-url)
 
 ### 에서 미리보기 샌드박스 액세스 [!DNL Workfront] 인터페이스 {#accessing-the-preview-sandbox-from-the-workfront-interface}
 
@@ -100,8 +100,7 @@ ht-degree: 0%
 
 ### URL을 사용하여 미리보기 샌드박스 액세스 {#accessing-the-preview-sandbox-using-a-url}
 
-* [클러스터 1, 2, 3 및 5의 계정에 대한 미리보기 샌드박스 액세스](#accessing-the-preview-sandbox-for-accounts-on-cluster-1-2-3-and-5)
-* [클러스터 4(EMEA 계정)의 계정에 대한 샌드박스 미리 보기 액세스](#accessing-the-preview-sandbox-for-accounts-on-cluster-4-emea-accounts)
+URL을 사용하여 미리보기 샌드박스에 액세스할 수 있습니다.
 
 #### 클러스터 1, 2, 3 및 5의 계정에 대한 미리보기 샌드박스 액세스 {#accessing-the-preview-sandbox-for-accounts-on-cluster-1-2-3-and-5}
 
@@ -115,11 +114,14 @@ URL을 사용하여 미리보기 샌드박스에 로그인하려면 다음과 �
 
 1. 다음 URL로 이동합니다. `https://companyname.preview.workfront.com/`.
 
-   EMEA 고객이고 계정이 Cluster 4에 있는 경우 섹션을 참조하십시오 [클러스터 4(EMEA 계정)의 계정에 대한 샌드박스 미리 보기 액세스](#accessing-the-preview-sandbox-for-accounts-on-cluster-4-emea-accounts) 이 문서에서.
+   EMEA 고객이고 계정이 클러스터 4에 있는 경우 아래 클러스터 4(EMEA 계정)의 계정에 대한 샌드박스 미리보기 액세스 섹션을 참조하십시오.
 
 1. 미리보기 자격 증명을 사용하여 로그인합니다.
 
-   미리보기 새로 고침이 발생한 후 프로덕션에서 변경하지 않는 한 미리보기 자격 증명은 프로덕션 자격 증명과 동일해야 합니다. 새로 고침이 발생할 때만 로그인이 동기화됩니다. 자동으로 동기화되지 않습니다.
+   >[!TIP]
+   >
+   >미리보기 새로 고침이 발생한 후 프로덕션에서 변경하지 않는 한 미리보기 자격 증명은 프로덕션 자격 증명과 동일해야 합니다. 새로 고침이 발생할 때만 로그인이 동기화됩니다. 자동으로 동기화되지 않습니다.
+
 
 #### 클러스터 4(EMEA 계정)의 계정에 대한 샌드박스 미리 보기 액세스 {#accessing-the-preview-sandbox-for-accounts-on-cluster-4-emea-accounts}
 

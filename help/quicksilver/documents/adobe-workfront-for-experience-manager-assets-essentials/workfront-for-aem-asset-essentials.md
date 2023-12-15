@@ -2,20 +2,20 @@
 content-type: reference
 product-area: documents;workfront-integrations
 navigation-topic: documents-navigation-topic
-title: Experience Manager Assets Essentials용 Adobe Workfront
+title: "Experience Manager Assets Essentials용 Adobe Workfront: 기사 색인"
 description: Experience Manager Assets Essentials용 Adobe Workfront
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 8aad1efc-1a91-441a-8bb8-0ce9429492c6
-source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
+source-git-commit: 351e48315c2b977886fffc0d71c9ec11d4eb3c5f
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
 
-# Experience Manager Assets 및 Assets Essentials용 Adobe Workfront
+# Experience Manager Assets 및 Assets Essentials용 Adobe Workfront: 문서 색인
 
 * [Adobe Experience Manager Assets 통합 개요](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
 * [Experience Manager Assets 또는 Assets Essentials에서 에셋 및 폴더 연결](../../documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
