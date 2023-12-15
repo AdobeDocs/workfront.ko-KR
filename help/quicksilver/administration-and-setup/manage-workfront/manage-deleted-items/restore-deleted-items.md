@@ -8,14 +8,16 @@ feature: System Setup and Administration
 author: Lisa
 role: Admin
 exl-id: e5b63652-ce16-44a9-a806-a41f19970ee1
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '1071'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 # 삭제된 항목 복원
+
+<!--Audited: 12/2023-->
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -75,14 +77,14 @@ Workfront 관리자인 경우 지난 30일 동안 프로젝트, 작업, 문제, 
 * 상태
 * 재무 정보:
 
-   * 청구 기록
+   * 과금 기록
    * 청구 요금
    * 경비
 
 * 타임라인 정보:
 
    * 전임 작업
-   * 작업 제한
+   * 작업 제한 사항
    * 기간 유형
 
 * 기준선

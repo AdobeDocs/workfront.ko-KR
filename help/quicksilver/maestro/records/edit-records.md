@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '845'
 ht-degree: 1%
 
 ---
@@ -166,9 +166,9 @@ After permssions - replace the table with:
 
 ### 레코드의 세부 정보 페이지에서 레코드 편집
 
-1. 다음을 클릭합니다. **메인 메뉴** ![](assets/main-menu-workfront.png) 오른쪽 상단 또는 **메인 메뉴** ![](assets/main-menu-shell.png) 왼쪽 위 모서리에서 사용 가능한 경우 을(를) 클릭합니다. **마에스트로**.
+{{step1-to-maestro}}
 
-   마지막으로 액세스한 작업공간이 열립니다.
+마지막으로 액세스한 작업공간이 열립니다.
 
 1. (선택 사항) 작업 영역 이름의 오른쪽에 있는 아래쪽 방향 화살표를 클릭하여 레코드를 업데이트할 작업 영역을 선택합니다.
 1. 다음 중 하나를 수행하십시오.

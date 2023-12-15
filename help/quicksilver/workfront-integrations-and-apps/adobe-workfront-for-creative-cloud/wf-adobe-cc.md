@@ -8,15 +8,17 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: ebccdf17-12e3-4adc-95af-61d6337edb72
-source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 2%
+source-wordcount: '149'
+ht-degree: 1%
 
 ---
 
 
 # [!DNL Adobe Workfront] 플러그인 [!DNL Creative Cloud] 앱
+
+<!--Audited: 12/2023-->
 
 다음을 사용할 수 있습니다. [!DNL Adobe Workfront] 대상 [!DNL Creative Cloud] 플러그인 대상
 
@@ -24,7 +26,7 @@ ht-degree: 2%
 * 검토 및 승인 프로세스 시작
 * 파일 업로드
 * 프로젝트 및 작업 보기
-* 기타 등등
+* 외
 
 [에서 사용할 수 있는 기능에 대한 비디오 개요 보기 [!DNL Adobe Workfront] 대상 [!DNL Creative Cloud] 플러그인](https://video.tv.adobe.com/v/3418801/){target=_blank}.
 

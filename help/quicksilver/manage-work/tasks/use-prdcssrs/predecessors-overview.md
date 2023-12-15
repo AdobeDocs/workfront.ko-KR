@@ -7,7 +7,7 @@ description: 전임 작업은 다른 작업(후임 작업 또는 종속 작업�
 author: Alina
 feature: Work Management
 exl-id: b2020a50-0921-4ed2-8a34-1a0411992b99
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '1190'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # 작업 전임 작업 개요
+
+<!--Audited: 12/2023-->
 
 <!-- 
 

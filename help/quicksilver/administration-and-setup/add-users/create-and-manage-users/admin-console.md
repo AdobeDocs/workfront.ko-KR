@@ -5,7 +5,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '1121'
 ht-degree: 0%
@@ -180,6 +180,8 @@ Workfront에서 사용자를 만드는 방법에 대한 지침은 [사용자 추
 
 
 ## Adobe Admin Console을 사용하여 Workfront에서 시스템 관리자 만들기 {#create-system-administrators-in-workfront-with-the-adobe-admin-console}
+
+<!--Audited: 12/2023-->
 
 시스템 관리자 액세스 수준은 Adobe Admin Console에만 부여됩니다. Workfront 내에서는 관리자 액세스 권한을 부여하거나 제거할 수 없습니다.
 

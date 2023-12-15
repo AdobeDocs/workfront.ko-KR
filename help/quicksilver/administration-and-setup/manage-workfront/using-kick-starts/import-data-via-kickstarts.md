@@ -9,7 +9,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '2780'
 ht-degree: 6%
@@ -17,6 +17,8 @@ ht-degree: 6%
 ---
 
 # 킥스타트 템플릿을 사용하여 Adobe Workfront으로 데이터 가져오기
+
+<!--Audited: 12/2023-->
 
 킥스타트는 특별히 형식이 지정된 Excel 통합 문서로, Workfront으로 가져올 데이터로 채울 수 있습니다. Adobe Workfront은에 설명된 대로 이 작업을 수행하는 데 사용할 수 있는 킥스타트 템플릿을 제공합니다 [킥스타트 데이터 가져오기](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-data-importer.md).
 

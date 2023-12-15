@@ -6,7 +6,7 @@ description: 다음 [!UICONTROL 홈] area는 할당된 작업, 문제 및 승인
 author: Nolan
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '1237'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # 시작 [!UICONTROL 홈]
+
+<!--Audited: 12/2023-->
 
 이 문서에서는 현재 의 개요를 설명합니다 [!UICONTROL 홈] 영역 [!DNL Adobe Workfront]. 새 작업에서 작업에 대한 정보 [!UICONTROL 홈], 참조 [새 홈 시작](../new-home/get-started-with-new-home.md).
 
@@ -57,7 +59,7 @@ ht-degree: 0%
 
 홈 캘린더 사용 방법에 대한 자세한 내용은 [사용 [!UICONTROL 홈 캘린더] 보기](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md).
 
-## 내 작업 찾기
+## 작업 찾기
 
 다음 [!UICONTROL 홈] area는 할당된 작업, 문제 및 승인을 찾기 위한 원스톱 샵입니다. 필터, 그룹화 및 정렬 옵션은 함께 작동하여 원하는 방식으로 작업 항목을 구성할 수 있습니다. 그룹화를 사용하여 항목을 함께 그룹화하고, 필터를 사용하여 완료해야 하는 작업에 초점을 맞추고, 마지막으로 정렬을 사용하여 항목을 그룹화의 오름차순 또는 내림차순으로 나열할 수 있습니다.
 

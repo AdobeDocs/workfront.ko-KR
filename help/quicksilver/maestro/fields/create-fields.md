@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '3160'
+source-wordcount: '3158'
 ht-degree: 2%
 
 ---
@@ -75,19 +75,19 @@ Maestro 필드에 대한 자세한 내용은 [필드 개요](../fields/fields-ov
   <tr>
    <td role="rowheader"><p>Adobe Workfront 플랜</p></td>
    <td>
-<p>모든</p>
+<p>임의</p>
    </td>
   </tr>
   <tr>
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td>
    <td>
-   <p>모든</p> 
+   <p>임의</p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader">액세스 수준</td>
-   <td> <p>모든</p>  
+   <td> <p>임의</p>  
 </td>
   </tr>
 <tr>
@@ -170,9 +170,9 @@ After permssions - replace the table with:
 
 <!--in a table (not sure if this can be done elsewhere?!-->
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-workfront.png) Workfront의 오른쪽 위 모서리 또는 **메인 메뉴** 아이콘 ![](assets/main-menu-shell.png)  왼쪽 위 모서리에서 사용 가능한 경우 을(를) 클릭합니다. **마에스트로** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   기본적으로 마지막으로 액세스한 작업 영역이 열립니다.
+기본적으로 마지막으로 액세스한 작업 영역이 열립니다.
 
 1. (선택 사항) 기존 작업 영역 이름의 오른쪽에 있는 아래쪽 방향 화살표를 확장하고 필드를 만들 레코드 유형이 있는 작업 영역을 선택한 다음 레코드 유형을 클릭합니다.
 

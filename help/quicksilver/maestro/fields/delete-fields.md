@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 1%
+source-wordcount: '406'
+ht-degree: 0%
 
 ---
 
@@ -45,9 +45,9 @@ Maestro에서 사용자 정의 필드를 만드는 방법에 대한 자세한 �
 
 ## Maestro 필드 삭제에 대한 고려 사항:
 
+* 레코드 유형 테이블 보기에서만 필드를 삭제할 수 있습니다.
 * 생성한 필드나 다른 사용자나 시스템에서 생성한 필드를 삭제할 수 있습니다. <!--this will change with access levels/ permissions-->
-* 레코드의 이름 필드는 삭제할 수 없습니다. <!--change this to say you can't delete the field selected to be the primary-->
-* 레코드 유형 테이블에서만 필드를 삭제할 수 있습니다.
+* 레코드의 기본 필드는 삭제할 수 없습니다.
 * 필드에 저장된 모든 정보는 삭제되며 복구할 수 없습니다.
 * 연결된 레코드 필드를 삭제하면 연결된 모든 조회 필드도 연결된 레코드 유형에서 삭제됩니다. 연결된 레코드 종류의 연결된 레코드 필드는 삭제되지 않습니다.
 
@@ -74,19 +74,19 @@ Maestro에서 사용자 정의 필드를 만드는 방법에 대한 자세한 �
   <tr>
    <td role="rowheader"><p>Adobe Workfront 플랜</p></td>
    <td>
-<p>모든</p>
+<p>임의</p>
    </td>
   </tr>
   <tr>
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td>
    <td>
-   <p>모든</p> 
+   <p>임의</p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader">액세스 수준</td>
-   <td> <p>모든</p>  
+   <td> <p>임의</p>  
 </td>
   </tr>
 <tr>

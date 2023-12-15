@@ -4,9 +4,10 @@ description: 조직의 라이프사이클을 반영하는 새 필드를 Adobe Ma
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 6d1d3d82e15f4232ff81294d9094c2683b01ca89
+exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '541'
 ht-degree: 2%
 
 ---
@@ -57,7 +58,7 @@ hide: yes
 
    * 수동:
 
-      * 레코드 유형 페이지의 표 보기에서 열을 추가합니다. 테이블의 열은 레코드 유형과 연관된 필드입니다. 레코드의 세부 정보 페이지에 표시되는 필드와 동일합니다.
+      * 레코드 유형 페이지의 테이블 뷰에 열을 추가합니다. 테이블의 열은 레코드 유형과 연관된 필드입니다. 레코드의 세부 정보 페이지에 표시되는 필드와 동일합니다.
 
         레코드의 세부 정보 페이지에서 필드를 만들 수 없습니다.
 

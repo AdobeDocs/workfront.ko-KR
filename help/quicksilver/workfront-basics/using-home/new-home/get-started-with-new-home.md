@@ -6,7 +6,7 @@ description: 새로운 홈은 작업 관리를 위한 강력한 새로운 기능
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '1059'
 ht-degree: 8%
@@ -14,6 +14,8 @@ ht-degree: 8%
 ---
 
 # 새 홈 시작
+
+<!--Audited: 12/2023-->
 
 Adobe Workfront의 새로운 홈 경험은 현재의 홈 경험을 개선하는 동시에 올바른 작업에 집중할 수 있는 보다 유연한 방법을 제공하는 것을 목표로 합니다.
 

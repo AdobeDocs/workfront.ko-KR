@@ -6,7 +6,7 @@ description: 에서 Kanban 또는 Scrum Agile 팀을 만듭니다. [!DNL Adobe W
 author: Lisa
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '1476'
 ht-degree: 1%
@@ -32,6 +32,8 @@ ht-degree: 1%
 스크럼 팀 구성에 대한 자세한 내용은 [스크럼 구성](../get-started-with-agile-in-workfront/configure-scrum.md).
 
 ## 액세스 요구 사항
+
+<!--Audited: 12/2023-->
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 

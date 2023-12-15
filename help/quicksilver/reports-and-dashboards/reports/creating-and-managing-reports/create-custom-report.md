@@ -6,7 +6,7 @@ description: 보고서를 만들어 Adobe Workfront에서 조직에 필요한 �
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: ad309990a4e09f5c083c1518fd503078718a97d1
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '1820'
 ht-degree: 1%
@@ -15,6 +15,8 @@ ht-degree: 1%
 
 
 # 사용자 지정 보고서 만들기
+
+<!--Audited: 12/2023-->
 
 보고서를 만들어 Adobe Workfront에서 조직에 필요한 정보에 대한 액세스 권한을 제공할 수 있습니다. Workfront에서 사용할 수 있는 모든 기본 제공 보고서를 사용하거나 사용자 지정 보고서를 처음부터 빌드할 수 있습니다.
 

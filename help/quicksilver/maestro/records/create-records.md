@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 92e8b9949f13536b3464922a93fafcb74688d916
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1052'
 ht-degree: 0%
 
 ---
@@ -181,7 +181,7 @@ After permssions - replace the table with:
 
    >[!NOTE]
    >
-   >  * 이름 필드는 필수 필드가 아닙니다. 그러나 레코드를 서로 연결할 때 레코드를 식별하는 데 도움이 되므로 레코드 이름을 추가하는 것이 좋습니다.
+   >  * 레코드에 대한 필수 필드가 없습니다. 그러나 레코드를 서로 연결할 때 레코드를 식별하는 데 도움이 되므로 레코드에 이름을 추가하는 것이 좋습니다.
    >
    >  * 다른 레코드 종류 또는 계산된 필드를 참조하는 필드는 읽기 전용 필드입니다.
 

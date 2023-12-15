@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '2629'
+source-wordcount: '2698'
 ht-degree: 0%
 
 ---
@@ -98,25 +98,34 @@ For more information, see [Grant access to Adobe Maestro](../maestro/access/gran
 자세한 내용은 [테이블 보기 관리](/help/quicksilver/maestro/views/manage-the-table-view.md).
 
 
-### Maestro 레코드를 AEM(Adobe Experience Manager) 에셋과 연결
+### Maestro 레코드와 Adobe Experience Manager Assets 연결
 
 미리보기 릴리스: 2023년 12월 14일
 
 프로덕션 릴리스: 2023년 12월 15일
 
-이제 Maestro 레코드 유형과 Adobe Experience Manager 에셋 간에 연결을 설정할 수 있습니다.
+>[!IMPORTANT]
+>
+>Maestro 레코드를 Adobe Experience Manager Assets에 연결하려면 조직의 Workfront 인스턴스가 Adobe 비즈니스 플랫폼 또는 Adobe Admin Console에 온보딩되어야 합니다.
+>
+>Adobe Admin Console 온보딩에 대한 질문이 있는 경우 [통합 경험 FAQ Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+
+
+이제 Maestro 레코드 유형과 Adobe Experience Manager Assets 간 연결을 설정할 수 있습니다.
 
 연결을 설정하면 이 업데이트에서 다음 기능을 사용할 수 있습니다.
 
-* Maestro 사용자는 액세스 권한이 있는 AEM의 특정 저장소에서 AEM 에셋, 폴더 또는 컬렉션을 Maestro 레코드에 연결할 수 있습니다
+* 액세스 권한이 있는 Experience Manager Assets의 특정 저장소에서 Experience Manager 에셋 및 폴더를 Maestro 레코드에 연결할 수 있습니다. 이 프로세스에서 에셋 필드를 마에스트로 필드에 연결할 수 있습니다.
 
-* Maestro 사용자는 레코드에 연결된 후 Maestro에서 연결된 모든 에셋을 볼 수 있습니다.
+* Maestro 사용자는 연결된 자산의 이름과 Maestro에 있는 연결된 필드의 값을 볼 수 있습니다
 
-* 연결을 설정하면 Experience Manager Assets 레코드 유형이 Maestro에서 자동으로 만들어집니다. 연결된 에셋은 Maestro 테이블 및 이 새로운 레코드 유형의 타임라인 보기에서 볼 수 있습니다.
+<!--removed per PM, for now: 
+* An Experience Manager Assets record type is automatically created in Maestro after you establish the connection. Connected assets are visible in the Maestro table and timeline views of this new record type.  
+-->
 
-* 연결 중인 Maestro 레코드 테이블에서 AEM 에셋 정보를 볼 수 있습니다.
+* 연결된 레코드 필드에서 Maestro 레코드의 테이블 보기에서 에셋 이름을 클릭하고 에셋 썸네일과 여러 키 필드가 있는 팝업 창을 볼 수 있습니다. 팝업 창에서 Experience Manager의 에셋 뷰어로 이동하여 에셋에 대한 모든 세부 정보를 볼 수 있습니다.
 
-자세한 내용은 [레코드 유형 연결](/help/quicksilver/maestro/architecture/connect-record-types.md)
+자세한 내용은 [레코드 유형 연결](/help/quicksilver/maestro/architecture/connect-record-types.md).
 
 ## 2023년 12월 4일 주
 

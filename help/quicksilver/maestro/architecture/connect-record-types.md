@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '1941'
+source-wordcount: '2020'
 ht-degree: 0%
 
 ---
@@ -42,10 +42,10 @@ Adobe Maestro를 사용하여 조직에 필요한 레코드 유형이 포함된 
 
 다음을 연결할 수 있습니다.
 
-* Maestro 운영 레코드 유형
-* Maestro 운영 레코드 유형과 분류 레코드 유형
-* 운영 레코드 유형에 대한 Maestro 분류 유형
-* 다른 응용 프로그램의 Maestro 작업 레코드 유형 및 개체 유형.
+* 서로 다른 Maestro 운영 레코드 유형
+* 마에스트로 분류법
+* Maestro 운영 기록 유형 및 상호 분류
+* 다른 애플리케이션의 객체 유형과 함께 Maestro 운영 레코드 유형 및 분류
 
 이렇게 하면 연결된 레코드나 오브젝트 유형의 필드를 다른 Maestro 레코드에 표시할 수 있습니다.
 
@@ -75,7 +75,8 @@ Adobe Maestro를 사용하여 조직에 필요한 레코드 유형이 포함된 
    <p> Adobe 제품</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>Maestro 레코드 유형을 Experience Manager Assets과 연결하려면 Adobe Experience Manager Assets이 있어야 합니다.</p>
+   <p><b>메모</b></p>
+   <p>Maestro 레코드 유형을 Experience Manager Assets과 연결하려면 Adobe Experience Manager Assets 라이선스가 있어야 하며, 조직의 Workfront 인스턴스가 Adobe 비즈니스 플랫폼 또는 Adobe Admin Console에 온보딩되어야 합니다. </p>
    </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront 계약</p></td>
@@ -123,7 +124,7 @@ After permssions - replace the table with:
 <td>
    <p> Adobe product</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>To connect Maestro record types with Experience Manager Assets, you must have an Adobe Experience Manager Assets</p> </td>
+   <p> Adobe Workfront</p> <p>To connect Maestro record types with Experience Manager Assets, you must have an Adobe Experience Manager Assets license and your organization's instance of Workfront must be onboarded to the Adobe Business Platform or the Adobe Admin Console.</p> </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
@@ -185,11 +186,7 @@ After permssions - replace the table with:
    * 두 가지 운영 레코드 유형
    * 두 가지 분류
    * 운영 레코드 유형 및 분류 체계
-   * 다른 응용 프로그램의 작업 레코드 형식과 개체 형식입니다.
-
-     >[!TIP]
-     >
-     >    분류 레코드 유형을 작업 레코드 유형이나 다른 응용 프로그램의 개체 유형에 연결할 수 없습니다.
+   * 다른 응용 프로그램의 작업 레코드 유형 또는 분류와 객체 유형입니다.
 
 * 다음 응용 프로그램에서 다음 객체를 Maestro 레코드 유형과 연결할 수 있습니다.
 
@@ -203,36 +200,44 @@ After permssions - replace the table with:
 
    * Adobe Experience Manager Assets:
 
-      * 자산
+      * 이미지
       * 폴더
-      * 컬렉션
+
+     >[!IMPORTANT]
+     >
+     >Adobe Experience Manager Assets 라이선스가 있어야 하며, Maestro 레코드를 Adobe Experience Manager Assets에 연결하려면 조직의 Workfront 인스턴스가 Adobe 비즈니스 플랫폼 또는 Adobe Admin Console에 온보딩되어야 합니다.
+     >
+     >Adobe Admin Console 온보딩에 대한 질문이 있는 경우 [통합 경험 FAQ Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
 * 레코드 유형을 다른 레코드 유형이나 다른 응용 프로그램의 개체 유형과 연결한 후에는 다음과 같은 시나리오가 있습니다.
 
-   * 두 개의 레코드 종류를 연결하면 연결된 레코드 종류에 연결된 레코드 필드가 만들어집니다. 연결하는 레코드 유형에 유사한 연결된 레코드 필드가 만들어집니다.
+   * **두 가지 레코드 유형을 연결하는 경우**: 연결 중인 레코드 종류에 연결된 레코드 필드가 만들어집니다. 연결하는 레코드 유형에 유사한 연결된 레코드 필드가 만들어집니다.
 
      예를 들어 &quot;캠페인&quot; 레코드 유형을 &quot;제품&quot; 레코드 유형과 연결하는 경우, 이름을 &quot;연결된 제품&quot;으로 지정한 연결된 레코드 필드가 캠페인 레코드 유형에 만들어지고 자동으로 &quot;캠페인&quot;으로 지정한 연결된 레코드 유형이 제품 레코드 유형에 만들어집니다.
 
-   * 레코드 유형 필드를 분류법과 연결할 때: 연결된 레코드 필드는 연결할 레코드 유형에 만들어집니다. 연결 중인 분류법에 연결된 레코드 필드가 만들어지지 않습니다.
+   * **레코드 형식을 다른 응용 프로그램의 개체 형식과 연결하는 경우**: 연결 중인 레코드 종류에 연결된 레코드 필드가 만들어집니다. 연결된 레코드 필드는 서드파티 애플리케이션 개체에 자동으로 만들어지지 않습니다.
 
-     예를 들어 &quot;캠페인&quot; 레코드 유형을 &quot;대상&quot; 분류법 레코드 유형과 연결하는 경우 이름을 &quot;연결된 대상&quot;으로 지정한 연결된 레코드 필드가 캠페인 레코드 유형에 만들어집니다. 대상 분류 레코드 유형에 자동으로 &quot;캠페인&quot;이라는 이름의 연결된 레코드 필드가 만들어지지 않습니다. <!--this might be temporary-->
-
-   * 레코드 유형 필드를 다른 응용 프로그램의 개체 유형과 연결할 때: 연결된 레코드 필드는 연결할 레코드 유형에 만들어집니다. Workfront의 Workfront 프로젝트에서는 연결된 레코드 필드가 자동으로 만들어지지 않습니다. 연결된 레코드 필드는 실제 개체가 Maestro 레코드에 연결되어 있을 때만 Workfront 개체 레코드 유형에 만들어집니다.
+     타사 응용 프로그램 객체에 대한 새 Maestro 레코드 유형은 실제 객체가 Maestro 레코드에 연결되어 있을 때만 만들어집니다.
 
      자세한 내용은 [레코드 연결](../records/connect-records.md).
 
-* 레코드 유형을 연결한 후 한 레코드 유형에서 다른 레코드 유형으로 여러 필드를 연결할 수 있습니다. 이러한 필드를 &quot;연결된 필드&quot; 또는 &quot;조회 필드&quot;라고 합니다.
+   * **연결하는 레코드 또는 개체에서 조회 필드를 추가할 때**: 연결된 필드가 연결된 레코드에 추가되어 연결된 레코드에서 연결된 레코드로 가져오도록 선택한 조회 필드가 표시됩니다. 레코드 필드는 항상 읽기 전용이며 자동으로 서드파티 개체의 값으로 채워집니다.
+
+     예를 들어 &quot;캠페인&quot; 마에스트로 레코드 유형을 Workfront 프로젝트와 연결하고 프로젝트의 계획된 완료 일자 필드를 마에스트로 레코드로 가져오도록 선택하면 연결하려는 레코드에 대해 계획된 완료 일자(프로젝트 시작)라는 연결된 필드가 자동으로 생성됩니다.
+
 * 연결된 레코드 필드 앞에는 관계 아이콘이 표시됩니다 ![](assets/relationship-field-icon.png).
+
+  연결된 필드 앞에는 필드 유형을 식별하는 아이콘이 표시됩니다. 예를 들어 필드가 숫자, 단락 또는 날짜임을 나타내는 아이콘입니다.
+
 * 레코드 유형에 대한 개별 레코드를 만든 후 연결된 레코드 유형 필드에서 연결하는 레코드를 선택할 수 있습니다. 자세한 내용은 [레코드 연결](../records/connect-records.md).
-* 연결된 레코드를 선택하면 해당 필드가 속한 원래 레코드 형식에서 자동으로 채워지므로, 연결된 레코드 형식에서 연결된 필드의 정보를 편집할 수 없습니다.
 
 ## 레코드 유형 연결
 
 <!--when changes here, also update the article for "Connect records"-->
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](assets/dots-main-menu.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](assets/lines-main-menu.png) 왼쪽 상단 모서리에서 을(를) 클릭하고 **[!UICONTROL 마에스트로]**.
+{{step1-to-maestro}}
 
-   기본적으로 마지막으로 액세스한 작업 영역이 열립니다.
+기본적으로 마지막으로 액세스한 작업 영역이 열립니다.
 
 1. (선택 사항) 기존 작업 영역 이름의 오른쪽에 있는 아래쪽 방향 화살표를 확장하고 레코드 유형을 연결할 작업 영역을 선택합니다.
 1. 레코드 유형의 카드를 클릭하여 레코드 유형 페이지를 엽니다.
@@ -242,16 +247,19 @@ After permssions - replace the table with:
 
 1. 다음에서 **레코드 유형** 필드에서 다음 중 하나를 선택합니다. <!--is the field name spelled right? lowercase "t"?-->
 
-   * 선택한 작업 영역의 다른 작업 레코드 유형
-   * 선택한 작업 영역의 분류입니다.
-   * Workfront 객체 유형 섹션의 프로젝트, Portfolio, 프로그램, 회사 또는 그룹.
-   * Adobe 애플리케이션 섹션의 Experience Manager Assets.
+   * 선택한 작업 영역의 다른 작업 기록 유형 또는 분류법
+
+     >[!TIP]
+     >
+     >선택한 작업 영역의 레코드 유형과 분류만 연결할 수 있습니다.
+     > 
+     >선택한 작업 영역에 다른 레코드 유형이 없는 경우 작업 영역 이름이 표시되지 않습니다.
+
+   * A **프로젝트, Portfolio, 프로그램, 회사**, 또는 **그룹** 다음에서 **Workfront 개체 유형** 섹션.
+   * **Experience Manager Assets** 다음에서 **Adobe 애플리케이션** 섹션.
 
    ![](assets/new-connection-tab-fields-with-another-record-selected.png)
 
-   >[!TIP]
-   >
-   > 선택한 작업 영역의 레코드 유형과 분류만 선택할 수 있습니다.
 
 1. 다음 정보를 업데이트합니다.
 
@@ -275,7 +283,7 @@ After permssions - replace the table with:
 
 1. Click **Create**.
 
-1. (조건부) 다음을 선택한 경우 **조회 필드 선택** 이전 단계에서 를 설정하는 중 **조회 필드 추가** 상자가 열립니다.
+1. (조건부) 다음을 선택한 경우 **조회 필드 선택** 설정, **조회 필드 추가** 상자가 열립니다.
 
    다음을 클릭합니다. **+** 에서 필드를 추가하는 아이콘 **선택하지 않은 필드** 영역입니다.
 
@@ -285,9 +293,8 @@ After permssions - replace the table with:
 
    ![](assets/add-lookup-fields-for-another-maestro-record-type-box.png)
 
-   >[!NOTE]
-   >
-   >필드를 선택하지 않으면 **이름** 원본 레코드의 테이블 보기에서 볼 수 있는 필드는 연결된 레코드뿐입니다. 다음 **이름** 필드를 제거할 수 없습니다.
+
+1. (선택 사항) **건너뛰기** 연결된 레코드나 개체에서 필드를 추가하지 마십시오. 다음 **이름** 원본 레코드의 테이블 보기에서 볼 수 있는 필드는 연결된 레코드뿐입니다.
 
 1. (선택 사항 및 조건부) 숫자, 통화, 백분율 또는 날짜 유형 필드를 연결하도록 선택하는 경우 집계기 값도 선택합니다. 사용자가 연결된 레코드 필드에서 둘 이상의 연결된 레코드를 선택하면 연결된 필드의 값이 선택한 집계기에 따라 쉼표로 구분되거나 집계된 값으로 표시됩니다.
 
@@ -318,19 +325,17 @@ After permssions - replace the table with:
 
 1. (선택 사항) **검색** 아이콘 ![](assets/search-icon.png) 필드를 검색하려면 다음을 수행하십시오.
 
-1. (선택 사항) **건너뛰기** 연결된 레코드 유형의 필드를 추가하지 않으려면
-
 1. 클릭 **필드 추가** 변경 사항을 저장합니다.
 
    다음 항목이 추가됩니다.
 
-   * 연결된 레코드 유형의 레코드를 수동으로 추가한 후 표시할 연결된 레코드 필드입니다. 연결된 레코드 필드의 이름은 6단계에서 선택한 이름입니다. <!-- ensure this is still accurate-->
+   * 연결된 레코드 유형의 레코드를 수동으로 추가한 후 표시하는 연결된 레코드 필드. 연결된 레코드 필드의 이름은 5단계에서 선택한 이름입니다. <!--accurate-->
 
-   * 연결된 레코드 필드에 레코드를 수동으로 추가한 후 연결된 레코드 유형의 필드에 있는 정보를 표시하는 연결된 필드. 연결된 필드는 **조회 필드 선택** 연결을 만들 때 설정이 선택됩니다. 연결된 필드의 이름은 다음 패턴에 따라 지정됩니다.
+   * 연결된 레코드 필드에 레코드를 수동으로 추가한 후 연결된 레코드 유형의 필드에 정보를 표시하는 연결된 필드. 연결된 필드는 **조회 필드 선택** 연결을 만들 때 설정이 선택됩니다. 연결된 필드의 이름은 다음 패턴에 따라 지정됩니다.
 
      `<Name of the original field on the linked record> (from <Name of your linked field>)`
 
-   * 연결하려는 레코드 종류의 연결된 레코드 필드. 연결된 레코드 유형의 연결된 레코드 필드 이름은 연결된 레코드 유형의 이름입니다.
+   * Maestro 레코드 유형을 서로 연결하면 연결된 레코드 필드도 연결하는 레코드 유형에 추가됩니다. 연결된 레코드 유형의 연결된 레코드 필드 이름은 연결된 레코드 유형의 이름입니다.
 
      예를 들어 &quot;캠페인&quot; 레코드 유형에서 &quot;제품&quot; 레코드 유형을 연결하고 캠페인의 연결된 필드 이름을 &quot;연결된 제품&quot;으로 지정하면 제품 레코드 유형에 대해 &quot;캠페인&quot; 연결된 레코드 필드가 만들어집니다.
 
@@ -341,7 +346,14 @@ After permssions - replace the table with:
 
    ![](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
 
-   조회 필드를 추가하거나 제거하려면 위의 7-12단계에 있는 지침을 따르십시오. <!--ensure these step numbers stay accurate-->
+   조회 필드를 추가하거나 제거하려면 위의 9-13단계에 있는 지침을 따르십시오. <!--ensure these step numbers stay accurate-->
+
+   >[!NOTE]
+   >
+   > 연결한 레코드의 조회 필드를 타사 응용 프로그램의 개체를 나타내는 연결된 레코드 형식에 추가할 수 없습니다.
+   >
+   > 예를 들어 Workfront 프로젝트에 연결할 때 Maestro 프로젝트 레코드 유형에 표시되는 &quot;캠페인&quot; 연결 레코드 필드에서 &quot;캠페인&quot; Maestro 개체의 조회 필드를 추가할 수 없습니다.
+
 
 1. (선택 사항) 연결하려는 레코드 종류에서 연결된 레코드 필드의 머리글에 있는 아래쪽 방향 화살표를 클릭한 다음 를 클릭합니다 **삭제**.
 
