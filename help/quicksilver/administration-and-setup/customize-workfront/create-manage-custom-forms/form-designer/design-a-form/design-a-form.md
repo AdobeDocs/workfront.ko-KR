@@ -8,10 +8,10 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: 7078abdf49c26f549028fecb8d9358794b90a242
 workflow-type: tm+mt
-source-wordcount: '4918'
-ht-degree: 4%
+source-wordcount: '4927'
+ht-degree: 3%
 
 ---
 
@@ -499,6 +499,10 @@ ht-degree: 4%
 ### 외부 조회 필드 추가
 
 외부 조회 필드는 외부 API를 호출하고 드롭다운 필드에 값을 옵션으로 반환합니다. 사용자 정의 양식이 첨부된 오브젝트로 작업하는 사용자는 드롭다운에서 이러한 옵션 중 하나 이상을 선택할 수 있습니다.
+
+>[!NOTE]
+>
+>문서 객체에서는 외부 조회 기능을 사용할 수 없습니다.
 
 외부 조회를 추가하려면:
 
