@@ -5,9 +5,9 @@ title: 구성 [!UICONTROL Experience Manager Assets as a Cloud Service] 통합
 description: 다음 위치에서 작업을 콘텐츠와 연결할 수 있습니다. [!DNL Experience Manager Assets].
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 0f625e7d058c6d3ccbfd9dbb12175ad3e2797911
+source-git-commit: 2ae77811cc20a7580f95437debfe1eea5922185c
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: '1406'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 0%
   <tr>
    <td><strong>[!DNL Adobe Workfront] 플랜*</strong>
    </td>
-   <td>모든
+   <td>임의
    </td>
   </tr>
   <tr>
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 시작하기 전에,
 
-* 다음을 수행해야 합니다. [!DNL Workfront] 및 [!DNL Adobe Experience Manager Assets] 에서 조직 ID와 연결됨 [!DNL Adobe Admin Consol]e. 자세한 내용은 [플랫폼 기반 관리의 차이점 ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+* 다음을 수행해야 합니다. [!DNL Workfront] 및 [!DNL Adobe Experience Manager Assets] 에서 조직 ID와 연결됨 [!DNL Adobe Admin Console]. 자세한 내용은, [플랫폼 기반 관리의 차이점 ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 
 ## 통합 정보 설정
@@ -242,7 +242,7 @@ When this option is enabled, any asset that has been pushed to Adobe Experience 
 Adobe Experience Manager 통합에서 사용할 수 있는 워크플로는 다음과 같습니다.
 
 * [Adobe Experience Manager 연결 폴더 만들기](#create-adobe-experience-manager-linked-folders)
-* [Adobe Experience Manager Assets로 전송된 자산 게시](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)
+* [Adobe Experience Manager Assets으로 전송된 자산 게시](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)
 
 ### Adobe Experience Manager 연결 폴더 만들기
 
@@ -250,9 +250,9 @@ Adobe Experience Manager 통합에서 사용할 수 있는 워크플로는 다�
 1. 폴더 경로를 선택하여 이 통합과 연결된 모든 폴더를 연결할 위치를 지정합니다.
    ![연결된 폴더 탐색](assets/select-folder-aem-integration.png)
 1. 활성화 **[!UICONTROL Portfolio 및 프로그램 이름 추가]** 연결된 폴더 이름 끝에 Portfolio 및 프로그램 이름을 자동으로 포함하는 옵션입니다.
-1. 클릭 **[!UICONTROL 저장]** 또는 로 이동합니다. [Adobe Experience Manager Assets로 전송된 자산 게시](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) 이 문서의 섹션.
+1. 클릭 **[!UICONTROL 저장]** 또는 로 이동합니다. [Adobe Experience Manager Assets으로 전송된 자산 게시](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) 이 문서의 섹션.
 
-### Adobe Experience Manager Assets로 전송된 자산 게시
+### Adobe Experience Manager Assets으로 전송된 자산 게시
 
 1. 켜기 **[!UICONTROL 에셋 자동 게시]**.
 1. Adobe Experience Manager Assets로 전송된 자산을 게시할 위치 옆에 있는 상자를 선택합니다. 두 옵션 중 하나 또는 모두를 활성화할 수 있습니다.

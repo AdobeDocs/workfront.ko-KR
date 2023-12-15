@@ -7,14 +7,16 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 3d9631f0108487b4cad312ed1a6be5ae313eee93
+source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
 workflow-type: tm+mt
-source-wordcount: '3570'
+source-wordcount: '3568'
 ht-degree: 0%
 
 ---
 
 # 로그 시간
+
+<!--Audited: 12/2023-->
 
 <!--remove all preview and production references from this article with 23.3 release-->
 
@@ -72,10 +74,10 @@ Workfront에 로그인할 수 있는 시간 유형에 대한 자세한 내용은
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>새 플랜:<ul><li>타임시트에 일반 시간을 기록하려면 표시등 이상 사용</li></p>
+   <td> <p>신규:<ul><li>타임시트에 일반 시간을 기록하려면 표시등 이상 사용</li></p>
    <li> 프로젝트, 작업 또는 문제에 시간을 기록하려면 표준 이상</li></ul></p>
    <p>또는</p>
-   <p>현재 플랜:<ul><li>타임시트에 일반 시간을 기록하려면 이상을 검토하십시오.</li></p>
+   <p>현재:<ul><li>타임시트에 일반 시간을 기록하려면 이상을 검토하십시오.</li></p>
    <li> 프로젝트, 작업 또는 문제에 시간을 기록하려면 이상 작업</li></ul></p>
    </td> 
   </tr> 

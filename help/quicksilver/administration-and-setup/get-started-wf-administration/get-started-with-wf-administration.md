@@ -10,7 +10,7 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8d5497fa-3432-4188-ad71-92ab91cd19fa
-source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
+source-git-commit: 70a2ab0400a50c807aae301116902c5cefb3358b
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 0%
@@ -18,6 +18,8 @@ ht-degree: 0%
 ---
 
 # Adobe Workfront 관리 시작: 문서 색인
+
+<!--Audited: 12/2023-->
 
 이 섹션에서는 Adobe Workfront의 최초 설정에 대한 정보 및 지침과 Workfront 관리자로서 필요한 정보를 찾을 수 있습니다.
 

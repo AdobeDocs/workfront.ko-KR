@@ -7,7 +7,7 @@ description: '시스템에 설치된 파일(예: Photoshop 또는 Illustrator)�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 8d9fc0f391f24a513f118e904da35af4467f0c95
+source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
 workflow-type: tm+mt
 source-wordcount: '1067'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # 지원되는 증명 파일 유형 및 크기 제한 개요
+
+<!--Audited: 12/2023-->
 
 시스템에 설치된 파일(예: Photoshop 또는 Illustrator)을 만드는 데 사용되는 소프트웨어가 없어도 검토자와 다양한 유형의 파일을 공유하고 검토할 수 있습니다. 정적, 비디오, 오디오, 웹 캡처 및 최대 4GB의 대화형 파일 형식을 지원합니다.
 

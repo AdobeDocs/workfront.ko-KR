@@ -6,14 +6,16 @@ description: Adobe Workfront은 모바일 디바이스에서 이메일 알림, �
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
-source-git-commit: f0ad08f21101bca3f881b6e5a8267d30ce3988ed
+source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
 workflow-type: tm+mt
 source-wordcount: '1395'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # 알림 개요
+
+<!--Audited: 12/2023-->
 
 [!DNL Adobe Workfront] 모바일 장치에서 이메일 알림, 인앱 알림 및 알림을 보냅니다.
 
@@ -105,7 +107,7 @@ Workfront에서 댓글에 답글을 달거나 댓글을 보려면 다음 작업�
 
 다음에 의해 자동 미리 알림이 활성화됨: [!DNL Workfront] 마감, 지연 또는 계획된 완료 일자 임박한 작업 및 문제를 알리는 관리자. 지연 알림의 경우 작업 또는 문제가 완료될 때까지 이메일이 매일 밤 전송됩니다. 관리자가 이를 구성한 후에는 비활성화할 수 없습니다. 또한 자동 미리 알림으로 트리거된 이메일의 콘텐츠나 제목 줄은 변경할 수 없습니다.
 
-다음 중 하나 이상으로 보낼 수 있습니다.
+자동 알림은 다음 중 하나 이상으로 보낼 수 있습니다.
 
 * 작업 또는 문제에 할당된 사용자
 * 사용자의 직속 관리자

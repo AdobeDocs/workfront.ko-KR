@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: 70a2ab0400a50c807aae301116902c5cefb3358b
 workflow-type: tm+mt
-source-wordcount: '13812'
+source-wordcount: '13810'
 ht-degree: 1%
 
 ---
@@ -1436,7 +1436,7 @@ ht-degree: 1%
          * [프로젝트에 대한 요청 유형 정의](manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md)
       * 요청 만들기 {#create-requests}
          * [요청 만들기](manage-work/requests/create-requests/create-requests.md)
-         * [Adobe Workfront 요청 만들기 및 제출](manage-work/requests/create-requests/create-submit-requests.md)
+         * [요청 만들기 및 제출](manage-work/requests/create-requests/create-submit-requests.md)
          * [초안에서 요청 만들기](manage-work/requests/create-requests/create-requests-from-drafts.md)
          * [사용자가 문제를 요청 대기열 프로젝트에 이메일로 보낼 수 있도록 설정](manage-work/requests/create-requests/enable-email-issues-into-projects.md)
          * [제출된 요청 찾기](manage-work/requests/create-requests/locate-submitted-requests.md)

@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 68bfc55b68863682c3a0e3fcf303c4501420dd98
+source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
 workflow-type: tm+mt
 source-wordcount: '1136'
 ht-degree: 0%
@@ -17,6 +17,8 @@ ht-degree: 0%
 ---
 
 # [!DNL Adobe Workfront] 통합
+
+<!--Audited: 12/2023-->
 
 다음을 통합할 수 있습니다. [!DNL Adobe Workfront] 타사 애플리케이션과 기타 [!DNL Adobe] 제품. 통합은 Workfront의 유틸리티를 확장하고 조직의 요구 사항에 맞게 조정할 수 있습니다.
 

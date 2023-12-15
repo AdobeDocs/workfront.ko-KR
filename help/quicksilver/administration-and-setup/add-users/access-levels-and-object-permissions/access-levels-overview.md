@@ -10,9 +10,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
-source-git-commit: fbfc8c5b905479c39687754f9c5c34f77f8225d7
+source-git-commit: 70a2ab0400a50c807aae301116902c5cefb3358b
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,8 @@ ht-degree: 0%
 
 Adobe Workfront 관리자는 2가지 용도로 사용자에게 액세스 수준을 할당합니다.
 
-* Workfront에 로그인하고 작업하려면 모든 사용자에게 액세스 수준이 있어야 합니다.
-* 액세스 수준을 사용하여 사용자가 특정 Workfront 개체 및 영역을 보고 수행할 수 있는 작업을 제어합니다.
+* Workfront에 로그인하고 작업하려면 각 사용자에게 액세스 수준이 있어야 합니다.
+* 액세스 수준은 사용자가 특정 Workfront 개체 및 영역을 보고 수행할 수 있는 작업을 제어합니다.
 
 6개의 기본 제공 액세스 수준은 각각 5개의 Workfront 라이선스(계획, 작업, 검토, 요청 및 외부) 중 하나에 연결되어 있습니다.
 
@@ -32,7 +32,7 @@ External은 주로 Workfront을 사용하지 않는 공동 작업자와 문서�
 
 ![](assets/access-levels-and-licenses-old.png)
 
-관련 항목에 대한 자세한 내용은 다음 문서를 참조하십시오.
+액세스 수준과 관련된 항목에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -55,6 +55,10 @@ External은 주로 Workfront을 사용하지 않는 공동 작업자와 문서�
   <tr> 
    <td><strong>액세스 수준 할당</strong></td> 
    <td> <p>사용자에게 액세스 수준을 할당하는 방법에 대한 지침은 을 참조하십시오. <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">사용자 프로필 편집</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>액세스 수준 표준, 라이트, 기여자</td> 
+   <td> <p>계획, 작업, 검토 또는 요청 대신 환경에 이러한 액세스 수준이 표시되면 조직에서 새로운 액세스 수준 모델을 사용합니다. 새 모델에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">새로운 액세스 수준 개요</a>.</p> </td> 
   </tr> 
   <!--
   <tr> 

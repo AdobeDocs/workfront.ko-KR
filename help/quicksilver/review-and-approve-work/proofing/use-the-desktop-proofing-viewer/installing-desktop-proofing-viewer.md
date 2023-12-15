@@ -6,14 +6,16 @@ description: 주로 대화형 콘텐츠의 증명을 위해 설계된 Desktop Pr
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: 73e6a62e4c4103d0a4dc7e3f58ddd68cbd145b8c
+source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
 
 # Desktop Proof Viewer 설치
+
+<!--Audited: 12/2023-->
 
 주로 대화형 콘텐츠의 증명을 위해 설계된 Desktop Proofing Viewer는 로컬 컴퓨터에 설치해야 하는 애플리케이션입니다.
 
@@ -34,11 +36,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>현재 플랜: Pro 이상</p> <p>또는</p> <p>기존 플랜: Select 또는 Premium</p> <p>다른 플랜의 증명 액세스에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfront의 증명 기능에 액세스</a>.</p> </td> 
+   <td> <p>새로 만들기: 모두</p> <p>또는</p> <p>현재: Pro 이상</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td> <p>모든</p> <p>기존 계획: 모두(사용자에 대해 증명이 활성화되어 있어야 함)</p> </td> 
+   <td> <p>임의</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,7 +67,7 @@ Adobe Workfront 관리자 또는 Workfront Proof 관리자가 워크스테이션
 
 >[!NOTE]
 >
->대화형 증명을 열 때 데스크탑 증명 뷰어가 시작되지 않으면 다음에 설명된 대로 Workfront 또는 Workfront 증명 관리자가 데스크탑 증명 뷰어를 대화형 증명에 대한 기본 뷰어로 구성해야 함을 의미할 수 있습니다 [데스크탑 증명 뷰어에서 비대화형 증명을 열기 위한 사용자 설정](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs).
+>대화형 증명을 열 때 데스크탑 증명 뷰어가 시작되지 않으면 다음에 설명된 대로 Workfront 또는 Workfront 증명 관리자가 데스크탑 증명 뷰어를 대화형 증명에 대한 기본 뷰어로 구성해야 함을 의미할 수 있습니다 [데스크탑 증명 뷰어에서 비대화형 증명을 열기 위한 사용자 설정](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-opening-non-interactive-proofs-in-the-desktop-proofing-viewer).
 
 ## Windows에서 Desktop Proofing Viewer 설치
 
