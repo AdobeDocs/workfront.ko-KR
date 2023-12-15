@@ -3,10 +3,10 @@ title: '[!DNL Adobe Workfront] 설명서'
 description: 설명서 [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: e61e20c1cafbcf32a116bae2cc9e779a8a567986
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 0%
+source-wordcount: '381'
+ht-degree: 2%
 
 ---
 
@@ -69,7 +69,7 @@ Workfront의 애자일 기능을 통해 팀은 일관된 케이던스로 적은 
 
 Workfront에서 필요한 보고서를 만드는 방법을 찾을 수 없는 경우 텍스트 모드를 사용하여 찾고 있는 솔루션을 찾을 수 있습니다.
 
-다음을 참조하십시오 [텍스트 모드 리소스](/help/quicksilver/reports-and-dashboards/reports/text-mode/text-mode-resources.md).
+다음을 참조하십시오 [텍스트 모드 리소스: 문서 색인](/help/quicksilver/reports-and-dashboards/reports/text-mode/text-mode-resources.md).
 
 ### 업무 균형자
 

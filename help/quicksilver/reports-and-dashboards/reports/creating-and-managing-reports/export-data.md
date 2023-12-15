@@ -2,20 +2,32 @@
 product-area: reporting
 navigation-topic: create-and-manage-reports
 title: 데이터 내보내기
-description: 보고서 데이터를 내보내는 방법 알아보기
+description: 다양한 목록, 보고서, 대시보드 및 검색에서 Adobe Workfront 데이터를 내보낼 수 있습니다.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 3980d24b4a9c34b85c475a124c2b83dae7aa55ff
+source-git-commit: 219c952185f50bd3888f6deee17cbc35d3b34b22
 workflow-type: tm+mt
-source-wordcount: '2185'
+source-wordcount: '2206'
 ht-degree: 0%
 
 ---
 
 # 데이터 내보내기
 
+<!-- Audited: 12/2023 -->
+
 다양한 목록, 보고서, 대시보드 및 검색에서 Adobe Workfront 데이터를 내보낼 수 있습니다.
+
+데이터를 내보내는 이유 중 일부는 다음과 같습니다.
+
+* Workfront 외부의 사용자에게 데이터의 하드 복사본을 제공하려고 합니다.
+* 보고서 결과를 외부 사용자에게 첨부 파일로 보내려고 합니다.
+* Workfront 데이터의 외부 백업을 만들려고 합니다.
+* Workfront 웹 애플리케이션 내의 한 페이지에 2,000개의 결과만 표시하는 데는 제한이 있습니다. 보고서가 2,000개를 초과하는 경우 보고서를 사용 가능한 형식 중 하나로 내보내고 보고서의 모든 결과를 하나의 목록으로 볼 수 있습니다.
+
+Workfront 인터페이스에서 보고서를 수동으로 내보내거나 보고서 게재를 예약할 수 있으며 해당 보고서는 나중에 전송됩니다. 게재된 보고서 예약에 대한 자세한 내용은 [보고서 게재 개요](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+
 이 문서의 정보는 다음 내보내기에는 적용되지 않습니다.
 
 * 차트 보고서에서 정보를 내보내는 중입니다.
@@ -29,15 +41,6 @@ ht-degree: 0%
 * 리소스 플래너에서 정보 내보내기.
 
   리소스 플래너에서 정보를 내보내는 방법에 대한 자세한 내용은 의 &quot;내보내기 옵션&quot;을 참조하십시오 [리소스 플래너 탐색 개요](../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
-
-데이터를 내보내는 이유 중 일부는 다음과 같습니다.
-
-* Workfront 외부의 사용자에게 데이터의 하드 복사본을 제공하려고 합니다.
-* 보고서 결과를 외부 사용자에게 첨부 파일로 보내려고 합니다.
-* Workfront 데이터의 외부 백업을 만들려고 합니다.
-* Workfront 웹 애플리케이션 내의 한 페이지에 2,000개의 결과만 표시하는 데는 제한이 있습니다. 보고서가 2,000개를 초과하는 경우 아래 언급된 형식으로 보고서를 내보내고 보고서의 모든 결과를 하나의 목록으로 볼 수 있습니다.
-
-Workfront 인터페이스에서 보고서를 수동으로 내보내거나 보고서 게재를 예약할 수 있으며 해당 보고서는 나중에 전송됩니다. 게재된 보고서 예약에 대한 자세한 내용은 [보고서 게재 개요](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
 ## 액세스 요구 사항
 
@@ -55,29 +58,31 @@ Workfront 인터페이스에서 보고서를 수동으로 내보내거나 보고
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>검토 이상</p> </td> 
+   <td>
+    <p>새로운 기능: 밝게 또는 높음</p>
+    <p>또는</p>
+    <p>현재: 검토 이상</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>보고서, 대시보드, 캘린더에 대한 보기 또는 상위 액세스 권한을 통해 보고서 내보내기</p> <p>목록을 내보내려면 목록에서 보는 객체에 대한 이상의 액세스 권한</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td> <p>보고서, 대시보드 및 달력에 대한 보기 이상의 액세스 권한을 사용하여 보고서 내보내기</p> <p>목록을 내보내려면 목록에서 보는 객체에 대한 이상의 액세스 권한</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>보고서 또는 대시보드를 내보낼 보고서 또는 대시보드에 대한 이상의 권한 보기</p> <p>목록을 내보내려면 목록에서 보는 객체에 대한 이상의 권한을 봅니다.</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>보고서 또는 대시보드를 내보낼 보고서 또는 대시보드에 대한 이상의 권한 보기</p> <p>목록을 내보내려면 목록에서 보는 객체에 대한 이상의 권한을 봅니다.</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
 
 ## 전제 조건
 
 데이터를 내보내려면 먼저 보고서를 만들어야 합니다.
 
-보고서 만들기에 대한 자세한 내용은 [보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
+보고서 만들기에 대한 자세한 내용은 [사용자 지정 보고서 만들기](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) 또는 [보고서 사본 만들기](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
 ## 내보내기 형식 및 제한
-
-* [내보내기 형식](#export-formats)
-* [내보내기 제한](#export-limits)
 
 ### 내보내기 형식 {#export-formats}
 
@@ -105,7 +110,7 @@ Workfront에 보고서가 표시되는 방식과 수동 내보내기, 배달된 
 
    * Excel .xls 파일의 경우 이 제한은 **65,000행**.
    * Excel .xlsx 파일의 경우 이 제한은 다음과 같습니다 **100,000행**.
-   * 이러한 제한은 열 머리글과 보고서에서 그룹화를 위한 행을 제외합니다. 예를 들어 보고서에 6개의 그룹화가 있고 50,000개의 행 또는 데이터가 있는 경우 내보낸 파일의 행은 50,000개가 됩니다.
+   * 이러한 제한은 열 머리글과 보고서에서 그룹화를 위한 행을 제외합니다. 예를 들어 보고서에 6개의 그룹화가 있고 50,000개의 데이터 행이 있는 경우 내보낸 파일의 행은 50,000개가 됩니다.
 
   >[!IMPORTANT]
   >
@@ -129,11 +134,11 @@ Workfront에 보고서가 표시되는 방식과 수동 내보내기, 배달된 
    * API 통합을 통한 내보내기.
    * 킥스타트를 통해 내보낸 데이터.
 
-     킥스타트를 통해 데이터를 내보내는 방법에 대한 자세한 내용은 [킥스타트를 통해 Adobe Workfront에서 데이터 내보내기](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)
+     킥스타트를 통해 데이터를 내보내는 방법에 대한 자세한 내용은 [킥스타트를 통해 Adobe Workfront에서 데이터 내보내기](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
 
      >[!NOTE]
      >
-     >Excel 형식 파일로만 데이터를 내보낼 수 있지만 킥스타트 파일에서 50,000개의 행을 내보낼 수 있습니다. 
+     >Excel 형식 파일로만 데이터를 내보낼 수 있지만 킥스타트 파일에서 50,000개의 행을 내보낼 수 있습니다.
 
    * 프로젝트에 대한 활용성 정보를 내보내는 중입니다.
 
@@ -151,9 +156,6 @@ Workfront에 보고서가 표시되는 방식과 수동 내보내기, 배달된 
 
 ## 데이터 내보내기
 
-* [보고서 또는 목록에서 데이터 내보내기](#export-data-from-a-report-or-list)
-* [대시보드에서 데이터 내보내기](#export-data-from-a-dashboard)
-
 ### 보고서 또는 목록에서 데이터 내보내기 {#export-data-from-a-report-or-list}
 
 1. 내보낼 보고서 또는 목록으로 이동합니다.
@@ -167,14 +169,17 @@ Workfront에 보고서가 표시되는 방식과 수동 내보내기, 배달된 
 
 1. 클릭 **내보내기**&#x200B;을 클릭한 다음 형식을 선택합니다.
 
+   <!--
+   This note doesn't seem to be true (I tested with e reviewer and they could export the dashboard and its reports), and there's another article all about exporting dashboards. Lisa 12/23
    >[!NOTE]
    >
-   대시보드 보고서를 내보내려면 플랜 라이선스가 있어야 합니다.\
-   ![](assets/nwe-dashboard-export-note-350x271.png)
+   >To export a Dashboard report, you must have a Plan license.  
+   >![](assets/nwe-dashboard-export-note-350x271.png)
+   -->
 
    또는
 
-   다음을 클릭합니다. **내보내기** 아이콘 ![](assets/export-icon-nwe.png)을 클릭한 다음 형식을 선택합니다.
+   다음을 클릭합니다. **내보내기** 아이콘 ![내보내기 아이콘](assets/export-icon-nwe.png)을 클릭한 다음 형식을 선택합니다.
 
    PDF 내보내기에 사용할 수 있는 옵션은 Workfront 사용자 설정의 로케일 설정에 따라 다릅니다.
 
@@ -212,9 +217,6 @@ Workfront에 보고서가 표시되는 방식과 수동 내보내기, 배달된 
 
 객체 목록을 내보내든 보고서를 내보내든 내보낸 파일에는 파일 이름과 제목이 있습니다. 파일 이름을 참조하여 컴퓨터에서 내보낸 파일을 찾을 수 있습니다. 보고서의 제목은 내보낸 파일을 사용자와 공유할 때 사용자가 나타내는 내용을 보여줍니다.
 
-* [내보낸 목록의 파일 이름](#file-names-for-exported-lists)
-* [내보낸 보고서의 파일 이름](#file-names-for-exported-reports)
-
 #### 내보낸 목록의 파일 이름 {#file-names-for-exported-lists}
 
 객체 목록을 내보내면 객체 유형이 내보낸 파일에 파일 이름과 목록 제목으로 표시됩니다.
@@ -246,9 +248,6 @@ Workfront에 보고서가 표시되는 방식과 수동 내보내기, 배달된 
 ### 제목 {#titles}
 
 개체 목록을 내보내면 PDF 형식의 파일에만 제목이 지정됩니다. 목록이나 보고서를 Excel, Excel(.xlsx) 또는 탭으로 구분된 형식으로 내보내는 경우 파일에 제목이 없습니다.
-
-* [내보낸 목록의 제목](#titles-for-exported-lists)
-* [내보낸 보고서 제목](#titles-for-exported-reports)
 
 #### 내보낸 목록의 제목 {#titles-for-exported-lists}
 
@@ -297,11 +296,11 @@ PDF 파일로 내보낸 보고서에는 제목이 있습니다.
 
 보고서에 특수 보기가 없는 경우 보고서를 보내거나 배달 예약하면 항상 보고서의 기본 탭을 받게 됩니다.
 
-웹 응용 프로그램에서 보고서에 특수 서식이 있는 경우 .pdf 및 Excel 파일에 대해서만 세부 정보 및 매트릭스 탭이 제공될 때 보고서가 특수 서식으로 제공되어야 합니다.
+웹 응용 프로그램에서 보고서에 특수 서식이 있는 경우 세부 정보 및 매트릭스 탭이 표시될 때 .pdf 및 Excel 파일에만 특수 서식으로 보고서가 전달되어야 합니다.
 
 >[!NOTE]
 >
-내보내려는 데이터에 공유 열이 포함되어 있고 Excel 또는 탭으로 구분된 형식으로 내보내는 경우 이러한 열은 내보낸 파일로 구분됩니다.
+>내보내려는 데이터에 공유 열이 포함되어 있고 Excel 또는 탭으로 구분된 형식으로 내보내는 경우 이러한 열은 내보낸 파일로 구분됩니다.
 
 보고서에서 서식을 사용자 지정하는 방법에 대한 자세한 내용은 [보기에서 조건부 서식 사용](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
@@ -311,18 +310,22 @@ PDF 파일로 내보낸 보고서에는 제목이 있습니다.
 
 >[!TIP]
 >
-줄이 있는 경우 `valueformat=HTML` 사용자 정의 필드 열의 텍스트 모드에 나타나며 링크 값이 내보낸 .pdf 파일에 표시되지 않습니다. 텍스트 모드에서 열에 추가 코드 행을 입력해야 합니다.
+>줄이 있는 경우 `valueformat=HTML` 사용자 정의 필드 열의 텍스트 모드에 나타나며 링크 값이 내보낸 .pdf 파일에 표시되지 않습니다. 텍스트 모드에서 열에 추가 코드 행을 입력해야 합니다.
 >
-예를 들어 링크가 포함된 Q1 프로젝트 열기 라는 사용자 정의 필드가 있는 경우 다음 코드를 추가합니다.
+>예를 들어 링크가 포함된 Q1 프로젝트 열기 라는 사용자 정의 필드가 있는 경우 다음 코드를 추가합니다.
 >
->```
->link.url=customDataLabelsAsString(Open Q1 Projects)
->linkedname=direct
->```
+>`link.url=customDataLabelsAsString(Open Q1 Projects)`
+>`linkedname=direct`
 
 Excel 형식으로 내보낼 때 Workfront 내의 오브젝트에 대한 링크만 내보낸 파일에 포함되며 보고서 게재와 같이 내보낸 Excel 문서에서 링크를 허용하도록 선택할 수 있는 위치에서만 지원됩니다.
 
 ## 브랜딩 {#branding}
+
+>[!IMPORTANT]
+>
+>브랜딩은 아직 Adobe Experience Cloud에 온보딩되지 않은 조직에만 적용됩니다.
+>
+>조직이 Adobe Experience Cloud에 온보딩된 경우 브랜딩을 사용할 수 없습니다.
 
 Workfront 관리자가 전역 탐색 막대에 대한 Workfront 인스턴스에 사용자 지정된 브랜딩을 추가한 경우 내보낸 .pdf 파일에 개인화된 로고도 포함됩니다.
 

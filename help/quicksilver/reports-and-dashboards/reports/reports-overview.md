@@ -8,10 +8,10 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: b7117ff8-5353-4766-b982-ba624a484ad1
-source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
+source-git-commit: e61e20c1cafbcf32a116bae2cc9e779a8a567986
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 5%
+source-wordcount: '61'
+ht-degree: 3%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 5%
 * [보고서 만들기 및 관리](../../reports-and-dashboards/reports/creating-and-managing-reports/create-manage-reports.md)
 * [보고서의 계산된 사용자 정의 데이터](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
 * [사용자 정의 보기, 필터 및 그룹화 샘플](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
-* [텍스트 모드 리소스](../../reports-and-dashboards/reports/text-mode/text-mode-resources.md)
+* [텍스트 모드 리소스: 문서 색인](../../reports-and-dashboards/reports/text-mode/text-mode-resources.md)
 * [보고서 사용 개요](../../reports-and-dashboards/reports/report-usage/report-usage-overview.md)
 * [캘린더](../../reports-and-dashboards/reports/calendars/calendars.md)
 * [보고서에 대한 팁, 요령 및 문제 해결](../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/tips-troubleshooting-reports.md)

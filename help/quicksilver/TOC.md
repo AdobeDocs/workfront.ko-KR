@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 70a2ab0400a50c807aae301116902c5cefb3358b
+source-git-commit: e61e20c1cafbcf32a116bae2cc9e779a8a567986
 workflow-type: tm+mt
-source-wordcount: '13810'
+source-wordcount: '13812'
 ht-degree: 1%
 
 ---
@@ -1634,7 +1634,7 @@ ht-degree: 1%
          * [보기: 사용자 개인 휴무](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-personal-time-off.md)
          * [다중 선택 사용자 정의 필드로 보고서 차트 작성](reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md)
       * 텍스트 모드 리소스 {#text-mode}
-         * [텍스트 모드 리소스](reports-and-dashboards/reports/text-mode/text-mode-resources.md)
+         * [텍스트 모드 리소스: 문서 색인](reports-and-dashboards/reports/text-mode/text-mode-resources.md)
          * [텍스트 모드 개요](reports-and-dashboards/reports/text-mode/understand-text-mode.md)
          * [텍스트 모드의 일반적인 사용 개요](reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)
          * [텍스트 모드 구문 개요](reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
