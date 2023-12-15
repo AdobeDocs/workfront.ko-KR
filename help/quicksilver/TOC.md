@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 62b18c06c05a2a36386bd7fb3c0e33c32b507d63
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '13796'
+source-wordcount: '13812'
 ht-degree: 1%
 
 ---
@@ -1132,9 +1132,9 @@ ht-degree: 1%
 * 작업 관리 {#manage-work}
    * [작업 관리](manage-work/manage-work.md)
    * 프로젝트 {#projects}
-      * [프로젝트](manage-work/projects/projects-overview.md)
+      * [프로젝트: 문서 색인](manage-work/projects/projects-overview.md)
       * 프로젝트 계획 {#plan-a-project}
-         * [프로젝트 계획](manage-work/projects/planning-a-project/plan-project-overview.md)
+         * [프로젝트 계획: 문서 색인](manage-work/projects/planning-a-project/plan-project-overview.md)
          * [프로젝트 계획 개요](manage-work/projects/planning-a-project/plan-project.md)
          * [프로젝트의 작업 분류 구조 결정](manage-work/projects/planning-a-project/determine-project-work-breakdown-structure.md)
          * [프로젝트 팀 개요](manage-work/projects/planning-a-project/project-team-overview.md)
@@ -1155,14 +1155,14 @@ ht-degree: 1%
          * [프로젝트 진행 상태 개요](manage-work/projects/planning-a-project/project-progress-status.md)
          * [프로젝트 예상 시작 일자 개요](manage-work/projects/planning-a-project/project-projected-start-date.md)
       * 프로젝트 만들기 {#create-projects}
-         * [프로젝트 만들기](manage-work/projects/create-projects/create-projects-overview.md)
+         * [프로젝트 만들기: 문서 색인](manage-work/projects/create-projects/create-projects-overview.md)
          * [프로젝트 만들기](manage-work/projects/create-projects/create-project.md)
          * [프로젝트 요청](manage-work/projects/create-projects/request-project.md)
          * [템플릿을 사용하여 프로젝트 만들기](manage-work/projects/create-projects/create-project-from-template.md)
          * [Microsoft 프로젝트에서 프로젝트 가져오기](manage-work/projects/create-projects/import-project-from-ms-project.md)
          * [프로젝트 기준선 만들기](manage-work/projects/create-projects/create-baselines.md)
       * 프로젝트에 대한 작업 업데이트 {#update-work-on-a-project}
-         * [프로젝트에 대한 작업 업데이트](manage-work/projects/updating-work-in-a-project/update-work-on-project.md)
+         * [프로젝트 작업 업데이트: 문서 색인](manage-work/projects/updating-work-in-a-project/update-work-on-project.md)
          * [그룹에 연결된 작업에 상태 적용](manage-work/projects/updating-work-in-a-project/apply-custom-status-work-assigned-to-group.md)
          * [작업 상태 업데이트](manage-work/projects/updating-work-in-a-project/update-task-status.md)
          * [문제 상태 업데이트](manage-work/projects/updating-work-in-a-project/update-issue-status.md)
@@ -1173,7 +1173,7 @@ ht-degree: 1%
          * [작업 및 문제에 대한 상태 업데이트](manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md)
          * [프로젝트 상태 업데이트](manage-work/projects/updating-work-in-a-project/update-condition-on-project.md)
       * 프로젝트 관리 {#manage-projects}
-         * [프로젝트 관리](manage-work/projects/manage-projects/manage-projects-overview.md)
+         * [프로젝트 관리: 문서 색인](manage-work/projects/manage-projects/manage-projects-overview.md)
          * [프로젝트 편집](manage-work/projects/manage-projects/edit-projects.md)
          * [프로젝트 복사](manage-work/projects/manage-projects/copy-project.md)
          * [프로젝트를 템플릿으로 저장](manage-work/projects/manage-projects/save-project-as-template.md)
@@ -1195,7 +1195,7 @@ ht-degree: 1%
          * [프로젝트 지표 개요](manage-work/projects/manage-projects/project-metrics.md)
          * [프로젝트 제한 개요](manage-work/projects/manage-projects/project-maximums.md)
       * 프로젝트 템플릿 만들기 및 관리 {#create-and-manage-project-templates}
-         * [프로젝트 템플릿 만들기 및 관리](manage-work/projects/create-and-manage-templates/create-manage-templates.md)
+         * [프로젝트 템플릿 만들기 및 관리: 문서 색인](manage-work/projects/create-and-manage-templates/create-manage-templates.md)
          * [프로젝트 템플릿 개요](manage-work/projects/create-and-manage-templates/project-template-overview.md)
          * [프로젝트 템플릿 만들기](manage-work/projects/create-and-manage-templates/create-template.md)
          * [예제에서 프로젝트 템플릿 만들기](manage-work/projects/create-and-manage-templates/create-templates-from-examples.md)
@@ -1212,7 +1212,7 @@ ht-degree: 1%
          * [템플릿의 시작 및 완료 일수 개요](manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md)
          * [프로젝트에 템플릿 첨부 개요](manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md)
       * 비즈니스 사례 정의 {#define-business-case}
-         * [비즈니스 사례 정의](manage-work/projects/define-a-business-case/define-business-case.md)
+         * [비즈니스 사례 정의: 문서 색인](manage-work/projects/define-a-business-case/define-business-case.md)
          * [비즈니스 사례 영역 개요](manage-work/projects/define-a-business-case/areas-of-business-case.md)
          * [프로젝트에 대한 비즈니스 사례 만들기](manage-work/projects/define-a-business-case/create-business-case.md)
          * [비즈니스 사례 승인](manage-work/projects/define-a-business-case/approve-business-case.md)
@@ -1226,7 +1226,7 @@ ht-degree: 1%
          * [프로젝트에 대한 위험 만들기 및 편집](manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)
          * [프로젝트의 비즈니스 사례 내보내기](manage-work/projects/define-a-business-case/export-business-case.md)
       * 프로젝트 재무 {#project-finances}
-         * [프로젝트 재무](manage-work/projects/project-finances/project-finances-overview.md)
+         * [프로젝트 재무: 문서 색인](manage-work/projects/project-finances/project-finances-overview.md)
          * [프로젝트 재무 필드](manage-work/projects/project-finances/project-finances-overview-1.md)
          * [프로젝트 재무 다시 계산](manage-work/projects/project-finances/recalculate-project-finances.md)
          * [프로젝트 기준선에 포함된 프로젝트 재무](manage-work/projects/project-finances/project-finances-included-in-project-baselines.md)
@@ -1255,7 +1255,7 @@ ht-degree: 1%
          * [프로젝트의 예산 인건비 및 예산 시간 이해](manage-work/projects/project-finances/budgeted-labor-cost.md)
          * [계획된 인건비 계산](manage-work/projects/project-finances/planned-labor-cost.md)
       * 프로젝트에 대한 팁, 요령 및 문제 해결 {#tips-tricks-troubleshooting-for-projects}
-         * [프로젝트에 대한 팁, 요령 및 문제 해결](manage-work/projects/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-for-projects.md)
+         * [팁, 요령 및 문제 해결: 문서 색인](manage-work/projects/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-for-projects.md)
          * [프로젝트 FAQ](manage-work/projects/tips-tricks-and-troubleshooting/projects-faqs.md)
          * [프로젝트 상태가 완료에서 현재로 변경되지 않음](manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md)
          * [계산 예 - EAC를 작업에서 롤업으로 계산](manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-by-rolling-up-from-tasks-example.md)

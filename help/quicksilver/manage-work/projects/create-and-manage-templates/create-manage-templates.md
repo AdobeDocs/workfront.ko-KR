@@ -2,20 +2,20 @@
 content-type: reference
 product-area: templates
 navigation-topic: create-and-manage-projects
-title: 프로젝트 템플릿 만들기 및 관리
+title: "프로젝트 템플릿 만들기 및 관리: 문서 인덱스"
 description: 프로젝트 템플릿을 만들고 관리하는 방법에 대한 자세한 내용은 다음 문서를 참조하십시오.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 64fbad12-ce16-449f-8991-62af31e595b2
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
 
-# 프로젝트 템플릿 만들기 및 관리
+# 프로젝트 템플릿 만들기 및 관리: 문서 색인
 
 이 섹션에는 다음 문서가 포함됩니다.
 

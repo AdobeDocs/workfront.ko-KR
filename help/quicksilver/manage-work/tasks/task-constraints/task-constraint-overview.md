@@ -7,7 +7,7 @@ description: 작업 제한 사항은 프로젝트에서 작업이 시작 및 종
 author: Alina
 feature: Work Management
 exl-id: 91b0844b-95a3-4d18-9fdb-a907dd42e1bf
-source-git-commit: 45c82f659d02dca69d2a2c390b084330773d4252
+source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 6%
@@ -15,6 +15,8 @@ ht-degree: 6%
 ---
 
 # 작업 제한 개요
+
+<!-- Audited: 12/2023 -->
 
 작업 제한 사항은 프로젝트에서 작업이 시작 및 종료되는 시기를 결정합니다.
 

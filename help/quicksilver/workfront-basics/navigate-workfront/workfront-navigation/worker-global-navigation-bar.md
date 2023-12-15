@@ -7,9 +7,9 @@ description: 메인 메뉴는 사용자가 할당한 액세스 수준에 따라 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
+source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 * **[!UICONTROL 홈]**: 사용자에게 할당된 작업 및 문제가 여기에 표시됩니다. 이 페이지는 작업자의 기본 랜딩 페이지이지만 에는 표시되지 않습니다. [!UICONTROL 메인 메뉴] Workfront 관리자가 레이아웃 템플릿에 추가하지 않는 경우.  자세한 내용은 [시작 [!UICONTROL 홈]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
-* **[!UICONTROL 프로젝트]**: 나와 공유된 프로젝트가 여기에 표시됩니다. 자세한 내용은 [프로젝트](../../../manage-work/projects/projects-overview.md).
+* **[!UICONTROL 프로젝트]**: 나와 공유된 프로젝트가 여기에 표시됩니다. 자세한 내용은 [프로젝트: 문서 색인](../../../manage-work/projects/projects-overview.md).
 
 * **[!UICONTROL 보고서]**: 사용자와 공유되는 보고서가 여기에 표시됩니다. 자세한 내용은 [보고서](../../../reports-and-dashboards/reports/reports-overview.md).
 

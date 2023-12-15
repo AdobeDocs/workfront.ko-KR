@@ -6,9 +6,9 @@ description: 프로젝트에 대한 작업 분류 구조(WBS) 정의는 프로�
 author: Alina
 feature: Work Management
 exl-id: a76c468d-6373-4dab-93ff-a0b3734f368c
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '1748'
+source-wordcount: '1750'
 ht-degree: 1%
 
 ---
@@ -114,7 +114,7 @@ Workfront의 리소스 관리를 사용하면 프로젝트를 완료할 수 있�
 
 Workfront은 각 작업의 계획된 비용과 프로젝트의 전체 비용을 계산합니다. 작업에 대한 계획된 비용에는 작업의 모든 비용과 작업에 할당된 직원 또는 역할의 비용이 포함됩니다. 작업, 역할 및 직원의 시간당 요금은 작업, 역할 및 사용자를 만드는 동안 할당됩니다.
 
-프로젝트 재무 정보에 대한 자세한 내용은 섹션을 참조하십시오 [프로젝트 재무](../../../manage-work/projects/project-finances/project-finances-overview.md) .
+프로젝트 재무 정보에 대한 자세한 내용은 섹션을 참조하십시오 [프로젝트 재무: 문서 색인](../../../manage-work/projects/project-finances/project-finances-overview.md).
 
 ## 프로젝트에 대한 승인 지점 결정
 

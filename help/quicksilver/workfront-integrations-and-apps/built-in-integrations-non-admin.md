@@ -7,7 +7,7 @@ description: 다음을 통합할 수 있습니다. [!DNL Adobe Workfront] 타사
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 02bacdc99c23b70bbe8dd71e493c940f91058965
+source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 3%
@@ -15,6 +15,8 @@ ht-degree: 3%
 ---
 
 # Adobe Workfront 기본 제공 통합 개요
+
+<!-- Audited: 12/2023 -->
 
 다음을 통합할 수 있습니다. [!DNL Adobe Workfront] 타사 애플리케이션과 기타 [!DNL Adobe] 제품. 이러한 통합은 의 유틸리티를 확장할 수 있습니다. [!DNL Workfront] 조직의 요구 사항에 맞게 조정할 수 있습니다. 예를 들어 마케팅 업계의 크리에이티브 작업자인 경우 [!DNL Adobe Workfront] 플러그인 [!DNL Creative Cloud] Photoshop에서 Workfront으로 직접 자산을 내보내는 애플리케이션.
 

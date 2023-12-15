@@ -7,7 +7,7 @@ description: 타임시트, 타임시트 프로필 및 시간 유형을 만들고
 author: Alina
 feature: Timesheets
 exl-id: aff5e7a9-e1a0-460e-bb6b-be9c50db5755
-source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
+source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # 타임시트: 문서 색인
+
+<!-- Audited: 12/2023 -->
 
 이 섹션에는 다음 하위 섹션의 문서가 포함되어 있습니다.
 

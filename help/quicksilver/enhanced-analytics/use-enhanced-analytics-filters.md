@@ -6,7 +6,7 @@ description: Adobe Workfront의 향상된 분석 영역에 있는 필터를 사�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
-source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
+source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
 source-wordcount: '1504'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # 향상된 분석에서 필터 적용
+
+<!-- Audited: 12/2023 -->
 
 Adobe Workfront의 향상된 분석 영역에 있는 필터를 사용하면 특정 프로젝트 또는 특정 유형의 데이터에 집중할 수 있습니다. 사용하는 필터 유형을 통해 다음 사항에 대한 통찰력을 얻을 수 있습니다.
 

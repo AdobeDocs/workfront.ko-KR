@@ -1,20 +1,20 @@
 ---
 content-type: reference
 navigation-topic: create-and-manage-projects
-title: 비즈니스 사례 정의
+title: "비즈니스 사례 정의: 문서 색인"
 description: 비즈니스 사례를 만들어 프로젝트를 공식적이고 효율적으로 요청할 수 있습니다. 다음 문서에서는 프로젝트의 비즈니스 사례를 정의하는 데 필요한 정보에 대해 설명합니다.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: ca5679ba-db5c-4430-9469-0eaaa94fb9ec
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '136'
 ht-degree: 0%
 
 ---
 
-# 비즈니스 사례 정의
+# 비즈니스 사례 정의: 문서 색인
 
 이 섹션에는 다음 문서가 포함됩니다.
 

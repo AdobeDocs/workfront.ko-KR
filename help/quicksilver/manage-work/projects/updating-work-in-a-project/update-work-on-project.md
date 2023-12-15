@@ -2,20 +2,20 @@
 content-type: reference
 product-area: projects
 navigation-topic: create-and-manage-projects
-title: 프로젝트에 대한 작업 업데이트
+title: "프로젝트 작업 업데이트: 문서 색인"
 description: 프로젝트의 상태와 진행 상황을 업데이트하려면 작업의 상태와 진행 상황을 업데이트해야 합니다. 그것은 결국 그 프로젝트의 진척을 보여주기 위해 나타나게 된다.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 6f7793f4-93e4-46b5-86f4-6ebede289ccb
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
 
-# 프로젝트에 대한 작업 업데이트
+# 프로젝트 작업 업데이트: 문서 색인
 
 프로젝트의 상태와 진행 상황을 업데이트하려면 작업의 상태와 진행 상황을 업데이트해야 합니다. 그것은 결국 그 프로젝트의 진척을 보여주기 위해 나타나게 된다.
 

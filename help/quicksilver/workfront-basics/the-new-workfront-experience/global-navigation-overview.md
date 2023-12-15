@@ -5,9 +5,9 @@ description: 위쪽 탐색 모음 - 새 화면의 맨 위에 나타납니다. [!
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 0%
      <li>[!UICONTROL 홈]: <a href="../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md" class="MCXref xref">[!UICONTROL Home] 영역 사용</a></li> 
      <li>[!UICONTROL Portfolio]: <a href="../../manage-work/portfolios/portfolio-management-overview.md" class="MCXref xref">Portfolio 관리</a></li> 
      <li>[!UICONTROL 프로그램]: <a href="../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md" class="MCXref xref">프로그램 제작 및 관리 </a></li> 
-     <li>[!UICONTROL 프로젝트]: <a href="../../manage-work/projects/projects-overview.md" class="MCXref xref">프로젝트</a></li> 
+     <li>[!UICONTROL 프로젝트]: <a href="../../manage-work/projects/projects-overview.md" class="MCXref xref">프로젝트: 문서 색인</a></li> 
      <li>[!UICONTROL 보고서]: <a href="../../reports-and-dashboards/reports/reports-overview.md" class="MCXref xref">보고서</a></li> 
      <li>[!UICONTROL 대시보드]: <a href="../../reports-and-dashboards/dashboards/dashboards-overview.md" class="MCXref xref">대시보드</a></li> 
      <li>[!UICONTROL 캘린더]: <a href="../../reports-and-dashboards/reports/calendars/calendars.md" class="MCXref xref">캘린더</a></li> 
@@ -103,7 +103,7 @@ ht-degree: 0%
      <li>[!UICONTROL 요청]: <a href="../../manage-work/requests/create-requests/create-requests.md" class="MCXref xref">요청 만들기</a></li> 
      <li>[!UICONTROL 타임시트]: <a href="../../timesheets/timesheets-all.md" class="MCXref xref">타임시트: 문서 색인</a></li> 
      <li>[!UICONTROL 문서]: <a href="../../documents/documents-overview.md" class="MCXref xref">문서</a></li> 
-     <li>[!UICONTROL 템플릿]: <a href="../../manage-work/projects/create-and-manage-templates/create-manage-templates.md" class="MCXref xref">프로젝트 템플릿 만들기 및 관리</a></li> 
+     <li>[!UICONTROL 템플릿]: <a href="../../manage-work/projects/create-and-manage-templates/create-manage-templates.md" class="MCXref xref">프로젝트 템플릿 만들기 및 관리: 문서 색인</a></li> 
      <li>[!UICONTROL 분석]: <a href="../../enhanced-analytics/enhanced-analytics-overview.md" class="MCXref xref">향상된 분석 개요</a></li> 
      <li>[!UICONTROL 목표]: <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">[!DNL Adobe Workfront Goals] 개요</a></li> 
      <li>[!UICONTROL 시나리오]: <a href="../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">시나리오 플래너 개요</a></li> 

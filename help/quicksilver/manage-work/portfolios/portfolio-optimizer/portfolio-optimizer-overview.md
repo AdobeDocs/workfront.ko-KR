@@ -7,9 +7,9 @@ description: 다음 [!UICONTROL Portfolio 최적화 도구] 는 프로젝트 평
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1e48a24c-65de-49c2-85a8-dc931ac40c52
-source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1649'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,9 @@ ht-degree: 0%
 
 다음 [!UICONTROL Portfolio 최적화 도구] 은 다음 전제 조건을 완료한 경우에만 여러분을 지원할 수 있습니다.
 
-
-* 다음 [!UICONTROL 비즈니스 사례] 이(가) 프로젝트에서 완료되었습니다. 자세한 내용은 이 섹션의 문서를 참조하십시오 [비즈니스 사례 정의](../../projects/define-a-business-case/define-business-case.md).
-* 포트폴리오는 검토하려는 프로젝트에 대한 프로젝트 세부 정보 섹션의 프로젝트 개요 영역에 정의되어 있습니다
+* 다음 [!UICONTROL 비즈니스 사례] 이(가) 프로젝트에서 완료되었습니다. 자세한 내용은 의 문서를 참조하십시오. [비즈니스 사례 정의: 문서 색인](../../projects/define-a-business-case/define-business-case.md).
+* 포트폴리오는 검토하려는 프로젝트에 대한 프로젝트 세부 정보 섹션의 프로젝트 개요 영역에 정의되어 있습니다.
 * 검토할 프로젝트에 대한 프로젝트 예산 및 계획된 혜택을 표시했습니다. 고정 비용 및 고정 수익은 선택 사항이지만 추가 가치를 제공합니다. 자세한 내용은 [프로젝트 재무 필드](../../projects/project-finances/project-finances-overview-1.md).
-
 
 위치 찾기 정보 [!UICONTROL Portfolio 최적화 도구], 참조 [를 찾습니다. [!UICONTROL Portfolio 최적화 도구]](../../../manage-work/portfolios/portfolio-optimizer/locate-portfolio-optimizer.md).
 
