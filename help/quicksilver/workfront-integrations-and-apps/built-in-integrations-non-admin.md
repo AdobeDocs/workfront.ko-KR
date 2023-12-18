@@ -7,9 +7,9 @@ description: 다음을 통합할 수 있습니다. [!DNL Adobe Workfront] 타사
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 5ea991185cbf2f925beccce9f46a16c3d8c8447d
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '475'
 ht-degree: 3%
 
 ---
@@ -82,7 +82,6 @@ ht-degree: 3%
     <ul> 
      <li>에서 새 티켓 만들기 [!DNL Jira] 의 작업 및 문제 기반 [!DNL Workfront]</li> 
      <li>다음 기간 동안 연결된 작업의 업데이트 및 상태 동기화 [!DNL Workfront] 및 [!DNL Jira] </li> 
-     <li>둘 다에서 작동 [!DNL Jira] 서버 및 Jira Cloud </li> 
     </ul> </td> 
   </tr> 
   <tr> 
