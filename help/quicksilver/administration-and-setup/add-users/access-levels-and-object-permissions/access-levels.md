@@ -9,9 +9,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 14cf53be-e8b5-4508-b0df-c024f1e4f3a7
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: ac5a75384e68c5479e18f167975e673aa1188c0b
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---
@@ -32,3 +32,4 @@ Adobe Workfront 관리자는 사용자에게 액세스 수준을 할당하여 �
 
 * 액세스 수준을 만드는 방법에 대한 자세한 내용은 [Adobe Workfront 액세스 구성](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md).
 * 사용자가 개체를 서로 공유하는 방법에 대한 자세한 내용은 해당 개체에 대한 보기 및 편집 권한을 부여합니다. [오브젝트에 권한 부여 및 요청](../../../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md).
+* 설명서 문서에 있는 액세스 요구 사항 테이블에 대한 자세한 내용은 [Workfront 설명서의 액세스 수준 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
