@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 02bff4280909c8a7a26a51356503268a87704c06
+source-git-commit: 029bb2267c9fc101ab4f2383b61368c3a5b379ca
 workflow-type: tm+mt
-source-wordcount: '13821'
+source-wordcount: '13825'
 ht-degree: 1%
 
 ---
@@ -470,7 +470,7 @@ ht-degree: 1%
          * [감사 로그](administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
          * [감사 로그 보기 및 내보내기](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
          * [사용자 로그인 정보 보기](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
-         * [Adobe Admin Console](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
+         * [Adobe Admin Console에서 사용자 관리](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
       * 새로운 액세스 수준 작동 방식 {#access-levels}
          * [새로운 액세스 수준 작동 방식](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
          * [새로운 액세스 수준 개요](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
