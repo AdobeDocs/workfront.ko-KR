@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: ac5a75384e68c5479e18f167975e673aa1188c0b
+source-git-commit: 02bff4280909c8a7a26a51356503268a87704c06
 workflow-type: tm+mt
-source-wordcount: '13818'
+source-wordcount: '13821'
 ht-degree: 1%
 
 ---
@@ -397,7 +397,7 @@ ht-degree: 1%
    * 관리 시작 {#get-started-administration}
       * [관리 시작: 문서 색인](administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
       * [Adobe Workfront 구현을 위한 목표 정의 개요](administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
-      * [라이선스 관리](administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
+      * [시스템에서 사용 가능한 라이선스 관리](administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
       * [기본 사항 구성](administration-and-setup/get-started-wf-administration/configure-basic-info.md)
       * [방화벽 개요](administration-and-setup/get-started-wf-administration/firewall-overview.md)
       * [허용 목록에 추가하다 방화벽 구성](administration-and-setup/get-started-wf-administration/configure-your-firewall.md)

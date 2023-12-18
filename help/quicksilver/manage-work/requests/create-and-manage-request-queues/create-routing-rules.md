@@ -8,14 +8,16 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 640f9054-f2f8-4594-9311-e93518f58453
-source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
+source-git-commit: e971f08a1ee9bbf27a78916dbec57ca729407c03
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 2%
+source-wordcount: '561'
+ht-degree: 1%
 
 ---
 
 # 라우팅 규칙 만들기
+
+<!-- Audited: 12/2023 -->
 
 라우팅 규칙은 Adobe Workfront이 요청 대기열에 제출될 때 발생하는 문제를 제어합니다. 요청 대기열 만들기에 대한 자세한 내용은 [요청 대기열 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
@@ -53,7 +55,7 @@ ht-degree: 2%
 </table>
 -->
 
-다음 항목이 있어야 합니다.
+이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -61,11 +63,14 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든 </p> </td> 
+   <td> <p>임의 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>플랜 </p> </td> 
+   <td>
+    <p>새로운 기능: 표준</p>
+    <p>또는</p>
+    <p>현재: 플랜</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
@@ -75,19 +80,19 @@ ht-degree: 2%
 </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p> 프로젝트에 대한 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p> 프로젝트에 대한 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오
+*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
 
 ## 라우팅 규칙 만들기
 
 1. 요청에 대한 라우팅 규칙을 추가할 프로젝트로 이동합니다.
 1. 클릭 **라우팅 규칙** 왼쪽 패널에서 다음을 클릭해야 할 수 있습니다. **더 보기**, 그런 다음 **라우팅 규칙**.
 1. 클릭 **새 라우팅 규칙** 새 규칙을 추가합니다.
-1. 라우팅 규칙에 대해 다음 정보를 지정합니다.
+1. 공정순서 규칙에 대해 다음 정보를 입력합니다.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -97,14 +102,14 @@ ht-degree: 2%
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>이름</strong> </td> 
-      <td> <p>라우팅 규칙의 이름입니다. 프로젝트에 대한 이 정보를 볼 수 있는 액세스 권한이 있는 경우 라우팅 규칙을 볼 수 있습니다.</p> </td> 
+      <td>라우팅 규칙의 이름입니다. 프로젝트에 대한 이 정보를 볼 수 있는 액세스 권한이 있는 경우 라우팅 규칙을 볼 수 있습니다.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>설명</strong> </td> 
       <td>라우팅 규칙에 대한 설명을 추가합니다.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>기본 피할당자*</strong> </td> 
+      <td role="rowheader"><strong>기본 담당자*</strong> </td> 
       <td>새 문제를 할당해야 하는 활성 사용자 또는 활성 작업 역할을 추가합니다. 이 필드에는 기본 피할당자를 한 명만 가질 수 있습니다. </td> 
      </tr> 
      <tr> 
@@ -113,7 +118,7 @@ ht-degree: 2%
 
    <p><b>메모</b></p>
 
-   문제가 제출되면 해당 할당을 편집하고 다른 사용자, 역할 또는 팀을 할당할 수 있습니다. 자세한 내용은  <a href="../../../manage-work/issues/manage-issues/assign-issues.md">문제 할당 </a>.
+   문제가 제출되면 해당 할당을 편집하고 다른 사용자, 역할 또는 팀을 할당할 수 있습니다. 자세한 내용은  <a href="../../../manage-work/issues/manage-issues/assign-issues.md">문제 할당</a>.
 
    </td> 
      </tr> 
@@ -130,7 +135,7 @@ ht-degree: 2%
 
    문제를 프로젝트로 라우팅하면 문제에 대한 권한이 있는 사용자가 해당 프로젝트에 대해 설정된 권한을 받습니다. 프로젝트에 대한 권한 설정에 대한 자세한 내용은 [Adobe Workfront에서 프로젝트 공유](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
-   ![](assets/new-routing-rule-box-nwe-350x419.png)
+   ![새 라우팅 규칙 상자](assets/new-routing-rule-box.png)
 
 1. **저장**&#x200B;을 클릭합니다.
 

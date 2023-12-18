@@ -4,18 +4,20 @@ product-area: system-administration;user-management
 navigation-topic: start-with-workfront-administration
 title: 시스템에서 사용 가능한 라이선스 관리
 description: Adobe Workfront 관리자는 조직에 대해 구매한 라이선스 수와 현재 사용 중인 라이선스 수를 포함하여 Workfront 계정에 대한 정보에 액세스할 수 있습니다.
-author: Caroline
+author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: e971f08a1ee9bbf27a78916dbec57ca729407c03
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1058'
 ht-degree: 0%
 
 ---
 
 # 시스템에서 사용 가능한 라이선스 관리
+
+<!-- Audited: 12/2023 -->
 
 Adobe Workfront 관리자는 조직에 대해 구매한 라이선스 수와 현재 사용 중인 라이선스 수를 포함하여 Workfront 계정에 대한 정보에 액세스할 수 있습니다.
 
@@ -33,7 +35,10 @@ Adobe Workfront 관리자는 조직에 대해 구매한 라이선스 수와 현�
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td>플랜</td> 
+   <td>
+    <p>새로운 기능: 표준</p>
+    <p>또는</p>
+    <p>현재: 플랜</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
@@ -48,7 +53,7 @@ Workfront에 추가하는 사용자에게 액세스 수준을 할당하면 사�
 
 시스템에서 라이센스 정보를 보려면 다음을 수행합니다.
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 상단에서 을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. 왼쪽 패널 하단에서 **시스템** > **라이선스**.
 
@@ -62,16 +67,16 @@ Workfront에 추가하는 사용자에게 액세스 수준을 할당하면 사�
 
 ## Workfront 추가 기능에 대한 라이선스 정보 보기
 
-아래 스크린샷에서 **증명 라이선스 10개 중 5개** 은 이 조직이 유료 Workfront Proof 추가 기능을 가지고 있으며 현재 구입한 10개의 Workfront Proof 라이선스 중 5개를 사용하고 있음을 나타냅니다.
+조직에 유료 Workfront Proof 추가 기능이 있는 경우 사용된 라이선스 수와 사용 가능한 라이선스 수가 표시됩니다. 예를 들어, **증명 라이선스 10개 중 5개** 조직에서 구입한 10개의 Workfront Proof 라이선스 중 5개를 현재 사용하고 있음을 나타냅니다.
 
-![](assets/updated-licenses-page.png)
+![Workfront 추가 기능 라이선스](assets/updated-licenses-page.png)
 
 조직에서 Workfront 목표를 구매한 경우 이 제품에 대한 라이선스 정보도 여기에 표시됩니다. 이 경우 다음 정보를 볼 수 있습니다.
 
 * 귀사에서 구매한 총 Workfront Goals 라이선스 수입니다
 * 사용자와 연결된 Workfront Goals 라이선스 수입니다. 액세스 수준에서 목표에 대한 보기 액세스 권한 이상을 부여한 사용자 수입니다.
 
-Workfront 목표에 대한 자세한 내용은 다음을 참조하십시오. [Adobe Workfront 목표 개요](../../workfront-goals/goal-management/wf-goals-overview.md). Workfront 목표에 액세스하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [Adobe Workfront 목표에 대한 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
+Workfront 목표에 대한 자세한 내용은 다음을 참조하십시오. [Adobe Workfront 목표 개요](../../workfront-goals/goal-management/wf-goals-overview.md). Workfront 목표에 액세스하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [Adobe Workfront 목표에 대한 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
 >[!NOTE]
 >
@@ -84,12 +89,12 @@ If an organization has other paid add-on products, their license information als
 
 >[!TIP]
 >
->관리 액세스 권한이 없는 사용자는 그룹 보고서를 사용하여 라이선스 수를 볼 수 있습니다. 보고서 탭에서 새 그룹 보고서를 만들고 다음 열을 추가합니다.>
+>관리 액세스 권한이 없는 사용자는 그룹 보고서를 사용하여 라이선스 수를 볼 수 있습니다. 보고서 탭에서 새 그룹 보고서를 만들고 다음 열을 추가합니다.
+>
 >* 라이선스 유형 제한: 작업자 제한
 >* 라이선스 유형 제한: 플래너 제한
 >
 >보고서 만들기에 대한 자세한 내용은 [사용자 지정 보고서 만들기](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
->
 
 ## 월별 증명 및 문서 결정 할당에 대한 정보 보기
 
@@ -103,11 +108,11 @@ If an organization has other paid add-on products, their license information als
 
 증명 및 문서 결정 제한에 대한 자세한 내용은 [비유료 사용자에 대한 제한된 문서 및 증명 결정 개요](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
 
-![](assets/monthly-decision-allotment.png)
+![월별 결정 할당](assets/monthly-decision-allotment.png)
 
 ## 라이선스 페이지에 홈 그룹 추가 또는 제거 {#add-or-remove-a-home-group-to-the-licenses-page}
 
-이 기능을 사용하려면 비즈니스 또는 엔터프라이즈 Workfront 플랜이 필요합니다. 사용 가능한 다양한 플랜에 대한 자세한 내용은 [Workfront 플랜.](https://www.workfront.com/plans)
+<!--A Business or Enterprise Workfront Plan is required to use this feature. For more information about the various plans available, see [Workfront Plans.](https://www.workfront.com/plans)-->
 
 각 사용자는 하나의 홈 그룹에만 할당할 수 있습니다. Workfront은 각 홈 그룹에 할당되어 현재 사용되는 라이선스 수를 계산하여 그룹 중심의 라이선스 수를 제공합니다.
 
@@ -121,7 +126,7 @@ If an organization has other paid add-on products, their license information als
 
 라이선스 페이지에 홈 그룹을 추가하거나 제거하려면 다음 작업을 수행하십시오.
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 상단에서 을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. 왼쪽 패널 하단에서 **시스템** > **라이선스**.
 
@@ -143,11 +148,11 @@ Workfront 관리자는 시스템의 최상위 홈 그룹에 대해 최대 라이
 
 기본적으로 최대 라이선스 수는 N/A로 설정되어 있으며, 이는 제한이 없음을 의미합니다.
 
-그룹 관리자는 자신이 관리하는 홈 그룹에서 할당되고 사용되는 라이선스 수를 볼 수 있습니다. 자세한 내용은 [새 Adobe Workfront 경험에서 그룹에 할당되고 사용되는 라이선스 수 보기](../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md).
+그룹 관리자는 자신이 관리하는 홈 그룹에서 할당되고 사용되는 라이선스 수를 볼 수 있습니다. 자세한 내용은 [그룹에 할당되어 사용되는 라이선스 수 보기](../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md).
 
 홈 그룹에 대한 최대 라이선스 수를 설정하려면 다음을 수행합니다.
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 상단에서 을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. 왼쪽 패널 하단에서 **시스템** > **라이선스**.
 
