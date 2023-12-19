@@ -6,14 +6,18 @@ description: 다음 위치에서 알림을 받을 수 있습니다. [!DNL Adobe 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1351'
 ht-degree: 0%
 
 ---
 
 # 관리 [!DNL Adobe Workfront] 의 알림 [!DNL Microsoft Teams]
+
+>[!NOTE]
+>
+>Adobe Workfront for Microsoft Teams 통합은 현재 클래식 Microsoft Teams 경험에 대해서만 지원됩니다.
 
 다음 위치에서 알림을 받을 수 있습니다. [!DNL Adobe Workfront] 승인해야 하는 항목, 주어진 할당 또는 연결된 항목에 대한 댓글 및 변경 사항 정보.
 
@@ -34,7 +38,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 플랜*</td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
@@ -74,7 +78,7 @@ ht-degree: 0%
 1. 다음을 클릭합니다. **[!UICONTROL 추가 추가됨]** 의 왼쪽 탐색 막대에 있는 (점 3개) 앱 아이콘 [!DNL Microsoft Teams].
 
 1. 클릭 [!DNL Workfront] 표시되는 목록에서 을 클릭합니다.
-1. 다음 항목 선택 **[!UICONTROL 설정]** 탭.
+1. **[!UICONTROL 설정]** 탭을 선택합니다.
 
    ![](assets/ms-teams-settings-tab-350x552.png)
 
@@ -140,47 +144,47 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">프로젝트를 승인해야 합니다.</td> 
    <td>✓ 덧신</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td role="rowheader">작업을 승인해야 합니다</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td role="rowheader">문제를 승인해야 합니다.</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td role="rowheader">문서를 승인해야 합니다.</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td role="rowheader">오브젝트에 대한 액세스를 승인해야 합니다.</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td role="rowheader">타임시트를 승인해야 합니다</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -190,8 +194,8 @@ ht-degree: 0%
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td role="rowheader">내 타임시트가 거부되었습니다.</td> 
@@ -215,7 +219,7 @@ ht-degree: 0%
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td role="rowheader">요청한 문서 승인 요청이 변경 사항과 함께 승인되었습니다.</td> 
@@ -223,7 +227,7 @@ ht-degree: 0%
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td role="rowheader">요청한 문서 승인 요청이 거부되었습니다.</td> 
@@ -231,7 +235,7 @@ ht-degree: 0%
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td role="rowheader">타임시트가 승인되었습니다.</td> 
@@ -272,27 +276,27 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">작업에 할당되었습니다.</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td role="rowheader">문제에 할당되었습니다.</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td role="rowheader">할당된 팀에게 작업에 대한 작업 요청이 수신됨</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td role="rowheader">사용자에게 할당된 팀이 문제에 대한 작업 요청을 받습니다</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
  </tbody> 
 </table>
@@ -321,42 +325,42 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">귀하의 요청에 댓글이 게시되었습니다.</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td role="rowheader">귀하의 작업 요청에 답글이 게시되었습니다.</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td role="rowheader">누군가가 내가 속한 스레드에 댓글을 남겼습니다.</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td role="rowheader">누군가 내 작업 항목 중 하나에 주석을 남김</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td role="rowheader">누군가가 내가 승인한 타임시트에 댓글을 남겼습니다.</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">주석이 사용자 프로필 페이지에 추가되거나 여러 사용자를 일괄 편집하여 추가됩니다</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">업데이트 중 하나에 댓글이 추가되었습니다.</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">타임시트에 댓글이 추가되었습니다.</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
   </tr> 
  </tbody> 
@@ -386,18 +390,18 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">구독 중인 작업, 문제 또는 프로젝트에 업데이트가 이루어짐</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td role="rowheader">누군가가 지시된 업데이트에 귀하를 포함시킵니다.</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td role="rowheader">누군가가 [!UICONTROL 지정 업데이트에 귀하의 팀을 포함시킵니다.</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
  </tbody> 
 </table>
@@ -423,8 +427,8 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">할당된 작업의 기한 변경</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
  </tbody> 
 </table>
