@@ -8,7 +8,7 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 exl-id: 8c9f26fb-4d61-4743-959d-cfaba1b7b63b
-source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
+source-git-commit: 9e6033e495e83afa994b21996a4026ac484045a0
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Workfront + Frame.io 통합 알파 프로그램을 시작합니다! 이 알파�
 Frame.io와 Workfront(새 문서 승인 포함) 간의 능률적인 경험이 작업 시작에서 승인 및 게재에 이르기까지 콘텐츠 라이프사이클을 어떻게 주도하는지 확인하십시오.
 
 
-알파의 계획된 기능과 이를 테스트하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [Adobe Workfront 및 Frame.io 기본 통합 알파: 기능](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-features.md)
+알파의 계획된 기능과 이를 테스트하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [Adobe Workfront 및 Frame.io 기본 통합 알파: 기능](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-features.md).
 
 >[!NOTE]
 >

@@ -8,9 +8,9 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 exl-id: a1603a06-957b-4d52-89f3-f0cec1a4e02c
-source-git-commit: 4ab78cff65141636e9e2c95526d68face1f278ba
+source-git-commit: 9e6033e495e83afa994b21996a4026ac484045a0
 workflow-type: tm+mt
-source-wordcount: '1248'
+source-wordcount: '1250'
 ht-degree: 0%
 
 ---
@@ -19,12 +19,16 @@ ht-degree: 0%
 
 이 통합을 통해 크리에이티브가 원하는 도구(CC 또는 Frame.io)에 머무르며 컨텐츠 생성 및 피어 검토를 수행하는 동시에 프로젝트 관리자가 작업을 조정하고 Workfront 내부에서 공식 검토 프로세스를 초기화 및 모니터링할 수 있도록 하는 것이 목표입니다. 이는 Frame.io에서 제공하는 콘텐츠 검토 기능과 함께 콘텐츠 승인 관리를 위한 Workfront의 새 문서 승인이라는 두 가지 솔루션의 장점을 활용하여 달성할 수 있습니다. 전체적으로 새로운 문서 승인 및 Frame.io는 새로운 컨텐츠 검토 및 승인 환경을 형성합니다. 
 
-알파의 작동 방식과 참여 방법에 대한 자세한 내용은 다음을 참조하십시오. [Adobe Workfront 및 Frame.io 통합 알파: 개요](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
+알파의 작동 방식과 참여 방법에 대한 자세한 내용은 다음을 참조하십시오. [Adobe Workfront 및 Frame.io 통합 알파: 개요](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md).
 
 >[!NOTE]
 >
 >이 알파 프로그램에 귀사가 참여하지 않은 상태에서 이 페이지를 접한 경우, 여기에서 정보를 주의 깊게 처리하고 자세한 내용은 Workfront 또는 Frame.io 관리자에게 문의하십시오.
 >
+
+## 데모 비디오
+
+>[!VIDEO](https://video.tv.adobe.com/v/3426406/)
 
 ## 기본 테스트 시나리오
 
