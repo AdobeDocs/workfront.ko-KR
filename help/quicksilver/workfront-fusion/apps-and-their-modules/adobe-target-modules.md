@@ -9,9 +9,9 @@ description: 다음에서 [!DNL Adobe Workfront Fusion] 시나리오에서는 �
 author: Becky
 feature: Workfront Fusion
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
-source-git-commit: 51db439995430dad86e41190520824743216df69
+source-git-commit: c0be0a1f21d5db3a480485a39e019a129d248574
 workflow-type: tm+mt
-source-wordcount: '2646'
+source-wordcount: '2665'
 ht-degree: 0%
 
 ---
@@ -612,7 +612,7 @@ ht-degree: 0%
         <p>토글을 활성화하여 규칙을 AND로 만듭니다. 즉, 모든 규칙이 적용되어야 합니다.</p>
         <p>대상에 적용할 각 규칙에 대해 <b>[!UICONTROL 항목 추가]</b> 적용할 규칙의 JSON을 입력합니다. </p>
         <div class="example"><span class="autonumber"><span><b>예: </b></span></span>
-          <p>예시:</p>
+          <p>예:</p>
           <p ><code>&lbrace;</code></p>
                     <p ><code>                "page": "url",</code>
                     </p>
@@ -649,7 +649,7 @@ ht-degree: 0%
 
 #### [!UICONTROL 사용자 지정 API 호출 만들기]
 
-이 모듈에서는에 대한 사용자 지정 API 호출을 만듭니다. [!DNL Adobe Target] API
+이 모듈에서는에 대한 사용자 지정 API 호출을 만듭니다. [!DNL Adobe Target] API.
 
 <table style="table-layout:auto"> 
   <col/>
