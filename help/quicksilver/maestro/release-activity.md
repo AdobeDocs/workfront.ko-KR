@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
 workflow-type: tm+mt
-source-wordcount: '2698'
+source-wordcount: '2796'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,31 @@ Only Workfront administrators can create, edit, or delete workspaces and all inf
 
 For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
 
-## 2023년 12월 18일이 있는 주
+## 2024년 12월 18일이 있는 주
+
+### 세부 정보 페이지에서 레코드에 대한 주석 추가
+
+모든 고객을 위한 미리보기 및 프로덕션: 2023년 12월 18일
+
+>[!NOTE]
+>
+>프로덕션 환경에서는 2024년 1월 릴리스에서 다음 기능을 사용할 수 있습니다.
+>
+>* 댓글 검색
+>
+>* 이미지 복사 및 붙여넣기
+>
+>* 이미지 드래그 앤 드롭
+>
+>자세한 내용은 [2024년 1분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
+이제 세부 정보 페이지에서 레코드를 보는 동안 주석을 추가하거나 다른 레코드에 회신하여 개별 레코드에 대해 다른 사용자와 공동 작업을 할 수 있습니다.
+
+Maestro 레코드에 대한 댓글 달기 환경은 Workfront 객체에 대한 새로운 댓글 달기 환경과 일치합니다.
+
+자세한 내용은 [레코드 주석 관리](/help/quicksilver/maestro/records/manage-record-comments.md).
+
+## 2023년 12월 11일 주
 
 ### 레코드 유형의 표 보기에서 기본 필드 업데이트
 
@@ -102,7 +126,7 @@ For more information, see [Grant access to Adobe Maestro](../maestro/access/gran
 
 미리보기 릴리스: 2023년 12월 14일
 
-프로덕션 릴리스: 2023년 12월 15일
+프로덕션 릴리스: 2023년 12월 15일로 예정됨
 
 >[!IMPORTANT]
 >

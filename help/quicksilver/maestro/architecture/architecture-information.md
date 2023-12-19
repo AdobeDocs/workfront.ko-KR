@@ -1,13 +1,13 @@
 ---
-title: 아키텍처 정보
+title: "아키텍처: 문서 인덱스"
 description: 다음 문서에서는 Adobe Maestro의 아키텍처를 구성하는 방법을 설명합니다. 이 구성의 일부로, Adobe Maestro에서 관리할 워크플로우를 매핑하기 위해 작업 공간, 레코드 유형 및 사용자 지정 필드를 만드는 방법을 알아봅니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: 6d1d3d82e15f4232ff81294d9094c2683b01ca89
+source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '248'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ hide: yes
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# 아키텍처 정보
+# 아키텍처: 문서 인덱스
 
 >[!IMPORTANT]
 >

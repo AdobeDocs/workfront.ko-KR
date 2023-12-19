@@ -1,13 +1,13 @@
 ---
-title: 보기 정보
+title: "보기: 문서 색인"
 description: 테이블 또는 타임라인 보기에서 Adobe Maestro 레코드를 표시할 수 있습니다. 다음 문서에서는 Adobe Maestro 레코드 보기를 만들고 관리하는 방법을 설명합니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0f93014b-d0f7-4ea3-9b11-3314b46f1ef3
-source-git-commit: 4d3b571e64fef98abd69bc67f94953a5eb73ea20
+source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ hide: yes
 
 <!--udpate the metadata with real information when making this available in TOC and in the left nav-->
 
-# 보기 정보
+# 보기: 문서 색인
 
 >[!IMPORTANT]
 >

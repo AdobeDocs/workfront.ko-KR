@@ -1,17 +1,18 @@
 ---
-title: Adobe 마에스트로 필드
+title: "필드: 문서 색인"
 description: 조직의 라이프사이클을 반영하는 새 필드를 Adobe Maestro에 추가할 수 있습니다. 필드는 레코드 유형의 속성입니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
+exl-id: d06028d9-9230-4a6c-a227-20618067192c
+source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
 
-# 필드 정보
+# 필드: 문서 색인
 
 <!--
 title: Adobe Maestro fields
@@ -44,5 +45,3 @@ hide: yes
 * [필드 편집](../fields/edit-fields.md)
 * [필드 삭제](../fields/delete-fields.md)
   <!--* [Formula fields](../fields/formula-fields.md)-->
-
-

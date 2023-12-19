@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: c0be0a1f21d5db3a480485a39e019a129d248574
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '13828'
+source-wordcount: '13836'
 ht-degree: 1%
 
 ---
@@ -596,7 +596,7 @@ ht-degree: 1%
          * [사용자 정의 상태 및 우선 순위 레이블 만들기](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-custom-status-and-priority-labels.md)
          * [상태 개요](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md)
          * [모든 프로젝트 상태 나열](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)
-         * [프로젝트 상태](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md)
+         * [시스템 프로젝트 상태 개요](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md)
          * [모든 작업 상태 나열](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)
          * [작업 상태](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-task-statuses.md)
          * [문제 상태 나열](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md)
@@ -2003,7 +2003,7 @@ ht-degree: 1%
    * [Adobe 마에스트로 개요](maestro/maestro-overview.md)
    * [Adobe Maestro 릴리스 활동](maestro/release-activity.md)
    * Adobe 마에스트로 건축 {#adobe-maestro-architecture}
-      * [아키텍처 정보](maestro/architecture/architecture-information.md)
+      * [아키텍처: 문서 인덱스](maestro/architecture/architecture-information.md)
       * [작업 공간 만들기](maestro/architecture/create-workspaces.md)
       * [레코드 유형 및 분류 개요](maestro/architecture/overview-of-record-types-and-taxonomies.md)
       * [운영 레코드 유형 만들기](maestro/architecture/create-record-types.md)
@@ -2015,7 +2015,7 @@ ht-degree: 1%
       * [레코드 종류 및 레코드 연결의 예](maestro/architecture/example-connect-record-types-and-records.md)
       * [작업 공간 템플릿 목록](maestro/architecture/workspace-templates.md)
    * Adobe 마에스트로 필드 {#adobe-maestro-fields}
-      * [필드 정보](maestro/fields/fields-information.md)
+      * [필드: 문서 색인](maestro/fields/fields-information.md)
       * [필드 개요](maestro/fields/fields-overview.md)
       * [필드 만들기](maestro/fields/create-fields.md)
       * [필드 편집](maestro/fields/edit-fields.md)
@@ -2025,14 +2025,15 @@ ht-degree: 1%
       * [액세스 개요](maestro/access/access-overview.md)
       * [Adobe 마에스트로에 대한 액세스 권한 부여](maestro/access/grant-access.md)
    * Adobe 마에스트로 레코드 {#adobe-maestro-records}
-      * [레코드 정보](maestro/records/records-information.md)
+      * [레코드: 문서 인덱스](maestro/records/records-information.md)
       * [레코드 만들기](maestro/records/create-records.md)
       * [레코드 연결](maestro/records/connect-records.md)
       * [레코드 편집](maestro/records/edit-records.md)
       * [레코드 삭제](maestro/records/delete-records.md)
       * [레코드 공유](maestro/records/share-records.md)
+      * [레코드 주석 관리](maestro/records/manage-record-comments.md)
    * Adobe Maestro 조회수 {#adobe-maestro-views}
-      * [보기 정보](maestro/views/views-information.md)
+      * [보기: 문서 색인](maestro/views/views-information.md)
       * [레코드 보기 관리](maestro/views/manage-record-views.md)
       * [표 보기 관리](maestro/views/manage-the-table-view.md)
       * [타임라인 보기 관리](maestro/views/manage-the-timeline-view.md)

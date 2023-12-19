@@ -2,21 +2,21 @@
 content-type: faq
 keywords: 제거,사용 중단,사용 중단,지원되지 않음,flash,리소스,예약
 navigation-topic: announcements
-title: 기능 예약은 더 이상 지원되지 않습니다
-description: Adobe Workfront 제품에서 다양한 기능이 단계적으로 제공되고 있습니다. 다음은 각 기능에 대한 간략한 설명, 추가 정보에 대한 링크 및 알아야 할 주요 날짜입니다.
+title: 기능 예약이 더 이상 지원되지 않음
+description: Adobe Workfront 제품에서 다양한 기능이 단계적으로 출시되고 있습니다. 다음은 각 기능, 추가 정보에 대한 링크 및 알아야 할 주요 날짜에 대한 간략한 설명입니다.
 author: Luke
 feature: Product Announcements
 exl-id: 119d65c7-2925-4b36-832a-ee06a718ce7e
-source-git-commit: 112a5f21c80aaf9b689ee1f518ee633fdba82f3d
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '258'
 ht-degree: 1%
 
 ---
 
-# 기능 예약은 더 이상 지원되지 않습니다
+# 기능 예약이 더 이상 지원되지 않음
 
-Adobe Workfront 제품에서 다양한 기능이 단계적으로 제공되고 있습니다. 다음은 각 기능에 대한 간략한 설명, 추가 정보에 대한 링크 및 알아야 할 주요 날짜입니다.
+Adobe Workfront 제품에서 다양한 기능이 단계적으로 출시되고 있습니다. 다음은 각 기능, 추가 정보에 대한 링크 및 알아야 할 주요 날짜에 대한 간략한 설명입니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -26,32 +26,32 @@ Adobe Workfront 제품에서 다양한 기능이 단계적으로 제공되고 �
   <tr> 
    <td><b>기능 또는 제품 영역</b></td> 
    <td><strong>새로운 기능이 포함된 마지막 릴리스</strong> </td> 
-   <td> <p rowspan="2"><strong>주요 날짜</strong> </p> <p rowspan="2"> </p> </td> 
+   <td> <p rowspan="2"><strong>주요 일자</strong> </p> <p rowspan="2"> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Adobe Workfront Classic <p style="font-weight: normal;">추가 정보 제공</p> </td> 
-   <td>21.2 릴리스 사용</td> 
-   <td> <p>Classic에서 21.2 릴리스를 통해 새로운 기능 개선 사항이 포함된 마지막 릴리스</p> <p>2022년 3월 31일에 더 이상 지원되지 않음</p> </td> 
+   <td>Adobe Workfront 클래식 <p style="font-weight: normal;">추가 정보 제공.</p> </td> 
+   <td>21.2 릴리스 포함</td> 
+   <td> <p>21.2 릴리스와 함께 Classic의 새로운 기능 향상이 포함된 마지막 릴리스</p> <p>2022년 3월 31일에 더 이상 지원되지 않음</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>Internet Explorer 지원</p> <p>Internet Explorer에 대한 지원을 제거하면서 Workfront은 이제 공식적으로 Microsoft Edge를 지원합니다. </p> <p>지원되는 브라우저에 대한 자세한 내용은 <a href="../../workfront-basics/workfront-browser-requirements.md" class="MCXref xref">Adobe Workfront 브라우저 요구 사항</a>.</p> </td> 
-   <td>21.1 릴리스 사용</td> 
-   <td>21.2 릴리스에서 더 이상 지원되지 않음</td> 
+   <td> <p>Internet Explorer 지원</p> <p>Internet Explorer에 대한 지원이 제거됨에 따라 이제 Workfront이 공식적으로 Microsoft Edge를 지원합니다. </p> <p>지원되는 브라우저에 대한 자세한 내용은 <a href="../../workfront-basics/workfront-browser-requirements.md" class="MCXref xref">Adobe Workfront 브라우저 요구 사항</a>.</p> </td> 
+   <td>21.1 릴리스</td> 
+   <td>더 이상 21.2 릴리스에서 지원되지 않습니다.</td> 
   </tr> 
   <tr> 
-   <td> <p>리소스 일정 조정</p> <p>Workload Balancer는 리소스 스케줄링 환경을 개선합니다.</p> <p>작업 로드 밸런서에 대한 자세한 내용은 <a href="../../resource-mgmt/workload-balancer/overview-workload-balancer.md">작업 로드 밸런서 개요</a>.</p> </td> 
+   <td> <p>리소스 일정 조정</p> <p>업무 균형자 는 리소스 예약에 대한 향상된 경험을 제공합니다.</p> <p>업무 균형자에 대한 자세한 내용은 <a href="../../resource-mgmt/workload-balancer/overview-workload-balancer.md">업무 균형자 개요</a>.</p> </td> 
    <td> </td> 
-   <td> <p>2020년 11월 9일에 더 이상 지원되지 않음(20.4 릴리스 포함)</p> <p>--</p> <p>2022년 상반기 이후에 Workfront 플랫폼에서 제거됨</p> </td> 
+   <td> <p>더 이상 2020년 11월 9일에 지원되지 않음(20.4 릴리스 포함)</p> <p>—</p> <p>2022년 상반기 이후 Workfront 플랫폼에서 제거되었습니다.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>기존 Workfront Fusion</p> <p>Workfront Fusion은 Legacy Workfront Fusion의 향상된 경험을 제공합니다.</p> <p>Workfront Fusion에 대한 자세한 내용은 <a href="../../workfront-fusion/workfront-fusion-2.md" class="MCXref xref">Adobe Workfront Fusion</a>.</p> </td> 
+   <td> <p>레거시 Workfront Fusion</p> <p>Workfront Fusion은 기존 Workfront Fusion에서 향상된 환경을 제공합니다.</p> <p>Workfront Fusion에 대한 자세한 내용은 <a href="../../workfront-fusion/workfront-fusion-2.md" class="MCXref xref">Adobe Workfront Fusion</a>.</p> </td> 
    <td> </td> 
-   <td>2021년 3월 31일에 Workfront 플랫폼에서 제거됨</td> 
+   <td>2021년 3월 31일에 Workfront 플랫폼에서 제거되었습니다.</td> 
   </tr> 
   <tr> 
-   <td> <p>Flash</p> <p>이제 Workfront에서 각 Flash 기반 도구의 대체 기능으로 다양한 도구를 사용할 수 있습니다. 자세한 내용은 <a href="../../product-announcements/announcements/announcement-archive/replace-flash-tools.md" class="MCXref xref">Adobe Workfront에서 Flash 기반 도구 교체</a>.</p> </td> 
+   <td> <p>Flash</p> <p>이제 Workfront에서 각 Flash 기반 도구의 대체 도구로 다양한 도구를 사용할 수 있습니다. 자세한 내용은 <a href="../../product-announcements/announcements/announcement-archive/replace-flash-tools.md" class="MCXref xref">Adobe Workfront에서 Flash 기반 도구 교체</a>.</p> </td> 
    <td> </td> 
-   <td> <p> </p> <p>2020년 11월 19일에 Workfront 플랫폼에서 제거됨</p> </td> 
+   <td> <p> </p> <p>2020년 11월 19일에 Workfront 플랫폼에서 제거되었습니다.</p> </td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td> <p>Enhanced Authentication 1.0</p> <p>The method of migrating to the new Enhanced Authentication 2.0 depends on whether you are using Legacy Authentication or Enhanced Authentication 1.0. For more information, see <a href="../../administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md" class="MCXref xref">Enhanced Authentication overview</a>.</p> </td> 

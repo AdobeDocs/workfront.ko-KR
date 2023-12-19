@@ -6,10 +6,10 @@ description: 리소스 관리자는 Adobe Workfront 업무 균형자 를 사용�
 author: Alina
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '1035'
-ht-degree: 0%
+source-wordcount: '1033'
+ht-degree: 1%
 
 ---
 
@@ -52,7 +52,7 @@ Workfront은 다음 정보를 사용하여 업무 균형자에서 사용자의 �
 * 사용자의 작업 시간입니다. 이는 사용자가 간접비를 포함하지 않고 실제 프로젝트 관련 작업을 수행할 수 있는 FTE 시간의 백분율을 나타냅니다. 작업 시간 값을 1로 설정하면 사용자가 프로젝트 관련 작업에 전체 시간에 해당하는 전체 시간을 사용할 수 있음을 나타냅니다.
 
 
-## 업무 균형자에서 작업 할당
+## 워크로드 밸런서에서 작업 할당
 
 사용자에게 아직 할당되지 않은 작업 항목을 할당하거나 업무 균형자에서 사용자에게 할당된 항목을 재할당할 수 있습니다.
 

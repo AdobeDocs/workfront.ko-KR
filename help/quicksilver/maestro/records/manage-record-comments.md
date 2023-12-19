@@ -1,40 +1,42 @@
 ---
 title: 레코드 주석 관리
-description: 레코드의 댓글 영역에서 업데이트를 추가하고 질문하거나 답변을 요청하여 Adobe Maestro 레코드에 대해 공동 작업을 수행할 수 있습니다.
+description: 레코드의 댓글 영역에 댓글 또는 답글을 추가하여 Adobe Maestro 레코드에 대해 공동 작업을 수행할 수 있습니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 3ffb6fdebb54682abc737e55186850458a133f7c
+source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
 
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
-
 # 레코드 주석 관리
 
-레코드의 댓글 영역에서 업데이트를 추가하고 질문하거나 답변을 요청하여 Adobe Maestro 레코드에서 협업할 수 있습니다.
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
+
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. </span>
+
+<span class="preview">현재 릴리스 일정에 대한 자세한 내용은 [2024년 1분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+
+레코드의 댓글 영역에 댓글 또는 답글을 추가하여 Adobe Maestro 레코드에 대해 공동 작업을 수행할 수 있습니다.
 
 ## 레코드에 댓글을 달 때 고려 사항
 
 * 레코드의 설명 섹션에서 Maestro의 작업 레코드 및 분류법에 대한 설명과 응답을 추가할 수 있습니다.
 
-* 연결된 레코드에 추가된 댓글은 연결하려는 레코드에 표시되지 않습니다. 예를 들어 Campaign 레코드에 연결된 프로젝트에 댓글을 다는 경우 댓글은 연결하려는 캠페인 레코드가 아닌 Maestro의 프로젝트 레코드에만 표시됩니다.
+* 연결된 레코드에 추가된 댓글은 연결하려는 레코드에 표시되지 않습니다. 예를 들어 Campaign 레코드에 연결된 Maestro 제품 레코드에 댓글을 달면 해당 댓글은 연결하는 Campaign 레코드가 아닌 Maestro의 제품 레코드에만 표시됩니다.
 
-* 다른 응용 프로그램의 연결된 개체에 추가된 댓글은 Maestro에서 표시되지 않습니다.
-Maestro에서 연결된 오브젝트에 추가된 댓글은 다른 애플리케이션에 표시되지 않습니다.\
-  예를 들어 Workfront의 프로젝트에 추가된 댓글은 Maestro의 캠페인에 연결된 동일한 프로젝트에 표시되지 않습니다.
+* Maestro 레코드와 다른 응용 프로그램의 개체 간의 연결 결과로 생성된 Maestro 레코드에 주석을 추가할 수 있습니다.
 
-* 사용자에 태그를 지정하여 업데이트에 주의를 기울일 수 있습니다. 태그가 지정된 사용자가 인앱 알림이나 업데이트에 대한 이메일을 받지 않습니다. Maestro 주석에서는 팀을 태그 지정할 수 없습니다.
+  예를 들어 Workfront 프로젝트를 Maestro 레코드와 연결한 후 프로젝트 Maestro 레코드에 댓글을 달 수 있습니다. 자세한 내용은 [레코드 연결](/help/quicksilver/maestro/records/connect-records.md).
 
-  >[!TIP]
-  >
-  >* 업데이트 시 주석 소유자는 자동으로 태그되지 않습니다.
-  >
-  >* 회신할 때 업데이트에서 태그 지정된 사용자를 제거할 수 없습니다.
+* 다른 응용 프로그램의 연결된 개체에 추가된 댓글은 Maestro에 표시되지 않고, Maestro의 연결된 개체에 추가된 댓글은 다른 응용 프로그램에 표시되지 않습니다.
+
+  예를 들어 Workfront의 프로젝트에 추가된 댓글은 Maestro의 캠페인에 연결된 동일한 프로젝트에 표시되지 않으며, 프로젝트 Maestro 레코드에 추가된 댓글은 Workfront에 표시되지 않습니다.
+
+* 사용자에 태그를 지정하여 업데이트에 주의를 기울일 수 있습니다. 태그가 지정된 사용자가 인앱 알림이나 업데이트에 대한 이메일을 받지 않습니다. <!--this might change??-->
 
 * 다음 Maestro 영역의 레코드에 업데이트를 추가할 수 있습니다.
 
@@ -140,27 +142,15 @@ After permissions - replace the table with: **************CHECK ON THE VIEW PERM
 
 -->
 
-
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
->[!NOTE]
->
->If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
-
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
-<!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
-
 ### 레코드에 대한 댓글 관리
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](assets/dots-main-menu.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](assets/lines-main-menu.png) 왼쪽 상단 모서리에서 을(를) 클릭하고 **[!UICONTROL 마에스트로]**.
+{{step1-to-maestro}}
 
-   마지막으로 액세스한 작업 공간은 기본적으로 열립니다.
+마지막으로 액세스한 작업 공간은 기본적으로 열립니다.
 1. 다음에서 표 보기 선택 **보기** 드롭다운 메뉴.
 1. 테이블 보기에서 레코드 이름을 클릭합니다.
 
-   레코드는 **세부 사항** 페이지가 열립니다.
+   레코드는 **세부 사항** 페이지가 열립니다. 주석(Comments) 영역은 기본적으로 오른쪽 패널에 열립니다.
 
 1. 에 주석 입력 시작 **새 댓글** 상자.
 
@@ -197,9 +187,9 @@ After permissions - replace the table with: **************CHECK ON THE VIEW PERM
    >
    >현재 연도의 주석은 날짜 스탬프에 연도를 표시하지 않습니다. 타임스탬프를 마우스로 가리키면 연도를 포함한 전체 날짜가 표시됩니다.
 
-1. (선택 사항 및 조건부) 기존 댓글을 검색하려면 의 오른쪽 위 모서리에 있는 검색 상자에 키워드를 입력하십시오. **댓글** 영역입니다.
+1. <span class="preview">(선택 사항 및 조건부) 기존 댓글을 검색하려면 의 오른쪽 위 모서리에 있는 검색 상자에 키워드를 입력하십시오. **댓글** 영역입니다.</span>
 
-   ![](assets/search-box-for-comments-area.png)
+   <span class="preview">![](assets/search-box-for-comments-area.png)</span>
 
 1. (선택 사항) **답변** 또는에서 댓글을 입력해 보십시오. **회신 추가...** 영역을 클릭하여 기존 댓글에 응답한 다음 위의 4-8단계를 수행합니다. <!--(**************accurate??***********)-->
 

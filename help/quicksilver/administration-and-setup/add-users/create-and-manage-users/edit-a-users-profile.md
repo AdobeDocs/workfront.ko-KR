@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 81a5c0e3bc3b31223b0d584d4d20399cd0081d9d
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '3396'
+source-wordcount: '3369'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ Adobe Workfront 관리자는 사용자를 만들고 기존 사용자의 프로�
 
    <li><b>업데이트 상태에 완료율 표시</b>: 이 사용자 작업의 업데이트 영역 내에 완료율 표시줄을 표시하려면 이 옵션을 선택합니다.</li> 
        <li><b>자신에게 할당한 작업을 내 처리 중 탭으로 전송</b>: 사용자가 자신에게 할당하는 모든 항목이 [홈] 영역의 [작업 중] 목록에 바로 표시되도록 하려면 이 옵션을 선택합니다. 기본값은 홈 영역의 [시작할 준비] 또는 [준비되지 않음] 목록에서 사용자에게 할당된 모든 항목을 나열하는 것입니다.</li> 
-       <li><b>문서 업로드 시 자동으로 증명 생성</b>: 사용자가 업로드하는 문서에서 즉시 증명을 생성하려면 이 옵션을 선택합니다. Workfront 증명 라이선스에 따라 사용자가 증명을 생성할 때 모든 사용자에 대해 시스템에서 생성할 수 있는 총 증명 수가 영향을 받을 수 있습니다. </li>
+       <li><b>문서 업로드 시 자동으로 증명 생성</b>: 사용자가 업로드하는 문서에서 즉시 증명을 생성하려면 이 옵션을 선택합니다. </li>
        </ul> </td> 
      </tr> 
      <tr> 

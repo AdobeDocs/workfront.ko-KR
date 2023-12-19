@@ -7,9 +7,9 @@ description: 자원 관리를 사용하면 자원 가용성에 따라 자원의 
 author: Alina
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1169'
 ht-degree: 0%
 
 ---
@@ -125,7 +125,7 @@ Workfront에서 리소스를 관리하는 프로세스에는 다음 단계가 �
 <!--
 * **Resource scheduling**: After generally planning for resources to use on your projects at a high level, you can start assigning work items (tasks and issues) to users based on their job roles using the Workload Balancer.
 
-  For more information, see [Overview of the Workload Balancer](../workload-balancer/overview-workload-balancer.md). 
+  For more information, see [Workload Balancer overview](../workload-balancer/overview-workload-balancer.md). 
 -->
 
 * **Analysis**: 리소스 관리자, 프로젝트 소유자 또는 사람 관리자의 경우, 활용성 보고서를 검토하여 리소스의 예산 및 계획 할당이 실제 할당과 어떻게 비교되는지 파악합니다. 시간, 비용 또는 매출로 정보를 검토합니다. 활용률 보고서에 대한 자세한 내용은 다음을 참조하십시오. [자원 가동률 정보 보기](../../resource-mgmt/resource-utilization/view-utilization-information.md).

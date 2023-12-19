@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
+source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
@@ -62,8 +62,8 @@ Adobe Maestro에 대한 개요는 다음 문서에 액세스합니다.
 
 다음 섹션에는 현재 사용 가능한 Maestro 기능에 대해 자세히 설명하는 문서가 포함되어 있습니다.
 
-* [액세스 정보](../maestro/access/access-information.md): Adobe Maestro를 사용하는 데 필요한 액세스 및 권한 정보입니다.
-* [아키텍처 정보](../maestro/architecture/architecture-information.md): 작업 공간 및 레코드 유형을 만들고 관리하는 방법에 대한 단계별 지침을 통해 Adobe Maestro의 아키텍처에 대한 심층적인 정보입니다.
-* [필드 정보](../maestro/fields/fields-information.md): Maestro 레코드 유형의 사용자 정의 필드 만들기에 대한 심층적인 정보 및 단계별 지침입니다.
-* [레코드 정보](../maestro/records/records-information.md): 레코드를 만들고 관리하는 방법에 대한 심층적인 정보와 단계별 지침입니다.
-* [보기 정보](../maestro/views/views-information.md): 레코드 유형 페이지에서 레코드를 볼 때 Maestro 보기와 이를 관리하는 방법에 대한 심층적인 정보입니다.
+* [액세스: 문서 색인](../maestro/access/access-information.md): Adobe Maestro를 사용하는 데 필요한 액세스 및 권한 정보입니다.
+* [아키텍처: 문서 인덱스](../maestro/architecture/architecture-information.md): 작업 공간 및 레코드 유형을 만들고 관리하는 방법에 대한 단계별 지침을 통해 Adobe Maestro의 아키텍처에 대한 심층적인 정보입니다.
+* [필드: 문서 색인](../maestro/fields/fields-information.md): Maestro 레코드 유형의 사용자 정의 필드 만들기에 대한 심층적인 정보 및 단계별 지침입니다.
+* [레코드: 문서 인덱스](../maestro/records/records-information.md): 레코드를 만들고 관리하는 방법에 대한 심층적인 정보와 단계별 지침입니다.
+* [보기: 문서 색인](../maestro/views/views-information.md): 레코드 유형 페이지에서 레코드를 볼 때 Maestro 보기와 이를 관리하는 방법에 대한 심층적인 정보입니다.

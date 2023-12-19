@@ -7,9 +7,9 @@ description: 작업, 문제 또는 프로젝트와 관련된 계획된 시간은
 author: Alina
 feature: Work Management
 exl-id: 0b86c760-691a-436e-9beb-31e9ac36440a
-source-git-commit: c535f5dff5ccc1e77b097a871c4e0460958a482f
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '2789'
+source-wordcount: '2803'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->일별 계획된 시간 또는 일별 할당은 작업 기간 동안 일별 계획된 시간을 할당하는 것입니다. 작업에 할당이 한 개 있는 경우 이 숫자는 할당당 일별 계획된 시간을 나타냅니다. 작업에 여러 개의 할당이 있는 경우 할당당 일별 계획된 시간이 작업에 대한 일별 계획된 시간과 다릅니다. 할당당 일별 계획된 시간 (일 기준), 여러 할당이 있는 작업에 대해서는 Workfront에 시각적으로 표시되지 않습니다.
+>일별 계획된 시간 또는 일별 할당은 작업 기간 동안 일별 계획된 시간을 할당하는 것입니다. 작업에 할당이 한 개 있는 경우 이 숫자는 할당당 하루 계획된 시간을 나타냅니다. 작업에 여러 개의 할당이 있는 경우 할당당 일별 계획된 시간이 작업에 대한 일별 계획된 시간과 다릅니다. 할당당 일별 계획된 시간 (일 기준), 여러 할당이 있는 작업에 대해서는 Workfront에 시각적으로 표시되지 않습니다.
 
 ## 계획된 시간 값 찾기 및 이해
 
@@ -403,7 +403,7 @@ When viewing Planned Hours in the Resource Management tools by a specific time f
 <li>Scheduling or Workload Balancer section at the project level</li>
 <li>Schedule or Workload Balancer section at the team level</li>
 </ul>
-</div> <p>For information about scheduling resources, see <a href="../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md" class="MCXref xref">Get started with Resource Scheduling</a>.</p> <p>For information about the Workload Balancer, see <a href="../../../resource-mgmt/workload-balancer/overview-workload-balancer.md" class="MCXref xref">Overview of the Workload Balancer</a>. </p> </li>
+</div> <p>For information about scheduling resources, see <a href="../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md" class="MCXref xref">Get started with Resource Scheduling</a>.</p> <p>For information about the Workload Balancer, see <a href="../../../resource-mgmt/workload-balancer/overview-workload-balancer.md" class="MCXref xref">Workload Balancer overview</a>. </p> </li>
 <li> <p><b>Role Allocation panel</b> in the project  task list or  Workload Balancer: The Planned Hours for the tasks and the issues on the project that are assigned to a job role or a user associated with a job role are taken into account in this area. For more information, see <a href="../../../manage-work/projects/planning-a-project/view-planed-hours-in-role-allocation-panel.md" class="MCXref xref">View project Planned Hours in the Role Allocation panel</a>. </p> </li>
 </ul>
 </div>
