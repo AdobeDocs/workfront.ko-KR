@@ -3,25 +3,27 @@ title: 문서 통합 구성
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
-description: 문서 통합 구성
-author: Courtney, Caroline
+description: Adobe Workfront 관리자는 Workfront에서 문서를 관리하도록 문서 통합을 구성할 수 있습니다.
+author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: 456c7b21835c96912e8974063f7797283dcb4e6d
+source-git-commit: ae063189eebb17a3341aabb978ee0f0e03d1e299
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1116'
 ht-degree: 1%
 
 ---
 
 # 문서 통합 구성
 
+<!-- Audited: 12/2023 -->
+
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
 
-(으)로 [!DNL Adobe Workfront] 관리자:에서 문서를 관리하도록 문서 통합을 구성할 수 있습니다. [!UICONTROL Workfront]. 다음을 구성할 수도 있습니다. [!UICONTROL Workfront] 문서가 document services 응용 프로그램에만 저장되고 에는 저장되지 않도록 [!UICONTROL Workfront] 그 자체. 자세한 내용은 [에서 문서 업데이트 및 연결 [!UICONTROL Workfront] 외부 클라우드 공급자에게](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#sending-documents) 위치: [외부 애플리케이션에서 문서 연결](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+(으)로 [!DNL Adobe Workfront] 관리자:에서 문서를 관리하도록 문서 통합을 구성할 수 있습니다. [!UICONTROL Workfront]. 다음을 구성할 수도 있습니다. [!UICONTROL Workfront] 문서가 document services 응용 프로그램에만 저장되고 에는 저장되지 않도록 [!UICONTROL Workfront] 그 자체. 자세한 내용은 [에서 문서 업데이트 및 연결 [!UICONTROL Workfront] 외부 클라우드 공급자에게](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#update-and-link-a-document-from-workfront-to-an-external-cloud-provider) 위치: [외부 애플리케이션에서 문서 연결](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 >[!NOTE]
 >
@@ -37,11 +39,13 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
-   <td>모든</td> 
+   <td>임의</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
-   <td>[!UICONTROL 계획]</td> 
+   <td><p>새로운 기능: [!UICONTROL Standard]</p>
+       <p>또는</p>
+       <p>현재: [!UICONTROL Plan]</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
@@ -66,11 +70,11 @@ ht-degree: 1%
 
 * [!DNL Workfront Proof]
 
-   다음에서 증명 연결 [!DNL Workfront Proof] 을 사용하면 원래 내에서 만들어진 증명을 만들 수 있습니다. [!DNL Workfront Proof] 다음 범위 내에서 사용 가능 [!DNL Workfront]. A [!UICONTROL Pro] [!DNL Workfront] 이 기능을 사용하려면 계획 이상이 필요합니다. 사용 가능한 다양한 플랜에 대한 자세한 내용은 [Workfront 플랜.](https://www.workfront.com/plans)
+  다음에서 증명 연결 [!DNL Workfront Proof] 을 사용하면 원래 내에서 만들어진 증명을 만들 수 있습니다. [!DNL Workfront Proof] 다음 범위 내에서 사용 가능 [!DNL Workfront]. 현재 플랜의 경우 [!UICONTROL Pro] [!DNL Workfront] 이 기능을 사용하려면 계획 이상이 필요합니다. 새 플랜의 경우 이 기능은 모든 플랜에서 사용할 수 있습니다. 사용 가능한 다양한 플랜에 대한 자세한 내용은 [Workfront 플랜](https://www.workfront.com/plans).
 
 * [!DNL Microsoft SharePoint]
 
-   와 통합에 대한 자세한 내용 [!DNL SharePoint], 참조 [구성 [!DNL SharePoint] 통합](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md).
+  와 통합에 대한 자세한 내용 [!DNL SharePoint], 참조 [구성 [!DNL SharePoint] 통합](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md).
 
 * 타사 클라우드 문서 공급자:
 
@@ -82,21 +86,20 @@ ht-degree: 1%
    * [!DNL Microsoft SharePoint]
    * [!UICONTROL Google 드라이브]
 
-      <!--Quip-->
-   >[!TIP]
-   >
-   >에 바로 업로드된 문서를 증명하고 승인하는 것과 동일한 방식으로 외부 클라우드 공급자에서 연결된 문서를 증명하고 승인할 수 있습니다 [!DNL Workfront].
+     <!--Quip-->
+  >[!TIP]
+  >
+  >에 바로 업로드된 문서를 증명하고 승인하는 것과 동일한 방식으로 외부 클라우드 공급자에서 연결된 문서를 증명하고 승인할 수 있습니다 [!DNL Workfront].
 
 * 기타 문서 공급자(사용자 지정 문서 통합을 통해).
 
-   A [!UICONTROL Pro] [!DNL Workfront] 이 기능을 사용하려면 계획 이상이 필요합니다. 사용 가능한 다양한 플랜에 대한 자세한 내용은 [[!DNL Workfront] 계획.](https://www.workfront.com/plans)
+  현재 플랜의 경우 [!UICONTROL Pro] [!DNL Workfront] 이 기능을 사용하려면 계획 이상이 필요합니다. 새 플랜의 경우 이 기능은 모든 플랜에서 사용할 수 있습니다. 사용 가능한 다양한 플랜에 대한 자세한 내용은 [Workfront 플랜](https://www.workfront.com/plans).
 
 또한 다음을 향상시킬 수 있습니다 [!DNL Workfront] 기본 DAM(디지털 에셋 관리) 시스템 또는 타사 DAM 통합을 사용하여 경험을 문서화합니다. 사용자가 서비스에 연결하려면 관리자가 이러한 기능을 활성화해야 합니다. [!DNL Workfront] 계정입니다. Workfront DAM에 대한 자세한 내용은 [를 사용하여 문서 관리 [!DNL Adobe Workfront DAM]](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md).
 
 ## 문서 관리를 위한 통합 구성
 
-1. 에 로그인 [!DNL Workfront] 관리자 권한입니다.
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![](assets/main-menu-icon.png) 의 오른쪽 위 모서리 [!DNL Adobe Workfront]을 클릭한 다음 을 클릭합니다 **[!UICONTROL 설정]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **[!UICONTROL 문서]** > **[!UICONTROL 클라우드 공급자].**
 
@@ -119,13 +122,12 @@ ht-degree: 1%
 
 사용자 정의 문서 통합이 빌드되면 사이트의 사용자가 사용할 수 있도록 할 수 있습니다.
 
-1. 에 로그인 [!DNL Workfront] 관리자 권한입니다.
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![](assets/main-menu-icon.png) 의 오른쪽 위 모서리 [!DNL Adobe Workfront]을 클릭한 다음 을 클릭합니다 **[!UICONTROL 설정]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. 왼쪽 패널에서 **[!UICONTROL 문서]** > **[!UICONTROL 사용자 정의 통합].**
+1. 왼쪽 패널에서 **[!UICONTROL 문서]** > **[!UICONTROL 사용자 정의 통합]**.
 
 1. 클릭 **[!UICONTROL 사용자 정의 통합 추가]**.
-1. 다음 정보를 지정하여 통합을 구성합니다.
+1. 다음 정보를 입력하여 통합을 구성합니다.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -137,20 +139,20 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 기본 API URL] </td> 
-      <td>API 호출을 위한 기본 HTTP 또는 보안 HTTP URL입니다. 예를 들어, <a class="link-https" title="https://documentprovider.com/api/v2" href="https://documentprovider.com/api/v2">https://documentprovider.com/api/v2</a></td> 
+      <td>API 호출을 위한 기본 HTTP 또는 보안 HTTP URL입니다. For example, <code>https://documentprovider.com/api/v2</code></td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 인증 유형]</td> 
       <td> <p>사용자 지정 통합에 승인된 API를 호출할 때 사용할 인증 방법입니다.</p> 
        <ul> 
-        <li>다음을 선택하는 경우 <strong>[!UICONTROL OAuth]</strong>를 클릭하고 6단계를 계속합니다.</li> 
-        <li>다음을 선택하는 경우 <strong>[!UICONTROL ApiKey]</strong>7단계를 계속 진행합니다.</li> 
+        <li>다음을 선택하는 경우 <strong>[!UICONTROL OAuth]</strong>을 클릭하고 5단계를 계속 진행합니다.</li> 
+        <li>다음을 선택하는 경우 <strong>[!UICONTROL ApiKey]</strong>를 클릭하고 6단계를 계속합니다.</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (조건부) (선택한 경우) **[!UICONTROL OAuth]** 인증 **[!UICONTROL 인증 유형]**&#x200B;를 클릭하고 다음 정보를 지정합니다.
+1. (조건부) (선택한 경우) **[!UICONTROL OAuth]** 인증 **[!UICONTROL 인증 유형]**&#x200B;를 클릭하고 다음 정보를 입력합니다.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -174,7 +176,7 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 요청 매개 변수]</td> 
-      <td> <p>모든 API 호출의 쿼리 문자열에 추가할 선택적 값을 지정합니다. 예: access_type=offline.</p> <p>여러 요청 매개 변수를 추가하려면 <strong>+요청 매개 변수 추가</strong>.</p> </td> 
+      <td> <p>모든 API 호출의 쿼리 문자열에 추가할 선택적 값을 입력합니다. 예: access_type=offline.</p> <p>여러 요청 매개 변수를 추가하려면 <strong>+요청 매개 변수 추가</strong>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -183,7 +185,7 @@ ht-degree: 1%
    >
    >다음 [!DNL Workfront] 맨 아래에 표시되는 리디렉션 URI [!UICONTROL 사용자 정의 통합] 이 통합을 외부 문서 공급자에 등록하는 데 사용되는 URI가 페이지에 나열됩니다.
 
-1. (조건부) (선택한 경우) **[!UICONTROL ApiKey]** 인증 **[!UICONTROL 인증 유형]**&#x200B;사용자 정의 문서 공급자가 발급한 API 키를 지정합니다.
+1. (조건부) (선택한 경우) **[!UICONTROL ApiKey]** 인증 **[!UICONTROL 인증 유형]**&#x200B;사용자 정의 문서 공급자가 발급한 API 키를 입력합니다.
 
    [!DNL Workfront] 은 이 API 키를 사용하여 문서 공급자에 대해 승인된 API를 호출합니다.
 
@@ -213,16 +215,16 @@ ht-degree: 1%
 
 매핑은 모든 사용자가 업로드한 모든 문서에 영향을 줍니다 [!DNL Workfront] 끝 [!UICONTROL Workfront] DAM.
 
-로서의 [!DNL Workfront] 관리자, 다음을 활성화해야 합니다. [!DNL Workfront DAM] Workfront에서 메타데이터 매핑 프로세스에 대한 필드를 매핑할 수 있습니다. 를 활성화하는 방법에 대한 자세한 정보 [!DNL Workfront DAM], 참조 [메타데이터를 보낼 Workfront 구성 [!DNL Workfront DAM]](#configure-workfront-to-send-metadata-to-workfront-dam).
+로서의 [!DNL Workfront] 관리자, 다음을 활성화해야 합니다. [!DNL Workfront DAM] Workfront에서 메타데이터 매핑 프로세스에 대한 필드를 매핑할 수 있습니다.
 
 구성하려면 [!DNL Workfront] 메타데이터를 보낼 대상 [!DNL Workfront DAM]:
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![](assets/main-menu-icon.png) 의 오른쪽 위 모서리 [!DNL Adobe Workfront]을 클릭한 다음 을 클릭합니다 **[!UICONTROL 설정]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. 클릭 **[!UICONTROL 문서]** > **[!UICONTROL 메타데이터 매핑]**.
 
 1. 다음에서 **[!UICONTROL 매핑을 위한 소스 필드 선택]** 필드에서 매핑할 Workfront 필드의 이름을 입력하십시오. [!DNL Workfront DAM]를 클릭한 다음 목록에 표시되면 선택합니다.
-1. 다음에서 **[!UICONTROL 매핑을 위한 Target 필드 선택]**&#x200B;를 선택하고 [!DNL Workfront DAM] 선택한 항목의 정보로 채울 필드 [!DNL Workfront] 필드.
+1. 다음에서 **[!UICONTROL 매핑할 대상 필드 선택]**&#x200B;를 선택하고 [!DNL Workfront DAM] 선택한 항목의 정보로 채울 필드 [!DNL Workfront] 필드.
 
    >[!NOTE]
    >
@@ -234,7 +236,7 @@ ht-degree: 1%
 
 ### 매핑된 필드 삭제
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![](assets/main-menu-icon.png) 의 오른쪽 위 모서리 [!DNL Adobe Workfront]을 클릭한 다음 을 클릭합니다 **[!UICONTROL 설정]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. 확장 **[!UICONTROL 문서]**&#x200B;을 클릭한 다음 을 클릭합니다 **[!UICONTROL 메타데이터 매핑]**.
 
