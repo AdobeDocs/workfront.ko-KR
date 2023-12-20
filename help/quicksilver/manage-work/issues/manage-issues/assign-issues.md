@@ -7,16 +7,16 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1459'
 ht-degree: 0%
 
 ---
 
 # 문제 할당
 
-사용자, 역할 및 팀에 문제를 할당하여 문제 완료에 대한 책임 주체를 나타낼 수 있습니다. 문제 지정에 대한 일반적인 내용은 [문제 할당 개요 수정](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
+사용자, 역할 및 팀에 문제를 할당하여 문제 완료에 대한 책임 주체를 나타낼 수 있습니다. 문제 지정에 대한 일반적인 내용은 [문제 할당 수정 개요](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
 >[!TIP]
 >
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 이 문서 외에도 문제 할당에 대한 자세한 내용은 다음 문서를 읽는 것이 좋습니다.
 
-* [문제 할당 개요 수정](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
+* [문제 할당 수정 개요](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
 * [문제 편집](../../../manage-work/issues/manage-issues/edit-issues.md)
 * [목록의 여러 문제에 대한 사용자 할당 수정](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)
 * [고급 할당 만들기](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
@@ -53,7 +53,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든 </p> </td> 
+   <td> <p>임의 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
@@ -121,8 +121,8 @@ ht-degree: 0%
      ![](assets/nwe-assignments-expanded-in-task-header-350x259.png)
 
    * (조건부) **제안된 할당** 목록
-   * 클릭&#x200B;**나에게 할당** 자신에게 할당하기
-   * 클릭 **고급**
+   * 클릭 **나에게 할당** 자신에게 할당하기
+   * 클릭 **고급**.
 
      고급 할당 생성은 작업 및 문제와 유사합니다. 고급 할당 방법에 대한 자세한 내용은 다음을 참조하십시오. [고급 할당 만들기](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 

@@ -9,9 +9,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,14 @@ ht-degree: 0%
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
 
-Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 만들고 수정하여 사용자를 위해 Workfront에서 다음 레이아웃 요소를 사용자 정의할 수 있습니다.
+Adobe Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 만들고 수정하여 사용자를 위해 Workfront에서 다음 레이아웃 요소를 사용자 정의할 수 있습니다.
 
 * 메인 메뉴
 * 왼쪽 탐색 패널
 * 홈 영역
 * 목록 및 보고서에서 사람들이 사용하는 보기, 필터 및 그룹입니다.
 * 화면 용어
+* 프로젝트, 작업 및 문제 헤더
 
 레이아웃 템플릿을 만들거나 수정한 후에는 개별 사용자, 팀, 그룹 또는 작업 역할에 할당할 수 있습니다.
 
@@ -44,17 +45,21 @@ Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 만들�
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td>모든</td> 
+   <td>임의</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td>플랜</td> 
+   <td><p>새로운 기능: 표준</p>
+   또는
+   <p>현재: 플랜</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>시스템 수준에서 이러한 단계를 수행하려면 시스템 관리자 액세스 수준이 필요합니다.
-그룹에 대해 이러한 작업을 수행하려면 해당 그룹의 관리자여야 합니다.</p> <p><b>참고</b>: 아직 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가적인 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
-  </tr> 
+   <td> <p>시스템 수준에서 이러한 단계를 수행하려면 시스템 관리자 액세스 수준이 필요합니다.</p>
+<p>그룹에 대해 이러한 작업을 수행하려면 해당 그룹의 관리자여야 합니다.</p> <p><b>참고</b>:</p> <p>액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오.
+
+Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td>
+</tr> 
  </tbody> 
 </table>
 
@@ -69,7 +74,7 @@ Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 만들�
 
 ## 레이아웃 템플릿 만들기 또는 수정
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 상단에서 을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **인터페이스** > **레이아웃 템플릿**.
 
@@ -98,4 +103,7 @@ Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 만들�
    * [레이아웃 템플릿에 대한 관리 액세스 권한 부여](../../../administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
    * [레이아웃 템플릿에 사용자 할당](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
 
-새 레이아웃 템플릿을 복사하고 복사본을 변경하여 만들 수도 있습니다. 자세한 내용은 [레이아웃 템플릿 복사](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md).
+>[!TIP]
+>
+>레이아웃 템플릿을 복사하고 복사본을 변경하여 만들 수도 있습니다. 자세한 내용은 [레이아웃 템플릿 복사](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md).
+

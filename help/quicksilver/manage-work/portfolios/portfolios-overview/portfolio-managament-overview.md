@@ -6,9 +6,9 @@ description: Portfolio 또는 프로젝트 Portfolio 관리(PPM)는 특정 비�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 26fb28ce-0957-4db6-a275-174b1d149180
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '621'
 ht-degree: 1%
 
 ---
@@ -55,7 +55,7 @@ Portfolio 또는 프로젝트 Portfolio 관리(PPM)는 특정 비즈니스 목�
 
 ### 프로젝트 검토 {#project-review}
 
-프로젝트 요청을 제출하면 Portfolio 관리자 또는 경영진 팀이 이를 검토하고 승인 여부를 결정합니다. 승인되면 회사 프로젝트 Portfolio에 대해 선택됩니다.
+프로젝트 요청을 제출하면 Portfolio 관리자 또는 경영진 팀이 이를 검토하고 프로젝트 승인 여부를 결정합니다. 사용자가 프로젝트를 승인하면 프로젝트가 회사 프로젝트 Portfolio에 대해 선택됩니다.
 
 포트폴리오에 대한 자세한 내용은 [의 Portfolio 개요 [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)비즈니스 사례 승인에 대한 자세한 내용은 [비즈니스 사례 승인](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
 

@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 762053edbf490532b96285a6d1edff2af49500a4
 workflow-type: tm+mt
 source-wordcount: '1945'
 ht-degree: 6%
@@ -298,7 +298,7 @@ OAuth2 애플리케이션을 만들 때 통합의 요구 사항에 가장 적합
       <td>OAuth2 애플리케이션을 설정하는 개발자의 이메일 주소입니다.</td> 
      </tr> 
    <tr> 
-      <td role="rowheader">[!UICONTROL 개인정보 처리방침 UTL]</td> 
+      <td role="rowheader">[!UICONTROL 개인정보 처리방침 URL]</td> 
       <td>조직에서 개인정보 처리방침을 저장하는 위치에 대한 링크입니다.</td> 
      </tr>
 

@@ -6,10 +6,10 @@ description: 필터를 사용하여 항목 목록의 화면에 표시되는 정�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: d6b483fd1f28012eb8df3e578a44187de6c3629d
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '2405'
-ht-degree: 2%
+source-wordcount: '2462'
+ht-degree: 1%
 
 ---
 
@@ -21,13 +21,13 @@ Adobe Workfront에서 다음 유형의 필터를 적용할 수 있습니다.
 
 * 오브젝트 목록의 빠른 필터를 사용하여 키워드를 사용하여 항목을 찾습니다. 나중에 사용하기 위해 저장할 수 없는 임시 필터입니다.
 
-   빠른 필터에 대한 자세한 내용은 [목록에 빠른 필터 적용](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
+  빠른 필터에 대한 자세한 내용은 [목록에 빠른 필터 적용](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
 
 * 여러 목록 및 보고서에서 저장하고 많은 시간을 사용할 수 있는 영구 필터. 이 문서에서는 목록 또는 보고서에서 영구 필터를 만들거나 기존 필터를 편집하는 방법을 설명합니다.
 
 * 목록 및 보고서 외부의 Workfront 다른 영역에 있는 필터.
 
-   Workfront의 모든 필터 목록 및 이를 적용할 수 있는 영역에 대해서는 다음을 참조하십시오. [Adobe Workfront의 필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  Workfront의 모든 필터 목록 및 이를 적용할 수 있는 영역에 대해서는 다음을 참조하십시오. [Adobe Workfront의 필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## 액세스 요구 사항
 
@@ -39,15 +39,37 @@ Adobe Workfront에서 다음 유형의 필터를 적용할 수 있습니다.
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront 플랜*</strong></td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront 라이센스*</strong></td> 
-   <td> <p>요청 이상</p> </td> 
+   <td> <p>새로운 기능: 기여자 이상</p>
+
+또는
+
+<p>현재: 요청 이상</p>
+
+<p><b>참고:</b></p>
+
+보고서에서 필터를 편집하려면 다음 라이센스가 있어야 합니다.
+
+<p>신규: 플랜</p>
+
+또는
+
+<p>현재: 표준</p>
+
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>액세스 수준 구성*</strong></td> 
-   <td> <p>필터, 보기 및 그룹화에 대한 액세스 편집</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td> <ul><li><p>필터, 보기 및 그룹화에 대한 액세스 편집</p></li></ul>
+    <p><b>참고:</b></p>
+   보고서에서 필터를 편집하려면 필터, 보기 및 그룹화에 대한 편집 액세스 권한 외에도 다음 액세스 수준 구성이 있어야 합니다.
+
+<ul><li><p>보고서, 대시보드 및 캘린더에 대한 액세스 편집</p></li></ul>
+
+<p><b>참고:</b></p> <p> 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>개체 권한</strong></td> 
@@ -93,7 +115,7 @@ Adobe Workfront에서 다음 유형의 필터를 적용할 수 있습니다.
 <ul>
 <li> <p>시나리오 플래너의 프로젝트 목록</p> <p>시나리오 플래너에는 추가 라이센스가 필요합니다. Workfront 시나리오 플래너에 대한 자세한 내용은 다음을 참조하십시오. <a href="../../../scenario-planner/scenario-planner-overview.md">시나리오 플래너 개요</a>. </p> </li>
 </ul>
-<p>참고: 필터용 표준 빌더는 보고서에서 사용할 수 없습니다.
+<p><b>참고:</b></p> <p>필터용 표준 빌더는 보고서에서 사용할 수 없습니다.
 </td>
 </tr>
 <tr>
@@ -111,41 +133,40 @@ Workfront 개체에 대한 자세한 내용은 [Adobe Workfront의 오브젝트 
 * 위의 표에 나열된 영역에 대한 이전 필터 인터페이스를 찾는 동일한 위치에서 표준 빌더를 찾을 수 있습니다.
 * 표준 빌더는 사용할 수 있는 모든 영역에 대한 기본 경험입니다. 기존 필터 빌더로 전환하려면 **자세히** 메뉴 옆 [!UICONTROL **필터**] 및 선택 [!UICONTROL **레거시 필터로 돌아가기**].
 
-   ![레거시 필터로 돌아가기](assets/use-legacy-filters.png)
+  ![레거시 필터로 돌아가기](assets/use-legacy-filters.png)
 
 * 저장된 필터는 원래 빌드하는 데 사용한 경험에 관계없이 두 빌더에서 모두 사용할 수 있습니다. 예를 들어 기존 빌더를 사용하여 필터를 만든 경우 표준 빌더 인터페이스에서도 필터를 찾아 수정할 수 있습니다.
 
-   >[!TIP]
-   >
-   >필터가 적용되지 않은 경우 모든 목록 항목이 표시되므로 &quot;모든&quot; 필터는 표준 빌더에 포함되지 않습니다. 클릭 [!UICONTROL **모두 지우기**] 빌더의 오른쪽 상단에서 활성 필터를 지우고 모든 항목을 표시합니다. If [!UICONTROL **모두 지우기**] 는 흐리게 표시되어 적용된 필터가 없습니다.
+  >[!TIP]
+  >
+  >필터가 적용되지 않은 경우 모든 목록 항목이 표시되므로 &quot;모든&quot; 필터는 표준 빌더에 포함되지 않습니다. 클릭 [!UICONTROL **모두 지우기**] 빌더의 오른쪽 상단에서 활성 필터를 지우고 모든 항목을 표시합니다. If [!UICONTROL **모두 지우기**] 는 흐리게 표시되어 적용된 필터가 없습니다.
 
 * 표준 및 레거시 빌더는 AND 및 OR 연산자를 결합하는 여러 문 필터를 작성할 때 약간 다른 구문을 사용합니다. 따라서 이러한 필터는 한 빌더에서 다른 빌더로 전환할 때 다르게 표시될 수 있습니다.
 
-   >[!INFO]
-   >
-   >다음 시나리오가 있습니다.
-   >
-   >1. 표준 빌더를 사용하여 다음 구문을 사용하는 필터를 생성합니다.
-   >
-   >   `(A OR B) AND C`
-   >
-   >1. 레거시 빌더로 전환하고 다음에 설명된 대로 레거시 빌더의 구문을 사용하여 필터를 편집합니다. [기존 빌더에서 필터 만들기 또는 편집](#create-filter-in-legacy-builder) 이 문서의 섹션. 기존 빌더 구문은 다음과 같이 필터 문을 표시합니다.
-   >
-   >   `A AND C`
-   >   `OR`
-   >   `B AND C`
-   >
-   >1. 기존 인터페이스의 필터를 변경합니다.
-   >1. 표준 빌더로 다시 전환합니다. 필터 문은 위에서 설명한 대로 기존 빌더에서 지원되는 논리에 따라 표시됩니다.
-
-   >
-   >   필터는 다음과 같이 표준 빌더 인터페이스에 표시됩니다.
-   >  
-   >   `A AND C`
-   >   `OR`
-   >   `B AND C`
-   > 
-   >   이 문제는 필터가 기존 인터페이스에서 수정되었기 때문에 발생합니다.
+  >[!INFO]
+  >
+  >다음 시나리오가 있습니다.
+  >
+  >1. 표준 빌더를 사용하여 다음 구문을 사용하는 필터를 생성합니다.
+  >
+  >   `(A OR B) AND C`
+  >
+  >1. 레거시 빌더로 전환하고 다음에 설명된 대로 레거시 빌더의 구문을 사용하여 필터를 편집합니다. [기존 빌더에서 필터 만들기 또는 편집](#create-filter-in-legacy-builder) 이 문서의 섹션. 기존 빌더 구문은 다음과 같이 필터 문을 표시합니다.
+  >
+  >   `A AND C`
+  >   `OR`
+  >   `B AND C`
+  >
+  >1. 기존 인터페이스의 필터를 변경합니다.
+  >1. 표준 빌더로 다시 전환합니다. 필터 문은 위에서 설명한 대로 기존 빌더에서 지원되는 논리에 따라 표시됩니다.
+  >
+  >   필터는 다음과 같이 표준 빌더 인터페이스에 표시됩니다.
+  >  
+  >   `A AND C`
+  >   `OR`
+  >   `B AND C`
+  > 
+  >   이 문제는 필터가 기존 인터페이스에서 수정되었기 때문에 발생합니다.
 
 ## 표준 빌더에서 필터 만들기 또는 편집
 
@@ -193,9 +214,10 @@ Workfront 개체에 대한 자세한 내용은 [Adobe Workfront의 오브젝트 
    * 클릭 **새 필터** 필터를 처음부터 새로 만듭니다.
    * 관리할 권한이 있는 기존 필터 위로 마우스를 가져간 다음 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png) 을 클릭하여 편집합니다.
 
-      또는
+     또는
 
-      볼 수 있는 권한이 있는 기존 필터 위로 마우스를 가져간 후 **자세히** 메뉴 ![기타 메뉴](assets/more-icon-spectrum.png), 및 클릭 **복제** 기존 필터를 복사하고 복사본을 편집합니다.
+     볼 수 있는 권한이 있는 기존 필터 위로 마우스를 가져간 후 **자세히** 메뉴 ![기타 메뉴](assets/more-icon-spectrum.png), 및 클릭 **복제** 기존 필터를 복사하고 복사본을 편집합니다.
+
    ![기타 메뉴 옵션](assets/new-filters-more-menu-options-with-delete.png)
 
 1. (조건부) 필터 그룹의 모든 문과 일치하는 개체를 찾을 것인지 아니면 모든 문과 일치하는 개체를 찾을 것인지에 따라 다음 옵션 중에서 선택합니다.
@@ -362,28 +384,28 @@ Workfront 개체에 대한 자세한 내용은 [Adobe Workfront의 오브젝트 
    * 기존 규칙을 클릭하고 새 옵션을 선택하여 기존 필터 규칙을 수정합니다.
    * 다음을 클릭하여 필터 규칙 추가 **다른 필터 규칙 추가**&#x200B;에서 규칙을 추가할 옵션의 이름을 입력하세요. **필드 이름을 입력하십시오.** 상자를 클릭한 다음 드롭다운 목록에 나타나면 상자를 클릭합니다.
 
-      필터 개체와 연결된 필드는 **필드 이름을 입력하십시오.** 상자.
+     필터 개체와 연결된 필드는 **필드 이름을 입력하십시오.** 상자.
 
    * 클릭 **및** 또는 **또는** 새 필터 규칙을 추가할 때.\
-      필터 규칙을 추가할 때 필터 수정자를 사용하여 필터의 조건을 설정합니다. 필터 수정자에 대한 자세한 내용은 [필터 및 조건 수정자](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+     필터 규칙을 추가할 때 필터 수정자를 사용하여 필터의 조건을 설정합니다. 필터 수정자에 대한 자세한 내용은 [필터 및 조건 수정자](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
-      >[!NOTE]
-      >
-      >여러 개의 OR 문으로 AND 문 그룹을 연결하는 경우 각 문 그룹의 OR 문 간에 변경되지 않는 필드를 반복해야 합니다.
-      >
-      >![연결된 필터 문](assets/filters-and-statements-connected-by-or-statements-builder-ui-old-filters-2022.png)
-      >
-      >&quot;marketing&quot;이라는 단어가 포함되어 있고 현재 또는 계획 상태인 프로젝트에 대한 필터를 작성할 때 다음과 같은 필터 규칙이 있어야 합니다.
-      >
-      >`Task: Name Contains Marketing`
-      >`AND`
-      >`Project: Status Equals Current`
-      >`OR`
-      >`Task: Name Contains Marketing`
-      >`AND`
-      >`Project: Status Equals Planning`
-      >
-      >작업: 이름에 &quot;marketing&quot;이 포함되어 있는지 여부는 두 AND 필터 그룹 간에 변경되지 않지만 두 번째 그룹에서 반복해야 합니다.
+     >[!NOTE]
+     >
+     >여러 개의 OR 문으로 AND 문 그룹을 연결하는 경우 각 문 그룹의 OR 문 간에 변경되지 않는 필드를 반복해야 합니다.
+     >
+     >![연결된 필터 문](assets/filters-and-statements-connected-by-or-statements-builder-ui-old-filters-2022.png)
+     >
+     >&quot;marketing&quot;이라는 단어가 포함되어 있고 현재 또는 계획 상태인 프로젝트에 대한 필터를 작성할 때 다음과 같은 필터 규칙이 있어야 합니다.
+     >
+     >`Task: Name Contains Marketing`
+     >`AND`
+     >`Project: Status Equals Current`
+     >`OR`
+     >`Task: Name Contains Marketing`
+     >`AND`
+     >`Project: Status Equals Planning`
+     >
+     >작업: 이름에 &quot;marketing&quot;이 포함되어 있는지 여부는 두 AND 필터 그룹 간에 변경되지 않지만 두 번째 그룹에서 반복해야 합니다.
 
    * &quot;X&quot; 아이콘을 클릭하여 기존 필터 규칙을 삭제합니다.
 

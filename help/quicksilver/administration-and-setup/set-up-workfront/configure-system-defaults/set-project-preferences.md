@@ -4,13 +4,13 @@ product-area: system-administration;projects
 navigation-topic: configure-system-defaults
 title: 시스템 전체 프로젝트 환경 설정 구성
 description: (으)로 [!DNL Adobe Workfront] 관리자는 시스템 전체에서 생성된 모든 프로젝트에 대한 기본 환경 설정을 구성할 수 있습니다. 이러한 환경 설정은 프로젝트, 작업 및 문제 동작에 영향을 줍니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '2522'
+source-wordcount: '2513'
 ht-degree: 0%
 
 ---
@@ -32,27 +32,30 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
+   <td role="rowheader"><p>[!DNL Adobe Workfront] 플랜</p></td> 
    <td>임의</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
-   <td>[!UICONTROL 계획]</td> 
+   <td><p>새로운 기능: [!UICONTROL Standard]</p>
+   또는
+   <p>현재: [!UICONTROL Plan]</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>다음이어야 합니다: [!DNL Workfront] 관리자.</p> <p><b>참고</b>: 아직 액세스 권한이 없는 경우 [!DNL Workfront] 관리자가 액세스 수준에 추가 제한을 설정하는 경우. 자세한 내용: [!DNL Workfront] 관리자가 액세스 수준을 수정할 수 있습니다. 다음을 참조하십시오. <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td> <p>[!UICONTROL 시스템 관리자]</p> <p><b>참고</b>:</p><p>아직 액세스 권한이 없는 경우 [!DNL Workfront] 관리자가 액세스 수준에 추가 제한을 설정하는 경우. 자세한 내용: [!DNL Workfront] 관리자가 액세스 수준을 수정할 수 있습니다. 다음을 참조하십시오. <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 전체 조직을 위한 프로젝트 환경 설정 구성
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![](assets/main-menu-icon.png) 의 오른쪽 위 모서리 [!DNL Adobe Workfront]을 클릭한 다음 을 클릭합니다 **[!UICONTROL 설정]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **[!UICONTROL 프로젝트 환경 설정]** > **[!UICONTROL 프로젝트]**.
 
-1. 표시되는 페이지에서 아래 나열된 4개 섹션 중 하나를 계속 진행하여 의 기본 설정을 구성합니다. [!UICONTROL 프로젝트 상태], [!UICONTROL 타임라인], [!UICONTROL 비즈니스 사례], 및 [!UICONTROL 사후 세계].
+1. 다음에서 **프로젝트 환경 설정** 페이지의 기본 설정을 구성하려면 아래 나열된 4개 섹션 중 하나를 계속 진행하십시오. [!UICONTROL 프로젝트 상태], [!UICONTROL 타임라인], [!UICONTROL 비즈니스 사례], 및 [!UICONTROL 사후 세계].
 1. 조직 전체의 모든 그룹에서 동일한 프로젝트 환경 설정을 사용하도록 하려면 각 환경 설정이 잠겨 있는지 확인하십시오 ![](assets/lock-toggle-button.png) (기본값).
 
    >[!IMPORTANT]
@@ -89,7 +92,7 @@ ht-degree: 0%
          </ul>
         <p>이 환경 설정은 기본적으로 활성화되어 있습니다. </p> 
         <p><b>메모</b></p>
-        <p> 그룹 관리자는 그룹에 대한 이 기본 설정을 변경할 수 있습니다. 사용자가 다른 환경 설정을 가진 여러 그룹에 속해 있는 경우 홈 그룹에서 이 환경 설정을 활성화한 경우 템플릿 없이 프로젝트를 만들 수 있습니다.</p> 
+        <p> 그룹 관리자는 그룹에 대한 이 기본 설정을 변경할 수 있습니다. 사용자가 다른 환경 설정을 사용하는 여러 그룹에 속해 있는 경우 홈 그룹에서 이 환경 설정을 활성화한 경우 템플릿 없이 프로젝트를 만들 수 있습니다.</p> 
         </td> 
   </tr>
   <tr> 
@@ -112,7 +115,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 진행 상태를 기반으로 프로젝트의 상태를 자동으로 설정]</td> 
-   <td> <p>이 환경 설정을 통해 사용자는 프로젝트의 [!UICONTROL Condition]을 수동으로([!UICONTROL On Target], [!UICONTROL At Risk], [!UICONTROL In Trol]) 설정하거나 [!DNL Workfront] 타임라인에서 프로젝트의 진행에 따라 [!UICONTROL 조건](진행 상태)을 자동으로 설정합니다. 프로젝트 상태에 대한 자세한 내용은 <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref" data-mc-variable-override="">프로젝트 상태 및 상태 유형 개요</a>.</p> </td> 
+   <td> <p>이 환경 설정을 통해 사용자는 프로젝트의 [!UICONTROL Condition]을(를) 수동으로([!UICONTROL On Target], [!UICONTROL At Risk], [!UICONTROL In Trol]) 설정하거나 [!DNL Workfront] 타임라인에서 프로젝트의 진행에 따라 [!UICONTROL 조건](진행 상태)을 자동으로 설정합니다. 프로젝트 상태에 대한 자세한 내용은 <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref" data-mc-variable-override="">프로젝트 상태 및 상태 유형 개요</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 자동으로 기준선 만들기]</p> </td> 
@@ -130,7 +133,7 @@ ht-degree: 0%
    <td role="rowheader"> <p>완료 시 [!UICONTROL 예상 ]</p> </td> 
    <td> <p>데이터 확인 [!DNL Workfront] 은 를 사용하여 프로젝트의 예상 총 비용을 나타내는 EAC([!UICONTROL 완료 시 추정 비용])를 계산합니다.</p> 
     <ul> 
-     <li><strong>[!UICONTROL 프로젝트 수준에서 계산]</strong>:상위 작업 및 프로젝트에 대한 EAC는 EAC 공식에 [!UICONTROL 실제 근로시간] 또는 [!UICONTROL 실제 인건비]를 입력하여 결정됩니다. 이 계산에는 상위 작업 또는 프로젝트에 직접 추가된 [!UICONTROL 실제 시간] 또는 [!UICONTROL 비용 및 경비]가 포함됩니다.</li> 
+     <li><strong>[!UICONTROL 프로젝트 수준에서 계산]</strong>: 상위 작업 및 프로젝트에 대한 EAC는 EAC 공식에 [!UICONTROL 실제 근로시간] 또는 [!UICONTROL 실제 인건비]를 입력하여 결정됩니다. 이 계산에는 상위 작업 또는 프로젝트에 직접 추가된 [!UICONTROL 실제 시간] 또는 [!UICONTROL 비용 및 경비]가 포함됩니다.</li> 
      <li> <p><strong>[!UICONTROL 작업/하위 작업에서 롤업]</strong>: 상위 작업 및 프로젝트에 대한 EAC는 각 하위 작업에 대한 EAC를 합하여 결정됩니다. 이 계산에서는 상위 작업 또는 프로젝트에 직접 추가된 [!UICONTROL 실제 시간] 또는 [!UICONTROL 실제 비용 및 경비]는 제외됩니다.</p> <p>프로젝트 관리자는 [!UICONTROL 프로젝트 세부 정보]의 [!UICONTROL Finance] 영역을 사용하여 프로젝트 수준에서 이 설정을 수정할 수 있습니다. 자세한 내용은 다음을 참조하십시오. <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref" data-mc-variable-override="">프로젝트 [!UICONTROL Finance] 영역의 정보 관리</a>.</p> </li> 
     </ul> <p>EAC가 계산되는 방법에 대한 자세한 내용은 <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref" data-mc-variable-override="">EAC(완료 시 예상 값) 계산</a>.</p> </td> 
   </tr> 
@@ -157,7 +160,7 @@ ht-degree: 0%
    <td role="rowheader">[!UICONTROL 사용자 휴무]</td> 
    <td> <p>작업의 기본 할당자의 휴무 시간이 프로젝트의 해당 작업에 대한 계획된 일자를 조정하는지 여부를 결정합니다.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL 작업 기간에서 사용자 휴가 고려]</strong>: 작업의 기본 피할당자에 대해 예약된 휴무는 작업 기간 동안 휴무가 발생하는 경우 작업의 계획된 일자를 조정합니다. 기본 설정입니다. </p> <p>예를 들어 제한이 [!UICONTROL As Soon Possible]인 작업이 6월 1일에 시작하여 6월 3일에 완료되도록 예약되어 있고 기본 피할당자가 6월 2일에 휴무로 표시되어 있는 경우, 작업의 계획된 일자는 6월 1일부터 6월 4일까지로 조정됩니다.</p> <p><b>중요 사항</b>: 이 설정을 선택하면 작업 기간이 변경되지 않습니다. 계획된 일자만 작업 제한에 따라 변경됩니다.</p> </li> 
+     <li> <p><strong>[!UICONTROL 작업 기간에서 사용자 휴가 고려]</strong>: 작업의 기본 피할당자에 대해 예약된 휴무는 작업 기간 동안 휴무가 발생하는 경우 작업의 계획된 일자를 조정합니다. 기본 설정입니다. </p> <p>예를 들어 제한이 [!UICONTROL As Soon Possible]인 작업이 6월 1일에 시작하여 6월 3일에 완료되도록 예약되어 있고 기본 피할당자가 6월 2일에 휴무로 표시되어 있는 경우, 작업의 계획된 일자는 6월 1일부터 6월 4일까지로 조정됩니다.</p> <p><b>중요 사항</b>:</p> <p>이 설정을 선택해도 작업 기간은 변경되지 않습니다. 계획된 일자만 작업 제한에 따라 변경됩니다.</p> </li> 
      <li><strong>[!UICONTROL 작업 기간에서 사용자 휴무 무시]</strong>: 작업 기간 동안 기본 피할당자가 휴가를 갖는 경우에도 프로젝트의 각 작업의 계획된 일자는 원래 계획된 상태로 유지됩니다.</li> 
     </ul> <p>이 설정에 대한 옵션을 선택할 때는 다음 사항을 고려하십시오.</p> 
     <ul> 
@@ -172,7 +175,7 @@ ht-degree: 0%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 프로젝트 타임라인이 자동으로 다시 계산됩니다.]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 프로젝트 타임라인이 자동으로 다시 계산됨]</p> </td> 
    <td> <p>프로젝트의 타임라인이 언제 다시 계산되는지 결정합니다. 프로젝트 타임라인 재계산에 대한 자세한 내용은 다음을 참조하십시오. <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">프로젝트 타임라인 다시 계산</a>.</p> <p>다음 옵션은 기본적으로 활성화되어 있습니다. 다음 설정 중 하나 이상을 선택할 수 있습니다.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Every night]</strong>: 매일 밤 프로젝트 타임라인을 다시 계산하려면 이 옵션을 선택합니다. 타임라인에 영향을 줄 수 있는 프로젝트에 대한 변경 사항은 즉시 표시되지 않습니다. [!DNL Workfront​​​] 다음 조건이 모두 충족되는 프로젝트에 대해서만 심야 타임라인을 다시 계산합니다.</p> <p> 
@@ -185,14 +188,14 @@ ht-degree: 0%
         <li>변경만</li>
         <li>자동만</li> 
       </ul>       
-    <b>팁</b>
+    <b>팁:</b>
     <p>업데이트 유형이 수동만 인 프로젝트는 이 설정의 영향을 받지 않습니다.</p>
     <li> <p><strong>프로젝트의 범위가 변경될 때</strong>: 프로젝트 범위가 변경될 때 프로젝트 타임라인을 즉시 다시 계산하려면 이 옵션을 선택하십시오. 프로젝트 범위 변경을 구성하는 항목에 대한 자세한 내용은 <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">프로젝트 타임라인 다시 계산</a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 작업에 여러 사용자가 할당되면 의 일정을 사용합니다.]</p> </td> 
-   <td> <p>프로젝트에 할당된 일정이 없거나 작업에 할당된 사용자에게 할당된 일정이 없는 경우 [!DNL Workfront] 에서는 시스템 기본 일정을 사용하여 작업의 타임라인을 계산합니다.</p> <p>프로젝트에 있는 동일한 작업에 여러 사용자를 할당하면 할당된 일정이 있고 작업에 할당된 사용자에게도 할당된 일정이 있습니다.[!UICONTROL Workfront]에서는 다음 일정을 사용합니다.</p> 
+   <td> <p>프로젝트에 할당된 일정이 없거나 작업에 할당된 사용자에게 할당된 일정이 없는 경우 [!DNL Workfront] 에서는 시스템 기본 일정을 사용하여 작업의 타임라인을 계산합니다.</p> <p>프로젝트의 동일한 작업에 여러 사용자를 할당하고 프로젝트에 할당된 일정이 있으며 작업에 할당된 사용자에게도 할당된 일정이 있는 경우 [!UICONTROL Workfront]은 다음 일정을 사용합니다.</p> 
     <ul> 
      <li><strong>[!UICONTROL 기본 할당]</strong>: [!DNL Workfront] 은 작업에 대한 1차 할당 일정을 사용하여 타임라인을 계산합니다.</li> 
      <li><strong>[!UICONTROL 프로젝트]</strong>: [!DNL Workfront] 프로젝트의 일정을 사용하여 각 작업의 타임라인을 계산합니다.</li> 
@@ -205,12 +208,12 @@ ht-degree: 0%
      <li><strong>[!UICONTROL 근무일당 일반 근로시간]</strong>: 프로젝트에서 작업할 사용자의 일반 근무일 시간을 설정합니다. 기본값은 8시간입니다.</li> 
     </ul> 
     <ul> 
-     <li><strong>[!UICONTROL 주당 일반 근무일]</strong>: 프로젝트를 수행할 사용자에 대한 표준 주 시간을 설정합니다. 기본값은 5일입니다.</li> 
-    </ul> <p>이 두 가지 옵션은 일을 시간으로, 또는 주를 일로 변환합니다.</p> <p>예를 들어, 계획된 시간이 8개인 작업이 있고 기간을 계획된 시간을 기준으로 계산하는 경우 [!DNL Workfront] 기간을 일로 표시하기 위해 해당 시간을 일로 변환합니다.</p> <p>일반적인 [!UICONTROL 주당 근무일] 필드에서 [!DNL Workfront] 는 시스템의 FTE(Full Time Equivalent) 값을 계산합니다. 이것이 바로 [!DNL Workfront] 은 사용자에 대한 할당을 계산할 때 사용합니다.</p> <p>이러한 값은 프로젝트 타임라인, 리소스 예산 책정 또는 프로젝트에 대한 시간을 기록할 때 사용됩니다. </p> <p>에 설명된 대로 시스템에서 사용자에 대한 타임시트를 설정할 때에는 사용되지 않습니다 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">[!UICONTROL 구성] 타임시트 및 시간 환경 설정</a>.</p> <p><b>참고</b>: [!DNL Workfront] 관리자는 [!UICONTROL 타임라인 계산] 환경 설정을 잠금 해제할 수 없습니다.</p> </td> 
+     <li><strong>[!UICONTROL 주당 일반 근무일]</strong>: 프로젝트에서 작업 중인 사용자에 대한 표준 작업 시간을 설정합니다. 기본값은 5일입니다.</li> 
+    </ul> <p>이 두 가지 옵션은 일을 시간으로, 또는 주를 일로 변환합니다.</p> <p>예를 들어, 계획된 시간이 8개인 작업이 있고 기간을 계획된 시간을 기준으로 계산하는 경우 [!DNL Workfront] 기간을 일로 표시하기 위해 해당 시간을 일로 변환합니다.</p> <p>일반적인 [!UICONTROL 주당 근무일] 필드에서 [!DNL Workfront] 는 시스템의 FTE(Full Time Equivalent) 값을 계산합니다. 이것이 바로 [!DNL Workfront] 은 사용자에 대한 할당을 계산할 때 사용합니다.</p> <p>이러한 값은 프로젝트 타임라인, 리소스 예산 책정 또는 프로젝트에 대한 시간을 기록할 때 사용됩니다. </p> <p>에 설명된 대로 시스템에서 사용자에 대한 타임시트를 설정할 때에는 사용되지 않습니다 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">[!UICONTROL 구성] 타임시트 및 시간 환경 설정</a>.</p> <p><b>참고</b>:</p> <p>[!DNL Workfront] 관리자는 [!UICONTROL 타임라인 계산] 환경 설정을 잠금 해제할 수 없습니다.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>[!UICONTROL 사용자 정의 분기]</p> </td> 
-   <td> <p>프로젝트에서 작업할 사용자를 위해 사용자 정의 연간 분기를 구성하십시오. 사용자 정의 분기는 일반적으로 한 해 동안의 기존 분기 분류와 일치하지 않는 분기입니다. 여러 개의 사용자 정의 영역을 추가할 수 있습니다. 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">프로젝트에 대한 사용자 정의 분기 활성화</a>.</p>  <p><b>참고</b>: [!DNL Workfront] 관리자는 [!UICONTROL 사용자 정의 영역] 환경 설정을 잠금 해제할 수 없습니다.</p> </td> 
+   <td> <p>프로젝트에서 작업할 사용자를 위해 사용자 정의 연간 분기를 구성하십시오. 사용자 정의 분기는 일반적으로 한 해 동안의 기존 분기 분류와 일치하지 않는 분기입니다. 여러 개의 사용자 정의 영역을 추가할 수 있습니다. 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">프로젝트에 대한 사용자 정의 분기 활성화</a>.</p>  <p><b>참고</b>: </p><p>[!DNL Workfront] 관리자는 [!UICONTROL 사용자 정의 영역] 환경 설정을 잠금 해제할 수 없습니다.</p> </td> 
   </tr> 
  </tbody> 
 </table>

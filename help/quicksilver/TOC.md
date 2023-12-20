@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
+source-git-commit: 2d58b1938dbce4a8425236f0f690e1697d8340c1
 workflow-type: tm+mt
-source-wordcount: '13834'
+source-wordcount: '13835'
 ht-degree: 1%
 
 ---
@@ -1381,7 +1381,7 @@ ht-degree: 1%
          * [문제 복사](manage-work/issues/manage-issues/copy-issues.md)
          * [문제 이동](manage-work/issues/manage-issues/move-issues.md)
          * [문제 삭제](manage-work/issues/manage-issues/delete-issues.md)
-         * [문제 할당 개요 수정](manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
+         * [문제 할당 수정 개요](manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
          * [목록의 여러 문제에 대한 사용자 할당 수정](manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)
          * [문제 상태를 피드백 대기에서 진행 중으로 자동 업데이트](manage-work/issues/manage-issues/turn-issue-status-from-awf-to-inp-automatically.md)
    * 간트 차트 {#the-gantt-chart}
