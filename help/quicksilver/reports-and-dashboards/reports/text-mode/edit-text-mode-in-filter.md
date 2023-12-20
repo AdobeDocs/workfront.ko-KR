@@ -6,9 +6,9 @@ description: '참고: 이 문서에 /Content/Reports and Dashboards/Reports/Repo
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: be47bc4da5e3921a7c36e19831acde91aad55db1
+source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1035'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 텍스트 모드를 사용하여 목록 또는 보고서에서 필터를 편집하여 표준 인터페이스에서 사용할 수 없는 필드에 액세스하고 보다 복잡한 필터를 만들 수 있습니다.
 
-필터를 만들 때의 추가 텍스트 모드 예에 대해서는 이 문서의 &quot;사용자 정의 필터 샘플&quot; 섹션을 참조하십시오 [사용자 정의 보기, 필터 및 그룹화 샘플](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+필터를 만들 때의 추가 텍스트 모드 예에 대해서는 이 문서의 &quot;사용자 정의 필터 샘플&quot; 섹션을 참조하십시오 [사용자 정의 보기, 필터링 및 그룹화 샘플: 문서 인덱스](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
 ## 액세스 요구 사항
 
@@ -33,7 +33,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 * [텍스트 모드 개요](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
 * [텍스트 모드 구문 개요](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
-* [사용자 정의 보기, 필터 및 그룹화 샘플](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [사용자 정의 보기, 필터링 및 그룹화 샘플: 문서 인덱스](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
 ## 필터에서 텍스트 모드 편집
 
@@ -163,12 +163,19 @@ ht-degree: 0%
 >[!NOTE]
 >
 >동일한 필터에 여러 &quot;OR&quot; 문이 있을 수 있습니다. 새 &quot;OR&quot; 문이 있을 때마다 &quot;OR:&quot; 다음의 숫자가 증가합니다.
+>
 진행 중 상태이거나 로그인한 사용자에게 할당되었거나 오늘 계획된 완료 일자가 있는 작업을 필터링하려면 다음을 사용합니다.
+>
 `status=INP`
+>
 `status_Mod=in`
+>
 `OR:1:assignedToID=$$USER.ID`
+>
 `OR:1:assignedToID_Mod=in`
+>
 `OR:2:plannedCompletionDate=$$TODAY`
+>
 `OR:2:plannedCompletionDate_Mod=eq`
 
 1. 클릭 **완료** 변경 사항을 저장하고 보고서 또는 필터를 계속 편집하려면 다음을 수행하십시오.

@@ -2,20 +2,22 @@
 content-type: reference
 product-area: reporting
 navigation-topic: reports
-title: 사용자 정의 보기, 필터 및 그룹화 샘플
-description: 사용자 지정 보기, 필터링 및 그룹화 샘플TOC-proper article". 나는 이것을 물체로 조직하는 것에 큰 가치를 보지 못했다.)"
-author: Lisa and Nolan
+title: "사용자 정의 보기, 필터링 및 그룹화 샘플: 문서 인덱스"
+description: 이 섹션에서는 Adobe Workfront 계정에서 사용할 수 있는 사용자 정의 보기, 필터 및 그룹화의 예를 제공합니다.
+author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: beac1ea6-a983-4d12-8972-91150914f731
-source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
+source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
 
-# 사용자 정의 보기, 필터 및 그룹화 샘플
+# 사용자 정의 보기, 필터링 및 그룹화 샘플: 문서 인덱스
+
+<!-- Audited: 12/2023 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this used to be the content of this article but when I did the reorg of text mode for Kyna, Luke asked me to make this article a "TOC-proper article". I did not see much value in organizing this by objects.) </p>

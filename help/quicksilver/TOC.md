@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: ec254d4a81e92dc6e61afa852dde7d5d7ef5fc20
 workflow-type: tm+mt
-source-wordcount: '13836'
+source-wordcount: '13835'
 ht-degree: 1%
 
 ---
@@ -1504,7 +1504,7 @@ ht-degree: 1%
       * [보고서](reports-and-dashboards/reports/reports-overview.md)
       * 보고 기본 사항 {#report-basics}
          * [보고 기본 사항](reports-and-dashboards/reports/reporting/reporting-basics.md)
-         * [Adobe Workfront에서 보고서 시작](reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
+         * [보고서 시작](reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
          * [기본 보고서를 새 보고서로 저장](reports-and-dashboards/reports/reporting/save-default-reports-new-reports.md)
       * 보고 요소 {#report-elements}
          * [보고 요소 개요](reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)
@@ -1562,7 +1562,7 @@ ht-degree: 1%
          * [계산된 사용자 정의 필드 예: 사용자 정의 양식에 상태 타임스탬프 표시](reports-and-dashboards/reports/calc-cstm-data-reports/example-status-timestamp-in-calculated-field.md)
          * [계산된 사용자 정의 필드 예: 필드의 편집 내역 표시](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-field-example-edit-history-of-another-field.md)
       * 사용자 정의 보기, 필터 및 그룹화 샘플 {#custom-view-samples}
-         * [사용자 정의 보기, 필터 및 그룹화 샘플](reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+         * [사용자 정의 보기, 필터링 및 그룹화 샘플: 문서 인덱스](reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
          * [보고서 또는 목록: 객체와 연관된 사용자를 표시합니다.](reports-and-dashboards/reports/custom-view-filter-grouping-samples/display-object-users-in-report.md)
          * [필터: 불완전한 프로젝트 간 전임 작업 표시](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-predecessors.md)
          * [필터: 불완전한 프로젝트 간 후임 작업 표시](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-successors.md)

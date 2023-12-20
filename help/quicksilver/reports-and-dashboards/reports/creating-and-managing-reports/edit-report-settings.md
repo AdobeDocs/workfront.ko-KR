@@ -6,10 +6,10 @@ description: 보고서의 설정을 편집하여 다른 사용자에게 표시�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6fbbc557-65da-4ffe-968a-9c8db6a45811
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 8%
+source-wordcount: '663'
+ht-degree: 6%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
@@ -70,7 +70,7 @@ ht-degree: 8%
       <td>보고서의 목적 및 용도를 설명하는 문을 지정합니다.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">다음의 액세스 권한으로 이 보고서 실행</td> 
+      <td role="rowheader">다음의 액세스 권한으로 이 보고서 실행:</td> 
       <td>다른 사용자를 위해 이 보고서를 표시할 때 사용할 액세스 권한을 가진 사용자를 선택합니다. 다른 사용자의 액세스 권한으로 보고서를 실행하는 방법에 대한 자세한 내용은 문서를 참조하십시오 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">다른 사용자의 액세스 권한으로 보고서 실행 및 전달</a>.</td> 
      </tr> 
      <tr> 
@@ -122,6 +122,6 @@ ht-degree: 8%
 다음도 참조하십시오.
 
 <!--outdated: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program) -->
-* [Adobe Workfront에서 보고서 시작](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
+* [보고서 시작](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
 * [Adobe Workfront 기본 제공 보고서 사용](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
 * [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)
