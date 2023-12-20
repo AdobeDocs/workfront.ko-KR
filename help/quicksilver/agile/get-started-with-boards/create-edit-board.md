@@ -6,14 +6,16 @@ description: 다음에서 [!UICONTROL 게시판] 대시보드에서 새 보드�
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
+source-git-commit: 03abff907016809addbbf8f50eb2e6e012e6fed3
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 3%
+source-wordcount: '683'
+ht-degree: 1%
 
 ---
 
 # 보드 만들기 또는 편집
+
+<!-- Audited: 12/2023 -->
 
 다음에서 [!UICONTROL 게시판] 대시보드에서 새 보드를 만들거나 기존 보드를 편집할 수 있습니다.
 
@@ -27,7 +29,14 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 플랜*</strong></td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader">Adobe Workfront 라이센스*</td> 
+   <td> <p>새로운 기능: 기여자 이상 </p>
+ <p>또는</p> 
+<p>현재: [!UICONTROL Request] 이상 </p> 
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
@@ -40,7 +49,7 @@ ht-degree: 3%
 
 ## 새 게시판 만들기
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![](assets/main-menu-icon.png) 의 오른쪽 위 모서리 [!DNL Adobe Workfront]을 클릭한 다음 을 클릭합니다 **[!UICONTROL 게시판]**.
+{{step1-to-boards}}
 1. 클릭 **[!UICONTROL 보드 추가]**.
 
 1. 보드에 사용할 템플릿을 선택합니다.
@@ -49,7 +58,7 @@ ht-degree: 3%
    |---------|----------|
    | 기본 보드 | 보드에는 세 개의 기본 열이 제공됩니다. 새 열을 추가하고 기본 열의 이름을 바꾸거나 삭제할 수 있습니다. <p>보드에는 세 개의 기본 열이 제공됩니다. 새 열을 추가하고 기본 열의 이름을 바꾸거나 삭제할 수 있습니다. |
    | 칸반 보드 | 백로그, 신규, 진행 중, 완료 및 보류 중 열이 보드에 제공됩니다. 새 열을 추가하고 기본 열의 이름을 바꾸거나 삭제할 수 있습니다.<p>백로그를 사용하려면 접수 열에 대한 필터를 설정해야 합니다. 자세한 내용은 [보드에 접수 열 추가](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>각 열에 대한 기본 정책을 검토하려면 [!UICONTROL **자세히** 메뉴] 열에서 [!UICONTROL **편집**]. 이러한 사전 설정된 정책을 변경할 수 있습니다. 자세한 내용은 [보드 열 관리](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
-   | Retrospective 보드 | 게시판에는 다음과 같은 열이 제공됩니다. 무엇이 잘 되었습니까? 개선 가능한 사항? 축하해야 할 사람? 보다 빠른 진행을 위해 할 수 있는 일? 새 열을 추가하고 기본 열의 이름을 바꾸거나 삭제할 수 있습니다. <p>열 정책이 적용되지 않습니다. |
+   | Retrospective 보드 | 게시판에는 다음과 같은 열이 제공됩니다. 무엇이 잘 되었습니까? 무엇을 개선할 수 있을까요? 축하해야 할 사람이 누구죠? 더 빨리 움직이기 위해 우리가 할 수 있는 일은 무엇인가? 새 열을 추가하고 기본 열의 이름을 바꾸거나 삭제할 수 있습니다. <p>열 정책이 적용되지 않습니다. |
    | 동적 보드 | 보드에 선택되지 않음, 새로 만들기, 진행 중, 보류 및 완료 열이 제공됩니다. 새 열을 추가하고 기본 열의 이름을 바꾸거나 삭제할 수 있습니다. 선택 해제됨 열의 이름은 변경할 수 있지만 삭제할 수는 없습니다. 이 열에는 다른 열 상태와 일치하지 않는 상태의 모든 카드가 포함됩니다.) <p>기본 열 정책은 상태에 따라 열에 카드를 할당합니다. 자세한 내용은 [보드 열 관리](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 
 1. 동적 보드에 대해서만 설정 마법사 단계를 수행합니다.
@@ -86,7 +95,7 @@ ht-degree: 3%
 
 ## 기존 게시판 편집
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![](assets/main-menu-icon.png) 의 오른쪽 위 모서리 [!DNL Adobe Workfront]을 클릭한 다음 을 클릭합니다 **[!UICONTROL 게시판]**.
+{{step1-to-boards}}
 1. 대시보드에서 열 보드를 선택합니다.
 1. 필요에 따라 보드를 편집합니다. 보드 이름을 클릭하여 이름을 바꿀 수 있습니다.
 

@@ -8,7 +8,7 @@ author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 34814016-e030-4e21-a597-686c4107eff4
-source-git-commit: a1569362dee8cd686a91698af3c9c217e920c263
+source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 0%
@@ -16,6 +16,8 @@ ht-degree: 0%
 ---
 
 # 증명: 문서 색인
+
+<!-- Audited: 12/2023 -->
 
 크리에이티브 팀이 작동하는 동일한 문서에서 검토하고 주석을 답니다. Workfront Proofing을 사용하면 댓글 및 버전에 대한 감사 추적을 유지하면서 피드백을 요청하고, 댓글을 확인하고, 보류 및 완료된 승인에 대한 알림을 받을 수 있습니다.
 

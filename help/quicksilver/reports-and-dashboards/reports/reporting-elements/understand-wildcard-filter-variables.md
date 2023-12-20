@@ -7,7 +7,7 @@ description: 필터에서 와일드카드를 사용하면 특정 사용자 또�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: eb85a68801b3542efc94766a017dd7b59b99b914
+source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 1%
@@ -15,6 +15,8 @@ ht-degree: 1%
 ---
 
 # 와일드카드 필터 변수 개요
+
+<!-- Audited: 12/2023 -->
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -174,7 +176,7 @@ ht-degree: 1%
    <td> <p>$$USER.name 변수는 로그인한 사용자의 전체 이름을 나타냅니다.</p> <p>참고:   <p>이 와일드카드 변수는 텍스트 모드에서 필터를 수정하는 경우에만 작동합니다. 텍스트 모드를 지원하지 않는 필터에서는 이 와일드카드를 사용할 수 없습니다. 예를 들어 다음 영역의 필터에서는 이 와일드카드를 사용할 수 없습니다.</p> 
      <ul> 
       <li> <p>리소스 플래너</p> </li> 
-      <li> <p>업무 균형자</p> </li> 
+      <li> <p>워크로드 밸런서</p> </li> 
       <li> <p>분석</p> </li> 
      </ul> </p> </td> 
   </tr> 

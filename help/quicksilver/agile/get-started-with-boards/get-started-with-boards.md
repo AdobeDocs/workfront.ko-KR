@@ -7,14 +7,16 @@ author: Lisa
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: f9b8b721-d4ba-4ed5-b7a4-ad3610cbc18e
-source-git-commit: e2db904bc5b4e3682421677b30b0187a6fff46d9
+source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
 workflow-type: tm+mt
 source-wordcount: '123'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 # 보드 시작: 문서 색인
+
+<!-- Audited: 12/2023 -->
 
 이 섹션에는 다음 문서가 포함됩니다.
 

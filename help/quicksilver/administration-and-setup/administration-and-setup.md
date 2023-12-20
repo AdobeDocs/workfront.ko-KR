@@ -9,7 +9,7 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: f80bb267-be96-41d4-98c5-398bde66499e
-source-git-commit: b326ae3023b32ace7b1f5d4584de20cab89cdbe5
+source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 1%
@@ -17,6 +17,8 @@ ht-degree: 1%
 ---
 
 # 관리 및 설정: 문서 색인
+
+<!-- Audited: 12/2023 -->
 
 관리자는 Workfront에서 사용자 경험을 제어하고 사용자 정의할 수 있습니다. 아래 링크를 사용하여 시작하십시오.
 

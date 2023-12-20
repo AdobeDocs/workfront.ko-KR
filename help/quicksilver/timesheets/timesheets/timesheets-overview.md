@@ -7,7 +7,7 @@ description: 타임시트를 사용하여 Adobe Workfront 내부 및 외부에�
 author: Alina
 feature: Timesheets
 exl-id: 2174a879-4a19-4a0f-803a-f19a8909f227
-source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
+source-git-commit: 1c8d9a62f5582b0dbc3c72b5881bb5d8f0b790ba
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # 타임시트 개요
+
+<!-- Audited: 12/2023 -->
 
 타임시트를 사용하여 Adobe Workfront 내부 및 외부에서 작업에 소비하는 시간을 추적할 수 있습니다.
 

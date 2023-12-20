@@ -9,7 +9,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: 7c1115065e4d2f4732b392336aed692c055ba97c
+source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%
@@ -17,6 +17,8 @@ ht-degree: 0%
 ---
 
 # 여러 사용자의 이메일 알림 설정 수정
+
+<!-- Audited: 12/2023 -->
 
 Adobe Workfront 관리자이거나 다른 사용자의 설정을 편집할 수 있는 플래너 액세스 수준이 있는 경우 한 번에 여러 사용자에 대한 알림 설정을 구성할 수 있습니다. 여기에는 이벤트 발생에 따라 사용자가에서 설명한 대로 알림을 수신하는지 또는 일별 요약 이메일 하나에서 알림을 수신하는지 여부도 포함됩니다 [Adobe Workfront 알림](../../../workfront-basics/using-notifications/wf-notifications.md). 사용자 편집에 필요한 액세스 수준에 대한 자세한 내용은 [사용자에게 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 

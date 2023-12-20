@@ -8,7 +8,7 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: 8f8a274eb872f78f888cf76b2d5fd3d39c6d6223
+source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
 workflow-type: tm+mt
 source-wordcount: '1382'
 ht-degree: 1%
@@ -16,6 +16,8 @@ ht-degree: 1%
 ---
 
 # 작업 기간 및 기간 유형 개요
+
+<!-- Audited: 12/2023 -->
 
 작업 기간은 작업의 계획된 완료 일자와 계획된 시작 일자 간의 차이입니다. 기간은 작업을 완료하는 데 사용할 수 있는 기간을 나타냅니다.
 
