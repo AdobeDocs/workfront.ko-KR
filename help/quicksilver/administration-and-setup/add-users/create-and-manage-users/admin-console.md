@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: cc20fd99ec334140cc5f6d73e4f257ea2cdabe23
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1116'
 ht-degree: 0%
 
 ---
@@ -84,15 +84,15 @@ Workfront용 Admin Console을 사용하기 전에 콘솔로 초대하는 이메�
 
 ## Workfront 프로덕션 인스턴스의 사용자 및 관리 영역에 액세스 {#access-the-user-and-admin-area-for-your-production-instance-of-workfront}
 
-1. 다음에서 [Adobe Admin Console 페이지](https://adminconsole.adobe.com/)를 선택하고 **제품** 맨 위 탐색 막대에서 탭을 선택한 다음 **Workfront** 제품 타일.
+1. 다음에서 [Adobe Admin Console 페이지](https://adminconsole.adobe.com/)를 선택하고 **제품** 맨 위 탐색 막대에서 탭을 클릭한 다음 **Workfront**.
 
-   ![](assets/admin-product-1.png)
+   <!--![](assets/admin-product-1.png)-->
 
 1. 표시되는 목록에서 맨 위에 있는 링크를 선택합니다.
 
    사용자가 작업하는 프로덕션 인스턴스입니다.
 
-   ![](assets/instances-1.png)
+   <!--![](assets/instances-1.png)-->
 
    >[!TIP]
    >
@@ -165,7 +165,7 @@ Workfront에서 사용자를 만드는 방법에 대한 지침은 [사용자 추
 
 {{step-1-to-users}}
 
-1. 사용자를 선택한 다음 M을 클릭합니다&#x200B;**o** re 아이콘 ![](assets/more-icon.png).
+1. 사용자를 선택한 다음 **자세히** 아이콘 ![](assets/more-icon.png).
 
 1. 사용자를 승인하려면 **승인**&#x200B;을 클릭한 다음 을 클릭합니다 **제출**.
 
