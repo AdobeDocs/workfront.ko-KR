@@ -7,10 +7,10 @@ description: 초과 근무는 Adobe Workfront에서 기본적으로 계산되지
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: ad6205cd-7534-49e5-b142-09f90bf672ce
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 0%
+source-wordcount: '472'
+ht-degree: 1%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->목록 또는 보고서에서 타임시트 보기에 추가할 수 있는 초과 작업 시간 필드에는 타임시트의 초과 작업 시간 필드에 있는 정보가 표시됩니다. 이 정보는 타임시트를 수정할 수 있는 액세스 권한이 있는 사용자가 수동으로 업데이트합니다. 타임시트의 초과 작업 시간 필드에 대한 자세한 내용은 이 문서 를 참조하십시오 [타임시트 레이아웃 이해](../../../timesheets/timesheets/timesheet-layout.md).
+>목록 또는 보고서에서 타임시트 보기에 추가할 수 있는 초과 작업 시간 필드에는 타임시트의 초과 작업 시간 필드에 있는 정보가 표시됩니다. 이 정보는 타임시트를 수정할 수 있는 액세스 권한이 있는 사용자가 수동으로 업데이트합니다. 타임시트의 초과 작업 시간 필드에 대한 자세한 내용은 이 문서 를 참조하십시오 [타임시트 레이아웃 개요](../../../timesheets/timesheets/timesheet-layout.md).
 
 ## 액세스 요구 사항
 
@@ -35,7 +35,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
    다음 항목 선택 **열(보기)** 타임시트 보고서의 탭
 
-1. 클릭 **열 추가**.
+1. **열 추가**&#x200B;를 클릭합니다.
 1. 클릭 **텍스트 모드로 전환**.
 1. 다음에서 **이 열에 표시** 영역, 클릭 **텍스트를 편집하려면 클릭**.
 1. 다음 텍스트 모드 코드를 복사하여 **텍스트 모드** 대화 상자.

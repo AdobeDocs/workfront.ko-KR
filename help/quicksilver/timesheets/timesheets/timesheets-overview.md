@@ -7,9 +7,9 @@ description: 타임시트를 사용하여 Adobe Workfront 내부 및 외부에�
 author: Alina
 feature: Timesheets
 exl-id: 2174a879-4a19-4a0f-803a-f19a8909f227
-source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
+source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Workfront에서 시간을 기록하는 방법에 대한 자세한 내용은 [로
 
 {{step1-to-timesheets}}
 
-기본적으로 표시할 액세스 권한이 있는 타임시트와 모든 타임시트입니다. Adobe Workfront의 타임시트 레이아웃에 대한 자세한 내용은 [타임시트 레이아웃 이해](../../timesheets/timesheets/timesheet-layout.md).
+기본적으로 표시할 액세스 권한이 있는 타임시트와 모든 타임시트입니다. Adobe Workfront의 타임시트 레이아웃에 대한 자세한 내용은 [타임시트 레이아웃 개요](../../timesheets/timesheets/timesheet-layout.md).
 
 ![](assets/all-timesheets-list-nwe-350x68.png)
 

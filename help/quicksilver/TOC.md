@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: ec254d4a81e92dc6e61afa852dde7d5d7ef5fc20
+source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
 workflow-type: tm+mt
-source-wordcount: '13835'
+source-wordcount: '13834'
 ht-degree: 1%
 
 ---
@@ -1905,7 +1905,7 @@ ht-degree: 1%
    * 타임시트 세부 정보 {#details}
       * [타임시트 세부 정보: 문서 색인](timesheets/timesheets/timesheets.md)
       * [타임시트 개요](timesheets/timesheets/timesheets-overview.md)
-      * [타임시트 레이아웃 이해](timesheets/timesheets/timesheet-layout.md)
+      * [타임시트 레이아웃 개요](timesheets/timesheets/timesheet-layout.md)
    * 타임시트 만들기 및 관리 {#create-and-manage-timesheets-in-adobe-workfront}
       * [타임시트 만들기 및 관리: 문서 인덱스](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
       * [타임시트 프로필 만들기, 편집 및 할당](timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)

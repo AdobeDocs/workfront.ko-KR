@@ -3,30 +3,30 @@ content-type: overview
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: 계산된 사용자 정의 필드와 계산된 열 비교
-description: 보고서 및 대시보드의 사용자 지정 데이터에 대해 알아보기
+description: Adobe Workfront의 여러 필드를 집계하여 해당 집계 값을 새 필드에 표시하려면 사용자 정의 양식에서 계산된 사용자 정의 필드를 만들거나 보기에서 계산된 열을 만들 수 있습니다.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
+source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '829'
 ht-degree: 0%
 
 ---
 
 # 계산된 사용자 정의 필드와 계산된 열 비교
 
-Adobe Workfront의 여러 필드를 집계하고 해당 집계 값을 새 필드에 표시하려면 다음을 수행할 수 있습니다.
+Adobe Workfront의 여러 필드를 집계하고 해당 집계 값을 새 필드에 표시하려면 다음을 만들 수 있습니다.
 
 * 사용자 정의 양식의 계산된 사용자 정의 필드\
-  계산된 사용자 정의 필드를 사용자 정의 양식에 추가하는 방법에 대한 자세한 내용은 섹션을 참조하십시오 [사용자 정의 양식에 계산된 필드 추가](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#creating-calculated-custom-fields) 이 문서에서 [사용자 정의 양식에 계산된 데이터 추가](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+  계산된 사용자 정의 필드를 사용자 정의 양식에 추가하는 방법에 대한 자세한 내용은 섹션을 참조하십시오 [사용자 정의 양식에 계산된 필드 추가](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#add-a-calculated-field-to-a-custom-form) 이 문서에서 [사용자 정의 양식에 계산된 데이터 추가](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 * 보기의 계산된 열\
-  뷰에서 계산을 사용하는 방법에 대한 자세한 내용은 섹션을 참조하십시오 [보기에서 텍스트 모드 사용](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#using-text-mode-in-views) 이 문서에서 [텍스트 모드의 일반적인 사용 개요](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+  뷰에서 계산을 사용하는 방법에 대한 자세한 내용은 섹션을 참조하십시오 [보기에서 텍스트 모드 사용](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#use-text-mode-in-views) 이 문서에서 [텍스트 모드의 일반적인 사용 개요](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 
-텍스트 모드를 사용하여 계산된 필드와 계산된 열을 모두 작성하지만 작성하기 위한 구문은 다릅니다. 계산된 필드 및 계산된 열을 작성하는 방법에 대해 알아보려면 위에 나열된 문서를 참조하십시오. 계산된 사용자 지정 필드 및 열과 같이 계산된 데이터 표현식에 사용된 다른 구문에 대한 자세한 내용은 섹션을 참조하십시오 [계산된 사용자 정의 필드와 계산된 사용자 정의 열의 구문](#syntax-of-calculated-custom-fields-vs-calculated-custom-columns-syntax) 이 문서에서.
+텍스트 모드를 사용하여 계산된 필드와 계산된 열을 모두 작성하지만 작성하기 위한 구문은 다릅니다. 계산된 필드 및 계산된 열을 작성하는 방법에 대해 알아보려면 위에 나열된 문서를 참조하십시오. 계산된 사용자 지정 필드 및 열과 같이 계산된 데이터 표현식에 사용된 다른 구문에 대한 자세한 내용은 섹션을 참조하십시오 [계산된 사용자 정의 필드와 계산된 사용자 정의 열의 구문](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md#syntax-of-calculated-custom-fields-vs-calculated-custom-columns) 이 문서에서.
 
-계산된 열과 계산된 필드 모두에서 동일한 계산을 사용할 수 있습니다. 그러나 이러한 계산의 목적에 따라 하나를 구축하는 것을 고려할 수 있습니다.
+계산된 열과 계산된 필드 모두에서 동일한 계산을 사용할 수 있습니다. 그러나 이러한 계산을 위해 목적이 무엇인지에 따라 하나를 구축하는 것을 다른 하나와 비교하는 것을 고려할 수 있습니다.
 
 ## 계산된 사용자 정의 필드와 계산된 사용자 정의 열의 구문
 
@@ -36,25 +36,19 @@ For example:
 
 * 사용자 정의 필드의 작업에 대한 사용자 정의 양식에서 다음을 사용하여 사용자 정의 양식이 첨부된 작업의 상위 프로젝트 이름을 생성합니다.
 
-  ```
-  {project}.{name}
-  ```
+  `{project}.{name}`
 
 * 보고서의 사용자 정의 열에서 다음을 사용하여 작업 보고서에 프로젝트 이름 사용자 정의 열을 추가합니다.
 
-  ```
-  valuefield=project:name
-  ```
+  `valuefield=project:name`
 
   또는
 
-  ```
-  valueexpression={project}.{name}
-  ```
+  `valueexpression={project}.{name}`
 
   >[!TIP]
   >
-  >계산된 표현식이 사용되는 모든 텍스트 모드 보고 요소(보기, 필터, 그룹화, 프롬프트)에도 동일한 구문이 적용됩니다.
+  >계산된 표현식이 사용되는 모든 텍스트 모드 보고 요소(보기, 필터, 그룹화 및 프롬프트)에는 동일한 구문이 적용됩니다.
 
 두 구문 간의 차이점은 다음과 같습니다.
 
@@ -63,8 +57,8 @@ For example:
  <col> 
  <tbody> 
   <tr> 
-   <td>계산된 사용자 정의 필드</td> 
-   <td>계산된 사용자 지정 보고 요소</td> 
+   <td><strong>계산된 사용자 정의 필드</strong></td>
+   <td><strong>계산된 사용자 지정 보고 요소</strong></td> 
   </tr> 
   <tr> 
    <td> <p>Workfront 인터페이스에 표시되는 필드의 이름을 사용합니다.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>예: </b></span></span>계산된 사용자 정의 필드에 사용된 필드 이름의 예: <code>Planned Completion Date</code>.</p> </td> 
@@ -76,7 +70,7 @@ For example:
   </tr> 
   <tr> 
    <td>필드를 마침표로 구분합니다.</td> 
-   <td> <p>에서 필드를 사용할 때 콜론으로 구분합니다. <code>valuefield </code>line</p> <p>에서 사용할 때 필드를 마침표로 구분합니다. <code>valueexpression </code>줄. </p> </td> 
+   <td> <p>에서 필드를 사용할 때 콜론으로 구분합니다. <code>valuefield</code>줄.</p> <p>에서 사용할 때 필드를 마침표로 구분합니다. <code>valueexpression</code>줄.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -114,7 +108,7 @@ For example:
 
 계산된 사용자 정의 필드의 예는 [보고서의 계산된 사용자 정의 데이터](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md).
 
-보기의 계산된 사용자 정의 열에 대한 예는 다음 문서를 참조하십시오.
+보기에서 계산된 사용자 정의 열의 예는 다음 문서를 참조하십시오.
 
 * [텍스트 모드의 일반적인 사용 개요](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)
 * [사용자 정의 보기, 필터링 및 그룹화 샘플: 문서 인덱스](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
