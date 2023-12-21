@@ -6,9 +6,9 @@ description: 다음에서 [!UICONTROL 게시판] 대시보드에서 새 보드�
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 03abff907016809addbbf8f50eb2e6e012e6fed3
+source-git-commit: 5b6c7488bc1233e141e478da8546a05fcfffdc96
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '764'
 ht-degree: 1%
 
 ---
@@ -70,11 +70,13 @@ ht-degree: 1%
 
       다음 [!UICONTROL **카드 추가 중**] 카운터는 보드에 표시될 카드의 수를 보여줍니다. 예를 들어 작업 및 문제가 100개인 프로젝트를 선택하면 카운터에 100개가 표시됩니다. 사용자 할당을 추가하고 해당 사람이 프로젝트에서 5개의 작업에 할당되면 카운터에 5개가 표시됩니다.
 
-   1. (선택 사항) 선택 [!UICONTROL **완료된 작업 포함**] 보드에 완성된 카드를 포함시키십시오.
+   1. (선택 사항) 선택 [!UICONTROL **완료된 작업을 보관된 카드로 포함**] 완료된 작업 및 문제를 보드에 보관된 카드로 가져오기.
 
       >[!NOTE]
       >
-      >이 옵션을 선택하지 않으면 다른 상태의 카드가 완료로 표시되면 보드에서 &quot;떨어져&quot; 더 이상 표시되지 않습니다.
+      >기본적으로 보관된 카드는 보드에 표시되지 않습니다. 보관된 카드를 표시하려면 구성 설정을 켠 다음 보드를 필터링하여 보관된 카드를 표시해야 합니다. 자세한 내용은 [카드에 표시할 필드 사용자 지정](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md) 및 [보드에서 필터링 및 검색](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+      >
+      >이 옵션을 선택하지 않으면 보드 생성 시 완료된 카드가 보드에 표시되지 않습니다. 나중에 완료로 표시된 카드는 완료 열의 보드에 남아 있으며 카드 폴오프를 설정하지 않는 한 보관되지 않습니다. 자세한 내용은 [카드 폴오프 구성](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
 
    1. (선택 사항) [!UICONTROL **고급 필터 사용**] 추가 필터 옵션을 표시합니다.
 
