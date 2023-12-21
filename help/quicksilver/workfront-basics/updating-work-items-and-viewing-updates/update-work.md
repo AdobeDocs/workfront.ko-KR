@@ -6,9 +6,9 @@ description: Adobe Workfront 개체(프로젝트, 작업 또는 문제)에 업�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '4163'
+source-wordcount: '4172'
 ht-degree: 1%
 
 ---
@@ -42,6 +42,7 @@ After the monthly releases to Production, the same features are also available i
 > * 홈
 > * 목록의 요약 패널
 > * 타임시트의 요약 패널
+> * 업무 균형자의 요약 패널
 
 <!-- with October 26 release: add somewhere this, and decide where we need to keep information about the legacy commenting. Should we create an article about iterations comments like we have for goals and cards?!:
 
@@ -100,7 +101,7 @@ After the monthly releases to Production, the same features are also available i
 
    * Workfront 개체의 업데이트 섹션에서
    * 홈 영역에서(작업 및 문제의 경우)
-   * 오브젝트 목록의 요약 패널 또는 타임시트(작업 및 문제용)에서
+   * 오브젝트 목록의 요약 패널, 타임시트 또는 업무 균형자(작업 및 문제)
 
 이 페이지의 정보에서는 Workfront 개체에 댓글을 다는 방법과 댓글을 추가하는 동안 프로젝트, 작업 및 문제를 업데이트하는 방법을 설명합니다.
 

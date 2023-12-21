@@ -6,9 +6,9 @@ description: 프로젝트는 Adobe Workfront의 대규모 작업 단위입니다
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1268'
 ht-degree: 1%
 
 ---
@@ -156,6 +156,11 @@ ht-degree: 1%
      문제를 전환하여 프로젝트를 만들 때 템플릿을 사용하는 경우 위의 두 번째 시나리오를 참조하여 어떤 그룹 및 Workfront이 새 프로젝트에 적용되는지 파악하십시오.
 
 ## 처음부터 프로젝트 만들기
+
+>[!NOTE]
+>
+>템플릿을 사용하여 프로젝트를 만드는 경우 이 문서도 보는 것이 좋습니다 [템플릿을 사용하여 프로젝트 만들기](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md).
+
 
 1. 다음 중 하나를 수행하십시오.
 

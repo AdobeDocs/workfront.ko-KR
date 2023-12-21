@@ -6,7 +6,7 @@ description: 필터를 사용하여 항목 목록의 화면에 표시되는 정�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
 source-wordcount: '2462'
 ht-degree: 1%
@@ -149,24 +149,24 @@ Workfront 개체에 대한 자세한 내용은 [Adobe Workfront의 오브젝트 
   >
   >1. 표준 빌더를 사용하여 다음 구문을 사용하는 필터를 생성합니다.
   >
-  >   `(A OR B) AND C`
+  >      `(A OR B) AND C`
   >
-  >1. 레거시 빌더로 전환하고 다음에 설명된 대로 레거시 빌더의 구문을 사용하여 필터를 편집합니다. [기존 빌더에서 필터 만들기 또는 편집](#create-filter-in-legacy-builder) 이 문서의 섹션. 기존 빌더 구문은 다음과 같이 필터 문을 표시합니다.
+  >1. 섹션에 설명된 대로 레거시 빌더로 전환하고 레거시 빌더의 구문을 사용하여 필터를 편집합니다 [기존 빌더에서 필터 만들기 또는 편집](#create-filter-in-legacy-builder) 이 문서에서. 기존 빌더 구문은 다음과 같이 필터 문을 표시합니다.
   >
-  >   `A AND C`
-  >   `OR`
-  >   `B AND C`
+  >      `A AND C`
+  >      `OR`
+  >      `B AND C`
   >
   >1. 기존 인터페이스의 필터를 변경합니다.
   >1. 표준 빌더로 다시 전환합니다. 필터 문은 위에서 설명한 대로 기존 빌더에서 지원되는 논리에 따라 표시됩니다.
   >
-  >   필터는 다음과 같이 표준 빌더 인터페이스에 표시됩니다.
+  >      필터는 다음과 같이 표준 빌더 인터페이스에 표시됩니다.
   >  
-  >   `A AND C`
-  >   `OR`
-  >   `B AND C`
+  >      `A AND C`
+  >      `OR`
+  >      `B AND C`
   > 
-  >   이 문제는 필터가 기존 인터페이스에서 수정되었기 때문에 발생합니다.
+  >      이 문제는 필터가 기존 인터페이스에서 수정되었기 때문에 발생합니다.
 
 ## 표준 빌더에서 필터 만들기 또는 편집
 

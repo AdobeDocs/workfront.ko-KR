@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '3158'
+source-wordcount: '3169'
 ht-degree: 2%
 
 ---
@@ -186,7 +186,7 @@ After permssions - replace the table with:
 
 
 1. 다음을 클릭합니다. **+** 아이콘을 클릭하면 새 필드가 추가됩니다.
-1. 다음에서 **새 필드** 탭에서 다음 필드 유형 중에서 선택합니다.
+1. 다음에서 **새 필드** 탭에서 필드 유형을 검색합니다. **필드 유형** 또는 다음 필드 유형 중에서 선택합니다.
 
    * [한 줄 텍스트](#single-line-text)
    * [단락](#paragraph)

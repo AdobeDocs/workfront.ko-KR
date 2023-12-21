@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 94d3fc1715d32531962a1b7405850c0b2944c776
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '2870'
+source-wordcount: '2890'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,13 @@ Maestro 레코드에 대한 댓글 달기 환경은 Workfront 객체에 대한 �
 
 ### Adobe Workfront Fusion용 Maestro 커넥터(베타)
 
-미리보기 및 프로덕션: 2023년 12월 21일
+프로덕션: 2023년 12월 21일
+
+>[!IMPORTANT]
+>
+>Maestro와 연결을 만들려면 조직에서 Adobe Workfront Fusion을 구입해야 합니다.
+>
+>자세한 내용은 [Adobe Workfront Fusion 개요](/help/quicksilver/workfront-fusion/get-started/workfront-fusion-overview.md).
 
 이제 Adobe Workfront Fusion을 사용하여 Maestro에 연결할 수 있습니다. 새로운 Adobe Maestro Fusion 연결을 통해 다음과 같은 작업을 수행할 수 있습니다.
 

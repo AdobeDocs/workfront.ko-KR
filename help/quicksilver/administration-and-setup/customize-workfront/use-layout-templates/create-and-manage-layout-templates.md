@@ -9,9 +9,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -66,11 +66,14 @@ Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세�
 ## 레이아웃 템플릿 만들기 및 관리에 대한 고려 사항
 
 * 사용자는 자신의 레이아웃의 몇 가지 영역을 사용자 정의할 수 있습니다. 레이아웃 템플릿을 변경하면 덮어쓰거나 재설정하지 않고 변경 사항이 사용자 정의된 모든 항목과 병합됩니다. 새 레이아웃 템플릿에 사용자를 할당하는 경우에도 마찬가지입니다.
-* Adobe Workfront Classic에서 만든 이전 레이아웃 템플릿은 2019년 초가을에 마이그레이션된 이후 새 Adobe Workfront 환경의 인스턴스에서 자동으로 사용할 수 있습니다. 이후 Adobe Workfront Classic에서 생성된 레이아웃 템플릿은 2020년 4월에 마이그레이션되었습니다. 새로운 기능을 활용하고 해당 환경에서 더 유용하게 사용할 수 있도록 새 Adobe Workfront 경험에서 이러한 레이아웃 템플릿을 업데이트하는 것이 좋습니다.
 * 그룹 관리자와 다른 사용자를 편집할 수 있는 플랜 라이선스가 있는 사용자는 프로필을 편집할 때 관리할 수 있는 사용자에게 시스템 수준 및 그룹 수준 레이아웃 템플릿을 추가할 수 있습니다.
 * 그룹 관리자는 작업 역할 또는 팀에 레이아웃 템플릿을 할당할 수 없습니다.
 
 레이아웃 템플릿에 대한 자세한 내용은 [레이아웃 템플릿](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md).
+
+<!--removed this from above, but keeping it for a bit, in case it will be needed - known issue around old templates still visible at time:
+* Your older layout templates created in Adobe Workfront Classic have been automatically available in your instance of the new Adobe Workfront experience since they were migrated in early Fall 2019. Layout templates created in Adobe Workfront Classic after that time were migrated in April 2020. We recommend that you update these layout templates in the new Adobe Workfront experience to take advantage of new functionality and to make them even more useful in that environment.
+-->
 
 ## 레이아웃 템플릿 만들기 또는 수정
 
