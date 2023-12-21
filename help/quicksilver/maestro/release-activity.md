@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
+source-git-commit: 94d3fc1715d32531962a1b7405850c0b2944c776
 workflow-type: tm+mt
-source-wordcount: '2796'
+source-wordcount: '2870'
 ht-degree: 0%
 
 ---
@@ -87,6 +87,26 @@ Maestro 레코드에 대한 댓글 달기 환경은 Workfront 객체에 대한 �
 
 자세한 내용은 [레코드 주석 관리](/help/quicksilver/maestro/records/manage-record-comments.md).
 
+### Adobe Workfront Fusion용 Maestro 커넥터(베타)
+
+미리보기 및 프로덕션: 2023년 12월 21일
+
+이제 Adobe Workfront Fusion을 사용하여 Maestro에 연결할 수 있습니다. 새로운 Adobe Maestro Fusion 연결을 통해 다음과 같은 작업을 수행할 수 있습니다.
+
+* 레코드 만들기, 읽기, 업데이트 및 삭제
+
+* 레코드 유형별 레코드 목록 가져오기
+
+* 레코드 유형 목록 삭제 또는 가져오기
+
+* 레코드 검색
+
+* API 호출 만들기
+
+* Maestro에서 변경된 경우 시나리오 트리거
+
+자세한 내용은 [Adobe Maestro 모듈](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md).
+
 ## 2023년 12월 11일 주
 
 ### 레코드 유형의 표 보기에서 기본 필드 업데이트
@@ -126,7 +146,7 @@ Maestro 레코드에 대한 댓글 달기 환경은 Workfront 객체에 대한 �
 
 미리보기 릴리스: 2023년 12월 14일
 
-프로덕션 릴리스: 2023년 12월 15일로 예정됨
+프로덕션 릴리스: 2023년 12월 21일
 
 >[!IMPORTANT]
 >
@@ -202,7 +222,7 @@ Maestro 레코드에 대한 댓글 달기 환경은 Workfront 객체에 대한 �
 
 ### 테이블 보기에 대한 그룹화
 
-미리보기 및 프로덕션: 2023년 11월 7일
+미리 보기 및 프로덕션: 2023년 11월 7일
 
 이제 레코드 유형 페이지의 표 보기에서 레코드를 그룹화할 수 있습니다. Maestro 인터페이스에서 3개의 고유한 필드별로 그룹화할 수 있습니다 <!--checking into this for now: and by four fields when using the API-->.
 
@@ -242,7 +262,7 @@ Maestro 레코드에 대해 다음 필드 유형을 도입했습니다.
 
 ### 표 보기에서 탐색 기능이 개선됨
 
-미리보기 및 프로덕션: 2023년 11월 2일
+미리 보기 및 프로덕션: 2023년 11월 2일
 
 레코드 유형 페이지의 표 보기에서 탐색을 개선했습니다.
 

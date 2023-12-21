@@ -6,20 +6,18 @@ description: 스마트 할당을 사용하여 작업을 완료하는 데 가장 
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 94d3fc1715d32531962a1b7405850c0b2944c776
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
 
 # 스마트 할당 만들기
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.</span>   
-  
-<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> 
--->
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다.</span>
+
+<span class="preview">현재 릴리스 일정에 대한 자세한 내용은 [2024년 1분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
 
 스마트 할당을 사용하여 작업을 완료하는 데 가장 적합한 사용자를 식별할 수 있습니다. 스마트 할당은 작업에 가장 적합한 리소스를 결정하는 알고리즘을 기반으로 리소스에 작업 항목을 할당할 때 Adobe Workfront이 사용자에게 제공하는 제안입니다. 스마트 할당에 대한 자세한 내용은 [스마트 할당 개요](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
@@ -60,24 +58,21 @@ ht-degree: 0%
 
 스마트 할당은 Workfront에서 할당할 수 있는 대부분의 위치에서 사용할 수 있습니다.
 
-1. 다음 영역으로 이동하여 **할당** 또는 **할당 대상:** 필드:   
+1. 다음 영역으로 이동하여 **할당** 또는 **할당 대상:** 필드:
 
    * 작업 또는 문제 목록 또는 보고서
    * 작업 또는 문제 헤더
    * 작업 또는 문제 요약 패널
    * 홈 영역에 나열된 항목에 대한 지정 필드
-   * 예약 또는 예약 영역의 작업 또는 문제
    * 업무 균형자의 작업 또는 문제
 
-1. 할당 필드에 커서를 놓고 2초 동안 기다립니다. 다음 **제안된 할당** 또는 **다음은 몇 가지 권장 사항입니다** 목록이 표시됩니다.
+1. 할당 필드에 커서를 놓고 2초 동안 기다립니다.
 
-   <!--check the casing for "assignments" should be lower case in task lists??-->
+   <span class="preview">다음 **제안된 할당** 목록이 표시됩니다.</span> <!--check the casing for "assignments" should be lower case in task lists??-->
 
-   <!--replace the last sentence above with this when we release smarter assignments:
-   The **Suggested assignments** list displays. 
-   NOTE (********and add preview tags for the note*****)
-   The list header displays **Here are a few recommendations** instead of **Suggested assignments** in an issue list.
-   -->
+   >[!TIP]
+   >
+   >   목록 헤더가 표시됩니다. **다음은 몇 가지 권장 사항입니다** 대신 **제안된 할당** 문제 목록에 있습니다.
 
    ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
@@ -85,7 +80,9 @@ ht-degree: 0%
 
    스마트 할당이 표시되는 위치에 대한 자세한 내용은 문서의 &quot;스마트 할당 제안 찾기&quot; 섹션을 참조하십시오 [스마트 할당 개요](../../../manage-work/tasks/assign-tasks/smart-assignments.md) .
 
-1. Recommendations 목록에서 해당 이름을 클릭하여 사용자를 선택합니다. 클릭 **나에게 할당** 자신에게 작업 항목을 할당합니다.
+1. Recommendations 목록에서 해당 이름을 클릭하여 사용자를 선택합니다.
+
+1. (선택 사항) **나에게 할당** 작업 항목을 자신에게 할당합니다.
 
    >[!TIP]
    >
