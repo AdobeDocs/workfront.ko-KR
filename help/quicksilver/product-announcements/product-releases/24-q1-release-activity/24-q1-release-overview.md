@@ -4,9 +4,9 @@ description: 2024년 1분기 릴리스 개요
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 1ccbab53684928974ef739b0176a6ea893a27320
+source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
 workflow-type: tm+mt
-source-wordcount: '1140'
+source-wordcount: '1372'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,40 @@ ht-degree: 0%
                             </li>
                             <li>
                                 <p>분기별 릴리스 프로덕션: 24.1 릴리스 포함</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+           </tbody>
+        </table>
+
+### 보드 개선 사항
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">기능</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">릴리스 날짜</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">동적 보드는 보드를 생성할 때 완료된 카드를 보관합니다</a></p><p>[!BADGE In production ]{type=Informative}</p><p>동적 보드를 만들 때 보드에 완료된 작업 및 문제를 포함할 수 있는 선택 사항이 있습니다. 완료된 작업 및 문제가 많은 프로젝트의 경우 동적 보드에 성능 문제가 있을 수 있습니다. 이제 동적 보드를 만들고 완료된 작업을 포함하도록 선택하면 작업 및 문제가 보드로 보관됩니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2023년 12월 21일</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">모든 고객을 위한 프로덕션: 2023년 12월 21일</span></p>
                             </li>
                         </ul>
                     </td>
@@ -170,6 +204,24 @@ ht-degree: 0%
                  </tr>
                  <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">레이아웃 템플릿을 사용하는 새 홈에 대한 관리자 컨트롤</a></p><p>이제 관리자는 레이아웃 템플릿을 사용하여 사용자를 위해 새 홈을 사용자 정의할 수 있습니다. 사용자 지정 옵션에는 필수 위젯과 해당 위치 선택, 배경 선택 및 사용 가능한 필터 및 그룹 선택(및 기본값 설정)을 위한 위젯별 옵션이 포함됩니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2023년 12월 21일</p>
+                            </li>
+                            <li>
+                                <p>빠른 릴리스를 위한 프로덕션: 24.1 릴리스 포함</p>
+                            </li>
+                            <li>
+                                <p>분기별 릴리스 프로덕션: 24.1 릴리스 포함</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">내 작업 빠른 작업 버튼이 마우스오버에만 표시되도록 변경됨</a></p><p>[!BADGE In production ]{type=Informative}</p><p>성능 향상을 위해 이제 내 작업 위젯에서 사용할 수 있는 빠른 작업 버튼이 작업 항목을 마우스로 가리킬 때만 표시됩니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -228,6 +280,44 @@ ht-degree: 0%
                             </li>
                             <li>
                                 <p><span class="preview">모든 고객을 위한 프로덕션: 2023년 11월 9일</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                    </tr>
+           </tbody>
+        </table>
+
+
+### 프로젝트 개선 사항
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">기능</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">릴리스 날짜</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">AI 기반 스마트 할당</a></p><p>Workfront이 작업에 대한 스마트 할당을 계산하고 제안하는 데 사용하는 알고리즘을 변경했습니다. 새 알고리즘은 작업을 할당하는 Workfront의 모든 위치(작업 목록, 작업 헤더의 할당 영역, 홈 및 요약 패널)에 적용됩니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2023년 12월 21일</p>
+                            </li>
+                            <li>
+                                <p>빠른 릴리스를 위한 프로덕션: 24.1 릴리스 포함</p>
+                            </li>
+                            <li>
+                                <p>분기별 릴리스 프로덕션: 24.1 릴리스 포함</p>
                             </li>
                         </ul>
                     </td>

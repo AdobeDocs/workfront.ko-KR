@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '995'
 ht-degree: 2%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td>모든</td> 
+   <td>임의</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -132,9 +132,9 @@ ht-degree: 2%
       <td role="rowheader">타임스탬프 숨기기</td> 
       <td>홈 및 요약의 다음 날짜 필드에 대한 타임스탬프를 숨깁니다.
        <ul>
-        <li>계획된 완료 일자</li>
+        <li>계획된 완료 일자 기준</li>
         <li>커밋 일자</li>
-        <li><p>제출 날짜</p></li>
+        <li>제출 날짜</li>
        </ul><p><b>참고</b>: 이 옵션을 활성화하면 기한이 경과된 작업 항목이 시간이 아닌 날짜만을 기준으로 홈 작업 목록에서 지연 그룹화로 이동됩니다.</p></td> 
      </tr> 
     </tbody> 

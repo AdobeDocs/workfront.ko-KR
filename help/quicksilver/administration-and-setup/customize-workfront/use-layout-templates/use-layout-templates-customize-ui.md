@@ -10,10 +10,10 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: f8961140-948f-4bea-956b-a8126008b8cb
-source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
+source-git-commit: ac70fc3564273ef7865de2ae4ca704bb7f61af70
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 8%
+source-wordcount: '158'
+ht-degree: 2%
 
 ---
 
@@ -28,6 +28,7 @@ ht-degree: 8%
 * [레이아웃 템플릿을 사용하여 왼쪽 패널 사용자 정의](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
 * [레이아웃 템플릿을 사용하여 세부 정보 보기 사용자 지정](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
 * [레이아웃 템플릿을 사용하여 홈 및 요약 맞춤화](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+* [레이아웃 템플릿을 사용하여 새 홈 맞춤화](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
 * [레이아웃 템플릿을 사용하여 고정된 페이지 사용자 지정](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
 * [레이아웃 템플릿을 사용하여 필터, 보기 및 그룹화 맞춤화](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
 * [레이아웃 템플릿을 사용하여 사용자 인터페이스 용어 맞춤화](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
@@ -36,4 +37,4 @@ ht-degree: 8%
 * [레이아웃 템플릿에 대한 관리 액세스 권한 부여](../../../administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
 * [레이아웃 템플릿에 사용자 할당](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
 * [레이아웃 템플릿 복사](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)
-* [API 호출을 사용하여 클래식 레이아웃 템플릿을 삭제합니다](../../../administration-and-setup/customize-workfront/use-layout-templates/delete-classic-layout-templates.md)
+* [API 호출을 사용하여 클래식 레이아웃 템플릿 삭제](../../../administration-and-setup/customize-workfront/use-layout-templates/delete-classic-layout-templates.md)

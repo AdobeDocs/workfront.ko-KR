@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 2d58b1938dbce4a8425236f0f690e1697d8340c1
+source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
 workflow-type: tm+mt
-source-wordcount: '13835'
+source-wordcount: '13842'
 ht-degree: 1%
 
 ---
@@ -23,9 +23,11 @@ ht-degree: 1%
          * [2024년 1분기 릴리스 개요](product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)
          * [2024년 1분기 관리자 개선 사항](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md)
          * [2024년 1분기 문서 관리 개선 사항](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md)
-         * [2024년 1분기 통합 개선 사항](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md)
-         * [2024년 1분기 업데이트 스트림 및 알림 개선 사항](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md)
+         * [2024년 1분기 보드 개선 사항](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-boards-enhancements.md)
          * [2024년 1분기 홈 개선 사항](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md)
+         * [2024년 1분기 통합 개선 사항](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md)
+         * [2024년 1분기 프로젝트 개선 사항](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md)
+         * [2024년 1분기 업데이트 스트림 및 알림 개선 사항](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md)
       * 2023년 4분기 릴리스 {#release-23-q4}
          * [2023년 4분기 릴리스 개요](product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)
          * [2023년 4분기 관리자 개선 사항](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md)
@@ -537,6 +539,7 @@ ht-degree: 1%
          * [왼쪽 패널 사용자 정의](administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
          * [세부 사항 보기 사용자 지정](administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
          * [홈 및 요약 맞춤화](administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+         * [새 홈 맞춤화](administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
          * [고정된 페이지 사용자 지정](administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
          * [필터, 보기, 그룹화 맞춤화](administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
          * [사용자 인터페이스 용어 맞춤화](administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)

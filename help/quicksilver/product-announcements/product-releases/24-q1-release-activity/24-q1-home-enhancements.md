@@ -3,9 +3,10 @@ title: 2024년 1분기 홈 개선 사항
 description: 2024년 1분기 홈 개선 사항
 author: Nolan
 feature: Product Announcements
-source-git-commit: 3c2b804741300fcf4cf3f85a73ed1dac0a9d9a40
+exl-id: 30867b75-ec33-486e-acfa-b8bab6ccf23c
+source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -15,6 +16,14 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2024년 1분기 릴리스의 모든 홈 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2024년 1분기 릴리스를 통해 프로덕션 환경에서 사용할 수 있습니다.
 
 2024년 1분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [2024년 1분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
+## 레이아웃 템플릿을 사용하는 새 홈에 대한 관리자 컨트롤
+
+이제 관리자는 레이아웃 템플릿을 사용하여 사용자를 위해 새 홈을 사용자 정의할 수 있습니다. 사용자 지정 옵션에는 필수 위젯과 해당 위치 선택, 배경 선택 및 사용 가능한 필터 및 그룹 선택(및 기본값 설정)을 위한 위젯별 옵션이 포함됩니다.
+
+관리자 레이아웃 템플릿 선택 사항은 개별 사용자의 사용자 정의를 무시합니다. 즉, 레이아웃 템플릿에 대한 변경 사항이 저장되면 해당 레이아웃 템플릿의 사용자는 레이아웃 템플릿과 일치하도록 새 홈 페이지가 변경되고 기존 위젯 선택 사항이 페이지 맨 아래로 푸시됩니다. 관리자가 선택한 위젯은 사용자가 위치를 변경할 수 있지만 제거할 수 없습니다.
+
+자세한 내용은 [레이아웃 템플릿을 사용하여 새 홈 맞춤화](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md).
 
 ## 내 작업 빠른 작업 버튼이 마우스오버에만 표시되도록 변경됨
 
