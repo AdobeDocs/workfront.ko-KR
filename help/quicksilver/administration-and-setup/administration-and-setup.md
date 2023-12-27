@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration;setup
 navigation-topic: administration-and-setup
 title: "관리 및 설정: 문서 색인"
-description: Workfront 시스템을 관리하는 데 필요한 정보를 찾습니다.
+description: Workfront 시스템을 관리하는 데 필요한 정보를 찾으십시오.
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
@@ -12,7 +12,7 @@ exl-id: f80bb267-be96-41d4-98c5-398bde66499e
 source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
 workflow-type: tm+mt
 source-wordcount: '73'
-ht-degree: 1%
+ht-degree: 15%
 
 ---
 
