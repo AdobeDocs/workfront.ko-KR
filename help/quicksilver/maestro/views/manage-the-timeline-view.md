@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 4d3b571e64fef98abd69bc67f94953a5eb73ea20
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
-source-wordcount: '1507'
-ht-degree: 1%
+source-wordcount: '1648'
+ht-degree: 0%
 
 ---
 
@@ -60,19 +60,19 @@ Maestro 보기에 대한 자세한 내용은 [Adobe Maestro에서 레코드 보�
   <tr>
    <td role="rowheader"><p>Adobe Workfront 플랜</p></td>
    <td>
-<p>모든</p>
+<p>임의</p>
    </td>
   </tr>
   <tr>
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td>
    <td>
-   <p>모든</p> 
+   <p>임의</p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader">액세스 수준</td>
-   <td> <p>모든</p>  
+   <td> <p>임의</p>  
 </td>
   </tr>
 <tr>
@@ -145,6 +145,20 @@ Maestro 보기에 대한 자세한 내용은 [Adobe Maestro에서 레코드 보�
    클릭 **작게 보기로 전환** 날짜가 같은 줄에 교차하지 않는 레코드를 표시합니다. <!--check to see if they updated the name of the setting here-->
 
    레코드는 기본적으로 작게 보기에 표시됩니다.
+
+1. 키워드와 일치하는 레코드를 빠르게 찾으려면 다음을 수행하십시오.
+
+   1. 다음을 클릭합니다. **검색** 아이콘 ![](assets/search-icon.png) 화면에 표시되는 레코드의 필드와 연결된 키워드를 입력하십시오. 검색 항목 옆에 올바른 일치 수가 표시되고 올바른 일치 항목이 있는 레코드가 강조 표시됩니다.
+
+      ![](assets/search-box-and-results-timeline-view.png)
+
+      화면에 표시되는 모든 단어 또는 특수 문자를 사용할 수 있습니다.
+
+      테이블 보기에서 숨겨진 필드와 연결된 키워드는 사용할 수 없습니다.
+
+   1. 키보드에서 Enter 키를 눌러 다음 찾은 필드로 이동합니다.
+   1. (선택 사항) 일치 항목이 두 개 이상 있는 경우 검색 키워드 오른쪽에 있는 위쪽 및 아래쪽 화살표를 클릭하여 테이블에서 모든 일치 항목을 찾습니다.
+   1. 검색 상자에서 X 아이콘을 클릭하여 검색 키워드를 지웁니다.
 
 1. 아래 하위 섹션에 설명된 대로 다음 보기 요소를 업데이트합니다.
    * [필터](#add-filters)

@@ -7,7 +7,7 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 2%
@@ -502,9 +502,12 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 
 ## 릴리스 타임라인
 
-Beta 기간 동안 새로운 댓글 달기 경험에 릴리스된 기능에 대한 자세한 내용은 [새로운 댓글 달기 Beta 경험 릴리스 활동](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+>[!IMPORTANT]
+>
+>Beta 기간 동안 새로운 댓글 달기 경험에 릴리스된 기능에 대한 자세한 내용은 [새로운 댓글 달기 Beta 경험 릴리스 활동](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+>
+>Workfront 개체의 업데이트 관리에 대한 자세한 내용은 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-Workfront 개체의 업데이트 관리에 대한 자세한 내용은 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 다음은 프로덕션 환경에 대한 새로운 댓글 달기 환경의 릴리스에 대한 주요 이정표가 포함된 계획된 타임라인입니다. 아래 이정표 외에도, 더 작은 개선 사항으로 주석 달기 환경을 계속 개선해 나갈 것입니다.
 

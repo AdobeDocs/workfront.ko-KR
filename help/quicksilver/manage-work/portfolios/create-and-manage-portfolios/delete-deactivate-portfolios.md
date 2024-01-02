@@ -6,14 +6,16 @@ description: Portfolio은 Adobe Workfront의 프로젝트 또는 프로그램 �
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '420'
 ht-degree: 0%
 
 ---
 
 # 포트폴리오 삭제 및 비활성화
+
+<!--Audited: 01/2024-->
 
 Portfolio은 의 프로젝트 또는 프로그램 컬렉션입니다. [!DNL Adobe Workfront]. 시스템과 관련이 없는 포트폴리오를 삭제하거나 비활성화할 수 있습니다.
 
@@ -29,15 +31,16 @@ Portfolio은 의 프로젝트 또는 프로그램 컬렉션입니다. [!DNL Adob
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 플랜*</td> 
-   <td> <p>모든 </p> </td> 
+   <td> <p>임의 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
-   <td> <p>[!UICONTROL 계획] </p> </td> 
+   <td> <p>새로운 기능: [!UICONTROL Standard] </p>
+   <p>현재: [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>프로젝트 및 Portfolio에 대한 [!UICONTROL 편집] 액세스</p> <p>참고: 여전히 액세스 권한이 없는 경우 [!DNL Workfront] 관리자가 액세스 수준에 추가 제한을 설정하는 경우. 자세한 내용: [!DNL Workfront] 관리자가 액세스 수준을 변경할 수 있습니다. 다음을 참조하십시오. <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td> <p>프로젝트 및 Portfolio에 대한 [!UICONTROL 편집] 액세스</p> <p><b>메모</b></p> <p> 액세스 권한이 없는 경우 [!DNL Workfront] 관리자가 액세스 수준에 추가 제한을 설정하는 경우. 자세한 내용: [!DNL Workfront] 관리자가 액세스 수준을 변경할 수 있습니다. 다음을 참조하십시오. <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
@@ -74,7 +77,7 @@ Portfolio은 의 프로젝트 또는 프로그램 컬렉션입니다. [!DNL Adob
 
 1. 클릭 **[!UICONTROL Portfolio]** .
 1. 포트폴리오의 이름을 클릭합니다.
-1. 기타 메뉴 클릭 ![](assets/more-icon.png) 포트폴리오 이름의 오른쪽에 있는 **[!UICONTROL Portfolio 비활성화]**.
+1. 다음을 클릭합니다. **자세히** 메뉴 ![](assets/more-icon.png) 포트폴리오 이름의 오른쪽에 있는 **[!UICONTROL Portfolio 비활성화]**.
 
 ## 포트폴리오 삭제
 

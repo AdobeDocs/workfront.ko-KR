@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
-source-wordcount: '2890'
+source-wordcount: '2944'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,15 @@ Only Workfront administrators can create, edit, or delete workspaces and all inf
 
 For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
 
-## 2024년 12월 18일이 있는 주
+## 2023년 12월 25일 주
+
+### 타임라인 보기에서 검색
+
+미리보기 및 프로덕션: 2023년 12월 27일
+
+이제 키워드를 검색하여 타임라인 보기에서 레코드를 빠르게 찾을 수 있습니다. 화면에 표시되는 모든 필드의 키워드와 특수 문자를 사용하여 레코드를 찾을 수 있습니다. 자세한 내용은 [타임라인 보기 관리](../maestro/views/manage-the-timeline-view.md).
+
+## 2023년 12월 18일이 있는 주
 
 ### 세부 정보 페이지에서 레코드에 대한 주석 추가
 
@@ -331,7 +339,7 @@ Maestro 레코드에 대해 다음 필드 유형을 도입했습니다.
 
 미리보기 및 프로덕션: 2023년 10월 9일
 
-이제 키워드를 검색하여 테이블 보기에서 레코드를 빠르게 찾을 수 있습니다. 화면에 표시되는 모든 필드에 키워드와 특수 문자를 사용하여 레코드를 찾을 수 있습니다. 자세한 내용은 [표 보기 관리](../maestro/views/manage-the-table-view.md).
+이제 키워드를 검색하여 테이블 보기에서 레코드를 빠르게 찾을 수 있습니다. 화면에 표시되는 모든 필드의 키워드와 특수 문자를 사용하여 레코드를 찾을 수 있습니다. 자세한 내용은 [표 보기 관리](../maestro/views/manage-the-table-view.md).
 
 ## 2023년 9월 18일 주
 

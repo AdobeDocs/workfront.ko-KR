@@ -3,18 +3,20 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: '그룹화: 그룹화에서 표시 이름 편집'
-description: 그룹화의 이름을 사용자에게 보다 친숙한 이름으로 바꿀 수 있습니다.
-author: Lisa and Nolan
+description: 목록 및 보고서에서 그룹화의 이름을 사용자에게 보다 친숙한 이름으로 바꿀 수 있습니다.
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 072d3c2b-9ede-4bb9-9a27-dc77ceb732c4
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 138181de2ad8257785773a5296bc5bcfc144a801
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '369'
 ht-degree: 0%
 
 ---
 
 # 그룹화: 그룹화에서 표시 이름 편집
+
+<!--Audited: 01/2024-->
 
 그룹화의 이름을 사용자에게 보다 친숙한 이름으로 바꿀 수 있습니다.
 
@@ -36,12 +38,21 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>그룹화 수정 요청 </p>
-   <p>보고서 수정 계획</p> </td> 
+   <td>
+
+<p>신규: </p>
+   <ul>
+   <li> <p>그룹화 수정 기여자 </p></li>
+   <li><p>보고서를 수정하는 표준</p></li></ul>
+
+<p> 현재:</p>
+   <ul>  
+   <li><p>그룹화 수정 요청 </p></li>
+   <li><p>보고서 수정 계획</p></li> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
@@ -63,49 +74,38 @@ ht-degree: 0%
 프로젝트 그룹화에서 표시 이름을 변경하려면 다음과 같이 하십시오.
 
 1. 프로젝트 목록으로 이동합니다.
-1. 다음에서 **그룹화**&#x200B;드롭다운 메뉴에서 다음을 선택합니다. **새 그룹화**.
+1. 다음에서 **그룹화** 드롭다운 메뉴에서 다음을 선택합니다. **새 그룹화**.
 
-1. 클릭 **그룹화 추가**&#x200B;을(를) 클릭하고 다음에 &quot;Portfolio 이름&quot;을(를) 입력하십시오. **첫 번째 작성자:** 필드를 선택한 다음 목록에 표시될 때 선택합니다.
+1. 클릭 **그룹화 추가**&#x200B;을(를) 클릭하고 다음에 &quot;Portfolio 이름&quot;을(를) 입력하십시오. **첫 번째 작성자:** 필드를 선택한 다음 목록에 표시될 때 선택합니다.
 
 1. 클릭 **텍스트 모드로 전환**.
 1. 다음 중 하나를 수행합니다.
 
    * 에서 사용할 수 있는 기존 텍스트에 다음 코드를 추가합니다 **보고서 그룹화** 상자:
 
-      ```
-      group.0.displayname=Your
-      ```
 
-      ```
-      Value
-      ```
+     `group.0.displayname=Your Value`
 
-      또는 이 경우:
 
-      ```
-      group.0.displayname=Portfolio
-      ```
+     또는 이 경우:
+
+     `group.0.displayname=Portfolio`
 
    * 그룹화의 텍스트 모드 인터페이스에서 단어 &quot;name&quot;이 포함된 모든 줄을 제거한 다음 줄을 추가합니다.
 
-      ```
-      group.0.name=Your Value
-      ```
+     `group.0.name=Your Value`
 
-      또는 이 경우:
+     또는 이 경우:
 
-      ```
-      group.0.name=Portfolio
-      ```
+     `group.0.name=Portfolio`
 
-      다음을 떠날 수도 있습니다.
+     >[!TIP]
+     >
+     >다음을 떠날 수도 있습니다. `group.0.name=` 및 `group.0.displayname=` 행이 비어 있습니다. 이 경우 그룹화하면 그룹화하려는 값이 표시됩니다.
 
-      ```
-      group.0.name
-      ```
 
-      빈 줄. 이 경우 그룹화에는 그룹화할 값의 이름이 표시됩니다.
-
-      ![](assets/grouping-edited-name-no-name-350x162.png)
+     ![](assets/grouping-edited-name-no-name-350x162.png)
 
 1. 클릭 **완료**, 그런 다음 **그룹화 저장**.
+
+   그룹화의 기본 이름은 텍스트 모드 정보에 따라 수정됩니다.

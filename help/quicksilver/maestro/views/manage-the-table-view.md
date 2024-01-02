@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
 source-wordcount: '2307'
 ht-degree: 3%
@@ -199,13 +199,13 @@ Maestro 테이블 보기의 열 헤더에는 보기의 레코드와 관련된 �
 
    1. 다음을 클릭합니다. **검색** 아이콘 ![](assets/search-icon.png) 화면에 표시되는 레코드의 필드와 연결된 키워드를 입력하십시오. 검색 항목 옆에 올바른 일치 항목 수가 표시되고 올바른 일치 항목이 있는 필드가 강조 표시됩니다.
 
+      ![](assets/search-box-with-results-blue-outline-table-view.png)
+
       화면에 표시되는 모든 단어 또는 특수 문자를 사용할 수 있습니다.
 
       테이블 보기에서 숨겨진 필드와 연결된 키워드는 사용할 수 없습니다.
 
-      키보드에서 Enter 키를 누르면 다음 찾은 필드로 이동합니다.
-
-      ![](assets/search-box-with-results-blue-outline-table-view.png)
+   1. 키보드에서 Enter 키를 눌러 다음 찾은 필드로 이동합니다.
 
    1. (선택 사항) 일치 항목이 두 개 이상 있는 경우 검색 키워드 오른쪽에 있는 위쪽 및 아래쪽 화살표를 클릭하여 테이블에서 모든 일치 항목을 찾습니다.
 

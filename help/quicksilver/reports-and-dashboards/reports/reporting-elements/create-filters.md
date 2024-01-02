@@ -6,7 +6,7 @@ description: 필터를 사용하여 항목 목록의 화면에 표시되는 정�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
 source-wordcount: '2462'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # Adobe Workfront에서 필터 만들기 또는 편집
+
+<!--Audited: 12/2023-->
 
 필터를 사용하여 항목 목록의 화면에 표시되는 정보의 양을 제한할 수 있습니다. 객체에 대한 특정 정보를 기준으로 특정 기준을 정의하고 해당 기준을 충족하는 객체만 표시할 수 있습니다.
 

@@ -6,14 +6,16 @@ description: Adobe Workfront을 사용하면 애자일 팀이 점진적이고 �
 author: Lisa
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '1001'
 ht-degree: 1%
 
 ---
 
 # 애자일 팀 만들기
+
+<!--Audited: 01/2024-->
 
 [!DNL Adobe Workfront] 애자일 팀이 점진적이고 조직적인 방식으로 작업을 완료할 수 있도록 합니다.
 
@@ -41,7 +43,10 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
-   <td> <p>새 애자일 팀을 만들려면 [!UICONTROL Plan], 애자일 팀으로 만들려면 [!UICONTROL Work] 이상을 선택합니다.</p> </td> 
+   <td> <p>새로운 기능: 표준</p>
+   현재: 
+   <ul><li><p>새 애자일 팀을 만들려면 [!UICONTROL Plan]</p></li> 
+   <li><p>팀을 애자일 팀으로 전환하려면 [!UICONTROL Work] 이상</p></li></ul> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -85,12 +90,15 @@ ht-degree: 1%
 
 ## 애자일 팀 만들기
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![](assets/main-menu-icon.png) 의 오른쪽 위 모서리 [!DNL Adobe Workfront]을 클릭한 다음 을 클릭합니다 **[!UICONTROL 팀]**.
+{{step1-to-team}}
+
 1. 다음을 클릭합니다. **[!UICONTROL 팀 전환]** 아이콘 ![팀 전환 아이콘](assets/switch-team-icon.png)을 클릭한 다음 을 클릭합니다 **[!UICONTROL 새 팀 만들기]**.
 
    ![새 팀 만들기를 선택합니다.](assets/create-new-team-350x198.png)
 
-1. 다음에 대한 다음 정보를 지정하십시오. [!UICONTROL 새 팀] 대화 상자:
+   새 팀 상자가 표시됩니다.
+
+1. 다음 정보를 지정합니다.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -103,10 +111,17 @@ ht-degree: 1%
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL 애자일 팀입니다]</strong> </td> 
       <td>이 새 팀을 애자일 팀으로 구성하려면 이 옵션을 선택하십시오.</td> 
-     </tr> 
-     <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader"><strong>[!UICONTROL이 활성화됨]</strong> </td> 
+      <td>이 팀을 활성화하려면 이 옵션을 선택하십시오. 비활성 팀은 작업에 할당할 다른 사용자에게 표시되지 않습니다. </td> 
+     </tr>
+
+
+   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader"><strong>[!UICONTROL Group]</strong> </td> 
-      <td> <p>팀에 추가할 그룹 이름을 입력한 다음 드롭다운 목록에 표시될 때 이름을 선택합니다.</p> <p>주: 팀이 그룹 또는 하위 그룹에 지정되면 해당 그룹 또는 하위 그룹의 모든 그룹 관리자는 해당 그룹의 구성원이 아니더라도 팀을 관리할 수 있습니다. 그룹 관리자는 [!UICONTROL Main Menu]에서 [!UICONTROL Teams] 영역으로 이동하여 [!UICONTROL Switch Teams] 화살표를 클릭합니다 <img src="assets/switch-team-icon.png" alt="팀 전환 아이콘"> 자신이 관리하는 그룹에 할당된 모든 팀을 나열합니다.</p> </td> 
+      <td> <p>팀에 추가할 그룹 이름을 입력한 다음 드롭다운 목록에 표시될 때 이름을 선택합니다.</p> <p><b>메모</b></p> <p> 팀이 그룹 또는 하위 그룹에 할당되면 해당 그룹 또는 하위 그룹의 모든 그룹 관리자는 팀의 구성원이 되지 않고도 팀을 관리할 수 있습니다. 그룹 관리자는 [!UICONTROL Main Menu]에서 [!UICONTROL Teams] 영역으로 이동하여 [!UICONTROL Switch Teams] 화살표를 클릭합니다 <img src="assets/switch-team-icon.png" alt="팀 전환 아이콘"> 자신이 관리하는 그룹에 할당된 모든 팀을 나열합니다.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL 팀 구성원]</strong> </td> 
@@ -145,7 +160,9 @@ ht-degree: 1%
 
 1. 클릭 **변경 사항을 저장합니다.**
 
-   애자일 팀 구성에 대한 자세한 내용은 다음 문서를 참조하십시오.
+   팀은 애자일 팀으로 저장됩니다. 팀을 편집할 때 새 팀을 스크럼 또는 칸반 팀으로 구성할 수 있습니다.
+
+   자세한 내용은 다음 문서를 참조하십시오.
 
    * [구성 [!UICONTROL 칸반]](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)
    * [구성 [!UICONTROL 스크럼]](../../agile/get-started-with-agile-in-workfront/configure-scrum.md)

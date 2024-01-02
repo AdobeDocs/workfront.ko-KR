@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
 source-wordcount: '2513'
 ht-degree: 0%
@@ -16,6 +16,8 @@ ht-degree: 0%
 ---
 
 # 시스템 전체 프로젝트 환경 설정 구성
+
+<!--Audited: 12/2023-->
 
 (으)로 [!DNL Adobe Workfront] 관리자는 시스템 전체에서 생성된 모든 프로젝트에 대한 기본 환경 설정을 구성할 수 있습니다. 이러한 환경 설정은 프로젝트, 작업 및 문제 동작에 영향을 줍니다.
 
