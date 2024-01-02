@@ -4,9 +4,9 @@ description: 2024년 1분기 릴리스 개요
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: c32ff93b682ffd6333dcf50096d674a4eeaccef3
+source-git-commit: 845f0c04923f6e35dcb004ba807c79577385462b
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1354'
 ht-degree: 0%
 
 ---
@@ -205,24 +205,24 @@ ht-degree: 0%
                         </p>
                     </td>
                  </tr>
-                 <tr>
+<!--                <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">레이아웃 템플릿을 사용하는 새 홈에 대한 관리자 컨트롤</a></p><p>이제 관리자는 레이아웃 템플릿을 사용하여 사용자를 위해 새 홈을 사용자 정의할 수 있습니다. 사용자 지정 옵션에는 필수 위젯과 해당 위치 선택, 배경 선택 및 사용 가능한 필터 및 그룹 선택(및 기본값 설정)을 위한 위젯별 옵션이 포함됩니다.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Administrator controls for new Home using layout templates</a></p><p>Administrators can now customize new Home for users using layout templates. Customization options include selecting mandatory widgets and their position, choosing a background, and widget-specific options for choosing available filters and groups (and setting defaults).</p>
                     </td>
-                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                    <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>미리보기 릴리스: 2023년 12월 21일</p>
+                                <p>Preview release: December 21, 2023</p>
                             </li>
                             <li>
-                                <p>빠른 릴리스를 위한 프로덕션: 24.1 릴리스 포함</p>
+                                <p>Production for fast release: With the 24.1 release</p>
                             </li>
                             <li>
-                                <p>분기별 릴리스 프로덕션: 24.1 릴리스 포함</p>
+                                <p>Production for quarterly release: With the 24.1 release</p>
                             </li>
                         </ul>
                     </td>
-                </tr>
+                </tr>-->
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">내 작업 빠른 작업 버튼이 마우스오버에만 표시되도록 변경됨</a></p><p>[!BADGE In production ]{type=Informative}</p><p>성능 향상을 위해 이제 내 작업 위젯에서 사용할 수 있는 빠른 작업 버튼이 작업 항목을 마우스로 가리킬 때만 표시됩니다.</p>
