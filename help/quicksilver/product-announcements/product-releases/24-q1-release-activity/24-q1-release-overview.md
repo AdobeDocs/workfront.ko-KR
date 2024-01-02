@@ -4,9 +4,9 @@ description: 2024년 1분기 릴리스 개요
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
+source-git-commit: c32ff93b682ffd6333dcf50096d674a4eeaccef3
 workflow-type: tm+mt
-source-wordcount: '1372'
+source-wordcount: '1420'
 ht-degree: 0%
 
 ---
@@ -145,6 +145,7 @@ ht-degree: 0%
                                 <p>분기별 릴리스 프로덕션: 24.1 릴리스 포함</p>
                             </li>
                         </ul>
+                        <p><span style="color: #ff0000;">이 기능은 단계별 릴리스의 일부이며 현재 특정 고객에게만 제공됩니다.</span></p>
                     </td>
                 </tr>
                 <tr>
@@ -163,6 +164,7 @@ ht-degree: 0%
                                 <p>분기별 릴리스 프로덕션: 24.1 릴리스 포함</p>
                             </li>
                         </ul>
+                        <p><span style="color: #ff0000;">이 기능은 단계별 릴리스의 일부이며 현재 특정 고객에게만 제공됩니다.</span></p>
                     </td>
                 </tr>
                 <tr>
@@ -181,6 +183,7 @@ ht-degree: 0%
                                 <p>분기별 릴리스 프로덕션: 24.1 릴리스 포함</p>
                             </li>
                         </ul>
+                        <p><span style="color: #ff0000;">이 기능은 단계별 릴리스의 일부이며 현재 특정 고객에게만 제공됩니다.</span></p>
                     </td>
                 </tr>                
            </tbody>
