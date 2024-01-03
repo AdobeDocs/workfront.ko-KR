@@ -6,9 +6,9 @@ description: 다음 [!DNL Adobe Workfront] 용어집 목록은에서 일반적�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
 workflow-type: tm+mt
-source-wordcount: '19897'
+source-wordcount: '19889'
 ht-degree: 0%
 
 ---
@@ -1141,7 +1141,7 @@ The designated full time equivalency for users. A full-time user should have 100
      <li>[!UICONTROL 캘린더 일](휴일 무시)</li> 
      <li>[!UICONTROL 백분율]</li> 
      <li>[!UICONTROL 요일]</li> 
-    </ul> <p>자세한 내용은 의 "[!UICONTROL 지연 유형 개요]" 섹션을 참조하십시오. <a href="../../../manage-work/tasks/use-prdcssrs/lag-types.md" class="MCXref xref">지연 유형 개요</a></p> </td> 
+    </ul> <p>자세한 내용은 <a href="../../../manage-work/tasks/use-prdcssrs/lag-types.md" class="MCXref xref">지연 유형 개요</a>.</p> </td>
   </tr> 
   <tr> 
    <td>[!UICONTROL 큰 썸네일]</td> 

@@ -7,14 +7,16 @@ description: 작업, 문제 또는 프로젝트와 관련된 계획된 시간은
 author: Alina
 feature: Work Management
 exl-id: 0b86c760-691a-436e-9beb-31e9ac36440a
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 48efc796923079622ce4bc1c2bddb2429915c9a1
 workflow-type: tm+mt
-source-wordcount: '2803'
+source-wordcount: '2815'
 ht-degree: 0%
 
 ---
 
 # 계획된 시간 개요
+
+<!-- Audited: 01/2024 -->
 
 작업, 문제 또는 프로젝트와 관련된 계획된 시간은 할당된 사용자가 작업, 문제 또는 프로젝트를 완료하는 데 필요한 시간을 나타냅니다.
 
@@ -30,16 +32,13 @@ ht-degree: 0%
 
 * 언제든지 문제에 대한 계획된 시간 값을 수정할 수 있습니다.
 * 프로젝트 또는 상위 작업의 계획된 시간 값은 모든 작업 및 하위 작업의 모든 계획된 시간의 계산된 합계이므로 수정할 수 없습니다.
-* 리소스 관리 도구를 사용하여 사용자 할당을 관리하면 작업, 문제, 프로젝트 및 작업 항목과 연결된 할당의 계획된 시간 수가 변경될 수 있습니다.
+* 리소스 관리 도구를 사용하여 사용자 할당을 관리하면 작업, 문제 및 프로젝트의 계획된 시간과 작업 항목과 연결된 할당의 시간이 변경될 수 있습니다.
 
 ## 작업의 계획된 시간과 프로젝트의 계획된 시간 비교 {#planned-hours-on-tasks-vs-planned-hours-on-projects}
 
 작업의 계획된 시간은 프로젝트의 계획된 시간으로 롤업됩니다. 문제의 계획된 시간이 항상 프로젝트의 계획된 시간으로 롤업되는 것은 아닙니다.
 
 이 섹션에서는 작업과 프로젝트 계획 시간의 차이점에 대해 설명합니다. 프로젝트에 롤업되는 문제 계획된 시간을 볼 수 있는 위치도 설명합니다.
-
-* [작업에 대한 계획된 시간](#planned-hours-on-tasks)
-* [프로젝트의 계획된 시간](#planned-hours-on-projects)
 
 ### 작업에 대한 계획된 시간 {#planned-hours-on-tasks}
 
@@ -78,7 +77,7 @@ ht-degree: 0%
 
 ## 계획된 시간 값 찾기 및 이해
 
-Workfront의 다양한 영역에서 계획된 시간 값을 찾을 수 있습니다. 
+Workfront의 다양한 영역에서 계획된 시간 값을 찾을 수 있습니다.
 
 프로젝트의 작업 항목에서 시작되거나 표시되는 계획된 시간 수는 보고 있는 영역과 오브젝트에 따라 다르게 계산됩니다.
 
@@ -90,19 +89,19 @@ Workfront의 다음 영역에서 계획된 시간을 찾을 수 있습니다.
 * [업무 균형자](#the-workload-balancer)
 * [리소스 플래너](#the-resource-planner)
 * [활용성 보고서](#the-utilization-report)
-* [역할 할당 패널](#The%C2%A0Role)
+* [역할 할당 패널](#the-role-allocation-panel)
 
 ### 프로젝트, 작업 또는 문제의 세부 정보 섹션 {#the-details-section-of-a-project-task-or-issue}
 
-![](assets/planned-hours-on-details-for-project-nwe-350x138.png)
+![세부 정보 섹션의 계획된 시간](assets/planned-hours-on-details-for-project.png)
 
-작업, 문제 또는 프로젝트의 세부 정보 섹션에 있는 계획된 시간은 해당 항목과 연관된 총 계획된 시간입니다.
+작업, 문제 또는 프로젝트의 세부 정보 섹션에 있는 계획된 시간은 항목과 연결된 총 계획된 시간입니다.
 
 프로젝트 계획 시간에 대한 자세한 내용은 다음을 참조하십시오. [작업의 계획된 시간과 프로젝트의 계획된 시간 비교](#planned-hours-on-tasks-vs-planned-hours-on-projects) 이 문서의 섹션.
 
 ### 작업 편집 또는 문제 편집 상자 {#the-edit-task-or-edit-issue-box}
 
-![](assets/planned-hours-on-edit-task-box-nwe-350x70.png)
+![작업 상자 편집](assets/planned-hours-on-edit-task-box-nwe.png)
 
 작업 또는 문제의 편집 상자에 있는 계획된 시간은 각 항목의 총 계획된 시간입니다.
 
@@ -114,7 +113,7 @@ Workfront의 다음 영역에서 계획된 시간을 찾을 수 있습니다.
 
 ### 보고서 {#reports}
 
-![](assets/planned-hours-on-task-repot-nwe-350x99.png)
+![보고서의 계획된 시간](assets/planned-hours-on-task-report.png)
 
 프로젝트, 작업 및 문제 보고서에 계획된 시간 필드를 추가할 수 있습니다.
 
@@ -147,7 +146,7 @@ The daily hour amount represents one of the following:
 
 ### 업무 균형자 {#the-workload-balancer}
 
-![](assets/planned-hours-on-wb-expanded-with-pti-info-nwe-350x114.png)
+![업무 균형자의 계획된 시간](assets/planned-hours-on-wb-expanded-with-pti-info.png)
 
 작업, 문제 및 프로젝트에 대한 다음 계획된 시간이 작업, 문제 또는 프로젝트 이름의 오른쪽에 있는 업무 균형자에 표시됩니다.
 
@@ -163,15 +162,15 @@ The daily hour amount represents one of the following:
 계획된 시간의 일일 시간 양은 다음 중 하나를 나타냅니다. 
 
 * 작업, 문제 또는 프로젝트 기간 중 각 날에 Workfront에서 균등하게 분배하는 기본 금액
-* 자원 관리자가 관리하는 조정된 일일 할당.
+* 리소스 관리자가 관리하는 조정된 일일 할당
 
   업무 균형자에서 일별 할당 조정에 대한 자세한 내용은 [업무 균형자에서 사용자 할당 관리](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 ### 리소스 플래너 {#the-resource-planner}
 
-![](assets/planned-hours-on-all-objects-in-resource-planned-expanded-nwe-350x204.png)
+![리소스 플래너의 계획된 시간](assets/planned-hours-on-all-objects-in-resource-planned-expanded.png)
 
-리소스 플래너는 프로젝트, 작업, 문제에 대한 계획된 시간을 표시합니다.
+리소스 플래너에는 프로젝트, 작업 및 문제에 대한 계획된 시간이 표시됩니다.
 
 리소스 플래너의 PLN 열에서 작업 항목과 연관된 사용자 및 작업 역할에 대한 주간 계획 시간 할당을 볼 수 있습니다.
 
@@ -184,7 +183,7 @@ The daily hour amount represents one of the following:
 작업 및 문제에 대한 계획된 시간의 주별 시간 양은 다음 중 하나를 나타냅니다.
 
 * 작업 또는 문제 기간 중 각 날에 대해 Workfront에서 균등하게 분배하는 기본 주별 금액
-* 업무 균형자에서 리소스 관리자가 관리하는 조정된 주간 할당.
+* 업무 균형자에서 리소스 관리자가 관리하는 조정된 주간 할당
 
   업무 균형자에서 일별 할당 조정에 대한 자세한 내용은 [업무 균형자에서 사용자 할당 관리](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
@@ -230,7 +229,7 @@ The daily hour amount represents one of the following:
   단순 기간 유형에 대한 자세한 내용은 [기간 유형 개요: 단순](../../../manage-work/tasks/taskdurtn/simple-duration-type.md).
 
 * 작업에 대한 사용자의 할당을 관리할 때 업무 균형자에서 단순 기간 유형 작업에 대해서만 작업 계획 시간을 업데이트할 수 있습니다. 업무 균형자에서 사용자 할당 관리에 대한 자세한 내용은 [업무 균형자에서 사용자 할당 관리](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
-* 기간 유형이 작업량 고정 또는 계산된 작업인 작업의 계획된 시간은 수정할 수 없습니다. 이러한 경우 Workfront은 작업 기간을 기반으로 계획된 시간을 결정합니다. 하지만 이 경우 계획된 시간은 항상 기간(시간)과 같으며 할당된 리소스의 퍼센트 할당의 영향을 받지 않습니다.
+* 기간 유형이 작업량 고정 또는 계산된 작업인 작업의 계획된 시간은 수정할 수 없습니다. 이러한 경우 Workfront은 작업의 기간을 기반으로 계획된 시간을 결정합니다. 그러나 이 경우 계획된 시간은 항상 기간(시간)과 같으며 할당된 리소스의 퍼센트 할당의 영향을 받지 않습니다.
 
   작업량 고정 기간 유형에 대한 자세한 내용은 [기간 유형 개요: 작업량 고정](../../../manage-work/tasks/taskdurtn/effort-driven.md).
 
@@ -252,7 +251,7 @@ The daily hour amount represents one of the following:
 
 * 작업 계획 시간에 대한 변경을 트리거하기 위해 개별 사용자 또는 역할 할당을 수동으로 업데이트하지 않은 경우 작업에 대한 할당을 추가, 제거 또는 대체할 때 계획된 시간은 변경되지 않습니다. 작업에 새 할당을 추가하면 개별 할당이 모든 할당자 간에 재배포됩니다.
 * 작업 계획 시간에 대한 변경을 트리거하도록 할당을 수동으로 업데이트한 경우 작업에서 할당을 제거하면 계획 시간이 줄어듭니다. 할당을 대체할 때 변경되지 않습니다.
-* 태스크 계획 시간에 대한 변경을 트리거하기 위해 할당을 수동으로 갱신하고 태스크에 지정을 추가하면 신규 지정은 기본적으로 0시간으로 할당됩니다. 계획된 시간에 영향을 줄 수 있는 작업에 대한 할당을 수동으로 업데이트해야 합니다.
+* 태스크 계획 시간에 대한 변경을 트리거하기 위해 할당을 수동으로 갱신하고 태스크에 지정을 추가하면 신규 지정은 기본적으로 0시간으로 할당됩니다. 계획된 시간에 영향을 미칠 수 있는 작업에 대한 할당을 수동으로 업데이트해야 합니다.
 * 작업 계획 시간에 대한 변경을 트리거하기 위해 할당을 수동으로 갱신하지 않았으며 작업에 대한 모든 할당을 제거해도 계획 시간은 변경되지 않습니다.
 * 작업 계획 시간에 대한 변경을 트리거하기 위해 할당을 수동으로 업데이트하고 작업에 대한 모든 할당을 제거하면 계획된 시간도 제거되고 작업의 계획된 시간은 0이 됩니다.
 
@@ -261,10 +260,7 @@ The daily hour amount represents one of the following:
 예를 들어 작업에 계획된 시간이 10시간이고 할당자가 2명인 경우 기본적으로 각각 5시간이 할당됩니다.
 >
 * 업무 균형자 를 사용하여 개별 사용자 할당 또는 일별 할당을 업데이트하지 않고 할당자를 작업에서 모두 또는 모두 제거한 경우 작업 계획 시간은 10시간으로 유지됩니다.
-* 할당의 할당을 각각 4시간 및 6시간으로 수동으로 변경하고 6시간에 할당된 사용자와 해당 작업 역할을 제거하면 작업 계획 시간이 4시간으로 업데이트됩니다. 4시간에 할당된 사용자도 제거하지만 제거된 사용자와 연결된 작업 역할을 유지하는 경우, 작업의 계획된 시간은 4시간으로 유지됩니다. 작업 역할과 4시간에 할당된 마지막 사용자를 제거하고 작업이 할당 해제된 상태로 있으면 작업의 계획된 시간이 0이 됩니다.
-
-
-
+* 할당의 할당을 각각 4시간 및 6시간으로 수동으로 변경하고 6시간에 할당된 사용자와 해당 작업 역할을 제거하면 작업 계획 시간이 4시간으로 업데이트됩니다. 4시간에 할당된 사용자도 제거하지만 제거된 사용자와 연결된 작업 역할을 유지하는 경우, 작업의 계획된 시간은 4시간으로 유지됩니다. 작업 역할과 4시간에 할당된 마지막 사용자를 제거하고 작업이 할당 해제된 상태로 있으면 작업 계획 시간이 0이 됩니다.
 
 ## 작업 노력을 사용하여 작업 계획 시간을 자동으로 업데이트
 
