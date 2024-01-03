@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: d786a5bd86bcc1a4fbacf022cc9fbee9cb321da5
+source-git-commit: 66957a8bb24538fd302fe0ff7612b266da18118f
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '869'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 Workfront 설명서 방법 문서에는 해당 절차에 필요한 액세스 및 권한 요구 사항을 설명하는 표가 포함되어 있습니다. 이 액세스 요구 사항 테이블을 사용하면 Workfront에서 특정 작업을 수행할 수 있는지 여부 또는 수행할 수 없는 이유를 이해할 수 있습니다. 이 문서에서는 액세스 요구 사항 테이블의 각 요소에 대해 설명하고, 문제 해결 팁과 보다 심층적인 정보에 대한 링크를 제공합니다.
 
 특정 문서의 액세스 요구 사항 테이블에 행이 없으면 해당 작업에 대한 해당 형식의 요구 사항이 없습니다.
+
+일부 행에는 &quot;새로 만들기&quot; 및 &quot;현재&quot;라는 레이블이 지정된 정보가 포함되어 있습니다. 일부 조직은 새로운 모델로 운영되고 다른 조직은 여전히 현재 모델을 사용하고 있는 상황에서 Workfront이 새로운 가격 및 패키징 모델로 전환하고 있기 때문이다. 조직에서 사용하는 모델을 확인하려면 Workfront 관리자에게 문의하십시오. 다음에서 세부 정보 및 정보 링크를 찾을 수 있습니다. [액세스 요구 사항 테이블](#the-access-requirements-table) 이 문서의 섹션.
 
 >[!NOTE]
 >
@@ -53,8 +55,20 @@ Workfront 설명서 방법 문서에는 해당 절차에 필요한 액세스 및
       </p> </td> 
   </tr> 
   <tr> 
+   <td role="rowheader">제품</td> 
+   <td>Workfront은 Workfront 외에도 구매할 수 있는 몇 가지 제품을 제공합니다.
+   <p>이러한 추가 제품 내에서 수행되는 절차를 설명하는 문서는 여기에 필수 제품을 나열합니다.</p>
+   <ul>
+   <li>Adobe Experience Manager Assets 또는 Assets Essentials </li>
+   <li>Workfront Fusion</li>
+   <li>Workfront Goals</li>
+   <li>Workfront 시나리오 플래너</li>
+   </ul>
+   <p>조직에서 이러한 추가 제품 중 하나를 구입했는지 확인하려면 Workfront 관리자에게 문의하십시오.</p></td> 
+  </tr> 
+  <tr> 
    <td role="rowheader">액세스 수준</td> 
-   <td> 액세스 수준은 Workfront에서 수행할 수 있는 작업에 대한 권한 집합이며, Workfront 관리자가 설정합니다. <p>Workfront에는 Workfront 라이선스에 해당하는 기본 제공 액세스 수준이 있지만 Workfront 관리자는 더 많은 액세스 수준을 만들어 조직에 필요한 권한 집합을 더 정확하게 반영할 수 있습니다.</p>
+   <td> 액세스 수준은 Workfront에서 수행할 수 있는 작업에 대한 권한 집합이며, Workfront 관리자가 설정합니다. <p>Workfront에는 Workfront 라이선스에 해당하는 기본 제공 액세스 수준이 있지만 Workfront 관리자는 더 많은 액세스 수준을 만들어 조직에 필요한 권한 세트를 더 정확하게 반영할 수 있습니다.</p>
    <ul>
     <li>Adobe Workfront은 새로운 가격 및 패키징 모델로 전환하고 있습니다. 각 모델의 액세스 수준에 대한 자세한 내용은 다음을 참조하십시오.
    <ul>
