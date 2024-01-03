@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: 532ec7f7a33e1e1111a31422c5c3c442b2e176b5
 workflow-type: tm+mt
 source-wordcount: '2307'
 ht-degree: 3%
@@ -209,7 +209,7 @@ Maestro 테이블 보기의 열 헤더에는 보기의 레코드와 관련된 �
 
    1. (선택 사항) 일치 항목이 두 개 이상 있는 경우 검색 키워드 오른쪽에 있는 위쪽 및 아래쪽 화살표를 클릭하여 테이블에서 모든 일치 항목을 찾습니다.
 
-   1. 다음을 클릭합니다. **X** 아이콘을 클릭하여 검색 키워드를 지웁니다.
+   1. 다음을 클릭합니다. **x** 아이콘을 클릭하여 검색 키워드를 지웁니다.
 
 
 ### 행(또는 레코드) 추가 {#add-rows}
