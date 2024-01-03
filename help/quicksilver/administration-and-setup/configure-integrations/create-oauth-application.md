@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
-source-git-commit: 762053edbf490532b96285a6d1edff2af49500a4
+source-git-commit: ff24fcc65791b6c18668a0dd3c58e033772a2def
 workflow-type: tm+mt
 source-wordcount: '1945'
 ht-degree: 6%
@@ -39,7 +39,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 플랜*</td> 
-   <td> <p>[!UICONTROL Pro] 이상</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
@@ -128,7 +128,7 @@ OAuth2 애플리케이션을 만들 때 통합의 요구 사항에 가장 적합
 1. 왼쪽 탐색 패널에서 을 클릭합니다. **[!UICONTROL 시스템]**&#x200B;을 선택한 다음 을 선택합니다. **[!UICONTROL OAuth2 애플리케이션]**.
 1. 클릭 **[!UICONTROL 앱 통합 만들기]**.
 다음 **새 OAuth2 애플리케이션** 상자가 표시됩니다.
-1. 다음에서 **새 OAuth2 애플리케이션** 상자, 선택 **[!UICONTROL 서버 인증]**.
+1. 다음에서 **새 OAuth2 애플리케이션** 상자, 선택 **[!UICONTROL 머신 투 머신 애플리케이션]**.
 1. 새 응용 프로그램의 이름을 입력하십시오(예: &quot;).[!DNL Workfront] for ClientApp.&quot;
 1. Click **[!UICONTROL Create]**.
 1. 새 앱의 필드를 채웁니다.
@@ -180,7 +180,7 @@ OAuth2 애플리케이션을 만들 때 통합의 요구 사항에 가장 적합
 1. 클릭 **[!UICONTROL 앱 통합 만들기]**.
 
    다음 **새 OAuth2 애플리케이션** 표시됩니다.
-1. 다음에서 **새 OAuth2 애플리케이션** 상자, 선택 **[!UICONTROL 사용자 인증]**.
+1. 다음에서 **새 OAuth2 애플리케이션** 상자, 선택 **[!UICONTROL 웹 애플리케이션]**.
 1. 새 OAuth2 애플리케이션 이름(예: &quot;) 입력[!DNL Workfront] for ClientApp.&quot;
 1. Click **[!UICONTROL Create]**.
 1. 새 앱의 필드를 채웁니다.
