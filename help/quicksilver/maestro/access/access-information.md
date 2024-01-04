@@ -1,18 +1,18 @@
 ---
-title: 액세스 정보
+title: "액세스 정보: 문서 인덱스"
 description: Workfront 관리자는 Maestro를 사용하려면 사용자에게 액세스 권한을 부여해야 합니다. 다음 문서에는 사용자가 Maestro를 사용하기 위해 필요한 액세스 권한에 대한 정보가 포함되어 있습니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 98ca7d04-35c2-420a-a87c-50c00939853c
-source-git-commit: 4d3b571e64fef98abd69bc67f94953a5eb73ea20
+source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '136'
 ht-degree: 0%
 
 ---
 
-# 액세스 정보
+# 액세스 정보: 문서 색인
 
 >[!IMPORTANT]
 >

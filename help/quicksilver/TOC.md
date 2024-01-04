@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
 workflow-type: tm+mt
-source-wordcount: '13838'
+source-wordcount: '13844'
 ht-degree: 1%
 
 ---
@@ -1265,7 +1265,7 @@ ht-degree: 1%
          * [계산 예 - EAC를 작업에서 롤업으로 계산](manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-by-rolling-up-from-tasks-example.md)
          * [계산 예 - 프로젝트 수준에서 EAC 계산](manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-at-project-level-example.md)
    * 작업 {#tasks}
-      * [작업](manage-work/tasks/tasks-overview.md)
+      * [작업: 문서 색인](manage-work/tasks/tasks-overview.md)
       * 작업 정보 {#task-information}
          * [작업 정보](manage-work/tasks/task-information/task-information.md)
          * [작업 개요](manage-work/tasks/task-information/tasks-overview.md)
@@ -1479,7 +1479,7 @@ ht-degree: 1%
       * [팀 및 그룹에 대한 팁, 요령 및 문제 해결](people-teams-and-groups/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-grps.md)
       * [사용자 이름이 이미 사용 중입니다.](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
 * 보고 {#reporting}
-   * [보고](reports-and-dashboards/reports-and-dashboards-overview.md)
+   * [보고서 및 대시보드: 문서 색인](reports-and-dashboards/reports-and-dashboards-overview.md)
    * 보고 캔버스 {#reporting-canvas}
       * [보고 캔버스](reports-and-dashboards/reporting-canvas/reporting-canvas.md)
       * 보고서 관리 {#manage-reports}

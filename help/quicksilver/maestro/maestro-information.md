@@ -1,18 +1,18 @@
 ---
-title: Adobe 마에스트로 정보
+title: "Adobe 마에스트로 정보: 기사 색인"
 description: 마케팅 운영 리더로서 Maestro Adobe을 사용하여 모든 팀의 마케팅 라이프사이클 전반에서 작업을 구성할 수 있습니다. 이 섹션의 문서에서는 Maestro를 구성하는 방법 및 캠페인 관리 작업의 일부로 Maestro의 기능을 사용하는 방법을 설명합니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
+source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
 
-# Adobe 마에스트로 정보
+# Adobe 마에스트로 정보: 기사 색인
 
 <!--
 title: Adobe Maestro 

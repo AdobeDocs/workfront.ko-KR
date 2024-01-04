@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 5d17322b-e517-4475-aa77-faaeb4677152
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 1%
+source-wordcount: '222'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Workfront을 사용하여 작업을 관리할 수 있습니다.
 이 섹션에는 다음 하위 섹션이 포함됩니다.
 
 * [프로젝트: 문서 색인](../manage-work/projects/projects-overview.md)
-* [작업](../manage-work/tasks/tasks-overview.md)
+* [작업: 문서 색인](../manage-work/tasks/tasks-overview.md)
 * [문제](../manage-work/issues/issues-overview.md)
 * [간트 차트](../manage-work/gantt-chart/the-gantt-chart.md)
 * [Portfolio 관리](../manage-work/portfolios/portfolio-management-overview.md)

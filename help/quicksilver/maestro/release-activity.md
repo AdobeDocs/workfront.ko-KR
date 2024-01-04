@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
 workflow-type: tm+mt
-source-wordcount: '2944'
+source-wordcount: '2942'
 ht-degree: 0%
 
 ---
@@ -26,26 +26,35 @@ ht-degree: 0%
 
 이 문서에서는 2023년 5월 22일 Maestro Closed Beta 프로그램 출시 이후 출시된 기능을 나열합니다.
 
-릴리스된 기능은 릴리스 순서대로 나열되며 가장 최근의 기능이 먼저 릴리스됩니다. Maestro Closed Beta 프로그램에 참여하는 고객은 미리보기 및 프로덕션 환경의 모든 기능에 액세스할 수 있습니다.
+릴리스된 기능은 릴리스 순서대로 나열되며 가장 최근의 기능이 먼저 릴리스됩니다. Maestro Closed Beta 프로그램에 참여하는 고객은 프로덕션 환경의 모든 기능에 액세스할 수 있습니다.
+
+<!--
+>[!IMPORTANT]
+>
+>Between May 2023 and December 2023, all features in this article were released to both the Preview and Production environment. The Maestro capabilities have  temporarily been removed from the Preview and Sandbox environment since January 2024. All features released after this date are currently available in Production. 
+-->
+
+이 문서에서는 2023년 5월 22일 Maestro Closed Beta 프로그램 출시 이후 출시된 기능 및 패치를 다룹니다.
+
+기능은 매주 릴리스되고 릴리스 순서대로 나열되며, 가장 최근의 기능이 먼저 나열됩니다. Maestro Closed Beta 프로그램에 참여하는 고객은 미리보기 및 프로덕션 환경의 모든 기능에 액세스할 수 있습니다.
 
 >[!IMPORTANT]
 >
 >아래 섹션에서 참조하는 설명서는 기능이 프로덕션에 릴리스된 후 잠시 사용할 수 있습니다.
 
-이 섹션에는 2023년 5월 22일 Maestro Closed Beta 프로그램 출시 후 출시된 기능 및 패치가 나열되어 있습니다.
+<!--## Week of January 8, 2024
 
-기능은 매주 릴리스되고 릴리스 순서대로 나열되며, 가장 최근의 기능이 먼저 나열됩니다. Maestro Closed Beta 프로그램에 참여하는 고객은 미리보기 및 프로덕션 환경의 모든 기능에 액세스할 수 있습니다.
+### Maestro capabilities are removed from the Preview and Sandbox environments 
 
-<!--
-## Week of November 27, 2023
+Preview and sandbox: <Date here> 
+
+The Maestro area and all the capabilities have been temporarily removed from the Preview and Sandbox environments. Maestro will be added to these environments at a later date which we will communicate in the near future.  
+
+(************ALSO SEE IMPORTANT NOTE ABOVE IN THE MAIN INTRO AREA - UNHIDE IT************)
 
 ### Maestro permissions for users and groups
 
-Production: November 28, 2023
-
->[!IMPORTANT]
->
->This functionality is not yet available in Preview.
+Production: <****date here****>
 
 You can now share a workspace with users and groups. You can set their permissions to different levels, depending on what information they need to view or edit in a Maestro workspace. After you share permissions to a workspace, users have permissions to the record types, records, and fields in that space.
 
@@ -55,13 +64,15 @@ The following are the permissions levels for Maestro workspaces:
 
 * View: Users can view workspaces that are shared with them. They can also view record types, and records from the shared workspace. 
 
-* Contribute: Users can create, edit, or delete records in the workspace that is shared with them.  They cannot create or edit record types or workspaces ones shared with them.  
+* Contribute: Users can create, edit, or delete records in the workspace that is shared with them.  They cannot create or edit record types or workspaces that are shared with them.  
 
-* Manage: Users can create, edit, and delete record types, records, and fields in workspaces that are shared with them. They cannot create workspaces.  
+* Manage: Users can create, edit, and delete workspaces, record types, records, and fields in workspaces that are shared with them.   
 
-Only Workfront administrators can create, edit, or delete workspaces and all information associated with them.  
+Only Workfront administrators can create, edit, or delete all workspaces, including those that they did not create. All other users can create, edit, or delete workspaces they created or that they have Manage permissions to. 
 
-For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
+For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md).
+
+-->
 
 ## 2023년 12월 25일 주
 

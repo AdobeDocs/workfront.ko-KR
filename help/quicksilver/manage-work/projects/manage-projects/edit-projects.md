@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
 workflow-type: tm+mt
-source-wordcount: '7330'
-ht-degree: 2%
+source-wordcount: '7452'
+ht-degree: 1%
 
 ---
 
 # 프로젝트 편집
+
+<!--Audited: 01/2024-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
@@ -30,41 +32,11 @@ ht-degree: 2%
 </div>
 -->
 
-Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있습니다. 전체 프로젝트 팀에 변경 사항에 대한 알림을 보내 혼동을 피하기 위해 프로젝트를 현재 로 변경한 후 최소한의 편집으로 편집하는 것이 좋습니다. 프로젝트가 계획 수립 상태일 때 프로젝트를 편집하는 것이 가장 좋습니다. 프로젝트 팀에 대한 자세한 내용은 [프로젝트 팀 개요](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있습니다. 전체 프로젝트 팀에 변경 사항에 대한 알림을 보내 혼동을 피하기 위해 프로젝트를 현재 로 변경한 후 최소한의 편집으로 편집하는 것이 좋습니다.
+
+프로젝트가 계획 수립 상태일 때 프로젝트를 편집하는 것이 가장 좋습니다. 프로젝트 팀에 대한 자세한 내용은 [프로젝트 팀 개요](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 ## 액세스 요구 사항
-
-<!--drafted - replace table at P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td><p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to projects, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Grant access to projects</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> 
-     <p>Manage permissions to a project </p> 
-     <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -72,21 +44,23 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>플랜 </p> </td> 
+   <td><p>새로운 기능: 표준 </p> 
+   또는
+   <p>현재: 플랜 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>프로젝트에 대한 액세스 편집</p> <p>여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. 프로젝트 액세스에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">프로젝트에 대한 액세스 권한 부여</a>. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>. </p> </td> 
+   <td> <p>프로젝트에 대한 액세스 편집</p> <p>액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. 프로젝트 액세스에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">프로젝트에 대한 액세스 권한 부여</a>. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
    <td> 
-    <p>프로젝트에 대한 권한 관리 </p> 
-    <p> 프로젝트 권한에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Adobe Workfront에서 프로젝트 공유</a>.</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+     <p>프로젝트에 대한 권한 관리 </p> 
+     <p> 프로젝트 권한에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Adobe Workfront에서 프로젝트 공유</a>.</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -99,7 +73,7 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
 
 프로젝트를 편집할 때 다음 사항을 고려하십시오.
 
-* 승인 프로세스에 있는 프로젝트는 로깅 시간 외에는 편집할 수 없습니다.
+* 승인 프로세스에 있는 프로젝트는 로깅 시간 및 상태 변경을 제외하고 편집할 수 없습니다.
 * Workfront 관리자 또는 그룹 관리자가 프로젝트 환경 설정 영역에서 이 기능을 활성화한 경우에만 완료, 중단 또는 승인 보류 상태인 프로젝트에 문서 또는 템플릿을 첨부할 수 있습니다. 프로젝트 환경 설정 지정에 대한 자세한 내용은 [시스템 전체 프로젝트 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 * 중단 또는 완료 상태의 프로젝트에 대한 다음 정보만 편집할 수 있습니다.
 
@@ -110,20 +84,25 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
 
 프로젝트를 편집하여 프로젝트에 대한 정보 및 설정뿐만 아니라 프로젝트의 작업 및 문제를 수정할 수 있습니다.
 
-이 문서에 언급된 일부 설정은 프로젝트를 만든 템플릿의 상태에 따라 기본 상태에서 수정될 수 있습니다. 템플릿 편집에 대한 자세한 내용은 [프로젝트 템플릿 편집](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+이 문서에 언급된 일부 설정은 프로젝트를 만든 템플릿의 상태에 따라 기본 상태에서 수정될 수 있습니다.
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 상단에서 을(를) 클릭한 다음 **프로젝트**.
+템플릿 편집에 대한 자세한 내용은 [프로젝트 템플릿 편집](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+
+템플릿에서 프로젝트를 만드는 방법에 대한 자세한 내용은 [템플릿을 사용하여 프로젝트 만들기](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md).
+
+{{step1-to-projects}}
+
 1. (선택 사항) **내가 진행 중인 프로젝트** 또는 **내가 소유한 프로젝트** 오른쪽 상단 모서리에서 자신이 소유자인 프로젝트 또는 자신이 프로젝트 팀에 속해 있는 프로젝트를 표시할 수 있습니다.
 
    ![](assets/projects-on-my-own-buttons-350x302.png)
-
-1. 편집할 프로젝트의 이름을 클릭하여 프로젝트 페이지를 엽니다.
 
    >[!NOTE]
    >
    >그룹 관리자인 경우 그룹 영역과 프로젝트 영역에서 그룹의 프로젝트를 보고 편집할 수 있습니다. 자세한 내용은 [그룹의 프로젝트 만들기 및 수정](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
-1. (선택 사항) 프로젝트에 대한 제한된 정보를 편집하려면 **프로젝트 세부 정보** 왼쪽 패널에서
+1. 편집할 프로젝트의 이름을 클릭하여 프로젝트 페이지를 엽니다.
+
+1. (선택 사항) 프로젝트에 대한 제한된 정보를 편집하려면 **프로젝트 세부 정보** 왼쪽 패널에서 프로젝트에 대한 모든 정보를 편집하려면 5단계를 진행합니다. <!--accurate?!-->
 
    ![](assets/nwe-project-details-expanded-350x298.png)
 
@@ -133,7 +112,7 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
 
    세부 정보 섹션에서 정보를 편집하려면 다음 작업을 수행하십시오.
 
-   1. (선택 사항) **모두 축소** 아이콘을 클릭하여 모든 영역을 축소할 수 있습니다.
+   1. (선택 사항) **모두 축소** 아이콘 ![](assets/collapse-icon.png)  오른쪽 상단 모서리에서 모든 영역을 축소할 수 있습니다.
    1. (선택 사항 및 조건부) 영역이 축소되면 **오른쪽 방향 화살표** ![](assets/right-pointing-arrow.png) 각 영역 옆에 있는 을 클릭하여 편집할 영역을 확장합니다.
    1. 프로젝트 세부 정보 탭에서 정보를 편집하는 방법에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
@@ -158,7 +137,9 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
 
    또는
 
-   프로젝트 목록에서 프로젝트를 선택한 다음 **편집** 아이콘 ![](assets/edit-icon.png) 목록의 맨 위에 있습니다.
+   프로젝트 목록에서 하나 이상의 프로젝트를 선택한 다음 **편집** 아이콘 ![](assets/edit-icon.png) 목록의 맨 위에 있습니다.
+
+   프로젝트를 일괄적으로 편집하는 방법에 대한 자세한 내용은 섹션을 참조하십시오 [일괄 프로젝트 편집](#edit-projects-in-bulk) 이 문서에서.
 
    다음 **프로젝트 편집** 상자가 열립니다.
 
@@ -172,7 +153,7 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
    >
    >Workfront 관리자 또는 그룹 관리자가 레이아웃 템플릿을 수정한 방법에 따라 프로젝트 편집 상자의 왼쪽 패널에 있는 영역이나 이러한 영역에 나열된 필드가 재배열되거나 표시되지 않을 수 있습니다. 자세한 내용은 [레이아웃 템플릿을 사용하여 세부 정보 보기 사용자 지정](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-1. (조건부) **자세히** 메뉴 및 다음 **편집**&#x200B;왼쪽 패널에 나열된 다음 영역 중 하나에서 정보를 업데이트하는 것이 좋습니다.
+1. (조건부) **자세히** 메뉴 및 다음 **편집**&#x200B;를 클릭하고 왼쪽 패널에 나열된 다음 영역의 정보를 업데이트합니다.
 
    * [프로젝트 이름](#project-name)
    * [개요](#overview)
@@ -208,96 +189,102 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
 1. 프로젝트에 대한 다음 정보를 업데이트합니다.
 
    <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader"><strong>설명</strong> </td> 
-      <td> <p>프로젝트에 대한 추가 정보를 추가합니다.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>상태</strong> </td> 
-      <td> <p>프로젝트의 상태를 선택합니다. 모든 작업 및 문제가 완료되기 전에 프로젝트를 완료로 표시할 수 없습니다. 프로젝트 상태에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md" class="MCXref xref">시스템 프로젝트 상태 목록 액세스</a></p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>우선 순위</strong> </td> 
-      <td> <p> <p>이는 프로젝트의 우선 순위를 지정할 수 있도록 해 주는 시각적 플래그일 뿐입니다.</p> <p>Workfront 관리자가 선택한 프로젝트 환경 설정에 따라 우선순위 이름이 다를 수 있습니다. 우선 순위 편집에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">우선 순위 만들기 및 사용자 지정</a></p> </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>URL</strong> </td> 
-      <td> <p>이 프로젝트에 대한 정보와 관련된 웹 링크를 지정하십시오.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>상태 유형</strong> </td> 
-      <td> <p>다음 조건 유형 중에서 선택합니다. 
-       <ul> 
-       <li><strong>수동:</strong> 프로젝트 소유자는 프로젝트에 대한 조건을 수동으로 설정합니다.</li> 
-       <li><strong>진행 상태:</strong> Workfront은 중요 경로에 있는 작업의 진행 상태를 기반으로 조건을 자동으로 설정합니다. 진행 상태 파악에 대한 자세한 내용은 <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">작업 진행 상태 개요</a>.</li> 
-       </ul><p>Workfront 관리자<span> 또는 그룹 관리자</span> 시스템의 프로젝트 상태를 계산하는 방법에 대한 기본값을 선택합니다. <span>또는 내 그룹</span>. 프로젝트 기본값 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">시스템 전체 프로젝트 환경 설정 구성</a>. </p></p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>조건</strong> </td> 
-      <td> <p> <p>(를 선택한 후에만 표시됩니다. <strong>수동</strong> 대상: <strong>조건 유형</strong>): 프로젝트의 진행 방식을 나타내는 조건 을 선택합니다. </p> <p>프로젝트 상태를 자동 또는 수동으로 설정하는 방법에 대한 자세한 내용은 <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">프로젝트 상태 및 상태 유형 개요</a></p> </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>일정 모드</strong> </td> 
-      <td> <p>프로젝트를 시작 일자에서 예약할지 또는 완료 일자에서 예약할지 지정합니다. 이 선택은 프로젝트에 대한 작업의 계획된 일자를 결정합니다. 
-       <ul> 
-       <li><strong>시작일</strong>: 프로젝트의 첫 번째 작업에 기본적으로 프로젝트와 계획된 시작 일자가 동일합니다. 작업 계획 시작 일자에 대한 자세한 내용은 <a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">작업 계획 시작 일자 개요</a>. 프로젝트 타임라인은 모든 작업의 기간을 기반으로 프로젝트의 시작 일자와 완료 일자에서 계산됩니다. </li> 
-       <li><strong>완료 일자</strong>: 프로젝트의 마지막 작업이 프로젝트와 동일한 계획된 완료 일자를 갖습니다. 프로젝트 타임라인은 완료 일자에서 계산되며 프로젝트 시작 일자는 시스템이 프로젝트의 완료 일자에서 모든 작업의 기간을 빼서 계산합니다. </li> 
-       </ul><p>Workfront 관리자<span> 또는 그룹 관리자</span> 시스템 또는 그룹에 대한 기본 예약 모드 설정을 선택합니다. 프로젝트 기본값 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">시스템 전체 프로젝트 환경 설정 구성</a>.</p></p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>계획된 시작 일자 및 시간</strong> </td> 
-      <td> <p> <p>선택 시 날짜 지정 <strong>시작 날짜부터 예약</strong>. <br></p> <p>을(를) 선택하는 경우 읽기 전용 필드입니다 <strong>완료 일자부터 예약</strong>.<br></p> </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>계획된 완료 일자 및 시간</strong> </td> 
-      <td> <p>선택 시 날짜 지정 <strong>완료 일자부터 예약</strong>. </p> <p>을(를) 선택하는 경우 읽기 전용 필드입니다 <strong>시작 날짜부터 예약</strong>.<br></p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>포트폴리오</strong></td> 
-      <td>프로젝트가 속한 Portfolio을 나타냅니다. 드롭다운 목록에 표시되기 전에 먼저 Portfolio을 만들어야 합니다. 활성 포트폴리오만 프로젝트와 연결할 수 있습니다. 포트폴리오 만들기에 대한 자세한 내용은 <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">포트폴리오 만들기 </a>.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>프로그램</strong></td> 
-      <td> <p>프로젝트에 대한 Portfolio을 선택한 경우 프로젝트에 대한 프로그램을 지정합니다. 일부 Portfolio은 프로그램이 없을 수 있습니다. 이 드롭다운 목록에 표시되기 전에 먼저 프로그램을 만들어야 합니다. 활성 프로그램만 프로젝트와 연결할 수 있습니다. </p> <p>프로그램 만들기에 대한 자세한 내용은 <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">프로그램 만들기</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>그룹</strong></td> 
-      <td> <p> <p>프로젝트와 연계된 그룹의 이름을 지정합니다. </p>필수 필드입니다. 그룹과 연결되지 않은 프로젝트는 가질 수 없습니다. </p> <p>마우스로 가리키고 정보 아이콘을 클릭하여 올바른 그룹을 선택하는지 확인할 수 있습니다 <img src="assets/info-icon.png"> 옆에 표시됩니다. 그룹 및 해당 관리자의 상위 그룹 계층과 같은 그룹에 대한 정보를 나열하는 도구 설명이 표시됩니다.</p> 기본적으로 다음 그룹 중 하나는 다른 그룹을 지정하지 않는 한 프로젝트를 만들 때 자동으로 연결됩니다.</p> 
-       <ul> 
-       <li> <p><span>프로젝트 영역에서 프로젝트를 만들면 프로젝트 작성자의 홈 그룹이 프로젝트와 연결됩니다.</span> </p> <p>이는 포트폴리오 또는 프로그램의 프로젝트 섹션에서 프로젝트를 만드는 경우에도 마찬가지입니다.</p> </li> 
-       <li> <p>프로젝트를 설정 영역의 그룹 기본 페이지에서 만들면 해당 그룹이 프로젝트와 연결됩니다.</p> </li> 
-       </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> 
-       <p><b>참고</b></p>
+      <col> 
+      <col> 
+      <tbody> 
+      <tr> 
+         <td role="rowheader"><strong>설명</strong> </td> 
+         <td> <p>프로젝트에 대한 추가 정보를 추가합니다.</p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>상태</strong> </td> 
+         <td> <p>프로젝트의 상태를 선택합니다. 모든 작업 및 문제가 완료되기 전에 프로젝트를 완료로 표시할 수 없습니다. 프로젝트 상태에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md" class="MCXref xref">시스템 프로젝트 상태 목록 액세스</a></p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>우선 순위</strong> </td> 
+         <td> <p> <p>이는 프로젝트의 우선 순위를 지정할 수 있도록 해 주는 시각적 플래그일 뿐입니다.</p> <p>Workfront 관리자가 선택한 프로젝트 환경 설정에 따라 우선순위 이름이 다를 수 있습니다. 우선 순위 편집에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">우선 순위 만들기 및 사용자 지정</a></p> </p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>URL</strong> </td> 
+         <td> <p>이 프로젝트에 대한 정보와 관련된 웹 링크를 지정하십시오.</p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>조건 유형</strong> </td> 
+         <td> <p>다음 조건 유형 중에서 선택합니다. 
+         <ul> 
+         <li><strong>수동:</strong> 프로젝트 소유자는 프로젝트에 대한 조건을 수동으로 설정합니다.</li> 
+         <li><strong>진행 상태:</strong> Workfront은 중요 경로에 있는 작업의 진행 상태를 기반으로 조건을 자동으로 설정합니다. 진행 상태 파악에 대한 자세한 내용은 <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">작업 진행 상태 개요</a>.</li> 
+         </ul><p>Workfront 관리자<span> 또는 그룹 관리자</span> 시스템의 프로젝트 상태를 계산하는 방법에 대한 기본값을 선택합니다. <span>또는 내 그룹</span>. 프로젝트 기본값 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">시스템 전체 프로젝트 환경 설정 구성</a>. </p></p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>조건</strong> </td> 
+         <td> <p> <p>(를 선택한 후에만 표시됩니다. <strong>수동</strong> 대상: <strong>조건 유형</strong>): 프로젝트의 진행 방식을 나타내는 조건 을 선택합니다. </p> <p>프로젝트 상태를 자동 또는 수동으로 설정하는 방법에 대한 자세한 내용은 <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">프로젝트 상태 및 상태 유형 개요</a></p> </p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>일정 모드</strong> </td> 
+         <td> <p>프로젝트를 시작 일자에서 예약할지 또는 완료 일자에서 예약할지 지정합니다. 이 선택은 프로젝트에 대한 작업의 계획된 일자를 결정합니다. 
+         <ul> 
+         <li><strong>시작일</strong>: 프로젝트의 첫 번째 작업에 기본적으로 프로젝트와 계획된 시작 일자가 동일합니다. 작업 계획 시작 일자에 대한 자세한 내용은 <a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">작업 계획 시작 일자 개요</a>. 프로젝트 타임라인은 모든 작업의 기간을 기반으로 프로젝트의 시작 일자와 완료 일자에서 계산됩니다. </li> 
+         <li><strong>완료 일자</strong>: 프로젝트의 마지막 작업이 프로젝트와 동일한 계획된 완료 일자를 갖습니다. 프로젝트 타임라인은 완료 일자에서 계산되며 프로젝트 시작 일자는 시스템이 프로젝트의 완료 일자에서 모든 작업의 기간을 빼서 계산합니다. </li> 
+         </ul><p>Workfront 관리자<span> 또는 그룹 관리자</span> 시스템 또는 그룹에 대한 기본 예약 모드 설정을 선택합니다. 프로젝트 기본값 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">시스템 전체 프로젝트 환경 설정 구성</a>.</p></p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>계획된 시작 일자 및 시간</strong> </td> 
+         <td> <p> <p>선택 시 날짜 지정 <strong>시작 날짜부터 예약</strong>. <br></p> <p>을(를) 선택하는 경우 읽기 전용 필드입니다 <strong>완료 일자부터 예약</strong>.<br></p> </p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>계획된 완료 일자 및 시간</strong> </td> 
+         <td> <p>선택 시 날짜 지정 <strong>완료 일자부터 예약</strong>. </p> <p>을(를) 선택하는 경우 읽기 전용 필드입니다 <strong>시작 날짜부터 예약</strong>.<br></p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>포트폴리오</strong></td> 
+         <td>프로젝트가 속한 Portfolio을 나타냅니다. 드롭다운 목록에 표시되기 전에 먼저 Portfolio을 만들어야 합니다. 활성 포트폴리오만 프로젝트와 연결할 수 있습니다. 포트폴리오 만들기에 대한 자세한 내용은 <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">포트폴리오 만들기 </a>.</td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>프로그램</strong></td> 
+         <td> <p>프로젝트에 대한 Portfolio을 선택한 경우 프로젝트에 대한 프로그램을 지정합니다. 일부 Portfolio은 프로그램이 없을 수 있습니다. 이 드롭다운 목록에 표시되기 전에 먼저 프로그램을 만들어야 합니다. 활성 프로그램만 프로젝트와 연결할 수 있습니다. </p> <p>프로그램 만들기에 대한 자세한 내용은 <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">프로그램 만들기</a>.</p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>그룹</strong></td> 
+         <td> <p> <p>프로젝트와 연계된 그룹의 이름을 지정합니다. </p>필수 필드입니다. 그룹과 연결되지 않은 프로젝트는 가질 수 없습니다. </p> <p>마우스로 가리키고 정보 아이콘을 클릭하여 올바른 그룹을 선택하는지 확인할 수 있습니다 <img src="assets/info-icon.png"> 옆에 표시됩니다. 그룹 및 해당 관리자의 상위 그룹 계층과 같은 그룹에 대한 정보를 나열하는 도구 설명이 표시됩니다.</p> 기본적으로 다음 그룹 중 하나는 다른 그룹을 지정하지 않는 한 프로젝트를 만들 때 자동으로 연결됩니다.</p> 
+         <ul> 
+         <li> <p><span>프로젝트 영역에서 프로젝트를 만들면 프로젝트 작성자의 홈 그룹이 프로젝트와 연결됩니다.</span> </p> <p>이는 포트폴리오 또는 프로그램의 프로젝트 섹션에서 프로젝트를 만드는 경우에도 마찬가지입니다.</p> </li> 
+         <li> <p>프로젝트를 설정 영역의 그룹 기본 페이지에서 만들면 해당 그룹이 프로젝트와 연결됩니다.</p> </li> 
+         </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> 
+         <p><b>참고</b></p>
 
-   <ul>
-      <li><p>프로젝트, 프로젝트 작업 또는 문제가 그룹 수준의 사용자 지정 상태와 연결되어 있는 경우 프로젝트 그룹을 변경하면 프로젝트, 작업 또는 문제의 상태가 새 그룹과 일치하도록 변경될 수 있습니다.</p></li>
-      <li><p>프로젝트 또는 프로젝트 작업 또는 문제가 그룹 수준의 사용자 정의 상태를 사용하여 그룹 수준의 승인 프로세스와 이미 연결되어 있는 경우 그룹을 변경하면 이전 그룹의 승인 상태와 시스템 수준의 기존 승인 상태가 충돌할 수 있습니다.</p>
-      <p>그룹을 업데이트하기 전에 프로젝트에서 그룹 수준 승인 프로세스, 작업 또는 문제를 제거하는 것이 좋습니다.</p>
-      <p>그룹 수준 승인 프로세스를 만드는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">그룹 수준 승인 프로세스</a>.</p>
-      <p>그룹 수준 사용자 지정 상태 만들기에 대한 자세한 내용은 <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">그룹 상태 만들기 또는 편집</a></p></li></ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>회사</strong> </td> 
-      <td> <p>프로젝트와 연계된 회사를 지정합니다. 회사를 프로젝트와 연결하려면 먼저 회사를 만들어야 합니다. 활성 회사만 프로젝트와 연결할 수 있습니다. 회사 만들기에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md" class="MCXref xref">회사 만들기 및 편집</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>프로젝트 소유자</strong> </td> 
-      <td> <p>프로젝트에 추가할 사용자 이름을 입력한 다음 목록에 표시될 때 선택합니다. 사용자는 프로젝트 팀에 추가되고 프로젝트에 대한 관리 권한이 자동으로 부여됩니다. 프로젝트 소유자로 지정된 사용자는 Workfront 활성 사용자여야 합니다.</p>
-      </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>프로젝트 스폰서</strong> </td> 
-      <td> <p>프로젝트에 추가할 사용자 이름을 입력한 다음 목록에 표시될 때 선택합니다. 사용자는 프로젝트 팀에 추가되고 프로젝트에 대한 보기 권한이 자동으로 부여됩니다. 프로젝트 스폰서로 지정된 사용자는 Workfront 활성 사용자여야 합니다.<br></p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>리소스 관리자</strong> </td> 
-      <td> <p> 프로젝트에 추가할 사용자 이름을 입력한 다음 목록에 표시될 때 선택합니다. 사용자는 프로젝트 팀에 추가되고 프로젝트에 대한 관리 권한이 자동으로 부여되며 프로젝트의 작업 및 문제에 리소스를 할당할 수 있습니다. 사용자는 리소스 관리자 필드에서 제거되더라도 프로젝트에 대한 관리 권한을 유지 관리합니다. 리소스 관리자를 두 개 이상 지정할 수 있습니다.<br></p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+       &lt;ul>
+       &lt;li>&lt;p>프로젝트, 프로젝트 작업 또는 문제가 그룹 수준의 사용자 지정 상태와 연결되어 있는 경우 프로젝트 그룹을 변경하면 프로젝트, 작업 또는 문제의 상태가 새 그룹과 일치하도록 변경될 수 있습니다.&lt;/p>&lt;/li>
+       &lt;li>&lt;p>프로젝트 또는 프로젝트 작업 또는 문제가 그룹 수준의 사용자 정의 상태를 사용하여 그룹 수준의 승인 프로세스와 이미 연결되어 있는 경우 그룹을 변경하면 이전 그룹의 승인 상태와 시스템 수준의 기존 승인 상태가 충돌할 수 있습니다.&lt;/p>
+       &lt;p>그룹을 업데이트하기 전에 프로젝트에서 그룹 수준 승인 프로세스, 작업 또는 문제를 제거하는 것이 좋습니다.&lt;/p>
+       &lt;p>그룹 레벨 승인 프로세스 생성에 대한 자세한 내용은 &lt;a href=&quot;../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md&quot; class=&quot;MCXref xref&quot;>그룹 레벨 승인 프로세스를 참조하십시오&lt;/a>.&lt;/p>
+       &lt;p>그룹 수준 사용자 지정 상태 만들기에 대한 자세한 내용은 &lt;a href=&quot;../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md&quot; class=&quot;MCXref xref&quot;>그룹 상태 만들기 또는 편집을 참조하십시오&lt;/a>&lt;/p>&lt;/li>&lt;/ul> &lt;/td>
+   </tr> 
+      <tr> 
+         <td role="rowheader"><strong>회사</strong> </td> 
+         <td> <p>프로젝트와 연계된 회사를 지정합니다. 회사를 프로젝트와 연결하려면 먼저 회사를 만들어야 합니다. 활성 회사만 프로젝트와 연결할 수 있습니다. 회사 만들기에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md" class="MCXref xref">회사 만들기 및 편집</a>.</p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>프로젝트 소유자</strong> </td> 
+         <td> <p>프로젝트에 추가할 사용자 이름을 입력한 다음 목록에 표시될 때 선택합니다. 사용자는 프로젝트 팀에 추가되고 프로젝트에 대한 관리 권한이 자동으로 부여됩니다. 프로젝트 소유자로 지정된 사용자는 Workfront 활성 사용자여야 합니다.</p>
+         </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>프로젝트 스폰서</strong> </td> 
+         <td> <p>프로젝트에 추가할 사용자 이름을 입력한 다음 목록에 표시될 때 선택합니다. 사용자는 프로젝트 팀에 추가되고 프로젝트에 대한 보기 권한이 자동으로 부여됩니다. 프로젝트 스폰서로 지정된 사용자는 Workfront 활성 사용자여야 합니다.<br></p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>리소스 관리자</strong> </td> 
+         <td> <p> 프로젝트에 추가할 사용자 이름을 입력한 다음 목록에 표시될 때 선택합니다. 사용자는 프로젝트 팀에 추가되고 프로젝트에 대한 관리 권한이 자동으로 부여되며 프로젝트의 작업 및 문제에 리소스를 할당할 수 있습니다. 사용자는 리소스 관리자 필드에서 제거되더라도 프로젝트에 대한 관리 권한을 유지 관리합니다. 리소스 관리자를 두 개 이상 지정할 수 있습니다.<br></p> </td> 
+      </tr>
+
+   <tr> 
+         <td role="rowheader"><strong>전환된 문제 작성자</strong> </td> 
+         <td> <p> 기본적으로 이 필드는 프로젝트가 전환된 문제를 만든 사용자의 이름으로 자동 채워집니다. Workfront에서 다른 사용자의 이름으로 이 이름을 업데이트할 수 있습니다. <br></p> </td> 
+      </tr>
+
+   </tbody> 
+      </table>
 
    >[!TIP]
    >
@@ -307,7 +294,7 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
    >
    >사용자의 이메일을 보려면 사용자의 액세스 수준에서 연락처 정보 보기 설정을 활성화해야 합니다. 자세한 내용은 [사용자에게 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-1. (선택 사항) 수정할 정보에 따라 다음 섹션을 계속 편집합니다.
+1. (선택 사항) 수정할 정보에 따라 다음 섹션을 계속 편집합니다
 
    또는
 
@@ -333,8 +320,7 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
 * [사용자 정의 양식 공유](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
 * [사용자 정의 양식에 섹션 구분 추가](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
 
-사용자 정의 양식에 대한 정보를 편집하려면:
-
+프로젝트를 편집할 때 사용자 정의 양식에 대한 정보를 편집하려면 다음 작업을 수행하십시오.
 
 1. 위에 설명된 대로 프로젝트 편집을 시작합니다.
 1. 클릭 **사용자 지정 Forms** 왼쪽 패널에서
@@ -388,14 +374,14 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
      </tr> 
      <tr> 
       <td role="rowheader"><strong>예산</strong> </td> 
-      <td> <p>프로젝트에 대한 예산을 지정합니다.<br></p> </td> 
+      <td> 프로젝트에 대한 예산을 지정합니다. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>성과 지수 방법</strong> </td> 
+      <td role="rowheader"><strong>성과 지표 메서드</strong> </td> 
       <td> <p>선택 <b>시간 기반</b>, 또는 <b>비용 기반</b> 프로젝트의 성과 지표(예: 비용 성과 지표 또는 예상 실제 비용)가 시간 또는 비용을 사용하여 계산되는지 여부를 나타냅니다. </p> <p>성과 지수 방법에 대한 자세한 내용은 <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">PIM(성과 지표 메서드) 설정</a>. </p> <p>Workfront 관리자<span> 또는 그룹 관리자</span> 시스템 또는 그룹에 대한 기본 성과 지수 방법 설정을 선택합니다. 프로젝트 기본값 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">시스템 전체 프로젝트 환경 설정 구성</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>완료 시점 예측</strong> </td> 
+      <td role="rowheader"><strong>완료 시 견적</strong> </td> 
       <td> <p> <p>Workfront에서 EAC(완료 시 추정 비용)를 계산하는 방법을 지정합니다. </p>
       다음 옵션 중에서 선택합니다. 
       <ul><li><b>프로젝트 수준에서 계산</b></li>
@@ -512,7 +498,9 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
        <td> <p> <p>다음 옵션 중에서 선택합니다.</p> 
        <ul> 
        <li> <p>선택 <strong>아니요</strong> 모든 프로젝트별 시간 유형을 프로젝트에서 사용할 수 있도록 합니다. (기본 선택 사항입니다.)</p> <p>또는</p> </li> 
-       <li>선택 <strong>예</strong> 프로젝트에서 프로젝트별 시간 유형의 하위 집합만 사용할 수 있도록 하려면 사용할 시간 유형을 선택합니다. (Shift 키를 누른 상태로 여러 시간 유형을 선택합니다.)</li> 
+       <li>선택 <strong>예</strong> 프로젝트에서 프로젝트별 시간 유형의 하위 집합만 사용할 수 있도록 하려면 다음 중 사용할 수 있도록 하려는 시간 유형을 선택합니다. <b>시간 유형</b> 필드.</li> 
+       <p><b>팁</b></p>
+       <p>다음 <b>시간 유형</b> 필드는 편집할 수 없습니다. <b>아니요</b>.</p> 
        <p>이 옵션을 선택하면 프로젝트(또는 프로젝트 내의 작업 및 문제)에 시간을 기록할 때 선택한 시간 유형만 선택할 수 있습니다. 최소 1개의 시간 유형을 선택해야 합니다. 이 옵션을 선택하고 시간 유형을 선택하지 않으면 프로젝트에서 모든 시간 유형을 사용할 수 있습니다.</p> </ul>
 
    <p>사용자가 프로젝트에서 이러한 시간 유형 옵션을 보려면 개별 사용자 수준에서 동일한 시간 유형을 선택해야 합니다. 사용자 수준에서 시간 유형을 정의하는 방법에 대한 자세한 내용은 <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">로그 시간</a>. </p> </p> </td> 
@@ -558,7 +546,7 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
 
 1. 다음에서 **작업 기본 승인 프로세스** 상자에 신규 태스크를 프로젝트에 추가할 때 모든 신규 태스크와 연관시킬 태스크 승인 프로세스를 선택합니다.
 
-   Workfront 관리자(또는 승인 프로세스에 대한 관리 액세스 권한이 있는 사용자)는 작업을 프로젝트와 연결하기 전에 해당 작업에 대한 시스템 수준의 승인 프로세스를 만들어야 합니다. 활성 승인 프로세스만 목록에 표시됩니다. 승인 프로세스 생성에 대한 자세한 내용은 [작업 항목에 대한 승인 프로세스 만들기](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md). 프로젝트 그룹 또는 승인 프로세스 변경 사항이 승인 설정에 미치는 영향에 대한 자세한 내용은 [그룹 및 승인 프로세스 변경이 할당된 승인 프로세스에 미치는 영향](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md).
+   Workfront 관리자(또는 승인 프로세스에 대한 관리 액세스 권한이 있는 사용자)는 작업을 프로젝트에 연결하기 전에 작업에 대한 시스템 수준 또는 그룹 수준 승인 프로세스를 만들어야 합니다. 활성 승인 프로세스만 목록에 표시됩니다. 승인 프로세스 생성에 대한 자세한 내용은 [작업 항목에 대한 승인 프로세스 만들기](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md). 프로젝트 그룹 또는 승인 프로세스 변경 사항이 승인 설정에 미치는 영향에 대한 자세한 내용은 [그룹 및 승인 프로세스 변경이 할당된 승인 프로세스에 미치는 영향](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md).
 
    프로젝트를 대량 편집할 때 다음과 같은 시나리오가 있습니다.
 
@@ -654,11 +642,11 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
       <td><p>다음에서 선택 <strong>보기</strong>, <strong>참여</strong>, 또는 <strong>관리</strong> 요청에 대한 액세스 권한. 프로젝트가 요청 대기열이기도 하고 사용자가 프로젝트에 요청을 제출하면 제출한 요청에 대한 이 액세스 권한이 부여됩니다. 프로젝트를 요청 대기열로 설정하는 방법에 대한 자세한 내용은 <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">요청 대기열 만들기</a>.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><strong>같은 회사의 직원들은 모든 요청에 대해 동일한 권한을 상속합니다</strong></td> 
+      <td role="rowheader"><strong>같은 회사의 직원들은 모든 요청에 대해 동일한 권한을 상속합니다.</strong></td> 
       <td><p>제출했는지에 관계없이 동일한 회사의 직원들이 프로젝트의 모든 요청에 대해 동일한 액세스 권한을 갖도록 하려면 이 필드를 선택합니다.<br></p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>누군가 이 프로젝트에 대한 액세스 권한을 부여 받은 경우: 액세스 권한 부여...</strong></td> 
+      <td role="rowheader"><strong>누군가 이 프로젝트에 대한 액세스 권한을 부여 받은 경우: ...에 대한 기본 액세스 권한을 나타냅니다.</strong></td> 
       <td><p>프로젝트가 사용자와 공유되는 경우 사용자가 프로젝트에 보유할 액세스 옵션을 선택합니다. 액세스가 다음과 같이 지정된 경우 해당 액세스에 대한 특정 옵션을 선택합니다. <strong>뷰어</strong>, <strong>참가자</strong>, 또는 <strong>관리자</strong> 프로젝트를 해당 사용자와 공유할 때. </p><p>다음 <strong>삭제</strong> 액세스 권한: <strong>관리</strong> 권한 수준은 사용자가 프로젝트 자체를 삭제할 수 있는지 여부를 결정합니다. 을 사용하는 사용자 <strong>관리</strong> 프로젝트 액세스 권한은 이 옵션의 선택 여부에 관계없이 프로젝트 내의 작업 및 문제(있는 경우)를 삭제할 수 있습니다. <strong>관리</strong> 작업 및 문제에 대한 권한. </p></td> 
      </tr> 
     </tbody> 
@@ -677,6 +665,7 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
 기본적으로 다음 필드가 프로젝트 헤더에 포함됩니다.
 
 * 프로젝트 이름
+* 완료율
 * 프로젝트 소유자
 * 계획된 완료 일자 및 시간
 
@@ -731,8 +720,8 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
 
 프로젝트를 일괄적으로 편집하려면 다음 작업을 수행하십시오.
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront 오른쪽 상단에 있습니다.
-1. 클릭 **프로젝트**.
+{{step1-to-projects}}
+
 1. 목록에서 여러 프로젝트를 선택합니다.
 1. 다음을 클릭합니다. **편집** 아이콘 ![](assets/edit-icon.png) 목록의 맨 위에 있습니다.
 다음 **프로젝트 편집** 대화 상자가 열립니다.
