@@ -6,9 +6,9 @@ description: 외부 소스에서 문서 및 폴더를 Adobe Workfront에 연결�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 1069b34ad516f2f419fb3b547bb8fc45b542c483
 workflow-type: tm+mt
-source-wordcount: '2588'
+source-wordcount: '2602'
 ht-degree: 0%
 
 ---
@@ -61,19 +61,21 @@ Workfront에 직접 업로드한 문서를 사용하는 것과 동일한 방식�
 
 ## 액세스 요구 사항
 
-다음 항목이 있어야 합니다.
+이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p> 임의</p> </td> 
+   <td role="rowheader">Adobe Workfront 플랜*</td>
+   <td> <p> 임의</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>요청 이상</p> </td> 
+   <td role="rowheader">Adobe Workfront 라이센스*</td>
+   <td><p>새로운 기능: 기여자 이상</p>
+    <p>또는</p>
+    <p>현재: 요청 이상</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 

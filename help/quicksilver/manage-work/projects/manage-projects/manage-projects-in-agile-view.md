@@ -2,13 +2,13 @@
 product-area: projects;agile-and-teams
 navigation-topic: manage-projects
 title: 애자일 보기에서 프로젝트 관리
-description: 필요한 계획, 라이선스 유형 및 액세스 Adobe Workfront 계획 팀, Pro, 비즈니스 또는 엔터프라이즈 Workfront 라이선스 유형 액세스 모델에서 검토, 작업 또는 계획 권한 편집 액세스 및 보고서, 대시보드 및 캘린더 생성 기능
-author: Alina
+description: 일반적으로 애자일 사례(팀 백로그 관리 또는 반복 생성 등)와 관련된 관리 문제 없이 프로젝트에 대한 애자일 기능을 활용할 수 있습니다.
+author: Alina and Lisa
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 72511f98e05c160e2ca69def8aa3a929ed62bb40
+source-git-commit: fa499d74df891441e729c32188e9b2f74e4ef5c0
 workflow-type: tm+mt
-source-wordcount: '1393'
+source-wordcount: '1386'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Required plans, license types, and access
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
@@ -202,7 +202,7 @@ Required plans, license types, and access
 
 Workfront의 표준 보기와 마찬가지로 기존 애자일 보기를 사용자 정의하거나 새 애자일 보기를 처음부터 만들 수 있습니다. 표준 보기와 달리 기존 애자일 보기를 기반으로 새 애자일 보기를 만들 수 없습니다.
 
-애자일 보기 만들기 및 사용자 지정에 대한 자세한 내용은 문서의 &quot;애자일 보기 만들기 또는 사용자 지정&quot; 섹션을 참조하십시오 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+애자일 보기 만들기 및 사용자 지정에 대한 자세한 내용은 [애자일 보기 만들기 또는 사용자 지정](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) 이 문서의 섹션 [Adobe Workfront에서 보기 만들기 또는 편집](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 ## 기존 애자일 보기 공유
 
