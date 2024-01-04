@@ -2,19 +2,21 @@
 content-type: overview
 product-area: reporting
 navigation-topic: reporting-elements
-title: Adobe Workfront의 필터 개요
+title: 필터 개요
 description: Adobe Workfront에서 필터를 사용하여 목록, 보고서 또는 기타 영역의 화면에 표시되는 정보의 양을 줄일 수 있습니다.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
+source-git-commit: 9add9857213bb3eca5fbc3bbe3f4e1bb9b5020fa
 workflow-type: tm+mt
-source-wordcount: '1841'
+source-wordcount: '1830'
 ht-degree: 1%
 
 ---
 
-# Adobe Workfront의 필터 개요
+# 필터 개요
+
+<!-- Audited: 01/2024 -->
 
 Adobe Workfront에서 필터를 사용하여 목록, 보고서 또는 기타 영역의 화면에 표시되는 정보의 양을 줄일 수 있습니다.
 
@@ -57,7 +59,7 @@ Workfront에는 몇 가지 유형의 필터가 있습니다. 모든 필터는 �
 
 사용자, 기타 또는 Workfront이 개체 목록 또는 보고서에서 만든 영구 필터를 사용할 수 있습니다.
 
-Workfront의 개체 및 보고서를 작성할 수 있는 개체에 대한 자세한 내용은 [Adobe Workfront의 오브젝트 이해](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Workfront의 개체 및 보고서를 작성할 수 있는 개체에 대한 자세한 내용은 [Adobe Workfront 개체 개요](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 목록 및 보고서의 필터에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
@@ -70,7 +72,7 @@ Workfront의 개체 및 보고서를 작성할 수 있는 개체에 대한 자�
 Workfront의 다음 영역에서 기본 제공 필터를 사용하거나 사용자 지정 필터를 빌드할 수 있습니다.
 
 * 홈\
-  자세한 내용은 [작업 목록 필터링](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md#filtering-by-item-type) 이 문서의 섹션 [홈 영역의 작업 목록에 항목 표시](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+  자세한 내용은 [작업 목록 필터링](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md#filter-the-work-list) 이 문서의 섹션 [홈 영역의 작업 목록에 항목 표시](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 * 요청 영역입니다. 요청 영역에서는 필터를 사용자 지정할 수 없습니다.
 
   자세한 내용은 [제출된 요청 찾기](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
@@ -80,7 +82,7 @@ Workfront의 다음 영역에서 기본 제공 필터를 사용하거나 사용�
 
 * 활용성 보고서
 
-  자세한 내용은 섹션을 참조하십시오 [필터 사용률 정보](../../../resource-mgmt/resource-utilization/view-utilization-information.md#filtering-utilization-information) 이 문서에서 [자원 가동률 정보 보기](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
+  자세한 내용은 섹션을 참조하십시오 [필터 사용률 정보](../../../resource-mgmt/resource-utilization/view-utilization-information.md#filter-utilization-information) 이 문서에서 [자원 가동률 정보 보기](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
 
 * 워크로드 밸런서
 
@@ -130,7 +132,7 @@ Workfront의 다음 영역에서 기본 제공 필터를 사용하거나 사용�
 
 ## 목록 및 보고서의 필터 개요
 
-목록 및 보고서를 사용하여 작업할 때 다음 유형의 필터를 사용하여 화면에서 정보를 필터링할 수 있습니다.
+목록 및 보고서를 사용하여 작업할 때 다음 유형의 필터로 화면에서 정보를 필터링할 수 있습니다.
 
 * 기본 제공 필터
 * 사용자 또는 다른 사용자가 처음부터 새로 만드는 필터
@@ -142,8 +144,9 @@ Workfront의 다음 영역에서 기본 제공 필터를 사용하거나 사용�
 >보고서에서 필터를 만들거나 편집할 때 새 필터가 보고서의 기본 필터가 되도록 보고서를 편집해야 합니다. Report Builder 외부의 필터만 편집할 때 보고서의 기본 필터는 업데이트되지 않습니다.\
 >보고서 편집에 대한 자세한 내용은 문서를 참조하십시오 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-Workfront 목록에 대한 자세한 내용은 문서를 참조하십시오 [Adobe Workfront에서 목록 시작](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).\
-Workfront 보고서에 대한 자세한 내용은 문서 를 참조하십시오 [보고서 시작](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
+Workfront 목록에 대한 자세한 내용은 [Adobe Workfront에서 목록 시작](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+
+Workfront 보고서에 대한 자세한 내용은 [보고서 시작](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
 
 목록 또는 보고서에서 필터를 사용할 때는 다음 사항을 고려하십시오.
 
@@ -151,13 +154,13 @@ Workfront 보고서에 대한 자세한 내용은 문서 를 참조하십시오 
 
 * Workfront 관리자가 영구 필터를 만들려면 필터, 보기 및 그룹화에 대한 편집 액세스 권한을 부여해야 합니다.
 
-  필터, 보기 및 그룹화에 대한 액세스 권한을 부여하는 방법에 대한 자세한 내용은 [필터, 보기 및 그룹화에 대한 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+  자세한 내용은 [필터, 보기 및 그룹화에 대한 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
-* 필터에 대한 사용 권한 수준에 따라 필터 저장 방법이 결정됩니다. 필터를 처음 만든 경우 변경 사항을 저장할 수 있습니다. 그렇지 않으면 수정 중인 필터 버전을 저장하라는 메시지가 표시됩니다.
+* 필터에 대한 사용 권한 수준에 따라 필터 저장 방법이 결정됩니다. 필터를 처음 만든 경우 변경 사항을 저장할 수 있습니다. 그렇지 않으면 수정 중인 필터의 새 버전을 저장하라는 메시지가 표시됩니다.
 
   >[!TIP]
   >
-  >다른 사용자와 공유한 필터를 변경하는 경우 변경 사항은 해당 사용자에게도 영향을 줍니다.
+  >다른 사용자와 공유한 필터를 변경하면 변경 사항도 필터에 영향을 줍니다.
 
 * 공유한 사용자가 관리 액세스 권한을 부여한 경우에만 공유한 필터를 사용자 지정할 수 있습니다. 필터 공유에 대한 자세한 내용은 [필터, 보기 또는 그룹화 공유](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
@@ -181,14 +184,14 @@ Workfront 보고서에 대한 자세한 내용은 문서 를 참조하십시오 
  <tbody> 
   <tr> 
    <td><strong>오브젝트</strong></td> 
-   <td> <p>필터의 Workfront 데이터베이스 개체입니다. Workfront에서 보고 가능한 오브젝트에 대한 자세한 내용은 <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Adobe Workfront의 오브젝트 이해</a>. </p> <p>예를 들어 프로젝트, 작업, 문제, 사용자, 문서는 필터의 개체가 될 수 있습니다. </p> </td> 
+   <td> <p>필터의 Workfront 데이터베이스 개체입니다. Workfront에서 보고 가능한 오브젝트에 대한 자세한 내용은 <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Adobe Workfront 개체 개요</a>. </p> <p>예를 들어 프로젝트, 작업, 문제, 사용자 또는 문서는 필터의 개체가 될 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td><strong>필드</strong></td> 
    <td> <p>필터링 기준으로 사용하는 객체의 속성입니다. </p> <p>예를 들어 Portfolio 이름 또는 프로젝트 소유자별로 필터링할 수 있습니다. 이 경우 이름 및 소유자는 Portfolio 및 프로젝트 개체의 필드입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>값</strong></p> </td> 
+   <td><strong>값</strong></td> 
    <td>Workfront에 있는 필드의 실제 이름. 예를 들어 완료는 프로젝트 상태 필드의 값이 될 수 있습니다. </td> 
   </tr> 
   <tr> 
@@ -241,14 +244,13 @@ Workfront에는 각 필터 문을 연결하는 두 개의 필터 연산자가 �
 
 ## 텍스트 모드 인터페이스를 사용하여 필터 만들기
 
-텍스트 모드 인터페이스를 사용하여 필터를 빌드할 수 있습니다. 표준 또는 Beta 빌더 인터페이스를 사용하여 대부분의 필터 문을 작성하고 마지막 단계로만 필터의 코드를 편집하는 것이 좋습니다. 텍스트 모드 인터페이스만 사용하여 처음부터 필터를 빌드하는 것은 권장되지 않습니다.
+텍스트 모드 인터페이스를 사용하여 필터를 빌드할 수 있습니다. 표준 또는 레거시 빌더 인터페이스를 사용하여 대부분의 필터 문을 작성하고 마지막 단계로만 필터의 코드를 편집하는 것이 좋습니다. 텍스트 모드 인터페이스만 사용하여 처음부터 필터를 빌드하는 것은 권장되지 않습니다.
 
 텍스트 모드 인터페이스를 사용하여 필터를 만드는 방법에 대한 자세한 내용은 [텍스트 모드를 사용하여 필터 편집](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
 ## 복잡한 필드에 대한 필터 만들기
 
-* [값이 쉼표를 포함하는 필드에 대한 필터 만들기](#create-filters-for-fields-whose-values-contain-commas)
-* [값이 다중 선택 사용자 정의 필드인 필터 만들기](#create-filters-for-whose-values-are-a-multi-select-custom-field)
+값이 쉼표를 포함하는 필드 및 값이 다중 선택 사용자 정의 필드인 필드와 같은 복잡한 필드에 대한 필터를 만들 수 있습니다.
 
 ### 값이 쉼표를 포함하는 필드에 대한 필터 만들기 {#create-filters-for-fields-whose-values-contain-commas}
 
@@ -270,7 +272,7 @@ Workfront에는 각 필터 문을 연결하는 두 개의 필터 연산자가 �
 
 `DE:check_Mod=in`
 
-이 구문은 값을 하나의 옵션으로 함께 읽도록 보장합니다. 슬래시를 생략하면 Workfront에서 쉼표를 &#39;OR&#39;로 읽습니다. 이 경우 첫 번째 또는 두 번째 옵션이 있는 프로젝트만 선택됩니다.
+이 구문은 값을 하나의 옵션으로 함께 읽도록 보장합니다. 슬래시를 생략하면 Workfront이 쉼표를 OR로 읽습니다. 이 경우 첫 번째 또는 두 번째 옵션이 있는 프로젝트만 선택됩니다.
 
 이 구문은 프롬프트를 작성할 때도 적용됩니다. 프롬프트 사용에 대한 자세한 내용은 [보고서에 프롬프트 추가](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 

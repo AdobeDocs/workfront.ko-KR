@@ -6,10 +6,10 @@ description: 특정 보고 요소를 작성할 때 특정 정보 대신 와일�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 216e2869-b4f8-4cc7-9497-a12ebe00fe49
-source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 0%
+source-wordcount: '499'
+ht-degree: 1%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
    ![](assets/user-based-wildcard-in-project-filter-350x74.png)
 
-1. 클릭 **저장 + 닫기**.
+1. **저장 및 닫기**&#x200B;를 클릭합니다.
 
 ## 추가 정보
 
@@ -90,6 +90,6 @@ ht-degree: 0%
 <!--outdated: * [Basic Report Creation Program](https://one.workfront.com/s/basic-report-creation-program) -->
 * [와일드카드 필터 변수 개요](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
 * [Adobe Workfront에서 필터 만들기 또는 편집](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
-* [Adobe Workfront의 필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * [보고서에 프롬프트 추가](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 * [보기에서 조건부 서식 사용](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)

@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '775'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Adobe Workfront 관리자는 레이아웃 템플릿을 사용하여 필터, 보�
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td>모든</td> 
+   <td>임의</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -104,7 +104,7 @@ Adobe Workfront 관리자는 레이아웃 템플릿을 사용하여 필터, 보�
         <ol> 
          <li value="1"> 클릭 <strong>필터 추가</strong>, <strong>보기 추가</strong>, 또는 <strong>그룹화 추가</strong> 필터, 보기 또는 그룹화 목록의 맨 아래. 표시되는 상자에서 이전에 조직에 대해 만든 기존 사용자 지정 목록 컨트롤의 이름을 입력한 다음 표시될 때 이름을 클릭합니다.</li> 
          <li value="2"> 레이아웃 템플릿에 대한 기본 필터, 보기 또는 그룹화로 새 사용자 지정 목록 컨트롤을 설정하려면 <strong>기본값으로 설정</strong>. </li> 
-         <li value="3"> <p>클릭 <strong>추가</strong> 다 끝나면</p> <p><b>메모</b>: <p>사용자는 사용자 지정 목록 컨트롤을 자신의 목록에 추가할 수 있습니다. 레이아웃 템플릿에 사용자 지정 목록 컨트롤을 추가하면 목록 컨트롤이 추가되고 목록 컨트롤은 패널 아래쪽으로 이동하며 목록 컨트롤은 대체되지 않습니다.</p> <p>이는 사용자 지정 목록 컨트롤이 있는 새 레이아웃 템플릿에 사용자를 할당하는 경우에도 마찬가지입니다. </p> <p>목록 컨트롤 사용자 지정에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Adobe Workfront의 필터 개요</a>, <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Adobe Workfront의 보기 개요</a>, 및 <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Adobe Workfront의 그룹화 개요</a>.</p> </p> </li> 
+         <li value="3"> <p>클릭 <strong>추가</strong> 다 끝나면</p> <p><b>참고</b>: <p>사용자는 사용자 지정 목록 컨트롤을 자신의 목록에 추가할 수 있습니다. 레이아웃 템플릿에 사용자 지정 목록 컨트롤을 추가하면 목록 컨트롤이 추가되고 목록 컨트롤은 패널 아래쪽으로 이동하며, 목록 컨트롤은 대체되지 않습니다.</p> <p>이는 사용자 지정 목록 컨트롤이 있는 새 레이아웃 템플릿에 사용자를 할당하는 경우에도 마찬가지입니다. </p> <p>목록 컨트롤 사용자 지정에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">필터 개요</a>, <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Adobe Workfront의 보기 개요</a>, 및 <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Adobe Workfront의 그룹화 개요</a>.</p> </p> </li> 
         </ol> </p> </td> 
      </tr> 
     </tbody> 

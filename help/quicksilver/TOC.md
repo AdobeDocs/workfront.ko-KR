@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '13841'
+source-wordcount: '13838'
 ht-degree: 1%
 
 ---
@@ -1512,7 +1512,7 @@ ht-degree: 1%
       * 보고 요소 {#report-elements}
          * [보고 요소 개요](reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)
          * [보고 요소: 필터, 보기 및 그룹화](reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
-         * [Adobe Workfront의 필터 개요](reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+         * [필터 개요](reports-and-dashboards/reports/reporting-elements/filters-overview.md)
          * [Adobe Workfront에서 필터 만들기 또는 편집](reports-and-dashboards/reports/reporting-elements/create-filters.md)
          * [필터 및 조건 수정자](reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)
          * [Adobe Workfront의 보기 개요](reports-and-dashboards/reports/reporting-elements/views-overview.md)

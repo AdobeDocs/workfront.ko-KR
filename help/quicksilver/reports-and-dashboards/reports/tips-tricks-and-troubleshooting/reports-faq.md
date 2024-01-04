@@ -7,9 +7,9 @@ description: 보고서 FAQ
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1509'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Workfront에서 시간을 사용하는 필드는 분 단위로 저장됩니다. 
 
 이 오류는 차트에 최대 618개의 개별 결과(예: 막대 차트에 618개 이상의 막대)가 포함되어 있음을 의미합니다. 표시 문제를 해결하려면 현재 필터를 수정하고 선택 항목을 그룹화하여 결과를 세분화해야 합니다.
 
-필터 및 그룹화 수정에 대한 자세한 내용은 문서 를 참조하십시오 [Adobe Workfront의 필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) 및 [Adobe Workfront의 그룹화 개요](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+필터 및 그룹화 수정에 대한 자세한 내용은 문서 를 참조하십시오 [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) 및 [Adobe Workfront의 그룹화 개요](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 ## 동료와 동일한 보고서(또는 달력)에 액세스하면 대신 내 작업이 표시되는 이유는 무엇입니까?
 
@@ -124,7 +124,7 @@ Workfront에서 시간을 사용하는 필드는 분 단위로 저장됩니다. 
    이렇게 하면 로그인한 사용자에게 할당된 모든 작업 및 문제가 표시됩니다. 와일드카드를 특정 사용자 이름으로 바꿀 수 있습니다.\
    ![](assets/qs-tasks-assigned-to-me-assignment-users-name-filter-350x63.png)
 
-1. 클릭 **저장 + 닫기**.
+1. **저장 및 닫기**&#x200B;를 클릭합니다.
 
 ## 프로젝트의 내 문제 및 작업 목록 하단에 문제 추가/작업 추가 링크가 표시되지 않는 이유는 무엇입니까?
 

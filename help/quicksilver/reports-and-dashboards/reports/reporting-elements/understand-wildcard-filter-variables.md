@@ -7,9 +7,9 @@ description: 필터에서 와일드카드를 사용하면 특정 사용자 또�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1446'
 ht-degree: 1%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 1%
 <table>
     <tr>
         <td>목록, 보고서 및 리소스 플래너의 필터</td>
-        <td>Workfront 필터에 대한 자세한 내용은 문서 를 참조하십시오 <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md">Adobe Workfront의 필터 개요</a>.
+        <td>Workfront 필터에 대한 자세한 내용은 문서 를 참조하십시오 <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md">필터 개요</a>.
 </td>
     </tr>
     <tr>

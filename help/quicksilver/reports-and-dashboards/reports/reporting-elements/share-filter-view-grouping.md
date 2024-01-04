@@ -6,9 +6,9 @@ description: 보기 액세스 권한이 있는 필터, 보기 및 그룹화를 �
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
-source-git-commit: d6b483fd1f28012eb8df3e578a44187de6c3629d
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1249'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 개�
 
 필터, 보기 또는 그룹화 방법에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
-* [Adobe Workfront의 필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
 * [Adobe Workfront의 그룹화 개요](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
@@ -46,7 +46,7 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 개�
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront 플랜*</strong></td> 
-   <td> <p>모든 </p> </td> 
+   <td> <p>임의 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront 라이센스*</strong></td> 
@@ -139,11 +139,12 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 개�
       >[!NOTE]
       >
       >삭제 옵션을 사용하여 액세스 관리 를 활성화하면 이러한 사용자가 필터를 소유하고 있지 않더라도 모든 사용자로부터 필터를 삭제할 수 있습니다.
+
    >[!TIP]
    >
    >사용자는 액세스 수준보다 높은 권한을 받을 수 없습니다. 액세스 수준의 필터 편집에 액세스할 수 없는 사용자에게는 필터 관리 권한이 부여되지 않습니다. Workfront은 이러한 사용자에 대한 관리 옵션을 비활성화하고 옵션이 흐리게 표시됩니다.
 
-1. 클릭 **공유**. 필터는 지정한 엔티티와 공유됩니다.
+1. **공유**&#x200B;를 클릭합니다. 필터는 지정한 엔티티와 공유됩니다.
 
    >[!TIP]
    >

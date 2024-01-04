@@ -6,9 +6,9 @@ description: 보고서를 만들어 Adobe Workfront에서 조직에 필요한 �
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1820'
+source-wordcount: '1817'
 ht-degree: 1%
 
 ---
@@ -235,7 +235,7 @@ ht-degree: 1%
 1. 을 클릭한 경우 **필터 규칙 추가**&#x200B;필터로 추가할 필드를 입력하십시오. 필드를 사용할 수 있는 경우 해당 필드는 연결할 수 있는 각 오브젝트에 대해 채워집니다. 필드 이름을 클릭하여 해당 필터에 추가합니다.\
    필터 수정자를 사용하여 필터를 빌드합니다. 필터 수정자에 대한 자세한 내용은 [필터 및 조건 수정자](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
-   새 필터를 만드는 방법에 대한 자세한 내용은 [Adobe Workfront의 필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   새 필터를 만드는 방법에 대한 자세한 내용은 [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. (선택 사항) 다음을 클릭하여 텍스트 모드에서 필터를 빌드하도록 선택할 수 있습니다. **텍스트 모드로 전환**.
 

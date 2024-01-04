@@ -7,9 +7,9 @@ description: 보고서는 사용자 및 작업에 발생한 상황을 파악할 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
-source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '3297'
+source-wordcount: '3294'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">필터</td> 
-   <td> <li>보고서에 나타나는 정보의 양을 제어합니다.</li> <li>필터에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Adobe Workfront의 필터 개요</a>.</li> <li>필터 수정자에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">필터 및 조건 수정자</a>.</li> <li>와일드카드를 사용하여 필터링함으로써 필터를 보다 일반화하고 보다 유연하게 사용할 수 있습니다.</li> <li>필터에서 와일드카드를 사용하는 방법에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">와일드카드 필터 변수</a>.</li> </td> 
+   <td> <li>보고서에 나타나는 정보의 양을 제어합니다.</li> <li>필터에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">필터 개요</a>.</li> <li>필터 수정자에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">필터 및 조건 수정자</a>.</li> <li>와일드카드를 사용하여 필터링함으로써 필터를 보다 일반화하고 보다 유연하게 사용할 수 있습니다.</li> <li>필터에서 와일드카드를 사용하는 방법에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">와일드카드 필터 변수</a>.</li> </td> 
   </tr> 
  </tbody> 
 </table>

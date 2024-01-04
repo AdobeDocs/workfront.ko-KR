@@ -1,32 +1,32 @@
 ---
 product-area: reporting;setup
 navigation-topic: create-and-manage-reports
-title: 보고서 배달 개요
-description: 보고서 배달 개요
+title: 보고서 게재 개요
+description: 보고서 게재 개요
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1528'
+source-wordcount: '1532'
 ht-degree: 0%
 
 ---
 
-# 보고서 배달 개요
+# 보고서 게재 개요
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This is linked to the UI in the Send Report box inside the Preview sandbox. If you change title, log bug for Dev to fix the link) </p>
 -->
 
-보고서를 정의된 일정에 따라 사용자에게 자동으로 배달하도록 예약하거나 보고서를 한 번에 수동으로 전송할 수 있습니다. Adobe Workfront에서 보고서를 보내면 사용자는 별도의 첨부 파일로 Workfront 보고서가 포함된 이메일을 받게 됩니다.
+정의된 일정에 따라 사용자에게 자동으로 배달되도록 보고서를 예약하거나 보고서를 수동으로 한 번만 보낼 수 있습니다. Adobe Workfront에서 보고서를 보내면 사용자는 별도의 첨부 파일에서 Workfront 보고서가 포함된 이메일을 받게 됩니다.
 
-배달할 보고서 설정에 대한 자세한 내용은 문서를 참조하십시오 [자동 보고서 배달 예약](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
+보고서 배달 설정에 대한 자세한 내용은 문서 를 참조하십시오 [자동 보고서 배달 예약](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
 
-보고서 배달을 예약하거나 미리 보기 샌드박스 환경에서 수동으로 제공할 수 없습니다. 미리 보기 샌드박스에 대한 자세한 내용은 문서를 참조하십시오 [Adobe Workfront 미리 보기 샌드박스 환경](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).\
-미리 보기 샌드박스 환경에서 보고서를 제공하는 방법에 대한 자세한 내용은 문서를 참조하십시오 [미리 보기 샌드박스 환경에서 보고서 보내기](../../../reports-and-dashboards/reports/creating-and-managing-reports/send-report-preview-sandbox-environment.md).
+미리보기 샌드박스 환경에서는 보고서의 게재를 예약하거나 보고서를 수동으로 게재할 수 없습니다. 미리보기 샌드박스에 대한 자세한 내용은 문서를 참조하십시오 [Adobe Workfront 미리보기 샌드박스 환경](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).\
+미리보기 샌드박스 환경에서 보고서 배달에 대한 자세한 내용은 문서 를 참조하십시오 [미리보기 샌드박스 환경에서 보고서 보내기](../../../reports-and-dashboards/reports/creating-and-managing-reports/send-report-preview-sandbox-environment.md).
 
-## 보고서 배달 제한
+## 보고서 게재 제한
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: [! This information is shared between "Exporting Data" and "Setting Up Report Deliveries."])</p>
@@ -34,53 +34,54 @@ ht-degree: 0%
 
 보고서 배달을 예약할 때 다음 사항을 고려하십시오.
 
-* 주어진 보고서에 대해 최대 10개의 반복 보고서 배달을 예약할 수 있습니다.
-* 보고서 작성자인 경우에만 보고서를 배달하도록 예약할 수 있습니다. 만들지 않은 보고서를 전송해야 하는 경우 수동으로 전송할 수 있습니다.
+* 지정된 보고서에 대해 최대 10개의 반복 보고서 게재를 예약할 수 있습니다.
+* 보고서 작성자인 경우에만 보고서 배달을 예약할 수 있습니다. 만들지 않은 보고서를 보내야 하는 경우 수동으로 보낼 수 있습니다.
 
 ## 내보내기 제한
 
-보고서가 Workfront에 표시되는 방식과 수동 내보내기, 배달된 보고서 또는 API를 통해 내보내는 방식에 영향을 주는 몇 가지 크기 제한이 있습니다.
+Workfront에 보고서가 표시되는 방식과 수동 내보내기, 제공된 보고서 또는 API를 통해 내보내는 방식에 영향을 주는 몇 가지 크기 제한이 있습니다.
 
-* **5MB 파일 크기:** 배달하도록 예약된 내보낸 보고서의 파일 크기 제한. 전자 메일에 첨부된 내보낸 파일이 5MB보다 큰 경우 첨부된 내보낸 보고서 대신 파일을 다운로드할 수 있는 링크가 이메일로 전송됩니다. 
+* **5MB 파일 크기:** 내보내기로 예약된 보고서의 파일 크기 제한. 이메일에 첨부된 내보낸 파일이 5MB보다 큰 경우 첨부된 내보낸 보고서 대신 파일을 다운로드할 수 있는 링크가 이메일로 전송됩니다. 
 
-   >[!NOTE]
-   >
-   >5MB보다 큰 Excel .xlsx 파일은 이메일을 생성하지 않습니다. 보고서를 수동으로 이 형식으로 내보낼 수 있습니다. 보고서 내보내기에 대한 자세한 내용은 [데이터 내보내기](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+  >[!NOTE]
+  >
+  >5MB가 넘는 Excel .xlsx 파일은 이메일을 생성하지 않습니다. 보고서를 수동으로 이 형식으로 내보낼 수 있습니다. 보고서 내보내기에 대한 자세한 내용은 [데이터 내보내기](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
-* **50,000개 행:** .pdf 및 탭으로 구분된 파일에 대해 보고서 내보내기에서 허용되는 데이터 행 수입니다.
+* **50,000행:** .pdf 및 탭으로 구분된 파일에 대한 보고서 내보내기에 허용되는 데이터 행 수입니다.
 
-   Excel.xls 파일의 경우 이 제한은 다음과 같습니다 **65,000개 행**.
+  Excel .xls 파일의 경우 이 제한은 **65,000행**.
 
-   Excel .xlsx 파일의 경우 이 제한은 다음과 같습니다 **100,000개 행**.
+  Excel .xlsx 파일의 경우 이 제한은 다음과 같습니다 **100,000행**.
 
-   이러한 제한은 열 제목과 보고서 그룹의 행을 제외합니다. 예를 들어 보고서에 6개의 그룹화가 있고 50,000개의 행 또는 데이터가 있는 경우 내보낸 파일에 50,000개의 행이 있습니다.
+  이러한 제한은 열 머리글과 보고서에서 그룹화를 위한 행을 제외합니다. 예를 들어 보고서에 6개의 그룹화가 있고 50,000개의 데이터 행이 있는 경우 내보낸 파일의 행은 50,000개가 됩니다.
 
-   보고서에 이러한 제한보다 많은 항목이 있는 경우 보고서 내보내기 및 배달이 실패했다는 오류가 표시됩니다. 화면에 표시되는 항목 수를 이러한 제한보다 작거나 같은 수로 줄여 결과를 제공할 수 있습니다. 모든 데이터를 내보내려면 필터를 사용하여 더 작은 데이터 로드를 가져온 다음 여러 내보내기를 수행하는 것이 좋습니다. 자세한 내용은 [Adobe Workfront의 필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  보고서에 이러한 제한보다 많은 항목이 있는 경우 보고서의 내보내기 및 전달이 실패했다는 오류가 표시됩니다. 결과를 전달할 수 있도록 화면에 표시되는 항목 수를 이러한 제한보다 작거나 같은 수로 줄이십시오. 모든 데이터를 내보내려면 필터를 사용하여 더 적은 데이터 로드를 얻은 다음 여러 내보내기를 수행하는 것이 좋습니다. 자세한 내용은 [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-   이러한 제한은 다음과 같은 경우에 적용됩니다.
+  이러한 제한은 다음 경우에 적용됩니다.
 
    * 보고서의 수동 내보내기.
-   * 예약된 보고서입니다.
-   * API 통합을 통한 내보내기. 
-   * 킥시작을 통해 데이터를 내보냅니다.
+   * 예약된 보고서.
+   * API 통합을 통한 내보내기.
+   * 킥스타트를 통해 내보낸 데이터.
 
-      kick-starts를 통해 데이터를 내보내는 방법에 대한 자세한 내용은 문서를 참조하십시오 [킥스타트를 통해 Adobe Workfront에서 데이터 내보내기](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
+     킥스타트를 통해 데이터를 내보내는 방법에 대한 자세한 내용은 문서 를 참조하십시오 [킥스타트를 통해 Adobe Workfront에서 데이터 내보내기](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
 
-      >[!NOTE]
-      kick-start 파일로 50,000개의 행을 내보낼 수 있지만 Excel 형식 파일만 내보낼 수 있습니다. 
+     >[!NOTE]
+     >
+     킥스타트 파일에서 50,000개의 행을 내보낼 수 있지만, Excel 형식 파일로만 내보낼 수 있습니다. 
 
-   * 프로젝트에 대한 활용률 정보 내보내기
+   * 프로젝트에 대한 활용성 정보를 내보내는 중입니다.
 
-      프로젝트에 대한 활용률 정보 내보내기에 대한 자세한 내용은 [자원 가동률 보고서 개요](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+     프로젝트의 활용성 정보 내보내기에 대한 자세한 내용은 [자원 가동률 보고서 개요](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
-* **65,530개의 하이퍼링크:** 이는 65,530개 이상의 하이퍼링크가 포함된 문서에 대해 Excel에서 적용하는 제한입니다. 이러한 문서를 수동으로 내보내거나 전달된 보고서에서 전송할 때는 열 수 없습니다. Excel 문서에는 200개의 데이터 행만 있을 수 있지만 문서 내에 65,530개가 넘는 링크가 있는 경우 문서가 열리지 않습니다. 이 제한은 Excel 파일에만 있고, 지원되는 다른 형식에는 없습니다. 
-* **256열**: 256개 이상의 열이 포함된 문서에 대해 Excel이 적용하는 제한입니다. 이러한 문서를 수동으로 내보내거나 전달된 보고서에서 전송할 수 없습니다. 이 제한은 Excel 파일에만 있고, 지원되는 다른 형식에는 없습니다. 
+* **65,530개의 하이퍼링크:** Excel에서 65,530개 이상의 하이퍼링크가 포함된 문서에 적용하는 제한입니다. 이러한 문서는 수동으로 내보내거나 게재된 보고서에서 전송할 때 열 수 없습니다. Excel 문서에는 200개의 데이터 행만 있을 수 있지만 문서 내에 65,530개가 넘는 링크가 있으면 문서가 열리지 않습니다. 이 제한은 지원되는 다른 형식이 아닌 Excel 파일에만 적용됩니다. 
+* **256열**: 열이 256개를 초과하는 문서에 대해 Excel에서 지정한 제한입니다. 이러한 문서는 수동으로 내보내거나 게재된 보고서에서 전송할 수 없습니다. 이 제한은 지원되는 다른 형식이 아닌 Excel 파일에만 적용됩니다. 
 
-제한 이상으로 데이터를 내보내려고 하면 내보내기에서 예상 데이터를 모두 받지 못할 수 있습니다. 대신, 수정된 보고서가 제한 내에 생성됩니다. 
+한도를 초과하여 데이터를 내보내려고 하면 내보내기에서 예상되는 모든 데이터를 받지 못할 수 있습니다. 대신 수정된 보고서가 한도 내에서 생성됩니다. 
 
-또한 실행하는 데 60분 이상 걸리는 보고서가 중지됩니다.
+또한 실행하는 데 60분 이상 걸리는 보고서가 중단됩니다.
 
-제한 사항에 대한 우려나 문제가 있는 경우 Workfront 기술 지원에 문의하십시오.
+제한과 관련하여 우려 사항이나 문제가 있는 경우 Workfront 기술 지원에 문의하십시오.
 
 ## 게재된 보고서의 타임스탬프 이해
 
@@ -88,34 +89,35 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Note about if this is delivered at a time based on the user's time zone settings?)</p>
 -->
 
-보고서를 이메일로 받을 때 보고서 전송 시점과 동시에 Workfront에서 보고서를 보는 경우 보고서의 타임스탬프 및 시간 형식이 Workfront의 보고서와 일치하지 않을 수 있습니다. 
+이메일로 보고서를 받을 때, 배달되는 동시에 Workfront에서 보고서를 보려는 경우 보고서의 타임스탬프 및 시간 형식이 Workfront의 타임스탬프 및 시간 형식과 일치하지 않을 수 있습니다. 
 
 다음 사항을 고려하십시오. 
 
-* 브라우저에서 보고서를 볼 때 보고서의 타임스탬프 및 형식은 브라우저의 설정에 정의된 대로 브라우저의 로케일 및 시간대와 일치합니다.
-* 보고서가 이메일로 전달되면 Workfront 프로필에 지정된 사용자 로케일 및 시간대와 일치하는 타임스탬프 및 포맷으로 보고서가 전달됩니다.\
-   Workfront의 사용자 로케일 및 시간대에 대한 자세한 내용은 문서를 참조하십시오 [사용자 프로필 편집](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+* 브라우저에서 보고서를 볼 때 보고서의 타임스탬프 및 형식은 브라우저 설정에 정의된 대로 브라우저의 로케일과 시간대와 일치합니다.
+* 보고서가 이메일로 전달되면 Workfront 프로필에 지정된 사용자 로케일 및 시간대와 일치하는 타임스탬프 및 형식으로 보고서가 전달됩니다.\
+  Workfront의 사용자 로케일 및 시간대에 대한 자세한 내용은 문서 를 참조하십시오 [사용자 프로필 편집](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-## 특별한 보기가 있는 보고서 {#reports-with-a-special-view}
+## 특별 보기가 있는 보고서 {#reports-with-a-special-view}
 
 보고서에 특수 보기를 적용하면 Workfront에서 보고서의 세부 사항 탭에 특수 보기가 표시됩니다.
 
-특수 보기가 있는 보고서 배달을 예약하면 기본 세부 사항 탭이 특수 보기 대신 보낸 전자 메일의 첨부 파일에 전달됩니다.
+특별 보기가 있는 보고서 배달을 예약하면 기본 세부 정보 탭이 특별 보기 대신, 보낸 이메일의 첨부 파일에 배달됩니다.
 
-다음은 특수 보기로 간주됩니다.
+다음은 특수 뷰로 간주됩니다.
 
-* 프로젝트 보고서의 이정표 보기
+* 프로젝트 보고서에 대한 마일스톤 보기
 * 프로젝트 또는 작업 보고서의 간트 보기
-* 차트를 기본 탭으로 사용하는 보고서
+* 차트를 기본 탭으로 하는 보고서
 
 >[!NOTE]
-보고서에 특수 보기가 있는 기본 탭 외에도 보고서에 매트릭스 탭이 있으면 매트릭스 탭에 표시되는 대로 보고서가 전달됩니다.
+>
+보고서에 특수 보기의 기본 탭 외에 매트릭스 탭도 있는 경우 보고서는 매트릭스 탭에 표시되는 대로 전달됩니다.
 
 보고서에 특수 보기를 적용하는 방법에 대한 자세한 내용은 문서를 참조하십시오 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-## 배달된 파일 사용
+## 게재된 파일 사용
 
- Workfront에서 보고서를 전송하면 사용자는 별도의 첨부 파일로 보고서가 포함된 이메일을 받게 됩니다. 
+ Workfront에서 보고서를 보내면 사용자가 보고서가 포함된 이메일을 별도의 첨부 파일로 수신합니다. 
 
 * [제목 줄, 첨부 파일 이름 및 보고서 제목](#subject-line-attachment-name-and-report-title)
 * [타임스탬프](#timestamps)
@@ -125,67 +127,68 @@ ht-degree: 0%
 
 ### 제목 줄, 첨부 파일 이름 및 보고서 제목 {#subject-line-attachment-name-and-report-title}
 
-배달된 보고서 이메일의 제목란에 대한 자세한 내용은 [자동 보고서 배달 예약](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
+게재된 보고서 이메일의 제목란에 대한 자세한 내용은 다음을 참조하십시오. [자동 보고서 배달 예약](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
 
-첨부된 보고서의 이름은 다음과 같습니다. *The_Name_Of_The_Report*&#x200B;내보낸 파일 형식을 따릅니다. 
+첨부된 보고서의 이름은 다음과 같습니다. *The_Name_Of_The_Report*&#x200B;뒤에 내보낸 파일 형식이 옵니다. 
 
-배달된 보고서 형식을 PDF 또는 HTML 파일로 지정하도록 예약한 경우 보고서의 제목은 다음과 같습니다.
+배달된 보고서를 PDF 또는 HTML 파일 형식으로 예약한 경우 보고서 제목은 다음과 같습니다.
 
 *보고서 이름.*
 
 Excel, Excel(.xlsx) 또는 TSV 형식으로 배달되도록 예약된 보고서에는 제목이 없습니다.
 
 >[!NOTE]
-보고서에 설명이 있는 경우 내보낸 파일에 파일 형식이 PDF 또는 HTML 파일로 지정된 경우 포함됩니다.
+>
+보고서에 설명이 있는 경우, 파일의 형식이 PDF 또는 HTML 파일인 경우, 이 설명은 내보낸 파일에 포함됩니다.
 
 ### 타임스탬프 {#timestamps}
 
-파일 형식이 .pdf인 경우에만 첨부된 파일에 타임스탬프가 표시됩니다. 타임스탬프가 첨부된 파일의 바닥글에 있습니다.
+파일 형식이 .pdf인 경우에만 첨부 파일에 타임스탬프가 표시됩니다. 타임스탬프는 첨부 파일의 바닥글에 있습니다.
 
-타임스탬프는 다음과 같습니다.
+타임스탬프에는 다음이 포함됩니다.
 
 * 일자
 * 시간
-* 보고서를 보낸 시간대
+* 보고서가 전송된 시간대
 
 ### 브랜딩 {#branding}
 
-Workfront 관리자가 Workfront 인스턴스에 사용자 지정된 브랜딩을 추가한 경우 .pdf 형식으로 전송된 보고서에 개인화된 로고도 포함됩니다.
+Workfront 관리자가 Workfront 인스턴스에 사용자 지정된 브랜딩을 추가한 경우 .pdf 형식으로 보내진 보고서에 개인화된 로고도 포함됩니다.
 
 다른 모든 형식으로 전송된 보고서는 로고로 개인화할 수 없습니다.
 
-Workfront 인스턴스 브랜딩에 대한 자세한 내용은 문서를 참조하십시오 [Adobe Workfront 인스턴스 브랜딩](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+Workfront 인스턴스 브랜딩에 대한 자세한 내용은 문서 를 참조하십시오 [Adobe Workfront 인스턴스 브랜딩](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
 
 ### 서식 {#formatting}
 
-보고서에 특별한 보기가 없는 한 보고서 전송 또는 배달 예약 시 보고서의 기본 탭을 항상 받습니다.
+보고서에 특수 보기가 없는 경우 보고서를 보내거나 배달 예약하면 항상 보고서의 기본 탭을 받게 됩니다.
 
-웹 응용 프로그램에서 보고서에 특수 서식이 있는 경우 .pdf 및 Excel 파일에 대해서만 세부 정보 및 매트릭스 탭이 전달되는 경우 보고서에 특수 서식이 지정되어 있어야 합니다.
+웹 응용 프로그램에서 보고서에 특수 서식이 있는 경우 .pdf 및 Excel 파일에 대해서만 세부 정보 및 매트릭스 탭이 제공될 때 보고서가 특수 서식으로 제공되어야 합니다.
 
-보고서의 필터, 보기 또는 그룹화는 배달된 파일에 포함되지 않습니다. 보고서 설명은 보고서를 PDF 파일로 보낼 때만 포함됩니다.
+보고서의 필터, 보기 또는 그룹화는 배달된 파일에 포함되지 않습니다. 보고서의 설명은 보고서를 PDF 파일로 보내는 경우에만 포함됩니다.
 
-특수 보기의 보고서 수집에 대한 자세한 내용은 문서를 참조하십시오 [특별한 보기가 있는 보고서](#reports-with-a-special-view).\
+특별 보기가 있는 보고서 수신에 대한 자세한 내용은 문서를 참조하십시오 [특별 보기가 있는 보고서](#reports-with-a-special-view).\
 보고서의 기본 탭 선택 및 특수 서식에 대한 자세한 내용은 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ### 링크 {#links}
 
-보고서를 Workfront에서 PDF 또는 Excel 형식으로 보내면 원래 문서에 있는 모든 작업 링크는 전송된 파일에서 활성 상태로 유지됩니다. 링크는 연결을 지원하는 Workfront의 모든 개체를 가리킬 수 있습니다.
+Workfront에서 PDF 또는 Excel 형식으로 보고서를 보낼 때 원본 문서에 있는 모든 작업 링크는 전송된 파일에서 라이브로 유지됩니다. 링크는 연결을 지원하는 Workfront의 모든 개체를 가리킬 수 있습니다.
 
-이메일 메시지에 포함된 보고서 이름도 링크입니다.
+이메일 메시지에 있는 보고서의 이름도 링크입니다.
 
 ## 예약된 보고서에 대한 보고서
 
-다음을 만들어 보고서를 전달하도록 구성했는지 여부를 확인할 수 있습니다.
+다음을 생성하여 보고서가 게재되도록 구성되었는지 여부를 확인할 수 있습니다.
 
-* **보기** 목록의 보고서 객체 또는 보고서의 경우 보고서 목록이나 보고서 세트에 대한 보기를 만들고 다음 열을 보기에 추가합니다.\
-   *예약된 보고서 이름.\
-   *해당 보고서에 예약된 모든 게재의 이름은 글머리 기호 목록의 열에 나열됩니다.\
-   ![scheduled_reports_info_in_view.png](assets/scheduled-reports-info-in-view-350x294.png)
+* **보기** 목록 또는 보고서용 보고서의 보고서 객체: 보고서 목록 또는 보고서용 보고서에 보기를 만들고 보기에 다음 열을 추가합니다.\
+  *예약된 보고서 이름.\
+  *해당 보고서에 대해 예약된 모든 게재의 이름이 글머리 기호 목록의 열에 나열됩니다.\
+  ![scheduled_reports_info_in_view.png](assets/scheduled-reports-info-in-view-350x294.png)
 
-* **필터** 보고서 객체의 경우: 다음 문을 사용하여 보고서 목록이나 보고서에 필터를 생성합니다. *예약된 보고서 ID가 비어 있지 않습니다.*.\
-   이 경우 목록이나 보고서에 예약된 보고서만 표시됩니다.\
-   ![](assets/qs-scheduled-report-filter-350x101.png)\
-   보고서 만들기에 대한 자세한 내용은 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). 보고서에 대한 보고서 만들기에 대한 내용은 [보고 활동에 대한 보고서 만들기](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
+* **필터** 보고서 객체: 보고서 목록 또는 다음 문으로 보고서에 대한 보고서에 필터를 생성합니다. *예약된 보고서 ID는 비어 있지 않습니다.*.\
+  목록이나 보고서에 예약된 보고서만 표시됩니다.\
+  ![](assets/qs-scheduled-report-filter-350x101.png)\
+  보고서 만들기에 대한 자세한 내용은 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). 보고서에서 보고서를 만드는 방법에 대한 자세한 내용은 [보고 활동에 대한 보고서 만들기](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Scheduling a Repeating&nbsp;Report Delivery</h2>

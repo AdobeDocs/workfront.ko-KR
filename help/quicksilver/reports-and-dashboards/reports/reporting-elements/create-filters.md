@@ -6,9 +6,9 @@ description: 필터를 사용하여 항목 목록의 화면에 표시되는 정�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: 532ec7f7a33e1e1111a31422c5c3c442b2e176b5
+source-git-commit: 429bec1b8884c721af4c6fe1707bea9d9fdf98f8
 workflow-type: tm+mt
-source-wordcount: '2456'
+source-wordcount: '2450'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ Adobe Workfront에서 다음 유형의 필터를 적용할 수 있습니다.
 
 * 목록 및 보고서 외부의 Workfront 다른 영역에 있는 필터.
 
-  Workfront의 모든 필터 목록 및 이를 적용할 수 있는 영역에 대해서는 다음을 참조하십시오. [Adobe Workfront의 필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  Workfront의 모든 필터 목록 및 이를 적용할 수 있는 영역에 대해서는 다음을 참조하십시오. [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## 액세스 요구 사항
 
@@ -241,7 +241,7 @@ Workfront 개체에 대한 자세한 내용은 [Adobe Workfront의 오브젝트 
 
    ![모두 또는 모두 또는 참 드롭다운 메뉴 포함](assets/new-filters-all-or-any-are-true-drop-down-menu-nwe.png)
 
-   필터 연산자에 대한 자세한 내용은 [Adobe Workfront의 필터 개요](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   필터 연산자에 대한 자세한 내용은 [필터 개요](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. 필드 드롭다운 메뉴를 클릭하여 최근에 사용한 필드와 필터링 기준으로 제안된 필드 목록을 확인합니다. 제안된 필드는 현재 필터링 중인 목록에 표시됩니다.
 

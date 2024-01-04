@@ -6,9 +6,9 @@ description: 작업 항목을 효율적으로 찾고 관리하는 사용자 또�
 author: Alina
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '2463'
+source-wordcount: '2460'
 ht-degree: 0%
 
 ---
@@ -30,8 +30,7 @@ ht-degree: 0%
 >
 >새 필터를 저장하고 적용한 다음 업무 균형자에서 벗어나면 로그오프했다가 다시 로그온한 후에도 필터가 유지됩니다.
 
-
-이 문서에는 업무 균형자 의 필터에 대한 정보가 포함되어 있습니다. Workfront 필터에 대한 자세한 내용은 [Adobe Workfront의 필터 개요](../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+이 문서에는 업무 균형자 의 필터에 대한 정보가 포함되어 있습니다. Workfront 필터에 대한 자세한 내용은 [필터 개요](../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## 액세스 요구 사항
 

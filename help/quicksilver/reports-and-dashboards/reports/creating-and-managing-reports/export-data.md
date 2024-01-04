@@ -6,9 +6,9 @@ description: 다양한 목록, 보고서, 대시보드 및 검색에서 Adobe Wo
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 219c952185f50bd3888f6deee17cbc35d3b34b22
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '2206'
+source-wordcount: '2203'
 ht-degree: 0%
 
 ---
@@ -123,7 +123,7 @@ Workfront에 보고서가 표시되는 방식과 수동 내보내기, 배달된 
 
   보고서에 50,000/ 65,000/ 100,000개 이상의 행이 있고 모든 데이터를 내보내려는 경우 필터 또는 프롬프트를 사용하여 데이터 로드를 줄이고 여러 내보내기를 수행하는 것이 좋습니다.
 
-  필터 사용에 대한 자세한 내용은 [Adobe Workfront의 필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  필터 사용에 대한 자세한 내용은 [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
   프롬프트 사용에 대한 자세한 내용은 [보고서에 프롬프트 추가](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 

@@ -6,9 +6,9 @@ description: 포트폴리오 내에서 탐색
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: a88cc4576122967b52e044ab65ace3451179906b
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '637'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 플랜*</td> 
-   <td> <p>모든 </p> </td> 
+   <td> <p>임의 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
@@ -93,7 +93,7 @@ ht-degree: 0%
      >
      >특정 프로젝트만 보려면 **[!UICONTROL 필터]** 프로젝트 목록 맨 위에 표시되는 드롭다운 메뉴를 사용하여 표시되는 프로젝트 수를 줄입니다.
 
-     필터 만들기에 대한 자세한 내용은 [의 필터 개요 [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+     필터 만들기에 대한 자세한 내용은 [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 
 1. 클릭 **[!UICONTROL 프로그램]** 왼쪽 패널에서 포트폴리오 내에 프로그램을 만들거나 기존 프로그램을 관리할 수 있습니다.\
