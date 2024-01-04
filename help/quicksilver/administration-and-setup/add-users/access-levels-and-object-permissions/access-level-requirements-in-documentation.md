@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 66957a8bb24538fd302fe0ff7612b266da18118f
+source-git-commit: 96f88c4b31b92998cfb8fa25ed1de0dfa0c70462
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
@@ -90,11 +90,12 @@ Workfront 설명서 방법 문서에는 해당 절차에 필요한 액세스 및
    <p>이러한 추가 제품 내에서 수행되는 절차를 설명하는 문서는 여기에 필수 제품을 나열합니다.</p>
    <ul>
    <li>Adobe Experience Manager Assets 또는 Assets Essentials </li>
-   <li>Workfront Fusion</li>
-   <li>Workfront Goals</li>
-   <li>Workfront 시나리오 플래너</li>
+   <li>Workfront Fusion *</li>
+   <li>Workfront 목표 *</li>
+   <li>Workfront 시나리오 플래너 *</li>
    </ul>
-   <p>조직에서 이러한 추가 제품 중 하나를 구입했는지 확인하려면 Workfront 관리자에게 문의하십시오.</p></td> 
+   <p>* Workfront Ultimate 플랜에 포함
+   <p>조직에서 이러한 추가 제품 중 하나를 구매했는지 또는 조직이 Workfront Ultimate 플랜에 있는지 확인하려면 Workfront 관리자에게 문의하십시오.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion 라이선스</td> 
