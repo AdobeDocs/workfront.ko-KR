@@ -6,14 +6,16 @@ description: Adobe Workfront의 간트 차트는 작업 또는 프로젝트 목�
 author: Alina
 feature: Work Management
 exl-id: 96c4e254-ebbe-41d8-a178-7a79ac0abbbd
-source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
+source-git-commit: 30eb12a4155b218b001b4d235229fbb0fbe40a45
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 5%
+source-wordcount: '530'
+ht-degree: 1%
 
 ---
 
 # 시작하기 [!UICONTROL 간트 차트]
+
+<!-- Audited: 01/2024 -->
 
 Adobe Workfront의 간트 차트는 작업 또는 프로젝트 목록의 타임라인을 시각적으로 보여 줍니다.
 
@@ -35,7 +37,7 @@ Adobe Workfront의 간트 차트는 작업 또는 프로젝트 목록의 타임�
 * 두 작업 목록 모두에 표시되는 정보를 구성할 수 있습니다 [!UICONTROL 간트 차트] 및 프로젝트 목록 [!UICONTROL 간트 차트].
 * 에서 사용할 색상 또는 글꼴은 구성할 수 없습니다. [!UICONTROL 간트 차트] 정보가 표시됩니다.
 * 작업에서 정보가 업데이트되면 두 작업 목록에 자동으로 반영됩니다 [!UICONTROL 간트 차트] 및 프로젝트 목록 [!UICONTROL 간트 차트].
-* 템플릿 작업에서 정보가 업데이트되면 템플릿 작업 목록에 자동으로 반영됩니다 [!UICONTROL 간트 차트].
+* 템플릿 작업에서 정보를 업데이트하면 템플릿 작업 목록에 자동으로 반영됩니다 [!UICONTROL 간트 차트].
 
 ## 액세스 [!UICONTROL 간트 차트]
 
@@ -44,9 +46,6 @@ Adobe Workfront의 간트 차트는 작업 또는 프로젝트 목록의 타임�
 작업 목록을 볼 수 있습니다. [!UICONTROL 간트 차트] 프로젝트의 작업 목록 또는 작업 보고서에서 직접 가져옵니다.
 
 프로젝트 목록을 볼 수 있습니다. [!UICONTROL 간트 차트] 프로젝트 목록 또는 프로젝트 보고서에서 참조할 수 있습니다.
-
-* [작업 목록 [!UICONTROL 간트 차트]](#task-list-gantt-chart)
-* [프로젝트 목록 [!UICONTROL 간트 차트]](#project-list-gantt-chart)
 
 ### 작업 목록 [!UICONTROL 간트 차트] {#task-list-gantt-chart}
 
