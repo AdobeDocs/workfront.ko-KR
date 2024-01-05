@@ -9,9 +9,9 @@ description: Adobe Workfront Fusion 시나리오에서는 다음을 사용하는
 author: Becky
 feature: Workfront Fusion
 exl-id: 66d2e59e-0945-4a6b-a0fe-5c313051ad4e
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 57a9667edea9067f14a6c40a75f6cf56a00d5e7d
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '462'
 ht-degree: 1%
 
 ---
@@ -92,7 +92,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL NetSuite] Workfront Fusion에 대한 계정은 다음을 참조하십시오.<a href="#create-a-connection-to-netsuite-in-a-workfront-fusion-netsuite-module" class="MCXref xref">에 대한 연결 만들기 [!DNL NetSuite] Workfront Fusion NetSuite 모듈</a> 이 문서에서.</p> </td> 
+   <td> <p>연결에 대한 자세한 내용 [!DNL NetSuite] Workfront Fusion에 대한 계정은 다음을 참조하십시오. <a href="#create-a-connection-to-netsuite-in-a-workfront-fusion-netsuite-module" class="MCXref xref">에 대한 연결 만들기 [!DNL NetSuite] Workfront Fusion NetSuite 모듈</a> 이 문서에서.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
@@ -100,7 +100,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 메서드]</td> 
-   td&gt; <p>API 호출을 구성하는 데 필요한 HTTP 요청 메서드를 선택합니다. 자세한 내용은 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">의 HTTP 요청 메서드 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>API 호출을 구성하는 데 필요한 HTTP 요청 메서드를 선택합니다. 자세한 내용은 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">의 HTTP 요청 메서드 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 

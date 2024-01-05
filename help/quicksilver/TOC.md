@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: b505937d1faaa29a5c5f89c7db5ca721ea9337e0
+source-git-commit: 57a9667edea9067f14a6c40a75f6cf56a00d5e7d
 workflow-type: tm+mt
-source-wordcount: '13843'
+source-wordcount: '13844'
 ht-degree: 1%
 
 ---
@@ -2222,6 +2222,7 @@ ht-degree: 1%
       * [Microsoft Word 템플릿 모듈](workfront-fusion/apps-and-their-modules/microsoft-word-templates-modules.md)
       * [MIME 모듈](workfront-fusion/apps-and-their-modules/mime.md)
       * [NetSuite 모듈](workfront-fusion/apps-and-their-modules/netsuite.md)
+      * [[!DNL OpenAI(ChatGPT & DALL-E)] 모듈](workfront-fusion/apps-and-their-modules/openai-chatgpt-modules.md)
       * [Qualtrics 모듈](workfront-fusion/apps-and-their-modules/qualtrics-modules.md)
       * [Quickbase 모듈](workfront-fusion/apps-and-their-modules/quickbase-modules.md)
       * [Salesforce 모듈](workfront-fusion/apps-and-their-modules/salesforce-modules.md)
