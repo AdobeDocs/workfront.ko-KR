@@ -3,16 +3,19 @@ product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: 구성 [!UICONTROL Experience Manager Assets as a Cloud Service] 통합
 description: 다음 위치에서 작업을 콘텐츠와 연결할 수 있습니다. [!DNL Experience Manager Assets].
+author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 2ae77811cc20a7580f95437debfe1eea5922185c
+source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1395'
 ht-degree: 0%
 
 ---
 
 # 구성 [!UICONTROL Experience Manager Assets as a Cloud Service] 통합
+
+<!-- Audited: 1/2024 -->
 
 >[!IMPORTANT]
 >
@@ -45,7 +48,8 @@ ht-degree: 0%
   <tr>
    <td><strong>[!DNL Adobe Workfront] 라이센스*</strong>
    </td>
-   <td>[!UICONTROL 계획]
+   <td>현재: [!UICONTROL Plan] <br>
+   새로운 기능: [!UICONTROL Standard]
    </td>
   </tr>
   <tr>
@@ -81,7 +85,8 @@ ht-degree: 0%
 
 ## 통합 정보 설정
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘을 클릭한 다음 Adobe Workfront 오른쪽 위 모서리에 있는 **[!UICONTROL 설정]** .
+{{step-1-to-setup}}
+
 1. 선택 **[!UICONTROL 문서]** 왼쪽 패널에서 을 선택합니다. **[!UICONTROL [!DNL Experience Manager]통합]**.
 
    >[!NOTE]

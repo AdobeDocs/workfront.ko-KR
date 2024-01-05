@@ -7,9 +7,9 @@ description: Workfront Proof에서 생성된 이메일 알림은 공동 작업�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
-source-git-commit: b4991b649a68ede587e47da2ebb7470aab3b5913
+source-git-commit: e80a3ede9ccf6ccf9ea7777aab35cc859f13a6ac
 workflow-type: tm+mt
-source-wordcount: '1957'
+source-wordcount: '2058'
 ht-degree: 0%
 
 ---
@@ -26,15 +26,32 @@ ht-degree: 0%
 
 다음 영역의 검토자에 대한 이메일 알림을 설정할 수 있습니다.
 
+## 액세스 요구 사항
+
+이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
+
+<table style="table-layout:auto"> 
+<tr> 
+   <td role="rowheader">제품</td> 
+   <td>Workfront Proof Standalone</td> 
+  </tr> 
+</table>
+
+새 증명 페이지에서 검토자에 대한 이메일 알림을 설정할 수 있습니다. [!UICONTROL 새 버전] 페이지 및 관리 [!UICONTROL 워크플로] 의 섹션 [!UICONTROL 증명 세부 정보] 페이지를 가리키도록 업데이트하는 중입니다. 자세한 내용은 [에서 증명 생성 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
+
 * 새 증명 페이지
 * 다음 [!UICONTROL 새 버전] 페이지
 * 다음 [!UICONTROL 워크플로] 의 섹션 [!UICONTROL 증명 세부 정보] 페이지를 가리키도록 업데이트하는 중입니다.
 
 자세한 내용은 [에서 증명 생성 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
+
 * [에서 증명 생성 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) [에서 증명 생성 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
 * [에서 증명 세부 정보 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+
+
+모든 사용자는 공동 작업자가 자신의 환경 설정을 가지고 있거나 계정 관리자에게 경고 빈도에 대한 권장 사항이 있는 경우 증명을 공유할 때 자동으로 적용되는 자신의 이메일 경고 설정을 지정할 수도 있습니다. 사용자 세부 정보 페이지에서 증명 기본값으로 설정할 수 있습니다.
 
 모든 사용자는 증명을 공유할 때 자동으로 적용되는 자신만의 이메일 경고 설정을 지정할 수도 있습니다. <!--If the collaborators have their preferences, or account administrators have their recommendation on alerts frequency. This can be set as a proof default on the users details pages.-->
 

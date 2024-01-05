@@ -9,7 +9,7 @@ description: 다음에서 [!DNL Adobe Workfront Fusion] 시나리오에서는 �
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
 workflow-type: tm+mt
 source-wordcount: '2934'
 ht-degree: 0%
@@ -353,7 +353,7 @@ ht-degree: 0%
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL 메서드]</td> 
-   <td>API 호출에 대한 작업을 설정합니다. 사용 가능한 작업에 대해서는 <a href="http://api.proofhq.com/">증명 API 설명서</a>.</td> 
+   <td>API 호출에 대한 작업을 설정합니다. 사용 가능한 작업에 대해서는 <a href="https://api.proofhq.com/">증명 API 설명서</a>.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Body (XML)]</td> 

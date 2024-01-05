@@ -7,14 +7,16 @@ description: 여러 개별 열에 표시되는 정보를 병합하여 하나의 
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
+source-git-commit: 4b8477b75697268df3581f928e3c77025c2f56cd
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
 
 # 보기: 여러 열의 정보를 하나의 공유 열에 병합
+
+<!-- Audited: 1/2024 -->
 
 여러 개별 열에 표시되는 정보를 병합하여 하나의 공유 열에 표시할 수 있습니다.
 
@@ -28,12 +30,23 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>보기 수정 요청 </p>
-   <p>보고서 수정 계획</p> </td> 
+   <td> <p> 현재: 
+   <ul>
+   <li>보기 수정 요청</li> 
+   <li>보고서 수정 계획</li>
+   </ul>
+     </p>
+     <p> 신규: 
+   <ul>
+   <li>보기를 수정하는 기여자</li> 
+   <li>보고서를 수정하는 표준</li>
+   </ul>
+     </p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
@@ -77,7 +90,7 @@ ht-degree: 0%
 >
 >동일한 레코드에 대한 값을 동시에 표시할 수 없는 두 열을 병합하는 경우에는 이 방법을 사용하는 것이 좋습니다. 예를 들어 작업 항목 보고서에서 [문제 이름] 열과 [작업 이름] 열은 줄 바꿈 없이 병합될 수 있습니다. 작업 항목에는 [문제 이름]과 [작업 이름]이 동시에 포함될 수 없기 때문입니다. 작업 항목은 Workfront의 문제 또는 작업일 수 있습니다.
 
-방법은 다음과 같습니다.
+줄 바꿈 없이 두 열의 데이터를 병합하려면 다음을 수행합니다.
 
 1. 뷰에 텍스트 모드를 사용하여 병합할 첫 번째 열에 다음 텍스트를 추가합니다.
 

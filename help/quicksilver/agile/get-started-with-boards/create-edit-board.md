@@ -6,7 +6,7 @@ description: 다음에서 [!UICONTROL 게시판] 대시보드에서 새 보드�
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 5b6c7488bc1233e141e478da8546a05fcfffdc96
+source-git-commit: 38715b9571206fd3621b5c078c3eebe380297e9b
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 1%
@@ -50,6 +50,7 @@ ht-degree: 1%
 ## 새 게시판 만들기
 
 {{step1-to-boards}}
+
 1. 클릭 **[!UICONTROL 보드 추가]**.
 
 1. 보드에 사용할 템플릿을 선택합니다.
@@ -98,6 +99,7 @@ ht-degree: 1%
 ## 기존 게시판 편집
 
 {{step1-to-boards}}
+
 1. 대시보드에서 열 보드를 선택합니다.
 1. 필요에 따라 보드를 편집합니다. 보드 이름을 클릭하여 이름을 바꿀 수 있습니다.
 

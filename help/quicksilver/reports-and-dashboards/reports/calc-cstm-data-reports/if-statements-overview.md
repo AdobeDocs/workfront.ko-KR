@@ -7,7 +7,7 @@ description: 일반 프로그래밍 언어에서 "IF" 문을 사용할 수 있�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 090a85fd-fdbe-4507-8bad-ce8c29bf8fc9
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 23b5ba9564b514e11c1ca9d5cca276238ef11066
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # &quot;IF&quot; 문 개요
+
+<!-- Audited: 1/2024 -->
 
 일반 프로그래밍 언어에서 &quot;IF&quot; 문을 사용할 수 있습니다. Adobe Workfront에서 &quot;IF&quot; 문을 사용하면 보고 및 사용자 지정 데이터 목적 모두에 대해 데이터 필드를 비교하고, 형식을 지정하며, 함께 문자열을 지정할 수 있습니다. 또한, &quot;IF&quot; 문장에 대해 수학적으로 생각하는 것은 표현에 대한 변수들이 일반적으로 사용되기 때문에 더 나은 개념 이해로 이어진다.
 
@@ -44,10 +46,10 @@ ht-degree: 0%
 다음 형식을 사용하여 Workfront에서 &quot;IF&quot; 문을 작성할 수 있습니다.
 <pre>IF(Condition,True 표현식,False 표현식)</pre>"IF" 문의 구성 요소는 다음과 같습니다.
 
-* **IF**= &quot;function&quot;에 대한 Workfront 계산된 데이터 표현식입니다. SUM 및 PROD 표현식과 마찬가지로 이 표현식은 먼저 시스템에 함수를 &quot;IF&quot; 문으로 이해하도록 지시합니다. 이 문에서 &quot;IF&quot;에는 항상 대문자를 사용하십시오.\
+* **IF** = &quot;function&quot;에 대한 Workfront 계산된 데이터 표현식입니다. SUM 및 PROD 표현식과 마찬가지로 이 표현식은 먼저 시스템에 함수를 &quot;IF&quot; 문으로 이해하도록 지시합니다. 이 문에서 &quot;IF&quot;에는 항상 대문자를 사용하십시오.\
   모든 계산된 데이터 표현식의 목록은 다음을 참조하십시오 [계산된 데이터 표현식 개요](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-* **조건**= Workfront 변수가 충족해야 하는 조건이며 이 방정식의 기초입니다. 방정식에서 나중에 지정할 수 있는 모든 것은 조건에 따라 달라진다. 여러 참조, 비교 또는 수학 표현식을 사용하여 방정식을 시작할 수 있습니다. 조건의 일부 예는 다음과 같습니다.
+* **조건** = Workfront 변수가 충족해야 하는 조건이며 이 방정식의 기초입니다. 방정식에서 나중에 지정할 수 있는 모든 것은 조건에 따라 달라진다. 여러 참조, 비교 또는 수학 표현식을 사용하여 방정식을 시작할 수 있습니다. 조건의 일부 예는 다음과 같습니다.
 
    * 날짜가 지정된 개체의 다른 날짜보다 이후입니다.
    * 상태는 지정된 오브젝트에서 사용 가능한 상태 중 하나와 같습니다.
@@ -55,9 +57,9 @@ ht-degree: 0%
 
 * **조건 연산자** = &quot;IF&quot; 문의 조건을 작성하는 데 도움이 되는 연산자입니다. 예를 들어 &quot;다음과 같음&quot; 또는 &quot;다음보다 큼&quot;은 조건 연산자입니다. 문에서 사용할 수 있는 조건 연산자 목록은 다음을 참조하십시오. [계산된 사용자 정의 표현식의 조건 연산자](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
-* ****** 표현식**= &quot;True&quot; 변수로, 조건 기준이 충족되면 어떤 지표를 표시할지 방정식에 알려줍니다(True 지표).
+* ****** 표현식** = &quot;True&quot; 변수로, 조건 기준이 충족되면 어떤 지표를 표시할지 방정식에 알려줍니다(True 지표).
 
-* **False 표현식**= 조건 기준이 충족되지 않을 때 표시할 지표(거짓 지표)를 방정식에 알려 주는 &quot;False&quot; 변수입니다.
+* **False 표현식** = 조건 기준이 충족되지 않을 때 표시할 지표(거짓 지표)를 방정식에 알려 주는 &quot;False&quot; 변수입니다.
 
 다음 예제에서는 원래 문 형식을 사용하여 &quot;IF&quot; 문에 대한 간단한 데이터 표현식을 작성합니다. 이 표현식은 Workfront의 두 개의 서로 다른 날짜 필드와 True/False 결과를 데이터 문자열로 비교합니다.
 

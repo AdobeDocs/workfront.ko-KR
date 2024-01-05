@@ -7,20 +7,22 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
+source-git-commit: 0aed653b9e5f0123e6b4d6e494aaff563ae1a72d
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '786'
 ht-degree: 1%
 
 ---
 
 # 프로젝트에서 작업 만들기
 
+<!-- Audited: 1/2024 -->
+
 프로젝트를 만든 후에만 프로젝트에서 작업을 만들 수 있습니다.
 
 예를 들어 프로젝트를 만든 후 작업을 추가하고 수정하여 프로젝트 계획을 구성할 수 있습니다. 프로젝트 만들기에 대한 자세한 내용은 [프로젝트 만들기](../../../manage-work/projects/create-projects/create-project.md).
 
-프로젝트에 없는 개인 작업 만들기에 대한 자세한 내용은 문서의 &quot;개인 작업 만들기&quot; 섹션을 참조하십시오 [홈 영역에서 작업 항목 만들기](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+프로젝트에 없는 개인 작업을 만드는 방법에 대한 자세한 내용은 [개인 작업 만들기](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-personal-task) 이 문서의 섹션 [홈 영역에서 작업 항목 만들기](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
 이 문서에서는 처음부터 작업을 만드는 방법에 대해 설명합니다. 다음과 같은 방법으로 작업을 생성할 수도 있습니다.
 
@@ -29,46 +31,19 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-<!--drafted for P&P - replace the table:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p role="rowheader">Adobe Workfront license*</p> </td> 
-   <td><p>Current license: Standard</p> 
-   Or
-   <p>Legacy license: Work or higher</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks and Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to tasks, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">Grant access to tasks</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute permissions to the project with ability to Add Tasks or higher</p> <p>When you create a task you automatically receive Manage permissions to the task</p> <p> For information about task permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Share a task </a>. </p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p role="rowheader">Adobe Workfront 라이센스*</p> </td> 
-   <td> <p>작업 이상</p> </td> 
+   <td><p>현재: 작업 시간 이상</p> 
+   또는
+   <p>새로운 기능: 표준</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
@@ -80,6 +55,7 @@ ht-degree: 1%
   </tr> 
  </tbody> 
 </table>
+
 
 &#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
 
@@ -98,8 +74,8 @@ ht-degree: 1%
 
 1. 다음 중 하나를 수행하여 새 작업을 만듭니다.
 
-   * 클릭 **새 작업** 작업 목록 맨 위
-   * 클릭 **더 많은 작업 추가** 작업 목록 맨 아래
+   * 클릭 **새 작업** 을 클릭합니다.
+   * 클릭 **더 많은 작업 추가** 작업 목록 맨 아래.
 
    ![](assets/qs-new-task-or-add-task-buttons-in-list-highlighted-350x242.png)
 
