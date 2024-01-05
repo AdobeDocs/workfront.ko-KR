@@ -6,9 +6,9 @@ description: '승인 요청을 위임하면 다른 사용자에게 일정 기간
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 45c0af640daa7bf0c4cb342e55a88a98a745cfc3
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1257'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,14 @@ ht-degree: 0%
 # 승인 요청 위임
 
 부재 중 할당된 작업을 임시로 위임할 수 있습니다. 작업 및 문제 할당을 위임하거나 승인 요청을 위임할 수 있습니다. 이 문서에서는 승인 요청을 위임하는 방법에 대해 설명합니다. 작업 및 문제 할당 위임에 대한 자세한 내용은 [작업 및 문제 위임 관리](../../manage-work/delegate-work/how-to-delegate-work.md).
+
+승인이 귀하에게 지정된 방식(귀하에게 직접 지정되었는지, 멤버인 팀이나 귀하의 작업 역할에 지정되었는지 여부에 상관없이 다음 유형의 승인을 위임할 수 있습니다.
+
+* 프로젝트 승인
+* 작업 승인
+* 문제 승인
+
+타임시트, 문서 또는 증명 승인을 위임할 수 없습니다.
 
 >[!NOTE]
 >
@@ -37,7 +45,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront 플랜*</p></td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront 라이센스*</p></td> 
@@ -83,7 +91,7 @@ ht-degree: 0%
 * 작업 승인
 * 문제 승인
 
-타임시트 및 문서 승인을 위임할 수 없습니다. 
+타임시트, 문서 또는 증명 승인을 위임할 수 없습니다.
 
 승인을 위임할 때는 다음 사항을 고려하십시오.
 

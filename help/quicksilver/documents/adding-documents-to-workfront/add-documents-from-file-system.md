@@ -6,9 +6,9 @@ description: Adobe Workfront의 여러 영역에서 프로젝트, 작업 또는 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: ec753f4176208708de0a39679788d34f486f759b
+source-git-commit: efe264b274085c32c2d00163a2a43bd5d3fc1434
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '746'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ Workfront에 업로드할 수 있는 파일의 유형과 크기에는 제한이 
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p> 모든</p> </td> 
+   <td> <p> 임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
@@ -65,7 +65,7 @@ Workfront에 업로드할 수 있는 파일의 유형과 크기에는 제한이 
 1. 새 문서를 추가할 프로젝트, 작업 또는 문제로 이동합니다.
 1. 다음을 클릭합니다. **문서** 탭을 클릭한 다음 **새로 추가** 드롭다운 메뉴.
 
-   ![](assets/add-new-350x138.png)
+   ![](assets/add-new-doc.png)
 
 1. 추가할 문서의 유형에 따라 다음 중 하나를 수행합니다.
 
@@ -98,7 +98,7 @@ Workfront에 업로드할 수 있는 파일의 유형과 크기에는 제한이 
         <li value="1">다음에서 <strong>새로 추가</strong> 드롭다운 메뉴에서 다음을 선택합니다. <strong>문서 요청</strong>.</li> 
         <li value="2">다음에서 <strong>요청한 대상이 누구입니까</strong> 상자에 문서를 요청하는 사용자의 이름을 입력합니다.</li> 
         <li value="3">다음에서 <strong>요청 사항 전달</strong> 상자에 문서 이름을 입력합니다.</li> 
-        <li value="4"> <p>클릭 <strong>요청 보내기</strong>.</p> <p>요청이 문서 탭에 표시됩니다.</p> <p> <img src="assets/request-a-document-350x110.png" style="width: 350;height: 110;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> <p>문서 요청에 대한 자세한 내용은 <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">문서 요청</a>.</p> </li> 
+        <li value="4"> <p>클릭 <strong>요청 보내기</strong>.</p> <p>요청이 문서 탭에 표시됩니다.</p> <p>문서 요청에 대한 자세한 내용은 <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">문서 요청</a>.</p> </li> 
        </ol> </td> 
      </tr> 
     </tbody> 
