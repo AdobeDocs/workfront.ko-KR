@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
+source-git-commit: b505937d1faaa29a5c5f89c7db5ca721ea9337e0
 workflow-type: tm+mt
-source-wordcount: '13844'
+source-wordcount: '13843'
 ht-degree: 1%
 
 ---
@@ -480,7 +480,7 @@ ht-degree: 1%
          * [새 라이센스로 오브젝트 및 영역에 액세스](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
          * [새 액세스 수준에 대해 각 객체 유형에 사용할 수 있는 기능](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
          * [새 라이선스 플랜에서 비유료 사용자에 대한 자동 업그레이드 옵션 사용 안 함](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
-         * [Workfront 설명서의 액세스 수준 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
+         * [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
       * 액세스 수준 작동 방식 {#legacy-access-levels}
          * [액세스 수준 작동 방식](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
          * [액세스 개요](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
