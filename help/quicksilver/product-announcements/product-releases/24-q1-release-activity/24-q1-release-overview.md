@@ -4,9 +4,9 @@ description: 2024년 1분기 릴리스 개요
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 511d9b0b61870ccec13aa70c9d4d3232b3e60cd3
+source-git-commit: 0ac00ba31f9960f9c8a0d42db47481dea0798334
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1494'
 ht-degree: 0%
 
 ---
@@ -206,6 +206,25 @@ ht-degree: 0%
                     </td>
                  </tr>
                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">새로운 보류 중인 승인 위젯 사용 가능</a></p><p><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p><p>소유한 프로젝트에 대한 승인 및 검토의 상태를 더 쉽게 확인할 수 있도록 새로운 승인 보류 중 위젯을 홈에 추가했습니다. </p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2023년 1월 3일</p>
+                            </li>
+                            <li>
+                                <p>빠른 릴리스를 위한 프로덕션: 24.1 릴리스 포함</p>
+                            </li>
+                            <li>
+                                <p>분기별 릴리스 프로덕션: 24.1 릴리스 포함</p>
+                            </li>
+                        </ul>
+                        <p><span style="color: #ff0000;">이 기능은 단계별 릴리스의 일부이며 현재 특정 고객에게만 제공됩니다.</span></p>
+                    </td>
+                </tr>
+                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">레이아웃 템플릿을 사용하는 새 홈에 대한 관리자 컨트롤</a></p><p>이제 관리자는 레이아웃 템플릿을 사용하여 사용자를 위해 새 홈을 사용자 정의할 수 있습니다. 사용자 지정 옵션에는 필수 위젯과 해당 위치 선택, 배경 선택 및 사용 가능한 필터 및 그룹 선택(및 기본값 설정)을 위한 위젯별 옵션이 포함됩니다.</p>
                     </td>

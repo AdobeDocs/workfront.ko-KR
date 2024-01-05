@@ -4,9 +4,9 @@ description: 2024년 1분기 홈 개선 사항
 author: Nolan
 feature: Product Announcements
 exl-id: 30867b75-ec33-486e-acfa-b8bab6ccf23c
-source-git-commit: 511d9b0b61870ccec13aa70c9d4d3232b3e60cd3
+source-git-commit: 0ac00ba31f9960f9c8a0d42db47481dea0798334
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,12 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2024년 1분기 릴리스의 모든 홈 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2024년 1분기 릴리스를 통해 프로덕션 환경에서 사용할 수 있습니다.
 
 2024년 1분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [2024년 1분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
+## 새로운 보류 중인 승인 위젯 사용 가능
+
+소유한 프로젝트에 대한 승인 및 검토의 상태를 더 쉽게 확인할 수 있도록 새로운 승인 보류 중 위젯을 홈에 추가했습니다. 여기에서 소유한 프로젝트의 문서를 승인하거나 검토하도록 할당된 사용자 목록을 볼 수 있고 검토 또는 승인 상태를 볼 수 있으며 검토자 및 승인자에게 검토 또는 승인을 완료하도록 알릴 수 있습니다.
+
+홈 위젯에 대한 자세한 내용은 [새 홈 시작](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## 레이아웃 템플릿을 사용하는 새 홈에 대한 관리자 컨트롤
 
