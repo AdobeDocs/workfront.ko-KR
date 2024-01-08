@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: c709ecd8023a0a9ce9c5b4591145d0a70912e003
+source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '831'
 ht-degree: 4%
 
 ---
@@ -95,7 +95,7 @@ Workfront 구현 중에 시스템 환경 설정을 구성하고, 그 이후에 �
         <li>문서 요청<br></li>
         <li>문서 승인</li>
         <li>캘린더</li>
-       </ul><p>이 옵션은 기본적으로 활성화되어 있습니다.</p> <p><b>중요 사항</b>: 이 옵션이 비활성화되면 Workfront 인스턴스에서 외부 사용자 액세스 수준을 사용할 수 없습니다. 자세한 내용은 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Workfront의 기본 액세스 수준</a>.</p> </td> 
+       </ul><p>이 옵션은 기본적으로 활성화되어 있습니다.</p> <p><b>중요 사항</b>: 이 옵션이 비활성화되면 Workfront 인스턴스에서 외부 사용자 액세스 수준을 사용할 수 없습니다. 자세한 내용은 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">기본 제공 액세스 수준</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">외부 사용자가 암호로 등록해야 함</td> 

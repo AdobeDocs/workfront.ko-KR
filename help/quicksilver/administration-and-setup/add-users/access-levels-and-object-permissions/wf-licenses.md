@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f30e2d8-f5c3-4811-b780-49a2b0d058e7
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '347'
 ht-degree: 3%
 
 ---
@@ -41,7 +41,7 @@ Workfront 관리자는 사용자에게 라이선스를 할당하는 대신 해�
 
 >[!NOTE]
 >
->외부 라이선스는 유료 라이선스가 아닙니다. 주로 Workfront을 사용하지 않는 공동 작업자와 문서를 공유하기 위해 설계되었습니다. 자세한 내용은 [Adobe Workfront의 기본 액세스 수준](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md).
+>외부 라이선스는 유료 라이선스가 아닙니다. 주로 Workfront을 사용하지 않는 공동 작업자와 문서를 공유하기 위해 설계되었습니다. 자세한 내용은 [기본 제공 액세스 수준](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md).
 
 ## 라이선스에서 액세스 수준을 정의하는 방법
 

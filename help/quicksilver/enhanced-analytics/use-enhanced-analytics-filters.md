@@ -6,9 +6,9 @@ description: Adobe Workfront의 향상된 분석 영역에 있는 필터를 사�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1475'
 ht-degree: 0%
 
 ---
@@ -34,14 +34,14 @@ Adobe Workfront의 향상된 분석 영역에 있는 필터를 사용하면 특�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
    <td>
       <p>새로 만들기: 모두</p>
       <p>또는</p>
       <p>현재: 비즈니스 이상</p></td> 
   </tr>
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td>
       <p>새로운 기능: 밝게 또는 높음</p>
       <p>또는</p>
@@ -49,17 +49,17 @@ Adobe Workfront의 향상된 분석 영역에 있는 필터를 사용하면 특�
    </td> 
   </tr>
   <tr> 
-   <td>액세스 수준* </td> 
-   <td> <p>프로젝트에 대한 액세스 보기</p> <p>특정 프로젝트 필드 필터 옵션을 보려면 작업, Portfolio 및 사용자에 대한 보기 액세스 권한도 있어야 합니다.</p> <p>참고: 액세스 수준 편집 대화 상자의 추가 제한 설정 섹션에서 제한 사항을 선택하면 필터가 적용된 후 필터 또는 향상된 분석 페이지에 일부 정보가 표시되지 않을 수 있습니다. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td>액세스 수준 구성</td> 
+   <td> <p>프로젝트에 대한 액세스 보기</p> <p>특정 프로젝트 필드 필터 옵션을 보려면 작업, Portfolio 및 사용자에 대한 보기 액세스 권한도 있어야 합니다.</p> <p>참고: 다음에서 제한을 선택한 경우 <strong>추가 제한 설정</strong> 액세스 수준 편집 대화 상자의 섹션에서 필터가 적용된 후 필터 또는 향상된 분석 페이지에 일부 정보가 표시되지 않을 수 있습니다.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>개체 권한 </p> </td> 
-   <td> <p>보기</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>보기</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 전제 조건
 

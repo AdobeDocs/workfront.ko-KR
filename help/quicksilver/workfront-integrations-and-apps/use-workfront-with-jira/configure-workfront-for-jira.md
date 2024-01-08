@@ -6,9 +6,9 @@ description: 다음을 사용할 수 있습니다. [!DNL Adobe Workfront for Jir
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 959adc88-5201-4945-96c4-ea890f0bd371
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
 workflow-type: tm+mt
-source-wordcount: '2420'
+source-wordcount: '2373'
 ht-degree: 0%
 
 ---
@@ -36,14 +36,14 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL [!DNL Adobe Workfront] 플랜]*</td> 
+   <td role="rowheader">[!DNL [!DNL Adobe Workfront] 플랜]</td> 
    <td><p>새로 만들기: 모두</p>
        <p>또는</p>
        <p>현재: [!UICONTROL Pro] 이상</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
    <td><p>새로운 기능: [!UICONTROL Standard] </p>
        <p>또는</p> 
        <p>현재: [!UICONTROL Plan] </p>
@@ -54,13 +54,13 @@ ht-degree: 0%
    <td> <p>시스템 관리자 액세스</p> <p>중요:에서 별도의 시스템 관리자 계정을 만드는 것이 좋습니다. [!DNL Jira] 및 [!DNL Workfront] 사용자에게 첨부할 수 있는 기존 통합 대신 이 통합 전용.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>다음이어야 합니다: [!DNL Workfront] 관리자. 다음에 대한 정보: [!DNL Workfront] 관리자, 참조 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">사용자에게 전체 관리 액세스 권한 부여</a>.</p> <p>참고: 여전히 액세스 권한이 없는 경우 [!DNL Workfront] 관리자가 액세스 수준에 추가 제한을 설정하는 경우. 자세한 내용: [!DNL Workfront] 관리자가 액세스 수준을 수정할 수 있습니다. 다음을 참조하십시오. <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>다음이어야 합니다: [!DNL Workfront] 관리자.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 전제 조건
 

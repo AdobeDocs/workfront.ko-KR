@@ -4,20 +4,20 @@ content-type: reference
 product-area: system-administration
 keywords: 액세스,모델,단계,다이어그램,수준,권한
 navigation-topic: access-levels
-title: Adobe Workfront의 기본 액세스 수준
+title: 기본 제공 액세스 수준
 description: 6개의 현재 기본 제공 액세스 수준 각각은 시스템 관리자, 플래너, 작업자, 검토자, 요청자 및 외부 사용자를 포함한 특정 유형의 사용자를 위해 설계되었습니다. 이러한 액세스 수준을 사용하면 시스템에서 편집하고 볼 수 있는 사용자를 제어할 수 있습니다. 사용자 지정 액세스 수준이 필요한 경우 기본 제공 액세스 수준을 복사하고 다양한 Workfront 개체 유형에 허용하려는 액세스 양에 따라 수정할 수 있습니다.
-author: Becky
+author: Becky, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5cb42dd8-1557-4fa4-ab3d-8278ce9afd96
-source-git-commit: 532ec7f7a33e1e1111a31422c5c3c442b2e176b5
+source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
 workflow-type: tm+mt
-source-wordcount: '1683'
-ht-degree: 6%
+source-wordcount: '1685'
+ht-degree: 5%
 
 ---
 
-# Adobe Workfront의 기본 액세스 수준
+# 기본 제공 액세스 수준
 
 <!--Audited: 01/2024-->
 
@@ -60,8 +60,7 @@ ht-degree: 6%
 >
 >시스템 관리자 또는 외부 사용자 액세스 수준은 수정할 수 없습니다.
 
-
-사용자 지정 액세스 수준을 만들거나 기본 제공 액세스 수준 중 하나를 수정하는 방법에 대한 자세한 내용은 [사용자 정의 액세스 수준 만들기 또는 수정](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+사용자 지정 액세스 수준을 만들거나 기본 제공 액세스 수준 중 하나를 수정하는 방법에 대한 자세한 내용은 [사용자 정의 액세스 수준 만들기 및 수정](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 >[!IMPORTANT]
 >
@@ -87,7 +86,7 @@ ht-degree: 6%
 * 작업, 프로젝트, 포트폴리오 및 프로그램의 계획, 생성 및 관리를 담당하는 사람
 * 다른 사용자에게 작업(작업 및 문제)을 할당할 책임이 있는 모든 사람
 * 보고서를 작성하고 타임시트, 작업 항목 및 문서를 승인하는 사용자
-* 메인 메뉴의 모든 영역에 액세스해야 하는 사용자 ![](assets/main-menu-icon.png)
+* 메인 메뉴의 모든 영역에 액세스해야 하는 사용자 ![](assets/main-menu-icon.png) 또는 메인 메뉴 ![](assets/lines-main-menu.png), 사용 가능한 경우
 
 플래너 기본 제공 액세스 수준의 사용자 지정 버전을 만들고 다양한 Workfront 개체 유형에 사용할 수 있는 액세스 양을 결정할 수 있습니다. 자세한 내용은 [사용자 정의 액세스 수준 만들기 및 수정](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -321,8 +320,8 @@ ht-degree: 6%
 외부 사용자 액세스 수준이 있는 사용자:
 
 * 공유된 문서 및 달력 보고서만 볼 수 있음
-* 문서 및 캘린더 보고서를 공유하는 사용자 보기
-* 공유된 문서 승인
+* 문서 및 캘린더 보고서를 공유하는 사용자를 볼 수 있습니다
+* 공유된 문서를 승인할 수 있음
 
 이 액세스 수준은 수정할 수 없습니다.
 

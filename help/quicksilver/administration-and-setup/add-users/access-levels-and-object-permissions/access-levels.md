@@ -9,9 +9,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 14cf53be-e8b5-4508-b0df-c024f1e4f3a7
-source-git-commit: ac5a75384e68c5479e18f167975e673aa1188c0b
+source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '162'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Adobe Workfront 관리자는 사용자에게 액세스 수준을 할당하여 �
 
 * [액세스 수준 개요](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
 * [라이선스 개요](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
-* [Adobe Workfront의 기본 액세스 수준](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
+* [기본 제공 액세스 수준](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
 * [액세스 수준 및 권한이 함께 작동하는 방식](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
 * [사용자의 액세스 수준 및 라이선스 나열](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
 * [라이선스 유형별 오브젝트 및 영역에 대한 액세스](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)

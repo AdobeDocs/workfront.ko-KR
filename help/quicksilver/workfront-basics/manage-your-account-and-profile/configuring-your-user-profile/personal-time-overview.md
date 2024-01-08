@@ -7,10 +7,10 @@ description: 승인된 휴무는 일정에 영향을 주고 할당된 작업의 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 0%
+source-wordcount: '394'
+ht-degree: 1%
 
 ---
 
@@ -45,24 +45,24 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
    <td>임의</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
    <td> <p>새로운 기능: 표준(개인 휴무 구성)</p>
         <p>또는</p>
         <p>현재: 회사 또는 그 이상(개인 휴무 구성)</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
+   <td role="rowheader">액세스 수준 구성</td> 
    <td>[!UICONTROL Edit User] 액세스 권한이 있는 [!UICONTROL Manager](다른 사용자의 휴무 달력을 변경하기 위해)<br>
    <strong>참고:</strong> 관리자가 다른 사용자의 개인 휴무 일정을 편집하는 경우 모든 항목은 관리자의 시간대가 아니라 사용자의 시간대로 표시됩니다.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 에서 개인 휴무 구성 [!DNL Workfront]
 

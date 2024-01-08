@@ -6,9 +6,9 @@ description: 다양한 목록, 보고서, 대시보드 및 검색에서 Adobe Wo
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
 workflow-type: tm+mt
-source-wordcount: '2203'
+source-wordcount: '2153'
 ht-degree: 0%
 
 ---
@@ -53,28 +53,28 @@ Workfront 인터페이스에서 보고서를 수동으로 내보내거나 보고
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td>
     <p>새로운 기능: 밝게 또는 높음</p>
     <p>또는</p>
     <p>현재: 검토 이상</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>보고서, 대시보드 및 달력에 대한 보기 이상의 액세스 권한을 사용하여 보고서 내보내기</p> <p>목록을 내보내려면 목록에서 보는 객체에 대한 이상의 액세스 권한</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>보고서, 대시보드 및 달력에 대한 보기 이상의 액세스 권한을 사용하여 보고서 내보내기</p> <p>목록을 내보내려면 목록에서 보는 객체에 대한 이상의 액세스 권한</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>보고서 또는 대시보드를 내보낼 보고서 또는 대시보드에 대한 이상의 권한 보기</p> <p>목록을 내보내려면 목록에서 보는 객체에 대한 이상의 권한을 봅니다.</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청</a>.</p> </td> 
+   <td> <p>보고서 또는 대시보드를 내보낼 보고서 또는 대시보드에 대한 이상의 권한 보기</p> <p>목록을 내보내려면 목록에서 보는 객체에 대한 이상의 권한을 봅니다.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 전제 조건
 

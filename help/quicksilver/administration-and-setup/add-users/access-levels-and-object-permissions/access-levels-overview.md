@@ -10,9 +10,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
-source-git-commit: 70a2ab0400a50c807aae301116902c5cefb3358b
+source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ External은 주로 Workfront을 사용하지 않는 공동 작업자와 문서�
   </tr> 
   <tr> 
    <td><strong>기본 제공 액세스 수준</strong></td> 
-   <td> <p>위의 이미지에 표시된 6개의 기본 제공 액세스 수준에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Adobe Workfront의 기본 액세스 수준</a>.</p> </td> 
+   <td> <p>위의 이미지에 표시된 6개의 기본 제공 액세스 수준에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">기본 제공 액세스 수준</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>액세스 수준 할당</strong></td> 
