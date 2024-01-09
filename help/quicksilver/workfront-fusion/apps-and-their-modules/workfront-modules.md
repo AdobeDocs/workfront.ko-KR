@@ -9,10 +9,10 @@ description: Adobe Workfront Fusion Adobe Workfront 커넥터를 사용하여 Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 0810f2db8ef85b73de591649712580f23b72b5af
+source-git-commit: 37fd436070b435ebf3d042789bd385dc6a6108cc
 workflow-type: tm+mt
-source-wordcount: '5468'
-ht-degree: 3%
+source-wordcount: '5799'
+ht-degree: 2%
 
 ---
 
@@ -98,7 +98,7 @@ ht-degree: 3%
 ![](assets/map-toggle-350x74.png)
 
 * [트리거](#triggers)
-* [액션](#actions)
+* [작업](#actions)
 * [검색 결과](#searches)
 
 ### 트리거
@@ -160,7 +160,7 @@ ht-degree: 3%
 
 자세한 내용은 섹션을 참조하십시오 [이벤트 페이로드의 예](../../wf-api/general/event-subs-api.md#examples-of-event-payloads) 다음에서 [!DNL Workfront] 도움말 문서 [이벤트 구독 API](../../wf-api/general/event-subs-api.md).
 
-목록 보기 [!DNL Workfront] 에서 이 모듈을 사용할 수 있는 객체 유형 [[!DNL Workfront] object types available for each [!DNL Workfront] 모듈](#workfront-object-types-available-for-each-workfront-module).
+목록 보기 [!DNL Workfront] 에서 이 모듈을 사용할 수 있는 객체 유형 [[!DNL Workfront] 각 객체 유형에 사용 가능 [!DNL Workfront] 모듈](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -197,7 +197,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-목록 보기 [!DNL Workfront] 에서 이 모듈을 사용할 수 있는 객체 유형 [[!DNL Workfront] object types available for each [!DNL Workfront] 모듈](#workfront-object-types-available-for-each-workfront-module).
+목록 보기 [!DNL Workfront] 에서 이 모듈을 사용할 수 있는 객체 유형 [[!DNL Workfront] 각 객체 유형에 사용 가능 [!DNL Workfront] 모듈](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -240,7 +240,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-목록 보기 [!DNL Workfront] 에서 이 모듈을 사용할 수 있는 객체 유형 [[!DNL Workfront] object types available for each [!DNL Workfront] 모듈](#workfront-object-types-available-for-each-workfront-module).
+목록 보기 [!DNL Workfront] 에서 이 모듈을 사용할 수 있는 객체 유형 [[!DNL Workfront] 각 객체 유형에 사용 가능 [!DNL Workfront] 모듈](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -344,7 +344,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-목록 보기 [!DNL Workfront] 에서 이 모듈을 사용할 수 있는 객체 유형 [[!DNL Workfront] object types available for each [!DNL Workfront] 모듈](#workfront-object-types-available-for-each-workfront-module).
+목록 보기 [!DNL Workfront] 에서 이 모듈을 사용할 수 있는 객체 유형 [[!DNL Workfront] 각 객체 유형에 사용 가능 [!DNL Workfront] 모듈](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
@@ -391,7 +391,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-목록 보기 [!DNL Workfront] 에서 이 모듈을 사용할 수 있는 객체 유형 [[!DNL Workfront] object types available for each [!DNL Workfront] 모듈](#workfront-object-types-available-for-each-workfront-module).
+목록 보기 [!DNL Workfront] 에서 이 모듈을 사용할 수 있는 객체 유형 [[!DNL Workfront] 각 객체 유형에 사용 가능 [!DNL Workfront] 모듈](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
@@ -458,7 +458,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-목록 보기 [!DNL Workfront] 에서 이 모듈을 사용할 수 있는 객체 유형 [[!DNL Workfront] object types available for each [!DNL Workfront] 모듈](#workfront-object-types-available-for-each-workfront-module).
+목록 보기 [!DNL Workfront] 에서 이 모듈을 사용할 수 있는 객체 유형 [[!DNL Workfront] 각 객체 유형에 사용 가능 [!DNL Workfront] 모듈](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -495,7 +495,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-목록 보기 [!DNL Workfront] 에서 이 모듈을 사용할 수 있는 객체 유형 [[!DNL Workfront] object types available for each [!DNL Workfront] 모듈](#workfront-object-types-available-for-each-workfront-module).
+목록 보기 [!DNL Workfront] 에서 이 모듈을 사용할 수 있는 객체 유형 [[!DNL Workfront] 각 객체 유형에 사용 가능 [!DNL Workfront] 모듈](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
@@ -532,7 +532,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-목록 보기 [!DNL Workfront] 에서 이 모듈을 사용할 수 있는 객체 유형 [[!DNL Workfront] object types available for each [!DNL Workfront] 모듈](#workfront-object-types-available-for-each-workfront-module).
+목록 보기 [!DNL Workfront] 에서 이 모듈을 사용할 수 있는 객체 유형 [[!DNL Workfront] 각 객체 유형에 사용 가능 [!DNL Workfront] 모듈](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -556,7 +556,7 @@ ht-degree: 3%
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Action]</td> 
-   <td> <p>모듈에서 수행할 작업을 선택합니다.</p> <p>선택한 [!UICONTROL 레코드 유형] 및 [!UICONTROL 작업]에 따라 추가 필드를 작성해야 할 수 있습니다. 이 두 설정을 조합하는 경우 레코드 ID만 필요하지만, 다른 설정(예: <strong>[!UICONTROL 레코드 유형]</strong> 및 [!UICONTROL 템플릿 첨부] <strong>[!UICONTROL Action]</strong>)에는 추가 정보(예: 개체 ID 및 템플릿 ID)가 필요합니다.</p> <p>개별 필드에 대한 자세한 내용은 <a href="http://developer.workfront.com/">Workfront 개발자 설명서</a>. </p> 
+   <td> <p>모듈에서 수행할 작업을 선택합니다.</p> <p>선택한 [!UICONTROL 레코드 유형] 및 [!UICONTROL 작업]에 따라 추가 필드를 작성해야 할 수 있습니다. 이 두 설정을 조합하는 경우 레코드 ID만 필요하지만, 다른 설정(예: <strong>[!UICONTROL 레코드 유형]</strong> 및 [!UICONTROL 템플릿 첨부] <strong>[!UICONTROL Action]</strong>)에는 추가 정보(예: 개체 ID 및 템플릿 ID)가 필요합니다.</p> <p>개별 필드에 대한 자세한 내용은 <a href="http://developer.workfront.com/">Workfront 개발자 설명서</a>. <p><strong>참고</strong>: 개발자 설명서 사이트에는 API 버전 14를 통해서만 정보가 포함되지만 API 호출에 대한 중요한 정보가 포함되어 있습니다. </p> 
     <ol> 
      <li value="1"> <p>의 왼쪽 탐색에서 레코드 유형 선택 [!DNL Workfront] 개발자 설명서 페이지. 다음 유형에는 자체 페이지가 있습니다.</p> 
       <ul> 
@@ -577,7 +577,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-목록 보기 [!DNL Workfront] 에서 이 모듈을 사용할 수 있는 객체 유형 [[!DNL Workfront] object types available for each [!DNL Workfront] 모듈](#workfront-object-types-available-for-each-workfront-module).
+목록 보기 [!DNL Workfront] 에서 이 모듈을 사용할 수 있는 객체 유형 [[!DNL Workfront] 각 객체 유형에 사용 가능 [!DNL Workfront] 모듈](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -627,7 +627,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-목록 보기 [!DNL Workfront] 에서 이 모듈을 사용할 수 있는 객체 유형 [[!DNL Workfront] object types available for each [!DNL Workfront] 모듈](#workfront-object-types-available-for-each-workfront-module).
+목록 보기 [!DNL Workfront] 에서 이 모듈을 사용할 수 있는 객체 유형 [[!DNL Workfront] 각 객체 유형에 사용 가능 [!DNL Workfront] 모듈](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -666,7 +666,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-목록 보기 [!DNL Workfront] 에서 이 모듈을 사용할 수 있는 객체 유형 [[!DNL Workfront] object types available for each [!DNL Workfront] 모듈](#workfront-object-types-available-for-each-workfront-module).
+목록 보기 [!DNL Workfront] 에서 이 모듈을 사용할 수 있는 객체 유형 [[!DNL Workfront] 각 객체 유형에 사용 가능 [!DNL Workfront] 모듈](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
@@ -711,7 +711,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-목록 보기 [!DNL Workfront] 에서 이 모듈을 사용할 수 있는 객체 유형 [[!DNL Workfront] object types available for each [!DNL Workfront] 모듈](#workfront-object-types-available-for-each-workfront-module).
+목록 보기 [!DNL Workfront] 에서 이 모듈을 사용할 수 있는 객체 유형 [[!DNL Workfront] 각 객체 유형에 사용 가능 [!DNL Workfront] 모듈](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -806,7 +806,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-목록 보기 [!DNL Workfront] 에서 이 모듈을 사용할 수 있는 객체 유형 [[!DNL Workfront] object types available for each [!DNL Workfront] 모듈](#workfront-object-types-available-for-each-workfront-module).
+목록 보기 [!DNL Workfront] 에서 이 모듈을 사용할 수 있는 객체 유형 [[!DNL Workfront] 각 객체 유형에 사용 가능 [!DNL Workfront] 모듈](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -841,68 +841,68 @@ ht-degree: 3%
   <tr> 
    <td>할당</td> 
    <td> </td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td>기준선</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> 청구 기록 </td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>청구 요금</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>회사</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td>대시보드</td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td>문서</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td>문서 폴더</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>문서 요청</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>문서 버전</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>경비</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td>경비 유형</td> 
@@ -912,111 +912,111 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td>그룹</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>시간</td> 
    <td> </td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td>시간 유형</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>문제</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td>반복</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>작업 역할</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>저널 항목</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>마일스톤</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>마일스톤 경로</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>참고</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td>메모 태그</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>포트폴리오</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td>프로그램</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td>프로젝트</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td>프로젝트 사용자</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>증명 승인</td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td>예약 시간* </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>보고서</td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td>위험</td> 
@@ -1033,44 +1033,44 @@ ht-degree: 3%
   <tr> 
    <td>단계 승인자</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>작업</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td>팀</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>템플릿</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td>템플릿 작업</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>타임시트</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td>사용자</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td>업데이트</td> 
@@ -1113,358 +1113,358 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td>승인 진행</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td>할당</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td>청구 기록</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>청구 요금</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>회사</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td>문서</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td>문서 폴더</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td>문서 버전</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td>경비</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td>경비 유형</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>그룹</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td>시간</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>시간 유형</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>문제</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td>반복</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>작업 역할</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>저널 항목</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td>마일스톤</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>마일스톤 경로</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>참고</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td>메모 태그</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>포트폴리오</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td>프로그램</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td>프로젝트</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td>프로젝트 사용자</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>예약 시간* </td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>위험</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>위험 유형</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>단계 승인자</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>작업</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td>팀</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>템플릿</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>템플릿 작업</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td>타임시트</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>사용자</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td>업데이트</td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -1492,182 +1492,182 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td>승인 진행</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td>할당</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td>청구 기록</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>청구 요금</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>회사</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td>문서</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td>문서 폴더</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td>문서 버전</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>경비</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>경비 유형</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>그룹</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td>시간</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>시간 유형</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>문제</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td>반복</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>작업 역할</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>저널 항목</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>마일스톤</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>마일스톤 경로</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>참고</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>메모 태그</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>포트폴리오</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td>프로그램</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>프로젝트</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td>프로젝트 사용자</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>예약 시간* </td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>위험</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>위험 유형</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>단계 승인자</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>작업</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td>팀</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>템플릿</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>템플릿 작업</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>타임시트</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td>사용자</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td>사용자 위임</td> 
-   <td>✓</td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
   </tr> 
  </tbody> 
