@@ -4,9 +4,9 @@ description: Adobe 마에스트로에서는 함수와 기존 필드를 사용하
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: 3c49657c929c414888e6678022ef61b1bba1a420
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -154,8 +154,8 @@ After permssions - replace the table with:
 * 공식 필드는 동일한 레코드 유형에 속하는 필드를 참조합니다. 공식 필드를 만들 때 다른 레코드 유형의 필드를 참조할 수 없습니다. <!--is this still accurate??-->
 * 수식 필드를 저장한 후에는 수식 필드의 필드 유형을 변경할 수 없습니다.
 * 배합표 필드를 저장한 후 배합표 필드의 계산을 갱신할 수 있으며, 계산 결과는 동일한 유형의 모든 레코드에 대해 자동으로 갱신됩니다.
-* 연결된 레코드 종류의 조회 필드는 사용할 수 없습니다.
 * 수식에서 참조하는 필드를 Maestro 인터페이스에 표시되는 대로 추가해야 합니다.
+* 수식에서 연결된 레코드 종류의 조회 필드를 사용하면 나중에 사용할 수 있습니다.
 
 ## 지원되는 공식
 

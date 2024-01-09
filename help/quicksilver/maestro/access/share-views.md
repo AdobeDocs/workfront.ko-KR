@@ -4,9 +4,9 @@ description: 보기를 다른 사용자와 공유하여 Adobe Workfront Maestro�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: f92fe2fc35cb810c4d52535151a75fe6c3f22f0e
+source-git-commit: 3c49657c929c414888e6678022ef61b1bba1a420
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '421'
 ht-degree: 1%
 
 ---
@@ -83,14 +83,14 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->시스템 관리자는 자신이 만들지 않은 보기를 보거나 공유할 수 없습니다.
+>시스템 관리자는 자신이 만들지 않은 보기를 보거나 공유할 수 없습니다. 공유된 보기만 보거나 공유할 수 있습니다.
 
 
-다른 사용자와 작업 공간을 공유하려면 다음을 수행하십시오.
+다른 사용자와 보기를 공유하려면:
 
 {{step1-to-maestro}}
 
-1. 공유할 작업 영역을 연 다음 레코드 유형 카드를 클릭합니다.
+1. 보기를 공유할 작업 영역을 연 다음 레코드 유형 카드를 클릭합니다.
 
    그러면 레코드 유형 페이지가 열립니다.
 
@@ -98,7 +98,7 @@ ht-degree: 1%
 
    ![](assets/more-menu-for-views-expanded-with-share-option.png)
 
-1. 다음에서 **작업 공간 액세스 권한 부여 대상:** 필드에서 사용자 또는 그룹 이름을 입력한 다음 목록에 표시될 때 클릭합니다.
+1. 다음에서 **보기 액세스 권한 부여 대상** 필드에서 사용자 또는 그룹 이름을 입력한 다음 목록에 표시될 때 클릭합니다.
 
    ![](assets/sharing-a-view-ui-with-groups.png)
 
@@ -117,13 +117,13 @@ ht-degree: 1%
 
 {{step1-to-maestro}}
 
-1. 공유할 작업 영역을 연 다음 레코드 유형 카드를 클릭합니다.
+1. 보기를 공유할 작업 영역을 연 다음 레코드 유형 카드를 클릭합니다.
 
    그러면 레코드 유형 페이지가 열립니다.
 
 1. 보기 드롭다운 메뉴에서 공유할 보기를 마우스로 가리킨 다음 **자세히** 메뉴 ![](assets/more-menu.png) 뷰 이름의 오른쪽에 있는 **공유**.
 
-1. 제거할 사용자 또는 그룹을 찾은 다음 **제거**.
+1. 제거할 사용자 또는 그룹을 찾은 다음 **제거** 사용 권한 드롭다운 메뉴에서 사용자 또는 그룹 이름 오른쪽에 있는 권한
 
 1. **저장**&#x200B;을 클릭합니다.
 

@@ -1,14 +1,14 @@
 ---
 title: Adobe Maestro에서의 권한 공유 개요
-description: 만든 Adobe Maestro 작업 영역에 대한 권한을 공유하거나 제거할 수 있습니다.
+description: Adobe Maestro 작업 영역 또는 보기에 대한 권한을 공유하거나 제거할 수 있습니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: fda35538234593b66b01f9e0cc0dafd6a63a84dc
+source-git-commit: 3c49657c929c414888e6678022ef61b1bba1a420
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 4%
+source-wordcount: '474'
+ht-degree: 8%
 
 ---
 
@@ -30,7 +30,15 @@ ht-degree: 4%
 >
 >자세한 내용은 [Adobe 마에스트로 개요](../maestro-overview.md).
 
-만든 Adobe Maestro 작업 영역에 대한 권한을 공유하거나 제거할 수 있습니다.
+Adobe Maestro 작업 영역 또는 보기에 대한 권한을 공유하거나 제거할 수 있습니다.
+
+이 문서에서는 Maestro 객체의 권한 수준에 대해 설명합니다.
+
+작업 영역 또는 보기를 공유하는 방법에 대한 자세한 내용은 다음 문서를 참조하십시오.
+
+* [작업 영역 공유](/help/quicksilver/maestro/access/share-workspaces.md)
+
+* [보기 공유](/help/quicksilver/maestro/access/share-views.md)
 
 ## Adobe Maestro에서 공유할 수 있는 오브젝트
 
@@ -48,6 +56,8 @@ Maestro에서 다음 오브젝트를 공유할 수 있습니다.
 
    * 새로운 가격 모델: Standard 라이센스
    * 현재 가격 모델: 작업 또는 더 높은 라이선스
+
+  자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
 * 시스템 관리자는 다른 사용자가 만든 작업 공간을 관리하고 공유할 수 있습니다.
 * 시스템 관리자가 아닌 경우 다른 사용자가 만든 작업 영역이 사용자와 공유될 경우 해당 작업 영역에 기여할 수 있습니다.
 * 작업 공간은 일괄적으로 공유할 수 없습니다.
@@ -58,48 +68,95 @@ Maestro에서 다음 오브젝트를 공유할 수 있습니다.
 
 ## Maestro 개체에 대한 권한 공유
 
-다음 표는 Maestro 작업 영역 또는 보기를 공유할 때 선택할 수 있는 권한 수준을 보여 줍니다.
+다음 섹션의 표에서는 Maestro 작업 영역 또는 보기를 공유할 때 선택할 수 있는 권한 수준과 각 수준에서 허용하는 기능을 보여 줍니다.
 
+### 작업 공간 권한
+
+|        | 관리 | 참여 | 보기 |
+|--------|--------|------------|-------|
+| 편집 | ✓ 덧신 |            |       |
+| 공유 | ✓ 덧신 |            |       |
+| 삭제 | ✓ 덧신 |            |       |
+| 보기 | ✓ 덧신 | ✓ 덧신 | ✓ 덧신 |
+
+### 레코드 유형 권한
+
+작업 영역에 권한을 부여하면 레코드 유형 권한이 상속됩니다.
+
+|        | 관리 | 참여 | 보기 |
+|--------|--------|------------|-------|
+| 만들기 | ✓ 덧신 |            |       |
+| 삭제 | ✓ 덧신 |            |       |
+| 편집 | ✓ 덧신 |            |       |
+| 보기 | ✓ 덧신 | ✓ 덧신 | ✓ 덧신 |
+
+### 권한 기록
+
+작업 영역에 권한을 부여하면 레코드 권한이 상속됩니다.
+
+|        | 관리 | 참여 | 보기 |
+|--------|--------|------------|-------|
+| 만들기 | ✓ 덧신 |            |       |
+| 삭제 | ✓ 덧신 | ✓ 덧신 |       |
+| 편집 | ✓ 덧신 | ✓ 덧신 |       |
+| 보기 | ✓ 덧신 | ✓ 덧신 | ✓ 덧신 |
+
+### 필드 권한
+
+작업 영역에 권한을 부여하면 필드 권한이 상속됩니다.
+다음 권한은 필드 자체를 참조하며 각 필드와 연결된 값은 참조하지 않습니다. 필드 값을 편집하려면 레코드를 편집할 권한이 있어야 합니다.
+
+|        | 관리 | 참여 | 보기 |
+|--------|--------|------------|-------|
+| 만들기 | ✓ 덧신 |            |       |
+| 삭제 | ✓ 덧신 |            |       |
+| 편집 | ✓ 덧신 |            |       |
+| 보기 | ✓ 덧신 | ✓ 덧신 | ✓ 덧신 |
+
+
+### 권한 보기
+
+뷰를 기록하려면 별도의 권한을 부여해야 합니다. 작업 영역에 권한을 부여해도 작업 영역의 레코드 보기에 대한 권한은 부여되지 않습니다.
+
+|        | 관리 | 보기 |
+|--------|--------|-------|
+| 편집 | ✓ 덧신 |       |
+| 삭제 | ✓ 덧신 |       |
+| 보기 | ✓ 덧신 | ✓ 덧신 |
+| 적용 | ✓ 덧신 | ✓ 덧신 |
+
+
+
+
+<!--
 <table>
   <tr>
+   
 
-
-</td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td><p><b>새로운 기능: Standard 라이선스</b></p> <p><b>현재: 작업자 이상 라이선스</b></p></strong>
-   </td>
-   <td><strong>권한 관리</strong>
-   </td>
-   <td><strong>참여 권한</strong>
-   </td>
-   <td><strong>권한 보기</strong>
    </td>
   </tr>
   <tr>
-   <td><strong>만들기</strong>
-   </td>
-   <td rowspan="5" ><strong>작업 영역</strong>
-   </td>
-   <td>✓ 덧신
-   </td>
-   <td>✓ 덧신
-   </td>
    <td>
    </td>
    <td>
+   </td>
+   <td><p><b>New: Standard license</b></p> <p><b>Current: Worker or higher license</b></p></strong>
+   </td>
+   <td><strong>Manage permissions</strong>
+   </td>
+   <td><strong>Contribute permissions</strong>
+   </td>
+   <td><strong>View permissions</strong>
    </td>
   </tr>
   <tr>
-   <td><strong>삭제</strong>
+   <td><strong>Create</strong>
    </td>
-   <td>✓ 덧신
+   <td rowspan="5" ><strong>Workspace</strong>
    </td>
-   <td>✓ 덧신
+   <td>✓
+   </td>
+   <td>✓
    </td>
    <td>
    </td>
@@ -107,23 +164,11 @@ Maestro에서 다음 오브젝트를 공유할 수 있습니다.
    </td>
   </tr>
   <tr>
-   <td><strong>공유</strong>
+   <td><strong>Delete</strong>
    </td>
-   <td>✓ 덧신
+   <td>✓
    </td>
-   <td>✓ 덧신
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>편집</strong>
-   </td>
-   <td>✓ 덧신
-   </td>
-   <td>✓ 덧신
+   <td>✓
    </td>
    <td>
    </td>
@@ -131,25 +176,11 @@ Maestro에서 다음 오브젝트를 공유할 수 있습니다.
    </td>
   </tr>
   <tr>
-   <td><strong>보기</strong>
+   <td><strong>Share</strong>
    </td>
-   <td>✓ 덧신
+   <td>✓
    </td>
-   <td>✓ 덧신
-   </td>
-   <td>✓ 덧신
-   </td>
-   <td>✓ 덧신
-   </td>
-  </tr>
-  <tr>
-   <td><strong>만들기/삭제</strong>
-   </td>
-   <td rowspan="3" ><strong>레코드 유형*</strong>
-   </td>
-   <td>✓ 덧신
-   </td>
-   <td>✓ 덧신
+   <td>✓
    </td>
    <td>
    </td>
@@ -157,11 +188,37 @@ Maestro에서 다음 오브젝트를 공유할 수 있습니다.
    </td>
   </tr>
   <tr>
-   <td><strong>편집</strong>
+   <td><strong>Edit</strong>
    </td>
-   <td>✓ 덧신
+   <td>✓
    </td>
-   <td>✓ 덧신
+   <td>✓
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>View</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Create/delete</strong>
+   </td>
+   <td rowspan="3" ><strong>Record Type*</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
    </td>
    <td>
    </td>
@@ -169,76 +226,76 @@ Maestro에서 다음 오브젝트를 공유할 수 있습니다.
    </td>
   </tr>
   <tr>
-   <td><strong>보기</strong>
+   <td><strong>Edit</strong>
    </td>
-   <td>✓ 덧신
+   <td>✓
    </td>
-   <td>✓ 덧신
+   <td>✓
    </td>
-   <td>✓ 덧신
-   </td>
-   <td>✓ 덧신
-   </td>
-  </tr>
-  <tr>
-   <td><strong>만들기/삭제</strong>
-   </td>
-   <td rowspan="3" ><strong>기록*</strong>
-   </td>
-   <td>✓ 덧신
-   </td>
-   <td>✓ 덧신
-   </td>
-   <td>✓ 덧신
+   <td>
    </td>
    <td>
    </td>
   </tr>
   <tr>
-   <td><strong>편집</strong>
+   <td><strong>View</strong>
    </td>
-   <td>✓ 덧신
+   <td>✓
    </td>
-   <td>✓ 덧신
+   <td>✓
    </td>
-   <td>✓ 덧신
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Create/delete</strong>
+   </td>
+   <td rowspan="3" ><strong>Record*</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
    </td>
    <td>
    </td>
   </tr>
   <tr>
-   <td><strong>보기</strong>
+   <td><strong>Edit</strong>
    </td>
-   <td>✓ 덧신
+   <td>✓
    </td>
-   <td>✓ 덧신
+   <td>✓
    </td>
-   <td>✓ 덧신
+   <td>✓
    </td>
-   <td>✓ 덧신
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>View</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
    </td>
   </tr>
   <tr>
    <tr>
-   <td><strong>만들기</strong>
+   <td><strong>Create</strong>
    </td>
-   <td rowspan="5" ><strong>보기</strong>
+   <td rowspan="5" ><strong>View</strong>
    </td>
-   <td>✓ 덧신
+   <td>✓
    </td>
-   <td>✓ 덧신
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>삭제</strong>
-   </td>
-   <td>✓ 덧신
-   </td>
-   <td>✓ 덧신
+   <td>✓
    </td>
    <td>
    </td>
@@ -246,23 +303,11 @@ Maestro에서 다음 오브젝트를 공유할 수 있습니다.
    </td>
   </tr>
   <tr>
-   <td><strong>공유</strong>
+   <td><strong>Delete</strong>
    </td>
-   <td>✓ 덧신
+   <td>✓
    </td>
-   <td>✓ 덧신
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>편집</strong>
-   </td>
-   <td>✓ 덧신
-   </td>
-   <td>✓ 덧신
+   <td>✓
    </td>
    <td>
    </td>
@@ -270,54 +315,78 @@ Maestro에서 다음 오브젝트를 공유할 수 있습니다.
    </td>
   </tr>
   <tr>
-   <td><strong>보기</strong>
+   <td><strong>Share</strong>
    </td>
-   <td>✓ 덧신
+   <td>✓
    </td>
-   <td>✓ 덧신
+   <td>✓
    </td>
    <td>
    </td>
-   <td>✓ 덧신
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Edit</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>View</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+   <td>✓
    </td>
   </tr>
 
 <tr>
-   <td><strong>만들기/삭제</strong>
+   <td><strong>Create/delete</strong>
    </td>
-   <td rowspan="3" ><strong>필드*</strong>
+   <td rowspan="3" ><strong>Fields*</strong>
    </td>
-   <td>✓ 덧신
+   <td>✓
    </td>
-   <td>✓ 덧신
+   <td>✓
    </td>
-   <td>✓ 덧신
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>편집</strong>
-   </td>
-   <td>✓ 덧신
-   </td>
-   <td>✓ 덧신
-   </td>
-   <td>
+   <td>✓
    </td>
    <td>
    </td>
   </tr>
   <tr>
-   <td><strong>보기</strong>
+   <td><strong>Edit</strong>
    </td>
-   <td>✓ 덧신
+   <td>✓
    </td>
-   <td>✓ 덧신
+   <td>✓
    </td>
-   <td>✓ 덧신
+   <td>
    </td>
-   <td>✓ 덧신
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>View</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
    </td>
   </tr>
 
@@ -325,11 +394,7 @@ Maestro에서 다음 오브젝트를 공유할 수 있습니다.
 
 </table>
 
-*레코드 유형, 레코드 및 필드는 작업 영역에서 권한을 상속합니다.
+*Record types, records, and fields inherit permissions from the Workspace. -->
 
-Maestro에서의 액세스에 대한 일반적인 정보는 다음을 참조하십시오. [Adobe Maestro에서의 권한 공유 개요](../access/sharing-permissions-overview.md).
 
-작업 공간 공유에 대한 자세한 내용은 [작업 영역 공유](/help/quicksilver/maestro/access/share-workspaces.md).
-
-보기 공유에 대한 자세한 내용은 [보기 공유](/help/quicksilver/maestro/access/share-views.md)
 
