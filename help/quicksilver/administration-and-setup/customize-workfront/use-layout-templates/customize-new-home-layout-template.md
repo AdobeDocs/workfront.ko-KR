@@ -7,9 +7,9 @@ description: 레이아웃 템플릿 을 사용하여 사용자가 새 홈을 열
 author: Nolan
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 511d9b0b61870ccec13aa70c9d4d3232b3e60cd3
+source-git-commit: dad055b0901cfa8114f7f6b13b6f689d70b31205
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '741'
 ht-degree: 1%
 
 ---
@@ -101,6 +101,10 @@ ht-degree: 1%
      </tr>
     </tbody> 
    </table>
+
+>[!IMPORTANT]
+>
+>레이아웃 템플릿을 사용하여 특정 위젯에 대한 기본 필터 또는 그룹화를 설정하는 경우 기존 사용자 환경 설정으로 인해 즉시 적용되지 않을 수 있습니다. 새 필터 또는 그룹화를 즉시 적용하려면 사용자 또는 사용자가 URL 끝에 &quot;/resetUser&quot;를 추가하여 사용자 환경 설정을 재설정해야 할 수 있습니다.
 
 1. 레이아웃 템플릿을 계속 사용자 지정합니다.
 
