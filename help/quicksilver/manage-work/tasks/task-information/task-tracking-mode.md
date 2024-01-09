@@ -7,18 +7,20 @@ description: 작업을 만들거나 편집할 때 작업의 추적 모드 설정
 author: Alina
 feature: Work Management
 exl-id: 397b5593-ac01-40cf-b683-fcf671a53d26
-source-git-commit: 40b6ba5c4deb312fb40aecad4978b5a385e0f1e9
+source-git-commit: d2836549ee3c615201ce5f3454258e9af31efa42
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 3%
+source-wordcount: '646'
+ht-degree: 2%
 
 ---
 
 # 작업 추적 모드 개요
 
+<!-- Audited: 01/2024 -->
+
 작업을 만들거나 편집할 때 작업의 추적 모드 설정을 조정하여 작업의 진행 상태 표시기가 표시되는 방식과 시기를 제어할 수 있습니다. Adobe Workfront은 작업의 진행 상황을 추적하기 위해 특정 설정을 구성할 때 진행 상태 플래그를 표시합니다.
 
-작업의 진행 상태에 대한 자세한 내용은 [작업 진행 상태 개요](../../../manage-work/tasks/task-information/task-progress-status.md).
+작업의 진행 상태에 대한 자세한 내용은 을 참조하십시오. [작업 진행 상태 개요](../../../manage-work/tasks/task-information/task-progress-status.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -40,7 +42,7 @@ ht-degree: 3%
 
 다음 옵션 중에서 선택할 수 있습니다.
 
-* [사용자는 업데이트해야 합니다.](#user-must-update)
+* [사용자가 업데이트해야 함](#user-must-update)
 * [정시 추정](#assume-on-time)
 * [지연 경고 무시](#ignore-late-warnings)
 * [자동 완성](#auto-complete)
@@ -52,7 +54,7 @@ ht-degree: 3%
 
 ### 정시 추정 {#assume-on-time}
 
-Workfront에서는 현재 완료 상태에 관계없이 작업이 정시에 완료된다고 가정합니다. 그렇지 않은 경우 Workfront은 자동으로 계획된 완료 일자를 다음 근무일로 가정합니다. 작업이 완료되는 시기를 표시해야 합니다. 사용자가 작업을 정기적으로 업데이트하지 않을 때 이 옵션을 사용합니다.
+Workfront에서는 현재 완료 상태에 관계없이 작업이 정시에 완료된다고 가정합니다. 작업이 정시에 완료되지 않으면(계획된 완료 일자에) Workfront은 자동으로 계획된 완료 일자를 다음 근무일로 가정합니다. 작업이 완료되는 시기를 표시해야 합니다. 사용자가 작업을 정기적으로 업데이트하지 않을 때 이 옵션을 사용합니다.
 
 ### 지연 경고 무시 {#ignore-late-warnings}
 
@@ -71,8 +73,8 @@ Workfront에서는 작업이 예약된 대로 완료된다고 가정하고 기�
 >
 >작업을 자동으로 완료하도록 선택하면 프로젝트 시간이 다시 계산될 때 작업이 완료로 표시됩니다. 프로젝트의 업데이트 유형 이 자동 또는 자동으로 설정되고 변경 시 프로젝트 타임라인이 매일 계산됩니다. 프로젝트의 타임라인 재계산에 대한 자세한 내용은 [프로젝트 타임라인 다시 계산](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 >
->실제 완료 일자의 시간은 타임라인이 자동으로 계산되는 날의 자정입니다. 이 타임스탬프를 생성하는 데 사용되는 시간은 Workfront 관리자가 설정의 고객 정보 섹션에서 정의한 시스템의 시간대입니다. 시스템의 시간대 설정에 대한 자세한 내용은 [시스템에 대한 기본 정보 구성](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+>실제 완료 일자의 시간은 타임라인이 자동으로 계산되는 날의 자정입니다. 이 타임스탬프를 생성하는 데 사용되는 시간은 Workfront 관리자가 설정의 고객 정보 섹션에서 정의한 시스템의 시간대입니다. 시스템의 표준 시간대 설정에 대한 자세한 내용은 [시스템에 대한 기본 정보 구성](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
 ### 전임 작업 {#predecessor}
 
-Workfront은 전임 작업 관계에 따라 작업의 예상 완료 일자를 예측합니다. 작업의 진행 상태는 이 예측에 따라 결정됩니다. 예를 들어 작업 B의 기간은 1일이며 전임 작업 A보다 2일 후인 5일이 소요될 예정입니다. 그런 다음 사용자는 작업 B를 50% 완료로 업데이트하지만 전임 작업 A는 아직 시작되지 않았습니다. Workfront은 종속 작업 B를 전임 작업 시작 일자 후 6일 후에 완료하도록 예약하여 작업 A는 5일, 작업 B는 1일로 허용합니다.
+Workfront은 전임 작업 관계에 따라 작업의 예상 완료 일자를 예측합니다. 작업의 진행 상태는 이 예측에 따라 결정됩니다. 예를 들어 작업 B의 기간은 1일이며 전임 작업 A보다 2일 후인 5일이 소요될 예정입니다. 그런 다음 사용자는 작업 B를 50% 완료로 업데이트하지만 전임 작업 A는 아직 시작되지 않았습니다. Workfront은 전임 작업 시작일로부터 6일 후에 종속 작업 B를 완료하도록 예약하여 작업 A의 경우 5일, 작업 B의 경우 1일을 허용합니다.
