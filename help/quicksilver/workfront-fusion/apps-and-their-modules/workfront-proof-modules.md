@@ -9,9 +9,9 @@ description: 다음에서 [!DNL Adobe Workfront Fusion] 시나리오에서는 �
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
-source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
+source-git-commit: 94ebd79a566ca946944339e3a5c1df9b3d2d2608
 workflow-type: tm+mt
-source-wordcount: '2934'
+source-wordcount: '3099'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,58 @@ ht-degree: 0%
 보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
 
 다음에 대한 정보: [!DNL Adobe Workfront Fusion] 라이센스, 참조 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+## 연결 [!DNL Workfront Proof] 끝 [!DNL Workfront Fusion]
+
+에 대한 연결을 만들 수 있습니다. [!DNL Workfront Proof] 내에서 직접 계정 [!DNL Workfront Fusion] 모듈.
+
+1. 다음 중 하나 [!DNL Workfront Fusion] 모듈, 클릭 [!UICONTROL **추가**] 다음 옆에 [!UICONTROL 연결] 필드
+
+2. 다음 필드를 채웁니다.
+
+   <table style="table-layout:auto"> 
+        <col/>
+        <col/>
+        <tbody>
+            <tr>
+                <td role="rowheader">
+                    <p role="rowheader">[!UICONTROL 연결 이름]</p>
+                </td>
+                <td>연결 이름 입력</td>
+            </tr>
+            <tr>
+                <td  role="rowheader">[!UICONTROL connections.environmentType]</td>
+                <td>프로덕션 환경인지 미리 보기 또는 샌드박스와 같은 비프로덕션 환경인지 선택합니다.</td>
+            </tr>
+            <tr>
+                <td role="rowheader">[!UICONTROL connections.authenticationType]</td>
+                <td>서비스 계정인지 개인 계정인지 선택합니다.</td>
+            </tr>
+            <tr>
+                <td  role="rowheader">[!UICONTROL Email / Username]</td>
+                <td>에 대한 사용자 이름 입력 [!DNL Workfront Proof] 계정입니다.</td>
+            </tr>
+            <tr>
+                <td  role="rowheader">[!UICONTROL Password]</td>
+                <td>다음에 대한 암호 입력 [!DNL Workfront Proof] 계정입니다.</td>
+            </tr>
+            <tr>
+                <td  role="rowheader">[!UICONTROL 테넌트 이름]</td>
+                <td><strong>참고</strong>: BYOK를 사용하지 않는 고객은 이 필드를 비워 두어야 합니다. <p>이 계정의 테넌트 ID를 입력하십시오. 테넌트 ID를 찾는 데 도움이 필요한 경우 Workfront 고객 지원 센터에 문의하십시오.</p></td>
+            </tr>
+            <tr>
+                <td role="rowheader">[!UICONTROL Domain Extension]</td>
+                <td>계정에 액세스하는 데 사용하는 URL의 확장을 입력합니다. <p>예: <code>com</code> 또는 <code>eu</code></p></td>
+            </tr>
+            <tr>
+                <td  role="rowheader">[!UICONTROL Production, Preview 또는 Custom Environment]</td>
+                <td>프로덕션, 미리보기 또는 사용자 지정 환경에 대한 연결을 선택합니다.</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+3. 클릭 [!UICONTROL **계속**] 연결을 저장하고 모듈로 돌아가려면
 
 ## [!DNL Workfront Proof] 모듈 및 해당 필드
 
