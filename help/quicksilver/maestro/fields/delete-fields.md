@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Maestro에서 사용자 정의 필드를 만드는 방법에 대한 자세한 �
 ## Maestro 필드 삭제에 대한 고려 사항:
 
 * 레코드 유형 테이블 보기에서만 필드를 삭제할 수 있습니다.
-* 생성한 필드나 다른 사용자나 시스템에서 생성한 필드를 삭제할 수 있습니다. <!--this will change with access levels/ permissions-->
+* 생성한 필드나 다른 사용자나 시스템에서 생성한 필드를 삭제할 수 있습니다. <!--this will change to: take this out with permissions - it's in the table! -->
 * 레코드의 기본 필드는 삭제할 수 없습니다.
 * 필드에 저장된 모든 정보는 삭제되며 복구할 수 없습니다.
 * 연결된 레코드 필드를 삭제하면 연결된 모든 조회 필드도 연결된 레코드 유형에서 삭제됩니다. 연결된 레코드 종류의 연결된 레코드 필드는 삭제되지 않습니다.
@@ -91,7 +91,7 @@ Maestro에서 사용자 정의 필드를 만드는 방법에 대한 자세한 �
   </tr>
 <tr>
    <td role="rowheader">레이아웃 템플릿</td>
-   <td> <p>시스템 관리자가 레이아웃 템플릿에 마에스트로 영역을 추가해야 합니다. 자세한 내용은 <a href="../access/grant-access.md">Adobe 마에스트로에 대한 액세스 권한 부여</a>. </p>  
+   <td> <p>시스템 관리자가 레이아웃 템플릿에 마에스트로 영역을 추가해야 합니다. 자세한 내용은 <a href="../access/access-overview.md">액세스 개요</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -138,7 +138,7 @@ After permssions - replace the table with:
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 <tr>

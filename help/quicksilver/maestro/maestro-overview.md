@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: 50e6b09d626325ee2836dc0ebaf79fc1e8cc9da9
 workflow-type: tm+mt
 source-wordcount: '1959'
 ht-degree: 1%
@@ -82,7 +82,8 @@ Adobe Maestro는 Adobe Workfront의 새로운 서비스입니다. Maestro의 목
 | Maestro 레코드를 Adobe Experience Manager 에셋에 연결 | ✓ 덧신 |                                  |                 |
 | 레코드 세부 정보 페이지 | ✓ 덧신 |                                  |                  |
 | 레코드 세부 정보 페이지의 레이아웃 업데이트 |                               | ✓ 덧신 |                  |
-| 작업 공간 권한 | | ✓ 덧신 |  |
+| 작업 공간 공유 | | ✓ 덧신 |  |
+| 보기 공유 | | ✓ 덧신 |  |
 | 요청 제출 |                               |                                  | ✓ 덧신 |
 | 크리에이티브 개요 |                               |                                  | ✓ 덧신 |
 | 레코드의 색상 및 아이콘 사용자 지정 | ✓ 덧신 |                                  |                 |
@@ -99,61 +100,7 @@ Adobe Maestro는 Adobe Workfront의 새로운 서비스입니다. Maestro의 목
 
 Maestro를 사용하는 데 필요한 액세스 권한에 대한 자세한 내용은 [Adobe Maestro 액세스 개요](../maestro/access/access-overview.md).
 
-<!-- hidden the table after I moved the content to the Access overview article: 
-
-You must have the following access to use Adobe Maestro: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Adobe product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader">Access level</td>
-   <td> <p>Any</p>  
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader">Layout template</td>
-   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see <a href="../maestro/access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
-</td>
-  </tr>
- </tbody>
-</table>
-
-************* Activate note when going to GA: 
-
->[!NOTE]
->
->If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). 
--->
+<!--take the IMPORTANT note out when we release permissions; keep the link to the Access article-->
 
 ## Maestro 용어
 
@@ -330,23 +277,7 @@ Maestro를 위한 프레임워크는 완전히 맞춤화가 가능합니다. 조
 
 Maestro에 액세스하려면 먼저 조직이 Adobe Maestro Closed Beta 프로그램에 등록해야 합니다. Beta 프로그램 등록에 대한 자세한 내용은 계정 담당자에게 문의하십시오.
 
-액세스 권한을 부여하고 다른 사용자가 Maestro를 사용할 수 있도록 하는 방법에 대한 자세한 내용은 [Adobe 마에스트로에 대한 액세스 권한 부여](../maestro/access/grant-access.md).
-
-<!--hidden this after moved it to a separate article
-
-After your organization has been enrolled in the Maestro beta program, you can add the Maestro area for other users by using a layout template. 
-
-To share the Maestro area using a layout template: 
-
-1. Log in to Workfront as a system administrator.  
-
-1. Add the Maestro icon to the Main Menu using a Layout Template. For information, see [Customize the Main Menu using a layout template](../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md). 
-
-1. Assign the  layout template to the users that you want to have access to Maestro.For information, see [Assign users to a layout template](../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
-
-    All users who can access Maestro in their Main Menu can start creating workspaces, records types, records, and fields.  
-  -->
-
+액세스 권한을 부여하고 다른 사용자가 Maestro를 사용할 수 있도록 하는 방법에 대한 자세한 내용은 [액세스 개요](/help/quicksilver/maestro/access/access-overview.md).
 
 ## Maestro 찾기
 

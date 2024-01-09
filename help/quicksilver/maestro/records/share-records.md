@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
+source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 1%
+source-wordcount: '404'
+ht-degree: 0%
 
 ---
 
@@ -66,24 +66,24 @@ ht-degree: 1%
   <tr>
    <td role="rowheader"><p>Adobe Workfront 플랜</p></td>
    <td>
-<p>모든</p>
+<p>임의</p>
    </td>
   </tr>
   <tr>
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td>
    <td>
-   <p>모든</p> 
+   <p>임의</p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader">액세스 수준</td>
-   <td> <p>모든</p>  
+   <td> <p>임의</p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader">레이아웃 템플릿</td>
-   <td> <p>시스템 관리자가 레이아웃 템플릿에 마에스트로 영역을 추가해야 합니다. 자세한 내용은 <a href="../access/grant-access.md">Adobe 마에스트로에 대한 액세스 권한 부여</a>. </p>  
+   <td> <p>시스템 관리자가 레이아웃 템플릿에 마에스트로 영역을 추가해야 합니다. 자세한 내용은 <a href="../access/access-overview.md">액세스 개요</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -131,7 +131,7 @@ After permissions - replace the table with - below
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 <tr>

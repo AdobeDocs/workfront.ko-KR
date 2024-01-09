@@ -4,16 +4,19 @@ description: Adobe 마에스트로에서는 함수와 기존 필드를 사용하
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: edd4aa9556b624de3634af26d6d9efd59f5d2e44
+source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 1%
+source-wordcount: '453'
+ht-degree: 0%
 
 ---
 
+
+# 공식 필드 개요
+
 <!--update the metadata with real information when making this available in TOC and in the left nav - below-->
 
-<!--**********ADD TO TOC************>
+<!--**********ADD TO miniTOC************>
 
 <!---
 title: Formula fields
@@ -26,7 +29,7 @@ role: User, Administrator (************is this right???************)
 recommendations: noDisplay, noCatalog
 --->
 
-# 공식 필드 개요
+<!--when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula-->
 
 >[!IMPORTANT]
 >
@@ -64,24 +67,24 @@ recommendations: noDisplay, noCatalog
   <tr>
    <td role="rowheader"><p>Adobe Workfront 플랜</p></td>
    <td>
-<p>모든</p>
+<p>임의</p>
    </td>
   </tr>
   <tr>
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td>
    <td>
-   <p>모든</p> 
+   <p>임의</p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader">액세스 수준</td>
-   <td> <p>모든</p>  
+   <td> <p>임의</p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader">레이아웃 템플릿</td>
-   <td> <p>시스템 관리자가 레이아웃 템플릿에 마에스트로 영역을 추가해야 합니다. 자세한 내용은 <a href="../access/grant-access.md">Adobe 마에스트로에 대한 액세스 권한 부여</a>. </p>  
+   <td> <p>시스템 관리자가 레이아웃 템플릿에 마에스트로 영역을 추가해야 합니다. 자세한 내용은 <a href="../access/access-overview.md">액세스 개요</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -132,7 +135,7 @@ After permssions - replace the table with:
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 <tr>
@@ -151,11 +154,64 @@ After permssions - replace the table with:
 * 공식 필드는 동일한 레코드 유형에 속하는 필드를 참조합니다. 공식 필드를 만들 때 다른 레코드 유형의 필드를 참조할 수 없습니다. <!--is this still accurate??-->
 * 수식 필드를 저장한 후에는 수식 필드의 필드 유형을 변경할 수 없습니다.
 * 배합표 필드를 저장한 후 배합표 필드의 계산을 갱신할 수 있으며, 계산 결과는 동일한 유형의 모든 레코드에 대해 자동으로 갱신됩니다.
+* 연결된 레코드 종류의 조회 필드는 사용할 수 없습니다.
+* 수식에서 참조하는 필드를 Maestro 인터페이스에 표시되는 대로 추가해야 합니다.
+
+## 지원되는 공식
+
+Workfront 계산 필드에서 모든 수식을 지원합니다. 자세한 내용은 [계산된 데이터 표현식 개요](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+
+또한 Maestro 공식 필드에는 다음 표현식이 지원됩니다.
 
 
-<!--
-## The syntax of Maestro formula fields
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th>표현식</th> 
+   <th>설명 및 예제</th> 
+  </tr> 
+ </thead> 
+ <tbody>
 
-## Functions supported in Maestro formula fields - I think this should be its own article, but link from here. 
+<tr> 
+   <td><strong>ARRAYJOIN</strong> </td> 
+   <td> <p>구분 기호로 연결된 문자열을 반환합니다.</p> <p>표현식의 형식은 다음과 같습니다.
 
--->
+    ARRAYJOIN(구분 기호,배열)
+</p>
+   </td></tr>
+
+<tr> 
+   <td><strong>ARRAYUNIQUE</strong> </td> 
+   <td> <p>고유한 값이 있는 배열을 반환합니다.</p> <p>표현식의 형식은 다음과 같습니다.
+
+    ARRAYUNIQUE(배열)
+</p>
+   </td></tr>
+
+<tr> 
+   <td><strong>SETTIMEZONE</strong> </td> 
+   <td> <p>날짜 및 시간의 시간대를 특정 시간대로 설정합니다.</p> <p>표현식의 형식은 다음과 같습니다.
+
+    SETTIMEZONE(일자,&#39;아메리카/로스앤젤레스&#39;)
+</p>
+   </td></tr>
+
+<tr> 
+   <td><strong>WEEKOFYEAR</strong> </td> 
+   <td> <p>일 년 단위의 주 번호를 반환합니다. 주간이 시작되는 요일을 지정할 수도 있습니다(일요일의 경우 1, 월요일의 경우 2 사용). 생략된 경우 기본적으로 주는 일요일에 시작됩니다.</p> <p>표현식의 형식은 다음과 같습니다.
+
+    WEEKOFYEAR(일자,2)
+    또는
+    WEEKOFYEAR(일자)
+</p>
+   </td></tr>
+
+</table>
+
+
+
+
+

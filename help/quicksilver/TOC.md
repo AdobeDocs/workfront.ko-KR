@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: a4581dfe503c6afa43b203a3c3fe461107619e67
+source-git-commit: 50e6b09d626325ee2836dc0ebaf79fc1e8cc9da9
 workflow-type: tm+mt
-source-wordcount: '13853'
+source-wordcount: '13864'
 ht-degree: 1%
 
 ---
@@ -2024,10 +2024,13 @@ ht-degree: 1%
       * [필드 만들기](maestro/fields/create-fields.md)
       * [필드 편집](maestro/fields/edit-fields.md)
       * [필드 삭제](maestro/fields/delete-fields.md)
+      * [공식 필드 개요](maestro/fields/formula-fields.md)
    * Adobe 마에스트로 액세스 {#adobe-maestro-access}
       * [액세스 정보](maestro/access/access-information.md)
       * [액세스 개요](maestro/access/access-overview.md)
-      * [Adobe 마에스트로에 대한 액세스 권한 부여](maestro/access/grant-access.md)
+      * [Adobe Maestro에서의 권한 공유 개요](maestro/access/sharing-permissions-overview.md)
+      * [작업 영역 공유](maestro/access/share-workspaces.md)
+      * [보기 공유](maestro/access/share-views.md)
    * Adobe 마에스트로 레코드 {#adobe-maestro-records}
       * [레코드: 문서 인덱스](maestro/records/records-information.md)
       * [레코드 만들기](maestro/records/create-records.md)

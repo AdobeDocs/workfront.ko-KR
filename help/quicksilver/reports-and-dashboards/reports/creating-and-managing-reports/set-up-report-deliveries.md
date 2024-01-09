@@ -6,9 +6,9 @@ description: 보고서 게재 개요
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
-source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
+source-git-commit: 8d89bb511ac28905f5f0043cd0cda7d61611fad3
 workflow-type: tm+mt
-source-wordcount: '1532'
+source-wordcount: '1531'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ Workfront에 보고서가 표시되는 방식과 수동 내보내기, 제공된 
 
 보고서에 특수 보기를 적용하면 Workfront에서 보고서의 세부 사항 탭에 특수 보기가 표시됩니다.
 
-특별 보기가 있는 보고서 배달을 예약하면 기본 세부 정보 탭이 특별 보기 대신, 보낸 이메일의 첨부 파일에 배달됩니다.
+특수 보기가 있는 보고서 배달을 예약하면 특수 보기 대신 보낸 이메일의 첨부 파일에서 세부 정보 탭이 전달됩니다.
 
 다음은 특수 뷰로 간주됩니다.
 
