@@ -6,18 +6,21 @@ description: 다음 [!DNL Adobe Workfront for Microsoft Teams] 앱을 사용하�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a8d4e48c-1ccc-4e6e-a0a0-9b68748590c0
-source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
+source-git-commit: 3af289f9aeecee417d1e82f9c66551360185b85c
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '808'
 ht-degree: 0%
 
 ---
 
 # 설치 [!DNL Adobe Workfront] Microsoft Teams
 
->[!NOTE]
+<!-- Audited: 1/2024 -->
+
+>[!IMPORTANT]
 >
 >Adobe Workfront for Microsoft Teams 통합은 현재 클래식 Microsoft Teams 경험에 대해서만 지원됩니다.
+
 
 다음 [!DNL Adobe Workfront for Microsoft Teams] 앱을 사용하면에서 기본 작업을 수행할 수 있습니다. [!DNL Workfront] 을(를) 떠나지 않고 [!DNL Microsoft Teams] 채팅 채널.
 
@@ -40,7 +43,8 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
-   <td> <p>[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
+   <td><p>새로운 기능: 표준</p>
+    <p>현재: [!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -54,9 +58,6 @@ ht-degree: 0%
 ## 설치 [!DNL Workfront for Microsoft Teams]
 
 의 팀 소유자로서 [!DNL Microsoft Teams]를 설치한 다음 [!DNL Workfront for Microsoft Teams] 에서 각 팀에 대한 앱 [!DNL Microsoft] 다음 사용자가 제공한 파일 저장 또는 보관: [!DNL Workfront].
-
-* [설치 [!DNL Workfront for Microsoft Teams] Microsoft 스토어에서](#install-workfront-for-microsoft-teams-from-the-microsoft-store)
-* [설치 [!DNL Workfront for Microsoft Teams] 개인 파일에서](#install-workfront-for-microsoft-teams-from-a-private-file)
 
 ### 설치 [!DNL Workfront for Microsoft Teams] 다음에서 [!DNL Microsoft] 저장
 

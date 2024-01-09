@@ -9,9 +9,9 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: f9e93cc2-9dff-4150-a809-10598e110ef8
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+source-git-commit: f6dc13a03f6468b4c2f52c370e48229ca70815c7
 workflow-type: tm+mt
-source-wordcount: '60'
+source-wordcount: '52'
 ht-degree: 0%
 
 ---
@@ -27,5 +27,4 @@ ht-degree: 0%
 * [문제 해결 - Mac의 proofing viewer에서 인터페이스 글꼴이 손상되었습니다.](../../../workfront-proof/wp-tech-corner/troubleshooting/corrupted-interface-font-pv-mac.md)
 * [캐시 및 쿠키가 미치는 영향 이해 [!DNL Workfront Proof]](../../../workfront-proof/wp-tech-corner/troubleshooting/how-cache-cookies-affect-pv.md)
 * [에서 속도 문제 [!DNL Workfront Proof]](../../../workfront-proof/wp-tech-corner/troubleshooting/speed-issue.md)
-* [증명 보기 문제 - 공유 오브젝트 Flash 설명](../../../workfront-proof/wp-tech-corner/troubleshooting/view-proof-flash-shared-object.md)
 * [문제 해결 - [!DNL Workfront Proof] 증명 뷰어](../../../workfront-proof/wp-tech-corner/troubleshooting/proofing-viewer.md)

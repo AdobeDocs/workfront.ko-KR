@@ -8,7 +8,7 @@ description: 증명 콘텐츠가 로드되지 않고 빈 증명 뷰어만 표시
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ce463565-d21e-4dbc-8de8-78bcbf16fb2c
-source-git-commit: 1fd3b135682c096f1715e5da0455fed12e882582
+source-git-commit: 39fdf5c2c2114a82c48f515c4a9f088596394045
 workflow-type: tm+mt
 source-wordcount: '955'
 ht-degree: 0%
@@ -54,16 +54,16 @@ Please note: we do recommend using the original [!DNL Adobe] plugin, so if your 
 최신 브라우저 버전을 설치한 후 증명을 다시 열어 문제가 해결되었는지 확인하십시오.
 
 <!--
+
 ## Ensure Your Local [!DNL Flash] Storage is Available
 
 Our [!DNL Workfront Proof] Viewer is based on Flash, and we store some data about the proofs (i.e., comments, proof tiles, [!DNL Workfront Proof] Viewer settings) on your computer using [!DNL Flash Player]. If the [!DNL Workfront Proof] Viewer opens, but there is no content inside you will want to make sure that the Flash Storage is available on your machine and that [!DNL Workfront Proof] is allowed to use it.
 
 If there is some storage allocated, but you're working with the bigger proofs with multiple pages and comments try to increase the [!DNL Flash] Storage and re-load your proof.
 
-Please see [Problems With Viewing Proofs - [!DNL Flash] Shared Objects Explained](../../../workfront-proof/wp-tech-corner/troubleshooting/view-proof-flash-shared-object.md) for the detailed instructions.
 -->
 
-## 문제가 있는 위치 식별
+## 문제의 위치 식별
 
 * 증명이 다른 브라우저에서 열리나요?
 * 매일 한 개의 브라우저를 사용하고 있는데 여기서 증명을 보는 데 문제가 있는 경우 컴퓨터의 다른 브라우저에서 동일한 증명을 열어 보십시오. 이렇게 하려면 기본 브라우저의 URL 표시줄에서 증명 링크를 복사하여 다른 브라우저에 붙여넣기만 하면 됩니다. 증명이 거기서 열리면 기본 브라우저 구성, 플러그인 및 확장을 검토하십시오. 방해가 될 수 있습니다.

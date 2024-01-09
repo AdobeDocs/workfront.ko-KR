@@ -6,7 +6,7 @@ description: Adobe Workfront 개체(프로젝트, 작업 또는 문제)에 업�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 38715b9571206fd3621b5c078c3eebe380297e9b
+source-git-commit: ba0dc486dfb104eb9fb8c964875f77cf24f520fd
 workflow-type: tm+mt
 source-wordcount: '4189'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # 작업 업데이트
+
+<!-- Audited: 1/2024 -->
 
 <!--take "legacy" and "new commenting" references out when we remove the legacy - Jan 2024???-->
 
@@ -112,7 +114,6 @@ After the monthly releases to Production, the same features are also available i
 보드 영역의 카드에 댓글을 다는 방법에 대한 자세한 내용은 [보드에 애드혹 카드 추가](../../agile/get-started-with-boards/add-card-to-board.md).
 
 ## 액세스 요구 사항
-
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 

@@ -8,14 +8,16 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
+source-git-commit: 3af289f9aeecee417d1e82f9c66551360185b85c
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1163'
 ht-degree: 0%
 
 ---
 
 # 작업 역할 만들기 및 관리
+
+<!-- Audited: 1/2024 -->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -31,11 +33,13 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 플랜*</td> 
-   <td> <p>모든 </p> </td> 
+   <td> <p>임의 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
-   <td>[!UICONTROL 계획]</td> 
+   <td>
+   <p>새로운 기능: 표준</p>
+   <p>현재: [!UICONTROL Plan]</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
@@ -48,7 +52,9 @@ ht-degree: 0%
 
 ## 작업 역할 만들기
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![](assets/main-menu-icon.png) 의 오른쪽 위 모서리 [!DNL Adobe] Workfront을 클릭한 다음 **[!UICONTROL 설정]** ![](assets/gear-icon-settings.png).
+작업 역할을 생성하려면 다음을 수행합니다.
+
+{{step-1-to-setup}}
 
 1. 왼쪽 패널에서 를 클릭합니다&#x200B;. **[!UICONTROL 작업 역할].**
 1. 클릭 **[!UICONTROL 새 작업 역할].**

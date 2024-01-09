@@ -4,14 +4,16 @@ description: 의 상태를 볼 수 있습니다. [!DNL Workfront] 장애, 예약
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 2d8509b4-b0fc-435c-8c2f-3154fe152e7a
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 108ebd3b8677124085056cf2812fa86e70a11887
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 1%
+source-wordcount: '367'
+ht-degree: 0%
 
 ---
 
 # 다음 [!DNL Adobe Workfront] 상태 사이트
+
+<!-- Audited: 1/2024 -->
 
 ## 상태 사이트 개요
 
@@ -28,11 +30,7 @@ ht-degree: 1%
 
 다음에서 상태 업데이트를 볼 수 있습니다. [!DNL Adobe] 상태 사이트입니다.
 
-1. 다음으로 이동 [[!DNL https://one.workfront.com]](https://one.workfront.com/)을 클릭한 다음 을 클릭합니다 **[!UICONTROL 상태]** 다음에서 **[!UICONTROL 지원]** 섹션, 페이지의 오른쪽 아래 모서리
-
-   또는
-
-   유형 [status.adobe.com](https://status.adobe.com/) 을 클릭하여 상태 사이트에 액세스합니다.
+1. 유형 [status.adobe.com](https://status.adobe.com/) 을 클릭하여 상태 사이트에 액세스합니다.
 
 1. 선택 **[!UICONTROL Experience Cloud]**.
 1. 아래로 스크롤하여 선택 **[!UICONTROL Adobe Workfront]** 솔루션 목록에서 참조할 수 있습니다.
@@ -43,6 +41,7 @@ ht-degree: 1%
 
 1. 다음으로 이동 [status.adobe.com](https://status.adobe.com/).
 1. 상태 표시줄에서 을 선택합니다. **[!UICONTROL 구독 관리]**.
+   ![](assets/manage-subs.png)
 1. 기존 계정이 있는 경우 계정에 로그인하고, 없는 경우 새 계정을 만듭니다.
 1. 다음을 클릭합니다. **[!UICONTROL 구독 만들기]** 단추를 클릭합니다.
 1. 선택 **[!UICONTROL Adobe Workfront]** 다음 아래에 **[!UICONTROL Experience Cloud]** 헤더를 클릭한 다음 **[!UICONTROL 계속]**.
@@ -50,10 +49,6 @@ ht-degree: 1%
 1. 클릭 **[!UICONTROL 완료]** 구독을 확인하십시오.
 
 ## 명명된 취약성 이해
-
-* [명명된 취약성이란 무엇입니까?](#what-is-a-named-vulnerability)
-* [다음으로 식별된 명명된 취약성을 보려면 어떻게 합니까? [!DNL Workfront?]](#how-do-i-view-named-vulnerabilities-identified-by-workfront)
-* [이것이 중요한 이유는 무엇입니까?](#why-is-this-important)
 
 ### 명명된 취약성이란 무엇입니까? {#what-is-a-named-vulnerability}
 

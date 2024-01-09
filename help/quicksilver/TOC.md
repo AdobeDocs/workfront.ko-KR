@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 50e6b09d626325ee2836dc0ebaf79fc1e8cc9da9
+source-git-commit: 93dfcd639f1b821e68e388ac4206aeb7447caee1
 workflow-type: tm+mt
-source-wordcount: '13864'
+source-wordcount: '13856'
 ht-degree: 1%
 
 ---
@@ -2557,7 +2557,6 @@ ht-degree: 1%
          * [문제 해결 - Mac의 proofing viewer에서 인터페이스 글꼴이 손상되었습니다.](workfront-proof/wp-tech-corner/troubleshooting/corrupted-interface-font-pv-mac.md)
          * [캐시와 쿠키가 Workfront 증명에 미치는 영향 이해](workfront-proof/wp-tech-corner/troubleshooting/how-cache-cookies-affect-pv.md)
          * [Workfront Proof의 문제 속도](workfront-proof/wp-tech-corner/troubleshooting/speed-issue.md)
-         * [증명 보기 문제 - 공유 오브젝트 Flash 설명](workfront-proof/wp-tech-corner/troubleshooting/view-proof-flash-shared-object.md)
          * [문제 해결 - Workfront 증명 뷰어](workfront-proof/wp-tech-corner/troubleshooting/proofing-viewer.md)
    * Workfront Proof 통합 {#wf-proof-integrations}
       * [Workfront Proof 통합](workfront-proof/wp-integrations/wp-integrations.md)
