@@ -6,14 +6,16 @@ description: 텍스트 모드에서 조건부 서식 사용
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
-source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
+source-git-commit: 2db3e821f26a8f05b2a1822ac4bcf3ae5e26a4ec
 workflow-type: tm+mt
-source-wordcount: '1743'
+source-wordcount: '1699'
 ht-degree: 1%
 
 ---
 
 # 텍스트 모드에서 조건부 서식 사용
+
+<!--Audited: 01/2024-->
 
 <!--
 (NOTE: Alina: this article might need to be split in its sections. Tony asked that numbers and dates should be in separate articles (??))
@@ -34,24 +36,28 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>플랜 </p> </td> 
+   <td> <p>새로운 기능: 표준 </p> 
+   <p>현재: 플랜</p> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> <p>보고서, 대시보드, 캘린더에 대한 액세스 권한을 편집하여 보고서의 보기 편집</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> <p>보고서, 대시보드, 캘린더에 대한 액세스 권한을 편집하여 보고서의 보기 편집</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>보고서의 보기를 편집할 수 있도록 보고서에 대한 권한 관리</p> <p>보기에 대한 편집 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>보고서의 보기를 편집할 수 있도록 보고서에 대한 권한 관리</p> <p>보기에 대한 편집 권한 관리</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 &#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+
+*액세스 요구 사항에 대한 자세한 내용은 다음을 참조하십시오. [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 텍스트 모드의 조건부 서식
 
@@ -104,9 +110,7 @@ ht-degree: 1%
 
 표시된 열 머리글을 변경하려면 열에 다음 코드를 추가합니다. `displayname= [Name of column]`. 예를 들어 열 이름을 프로젝트 소유자로 지정하려면 텍스트 코드는 다음과 같습니다.
 
-```
-displayname=Project Owner
-```
+`displayname=Project Owner`
 
 #### 날짜 형식 지정 {#format-dates}
 
@@ -270,11 +274,11 @@ styledef.case.0.comparison.trueproperty.0.value= [format style]
 
 >[!NOTE]
 >
->다음 *styledef.case.0.comparison.icon* 아이콘을 사용하여 작업하지 않는 한 라인은 항상 false입니다.
+>다음 `styledef.case.0.comparison.icon` 아이콘을 사용하여 작업하지 않는 한 라인은 항상 false입니다.
 >
->다음 *styledef.case.0.comparison.truetext* 텍스트 덮어쓰기 작업을 수행하기 전까지는 항상 줄이 비어 있습니다.
+>다음 `styledef.case.0.comparison.truetext` 텍스트 덮어쓰기 작업을 수행하기 전까지는 항상 줄이 비어 있습니다.
 >
->다음 *styledef.case.0.comparison.righttext* 구분자가 비어 있지 않으면 라인이 비어 있습니다.
+>다음 `styledef.case.0.comparison.righttext` 구분자가 비어 있지 않으면 라인이 비어 있습니다.
 
 예를 들어 프로젝트 보고서에 회사 이름을 녹색 텍스트로 표시하려는 경우 다음 코드를 사용할 수 있습니다.
 
@@ -400,7 +404,7 @@ styledef.case.0.comparison.truetext=not today
 
 >[!NOTE]
 >
->다음으로 시작하는 라인 `case.0.` 사용 사례 비교를 통해 텍스트 사용을 식별합니다. 다음으로 시작하는 라인 **styledef.case.0.** 를 통해 텍스트 사용을 식별하는 초기 조건부 서식 명령문입니다. `truetext` 표현식. 다음을 설정해야 합니다. `truetext` 값을 지정하지 않고 비워 둡니다.
+>다음으로 시작하는 라인 `case.0.` 사용 사례 비교를 통해 텍스트 사용을 식별합니다. 다음으로 시작하는 라인 `styledef.case.0.` 를 통해 텍스트 사용을 식별하는 초기 조건부 서식 명령문입니다. `truetext` 표현식. 다음을 설정해야 합니다. `truetext` 값을 지정하지 않고 비워 둡니다.
 
 ![](assets/screen-shot-2013-08-15-at-3.22.02-pm-350x196.png)
 
@@ -410,87 +414,28 @@ styledef.case.0.comparison.truetext=not today
 
 전체 행에 조건을 적용하려면 열 코드에 다음 코드를 사용합니다.
 
+
 ```
 styledef.case.0.comparison.icon=false
-```
-
-```
 styledef.case.0.comparison.isrowcase=true
-```
-
-```
 styledef.case.0.comparison.leftmethod= [field name]
-```
-
-```
 styledef.case.0.comparison.lefttext= [field name]
-```
-
-```
 styledef.case.0.comparison.operator= [qualifier]
-```
-
-```
 styledef.case.0.comparison.operatortype= [data type]
-```
-
-```
 styledef.case.0.comparison.righttext= [field value]
-```
-
-```
 styledef.case.0.comparison.trueproperty.0.name= [format option]
-```
-
-```
 styledef.case.0.comparison.trueproperty.0.value= [format style]
-```
-
-```
 styledef.case.0.comparison.truetext=
-```
-
-```
 row.0.styledef.applyallcases=true
-```
-
-```
 row.0.styledef.case.0.comparison.icon=false
-```
-
-```
 row.0.styledef.case.0.comparison.isrowcase=true
-```
-
-```
 row.0.styledef.case.0.comparison.leftmethod= [field name]
-```
-
-```
 row.0.styledef.case.0.comparison.lefttext= [field name]
-```
-
-```
 row.0.styledef.case.0.comparison.operator= [qualifier]
-```
-
-```
 row.0.styledef.case.0.comparison.operatortype= [data type]
-```
-
-```
 row.0.styledef.case.0.comparison.righttext= [field value]
-```
-
-```
 row.0.styledef.case.0.comparison.trueproperty.0.name= [format option]
-```
-
-```
 row.0.styledef.case.0.comparison.trueproperty.0.value= [format style]
-```
-
-```
 row.0.styledef.case.0.comparison.truetext=
 ```
 
@@ -510,6 +455,7 @@ image.case.0.comparison.truetext=
 ```
 
 예를 들어 프로젝트 보고서에서 오늘 일자와 같지 않은 모든 계획된 완료 일자에 대해 찡그린 얼굴을 표시하는 열을 작성하려고 합니다. 다음 텍스트 모드 코드를 사용하여 열에 아이콘을 추가합니다.
+
 
 ```
 image.case.0.comparison.leftmethod=plannedCompletionDate
@@ -577,9 +523,17 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
 * 계산을 표시하는 열에 집계를 추가할 수 있습니다. 집계된 값은 보기 또는 보고서의 그룹화에 표시됩니다. 자세한 내용은 [그룹화: 그룹화에 있는 여러 계산된 값을 집계한 결과를 표시합니다.](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md).
 * 열 정의에 대한 코드 행은 애그리게이터를 소개하고 앞에 &quot;애그리게이터&quot;가 오는 코드 행과 동일해야 합니다. 예를 들어 프로젝트에 계획된 시간을 표시하는 열이 있는 경우 열의 기본 행의 텍스트 모드는 다음과 같습니다.
 
-  ```
+```
   valuefield=workRequired
   valueformat=compound
-  ```
+```
 
-  보기 그룹화에 있는 모든 라인의 값을 집계하려는 경우 다음 코드를 추가하여 집계 값을 추가할 수 있습니다. `aggregator.valuefield=workRequired` (다음 `aggregator.valuefield` 라인은 과 동일해야 합니다. `valuefield` 열을 설명합니다) `aggregator.valueformat=compound` (다음 `aggregator.valueformat` 라인은 과(와) 동일한 값을 가져야 합니다. `valueformat` 열을 설명합니다) `aggregator.function=SUM` (열을 집계하는 방법을 나타내는 필수 행이며, 이 경우 그룹화 행에서 모든 개별 계획된 시간을 하나의 숫자로 추가합니다.) `aggregator.displayformat=minutesAsHoursString` (시간이 Workfront에 분 단위로 저장되므로 다음을 표시하려고 합니다. `displayformat` 분 단위로 저장되는 시간 동안)
+보기 그룹화에 있는 모든 라인의 값을 집계하려는 경우 다음 코드를 추가하여 집계 값을 추가할 수 있습니다.
+
+`aggregator.valuefield=workRequired` (다음 `aggregator.valuefield` 라인은 과 동일해야 합니다. `valuefield` 열을 설명합니다)
+
+`aggregator.valueformat=compound` (다음 `aggregator.valueformat` 라인은 과(와) 동일한 값을 가져야 합니다. `valueformat` 열을 설명합니다)
+
+`aggregator.function=SUM` (열을 집계하는 방법을 나타내는 필수 행이며, 이 경우 그룹화 행에서 모든 개별 계획된 시간을 하나의 숫자로 추가합니다.)
+
+`aggregator.displayformat=minutesAsHoursString` (시간이 Workfront에 분 단위로 저장되므로 다음을 표시하려고 합니다. `displayformat` 분 단위로 저장되는 시간 동안)

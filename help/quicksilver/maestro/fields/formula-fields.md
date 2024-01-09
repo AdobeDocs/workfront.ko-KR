@@ -4,9 +4,9 @@ description: Adobe 마에스트로에서는 함수와 기존 필드를 사용하
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 3c49657c929c414888e6678022ef61b1bba1a420
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -159,7 +159,7 @@ After permssions - replace the table with:
 
 ## 지원되는 공식
 
-Workfront 계산 필드에서 모든 수식을 지원합니다. 자세한 내용은 [계산된 데이터 표현식 개요](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Maestro 공식 필드는 Workfront 계산 필드의 모든 표현식을 지원합니다. 자세한 내용은 [계산된 데이터 표현식 개요](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 또한 Maestro 공식 필드에는 다음 표현식이 지원됩니다.
 
@@ -179,7 +179,7 @@ Workfront 계산 필드에서 모든 수식을 지원합니다. 자세한 내용
    <td><strong>ARRAYJOIN</strong> </td> 
    <td> <p>구분 기호로 연결된 문자열을 반환합니다.</p> <p>표현식의 형식은 다음과 같습니다.
 
-    ARRAYJOIN(구분 기호,배열)
+<code>ARRAYJOIN(구분 기호,배열)</code>
 </p>
    </td></tr>
 
@@ -187,7 +187,14 @@ Workfront 계산 필드에서 모든 수식을 지원합니다. 자세한 내용
    <td><strong>ARRAYUNIQUE</strong> </td> 
    <td> <p>고유한 값이 있는 배열을 반환합니다.</p> <p>표현식의 형식은 다음과 같습니다.
 
-    ARRAYUNIQUE(배열)
+<code>ARRAYUNIQUE(배열)</code>
+</p>
+   </td></tr>
+     <tr> 
+   <td><strong>ID</strong> </td> 
+   <td> <p>레코드의 ID를 반환합니다.</p> <p>표현식의 형식은 다음과 같습니다.
+
+<code>{ID}</code>
 </p>
    </td></tr>
 
@@ -195,7 +202,7 @@ Workfront 계산 필드에서 모든 수식을 지원합니다. 자세한 내용
    <td><strong>SETTIMEZONE</strong> </td> 
    <td> <p>날짜 및 시간의 시간대를 특정 시간대로 설정합니다.</p> <p>표현식의 형식은 다음과 같습니다.
 
-    SETTIMEZONE(일자,&#39;아메리카/로스앤젤레스&#39;)
+<code>SETTIMEZONE(일자,&#39;아메리카/로스앤젤레스&#39;)</code>
 </p>
    </td></tr>
 
@@ -203,9 +210,9 @@ Workfront 계산 필드에서 모든 수식을 지원합니다. 자세한 내용
    <td><strong>WEEKOFYEAR</strong> </td> 
    <td> <p>일 년 단위의 주 번호를 반환합니다. 주간이 시작되는 요일을 지정할 수도 있습니다(일요일의 경우 1, 월요일의 경우 2 사용). 생략된 경우 기본적으로 주는 일요일에 시작됩니다.</p> <p>표현식의 형식은 다음과 같습니다.
 
-    WEEKOFYEAR(일자,2)
-    또는
-    WEEKOFYEAR(일자)
+<code>WEEKOFYEAR(일자,2)</code>
+또는
+<code>WEEKOFYEAR(일자)</code>
 </p>
    </td></tr>
 

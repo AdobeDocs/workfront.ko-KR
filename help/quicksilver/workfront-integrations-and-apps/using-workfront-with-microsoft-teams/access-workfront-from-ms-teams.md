@@ -6,14 +6,16 @@ description: '액세스 가능 [!DNL Adobe Workfront] 출처: [!DNL Microsoft Te
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a12277e8-2c2e-4b53-990f-6ee9a6541492
-source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '455'
 ht-degree: 1%
 
 ---
 
 # 액세스 [!DNL Adobe Workfront] 출처: [!DNL Microsoft Teams]
+
+<!--Audited: 01/2024-->
 
 >[!NOTE]
 >
@@ -48,12 +50,15 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
-   <td> <p>[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
+   <td> <p>새로운 기능: [!UICONTROL Standard]</p>
+   <p>현재: [!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
+*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자.
+
+*Workfront 액세스 요구 사항에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항 개요](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 전제 조건
 
@@ -63,6 +68,8 @@ ht-degree: 1%
 * 에 로그인되었습니다. [!DNL Workfront] 출처: [!DNL Microsoft Teams].
 
 ## 액세스 [!DNL Workfront] 다음에서 [!DNL Workfront] 봇 채팅 채널
+
+Workfront에 로그인해야 합니다.
 
 1. 를 엽니다. **[!DNL Workfront]** 봇 채팅 채널.
 1. 다음을 클릭합니다. **[!DNL Workfront]** 아이콘을 클릭하면 검색 상자가 표시됩니다.
@@ -89,6 +96,8 @@ ht-degree: 1%
 
 ## 액세스 [!DNL Workfront] 팀 채널에서
 
+Workfront에 로그인해야 합니다.
+
 1. 팀 채널 열기 및 유형 **@[!DNL Workfront]**&#x200B;을 선택한 다음 을 선택합니다. **[!DNL Workfront].**
 
 1. 클릭 **[!UICONTROL 검색]** 프로젝트, 작업 또는 문제를 검색합니다.
@@ -102,7 +111,7 @@ ht-degree: 1%
    * **[!DNL Log out]** Workfront에서 로그아웃하려면
    * **[!DNL New task]** 새 개인 태스크를 생성하려면
 
-     에서 새 작업 만들기에 대한 정보 [!DNL Microsoft Teams], 참조 [만들기 [!DNL Adobe Workfront] 작업 출처: [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md).
+     작업 만들기에 대한 정보 [!DNL Microsoft Teams], 참조 [만들기 [!DNL Adobe Workfront] 작업 출처: [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md).
 
    * **[!UICONTROL 도움말]** 사용 가능한 모든 명령 목록을 봅니다.
 

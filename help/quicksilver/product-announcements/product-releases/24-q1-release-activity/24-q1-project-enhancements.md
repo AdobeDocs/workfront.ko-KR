@@ -3,9 +3,9 @@ title: 2024년 1분기 프로젝트 개선 사항
 description: 2024년 1분기 프로젝트 개선 사항
 author: Nolan
 feature: Product Announcements
-source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## AI 기반 스마트 할당
 
-Workfront이 작업에 대한 스마트 할당을 계산하고 제안하는 데 사용하는 알고리즘을 변경했습니다. 새 알고리즘은 작업을 할당하는 Workfront의 모든 위치(작업 목록, 작업 헤더의 할당 영역, 홈 및 요약 패널)에 적용됩니다.
+Workfront이 작업에 대한 스마트 할당을 계산하고 제안하는 데 사용하는 알고리즘을 변경했습니다. 새 알고리즘은 작업을 지정하는 Workfront의 작업 목록, 작업 헤더의 지정 영역, 홈 및 요약 패널에서 적용됩니다.
 
 이제 이 알고리즘에서는 스마트 할당을 제안할 때 다음 정보를 살펴봅니다.
 

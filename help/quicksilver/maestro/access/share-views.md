@@ -4,7 +4,7 @@ description: 보기를 다른 사용자와 공유하여 Adobe Workfront Maestro�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 3c49657c929c414888e6678022ef61b1bba1a420
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 1%
@@ -112,8 +112,6 @@ ht-degree: 1%
 
 ## 보기에 대한 권한 제거
 
-
-{{step1-to-maestro}}
 
 {{step1-to-maestro}}
 

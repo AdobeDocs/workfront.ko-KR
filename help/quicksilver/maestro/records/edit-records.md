@@ -5,14 +5,14 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '819'
 ht-degree: 1%
 
 ---
 
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--update the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # 레코드 편집
 
@@ -130,17 +130,6 @@ After permssions - replace the table with:
 -->
 
 
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
->[!NOTE]
->
->If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
-
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
-<!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
-
 ## 레코드 편집에 대한 고려 사항
 
 * 사용자 또는 다른 사용자가 만든 레코드를 편집할 수 있습니다. <!--will change with access levels-->
@@ -193,9 +182,9 @@ After permssions - replace the table with:
 
 ### 레코드 유형의 표 보기에서 레코드 편집
 
-1. 다음을 클릭합니다. **메인 메뉴** ![](assets/main-menu-workfront.png) 오른쪽 상단 또는 **메인 메뉴** ![](assets/main-menu-shell.png) 왼쪽 위 모서리에서 사용 가능한 경우 을(를) 클릭합니다. **마에스트로** ![](assets/maestro-icon.png).
+{#step1-to-maestro}
 
-   마지막으로 액세스한 작업 영역이 열립니다.
+마지막으로 액세스한 작업 영역이 열립니다.
 
 1. (선택 사항) 작업 영역 이름의 오른쪽에 있는 아래쪽 방향 화살표를 클릭하여 레코드를 업데이트할 작업 영역을 선택합니다.
 1. 레코드 유형 카드를 클릭합니다.
@@ -232,5 +221,7 @@ After permssions - replace the table with:
    >    * 레코드 종류를 연결하여 만든 연결된 필드. 연결된 레코드 필드를 복사하여 붙여 넣을 수 있습니다. 자세한 내용은 [레코드 유형 연결](../architecture/connect-record-types.md).
    >    * 생성자, 생성일, 마지막 수정자, 마지막 수정자 유형의 필드
 
+<!--1. (Optional) Use the following keyboard shortcuts to undo or redo editing or copying and pasting record information: 
 
-   <!--take People out of the list above when they release this - this might be coming later-->
+    * **Undo**: CTRL/CMD + Z
+    * **Redo**: CTRL/CMD + Shift + Z-->

@@ -5,14 +5,15 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--should this move to the Access folder when we have sharing for ALL the objects???-->
 
 # 레코드 공유
 
@@ -158,9 +159,9 @@ After permissions - replace the table with - below
 
 ## 레코드 유형 테이블 보기에서 레코드 링크 공유
 
-1. 다음을 클릭합니다. **메인 메뉴** ![](assets/main-menu-workfront.png) 오른쪽 상단 또는 **메인 메뉴** ![](assets/main-menu-shell.png) 왼쪽 위 모서리에서 사용 가능한 경우 을(를) 클릭합니다. **마에스트로**.
+{#step1-to-maestro}
 
-   마지막으로 액세스한 작업 영역이 열립니다.
+마지막으로 액세스한 작업 영역이 열립니다.
 1. 레코드 유형 카드를 클릭합니다.
 
    레코드 유형 페이지가 열립니다.
