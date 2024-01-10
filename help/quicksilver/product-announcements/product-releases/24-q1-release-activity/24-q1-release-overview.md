@@ -4,9 +4,9 @@ description: 2024년 1분기 릴리스 개요
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
+source-git-commit: cfe574eb8eaf238ef07ff45afa976bc1bc0484ed
 workflow-type: tm+mt
-source-wordcount: '1497'
+source-wordcount: '1572'
 ht-degree: 0%
 
 ---
@@ -129,6 +129,7 @@ ht-degree: 0%
                         </p>
                     </td>
                  </tr>
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">문서 승인에 대해 업데이트된 상태</a></p><p>문서 승인 상태를 보다 명확하게 하기 위해 사용 가능한 문서 상태 승인을 업데이트했습니다. 이제 승인 상태는 검토자만 있고 승인자는 없는 경우뿐만 아니라 검토 완료를 표시하는 검토자를 설명합니다.</p>
@@ -276,6 +277,23 @@ ht-degree: 0%
                         </p>
                     </td>
                  </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">이제 Experience Manager Assets Essentials의 메타데이터 매핑에서 을 사용합니다. <code>xcm:keywords</code> 대신 <code>dc:subject</code></a></p><p>[!BADGE In production ]{type=Informative}</p><p>Experience Manager Assets as a Cloud Service 통합의 경험에 맞게 Experience Manager Assets Essentials 통합을 업데이트했습니다. 이제 여러 한 줄 텍스트 필드를 Experience Manager Assets의 단일 필드에 매핑할 때 두 서비스 모두 <code>xcm:keywords</code> 필드.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2023년 1월 10일</p>
+                            </li>
+                            <li>
+                                <p>빠른 릴리스를 위한 프로덕션: 2023년 1월 10일</p>
+                            </li>
+                            <li>
+                                <p>분기 릴리스 프로덕션: 2023년 1월 10일</p>
+                            </li>
+                        </ul>
+                    </td>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">이제 Adobe Experience Manager 통합에서 자동 완성 필드를 사용할 수 있습니다.</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Workfront과 Adobe Experience Manager 간에 필드를 더 쉽게 연결할 수 있도록 메타데이터 매핑에서 자동 완성 필드에 대한 지원이 추가되었습니다. 이제 자동 완성 필드를 Adobe Experience Manager의 해당 필드에 매핑할 수 있습니다.</p>

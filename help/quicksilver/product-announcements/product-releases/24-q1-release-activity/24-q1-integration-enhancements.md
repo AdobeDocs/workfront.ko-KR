@@ -4,9 +4,9 @@ description: 2024년 1분기 통합 개선 사항
 author: Becky
 feature: Product Announcements
 exl-id: 0d581f3c-2aaf-4ac1-97a5-df1b01627080
-source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
+source-git-commit: 44dd48b72e798b8967c4a4e3dc7d523fe9b130d2
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,16 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2024년 1분기 릴리스의 모든 통합 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2024년 1분기 릴리스를 통해 프로덕션 환경에서 사용할 수 있습니다.
 
 2024년 1분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [2024년 1분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
+## 이제 Experience Manager Assets Essentials의 메타데이터 매핑에서 을 사용합니다. `xcm:keywords` 대신 `dc:subject`
+
+Experience Manager Assets as a Cloud Service 통합의 경험에 맞게 Experience Manager Assets Essentials 통합을 업데이트했습니다. 이제 여러 한 줄 텍스트 필드를 Experience Manager Assets의 단일 필드에 매핑할 때 두 서비스 모두 `xcm:keywords` 필드.
+
+이전에는 이러한 필드가 `dc:subject` Experience Manager Assets Essentials의 필드. Experience Manager Assets as a Cloud Service 기능은 변경되지 않습니다.
+
+현재 매핑된 모든 Experience Manager Assets Essentials 메타데이터 `dc:subject` 을(를) (으)로 다시 매핑해야 합니다. `xcm:keywords`.
+
+Experience Manager Assets Essentials에 메타데이터를 매핑하는 방법에 대한 자세한 내용은 [AEM 키워드](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md#aem-keyword).
 
 ## 이제 Adobe Experience Manager 통합에서 자동 완성 필드를 사용할 수 있습니다.
 

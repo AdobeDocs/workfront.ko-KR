@@ -6,10 +6,10 @@ description: Experience Manager Assets Essentials의 콘텐츠와 작업을 연�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 44dd48b72e798b8967c4a4e3dc7d523fe9b130d2
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 4%
+source-wordcount: '634'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +33,7 @@ Experience Manager Assets Essentials의 콘텐츠와 작업 연결&#x200B;:
   <tr>
    <td><strong>Adobe Workfront 플랜*</strong>
    </td>
-   <td>모든
+   <td>임의
    </td>
   </tr>
   <tr>
@@ -101,7 +101,7 @@ Experience Manager Assets Essentials의 콘텐츠와 작업 연결&#x200B;:
 
 ## 메타데이터 설정(선택 사항)
 
-Workfront 오브젝트 데이터를 Experience Manager Assets의 에셋 미디어 필드에 매핑합니다. 메타데이터는 에셋이 Workfront에서 처음으로 전달될 때 매핑됩니다.
+Workfront 개체 데이터를 Experience Manager Assets의 에셋 미디어 필드에 매핑합니다. 메타데이터는 에셋이 Workfront에서 처음으로 전달될 때 매핑됩니다.
 
 
 ### 전제 조건
@@ -111,15 +111,15 @@ Workfront 오브젝트 데이터를 Experience Manager Assets의 에셋 미디�
 * 에 설명된 대로 Experience Manager Assets Essentials에서 메타데이터 스키마 구성 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 * (선택 사항) Workfront에서 사용자 정의 양식 필드를 구성합니다. Workfront에는 사용할 수 있는 많은 내장 사용자 정의 필드가 있습니다. 하지만 자신만의 사용자 지정 필드를 만들 수도 있습니다. 자세한 내용은 [사용자 정의 양식 만들기 또는 편집](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-+++ **지원되는 Workfront 및 Experience Manager Assets 필드**
+## 지원되는 Workfront 및 Experience Manager Assets 필드
 
 **AEM 키워드**
 
 Workfront 지원 필드를 Experience Manager Assets Essentials의 키워드에 매핑할 수 있습니다.
 
-필드를 키워드에 연결하려면 다음을 선택합니다. `dc:subject` 메타데이터 매핑 영역의 Experience Manager Assets 필드 드롭다운.
+필드를 키워드에 연결하려면 다음을 선택합니다. `xcm:keywords` 메타데이터 매핑 영역의 Experience Manager Assets 필드 드롭다운.
 
-여러 한 줄 텍스트 필드를 키워드에 매핑하려면 메타데이터 매핑의 Workfront 쪽에 쉼표로 구분된 키워드 값 목록을 입력하고 `dc:subject` Experience Manager Assets 쪽입니다. 각 필드 값은 별도의 키워드에 매핑됩니다. 계산된 필드를 사용하여 여러 Workfront 필드를 쉼표로 구분된 단일 텍스트 필드로 결합할 수 있습니다.
+여러 한 줄 텍스트 필드를 키워드에 매핑하려면 메타데이터 매핑의 Workfront 쪽에 쉼표로 구분된 키워드 값 목록을 입력하고 `xcm:keywords` Experience Manager Assets 쪽입니다. 각 필드 값은 별도의 키워드에 매핑됩니다. 계산된 필드를 사용하여 여러 Workfront 필드를 쉼표로 구분된 단일 텍스트 필드로 결합할 수 있습니다.
 
 <!--
 Look for essentials article
@@ -139,7 +139,7 @@ For more information on keywords in Experience Manager Assets, including how to 
    >단일 Workfront 필드를 여러 Experience Manager Assets 필드에 매핑할 수 있습니다. 여러 Workfront 필드를 단일 Experience Manager Assets 필드에 매핑할 수 없습니다.
 1. 다음에서 **Experience Manager** 필드에서 Experience Manager Assets 필드를 선택합니다.
 
-   Workfront 필드를 Experience Manager Assets 태그에 매핑하려면 `dc:subject`.
+   Workfront 필드를 Experience Manager Assets 태그에 매핑하려면 `xcm:keywords`.
 1. 필요에 따라 1단계와 2단계를 반복합니다.
    ![메타데이터 활성화](assets/metadata-assets-essentials.png)
 1. 클릭 **저장** 또는 로 이동합니다. [연결된 폴더 설정(선택 사항)](#set-up-linked-folders-optional) 이 문서의 섹션.
