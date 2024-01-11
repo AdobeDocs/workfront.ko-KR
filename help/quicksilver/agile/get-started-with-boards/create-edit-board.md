@@ -6,9 +6,9 @@ description: 다음에서 [!UICONTROL 게시판] 대시보드에서 새 보드�
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 38715b9571206fd3621b5c078c3eebe380297e9b
+source-git-commit: 1195738966734e311a1438002454b29c3fa6986a
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '742'
 ht-degree: 1%
 
 ---
@@ -28,24 +28,20 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 플랜*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
    <td> <p>임의</p> </td> 
   </tr> 
     <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
    <td> <p>새로운 기능: 기여자 이상 </p>
  <p>또는</p> 
 <p>현재: [!UICONTROL Request] 이상 </p> 
 </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
-   <td> <p>[!UICONTROL Request] 이상</p> </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 새 게시판 만들기
 
@@ -64,6 +60,7 @@ ht-degree: 1%
 
 1. 동적 보드에 대해서만 설정 마법사 단계를 수행합니다.
 
+   1. 보드 이름을 입력하고 [!UICONTROL **다음**].
    1. 검색 및 선택 [!DNL Workfront] [!UICONTROL **프로젝트**] 작업 및 문제를 게시판으로 가져오기
    1. 검색 및 선택 [!UICONTROL **할당**] 작업 및 문제를 게시판으로 가져오기
 
@@ -71,13 +68,11 @@ ht-degree: 1%
 
       다음 [!UICONTROL **카드 추가 중**] 카운터는 보드에 표시될 카드의 수를 보여줍니다. 예를 들어 작업 및 문제가 100개인 프로젝트를 선택하면 카운터에 100개가 표시됩니다. 사용자 할당을 추가하고 해당 사람이 프로젝트에서 5개의 작업에 할당되면 카운터에 5개가 표시됩니다.
 
-   1. (선택 사항) 선택 [!UICONTROL **완료된 작업을 보관된 카드로 포함**] 완료된 작업 및 문제를 보드에 보관된 카드로 가져오기.
+   1. (선택 사항) 선택 [!UICONTROL **완료된 카드 보관 안 함**] 완료된 작업 및 문제를 완료됨 열에 표시되는 카드로 보드에 가져오기. 이 옵션을 선택하지 않으면 보드 생성 시 완료된 카드가 보드로 제공됩니다.
 
       >[!NOTE]
       >
       >기본적으로 보관된 카드는 보드에 표시되지 않습니다. 보관된 카드를 표시하려면 구성 설정을 켠 다음 보드를 필터링하여 보관된 카드를 표시해야 합니다. 자세한 내용은 [카드에 표시할 필드 사용자 지정](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md) 및 [보드에서 필터링 및 검색](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
-      >
-      >이 옵션을 선택하지 않으면 보드 생성 시 완료된 카드가 보드에 표시되지 않습니다. 나중에 완료로 표시된 카드는 완료 열의 보드에 남아 있으며 카드 폴오프를 설정하지 않는 한 보관되지 않습니다. 자세한 내용은 [카드 폴오프 구성](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
 
    1. (선택 사항) [!UICONTROL **고급 필터 사용**] 추가 필터 옵션을 표시합니다.
 
