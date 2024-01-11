@@ -4,9 +4,9 @@ description: Adobe 마에스트로에서는 함수와 기존 필드를 사용하
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
+source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,8 @@ ht-degree: 0%
 
 <!--update the metadata with real information when making this available in TOC and in the left nav - below-->
 
-<!--**********ADD TO miniTOC************>
-
 <!---
-title: Formula fields
+title: Formula fields overview
 description: In Adobe Maestro, you can create formula fields that use functions and existing  fields to calculate a new custom value. 
 hidefromtoc: yes
 hide: yes
@@ -53,9 +51,14 @@ recommendations: noDisplay, noCatalog
 
 <table style="table-layout:auto">
  <col>
+ </col>
+ <col>
+ </col>
  <tbody>
+    <tr>
+<tr>
 <td>
-   <p> Adobe 제품</p> </td>
+   <p> 제품</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
@@ -78,76 +81,29 @@ recommendations: noDisplay, noCatalog
   </tr>
 
 <tr>
-   <td role="rowheader">액세스 수준</td>
-   <td> <p>임의</p>  
+   <td role="rowheader"><p>액세스 수준 구성</p></td>
+   <td> <p>Maestro에 대한 액세스 제어가 없습니다.</p>  
 </td>
   </tr>
 <tr>
-   <td role="rowheader">레이아웃 템플릿</td>
-   <td> <p>시스템 관리자가 레이아웃 템플릿에 마에스트로 영역을 추가해야 합니다. 자세한 내용은 <a href="../access/access-overview.md">액세스 개요</a>. </p>  
+   <td role="rowheader"><p>권한</p></td>
+   <td> <p>작업 공간에 대한 권한 관리</a> </p>  
+   <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p>
 </td>
   </tr>
- </tbody>
+<tr>
+   <td role="rowheader"><p>레이아웃 템플릿</p></td>
+   <td> <p>Workfront 또는 그룹 관리자는 레이아웃 템플릿에 마에스트로 영역을 추가해야 합니다. 자세한 내용은 <a href="../access/access-overview.md">액세스 개요</a>. </p>  
+</td>
+  </tr>
+
+</tbody>
 </table>
 
 <!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
 <p>Current plan: Prime and Ultimate</p>
 <p>Legacy plan: Enterprise</p>-->
 
-<!--
-After permssions - replace the table with: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Adobe product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level</p></td>
-   <td> <p>Any</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
- </tbody>
-</table>
-
--->
 
 ## 공식 필드에 대한 고려 사항
 
@@ -162,7 +118,6 @@ After permssions - replace the table with:
 Maestro 공식 필드는 Workfront 계산 필드의 모든 표현식을 지원합니다. 자세한 내용은 [계산된 데이터 표현식 개요](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 또한 Maestro 공식 필드에는 다음 표현식이 지원됩니다.
-
 
 <table style="table-layout:auto"> 
  <col> 

@@ -6,17 +6,19 @@ description: '참고: /Content/Reports and Dashboards/Reports/Reporting Elements
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
-source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
+source-git-commit: 297e72ebb70c335078d65e7ed6e28862285d2fb1
 workflow-type: tm+mt
-source-wordcount: '1639'
+source-wordcount: '466'
 ht-degree: 1%
 
 ---
 
 # 텍스트 모드를 사용하여 보기 편집
 
+<!--Audited: 01/2024-->
+
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">NOTE: add a section in this article: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-views.html *** Also, draft this area in the Text Mode overview article) </p>
+<add a section in this article: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-views.html *** Also, draft this area in the Text Mode overview article) </p>
 -->
 
 텍스트 모드를 사용하여 목록이나 보고서의 보기를 편집하여 표준 인터페이스에서 사용할 수 없는 필드에 액세스하고 보다 복잡한 보기를 만들 수 있습니다.
@@ -35,20 +37,22 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>플랜 </p> </td> 
+   <td> <p>새로운 기능: 표준 </p>
+   <p>현재: 플랜 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> <p>보고서, 대시보드, 캘린더에 대한 액세스 권한을 편집하여 보고서의 보고 요소를 편집합니다.</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> <p>보고서, 대시보드, 캘린더에 대한 액세스 권한을 편집하여 보고서의 보고 요소를 편집합니다.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>보고서의 보기를 편집할 수 있도록 보고서에 대한 권한 관리</p> <p>보기에 대한 편집 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>보고서의 보기를 편집할 수 있도록 보고서에 대한 권한 관리</p> <p>보기에 대한 편집 권한 관리</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 &#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+액세스 요구 사항에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 전제 조건
 
@@ -114,84 +118,86 @@ ht-degree: 1%
     </thead> 
     <tbody> 
      <tr> 
-      <td> <p><strong>valuefield</strong>=</p> </td> 
-      <td> <p>데이터베이스에 나타나는 개체 또는 필드의 이름입니다. 개체와 필드가 데이터베이스에 표시되는 방법에 대한 자세한 내용은 <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API 탐색기</a>.</p> <p>다음과 같은 시나리오가 있습니다.</p> 
-       <ol> 
-        <li value="1"> <p> 표시되는 필드 이름이 단일 명사가 아닌 구문인 경우 <code>valuefield</code>. 예를 들어 작업의 계획된 시작 일자의 경우 코드는 다음과 같습니다. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>예: </b></span></span><code>valuefield=plannedStartDate</code> </p> </li> 
-        <li value="2"> <p>사용자 지정 필드를 표시하려면 <code>valuefield</code> 값은 인터페이스에 표시된 실제 필드 이름입니다. 예를 들어 "추가 정보"라는 사용자 정의 필드의 경우 코드는 다음과 같습니다.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>예: </b></span></span><code>valuefield=More information</code> </p> </li> 
-        <li value="3"> <p>를 사용하여 뷰의 다른 객체와 관련된 객체를 표시하려면 <code>valuefield</code> 코드 행 개체 이름과 특성은 콜론으로 구분됩니다. </p> <p>예를 들어, Portfolio 소유자의 이름을 표시하는 작업 보기의 열에는 valuefield 행에 대해 다음 값이 있습니다.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>예: </b></span></span><code>valuefield=project:portfolio:owner:name</code> </p> <p>이는 보고서(작업) 객체에서 다음 관련 객체(프로젝트)에 액세스할 수 있음을 나타냅니다. 이 객체에서는 프로젝트(포트폴리오)에서 다음 관련 객체에 액세스한 다음 포트폴리오 소유자(소유자)와 이름(이름)을 차례로 선택할 수 있습니다. </p> </li> 
-       </ol> <p>개체가 서로 연결되는 방법에 대한 자세한 내용은 섹션을 참조하십시오 <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects" class="MCXref xref">객체의 상호 의존성 및 계층</a> 위치: <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Adobe Workfront의 오브젝트 이해</a>.</p> <p>주: 표준 인터페이스에서 유효하지 않은 텍스트 모드의 필드를 선택하는 경우 열 내의 표준 인터페이스로 다시 전환할 수 없습니다.</p> </td> 
+      <td> <p><ol><tr><tr><ol><tr><tr><tr><tr><tr><tr><tr><tr><tr><tr><div class="example" data-mc-autonum="<b>Example: </b>"><code><strong>valuefield</strong>=</cod></p> </td> 
+      <td> <p>This is the name of the object or of the field as it appears in the database. For more information about how objects and fields appear in the database, see <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>.</p> <p>The following scenarios exist:</p> 
+        
+        <li value="1"> <p> If the name of the field you display is a phrase instead of a single noun, you must use camel case syntax for the <code>valuefield</code>. For example, for the Planned Start Date of a task the code is: </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>valuefield=plannedStartDate</code> </p> </li> 
+        <li value="2"> <p>If you want to display a custom field, the <code>valuefield</code> value is the actual name of the field, as you see it in the interface. For example, for a custom field named "More information", the code is:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>valuefield=More information</code> </p> </li> 
+        <li value="3"> <p>If you want to display objects that are related to other objects in a view using the <code>valuefield</code> line of code the object names and attributes are separated by colons. </p> <p>For example, a column in a task view that would display the name of the Portfolio Owner has the following value for the valuefield line:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>valuefield=project:portfolio:owner:name</code> </p> <p>This indicates that from the object of the report (task), you can access the next related object (project), from there, you can access the following related object from project (portfolio), then the portfolio owner (owner) and then their name (name). </p> </li> 
+       </ol> <p>For information about how objects connect to one another, see the section <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects" class="MCXref xref">Interdependency and hierarchy of objects</a> in <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Understand objects in Adobe Workfront</a>.</p> <p>Note: If you choose a field in text mode that is not valid in the standard interface, you are not able to switch back to the standard interface within the column.</p> </td> 
      </tr> 
-     <tr> 
-      <td><strong>valueformat=</strong> </td> 
-      <td> <p>이 줄은 을 표시하는 데 사용되는 형식을 나타냅니다. <code>valuefield</code>. 다음 <code>valueformat</code> 개체나 필드가 텍스트, 숫자, 백분율 또는 날짜로 표시되는지 여부를 식별합니다.</p> <p>다음을 사용하는 것이 좋습니다. <code>HTML</code> 에 대한 <code>valueformat</code>, 특히 을 사용할 때 <code>valueexpression</code>를 사용하여 정보를 가장 정확하게 표시할 수 있습니다. </p> <p>이 라인의 추가 값에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md" class="MCXref xref">텍스트 모드에서 조건부 서식 사용</a>.</p> </td> 
+      
+      <td><code><strong>valueformat=</strong></code> </td> 
+      <td> <p>This line represents the format used to display the <code>valuefield</code>. The <code>valueformat</code> identifies whether an object or field displays as text, number, percentage, or date.</p> <p>We recommend using <code>HTML</code> for your <code>valueformat</code>, especially when using <code>valueexpression</code>, to ensure the most accurate display of your information. </p> <p>For information about additional values for this line, see <a href="../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md" class="MCXref xref">Use conditional formatting in Text Mode</a>.</p> </td> 
      </tr> 
-     <tr> 
-      <td> <p><strong>valueexpression=</strong> </p> </td> 
-      <td> <p>이 줄을 추가하여 바꿀 수 있습니다. <code>valuefield</code>열에 계산된 필드를 표시하려면 을(를) 선택합니다.</p> <p>다음을 동봉해야 합니다. <code>valuefield</code> 에서 사용할 때마다 중괄호로 묶인 개체의 수를 <code>valueexpression</code>.</p> <p>다음과 같은 시나리오가 있습니다. </p> 
-       <ol> 
-        <li value="1"> <p>위의 대소문자로 열에 필드를 표시하려면 다음을 사용합니다.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>예: </b></span></span><code>valueexpression=UPPER({valuefield})</code> </p> <p>다음 <code>valuefield</code> API 탐색기에 나타나는 대로 개체의 철자가 지정됩니다. </p> </li> 
-        <li value="2">여러 을(를) 추가하려면 <code>valuefields</code> 그것들을 한데 묶어서, 당신은 그것들을 주기별로 분리해야 한다.</li> 
-        <li value="3"> <p>예를 들어 을 사용하여 작업의 기본 피할당자의 이름을 표시하려는 경우 <code>valueexpression</code>, 다음을 사용합니다.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>예: </b></span></span><code>valueexpreesion={assignedTo}.{name}</code> </p> </li> 
-        <li value="4"> <p>에서 사용자 정의 필드를 사용하려면 <code>valueexpression</code> 줄 필드 이름 앞에 다음 기한까지 와야 합니다. <code>DE:</code> 사용자 정의 필드임을 나타냅니다. 필드 이름의 철자는 인터페이스에 나타나는 대로 입력됩니다. </p> <p>중요: 일부 사용자에 대한 권한이 제한된 사용자 정의 양식 섹션에 배치된 사용자 정의 필드를 사용하는 경우 해당 사용자가 보고서에서 이 계산을 볼 때 valueexpression 계산이 비어 있습니다. 사용자 정의 양식 섹션의 권한 조정에 대한 자세한 내용은 <span href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md"><a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">사용자 정의 양식 만들기 또는 편집</a></span>.</p> <p>예를 들어 사용자 정의 필드에 "개발자 이름"이라는 레이블이 있고 이 필드를 열의 대소문자로 표시하려는 경우 다음을 사용할 수 있습니다 <code>valueexpression</code> 이를 나타내는 방법:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>예: </b></span></span><code>valueexpression=UPPER({DE:Developer Name}</code>) </p> <p>타이프 어헤드 유형 사용자 정의 필드를 참조할 때 다음 표현식을 사용하여 "개발자 이름"이라는 레이블이 지정된 필드에서 선택한 개체의 이름을 참조합니다.</p> <p><code>valueexpression=UPPER({DE:Developer Name:name})</code> </p> </li> 
+      
+      <td> <p><code><strong>valueexpression=</strong></code> </p> </td> 
+      <td> <p>You can add this line to replace <code>valuefield</code>, if you want to display a calculated field in the column.</p> <p>You must enclose the <code>valuefield</code> of the objects in curly brackets every time you use it in a <code>valueexpression</code>.</p> <p>The following scenarios exist: </p> 
+        
+        <li value="1"> <p>If you want to display a field in a column in upper case, you would use:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>valueexpression=UPPER({valuefield})</code> </p> <p>The <code>valuefield</code> of the object is spelled as it appears in the API Explorer. </p> </li> 
+        <li value="2">If you want to add multiple <code>valuefields</code> by stringing them together, you must separate them by a period.</li> 
+        <li value="3"> <p>For example, if you want to display the name of the Primary Assignee of a task using <code>valueexpression</code>, you would use:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>valueexpreesion={assignedTo}.{name}</code> </p> </li> 
+        <li value="4"> <p>If you want to use a custom field in a <code>valueexpression</code> line you must precede the name of the field by <code>DE:</code> to indicate that it is a custom field. The name of the field is spelled as it appears in the interface. </p> <p>Important: When you use a custom field that is placed in a custom form section that has restricted permissions for some users, the calculation of the valueexpression is blank when those users view this calculation in a report. For information about adjusting permissions on custom form sections, see <span href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md"><a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a></span>.</p> <p>For example, if you have a custom field labeled "Developer Name" and you want to display this field in upper case in a column, you can use the following <code>valueexpression</code> to indicate this:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>valueexpression=UPPER({DE:Developer Name}</code>) </p> <p>When referencing a Typeahead type custom field, use the following expression to reference the name of the object selected in a field labeled "Developer Name":</p> <p><code>valueexpression=UPPER({DE:Developer Name:name})</code> </p> </li> 
        </ol> </td> 
      </tr> 
-     <tr> 
-      <td> <p><strong>descriptionkey= / description=</strong> </p> </td> 
-      <td> <p>이 선은 열 이름 위로 마우스를 가져갈 때 도구 설명의 텍스트를 정의합니다. 이 경우 키를 사용하여 설명 텍스트의 이름 값을 번역하는 것입니다. 설명을 수정하려면 이 줄을 다음과 같이 변경하십시오. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>예: </b></span></span><code>description=Your Value</code>.</p> </td> 
+      
+      <td> <p><code><strong>descriptionkey=</strong></code> / <code><strong>description=</strong></code> </p> </td> 
+      <td> <p>This line defines the text of a tool tip as you mouse over the name of the column. In this case it is using a key to translate the name value in the description text. If you want to modify the description, change this line to read: </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>description=Your Value</code>.</p> </td> 
      </tr> 
-     <tr> 
-      <td><strong>namekey= / name=</strong> </td> 
-      <td> <p>이 줄은 열 레이블을 정의합니다. 이 경우 키를 기반으로 하는 축약값을 사용합니다.</p> <p>열 이름을 수정하려면 이 값을 다음과 같이 변경할 수 있습니다. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>예: </b></span></span><code>name=Your Value</code> </p> <p><code>Name</code> 에서는 열 이름에 대한 텍스트를 입력할 수 있지만<code>namekey</code> 열 이름을 번역하는 데 사용되는 키를 입력해야 합니다.</p> <p>열 이름을 변경하려면 <code>displayname </code>줄, 없는 경우.</p> </td> 
+      
+      <td><code><strong>namekey=</code> / <code><strong>name=</strong></code> </td> 
+      <td> <p>This line defines the column label. In this case it is using the abbreviated value based on the key.</p> <p>If you want to modify the column name you can change this value to: </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>name=Your Value</code> </p> <p><code>Name</code> allows you to enter any text for the column name, while<code>namekey</code> requires you enter a key that is used to translate the name of a column.</p> <p>To change the column name you can also add the <code>displayname </code>line, if one is not present.</p> </td> 
      </tr> 
-     <tr> 
-      <td><strong>displayname =</strong> </td> 
-      <td> <p>다음 줄을 추가하여 열의 이름을 변경할 수 있습니다. 이렇게 하면 <code>namekey/name</code> 값:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>예: </b></span></span><code>displayname=Your Value</code> </p> </td> 
+      
+      <td><code><strong>displayname =</strong></code> </td> 
+      <td> <p>You can add the following line to change the name of a column, which suspends the <code>namekey/name</code> value:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>displayname=Your Value</code> </p> </td> 
      </tr> 
-     <tr> 
-      <td><strong>querysort=</strong> </td> 
-      <td>이 줄은 열 머리글을 클릭할 때 결과가 정렬되는 방법을 정의합니다. 열이 없으면 보고서 실행 후에는 열을 정렬할 수 없습니다.</td> 
+      
+      <td><code><strong>querysort=</strong> </code></td> 
+      <td>This line defines how the results are sorted when the column header is clicked. If it is not present then the column cannot be sorted after the report is run.</td> 
      </tr> 
-     <tr> 
-      <td><strong>width=</strong> </td> 
-      <td> <p>이 선은 열에 사용되는 픽셀 수를 나타냅니다. 행을 생략하거나 0으로 설정하면 열이 뷰에 나타나지 않습니다.</p> <p>텍스트 모드에서 이 필드를 수동으로 수정할 때 <code>usewidths=true</code> 값을 열에 추가합니다.</p> </td> 
+      
+      <td><code><strong>width=</strong></code> </td> 
+      <td> <p>This line represents the number of pixels that are used for the column. If the line is omitted or set to 0 (zero) then the column does not appear in the view.</p> <p>When you modify this field manually in text mode, you must also add the <code>usewidths=true</code> value to your column.</p> </td> 
      </tr> 
-     <tr> 
-      <td><strong>usewidths=true</strong> </td> 
-      <td> <p>다음 줄 외에 이 줄을 사용해야 합니다. <code>width=</code> 열 너비를 사용자 지정할 때 사용됩니다. </p> </td> 
+      
+      <td><code><strong>usewidths=true</strong></code> </td> 
+      <td> <p>You must use this line in addition to the <code>width=</code> line when customizing the width of a column. </p> </td> 
      </tr> 
-     <tr> 
-      <td><strong>makeFieldEditable=</strong> </td> 
-      <td> <p>이 선은 열에 표시된 값을 인라인으로 편집할 수 있는지 여부를 정의합니다. 이 줄이 다음과 같은 경우 <strong>true</strong>, 열의 값은 인라인 편집할 수 있습니다. 이 줄이 다음과 같은 경우 <code>false</code>, 열의 값을 인라인으로 편집할 수 없습니다.</p> </td> 
+      
+      <td><code><strong>makeFieldEditable=</strong></code> </td> 
+      <td> <p>This line defines whether the value displayed in a column is inline editable or not. If this line equals <strong>true</strong>, the value in the column is inline editable. If this line equals <code>false</code>, the value in the column is not inline editable.</p> </td> 
      </tr> 
-     <tr> 
-      <td><strong>link.valuefield=</strong> </td> 
-      <td> <p>열에 표시된 값이 연결된 오브젝트에 연결되게 하려는 경우에만 이 줄을 삽입합니다. 객체의 세부내용 페이지가 열립니다. 이 값은 다음과 일치해야 합니다. <code>valuefield=</code> 줄. 이 항목을 삽입할 때 <code>link.valueformat=</code> 줄. </p> <p> 예를 들어 를 삽입할 수 있습니다 <code>link.valuefield=priority</code> 문제 보기에 문제의 우선 순위가 링크로 표시됩니다. 이 링크를 클릭하면 문제 페이지가 열립니다.</p> </td> 
+      
+      <td><code><strong>link.valuefield=</strong> </code></td> 
+      <td> <p>Insert this line only when you want the value displayed in a column to link to the object associated with it. The link opens the details page of the object. This value should match the <code>valuefield=</code> line. When you insert this, you must also add the <code>link.valueformat=</code> line. </p> <p> For example, you can insert <code>link.valuefield=priority</code> in an issue view, and the Priority of the issue displays as a link. Clicking this link opens the Issue page.</p> </td> 
      </tr> 
-     <tr> 
-      <td><strong>link.valueformat=</strong> </td> 
-      <td> <p>을(를) 삽입한 경우에만 이 줄을 삽입합니다. <code>link.valuefield</code> 열에 있는 값에 대한 링크를 추가할 줄. 객체의 세부내용 페이지가 열립니다. 이 값은 다음과 일치해야 합니다. <code>valueformat=</code> 라인 및 표시 형식을 나타냅니다. <code>valuefield</code>. </p> <p>중요: 링크가 포함된 기본 제공 열에서 텍스트 모드를 볼 때 링크를 참조하는 여러 줄이 표시됩니다. 텍스트 모드에서 사용자 지정 열을 만들고 여기에 링크 구문을 추가할 때 이러한 행 중 일부는 더 이상 지원되지 않거나 필요하지 않을 수 있습니다. 연결된 값을 추가할 때 필수 라인은 다음과 같습니다.<code> link.valuefield</code> 및 <code>link.valueformat</code>. </p> </td> 
+      
+      <td><code><strong>link.valueformat=</strong> </code></td> 
+      <td> <p>Insert this line only when you have inserted the <code>link.valuefield</code> line to add a link to the value in a column. The link opens the details page of the object. This value should match the <code>valueformat=</code> line and indicates the format used to display the <code>valuefield</code>. </p> <p>Important: When viewing the text mode in a built-in column that also includes a link, you notice a number of lines referring to the link. Some of those lines might no longer be supported or are unnecessary when you create your own custom column in text mode and add the link statements to it. The lines that are mandatory when adding a linked value are<code> link.valuefield</code> and <code>link.valueformat</code>. </p> </td> 
      </tr> 
-     <tr> 
-      <td><strong>aggregator.function=</strong> </td> 
-      <td> <p>각 열의 값을 요약하는 방법을 나타냅니다. 다음으로 시작하는 줄이 여러 개 있습니다. <code>aggregator.</code> 열 결과를 요약하는 집계를 말합니다. </p> <p>일반적으로 <code>aggregator.</code> 행은 열 객체의 행과 일치합니다. </p> 
-       <div class="example" data-mc-autonum="<b>Example: </b>">
-        <span class="autonumber"><span><b>예: </b></span></span> 
-        <p>Sum으로 요약된 작업 보고서의 계획된 시간 열은 다음과 같습니다. </p> 
-        <div>
-         <pre>textmode=true</pre>
-         <pre>valuefield=workRequired</pre>
-         <pre>valueformat=compound</pre>
-         <pre>aggregator.function=SUM</pre>
-         <pre>aggregator.valuefield=workRequired</pre>
-         <pre>aggregator.displayformat=minutesAsHoursString</pre>
-         <pre>aggregator.valueformat=compound</pre>
-         <pre>namekey=workRequired</pre>
-         <pre>shortview=false</pre> 
+      
+      <td><code><strong>aggregator.function=</strong></code> </td> 
+      <td> <p>This refers to how the values of each column are summarized. There are multiple lines that start with <code>aggregator.</code> and they all refer to the aggregator that summarizes the results of the column. </p> <p>As a general rule, the <code>aggregator.</code> lines match those of the column object. </p> 
+       
+        <span class="autonumber"><span><b>Example: </b></span></span> 
+        <p>The Planned&nbsp;Hours column in a task report summarized by Sum may look like the following: </p>
+
+   <div>
+         <code>textmode=true</code>
+         <code>valuefield=workRequired</code>
+         <code>valueformat=compound</code>
+         <code>aggregator.function=SUM</code>
+         <code>aggregator.valuefield=workRequired</code>
+         <code>aggregator.displayformat=minutesAsHoursString</code>
+         <code>aggregator.valueformat=compound</code>
+         <code>namekey=workRequired</code>
+         <code>shortview=false</code> 
         </div> 
-       </div> 
-       <div>
-        다음 <code>aggregator. </code>행에 다음이 포함될 수 있음: <code>valuefield </code>또는 <code>valueexpression</code>
+       </div>
+
+   <div>
+      다음 <code>aggregator. </code>행에 다음이 포함될 수 있음: <code>valuefield </code>또는 <code>valueexpression</code>.
        </div> </td> 
      </tr> 
     </tbody> 

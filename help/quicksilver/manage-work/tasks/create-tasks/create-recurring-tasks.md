@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: dbde5419-02ce-456b-a430-b2825d81fb87
-source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
+source-git-commit: 297e72ebb70c335078d65e7ed6e28862285d2fb1
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 1%
+source-wordcount: '906'
+ht-degree: 0%
 
 ---
 
 # 반복 작업 만들기
+
+<!--Audited: 01/2024-->
 
 단일 프로젝트의 일부로 반복해야 하는 작업에 대해 반복 작업을 만들 수 있습니다.
 
@@ -30,24 +32,27 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>작업 이상</p> </td> 
+   <td> <p>새로운 기능: 표준</p> 
+   <p>현재: 작업 시간 이상</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>작업 및 프로젝트에 대한 액세스 편집</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. 작업 액세스에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">작업에 대한 액세스 권한 부여</a>. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>. </p> </td> 
+   <td> <p>작업 및 프로젝트에 대한 액세스 편집</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>작업 이상을 추가할 수 있는 권한으로 프로젝트에 참여</p> <p>작업을 만들 때 작업에 대한 관리 권한을 자동으로 받습니다</p> <p> 작업 권한에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">작업 공유 </a>. </p> <p>추가 권한 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>작업 이상을 추가할 수 있는 권한으로 프로젝트에 참여</p> 
+   <p>작업을 만들 때 작업에 대한 관리 권한을 자동으로 받습니다</p> 
+   <p> 작업 권한에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">작업 공유 </a>.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오. 액세스 요구 사항에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 반복 작업 만들기
 
@@ -122,7 +127,9 @@ ht-degree: 1%
 
 1. 클릭 **작업을 만듭니다.**
 
-   작업 목록이 표시됩니다. 반복 작업이 상위로 생성되며 모든 반복이 그 하위가 됩니다. Workfront은 상위 항목에 입력한 이름 뒤에 숫자가 붙은 을 사용하여 하위 작업의 이름을 자동으로 생성했습니다. 상위 반복 작업에서 자동으로 채워지는 필드에 대한 자세한 내용은 [반복 작업 개요](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).
+   작업 목록이 표시됩니다. 반복 작업이 상위로 생성되며 모든 반복이 그 하위가 됩니다. Workfront은 상위 항목에 입력한 이름 뒤에 숫자가 붙은 을 사용하여 하위 작업의 이름을 자동으로 생성했습니다. 반복 작업은 작업 목록 끝에 배치됩니다.
+
+   상위 반복 작업에서 자동으로 채워지는 필드에 대한 자세한 내용은 [반복 작업 개요](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).
 
    ![](assets/recurring-tasks-in-task-list-nwe-350x87.png)
 

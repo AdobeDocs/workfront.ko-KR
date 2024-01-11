@@ -7,17 +7,19 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 297e72ebb70c335078d65e7ed6e28862285d2fb1
 workflow-type: tm+mt
-source-wordcount: '1400'
+source-wordcount: '1397'
 ht-degree: 0%
 
 ---
 
 # 프로젝트 계획 개요
 
+<!--Audited: 01/2024-->
+
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: see if you need to add something about approval settings and users's time off might add time to tasks' timelines - Ninja story 2019.3) </p>
+< see if you need to add something about approval settings and users's time off might add time to tasks' timelines - Ninja story 2019.3) </p>
 -->
 
 프로젝트는 Adobe Workfront의 큰 작업 항목입니다. 프로젝트를 작업과 같이 더 작은 작업 항목인 작업으로 분류할 수 있습니다. 작업은 완료를 책임질 수 있는 사용자 또는 팀에 할당할 수 있습니다. 모든 사용자가 작업을 완료하면 프로젝트도 완료됩니다.
@@ -118,7 +120,7 @@ ht-degree: 0%
 
 ## 작업 정의 {#define-tasks}
 
-프로젝트의 목표와 이와 관련된 작업을 정의할 때 프로젝트 타임라인을 작성합니다.
+프로젝트의 목표와 이와 관련된 작업을 정의하면 프로젝트 타임라인이 생성됩니다.
 
 다음과 같은 방법으로 프로젝트에 작업을 생성할 수 있습니다.
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
 workflow-type: tm+mt
-source-wordcount: '3166'
+source-wordcount: '3360'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 <!---
-title: Formula fields
+title: Create fields
 description: In Adobe Maestro, you can create custom fields for each kind of operational record type or taxonomy. You can then associate the field with Maestro records.
 hidefromtoc: yes
 hide: yes
@@ -63,9 +63,14 @@ Maestro 필드에 대한 자세한 내용은 [필드 개요](../fields/fields-ov
 
 <table style="table-layout:auto">
  <col>
+ </col>
+ <col>
+ </col>
  <tbody>
+    <tr>
+<tr>
 <td>
-   <p> Adobe 제품</p> </td>
+   <p> 제품</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
@@ -88,73 +93,25 @@ Maestro 필드에 대한 자세한 내용은 [필드 개요](../fields/fields-ov
   </tr>
 
 <tr>
-   <td role="rowheader">액세스 수준</td>
-   <td> <p>임의</p>  
+   <td role="rowheader"><p>액세스 수준 구성</p></td>
+   <td> <p>Maestro에 대한 액세스 수준 제어가 없습니다.</p>  
+</td>
+  </tr>
+
+<tr>
+   <td role="rowheader"><p>권한</p></td>
+   <td> <p>작업 공간에 대한 권한 관리</a> </p>  
+   <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p>
 </td>
   </tr>
 <tr>
-   <td role="rowheader">레이아웃 템플릿</td>
-   <td> <p>시스템 관리자가 레이아웃 템플릿에 마에스트로 영역을 추가해야 합니다. 자세한 내용은 <a href="../access/access-overview.md">액세스 개요</a>. </p>  
+   <td role="rowheader"><p>레이아웃 템플릿</p></td>
+   <td> <p>Workfront 또는 그룹 관리자는 레이아웃 템플릿에 마에스트로 영역을 추가해야 합니다. 자세한 내용은 <a href="../access/access-overview.md">액세스 개요</a>. </p>  
 </td>
   </tr>
- </tbody>
+
+</tbody>
 </table>
-
-<!--
-After permssions - replace the table with: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Adobe product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level</p></td>
-   <td> <p>Any</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
- </tbody>
-</table>
-
--->
-
 
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
@@ -199,7 +156,7 @@ After permssions - replace the table with:
    * [백분율](#percentage)
    * [통화](#currency)
    * [확인란](#checkbox)
-     <!--* [Formula](#formula)-->
+   * [공식](#formula)
    * [사용자](#people)
    * [제작자:](#created-by)
    * [제작 일자](#created-date)
@@ -408,35 +365,34 @@ After permssions - replace the table with:
 
    새 확인란 필드가 레코드 유형에 열로 추가되고 해당 값을 레코드와 연결할 수 있습니다.
 
-<!--
+### 공식
 
-### Formula
+공식 필드는 레코드 유형의 다른 필드에 있는 기존 값과 기존 값을 계산하는 방법을 나타내는 함수를 사용하여 새 값을 생성합니다.
 
-Formula fields generate a new value using existing values from other fields in a record type and a function that indicates how the existing values should be calculated.
+자세한 내용은 [공식 필드 개요](/help/quicksilver/maestro/fields/formula-fields.md).
 
-For more information, see [Formula fields overview](/help/quicksilver/maestro/fields/formula-fields.md)
- 
-1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Formula** field type.
- 
-    ![](assets/new-formula-field-with-list-of-expressions.png)
+1. 섹션에 설명된 대로 필드 만들기를 시작합니다. [처음부터 필드 만들기](#create-fields-from-scratch) 이 문서에서 **공식** 필드 유형입니다.
 
-1. Add the following information in the **New field** tab:
+   ![](assets/new-formula-field-with-list-of-expressions.png)
 
-   * **Name**: Enter a name for the new field.
-   * **Description**: Add information about the new field.
-   * **Formula**: Start typing at least one character to access an expression, then select it when it displays in the list. 
-  
-1. Click the selected expression to reveal the definition and view its formatting. 
+1. 에 다음 정보를 추가합니다. **새 필드** 탭:
+
+   * **이름**: 새 필드의 이름을 입력합니다.
+   * **설명**: 새 필드에 대한 정보를 추가합니다.
+   * **공식**: 표현식에 액세스하려면 적어도 한 문자를 입력한 다음 목록에 표시될 때 선택합니다.
+
+1. 선택한 표현식을 클릭하여 정의를 표시하고 형식을 확인합니다.
 
    ![](assets/description-of-formula-expression.png)
 
-1. Add field names as they display in Maestro interface to reference them in a formula. 
+   지원되는 표현식에 대한 자세한 내용은 [공식 필드 개요](/help/quicksilver/maestro/fields/formula-fields.md)
+
+1. 수식에서 참조할 수 있도록 Maestro 인터페이스에 표시되는 필드 이름을 추가합니다.
 
 1. Click **Create**.
 
-     The new formula field is added as a column to the record type and its values can be associated with records.
+   새 수식 필드가 레코드 종류에 열로 추가되고 해당 값이 레코드와 연결될 수 있습니다.
 
--->
 
 ### 사용자
 

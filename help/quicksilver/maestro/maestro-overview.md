@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 50e6b09d626325ee2836dc0ebaf79fc1e8cc9da9
+source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
 workflow-type: tm+mt
-source-wordcount: '1959'
+source-wordcount: '1903'
 ht-degree: 1%
 
 ---
@@ -15,10 +15,6 @@ ht-degree: 1%
 # Adobe 마에스트로 개요
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
-
-<!--see the separate article I wrote to have the PMs vet it for this: https://adobe-my.sharepoint.com/personal/alinaw_adobe_com/_layouts/15/doc.aspx?sourcedoc={79f94807-3d73-4015-afc0-5c016fc63cfc}&action=edit-->
-
-<!--all the links are hidden for now, so I can share this with customer zero. Activate the links before making this public. -->
 
 <!-- remove the references to closed beta from the entire article-->
 
@@ -82,8 +78,8 @@ Adobe Maestro는 Adobe Workfront의 새로운 서비스입니다. Maestro의 목
 | Maestro 레코드를 Adobe Experience Manager 에셋에 연결 | ✓ 덧신 |                                  |                 |
 | 레코드 세부 정보 페이지 | ✓ 덧신 |                                  |                  |
 | 레코드 세부 정보 페이지의 레이아웃 업데이트 |                               | ✓ 덧신 |                  |
-| 작업 공간 공유 | | ✓ 덧신 |  |
-| 보기 공유 | | ✓ 덧신 |  |
+| 작업 공간 공유 | ✓ 덧신 | |  |
+| 보기 공유 | ✓ 덧신 | |  |
 | 요청 제출 |                               |                                  | ✓ 덧신 |
 | 크리에이티브 개요 |                               |                                  | ✓ 덧신 |
 | 레코드의 색상 및 아이콘 사용자 지정 | ✓ 덧신 |                                  |                 |
@@ -92,15 +88,11 @@ Adobe Maestro는 Adobe Workfront의 새로운 서비스입니다. Maestro의 목
 | Adobe Workfront Fusion용 Maestro 모듈 | ✓ 덧신 |                                  |                 |
 | 한 필드에서 다른 필드로 정보 복사 및 붙여넣기 | ✓ 덧신 |                                  |                 |
 
-## 마감된 베타 프로그램 중 Maestro를 사용하기 위해 필요한 액세스 권한
+## Workfront 인스턴스의 사용자에 대해 Maestro 활성화
 
->[!IMPORTANT]
->
->현재 Maestro에는 사용자 또는 정보와 연관된 액세스 수준이나 권한이 없습니다. 모든 사용자는 다른 사용자가 Maestro에 추가하는 모든 정보를 보고, 편집하고, 삭제할 수 있습니다.
+Maestro에 액세스하려면 먼저 조직이 Adobe Maestro Closed Beta 프로그램에 등록해야 합니다. Beta 프로그램 등록에 대한 자세한 내용은 계정 담당자에게 문의하십시오.
 
-Maestro를 사용하는 데 필요한 액세스 권한에 대한 자세한 내용은 [Adobe Maestro 액세스 개요](../maestro/access/access-overview.md).
-
-<!--take the IMPORTANT note out when we release permissions; keep the link to the Access article-->
+액세스 권한을 부여하고 다른 사용자가 Maestro를 사용할 수 있도록 하는 방법에 대한 자세한 내용은 [액세스 개요](/help/quicksilver/maestro/access/access-overview.md).
 
 ## Maestro 용어
 
@@ -185,7 +177,7 @@ Maestro를 위한 프레임워크는 완전히 맞춤화가 가능합니다. 조
 
    * Maestro 필드는 사용자 정의가 가능하며 Maestro에서만 액세스할 수 있습니다. Workfront에서 Maestro 필드에 액세스할 수 없습니다.
 
-  자세한 내용은 [필드 만들기](../maestro/fields/create-fields.md)
+  자세한 내용은 [필드 만들기](../maestro/fields/create-fields.md).
 
   새 작업 레코드 유형은 기본적으로 다음과 같은 사전 정의된 필드와 연결되어 있습니다.
 
@@ -208,6 +200,7 @@ Maestro를 위한 프레임워크는 완전히 맞춤화가 가능합니다. 조
    * 백분율
    * 통화
    * 확인란
+   * 공식
    * 사용자
    * 제작자:
    * 제작 일자
@@ -272,12 +265,6 @@ Maestro를 위한 프레임워크는 완전히 맞춤화가 가능합니다. 조
 | 레코드 유형 테이블에 대한 API를 통해 가져올 수 있는 파일의 크기입니다. | 1.5MB |
 | API 요청을 수행할 수 있는 속도입니다 | 분당 요청 200개 |
 | 표에서 가져올 수 있는 Excel 파일의 CSV 크기 | 5MB |
-
-## Workfront 인스턴스의 사용자에 대해 Maestro 활성화
-
-Maestro에 액세스하려면 먼저 조직이 Adobe Maestro Closed Beta 프로그램에 등록해야 합니다. Beta 프로그램 등록에 대한 자세한 내용은 계정 담당자에게 문의하십시오.
-
-액세스 권한을 부여하고 다른 사용자가 Maestro를 사용할 수 있도록 하는 방법에 대한 자세한 내용은 [액세스 개요](/help/quicksilver/maestro/access/access-overview.md).
 
 ## Maestro 찾기
 
