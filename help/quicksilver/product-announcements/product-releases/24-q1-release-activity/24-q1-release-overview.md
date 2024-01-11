@@ -4,16 +4,16 @@ description: 2024년 1분기 릴리스 개요
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: cfe574eb8eaf238ef07ff45afa976bc1bc0484ed
+source-git-commit: 293e94a73edaf723852fd40e5dfcdfdc9f76ddf8
 workflow-type: tm+mt
-source-wordcount: '1572'
+source-wordcount: '1567'
 ht-degree: 0%
 
 ---
 
 # 2024년 1분기 릴리스 개요
 
-이 페이지에서는 2024년 1월로 예정된 2024년 1분기 릴리스에 포함된 기능에 대한 정보를 제공합니다.
+이 페이지에서는 2024년 1월 15일로 예정된 2024년 1분기 릴리스에 포함된 기능에 대한 정보를 제공합니다.
 
 이 페이지의 개선 사항은 미리보기 환경에서 사용할 수 있습니다. 이 페이지는 2024년 1분기 릴리스가 계획 프로덕션 릴리스에 가까워짐에 따라 추가 개선 사항으로 업데이트됩니다.
 
@@ -60,7 +60,7 @@ ht-degree: 0%
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">이제 이전 12개월 동안 증명/문서 결정을 사용할 수 있음</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p><p>이제 새 라이선스 유형과 기존 라이선스 유형 모두에 대한 사용자 결정 보고서에 이전 12개월뿐만 아니라 현재 월의 결정 수가 표시됩니다.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">이제 이전 12개월 동안 증명/문서 결정을 사용할 수 있음</a></p><p>이제 새 라이선스 유형과 기존 라이선스 유형 모두에 대한 사용자 결정 보고서에 이전 12개월뿐만 아니라 현재 월의 결정 수가 표시됩니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
@@ -208,7 +208,7 @@ ht-degree: 0%
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">새로운 보류 중인 승인 위젯 사용 가능</a></p><p><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p><p>소유한 프로젝트에 대한 승인 및 검토의 상태를 더 쉽게 확인할 수 있도록 새로운 승인 보류 중 위젯을 홈에 추가했습니다. </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">새로운 보류 중인 승인 위젯 사용 가능</a></p><p>소유한 프로젝트에 대한 승인 및 검토의 상태를 더 쉽게 확인할 수 있도록 새로운 승인 보류 중 위젯을 홈에 추가했습니다. </p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
@@ -357,7 +357,7 @@ ht-degree: 0%
                                 <p>빠른 릴리스를 위한 프로덕션: 24.1 릴리스 포함</p>
                             </li>
                             <li>
-                                <p>분기별 릴리스 프로덕션: 24.1 릴리스 포함</p>
+                                <p>모든 고객을 위한 프로덕션: 24.4 릴리스 포함(2024년 4월)</p>
                             </li>
                         </ul>
                     </td>
@@ -383,7 +383,7 @@ ht-degree: 0%
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">업데이트 섹션의 댓글에 이미지 드래그 앤 드롭</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p><p>이제 댓글의 내용을 개선하기 위해 오브젝트의 업데이트 섹션에서 댓글 또는 답글에 이미지를 빠르게 끌어서 놓을 수 있습니다.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">업데이트 섹션의 댓글에 이미지 드래그 앤 드롭</a></p><p>이제 댓글의 내용을 개선하기 위해 오브젝트의 업데이트 섹션에서 댓글 또는 답글에 이미지를 빠르게 끌어서 놓을 수 있습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
