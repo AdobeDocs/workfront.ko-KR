@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 1%
+source-wordcount: '784'
+ht-degree: 0%
 
 ---
 
@@ -48,7 +48,7 @@ Adobe Maestro에서 레코드 유형을 선택한 후 다음 보기에서 해당
     <tr>
 <tr>
 <td>
-   <p> Adobe 제품</p> </td>
+   <p> 제품</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
@@ -71,8 +71,14 @@ Adobe Maestro에서 레코드 유형을 선택한 후 다음 보기에서 해당
   </tr>
 
 <tr>
-   <td role="rowheader">액세스 수준</td>
-   <td> <p>임의</p>  
+   <td role="rowheader">액세스 수준 구성</td>
+   <td> <p>Maestro에 대한 액세스 수준 제어 없음</p>  
+</td>
+  </tr>
+
+<tr>
+   <td role="rowheader"><p>권한</p></td>
+   <td> <p>보기에 대한 권한 관리</p>  
 </td>
   </tr>
 
@@ -84,71 +90,12 @@ Adobe Maestro에서 레코드 유형을 선택한 후 다음 보기에서 해당
  </tbody>
 </table>
 
-
-<!--
-When we release permissions to views:
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader">Access level configurations</td>
-   <td> <p>There are no access controls for Maestro objects</p>  
-</td>
-  </tr>
-
-  <tr>
-   <td role="rowheader"><p>Object permissions</p></td>
-   <td> <p>Manage permissions to the view</p>  
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader">Layout template</td>
-   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
- </tbody>
-</table>
-
--->
-
-
 ## Maestro 보기 작업 시 고려 사항
 
 * Maestro의 보기는 레코드 유형별로 다릅니다. 동일한 보기를 두 개의 다른 레코드 유형에 적용할 수 없습니다.
-* 만든 보기는 Maestro 영역에 액세스하는 모든 사람이 볼 수 있습니다. <!-- edit this when we have permissions and the views will be shared only to be visible by others-->
-  <!-- this is not yet possible: * You can share views with others if you want them to also apply them to the same record types.-->
+* 만든 보기는 사용자와 보기를 공유하는 사용자만 볼 수 있습니다.
 * 운영 레코드 유형에 대한 뷰 작성은 분류 레코드 유형에 대한 뷰 작성과 동일합니다.
-* 보기를 수정하거나 삭제하면 Maestro 영역에 액세스할 수 있는 모든 사용자에 대해 수정 및 삭제됩니다.
+* 보기를 수정하거나 삭제하면 보기에 대한 권한이 있는 모든 사용자에 대해 수정 및 삭제됩니다.
 * 다음 요소는 Maestro의 각 보기에 고유합니다.
 
    * 필터
@@ -163,14 +110,13 @@ When we release permissions to views:
   >
   > Maestro는 현재 Beta 상태이므로 일부 보기 요소는 두 보기 모두에서 사용할 수 없을 수 있습니다.
 
-
 이 문서에서는 Maestro 보기에 대한 다음 정보를 설명합니다.
 
 * [보기 만들기 및 편집](#create-or-edit-record-views)
 * [보기 삭제](#delete-views)
   <!--* [Duplicate a view](#duplicate-views)-->
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
-  <!--* [Share a view](#share-views) - not possible yet-->
+* [보기 공유](#share-a-view)
 
 ## 테이블 및 타임라인 보기의 유사점과 차이점
 
@@ -200,7 +146,9 @@ When we release permissions to views:
 
 ## 보기 만들기 또는 편집 {#create-or-edit-views}
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-workfront.png) 오른쪽 상단 또는 **메인 메뉴** 아이콘 ![](assets/main-menu-shell.png) 왼쪽 위 모서리에서 사용 가능한 경우 을(를) 클릭합니다. **마에스트로** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
+
+
 마지막으로 액세스한 작업공간은 기본적으로 열립니다. 작업 공간 만들기에 대한 자세한 내용은 [작업 공간 만들기](../architecture/create-workspaces.md).
 1. 레코드 유형 카드를 클릭합니다. 레코드 종류 만들기에 대한 내용은 [레코드 유형 만들기](../architecture/create-record-types.md).
 
@@ -249,6 +197,11 @@ When we release permissions to views:
 1. 클릭 **삭제** 확인할 수 있습니다. <!--ensure there is not another saving step here?!-->
 
    보기는 Maestro 영역에 액세스할 수 있는 모든 사용자에 대해 삭제되며 복구할 수 없습니다.
+
+## 보기 공유
+
+보기 공유에 대한 자세한 내용은 [보기 공유](/help/quicksilver/maestro/access/share-views.md).
+
 
 <!--not possible yet - August 30, 2023: 
 

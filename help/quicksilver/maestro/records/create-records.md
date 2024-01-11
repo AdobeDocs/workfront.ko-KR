@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1091'
 ht-degree: 0%
 
 ---
@@ -106,12 +106,6 @@ Adobe 마에스트로에서 레코드는 레코드 유형의 인스턴스입니�
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
-<!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
-
 ## 수동으로 레코드 유형에 추가하여 레코드 만들기 <!--in a record type table (I don't think you can create them elsewhere right now)-->
 
 레코드 유형 페이지의 표 보기에서 레코드를 만들 수 있습니다.
@@ -146,8 +140,8 @@ Adobe 마에스트로에서 레코드는 레코드 유형의 인스턴스입니�
 
 1. (선택 사항) 다음 키보드 단축키를 사용하여 새 레코드 추가를 실행 취소하거나 재실행할 수 있습니다.
 
-   * **실행 취소**: CTRL/CMD + Z
-   * **다시 실행**: CTRL/CMD + Shift + Z
+   * CTRL+Z(Mac의 경우 ⌘+Z)
+   * 변경 내용을 재실행하려면 CTRL+Shift+Z(Mac의 경우 ⌘+Shift+Z)
 
 ## 다른 애플리케이션에서 연결하여 레코드 만들기
 

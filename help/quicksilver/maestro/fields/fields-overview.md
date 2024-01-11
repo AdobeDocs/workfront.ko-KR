@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 2%
+source-wordcount: '554'
+ht-degree: 1%
 
 ---
 
@@ -101,7 +101,7 @@ hide: yes
 
 * Workfront 레코드 유형을 Workfront 개체 유형과 연결하고 Workfront 개체에서 연결 또는 조회 필드를 추가하는 경우에만 Maestro에서 필드에 액세스할 수 있습니다. 자세한 내용은 [레코드 유형 연결](../architecture/connect-record-types.md).
 
-* 사용자 또는 다른 사용자가 만든 필드의 설정을 보고 업데이트할 수 있습니다. <!--this will change with access/ permissions-->
+* 필드가 속한 작업 영역에 대한 관리 권한이 있는 경우 사용자 또는 다른 사용자가 만든 필드의 설정을 보고 업데이트할 수 있습니다.
 
 * 하나의 레코드 유형에 대해 최대 500개의 필드가 있을 수 있습니다.
 

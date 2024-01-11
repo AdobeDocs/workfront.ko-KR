@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '3360'
+source-wordcount: '3390'
 ht-degree: 2%
 
 ---
@@ -118,12 +118,6 @@ Maestro 필드에 대한 자세한 내용은 [필드 개요](../fields/fields-ov
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
-
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
-<!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
 ## 처음부터 필드 만들기 {#create-fields-from-scratch}
 
@@ -388,6 +382,11 @@ Maestro 필드에 대한 자세한 내용은 [필드 개요](../fields/fields-ov
    지원되는 표현식에 대한 자세한 내용은 [공식 필드 개요](/help/quicksilver/maestro/fields/formula-fields.md)
 
 1. 수식에서 참조할 수 있도록 Maestro 인터페이스에 표시되는 필드 이름을 추가합니다.
+
+   >[!NOTE]
+   >
+   >    수식에서 연결된 레코드에서 필드를 추가할 수 없습니다. 이 기능은 나중에 릴리스됩니다. 새 릴리스에 대한 자세한 내용은 [Adobe Maestro 릴리스 활동](/help/quicksilver/maestro/release-activity.md).
+
 
 1. Click **Create**.
 

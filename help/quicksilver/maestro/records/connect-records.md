@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '2927'
+source-wordcount: '2912'
 ht-degree: 0%
 
 ---
@@ -77,12 +77,17 @@ Adobe Maestro 레코드를 서로 연결하거나 다른 응용 프로그램의 
 
 <table style="table-layout:auto">
  <col>
-<tbody>
-<td>
-   <p> Adobe 제품</p> 
-   </td>
+ </col>
+ <col>
+ </col>
+ <tbody>
+    <tr>
+<tr>
+<td>제품</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>Maestro 레코드를 Experience Manager Assets과 연결하려면 Adobe Experience Manager Assets 라이선스가 있어야 하며, 조직의 Workfront 인스턴스가 Adobe 비즈니스 플랫폼 또는 Adobe Admin Console에 온보딩되어야 합니다.</p></td>
+   <p> Adobe Workfront</p> 
+   <p>Maestro 레코드를 Experience Manager Assets과 연결하려면 Adobe Experience Manager Assets 라이선스가 있어야 하며, 조직의 Workfront 인스턴스가 Adobe 비즈니스 플랫폼 또는 Adobe Admin Console에 온보딩되어야 합니다.</p>
+   </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront 계약</p></td>
    <td>
@@ -97,95 +102,36 @@ Adobe Maestro 레코드를 서로 연결하거나 다른 응용 프로그램의 
   </tr>
   <tr>
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td>
-   <td><p>Any, to create Maestro records</p> 
-<p>Workfront에서 프로젝트를 보려면 작업 이상</p>
-  <p>자세한 내용은 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">Adobe Workfront 라이선스 개요</a>.</p> 
+   <td>
+   <p>임의</p> 
   </td>
   </tr>
-  <tr>
-   <td role="rowheader">액세스 수준</td>
-   <td> <p>Any, to create Maestro records</p>
-<p>프로젝트, Portfolio, 프로그램에 대한 보기 이상의 액세스 권한</p> 
-<p>그룹 및 회사에 대한 추가 액세스 권한(보기 그룹 또는 회사 사용자가 소속되어 있지 않은 경우)</p>   
+
+<tr>
+   <td role="rowheader"><p>액세스 수준 구성</p></td>
+   <td> <p>Maestro에 대한 액세스 수준 제어 없음</p>  
 </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>개체 권한</p></td>
-   <td> <p>Maestro 레코드와 연결할 개체에 대한 이상의 사용 권한 보기  
+   <td role="rowheader"><p>권한</p></td>
+   <td> <p>작업 공간에 대한 권한 관리</a> </p>  
+   <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p>
 </td>
   </tr>
+
 <tr>
    <td role="rowheader"><p>레이아웃 템플릿</p></td>
-   <td> <p>시스템 관리자가 레이아웃 템플릿에 마에스트로 영역을 추가해야 합니다. 자세한 내용은 <a href="../access/access-overview.md">액세스 개요</a>. </p></td>
+   <td> <p>Workfront 또는 그룹 관리자는 레이아웃 템플릿에 마에스트로 영역을 추가해야 합니다. 자세한 내용은 <a href="../access/access-overview.md">액세스 개요</a>. </p>  
+</td>
   </tr>
- </tbody>
+
+</tbody>
 </table>
-
-<!--
-After permssions - replace the table with: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Adobe product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level</p></td>
-   <td> <p>Any</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
- </tbody>
-</table>
-
--->
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
-
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
-<!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
 ## 레코드 연결
 
@@ -198,8 +144,8 @@ After permssions - replace the table with:
 
   연결된 레코드에서 연결된 필드의 값은 사용자가 구성하는 Maestro 작업 영역 또는 타사 애플리케이션에서 자동으로 연결되는 Maestro 레코드를 채웁니다.
 
-* Maestro에 액세스할 수 있는 모든 사용자는 Maestro 레코드 간 또는 Maestro 레코드와 다른 애플리케이션의 오브젝트 간 연결을 볼 수 있습니다. 연결하려는 타사 응용 프로그램에 대한 권한에 관계없이 연결된 레코드와 개체를 볼 수 있습니다.
-* 모든 사용자의 연결을 보고 편집할 수 있습니다. <!--add that this is based on your permissions in both Maestro and Workfront (or, later, any other application)-->
+* 작업 영역에 대한 Maestro 및 관리 권한에 대한 액세스 권한이 있는 모든 사용자는 Maestro 레코드 간 또는 Maestro 레코드와 다른 애플리케이션의 오브젝트 간 연결을 볼 수 있습니다. 연결하려는 타사 응용 프로그램에 대한 권한에 관계없이 연결된 레코드와 개체를 볼 수 있습니다. <!--check with PM-->
+* 연결된 레코드가 있는 작업 영역에 대한 관리 권한이 있는 경우 다른 사용자의 연결을 보고 편집할 수 있습니다.
 * 하나의 Maestro 레코드를 다른 애플리케이션에서 하나 또는 여러 객체에 연결할 수 있습니다.
 * Maestro 레코드를 다른 레코드나 오브젝트와 연결하려면 다음이 필요합니다.
 

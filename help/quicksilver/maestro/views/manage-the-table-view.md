@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '2304'
+source-wordcount: '2314'
 ht-degree: 3%
 
 ---
@@ -46,9 +46,14 @@ Maestro 보기 및 관리 방법에 대한 자세한 내용은 다음을 참조�
 
 <table style="table-layout:auto">
  <col>
+ </col>
+ <col>
+ </col>
  <tbody>
+    <tr>
+<tr>
 <td>
-   <p> Adobe 제품</p> </td>
+   <p> 제품</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
@@ -71,10 +76,17 @@ Maestro 보기 및 관리 방법에 대한 자세한 내용은 다음을 참조�
   </tr>
 
 <tr>
-   <td role="rowheader">액세스 수준</td>
-   <td> <p>임의</p>  
+   <td role="rowheader">액세스 수준 구성</td>
+   <td> <p>Maestro에 대한 액세스 수준 제어 없음 </p>  
 </td>
   </tr>
+
+<tr>
+   <td role="rowheader"><p>권한</p></td>
+   <td> <p>보기에 대한 권한 관리</p>  
+</td>
+  </tr>
+
 <tr>
    <td role="rowheader">레이아웃 템플릿</td>
    <td> <p>시스템 관리자가 레이아웃 템플릿에 마에스트로 영역을 추가해야 합니다. 자세한 내용은 <a href="../access/access-overview.md">액세스 개요</a>. </p>  
@@ -82,63 +94,6 @@ Maestro 보기 및 관리 방법에 대한 자세한 내용은 다음을 참조�
   </tr>
  </tbody>
 </table>
-
-<!--
-When we release permissions to views:
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader">Access level configurations</td>
-   <td> <p>There are no access controls for Maestro objects</p>  
-</td>
-  </tr>
-
-  <tr>
-   <td role="rowheader"><p>Object permissions</p></td>
-   <td> <p>Manage permissions to the view</p>  
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader">Layout template</td>
-   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
- </tbody>
-</table>
-
--->
-
 
 ## 표 보기 관리 {#manage-a-table-view}
 
@@ -212,8 +167,6 @@ Maestro 테이블 보기의 열 헤더에는 보기의 레코드와 관련된 �
    >       * 숫자
    >       * 공식
    >
-   >         수식 필드는 나중에 릴리스됩니다.
-   >
    >   * 기본 필드는 항상 고정되어 있으므로 이동할 수 없습니다. 기본 필드를 다른 위치로 이동해야 하는 경우 다른 필드를 선택하여 기본 필드를 대체할 수 있습니다.
    >
    >   * 테이블 보기의 기본 필드를 변경하면 기본 필드를 선택하는 다른 모든 사용자의 보기에 영향을 줍니다.
@@ -267,7 +220,7 @@ Maestro에서 레코드 유형에 대해 최대 10,000개의 레코드(또는 �
 1. 레코드 유형 페이지로 이동하여 **표** 보기 드롭다운 메뉴에서 보기
 1. 문서에 설명된 대로 레코드(또는 행) 추가를 시작합니다 [레코드 만들기](../records/create-records.md).
 
-   표 보기에서 추가하는 레코드는 즉시 저장되며 Maestro에 액세스하는 모든 사용자에게 표시됩니다. <!--this will change with permissions-->
+   테이블 보기에서 추가하는 레코드는 즉시 저장되며 작업 공간에 대한 보기 이상의 권한이 있는 모든 사용자에게 표시됩니다.
 
 1. (선택 사항) 한 행에서 하나 이상의 레코드를 선택한 다음 **핸들** 아이콘 ![](assets/handle-icon.png) 레코드 이름 왼쪽에 행 순서를 변경합니다.
 

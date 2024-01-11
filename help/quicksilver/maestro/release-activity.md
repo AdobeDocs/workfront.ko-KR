@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
+source-git-commit: 44f57d9169a7a2177b639ae3adbd83bfe1551ac8
 workflow-type: tm+mt
-source-wordcount: '3413'
+source-wordcount: '3404'
 ht-degree: 0%
 
 ---
@@ -194,10 +194,6 @@ Maestro 레코드에 대한 댓글 달기 환경은 Workfront 객체에 대한 �
    * 숫자
 
    * 공식
-
-     >[!NOTE]
-     >
-     >수식 유형 필드는 나중에 릴리스됩니다.
 
 * 테이블 뷰의 기본 필드는 항상 동결되며 다른 필드를 기본 필드로 설정하지 않는 한 이동할 수 없습니다.
 
