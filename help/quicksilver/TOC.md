@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 93dfcd639f1b821e68e388ac4206aeb7447caee1
+source-git-commit: 729cdf8ca5d917d5d009b3d64563d7d37053d8ee
 workflow-type: tm+mt
-source-wordcount: '13856'
+source-wordcount: '13854'
 ht-degree: 1%
 
 ---
@@ -781,7 +781,7 @@ ht-degree: 1%
    * Adobe Admin Console의 관리 {#admin-in-admin-console}
       * [Adobe Admin Console의 Workfront 관리](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
       * [Adobe Admin Console 준비](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
-      * [Workfront 제품 및 Adobe Admin Console으로의 사용자 마이그레이션 이해](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
+      * [Adobe Admin Console으로의 Workfront 마이그레이션 이해](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
    * 관리 및 설정을 위한 팁, 요령 및 문제 해결 {#admin-setup-tips}
       * [팁, 요령 및 문제 해결](administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)
       * [그룹 관리자는 자신이 관리하는 사용자보다 높은 액세스 권한을 가져야 합니다.](administration-and-setup/tips-tricks-and-troubleshooting/group-admin-access-level.md)
