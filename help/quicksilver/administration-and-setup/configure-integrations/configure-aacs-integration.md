@@ -6,9 +6,9 @@ description: 다음 위치에서 작업을 콘텐츠와 연결할 수 있습니�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
+source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
 workflow-type: tm+mt
-source-wordcount: '1395'
+source-wordcount: '1384'
 ht-degree: 0%
 
 ---
@@ -40,13 +40,13 @@ ht-degree: 0%
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] 플랜*</strong>
+   <td><strong>[!DNL Adobe Workfront] 플랜</strong>
    </td>
    <td>임의
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] 라이센스*</strong>
+   <td><strong>[!DNL Adobe Workfront] 라이선스</strong>
    </td>
    <td>현재: [!UICONTROL Plan] <br>
    새로운 기능: [!UICONTROL Standard]
@@ -67,13 +67,12 @@ ht-degree: 0%
   <tr>
    <td>액세스 수준 구성*
    </td>
-   <td>다음이어야 합니다: [!DNL Workfront] 관리자. 다음에 대한 정보: [!DNL Workfront] 관리자, 참조 <strong>사용자에게 전체 관리 액세스 권한 부여</strong>.
+   <td>다음이어야 합니다: [!DNL Workfront] 관리자.
    </td>
   </tr>
 </table>
 
-
-*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## 전제 조건

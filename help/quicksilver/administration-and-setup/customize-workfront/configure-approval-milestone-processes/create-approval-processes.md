@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
+source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
 workflow-type: tm+mt
-source-wordcount: '2202'
+source-wordcount: '2163'
 ht-degree: 1%
 
 ---
@@ -49,11 +49,11 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
    <td>임의</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td> <p>새 플랜: 표준 </p>
  <p>또는</p> 
 <p>현재 플랜: 플랜 </p> 
@@ -62,12 +62,12 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
    <td> <p>Workfront 관리자이거나 승인 프로세스에 대한 관리 액세스 권한이 있는 경우 시스템 수준 승인 프로세스나 특정 그룹에 대한 그룹 수준 승인 프로세스를 만들 수 있습니다.</p> 
-   <p>그룹 관리자인 경우 관리하는 그룹에 대해 그룹 수준 승인 프로세스를 만들 수 있습니다.</p> <p><b>참고</b>: 아직 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가적인 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <p>그룹 관리자인 경우 관리하는 그룹에 대해 그룹 수준 승인 프로세스를 만들 수 있습니다.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 작업 항목에 대한 시스템 수준 또는 그룹 수준의 글로벌 승인 프로세스 만들기
 
