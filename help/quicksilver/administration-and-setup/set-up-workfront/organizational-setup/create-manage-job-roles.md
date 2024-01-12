@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: organization-setup
 title: 작업 역할 만들기 및 관리
 description: (으)로 [!DNL Adobe Workfront] 관리자 또는 작업 역할에 대한 관리 액세스 권한이 있는 사용자는 사용자에게 할당할 수 있는 작업 역할을 생성하고 조직과 관련이 없는 기본 작업 역할을 삭제할 수 있습니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: 3af289f9aeecee417d1e82f9c66551360185b85c
+source-git-commit: e7ce6f0b02a1ecde3daaeb9ab678caaae112ac23
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1177'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ ht-degree: 0%
       <td>
         <p>이 작업 역할과 연결된 통화를 선택합니다. 다음 통화입니다. [!DNL Workfront] 은 이 작업 역할과 연결된 비용 및 수익을 계산하는 데 사용됩니다. </p> 
         <p><span>이 옵션은 사용자가 설정한 [!UICONTROL 기본 통화]와 다릅니다. [!DNL Workfront] 관리자 를 [!UICONTROL 설정] 영역에서 찾을 수 있습니다. 이 값은 프로젝트와 연결된 통화와 다를 수 있습니다.</span> </p> 
-        <p>팁: 시스템의 [!UICONTROL 환율] 영역에서 사용할 수 있는 통화만 이 필드에서 사용할 수 있습니다.</p> 
+        <p>팁: 시스템의 [!UICONTROL 환율] 영역에서 사용할 수 있는 통화만 이 필드에서 사용할 수 있습니다. 통화를 하나만 설정한 경우 이 필드가 표시되지 않습니다.</p> 
        <p><span>에서 [!UICONTROL 기본 통화] 설정에 대한 자세한 내용 [!DNL Workfront], 참조</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">환율 설정</a>.</p> <p><span>프로젝트 통화 변경에 대한 자세한 내용은</span> <a href="../../../manage-work/projects/project-finances/change-project-currency.md" class="MCXref xref">프로젝트 통화 변경</a>.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 

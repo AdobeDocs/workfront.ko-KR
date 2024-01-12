@@ -1,8 +1,8 @@
 ---
-source-git-commit: 849bd09f4d7bfa205b2a9dbc5c6f4acd2f394d2d
+source-git-commit: 6a6906419058c398ee7b780b2f05f45b90975df9
 workflow-type: tm+mt
-source-wordcount: '2241'
-ht-degree: 0%
+source-wordcount: '2285'
+ht-degree: 1%
 
 ---
 # 코드 조각
@@ -144,7 +144,7 @@ Workfront 프로젝트에 있는 동안 사용자가 Experience Manager에 연�
 
 ## 전제 조건 {#cc-install-prereq}
 
-사용 중인 Adobe Creative Cloud 애플리케이션에 올바른 플러그인을 설치해야 합니다.
+사용 중인 Adobe Creative Cloud 애플리케이션에 맞는 플러그인을 설치해야 합니다.
 * Photoshop의 경우 [Photoshop용 Adobe Workfront 설치](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
 * XD의 경우 [XD용 Adobe Workfront 설치](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
 * InDesign, Illustrator, Premiere Pro 및 After Effects에 대해서는 를 참조하십시오. [디자인 및 비디오용 Adobe Workfront 설치](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
@@ -319,6 +319,10 @@ Workfront 프로젝트에 있는 동안 사용자가 Experience Manager에 연�
 
 1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리에서 을(를) 클릭하고 **[!UICONTROL 리소스 조달]**.
 
+## 1단계 - 활용성 보고서 가져오기 - {#step1-to-utilization-report}
+
+1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리에서 을(를) 클릭하고 **[!UICONTROL 리소스 조달]**, 그런 다음 [!UICONTROL **활용성**] 왼쪽 패널에서
+
 <!-- Review and approve work -->
 
 <!-- Scenario Planner -->
@@ -367,7 +371,7 @@ Workfront 프로젝트에 있는 동안 사용자가 Experience Manager에 연�
 
    작업 또는 문제가 여러 사용자에게 할당된 경우 팀에 대해 선택한 여러 상태 외에 드롭다운 메뉴에 &quot;내 부품 사용 완료&quot; 옵션이 표시됩니다.
 
-1. 클릭 **[!UICONTROL 변경 내용 저장]**.
+1. **[!UICONTROL 변경 내용 저장]**&#x200B;을 클릭합니다.
 
 ## 홈 팀과 사용자 연결 {#associate-users-with-home-team}
 
