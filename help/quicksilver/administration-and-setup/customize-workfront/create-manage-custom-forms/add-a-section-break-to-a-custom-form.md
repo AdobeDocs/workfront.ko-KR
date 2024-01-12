@@ -4,12 +4,13 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: 기존 양식 빌더로 사용자 정의 양식에 섹션 구분 추가
 description: 사용자 정의 양식의 사용자 정의 필드 및 위젯을 제목이 있는 섹션으로 그룹화할 수 있습니다. 이 기능은 양식을 작성할 사용자에게 구성된 경험을 제공하는 데 유용합니다. 또한 특정 사용자 정의 필드 및 위젯에 대한 액세스를 특정 사용자로 제한해야 하는 경우 섹션에 배치한 다음 해당 사용자에게만 섹션에 대한 액세스 권한을 부여할 수 있습니다.
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 44a52767-60a7-4aaa-b3b8-6b8fb7da7e72
-source-git-commit: 961e0451ce9011a8a9f511d7d5da99368d22d6fb
+source-git-commit: a46ad2d847372c153e2da29e0545d70cdb6e04f7
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -42,7 +43,7 @@ ht-degree: 0%
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Adobe Workfront 플랜*</p> </td> 
-   <td>모든</td> 
+   <td>임의</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
@@ -83,12 +84,12 @@ ht-degree: 0%
       <td>섹션의 용도를 사용자에게 설명하려면 텍스트를 입력합니다. 사용자 정의 양식에서 섹션의 레이블 아래에 표시됩니다.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">논리 추가</td> 
-      <td>표시 논리를 사용하여 사용자가 양식을 작성할 때 다중 선택 사용자 정의 필드에서 선택한 항목에 따라 섹션을 양식에 표시할지 여부를 지정합니다. 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">사용자 정의 양식에 표시 논리 및 건너뛰기 논리 추가</a>.</td> 
+      <td role="rowheader"><p>논리 추가</p></td> 
+      <td><p>표시 논리를 사용하여 사용자가 양식을 작성할 때 다중 선택 사용자 정의 필드에서 선택한 항목에 따라 섹션을 양식에 표시할지 여부를 지정합니다.</p><p><strong>참고:</strong> 섹션 구분 아래의 모든 개별 필드에 표시 논리가 적용되어 있고 논리의 결과로 해당 필드가 모두 숨겨져 있는 경우 사용자 정의 양식에서 전체 섹션이 숨겨집니다. 이 문제는 표시 논리가 섹션 구분에 적용되지 않는 경우에도 발생합니다.</p><p>자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">사용자 정의 양식에 표시 논리 및 건너뛰기 논리 추가</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>액세스 권한 부여</p> </td> 
-      <td> <p> 이 섹션을 보고 해당 필드 값을 편집하려면 사용자 정의 양식이 첨부된 오브젝트에서 사용자에게 필요한 권한을 선택하십시오. 
+      <td> <p> 이 섹션을 보고 해당 필드 값을 편집하려면 사용자 정의 양식이 첨부된 오브젝트에서 사용자에게 필요한 권한을 선택하십시오.
        <p>다음 권한은 다음에서 사용할 수 있습니다. <b>오브젝트에 대한 이 액세스 권한이 있는 사용자는 필드 값을 볼 수 있습니다.</b>:</p> 
          <ul>
           <li><strong>보기</strong>: 오브젝트에 대한 권한 보기</li>
@@ -108,7 +109,7 @@ ht-degree: 0%
          </ul> </li> 
        </ul> 
        <p>개체의 사용 권한에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">오브젝트에 대한 공유 권한 개요</a>.</p> 
-       <p><b>메모</b>:  
+       <p><b>참고</b>:  
        <ul> 
        <li> <p>여기에서 지정한 권한이 없는 사용자는 섹션에서 사용자 정의 필드 및 위젯을 볼 수 없습니다. </p> <p>이는 보고서의 필드 값을 표시하거나 텍스트 모드 보고의 계산된 필드에서 사용하는 경우에도 마찬가지입니다.</p> </li> 
        <li> <p>여러 객체 유형을 양식과 연결하면 다음 단계에서 사용할 수 있는 보기 및 편집 권한이 변경될 수 있습니다. 자세한 내용은 <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">여러 오브젝트 유형이 사용자 정의 양식의 섹션 구분 권한에 영향을 주는 방법</a> 이 문서에서.</p> </li> 

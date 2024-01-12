@@ -4,14 +4,14 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: 사용자가 양식을 작성할 때 선택한 사항에 따라 사용자 정의 양식의 표시 또는 생략 섹션을 결정할 수 있습니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c687c4a8-a99d-4ac0-b785-5bfe503a7e2c
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: a46ad2d847372c153e2da29e0545d70cdb6e04f7
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 1%
+source-wordcount: '969'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 1%
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Adobe Workfront 플랜*</p> </td> 
-   <td>모든</td> 
+   <td>임의</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
@@ -54,28 +54,25 @@ ht-degree: 1%
 
   사용자 정의 양식의 사용자 정의 필드 및 위젯에 대한 자세한 내용은 [기존 양식 빌더로 사용자 정의 양식에 사용자 정의 필드 추가](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) 및 [기존 양식 빌더를 사용하여 사용자 정의 양식의 자산 위젯 추가 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
-* 위젯 또는 섹션 구분에 건너뛰기 논리를 추가할 수 없습니다. 다중 선택 필드(라디오 버튼, 드롭다운 또는 확인란)에만 추가할 수 있습니다.
+* 위젯 또는 섹션 구분에 건너뛰기 논리를 추가할 수 없습니다. 다중 선택 필드(라디오 단추, 드롭다운 또는 확인란)에만 추가할 수 있습니다.
 
-* 사용자 정의 필드에 표시 논리와 건너뛰기 논리를 모두 추가할 수 있습니다. 사용자 정의 필드에 대한 설명은 다음과 같습니다.
+* 사용자 정의 필드에 대해 다음 내용이 모두 참인 경우 표시 논리와 건너뛰기 논리를 모두 사용자 정의 필드에 추가할 수 있습니다.
 
    * 객관식 필드(라디오 버튼, 드롭다운 또는 확인란)입니다
    * 앞에 다중 선택 필드가 옵니다.
    * 뒤에 다른 사용자 지정 필드가 옵니다.
 
 * 표시 논리나 건너뛰기 논리를 사용하여 양식을 복사할 경우 해당 논리는 새 사용자 정의 양식에 복사됩니다.
-* 사용자 정의 양식에 대한 표시 논리 규칙을 만들 때는 다음 사항에 유의하십시오
+* 개체를 일괄 편집할 때 생략되거나 숨겨진 필드를 포함하여 모든 사용자 정의 필드가 [개체 편집] 상자에 표시됩니다.
+* 사용자 정의 양식에 대한 표시 논리 규칙을 만들 때는 다음 사항에 유의하십시오.
 
    * 표시 논리 문에 포함되지 않은 사용자 정의 필드는 기본적으로 사용자 정의 양식에 표시됩니다.
    * 다중 필드 표시 논리 문을 만들 수 있습니다.
-
-* 개체를 일괄 편집할 때 생략되거나 숨겨진 필드를 포함하여 모든 사용자 정의 필드가 [개체 편집] 상자에 표시됩니다.
+   * 섹션 구분 아래의 모든 필드에 표시 논리가 적용되어 있고 논리의 결과로 해당 필드가 모두 숨겨져 있는 경우 사용자 정의 양식에서 전체 섹션이 숨겨집니다.
 
 ## 표시 및 건너뛰기 논리가 있는 샘플 사용자 정의 양식 만들기
 
 사용자 정의 양식에 디스플레이 및 건너뛰기 논리를 추가하는 방법을 배우는 가장 좋은 방법은 다음 두 섹션에 설명된 실제 예를 사용하는 것입니다.
-
-* [디스플레이 논리](#display-logic)
-* [건너뛰기 논리](#skip-logic)
 
 ### 디스플레이 논리 {#display-logic}
 
