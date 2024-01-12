@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '470'
 ht-degree: 8%
 
 ---
@@ -34,7 +34,7 @@ Adobe Maestro 작업 영역 또는 보기에 대한 권한을 공유하거나 �
 
 작업 영역 또는 보기를 공유하는 방법에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
-* [작업 영역 공유](/help/quicksilver/maestro/access/share-workspaces.md)
+* [작업 공간 공유](/help/quicksilver/maestro/access/share-workspaces.md)
 
 * [보기 공유](/help/quicksilver/maestro/access/share-views.md)
 
@@ -53,7 +53,7 @@ Maestro에서 다음 오브젝트를 공유할 수 있습니다.
 * Maestro에서 작업 공간을 만들려면 다음 라이센스가 있어야 합니다.
 
    * 새로운 가격 모델: Standard 라이센스
-   * 현재 가격 모델: 작업 또는 더 높은 라이선스
+   * 현재 가격 모델: 플랜 라이선스.
 
   자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
 * 시스템 관리자는 다른 사용자가 만든 작업 공간을 관리하고 공유할 수 있습니다.

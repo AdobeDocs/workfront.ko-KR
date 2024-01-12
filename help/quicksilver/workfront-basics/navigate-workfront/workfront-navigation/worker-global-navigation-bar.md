@@ -7,9 +7,9 @@ description: 메인 메뉴는 사용자가 할당한 액세스 수준에 따라 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 * **[!UICONTROL 대시보드]**: 사용자와 공유되는 대시보드가 여기에 표시됩니다. 자세한 내용은 [대시보드](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
 
-* **[!UICONTROL 캘린더]**: 나와 공유된 캘린더가 여기에 표시됩니다. 자세한 내용은 [캘린더](../../../reports-and-dashboards/reports/calendars/calendars.md).
+* **[!UICONTROL 캘린더]**: 나와 공유된 캘린더가 여기에 표시됩니다. 자세한 내용은 [캘린더: 기사 색인](../../../reports-and-dashboards/reports/calendars/calendars.md).
 
 * **[!UICONTROL 팀]**: 팀에 할당된 작업 및 문제가 이 영역에 표시됩니다. 작업자로서, 귀하만이 [!DNL Workfront] 를 보는 사용자 [!UICONTROL 팀] 기본적으로 영역입니다.
 

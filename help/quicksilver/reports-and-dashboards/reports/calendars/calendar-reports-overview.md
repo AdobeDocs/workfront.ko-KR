@@ -7,9 +7,9 @@ description: 달력 보고서는 작업의 시각적 표현을 제공하는 동�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: c65cf8ab-e37f-42a4-9a81-70962629e9ba
-source-git-commit: 30eb12a4155b218b001b4d235229fbb0fbe40a45
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '387'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 <!-- Audited: 01/2024 -->
 
-달력 보고서는 실제로 작업의 시각적 표현을 제공하는 동적 보고서입니다. 다음 오브젝트에 대해 캘린더 보고서에 일자 정보를 표시할 수 있습니다.
+달력 보고서는 작업의 시각적 표현을 제공하는 동적 보고서입니다. 다음 오브젝트에 대해 캘린더 보고서에 일자 정보를 표시할 수 있습니다.
 
 * 작업
 * 문제

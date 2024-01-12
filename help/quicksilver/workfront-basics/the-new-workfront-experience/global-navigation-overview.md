@@ -5,9 +5,9 @@ description: 위쪽 탐색 모음 - 새 화면의 맨 위에 나타납니다. [!
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ ht-degree: 0%
      <li>[!UICONTROL 프로젝트]: <a href="../../manage-work/projects/projects-overview.md" class="MCXref xref">프로젝트: 문서 색인</a></li> 
      <li>[!UICONTROL 보고서]: <a href="../../reports-and-dashboards/reports/reports-overview.md" class="MCXref xref">보고서</a></li> 
      <li>[!UICONTROL 대시보드]: <a href="../../reports-and-dashboards/dashboards/dashboards-overview.md" class="MCXref xref">대시보드</a></li> 
-     <li>[!UICONTROL 캘린더]: <a href="../../reports-and-dashboards/reports/calendars/calendars.md" class="MCXref xref">캘린더</a></li> 
+     <li>[!UICONTROL 캘린더]: <a href="../../reports-and-dashboards/reports/calendars/calendars.md" class="MCXref xref">캘린더: 기사 색인</a></li> 
      <li>[!UICONTROL 리소스 조달]: <a href="../../resource-mgmt/resource-mgmt-overview/resource-management-overview.md" class="MCXref xref">리소스 관리 </a></li> 
      <li>[!UICONTROL 팀]: <a href="../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md" class="MCXref xref">팀 만들기 및 관리</a></li> 
      <li>[!UICONTROL 사용자]: <a href="../../administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md" class="MCXref xref">사용자 만들기 및 관리</a></li> 

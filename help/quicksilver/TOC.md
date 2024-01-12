@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 729cdf8ca5d917d5d009b3d64563d7d37053d8ee
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '13854'
+source-wordcount: '13856'
 ht-degree: 1%
 
 ---
@@ -1660,7 +1660,7 @@ ht-degree: 1%
          * [대시보드에서 보고서를 구성하는 방법 이해](reports-and-dashboards/reports/report-usage/understand-how-organize-reports-dashboard.md)
          * [보고서 사용 보기](reports-and-dashboards/reports/report-usage/view-report-usage.md)
       * 캘린더 {#calendars}
-         * [캘린더](reports-and-dashboards/reports/calendars/calendars.md)
+         * [캘린더: 기사 색인](reports-and-dashboards/reports/calendars/calendars.md)
          * [달력 보고서 개요](reports-and-dashboards/reports/calendars/calendar-reports-overview.md)
          * [달력 보고서에서 사용자 정의 날짜 필드 사용](reports-and-dashboards/reports/calendars/use-custom-dates.md)
          * [달력 보고서에서 계획된 일자 사용](reports-and-dashboards/reports/calendars/use-planned-dates.md)
@@ -2015,6 +2015,7 @@ ht-degree: 1%
       * [레코드 유형 연결](maestro/architecture/connect-record-types.md)
       * [레코드 유형 편집](maestro/architecture/edit-record-types.md)
       * [작업 영역 삭제](maestro/architecture/delete-workspaces.md)
+      * [작업 영역 편집](maestro/architecture/edit-workspaces.md)
       * [레코드 유형 삭제](maestro/architecture/delete-record-types.md)
       * [레코드 종류 및 레코드 연결의 예](maestro/architecture/example-connect-record-types-and-records.md)
       * [작업 공간 템플릿 목록](maestro/architecture/workspace-templates.md)
@@ -2029,7 +2030,7 @@ ht-degree: 1%
       * [액세스 정보](maestro/access/access-information.md)
       * [액세스 개요](maestro/access/access-overview.md)
       * [Adobe Maestro에서의 권한 공유 개요](maestro/access/sharing-permissions-overview.md)
-      * [작업 영역 공유](maestro/access/share-workspaces.md)
+      * [작업 공간 공유](maestro/access/share-workspaces.md)
       * [보기 공유](maestro/access/share-views.md)
    * Adobe 마에스트로 레코드 {#adobe-maestro-records}
       * [레코드: 문서 인덱스](maestro/records/records-information.md)

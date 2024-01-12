@@ -2,22 +2,26 @@
 content-type: reference
 product-area: calendars
 navigation-topic: reports
-title: 캘린더
-description: Adobe Workfront의 달력 보고서를 이해하려면 이 문서를 검토하십시오.
+title: "캘린더: 기사 색인"
+description: 달력 보고서는 작업의 시각적 표현을 제공하는 동적 보고서입니다. 프로젝트, 작업 및 문제에 대한 캘린더 보고서에 날짜 정보를 표시할 수 있습니다. Adobe Workfront의 달력 보고서를 이해하려면 이 문서를 검토하십시오.
 author: Lisa
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: b46834db-358e-4ee2-9512-f7419351de30
-source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 2%
+source-wordcount: '147'
+ht-degree: 0%
 
 ---
 
-# 캘린더
+# 캘린더: 기사 색인
 
-이 섹션에는 다음 문서가 포함됩니다.
+<!--Audited: 01/2024-->
+
+달력 보고서는 작업의 시각적 표현을 제공하는 동적 보고서입니다. 프로젝트, 작업 및 문제에 대한 캘린더 보고서에 날짜 정보를 표시할 수 있습니다.
+
+Adobe Workfront의 달력 보고서를 이해하려면 다음 문서를 검토하십시오.
 
 * [달력 보고서 개요](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md)
 * [달력 보고서에서 사용자 정의 날짜 필드 사용](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)

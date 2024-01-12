@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: b7117ff8-5353-4766-b982-ba624a484ad1
-source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '65'
 ht-degree: 3%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 3%
 * [사용자 정의 보기, 필터링 및 그룹화 샘플: 문서 인덱스](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 * [텍스트 모드 리소스: 문서 색인](../../reports-and-dashboards/reports/text-mode/text-mode-resources.md)
 * [보고서 사용 개요](../../reports-and-dashboards/reports/report-usage/report-usage-overview.md)
-* [캘린더](../../reports-and-dashboards/reports/calendars/calendars.md)
+* [캘린더: 기사 색인](../../reports-and-dashboards/reports/calendars/calendars.md)
 * [보고서에 대한 팁, 요령 및 문제 해결](../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/tips-troubleshooting-reports.md)
 
 <!--outdated: For in-depth training on reports, see  [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program).-->
