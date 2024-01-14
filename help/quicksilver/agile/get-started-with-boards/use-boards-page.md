@@ -6,14 +6,16 @@ description: 다음 [!UICONTROL 게시판] 대시보드에는 사용자가 만�
 author: Lisa
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
+source-git-commit: 9c4aa8d1f812299ba6cdcb664b990c1119e3cb31
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '818'
 ht-degree: 0%
 
 ---
 
 # 보드 대시보드 사용
+
+<!-- Audited: 1/2024 -->
 
 >[!IMPORTANT]
 >
@@ -41,29 +43,34 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 플랜*</strong></td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
-   <td> <p>[!UICONTROL Request] 이상</p> </td> 
+   <td> 
+   <p>새로운 기능: [!UICONTROL Contributor] 이상</p> 
+   <p>또는</p>
+   <p>현재: [!UICONTROL Request] 이상</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 ## 보드 및 작업 스트림 필터링 {#filter-boards}
 
 보드 대시보드를 필터링하여 활성, 보관된 보드 또는 모든 보드 또는 워크스트림을 표시할 수 있습니다.
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![](assets/main-menu-icon.png) 의 오른쪽 위 모서리 [!DNL Adobe Workfront]을 클릭한 다음 을 클릭합니다 **[!UICONTROL 게시판]**.
+1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리에서 을(를) 클릭하고 **[!UICONTROL 게시판]**.
 1. 클릭 [!UICONTROL **필터**] 보드(Boards) 영역 또는 작업 스트림(Workstreams) 영역에서 을 선택합니다. **[!UICONTROL 모두]**, **[!UICONTROL 활성]**, 또는 **[!UICONTROL 보관됨]**.
 
    대시보드에 기본값 이외의 필터가 적용되면 필터 아이콘에 표시기가 표시됩니다 ![대시보드에 적용된 필터](assets/boards-filterapplied-30x30.png).
 
 ## 보드 정렬
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![](assets/main-menu-icon.png) 의 오른쪽 위 모서리 [!DNL Adobe Workfront]을 클릭한 다음 을 클릭합니다 **[!UICONTROL 게시판]**.
+1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리에서 을(를) 클릭하고 **[!UICONTROL 게시판]**.
 1. 보드 목록을 정렬하려면 [!UICONTROL **정렬**]. 페이지의 기본 정렬 옵션은 기준입니다. **[!UICONTROL 수정한 날짜]**. 게시판별로 페이지를 정렬할 수도 있습니다 **[!UICONTROL 이름]**.
 
    선택 **[!UICONTROL 순서 바꾸기]** 보드를 수정한 날짜 또는 이름의 역순으로 정렬합니다. 정렬 아이콘의 화살표가 위를 가리키면 역순서가 적용됩니다. 화살표가 아래를 가리키면 표준 순서가 적용됩니다.
@@ -74,7 +81,7 @@ ht-degree: 0%
 
 보드 영역에서 특정 보드를 검색하거나 작업 스트림 영역에서 특정 작업 스트림을 검색할 수 있습니다.
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![](assets/main-menu-icon.png) 의 오른쪽 위 모서리 [!DNL Adobe Workfront]을 클릭한 다음 을 클릭합니다 **[!UICONTROL 게시판]**.
+1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리에서 을(를) 클릭하고 **[!UICONTROL 게시판]**.
 1. 클릭 [!UICONTROL **검색**] 검색어를 입력합니다. 그런 다음 Enter 키를 누릅니다.
 
    제목에 검색어가 포함된 모든 보드 또는 작업 스트림이 표시됩니다.
@@ -93,7 +100,7 @@ ht-degree: 0%
 >
 >워크스트림을 보관할 때 해당 워크스트림의 모든 보드가 보관됩니다.
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![](assets/main-menu-icon.png) 의 오른쪽 위 모서리 [!DNL Adobe Workfront]을 클릭한 다음 을 클릭합니다 **[!UICONTROL 게시판]**.
+1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리에서 을(를) 클릭하고 **[!UICONTROL 게시판]**.
 1. 다음을 클릭합니다. **[!UICONTROL 자세히]** 메뉴 ![기타 메뉴](assets/more-icon-spectrum.png) 게시판 또는 워크스트림에서 **[!UICONTROL 보관]**.
 
    작업 스트림에서 메뉴는 오른쪽, 다음 옆에 있습니다. [!UICONTROL **작업 스트림 보기**] 단추를 클릭합니다.
@@ -114,7 +121,7 @@ ht-degree: 0%
 >
 >추가한 보드와 작업 스트림은 삭제되지 않고 생성한 보드와 작업 스트림만 삭제할 수 있습니다.
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![](assets/main-menu-icon.png) 의 오른쪽 위 모서리 [!DNL Adobe Workfront]을 클릭한 다음 을 클릭합니다 **[!UICONTROL 게시판]**.
+1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리에서 을(를) 클릭하고 **[!UICONTROL 게시판]**.
 1. 다음을 클릭합니다. **[!UICONTROL 자세히]** 메뉴 ![[!UICONTROL 기타 메뉴]](assets/more-icon-spectrum.png) 게시판 또는 워크스트림에서 **[!UICONTROL 삭제]**.
 
    작업 스트림에서 메뉴는 오른쪽, 다음 옆에 있습니다. [!UICONTROL **작업 스트림 보기**] 단추를 클릭합니다.

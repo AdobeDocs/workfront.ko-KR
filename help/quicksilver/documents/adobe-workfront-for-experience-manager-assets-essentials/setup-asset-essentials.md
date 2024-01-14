@@ -6,7 +6,7 @@ description: Experience Manager Assets Essentials의 콘텐츠와 작업을 연�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: 44dd48b72e798b8967c4a4e3dc7d523fe9b130d2
+source-git-commit: a729c134ce3d9c565fac18fea80ea7c49471182b
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 0%
@@ -113,7 +113,7 @@ Workfront 개체 데이터를 Experience Manager Assets의 에셋 미디어 필�
 
 ## 지원되는 Workfront 및 Experience Manager Assets 필드
 
-**AEM 키워드**
+### AEM 키워드
 
 Workfront 지원 필드를 Experience Manager Assets Essentials의 키워드에 매핑할 수 있습니다.
 

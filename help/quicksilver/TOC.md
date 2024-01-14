@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 2dcf8d3baf5ca5032153627b7e833bafea3418f7
 workflow-type: tm+mt
-source-wordcount: '13856'
+source-wordcount: '13860'
 ht-degree: 1%
 
 ---
@@ -645,9 +645,9 @@ ht-degree: 1%
          * [보고서 숨기기](administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md)
       * 이메일 {#emails}
          * [이메일](administration-and-setup/manage-workfront/emails/emails.md)
-         * [이메일 알림](administration-and-setup/manage-workfront/emails/email-notifications-page.md)
+         * [이메일 알림: 문서 색인](administration-and-setup/manage-workfront/emails/email-notifications-page.md)
          * [이벤트 알림 구성](administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
-         * [사용 가능한 이벤트 알림](administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
+         * [사용 가능한 이벤트 알림a](administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
          * [모든 그룹에 대한 이벤트 알림 잠금 해제](administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
          * [이벤트 알림 제목 줄](administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)
          * [사용자의 이메일 알림 설정 수정](administration-and-setup/manage-workfront/emails/modify-email-notification-settings-user-profiles.md)
@@ -694,8 +694,8 @@ ht-degree: 1%
    * 그룹 관리 {#manage-groups}
       * [그룹 관리](administration-and-setup/manage-groups/manage-groups.md)
       * 그룹 {#groups}
-         * [그룹 개요](administration-and-setup/manage-groups/groups-overview/groups-overview.md)
-         * [그룹](administration-and-setup/manage-groups/groups-overview/groups.md)
+         * [그룹: 문서 색인](administration-and-setup/manage-groups/groups-overview/groups-overview.md)
+         * [그룹 개요](administration-and-setup/manage-groups/groups-overview/groups.md)
          * [하위 그룹 개요](administration-and-setup/manage-groups/groups-overview/subgroups.md)
          * [홈 그룹 개요](administration-and-setup/manage-groups/groups-overview/home-groups.md)
       * 그룹 만들기 및 관리 {#create-manage-groups}
