@@ -7,9 +7,9 @@ description: 아래 나열된 객체에 기존 사용자 정의 양식을 추가
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
+source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '811'
 ht-degree: 2%
 
 ---
@@ -45,11 +45,11 @@ ht-degree: 2%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
    <td> <p>임의 </p> </td> 
   </tr> 
 <tr> 
-  <td role="rowheader">Adobe Workfront 라이센스*</td> 
+  <td role="rowheader">Adobe Workfront 라이선스</td> 
   <td> <p>새로운 기능: 기여자 이상 </p>
  <p>또는</p> 
 <p>현재: 요청 이상 </p> 
@@ -57,10 +57,9 @@ ht-degree: 2%
  </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>사용자 정의 양식을 관리하는 객체에 대한 액세스 편집</p> <p><b>메모</b></p>
-
-여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td>
-</tr> 
+   <td> <p>사용자 정의 양식을 관리하는 객체에 대한 액세스 편집</p>
+    </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
    <td> <p>사용자 정의 양식을 첨부할 객체에 대한 권한을 관리합니다.</p> <p>에 대한 권한이 있는 사용자 정의 양식에 대한 이상의 권한을 봅니다. <b>사용자 정의 데이터에 첨부</b> 오브젝트(프로젝트, 작업 및 문제) 자세한 내용은 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">사용자 정의 양식 공유</a>.</p> <p>중요: 사용자 정의 Forms에 대한 관리 액세스 권한이 있는 플랜 라이선스가 없는 경우에서 설명한 대로 사용자 정의 양식을 적어도 볼 수 있는 특정 권한이 있어야 합니다 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">사용자 정의 양식 공유</a>. 양식이 시스템 전체에 표시되는 경우에도 이러한 권한을 부여해야 합니다. </p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청</a>.</p> </td> 
@@ -68,7 +67,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 전제 조건
 

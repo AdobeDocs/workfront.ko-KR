@@ -6,9 +6,9 @@ description: 주로 대화형 콘텐츠의 증명을 위해 설계된 Desktop Pr
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
+source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
    <td> <p>새로 만들기: 모두</p> <p>또는</p> <p>현재: Pro 이상</p> </td> 
   </tr> 
   <tr> 
@@ -44,6 +44,8 @@ ht-degree: 0%
   </tr> 
  </tbody> 
 </table>
+
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 {{latest-version}}
 

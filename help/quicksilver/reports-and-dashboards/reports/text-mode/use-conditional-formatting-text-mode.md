@@ -6,9 +6,9 @@ description: 텍스트 모드에서 조건부 서식 사용
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
-source-git-commit: 2db3e821f26a8f05b2a1822ac4bcf3ae5e26a4ec
+source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1688'
 ht-degree: 1%
 
 ---
@@ -35,12 +35,13 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td> <p>새로운 기능: 표준 </p> 
+   <p>또는</p>
    <p>현재: 플랜</p> 
    </td> 
   </tr> 
@@ -55,9 +56,8 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-*액세스 요구 사항에 대한 자세한 내용은 다음을 참조하십시오. [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 텍스트 모드의 조건부 서식
 

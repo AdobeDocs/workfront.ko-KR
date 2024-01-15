@@ -6,9 +6,9 @@ description: 계획된 작업은 Adobe Workfront에서 프로젝트 및 작업�
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
+source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
 workflow-type: tm+mt
-source-wordcount: '2364'
+source-wordcount: '2327'
 ht-degree: 1%
 
 ---
@@ -38,31 +38,6 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-<!--drafted for P&P - replace table: 
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Contributor or higher</p>
-   Or
-   <p>Legacy license: Request or higher</p>
-    </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Issues</p> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -71,22 +46,24 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> 임의  </td> 
+   <td> <p>임의 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> 새로운 기능: 기여자 이상
-   <p>또는</p>
+   <td> <p>새로운 기능: 기여자 이상</p>
+   또는
    <p>현재: 요청 이상</p>
     </td> 
   </tr> 
-   <td role="rowheader">액세스 수준*</td> 
-   <td> 문제에 대한 액세스 편집 <p>여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader">액세스 수준 구성*</td> 
+   <td> <p>문제에 대한 액세스 편집</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 ## 요청 대기열 사용을 위한 사전 요구 사항
 

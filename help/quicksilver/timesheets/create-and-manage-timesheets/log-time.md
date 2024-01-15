@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
+source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
 workflow-type: tm+mt
-source-wordcount: '3568'
+source-wordcount: '3499'
 ht-degree: 0%
 
 ---
@@ -33,35 +33,6 @@ Workfront에 로그인할 수 있는 시간 유형에 대한 자세한 내용은
 
 ## 액세스 요구 사항
 
-<!--drafted for P&P - replace the table:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Light or higher</p>
-   <p>Legacy license: 
-   <ul><li>Review or higher to log General Hours in a timesheet</li>
-   <li>Work or higher to log hours on a project, task, or issue</li></ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to the type of work item you log time for </p> <p>For example, you need Edit access to Issues, to log time for issues</p> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute or higher permissions on the work item you log time for that includes permissions to Log Hours</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
 이 문서의 단계를 수행하고 프로젝트별 시간을 기록하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -69,30 +40,29 @@ Workfront에 로그인할 수 있는 시간 유형에 대한 자세한 내용은
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>신규:<ul><li>타임시트에 일반 시간을 기록하려면 표시등 이상 사용</li></p>
-   <li> 프로젝트, 작업 또는 문제에 시간을 기록하려면 표준 이상</li></ul></p>
-   <p>또는</p>
-   <p>현재:<ul><li>타임시트에 일반 시간을 기록하려면 이상을 검토하십시오.</li></p>
-   <li> 프로젝트, 작업 또는 문제에 시간을 기록하려면 이상 작업</li></ul></p>
-   </td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td> <p>새로운 기능: 밝게 또는 높음</p>
+   <p>현재: 
+   <ul><li>타임시트에 일반 시간을 기록하려면 이상을 검토하십시오.</li>
+   <li>프로젝트, 작업 또는 문제에 시간을 기록하려면 이상 작업</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>시간을 기록한 작업 항목 유형에 대한 액세스 편집 </p> <p>예를 들어 문제에 대한 시간을 기록하려면 문제에 대한 편집 액세스 권한이 필요합니다</p> <p>여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td> <p>시간을 기록한 작업 항목 유형에 대한 액세스 편집 </p> <p>예를 들어 문제에 대한 시간을 기록하려면 문제에 대한 편집 액세스 권한이 필요합니다</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>시간을 기록하는 작업 항목에 대한 기여 또는 더 높은 권한에는 시간 기록 권한이 포함됩니다.</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>시간을 기록하는 작업 항목에 대한 기여 또는 더 높은 권한과 함께 시간 기록 권한 포함</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 ## Workfront에서 시간 로깅 시 고려 사항
 

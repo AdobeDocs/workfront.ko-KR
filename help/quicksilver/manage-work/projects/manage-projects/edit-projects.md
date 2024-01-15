@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
+source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
 workflow-type: tm+mt
-source-wordcount: '7452'
+source-wordcount: '7404'
 ht-degree: 1%
 
 ---
@@ -43,18 +43,18 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td><p>새로운 기능: 표준 </p> 
    또는
    <p>현재: 플랜 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>프로젝트에 대한 액세스 편집</p> <p>액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. 프로젝트 액세스에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">프로젝트에 대한 액세스 권한 부여</a>. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>. </p> </td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>프로젝트에 대한 액세스 편집</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
@@ -65,7 +65,7 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
  </tbody> 
 </table>
 
-*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 프로젝트 편집 제한 사항
 

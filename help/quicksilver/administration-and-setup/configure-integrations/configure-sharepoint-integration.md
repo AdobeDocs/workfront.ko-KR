@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: b090983de417cf6a4dd36c9398da7dcc0296766a
+source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
 workflow-type: tm+mt
-source-wordcount: '1591'
+source-wordcount: '1581'
 ht-degree: 0%
 
 ---
@@ -57,12 +57,12 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
-   <td>다음이어야 합니다: [!DNL Workfront] 관리자. 다음에 대한 정보: [!DNL Workfront] 관리자, 참조 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">사용자에게 전체 관리 액세스 권한 부여</a>. </td> 
+   <td>다음이어야 합니다: [!DNL Workfront] 관리자. </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 전제 조건
 
