@@ -6,7 +6,7 @@ description: 필터를 사용하여 항목 목록의 화면에 표시되는 정�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: 429bec1b8884c721af4c6fe1707bea9d9fdf98f8
+source-git-commit: 09492b2657aaf599bb31a19329d5de23791b66ec
 workflow-type: tm+mt
 source-wordcount: '2450'
 ht-degree: 1%
@@ -55,11 +55,11 @@ Adobe Workfront에서 다음 유형의 필터를 적용할 수 있습니다.
 
 보고서에서 필터를 편집하려면 다음 라이센스가 있어야 합니다.
 
-<p>신규: 플랜</p>
+<p>새로운 기능: 표준</p>
 
 또는
 
-<p>현재: 표준</p>
+<p>현재: 플랜</p>
 
 </td> 
   </tr> 

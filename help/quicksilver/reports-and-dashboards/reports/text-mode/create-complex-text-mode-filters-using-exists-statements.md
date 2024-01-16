@@ -2,18 +2,20 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: EXISTS 문을 사용하여 복잡한 텍스트 모드 필터 만들기
-description: EXISTS 문을 사용하여 복잡한 텍스트 모드 필터 만들기
+description: EXISTS 문을 사용하여 복잡한 텍스트 모드 필터를 만들 수 있습니다. 이 문서를 사용하려면 Adobe Workfront API 및 텍스트 모드 보고 인터페이스에 대한 철저한 이해가 필요합니다.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 106f7c9d-46cc-46c5-ae34-93fd13a36c14
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 09492b2657aaf599bb31a19329d5de23791b66ec
 workflow-type: tm+mt
-source-wordcount: '2766'
+source-wordcount: '2649'
 ht-degree: 0%
 
 ---
 
 # EXISTS 문을 사용하여 복잡한 텍스트 모드 필터 만들기
+
+<!-- Audited: 01/2024 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: do not EVER&nbsp;delete this article as long as Text Mode still exists in the system.&nbsp;Google ordered this article to be written and we wrote it with the help of consultants, so the use case is very complex and very hard to understand without this. It is also very much used by many customers)</p>
@@ -34,15 +36,15 @@ ht-degree: 0%
 
 객체의 계층 구조 및 상호 종속성을 이해하면 보고서에서 참조할 수 있는 객체를 찾는 데 도움이 됩니다.
 
-Workfront에 있는 개체, 개체의 계층 및 상호 종속성에 대한 자세한 내용은 [Adobe Workfront의 오브젝트 이해](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Workfront에 있는 개체, 개체의 계층 및 상호 종속성에 대한 자세한 내용은 [Adobe Workfront 개체 개요](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 필터를 작성할 때 표준 보고 인터페이스를 사용하여 최대 2개의 관계 수준 내에서 필터 개체에 연결된 다른 개체를 참조할 수 있습니다.
 
 예를 들어 문제 필터에서 Portfolio ID를 참조하여 표준 인터페이스를 사용하여 특정 포트폴리오와 연결된 프로젝트의 문제만 표시할 수 있습니다. 이 경우 포트폴리오는 이슈와 2단계 떨어져 있습니다.
 
-하지만 표준 인터페이스를 사용하여 문제 필터에서 Portfolio 소유자를 참조하여 소유자가 특정 사용자인 포트폴리오와 연결된 프로젝트의 문제만 표시할 수는 없습니다. 텍스트 모드를 사용하여 문제에서 세 단계 떨어진 Portfolio 소유자 이름 필드에 액세스해야 합니다.
+하지만 표준 인터페이스를 사용하여 문제 필터에서 Portfolio 소유자를 참조하여 소유자가 특정 사용자인 포트폴리오와 연결된 프로젝트의 문제만 표시할 수는 없습니다. 텍스트 모드를 사용하여 Portfolio 소유자 이름 필드에 액세스해야 합니다. 이 필드는 문제에서 세 단계 떨어져 있습니다.
 
-![issue_to_portfolio_owner_string_line_icons.PNG](assets/issue-to-portfolio-owner-sraight-line-icons-350x83.png)
+![포트폴리오 소유자 아이콘에 문제](assets/issue-to-portfolio-owner-sraight-line-icons-350x83.png)
 
 Workfront의 전체 개체 목록은 [API 탐색기](../../../wf-api/general/api-explorer.md).
 
@@ -50,7 +52,7 @@ API 탐색기를 탐색하고 개체를 찾는 방법에 대한 자세한 내용
 
 필터를 작성할 때 이러한 유형의 개체를 참조하려면 텍스트 모드 인터페이스에서 복잡한 문을 작성해야 합니다.
 
-복잡한 필터 빌드에 대한 자세한 내용은 [EXISTS 문을 사용하는 복잡한 텍스트 모드 필터의 개요](#overview-of-complex-text-mode-filters-that-use-exists-statements) 섹션.
+복잡한 필터 빌드에 대한 자세한 내용은 [EXISTS 문을 사용하는 복잡한 텍스트 모드 필터의 개요](#overview-of-complex-text-mode-filters-that-use-exists-statements) 이 문서의 섹션.
 
 ## EXISTS 문을 사용하는 복잡한 텍스트 모드 필터의 개요 {#overview-of-complex-text-mode-filters-that-use-exists-statements}
 
@@ -95,25 +97,27 @@ API 탐색기를 탐색하고 개체를 찾는 방법에 대한 자세한 내용
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>플랜 </p> </td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td><p>새로운 기능: 표준</p>
+       <p>또는</p>
+       <p>현재: 플랜</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> <p>보고서, 대시보드, 캘린더에 대한 액세스 권한을 편집하여 보고서의 필터 편집</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> <p>보고서, 대시보드, 캘린더에 대한 액세스 권한을 편집하여 보고서의 필터 편집</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>보고서에서 필터를 편집할 보고서에 대한 권한 관리</p> <p>편집할 필터에 대한 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>보고서에서 필터를 편집할 보고서에 대한 권한 관리</p> <p>편집할 필터에 대한 권한 관리</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 객체 계층의 여러 수준에 걸쳐 있는 복잡한 텍스트 모드 필터 만들기
 
@@ -131,9 +135,12 @@ API 탐색기를 탐색하고 개체를 찾는 방법에 대한 자세한 내용
 
 1. 필터의 개체를 식별합니다. 이 객체를 원래 객체라고 합니다.\
    예를 들어, 문제
+
 1. 필터링 기준으로 사용할 필드를 식별합니다. 이 객체를 Target 객체에 속한 Target 필드라고 합니다.\
    예를 들어 Portfolio(대상 개체)에 속하는 ownerID 필드(대상 필드)입니다.
-1. (조건부) 원본 개체(Issue)와 대상 필드(ownerID)가 직접 연결되어 있지 않으면 세 번째 개체인 원본 개체와 대상 필드 사이를 연결하는 연결 개체(Project)를 찾아야 합니다. 연결 객체에는 원본 객체의 필드 또는 참조 탭(원본 객체에 표시된 연결 필드)에서 참조하는 하나 이상의 필드가 있어야 하며 대상 객체로의 연결 필드도 있어야 합니다. 연결 개체에 표시되는 대상 개체로의 연결 필드(또는 연결 개체에 표시되는 연결 필드)는 대상 필드와 일치해야 합니다.\
+
+1. (조건부) 원본 개체(Issue)와 대상 필드(ownerID)가 직접 연결되어 있지 않으면 세 번째 개체인 원본 개체와 대상 필드 사이를 연결하는 연결 개체(Project)를 찾아야 합니다. 연결 객체에는 원본 객체의 필드 또는 참조 탭(원본 객체에 표시된 연결 필드)에서 참조하는 하나 이상의 필드가 있어야 하며 대상 객체로의 연결 필드도 있어야 합니다. 연결 개체에 표시되는 대상 개체로의 연결 필드(또는 연결 개체에 표시되는 연결 필드)는 대상 필드와 일치해야 합니다.
+
    예를 들어, (프로젝트) ID(원래 오브젝트에 표시된 연결 필드)는 문제(원래 오브젝트)에서 참조됩니다. (Portfolio) ownerID(대상 오브젝트에 대한 필드 연결)가 프로젝트(연결 오브젝트)의 필드 탭에 표시됩니다. Portfolio ownerID 는 타겟 오브젝트 (Portfolio)의 필드이기도 합니다. 연결 개체의 연결 필드는 대상 필드와 일치합니다.\
    ![portfolio_id_in_the_project_api_object.PNG](assets/portfolio-id-in-the-project-api-object-350x88.png)
 
@@ -146,13 +153,13 @@ API 탐색기를 탐색하고 개체를 찾는 방법에 대한 자세한 내용
    필터 만들기에 대한 자세한 내용은 [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. 클릭 **텍스트 모드로 전환**.
-1. 다음 수식 예제를 새 필터의 텍스트 모드 인터페이스에 붙여넣고 제안된 텍스트를 올바른 개체 및 필드로 바꿉니다.
+1. 새 필터의 텍스트 모드 인터페이스에 다음 수식 예제를 붙여넣고 예제 텍스트를 올바른 개체 및 필드로 바꿉니다.
 
-   ```
-   EXISTS:A:$$OBJCODE=<Object code of the Linking Object>
-   EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object>
-   EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>
-   ```
+   `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
+
+   `EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object>`
+
+   `EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>`
 
    위에서 식별한 필드를 사용하는 예는 다음을 참조하십시오. [예제 1: Portfolio 소유자 이름별로 문제 필터링](#example-1-filter-for-issues-by-portfolio-owner-name) 이 문서의 섹션.
 
@@ -177,10 +184,14 @@ API 탐색기를 탐색하고 개체를 찾는 방법에 대한 자세한 내용
 
 1. 필터의 개체를 식별합니다. 이 객체를 원래 객체라고 합니다.\
    예: 매개변수 또는 사용자 정의 필드.
+
 1. 필터링 기준으로 사용할 필드를 식별합니다. 이 객체를 Target 객체에 속한 Target 필드라고 합니다.\
-   예를 들어 Category(대상 개체)에 속하는 categoryID 필드(대상 필드)입니다.
-1. 원본 개체(매개 변수)와 대상 필드(categoryID)는 서로 직접 연결되어 있지 않으므로 세 번째 개체인 연결 개체(범주 매개 변수)를 찾아야 합니다. 연결 객체에는 원본 객체의 필드 또는 참조 탭(원본 객체에 표시된 연결 필드)에서 참조하는 하나 이상의 필드가 있어야 하며 대상 객체로의 연결 필드도 있어야 합니다. 연결 개체에 표시되는 대상 개체로의 연결 필드(또는 연결 개체에 표시되는 연결 필드)는 대상 필드와 일치해야 합니다.\
-   예를 들어, Parameter(Original Object)에서 Category 매개 변수(원본 개체에 표시된 연결 필드)의 ID를 참조합니다. parameterID(대상 개체에 필드 연결)는 범주 매개 변수(개체 연결)의 필드 탭에 표시됩니다. 연결 객체에 표시되는 대상 객체에 대한 연결 필드는 대상 필드와 일치합니다.
+   예를 들어 Category(대상 객체)에 속하는 categoryID 필드(대상 필드)입니다.
+
+1. 원본 개체(매개 변수)와 대상 필드(categoryID)는 서로 직접 연결되어 있지 않으므로 세 번째 개체인 연결 개체(범주 매개 변수)를 찾아야 합니다. 연결 객체에는 원본 객체의 필드 또는 참조 탭(원본 객체에 표시된 연결 필드)에서 참조하는 하나 이상의 필드가 있어야 하며 대상 객체로의 연결 필드도 있어야 합니다. 연결 개체에 표시되는 대상 개체로의 연결 필드(또는 연결 개체에 표시되는 연결 필드)는 대상 필드와 일치해야 합니다.
+
+   예를 들어, Parameter(원본 개체)에서 Category 매개 변수(원본 개체에 표시된 연결 필드)의 ID를 참조합니다. parameterID(대상 개체에 필드 연결)는 범주 매개 변수(개체 연결)의 필드 탭에 표시됩니다. 연결 객체에 표시되는 대상 객체에 대한 연결 필드는 대상 필드와 일치합니다.
+
 1. API 탐색기를 사용하여 **개체 코드** 링크 개체(Category 매개 변수)의\
    예를 들어, 범주 매개변수에 대한 개체 코드는 CTGAA입니다.\
    ![category_parameter_objcode_in_api.PNG](assets/category-parameter-objcode-in-api-350x79.png)
@@ -190,15 +201,11 @@ API 탐색기를 탐색하고 개체를 찾는 방법에 대한 자세한 내용
    필터 만들기에 대한 자세한 내용은 [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. 클릭 **텍스트 모드로 전환**.
-1. (조건부) 누락된 오브젝트를 필터링하는 경우 다음 수식 예제를 새 필터의 텍스트 모드 인터페이스에 붙여넣고 제안된 텍스트를 올바른 오브젝트 및 필드로 바꿉니다.
+1. (조건부) 누락된 오브젝트를 필터링하는 경우 다음 수식 예제를 새 필터의 텍스트 모드 인터페이스에 붙여넣고 예제 텍스트를 올바른 오브젝트 및 필드로 바꿉니다.
 
-   ```
-   EXISTS:A:$$OBJCODE=<Object code of the Linking Object><br>
-   ```
+   `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
 
-   ```
-   EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS
-   ```
+   `EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
 
    사용자 지정 Forms과 연결되지 않은 사용자 지정 필드에 대한 보고의 예는 다음을 참조하십시오. [예제 2: 누락된 개체 필터링: 사용자 정의 양식에 표시되지 않는 사용자 정의 필드](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms) 이 문서의 섹션.
 
@@ -206,10 +213,7 @@ API 탐색기를 탐색하고 개체를 찾는 방법에 대한 자세한 내용
 
 ## 객체 계층의 여러 수준에 걸쳐 있는 텍스트 모드 필터의 예
 
-* [예제 1: Portfolio 소유자 이름별로 문제 필터링](#example-1-filter-for-issues-by-portfolio-owner-name)
-* [예제 2: 누락된 개체 필터링: 사용자 정의 양식에 표시되지 않는 사용자 정의 필드](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms)
-* [예제 3: 누락된 개체 필터링: 특정 기간 동안 시간을 기록하지 않은 사용자](#example-3-filter-for-missing-objects-users-who-did-not-log-time-for-a-certain-period-of-time)
-* [예제 4: 여러 필드로 필터링: Portfolio 소유자 이름 및 Portfolio 정렬 스코어카드 ID별 작업](#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id)
+다음 예를 사용하여 EXISTS 문을 사용하여 텍스트 모드 필터를 빌드합니다.
 
 ### 예제 1: Portfolio 소유자 이름별로 문제 필터링 {#example-1-filter-for-issues-by-portfolio-owner-name}
 
@@ -223,16 +227,17 @@ Portfolio 소유자 이름별로 문제를 필터링하려면:
 1. 클릭 **텍스트 모드로 전환**.
 1. 다음 일반 코드를 참조하십시오.
 
-   ```
-   EXISTS:A:$$OBJCODE=<Object code of the Linking Object><br>
-   ```
+   `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
 
-   ```
-   EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>
-   ```
+   `EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>`
 
 1. 다음 코드를 **보고서에 대한 필터 규칙 설정** 위의 일반 코드를 바꿀 영역:
-   <pre>존재함:A:$$OBJCODE=PROJ<br>존재함:A:ID=FIELD:PROJECTID<br>존재함:A:portfolio:ownerID=4d94d7da001699b19edf50de15682221</pre>
+
+   `EXISTS:A:$$OBJCODE=PROJ`
+
+   `EXISTS:A:ID=FIELD:projectID`
+
+   `EXISTS:A:portfolio:ownerID=4d94d7da001699b19edf50de15682221`
 
    >[!NOTE]
    >
@@ -252,7 +257,7 @@ Portfolio 소유자 이름별로 문제를 필터링하려면:
 
 >[!IMPORTANT]
 >
->매개 변수는 사용자 정의 양식에서 참조된 필드 라이브러리에 있는 필드입니다. 카테고리 매개 변수는 특정 양식에 나타나는 필드의 버전입니다. 예를 들어 5개의 양식에 동일한 필드가 나타나는 경우, Workfront 데이터베이스에 1개의 매개 변수와 5개의 범주 매개 변수가 있습니다.
+>매개 변수는 사용자 정의 양식에서 참조된 필드 라이브러리에 있는 필드입니다. 카테고리 매개 변수는 특정 양식에 나타나는 필드의 버전입니다. 예를 들어 동일한 필드가 5개의 양식에 나타나는 경우, Workfront 데이터베이스에 1개의 매개 변수와 5개의 범주 매개 변수가 있습니다.
 
 사용자 정의 양식과 연결되지 않은 사용자 정의 필드를 필터링하려면 다음을 수행하십시오.
 
@@ -262,16 +267,17 @@ Portfolio 소유자 이름별로 문제를 필터링하려면:
 1. 클릭 **텍스트 모드로 전환**.
 1. 다음 일반 코드를 참조하십시오.
 
-   ```
-   EXISTS:A:$$OBJCODE=<Object code of the Linking Object>
-   ```
+   `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
 
-   ```
-   EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS
-   ```
+   `EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
 
 1. 다음 코드를 **보고서에 대한 필터 규칙 설정** 위의 일반 코드를 바꿀 영역:
-   <pre>존재함:A:$$OBJCODE=CTGAA<br>존재함:A:parameterID=FIELD:ID<br>존재함:A:$$EXISTSMOD=NOTEXISTS</pre>
+
+   `EXISTS:A:$$OBJCODE=CTGYPA`
+
+   `EXISTS:A:parameterID=FIELD:ID`
+
+   `EXISTS:A:$$EXISTSMOD=NOTEXISTS`
 
    >[!NOTE]
    >
@@ -286,7 +292,7 @@ Portfolio 소유자 이름별로 문제를 필터링하려면:
 
 ### 예제 3: 누락된 개체 필터링: 특정 기간 동안 시간을 기록하지 않은 사용자 {#example-3-filter-for-missing-objects-users-who-did-not-log-time-for-a-certain-period-of-time}
 
-텍스트 모드 인터페이스를 사용하여 특정 기간 동안 시간을 기록하지 않은 사용자를 보기 위한 필터를 작성할 수 있습니다. 이 필터는 사용자를 서로 직접 연결된 시간에 연결합니다. 그러나 누락된 정보.정보를 필터링하려면 EXISTS 문과 텍스트 모드 인터페이스를 사용해야 합니다.
+텍스트 모드 인터페이스를 사용하여 특정 기간 동안 시간을 기록하지 않은 사용자를 보는 필터를 작성할 수 있습니다. 이 필터는 사용자를 서로 직접 연결된 시간에 연결합니다. 그러나 누락된 정보를 필터링하려면 EXISTS 문과 텍스트 모드 인터페이스를 사용해야 합니다.
 
 지난 주 동안 시간을 기록하지 않은 사용자를 필터링하려면 다음을 수행하십시오.
 
@@ -296,19 +302,13 @@ Portfolio 소유자 이름별로 문제를 필터링하려면:
 1. 클릭 **텍스트 모드로 전환**.
 1. 다음 일반 코드를 참조하십시오.
 
-   ```
-   EXISTS:A:$$OBJCODE=<Object code of the Linking Object><br>
-   ```
+   `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
 
-   ```
-   EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS
-   ```
+   `EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
 
 1. 다음 코드를 **보고서에 대한 필터 규칙 설정** 위의 일반 코드를 바꿀 영역:
 
-   ```
-   EXISTS:A:$$OBJCODE=HOUR<br>EXISTS:A:ownerID=FIELD:ID<br>EXISTS:A:entryDate=$$TODAYb-1w<br>EXISTS:A:entryDate_Range=$$TODAYe-1w<br>EXISTS:A:entryDate_Mod=between<br>EXISTS:A:$$EXISTSMOD=NOTEXISTS
-   ```
+   `EXISTS:A:$$OBJCODE=HOUR<br>EXISTS:A:ownerID=FIELD:ID<br>EXISTS:A:entryDate=$$TODAYb-1w<br>EXISTS:A:entryDate_Range=$$TODAYe-1w<br>EXISTS:A:entryDate_Mod=between<br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
 
    >[!NOTE]
    >
@@ -317,7 +317,7 @@ Portfolio 소유자 이름별로 문제를 필터링하려면:
    >* 사용자 및 시간은 Workfront 데이터베이스에서 직접 연결되므로 이 예제에서는 연결 개체가 필요하지 않습니다.
    >* 연결 개체가 없으므로 대상 개체의 개체 코드 HOUR을 사용해야 합니다.
    >* 대상 객체에 대한 연결 필드는 원래 객체에 표시되는 ownerID입니다. 이 필드에는 연결 객체가 없습니다.
-   >* 원래 객체에 표시되는 연결 필드는 대상 객체에 표시되는 시간의 ID(연결 객체 누락)입니다.
+   >* 원래 객체에 표시되는 연결 필드는 대상 객체에 표시되는 ID(시간의)이며, 연결 객체가 없습니다.
    >* 존재함:A:entryDate 문은 Target 개체(시간)를 정의하고 일반 필터 문과 동일한 구문을 사용하는 필드를 나타냅니다. 이렇게 하면 특정 기간(이 경우 이전 주) 동안 시간을 기록하지 않은 사용자만 표시할 수 있습니다.
    >* NOTEXISTS 수정자는 보고서(사용자) 개체에 존재하지 않는 항목(시간)을 찾고 있음을 나타냅니다.
 
@@ -339,7 +339,14 @@ Portfolio 소유자 이름 및 Portfolio 정렬 스코어카드 ID별로 작업�
 
 1. 클릭 **텍스트 모드로 전환**.
 1. 다음 코드를 **보고서에 대한 필터 규칙 설정** 영역:
-   <pre>존재함:A:$$OBJCODE=PROJ<br>존재함:A:ID=FIELD:PROJECTID<br>존재함:A:portfolio:ownerID=4d80ce5200000528787d57807732a33f<br>및:A:존재함:A:$$EXISTSMOD=NOTEXISTS<br>및:A:존재함:A:$$OBJCODE=PROJ<br>및:A:존재함:A:ID=FIELD:PROJECTID<br>및:A:존재함:A:portfolio:alignmentScoreCardID=4da387b00001cbc732bb259355c33dad</pre>
+
+   `EXISTS:A:$$OBJCODE=PROJ`
+   `EXISTS:A:ID=FIELD:projectID`
+   `EXISTS:A:portfolio:ownerID=4d80ce5200000528787d57807732a33f`
+   `AND:A:EXISTS:A:$$EXISTSMOD=NOTEXISTS`
+   `AND:A:EXISTS:A:$$OBJCODE=PROJ`
+   `AND:A:EXISTS:A:ID=FIELD:projectID`
+   `AND:A:EXISTS:A:portfolio:alignmentScoreCardID=4da387b00001cbc732bb259355c33dad`
 
    >[!NOTE]
    >
