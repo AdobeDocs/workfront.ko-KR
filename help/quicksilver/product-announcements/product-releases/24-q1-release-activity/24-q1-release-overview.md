@@ -4,7 +4,7 @@ description: 2024년 1분기 릴리스 개요
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 293e94a73edaf723852fd40e5dfcdfdc9f76ddf8
+source-git-commit: 242c54f8d650b948f4adac079f5e45b6a741f97f
 workflow-type: tm+mt
 source-wordcount: '1567'
 ht-degree: 0%
@@ -279,7 +279,7 @@ ht-degree: 0%
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">이제 Experience Manager Assets Essentials의 메타데이터 매핑에서 을 사용합니다. <code>xcm:keywords</code> 대신 <code>dc:subject</code></a></p><p>[!BADGE In production ]{type=Informative}</p><p>Experience Manager Assets as a Cloud Service 통합의 경험에 맞게 Experience Manager Assets Essentials 통합을 업데이트했습니다. 이제 여러 한 줄 텍스트 필드를 Experience Manager Assets의 단일 필드에 매핑할 때 두 서비스 모두 <code>xcm:keywords</code> 필드.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">이제 Experience Manager Assets Essentials의 메타데이터 매핑에서 을 사용합니다. <code>xcm:keywords</code> 대신 <code>dc:subject</code></a></p><p>[!BADGE In production ]{type=Informative}</p><p>Experience Manager Assets as a Cloud Service 통합의 경험에 맞게 Experience Manager Assets Essentials 통합을 업데이트했습니다. 이제 여러 한 줄 텍스트 필드를 Experience Manager Assets의 단일 필드에 매핑할 때 두 서비스 모두 <code>xcm:keywords</code> 필드.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
