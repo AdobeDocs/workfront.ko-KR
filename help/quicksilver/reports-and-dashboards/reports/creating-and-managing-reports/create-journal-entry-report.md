@@ -1,13 +1,13 @@
 ---
 title: 업데이트 영역에 대한 보고서
-description: 업데이트 영역에 대한 보고서
+description: 저널 게시물 보고서는 이전에 Adobe Workfront API를 통해서만 사용할 수 있었던 프로젝트, 작업, 문제 및 기타 개체의 업데이트 영역에서 시스템 업데이트를 표시합니다. 특정 사용 사례를 위한 고급 보고서이지만, 보다 간편한 형식을 사용하면 Workfront 내의 프로젝트 활동 및 시스템 업데이트에 대해 보다 쉽게 보고할 수 있습니다.
 author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 94c2930d155f38a56fe36e5a09bd29f27d1593f0
 workflow-type: tm+mt
-source-wordcount: '2686'
+source-wordcount: '2765'
 ht-degree: 4%
 
 ---
@@ -38,25 +38,25 @@ ht-degree: 4%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>플랜 </p> </td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td> <p>새로운 기능: 표준 </p><p>또는 </p><p>현재: 플랜 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 편집</p> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 편집</p> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>보고서에 표시하는 분개 항목이 포함된 객체에 대한 권한 보기</p> <p>보고서를 만들면 보고서에 대한 관리 권한을 갖게 됩니다</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>보고서에 표시하는 분개 항목이 포함된 객체에 대한 권한 보기</p> <p>보고서를 만들면 보고서에 대한 관리 권한을 갖게 됩니다</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 전제 조건
 
@@ -68,7 +68,7 @@ ht-degree: 4%
 
 * 보고할 모든 사용자 지정 필드에는 설정이 있습니다. **업데이트 피드의 필드 변경 사항 표시** 활성화되었습니다.
 
-  사용자 정의 필드에 대해 이 설정을 활성화하는 방법에 대해 알아보려면 섹션을 참조하십시오. [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) 이 문서에서 [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+  사용자 정의 필드에 대해 이 설정을 활성화하는 방법을 알아보려면 다음을 참조하십시오. [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#).
 
 ## 분개 기입 보고서 개요
 
@@ -127,7 +127,7 @@ Workfront의 다양한 오브젝트 유형에 대해 자세히 알아보려면 �
  </tbody> 
 </table>
 
-이 보고서에서 정보를 구성하려면 기본 제공 그룹화 프로젝트를 사용할 수 있습니다. 프로젝트 그룹화는 프로젝트 이름의 기본 그룹화와 입력 일자의 보조 그룹화를 제공합니다. 보고서 생성 중에 이 기존 그룹화를 적용하거나 보고서를 볼 때 적용할 수 있습니다.
+이 보고서에서 정보를 구성하려면 Project라는 기본 제공 그룹화를 사용할 수 있습니다. 프로젝트 그룹화는 프로젝트 이름의 기본 그룹화와 입력 일자의 보조 그룹화를 제공합니다. 보고서 생성 중에 이 기존 그룹화를 적용하거나 보고서를 볼 때 적용할 수 있습니다.
 
 보고서에 사용할 보기, 필터 및 그룹화를 설정하는 방법에 대해 알아보려면 관련 섹션을 참조하십시오.
 
@@ -167,7 +167,7 @@ Workfront의 다양한 오브젝트 유형에 대해 자세히 알아보려면 �
 >조건 변경 사항 간의 일 차이를 비교하려면 고급 분석을 사용할 수 있습니다.\
 >향상된 분석에 대한 자세한 내용은 다음을 참조하십시오. [향상된 분석 개요](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 상단에서 을(를) 클릭한 다음 **보고서**.
+1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리에서 을(를) 클릭하고 **보고서**.
 1. 클릭 **새 보고서**&#x200B;을 선택한 다음 을 선택합니다. **저널 게시물**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -281,7 +281,7 @@ Workfront의 다양한 오브젝트 유형에 대해 자세히 알아보려면 �
 
 작업 또는 문제가 삭제된 시간을 보려면 다음 작업을 수행하십시오.
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 상단에서 을(를) 클릭한 다음 **보고서**.
+1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리에서 을(를) 클릭하고 **보고서**.
 1. 클릭 **새 보고서**&#x200B;을 선택한 다음 을 선택합니다. **저널 게시물**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -325,7 +325,7 @@ Workfront의 다양한 오브젝트 유형에 대해 자세히 알아보려면 �
 
    열 추가에 대한 자세한 내용은 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. 다음에서 **필터** 탭을 클릭하고 **필터 규칙 추가**&#x200B;을(를) 클릭한 후 다음을 추가합니다.
+1. 다음에서 **필터** 탭을 클릭하고 **필터 규칙 추가**&#x200B;을(를) 클릭한 후 다음 필터를 추가합니다.
 
    * **유형 변경** > **같음** > **삭제**
    * **프로젝트 ID** > **같음** > **`<project>`**
@@ -365,7 +365,7 @@ Workfront의 다양한 오브젝트 유형에 대해 자세히 알아보려면 �
 
 프로젝트의 라이프 사이클 과정에서 사용자 정의 필드가 어떻게 변경되었는지 확인하려면 다음을 수행하십시오.
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 상단에서 을(를) 클릭한 다음 **보고서**.
+1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리에서 을(를) 클릭하고 **보고서**.
 1. 클릭 **새 보고서**&#x200B;을 선택한 다음 을 선택합니다. **저널 게시물**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -429,7 +429,7 @@ Workfront의 다양한 오브젝트 유형에 대해 자세히 알아보려면 �
 
    열 추가에 대한 자세한 내용은 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. 다음에서 **필터** 탭을 클릭하고 **필터 규칙 추가**&#x200B;을(를) 클릭한 후 다음을 추가합니다.
+1. 다음에서 **필터** 탭을 클릭하고 **필터 규칙 추가**&#x200B;을(를) 클릭한 후 다음 필터를 추가합니다.
 
    * **저널 게시물 필드 이름** > **다음 포함** > **DE**
 
@@ -467,7 +467,7 @@ Workfront의 다양한 오브젝트 유형에 대해 자세히 알아보려면 �
 
 분개 입력 보고서를 설정하여 프로젝트 수명 경과에 따라 계획된 완료 일자가 변경되는 빈도를 표시할 수 있습니다.
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 상단에서 을(를) 클릭한 다음 **보고서**.
+1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리에서 을(를) 클릭하고 **보고서**.
 1. 클릭 **새 보고서**&#x200B;을 선택한 다음 을 선택합니다. **저널 게시물**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -568,7 +568,7 @@ Workfront의 다양한 오브젝트 유형에 대해 자세히 알아보려면 �
 
 분개 기입 보고서를 설정하여 프로젝트 수명 경과에 따라 프로젝트 소유자(또는 프로젝트 관리자)가 변경되는 횟수를 표시할 수 있습니다.
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 상단에서 을(를) 클릭한 다음 **보고서**.
+1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리에서 을(를) 클릭하고 **보고서**.
 1. 클릭 **새 보고서**&#x200B;을 선택한 다음 을 선택합니다. **저널 게시물**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)

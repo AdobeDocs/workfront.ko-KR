@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: use-the-home-area
 title: 홈 영역에서 작업 항목 만들기
-description: 홈 영역에서 작업 항목 만들기
-author: Lisa
+description: 에서 작업 항목을 만들 수 있습니다. [!UICONTROL 홈] 영역입니다. 개인 작업을 직접 만들거나 다른 사용자에게 작업을 요청하거나 특정 프로젝트에 작업을 추가할 수 있습니다.
+author: Nolan
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: ecbba9b1da674328df866ec30e48fe44dd02cb86
+source-git-commit: 644e2487dae0d3b2f7931660fb8e6ed68e6b8b93
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '813'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
