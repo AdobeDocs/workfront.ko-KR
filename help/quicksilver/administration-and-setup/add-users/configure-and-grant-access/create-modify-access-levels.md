@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: f84611ef1c6ba1e5b2ec55375c4eb222bcf1cf5e
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1452'
 ht-degree: 6%
 
 ---
@@ -180,7 +180,7 @@ Adobe Workfront 관리자는 사용자 정의 액세스 수준을 만들고 사�
      </tr> 
      <tr> 
       <td role="rowheader">소속 회사, 그룹 및 팀만 보기</td> 
-      <td>사용자가 자신이 속한 회사, 그룹 및 팀과만 항목을 보고 공유할 수 있도록 해줍니다.</td> 
+      <td>사용자가 자신이 속한 회사, 그룹 및 팀과만 항목을 보고 공유할 수 있도록 해줍니다.<p><strong>참고</strong>: 요청자 라이선스가 있는 사용자는 이 옵션을 선택하더라도 자신이 속하지 않은 회사를 볼 수 없습니다.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">계획된 시간 또는 실제 근로시간 표시 허용 안 함</td> 
