@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
-source-wordcount: '2314'
+source-wordcount: '2316'
 ht-degree: 3%
 
 ---
@@ -204,7 +204,7 @@ Maestro 테이블 보기의 열 헤더에는 보기의 레코드와 관련된 �
 
       테이블 보기에서 숨겨진 필드와 연결된 키워드는 사용할 수 없습니다.
 
-   1. 키보드에서 Enter 키를 눌러 다음 찾은 필드로 이동합니다.
+   1. 누르기 **입력** 키보드에서 다음 찾은 필드로 이동합니다.
 
    1. (선택 사항) 일치 항목이 두 개 이상 있는 경우 검색 키워드 오른쪽에 있는 위쪽 및 아래쪽 화살표를 클릭하여 테이블에서 모든 일치 항목을 찾습니다.
 
@@ -279,7 +279,7 @@ Maestro에서 레코드 유형에 대해 최대 10,000개의 레코드(또는 �
         </thead>
         <tbody>
         <tr>
-            <td>한 줄, 단락 </td>
+            <td>한 줄, 단락, 공식 </td>
             <td><p>다음을 포함함</p>
             <p>다음을 포함하지 않음</p>
             <p>다음과 같음</p>
@@ -296,7 +296,7 @@ Maestro에서 레코드 유형에 대해 최대 10,000개의 레코드(또는 �
             <p>비어 있지 않음</p></td>
         </tr>
         <tr>
-            <td>다중 선택</td>
+            <td>다중 선택, 사람</td>
             <td><p>다음 중 하나 포함</p>
             <p>다음을 모두 포함</p>
             <p>정확함</p>

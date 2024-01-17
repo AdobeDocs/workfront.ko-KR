@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
-source-wordcount: '1659'
+source-wordcount: '1678'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ role: User
 >
 >Maestro용 Beta 프로그램 가입에 대한 자세한 내용은 계정 담당자에게 문의하십시오.
 >
->자세한 내용은 [Adobe 마에스트로 개요](../maestro-overview.md).
+>자세한 내용은 [Adobe 마에스트로 개요](/help/quicksilver/maestro/maestro-overview.md).
 
 Adobe Maestro의 레코드 유형 페이지에 액세스할 때 타임라인 보기에서 레코드를 표시할 수 있습니다.
 
@@ -129,7 +129,12 @@ Maestro 보기에 대한 자세한 내용은 [Adobe Maestro에서 레코드 보�
 
    ![](assets/timeline-view-example.png)
 
-   선택한 레코드 유형과 연관된 레코드는 타임라인에서 막대로 표시되며 기본적으로 시간 순서대로 정렬됩니다.
+   선택한 레코드 유형과 연관된 레코드는 타임라인에 막대로 표시되며 기본적으로 시작 날짜의 시간순으로 정렬됩니다.
+
+   >[!TIP]
+   >
+   >    타임라인에서 레코드 정렬이 약식 보기에 표시되지 않습니다.
+
 
 1. 다음 중 하나를 수행하여 타임라인을 탐색합니다.
 
@@ -165,8 +170,8 @@ Maestro 보기에 대한 자세한 내용은 [Adobe Maestro에서 레코드 보�
 1. 아래 하위 섹션에 설명된 대로 다음 보기 요소를 업데이트합니다.
    * [필터](#add-filters)
    * [그룹화](#add-grouping)
-     <!--* [Sort](#add-sort) not sure if this is present in timeline views?!; also check the anchor and make sure it's correct-->
    * [설정](#edit-the-timeline-view-settings)
+     <!--* [Sort](#add-sort) not sure if this is present in timeline views?!; also check the anchor and make sure it's correct-->
 
 ### 필터 추가
 

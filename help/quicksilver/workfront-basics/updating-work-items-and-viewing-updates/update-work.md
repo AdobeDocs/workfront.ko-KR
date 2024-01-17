@@ -6,9 +6,9 @@ description: Adobe Workfront 개체(프로젝트, 작업 또는 문제)에 업�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
-source-wordcount: '4139'
+source-wordcount: '4110'
 ht-degree: 1%
 
 ---
@@ -17,11 +17,11 @@ ht-degree: 1%
 
 <!-- Audited: 1/2024 -->
 
-<!--take "legacy" and "new commenting" references out when we remove the legacy - Jan 2024???-->
+<!--take "legacy" and "new commenting" references out when we remove the legacy - April 2024???-->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
 
-<span class="preview">현재 릴리스 일정에 대한 자세한 내용은 [2024년 1분기 릴리스 개요](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
 <!--
 After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
@@ -380,10 +380,8 @@ After the monthly releases to Production, the same features are also available i
 
 1. (선택 사항) 이미지를 업데이트에 첨부하려면 다음 중 하나를 수행합니다.
 
-   * <span class="preview">이미지를 컴퓨터에 저장한 다음 새 댓글 영역에 끌어서 놓습니다.</span>
-     <span class="preview">프로덕션 환경에서는 새 주석 달기 환경을 위해 사용할 수 없습니다. 댓글에 이미지를 드래그 앤 드롭하는 것은 프로덕션의 레거시 댓글 달기 환경에서 사용할 수 있습니다. </span>
-
-   * <span class="preview">컴퓨터에서 스크린샷을 복사한 다음 주석에 붙여넣습니다. </span>
+   * 이미지를 컴퓨터에 저장한 다음 새 댓글 영역에 끌어서 놓습니다.
+   * 컴퓨터에서 스크린샷을 복사한 다음 주석에 붙여넣습니다. 기존 댓글 달기 환경에서는 이 기능을 사용할 수 없습니다.
    * 다음을 클릭합니다. **이미지 추가** 아이콘 ![](assets/add-image-mountain-with-plus-icon.png) 컴퓨터에서 이미지를 찾습니다.
 
 
@@ -392,7 +390,7 @@ After the monthly releases to Production, the same features are also available i
    >* 이미지 또는 첨부 파일 추가 아이콘을 보려면 Workfront 관리자가 Workfront 인터페이스 영역의 피드 업데이트 환경 설정 섹션에서 이미지 추가를 활성화해야 합니다. 자세한 내용은 [사용자 업데이트에 대한 환경 설정 구성](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* 최대 이미지 파일 크기는 7MB입니다. 지원되는 이미지 파일 유형은 .jpg, .gif 및 .png입니다.
    >* 이미지는 개체의 업데이트 섹션에서 액세스할 수 있으며 기본 메뉴 아래의 문서 영역에서도 사용할 수 있습니다.
-   >* <span class="preview">새 주석을 마우스 오른쪽 단추로 클릭하거나 키보드에서 Ctrl + V for Windows(또는 CMD + V for Mac)를 눌러 이미지를 붙여넣을 수 있습니다.</span>
+   >* Mac 새 주석을 마우스 오른쪽 단추로 클릭하거나 키보드에서 Ctrl+V(Windows의 경우 ⌘+V)를 눌러 이미지를 붙여넣을 수 있습니다.
    >* 텍스트가 아닌 이미지로 업데이트를 보낼 수 있습니다.
    >* 이미지가 포함된 댓글을 삭제하면 선택한 경험에 따라 다음과 같은 시나리오가 존재합니다.
    >
@@ -404,12 +402,10 @@ After the monthly releases to Production, the same features are also available i
 
 1. (선택 사항) 기존 업데이트에서 이미지를 보려면 다음 중 하나를 수행하십시오.
 
-   * 다음을 클릭합니다. **미리 보기** 아이콘 <span class="preview">![](assets/previewimageicon-31x31.png)</span> 이미지 축소판을 클릭하여 새 브라우저 탭에서 전체 크기 이미지를 엽니다.
+   * 다음을 클릭합니다. **미리 보기** 아이콘 ![](assets/previewimageicon-31x31.png) 이미지 축소판을 클릭하여 새 브라우저 탭에서 전체 크기 이미지를 엽니다.
    * 다음을 클릭합니다. **다운로드** 아이콘 ![](assets/downloadimageicon.png) 이미지를 다운로드하려면 이미지 썸네일에서 을(를) 선택합니다.
 
 1. 클릭 **제출** 주석을 추가합니다.
-
-<div class="preview">
 
 ## 업데이트 검색
 
@@ -422,7 +418,11 @@ After the monthly releases to Production, the same features are also available i
 1. 로 이동 **업데이트** 섹션에 있는 마지막 항목이 될 필요가 없습니다.
 1. 키워드 입력 시작 <!--or a user's name --> 다음에서 **검색** 의 오른쪽 위 모서리에 있는 상자 **댓글** 탭.
 
-   <!--Add this tip when it'll be possible: You can search for users who have been tagged or for comment owners.-->
+   <!--Add this tip or note instead of the note below - when it'll be possible: You can search for users who have been tagged or for comment owners.-->
+
+   >[!NOTE]
+   >
+   >   댓글이나 답글의 텍스트에 속하는 단어만 검색할 수 있습니다. 업데이트에서 태그가 지정된 사용자 또는 팀의 이름은 검색할 수 없습니다.
 
    ![](assets/search-field-in-updates-tab.png)
 
@@ -431,8 +431,6 @@ After the monthly releases to Production, the same features are also available i
    Workfront은 화면에 표시되는 주석 외부에서 개체의 전체 업데이트 스트림을 검색합니다.
 
 1. 다음을 클릭합니다. **x** 아이콘을 클릭하여 검색 결과를 지우고 모든 주석으로 돌아갈 수 있습니다.
-
-</div>
 
 <!-- when we release search to production, check above and make sure you don't have to add that the users tagged/ owners are also searchable-->
 

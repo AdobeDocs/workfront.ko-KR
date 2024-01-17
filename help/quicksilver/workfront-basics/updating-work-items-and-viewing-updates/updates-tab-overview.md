@@ -7,9 +7,9 @@ description: 객체의 업데이트 섹션에는 사용자가 객체에 대해 �
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1179'
 ht-degree: 3%
 
 ---
@@ -17,13 +17,11 @@ ht-degree: 3%
 
 # 업데이트 섹션 개요
 
-<!--take "legacy" and "new commnenting" references out when we remove the legacy - Jan 2024???-->
+<!--take "legacy" and "new commenting" references out when we remove the legacy - April 2024???-->
 
-<!--take "legacy" and "new commenting" references out when we remove the legacy - Jan 2024???-->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. </span>
-
-<span class="preview">현재 릴리스 일정에 대한 자세한 내용은 [2024년 1분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
 
 >[!IMPORTANT]
@@ -46,18 +44,11 @@ ht-degree: 3%
 > * 타임시트의 요약 패널
 > * 업무 균형자의 요약 패널
 
-<!-- with October 26 release: add somewhere this:
-
->[!NOTE]
->
->Iterations display the legacy commenting experience.-->
-
-
 ## 업데이트 섹션 개요
 
 오브젝트의 업데이트 섹션에는 시스템 업데이트와 지난 90일 이내에 수행한 가장 최근 업데이트 사용자 중 최대 200명이 표시됩니다.
 
-<span class="preview">![](assets/updates-tab-after-unified-experience-for-issues.png)</span>
+![](assets/updates-tab-after-unified-experience-for-issues.png)
 
 댓글 달기 경험에 액세스하는 객체에 따라 업데이트 섹션에 대해 다음 경험을 찾을 수 있습니다.
 
@@ -97,7 +88,7 @@ ht-degree: 3%
 
 ### 새 댓글 달기 환경의 업데이트 섹션 개요
 
-<span class="preview">![](assets/updates-tab-after-unified-experience-for-tasks.png)</span>
+![](assets/updates-tab-after-unified-experience-for-tasks.png)
 
 >[!NOTE]
 >
@@ -250,7 +241,7 @@ Adobe Workfront 관리자 및 그룹 관리자는 다른 사용자로 로그인�
 
 자세한 내용은 [다른 사용자로 로그인](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
-다른 사용자로 로그인하고 주석을 추가할 때 다음 사항을 고려하십시오.
+다른 사용자로 로그인하고 주석을 추가할 때는 다음 사항을 고려하십시오.
 
 * 다른 사용자를 대신하여 작성한 모든 주석은 주석에 표시됩니다.
 

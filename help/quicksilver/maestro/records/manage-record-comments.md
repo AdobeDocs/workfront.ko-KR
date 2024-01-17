@@ -4,9 +4,9 @@ description: 레코드의 댓글 영역에 댓글 또는 답글을 추가하여 
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '991'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
 
-<span class="preview">현재 릴리스 일정에 대한 자세한 내용은 [2024년 1분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
 레코드의 댓글 영역에 댓글 또는 답글을 추가하여 Adobe Maestro 레코드에 대해 공동 작업을 수행할 수 있습니다.
 
@@ -144,9 +144,9 @@ ht-degree: 0%
    >
    >현재 연도의 주석은 날짜 스탬프에 연도를 표시하지 않습니다. 타임스탬프를 마우스로 가리키면 연도를 포함한 전체 날짜가 표시됩니다.
 
-1. <span class="preview">(선택 사항 및 조건부) 기존 댓글을 검색하려면 의 오른쪽 위 모서리에 있는 검색 상자에 키워드를 입력하십시오. **댓글** 영역입니다.</span>
+1. (선택 사항 및 조건부) 기존 댓글을 검색하려면 의 오른쪽 위 모서리에 있는 검색 상자에 키워드를 입력하십시오. **댓글** 영역입니다.
 
-   <span class="preview">![](assets/search-box-for-comments-area.png)</span>
+   ![](assets/search-box-for-comments-area.png)
 
 1. (선택 사항) **답변** 또는에서 댓글을 입력해 보십시오. **회신 추가...** 영역을 클릭하여 기존 댓글에 응답한 다음 위의 4-8단계를 수행합니다. <!--(**************accurate??***********)-->
 

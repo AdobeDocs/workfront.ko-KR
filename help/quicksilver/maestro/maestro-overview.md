@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
-source-wordcount: '1903'
+source-wordcount: '1948'
 ht-degree: 1%
 
 ---
@@ -48,9 +48,11 @@ Adobe Maestro는 Adobe Workfront의 새로운 서비스입니다. Maestro의 목
 * 조직에서 사용하는 개체 유형(또는 레코드 유형) 결정부터 이러한 개체가 서로 연결되는 방법을 구성하는 등 워크플로를 완전히 사용자 지정합니다.
 * 다른 시스템의 오브젝트 유형에 연결하여 모든 프로세스에 대해 일관된 프레임워크를 만듭니다.
 
-## 현재 Maestro에서 사용 가능한 기능
+## 현재 사용 가능한 Maestro 기능
 
 다음 표는 Maestro에서 사용할 수 있는 주요 기능과 해당 기능의 사용 가능 시간표를 보여 줍니다. 목록에 모든 기능이 포함되지 않습니다.
+
+새로운 기능과 출시된 시기에 대한 자세한 내용은 [Maestro 릴리스 활동](/help/quicksilver/maestro/release-activity.md).
 
 | 기능 | 현재 사용 가능 | 곧 사용 가능 | 연구 중 |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
@@ -202,7 +204,7 @@ Maestro를 위한 프레임워크는 완전히 맞춤화가 가능합니다. 조
    * 확인란
    * 공식
    * 사용자
-   * 제작자:
+   * 제작자
    * 제작 일자
    * 마지막 수정자
    * 마지막 수정일
@@ -221,6 +223,8 @@ Maestro를 위한 프레임워크는 완전히 맞춤화가 가능합니다. 조
   레코드 종류 간에 연결을 설정한 후 해당 형식의 개별 레코드를 서로 연결할 수 있습니다. 레코드 간의 연결은 연결된 레코드 필드로 표시됩니다.
 
 * **연결된 필드** (또는 조회 필드): 두 레코드 유형 간에 연결을 설정하고 개별 레코드를 함께 연결하면 연결 중인 레코드에서 연결된 레코드의 필드를 참조할 수 있습니다.
+
+  예를 들어 Maestro 캠페인을 Workfront 프로젝트와 연결하는 경우 Maestro 캠페인 레코드에 연결된 프로젝트의 프로젝트 소유자 필드를 표시할 수 있습니다.
 
   ![](assets/add-lookup-fields-modal.png)
 
@@ -268,7 +272,7 @@ Maestro를 위한 프레임워크는 완전히 맞춤화가 가능합니다. 조
 
 ## Maestro 찾기
 
-조직에서 Maestro에 대한 액세스 권한을 받았으며 시스템 또는 그룹 관리자가 Main Menu에 Maestro 영역을 추가했는지 확인합니다.
+조직에서 Maestro에 대한 액세스 권한을 받았으며 시스템 또는 그룹 관리자가 Main Menu에 Maestro 영역을 추가했는지 확인합니다. 자세한 내용은 [액세스 개요](/help/quicksilver/maestro/access/access-overview.md) .
 
 Maestro를 찾으려면
 

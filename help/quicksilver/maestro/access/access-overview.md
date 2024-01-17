@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 >
 >Maestro용 Beta 프로그램 가입에 대한 자세한 내용은 계정 담당자에게 문의하십시오.
 >
->자세한 내용은 [Adobe 마에스트로 개요](../maestro-overview.md).
+>자세한 내용은 [Adobe 마에스트로 개요](/help/quicksilver/maestro/maestro-overview.md).
 
 Adobe Maestro 기능을 사용하려면 라이선스 및 공유 권한 제한이 있습니다.
 

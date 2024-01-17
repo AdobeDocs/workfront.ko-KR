@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: daa195b0273a232692fe47691a2926579b87ba6b
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '800'
 ht-degree: 0%
 
 ---
@@ -135,14 +135,13 @@ Adobe Maestro에서 레코드 유형을 선택한 후 다음 보기에서 해당
 | 외부 목록에서 행을 복사하여 표에 붙여넣기 | ✓ 덧신 |               |
 | 타임라인에 레코드 표시 |            | ✓ 덧신 |
 | 레코드 필터링 | ✓ 덧신 | ✓ 덧신 |
-| 그룹 레코드 |           | ✓ 덧신 |
+| 그룹 레코드 | ✓ 덧신 | ✓ 덧신 |
 | 레코드 정렬 | ✓ 덧신 |              |
 | 색상 코드 레코드 |           | ✓ 덧신 |
 | 색상 코드 그룹화 |           | ✓ 덧신 |
-| 레코드 검색 | ✓ 덧신 | ✓ 덧신 |
-
-<!--| Sort groupings                                                        | ✓          | ✓             |-->
-<!--| Display a limited number of fields as columns, by default                      | ✓          |               |-->
+| 특정 레코드 검색 | ✓ 덧신 | ✓ 덧신 |
+| 보기 공유 | ✓ 덧신 | ✓ 덧신 |
+| 보기에서 레코드의 세부 정보 페이지를 엽니다. | ✓ 덧신 | ✓ 덧신 |
 
 ## 보기 만들기 또는 편집 {#create-or-edit-views}
 
@@ -171,15 +170,11 @@ Adobe Maestro에서 레코드 유형을 선택한 후 다음 보기에서 해당
    기본적으로 Maestro는 &quot;Table &lt; number >&quot; 또는 &quot;Timeline &lt; number >&quot; 보기 이름을 지정합니다. 이 숫자는 자동으로 생성된 증가값입니다.
 
 1. (선택 사항) 뷰를 만든 후 이름을 변경하려면 뷰 드롭다운 메뉴를 클릭한 다음, **자세히** 메뉴 ![](assets/more-menu.png) > **이름 바꾸기** 를 클릭하여 뷰 이름을 업데이트합니다. <!--ensure there is not another saving step here?!-->
-1. (선택 사항) 보기를 관리하려면 다음 문서를 참조하십시오.
+1. (선택 사항) 특정 유형의 보기를 관리하려면 다음 문서를 참조하십시오.
 
    * [표 보기 관리](../views/manage-the-table-view.md)
    * [타임라인 보기 관리](../views/manage-the-timeline-view.md)
 
-
-<!--# Add a view as a favorite - this is not possible yet-->
-
-<!-- ## Share views - not possible yet-->
 
 ## 보기 삭제
 
@@ -202,6 +197,7 @@ Adobe Maestro에서 레코드 유형을 선택한 후 다음 보기에서 해당
 
 보기 공유에 대한 자세한 내용은 [보기 공유](/help/quicksilver/maestro/access/share-views.md).
 
+<!--## Add a view as a favorite - this is not possible yet-->
 
 <!--not possible yet - August 30, 2023: 
 
