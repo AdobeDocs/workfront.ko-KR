@@ -1,25 +1,25 @@
 ---
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: 링크와 작업 로드 밸런서 공유
-description: 작업 로드 밸런서를 사용 가능한 리소스 영역이 없을 수 있는 다른 사용자와 공유할 수 있습니다. 작업 로드 밸런서 사용에 대한 자세한 내용은 작업 로드 밸런서 탐색 을 참조하십시오.
-author: Alina
+title: 링크를 사용하여 업무 균형자 공유
+description: 리소스 조달 영역을 사용할 수 없는 다른 사용자와 업무 균형자 를 공유할 수 있습니다. 업무 균형자 사용에 대한 자세한 내용은 업무 균형자 탐색을 참조하십시오.
+author: Lisa
 feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
-source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
+source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 0%
 
 ---
 
-# 링크와 작업 로드 밸런서 공유
+# 링크를 사용하여 업무 균형자 공유
 
-작업 로드 밸런서를 사용 가능한 리소스 영역이 없을 수 있는 다른 사용자와 공유할 수 있습니다. 작업 로드 밸런서 사용에 대한 자세한 내용은 [작업 로드 밸런서 탐색](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+리소스 조달 영역을 사용할 수 없는 다른 사용자와 업무 균형자 를 공유할 수 있습니다. 업무 균형자 사용에 대한 자세한 내용은 [업무 균형자 탐색](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## 액세스 요구 사항
 
-이 문서의 절차를 수행하려면 다음 액세스 권한이 있어야 합니다.
+이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -27,16 +27,16 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든 계획</p> </td> 
+   <td> <p>모든 플랜</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스*</td> 
-   <td> <p>리소스 영역에서 작업 로드 밸런서를 사용할 계획</p>
-   <p>작업, 팀 또는 프로젝트의 작업 로드 밸런서를 사용할 때</p> </td> 
+   <td role="rowheader">Adobe Workfront 라이센스*</td> 
+   <td> <p>리소스 조달 영역에서 업무 균형자 를 사용할 때 계획</p>
+   <p>팀 또는 프로젝트의 업무 균형자 를 사용할 때 작업</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>다음 항목에 대한 액세스 권한 보기 이상:</p> 
+   <td> <p>다음에 대한 액세스 권한 이상:</p> 
     <ul> 
      <li> <p>리소스 관리</p> </li> 
      <li> <p>프로젝트</p> </li> 
@@ -44,91 +44,91 @@ ht-degree: 0%
      <li> <p>문제</p> </li> 
     </ul> <p><b>메모</b>
 
-여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한 사항을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td>
+여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>프로젝트, 작업 및 문제에 대한 권한 보기 이상 </p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>프로젝트, 작업 및 문제에 대한 이상의 권한 보기 </p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;어떤 계획, 라이선스 유형 또는 액세스 권한을 보유하고 있는지 알아보려면 Workfront 관리자에게 문의하십시오.
+&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
 
-## 공유 링크에서 작업 로드 밸런서에 포함된 정보를 볼 때
+## 공유 링크에서 볼 때 업무 균형자에 포함된 정보
 
-다른 사용자와 작업 로드 밸런서에 대한 링크를 공유하면 공유 링크에 다음 정보가 포함됩니다.
+다른 사용자와 업무 균형자 링크를 공유할 때 공유 링크에 다음 정보가 포함됩니다.
 
-* 작업 로드 밸런서의 지정된 작업 영역입니다.
-* 프로젝트, 작업, 사용자 정보 여기에는 사용자 할당 정보가 포함됩니다.
-* 선택한 필터에 따라 정보가 표시됩니다.
+* 업무 균형자의 할당된 작업 영역입니다.
+* 프로젝트, 작업, 사용자 정보. 여기에는 사용자 할당 정보가 포함됩니다.
+* 정보는 선택한 필터에 따라 표시됩니다.
 
-   >[!IMPORTANT]
-   >
-   >링크를 공유한 후 필터를 삭제하면 링크에서 작업 로드 밸런서를 보는 사용자에게 필터가 삭제되었다는 경고가 표시됩니다. 할당된 작업 영역의 모든 사용자를 봅니다. 작업 로드 밸런서의 기본 보기입니다.
+  >[!IMPORTANT]
+  >
+  >링크를 공유한 후 필터를 삭제하면 링크에서 업무 균형자를 보는 사용자에게 필터가 삭제되었다는 경고가 표시됩니다. 할당된 작업 영역에서 모든 사용자를 봅니다. 업무 균형자에 대한 기본 보기입니다.
 
 * 이전에 선택한 주 수입니다.
 
-공유 링크에서 작업 로드 밸런서를 보는 사용자는 다음 옵션을 사용하여 업데이트할 수 있습니다.
+공유 링크에서 업무 균형자 를 보는 사용자는 다음 옵션을 사용하여 자신을 업데이트할 수 있습니다.
 
-* 다음 타임라인 선택:
+* 다음 타임라인 선택 사항:
 
    * 오늘
-   * 뒤로 및 전달 아이콘
+   * 뒤로 및 앞으로 아이콘
    * 달력 선택
 
 * 일, 주 및 월 아이콘
 * 설정 아이콘
 * 할당 표시 아이콘
 
-   이러한 옵션 사용에 대한 자세한 내용은 [작업 로드 밸런서 탐색](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+  이러한 옵션 사용에 대한 자세한 내용은 [업무 균형자 탐색](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 * 역할 할당 표시 아이콘
 
-   프로젝트의 작업 로드 밸런서에만 사용할 수 있습니다.
+  프로젝트의 업무 균형자에 대해서만 사용할 수 있습니다.
 
-공유 링크를 받은 사용자는 이 링크에서 작업 로드 밸런서에서 다음을 수행할 수 없습니다.
+공유 링크를 받은 사용자는 이 링크에서 업무 균형자에서 다음 작업을 수행할 수 없습니다.
 
 * 사용자에게 작업 항목 할당
 * 사용자 할당 관리
-* 원래 적용된 필터를 새로 만들거나 업데이트합니다
+* 새 필터를 빌드하거나 원래 적용된 필터 업데이트
 
-## 공유 링크에서 작업 로드 밸런서에서 정보를 보는 데 필요한 액세스
+## 공유 링크에서 업무 균형자에서 정보를 보는 데 필요한 액세스 권한
 
-공유 링크에서 작업 로드 밸런서의 정보를 보려면 다음 액세스 권한이 필요합니다.
+공유 링크에서 업무 균형자에 있는 정보를 보려면 다음 액세스 권한이 필요합니다.
 
-* 유효한 Adobe Workfront 라이센스이며 Workfront에 로그인해야 합니다.
-* 적어도 액세스 수준에서 리소스 관리에 대한 액세스 권한을 봅니다. 리소스 관리 액세스 권한 부여에 대한 자세한 내용은 [리소스 관리에 대한 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
-* 작업 로드 밸런서에 표시된 프로젝트, 작업, 문제 및 사용자에 대한 권한을 봅니다.
+* 유효한 Adobe Workfront 라이선스이며 Workfront에 로그인해야 합니다.
+* 액세스 수준에서 리소스 관리에 대한 적어도 보기 액세스 권한. 리소스 관리 액세스 권한 부여에 대한 자세한 내용은 [리소스 관리에 대한 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+* 업무 균형자에 표시되는 프로젝트, 작업, 문제 및 사용자에 대한 권한을 봅니다.
 
-## 링크에서 다른 사용자와 작업 로드 밸런서를 공유합니다
+## 링크에서 다른 사용자와 업무 균형자 공유
 
-1. 작업 로드 밸런서로 이동
+1. 업무 균형자로 이동
 
-   작업 로드 밸런서 액세스에 대한 자세한 내용은 [작업 로드 밸런서 탐색](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+   업무 균형자 액세스에 대한 자세한 내용은 [업무 균형자 탐색](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 1. (선택 사항) 다음 중 하나 이상을 수행합니다.
 
    * 기간 선택을 업데이트합니다.
-   * 클릭 **일, 주**, 또는 **월** 일별, 주별 또는 월별 정보를 보려면
+   * 클릭 **일, 주**, 또는 **월** 일별, 주별 또는 월별 정보를 조회합니다.
 
-      ![](assets/month-icon-on-toolbar-selected-wb-350x226.png)
+     ![](assets/month-icon-on-toolbar-selected-wb-350x226.png)
 
-   * 지정되지 않음 및 지정된 작업 영역에 필터를 적용합니다.
+   * 미할당 및 할당된 작업 영역에 필터를 적용합니다.
 
-      작업 로드 밸런서의 필터링 정보에 대한 자세한 내용은 [작업 로드 밸런서에서 정보 필터링](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+     업무 균형자에서 정보를 필터링하는 방법에 대한 자세한 내용은 [업무 균형자에서 정보 필터링](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 
-1. 을(를) 클릭합니다. **링크 아이콘** ![](assets/wb-shearable-link-icon-small.png).
+1. 다음을 클릭합니다. **링크 아이콘** ![](assets/wb-shearable-link-icon-small.png).
 
-   그러면 링크가 클립보드에 추가됩니다.
+   이렇게 하면 클립보드에 링크가 추가됩니다.
 
-1. 다음 중 하나를 수행하여 링크를 다른 사용자와 공유합니다.
+1. 다음 중 하나를 수행하여 다른 사용자와 링크를 공유합니다.
 
-   * 전자 메일, 채팅 메시지 또는 기타 응용 프로그램에 붙여넣고 다른 사용자와 공유합니다.
-   * 사용자 지정 섹션에 외부 페이지로 추가하고, 사용자 프로필에 사용자 지정 섹션을 추가하거나, 레이아웃 템플릿에 추가한 다음 사용자, 팀, 작업 역할 또는 그룹과 레이아웃 템플릿을 공유합니다.
+   * 전자 메일, 채팅 메시지 또는 다른 애플리케이션에 붙여 넣고 다른 사용자와 공유합니다.
+   * 사용자 정의 섹션에 외부 페이지로 추가하고, 사용자 정의 섹션을 사용자 프로필 또는 레이아웃 템플릿에 추가한 다음, 사용자, 팀, 작업 역할 또는 그룹과 레이아웃 템플릿을 공유합니다.
 
-      외부 페이지 만들기에 대한 내용은 [대시보드에 외부 웹 페이지 포함](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). 레이아웃 템플릿에 사용자 지정 섹션 추가에 대한 내용은 [레이아웃 템플릿을 사용하여 왼쪽 패널 사용자 정의](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+     외부 페이지 만들기에 대한 내용은 [외부 웹 페이지를 대시보드에 포함](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). 레이아웃 템플릿에 사용자 정의 섹션을 추가하는 방법에 대한 자세한 내용은 [레이아웃 템플릿을 사용하여 왼쪽 패널 사용자 정의](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
-      >[!IMPORTANT]
-      >
-      >작업 로드 밸런서를 객체의 사용자 지정 섹션에 추가하면 작업 로드 밸런서의 정보가 객체에 의해 필터링되지 않습니다. 작업 로드 밸런서는 원래 적용된 필터로 필터링된 정보를 표시합니다.
+     >[!IMPORTANT]
+     >
+     >업무 균형자 를 객체의 사용자 정의 섹션에 추가할 때 업무 균형자에 있는 정보가 객체에 의해 필터링되지 않습니다. 업무 균형자에 원래 적용된 필터로 필터링된 정보가 표시됩니다.

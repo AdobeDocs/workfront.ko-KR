@@ -9,14 +9,16 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1353ab04-7de7-4d30-a092-27807c950777
-source-git-commit: 9c4aa8d1f812299ba6cdcb664b990c1119e3cb31
+source-git-commit: b5e0a590d258df4510a0bb6a44b57099f32ae6b9
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '927'
 ht-degree: 0%
 
 ---
 
 # 그룹 개요
+
+<!-- Audited: 01/2024 -->
 
 Workfront 관리자는 부서 구조와 일치하는 사용자 그룹을 만들 수 있습니다. 그룹은 팀 및 회사와 유사하지만 다릅니다.
 
@@ -28,7 +30,7 @@ Workfront 관리자는 그룹에게 작업과 통신이 필요한 Workfront 영�
 
 ## 그룹을 사용하여 사용자 구성
 
-Workfront 관리자 또는 그룹 관리자는 사용자를 그룹 및 하위 그룹과 연결할 수 있습니다. 그룹을 공개하는 경우 플래너 라이선스를 가진 사용자가 사용자를 그룹에 연결할 수 있습니다. 그룹 관리자 및 공용 그룹에 대한 자세한 내용은 [그룹 만들기](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+Workfront 관리자 또는 그룹 관리자는 사용자를 그룹 및 하위 그룹과 연결할 수 있습니다. 그룹을 공개로 설정하는 경우 Standard(신규) 또는 Plan(현재) 라이선스를 가진 사용자가 사용자와 그룹을 연결할 수 있습니다. 그룹 관리자 및 공용 그룹에 대한 자세한 내용은 [그룹 만들기](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
 사용자를 만들 때 해당 사용자를 적절한 홈 그룹 과 사용자가 작업해야 하는 다른 그룹에 추가하는 것이 좋습니다. 사용자는 홈 그룹을 하나만 가질 수 있지만 여러 다른 그룹에 있을 수 있습니다.
 

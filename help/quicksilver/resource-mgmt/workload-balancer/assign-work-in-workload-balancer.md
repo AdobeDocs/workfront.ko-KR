@@ -3,10 +3,10 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: 업무 균형자에서 작업 할당 개요
 description: 리소스 관리자는 Adobe Workfront 업무 균형자 를 사용하여 사용자에게 아직 할당되지 않은 작업 항목을 보고 사용자에게 할당할 수 있습니다.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
 workflow-type: tm+mt
 source-wordcount: '1033'
 ht-degree: 1%

@@ -3,10 +3,10 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: 업무 균형자에서 정보 필터링
 description: 작업 항목을 효율적으로 찾고 관리하는 사용자 또는 항목에 집중하려면 업무 균형자에서 필터를 사용하는 것이 좋습니다.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
 workflow-type: tm+mt
 source-wordcount: '2460'
 ht-degree: 0%

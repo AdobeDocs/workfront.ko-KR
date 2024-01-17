@@ -3,17 +3,19 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: 업무 균형자에서 사용자 할당 관리
 description: 리소스 관리자는 사용자에게 작업을 할당하고 업무 균형자에서 일별, 주별 또는 월별 할당을 관리할 수 있습니다.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: d1390144d60aee3f278729da230a3458b49ca4f0
+source-git-commit: 4be7592784502e44ed69c8c5cd72c2a719e3d6d7
 workflow-type: tm+mt
-source-wordcount: '2807'
+source-wordcount: '2797'
 ht-degree: 0%
 
 ---
 
 # 업무 균형자에서 사용자 할당 관리
+
+<!-- Audited: 01/2024 -->
 
 {{highlighted-preview}}
 
@@ -28,42 +30,46 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든 </p> </td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td> <p>임의 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>리소스 조달 영역에서 업무 균형자 를 사용할 때 계획</p>
-   <p>팀 또는 프로젝트의 업무 균형자 를 사용할 때 작업</p>
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td>
+   <p>리소스 조달 영역에서 업무 균형자 를 사용할 때 필요한 사항은 다음과 같습니다.</p>
+   <p>새로운 기능: 표준</p>
+   <p>또는</p>
+   <p>현재: 플랜</p>
+   <p>팀 또는 프로젝트의 업무 균형자 를 사용할 때 필요한 사항은 다음과 같습니다.</p>
+   <p>새로운 기능: 표준</p>
+   <p>또는</p>
+   <p>현재: 작업</p>
  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
+   <td role="rowheader">액세스 수준 구성</td> 
    <td> <p>다음에 대한 액세스 권한 편집:</p> 
     <ul> 
      <li> <p>리소스 관리</p> </li> 
      <li> <p>프로젝트</p> </li> 
      <li> <p>작업</p> </li> 
      <li> <p>문제</p> </li> 
-    </ul> <p>여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+    </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>할당을 관리할 작업 및 문제에 할당 만들기를 포함하는 이상의 Contribute 권한 </p> <p>또는 </p> <p>할당 업데이트 외에 계획된 시간을 업데이트할 작업에 대한 권한을 관리합니다. 업무 균형자에서 계획된 시간을 업데이트하는 방법에 대한 자세한 내용은 <a href="#update-task-planned-hours-when-managing-user-allocations">사용자 할당 관리 시 작업 계획 시간 업데이트</a> 이 문서의 섹션. </p> <p>작업 권한에 대한 자세한 내용은 <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md">작업 공유 </a><span> 문제 권한에 대한 자세한 내용은</span> <span href="../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md">문제 공유 </a></span>. </p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>할당을 관리할 작업 및 문제에 할당 만들기를 포함하는 이상의 Contribute 권한 </p> <p>또는 </p> <p>할당 업데이트 외에 계획된 시간을 업데이트할 작업에 대한 권한을 관리합니다. 업무 균형자에서 계획된 시간을 업데이트하는 방법에 대한 자세한 내용은 <a href="#update-task-planned-hours-when-managing-user-allocations">사용자 할당 관리 시 작업 계획 시간 업데이트</a> 이 문서의 섹션.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 사용자 할당 이해
 
 사용자 할당은 사용자가 작업 항목을 완료하기 위해 주어진 일 또는 평일, 주 또는 월에 소비해야 하는 시간을 나타내는 시간입니다. 작업 항목의 계획된 시간에 포함됩니다.
 
 이 문서에서는 작업 또는 문제에 할당된 사용자의 일별, 주별 또는 월별 시간별 할당을 업데이트하는 방법에 대해 설명합니다. 작업에 대한 사용자 및 작업 역할의 전체 할당 관리에 대한 자세한 내용은 다음을 참조하십시오. [작업에 대한 사용자 및 역할 할당 시간 관리](../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md).
-
-* [사용자 할당 개요](#user-allocation-overview)
-* [사용자 할당을 재설정하는 기준](#criteria-that-reset-user-allocations)
 
 ### 사용자 할당 개요 {#user-allocation-overview}
 
@@ -89,23 +95,23 @@ ht-degree: 0%
 * 근무일과 비근무일 모두에 대한 할당을 갱신할 수 있습니다.
 * Workfront이 작업에 대한 일별 할당을 자동으로 계산할 때 작업 항목의 계획된 시작 일자 및 계획된 완료 일자와 프로젝트 일정에 대한 타임스탬프가 중요합니다.
 
->[!INFO]
->
-> 예를 들어, 작업의 기간 이 2일과 2시간이고, 사용자가 있는 기간의 첫 날에 계획된 시작 시간이 오후 12시이고, 프로젝트 일정이 오후 5시에 끝나는 경우입니다. 사용자의 첫 번째 날 수용 시간은 5시간입니다. 둘째 날 사용자의 용량은 8시간입니다(일정이 오전 9시에 시작하는 경우).
->
->Workfront은 다음 공식을 사용하여 기간 2일에 대한 2시간의 할당을 계산합니다.
->
->`Daily allocation hours = (Total Planned Hours / Total of available hours) * Daily available hours`
->
->  예를 들어 각 날의 일일 할당 시간은 다음과 같습니다.
->   
->  (2 / 13) * 5 = 첫 번째 날의 0.77 할당 시간
->
->  (2 / 13) * 8 = 두 번째 날의 할당 시간 1.23
->
->  위의 계산에서 13은 작업에 사용할 수 있는 총 시간입니다. 5 + 8 = 13
+  >[!INFO]
+  >
+  > 예를 들어, 작업의 기간 이 2일과 2시간이고, 사용자가 있는 기간의 첫 날에 계획된 시작 시간이 오후 12시이고, 프로젝트 일정이 오후 5시에 끝나는 경우입니다. 사용자의 첫 번째 날 수용 시간은 5시간입니다. 둘째 날 사용자의 용량은 8시간입니다(일정이 오전 9시에 시작하는 경우).
+  >
+  >Workfront은 다음 공식을 사용하여 기간 2일에 대한 2시간의 할당을 계산합니다.
+  >
+  >`Daily allocation hours = (Total Planned Hours / Total of available hours) * Daily available hours`
+  >
+  >예를 들어 각 날의 일일 할당 시간은 다음과 같습니다.
+  >   
+  >(2 / 13) * 5 = 첫 번째 날의 0.77 할당 시간
+  >
+  >(2 / 13) * 8 = 두 번째 날의 할당 시간 1.23
+  >
+  >위의 계산에서 13은 작업에 사용할 수 있는 총 시간입니다. 5 + 8 = 13
 
-* 할당된 사용자와 다른 시간대의 다른 시간대 또는 일정에 있는 두 명의 사용자로 인해 동일한 작업 항목을 보는 두 명의 사용자에게 할당 금액이 다르게 표시될 수 있습니다.
+* 할당된 사용자와 다른 시간대의 다른 시간대나 일정에 있는 두 명의 사용자로 인해 동일한 작업 항목을 보는 두 명의 사용자에게 할당 금액이 다르게 표시될 수 있습니다.
 
 * 사용자가 휴무를 예약한 경우 요일 또는 요일 부분이 회색 배경으로 표시됩니다. Workfront 관리자가 사용자의 휴가를 고려하도록 설정 영역에서 사용자 휴가 설정을 활성화한 경우 할당된 시간이 타임라인에서 다음 사용 가능한 날로 이동합니다. 이 설정을 사용하지 않으면 할당된 시간이 휴무로 표시된 날에 남아 있고 사용자가 초과 할당된 시간으로 표시됩니다. 자세한 내용은 [시스템 전체 프로젝트 환경 설정 구성](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
@@ -122,13 +128,13 @@ ht-degree: 0%
 
 * 작업 또는 문제가 계획된 완료 일자 이전에 완료된 경우 나머지 일수에 할당된 시간이 취소되고 사용자의 전체 할당에 계산되지 않습니다. 할당 표시 아이콘과 예상 일자 표시 설정이 모두 활성화된 경우에만 표시됩니다. 업무 균형자에서 설정을 활성화하는 방법에 대한 자세한 내용은 [업무 균형자 탐색](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-  ![](assets/allocations-struck-through-highlighted-350x39.png)
+  ![할당된 시간 초과](assets/allocations-struck-through-highlighted.png)
 
 * 사용자가 초과 할당되면 할당된 시간이 사용자 필드에 빨간색 배경과 함께 표시됩니다.
 * 사용자가 과소 할당되거나 예약된 사용 가능한 시간과 동일한 시간이 할당되면 시간은 파란색 배경과 함께 표시됩니다.
 * 사용자 라인의 차트 보기에서 사용자 할당을 표시할 수 있습니다. 사용자 할당에 대한 차트 보기를 활성화하는 방법에 대한 자세한 내용은 문서의 &quot;업무 균형자 탐색&quot; 섹션을 참조하십시오 [업무 균형자 탐색](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-  ![](assets/user-allocation-chart-350x237.png)
+  ![사용자 할당 차트](assets/user-allocation-chart.png)
 
 ### 사용자 할당을 재설정하는 기준 {#criteria-that-reset-user-allocations}
 
@@ -137,9 +143,6 @@ ht-degree: 0%
 >[!NOTE]
 >
 >작업 항목에 대한 할당의 자동 배포를 수정하지 않은 경우, 작업 항목에 대한 할당자 수, 작업 기간 또는 계획된 시간이 변경되면 모든 할당자에게 시간이 균등하게 재분배됩니다.
-
-* [조정된 할당을 재설정하는 작업](#actions-that-reset-adjusted-allocations)
-* [조정된 할당을 재설정하지 않는 작업](#actions-that-do-not-reset-adjusted-allocations)
 
 #### 조정된 할당을 재설정하는 작업 {#actions-that-reset-adjusted-allocations}
 
@@ -154,7 +157,7 @@ ht-degree: 0%
 작업 항목에 대한 다음 변경은 재설정이나 수정으로 조정된 할당을 트리거하지 않습니다.
 
 * 작업 항목의 일 수를 이동하지만 기간에 있는 일 수는 변경되지 않으면 조정된 할당 값이 동일하게 유지되고 새 날짜로 이동합니다.
-* 작업 항목의 [기간]을 늘려 [기간]의 일 수를 늘리면 조정된 할당 시간이 조정된 일에 대해 동일하게 유지됩니다. 할당된 시간이 0인 작업 항목에 추가 일수가 추가됩니다.
+* 기간 일수를 늘리는 작업 항목의 기간을 늘리면 조정된 할당 시간은 조정된 일수에 대해 동일하게 유지됩니다. 할당된 시간이 0인 작업 항목에 추가 일수가 추가됩니다.
 * 작업 항목에 피할당자를 추가하거나 제거해도 항목의 계획된 시간이 변경되지 않으면 조정된 값이 그대로 유지됩니다.
 
 ## 업무 균형자에서 계획된 시간 찾기
@@ -176,11 +179,11 @@ ht-degree: 0%
 1. 업무 균형자로 이동합니다.
 1. (선택 사항) **주** 또는 **월** 를 사용하여 사용자의 주별 또는 월별 할당을 관리할 수 있습니다.
 
-   ![](assets/month-icon-on-toolbar-selected-wb-350x226.png)
+   ![주 또는 월 선택](assets/month-icon-on-toolbar-selected-wb-350x226.png)
 
 1. 다음에서 **할당된 작업** 영역에서 할당을 수동으로 수정할 사용자를 찾은 다음 사용자 이름 왼쪽의 오른쪽 화살표를 클릭하여 사용자를 확장합니다.
 
-   ![](assets/wb-highlight-on-name-caret-350x106.png)
+   ![사용자 확장](assets/wb-highlight-on-name-caret2.png)
 
 1. 프로젝트 이름의 왼쪽에 있는 마우스 오른쪽 단추를 클릭하여 프로젝트를 확장하고 사용자에게 할당된 작업 항목을 표시합니다.
 
@@ -188,15 +191,15 @@ ht-degree: 0%
    >
    >작업 및 문제에 대해서만 사용자 할당을 수정할 수 있습니다. 프로젝트에 대한 사용자 할당은 수정할 수 없습니다.
 
-1. (선택 사항) **할당 표시 아이콘** ![](assets/show-allocations-icon-small.png) 모든 작업 항목에 대한 할당을 표시합니다.
+1. (선택 사항) **할당 표시** 아이콘 ![](assets/show-allocations-icon-small.png) 모든 작업 항목에 대한 할당을 표시합니다.
 
    작업 및 프로젝트의 이름이 작업 또는 프로젝트에 대한 사용자 할당으로 대체됩니다.
 
 1. (선택 사항) **설정** 아이콘 ![](assets/gear-icon-settings.png) 다음 옵션 중 하나를 선택합니다.
 
    1. **문제의 시간 포함**. 이를 통해 작업 할당 외에 문제 할당을 관리할 수 있습니다.
-   1. **완료된 작업 보기**. 할당을 관리하는 타임라인 동안 완료되고 예약된 항목이 표시됩니다.
-   1. **남은 시간 보기**. 사용자 라인의 각 사용자에 대한 총 시간 수가 변경됩니다. 이 설정을 활성화하면 업무 균형자 는 할당된 시간 대신 각 사용자가 작업에 사용할 수 있는 시간을 표시합니다.
+   1. **완료된 작업 표시**. 할당을 관리하는 타임라인 동안 완료되고 예약된 항목이 표시됩니다.
+   1. **남은 시간 표시**. 사용자 라인의 각 사용자에 대한 총 시간 수가 변경됩니다. 이 설정을 활성화하면 업무 균형자 는 할당된 시간 대신 각 사용자가 작업에 사용할 수 있는 시간을 표시합니다.
 
       >[!TIP]
       >
@@ -211,7 +214,7 @@ ht-degree: 0%
 
 1. 다음을 클릭합니다. **자세히** 메뉴 ![](assets/qs-more-menu.png) 작업 항목에 대해 을(를) 클릭한 다음 **할당 편집**.
 
-   ![](assets/more-menu-on-task-wb-nwe.png)
+   ![작업 항목에 대한 추가 메뉴](assets/more-menu-on-task-wb-nwe.png)
 
    또는
 
@@ -225,13 +228,13 @@ ht-degree: 0%
    >
    >다음을 클릭합니다. **취소** 아이콘 ![](assets/cancel-allocations-wb.png) 조정된 할당을 제거합니다.
 
-   ![](assets/wb-contouring-with-check-and-x-boxes-350x63.png)
+   ![조정된 할당 저장 또는 취소](assets/wb-contouring-with-check-and-x-boxes-350x63.png)
 
    사용자 업데이트에 대한 할당입니다.
 
    >[!TIP]
    >
-   >작업 또는 문제가 계획된 완료 일자 이전에 완료된 경우 나머지 일수에 할당된 시간이 취소되고 사용자의 전체 할당에 계산되지 않습니다. 할당 표시 아이콘과 예상 일자 표시 설정이 모두 활성화된 경우에만 표시됩니다.
+   >작업 또는 문제가 계획된 완료 일자 이전에 완료된 경우 나머지 일수에 할당된 시간이 취소되고 사용자의 전체 할당에 계산되지 않습니다. 이 설정은 를 둘 다 실행할 때만 표시됩니다. **할당 표시** 아이콘 및 **예상 일자 표시** 설정이 활성화되었습니다.
 
    다음과 같은 시나리오가 있습니다.
 
@@ -242,9 +245,9 @@ ht-degree: 0%
      >
      >할당 조정을 시작할 때 작업 이름 오른쪽에 잠금 아이콘이 표시되어 작업에 단순 기간 유형이 있음을 나타냅니다.
 
-     ![](assets/lock-icon-on-simple-task-in-the-balancer-350x119.png)
+     ![잠금 아이콘](assets/lock-icon-on-simple-task-in-the-balancer.png)
 
-   업무 균형자에서 계획된 시간을 업데이트하기 위해 충족해야 하는 조건에 대한 자세한 내용은 이 문서의 다음 섹션을 참조하십시오. [사용자 할당 관리 시 작업 계획 시간 업데이트](#update-task-planned-hours-when-managing-user-allocations). 작업 기간 유형에 대한 자세한 내용은 [작업 기간 및 기간 유형 개요](../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+   업무 균형자에서 계획된 시간을 업데이트하기 위해 충족해야 하는 조건에 대한 자세한 내용은 [사용자 할당 관리 시 작업 계획 시간 업데이트](#update-task-planned-hours-when-managing-user-allocations) 이 문서의 섹션. 작업 기간 유형에 대한 자세한 내용은 [작업 기간 및 기간 유형 개요](../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 1. (조건부) 작업이 두 명 이상의 사용자에게 할당된 경우 작업에 할당된 각 사용자에 대해 이 단계를 반복하여 각 사용자에 대한 할당을 업데이트합니다.
 
@@ -274,10 +277,7 @@ ht-degree: 0%
    * 작업에 대한 권한을 관리합니다.
    * 액세스 수준의 리소스 관리 영역에 있는 업무 균형자 액세스에서 계획된 시간을 업데이트합니다.
 
-  업무 균형자 를 사용하는 데 필요한 액세스 권한에 대한 자세한 내용은 이 문서의 다음 섹션을 참조하십시오. [액세스 요구 사항](#access-requirements).
+  업무 균형자 사용에 필요한 액세스에 대한 자세한 내용은 [액세스 요구 사항](#access-requirements) 이 문서의 섹션.
 
 * 작업의 기간 유형이 단순입니다.
 
-  <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;the statement above might include other duration types in the future)</p>
-  -->

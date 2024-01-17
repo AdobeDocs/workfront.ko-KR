@@ -3,12 +3,12 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: 업무 균형자 탐색
 description: 업무 균형자 를 사용하여 리소스의 가용성을 이해하고 사용자에게 작업을 할당할 수 있습니다. 이 문서에서는 업무 균형자에 대한 보기를 업데이트하고 탐색하는 데 사용할 수 있는 아이콘 및 설정을 안내합니다.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: 01351c0d86b0deea2d952564172841ba6a77c894
+source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
 workflow-type: tm+mt
-source-wordcount: '4168'
+source-wordcount: '4146'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ Adobe Workfront의 업무 균형자 를 사용하여 가용성에 따라 사용�
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든 </p> </td> 
+   <td> <p>임의 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
@@ -159,7 +159,7 @@ Adobe Workfront의 업무 균형자 를 사용하여 가용성에 따라 사용�
 1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) Workfront의 오른쪽 상단에서 을(를) 클릭한 다음 **리소스 조달**.
 1. 클릭 **업무 균형자** 왼쪽 패널에서
 
-   ![워크로드 밸런서](assets/nwe-balancer-global.png)
+   ![업무 균형자](assets/nwe-balancer-global.png)
 
    업무 균형자에 현재 주부터 시작되는 작업 할당 정보가 다음 두 영역에 표시됩니다.
 

@@ -3,14 +3,14 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: 업무 균형자 를 사용하여 수동으로 작업 할당
 description: Adobe Workfront 업무 균형자 를 사용하여 사용자에게 작업 항목을 수동으로 할당할 수 있습니다.
-author: Alina
+author: Lisa
 feature: Resource Management
 role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
 workflow-type: tm+mt
 source-wordcount: '756'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -30,7 +30,7 @@ Adobe Workfront 업무 균형자 를 사용하여 사용자에게 작업 항목�
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든 </p> </td> 
+   <td> <p>임의 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
