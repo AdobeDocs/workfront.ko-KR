@@ -4,20 +4,18 @@ description: 2024년 1분기 릴리스 개요
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 242c54f8d650b948f4adac079f5e45b6a741f97f
+source-git-commit: bb80c0f6a7d65f39b0b80a011629e1a0af88e53b
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1571'
 ht-degree: 0%
 
 ---
 
 # 2024년 1분기 릴리스 개요
 
-이 페이지에서는 2024년 1월 15일로 예정된 2024년 1분기 릴리스에 포함된 기능에 대한 정보를 제공합니다.
+이 페이지에서는 2024년 1분기 릴리스에 포함된 기능에 대한 정보를 제공합니다. 이러한 개선 사항은 2024년 1월 18일과 19일에 24.1 릴리스를 통해 모든 고객을 위한 프로덕션 환경에서 사용할 수 있도록 계획되었습니다.
 
-이 페이지의 개선 사항은 미리보기 환경에서 사용할 수 있습니다. 이 페이지는 2024년 1분기 릴리스가 계획 프로덕션 릴리스에 가까워짐에 따라 추가 개선 사항으로 업데이트됩니다.
-
-24.1 릴리스 웨비나는 2024년 1월 11일에 열립니다. 다음을 수행할 수 있습니다. [여기서 웨비나 등록](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).
+24.1 릴리스 웨비나는 2024년 1월 11일에 있었습니다. 다음을 수행할 수 있습니다. [여기서 웨비나를 등록하여 주문형 녹화를 볼 수 있습니다.](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).
 
 <span class="preview">오프로드 기능(2024년 1분기 릴리스 날짜 이전에 프로덕션에 릴리스된 기능)은 노란색으로 강조 표시됩니다.</span>
 
@@ -352,9 +350,10 @@ ht-degree: 0%
                         <ul>
                             <li>
                                 <p>미리보기 릴리스: 2023년 12월 21일</p>
+                                <p>참고: 이 기능은 24.4 릴리스까지 미리보기에 남아 있습니다.</p>
                             </li>
                             <li>
-                                <p>빠른 릴리스를 위한 프로덕션: 24.1 릴리스 포함</p>
+                                <p>빠른 릴리스를 위한 프로덕션: 24.2 릴리스 포함(2024년 2월)</p>
                             </li>
                             <li>
                                 <p>모든 고객을 위한 프로덕션: 24.4 릴리스 포함(2024년 4월)</p>

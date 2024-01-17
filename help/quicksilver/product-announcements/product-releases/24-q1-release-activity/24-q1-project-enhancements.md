@@ -3,9 +3,9 @@ title: 2024년 1분기 프로젝트 개선 사항
 description: 2024년 1분기 프로젝트 개선 사항
 author: Nolan
 feature: Product Announcements
-source-git-commit: 293e94a73edaf723852fd40e5dfcdfdc9f76ddf8
+source-git-commit: 55ed32932e5791b57da9cbc4138d6252e9420ddd
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->빠른 릴리스를 위한 프로덕션: 24.1 릴리스 포함, 모든 고객을 위한 프로덕션: 24.4 릴리스 포함(2024년 4월)
+>빠른 릴리스를 위한 프로덕션: 24.2 릴리스(2024년 2월) 포함, 모든 고객을 위한 프로덕션: 24.4 릴리스(2024년 4월) 포함
 
 Workfront이 작업에 대한 스마트 할당을 계산하고 제안하는 데 사용하는 알고리즘을 변경했습니다. 새 알고리즘은 작업을 지정하는 Workfront의 작업 목록, 작업 헤더의 지정 영역, 홈 및 요약 패널에서 적용됩니다.
 
