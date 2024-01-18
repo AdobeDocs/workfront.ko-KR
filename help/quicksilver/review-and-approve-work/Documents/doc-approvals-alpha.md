@@ -1,7 +1,7 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: 알파 프로그램 - 문서 승인
+title: Alpha 프로그램 - 문서 승인
 description: 문서 승인을 위한 Alpha 프로그램의 출시를 발표하게 되어 매우 기쁘게 생각합니다. 여기에서 최신 Alpha 릴리스와 간단한 비디오 연습을 통해 시작할 수 있습니다.
 author: Courtney
 feature: Work Management, Digital Content and Documents
@@ -9,14 +9,14 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 0ede24f4-4bba-4812-9dd9-e7af77ea5ecc
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 580ed17642f2f7e20e507de00f61aec7f7a3b131
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
 
-# 알파 프로그램 - 문서 승인
+# Alpha 프로그램 - 문서 승인
 
 문서 승인을 위한 Alpha 프로그램의 출시를 발표하게 되어 매우 기쁘게 생각합니다. 여기에서 최신 Alpha 릴리스와 간단한 비디오 연습을 통해 시작할 수 있습니다.
 
@@ -25,6 +25,20 @@ ht-degree: 0%
 이 Alpha 릴리스에 참여하려면 제품 팀이 미리 보기에서 Alpha에 추가했는지 확인하십시오. 그렇지 않은 경우 고객 성공 또는 계정 관리자에게 문의하여 추가를 요청하십시오.
 
 ## 최신 릴리스
+
+## Alpha 릴리스 6 - 2024년 1월
+
+이번 6번째 Alpha 릴리스에는 다음과 같은 내용이 있습니다.
+
+* 실수로 사람을 추가하고 알림을 받는 것을 방지하기 위해 새 팝업으로 참가자를 추가하는 경험을 개선했습니다
+* 승인에 있는 모든 사용자를 볼 수 있는 기능, 승인 상태 및 아직 결정을 하지 않은 모든 사용자에게 알림을 보내는 기능을 포함하여 사용자가 소유한 프로젝트에 대한 모든 미결 승인을 표시하는 새로운 &quot;승인 보류 중&quot; 위젯이 추가되었습니다
+* 모든 검토자가 자신의 단계가 완료되었음을 나타내는 데 사용할 수 있는 새로운 &quot;내 검토 완료&quot; 작업을 추가했습니다
+
+아래의 전체 비디오를 확인하십시오.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3426860/)
+
+## _이전 릴리스_
 
 ### Alpha 릴리스 5 - 2023년 9월
 
@@ -36,11 +50,7 @@ ht-degree: 0%
 * 외부 승인자를 추가하는 기능이 추가되었습니다.
 * 외부 승인자가 문서를 미리 보고, 다운로드하고, 댓글을 달 수 있도록 보기가 개선되었습니다
 
-아래의 전체 비디오를 확인하십시오.
-
->[!VIDEO](https://video.tv.adobe.com/v/3424613/)
-
-## _이전 릴리스_
+시청 [비디오 둘러보기](https://video.tv.adobe.com/v/3424613/){target=_blank}.
 
 ### Alpha 릴리스 4 - 2023년 5월
 
@@ -48,15 +58,13 @@ ht-degree: 0%
 
 우리는 이 이정표에 대해 흥분하고 앞으로 더 많은 것을 기대합니다!
 
-아래의 전체 비디오를 확인하십시오.
-
-시청 [비디오 둘러보기](https://video.tv.adobe.com/v/3420094/){target=_blank}
+시청 [비디오 둘러보기](https://video.tv.adobe.com/v/3420094/){target=_blank}.
 
 ### Alpha 릴리스 3 - 2023년 3월
 
 이 세 번째 Alpha 릴리스에서는 승인자 및 검토자 추가 또는 제거와 같은 작업 완료 시 표시되는 성공 메시지를 도입하여 피드백을 통합했습니다. 또한 이 릴리스에서는 보류 중인 승인에 대한 가시성이 향상되었으며, 이제 홈 및 내 업데이트 페이지에서 볼 수 있으므로 사용자가 이러한 페이지에서 직접 문서를 쉽게 승인할 수 있습니다.
 
-시청 [비디오 둘러보기](https://video.tv.adobe.com/v/3417854/){target=_blank}
+시청 [비디오 둘러보기](https://video.tv.adobe.com/v/3417854/){target=_blank}.
 
 ### Alpha 릴리스 2 - 2023년 1월
 
