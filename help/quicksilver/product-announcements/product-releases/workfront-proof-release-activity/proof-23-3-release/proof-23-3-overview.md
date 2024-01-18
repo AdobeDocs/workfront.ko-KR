@@ -6,10 +6,11 @@ title: Adobe Workfront Proof 및 23.3 릴리스
 description: 이 페이지에서는 23.3 릴리스가 포함된 프로덕션 환경에 릴리스되는 새 Adobe Workfront 경험의 Adobe Workfront Proof 기능에 대한 정보를 제공합니다.
 author: Nolan
 feature: Product Announcements, Workfront Proof
-exl-id: 4d09b464-9c58-4a7c-9af5-549812826d33
-source-git-commit: 1a4db0b89b9035eb8dd95052b5378e78d1cfbc9f
+recommendations: noDisplay, noCatalog
+exl-id: b4e3f45f-b687-40e5-93f9-a7c3b58d55bd
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---

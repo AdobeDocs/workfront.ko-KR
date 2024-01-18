@@ -6,8 +6,9 @@ title: 'Workfront Proof 릴리스 활동: 2021년 5월 17일이 있는 주'
 description: 이 페이지에서는 Workfront 증명(독립형 증명 애플리케이션)에 대한 변경 사항에 대해 설명합니다. 여기에 설명된 변경 사항은 Adobe Workfront 애플리케이션 내의 증명 기능에 적용되지 않습니다.
 author: Luke
 feature: Product Announcements, Workfront Proof
+recommendations: noDisplay, noCatalog
 exl-id: 8b148684-28bf-40e8-8014-d6458c8d14e1
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 0%
