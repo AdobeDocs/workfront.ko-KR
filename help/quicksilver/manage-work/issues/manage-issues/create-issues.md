@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '1498'
+source-wordcount: '1522'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
@@ -99,11 +99,10 @@ To create an issue on a task or a project:
 1. (Optional) If you want to log the issue for a task, go to the **Tasks** area, then click the name of a task. 
 1. Click the **Issues** section.
 
-   ![](assets/qs-issues-icon-highlighted-on-project-350x216.png)
-
+   
 1. Click **New Issue**.
 
-   ![](assets/qs-issue-list-on-project-with-new-issue-button-highlighted-350x270.png)
+  
 
 1. (Conditional) If the project creator created Queue Topics or Topic Groups on the project they are added to the new issue form. Specify the **Topic Group** or the **Queue Topic** of your new issue. Topic Groups and Queue Topics have names customized to your environment.  
    For more information about creating Topic Groups, see [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). For more information about creating Queue Topics, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
@@ -155,9 +154,9 @@ Issues can be assigned to multiple users, job roles or to a team. For more infor
 1. (선택 사항) 작업에 대한 문제를 기록하려면 **작업** 영역을 클릭한 다음 작업 이름을 클릭합니다.
 1. 다음을 클릭합니다. **문제** 섹션.
 
-   ![](assets/qs-issues-icon-highlighted-on-project-350x216.png)
+   프로젝트 문제 목록이 표시됩니다
 
-1. 클릭 **새 문제**.
+1. 클릭 **새 문제** 문제 목록의 맨 위에 있습니다.
 새 문제 상자가 표시됩니다.
 
    ![](assets/new-issue-box-matches-new-request-ui.png)
@@ -219,8 +218,8 @@ Issues can be assigned to multiple users, job roles or to a team. For more infor
 
 1. 문제를 만들려는 프로젝트로 이동합니다.
 1. (선택 사항) 작업에 대한 문제를 기록하려면 **작업** 섹션을 클릭한 다음 작업 이름을 클릭합니다.
-1. 다음을 클릭합니다. **문제** 섹션.
-1. 클릭 **더 많은 문제 추가**.
+1. 다음을 클릭합니다. **문제** 왼쪽 패널의 섹션입니다.
+1. 클릭 **더 많은 문제 추가** 문제 목록 맨 아래에 있습니다.
 
    문제 섹션의 문제 목록에 새 줄이 만들어집니다.
 

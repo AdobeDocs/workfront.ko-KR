@@ -8,10 +8,10 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '2504'
-ht-degree: 3%
+source-wordcount: '2506'
+ht-degree: 2%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든 </p> </td> 
+   <td> <p>임의 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
@@ -76,9 +76,7 @@ ht-degree: 3%
 
    ![](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
-1. (선택 사항) 문제에 대한 제한된 정보를 편집하려면 다음을 클릭하십시오. **문제 세부 정보** 왼쪽 패널에서
-
-   ![](assets/qs-issue-details-icon-highlighted-and-expanded-on-issue-350x206.png)
+1. (선택 사항) 문제에 대한 제한된 정보를 편집하려면 **문제 세부 정보** 왼쪽 패널에서
 
    >[!NOTE]
    >
@@ -237,7 +235,7 @@ ht-degree: 3%
       <td role="rowheader">해결한 사람</td> 
       <td> <p>다른 오브젝트로 문제를 해결했는지 여부를 보여 줍니다. 드롭다운 메뉴에서 이 문제가 작업, 프로젝트 또는 다른 문제로 해결되었는지 선택한 다음 문제를 해결할 작업, 프로젝트 또는 문제의 이름을 입력할 수 있습니다. 목록에 나타나면 선택합니다.</p>
 
-   <b>메모</b>
+   <b>참고</b>
 
    문제를 해결할 오브젝트를 선택하면 문제 상태가 해결 오브젝트의 상태에 연결되고 해당 문제에서 변경할 수 없습니다. 객체 해결에 대한 자세한 내용은 <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">해결 및 해결 가능한 객체 개요 </a>.
 
@@ -275,7 +273,7 @@ ht-degree: 3%
 
    ![](assets/assignments-section-edit-issue-box-nwe-350x230.png)
 
-1. 클릭 **사람, 역할 및 팀 검색** 작업에 할당할 사용자, 역할 또는 팀의 이름을 입력한 다음 해당 작업을 클릭하거나 목록에 표시될 때 Enter 키를 누릅니다.
+1. 클릭 **사람, 역할 및 팀 검색** 작업에 할당할 사용자, 역할 또는 팀의 이름을 입력한 다음 작업을 클릭하거나 목록에 표시될 때 Enter 키를 누릅니다.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ensure this is still called this; asked Anna to change it to "roles" and add a comma)</p>

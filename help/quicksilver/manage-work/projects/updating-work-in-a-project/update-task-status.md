@@ -6,9 +6,9 @@ description: 작업 상태를 업데이트하여 작업의 위치와 전체 프�
 author: Alina
 feature: Work Management
 exl-id: e1efc676-e110-486e-91dc-f521421575e8
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '652'
 ht-degree: 1%
 
 ---
@@ -23,37 +23,6 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-<!--drafted for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard</p> 
-   Or
-   <p>Legacy license: Work or higher</p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the task</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
 작업을 수동으로 업데이트하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -61,27 +30,28 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든</p> </td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>작업 이상</p> </td> 
+   <td> <p>새로운 기능: 표준</p> 
+   또는
+   <p>현재: 작업 시간 이상</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>작업에 대한 액세스 편집</p> <p><b>메모</b>
-
-여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td>
-</tr> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>작업에 대한 액세스 편집</p>  </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>작업에 대한 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>작업에 대한 권한 관리</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오. 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 작업 상태 업데이트에 대한 고려 사항
 
@@ -94,20 +64,54 @@ ht-degree: 1%
 
 ## 수동으로 작업 상태 업데이트
 
-작업 상태를 업데이트할 때 새 상태에 대한 설명을 입력하고 기한과 같은 다른 작업 정보를 변경할 수도 있습니다.
+Workfront의 다음 영역에서 작업 상태를 업데이트할 수 있습니다.
 
-1. 상태를 업데이트할 할당된 작업으로 이동합니다.
+* 작업 페이지의 작업 헤더입니다.
+* 작업을 편집할 때 작업 편집 상자
+* 작업 페이지의 작업 세부 정보 섹션.
+* 작업 목록 또는 보고서에서 상태 필드가 보기에 표시될 때.
+* 작업의 요약 패널에서 다음을 수행합니다.
+
+태스크 헤더에서 태스크 상태를 수동으로 갱신하려면
+
+1. 상태를 업데이트할 작업으로 이동합니다.
 1. 다음을 클릭합니다. **상태** 작업 헤더의 필드에 새 상태를 선택합니다.
-1. (선택 사항) 업데이트에 대한 추가 정보를 제공하려면 다음 중 하나를 수행하고, **업데이트** 또는 작업에 **완료** 상태, 클릭 **완료:**
+1. 작업 완료를 시각적으로 표시하려면 아래의 버블을 끌어 놓거나 두 번 클릭합니다. **완료율** 작업 헤더
 
-   * 업데이트에 대한 메모를 추가하려면 **업데이트** 영역 및 클릭 **새 업데이트 시작**&#x200B;그런 다음 메모를 입력합니다.
+   또는
 
-   * 특정 사용자에게 업데이트에 대해 알리려면 **알림** 업데이트에 대한 메모를 입력할 때 나타나는 상자입니다. 자세한 내용은 [업데이트에 다른 사용자 태그 지정](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-   * 작업의 상태를 업데이트하려면 다음을 클릭하십시오. **조건 선택** 의 오른쪽에 **알림** 상자(업데이트에 대한 메모를 입력할 때 표시됨)에서 작업의 현재 상태를 가장 잘 반영하는 조건을 선택합니다.
+   작업 헤더의 버블 내부를 클릭하여 백분율을 입력합니다.
 
-   * 작업의 커밋 일자를 업데이트하려면 다음을 확장합니다. **커밋 일자** 드롭다운 캘린더에서 새 커밋 일자를 선택합니다.
-   * 작업 완료를 시각적으로 나타내려면 완료율 아래의 버블을 끌어 놓거나 더블 클릭하여 백분율 값을 입력합니다.\
-     ![](assets/drag-the-progress-bar-350x155.png)
+   ![](assets/percent-complete-status-widgets-task-header.png)
+
+1. (선택 사항) 업데이트에 대한 추가 정보를 제공하려면 다음 중 하나를 수행합니다.
+
+   * 업데이트에 대한 메모를 추가하려면 **업데이트** 섹션 및 클릭 **새 댓글**&#x200B;을 클릭한 다음 메모를 입력합니다.
+
+     ![](assets/add-update-to-task.png)
+
+   * 특정 사용자에게 업데이트에 대해 알리려면 **사람 또는 팀에 태그 지정** 댓글을 입력할 때 표시되는 필드입니다. 자세한 내용은 [업데이트에 다른 사용자 태그 지정](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   * 작업의 커밋 일자를 업데이트하려면 **작업 세부 정보**&#x200B;를 클릭한 다음 을(를) 편집합니다. **커밋 일자** 필드. 자세한 내용은 [작업 편집](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
+
+
+   >[!IMPORTANT]
+   >
+   >  작업 할당자만 커밋 일자를 업데이트할 수 있습니다.
+
+<!--old functionality in old commenting: 
+
+1. Go to a task that you are assigned to for which you want to update the status.
+1. Click the **Status** field in the task header and select a new status. 
+1. (Optional) Do any of the following to provide additional information about the update, then click **Update** or, if the task has the **Complete** status, click **Done:**
+
+   * To add a note about the update, go to the **Updates** area and click **Start a new update**, then type your note.  
+
+   * To notify certain users about the update, type their names in the **Notify** box that appears when you type a note about the update. For more information, see [Tag others on updates](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md). 
+   * To update the condition of the task, click **Select Condition** to the right of the **Notify** box (these appear when you type a note about the update), then select the condition that best reflects the current condition of the task.
+   
+   * To update the Commit Date of the task, expand the **Commit Date** drop-down calendar, and select a new Commit Date. 
+   * To provide a visual indication of task completion, drag the bubble under Percent Complete or double-click it to enter a percent value.   
+     ![](assets/drag-the-progress-bar-350x155.png)-->
 
 ## 작업 상태 자동 업데이트
 
@@ -123,9 +127,9 @@ Workfront은 아래 표에 나열된 작업이 발생할 때 작업의 기존 �
  <col> 
  <tbody> 
   <tr> 
-   <td>개 액션</td> 
-   <td>원래 상태</td> 
-   <td>새 상태</td> 
+   <td><b>개 액션</b></td> 
+   <td><b>원래 상태</b></td> 
+   <td><b>새 상태</b></td> 
   </tr> 
   <tr> 
    <td>작업 완료율을 100%로 업데이트</td> 

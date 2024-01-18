@@ -6,10 +6,10 @@ description: Adobe Workfront에서 문제를 프로젝트로 전환
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '1472'
-ht-degree: 0%
+source-wordcount: '1476'
+ht-degree: 1%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
@@ -89,8 +89,6 @@ ht-degree: 0%
    * 템플릿을 사용하여 문제를 프로젝트로 전환하려면 다음 중 하나를 수행합니다.
 
       * 문제의 이름을 클릭한 다음 [!UICONTROL **자세히**] 메뉴 ![](assets/more-icon.png) 문제 이름 오른쪽에
-
-        ![](assets/issue-more-menu-expanded-with-convert-to-project-options-nwe-350x213.png)
 
         또는
 
