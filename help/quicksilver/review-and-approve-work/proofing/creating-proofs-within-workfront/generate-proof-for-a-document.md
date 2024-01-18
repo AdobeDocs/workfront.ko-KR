@@ -6,9 +6,9 @@ description: Workfront에 업로드할 때 문서에 대한 증명을 생성할 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 609e95fa-1fb3-4cc4-9ee8-403fd2f30e10
-source-git-commit: 6e24b9c717ecedd6efbdf62ec01e53ac98079cfe
+source-git-commit: c3bbcaff2643bff43d0c26ee97d2a4ba22680a30
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -32,12 +32,16 @@ If a proof fails to generate after following the steps described in the followin
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>현재 플랜: Pro 이상</p> <p>또는</p> <p>기존 플랜: Select 또는 Premium</p> <p>다른 플랜의 증명 액세스에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfront의 증명 기능에 액세스</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td> 
+   <p>새로 만들기: 모두 </p>
+   <p>현재: Pro 이상</p> <p>기존 플랜: Select 또는 Premium</p> <p>다른 플랜의 증명 액세스에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfront의 증명 기능에 액세스</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>현재 계획: 작업 또는 계획</p> <p>기존 계획: 모두(사용자에 대해 증명이 활성화되어 있어야 함)</p> </td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td> 
+   <p>새로운 기능: 표준</p>
+   <p>현재 : 작업 또는 계획</p> <p>기존 계획: 모두(사용자에 대해 증명이 활성화되어 있어야 함)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">증명 권한 프로필 </td> 
@@ -45,19 +49,19 @@ If a proof fails to generate after following the steps described in the followin
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>문서에 대한 액세스 편집</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td> <p>문서에 대한 액세스 편집</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 역할 또는 증명 권한 프로필을 알아보려면 Workfront 또는 Workfront Proof 관리자에게 문의하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 문서 업로드 및 증명 만들기
 
 1. 새 증명을 만들 프로젝트, 작업 또는 문제로 이동합니다.
-1. 다음을 클릭합니다. **문서** 탭.
+1. 다음을 클릭합니다. **문서** 탭.
 1. 문서 클릭 ![](assets/document-icon.png) 왼쪽 패널에서
-1. 클릭 **새로 추가**&#x200B;을 클릭한 다음 을 클릭합니다 **증명** 표시되는 메뉴에서 을 선택합니다.
+1. 클릭 **새로 추가**&#x200B;을 클릭한 다음 을 클릭합니다 **증명** 표시되는 메뉴에서 을 선택합니다.
 
    >[!TIP]
    >
@@ -71,9 +75,9 @@ If a proof fails to generate after following the steps described in the followin
 ## 문서 업로드 및 새 증명 버전 만들기
 
 1. 기존 증명의 새 버전을 만들 프로젝트, 작업 또는 문제로 이동합니다.
-1. 다음을 클릭합니다. **문서** 탭.
+1. 다음을 클릭합니다. **문서** 탭.
 1. 새 버전을 추가할 문서를 선택합니다.
-1. 클릭 **새로 추가** > **버전** > **증명**.
+1. 클릭 **새로 추가** > **버전** > **증명**.
 1. 다음에서 **새 증명 버전** 페이지가 나타나면
 
    * [기본 워크플로를 사용하여 고급 증명 만들기](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
