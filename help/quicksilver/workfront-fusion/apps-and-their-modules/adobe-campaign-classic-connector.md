@@ -9,10 +9,10 @@ description: 포함 [!DNL Adobe Campaign Classic] 모듈, 다음을 시작할 �
 author: Becky
 feature: Workfront Fusion
 exl-id: 84e8fa35-0c3c-46bd-8886-88c6d8d9e1d5
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 455d439ec2a9034043cac2570851ab2f9fecc276
 workflow-type: tm+mt
-source-wordcount: '1194'
-ht-degree: 1%
+source-wordcount: '1382'
+ht-degree: 0%
 
 ---
 
@@ -61,9 +61,62 @@ ht-degree: 1%
 
 ## 연결 [!DNL Adobe Campaign Classic] 끝 [!DNL Adobe Workfront Fusion]
 
+>[!IMPORTANT]
+>
+>서버 간 연결을 만드는 것이 좋습니다. Adobe Campaign이 서버 간 연결만 수락하도록 API를 업데이트했습니다. Campaign 버전 8 이상에 연결하는 경우 **필수** 서버 간 연결을 만듭니다.
+>
+>Campaign의 새 연결 요구 사항에 대한 자세한 내용은 [Campaign 기술 운영자를 Adobe Developer 콘솔로 마이그레이션](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/ims-migration.html) Campaign 설명서에서 참조하십시오.
+
 1. 다음 중 하나 [!DNL Adobe Campaign Classic] 모듈, 클릭 **[!UICONTROL 추가]** 다음 옆에 [!UICONTROL 연결] 필드.
-1. 에 연결하는 데 사용하는 기본 URL을 입력합니다. [!DNL Adobe Campaign Classic] 인스턴스.
-1. 사용자 이름과 암호를 입력합니다.
+1. 다음 필드를 채웁니다.
+   <table style="table-layout:auto"> 
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+      </col>
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+      </col>
+      <tbody>
+        <tr>
+          <td role="rowheader">[!UICONTROL 연결 유형]</td>
+          <td>
+            <p>기본 연결을 만드는지 아니면 서버 간 연결을 만드는지 선택합니다.</p>
+          </td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL 연결 이름]</td>
+          <td>
+            <p>이 연결의 이름을 입력하십시오.</p>
+          </td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL 기본 URL]</td>
+          <td>에 연결하는 데 사용하는 기본 URL을 입력합니다. [!DNL Adobe Campaign Classic] 인스턴스.</td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL 사용자 이름]</td>
+          <td>기본 연결을 만드는 경우 Adobe Campaign 사용자 이름을 입력합니다.</td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Password]</td>
+          <td>기본 연결을 만드는 경우 Adobe Campaign 암호를 입력합니다.</td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL 클라이언트 ID]</td>
+          <td>서버 간 연결을 만드는 경우 [!DNL Adobe] [!UICONTROL 클라이언트 ID]. 이 정보는 의 [!UICONTROL 자격 증명 세부 정보] 섹션에서 찾을 수 있습니다. [!DNL Adobe Developer Console].</td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL 클라이언트 암호]</td>
+          <td>서버 간 연결을 만드는 경우 [!DNL Adobe] [!UICONTROL 클라이언트 암호]. 이 정보는 의 [!UICONTROL 자격 증명 세부 정보] 섹션에서 찾을 수 있습니다. [!DNL Adobe Developer Console].
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL 환경]</td>
+          <td>프로덕션 환경에 연결되어 있는지 아니면 비프로덕션 환경에 연결되어 있는지 선택합니다.
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL 유형]</td>
+          <td>서비스 계정에 연결할지 또는 개인 계정에 연결할지 선택합니다.
+        </tr>
+   </tbody>
+    </table>
 1. 클릭 **[!UICONTROL 계속]** 를 클릭하여 연결을 만들고 모듈로 돌아갑니다.
 
 ## [!DNL Adobe Campaign Classic] 모듈 및 해당 필드
