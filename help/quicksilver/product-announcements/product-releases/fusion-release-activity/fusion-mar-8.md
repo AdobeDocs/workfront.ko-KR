@@ -7,11 +7,12 @@ title: "Workfront Fusion 릴리스 활동: 2021년 3월 8일 주"
 description: 이 페이지에서는 2021년 3월 8일이 있는 주에 Adobe Workfront Fusion에서 향상된 모든 기능에 대해 설명합니다.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: ca3d2a50-fe85-46de-b871-dc1f135382a5
 hidefromtoc: true
-source-git-commit: 3db01c329c005570b782ae3445f83b7c44ced676
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '168'
 ht-degree: 0%
 
 ---

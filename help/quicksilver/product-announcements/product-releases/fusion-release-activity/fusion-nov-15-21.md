@@ -1,33 +1,34 @@
 ---
-title: Workfront Fusion 릴리스 활동:&Nbsp;2021년 11월 15일 주
-description: Workfront Fusion 릴리스 활동:&Nbsp;2021년 11월 15일 주
+title: 'Workfront Fusion 릴리스 활동: 2021년 11월 15일 주&nbsp;'
+description: 'Workfront Fusion 릴리스 활동: 2021년 11월 15일 주&nbsp;'
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 36befe2a-6655-4213-a74f-635542c2cec2
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
 
 # Workfront Fusion 릴리스 활동: 2021년 11월 15일의 주
 
-이 페이지에서는 2021년 11월 15일이 있는 주의 Adobe Workfront Fusion에서 향상된 기능에 대해 설명합니다.
+이 페이지에서는 2021년 11월 15일이 있는 주에 Adobe Workfront Fusion에서 향상된 모든 기능에 대해 설명합니다.
 
-최근 변경 사항 목록을 보려면 [Adobe Workfront Fusion 릴리스 활동](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+최근 변경 사항의 목록은 다음을 참조하십시오. [Adobe Workfront Fusion 릴리스 활동](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Workfront Fusion의 최근 버그 수정 목록에 대해서는 다음을 참조하십시오. [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 페이지를 방문하여 Workfront Fusion Maintenance Update라는 업데이트를 확인하십시오.
+Workfront Fusion의 최근 버그 수정 목록은 다음을 참조하십시오. [Workfront 유지 보수 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) Workfront Fusion Maintenance Update로 레이블이 지정된 업데이트를 찾아 확인합니다.
 
-## Adobe Workfront Fusion의 새로운 모양 및 느낌
+## Adobe Workfront Fusion의 새로운 모양과 느낌
 
-다른 Adobe 제품의 모양과 느낌을 보다 잘 반영하도록 Workfront Fusion의 모양과 느낌을 업데이트했습니다. 이렇게 하면 여러 Adobe 제품에서 작업할 때 보다 일관성 있는 경험을 제공할 수 있습니다.
+다른 Adobe 제품의 룩과 느낌을 보다 면밀하게 반영하도록 Workfront Fusion의 룩과 느낌을 업데이트했습니다. 더 깔끔한 모양으로 이 변경 사항을 사용하면 다양한 Adobe 제품에서 작업할 때 보다 일관성 있는 경험을 사용할 수 있습니다.
 
-또한 이 업그레이드는 더 빠른 탐색을 위해 성능 개선 사항을 제공합니다.
+또한 이 업그레이드는 더 빠른 탐색을 위해 성능을 개선합니다.
 
-새로운 모양 및 느낌은 Adobe Workfront Fusion의 기능에 영향을 주지 않습니다. 모든 단추, 탭 및 기타 도구가 동일한 위치에 있으므로 기존 동작 또는 워크플로우를 변경할 필요가 없습니다.
+새로운 모양과 느낌은 Adobe Workfront Fusion의 기능에 영향을 주지 않습니다. 모든 단추, 탭 및 기타 도구는 동일한 위치에 있으므로 기존의 비헤이비어나 워크플로를 변경할 필요가 없습니다.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

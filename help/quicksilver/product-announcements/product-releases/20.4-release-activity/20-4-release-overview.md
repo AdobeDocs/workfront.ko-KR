@@ -5,10 +5,11 @@ title: 20.4 릴리스 개요
 description: 20.4 릴리스는 2020년 11월 9일이 있는 주에 프로덕션 환경에서 사용할 수 있습니다. 각 클러스터의 특정 릴리스 날짜 및 시간은 Workfront 상태 사이트를 참조하십시오.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 7cf7f6ed-fe85-4c86-bb4b-dd93197338cf
-source-git-commit: 174e1200105a04ae1fa3809c450446e6ff8673b5
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '3666'
+source-wordcount: '3694'
 ht-degree: 0%
 
 ---

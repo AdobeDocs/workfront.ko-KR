@@ -1,25 +1,26 @@
 ---
-title: Workfront Fusion 릴리스 활동:&Nbsp;2021년 8월 2일 주
-description: Workfront Fusion 릴리스 활동:&Nbsp;2021년 8월 2일 주
+title: 'Workfront Fusion 릴리스 활동: 2021년 8월 2일 주&nbsp;'
+description: 'Workfront Fusion 릴리스 활동: 2021년 8월 2일 주&nbsp;'
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 051fb2b6-336e-432c-b2cb-0286e5bdf168
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
 
 # Workfront Fusion 릴리스 활동: 2021년 8월 2일 주
 
-이 페이지에서는 2021년 8월 2일이 있는 Adobe Workfront Fusion의 향상된 기능에 대해 설명합니다.
+이 페이지에서는 2021년 8월 2일이 있는 주에 Adobe Workfront Fusion에서 향상된 모든 기능에 대해 설명합니다.
 
-최근 변경 사항 목록을 보려면 [Adobe Workfront Fusion 릴리스 활동](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+최근 변경 사항의 목록은 다음을 참조하십시오. [Adobe Workfront Fusion 릴리스 활동](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Workfront Fusion의 최근 버그 수정 목록에 대해서는 다음을 참조하십시오. [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 페이지를 방문하여 Workfront Fusion Maintenance Update라는 업데이트를 확인하십시오.
+Workfront Fusion의 최근 버그 수정 목록은 다음을 참조하십시오. [Workfront 유지 보수 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) Workfront Fusion Maintenance Update로 레이블이 지정된 업데이트를 찾아 확인합니다.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -50,16 +51,17 @@ Workfront Fusion의 최근 버그 수정 목록에 대해서는 다음을 참조
 
 * 새 날짜 및 시간 함수: dateDifference
 
-   시나리오에서 시간 범위를 더 쉽게 계산할 수 있도록 새로운 &quot;dateDifference&quot; 날짜 및 시간 함수를 추가했습니다. 이 함수는 날짜 또는 시간을 두 번 사용하고 선택한 시간 단위로 표시된 날짜 또는 시간 사이의 시간을 반환합니다.
+  시나리오에서 기간 을 더 쉽게 계산할 수 있도록 새로운 &quot;dateDifference&quot; 날짜 및 시간 함수를 추가했습니다. 이 함수는 두 개의 날짜 또는 시간과 한 시간 단위를 사용하며, 선택한 시간 단위로 표현된 날짜 또는 시간 사이의 시간을 반환합니다.
 
-   이전에는 사용자가 입력한 수식으로만 날짜 및 시간 차이를 계산할 수 있었습니다.
+  이전에는 사용자가 입력한 수식으로만 날짜와 시간 차이를 계산할 수 있었습니다.
 
-   자세한 내용은 [Adobe Workfront Fusion의 날짜 및 시간 함수](../../../workfront-fusion/functions/date-and-time-functions.md).
+  자세한 내용은 [Adobe Workfront Fusion의 날짜 및 시간 함수](../../../workfront-fusion/functions/date-and-time-functions.md).
 
-* 새로운 스토리지 기능: arrayDifference
+* 새로운 배열 함수: arrayDifference
 
-   이 함수는 두 개의 배열을 사용하고 새 배열을 반환합니다. 모듈이 반환하는 새 배열 유형을 선택할 수 있습니다.
+  이 함수는 2개의 배열을 사용하고 새 배열을 반환합니다. 모듈이 반환하는 새 배열의 유형을 선택할 수 있습니다.
 
-   * 한 배열의 요소가 다른 배열에 포함되지 않은 배열입니다
-   * 한 배열이나 다른 배열에 포함되지만 둘 다 포함되지는 않는 요소의 배열입니다.
-   자세한 내용은 [Adobe Workfront Fusion의 배열 기능](../../../workfront-fusion/functions/array-functions.md).
+   * 다른 배열에 포함되지 않은 한 배열의 요소 배열
+   * 한 배열 또는 다른 배열에 포함되어 있지만 둘 다 포함되지는 않는 요소의 배열입니다.
+
+  자세한 내용은 [Adobe Workfront Fusion의 배열 함수](../../../workfront-fusion/functions/array-functions.md).

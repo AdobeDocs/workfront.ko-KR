@@ -4,9 +4,11 @@ description: 23.2 모바일 개선 사항
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: be47ec2d4118c1816b1babfcc4af2e04f83781af
+recommendations: noDisplay, noCatalog
+exl-id: 08cb5991-ba8e-4444-ab95-b6b85420c4a2
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
@@ -30,4 +32,4 @@ ht-degree: 0%
 
 이제 보드 컬렉션도 모바일 앱에서 지원되므로 모바일 사용자는 모바일 보드 목록에서 데스크탑 버전에서 액세스할 수 있는 모든 컬렉션을 볼 수 있습니다.
 
-자세한 내용은 [[!DNL Adobe Workfront] [!UICONTROL Boards] 모바일용](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
+자세한 내용은 [[!DNL Adobe Workfront] [!UICONTROL 게시판] 모바일용](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).

@@ -1,46 +1,47 @@
 ---
-title: Workfront Fusion 릴리스 활동:&Nbsp;2021년 8월 23일 주
-description: Workfront Fusion 릴리스 활동:&Nbsp;2021년 8월 23일 주
+title: 'Workfront Fusion 릴리스 활동: 2021년 8월 23일 주&nbsp;'
+description: 'Workfront Fusion 릴리스 활동: 2021년 8월 23일 주&nbsp;'
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 8630ef90-0b8c-4c68-938d-4875050f78fd
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
 
 # Workfront Fusion 릴리스 활동: 2021년 8월 23일 주
 
-이 페이지에서는 2021년 8월 23일이 있는 주의 Adobe Workfront Fusion에서 향상된 기능에 대해 설명합니다.
+이 페이지에서는 2021년 8월 23일이 있는 주에 Adobe Workfront Fusion에서 향상된 모든 기능에 대해 설명합니다.
 
-최근 변경 사항 목록을 보려면 [Adobe Workfront Fusion 릴리스 활동](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+최근 변경 사항의 목록은 다음을 참조하십시오. [Adobe Workfront Fusion 릴리스 활동](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Workfront Fusion의 최근 버그 수정 목록에 대해서는 다음을 참조하십시오. [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 페이지를 방문하여 Workfront Fusion Maintenance Update라는 업데이트를 확인하십시오.
+Workfront Fusion의 최근 버그 수정 목록은 다음을 참조하십시오. [Workfront 유지 보수 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) Workfront Fusion Maintenance Update로 레이블이 지정된 업데이트를 찾아 확인합니다.
 
-## 이제 Workfront 모듈에서 Typeahead 필드를 사용할 수 있습니다
+## 이제 Workfront 모듈에서 자동 완성 필드를 사용할 수 있습니다.
 
-모듈을 보다 쉽게 사용할 수 있도록 일부 드롭다운 목록을 typeahead 필드로 대체했습니다. 이제 긴 목록에서 항목을 선택하는 대신 항목을 입력하기 시작한 다음 항목이 나타나면 클릭합니다.
+모듈을 더 쉽게 사용할 수 있도록 일부 드롭다운 목록을 자동 완성 필드로 대체했습니다. 이제 긴 목록에서 항목을 선택하는 대신 항목을 입력한 다음 표시될 때 클릭할 수 있습니다.
 
-이전에는 사용자가 드롭다운 목록에서 항목을 선택했습니다. 객체에 따라 이러한 목록이 길어질 수 있으므로 항목을 스크롤하여 찾는 데 불편할 수 있습니다.
+이전에는 사용자가 드롭다운 목록에서 항목을 선택했습니다. 오브젝트에 따라 이들 목록은 길어질 수 있으며, 항목을 스크롤하고 찾는 데 불편이 있을 수 있습니다.
 
 Workfront 모듈에 대한 자세한 내용은 [Adobe Workfront 모듈](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
-## 이제 Workfront 모듈에서 청구 레코드 개체를 사용할 수 있습니다
+## 이제 Workfront 모듈에서 청구 기록 개체를 사용할 수 있습니다.
 
-청구 레코드 객체는 다음 모듈의 드롭다운 객체 선택 목록에서 사용할 수 있습니다.
+청구 기록 객체는 다음 모듈의 드롭다운 객체 선택 목록에서 사용할 수 있습니다.
 
-* 감시 레코드
+* 녹화 시청
 * 레코드 삭제
 * 레코드 만들기
 * 레코드 읽기
 * 레코드 업데이트
-* 검색 레코드
+* 레코드 검색
 
-이전에는 청구 레코드 개체를 매핑을 통해서만 사용할 수 있었습니다.
+이전에는 청구 기록 개체를 매핑을 통해서만 사용할 수 있었습니다.
 
 자세한 내용은 [Adobe Workfront 모듈](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 

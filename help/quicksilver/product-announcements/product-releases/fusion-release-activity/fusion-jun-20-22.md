@@ -3,36 +3,37 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: 'Workfront Fusion 릴리스 활동: 2022년 6월 20일의 주'
-description: 이 페이지에서는 2022년 6월 20일이 있는 주의 Adobe Workfront Fusion에서 향상된 기능에 대해 설명합니다.
+title: "Workfront Fusion 릴리스 활동: 2022년 6월 20일 주"
+description: 이 페이지에서는 2022년 6월 20일이 있는 주에 Adobe Workfront Fusion에서 향상된 기능을 모두 설명합니다.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 hidefromtoc: true
 exl-id: b18a4a36-6347-4ece-a2c1-4d71917181ce
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 0%
+source-wordcount: '152'
+ht-degree: 1%
 
 ---
 
-# Workfront Fusion 릴리스 활동: 2022년 6월 20일의 주
+# Workfront Fusion 릴리스 활동: 2022년 6월 20일 주
 
-이 페이지에서는 2022년 6월 20일이 있는 주의 Adobe Workfront Fusion에서 향상된 기능에 대해 설명합니다.
+이 페이지에서는 2022년 6월 20일이 있는 주에 Adobe Workfront Fusion에서 향상된 기능을 모두 설명합니다.
 
-최근 변경 사항 목록을 보려면 [Adobe Workfront Fusion 릴리스 활동](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+최근 변경 사항의 목록은 다음을 참조하십시오. [Adobe Workfront Fusion 릴리스 활동](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Workfront Fusion의 최근 버그 수정 목록에 대해서는 다음을 참조하십시오. [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 페이지를 방문하여 Workfront Fusion Maintenance Update라는 업데이트를 확인하십시오.
+Workfront Fusion의 최근 버그 수정 목록은 다음을 참조하십시오. [Workfront 유지 보수 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) Workfront Fusion Maintenance Update로 레이블이 지정된 업데이트를 찾아 확인합니다.
 
-## 이제 AEM Assets 커넥터 및 모듈을 사용할 수 있습니다
+## 이제 AEM Assets 커넥터 및 모듈 Adobe을 사용할 수 있습니다
 
-이제 Adobe Workfront Fusion을 사용하여 Adobe AEM Assets 계정에 연결할 수 있습니다. Adobe AEM Assets 모듈을 사용하여 다음을 수행할 수 있습니다.
+이제 Adobe Workfront Fusion을 사용하여 Adobe AEM Assets 계정에 연결할 수 있습니다. AEM Assets Adobe 모듈을 사용하여 다음과 같은 작업을 수행할 수 있습니다.
 
-* 폴더, 자산 또는 표현물 만들기, 업데이트, 읽기 또는 삭제
+* 폴더, 에셋 또는 렌디션 만들기, 업데이트, 읽기 또는 삭제
 
 * 자산 업로드
 
-* 폴더 또는 자산 복사
+* 폴더 또는 에셋 복사
 
 * 폴더 목록 검색
 

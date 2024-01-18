@@ -6,8 +6,9 @@ title: Adobe Workfront 릴리스 일정 및 프로세스
 description: 미리보기 환경은 매주 한 번 업데이트되며 새로운 기능이 제공됩니다. 이러한 기능은 향후 분기별 릴리스의 릴리스 정보에서 제공됩니다.
 author: Alina
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: 1ccbab53684928974ef739b0176a6ea893a27320
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 0%

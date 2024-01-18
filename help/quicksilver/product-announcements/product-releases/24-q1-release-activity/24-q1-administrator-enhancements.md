@@ -3,7 +3,8 @@ title: 2024년 1분기 관리자 개선 사항
 description: 2024년 1분기 관리자 개선 사항
 author: Lisa
 feature: Product Announcements
-source-git-commit: 78ce8d59ffe291fea524fa58cb9ab4754219b2ea
+recommendations: noDisplay, noCatalog
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 0%

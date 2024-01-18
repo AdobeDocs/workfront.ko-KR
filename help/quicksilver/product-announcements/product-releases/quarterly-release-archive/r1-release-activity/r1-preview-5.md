@@ -5,10 +5,11 @@ title: R1 미리 보기 5
 description: 이 페이지에서는 R1 미리보기 5 릴리스의 미리보기 환경에서 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 페이지의 기능은 2017년 3월 16일에 미리보기 환경에서 사용할 수 있습니다.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 4fba14b5-6c5a-4b03-99a7-f0e6f75807c3
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1288'
 ht-degree: 13%
 
 ---
@@ -87,7 +88,7 @@ Workfront에서 개체를 복원하는 방법에 대한 자세한 내용은 [삭
 
 이제 인스턴트 이메일 알림 내에서 다음 옵션을 사용할 수 있습니다. 이러한 옵션은 일별 요약 상대가 있는 인스턴트 알림에만 사용할 수 있습니다.
 
-* &quot;일일 요약에 추가&quot;
+* &quot;일일 다이제스트에 추가&quot;
 * &quot;이 유형의 이메일 중지&quot;
 
 이제 인스턴트 이메일 알림을 받을 때 해당 알림을 일별 요약 알림에 추가하거나 해당 알림을 완전히 구독 취소할 수 있습니다.

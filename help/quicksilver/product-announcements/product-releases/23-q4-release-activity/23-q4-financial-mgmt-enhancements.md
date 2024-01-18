@@ -3,9 +3,11 @@ title: 2023년 4분기 재무 관리 개선 사항
 description: 2023년 4분기 재무 관리 개선 사항
 author: Lisa
 feature: Product Announcements
-source-git-commit: ee84471418590401fe143741cadd1d76a8917149
+recommendations: noDisplay, noCatalog
+exl-id: f908d538-a24c-44e4-99a7-5069ba99d341
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---

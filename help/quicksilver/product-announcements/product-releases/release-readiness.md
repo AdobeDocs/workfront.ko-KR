@@ -5,8 +5,9 @@ title: 다음을 준비합니다. [!DNL Adobe Workfront] 릴리스
 description: 각 새로운 Workfront 릴리스에 대해 조직을 원활하게 업데이트하려면 다음 팁을 따르십시오.
 author: Becky
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 411ad0b1-efb2-40e9-a04c-d06840b9cdce
-source-git-commit: 062ab8f2acfa2d5c43b333f8ee95fef817fd4fce
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '1234'
 ht-degree: 0%

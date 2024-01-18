@@ -5,11 +5,12 @@ title: 제품 릴리스
 description: 다음은 현재 및 이전 릴리스의 릴리스 정보에 대한 링크입니다.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 505a9602-580c-4932-a85c-6c9a7c8af457
-source-git-commit: 93433076fedf54d72c3e009e2e7949bd0f29ce60
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 14%
+source-wordcount: '218'
+ht-degree: 12%
 
 ---
 

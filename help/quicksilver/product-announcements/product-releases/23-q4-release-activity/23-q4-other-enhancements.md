@@ -3,9 +3,11 @@ title: 2023년 4분기 기타 개선 사항
 description: 2023년 4분기 기타 개선 사항
 author: Lisa
 feature: Product Announcements
-source-git-commit: ee84471418590401fe143741cadd1d76a8917149
+recommendations: noDisplay, noCatalog
+exl-id: ebea1a04-8a08-40d3-a096-c0dc8f917c36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
@@ -21,4 +23,3 @@ ht-degree: 0%
 이제 기여자/요청자에게 유료 Workfront 라이선스 유형에서 사용할 수 있는 기능을 더 잘 알리기 위해 기본 메뉴에서 사용할 수 있는 모든 옵션을 볼 수 있습니다. 기여자가 사용할 수 없는 옵션은 회색으로 표시됩니다.
 
 메인 메뉴에 대한 자세한 내용은 [상단 탐색 막대 개요](/help/quicksilver/workfront-basics/the-new-workfront-experience/global-navigation-overview.md).
-

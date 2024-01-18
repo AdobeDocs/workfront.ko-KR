@@ -3,8 +3,9 @@ title: 2024년 1분기 업데이트 스트림 및 알림 개선 사항
 description: 2024년 1분기 업데이트 스트림 및 알림 개선 사항
 author: Lisa
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 837b5a23-162d-4862-b6fd-be3048ab0269
-source-git-commit: 7e1bcff7361a76988a319b266c7b885a6b614c15
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 0%

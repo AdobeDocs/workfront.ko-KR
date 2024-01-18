@@ -3,10 +3,11 @@ title: 2023년 4분기 릴리스 개요
 description: 2023년 4분기 릴리스 개요
 author: Becky
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 63d043a85c2e5300d8b5872b2ec7983de4ba1f50
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '2700'
+source-wordcount: '2772'
 ht-degree: 0%
 
 ---
@@ -780,9 +781,9 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/
 
 Workfront 모바일 앱에는 Workfront 로그인이 필요합니다. 외부 사용자 및 게스트는 증명 작업에 증명 앱을 계속 사용할 수 있지만, 더 이상 지원되지 않으며 23.10에서 사용할 수 없습니다.
 
-#### 사용하지 않는 계정에 대해 워크스트림 제거됨
+#### 워크스트림을 사용하지 않는 계정의 워크스트림이 제거됨
 
-Adobe Workfront 보드에서 작업 스트림을 생성한 적이 없는 계정의 경우, 작업 스트림 영역은 2023년 10월 11일부터 보드 대시보드에서 제거되었습니다. 워크스트림을 사용하는 계정은 계속해서 액세스할 수 있습니다. 향상된 스크럼 기능은 향후 릴리스에서 해결될 예정입니다.
+Adobe Workfront 보드에서 작업 스트림을 생성한 적이 없는 계정의 경우, 작업 스트림 영역은 2023년 10월 11일부터 보드 대시보드에서 제거되었습니다. 워크스트림을 사용하는 계정은 여전히 액세스할 수 있습니다. 향상된 스크럼 기능은 향후 릴리스에서 해결될 예정입니다.
 
 <!-- HTML you might need
 
