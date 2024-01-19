@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 362a14c2c25e995d06a26b77ab51448b033bc2ac
 workflow-type: tm+mt
-source-wordcount: '4475'
+source-wordcount: '4361'
 ht-degree: 0%
 
 ---
@@ -269,7 +269,7 @@ GET /attask/api/v15.0/task/search?percentComplete=100
 
 다음 표에는 Workfront API와 함께 사용할 수 있는 몇 가지 수정자가 나와 있습니다.
 
-| **한정자** | **설명** | **예** |
+| **수정자** | **설명** | **예** |
 |---|---|---|
 | eq | 종료됨 상태의 결과를 반환합니다. | <pre>...status=cls&amp;status_Mod=eq...</pre> |
 | ne | 닫힘 상태가 아닌 결과를 반환합니다. | <pre>...status=cls&amp;status_Mod=ne...</pre> |
@@ -352,7 +352,7 @@ OR 문은 OR 문의 필터링 기준을 충족하는 API 호출의 레코드만 
 
 접두사 &quot;DE:&quot;를 사용하여 사용자 지정 데이터 필드를 검색할 수 있습니다. 예를 들어 &quot;CustomText&quot;라는 매개 변수를 사용하여 프로젝트를 요청하려면 다음 요청을 사용합니다.
 <pre>/attask/api/v15.0/project/search?fields=DE:CustomText</pre>반환
-<pre>{<br>    "name": "사용자 지정 데이터 프로젝트",<br>    "ID": "4c9a954f0000001afad0687d7b1b4e43",<br>    "DE:CustomText": "작업 b" <br>}</pre>parameterValues 필드를 요청하여 개체에 대한 모든 사용자 지정 데이터를 검색할 수도 있습니다. For example, 
+<pre>{<br>    "name": "사용자 지정 데이터 프로젝트",<br>    "ID": "4c9a954f0000001afad0687d7b1b4e43",<br>    "DE:CustomText": "작업 b" <br>}</pre>parameterValues 필드를 요청하여 개체에 대한 모든 사용자 지정 데이터를 검색할 수도 있습니다. 예를 들어, 
 <pre>/attask/api/v15.0/project/search?fields=매개 변수 값</pre>는 유사한 데이터를 다음과 반환합니다.
 <pre>{<br>    "name": "사용자 지정 데이터 프로젝트",<br>    "ID": "4c9a954f0000001afad0687d7b1b4e43",<br>    매개 변수 값: { <br>        "DE:CustomText": "작업 b", <br>        "DE:CustomNumber": 1.4, <br>        "DE:CustomCheckBoxes": ["first", "second", "third"] <br>    } <br>}</pre>
 
@@ -361,11 +361,11 @@ OR 문은 OR 문의 필터링 기준을 충족하는 API 호출의 레코드만 
 일부 객체 유형에는 일반적으로 실행되며 객체 유형 URI의 끝에 쿼리 이름을 추가하여 사용할 수 있는 이름이 지정된 검색어가 있습니다. 예를 들어 다음 요청은 사용자가 현재 할당된 작업 항목(작업 및 문제)을 검색합니다.
 <pre>/attask/api/v15.0/work/myWork</pre>명명된 쿼리는 필드 매개 변수를 요청하여 추가 필드를 검색할 수 있도록 지원합니다. 일부 명명된 쿼리는 추가 필터도 수락합니다. 개체에 대해 허용되는 명명된 쿼리 목록을 보려면 [API 탐색기](../../wf-api/general/api-explorer.md)에서 개체에 대한 작업 탭을 참조하십시오.
 
-#### 카운트 필터 사용
+#### 사용 `Count`
 
-제공된 검색에서 반환할 결과 수를 지정할 수 있습니다. 이렇게 하면 서버에서 요청을 보다 신속하게 처리하고 대역폭을 절약할 수 있습니다. 예: 요청
+다음을 사용할 수 있습니다. `count` 쿼리와 일치하는 결과 수를 반환합니다. 이 기능은 결과에 데이터가 필요하지 않을 때 유용합니다. 카운트만 반환하면 서버는 요청을 보다 빠르게 처리하고 대역폭을 절약할 수 있습니다. 예: 요청
 <pre>GET /attask/api/v15.0/project/count?status=CUR</pre>결과 수를 다음 형식으로 반환합니다.
-<pre>{<br>    "count": 3 <br>}</pre>이 결과는 전체 개체를 전송하는 경우보다 다운로드가 훨씬 적습니다. 필터 구문은 검색 명령과 동일합니다.
+<pre>{<br>    "count": 3 <br>}</pre>카운트를 반환하면 전체 개체가 반환되는 경우보다 훨씬 작은 데이터 전송이 수행됩니다. 구문은 검색 명령과 동일합니다.
 
 ### 보고서 요청
 
@@ -404,7 +404,7 @@ Workfront의 대부분의 필드에 적용됩니다.
  <tbody> 
   <tr> 
    <td width="200">기본 결과 수</td> 
-   <td>100</td> 
+   <td>10</td> 
    <td> 쿼리 필터에 제한이 지정되지 않은 경우(예: $$LIMIT) 결과에는 100개 이하의 기본 개체가 포함될 수 있습니다. <br>다음을 참조하십시오 <a href="#using-paginated-responses" class="MCXref xref">페이지 매김된 응답 사용</a> 이 제한을 재정의하는 방법에 대한 지침입니다. </td> 
   </tr> 
   <tr> 
