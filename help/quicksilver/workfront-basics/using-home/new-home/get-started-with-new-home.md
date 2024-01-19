@@ -6,9 +6,9 @@ description: 새로운 홈은 작업 관리를 위한 강력한 새로운 기능
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: b2409ceb7358d92ca1941bd849cb6ffd76f0763e
+source-git-commit: 61074fd87dafde9eb555da27e207198ee0eadc60
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1102'
 ht-degree: 8%
 
 ---
@@ -16,8 +16,6 @@ ht-degree: 8%
 # 새 홈 시작
 
 <!--Audited: 12/2023-->
-
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
 
 Adobe Workfront의 새로운 홈 경험은 현재의 홈 경험을 개선하는 동시에 올바른 작업에 집중할 수 있는 보다 유연한 방법을 제공하는 것을 목표로 합니다.
 
@@ -59,8 +57,8 @@ Adobe Workfront의 새로운 홈 경험은 현재의 홈 경험을 개선하는 
 * **모든 승인**\
     맞춤형 열과 특정 승인을 검색할 수 있는 검색창이 있는 표에 조직에 대한 모든 승인을 표시합니다.
 
-* <span class="preview">**승인 보류 중**</span>\
-    <span class="preview">자신이 소유한 프로젝트의 문서에 할당된 승인을 표시합니다. 여기에서 승인 상태를 보고 사용자에게 미완료 검토 및 승인을 알릴 수 있습니다. <span style="color: #ff0000;">이 기능은 단계별 릴리스의 일부이며 현재 특정 고객에게만 제공됩니다.</span></span>
+* **승인 보류 중**&lt;\
+    자신이 소유한 프로젝트의 문서에 할당된 승인을 표시합니다. 여기에서 승인 상태를 보고 사용자에게 미완료 검토 및 승인을 알릴 수 있습니다. <span style="color: #ff0000;">이 기능은 단계별 릴리스의 일부이며 현재 특정 고객에게만 제공됩니다.</span>
 
 * **언급**\
     내 업데이트 페이지와 유사하게 Workfront 전체에서 최근 주석 스레드를 표시합니다. 회신 버튼을 사용하여 위젯 내에서 회신을 작성할 수 있습니다. 또한 이 위젯에는 지난 30일 동안 작업 또는 문제가 업데이트된 경우 할당한 작업 및 문제에 대한 댓글, 다른 사용자에게 할당한 댓글, 소유한 댓글, 기본 담당자인 댓글 또는 생성한 댓글이 표시됩니다.
