@@ -6,17 +6,14 @@ description: 문서 승인 상태가 나열되고 설명되어 있습니다
 author: Becky
 feature: Work Management, Digital Content and Documents
 exl-id: 30a10ed9-ae11-4ff1-a66c-58ea94fe9959
-source-git-commit: 17a4a607354cdc991b1c1f72697c530c32f713bd
+source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 4%
+source-wordcount: '163'
+ht-degree: 5%
 
 ---
 
 # 문서 승인 상태
-
-<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
-
 
 문서의 헤더에서 문서의 승인 상태를 찾을 수 있습니다.
 

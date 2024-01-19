@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 6ea6a81ad99178b24d4f6d7034394d8b4e137918
+source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1622'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">문서 승인에 대해 업데이트된 상태</a></p><p>문서 승인 상태를 보다 명확하게 하기 위해 사용 가능한 문서 상태 승인을 업데이트했습니다. 이제 승인 상태는 검토자만 있고 승인자는 없는 경우뿐만 아니라 검토 완료를 표시하는 검토자를 설명합니다.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">문서 승인에 대해 업데이트된 상태</a></p><p>[!BADGE In production ]{type=Informative}</p><p>문서 승인 상태를 보다 명확하게 하기 위해 사용 가능한 문서 상태 승인을 업데이트했습니다. 이제 승인 상태는 검토자만 있고 승인자는 없는 경우뿐만 아니라 검토 완료를 표시하는 검토자를 설명합니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
@@ -153,7 +153,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">검토를 완료로 표시</a></p><p>문서가 검토되고 다음 승인 단계를 위해 준비되는 시기를 더 명확히 하기 위해 새 문서가 만들어졌습니다 <strong>내 검토 완료</strong> 단추를 클릭합니다.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">검토를 완료로 표시</a></p><p>[!BADGE In production ]{type=Informative}</p><p>문서가 검토되고 다음 승인 단계를 위해 준비되는 시기를 더 명확히 하기 위해 새 문서가 만들어졌습니다 <strong>내 검토 완료</strong> 단추를 클릭합니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
@@ -172,7 +172,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">문서 검토 및 승인 상태가 문서 헤더에 표시됨</a></p><p>검토 및 승인 프로세스를 보다 투명하게 하기 위해 상태를 문서 세부 정보 페이지의 헤더에 추가했습니다.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">문서 검토 및 승인 상태가 문서 헤더에 표시됨</a></p><p>[!BADGE In production ]{type=Informative}</p><p>검토 및 승인 프로세스를 보다 투명하게 하기 위해 상태를 문서 세부 정보 페이지의 헤더에 추가했습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
@@ -210,7 +210,7 @@ ht-degree: 0%
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">새로운 보류 중인 승인 위젯 사용 가능</a></p><p>소유한 프로젝트에 대한 승인 및 검토의 상태를 더 쉽게 확인할 수 있도록 새로운 승인 보류 중 위젯을 홈에 추가했습니다.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">새로운 보류 중인 승인 위젯 사용 가능</a></p><p>[!BADGE In production ]{type=Informative}</p><p>소유한 프로젝트에 대한 승인 및 검토의 상태를 더 쉽게 확인할 수 있도록 새로운 승인 보류 중 위젯을 홈에 추가했습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
