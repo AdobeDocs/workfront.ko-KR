@@ -7,25 +7,20 @@ description: 에 대해 알아보려면 이 문서 를 참조하십시오. [!DNL
 author: Lisa
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: ec753f4176208708de0a39679788d34f486f759b
+source-git-commit: 3706921e4705a05d9d1fa18a3d242632b5e0616b
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '626'
 ht-degree: 0%
 
 ---
 
 # 의 초기 기능 옵트인 [!DNL Adobe Workfront] [!UICONTROL 게시판]
 
-Ad Hoc 및 연결된 카드가 있는 보드는 모든 사용자가 사용할 수 있으며 2022년 7월부터 초기 기능 옵트인을 위해 추가 보드 기능을 열게 되어 기쁘게 생각합니다.
+의 초기 기능 옵트인 [!DNL Adobe Workfront] [!UICONTROL 게시판] 은 2022년 7월에 출시되었습니다.
 
 [!DNL Adobe Workfront] [!UICONTROL 게시판] 열과 카드가 포함된 공유 보드에 대한 액세스 권한을 제공하여 팀 공동 작업을 허용하는 유연한 도구입니다.
 
 보드에 대한 일반적인 정보는 다음을 참조하십시오. [[!UICONTROL 게시판] 개요](/help/quicksilver/agile/boards-overview.md).
-
-## 릴리스 일정
-
-* 미리 보기의 초기 기능 옵트인 시작: 2022년 7월 22일
-* 공식 릴리스: 2022년 7월 28일
 
 ## 기능
 
@@ -138,8 +133,8 @@ Ad Hoc 및 연결된 카드가 있는 보드는 모든 사용자가 사용할 �
    <td>릴리스됨</td>
   </tr>
   <tr>
-   <td>카드의 체크리스트 항목으로 하위 작업 가져오기</td>
-   <td>계획됨</td>
+   <td>카드의 하위 작업 가져오기</td>
+   <td>릴리스됨</td>
   </tr>
   <tr>
    <td>카드의 필드 표시 사용자 지정</td>
@@ -190,7 +185,7 @@ Ad Hoc 및 연결된 카드가 있는 보드는 모든 사용자가 사용할 �
 
 ## 초기 기능 옵트인
 
-### 사용 가능
+### 가용성
 
 보드에 대한 초기 기능은 모든 조직에서 사용할 수 있습니다. 관여는 완전히 선택 사항입니다.
 
@@ -198,7 +193,8 @@ Ad Hoc 및 연결된 카드가 있는 보드는 모든 사용자가 사용할 �
 
 전용 [!DNL Workfront] 관리자는 보드에 대한 초기 기능을 선택할 수 있습니다. 다음과 같은 경우 [!DNL Workfront] 관리자가 초기 기능을 활성화하면 조직의 모든 사용자가 옵트인됩니다.
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![](assets/main-menu-icon.png) 의 오른쪽 위 모서리 [!DNL Adobe Workfront]을 클릭한 다음 을 클릭합니다 **[!UICONTROL 게시판]**.
+{{step1-to-boards}}
+
 1. 클릭 ![초기 기능 옵트인](assets/early-feature-opt-in-not-enabled.png) ([!UICONTROL 초기 기능 옵트인])을 클릭하여 제품에서 사용할 수 있습니다.
 1. 클릭 **[!UICONTROL 사용]**.
 1. 보드의 초기 기능 사용을 시작합니다.
@@ -228,6 +224,7 @@ Ad Hoc 및 연결된 카드가 있는 보드는 모든 사용자가 사용할 �
 
 전용 [!DNL Workfront] 관리자는 초기 기능 수신을 거부할 수 있습니다. 다음과 같은 경우 [!DNL Workfront] 관리자가 초기 기능을 비활성화하면 조직의 모든 사용자가 옵트아웃됩니다.
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![](assets/main-menu-icon.png) 의 오른쪽 위 모서리 [!DNL Adobe Workfront]을 클릭한 다음 을 클릭합니다 **[!UICONTROL 게시판]**.
+{{step1-to-boards}}
+
 1. 클릭 ![초기 기능 옵트인 활성화됨](assets/early-feature-opt-in-enabled.png) ([!UICONTROL 초기 기능 옵트인 활성화됨])을 클릭하여 제품에서 사용할 수 있습니다.
 1. 클릭 **[!UICONTROL 사용 안 함]**.
