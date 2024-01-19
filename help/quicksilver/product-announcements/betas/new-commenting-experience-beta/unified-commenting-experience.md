@@ -7,15 +7,16 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1317'
 ht-degree: 2%
 
 ---
 
 # 새 댓글 달기 환경
 
+<!--take out legacy, preview, prod references from below-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.  </span>  
 
@@ -56,13 +57,15 @@ The new commenting experience will slowly become available for all the objects w
 * 오브젝트에 새 댓글이 추가될 때 실시간 표시기
 * 의견 제출 후 편집
 
-다음 기능이 새 경험에서 제거되었습니다.
+다음 기능은 제거되었거나 새 경험에서 더 이상 사용되지 않습니다.
 
 * 시스템 업데이트에 대한 주석 달기
-* 댓글을 달면서 상태, 조건, 커밋 일자를 편집할 수 있는 기능
+* 작업 및 문제에 대해 댓글을 작성하는 동안 상태, 조건, 커밋 일자 및 완료율을 편집할 수 있습니다.
 * 사용자 정의 양식 편집
 * Workfront 또는 그룹 관리자가 다른 사용자로 로그인하고 대신 주석을 추가할 때의 &quot;대신하여 &lt; 사용자 이름 >&quot; 정보는 원래 제거되었습니다. 2023년 10월 19일에 복원되었습니다.
 * 문서에 주석을 추가하는 동안 다른 사용자에게 태그를 지정할 때 &quot;승인 요청&quot; 옵션이 표시됩니다.
+* 사용자의 프로필 상자를 편집할 때 &quot;업데이트 상태에서 완료율 표시&quot; 설정이 제거됩니다. 작업 또는 문제의 완료율을 업데이트하는 기능이 제거되었습니다.
+* 작업 또는 문제의 할당자가 커밋 일자를 편집했다는 업데이트 영역의 프로젝트 소유자에 대한 알림입니다. <!--ensure this is correct when re remove the legacy and leave only new commenting-->
 
 <!--removed this note on November 28, 2023, when this limitation was removed: 
 

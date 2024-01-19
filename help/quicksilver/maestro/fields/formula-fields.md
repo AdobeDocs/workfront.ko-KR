@@ -4,9 +4,9 @@ description: Adobe 마에스트로에서는 함수와 기존 필드를 사용하
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -147,7 +147,7 @@ Maestro 공식 필드는 Workfront 계산 필드의 모든 표현식을 지원�
    </td></tr>
      <tr> 
    <td><strong>ID</strong> </td> 
-   <td> <p>레코드의 ID를 반환합니다.</p> <p>표현식의 형식은 다음과 같습니다.
+   <td> <p>레코드의 ID를 반환합니다. 각 레코드에는 고유한 ID가 있습니다.</p> <p>표현식의 형식은 다음과 같습니다.
 
 <code>{ID}</code>
 </p>

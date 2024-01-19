@@ -6,10 +6,10 @@ description: '사용자 [!DNL Adobe Workfront] 프로필에는 자신에 대한 
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '3246'
-ht-degree: 1%
+source-wordcount: '3301'
+ht-degree: 0%
 
 ---
 
@@ -212,7 +212,7 @@ ht-degree: 1%
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-### [!UICONTROL 개인적인 정보]
+### [!UICONTROL 개인 정보]
 
 이 섹션에는 다음 하위 섹션이 포함됩니다.
 
@@ -340,7 +340,9 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL 업데이트 상태에서 완료율 표시]</strong> </td> 
-   <td>작업 업데이트를 입력할 때 작업의 완료율을 업데이트할 수 있도록 작업의 [!UICONTROL 업데이트 상태] 필드에 백분율 막대를 표시하려면 이 확인란을 선택합니다.</td> 
+   <td>기존 댓글 달기 환경을 사용할 때 작업의 업데이트 영역 내에 완료율 표시줄을 표시하려면 이 옵션을 선택합니다. 자세한 내용은 <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">새 댓글 달기 환경</a>.
+
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL 자신에게 할당된 작업을 내 처리 중 탭으로 전송]</strong> </td> 

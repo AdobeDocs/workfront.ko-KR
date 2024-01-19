@@ -6,9 +6,9 @@ description: 프로젝트에서 다른 프로젝트로 작업을 복사하거나
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '1727'
+source-wordcount: '1736'
 ht-degree: 1%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
@@ -135,7 +135,7 @@ ht-degree: 1%
 
 1. 검색하여 Workfront 시스템에서 작업을 찾습니다.
 1. 작업 이름을 클릭하여 엽니다.
-1. 다음을 클릭합니다. **자세히** 드롭다운 메뉴 ![](assets/qs-more-menu.png) 작업 이름 옆에 있는 을 클릭합니다. **복사** **끝**.
+1. 다음을 클릭합니다. **자세히** 드롭다운 메뉴 ![](assets/qs-more-menu.png) 작업 이름 옆에 있는 을 클릭합니다. **복사 위치:**.
 
    ![](assets/taskcopy-to-at-the-task-level-nwe-350x200.png)
 
