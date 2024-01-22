@@ -5,9 +5,9 @@ title: 의 프로젝트, 작업 및 문제 날짜 개요 [!DNL Adobe Workfront]
 description: 의 프로젝트, 작업 및 문제 날짜 개요 [!DNL Adobe Workfront]
 feature: Get Started with Workfront
 exl-id: 3808200f-a573-4c39-8965-b254f69c893c
-source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
+source-git-commit: db9193c7593ec6ce361c020b70ed02e79742eb9b
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1249'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ ht-degree: 0%
 * 프로젝트, 작업 또는 문제 상태가 다음으로 변경됨 [!UICONTROL 완료], [!UICONTROL 종료됨], 또는 [!UICONTROL 해결됨].
 * 작업 또는 프로젝트 완료율은 100%입니다.
 
-다음 [!UICONTROL 실제 완료 일자] 프로젝트의 가 프로젝트의 첫 번째 작업이 완료되는 날짜와 일치합니다.
+다음 [!UICONTROL 실제 완료 일자] 프로젝트의 가 프로젝트에서 마지막 작업을 완료한 날짜와 일치합니다.
 
 >[!TIP]
 >
@@ -112,10 +112,6 @@ ht-degree: 0%
 >
 >변경 [!UICONTROL 커밋 일자] 다음 항목에 영향: [!UICONTROL 예상 완료 일자] 하지만 [!UICONTROL 계획된 완료 일자] 작업 또는 문제 프로젝트 관리자는 피할당자가 변경한 내용을 [!UICONTROL 커밋 일자] 을(를) 업데이트하려면 [!UICONTROL 계획된 완료 일자] 작업 또는 문제
 
-![](assets/commit-date-on-task-details-highlighted-nwe-350x193.png)
-
-![](assets/commit-date-in-updates-stream-on-task-nwe-350x344.png)
-
 ## [!UICONTROL 예상 시작 일자]
 
 다음 [!UICONTROL 예상 시작 일자] 은 프로젝트, 작업 또는 문제의 실시간 날짜이며 모든 지연을 고려합니다. 이 날짜는 프로젝트, 작업 또는 문제의 시작 날짜보다 [!UICONTROL 계획된 시작 일자]. 다음 [!UICONTROL 계획된 시작 일자] 지연 또는 지난 날짜를 고려하지 않습니다.
@@ -132,7 +128,7 @@ ht-degree: 0%
 
 ![](assets/projected-start-date-in-task-details-highlighted-nwe-350x188.png)
 
-## P[!UICONTROL 계획된 완료 일자]
+## [!UICONTROL 예상 완료 일자]
 
 다음 [!UICONTROL 예상 완료 일자] 은 프로젝트, 작업 또는 문제가 완료되는 시기를 실시간으로 계산한 지표를 나타냅니다. 프로젝트, 작업 또는 문제가 완료됨으로 표시되면 [!UICONTROL 예상 완료 일자] 날짜 변경 사항 [!UICONTROL 실제 완료 일자].
 
@@ -146,24 +142,28 @@ ht-degree: 0%
 
 프로젝트, 작업 및 문제에 대한 시간을 로그하여 프로젝트, 작업 또는 문제에 대한 실제 작업 시간(시간)을 표시하면 기록하는 시간이 다음과 같이 됩니다. [!UICONTROL 실제 근로시간] / 프로젝트, 작업 또는 문제
 
-시간을 기록하는 날짜는 다음과 같습니다. [!UICONTROL 시간 입력 일자] 시간 항목의 필드.
+시간을 기록하는 날짜는 다음과 같습니다. [!UICONTROL 시간 입력 일자] 시간 항목의 필드. 일부 시간 목록 및 보고서에는 시간 입력 일자가 일자로 표시됩니다.
 
 >[!TIP]
 >
 >다음 [!UICONTROL 시간 입력 일자] 다음과다름: [!UICONTROL 입력 일자] 시간 로그가 생성된 날짜가 아니라 시간을 연결하려는 날짜라는 점에서 볼 수 있습니다.
 
-에 시간을 기록할 수 있습니다. [!UICONTROL 프로젝트], [!UICONTROL 작업], 또는 [!UICONTROL 문제 업데이트] 섹션 또는 [!UICONTROL 시간] 섹션에 있는 마지막 항목이 될 필요가 없습니다. 에 시간을 기록할 때 [!UICONTROL 시간] 섹션 에서는 시간 입력 날짜와 시간이 속하는 사용자를 수동으로 지정할 수 있습니다.
+Workfront의 다음 영역에서 시간을 기록하고 볼 수 있습니다.
 
-자세한 내용은 [로그 시간](../../../timesheets/create-and-manage-timesheets/log-time.md).
+* 에 시간 기록 및 보기 [!UICONTROL 프로젝트], [!UICONTROL 작업], 또는 [!UICONTROL 문제 업데이트] 섹션 또는 [!UICONTROL 시간] 섹션. 에 시간을 기록할 때 [!UICONTROL 시간] 섹션 에서는 시간 입력 날짜와 시간이 속하는 사용자를 수동으로 지정할 수 있습니다.
 
->[!TIP]
->
->상위 작업 또는 프로젝트보다 작업 작업 및 문제에 시간을 기록하는 것이 좋습니다. 작업 작업에 기록된 시간이 상위 작업 및 프로젝트로 롤업됩니다. [!UICONTROL 실제 근로시간] (상위 작업 및 프로젝트용) 로그온된 시간 문제가 프로젝트로 롤업됩니다. [!UICONTROL 실제 근로시간] 프로젝트용입니다.
+  ![](assets/log-time-box-task-hours-section-nwe-350x500.png)
 
-![](assets/log-time-box-task-hours-section-nwe-350x500.png)
+  자세한 내용은 [로그 시간](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
-![](assets/log-time-in-update-stream-task-nwe-350x185.png)
+  >[!TIP]
+  >
+  >상위 작업 또는 프로젝트보다 작업 작업 및 문제에 시간을 기록하는 것이 좋습니다. 작업 작업에 기록된 시간이 상위 작업 및 프로젝트로 롤업됩니다. [!UICONTROL 실제 근로시간] (상위 작업 및 프로젝트용) 로그온된 시간 문제가 프로젝트로 롤업됩니다. [!UICONTROL 실제 근로시간] 프로젝트용입니다.
 
-다음을 볼 수 있습니다. [!UICONTROL 시간 입력 일자] 시간 보고서 및 목록에서.
+* 작업 또는 문제의 업데이트 스트림에 시간을 기록합니다.
 
-![](assets/hour-entry-date-in-view-nwe-350x173.png)
+  ![](assets/log-time-in-update-stream-task-nwe-350x185.png)
+
+* 보기 [!UICONTROL 시간 입력 일자] 시간 보고서 및 목록에서.
+
+  ![](assets/hour-entry-date-in-view-nwe-350x173.png)
