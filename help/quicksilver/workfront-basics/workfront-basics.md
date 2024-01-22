@@ -3,13 +3,13 @@ content-type: reference
 navigation-topic: get-started-with-workfront
 title: Adobe Workfront 기본 사항
 description: Adobe Workfront의 기본 사항을 이해하려면 다음 영역을 검토하십시오.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c0b25ec2-38a5-4499-9366-be3b71ae62a2
-source-git-commit: 152159a27bf7253d292133d3406096d8f7049922
+source-git-commit: 90c4f33f988b2a303aa6ab11a797c90321c148af
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '80'
 ht-degree: 17%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 17%
 * [홈](../workfront-basics/using-home/home.md)
 * [작업 항목 업데이트 및 업데이트 보기](../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
 * [사용자 정의 양식을 사용한 작업](../workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
-* [알림 사용](../workfront-basics/using-notifications/use-notifications.md)
+* [알림 사용: 문서 색인](../workfront-basics/using-notifications/use-notifications.md)
 * [오브젝트에 권한 부여 및 요청](../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
 * [계정 및 프로필 관리](../workfront-basics/manage-your-account-and-profile/manage-your-account-and-profile.md)
 * [모바일 앱](../workfront-basics/mobile-apps/mobile-apps.md)

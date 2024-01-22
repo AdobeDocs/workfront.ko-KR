@@ -1,20 +1,24 @@
 ---
 content-type: reference
 navigation-topic: get-started-with-workfront
-title: 알림 사용
+title: "알림 사용: 문서 색인"
 description: Adobe Workfront에서 알림을 사용하는 방법을 알아보려면 이 문서를 검토하십시오.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c609c51d-df67-49bb-8fe3-8962a5270cc9
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: 90c4f33f988b2a303aa6ab11a797c90321c148af
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 1%
+source-wordcount: '113'
+ht-degree: 0%
 
 ---
 
-# 알림 사용
+# 알림 사용: 문서 색인
+
+[!DNL Adobe Workfront] 은 활동에 대해 경고하기 위해 이메일 알림, 인앱 알림 및 모바일 알림을 보냅니다. [!DNL Workfront].
+
+<!-- Audited: 01/2024 -->
 
 이 섹션에는 다음 문서가 포함됩니다.
 
