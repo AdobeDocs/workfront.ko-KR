@@ -7,16 +7,16 @@ description: 기본적으로 시나리오는 15분마다 실행됩니다. 활성
 author: Becky
 feature: Workfront Fusion
 exl-id: bce89abe-ec37-4705-a88f-de62c8b27f49
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: f5549be5951a2648d6a77d25bebbd4141f18d36c
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 1%
+source-wordcount: '580'
+ht-degree: 0%
 
 ---
 
 # 시나리오 예약 위치 [!DNL Adobe Workfront Fusion]
 
-기본적으로 시나리오는 15분마다 실행됩니다. 활성화된 시나리오가 실행되는 시기와 빈도를 정의하여 이를 변경할 수 있습니다.
+기본적으로 시나리오는 15분마다 실행됩니다. 활성화된 시나리오가 실행되는 시기와 빈도를 정의하여 이를 변경할 수 있습니다. Fusion 시나리오는 5분마다 실행되도록 예약할 수 있습니다.
 
 ## 액세스 요구 사항
 
