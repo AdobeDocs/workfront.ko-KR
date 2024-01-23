@@ -7,9 +7,9 @@ description: 이 문서에서는 [!UICONTROL 시나리오 설정] 패널 위치 
 author: Becky
 feature: Workfront Fusion
 exl-id: 64a7a39a-f450-4eba-b4db-f31dd22aefdc
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 4d9832d0870c3fccf847c3932ad4f985a62b9672
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1097'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 0%
 
    ![](assets/scenario-settings-350x221.png)
 
-   다음에서 [!UICONTROL 시나리오 설정] 패널 이 표시되면 시나리오에 대한 다양한 고급 설정을 구성할 수 있습니다.
+   다음에서 [!UICONTROL 시나리오 설정] 표시되는 패널에서 시나리오에 대한 다양한 고급 설정을 구성할 수 있습니다.
 
 ## [!UICONTROL 미완료 실행 저장 허용]
 
@@ -71,6 +71,12 @@ ht-degree: 0%
 ## [!UICONTROL 순차적 처리]
 
 이 옵션은 방법을 결정합니다 [!DNL Workfront Fusion] 오류가 발생하고 시나리오 실행이 (으)로 이동되면 진행됩니다. [에서 불완전한 실행 보기 및 해결 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md). 다음과 같은 경우 [!UICONTROL 순차적 처리] 옵션이 활성화되면 모든 미완료 실행이 해결될 때까지 Workfront Fusion에서 작업 시퀀스 처리를 모두 중지합니다. 다음과 같은 경우 [!UICONTROL 순차적 처리] 옵션이 비활성화되면 불완전한 실행을 다시 실행하려고 반복적으로 시도하면서 시나리오가 예약에 따라 계속 실행됩니다.
+
+>[!NOTE]
+>
+>순차적 처리는 시나리오 실행에 지연을 발생시킬 수 있다. 인스턴스 시나리오가 트리거되거나 예약된 시나리오가 실행되도록 설정된 경우 큐에 미완료 실행이 있는 경우 해당 시나리오는 큐에서 모든 실행이 완료되기 전에 실행됩니다.
+>
+>시나리오의 사용 사례에 순차적 처리가 필요하지 않은 경우 순차적 처리 옵션을 비활성화하는 것이 좋습니다.
 
 예약에 대한 자세한 내용은 [시나리오 예약 위치 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/schedule-a-scenario.md).
 
