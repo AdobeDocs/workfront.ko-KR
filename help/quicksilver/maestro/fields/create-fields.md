@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: 03894773e61fc0706148695572a164a2e778da9b
 workflow-type: tm+mt
 source-wordcount: '3390'
 ht-degree: 2%
@@ -152,7 +152,7 @@ Maestro 필드에 대한 자세한 내용은 [필드 개요](../fields/fields-ov
    * [확인란](#checkbox)
    * [공식](#formula)
    * [사용자](#people)
-   * [제작자:](#created-by)
+   * [제작자](#created-by)
    * [제작 일자](#created-date)
    * [마지막 수정자](#last-modified-by)
    * [마지막 수정일](#last-modified-date)
@@ -414,7 +414,7 @@ Maestro 필드에 대한 자세한 내용은 [필드 개요](../fields/fields-ov
 
    새 사람 유형 필드가 레코드 유형에 열로 추가되고 해당 값이 레코드와 연결될 수 있습니다.
 
-### 제작자:
+### 제작자
 
 작성자 필드 유형을 사용하여 레코드를 만든 사용자를 레코드에 추가할 수 있습니다. 이 필드는 읽기 전용이며 레코드를 만들 때 로그인한 사용자의 이름으로 자동으로 채워집니다.
 

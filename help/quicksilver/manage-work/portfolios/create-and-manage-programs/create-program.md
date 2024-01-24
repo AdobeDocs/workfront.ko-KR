@@ -6,9 +6,9 @@ description: 프로그램은 프로젝트 경계를 초월하는 공통 전략, 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: e4cd543aa9f47e6b93aa148ea3fb972fbd356c02
+source-git-commit: 03894773e61fc0706148695572a164a2e778da9b
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '1020'
 ht-degree: 1%
 
 ---
@@ -28,15 +28,15 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜*</td> 
-   <td> <p>새로 만들기: 모두</p><p>또는</p><p>현재: [!UICONTROL Business] 이상</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
+   <td> <p>임의</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
    <td> <p>새로운 기능: [!UICONTROL Standard] </p><p>또는 </p><p>현재: [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
+   <td role="rowheader">액세스 수준 구성</td> 
    <td> <p>Portfolio 및 프로그램에 대한 [!UICONTROL 편집] 액세스 </p>  </td> 
   </tr> 
   <tr> 
@@ -179,7 +179,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 계획된 완료 일자]</td> 
-   <td>헤더에서 프로그램의 계획된 완료 일자 를 편집할 수 없습니다.  </td> 
+   <td>헤더에서 프로그램의 계획된 완료 일자 를 편집할 수 없습니다. 이 정보는 프로그램의 프로젝트에서 업데이트됩니다. 프로그램 내 최신 프로젝트의 계획된 완료 일자가 프로그램의 계획된 완료 일자가 됩니다.  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 활성 프로젝트 상태]</td> 

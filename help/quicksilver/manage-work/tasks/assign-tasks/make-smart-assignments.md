@@ -6,20 +6,27 @@ description: 스마트 할당을 사용하여 작업을 완료하는 데 가장 
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 94d3fc1715d32531962a1b7405850c0b2944c776
+source-git-commit: 03894773e61fc0706148695572a164a2e778da9b
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
 
 # 스마트 할당 만들기
 
+<!--update "Results" to "Other assignments" with Prod-->
+
 <span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다.</span>
 
 <span class="preview">현재 릴리스 일정에 대한 자세한 내용은 [2024년 1분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
 
-스마트 할당을 사용하여 작업을 완료하는 데 가장 적합한 사용자를 식별할 수 있습니다. 스마트 할당은 작업에 가장 적합한 리소스를 결정하는 알고리즘을 기반으로 리소스에 작업 항목을 할당할 때 Adobe Workfront이 사용자에게 제공하는 제안입니다. 스마트 할당에 대한 자세한 내용은 [스마트 할당 개요](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+스마트 할당을 사용하여 작업을 완료하는 데 가장 적합한 사용자를 식별할 수 있습니다.
+
+스마트 할당은 작업에 가장 적합한 리소스를 결정하는 알고리즘을 기반으로 리소스에 작업 항목을 할당할 때 Adobe Workfront이 사용자에게 제공하는 제안입니다.
+
+<span class="preview">Workfront에는 작업 및 문제에 대한 두 개의 분리된 알고리즘이 있습니다. </span>
+스마트 할당에 대한 자세한 내용은 [스마트 할당 개요](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
 ## 액세스 요구 사항
 
@@ -76,9 +83,16 @@ ht-degree: 0%
 
    ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
-   이 목록에 표시되는 사용자는 작업 또는 문제에 대한 스마트 할당 제안입니다.
+   문제의 경우 스마트 할당 제안이 **제안된 할당** 영역입니다.
 
-   스마트 할당이 표시되는 위치에 대한 자세한 내용은 문서의 &quot;스마트 할당 제안 찾기&quot; 섹션을 참조하십시오 [스마트 할당 개요](../../../manage-work/tasks/assign-tasks/smart-assignments.md) .
+   작업의 경우, 스마트 할당은 알고리즘 계산에서 할당을 식별하는 단계에 따라 다음 섹션에 표시됩니다.
+
+   * **제안된 할당**: 작업 스마트 할당의 알고리즘 계산 첫 번째 단계에서 확인된 할당입니다.
+   * <span class="preview">**결과**: 작업 스마트 할당의 알고리즘 계산 두 번째 단계에서 식별된 할당입니다. 이 섹션은 문제에 사용할 수 없습니다. </span> <!--replace this with the new UI: "Other assignments"-->
+
+   ![](assets/smart-assignments-task-list.png)
+
+   자세한 내용은 [스마트 할당 개요](../../../manage-work/tasks/assign-tasks/smart-assignments.md) .
 
 1. Recommendations 목록에서 해당 이름을 클릭하여 사용자를 선택합니다.
 

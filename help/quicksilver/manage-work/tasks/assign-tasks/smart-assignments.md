@@ -7,9 +7,9 @@ description: 작업 및 문제 할당을 관리할 때 스마트 할당을 사�
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
+source-git-commit: 03894773e61fc0706148695572a164a2e778da9b
 workflow-type: tm+mt
-source-wordcount: '1164'
+source-wordcount: '1231'
 ht-degree: 0%
 
 ---
@@ -51,9 +51,13 @@ ht-degree: 0%
 
   <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 
-* 할당 필드의 작업 또는 문제 헤더
+* <span class="preview">할당 필드의 작업 헤더</span>
 
-  ![](assets/smart-assignments-task-header-nwe-350x302.png)
+  <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
+
+* 할당 필드의 문제 헤더
+
+  ![](assets/smart-assignments-issue-header.png)
 
 * 할당 영역의 작업 또는 문제 요약 패널
 
@@ -70,14 +74,17 @@ ht-degree: 0%
 
 ## 스마트 할당 기준
 
-
 <div class="preview">
 
 스마트 할당은 작업에 대해 문제와 다르게 작동합니다.
 
 ### 작업에 대한 스마트 할당 기준
 
-작업 스마트 할당 계산은 두 단계에서 작동합니다.
+작업 스마트 할당 계산은 두 가지 다른 알고리즘을 사용하는 두 단계에서 작동합니다.
+
+스마트 할당을 찾는 알고리즘에 따라 할당은 할당 필드의 두 개의 별도 섹션 아래에 나열됩니다. 자세한 내용은 [스마트 할당 만들기](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md).
+
+![](assets/smart-assignments-task-list.png)
 
 #### 작업에 대한 스마트 할당 계산의 첫 번째 단계
 
@@ -111,6 +118,8 @@ ht-degree: 0%
 
   예를 들어 릭이 오늘 일찍 유사한 작업에 할당되었고 제니퍼가 이틀 전에 유사한 작업에 할당되었다면 릭이 먼저 표시됩니다.
 
+* 이 단계에서 식별된 할당은 **제안된 할당** 섹션 아래에 그룹화됩니다.
+
 * 이 계산을 사용하여 일치하는 항목이 없으면 스마트 할당의 두 번째 단계가 시작되고 다른 알고리즘을 사용하여 계산됩니다.
 
 #### 작업에 대한 스마트 할당 계산의 두 번째 단계
@@ -119,6 +128,8 @@ ht-degree: 0%
 
 자세한 내용은 섹션을 참조하십시오 [작업 및 문제에 대한 스마트 할당 기준](#smart-assignments-criteria-for-tasks-and-issues) 이 문서에서.
 
+이 단계에서 식별된 할당은 **결과** 섹션 아래에 그룹화됩니다. <!--update this to "Other assignments"-->
+
 ### 작업 및 문제에 대한 스마트 할당 기준
 
 </div>
@@ -126,6 +137,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 ><span class="preview">다음 기준은 작업 스마트 할당 계산의 첫 번째 단계에서 일치하는 항목을 찾지 못한 경우에만 작업에 적용됩니다. 자세한 내용은 섹션을 참조하십시오 [작업에 대한 스마트 할당 계산의 첫 번째 단계](#first-phase-of-smart-assignment-calculation-for-tasks) 이 문서에서. 기본적으로 다음 기준은 항상 문제에 적용됩니다. </span>
+
+![](assets/smart-assignments-issue-header.png)
 
 다음 기준의 조합(가장 중요한 것에서 가장 중요하지 않은 것의 순서로 나열됨)을 기반으로 스마트 할당 드롭다운 목록에서 사용자를 권장합니다.
 
