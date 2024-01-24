@@ -8,9 +8,9 @@ description: 데이터베이스 또는 간단한 테이블과 유사한 데이�
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: 259ffbbaeddeea64ea2e7f77db258472162c9d8d
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '1253'
+source-wordcount: '1268'
 ht-degree: 1%
 
 ---
@@ -30,6 +30,10 @@ ht-degree: 1%
 * 수
 
 데이터 저장소 모듈 사용에 대한 자세한 내용은 [[!UICONTROL 데이터 저장소] 모듈](../../workfront-fusion/apps-and-their-modules/data-store-modules.md).
+
+Workfront Fusion의 데이터 저장소에 대한 비디오 소개는 다음을 참조하십시오.
+
+* [데이터 저장소](https://video.tv.adobe.com/v/3427029/){target=_blank}
 
 ## 액세스 요구 사항
 
@@ -137,7 +141,7 @@ ht-degree: 1%
         <li> <p>클릭 <strong>[!UICONTROL Generator]</strong> 샘플 데이터에서 열을 확인할 수 있습니다.</p> 
          <div class="example" data-mc-autonum="<b>Example: </b>">
           <span class="autonumber"><span><b>예: </b></span></span> 
-          <p>예를 들어 다음 JSON 샘플 데이터는 이름, 연령 및 전화 번호의 세 가지 열을 만듭니다. 전화 번호는 모바일 및 유선 전화 번호의 컬렉션입니다.</p> 
+          <p>예를 들어 다음 JSON 샘플 데이터는 이름, 연령 및 전화번호의 세 가지 열을 만듭니다. 전화 번호는 모바일 및 유선 전화 번호의 컬렉션입니다.</p> 
           <p><code>&lbrace;</code> </p> 
           <p><code>"name":"John",</code> </p> 
           <p><code>"age":30,</code> </p> 

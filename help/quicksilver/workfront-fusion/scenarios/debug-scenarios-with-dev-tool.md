@@ -7,10 +7,10 @@ description: Adobe Workfront Fusion Devtool을 사용하면 시나리오를 이�
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: fb0ead5a39d95b3228fccd417947fa77b49305dd
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '1809'
-ht-degree: 0%
+source-wordcount: '1813'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,10 @@ ht-degree: 0%
 
 다음 [!DNL Adobe Workfront Fusion] Devtool을 사용하면 시나리오를 이해하고 문제를 해결할 수 있습니다. Devtool이 추가 패널을 [!DNL Chrome Developer Tools]. 이 디버거 패널을 사용하면 시나리오의 모든 수동 실행을 확인하고, 수행된 모든 작업을 검토하고, 수행된 모든 API 호출에 대한 세부 정보를 볼 수 있습니다. 오류를 일으킨 모듈, 작업 또는 단일 응답을 확인하고 해당 지식을 사용하여 시나리오를 구체화할 수 있습니다.
 
-Fusion Devtool에 대한 자세한 비디오 설명은 다음을 참조하십시오. [Devtool 연습](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/troubleshooting-and-error-handling/dev-tool-walkthrough.html?lang=en).
+비디오 소개 및 Fusion Devtool에 대한 설명은
+
+* [Fusion 개발 도구](https://video.tv.adobe.com/v/3427031/){target=_blank}.
+* [Devtool 연습](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/troubleshooting-and-error-handling/dev-tool-walkthrough.html?lang=en)
 
 ## 액세스 요구 사항
 
@@ -445,6 +448,6 @@ Workfront Fusion Devtool은 3개의 기본 섹션으로 나뉩니다. Devtool �
 
 #### [!UICONTROL GS 마이그레이션]
 
-이 도구는 특히 업그레이드 목적으로 제작되었습니다. [!DNL Google Sheets] (기존) 모듈을 최신 모듈로 [!DNL Google Sheets] 버전. 시나리오 경로에서 모듈의 이전 버전 바로 뒤에 새 버전의 모듈이 추가됩니다.
+이 도구는 특히 업그레이드 목적으로 제작되었습니다. [!DNL Google Sheets] (기존) 모듈을 최신 모듈로 [!DNL Google Sheets] 버전. 시나리오 경로에서 모듈의 기존 버전 바로 뒤에 새 버전의 모듈을 추가합니다.
 
 이 모듈에서는 매개 변수를 설정할 필요가 없습니다.

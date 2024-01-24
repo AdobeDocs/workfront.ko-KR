@@ -8,9 +8,9 @@ description: An [!DNL Adobe Workfront Fusion] 데이터베이스 또는 간단�
 author: Becky
 feature: Workfront Fusion
 exl-id: 1dc9cb88-d1b9-4a67-91fb-be980cc1ccd1
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1164'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,10 @@ An [!DNL Adobe Workfront Fusion] 데이터베이스 또는 간단한 테이블�
 데이터 저장소 모듈을 사용하면 의 레코드를 추가, 교체, 업데이트, 검색, 삭제, 검색 또는 카운트할 수 있습니다. [!DNL Adobe Workfront Fusion] 데이터 저장소입니다.
 
 데이터 저장소 만들기, 편집 및 문제 해결에 대한 자세한 내용은 [의 데이터 저장소 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
+
+Workfront Fusion의 데이터 저장소에 대한 비디오 소개는 다음을 참조하십시오.
+
+* [데이터 저장소](https://video.tv.adobe.com/v/3427029/){target=_blank}
 
 ## 액세스 요구 사항
 
@@ -192,7 +196,7 @@ An [!DNL Adobe Workfront Fusion] 데이터베이스 또는 간단한 테이블�
  <tbody> 
   <tr> 
    <td>[!UICONTROL 데이터 저장소] </td> 
-   <td> <p>레코드가 있는지 확인할 데이터 저장소를 선택합니다.</p> </td> 
+   <td> <p>레코드 존재를 확인할 데이터 저장소를 선택합니다.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 키] </td> 
@@ -215,7 +219,7 @@ An [!DNL Adobe Workfront Fusion] 데이터베이스 또는 간단한 테이블�
  <tbody> 
   <tr> 
    <td>[!UICONTROL 데이터 저장소] </td> 
-   <td> <p>레코드가 있는지 확인할 데이터 저장소를 선택합니다.</p> </td> 
+   <td> <p>레코드 존재를 확인할 데이터 저장소를 선택합니다.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 키] </td> 

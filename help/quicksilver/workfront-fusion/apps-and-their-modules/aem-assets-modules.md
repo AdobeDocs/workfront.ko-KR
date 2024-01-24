@@ -10,9 +10,9 @@ description: 포함 [!DNL Adobe Experience Manager Assets] 커넥터 [!DNL Adobe
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '1544'
+source-wordcount: '1543'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 0%
 # [!DNL Adobe Experience Manager Assets] 모듈
 
 포함 [!DNL Adobe Experience Manager Assets] 커넥터 [!DNL Adobe Workfront Fusion], 의 이벤트를 기반으로 시나리오를 시작할 수 있습니다. [!DNL Adobe Experience Manager Assets] 에셋을 계정, 생성, 업로드 및 업데이트하고 폴더 및 에셋을 복사하거나 이동합니다.
+
+Adobe Experience Manager Assets 커넥터에 대한 소개는 다음을 참조하십시오.
+
+* [Adobe Experience Manager Assets](https://video.tv.adobe.com/v/3427034/){target=_blank}
 
 ## 액세스 요구 사항
 
@@ -117,7 +121,7 @@ ht-degree: 0%
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL 클라이언트 ID]</td>
-                  <td>[!UICONTROL Server-to-Server] 설정에서 생성된 클라이언트 ID를 입력합니다.</td>
+                  <td>[!UICONTROL 서버 간] 설정에서 생성된 클라이언트 ID를 입력합니다.</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL 클라이언트 암호]</td>

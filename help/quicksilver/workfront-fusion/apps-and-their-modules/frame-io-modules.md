@@ -9,9 +9,9 @@ description: 다음 [!DNL Adobe Workfront Fusion Frame].io modules enable you to
 author: Becky
 feature: Workfront Fusion
 exl-id: 373a86f6-fbba-4914-b08d-a3a035ac0ae4
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '2311'
+source-wordcount: '2338'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,10 @@ ht-degree: 0%
 # [!DNL Frame.io] 모듈
 
 다음 [!DNL Adobe Workfront Fusion] [!DNL Frame.io] 모듈을 사용하면 의 에셋 및 주석을 모니터링, 만들기, 업데이트, 검색 또는 삭제할 수 있습니다. [!DNL Frame.io] 계정입니다.
+
+Frame.io 커넥터에 대한 비디오 소개는 다음을 참조하십시오.
+
+* [Frame.io](https://video.tv.adobe.com/v/3427032/){target=_blank}
 
 ## 액세스 요구 사항
 
@@ -725,7 +729,7 @@ ht-degree: 0%
 
 URL: `/v2/teams`
 
-메서드: `GET`
+방법: `GET`
 
 ![](assets/api-call-example.png)
 

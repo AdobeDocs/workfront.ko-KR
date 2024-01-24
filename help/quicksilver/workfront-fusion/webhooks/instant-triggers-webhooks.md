@@ -7,9 +7,9 @@ description: 많은 서비스는 서비스에서 특정 변경 사항이 발생�
 author: Becky
 feature: Workfront Fusion
 exl-id: 13b3a1bf-9856-4d2c-b1a5-13b044a7c2e5
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '933'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,11 @@ ht-degree: 0%
 ![](assets/instant-350x256.png)
 
 서비스가 웹후크를 제공하지 않는 경우 폴링 트리거를 사용하여 서비스를 정기적으로 폴링해야 합니다.
+
+Workfront Fusion의 Webhooks에 대한 비디오 소개는 다음을 참조하십시오.
+
+* [Webhooks 소개](https://video.tv.adobe.com/v/3427025/){target=_blank}
+* [중간 웹후크](https://video.tv.adobe.com/v/3427030/){target=_blank}
 
 ## 액세스 요구 사항
 
