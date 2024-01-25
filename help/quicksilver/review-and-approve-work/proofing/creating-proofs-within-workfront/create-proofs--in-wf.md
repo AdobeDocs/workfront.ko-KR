@@ -3,21 +3,25 @@ content-type: reference
 product-area: documents
 navigation-topic: proofing-in-workfront-navigation-topic
 title: 증명 만들기
-description: 증명을 만드는 방법을 알아봅니다.
+description: Adobe Workfront에서 문서의 증명을 만들 수 있습니다. Adobe Workfront에서 문서의 증명을 만들 수 있습니다. 문서, 대화형 콘텐츠 및 웹 사이트에 대한 증명을 만들 수 있습니다. 다음 문서에서 증명을 만드는 방법을 알아봅니다.
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: c8cdde5a-75c3-48ae-ad22-0ee4fed591fc
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
 
-# 증명 만들기
+# 증명 만들기: 문서 인덱스
 
-이 섹션에는 다음 문서가 포함됩니다.
+<!--Audited: 01/2024-->
+
+Adobe Workfront에서 문서의 증명을 만들 수 있습니다. 문서, 대화형 콘텐츠 및 웹 사이트에 대한 증명을 만들 수 있습니다.
+
+다음 문서에서 증명을 만드는 방법을 알아봅니다.
 
 * [기본 워크플로를 사용하여 고급 증명 만들기](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
 * [자동화된 워크플로를 사용하여 고급 증명 만들기](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)

@@ -4,10 +4,10 @@ description: Adobe 마에스트로의 레코드 오른쪽 패널에서 레코드
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
+source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 2%
+source-wordcount: '446'
+ht-degree: 4%
 
 ---
 
@@ -72,7 +72,6 @@ ht-degree: 2%
 
    * 다중 선택
    * 연결된 레코드 필드
-   * 연결된(조회) 필드
    * 사용자
 
   변경 사항이 필드에 값을 추가하기만 하면 이전 값은 표시되지 않고 새 필드 값만 표시됩니다.
@@ -80,5 +79,14 @@ ht-degree: 2%
 * 확인란 유형 필드에는 이전 값이 취소선 형식으로 표시되지 않습니다. 필드를 편집하면 변경한 시점의 현재 상태만 표시됩니다.
 
   Maestro 필드에 대한 자세한 내용은 [필드 만들기](/help/quicksilver/maestro/fields/create-fields.md).
+
+* 다음 유형의 필드에 대한 변경 사항은 기록 섹션에 표시되지 않습니다.
+
+   * 연결된(조회) 필드
+   * 공식
+   * 제작자
+   * 만든 날짜
+   * 마지막 수정자
+   * 마지막 수정일
 
 * 시스템에서 필드를 제거하면 해당 필드에 대한 업데이트가 기록 섹션에 남아 있습니다. 레코드의 내역 섹션에 필드가 제거되었다는 표시가 없습니다.

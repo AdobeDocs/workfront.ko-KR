@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
+source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
 workflow-type: tm+mt
 source-wordcount: '3564'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Maestro는 새로운 History 섹션에 다음 정보를 기록합니다.
 
 * 변경이 발생한 날짜 및 시간 기록.
 
-자세한 내용은 [레코드 주석 관리](/help/quicksilver/maestro/records/manage-record-comments.md).
+자세한 내용은 [내역 섹션 개요](/help/quicksilver/maestro/records/history-section-overview.md).
 
 ### 새 레코드 링크의 새 레이블
 
