@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 505a9602-580c-4932-a85c-6c9a7c8af457
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 8825aa9c58651a809f539576af803a582352e0b0
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '223'
 ht-degree: 12%
 
 ---
@@ -33,8 +33,9 @@ Adobe Workfront 릴리스 일정에 대한 자세한 내용은 다음을 참조�
   <tr data-mc-conditions=""> 
    <td> <p>2024년 릴리스</p> 
     <ul> 
-    <li> <p><a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md" class="MCXref xref" xrefformat="{para}">2024년 1분기 릴리스 개요</a> </p> 
-   <td> <ul>    <li> <p><a href="../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion 릴리스 활동</a> </p> </li> </ul>   </td> 
+    <li> <p><a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md" class="MCXref xref" xrefformat="{para}">2024년 1분기 릴리스 개요</a> </p> </li>
+      <li> <p><a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md" class="MCXref xref" xrefformat="{para}">2024년 2분기 릴리스 개요</a> </p> </li>
+   <td> <ul>    <li> <p><a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion 릴리스 활동</a> </p> </li> </ul>   </td> 
   <tr data-mc-conditions=""> 
    <td> <p>2023년 릴리스</p> 
     <ul> 

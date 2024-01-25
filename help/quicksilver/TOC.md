@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
+source-git-commit: 1d760fbad6633fac988278b14d630a0aad3f4b76
 workflow-type: tm+mt
-source-wordcount: '13870'
+source-wordcount: '13881'
 ht-degree: 1%
 
 ---
@@ -19,6 +19,9 @@ ht-degree: 1%
       * [제품 릴리스 개요](product-announcements/product-releases/product-releases.md)
       * [Adobe Workfront 릴리스 일정 및 프로세스](product-announcements/product-releases/workfront-release-schedule.md)
       * [Adobe Workfront 분기 릴리스 준비](product-announcements/product-releases/release-readiness.md)
+      * 2024년 2분기 릴리스 {#release-24-q2}
+         * [2024년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
+         * [2024년 2분기 프로젝트 개선 사항](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md)
       * 2024년 1분기 릴리스 {#release-24-q1}
          * [2024년 1분기 릴리스 개요](product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)
          * [2024년 1분기 관리자 개선 사항](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md)
