@@ -7,7 +7,7 @@ description: 번다운 시각화는 시간 경과에 따른 특정 프로젝트�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e67c92d5-b309-406b-b6f0-4d414d0e7dcc
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: 45dac4c5e8ff584546783d561c04d137697a03a4
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 0%
@@ -51,7 +51,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>보기</p> </td> 
+   <td> <p>보기</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 ## 전제 조건
 
-Enhanced Analytics를 사용하기 위한 사전 요구 사항은 의 &quot;사전 요구 사항&quot; 섹션을 참조하십시오. [향상된 분석 개요](../enhanced-analytics/enhanced-analytics-overview.md#prerequisites).
+Enhanced Analytics를 사용하기 위한 사전 요구 사항은 의 &quot;사전 요구 사항&quot; 섹션을 참조하십시오. [향상된 분석 개요](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## 번다운 시각화 이해
 
@@ -152,7 +152,7 @@ Enhanced Analytics를 사용하기 위한 사전 요구 사항은 의 &quot;사�
    >실제 속도가 시각화의 x축(0시간 또는 0일로 인라인)을 따라 실행되는 플랫 라인인 경우 프로젝트에 계획된 시간(또는 일)이 추가되지 않았음을 의미합니다.\
    >실제 속도가 x축(시간 또는 일 수로 인라인됨) 위에 절대 내려가지 않는 플랫 라인인 경우 이는 필터링된 기간 내에 작업이 완료되지 않았음을 의미합니다.
 
-1. (선택 사항) 시각화 데이터를 내보내려면 **내보내기** 아이콘 ![내보내기 아이콘](assets/export.png)시각화의 오른쪽 상단 모서리에서 내보내기 형식을 선택합니다.
+1. (선택 사항) 시각화 데이터를 내보내려면 **내보내기** 아이콘 ![내보내기 아이콘](assets/export.png) 시각화의 오른쪽 상단 모서리에서 내보내기 형식을 선택합니다.
 
    * 차트(PNG)
    * 데이터 테이블(XSLX)

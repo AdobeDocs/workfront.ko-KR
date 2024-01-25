@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 587d1dff-6ef1-4f97-84b9-32a073481d37
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 45dac4c5e8ff584546783d561c04d137697a03a4
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Outlook 365에 직접 통합하면 Outlook 365에서 직접 Workfront을 업데�
 
 ![](assets/mceclip1-350x169.png)\
 **용어 및 알림 사용자 지정**
-사용자 정의 용어 기능을 활용하여 &quot;Portfolio&quot; 또는 &quot;프로젝트&quot;와 같은 용어를 업계에 상관없이 원하는 링크에 맞게 변경함으로써 Workfront을 팀과 더욱 연관성 있게 만듭니다. 또한 이제 각 사용자는 다이제스트 빈도를 조정하여 수신하는 알림 유형을 사용자 지정할 수 있습니다.
+사용자 정의 용어 기능을 활용하여 &quot;Portfolio&quot; 또는 &quot;프로젝트&quot;와 같은 용어를 업종에 상관없이 원하는 링크에 맞게 변경하여 Workfront을 팀에 보다 적합하도록 합니다. 또한 이제 각 사용자는 다이제스트 빈도를 조정하여 수신하는 알림 유형을 사용자 지정할 수 있습니다.
 
 자세한 내용은 다음을 참조하십시오.  [R1 미리 보기 3](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md)
 
@@ -94,8 +94,6 @@ Workfront은 최신 지식 근로자와 경영진이 다음과 같은 작업을 
 
 **자세히 알아보기**
 
-* R1 데이터시트를 다운로드하려면 다음 단계를 수행하십시오.  [https://resources.workfront.com/data-sheets/r1-release-datasheet](https://resources.workfront.com/data-sheets/r1-release-datasheet)
-* R1 릴리스 FAQ는 여기에서 다운로드하십시오. [https://resources.workfront.com/data-sheets/r1-faq-for-customers](https://resources.workfront.com/data-sheets/r1-faq-for-customers)
 * R1에서 사용할 수 있는 개선 사항의 전체 목록은 다음과 같습니다. [R1 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md)
 
 Workfront. 일이 중요하니까
