@@ -1,12 +1,12 @@
 ---
 title: 레코드 주석 관리
-description: 레코드의 댓글 영역에 댓글 또는 답글을 추가하여 Adobe Maestro 레코드에 대해 공동 작업을 수행할 수 있습니다.
+description: 레코드의 오른쪽 패널에서 댓글 또는 답글을 추가하여 Adobe Maestro 레코드에 대해 공동 작업을 수행할 수 있습니다. 이 영역에서 레코드에 대해 수행된 다른 변경 사항 및 시스템에서 기록한 변경 사항을 볼 수도 있습니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '1155'
 ht-degree: 0%
 
 ---
@@ -15,22 +15,24 @@ ht-degree: 0%
 # 레코드 주석 관리
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
+
 <!--update the system updates articles when we release to open beta - check the long commenting stream article list and see articles that document where in the system we have system updates; "Maestro records" should be there-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
 
 <span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
-레코드의 댓글 영역에 댓글 또는 답글을 추가하여 Adobe Maestro 레코드에 대해 공동 작업을 수행할 수 있습니다.
+레코드의 오른쪽 패널에 댓글 또는 답글을 추가하여 Adobe Maestro 레코드에서 공동 작업할 수 있습니다. 이 영역에서 레코드에 대해 수행된 다른 변경 사항 및 시스템에서 기록한 변경 사항을 볼 수도 있습니다.
 
-<!--replace first paragraph with this and update the Description in the metadata: 
-You can collaborate on Adobe Maestro records, by adding comments or replies in the right panel of a record. You can also view other changes made to the record in this area.
+레코드의 오른쪽 패널에는 다음 섹션이 표시됩니다.
 
-The right panel of a record displays the following sections:
+* **댓글**: 사용자가 레코드에 추가하는 댓글 및 답글을 표시합니다.
+* **기록**: 사용자가 레코드 필드에 적용한 시스템 기록 변경 사항을 표시합니다. 자세한 내용은 [내역 섹션 개요](/help/quicksilver/maestro/records/history-section-overview.md).
 
-* Comments: Users can add comments and reply to existing ones.
-* History: When you make a change to a record, Maestro records the change in this section. 
--->
+>[!TIP]
+>
+>오른쪽 패널에는 작업 레코드와 분류 레코드 둘 다가 표시됩니다.
+
 
 ## 레코드에 댓글을 달 때 고려 사항
 
@@ -48,9 +50,9 @@ The right panel of a record displays the following sections:
 
 * 사용자에 태그를 지정하여 업데이트에 주의를 기울일 수 있습니다. 태그가 지정된 사용자가 인앱 알림이나 업데이트에 대한 이메일을 받지 않습니다. <!--this might change??-->
 
-* 다음 Maestro 영역의 레코드에 업데이트를 추가할 수 있습니다.
+* 레코드에 업데이트를 추가하고 다음 Maestro 영역에서 변경 내역을 검토할 수 있습니다.
 
-   * 세부내용 페이지에서.
+   * 레코드 또는 분류법의 세부 정보 페이지에서.
 
   <!--* From the table view.-->
 
@@ -119,6 +121,8 @@ The right panel of a record displays the following sections:
 
    레코드는 **세부 사항** 페이지가 열립니다. 주석(Comments) 영역은 기본적으로 오른쪽 패널에 열립니다.
 
+1. (조건부) 기본적으로 오른쪽 패널이 열리지 않으면 **댓글 표시** ![](assets/show-comments-icon.png) 오른쪽 위 모서리에 있는 아이콘을 클릭하여 주석 섹션을 엽니다.
+
 1. 에 주석 입력 시작 **새 댓글** 상자.
 
    ![](assets/empty-comment-box-on-record.png)
@@ -171,24 +175,16 @@ The right panel of a record displays the following sections:
 1. (선택 사항) **자세히** 아이콘 ![](assets/more-menu.png) 주석의 오른쪽 상단 모서리에서 다음 옵션 중 하나를 클릭하여 주석의 정보를 복사합니다.
 
    * **링크 복사**: 댓글에 대한 링크를 클립보드에 복사합니다.
-   * **본문 복사** t: 댓글의 텍스트를 클립보드로 복사합니다.
+   * **본문 복사**: 주석 텍스트가 클립보드에 복사됩니다.
    * **견적 회신**: 댓글의 콘텐츠를 새 회신에 복사합니다. 이미지는 복사된 응답에 포함되지 않습니다.
 
    자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (선택 사항) **자세히** 아이콘 ![](assets/more-menu.png) 주석의 오른쪽 상단 모서리에서 을(를) 클릭한 다음 을(를) 클릭합니다 **삭제** 주석을 삭제하려면 다음 작업을 수행하십시오.
+1. (선택 사항) **댓글 숨기기** 아이콘 ![](assets/hide-comments-icon.png) 오른쪽 패널을 닫습니다.
 
-<!--
-## History section overview
+## 내역 섹션 개요
 
-*********also update the screen shot above for the Comments section ******
+작업 레코드 또는 분류법의 오른쪽 패널에 있는 기록 섹션에서 레코드에 대한 변경 사항을 검토할 수 있습니다.
 
-You can refer to the History section in the right panel of a record to view changes made to the record. 
+자세한 내용은 [내역 섹션 개요](/help/quicksilver/maestro/records/history-section-overview.md).
 
-![](assets/history-area-in-comments.png)
-
-Maestro records the following information in the History section: 
-
-* Any field changes
-* The full name of the user who made the change
-* A date and time stamp of when the change occurred. 
--->

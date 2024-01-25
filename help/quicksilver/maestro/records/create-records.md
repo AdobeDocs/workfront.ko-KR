@@ -1,13 +1,13 @@
 ---
 title: 레코드 만들기
-description: Adobe 마에스트로에서 레코드는 레코드 유형의 인스턴스입니다. 개별 레코드를 만들려면 먼저 레코드 종류를 만들어야 합니다.
+description: Adobe 마에스트로에서 레코드는 레코드 유형의 인스턴스입니다. 개별 레코드를 만들려면 먼저 레코드 종류를 만들어야 합니다. 분류 레코드를 만드는 것은 운영 레코드를 만드는 것과 동일합니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1096'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Adobe 마에스트로에서 레코드는 레코드 유형의 인스턴스입니�
 * **운영 레코드**: 작업 관련 개체를 나타냅니다. 예를 들어 &quot;Campaign&quot;이라는 운영 레코드의 경우 &quot;Monthly Newsletter&quot; 또는 &quot;Summer Sale&quot;과 같은 이름의 레코드를 사용할 수 있습니다.
 * **분류 레코드**: 작업 레코드와 연결할 수 있는 속성을 나타냅니다. 예를 들어 &quot;채널&quot;이라는 분류법 레코드 유형의 경우 &quot;이메일&quot;, &quot;소셜 미디어&quot; 또는 &quot;광고&quot;와 같은 분류법에 이름을 지정할 수 있습니다.
 
-운영 레코드를 만드는 것은 분류 레코드 또는 분류를 만드는 것과 동일합니다.
+운영 레코드를 만드는 것은 분류 레코드를 만드는 것과 동일합니다.
 
 다음 중 하나를 수행하여 Maestro에서 레코드를 만들 수 있습니다.
 
@@ -120,7 +120,7 @@ Adobe 마에스트로에서 레코드는 레코드 유형의 인스턴스입니�
 
 1. (조건부) 레코드 유형 페이지가 표 보기에서 열리지 않으면 **보기** 드롭다운 메뉴를 사용하여 기존 메뉴 중 하나 선택 **표 보기** ![](assets/table-view-icon.png) 또는 클릭 **뷰 만들기 > 테이블** 테이블 뷰를 생성합니다.
 
-1. 새 레코드를 추가하려면 **새로 만들기 &lt; 레코드 유형 이름 >** 테이블의 마지막 행에서
+1. 새 레코드를 추가하려면 **새 레코드** 테이블의 마지막 행에서
 
    또는
 

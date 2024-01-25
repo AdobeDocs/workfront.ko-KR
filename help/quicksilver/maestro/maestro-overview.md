@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
 workflow-type: tm+mt
-source-wordcount: '1948'
+source-wordcount: '1956'
 ht-degree: 1%
 
 ---
@@ -86,6 +86,7 @@ Adobe Maestro는 Adobe Workfront의 새로운 서비스입니다. Maestro의 목
 | 크리에이티브 개요 |                               |                                  | ✓ 덧신 |
 | 레코드의 색상 및 아이콘 사용자 지정 | ✓ 덧신 |                                  |                 |
 | 레코드에 주석 추가 | ✓ 덧신 |                                  |                 |
+| 레코드의 변경 내용 보기 | ✓ 덧신 |                                  |                 |
 | 단락 필드에 대한 서식 있는 텍스트 서식 | ✓ 덧신 |                                  |                 |
 | Adobe Workfront Fusion용 Maestro 모듈 | ✓ 덧신 |                                  |                 |
 | 한 필드에서 다른 필드로 정보 복사 및 붙여넣기 | ✓ 덧신 |                                  |                 |

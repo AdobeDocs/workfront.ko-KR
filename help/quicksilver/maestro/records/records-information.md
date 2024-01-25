@@ -1,13 +1,13 @@
 ---
 title: "레코드: 문서 인덱스"
-description: Adobe Maestro에서 레코드 유형을 만든 후 해당 유형의 개별 레코드를 만들 수 있습니다. 다음 문서에서는 Adobe Maestro에서 레코드를 만들고 관리하는 방법을 설명합니다.
+description: Adobe Maestro에서 레코드 유형을 만든 후 해당 유형의 개별 레코드를 만들 수 있습니다. 다음 문서에서는 Adobe Maestro에서 레코드와 해당 정보를 만들고 관리하는 방법을 설명합니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
+source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ hide: yes
 
 Adobe Maestro에서 레코드 유형을 만든 후 해당 유형의 개별 레코드를 만들 수 있습니다.
 
-다음 문서에서는 Adobe Maestro에서 레코드를 만들고 관리하는 방법을 설명합니다.
+다음 문서에서는 Adobe Maestro에서 레코드와 해당 정보를 만들고 관리하는 방법을 설명합니다.
 
 * [레코드 만들기](../records/create-records.md)
 * [레코드 편집](../records/edit-records.md)
@@ -46,3 +46,4 @@ Adobe Maestro에서 레코드 유형을 만든 후 해당 유형의 개별 레�
 * [레코드 공유](../records/share-records.md)
 * [레코드 연결](../records/connect-records.md)
 * [레코드 주석 관리](/help/quicksilver/maestro/records/manage-record-comments.md)
+* [내역 섹션 개요](/help/quicksilver/maestro/records/history-section-overview.md)

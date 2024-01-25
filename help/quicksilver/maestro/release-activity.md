@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
 workflow-type: tm+mt
-source-wordcount: '3404'
+source-wordcount: '3564'
 ht-degree: 0%
 
 ---
@@ -40,28 +40,35 @@ ht-degree: 0%
 >
 >아래 섹션에서 참조하는 설명서는 기능이 프로덕션에 릴리스된 후 잠시 사용할 수 있습니다.
 
-<!--
-## Week of January 22, 2024
+## 2024년 1월 22일 주
 
-### New History section displays system activity for Maestro records (title) 
+### 새 기록 섹션에는 Maestro 레코드에 대한 시스템 활동이 표시됩니다.
 
-Production: < date > 
+프로덕션: 2024년 1월 25일
 
-Preview: To be determined 
+미리보기: 결정 예정
 
-We have introduced a new section in the right panel of a record where you can review changes made to the record.  
+감사 기능을 개선하기 위해 시스템에서 기록한 레코드에 대한 변경 사항을 검토할 수 있는 새로운 섹션을 레코드의 오른쪽 패널에 도입했습니다.
 
-Maestro records the following information in the new History section:  
+Maestro는 새로운 History 섹션에 다음 정보를 기록합니다.
 
-* Any field changes 
+* 모든 필드 변경 사항
 
-* The full name of the user who made the change 
+* 값이 변경될 때 필드의 이전 값과 새 값
 
-* A date and time stamp of when the change occurred. 
+* 변경한 사용자의 전체 이름
 
- For more information, see [Manage record comments](/help/quicksilver/maestro/records/manage-record-comments.md) 
+* 변경이 발생한 날짜 및 시간 기록.
 
--->
+자세한 내용은 [레코드 주석 관리](/help/quicksilver/maestro/records/manage-record-comments.md).
+
+### 새 레코드 링크의 새 레이블
+
+프로덕션: 2024년 1월 25일
+
+미리보기: 결정 예정
+
+레코드를 만들 때 일관성을 만들기 위해 레코드 만들기에 대한 + 새 링크의 레이블을 &quot;+ 새 레코드&quot;로 다시 지정했습니다.  이 업데이트 이전에는 링크에 레코드 유형의 이름이 포함되어 있었습니다. 이제 운영 및 분류 레코드를 만들 때 새 링크를 사용할 수 있습니다. 자세한 내용은 [레코드 만들기](/help/quicksilver/maestro/records/create-records.md).
 
 ## 2024년 1월 8일 주
 
