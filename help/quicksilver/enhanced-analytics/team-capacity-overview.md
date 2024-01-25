@@ -7,9 +7,9 @@ description: 팀 수용작업량 시각화는 홈 팀이 보유한 총 수용작
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfeb1a87-01be-4088-9e33-53a97e3871ad
-source-git-commit: 45dac4c5e8ff584546783d561c04d137697a03a4
+source-git-commit: 81118e794dca746b482b8355c24fa997a9f0edc9
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '712'
 ht-degree: 4%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 4%
       <p>현재: 비즈니스 이상</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스 개요</td>
+   <td role="rowheader">Adobe Workfront 라이선스</td>
    <td>
       <p>새로운 기능: 밝게 또는 높음</p>
       <p>또는</p>
