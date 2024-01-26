@@ -3,20 +3,20 @@ title: 향상된 분석에서 리소스 용량 시각화 보기
 content-type: overview
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
-description: 리소스 수용작업량 시각화는 팀이 수용작업량 초과, 미만 또는 초과인지 여부를 보여 줍니다.
+description: Adobe Workfront에서 향상된 분석 리소스 용량 시각화 차트를 볼 때 팀이 용량 초과, 부족 또는 부족 상태인지를 평가할 수 있습니다.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5bb45ef6-9e49-4063-8e53-c9f3bc994870
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 0%
+source-wordcount: '815'
+ht-degree: 1%
 
 ---
 
 # 향상된 분석에서 리소스 용량 시각화 보기
 
-리소스 수용작업량 시각화는 팀이 수용작업량 초과, 미만 또는 초과인지 여부를 보여 줍니다.
+Adobe Workfront에서 향상된 분석 리소스 용량 시각화 차트를 볼 때 팀이 용량 초과, 부족 또는 부족 상태인지를 평가할 수 있습니다.
 
 ## 액세스 요구 사항
 
@@ -27,33 +27,38 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront 플랜</a>*</td> 
-   <td> <p>비즈니스 이상</p> </td> 
+   <td>Adobe Workfront 플랜</a>*</td> 
+   <td> <p>현재: 비즈니스 이상</p>
+   또는
+   <p>새로 만들기: 모두</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront 라이선스 개요</a>*</td> 
-   <td> <p>검토 이상</p> </td> 
+   <td>Adobe Workfront 라이센스*</td> 
+   <td> <p>현재: 검토 이상</p>
+   또는
+   <p>새로운 기능: 표준</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>프로젝트에 대한 액세스 보기</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오.<br>Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>프로젝트에 대한 액세스 보기</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>보기</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>프로젝트에 대한 권한 보기</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오. 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 전제 조건
 
 Enhanced Analytics를 사용하기 위한 사전 요구 사항은 의 &quot;사전 요구 사항&quot; 섹션을 참조하십시오. [향상된 분석 개요](../enhanced-analytics/enhanced-analytics-overview.md).
 
-## 리소스 용량 시각화 이해
+## 자원 수용작업량 차트 이해
 
-리소스 수용작업량 시각화는 팀이 수용작업량 초과, 미만 또는 초과인지 여부를 보여 줍니다. 이 계산은 다음을 기반으로 합니다.
+리소스 수용작업량 차트는 팀이 수용작업량 초과, 부족 또는 부족 상태인 경우를 보여 줍니다. 이 계산은 다음을 기반으로 합니다.
 
 * **가용 용량**: 필터링된 기간 동안 홈 팀이 작업할 수 있는 총 시간입니다.
 
@@ -87,7 +92,7 @@ Enhanced Analytics를 사용하기 위한 사전 요구 사항은 의 &quot;사�
 
 마우스로 행을 가리키면 홈 팀이 용량을 초과하거나 미만인 시간 수뿐만 아니라 계획된 용량 및 사용 가능한 용량에 대한 정확한 시간 수도 표시됩니다.
 
-이 정보를 보면 다음을 결정하는 데 도움이 됩니다.
+이 정보를 보면 다음을 확인할 수 있습니다.
 
 * 홈 팀이 초과 할당되거나 과소 할당된 경우.
 * 가장 큰 프로젝트는 홈팀이 집중한 프로젝트였다.

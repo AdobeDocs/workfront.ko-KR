@@ -6,21 +6,25 @@ description: 웹 기반 버전의 Outlook과 통합되도록 홈 캘린더 설�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 2acd930b-5923-452e-9d8d-a6121d8d37ac
-source-git-commit: 644e2487dae0d3b2f7931660fb8e6ed68e6b8b93
+source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '843'
 ht-degree: 1%
 
 ---
 
 # 구성 [!UICONTROL 홈 캘린더] 설정 보기
 
+<!--Audited: 01/2024-->
+
 다음을 구성할 수 있습니다. [!UICONTROL 홈 캘린더] 다음을 수행하는 설정:
 
-* 클라우드 호스팅된 [!DNL Office 365] 또는 [!DNL Outlook Live]에서 웹 기반 버전의 [!DNL Outlook]과 통합합니다. Outlook 캘린더의 모든 이벤트와 선택한 관련 캘린더(예: 생일 및 휴일 캘린더)를 [!UICONTROL 홈 캘린더].
+* 클라우드 호스팅된 [!DNL Office 365] 또는 [!DNL Outlook Live]에서 웹 기반 버전의 [!DNL Outlook]과 통합합니다. Outlook 일정에서 선택한 모든 이벤트와 연결된 일정을 표시할 수 있습니다. [!UICONTROL 홈 캘린더] Adobe Workfront.
 * 에서 사용 가능한 작업 시간에 대한 워크로드를 추적하는 데 도움이 됩니다. [!UICONTROL 할당] 막대.
 
 홈 캘린더에 대한 자세한 내용은 [[!UICONTROL 홈 캘린더] 보기](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
+
+이 문서에서는 홈 캘린더 설정을 구성하고 홈 캘린더를 외부 Outlook 캘린더와 통합하는 방법에 대해 설명합니다.
 
 ## 액세스 요구 사항
 
@@ -33,17 +37,20 @@ ht-degree: 1%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
-   <td> <p>[!UICONTROL Work] 이상</p> </td> 
+   <td> <p>현재: [!UICONTROL Work] 이상</p> 
+   또는
+   <p>새로운 기능: [!UICONTROL Standard]</p> 
+   </td> 
   </tr> 
- </tbody> 
+   </tbody> 
 </table>
 
-보유 중인 플랜 또는 라이선스 유형을 확인하려면 다음으로 문의하십시오. [!DNL Workfront] 관리자.
+*보유 중인 플랜 또는 라이선스 유형을 확인하려면 다음 연락처로 문의하십시오. [!DNL Workfront] 관리자. 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 통합 기본 정보 [!DNL Microsoft Outlook] 캘린더
 
@@ -51,7 +58,7 @@ ht-degree: 1%
 
 * 의 웹 기반 버전만 통합할 수 있습니다. [!DNL Outlook] 클라우드 호스팅 [!DNL Office 365] 또는 [!DNL Outlook Live].
 
-  온-프레미스 [!DNL Outlook] 및 [!DNL Outlook] 클라우드 기반 기업에서 [!DNL Exchange] 서버가 지원되지 않습니다.
+  온프레미스 [!DNL Outlook] 및 [!DNL Outlook] 클라우드 기반 기업에서 [!DNL Exchange] 서버가 지원되지 않습니다.
 
   조직에서 단일 사인온을 사용하는 경우 다음이 필요합니다. [!DNL Microsoft 365 E3] 또는 [!DNL E5].
 
@@ -60,16 +67,16 @@ ht-degree: 1%
 * 에 표시되는 이벤트 [!UICONTROL 예정] 표시줄이 다음에 표시되지 않음 [!DNL Microsoft] 캘린더에서 드래그하지 않은 경우 [!UICONTROL 작업 목록] (으)로 [!DNL Adobe Workfront] 달력. 자세한 내용은 [[!UICONTROL 예정] 막대](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md#viewing-the-due-bar) 및 [의 작업 목록 [!UICONTROL 홈 캘린더]](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md#using-the-left-panel-of-the-home-view) 위치: [[!UICONTROL 홈 캘린더] 보기](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
 
 * 과 통합을 활성화한 경우 [!DNL Outlook], 로 끌어온 작업 항목만 [!UICONTROL 홈 캘린더] 그 시점부터는 앞으로 동기화됩니다. 통합을 활성화하기 전에 홈 캘린더에 있었던 항목은 표시되지 않으며, 항목을 표시하려는 경우 홈 캘린더로 다시 드래그해야 합니다. [!DNL Outlook].
-* 을(를) 공유(또는 공유 해제)할 때 [!DNL Outlook] 다른 사람과 함께 있는 캘린더 또는 다른 사람과 공유하는 캘린더에 대한 사용 권한 수준을 변경할 때 이 변경 사항은 약 30분 동안 캘린더에 영향을 주지 않습니다(자세한 내용은 [!DNL Microsoft Outlook] 설명서).\
+* 을(를) 공유(또는 공유 해제)할 때 [!DNL Outlook] 다른 사람과 함께 있는 캘린더 또는 다른 사람과 공유하는 캘린더에 대한 권한 수준을 변경할 때 이 변경 사항은 약 30분 동안 캘린더에 영향을 주지 않습니다. 자세한 내용은 [!DNL Microsoft Outlook] 설명서를 참조하십시오.\
    따라서 를 통합할 때 [!DNL Workfront] 이 포함된 캘린더 [!DNL Outlook] 다른 사용자와 공유하는 캘린더에는 사용자의 [!DNL Workfront] 약 30분 동안 일정 항목.
 
 >[!NOTE]
 >
 >다음 [!DNL Outlook] 달력 구성은 [!DNL Outlook] 추가 기능 ([!UICONTROL [!DNL Outlook] 통합] 또는 [!DNL Workfront Outlook]). 캘린더를 구성하는 데 필요한 설치는 없지만 을(를) 위한 설치는 필요합니다. [!DNL Outlook] 추가 기능. 에 대한 자세한 내용은 [!DNL Outlook] 추가 기능 참조 [설정 [!DNL Adobe Workfront for Outlook]](../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md).
 
-## 구성 [!UICONTROL 홈 캘린더] 설정 보기
+## 구성 [!UICONTROL 홈 캘린더] 설정을 보고 Outlook 일정과 통합
 
-1. 다음에서 [!UICONTROL 홈 캘린더] 보기, 클릭 **[!UICONTROL 설정]** 톱니바퀴 아이콘 ![Calendar_Settings_gear_icon.png](assets/calendar-settings-gear-icon.png) 오른쪽 위 모서리에서 을 엽니다. **[!UICONTROL 캘린더 설정]** 패널의 오른쪽에 있습니다.
+1. 다음에서 [!UICONTROL 홈 캘린더] 보기, 클릭 **[!UICONTROL 설정]** 톱니바퀴 아이콘 ![Calendar_Settings_gear_icon.png](assets/calendar-settings-gear-icon.png) 오른쪽 위 모서리에서 을 엽니다. **[!UICONTROL 캘린더 설정]** 오른쪽 패널
 
    에 액세스하는 방법에 대한 정보가 필요한 경우 [!UICONTROL 홈 캘린더] 보기, 참조 [보기 [!UICONTROL 홈 캘린더]](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md).
 
@@ -93,6 +100,8 @@ ht-degree: 1%
 
 1. (선택 사항) **[!UICONTROL 일반]** 아래 섹션 **[!UICONTROL 주 시작 요일]**&#x200B;을 클릭하고 홈 캘린더에서 작업 주의 첫 번째 날로 표시할 요일을 선택합니다.
 
+   ![](assets/general-section-home-calendar-settings-panel.png)
+
 1. 다음 옵션을 구성합니다.
 
    * **[!UICONTROL 내 근무일]:** 근무일을 선택합니다.
@@ -101,7 +110,7 @@ ht-degree: 1%
 
    [!DNL Workfront] 이 세 가지 설정을 사용하여 한 주에 작업하는 시간을 계산합니다. 이 숫자는 다음 항목에 영향을 줍니다. [!UICONTROL 할당] 작업 시간 대비 작업 부하를 추적하는 데 도움이 되는 막대 자세한 내용은 [[!UICONTROL 할당] 막대](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md#understanding-the-allocation-of-time) 이 문서에서 [[!UICONTROL 홈 캘린더] 보기](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
 
-1. 바깥쪽을 클릭합니다. **[!UICONTROL 캘린더 설정]** 취소할 영역입니다.
+1. 바깥쪽을 클릭합니다. **[!UICONTROL 캘린더 설정]** 닫을 영역입니다.
 
    [!DNL Workfront] 변경 사항을 자동으로 저장합니다.
 
