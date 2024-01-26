@@ -6,9 +6,9 @@ description: 프로그램은 프로젝트 경계를 초월하는 공통 전략, 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: 03894773e61fc0706148695572a164a2e778da9b
+source-git-commit: 6a734a7e8f8b1e717c5ec02fc803a14057f5a052
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1027'
 ht-degree: 1%
 
 ---
@@ -28,11 +28,12 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
-   <td> <p>임의</p></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td>
+
+<td> <p>새로 만들기: 모두</p><p>또는</p><p>현재: [!UICONTROL Business] 이상</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
    <td> <p>새로운 기능: [!UICONTROL Standard] </p><p>또는 </p><p>현재: [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 

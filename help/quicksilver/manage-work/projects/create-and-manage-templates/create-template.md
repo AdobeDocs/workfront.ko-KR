@@ -2,20 +2,22 @@
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: 프로젝트 템플릿 만들기
-description: 템플릿 영역에서 템플릿을 만들고 삭제할 수 있습니다. 새 템플릿을 작성할 때 모든 작업에 대한 정보와 이후 프로젝트 설정에 대한 모든 정보를 입력할 수 있습니다. 템플릿에서 이 정보를 만들면 이 정보가 프로젝트로 전송됩니다.
+description: 템플릿 영역에서 템플릿을 만들고 삭제할 수 있습니다. 새 템플릿을 작성할 때 모든 작업 및 향후 프로젝트 설정에 대한 정보를 입력할 수 있습니다. 그런 다음 이 정보는 템플릿에서 만드는 모든 프로젝트로 전송됩니다.
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: 094a54d2d1f6445aa9611152cb632d85be74bbeb
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 0%
+source-wordcount: '561'
+ht-degree: 2%
 
 ---
 
 # 프로젝트 템플릿 만들기
 
-템플릿 영역에서 템플릿을 만들고 삭제할 수 있습니다. 새 템플릿을 작성할 때 모든 작업에 대한 정보와 이후 프로젝트 설정에 대한 모든 정보를 입력할 수 있습니다. 템플릿에서 이 정보를 만들면 이 정보가 프로젝트로 전송됩니다.
+<!-- Audited: 1/2024 -->
+
+템플릿 영역에서 템플릿을 만들고 삭제할 수 있습니다. 새 템플릿을 작성할 때 모든 작업 및 향후 프로젝트 설정에 대한 정보를 입력할 수 있습니다. 그런 다음 이 정보는 템플릿에서 만드는 모든 프로젝트로 전송됩니다.
 
 >[!NOTE]
 >
@@ -33,7 +35,7 @@ ht-degree: 0%
 
   기존 템플릿 복사에 대한 자세한 내용은 [프로젝트 템플릿 복사](../../../manage-work/projects/create-and-manage-templates/copy-template.md).
 
-* Workfront 관리자인 경우 블루프린트를 가져와서 템플릿을 만들 수 있습니다. 자세한 내용은 [블루프린트 구성](../../../administration-and-setup/blueprints/configure-template-package.md).
+* 블루프린트를 가져왔습니다. 블루프린트를 가져오려면 Workfront 관리자여야 합니다. 자세한 내용은 [블루프린트 구성](../../../administration-and-setup/blueprints/configure-template-package.md).
 
 ## 액세스 요구 사항
 
@@ -44,29 +46,29 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든</p> </td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>플랜 </p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">블루프린트에서 템플릿을 가져오기 위한 시스템 관리자</p> </td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td> <p>새로운 기능: 표준 </p><p>또는 </p><p>현재: 플랜 </p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">블루프린트에서 템플릿을 가져오려면 시스템 관리자여야 합니다.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>템플릿에 대한 액세스 편집</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td> <p>템플릿에 대한 액세스 편집</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>기본적으로 사용자가 만드는 템플릿에 대한 관리 권한이 있습니다.</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>기본적으로 사용자가 만드는 템플릿에 대한 관리 권한이 있습니다.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 템플릿 만들기
 
-1. 다음에서 **메인 메뉴** ![](assets/main-menu-icon.png) 클릭 **템플릿**.
+1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리에서 을(를) 클릭하고 **템플릿**.
 
 1. 클릭 **새 템플릿**.
 
@@ -100,9 +102,9 @@ ht-degree: 0%
 
    템플릿 편집에 대한 자세한 내용은 [프로젝트 템플릿 편집](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
-1. 클릭 **변경 내용 저장**.
-1. (선택 사항) 템플릿에 항목을 추가하려면 섹션을 참조하십시오 [템플릿에 추가 항목 추가](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#adding-items-to-template) 이 문서에서 [프로젝트 템플릿 편집](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+1. **변경 내용 저장**&#x200B;을 클릭합니다.
+1. (선택 사항) 템플릿에 항목을 추가하려면 섹션을 참조하십시오 [템플릿에 추가 항목 추가](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#add-additional-items-to-a-template) 이 문서에서 [프로젝트 템플릿 편집](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 ## 그룹 연결에 의해 결정된 템플릿 설정
 
-프로젝트 템플릿의 그룹 연결(또는 그룹 결여)은 프로젝트, 작업 및 문제 환경 설정이 템플릿의 특정 설정을 결정하는 방식에 영향을 줍니다. 자세한 내용은 섹션을 참조하십시오 [그룹의 프로젝트 템플릿 만들기 및 수정](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#template2) 이 문서에서 [그룹의 프로젝트 템플릿 만들기 및 수정](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
+프로젝트 템플릿과 그룹 간의 연결(또는 그룹 부족)은 프로젝트, 작업 및 문제 환경 설정이 템플릿의 특정 설정을 결정하는 방식에 영향을 줍니다. 자세한 내용은 섹션을 참조하십시오 [그룹의 프로젝트 템플릿 만들기 및 수정](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#create-and-modify-a-groups-project-templates) 이 문서에서 [그룹의 프로젝트 템플릿 만들기 및 수정](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).

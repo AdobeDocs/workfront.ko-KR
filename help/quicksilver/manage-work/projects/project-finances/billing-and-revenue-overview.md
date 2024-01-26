@@ -7,14 +7,16 @@ description: 프로젝트 관리자는 청구 요금을 사용하여 프로젝�
 author: Alina, Lisa
 feature: Work Management
 exl-id: 400abcde-e368-4a70-89a9-05027900ab81
-source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
+source-git-commit: c485676fb5584e8438823e9ce0c28b551f6bab45
 workflow-type: tm+mt
-source-wordcount: '3657'
+source-wordcount: '3691'
 ht-degree: 0%
 
 ---
 
 # 청구 및 수익 개요
+
+<!-- Audited: 1/2024 -->
 
 {{highlighted-preview}}
 
@@ -26,7 +28,7 @@ ht-degree: 0%
 
 청구 요율을 사용할 때는 다음 사항을 고려하십시오.
 
-* 청구 요금을 관리하려면 재무 데이터에 대한 편집 액세스 권한이 있는 플랜 라이선스가 필요합니다.\
+* 청구 요율을 관리하려면 재무 데이터에 대한 편집 액세스 권한이 있는 플랜 또는 표준 라이센스가 필요합니다.\
   재무 데이터에 대한 액세스 권한을 부여하는 방법에 대한 자세한 내용은 [재무 데이터에 대한 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
 * 청구 요금은 작업 역할 또는 사용자와 연결된 작업 단위당 매출액입니다.
@@ -45,7 +47,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->매출을 계산하는 비율은 시간을 기록하는 사용자나 해당 작업 역할에 속합니다.
+>매출을 계산하는 비율은 시간을 기록하는 사용자 또는 해당 작업 역할에 속합니다.
 
 * [사용자 청구 요금](#user-billing-rates)
 * [작업 역할 청구 요금](#job-role-billing-rates)
@@ -54,7 +56,7 @@ ht-degree: 0%
 
 ### 사용자 청구 요금 {#user-billing-rates}
 
-사용자 관리자는 사용자를 생성할 때 시간당 청구 필드에 대한 값과 요금에 대한 일자를 지정하여 해당 사용자를 일자 유효 청구 요금과 연관시킬 수 있습니다.
+사용자 관리자는 사용자를 생성할 때 시간당 청구 필드에 대한 값과 요금에 대한 일자를 지정하여 이 사용자를 일자 유효 청구 요금과 연관시킬 수 있습니다.
 
 사용자 만들기에 대한 자세한 내용은 문서 를 참조하십시오 [사용자 추가](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
@@ -62,13 +64,13 @@ ht-degree: 0%
 
 ### 작업 역할 청구 요금 {#job-role-billing-rates}
 
-Adobe Workfront 관리자는 작업 역할을 생성할 때 시간당 청구 필드에 대한 값과 청구 요금에 대한 날짜를 지정하여 이 역할을 일자 유효 청구 요금과 연결할 수 있습니다.
+Adobe Workfront 관리자는 작업 역할을 생성할 때 시간당 청구 필드에 대한 값과 청구 요금에 대한 날짜를 지정하여 이 역할을 날짜 유효 청구 요금과 연결할 수 있습니다.
 
 Workfront 시스템의 기본 통화 또는 다른 사용자 지정 통화를 사용하여 작업 역할 청구 요금의 값을 정의할 수 있습니다.
 
 작업 역할 생성 및 통화 재정의에 대한 자세한 내용은 문서를 참조하십시오 [작업 역할 만들기 및 관리](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
-![작업 역할 비용 및 청구 요금 편집](assets/edit-job-role-multiple-billing-rates.png)
+![작업 역할 비용 및 청구 요금 편집](assets/edit-job-role-multiple-billing-rates-new.png)
 
 ### 프로젝트 또는 작업에 대한 고정 청구 요금 {#fixed-billing-rates-for-projects-or-tasks}
 
@@ -109,22 +111,22 @@ Workfront은 작업의 계획된 시간을 기반으로 작업이 생성될 때 
  <tbody> 
   <tr> 
    <td role="rowheader">계획된 수익</td> 
-   <td> <p>작업의 경우 계획된 작업 시간과 관련된 매출입니다. 모든 작업의 계획된 시간은 프로젝트 계획된 시간 계산에 기여하기 위해 프로젝트의 계획된 시간으로 롤업됩니다. </p> <p>Workfront의 계획된 시간에 대한 자세한 내용은 <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">계획된 시간 개요</a>. </p> <p>Workfront은 다음 공식을 사용하여 작업에 대한 계획된 수익을 계산합니다.</p>
-   <p><code>Task Planned Revenue = Planned Hours * Billing hourly rate</code><p> <p><strong>참고</strong></br> 공식의 청구 시간당 요금은 요금의 모든 일자 유효 변경 사항을 고려합니다.</p> <p>Workfront은 다음 공식을 사용하여 프로젝트의 계획된 수익을 계산합니다.</p> <p><code>Project Planned Revenue = SUM (All tasks Planned Revenue) + Fixed Revenue</code></p>
+   <td> <p>작업의 경우 계획된 작업 시간과 관련된 매출입니다. 모든 작업의 계획된 시간은 프로젝트 계획된 시간 계산에 기여하기 위해 프로젝트의 계획된 시간으로 롤업됩니다. </p> <p>Workfront의 계획된 시간에 대한 자세한 내용은 <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">계획된 시간 개요</a>. </p> <ul><li><p>Workfront은 다음 공식을 사용하여 작업에 대한 계획된 수익을 계산합니다.</p>
+   <p><code>Task Planned Revenue = Planned Hours * Billing hourly rate</code><p> <p><strong>참고</strong></br> 공식의 청구 시간당 요금은 모든 일자 유효 요금 변경을 고려합니다.</p> </li><li><p>Workfront은 다음 공식을 사용하여 프로젝트의 계획된 수익을 계산합니다.</p> <p><code>Project Planned Revenue = SUM (All tasks Planned Revenue) + Fixed Revenue</code></p>
    <p><b>메모</b>
 
-<p>프로젝트 세부 정보 영역 및 프로젝트 보고서에 표시되는 프로젝트 계획 수익이 활용률 보고서에 표시되는 계획 수익과 다릅니다. </p> <p>프로젝트 세부 정보 영역의 계획된 수익에는 프로젝트의 고정 수익뿐만 아니라 작업 계획 시간과 연관된 작업 수익이 반영됩니다. 활용성 보고서의 계획된 수익에는 프로젝트에 대한 태스크 지정의 계획된 시간에만 연관된 계획된 수익이 표시됩니다. </p> 
+<p>프로젝트 세부 정보 영역 및 프로젝트 보고서에 표시되는 프로젝트 계획 수익이 활용률 보고서에 표시되는 계획 수익과 다릅니다. </p></li></ul> <p>프로젝트 세부 정보 영역의 계획된 수익에는 프로젝트의 고정 수익뿐만 아니라 작업 계획 시간과 연관된 작업 수익이 반영됩니다. 활용성 보고서의 계획된 수익에는 프로젝트에 대한 태스크 지정의 계획된 시간에만 연관된 계획된 수익이 표시됩니다. </p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p>프로젝트에 10시간의 작업이 1개 있고 시간당 비율이 $20인 컨설턴트에게 할당되어 있으며 프로젝트에 $100의 고정 수익이 있는 경우, 활용률 보고서에는 계획된 수익(작업의 시간과 연결된 계획된 수익)에 대해 $200가 표시됩니다. 프로젝트 세부 정보 섹션에는 $300(작업의 계획된 수익 및 프로젝트에 대한 고정 수익)이 표시됩니다. </p> 
      </div> </p> <p>작업 계획 매출은 작업에 할당된 사용자 또는 작업 역할의 청구 시간당 요금을 사용하여 계산됩니다. 작업의 수익 유형은 계획된 수익 계산에 사용되는 비율(사용자 또는 역할)에 영향을 줍니다. 자세한 내용은 이 문서의 다음 섹션을 참조하십시오.</p> 
     <ul> 
      <li> <p><a href="#overview-of-task-revenue-types" class="MCXref xref">작업 수익 유형 개요</a> </p> </li> 
      <li> <p><a href="#revenue-calculations-for-tasks-based-on-user-and-role-assignments" class="MCXref xref">사용자 및 역할 할당을 기반으로 한 작업에 대한 수익 계산</a> </p> </li> 
-    </ul> <p>활용률 보고서의 계획된 수익 계산에 대한 자세한 내용은 다음을 참조하십시오. <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">자원 가동률 정보 보기 </a>. </p> </td> 
+    </ul> <p>활용률 보고서의 계획된 수익 계산에 대한 자세한 내용은 다음을 참조하십시오. <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">자원 가동률 정보 보기</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">실제 수익*</td> 
-   <td> <p>작업, 문제 및 프로젝트의 실제 시간과 연결됩니다. </p> <p>일반적으로 Workfront은 다음 공식을 사용하여 실제 매출을 계산합니다.</p> <p><code>Actual Revenue = Actual Hours * Billing rate</code> </p> <p><strong>참고</strong></br> 공식의 청구 시간당 요금은 요금의 모든 일자 유효 변경 사항을 고려합니다.</p> <p>활용성 보고서의 실제 수익 계산에 대한 자세한 내용은 다음을 참조하십시오. <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">자원 가동률 정보 보기 </a>. </p> <p><b>팁</b>
+   <td> <p>작업, 문제 및 프로젝트의 실제 시간과 관련된 매출입니다. </p> <p>일반적으로 Workfront은 다음 공식을 사용하여 실제 매출을 계산합니다.</p> <p><code>Actual Revenue = Actual Hours * Billing rate</code> </p> <p><strong>참고</strong></br> 공식의 청구 시간당 요금은 모든 일자 유효 요금 변경을 고려합니다.</p> <p>활용성 보고서의 실제 수익 계산에 대한 자세한 내용은 다음을 참조하십시오. <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">자원 가동률 정보 보기</a>. </p> <p><b>팁</b>
 
 문제 수준에서 실제 수익을 볼 수 없지만 문제의 실제 시간과 연결된 수익이 프로젝트의 실제 수익에 기여합니다. </p> </td>
 </tr> 
@@ -209,7 +211,7 @@ Workfront 인스턴스의 작업 및 문제 환경 설정을 정의하는 방법
    <td> <p>이 유형은 작업에만 사용할 수 있습니다.</p> <p>태스크에 대해 설정한 상한 또는 고정 금액에 태스크에 대해 입력된 시간 수(사용자 또는 해당 작업 역할에 관계 없음)를 곱한 금액이 청구 금액입니다.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>청구 불가</p> </td> 
+   <td> <p>과금 불가</p> </td> 
    <td> <p>이 유형은 작업에만 사용할 수 있습니다.</p> <p>이 수익 유형은 수익에 영향을 주지 않습니다. </p> <p>상위 오브젝트에 이 설정이 있는 경우 청구 유형의 하위 작업이 여전히 정상적으로 적용됩니다.</p> <p>재무 데이터에 대한 액세스 권한이 없는 사용자 또는 템플릿에 대한 재무 권한이 없는 사용자가 해당 템플릿에서 프로젝트를 만들 때 프로젝트의 작업에 대한 기본 수익 유형이 됩니다.</p> <p>재무 데이터 액세스에 대한 자세한 내용은 문서 를 참조하십시오 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">재무 데이터에 대한 액세스 권한 부여</a>.<br>개체에 대한 재무 권한에 대한 자세한 내용은 문서 를 참조하십시오 <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">오브젝트에 대한 공유 권한 개요</a>.<br>템플릿으로 프로젝트를 만드는 방법에 대한 자세한 내용은 문서 를 참조하십시오 <a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">템플릿을 사용하여 프로젝트 만들기</a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -246,7 +248,7 @@ Workfront 인스턴스의 작업 및 문제 환경 설정을 정의하는 방법
 
 태스크 지정을 기준으로 수익 계산에 사용되는 비율이 있는 계층이 있습니다.
 
-Workfront 관리자가 **시간 항목에 수동으로 작업 역할 할당** 타임시트 및 시간 환경 설정 영역에서 을 설정하고 프로젝트의 사용자 로깅 시간이 이 시간과 연결할 다른 역할을 선택하면 작업 또는 프로젝트의 실제 매출은 항상 시간 항목과 연결된 역할을 기반으로 계산됩니다. 특정 작업 역할에 대한 로깅 시간 활성화에 대한 자세한 내용은 문서 를 참조하십시오 [타임시트 및 시간 환경 설정](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Workfront 관리자가 **시간 항목에 수동으로 작업 역할 할당** 타임시트 및 시간 환경 설정 영역에서 을 설정하고 프로젝트의 사용자 로깅 시간이 이 시간과 연결할 다른 역할을 선택하면 작업 또는 프로젝트의 실제 매출은 항상 시간 항목과 연결된 역할을 기반으로 계산됩니다. 특정 작업 역할에 대한 로깅 시간 활성화에 대한 자세한 내용은 문서 를 참조하십시오 [타임시트 및 시간 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 수익 유형 및 태스크 지정의 특성에 따라 태스크 수익을 계산할 때 다음과 같은 시나리오가 있습니다.
 
@@ -266,7 +268,7 @@ Workfront 관리자가 **시간 항목에 수동으로 작업 역할 할당** �
     </tr> 
     <tr> 
      <td role="rowheader">계획된 수익에 대한 시간당 청구 요금</td> 
-     <td>$0.00</td> 
+     <td>US$0.00</td> 
      <td> 사용자가 프로필에 청구 요금이 있는 경우 해당 요금이 계획된 수익을 계산하는 데 사용됩니다. 그렇지 않으면 기본 작업 역할의 시스템 청구 요금이 사용됩니다. <br><p><b>참고</b>  사용자는 보조 작업 역할 중 하나가 있는 작업에 할당할 수 있지만 여기서는 대신 기본 작업 역할의 비율이 사용됩니다.</p><p>할당 중에 사용자의 역할이 변경된 경우 프로젝트 재정이 다시 계산될 때 정확한 비율이 적용됩니다.</p></td> 
      <td><p><span class="preview">비율 카드가 프로젝트에 첨부된 경우 계획된 수익은 비율 카드의 작업 역할을 기준으로 계산됩니다.</span></p> <p><span class="preview">프로젝트 수준에서 청구 요금이 재정의될 수 있습니다.</span></p></td> 
     </tr> 
@@ -303,7 +305,7 @@ Workfront 관리자가 **시간 항목에 수동으로 작업 역할 할당** �
     </tr> 
     <tr> 
      <td role="rowheader">계획된 수익에 대한 시간당 청구 요금</td> 
-     <td>$0.00</td> 
+     <td>US$0.00</td> 
      <td><p>Workfront은 사용자가 계획된 수익을 계산하기 위해 작업을 수행하는 작업 역할을 봅니다. <br>사용자가 작업에 대한 어떤 역할과도 연결되어 있지 않으면 매출은 $0.00입니다.</p> <p><strong>참고</strong><br>할당 중에 사용자의 역할이 변경된 경우 프로젝트 재정이 다시 계산될 때 정확한 비율이 적용됩니다.</p> </td> 
      <td><p><span class="preview">비율 카드가 프로젝트에 첨부된 경우 계획된 수익은 비율 카드의 작업 역할을 기준으로 계산됩니다.</span></p> <p><span class="preview">프로젝트 수준에서 청구 요금이 재정의될 수 있습니다.</span></p></td> 
     </tr> 

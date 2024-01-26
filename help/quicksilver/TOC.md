@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 1d760fbad6633fac988278b14d630a0aad3f4b76
+source-git-commit: 6a734a7e8f8b1e717c5ec02fc803a14057f5a052
 workflow-type: tm+mt
-source-wordcount: '13881'
+source-wordcount: '13885'
 ht-degree: 1%
 
 ---
@@ -1073,7 +1073,7 @@ ht-degree: 1%
       * [애자일 팁, 요령 및 문제 해결](agile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-agile.md)
       * [애자일 스토리 보드에 사용자 정의 상태가 표시되지 않음](agile/tips-tricks-and-troubleshooting/custom-status-does-not-show.md)
 * 문서 {#documents}
-   * [문서](documents/documents-overview.md)
+   * [문서: 문서 색인](documents/documents-overview.md)
    * Adobe Workfront에 새 문서 추가 {#add-new-documents-to-workfront}
       * [Adobe Workfront에 새 문서 추가](documents/adding-documents-to-workfront/add-new-documents--to-workfront.md)
       * [파일 시스템에서 Adobe Workfront에 문서 추가](documents/adding-documents-to-workfront/add-documents-from-file-system.md)
@@ -1322,7 +1322,7 @@ ht-degree: 1%
          * [작업과 마일스톤 연결](manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)
          * [작업을 프로젝트로 전환](manage-work/tasks/manage-tasks/convert-task-to-project.md)
       * 작업 제한 {#task-constraints}
-         * [작업 제한](manage-work/tasks/task-constraints/task-constraints.md)
+         * [작업 제한 사항: 문서 색인](manage-work/tasks/task-constraints/task-constraints.md)
          * [작업 제한 개요](manage-work/tasks/task-constraints/task-constraint-overview.md)
          * [작업 제한 개요: 다음 이후에 시작](manage-work/tasks/task-constraints/start-no-later-than.md)
          * [작업 제한 개요: 다음 이후에 시작:](manage-work/tasks/task-constraints/start-no-earlier-than.md)

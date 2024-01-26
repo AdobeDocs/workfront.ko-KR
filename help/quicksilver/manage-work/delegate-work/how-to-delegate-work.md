@@ -6,19 +6,22 @@ description: 부재 중 할당된 작업을 임시로 위임할 수 있습니다
 author: Alina
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 42601f701e4109320e9e7b3f3f4275dee59bad97
 workflow-type: tm+mt
-source-wordcount: '1485'
-ht-degree: 1%
+source-wordcount: '1449'
+ht-degree: 0%
 
 ---
 
 # 작업 및 문제 위임 관리
 
+<!-- Audited: 1/2024 -->
+
+
 <!--
 <NOTE: 
 <you might need to change the tile to Delegate PTI, etc, when that functionality is added. Named it this so it will not conflict with the TOC article for Delegate section which was also "Delegate work"
-I wrote thhis as a "Manage..." article and I did not add three separate articles, to match what we have for delegating approval requests)
+I wrote this as a "Manage..." article and I did not add three separate articles, to match what we have for delegating approval requests)
 -->
 
 부재 중 할당된 작업을 임시로 위임할 수 있습니다.
@@ -35,10 +38,10 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
 >* 권한은 자신의 액세스 수준 내에서 작동해야 하며 경우에 따라 액세스 수준이 본인의 액세스 수준보다 낮을 수 있습니다.
 >
 >   
->   예를 들어, 사용자가 자신의 액세스 수준에 있는 작업에 대한 보기 액세스만 가지고 있고 위임된 작업에 대한 관리 권한이 있는 경우, 위임한 작업에 대한 관리 권한을 받게 됩니다. 그러나 위임된 작업에 대해 사용자와 동일한 작업을 수행할 수 없습니다. 부재 중 작업을 업데이트할 수 있도록 시스템 관리자에게 작업에 대한 편집 액세스 권한을 요청해야 합니다.
+>   예를 들어, 사용자가 자신의 액세스 수준에 있는 작업에 대한 보기 액세스만 가지고 있고 위임된 작업에 대한 관리 권한이 있는 경우, 위임한 작업에 대한 관리 권한을 받게 됩니다. 그러나 위임된 작업에 대해 사용자와 동일한 작업을 수행할 수 없습니다. 부재 중 작업을 업데이트하려면 시스템 관리자에게 작업에 대한 편집 액세스 권한을 요청해야 합니다.
 >
 >   
->   이 액세스 수준을 수정하는 방법에 대한 자세한 내용은 [사용자 정의 액세스 수준 만들기 또는 수정](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>   시스템 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 [사용자 정의 액세스 수준 만들기 또는 수정](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 >
 >* 위임이 이미 시작된 후 할당된 항목의 경우 항목이 할당된 후 최대 1시간이 걸릴 수 있습니다. [!DNL Workfront] 을 클릭하여 새로 할당된 항목을 대리인과 공유할 수 있습니다.
 
@@ -50,31 +53,32 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜*</td> 
-   <td> <p>모든</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
-   <td> <p>검토 이상</p>
+   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
+   <td> <p>새로운 기능: 기여자 이상</p><p>또는</p><p>현재: 검토 이상</p>
 
 >[!NOTE]
 >
->요청 라이선스가 있을 때 작업을 할당할 수 있지만 작업을 다른 사람에게 위임할 수는 없습니다. [!DNL Workfront] 에서는 검토 또는 요청 사용자에게 작업을 할당하지 않는 것이 좋습니다.
+>요청 라이선스가 있을 때 작업을 할당할 수 있지만 작업을 다른 사람에게 위임할 수는 없습니다. [!DNL Workfront] 에서는 검토, 요청 또는 기여자 사용자에게 작업을 할당하지 않는 것이 좋습니다.
 
 </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>작업 및 문제에 대한 액세스 권한 편집 아직 액세스 권한이 없는 경우 [!DNL Workfront] 관리자가 액세스 수준에 추가 제한을 설정하는 경우. 자세한 내용: [!DNL Workfront] 관리자가 액세스 수준을 수정할 수 있습니다. 다음을 참조하십시오. <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> 사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>작업 및 문제에 대한 액세스 편집 
+     </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
    <td> <p>할당된 작업 또는 문제에 대한 이상의 권한 보기</p> 
-    <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+    </td> 
   </tr> 
  </tbody> 
 </table>
 
-*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 <!--note from the table for Object permissions:
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Contribute or higher permissions to the projects where you are designated as the Project&nbsp;Owner (NOTE:&nbsp;you cannot delegate projects yet)</p>
@@ -92,7 +96,7 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
 
 다른 사용자에게 작업을 위임하기 전에 해당 사용자에게 연락하여 작업 항목에 대한 위임자로 지정될 것임을 알리는 것이 좋습니다. 업무를 위임하기 전에 구두로 승낙을 구하여 부재중인 동안 업무를 완료하는 데 필요한 시간을 갖도록 하십시오.
 
-작업 및 문제 위임에 대한 일반 정보는 다음을 참조하십시오. [작업 및 문제 위임 개요](delegate-work.md).
+작업 및 문제 위임에 대한 일반 정보는 다음을 참조하십시오. [작업 및 문제 위임 개요](/help/quicksilver/manage-work/delegate-work/delegate-work-overview.md).
 
 작업 및 문제를 다른 사람에게 위임하려면 다음 작업을 수행하십시오.
 
@@ -102,9 +106,9 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
 
 1. 다음에서 [!UICONTROL **작업 및 문제 위임**] 탭에서 다음을 업데이트합니다.
 
-   * [!UICONTROL **작업 및 문제 위임 대상**]: 작업 및 문제를 위임할 사용자 이름을 입력한 다음 목록에 표시될 때 선택합니다. 한 명의 사용자만 선택할 수 있습니다.\
+   * [!UICONTROL **작업 및 문제 위임 대상**]: 작업 및 문제를 위임할 사용자 이름을 입력한 다음 목록에 표시될 때 선택합니다. 한 명의 사용자만 선택할 수 있습니다.
 
-     위임자로 선택한 사용자는 위임한 작업 및 문제에 대한 권한과 동일한 권한을 받습니다. 자세한 내용은 [작업 및 문제 개요 위임](delegate-work-overview.md).
+     위임자로 선택한 사용자는 위임한 작업 및 문제에 대한 권한과 동일한 권한을 받습니다.
 
    * [!UICONTROL **시작일**]: 캘린더에서 작업 항목의 위임을 시작해야 하는 날짜를 선택합니다.
 
@@ -118,7 +122,7 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
 
      >[!TIP]
      >
-     >종료 날짜를 선택하지 않으면 현재 날짜에만 위임이 활성화됩니다.
+     >종료 날짜 필드를 비워 두고 종료 날짜 없음 옵션을 선택하지 않으면 위임은 현재 날짜에만 설정됩니다.
 
      ![](assets/delegate-box-expanded-in-home.png)
 
@@ -128,14 +132,14 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
 
    * 작업이 지정된 사용자에게 위임됩니다. 선택한 시간대 내에 날짜가 있는(위임을 활성화한 후 새로 할당된 작업 포함) 모든 미완료 작업 또는 문제가 위임됩니다.
 
-   >[!TIP]
-   >
-   >   위임 시간대 내에 날짜가 있는 완료된 작업 항목은 위임되지 않습니다.
+     >[!TIP]
+     >
+     >   위임 시간대 내에 날짜가 있는 완료된 작업 항목은 위임되지 않습니다.
 
 
    * 화면 오른쪽 상단에 작업을 다른 사용자에게 위임할 수 있음을 확인하는 메시지가 표시됩니다. 위임 사용자의 이름이 확인 메시지에 표시됩니다.
 
-   * 작업 및 문제가 다른 사용자에게 위임되었다는 표시는에서 할당을 볼 수 있는 대부분의 영역에 표시됩니다. [!DNL Workfront]. 대리자 이름이 포함되지 않은 영역에 대한 자세한 내용은 [작업 및 문제 개요 위임](delegate-work-overview.md).
+   * 작업 및 문제가 다른 사용자에게 위임되었다는 표시는에서 할당을 볼 수 있는 대부분의 영역에 표시됩니다. [!DNL Workfront]. 대리자 이름이 포함되지 않은 영역에 대한 자세한 내용은 [작업 위임 개요](delegate-work-overview.md).
 
    * 다음 [!UICONTROL **위임**] 의 단추 [!UICONTROL 홈] 영역 변경 대상 [!UICONTROL **위임 편집**] 위임이 있음을 나타냅니다.
    <!--
@@ -151,9 +155,6 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
    * 대리인으로 선택한 사용자는 이벤트 알림이 활성화된 경우 위임에 대한 이메일을 받게 됩니다.
 
      개인 이메일 알림 활성화에 대한 자세한 내용은 [이메일 알림 수정](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
-
-
-
 
 ## 위임 편집 또는 중지
 
@@ -201,9 +202,9 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
 
 * 작업 또는 문제 헤더
 
-  ![](assets/assignments-and-delegates-panel-in-task-header.png)
-
   다음 [!UICONTROL 할당] 작업 또는 문제 헤더의 필드가 다음으로 변경됨 [!UICONTROL 할당 및 위임].
+
+  ![](assets/assignments-and-delegates-panel-in-task-header.png)
 
 * 다음 [!UICONTROL 업무 균형자] 작업 또는 문제를 수동으로 할당할 때
 
