@@ -4,43 +4,42 @@ user-type: administrator
 product-area: system-administration;user-management;setup
 keywords: 그룹,환경 설정,작업,문제,잠금 해제
 navigation-topic: create-and-manage-groups
-description: 조직의 그룹이 시스템 수준에서 구성된 방식과 독립적으로 작업이나 문제 환경 설정을 구성해야 하는 경우 Adobe Workfront 관리자가 기본 설정의 잠금을 해제할 수 있습니다. 그런 다음 그룹 관리자로서 그룹에 대한 기본 설정을 구성할 수 있으며 이 기본 설정은 그룹과 관련된 모든 작업 또는 문제에 영향을 줍니다.
+description: 조직의 그룹이 시스템 수준에서 구성된 방식과 별도로 작업 또는 문제 환경 설정을 구성해야 하는 경우 Adobe Workfront 관리자가 환경 설정을 잠금 해제할 수 있습니다. 그런 다음 그룹 관리자는 그룹에 대한 기본 설정을 구성할 수 있으며 이는 그룹과 관련된 모든 작업 또는 문제에 영향을 미칩니다.
 author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: 7fa4791e19a84d7215e341e8bbde8dd4d4d8ccc6
+source-git-commit: 4a9936b6bc034f2176167fc3939d647ee679a888
 workflow-type: tm+mt
-source-wordcount: '1894'
+source-wordcount: '1895'
 ht-degree: 2%
 
 ---
 
 # 그룹에 대한 작업 및 문제 환경 설정 구성
 
-조직의 그룹이 시스템 수준에서 구성된 방식과 독립적으로 작업이나 문제 환경 설정을 구성해야 하는 경우 Adobe Workfront 관리자가 기본 설정의 잠금을 해제할 수 있습니다. 그런 다음 그룹 관리자로서 그룹에 대한 기본 설정을 구성할 수 있으며 이 기본 설정은 그룹과 관련된 모든 작업 또는 문제에 영향을 줍니다.
+조직의 그룹이 시스템 수준에서 구성된 방식과 별도로 작업 또는 문제 환경 설정을 구성해야 하는 경우 Adobe Workfront 관리자가 환경 설정을 잠금 해제할 수 있습니다. 그런 다음 그룹 관리자는 그룹에 대한 기본 설정을 구성할 수 있으며 이는 그룹과 관련된 모든 작업 또는 문제에 영향을 미칩니다.
 
-관리하는 그룹 위에 그룹이 있으면 해당 관리자가 사용자 그룹을 위해 이 작업을 수행할 수도 있습니다. Workfront 관리자(모든 그룹의 경우)도 마찬가지입니다.
+관리하는 그룹 위에 그룹이 있는 경우 해당 관리자는 해당 그룹에 대해 이 작업을 수행할 수도 있습니다. Workfront 관리자(모든 그룹)의 경우도 마찬가지입니다.
 
-Workfront 관리자가 기본 설정을 잠금 해제하는 방법에 대한 자세한 내용은 [시스템의 모든 그룹에 대한 프로젝트 환경 설정 잠금 또는 잠금 해제](../../../administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md).
+Workfront 관리자가 환경 설정을 잠금 해제하는 방법에 대한 자세한 내용은 [시스템의 모든 그룹에 대한 프로젝트 환경 설정 잠금 또는 잠금 해제](../../../administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md).
 
 >[!TIP]
 >
->그룹 수준의 구성은 프로젝트 환경 설정에도 가능합니다. 자세한 내용은 [그룹에 대한 프로젝트 환경 설정 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
+>프로젝트 환경 설정에 대해서도 그룹 수준 구성이 가능합니다. 자세한 내용은 [그룹에 대한 프로젝트 환경 설정 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
 
 >[!NOTE]
 >
->* 일반적으로 잠금 해제된 환경 설정은 무한정 잠금 해제된 상태로 유지됩니다. Workfront 관리자가 다시 잠근 경우 시스템 설정이 다시 적용되며 그룹 관리자가 만든 기본 설정에 대한 설정이 손실됩니다.
->* 프로젝트와 연관된 그룹에 대해 설정된 기본 설정은 프로젝트를 생성하는 사용자의 홈 그룹에 대해 설정된 기본 설정에 우선합니다.
->* 일부 그룹 수준 환경 설정은 그룹에 대해 만드는 프로젝트 템플릿에 영향을 줍니다. 자세한 내용은 섹션을 참조하십시오 [그룹 영역에서 그룹 템플릿을 보고, 작업하고, 생성할 수 있습니다](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#view) 기사 [그룹의 프로젝트 템플릿 만들기 및 수정](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
+>* 일반적으로 잠금 해제된 환경 설정은 무기한 잠금 해제된 상태로 유지됩니다. Workfront 관리자가 다시 잠근 경우 시스템 설정이 다시 적용되며 그룹 관리자가 설정한 기본 설정이 손실됩니다.
+>* 프로젝트와 관련된 그룹에 대해 설정된 환경 설정은 프로젝트를 작성하는 사용자의 홈 그룹에 대해 설정된 환경 설정보다 우선합니다.
+>* 일부 그룹 수준 환경 설정은 그룹에 대해 만드는 프로젝트 템플릿에 영향을 줍니다. 자세한 내용은 섹션을 참조하십시오 [그룹 영역에서 그룹의 템플릿을 보고 작업하고 만듭니다.](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#view) 이 문서에서 [그룹의 프로젝트 템플릿 만들기 및 수정](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
 >
->* Workfront 관리자가 시스템 수준에서 환경 설정을 잠금 해제한 후에 이를 구성한 다음 잠금으로 잠근 후 그룹 및 해당 하위 그룹의 모든 사용자가 동일한 구성을 사용하고 있는지 확인할 수 있습니다. 이는 Workfront 관리자가 시스템의 모든 사용자에 대한 환경 설정을 구성하고 잠그던 기능과 병렬입니다. 자세한 내용은 [하위 그룹에 대한 프로젝트, 작업 또는 문제 환경 설정 잠금 또는 잠금 해제](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
+>* Workfront 관리자가 시스템 수준에서 환경 설정을 잠금 해제한 후 구성한 다음 잠궈 그룹 및 하위 그룹의 모든 사용자가 동일한 구성을 사용하도록 할 수 있습니다. 이는 Workfront 관리자가 시스템 내의 모든 사용자에 대한 환경 설정을 구성하고 잠그는 기능과 병행됩니다. 자세한 내용은 [하위 그룹에 대한 프로젝트, 작업 또는 문제 환경 설정 잠금 또는 잠금 해제](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
 >
-
 
 ## 액세스 요구 사항
 
-이 문서의 절차를 수행하려면 다음 사항이 있어야 합니다.
+이 문서의 단계를 수행하려면 다음이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -48,41 +47,41 @@ Workfront 관리자가 기본 설정을 잠금 해제하는 방법에 대한 자
  <tbody> 
   <tr> 
    <td role="rowheader">Workfront 플랜*</td> 
-   <td>모든</td> 
+   <td>임의</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스*</td> 
-   <td> <p>플랜 </p> <p>그룹의 그룹 관리자 또는 Workfront 관리자여야 합니다. 자세한 내용은 <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">그룹 관리자</a> 및 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">사용자에게 전체 관리자 액세스 권한 부여</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront 라이센스*</td> 
+   <td> <p>플랜 </p> <p>그룹의 그룹 관리자 또는 Workfront 관리자여야 합니다. 자세한 내용은 <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">그룹 관리자</a> 및 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">사용자에게 전체 관리 액세스 권한 부여</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유하고 있는 플랜 또는 라이선스 유형을 찾아야 하는 경우 Workfront 관리자에게 문의하십시오.
+&#42;보유 중인 플랜 또는 라이선스 유형을 확인해야 하는 경우 Workfront 관리자에게 문의하십시오.
 
 ## 최상위 그룹에 대해 잠금 해제된 작업 및 문제 환경 설정 구성
 
 >[!TIP]
 >
->Workfront 관리자의 경우, 설정 > 프로젝트 환경 설정 > 작업 및 문제 로 이동한 다음, 페이지 상단에 있는 상자에서 그룹 이름을 검색하여 1-4단계를 건너뛸 수 있습니다.
+>Workfront 관리자인 경우 설정 > 프로젝트 환경 설정 > 작업 및 문제로 이동한 다음 페이지 맨 위의 상자에서 그룹 이름을 검색하여 1-4단계를 건너뛸 수 있습니다.
 
-1. 을(를) 클릭합니다. **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 을(를) 클릭하고 **설정** ![](assets/gear-icon-settings.png).
+1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 상단에서 을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png).
 
 1. 왼쪽 패널에서 **그룹** ![](assets/groups-icon.png).
 
 1. 잠금 해제된 작업 및 문제 환경 설정을 구성할 그룹의 이름을 클릭합니다.
-1. 그룹에 대해 표시되는 페이지의 왼쪽 패널에서 **작업 및 문제 환경 설정**.
-1. 나타나는 페이지에서 이 단계 아래에 나열된 5개 섹션 중 하나를 사용하여 새 작업 기본값, 문제, 삭제, 실제 날짜 및 액세스 영역에 대한 설정을 구성한 다음 **저장**.
+1. 그룹에 대해 표시되는 페이지의 왼쪽 패널에서 을 클릭합니다 **작업 및 문제 환경 설정**.
+1. 표시되는 페이지에서 이러한 단계 아래에 나열된 5개 섹션 중 하나를 계속하여 새 작업 기본값, 문제, 삭제, 실제 날짜 및 액세스 영역에 대한 설정을 구성한 다음 을 클릭합니다 **저장**.
 
-   잠금 아이콘을 마우스로 가리키면 ![](assets/lock-toggle-button-dimmed.png) 구성해야 하는 기본 설정을 지정하고 도구 설명이 표시되어 잠기고 있음을 알려줍니다. 조직의 모든 그룹에 대해 Workfront 관리자에게 잠금을 해제하도록 요청할 수 있습니다.
+   잠금 아이콘 위로 마우스를 가져가면 ![](assets/lock-toggle-button-dimmed.png) 를 구성해야 하는 환경 설정의 경우 도구 설명이 표시되어 잠겨 있음을 알려면 Workfront 관리자에게 조직의 모든 그룹에 대해 잠금을 해제하도록 요청할 수 있습니다.
 
-   잠금이 해제되면 사용자와 다른 그룹 관리자가 사용자 그룹에 대해 별도로 구성할 수 있습니다. 또한 그룹 및 그룹 아래에 있는 모든 하위 그룹에 대해 잠글 수 있습니다.
+   잠금이 해제된 경우 사용자와 다른 그룹 관리자는 고유한 그룹에 대해 별도로 구성할 수 있습니다. 또한 그룹 및 그룹 아래의 모든 하위 그룹에 대해 잠글 수 있습니다.
 
    * [새 작업 기본값](#new-task-defaults)
    * [문제](#issues)
    * [삭제](#deletion)
    * [실제 일자](#actual-dates)
 
-      <!--   
+     <!--   
      <li><a href="#work-on-it" class="MCXref xref">Work On It</a> </li>   
      -->
 
@@ -95,20 +94,20 @@ Workfront 관리자가 기본 설정을 잠금 해제하는 방법에 대한 자
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">새 작업의 시작 날짜</td> 
-      <td> <p>프로젝트 관리자의 새 작업에 대한 기본 시작 날짜를 결정합니다. 새 작업의 시작 날짜는 프로젝트의 계획 시작 날짜이거나 작업이 생성된 날짜일 수 있습니다.</p> </td> 
+      <td role="rowheader">새 작업의 시작 일자</td> 
+      <td> <p>프로젝트 관리자의 새 작업에 대한 기본 시작 날짜를 결정합니다. 새 작업의 시작 일자는 프로젝트의 계획된 시작 일자 또는 작업이 생성된 날짜일 수 있습니다.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>기간 유형 </p> </td> 
-      <td> <p>자원 수(및 해당 할당 퍼센트)와 작업의 기간 또는 총 투입 사이의 관계를 결정합니다. 자세한 내용은 <a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref">작업 기간 및 기간 유형</a></p> </td> 
+      <td> <p>리소스 수(및 할당 백분율)와 작업 기간 또는 총 작업량 간의 관계를 결정합니다. 자세한 내용은 <a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref">작업 기간 및 기간 유형: 문서 색인</a></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">수익 유형</td> 
-      <td> <p>작업에 대한 계획 및 실제 매출 예측을 계산합니다. 이 <strong>매출 유형</strong> 가 로 설정되어 있습니다.<strong>청구 불가</strong>, 계획된 시간과 실제 기록된 시간은 작업에 대한 예상 수익을 생성하지 않으며, 작업에 대한 작업은 프로젝트 레벨 매출에 기여하지 않습니다.</p> </td> 
+      <td> <p>작업에 대한 계획 및 실제 수익 추정치를 계산합니다. 다음의 경우 <strong>수익 유형</strong> 이(가) (으)로 설정됨<strong>청구 불가</strong>, 계획된 시간 및 기록된 실제 시간은 작업에 대한 매출 추정치를 생성하지 않으며, 작업에 대한 작업이 프로젝트 수준 매출에 기여하지 않습니다.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">비용 유형</td> 
-      <td> <p>태스크에 대한 계획 및 실제 원가 예측을 계산합니다. 로 설정된 경우 <strong>비용 없음</strong>그리고 계획 시간 및 기록된 실제 시간은 작업에 대한 계획 또는 실제 예상 비용을 생성하지 않으며, 작업 작업이 프로젝트 레벨 원가에 기여하지 않습니다.</p> </td> 
+      <td> <p>작업의 계획 및 실제 비용 추정치를 계산합니다. 로 설정된 경우 <strong>비용 없음</strong>, 계획된 시간 및 기록된 실제 시간은 작업에 대한 계획 또는 실제 비용 예측을 생성하지 않으며, 작업에 대한 작업이 프로젝트 수준 비용에 기여하지 않습니다.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -121,30 +120,30 @@ Workfront 관리자가 기본 설정을 잠금 해제하는 방법에 대한 자
     <tbody> 
      <tr> 
       <td role="rowheader">해결 중 오브젝트의 상태가 변경되면 해결 가능한 문제 상태를 자동으로 업데이트</td> 
-      <td> <p>문제가 프로젝트나 작업으로 변환되면 원래 문제와 변환된 프로젝트 또는 작업이 모두 개체를 해결할 수 있습니다. 이 설정을 사용하면 원래 문제의 해결 방법을 해결할 수 있는 개체의 해결책과 상호 연관시킬 수 있습니다. 개체 해결에 대한 자세한 내용은 <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">해결 가능한 객체 해결 및 해결 방법 개요 </a>.</p> <p>이 설정이 어떤 영향을 주려면 <strong>원래 문제를 유지하고 해결 방법을 작업에 연결합니다</strong> 을 선택해야 합니다.</p> 
+      <td> <p>누군가 문제를 프로젝트 또는 작업으로 변환할 때 원래 문제와 변환된 프로젝트 또는 작업이 모두 해결 중인 오브젝트가 됩니다. 이 설정을 사용하면 원래 문제의 해결 방법을 해결 가능한 개체의 해결 방법에 연결할 수 있습니다. 객체 해결에 대한 자세한 내용은 <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">해결 및 해결 가능한 객체 개요 </a>.</p> <p>이 설정을 적용하려면 옵션을 <strong>원래 문제를 유지하고 해결 방법을 작업에 연결</strong> 을(를) 선택해야 합니다.</p> 
        <ul> 
-        <li>이 설정이 활성화되면 문제와 프로젝트 또는 작업 모두에 대해 동일한 키로 사용자 지정 상태를 만들 수 있습니다. 프로젝트나 작업(해결 가능한 개체)이 사용자 지정 상태로 전환되면 변경 내용은 문제의 상태도 반영합니다. 문제 및 프로젝트 또는 작업 상태에 대해 상태 키는 동일해야 합니다.</li> 
-        <li>이 설정을 비활성화하면 사용자 지정 상태 대신 개체 상태를 자동으로 기본 상태로 설정합니다. 기본 상태에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">시스템 문제 상태 목록에 액세스합니다</a>.</li> 
+        <li>이 설정을 사용하면 문제와 프로젝트 또는 작업 모두에 대해 동일한 키로 사용자 지정 상태를 만들 수 있습니다. 프로젝트 또는 작업(해결 가능한 개체)이 사용자 지정 상태로 전환되면 변경 사항은 문제의 상태도 반영합니다. 상태 키는 문제 및 프로젝트 또는 작업 상태에 대해 동일해야 합니다.</li> 
+        <li>이 설정을 사용하지 않으면 해결 중 오브젝트 상태가 사용자 지정 상태가 아닌 기본 상태로 자동 설정됩니다. 기본 상태에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">시스템 문제 상태 목록 액세스</a>.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">문제를 작업으로 변환할 때</td> 
-      <td> <p>이 섹션의 설정은 문제 대비 변환 프로세스 중에 발생하는 작업을 결정합니다.</p> 
+      <td role="rowheader">문제를 작업으로 전환할 때</td> 
+      <td> <p>이 섹션의 설정은 문제에서 작업으로 전환 프로세스 중에 발생하는 작업을 결정합니다.</p> 
        <ul> 
-        <li><strong>원래 문제를 유지하고 해결 방법을 작업에 연결합니다</strong>: 문제를 변환하면 작업이 완료될 때까지 문제가 계속 표시됩니다. 작업이 완료되면 문제 상태가 자동으로 종료됨으로 변경됩니다.</li> 
-        <li><strong>기본 연락처가 작업에 액세스할 수 있도록 허용</strong>: 작업을 검토하고 업데이트하며 진행 상황을 계속 파악할 수 있도록 작업에 대한 기본 연락처(문제 생성자) 액세스 권한을 제공합니다.</li> 
-        <li> <p><strong>전환 중에 이러한 설정을 변경할 수 있도록 허용합니다</strong>: 문제를 작업으로 변환하는 동안 문제를 변환한 사용자가 이러한 옵션을 변경할 수 있도록 해줍니다.</p> <!--
+        <li><strong>원래 문제를 유지하고 해결 방법을 작업에 연결</strong>: 문제를 전환하는 경우 작업이 완료될 때까지 문제로 표시됩니다. 작업이 완료되면 문제의 상태가 자동으로 [닫힘]으로 변경됩니다.</li> 
+        <li><strong>기본 담당자가 작업에 액세스할 수 있도록 허용</strong>: 기본 담당자(문제 작성자)에게 작업을 검토하고 업데이트하며 진행 상황을 계속 알릴 수 있는 작업에 대한 액세스 권한을 제공합니다</li> 
+        <li> <p><strong>전환 중에 이러한 설정을 변경할 수 있도록 허용</strong>: 문제를 작업으로 변환하는 동안 문제를 전환하는 사용자가 이러한 옵션을 변경할 수 있습니다.</p> <!--
           Screenshot when possible</p>
          --> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">문제를 프로젝트로 변환할 때</td> 
-      <td> <p>이 섹션의 설정은 문제 및 프로젝트에서 프로젝트로 변환 프로세스 중에 발생하는 상황을 결정합니다.</p> 
+      <td role="rowheader">문제를 프로젝트로 전환할 때</td> 
+      <td> <p>이 섹션의 설정은 문제에서 프로젝트로 전환 프로세스 중에 발생하는 작업을 결정합니다.</p> 
        <ul> 
-        <li><strong>원래 문제를 그대로 두고 그 해결책을 프로젝트에 연결합니다</strong>: 문제를 변환하면 프로젝트가 완료될 때까지 문제로 계속 표시됩니다. 프로젝트가 완료되면 문제 상태가 자동으로 종료됨으로 변경됩니다.</li> 
-        <li><strong>기본 연락처가 프로젝트에 액세스할 수 있도록 허용</strong>: 프로젝트에 대한 기본 연락처(문제 생성자) 액세스 권한을 제공하여 프로젝트를 검토하고 업데이트하며 진행 상황을 계속 파악할 수 있습니다.</li> 
-        <li><strong>전환 중에 이러한 설정을 변경할 수 있도록 허용합니다</strong>: 문제를 프로젝트로 변환하는 동안 나열된 옵션을 변경할 수 있도록 문제를 변환하는 사용자가 허용합니다.</li> 
+        <li><strong>원래 문제를 유지하고 해결 방법을 프로젝트에 연결</strong>: 문제를 전환하는 경우 프로젝트가 완료될 때까지 문제로 표시됩니다. 프로젝트가 완료되면 문제의 상태가 자동으로 마감으로 변경됩니다.</li> 
+        <li><strong>기본 담당자가 프로젝트에 액세스할 수 있도록 허용</strong>: 기본 담당자(문제 작성자)에게 프로젝트에 대한 액세스 권한을 부여하여 프로젝트를 검토하고 업데이트하고 진행 상황을 계속 알 수 있도록 합니다.</li> 
+        <li><strong>전환 중에 이러한 설정을 변경할 수 있도록 허용</strong>: 문제를 프로젝트로 전환하는 사용자가 문제 전환 중 나열된 옵션을 변경할 수 있습니다.</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -158,13 +157,13 @@ Workfront 관리자가 기본 설정을 잠금 해제하는 방법에 대한 자
     <tbody> 
      <tr> 
       <td role="rowheader">사용자가 기록된 시간이 있는 작업 및 문제를 삭제할 수 있도록 허용</td> 
-      <td> <p> 작업이 삭제되도록 허용할지 또는 시간이 기록되는 문제를 삭제하도록 허용할지 결정할 수 있습니다. 이 옵션은 기본적으로 선택되어 있습니다.</p> 
+      <td> <p> 시간이 기록되는 작업 또는 문제의 삭제를 허용할지 여부를 결정할 수 있습니다. 이 옵션은 기본적으로 선택되어 있습니다.</p> 
        <div> 
-        <p><b>팁</b>: 이 설정은 작업 또는 로그된 시간 내에 문제가 있는 프로젝트를 삭제하는 경우에도 적용됩니다. 이 설정은 프로젝트에 대해 시간이 직접 기록되는 프로젝트를 삭제하는 경우에는 적용되지 않습니다. </p> 
+        <p><b>팁</b>: 이 설정은 작업 또는 시간이 기록된 문제가 있는 프로젝트 삭제에도 적용됩니다. 이 설정은 프로젝트에 대해 시간이 직접 기록되는 프로젝트 삭제에는 적용되지 않습니다. </p> 
         <p>다음 사항을 고려하십시오.</p> 
         <ul> 
-         <li> <p>이 옵션을 선택하면 작업이나 문제를 삭제할 때 정보 경고가 표시됩니다. 경고에 따르면 작업이나 문제가 로그된 시간이 있으면 해당 작업이 프로젝트로 이동되거나 삭제된다는 메시지가 나타납니다. 설치 프로그램의 작업표 및 시간 환경 설정 영역에서 시간을 삭제할지 아니면 프로젝트로 이동할지 여부를 구성할 수 있습니다. 경고 메시지가 표시되는지 확인하면 작업이나 문제가 삭제됩니다. 작업표 및 시간 기본 설정 구성에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref">작업표 및 시간 환경 설정 구성</a>. </p> <p>팁: <span>로그된 시간과 작업이 있는 프로젝트를 삭제하면 기록되는 시간이 삭제되거나 설치 프로그램의 작업표 및 시간 기본 설정 영역에 있는 설정에 따라 보존됩니다</span>. </p> </li> 
-         <li><span>이 옵션을 선택 해제하면 작업을 삭제하거나 로그된 시간 문제를 해결할 때 또는 해당 작업이나 문제에 대해 기록된 시간이 있는 프로젝트를 삭제할 때 금지 경고가 표시됩니다</span> <span>.</span> 이 경고는 관리자가 로그된 시간 관련 작업 또는 문제를 삭제할 수 없도록 허용한다는 것을 나타냅니다. 작업, 문제<span>, 또는 작업 및 문제에 대해 시간(분)이 기록되는 프로젝트</span> 삭제할 수 없습니다. </li> 
+         <li> <p>이 옵션을 선택하면 작업 또는 문제를 삭제할 때 정보 경고가 표시됩니다. 경고는 작업 또는 문제가 시간을 기록한 경우 프로젝트로 이동되거나 삭제됨을 알려줍니다. 설정의 타임시트 및 시간 환경 설정 영역에서 시간을 삭제할지 또는 프로젝트로 이동할지 여부를 구성할 수 있습니다. 경고가 표시되었는지 확인하면 작업 또는 문제가 삭제됩니다. 타임시트 및 시간 환경 설정 구성에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref">타임시트 및 시간 환경 설정 구성</a>. </p> <p>팁: <span>시간이 기록된 작업 및 문제가 있는 프로젝트를 삭제하면 기록된 시간이 삭제되거나 설정의 타임시트 및 시간 환경 설정 영역의 설정에 따라 보존됩니다</span>. </p> </li> 
+         <li><span>이 옵션을 선택 취소하면 작업 또는 시간이 기록된 문제를 삭제하거나 작업 또는 문제에 대한 시간이 기록된 프로젝트를 삭제할 때 금지 경고가 표시됩니다</span> <span>.</span> 경고는 관리자가 기록된 시간이 있는 작업 또는 문제를 삭제할 수 없도록 지정합니다. 작업, 문제<span>, 또는 작업 및 문제에 대한 시간이 기록된 프로젝트</span> 삭제할 수 없습니다. </li> 
         </ul> 
        </div> </td> 
      </tr> 
@@ -178,19 +177,19 @@ Workfront 관리자가 기본 설정을 잠금 해제하는 방법에 대한 자
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">작업 또는 문제가 "신규"에서 "진행 중"으로 전환되면 실제 시작 날짜를 로 설정합니다.</td> 
-      <td> <p>작업 또는 문제가 발생할 때 실제 시작 날짜가 Workfront에 기록될 때 다음 옵션 중 하나를 선택합니다 <strong>새로 만들기</strong> to <strong>진행 중</strong>:</p> 
+      <td role="rowheader">작업 또는 문제가 "신규"에서 "진행 중"으로 변경되면 실제 시작 일자를 다음으로 설정하십시오.</td> 
+      <td> <p>작업 또는 문제가 시작될 때 Workfront에 실제 시작 날짜가 기록되는 경우 다음 옵션 중 하나를 선택하십시오 <strong>신규</strong> 끝 <strong>진행 중</strong>:</p> 
        <ul> 
-        <li><strong>지금:</strong> 실제 시작 일자는 현재 일자로 설정됩니다.</li> 
-        <li><strong>계획 시작 일자:</strong> 실제 시작 일자는 태스크 또는 문제의 계획 시작 일자로 설정됩니다.</li> 
+        <li><strong>지금:</strong> 실제 시작 일자가 현재 일자로 설정됩니다.</li> 
+        <li><strong>계획된 시작 일자:</strong> 실제 시작 일자는 작업 또는 문제의 계획된 시작 일자로 설정됩니다.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">작업 또는 문제가 완료되면 실제 완료 날짜를 로 설정합니다.</td> 
-      <td> <p>작업 또는 문제가 완료될 때 Workfront에 실제 완료 날짜가 기록될 때 다음 옵션 중 하나를 선택합니다.</p> 
+      <td role="rowheader">작업 또는 문제가 완료되면 실제 완료 일자를 다음으로 설정하십시오.</td> 
+      <td> <p>작업 또는 문제가 완료될 때 Workfront에 실제 완료 일자가 기록되는 경우 다음 옵션 중 하나를 선택합니다.</p> 
        <ul> 
-        <li><strong>지금:</strong> 실제 완료 일자는 현재 일자로 설정됩니다.</li> 
-        <li> <p><strong>계획 완료 일자:</strong> 실제 완료 일자는 태스크 또는 출고 계획 완료 일자로 설정됩니다.</p> </li> 
+        <li><strong>지금:</strong> 실제 완료 일자가 현재 일자로 설정됩니다.</li> 
+        <li> <p><strong>계획된 완료 일자:</strong> 실제 완료 일자는 작업 또는 문제의 계획된 완료 일자로 설정됩니다.</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -227,27 +226,27 @@ Workfront 관리자가 기본 설정을 잠금 해제하는 방법에 대한 자
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">작업이 할당되면</td> 
+      <td role="rowheader">누군가가 작업에 할당되었을 때</td> 
       <td> 
        <ul> 
-        <li><strong>작업에 대한 액세스 권한을 제공합니다.</strong>: 사용자가 할당된 작업에 대한 기본 권한을 정의합니다. 작업 권한에 대한 자세한 내용은<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref"> 사용자에게 액세스 권한 부여</a>.</li> 
-        <li> <p><strong>프로젝트에 대한 액세스 권한을 부여합니다.</strong>: 사용자에게 할당된 작업이 있는 프로젝트에 대한 사용자의 기본 권한을 정의합니다. 프로젝트 권한에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">시스템 전체 프로젝트 환경 설정 구성</a>.</p> </li> 
+        <li><strong>작업에 대한 액세스 권한 부여 ...</strong>: 할당된 작업에 대한 사용자의 기본 권한을 정의합니다. 작업 권한에 대한 자세한 내용은<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref"> 사용자에게 액세스 권한 부여</a>.</li> 
+        <li> <p><strong>프로젝트에 대한 액세스 권한 부여 ...</strong>: 작업이 할당된 프로젝트에 대해 사용자가 갖는 기본 권한을 정의합니다. 프로젝트 권한에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">시스템 전체 프로젝트 환경 설정 구성</a>.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">문제에 다른 사람이 할당되면</td> 
+      <td role="rowheader">누군가가 문제에 할당되었을 때</td> 
       <td> 
        <ul> 
-        <li><strong>작업에 대한 액세스 권한을 제공합니다.</strong>: 사용자가 할당된 작업에 대한 기본 권한을 정의합니다. 작업 권한에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">사용자에게 액세스 권한 부여</a>.</li> 
-        <li> <p><strong>프로젝트에 대한 액세스 권한을 부여합니다.</strong>: 사용자에게 할당된 작업이 있는 프로젝트에 대한 사용자의 기본 권한을 정의합니다. 프로젝트 권한에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">시스템 전체 프로젝트 환경 설정 구성</a>.</p> </li> 
+        <li><strong>작업에 대한 액세스 권한 부여 ...</strong>: 할당된 작업에 대한 사용자의 기본 권한을 정의합니다. 작업 권한에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">사용자에게 액세스 권한 부여</a>.</li> 
+        <li> <p><strong>프로젝트에 대한 액세스 권한 부여 ...</strong>: 작업이 할당된 프로젝트에 대해 사용자가 갖는 기본 권한을 정의합니다. 프로젝트 권한에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">시스템 전체 프로젝트 환경 설정 구성</a>.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">누군가 요청을 제출할 때</td> 
+      <td role="rowheader">누군가가 요청을 제출했을 때</td> 
       <td> 
        <ul> 
-        <li><strong>해당 문제에 대한 액세스 권한을 부여합니다.</strong>: 사용자가 제출한 요청에 대한 기본 권한을 정의합니다. 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">문제 공유</a>.</li> 
-        <li> <p><strong>동일한 회사의 사용자는 모든 요청에 대해 동일한 권한을 상속받게 됩니다</strong>: 사용자는 동일한 회사의 다른 사용자가 제출한 요청을 볼 수 있습니다. 보유한 요청 수와 동일한 권한이 있습니다.</p> </li> 
+        <li><strong>문제에 대한 액세스 권한을 부여합니다 ...</strong>: 사용자가 제출한 요청에 대한 기본 권한을 정의합니다. 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">문제 공유</a>.</li> 
+        <li> <p><strong>같은 회사의 직원들은 모든 요청에 대해 동일한 권한을 상속합니다.</strong>: 사용자가 동일한 회사의 다른 사용자가 제출한 요청을 볼 수 있습니다. 이러한 요청은 제출된 자체 요청에 대한 권한과 동일한 권한을 갖습니다.</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 

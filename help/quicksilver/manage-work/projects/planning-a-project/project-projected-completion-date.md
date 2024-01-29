@@ -7,7 +7,7 @@ description: 예상 완료 일자는 프로젝트, 작업 또는 문제가 완�
 author: Alina
 feature: Work Management
 exl-id: dde400e6-189f-4431-8f2f-7142ce424826
-source-git-commit: bac9856f3d0946b17e36797262d1a21f093ceadd
+source-git-commit: d71ee30378c39975366f4f257e3f7b17aba0c0ae
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # 프로젝트, 작업 및 문제의 예상 완료 일자 개요
+
+<!-- Audited: 1/2024 -->
 
 예상 완료 일자는 프로젝트, 작업 또는 문제가 완료되는 시기를 실시간으로 나타내는 계산된 지표입니다. 프로젝트, 작업 또는 문제가 완료됨으로 표시되면 예상 완료 일자가 실제 완료 일자의 일자로 변경됩니다.
 

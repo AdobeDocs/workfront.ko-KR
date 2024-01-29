@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: ca3ded2d18f369a0859efce49d185fa0de4cf54f
+source-git-commit: 4a9936b6bc034f2176167fc3939d647ee679a888
 workflow-type: tm+mt
-source-wordcount: '2105'
-ht-degree: 1%
+source-wordcount: '2108'
+ht-degree: 0%
 
 ---
 
@@ -36,7 +36,7 @@ Linked to Converting Issues.-->
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
-   <td>모든</td> 
+   <td>임의</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
@@ -82,7 +82,7 @@ Linked to Converting Issues.-->
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 기간 유형] </p> </td> 
-   <td> <p>리소스 수(및 할당 백분율)와 작업 기간 또는 총 작업량 간의 관계를 결정합니다. 자세한 내용은 <a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref">작업 기간 및 기간 유형</a></p> </td> 
+   <td> <p>리소스 수(및 할당 백분율)와 작업 기간 또는 총 작업량 간의 관계를 결정합니다. 자세한 내용은 <a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref">작업 기간 및 기간 유형: 문서 색인</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Revenue Type]</td> 
@@ -113,7 +113,7 @@ Linked to Converting Issues.-->
    <td role="rowheader" [!UICONTROL>문제를 작업으로 전환할 때]</td> 
    <td> <p>이 섹션의 설정은 문제에서 작업으로 전환 프로세스 중에 발생하는 작업을 결정합니다.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL 원래 문제를 유지하고 해결 방법을 작업에 연결]</strong>: 문제를 전환하는 경우 작업이 완료될 때까지 문제로 표시됩니다. 작업이 완료되면 문제의 상태가 자동으로 [!UICONTROL Closed](으)로 변경됩니다. 이 옵션을 선택 취소하면 문제가 삭제됩니다.</p> <p><b>메모</b>:  <p>문제를 삭제할 수 있는 액세스 또는 권한이 없는 사용자는 이 설정의 상태에 관계없이 문제를 전환할 때 문제를 삭제할 수 없습니다. 문제에 대한 액세스 및 권한에 대한 자세한 내용은 다음을 참조하십시오.</p> 
+     <li> <p><strong>[!UICONTROL 원래 문제를 유지하고 해결 방법을 작업에 연결]</strong>: 문제를 전환하는 경우 작업이 완료될 때까지 문제로 표시됩니다. 작업이 완료되면 문제의 상태가 자동으로 [!UICONTROL Closed](으)로 변경됩니다. 이 옵션을 선택 취소하면 문제가 삭제됩니다.</p> <p><b>참고</b>:  <p>문제를 삭제할 수 있는 액세스 또는 권한이 없는 사용자는 이 설정의 상태에 관계없이 문제를 전환할 때 문제를 삭제할 수 없습니다. 문제에 대한 액세스 및 권한에 대한 자세한 내용은 다음을 참조하십시오.</p> 
        <ul> 
         <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">문제에 대한 액세스 권한 부여</a> </p> </li> 
         <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">문제 공유 </a> </p> </li> 
@@ -128,7 +128,7 @@ Linked to Converting Issues.-->
    <td role="rowheader">[!UICONTROL 문제를 프로젝트로 전환할 때]</td> 
    <td> <p>이 섹션의 설정은 문제에서 프로젝트로 전환 프로세스 중에 발생하는 작업을 결정합니다.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL 원래 문제를 유지하고 해결 방법을 프로젝트에 연결]</strong>: 문제를 전환하는 경우 프로젝트가 완료될 때까지 문제로 표시됩니다. 프로젝트가 완료되면 문제의 상태가 자동으로 [!UICONTROL Closed](으)로 변경됩니다. 이 옵션을 선택 취소하면 문제가 삭제됩니다. </p> <p><b>메모</b>:  <p>문제를 삭제할 수 있는 액세스 또는 권한이 없는 사용자는 이 설정의 상태에 관계없이 문제를 전환할 때 문제를 삭제할 수 없습니다. 문제에 대한 액세스 및 권한에 대한 자세한 내용은 다음을 참조하십시오.</p> 
+     <li> <p><strong>[!UICONTROL 원래 문제를 유지하고 해결 방법을 프로젝트에 연결]</strong>: 문제를 전환하는 경우 프로젝트가 완료될 때까지 문제로 표시됩니다. 프로젝트가 완료되면 문제의 상태가 자동으로 [!UICONTROL Closed](으)로 변경됩니다. 이 옵션을 선택 취소하면 문제가 삭제됩니다. </p> <p><b>참고</b>:  <p>문제를 삭제할 수 있는 액세스 또는 권한이 없는 사용자는 이 설정의 상태에 관계없이 문제를 전환할 때 문제를 삭제할 수 없습니다. 문제에 대한 액세스 및 권한에 대한 자세한 내용은 다음을 참조하십시오.</p> 
        <ul> 
         <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">문제에 대한 액세스 권한 부여</a> </p> </li> 
         <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">문제 공유 </a> </p> </li> 

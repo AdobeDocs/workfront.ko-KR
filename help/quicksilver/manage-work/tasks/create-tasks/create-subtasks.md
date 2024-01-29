@@ -6,7 +6,7 @@ description: Workfront에서 작업은 상위-하위 관계를 가질 수 있습
 author: Alina
 feature: Work Management
 exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
-source-git-commit: 58f2895b1c3964b4481752ddf0df05d41d61f32f
+source-git-commit: d71ee30378c39975366f4f257e3f7b17aba0c0ae
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # 하위 작업 만들기
+
+<!-- Audited: 1/2024 -->
 
 Workfront에서 작업은 상위-하위 관계를 가질 수 있습니다. 하위 작업을 하위 작업이라고 합니다. 주 작업을 하위 작업으로 만들어 작업 목록에서 하위 작업을 만들 수 있습니다. 하위 작업을 주 작업으로 만들 수도 있습니다.
 

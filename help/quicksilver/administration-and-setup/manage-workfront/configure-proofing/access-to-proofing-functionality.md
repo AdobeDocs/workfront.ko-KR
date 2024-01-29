@@ -9,7 +9,7 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 30a41ae9-9755-4c7b-9e3b-d4a8b0ad7ee8
-source-git-commit: 41a2d58ce00baa6460ee6ca697d4fe06363eee85
+source-git-commit: f670255de4826f91094060b5cc20329c54d602d6
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 * **새로운 Workfront 플랜**: 새 Workfront 플랜의 모든 라이센스에 대한 증명이 자동으로 포함됩니다.
 * **현재 Workfront Pro+ 플랜**: pro, business 또는 enterprise Workfront 플랜이 있는 경우 작업 및 플랜 라이선스에 대한 증명이 자동으로 포함됩니다.
-* **Workfront Premium 레거시 플랜**: 이 옵션은 기존 Workfront 플랜(Select, Enterprise, Premium)에 사용됩니다. 이 플랜에서는 증명이 라이선스에 자동으로 포함되지 않습니다. 사용자 프로필의 특정 사용자에게 증명 액세스 권한을 부여해야 합니다.
+* **기존 Workfront Premium 플랜**: 이 옵션은 기존 Workfront 플랜(Select, Enterprise, Premium)에 사용됩니다. 이 플랜에서는 증명이 라이선스에 자동으로 포함되지 않습니다. 사용자 프로필의 특정 사용자에게 증명 액세스 권한을 부여해야 합니다.
 
   Workfront 관리자인 경우 설정 > 시스템 > 라이선스 로 이동하여 인스턴스가 어떤 플랜에 있는지 확인하고 확인할 수 있습니다.
 

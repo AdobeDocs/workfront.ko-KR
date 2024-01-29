@@ -6,7 +6,7 @@ description: 기본 워크플로를 사용하면 여러 검토자가 증명을 �
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f5d0c0e-e070-4f32-89c4-3b511a3b7fdc
-source-git-commit: 41a2d58ce00baa6460ee6ca697d4fe06363eee85
+source-git-commit: d71ee30378c39975366f4f257e3f7b17aba0c0ae
 workflow-type: tm+mt
 source-wordcount: '1842'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # 기본 워크플로를 사용하여 고급 증명 만들기
+
+<!-- Audited: 1/2024 -->
 
 기본 워크플로를 사용하면 여러 검토자가 증명을 검토할 수 있지만 단계로 구성되지 않습니다. 추가하는 모든 검토자는 증명을 만든 직후에 액세스할 수 있습니다.
 

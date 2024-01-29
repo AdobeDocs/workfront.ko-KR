@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
+source-git-commit: aada8f08093734e6323ba47632f4f9a0f5e496c7
 workflow-type: tm+mt
-source-wordcount: '13886'
+source-wordcount: '13888'
 ht-degree: 1%
 
 ---
@@ -1337,7 +1337,7 @@ ht-degree: 1%
          * [작업 제한 개요: 가능한 한 늦게](manage-work/tasks/task-constraints/as-late-as-possible.md)
          * [작업의 작업 제한 업데이트](manage-work/tasks/task-constraints/update-task-constraint-of-task.md)
       * 작업 기간 및 기간 유형 {#task-duration-and-duration-types}
-         * [작업 기간 및 기간 유형](manage-work/tasks/taskdurtn/task-duration-duration-type.md)
+         * [작업 기간 및 기간 유형: 문서 색인](manage-work/tasks/taskdurtn/task-duration-duration-type.md)
          * [작업 기간 및 기간 유형 개요](manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
          * [기간 유형 개요: 계산된 지정](manage-work/tasks/taskdurtn/calculated-assignment.md)
          * [기간 유형 개요: 작업량 고정](manage-work/tasks/taskdurtn/effort-driven.md)

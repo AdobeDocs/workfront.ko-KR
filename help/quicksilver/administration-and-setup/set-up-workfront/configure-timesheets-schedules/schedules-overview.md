@@ -6,11 +6,11 @@ keywords: 사용자,예약
 navigation-topic: configure-timesheets-and-schedules
 title: 일정 개요
 description: 스케줄을 사용하여 작업 주를 정의할 수 있습니다. 사용자 또는 프로젝트와 일정을 연결할 수 있습니다. 이렇게 하면 [!DNL Adobe Workfront] 을 클릭하여 타임라인 및 사용자 가용성을 계산합니다. 자세한 내용은 예약 만들기 를 참조하십시오.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 02350860-f997-4a76-8aec-c6c813d58e2d
-source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
+source-git-commit: 32da139d7385e05436a669bdc6f36b71ad83c8d2
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 0%
@@ -19,15 +19,15 @@ ht-degree: 0%
 
 # 일정 개요
 
+<!-- Audited: 1/2024 -->
+
 스케줄을 사용하여 작업 주를 정의하고 사용자 또는 프로젝트와 스케줄을 연관시킬 수 있습니다. 이렇게 하면 [!DNL Adobe Workfront] 을 클릭하여 타임라인 및 사용자 가용성을 계산합니다. 자세한 내용은 [일정 만들기](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 Workfront에서 일정을 사용할 때는 다음 사항을 고려하십시오.
 
 * 다음 [!DNL Workfront] 관리자는 일정에 있는 조직의 운영 시간을 식별합니다.
 
-  마찬가지로 그룹 관리자는 자신이 관리하는 그룹이 관리하는 스케줄의 운영 시간을 식별할 수 있습니다.
-
-  그룹 관리자에 대한 자세한 내용은 [그룹 관리자](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
+  마찬가지로 그룹 관리자는 자신이 관리하는 그룹이 관리하는 스케줄의 운영 시간을 식별할 수 있습니다. 그룹 관리자에 대한 자세한 내용은 [그룹 관리자](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
 
   예를 들어, 월요일부터 금요일까지, 오전 8시부터 오후 5시까지(점심에는 1시간 휴식) 예약으로 정의할 수 있습니다.
 

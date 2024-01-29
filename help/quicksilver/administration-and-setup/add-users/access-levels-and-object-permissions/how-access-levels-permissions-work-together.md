@@ -6,13 +6,13 @@ product-area: system-administration
 keywords: 액세스,모델,단계,다이어그램,수준,권한
 navigation-topic: access-levels
 description: Adobe Workfront 관리자는 각 사용자가 보유해야 하는 액세스 수준을 결정합니다. 해당 액세스 수준은 사용자가 볼 수 있는 것과 시스템의 객체 유형 및 영역을 정의합니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
-source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
+source-git-commit: 09afa5808fd4078def16da7a9ccf393c99f47d03
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '873'
 ht-degree: 2%
 
 ---
@@ -21,9 +21,8 @@ ht-degree: 2%
 
 Adobe Workfront 관리자는 각 사용자가 보유해야 하는 액세스 수준을 결정합니다. 해당 액세스 수준은 사용자가 볼 수 있는 것과 시스템의 객체 유형 및 영역을 정의합니다.
 
-또한 다른 사용자가 개별 객체를 공유하고 해당 객체에 대한 특정 권한을 부여할 때 사용자는 해당 객체에 액세스할 수 있습니다.
+또한 다른 사용자가 개별 객체에 대해 특정 권한을 공유하고 부여할 때 사용자는 해당 객체에 액세스할 수 있습니다.
 
-따라서 사용자가 오브젝트로 수행할 수 있는 활동은 해당 프로젝트에 대해 부여된 권한 및 액세스 수준의 조합으로 정의됩니다.
 
 ![](assets/security-model-hierachy.png)
 
