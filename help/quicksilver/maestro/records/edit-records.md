@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
 workflow-type: tm+mt
 source-wordcount: '888'
 ht-degree: 1%
@@ -107,7 +107,7 @@ Adobe 마에스트로에서 레코드 정보를 편집할 수 있습니다. 레�
 다음 영역에서 레코드를 편집할 수 있습니다.
 
 * [레코드의 세부 정보 페이지에서](#edit-a-record-from-the-records-details-page)
-* [레코드 유형의 테이블 보기에서](#edit-a-record-from-the-record-type-table-view)
+* [레코드 유형의 테이블 보기에서](#edit-a-record-from-the-table-view-of-a-record-type)
 
 ### 레코드의 세부 정보 페이지에서 레코드 편집
 
@@ -181,3 +181,5 @@ Adobe 마에스트로에서 레코드 정보를 편집할 수 있습니다. 레�
 
    * CTRL+Z(Mac의 경우 ⌘+Z)
    * 변경 내용을 재실행하려면 CTRL+Shift+Z(Mac의 경우 ⌘+Shift+Z)
+<!--
+1. (Optional) Add a thumbnail to a record. For information, see [Add a thumbnail to a record](/help/quicksilver/maestro/records/add-thumbnail-to-a-record.md). -->

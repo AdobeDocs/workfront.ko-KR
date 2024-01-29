@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
+source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
 workflow-type: tm+mt
-source-wordcount: '1096'
+source-wordcount: '1105'
 ht-degree: 0%
 
 ---
@@ -109,6 +109,8 @@ Adobe 마에스트로에서 레코드는 레코드 유형의 인스턴스입니�
 ## 수동으로 레코드 유형에 추가하여 레코드 만들기 <!--in a record type table (I don't think you can create them elsewhere right now)-->
 
 레코드 유형 페이지의 표 보기에서 레코드를 만들 수 있습니다.
+
+레코드 정보 편집에 대한 자세한 내용은 [레코드 편집](/help/quicksilver/maestro/records/edit-records.md).
 
 {#step1-to-maestro}
 

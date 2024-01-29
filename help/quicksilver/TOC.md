@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 6a734a7e8f8b1e717c5ec02fc803a14057f5a052
+source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
 workflow-type: tm+mt
-source-wordcount: '13885'
+source-wordcount: '13886'
 ht-degree: 1%
 
 ---
@@ -2044,6 +2044,7 @@ ht-degree: 1%
       * [레코드 공유](maestro/records/share-records.md)
       * [레코드 주석 관리](maestro/records/manage-record-comments.md)
       * [내역 섹션 개요](maestro/records/history-section-overview.md)
+      * [레코드에 썸네일 추가](maestro/records/add-thumbnails-to-records.md)
    * Adobe Maestro 조회수 {#adobe-maestro-views}
       * [보기: 문서 색인](maestro/views/views-information.md)
       * [레코드 보기 관리](maestro/views/manage-record-views.md)
@@ -2320,7 +2321,7 @@ ht-degree: 1%
       * [Outlook용 Adobe Workfront에 대한 추가 정보 보기 및 로그아웃](workfront-integrations-and-apps/using-workfront-with-outlook/view-additional-infor-wf-outlook-and-log-out.md)
       * [Adobe Workfront 및 SAML 2.0에서 사용할 Office용 Outlook 활성화](workfront-integrations-and-apps/using-workfront-with-outlook/enable-outlook-for-office-for-use-with-wf-and-saml-2.md)
    * Adobe Workfront for Microsoft Teams {#workfront-for-microsoft-teams}
-      * [Adobe Workfront for Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md)
+      * [[!DNL Adobe Workfront for Microsoft Teams]: 문서 색인](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md)
       * [Microsoft Teams에 대한 Adobe Workfront 개요](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/workfront-for-microsoft-teams.md)
       * [Microsoft Teams용 Adobe Workfront 설치](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)
       * [Microsoft Teams에서 Adobe Workfront 액세스](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/access-workfront-from-ms-teams.md)

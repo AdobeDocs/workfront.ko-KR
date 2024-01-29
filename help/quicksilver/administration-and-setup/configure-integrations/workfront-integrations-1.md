@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 5ea991185cbf2f925beccce9f46a16c3d8c8447d
+source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1139'
 ht-degree: 0%
 
 ---
@@ -217,7 +217,7 @@ ht-degree: 0%
      <li>검색 대상 [!DNL Workfront] 프로젝트, 작업 및 문제 </li> 
      <li>만들기 [!DNL Workfront] 개인 작업 </li> 
      <li>제출 [!DNL Workfront] 요청 </li> 
-    </ul> <p>자세한 내용은 <a href="../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md" class="MCXref xref">[!DNL Adobe Workfront for Microsoft Teams]</a>.</p> </td> 
+    </ul> <p>자세한 내용은 <a href="../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md" class="MCXref xref">[!DNL Adobe Workfront for Microsoft Teams]: 문서 색인</a>.</p> </td> 
    <td> 
     <ul> 
      <li>둘 이상의 팀이 사용하려는 경우 조직의 각 팀이 통합을 설치해야 합니다</li> 
