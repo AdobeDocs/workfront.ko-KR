@@ -4,12 +4,12 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: 필드의 문자 제한
 description: Adobe Workfront의 특정 필드는 필드에 포함할 수 있는 문자 수를 제한합니다. Workfront은 나중에 검색할 수 있도록 콘텐츠를 인덱싱합니다. Workfront 시스템의 고품질 성능을 보장하기 위해 문자 제한이 적용됩니다.
-author: Lisa and Alina
+author: Alina
 feature: Get Started with Workfront
 exl-id: f09dadf4-24f2-46d9-85ae-6081731d917d
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: e2a2a8cfe402c1f9f810ca360db4912d804b0a57
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '250'
 ht-degree: 5%
 
 ---
