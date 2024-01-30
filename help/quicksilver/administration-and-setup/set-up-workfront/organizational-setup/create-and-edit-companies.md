@@ -3,19 +3,21 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: organization-setup
 title: 회사 만들기 및 편집
-description: 에 회사를 추가할 수 있습니다. [!DNL Workfront] 재무 계획, 보고 목적, 객체에 대한 권한 정의, 정보의 기밀 유지 등에 사용할 수 있습니다.
-author: Caroline
+description: 에 회사를 추가할 수 있습니다. [!DNL Adobe Workfront] 재무 계획, 보고 목적, 객체에 대한 권한 정의, 정보의 기밀 유지 등에 사용할 수 있습니다.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1414'
 ht-degree: 0%
 
 ---
 
 # 회사 만들기 및 편집
+
+<!--Audited: 01/2024-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -30,33 +32,36 @@ ht-degree: 0%
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!DNL Workfront] 플랜*</p> </td> 
-   <td>[!UICONTROL Team] 이상</td> 
+   <td role="rowheader"> <p>[!DNL Workfront] 플랜</p> </td> 
+   <td>임의</td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!DNL Adobe Workfront] 라이센스*</p> </td> 
-   <td>[!UICONTROL 계획]</td> 
+   <td><p>현재: [!UICONTROL Plan]</p>
+   또는
+   <p>새로운 기능: [!UICONTROL Standard]</p>
+   </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">액세스 수준 구성*</td> 
+   <td role="rowheader">액세스 수준 구성</td> 
    <td> <p>다음 중 하나:</p> 
     <ul> 
-     <li> <p>시스템에서 회사를 편집할 수 있는 [!UICONTROL 시스템 관리자] 액세스 수준입니다. 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">사용자에게 전체 관리 액세스 권한 부여</a>. </p> </li> 
-     <li> <p>회사 관리에 대한 관리 액세스 권한으로, 시스템에서 모든 회사를 편집할 수 있습니다. 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">사용자에게 특정 영역에 대한 관리 액세스 권한 부여</a>.</p> </li> 
-    </ul> <p><b>메모</b>:  
+     <li> <p>시스템에서 회사를 편집할 수 있는 [!UICONTROL 시스템 관리자] 액세스 수준입니다. 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md">사용자에게 전체 관리 액세스 권한 부여</a>. </p> </li> 
+     <li> <p>회사 관리에 대한 관리 액세스 권한으로, 시스템에서 모든 회사를 편집할 수 있습니다. 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md">사용자에게 특정 영역에 대한 관리 액세스 권한 부여</a>.</p> </li> 
+    </ul> <p><b>참고</b>:  
      <ul> 
       <li> <p>그룹 관리자로 할당된 모든 그룹과 연결된 회사를 관리할 수도 있습니다.</p> </li> 
       <li> <p>에 사용자를 추가하고 에서 사용자를 제거하려면 [!DNL Workfront] 시스템에 다음 중 하나가 있어야 합니다.</p> 
        <ul> 
         <li> <p>[!UICONTROL 시스템 관리자] 액세스 수준입니다. 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">사용자에게 전체 관리 액세스 권한 부여</a>. </p> </li> 
-        <li> <p>액세스 수준에서 [!UICONTROL 사용자] 설정에 대해 [!UICONTROL 편집]을 선택해야 합니다. 또한 [!UICONTROL Users] 설정의 경우 [!UICONTROL 설정을 미세 조정하십시오] <img src="assets/gear-icon-in-access-levels.png"> , [!UICONTROL 만들기] 옵션과 두 [!UICONTROL 사용자 관리] 옵션 중 하나 이상을 활성화해야 합니다. </p> <p> <img src="assets/access-req-users.png"> </p> <p>[!UICONTROL 사용자 관리자(그룹 사용자)] 옵션을 사용하는 경우 사용자가 멤버인 그룹의 그룹 관리자여야 합니다.</p> </li> 
+        <li> <p>액세스 수준에서 [!UICONTROL 사용자] 설정에 대해 [!UICONTROL 편집]을 선택해야 합니다. 또한 [!UICONTROL Users] 설정의 경우 [!UICONTROL 설정을 미세 조정하십시오] <img src="assets/gear-icon-in-access-levels.png">, [!UICONTROL 만들기] 옵션과 두 [!UICONTROL 사용자 관리] 옵션 중 하나 이상을 활성화해야 합니다. </p> <p> <img src="assets/access-req-users.png"> </p> <p>[!UICONTROL 사용자 관리자(그룹 사용자)] 옵션을 사용하는 경우 사용자가 멤버인 그룹의 그룹 관리자여야 합니다.</p> </li> 
        </ul> <p>액세스 수준의 사용자 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">사용자에게 액세스 권한 부여</a>.</p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 수준 구성을 알아보려면 [!DNL Workfront] 관리자.
+&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 수준 구성을 알아보려면 [!DNL Workfront] 관리자. 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 회사에 사용자를 추가하면 얻을 수 있는 이점 {#benefits-of-adding-users-to-a-company}
 
@@ -82,16 +87,18 @@ ht-degree: 0%
 
 회사를 추가하거나 편집하려면:
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![](assets/main-menu-icon.png) 의 오른쪽 위 모서리 [!DNL Adobe Workfront]을 클릭한 다음 을 클릭합니다 **[!UICONTROL 설정]** ![](assets/gear-icon-settings.png).
+{#step-1-to-setup}
 
 1. 클릭 **[!UICONTROL 회사]**.
+
+   회사 목록이 표시됩니다.
 1. 회사를 추가하는 경우 **[!UICONTROL 새 회사]**.
 
    또는
 
-   기존 회사를 편집하는 경우 회사를 선택한 다음 을 클릭합니다. **[!UICONTROL 편집]**.
+   기존 회사를 편집하는 경우 회사를 선택한 다음 을 클릭합니다. **[!UICONTROL 편집]** 회사 목록의 맨 위에.
 
-1. 표시되는 옵션을 사용하여 다음 정보를 구성합니다.
+1. 다음 정보를 업데이트합니다.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -104,18 +111,18 @@ ht-degree: 0%
         <li> <p><b>[!UICONTROL Company Name]</b>: 회사 이름을 입력합니다.</p> </li> 
         <li> <p><b>[!UICONTROL이 활성화됨]</b>: 이 옵션이 활성화되면 사용자는 회사를 찾아 자신이 만들고 편집하는 프로젝트에 첨부할 수 있습니다. 비활성 회사는 프로젝트에 연결할 수 없습니다. 이 옵션은 기본적으로 활성화되어 있습니다.</p> </li> 
         <li> <p><b>[!UICONTROL 기본 회사입니다]</b>: 회사를 조직의 기본 회사로 지정합니다. 기본 회사는 일반적으로 [!DNL Workfront] 대부분의 사용자가 작업하는 계정입니다.</p> <p>1차 회사로 지정된 회사가 한 개 있거나 한 개도 없을 수 있지만, 여러 개의 회사를 1차 회사로 지정할 수는 없습니다. 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> <p><b>참고</b>: 액세스 수준을 수정하여 사용자를 다른 사용자(기본 회사 또는 연결된 회사 및 기본 회사에서만)로 표시하도록 제한할 수 있습니다. 기본 회사가 사용자의 액세스 수준으로 작동하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </li> 
-        <li> <p><b>[!UICONTROL Group]</b>: 회사와 거래하는 그룹이 있는 경우 여기에 그룹의 이름을 추가할 수 있습니다. 이 기능은 그룹이 거래하는 모든 회사에 대해 보고하고 관리해야 하는 그룹 관리자에게 유용합니다.</p> <p><b>중요 사항</b>: 이 회사에서 작업할 그룹을 연결하지 않은 경우, 그룹 관리자는 액세스 수준의 회사에 대한 관리 액세스 권한이 없으면 액세스할 수 없습니다. 이 액세스 권한 부여 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">사용자에게 특정 영역에 대한 관리 액세스 권한 부여</a>.</p> <p data-mc-conditions="SnippetConditions-wf-groups.system-level">그룹 이름을 입력한 다음 키를 누릅니다 <strong>[!UICONTROL Enter]</strong> 표시되는 시간.</p> <p data-mc-conditions="SnippetConditions-wf-groups.system-level">회사에 그룹을 할당하면 해당 그룹의 그룹 관리자는 회사에 대한 [!UICONTROL 관리] 액세스 권한을 갖게 됩니다. 자세한 내용은 <a href="#group-administrators-and-companies" class="MCXref xref">그룹 관리자 및 회사</a> 이 문서에서.</p> </li> 
+        <li> <p><b>[!UICONTROL Group]</b>: 회사와 거래하는 그룹이 있는 경우 여기에 그룹의 이름을 추가할 수 있습니다. 이 기능은 그룹이 거래하는 모든 회사에 대해 보고하고 관리해야 하는 그룹 관리자에게 유용합니다.</p> <p><b>중요 사항</b>: 이 회사에서 작업할 그룹을 연결하지 않은 경우, 그룹 관리자는 액세스 수준의 회사에 대한 관리 액세스 권한이 없으면 회사에 액세스할 수 없습니다. 이 액세스 권한 부여 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">사용자에게 특정 영역에 대한 관리 액세스 권한 부여</a>.</p> <p data-mc-conditions="SnippetConditions-wf-groups.system-level">그룹 이름을 입력한 다음 키를 누릅니다 <strong>[!UICONTROL Enter]</strong> 표시되는 시간.</p> <p data-mc-conditions="SnippetConditions-wf-groups.system-level">회사에 그룹을 할당하면 해당 그룹의 그룹 관리자는 회사에 대한 [!UICONTROL 관리] 액세스 권한을 갖게 됩니다. 자세한 내용은 <a href="#group-administrators-and-companies" class="MCXref xref">그룹 관리자 및 회사</a> 이 문서에서.</p> </li> 
         <li> <p><b>[!UICONTROL 회사 구성원]</b>: 회사에 기존 사용자를 추가합니다. 이렇게 하면 이러한 사용자를 이 회사와 연결하게 됩니다.</p> <p>한 회사에 연결하는 사용자 수에는 제한이 없지만 사용자는 두 개 이상의 회사에 연결할 수 없습니다.</p> </li> 
        </ul> </td> 
      </tr>
      <tr> 
       <td role="rowheader">[!UICONTROL 사용자 지정 Forms] 섹션</td> 
-      <td> <p>회사에 추가하려는 필드에서 을(를) 사용할 수 없는 경우 [!DNL Workfront], 사용자 정의 양식을 작성하여 회사와 연결할 수 있습니다. 드롭다운 메뉴에서 이 양식을 선택하여 회사에 첨부할 수 있습니다. 활성 회사만 드롭다운 메뉴에 나열됩니다. 사용자 지정 Forms 만들기에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">사용자 정의 양식 만들기 또는 편집</a>. </p> </td> 
+      <td> <p>회사에 추가하려는 필드에서 을(를) 사용할 수 없는 경우 [!DNL Workfront], 사용자 정의 양식을 작성하여 회사와 연결할 수 있습니다. </p> <p>드롭다운 메뉴에서 이 양식을 선택하여 회사에 첨부할 수 있습니다.</p> <p>활성 사용자 정의 양식만 드롭다운 메뉴에 나열됩니다.</p> <p> 사용자 지정 Forms 만들기에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">사용자 정의 양식 만들기 또는 편집</a>. </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 새 회사를 만드는 경우 **[!UICONTROL 회사 만들기]**.
+1. (조건부) 회사를 만드는 경우 **[!UICONTROL 회사 만들기]**.
 
    또는
 
@@ -129,7 +136,7 @@ ht-degree: 0%
 
 회사 수준에서 청구 요율 재정의에 대한 자세한 내용은 다음을 참조하십시오. [회사 수준에서 작업 역할 청구 요금 재정의](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
 
-## 회사와의 객체 공유 정보
+## 회사와의 오브젝트 공유 개요
 
 특정 권한은 섹션에 설명된 대로 회사와 연결된 사용자에게 제공됩니다 [회사에 사용자를 추가하면 얻을 수 있는 이점](#benefits-of-adding-users-to-a-company). 이러한 권한 외에도 사용자가에서 개체를 보거나, 기여하거나, 편집할 수 있는 권한을 허용할 수 있습니다 [!DNL Workfront] 개체를 회사와 공유함으로써.
 

@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: 1129f8ab93d349325bed56bc2b3ba94c2600c03f
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 1%
+source-wordcount: '810'
+ht-degree: 2%
 
 ---
 
@@ -34,11 +34,13 @@ Adobe Workfront 관리자는 미리 알림을 지원하도록 이메일 템플�
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td>모든</td> 
+   <td>임의</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td>플랜</td> 
+   <td role="rowheader">Adobe Workfront 라이센스*</td> 
+   <td><p>현재: 플랜</p>
+   또는
+   <p>새로운 기능: 표준</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
@@ -47,17 +49,19 @@ Adobe Workfront 관리자는 미리 알림을 지원하도록 이메일 템플�
  </tbody> 
 </table>
 
-## 새 이메일 템플릿 만들기 {#create-a-new-email-template}
+*액세스 요구 사항에 대한 자세한 내용은 다음을 참조하십시오. [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 상단에서 을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png).
+## 이메일 템플릿 만들기 {#create-an-email-template}
 
-1. 왼쪽의 패널에서 을 클릭합니다. **이메일** > **알림**> **이메일 템플릿**.
+{{step-1-to-setup}}
 
-![](assets/email-templates-tab-under-setup-email-notifications-area.png)
+1. 왼쪽 패널에서 **이메일** > **알림**> **이메일 템플릿**.
+
+   ![](assets/email-templates-tab-under-setup-email-notifications-area.png)
 
 1. 클릭 **새 이메일 템플릿**.
 
-1. 다음에서 **새 이메일 템플릿** 나타나는 상자에서 다음 정보를 지정합니다.
+1. 다음에서 **새 이메일 템플릿** 상자에서 다음 정보를 지정합니다.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -65,24 +69,31 @@ Adobe Workfront 관리자는 미리 알림을 지원하도록 이메일 템플�
     <tbody> 
      <tr> 
       <td role="rowheader">이름</td> 
-      <td>이메일 템플릿의 제목입니다(필수).</td> 
+      <td>이메일 템플릿의 제목을 추가합니다. 필수 필드입니다.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">오브젝트 유형</td> 
-      <td>템플릿을 연결할 개체 유형을 지정합니다(필수, 기본적으로 '문제'로 설정됨).</td> 
-     </tr>
+      <td>템플릿을 연결할 객체 유형을 지정합니다. 다음 개체 중에서 선택합니다.
+      <ul>
+      <li>프로젝트</li>
+      <li>작업</li>
+      <li>문제</li>
+      <li>타임시트</li> </ul>
+
+   필수 필드이며 기본적으로 프로젝트로 설정되어 있습니다.</td>
+   </tr>
      <tr> 
       <td role="rowheader">설명</td> 
-      <td>템플릿에 대한 설명입니다.</td> 
+      <td>이메일 템플릿, 템플릿 용도 및 의도된 대상자에 대한 정보를 더 추가합니다.</td> 
      </tr>
 
    <tr> 
-      <td role="rowheader">주제 </td> 
-      <td>이메일 메시지를 보낼 때 표시되는 제목입니다(필수).</td> 
+      <td role="rowheader">제목 </td> 
+      <td>템플릿에서 생성한 이메일 메시지를 보낼 때 이메일의 제목 줄에 표시되는 텍스트를 추가합니다. 필수 필드입니다.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">본문 </td> 
-      <td> <p>이메일 메시지를 보낼 때 표시되는 콘텐츠.</p> <p>에 설명된 대로 이메일 콘텐츠에 HTML 형식을 사용할 수 있습니다 <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">이메일 템플릿에 HTML 서식 추가</a> 이 문서에서.</p> </td> 
+      <td> <p>이메일 메시지 내용에 대한 텍스트를 추가합니다.</p> <p>섹션에 설명된 대로 전자 메일 콘텐츠에 대해 HTML 형식을 사용할 수 있습니다 <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">이메일 템플릿에 HTML 서식 추가</a> 이 문서에서.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -128,15 +139,15 @@ HTML 서식을 지정하면 다음 섹션에 표시된 대로 이메일 템플�
 
 객체에 대한 &quot;와일드카드&quot; 값을 가져오려면 다음 중 하나를 수행합니다.
 
-<!-- Refer to the API Explorer and select the names of your objects from the Fields tab of any object. For more information about the API Explorer, see [Adobe Workfront API](../../../wf-api/workfront-api.md).-->
+* API 탐색기를 참조하고 개체의 필드 탭에서 개체 이름을 선택합니다. API 탐색기에 대한 자세한 내용은 [API 탐색기](/help/quicksilver/wf-api/general/api-explorer.md).
 
-* 보고서의 텍스트 모드 보기 내에서 찾을 수 있는 &quot;valuefield&quot; 값을 사용합니다. 텍스트 모드 값에 대한 자세한 내용은 [텍스트 모드 개요](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+* 사용 `valuefield` 보고서의 텍스트 모드 보기에서 찾을 수 있는 값입니다. 텍스트 모드 값에 대한 자세한 내용은 [텍스트 모드 개요](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-  &quot;제목&quot; 값은 이메일 본문에 표시하려는 오브젝트의 이름이 될 수 있습니다.
+다음 `heading` 값은 이메일 본문에 나타낼 오브젝트의 이름일 수 있습니다.
 
 ### HTML을 사용하여 사용자 정의 필드에 연결 {#link-to-custom-fields-with-html}
 
-다음을 사용하여 사용자 링크 및 사용자 정의 필드를 포함할 수 있습니다. **$$** 와일드카드: 이메일 생성기가 객체와 연관된 데이터베이스에서 값을 찾도록 지시합니다. 데이터베이스 속성 참조의 양쪽에 있어야 합니다.
+다음을 사용하여 사용자 링크 및 사용자 정의 필드를 포함할 수 있습니다. `$$` 와일드카드: 이메일 생성기가 객체와 연관된 데이터베이스에서 값을 찾도록 지시합니다. 데이터베이스 속성 참조의 양쪽에 있어야 합니다.
 
 예를 들어, 다음 텍스트를 HTML으로 추가하면 할당된 사용자의 이름이 작업과 연결된 미리 알림에 추가됩니다.
 
@@ -193,11 +204,11 @@ HTML 서식을 지정하면 다음 섹션에 표시된 대로 이메일 템플�
 
 바꾸기 `<your domain>` 를 중괄호 없이 회사의 Workfront 도메인으로 바꿉니다.
 
-**주제:**
+**제목:**
 
 관리하는 프로젝트가 늦어졌습니다.
 
-**콘텐츠:**
+**컨텐츠:**
 
 ```html
 <html>
@@ -231,11 +242,11 @@ HTML 서식을 지정하면 다음 섹션에 표시된 대로 이메일 템플�
 
 문제 이메일에 사용하려면 `/task/view.` 작업 항목 링크에서 값 `/issue/view`.
 
-**주제:**
+**제목:**
 
 `$$name$$ to start on $$plannedStartDate$$`
 
-**콘텐츠:**
+**컨텐츠:**
 
 ```html
 <html>

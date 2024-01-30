@@ -8,16 +8,18 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '574'
 ht-degree: 4%
 
 ---
 
 # 레이아웃 템플릿을 사용하여 메인 메뉴 사용자 정의
 
-Adobe Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 사용하여 사용자가 Workfront에서 기본 메뉴를 열 때 표시되는 옵션을 구성할 수 있습니다.
+<!--Audited: 01/2024-->
+
+Adobe Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 사용하여 사용자가 Workfront에서 메인 메뉴를 열 때 표시되는 옵션을 구성할 수 있습니다.
 
 ![메인 메뉴 옵션](assets/main-menu-with-blueprints-no-branding.png)
 
@@ -41,32 +43,36 @@ Adobe Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 �
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront 플랜</strong></td> 
-   <td>모든</td> 
+   <td>임의</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront 라이선스</strong></td> 
-   <td>플랜</td> 
+   <td role="rowheader"><strong>Adobe Workfront 라이센스*</strong></td> 
+   <td><p>현재:플랜</p>
+   또는
+   <p>새로운 기능: 표준</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>액세스 수준 구성</strong></td> 
-   <td> <p>시스템 수준에서 이러한 단계를 수행하려면 시스템 관리자 액세스 수준이 필요합니다.
-그룹에 대해 이러한 작업을 수행하려면 해당 그룹의 관리자여야 합니다.</p> <p><b>참고</b>: 아직 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가적인 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td> <p>시스템 수준에서 이러한 단계를 수행하려면 시스템 관리자 액세스 수준이 필요합니다.</p>
+    <p>그룹에 대해 이러한 작업을 수행하려면 해당 그룹의 관리자여야 합니다.</p> 
+     </td> 
   </tr> 
  </tbody> 
 </table>
 
+*액세스 요구 사항에 대한 자세한 내용은 다음을 참조하십시오. [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 ## 메인 메뉴 사용자 정의
 
 1. 에 설명된 대로 레이아웃 템플릿에서 작업 시작 [레이아웃 템플릿 만들기 및 관리](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. 클릭 **메인 메뉴 설정** 오른쪽 상단 모서리 근처에 있습니다.
+1. 클릭 **메인 메뉴 설정** 템플릿의 오른쪽 상단 모서리에서 참조할 수 있습니다.
 
-   나타나는 기본 메뉴 상자에는 템플릿의 기본 메뉴에서 현재 활성 상태인 항목과 추가 가능한 항목이 표시됩니다. 추가할 수 있는 모든 항목은 다음과 같습니다.
-
+   주 메뉴 상자가 열리면 템플릿의 주 메뉴에 현재 표시된 영역과 추가할 수 있는 항목을 볼 수 있습니다. 추가할 수 있는 모든 항목은 다음과 같습니다.
    * 홈
 
      >[!TIP]
      >
-     >기본 메뉴의 내 업데이트 영역을 포함하는 프로필과 연결된 레이아웃 템플릿이 없는 경우 기본적으로 홈 은 리뷰 라이선스 사용자를 위한 내 업데이트 로 표시됩니다.
+     >기본적으로 홈 영역 외에 기본 메뉴의 내 업데이트 영역을 포함하는 프로필과 연결된 레이아웃 템플릿이 없는 경우 기본 메뉴의 홈 아이콘에는 검토 라이선스 사용자(현재 라이선스 계획)의 내 업데이트 영역이 표시됩니다.
 
    * 포트폴리오
    * 프로그램
@@ -79,14 +85,14 @@ Adobe Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 �
 
      >[!NOTE]
      >
-     >시나리오 플래너는 새 Adobe Workfront 경험에서만 사용할 수 있으며 추가 라이선스가 필요합니다. Workfront 시나리오 플래너에 대한 자세한 내용은 다음을 참조하십시오. [시나리오 플래너 개요](../../../scenario-planner/scenario-planner-overview.md).
+     >시나리오 플래너에는 추가 라이센스가 필요합니다. Workfront 시나리오 플래너에 대한 자세한 내용은 다음을 참조하십시오. [시나리오 플래너 개요](../../../scenario-planner/scenario-planner-overview.md).
 
    * 팀
    * 사용자
 
      >[!NOTE]
      >
-     >플랜 라이선스가 있는 사용자만 사용자를 볼 수 있습니다. ![](assets/users-icon-in-main-menu.png) 기본 메뉴 아래의 제품에서 사용할 수 있습니다.
+     >현재 라이선스 모델에서 플랜 라이선스가 있는 사용자 또는 새 라이선스 모델에서 Standard 라이선스가 있는 사용자만 사용자 영역을 볼 수 있습니다. ![](assets/users-icon-in-main-menu.png) 기본 메뉴 아래의 제품에서 사용할 수 있습니다.
 
    * 요청
    * 타임시트
@@ -98,7 +104,7 @@ Adobe Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 �
 
      >[!NOTE]
      >
-     >이를 위해서는 추가 라이센스가 필요합니다. Workfront 목표에 대한 자세한 내용은 다음을 참조하십시오. [Adobe Workfront 목표 개요](../../../workfront-goals/goal-management/wf-goals-overview.md).
+     >목표에 대해서는 추가 라이센스가 필요합니다. Workfront 목표에 대한 자세한 내용은 다음을 참조하십시오. [Adobe Workfront 목표 개요](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
    * 내 업데이트
    * 보드

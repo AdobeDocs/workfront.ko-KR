@@ -4,7 +4,7 @@ description: Adobe 마에스트로에서 레코드 정보를 편집하고 각 �
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 7448f6b8a622bc814604e59d4654644b3d7a1e12
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 0%
@@ -74,8 +74,8 @@ Adobe Maestro에서 레코드를 고유한 썸네일과 연결하여 쉽게 인�
   </tr>
 <tr>
    <td role="rowheader"><p>권한</p></td>
-   <td> <p>작업 공간에 대한 이상의 권한 보기 </p>  
-   <p>테이블 보기에 대한 이상의 권한 보기 </p> 
+   <td> <p>작업 영역에 대한 상위 권한 기여 </p>  
+   <p>테이블 보기에 대한 상위 권한 기여 </p> 
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p>
 </td>
   </tr>

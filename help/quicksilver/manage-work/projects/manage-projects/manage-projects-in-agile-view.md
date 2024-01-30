@@ -6,37 +6,14 @@ description: 일반적으로 애자일 사례(팀 백로그 관리 또는 반복
 author: Alina and Lisa
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: fa499d74df891441e729c32188e9b2f74e4ef5c0
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '1386'
+source-wordcount: '1380'
 ht-degree: 0%
 
 ---
 
 # 애자일 보기에서 프로젝트 관리
-
-<!--
-Required plans, license types, and access
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> <p><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront Plan</a> </p> </td> 
-   <td> <p>Team, Pro, Business, or Enterprise </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>Workfront License Type</p> </td> 
-   <td> <p>Review, Work, or Plan </p> </td> 
-  </tr> 
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td> <p>Permissions in the access model</p> </td> 
-    <td> <li>Edit access and ability to create reports, dashboards, and calendars</li> </td> 
-   </tr>
- </tbody> 
-</table>
--->
 
 일반적으로 애자일 사례(팀 백로그 관리 또는 반복 생성 등)와 관련된 관리 문제 없이 프로젝트에 대한 애자일 기능을 활용할 수 있습니다.
 
@@ -51,30 +28,31 @@ Required plans, license types, and access
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>검토 이상</p> </td> 
+   <td> <p>현재: 검토 이상</p> 
+   <p>새로운 기능: 기여자 이상</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
+   <td role="rowheader">액세스 수준 구성</td> 
    <td> <p>다음 영역에 대한 액세스 편집:</p> 
     <ul> 
      <li> <p>프로젝트</p> </li> 
      <li> <p>보고서, 대시보드, 캘린더</p> </li> 
      <li> <p>필터, 보기, 그룹화</p> </li> 
-    </ul> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+    </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>프로젝트에 대한 권한 보기</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>프로젝트에 대한 권한 보기</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오. 액세스 요구 사항에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 애자일 프로젝트 이해
 
@@ -111,7 +89,9 @@ Required plans, license types, and access
 * 상위 작업이나 하위 작업이 없는 작업은 항상 스토리 보드에 단일 스토리 카드로 표시됩니다.\
   예를 들어 이러한 작업은 프로젝트 목록 보기에서 다음과 같이 표시됩니다.
 
-  ![애자일 프로젝트 목록 - 상위 또는 하위 작업이 없는 작업](assets/agile-project-single-list-nwe.png) 이러한 작업은 프로젝트 애자일 보기에 다음과 같이 표시됩니다.
+  ![애자일 프로젝트 목록 - 상위 또는 하위 작업이 없는 작업](assets/agile-project-single-list-nwe.png)
+
+  이러한 작업은 프로젝트 애자일 보기에 다음과 같이 표시됩니다.
 
   ![프로젝트 애자일 보기 - 상위 또는 하위 작업이 없는 작업](assets/agile-project-singlecard-nwe.png)
 
@@ -162,7 +142,7 @@ Required plans, license types, and access
 ## 애자일 보기에서 프로젝트 보기
 
 1. 작업 목록 또는 문제 목록에서 애자일 보기로 보려는 프로젝트로 이동합니다.
-1. 다음을 클릭합니다. **보드** 아이콘 ![보드 아이콘](assets/board-icon-for-agile-view.png).
+1. 다음을 클릭합니다. **게시판 보기** 아이콘 ![보드 아이콘](assets/board-icon-for-agile-view.png).
 
    기본적으로 프로젝트의 보드 보기가 표시됩니다.
 
@@ -210,7 +190,9 @@ Workfront의 표준 보기와 마찬가지로 기존 애자일 보기를 사용�
 >
 >이 섹션은 프로젝트의 보드 보기가 아닌 레거시 애자일 보기에만 적용됩니다.
 
-애자일 보기를 공유하는 방법에 대한 자세한 내용은 [필터, 보기 또는 그룹화 공유](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+다른 보기를 공유하는 것과 동일한 방식으로 사용자가 만든 애자일 보기를 공유하거나 사용 권한을 가질 수 있으며, 필터링하거나 그룹화할 수 있습니다.
+
+자세한 내용은 [필터, 보기 또는 그룹화 공유](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
 ## 기존 애자일 보기 제거
 
@@ -218,4 +200,6 @@ Workfront의 표준 보기와 마찬가지로 기존 애자일 보기를 사용�
 >
 >이 섹션은 프로젝트의 보드 보기가 아닌 레거시 애자일 보기에만 적용됩니다.
 
-보기를 삭제하는 방법에 대한 자세한 내용은 문서의 &quot;보기 제거&quot; 섹션을 참조하십시오 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+다른 보기를 제거하는 것과 동일한 방식으로 애자일 보기를 제거하거나, 필터링하거나, 그룹화할 수 있습니다.
+
+자세한 내용은 [필터, 보기 및 그룹화 제거](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).

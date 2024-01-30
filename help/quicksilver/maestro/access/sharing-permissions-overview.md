@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 72d044541f8e061c51c4483672a89ce20e4f30d9
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '453'
 ht-degree: 8%
 
 ---
@@ -18,15 +18,7 @@ ht-degree: 8%
 
 # Adobe Maestro에서의 권한 공유 개요
 
->[!IMPORTANT]
->
->이 문서의 정보는 Adobe Workfront의 새로운 오퍼링인 Adobe Maestro를 참조합니다.
->
->현재 Adobe 마에스트로는 제한된 수의 고객에게 제공되는 베타 프로그램의 일부입니다. Maestro에 액세스하려면 Ypu가 Workfront 고객이어야 합니다.
->
->Maestro용 Beta 프로그램 가입에 대한 자세한 내용은 계정 담당자에게 문의하십시오.
->
->자세한 내용은 [Adobe 마에스트로 개요](../maestro-overview.md).
+{{maestro-important-intro}}
 
 Adobe Maestro 작업 영역 또는 보기에 대한 권한을 공유하거나 제거할 수 있습니다.
 
@@ -63,6 +55,7 @@ Maestro에서 다음 오브젝트를 공유할 수 있습니다.
    * 사용자
    * 그룹
 * 시스템 관리자를 포함한 다른 사용자는 자신이 만들었거나 자신과 공유된 보기에만 액세스할 수 있습니다.
+* 작업 영역 또는 레코드 유형 페이지의 보기에 대한 링크를 다른 사용자와 공유할 수 있습니다. 링크를 받은 사용자는 활성 사용자여야 하며 Workfront에 로그인해야 선택한 보기에 표시된 작업 영역 또는 레코드 유형 페이지에 액세스할 수 있습니다.
 
 ## Maestro 개체에 대한 권한 공유
 

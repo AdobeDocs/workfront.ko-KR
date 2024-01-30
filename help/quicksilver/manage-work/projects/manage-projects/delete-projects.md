@@ -2,84 +2,57 @@
 title: 프로젝트 삭제
 product-area: projects
 navigation-topic: manage-projects
-description: 프로젝트 및 해당 데이터가 더 이상 필요하지 않은 경우 프로젝트를 삭제할 수 있습니다.
+description: 프로젝트 및 해당 데이터가 더 이상 필요하지 않은 경우 프로젝트를 삭제할 수 있습니다. 프로젝트를 삭제하는 대신 프로젝트를 편집하고 상태를 완료 또는 중단으로 변경하는 것이 좋습니다. 이렇게 하면 사용자의 작업 목록에서 프로젝트와 관련된 현재 작업이 모두 제거되지만 프로젝트와 관련된 데이터가 모두 저장됩니다.
 author: Alina
 feature: Work Management
 exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+recommendations: noDisplay, noCatalog
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '884'
 ht-degree: 1%
 
 ---
 
 # 프로젝트 삭제
 
+<!--Audited: 01/2024-->
+
 프로젝트 및 해당 데이터가 더 이상 필요하지 않은 경우 프로젝트를 삭제할 수 있습니다.
 
 프로젝트를 삭제하는 대신 프로젝트를 편집하고 상태를 완료 또는 중단으로 변경하는 것이 좋습니다. 이렇게 하면 사용자의 작업 목록에서 프로젝트와 관련된 현재 작업이 모두 제거되지만 프로젝트와 관련된 데이터가 모두 저장됩니다.
 
+프로젝트 목록 또는 프로젝트 수준에서 프로젝트를 삭제할 수 있습니다.
+
 ## 액세스 요구 사항
 
-<!-- drafted for P&P:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront plan*</p> </td> 
-   <td>Any</td> 
+   <td> <p>Adobe Workfront 플랜</p> </td> 
+   <td>임의</td> 
   </tr> 
   <tr> 
-   <td> <p>Adobe Workfront license*</p> </td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p>
+   <td> <p>Adobe Workfront 라이센스*</p> </td> 
+   <td> <p>현재 라이선스: 플랜 </p> 
+   또는
+   <p>새 라이선스: Standard </p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>Access level configurations*</strong> </td> 
-   <td> <p>Edit access to Projects with ability to Create <span>and Delete</span> projects</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td>액세스 수준 구성</td> 
+   <td> <p>프로젝트를 생성 및 삭제할 수 있는 프로젝트 액세스 편집</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>Object permissions</strong> </p> </td> 
-   <td> <p>Edit access to Projects, Tasks, Issues with ability to Delete projects, tasks, and issues</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
-이 문서의 단계를 수행하려면 다음이 있어야 합니다.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든 </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>플랜 </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>프로젝트, 작업 및 문제 삭제 기능으로 프로젝트, 작업 및 문제에 대한 액세스 편집</p> <p><b>메모</b></p>
-
-<p>여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">개체 권한</td> 
-   <td> <p>프로젝트, 작업 및 문제를 삭제할 수 있도록 프로젝트의 프로젝트, 작업 및 문제에 대한 권한을 관리합니다. </p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>개체 권한 </p> </td> 
+   <td> <p>프로젝트, 작업 및 문제 삭제 기능으로 프로젝트, 작업 및 문제에 대한 액세스 편집</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
-프로젝트 목록 또는 프로젝트 수준에서 프로젝트를 삭제할 수 있습니다.
+*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오. 액세스 요구 사항에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 프로젝트 삭제 프로세스 이해
 
@@ -138,7 +111,7 @@ ht-degree: 1%
    * 삭제한 프로젝트가 플랜에서 게시된 유일한 이니셔티브에 연결되어 있는 경우 플랜이 게시되었다는 표시도 제거됩니다.
    * 삭제된 프로젝트를 복구하면 프로젝트가 복구되지만 이니셔티브에 대한 해당 링크가 복원되지 않고 시나리오 플래너 영역이 더 이상 프로젝트 세부 정보에 표시되지 않습니다.
 
-     시나리오 플래너는 새 Adobe Workfront 경험에서만 사용할 수 있으며 추가 라이선스가 필요합니다. Workfront 시나리오 플래너에 대한 자세한 내용은 다음을 참조하십시오. [시나리오 플래너 개요](../../../scenario-planner/scenario-planner-overview.md).
+     시나리오 플래너에는 추가 라이센스가 필요합니다. Workfront 시나리오 플래너에 대한 자세한 내용은 다음을 참조하십시오. [시나리오 플래너 개요](../../../scenario-planner/scenario-planner-overview.md).
 
      시나리오 플래너에서 이니셔티브에 연결된 프로젝트에 대한 자세한 내용은 다음을 참조하십시오. [시나리오 플래너에서 이니셔티브를 게시하여 프로젝트 업데이트 또는 만들기](../../../scenario-planner/publish-scenarios-update-projects.md).
 
@@ -166,7 +139,7 @@ ht-degree: 1%
 ## 프로젝트 수준에서 프로젝트 삭제
 
 1. 삭제할 프로젝트로 이동합니다.
-1. 다음을 클릭합니다. **자세히** 아이콘 ![](assets/qs-more-menu.png)을 클릭한 다음 을 클릭합니다 **프로젝트 삭제**.
+1. 다음을 클릭합니다. **자세히** 아이콘 ![](assets/qs-more-menu.png) 프로젝트 이름의 오른쪽에 있는 을(를) 클릭하고 **프로젝트 삭제**.
 
    ![](assets/more-icon-expanded-delete-project-highlighted.png)
 

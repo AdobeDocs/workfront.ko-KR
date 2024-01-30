@@ -4,9 +4,9 @@ description: 보기를 다른 사용자와 공유하여 Adobe Workfront Maestro�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 72d044541f8e061c51c4483672a89ce20e4f30d9
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '468'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 1%
 <!--update the metadata and description when we turn this article live; also, update title after Bob adds Maestro as a product-->
 
 # 보기 공유
+
+{{maestro-important-intro}}
 
 보기를 다른 사용자와 공유하여 Adobe Workfront Maestro에서 작업할 때 공동 작업을 보장할 수 있습니다.
 
@@ -107,6 +109,8 @@ ht-degree: 1%
    * 관리
 
      권한 수준 및 사용자가 각 수준에 대해 수행할 수 있는 작업에 대한 자세한 내용은 [Adobe Maestro에서의 권한 공유 개요](../access/sharing-permissions-overview.md).
+1. 클릭 **링크 복사** 를 클릭하여 보기에 대한 링크를 클립보드에 복사합니다.
+1. 복사한 링크를 다른 사용자와 공유합니다. 링크를 받은 사용자는 활성 사용자여야 하며 레코드 유형 페이지에 액세스하여 선택한 보기에 표시할 수 있도록 Workfront에 로그인해야 합니다.
 1. **저장**&#x200B;을 클릭합니다.
 
 

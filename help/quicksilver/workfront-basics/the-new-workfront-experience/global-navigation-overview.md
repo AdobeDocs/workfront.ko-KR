@@ -1,26 +1,32 @@
 ---
 content-type: overview
 title: 상단 탐색 막대 개요
-description: 위쪽 탐색 모음 - 새 화면의 맨 위에 나타납니다. [!DNL Adobe Workfront] 경험 — 플랫폼의 다른 영역을 쉽게 찾아 탐색할 수 있습니다.
+description: 맨 위 탐색 모음 — 의 화면 맨 위에 나타납니다. [!DNL Adobe Workfront] — 를 사용하면 플랫폼의 다른 영역을 쉽게 찾아 탐색할 수 있습니다.
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '744'
 ht-degree: 0%
 
 ---
 
 # 상단 탐색 막대 개요
 
-상단 탐색 모음 - 의 화면 맨 위에 표시됩니다. [!DNL Adobe Workfront] 를 사용하면 플랫폼의 다른 영역을 쉽게 찾고 탐색할 수 있습니다.
+<!--Audited: 01/2024-->
+
+맨 위 탐색 모음 — 의 화면 맨 위에 나타납니다. [!DNL Adobe Workfront] — 를 사용하면 플랫폼의 다른 영역을 쉽게 찾아 탐색할 수 있습니다.
 
 ![상단 탐색 막대](assets/global-navigation-bar.png)
 
 ## [!UICONTROL 홈] 아이콘
 
-다음 **[!UICONTROL 홈]** 아이콘 ![](assets/home-icon.png) 다음으로 이동 [!UICONTROL 홈] 페이지 - 기본 랜딩 페이지입니다. 홈에 대한 자세한 내용은 [사용 [!UICONTROL 홈] 영역](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+다음 **[!UICONTROL 홈]** 아이콘 ![](assets/home-icon.png) 다음으로 이동 [!UICONTROL 홈] 페이지 - 기본 랜딩 페이지입니다.
+
+기본적으로 홈 아이콘은 홈 영역을 엽니다. 홈에 대한 자세한 내용은 [사용 [!UICONTROL 홈] 영역](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+
+Workfront 관리자는 레이아웃 템플릿을 만들어 사용자에게 할당하여 홈 아이콘을 사용자 정의하여 다른 페이지를 열 수 있습니다. 자세한 내용은 [레이아웃 템플릿을 사용하여 랜딩 페이지 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md).
 
 ## 고정된 페이지
 
@@ -36,11 +42,17 @@ ht-degree: 0%
 
 파란색 번호 상자 ![](assets/notifications-icon.png) 화면 오른쪽 상단에서 알림 목록이 열립니다.
 
-알림에 대한 자세한 내용은 [인앱 알림 보기 및 관리](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
+알림 메뉴에서 다음 항목에 액세스할 수 있습니다.
+
+* **알림**: 특정 조건이 충족될 때 Workfront이 생성하는 경고로, 주의가 필요한 정보를 알려줍니다.
+
+* **공지**: 중요한 주제에 대해 Workfront 관리자가 발송한 공지.
+
+알림 및 공지에 대한 자세한 내용은 [인앱 알림 보기 및 관리](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 
 ## [!UICONTROL 즐겨찾기] 메뉴
 
-다음 **[!UICONTROL 즐겨찾기]** 아이콘 ![즐겨찾기](assets/favorites-icon-62x55.png) 즐겨찾기에 추가한 시스템 내 페이지 목록을 엽니다. 이 메뉴 내에서 현재 사용 중인 페이지를 추가할 수 있습니다.
+다음 **[!UICONTROL 즐겨찾기]** 아이콘 ![즐겨찾기](assets/favorites-icon-62x55.png) 즐겨찾기로 표시한 시스템 내 페이지 목록을 엽니다. 이 메뉴 내에서 현재 사용 중인 페이지를 추가할 수 있습니다.
 
 즐겨찾기에 대해 자세히 알아보려면 [즐겨찾기 보기 및 관리](../../workfront-basics/navigate-workfront/recent-and-favorites/view-and-manage-favorites.md).
 
@@ -64,7 +76,7 @@ ht-degree: 0%
 >
 > 조직이 로 온보딩된 경우 [!DNL Adobe Experience Cloud], 참조 [[!DNL Adobe Unified Experience] 대상 [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-다음 **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](assets/main-menu-icon.png) 다음 열기 [!UICONTROL 메인 메뉴]: Workfront의 다른 영역으로 이동할 수 있습니다.
+다음 **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](assets/main-menu-icon.png) 다음 열기 [!UICONTROL 메인 메뉴]에서 Workfront의 다른 영역으로 이동할 수 있습니다.
 
 에서 사용할 수 있는 옵션 [!UICONTROL 메인 메뉴] 다음에 종속:
 
@@ -74,7 +86,9 @@ ht-degree: 0%
 
 ![메인 메뉴 옵션](assets/main-menu-options-350x481.png)
 
-각 아이콘을 사용하면 새 의 다른 영역으로 이동할 수 있습니다 [!DNL Adobe Workfront] 경험. 각 영역에 대한 자세한 내용은 다음을 참조하십시오.
+각 아이콘을 사용하면 Workfront의 다른 영역으로 이동할 수 있습니다.
+
+각 영역에 대한 자세한 내용은 다음을 참조하십시오.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Update screenshot and add icons for new products/features.)</p>
@@ -113,7 +127,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-의 다음 옵션 아래 [!UICONTROL 메인 메뉴], 다음에 액세스할 수 있습니다.
+메인 메뉴의 하단에서 다음 항목에 액세스할 수 있습니다.
 
 <table style="table-layout:auto"> 
  <col> 

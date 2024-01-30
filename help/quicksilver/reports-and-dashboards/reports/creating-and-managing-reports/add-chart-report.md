@@ -6,22 +6,29 @@ description: 차트를 추가하여 보고서를 개선할 수 있습니다. 기
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '2755'
+source-wordcount: '2733'
 ht-degree: 0%
 
 ---
 
 # 보고서에 차트 추가
 
+<!--Audited: 01/2024-->
+
 차트를 추가하여 보고서를 개선할 수 있습니다. 기존 보고서 또는 생성 중인 보고서에 차트를 추가할 수 있습니다.
 
-보고서에 차트를 추가하기 전에 보고서에 대한 보기와 그룹화를 만들어야 합니다. 대부분의 차트는 정보가 보고서에서 그룹화되지 않으면 추가할 수 없습니다. 그룹화하지 않고 추가할 수 있는 차트는 게이지 차트뿐입니다.\
-보기를 만드는 방법에 대한 자세한 내용은 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).\
+보고서에 차트를 추가하기 전에 보고서에 대한 보기와 그룹화를 만들어야 합니다.
+
+보고서에서 정보를 먼저 그룹화하지 않으면 대부분의 보고서에 차트를 추가할 수 없습니다. 그룹화하지 않고 추가할 수 있는 차트는 게이지 차트뿐입니다.
+
+보기에 대한 자세한 내용은 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+
 그룹화에 대한 자세한 내용은 [Adobe Workfront의 그룹화 개요](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-보고서에 너무 많은 항목이 표시되면 차트가 만들어지지 않습니다. 이 경우 보고서에 필터를 추가하여 보고서의 결과 수를 줄여야 합니다.\
+보고서에 너무 많은 항목이 표시되면 차트가 만들어지지 않습니다. 이 경우 보고서에 필터를 추가하여 보고서의 결과 수를 줄여야 합니다.
+
 필터에 대한 자세한 내용은 [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## 액세스 요구 사항
@@ -33,33 +40,36 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>플랜 </p> </td> 
+   <td> <p>현재: 플랜 </p>
+   또는
+   <p>새로운 기능: 표준</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 편집</p> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 편집</p> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>보고서에 대한 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>보고서에 대한 권한 관리</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오. 액세스 요구 사항에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 보고서에 차트 추가
 
 1. 기존 보고서로 이동하거나 새 보고서를 만듭니다. 새 보고서 만들기에 대한 자세한 내용은 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. (조건부) 기존 보고서로 이동한 경우 **보고서 작업** > **편집**.
 
-1. 다음을 확인합니다. **열(보기)** 보고서의 요구 사항을 충족하도록 탭이 업데이트되었습니다.\
-   보고서 보기를 만들거나 수정하는 방법에 대한 자세한 내용은 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+1. 다음을 확인합니다. **열(보기)** 보고서에 차트로 작성할 정보를 표시하도록 탭이 업데이트되었습니다.
+
+   보고서 보기를 만들거나 수정하는 방법에 대한 자세한 내용은 [Adobe Workfront에서 보기 만들기 또는 편집](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 1. 다음을 클릭합니다. **그룹화** 탭을 탭하고 그룹화를 추가합니다.
 
@@ -67,15 +77,15 @@ ht-degree: 0%
    >
    >* 보고서 결과를 그룹화할 때만 보고서에 차트를 추가할 수 있습니다.
    >* 텍스트 모드 그룹화는 차트에서 지원되지 않습니다. 텍스트 모드 그룹화에 대한 자세한 내용은 [그룹화에서 텍스트 모드 편집](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md).
-   >* 하나의 지표를 나타내는 단일 그룹화를 추가하면 파이 차트를 제외한 모든 차트가 그룹화의 각 결과를 동일한 색상으로 표시합니다.
+   >* 하나의 지표를 나타내는 단일 그룹화를 추가하면 파이 차트를 제외한 모든 차트에 그룹화의 각 결과가 동일한 색상으로 표시됩니다.
 
-   그룹화에 대한 자세한 내용은 [Adobe Workfront의 그룹화 개요](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   그룹화 만들기에 대한 자세한 내용은 [Adobe Workfront에서 그룹화 만들기](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-groupings.md).
 
 1. 다음 항목 선택 **차트** 탭.
 1. 차트 유형을 클릭하여 선택합니다.\
    ![](assets/qs-report-builder-chart-350x265.png)
 
-1. Adobe Workfront 보고서에 다음 유형의 차트를 추가할 수 있습니다.
+1. 다음 유형의 차트 중에서 선택합니다.
 
    * [세로 막대형 차트](#column-chart)
    * [막대 차트](#bar-chart)
@@ -100,12 +110,13 @@ ht-degree: 0%
 1. (선택 사항) **그룹 열**: 열을 그룹화하는 방법을 정의하려면 이 옵션을 선택합니다.\
    다음 옵션 중에서 선택합니다.
 
-   * 다음 옵션 중 하나를 클릭하여 그룹화된 열이 표시되는 방식을 선택합니다.\
-     **- 나란히**
-     **- 스택**
-     **- 100%까지 누적**
+   * 다음 옵션 중 하나를 클릭하여 그룹화된 열이 표시되는 방식을 선택합니다.
 
-   * 차트에 포함할 그룹화를 선택합니다.
+      * **나란히**
+      * **스택**
+      * **100%까지 누적**
+
+   * 차트에서 차트에 포함할 그룹화를 선택합니다. **데이터 그룹화 기준** 드롭다운 메뉴.
    * (선택 사항) 선택 **사용자 정의 색상** 열 색상을 사용자정의할 수 있습니다.\
      차트 색상 사용자 정의에 대한 자세한 내용은 [차트 색상 사용자 정의](#customize-chart-colors).
 
@@ -129,15 +140,16 @@ ht-degree: 0%
    차트 색상 사용자 정의에 대한 자세한 내용은 [차트 색상 사용자 정의](#customize-chart-colors).
 
 1. (선택 사항) 선택 **3D로 표시** 3차원 보기로 차트를 표시합니다.
-1. (선택 사항) 그룹 막대**: 이 옵션을 선택하여 막대를 그룹화할 방법을 정의합니다.\
+1. (선택 사항) 선택 **그룹 막대** 을 클릭하여 막대를 그룹화하는 방법을 정의합니다.\
    다음 옵션 중에서 선택합니다.
 
-   * 다음 옵션 중 하나를 클릭하여 그룹화된 막대가 표시되는 방식을 선택합니다.\
-     **- 나란히**
-     **- 스택**
-     **- 100%까지 누적**
+   * 다음 옵션 중 하나를 클릭하여 그룹화된 막대가 표시되는 방식을 선택합니다.
 
-   * 차트에 포함할 그룹화를 선택합니다.
+      * **나란히**
+      * **스택**
+      * **100%까지 누적**
+
+   * 차트에서 정보를 그룹화할 방법을 선택하십시오. **데이터 그룹화 기준** 드롭다운 메뉴.
    * (선택 사항) 선택 **사용자 정의 색상** 열 색상을 사용자 정의합니다.\
      차트 색상 사용자 정의에 대한 자세한 내용은 [차트 색상 사용자 정의](#customize-chart-colors).
 

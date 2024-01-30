@@ -1,7 +1,7 @@
 ---
-source-git-commit: 6a6906419058c398ee7b780b2f05f45b90975df9
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '2285'
+source-wordcount: '2356'
 ht-degree: 1%
 
 ---
@@ -248,6 +248,18 @@ Workfront 프로젝트에 있는 동안 사용자가 Experience Manager에 연�
 ## 1단계 - Maestro 시작하기 - {#step1-to-maestro}
 
 1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리에서 을(를) 클릭하고 **[!UICONTROL 마에스트로]**.
+
+## 마에스트로의 중요한 소개 - {#maestro-important-intro}
+
+>[!IMPORTANT]
+>
+>이 문서의 정보는 Adobe Workfront의 새로운 오퍼링인 Adobe Maestro를 참조합니다.
+>
+>현재 Adobe 마에스트로는 제한된 수의 고객에게 제공되는 베타 프로그램의 일부입니다. Maestro 기능을 사용하려면 Workfront 고객이어야 합니다.
+>
+>Maestro용 Beta 프로그램 가입에 대한 자세한 내용은 계정 담당자에게 문의하십시오.
+>
+>Maestro에 대한 자세한 내용은 [Adobe 마에스트로 개요](/help/quicksilver/maestro/maestro-overview.md).
 
 <!-- Manage Work -->
 

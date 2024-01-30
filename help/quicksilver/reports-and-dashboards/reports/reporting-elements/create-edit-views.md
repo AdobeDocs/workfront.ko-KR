@@ -6,7 +6,7 @@ description: 보기를 사용하여 화면에 표시할 정보 유형을 사용�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
 source-wordcount: '1777'
 ht-degree: 1%
@@ -29,7 +29,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront 플랜*</strong></td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront 라이센스*</strong></td> 
@@ -138,7 +138,7 @@ ht-degree: 1%
 
 ### 애자일 보기 만들기 또는 사용자 지정 {#create-or-customize-an-agile-view}
 
-새 애자일 보기를 만들거나 이전에 만든 기존 애자일 보기를 사용자 지정할 수 있습니다.
+애자일 보기를 만들거나 이전에 만든 기존 애자일 보기를 사용자 정의할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -211,7 +211,7 @@ ht-degree: 1%
       <td>모든 하위 작업은 상위 작업의 색상과 일치하므로 주어진 수영장에 있는 모든 스토리의 색상은 동일합니다.<br>작업에 하위 작업이 없거나 상위 작업이 없는 경우 작업이 생성될 때 색상이 임의로 할당됩니다.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>자유 양식:</strong> </td> 
+      <td role="rowheader"><strong>자유 형식:</strong> </td> 
       <td> 사용자가 수동으로 색상을 변경할 때까지 문서에 설명된 대로 모든 카드가 기본적으로 파란색으로 표시됩니다 <a href="../../../agile/use-scrum-in-an-agile-team/scrum-board/categorize-stories-by-color.md" class="MCXref xref">스크럼 보드에서 색상별로 스토리 분류</a>. </td> 
      </tr> 
      <tr> 

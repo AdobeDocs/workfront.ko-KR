@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Portfolio 관리자는 일반적으로 스코어카드 질문과 답변을 정�
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
-   <td><p>현재:[!UICONTROL 계획]</p>
+   <td><p>현재: [!UICONTROL Plan]</p>
    또는
    <p>새로운 기능: [!UICONTROL Standard]</p>
    </td> 
