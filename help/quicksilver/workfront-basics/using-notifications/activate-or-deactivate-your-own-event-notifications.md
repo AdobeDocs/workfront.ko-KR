@@ -7,14 +7,16 @@ description: 이 문서에서는 사용자 프로필에서 이메일 알림을 �
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '609'
 ht-degree: 0%
 
 ---
 
 # 이메일 알림 수정
+
+<!-- Audited: 1/2024 -->
 
 내 Adobe [!DNL Workfront] 관리자는에서 설명한 대로 Workfront에서 이벤트가 발생할 때 사용자가 수신하는 이메일 알림을 구성합니다. [[!UICONTROL 이벤트 구성] 시스템의 모든 사용자를 위한 알림](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
 
@@ -41,17 +43,21 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
-   <td> <p>모든</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
-   <td> <p>[!UICONTROL Request] 이상</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스</strong></td> 
+   <td>  <p>신규:</p> 
+   <ul><li>기여자 이상</li></ul>
+   <p>현재:</p>
+   <ul><li>요청 이상</li></ul>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜 또는 라이선스 유형을 확인하려면 다음으로 문의하십시오. [!DNL Workfront] 관리자.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 이메일 알림 설정 보기 및 수정
 
@@ -89,4 +95,4 @@ ht-degree: 0%
 
    ![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
-1. 클릭 **[!UICONTROL 변경 내용 저장]**.
+1. **[!UICONTROL 변경 내용 저장]**&#x200B;을 클릭합니다.

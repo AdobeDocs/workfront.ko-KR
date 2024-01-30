@@ -3,19 +3,21 @@ content-type: reference;overview
 product-area: reporting
 navigation-topic: reports-and-dashboards
 title: 보고서
-description: Adobe Workfront에서 보고를 사용하는 방법을 이해하려면 다음 영역을 검토하십시오.
+description: 다음 영역을 검토하여 Adobe Workfront의 보고에 대해 알아보십시오.
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: b7117ff8-5353-4766-b982-ba624a484ad1
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 3%
+source-wordcount: '62'
+ht-degree: 1%
 
 ---
 
-# 보고서
+# 보고서: 문서 색인
+
+<!-- Audited: 1/2024 -->
 
 이 섹션에는 다음 하위 섹션이 포함됩니다.
 
@@ -29,5 +31,3 @@ ht-degree: 3%
 * [보고서 사용 개요](../../reports-and-dashboards/reports/report-usage/report-usage-overview.md)
 * [캘린더: 기사 색인](../../reports-and-dashboards/reports/calendars/calendars.md)
 * [보고서에 대한 팁, 요령 및 문제 해결](../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/tips-troubleshooting-reports.md)
-
-<!--outdated: For in-depth training on reports, see  [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program).-->

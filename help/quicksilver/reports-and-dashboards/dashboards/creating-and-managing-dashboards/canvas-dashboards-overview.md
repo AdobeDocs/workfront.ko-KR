@@ -6,7 +6,7 @@ description: 보고 캔버스 시각화를 기존 보고서와 통합하고 새�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
-source-git-commit: da55003a14851d7894693fb95bff866c20938849
+source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # 캔버스 대시보드 개요
+
+<!-- Audited: 12/2023 -->
 
 현재 대시보드용으로 개발 중인 기능인 캔버스 대시보드 는 Workfront에서 효과적인 대시보드를 구축할 수 있는 새로운 옵션을 제공합니다. 캔버스 대시보드를 사용하면 보고 캔버스 시각화를 기존 보고서에 쉽게 포함할 수 있으므로 유연성이 향상되고 새로운 레이아웃 옵션이 제공됩니다.
 
@@ -39,7 +41,7 @@ ht-degree: 0%
 
 1. 을(를) 클릭합니다 **사용자에게 표시되는 항목 맞춤화** 드롭다운 메뉴를 클릭한 다음 **대시보드**.
 
-1. 다음에서 **왼쪽 패널** 아래에 나타나는 목록에서 ![](assets/delete-secondary-nav-item.png) 아이콘 옆에 있음 **캔버스 대시보드**. 아이콘이 (으)로 변경됩니다. ![](assets/add-secondary-nav-item.png) 이제 대시보드가 Dahboards 왼쪽 패널에 표시되는지 보여 줍니다.
+1. 다음에서 **왼쪽 패널** 아래에 나타나는 목록에서 ![](assets/delete-secondary-nav-item.png) 아이콘 옆에 있음 **캔버스 대시보드**. 아이콘이 (으)로 변경됩니다. ![](assets/add-secondary-nav-item.png) 이제 대시보드 왼쪽 패널에 표시되는지 표시합니다.
 
 1. 클릭 **저장** 화면 맨 아래에.
 

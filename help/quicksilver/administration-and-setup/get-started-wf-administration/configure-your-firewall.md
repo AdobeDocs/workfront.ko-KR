@@ -8,14 +8,16 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: ed5f941690754f631c16c5206faeeeb30d126841
+source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
-source-wordcount: '1569'
-ht-degree: 13%
+source-wordcount: '1608'
+ht-degree: 0%
 
 ---
 
 # 허용 목록에 추가하다 방화벽 구성
+
+<!-- Audited: 12/2023 -->
 
 >[!IMPORTANT]
 >
@@ -501,7 +503,7 @@ Jira 통합에 Workfront을 사용하려면 다음 IP 주소를 허용 목록에
      <li>*.workfront.com - Workfront에서 증명을 보는 데 필요</li> 
      <li>*.proofhq.com - Workfront Proof에서 증명을 보는 데 필요</li> 
      <li>*.proofhq.eu - Workfront 증명에서 증명을 보는 데 필요</li> 
-    </ul> <p><b>메모</b>:  <p>Workfront Proof용 허용 목록에 추가하다에 IP 주소를 추가할 수 없습니다. Workfront이 AWS으로 이동한 후 다이내믹했습니다. 대신 Workfront Proof 도메인만 허용하는 것이 좋습니다.</p> <p>허용 목록에 추가하다에 이러한 도메인을 추가하는 데 문제가 있고 대신 IP 주소가 필요한 경우 Workfront 고객 지원 센터에 문의하십시오.</p> </p> </td> 
+    </ul> <p><b>참고</b>:  <p>Workfront Proof용 허용 목록에 추가하다에 IP 주소를 추가할 수 없습니다. Workfront이 AWS으로 이동한 후 다이내믹했습니다. 대신 Workfront Proof 도메인만 허용하는 것이 좋습니다.</p> <p>허용 목록에 추가하다에 이러한 도메인을 추가하는 데 문제가 있고 대신 IP 주소가 필요한 경우 Workfront 고객 지원 센터에 문의하십시오.</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
