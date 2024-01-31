@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
+source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
 workflow-type: tm+mt
-source-wordcount: '3564'
+source-wordcount: '3673'
 ht-degree: 0%
 
 ---
@@ -40,16 +40,36 @@ ht-degree: 0%
 >
 >아래 섹션에서 참조하는 설명서는 기능이 프로덕션에 릴리스된 후 잠시 사용할 수 있습니다.
 
-<!--
-## Week of January 29, 2024
 
+## 2024년 1월 29일 주
+
+### 보기 및 작업 공간 공유 개선
+
+프로덕션: 2024년 1월 30일
+
+미리보기: 결정 예정
+
+다음과 같은 개선 사항을 통해 작업 공간 및 보기에 대한 공유 환경이 개선되었습니다.
+
+* 각 권한 수준에서 사용자가 수행할 수 있는 작업을 명확하게 추가하기 위해 작업 공간 및 보기를 공유할 때 모든 권한 수준에 대한 세부 사항을 추가했습니다.
+
+* 이제 작업 공간에 링크를 복사하거나 다른 사용자와 보고 공유할 수 있습니다. 복사된 링크에서 사용자에게 액세스하려면 사용자에게 작업 영역 또는 보기에 대한 적어도 보기 권한이 있어야 합니다.
+
+자세한 내용은 다음 문서를 참조하십시오.
+
+* [작업 공간 공유](/help/quicksilver/maestro/access/share-workspaces.md)
+* [보기 공유](/help/quicksilver/maestro/access/share-views.md)
+
+<!--
 ### Add thumbnails to records 
 
 Production: < date > 
 
 Preview: To be determined  
 
-You can now add individual thumbnails to each record to distinguish them in  a view. You can add image files that you have previously saved on your computer as thumbnails. For more information, see [Add thumbnails to records](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).  
+You can now add individual thumbnails to each record to distinguish them in a view. In the table view, you can add image files that you have previously saved on your computer as thumbnails. The thumbnails can be unique to each record and display in both the table and the timeline views of the record type page. 
+
+For more information, see [Add thumbnails to records](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).  
 -->
 
 ## 2024년 1월 22일 주

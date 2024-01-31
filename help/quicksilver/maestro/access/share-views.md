@@ -4,15 +4,13 @@ description: 보기를 다른 사용자와 공유하여 Adobe Workfront Maestro�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 72d044541f8e061c51c4483672a89ce20e4f30d9
+source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '479'
 ht-degree: 1%
 
 ---
 
-
-<!--*****************ADD TO TOC AND MINITOC WHEN RELEASING*********************-->
 
 <!--update the metadata and description when we turn this article live; also, update title after Bob adds Maestro as a product-->
 
@@ -73,7 +71,7 @@ ht-degree: 1%
 
 <tr>
    <td role="rowheader"><p>레이아웃 템플릿</p></td>
-   <td> <p>Workfront 또는 그룹 관리자는 레이아웃 템플릿에 마에스트로 영역을 추가해야 합니다. </p>  
+   <td> <p>Workfront 관리자를 포함한 모든 사용자에게 메인 메뉴의 마에스트로 영역을 포함하는 레이아웃 템플릿을 할당해야 합니다. </p> <p>자세한 내용은 <a href="/help/quicksilver/maestro/access/access-overview.md">액세스 개요</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -113,9 +111,7 @@ ht-degree: 1%
 1. 복사한 링크를 다른 사용자와 공유합니다. 링크를 받은 사용자는 활성 사용자여야 하며 레코드 유형 페이지에 액세스하여 선택한 보기에 표시할 수 있도록 Workfront에 로그인해야 합니다.
 1. **저장**&#x200B;을 클릭합니다.
 
-
 ## 보기에 대한 권한 제거
-
 
 {{step1-to-maestro}}
 

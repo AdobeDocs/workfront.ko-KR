@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -74,8 +74,7 @@ Adobe Maestro를 사용하려면 다음 설정이 있어야 합니다.
   </tr>
 <tr>
    <td role="rowheader"><p>레이아웃 템플릿</p></td>
-   <td> <p>시스템 관리자는 메인 메뉴의 마에스트로 영역을 레이아웃 템플릿에 추가해야 합니다.</p> 
-   <p>자세한 내용은 <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">레이아웃 템플릿을 사용하여 메인 메뉴 사용자 정의</a>. </p>  
+   <td> <p>Workfront 관리자를 포함한 모든 사용자에게 메인 메뉴의 마에스트로 영역을 포함하는 레이아웃 템플릿을 할당해야 합니다. </p> <p>자세한 내용은 <a href="/help/quicksilver/maestro/access/access-overview.md">액세스 개요</a>. </p>  
 </td>
   </tr>
  </tbody>
