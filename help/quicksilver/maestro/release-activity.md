@@ -5,24 +5,16 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '3673'
+source-wordcount: '3730'
 ht-degree: 0%
 
 ---
 
 # Adobe Maestro 릴리스 활동
 
->[!IMPORTANT]
->
->이 문서의 정보는 Adobe Workfront의 새로운 오퍼링인 Adobe Maestro를 참조합니다.
->
->현재 Adobe 마에스트로는 제한된 수의 고객에게 제공되는 베타 프로그램의 일부입니다. Maestro 기능을 사용하려면 Workfront 고객이어야 합니다.
->
->Maestro용 Beta 프로그램 가입에 대한 자세한 내용은 계정 담당자에게 문의하십시오.
->
->자세한 내용은 [Adobe 마에스트로 개요](../maestro/maestro-overview.md).
+{{maestro-important-intro}}
 
 이 문서에서는 2023년 5월 22일 Maestro Closed Beta 프로그램 출시 이후 출시된 기능을 나열합니다.
 
@@ -60,17 +52,26 @@ ht-degree: 0%
 * [작업 공간 공유](/help/quicksilver/maestro/access/share-workspaces.md)
 * [보기 공유](/help/quicksilver/maestro/access/share-views.md)
 
-<!--
-### Add thumbnails to records 
+### 레코드에 썸네일 추가
 
-Production: < date > 
+프로덕션: 2024년 2월 1일
 
-Preview: To be determined  
+미리보기: 결정 예정
 
-You can now add individual thumbnails to each record to distinguish them in a view. In the table view, you can add image files that you have previously saved on your computer as thumbnails. The thumbnails can be unique to each record and display in both the table and the timeline views of the record type page. 
+이제 각 레코드에 개별 썸네일을 추가하여 보기에서 구별할 수 있습니다. 표 보기에서 이전에 컴퓨터에 저장한 이미지 파일을 썸네일로 추가할 수 있습니다. 축소판은 각 레코드에 고유할 수 있으며 레코드 유형 페이지의 테이블 및 타임라인 보기 모두에 표시될 수 있습니다.
 
-For more information, see [Add thumbnails to records](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).  
--->
+자세한 내용은 [레코드에 썸네일 추가](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
+
+### 연결된 레코드 유형 카드 제거
+
+프로덕션: 2024년 2월 1일
+
+미리보기: 결정 예정
+
+혼동을 피하고 워크플로를 단순화하기 위해 작업 영역에서 서드파티 애플리케이션의 오브젝트와 Maestro 레코드를 연결한 결과로 생성된 레코드 유형 카드를 제거했습니다. <!---Now, when you connect Workfront objects with Maestro records, for example, you can navigate to Workfront to manage the linked objects. You can no longer find the read-only Workfront object record type page in Maestro. This simplifies the number of objects and places you manage information for your objects.  -->
+
+
+자세한 내용은 [레코드 연결](/help/quicksilver/maestro/records/connect-records.md).
 
 ## 2024년 1월 22일 주
 

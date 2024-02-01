@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '1678'
+source-wordcount: '1663'
 ht-degree: 0%
 
 ---
@@ -26,15 +26,7 @@ role: User
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
->[!IMPORTANT]
->
->이 문서의 정보는 Adobe Workfront의 새로운 오퍼링인 Adobe Maestro를 참조합니다.
->
->현재 Adobe 마에스트로는 제한된 수의 고객에게 제공되는 베타 프로그램의 일부입니다. Maestro 기능을 사용하려면 Workfront 고객이어야 합니다.
->
->Maestro용 Beta 프로그램 가입에 대한 자세한 내용은 계정 담당자에게 문의하십시오.
->
->자세한 내용은 [Adobe 마에스트로 개요](/help/quicksilver/maestro/maestro-overview.md).
+{{maestro-important-intro}}
 
 Adobe Maestro의 레코드 유형 페이지에 액세스할 때 타임라인 보기에서 레코드를 표시할 수 있습니다.
 
@@ -265,6 +257,12 @@ this is not possible right now; if this is the same functionality as the table v
 1. 클릭 **막대 스타일** 왼쪽 패널에서 레코드 막대에 표시할 필드를 나타냅니다.
 
    기본적으로 이름 필드가 선택되어 있습니다. <!--adjust this when the primary field is released??-->
+
+1. (선택 사항 및 조건부) 레코드에 썸네일을 추가한 경우 썸네일 옵션을 선택하여 레코드와 연관된 이미지를 레코드 표시줄에 표시합니다.
+
+   >[!NOTE]
+   >
+   >    축소판을 타임라인 보기에 표시하려면 먼저 표 보기에 축소판을 추가해야 합니다. 자세한 내용은 [레코드에 썸네일 추가](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
 1. 클릭 **필드 추가** 레코드 모음에 최대 4개의 필드를 추가할 수 있습니다.
 1. 내부를 클릭합니다. **필드 검색** 상자를 클릭하고 추가할 필드를 클릭합니다.

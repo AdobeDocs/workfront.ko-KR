@@ -4,7 +4,7 @@ description: Adobe 마에스트로의 레코드 오른쪽 패널에서 레코드
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 4%
@@ -13,6 +13,8 @@ ht-degree: 4%
 
 
 # 내역 섹션 개요
+
+{{maestro-important-intro}}
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
