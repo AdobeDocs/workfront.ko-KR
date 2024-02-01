@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 54d855e6-c387-458c-9cd3-f32318c8ae02
-source-git-commit: 4888113d57fa083eb4b5e639ed8edb1072b00df3
+source-git-commit: 99b94c246f14110e37b23c95a178efd5b9042a9d
 workflow-type: tm+mt
 source-wordcount: '1017'
 ht-degree: 0%
@@ -72,7 +72,7 @@ Workfront 제품 프로필 관리자(Workfront 시스템 관리자)는 모든 �
 
 ### 마이그레이션 당일 기대 사항
 
-* **사용자 마이그레이션은 고객이 호스팅하는 Workfront 데이터 센터의 자정 이후에 시작됩니다. **
+* **사용자 마이그레이션은 고객이 호스팅하는 Workfront 데이터 센터의 자정 이후에 시작됩니다.**
 
 * **Adobe은 먼저 Workfront 관리자를 자동으로 마이그레이션합니다.** Workfront 관리자가 Adobe ID로 마이그레이션되면 Adobe 제품 프로필 관리자(Workfront 시스템 관리자) 역할이 할당됩니다. 마이그레이션 전에 사용자가 가질 수 있는 기존 역할은 영향을 받지 않습니다.
 
