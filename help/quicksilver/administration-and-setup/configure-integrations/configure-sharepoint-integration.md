@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: 42e20743b98d9a7cf1f6b37f007823c035e1b636
 workflow-type: tm+mt
-source-wordcount: '1581'
+source-wordcount: '1685'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 >
 >새로운 [!DNL SharePoint] 22.3 릴리스(2022년 7월)와 함께 프로덕션에 통합이 릴리스되었습니다. 사용자는 여전히 기존 을 통해 연결된 문서에 액세스할 수 있습니다 [!DNL SharePoint] 통합하려면 새 [!DNL SharePoint] SharePoint에서 문서를 연결하는 통합.
 >
->* 새 SharePoint 통합은 관리자가 구성할 필요가 없으며 개별 사용자가 설정할 수 있습니다. 그러나 새 SharePoint 통합으로 원활하게 전환하려면 Workfront 관리자가 Workfront 설정 영역에서 일부 설정을 변경해야 합니다.
+>* 새 SharePoint 통합은 관리자가 구성하지 않아도 되며, 개별 사용자가 설정할 수 있습니다. 그러나 새 SharePoint 통합으로 원활하게 전환하려면 Workfront 관리자가 Workfront 설정 영역에서 일부 설정을 변경해야 합니다.
 >
 >    자세한 내용 및 지침은 [문서에 대한 지속적인 액세스를 위해 레거시 SharePoint 통합 구성](#configure-the-legacy-sharepoint-integration-for-continued-access-to-documents) 이 문서에서.
 >    
@@ -72,13 +72,15 @@ ht-degree: 0%
 
 개별 사용자는 새 링크를 통해 문서를 연결할 수 있습니다. [!DNL SharePoint] 통합. 통합에는 관리자 구성이 필요하지 않습니다. 대신 사용자는 [!DNL Microsoft] 계정 : 문서를 연결할 때 통합에서 사용자의 [!DNL SharePoint].
 
-사용자가 처음으로 연결할 때 [!DNL Workfront] [!DNL SharePoint] 통합 대상 [!DNL SharePoint] 계정, 사용자는 다음의 모든 권한을 확인하고 이에 동의하게 됩니다. [!DNL Workfront] 는 와 상호 작용할 때 를 사용합니다 [!UICONTROL SharePoint] 계정입니다. 읽기 권한 허용 [!DNL Workfront] 에 있는 파일을 보고 액세스하려면 [!DNL SharePoint], 및 쓰기 권한을 통해 사용자는에 파일을 업로드할 수 있습니다. [!DNL SharePoint].
+사용자가 처음으로 연결할 때 [!DNL Workfront] [!DNL SharePoint] 통합 대상 [!DNL SharePoint] 계정, 다음 권한 중 하나를 확인하고 이에 동의합니다. [!DNL Workfront] 는 와 상호 작용할 때 를 사용합니다 [!UICONTROL SharePoint] 계정을 만들거나 Microsoft 관리자에게 권한을 요청할 수 있습니다. 읽기 권한 허용 [!DNL Workfront] 에 있는 파일을 보고 액세스하려면 [!DNL SharePoint], 및 쓰기 권한을 통해 사용자는에 파일을 업로드할 수 있습니다. [!DNL SharePoint].
 
 ![Sharepoint 권한](assets/sharepoint-permissions.png)
 
 를 통해 문서를 연결하는 방법에 대한 지침 [!DNL SharePoint] 통합, 참조 [외부 문서 연결 대상 [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#link-an-external-document-to-workfront)
 
 >[!NOTE]
+>
+>* 조직의 Microsoft 구성에 따라 사용자에게 &quot;권한 요청&quot; 페이지 대신 &quot;승인 필수&quot; 페이지가 표시될 수 있습니다. 이 경우 사용자는 이 페이지를 사용하여 조직의 Microsoft 관리자가 Sharepoint 통합에 대한 권한을 부여하도록 요청할 수 있습니다.
 >
 >* A [!DNL SharePoint] 통합은 하나에 연결할 수 있음 [!DNL SharePoint] 인스턴스. 따라서 사용자는 하나의 통합을 설정할 수 있습니다 [!DNL SharePoint], 하지만 을(를) 초로 통합을 설정할 수 없습니다. [!DNL SharePoint], 및에 대한 권한이 있는 경우에도 두 번째 [!DNL SharePoint].
 >
@@ -113,7 +115,13 @@ SharePoint으로 문서를 전송하려면 다음 작업을 수행하십시오.
 
 ### 액세스 및 권한
 
-사용자가에 문서를 처음 추가할 때 [!DNL Workfront] 출처: [!DNL SharePoint], 다음 권한을 요청하는 화면으로 이동합니다.
+사용자가에 문서를 처음 추가할 때 [!DNL Workfront] 출처: [!DNL SharePoint], 이 권한은 SharePoint 통합에 권한을 부여할 수 있는 요청된 권한 페이지로 이동됩니다.
+
+>[!NOTE]
+>
+>조직의 Microsoft 구성에 따라 사용자에게 &quot;권한 요청&quot; 페이지 대신 &quot;승인 필수&quot; 페이지가 표시될 수 있습니다. 이 경우 사용자는 이 페이지를 사용하여 조직의 Microsoft 관리자가 Sharepoint 통합에 대한 권한을 부여하도록 요청할 수 있습니다.
+
+다음 권한이 요청됩니다.
 
 | 액세스 | 이유 |
 |---|---|
