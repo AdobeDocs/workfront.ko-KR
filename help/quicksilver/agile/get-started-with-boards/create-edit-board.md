@@ -6,9 +6,9 @@ description: 다음에서 [!UICONTROL 게시판] 대시보드에서 새 보드�
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 1195738966734e311a1438002454b29c3fa6986a
+source-git-commit: d431ae178a157522e2b5d8d963da7b0623510d28
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '757'
 ht-degree: 1%
 
 ---
@@ -67,6 +67,10 @@ ht-degree: 1%
       모든 개체는 보드에 연결된 카드로 표시됩니다.
 
       다음 [!UICONTROL **카드 추가 중**] 카운터는 보드에 표시될 카드의 수를 보여줍니다. 예를 들어 작업 및 문제가 100개인 프로젝트를 선택하면 카운터에 100개가 표시됩니다. 사용자 할당을 추가하고 해당 사람이 프로젝트에서 5개의 작업에 할당되면 카운터에 5개가 표시됩니다.
+
+      >[!NOTE]
+      >
+      >보드에 1,000개 이상의 카드가 있는 경우 보드 성능이 영향을 받습니다.
 
    1. (선택 사항) 선택 [!UICONTROL **완료된 카드 보관 안 함**] 완료된 작업 및 문제를 완료됨 열에 표시되는 카드로 보드에 가져오기. 이 옵션을 선택하지 않으면 보드 생성 시 완료된 카드가 보드로 제공됩니다.
 
