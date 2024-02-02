@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 66e6c96ca51a159f6e9a16178f06dd016217c7d8
 workflow-type: tm+mt
-source-wordcount: '2847'
+source-wordcount: '2396'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ hide: yes
 
 Adobe Maestro 레코드를 서로 연결하거나 다른 응용 프로그램의 개체에 연결할 수 있습니다.
 
-먼저 두 개의 레코드 형식을 함께 연결하거나 다른 응용 프로그램의 개체 형식에 레코드 형식을 연결해야 합니다. 그런 다음 레코드 형식의 표 보기를 사용하여 레코드를 서로 연결하거나 레코드를 다른 개체에 연결할 수 있습니다.
+먼저 두 레코드 형식을 서로 연결하거나 다른 응용 프로그램의 개체 형식에 레코드 형식을 연결해야 합니다. 이렇게 하면 연결된 레코드 필드가 만들어집니다. 연결된 레코드 필드를 사용하여 레코드를 서로 연결하거나 레코드를 다른 응용 프로그램의 다른 개체에 연결할 수 있습니다.
 
 레코드 형식을 서로 연결하거나 다른 응용 프로그램의 개체 형식에 연결하는 방법에 대한 자세한 내용은 [레코드 유형 연결](../architecture/connect-record-types.md).
 
@@ -41,8 +41,9 @@ Adobe Maestro 레코드를 서로 연결하거나 다른 응용 프로그램의 
 다음을 연결할 수 있습니다.
 
 * Maestro 운영 기록
-* Maestro 운영 레코드를 분류 레코드로 변환
-* 다른 응용 프로그램의 Maestro 운영 기록 및 객체
+* 분류 레코드를 포함하는 Maestro 운영 레코드
+* 마에스트로 분류법
+* 다른 애플리케이션의 객체와 함께 Maestro 운영 기록 또는 분류
 
   다음 응용 프로그램에서 아래 나열된 형식의 개체에 Maestro 레코드를 연결할 수 있습니다.
 
@@ -58,8 +59,6 @@ Adobe Maestro 레코드를 서로 연결하거나 다른 응용 프로그램의 
 
       * 이미지 파일
       * 폴더
-
-
 
   <!--when you add more objects, fix the Access Requirements below which right now refer only to projects-->
 
@@ -129,14 +128,14 @@ Adobe Maestro 레코드를 서로 연결하거나 다른 응용 프로그램의 
 
 ### 레코드 연결에 대한 고려 사항
 
-* 레코드 유형을 연결하면 연결된 레코드 유형이 연결된 레코드 유형의 표에 연결된 레코드 필드로 표시됩니다.
+* 레코드 유형을 연결하면 연결된 레코드 유형이 연결된 레코드 유형의 표 및 연결된 레코드의 세부 정보 페이지에 연결된 레코드 필드로 표시됩니다.
 * 연결된 레코드 필드에서 연결된 레코드와 개체 유형의 레코드와 개체를 찾아보고 추가할 수 있습니다.
 * 연결된 레코드 유형의 필드를 연결할 레코드 유형의 테이블에 추가할 수 있습니다.
 * 연결 중인 레코드의 연결된 필드 값은 수동으로 업데이트할 수 없습니다.
 
   연결된 레코드에서 연결된 필드의 값은 사용자가 구성하는 Maestro 작업 영역 또는 타사 애플리케이션에서 자동으로 연결되는 Maestro 레코드를 채웁니다.
 
-* 작업 영역에 대한 Maestro 및 관리 권한에 대한 액세스 권한이 있는 모든 사용자는 Maestro 레코드 간 또는 Maestro 레코드와 다른 애플리케이션의 오브젝트 간 연결을 볼 수 있습니다. 연결하려는 타사 응용 프로그램에 대한 권한에 관계없이 연결된 레코드와 개체를 볼 수 있습니다. <!--check with PM-->
+* Maestro에 대한 액세스 권한과 작업 공간에 대한 보기 또는 상위 권한이 있는 모든 사용자는 Maestro 레코드 간 또는 Maestro 레코드와 다른 애플리케이션의 오브젝트 간 연결을 볼 수 있습니다. 연결하려는 타사 응용 프로그램에 대한 권한에 관계없이 연결된 레코드와 개체를 볼 수 있습니다.
 * 연결된 레코드가 있는 작업 영역에 대한 관리 권한이 있는 경우 다른 사용자의 연결을 보고 편집할 수 있습니다.
 * 하나의 Maestro 레코드를 다른 애플리케이션에서 하나 또는 여러 객체에 연결할 수 있습니다.
 * Maestro 레코드를 다른 레코드나 오브젝트와 연결하려면 다음이 필요합니다.
@@ -161,11 +160,15 @@ Adobe Maestro 레코드를 서로 연결하거나 다른 응용 프로그램의 
 1. 레코드 유형의 카드를 클릭하여 레코드 유형 페이지를 엽니다.
 1. 선택 **표** 다음에서 보기 **보기** 레코드 유형 페이지의 오른쪽 위 모서리에 있는 드롭다운 메뉴.
 1. (선택 사항) 테이블에 새 행을 추가하여 선택한 레코드 유형에 레코드를 추가합니다. 자세한 내용은 [레코드 만들기](../../maestro/records/create-records.md).
-1. 표 보기에 나열된 레코드에서 연결된 레코드 열로 이동하여 다른 레코드와 연결할 레코드에 해당하는 셀을 마우스로 가리킨 다음 **+** 아이콘.
-
-   다음 **오브젝트 연결** 상자가 표시됩니다.
+1. 표 보기에 나열된 레코드에서 연결된 레코드 열로 이동하여 연결된 레코드 필드 내부를 클릭한 다음 **+** 아이콘.
 
    ![](assets/connected-objects-table-for-records.png)
+
+   >[!TIP]
+   >
+   >    레코드의 세부 정보 페이지를 열고 연결된 레코드 필드를 찾은 다음 **+** 연결된 레코드 또는 개체 유형에서 레코드를 추가할 필드의 아이콘입니다.
+
+   다음 **오브젝트 연결** 상자가 표시됩니다.
 
 1. 검색 상자에 레코드 이름을 입력한 다음 목록에 표시될 때 선택합니다
 
@@ -175,7 +178,7 @@ Adobe Maestro 레코드를 서로 연결하거나 다른 응용 프로그램의 
 
    다음이 추가됩니다.
 
-   * 연결된 레코드는 5단계에서 선택한 레코드의 연결된 레코드 필드에 표시됩니다. <!--accurate?--> 연결된 레코드를 업데이트하면 연결할 레코드의 연결된 필드가 자동으로 업데이트됩니다. 연결된 필드는 수동으로 편집할 수 없습니다.
+   * 연결된 레코드는 6단계에서 선택한 레코드의 연결된 레코드 필드에 표시됩니다. <!--accurate?--> 연결된 레코드를 업데이트하면 연결되는 레코드의 연결된 필드가 자동으로 업데이트됩니다. 연결된 필드는 수동으로 편집할 수 없습니다.
 
      >[!TIP]
      >
@@ -198,20 +201,29 @@ Adobe Maestro 레코드를 서로 연결하거나 다른 응용 프로그램의 
 
 Maestro 레코드 유형과 Workfront 객체 유형 간에 연결을 만든 후 개별 Maestro 레코드를 Workfront의 객체에 연결할 수 있습니다. 연결한 Workfront 필드는 개체를 연결하는 Maestro 레코드에 자동으로 채워집니다.
 
+>[!NOTE]
+>
+>Workfront의 Maestro 레코드와 Workfront 오브젝트를 연결할 수 없습니다.
+
+
 {{step1-to-maestro}}
 
 기본적으로 마지막으로 액세스한 작업 영역이 열립니다.
 
 1. (선택 사항) 기존 작업 영역 이름의 오른쪽에 있는 아래쪽 방향 화살표를 확장하고 레코드를 연결할 작업 영역을 선택합니다.
 1. 레코드 유형의 카드를 클릭하여 레코드 유형 페이지를 엽니다.
-1. 선택 **표** 다음에서 보기 **보기** 레코드 유형 페이지의 오른쪽 위 모서리에 있는 드롭다운 메뉴.
+1. 선택 **표** 다음에서 보기 **보기** 드롭다운 메뉴.
 
-1. (선택 사항) 테이블에 새 행을 추가하여 선택한 레코드 유형에 개별 레코드를 추가합니다. 자세한 내용은 [레코드 만들기](../../maestro/records/create-records.md).
+1. 테이블에 새 행을 추가하여 선택한 레코드 유형에 개별 레코드를 추가합니다. 자세한 내용은 [레코드 만들기](../../maestro/records/create-records.md).
 1. (조건부) 선택한 레코드 종류를 Workfront 개체와 연결한 경우 연결된 개체 열로 이동하여 Workfront의 개체와 연결할 레코드에 해당하는 셀을 마우스로 가리킨 다음 **+** 아이콘.
 
    다음 **오브젝트 연결** 상자가 표시됩니다.
 
    ![](assets/connect-objects-box-to-select-projects.png)
+
+   >[!TIP]
+   >
+   >    레코드의 세부 정보 페이지를 열고 연결된 레코드 필드를 찾은 다음 **+** 연결된 객체 유형에서 객체를 추가하는 필드의 아이콘.
 
    기록 유형을 서드파티 애플리케이션의 오브젝트와 연결하는 방법에 대한 자세한 내용은 [레코드 유형 연결](../architecture/connect-record-types.md).
 
@@ -221,67 +233,49 @@ Maestro 레코드 유형과 Workfront 객체 유형 간에 연결을 만든 후 
 
    상자에서 하나 이상의 개체 이름을 선택한 다음 **오브젝트 연결** 을 클릭합니다.
 
+   >[!IMPORTANT]
+   >
+   >* 보기 액세스 권한이 있는 Workfront 개체만 추가할 수 있습니다.
+   >
+   >* Workfront 개체를 추가하면 작업 영역에 대한 보기 이상의 권한이 있는 모든 사용자가 Workfront에서의 권한 또는 액세스 권한에 관계없이 Workfront 개체 및 해당 필드 정보를 볼 수 있습니다.
+
    다음이 추가됩니다.
 
    * 선택한 Workfront 개체가 연결된 레코드 필드에 추가됩니다.
-   * 레코드 종류를 Workfront에 연결할 때 추가한 경우 연결된 필드(또는 조회 필드)는 Workfront의 정보로 자동으로 채워집니다.
-   * &quot;&lt; Workfront 객체 유형의 이름 >&quot;이라는 새 레코드 유형은 연결하려는 Maestro 레코드와 동일한 작업 영역에서 만들어집니다. 개체 이름은 이 레코드 종류 이름의 일부입니다. 예를 들어 Workfront 프로젝트에 연결하면 **프로젝트** 마에스트로의 레코드 유형.
+   * 레코드 종류를 Workfront에 연결할 때 추가한 경우, Workfront 개체의 연결된 필드(또는 조회 필드)는 Workfront의 정보로 자동으로 채워집니다.
+   * 연결된 Workfront 개체에 대한 Maestro의 읽기 전용 세부 정보 페이지입니다. Maestro 레코드의 연결된 필드에서 프로젝트 이름을 클릭하여 이 페이지에 액세스할 수 있습니다. 8단계로 진행합니다. <!--accurate?-->
 
-     이 레코드 유형은 읽기 전용이며 Maestro 레코드에서 만든 새 연결된 오브젝트 필드에서 선택한 Workfront 오브젝트를 표시합니다. 연결된 개체의 연결된 필드는 읽기 전용 연결된 Workfront 레코드에도 표시됩니다.
+     예를 들어 Workfront 프로젝트에 연결하면 Maestro에서 해당 프로젝트의 세부 정보 페이지가 만들어집니다.
 
      >[!IMPORTANT]
      >
-     > 읽기 전용 Workfront 개체 레코드 유형은 개별 프로젝트가 Maestro 레코드에 추가될 때만 만들어집니다. Maestro 레코드 유형과 Workfront 객체 유형 간에 연결을 만들기만 하면 Workfront 레코드 유형이 만들어지지 않습니다.
+     > 읽기 전용 Workfront 객체 세부 사항 페이지는 개별 프로젝트가 Maestro 레코드에 추가될 때만 생성됩니다. Maestro 레코드 유형과 Workfront 객체 유형 간에 연결을 생성한다고 해서 Maestro에 Workfront 레코드 유형이 생성되는 것은 아닙니다.
 
-     Workfront 개체 필드의 기존 정보는 연결된 필드 또는 조회 필드에 표시됩니다.
+1. (선택 사항) 테이블 보기의 연결된 필드 또는 목록에서 Maestro 레코드에 연결된 Workfront 개체의 이름을 클릭합니다. **세부 사항** 마에스트로 레코드 페이지입니다.
 
-     >[!TIP]
-     >
-     >
-     >* 복수 레코드 허용 설정을 활성화한 경우, 복수 객체 값은 쉼표로 구분되어 표시되거나 선택한 집계기에 따라 집계됩니다.
-     >
-     >* Workfront의 연결된 Workfront 개체에 대해 Maestro 연결된 레코드에 연결된 레코드 필드가 만들어지지 않습니다.
+   읽기 전용 Maestro가 열립니다. **세부 사항** 연결된 Workfront 개체의 페이지입니다. 레코드 유형을 Workfront 개체와 연결할 때 조회 필드로 선택한 필드가 세부 정보 페이지에 표시됩니다.
 
+   >[!TIP]
+   >
+   >* 복수 레코드 허용 설정을 활성화한 경우, 복수 객체 값은 쉼표로 구분되어 표시되거나 선택한 집계기에 따라 집계됩니다.
+   >
+   >* Workfront의 연결된 Workfront 개체에 대해 연결된 레코드 필드가 만들어지지 않습니다.
 
-1. (선택 사항) Maestro 레코드 유형 페이지를 닫고 선택한 작업 영역으로 이동합니다.
-1. (선택 사항) Workfront 개체 레코드 유형에 대한 카드를 클릭합니다. 예를 들어 **프로젝트** 카드(Workfront 프로젝트에 연결된 경우) 읽기 전용 Workfront 레코드 유형 카드가 표 보기에서 열립니다.
-
-   Workfront 레코드 유형 페이지에 나열된 레코드는 Maestro 레코드에서 연결된 읽기 전용 Workfront 개체입니다. Workfront 레코드 유형에서 연결된 필드도 읽기 전용 열로 표시되며, Workfront에서 채워질 때 자동으로 채워집니다.
-
-1. (선택 사항) Maestro에서 Workfront 객체 레코드 세부 사항 페이지를 열려면 다음 중 하나를 수행하십시오.
-
-   * 연결한 레코드 유형에서 Workfront 개체로 연결된 레코드 필드로 이동하여 Workfront 개체의 이름을 클릭합니다.
-   * 다음에서 **표** Workfront 레코드 유형 페이지에서 Workfront 개체의 이름을 클릭합니다
-
-     또는
-
-     다음을 클릭합니다. **자세히** 메뉴를 사용하여 Workfront 개체 이름 오른쪽에서 **보기**.
-
-     ![](assets/workfront-object-more-menu-in-table-with-go-to-source-link.png)
-
-   링크된 Workfront 객체의 Maestro 세부 정보 페이지가 열립니다. 읽기 전용 페이지입니다.
-
-1. (선택 사항) Workfront에서 연결된 Workfront 개체를 열려면 다음 중 하나를 수행하십시오.
-
-   * 다음에서 **표** Workfront 레코드 유형 페이지의 보기에서 Workfront 개체의 이름을 클릭하여 Maestro에서 프로젝트 레코드를 엽니다.
-
-   또는
-
-   다음을 클릭합니다. **자세히** 메뉴를 사용하여 Workfront 개체 이름 오른쪽에서 **소스로 이동**.
+1. (선택 사항) Workfront에서 연결된 Workfront 개체를 열려면 **소스로 이동** Workfront 객체의 세부내용 페이지의 오른쪽 상단 모서리에서 참조할 수 있습니다.
 
    ![](assets/workfront-project-maestro-details-page-with-go-to-source-link.png)
 
-   Workfront 개체 페이지가 열립니다. 권한이 있는 경우 Workfront 개체에 대한 정보를 편집할 수 있습니다.
+   적어도 개체를 볼 수 있는 보기 권한이 있는 경우 Workfront 개체 페이지가 열립니다. 권한이 있는 경우 Workfront 개체에 대한 정보를 편집할 수 있습니다.
 
-1. (선택 사항) Maestro의 읽기 전용 Workfront 개체 레코드 페이지에서 **필드 추가** 아이콘 ![](assets/add-fields-icon.png) 테이블 보기의 오른쪽 위 모서리에서 Workfront 레코드 유형에서 Workfront 필드를 추가하거나 제거합니다.
+1. (선택 사항) Maestro 레코드 유형의 테이블 보기에서 연결된 Workfront 개체의 열 헤더를 마우스로 가리킨 다음 드롭다운 메뉴를 클릭한 다음 **조회 필드 편집**.
 
-   >[!NOTE]
-   >
-   >  Workfront 개체 레코드 유형 페이지에서 추가하거나 제거하는 필드는 Workfront 개체 유형에 연결되는 Maestro 레코드 유형에서 추가되거나 제거되지 않습니다. 필드는 읽기 전용 Workfront 레코드 유형 페이지에만 표시되므로 Maestro에서 검토할 수 있습니다.
+1. 에서 Workfront 개체 필드 추가 **선택하지 않은 필드** 영역
 
-1. (선택 사항 및 조건부) 두 개 이상의 날짜 필드를 Workfront 개체에 추가한 경우 **보기** Workfront 개체 레코드 유형 페이지의 드롭다운 메뉴에서 **타임라인** 또는 보기 **보기 만들기** 을 클릭하여 타임라인 보기를 만듭니다.  자세한 내용은 [타임라인 보기 관리](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
+   또는
 
-   Workfront 연결 개체가 타임라인 보기에 표시됩니다.
+   에서 Workfront 개체 필드 제거 **선택된 필드** 영역입니다.
+
+   이렇게 하면 Maestro 레코드에서 연결된 필드가 추가되거나 제거됩니다. 제거된 필드와 관련된 정보는 Workfront에 남아 있습니다.
 
 
 ### Maestro 레코드를 Adobe Experience Manager 오브젝트에 연결
@@ -304,14 +298,18 @@ Maestro 레코드 유형과 Adobe Experience Manager Assets 간에 연결을 만
 1. 레코드 유형의 카드를 클릭하여 레코드 유형 페이지를 엽니다.
 1. 선택 **표** 다음에서 보기 **보기** 레코드 유형 페이지의 오른쪽 위 모서리에 있는 드롭다운 메뉴.
 
-1. (선택 사항) 테이블에 새 행을 추가하여 선택한 레코드 유형에 개별 레코드를 추가합니다. 자세한 내용은 [레코드 만들기](../../maestro/records/create-records.md).
+1. (선택 사항) **새 레코드** 선택한 레코드 유형에 새 레코드를 추가합니다. 자세한 내용은 [레코드 만들기](../../maestro/records/create-records.md).
 1. (조건부) 선택한 레코드 종류를 Experience Manager Assets과 연결한 경우 연결된 개체 열로 이동하여 Experience Manager의 다른 개체와 연결할 레코드에 해당하는 셀을 마우스로 가리킨 다음 **+** 아이콘.
+
+   >[!TIP]
+   >
+   >  다음을 추가할 수 있습니다. **+** 아이콘 - Maestro 레코드의 세부 사항 페이지에 있는 링크된 객체 필드에서 에셋을 레코드에 연결합니다.
 
    다음 **에셋 선택** 상자가 표시됩니다. <!--update screen shot with actual assets-->
 
    ![](assets/select-assets-box-for-aem-record-connections.png)
 
-   기록 유형을 서드파티 애플리케이션의 오브젝트와 연결하는 방법에 대한 자세한 내용은 [레코드 유형 연결](../architecture/connect-record-types.md).
+   레코드 형식과 서드파티 응용 프로그램의 개체 형식 연결에 대한 자세한 내용은 [레코드 유형 연결](../architecture/connect-record-types.md).
 
 1. 를 클릭하여 다음 유형의 자산 중 일부를 선택합니다.
 
@@ -330,13 +328,11 @@ Maestro 레코드 유형과 Adobe Experience Manager Assets 간에 연결을 만
 
    * 선택한 Experience Manager 에셋이 연결된 레코드 필드에 추가됩니다.
    * 연결된 필드(또는 조회 필드)는 Experience Manager 연결된 자산의 정보로 채워집니다.
-   * &quot;Experience Manager Assets&quot;라는 새 레코드 유형은 연결하려는 Maestro 레코드와 동일한 작업 영역에서 만들어집니다. <!--is this still added?-->
-
-     이 레코드는 읽기 전용 레코드 유형으로, 마에스트로 레코드에서 만든 새 연결된 객체 필드에서 선택한 Experience Manager 에셋을 표시합니다. 링크된 객체의 링크된 필드는 읽기 전용 링크된 Experience Manager 레코드에도 표시됩니다.
+   * 연결된 Experience Manager Assets 개체에 대한 Maestro의 읽기 전용 세부 정보 페이지입니다. Maestro 레코드의 연결된 필드에서 에셋의 이름을 클릭하여 이 페이지에 액세스할 수 있습니다. 8단계로 진행합니다. <!--accurate?-->
 
      >[!IMPORTANT]
      >
-     > 읽기 전용 Experience Manager Assets 레코드 유형은 개별 에셋이 Maestro 레코드에 추가되는 경우에만 만들어집니다. 마에스트로 레코드 유형과 Experience Manager Assets 간에 연결을 만들기만 하면 Experience Manager Assets 레코드 유형이 만들어지지 않습니다.
+     > 연결된 레코드 유형의 읽기 전용 Experience Manager Assets 세부 정보 페이지는 개별 에셋이 Maestro 레코드에 추가되는 경우에만 만들어집니다. 마에스트로 레코드 유형과 Experience Manager Assets 간에 연결을 만들기만 하면 Experience Manager Assets 레코드 유형이 만들어지지 않습니다.
 
      Experience Manager 에셋 필드의 기존 정보는 연결된 필드 또는 조회 필드에 표시됩니다.
 
@@ -347,11 +343,6 @@ Maestro 레코드 유형과 Adobe Experience Manager Assets 간에 연결을 만
      >
      >* Experience Manager Assets 애플리케이션에서 연결된 Experience Manager 에셋에 대해 Maestro 연결된 레코드에 연결된 레코드 필드가 만들어지지 않습니다.
 
-
-1. (선택 사항) Maestro 레코드 유형 페이지를 닫고 선택한 작업 영역으로 이동합니다.
-1. Experience Manager Assets 레코드 종류에 대한 카드를 클릭합니다. 읽기 전용 Experience Manager Assets 레코드 유형 카드가 표 보기에서 열립니다.
-
-   Experience Manager Assets 레코드 유형 페이지에 나열된 레코드는 읽기 전용 에셋입니다. Experience Manager Assets 레코드 유형에서 연결된 필드도 읽기 전용 열로 표시되며 Experience Manager에서 채워지면 자동으로 채워집니다.
 
 1. (선택 사항) Experience Manager Assets에 연결한 레코드 유형으로 이동하고 연결된 레코드 필드에서 에셋의 이름을 클릭합니다. 에셋의 Experience Manager 세부 정보가 팝업 창에 표시됩니다. <!--update screen shot with hi-rez picture-->
 
@@ -369,33 +360,22 @@ Maestro 레코드 유형과 Adobe Experience Manager Assets 간에 연결을 만
    * 제작일
    * 수정일
 
-1. (선택 사항) Maestro에서 Experience Manager Assets 레코드 세부 사항 페이지를 열려면 다음을 수행하십시오.
+1. (선택 사항) Experience Manager에서 에셋 레코드 Experience Manager 세부 정보 페이지를 열려면 연결하려는 레코드의 Maestro 레코드 유형 페이지로 이동하고 연결된 레코드 필드에서 에셋 이름을 클릭하여 팝업 창을 연 다음 **열기** 아이콘 ![](assets/open-asset-icon.png) 를 클릭하여 자산을 엽니다.
 
-   1. 로 이동 **Experience Manager Assets** 원래 선택한 동일한 작업 영역에 있는 Maestro 레코드 유형 카드를 클릭하고 을 클릭하여 레코드 유형 페이지를 엽니다.
-Experience Manager Assets Maestro 레코드 유형 페이지는 읽기 전용입니다.
-   1. 테이블 보기에서 에셋의 이름을 클릭합니다
+   Experience Manager 에셋의 **세부 사항** 마에스트로의 페이지입니다.
 
-      또는
+1. 클릭 **소스로 이동** 화면의 오른쪽 상단에 있습니다.
 
-      에셋 이름 위로 마우스를 가져간 후 **자세히** 메뉴 ![](assets/more-menu.png) 에셋 이름 오른쪽에 있는 을 클릭합니다. **보기**.\
-      자산의 Maestro가 열립니다. **세부 사항** 페이지를 가리키도록 업데이트하는 중입니다. 읽기 전용 페이지입니다.
-1. (선택 사항) Experience Manager에서 Experience Manager 에셋 레코드 세부 사항 페이지를 열려면 다음 중 하나를 수행하십시오.
+   ![](assets/go-to-source-asset-maestro-details-page.png)
 
-   * 연결하려는 레코드의 Maestro 레코드 유형 페이지로 이동하여 연결된 레코드 필드에서 에셋 이름을 클릭하여 팝업 창을 열고 다음을 클릭합니다. **열기** 아이콘 ![](assets/open-asset-icon.png) 를 클릭하여 자산을 엽니다.
-   * 로 이동 **Experience Manager Assets** 원래 선택한 작업 영역과 동일한 작업 영역에서 Maestro 레코드 유형 카드를 클릭하고 을 클릭하여 레코드 유형 페이지를 열고 에셋 이름을 클릭하여 Maestro를 엽니다 **세부 사항** 페이지를 클릭한 다음 **소스로 이동** 화면의 오른쪽 상단에 있습니다.
+   보기 위한 액세스 권한이 있는 경우 Adobe Experience Manager Assets에서 자산이 열립니다. 권한이 있으면 이 애플리케이션에서 자산을 업데이트할 수 있습니다.
 
-     ![](assets/go-to-source-asset-maestro-details-page.png)
-   * 로 이동 **Experience Manager Assets** 원래 선택한 동일한 작업 영역에서 Maestro 레코드 유형 카드를 클릭하고 카드를 클릭하여 Experience Manager Assets 레코드 유형 페이지를 열고 에셋 이름 위로 마우스를 가져간 다음 **자세히** 메뉴를 선택한 다음 **소스로 이동**.
+1. (선택 사항) Maestro 레코드 유형의 테이블 보기에서 연결된 Experience Manager 에셋의 열 헤더를 마우스로 가리킨 다음 드롭다운 메뉴를 클릭하고 **조회 필드 편집**.
 
-     ![](assets/go-to-source-option-on-table-view.png)
+1. 에서 Experience Manager Assets 개체 필드 추가 **선택하지 않은 필드** 영역
 
-   에셋이 Experience Manager Assets에서 열립니다.
+   또는
 
-1. (선택 사항) **필드 추가** 아이콘 ![](assets/add-fields-icon.png) Experience Manager Assets 레코드 유형 페이지의 테이블 보기 오른쪽 상단 모서리에서 Experience Manager 필드를 추가하거나 제거합니다.
+   에서 Workfront 개체 필드 제거 **선택된 필드** 영역입니다.
 
-   >[!NOTE]
-   >
-   >  Experience Manager Assets 레코드 유형 페이지에서 추가하거나 제거하는 필드는 Experience Manager 자산에 연결되는 Maestro 레코드 유형에서 추가되거나 제거되지 않습니다. 필드는 읽기 전용 Experience Manager Assets 레코드 유형 페이지에만 표시되므로 Maestro에서 검토할 수 있습니다.
-
-1. (선택 사항 및 조건부) Experience Manager 연결 자산에 날짜 필드를 두 개 이상 추가한 경우 **보기** Experience Manager Assets 레코드 유형 페이지에서 드롭다운 메뉴를 선택하고 **타임라인** 또는 보기 **보기 만들기** 을 클릭하여 타임라인 보기를 만듭니다.  자세한 내용은 [타임라인 보기 관리](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
-Experience Manager Assets 연결된 에셋이 타임라인 보기에 표시됩니다.
+   이렇게 하면 Maestro 레코드에서 연결된 필드가 추가되거나 제거됩니다. 제거된 필드와 관련된 정보는 Experience Assets Adobe에 유지됩니다.

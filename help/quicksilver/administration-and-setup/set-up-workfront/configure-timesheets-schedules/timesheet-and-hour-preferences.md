@@ -8,9 +8,9 @@ author: Alina and Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
+source-git-commit: 66e6c96ca51a159f6e9a16178f06dd016217c7d8
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1409'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 >* 타임시트에 고정된 항목
 >* 검색하고 타임시트에 수동으로 추가하는 항목입니다. 수동으로 추가된 항목은 기본적으로 고정됩니다.
 >
->자세한 내용은 [로그 시간](../../../timesheets/create-and-manage-timesheets/log-time.md).
+>자세한 내용은 [로그 시간](../../../timesheets/create-and-manage-timesheets/log-time.md) 및 [타임시트 개요](/help/quicksilver/timesheets/timesheets/timesheets-overview.md).
 
 
 

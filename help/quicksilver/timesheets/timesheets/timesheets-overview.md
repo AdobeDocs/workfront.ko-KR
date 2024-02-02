@@ -7,9 +7,9 @@ description: 타임시트를 사용하여 Adobe Workfront 내부 및 외부에�
 author: Alina
 feature: Timesheets
 exl-id: 2174a879-4a19-4a0f-803a-f19a8909f227
-source-git-commit: 1c8d9a62f5582b0dbc3c72b5881bb5d8f0b790ba
+source-git-commit: 66e6c96ca51a159f6e9a16178f06dd016217c7d8
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,6 @@ Workfront에서 시간을 기록하는 방법에 대한 자세한 내용은 [로
 
 1. 다음을 클릭합니다. **날짜 범위** 타임시트를 열어 보십시오.
 
-   각 타임시트에는 시간을 기록한 모든 작업, 문제 및 프로젝트가 표시됩니다. 타임시트에는 타임시트의 시간대 내에 날짜가 있는 사용자에게 할당되었지만 아직 시간이 기록되지 않은 최대 45개의 작업, 문제 또는 프로젝트도 표시됩니다.
+   각 타임시트에는 시간을 기록한 모든 작업, 문제 및 프로젝트가 표시됩니다. 또한 타임시트에는 타임시트의 시간대 내에 날짜가 있는 사용자에게 할당되었지만 아직 시간이 기록되지 않은 최대 45개의 작업 및 문제가 표시됩니다. 타임시트에 표시할 45개의 최근 업데이트 항목을 선택합니다.
 
    자세한 내용은 [타임시트 및 시간 환경 설정 구성](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
