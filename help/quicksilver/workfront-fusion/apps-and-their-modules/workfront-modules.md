@@ -9,9 +9,9 @@ description: Adobe Workfront Fusion Adobe Workfront 커넥터를 사용하여 Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 37fd436070b435ebf3d042789bd385dc6a6108cc
+source-git-commit: 879d2ec0c8f3909a5dd385c77bd2de81120d40fa
 workflow-type: tm+mt
-source-wordcount: '5799'
+source-wordcount: '5825'
 ht-degree: 2%
 
 ---
@@ -94,6 +94,10 @@ ht-degree: 2%
 를 구성할 때 [!DNL Workfront] 모듈, [!DNL Workfront Fusion] 아래 나열된 필드를 표시합니다. 이와 함께 추가 [!DNL Workfront] 앱이나 서비스의 액세스 수준 등에 따라 필드가 표시될 수 있습니다. 모듈의 굵은 제목은 필수 필드를 나타냅니다.
 
 필드나 함수 위에 맵 단추가 표시되면 이 단추를 사용하여 해당 필드에 대한 변수와 함수를 설정할 수 있습니다. 자세한 내용은 [의 한 모듈에서 다른 모듈로 정보 매핑 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+
+>[!NOTE]
+>
+>Workfront 모듈에 최신 필드가 표시되지 않는 경우 캐싱 문제 때문일 수 있습니다. 1시간 기다린 후 다시 시도하십시오.
 
 ![](assets/map-toggle-350x74.png)
 
