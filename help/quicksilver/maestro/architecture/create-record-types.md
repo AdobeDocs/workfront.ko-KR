@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
-source-wordcount: '1431'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Maestro 레코드 유형에 대한 자세한 내용은 [레코드 유형 및 분
 <td>
    <p> 제품</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>Maestro 레코드 유형을 Experience Manager Assets과 연결하려면 Adobe Experience Manager Assets 라이선스가 있어야 하며, 조직의 Workfront 인스턴스가 Adobe 비즈니스 플랫폼 또는 Adobe Admin Console에 온보딩되어야 합니다.</p> </td>
+   </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront 계약</p></td>
    <td>
@@ -98,16 +98,16 @@ Maestro 레코드 유형에 대한 자세한 내용은 [레코드 유형 및 분
 
 ## 레코드 유형 만들기에 대한 고려 사항
 
-* 다음 중 하나를 수행하여 작업 영역에서 레코드 유형을 만들 수 있습니다.
+* 다음과 같은 방법으로 작업 영역에서 레코드 유형을 만들 수 있습니다.
 
    * 자동:
       * 템플릿을 사용하여 작업 공간을 만드는 경우.
 
         자세한 내용은 [작업 공간 만들기](../architecture/create-workspaces.md).
       * Excel 또는 CSV 파일을 사용하여 가져올 때. 분류 레코드 유형에는 사용할 수 없습니다.
-      * 다른 응용 프로그램에서 개체 유형에 대한 연결을 만들 때 레코드 유형에 필드를 추가할 때 이렇게 하면 원본 응용 프로그램의 개체 유형에 연결된 Maestro에 읽기 전용 레코드 유형이 만들어집니다.
-
-     객체 유형을 Maestro 레코드와 연결하는 방법에 대한 자세한 내용은 [레코드 연결](../records/connect-records.md).
+     <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a Maestro record. This creates a read-only record type in Maestro which is connected to object types from the original application. 
+        For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).
+        For information about connecting objects with Maestro records, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). -->
    * 수동:
 
       * 처음부터.
@@ -126,9 +126,9 @@ Maestro 레코드 유형에 대한 자세한 내용은 [레코드 유형 및 분
 
 분류법에 대한 자세한 내용은 [분류 체계 만들기](../architecture/create-a-taxonomy.md).
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-workfront.png) Workfront의 오른쪽 위 모서리 또는 **메인 메뉴** 아이콘 ![](assets/main-menu-shell.png)  왼쪽 위 모서리에서 사용 가능한 경우 을(를) 클릭합니다. **마에스트로** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   기본적으로 마지막으로 액세스한 작업 영역이 열립니다.
+기본적으로 마지막으로 액세스한 작업 영역이 열립니다.
 
 1. (선택 사항) 기존 작업 영역 이름의 오른쪽에 있는 아래쪽 방향 화살표를 확장하고 레코드 유형을 만들 작업 영역을 선택합니다.
 1. 클릭 **레코드 유형 추가**.
@@ -138,14 +138,14 @@ Maestro 레코드 유형에 대한 자세한 내용은 [레코드 유형 및 분
 
    ![](assets/add-record-type-box-with-appearance-options.png)
 
-1. 다음 정보를 선택합니다.
+1. 다음 정보를 업데이트합니다.
 
-   * **레코드 이름**: &quot;제목 없는 운영 레코드 유형&quot;을 이후 레코드 유형의 이름으로 바꿉니다. <!--correct this - I asked Garik to change this field to "Record type name"-->
+   * **레코드 유형 이름**: &quot;제목 없는 운영 레코드 유형&quot;을 이후 레코드 유형의 이름으로 바꿉니다.
    * **모양**: 레코드 종류와 관련된 아이콘의 색상과 모양을 정의합니다. 다음을 수행합니다.
       * 색상을 선택하여 새 레코드 유형을 식별합니다. 레코드 유형 아이콘의 색상입니다. 기본적으로 회색이 선택되어 있습니다.
       * 목록에서 아이콘을 선택하거나 아이콘 이름을 입력하여 아이콘이 나타내는 내용을 설명한 다음 표시될 때 선택합니다. 레코드 유형의 아이콘입니다. 기본적으로 파일 아이콘이 선택되어 있습니다.
 
-1. 바깥쪽을 클릭합니다. **레코드 유형 추가** 레코드를 저장하는 상자입니다.
+1. 바깥쪽을 클릭합니다. **레코드 유형 추가** 레코드 종류를 저장하는 상자입니다.
 
    레코드 유형 카드가 선택한 작업 영역에 추가됩니다.
 레코드 종류에 포함된 필드 수가 카드에 표시됩니다.
@@ -171,8 +171,11 @@ Maestro 레코드 유형에 대한 자세한 내용은 [레코드 유형 및 분
 
    다음을 클릭합니다. **자세히** 아이콘 ![](assets/more-menu.png) 레코드 유형 이름의 오른쪽에 있는 **이름 바꾸기** 이름을 바꾸려면 다음을 수행하십시오.
 
-1. (선택 사항) **+ 새 &lt; 레코드 유형 이름 >** 선택한 레코드 유형의 레코드를 추가할 수 있습니다. 자세한 내용은 [레코드 만들기](../records/create-records.md).
-1. (선택 사항) **+** 레코드 종류에 필드를 더 추가하려면 테이블의 오른쪽 위 모서리에 있는 아이콘을 클릭합니다. 자세한 내용은 [필드 만들기](../fields/create-fields.md).
+1. (선택 사항) **+ 새 레코드** 선택한 레코드 유형의 레코드를 추가할 수 있습니다. 자세한 내용은 [레코드 만들기](../records/create-records.md).
+1. (선택 사항) **+** 레코드 종류에 필드를 더 추가하려면 테이블의 오른쪽 위 모서리에 있는 아이콘을 클릭합니다.
+
+   필드 만들기에 대한 자세한 내용은 [필드 만들기](../fields/create-fields.md).
+
 1. (선택 사항) 선택한 작업 영역으로 돌아가려면 레코드 유형 이름의 왼쪽에 있는 왼쪽 방향 화살표를 클릭합니다.
 
    레코드 유형 카드에는 레코드 유형에 포함된 필드 및 연결 수가 표시됩니다.
@@ -184,7 +187,7 @@ Maestro 레코드 유형에 대한 자세한 내용은 [레코드 유형 및 분
    * [레코드 만들기](../records/create-records.md)
    * [레코드 유형 삭제](../architecture/delete-record-types.md)
    * [레코드 유형 편집](../architecture/edit-record-types.md)
-   * [Adobe Maestro에서 레코드 보기 관리](../views/manage-record-views.md) <!--add information here about the sorting and grouping when available-->
+   * [레코드 보기 관리](../views/manage-record-views.md)
 
 ## Excel 또는 CSV 파일을 가져와서 레코드 유형 만들기
 
@@ -202,9 +205,9 @@ Excel 또는 CSV 파일을 사용하여 레코드 유형을 가져올 때는 다
 
 Excel 파일을 사용하여 레코드 유형을 가져오려면 다음을 수행합니다.
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-workfront.png) Workfront의 오른쪽 위 모서리에서 <!---or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> 그런 다음 을 클릭합니다. **마에스트로** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   기본적으로 마지막으로 액세스한 작업 영역이 열립니다.
+기본적으로 마지막으로 액세스한 작업 영역이 열립니다.
 
 1. (선택 사항) 기존 작업 영역 이름의 오른쪽에 있는 아래쪽 방향 화살표를 확장하고 레코드 유형을 만들 작업 영역을 선택합니다.
 1. 클릭 **레코드 유형 추가**.
@@ -250,20 +253,21 @@ Excel 파일을 사용하여 레코드 유형을 가져오려면 다음을 수�
 
    이제 Maestro에 액세스할 수 있는 모든 사용자가 가져온 레코드 종류 및 해당 정보를 보고 편집할 수 있습니다. <!--this will change with permissions-->
 
-## 다른 응용 프로그램의 개체 유형과 레코드 유형 연결
+<!--## Connect record types with object types from another application
 
-다른 응용 프로그램에서 Maestro 레코드 유형과 객체 유형 간에 연결을 만들 때 레코드 유형을 가져올 수 있습니다. 이렇게 하면 서드파티 애플리케이션의 객체 유형에 해당하는 읽기 전용 레코드 유형이 Maestro에 생성됩니다.
+You can connect a Maestro record type and an object type from another application. This creates a read-only record type in Maestro that corresponds to the object type in the other application. 
 
-예를 들어 Maestro 레코드 유형을 Workfront 프로젝트와 연결하여 레코드 유형을 만들 수 있습니다. 따라서 Workfront 프로젝트 오브젝트 유형을 읽기 전용 레코드 유형으로 Maestro에 가져옵니다. 기본적으로 레코드 유형의 이름은 &quot;Workfront 프로젝트&quot;로 지정됩니다. <!--has this name changed? Lusine wanted to change it at some point-->
+For example, you can create record types by connecting Maestro record types with Workfront projects. As a result, the Workfront project object type is imported into Maestro as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
+    
+You can import the following objects from the following applications: 
 
-다음 응용 프로그램에서 다음 객체를 가져올 수 있습니다.
+* From Workfront:
 
-* Workfront에서:
+    * Projects
+    * Portfolios
+    * Programs
+    * Company
+    * Group
 
-   * 프로젝트
-   * 포트폴리오
-   * 프로그램
-   * 회사
-   * 그룹
-
-자세한 내용은 [레코드 유형 연결](../architecture/connect-record-types.md).
+For more information, see [Connect record types](../architecture/connect-record-types.md). 
+-->

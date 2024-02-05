@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Maestro에서는 조직의 요구 사항에 맞는 사용자 정의 레코드 �
 | 작업 관련 객체에 대한 속성을 나타냅니다 |                         | ✓ 덧신 |
 | 처음부터 만들 수 있습니다. | ✓ 덧신 | ✓ 덧신 |
 | Excel 또는 CSV 파일을 가져와서 만들 수 있습니다 | ✓ 덧신 |                      |
-| 기록 유형을 서드파티 애플리케이션에서 객체에 연결할 수 있습니다 | ✓ 덧신 |                      |
+| 다른 응용 프로그램의 개체에 레코드 형식을 연결할 수 있습니다 | ✓ 덧신 |                      |
 | 다른 Maestro 레코드 유형에 연결할 수 있습니다. | ✓ 덧신 |                    |
 | 테이블 보기에서 연결된 레코드를 볼 수 있습니다 | ✓ 덧신 | ✓ 덧신 |
 | 연결된 레코드를 타임라인 보기에서 볼 수 있습니다 | ✓ 덧신 | ✓ 덧신 |

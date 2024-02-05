@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: e90a3ebe-fc02-4cce-8472-1ca5004ddde8
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-분류는 Adobe Maestro의 운영 레코드 유형에 대한 속성을 캡처하는 레코드 유형입니다.
+분류 레코드 유형은 Adobe 마에스트로의 운영 레코드 유형에 대한 속성을 캡처합니다.
 
 예를 들어 Campaign은 운영 레코드 유형일 수 있습니다. 다음은 캠페인 레코드 유형에 대한 속성을 캡처하는 분류입니다(지역, 대상자, 국가).
 
@@ -91,19 +91,14 @@ Maestro 레코드 유형에 대한 자세한 내용은 [레코드 유형 및 분
 
 ## 분류 생성에 대한 고려 사항
 
-* 작업 영역에서 분류를 만들려면 먼저 작업 영역을 만들어야 합니다.
+* 작업 영역에서 분류 레코드 유형을 만들려면 먼저 작업 영역을 만들어야 합니다.
 
   작업 공간에 대한 자세한 내용은 [작업 공간 만들기](../architecture/create-workspaces.md).
 * 다음 중 하나를 수행하여 분류 레코드 유형을 만들 수 있습니다.
    * 템플릿을 사용하여 작업 공간을 만들 때 자동으로 만듭니다. 자세한 내용은 [작업 공간 만들기](../architecture/create-workspaces.md).
    * 처음부터 직접 만듭니다.
-   * 외부 목록의 정보를 붙여 넣어 수동으로 만듭니다.
 
-  <!--this is not possible yet:
-  * You can taxonomies to a workspace by doing one of the following:
-    * Create a connection to object types from other systems, when adding fields to a taxnomy record type. This creates a read-only record type in Maestro.  - update this sentence when you can connect taxonomies as well as operational records to a third-party system.-->
-
-* 새로 생성된 모든 분류는 다음 필드와 함께 제공됩니다.
+* 새로 만든 모든 분류 레코드 유형은 다음 필드와 함께 제공됩니다.
 
    * 이름 <!--if there won't be any more fields, consider rephrasing this-->
 
@@ -111,11 +106,11 @@ Maestro 레코드 유형에 대한 자세한 내용은 [레코드 유형 및 분
 
   >[!NOTE]
   >
-  >    작업 영역 템플릿을 사용할 때 생성되는 분류에는 추가 필드가 있습니다.
+  >    작업 영역 템플릿을 사용할 때 생성되는 분류 레코드 유형에는 추가 필드가 있습니다.
 
-## 분류 체계 만들기
+## 분류 레코드 유형 만들기
 
-분류를 만드는 것은 처음부터 또는 작업 영역 템플릿에서 작업 기록 유형을 만드는 것과 비슷합니다.
+분류 레코드 유형을 만드는 것은 운영 레코드 유형을 처음부터 만들거나 작업 영역 템플릿에서 만드는 것과 비슷합니다.
 
 자세한 내용은 이 문서의 &quot;처음부터 레코드 유형 만들기&quot; 섹션을 참조하십시오 [레코드 유형 만들기](../architecture/create-record-types.md).
 
