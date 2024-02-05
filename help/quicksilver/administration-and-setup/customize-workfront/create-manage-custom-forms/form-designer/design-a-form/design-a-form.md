@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: d1229f8da39d4df3167a25b7d8b0f2c5d9f1089f
+source-git-commit: 4120b44a1be1fc8cf7da26ac441c8e51fa8b48ac
 workflow-type: tm+mt
-source-wordcount: '5011'
+source-wordcount: '5096'
 ht-degree: 3%
 
 ---
@@ -502,7 +502,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->문서 객체에서는 외부 조회 기능을 사용할 수 없습니다.
+>외부 조회 기능은 문서 또는 사용자 개체에서 사용할 수 없습니다.
 
 외부 조회를 추가하려면:
 
@@ -540,9 +540,11 @@ ht-degree: 3%
      <tr> 
       <td role="rowheader">기본 API URL</td> 
       <td><p>API에 대한 URL을 입력하거나 붙여넣습니다.</p><p>API URL은 드롭다운에 표시할 옵션의 JSON 콘텐츠를 반환해야 합니다. JSON 경로 필드를 사용하여 반환된 JSON에서 드롭다운 옵션으로 특정 값을 선택할 수 있습니다.</p><p>API URL을 입력할 때 URL에 다음 값을 선택적으로 전달할 수 있습니다.</p>
-      <ul><li>$$QUERY - 최종 사용자가 필드에 입력하는 검색 텍스트를 나타내며, 이를 통해 최종 사용자에 대한 쿼리 필터링을 구현할 수 있습니다. (사용자가 드롭다운에서 값을 검색합니다.)</li>
-      <li><p>$$HOST - 현재 Workfront 호스트를 나타내며 Workfront API에 대한 /search API를 호출하는 데 사용할 수 있습니다. 이 와일드카드를 사용하면 인증이 처리되고 사용자가 인증 헤더를 보낼 필요가 없습니다. (예를 들어 사용자는 기본 URL을 사용하여 작업을 검색할 수 있습니다 <code>$$HOST/attask/api/task/search</code> 또한 작업을 검색하고 반환된 작업 목록에서 값을 선택할 수 있습니다.)<p>
-      <p>참조 중인 API에서 허용하는 경우 검색 쿼리에 수정자를 포함하여 검색이 작동하는 방식을 식별할 수 있습니다. 예를 들어 다음을 기본 API URL로 사용하여 사람들이 특정 텍스트가 포함된 Workfront 프로젝트를 검색할 수 있도록 할 수 있습니다. <code>$$HOST/attask/api/v15.0/proj/search?name=$$QUERY&name_Mod=contains</code>.</p><p>의 Workfront 검색 수정자에 대해 자세히 알아보십시오. <a href="/help/quicksilver/wf-api/general/api-basics.md">API 기본 사항</a>.</p></li>
+      <ul>
+      <li>$$HOST - 현재 Workfront 호스트를 나타내며 Workfront API에 대한 /search API를 호출하는 데 사용할 수 있습니다. 이 와일드카드를 사용하면 인증이 처리되고 사용자가 인증 헤더를 보낼 필요가 없습니다. (예를 들어 사용자는 기본 URL을 사용하여 작업을 검색할 수 있습니다 <code>$$HOST/attask/api/task/search</code> 또한 작업을 검색하고 반환된 작업 목록에서 값을 선택할 수 있습니다.)</li>
+      <li><p>$$QUERY - 최종 사용자가 필드에 입력하는 검색 텍스트를 나타내며, 이를 통해 최종 사용자에 대한 쿼리 필터링을 구현할 수 있습니다. (사용자가 드롭다운에서 값을 검색합니다.)</p>
+      <p>참조 중인 API에서 허용하는 경우 검색 쿼리에 수정자를 포함하여 검색이 작동하는 방식을 식별할 수 있습니다. 예를 들어 다음을 기본 API URL로 사용하여 사람들이 특정 텍스트가 포함된 Workfront 프로젝트를 검색할 수 있도록 할 수 있습니다. <code>$$HOST/attask/api/v15.0/proj/search?name=$$QUERY&name_Mod=contains</code>.</p><p>의 Workfront 검색 수정자에 대해 자세히 알아보십시오. <a href="/help/quicksilver/wf-api/general/api-basics.md">API 기본 사항</a>.</p>
+      <p><strong>참고:</strong> $$QUERY를 사용하고 있지 않고 검색 상자에 사용자 유형 텍스트를 입력하는 경우 이미 선택한 항목의 범위를 좁힙니다. 그러나 $$QUERY를 사용하고 사용자가 원하는 것을 입력하면 API에 대한 새 네트워크 호출이 수행됩니다. 따라서 API에 2000개 이상의 값이 있고 API가 쿼리를 지원하는 경우 $$QUERY를 활용하여 기존 2000개 값뿐만 아니라 좁혀진 옵션이 있는 원본 API에서도 검색할 수 있습니다.</p></li>
       <li><p>{fieldName} - 여기서 fieldName은 Workfront의 사용자 지정 또는 네이티브 필드입니다. 이 방법으로 이미 선택한 필드의 값을 외부 조회 필드에 전달하여 옵션을 필터링할 때 계단식 드롭다운 옵션 필터를 구현할 수 있습니다. (예를 들어 지역 필드가 양식에 이미 있고 API의 국가 목록을 특정 지역에 있는 국가로 좁히고 있습니다.)</p>
       <p>다른 필드에 종속된 외부 조회 필드의 경우(다음을 사용) {fieldName} 구문)을 지정하면 API에서 반환되는 옵션이 다른 필드에 입력된 문자열이나 값과 일치하는 옵션으로 제한됩니다. (이 기능은 목록 및 보고서에서 지원되지 않습니다.)</p></li>
       <li>{referenceObject}.{fieldName} - 필드가 오브젝트의 일부인 경우 이 구문은 사용자 정의 표현식과 유사합니다. (예: portfolioID={project}.{portfolioID})</li></ul>
