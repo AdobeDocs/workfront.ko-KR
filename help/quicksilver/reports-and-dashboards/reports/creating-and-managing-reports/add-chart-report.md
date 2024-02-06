@@ -6,9 +6,9 @@ description: 차트를 추가하여 보고서를 개선할 수 있습니다. 기
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 68d93ccb8b96f802ef0a612e7e41cf168e34e863
 workflow-type: tm+mt
-source-wordcount: '2733'
+source-wordcount: '2757'
 ht-degree: 0%
 
 ---
@@ -157,6 +157,10 @@ ht-degree: 0%
    ![](assets/qs-bar-chart-350x167.png)
 
 1. 클릭 **저장 + 닫기** 차트 및 보고서를 저장합니다.
+
+>[!IMPORTANT]
+>
+>23개 이상의 막대를 포함하는 막대 차트에 모든 막대 레이블이 제대로 표시되지 않으므로 막대 차트를 23개 이하의 막대로 제한하십시오.
 
 ### 파이 차트 {#pie-chart}
 

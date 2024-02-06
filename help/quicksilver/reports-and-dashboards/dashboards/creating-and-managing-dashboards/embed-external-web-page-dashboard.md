@@ -6,9 +6,9 @@ description: 외부 웹 페이지를 대시보드에 포함하여 Adobe Workfron
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
+source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '1014'
 ht-degree: 0%
 
 ---
@@ -130,6 +130,11 @@ ht-degree: 0%
         Workfront 관리자는 보안상의 이유로 외부 페이지에서 세션 정보의 사용을 허용하지 않는 방식으로 시스템 환경 설정을 구성할 수 있습니다. 이 경우 외부 페이지가 대시보드에 로드되지 않습니다.\
         시스템 보안 기본 설정에 대한 자세한 내용은 [시스템 보안 환경 설정 구성](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).\
         ![external_page_with_session_id_example.png](assets/external-page-with-session-id-example-350x134.png)
+
+     >[!WARNING]
+     >
+     >SessionID는 안전하지 않으므로 사용하지 않는 것이 좋습니다.
+     >
 
    * **높이**: 0보다 큰 숫자를 입력하여 외부 페이지가 대시보드에서 차지하는 공간을 정의합니다. 기본 높이는 500입니다.
 

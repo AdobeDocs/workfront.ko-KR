@@ -6,9 +6,9 @@ description: Workfront에서 열 너비 지침 및 열 너비와 순서를 변�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ece3f908-a0da-45d4-9f4f-0b34c69ce8fa
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '1066'
 ht-degree: 0%
 
 ---
@@ -20,19 +20,19 @@ ht-degree: 0%
 * Workfront은 기본적으로 목록 및 보고서의 열 너비를 정의합니다.
 * Workfront은 열에 따라 열 너비를 자동으로 조정합니다. `valueformat`열의 텍스트 모드에서 별도로 지정하지 않는 한 모든 목록 및 보고서의 정보입니다.
 
-   >[!NOTE]
-   >
-   >Workfront은 열에 따라 열 너비를 조정하지 않습니다. `valueformat` 설정 및 보고서 영역에서 사용할 수 있는 목록에 있는 정보입니다.
+  >[!NOTE]
+  >
+  >Workfront은 열에 따라 열 너비를 조정하지 않습니다. `valueformat` 설정 및 보고서 영역에서 사용할 수 있는 목록에 있는 정보입니다.
 
-   다음 `valueformat` 값은 열에 표시되는 정보의 종류를 정의합니다. 예를 들어, 숫자를 표시하는 열이 설명 필드를 표시하는 열보다 좁습니다.
+  다음 `valueformat` 값은 열에 표시되는 정보의 종류를 정의합니다. 예를 들어, 숫자를 표시하는 열이 설명 필드를 표시하는 열보다 좁습니다.
 
 * 열에 표시할 정보 유형에 따라 Workfront 목록 및 보고서의 열 너비를 필요에 맞게 사용자 지정할 수 있습니다.
 
-   목록 또는 보고서를 볼 때 일시적으로 또는 뷰 빌더에서 열의 너비를 조정하여 영구적으로 열의 너비를 수정할 수 있습니다. 열의 너비를 임시로 수정하는 방법에 대한 자세한 내용은 [열의 너비 및 순서를 일시적으로 수정할 때 고려 사항](#considerations-when-temporarily-modifying-the-width-and-order-of-columns) 이 문서의 섹션.
+  목록 또는 보고서를 볼 때 일시적으로 또는 뷰 빌더에서 열의 너비를 조정하여 영구적으로 열의 너비를 수정할 수 있습니다. 열의 너비를 임시로 수정하는 방법에 대한 자세한 내용은 [열의 너비 및 순서를 일시적으로 수정할 때 고려 사항](#considerations-when-temporarily-modifying-the-width-and-order-of-columns) 이 문서의 섹션.
 
 * 기본 제공 보기에 표시되는 열에는 이전에 Workfront으로 하드 코딩된 너비가 있습니다. 이러한 폭을 수정하려면 뷰 빌더에서 텍스트 모드를 사용하여 이러한 열의 폭을 수동으로 업데이트해야 합니다.
 
-   텍스트 모드에서 열을 수정하는 방법에 대한 내용은 [보기: 열의 너비를 영구적으로 편집](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-edit-column-width-permanently.md).
+  텍스트 모드에서 열을 수정하는 방법에 대한 내용은 [보기: 열의 너비를 영구적으로 편집](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-edit-column-width-permanently.md).
 
 ## 액세스 요구 사항
 
@@ -44,7 +44,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront 플랜*</strong></td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront 라이센스*</strong></td> 
@@ -87,6 +87,12 @@ Workfront 목록에 대한 자세한 내용은 문서를 참조하십시오 [Ado
 열의 크기를 일시적으로 조정하고 순서를 지정할 때 다음 사항을 고려하십시오.
 
 * 열 크기를 조정할 때 새 열 크기는 브라우저의 로컬 저장소에 저장되고 기본적으로 저장됩니다. 다른 브라우저를 사용하거나 캐시를 지우거나 데이터를 검색하면 열 크기가 기본값으로 되돌아갑니다. 페이지를 새로 고치면 열 너비에 대한 변경 사항이 유지됩니다.
+
+>[!NOTE]
+> 
+>열 너비는 브라우저 창의 크기로 제한됩니다. 페이지를 새로 고치면 모든 열이 수평 스크롤하지 않고 창에 들어갈 수 있을 때까지 열의 너비가 줄어듭니다. 열을 브라우저에 맞는 너비보다 넓게 유지하려면 의 설명에 따라 텍스트 모드에서 열의 너비를 설정해야 합니다 [열 너비와 순서를 영구적으로 수정](#modify-width-and-order-of-columns-permanently) 테두리를 끌어 열 너비를 수동으로 조정하지 마십시오.
+>
+
 * 열을 재정렬할 때 선택한 순서는 목록에서 나가거나 브라우저 페이지를 새로 고칠 때까지만 유지됩니다. 목록에서 다른 위치로 이동하거나 브라우저 페이지를 새로 고치면 열이 기본 순서로 돌아갑니다.
 * 최적의 성능을 위해 재정렬하려는 열에는 목록에 100개를 초과하는 항목이 없어야 합니다.
 * 열 크기를 조정하면 변경 사항은 현재 사용 중인 보기에만 적용되며 사용자에게만 표시됩니다. 다른 사용자와 보기를 공유해도 정의한 열 크기는 공유되지 않습니다.
@@ -96,9 +102,9 @@ Workfront 목록에 대한 자세한 내용은 문서를 참조하십시오 [Ado
    * 보고서 영역
    * 문서 목록 및 보고서
 
-   >[!NOTE]
-   >
-   >열의 왼쪽 테두리를 목록의 인접한 열의 왼쪽 테두리를 지나서 이동할 수 없습니다.
+  >[!NOTE]
+  >
+  >열의 왼쪽 테두리를 목록의 인접한 열의 왼쪽 테두리를 지나서 이동할 수 없습니다.
 
 * 목록을 파일로 내보내면 열의 임시 순서가 내보낸 파일로 전송되지 않습니다. 내보낸 파일은 원래 목록에 있는 열의 순서를 재정렬하기 전에 표시합니다.
 

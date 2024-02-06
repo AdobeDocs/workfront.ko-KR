@@ -7,9 +7,9 @@ description: '보고서: 예산 시간'
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 2c0b60a6-fae4-4b29-8243-2a7f7d1f574b
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '657'
 ht-degree: 1%
 
 ---
@@ -17,18 +17,14 @@ ht-degree: 1%
 # 보고서: 예산 시간
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: From&nbsp;Alina: This is my article, but since it's about building a report, it is in the Reporting section. Please don't remove it -it's linked to Resouce Management and it is super important.) </p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: From&nbsp;Alina: This is my article, but since it's about building a report, it is in the Reporting section. Please don't remove it -it's linked to Resource Management and it is super important.) </p>
 -->
 
 리소스 플래너에 대한 액세스 권한이 없는 다른 사용자와 예산 시간 정보를 공유하려면 예산 시간 보고서를 작성하여 공유할 수 있습니다. 그런 다음 보고서를 해당 사용자와 공유할 수 있습니다.
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This info is also added and drafted in the article "View Budget Hours in a report" in the Resource Planning section. Consider deleting this article?!)</p>
--->
-
 >[!IMPORTANT]
 >
->예산 시간은 Adobe Workfront 데이터베이스에서 매시간마다 업데이트됩니다. 보고서를 새로 고쳐도 해당 보고서 내의 시간 정보가 새로 고쳐지지 않습니다. 모든 예산 시간 보고서의 오른쪽 상단 모서리에서 마지막 업데이트 이후 경과한 시간을 볼 수 있습니다. 보고서를 새로 고치면 마지막 업데이트 후 1시간 이상 경과한 경우에만 보고서 내의 정보가 새로 고침됩니다.
+>예산 시간은 일반적으로 Adobe Workfront 데이터베이스에서 매시간마다 업데이트됩니다(드물게 최대 3시간이 소요될 수 있습니다). 보고서를 새로 고쳐도 해당 보고서 내의 시간 정보가 새로 고쳐지지 않습니다. 모든 예산 시간 보고서의 오른쪽 상단 모서리에서 마지막 업데이트 이후 경과한 시간을 볼 수 있습니다. 보고서를 새로 고치면 마지막 업데이트 후 1시간 이상 경과한 경우에만 보고서 내의 정보가 새로 고침됩니다.
 >
 >![](assets/budgeted-hour-report-time-sync-warning-350x74.png)>
 

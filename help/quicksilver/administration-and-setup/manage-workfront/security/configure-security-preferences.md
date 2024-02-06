@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
+source-git-commit: 57ea12e1da0ad326910021b2d2349c6d1eba4b69
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '848'
 ht-degree: 4%
 
 ---
@@ -81,7 +81,7 @@ Workfront 구현 중에 시스템 환경 설정을 구성하고, 그 이후에 �
      </tr> 
      <tr> 
       <td role="rowheader">외부 페이지 URL을 만들 때 세션 정보 사용을 활성화합니다.</td> 
-      <td> <p>대시보드에 외부 페이지를 추가할 때 사용자가 사이트의 세션 ID 정보를 사용할 수 있도록 허용합니다.</p> <p>대시보드에 외부 페이지 추가에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">외부 웹 페이지를 대시보드에 포함</a>.</p> </td> 
+      <td> <p>대시보드에 외부 페이지를 추가할 때 사용자가 사이트의 세션 ID 정보를 사용할 수 있도록 허용합니다.</p> <p>이 옵션은 기본적으로 안전하지 않으며 꺼져 있습니다. 통합을 위해 대신 OAuth를 사용하는 것이 좋습니다.</p> <p>대시보드에 외부 페이지 추가에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">외부 웹 페이지를 대시보드에 포함</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">사람들이 Workfront의 모바일 애플리케이션 및 <strong>Workfront</strong> Outlook 추가 기능</td> 

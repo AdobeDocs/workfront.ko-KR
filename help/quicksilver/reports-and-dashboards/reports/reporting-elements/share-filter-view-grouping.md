@@ -6,9 +6,9 @@ description: 보기 액세스 권한이 있는 필터, 보기 및 그룹화를 �
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1211'
 ht-degree: 1%
 
 ---
@@ -117,13 +117,7 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 개�
 
    필터 공유 상자가 표시됩니다.
 
-1. 활성화 **시스템 전체 보기** 설정. 이렇게 하면 Workfront의 모든 사용자에게 필터를 볼 수 있는 권한이 부여됩니다.
-
-   >[!IMPORTANT]
-   >
-   >이 설정은 주의해서 사용하십시오. 모든 사용자에 대해 많은 필터를 추가하면 필터 경험이 복잡해지고 필터를 찾기 어려워집니다.
-
-   또는에서 공유할 사용자, 팀, 역할, 그룹 또는 회사의 이름을 입력하십시오. **액세스 권한 부여 대상** 필드.
+1. 에서 공유할 사용자, 팀, 역할, 그룹 또는 회사의 이름을 입력하십시오. **액세스 권한 부여 대상** 필드.
 
    ![필터 공유 상자](assets/new-filters-share-filter.png)
 
