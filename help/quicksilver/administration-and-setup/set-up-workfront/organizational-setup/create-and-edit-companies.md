@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: e9acccbaf2ce9c418e9417ff205bdfdb926b51d5
 workflow-type: tm+mt
-source-wordcount: '1414'
+source-wordcount: '1416'
 ht-degree: 0%
 
 ---
@@ -150,7 +150,7 @@ ht-degree: 0%
 
 에 대한 이 액세스 권한을 사용하여 [!UICONTROL 회사] 페이지 그룹 관리자는 회사에 그룹을 할당할 수 있지만 그룹 관리자가 만든 회사여야 합니다. 그룹 관리자의 액세스 수준이 회사에 대한 관리 액세스 권한으로 구성되지 않은 경우 [!UICONTROL 그룹] 필드는 그룹 관리자가 회사를 만들 때 필요합니다. 굵게 표시된 제목은 다음을 나타냅니다.
 
-![](assets/manage-company-group-field-req.jpg)
+![회사 편집](assets/group-admin-add-company.png)
 
 사용자가 액세스 수준에서 회사에 대한 관리 액세스 권한을 얻는 방법에 대한 자세한 내용은 [사용자에게 특정 영역에 대한 관리 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
