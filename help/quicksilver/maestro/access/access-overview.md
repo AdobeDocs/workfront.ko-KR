@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
+source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -53,9 +53,15 @@ Adobe Maestro를 사용하려면 다음 설정이 있어야 합니다.
    <td role="rowheader"><p>Adobe Workfront 라이센스*</p></td>
    <td>
    <p>임의</p>
-   작업 공간을 만들려면 사용자에게 다음 라이센스가 있어야 합니다. 
-   <ul><li><p>새로운 기능: 표준</p> </li>
-   <li><p>현재: 작업자 이상</p> </li></ul>
+   <p>작업 공간을 만들려면 다음 라이센스가 있어야 합니다.</p>
+   <ul>
+   <li>
+   새로운 기능: 표준
+   </li>
+   <li>
+   현재: 작업자 이상
+   </li>
+   </ul>
   </td>
   </tr>
   <tr>
@@ -66,7 +72,7 @@ Adobe Maestro를 사용하려면 다음 설정이 있어야 합니다.
 <tr>
    <td role="rowheader"><p>개체 권한</p></td>
    <td>
-   <p>편집, 삭제 및 공유하기 위해 작성하지 않은 작업 공간 및 보기에 대해 또는 그 이상의 권한을 제공하십시오.</p>
+   <p>작업 공간 및 보기를 편집, 삭제 및 공유하고, 레코드 유형 및 레코드를 생성, 편집 또는 삭제하기 위해 작성하지 않은 작업 공간 및 보기에 대해 또는 그 이상의 권한을 제공하십시오.</p>
     <p>시스템 관리자는 자신이 만들지 않은 작업 공간 및 보기를 관리할 수 있습니다 </p>
    <p>Maestro 객체의 권한 공유에 대한 자세한 내용은  
    <a href="../access/sharing-permissions-overview.md">Adobe Maestro에서의 권한 공유 개요</a> 
@@ -109,10 +115,16 @@ Maestro에 대한 액세스 제어가 없습니다.
 
 모든 유형의 라이선스가 있는 사용자는 Maestro에 액세스할 수 있습니다.
 
+Workfront에서의 액세스 권한 부여에 대한 자세한 내용은 [사용자 정의 액세스 수준 만들기 및 수정](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+
 ## 권한 부여
 
 시스템 관리자가 아닌 사용자에게 작업 공간 및 사용자가 만든 보기에 대한 권한을 부여해야 작업 공간에 액세스할 수 있습니다.
 
 자세한 내용은 [Adobe Maestro의 공유 권한 개요](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
+
+Adobe Workfront 라이선스 유형은 Maestro 권한과 함께 작동하여 Maestro 개체를 보거나, 기여하거나, 관리할 수 있는 액세스 권한을 부여합니다.
+
+라이선스 유형이 Maestro 객체의 권한 수준에 어떤 영향을 미치는지에 대한 자세한 내용은 [Adobe Maestro의 라이선스 유형 개요](/help/quicksilver/maestro/access/license-type-overview.md).
 
 

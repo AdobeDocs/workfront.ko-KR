@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
+source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 8%
+source-wordcount: '499'
+ht-degree: 7%
 
 ---
 
@@ -42,12 +42,9 @@ Maestro에서 다음 오브젝트를 공유할 수 있습니다.
 
 ## Maestro에서 오브젝트 공유에 대한 고려 사항
 
-* Maestro에서 작업 공간을 만들려면 다음 라이센스가 있어야 합니다.
+* Adobe Workfront 라이선스 유형은 Maestro 권한과 함께 작동하여 Maestro 개체를 보거나, 기여하거나, 관리할 수 있는 액세스 권한을 부여합니다.
 
-   * 새로운 가격 모델: Standard 라이센스
-   * 현재 가격 모델: 플랜 라이선스.
-
-  자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
+  라이선스 유형이 Maestro 객체의 권한 수준에 어떤 영향을 미치는지에 대한 자세한 내용은 [Adobe Maestro의 라이선스 유형 개요](/help/quicksilver/maestro/access/license-type-overview.md).
 * 시스템 관리자는 다른 사용자가 만든 작업 공간을 관리하고 공유할 수 있습니다.
 * 시스템 관리자가 아닌 경우 다른 사용자가 만든 작업 영역이 사용자와 공유될 경우 해당 작업 영역에 기여할 수 있습니다.
 * 작업 공간은 일괄적으로 공유할 수 없습니다.
@@ -60,6 +57,13 @@ Maestro에서 다음 오브젝트를 공유할 수 있습니다.
 ## Maestro 개체에 대한 권한 공유
 
 다음 섹션의 표에서는 Maestro 작업 영역 또는 보기를 공유할 때 선택할 수 있는 권한 수준과 각 수준에서 허용하는 기능을 보여 줍니다.
+
+>[!IMPORTANT]
+>
+>모든 사용자가 아래에 설명된 권한 수준을 가질 수 있는 것은 아닙니다. 사용자의 개별 라이선스는 Maestro 개체에 대해 받을 수 있는 권한 수준을 결정합니다.
+>
+>자세한 내용은 [Adobe Maestro의 라이선스 유형 개요](/help/quicksilver/maestro/access/license-type-overview.md).
+
 
 ### 작업 공간 권한
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
 workflow-type: tm+mt
-source-wordcount: '3725'
+source-wordcount: '3933'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,54 @@ ht-degree: 0%
 >
 >아래 섹션에서 참조하는 설명서는 기능이 프로덕션에 릴리스된 후 잠시 사용할 수 있습니다.
 
+## 2024년 2월 5일 주
+
+### 라이선스 유형에 따라 권한 수정
+
+프로덕션: 2024년 2월 6일
+
+미리보기: 결정 예정
+
+사용자의 라이선스 유형을 고려하여 권한 수준을 수정했습니다. 이 개선 이전에는 사용자의 라이선스 유형에 따라 작업 영역 권한에 차이가 없었습니다.
+
+이제 다음 권한이 사용자의 라이선스 유형과 함께 작동합니다.
+
+* 플랜 라이선스(또는 새 라이선스 모델에서 Standard 라이선스)가 있는 사용자는 작업 공간, 레코드 유형 및 레코드를 만들고 관리할 수 있습니다.
+
+* 작업 라이선스(또는 새 라이선스 모델에서 Light)가 있는 사용자는 공유된 작업 공간뿐만 아니라 해당 작업 공간의 레코드 유형 및 레코드도 보고 기여할 수 있습니다.  작업(또는 라이트) 라이선스 사용자는 Contribute 액세스 권한이 있는 작업 영역에서 레코드를 만들고, 편집하고, 삭제할 수도 있습니다.
+
+* 검토 또는 요청자 라이선스(또는 새 라이선스 모델에서 기여자)가 있는 사용자는 공유된 작업 영역뿐만 아니라 해당 작업 영역의 레코드 종류 및 레코드만 볼 수 있습니다. 레코드 종류 또는 레코드를 만들거나 편집하거나 삭제할 수 없습니다.
+
+새 라이선스 모델에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+Maestro의 라이선스 유형과 권한 간의 연결에 대한 자세한 내용은 [Adobe Maestro의 라이선스 유형 개요](/help/quicksilver/maestro/access/license-type-overview.md).
+
+<!--
+### New look-and-feel of the Rich-Text toolbar for record fields
+
+Production: February 7, 2024 
+
+Preview: To be determined 
+
+We have updated the look-and-feel of the Rich Text toolbar when you edit a Paragraph-type field.
+
+For information, see  [Edit records](/help/quicksilver/maestro/records/edit-records.md). 
+
+### Improved experience when editing Single-select, Multi-select, People fields, and when adding connected objects
+
+Production: February 8, 2024 
+
+Preview: To be determined 
+
+We have redesigned and improved the experience of adding options for Single-select, Multi-select, or People fields, and when adding connected objects to a record. With the new improvement, a smaller, more responsive box displays.  
+ 
+For connected fields, you have the option of adding your objects by searching for them in the smaller box, or accessing the larger Connected objects box to view more information in addition to the objects' names.  
+
+The improvements are now available when updating fields in the table view of a record type.  
+
+For more information, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). 
+
+-->
 
 ## 2024년 1월 29일 주
 

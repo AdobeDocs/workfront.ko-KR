@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 98ca7d04-35c2-420a-a87c-50c00939853c
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
@@ -24,5 +24,6 @@ Workfront 관리자는 Maestro를 사용하려면 사용자에게 액세스 권�
 * [Adobe Maestro에서의 권한 공유 개요](/help/quicksilver/maestro/access/sharing-permissions-overview.md)
 * [작업 공간 공유](/help/quicksilver/maestro/access/share-workspaces.md)
 * [보기 공유](/help/quicksilver/maestro/access/share-views.md)
+* [Adobe Maestro의 라이선스 유형 개요](/help/quicksilver/maestro/access/license-type-overview.md)
 
 
