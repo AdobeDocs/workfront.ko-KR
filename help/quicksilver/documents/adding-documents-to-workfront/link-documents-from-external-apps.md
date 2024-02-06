@@ -6,9 +6,9 @@ description: 외부 소스에서 문서 및 폴더를 Adobe Workfront에 연결�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
+source-git-commit: 9e57fa6d70e5cfe3de90a24564e76e22b82f63ff
 workflow-type: tm+mt
-source-wordcount: '2563'
+source-wordcount: '2578'
 ht-degree: 0%
 
 ---
@@ -232,6 +232,10 @@ Workfront 내에서 새 Google 문서를 만들 수 있습니다. Workfront 내�
 ## Workfront에서 외부 클라우드 공급자로 문서 업로드 및 연결
 
 Workfront에서 외부 클라우드 공급자로 문서를 업로드하고 연결할 수 있습니다. 이렇게 하면 문서 저장소가 Workfront에서 외부 클라우드 공급자로 이동합니다. 외부 애플리케이션에서 문서가 변경되면 Workfront에서 자동으로 업데이트됩니다.
+
+>[!NOTE]
+>
+>에셋을 외부 문서 공급자에게 보내면 에셋의 새 버전이 만들어집니다.
 
 Workfront 액세스 권한이 없는 사용자는 애플리케이션에 액세스할 수 있는 경우 외부 애플리케이션에서 문서를 볼 수 있습니다.
 
