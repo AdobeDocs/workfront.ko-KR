@@ -8,7 +8,7 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 4120b44a1be1fc8cf7da26ac441c8e51fa8b48ac
+source-git-commit: fac70de35b3380105911f2958f477f65c9999e55
 workflow-type: tm+mt
 source-wordcount: '5096'
 ht-degree: 3%
@@ -198,8 +198,8 @@ ht-degree: 3%
     <td>포맷</td>
     <td><p>사용자 정의 필드에 캡처할 데이터 유형을 선택합니다.</p> <p><b>참고</b>:   
     <ul> 
-    <li>양식을 저장한 후에는 이 필드를 편집할 수 없습니다. 수학 계산에서 필드를 사용하려면 숫자 또는 통화 형식을 선택해야 합니다.<br></li> 
-    <li>숫자 또는 통화를 선택하면 0으로 시작하는 숫자가 자동으로 잘립니다.</li> 
+    <li>양식을 저장한 후에는 이 필드를 편집할 수 없습니다. 수학 계산에서 필드를 사용하려면 숫자 또는 통화 형식을 선택해야 합니다.</li> 
+    <li>숫자 또는 통화를 선택하면 0으로 시작하는 숫자가 자동으로 잘립니다.</li>
      </ul></p></td> </td>
     <td><ul>
     <li>한 줄 텍스트</li>
@@ -316,7 +316,7 @@ ht-degree: 3%
     <td> <p>사용자 정의 필드에 캡처할 데이터 유형을 선택합니다.</p> <p><b>참고</b>:   
      <ul> 
     <li>양식을 저장한 후에는 이 필드를 편집할 수 없습니다. 수학 계산에서 필드를 사용하려면 숫자 또는 통화 형식을 선택해야 합니다.<br></li> 
-    <li>숫자 또는 통화를 선택하면 0으로 시작하는 숫자가 자동으로 잘립니다.</li> 
+    <li>숫자 또는 통화를 선택하면 0으로 시작하는 숫자가 자동으로 잘립니다.</li>
      </ul></p></td> 
      <td><ul>
     <li>라디오 버튼</li>

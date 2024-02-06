@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: 사용자 정의 양식을 오브젝트에 첨부할 때 기존 데이터를 사용하여 새 데이터를 생성하는 계산된 사용자 정의 필드를 추가할 수 있습니다.
-author: Courtney
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
+source-git-commit: fac70de35b3380105911f2958f477f65c9999e55
 workflow-type: tm+mt
-source-wordcount: '2320'
+source-wordcount: '2355'
 ht-degree: 0%
 
 ---
@@ -157,7 +157,8 @@ ht-degree: 0%
      <tr> 
       <td role="rowheader">포맷</td> 
       <td> <p>필드의 결과를 저장 및 표시할 형식입니다.</p> <p>필드가 수학 계산에 사용될 경우 항상 <strong>숫자</strong> 또는 <strong>통화</strong> 포맷. 숫자 또는 통화를 선택하면 0으로 시작하는 숫자가 자동으로 잘립니다.</p> 
-      <p><b>중요 사항</b>: 형식을 선택하기 전에 새 필드에 대한 올바른 형식을 고려하십시오. 사용자 정의 양식을 저장한 후에는 형식 필드를 편집할 수 없습니다. 그리고 잘못된 포맷을 선택하면 보고서와 목록 그룹화의 향후 계산 및 집계 값에 영향을 줄 수 있습니다.</p> </td> 
+      <p><b>중요 사항</b>: 형식을 선택하기 전에 새 필드에 대한 올바른 형식을 고려하십시오. 사용자 정의 양식을 저장한 후에는 형식 필드를 편집할 수 없습니다. 그리고 잘못된 포맷을 선택하면 보고서와 목록 그룹화의 향후 계산 및 집계 값에 영향을 줄 수 있습니다.</p>
+      <p><strong>참고:</strong> 통화 형식의 계산된 필드에는 따옴표를 포함하지 않아야 합니다. (예를 들어, "800.00"이 아닌 800.00을 사용합니다.) 따옴표를 사용하면 통화 유형의 언어 서식과 관련된 뉘앙스로 인해 예기치 않은 결과가 발생할 수 있습니다.</p></td>
      </tr> 
     </tbody> 
    </table>
