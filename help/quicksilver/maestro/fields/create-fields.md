@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 420a9c24695f950ad191431ca6c6848b7649f3b1
 workflow-type: tm+mt
-source-wordcount: '3325'
+source-wordcount: '3339'
 ht-degree: 2%
 
 ---
@@ -179,7 +179,7 @@ Maestro 필드에 대한 자세한 내용은 [필드 개요](../fields/fields-ov
 >
 >* 단락 필드의 컨텐츠는 최대 1,000자까지 사용할 수 있습니다.
 >
->* 서식 있는 텍스트 서식을 사용하면 단락 필드가 표 보기 또는 레코드의 세부 정보 페이지에 표시될 때 단락 필드의 내용을 향상시킬 수 있습니다.
+>* 서식 있는 텍스트 서식을 사용하면 단락 필드가 표 보기 또는 레코드의 세부 정보 페이지에 표시될 때 단락 필드의 내용을 향상시킬 수 있습니다. 자세한 내용은 [레코드 편집](/help/quicksilver/maestro/records/edit-records.md).
 
 1. 섹션에 설명된 대로 필드 만들기를 시작합니다. [처음부터 필드 만들기](#create-fields-from-scratch) 이 문서에서 **단락** 필드 유형입니다.
 
@@ -377,7 +377,9 @@ Maestro 필드에 대한 자세한 내용은 [필드 개요](../fields/fields-ov
 
    >[!NOTE]
    >
-   >    수식에서 연결된 레코드에서 필드를 추가할 수 없습니다. 이 기능은 나중에 릴리스됩니다. 새 릴리스에 대한 자세한 내용은 [Adobe Maestro 릴리스 활동](/help/quicksilver/maestro/release-activity.md).
+   > * 수식에 다중 선택 유형 필드를 추가할 수 없습니다.
+   >
+   > * 수식에서 연결된 레코드에서 필드를 추가할 수 없습니다. 이 기능은 나중에 릴리스됩니다. 새 릴리스에 대한 자세한 내용은 [Adobe Maestro 릴리스 활동](/help/quicksilver/maestro/release-activity.md).
 
 
 1. Click **Create**.
