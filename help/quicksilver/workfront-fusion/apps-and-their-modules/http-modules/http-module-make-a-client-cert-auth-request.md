@@ -9,9 +9,9 @@ description: 이 [!DNL Adobe Workfront Fusion] 모듈을 사용하면 HTTP 클�
 author: Becky
 feature: Workfront Fusion
 exl-id: c0b0057f-3db0-4c10-a274-ebaec1a5b87b
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 45540ccc3b9fca98f8aaae86ac4d6574a067a6e4
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,12 @@ ht-degree: 0%
 >Adobe Workfront Fusion에는 [!DNL Adobe Workfront Fusion] Adobe Workfront 라이선스 이외의 라이선스.
 
 이 [!DNL Adobe Workfront Fusion] 모듈을 사용하면 HTTP 클라이언트 인증서 인증을 사용하여 HTTP 요청을 구성하고 서버에 제출할 수 있습니다. 그러면 수신된 HTTP 응답이 출력 번들에 포함됩니다.
+
+>[!NOTE]
+>
+>현재 전용 커넥터가 없는 Adobe 제품에 연결하는 경우 Adobe Authenticator 모듈을 사용하는 것이 좋습니다.
+>
+>자세한 내용은 [Adobe Authenticator 모듈](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md).
 
 ## 액세스 요구 사항
 

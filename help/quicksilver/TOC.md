@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 080292085ebd94074c92963c2fc135dd228f4cf0
+source-git-commit: 777739c4803eb8edf6ece7356e29e121a157c4d4
 workflow-type: tm+mt
-source-wordcount: '13904'
+source-wordcount: '13914'
 ht-degree: 1%
 
 ---
@@ -146,6 +146,7 @@ ht-degree: 1%
          * [21.1 모바일 개선 사항](product-announcements/product-releases/21.1-release-activity/21-1-mobile-enhancements.md)
          * [21.1 기타 개선 사항](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Fusion 릴리스 활동 {#fusion-release}
+         * [Workfront Fusion 릴리스 활동: 2024년 2월 5일이 있는 주](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-2-5.md)
          * [Workfront Fusion 릴리스 활동: 2023년 11월 27일의 주](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-11-30.md)
          * [Adobe Workfront Fusion 릴리스 활동](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
            [Workfront Fusion 릴리스 활동: 2024년 1월 1일 주](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-1-4.md)
@@ -2166,6 +2167,7 @@ ht-degree: 1%
       * [앱 및 해당 모듈](workfront-fusion/apps-and-their-modules/apps-and-their-modules.md)
       * [Adobe Workfront 모듈](workfront-fusion/apps-and-their-modules/workfront-modules.md)
       * [Workfront 증명 모듈](workfront-fusion/apps-and-their-modules/workfront-proof-modules.md)
+      * [Adobe Authenticator 모듈](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md)
       * [Adobe Acrobat Sign 모듈](workfront-fusion/apps-and-their-modules/adobe-sign-modules.md)
       * [Adobe Creative Cloud 라이브러리 모듈](workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md)
       * [Adobe Campaign Classic 모듈](workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md)

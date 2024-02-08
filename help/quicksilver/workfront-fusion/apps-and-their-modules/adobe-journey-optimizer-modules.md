@@ -9,7 +9,7 @@ description: 다음에서 [!DNL Adobe Workfront Fusion] 시나리오에서는 �
 author: Becky
 feature: Workfront Fusion
 exl-id: 2c1aea46-edbf-42a3-a6e9-f8aea042a48d
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 50078aec71a4173a67c386ae5a8a4b5ba6cf3ade
 workflow-type: tm+mt
 source-wordcount: '1602'
 ht-degree: 0%
@@ -469,7 +469,6 @@ Becky: pull from main, add to TOCs, then push to merge.
       <td role="rowheader">
         <p>[!UICONTROL 메서드]</p>
       </td>
-      <td>
    <td> <p>API 호출을 구성하는 데 필요한 HTTP 요청 메서드를 선택합니다. 자세한 내용은 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">의 HTTP 요청 메서드 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
       </td>
     </tr>

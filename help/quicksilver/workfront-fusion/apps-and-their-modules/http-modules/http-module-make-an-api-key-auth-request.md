@@ -9,9 +9,9 @@ description: 이 [!DNL Adobe Workfront Fusion] 작업 모듈은 API 키 인증 �
 author: Becky
 feature: Workfront Fusion
 exl-id: 70bf87c7-6d51-4ef4-9dce-80ad004e613f
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 45540ccc3b9fca98f8aaae86ac4d6574a067a6e4
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '1013'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,12 @@ ht-degree: 0%
 >[!DNL Adobe Workfront Fusion] 을(를) 필요로 합니다. [!DNL Adobe Workfront Fusion] Adobe Workfront 라이선스 이외의 라이선스.
 
 이 [!DNL Adobe Workfront Fusion] 작업 모듈은 API 키 인증 권한이 필요한 지정된 URL에 HTTPS 요청을 보내고 응답을 처리합니다.
+
+>[!NOTE]
+>
+>현재 전용 커넥터가 없는 Adobe 제품에 연결하는 경우 Adobe Authenticator 모듈을 사용하는 것이 좋습니다.
+>
+>자세한 내용은 [Adobe Authenticator 모듈](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md).
 
 ## 액세스 요구 사항
 

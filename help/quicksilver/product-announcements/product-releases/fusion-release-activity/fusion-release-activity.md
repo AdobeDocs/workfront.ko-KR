@@ -9,9 +9,9 @@ author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 765cff51ee537be459722a9a11c9621cd3b623f7
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,17 @@ Workfront Fusion 사용 방법에 대한 자세한 내용은 [Adobe Workfront Fu
 
 ## 2024년 Fusion 릴리스
 
+### 2024년 2월
+
+* [Workfront Fusion 릴리스 활동: 2024년 2월 5일이 있는 주](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-2-5.md)
+
 ### 2024년 1월
 
 * [Workfront Fusion 릴리스 활동: 2024년 1월 1일 주](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-1-4.md)
 
 ## 2023년 Fusion 릴리스
+
++++**클릭하여 열기**
 
 ### 2023년 11월
 
@@ -72,6 +78,8 @@ Workfront Fusion 사용 방법에 대한 자세한 내용은 [Adobe Workfront Fu
 
 * [Workfront Fusion 릴리스 활동: 2023년 3월 20일이 있는 주](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-3-21.md)
 * [Workfront Fusion 릴리스 활동: 2023년 3월 6일이 있는 주](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-3-6.md)
+
++++
 
 ## 2022년 Fusion 릴리스
 

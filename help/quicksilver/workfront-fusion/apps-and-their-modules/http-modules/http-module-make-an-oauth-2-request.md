@@ -9,9 +9,9 @@ description: 다음 작업을 수행하기 위해 [!DNL Adobe Workfront Fusion] 
 author: Becky
 feature: Workfront Fusion
 exl-id: 6c68c9b9-9f74-44a7-94ed-3785081b8331
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 45540ccc3b9fca98f8aaae86ac4d6574a067a6e4
 workflow-type: tm+mt
-source-wordcount: '2220'
+source-wordcount: '2236'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,12 @@ ht-degree: 0%
 리소스 소유자 암호 자격 증명 흐름 및 클라이언트 자격 증명 흐름과 같은 다른 흐름은 이 모듈을 통해 자동으로 지원되지 않습니다.
 
 OAuth 2.0 인증에 대한 자세한 내용은 [OAuth 2.0 인증 프레임워크](https://tools.ietf.org/html/rfc6749).
+
+>[!NOTE]
+>
+>현재 전용 커넥터가 없는 Adobe 제품에 연결하는 경우 Adobe Authenticator 모듈을 사용하는 것이 좋습니다.
+>
+>자세한 내용은 [Adobe Authenticator 모듈](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md).
 
 ## 액세스 요구 사항
 
@@ -214,11 +220,11 @@ OAuth 2.0 인증에 대한 자세한 내용은 [OAuth 2.0 인증 프레임워크
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 헤더 토큰 이름] </td> 
-      <td> <p>헤더에 인증 토큰의 이름을 입력합니다. 기본: <code>[!UICONTROL Bearer]</code>.</p> </td> 
+      <td> <p>헤더에 인증 토큰의 이름을 입력합니다. 기본값: <code>[!UICONTROL Bearer]</code>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 쿼리 문자열 매개 변수 이름] </td> 
-      <td> <p>쿼리 문자열에 인증 토큰의 이름을 입력합니다. 기본: <code>[!UICONTROL access_token]</code>.</p> </td> 
+      <td> <p>쿼리 문자열에 인증 토큰의 이름을 입력합니다. 기본값: <code>[!UICONTROL access_token]</code>.</p> </td> 
      </tr> 
     </tbody> 
    </table>

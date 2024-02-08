@@ -9,9 +9,9 @@ description: Adobe Workfront Fusion에는 Adobe Workfront 라이센스 외에 Ad
 author: Becky
 feature: Workfront Fusion
 exl-id: df8b53de-1af2-4026-b7dd-ff5133b4aac2
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 45540ccc3b9fca98f8aaae86ac4d6574a067a6e4
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '923'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,12 @@ ht-degree: 0%
 # [!UICONTROL HTTP] >[!UICONTROL 기본 인증 요청 만들기] 모듈
 
 이 [!DNL Adobe Workfront Fusion] 모듈을 사용하면 HTTP 기본 인증을 사용하여 HTTP 요청을 구성하고 서버에 제출할 수 있습니다. 그러면 수신된 HTTP 응답이 출력 번들에 포함됩니다.
+
+>[!NOTE]
+>
+>현재 전용 커넥터가 없는 Adobe 제품에 연결하는 경우 Adobe Authenticator 모듈을 사용하는 것이 좋습니다.
+>
+>자세한 내용은 [Adobe Authenticator 모듈](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md).
 
 ## 액세스 요구 사항
 
