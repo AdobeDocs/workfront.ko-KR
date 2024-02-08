@@ -3,14 +3,14 @@ title: 양식 디자이너를 사용하여 양식 디자인
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: 양식 디자이너를 사용하여 사용자 정의 양식을 디자인할 수 있습니다.
-author: Courtney
+description: 양식 디자이너를 사용하여 사용자 정의 양식을 디자인할 수 있습니다. 다른 Workfront 개체에 사용자 정의 양식을 첨부하여 해당 개체에 대한 데이터를 캡처할 수 있습니다.
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: fac70de35b3380105911f2958f477f65c9999e55
+source-git-commit: a9d9ae15f4d80fa6e09414459417cfd2b57daf42
 workflow-type: tm+mt
-source-wordcount: '5096'
+source-wordcount: '5075'
 ht-degree: 3%
 
 ---
@@ -28,28 +28,28 @@ ht-degree: 3%
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront 플랜*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront 플랜</p> </td> 
    <td>임의</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td>
-   <p>새 플랜: 표준</p>
+   <p>새로운 기능: 표준</p>
    <p>또는</p>
-   <p>현재 플랜: 플랜</p></td> 
+   <p>현재: 플랜</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>사용자 정의 양식에 대한 관리 액세스</p> <p>Workfront 관리자가 이 액세스 권한을 부여하는 방법에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">사용자에게 특정 영역에 대한 관리 액세스 권한 부여</a>.</p> </td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>사용자 정의 양식에 대한 관리 액세스</p> </td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 수준 구성을 알아보려면 Workfront 관리자에게 문의하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 사용자 정의 양식 디자인 시작
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 상단에서 을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. 클릭 **사용자 지정 Forms** 왼쪽 패널에서
 
@@ -678,7 +678,7 @@ The Workfront Mobile app -->
 
    클릭 **저장 및 닫기**.
 
-#### **문서 영역에서 사용자 정의 양식에 비디오 위젯 추가**{#add-a-video-widget-to-a-custom-form-from-the-documents-area}
+#### 문서 영역에서 사용자 정의 양식에 비디오 위젯 추가{#add-a-video-widget-to-a-custom-form-from-the-documents-area}
 
 >[!IMPORTANT]
 >

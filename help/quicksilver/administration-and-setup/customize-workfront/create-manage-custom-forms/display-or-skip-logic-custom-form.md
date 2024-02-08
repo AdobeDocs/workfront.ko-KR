@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c687c4a8-a99d-4ac0-b785-5bfe503a7e2c
-source-git-commit: a46ad2d847372c153e2da29e0545d70cdb6e04f7
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
 source-wordcount: '969'
 ht-degree: 0%
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 상단에서 을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png).
 
-1. 왼쪽 패널에서 **사용자 지정 Forms** ![](assets/custom-forms-icon.png).
+1. 왼쪽 패널에서 **사용자 지정 Forms**.
 
 1. 샘플 사용자 정의 양식을 만듭니다.
 

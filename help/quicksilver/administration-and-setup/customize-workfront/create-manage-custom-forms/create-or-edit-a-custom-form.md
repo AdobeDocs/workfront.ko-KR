@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5712e82d-bd1d-4d8a-9a2a-1e19b562b9d1
-source-git-commit: 8af1890b2e2ae613279b5191cf8f2190364fb524
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '895'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 # 기존 양식 빌더로 사용자 정의 양식 만들기 또는 편집
 
 <!--Audited: 01/2024-->
+
+{{highlighted-preview}}
 
 새 사용자 정의 양식을 만들거나 편집할 수 있습니다. 두 작업은 이 문서에 설명되어 있습니다.
 
@@ -34,23 +36,23 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront 플랜*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront 플랜</p> </td> 
    <td>임의</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td><p>새로운 기능: 표준</p>
+   <p>또는</p>
    <p>현재: 플랜</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>사용자 정의 양식에 대한 관리 액세스</p> <p>Workfront 관리자가 이 액세스 권한을 부여하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">사용자에게 특정 영역에 대한 관리 액세스 권한 부여</a>.</p> </td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>사용자 정의 양식에 대한 관리 액세스</p> </td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 수준 구성을 알아보려면 Workfront 관리자에게 문의하십시오. 액세스 요구 사항에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 사용자 정의 양식 만들기 시작
 
@@ -110,7 +112,7 @@ ht-degree: 0%
 
    사용자 정의 양식이 목록에 표시됩니다. 조직에 대해 만들어진 모든 사용자 정의 양식 및 사용자 정의 필드를 검토할 수 있습니다. 각 양식을 작성한 사용자, 양식 작성과 연관된 객체 및 양식 작성의 활성 여부도 확인할 수 있습니다.
 
-1. 편집할 사용자 정의 양식을 선택한 다음 **편집**.
+1. 편집할 사용자 정의 양식을 선택한 다음 **편집** <span class="preview">또는 ![편집 아이콘](assets/edit-icon.png).</span>
 1. (선택 사항) 사용자 정의 양식의 제목과 설명을 변경하려면 **양식 설정** 탭을 클릭한 다음 a를 입력합니다 **양식 제목** 및 **설명**.
 
 1. (선택 사항) 더 많은 오브젝트에 첨부할 수 있도록 양식에 더 많은 오브젝트 유형을 추가하려면 다음 더하기 기호 + 를 클릭합니다 **오브젝트 유형**&#x200B;을 클릭한 다음 표시되는 메뉴에서 원하는 유형을 선택합니다.

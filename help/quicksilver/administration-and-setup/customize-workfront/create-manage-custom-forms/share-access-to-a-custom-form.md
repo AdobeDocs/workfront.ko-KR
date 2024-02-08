@@ -4,18 +4,20 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: 사용자 정의 양식에 대한 액세스 권한을 구성하여 사용자 정의 양식을 보고, 공유하고, 편집할 수 있는 사용자(개인, 역할, 그룹, 팀, 회사)를 제어할 수 있습니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '848'
 ht-degree: 1%
 
 ---
 
 # 사용자 정의 양식 공유
+
+{{highlighted-preview}}
 
 사용자 정의 양식에 대한 액세스 권한을 구성하여 사용자 정의 양식을 보고, 공유하고, 편집할 수 있는 사용자(개인, 역할, 그룹, 팀, 회사)를 제어할 수 있습니다.
 
@@ -28,21 +30,24 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront 플랜*</p> </td> 
-   <td>모든</td> 
+   <td role="rowheader"> <p>Adobe Workfront 플랜</p> </td> 
+   <td>임의</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td>플랜</td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td>
+   <p>새로운 기능: 표준</p>
+   <p>또는</p>
+   <p>현재: 플랜</p></td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>사용자 정의 양식에 대한 관리 액세스</p> <p>Workfront 관리자가 이 액세스 권한을 부여하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">사용자에게 특정 영역에 대한 관리 액세스 권한 부여</a>.</p> </td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>사용자 정의 양식에 대한 관리 액세스</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 수준 구성을 알아보려면 Workfront 관리자에게 문의하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 사용자 정의 양식에 액세스 {#access-to-custom-forms}
 
@@ -57,10 +62,10 @@ ht-degree: 1%
 
 사용자 정의 양식을 기본 공유 상태(에 설명됨)로 남기지 않음 [사용자 정의 양식에 액세스](#access-to-custom-forms) 이 문서)에서는 특정 사용자, 작업 역할, 그룹, 팀 및 회사에 대해 양식에 대한 특정 액세스 수준을 구성할 수 있습니다.
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 상단에서 을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **사용자 지정 Forms**.
-1. 사용자 정의 양식을 선택한 다음 **공유**.
+1. 사용자 정의 양식을 선택한 다음 **공유** <span class="preview">또는 ![공유 아이콘](assets/share-icon.png).</span>
 1. 표시되는 상자에서 **사용자 정의 양식 액세스 권한 부여 대상**&#x200B;사용자 정의 양식을 공유할 사용자, 팀, 작업 역할, 그룹 또는 회사의 이름을 입력한 다음 키를 누릅니다 **입력** 이름이 표시되는 경우입니다.
 1. 방금 추가한 사용자, 팀, 작업 역할, 그룹 또는 회사에 대한 액세스를 조정하려면 이름 오른쪽에 있는 드롭다운 메뉴를 클릭한 다음 사용 가능한 다음 옵션 중 하나와 고급 설정을 구성합니다.
 
@@ -106,10 +111,10 @@ ht-degree: 1%
 
 ## 사용자 정의 양식에 대한 액세스 제거
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 상단에서 을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **사용자 지정 Forms**.
-1. 사용자 정의 양식을 선택한 다음 **공유**.
+1. 사용자 정의 양식을 선택한 다음 **공유** <span class="preview">또는 ![공유 아이콘](assets/share-icon.png).</span>
 1. 표시되는 상자에서 양식에 대해 더 이상 특별한 액세스 권한을 보유하지 않으려는 사용자, 팀, 역할, 그룹 또는 회사 이름 오른쪽에 있는 X를 클릭합니다.
 1. (선택 사항) 제거하려는 다른 이름에 대해 이전 단계에서까지 반복합니다.
 1. **저장**&#x200B;을 클릭합니다.
