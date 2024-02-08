@@ -4,14 +4,14 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: 사용자가 Workfront 개체에 첨부할 수 있는 사용자 정의 양식을 디자인할 수 있습니다. 오브젝트에 대한 작업을 수행하는 사용자는 사용자 정의 양식을 작성하여 오브젝트에 대한 정보를 제공할 수 있습니다.
-author: Courtney / Lisa
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: e34a0b3bf5e2c4dc794a7d7c85245bb4d11842be
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 0%
+source-wordcount: '402'
+ht-degree: 1%
 
 ---
 
@@ -47,34 +47,15 @@ ht-degree: 0%
 
 다음은 현재 양식 디자이너에서 사용할 수 없지만 곧 추가될 예정입니다.
 
-* 표시/건너뛰기 논리
-
 * 자동 완성 필드 필터링
 
 >[!IMPORTANT]
 >
->논리 및 자동 완성 필터에 대한 기존 구성은 새 양식 디자이너로 작업할 때 영향을 받지 않습니다.
-
-### 표시/건너뛰기 논리
-
-새 사용자 정의 양식을 디자인할 때 아직 표시/건너뛰기 논리를 추가할 수 없지만 기존 양식 빌더에서 만든 양식의 기존 표시/건너뛰기 논리를 볼 수 있습니다.
-
-양식 디자이너의 필드에 있는 아이콘은 논리가 필드에 적용되었음을 나타냅니다.
-
-다음 ![대상 필드에 대한 논리 표시](assets/display-logic-bottom-left.png) 왼쪽 하단에 있는 아이콘은 필드가 표시 논리의 대상 필드임을 의미합니다(양식에서 특정 항목을 선택한 경우 이 필드가 표시됨). 다음 ![표시 논리 아이콘 정의](assets/display-logic-bottom-right.png) 오른쪽 하단에 있는 아이콘은 필드가 표시 논리를 정의하는 데 사용됨을 의미합니다(이 필드의 특정 선택 또는 값은 대상 필드를 표시함).
-
-다음 ![대상 필드에 대한 건너뛰기 논리](assets/skip-logic-bottom-left.png) 왼쪽 하단의 아이콘은 필드가 건너뛰기 논리의 대상 필드임을 의미합니다(양식에서 특정 항목을 선택한 경우 양식이 이 필드로 건너뜁니다). 다음 ![건너뛰기 논리 아이콘 정의](assets/skip-logic-bottom-right.png) 오른쪽 하단에 있는 아이콘은 필드가 건너뛰기 논리를 정의하는 데 사용됨을 의미합니다(이 필드의 특정 선택 또는 값은 다른 필드를 건너뛰고 대상 필드로 바로 이동).
-
-![논리 아이콘](assets/logic-icons-3.png)
-
-논리가 적용된 필드를 선택하면 필드 설정에 기존 논리 규칙이 표시됩니다.
-
-![논리 규칙](assets/form-designer-view-only-logic.png)
+>새 양식 디자이너로 작업할 때 자동 완성 필터의 기존 구성은 영향을 받지 않습니다.
 
 ## 양식 디자이너에서 기능이 제거되었습니다.
 
 양식 디자이너 내에서 다음 기능을 제거했습니다.
-
 
 * 양식 설정, 양식 공유, 필드 공유 탭
 
@@ -84,9 +65,10 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >설정 > 사용자 지정 Forms > Forms 또는 필드 탭에서 양식 및 필드 공유를 제어할 수 있습니다.
+  >설정 > 사용자 지정 Forms > Forms 또는 필드 영역에서 양식 및 필드 공유를 제어할 수 있습니다.
 
 * 업데이트 피드의 필드 변경 내용 추적
+
   >[!NOTE]
   >
   >설정 > 인터페이스 > 피드 업데이트에서 찾을 수 있습니다.
