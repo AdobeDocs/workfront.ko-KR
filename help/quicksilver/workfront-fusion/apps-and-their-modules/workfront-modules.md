@@ -9,9 +9,9 @@ description: Adobe Workfront Fusion Adobe Workfront 커넥터를 사용하여 Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 879d2ec0c8f3909a5dd385c77bd2de81120d40fa
+source-git-commit: 4148e329c8cef32ea8564aace06a09aa6fa1771e
 workflow-type: tm+mt
-source-wordcount: '5825'
+source-wordcount: '5824'
 ht-degree: 2%
 
 ---
@@ -442,7 +442,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 메서드]</td> 
-   td&gt; <p>API 호출을 구성하는 데 필요한 HTTP 요청 메서드를 선택합니다. 자세한 내용은 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">의 HTTP 요청 메서드 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>API 호출을 구성하는 데 필요한 HTTP 요청 메서드를 선택합니다. 자세한 내용은 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">의 HTTP 요청 메서드 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -981,7 +981,7 @@ ht-degree: 2%
    <td> </td> 
   </tr> 
   <tr> 
-   <td>포트폴리오</td> 
+   <td>Portfolio</td> 
    <td>✓ 덧신</td> 
    <td>✓ 덧신</td> 
    <td>✓ 덧신</td> 
@@ -1326,7 +1326,7 @@ ht-degree: 2%
    <td> </td> 
   </tr> 
   <tr> 
-   <td>포트폴리오</td> 
+   <td>Portfolio</td> 
    <td>✓ 덧신</td> 
    <td>✓ 덧신</td> 
    <td>✓ 덧신</td> 
@@ -1600,7 +1600,7 @@ ht-degree: 2%
    <td> </td> 
   </tr> 
   <tr> 
-   <td>포트폴리오</td> 
+   <td>Portfolio</td> 
    <td>✓ 덧신</td> 
    <td>✓ 덧신</td> 
   </tr> 
