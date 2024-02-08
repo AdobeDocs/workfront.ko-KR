@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: ce957a06275b437272cf00769783e0c8a0918e85
+source-git-commit: cd281e0dc91a2b39f54ceea674b36940ffb06a13
 workflow-type: tm+mt
-source-wordcount: '13926'
+source-wordcount: '13930'
 ht-degree: 1%
 
 ---
@@ -463,7 +463,7 @@ ht-degree: 1%
    * 사용자 관리 {#add-users}
       * [사용자 관리: 문서 색인](administration-and-setup/add-users/add-users.md)
       * 사용자 만들기 및 관리 {#create-manage-users}
-         * [사용자 관리](administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
+         * [사용자 만들기 및 관리: 문서 색인](administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
          * [사용자 추가](administration-and-setup/add-users/create-and-manage-users/add-users.md)
          * [사용자 가져오기](administration-and-setup/add-users/create-and-manage-users/import-users.md)
          * [사용자 프로필 편집](administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)

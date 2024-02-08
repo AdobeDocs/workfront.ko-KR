@@ -7,7 +7,7 @@ description: 텍스트 모드를 사용할 때 Adobe Workfront에서 계산된 �
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce98ca39-cb86-4ef7-b75c-29ceb916e885
-source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
+source-git-commit: 639a696c19d79cf2415a45ccb9849ec183fb0bb8
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 1%
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # 계산된 사용자 정의 필드의 조건 연산자
 
-텍스트 모드를 사용할 때 Adobe Workfront에서 계산된 사용자 지정 데이터를 작성할 때 조건 연산자 또는 수정자를 사용할 수 있습니다.
+<!-- Audited: 2/2024 -->
 
-Workfront에서 텍스트 모드를 사용하는 방법에 대한 자세한 내용은 [텍스트 모드 개요](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+텍스트 모드를 사용할 때 Adobe Workfront에서 계산된 사용자 지정 데이터를 작성할 때 조건 연산자 또는 수정자를 사용할 수 있습니다. Workfront에서 텍스트 모드를 사용하는 방법에 대한 자세한 내용은 [텍스트 모드 개요](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 조건 연산자 또는 수정자는 문에서 기존 Workfront 필드를 연결하고 새 필드를 생성하여 조건문을 작성하는 데 도움이 됩니다. 조건 연산자의 가장 일반적인 사용은 &quot;IF&quot; 문의 조건을 작성하는 것입니다.
 

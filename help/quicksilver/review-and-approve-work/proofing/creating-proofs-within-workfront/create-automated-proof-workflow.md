@@ -6,14 +6,16 @@ description: 프로세스가 복잡하거나 검토용 콘텐츠를 정기적으
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 977fe1bc-458f-4301-8056-dc51c61edb6c
-source-git-commit: afc0cbb93e26eb29abfb1b00b32c79c1b65ff3eb
+source-git-commit: ccfea4cdf7280f992068bc64bab27e63aaab8b74
 workflow-type: tm+mt
-source-wordcount: '1856'
+source-wordcount: '1820'
 ht-degree: 0%
 
 ---
 
 # 자동화된 워크플로를 사용하여 고급 증명 만들기
+
+<!-- Audited: 2/2024 -->
 
 프로세스가 복잡하거나 검토용 콘텐츠를 정기적으로 동일한 사람에게 보내는 경우 자동화된 워크플로를 사용하면 검토 프로세스를 보다 쉽게 관리할 수 있습니다. 증명이 단계 간에 이동하고 Adobe Workfront이 검토할 차례가 되면 각 사용자에게 알립니다. 자동화된 워크플로에 대한 자세한 내용은 [자동화된 워크플로우 개요](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 
@@ -26,25 +28,25 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>현재 플랜: Pro 이상</p> <p>또는</p> <p>레거시 플랜: 선택 이상</p> <p>다른 플랜의 증명 액세스에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfront의 증명 기능에 액세스</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td> <p>새로 만들기: 모두</p><p>현재 플랜: Pro 이상</p><p>레거시 플랜: 선택 이상</p> <p>다른 플랜의 증명 액세스에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfront의 증명 기능에 액세스</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>현재 계획: 작업 또는 계획</p> <p>기존 계획: 모두(사용자에 대해 증명이 활성화되어 있어야 함)</p> </td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td> <p>새로운 기능: 표준</p><p>현재 계획: 작업 또는 계획</p> <p>기존 계획: 모두(사용자에 대해 증명이 활성화되어 있어야 함)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">증명 권한 프로필 </td> 
    <td>관리자 이상</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>문서에 대한 액세스 편집</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>문서에 대한 액세스 편집</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 역할 또는 증명 권한 프로필을 알아보려면 Workfront 또는 Workfront Proof 관리자에게 문의하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 자동화된 워크플로를 사용하여 고급 증명 만들기
 
@@ -212,7 +214,7 @@ ht-degree: 0%
         <li><strong>구독자에 대한 이메일 경고 설정:</strong> 증명을 구독하는 모든 검토자에게 할당되는 기본 이메일 경고입니다.</li>
        </ul><p>
         <ul>
-         <li><strong>이메일 링크를 통한 증명 액세스는 다음 경우에 필요합니다.</strong> 구독자가 증명에 대한 링크가 포함된 이메일을 받는지 여부를 구성합니다. 다음을 선택할 수 있습니다. <strong>이메일 없음</strong> (증명에 액세스하는 데 이메일 링크가 필요하지 않음), <strong>증명 알림 이메일만</strong> (구독자가 확인 없이 이메일을 통해 증명에 대한 링크를 받음) 또는 <strong>유효성 확인 및 증명 알림 이메일</strong> (구독자는 이메일을 통해 증명에 대한 링크를 수신하고 증명에 액세스하려면 링크를 클릭해야 합니다. 이 옵션의 목적은 개인이 액세스 권한이 있는 올바른 이메일 주소를 입력했는지 확인하는 것입니다.)</li>
+         <li><strong>이메일 링크를 통한 증명 액세스는 다음 경우에 필요합니다.</strong> 구독자가 증명에 대한 링크가 포함된 이메일을 수신하는지 여부를 구성합니다. 다음을 선택할 수 있습니다. <strong>이메일 없음</strong> (증명에 액세스하는 데 이메일 링크가 필요하지 않음), <strong>증명 알림 이메일만</strong> (구독자가 확인 없이 이메일을 통해 증명에 대한 링크를 받음) 또는 <strong>유효성 확인 및 증명 알림 이메일</strong> (구독자는 이메일을 통해 증명에 대한 링크를 수신하고 증명에 액세스하려면 링크를 클릭해야 합니다. 이 옵션의 목적은 개인이 액세스 권한이 있는 올바른 이메일 주소를 입력했는지 확인하는 것입니다.)</li>
         </ul><p><strong>참고:</strong> 증명에 자동화된 워크플로가 첨부된 경우 모든 구독은 증명 소유자에게 확인 이메일을 생성하므로 대상자를 추가해야 하는 단계를 결정할 수 있습니다.<br></p></p></td> 
      </tr> 
     </tbody> 

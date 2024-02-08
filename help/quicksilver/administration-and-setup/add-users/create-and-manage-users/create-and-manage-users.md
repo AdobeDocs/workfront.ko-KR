@@ -1,23 +1,25 @@
 ---
-title: 사용자 만들기 및 관리
+title: "사용자 만들기 및 관리: 문서 인덱스"
 user-type: administrator
 content-type: reference
 product-area: system-administration;user-management
 navigation-topic: add-users-to-workfront
 description: 처음부터 개별 사용자를 만들거나 기존 사용자를 복사하여 Adobe Workfront에서 사용자를 추가할 수 있습니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 014cb6de-fb96-44df-a29c-b210afe9c55c
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: 8fa73379725029f1750b83fc67abba670f470f64
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 2%
+source-wordcount: '103'
+ht-degree: 0%
 
 ---
 
-# 사용자 만들기 및 관리
+# 사용자 만들기 및 관리: 문서 색인
+
+<!-- Audited: 2/2024 -->
 
 이 섹션에는 다음 문서가 포함됩니다.
 

@@ -4,18 +4,20 @@ product-area: system-administration;projects
 navigation-topic: configure-system-defaults
 title: 시스템 전체 작업 및 문제 환경 설정 구성
 description: 작업 및 문제에 대한 시스템 전체 환경 설정을 구성할 수 있습니다. 이러한 환경 설정은 사용자가 Workfront에서 작업 및 문제를 만드는 방식에 영향을 줍니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 4a9936b6bc034f2176167fc3939d647ee679a888
+source-git-commit: a1af801e70a7d1a4da7ec572989ebba7634aef58
 workflow-type: tm+mt
-source-wordcount: '2108'
+source-wordcount: '2060'
 ht-degree: 0%
 
 ---
 
 # 시스템 전체 작업 및 문제 환경 설정 구성
+
+<!-- Audited: 2/2024 -->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 Linked to Converting Issues.-->
@@ -24,7 +26,6 @@ Linked to Converting Issues.-->
 
 기본적으로 작업 및 문제 환경 설정은 잠겨 있으며 그룹 관리자는 시스템 전체의 모든 그룹에 대해 잠금을 해제하지 않으면 그룹 수준에서 수정할 수 없습니다. 자세한 내용은 섹션을 참조하십시오 [그룹에 대한 작업 및 문제 환경 설정 잠금](#lock-task-and-issue-preferences-for-groups) 이 문서에서.
 
-<!--SPLIT OUT BOTTOM SECTION TO NEW ARTICLE?-->
 
 ## 액세스 요구 사항
 
@@ -40,23 +41,26 @@ Linked to Converting Issues.-->
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
-   <td>[!UICONTROL 계획]</td> 
+   <td><p>새로운 기능: [!UICONTROL Standard]</p>
+   또는
+   <p>현재: [!UICONTROL Plan]</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>다음이어야 합니다: [!DNL Workfront] 관리자.</p> <p><b>참고</b>: 아직 액세스 권한이 없는 경우 [!DNL Workfront] 관리자가 액세스 수준에 추가 제한을 설정하는 경우. 자세한 내용: [!DNL Workfront] 관리자가 액세스 수준을 수정할 수 있습니다. 다음을 참조하십시오. <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td> <p>다음이어야 합니다: [!DNL Workfront] 관리자.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 ## 의 모든 사용자를 위한 작업 및 문제 환경 설정 구성 [!DNL Workfront]
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![](assets/main-menu-icon.png) 의 오른쪽 위 모서리 [!DNL Adobe Workfront]을 클릭한 다음 을 클릭합니다 **[!UICONTROL 설정]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **[!UICONTROL 프로젝트 환경 설정]** >**[!UICONTROL 작업 및 문제].**
 
-1. 표시되는 페이지에서 아래 나열된 5개 섹션 중 하나를 계속하여 설정을 구성합니다. [!UICONTROL 새 작업 기본값], [!UICONTROL 문제], [!UICONTROL 삭제], [!UICONTROL 실제 일자], 및 [!UICONTROL 액세스].
-1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+1. 표시되는 페이지에서 아래 나열된 5개 섹션 중 하나를 계속하여 설정을 구성합니다. [!UICONTROL 새 작업 기본값], [!UICONTROL 문제], [!UICONTROL 삭제], [!UICONTROL 실제 일자], 및 [!UICONTROL 액세스]:
 
 * [[!UICONTROL 새 작업 기본값]](#new-task-defaults)
 * [[!UICONTROL 문제]](#issues)
@@ -73,72 +77,70 @@ Linked to Converting Issues.-->
 ### [!UICONTROL 새 작업 기본값] {#new-task-defaults}
 
 <table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 새 작업 시작 날짜]</td> 
-   <td> <p>프로젝트 관리자의 새 작업에 대한 기본 시작 날짜를 결정합니다. 새 작업의 시작 일자는 프로젝트의 계획된 시작 일자 또는 작업이 생성된 날짜일 수 있습니다.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 기간 유형] </p> </td> 
-   <td> <p>리소스 수(및 할당 백분율)와 작업 기간 또는 총 작업량 간의 관계를 결정합니다. 자세한 내용은 <a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref">작업 기간 및 기간 유형: 문서 색인</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Revenue Type]</td> 
-   <td> <p>작업에 대한 계획 및 실제 수익 추정치를 계산합니다. 다음의 경우 <strong>[!UICONTROL Revenue Type]</strong> 이(가) (으)로 설정됨 <strong>[!UICONTROL 청구 불가]</strong>, 계획된 시간 및 기록된 실제 시간은 작업에 대한 매출 추정치를 생성하지 않으며, 작업에 대한 작업이 프로젝트 수준 매출에 기여하지 않습니다.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 비용 유형]</td> 
-   <td> <p>작업의 계획 및 실제 비용 추정치를 계산합니다. 로 설정된 경우 <strong>[!UICONTROL 비용 없음]</strong>, 계획된 시간 및 기록된 실제 시간은 작업에 대한 계획 또는 실제 비용 예측을 생성하지 않으며, 작업에 대한 작업이 프로젝트 수준 비용에 기여하지 않습니다.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+  <col> 
+  <col> 
+  <tbody> 
+    <tr> 
+    <td role="rowheader">[!UICONTROL 시작 날짜]</td> 
+    <td> <p>프로젝트 관리자의 새 작업에 대한 기본 시작 날짜를 결정합니다. 새 작업의 시작 일자는 프로젝트의 계획된 시작 일자 또는 작업이 생성된 날짜일 수 있습니다.</p> </td> 
+    </tr> 
+    <tr> 
+    <td role="rowheader"> <p>[!UICONTROL 기간 유형] </p> </td> 
+    <td> <p>리소스 수(및 할당 백분율)와 작업 기간 또는 총 작업량 간의 관계를 결정합니다. 자세한 내용은 <a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref">작업 기간 및 기간 유형</a></p> </td> 
+    </tr> 
+    <tr> 
+    <td role="rowheader">[!UICONTROL Revenue Type]</td> 
+    <td> <p>작업에 대한 계획 및 실제 수익 추정치를 계산합니다. 다음의 경우 <strong>[!UICONTROL Revenue Type]</strong> 이(가) (으)로 설정됨 <strong>[!UICONTROL 청구 불가]</strong>, 계획된 시간 및 기록된 실제 시간은 작업에 대한 매출 추정치를 생성하지 않으며, 작업에 대한 작업이 프로젝트 수준 매출에 기여하지 않습니다.</p> </td> 
+    </tr> 
+    <tr> 
+    <td role="rowheader">[!UICONTROL 비용 유형]</td> 
+    <td> <p>작업의 계획 및 실제 비용 추정치를 계산합니다. 로 설정된 경우 <strong>[!UICONTROL 비용 없음]</strong>, 계획된 시간 및 기록된 실제 시간은 작업에 대한 계획 또는 실제 비용 예측을 생성하지 않으며, 작업에 대한 작업이 프로젝트 수준 비용에 기여하지 않습니다.</p> </td> 
+    </tr> 
+  </tbody> 
+  </table>
 
 ### 문제 {#issues}
 
 <table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 해결 중 오브젝트의 상태가 변경되면 해결 가능한 문제 상태를 자동으로 업데이트]</td> 
-   <td> <p>누군가 문제를 프로젝트 또는 작업으로 변환할 때 원래 문제와 변환된 프로젝트 또는 작업이 모두 해결 중인 오브젝트가 됩니다. 이 설정을 사용하면 원래 문제의 해결 방법을 해결 가능한 개체의 해결 방법에 연결할 수 있습니다. 객체 해결에 대한 자세한 내용은 <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">해결 및 해결 가능한 객체 개요 </a>.</p> <p>이 설정을 적용하려면 옵션을 <strong>[!UICONTROL 원래 문제를 유지하고 해결 방법을 작업에 연결]</strong> 을(를) 선택해야 합니다.</p> 
-    <ul> 
-     <li>이 설정을 사용하면 문제와 프로젝트 또는 작업 모두에 대해 동일한 키로 사용자 지정 상태를 만들 수 있습니다. 프로젝트 또는 작업(해결 가능한 개체)이 사용자 지정 상태로 전환되면 변경 사항은 문제의 상태도 반영합니다. 상태 키는 문제 및 프로젝트 또는 작업 상태에 대해 동일해야 합니다.</li> 
-     <li>이 설정을 사용하지 않으면 해결 중 오브젝트 상태가 사용자 지정 상태가 아닌 기본 상태로 자동 설정됩니다. 기본 상태에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">시스템 문제 상태 목록 액세스</a>.</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader" [!UICONTROL>문제를 작업으로 전환할 때]</td> 
-   <td> <p>이 섹션의 설정은 문제에서 작업으로 전환 프로세스 중에 발생하는 작업을 결정합니다.</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL 원래 문제를 유지하고 해결 방법을 작업에 연결]</strong>: 문제를 전환하는 경우 작업이 완료될 때까지 문제로 표시됩니다. 작업이 완료되면 문제의 상태가 자동으로 [!UICONTROL Closed](으)로 변경됩니다. 이 옵션을 선택 취소하면 문제가 삭제됩니다.</p> <p><b>참고</b>:  <p>문제를 삭제할 수 있는 액세스 또는 권한이 없는 사용자는 이 설정의 상태에 관계없이 문제를 전환할 때 문제를 삭제할 수 없습니다. 문제에 대한 액세스 및 권한에 대한 자세한 내용은 다음을 참조하십시오.</p> 
-       <ul> 
-        <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">문제에 대한 액세스 권한 부여</a> </p> </li> 
-        <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">문제 공유 </a> </p> </li> 
-       </ul> </p> </li> 
-     <li><strong>[!UICONTROL 기본 담당자가 작업에 액세스할 수 있도록 허용]</strong>: 기본 담당자(문제 작성자)에게 작업을 검토하고 진행 상황을 계속 알려주며 작업의 업데이트 섹션에 댓글을 달 수 있는 작업에 대한 보기 액세스 권한을 제공합니다.</li> 
-     <li> <p><strong>[!UICONTROL 전환 중에 이러한 설정을 변경할 수 있도록 허용]</strong>: 문제를 작업으로 변환하는 동안 문제를 전환하는 사용자가 이러한 옵션을 변경할 수 있습니다.</p> <!--
-       Screenshot when possible</p>
-      --> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 문제를 프로젝트로 전환할 때]</td> 
-   <td> <p>이 섹션의 설정은 문제에서 프로젝트로 전환 프로세스 중에 발생하는 작업을 결정합니다.</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL 원래 문제를 유지하고 해결 방법을 프로젝트에 연결]</strong>: 문제를 전환하는 경우 프로젝트가 완료될 때까지 문제로 표시됩니다. 프로젝트가 완료되면 문제의 상태가 자동으로 [!UICONTROL Closed](으)로 변경됩니다. 이 옵션을 선택 취소하면 문제가 삭제됩니다. </p> <p><b>참고</b>:  <p>문제를 삭제할 수 있는 액세스 또는 권한이 없는 사용자는 이 설정의 상태에 관계없이 문제를 전환할 때 문제를 삭제할 수 없습니다. 문제에 대한 액세스 및 권한에 대한 자세한 내용은 다음을 참조하십시오.</p> 
-       <ul> 
-        <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">문제에 대한 액세스 권한 부여</a> </p> </li> 
-        <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">문제 공유 </a> </p> </li> 
-       </ul> </p> </li> 
-     <li><strong>[!UICONTROL 기본 담당자가 프로젝트에 액세스할 수 있도록 허용]</strong>: 기본 담당자(문제 작성자)에게 프로젝트에 대한 보기 액세스 권한을 제공하여 프로젝트를 검토하고 진행 상황을 계속 알려주며 프로젝트의 업데이트 섹션에 주석을 달 수 있습니다.</li> 
-     <li><strong>[!UICONTROL 전환 중에 이러한 설정을 변경할 수 있도록 허용]</strong>: 문제를 프로젝트로 전환하는 사용자가 문제 전환 중 나열된 옵션을 변경할 수 있습니다.</li> 
-    </ul> </td>
-  </tr> 
- </tbody> 
-</table>
+  <col> 
+  <col> 
+  <tbody> 
+    <tr> 
+    <td role="rowheader">[!UICONTROL 해결 중 오브젝트의 상태가 변경되면 해결 가능한 문제 상태를 자동으로 업데이트]</td> 
+    <td> <p>누군가 문제를 프로젝트 또는 작업으로 변환할 때 원래 문제와 변환된 프로젝트 또는 작업이 모두 해결 중인 오브젝트가 됩니다. 이 설정을 사용하면 원래 문제의 해결 방법을 해결 가능한 개체의 해결 방법에 연결할 수 있습니다. 객체 해결에 대한 자세한 내용은 <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">해결 및 해결 가능한 객체 개요 </a>.</p> <p>이 설정을 적용하려면 옵션을 <strong>[!UICONTROL 원래 문제를 유지하고 해결 방법을 작업에 연결]</strong> 을(를) 선택해야 합니다.</p> 
+      <ul> 
+      <li>이 설정을 사용하면 문제와 프로젝트 또는 작업 모두에 대해 동일한 키로 사용자 지정 상태를 만들 수 있습니다. 프로젝트 또는 작업(해결 가능한 개체)이 사용자 지정 상태로 전환되면 변경 사항은 문제의 상태도 반영합니다. 상태 키는 문제 및 프로젝트 또는 작업 상태에 대해 동일해야 합니다.</li> 
+      <li>이 설정을 사용하지 않으면 해결 중 오브젝트 상태가 사용자 지정 상태가 아닌 기본 상태로 자동 설정됩니다. 기본 상태에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">시스템 문제 상태 목록 액세스</a>.</li> 
+      </ul> </td> 
+    </tr> 
+    <tr> 
+    <td role="rowheader" [!UICONTROL>문제를 작업으로 전환할 때]</td> 
+    <td> <p>이 섹션의 설정은 문제에서 작업으로 전환 프로세스 중에 발생하는 작업을 결정합니다.</p> 
+      <ul> 
+      <li> <p><strong>[!UICONTROL 원래 문제를 유지하고 해결 방법을 작업에 연결]</strong>: 문제를 전환하는 경우 작업이 완료될 때까지 문제로 표시됩니다. 작업이 완료되면 문제의 상태가 자동으로 [!UICONTROL Closed](으)로 변경됩니다. 이 옵션을 선택 취소하면 문제가 삭제됩니다.</p> <p><b>참고</b>:  <p>문제를 삭제할 수 있는 액세스 또는 권한이 없는 사용자는 이 설정의 상태에 관계없이 문제를 전환할 때 문제를 삭제할 수 없습니다. 문제에 대한 액세스 및 권한에 대한 자세한 내용은 다음을 참조하십시오.</p> 
+        <ul> 
+          <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">문제에 대한 액세스 권한 부여</a> </p> </li> 
+          <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">문제 공유 </a> </p> </li> 
+        </ul> </p> </li> 
+      <li><strong>[!UICONTROL 기본 담당자가 작업에 액세스할 수 있도록 허용]</strong>: 기본 담당자(문제 작성자)에게 작업을 검토하고 진행 상황을 계속 알려주며 작업의 업데이트 섹션에 댓글을 달 수 있는 작업에 대한 보기 액세스 권한을 제공합니다.</li> 
+      <li> <p><strong>[!UICONTROL 전환 중에 이러한 설정을 변경할 수 있도록 허용]</strong>: 문제를 작업으로 변환하는 동안 문제를 전환하는 사용자가 이러한 옵션을 변경할 수 있습니다.</p></li> 
+      </ul> </td> 
+    </tr> 
+    <tr> 
+    <td role="rowheader">[!UICONTROL 문제를 프로젝트로 전환할 때]</td> 
+    <td> <p>이 섹션의 설정은 문제에서 프로젝트로 전환 프로세스 중에 발생하는 작업을 결정합니다.</p> 
+      <ul> 
+      <li> <p><strong>[!UICONTROL 원래 문제를 유지하고 해결 방법을 프로젝트에 연결]</strong>: 문제를 전환하는 경우 프로젝트가 완료될 때까지 문제로 표시됩니다. 프로젝트가 완료되면 문제의 상태가 자동으로 [!UICONTROL Closed](으)로 변경됩니다. 이 옵션을 선택 취소하면 문제가 삭제됩니다. </p> <p><b>참고</b>:  <p>문제를 삭제할 수 있는 액세스 또는 권한이 없는 사용자는 이 설정의 상태에 관계없이 문제를 전환할 때 문제를 삭제할 수 없습니다. 문제에 대한 액세스 및 권한에 대한 자세한 내용은 다음을 참조하십시오.</p> 
+        <ul> 
+          <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">문제에 대한 액세스 권한 부여</a> </p> </li> 
+          <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">문제 공유 </a> </p> </li> 
+        </ul> </p> </li> 
+      <li><strong>[!UICONTROL 기본 담당자가 프로젝트에 액세스할 수 있도록 허용]</strong>: 기본 담당자(문제 작성자)에게 프로젝트에 대한 보기 액세스 권한을 제공하여 프로젝트를 검토하고 진행 상황을 계속 알려주며 프로젝트의 업데이트 섹션에 주석을 달 수 있습니다.</li> 
+      <li><strong>[!UICONTROL 전환 중에 이러한 설정을 변경할 수 있도록 허용]</strong>: 문제를 프로젝트로 전환하는 사용자가 문제 전환 중 나열된 옵션을 변경할 수 있습니다.</li> 
+      </ul> </td>
+    </tr> 
+  </tbody> 
+  </table>
 
 ### [!UICONTROL 삭제] {#deletion}
 
@@ -159,31 +161,31 @@ Linked to Converting Issues.-->
 ### [!UICONTROL 실제 일자] {#actual-dates}
 
 <table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 작업 또는 문제가 "신규"에서 "진행 중"으로 변경되면 실제 시작 일자를](으)로 설정합니다.</td> 
-   <td> <p>실제 시작 일자가 기록될 때 다음 옵션 중 하나를 선택합니다 [!DNL Workfront] 작업 또는 문제 출처: <strong>[!UICONTROL New]</strong> 끝 <strong>[!UICONTROL 진행 중]</strong>:</p> 
-    <ul> 
-     <li><strong>[!UICONTROL 지금]:</strong> 실제 시작 일자가 현재 일자로 설정됩니다.</li> 
-     <li><strong>[!UICONTROL 계획된 시작 일자]:</strong> 실제 시작 일자는 작업 또는 문제의 계획된 시작 일자로 설정됩니다.</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 작업 또는 문제가 완료되면 실제 완료 일자를](으)로 설정하십시오.</td> 
-   <td> <p>실제 완료 일자가 기록되는 경우 다음 옵션 중 하나를 선택합니다 [!DNL Workfront] 작업 또는 문제가 완료되면:</p> 
-    <ul> 
-     <li><strong>[!UICONTROL 지금]:</strong> 실제 완료 일자가 현재 일자로 설정됩니다.</li> 
-     <li> <p><strong>[!UICONTROL 계획된 완료 일자]:</strong> 실제 완료 일자는 작업 또는 문제의 계획된 완료 일자로 설정됩니다.</p> </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+  <col> 
+  <col> 
+  <tbody> 
+    <tr> 
+    <td role="rowheader">[!UICONTROL 작업 또는 문제가 "신규"에서 "진행 중"으로 변경되면 실제 시작 일자를](으)로 설정합니다.</td> 
+    <td> <p>실제 시작 일자가 기록될 때 다음 옵션 중 하나를 선택합니다 [!DNL Workfront] 작업 또는 문제 출처: <strong>[!UICONTROL New]</strong> 끝 <strong>[!UICONTROL 진행 중]</strong>:</p> 
+      <ul> 
+      <li><strong>[!UICONTROL 지금]:</strong> 실제 시작 일자가 현재 일자로 설정됩니다.</li> 
+      <li><strong>[!UICONTROL 계획된 시작 일자]:</strong> 실제 시작 일자는 작업 또는 문제의 계획된 시작 일자로 설정됩니다.</li> 
+      </ul> </td> 
+    </tr> 
+    <tr> 
+    <td role="rowheader">[!UICONTROL 작업 또는 문제가 완료되면 실제 완료 일자를](으)로 설정하십시오.</td> 
+    <td> <p>실제 완료 일자가 기록되는 경우 다음 옵션 중 하나를 선택합니다 [!DNL Workfront] 작업 또는 문제가 완료되면:</p> 
+      <ul> 
+      <li><strong>[!UICONTROL 지금]:</strong> 실제 완료 일자가 현재 일자로 설정됩니다.</li> 
+      <li> <p><strong>[!UICONTROL 계획된 완료 일자]:</strong> 실제 완료 일자는 작업 또는 문제의 계획된 완료 일자로 설정됩니다.</p> </li> 
+      </ul> </td> 
+    </tr> 
+  </tbody> 
+  </table>
 
 ### 위임
 
-활성화 [!UICONTROL 사용자가 작업 및 문제를 위임하도록 허용] 을(를) 설정하면 의 모든 사용자가 자신의 작업을 다른 사용자에게 일시적으로 위임할 수 있습니다.
+활성화 **[!UICONTROL 사용자가 작업 및 문제를 위임하도록 허용]** 을(를) 설정하면 의 모든 사용자가 자신의 작업을 다른 사용자에게 일시적으로 위임할 수 있습니다.
 
 이 설정을 사용하면 사용자에게 다음이 표시됩니다.
 
@@ -227,35 +229,37 @@ I have not had a chance to follow up with customers to verify if this is still a
 ### [!UICONTROL 액세스] {#access}
 
 <table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 누군가가 작업에 할당되었을 때]</td> 
-   <td> 
-    <ul> 
-     <li><strong>[!UICONTROL 사용자에게 ... 작업에 대한 액세스 권한 부여]</strong>: 할당된 작업에 대한 사용자의 기본 권한을 정의합니다. 작업 권한에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">사용자에게 액세스 권한 부여</a>.</li> 
-     <li> <p><strong>[!UICONTROL 프로젝트에 대한 액세스 권한도 부여]</strong>: 작업이 할당된 프로젝트에 대해 사용자가 갖는 기본 권한을 정의합니다. 프로젝트 권한에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">시스템 전체 프로젝트 환경 설정 구성</a>.</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 누군가가 문제에 할당되었을 때]</td> 
-   <td> 
-    <ul> 
-     <li><strong>[!UICONTROL 사용자에게 ... 작업에 대한 액세스 권한 부여]</strong>: 할당된 작업에 대한 사용자의 기본 권한을 정의합니다. 작업 권한에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">사용자에게 액세스 권한 부여</a>.</li> 
-     <li> <p><strong>[!UICONTROL 프로젝트에 대한 액세스 권한도 부여]</strong>: 작업이 할당된 프로젝트에 대해 사용자가 갖는 기본 권한을 정의합니다. 프로젝트 권한에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">시스템 전체 프로젝트 환경 설정 구성</a>.</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 누군가가 요청을 제출했을 때]</td> 
-   <td> 
-    <ul> 
-     <li><strong>[!UICONTROL 문제에 대한 액세스 권한을 부여합니다 ...]</strong>: 사용자가 제출한 요청에 대한 기본 권한을 정의합니다. 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">문제 공유 </a>.</li> 
-     <li> <p><strong>[!UICONTROL 같은 회사의 직원들은 모든 요청에 대해 동일한 권한을 상속합니다.]</strong>: 사용자가 동일한 회사의 다른 사용자가 제출한 요청을 볼 수 있습니다. 이러한 요청은 제출된 자체 요청에 대한 권한과 동일한 권한을 갖습니다.</p> </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+  <col> 
+  <col> 
+  <tbody> 
+    <tr> 
+    <td role="rowheader">[!UICONTROL 누군가가 작업에 할당되었을 때]</td> 
+    <td> 
+      <ul> 
+      <li><strong>[!UICONTROL 사용자에게 ... 작업에 대한 액세스 권한 부여]</strong>: 할당된 작업에 대한 사용자의 기본 권한을 정의합니다. 작업 권한에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">사용자에게 액세스 권한 부여</a>.</li> 
+      <li> <p><strong>[!UICONTROL 프로젝트에 대한 액세스 권한도 부여]</strong>: 작업이 할당된 프로젝트에 대해 사용자가 갖는 기본 권한을 정의합니다. 프로젝트 권한에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">시스템 전체 프로젝트 환경 설정 구성</a>.</p> </li> 
+      </ul> </td> 
+    </tr> 
+    <tr> 
+    <td role="rowheader">[!UICONTROL 누군가가 문제에 할당되었을 때]</td> 
+    <td> 
+      <ul> 
+      <li><strong>[!UICONTROL 사용자에게 ... 작업에 대한 액세스 권한 부여]</strong>: 할당된 작업에 대한 사용자의 기본 권한을 정의합니다. 작업 권한에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">사용자에게 액세스 권한 부여</a>.</li> 
+      <li> <p><strong>[!UICONTROL 프로젝트에 대한 액세스 권한도 부여]</strong>: 작업이 할당된 프로젝트에 대해 사용자가 갖는 기본 권한을 정의합니다. 프로젝트 권한에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">시스템 전체 프로젝트 환경 설정 구성</a>.</p> </li> 
+      </ul> </td> 
+    </tr> 
+    <tr> 
+    <td role="rowheader">[!UICONTROL 누군가가 요청을 제출했을 때]</td> 
+    <td> 
+      <ul> 
+      <li><strong>[!UICONTROL 문제에 대한 액세스 권한을 부여합니다 ...]</strong>: 사용자가 제출한 요청에 대한 기본 권한을 정의합니다. 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">문제 공유 </a>.</li> 
+      <li> <p><strong>[!UICONTROL 같은 회사의 직원들은 모든 요청에 대해 동일한 권한을 상속합니다.]</strong>: 사용자가 동일한 회사의 다른 사용자가 제출한 요청을 볼 수 있습니다. 이러한 요청은 제출된 자체 요청에 대한 권한과 동일한 권한을 갖습니다.</p> </li> 
+      </ul> </td> 
+    </tr> 
+  </tbody> 
+  </table>
+
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 ## 그룹에 대한 작업 및 문제 환경 설정 잠금 {#lock-task-and-issue-preferences-for-groups}
 
@@ -267,9 +271,9 @@ I have not had a chance to follow up with customers to verify if this is still a
 >
 >다음 이후 [!DNL Workfront] 관리자는 시스템 수준에서 환경 설정을 잠금 해제하고, 모든 그룹 관리자가 이를 구성한 다음 잠가서 그룹의 모든 사람과 아래의 하위 그룹이 동일한 구성을 사용하도록 할 수 있습니다. 이는 다음과 같은 기능과 병행됩니다. [!DNL Workfront] 관리자는 시스템 내의 모든 사용자에 대한 기본 설정을 구성하고 잠가야 합니다. 자세한 내용은 [그룹에 대한 프로젝트 환경 설정 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) 및 [하위 그룹에 대한 프로젝트, 작업 또는 문제 환경 설정 잠금 또는 잠금 해제](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
 
-그룹이 구성할 수 있도록 작업 또는 문제 환경 설정을 잠그거나 잠금 해제하려면
+그룹이 구성할 수 있도록 작업 또는 문제 환경 설정을 잠그거나 잠금 해제하려면 다음을 수행합니다.
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![](assets/main-menu-icon.png) 의 오른쪽 위 모서리 [!DNL Adobe Workfront]을 클릭한 다음 을 클릭합니다 **[!UICONTROL 설정]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. 클릭 **[!UICONTROL 프로젝트 환경 설정]** > **[!UICONTROL 작업 및 문제]**.
 
