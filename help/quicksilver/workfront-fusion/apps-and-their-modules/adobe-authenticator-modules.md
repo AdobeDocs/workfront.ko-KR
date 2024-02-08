@@ -8,9 +8,9 @@ title: Adobe Authenticator 모듈
 description: Adobe Authenticator 모듈을 사용하면 단일 연결을 사용하여 API를 통해 모든 Adobe 제품에 연결할 수 있습니다.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 07443d85e160004c273fc977629dd9f588cc23b2
+source-git-commit: 61a579c19228381d0aa06de3db5217614999731b
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '882'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ Adobe Authenticator 모듈을 사용하면 단일 연결을 사용하여 모든 
 
 HTTP 모듈에 대한 이점은 전용 앱에서와 같이 연결을 만들 수 있다는 것입니다.
 
-사용 가능한 Adobe API 목록을 보려면 X를 참조하십시오. 할당된 API만 사용할 수 있습니다.
+사용 가능한 Adobe API 목록을 보려면 [ADOBE API](https://developer.adobe.com/apis). 할당된 API만 사용할 수 있습니다.
 
 ## 액세스 요구 사항
 
