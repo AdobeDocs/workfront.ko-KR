@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c18a5ff5-ac84-43a3-8980-ddadea3c2677
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 91cb2fd85089a081192c85e373938a03a795a54b
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리보기 릴리스: 2023년 11월 1일, 모든 고객을 위한 프로덕션 릴리스: 11월 1일
+>미리보기 릴리스: 2023년 11월 1일, 모든 고객을 위한 프로덕션 릴리스: 2023년 11월 1일
 
 문서 승인 알림용 이메일 템플릿이 다른 Adobe 이메일 템플릿과 더 잘 일치하고 명확성과 유용성을 향상시키도록 업데이트되었습니다.
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리보기 릴리스: 2023년 10월 12일, 모든 고객을 위한 프로덕션 릴리스: 미정
+>미리보기 릴리스: 2023년 10월 12일, 빠른 릴리스를 위한 프로덕션: 24.2 릴리스(2024년 2월 15일), 분기별 릴리스의 프로덕션: 24.4 릴리스(2024년 4월)
 
 업무 균형자에서 수동 조정 또는 윤곽선에 대해 더 명확하게 이해하기 위해 이제 수동으로 조정된 시간별 할당에 연필 아이콘이 표시됩니다.
 
