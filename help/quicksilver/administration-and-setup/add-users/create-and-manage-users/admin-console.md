@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: 1224ecc73ed333a5296b23735ad4e899f15f544b
+source-git-commit: b476c012f825afc4bc48b7172be26accc6bac0d1
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1144'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,11 @@ ht-degree: 0%
 >
 >조직이 Adobe 비즈니스 플랫폼에 온보딩되었는지 여부에 따라 다른 절차 목록은 을 참조하십시오. [플랫폼 기반 관리의 차이점(Adobe Workfront/Adobe 비즈니스 플랫폼)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
-Adobe 관리자는 Adobe Admin Console을 사용하여 Adobe Workfront 사용자와 시스템 관리자를 만들 수 있습니다. 콘솔은 조직 전체에서 Adobe 권한을 관리하기 위한 중앙 위치입니다. 자세한 내용은 [Admin Console 개요](https://helpx.adobe.com/enterprise/using/admin-console.html).
+Adobe 관리자는 Adobe Admin Console을 사용하여 Adobe Workfront 시스템 관리자를 만들 수 있습니다. 콘솔은 조직 전체에서 Adobe 권한을 관리하기 위한 중앙 위치입니다. 자세한 내용은 [Admin Console 개요](https://helpx.adobe.com/enterprise/using/admin-console.html).
+
+>[!NOTE]
+>
+>Workfront에서 직접 시스템 관리자가 아닌 사용자를 추가하는 것이 좋습니다. Adobe Admin Console에서는 사용자를 추가할 수 있지만 Workfront에서 사용자를 추가하면 생성 중에 액세스 수준을 설정할 수 있으므로 시간을 절약할 수 있습니다.
 
 ## 액세스 요구 사항
 
@@ -116,9 +120,33 @@ Workfront용 Admin Console을 사용하기 전에 콘솔로 초대하는 이메�
    * [Adobe Admin Console을 사용하여 Workfront에서 사용자 만들기](#create-users-in-workfront-with-the-adobe-admin-console)
    * [Adobe Admin Console을 사용하여 Workfront에서 시스템 관리자 만들기](#create-system-administrators-in-workfront-with-the-adobe-admin-console)
 
+## Adobe Admin Console을 사용하여 Workfront에서 시스템 관리자 만들기 {#create-system-administrators-in-workfront-with-the-adobe-admin-console}
+
+<!--Audited: 12/2023-->
+
+시스템 관리자 액세스 수준은 Adobe Admin Console에만 부여됩니다. Workfront 내에서는 관리자 액세스 권한을 부여하거나 제거할 수 없습니다.
+
+사용자를 Workfront 시스템 관리자로 지정하려면 먼저 Workfront의 프로덕션 인스턴스에 사용자를 추가해야 합니다.
+
+1. 섹션에 설명된 대로 Admin Console의 사용자 및 관리 영역으로 이동합니다. [Workfront 프로덕션 인스턴스의 사용자 및 관리 영역에 액세스](#access-the-user-and-admin-area-for-your-production-instance-of-workfront) 이 문서에서.
+1. 다음 항목 선택 **관리자** 사용자 목록 위에 있는 탭입니다.
+1. 선택 **관리자 추가**.
+1. 다음에서 **제품 프로필 관리자 추가** 상자에서 추가하려는 관리자의 이메일 주소 또는 이름을 입력한 다음 을 선택합니다 **저장**.
+
+   ![](assets/add-admin-1.png)
+
+   시스템 관리자는 Workfront에서 생성됩니다.
+
+   >[!IMPORTANT]
+   >
+   >제품 프로필 자체를 변경하지 마십시오.
+
+
 ## Adobe Admin Console을 사용하여 Workfront에서 사용자 만들기 {#create-users-in-workfront-with-the-adobe-admin-console}
 
-Workfront 사용자를 Adobe Admin Console에 추가해야 합니다. 관리자는 Adobe Admin Console에서 직접 사용자를 만들 수 있습니다. 그룹 관리자는 Workfront에서 사용자를 만든 다음 승인을 위해 제출합니다. 승인되면 사용자는 Adobe Admin Console에 추가됩니다.
+>[!NOTE]
+>
+>Workfront에서 직접 시스템 관리자가 아닌 사용자를 추가하는 것이 좋습니다. Adobe Admin Console에서는 사용자를 추가할 수 있지만 Workfront에서 사용자를 추가하면 생성 중에 액세스 수준을 설정할 수 있으므로 시간을 절약할 수 있습니다.
 
 * [Adobe Admin Console에서 바로 Workfront에서 사용자 만들기](#create-users-in-workfront-directly-in-the-adobe-admin-console)
 * [Workfront에서 사용자를 만들고 Adobe Admin Console에 대해 승인합니다](#create-users-in-workfront-and-approve-them-for-the-adobe-admin-console)
@@ -179,26 +207,6 @@ Workfront에서 사용자를 만드는 방법에 대한 지침은 [사용자 추
 
 
 
-## Adobe Admin Console을 사용하여 Workfront에서 시스템 관리자 만들기 {#create-system-administrators-in-workfront-with-the-adobe-admin-console}
-
-<!--Audited: 12/2023-->
-
-시스템 관리자 액세스 수준은 Adobe Admin Console에만 부여됩니다. Workfront 내에서는 관리자 액세스 권한을 부여하거나 제거할 수 없습니다.
-
-사용자를 Workfront 시스템 관리자로 지정하려면 먼저 Workfront의 프로덕션 인스턴스에 사용자를 추가해야 합니다. 자세한 내용은 섹션을 참조하십시오. [Adobe Admin Console을 사용하여 Workfront에서 사용자 만들기](#create-users-in-workfront-with-the-adobe-admin-console) 이 문서에서.
-
-1. 섹션에 설명된 대로 Admin Console의 사용자 및 관리 영역으로 이동합니다. [Workfront 프로덕션 인스턴스의 사용자 및 관리 영역에 액세스](#access-the-user-and-admin-area-for-your-production-instance-of-workfront) 이 문서에서.
-1. 다음 항목 선택 **관리자** 사용자 목록 위에 있는 탭입니다.
-1. 선택 **관리자 추가**.
-1. 다음에서 **제품 프로필 관리자 추가** 상자에서 추가하려는 관리자의 이메일 주소 또는 이름을 입력한 다음 을 선택합니다 **저장**.
-
-   ![](assets/add-admin-1.png)
-
-   시스템 관리자는 Workfront에서 생성됩니다.
-
-   >[!IMPORTANT]
-   >
-   >제품 프로필 자체를 변경하지 마십시오.
 
 
 
