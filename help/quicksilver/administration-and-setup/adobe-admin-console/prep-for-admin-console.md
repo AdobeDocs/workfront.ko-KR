@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d9b5e4a1-069e-48be-80d0-84f4bf8aea8b
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 5d4434d090c4b6cdefc9c313fecccf6d6e9a510b
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
@@ -83,8 +83,8 @@ Adobe Admin Console에 대한 개요는 를 참조하십시오. [Admin Console �
    >
    >이 단계는 선택적이지만 다른 형태의 API 인증 및 권한 부여가 향후에 더 이상 사용되지 않으므로 적극 권장합니다.
 
-Adobe Admin Console이 Workfront으로 구성된 후 이를 사용하여 사용자를 관리할 수 있습니다.
+Adobe Admin Console이 Workfront으로 구성된 후 이를 사용하여 Workfront 시스템 관리자를 만들 수 있습니다.
 
-자세한 내용은 [Adobe Admin Console에서 사용자 관리](../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+자세한 내용은 [Adobe Admin Console에서 시스템 관리자 관리](../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 
 조직이 Adobe Admin Console에 온보딩되었는지 여부에 따라 다른 기타 작업 목록은 을 참조하십시오. [플랫폼 기반 관리의 차이점(Adobe Workfront/Adobe 비즈니스 플랫폼)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).

@@ -8,22 +8,25 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
+source-git-commit: 1949a0bb213553f1f1f252c4382a90514fcd0b5b
 workflow-type: tm+mt
-source-wordcount: '2387'
+source-wordcount: '2285'
 ht-degree: 0%
 
 ---
 
 # 사용자 프로필 일괄 편집
 
+<!--
+
 >[!IMPORTANT]
 >
->이 페이지에 설명된 절차는 아직 Admin Console에 온보딩되지 않은 조직에만 적용됩니다. 조직이 Adobe Admin Console에 온보딩된 경우 Adobe Admin Console을 통해 이 작업을 수행해야 합니다.
+>The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->Adobe Admin Console에서 사용자 프로필을 편집하는 방법에 대한 지침은 문서의 &quot;사용자 세부 정보 편집&quot; 섹션을 참조하십시오 [사용자 일괄 업로드](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) 또는 Adobe Admin Console 관리자에게 문의하십시오.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Bulk Upload Users](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
 >
->조직이 Adobe Admin Console에 온보딩되었는지 여부에 따라 달라지는 절차 목록은 을 참조하십시오. [플랫폼 기반 관리의 차이점(Adobe Workfront/Adobe 비즈니스 플랫폼)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+-->
 
 사용자 계정을 일괄적으로 편집할 수 있습니다. 사용자를 일괄 편집할 때 특별히 선택한 필드만 선택한 모든 사용자에 대해 동일한 정보로 업데이트됩니다. 선택하지 않은 다른 모든 필드는 각 사용자에 대해 다르더라도 각 개별 사용자에 대해 동일하게 유지됩니다.
 

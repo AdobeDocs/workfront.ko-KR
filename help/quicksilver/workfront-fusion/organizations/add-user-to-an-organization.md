@@ -7,9 +7,9 @@ description: Adobe Workfront Fusion에서 조직에 사용자를 추가할 수 �
 author: Becky
 feature: Workfront Fusion
 exl-id: 98248cca-98f5-4eb5-b203-67e261df33f1
-source-git-commit: 2884f709ef9ea89f275ff88db41ddde725dbd781
+source-git-commit: 5d4434d090c4b6cdefc9c313fecccf6d6e9a510b
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -72,23 +72,27 @@ ht-degree: 0%
 
 ## 조직에 사용자 추가
 
-<p>Fusion 조직에 사용자를 추가하는 절차는 조직이 Adobe 비즈니스 플랫폼에 온보딩되었는지 여부에 따라 다릅니다. </p>
+
+<!--
+<p>The procedure to add a user to your Fusion organization differs based on whether your organization has been onboarded to the Adobe Business Platform. </p>
 <ul>
-<li> <p><a href="#add-a-user-to-an-organization-that-has-been-onboarded-to-the-adobe-business-platform" class="MCXref xref">Adobe 비즈니스 플랫폼에 온보딩된 조직에 사용자를 추가합니다.</a> </p> </li>
-<li> <p><a href="#add-a-user-to-an-organization-that-has-not-been-onboarded-to-the-adobe-business-console" class="MCXref xref">Adobe 비즈니스 콘솔에 온보딩되지 않은 조직에 사용자를 추가합니다.</a> </p> </li>
+<li> <p><a href="#add-a-user-to-an-organization-that-has-been-onboarded-to-the-adobe-business-platform" class="MCXref xref">Add a user to an organization that has been onboarded to the Adobe Business Platform</a> </p> </li>
+<li> <p><a href="#add-a-user-to-an-organization-that-has-not-been-onboarded-to-the-adobe-business-console" class="MCXref xref">Add a user to an organization that has not been onboarded to the Adobe Business Console</a> </p> </li>
 </ul>
 <div>
-<p><strong>Adobe 비즈니스 플랫폼에 온보딩된 조직에 사용자를 추가합니다.</strong></p>
-<p>조직이 Adobe 비즈니스 플랫폼에 온보딩된 경우 Adobe Admin Console을 통해 이 작업을 수행해야 합니다.</p>
-<p>Adobe Admin Console에서 사용자를 추가하는 방법에 대한 지침은 다음을 참조하십시오.</p>
+<p><strong>Add a user to an organization that has been onboarded to the Adobe Business Platform</strong></p>
+<p>If your organization has been onboarded to the Adobe Business Platform, you must perform this action through the Adobe Admin Console.</p>
+<p>For instructions on adding a user in the Adobe Admin Console:</p>
 <ul>
-<li> <p>다음을 참조하십시오 <a href="../../administration-and-setup/add-users/create-and-manage-users/admin-console.md#create" class="MCXref xref">Adobe Admin Console을 사용하여 Workfront에서 사용자 만들기</a></p> </li>
-<li> <p>문서의 "사용자 추가" 섹션을 참조하십시오 <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">개별적으로 사용자 관리</a></p> </li>
-<li> <p>Adobe Admin Console 관리자에게 문의하십시오.</p> </li>
+<li> <p>See <a href="../../administration-and-setup/add-users/create-and-manage-users/admin-console.md#create" class="MCXref xref">Create users in Workfront with the Adobe Admin Console</a></p> </li>
+<li> <p>See the section "Add users" in the article <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li>
+<li> <p>Contact your Adobe Admin Console Administrator.</p> </li>
 </ul>
-<p>조직이 Adobe 비즈니스 플랫폼에 온보딩되었는지 여부에 따라 다른 절차 목록은 을 참조하십시오. <a href="../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md" class="MCXref xref">플랫폼 기반 관리의 차이점(Adobe Workfront/Adobe 비즈니스 플랫폼)</a>.</p>
+<p>For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Business Platform, see <a href="../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md" class="MCXref xref">Platform-based administration differences (Adobe Workfront/Adobe Business Platform)</a>.</p>
 </div>
-<p><strong>Adobe 비즈니스 콘솔에 온보딩되지 않은 조직에 사용자를 추가합니다.</strong></p>
+<p><strong>Add a user to an organization that has not been onboarded to the Adobe Business Console</strong></p>
+
+-->
 
 조직에 사용자를 추가하려면 사용자를 추가하려는 조직의 관리자여야 합니다. 역할에 대한 자세한 내용은 [에서 조직 역할 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/organizations/organization-roles.md).
 
