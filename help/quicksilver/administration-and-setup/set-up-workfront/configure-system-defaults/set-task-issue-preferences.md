@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: a1af801e70a7d1a4da7ec572989ebba7634aef58
+source-git-commit: 128082d2af40f1dcbbc058f8bc2fd25deae00809
 workflow-type: tm+mt
-source-wordcount: '2060'
+source-wordcount: '2063'
 ht-degree: 0%
 
 ---
@@ -62,15 +62,15 @@ Linked to Converting Issues.-->
 
 1. 표시되는 페이지에서 아래 나열된 5개 섹션 중 하나를 계속하여 설정을 구성합니다. [!UICONTROL 새 작업 기본값], [!UICONTROL 문제], [!UICONTROL 삭제], [!UICONTROL 실제 일자], 및 [!UICONTROL 액세스]:
 
-* [[!UICONTROL 새 작업 기본값]](#new-task-defaults)
-* [[!UICONTROL 문제]](#issues)
-* [[!UICONTROL 삭제]](#deletion)
-* [[!UICONTROL 실제 일자]](#actual-dates)
-* [[!UICONTROL 위임]](#delegation)
+   * [[!UICONTROL 새 작업 기본값]](#new-task-defaults)
+   * [[!UICONTROL 문제]](#issues)
+   * [[!UICONTROL 삭제]](#deletion)
+   * [[!UICONTROL 실제 일자]](#actual-dates)
+   * [[!UICONTROL 위임]](#delegation)
 
-  <!--
-  <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Work On It</a> </li>
-  -->
+   <!--
+<li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">처리 중</a> </li>
+  —&gt;
 
 * [[!UICONTROL 액세스]](#access)
 
@@ -97,7 +97,7 @@ Linked to Converting Issues.-->
     <td> <p>작업의 계획 및 실제 비용 추정치를 계산합니다. 로 설정된 경우 <strong>[!UICONTROL 비용 없음]</strong>, 계획된 시간 및 기록된 실제 시간은 작업에 대한 계획 또는 실제 비용 예측을 생성하지 않으며, 작업에 대한 작업이 프로젝트 수준 비용에 기여하지 않습니다.</p> </td> 
     </tr> 
   </tbody> 
-  </table>
+</table>
 
 ### 문제 {#issues}
 
@@ -181,7 +181,7 @@ Linked to Converting Issues.-->
       </ul> </td> 
     </tr> 
   </tbody> 
-  </table>
+</table>
 
 ### 위임
 
@@ -192,7 +192,7 @@ Linked to Converting Issues.-->
 * 다음 [!UICONTROL 위임] 링크 [!UICONTROL 홈] 영역입니다. 여기에서 승인 또는 작업 및 문제 할당을 위임할 수 있습니다.
 * 작업 또는 문제가 의 다른 사용자에게 위임됨을 나타냅니다. [!UICONTROL 할당 및 위임] 작업 또는 문제 헤더의 영역입니다.
 
-을(를) 비활성화하면 [!UICONTROL 사용자가 작업 및 문제를 위임하도록 허용] 을 설정하면 현재 예약된 위임이 중지되고 위임된 사용자는 위임이 중지되었다는 이메일 알림을 받게 됩니다.
+  을(를) 비활성화하면 [!UICONTROL 사용자가 작업 및 문제를 위임하도록 허용] 을 설정하면 현재 예약된 위임이 중지되고 위임된 사용자는 위임이 중지되었다는 이메일 알림을 받게 됩니다.
 
 다른 사용자에게 작업을 위임하는 방법에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
@@ -257,7 +257,7 @@ I have not had a chance to follow up with customers to verify if this is still a
       </ul> </td> 
     </tr> 
   </tbody> 
-  </table>
+</table>
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
