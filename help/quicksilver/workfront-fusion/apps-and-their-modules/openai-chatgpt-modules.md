@@ -8,9 +8,9 @@ title: OpenAI(ChatGPT) 모듈
 description: Adobe Workfront Fusion 시나리오에서는 OpenAIT(ChatGPT)를 사용하는 워크플로를 자동화할 수 있을 뿐만 아니라 여러 타사 애플리케이션 및 서비스에 연결할 수 있습니다.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: a8bc882f393dcf17bca80da86c25c053272e27c9
+source-git-commit: aa672a81b0899c45c1c7e6abba03b6d975dc7017
 workflow-type: tm+mt
-source-wordcount: '1395'
+source-wordcount: '1320'
 ht-degree: 0%
 
 ---
@@ -97,7 +97,13 @@ ht-degree: 0%
 
 ### 완료 만들기
 
-이 작업 모듈은 제공된 프롬프트 또는 채팅에 대한 완료를 생성합니다.
+>[!IMPORTANT]
+>
+>이 모듈은 더 이상 사용되지 않습니다.
+
+<!--
+
+This action module creates a completion for the provided prompt or chat.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -105,22 +111,24 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL OpenAI (ChatGPT & DALL-E)] Workfront Fusion에 대한 계정은 다음을 참조하십시오. <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">연결 중 [!DNL OpenAI (ChatGPT & DALL-E)] 끝 [!DNL Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL OpenAI (ChatGPT & DALL-E)] account to Workfront Fusion, see <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">Connecting [!DNL OpenAI (ChatGPT & DALL-E)] to [!DNL Workfront Fusion]</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 모델]</td> 
-   <td> 사용할 모델의 ID를 입력하거나 매핑합니다. 모델 가져오기 모듈을 사용하여 사용 가능한 모든 모델을 볼 수 있습니다. </td> 
+   <td role="rowheader">[!UICONTROL Model]</td> 
+   <td> Enter or map the ID of the model to use. You can use the Get models module to see all of your available models. </td> 
   </tr> 
-  <!--<tr> 
+ <tr> 
    <td role="rowheader">[!UICONTROL Temperature]</td> 
    <td> This value must be between 0 and 2, and determines the randomness of the output. Higher values produce output that is more random, while lower values produce more focused output. </td> 
-  </tr> -->
+  </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 고급 설정]</td> 
-   <td> <p>이 모듈의 선택적 고급 설정에 대한 자세한 내용은 <a href="https://platform.openai.com/docs/api-reference/completions/create" class="MCXref xref">OpenAI API 설명서</a>.</p> </td> 
+   <td role="rowheader">[!UICONTROL Advanced settings]</td> 
+   <td> <p>For information about the optional advanced settings in this module, see the information about creating completions in the <a href="https://platform.openai.com/docs/api-reference/completions/create" class="MCXref xref">OpenAI API documentation</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+-->
 
 ### 중재 만들기
 
