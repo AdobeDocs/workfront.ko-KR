@@ -7,9 +7,9 @@ author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c0b25ec2-38a5-4499-9366-be3b71ae62a2
-source-git-commit: 90c4f33f988b2a303aa6ab11a797c90321c148af
+source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '82'
 ht-degree: 17%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 17%
 * [Adobe Workfront에서 지원되는 언어](../workfront-basics/supported-languages-in-workfront.md)
 * [Adobe Workfront 탐색: 문서 색인](../workfront-basics/navigate-workfront/navigate-workfront.md)
 * [홈](../workfront-basics/using-home/home.md)
-* [작업 항목 업데이트 및 업데이트 보기](../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
+* [작업 항목 업데이트 및 업데이트 보기: 문서 색인](../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
 * [사용자 정의 양식을 사용한 작업](../workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
 * [알림 사용: 문서 색인](../workfront-basics/using-notifications/use-notifications.md)
 * [오브젝트에 권한 부여 및 요청](../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)

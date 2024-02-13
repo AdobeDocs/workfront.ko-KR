@@ -6,9 +6,9 @@ description: 일반적으로 애자일 사례(팀 백로그 관리 또는 반복
 author: Alina and Lisa
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
 workflow-type: tm+mt
-source-wordcount: '1380'
+source-wordcount: '1433'
 ht-degree: 0%
 
 ---
@@ -77,16 +77,16 @@ ht-degree: 0%
 
 ### 프로젝트에서 애자일 보기를 사용할 때와 반복에서 사용할 때의 차이점 {#differences-when-using-the-agile-view-on-a-project-versus-on-an-iteration}
 
-* [작업 및 하위 작업은 스토리 보드에서 다양한 표시 규칙을 따릅니다.](#tasks-and-subtasks-follow-different-display-rules-on-the-story-board)
-* [백로그 및 반복은 사용되지 않습니다](#backlogs-and-iterations-are-not-used)
+* [작업 및 하위 작업은 프로젝트 애자일 보기와 반복의 스토리 보드에서 서로 다른 표시 규칙을 따릅니다](#tasks-and-subtasks-follow-different-display-rules-on-the-story-board)
+* [애자일 보기에서는 백로그 및 반복이 사용되지 않습니다](#backlogs-and-iterations-are-not-used)
 * [작업 순서는 애자일 보기에서 유지되며 순서를 변경할 수 없습니다.](#task-order-is-maintained-in-the-agile-view-and-cannot-be-reordered)
-* [작업은 계획된 시간으로만 측정됩니다.](#tasks-are-measured-only-in-planned-hours)
-* [애자일 팀이 사용되지 않음](#the-agile-team-is-not-used)
+* [작업은 프로젝트 목록의 계획된 시간에서만 측정됩니다.](#tasks-are-measured-only-in-planned-hours)
+* [애자일 팀은 애자일 보기에서 사용되지 않습니다](#the-agile-team-is-not-used)
 * [프로젝트의 각 사용자는 다른 애자일 보기에서 프로젝트를 볼 수 있습니다](#each-user-on-the-project-can-view-the-project-in-a-different-agile-view)
 
-#### 작업 및 하위 작업은 스토리 보드에서 다양한 표시 규칙을 따릅니다. {#tasks-and-subtasks-follow-different-display-rules-on-the-story-board}
+#### 작업 및 하위 작업은 프로젝트 애자일 보기와 반복의 스토리 보드에서 서로 다른 표시 규칙을 따릅니다 {#tasks-and-subtasks-follow-different-display-rules-on-the-story-board}
 
-* 상위 작업이나 하위 작업이 없는 작업은 항상 스토리 보드에 단일 스토리 카드로 표시됩니다.\
+* 상위 작업 또는 하위 작업이 없는 작업은 항상 애자일 보기의 스토리 보드에 단일 스토리 카드로 표시됩니다.\
   예를 들어 이러한 작업은 프로젝트 목록 보기에서 다음과 같이 표시됩니다.
 
   ![애자일 프로젝트 목록 - 상위 또는 하위 작업이 없는 작업](assets/agile-project-single-list-nwe.png)
@@ -95,7 +95,7 @@ ht-degree: 0%
 
   ![프로젝트 애자일 보기 - 상위 또는 하위 작업이 없는 작업](assets/agile-project-singlecard-nwe.png)
 
-* 하위 작업이 있는 상위 작업은 항상 **스토리** 스토리 보드의 열입니다. 하위 작업이 상위 작업의 스윔레인에 표시됩니다.\
+* 하위 작업이 있는 상위 작업은 항상 **스토리** 애자일 보기의 스토리 보드 열입니다. 하위 작업이 상위 작업의 스윔레인에 표시됩니다.\
   예를 들어 이러한 작업은 프로젝트 목록 보기에서 다음과 같이 표시됩니다.
 
   ![애자일 프로젝트 목록 - 상위 및 하위 작업이 있는 작업](assets/agile-project-parent-list-nwe.png)\
@@ -104,9 +104,9 @@ ht-degree: 0%
   ![애자일 프로젝트 보기 - 상위 및 하위 작업이 있는 작업](assets/agile-project-parent-nwe.png)
 
 * 두 번째 수준 하위 작업(하위 작업의 하위 작업)은 바로 위 상위 작업에서 정지된 회색 카드로 표시됩니다.
-* 세 번째 수준 하위 작업(하위 작업의 하위 작업)은 스토리 보드에 표시되지 않습니다.
+* 세 번째 수준 하위 작업(하위 작업의 하위 작업)은 애자일 보기에 표시되지 않습니다.
 
-#### 백로그 및 반복은 사용되지 않습니다 {#backlogs-and-iterations-are-not-used}
+#### 애자일 보기에서는 백로그 및 반복이 사용되지 않습니다 {#backlogs-and-iterations-are-not-used}
 
 애자일 보기에서 프로젝트를 볼 때 다음 애자일 구성 요소가 사용되지 않습니다.
 
@@ -119,13 +119,13 @@ ht-degree: 0%
 
 애자일 보기에서 프로젝트를 볼 때 프로젝트의 작업을 재정렬할 수 없습니다. 작업 순서를 수정하면 종속성이 있을 수 있는 다른 작업에 영향을 줄 수 있으므로 작업 순서를 수정하려면 표준 보기에서 프로젝트를 확인해야 합니다.
 
-#### 작업은 계획된 시간으로만 측정됩니다. {#tasks-are-measured-only-in-planned-hours}
+#### 작업은 프로젝트 목록의 계획된 시간에서만 측정됩니다. {#tasks-are-measured-only-in-planned-hours}
 
 프로젝트의 작업은 항상 계획된 시간 단위로 측정됩니다.
 
 반복에서는 작업(스토리)을 시간 또는 포인트 단위로 측정할 수 있습니다.
 
-#### 애자일 팀이 사용되지 않음 {#the-agile-team-is-not-used}
+#### 애자일 팀은 애자일 보기에서 사용되지 않습니다 {#the-agile-team-is-not-used}
 
 애자일 팀은 할당된 반복에 대한 작업을 완료하므로 애자일 보기에서 프로젝트를 볼 때 애자일 팀이 사용되지 않습니다.
 
@@ -137,7 +137,7 @@ ht-degree: 0%
 
 애자일 반복에서는 애자일 스토리 보드에서 사용할 수 있는 정보(예: 사용 가능한 상태 열)가 팀 수준에서 결정됩니다.
 
-애자일 보기를 사용자 지정하는 방법에 대한 자세한 내용은 [애자일 보기 만들기 또는 사용자 지정](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) 위치: [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+애자일 보기를 사용자 지정하는 방법에 대한 자세한 내용은 [애자일 보기 만들기 또는 사용자 지정](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) 위치: [Adobe Workfront에서 보기 만들기 또는 편집](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 ## 애자일 보기에서 프로젝트 보기
 

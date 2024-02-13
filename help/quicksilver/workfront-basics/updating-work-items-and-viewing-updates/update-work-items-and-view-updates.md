@@ -2,22 +2,24 @@
 content-type: reference
 product-area: projects
 navigation-topic: get-started-with-workfront
-title: 작업 항목 업데이트 및 업데이트 보기
-description: 대부분의 오브젝트의 업데이트 섹션을 사용하여 댓글, 답글을 추가하거나, 오브젝트에서 발생하는 변경 사항에 대한 시스템 추적 업데이트를 추적할 수 있습니다.
+title: "작업 항목 업데이트 및 업데이트 보기: 문서 색인"
+description: 대부분의 오브젝트의 업데이트 섹션을 사용하여 댓글과 응답을 추가하거나, 오브젝트에서 발생하는 변경 사항에 대한 시스템 추적 업데이트를 따를 수 있습니다.
 author: Alina
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: ef3440fd-92b7-4760-9f53-1b0e736d3a0f
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
 
-# 작업 항목 업데이트 및 업데이트 보기
+# 작업 항목 업데이트 및 업데이트 보기: 문서 색인
 
-대부분의 오브젝트의 업데이트 섹션을 사용하여 댓글, 답글을 추가하거나, 오브젝트에서 발생하는 변경 사항에 대한 시스템 추적 업데이트를 추적할 수 있습니다.
+<!-- Audited: 02/2024 -->
+
+대부분의 오브젝트의 업데이트 섹션을 사용하여 댓글과 응답을 추가하거나, 오브젝트에서 발생하는 변경 사항에 대한 시스템 추적 업데이트를 따를 수 있습니다.
 
 이 섹션에는 다음 문서가 포함됩니다.
 

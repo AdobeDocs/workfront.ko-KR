@@ -7,16 +7,16 @@ description: Adobe Workfront을 사용하면 작업 항목과 관련이 없는 �
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
 
 # 다른 사용자에게 다이렉트 메시지 보내기
 
-[!DNL Adobe Workfront] 을(를) 사용하면 작업 항목과 관련이 없는 메시지를 다른 항목에 직접 빠르고 쉽게 보낼 수 있습니다 [!DNL Workfront] 사용자. 이 섹션에 설명된 대로 보낸 메시지는 [!UICONTROL 업데이트] 사용자의 홈 페이지에 있는 탭이며 모든 사용자가 볼 수 있습니다. 업데이트에 대한 자세한 내용은 [작업 항목 업데이트 및 업데이트 보기](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
+[!DNL Adobe Workfront] 을(를) 사용하면 작업 항목과 관련이 없는 메시지를 다른 항목에 직접 빠르고 쉽게 보낼 수 있습니다 [!DNL Workfront] 사용자. 이 섹션에 설명된 대로 보낸 메시지는 [!UICONTROL 업데이트] 사용자의 홈 페이지에 있는 탭이며 모든 사용자가 볼 수 있습니다. 업데이트에 대한 자세한 내용은 [작업 항목 업데이트 및 업데이트 보기: 문서 색인](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
 
 메시지를 보내는 사용자는 이 섹션에 설명된 대로 메시지를 보낼 때 다음 유형의 알림을 받습니다.
 
@@ -37,7 +37,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 플랜*</strong></td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 

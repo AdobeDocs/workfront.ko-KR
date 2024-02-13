@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: d5b4531be831356f81880d9f6c90f472bbc8a6ed
+source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
 workflow-type: tm+mt
-source-wordcount: '13940'
+source-wordcount: '13942'
 ht-degree: 1%
 
 ---
@@ -874,7 +874,7 @@ ht-degree: 1%
          * [홈 캘린더 보기](workfront-basics/using-home/using-the-home-area/view-home-calendar.md)
          * [내 업데이트 영역 사용](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
    * 작업 항목 업데이트 및 업데이트 보기 {#update-work-items-view-updates}
-      * [작업 항목 업데이트 및 업데이트 보기](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
+      * [작업 항목 업데이트 및 업데이트 보기: 문서 색인](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
       * [업데이트 섹션 개요](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
       * [작업 업데이트](workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
       * [필드의 문자 제한](workfront-basics/updating-work-items-and-viewing-updates/character-limits-in-fields.md)
