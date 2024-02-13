@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: a9d9ae15f4d80fa6e09414459417cfd2b57daf42
+source-git-commit: d5b4531be831356f81880d9f6c90f472bbc8a6ed
 workflow-type: tm+mt
-source-wordcount: '5075'
+source-wordcount: '5105'
 ht-degree: 3%
 
 ---
@@ -393,7 +393,7 @@ ht-degree: 3%
    * 사용자
    * 그룹
    * 작업 역할
-   * 포트폴리오
+   * Portfolio
    * 프로그램
    * 프로젝트
    * 팀
@@ -499,6 +499,8 @@ ht-degree: 3%
 ### 외부 조회 필드 추가
 
 외부 조회 필드는 외부 API를 호출하고 드롭다운 필드에 값을 옵션으로 반환합니다. 사용자 정의 양식이 첨부된 오브젝트로 작업하는 사용자는 드롭다운에서 이러한 옵션 중 하나 이상을 선택할 수 있습니다. 외부 조회 필드는 목록 및 보고서에서도 사용할 수 있습니다.
+
+외부 조회 필드를 사용하여 Workfront 또는 공개 API의 동일한 인스턴스를 호출하는 예는 [사용자 정의 양식의 외부 조회 필드 예](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md).
 
 >[!NOTE]
 >

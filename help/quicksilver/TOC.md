@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: cd281e0dc91a2b39f54ceea674b36940ffb06a13
+source-git-commit: d5b4531be831356f81880d9f6c90f472bbc8a6ed
 workflow-type: tm+mt
-source-wordcount: '13930'
+source-wordcount: '13940'
 ht-degree: 1%
 
 ---
@@ -585,6 +585,7 @@ ht-degree: 1%
                * [양식 디자이너를 사용하여 사본에서 양식 디자인](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-from-copy.md)
                * [양식 디자이너를 사용하여 계산된 필드 추가](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
                * [양식 디자이너를 사용하여 표시 논리 및 건너뛰기 논리 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)
+               * [사용자 정의 양식의 외부 조회 필드 예](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
                * [양식 디자이너를 사용하여 양식 구성 및 미리 보기](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)
             * 양식 관리 {#manage-a-form}
                * [양식 관리](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/manage-a-form-toc.md)
