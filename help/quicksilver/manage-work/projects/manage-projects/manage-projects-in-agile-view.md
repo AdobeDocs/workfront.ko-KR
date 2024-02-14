@@ -6,14 +6,16 @@ description: 일반적으로 애자일 사례(팀 백로그 관리 또는 반복
 author: Alina and Lisa
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
+source-git-commit: 857c4e96b17b3b520d63ba02c196cae1cdc7f4ac
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1412'
 ht-degree: 0%
 
 ---
 
 # 애자일 보기에서 프로젝트 관리
+
+<!-- Audited: 2/2024 -->
 
 일반적으로 애자일 사례(팀 백로그 관리 또는 반복 생성 등)와 관련된 관리 문제 없이 프로젝트에 대한 애자일 기능을 활용할 수 있습니다.
 
@@ -32,7 +34,7 @@ ht-degree: 0%
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td> <p>현재: 검토 이상</p> 
    <p>새로운 기능: 기여자 이상</p> </td> 
   </tr> 
@@ -52,7 +54,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오. 액세스 요구 사항에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 애자일 프로젝트 이해
 
@@ -162,7 +164,7 @@ ht-degree: 0%
 
    사용자 지정 애자일 보기는 다음에 를 클릭할 때 사용됩니다. **애자일** 아이콘.
 
-   새 애자일 보기를 만드는 방법에 대한 자세한 내용은 [애자일 보기 만들기 및 사용자 지정](#create-and-customize-agile-views).
+   새 애자일 보기를 만드는 방법에 대한 자세한 내용은 [애자일 보기 만들기 및 사용자 지정](#create-and-customize-agile-views), 아래에 그룹화됩니다.
 
    프로젝트가 사용자 지정 애자일 보기에 표시됩니다.
 
@@ -170,7 +172,7 @@ ht-degree: 0%
 
    작업이 애자일 스토리 보드에 표시되지 않는 상태일 경우 작업 자체가 애자일 스토리 보드에 표시되지 않습니다(하지만 이러한 작업의 완료율은 여전히 상위 작업의 완료율 및 전체 프로젝트의 완료율에 기여함).
 
-   애자일 보기에 상태를 추가하려면 문서의 &quot;애자일 보기 만들기 또는 사용자 지정&quot; 섹션에 설명된 대로 새 애자일 보기를 만들거나 기존 애자일 보기를 사용자 지정합니다 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   애자일 보기에 상태를 추가하려면 의 설명에 따라 새 애자일 보기를 만들거나 기존 애자일 보기를 사용자 정의합니다 [애자일 보기 만들기 및 사용자 지정](#create-and-customize-agile-views), 아래에 그룹화됩니다.
 
 1. (선택 사항) 목록 보기로 돌아가려면 **목록** 아이콘.
 
@@ -180,7 +182,7 @@ ht-degree: 0%
 >
 >이 섹션은 프로젝트의 보드 보기가 아닌 레거시 애자일 보기에만 적용됩니다.
 
-Workfront의 표준 보기와 마찬가지로 기존 애자일 보기를 사용자 정의하거나 새 애자일 보기를 처음부터 만들 수 있습니다. 표준 보기와 달리 기존 애자일 보기를 기반으로 새 애자일 보기를 만들 수 없습니다.
+Workfront의 표준 보기와 마찬가지로 기존 애자일 보기를 사용자 정의하거나 처음부터 새 애자일 보기를 만들 수 있습니다. 표준 보기와 달리 기존 애자일 보기를 기반으로 새 애자일 보기를 만들 수 없습니다.
 
 애자일 보기 만들기 및 사용자 지정에 대한 자세한 내용은 [애자일 보기 만들기 또는 사용자 지정](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) 이 문서의 섹션 [Adobe Workfront에서 보기 만들기 또는 편집](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
