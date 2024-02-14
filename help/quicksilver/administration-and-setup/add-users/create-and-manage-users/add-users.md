@@ -4,18 +4,20 @@ product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 title: 사용자 추가
 description: Workfront 관리자 또는 전체 관리 액세스 권한을 가진 사용자는 Workfront에서 사용자를 추가할 수 있습니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: 5d4434d090c4b6cdefc9c313fecccf6d6e9a510b
+source-git-commit: 198129edd8690393e3214f5041b183b5516617a7
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1207'
 ht-degree: 1%
 
 ---
 
 # 사용자 추가
+
+<!--Audited 2/2024-->
 
 >[!IMPORTANT]
 >
@@ -50,7 +52,7 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td>플랜</td> 
+   <td><p>새로운 기능: 표준</p><p>또는</p><p>현재: 플랜</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
@@ -62,6 +64,8 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
   </tr> 
  </tbody> 
 </table>
+
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 전제 조건
 
@@ -89,7 +93,7 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
 
 ## 처음부터 사용자 만들기
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 상단에서 을(를) 클릭한 다음 **사용자** ![](assets/users-icon-in-main-menu.png).
+1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리에서 을(를) 클릭하고 **사용자** ![](assets/users-icon-in-main-menu.png).
 
 1. 클릭 **새 사용자 > 새 사용자** Workfront에 아직 추가되지 않은 사용자를 추가합니다.
 
@@ -110,13 +114,9 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
 
    >[!NOTE]
    >
-   >Workfront 관리자가 Workfront과의 SSO 통합을 활성화한 경우 &lt;sso configuration=&quot;&quot;> 전자 메일 초대를 비활성화하면 인증 필드가 표시되지 않습니다. 페더레이션 ID 또는 &lt;sso configuration=&quot;&quot;> 사용자 이름 필드는 계속 표시됩니다.
-
-   >[!NOTE]
+   >* Workfront 관리자가 Workfront과의 SSO 통합을 활성화한 경우 &lt;sso configuration=&quot;&quot;> 전자 메일 초대를 비활성화하면 인증 필드가 표시되지 않습니다. 페더레이션 ID 또는 &lt;sso configuration=&quot;&quot;> 사용자 이름 필드는 계속 표시됩니다.
    >
-   조직이 Admin Console에 온보딩되었고 Workfront을 통해 사용자를 추가하는 경우 이메일 초대를 보낼 수 있는 옵션이 없습니다.
-   >
-   새 Adobe 사용자가 Admin Console에 추가되고 Admin Console이 이메일을 보내 등록 프로세스를 완료하도록 초대합니다. 모든 사용자가 모든 Adobe 시스템에 액세스하려면 등록 프로세스를 완료해야 합니다.
+   * 조직이 Admin Console에 온보딩되었고 Workfront을 통해 사용자를 추가하는 경우 이메일 초대를 보낼 수 있는 옵션이 없습니다.
    >
    기존 Adobe 사용자의 경우, 사용자는 사용 가능한 Workfront에 대한 이메일을 받을 수도 있고 받지 못할 수도 있습니다. 제품에 대해 Adobe 관리자가 제어하는 기본 설정입니다.
 
@@ -124,7 +124,7 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
 
    또는
 
-   클릭 **사용자 추가 및 다른 사용자 시작** 새 사용자를 저장하고 다른 사용자를 추가합니다.
+   클릭 **사용자 추가 및 다른 작업 시작** 새 사용자를 저장하고 다른 사용자를 추가합니다.
 
    >[!NOTE]
    >
@@ -145,9 +145,9 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
 
 기존 사용자를 복사하여 새 사용자를 생성하려면 다음을 수행합니다.
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 상단에서 을(를) 클릭한 다음 **사용자** ![](assets/users-icon-in-main-menu.png).
+1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리에서 을(를) 클릭하고 **사용자** ![](assets/users-icon-in-main-menu.png).
 1. 복사할 사용자를 선택한 다음 복사 아이콘을 클릭합니다 ![](assets/copy-icon.png).
-1. 다음에서 **새 사용자** 표시되는 상자에서 새 사용자가 사용할 수 있는 필드를 편집합니다.
+1. 다음에서 **사용자 복사** 표시되는 상자에서 새 사용자가 사용할 수 있는 필드를 편집합니다.
 
    사용자와 관련된 모든 필드에 대한 자세한 내용은 [사용자 프로필 편집](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
@@ -155,7 +155,7 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
 
    또는
 
-   클릭 **사용자 추가 및 다른 사용자 시작** 새 사용자를 저장하고 다른 사용자를 추가합니다.
+   클릭 **사용자 추가 및 다른 작업 시작** 새 사용자를 저장하고 다른 사용자를 추가합니다.
 
 이렇게 하면 Workfront에서 사용자를 위한 새 계정이 만들어집니다.
 
@@ -164,7 +164,5 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
 >[!NOTE]
 >
 조직이 Admin Console에 온보딩되었고 Workfront을 통해 사용자를 추가하는 경우 이메일 초대를 보낼 수 있는 옵션이 없습니다.
->
-새 Adobe 사용자가 Admin Console에 추가되고 Admin Console이 이메일을 보내 등록 프로세스를 완료하도록 초대합니다. 모든 사용자가 모든 Adobe 시스템에 액세스하려면 등록 프로세스를 완료해야 합니다.
 >
 기존 Adobe 사용자의 경우, 사용자는 사용 가능한 Workfront에 대한 이메일을 받을 수도 있고 받지 못할 수도 있습니다. 제품에 대해 Adobe 관리자가 제어하는 기본 설정입니다.
