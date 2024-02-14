@@ -7,9 +7,9 @@ description: 작업 및 문제 할당을 관리할 때 스마트 할당을 사�
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
+source-git-commit: 75a67f1eb32d9ec03e27a0dbe2fde1bfaf3a7d1f
 workflow-type: tm+mt
-source-wordcount: '1231'
+source-wordcount: '1245'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,11 @@ ht-degree: 0%
 
   ![](assets/smart-assignments-summary-panel-nwe-350x332.png)
 
-* 작업 또는 문제를 열 때 지정 영역의 홈 영역에 나열된 항목에 대한 지정 필드
+* <span class="preview">프로젝트에 작업을 추가할 때 새 작업 상자의 할당 필드</span>
+
+  <span class="preview">![](assets/smart-assignments-new-task-modal.png)</span>
+
+* 작업 또는 문제를 열 때 홈 영역에 나열된 항목에 대한 할당 필드
 
   ![](assets/smart-assignments-in-home-nwe-350x216.png)
 
@@ -128,7 +132,7 @@ ht-degree: 0%
 
 자세한 내용은 섹션을 참조하십시오 [작업 및 문제에 대한 스마트 할당 기준](#smart-assignments-criteria-for-tasks-and-issues) 이 문서에서.
 
-이 단계에서 식별된 할당은 **결과** 섹션 아래에 그룹화됩니다. <!--update this to "Other assignments"-->
+이 단계에서 식별된 할당은 **기타 할당** 임무를 위한 지정 필드의 섹션. <!--update this to "Other assignments"-->
 
 ### 작업 및 문제에 대한 스마트 할당 기준
 
