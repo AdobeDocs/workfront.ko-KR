@@ -4,9 +4,9 @@ description: 2024년 1분기 프로젝트 개선 사항
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0e60aae4be4161918af248b49e9320f93f0e59d3
+source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '259'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->빠른 릴리스를 위한 프로덕션: 24.2 릴리스(2024년 2월) 포함, 모든 고객을 위한 프로덕션: 24.4 릴리스(2024년 4월) 포함
+>미리보기 릴리스: 2023년 12월 21일, 빠른 릴리스를 위한 프로덕션: 24.3 릴리스(2024년 3월), 모든 고객을 위한 프로덕션: 24.4 릴리스(2024년 4월)
 
 Workfront이 작업에 대한 스마트 할당을 계산하고 제안하는 데 사용하는 알고리즘을 변경했습니다. 새 알고리즘은 작업을 지정하는 Workfront의 작업 목록, 작업 헤더의 지정 영역, 홈 및 요약 패널에서 적용됩니다.
 

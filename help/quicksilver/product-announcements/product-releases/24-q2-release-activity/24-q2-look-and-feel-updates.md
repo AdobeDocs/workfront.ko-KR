@@ -4,9 +4,9 @@ description: 2024년 2분기 릴리스 기간 동안의 룩앤필 업데이트
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 91cb2fd85089a081192c85e373938a03a795a54b
+source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,14 @@ ht-degree: 0%
 이 페이지에서는 2024년 2분기 릴리스 기간 내에 이루어진 Adobe Workfront 애플리케이션의 다양한 영역의 모양 및 느낌에 대한 작은 업데이트를 설명합니다.
 
 2024년 2분기 릴리스에서 사용 가능한 모든 변경 사항의 목록은 을 참조하십시오. [2024년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## 두 개의 이메일 템플릿에 대한 룩앤필 업데이트
+
+>[!NOTE]
+>
+>모든 고객을 위한 릴리스: 24.2 릴리스 포함(2024년 2월 15일)
+
+에셋에 승인자를 추가하고 보드에 사용자를 추가하기 위한 이메일 템플릿이 다른 Adobe 이메일 템플릿에 더 잘 부합하고 명확성과 유용성을 개선하도록 업데이트되었습니다.
 
 ## 사용자 지정 Forms 영역의 탭에 대한 새로운 룩앤필 업데이트
 

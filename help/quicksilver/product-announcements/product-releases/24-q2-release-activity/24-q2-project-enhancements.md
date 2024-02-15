@@ -4,9 +4,9 @@ description: 2024년 2분기 프로젝트 개선 사항
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4612d1915340c6053bf658f729b8b10e09f646f7
+source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,26 @@ ht-degree: 0%
 
 2024년 2분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [2024년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
+
+## 새 작업 워크플로우에 더 많은 관련 할당이 추가됨
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2024년 2월 13일, 빠른 릴리스를 위한 프로덕션: 24.3 릴리스(2024년 3월), 모든 고객을 위한 프로덕션: 24.4 릴리스(2024년 4월)
+
+다음 영역의 할당 필드에 보다 관련성이 높은 스마트 할당에 대해 동일한 기능을 추가했습니다.
+
+* 프로젝트에 작업을 추가할 때의 새 작업 상자
+
+* 프로젝트 작업 목록에서
+
+자세한 내용은 [스마트 할당 개요](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
+
 ## 더 관련성 있는 스마트 할당
 
 >[!NOTE]
 >
->빠른 릴리스를 위한 프로덕션: 24.2 릴리스(2024년 2월) 포함, 모든 고객을 위한 프로덕션: 24.4 릴리스(2024년 4월) 포함
+>미리보기 릴리스: 2023년 12월 21일, 빠른 릴리스를 위한 프로덕션: 24.3 릴리스(2024년 3월), 모든 고객을 위한 프로덕션: 24.4 릴리스(2024년 4월)
 
 Workfront이 작업에 대한 스마트 할당을 계산하고 제안하는 데 사용하는 알고리즘을 변경했습니다. 새 알고리즘은 작업을 지정하는 Workfront의 작업 목록, 작업 헤더의 지정 영역, 홈 및 요약 패널에서 적용됩니다.
 

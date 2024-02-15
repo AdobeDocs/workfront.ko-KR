@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 0e60aae4be4161918af248b49e9320f93f0e59d3
+source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 0%
@@ -357,7 +357,7 @@ ht-degree: 0%
                                 <p>참고: 이 기능은 24.4 릴리스까지 미리보기에 남아 있습니다.</p>
                             </li>
                             <li>
-                                <p>빠른 릴리스를 위한 프로덕션: 24.2 릴리스 포함(2024년 2월)</p>
+                                <p>빠른 릴리스를 위한 프로덕션: 24.3 릴리스 포함(2024년 3월)</p>
                             </li>
                             <li>
                                 <p>모든 고객을 위한 프로덕션: 24.4 릴리스 포함(2024년 4월)</p>
