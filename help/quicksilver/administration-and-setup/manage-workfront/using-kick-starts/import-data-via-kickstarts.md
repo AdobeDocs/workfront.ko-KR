@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 22c8f41f725784e348c44b209b9bc1537b26c952
 workflow-type: tm+mt
-source-wordcount: '2780'
+source-wordcount: '2725'
 ht-degree: 6%
 
 ---
@@ -51,11 +51,12 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>Workfront 관리자여야 합니다.</p> <p><b>참고</b>:</p> 
-   <p> 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td>Workfront 관리자여야 합니다. </td> 
   </tr> 
  </tbody> 
 </table>
+
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 제한 사항
 
@@ -200,27 +201,9 @@ ht-degree: 6%
      </tr>
 
    <tr> 
-      <td>레거시 리소스 풀</td> 
-      <td>Excel 파일로 내보내기</td> 
-      <td> <p> 레거시 리소스 풀</p> <p>환경 설정 </p> </td> 
-     </tr>
-
-   <tr> 
       <td>마일스톤 경로</td> 
       <td> Excel 파일로 내보내기</td> 
       <td> <p> 마일스톤</p> <p>마일스톤 경로</p> <p>환경 설정 </p> </td> 
-     </tr>
-
-   <tr> 
-      <td>비인적 자원</td> 
-      <td> Excel 파일로 내보내기</td> 
-      <td> <p> 비인적 자원</p> <p>환경 설정</p></td> 
-     </tr>
-
-   <tr> 
-      <td>비인적 자원 범주</td> 
-      <td> Excel 파일로 내보내기</td> 
-      <td> <p> 비인적 자원 범주</p> <p>환경 설정</p></td> 
      </tr>
 
    <tr> 
@@ -229,9 +212,9 @@ ht-degree: 6%
       <td> <p> 참고</p> <p>환경 설정 </p> </td> 
      </tr> 
      <tr> 
-      <td>포트폴리오</td> 
+      <td>Portfolio</td> 
       <td>Excel 파일로 내보내기</td> 
-      <td> <p> 포트폴리오</p> <p>환경 설정 </p> </td> 
+      <td> <p> Portfolio</p> <p>환경 설정 </p> </td> 
      </tr> 
      <tr> 
       <td>프로젝트</td> 
@@ -485,17 +468,17 @@ Excel 템플릿을 데이터로 채운 후 해당 데이터를 Workfront에 업�
   >* 보고서
   >* 문서
   >* 아바타
-  >* 속성 파일을 보거나 필터링하거나 그룹화합니다.
+  >* 속성 파일 보기, 필터링 또는 그룹화
   >
   >압축 가져오기 파일을 사용하는 경우 .ZIP 파일의 이름은 .xlsx 또는 .xls 파일과 같아야 하며 모든 파일의 구조 수준은 같아야 합니다(폴더 없음).
 
 템플릿 스프레드시트 데이터를 Workfront으로 가져오려면 다음을 수행하십시오.
 
-{{step-1-to-setup}}
-
 <!--1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).-->
 
-1. 클릭 **시스템** >**데이터 가져오기(킥스타트)**.
+{{step-1-to-setup}}
+
+1. 클릭 **시스템** > **데이터 가져오기(킥스타트)**.
 
 1. 다음에서 **킥스타트 스프레드시트로 데이터 업로드** 섹션, 클릭 **파일 선택**&#x200B;을 클릭한 다음 채워진 스프레드시트로 이동하여 선택합니다.
 
