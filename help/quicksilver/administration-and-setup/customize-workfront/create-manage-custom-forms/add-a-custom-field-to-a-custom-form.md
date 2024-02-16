@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: 0100baa3ce3eb266cf650eacfc94120f7c9eb49b
+source-git-commit: db362bd73e51b30090708822876ad02f7804d064
 workflow-type: tm+mt
-source-wordcount: '2335'
+source-wordcount: '2313'
 ht-degree: 2%
 
 ---
 
 # 기존 양식 빌더로 사용자 정의 양식에 사용자 정의 필드 추가
+
+<!-- Audited: 02/2024 -->
 
 사용자 정의 양식에서 작업할 때 새 사용자 정의 필드를 만들어 사용자 정의 양식에 추가할 수 있습니다.
 
@@ -36,30 +38,33 @@ ht-degree: 2%
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront 플랜*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront 플랜</p> </td> 
    <td>임의</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td>플랜</td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td>
+   <p>새로운 기능: 표준</p>
+   <p>또는</p>
+   <p>현재: 플랜</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>사용자 정의 양식에 대한 관리 액세스</p> <p>Workfront 관리자가 이 액세스 권한을 부여하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">사용자에게 특정 영역에 대한 관리 액세스 권한 부여</a>.</p> </td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td>사용자 정의 양식에 대한 관리 액세스 </td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 수준 구성을 알아보려면 Workfront 관리자에게 문의하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## 사용자 정의 양식에 사용자 정의 필드 추가
+## 사용자 정의 양식에 사용자 정의 필드 추가 {#add-custom-field-to-custom-form}
 
 1. 에 설명된 대로 사용자 정의 양식을 만들거나 편집하기 시작합니다. [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-1. 를 엽니다. **필드 추가** 탭.
+1. 다음 항목 선택 **필드 추가** 탭.
 
-   ![](assets/add-a-field.jpg)
+   ![필드 탭 추가](assets/add-a-field.jpg)
 
-1. 포함 **새 필드** ![](assets/new-field.jpg) 선택한 경우 아래에 나열된 필드 유형 중 하나를 선택합니다.
+1. 포함 **새 필드** ![새 필드 아이콘](assets/new-field.jpg) 선택한 경우 다음 필드 유형 중 하나를 선택합니다.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -77,7 +82,7 @@ ht-degree: 2%
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">포맷이 지정된 텍스트 필드</td> 
-      <td>필드에 여러 줄의 텍스트를 입력하고 굵게, 기울임체, 밑줄, 글머리 기호, 번호 매기기, 하이퍼링크 및 블록 따옴표로 텍스트 서식을 지정할 수 있습니다. 이 기능은 홈, 업데이트 영역, 목록, Workfront 개체의 세부 정보 영역에서 사용할 수 있습니다. 문자 길이는 15,000자로 제한되어 있어 많은 텍스트와 서식을 사용할 수 있습니다.</p> <p>API를 통해 이 필드에 액세스하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">API의 리치 텍스트 필드 스토리지</a>.</p> <p><b>참고</b>: Workfront 모바일 앱에서는 서식이 있는 텍스트 필드를 사용할 수 없습니다(향후 릴리스에서 사용 가능). </p> </td> 
+      <td>필드에 여러 줄의 텍스트를 입력하고 굵게, 기울임체, 밑줄, 글머리 기호, 번호 매기기, 하이퍼링크 및 블록 따옴표로 텍스트 서식을 지정할 수 있습니다. 이 기능은 홈, 업데이트 영역, 목록, Workfront 개체의 세부 정보 영역에서 사용할 수 있습니다. 문자 길이는 15,000자로 제한되어 있어 많은 텍스트와 서식을 사용할 수 있습니다.</p> <p>API를 통해 이 필드에 액세스하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">API의 리치 텍스트 필드 스토리지</a>.</p> <p><b>참고</b>: Workfront 모바일 앱에서는 서식이 있는 텍스트 필드를 사용할 수 없습니다. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">드롭다운</td> 
@@ -150,7 +155,7 @@ ht-degree: 2%
       <li>그렇게 할 수도 있지만 본인이나 다른 사용자가 Workfront에서 사용자 정의 양식을 사용하기 시작한 후에는 이 이름을 변경하지 않는 것이 좋습니다. 이 필드를 선택하면 이제 Workfront의 다른 영역에서 참조될 수 있는 사용자 지정 필드가 시스템에서 더 이상 인식되지 않습니다. <p>예를 들어 사용자 지정 필드를 보고서에 추가하고 나중에 이름을 변경하면 Workfront은 보고서에서 이를 인식하지 못하며 새 이름을 사용하여 보고서에 다시 추가하지 않으면 제대로 작동하지 않습니다.</p> </li>
       <li> <p>기본 제공 Workfront 필드에 이미 사용된 이름은 입력하지 않는 것이 좋습니다.</p> </li>
       <li><p>Workfront의 다른 영역에서 필드를 사용할 때 오류를 방지하려면 사용자 지정 필드 이름에 마침표/점 문자를 사용하지 않는 것이 좋습니다.</p></li>
-      </ul> <p>각 사용자 정의 필드 이름은 조직의 Workfront 인스턴스에서 고유해야 합니다. 이렇게 하면 다른 사용자 정의 양식에 대해 이미 만들어진 파일을 다시 사용할 수 있습니다. 자세한 내용은 <a href="#Add" class="MCXref xref">사용자 정의 양식에 사용자 정의 필드 추가</a> 이 문서에서.</p> </td>
+      </ul> <p>각 사용자 정의 필드 이름은 조직의 Workfront 인스턴스에서 고유해야 합니다. 이렇게 하면 다른 사용자 정의 양식에 대해 이미 만들어진 파일을 다시 사용할 수 있습니다. 자세한 내용은 <a href="#add-a-custom-field-to-a-custom-form">사용자 정의 양식에 사용자 정의 필드 추가</a> 이 문서에서.</p> </td>
      </tr> 
      <tr> 
       <td role="rowheader">지침</td> 
@@ -196,7 +201,8 @@ ht-degree: 2%
         <li>지정한 그룹에 속합니다</li> 
         <li>지정한 역할 또는 직함과 연결됩니다</li> 
         <li>필드를 사용하는 사용자와 동일한 그룹에 속합니다</li> 
-       </ul> <p>텍스트 모드 구문을 사용하여 선택한 객체 유형에 대한 필터를 정의해야 합니다. 텍스트 모드를 사용하여 필터를 만드는 방법에 대한 자세한 내용은 섹션을 참조하십시오 <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md#editing2" class="MCXref xref">필터에서 텍스트 모드 편집</a> 이 문서에서 <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">텍스트 모드 개요</a>. </p> <p><b>참고</b>:   
+       </ul> <p>텍스트 모드 구문을 사용하여 선택한 객체 유형에 대한 필터를 정의해야 합니다. 텍스트 모드를 사용하여 필터를 만드는 방법에 대한 자세한 내용은 <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">텍스트 모드를 사용하여 필터 편집</a>.</p>
+       <p><b>참고</b>:   
         <ul> 
          <li>기존 사용자 정의 양식을 편집하는 경우 자동 완성 필드에 필터를 추가해도 사용자가 필드를 사용하여 이미 추가한 오브젝트가 제거되지 않습니다(필터의 범위 외부).</li> 
          <li>모바일 장치에서는 이 필터를 사용할 수 없습니다. 자동 완성 필드에 필터를 사용하는 경우 필드는 필터의 영향을 받지 않는 사용자의 모바일 장치에 표시됩니다.</li> 
@@ -220,15 +226,15 @@ ht-degree: 2%
       <p><b>참고</b>: 다음에서는 이 옵션을 사용할 수 없습니다.</p> 
       <ul> 
       <li>경비, 회사, 반복, 청구 기록 및 그룹 오브젝트 유형과 연관된 사용자 정의 양식.</li> 
-      <li>계산 , 설명 텍스트 및 섹션 구분 필드 유형</li> 
+      <li>계산, 설명 텍스트 및 섹션 구분 필드 유형</li> 
       </ul>
       <p><b>중요 사항</b>: 여기에서 오브젝트 유형을 선택하거나 선택 취소하는 것은 선택한 오브젝트 유형과 연결되고 이 필드를 포함하는 모든 사용자 정의 양식에 영향을 줍니다. 예를 들어, 여기에서 오브젝트 유형을 선택 취소하고 사용자 정의 양식을 저장하는 경우 필드가 포함된 사용자 정의 양식의 해당 오브젝트 유형에 대해 필드의 값 변경 사항이 더 이상 추적되지 않습니다.</p>
        <p>여기에서 필드에 대한 오브젝트 유형을 선택하고 사용자 정의 양식을 저장하면 필드가 설정의 피드 업데이트 영역에 있는 사용자 정의 필드 탭에 표시됩니다.</p> 
        <p>반대로 설정의 피드 업데이트 영역에서 이 필드를 삭제하면 개체 유형과 연결되고 이 필드를 포함하는 모든 사용자 정의 양식에서 이 설정의 개체 유형이 선택 해제됩니다.</p> 
-       <p>자세한 내용은 섹션을 참조하십시오 <a href="../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md#adding-fields-to-the-update-feeds" class="MCXref xref">Workfront에서 추적할 필드 추가</a> 이 문서에서 <a href="../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md" class="MCXref xref">시스템 업데이트 구성</a>.</p> </td> 
+       <p>자세한 내용은 섹션을 참조하십시오 <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md#add-fields-you-want-workfront-to-track">Workfront에서 추적할 필드 추가</a> 이 문서에서 <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md">시스템 업데이트 구성</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">논리 추가</td> 
+      <td role="rowheader">논리 추가</td>
       <td>사용자가 기존 필드에서 선택한 사항을 기반으로 양식에 표시할 필드를 지정합니다. 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">사용자 정의 양식에 표시 논리 및 건너뛰기 논리 추가</a>.</td> 
      </tr> 
      <tr> 
@@ -269,11 +275,11 @@ ht-degree: 2%
    >* 라디오 단추로 변경하면 사용자가 변경하여 양식의 어떤 부분에서든 데이터를 저장할 때까지 Workfront에서는 사용자가 필드에 입력했을 수 있는 다중 선택 값을 유지합니다. 이때 다중 선택 유형 필드를 사용하여 선택한 모든 값은 선택한 라디오 단추 값으로 바뀝니다.
    >* 단일 선택 드롭다운으로 변경하면 Workfront에서는 사용자가 변경하여 필드에 저장할 때까지 사용자가 필드에 입력했을 수 있는 다중 선택 값을 유지합니다. 이때 다중 선택 유형 필드를 사용하여 선택한 모든 값은 선택한 드롭다운 값으로 바뀝니다.
 
-1. (선택 사항) 2-6단계를 반복하여 다른 사용자 정의 필드를 추가합니다.
+1. (선택 사항) 3-5단계를 반복하여 사용자 정의 필드를 더 추가합니다.
 
    또는
 
-   에 설명된 대로 조직에 대해 이미 생성된 필드를 추가합니다. [사용자 정의 양식에서 사용자 정의 필드 또는 위젯 재사용](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md#add).
+   에 설명된 대로 조직에 대해 이미 생성된 필드를 추가합니다. [사용자 정의 양식에서 사용자 정의 필드 또는 위젯 재사용](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
 
    >[!NOTE]
    >
