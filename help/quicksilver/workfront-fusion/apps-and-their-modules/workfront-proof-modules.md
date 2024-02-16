@@ -9,7 +9,7 @@ description: 다음에서 [!DNL Adobe Workfront Fusion] 시나리오에서는 �
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
-source-git-commit: 94ebd79a566ca946944339e3a5c1df9b3d2d2608
+source-git-commit: 614fd206ea2c5fe103beb5be8f5ff99c8a45a502
 workflow-type: tm+mt
 source-wordcount: '3099'
 ht-degree: 0%
@@ -102,7 +102,7 @@ ht-degree: 0%
                 <td>다음에 대한 암호 입력 [!DNL Workfront Proof] 계정입니다.</td>
             </tr>
             <tr>
-                <td  role="rowheader">[!UICONTROL 테넌트 이름]</td>
+                <td  role="rowheader">[!UICONTROL 테넌트 ID]</td>
                 <td><strong>참고</strong>: BYOK를 사용하지 않는 고객은 이 필드를 비워 두어야 합니다. <p>이 계정의 테넌트 ID를 입력하십시오. 테넌트 ID를 찾는 데 도움이 필요한 경우 Workfront 고객 지원 센터에 문의하십시오.</p></td>
             </tr>
             <tr>

@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: 기존 양식 빌더로 사용자 정의 양식에 사용자 정의 필드 추가
 description: 사용자 정의 양식에서 작업할 때 새 사용자 정의 필드를 만들어 사용자 정의 양식에 추가할 수 있습니다. 다른 사용자 정의 양식에 이미 추가된 사용자 정의 필드를 추가할 수도 있습니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: 9b4faccb6b4d61970abb69af60a0e8d47c9408e7
+source-git-commit: 0100baa3ce3eb266cf650eacfc94120f7c9eb49b
 workflow-type: tm+mt
-source-wordcount: '2305'
+source-wordcount: '2335'
 ht-degree: 2%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 2%
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Adobe Workfront 플랜*</p> </td> 
-   <td>모든</td> 
+   <td>임의</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
@@ -90,7 +90,7 @@ ht-degree: 2%
       <ul><li>사용자</li>
       <li>그룹</li>
       <li>작업 역할</li>
-      <li>포트폴리오</li>
+      <li>Portfolio</li>
       <li>프로그램</li>
       <li>프로젝트</li>
       <li>팀</li>
@@ -165,6 +165,8 @@ ht-degree: 2%
    <p><strong>예:</strong> 하나 이상의 객체에 텍스트 형식의 필드 숫자 값을 저장하고 나중에 형식을 숫자 또는 통화로 변경하면 오류가 발생하지 않습니다. </p>
       <p>그러나 하나 이상의 개체에 텍스트 형식의 필드에 영숫자 값을 저장한 다음 형식을 숫자 또는 통화로 변경하려고 하면 저장된 영숫자 값이 숫자 또는 통화 형식과 호환되지 않으므로 오류가 발생합니다. </p>
 
+   <p><strong>참고:</strong> 숫자 필드의 문자 길이는 16자로 제한됩니다. 텍스트 필드를 사용하여 숫자를 입력하고 제한을 피할 수도 있습니다.</p>
+
    </td> 
      </tr> 
      <tr> 
@@ -181,7 +183,7 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader">참조 오브젝트 유형</td> 
-      <td> <p>(자동 완성 필드만 해당) 필드와 연결할 개체 유형을 선택합니다.</p> <p>적용 또는 저장+닫기를 클릭하면 필드의 오브젝트 유형을 변경할 수 없습니다.</p> <p><b>메모</b>:   
+      <td> <p>(자동 완성 필드만 해당) 필드와 연결할 개체 유형을 선택합니다.</p> <p>적용 또는 저장+닫기를 클릭하면 필드의 오브젝트 유형을 변경할 수 없습니다.</p> <p><b>참고</b>:   
         <ul> 
          <li>Workfront 관리자가 Workfront 사용자 인터페이스에서 Portfolio, 프로그램 또는 프로젝트 이름을 사용자 지정한 경우 개체에 대한 기본 Workfront 이름이 사용자 지정한 이름이 아니라 이 드롭다운 목록에 표시됩니다. 이에 대한 도움이 필요한 경우 Workfront 관리자에게 문의하십시오.<br></li> 
          <li>iOS 및 Android Workfront Mobile 앱에서는 사용자, 회사, 그룹, 작업 역할, Portfolio, 프로그램, 프로젝트 및 템플릿과 같은 오브젝트 유형이 지원됩니다.</li> 
@@ -194,7 +196,7 @@ ht-degree: 2%
         <li>지정한 그룹에 속합니다</li> 
         <li>지정한 역할 또는 직함과 연결됩니다</li> 
         <li>필드를 사용하는 사용자와 동일한 그룹에 속합니다</li> 
-       </ul> <p>텍스트 모드 구문을 사용하여 선택한 객체 유형에 대한 필터를 정의해야 합니다. 텍스트 모드를 사용하여 필터를 만드는 방법에 대한 자세한 내용은 섹션을 참조하십시오 <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md#editing2" class="MCXref xref">필터에서 텍스트 모드 편집</a> 이 문서에서 <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">텍스트 모드 개요</a>. </p> <p><b>메모</b>:   
+       </ul> <p>텍스트 모드 구문을 사용하여 선택한 객체 유형에 대한 필터를 정의해야 합니다. 텍스트 모드를 사용하여 필터를 만드는 방법에 대한 자세한 내용은 섹션을 참조하십시오 <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md#editing2" class="MCXref xref">필터에서 텍스트 모드 편집</a> 이 문서에서 <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">텍스트 모드 개요</a>. </p> <p><b>참고</b>:   
         <ul> 
          <li>기존 사용자 정의 양식을 편집하는 경우 자동 완성 필드에 필터를 추가해도 사용자가 필드를 사용하여 이미 추가한 오브젝트가 제거되지 않습니다(필터의 범위 외부).</li> 
          <li>모바일 장치에서는 이 필터를 사용할 수 없습니다. 자동 완성 필드에 필터를 사용하는 경우 필드는 필터의 영향을 받지 않는 사용자의 모바일 장치에 표시됩니다.</li> 
