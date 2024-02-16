@@ -9,7 +9,7 @@ description: 다음 작업을 수행하기 위해 [!DNL Adobe Workfront Fusion] 
 author: Becky
 feature: Workfront Fusion
 exl-id: 6c68c9b9-9f74-44a7-94ed-3785081b8331
-source-git-commit: 45540ccc3b9fca98f8aaae86ac4d6574a067a6e4
+source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
 workflow-type: tm+mt
 source-wordcount: '2236'
 ht-degree: 0%
@@ -289,7 +289,7 @@ OAuth 2.0 인증에 대한 자세한 내용은 [OAuth 2.0 인증 프레임워크
 
 ### 에 연결하기 위한 지침 [!DNL Microsoft Graph API] 를 통해 [!UICONTROL HTTP] > [!UICONTROL OAuth 2.0 요청] 모듈
 
-에 대한 지침은 [!DNL Microsoft Graph API], 참조 [호출 [!DNL MS Graph REST API] 를 통해 [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL OAuth 2.0 요청] 모듈](../../../workfront-fusion/connections/call-the-ms-graph-rest-api-.md).
+에 대한 지침은 [!DNL Microsoft Graph API], 참조 [호출 [!DNL MS Graph REST API] 를 통해 [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL OAuth 2.0 요청] 모듈](../../../workfront-fusion/connections/call-the-ms-graph-rest-api.md).
 
 ## OAuth 2.0 요청 모듈 설정
 

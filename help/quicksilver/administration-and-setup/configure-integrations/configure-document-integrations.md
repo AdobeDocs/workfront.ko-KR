@@ -8,7 +8,7 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
+source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 1%
@@ -195,7 +195,7 @@ ht-degree: 1%
 
 를 사용하는 방법에 대한 자세한 내용 [!DNL Workfront DAM], 참조 [를 사용하여 문서 관리 [!DNL Adobe Workfront DAM]](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md).
 
-사용자가 증명을 사용할 수 있는 방법에 대한 자세한 내용은 [증명 만들기](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs--in-wf.md).
+사용자가 증명을 사용할 수 있는 방법에 대한 자세한 내용은 [증명 만들기](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md).
 
 사용자가 서드파티 문서 통합을 구성한 후 이를 사용할 수 있는 방법에 대한 자세한 내용은 [외부 애플리케이션에서 문서 연결](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 

@@ -8,7 +8,7 @@ author: Lisa
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: 0c3621e2-26e5-4b9f-84cc-967761a3f050
-source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
+source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
 workflow-type: tm+mt
 source-wordcount: '47'
 ht-degree: 4%
@@ -23,4 +23,4 @@ ht-degree: 4%
 * [반복 완료 상태 개요](../../../agile/use-scrum-in-an-agile-team/burndown/iteration-completion-status-overview.md)
 * [번다운 차트 크기 조정 및 축소](../../../agile/use-scrum-in-an-agile-team/burndown/resize-collapse-burndown-chart.md)
 * [번다운 차트에서 데이터 동기화](../../../agile/use-scrum-in-an-agile-team/burndown/sync-the-burndown-chart.md)
-* [번다운 차트에 대체 팀 일정 사용](../../../agile/use-scrum-in-an-agile-team/burndown/use-alt--team-schedule-burndown-charts.md)
+* [번다운 차트에 대체 팀 일정 사용](../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md)

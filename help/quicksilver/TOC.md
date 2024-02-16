@@ -3,7 +3,7 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: db362bd73e51b30090708822876ad02f7804d064
+source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
 workflow-type: tm+mt
 source-wordcount: '13950'
 ht-degree: 1%
@@ -678,7 +678,7 @@ ht-degree: 1%
          * [API 키 관리](administration-and-setup/manage-workfront/security/manage-api-keys.md)
          * [개인정보 처리방침](administration-and-setup/manage-workfront/security/workfront-privacy-policy.md)
          * [향상된 인증 개요](administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md)
-         * [향상된 인증을 사용할 때 IDP에서 SAML 2.0 메타데이터 업데이트](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth-.md)
+         * [향상된 인증을 사용할 때 IDP에서 SAML 2.0 메타데이터 업데이트](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth.md)
       * 환율 {#exchange-rates}
          * [환율](administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md)
          * [환율 설정](administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)
@@ -1049,7 +1049,7 @@ ht-degree: 1%
          * [반복 완료 상태 개요](agile/use-scrum-in-an-agile-team/burndown/iteration-completion-status-overview.md)
          * [번다운 차트 크기 조정 및 축소](agile/use-scrum-in-an-agile-team/burndown/resize-collapse-burndown-chart.md)
          * [번다운 차트에서 데이터 동기화](agile/use-scrum-in-an-agile-team/burndown/sync-the-burndown-chart.md)
-         * [번다운 차트에 대체 팀 일정 사용](agile/use-scrum-in-an-agile-team/burndown/use-alt--team-schedule-burndown-charts.md)
+         * [번다운 차트에 대체 팀 일정 사용](agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md)
       * 반복 {#iterations}
          * [반복](agile/use-scrum-in-an-agile-team/iterations/iterations.md)
          * [반복 개요](agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md)
@@ -1081,7 +1081,7 @@ ht-degree: 1%
 * 문서 {#documents}
    * [문서: 문서 색인](documents/documents-overview.md)
    * Adobe Workfront에 새 문서 추가 {#add-new-documents-to-workfront}
-      * [Adobe Workfront에 새 문서 추가](documents/adding-documents-to-workfront/add-new-documents--to-workfront.md)
+      * [Adobe Workfront에 새 문서 추가](documents/adding-documents-to-workfront/add-new-documents-to-workfront.md)
       * [파일 시스템에서 Adobe Workfront에 문서 추가](documents/adding-documents-to-workfront/add-documents-from-file-system.md)
       * [외부 애플리케이션에서 문서 연결](documents/adding-documents-to-workfront/link-documents-from-external-apps.md)
       * [Adobe Workfront과 외부 문서 스토리지 공급자 간의 링크 제거](documents/adding-documents-to-workfront/remove-links-between-wf-and-doc-apps.md)
@@ -1113,7 +1113,7 @@ ht-degree: 1%
       * [Adobe Workfront DAM 활성화](documents/workfront-dam-within-workfront/enable-wf-dam.md)
       * [Adobe Workfront DAM을 사용하여 문서 관리](documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md)
       * [Adobe Workfront 라이센싱 역할 유형과 Adobe Workfront DAM 역할 유형 비교](documents/workfront-dam-within-workfront/difference-between-wf-dam-role-types.md)
-      * [Adobe Workfront DAM에 대한 도움말 액세스](documents/workfront-dam-within-workfront/access-help--workfront-dam.md)
+      * [Adobe Workfront DAM에 대한 도움말 액세스](documents/workfront-dam-within-workfront/access-help-workfront-dam.md)
    * Workfront 및 Experience Manager Assets 통합 {#wf-aem-integrations}
       * [Workfront 및 Experience Manager Assets 통합](documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
       * Workfront for Experience Manager 강화 커넥터 {#wf-aem-enhanced-connector}
@@ -1815,11 +1815,11 @@ ht-degree: 1%
          * [증명 진행 상황 및 상태 개요](review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md)
          * [웹 증명 뷰어와 데스크탑 증명 뷰어의 차이점 개요](review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)
       * 증명 만들기 {#create-proofs}
-         * [증명 만들기](review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs--in-wf.md)
+         * [증명 만들기](review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)
          * [개인 증명 기본값 구성](review-and-approve-work/proofing/creating-proofs-within-workfront/set-proof-defaults.md)
          * [여러 페이지로 된 증명 만들기](review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)
          * [웹 사이트 또는 기타 웹 콘텐츠에 대한 대화형 증명 만들기](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md)
-         * [ZIP 파일에 대화형 컨텐츠에 대한 증명 만들기](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content-.md)
+         * [ZIP 파일에 대화형 컨텐츠에 대한 증명 만들기](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md)
          * [웹 사이트 또는 기타 웹 컨텐츠에 대한 정적 증명 만들기](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md)
          * [문서에 대한 증명 만들기](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md)
          * [기본 워크플로를 사용하여 고급 증명 만들기](review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
@@ -2091,7 +2091,7 @@ ht-degree: 1%
       * [API 토큰 인증을 사용하는 웹 서비스에 Adobe Workfront Fusion 연결](workfront-fusion/connections/connect-wf-web-service-uses-api-token-auth.md)
       * [업데이트된 보안 조치를 사용하여 Adobe Workfront Fusion을 Google Services에 연결](workfront-fusion/connections/connect-to-google-with-new-security-measures.md)
       * [사용자 지정 OAuth 클라이언트를 사용하여 Adobe Workfront Fusion을 Google 서비스에 연결](workfront-fusion/connections/connect-fusion-to-google-using-oauth.md)
-      * [Adobe Workfront Fusion HTTP > OAuth 2.0 요청 모듈 만들기 를 통해 MS Graph REST API를 호출합니다](workfront-fusion/connections/call-the-ms-graph-rest-api-.md)
+      * [Adobe Workfront Fusion HTTP > OAuth 2.0 요청 모듈 만들기 를 통해 MS Graph REST API를 호출합니다](workfront-fusion/connections/call-the-ms-graph-rest-api.md)
       * [Adobe Workfront Fusion의 키](workfront-fusion/connections/keys.md)
       * [웹 서비스에서 웹후크 받기](workfront-fusion/connections/receive-a-webhook-from-a-web-service.md)
    * Adobe Workfront Fusion 오류 {#errors-in-fusion}

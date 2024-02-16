@@ -9,9 +9,9 @@ description: 연결은 연결되는 앱 또는 웹 서비스의 API에 의해 �
 author: Becky
 feature: Workfront Fusion
 exl-id: fb1a2af4-da58-48ba-85b5-1903d6a3ceda
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '568'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Workfront 및 [!DNL Workfront Fusion] 함께 작동하도록 디자인되었습�
 
 * 에 연결 중 [!DNL Microsoft Graph API] 사용 [!UICONTROL HTTP] 모듈
 
-  자세한 내용은 [호출 [!DNL MS Graph REST API] 를 통해 [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL OAuth 2.0 요청] 모듈](../../workfront-fusion/connections/call-the-ms-graph-rest-api-.md).
+  자세한 내용은 [호출 [!DNL MS Graph REST API] 를 통해 [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL OAuth 2.0 요청] 모듈](../../workfront-fusion/connections/call-the-ms-graph-rest-api.md).
 
 ## 에 연결 [!DNL Google] 앱 또는 웹 서비스
 

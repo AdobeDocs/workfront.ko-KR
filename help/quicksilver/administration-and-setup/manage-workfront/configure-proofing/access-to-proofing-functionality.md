@@ -9,7 +9,7 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 30a41ae9-9755-4c7b-9e3b-d4a8b0ad7ee8
-source-git-commit: f670255de4826f91094060b5cc20329c54d602d6
+source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 Workfront에서 증명을 만들고 볼 수 있는 사용자 액세스 권한을 부여하고 취소하는 방법에 대한 자세한 내용은 [사용자의 증명 액세스 구성](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md).
 
-* 외부 URL 및 문서에 대한 정적 또는 대화형 증명을 생성합니다. 자세한 내용은 [증명 만들기](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs--in-wf.md).
+* 외부 URL 및 문서에 대한 정적 또는 대화형 증명을 생성합니다. 자세한 내용은 [증명 만들기](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md).
 * 증명에 자동화된 워크플로 포함. 자세한 내용은 [자동화된 워크플로우 개요](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 * 증명에 대한 액세스 및 구독 설정을 지정합니다. 자세한 내용은 [증명에 대한 액세스 및 구독 설정 구성](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md).
 * Workfront에서 사용자에 대한 증명 기능을 활성화할 때 사용자 정의 증명 권한 프로필을 할당합니다. 자세한 내용은 [사용자에 대한 증명 활성화 및 비활성화(기존 계획만 해당)](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md#enabling-and-disabling-proofing-for-a-user) 위치: [사용자의 증명 액세스 구성](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md).

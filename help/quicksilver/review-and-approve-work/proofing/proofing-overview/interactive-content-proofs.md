@@ -6,7 +6,7 @@ description: 대화형 콘텐츠는 시청자를 유도하는 다양한 방법�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: fdcad9c6-5508-476a-bfb8-2fe3bfbb007b
-source-git-commit: 45dac4c5e8ff584546783d561c04d137697a03a4
+source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
 workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 0%
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 ZIP 번들 파일을 준비한 후 대화형 증명을 만듭니다.
 
-자세한 내용은 [ZIP 파일에 대화형 컨텐츠에 대한 증명 만들기](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content-.md).
+자세한 내용은 [ZIP 파일에 대화형 컨텐츠에 대한 증명 만들기](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md).
 
 또는 Workfront 증명을 사용하는 경우 섹션 을 참조하십시오 [대화형 콘텐츠에 대한 증명 생성](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md#generate-a-proof-for-interactive-content) 이 문서에서 [Workfront Proof에서 증명 생성](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
 

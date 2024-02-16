@@ -6,7 +6,7 @@ description: Workfront 확장 프로그램을 사용하여 Adobe Illustrator 및
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 40945eac-e8de-42af-b6ba-f3082c208e02
-source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
+source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
 workflow-type: tm+mt
 source-wordcount: '3076'
 ht-degree: 0%
@@ -285,7 +285,7 @@ Adobe 애플리케이션에서 문서에 대한 승인을 요청하려면
 
 ## Illustrator 또는 InDesign에서 증명 생성 {#generate-a-proof-from-illustrator-or-indesign}
 
-조직에서 자동화된 워크플로 템플릿을 사용하는 경우 응용 프로그램을 종료하지 않고 Adobe 응용 프로그램에서 만든 문서에 대한 증명을 생성할 수 있습니다. 증명 만들기에 대한 자세한 내용은 [증명 만들기](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs--in-wf.md). 자동화된 워크플로 템플릿에 대한 자세한 내용은 [자동화된 워크플로 템플릿](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md#automate) 위치: [자동화된 워크플로우 개요](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
+조직에서 자동화된 워크플로 템플릿을 사용하는 경우 응용 프로그램을 종료하지 않고 Adobe 응용 프로그램에서 만든 문서에 대한 증명을 생성할 수 있습니다. 증명 만들기에 대한 자세한 내용은 [증명 만들기](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md). 자동화된 워크플로 템플릿에 대한 자세한 내용은 [자동화된 워크플로 템플릿](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md#automate) 위치: [자동화된 워크플로우 개요](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 
 1. 지원되는 Adobe 애플리케이션 중 하나를 엽니다.
 1. Workfront 확장이 표시되지 않으면 을 클릭합니다. **창** > **확장** > Workfront.
