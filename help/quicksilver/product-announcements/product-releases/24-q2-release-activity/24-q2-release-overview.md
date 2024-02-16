@@ -4,9 +4,9 @@ description: 이 페이지에서는 2024년 2분기 릴리스에 포함된 기�
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
+source-git-commit: 930a04e02d73b75a6dac957e4dfbc76a5f73246f
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
@@ -54,16 +54,19 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">이제 양식 디자이너 베타에서 건너뛰기 논리 및 표시 논리를 사용할 수 있습니다</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">이제 양식 디자이너 베타에서 건너뛰기 논리 및 표시 논리를 사용할 수 있습니다</a></p>
                         <p>이제 양식 디자이너 베타에서 기존 표시 및 건너뛰기 논리를 편집하고 새 논리를 사용자 정의 양식에 추가할 수 있습니다. 사용하기 쉬운 논리 빌더를 사용하여 양식의 선택 사항을 기반으로 표시하거나 건너뛸 필드를 정의할 수 있습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
                             <li>
-                                <p>미리보기 릴리스: 2024년 2월 8일<br /></p>
+                                <p>미리보기 릴리스: 2024년 2월 8일</p>
                             </li>
                             <li>
-                                <p><span class="preview">모든 고객을 위한 프로덕션: 24.2 릴리스 포함(2024년 2월 15일)</span></p>
+                                <p>빠른 릴리스를 위한 프로덕션: 24.2 릴리스 포함(2024년 2월 15일)</p>
+                            </li>
+                            <li>
+                                <p>모든 고객을 위한 프로덕션: TBD</p>
                             </li>
                         </ul>
                     </td>

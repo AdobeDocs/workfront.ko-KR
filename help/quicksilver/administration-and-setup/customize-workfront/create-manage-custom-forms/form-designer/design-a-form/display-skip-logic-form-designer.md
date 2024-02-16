@@ -7,16 +7,20 @@ description: 사용자가 양식을 작성할 때 선택한 사항에 따라 사
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 2d46a047db8117983978f1411095bc8c022abbe2
+source-git-commit: 930a04e02d73b75a6dac957e4dfbc76a5f73246f
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1358'
 ht-degree: 0%
 
 ---
 
 # 양식 디자이너를 사용하여 표시 논리 및 건너뛰기 논리 추가
 
-{{highlighted-preview-article-level}}
+<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리보기 환경 또는 빠른 릴리스를 활성화한 고객의 프로덕션 환경에서만 사용할 수 있습니다.</span>
+
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 활성화 또는 비활성화](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">현재 릴리스에 대한 자세한 내용은 [2024년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 사용자가 양식을 작성할 때 선택한 사항에 따라 사용자 정의 양식의 표시 또는 생략 섹션을 결정할 수 있습니다.
 
