@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a8fe233f-3947-4afa-9f21-6bd8ed170646
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 이 페이지에서는 미리보기 환경에 대한 21.4 릴리스의 모든 요청 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2021년 10월 4일이 있는 주에 프로덕션 환경에서 사용할 수 있습니다.
 
-21.4 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [21.4 릴리스 개요](../../../product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md).
+21.4 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [21.4 릴리스 개요](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## 향상된 요청 검색에 특수 문자가 포함됨
 

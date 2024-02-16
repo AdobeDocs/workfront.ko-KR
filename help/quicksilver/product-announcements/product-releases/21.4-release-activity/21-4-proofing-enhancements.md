@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements, Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: a8141c36-3e57-47df-8f27-9166fbdf1358
-source-git-commit: ea1248f7b5227bbab222b3616ff4222122964358
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 이 페이지에서는 미리보기 환경에 대한 21.4 릴리스의 모든 증명 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2021년 10월 4일이 있는 주에 프로덕션 환경에서 사용할 수 있습니다.
 
-21.4 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [21.4 릴리스 개요](../../../product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md).
+21.4 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [21.4 릴리스 개요](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## 검토자 및 요청자를 위한 증명 기능 개선
 

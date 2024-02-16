@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '1608'
 ht-degree: 0%
@@ -73,7 +73,7 @@ ht-degree: 0%
 >
 >정적 IP 주소로 구성할 수 없어 Workfront이 활성화되지 않은 경우 일부 허용 목록에 추가하다 통합이 작동하지 않습니다. 다음 통합을 사용하려면 허용 목록에 추가하다를 비활성화해야 합니다.
 >
->* Workfront for G Suite
+>* G Suite용 Workfront
 >* Outlook용 Workfront
 >* Salesforce용 Workfront
 
@@ -124,7 +124,7 @@ ht-degree: 0%
      <li>52.14.70.114</li> 
      <li>52.15.230.220</li> 
      <li>54.71.252.65</li> 
-    </ul> <p>다음 IP 주소에 대한 자세한 내용은 <a href="../../product-announcements/announcements/announcement-archive/new-email-ip-21.1.md" class="MCXref xref">21.1 릴리스가 포함된 Adobe Workfront 이메일의 새 IP 주소</a></p> 
+    </ul> <p>다음 IP 주소에 대한 자세한 내용은 <a href="../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md" class="MCXref xref">21.1 릴리스가 포함된 Adobe Workfront 이메일의 새 IP 주소</a></p> 
     <ul> 
      <li>23.251.237.107</li> 
      <li>23.251.237.108</li> 
@@ -158,7 +158,7 @@ ht-degree: 0%
 * 54.220.93.204
 * 34.254.76.122
 
-다음 IP 주소에 대한 자세한 내용은 [21.1 릴리스가 포함된 Adobe Workfront 이메일의 새 IP 주소](../../product-announcements/announcements/announcement-archive/new-email-ip-21.1.md)
+다음 IP 주소에 대한 자세한 내용은 [21.1 릴리스가 포함된 Adobe Workfront 이메일의 새 IP 주소](../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md)
 
 * 23.251.239.98
 * 23.251.239.99

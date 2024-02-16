@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 891be3ab-ba65-406e-a90c-d7a9db8310e3
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 이 페이지에서는 프로덕션 환경에 대한 20.3 릴리스의 모든 통합 및 모바일 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2020년 8월 10일 주에 프로덕션 환경에서 사용할 수 있습니다.
 
-20.3 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [20.3 릴리스 개요](../../../product-announcements/product-releases/20.3-release-activity/20.3-release-overview.md).
+20.3 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [20.3 릴리스 개요](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
 
 ## Workfront Fusion 2.0이 출시되었습니다!
 

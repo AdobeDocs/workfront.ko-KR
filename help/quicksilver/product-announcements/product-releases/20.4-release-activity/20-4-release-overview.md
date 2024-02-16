@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7cf7f6ed-fe85-4c86-bb4b-dd93197338cf
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '3694'
 ht-degree: 0%
@@ -290,7 +290,7 @@ ht-degree: 0%
 
 ## Workfront Scenario Planner 개선 사항
 
-Workfront Scenario Planner 릴리스 20.4에 포함된 대부분의 새로운 기능. 이제 미리보기에서 사용할 수 있는 이러한 새로운 기능에 대한 자세한 내용은 [20.4 릴리스의 Workfront Scenario Planner - 2020년 10월 14일](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-20.4.md).
+Workfront Scenario Planner 릴리스 20.4에 포함된 대부분의 새로운 기능. 이제 미리보기에서 사용할 수 있는 이러한 새로운 기능에 대한 자세한 내용은 [20.4 릴리스의 Workfront Scenario Planner - 2020년 10월 14일](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-20-4.md).
 
 ## Workfront 목표 개선 사항
 

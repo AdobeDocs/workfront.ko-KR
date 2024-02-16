@@ -7,7 +7,7 @@ description: Portfolio은 통합 특성을 가진 프로젝트 모음입니다. 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: b340501e-1190-415e-aa96-5aad177c4b7b
-source-git-commit: d71ee30378c39975366f4f257e3f7b17aba0c0ae
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Portfolio 및 프로그램을 사용하여 프로젝트를 구성할 수 있습�
 * [!UICONTROL 보기] Portfolio에서 볼 수 있는 권한
 
 Portfolio 액세스에 대한 자세한 내용은 [액세스 수준 개요](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).\
-Portfolio 권한에 대한 자세한 내용은 [포트폴리오 공유](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).
+Portfolio 권한에 대한 자세한 내용은 [포트폴리오 공유](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
 
 프로그램 사용에 대한 자세한 내용은 [프로그램 만들기](../../../manage-work/portfolios/create-and-manage-programs/create-program.md).
 

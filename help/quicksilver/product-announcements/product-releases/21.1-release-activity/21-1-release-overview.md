@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3affee76-347e-4610-b255-4b1bb4414c5d
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '3658'
 ht-degree: 0%
@@ -365,7 +365,7 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](.
 
 성공적인 이메일 전달을 높이기 위해 클러스터 1, 2, 3, 4, 5에 대한 21.1 프로덕션 릴리스에 새 IP 주소를 추가합니다.
 
-클러스터에 추가해야 하는 IP 주소에 대한 자세한 내용은 [21.1 릴리스가 포함된 Adobe Workfront 이메일의 새 IP 주소](../../../product-announcements/announcements/announcement-archive/new-email-ip-21.1.md).
+클러스터에 추가해야 하는 IP 주소에 대한 자세한 내용은 [21.1 릴리스가 포함된 Adobe Workfront 이메일의 새 IP 주소](../../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md).
 
 인스턴스인 클러스터를 확인하려면 설정 > 시스템 > 고객 정보로 이동합니다.
 

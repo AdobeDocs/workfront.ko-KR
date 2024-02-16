@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 505a9602-580c-4932-a85c-6c9a7c8af457
-source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 12%
@@ -64,7 +64,7 @@ Adobe Workfront 릴리스 일정에 대한 자세한 내용은 다음을 참조�
   <tr> 
    <td> <p>2021년 릴리스</p> 
     <ul> 
-     <li> <p><a href="../../product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md" class="MCXref xref" xrefformat="{para}">21.4 릴리스 개요</a> </p> </li> 
+     <li> <p><a href="../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md" class="MCXref xref" xrefformat="{para}">21.4 릴리스 개요</a> </p> </li> 
      <li> <p><a href="../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md" class="MCXref xref" xrefformat="{para}">21.3 릴리스 개요</a> </p> </li> 
      <li> <p><a href="../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md" class="MCXref xref" xrefformat="{para}">21.2 릴리스 개요</a> </p> </li> 
      <li> <p><a href="../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md" class="MCXref xref" xrefformat="{para}">21.1 릴리스 개요</a> </p> </li> 
@@ -78,13 +78,13 @@ Adobe Workfront 릴리스 일정에 대한 자세한 내용은 다음을 참조�
   <tr> 
    <td> <p>2020년 릴리스</p> 
     <ul> 
-     <li><a href="../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md" class="MCXref xref" xrefformat="{para}">20.4 릴리스 개요</a> <li><a href="../../product-announcements/product-releases/20.3-release-activity/20.3-release-overview.md" class="MCXref xref" xrefformat="{para}">20.3 릴리스 개요</a> </li> <li><a href="/help/quicksilver/product-announcements/product-releases/2020.2.-release-activity/2020.2-release-overview.md">2020.2 릴리스 개요</a> </li> <li><a href="../../product-announcements/product-releases/2020.1-release-activity/2020.1-release-overview.md" class="MCXref xref" xrefformat="{para}">2020.1 릴리스 개요</a> </li> </li> 
+     <li><a href="../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md" class="MCXref xref" xrefformat="{para}">20.4 릴리스 개요</a> <li><a href="../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md" class="MCXref xref" xrefformat="{para}">20.3 릴리스 개요</a> </li> <li><a href="/help/quicksilver/product-announcements/product-releases/2020.2.-release-activity/2020.2-release-overview.md">2020.2 릴리스 개요</a> </li> <li><a href="../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md" class="MCXref xref" xrefformat="{para}">2020.1 릴리스 개요</a> </li> </li> 
     </ul> <p>2019년 릴리스</p> 
     <ul> 
-     <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019.3-release-activity-overview.md" class="MCXref xref" xrefformat="{para}">2019.3 릴리스 활동 개요</a> <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019.2-release-activity-overview.md" class="MCXref xref" xrefformat="{para}">2019.2 릴리스 활동 개요</a> </li> <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019.1-release-activity.md" class="MCXref xref" xrefformat="{para}">2019.1 릴리스 활동</a> </li> </li> 
+     <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md" class="MCXref xref" xrefformat="{para}">2019.3 릴리스 활동 개요</a> <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md" class="MCXref xref" xrefformat="{para}">2019.2 릴리스 활동 개요</a> </li> <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity.md" class="MCXref xref" xrefformat="{para}">2019.1 릴리스 활동</a> </li> </li> 
     </ul> <p>이전 릴리스</p> 
     <ul> 
-     <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018.3-release-activity.md" class="MCXref xref" xrefformat="{para}">2018.3 릴리스 활동</a> <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018.2-release-activity.md" class="MCXref xref" xrefformat="{para}">2018.2 릴리스 활동</a> </li> <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018.1-release-activity.md" class="MCXref xref" xrefformat="{para}">2018.1 릴리스 활동</a> </li> <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017.3-release-activity.md" class="MCXref xref" xrefformat="{para}">2017.3 릴리스 활동</a> </li> <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017.2-release-activity.md" class="MCXref xref" xrefformat="{para}">2017.2 릴리스 활동</a> </li> </li> 
+     <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity.md" class="MCXref xref" xrefformat="{para}">2018.3 릴리스 활동</a> <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity.md" class="MCXref xref" xrefformat="{para}">2018.2 릴리스 활동</a> </li> <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity.md" class="MCXref xref" xrefformat="{para}">2018.1 릴리스 활동</a> </li> <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity.md" class="MCXref xref" xrefformat="{para}">2017.3 릴리스 활동</a> </li> <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity.md" class="MCXref xref" xrefformat="{para}">2017.2 릴리스 활동</a> </li> </li> 
     </ul> </td> 
    <td> 
     <ul> 

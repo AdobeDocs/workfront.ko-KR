@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f86122a2-17c7-4df5-a958-177cc3d14f73
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 이 페이지에서는 프로덕션 환경에 대한 20.3 릴리스의 모든 Agile 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2020년 8월 10일 주에 프로덕션 환경에서 사용할 수 있습니다.
 
-20.3 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [20.3 릴리스 개요](../../../product-announcements/product-releases/20.3-release-activity/20.3-release-overview.md).
+20.3 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [20.3 릴리스 개요](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
 
 ## 카드가 칸반 보드에 남아 있는 기간을 선택하십시오.
 

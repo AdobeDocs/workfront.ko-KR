@@ -6,7 +6,7 @@ description: 만든 개체 또는 사용자와 공유된 개체에 대한 권한
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '1165'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Workfront에서 다음 개체를 다른 사용자와 공유할 수 있습니다.
 
 * **템플릿**: 자세한 내용은 [프로젝트 템플릿 공유](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
-* **Portfolio**: 자세한 내용은 [포트폴리오 공유](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).
+* **Portfolio**: 자세한 내용은 [포트폴리오 공유](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
 
 * **프로그램**: 자세한 내용은 [프로그램 공유](../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md) .
 

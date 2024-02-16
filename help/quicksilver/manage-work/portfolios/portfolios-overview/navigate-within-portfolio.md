@@ -6,7 +6,7 @@ description: 포트폴리오 내에서 탐색
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 0%
@@ -63,7 +63,7 @@ ht-degree: 0%
    * **[!UICONTROL 모두]**: 적어도 보기 액세스 권한이 있는 모든 포트폴리오를 포함합니다.\
 
      Portfolio 액세스에 대한 자세한 내용은 [액세스 수준 개요](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).\
-      Portfolio 권한에 대한 자세한 내용은  [포트폴리오 공유](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).
+      Portfolio 권한에 대한 자세한 내용은  [포트폴리오 공유](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
 
      새 포트폴리오를 추가하려면 다음을 참조하십시오. [포트폴리오 만들기](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
 
