@@ -3,7 +3,7 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
+source-git-commit: 321bc9e190916d417f2b981bb273bb2d01931540
 workflow-type: tm+mt
 source-wordcount: '13950'
 ht-degree: 1%
@@ -275,12 +275,12 @@ ht-degree: 1%
             * [20.3 통합 및 모바일 개선 사항](product-announcements/product-releases/20.3-release-activity/20-3-mobile-enhancements.md)
             * [20.3 기타 개선 사항](product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md)
          * 20.2 릴리스 {#release-20-2}
-            * [2020.2 릴리스 개요](product-announcements/product-releases/2020.2.-release-activity/2020.2-release-overview.md)
-            * [2020.2 모바일 개선 사항](product-announcements/product-releases/2020.2.-release-activity/2020.2-mobile-enhancements.md)
-            * [2020.2 기타 개선 사항](product-announcements/product-releases/2020.2.-release-activity/2020.2-other-enhancements.md)
-            * [2020.2 프로젝트 개선 사항](product-announcements/product-releases/2020.2.-release-activity/2020.2-project-enhancements.md)
-            * [2020.2 증명 개선 사항](product-announcements/product-releases/2020.2.-release-activity/2020.2-proofing-enhancements.md)
-            * [2020.2 리소스 관리 개선 사항: 업무 균형자](product-announcements/product-releases/2020.2.-release-activity/2020.2-resource-management.md)
+            * [2020.2 릴리스 개요](product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md)
+            * [2020.2 모바일 개선 사항](product-announcements/product-releases/2020.2.-release-activity/2020-2-mobile-enhancements.md)
+            * [2020.2 기타 개선 사항](product-announcements/product-releases/2020.2.-release-activity/2020-2-other-enhancements.md)
+            * [2020.2 프로젝트 개선 사항](product-announcements/product-releases/2020.2.-release-activity/2020-2-project-enhancements.md)
+            * [2020.2 증명 개선 사항](product-announcements/product-releases/2020.2.-release-activity/2020-2-proofing-enhancements.md)
+            * [2020.2 리소스 관리 개선 사항: 업무 균형자](product-announcements/product-releases/2020.2.-release-activity/2020-2-resource-management.md)
          * 20.1 릴리스 {#release-20-1}
             * [2020.1 릴리스 개요](product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md)
             * [2020.1 목록 개선 사항](product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md)
@@ -291,12 +291,12 @@ ht-degree: 1%
             * [2020.1 리소스 관리 개선 사항](product-announcements/product-releases/2020.1-release-activity/2020-1-resource-management-enhancements.md)
             * [2020.1 릴리스 이전에 프로덕션에 릴리스된 기타 Workfront Classic 기능](product-announcements/product-releases/2020.1-release-activity/prior-to-2020-1.md)
          * 2019.4 릴리스 {#release-19-4}
-            * [2019.4 릴리스 개요](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-release-activity-overview.md)
-            * [2019.4 목록 개선 사항](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-list-enhancements.md)
-            * [2019.4 모바일 개선 사항](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-mobile-enhancements.md)
-            * [2019.4 기타 개선 사항](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-other-enhancements.md)
-            * [2019.4 향상된 리소스 관리 기능](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-resource-management-enhancements.md)
-            * [2019.4 릴리스 이전에 프로덕션에 릴리스된 기타 Workfront Classic 기능](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/other-workfront-classic-features-prior-to-19.4.md)
+            * [2019.4 릴리스 개요](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md)
+            * [2019.4 목록 개선 사항](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md)
+            * [2019.4 모바일 개선 사항](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md)
+            * [2019.4 기타 개선 사항](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-other-enhancements.md)
+            * [2019.4 향상된 리소스 관리 기능](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-resource-management-enhancements.md)
+            * [2019.4 릴리스 이전에 프로덕션에 릴리스된 기타 Workfront Classic 기능](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/other-workfront-classic-features-prior-to-19-4.md)
          * 2019.3 릴리스 {#release-19-3}
             * [2019.3 릴리스 활동 개요](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md)
             * [2019.3 리소스 계획 개선 사항](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-resource-planning-enhancements.md)
