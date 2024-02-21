@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: 이메일 알림에 회신
 description: 프로젝트, 작업, 문제 및 기타 오브젝트에 대한 댓글에서 생성된 Workfront 이메일 알림에 응답하여 Adobe Workfront 애플리케이션에서 작성한 원래 댓글에 답글을 추가할 수 있습니다.
-author: Lisa and Alina
+author: Nolan and Alina
 feature: Get Started with Workfront
 exl-id: fea88410-8f37-49d0-9f5d-9fbac4ab5de6
-source-git-commit: 298b74c2d228a76c02d34470fa8298028605cab4
+source-git-commit: ea16514d15f0b00908d33e2f02dbf23e56b232d4
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '583'
 ht-degree: 1%
 
 ---
@@ -22,9 +22,11 @@ ht-degree: 1%
 * 이메일 내의 댓글 버튼을 사용하여 Workfront으로 다시 이동하고 업데이트 영역에서 업데이트에 회신할 수 있습니다.
 * 받은 이메일에 답장을 보냅니다. 답글 이메일이 원래 의견에 대한 Workfront 답글로 추가됩니다.
 
+<!--
 >[!NOTE]
 >
->클러스터 6의 환경에서는 이메일로 업데이트에 대한 답장을 보낼 수 없습니다.
+>Replying to updates by email is not available for environments on Cluster 6.
+-->
 
 다음 오브젝트에 대한 댓글로 생성된 Workfront 이메일에 응답할 수 있습니다.
 
@@ -33,7 +35,7 @@ ht-degree: 1%
 * 문제
 * 문서
 * 템플릿 및 템플릿 작업
-* 포트폴리오
+* Portfolio
 * 프로그램
 * 반복
 * 타임시트
@@ -48,7 +50,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront 플랜*</strong></td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront 라이센스*</strong></td> 
@@ -108,6 +110,6 @@ Workfront 이메일에 업데이트를 추가하려면 다음 작업을 수행�
 1. 이메일 회신에 업데이트를 입력합니다.
 
    첨부 파일이 허용되지 않으며 이메일의 업데이트에 적용된 서식 있는 텍스트 서식이 업데이트 탭에서 볼 때 업데이트에 표시되지 않습니다.
-1. 클릭 **보내기**.
+1. **보내기**&#x200B;를 클릭합니다.
 
    업데이트가 개체의 통신 스레드에 대한 응답으로 추가됩니다.
