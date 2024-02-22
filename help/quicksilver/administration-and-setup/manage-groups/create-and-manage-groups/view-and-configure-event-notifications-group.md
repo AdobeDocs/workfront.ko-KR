@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a815aeb1-3403-4491-a8ad-7e47c519905c
-source-git-commit: 0e8f8973ad4c1310b973bae4e6fe3578c05db204
+source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Workfront 관리자는 모든 그룹에 대해 이 작업을 수행할 수도 �
 
 Workfront 관리자가 이벤트 알림을 잠금 해제하는 방법에 대한 자세한 내용은 [모든 그룹에 대한 이벤트 알림 구성 잠금 해제 또는 잠금](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
 
-이벤트의 기본 알림 설정에 대한 자세한 내용은 [Adobe Workfront에서 사용할 수 있는 이벤트 알림](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+이벤트의 기본 알림 설정에 대한 자세한 내용은 [이벤트 알림 유형](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 ## 액세스 요구 사항
 
@@ -40,7 +40,7 @@ Workfront 관리자가 이벤트 알림을 잠금 해제하는 방법에 대한 
  <tbody> 
   <tr> 
    <td role="rowheader">Workfront 플랜*</td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
@@ -72,7 +72,6 @@ Workfront 관리자가 이벤트 알림을 잠금 해제하는 방법에 대한 
    >* 에 버튼이 있는 경우 <strong>활성</strong> 열이 회색이며 흐리게 표시되지 않습니다. <img src="assets/email-notification-disabled-unlocked.png">, 이벤트 알림: <strong>모든 사용자에 대해 비활성화됨</strong> 그룹 관리자는 자신의 그룹에 대해 활성화할 수 있습니다.
    >* 에 버튼이 있는 경우 <strong>활성</strong> 열이 파란색으로 흐리게 표시되어 있습니다. <img src="assets/email-notification-enabled-locked.png">, 이벤트 알림이 모든 사용자에 대해 활성화되며 그룹 관리자는 이를 비활성화하거나 그룹의 이메일 제목 줄을 편집할 수 없습니다.
    >* 에 버튼이 있는 경우 <strong>활성</strong> 열이 파란색이며 흐리게 표시되지 않습니다. <img src="assets/email-notification-enabled-unlocked.png">, 이벤트 알림: <strong>모든 사용자 및</strong> 그룹 관리자는 해당 그룹에 대해 비활성화할 수 있습니다.
-
 
 <!--
 This step (with substeps) is for functionality from a Sprint 3 2021 story that got put on hold. Also see the PDF on the story for some text earlier in the article that needs to be added. 

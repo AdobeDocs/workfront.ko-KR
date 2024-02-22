@@ -3,7 +3,7 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 1ccd3441e51b3c4ea61f5bedb83f12ea27a2aac5
+source-git-commit: e99dab2bc82dd2c2a64e177cbf0c2bb11973e4f5
 workflow-type: tm+mt
 source-wordcount: '13950'
 ht-degree: 1%
@@ -656,7 +656,7 @@ ht-degree: 1%
          * [이메일](administration-and-setup/manage-workfront/emails/emails.md)
          * [이메일 알림: 문서 색인](administration-and-setup/manage-workfront/emails/email-notifications-page.md)
          * [이벤트 알림 구성](administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
-         * [사용 가능한 이벤트 알림a](administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
+         * [이벤트 알림 유형](administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
          * [모든 그룹에 대한 이벤트 알림 잠금 해제](administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
          * [이벤트 알림 제목 줄](administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)
          * [사용자의 이메일 알림 설정 수정](administration-and-setup/manage-workfront/emails/modify-email-notification-settings-user-profiles.md)

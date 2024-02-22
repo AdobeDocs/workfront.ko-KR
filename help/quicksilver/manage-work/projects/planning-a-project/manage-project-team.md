@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
@@ -109,7 +109,7 @@ ht-degree: 0%
 
 프로젝트에서 어떤 역할도 수행하지 않는 사용자가 프로젝트 기간 동안 특정 업데이트 또는 변경 사항에 대한 알림을 받으려면 해당 사용자를 프로젝트 팀에 수동으로 추가할 수 있습니다.
 
-프로젝트 팀의 사용자에 대해 활성화할 수 있는 알림에 대한 자세한 내용은 을 참조하십시오. [Adobe Workfront에서 사용할 수 있는 이벤트 알림](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+프로젝트 팀의 사용자에 대해 활성화할 수 있는 알림에 대한 자세한 내용은 을 참조하십시오. [이벤트 알림 유형](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 <!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
 
