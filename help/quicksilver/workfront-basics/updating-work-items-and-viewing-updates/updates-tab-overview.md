@@ -7,9 +7,9 @@ description: 객체의 업데이트 섹션에는 사용자가 객체에 대해 �
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: d71ee30378c39975366f4f257e3f7b17aba0c0ae
+source-git-commit: 73c24892c3adc30e3a2f7b331b2d818ce7f157ea
 workflow-type: tm+mt
-source-wordcount: '1179'
+source-wordcount: '1243'
 ht-degree: 3%
 
 ---
@@ -42,7 +42,6 @@ ht-degree: 3%
 >새 주석 달기 경험은 Workfront 오브젝트의 업데이트 섹션에만 사용할 수 있고 다음 영역에서 오브젝트에 액세스할 때는 사용할 수 없습니다.
 >
 > * 홈
-> * 목록의 요약 패널
 > * 타임시트의 요약 패널
 > * 업무 균형자의 요약 패널
 
@@ -50,7 +49,7 @@ ht-degree: 3%
 
 오브젝트의 업데이트 섹션에는 시스템 업데이트와 지난 90일 이내에 수행한 가장 최근 업데이트 사용자 중 최대 200명이 표시됩니다.
 
-![](assets/updates-tab-after-unified-experience-for-issues.png)
+![업데이트 섹션](assets/updates-tab-with-unified-experience-for-issues-all-tab.png)
 
 댓글 달기 경험에 액세스하는 객체에 따라 업데이트 섹션에 대해 다음 경험을 찾을 수 있습니다.
 
@@ -79,7 +78,7 @@ ht-degree: 3%
    * 템플릿 작업
    * 타임시트
    * 프로그램
-   * 포트폴리오
+   * Portfolio
    * 사용자
 
 * 다음 개체에 대한 레거시 댓글 달기 환경만 해당:
@@ -90,7 +89,7 @@ ht-degree: 3%
 
 ### 새 댓글 달기 환경의 업데이트 섹션 개요
 
-![](assets/updates-tab-after-unified-experience-for-tasks.png)
+![업데이트 섹션](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
 >[!NOTE]
 >
@@ -102,6 +101,7 @@ ht-degree: 3%
 
    * **댓글**: 사용자가 작성한 댓글과 해당 댓글에 대한 답글을 표시합니다. 의견 탭을 사용하여 새 의견을 추가하거나 기존 의견에 회신할 수 있습니다. 새 댓글 달기 환경에서 오브젝트를 업데이트하는 방법에 대한 자세한 내용은 [작업 업데이트](../updating-work-items-and-viewing-updates/update-work.md).
    * **시스템 활동**: Workfront이 개체에 특정 이벤트를 기록하기 위해 만드는 정보 메시지인 시스템 업데이트를 표시합니다. 예를 들어 상태, 이름 또는 사용자 정의 필드의 변경 사항은 시스템 업데이트와 함께 캡처됩니다. Workfront 또는 그룹 관리자가 개체에 대한 시스템 업데이트를 활성화할 수 있습니다. 자세한 내용은 [시스템 업데이트 구성](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+   * **모두(읽기 전용)**: 사용자 댓글과 시스템 활동 댓글을 모두 한 곳에 표시합니다. 보기 전용 탭입니다. 모든 탭에서 기존 댓글에 댓글에 답글을 달거나 다른 사용자를 태그 지정할 수 없습니다. 특정 댓글에 회신하려면 모두 탭의 댓글 탭에 있는 링크를 사용합니다. 새 댓글 달기 환경에서 오브젝트를 업데이트하는 방법에 대한 자세한 내용은 [작업 업데이트](../updating-work-items-and-viewing-updates/update-work.md).
 
 * 다음 개체에는 시스템 활동 탭이 없습니다.
 
@@ -166,7 +166,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td>프로그램</td> 
-   <td>포트폴리오</td> 
+   <td>Portfolio</td> 
   </tr> 
   <tr> 
    <td>사용자</td> 

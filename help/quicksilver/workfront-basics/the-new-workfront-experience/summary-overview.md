@@ -3,11 +3,12 @@ content-type: overview
 title: 요약 개요
 description: 요약 패널을 사용하여 작업 문제 목록, 문서 또는 의 다른 영역에서 직접 작업 항목 정보를 검토하고 업데이트할 수 있습니다 [!DNL Adobe Workfront] 작업 및 문제를 표시합니다.
 feature: Get Started with Workfront
+author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
+source-git-commit: 73c24892c3adc30e3a2f7b331b2d818ce7f157ea
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 2%
+source-wordcount: '931'
+ht-degree: 1%
 
 ---
 
@@ -82,7 +83,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 플랜*</strong></td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
@@ -116,7 +117,7 @@ ht-degree: 2%
    >
    >한 번에 하나의 작업 또는 문제만 선택하여 다음에서 해당 세부 사항을 볼 수 있습니다. [!UICONTROL 요약] 패널.
 
-   ![요약 패널](assets/summary-panel-for-task.png)
+   ![요약 패널](assets/summary-panel-for-task-new-comments.png)
 
 1. (선택 사항) [!UICONTROL 요약] 패널, 다음 중 하나를 수행합니다.
 
@@ -136,21 +137,21 @@ ht-degree: 2%
 
 진행률 표시줄 사용 [!UICONTROL 요약] 을(를) 클릭하여 선택한 작업 또는 문제에 대한 완료율을 업데이트합니다. 숫자를 입력하거나 막대를 올바른 백분율로 끕니다.
 
-![](assets/summary-overview-percent-complete-350x395.png)
+![요약 패널의 완료율](assets/summary-overview-percent-complete.png)
 
 ## [!UICONTROL 업데이트]
 
 사용 [!UICONTROL 업데이트] 의 섹션 [!UICONTROL 요약] 선택한 작업 또는 문제에 대한 최근 업데이트를 보고 업데이트하기 위해 클릭 **[!UICONTROL 모두 보기]** 로 직접 이동 [!UICONTROL 업데이트] 탭에서 액세스할 수 있습니다.
 
-![](assets/summary-updates-with-block-quote-350x290.png)
+![요약 패널의 업데이트 섹션](assets/summary-updates-section.png)
 
 ## [!UICONTROL 문서]
 
 사용 [!UICONTROL 문서] 의 섹션 [!UICONTROL 요약] 을 눌러 선택한 작업 또는 문제에 첨부된 문서를 확인합니다. 문서 미리보기를 열려면 썸네일을 클릭합니다. 로 직접 이동 [!UICONTROL 문서] 작업 또는 문제의 탭에서 **[!UICONTROL 문서]** 제목.
 
-![](assets/summary-overview-documents-350x84.png)
+![요약 패널의 문서 섹션](assets/summary-documents-section.png)
 
-## [!UICONTROL 세부 정보]
+## [!UICONTROL 세부 사항]
 
 사용 [!UICONTROL 세부 사항] 의 섹션 [!UICONTROL 요약] 상위 레벨 작업 항목 세부 정보를 보거나, 할당하거나, 시작 일자를 추가하려면. 클릭 **[!UICONTROL 모두 보기]** 로 직접 이동 [!UICONTROL 세부 사항] 작업 또는 문제의 탭
 
@@ -158,7 +159,7 @@ ht-degree: 2%
 >
 >이 섹션에 나타나는 필드는 홈의 오른쪽 패널에 나타나는 필드와 동일합니다. 이러한 필드는 사용자 지정할 수 있습니다 [사용자 지정 [!UICONTROL 홈] 및 [!UICONTROL 요약] 레이아웃 템플릿 사용](../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
-![](assets/summary-overview-details-new-350x278.png)
+![요약 패널의 세부 정보 섹션](assets/summary-details-section.png)
 
 ## [!UICONTROL 하위 작업]
 
@@ -166,7 +167,7 @@ ht-degree: 2%
 
 작업에 하위 작업을 추가하지 않은 경우 **[!UICONTROL 여기에 하나 추가]** 로 직접 이동 [!UICONTROL 하위 작업] 탭에서 액세스할 수 있습니다.
 
-![](assets/summary-overview-subtasks-350x140.png)
+![요약 패널의 하위 작업 섹션](assets/summary-subtasks-section.png)
 
 ## [!UICONTROL 시간]
 
@@ -176,7 +177,7 @@ ht-degree: 2%
 
 계획이 없는 경우 [!UICONTROL 시간] 작업 또는 문제에서 시간을 기록하면 시간 표시줄에 빨간색으로 표시됩니다.
 
-![](assets/summary-overview-hours-350x96.png)
+![요약 패널의 시간 섹션](assets/summary-hours-section.png)
 
 ## 승인
 
@@ -184,4 +185,4 @@ ht-degree: 2%
 
 로 직접 이동 [!UICONTROL 승인] 작업 또는 문제의 탭에서 **[!UICONTROL 승인]** 제목.
 
-![](assets/summary-overview-approvals-350x122.png)
+![요약 패널의 승인 섹션](assets/summary-approvals-section.png)
