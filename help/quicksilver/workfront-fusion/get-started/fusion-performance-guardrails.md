@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion에는 Adobe Workfront 라이센스 외에 Ad
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: d80f84f8698d0c969dc94b46d7af70ff49c1039c
+source-git-commit: a866fec950343c73712f22a08e2e045e8b80dbd9
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '517'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,10 @@ ht-degree: 0%
 >[!DNL Adobe Workfront Fusion] 을(를) 필요로 합니다. [!DNL Adobe Workfront Fusion] 에 더해진 라이센스 [!DNL Adobe Workfront license].
 
 작업 자동화는 신속한 처리가 필요하므로 [!DNL Adobe Workfront Fusion] 높은 성능을 제공하도록 설계되었습니다. 오래 실행되는 시나리오는 작업의 속도를 저하시킬 수 있으므로 [!DNL Workfront Fusion] 실행 시간, 데이터 크기 및 기타 시나리오 매개 변수를 제한하는 성능 보존 가드레일 사용. [!DNL Workfront Fusion] 디자이너는 이러한 가드레일을 인식하고 이를 디자인 사례에 통합해야 합니다.
+
+## 브라우저
+
+Workfront Fusion은 Chrome 기반 브라우저만 지원합니다.
 
 ## 시나리오
 
@@ -53,7 +57,7 @@ ht-degree: 0%
 
   대용량 파일 또는 복잡한 모듈과 같은 많은 요인은 예측하거나 제어하기 어려운 방식으로 서버 메모리 사용에 영향을 줄 수 있습니다. 이 때문에 시나리오가 다른 모든 성능 보호 기능을 따르는 경우에도 시나리오 실행이 1GB 메모리 제한을 초과할 수 있습니다. 메모리 제한을 초과하면 실행이 실패합니다.
 
-## 웹훅
+## 웹후크
 
 * 페이로드의 기본 최대 크기는 입니다. **5MB**.
 * 웹후크는 다음으로 제한됩니다. **초당 요청 100개**. 이 한도에 도달하면 Workfront Fusion에서 429([!UICONTROL 요청이 너무 많음]) 상태.
@@ -65,7 +69,7 @@ ht-degree: 0%
 
 * 비활성화된 웹후크는 시나리오에 연결되어 있지 않고 30일 이상 비활성화된 상태인 경우 자동으로 삭제 및 등록 취소됩니다.
 
-## 실행 내역
+## 실행 기록
 
 * 실행 기록 로그의 크기는 다음과 같이 제한됩니다. **100MB**. 실행 기록이 이 크기를 초과하면 처음 100MB만 표시됩니다.
 
