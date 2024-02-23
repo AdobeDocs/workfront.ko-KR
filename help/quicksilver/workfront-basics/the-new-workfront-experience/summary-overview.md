@@ -5,14 +5,16 @@ description: 요약 패널을 사용하여 작업 문제 목록, 문서 또는 �
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 73c24892c3adc30e3a2f7b331b2d818ce7f157ea
+source-git-commit: ba81706f457e41c989bc34d9bdff81223b0d745e
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '970'
 ht-degree: 1%
 
 ---
 
 # [!UICONTROL 요약] 개요
+
+{{highlighted-preview}}
 
 다음을 사용할 수 있습니다. [!UICONTROL 요약] 작업 문제 목록, 문서 또는 의 다른 영역에서 작업 항목 정보를 직접 검토하고 업데이트하는 패널 [!DNL Adobe Workfront] 작업 및 문제를 표시합니다.
 
@@ -117,7 +119,15 @@ ht-degree: 1%
    >
    >한 번에 하나의 작업 또는 문제만 선택하여 다음에서 해당 세부 사항을 볼 수 있습니다. [!UICONTROL 요약] 패널.
 
+   <div class="preview">
+
+   미리보기 환경의 요약 패널 예:
    ![요약 패널](assets/summary-panel-for-task-new-comments.png)
+
+   </div>
+
+   프로덕션 환경의 요약 패널 예:
+   ![요약 패널](assets/summary-panel-for-task.png)
 
 1. (선택 사항) [!UICONTROL 요약] 패널, 다음 중 하나를 수행합니다.
 
@@ -143,7 +153,15 @@ ht-degree: 1%
 
 사용 [!UICONTROL 업데이트] 의 섹션 [!UICONTROL 요약] 선택한 작업 또는 문제에 대한 최근 업데이트를 보고 업데이트하기 위해 클릭 **[!UICONTROL 모두 보기]** 로 직접 이동 [!UICONTROL 업데이트] 탭에서 액세스할 수 있습니다.
 
+<div class="preview">
+
+미리보기 환경의 업데이트 예:
 ![요약 패널의 업데이트 섹션](assets/summary-updates-section.png)
+
+</div>
+
+프로덕션 환경의 업데이트 예:
+![요약 패널의 업데이트 섹션](assets/summary-updates-with-block-quote-350x290.png)
 
 ## [!UICONTROL 문서]
 
