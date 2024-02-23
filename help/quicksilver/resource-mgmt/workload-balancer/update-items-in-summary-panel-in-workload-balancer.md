@@ -6,14 +6,16 @@ description: 업무 균형자에서 요약 패널을 열어 할당된 작업 영
 author: Lisa
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: d19b817aabf169e1b8f38bf63f6ca5cc3c0de308
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '448'
 ht-degree: 1%
 
 ---
 
 # 요약을 사용하여 업무 균형자에서 작업 항목 업데이트
+
+{{highlighted-preview}}
 
 작업 또는 문제의 요약 패널을 사용하여 해당 항목에 대한 중요한 정보를 업데이트할 수 있습니다. 업무 균형자에서.
 
@@ -72,7 +74,7 @@ ht-degree: 1%
 
    또는
 
-   클릭 **요약 열기** 아이콘 ![](assets/summary-panel-icon.png)작업 또는 문제의 막대를 클릭하여 요약 패널을 엽니다
+   클릭 **요약 열기** 아이콘 ![](assets/summary-panel-icon.png)을 클릭한 다음 작업 또는 문제의 막대를 클릭하여 요약 패널을 엽니다.
 
    또는
 
@@ -80,7 +82,15 @@ ht-degree: 1%
 
    오른쪽에 요약 패널이 열립니다.
 
-   ![](assets/summary-panel-for-task-in-workload-balancer-350x449.png)
+   <div class="preview">
+
+   미리보기 환경의 요약 패널 예:
+   ![요약 패널](assets/summary-panel-task-wb-new-comments.png)
+
+   </div>
+
+   프로덕션 환경의 요약 패널 예:
+   ![요약 패널](assets/summary-panel-for-task-in-workload-balancer-350x449.png)
 
 1. 작업 항목에 대한 필드 수를 수정하거나, 업데이트를 입력하거나, 여기에서 Workfront의 다른 영역으로 이동하여 작업 항목에 문서 또는 기타 정보를 추가합니다.
 
