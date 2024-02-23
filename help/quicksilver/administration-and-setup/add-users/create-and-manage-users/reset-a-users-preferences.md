@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
+source-git-commit: c3cb97a36c29b90bbc9d8438d8811cc23266d894
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '335'
 ht-degree: 2%
 
 ---
@@ -86,7 +86,7 @@ Adobe Workfront 관리자는 Workfront 시스템의 모든 사용자에 대한 �
   </tr> 
   <tr> 
    <td>사용자 환경 설정</td> 
-   <td> <p>시스템 기본값으로 되돌림</p> <p>이메일 알림은 시스템 기본값으로 되돌아갑니다.</p> </td> 
+   <td> <p>시스템 기본값으로 되돌림</p> <p>이메일 알림은 시스템 기본값으로 되돌아갑니다. 기본 알림은에 나열됩니다. <a href="/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md">Adobe Workfront에서 사용할 수 있는 이벤트 알림</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>사용자 정의 탭</td> 

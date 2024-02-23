@@ -6,9 +6,9 @@ description: 작업 항목을 효율적으로 찾고 관리하는 사용자 또�
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: c3cb97a36c29b90bbc9d8438d8811cc23266d894
 workflow-type: tm+mt
-source-wordcount: '2460'
+source-wordcount: '2496'
 ht-degree: 0%
 
 ---
@@ -205,6 +205,10 @@ ht-degree: 0%
       > 특정 포트폴리오의 작업 오브젝트를 표시하려는 경우 다음 필터를 적용할 수 있습니다. &quot;Portfolio 이름에 마케팅이 포함되어 있습니다.&quot; 이름에 &quot;marketing&quot;이 포함된 포트폴리오에 속하는 작업 항목이 표시됩니다.
       >
       >![](assets/portfolio-name-filter-statement-wb-350x262.png)
+
+      >[!NOTE]
+      >
+      >보류 중 상태의 프로젝트를 제외하려면 &quot;프로젝트: 상태가 보류 중과 같지 않음&quot; 필터를 적용해야 합니다. 이렇게 하면 보류 중 프로젝트의 작업 항목이 업무 균형자에 표시되지 않습니다.
 
    1. (선택 사항) **삭제** 아이콘 ![](assets/delete.png) 필터 조건을 제거합니다.
 
