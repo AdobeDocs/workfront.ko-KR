@@ -6,9 +6,9 @@ description: 다음에서 [!UICONTROL 게시판] 대시보드에서 새 보드�
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: d431ae178a157522e2b5d8d963da7b0623510d28
+source-git-commit: b76d9ec49e28a186286e6ac2d2df3fcc3360c2d8
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '772'
 ht-degree: 1%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 1%
 
       >[!NOTE]
       >
-      >보드에 1,000개 이상의 카드가 있는 경우 보드 성능이 영향을 받습니다.
+      >동적 보드에 대한 카드 제한은 작업 1,000개, 문제 1,000개로, 총 2,000개의 카드에 대해 제한됩니다. 보드에 있는 카드 수가 많으면 보드 성능에 영향을 줄 수 있습니다.
 
    1. (선택 사항) 선택 [!UICONTROL **완료된 카드 보관 안 함**] 완료된 작업 및 문제를 완료됨 열에 표시되는 카드로 보드에 가져오기. 이 옵션을 선택하지 않으면 보드 생성 시 완료된 카드가 보드로 제공됩니다.
 
