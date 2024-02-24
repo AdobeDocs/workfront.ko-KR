@@ -4,9 +4,9 @@ description: 이 페이지에서는 2024년 2분기 릴리스에 포함된 기�
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b55217ee95a41d731c7ef1beebc3e5b32d04b48a
+source-git-commit: 47bfc377f593758e16793dd9999dda12a9b82ca9
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '1026'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,7 @@ ht-degree: 0%
 * [관리자 개선 사항](#administrator-enhancements)
 * [홈 개선 사항](#home-enhancements)
 * [프로젝트 개선 사항](#project-enhancements)
+* [스트림 및 알림 개선 사항 업데이트](#update-stream-and-notification-enhancements)
 * [기타 개선 사항](#other-enhancements)
 
 ### 관리자 개선 사항
@@ -184,7 +185,7 @@ ht-degree: 0%
            </tbody>
         </table>
 
-### 기타 개선 사항
+### 스트림 및 알림 개선 사항 업데이트
 
 <table>
             <col style="width: 50%;" />
@@ -202,7 +203,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">댓글과 시스템 활동 항목을 모두 캡처하는 새로운 업데이트 스트림 탭</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p><p>의견과 시스템 활동 로그를 연대순으로 집계하여 볼 수 있도록 모든 객체의 업데이트 영역에 세 번째 탭을 도입합니다. "모두" 탭은 사용자 댓글과 시스템 활동 댓글을 하나의 통합 스트림으로 캡처합니다.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">댓글과 시스템 활동 항목을 모두 캡처하는 새로운 업데이트 스트림 탭</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p><p>의견과 시스템 활동 로그를 연대순으로 집계하여 볼 수 있도록 모든 객체의 업데이트 영역에 세 번째 탭을 도입합니다. "모두" 탭은 사용자 댓글과 시스템 활동 댓글을 하나의 통합 스트림으로 캡처합니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
@@ -220,7 +221,7 @@ ht-degree: 0%
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">이제 요약 패널에서 새 댓글 스트림을 사용할 수 있습니다.</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p><p>이제 작업 및 문제 목록에 대한 요약 패널에 새로운 주석 달기 기능이 추가되었습니다.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">이제 요약 패널에서 새 댓글 스트림을 사용할 수 있습니다.</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p><p>이제 작업 및 문제 목록에 대한 요약 패널에 새로운 주석 달기 기능이 추가되었습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
@@ -234,6 +235,25 @@ ht-degree: 0%
                                 <p>분기별 릴리스 프로덕션: 24.4 릴리스 포함(2024년 4월)</p>
                             </li>
                         </ul>
+                    </td>
+                </tr>           
+           </tbody>
+</table>
+
+### 기타 개선 사항
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">기능</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">릴리스 날짜</span>
+                        </p>
                     </td>
                 </tr>
                 <tr>
