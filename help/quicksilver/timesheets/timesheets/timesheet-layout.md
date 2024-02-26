@@ -7,14 +7,16 @@ description: 이 문서에서는 Adobe Workfront의 타임시트 레이아웃에
 author: Alina
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: a1481513747bec3486d94c74c234e2db5cc664d6
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1066'
 ht-degree: 1%
 
 ---
 
 # 타임시트 레이아웃 개요
+
+{{highlighted-preview}}
 
 <!-- Audited: 12/2023 -->
 
@@ -119,6 +121,14 @@ ht-degree: 1%
 
 ## 왼쪽 패널의 업데이트 영역
 
+<div class="preview">
+
+미리보기 환경의 예:
+![왼쪽 타임시트 패널의 업데이트 영역](assets/timesheet-updates-with-all-tab.png)
+
+</div>
+
+프로덕션 환경의 예:
 ![왼쪽 타임시트 패널의 업데이트 영역](assets/timesheet-updates-section-unshimmed-redesign.png)
 
 타임시트의 왼쪽 패널에 있는 업데이트 섹션에서 타임시트 승인자 또는 다른 사용자와 소통하기 위해 타임시트에 댓글을 달 수 있습니다.
