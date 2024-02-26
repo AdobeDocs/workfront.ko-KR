@@ -6,14 +6,16 @@ description: Adobe Workfront 개체에 업데이트 설명을 제공하면 프�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
+source-git-commit: 56ab6fe79fe6e10be2ec61cb16ff48b30856dc0f
 workflow-type: tm+mt
-source-wordcount: '1583'
+source-wordcount: '1621'
 ht-degree: 0%
 
 ---
 
 # 업데이트에 다른 사용자 태그 지정
+
+{{highlighted-preview}}
 
 <!--take new commenting and legacy commenting out when we remove the legacy commenting and the new one is the only experience-->
 
@@ -42,6 +44,8 @@ ht-degree: 0%
 > * 목록의 요약 패널
 > * 타임시트의 요약 패널
 > * 업무 균형자의 요약 패널
+>
+><span class="preview">새 댓글 달기 환경은 미리 보기 환경의 목록, 타임시트 및 업무 균형자 의 요약 패널에서 사용할 수 있습니다.</span>
 
 오브젝트를 업데이트할 때 사용자가 따르지 않을 수 있는 오브젝트에 주의를 집중시키려면 사용자를 태그 지정할 수 있습니다.
 
@@ -127,6 +131,14 @@ ht-degree: 0%
    > 
    >사용자의 이메일을 보려면 사용자의 액세스 수준에서 연락처 정보 보기 설정을 활성화해야 합니다. 자세한 내용은 [사용자에게 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
+   <div class="preview">
+
+   미리보기 환경의 태그 지정 예:
+   ![사용자 태그 지정](assets/tag-others-unified-commenting-with-all-tab.png)
+
+   </div>
+
+   프로덕션 환경의 태그 지정 예:
    ![](assets/tag-others-unified-commenting.png)
 
 1. (선택 사항) 업데이트를 비공개로 설정하려면 을 활성화합니다 **내 회사에 비공개** 업데이트 상자의 오른쪽 아래 모서리에 있습니다. 이렇게 하면 회사의 사용자에게만 업데이트가 표시됩니다. 다음 **내 회사에 비공개** 옵션은 회사가 Workfront 프로필에 지정된 경우에만 사용할 수 있습니다.

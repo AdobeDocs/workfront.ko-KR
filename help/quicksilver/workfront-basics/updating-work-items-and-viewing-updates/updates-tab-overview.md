@@ -7,9 +7,9 @@ description: 객체의 업데이트 섹션에는 사용자가 객체에 대해 �
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 815c0504ab1b8b02bde62258fdc939901ffa0c8c
+source-git-commit: 56ab6fe79fe6e10be2ec61cb16ff48b30856dc0f
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1311'
 ht-degree: 3%
 
 ---
@@ -122,7 +122,7 @@ ht-degree: 3%
    * **시스템 활동**: Workfront이 개체에 특정 이벤트를 기록하기 위해 만드는 정보 메시지인 시스템 업데이트를 표시합니다. 예를 들어 상태, 이름 또는 사용자 정의 필드의 변경 사항은 시스템 업데이트와 함께 캡처됩니다. Workfront 또는 그룹 관리자가 개체에 대한 시스템 업데이트를 활성화할 수 있습니다. 자세한 내용은 [시스템 업데이트 구성](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
    * <span class="preview">**모두(읽기 전용)**: 사용자 댓글과 시스템 활동 댓글을 모두 한 곳에 표시합니다. 보기 전용 탭입니다. 모든 탭에서 기존 댓글에 댓글에 답글을 달거나 다른 사용자를 태그 지정할 수 없습니다. 특정 댓글에 회신하려면 모두 탭의 댓글 탭에 있는 링크를 사용합니다. 새 댓글 달기 환경에서 오브젝트를 업데이트하는 방법에 대한 자세한 내용은 [작업 업데이트](../updating-work-items-and-viewing-updates/update-work.md).</span>
 
-* 다음 개체에는 시스템 활동 탭이 없습니다.
+* 다음 개체에는 시스템 활동 탭이 없습니다. <span class="preview">또는 모두 탭</span>:
 
    * 팀
    * 템플릿

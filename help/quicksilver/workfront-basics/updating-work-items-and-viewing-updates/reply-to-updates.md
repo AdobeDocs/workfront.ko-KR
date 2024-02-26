@@ -3,19 +3,21 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: 업데이트에 대한 회신
 description: 누군가 작업 개체에 대한 업데이트를 추가하거나 답장을 보내면 해당 개체의 업데이트 섹션에 있는 통신 스레드에 답장이 나타납니다. 오브젝트에 대한 보기 액세스 권한이 있는 경우 업데이트 또는 좋아요 표시에 회신을 추가할 수 있습니다.
-author: Lisa and Alina
+author: Nolan and Alina
 feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
+source-git-commit: 56ab6fe79fe6e10be2ec61cb16ff48b30856dc0f
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1098'
 ht-degree: 0%
 
 ---
 
 # 업데이트에 대한 회신
+
+{{highlighted-preview}}
 
 <!--remove legacy and new experience references when we remove the legacy updates in the UI - Jan 2024???-->
 
@@ -44,6 +46,8 @@ ht-degree: 0%
 > * 목록의 요약 패널
 > * 타임시트의 요약 패널
 > * 업무 균형자의 요약 패널
+>
+><span class="preview">새 댓글 달기 환경은 미리 보기 환경의 목록, 타임시트 및 업무 균형자 의 요약 패널에서 사용할 수 있습니다.</span>
 
 누군가 작업 개체에 대한 댓글 또는 시스템 업데이트에 답글을 달면 해당 답글이 해당 개체의 업데이트 섹션에 있는 통신 스레드에 나타납니다.
 
@@ -96,6 +100,11 @@ ht-degree: 0%
 
 1. 회신을 추가할 객체로 이동합니다.
 1. 클릭 **업데이트**&#x200B;을(를) 클릭하고 **댓글** 을 탭하여 개체에서 답글을 달거나 답글을 달 수 있습니다.
+
+>[!NOTE]
+>
+><span class="preview">모두 탭에서 댓글에 회신하려면 **댓글로 회신** 을 클릭하여 [주석] 탭에서 주석을 엽니다. 모두 탭에서 회신할 수 없습니다.</span>
+
 1. (선택 사항) 회신에 이전 업데이트의 텍스트를 포함하려면 **자세히** 회신할 댓글의 오른쪽 위 모서리에 있는 메뉴를 클릭한 다음 **견적 회신**. 이전 업데이트의 텍스트가 입력 영역에 세로로 회색 선으로 표시됩니다.
 1. 클릭 **답변**.
 

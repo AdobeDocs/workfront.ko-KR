@@ -6,14 +6,16 @@ description: Adobe Workfront 개체(프로젝트, 작업 또는 문제)에 업�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: 19f6584b507af19b8af5bc6646602393acd41079
 workflow-type: tm+mt
-source-wordcount: '4110'
+source-wordcount: '4226'
 ht-degree: 1%
 
 ---
 
 # 작업 업데이트
+
+{{highlighted-preview}}
 
 <!-- Audited: 1/2024 -->
 
@@ -45,6 +47,8 @@ After the monthly releases to Production, the same features are also available i
 > * 목록의 요약 패널
 > * 타임시트의 요약 패널
 > * 업무 균형자의 요약 패널
+>
+><span class="preview">새 댓글 달기 환경은 미리 보기 환경의 목록, 타임시트 및 업무 균형자 의 요약 패널에서 사용할 수 있습니다.</span>
 
 <!-- with October 26 release: add somewhere this, and decide where we need to keep information about the legacy commenting. Should we create an article about iterations comments like we have for goals and cards?!:
 
@@ -234,8 +238,17 @@ After the monthly releases to Production, the same features are also available i
 1. (조건부) **새 댓글 달기** 옵션이 비활성화되어 있습니다. 활성화하려면 클릭하십시오.
 
    이렇게 하면 새 댓글 달기 경험을 사용할 수 있습니다. 다음 **댓글** 기본적으로 탭이 선택되어 있습니다.
+
 1. 에 주석 입력 시작 **새 댓글** 상자.
 
+   <div class="preview">
+
+   미리보기 환경의 새로운 댓글 상자 예:
+   ![새 댓글 상자](assets/comment-box-all-tabs.png)
+
+   </div>
+
+   프로덕션 환경의 새 주석 상자 예:
    ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
@@ -304,11 +317,17 @@ After the monthly releases to Production, the same features are also available i
 
 1. (선택 사항) **시스템 활동** 시스템에 의해 기록된 업데이트를 보려면 탭하십시오. 개체 또는 그 하위 항목이 업데이트되면 Workfront은 해당 업데이트에 대한 메모를 생성하고 시스템 활동 탭에 표시합니다.
 
-   자세한 내용은 [업데이트 섹션 개요](../updating-work-items-and-viewing-updates/updates-tab-overview.md)
+   자세한 내용은 [업데이트 섹션 개요](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
    >[!TIP]
    >
    >시스템 업데이트에 주석을 추가할 수 없습니다.
+
+1. <span class="preview">(선택 사항) **모두** 탭에서는 사용자 댓글과 시스템 활동 댓글을 한 곳에서 모두 볼 수 있습니다. 보기 전용 탭입니다.</span>
+
+   >[!TIP]
+   >
+   ><span class="preview">모든 탭에서 기존 댓글에 댓글에 답글을 달거나 다른 사용자를 태그 지정할 수 없습니다. 모두 탭에서 댓글에 회신하려면 **댓글로 회신** 을 클릭하여 [주석] 탭에서 주석을 엽니다.</span>
 
 ## Workfront 업데이트에서 리치 텍스트 사용{#use-rich-text-in-a-workfront-update}
 
@@ -422,8 +441,16 @@ After the monthly releases to Production, the same features are also available i
 
    >[!NOTE]
    >
-   >   댓글이나 답글의 텍스트에 속하는 단어만 검색할 수 있습니다. 업데이트에서 태그가 지정된 사용자 또는 팀의 이름은 검색할 수 없습니다.
+   >댓글이나 답글의 텍스트에 속하는 단어만 검색할 수 있습니다. 업데이트에서 태그가 지정된 사용자 또는 팀의 이름은 검색할 수 없습니다.
 
+   <div class="preview">
+
+   미리보기 환경에서 검색하는 예:
+   ![업데이트에서 검색](assets/updates-all-tabs-with-search-field.png)
+
+   </div>
+
+   프로덕션 환경에서의 검색 예:
    ![](assets/search-field-in-updates-tab.png)
 
    키워드 <!--or user--> 을 검색하면 강조 표시되고 이 검색어가 포함된 주석이 업데이트 섹션의 맨 위에 표시됩니다.
