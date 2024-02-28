@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: emails-administration
 title: 모든 그룹에 대한 이벤트 알림 구성 잠금 해제 또는 잠금
 description: Adobe Workfront 관리자인 경우 그룹 관리자가 관리하는 최상위 그룹에 대한 이벤트 알림을 구성할 수 있는 기능을 잠금 해제하거나 다시 잠글 수 있습니다. 이벤트 알림의 구성은 활성화 또는 비활성화로 구성됩니다.
-author: Lisa, Caroline
+author: Lisa, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 056d76c1-7e9b-49b9-974a-75765e53b7fd
-source-git-commit: 325fb9e58d32d1b6cfa1035cd4a25da4b66f6955
+source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Adobe Workfront 관리자인 경우 그룹 관리자가 관리하는 최상위 �
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td>모든</td> 
+   <td>임의</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 

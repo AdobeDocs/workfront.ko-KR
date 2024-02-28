@@ -5,11 +5,11 @@ keywords: 수정,이메일,알림,설정,일괄,일괄 편집,구성,다중,사�
 navigation-topic: emails-administration
 title: 여러 사용자의 이메일 알림 설정 수정
 description: 이 문서에서는 Workfront 또는 그룹 관리자가 다른 사용자의 이메일 알림을 업데이트하는 방법에 대한 정보를 제공합니다.
-author: Lisa
+author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 0%

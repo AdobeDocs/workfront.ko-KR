@@ -5,12 +5,12 @@ product-area: system-administration
 navigation-topic: manage-workfront
 title: 이메일
 description: Adobe Workfront의 이메일은 알림, 미리 알림 및 사용자 초대로 구성됩니다. 시스템 관리자는 많은 이메일 설정을 구성해야 하지만, 다른 사용자(액세스 수준에 따라 다름)는 이메일 기능을 사용하여 작업과 관련된 자신의 커뮤니케이션을 관리함으로써 다양한 이점을 얻을 수 있습니다.
-author: Lisa, Caroline
+author: Nolan
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: cdc0a2bb-f125-42b2-acab-c869bc71250c
-source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%

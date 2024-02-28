@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: emails-administration
 title: 이벤트 알림 유형
 description: 이벤트 알림은 프로젝트, 작업 및 문제와 같은 개체에 대한 다양한 유형의 이벤트에 의해 트리거되는 이메일입니다. 이 문서에서는 사용 가능한 이벤트 알림 유형을 나열하고 설명합니다.
-author: Lisa, Nolan
+author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
-source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
 workflow-type: tm+mt
 source-wordcount: '5121'
 ht-degree: 8%

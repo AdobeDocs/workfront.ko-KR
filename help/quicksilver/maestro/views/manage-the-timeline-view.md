@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: ef313bf912c65b9b316bd7403235ccf6f05a0ac6
 workflow-type: tm+mt
-source-wordcount: '1663'
+source-wordcount: '1658'
 ht-degree: 0%
 
 ---
@@ -207,13 +207,9 @@ Maestro 보기에 대한 자세한 내용은 [Adobe Maestro에서 레코드 보�
 1. 문서에 설명된 대로 레코드 유형에 대한 타임라인 보기를 만듭니다 [레코드 보기 관리](../views/manage-record-views.md).
 1. 클릭 **그룹화** 을 클릭합니다.
 
-   ![](assets/grouping-ui-timeline-view.png)
+   ![](assets/grouping-ui-timeline-view-with-linked-fields.png)
 
 1. 제안된 필드 중 하나를 클릭하거나 **다른 필드 선택**&#x200B;에서 다른 필드를 검색한 다음 목록에 표시되면 해당 필드를 클릭합니다.
-
-   >[!TIP]
-   >
-   >연결된 필드는 선택할 수 없습니다.
 
    그룹화는 타임라인에 자동으로 적용되며 그룹화 상자 내에 레코드가 표시됩니다.
 

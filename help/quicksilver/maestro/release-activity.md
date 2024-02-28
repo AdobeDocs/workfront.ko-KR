@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
+source-git-commit: ef313bf912c65b9b316bd7403235ccf6f05a0ac6
 workflow-type: tm+mt
-source-wordcount: '4110'
+source-wordcount: '4172'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,18 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >아래 섹션에서 참조하는 설명서는 기능이 프로덕션에 릴리스된 후 잠시 사용할 수 있습니다.
+
+## 2024년 2월 26일 주
+
+### 연결된 레코드 또는 조회 필드를 기준으로 필터링, 정렬 및 그룹화
+
+프로덕션: 2024년 2월 28일
+
+미리보기: 결정 예정
+
+이제 연결된 레코드 또는 조회 필드를 기준으로 필터링, 정렬 및 그룹화할 수 있습니다. 이 향상된 기능을 통해 테이블 및 타임라인 보기에서 데이터를 효율적으로 구성하고 시각화할 수 있습니다.
+
+자세한 내용은 [표 보기 관리](/help/quicksilver/maestro/views/manage-the-table-view.md) 및 [타임라인 보기 관리](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
 
 ## 2024년 2월 5일 주
 
@@ -124,7 +136,7 @@ Maestro의 라이선스 유형과 권한 간의 연결에 대한 자세한 내�
 
 미리보기: 결정 예정
 
-혼동을 방지하고 작업 공간 관리를 단순화하기 위해 작업 공간에서 연결된 비 Maestro 개체에 대해 자동 생성된 준비 전용 레코드 유형 카드를 제거했습니다.
+혼동을 방지하고 작업 공간 관리를 단순화하기 위해 작업 공간에서 연결된 비 Maestro 개체에 대해 자동 생성된 읽기 전용 레코드 유형 카드를 제거했습니다.
 <!-- Now, when you connect Workfront objects with Maestro records, for example, you can navigate to Workfront to manage the linked objects. You can no longer find the read-only Workfront object record type page in Maestro. This simplifies the number of objects and places you manage information for your objects.  -->
 
 자세한 내용은 [레코드 연결](/help/quicksilver/maestro/records/connect-records.md).

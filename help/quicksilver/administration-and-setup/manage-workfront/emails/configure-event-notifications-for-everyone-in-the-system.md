@@ -1,11 +1,11 @@
 ---
 title: 시스템의 모든 사용자를 위한 이벤트 알림 구성
 description: 이벤트 알림은 특정 이벤트가 발생하면 사용자에게 이메일을 트리거합니다. Adobe Workfront 관리자 또는 플래너 액세스 수준이 있는 사용자는 시스템의 모든 사용자에 대한 이벤트 알림을 구성할 수 있습니다. 이벤트 알림의 구성은 활성화 또는 비활성화로 구성됩니다.
-author: Lisa
+author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 0%
