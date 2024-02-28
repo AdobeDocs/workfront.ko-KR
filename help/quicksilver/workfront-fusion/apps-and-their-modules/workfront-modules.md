@@ -9,9 +9,9 @@ description: Adobe Workfront Fusion Adobe Workfront 커넥터를 사용하여 Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 0558f72fb8a7fc52d06adc0421082e20520c0b8f
+source-git-commit: 1c5c348916421efb08cca8170b56f8181e1a4d98
 workflow-type: tm+mt
-source-wordcount: '5935'
+source-wordcount: '5945'
 ht-degree: 2%
 
 ---
@@ -201,7 +201,7 @@ ht-degree: 2%
      </tr> 
      <tr data-mc-conditions=""> 
       <td>이 연결에 의해 만들어진 이벤트 제외</td> 
-      <td>이 트리거 모듈에서 사용하는 것과 동일한 커넥터를 사용하여 생성되거나 업데이트된 이벤트를 제외하려면 이 옵션을 활성화합니다. 이렇게 하면 시나리오가 자체적으로 트리거되어 무한 반복에서 반복될 수 있는 상황을 방지할 수 있습니다.</td> 
+      <td>이 트리거 모듈에서 사용하는 것과 동일한 커넥터를 사용하여 생성되거나 업데이트된 이벤트를 제외하려면 이 옵션을 활성화합니다. 이렇게 하면 시나리오가 자체적으로 트리거되어 무한 반복에서 반복될 수 있는 상황을 방지할 수 있습니다.<p><b>참고</b>할당 레코드 유형에는 이 옵션이 포함되지 않습니다.</p></td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL 레코드 원본]</td> 
