@@ -2,20 +2,22 @@
 content-type: reference;overview
 product-area: resource-management
 navigation-topic: resource-management-navigation-topic
-title: Adobe Workfront의 리소스 계획
+title: "리소스 계획: 문서 색인"
 description: 이 섹션의 문서에는 Adobe Workfront 리소스 영역의 플래너 및 리소스 풀 섹션의 기능에 대한 정보가 포함되어 있습니다.
 author: Alina
 feature: Resource Management
 recommendations: noDisplay, noCatalog
 exl-id: 21ffaa14-435d-46f3-bfdd-823fa616df5a
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 08ced19936bf4658a9458e3d73597cc5fbdd8c84
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
 
-# Adobe Workfront의 리소스 계획
+# 리소스 계획: 문서 색인
+
+<!-- Audited: 2/2024 -->
 
 이 섹션의 문서에는 Adobe Workfront 리소스 영역의 플래너 및 리소스 풀 섹션의 기능에 대한 정보가 포함되어 있습니다.
 

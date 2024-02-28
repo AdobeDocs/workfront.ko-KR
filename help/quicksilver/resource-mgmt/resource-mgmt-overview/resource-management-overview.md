@@ -8,9 +8,9 @@ author: Lisa
 feature: Resource Management
 recommendations: noDisplay, noCatalog
 exl-id: 137787c9-82f6-4b18-a427-720589221a7c
-source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
+source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '127'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 1%
 이 섹션에는 다음 문서와 하위 섹션이 포함되어 있습니다.
 
 * [리소스 관리 시작](../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
-* [Adobe Workfront의 리소스 계획](/help/quicksilver/resource-mgmt/resource-planning/resource-planning-overview.md)
+* [리소스 계획: 문서 색인](/help/quicksilver/resource-mgmt/resource-planning/resource-planning-overview.md)
 * [업무 균형자: 문서 색인](/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md)
 * [리소스 사용률](/help/quicksilver/resource-mgmt/resource-utilization/resource-utilization.md)
 * [Adobe Workfront 시나리오 플래너](/help/quicksilver/scenario-planner/scenario-planning.md)

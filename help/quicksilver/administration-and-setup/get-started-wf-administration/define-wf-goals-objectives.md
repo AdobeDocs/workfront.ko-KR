@@ -9,9 +9,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1b425244-e3f3-45a0-8ba1-5fbc7b339c85
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Adobe Workfront을 구현할 때에는 성공 기준의 원칙을 식별하는 �
 
 * 서비스 제공 프로세스를 개발하고 Workfront을 사용하여 일별 또는 주별 책임과 관련된 작업을 관리합니다.
 * 리소스 관리 도구를 사용하여 작업에 대한 리소스 할당을 조회하여 생산성 및 게재 품질을 개선하는 방법을 더 잘 이해할 수 있습니다.\
-  리소스 계획에 대한 자세한 내용은 [Adobe Workfront의 리소스 계획](../../resource-mgmt/resource-planning/resource-planning-overview.md)
+  리소스 계획에 대한 자세한 내용은 [리소스 계획 : 문서 색인](../../resource-mgmt/resource-planning/resource-planning-overview.md)
 
 ## 성공 기준 정의
 

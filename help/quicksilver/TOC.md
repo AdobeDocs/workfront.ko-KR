@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 42a697704cb34699c5d09bd2b710dcc33092d05a
+source-git-commit: 7348dc78f61708fce7508bdef0f4b650814ad71b
 workflow-type: tm+mt
-source-wordcount: '13972'
+source-wordcount: '13971'
 ht-degree: 1%
 
 ---
@@ -1728,7 +1728,7 @@ ht-degree: 1%
       * [리소스 관리](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
       * [리소스 관리 시작](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
    * Adobe Workfront의 리소스 계획 {#resource-planning-in-adobe-workfront}
-      * [Adobe Workfront의 리소스 계획](resource-mgmt/resource-planning/resource-planning-overview.md)
+      * [리소스 계획: 문서 색인](resource-mgmt/resource-planning/resource-planning-overview.md)
       * 리소스 풀 {#resource-pools}
          * [리소스 풀](resource-mgmt/resource-planning/resource-pools/resource-pools.md)
          * [리소스 풀 개요](resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)

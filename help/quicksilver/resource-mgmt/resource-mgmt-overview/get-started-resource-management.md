@@ -7,9 +7,9 @@ description: 자원 관리를 사용하면 자원 가용성에 따라 자원의 
 author: Alina
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1167'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Workfront에는 리소스를 관리하는 데 사용되는 몇 가지 도구 세
 
    * **리소스 플래너**: 리소스 관리의 첫 번째 단계에서 리소스 플래너를 사용하여 예약된 가용성에 따라 리소스에 대한 프로젝트 시간을 예약할 수 있습니다. 리소스 계획 단계에서 리소스 풀의 사용자를 구성하고 프로젝트에 여러 리소스 풀을 할당할 수 있습니다.
 
-     리소스 계획에 대한 자세한 내용은 [Adobe Workfront의 리소스 계획](../../resource-mgmt/resource-planning/resource-planning-overview.md).
+     리소스 계획에 대한 자세한 내용은 [리소스 계획: 문서 색인](../../resource-mgmt/resource-planning/resource-planning-overview.md).
 
    * **시나리오 플래너**: 1년, 3년 또는 5년 계획에 걸쳐 여러 개의 이니셔티브를 관리하고 여러 프로젝트를 포함할 수 있는 상위 수준의 리소스 계획입니다. 가용성과 예산을 최대한 활용하기 위해 최상의 시나리오를 사용할 수 있습니다.
 
@@ -118,7 +118,7 @@ Workfront에서 리소스를 관리하는 프로세스에는 다음 단계가 �
 
   리소스 계획 및 할당 작업에 대한 자세한 내용은 다음 섹션을 참조하십시오.
 
-   * [Adobe Workfront의 리소스 계획](../../resource-mgmt/resource-planning/resource-planning-overview.md)
+   * [리소스 계획: 문서 색인](../../resource-mgmt/resource-planning/resource-planning-overview.md)
    * [Adobe Workfront 시나리오 플래너](../../scenario-planner/scenario-planning.md)
    * [업무 균형자: 문서 색인](../../resource-mgmt/workload-balancer/workload-balancer.md)
 

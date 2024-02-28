@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: a0ca824d-aab8-4da2-97ed-0913a7f76d55
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
 workflow-type: tm+mt
-source-wordcount: '2702'
+source-wordcount: '2701'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Adobe Workfront Classic에서 모든 Flash 기반 도구를 제거했습니다.
    * 수용작업량 플래너
    * 리소스 추정치
    * 리소스 그리드\
-     자세한 내용은 [Adobe Workfront의 리소스 계획](../../../resource-mgmt/resource-planning/resource-planning-overview.md).
+     자세한 내용은 [리소스 계획: 문서 색인](../../../resource-mgmt/resource-planning/resource-planning-overview.md).
 
 * 프로젝트의 비즈니스 사례에서 레거시 리소스 견적 영역
 

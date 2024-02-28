@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 297e72ebb70c335078d65e7ed6e28862285d2fb1
+source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
 workflow-type: tm+mt
-source-wordcount: '1397'
+source-wordcount: '1396'
 ht-degree: 0%
 
 ---
@@ -153,5 +153,5 @@ ht-degree: 0%
    * 각 작업의 계획된 시간을 줄입니다.
    * 작업에 할당된 시간 내에 완료할 수 있도록 작업에 사용자를 더 추가합니다.
    * 다른 제한 없이 사용 가능한 사용자에게 작업을 재할당합니다.\
-     프로젝트 리소스 계획에 대한 자세한 내용은 문서 를 참조하십시오 [Adobe Workfront의 리소스 계획](../../../resource-mgmt/resource-planning/resource-planning-overview.md).\
+     프로젝트 리소스 계획에 대한 자세한 내용은 문서 를 참조하십시오 [리소스 계획: 문서 색인](../../../resource-mgmt/resource-planning/resource-planning-overview.md).\
      프로젝트에서 작업을 수행하도록 리소스를 예약하는 방법에 대한 자세한 내용은 을 참조하십시오. [업무 균형자 개요](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
