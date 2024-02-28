@@ -3,10 +3,10 @@ product-area: projects
 navigation-topic: approvals
 title: 문서 승인
 description: 문서의 승인자로 할당된 경우 여러 가지 방법으로 승인 결정을 내릴 수 있습니다.
-author: Nolan
+author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 864481fe2af7a2433bac841bb35995c58fe06743
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 

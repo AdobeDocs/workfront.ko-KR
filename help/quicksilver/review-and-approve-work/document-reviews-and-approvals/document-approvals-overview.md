@@ -6,9 +6,9 @@ description: 이미 보류 중인 승인이 있는 문서에 승인자 또는 �
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 1a03d829bc4cddfd568c6d0e8850e847004c83b4
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,6 @@ ht-degree: 0%
 
 ## 새 문서 승인 사용
 
-문서 승인을 만들거나 관리하려는 사용자의 경우 다음 목록에 있는 문서를 참조하십시오 [문서 승인 관리](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-document-approvals.md)
+문서 승인을 만들거나 관리하려는 사용자의 경우 다음 목록에 있는 문서를 참조하십시오 [문서 승인: 문서 색인](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/approve-documents-toc.md)
 
-요청을 받은 문서를 검토하거나 승인하려는 사용자의 경우 다음 목록에 있는 문서를 참조하십시오. [문서 검토 및 승인](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-and-approve-documents.md).
+요청을 받은 문서를 검토하거나 승인하려는 사용자의 경우 다음 목록에 있는 문서를 참조하십시오. [문서 검토: 문서 색인](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
