@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: ef313bf912c65b9b316bd7403235ccf6f05a0ac6
+source-git-commit: 5cfb4cd064daff455d8b9458d3bcbbb0d209516a
 workflow-type: tm+mt
-source-wordcount: '2288'
+source-wordcount: '2313'
 ht-degree: 3%
 
 ---
@@ -409,6 +409,8 @@ Maestro에서 레코드 유형에 대해 최대 10,000개의 레코드(또는 �
 * 정렬은 이동할 때 유지됩니다.
 
 * 레코드 유형의 테이블 보기에 표시되는 수만큼 필드를 정렬할 수 있습니다.
+
+* 연결된 필드는 단일 값을 허용하거나 요약 옵션이 선택된 값(합계, 평균, 최대, 최소)을 다중 선택할 수 있는 경우에만 정렬할 수 있습니다.
 
 * 정렬 기준을 제거하면 사용자와 동일한 레코드 유형에 액세스하는 모든 사람에서 정렬 기준이 제거되며 사용하는 것과 동일한 보기를 사용합니다.
 
