@@ -6,9 +6,9 @@ title: AI를 사용하여 모듈 생성
 description: 텍스트 프롬프트를 입력하여 프롬프트에 구성된 HTTP 모듈을 만들 수 있습니다.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: c80f9ab6d10aa9067b995c99107f98301fa17872
+source-git-commit: 8f6216938b2fe946f6acd02c45c2072476b0c47b
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '341'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 1%
 # AI를 사용하여 모듈 생성
 
 <!--DO NOT DELETE - linked through CSH-->
+
+>[!IMPORTANT]
+>
+>이 기능은 아직 개발 초기 단계이므로 내부 Workfront 사용자만 사용할 수 있습니다.
 
 AI를 사용하여 필요한 모듈을 설명하는 텍스트 프롬프트를 입력할 수 있습니다. 그런 다음 Fusion은 원하는 API의 올바른 끝점에 연결하는 HTTP 모듈을 생성합니다.
 
