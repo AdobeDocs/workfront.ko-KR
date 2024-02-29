@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion 매핑 패널에서 다음 날짜 및 시간
 author: Becky
 feature: Workfront Fusion
 exl-id: 76c63afc-4bb6-4895-9bba-6b3913ecbcf6
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 7de4016e489c5194aee674f4ea090e7bcbb1ce79
 workflow-type: tm+mt
-source-wordcount: '1911'
+source-wordcount: '1992'
 ht-degree: 1%
 
 ---
@@ -186,7 +186,7 @@ ht-degree: 1%
 >
 >* `parseDate(1482940986;X)`
 >
->  2016-12-28T16 반환:03:06.000Z
+>   2016-12-28T16 반환:03:06.000Z
 
 ## [!UICONTROL addDays(일자, 숫자)] {#adddays-date-number}
 
@@ -454,7 +454,7 @@ Date2는 Date1에서 빼집니다.
 >
 >    반환 `1`
 
-## 추가 예
+## 추가 예시
 
 ### 월의 n번째 요일을 계산하는 방법
 

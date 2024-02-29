@@ -8,10 +8,10 @@ description: Adobe Workfront Fusion 매핑 패널에서 다음 배열 함수를 
 author: Becky
 feature: Workfront Fusion
 exl-id: bf065d00-5d84-47e1-8169-bf9e01e2429d
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 5860e75d0a6521abbe082668749f78058fe7a114
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 1%
+source-wordcount: '679'
+ht-degree: 0%
 
 ---
 
@@ -211,3 +211,23 @@ ht-degree: 1%
   >* `arrayDifference [myArray, yourArray, symmetric]`
   >
   >    반환 `[1,2,6,7]`
+
+## toArray
+
+이 함수는 컬렉션을 키-값 쌍의 배열로 변환합니다.
+
+>[!INFO]
+>
+>**예:**
+>
+>주어진 컬렉션
+>
+>`{ key1: "value1", key2: "value2:}`
+>
+>함수
+>
+>`toArray({ key1: "value1", key2: "value2:})`
+>
+>키-값 쌍의 배열 반환
+>
+>`[{ key1: "value1"}, { key2: "value2"}]`
