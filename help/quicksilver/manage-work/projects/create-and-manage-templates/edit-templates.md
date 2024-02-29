@@ -6,22 +6,18 @@ description: 프로젝트 프로세스 및 설정의 변경 사항을 반영하�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
+source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
 workflow-type: tm+mt
-source-wordcount: '4775'
+source-wordcount: '4710'
 ht-degree: 2%
 
 ---
 
 # 프로젝트 템플릿 편집
 
-<!--drafted
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
--->
+<!-- Audited: 2/2024 -->
 
-<!--
-<The Resource Pools part also duplicates in the "Working with Resource Pools" article</p>
--->
+<!--The Resource Pools part also duplicates in the "Working with Resource Pools" article-->
 
 프로젝트 프로세스 및 설정의 변경 사항을 반영하도록 프로젝트 템플릿을 편집할 수 있습니다. 템플릿에 변경 사항을 업데이트하고 저장한 후 템플릿을 사용하여 프로젝트를 만들 때 새 프로젝트에 새 변경 사항이 표시됩니다. 템플릿에서 변경한 내용은 현재 해당 템플릿을 사용하고 있는 프로젝트에 반영되지 않습니다.
 
@@ -34,16 +30,20 @@ ht-degree: 2%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
    <td> <p>임의 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>플랜 </p> </td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td>
+      <p>새로운 기능: 표준</p>
+      <p>또는</p>
+      <p>현재: 플랜</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준*</td> 
-   <td> <p>템플릿에 대한 액세스 편집</p> <p>여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. 템플릿 액세스에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">템플릿에 대한 액세스 권한 부여</a>. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>. </p> </td> 
+   <td role="rowheader">액세스 수준</td> 
+   <td> <p>템플릿에 대한 액세스 편집</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
@@ -51,12 +51,12 @@ ht-degree: 2%
     <ul> 
      <li> <p>템플릿 세부 정보 탭에서 템플릿을 편집할 수 있는 권한을 템플릿에 제공</p> </li> 
      <li> <p>템플릿 편집 상자에서 편집할 템플릿에 대한 권한을 관리합니다.</p> </li> 
-    </ul> <p> 템플릿 권한에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md" class="MCXref xref">템플릿 공유</a>. </p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 템플릿 편집 {#edit-a-template}
 
@@ -653,7 +653,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
        </tr>
 
    <tr> 
-         <td role="rowheader"><strong>포트폴리오</strong></td> 
+         <td role="rowheader"><strong>Portfolio</strong></td> 
          <td><p>이 템플릿에서 만든 프로젝트에 대한 Portfolio을 지정하십시오. 드롭다운 목록에 표시되기 전에 먼저 Portfolio을 만들어야 합니다. </p><p>활성 포트폴리오만 목록에 표시됩니다. 포트폴리오 만들기에 대한 자세한 내용은 <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">포트폴리오 만들기 </a>.</p></td> 
        </tr> 
        <tr> 
@@ -1047,7 +1047,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
    템플릿에 대한 정보를 편집하는 방법에 대한 자세한 내용은 [템플릿 편집](#edit-a-template) 이 문서의 섹션.
 
-1. 클릭 **변경 내용 저장**.
+1. **변경 내용 저장**&#x200B;을 클릭합니다.
 
    이제 선택한 모든 템플릿에 변경 사항이 모두 표시됩니다.
 

@@ -6,14 +6,16 @@ description: Workfront의 기존 작업 및 문제에 연결된 카드를 보드
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: ec753f4176208708de0a39679788d34f486f759b
+source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
 workflow-type: tm+mt
-source-wordcount: '1427'
+source-wordcount: '1447'
 ht-degree: 0%
 
 ---
 
 # 보드에서 연결된 카드 사용
+
+<!-- Audited: 2/2024 -->
 
 의 기존 작업 및 문제에 연결된 카드를 보드에 추가할 수 있습니다. [!DNL Workfront].
 
@@ -39,29 +41,33 @@ ht-degree: 0%
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 플랜*</strong></td> 
-   <td> <p>모든</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 플랜</strong></td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
-   <td> <p>[!UICONTROL Request] 이상</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스</strong></td> 
+   <td>
+   <p>새로운 기능: 기여자 이상</p>
+   <p>또는</p>
+   <p>현재: 요청 이상</p>
+ </td> 
   </tr> 
   <tr>
-   <td role="rowheader"><strong>액세스 수준 구성*</strong></td>
-   <td><p>작업 및 문제에 대한 [!UICONTROL 보기] 이상 액세스</p></td>
+   <td role="rowheader"><strong>액세스 수준 구성</strong></td>
+   <td><p>작업 및 문제에 대한 보기 또는 상위 액세스 권한</p></td>
   </tr>
   <tr>
    <td role="rowheader"><strong>개체 권한</strong></td>
-   <td><p>Workfront 작업 또는 문제에 대한 [!UICONTROL 보기] 이상 권한</p></td>
+   <td><p>Workfront 작업 또는 문제에 대한 이상의 권한 보기</p></td>
   </tr>
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 연결된 카드 추가
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 상단에서 을(를) 클릭한 다음 **[!UICONTROL 게시판]**.
+1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리에서 을(를) 클릭하고 **[!UICONTROL 게시판]**.
 1. 보드에 액세스합니다. 자세한 내용은 [보드 만들기 또는 편집](../../agile/get-started-with-boards/create-edit-board.md).
 1. 클릭 **[!UICONTROL 카드 추가] > [!UICONTROL 연결된 카드]**.
 1. 프로젝트를 선택한 다음 보드에 카드로 추가할 작업 또는 문제를 선택하십시오.

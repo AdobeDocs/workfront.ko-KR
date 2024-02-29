@@ -5,7 +5,7 @@ title: 시간대 간 작업
 description: 방법을 이해하는 것이 도움이 될 수 있습니다 [!DNL Adobe Workfront] 시간대를 사용하여 이메일과 같은 다른 영역의 오브젝트 및 시간에 대한 시간 필드를 계산합니다.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
 workflow-type: tm+mt
 source-wordcount: '1081'
 ht-degree: 0%
@@ -13,6 +13,8 @@ ht-degree: 0%
 ---
 
 # 시간대 간 작업
+
+<!-- Audited: 2/2024 -->
 
 방법을 이해하는 것이 도움이 될 수 있습니다 [!DNL Adobe Workfront] 시간대를 사용하여 다음을 계산합니다.
 
