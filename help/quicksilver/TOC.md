@@ -3,7 +3,7 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 4adb7fa30f9c1c921727d1a5930318f59ed8af9e
+source-git-commit: 3d4bb2d99bd2942f29bf25434f5554cee5c79553
 workflow-type: tm+mt
 source-wordcount: '13989'
 ht-degree: 1%
@@ -1797,7 +1797,7 @@ ht-degree: 1%
          * [문서 검토](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
          * [Workfront 및 Frame.io 연결](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/connect-frame-and-wf.md)
          * [연결된 Workfront 프로젝트에 Frame.io 자산 추가](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/add-frame-asset-to-connected-project.md)
-      * [문서 승인]{#approve-documents}
+      * 문서 승인 {#approve-documents}
          * [문서 승인: 문서 색인](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/approve-documents-toc.md)
          * [문서 승인 만들기](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
          * [문서에 추가 검토자 또는 승인자 추가](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
@@ -2050,7 +2050,7 @@ ht-degree: 1%
    * Adobe 마에스트로 레코드 {#adobe-maestro-records}
       * [레코드: 문서 인덱스](maestro/records/records-information.md)
       * [레코드 만들기](maestro/records/create-records.md)
-      * [레코드 연결](maestro/records/connect-records.md)
+      * [기록 연결](maestro/records/connect-records.md)
       * [레코드 편집](maestro/records/edit-records.md)
       * [레코드 삭제](maestro/records/delete-records.md)
       * [레코드 공유](maestro/records/share-records.md)
