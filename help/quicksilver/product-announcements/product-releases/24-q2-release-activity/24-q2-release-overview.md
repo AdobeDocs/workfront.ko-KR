@@ -4,9 +4,9 @@ description: 이 페이지에서는 2024년 2분기 릴리스에 포함된 기�
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 47bfc377f593758e16793dd9999dda12a9b82ca9
+source-git-commit: 980979bcc96739671ea69bdb1387d98c3f39d047
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1235'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,25 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront 기본 필드는 양식 디자이너 베타에서 사용할 수 있습니다</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p>
+                        <p>이제 Workfront의 기본 필드를 사용하여 사용자 정의 양식에 추가할 수 있습니다. 이 새 필드 유형을 사용하면 사용자 정의 필드에서 기존 데이터를 다시 생성하지 않고도 데이터를 논리적으로 구성하고 사용자에게 제공할 수 있습니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2024년 2월 29일</p>
+                            </li>
+                            <li>
+                                <p>빠른 릴리스를 위한 프로덕션: 24.3 릴리스 포함(2024년 3월 14일)</p>
+                            </li>
+                            <li>
+                                <p>분기별 릴리스 프로덕션: 24.4 릴리스 포함(2024년 4월)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
+                <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">이제 Adobe IMS로 마이그레이션한 조직에서 속성 매핑을 사용할 수 있습니다</a></p>
                         <p>[!BADGE In production ]{type=Informative}</p><p>이제 Workfront 시스템 관리자는 Adobe IMS로 마이그레이션한 조직에 대한 사용자 속성 매핑을 설정할 수 있습니다. 이렇게 하면 사용자 정보를 조직의 SSO(Single Sign-On) 공급자에서 Workfront으로 전달할 수 있으므로 사용자의 데이터를 Workfront과 SSO 공급자 모두에 입력할 필요가 없습니다.</p>
                     </td>
@@ -73,7 +92,7 @@ ht-degree: 0%
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">이제 양식 디자이너 베타에서 건너뛰기 논리 및 표시 논리를 사용할 수 있습니다</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">이제 양식 디자이너 베타에서 건너뛰기 논리 및 표시 논리를 사용할 수 있습니다</a></p><p>[!BADGE In Production for Fast Release ]{type=Positive}</p>
                         <p>이제 양식 디자이너 베타에서 기존 표시 및 건너뛰기 논리를 편집하고 새 논리를 사용자 정의 양식에 추가할 수 있습니다. 사용하기 쉬운 논리 빌더를 사용하여 양식의 선택 사항을 기반으로 표시하거나 건너뛸 필드를 정의할 수 있습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -111,7 +130,7 @@ ht-degree: 0%
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">레이아웃 템플릿을 사용하여 새 홈의 관리자 컨트롤에 열 옵션 추가</a></p><p>이제 관리자는 레이아웃 템플릿을 사용하여 특정 새 홈 위젯의 사용자가 사용할 수 있는 열을 사용자 정의할 수 있습니다. 옵션에는 기본 열을 숨기거나 표시하고 기존 필드를 새 열로 추가하는 작업이 포함됩니다.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">레이아웃 템플릿을 사용하여 새 홈의 관리자 컨트롤에 열 옵션 추가</a></p><p>[!BADGE In Production for Fast Release ]{type=Positive}</p><p>이제 관리자는 레이아웃 템플릿을 사용하여 특정 새 홈 위젯의 사용자가 사용할 수 있는 열을 사용자 정의할 수 있습니다. 옵션에는 기본 열을 숨기거나 표시하고 기존 필드를 새 열로 추가하는 작업이 포함됩니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
@@ -148,7 +167,7 @@ ht-degree: 0%
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">새 작업 워크플로우에 더 많은 관련 할당이 추가됨</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p><p>프로젝트 및 프로젝트 작업 목록에 작업을 추가할 때 새 작업 상자의 할당 필드에 더 적절한 스마트 할당에 대해 동일한 기능을 추가했습니다.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">새 작업 워크플로우에 더 많은 관련 할당이 추가됨</a></p><p>프로젝트 및 프로젝트 작업 목록에 작업을 추가할 때 새 작업 상자의 할당 필드에 더 적절한 스마트 할당에 대해 동일한 기능을 추가했습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
@@ -203,7 +222,33 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">댓글과 시스템 활동 항목을 모두 캡처하는 새로운 업데이트 스트림 탭</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p><p>의견과 시스템 활동 로그를 연대순으로 집계하여 볼 수 있도록 모든 객체의 업데이트 영역에 세 번째 탭을 도입합니다. "모두" 탭은 사용자 댓글과 시스템 활동 댓글을 하나의 통합 스트림으로 캡처합니다.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">새 댓글 달기 환경에서 사용할 수 있는 추가 댓글 정보</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p><p>새로운 댓글 달기 환경에서 다음과 같은 사항이 개선되었습니다.</p>
+                        <ul>
+                            <li>
+                                <p>댓글의 이름을 클릭하면 정보 상자에 댓글 이름, 역할 및 이메일 주소를 볼 수 있습니다. 이 정보는 동일한 이름을 가진 사용자가 두 명 이상 있는 경우 올바른 사용자를 식별하는 데 도움이 될 수 있습니다. 정보 상자에서 댓글의 이름을 클릭하면 해당 사용자 프로필이 열립니다.</p>
+                            </li>
+                            <li>
+                                <p>댓글 텍스트에 언급되면 태그 지정된 댓글에서 사용자 이름이 강조 표시됩니다.</p>
+                            </li>
+                        </ul>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2024년 2월 29일</p>
+                            </li>
+                            <li>
+                                <p>빠른 릴리스를 위한 프로덕션: 24.3 릴리스 포함(2024년 3월 14일)</p>
+                            </li>
+                            <li>
+                                <p>분기별 릴리스 프로덕션: 24.4 릴리스 포함(2024년 4월)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>  
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">댓글과 시스템 활동 항목을 모두 캡처하는 새로운 업데이트 스트림 탭</a></p><p>의견과 시스템 활동 로그를 연대순으로 집계하여 볼 수 있도록 모든 객체의 업데이트 영역에 세 번째 탭을 도입합니다. "모두" 탭은 사용자 댓글과 시스템 활동 댓글을 하나의 통합 스트림으로 캡처합니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
@@ -221,7 +266,7 @@ ht-degree: 0%
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">이제 요약 패널에서 새 댓글 스트림을 사용할 수 있습니다.</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p><p>이제 작업 및 문제 목록에 대한 요약 패널에 새로운 주석 달기 기능이 추가되었습니다.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">이제 요약 패널에서 새 댓글 스트림을 사용할 수 있습니다.</a></p><p>이제 작업 및 문제 목록에 대한 요약 패널에 새로운 주석 달기 기능이 추가되었습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>

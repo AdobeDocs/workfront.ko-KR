@@ -4,9 +4,9 @@ description: 2024년 2분기 업데이트 스트림 및 알림 개선 사항
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b045cc3ac31459c4d92083d3a332606b37deaa36
+source-git-commit: 980979bcc96739671ea69bdb1387d98c3f39d047
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,19 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2024년 2분기 릴리스의 모든 업데이트 스트림 및 알림 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2024년 2분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [2024년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## 새 댓글 달기 환경에서 사용할 수 있는 추가 댓글 정보
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2024년 2월 29일, 빠른 릴리스를 위한 프로덕션: 24.3 릴리스(2024년 3월 14일), 모든 고객을 위한 프로덕션: 24.4 릴리스(2024년 4월)
+
+새로운 댓글 달기 환경에서 다음과 같은 사항이 개선되었습니다.
+
+* 댓글의 이름을 클릭하면 정보 상자에 댓글 이름, 역할 및 이메일 주소를 볼 수 있습니다. 이 정보는 동일한 이름을 가진 사용자가 두 명 이상 있는 경우 올바른 사용자를 식별하는 데 도움이 될 수 있습니다. 정보 상자에서 댓글의 이름을 클릭하면 해당 사용자 프로필이 열립니다.
+* 댓글 텍스트에 언급되면 태그 지정된 댓글에서 사용자 이름이 강조 표시됩니다.
+
+자세한 내용은 [작업 업데이트](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## 댓글과 시스템 활동 항목을 모두 캡처하는 새로운 업데이트 스트림 탭
 
