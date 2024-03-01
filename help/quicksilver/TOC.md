@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 3d4bb2d99bd2942f29bf25434f5554cee5c79553
+source-git-commit: 42d5c47ff0f286c1a4a73ccb295027c539fceeaa
 workflow-type: tm+mt
-source-wordcount: '13989'
+source-wordcount: '13992'
 ht-degree: 1%
 
 ---
@@ -2187,6 +2187,7 @@ ht-degree: 1%
       * [Adobe Journey Optimizer 모듈](workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
       * [Adobe Maestro 모듈](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md)
       * [Adobe PDF 서비스 모듈](workfront-fusion/apps-and-their-modules/pdf-modules.md)
+      * [Adobe Photoshop 모듈](workfront-fusion/apps-and-their-modules/adobe-photoshop-modules.md)
       * [Adobe Target 모듈](workfront-fusion/apps-and-their-modules/adobe-target-modules.md)
       * [에어테이블 모듈](workfront-fusion/apps-and-their-modules/airtable-modules.md)
       * [Allocadia 모듈](workfront-fusion/apps-and-their-modules/allocadia-modules.md)
