@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 42d5c47ff0f286c1a4a73ccb295027c539fceeaa
+source-git-commit: 358a7c056840240c8df4464bc0ee2e439b174a37
 workflow-type: tm+mt
-source-wordcount: '13992'
+source-wordcount: '13996'
 ht-degree: 1%
 
 ---
@@ -2018,8 +2018,8 @@ ht-degree: 1%
       * [Adobe Workfront 목표 알림 활성화](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
 * Adobe 마에스트로 {#adobe-maestro}
    * [Adobe 마에스트로 정보](maestro/maestro-information.md)
-   * [Adobe 마에스트로 개요](maestro/maestro-overview.md)
-   * [Adobe Maestro 릴리스 활동](maestro/release-activity.md)
+   * [Adobe Workfront 계획 기능 개요](maestro/maestro-overview.md)
+   * [Adobe Workfront 계획 기능 릴리스 활동](maestro/release-activity.md)
    * Adobe 마에스트로 건축 {#adobe-maestro-architecture}
       * [아키텍처: 문서 인덱스](maestro/architecture/architecture-information.md)
       * [작업 공간 만들기](maestro/architecture/create-workspaces.md)

@@ -1,32 +1,32 @@
 ---
-title: Adobe Maestro 릴리스 활동
-description: 현재 일부 Workfront 고객은 Adobe Maestro를 사용할 수 있습니다. 이 문서를 자주 검토하여 Adobe Maestro에 대해 최근 릴리스된 기능에 대해 알아보십시오.
+title: Adobe Workfront 계획 기능 릴리스 활동
+description: Adobe Workfront 계획 기능은 현재 Workfront 고객을 선택할 수 있습니다. 이 문서를 자주 검토하여 계획 기능용으로 최근 릴리스된 기능에 대해 알아보십시오.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: ef313bf912c65b9b316bd7403235ccf6f05a0ac6
+source-git-commit: be9cedb0d09e6409a0e589f01b85a72933ac89fc
 workflow-type: tm+mt
-source-wordcount: '4172'
+source-wordcount: '4258'
 ht-degree: 0%
 
 ---
 
-# Adobe Maestro 릴리스 활동
+# Adobe Workfront 계획 기능 릴리스 활동
 
 {{maestro-important-intro}}
 
-이 문서에서는 2023년 5월 22일 Maestro Closed Beta 프로그램 출시 이후 출시된 기능을 나열합니다.
+이 문서에서는 2023년 5월 22일 Adobe Workfront 계획 기능 비공개 베타 프로그램 출시 후 릴리스된 기능을 나열합니다.
 
-릴리스된 기능은 릴리스 순서대로 나열되며 가장 최근의 기능이 먼저 릴리스됩니다. Maestro Closed Beta 프로그램에 참여하는 고객은 프로덕션 환경의 모든 기능에 액세스할 수 있습니다.
+릴리스된 기능은 릴리스 순서대로 나열되며 가장 최근의 기능이 먼저 릴리스됩니다. 계획 기능 Closed Beta 프로그램에 참여하는 고객은 프로덕션 환경의 모든 기능에 액세스할 수 있습니다.
 
 >[!IMPORTANT]
 >
->2023년 5월과 2023년 12월 사이에 이 문서의 모든 기능이 미리보기 및 프로덕션 환경에 릴리스되었습니다. Maestro 기능은 2024년 1월부터 미리보기 및 샌드박스 환경에서 일시적으로 제거되었습니다. 이 날짜 이후 릴리스된 모든 기능은 현재 프로덕션에서 사용할 수 있습니다.
+>2023년 5월과 2023년 12월 사이에 이 문서의 모든 기능이 미리보기 및 프로덕션 환경에 릴리스되었습니다. 계획 기능은 2024년 1월부터 미리보기 및 샌드박스 환경에서 일시적으로 제거되었습니다. 이 날짜 이후 릴리스된 모든 기능은 현재 프로덕션에서 사용할 수 있습니다.
 
-이 문서에서는 2023년 5월 22일 Maestro Closed Beta 프로그램 출시 이후 출시된 기능 및 패치를 다룹니다.
+이 문서에서는 2023년 5월 22일 Adobe Workfront 계획 기능 비공개 베타 프로그램 출시 후 릴리스된 기능 및 패치를 나열합니다.
 
-기능은 매주 릴리스되고 릴리스 순서대로 나열되며, 가장 최근의 기능이 먼저 나열됩니다. Maestro Closed Beta 프로그램에 참여하는 고객은 미리보기 및 프로덕션 환경의 모든 기능에 액세스할 수 있습니다.
+기능은 매주 릴리스되고 릴리스 순서대로 나열되며, 가장 최근의 기능이 먼저 나열됩니다. 계획 기능 Closed Beta 프로그램에 참여하는 고객은 미리보기 및 프로덕션 환경의 모든 기능에 액세스할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 새 라이선스 모델에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Maestro의 라이선스 유형과 권한 간의 연결에 대한 자세한 내용은 [Adobe Maestro의 라이선스 유형 개요](/help/quicksilver/maestro/access/license-type-overview.md).
+Planning 기능의 라이선스 유형과 권한 간의 연결에 대한 자세한 내용은 [Adobe Maestro의 라이선스 유형 개요](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
 ### 레코드 필드에 대한 리치 텍스트 도구 모음의 새로운 모양
@@ -88,7 +88,7 @@ Maestro의 라이선스 유형과 권한 간의 연결에 대한 자세한 내�
 * 단일 선택
 * 다중 선택
 * 사용자
-* 연결된 레코드 필드(Maestro 레코드 유형 또는 Workfront 개체를 연결할 때)
+* 연결된 레코드 필드(계획 기능 레코드 유형 또는 Workfront 개체에 연결할 때)
 
 새로운 개선 사항으로, 더 작고 더 반응형 상자가 먼저 표시됩니다.
 
@@ -136,14 +136,14 @@ Maestro의 라이선스 유형과 권한 간의 연결에 대한 자세한 내�
 
 미리보기: 결정 예정
 
-혼동을 방지하고 작업 공간 관리를 단순화하기 위해 작업 공간에서 연결된 비 Maestro 개체에 대해 자동 생성된 읽기 전용 레코드 유형 카드를 제거했습니다.
+혼동을 방지하고 작업 공간 관리를 단순화하기 위해 작업 공간에서 연결된 외부 객체에 대해 자동으로 생성된 읽기 전용 레코드 유형 카드를 제거했습니다.
 <!-- Now, when you connect Workfront objects with Maestro records, for example, you can navigate to Workfront to manage the linked objects. You can no longer find the read-only Workfront object record type page in Maestro. This simplifies the number of objects and places you manage information for your objects.  -->
 
 자세한 내용은 [레코드 연결](/help/quicksilver/maestro/records/connect-records.md).
 
 ## 2024년 1월 22일 주
 
-### 새 기록 섹션에는 Maestro 레코드에 대한 시스템 활동이 표시됩니다.
+### 새 내역 섹션에는 계획 기능 레코드에 대한 시스템 활동이 표시됩니다.
 
 프로덕션: 2024년 1월 25일
 
@@ -151,7 +151,7 @@ Maestro의 라이선스 유형과 권한 간의 연결에 대한 자세한 내�
 
 감사 기능을 개선하기 위해 시스템에서 기록한 레코드에 대한 변경 사항을 검토할 수 있는 새로운 섹션을 레코드의 오른쪽 패널에 도입했습니다.
 
-Maestro는 새로운 History 섹션에 다음 정보를 기록합니다.
+다음 정보는 새 기록 섹션에 기록됩니다.
 
 * 모든 필드 변경 사항
 
@@ -173,13 +173,13 @@ Maestro는 새로운 History 섹션에 다음 정보를 기록합니다.
 
 ## 2024년 1월 8일 주
 
-### Maestro 기능은 미리보기 및 샌드박스 환경에서 제거됩니다
+### Planning 기능은 미리보기 및 샌드박스 환경에서 제거됩니다
 
 미리보기 및 샌드박스: 2024년 1월 11일
 
-Maestro 영역 및 모든 Maestro 기능이 미리보기 및 샌드박스 환경에서 일시적으로 제거되었습니다. Maestro는 나중에 이러한 환경에 추가되며 릴리스 활동 노트에서 전달됩니다.
+Adobe Workfront 계획 기능이 미리보기 및 샌드박스 환경에서 일시적으로 제거되었습니다. 나중에 이러한 환경에 추가되며, 이는 릴리스 활동 정보에서 전달됩니다.
 
-### 작업 공간 및 보기에 대한 Maestro 권한
+### 작업 공간 및 보기에 대한 Planning 기능 권한
 
 프로덕션: 2024년 1월 11일
 
@@ -191,7 +191,7 @@ Maestro 영역 및 모든 Maestro 기능이 미리보기 및 샌드박스 환경
 
 작업 영역을 공유할 때 사용자는 작업 영역의 레코드 유형과 연관된 보기에 대한 공유 권한을 받지 않습니다. 보기에 대해 별도의 권한을 부여해야 합니다.
 
-다음은 Maestro 작업 영역의 권한 수준입니다.
+작업 영역의 권한 수준은 다음과 같습니다.
 
 * 보기: 사용자는 공유된 작업 공간을 볼 수 있습니다. 공유 작업 영역에서 레코드 유형 및 레코드를 볼 수도 있습니다.
 
@@ -274,21 +274,21 @@ Maestro 영역 및 모든 Maestro 기능이 미리보기 및 샌드박스 환경
 
 이제 세부 정보 페이지에서 레코드를 보는 동안 주석을 추가하거나 다른 레코드에 회신하여 개별 레코드에 대해 다른 사용자와 공동 작업을 할 수 있습니다.
 
-Maestro 레코드에 대한 댓글 달기 환경은 Workfront 객체에 대한 새로운 댓글 달기 환경과 일치합니다.
+계획 기능 레코드에 대한 댓글 달기 환경은 Workfront 객체에 대한 새로운 댓글 달기 환경과 일치합니다.
 
 자세한 내용은 [레코드 주석 관리](/help/quicksilver/maestro/records/manage-record-comments.md).
 
-### Adobe Workfront Fusion용 Maestro 커넥터(베타)
+### Adobe Workfront Fusion용 Planning 기능 커넥터(베타)
 
 프로덕션: 2023년 12월 21일
 
 >[!IMPORTANT]
 >
->Maestro와 연결을 만들려면 조직에서 Adobe Workfront Fusion을 구입해야 합니다.
+>조직에서 Adobe Workfront 계획 기능을 사용하여 연결을 구축하려면 Adobe Workfront Fusion을 구매해야 합니다.
 >
 >자세한 내용은 [Adobe Workfront Fusion 개요](/help/quicksilver/workfront-fusion/get-started/workfront-fusion-overview.md).
 
-이제 Adobe Workfront Fusion을 사용하여 Maestro에 연결할 수 있습니다. 새로운 Adobe Maestro Fusion 연결을 통해 다음과 같은 작업을 수행할 수 있습니다.
+이제 Adobe Workfront Fusion을 사용하여 계획 기능에 연결할 수 있습니다. 새 Fusion 연결을 사용하여 다음과 같은 작업을 수행할 수 있습니다.
 
 * 레코드 만들기, 읽기, 업데이트 및 삭제
 
@@ -300,7 +300,7 @@ Maestro 레코드에 대한 댓글 달기 환경은 Workfront 객체에 대한 �
 
 * API 호출 만들기
 
-* Maestro에서 변경된 경우 시나리오 트리거
+* 계획 기능이 변경되면 시나리오를 트리거합니다.
 
 자세한 내용은 [Adobe Maestro 모듈](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md).
 
@@ -310,7 +310,7 @@ Maestro 레코드에 대한 댓글 달기 환경은 Workfront 객체에 대한 �
 
 미리보기 및 프로덕션: 2023년 12월 14일
 
-이제 Maestro 테이블 보기의 첫 번째 열에 표시할 필드를 선택할 수 있습니다. 이제 이 필드를 기본 필드라고 합니다.
+이제 테이블 보기의 첫 번째 열에 표시할 필드를 선택할 수 있습니다. 이제 이 필드를 기본 필드라고 합니다.
 
 이 개선 이전에는 레코드의 이름 필드가 항상 테이블 보기의 첫 번째 열에 표시되므로 다른 위치에 배치할 수 없었습니다.
 
@@ -332,10 +332,9 @@ Maestro 레코드에 대한 댓글 달기 환경은 Workfront 객체에 대한 �
 
 * 레코드 유형의 모든 테이블 보기에는 선택하는 기본 필드가 동일합니다.
 
-자세한 내용은 [테이블 보기 관리](/help/quicksilver/maestro/views/manage-the-table-view.md).
+자세한 내용은 [표 보기 관리](/help/quicksilver/maestro/views/manage-the-table-view.md).
 
-
-### Maestro 레코드와 Adobe Experience Manager Assets 연결
+### 계획 기능 레코드를 Adobe Experience Manager Assets과 연결
 
 미리보기 릴리스: 2023년 12월 14일
 
@@ -343,34 +342,33 @@ Maestro 레코드에 대한 댓글 달기 환경은 Workfront 객체에 대한 �
 
 >[!IMPORTANT]
 >
->Maestro 레코드를 Adobe Experience Manager Assets에 연결하려면 조직의 Workfront 인스턴스가 Adobe 비즈니스 플랫폼 또는 Adobe Admin Console에 온보딩되어야 합니다.
+>Workfront 계획 기능 레코드를 Adobe Experience Manager Assets에 연결하려면 조직의 Adobe Workfront 인스턴스가 Adobe 비즈니스 플랫폼 또는 Adobe Admin Console에 온보딩되어야 합니다.
 >
 >Adobe Admin Console 온보딩에 대한 질문이 있는 경우 [통합 경험 FAQ Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
-
-이제 Maestro 레코드 유형과 Adobe Experience Manager Assets 간 연결을 설정할 수 있습니다.
+이제 Adobe Workfront 계획 기능 레코드 유형과 Adobe Experience Manager Assets 간에 연결을 설정할 수 있습니다.
 
 연결을 설정하면 이 업데이트에서 다음 기능을 사용할 수 있습니다.
 
-* 액세스 권한이 있는 Experience Manager Assets의 특정 저장소에서 Experience Manager 에셋 및 폴더를 Maestro 레코드에 연결할 수 있습니다. 이 프로세스에서 에셋 필드를 마에스트로 필드에 연결할 수 있습니다.
+* 액세스 권한이 있는 Experience Manager Assets의 특정 저장소에서 Experience Manager 에셋 및 폴더를 계획 기능 레코드에 연결할 수 있습니다. 이 프로세스에서 자산 필드를 계획 기능 필드에 연결할 수 있습니다.
 
-* Maestro 사용자는 연결된 자산의 이름과 Maestro에 있는 연결된 필드의 값을 볼 수 있습니다
+* 계획 기능 사용자는 계획 기능에서 연결된 자산의 이름과 연결된 필드의 값을 볼 수 있습니다.
 
 <!--removed per PM, for now: 
 * An Experience Manager Assets record type is automatically created in Maestro after you establish the connection. Connected assets are visible in the Maestro table and timeline views of this new record type.  
 -->
 
-* 연결된 레코드 필드에서 Maestro 레코드의 테이블 보기에서 에셋 이름을 클릭하고 에셋 썸네일과 여러 키 필드가 있는 팝업 창을 볼 수 있습니다. 팝업 창에서 Experience Manager의 에셋 뷰어로 이동하여 에셋에 대한 모든 세부 정보를 볼 수 있습니다.
+* 연결된 레코드 필드에서 계획 기능 레코드의 테이블 보기에서 에셋 이름을 클릭하고 에셋 썸네일과 여러 키 필드가 있는 팝업 창을 볼 수 있습니다. 팝업 창에서 Experience Manager의 에셋 뷰어로 이동하여 에셋에 대한 모든 세부 정보를 볼 수 있습니다.
 
 자세한 내용은 [레코드 유형 연결](/help/quicksilver/maestro/architecture/connect-record-types.md).
 
 ## 2023년 12월 4일 주
 
-### 사람 유형 및 연결된 레코드 필드에 대해 마에스트로 표 보기의 한 필드에서 다른 필드로 정보를 복사하여 붙여넣습니다.
+### 사람 유형 및 연결된 레코드 필드에 대한 계획 기능 테이블 보기의 한 필드에서 다른 필드로 정보를 복사하여 붙여넣습니다.
 
 미리보기 및 프로덕션: 2023년 12월 5일
 
-이제 Maestro 레코드 유형 표 보기에서 한 필드의 정보를 같은 유형의 다른 필드로 복사하여 붙여넣을 수 있습니다. 이 기능은 이제 다음 유형의 필드에 대해 지원됩니다.
+이제 레코드 유형 테이블 보기에서 한 필드의 정보를 같은 유형의 다른 필드로 복사하여 붙여넣을 수 있습니다. 이 기능은 이제 다음 유형의 필드에 대해 지원됩니다.
 
 * 사용자
 * 연결된 레코드 필드
@@ -379,7 +377,7 @@ Maestro 레코드에 대한 댓글 달기 환경은 Workfront 객체에 대한 �
 
 * 여러 값을 표시하는 필드에 대해 한 필드에서 다른 필드로 필드 값을 복사하여 붙여넣을 수 있습니다.
 
-* 정보를 붙여넣은 필드와 동일한 유형의 마에스트로 필드 이외의 다른 소스에서 정보를 복사할 수 없습니다.
+* 정보를 붙여넣은 필드와 동일한 유형의 계획 기능 필드 이외의 다른 소스에서 정보를 복사할 수 없습니다.
 
 * 레코드의 세부 정보 영역에 표시되는 필드의 필드 값을 복사하여 붙여넣을 수 없습니다.
 
@@ -389,15 +387,15 @@ Maestro 레코드에 대한 댓글 달기 환경은 Workfront 객체에 대한 �
 
 ## 2023년 11월 27일 주
 
-### Maestro 표 보기의 한 필드에서 다른 필드로 정보를 복사하여 붙여넣기
+### 계획 능력 테이블 뷰의 한 필드에서 다른 필드로 정보 복사 및 붙여넣기
 
 미리보기 및 프로덕션: 2023년 11월 28일
 
-이제 Maestro 레코드 유형 표 보기에서 한 필드의 정보를 같은 유형의 다른 필드로 복사하여 붙여넣을 수 있습니다.
+이제 계획 기능 레코드 유형 테이블 보기에서 한 필드의 정보를 같은 유형의 다른 필드로 복사하여 붙여넣을 수 있습니다.
 
 다음 사항을 고려하십시오.
 
-* 정보를 붙여넣은 필드와 동일한 유형의 마에스트로 필드 이외의 다른 소스에서 정보를 복사할 수 없습니다.
+* 정보를 붙여넣은 필드와 동일한 유형의 계획 기능 필드 이외의 다른 소스에서 정보를 복사할 수 없습니다.
 
 * 레코드의 세부 정보 영역에 표시되는 필드의 필드 값을 복사하여 붙여넣을 수 없습니다.
 
@@ -417,7 +415,7 @@ Maestro 레코드에 대한 댓글 달기 환경은 Workfront 객체에 대한 �
 
 미리 보기 및 프로덕션: 2023년 11월 7일
 
-이제 레코드 유형 페이지의 표 보기에서 레코드를 그룹화할 수 있습니다. Maestro 인터페이스에서 3개의 고유한 필드별로 그룹화할 수 있습니다 <!--checking into this for now: and by four fields when using the API-->.
+이제 레코드 유형 페이지의 표 보기에서 레코드를 그룹화할 수 있습니다. 계획 능력 인터페이스에서 세 개의 고유 필드별로 그룹화할 수 있습니다<!--checking into this for now: and by four fields when using the API-->.
 
 자세한 내용은 [표 보기 관리](../maestro/views/manage-the-table-view.md).
 
@@ -427,7 +425,7 @@ Maestro 레코드에 대한 댓글 달기 환경은 Workfront 객체에 대한 �
 
 미리보기 및 프로덕션: 2023년 10월 30일
 
-Maestro 레코드에 대해 다음 필드 유형을 도입했습니다.
+Adobe Workfront 계획 기능 레코드에 대해 다음 필드 유형을 도입했습니다.
 
 * 제작자
 
@@ -441,11 +439,11 @@ Maestro 레코드에 대해 다음 필드 유형을 도입했습니다.
 
 자세한 내용은 [필드 만들기](../maestro/fields/create-fields.md).
 
-### Maestro 레코드에서 Workfront 오브젝트 탐색
+### 계획 기능 레코드에서 Workfront 객체로 이동합니다.
 
 미리보기 및 프로덕션: 2023년 10월 31일
 
-이제 Maestro의 다음 영역에서 Workfront 개체 페이지를 열 수 있습니다.
+이제 계획 기능의 다음 영역에서 Workfront 개체 페이지를 열 수 있습니다.
 
 * 읽기 전용으로 연결된 Workfront 개체 레코드 테이블 보기
 
@@ -475,7 +473,7 @@ Maestro 레코드에 대해 다음 필드 유형을 도입했습니다.
 
 미리보기 및 프로덕션: 2023년 10월 16일
 
-이제 Maestro 레코드 유형에 사람 유형 필드를 추가할 수 있습니다. 사람 유형 필드를 사용하여 기존 사용자를 레코드와 연결할 수 있습니다. 자세한 내용은 [필드 만들기](../maestro/fields/create-fields.md).
+이제 계획 기능 레코드 유형에 사람 유형 필드를 추가할 수 있습니다. 사람 유형 필드를 사용하여 기존 사용자를 레코드와 연결할 수 있습니다. 자세한 내용은 [필드 만들기](../maestro/fields/create-fields.md).
 
 ### 단락 필드에 대한 리치 텍스트 형식
 
@@ -530,26 +528,26 @@ Maestro 레코드에 대해 다음 필드 유형을 도입했습니다.
 
 ## 2023년 9월 4일 주
 
-### Maestro 기록을 Workfront 회사 및 그룹과 연결
+### 계획 기능 레코드를 Workfront 회사 및 그룹과 연결
 
 미리보기 및 프로덕션: 2023년 9월 5일
 
-이제 마에스트로 레코드를 Workfront 회사 및 그룹과 연결할 수 있습니다. 먼저 Maestro 레코드 유형과 Workfront 회사 및 그룹 객체 유형 간에 연결을 만들어야 합니다. 그런 다음 선택한 레코드 유형의 단일 마에스트로 레코드를 개별 Workfront 회사 및 그룹에 연결할 수 있습니다.
+이제 계획 기능 레코드를 Workfront 회사 및 그룹과 연결할 수 있습니다. 먼저 계획 기능 레코드 유형과 Workfront 회사 및 그룹 객체 유형 간의 연결을 만들어야 합니다. 그런 다음 선택한 레코드 유형의 단일 계획 기능 레코드를 개별 Workfront 회사 및 그룹에 연결할 수 있습니다.
 
 다음 사항을 고려하십시오.
 
-* 각 작업 영역에 대해 Maestro 레코드 유형과 Workfront 회사 및 그룹 객체 유형 간에 연결을 만들어야 합니다.
+* 각 작업 공간에 대해 계획 기능 레코드 유형과 Workfront 회사 및 그룹 객체 유형 간의 연결을 만들어야 합니다.
 
 * 분류 레코드 유형을 Workfront 객체 유형과 연결할 수 없습니다.
 
-* 여러 Maestro 레코드를 동일한 Workfront 회사 또는 그룹에 연결하고 여러 회사 또는 그룹을 동일한 Maestro 레코드에 연결할 수 있습니다.
+* 여러 계획 역량 레코드를 동일한 Workfront 회사 또는 그룹에 연결하고, 여러 회사 또는 그룹을 동일한 계획 역량 레코드에 연결할 수 있습니다.
 
-* Maestro에서 회사 또는 그룹을 편집할 수 없습니다. Workfront에서 수행된 모든 회사 또는 그룹 변경 사항은 Maestro 연결 레코드를 검토할 때 Maestro에 표시됩니다.
+* 계획 기능에서 회사 또는 그룹을 편집할 수 없습니다. Workfront에서 수행된 모든 회사 또는 그룹 변경 사항은 계획 기능 연결 레코드를 검토할 때 계획 기능에서 볼 수 있습니다.
 
   자세한 내용은 다음 문서를 참조하십시오.
 
    * [레코드 유형 연결](../maestro/architecture/connect-record-types.md)
-   * [레코드 연결](../maestro/records/connect-records.md)
+   * [기록 연결](../maestro/records/connect-records.md)
 
 ### 한 줄 텍스트 필드에 대한 URL 지원
 
@@ -571,15 +569,15 @@ Maestro 레코드에 대해 다음 필드 유형을 도입했습니다.
 
 ## 2023년 8월 21일 주
 
-### Maestro 레코드를 프로그램 및 포트폴리오에 연결
+### Adobe Workfront 계획 기능 레코드를 프로그램 및 포트폴리오에 연결
 
 미리보기 및 프로덕션: 2023년 8월 24일
 
-이제 마에스트로 레코드를 Workfront 프로그램 및 포트폴리오와 연결할 수 있습니다. Maestro 레코드 유형과 연결된 필드를 만드는 프로그램 또는 포트폴리오 간에 연결을 만들어야 합니다. 그런 다음 동일한 작업 공간 내의 다른 모든 레코드 유형의 Maestro 레코드를 동일한 작업 공간에서 읽기 전용 Workfront 프로그램 또는 Workfront Portfolio 레코드 유형을 만드는 특정 프로그램 및 포트폴리오에 연결할 수 있습니다. 다음 사항을 고려하십시오.
+이제 계획 기능 레코드를 Workfront 프로그램 및 포트폴리오와 연결할 수 있습니다. 계획 기능 레코드 유형과 연결된 필드를 만드는 프로그램 또는 포트폴리오 간에 연결을 만들어야 합니다. 그런 다음 동일한 작업 공간 내의 다른 모든 레코드 유형의 계획 기능 레코드를 동일한 작업 공간에서 읽기 전용 Workfront 프로그램 또는 Workfront Portfolio 레코드 유형을 만드는 특정 프로그램 및 포트폴리오에 연결할 수 있습니다. 다음 사항을 고려하십시오.
 
 * Workfront 커넥터 레코드 유형은 각 작업 공간에 대해 고유합니다.
-* 여러 Maestro 레코드를 동일한 Workfront 프로그램 또는 포트폴리오에 연결하고 여러 프로그램 및 포트폴리오를 동일한 Maestro 레코드에 연결할 수 있습니다.
-* Maestro에서는 프로그램 및 포트폴리오를 편집할 수 없습니다. Workfront에서 수행한 모든 프로그램 및 포트폴리오 변경 사항은 연결된 레코드를 검토할 때 Maestro에서 볼 수 있습니다.
+* 여러 계획 기능 레코드를 동일한 Workfront 프로그램 또는 포트폴리오에 연결하고 여러 프로그램 및 포트폴리오를 동일한 계획 기능 레코드에 연결할 수 있습니다.
+* 계획 기능에서는 프로그램 및 포트폴리오를 편집할 수 없습니다. Workfront에서 수행되는 모든 프로그램 및 포트폴리오 변경 사항은 연결된 레코드를 검토할 때 계획 기능에 표시됩니다.
 
 ### 테이블 보기에 대한 새로운 정렬 기능
 
@@ -608,7 +606,7 @@ Maestro 레코드에 대해 다음 필드 유형을 도입했습니다.
 
 ### 테이블 보기에서 열 순서 바꾸기
 
-이제 Maestro 테이블 보기에서 열의 순서를 변경할 수 있습니다. 열을 재정렬할 때는 다음 사항을 고려하십시오.
+이제 테이블 보기에서 열 순서를 변경할 수 있습니다. 열을 재정렬할 때는 다음 사항을 고려하십시오.
 
 * 이름 필드는 항상 레코드 유형 페이지의 테이블 보기에서 첫 번째 필드입니다
 
@@ -650,7 +648,7 @@ Workfront 프로젝트에 연결을 포함하여 레코드 유형을 연결하�
 
 미리보기 및 프로덕션: 2023년 7월 13일
 
-이제 Checkbox 필드 유형을 Maestro 레코드 유형에 추가할 수 있습니다. 확인란 유형 필드를 사용하여 레코드에 단일 확인란 옵션을 추가할 수 있습니다. 이 필드를 사용하여 특정 레코드에 대한 특정 속성이나 상태를 표시할 수 있습니다. 예를 들어 각 레코드의 완료, 승인 또는 기타 모든 이진 속성을 추적하기 위한 플래그로 사용할 수 있습니다.
+이제 계획 기능 레코드 유형에 확인란 필드 유형을 추가할 수 있습니다. 확인란 유형 필드를 사용하여 레코드에 단일 확인란 옵션을 추가할 수 있습니다. 이 필드를 사용하여 특정 레코드에 대한 특정 속성이나 상태를 표시할 수 있습니다. 예를 들어 각 레코드의 완료, 승인 또는 기타 모든 이진 속성을 추적하기 위한 플래그로 사용할 수 있습니다.
 
 ## 2023년 6월 26일 주
 
@@ -664,19 +662,19 @@ Workfront 프로젝트에 연결을 포함하여 레코드 유형을 연결하�
 
 ### 레코드 필드 이름이 고유합니다.
 
-이제 Maestro 레코드 유형의 필드 이름에 고유한 이름이 있어야 한다는 요구 사항을 도입했습니다. 다른 레코드 유형에 속하는 필드는 고유한 이름을 가질 필요가 없습니다.
+이제 계획 능력 레코드 유형의 필드 이름에 고유한 이름이 있어야 한다는 요구 사항이 도입되었습니다. 다른 레코드 유형에 속하는 필드는 고유한 이름을 가질 필요가 없습니다.
 
 ## 2023년 6월 5일 주
 
-### Maestro 레코드와 Workfront 프로젝트 연결
+### Adobe Workfront 계획 기능 레코드를 Workfront 프로젝트와 연결
 
 미리보기 및 프로덕션: 2023년 6월 5일
 
-이제 마에스트로 레코드를 Workfront 프로젝트와 연결할 수 있습니다. Maestro 레코드와 Workfront 프로젝트 간의 연결을 설정하려면 커넥터 Maestro 레코드 유형을 만들어야 합니다. 그런 다음 관계 필드를 사용하여 다른 모든 레코드 유형의 Maestro 레코드를 커넥터 레코드에 연결할 수 있습니다. 다음 사항을 고려하십시오.
+이제 계획 기능 레코드를 Workfront 프로젝트와 연결할 수 있습니다. 계획 기능 레코드와 Workfront 프로젝트 간의 연결을 설정하려면 커넥터 계획 기능 레코드 유형을 만들어야 합니다. 그런 다음 관계 필드를 사용하여 다른 모든 레코드 유형의 계획 기능 레코드를 커넥터 레코드에 연결할 수 있습니다. 다음 사항을 고려하십시오.
 
 * 각 작업 공간에 대해 Workfront에 대한 커넥터 레코드 유형이 있어야 합니다.
-* 여러 Maestro 레코드를 동일한 Workfront 프로젝트에 연결하고 여러 프로젝트를 동일한 Maestro 레코드에 연결할 수 있습니다.
-* Maestro에서는 프로젝트를 편집할 수 없습니다. Workfront에서 수행된 모든 프로젝트 변경 사항은 연결된 레코드를 검토할 때 Maestro에 표시됩니다.
+* 여러 계획 기능 레코드를 동일한 Workfront 프로젝트에 연결하고 여러 프로젝트를 동일한 계획 기능 레코드에 연결할 수 있습니다.
+* 계획 기능에서는 프로젝트를 편집할 수 없습니다. Workfront에서 수행된 모든 프로젝트 변경 사항은 연결된 레코드를 검토할 때 계획 기능에 표시됩니다.
 
 ## 2023년 5월 29일 주
 

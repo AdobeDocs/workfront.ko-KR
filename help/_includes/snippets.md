@@ -1,7 +1,7 @@
 ---
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 472fe32b5f0fa09b00496cf07166e178d248957f
 workflow-type: tm+mt
-source-wordcount: '2356'
+source-wordcount: '2362'
 ht-degree: 1%
 
 ---
@@ -253,13 +253,13 @@ Workfront 프로젝트에 있는 동안 사용자가 Experience Manager에 연�
 
 >[!IMPORTANT]
 >
->이 문서의 정보는 Adobe Workfront의 새로운 오퍼링인 Adobe Maestro를 참조합니다.
+>이 문서의 정보는 Adobe Workfront의 새로운 서비스인 Adobe Workfront 계획 기능에 대한 것입니다.
 >
->현재 Adobe 마에스트로는 제한된 수의 고객에게 제공되는 베타 프로그램의 일부입니다. Maestro 기능을 사용하려면 Workfront 고객이어야 합니다.
+>현재 계획 기능은 제한된 수의 고객에게 제공되는 베타 프로그램의 일부입니다. 이러한 기능을 사용하려면 Workfront 고객이어야 합니다.
 >
->Maestro용 Beta 프로그램 가입에 대한 자세한 내용은 계정 담당자에게 문의하십시오.
+>계획 기능에 대한 베타 프로그램 가입에 대한 자세한 내용은 계정 담당자에게 문의하십시오.
 >
->Maestro에 대한 자세한 내용은 [Adobe 마에스트로 개요](/help/quicksilver/maestro/maestro-overview.md).
+>계획 기능에 대한 자세한 내용은 다음을 참조하십시오. [Adobe Workfront 계획 기능 개요](/help/quicksilver/maestro/maestro-overview.md).
 
 <!-- Manage Work -->
 

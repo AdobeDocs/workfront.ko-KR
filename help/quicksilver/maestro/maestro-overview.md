@@ -1,18 +1,18 @@
 ---
-title: Adobe 마에스트로 개요
-description: Adobe Maestro는 Adobe Workfront의 새로운 서비스입니다. 완전히 사용자 정의 가능한 작업 공간을 만들어 기업의 각 조직 단위 요구 사항을 충족하는 워크플로우를 정의할 수 있습니다.
+title: Adobe Workfront 계획 기능 개요
+description: Adobe Workfront 계획 기능은 Adobe Workfront의 새로운 기능입니다. 완전히 사용자 정의 가능한 작업 공간을 만들어 기업의 각 조직 단위 요구 사항을 충족하는 워크플로우를 정의할 수 있습니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: be9cedb0d09e6409a0e589f01b85a72933ac89fc
 workflow-type: tm+mt
-source-wordcount: '1961'
+source-wordcount: '2051'
 ht-degree: 1%
 
 ---
 
-# Adobe 마에스트로 개요
+# Adobe Workfront 계획 기능 개요
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
@@ -22,16 +22,16 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->이 문서의 정보는 Adobe Workfront의 새로운 오퍼링인 Adobe Maestro를 참조합니다.
+>이 문서의 정보는 Adobe Workfront의 새로운 서비스인 Adobe Workfront 계획 기능에 대한 것입니다.
 >
->현재 Adobe 마에스트로는 제한된 수의 고객에게 제공되는 베타 프로그램의 일부입니다. Maestro 기능을 사용하려면 Workfront 고객이어야 합니다.
+>현재 계획 기능은 제한된 수의 고객에게 제공되는 베타 프로그램의 일부입니다. 이러한 기능을 사용하려면 Workfront 고객이어야 합니다.
 >
->Maestro용 Beta 프로그램 가입에 대한 자세한 내용은 계정 담당자에게 문의하십시오.
->[Adobe Maestro 비디오 데모 보기](https://video.tv.adobe.com/v/3424253/){target=_blank}
+>계획 기능에 대한 베타 프로그램 가입에 대한 자세한 내용은 계정 담당자에게 문의하십시오.
+>[Adobe Workfront 계획 기능에 대한 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3424253/){target=_blank}
 
-## Adobe 마에스트로 소개
+## Adobe Workfront 계획 기능 소개
 
-Adobe Maestro는 Adobe Workfront의 새로운 서비스입니다. Maestro의 목적은 조직의 운영 세부 정보를 포괄적으로 파악하고 작업 관리 수명주기의 각 단계에서 중요한 비즈니스 질문에 답변하는 것입니다.
+Adobe Workfront 계획 기능은 Adobe Workfront의 새로운 기능입니다. 계획 기능의 목적은 조직의 운영 세부 정보를 포괄적으로 파악하고 작업 관리 수명주기의 각 단계에서 중요한 비즈니스 질문에 답변하는 것입니다.
 
 팀 및 리더쉽은 다음과 같은 질문에 대한 명확한 답변을 필요로 합니다.
 
@@ -42,17 +42,17 @@ Adobe Maestro는 Adobe Workfront의 새로운 서비스입니다. Maestro의 목
 
 이러한 질문에 답변하기 위해서는 리더십은 계획에서 실행, 전달에서 결과 측정에 이르기까지 모든 작업 단계를 총체적으로 파악할 수 있는 솔루션이 필요합니다. 현재 조직에는 프로세스의 일부 부분을 처리할 수 있는 도구가 있지만, 대부분의 조직에서는 모든 작업 단계에 대한 연결이 좋지 않으며, 결과를 안정적으로 제공할 수 없습니다.
 
-다음은 Maestro의 주요 기능 중 일부입니다.
+다음은 몇 가지 주요 기능입니다.
 
 * 모든 단계에 걸쳐 작업을 관리하고 작업 과정에 참여하는 모든 이해 당사자를 위한 문제를 해결합니다.
 * 조직에서 사용하는 개체 유형(또는 레코드 유형) 결정부터 이러한 개체가 서로 연결되는 방법을 구성하는 등 워크플로를 완전히 사용자 지정합니다.
 * 다른 시스템의 오브젝트 유형에 연결하여 모든 프로세스에 대해 일관된 프레임워크를 만듭니다.
 
-## 현재 사용 가능한 Maestro 기능
+## 현재 사용 가능한 Adobe Workfront 계획 기능
 
-다음 표는 Maestro에서 사용할 수 있는 주요 기능과 해당 기능의 사용 가능 시간표를 보여 줍니다. 목록에 모든 기능이 포함되지 않습니다.
+다음 표는 계획 기능에서 사용할 수 있는 주요 기능과 해당 기능의 가용성 타임라인을 보여 줍니다. 목록에 모든 기능이 포함되지 않습니다.
 
-새로운 기능과 출시된 시기에 대한 자세한 내용은 [Maestro 릴리스 활동](/help/quicksilver/maestro/release-activity.md).
+새로운 기능과 출시된 시기에 대한 자세한 내용은 [Adobe Workfront 계획 기능 릴리스 활동](/help/quicksilver/maestro/release-activity.md).
 
 | 기능 | 현재 사용 가능 | 곧 사용 가능 | 연구 중 |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
@@ -73,11 +73,11 @@ Adobe Maestro는 Adobe Workfront의 새로운 서비스입니다. Maestro의 목
 | 표 보기에서 그룹화 정렬 |                               | ✓ 덧신 |                  |
 | 타임라인 보기에서 그룹화 정렬 |                               | ✓ 덧신 |                  |
 | 작업 공간 연결 |                               | ✓ 덧신 |                  |
-| Maestro 레코드 및 분류 연결 | ✓ 덧신 |
+| 계획 기능 레코드 및 분류 연결 | ✓ 덧신 |
 | 표 보기에서 레코드 검색 | ✓ 덧신 |   |
 | 타임라인 보기에서 레코드 검색 | ✓ 덧신 |   |
-| Maestro 기록을 Workfront 프로젝트, 프로그램, 포트폴리오, 회사, 그룹에 연결 | ✓ 덧신 |                                 |                  |
-| Maestro 레코드를 Adobe Experience Manager 에셋에 연결 | ✓ 덧신 |                                  |                 |
+| 계획 기능 레코드를 Workfront 프로젝트, 프로그램, 포트폴리오, 회사, 그룹에 연결 | ✓ 덧신 |                                 |                  |
+| 계획 기능 레코드를 Adobe Experience Manager 에셋에 연결 | ✓ 덧신 |                                  |                 |
 | 레코드 세부 정보 페이지 | ✓ 덧신 |                                  |                  |
 | 레코드 세부 정보 페이지의 레이아웃 업데이트 |                               | ✓ 덧신 |                  |
 | 작업 공간 공유 | ✓ 덧신 | |  |
@@ -89,22 +89,22 @@ Adobe Maestro는 Adobe Workfront의 새로운 서비스입니다. Maestro의 목
 | 레코드에 썸네일 추가 | ✓ 덧신 |                                  |                 |
 | 레코드의 변경 내용 보기 | ✓ 덧신 |                                  |                 |
 | 단락 필드에 대한 서식 있는 텍스트 서식 | ✓ 덧신 |                                  |                 |
-| Adobe Workfront Fusion용 Maestro 모듈 | ✓ 덧신 |                                  |                 |
+| Adobe Workfront Fusion용 Adobe Workfront 계획 기능 모듈 | ✓ 덧신 |                                  |                 |
 | 한 필드에서 다른 필드로 정보 복사 및 붙여넣기 | ✓ 덧신 |                                  |                 |
 
-## Workfront 인스턴스의 사용자에 대해 Maestro 활성화
+## Workfront 인스턴스의 사용자를 위한 Adobe Workfront 계획 기능 활성화
 
-Maestro에 액세스하려면 먼저 조직이 Adobe Maestro Closed Beta 프로그램에 등록해야 합니다. Beta 프로그램 등록에 대한 자세한 내용은 계정 담당자에게 문의하십시오.
+계획 기능에 액세스하려면 먼저 조직이 Adobe Workfront 계획 기능 비공개 베타 프로그램에 등록해야 합니다. Beta 프로그램 등록에 대한 자세한 내용은 계정 담당자에게 문의하십시오.
 
-액세스 권한을 부여하고 다른 사용자가 Maestro를 사용할 수 있도록 하는 방법에 대한 자세한 내용은 [액세스 개요](/help/quicksilver/maestro/access/access-overview.md).
+액세스 권한을 부여하고 다른 사용자가 계획 기능을 사용할 수 있도록 하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [액세스 개요](/help/quicksilver/maestro/access/access-overview.md).
 
-## Maestro 용어
+## Adobe Workfront 계획 기능 용어
 
-Maestro는 Workfront의 일부이지만 독점 개념 및 용어와 함께 제공됩니다. 조직에 Maestro를 설정하기 전에 Maestro 개념을 잘 알고 있는지 확인하십시오.
+계획 기능은 Workfront의 일부이지만 독점 개념 및 용어와 함께 제공됩니다. 조직의 계획 기능 설정을 시작하기 전에 계획 기능 개념을 숙지하십시오.
 
-Maestro를 위한 프레임워크는 완전히 맞춤화가 가능합니다. 조직의 정확한 요구 사항에 맞게 모든 레코드 종류, 해당 속성 및 이와 연결된 모든 필드를 만들 수 있습니다.
+계획 기능에 대한 프레임워크는 완전히 사용자 정의할 수 있습니다. 조직의 정확한 요구 사항에 맞게 모든 레코드 종류, 해당 속성 및 이와 연결된 모든 필드를 만들 수 있습니다.
 
-다음은 주요 Maestro 개체 및 개념입니다.
+다음은 주요 계획 기능 객체 및 개념입니다.
 
 * **작업 영역**: 특정 조직의 운영 라이프사이클을 정의하는 레코드 유형 및 분류의 컬렉션입니다. 작업 공간은 조직 단위의 작업 프레임입니다.
 
@@ -114,17 +114,17 @@ Maestro를 위한 프레임워크는 완전히 맞춤화가 가능합니다. 조
 
   자세한 내용은 [작업 공간 만들기](../maestro/architecture/create-workspaces.md).
 
-* **레코드 유형**: Maestro 기본 오브젝트 유형.
+* **레코드 유형**: 기본 계획 기능 객체 유형입니다.
 
-  오브젝트 유형이 사전 정의된 Workfront과 달리 Maestro에서는 나만의 오브젝트 유형을 만들 수 있습니다.
+  객체 유형이 사전 정의된 Workfront과 달리 계획 기능에서는 고유한 객체 유형을 생성할 수 있습니다.
 
   예를 들어 Workfront에서 프로그램, Portfolio, 프로젝트, 작업 또는 문제의 객체 유형이 이미 생성되었습니다.
 
-  Maestro에서는 조직의 워크플로우에 맞는 레코드 유형을 만들 수 있습니다. 나중에 레코드 종류 간에 어떤 관계가 있는지 정의하거나 양식 종속성을 정의할 수 있습니다.
+  계획 기능에서는 조직의 워크플로우에 맞는 모든 레코드 유형을 만들 수 있습니다. 나중에 레코드 종류 간에 어떤 관계가 있는지 정의하거나 양식 종속성을 정의할 수 있습니다.
 
   자세한 내용은 [운영 레코드 유형 및 분류 개요](../maestro/architecture/overview-of-record-types-and-taxonomies.md).
 
-  Maestro에는 다음과 같은 레코드 유형이 있습니다.
+  계획 기능에는 다음과 같은 레코드 유형이 있습니다.
 
    * **운영 레코드 유형**: 전략 계획, 이니셔티브 또는 실행된 작업을 나타내는 레코드 유형입니다.
 
@@ -138,13 +138,13 @@ Maestro를 위한 프레임워크는 완전히 맞춤화가 가능합니다. 조
 
      ![](assets/taxonomy-record-type-blank.png)
 
-     분류 생성은 운영 레코드 유형 생성과 동일하지만 Maestro는 운영 레코드 유형과 분류 레코드 유형을 구별합니다. 분류 체계의 목적은 운영 기록 유형을 향상시키는 것입니다. <!--this is no longer true, but might be later?!: A taxonomy is a record without dates, like a static list of attributes.-->
+     분류 생성은 운영 레코드 유형 생성과 동일하지만 계획 기능은 운영 레코드 유형과 분류 레코드 유형을 구별합니다. 분류 체계의 목적은 운영 기록 유형을 향상시키는 것입니다. <!--this is no longer true, but might be later?!: A taxonomy is a record without dates, like a static list of attributes.-->
 
      예를 들어 대상, 지역 또는 주소는 분류법 유형 레코드 유형일 수 있습니다.
 
      자세한 내용은 [분류 레코드 유형 만들기](../maestro/architecture/create-a-taxonomy.md).
 
-* **기록**: Maestro 레코드 유형의 인스턴스 레코드는 운영 레코드 유형 또는 분류법을 참조할 수 있습니다.
+* **기록**: 계획 기능 레코드 유형의 인스턴스입니다. 레코드는 운영 레코드 유형 또는 분류법을 참조할 수 있습니다.
 
   ![](assets/records-highlighted-in-campaign-record-type-list.png)
   ![](assets/records-highlighted-in-region-taxonomy-type-list.png)
@@ -163,7 +163,7 @@ Maestro를 위한 프레임워크는 완전히 맞춤화가 가능합니다. 조
 
   ![](assets/workspaces-page-with-templates-thumbnails.png)
 
-  Maestro에는 Sales, Marketing 및 Product Management 작업 영역 템플릿이 제공됩니다.
+  Adobe Workfront 계획 기능은 판매, 마케팅 및 제품 관리 작업 공간 템플릿과 함께 제공됩니다.
 
   자세한 내용은 [작업 공간 만들기](../maestro/architecture/create-workspaces.md).
 
@@ -171,7 +171,7 @@ Maestro를 위한 프레임워크는 완전히 맞춤화가 가능합니다. 조
 
   ![](assets/drop-down-list-of-record-fields.png)
 
-  Maestro 필드에 대한 고려 사항:
+  계획 기능 필드에 대한 고려 사항:
 
    * 레코드 유형에 추가하는 필드는 해당 유형의 모든 레코드와 자동으로 연결되고 해당 레코드에 대한 데이터를 캡처하는 데 사용할 수 있습니다.
 
@@ -179,7 +179,7 @@ Maestro를 위한 프레임워크는 완전히 맞춤화가 가능합니다. 조
 
    * 필드는 레코드 유형에 고유하며 한 레코드 유형에서 다른 레코드 유형으로 전송되지 않습니다.
 
-   * Maestro 필드는 사용자 정의가 가능하며 Maestro에서만 액세스할 수 있습니다. Workfront에서 Maestro 필드에 액세스할 수 없습니다.
+   * 계획 기능 필드는 완전히 사용자 정의할 수 있으며 계획 기능에서만 액세스할 수 있습니다. Workfront에서 계획 기능 필드에 액세스할 수 없습니다.
 
   자세한 내용은 [필드 만들기](../maestro/fields/create-fields.md).
 
@@ -213,9 +213,9 @@ Maestro를 위한 프레임워크는 완전히 맞춤화가 가능합니다. 조
 
 * **연결된 레코드 유형**, **연결된 레코드**, 및 **연결된 레코드 필드**: 다음 엔티티 간에 연결을 만들 수 있습니다.
 
-   * 두 가지 Maestro 레코드 유형
-   * Maestro 레코드 유형 및 Workfront 프로젝트, 프로그램, 포트폴리오, 회사 또는 그룹 오브젝트 유형.
-   * Maestro 레코드 유형 및 Adobe Experience Manager 에셋, 폴더 또는 컬렉션.
+   * 두 가지 계획 기능 레코드 유형.
+   * 계획 기능 레코드 유형과 Workfront 프로젝트, 프로그램, 포트폴리오, 회사 또는 그룹 객체 유형.
+   * 계획 기능 레코드 유형 및 Adobe Experience Manager 에셋, 폴더 또는 컬렉션입니다.
 
      레코드 종류를 Experience Manager 개체와 연결하려면 Adobe Experience Manager 라이선스가 있어야 합니다.
 
@@ -226,14 +226,14 @@ Maestro를 위한 프레임워크는 완전히 맞춤화가 가능합니다. 조
 
 * **연결된 필드** (또는 조회 필드): 두 레코드 유형 간에 연결을 설정하고 개별 레코드를 함께 연결하면 연결 중인 레코드에서 연결된 레코드의 필드를 참조할 수 있습니다.
 
-  예를 들어 Maestro 캠페인을 Workfront 프로젝트와 연결하는 경우 Maestro 캠페인 레코드에 연결된 프로젝트의 프로젝트 소유자 필드를 표시할 수 있습니다.
+  예를 들어 계획 기능 캠페인을 Workfront 프로젝트와 연결하는 경우 계획 기능 캠페인 레코드에 연결된 프로젝트의 프로젝트 소유자 필드를 표시할 수 있습니다.
 
   ![](assets/add-lookup-fields-modal.png)
 
   레코드 유형, 레코드 연결 및 연결된 필드 만들기에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
    * [레코드 유형 연결](../maestro/architecture/connect-record-types.md)
-   * [레코드 연결](../maestro/records/connect-records.md)
+   * [기록 연결](../maestro/records/connect-records.md)
 
 <!--not yet:* Fields are reusable across Record Types.  -->
 
@@ -256,11 +256,11 @@ Maestro를 위한 프레임워크는 완전히 맞춤화가 가능합니다. 조
   자세한 내용은 [레코드 보기 관리](../maestro/views/manage-record-views.md).
 
 
-## Maestro 객체 제한 사항
+## Adobe Workfront 계획 기능 개체 제한 사항
 
-다음 표는 Maestro에서 만들 수 있는 객체 수에 대한 제한을 보여 줍니다. 제한 사항은 마에스트로의 다음 개발 단계로 넘어갈 때 변경될 수 있습니다.
+다음 표는 계획 기능에서 생성할 수 있는 객체 수에 대한 제한을 보여 줍니다. 다음 단계의 개발로 넘어감에 따라 제한 사항이 변경될 수 있습니다.
 
-| Maestro 오브젝트 | 제한 |
+| Adobe Workfront 계획 기능 개체 | 제한 |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 | 하나의 Workfront 인스턴스에 대한 작업 공간 수 | 1,000 |
 | 하나의 작업 영역에 대한 레코드 유형 수 | 1,000(작업공간에 대한 분류법 또는 다른 응용 프로그램에서 가져오는 객체 포함) |
@@ -272,11 +272,11 @@ Maestro를 위한 프레임워크는 완전히 맞춤화가 가능합니다. 조
 | API 요청을 수행할 수 있는 속도입니다 | 분당 요청 200개 |
 | 표에서 가져올 수 있는 Excel 파일의 CSV 크기 | 5MB |
 
-## Maestro 찾기
+## Adobe Workfront 계획 기능 찾기
 
-조직에서 Maestro에 대한 액세스 권한을 받았으며 시스템 또는 그룹 관리자가 Main Menu에 Maestro 영역을 추가했는지 확인합니다. 자세한 내용은 [액세스 개요](/help/quicksilver/maestro/access/access-overview.md) .
+조직에서 계획 기능에 대한 액세스 권한을 받았으며 시스템 또는 그룹 관리자가 기본 메뉴에 계획 기능 영역을 추가했는지 확인합니다. 자세한 내용은 [액세스 개요](/help/quicksilver/maestro/access/access-overview.md).
 
-Maestro를 찾으려면
+계획 기능을 찾으려면 다음을 수행합니다.
 
 1. Adobe Workfront에 로그인.
 
@@ -284,9 +284,9 @@ Maestro를 찾으려면
 
 1. 클릭 **마에스트로** ![](assets/maestro-icon.png).
 
-   Maestro Workspaces 영역이 열립니다.
+   작업공간(Workspaces) 영역이 열립니다.
 
-1. (선택 사항 및 권장) 다음 작업 중 일부를 계속하여 Maestro에서 작업 구조를 빌드합니다.
+1. (선택 사항 및 권장) 다음 작업 중 일부를 계속하여 작업 구조를 빌드합니다.
 
    1. 처음부터 작업공간을 작성하거나 템플릿을 사용합니다.
 
@@ -308,8 +308,7 @@ Maestro를 찾으려면
 
    1. 필터, 그룹화 또는 설정을 업데이트하여 타임라인 보기를 사용자 지정합니다.
 
-## Maestro 릴리스 활동
+## Adobe Workfront 계획 기능 릴리스 활동
 
-우리는 정기적으로 마에스트로의 새로운 기능을 출시하고 있습니다. 릴리스된 기능의 최신 목록은 을 참조하십시오. [Adobe Maestro 릴리스 활동](../maestro/release-activity.md).
-
+계획 기능에 대한 새로운 기능을 정기적으로 출시하고 있습니다. 릴리스된 기능의 최신 목록은 을 참조하십시오. [Adobe Workfront 계획 기능 릴리스 활동](../maestro/release-activity.md).
 
