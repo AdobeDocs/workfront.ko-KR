@@ -6,16 +6,16 @@ description: Portfolio은 Adobe Workfront의 프로젝트 또는 프로그램 �
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: 7a9232f59e4c6f2eac2995be7d7862295b6bab2c
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
 
 # 포트폴리오 삭제 및 비활성화
 
-<!--Audited: 01/2024-->
+<!--Audited: 2/2024-->
 
 Portfolio은 의 프로젝트 또는 프로그램 컬렉션입니다. [!DNL Adobe Workfront]. 시스템과 관련이 없는 포트폴리오를 삭제하거나 비활성화할 수 있습니다.
 
@@ -30,26 +30,26 @@ Portfolio은 의 프로젝트 또는 프로그램 컬렉션입니다. [!DNL Adob
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
    <td> <p>임의 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
    <td> <p>새로운 기능: [!UICONTROL Standard] </p>
    <p>현재: [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>프로젝트 및 Portfolio에 대한 [!UICONTROL 편집] 액세스</p> <p><b>메모</b></p> <p> 액세스 권한이 없는 경우 [!DNL Workfront] 관리자가 액세스 수준에 추가 제한을 설정하는 경우. 자세한 내용: [!DNL Workfront] 관리자가 액세스 수준을 변경할 수 있습니다. 다음을 참조하십시오. <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>프로젝트 및 Portfolio에 대한 [!UICONTROL 편집] 액세스</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>포트폴리오에 대한 [!UICONTROL 관리] 권한 </p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>포트폴리오에 대한 [!UICONTROL 관리] 권한 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 포트폴리오 삭제 및 비활성화 개요
 
@@ -71,18 +71,16 @@ Portfolio은 의 프로젝트 또는 프로그램 컬렉션입니다. [!DNL Adob
 
 >[!NOTE]
 >
->다음 방법에 따라 [!DNL Workfront] 또는 그룹 관리자가 레이아웃 템플릿을 구성합니다. [!UICONTROL Portfolio] 영역에 표시되지 않을 수 있음 [!UICONTROL 메인 메뉴]. 자세한 내용은 [레이아웃 템플릿을 사용하여 메인 메뉴 사용자 정의](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
+>다음 방법에 따라 [!DNL Workfront] 또는 그룹 관리자가 레이아웃 템플릿을 구성합니다. [!UICONTROL Portfolio] 영역에 표시되지 않을 수 있음 [!UICONTROL 메인 메뉴]. 자세한 내용은 [레이아웃 템플릿을 사용하여 메인 메뉴 사용자 정의](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![](assets/main-menu-icon.png) 의 오른쪽 위 모서리 [!DNL Adobe Workfront].
-
+1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리입니다.
 1. 클릭 **[!UICONTROL Portfolio]** .
 1. 포트폴리오의 이름을 클릭합니다.
 1. 다음을 클릭합니다. **자세히** 메뉴 ![](assets/more-icon.png) 포트폴리오 이름의 오른쪽에 있는 **[!UICONTROL Portfolio 비활성화]**.
 
 ## 포트폴리오 삭제
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront 오른쪽 상단에 있습니다.
-
+1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리입니다.
 1. 클릭 **[!UICONTROL Portfolio]** .
 1. 포트폴리오를 선택한 다음 **[!UICONTROL 삭제]**&#x200B; [!UICONTROL 삭제] 아이콘 ![](assets/delete.png).
 1. 표시되는 상자에서 **[!UICONTROL 예, 삭제합니다.]** 확인할 수 있습니다.

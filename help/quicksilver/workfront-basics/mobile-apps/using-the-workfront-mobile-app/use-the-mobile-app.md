@@ -7,14 +7,16 @@ author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: 7a9232f59e4c6f2eac2995be7d7862295b6bab2c
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
 
-# 사용 [!DNL Adobe Workfront] 모바일 앱
+# 사용 [!DNL Adobe Workfront] 모바일 앱: 문서 색인
+
+<!-- Audited: 2/2024 -->
 
 다음을 통해 조직 내 팀과 개인의 참여를 가속화하고 작업을 능률화합니다. [!DNL Adobe Workfront's] 모바일 앱(iOS 또는 Android 장치에서 사용 가능). 앱을 사용하여 다음과 같은 작업을 수행할 수 있습니다.
 
@@ -38,13 +40,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->다음 [!DNL Adobe Workfront] 모바일 앱이 다음을 대체하고 있습니다. [!DNL Workfront Proof] 더 이상 지원되지 않는 앱으로, 10월에 23.10 릴리스를 통해 완전히 제거됩니다. [!DNL Workfront] 이제 고객은 [!DNL Adobe Workfront] 증명 검토 및 승인을 수행하기 위한 모바일 앱.
+>다음 [!DNL Adobe Workfront] 모바일 앱이 [!DNL Workfront Proof] 앱. [!DNL Workfront] 이제 고객은 [!DNL Adobe Workfront] 증명 검토 및 승인을 수행하기 위한 모바일 앱.
 
 에 대한 자세한 내용은 [!DNL Adobe Workfront] 모바일 앱에서 다음 문서를 검토하십시오.
 
-* [ [!DNL Android]에 대한 [!DNL Adobe Workfront]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
+* [[!DNL Adobe Workfront] 대상 [!DNL Android]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
 * [다음이 되어야 함: [!DNL Android] 베타 테스터](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/android-beta-tester.md)
-* [ [!DNL iOS]에 대한 [!DNL Adobe Workfront]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
+* [[!DNL Adobe Workfront] 대상 [!DNL iOS]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
 * [다음이 되어야 함: [!DNL iOS] 베타 테스터](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/ios-beta-tester.md)
 * [[!UICONTROL 홈] 영역 위젯](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md)
 * [[!UICONTROL 내 작업] 모바일 앱의 섹션](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md)

@@ -9,14 +9,16 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: 38e548594b37ef3109d7df436955a5255881bb6d
+source-git-commit: 7a9232f59e4c6f2eac2995be7d7862295b6bab2c
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
 # 새 라이센스로 오브젝트 및 영역에 액세스
+
+<!-- Audited: 2/2024 -->
 
 아래 표는 각 Adobe Workfront 라이선스에서 Workfront의 개체 및 영역에 대해 허용하는 가장 높은 수준의 액세스(편집 또는 보기)를 보여 줍니다.
 
@@ -32,7 +34,7 @@ ht-degree: 17%
         <td></td>
         <td>표준</td>
         <td>라이트</td>
-        <td>참여자</td>
+        <td>기여자</td>
         <td>외부</td>
     </tr>
     <tr>
@@ -134,7 +136,7 @@ ht-degree: 17%
         <td>액세스 권한 없음</td>
     </tr>
     <tr>
-        <td>Workfront 목표</td>
+        <td>Workfront Goals</td>
         <td>편집</td>
         <td>편집</td>
         <td>편집</td>
