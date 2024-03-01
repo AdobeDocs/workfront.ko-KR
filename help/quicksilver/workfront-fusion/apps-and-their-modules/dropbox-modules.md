@@ -9,9 +9,9 @@ description: 다음 기간 [!DNL Adobe Workfront Fusion] 시나리오에서는 D
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: a35631d7-40ac-4e7f-9a37-ad3879c0b6a2
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 9db172cc8c02efcd1128fa8adc5ff55bb29b4df5
 workflow-type: tm+mt
-source-wordcount: '3061'
+source-wordcount: '3080'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,14 @@ ht-degree: 0%
 
 ## 전제 조건
 
-사용 [!DNL Dropbox] 모듈, 다음이 있어야 합니다. [!DNL Dropbox] 계정입니다.
+* 사용 [!DNL Dropbox] 모듈, 다음이 있어야 합니다. [!DNL Dropbox] 계정입니다.
+
+>[!IMPORTANT]
+>
+>Dropbox은 사용자가 50명을 초과하는 응용 프로그램을 승인해야 합니다.
+>
+>자세한 내용을 보려면 Dropbox 개발자 안내서에서 &quot;프로덕션 승인&quot;을 검색하십시오.
+
 
 ## [!DNL Dropbox] 모듈 및 해당 필드
 
