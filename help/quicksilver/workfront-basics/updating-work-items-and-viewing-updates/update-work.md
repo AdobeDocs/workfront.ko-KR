@@ -6,9 +6,9 @@ description: Adobe Workfront 개체(프로젝트, 작업 또는 문제)에 업�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: d86b1d5fb6fcfeddccfb079f3040f1ddfe29e71d
+source-git-commit: d76ab0e165d280f84718b52cc72a9b4c152a0897
 workflow-type: tm+mt
-source-wordcount: '4257'
+source-wordcount: '4279'
 ht-degree: 1%
 
 ---
@@ -322,7 +322,7 @@ After the monthly releases to Production, the same features are also available i
 
    >[!TIP]
    >
-   >시스템 업데이트에 주석을 추가할 수 없습니다.
+   >시스템 업데이트에 주석을 추가할 수 없습니다. <span class="preview">그러나 이전 댓글 달기 경험의 시스템 활동 레코드에 대한 모든 답글은 시스템 활동 탭에서 읽기 전용으로 채워집니다.</span>
 
 1. <span class="preview">(선택 사항) **모두** 탭에서는 사용자 댓글과 시스템 활동 댓글을 한 곳에서 모두 볼 수 있습니다. 보기 전용 탭입니다.</span>
 
