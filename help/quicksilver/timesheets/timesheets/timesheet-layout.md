@@ -7,9 +7,9 @@ description: 이 문서에서는 Adobe Workfront의 타임시트 레이아웃에
 author: Alina
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: a1481513747bec3486d94c74c234e2db5cc664d6
+source-git-commit: 48ac3bd727787ed214b87342ab60e844f342d0b8
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1078'
 ht-degree: 1%
 
 ---
@@ -137,6 +137,14 @@ ht-degree: 1%
 
 ## 요약 패널
 
+<div class="preview">
+
+미리보기 환경의 예:
+![요약 패널](assets/timesheet-summary-panel-on-updates.png)
+
+</div>
+
+프로덕션 환경의 예:
 ![요약 패널](assets/timesheet-summary-panel-for-task-unshimmed-redesign.png)
 
 타임시트에 표시되는 작업 또는 문제에 대한 요약 패널에 액세스할 수 있습니다. 여기에서 작업 및 문제에 대해 댓글을 달거나 정보를 업데이트할 수 있습니다. 자세한 내용은 [요약 개요](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
