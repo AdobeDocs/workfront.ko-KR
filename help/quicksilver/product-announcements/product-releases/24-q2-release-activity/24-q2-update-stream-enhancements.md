@@ -4,9 +4,9 @@ description: 2024년 2분기 업데이트 스트림 및 알림 개선 사항
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 980979bcc96739671ea69bdb1387d98c3f39d047
+source-git-commit: 07d5abb6a36dd97a5d810fb69bde95ef74a76174
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,16 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2024년 2분기 릴리스의 모든 업데이트 스트림 및 알림 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2024년 2분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [2024년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## 이제 새 홈 위젯에 대한 빠른 작업에서 새 댓글 달기 스트림을 사용할 수 있습니다.
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2024년 3월 1일, 빠른 릴리스를 위한 프로덕션: 24.3 릴리스(2024년 3월 14일), 모든 고객을 위한 프로덕션: 24.4 릴리스(2024년 4월)
+
+이제 새 주석 달기 기능이 **새 업데이트 추가** 새 홈의 내 작업, 내 프로젝트, 내 작업 및 내 문제 위젯에 있는 빠른 작업 버튼.
+
+자세한 내용은 [새 홈 시작](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## 새 댓글 달기 환경에서 사용할 수 있는 추가 댓글 정보
 
@@ -34,7 +44,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리보기 릴리스: 2024년 2월 22일, 빠른 릴리스를 위한 프로덕션: 24.3 릴리스(2024년 3월), 모든 고객을 위한 프로덕션: 24.4 릴리스(2024년 4월)
+>미리보기 릴리스: 2024년 2월 22일, 빠른 릴리스를 위한 프로덕션: 24.3 릴리스(2024년 3월 14일), 모든 고객을 위한 프로덕션: 24.4 릴리스(2024년 4월)
 
 의견과 시스템 활동 로그를 연대순으로 집계하여 볼 수 있도록 모든 객체의 업데이트 영역에 세 번째 탭을 도입합니다. &quot;모두&quot; 탭은 사용자 댓글과 시스템 활동 댓글을 하나의 통합 스트림으로 캡처합니다.
 
