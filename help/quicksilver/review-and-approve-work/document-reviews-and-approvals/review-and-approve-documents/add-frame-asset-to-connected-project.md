@@ -5,7 +5,7 @@ title: 연결된 Workfront 프로젝트에 Frame.io 자산 추가
 description: 광고 팀은 검토해야 하는 에셋을 Frame.io에 추가하고 공식 검토 및 승인을 위해 Workfront으로 전송할 수 있습니다.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 87ad8ac6c5768b8ed31ee280212e965789e3ccf4
+source-git-commit: 2c1945cdc9f923ea7fdc750f69eeba2a026571ac
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 0%
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 # 연결된 Workfront 프로젝트에 Frame.io 자산 추가
 
-광고 팀은 검토해야 하는 에셋을 Frame.io에 추가하고 공식 검토 및 승인을 위해 Workfront으로 전송할 수 있습니다.
-
 >[!IMPORTANT]
 >
 >이 문서의 내용은 특정 계정에만 사용할 수 있는 업데이트된 문서 승인 기능에 적용됩니다. 표준 승인 프로세스에 대한 정보는 다음 목록에 있는 문서를 참조하십시오. [작업 승인](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+
+광고 팀은 검토해야 하는 에셋을 Frame.io에 추가하고 공식 검토 및 승인을 위해 Workfront으로 전송할 수 있습니다.
 
 ## 액세스 요구 사항
 
