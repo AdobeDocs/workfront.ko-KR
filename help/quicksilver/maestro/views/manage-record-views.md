@@ -1,13 +1,13 @@
 ---
 title: 레코드 보기 관리
-description: Adobe Maestro를 사용할 때 테이블이나 타임라인 보기에서 레코드를 표시할 수 있습니다.
+description: Adobe Workfront 계획 기능을 사용할 때 표, 타임라인 또는 달력 보기에 레코드를 표시할 수 있습니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: ff52e43fc5ed5a7939b9e28b2bda195e94e81724
+source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '783'
 ht-degree: 0%
 
 ---
@@ -18,14 +18,19 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Adobe Maestro에서 레코드 유형을 선택한 후 다음 보기에서 해당 유형의 모든 레코드를 표시할 수 있습니다.
+Adobe Workfront 계획 기능 영역에서 레코드 유형을 선택한 후 다음 보기에서 해당 유형의 모든 레코드를 표시할 수 있습니다.
 
 * 테이블
 
   자세한 내용은 [표 보기 관리](../views/manage-the-table-view.md).
+
 * 타임라인
 
   자세한 내용은 [타임라인 보기 관리](../views/manage-the-timeline-view.md).
+
+<!--* Calendar 
+
+    For more information, see [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md). -->
 
 ## 액세스 요구 사항
 
@@ -46,7 +51,7 @@ Adobe Maestro에서 레코드 유형을 선택한 후 다음 보기에서 해당
   </tr>  
  <td role="rowheader"><p>Adobe Workfront 계약</p></td>
    <td>
-<p>Adobe Maestro Closed Beta 프로그램에 조직을 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
+<p>Adobe Workfront 계획 기능 비공개 베타 프로그램에 조직을 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
    </td>
   </tr>
   <tr>
@@ -64,7 +69,7 @@ Adobe Maestro에서 레코드 유형을 선택한 후 다음 보기에서 해당
 
 <tr>
    <td role="rowheader">액세스 수준 구성</td>
-   <td> <p>Maestro에 대한 액세스 수준 제어 없음</p>  
+   <td> <p>Workfront 계획 기능에 대한 액세스 수준 제어가 없습니다</p>  
 </td>
   </tr>
 
@@ -82,13 +87,13 @@ Adobe Maestro에서 레코드 유형을 선택한 후 다음 보기에서 해당
  </tbody>
 </table>
 
-## Maestro 보기 작업 시 고려 사항
+## 레코드 보기 작업 시 고려 사항
 
-* Maestro의 보기는 레코드 유형별로 다릅니다. 동일한 보기를 두 개의 다른 레코드 유형에 적용할 수 없습니다.
+* Workfront 계획 기능 영역의 보기는 레코드 유형별로 다릅니다. 동일한 보기를 두 개의 다른 레코드 유형에 적용할 수 없습니다.
 * 만든 보기는 사용자와 보기를 공유하는 사용자만 볼 수 있습니다.
 * 운영 레코드 유형에 대한 뷰 작성은 분류 레코드 유형에 대한 뷰 작성과 동일합니다.
 * 보기를 수정하거나 삭제하면 보기에 대한 권한이 있는 모든 사용자에 대해 수정 및 삭제됩니다.
-* 다음 요소는 Maestro의 각 보기에 고유합니다.
+* 다음 요소는 각 레코드 보기에 고유합니다.
 
    * 필터
    * 그룹화
@@ -100,7 +105,7 @@ Adobe Maestro에서 레코드 유형을 선택한 후 다음 보기에서 해당
 
   >[!NOTE]
   >
-  > Maestro는 현재 Beta 상태이므로 일부 보기 요소는 두 보기 모두에서 사용할 수 없을 수 있습니다.
+  > Adobe Workfront 계획 기능은 현재 베타 상태이므로 일부 보기 요소는 모든 보기에서 사용하지 못할 수 있습니다.
 
 이 문서에서는 Maestro 보기에 대한 다음 정보를 설명합니다.
 
@@ -111,6 +116,8 @@ Adobe Maestro에서 레코드 유형을 선택한 후 다음 보기에서 해당
 * [보기 공유](#share-a-view)
 
 ## 테이블 및 타임라인 보기의 유사점과 차이점
+
+<!-- should we include Calendar here or remove this section???-->
 
 다음 표는 Maestro의 테이블 보기와 타임라인 보기 간의 유사점과 차이점을 보여 줍니다.
 
@@ -180,7 +187,7 @@ Adobe Maestro에서 레코드 유형을 선택한 후 다음 보기에서 해당
 
    또는 **다음**: 타임라인을 만들 때 <!--or calendar--> 보기.
 
-   기본적으로 Maestro는 &quot;Table &lt; number >&quot; 또는 &quot;Timeline &lt; number >&quot; 보기 이름을 지정합니다. 이 숫자는 자동으로 생성된 증가값입니다.
+   기본적으로 Workfront은 &quot;테이블 &lt; 숫자 >&quot; 또는 &quot;타임라인 &lt; 숫자 >&quot; 보기의 이름을 지정합니다. <!--or "Calendar < number >"-->. 이 숫자는 자동으로 생성된 증가값입니다.
 
 1. (조건부) 타임라인에 표시할 레코드의 시작 및 종료 날짜를 선택합니다 <!--or calendar--> 보기, 클릭 **만들기**.
 1. (선택 사항) 뷰를 만든 후 이름을 변경하려면 뷰 드롭다운 메뉴를 클릭한 다음, **자세히** 메뉴 ![](assets/more-menu.png) > **이름 바꾸기** 를 클릭하여 뷰 이름을 업데이트합니다. <!--ensure there is not another saving step here?!-->
@@ -208,7 +215,7 @@ Adobe Maestro에서 레코드 유형을 선택한 후 다음 보기에서 해당
 1. 보기 드롭다운 메뉴를 클릭하고 목록의 보기 중 하나를 마우스로 가리킨 다음, **자세히** 메뉴 ![](assets/more-menu.png) > **삭제**.
 1. 클릭 **삭제** 확인할 수 있습니다. <!--ensure there is not another saving step here?!-->
 
-   보기는 Maestro 영역에 액세스할 수 있는 모든 사용자에 대해 삭제되며 복구할 수 없습니다.
+   레코드 영역에 액세스할 수 있는 모든 사용자에 대해 보기가 삭제되며 복구할 수 없습니다.
 
 ## 보기 공유
 

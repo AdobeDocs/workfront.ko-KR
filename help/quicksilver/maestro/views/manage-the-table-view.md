@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 5cfb4cd064daff455d8b9458d3bcbbb0d209516a
+source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
 workflow-type: tm+mt
-source-wordcount: '2313'
+source-wordcount: '2334'
 ht-degree: 3%
 
 ---
@@ -98,6 +98,11 @@ Maestro 보기 및 관리 방법에 대한 자세한 내용은 다음을 참조�
 1. 문서에 설명된 대로 표 보기 만들기 [레코드 보기 관리](../views/manage-record-views.md).
 
    ![](assets/table-view-example.png)
+
+1. (선택 사항) **행 높이**&#x200B;를 선택한 다음 다음 옵션 중에서 선택하여 테이블 행의 높이를 수정합니다.
+   * 짧음
+   * 중간
+   * 높음
 
 1. 아래 하위 섹션에 설명된 대로 다음 보기 요소를 업데이트합니다.
    * [열(또는 필드)](#add-columns-or-fields)
