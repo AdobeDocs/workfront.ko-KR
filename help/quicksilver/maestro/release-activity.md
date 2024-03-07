@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 83f10ed479f31101add8747f8b672bbc1dbd922b
+source-git-commit: ff52e43fc5ed5a7939b9e28b2bda195e94e81724
 workflow-type: tm+mt
-source-wordcount: '4258'
+source-wordcount: '4603'
 ht-degree: 0%
 
 ---
@@ -32,59 +32,71 @@ ht-degree: 0%
 >
 >아래 섹션에서 참조하는 설명서는 기능이 프로덕션에 릴리스된 후 잠시 사용할 수 있습니다.
 
-<!--
-## Week of March 4, 2024
+## 2024년 3월 4일 주
 
-### Change row height in the table view
+### 테이블 보기에 레코드 세부 정보가 한 눈에 표시됩니다.
 
-Production: March 7, 2024 
+프로덕션: 2024년 3월 7일
 
-Preview: To be determined 
+미리보기: 결정 예정
 
-You now have an option to modify the height of a row when displaying records in the table view.
+테이블 보기를 사용할 때 레코드에 대한 추가 정보를 더 쉽게 볼 수 있도록 레코드의 세부 정보를 빠르게 볼 수 있는 새 패널을 도입했습니다. 다음은 이 패널에 포함된 정보 중 일부입니다.
 
-You can update the row height to one of the following sizes:  
+* 관련 레코드 세부 정보 개요
 
-* Short 
-* Medium
-* Tall.  
+* 레코드 정보 수정 기능
 
-For more information, see [Manage the table view](/help/quicksilver/maestro/views/manage-the-table-view.md). 
+* 레코드의 세부 정보 페이지를 여는 링크
 
-### New tabbed design for record views 
+자세한 내용은 [레코드 편집](/help/quicksilver/maestro/records/edit-records.md).
 
-Production: March 7, 2024 
+### 테이블 보기에서 행 높이 변경
 
-Preview: To be determined 
+프로덕션: 2024년 3월 7일
 
-For better navigation and ease of use, we have redesigned the display of record views. Now, the views display horizontally, as tabs on the record type page, so you can easily navigate through them. Prior to this enhancement, views displayed in the View drop-down menu.  
+미리보기: 결정 예정
 
-Views display chronologically by added date from left to right. Shared  views also display in chronological order of when they were shared.  
+이제 테이블 보기에서 레코드를 표시할 때 행 높이를 수정하는 옵션이 제공됩니다.
 
-For more information, see [Manage record views](/help/quicksilver/maestro/views/manage-record-views.md).  
+행 높이를 다음 크기 중 하나로 업데이트할 수 있습니다.
 
-### Dynamic design of a record view
+* 짧음
+* 중간
+* 키 커.
 
-Production: March 7, 2024
-Preview: To be determined 
+자세한 내용은 [표 보기 관리](/help/quicksilver/maestro/views/manage-the-table-view.md).
 
-We have updated the look and feel of the views in the record type page. The new views are dynamically responsive and quickly adjust to the size of your screen. The toolbar option labels are hidden to make the toolbar easier to use on smaller screens.  
+### 레코드 보기를 위한 새로운 탭 디자인
 
-For more information, see the following articles: 
-* [Manage the table view](/help/quicksilver/maestro/views/manage-the-table-view.md) 
-* [Manage the timeline view](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
+프로덕션: 2024년 3월 7일
 
-### New calendar view for records
+미리보기: 결정 예정
 
-Production: March 7, 2024 
+더 나은 탐색과 사용 편이성을 위해 레코드 보기의 디스플레이를 다시 설계했습니다. 이제 보기는 레코드 유형 페이지에서 탭으로 가로로 표시되므로 쉽게 탐색할 수 있습니다. 이 개선 이전에는 보기 드롭다운 메뉴에 보기가 표시되었습니다.
 
-Preview: To be determined 
+보기는 왼쪽에서 오른쪽으로 추가된 날짜별로 시간순으로 표시됩니다. 공유 보기는 공유 시점의 시간 순서대로 표시됩니다.
 
-You can now display records in a calendar view. You must have at least two date fields on a record type to be able to create the calendar view.  
+자세한 내용은 [레코드 보기 관리](/help/quicksilver/maestro/views/manage-record-views.md).
 
-For more information, see [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md). 
+### 레코드 보기의 동적 디자인
 
--->
+프로덕션: 2024년 3월 7일 미리보기: 결정 예정
+
+레코드 유형 페이지에 있는 보기의 모양과 느낌을 업데이트했습니다. 새로운 보기는 동적으로 반응하며 화면 크기에 맞게 빠르게 조정됩니다. 도구 모음 옵션 레이블은 작은 화면에서 도구 모음을 더 쉽게 사용할 수 있도록 숨겨집니다.
+
+자세한 내용은 다음 문서를 참조하십시오.
+* [표 보기 관리](/help/quicksilver/maestro/views/manage-the-table-view.md)
+* [타임라인 보기 관리](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
+
+### 레코드에 대한 새 캘린더 보기
+
+프로덕션: 2024년 3월 7일
+
+미리보기: 결정 예정
+
+이제 달력 보기에 레코드를 표시할 수 있습니다. 달력 보기를 만들려면 레코드 유형에 날짜 필드가 두 개 이상 있어야 합니다.
+
+자세한 내용은 [달력 보기 관리](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
 
 ## 2024년 2월 26일 주
 

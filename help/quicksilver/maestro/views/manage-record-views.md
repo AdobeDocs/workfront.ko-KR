@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: ff52e43fc5ed5a7939b9e28b2bda195e94e81724
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -141,9 +141,28 @@ Adobe Maestro에서 레코드 유형을 선택한 후 다음 보기에서 해당
 
 
 마지막으로 액세스한 작업공간은 기본적으로 열립니다. 작업 공간 만들기에 대한 자세한 내용은 [작업 공간 만들기](../architecture/create-workspaces.md).
+
 1. 레코드 유형 카드를 클릭합니다. 레코드 종류 만들기에 대한 내용은 [레코드 유형 만들기](../architecture/create-record-types.md).
 
    기본적으로 선택한 유형의 모든 레코드가 테이블 뷰에 표시됩니다.
+
+<!--
+    1. Click **+ View** to add a new view. 
+
+    1. Select from the following types of views: 
+
+        * Table
+        * Timeline
+        * Calendar
+
+        >[!TIP]
+        >
+        >When you create a record type, the table view is also created by default. 
+        >
+        >To create a timeline or a calendar view, the record type you build the view for must have at least two date fields. Otherwise, the Timeline and the Calendar options are dimmed.
+        >
+        >(*********remove all of the below steps and replace the screen shot when calendar view releases*********)
+    -->
 
 1. 다음을 클릭합니다. **보기** 드롭다운 메뉴를 사용하여 기존 메뉴 중 하나 선택 **표 보기** ![](assets/table-view-icon.png) 또는 클릭 **뷰 만들기 > 테이블** 테이블 뷰 생성하기
 
@@ -157,15 +176,20 @@ Adobe Maestro에서 레코드 유형을 선택한 후 다음 보기에서 해당
    >
    >    타임라인 보기를 만들려면, 보기를 만드는 레코드 종류에는 최소 두 개 이상의 날짜 필드가 있어야 합니다. 그렇지 않으면 [타임라인] 옵션이 흐리게 표시됩니다.
 
-1. (선택 사항) 보기의 이름을 업데이트한 다음 **만들기** 저장하려고.
+1. (선택 사항) 보기의 이름을 업데이트한 다음 **만들기** 테이블 뷰를 저장하려면
+
+   또는 **다음**: 타임라인을 만들 때 <!--or calendar--> 보기.
 
    기본적으로 Maestro는 &quot;Table &lt; number >&quot; 또는 &quot;Timeline &lt; number >&quot; 보기 이름을 지정합니다. 이 숫자는 자동으로 생성된 증가값입니다.
 
+1. (조건부) 타임라인에 표시할 레코드의 시작 및 종료 날짜를 선택합니다 <!--or calendar--> 보기, 클릭 **만들기**.
 1. (선택 사항) 뷰를 만든 후 이름을 변경하려면 뷰 드롭다운 메뉴를 클릭한 다음, **자세히** 메뉴 ![](assets/more-menu.png) > **이름 바꾸기** 를 클릭하여 뷰 이름을 업데이트합니다. <!--ensure there is not another saving step here?!-->
+   <!--1. (Optional) To rename a view after it is created, double-click the view name and start typing the new name, or click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Rename**.-->
 1. (선택 사항) 특정 유형의 보기를 관리하려면 다음 문서를 참조하십시오.
 
    * [표 보기 관리](../views/manage-the-table-view.md)
    * [타임라인 보기 관리](../views/manage-the-timeline-view.md)
+     <!--* [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md)-->
 
 
 ## 보기 삭제
@@ -180,6 +204,7 @@ Adobe Maestro에서 레코드 유형을 선택한 후 다음 보기에서 해당
 
    기본적으로 선택한 유형의 모든 레코드가 테이블 뷰에 표시됩니다.
 
+<!--1. Hover over on the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) > **Delete**. (********delete the instructions below but keep the last step***********)-->
 1. 보기 드롭다운 메뉴를 클릭하고 목록의 보기 중 하나를 마우스로 가리킨 다음, **자세히** 메뉴 ![](assets/more-menu.png) > **삭제**.
 1. 클릭 **삭제** 확인할 수 있습니다. <!--ensure there is not another saving step here?!-->
 
