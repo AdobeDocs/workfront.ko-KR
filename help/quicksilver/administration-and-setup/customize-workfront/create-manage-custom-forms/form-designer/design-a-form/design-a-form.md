@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: e5ab7cf79ad2d2542146336bd48071154d0abc53
+source-git-commit: 0564fbf37b98d7c96ed9fccd832e96027562a85f
 workflow-type: tm+mt
-source-wordcount: '5592'
+source-wordcount: '5620'
 ht-degree: 3%
 
 ---
@@ -511,6 +511,8 @@ ht-degree: 3%
 >[!NOTE]
 >
 >외부 조회 기능은 문서 또는 사용자 개체에서 사용할 수 없습니다.
+>
+>사용자 정의 양식의 외부 조회 필드는 현재 대시보드에서 지원되지 않습니다. 필드 값을 인라인으로 편집할 수 없으며 대시보드에 제대로 표시되지 않을 수 있습니다.
 
 외부 조회를 추가하려면:
 
