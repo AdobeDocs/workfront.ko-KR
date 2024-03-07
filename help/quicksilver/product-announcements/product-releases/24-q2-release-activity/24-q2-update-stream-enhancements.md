@@ -4,9 +4,9 @@ description: 2024년 2분기 업데이트 스트림 및 알림 개선 사항
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8fada0325adf8d750143289ef455728b494444d4
+source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '530'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리보기 릴리스: 2024년 2월 22일, 빠른 릴리스를 위한 프로덕션: 24.3 릴리스(2024년 3월), 모든 고객을 위한 프로덕션: 24.4 릴리스(2024년 4월)
+>미리보기 릴리스: 2024년 2월 22일, 빠른 릴리스를 위한 프로덕션: 24.3 릴리스(2024년 3월 14일), 모든 고객을 위한 프로덕션: 24.4 릴리스(2024년 4월)
 
 이제 작업 및 문제 목록에 대한 요약 패널에 새로운 주석 달기 기능이 추가되었습니다.
 

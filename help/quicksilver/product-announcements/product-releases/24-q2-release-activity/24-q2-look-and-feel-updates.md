@@ -4,9 +4,9 @@ description: 2024년 2분기 릴리스 기간 동안의 룩앤필 업데이트
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
+source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '315'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리보기 릴리스: 2024년 2월 8일, 빠른 릴리스를 위한 프로덕션: 24.3 릴리스 포함(2024년 3월), 분기별 릴리스의 프로덕션: 24.4 릴리스 포함(2024년 4월)
+>미리보기 릴리스: 2024년 2월 8일, 빠른 릴리스를 위한 프로덕션: 24.3 릴리스 포함(2024년 3월 14일), 분기별 릴리스의 프로덕션: 24.4 릴리스 포함(2024년 4월)
 
 설정 > 사용자 지정 Forms 영역의 Forms, 필드 및 섹션에 대한 탭을 Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 업데이트했습니다. 이제 왼쪽 탐색 메뉴에서 세 영역에 액세스할 수 있습니다. 목록에 대해 필터, 보기 및 그룹화를 계속 사용할 수 있습니다. 업데이트된 디자인은 새 양식 디자이너와 레거시 양식 빌더에서 만든 사용자 정의 양식, 필드 및 섹션에 적용됩니다.
 

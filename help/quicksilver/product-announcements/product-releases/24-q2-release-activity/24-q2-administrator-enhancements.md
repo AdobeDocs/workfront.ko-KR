@@ -4,9 +4,9 @@ description: 2024년 2분기 관리자 개선 사항
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2551089a20d3301ff1cf7dd633114dbb5235e959
+source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,9 @@ JumpSeat 통합에 대한 자세한 내용은 [JumpSeat 통합 구성](/help/qui
 
 이 기능은 기존 양식 빌더가 아닌 양식 디자이너 Beta에서만 사용할 수 있습니다.
 
-이 기능에 대한 Experience League 문서는 3월 7일까지 업데이트됩니다.
+자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+[이 기능에 대한 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3427702/){target=_blank}
 
 ## 이제 Adobe IMS로 마이그레이션한 조직에서 속성 매핑을 사용할 수 있습니다
 
@@ -55,7 +57,7 @@ JumpSeat 통합에 대한 자세한 내용은 [JumpSeat 통합 구성](/help/qui
 
 이전에는 Adobe IMS에 아직 온보딩되지 않은 조직에서만 이 기능을 사용할 수 있었습니다.
 
-속성 매핑 구성에 대한 지침은 **Adobe 통합 경험의 사용자 속성 매핑** 이 문서에서 [사용자 속성 매핑 및 새 사용자 자동 프로비저닝](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md).
+속성 매핑 구성에 대한 지침은 [Adobe 통합 경험의 사용자 속성 매핑](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) 이 문서에서 **사용자 속성 매핑 및 새 사용자 자동 프로비저닝**.
 
 ## 이제 양식 디자이너 베타에서 건너뛰기 논리 및 표시 논리를 사용할 수 있습니다
 

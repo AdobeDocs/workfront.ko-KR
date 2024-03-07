@@ -4,9 +4,9 @@ description: 이 페이지에서는 2024년 2분기 릴리스에 포함된 기�
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8fada0325adf8d750143289ef455728b494444d4
+source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1437'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">이제 새로운 패키지 유형에 JumpSeat 통합을 사용할 수 있습니다.</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">이제 새로운 패키지 유형에 JumpSeat 통합을 사용할 수 있습니다.</a></p>
                         <p>이제 새로운 패키지 유형(예: Select, Prime 또는 Ultimate) 중 하나를 사용하는 계정에서 기존 JumpSeat 통합을 사용할 수 있습니다. 통합을 활성화하려면 여전히 활성 JumpSeat 구독이 있어야 합니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -76,7 +76,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront 기본 필드는 양식 디자이너 베타에서 사용할 수 있습니다</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront 기본 필드는 양식 디자이너 베타에서 사용할 수 있습니다</a></p>
                         <p>이제 Workfront의 기본 필드를 사용하여 사용자 정의 양식에 추가할 수 있습니다. 이 새 필드 유형을 사용하면 사용자 정의 필드에서 기존 데이터를 다시 생성하지 않고도 데이터를 논리적으로 구성하고 사용자에게 제공할 수 있습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -194,7 +194,7 @@ ht-degree: 0%
                                 <p>미리보기 릴리스: 2024년 2월 13일</p>
                             </li>
                             <li>
-                                <p>빠른 릴리스를 위한 프로덕션: 24.3 릴리스 포함(2024년 3월)</p>
+                                <p>빠른 릴리스를 위한 프로덕션: 24.3 릴리스 포함(2024년 3월 14일)</p>
                             </li>
                             <li>
                                 <p>분기별 릴리스 프로덕션: 24.4 릴리스 포함(2024년 4월)</p>
@@ -212,7 +212,7 @@ ht-degree: 0%
                                 <p>미리보기 릴리스: 2023년 12월 21일</p>
                             </li>
                             <li>
-                                <p>빠른 릴리스를 위한 프로덕션: 24.3 릴리스 포함(2024년 3월)</p>
+                                <p>빠른 릴리스를 위한 프로덕션: 24.3 릴리스 포함(2024년 3월 14일)</p>
                             </li>
                             <li>
                                 <p>분기별 릴리스 프로덕션: 24.4 릴리스 포함(2024년 4월)</p>
@@ -241,8 +241,8 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">이제 새 홈 위젯에 대한 빠른 작업에서 새 댓글 달기 스트림을 사용할 수 있습니다.</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p>
-                        <p>이제 새 주석 달기 기능이 <b>새 업데이트 추가</b> 새 홈의 내 작업, 내 프로젝트, 내 작업 및 내 문제 위젯에 있는 빠른 작업 버튼.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">이제 새 홈 위젯에 대한 빠른 작업에서 새 댓글 달기 스트림을 사용할 수 있습니다.</a></p>
+                        <p>이제 새 홈의 내 작업, 내 프로젝트, 내 작업 및 내 문제 위젯에 있는 "새 업데이트 추가" 빠른 작업 버튼에 새 댓글 달기 기능이 추가되었습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
@@ -260,7 +260,7 @@ ht-degree: 0%
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">새 댓글 달기 환경에서 사용할 수 있는 추가 댓글 정보</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p><p>새로운 댓글 달기 환경에서 다음과 같은 사항이 개선되었습니다.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">새 댓글 달기 환경에서 사용할 수 있는 추가 댓글 정보</a></p><p>새로운 댓글 달기 환경에서 다음과 같은 사항이 개선되었습니다.</p>
                         <ul>
                             <li>
                                 <p>댓글의 이름을 클릭하면 정보 상자에 댓글 이름, 역할 및 이메일 주소를 볼 수 있습니다. 이 정보는 동일한 이름을 가진 사용자가 두 명 이상 있는 경우 올바른 사용자를 식별하는 데 도움이 될 수 있습니다. 정보 상자에서 댓글의 이름을 클릭하면 해당 사용자 프로필이 열립니다.</p>
@@ -294,7 +294,7 @@ ht-degree: 0%
                                 <p>미리보기 릴리스: 2024년 2월 22일</p>
                             </li>
                             <li>
-                                <p>빠른 릴리스를 위한 프로덕션: 24.3 릴리스 포함(2024년 3월)</p>
+                                <p>빠른 릴리스를 위한 프로덕션: 24.3 릴리스 포함(2024년 3월 14일)</p>
                             </li>
                             <li>
                                 <p>분기별 릴리스 프로덕션: 24.4 릴리스 포함(2024년 4월)</p>
@@ -312,7 +312,7 @@ ht-degree: 0%
                                 <p>미리보기 릴리스: 2024년 2월 22일</p>
                             </li>
                             <li>
-                                <p>빠른 릴리스를 위한 프로덕션: 24.3 릴리스 포함(2024년 3월)</p>
+                                <p>빠른 릴리스를 위한 프로덕션: 24.3 릴리스 포함(2024년 3월 14일)</p>
                             </li>
                             <li>
                                 <p>분기별 릴리스 프로덕션: 24.4 릴리스 포함(2024년 4월)</p>
@@ -330,7 +330,7 @@ ht-degree: 0%
                                 <p>미리보기 릴리스: 2024년 2월 22일</p>
                             </li>
                             <li>
-                                <p>빠른 릴리스를 위한 프로덕션: 24.3 릴리스 포함(2024년 3월)</p>
+                                <p>빠른 릴리스를 위한 프로덕션: 24.3 릴리스 포함(2024년 3월 14일)</p>
                             </li>
                             <li>
                                 <p>분기별 릴리스 프로덕션: 24.4 릴리스 포함(2024년 4월)</p>

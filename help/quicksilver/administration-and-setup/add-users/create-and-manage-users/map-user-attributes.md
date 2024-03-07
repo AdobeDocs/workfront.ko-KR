@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3d523584-dcb8-4aa6-8217-611f22dc1450
-source-git-commit: 5b1efd8000417b9368fe3eb9037ac55464579bb4
+source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 1%
@@ -46,7 +46,6 @@ SSO(Single Sign-On)를 사용하여 ID 공급자의 Active Directory에서 Adobe
 </table>
 
 이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
 
 ## 속성 매핑 팁
 
