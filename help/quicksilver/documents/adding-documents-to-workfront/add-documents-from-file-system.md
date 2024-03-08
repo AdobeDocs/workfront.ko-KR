@@ -6,7 +6,7 @@ description: Adobe Workfront의 여러 영역에서 프로젝트, 작업 또는 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: efe264b274085c32c2d00163a2a43bd5d3fc1434
+source-git-commit: 873745b7a7e7902a3617a577b3ed0414f987a4ce
 workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 1%
@@ -123,4 +123,4 @@ Workfront에서 손상된 문서를 감지하면 Workfront이 업로드 프로�
 
 ### 파일 이름 제한 사항 {#file-name-restrictions}
 
-Workfront에 업로드된 파일은 파일 이름에 특정 문자를 포함할 수 없습니다. 파일에 파일 이름에 다음 문자가 포함되어 있으면 파일을 업로드할 때 해당 문자가 파일 이름에서 제거됩니다. `< > { }`.
+Workfront에 업로드된 파일은 파일 이름에 특정 문자를 포함할 수 없습니다. 파일에 파일 이름에 다음 문자가 포함되어 있으면 파일을 업로드할 때 해당 문자가 파일 이름에서 제거됩니다. `! # % * \ | ' " / ? < > { } [ ]`.

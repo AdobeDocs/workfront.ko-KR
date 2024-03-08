@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 10a5c04d-adbf-4985-a81c-1b33868ce260
-source-git-commit: e47f5d06d0c7d72c171583b53b69f951e4e99afe
+source-git-commit: aefa43697ae0d4edd5300acb94a9880b3cd0c94f
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 2%
@@ -21,11 +21,11 @@ ht-degree: 2%
 
 <!-- Audited: 12/2023 -->
 
-조직에서 Adobe Workfront을 구입할 때 특정 개수의 라이선스를 구입했습니다. Workfront 관리자는 사용자에게 액세스 수준을 할당할 때 각 사용자에게 3가지 유형의 Workfront 라이선스 중 하나를 제공합니다.
+조직에서 Adobe Workfront을 구입할 때 특정 개수의 라이선스를 구입했습니다. Workfront 관리자는 사용자에게 액세스 수준을 할당할 때 각 사용자에게 두 가지 유형의 Workfront 라이선스 중 하나를 제공합니다.
 
 ## 새로운 Workfront 라이선스와 새로운 액세스 수준을 연결하는 방법
 
-새로운 Workfront 라이선스의 3가지 유형을 사용하면 Workfront에 대한 다양한 액세스 수준을 사용할 수 있습니다. 각 액세스 수준은 이러한 라이선스 중 하나에 연결되어 있습니다.
+새로운 Workfront 라이선스의 2가지 유형을 사용하면 Workfront에 대한 다양한 액세스 수준을 사용할 수 있습니다. 각 액세스 수준은 이러한 라이선스 중 하나에 연결되어 있습니다.
 
 사용자에게 라이센스를 할당하는 대신 해당 라이센스에 첨부된 액세스 수준을 사용자에게 할당합니다.
 
