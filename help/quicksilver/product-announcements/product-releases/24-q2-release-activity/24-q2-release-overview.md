@@ -4,9 +4,9 @@ description: 이 페이지에서는 2024년 2분기 릴리스에 포함된 기�
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
+source-git-commit: edc9d53152ea3828b04a0cd7c2bbb5cf48e541f6
 workflow-type: tm+mt
-source-wordcount: '1437'
+source-wordcount: '1449'
 ht-degree: 0%
 
 ---
@@ -381,7 +381,7 @@ ht-degree: 0%
 
 ### Workfront Fusion 개선 사항
 
-릴리스의 현재 시점에는 Workfront Fusion 업데이트가 없습니다. 업데이트를 사용할 수 있으면 이 영역이 업데이트됩니다.
+Workfront Fusion의 새로운 기능은 2023년 1분기 릴리스 일정 이외의 케이던스로 프로덕션에서 사용할 수 있습니다. 최신 기능에 대한 자세한 내용은 [Adobe Workfront Fusion 릴리스 활동](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 ### Workfront Scenario Planner 개선 사항
 
