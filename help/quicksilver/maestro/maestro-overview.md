@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '2051'
+source-wordcount: '1977'
 ht-degree: 1%
 
 ---
@@ -253,8 +253,8 @@ Adobe Workfront 계획 기능은 Adobe Workfront의 새로운 기능입니다. �
 
      ![](assets/grouping-applied-in-timeline-view.png)
 
-  <!--* **Calendar view**: Displays records that have at least two Date-type fields in a calendar format. 
-    ![](assets/calendar-view-example.png)-->
+   * **달력 보기**: 날짜 유형 필드가 두 개 이상 있는 레코드를 달력 형식으로 표시합니다.
+     ![](assets/calendar-view-example.png)
 
 
 자세한 내용은 [레코드 보기 관리](../maestro/views/manage-record-views.md).
@@ -300,17 +300,13 @@ Adobe Workfront 계획 기능은 Adobe Workfront의 새로운 기능입니다. �
 
    1. 레코드 종류 이름을 클릭하여 레코드 페이지를 엽니다. 기본적으로 레코드 페이지가 테이블 뷰에 열립니다.
 
-   1. 다음 중 하나를 수행하여 테이블 뷰를 사용자 정의합니다.
+      타임라인 또는 달력 보기를 만들 수도 있습니다.
 
-      * 다음을 클릭하여 레코드 유형에 필드를 더 추가합니다. **+** 오른쪽 위 모서리에 있는 아이콘 보기의 열은 레코드 유형과 연결된 필드입니다.
-      * 다음을 클릭하여 레코드 추가 **+** 왼쪽 아래에 있는 아이콘. 보기의 행은 선택한 레코드 유형의 고유한 레코드입니다.
-      * 클릭 **필터** 레코드 유형 페이지에 표시하는 정보를 필터링합니다.
+   1. 테이블 보기에서 행을 추가하여 레코드 추가를 시작합니다
 
-   1. 레코드의 세부 정보 페이지에서 자세한 내용을 보려면 레코드 이름을 클릭합니다.
+      또는
 
-   1. 에서 타임라인 보기 만들기 **보기** 레코드 유형 페이지의 오른쪽 위 모서리에 있는 드롭다운 메뉴.
-
-   1. 필터, 그룹화 또는 설정을 업데이트하여 타임라인 보기를 사용자 지정합니다.
+      열을 추가하여 레코드 필드 추가를 시작합니다.
 
 ## Adobe Workfront 계획 기능 릴리스 활동
 

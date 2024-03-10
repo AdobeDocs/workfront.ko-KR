@@ -1,13 +1,13 @@
 ---
 title: 레코드 편집
-description: Adobe 마에스트로에서 레코드 정보를 편집할 수 있습니다. 레코드 만들기 및 편집을 시작하려면 먼저 레코드 유형을 만들어야 합니다.
+description: Adobe Workfront 계획 기능에서 레코드 정보를 편집할 수 있습니다. 레코드 만들기 및 편집을 시작하려면 먼저 레코드 유형을 만들어야 합니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1087'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 {{maestro-important-intro}}
 
-레코드와 관련된 필드의 값을 편집하여 Adobe 마에스트로의 레코드 정보를 편집할 수 있습니다.
+레코드와 연결된 필드의 값을 편집하여 Adobe Workfront 계획 기능에서 레코드 정보를 편집할 수 있습니다.
 
 레코드 만들기 및 편집을 시작하려면 먼저 레코드 유형을 만들어야 합니다.
 
@@ -47,7 +47,7 @@ ht-degree: 1%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront 계약</p></td>
    <td>
-<p>Adobe Maestro Closed Beta 프로그램에 조직을 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
+<p>Adobe Workfront 계획 기능 비공개 베타 프로그램에 조직을 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
    </td>
   </tr>
   <tr>
@@ -67,7 +67,7 @@ ht-degree: 1%
 
 <tr>
    <td role="rowheader"><p>액세스 수준 구성</p></td>
-   <td> <p>Maestro에 대한 액세스 제어가 없습니다. </p>  
+   <td> <p>Adobe Workfront 계획 기능에 대한 액세스 제어가 없습니다 </p>  
 </td>
   </tr>
 <tr>
@@ -104,35 +104,8 @@ ht-degree: 1%
 
 다음 영역에서 레코드를 편집할 수 있습니다.
 
-* [레코드의 세부 정보 페이지에서](#edit-a-record-from-the-records-details-page)
 * [레코드 유형의 테이블 보기에서](#edit-a-record-from-the-table-view-of-a-record-type)
-
-### 레코드의 세부 정보 페이지에서 레코드 편집
-
-{{step1-to-maestro}}
-
-마지막으로 액세스한 작업공간이 열립니다.
-
-1. (선택 사항) 작업 영역 이름의 오른쪽에 있는 아래쪽 방향 화살표를 클릭하여 레코드를 업데이트할 작업 영역을 선택합니다.
-1. 다음 중 하나를 수행하십시오.
-
-   * 다음에서: **표** 보기에서 레코드 이름을 클릭합니다.
-   * 다음에서 **표** 보기, 레코드 이름 위로 마우스를 가져간 다음 **자세히** 메뉴 ![](assets/more-menu.png)을 클릭한 다음 을 클릭합니다 **보기**
-
-     ![](assets/contextual-menu-for-record-row.png)
-   * 타임라인 보기에서 레코드 모음을 클릭합니다.
-
-   레코드 **세부 사항** 페이지가 열립니다.
-
-1. 다음을 클릭합니다. **자세히** 메뉴 ![](assets/more-menu.png) 레코드 이름 오른쪽에서 **편집**
-
-   또는
-
-   세부 정보 페이지의 편집 가능한 필드 내부를 클릭하여 정보를 편집합니다.
-
-   ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
-
-1. 클릭 **변경 내용 저장**. <!--logged a bug for this - this needs to be "Save"-->
+* [레코드의 세부 정보 페이지에서](#edit-a-record-from-the-records-details-page)
 
 ### 레코드 유형의 표 보기에서 레코드 편집
 
@@ -144,7 +117,7 @@ ht-degree: 1%
 1. 레코드 유형 카드를 클릭합니다.
 
    레코드 유형 페이지가 열립니다.
-1. (조건부) **보기** 테이블 오른쪽 위 모서리에서 드롭다운 메뉴를 선택하고 **표** 보기. 레코드 유형에 마지막으로 액세스했을 때 타임라인 보기에서 확인하지 않은 경우 기본 보기여야 합니다.
+1. (조건부) **보기** 드롭다운 메뉴 <!--tab--> 표의 오른쪽 위 모서리에서 을(를) 선택합니다 **표** 보기. 마지막으로 액세스할 때 다른 유형의 보기에서 레코드 유형을 보지 않은 경우 이 뷰가 기본 보기여야 합니다.
 
    선택한 레코드 유형과 연관된 레코드가 테이블 뷰에 표시됩니다.
 1. 레코드 행 내부를 클릭하여 인라인 레코드에 대한 정보 편집을 시작합니다.
@@ -171,6 +144,16 @@ ht-degree: 1%
 
 1. (선택 사항) 연결된 레코드 필드를 두 번 클릭하여 연결된 레코드나 개체를 다른 레코드에 추가합니다. 자세한 내용은 [레코드 연결](/help/quicksilver/maestro/records/connect-records.md).
 1. 누르기 **입력** 키보드에서 를 클릭하거나 행 외부를 클릭하여 변경 내용을 저장합니다. 변경 사항은 자동으로 저장됩니다. A **저장됨** 변경 사항이 저장되었음을 보여 주는 표시기가 표 보기의 오른쪽 위 모서리에 잠시 표시됩니다.
+
+
+   <!--
+    1. (Optional) Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name, or click on a record name. The **Details** box opens in the table. 
+        >[!TIP]
+        >
+        >    You can view the Open details icon to the left of the Name field of a record only when the Name field is a primary field. 
+    1. Start editing the field information in the Details box. Workfront automatically saves your changes. 
+    1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record as described in [Edit a record from the record's Details page](#edit-a-record-from-the-records-details-page) section in this article. 
+    -->
 
 1. (선택 사항) 한 필드에서 다른 필드로 정보를 복사하여 붙여넣으려면 다음 중 하나를 수행합니다.
 
@@ -204,3 +187,33 @@ ht-degree: 1%
    >    키보드 단축키를 한 번에 여러 번 사용하여 여러 변경 내용을 실행 취소할 수 있습니다.
 
 1. (선택 사항) 레코드에 썸네일을 추가합니다. 자세한 내용은 [레코드에 썸네일 추가](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
+
+
+### 레코드의 세부 정보 페이지에서 레코드 편집
+
+<!--You can edit a record from the Details box in a table view, or from the Details page. For information about editing records in the Detais box, see the [Edit a record from the table view of a record type](#edit-a-record-from-the-table-view-of-a-record-type) section in this article.-->
+
+{{step1-to-maestro}}
+
+마지막으로 액세스한 작업공간이 열립니다.
+
+1. (선택 사항) 작업 영역 이름의 오른쪽에 있는 아래쪽 방향 화살표를 클릭하여 레코드를 업데이트할 작업 영역을 선택합니다.
+1. 다음 중 하나를 수행하십시오.
+
+   * 다음에서: **표** 보기에서 레코드 이름을 클릭합니다.
+   * 다음에서 **표** 보기, 레코드 이름 위로 마우스를 가져간 다음 **자세히** 메뉴 ![](assets/more-menu.png)을 클릭한 다음 을 클릭합니다 **보기**
+
+     ![](assets/contextual-menu-for-record-row.png)
+   * 타임라인 보기에서 레코드 모음을 클릭합니다.
+
+   레코드 **세부 사항** 페이지가 열립니다.
+
+1. 다음을 클릭합니다. **자세히** 메뉴 ![](assets/more-menu.png) 레코드 이름 오른쪽에서 **편집**
+
+   또는
+
+   세부 정보 페이지의 편집 가능한 필드 내부를 클릭하여 정보를 편집합니다.
+
+   ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
+
+1. 클릭 **변경 내용 저장**. <!--logged a bug for this - this needs to be "Save"-->

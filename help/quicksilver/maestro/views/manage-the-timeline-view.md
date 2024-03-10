@@ -1,13 +1,13 @@
 ---
 title: 타임라인 보기 관리
-description: Adobe Maestro의 레코드 유형 페이지에 액세스할 때 타임라인 보기에서 레코드를 표시할 수 있습니다.
+description: Adobe Workfront Planning 기능의 레코드 유형 페이지에 액세스할 때 타임라인 보기에 레코드를 표시할 수 있습니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: ef313bf912c65b9b316bd7403235ccf6f05a0ac6
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '1658'
+source-wordcount: '1663'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,9 @@ role: User
 
 {{maestro-important-intro}}
 
-Adobe Maestro의 레코드 유형 페이지에 액세스할 때 타임라인 보기에서 레코드를 표시할 수 있습니다.
+Adobe Workfront Planning 기능의 레코드 유형 페이지에 액세스할 때 타임라인 보기에 레코드를 표시할 수 있습니다.
 
-Maestro 보기에 대한 자세한 내용은 [Adobe Maestro에서 레코드 보기 관리](../views/manage-record-views.md).
+레코드 보기에 대한 자세한 내용은 [레코드 보기 관리](../views/manage-record-views.md).
 
 ## 액세스 요구 사항
 
@@ -51,7 +51,7 @@ Maestro 보기에 대한 자세한 내용은 [Adobe Maestro에서 레코드 보�
   </tr>  
  <td role="rowheader"><p>Adobe Workfront 계약</p></td>
    <td>
-<p>Adobe Maestro Closed Beta 프로그램에 조직을 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
+<p>Adobe Workfront 계획 기능 비공개 베타 프로그램에 조직을 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
    </td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ Maestro 보기에 대한 자세한 내용은 [Adobe Maestro에서 레코드 보�
 
 <tr>
    <td role="rowheader">액세스 수준 구성</td>
-   <td> <p>Maestro에 대한 액세스 수준 제어 없음 </p>  
+   <td> <p>Adobe Workfront 계획 기능에 대한 액세스 수준 제어가 없습니다 </p>  
 </td>
   </tr>
 
@@ -103,17 +103,6 @@ Maestro 보기에 대한 자세한 내용은 [Adobe Maestro에서 레코드 보�
    * 시작 또는 종료 날짜에 값이 없는 경우
    * 시작 일자가 종료 일자 이후인 경우
 
-<!--these are NOT available now because there won't be a table for the timeline view for the near future, per Andy: 
-* The records displayed in the timeline view also display in a view-only table to the left of the timeline. 
-* Each row in the table and each bar on the timeline represent the same record. 
-* Each column in the table is a record field. The columns of this table are preconfigured and cannot be customized. 
-* Only a limited number of fields (or columns) display in the timeline view table. 
-* You cannot do the following in a timeline view:
-     * Add rows or records
-     * Add columns or fields
-     * Edit record information
--->
-
 타임라인 보기를 관리하려면 다음을 수행합니다.
 
 1. 타임라인을 보려는 레코드 유형 페이지로 이동합니다.
@@ -132,7 +121,7 @@ Maestro 보기에 대한 자세한 내용은 [Adobe Maestro에서 레코드 보�
 
    * 왼쪽 및 오른쪽 아이콘을 클릭하거나 가로 스크롤을 사용하여 타임라인에서 앞뒤로 이동합니다.
    * 클릭 **오늘** 오늘 날짜로 타임라인을 가운데로 정렬합니다.
-   * 시간 증가를 업데이트하려면 시간대 드롭다운 메뉴에서 다음 옵션 중 하나를 선택합니다.
+   * 시간 증분을 업데이트하려면 시간대 드롭다운 메뉴에서 다음 옵션 중 하나를 선택합니다.
 
       * 년
       * 분기
@@ -196,7 +185,7 @@ Maestro 보기에 대한 자세한 내용은 [Adobe Maestro에서 레코드 보�
 타임라인 보기에서 그룹화를 사용하여 작업할 때 다음 사항을 고려하십시오.
 
 * 표 및 타임라인 보기에서 그룹화를 적용할 수 있습니다. 테이블 보기의 그룹화는 동일한 레코드 유형의 타임라인 보기의 그룹화와는 독립적입니다.
-* Maestro 보기에서 3가지 수준의 그룹화를 적용할 수 있습니다. 선택한 그룹화 순서대로 레코드가 그룹화됩니다.
+* 보기에서 3가지 수준의 그룹화를 적용할 수 있습니다. 선택한 그룹화 순서대로 레코드가 그룹화됩니다.
 * API 사용 시 최대 4가지 수준의 그룹화를 적용할 수 있습니다.
 * 그룹화는 선택하는 보기에 대해 고유합니다. 동일한 레코드 종류의 두 타임라인 보기에는 서로 다른 그룹화가 적용될 수 있습니다. 동일한 타임라인 보기를 보고 있는 두 명의 사용자에게 현재 적용된 동일한 그룹화가 표시됩니다.
 * 타임라인 보기를 위해 빌드하는 그룹화의 이름을 지정할 수 없습니다.
@@ -218,6 +207,8 @@ Maestro 보기에 대한 자세한 내용은 [Adobe Maestro에서 레코드 보�
 1. (선택 사항) 위의 단계를 반복하여 최대 3개의 그룹화를 추가합니다.
 
    그룹화를 위해 선택한 필드 수가 그룹화 아이콘 옆에 표시됩니다.
+
+   <!-- update screen shot with view redesign-->
 
    ![](assets/grouping-applied-in-timeline-view.png)
 

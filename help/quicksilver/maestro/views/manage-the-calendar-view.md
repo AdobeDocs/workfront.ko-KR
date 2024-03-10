@@ -4,9 +4,9 @@ description: 달력 보기에서 레코드와 해당 필드를 표시할 수 있
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: ff52e43fc5ed5a7939b9e28b2bda195e94e81724
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ hide: yes
 
 레코드 유형 페이지에서 레코드와 해당 필드를 달력 보기에 표시할 수 있습니다.
 
-Maestro 보기 및 관리 방법에 대한 자세한 내용은 다음을 참조하십시오. [레코드 보기 관리](../views/manage-record-views.md).
+Adobe Workfront 계획 기능 보기 및 관리 방법에 대한 자세한 내용은 다음을 참조하십시오. [레코드 보기 관리](../views/manage-record-views.md).
 
 ## 액세스 요구 사항
 
@@ -50,7 +50,7 @@ Maestro 보기 및 관리 방법에 대한 자세한 내용은 다음을 참조�
   </tr>  
  <td role="rowheader"><p>Adobe Workfront 계약</p></td>
    <td>
-<p>Adobe Maestro Closed Beta 프로그램에 조직을 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
+<p>Adobe Workfront 계획 기능 비공개 베타 프로그램에 조직을 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
    </td>
   </tr>
   <tr>
@@ -68,7 +68,7 @@ Maestro 보기 및 관리 방법에 대한 자세한 내용은 다음을 참조�
 
 <tr>
    <td role="rowheader">액세스 수준 구성</td>
-   <td> <p>Maestro에 대한 액세스 수준 제어 없음 </p>  
+   <td> <p>Adobe Workfront 계획 기능에 대한 액세스 수준 제어가 없습니다  </p>  
 </td>
   </tr>
 
@@ -94,11 +94,11 @@ Maestro 보기 및 관리 방법에 대한 자세한 내용은 다음을 참조�
 다음 사항을 고려하십시오.
 
 * 레코드 유형과 연결된 날짜 필드가 두 개 이상 있는 경우에만 달력 보기를 만들 수 있습니다. 레코드 유형과 연결된 날짜 필드가 하나 또는 없으면 달력 보기 옵션이 흐리게 표시됩니다.
-* 다음 시나리오:
+* 다음과 같은 시나리오가 있습니다.
 
-   * 시작 및 종료 날짜에 값이 없으면 레코드가 달력에 표시되지 않습니다
+   * 시작 날짜와 종료 날짜에 값이 없으면 레코드가 달력에 표시되지 않습니다
    * 시작 또는 종료 날짜에 값이 없으면 레코드가 1일 이벤트로 표시됩니다
-   * 시작 날짜가 종료 날짜 이후인 경우 레코드가 캘린더에 표시되지 않습니다.
+   * 시작 날짜가 종료 날짜 이후인 경우 기록이 캘린더에 표시되지 않습니다.
 
 달력 보기를 관리하려면:
 
@@ -107,7 +107,7 @@ Maestro 보기 및 관리 방법에 대한 자세한 내용은 다음을 참조�
 
    ![](assets/calendar-view-example.png)
 
-   선택한 레코드 유형과 연관된 레코드가 달력에 막대로 표시됩니다.
+   선택한 레코드 유형과 연관된 레코드가 달력에 막대로 표시됩니다. 막대의 색상은 레코드 아이콘의 색상과 일치합니다.
 
 1. 다음 중 하나를 수행하여 달력을 탐색합니다.
 

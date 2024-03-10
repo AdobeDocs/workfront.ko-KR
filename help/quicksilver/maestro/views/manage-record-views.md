@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
+source-git-commit: 2c630ad348955380620eef073b0c7dde81d11835
 workflow-type: tm+mt
-source-wordcount: '783'
-ht-degree: 0%
+source-wordcount: '811'
+ht-degree: 1%
 
 ---
 
@@ -28,9 +28,9 @@ Adobe Workfront 계획 기능 영역에서 레코드 유형을 선택한 후 다
 
   자세한 내용은 [타임라인 보기 관리](../views/manage-the-timeline-view.md).
 
-<!--* Calendar 
+* 캘린더
 
-    For more information, see [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md). -->
+  자세한 내용은 [달력 보기 관리](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
 
 ## 액세스 요구 사항
 
@@ -107,7 +107,7 @@ Adobe Workfront 계획 기능 영역에서 레코드 유형을 선택한 후 다
   >
   > Adobe Workfront 계획 기능은 현재 베타 상태이므로 일부 보기 요소는 모든 보기에서 사용하지 못할 수 있습니다.
 
-이 문서에서는 Maestro 보기에 대한 다음 정보를 설명합니다.
+이 문서에서는 레코드 보기에 대한 다음 정보를 설명합니다.
 
 * [보기 만들기 및 편집](#create-or-edit-record-views)
 * [보기 삭제](#delete-views)
@@ -115,32 +115,32 @@ Adobe Workfront 계획 기능 영역에서 레코드 유형을 선택한 후 다
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 * [보기 공유](#share-a-view)
 
-## 테이블 및 타임라인 보기의 유사점과 차이점
+## 레코드 보기 간의 유사성 및 차이점
 
-<!-- should we include Calendar here or remove this section???-->
-
-다음 표는 Maestro의 테이블 보기와 타임라인 보기 간의 유사점과 차이점을 보여 줍니다.
+다음 표는 표, 타임라인 및 달력 보기 간의 유사점과 차이점을 보여 줍니다.
 
 <!--some of these are NOT available right now; if you make this public, comment out the ones not there-->
 
-| 기능 | 표 보기 | 타임라인 보기 |
-|-----------------------------------------------------------------------|------------|---------------|
-| 목록 또는 테이블에 레코드 표시 | ✓ 덧신 |              |
-| 기본적으로 모든 필드를 테이블에 열로 표시 | ✓ 덧신 |              |
-| 필드(또는 열) 숨기기 또는 표시 | ✓ 덧신 |               |
-| 각 레코드의 필드 값 편집 | ✓ 덧신 |               |
-| 보기에 새 행으로 레코드 추가 | ✓ 덧신 |               |
-| 보기에 필드를 새 열로 추가 | ✓ 덧신 |               |
-| 외부 목록에서 행을 복사하여 표에 붙여넣기 | ✓ 덧신 |               |
-| 타임라인에 레코드 표시 |            | ✓ 덧신 |
-| 레코드 필터링 | ✓ 덧신 | ✓ 덧신 |
+| 기능 | 표 보기 | 타임라인 보기 | 달력 보기 |
+|-----------------------------------------------------------------------|------------|---------------|--------------|
+| 목록 또는 테이블에 레코드 표시 | ✓ 덧신 |              | |
+| 기본적으로 모든 필드를 테이블에 열로 표시 | ✓ 덧신 |              |    |
+| 필드(또는 열) 숨기기 또는 표시 | ✓ 덧신 |               |    |
+| 각 레코드의 필드 값 편집 | ✓ 덧신 |               |             |
+| 보기에 새 행으로 레코드 추가 | ✓ 덧신 |               |        |
+| 보기에 필드를 새 열로 추가 | ✓ 덧신 |               |         |
+| 외부 목록에서 행을 복사하여 표에 붙여넣기 | ✓ 덧신 |               |          |
+| 타임라인에 레코드 표시 |            | ✓ 덧신 |             |
+| 레코드 필터링 | ✓ 덧신 | ✓ 덧신 |           |
+| 달력에 레코드 표시 |           |              | ✓ 덧신 |
 | 그룹 레코드 | ✓ 덧신 | ✓ 덧신 |
 | 레코드 정렬 | ✓ 덧신 |              |
-| 색상 코드 레코드 |           | ✓ 덧신 |
+| 색상 코드 레코드 |           | ✓ 덧신 | ✓ 덧신 |
 | 색상 코드 그룹화 |           | ✓ 덧신 |
 | 특정 레코드 검색 | ✓ 덧신 | ✓ 덧신 |
-| 보기 공유 | ✓ 덧신 | ✓ 덧신 |
-| 보기에서 레코드의 세부 정보 페이지를 엽니다. | ✓ 덧신 | ✓ 덧신 |
+| 보기 공유 | ✓ 덧신 | ✓ 덧신 | ✓ 덧신 |
+| 보기에서 레코드의 세부 정보 페이지를 엽니다. | ✓ 덧신 | ✓ 덧신 |    |
+
 
 ## 보기 만들기 또는 편집 {#create-or-edit-views}
 
@@ -154,49 +154,62 @@ Adobe Workfront 계획 기능 영역에서 레코드 유형을 선택한 후 다
    기본적으로 선택한 유형의 모든 레코드가 테이블 뷰에 표시됩니다.
 
 <!--
-    1. Click **+ View** to add a new view. 
+1. Click **+ View** to add a new view. 
+1. Select from the following types of views: 
 
-    1. Select from the following types of views: 
+    * Table
+    * Timeline
+    * Calendar
 
-        * Table
-        * Timeline
-        * Calendar
-
-        >[!TIP]
-        >
-        >When you create a record type, the table view is also created by default. 
-        >
-        >To create a timeline or a calendar view, the record type you build the view for must have at least two date fields. Otherwise, the Timeline and the Calendar options are dimmed.
-        >
-        >(*********remove all of the below steps and replace the screen shot when calendar view releases*********)
-    -->
+>[!TIP]
+>
+>When you create a record type, the table view is also created by default. 
+>
+>To create a timeline or a calendar view, the record type you build the view for must have at least two date fields. Otherwise, the Timeline and the Calendar options are dimmed.
+>
+>(*********remove the step below and replace the screen shot when calendar view releases*********)
+-->
 
 1. 다음을 클릭합니다. **보기** 드롭다운 메뉴를 사용하여 기존 메뉴 중 하나 선택 **표 보기** ![](assets/table-view-icon.png) 또는 클릭 **뷰 만들기 > 테이블** 테이블 뷰 생성하기
 
    또는
 
-   기존 항목 선택 **타임라인 보기** ![](assets/timeline-view-icon.png) 보기 또는 클릭 **보기 만들기 > 타임라인** 을 클릭하여 타임라인 보기를 만듭니다.
+   기존 항목 선택 **타임라인 보기** ![](assets/timeline-view-icon.png) 또는 클릭 **보기 만들기 > 타임라인** 을 클릭하여 타임라인 보기를 만듭니다.
+
+   또는
+
+   기존 항목 선택 **달력 보기** ![](assets/calendar-view-icon.png) 또는 클릭 **만들기 보기 > 달력** 을 클릭하여 캘린더 보기를 만듭니다.
 
    ![](assets/view-types-drop-down-from-record-type-list.png)
 
    >[!NOTE]
    >
-   >    타임라인 보기를 만들려면, 보기를 만드는 레코드 종류에는 최소 두 개 이상의 날짜 필드가 있어야 합니다. 그렇지 않으면 [타임라인] 옵션이 흐리게 표시됩니다.
+   >    타임라인 또는 달력 보기를 만들려면 보기를 만드는 레코드 종류에는 최소 두 개 이상의 날짜 필드가 있어야 합니다. 그렇지 않으면 타임라인 또는 달력 옵션이 흐리게 표시됩니다.
 
-1. (선택 사항) 보기의 이름을 업데이트한 다음 **만들기** 테이블 뷰를 저장하려면
+1. (조건부) 클릭 **다음**&#x200B;을 사용하여 타임라인 또는 달력 보기를 만들 수 있습니다.
 
-   또는 **다음**: 타임라인을 만들 때 <!--or calendar--> 보기.
+   기본적으로 Workfront은 보기에 다음 이름 중 하나를 제공합니다.
 
-   기본적으로 Workfront은 &quot;테이블 &lt; 숫자 >&quot; 또는 &quot;타임라인 &lt; 숫자 >&quot; 보기의 이름을 지정합니다. <!--or "Calendar < number >"-->. 이 숫자는 자동으로 생성된 증가값입니다.
+   * `Table < number >`
+   * `Timeline < number >`
+   * `Calendar < number >`
 
-1. (조건부) 타임라인에 표시할 레코드의 시작 및 종료 날짜를 선택합니다 <!--or calendar--> 보기, 클릭 **만들기**.
+   이 숫자는 자동으로 생성된 증가값입니다.
+
+1. (조건부) **시작** 및 **종료 날짜** 타임라인 또는 달력 보기에 표시할 레코드입니다.
+1. Click **Create**.
+
+   <!--add for view redesign: The view displays as a new tab. Views display in the chronological order from when they were created or shared with you. -->
+<!--1. (Optional) Click the **More** menu ![](assets/more-caret-down-icon-views.png) next to the last view to view all views for the selected record type. 
+
+    Additional views display under the **More** menu after the last view tab. The number next to the **More** menu shows the number of additional views. -->
 1. (선택 사항) 뷰를 만든 후 이름을 변경하려면 뷰 드롭다운 메뉴를 클릭한 다음, **자세히** 메뉴 ![](assets/more-menu.png) > **이름 바꾸기** 를 클릭하여 뷰 이름을 업데이트합니다. <!--ensure there is not another saving step here?!-->
    <!--1. (Optional) To rename a view after it is created, double-click the view name and start typing the new name, or click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Rename**.-->
 1. (선택 사항) 특정 유형의 보기를 관리하려면 다음 문서를 참조하십시오.
 
    * [표 보기 관리](../views/manage-the-table-view.md)
    * [타임라인 보기 관리](../views/manage-the-timeline-view.md)
-     <!--* [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md)-->
+   * [달력 보기 관리](/help/quicksilver/maestro/views/manage-the-calendar-view.md)
 
 
 ## 보기 삭제
@@ -211,7 +224,7 @@ Adobe Workfront 계획 기능 영역에서 레코드 유형을 선택한 후 다
 
    기본적으로 선택한 유형의 모든 레코드가 테이블 뷰에 표시됩니다.
 
-<!--1. Hover over on the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) > **Delete**. (********delete the instructions below but keep the last step***********)-->
+<!--1. Hover over on the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) > **Delete**. (********delete the instructions in the point below but keep the last step***********)-->
 1. 보기 드롭다운 메뉴를 클릭하고 목록의 보기 중 하나를 마우스로 가리킨 다음, **자세히** 메뉴 ![](assets/more-menu.png) > **삭제**.
 1. 클릭 **삭제** 확인할 수 있습니다. <!--ensure there is not another saving step here?!-->
 

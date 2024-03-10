@@ -1,13 +1,13 @@
 ---
 title: 레코드 만들기
-description: Adobe 마에스트로에서 레코드는 레코드 유형의 인스턴스입니다. 개별 레코드를 만들려면 먼저 레코드 종류를 만들어야 합니다. 분류 레코드를 만드는 것은 운영 레코드를 만드는 것과 동일합니다.
+description: Adobe Workfront 계획 기능을 사용하는 경우 레코드는 레코드 유형의 인스턴스입니다. 개별 레코드를 만들려면 먼저 레코드 종류를 만들어야 합니다. 분류 레코드를 만드는 것은 운영 레코드를 만드는 것과 동일합니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '810'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Adobe 마에스트로에서 레코드는 레코드 유형의 인스턴스입니다.
+Adobe Workfront 계획 기능에서 레코드는 레코드 유형의 인스턴스입니다.
 
 다음과 같은 유형의 레코드를 가질 수 있습니다.
 
@@ -27,13 +27,13 @@ Adobe 마에스트로에서 레코드는 레코드 유형의 인스턴스입니�
 
 운영 레코드를 만드는 것은 분류 레코드를 만드는 것과 동일합니다.
 
-다음 중 하나를 수행하여 Maestro에서 레코드를 만들 수 있습니다.
+다음 중 하나를 수행하여 레코드를 만들 수 있습니다.
 
-* 수동으로 Maestro 레코드 유형에 대해 만듭니다.
-* 다른 응용 프로그램의 Maestro 레코드에 연결합니다.
+* 레코드 유형에 대해 수동으로 만들기
+  <!-- not possible anymore: * Connect them to records from other applications-->
 * 외부 목록에서 정보를 복사하여 붙여 넣어 레코드를 만듭니다.
 
-이 문서에서는 Maestro 레코드를 만드는 방법을 설명합니다. 테이블 또는 타임라인 보기에서 레코드 관리에 대한 자세한 내용은 다음 문서를 참조하십시오.
+이 문서에서는 레코드를 만드는 방법을 설명합니다. 테이블 또는 타임라인 보기에서 레코드 관리에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
 * [표 보기 관리](/help/quicksilver/maestro/views/manage-the-table-view.md)
 * [타임라인 보기 관리](/help/quicksilver/maestro/views/manage-the-timeline-view.md)
@@ -57,7 +57,7 @@ Adobe 마에스트로에서 레코드는 레코드 유형의 인스턴스입니�
   </tr>  
  <td role="rowheader"><p>Adobe Workfront 계약</p></td>
    <td>
-<p>Adobe Maestro Closed Beta 프로그램에 조직을 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
+<p>Adobe Workfront 계획 기능 비공개 베타 프로그램에 조직을 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
    </td>
   </tr>
   <tr>
@@ -75,7 +75,7 @@ Adobe 마에스트로에서 레코드는 레코드 유형의 인스턴스입니�
 
 <tr>
    <td role="rowheader"><p>액세스 수준 구성</p></td>
-   <td> <p>Maestro에 대한 액세스 제어가 없습니다. </p>  
+   <td> <p>Adobe Workfront 계획 기능에 대한 액세스 제어가 없습니다 </p>  
 </td>
   </tr>
 <tr>
@@ -132,28 +132,44 @@ Adobe 마에스트로에서 레코드는 레코드 유형의 인스턴스입니�
 
 1. 각 행에 대한 정보를 계속 추가한 다음 **입력** 키보드에서 을(를) 클릭하여 변경 내용을 저장합니다.
 
+<!--Or 
+    
+    Click the new record's name or the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of the record name. The **Details** box opens in the table. 
+
+      >[!TIP]
+      >
+      >    You can access the Details box only from the name field of the record when the Name field is a primary field. 
+
+  1. Start editing the record's information in the Details box. Workfront automatically saves your changes. 
+  1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record on the Details page.
+    -->
+
 1. (선택 사항) 다음 키보드 단축키를 사용하여 새 레코드 추가를 실행 취소하거나 재실행할 수 있습니다.
 
    * CTRL+Z(Mac의 경우 ⌘+Z)
    * 변경 내용을 재실행하려면 CTRL+Shift+Z(Mac의 경우 ⌘+Shift+Z)
 
-## 다른 애플리케이션에서 연결하여 레코드 만들기
+<!-- this is not possible anymore: 
 
-다른 응용 프로그램에서 레코드를 Maestro 연결 레코드에 연결하여 가져올 수 있습니다. 이렇게 하면 다른 응용 프로그램의 연결된 개체에 대한 Maestro 레코드 유형이 만들어집니다.
+## Create records by connecting them from another application
 
-1. 에 설명된 대로 Maestro 레코드 유형을 만듭니다. [레코드 유형 만들기](../architecture/create-record-types.md).
+You can import records from other applications by linking them to existing records. This creates a linked record for the other application's connected object. 
 
-1. 이전 단계에서 생성한 레코드 유형에 대해 Maestro 레코드를 생성합니다. 자세한 내용은 섹션을 참조하십시오 [수동으로 레코드 유형에 추가하여 레코드 만들기](#create-records-by-manually-adding-them-to-a-record-type) 이 문서에서.
+1. Create a record type, as described in the [Create record types](../architecture/create-record-types.md).
 
-1. 생성한 Maestro 레코드 유형의 다른 응용 프로그램에서 개체 유형에 대한 연결을 만듭니다. 자세한 내용은 [레코드 유형 연결](../architecture/connect-record-types.md).
+1. Create records for the record type you created in the previous step. For information, see the section [Create records by manually adding them to a record type](#create-records-by-manually-adding-them-to-a-record-type) in this article. 
 
-1. 이전 단계에서 생성한 연결된 레코드 필드를 사용하여 위에서 생성한 Maestro 레코드에 다른 애플리케이션의 레코드를 추가합니다. 자세한 내용은 [레코드 연결](../records/connect-records.md).
+1. Create a connection to an object type from another application for the record type you created. For information, see [Connect record types](../architecture/connect-record-types.md).
 
-   Maestro에서 다음 항목이 만들어집니다.
+1. Add objects from another application to the records you created above using the linked record field you created in the previous step. For information, see [Connect records](../records/connect-records.md). 
 
-   * 연결된 레코드 필드에서 연결한 다른 응용 프로그램의 레코드 종류를 참조하는 읽기 전용 Maestro 레코드 종류.
+    The following items are created in Maestro:
 
-     예를 들어 Maestro 레코드 유형을 Workfront 프로젝트에 연결하는 경우 동일한 작업 영역에 &quot;Workfront 프로젝트&quot;라는 읽기 전용 레코드 유형이 만들어집니다. 연결하려는 Maestro 레코드의 테이블 보기에서 읽기 전용 Workfront 레코드 유형에 액세스할 수 있습니다.
+    * A read-only Maestro record type that refers to the other application's record type you linked to in the connected record field. 
+
+      For example, if you connect a Maestro record type to Workfront project, a read-only record type named "Workfront project" is created in the same workspace. You can access the read-only Workfront record types from the table view of the Maestro records you're linking from. 
+   
+-->
 
 ## 외부 목록에서 정보를 복사하여 붙여 넣어 레코드 만들기
 

@@ -1,13 +1,13 @@
 ---
 title: 표 보기 관리
-description: Adobe Maestro의 레코드 유형 페이지에 액세스할 때 테이블 보기에서 레코드와 해당 필드를 표시할 수 있습니다.
+description: Adobe Workfront 계획 기능의 레코드 유형 페이지에 액세스할 때 테이블 보기에 레코드와 해당 필드를 표시할 수 있습니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '2334'
+source-wordcount: '2337'
 ht-degree: 3%
 
 ---
@@ -28,9 +28,9 @@ hide: yes
 
 {{maestro-important-intro}}
 
-Adobe Maestro의 레코드 유형 페이지에 액세스할 때 테이블 보기에서 레코드와 해당 필드를 표시할 수 있습니다.
+Adobe Workfront 계획 기능의 레코드 유형 페이지에 액세스할 때 테이블 보기에 레코드와 해당 필드를 표시할 수 있습니다.
 
-Maestro 보기 및 관리 방법에 대한 자세한 내용은 다음을 참조하십시오. [레코드 보기 관리](../views/manage-record-views.md).
+레코드 보기 및 관리 방법에 대한 자세한 내용은 [레코드 보기 관리](../views/manage-record-views.md).
 
 ## 액세스 요구 사항
 
@@ -51,7 +51,7 @@ Maestro 보기 및 관리 방법에 대한 자세한 내용은 다음을 참조�
   </tr>  
  <td role="rowheader"><p>Adobe Workfront 계약</p></td>
    <td>
-<p>Adobe Maestro Closed Beta 프로그램에 조직을 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
+<p>Adobe Workfront 계획 기능 비공개 베타 프로그램에 조직을 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
    </td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ Maestro 보기 및 관리 방법에 대한 자세한 내용은 다음을 참조�
 
 <tr>
    <td role="rowheader">액세스 수준 구성</td>
-   <td> <p>Maestro에 대한 액세스 수준 제어 없음 </p>  
+   <td> <p>Adobe Workfront 계획 기능에 대한 액세스 수준 제어가 없습니다 </p>  
 </td>
   </tr>
 
@@ -114,7 +114,7 @@ Maestro 보기 및 관리 방법에 대한 자세한 내용은 다음을 참조�
 
 ### 열(또는 필드) 추가 {#add-columns}
 
-Maestro 테이블 보기의 열 헤더에는 보기의 레코드와 관련된 필드가 표시됩니다. 표 보기에 표시된 동일한 필드가 Maestro 레코드의 세부 정보 섹션에도 표시됩니다. 자세한 내용은 [레코드 편집](../records/edit-records.md).
+테이블 보기의 열 머리글에는 보기의 레코드와 관련된 필드가 표시됩니다. 표 보기에 표시된 동일한 필드가 레코드의 세부 정보 섹션에도 표시됩니다. 자세한 내용은 [레코드 편집](../records/edit-records.md).
 
 <!--this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default.-->
 
@@ -123,6 +123,8 @@ Maestro 테이블 보기의 열 헤더에는 보기의 레코드와 관련된 �
 테이블 보기에서 최대 500개의 필드(또는 열)를 추가할 수 있습니다.
 
 1. 레코드 유형 페이지로 이동하여 **표** 보기 드롭다운 메뉴에서 보기
+
+   <!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. 문서에 설명된 대로 필드(또는 열) 추가 시작 [필드 만들기](../fields/create-fields.md).
 
    추가한 열은 레코드 유형에 액세스하는 모든 사용자가 볼 수 있으며 선택한 레코드 유형의 레코드에 대한 세부 정보 페이지에서 새 필드로 추가됩니다.
@@ -212,11 +214,13 @@ Maestro 테이블 보기의 열 헤더에는 보기의 레코드와 관련된 �
 
 ### 행(또는 레코드) 추가 {#add-rows}
 
-Maestro 테이블 보기의 행에는 선택한 레코드 유형의 개별 레코드가 표시됩니다.
+테이블 뷰의 행에는 선택한 레코드 유형의 개별 레코드가 표시됩니다.
 
-Maestro에서 레코드 유형에 대해 최대 10,000개의 레코드(또는 행)를 가질 수 있습니다.
+레코드 유형에 대해 최대 50,000개의 레코드(또는 행)를 가질 수 있습니다.
 
 1. 레코드 유형 페이지로 이동하여 **표** 보기 드롭다운 메뉴에서 보기
+
+<!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. 문서에 설명된 대로 레코드(또는 행) 추가를 시작합니다 [레코드 만들기](../records/create-records.md).
 
    테이블 보기에서 추가하는 레코드는 즉시 저장되며 작업 공간에 대한 보기 이상의 권한이 있는 모든 사용자에게 표시됩니다.
@@ -359,7 +363,7 @@ Maestro에서 레코드 유형에 대해 최대 10,000개의 레코드(또는 �
 다음 사항을 고려하십시오.
 
 * 표 및 타임라인 보기에서 그룹화를 적용할 수 있습니다. 테이블 보기의 그룹화는 동일한 레코드 유형의 타임라인 보기의 그룹화와는 독립적입니다.
-* Maestro 보기에서 3가지 수준의 그룹화를 적용할 수 있습니다. 선택한 그룹화 순서대로 레코드가 그룹화됩니다.
+* 보기에서 3가지 수준의 그룹화를 적용할 수 있습니다. 선택한 그룹화 순서대로 레코드가 그룹화됩니다.
 &lt;!—* API를 사용할 때 최대 4가지 수준의 그룹화를 적용할 수 있습니다. —현재 이 항목을 확인하고 있습니다—>
 * 그룹화는 선택하는 보기에 대해 고유합니다. 동일한 레코드 종류의 두 테이블 보기에는 서로 다른 그룹화가 적용될 수 있습니다. 동일한 테이블 보기를 보는 두 명의 사용자에게 현재 적용된 동일한 그룹화가 표시됩니다.
 * 테이블 보기에 대해 빌드하는 그룹화의 이름을 지정할 수 없습니다.
