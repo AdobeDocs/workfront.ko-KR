@@ -4,9 +4,9 @@ description: 이 페이지에서는 2024년 2분기 릴리스에 포함된 기�
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: edc9d53152ea3828b04a0cd7c2bbb5cf48e541f6
+source-git-commit: 2a5feca46715a9d17070157af3799a8c8a35ef3d
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1507'
 ht-degree: 0%
 
 ---
@@ -167,6 +167,40 @@ ht-degree: 0%
                 </tr>
            </tbody>
         </table>
+
+### 통합 개선 사항
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 50%;" />
+    <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">기능</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">릴리스 날짜</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager 통합에서 자동 폴더 생성 워크플로 개선 사항</a></p><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span><p>Adobe Experience Manager 폴더가 요구 사항을 보다 정확하게 반영하도록 Adobe Experience Manager 연결 폴더 워크플로에 중첩된 폴더 트리를 추가했습니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2024년 3월 11일</p>
+                            </li>
+                             <li> <p><span class="preview">프로덕션에 대한 분기별 릴리스: 2024년 3월 14일</span></p>
+                             </li>
+                        </ul>
+                    </td>
+                 </tr>          
+            </tbody>
+</table>
+
 
 ### 프로젝트 개선 사항
 
