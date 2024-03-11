@@ -4,10 +4,10 @@ description: 보기를 다른 사용자와 공유하여 Adobe Workfront 계획 �
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 023ca8c4e7c2dec2098390c1cda1e5b4eafbb840
+source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 1%
+source-wordcount: '497'
+ht-degree: 0%
 
 ---
 
@@ -109,3 +109,13 @@ ht-degree: 1%
 1. 클릭 **링크 복사** 를 클릭하여 보기에 대한 링크를 클립보드에 복사합니다.
 1. 복사한 링크를 다른 사용자와 공유합니다. 링크를 받은 사용자는 활성 사용자여야 하며 레코드 유형 페이지에 액세스하여 선택한 보기에 표시할 수 있도록 Workfront에 로그인해야 합니다.
 1. **저장**&#x200B;을 클릭합니다.
+
+## 보기에 대한 권한 제거
+
+{{step1-to-maestro}}
+
+1. 보기를 공유할 작업 영역을 연 다음 레코드 유형 카드를 클릭합니다. 그러면 레코드 유형 페이지가 열립니다.
+1. 보기 드롭다운 메뉴에서 공유할 보기를 마우스로 가리킨 다음 **자세히** 메뉴 ![](assets/more-menu.png) 뷰 이름의 오른쪽에 있는 **공유**.
+1. 제거할 사용자 또는 그룹을 찾은 다음 **제거** 사용 권한 드롭다운 메뉴에서 사용자 또는 그룹 이름 오른쪽에 있는 권한
+1. 클릭 **저장**.
+제거된 그룹에 속한 사용자 또는 사용자는 더 이상 보기에 액세스할 수 없습니다. 보기에 액세스하지 못하도록 제거된 사용자에 대한 알림은 없습니다.

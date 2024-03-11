@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
+source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '507'
 ht-degree: 7%
 
 ---
@@ -44,7 +44,7 @@ Maestro에서 다음 오브젝트를 공유할 수 있습니다.
 
 * Adobe Workfront 라이선스 유형은 Maestro 권한과 함께 작동하여 Maestro 개체를 보거나, 기여하거나, 관리할 수 있는 액세스 권한을 부여합니다.
 
-  라이선스 유형이 Maestro 객체의 권한 수준에 어떤 영향을 미치는지에 대한 자세한 내용은 [Adobe Maestro의 라이선스 유형 개요](/help/quicksilver/maestro/access/license-type-overview.md).
+  라이선스 유형이 Maestro 객체의 권한 수준에 어떤 영향을 미치는지에 대한 자세한 내용은 [Adobe Workfront 계획 기능 사용 시 라이선스 유형 개요](/help/quicksilver/maestro/access/license-type-overview.md).
 * 시스템 관리자는 다른 사용자가 만든 작업 공간을 관리하고 공유할 수 있습니다.
 * 시스템 관리자가 아닌 경우 다른 사용자가 만든 작업 영역이 사용자와 공유될 경우 해당 작업 영역에 기여할 수 있습니다.
 * 작업 공간은 일괄적으로 공유할 수 없습니다.
@@ -62,7 +62,7 @@ Maestro에서 다음 오브젝트를 공유할 수 있습니다.
 >
 >모든 사용자가 아래에 설명된 권한 수준을 가질 수 있는 것은 아닙니다. 사용자의 개별 라이선스는 Maestro 개체에 대해 받을 수 있는 권한 수준을 결정합니다.
 >
->자세한 내용은 [Adobe Maestro의 라이선스 유형 개요](/help/quicksilver/maestro/access/license-type-overview.md).
+>자세한 내용은 [Adobe Workfront 계획 기능 사용 시 라이선스 유형 개요](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
 ### 작업 공간 권한

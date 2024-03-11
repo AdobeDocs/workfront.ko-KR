@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
+source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
 workflow-type: tm+mt
-source-wordcount: '3712'
-ht-degree: 4%
+source-wordcount: '3729'
+ht-degree: 3%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든 </p> </td> 
+   <td> <p>임의 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
@@ -88,6 +88,8 @@ ht-degree: 4%
    * 로그 시간
    * 기존 경비 편집
    * 사용자 정의 양식 첨부
+
+* 다른 사용자는 작업에 대한 업데이트를 보려면 페이지를 새로 고쳐야 합니다.
 
 ## 목록에서 작업 편집
 
@@ -238,25 +240,25 @@ ht-degree: 4%
       <td role="rowheader">작업 제한 사항</td> 
       <td> <p>작업 제한 사항을 지정하여 작업을 완료해야 하는 시기를 결정합니다. </p> <p>다음 옵션 중에서 선택합니다. </p> 
        <ul> 
-      <li> <p><span>고정 일자</span> </p> <p>지정 <strong>계획된 시작</strong> 및 a <strong>계획된 완료 일자</strong>. </p> </li> 
-      <li> <p><span>일자에 시작</span> </p> <p>지정 <strong>계획된 시작 일자</strong>. </p> </li> 
+      <li> <p><span>고정 날짜</span> </p> <p>지정 <strong>계획된 시작</strong> 및 a <strong>계획된 완료 일자</strong>. </p> </li> 
+      <li> <p><span>다음에서 시작해야 합니다.</span> </p> <p>지정 <strong>계획된 시작 일자</strong>. </p> </li> 
       <li> <p><span>다음까지 완료:</span> </p> <p>지정 <strong>계획된 완료 일자</strong>. </p> </li> 
        </ul> 
        <ul> 
       <li> <p><span>빠른 시일 내에</span></p> </li> 
       <li> <p><span>가능한 한 늦게</span></p> </li> 
       <li> <p><span>가장 빠른 가용 시간</span></p> </li> 
-      <li> <p> <span>최근 사용 가능한 시간</span></p> </li> 
-      <li> <p><span>다음 이전에 시작</span> </p> </li> 
+      <li> <p> <span>사용 가능한 최신 시간</span></p> </li> 
+      <li> <p><span>다음 이후에 시작:</span> </p> </li> 
       <li> <p>계획된 시작 일자 지정</p> </li> 
-      <li> <p><span>다음 이후에 시작:</span> </p> <p>지정 <strong>계획된 시작 일자</strong>. </p> </li> 
+      <li> <p><span>다음 이후에 시작</span> </p> <p>지정 <strong>계획된 시작 일자</strong>. </p> </li> 
       <li> <p> 완료 <span>다음 이후까지</span></p> <p>지정 <strong>계획된 완료 일자</strong>. </p> </li> 
       <li> <p> 완료 <span>다음 이후부터</span></p> <p>지정 <strong>계획된 완료 일자</strong></p> </li> 
-       </ul> <p>작업 제한에 대한 자세한 내용은 <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">작업 제한 개요</a>.</p> </td> 
+       </ul> <p>작업 제한 사항에 대한 자세한 내용은 <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">작업 제한 개요</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">커밋 일자 및 시간</td> 
-      <td> <p>작업에 할당된 사용자가 작업을 완료하기로 약정하는 날짜입니다. 계획된 완료 일자와 다를 수 있습니다. 할당된 사람만 이 필드를 편집할 수 있습니다. Workfront의 커밋 일자에 대한 자세한 내용은 <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">커밋 일자 개요</a>. </p> </td> 
+      <td> <p>작업에 할당된 사용자가 작업을 완료하기로 약정하는 날짜입니다. 계획된 완료 일자와 다를 수 있습니다. 할당자만 이 필드를 편집할 수 있습니다. Workfront의 커밋 일자에 대한 자세한 내용은 <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">커밋 일자 개요</a>. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">계획된 시작 일자 및 시간</td> 
@@ -323,7 +325,7 @@ ht-degree: 4%
 
    ![](assets/nwe-assignments-section-edit-task-box-350x217.png)
 
-1. 클릭 **사람, 역할 및 팀 검색** 작업에 할당할 사용자, 역할 또는 팀의 이름을 입력한 다음 해당 작업을 클릭하거나 목록에 표시될 때 Enter 키를 누릅니다.
+1. 클릭 **사람, 역할 및 팀 검색** 작업에 할당할 사용자, 역할 또는 팀의 이름을 입력한 다음 작업을 클릭하거나 목록에 표시될 때 Enter 키를 누릅니다.
 
    >[!NOTE]
    >
@@ -362,7 +364,7 @@ ht-degree: 4%
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader">발생 횟수 당 기간</td> 
-      <td> <p>자동연장 작업의 상위 항목에만 표시됩니다. 작업을 만들 때 정의된 대로 각 반복 작업의 기간이 표시됩니다. 반복 작업 만들기에 대한 자세한 내용은 <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">반복 작업 만들기</a>. </p> <p> <b>메모</b>
+      <td> <p>자동연장 작업의 상위 항목에만 표시됩니다. 작업을 만들 때 정의된 대로 각 반복 작업의 기간이 표시됩니다. 반복 작업 만들기에 대한 자세한 내용은 <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">반복 작업 만들기</a>. </p> <p> <b>참고</b>
 
    개별 반복 작업에서 수정된 기간은 이 필드에 표시된 값을 표시하지 않습니다. </p> </td>
    </tr> 
@@ -411,7 +413,7 @@ ht-degree: 4%
       <td>T</td> 
       </tr> 
       <tr> 
-      <td>경과 시간 (분)</td> 
+      <td>경과 시간(분)</td> 
       <td>EM</td> 
       </tr> 
       <tr> 
@@ -423,11 +425,11 @@ ht-degree: 4%
       <td>에드</td> 
       </tr> 
       <tr> 
-      <td>경과 주 수</td> 
+      <td>경과 주수</td> 
       <td>EW</td> 
       </tr> 
       <tr> 
-      <td>경과 기간 (월)</td> 
+      <td>경과 기간(월)</td> 
       <td>ET</td> 
       </tr> 
       </tbody> 
@@ -444,7 +446,7 @@ ht-degree: 4%
    <tr> 
    <td role="rowheader">계획된 시간</td> 
    <td> <p>작업에 대한 계획된 시간(시간)을 지정합니다. 작업의 할당자가 작업을 완료하는 데 걸리는 실제 시간입니다. [기간 유형]이 [계산된 할당]으로 설정된 경우에만 작업에 대한 계획된 시간을 지정할 수 있습니다. 기간 유형에 대한 자세한 내용은 <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">작업 기간 및 기간 유형 개요</a>.</p> 
-   <b>메모</b>
+   <b>참고</b>
    <p>
    반복 작업을 만들 때 계획된 시간은 각 발생에 해당하는 시간입니다. 상위 작업의 계획된 시간은 모든 발생 항목에서 모든 계획된 시간의 합계입니다. 반복 작업 만들기에 대한 자세한 내용은 <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">반복 작업 만들기</a>.
    </p>
@@ -519,7 +521,7 @@ ht-degree: 4%
       <td role="rowheader">수익 유형</td> 
       <td> <p>작업에 대한 수익 유형을 지정합니다. 작업의 시간 수를 기반으로 작업의 매출 계산 방법을 결정합니다. </p> <p>다음 옵션 중에서 선택합니다. </p> 
        <ul> 
-      <li> <p> 청구 불가 </p> </li> 
+      <li> <p> 과금 불가 </p> </li> 
       <li> <p>시간별 사용자 </p> </li> 
       <li> <p>시간별 역할 </p> </li> 
       <li> <p>고정 시간별 </p> </li> 

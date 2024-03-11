@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
 workflow-type: tm+mt
-source-wordcount: '4364'
+source-wordcount: '4374'
 ht-degree: 0%
 
 ---
@@ -146,7 +146,7 @@ Preview: To be determined
 
 사용자의 라이선스 유형을 고려하여 권한 수준을 수정했습니다. 이 개선 이전에는 사용자의 라이선스 유형에 따라 작업 영역 권한에 차이가 없었습니다.
 
-이제 다음 권한이 사용자의 라이선스 유형과 함께 작동합니다.
+다음은 사용자가 사용자의 라이선스 유형에 따라 받을 수 있는 가장 높은 수준의 권한입니다.
 
 * 플랜 라이선스(또는 새 라이선스 모델에서 Standard 라이선스)가 있는 사용자는 작업 공간, 레코드 유형 및 레코드를 만들고 관리할 수 있습니다.
 
@@ -156,7 +156,7 @@ Preview: To be determined
 
 새 라이선스 모델에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Planning 기능의 라이선스 유형과 권한 간의 연결에 대한 자세한 내용은 [Adobe Maestro의 라이선스 유형 개요](/help/quicksilver/maestro/access/license-type-overview.md).
+Planning 기능의 라이선스 유형과 권한 간의 연결에 대한 자세한 내용은 [Adobe Workfront 계획 기능 사용 시 라이선스 유형 개요](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
 ### 레코드 필드에 대한 리치 텍스트 도구 모음의 새로운 모양
