@@ -6,14 +6,16 @@ description: Experience Manager Assets Essentials 통합에서 워크플로우 �
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 706e531be6f6269a927f94fee4d2c37d9367c9af
+source-git-commit: 83cd0960947108186f8d1d8ef2ad6c35c89820bd
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '1114'
 ht-degree: 0%
 
 ---
 
 # Experience Manager Assets 통합에서 워크플로우 사용
+
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
 
 워크플로는 Workfront을 Adobe Experience Manager as a Cloud Service에 연결하는 작업 세트입니다. Workfront 관리자는 Workfront에서 워크플로우를 구성한 다음 프로젝트 템플릿에 할당할 수 있습니다. 워크플로가 할당된 프로젝트 템플릿을 사용하여 프로젝트를 만들면 워크플로에 정의된 작업이 트리거됩니다.
 
@@ -30,7 +32,7 @@ ht-degree: 0%
   <tr>
    <td><strong>Adobe Workfront 플랜*</strong>
    </td>
-   <td>모든
+   <td>임의
    </td>
   </tr>
   <tr>
@@ -107,6 +109,10 @@ ht-degree: 0%
 
 ### 기존 프로젝트에 워크플로우 추가
 
+>[!NOTE]
+>
+>프로젝트를 만들 때(예: 연결된 폴더 만들기) 실행되는 워크플로우는 템플릿이 기존 프로젝트에 연결되어 있을 때 실행되지 않습니다. 템플릿에서 프로젝트를 만들 때만 실행됩니다.
+
 1. 프로젝트에 템플릿 추가를 시작합니다.
 
    자세한 내용은 [프로젝트에 템플릿 첨부](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
@@ -115,6 +121,8 @@ ht-degree: 0%
 1. (선택 사항)에 설명된 대로 프로젝트에 대한 워크플로 값을 편집합니다 [프로젝트에서 워크플로 값 편집](#edit-workflow-values-in-a-project).
 
    설정의 Experience Manager 영역에서 활성화된 워크플로우만 템플릿 또는 프로젝트에서 사용할 수 있습니다.
+
+
 
 ### 프로젝트에서 워크플로 값 편집
 
@@ -130,9 +138,17 @@ ht-degree: 0%
   >
   >이러한 영역이 표시되지 않으면 Workfront 관리자가 조직에 대한 워크플로를 활성화하지 않은 것입니다.
 
+
+
 #### 연결된 폴더
 
+>[!NOTE]
+>
+>연결된 폴더는 프로젝트를 만들 때 만들어지므로 기존 프로젝트에서 연결된 폴더 워크플로를 편집하면 효과가 없습니다. 프로젝트를 만들 때 이러한 값을 편집하면 예상대로 작동합니다.
+
 링크된 폴더의 워크플로를 편집하려면:
+
+프로덕션 환경에서:
 
 1. 전환 **[!UICONTROL 연결된 폴더 만들기]** 원하는 대로 켜거나 끕니다.
 1. (조건부) 연결된 폴더를 활성화하는 경우, 폴더 경로를 선택하여 이 통합과 연결된 모든 연결된 폴더를 표시할 위치를 나타냅니다.
@@ -142,6 +158,31 @@ ht-degree: 0%
 
    다음에 있는 경우 [!DNL Adobe Experience Manager area], 변경 사항이 자동으로 저장됩니다. <!--Do they though?-->
 
+미리보기 샌드박스 환경에서:
+
+<div class="preview">
+
+1. 전환 **[!UICONTROL 연결된 폴더 만들기]** 원하는 대로 켜거나 끕니다. 이 기능을 켜면 연결된 폴더 구성을 편집할 수 있습니다.
+
+   연결된 폴더 구성에 대한 자세한 내용은 [Adobe Experience Manager 연결 폴더 만들기](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#create-adobe-experience-manager-linked-folders) 이 문서에서 [구성 [!UICONTROL Experience Manager Assets as a Cloud Service] 통합](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+
+1. (선택 사항) 프로젝트에 첨부된 사용자 정의 양식에 특정 값이 있는 경우에만 폴더 트리를 작성하려면 **필터 적용** 해당 폴더 트리에 대해 필드, 필드 및 필드 값을 포함하는 사용자 정의 양식을 선택합니다. 새 프로젝트에 첨부된 사용자 정의 양식의 필드에 선택한 값이 포함되어 있으면 폴더 트리가 만들어집니다.
+1. (선택 사항) 폴더 이름을 구성할 때 다음 옵션 중에서 선택할 수 있습니다.
+
+   * **이름**: 폴더 이름을 입력합니다.
+
+   * **개체 데이터**: 폴더 이름의 소스(예: 프로젝트 이름)를 선택합니다.
+
+   * **사용자 정의 양식 데이터**: 폴더 이름으로 사용할 사용자 정의 양식 데이터를 선택합니다.
+
+     폴더 이름에 사용자 정의 양식 데이터를 사용하는 것은 템플릿 수준에서만 사용할 수 있으며 통합 수준에서는 구성할 수 없습니다.
+
+     폴더 이름이 프로젝트에 첨부된 의 사용자 정의에 존재하지 않는 사용자 정의 데이터로 설정된 경우, 임의의 ID가 폴더 이름으로 할당됩니다.
+
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+
+</div>
+
 
 #### 자산 게시
 
@@ -149,10 +190,4 @@ ht-degree: 0%
 
 1. 전환 **에셋 자동 게시** 원하는 대로 켜거나 끕니다.
 1. (조건부) 게시를 활성화하는 경우 게시 서비스에 게시할지, Brand Portal에 게시할지 또는 둘 다에 게시할지 선택합니다.
-1. 클릭 **[!UICONTROL 저장]** 를 사용하는 경우 [!UICONTROL 프로젝트 만들기] 또는 [!UICONTROL 프로젝트 편집] 창.
-
-   또는
-
-   다음에 있는 경우 [!DNL Adobe Experience Manager area], 변경 사항이 자동으로 저장됩니다. <!--Do they though?-->
-
-
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.

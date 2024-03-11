@@ -6,9 +6,9 @@ description: 다음 위치에서 작업을 콘텐츠와 연결할 수 있습니�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: 54ece5a3082264af80d6a720452f8afe5e99c868
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1763'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # 구성 [!UICONTROL Experience Manager Assets as a Cloud Service] 통합
 
 <!-- Audited: 1/2024 -->
+
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
 
 >[!IMPORTANT]
 >
@@ -241,7 +243,7 @@ When this option is enabled, any asset that has been pushed to Adobe Experience 
 
 워크플로는 Workfront을 Adobe Experience Manager as a Cloud Service에 연결하는 작업 세트입니다. Workfront 관리자는 Workfront에서 워크플로우를 구성한 다음 프로젝트 템플릿에 할당할 수 있습니다. 워크플로가 할당된 프로젝트 템플릿을 사용하여 프로젝트를 만들면 워크플로에 정의된 작업이 트리거됩니다.
 
-통합에서 설정한 기본 워크플로 값은 프로젝트 템플릿 및 프로젝트 수준에서 재정의할 수 있습니다.
+Adobe Experience Manager 전체에 대해 워크플로우가 활성화되고 구성됩니다. 그런 다음 이러한 워크플로를 프로젝트 템플릿에 적용하고 템플릿 또는 프로젝트 수준에서 조정하거나 사용자 정의할 수 있습니다.
 
 Adobe Experience Manager 통합에서 사용할 수 있는 워크플로는 다음과 같습니다.
 
@@ -255,6 +257,46 @@ Adobe Experience Manager 통합에서 사용할 수 있는 워크플로는 다�
    ![연결된 폴더 탐색](assets/select-folder-aem-integration.png)
 1. 활성화 **[!UICONTROL Portfolio 및 프로그램 이름 추가]** 연결된 폴더 이름 끝에 Portfolio 및 프로그램 이름을 자동으로 포함하는 옵션입니다.
 1. 클릭 **[!UICONTROL 저장]** 또는 로 이동합니다. [Adobe Experience Manager Assets으로 전송된 자산 게시](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) 이 문서의 섹션.
+
+미리보기 샌드박스 환경에서
+
+<div class="preview">
+
+1. 전환 **[!UICONTROL 연결된 폴더 만들기]** 켜짐.
+1. 생성 중인 연결된 폴더의 이름을 입력합니다.
+1. (조건부) **기본 폴더 트리** 이 연결된 폴더를 이 통합을 사용하는 템플릿으로 만든 프로젝트의 기본 폴더로 설정하려면 옵션을 선택합니다. 하나 이상의 기본 폴더를 선택할 수 있습니다.
+1. 폴더 경로를 선택하여 이 통합과 연결된 모든 폴더를 연결할 위치를 지정합니다.
+1. (조건부) 이 통합에 폴더 트리(중첩된 폴더)를 추가하려면 다음을 수행합니다.
+
+   1. 다음을 클릭합니다. **폴더 추가** 아이콘 ![폴더 추가](assets/add-folder-aem.png).
+   1. 다음에서 **이름 유형** 필드에서 폴더 이름을 지정하는 방법을 선택합니다.
+
+      * **이름**: 폴더 이름을 입력합니다.
+      * **개체 데이터**: 폴더 이름의 소스(예: 프로젝트 이름)를 선택합니다.
+
+      >[!NOTE]
+      >
+      >* 폴더 이름은 100자 미만이어야 합니다.
+      >* 폴더 이름에서 다음 문자가 제거됩니다.
+      >
+      >   `/`, `:`, `[`, `]`, `|`, `*`
+
+   1. 폴더 트리에 중첩된 폴더를 추가하려면 중첩된 폴더를 만들 폴더 옆의 세 점 메뉴를 클릭하고 을 선택합니다 **폴더 추가**. 이전 단계 의 설명에 따라 필드를 채웁니다.
+   1. 폴더를 Workfront에 연결하려면 폴더를 선택하고 **연결된 폴더 만들기**   아이콘 ![링크 폴더](assets/link-folder.png).
+   1. (선택 사항) 폴더를 편집하려면 폴더를 선택하고 **폴더 편집** 아이콘 ![편집 아이콘](assets/edit-icon.png).
+   1. (선택 사항) 폴더를 삭제하려면 폴더를 선택하고 **폴더 삭제** 아이콘 ![폴더 삭제](assets/delete-folder.png).
+1. (조건부) 다른 폴더 트리를 추가하려면 **+ 폴더 트리 추가** 5단계의 단계를 따릅니다.
+
+1. 클릭 **[!UICONTROL 저장]**&#x200B;또는 로 이동합니다. [Adobe Experience Manager Assets으로 전송된 자산 게시](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) 이 문서의 섹션.
+
+>[!NOTE]
+>
+>* 이 통합은 생성된 폴더 트리의 수에 관계없이 100개 이하의 폴더를 만듭니다. 예를 들어 4개의 폴더 트리로 통합하면 400개의 폴더가 아니라 최대 100개의 폴더를 만들 수 있습니다.
+>* 폴더 트리의 첫 번째 폴더는 자동으로 Workfront에 연결된 것으로 표시됩니다. 이 폴더에 연결하지 않으려면 연결을 해제할 수 있습니다.
+>* 제공된 폴더 트리가 없으면 루트 폴더가 연결된 폴더가 됩니다.
+
+
+</div>
 
 ### Adobe Experience Manager Assets으로 전송된 자산 게시
 

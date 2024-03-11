@@ -6,7 +6,7 @@ description: 프로젝트 프로세스 및 설정의 변경 사항을 반영하�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
+source-git-commit: a243094dc6bbbe71a6efdb4fe99f7365daae514d
 workflow-type: tm+mt
 source-wordcount: '4710'
 ht-degree: 2%
@@ -1116,3 +1116,4 @@ By editing issue settings, you can prevent users from adding issues inline in th
 1. (선택 사항) 템플릿을 활성화하려면 **자세히** ![](assets/qs-more-icon-on-an-object.png) 템플릿 이름 옆에 있는 메뉴를 클릭한 다음 **활성화**.
 
    이제 템플릿이 활성화되었으며 프로젝트에 첨부하거나 프로젝트를 만드는 데 사용할 수 있습니다.
+
