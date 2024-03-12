@@ -4,9 +4,9 @@ description: 보기를 다른 사용자와 공유하여 Adobe Workfront 계획 �
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,8 @@ ht-degree: 0%
 
 <tr>
    <td role="rowheader"><p>개체 권한</p></td>
-   <td> <p>보기에 대한 권한 관리</p>  
+   <td> <p>보기에 대한 권한 관리</p>
+
 </td>
   </tr>
 
@@ -85,7 +86,7 @@ ht-degree: 0%
 >
 >시스템 관리자는 자신이 만들지 않은 보기를 보거나 공유할 수 없습니다. 공유된 보기에만 액세스하거나 공유할 수 있습니다.
 
-<!--for above note: System administrators can have only Manage permissions to a view.-->
+<!--for above note - add when this releases: System administrators can have only Manage permissions to a view.-->
 
 {{step1-to-maestro}}
 
@@ -105,7 +106,7 @@ ht-degree: 0%
    * 보기
    * 관리
 
-     권한 수준 및 사용자가 각 수준에 대해 수행할 수 있는 작업에 대한 자세한 내용은 [Adobe Maestro에서의 권한 공유 개요](../access/sharing-permissions-overview.md).
+     권한 수준 및 사용자가 각 수준에 대해 수행할 수 있는 작업에 대한 자세한 내용은 [Adobe Workfront 계획 기능의 공유 권한 개요](../access/sharing-permissions-overview.md).
 1. 클릭 **링크 복사** 를 클릭하여 보기에 대한 링크를 클립보드에 복사합니다.
 1. 복사한 링크를 다른 사용자와 공유합니다. 링크를 받은 사용자는 활성 사용자여야 하며 레코드 유형 페이지에 액세스하여 선택한 보기에 표시할 수 있도록 Workfront에 로그인해야 합니다.
 1. **저장**&#x200B;을 클릭합니다.

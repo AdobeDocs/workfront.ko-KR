@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '1977'
+source-wordcount: '1976'
 ht-degree: 1%
 
 ---
@@ -215,7 +215,7 @@ Adobe Workfront 계획 기능은 Adobe Workfront의 새로운 기능입니다. �
 
    * 두 가지 계획 기능 레코드 유형.
    * 계획 기능 레코드 유형과 Workfront 프로젝트, 프로그램, 포트폴리오, 회사 또는 그룹 객체 유형.
-   * 계획 기능 레코드 유형 및 Adobe Experience Manager 에셋, 폴더 또는 컬렉션입니다.
+   * 계획 기능 레코드 유형 및 Adobe Experience Manager 에셋 또는 폴더입니다.
 
      레코드 종류를 Experience Manager 개체와 연결하려면 Adobe Experience Manager 라이선스가 있어야 합니다.
 

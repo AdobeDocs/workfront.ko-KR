@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '2337'
+source-wordcount: '2400'
 ht-degree: 3%
 
 ---
@@ -109,7 +109,7 @@ Adobe Workfront 계획 기능의 레코드 유형 페이지에 액세스할 때 
    * [행(또는 레코드)](#add-rows-or-records)
    * [필터](#add-filters)
    * [그룹화](#add-groupings)
-   * [정렬](#sort-information)
+   * [정렬](#add-a-sort)
 
 
 ### 열(또는 필드) 추가 {#add-columns}
@@ -261,6 +261,8 @@ Adobe Workfront 계획 기능의 레코드 유형 페이지에 액세스할 때 
 
 * 테이블 보기에 필터를 추가하는 것은 타임라인 보기에 필터를 추가하는 것과 같습니다.
 
+* 연결된 레코드 필드나 조회 필드를 기준으로 필터링할 수 있지만 여러 레코드에 연결할 수 있는 필드는 필터링할 수 없습니다.
+
 테이블 보기에 필터를 추가하려면 다음 작업을 수행하십시오.
 
 1. 문서에 설명된 대로 레코드 유형 페이지에 대한 테이블 보기를 만듭니다 [레코드 보기 관리](../views/manage-record-views.md).
@@ -369,6 +371,7 @@ Adobe Workfront 계획 기능의 레코드 유형 페이지에 액세스할 때 
 * 테이블 보기에 대해 빌드하는 그룹화의 이름을 지정할 수 없습니다.
 * 그룹화를 제거하면 사용자와 동일한 레코드 유형에 액세스하거나 사용자와 동일한 보기를 표시하는 모든 사용자에게서 그룹화가 제거됩니다.
 * 그룹화 아래에 나열된 레코드를 편집할 수 있습니다.
+* 연결된 레코드 필드나 조회 필드를 기준으로 그룹화할 수 있지만 여러 레코드에 연결할 수 있는 필드는 그룹화할 수 없습니다.
 <!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
 <!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 
@@ -422,6 +425,8 @@ Adobe Workfront 계획 기능의 레코드 유형 페이지에 액세스할 때 
 * 연결된 필드는 단일 값을 허용하거나 요약 옵션이 선택된 값(합계, 평균, 최대, 최소)을 다중 선택할 수 있는 경우에만 정렬할 수 있습니다.
 
 * 정렬 기준을 제거하면 사용자와 동일한 레코드 유형에 액세스하는 모든 사람에서 정렬 기준이 제거되며 사용하는 것과 동일한 보기를 사용합니다.
+
+* 연결된 레코드 필드나 조회 필드를 기준으로 정렬할 수 있지만 여러 레코드에 연결할 수 있는 필드는 정렬할 수 없습니다.
 
 정렬하려면 <!--ungrouped (add this when sorting for groupings will be available--> 레코드, 다음을 수행합니다.
 

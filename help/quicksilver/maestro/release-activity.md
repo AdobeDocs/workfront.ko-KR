@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '4374'
+source-wordcount: '4391'
 ht-degree: 0%
 
 ---
@@ -133,6 +133,8 @@ Preview: To be determined
 미리보기: 결정 예정
 
 이제 연결된 레코드 또는 조회 필드를 기준으로 필터링, 정렬 및 그룹화할 수 있습니다. 이 향상된 기능을 통해 테이블 및 타임라인 보기에서 데이터를 효율적으로 구성하고 시각화할 수 있습니다.
+
+여러 레코드와 연결할 수 있는 조회 필드를 기준으로 필터링하거나 정렬 또는 그룹화할 수 없습니다.
 
 자세한 내용은 [표 보기 관리](/help/quicksilver/maestro/views/manage-the-table-view.md) 및 [타임라인 보기 관리](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
 
@@ -296,7 +298,7 @@ Adobe Workfront 계획 기능이 미리보기 및 샌드박스 환경에서 일�
 * 보기: 사용자는 레코드 유형 페이지의 보기 드롭다운 메뉴에서 보기를 선택할 수 있습니다.
 * 관리: 사용자가 보기를 편집, 공유 및 삭제할 수 있습니다.
 
-자세한 내용은 [액세스 개요](/help/quicksilver/maestro/access/access-overview.md) 및 [Adobe Maestro에서의 권한 공유 개요](../maestro/access/sharing-permissions-overview.md).
+자세한 내용은 [액세스 개요](/help/quicksilver/maestro/access/access-overview.md) 및 [Adobe Workfront 계획 기능의 공유 권한 개요](../maestro/access/sharing-permissions-overview.md).
 
 ### 새 공식 필드 유형
 

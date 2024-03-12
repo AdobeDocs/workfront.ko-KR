@@ -4,9 +4,9 @@ description: Adobe Workfront 계획 기능에 대한 액세스 권한은 객체�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Adobe Workfront 라이선스 유형은 Adobe Workfront 계획 기능 권한과 �
 >![](assets/permissions-grayed-out-for-requestor-user.png)
 
 
-Workfront 계획 기능의 개체에 대한 권한에 대한 자세한 내용은 [Adobe Maestro에서의 권한 공유 개요](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
+Workfront 계획 기능의 개체에 대한 권한에 대한 자세한 내용은 [Adobe Workfront 계획 기능의 공유 권한 개요](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
 
 ## Workfront 라이선스 유형과 Workfront 계획 기능 권한 간의 관계
 

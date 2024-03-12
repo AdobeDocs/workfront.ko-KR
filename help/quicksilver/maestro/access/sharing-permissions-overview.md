@@ -1,13 +1,13 @@
 ---
-title: Adobe Maestro에서의 권한 공유 개요
+title: Adobe Workfront 계획 기능의 공유 권한 개요
 description: Adobe Maestro 작업 영역 또는 보기에 대한 권한을 공유하거나 제거할 수 있습니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '531'
 ht-degree: 7%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 7%
 
 <!--over time, this article should look like this one does: https://eperienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
 
-# Adobe Maestro에서의 권한 공유 개요
+# Adobe Workfront 계획 기능의 공유 권한 개요
 
 {{maestro-important-intro}}
 
-Adobe Maestro 작업 영역 또는 보기에 대한 권한을 공유하거나 제거할 수 있습니다.
+Adobe Workfront의 계획 기능을 사용할 때 작업 공간 또는 보기에 대한 권한을 공유하거나 제거할 수 있습니다.
 
-이 문서에서는 Maestro 객체의 권한 수준에 대해 설명합니다.
+이 문서에서는 계획 기능 객체의 권한 수준에 대해 설명합니다.
 
 작업 영역 또는 보기를 공유하는 방법에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
@@ -30,9 +30,9 @@ Adobe Maestro 작업 영역 또는 보기에 대한 권한을 공유하거나 �
 
 * [보기 공유](/help/quicksilver/maestro/access/share-views.md)
 
-## Adobe Maestro에서 공유할 수 있는 오브젝트
+## Adobe Workfront 계획 기능에서 공유할 수 있는 객체
 
-Maestro에서 다음 오브젝트를 공유할 수 있습니다.
+다음 개체를 공유할 수 있습니다.
 
 * 작업 영역
 
@@ -40,27 +40,27 @@ Maestro에서 다음 오브젝트를 공유할 수 있습니다.
 
 * 조회수
 
-## Maestro에서 오브젝트 공유에 대한 고려 사항
+## Adobe Workfront의 계획 기능에서 오브젝트 공유에 대한 고려 사항
 
-* Adobe Workfront 라이선스 유형은 Maestro 권한과 함께 작동하여 Maestro 개체를 보거나, 기여하거나, 관리할 수 있는 액세스 권한을 부여합니다.
+* Adobe Workfront 라이선스 유형은 계획 기능을 사용할 때 개체를 보고, 기여하고, 관리할 수 있는 액세스 권한을 제공하는 사용 권한과 함께 작동합니다.
 
-  라이선스 유형이 Maestro 객체의 권한 수준에 어떤 영향을 미치는지에 대한 자세한 내용은 [Adobe Workfront 계획 기능 사용 시 라이선스 유형 개요](/help/quicksilver/maestro/access/license-type-overview.md).
+  라이선스 유형이 계획 기능 객체의 권한 수준에 어떤 영향을 미치는지에 대한 자세한 내용은 [Adobe Workfront 계획 기능 사용 시 라이선스 유형 개요](/help/quicksilver/maestro/access/license-type-overview.md).
 * 시스템 관리자는 다른 사용자가 만든 작업 공간을 관리하고 공유할 수 있습니다.
 * 시스템 관리자가 아닌 경우 다른 사용자가 만든 작업 영역이 사용자와 공유될 경우 해당 작업 영역에 기여할 수 있습니다.
 * 작업 공간은 일괄적으로 공유할 수 없습니다.
-* 작업공간을 다음 엔티티와 공유할 수 있습니다.
+* 작업공간 또는 뷰를 다음 엔티티와 공유할 수 있습니다.
    * 사용자
    * 그룹
-* 시스템 관리자를 포함한 다른 사용자는 자신이 만들었거나 자신과 공유된 보기에만 액세스할 수 있습니다.
+* 시스템 관리자를 포함한 다른 사용자는 자신이 만들었거나 자신과 공유된 보기에만 액세스할 수 있습니다. <!--System administrators can only be given permissions to Manage a view.-->
 * 작업 영역 또는 레코드 유형 페이지의 보기에 대한 링크를 다른 사용자와 공유할 수 있습니다. 링크를 받은 사용자는 활성 사용자여야 하며 Workfront에 로그인해야 선택한 보기에 표시된 작업 영역 또는 레코드 유형 페이지에 액세스할 수 있습니다.
 
-## Maestro 개체에 대한 권한 공유
+## Adobe Workfront 계획 기능 개체에 대한 권한 공유
 
-다음 섹션의 표에서는 Maestro 작업 영역 또는 보기를 공유할 때 선택할 수 있는 권한 수준과 각 수준에서 허용하는 기능을 보여 줍니다.
+다음 섹션의 표에서는 작업 영역 또는 보기를 공유할 때 선택할 수 있는 권한 수준과 각 수준에서 허용하는 기능을 보여 줍니다.
 
 >[!IMPORTANT]
 >
->모든 사용자가 아래에 설명된 권한 수준을 가질 수 있는 것은 아닙니다. 사용자의 개별 라이선스는 Maestro 개체에 대해 받을 수 있는 권한 수준을 결정합니다.
+>모든 사용자가 아래에 설명된 권한 수준을 가질 수 있는 것은 아닙니다. 사용자의 개별 라이선스는 계획 기능 개체에 대해 받을 수 있는 권한 수준을 결정합니다.
 >
 >자세한 내용은 [Adobe Workfront 계획 기능 사용 시 라이선스 유형 개요](/help/quicksilver/maestro/access/license-type-overview.md).
 

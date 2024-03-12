@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '1663'
+source-wordcount: '1705'
 ht-degree: 0%
 
 ---
@@ -174,6 +174,8 @@ Adobe Workfront Planning 기능의 레코드 유형 페이지에 액세스할 �
 
   자세한 내용은 문서의 &quot;필터 추가&quot; 섹션을 참조하십시오 [표 보기 관리](../views/manage-the-table-view.md).
 
+* 연결된 레코드 필드나 조회 필드를 기준으로 필터링할 수 있지만 여러 레코드에 연결할 수 있는 필드는 필터링할 수 없습니다.
+
 ### 그룹화 추가
 
 <!-- groupings are almost identical between this view and table  but they display a little differently, so I kept the steps for both; update in both places if they make changes to groupings-->
@@ -190,6 +192,7 @@ Adobe Workfront Planning 기능의 레코드 유형 페이지에 액세스할 �
 * 그룹화는 선택하는 보기에 대해 고유합니다. 동일한 레코드 종류의 두 타임라인 보기에는 서로 다른 그룹화가 적용될 수 있습니다. 동일한 타임라인 보기를 보고 있는 두 명의 사용자에게 현재 적용된 동일한 그룹화가 표시됩니다.
 * 타임라인 보기를 위해 빌드하는 그룹화의 이름을 지정할 수 없습니다.
 * 그룹화를 제거하면 사용자와 동일한 레코드 유형에 액세스하거나 사용자와 동일한 보기를 표시하는 모든 사용자에게서 그룹화가 제거됩니다.
+* 연결된 레코드 필드나 조회 필드를 기준으로 그룹화할 수 있지만 여러 레코드에 연결할 수 있는 필드는 그룹화할 수 없습니다.
 
 타임라인 보기에서 그룹화를 추가하려면 다음을 수행합니다.
 
