@@ -1,0 +1,64 @@
+---
+user-type: administrator
+content-type: how-to-procedural
+product-area: system-administration
+navigation-topic: workfront-testing-environments
+title: 환경 프로모션 패키지 만들기 또는 편집
+description: 환경 프로모션 기능은 구성 관련 객체를 한 환경에서 다른 환경으로 이동할 수 있는 기능을 제공하기 위한 것입니다. 다른 환경에 설치할 수 있는 환경 프로모션 패키지를 만드는 방법에 대해 알아봅니다.
+author: Becky
+feature: System Setup and Administration
+role: Admin
+hide: true
+hidefromtoc: true
+recommendations: noDisplay, noCatalog
+source-git-commit: b2a2a6b84edc74efa89db2aba459a40e98bfb0e5
+workflow-type: tm+mt
+source-wordcount: '488'
+ht-degree: 0%
+
+---
+
+# 환경 프로모션 패키지 만들기 또는 편집
+
+## 패키지 만들기
+
+1. 패키지를 생성할 환경으로 이동합니다. 객체를 복사하는 환경입니다 **출처:**.
+1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리에서 을(를) 클릭하고 **[!UICONTROL 설정]** ![설정 아이콘](/help/_includes/assets/gear-icon-setup.png).
+1. 선택 **시스템** 왼쪽 탐색에서 을(를) 선택합니다. **환경 프로모션**.
+1. 클릭 **패키지 만들기**.
+
+   새 프로모션 패키지 페이지가 열립니다.
+
+1. 다음에서 **패키지 이름** 필드에 패키지의 이름을 입력합니다.
+1. 다음에서 **설명** 필드에 이 패키지에 대한 설명을 입력합니다.
+1. 패키지에 개체를 추가하려면 **개체 추가** 왼쪽 탐색에서 추가할 객체 유형을 선택합니다.
+1. 목록에서 하나 이상의 객체를 선택하거나 검색 막대에 이름을 입력하고 목록에 표시될 때 객체를 선택합니다. 목록에서 개체를 두 개 이상 선택할 수 있습니다.
+1. 클릭 **추가(X 개체)** 을 클릭하여 선택한 개체를 패키지에 추가합니다.
+
+   예를 들어 프로젝트에 추가할 프로젝트를 세 개 선택한 경우 버튼에 다음과 같이 표시됩니다 **3개의 프로젝트 추가**.
+
+   추가한 개체는 페이지 오른쪽의 패키지 콘텐츠 영역에 나타납니다.
+
+1. 다른 유형의 객체를 추가하려면 7-9단계를 반복합니다.
+1. (선택 사항) 패키지에서 객체를 제거하려면 패키지 컨텐츠 영역의 객체를 마우스로 가리킨 다음 객체 옆에 있는 X를 클릭합니다.
+1. 원하는 개체를 모두 패키지에 추가한 후 **저장 및 닫기** 패키지를 조립하지 않고 저장합니다.
+
+   또는
+
+   클릭 **저장 및 어셈블** 패키지를 저장하고 어셈블합니다.
+
+## 기존 패키지 편집 또는 결합
+
+1. 패키지를 생성할 환경으로 이동합니다. 객체를 복사하는 환경입니다 **출처:**.
+1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리에서 을(를) 클릭하고 **[!UICONTROL 설정]** ![설정 아이콘](/help/_includes/assets/gear-icon-setup.png).
+1. 선택 **시스템** 왼쪽 탐색에서 을(를) 선택합니다. **환경 프로모션**.
+1. 표시된 목록에서 패키지를 선택합니다.
+1. (조건부) 보관(사용 안 함) 패키지를 보려면 **중단된 패키지 표시** 옵션을 선택합니다.
+1. 모든 객체와 해당 하위 객체를 포함한 컨텐트를 보려면 **내용** 섹션.
+1. 이 패키지의 이전 설치 및 설치 시도를 보려면 **배포**.
+1. 패키지를 편집하려면 다음을 클릭하십시오. **패키지 편집** 화면 오른쪽 상단에 있습니다.
+1. 패키지를 설치하려면 **설치** 화면 오른쪽 상단에 있습니다.
+
+   패키지 설치에 대한 지침은 [환경 프로모션 패키지 설치](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md).
+
+

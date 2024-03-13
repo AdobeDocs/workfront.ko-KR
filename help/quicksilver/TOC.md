@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
+source-git-commit: b44c83314a06592e21ab3c4316e2574b75e85715
 workflow-type: tm+mt
-source-wordcount: '14010'
+source-wordcount: '14023'
 ht-degree: 1%
 
 ---
@@ -463,7 +463,10 @@ ht-degree: 1%
          * [테스트 환경](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-testing-environments.md)
          * [샌드박스 환경 미리보기](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)
          * [사용자 정의 샌드박스 환경 새로 고침](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
-         * [한 개체에서 개체 이동 [!DNL Workfront] 환경을 다른 환경에](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
+         * [환경 프로모션 개요](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)
+         * [환경 프로모션 패키지 만들기 또는 편집](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
+         * [환경 프로모션 패키지 설치](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
+         * [API를 사용한 환경 프로모션](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
    * 사용자 관리 {#add-users}
       * [사용자 관리: 문서 색인](administration-and-setup/add-users/add-users.md)
       * 사용자 만들기 및 관리 {#create-manage-users}
