@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: 821e31b8c6023a9ec4e017cc5548bb9fd930983c
 workflow-type: tm+mt
-source-wordcount: '7404'
+source-wordcount: '7486'
 ht-degree: 1%
 
 ---
@@ -237,7 +237,7 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
          <td> <p>선택 시 날짜 지정 <strong>완료 일자부터 예약</strong>. </p> <p>을(를) 선택하는 경우 읽기 전용 필드입니다 <strong>시작 날짜부터 예약</strong>.<br></p> </td> 
       </tr> 
       <tr> 
-         <td role="rowheader"><strong>포트폴리오</strong></td> 
+         <td role="rowheader"><strong>Portfolio</strong></td> 
          <td>프로젝트가 속한 Portfolio을 나타냅니다. 드롭다운 목록에 표시되기 전에 먼저 Portfolio을 만들어야 합니다. 활성 포트폴리오만 프로젝트와 연결할 수 있습니다. 포트폴리오 만들기에 대한 자세한 내용은 <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">포트폴리오 만들기 </a>.</td> 
       </tr> 
       <tr> 
@@ -252,14 +252,13 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
          <li> <p>프로젝트를 설정 영역의 그룹 기본 페이지에서 만들면 해당 그룹이 프로젝트와 연결됩니다.</p> </li> 
          </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> 
          <p><b>참고</b></p>
-
-       &lt;ul>
-       &lt;li>&lt;p>프로젝트, 프로젝트 작업 또는 문제가 그룹 수준의 사용자 지정 상태와 연결되어 있는 경우 프로젝트 그룹을 변경하면 프로젝트, 작업 또는 문제의 상태가 새 그룹과 일치하도록 변경될 수 있습니다.&lt;/p>&lt;/li>
-       &lt;li>&lt;p>프로젝트 또는 프로젝트 작업 또는 문제가 그룹 수준의 사용자 정의 상태를 사용하여 그룹 수준의 승인 프로세스와 이미 연결되어 있는 경우 그룹을 변경하면 이전 그룹의 승인 상태와 시스템 수준의 기존 승인 상태가 충돌할 수 있습니다.&lt;/p>
-       &lt;p>그룹을 업데이트하기 전에 프로젝트에서 그룹 수준 승인 프로세스, 작업 또는 문제를 제거하는 것이 좋습니다.&lt;/p>
-       &lt;p>그룹 레벨 승인 프로세스 생성에 대한 자세한 내용은 &lt;a href=&quot;../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md&quot; class=&quot;MCXref xref&quot;>그룹 레벨 승인 프로세스를 참조하십시오&lt;/a>.&lt;/p>
-       &lt;p>그룹 수준 사용자 지정 상태 만들기에 대한 자세한 내용은 &lt;a href=&quot;../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md&quot; class=&quot;MCXref xref&quot;>그룹 상태 만들기 또는 편집을 참조하십시오&lt;/a>&lt;/p>&lt;/li>&lt;/ul> &lt;/td>
-   </tr> 
+         <ul>
+         <li><p>프로젝트, 프로젝트 작업 또는 문제가 그룹 수준의 사용자 지정 상태와 연결되어 있는 경우 프로젝트 그룹을 변경하면 프로젝트, 작업 또는 문제의 상태가 새 그룹과 일치하도록 변경될 수 있습니다.</p></li>
+         <li><p>프로젝트 또는 프로젝트 작업 또는 문제가 그룹 수준의 사용자 정의 상태를 사용하여 그룹 수준의 승인 프로세스와 이미 연결되어 있는 경우 그룹을 변경하면 이전 그룹의 승인 상태와 시스템 수준의 기존 승인 상태가 충돌할 수 있습니다.</p>
+         <p>그룹을 업데이트하기 전에 프로젝트에서 그룹 수준 승인 프로세스, 작업 또는 문제를 제거하는 것이 좋습니다.</p>
+         <p>그룹 수준 승인 프로세스를 만드는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">그룹 수준 승인 프로세스</a>.</p>
+         <p>그룹 수준 사용자 지정 상태 만들기에 대한 자세한 내용은 <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">그룹 상태 만들기 또는 편집</a></p></li></ul> </td> 
+      </tr> 
       <tr> 
          <td role="rowheader"><strong>회사</strong> </td> 
          <td> <p>프로젝트와 연계된 회사를 지정합니다. 회사를 프로젝트와 연결하려면 먼저 회사를 만들어야 합니다. 활성 회사만 프로젝트와 연결할 수 있습니다. 회사 만들기에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md" class="MCXref xref">회사 만들기 및 편집</a>.</p> </td> 
@@ -653,6 +652,22 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
    </table>
 
 1. **저장**&#x200B;을 클릭합니다.
+
+### 연결된 폴더
+
+연결된 폴더 기능은 자동으로 Adobe Experience Manager Assets에 폴더를 만들고 이러한 폴더를 Workfront에 연결합니다.
+
+이 섹션은 다음 사항이 모두 적용되는 경우에만 나타납니다.
+
+* 조직이 Adobe Admin Console으로 마이그레이션되었습니다.
+* 조직에서 Adobe Experience Manager과의 통합을 활성화하고 구성했습니다.
+* 이 프로젝트를 만드는 데 사용된 템플릿에 연결된 폴더가 사용 및 구성되었습니다.
+
+연결된 폴더 편집에 대한 지침은 [프로젝트에서 워크플로 값 편집](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project) 문서 Experience Manager Assets 통합에서 워크플로우 사용
+
+>[!NOTE]
+>
+>연결된 폴더는 프로젝트를 만들 때 만들어지므로 기존 프로젝트에서 연결된 폴더 워크플로를 편집하면 효과가 없습니다. 프로젝트를 만들 때 이러한 값을 편집하면 예상대로 작동합니다.
 
 ## 프로젝트 헤더에서 프로젝트 편집(제한적)
 

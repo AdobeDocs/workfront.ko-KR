@@ -6,16 +6,14 @@ description: Experience Manager Assets Essentials 통합에서 워크플로우 �
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 83cd0960947108186f8d1d8ef2ad6c35c89820bd
+source-git-commit: 821e31b8c6023a9ec4e017cc5548bb9fd930983c
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1042'
 ht-degree: 0%
 
 ---
 
 # Experience Manager Assets 통합에서 워크플로우 사용
-
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
 
 워크플로는 Workfront을 Adobe Experience Manager as a Cloud Service에 연결하는 작업 세트입니다. Workfront 관리자는 Workfront에서 워크플로우를 구성한 다음 프로젝트 템플릿에 할당할 수 있습니다. 워크플로가 할당된 프로젝트 템플릿을 사용하여 프로젝트를 만들면 워크플로에 정의된 작업이 트리거됩니다.
 
@@ -130,7 +128,7 @@ ht-degree: 0%
 
 모든 워크플로우 값은 다음에서 찾을 수 있습니다.
 
-* 프로젝트 만들기 또는 프로젝트 편집 창의 워크플로 섹션.
+* 프로젝트 만들기 또는 프로젝트 편집 창의 워크플로 또는 연결된 폴더 섹션.
 * 왼쪽 탐색의 Adobe Experience Manager 섹션.
 
 
@@ -148,19 +146,6 @@ ht-degree: 0%
 
 링크된 폴더의 워크플로를 편집하려면:
 
-프로덕션 환경에서:
-
-1. 전환 **[!UICONTROL 연결된 폴더 만들기]** 원하는 대로 켜거나 끕니다.
-1. (조건부) 연결된 폴더를 활성화하는 경우, 폴더 경로를 선택하여 이 통합과 연결된 모든 연결된 폴더를 표시할 위치를 나타냅니다.
-1. 클릭 **[!UICONTROL 저장]** 를 사용하는 경우 [!UICONTROL 프로젝트 만들기] 또는 [!UICONTROL 프로젝트 편집] 창.
-
-   또는
-
-   다음에 있는 경우 [!DNL Adobe Experience Manager area], 변경 사항이 자동으로 저장됩니다. <!--Do they though?-->
-
-미리보기 샌드박스 환경에서:
-
-<div class="preview">
 
 1. 전환 **[!UICONTROL 연결된 폴더 만들기]** 원하는 대로 켜거나 끕니다. 이 기능을 켜면 연결된 폴더 구성을 편집할 수 있습니다.
 
@@ -179,10 +164,8 @@ ht-degree: 0%
 
      폴더 이름이 프로젝트에 첨부된 의 사용자 정의에 존재하지 않는 사용자 정의 데이터로 설정된 경우, 임의의 ID가 폴더 이름으로 할당됩니다.
 
+1. 폴더 트리를 보려면 **미리 보기** ![미리 보기 아이콘](assets/preview-icon.png) 아이콘
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
-
-</div>
-
 
 #### 자산 게시
 
