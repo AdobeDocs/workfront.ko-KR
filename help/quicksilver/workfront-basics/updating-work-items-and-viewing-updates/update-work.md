@@ -6,9 +6,9 @@ description: Adobe Workfront 개체(프로젝트, 작업 또는 문제)에 업�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: d76ab0e165d280f84718b52cc72a9b4c152a0897
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '4279'
+source-wordcount: '4249'
 ht-degree: 1%
 
 ---
@@ -48,7 +48,7 @@ After the monthly releases to Production, the same features are also available i
 > * 타임시트의 요약 패널
 > * 업무 균형자의 요약 패널
 >
-><span class="preview">새 댓글 달기 환경은 미리 보기 환경의 목록, 타임시트 및 업무 균형자 의 요약 패널에서 사용할 수 있습니다.</span>
+><span class="preview">새 댓글 달기 환경은 미리 보기 환경의 목록, 타임시트 및 업무 균형자 의 요약 패널에서 사용할 수 있습니다.</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 <!-- with October 26 release: add somewhere this, and decide where we need to keep information about the legacy commenting. Should we create an article about iterations comments like we have for goals and cards?!:
 
@@ -243,13 +243,10 @@ After the monthly releases to Production, the same features are also available i
 
    <div class="preview">
 
-   미리보기 환경의 새로운 댓글 상자 예:
    ![새 댓글 상자](assets/comment-box-all-tabs.png)
 
    </div>
 
-   프로덕션 환경의 새 주석 상자 예:
-   ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
    >
@@ -446,13 +443,9 @@ After the monthly releases to Production, the same features are also available i
 
    <div class="preview">
 
-   미리보기 환경에서 검색하는 예:
    ![업데이트에서 검색](assets/updates-all-tabs-with-search-field.png)
 
    </div>
-
-   프로덕션 환경에서의 검색 예:
-   ![](assets/search-field-in-updates-tab.png)
 
    키워드 <!--or user--> 을 검색하면 강조 표시되고 이 검색어가 포함된 주석이 업데이트 섹션의 맨 위에 표시됩니다.
 

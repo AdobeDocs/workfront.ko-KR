@@ -5,16 +5,16 @@ description: 요약 패널을 사용하여 작업 문제 목록, 문서 또는 �
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: ba81706f457e41c989bc34d9bdff81223b0d745e
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '941'
 ht-degree: 1%
 
 ---
 
 # [!UICONTROL 요약] 개요
 
-{{highlighted-preview}}
+<span class="preview">강조표시된 정보는 미리보기 환경에서만 사용할 수 있습니다.</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 다음을 사용할 수 있습니다. [!UICONTROL 요약] 작업 문제 목록, 문서 또는 의 다른 영역에서 작업 항목 정보를 직접 검토하고 업데이트하는 패널 [!DNL Adobe Workfront] 작업 및 문제를 표시합니다.
 
@@ -121,13 +121,9 @@ ht-degree: 1%
 
    <div class="preview">
 
-   미리보기 환경의 요약 패널 예:
    ![요약 패널](assets/summary-panel-for-task-new-comments.png)
 
    </div>
-
-   프로덕션 환경의 요약 패널 예:
-   ![요약 패널](assets/summary-panel-for-task.png)
 
 1. (선택 사항) [!UICONTROL 요약] 패널, 다음 중 하나를 수행합니다.
 
@@ -147,7 +143,7 @@ ht-degree: 1%
 
 진행률 표시줄 사용 [!UICONTROL 요약] 을(를) 클릭하여 선택한 작업 또는 문제에 대한 완료율을 업데이트합니다. 숫자를 입력하거나 막대를 올바른 백분율로 끕니다.
 
-![요약 패널의 완료율](assets/summary-overview-percent-complete.png)
+<span class="preview">![요약 패널의 완료율](assets/summary-overview-percent-complete.png)</span>
 
 ## [!UICONTROL 업데이트]
 
@@ -155,13 +151,9 @@ ht-degree: 1%
 
 <div class="preview">
 
-미리보기 환경의 업데이트 예:
 ![요약 패널의 업데이트 섹션](assets/summary-updates-section.png)
 
 </div>
-
-프로덕션 환경의 업데이트 예:
-![요약 패널의 업데이트 섹션](assets/summary-updates-with-block-quote-350x290.png)
 
 ## [!UICONTROL 문서]
 

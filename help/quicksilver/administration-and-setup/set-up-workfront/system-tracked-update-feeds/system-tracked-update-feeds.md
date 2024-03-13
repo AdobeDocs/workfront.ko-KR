@@ -9,16 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: d76ab0e165d280f84718b52cc72a9b4c152a0897
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
 
 # 시스템 추적 업데이트
 
-{{highlighted-preview}}
+<span class="preview">이 페이지에서 강조 표시된 정보는 미리보기 환경에서만 사용할 수 있습니다.</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 <!--remove new experience and legacy notes when we remove legacy in the UI - Jan 24???-->
 
@@ -88,11 +88,11 @@ Your [!DNL Workfront] license determines whether system updates display by defau
 
 * 다음은 새 주석 달기 경험과 기존 주석 달기 경험의 차이점입니다.
 
-   * 새 댓글 달기 경험을 사용할 때 사용자 업데이트는 댓글 탭에 표시되고 시스템 업데이트는 시스템 활동 탭에 표시됩니다.
+   * 새 댓글 달기 경험을 사용할 때 사용자 업데이트가 댓글 탭에 표시되고 시스템 업데이트가 시스템 활동에 표시됩니다 <span class="preview">및 모두</span> 탭.
 
      새 댓글 달기 환경에 대한 자세한 내용은 [새 댓글 달기 환경](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-   * <span class="preview">새 댓글 달기 경험을 사용할 때 시스템 업데이트에 댓글을 추가할 수 없습니다. 그러나 기존 댓글 달기 경험의 시스템 활동 레코드에 대한 모든 답글은 새 댓글 달기 경험에서 읽기 전용으로 시스템 활동 탭에 채워집니다.</span>
+   * <span class="preview">새 댓글 달기 경험을 사용할 때는 시스템 업데이트에 댓글을 추가할 수 없습니다. 그러나 기존 댓글 달기 경험의 시스템 활동 레코드에 대한 모든 답글은 새 댓글 달기 경험에서 읽기 전용으로 시스템 활동 탭에 채워집니다.</span>
    * 기존 댓글 달기 경험을 사용하는 경우 시스템 및 사용자 업데이트가 하나의 연속 피드에 표시됩니다.
 
    * 기존 댓글 달기 경험을 사용하는 경우 사용자는 기본적으로 시스템 업데이트를 보거나 표시하지 않도록 선택할 수 있습니다. 새 댓글 달기 환경을 사용할 때는 시스템 업데이트를 비활성화할 수 없습니다.

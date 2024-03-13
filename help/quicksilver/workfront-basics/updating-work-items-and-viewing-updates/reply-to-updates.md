@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: d86b1d5fb6fcfeddccfb079f3040f1ddfe29e71d
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1099'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 0%
 > * 타임시트의 요약 패널
 > * 업무 균형자의 요약 패널
 >
-><span class="preview">새 댓글 달기 환경은 미리 보기 환경의 목록, 타임시트 및 업무 균형자 의 요약 패널에서 사용할 수 있습니다.</span>
+><span class="preview">새 댓글 달기 환경은 미리 보기 환경의 목록, 타임시트 및 업무 균형자 의 요약 패널에서 사용할 수 있습니다.</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 누군가 작업 개체에 대한 댓글 또는 시스템 업데이트에 답글을 달면 해당 답글이 해당 개체의 업데이트 섹션에 있는 통신 스레드에 나타납니다.
 
@@ -99,11 +99,11 @@ ht-degree: 0%
 새 댓글 달기 환경에서 사용할 수 있는 기능과 개체에 대한 자세한 내용은 [새 댓글 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 1. 회신을 추가할 객체로 이동합니다.
-1. 클릭 **업데이트**&#x200B;을(를) 클릭하고 **댓글** 을 탭하여 개체에서 답글을 달거나 답글을 달 수 있습니다.
+1. 클릭 **업데이트**&#x200B;을(를) 클릭하고 **댓글** 개체 탭과 회신할 댓글 또는 회신을 찾습니다.
 
-   >[!NOTE]
-   >
-   ><span class="preview">모두 탭에서 댓글에 회신하려면 **댓글로 회신** 을 클릭하여 [주석] 탭에서 주석을 엽니다. 모두 탭에서 회신할 수 없습니다.</span>
+   또는
+
+   <span class="preview">다음을 클릭합니다. **모두** 탭을 클릭한 다음 를 클릭합니다 **댓글로 회신** 를 클릭하여 댓글 탭에서 댓글을 열고 회신합니다. 모두 탭에서 회신할 수 없습니다.</span>
 
 1. (선택 사항) 회신에 이전 업데이트의 텍스트를 포함하려면 **자세히** 회신할 댓글의 오른쪽 위 모서리에 있는 메뉴를 클릭한 다음 **견적 회신**. 이전 업데이트의 텍스트가 입력 영역에 세로로 회색 선으로 표시됩니다.
 1. 클릭 **답변**.

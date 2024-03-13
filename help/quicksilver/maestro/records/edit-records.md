@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1089'
 ht-degree: 1%
 
 ---
@@ -117,9 +117,11 @@ ht-degree: 1%
 1. 레코드 유형 카드를 클릭합니다.
 
    레코드 유형 페이지가 열립니다.
-1. (조건부) **보기** 드롭다운 메뉴 <!--tab--> 표의 오른쪽 위 모서리에서 을(를) 선택합니다 **표** 보기. 마지막으로 액세스할 때 다른 유형의 보기에서 레코드 유형을 보지 않은 경우 이 뷰가 기본 보기여야 합니다.
+1. (조건부) **보기** 테이블 왼쪽 위 모서리에 있는 드롭다운 메뉴에서 **표** 보기. 마지막으로 액세스할 때 다른 유형의 보기에서 레코드 유형을 보지 않은 경우 이 뷰가 기본 보기여야 합니다.
 
-   선택한 레코드 유형과 연관된 레코드가 테이블 뷰에 표시됩니다.
+<!--replace above with this when we release view redesign: (Conditional) Click the tab of a table view or click **+ View** to create a table view. The table view should be the default view, unless you viewed the record type in another type of view when you accessed it last. -->
+
+    선택한 레코드 유형과 연관된 레코드가 테이블 뷰에 표시됩니다.
 1. 레코드 행 내부를 클릭하여 인라인 레코드에 대한 정보 편집을 시작합니다.
 
    ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
@@ -129,7 +131,7 @@ ht-degree: 1%
    >  다음 필드는 읽기 전용이고 Workfront에서 자동으로 업데이트하므로 해당 필드에 대한 정보는 편집할 수 없습니다.
    >  
    >  * 레코드 종류를 연결하여 만든 연결된 필드. 자세한 내용은 [레코드 유형 연결](../architecture/connect-record-types.md).
-   >  * 생성자, 생성일, 마지막 수정자, 마지막 수정자 유형의 필드
+   >  * 생성자, 생성일, 마지막 수정자, 마지막 수정일, 공식 필드 유형의 필드.
 
 1. (선택 사항 및 조건부) 단락 유형 필드를 편집할 때 다음을 사용합니다 **리치 텍스트** 서식 옵션:
 
@@ -147,12 +149,12 @@ ht-degree: 1%
 
 
    <!--
-    1. (Optional) Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name, or click on a record name. The **Details** box opens in the table. 
+    1. (Optional) Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name, or click a record name. The **Details** box opens in the table. 
         >[!TIP]
         >
         >    You can view the Open details icon to the left of the Name field of a record only when the Name field is a primary field. 
     1. Start editing the field information in the Details box. Workfront automatically saves your changes. 
-    1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record as described in [Edit a record from the record's Details page](#edit-a-record-from-the-records-details-page) section in this article. 
+    1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) (*********check the icon; they are changing it***********) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record as described in [Edit a record from the record's Details page](#edit-a-record-from-the-records-details-page) section in this article. 
     -->
 
 1. (선택 사항) 한 필드에서 다른 필드로 정보를 복사하여 붙여넣으려면 다음 중 하나를 수행합니다.
@@ -168,7 +170,7 @@ ht-degree: 1%
    >* 정보를 복사하고 붙여넣으려면 다음 키보드 단축키를 사용하십시오.
    >   * 복사: CTRL + C (Mac의 경우 ⌘ + C)
    >   * 붙여넣기: CTRL + V(Mac의 경우 ⌘ + V)
-   >* 정보를 붙여넣은 필드와 동일한 유형의 마에스트로 필드 이외의 다른 소스에서 정보를 복사할 수 없습니다.
+   >* 정보를 붙여넣은 필드와 같은 유형의 레코드 필드 이외의 다른 소스에서 정보를 복사할 수 없습니다.
    >
    >* 레코드의 세부 정보 영역에는 필드 값을 복사하여 붙여넣을 수 없습니다. 이 기능은 레코드 종류의 표 보기에서만 지원됩니다.
    >* 다음 필드 유형에 대한 필드 값을 복사하여 붙여넣을 수 없습니다.
@@ -191,7 +193,7 @@ ht-degree: 1%
 
 ### 레코드의 세부 정보 페이지에서 레코드 편집
 
-<!--You can edit a record from the Details box in a table view, or from the Details page. For information about editing records in the Detais box, see the [Edit a record from the table view of a record type](#edit-a-record-from-the-table-view-of-a-record-type) section in this article.-->
+<!--You can edit a record from the Details box in a table view, or from the Details page. For information about editing records in the Details box, see the [Edit a record from the table view of a record type](#edit-a-record-from-the-table-view-of-a-record-type) section in this article.-->
 
 {{step1-to-maestro}}
 
@@ -212,8 +214,8 @@ ht-degree: 1%
 
    또는
 
-   세부 정보 페이지의 편집 가능한 필드 내부를 클릭하여 정보를 편집합니다.
+   세부 정보 페이지의 편집 가능한 필드 내부를 클릭하여 정보를 편집합니다. <!--Your changes are saved automatically.-->
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 
-1. 클릭 **변경 내용 저장**. <!--logged a bug for this - this needs to be "Save"-->
+1. 클릭 **변경 내용 저장**. <!--Eliminate this step when we release the new Details box in the table with the Details page. Add above that the saves are automatic-->

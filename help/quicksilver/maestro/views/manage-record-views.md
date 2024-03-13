@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 2c630ad348955380620eef073b0c7dde81d11835
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '857'
 ht-degree: 1%
 
 ---
@@ -161,14 +161,17 @@ Adobe Workfront 계획 기능 영역에서 레코드 유형을 선택한 후 다
     * Timeline
     * Calendar
 
+    A new tab is created with the selected view. 
+
+    Depending on the width of your screen, additional views might display in the **More** menu ![](assets/more-menu.png).   
+-->
+
 >[!TIP]
 >
->When you create a record type, the table view is also created by default. 
+>레코드 유형을 만들면 기본적으로 테이블 뷰도 만들어집니다.
 >
->To create a timeline or a calendar view, the record type you build the view for must have at least two date fields. Otherwise, the Timeline and the Calendar options are dimmed.
+>타임라인 또는 달력 보기를 만들려면 보기를 만드는 레코드 종류에는 최소 두 개 이상의 날짜 필드가 있어야 합니다. 그렇지 않으면 [타임라인] 및 [달력] 옵션이 흐리게 표시됩니다.
 >
->(*********remove the step below and replace the screen shot when calendar view releases*********)
--->
 
 1. 다음을 클릭합니다. **보기** 드롭다운 메뉴를 사용하여 기존 메뉴 중 하나 선택 **표 보기** ![](assets/table-view-icon.png) 또는 클릭 **뷰 만들기 > 테이블** 테이블 뷰 생성하기
 
@@ -224,7 +227,9 @@ Adobe Workfront 계획 기능 영역에서 레코드 유형을 선택한 후 다
 
    기본적으로 선택한 유형의 모든 레코드가 테이블 뷰에 표시됩니다.
 
-<!--1. Hover over on the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) > **Delete**. (********delete the instructions in the point below but keep the last step***********)-->
+<!--1. Hover over one the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) to the left of the view name, then click **Delete**. (********delete the instructions in the point below but keep the last step***********)
+First, you might need to click **More** to the left of the last tab to find the view you want to delete. -->
+
 1. 보기 드롭다운 메뉴를 클릭하고 목록의 보기 중 하나를 마우스로 가리킨 다음, **자세히** 메뉴 ![](assets/more-menu.png) > **삭제**.
 1. 클릭 **삭제** 확인할 수 있습니다. <!--ensure there is not another saving step here?!-->
 

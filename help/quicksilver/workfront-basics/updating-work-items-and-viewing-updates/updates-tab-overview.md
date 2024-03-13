@@ -7,9 +7,9 @@ description: 객체의 업데이트 섹션에는 사용자가 객체에 대해 �
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: d76ab0e165d280f84718b52cc72a9b4c152a0897
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '1332'
+source-wordcount: '1292'
 ht-degree: 3%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 3%
 > * 타임시트의 요약 패널
 > * 업무 균형자의 요약 패널
 >
-><span class="preview">새 댓글 달기 환경은 미리 보기 환경의 목록, 타임시트 및 업무 균형자 의 요약 패널에서 사용할 수 있습니다.</span>
+><span class="preview">새 댓글 달기 환경은 미리 보기 환경의 목록, 타임시트 및 업무 균형자 의 요약 패널에서 사용할 수 있습니다.</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 ## 업데이트 섹션 개요
 
@@ -56,13 +56,9 @@ ht-degree: 3%
 
 <div class="preview">
 
-미리보기 환경의 업데이트 섹션의 예:
 ![업데이트 섹션](assets/updates-tab-with-unified-experience-for-issues-all-tab.png)
 
 </div>
-
-프로덕션 환경의 업데이트 섹션의 예:
-![업데이트 섹션](assets/updates-tab-after-unified-experience-for-issues.png)
 
 댓글 달기 경험에 액세스하는 객체에 따라 업데이트 섹션에 대해 다음 경험을 찾을 수 있습니다.
 
@@ -104,13 +100,9 @@ ht-degree: 3%
 
 <div class="preview">
 
-미리보기 환경의 업데이트 섹션의 예:
 ![업데이트 섹션](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
 </div>
-
-프로덕션 환경의 업데이트 섹션의 예:
-![업데이트 섹션](assets/updates-tab-after-unified-experience-for-tasks.png)
 
 >[!NOTE]
 >

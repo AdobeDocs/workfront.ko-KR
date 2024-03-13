@@ -6,9 +6,9 @@ description: Adobe Workfront 개체에 업데이트 설명을 제공하면 프�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: d86b1d5fb6fcfeddccfb079f3040f1ddfe29e71d
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '1637'
+source-wordcount: '1622'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 0%
 > * 타임시트의 요약 패널
 > * 업무 균형자의 요약 패널
 >
-><span class="preview">새 댓글 달기 환경은 미리 보기 환경의 목록, 타임시트 및 업무 균형자 의 요약 패널에서 사용할 수 있습니다.</span>
+><span class="preview">새 댓글 달기 환경은 미리 보기 환경의 목록, 타임시트 및 업무 균형자 의 요약 패널에서 사용할 수 있습니다.</span><!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 오브젝트를 업데이트할 때 사용자가 따르지 않을 수 있는 오브젝트에 주의를 집중시키려면 사용자를 태그 지정할 수 있습니다.
 
@@ -133,13 +133,9 @@ ht-degree: 0%
 
    <div class="preview">
 
-   미리보기 환경의 태그 지정 예:
    ![사용자 태그 지정](assets/tag-others-unified-commenting-with-all-tab.png)
 
    </div>
-
-   프로덕션 환경의 태그 지정 예:
-   ![](assets/tag-others-unified-commenting.png)
 
 1. (선택 사항) 업데이트를 비공개로 설정하려면 을 활성화합니다 **내 회사에 비공개** 업데이트 상자의 오른쪽 아래 모서리에 있습니다. 이렇게 하면 회사의 사용자에게만 업데이트가 표시됩니다. 다음 **내 회사에 비공개** 옵션은 회사가 Workfront 프로필에 지정된 경우에만 사용할 수 있습니다.
 
@@ -161,7 +157,7 @@ ht-degree: 0%
 
    ![](assets/members-icons-expanded-unshimmed.png)
 
-   <span class="preview">주석 텍스트에서 태그가 지정되면 해당 주석에서 사용자 이름이 강조 표시됩니다.</span>
+   <span class="preview">주석 텍스트에서 태그가 지정되면 해당 주석에서 이름이 강조 표시됩니다.</span>
 
    작업 항목을 업데이트할 때 사용할 수 있는 추가 기능에 대한 자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 

@@ -7,16 +7,16 @@ description: 요약을 사용하면 문서 목록에서 직접 중요한 정보�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: d19b817aabf169e1b8f38bf63f6ca5cc3c0de308
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '440'
 ht-degree: 2%
 
 ---
 
 # 문서에 대한 요약 개요
 
-{{highlighted-preview}}
+<span class="preview">이 페이지에서 강조 표시된 정보는 미리보기 환경에서만 사용할 수 있습니다.</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 요약을 사용하면 문서 목록에서 직접 중요한 정보와 상호 작용할 수 있습니다.
 
@@ -67,7 +67,7 @@ ht-degree: 2%
 * [개요](#overview)
 * [사용자 정의 양식](#custom-forms)
 
-![](assets/copy-of-doc-summary-details-section-350x404.png)
+<span class="preview">![](assets/copy-of-doc-summary-details-section-350x404.png)</span>
 
 ### 개요 {#overview}
 
@@ -79,7 +79,7 @@ ht-degree: 2%
 
 사용자 정의 Forms 섹션을 사용하여 문서와 연결된 모든 사용자 정의 양식을 추가, 편집 또는 볼 수 있습니다. 사용자 정의 양식의 이름을 입력하여 문서에 추가하십시오. 자세한 내용은 [문서에 사용자 정의 양식 추가 또는 편집](../../documents/managing-documents/add-custom-form-documents.md).
 
-![](assets/add-custom-form-doc-summary-350x265.png)
+<span class="preview">![](assets/add-custom-form-doc-summary-350x265.png)</span>
 
 ## 업데이트
 
@@ -87,13 +87,10 @@ ht-degree: 2%
 
 <div class="preview">
 
-미리보기 환경의 업데이트 예:
 ![요약 패널의 업데이트 섹션](assets/summary-updates-section-new-comments.png)
 
 </div>
 
-프로덕션 환경의 업데이트 예:
-![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
 
 ## 승인
 
@@ -104,7 +101,7 @@ ht-degree: 2%
 * [작업 승인](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [문서 승인 요청](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
-![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
+<span class="preview">![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)</span>
 
 ## 버전
 
@@ -116,4 +113,4 @@ ht-degree: 2%
 * 문서 세부 정보로 이동
 * 증명 또는 문서 삭제
 
-![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
+<span class="preview">![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)</span>

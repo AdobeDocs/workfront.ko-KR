@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
@@ -114,6 +114,9 @@ Adobe Workfront 계획 기능에서 레코드는 레코드 유형의 인스턴�
 
 1. (조건부) 레코드 유형 페이지가 표 보기에서 열리지 않으면 **보기** 드롭다운 메뉴를 사용하여 기존 메뉴 중 하나 선택 **표 보기** ![](assets/table-view-icon.png) 또는 클릭 **뷰 만들기 > 테이블** 테이블 뷰를 생성합니다.
 
+<!--Replace the above with this when we release the tabbed views: 
+1. (Conditional) If the record type page does not open in the table view, click the tab of a table view, or click **+ View** to create a table view. -->
+
 1. 새 레코드를 추가하려면 **새 레코드** 테이블의 마지막 행에서
 
    또는
@@ -173,15 +176,15 @@ You can import records from other applications by linking them to existing recor
 
 ## 외부 목록에서 정보를 복사하여 붙여 넣어 레코드 만들기
 
-1. 섹션에 설명된 대로 Maestro에서 테이블 보기에서 레코드 만들기를 시작합니다 [수동으로 레코드 유형에 추가하여 레코드 만들기](#create-records-by-manually-adding-them-to-a-record-type) 이 문서에서.
+1. 섹션에 설명된 대로 테이블 보기에서 레코드 만들기를 시작합니다. [수동으로 레코드 유형에 추가하여 레코드 만들기](#create-records-by-manually-adding-them-to-a-record-type) 이 문서에서.
 
-   Maestro 테이블 보기에 새 레코드 정보로 채울 열이 있는지 확인합니다.
+   테이블 뷰에 새 레코드 정보로 채울 열(또는 필드)이 있는지 확인합니다.
 
 1. 클릭 **새로 만들기 &lt; 레코드 유형 이름 >** 테이블의 마지막 행에 새 레코드를 원하는 만큼 추가합니다.
 
    예를 들어 다른 응용 프로그램에서 10개의 새 레코드에 대한 정보를 붙여넣으려면 10개의 행을 테이블 보기에 추가합니다.
 
-1. 다른 응용 프로그램에서 Maestro에서 가져올 레코드 목록을 만듭니다.
+1. 다른 응용 프로그램에서 가져올 레코드 목록을 만듭니다.
 
    예를 들어 Excel 스프레드시트를 사용하여 목록을 만들 수 있습니다.
 
@@ -189,13 +192,13 @@ You can import records from other applications by linking them to existing recor
 
    >[!TIP]
    >
-   > 목록의 열에는 Maestro에 있는 기존 필드에 대한 정보가 포함되어야 합니다.
+   > 목록의 열에는 Workfront에 있는 기존 필드에 대한 정보가 포함되어야 합니다.
    >
-   > 원하는 필드가 이미 Maestro에서 만들어졌고 시트의 정보가 Maestro의 각 필드와 일치하는 올바른 형식으로 표시되는지 확인합니다.
+   > 원하는 필드가 Workfront에서 이미 만들어져 있고 시트의 정보가 Workfront의 각 필드와 일치하는 올바른 형식으로 표시되는지 확인하십시오.
 
 1. 다른 응용 프로그램에서 여러 행과 열을 선택한 다음 첫 번째 새 레코드부터 시작하여 레코드 유형 테이블 보기에 정보를 붙여 넣습니다.
 
-   Maestro에서 다음 정보를 가져옵니다.
+   Workfront 계획 기능 영역에서 다음 정보를 가져옵니다.
 
    * 행에는 새 레코드가 포함됩니다
    * 열은 레코드의 필드에 대한 정보를 채웁니다.
