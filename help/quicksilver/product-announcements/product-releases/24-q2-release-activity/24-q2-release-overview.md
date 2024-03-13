@@ -4,9 +4,9 @@ description: 이 페이지에서는 2024년 2분기 릴리스에 포함된 기�
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2a5feca46715a9d17070157af3799a8c8a35ef3d
+source-git-commit: 1e103c41d225c3bcc2699da24b0c6733c09b6637
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1584'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,7 @@ ht-degree: 0%
 * [관리자 개선 사항](#administrator-enhancements)
 * [홈 개선 사항](#home-enhancements)
 * [프로젝트 개선 사항](#project-enhancements)
+* [향상된 리소스 관리 기능](#resource-management-enhancements)
 * [스트림 및 알림 개선 사항 업데이트](#update-stream-and-notification-enhancements)
 * [기타 개선 사항](#other-enhancements)
 
@@ -186,21 +187,20 @@ ht-degree: 0%
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager 통합에서 자동 폴더 생성 워크플로 개선 사항</a></p><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span><p>Adobe Experience Manager 폴더가 요구 사항을 보다 정확하게 반영하도록 Adobe Experience Manager 연결 폴더 워크플로에 중첩된 폴더 트리를 추가했습니다.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager 통합에서 자동 폴더 생성 워크플로 개선 사항</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Adobe Experience Manager 폴더가 요구 사항을 보다 정확하게 반영하도록 Adobe Experience Manager 연결 폴더 워크플로에 중첩된 폴더 트리를 추가했습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
                             <li>
                                 <p>미리보기 릴리스: 2024년 3월 11일</p>
                             </li>
-                             <li> <p><span class="preview">프로덕션에 대한 분기별 릴리스: 2024년 3월 14일</span></p>
+                             <li> <p><span class="preview">모든 고객을 위한 프로덕션 릴리스: 2024년 3월 14일</span></p>
                              </li>
                         </ul>
                     </td>
                  </tr>          
             </tbody>
 </table>
-
 
 ### 프로젝트 개선 사항
 
@@ -247,6 +247,43 @@ ht-degree: 0%
                             </li>
                             <li>
                                 <p>빠른 릴리스를 위한 프로덕션: 24.3 릴리스 포함(2024년 3월 14일)</p>
+                            </li>
+                            <li>
+                                <p>분기별 릴리스 프로덕션: 24.4 릴리스 포함(2024년 4월)</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+           </tbody>
+        </table>
+
+### 향상된 리소스 관리 기능
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">기능</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">릴리스 날짜</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-resource-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">업무 균형자에서 수동으로 조정된 할당에 대한 표시기</a></p><p>[!BADGE In Production for Fast Release ]{type=Positive}</p><p>업무 균형자에서 수동 조정 또는 윤곽선에 대해 더 명확하게 이해하기 위해 이제 수동으로 조정된 시간별 할당에 연필 아이콘이 표시됩니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2024년 10월 12일</p>
+                            </li>
+                            <li>
+                                <p>빠른 릴리스를 위한 프로덕션: 24.2 릴리스 포함(2024년 2월 15일)</p>
                             </li>
                             <li>
                                 <p>분기별 릴리스 프로덕션: 24.4 릴리스 포함(2024년 4월)</p>

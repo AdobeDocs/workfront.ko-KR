@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: b44c83314a06592e21ab3c4316e2574b75e85715
+source-git-commit: 1e103c41d225c3bcc2699da24b0c6733c09b6637
 workflow-type: tm+mt
-source-wordcount: '14023'
+source-wordcount: '14032'
 ht-degree: 1%
 
 ---
@@ -25,6 +25,7 @@ ht-degree: 1%
          * [2024년 2분기 홈 개선 사항](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md)
          * [2024년 2분기 통합 개선 사항](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md)
          * [2024년 2분기 프로젝트 개선 사항](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md)
+         * [2024년 2분기 리소스 관리 개선 사항](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-resource-mgmt-enhancements.md)
          * [2024년 2분기 업데이트 스트림 개선 사항](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md)
          * [2024년 2분기 릴리스 기간 동안의 룩앤필 업데이트](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md)
       * 2024년 1분기 릴리스 {#release-24-q1}
@@ -395,6 +396,7 @@ ht-degree: 1%
    * 베타 프로그램 {#beta}
       * [베타 프로그램](product-announcements/betas/betas.md)
       * 캔버스 대시보드 베타 {#canvas-dashboards-beta}
+         * [캔버스 대시보드 베타 정보](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
          * [보고 캔버스 베타 개요](product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)
          * [캔버스 대시보드 베타: 릴리스 활동](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md)
       * 새 댓글 달기 경험 Beta {#new-commenting-experience-beta}
