@@ -11,17 +11,14 @@ role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 690dda5bfc0ac77d396532ff7cfce38f4b61f4af
+source-git-commit: 79468b31b48deecaf63c332387ebbd88dea7d57a
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
 
 # 환경 프로모션 패키지 설치
-
-이 페이지는 작성 중입니다.
-
 
 
 1. 패키지를 설치할 환경으로 이동합니다. 객체를 복사하는 환경입니다 **끝**.
@@ -41,11 +38,11 @@ ht-degree: 0%
 * 새로 만들기: 개체가 대상 환경에 있습니다.
 * 기존 사용: 패키지의 객체가 설치되지 않고 대상 환경에 이미 존재하는 객체가 변경되지 않습니다.
 * 기존 덮어쓰기: 패키지의 객체가 대상 환경의 기존 객체를 대체합니다.
-* 다음을 사용하지 마십시오.
+* 사용하지 않음:사용하지 않음을 선택하면 이 선택이 다른 객체 또는 필드에 어떤 영향을 미치는지 자세히 설명하는 오류 메시지가 나타납니다.
 
 기본값은 입니다. `Create new` 객체가 대상 환경에 없는 경우 `Use existing` 객체가 대상 환경에 있는 경우 을 클릭하여 기본 매핑으로 되돌릴 수 있습니다. **기본 매핑으로 재설정**.
 
-사용하지 않음을 선택하면 이 선택이 다른 객체 또는 필드에 어떤 영향을 미치는지 설명하는 오류 메시지가 나타납니다.
+
 
 <!--
 ## Collisions
