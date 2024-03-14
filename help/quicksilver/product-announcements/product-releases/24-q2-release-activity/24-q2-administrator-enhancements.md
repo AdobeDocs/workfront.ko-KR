@@ -4,9 +4,9 @@ description: 2024년 2분기 관리자 개선 사항
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
+source-git-commit: a4056eb307c326b99f25406c2d5b87ad6018c754
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '722'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,16 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2024년 2분기 릴리스의 모든 관리자 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2024년 2분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [2024년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## 이제 회사 및 사용자가 고급 사용자 정의 양식 필드를 지원합니다
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2024년 3월 14일, 모든 고객을 위한 프로덕션: 24.4(2024년 4월)
+
+이제 회사 또는 사용자에 사용자 정의 양식을 첨부할 때 외부 조회 필드 및 Workfront 기본 필드와 같은 고급 사용자 정의 양식 기능을 사용할 수 있습니다. 고급 기능은 회사 편집 및 사용자 편집 대화 상자가 아닌 회사 세부 정보 및 사용자 세부 정보 페이지에서 사용할 수 있습니다. 이러한 필드 유형을 사용하려면 새 양식 디자이너에서 사용자 정의 양식을 만들어야 합니다.
+
+사용자 정의 양식 필드에 대한 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## 이제 새로운 패키지 유형에 JumpSeat 통합을 사용할 수 있습니다.
 
