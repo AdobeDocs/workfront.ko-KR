@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a1ab60c4-4255-4d80-87f1-f36d325254c2
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: 293b7354e4549e51d78ad1aa75927a21d9044c43
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '695'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ https://<URL of your organization's domain>/integrations/oauth2/authorize?client
 
 ## 인증 코드 흐름 설정
 
-![](assets/oauth-2-authorization-code-flow-350x194.png)
+![](assets/oauth-2-authorization-code-flow.png)
 
 OAuth2로 사용자를 로그인하려면 다음 프로세스를 사용하십시오.
 
