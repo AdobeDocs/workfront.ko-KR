@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: e9acccbaf2ce9c418e9417ff205bdfdb926b51d5
+source-git-commit: 155a2a8f5f266006629a28917a6a7565a95b37a9
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1461'
 ht-degree: 0%
 
 ---
 
 # 회사 만들기 및 편집
+
+{{highlighted-preview}}
 
 <!--Audited: 01/2024-->
 
@@ -117,7 +119,7 @@ ht-degree: 0%
      </tr>
      <tr> 
       <td role="rowheader">[!UICONTROL 사용자 지정 Forms] 섹션</td> 
-      <td> <p>회사에 추가하려는 필드에서 을(를) 사용할 수 없는 경우 [!DNL Workfront], 사용자 정의 양식을 작성하여 회사와 연결할 수 있습니다. </p> <p>드롭다운 메뉴에서 이 양식을 선택하여 회사에 첨부할 수 있습니다.</p> <p>활성 사용자 정의 양식만 드롭다운 메뉴에 나열됩니다.</p> <p> 사용자 지정 Forms 만들기에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">사용자 정의 양식 만들기 또는 편집</a>. </p> </td> 
+      <td> <p>회사에 추가하려는 필드에서 을(를) 사용할 수 없는 경우 [!DNL Workfront], 사용자 정의 양식을 작성하여 회사와 연결할 수 있습니다. </p> <p>드롭다운 메뉴에서 이 양식을 선택하여 회사에 첨부할 수 있습니다. 활성 사용자 정의 양식만 메뉴에 나열됩니다.</p> <p><span class="preview"><strong>참고:</strong> 외부 조회 필드 및 Workfront 기본 필드와 같은 고급 사용자 정의 양식 기능은 회사 편집 대화 상자가 아닌 세부 정보 페이지에서 회사 레코드를 열 때만 사용할 수 있습니다. 회사 목록에서 회사 이름을 클릭하여 세부 정보를 엽니다.</span></p> <p> 사용자 정의 양식 만들기에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">사용자 정의 양식 만들기 또는 편집</a>. </p> </td>
      </tr> 
     </tbody> 
    </table>
