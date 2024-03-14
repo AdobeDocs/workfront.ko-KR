@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 54d855e6-c387-458c-9cd3-f32318c8ae02
-source-git-commit: 99b94c246f14110e37b23c95a178efd5b9042a9d
+source-git-commit: 0a638b143d2de4b8ff2948e701ee90acbd1ab857
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1067'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,7 @@ Adobe Admin Console으로 Workfront 마이그레이션이 완료되면 시스템
 
 * **Workfront 사용자가 현재 SSO로 로그인되어 있는 경우**, 사용자가 SSO를 사용하여 계속 로그인할 수 있도록 Adobe Admin Console에서 SSO를 설정해야 합니다. Workfront 사용자가 현재 SSO를 사용하고 있지 않지만 Adobe Admin Console에서 설정하려는 경우 마이그레이션 여정에서 이 시점에서 설정할 수 있습니다.
 * **Adobe Admin Console에서 다른 Adobe 제품을 이미 관리하고 있는 경우**, Adobe은 기존 콘솔로 사용자를 자동으로 마이그레이션하는 데 동의할 수 있습니다. 다음을 클릭합니다. **시작** 동의 페이지로 이동하려면 이메일의 버튼을 클릭합니다.
+* **이전에 요청자 라이선스 유형을 삭제한 경우**: 시스템에 추가됩니다. 이 라이선스 유형에는 사용자가 할당되지 않지만, Workfront과 Adobe Admin Console 간의 동기화에 필요합니다. 요청자 라이선스 유형과 관련하여 필요한 작업은 없습니다.
 
 현재 사용자 관리에 대한 변경 사항은 없습니다. Workfront 관리자는 Workfront의 사용자를 계속 관리하며, 사용자 마이그레이션이 완료될 때까지 사용자는 Workfront ID 또는 SSO로 계속 로그인합니다.
 
