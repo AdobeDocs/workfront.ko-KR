@@ -11,9 +11,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 79468b31b48deecaf63c332387ebbd88dea7d57a
+source-git-commit: 5ab9f7c975df86fa7a1f6d54a2fefcbd4cbd9248
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 * 새로 만들기: 개체가 대상 환경에 있습니다.
 * 기존 사용: 패키지의 객체가 설치되지 않고 대상 환경에 이미 존재하는 객체가 변경되지 않습니다.
-* 기존 덮어쓰기: 패키지의 객체가 대상 환경의 기존 객체를 대체합니다.
+* 기존 덮어쓰기: (현재 사용할 수 없음) 패키지의 객체가 대상 환경의 기존 객체를 대체합니다.
 * 사용하지 않음:사용하지 않음을 선택하면 이 선택이 다른 객체 또는 필드에 어떤 영향을 미치는지 자세히 설명하는 오류 메시지가 나타납니다.
 
 기본값은 입니다. `Create new` 객체가 대상 환경에 없는 경우 `Use existing` 객체가 대상 환경에 있는 경우 을 클릭하여 기본 매핑으로 되돌릴 수 있습니다. **기본 매핑으로 재설정**.
@@ -52,5 +52,7 @@ A collision occurs when <!--???--.
 In Workfront, a potential collision is marked with a blue dot. You can select 
 
 You can select whether to show all package contents, or collisions only.
--->
 
+## Comparison tool
+
+-->
