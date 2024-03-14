@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '948'
 ht-degree: 1%
 
 ---
@@ -153,18 +153,17 @@ Adobe Workfront 계획 기능 영역에서 레코드 유형을 선택한 후 다
 
    기본적으로 선택한 유형의 모든 레코드가 테이블 뷰에 표시됩니다.
 
-<!--
-1. Click **+ View** to add a new view. 
-1. Select from the following types of views: 
+1. 클릭 **+ 보기** 새 보기를 추가합니다.
+1. 다음 유형의 뷰 중에서 선택합니다.
 
-    * Table
-    * Timeline
-    * Calendar
+   * 테이블
+   * 타임라인
+   * 캘린더
 
-    A new tab is created with the selected view. 
+   선택한 보기로 새 탭이 만들어집니다.
 
-    Depending on the width of your screen, additional views might display in the **More** menu ![](assets/more-menu.png).   
--->
+   화면의 너비에 따라 추가 보기가에 표시될 수 있습니다 **자세히** 메뉴 ![](assets/more-menu.png).
+
 
 >[!TIP]
 >
@@ -173,21 +172,11 @@ Adobe Workfront 계획 기능 영역에서 레코드 유형을 선택한 후 다
 >타임라인 또는 달력 보기를 만들려면 보기를 만드는 레코드 종류에는 최소 두 개 이상의 날짜 필드가 있어야 합니다. 그렇지 않으면 [타임라인] 및 [달력] 옵션이 흐리게 표시됩니다.
 >
 
-1. 다음을 클릭합니다. **보기** 드롭다운 메뉴를 사용하여 기존 메뉴 중 하나 선택 **표 보기** ![](assets/table-view-icon.png) 또는 클릭 **뷰 만들기 > 테이블** 테이블 뷰 생성하기
+![](assets/view-types-drop-down-from-record-type-list.png)
 
-   또는
-
-   기존 항목 선택 **타임라인 보기** ![](assets/timeline-view-icon.png) 또는 클릭 **보기 만들기 > 타임라인** 을 클릭하여 타임라인 보기를 만듭니다.
-
-   또는
-
-   기존 항목 선택 **달력 보기** ![](assets/calendar-view-icon.png) 또는 클릭 **만들기 보기 > 달력** 을 클릭하여 캘린더 보기를 만듭니다.
-
-   ![](assets/view-types-drop-down-from-record-type-list.png)
-
-   >[!NOTE]
-   >
-   >    타임라인 또는 달력 보기를 만들려면 보기를 만드는 레코드 종류에는 최소 두 개 이상의 날짜 필드가 있어야 합니다. 그렇지 않으면 타임라인 또는 달력 옵션이 흐리게 표시됩니다.
+>[!NOTE]
+>
+>    타임라인 또는 달력 보기를 만들려면 보기를 만드는 레코드 종류에는 최소 두 개 이상의 날짜 필드가 있어야 합니다. 그렇지 않으면 타임라인 또는 달력 옵션이 흐리게 표시됩니다.
 
 1. (조건부) 클릭 **다음**&#x200B;을 사용하여 타임라인 또는 달력 보기를 만들 수 있습니다.
 
@@ -202,12 +191,16 @@ Adobe Workfront 계획 기능 영역에서 레코드 유형을 선택한 후 다
 1. (조건부) **시작** 및 **종료 날짜** 타임라인 또는 달력 보기에 표시할 레코드입니다.
 1. Click **Create**.
 
-   <!--add for view redesign: The view displays as a new tab. Views display in the chronological order from when they were created or shared with you. -->
-<!--1. (Optional) Click the **More** menu ![](assets/more-caret-down-icon-views.png) next to the last view to view all views for the selected record type. 
+   보기가 새 탭으로 표시됩니다. 보기가 만들어지거나 사용자와 공유될 때부터 시간 순서대로 표시됩니다.
+1. (선택 사항) **자세히** 메뉴 ![](assets/more-caret-down-icon-views.png) 선택한 레코드 유형의 모든 보기를 표시하려면 마지막 보기 옆에 있어야 합니다.
 
-    Additional views display under the **More** menu after the last view tab. The number next to the **More** menu shows the number of additional views. -->
-1. (선택 사항) 뷰를 만든 후 이름을 변경하려면 뷰 드롭다운 메뉴를 클릭한 다음, **자세히** 메뉴 ![](assets/more-menu.png) > **이름 바꾸기** 를 클릭하여 뷰 이름을 업데이트합니다. <!--ensure there is not another saving step here?!-->
-   <!--1. (Optional) To rename a view after it is created, double-click the view name and start typing the new name, or click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Rename**.-->
+   추가 보기는 아래에 표시됩니다 **자세히** 마지막 보기 탭 뒤에 있는 메뉴. 다음 숫자: **자세히** 메뉴에는 추가 보기 수가 표시됩니다.
+1. (선택 사항) 뷰를 만든 후 이름을 변경하려면 뷰 드롭다운 메뉴를 클릭한 다음, **자세히** 메뉴 ![](assets/more-menu.png) > **이름 바꾸기** 뷰 이름을 업데이트하려면
+
+   또는
+
+   보기 이름을 두 번 클릭하고 새 이름을 입력하십시오.  <!--ensure there is not another saving step here?!-->
+
 1. (선택 사항) 특정 유형의 보기를 관리하려면 다음 문서를 참조하십시오.
 
    * [표 보기 관리](../views/manage-the-table-view.md)
@@ -227,10 +220,9 @@ Adobe Workfront 계획 기능 영역에서 레코드 유형을 선택한 후 다
 
    기본적으로 선택한 유형의 모든 레코드가 테이블 뷰에 표시됩니다.
 
-<!--1. Hover over one the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) to the left of the view name, then click **Delete**. (********delete the instructions in the point below but keep the last step***********)
-First, you might need to click **More** to the left of the last tab to find the view you want to delete. -->
+1. 보기 탭에서 보기 이름 중 하나를 마우스로 가리킨 다음 을 클릭합니다 **자세히** ![](assets/more-menu.png) 뷰 이름의 왼쪽에 있는 를 클릭한 다음 **삭제**.
+먼저 다음을 클릭해야 할 수 있습니다. **자세히** 삭제할 보기를 찾으려면 마지막 탭의 왼쪽에 있어야 합니다.
 
-1. 보기 드롭다운 메뉴를 클릭하고 목록의 보기 중 하나를 마우스로 가리킨 다음, **자세히** 메뉴 ![](assets/more-menu.png) > **삭제**.
 1. 클릭 **삭제** 확인할 수 있습니다. <!--ensure there is not another saving step here?!-->
 
    레코드 영역에 액세스할 수 있는 모든 사용자에 대해 보기가 삭제되며 복구할 수 없습니다.

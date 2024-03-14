@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '1089'
-ht-degree: 1%
+source-wordcount: '1244'
+ht-degree: 0%
 
 ---
 
@@ -117,11 +117,9 @@ ht-degree: 1%
 1. 레코드 유형 카드를 클릭합니다.
 
    레코드 유형 페이지가 열립니다.
-1. (조건부) **보기** 테이블 왼쪽 위 모서리에 있는 드롭다운 메뉴에서 **표** 보기. 마지막으로 액세스할 때 다른 유형의 보기에서 레코드 유형을 보지 않은 경우 이 뷰가 기본 보기여야 합니다.
+1. (조건부) 테이블 보기의 탭을 클릭하거나 **+ 보기** 테이블 뷰를 생성합니다. 마지막으로 액세스할 때 다른 유형의 보기에서 레코드 유형을 보지 않은 경우 테이블 보기는 기본 보기여야 합니다.
 
-<!--replace above with this when we release view redesign: (Conditional) Click the tab of a table view or click **+ View** to create a table view. The table view should be the default view, unless you viewed the record type in another type of view when you accessed it last. -->
-
-    선택한 레코드 유형과 연관된 레코드가 테이블 뷰에 표시됩니다.
+   선택한 레코드 유형과 연관된 레코드가 테이블 뷰에 표시됩니다.
 1. 레코드 행 내부를 클릭하여 인라인 레코드에 대한 정보 편집을 시작합니다.
 
    ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
@@ -147,15 +145,15 @@ ht-degree: 1%
 1. (선택 사항) 연결된 레코드 필드를 두 번 클릭하여 연결된 레코드나 개체를 다른 레코드에 추가합니다. 자세한 내용은 [레코드 연결](/help/quicksilver/maestro/records/connect-records.md).
 1. 누르기 **입력** 키보드에서 를 클릭하거나 행 외부를 클릭하여 변경 내용을 저장합니다. 변경 사항은 자동으로 저장됩니다. A **저장됨** 변경 사항이 저장되었음을 보여 주는 표시기가 표 보기의 오른쪽 위 모서리에 잠시 표시됩니다.
 
+1. (선택 사항) **세부 정보 열기** 아이콘 ![](assets/open-details-icon-in-table-name-field.png) 레코드 이름의 왼쪽에 있거나 레코드 이름을 클릭합니다. 다음 **세부 사항** 테이블에서 상자가 열립니다.
 
-   <!--
-    1. (Optional) Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name, or click a record name. The **Details** box opens in the table. 
-        >[!TIP]
-        >
-        >    You can view the Open details icon to the left of the Name field of a record only when the Name field is a primary field. 
-    1. Start editing the field information in the Details box. Workfront automatically saves your changes. 
-    1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) (*********check the icon; they are changing it***********) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record as described in [Edit a record from the record's Details page](#edit-a-record-from-the-records-details-page) section in this article. 
-    -->
+   >[!TIP]
+   >
+   >다음을 볼 수 있습니다. **세부 정보 열기** 아이콘 은 이름 필드가 기본 필드인 경우에만 레코드의 이름 필드 왼쪽에 있습니다.
+
+1. 에서 필드 정보 편집을 시작합니다. **세부 사항** 상자. Workfront은 변경 사항을 자동으로 저장합니다.
+1. (선택 사항) **새 탭에서 열기** 아이콘 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 의 오른쪽 위 모서리 **세부 사항** 레코드를 여는 상자 **세부 사항** 새 탭에서 페이지를 만듭니다. 에 설명된 대로 레코드를 계속 편집합니다. [레코드의 세부 정보 페이지에서 레코드 편집](#edit-a-record-from-the-records-details-page) 이 문서의 섹션.
+
 
 1. (선택 사항) 한 필드에서 다른 필드로 정보를 복사하여 붙여넣으려면 다음 중 하나를 수행합니다.
 
@@ -193,7 +191,9 @@ ht-degree: 1%
 
 ### 레코드의 세부 정보 페이지에서 레코드 편집
 
-<!--You can edit a record from the Details box in a table view, or from the Details page. For information about editing records in the Details box, see the [Edit a record from the table view of a record type](#edit-a-record-from-the-table-view-of-a-record-type) section in this article.-->
+테이블 보기의 세부 정보 상자 또는 세부 정보 페이지에서 레코드를 편집할 수 있습니다.
+
+세부 정보 상자의 레코드 편집에 대한 자세한 내용은 [레코드 유형의 표 보기에서 레코드 편집](#edit-a-record-from-the-table-view-of-a-record-type) 이 문서의 섹션.
 
 {{step1-to-maestro}}
 
@@ -214,8 +214,8 @@ ht-degree: 1%
 
    또는
 
-   세부 정보 페이지의 편집 가능한 필드 내부를 클릭하여 정보를 편집합니다. <!--Your changes are saved automatically.-->
+   세부 정보 페이지의 편집 가능한 필드 내부를 클릭하여 정보를 편집합니다.
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 
-1. 클릭 **변경 내용 저장**. <!--Eliminate this step when we release the new Details box in the table with the Details page. Add above that the saves are automatic-->
+1. 클릭 **변경 내용 저장**.

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '492'
 ht-degree: 2%
 
 ---
@@ -139,8 +139,9 @@ Adobe Workfront 계획 기능에서 더 이상 관련이 없는 레코드를 삭
    * 레코드 행을 마우스 오른쪽 단추로 클릭한 다음 **삭제**.
    * 다음을 클릭합니다. **자세히** 메뉴 ![](assets/more-menu.png) 레코드 이름 오른쪽에서 **삭제**
 
-   ![](assets/contextual-menu-for-record-row.png)
-   <!--* Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to open the Details box, and click **More** ![](assets/more-menu.png) to the right of the record name, then **Delete**. -->
+     ![](assets/contextual-menu-for-record-row.png)
+
+   * 다음을 클릭합니다. **세부 정보 열기** 아이콘 ![](assets/open-details-icon-in-table-name-field.png) 세부 정보 상자를 열고 **자세히** ![](assets/more-menu.png) 레코드 이름의 오른쪽에 있는 경우 **삭제**.
 
    레코드가 삭제되어 복구할 수 없습니다.
 

@@ -4,9 +4,9 @@ description: 보기를 다른 사용자와 공유하여 Adobe Workfront 계획 �
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
@@ -85,8 +85,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >시스템 관리자는 자신이 만들지 않은 보기를 보거나 공유할 수 없습니다. 공유된 보기에만 액세스하거나 공유할 수 있습니다.
-
-<!--for above note - add when this releases: System administrators can have only Manage permissions to a view.-->
+>
+>시스템 관리자는 보기에 대한 관리 권한만 가질 수 있습니다.
 
 {{step1-to-maestro}}
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 
    그러면 레코드 유형 페이지가 열립니다.
 
-1. 보기 드롭다운 메뉴에서 <!--tab-->을 클릭하고 공유할 보기를 마우스로 가리킨 다음 **자세히** 메뉴 ![](assets/more-menu.png) 뷰 이름의 오른쪽에 있는 **공유**.
+1. 보기 탭에서 공유할 보기를 마우스로 가리킨 다음 **자세히** 메뉴 ![](assets/more-menu.png) 뷰 이름의 오른쪽에 있는 **공유**.
 
    ![](assets/more-menu-for-views-expanded-with-share-option.png)
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '4391'
+source-wordcount: '4925'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,89 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >아래 섹션에서 참조하는 설명서는 기능이 프로덕션에 릴리스된 후 잠시 사용할 수 있습니다.
+
+## 2024년 3월 11일 주
+
+### 테이블 보기에 레코드 세부 정보가 한 눈에 표시됩니다.
+
+프로덕션: 2024년 3월 14일
+
+미리보기: 결정 예정
+
+테이블 보기를 사용할 때 레코드에 대한 추가 정보를 더 쉽게 볼 수 있도록 레코드의 세부 정보에 대한 빠른 보기를 표시하는 새 세부 정보 상자를 도입했습니다. 다음은 이 상자에 포함된 일부 정보입니다.
+
+* 관련 레코드 세부 정보 개요
+
+* 레코드 정보 수정 기능
+
+* 레코드의 세부 정보 페이지를 여는 링크
+
+자세한 내용은 [레코드 편집](/help/quicksilver/maestro/records/edit-records.md).
+
+### 레코드 보기를 위한 새로운 탭 디자인
+
+프로덕션: 2024년 3월 14일
+
+미리보기: 결정 예정
+
+더 나은 탐색과 사용 편이성을 위해 레코드 보기의 디스플레이를 다시 설계했습니다. 이제 보기는 레코드 유형 페이지에서 탭으로 가로로 표시되므로 쉽게 탐색할 수 있습니다. 이 개선 이전에는 보기 드롭다운 메뉴에 보기가 표시되었습니다.
+
+보기는 왼쪽에서 오른쪽으로 추가된 날짜별로 시간순으로 표시됩니다. 공유 보기는 공유 시점의 시간 순서대로 표시됩니다.
+
+자세한 내용은 [레코드 보기 관리](/help/quicksilver/maestro/views/manage-record-views.md).
+
+### 레코드 보기의 동적 디자인
+
+프로덕션: 2024년 3월 14일 미리보기: 예정
+
+레코드 유형 페이지에 있는 보기의 모양과 느낌을 업데이트했습니다. 새로운 보기는 동적으로 반응하며 화면 크기에 맞게 빠르게 조정됩니다. 도구 모음 옵션 레이블은 도구 모음을 쉽게 사용할 수 있도록 작은 화면에서 숨겨집니다.
+
+자세한 내용은 다음 문서를 참조하십시오.
+* [표 보기 관리](/help/quicksilver/maestro/views/manage-the-table-view.md)
+* [타임라인 보기 관리](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
+
+### 시스템 관리자가 모든 공유 보기를 관리하도록 허용
+
+프로덕션: 2024년 3월 14일
+
+미리보기: 결정 예정
+
+시스템의 다른 모든 영역과 일관되도록 하고 시스템 관리자로서 사용 가능한 보기를 유지 관리하고 제어하려면 이제 Maestro에서 사용자와 공유되는 모든 보기에 대한 관리 권한이 있습니다. 이 기능이 향상되기 전에 보기 작성자는 보기를 보거나 관리할 수 있는 권한을 제공했을 수 있습니다. 이제 보기가 사용자와 공유되고 시스템 관리자인 경우 기본적으로 보기에 대한 관리 권한이 있습니다.
+
+자세한 내용은 [보기 공유](/help/quicksilver/maestro/access/share-views.md).
+
+### 권한 없이 보기를 공유할 때 승인되지 않은 페이지
+
+프로덕션: 2024년 3월 14일
+
+미리보기: 결정 예정
+
+사용자가 레코드 유형에 대한 링크를 받고 작업 영역에 액세스할 수 있지만 링크에서 공유되는 보기에는 액세스할 수 없는 경우 레코드 유형을 볼 수 있는 권한이 없음을 알리는 페이지가 표시됩니다.
+
+자세한 내용은 [보기 공유](/help/quicksilver/maestro/access/share-views.md).
+
+
+### 공유 대화 상자의 시스템 관리자를 위한 새 레이블
+
+프로덕션: 2024년 3월 14일
+
+미리보기: 결정 예정
+
+이제 보기 또는 작업 영역을 공유할 때 공유 대화 상자에서 시스템 관리자 이름 옆에 &quot;관리자&quot; 레이블이 표시됩니다.
+
+자세한 내용은 [공유 권한 개요](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
+
+### 권한 없이 보기를 공유할 때 승인되지 않은 페이지
+
+프로덕션: 2024년 3월 14일
+
+미리보기: 결정 예정
+
+사용자가 레코드 유형에 대한 링크를 받고 작업 영역에 액세스할 수 있지만 링크에서 공유되는 보기에는 액세스할 수 없는 경우 레코드 유형을 볼 수 있는 권한이 없음을 알리는 페이지가 표시됩니다.
+
+링크와 공유하는 동일한 레코드 유형 페이지에 다른 사용자가 액세스할 수 있도록 작업 공간을 공유하는 것 외에 다른 사용자와 뷰를 공유해야 합니다.
+
+자세한 내용은 [보기 공유](/help/quicksilver/maestro/access/share-views.md).
 
 ## 2024년 3월 4일 주
 
@@ -59,93 +142,6 @@ ht-degree: 0%
 이제 달력 보기에 레코드를 표시할 수 있습니다. 달력 보기를 만들려면 레코드 유형에 날짜 필드가 두 개 이상 있어야 합니다.
 
 자세한 내용은 [달력 보기 관리](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
-
-<!--
-## Week of March 11, 2024
-
-### At-a-glance record details display in the table view
-
-Production: March 14, 2024
-
-Preview: To be determined 
-
-To make it easier to view additional information about records when using the table view, we have introduced a new panel that displays a quick view of the record's details. The following is some of the information included in this panel: 
-
-* relevant record details at a glance 
-
-* ability to modify record information 
-
-* a link to open the record's Details page 
-
-For more information, see [Edit records](/help/quicksilver/maestro/records/edit-records.md). 
-
-### New tabbed design for record views 
-
-Production: March 14, 2024 
-
-Preview: To be determined 
-
-For better navigation and ease of use, we have redesigned the display of record views. Now, the views display horizontally, as tabs on the record type page, so you can easily navigate through them. Prior to this enhancement, views displayed in the View drop-down menu.  
-
-Views display chronologically by added date from left to right. Shared  views also display in chronological order of when they were shared.  
-
-For more information, see [Manage record views](/help/quicksilver/maestro/views/manage-record-views.md).  
-
-### Dynamic design of a record view
-
-Production: March 14, 2024
-Preview: To be determined 
-
-We have updated the look and feel of the views in the record type page. The new views are dynamically responsive and quickly adjust to the size of your screen. The toolbar option labels are hidden on smaller screens to make the toolbar easier to use.  
-
-For more information, see the following articles: 
-* [Manage the table view](/help/quicksilver/maestro/views/manage-the-table-view.md) 
-* [Manage the timeline view](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
-
-### Allow System Administrators to manage all shared views 
-
-Production: < date > 
-
-Preview: To be determined 
-
-To be consistent with all other areas of the system and to be able to maintain and control any view available to you as a System Administrator, you now have Manage permissions to any view shared with you in Maestro. Prior to this enhancement, view creators could have given you permissions to View or Manage the view. Now, if the view is shared with you and you are a System Administrator, you will have Manage permissions to the view, by default.  
-
-For more information, see [Share views](/help/quicksilver/maestro/access/share-views.md). 
-
-### Unauthorized page when sharing a view without permissions
-
- Production: < date > 
-
-Preview: To be determined 
-
- When a user receives a link to a record type and they have access to the workspace but not to the view shared in the link, a page notifying them that they are not authorized to see the record type displays.  
-
- For more information, see [Share views](/help/quicksilver/maestro/access/share-views.md). 
-
-
-### New label for System Administrators in sharing dialogs
-
-Production: <date> 
-
-Preview: To be determined 
-
-When sharing a view with a system administrator, you can only grant Manage access to them. Additionally, we now display an "Admin" label next to the system administrator's user name in the sharing dialog box. System administrators who were granted View permissions before this change will now receive Manage permissions to the view.  
-
-For information, see [Share permissions overview](/help/quicksilver/maestro/access/sharing-permissions-overview.md).  
-
-### Unauthorized page when sharing a view without permissions
-
-Production: <date> (Iskuhi said on March 14) 
-
-Preview: To be determined 
-
- When a user receives a link to a record type and they have access to the workspace but not to the view shared in the link, a page notifying them that they are not authorized to see the record type displays.  
-
- You must share views in addition to sharing workspaces for others to access the same record type page that you share with a link.
-
- For more information, see [Share views](/help/quicksilver/maestro/access/share-views.md). 
-
--->
 
 ## 2024년 2월 26일 주
 

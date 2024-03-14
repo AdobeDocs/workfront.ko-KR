@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
@@ -107,15 +107,13 @@ Adobe Workfront 계획 기능에서 레코드는 레코드 유형의 인스턴�
 {#step1-to-maestro}
 
 마지막으로 액세스한 작업공간은 기본적으로 열립니다. 작업 공간 만들기에 대한 자세한 내용은 [작업 공간 만들기](../architecture/create-workspaces.md).
+
 1. 레코드 유형 카드를 클릭합니다. 레코드 종류 만들기에 대한 내용은 [레코드 유형 만들기](../architecture/create-record-types.md).
 
    마지막으로 액세스한 보기에서 레코드 유형 페이지가 열립니다. 기본적으로 레코드 유형 페이지가 표 뷰에 열립니다.
 선택한 유형의 모든 레코드가 테이블 뷰에 표시됩니다.
 
-1. (조건부) 레코드 유형 페이지가 표 보기에서 열리지 않으면 **보기** 드롭다운 메뉴를 사용하여 기존 메뉴 중 하나 선택 **표 보기** ![](assets/table-view-icon.png) 또는 클릭 **뷰 만들기 > 테이블** 테이블 뷰를 생성합니다.
-
-<!--Replace the above with this when we release the tabbed views: 
-1. (Conditional) If the record type page does not open in the table view, click the tab of a table view, or click **+ View** to create a table view. -->
+1. (조건부) 레코드 유형 페이지가 표 보기에서 열리지 않으면 표 보기의 탭을 클릭하거나 **+ 보기** 테이블 뷰를 생성합니다.
 
 1. 새 레코드를 추가하려면 **새 레코드** 테이블의 마지막 행에서
 
@@ -135,17 +133,17 @@ Adobe Workfront 계획 기능에서 레코드는 레코드 유형의 인스턴�
 
 1. 각 행에 대한 정보를 계속 추가한 다음 **입력** 키보드에서 을(를) 클릭하여 변경 내용을 저장합니다.
 
-<!--Or 
-    
-    Click the new record's name or the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of the record name. The **Details** box opens in the table. 
+   또는
 
-      >[!TIP]
-      >
-      >    You can access the Details box only from the name field of the record when the Name field is a primary field. 
+   새 레코드의 이름 또는 **세부 정보 열기** 아이콘 ![](assets/open-details-icon-in-table-name-field.png) 레코드 이름 왼쪽에 있습니다. 다음 **세부 사항** 테이블에서 상자가 열립니다.
 
-  1. Start editing the record's information in the Details box. Workfront automatically saves your changes. 
-  1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record on the Details page.
-    -->
+   >[!TIP]
+   >
+   >이름 필드가 기본 필드인 경우 레코드의 이름 필드에서만 세부 정보 상자에 액세스할 수 있습니다.
+
+1. 세부 정보 상자에서 레코드 정보 편집을 시작합니다. Workfront은 변경 사항을 자동으로 저장합니다.
+1. (선택 사항) **새 탭에서 열기** 아이콘 ![](assets/open-details-in-a-new-tab-icon.png) 세부 정보 상자의 오른쪽 상단 모서리에서 레코드를 엽니다. **세부 사항** 새 탭에서 페이지를 만듭니다. 세부 정보 페이지에서 레코드 편집을 계속합니다.
+
 
 1. (선택 사항) 다음 키보드 단축키를 사용하여 새 레코드 추가를 실행 취소하거나 재실행할 수 있습니다.
 
