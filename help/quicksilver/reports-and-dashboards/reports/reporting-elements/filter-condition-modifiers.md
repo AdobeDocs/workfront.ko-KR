@@ -6,9 +6,9 @@ description: 필터 및 조건 수정자를 사용하여 필터를 작성하고 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
-source-git-commit: 7eecc4879d1e5e760735db4de89ac1a661477be7
+source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1516'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ ht-degree: 0%
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>cieq</strong> </p> </td> 
-   <td> <p>다음 은 <i>대소문자 구분 안 함</i> 옵션 / <strong>eq</strong>. 검색된 값과 정확히 일치하는 값만 반환합니다.</p> <p>예를 들어 특정 이름의 작업을 검색할 때 <code>task name cieq test</code> 이름이 인 작업을 찾습니다. <code>Test</code>, <code>TEST</code>, 또는 <code>Test</code>, 그러나 라는 이름의 작업을 찾을 수 없습니다. <code>test 123.</code></p> <p>이 수정자는 텍스트 모드 필터에서만 사용할 수 있습니다. 필터의 텍스트 모드에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">텍스트 모드를 사용하여 필터 편집</a>.</p> </td> 
+   <td> <p>다음 은 <i>대소문자 구분 안 함</i> 옵션 / <strong>eq</strong>. 검색된 값과 정확히 일치하는 값만 반환합니다.</p> <p>예를 들어 특정 이름의 작업을 검색할 때 <code>task name cieq test</code> 이름이 인 작업을 찾습니다. <code>Test</code>, <code>TEST</code>, 또는 <code>Test</code>, 그러나 라는 이름의 작업을 찾을 수 없습니다. <code>test 123.</code></p> <p>상태를 검색할 때 <strong>cieq</strong> 수정자가 지원되지 않습니다. 대/소문자 구분 한정자를 사용해야 합니다. <strong>eq</strong>을 입력하여 상태를 검색할 수 있습니다.</p> <p>이 수정자는 텍스트 모드 필터에서만 사용할 수 있습니다. 필터의 텍스트 모드에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">텍스트 모드를 사용하여 필터 편집</a>.</p> </td>
   </tr> 
   <tr valign="top"> 
    <td> </td> 

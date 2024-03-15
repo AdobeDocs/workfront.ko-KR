@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: db362bd73e51b30090708822876ad02f7804d064
+source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
 workflow-type: tm+mt
-source-wordcount: '2313'
+source-wordcount: '2327'
 ht-degree: 2%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 2%
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">포맷이 지정된 텍스트 필드</td> 
-      <td>필드에 여러 줄의 텍스트를 입력하고 굵게, 기울임체, 밑줄, 글머리 기호, 번호 매기기, 하이퍼링크 및 블록 따옴표로 텍스트 서식을 지정할 수 있습니다. 이 기능은 홈, 업데이트 영역, 목록, Workfront 개체의 세부 정보 영역에서 사용할 수 있습니다. 문자 길이는 15,000자로 제한되어 있어 많은 텍스트와 서식을 사용할 수 있습니다.</p> <p>API를 통해 이 필드에 액세스하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">API의 리치 텍스트 필드 스토리지</a>.</p> <p><b>참고</b>: Workfront 모바일 앱에서는 서식이 있는 텍스트 필드를 사용할 수 없습니다. </p> </td> 
+      <td>필드에 여러 줄의 텍스트를 입력하고 굵게, 기울임체, 밑줄, 글머리 기호, 번호 매기기, 하이퍼링크 및 블록 따옴표로 텍스트 서식을 지정할 수 있습니다. 이 기능은 홈, 업데이트 영역, 목록, Workfront 개체의 세부 정보 영역에서 사용할 수 있습니다. 문자 길이는 15,000자로 제한되어 있어 많은 텍스트와 서식을 사용할 수 있습니다.</p> <p>이 사용자 정의 필드 유형은 목록 및 보고서의 필터에서 지원되지 않습니다.</p> <p>API를 통해 이 필드에 액세스하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">API의 리치 텍스트 필드 스토리지</a>.</p> <p><b>참고</b>: Workfront 모바일 앱에서는 서식이 있는 텍스트 필드를 사용할 수 없습니다. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">드롭다운</td> 
@@ -225,7 +225,7 @@ ht-degree: 2%
       <td><p>드롭다운 목록을 클릭한 다음 필드의 값 변경 사항을 자동으로 추적할 객체 유형을 선택합니다.</p> 
       <p><b>참고</b>: 다음에서는 이 옵션을 사용할 수 없습니다.</p> 
       <ul> 
-      <li>경비, 회사, 반복, 청구 기록 및 그룹 오브젝트 유형과 연관된 사용자 정의 양식.</li> 
+      <li>경비, 회사, 반복, 청구 기록, 문서 및 그룹과 같은 객체 유형과 연관된 사용자 정의 양식입니다.</li> 
       <li>계산, 설명 텍스트 및 섹션 구분 필드 유형</li> 
       </ul>
       <p><b>중요 사항</b>: 여기에서 오브젝트 유형을 선택하거나 선택 취소하는 것은 선택한 오브젝트 유형과 연결되고 이 필드를 포함하는 모든 사용자 정의 양식에 영향을 줍니다. 예를 들어, 여기에서 오브젝트 유형을 선택 취소하고 사용자 정의 양식을 저장하는 경우 필드가 포함된 사용자 정의 양식의 해당 오브젝트 유형에 대해 필드의 값 변경 사항이 더 이상 추적되지 않습니다.</p>

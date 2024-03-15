@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: cf63099d2c86ad9a9390deef7df0ad140464276a
+source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
 workflow-type: tm+mt
-source-wordcount: '5681'
+source-wordcount: '5694'
 ht-degree: 3%
 
 ---
@@ -125,7 +125,9 @@ ht-degree: 3%
 * **단락 텍스트 필드**: 사용자가 필드에 여러 줄의 텍스트를 입력할 수 있습니다.
 * **서식이 있는 텍스트 필드**: 사용자가 필드에 여러 줄의 텍스트를 입력하고 굵게, 기울임체, 밑줄, 글머리 기호, 번호 매기기, 하이퍼링크 및 블록 따옴표로 텍스트 서식을 지정할 수 있습니다. 문자 길이는 15,000자로 제한되어 있어 많은 텍스트와 서식을 사용할 수 있습니다.
 
-  API를 통해 이 필드에 액세스하는 방법에 대한 자세한 내용은 API의 리치 텍스트 필드 저장소를 참조하십시오.
+  이 사용자 정의 필드 유형은 목록 및 보고서의 필터에서 지원되지 않습니다.
+
+  API를 통해 이 필드에 액세스하는 방법에 대한 자세한 내용은 [API의 리치 텍스트 필드 스토리지](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md).
 
   >[!NOTE]
   >
