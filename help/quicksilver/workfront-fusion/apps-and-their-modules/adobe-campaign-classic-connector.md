@@ -4,21 +4,21 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: 커넥터
 navigation-topic: apps-and-their-modules
-title: Adobe Campaign Classic 모듈
-description: 포함 [!DNL Adobe Campaign Classic] 모듈, 다음을 시작할 수 있습니다. [!DNL Adobe Workfront Fusion] 의 이벤트를 기반으로 한 시나리오 [!DNL Adobe Campaign Classic] 계약 및 기타 레코드를 계정, 작성, 읽기 또는 업데이트하고, 설정한 기준을 사용하여 레코드를 검색하고, 문서를 업로드합니다.
+title: Adobe Campaign v7/v8 모듈
+description: 포함 [!DNL Adobe Campaign] 모듈, 다음을 시작할 수 있습니다. [!DNL Adobe Workfront Fusion] 의 이벤트를 기반으로 한 시나리오 [!DNL Adobe Campaign] 계약 및 기타 레코드를 계정, 작성, 읽기 또는 업데이트하고, 설정한 기준을 사용하여 레코드를 검색하고, 문서를 업로드합니다.
 author: Becky
 feature: Workfront Fusion
 exl-id: 84e8fa35-0c3c-46bd-8886-88c6d8d9e1d5
-source-git-commit: 455d439ec2a9034043cac2570851ab2f9fecc276
+source-git-commit: 33488d46a14dae070083f28f56e1347da3944ca0
 workflow-type: tm+mt
-source-wordcount: '1382'
+source-wordcount: '1383'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Campaign Classic] 모듈
+# [!DNL Adobe Campaign] 모듈
 
-포함 [!DNL Adobe Campaign Classic] 모듈, 다음을 시작할 수 있습니다. [!DNL Adobe Workfront Fusion] 의 이벤트를 기반으로 한 시나리오 [!DNL Adobe Campaign Classic] 계정, 레코드 만들기, 읽기 또는 업데이트, 설정한 기준을 사용하여 레코드 검색 및 사용자 지정 API 호출 수행.
+포함 [!DNL Adobe Campaign] 모듈, 다음을 시작할 수 있습니다. [!DNL Adobe Workfront Fusion] 의 이벤트를 기반으로 한 시나리오 [!DNL Adobe Campaign v7/v8] 계정, 레코드 만들기, 읽기 또는 업데이트, 설정한 기준을 사용하여 레코드 검색 및 사용자 지정 API 호출 수행.
 
 ## 액세스 요구 사항
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 다음에 대한 정보: [!DNL Adobe Workfront Fusion] 라이센스, 참조 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## 연결 [!DNL Adobe Campaign Classic] 끝 [!DNL Adobe Workfront Fusion]
+## 연결 [!DNL Adobe Campaign] 끝 [!DNL Adobe Workfront Fusion]
 
 >[!IMPORTANT]
 >
@@ -67,7 +67,7 @@ ht-degree: 0%
 >
 >Campaign의 새 연결 요구 사항에 대한 자세한 내용은 [Campaign 기술 운영자를 Adobe Developer 콘솔로 마이그레이션](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/ims-migration.html) Campaign 설명서에서 참조하십시오.
 
-1. 다음 중 하나 [!DNL Adobe Campaign Classic] 모듈, 클릭 **[!UICONTROL 추가]** 다음 옆에 [!UICONTROL 연결] 필드.
+1. 다음 중 하나 [!DNL Adobe Campaign] 모듈, 클릭 **[!UICONTROL 추가]** 다음 옆에 [!UICONTROL 연결] 필드.
 1. 다음 필드를 채웁니다.
    <table style="table-layout:auto"> 
       <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
@@ -89,7 +89,7 @@ ht-degree: 0%
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL 기본 URL]</td>
-          <td>에 연결하는 데 사용하는 기본 URL을 입력합니다. [!DNL Adobe Campaign Classic] 인스턴스.</td>
+          <td>에 연결하는 데 사용하는 기본 URL을 입력합니다. [!DNL Adobe Campaign] 인스턴스.</td>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL 사용자 이름]</td>
@@ -119,9 +119,9 @@ ht-degree: 0%
     </table>
 1. 클릭 **[!UICONTROL 계속]** 를 클릭하여 연결을 만들고 모듈로 돌아갑니다.
 
-## [!DNL Adobe Campaign Classic] 모듈 및 해당 필드
+## [!DNL Adobe Campaign] 모듈 및 해당 필드
 
-를 구성할 때 [!DNL Adobe Campaign Classic] 모듈, [!DNL Workfront Fusion] 아래 나열된 필드를 표시합니다. 이와 함께 추가 [!DNL Adobe Campaign Classic] 앱이나 서비스의 액세스 수준 등에 따라 필드가 표시될 수 있습니다. 모듈의 굵은 제목은 필수 필드를 나타냅니다.
+를 구성할 때 [!DNL Adobe Campaign] 모듈, [!DNL Workfront Fusion] 아래 나열된 필드를 표시합니다. 이와 함께 추가 [!DNL Adobe Campaign] 앱이나 서비스의 액세스 수준 등에 따라 필드가 표시될 수 있습니다. 모듈의 굵은 제목은 필수 필드를 나타냅니다.
 
 필드나 함수 위에 맵 단추가 표시되면 이 단추를 사용하여 해당 필드에 대한 변수와 함수를 설정할 수 있습니다. 자세한 내용은 [의 한 모듈에서 다른 모듈로 정보 매핑 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -143,7 +143,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Campaign Classic], 참조 <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Campaign Classic]</a> 이 문서에서.</td> 
+   <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Campaign], 참조 <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Campaign]</a> 이 문서에서.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Filter]</td> 
@@ -181,7 +181,7 @@ ht-degree: 0%
 
 #### [!UICONTROL 레코드 만들기]
 
-이 작업 모듈은에 새 레코드를 만듭니다. [!DNL Adobe Campaign Classic].
+이 작업 모듈은에 새 레코드를 만듭니다. [!DNL Adobe Campaign].
 
 <table style="table-layout:auto"> 
  <col> 
@@ -189,11 +189,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Campaign Classic], 참조 <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Campaign Classic]</a> 이 문서에서.</td> 
+   <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Campaign], 참조 <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Campaign]</a> 이 문서에서.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Resource]</td> 
-   <td>유형 선택 [!DNL Adobe Campaign Classic] 만들 레코드.</td> 
+   <td>유형 선택 [!DNL Adobe Campaign] 만들 레코드.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 필드] </td> 
@@ -208,7 +208,7 @@ ht-degree: 0%
 
 #### [!UICONTROL 사용자 지정 API 호출 만들기]
 
-이 모듈에서는에 대한 사용자 지정 API 호출을 만듭니다. [!DNL Adobe Campaign Classic] API
+이 모듈에서는에 대한 사용자 지정 API 호출을 만듭니다. [!DNL Adobe Campaign] API
 
 <table style="table-layout:auto"> 
   <col/>
@@ -216,7 +216,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Campaign Classic], 참조 <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Campaign Classic]</a> 이 문서에서.</td> 
+   <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Campaign], 참조 <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Campaign]</a> 이 문서에서.</td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Action]</td>
@@ -244,7 +244,7 @@ ht-degree: 0%
 
 #### [!UICONTROL 레코드 삭제]
 
-이 작업 모듈은에서 단일 레코드를 삭제합니다. [!DNL Adobe Campaign Classic].
+이 작업 모듈은에서 단일 레코드를 삭제합니다. [!DNL Adobe Campaign].
 
 <table style="table-layout:auto"> 
  <col> 
@@ -252,7 +252,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Campaign Classic], 참조 <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Campaign Classic]</a> 이 문서에서.</td> 
+   <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Campaign], 참조 <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Campaign]</a> 이 문서에서.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Resource]</td> 
@@ -268,7 +268,7 @@ ht-degree: 0%
 
 #### [!UICONTROL 작업 수행]
 
-이 작업 모듈은 의 개체에 대해 선택한 작업을 수행합니다. [!DNL Adobe Campaign Classic] API.
+이 작업 모듈은 의 개체에 대해 선택한 작업을 수행합니다. [!DNL Adobe Campaign] API.
 
 특정 작업 및 필드에 대한 자세한 내용은 [[!DNL Adobe Campaign] - API 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html).
 
@@ -278,7 +278,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Campaign Classic], 참조 <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Campaign Classic]</a> 이 문서에서.</td> 
+   <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Campaign], 참조 <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Campaign]</a> 이 문서에서.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Action]</td> 
@@ -297,7 +297,7 @@ ht-degree: 0%
 
 #### [!UICONTROL 레코드 읽기]
 
-이 작업 모듈은에서 레코드를 읽습니다. [!DNL Adobe Campaign Classic].
+이 작업 모듈은에서 레코드를 읽습니다. [!DNL Adobe Campaign].
 
 <table style="table-layout:auto"> 
  <col> 
@@ -305,11 +305,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Campaign Classic], 참조 <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Campaign Classic]</a> 이 문서에서.</td> 
+   <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Campaign], 참조 <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Campaign]</a> 이 문서에서.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Resource]</td> 
-   <td>유형 선택 [!DNL Adobe Campaign Classic] 읽고 싶은 레코드를 기록합니다.</td> 
+   <td>유형 선택 [!DNL Adobe Campaign] 읽고 싶은 레코드를 기록합니다.</td> 
   </tr> 
     <tr> 
    <td role="rowheader">[!UICONTROL ID] </td> 
@@ -337,7 +337,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Campaign Classic], 참조 <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Campaign Classic]</a> 이 문서에서.</td> 
+   <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Campaign], 참조 <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Campaign]</a> 이 문서에서.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 가입 또는 가입 해지]</td> 
@@ -356,7 +356,7 @@ ht-degree: 0%
 
 #### [!UICONTROL 레코드 업데이트]
 
-이 작업 모듈은 의 단일 레코드를 업데이트합니다. [!DNL Adobe Campaign Classic].
+이 작업 모듈은 의 단일 레코드를 업데이트합니다. [!DNL Adobe Campaign].
 
 <table style="table-layout:auto"> 
  <col> 
@@ -364,11 +364,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Campaign Classic], 참조 <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Campaign Classic]</a> 이 문서에서.</td> 
+   <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Campaign], 참조 <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Campaign]</a> 이 문서에서.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Resource]</td> 
-   <td>유형 선택 [!DNL Adobe Campaign Classic] 만들 레코드.</td> 
+   <td>유형 선택 [!DNL Adobe Campaign] 만들 레코드.</td> 
   </tr> 
     <tr> 
    <td role="rowheader">[!UICONTROL ID] </td> 
@@ -397,11 +397,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Campaign Classic], 참조 <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Campaign Classic]</a> 이 문서에서.</td> 
+   <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Campaign], 참조 <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Campaign]</a> 이 문서에서.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Resource]</td> 
-   <td>유형 선택 [!DNL Adobe Campaign Classic] 만들 레코드.</td> 
+   <td>유형 선택 [!DNL Adobe Campaign] 만들 레코드.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 제한] </td> 
