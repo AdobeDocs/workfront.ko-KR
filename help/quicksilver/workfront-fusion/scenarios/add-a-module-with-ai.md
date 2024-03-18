@@ -8,9 +8,9 @@ author: Becky
 feature: Workfront Fusion
 hide: true
 hidefromtoc: true
-source-git-commit: 5623ca255478757c58605d05f2f24e56b21a5d78
+source-git-commit: cb2dba1c74f1d33be0bb21a7e1cdd176a3577bb2
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '347'
 ht-degree: 1%
 
 ---
@@ -31,6 +31,9 @@ AI에서 생성된 모든 것과 마찬가지로 생성된 모듈을 두 번 확
 
 Fusion AI는 현재 다음 애플리케이션에 연결하는 모듈을 생성할 수 있습니다.
 
+* Adobe Firefly
+* Azure OpenAI
+* Microsoft 그래프
 * Adobe 마에스트로
 * Adobe Analytics
 * Adobe PDF 서비스
