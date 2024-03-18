@@ -9,7 +9,7 @@ description: Adobe Workfront Fusion Adobe Workfront 커넥터를 사용하여 Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 1c5c348916421efb08cca8170b56f8181e1a4d98
+source-git-commit: 5110370fd934ac53e48d5993604d541c73ffdadf
 workflow-type: tm+mt
 source-wordcount: '5945'
 ht-degree: 2%
@@ -72,7 +72,7 @@ ht-degree: 2%
 
 에 대한 연결을 만들 수 있습니다. [!DNL Workfront] 내에서 직접 계정 [!DNL Workfront Fusion] 모듈.
 
-1. Adobe Authenticator 모듈에서 **추가** 연결 필드 옆에 있습니다.
+1. Adobe Workfront 모듈에서 **추가** 연결 필드 옆에 있습니다.
 1. 다음 필드를 채웁니다.
 
    <table style="table-layout:auto"> 

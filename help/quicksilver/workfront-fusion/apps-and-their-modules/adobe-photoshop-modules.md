@@ -8,16 +8,16 @@ title: Adobe Photoshop 모듈
 description: Adobe Photoshop 모듈을 사용하면 Adobe Photoshop 계정의 이벤트를 기반으로 Adobe Workfront Fusion 시나리오를 시작하고, 계약 및 기타 레코드를 생성, 읽기 또는 업데이트하고, 설정한 기준을 사용하여 레코드를 검색하고, 문서를 업로드할 수 있습니다.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
-source-git-commit: 0ea4ac4c4579d09dafeed47946ae9c7caf906cfe
+source-git-commit: 8d6f8217a58459539c9e4f4faa43e01d17d6ecee
 workflow-type: tm+mt
-source-wordcount: '1582'
+source-wordcount: '1549'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Photoshop] 모듈
 
-다음에서 [!DNL Adobe Workfront Fusion] 시나리오에서는 다음을 사용하는 워크플로를 자동화할 수 있습니다 [!DNL Adobe Photoshop]을 여러 타사 응용 프로그램 및 서비스에 연결할 수 있습니다. [!DNL Adobe Photoshop] 모듈을 사용하면 레코드를 만들거나, 읽거나, 업데이트하거나, 삭제하고, 지정된 유형의 모든 레코드를 나열하거나, 지정한 기준을 기반으로 레코드를 검색하거나, [!DNL Adobe Photoshop] API.
+다음에서 [!DNL Adobe Workfront Fusion] 시나리오에서는 다음을 사용하는 워크플로를 자동화할 수 있습니다 [!DNL Adobe Photoshop]을 여러 타사 응용 프로그램 및 서비스에 연결할 수 있습니다.
 
 
 시나리오를 만드는 방법에 대한 지침이 필요한 경우 [시나리오 만들기](../../workfront-fusion/scenarios/create-a-scenario.md).
