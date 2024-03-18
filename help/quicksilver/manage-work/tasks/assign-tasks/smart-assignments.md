@@ -7,7 +7,7 @@ description: 작업 및 문제 할당을 관리할 때 스마트 할당을 사�
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: c4b7ef023d4b45deade0f56f422b0ba6b6662ee4
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 0%
@@ -17,7 +17,9 @@ ht-degree: 0%
 # 스마트 할당 개요
 
 
-{{preview-and-fast-release}}
+<!-- {{preview-and-fast-release}} -->
+
+{{highlighted-preview}}
 
 작업 및 문제 할당을 관리할 때 스마트 할당을 사용하여 작업을 완료하는 데 가장 적합한 리소스를 식별할 수 있습니다. 스마트 할당은 작업에 가장 적합한 리소스를 결정하는 알고리즘을 기반으로 리소스에 작업 항목을 할당할 때 Adobe Workfront이 제공하는 제안입니다. 스마트 할당은 사용자, 작업 역할 또는 팀이 될 수 있습니다.
 
