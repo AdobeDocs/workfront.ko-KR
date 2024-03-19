@@ -8,9 +8,9 @@ title: Adobe Workfront 보드 모듈
 description: Adobe Workfront Boards 커넥터를 사용하여 Workfront Boards 내에서 프로세스를 자동화하고 서드파티 앱 및 서비스에 연결할 수 있습니다.
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
-source-git-commit: 074bcf15c61f9c0c75cebf774b15baf7fe383f35
+source-git-commit: db3f5b1e406d62fd0d3b99cb108ad824d1a32c24
 workflow-type: tm+mt
-source-wordcount: '2118'
+source-wordcount: '2111'
 ht-degree: 1%
 
 ---
@@ -65,7 +65,7 @@ Workfront 보드에 대한 일반적인 정보는 다음을 참조하십시오. 
 이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 다음에 대한 정보: [!DNL Adobe Workfront Fusion] 라이센스, 참조 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md).
-Adobe Workfront 보드 모듈 및 해당 필드
+
 
 ## 전제 조건
 
