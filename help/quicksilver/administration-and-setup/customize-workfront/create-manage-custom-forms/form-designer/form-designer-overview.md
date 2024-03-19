@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
-source-git-commit: a3830935bea08d6ded54c4444f4030b2e48e7089
+source-git-commit: 215f72a1619a46f28e0b3a2afb73bcb91586b15e
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '366'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 새 양식 디자이너에는 필드, 캔버스 및 필드 설정을 동시에 볼 수 있는 새로운 캔버스 스타일 작업 영역이 있습니다. 양식을 디자인하는 동안 섹션 내에서 필드를 드래그 앤 드롭할 수도 있습니다.
 
-<!-- add screenshot when field settings empty state is ready -->
+![샘플 양식 디자이너](assets/form-designer-example.png)
 
 ## 새 양식 디자이너에 액세스하는 방법
 
@@ -42,16 +42,6 @@ ht-degree: 1%
   >[!NOTE]
   >
   >양식을 오브젝트에 첨부한 후에는 기본 섹션이 오브젝트에 표시되지 않습니다.
-
-## 곧 제공될 기능
-
-다음은 현재 양식 디자이너에서 사용할 수 없지만 곧 추가될 예정입니다.
-
-* 자동 완성 필드 필터링
-
->[!IMPORTANT]
->
->새 양식 디자이너로 작업할 때 자동 완성 필터의 기존 구성은 영향을 받지 않습니다.
 
 ## 양식 디자이너에서 기능이 제거되었습니다.
 

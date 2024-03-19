@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
+source-git-commit: c508878704cf149f5ed348c581531d266433f0c3
 workflow-type: tm+mt
-source-wordcount: '5694'
+source-wordcount: '5867'
 ht-degree: 3%
 
 ---
@@ -415,7 +415,7 @@ ht-degree: 3%
 
 +++
 
-자동 완성 날짜 필드를 추가하려면:
+자동 완성 및 날짜 필드를 추가하려면:
 
 1. 화면 왼쪽에서 다음 필드 중 하나를 찾아 캔버스의 섹션으로 끌어서 놓습니다.
 
@@ -482,6 +482,25 @@ ht-degree: 3%
          <td><ul>
     <li>타이프 어헤드</li>
     </ul></td>
+     </tr>
+     <tr>
+      <td role="rowheader">필터 추가</td>
+      <td><p>사용자가 필드를 사용할 때 선택할 수 있는 개체를 제한하기 위해 개체 유형에 대한 필터를 추가합니다. </p> <p>예를 들어 사용자 이름이 다음 기준을 충족하는 경우에만 선택할 수 있도록 필드를 제한할 수 있습니다.</p> 
+       <ul> 
+        <li>지정한 그룹에 속합니다</li> 
+        <li>지정한 역할 또는 직함과 연결됩니다</li> 
+        <li>필드를 사용하는 사용자와 동일한 그룹에 속합니다</li> 
+       </ul> <p>텍스트 모드 구문을 사용하여 선택한 객체 유형에 대한 필터를 정의해야 합니다. 텍스트 모드를 사용하여 필터를 만드는 방법에 대한 자세한 내용은 <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">텍스트 모드를 사용하여 필터 편집</a>.</p>
+       <p><b>참고</b>:
+       <ul> 
+        <li>기존 사용자 정의 양식을 편집하는 경우 자동 완성 필드에 필터를 추가해도 사용자가 필드를 사용하여 이미 추가한 오브젝트가 제거되지 않습니다(필터의 범위 외부).</li> 
+        <li>모바일 장치에서는 이 필터를 사용할 수 없습니다. 자동 완성 필드에 필터를 사용하는 경우 필드는 필터의 영향을 받지 않는 사용자의 모바일 장치에 표시됩니다.</li> 
+        </ul></p></td> 
+      <td>
+       <ul>
+       <li>타이프 어헤드</li>
+       </ul>
+      </td>
      </tr>
      <tr> 
       <td role="rowheader">필수 필드 만들기</td> 
