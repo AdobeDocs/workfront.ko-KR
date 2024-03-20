@@ -4,20 +4,20 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: 양식 디자이너를 사용하여 사용자 정의 양식을 구성할 수 있습니다.
-author: Courtney
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: f79d3243058e4b71d9825c2b219730e9bc44944e
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1124'
 ht-degree: 0%
 
 ---
 
 # 양식 디자이너를 사용하여 양식 구성 및 미리 보기
 
-양식 디자이너를 사용하여 사용자 정의 양식을 구성할 수 있습니다.
+양식 디자이너를 사용하여 사용자 정의 양식을 구성하고 미리 보기하여 제대로 설정되었는지 확인할 수 있습니다.
 
 ## 액세스 요구 사항
 
@@ -170,4 +170,4 @@ Courtney, this is a story that got postponed after I did the work. Slated for so
 
 1. 에 설명된 대로 사용자 정의 양식을 만들거나 편집하고 필드를 추가하기 시작합니다. [양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. 클릭 **미리 보기** 왼쪽 상단 모서리에서 양식 사용 시 표시되는 모양을 확인한 다음 **미리보기 종료** 을 눌러 양식 편집으로 돌아갑니다.
+1. 클릭 **미리 보기** 오른쪽 상단 모서리에서 양식 사용 방법을 확인한 다음 **미리보기 종료** 을 눌러 양식 편집으로 돌아갑니다.
