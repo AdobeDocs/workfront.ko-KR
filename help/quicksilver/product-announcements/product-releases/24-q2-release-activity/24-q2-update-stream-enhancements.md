@@ -4,9 +4,9 @@ description: 2024년 2분기 업데이트 스트림 및 알림 개선 사항
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
+source-git-commit: d6094d944b7955db8a97b5e1ce0af8cb85f82a9e
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,8 @@ ht-degree: 0%
 
 자세한 내용은 [작업 업데이트](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
+[이 기능에 대한 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3427992/){target=_blank} (이 특정 기능에 대한 논의는 2:47부터 시작됩니다.)
+
 ## 새 댓글 달기 경험의 시스템 활동 탭에서 읽기 전용 댓글이 지원됩니다
 
 >[!NOTE]
@@ -49,6 +51,8 @@ ht-degree: 0%
 이제 기존 댓글 달기 경험의 시스템 활동 레코드에 대한 댓글이 새 댓글 달기 경험의 시스템 활동 탭에 읽기 전용으로 채워집니다. 새 댓글 달기 환경에서 시스템 활동 레코드에 답글을 달 수 없습니다.
 
 자세한 내용은 [업데이트 섹션 개요](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+
+[이 기능에 대한 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3427992/){target=_blank} 이 특정 기능에 대한 논의는 비디오에서 2시에 시작됩니다.
 
 ## 댓글과 시스템 활동 항목을 모두 캡처하는 새로운 업데이트 스트림 탭
 
@@ -62,6 +66,8 @@ ht-degree: 0%
 
 자세한 내용은 [업데이트 섹션 개요](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
+[이 기능에 대한 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3427992/){target=_blank} 이 특정 기능에 대한 논의는 비디오에서 0:31부터 시작됩니다.
+
 ## 이제 요약 패널에서 새 댓글 스트림을 사용할 수 있습니다.
 
 >[!NOTE]
@@ -71,3 +77,5 @@ ht-degree: 0%
 이제 작업 및 문제 목록에 대한 요약 패널에 새로운 주석 달기 기능이 추가되었습니다.
 
 자세한 내용은 [요약 개요](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
+
+[이 기능에 대한 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3427991/){target=_blank}

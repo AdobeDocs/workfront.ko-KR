@@ -7,9 +7,9 @@ description: 필터에서 와일드카드를 사용하면 특정 사용자 또�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: d6094d944b7955db8a97b5e1ce0af8cb85f82a9e
 workflow-type: tm+mt
-source-wordcount: '1446'
+source-wordcount: '1466'
 ht-degree: 1%
 
 ---
@@ -102,8 +102,8 @@ ht-degree: 1%
 
 | **한정자** | |
 |---|---|
-| **b** | 주 시작(일요일) |
-| **e** | 주의 끝(토요일) |
+| **b** | 기간의 시작(지정된 속성이 없음)은 기본적으로 주의 시작(일요일)으로 설정됩니다. |
+| **e** | 기간의 종료(지정된 속성이 없으면 기본값: 주의 종료: 토요일) |
 
 {style="table-layout:auto"}
 
