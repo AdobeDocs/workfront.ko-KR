@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: dc97f4a2-9c51-4ccd-8121-c00fd1ac6988
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: ba11f324f6ad68f841bf4266e5eb27f59e25ddae
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1198'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Workfront 보드에서 사용할 수 있는 몇 가지 새로운 기능을 통�
 
 컬렉션 이름이 작업 스트림으로 변경되었습니다. 워크스트림을 통해 다양한 방식으로 데이터를 시각화할 수 있습니다. 목록, 보드 또는 반복의 카드에 항목을 표시할 수 있습니다. 작업 스트림의 카드를 여러 보드 간에 공유할 수도 있습니다. 워크플로우에서 카드 및 보드를 사용하여 워크플로우를 쉽게 용이하게 할 수 있습니다.
 
-자세한 내용은 [작업 스트림 관리](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [작업 스트림에 반복 만들기](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md), 및 [카드 목록 사용](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). 두 번째 문서는 내 분기를 게시할 때까지 Main에서 사용할 수 없습니다.
+자세한 내용은 [작업 스트림 관리](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [작업 스트림에 반복 만들기](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md), 및 [카드 목록 사용](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
 [이 기능에 대한 비디오 데모 보기](https://video.tv.adobe.com/v/3417059/){target=_blank}
 

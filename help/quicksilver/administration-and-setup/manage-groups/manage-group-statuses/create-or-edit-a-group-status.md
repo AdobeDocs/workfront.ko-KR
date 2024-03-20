@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: 그룹 상태 만들기 또는 편집
 description: 그룹 관리자는 관리하는 그룹에 대해 사용자 정의 상태를 만들 수 있습니다. 이렇게 하면 수십 개의 회사 전체 사용자 정의 상태가 필요하지 않고 그룹 계층에서 더 많은 자율성을 가질 수 있습니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
-source-git-commit: 027d636e8256c6a12d552af736884f6f27886114
+source-git-commit: ba11f324f6ad68f841bf4266e5eb27f59e25ddae
 workflow-type: tm+mt
-source-wordcount: '1313'
+source-wordcount: '1345'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ Workfront 관리자가 상태 잠금을 해제한 경우 관리하는 그룹의 
 
 >[!NOTE]
 >
->애자일 보기에서 프로젝트를 볼 때 프로젝트에 사용자 지정 그룹 상태를 표시할 수 없습니다. 애자일 보기에서 프로젝트를 볼 때는 기본 및 사용자 지정 잠금 상태만 표시됩니다. 프로젝트의 애자일 보기 사용자 지정에 대한 자세한 내용은 섹션을 참조하십시오 [애자일 보기 만들기 또는 사용자 지정](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) 이 문서에서 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+>애자일 보기에서 프로젝트를 볼 때 프로젝트에 사용자 지정 그룹 상태를 표시할 수 없습니다. 애자일 보기에서 프로젝트를 볼 때는 기본 및 사용자 지정 잠금 상태만 표시됩니다. 프로젝트의 애자일 보기 사용자 지정에 대한 자세한 내용은 섹션을 참조하십시오 [애자일 보기 만들기 또는 사용자 지정](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) 이 문서에서 [Adobe Workfront에서 보기 만들기 또는 편집](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 상태에 대한 일반적인 내용은 [상태 개요](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
@@ -39,7 +39,7 @@ Workfront 관리자가 상태 잠금을 해제한 경우 관리하는 그룹의 
  <tbody> 
   <tr> 
    <td role="rowheader">Workfront 플랜*</td> 
-   <td>모든</td> 
+   <td>임의</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
@@ -69,8 +69,7 @@ Workfront 관리자가 상태 잠금을 해제한 경우 관리하는 그룹의 
    * 하위 그룹 위의 그룹에 속하는 잠긴 상태.
    * 만들 때 하위 그룹 위에 속한 잠금 해제 상태입니다.
 
-      하위 그룹이 생성되면 상위 그룹에서 생성된 잠금 해제된 상태는 하위 그룹의 상태 목록에 포함되지 않습니다. 그러나 나중에 누군가가 이 중 하나를 잠그면 해당 항목이 하위 그룹의 상태 목록에 포함됩니다. 자세한 내용은 [그룹이 상태를 상속하는 방법](../../../administration-and-setup/manage-groups/manage-group-statuses/how-groups-inherit-statuses.md).
-
+     하위 그룹이 생성되면 상위 그룹에서 생성된 잠금 해제된 상태는 하위 그룹의 상태 목록에 포함되지 않습니다. 그러나 나중에 누군가가 이 중 하나를 잠근 경우, 해당 잠금은 하위 그룹의 상태 목록에 포함됩니다. 자세한 내용은 [그룹이 상태를 상속하는 방법](../../../administration-and-setup/manage-groups/manage-group-statuses/how-groups-inherit-statuses.md).
 
 1. 오브젝트 유형의 탭 선택(**프로젝트**, **작업**, 또는 **문제**)을 입력하여 상태와 연결할 수 있습니다.
 
@@ -94,7 +93,6 @@ Workfront 관리자가 상태 잠금을 해제한 경우 관리하는 그룹의 
    >* 상태가 생성된 그룹을 관리합니다.
    >* Workfront 관리자가 시스템 수준에서 상태를 잠금 해제했습니다
    >* 그룹 상위 그룹의 그룹 관리자가 상태를 잠금 해제했습니다.
-
    >      
    >      
    >기존 상태를 편집하는 경우 이름, 설명 및 색상만 변경할 수 있습니다.
@@ -113,7 +111,7 @@ Workfront 관리자가 상태 잠금을 해제한 경우 관리하는 그룹의 
     <tbody> 
      <tr> 
       <td role="rowheader">상태 이름</td> 
-      <td> <p>상태 이름을 입력합니다. 필수 필드입니다.</p> <p>상태 이름을 만들 때는 시스템의 다른 사용자가 같은 이름으로 상태를 만들 수 있습니다. Workfront에서 상태를 선택할 때 혼동을 피하기 위해 고유한 이름을 사용하는 것이 좋습니다.</p> </td> 
+      <td> <p>상태 이름을 입력합니다. 필수 필드입니다.</p> <p>상태 이름을 만들 때는 시스템의 다른 사용자가 같은 이름으로 상태를 만들 수 있습니다. Workfront에서 상태를 선택할 때 혼동을 피하기 위해 고유한 이름을 사용하는 것이 좋습니다.</p><p>중복 상태가 있는 경우 그룹 관리자는 이름을 업데이트하여 구분해야 합니다. 시스템에서 유일한 고유성 표시기는 상태 키입니다.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">설명</td> 
