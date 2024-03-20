@@ -1,13 +1,13 @@
 ---
 title: 운영 레코드 유형 만들기
-description: 레코드 유형은 Adobe 마에스트로의 객체 유형입니다. Maestro에서는 조직의 라이프사이클에 필요한 작업 항목을 설명하는 사용자 정의 레코드 유형을 만들 수 있습니다.
+description: 레코드 유형은 Adobe Workfront planning의 객체 유형입니다. Workfront planning에서 조직의 라이프사이클에 필요한 작업 항목을 설명하는 사용자 정의 레코드 유형을 생성할 수 있습니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1234'
 ht-degree: 0%
 
 ---
@@ -18,14 +18,14 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-레코드 유형은 Adobe 마에스트로의 객체 유형입니다. Maestro에서는 조직의 라이프사이클에 필요한 작업 관련 항목을 설명하는 사용자 정의 레코드 유형을 만들 수 있습니다.
+레코드 유형은 Adobe Workfront planning의 객체 유형입니다. Workfront planning에서 조직의 라이프사이클에 필요한 작업 관련 항목을 설명하는 사용자 정의 레코드 유형을 생성할 수 있습니다.
 
 레코드 유형은 다음 중 하나일 수 있습니다.
 
 * **운영 레코드 유형**
 * **분류**
 
-Maestro 레코드 유형에 대한 자세한 내용은 [레코드 유형 및 분류 개요](../architecture/overview-of-record-types-and-taxonomies.md).
+레코드 유형에 대한 자세한 내용은 [레코드 유형 및 분류 개요](../architecture/overview-of-record-types-and-taxonomies.md).
 
 운영 레코드 유형을 만드는 것은 분류 레코드 유형을 만드는 것과 비슷합니다. 이 문서에서는 작업 레코드 유형을 만드는 방법에 대해 설명합니다.
 
@@ -45,12 +45,12 @@ Maestro 레코드 유형에 대한 자세한 내용은 [레코드 유형 및 분
 <tr>
 <td>
    <p> 제품</p> </td>
-   <td>
+   <td> Adobe Workfront
    </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront 계약</p></td>
    <td>
-<p>Adobe Maestro Closed Beta 프로그램에 조직을 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
+<p>Adobe Workfront Planning 마감된 Beta 프로그램에 조직을 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
    </td>
   </tr>
   <tr>
@@ -62,13 +62,15 @@ Maestro 레코드 유형에 대한 자세한 내용은 [레코드 유형 및 분
   <tr>
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td>
    <td>
-   <p>임의</p> 
+   <p>현재: 플랜</p>
+   또는
+   <p>새로운 기능: 표준 </p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>액세스 수준 구성</p></td>
-   <td> <p>Maestro에 대한 액세스 수준 제어 없음</p>  
+   <td> <p>Workfront 계획에 대한 액세스 수준 제어가 없습니다.</p>  
 </td>
   </tr>
 <tr>
@@ -105,6 +107,11 @@ Maestro 레코드 유형에 대한 자세한 내용은 [레코드 유형 및 분
 
         자세한 내용은 [작업 공간 만들기](../architecture/create-workspaces.md).
       * Excel 또는 CSV 파일을 사용하여 가져올 때. 분류 레코드 유형에는 사용할 수 없습니다.
+
+        >[!IMPORTANT]
+        >
+        >이 기능은 2024년 3월 21일부터 일시적으로 비활성화되었습니다. 이 기능은 나중에 활성화됩니다.
+
      <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a Maestro record. This creates a read-only record type in Maestro which is connected to object types from the original application. 
         For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).
         For information about connecting objects with Maestro records, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). -->
@@ -114,7 +121,7 @@ Maestro 레코드 유형에 대한 자세한 내용은 [레코드 유형 및 분
 
 ## 작업 공간 템플릿을 사용하여 레코드 유형 만들기
 
-템플릿을 사용하여 작업 공간을 만들 때 레코드 유형을 자동으로 만들 수 있습니다. 각 Maestro 템플릿에는 샘플 운영 및 분류 레코드 유형이 포함되어 있습니다.
+Workfront Planning 템플릿을 사용하여 작업 공간을 만들 때 레코드 유형을 자동으로 만들 수 있습니다. 각 템플릿에는 샘플 운영 및 분류 레코드 유형이 포함되어 있습니다.
 
 작업 공간 만들기에 대한 자세한 내용은 [작업 공간 만들기](../architecture/create-workspaces.md).
 
@@ -191,14 +198,19 @@ Maestro 레코드 유형에 대한 자세한 내용은 [레코드 유형 및 분
 
 ## Excel 또는 CSV 파일을 가져와서 레코드 유형 만들기
 
+>[!IMPORTANT]
+>
+>이 기능은 2024년 3월 21일부터 일시적으로 비활성화되었습니다. 이 기능은 나중에 활성화됩니다.
+
+
 Excel 또는 CSV 파일을 사용하여 레코드 유형을 가져올 때는 다음 사항을 고려하십시오.
 
-* Excel 파일의 각 시트는 Maestro의 레코드 유형이 됩니다.
+* Excel 파일의 각 시트는 레코드 유형이 됩니다.
 * 각 시트의 열은 각 레코드 유형과 연관된 필드가 됩니다.
 * 필드는 해당 레코드 유형에 대해 고유합니다.
 * 각 시트의 각 행은 해당 레코드 유형과 연관된 고유한 레코드가 됩니다.
 * Excel 파일의 각 시트는 다음을 초과할 수 없습니다.
-   * 10,000행
+   * 50,000행
    * 500열
 * Excel 파일은 5MB를 초과할 수 없습니다.
 * 빈 시트는 지원되지 않습니다.
@@ -222,7 +234,7 @@ Excel 파일을 사용하여 레코드 유형을 가져오려면 다음을 수�
 
    미리보기 및 편집(Preview and edit) 상자에 다음 정보가 표시됩니다.
 
-   * 시트 이름 또는 이후 레코드 유형이 왼쪽 패널에 표시됩니다. Maestro는 기본적으로 각 새 레코드 유형의 아이콘과 색상을 선택합니다.
+   * 시트 이름 또는 이후 레코드 유형이 왼쪽 패널에 표시됩니다. Workfront planning에서는 기본적으로 각 새 레코드 유형에 대해 아이콘과 색상을 선택합니다.
    * 첫 번째 시트 또는 레코드 유형이 선택되고 연관된 필드의 이름이 열 머리글로 표시됩니다. 각 필드의 유형은 기본적으로 선택됩니다.
    * 각 행은 새 레코드를 나타냅니다. 처음 10개의 레코드만 [미리 보기 및 편집] 상자에 표시됩니다.
 
@@ -243,7 +255,7 @@ Excel 파일을 사용하여 레코드 유형을 가져오려면 다음을 수�
 
 1. 클릭 **가져오기** 파일을 가져올 준비가 되면
 
-   다음 정보는에서 Maestro로 가져옵니다.
+   다음 정보는에서 Workfront 계획으로 가져옵니다.
 
    * 새 레코드 유형
    * 각 레코드 유형과 연결된 새 필드
@@ -251,7 +263,7 @@ Excel 파일을 사용하여 레코드 유형을 가져오려면 다음을 수�
 
    레코드 유형 페이지에서 필드 및 레코드 관리를 시작할 수 있습니다.
 
-   이제 Maestro에 액세스할 수 있는 모든 사용자가 가져온 레코드 종류 및 해당 정보를 보고 편집할 수 있습니다. <!--this will change with permissions-->
+   이제 Workfront Planning에 액세스할 수 있는 모든 사용자는 가져온 레코드 유형과 해당 정보를 보고 편집할 수 있습니다. <!--this will change with permissions-->
 
 <!--## Connect record types with object types from another application
 

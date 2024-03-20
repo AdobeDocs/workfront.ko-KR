@@ -4,9 +4,9 @@ description: 달력 보기에서 레코드와 해당 필드를 표시할 수 있
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -116,3 +116,32 @@ Adobe Workfront 계획 기능 보기 및 관리 방법에 대한 자세한 내�
    * 시간 증가를 업데이트하려면 시간대 드롭다운 메뉴에서 다음 옵션 중 하나를 선택합니다.
 
       * 월
+1. 아래 하위 섹션에 설명된 대로 다음 보기 요소를 업데이트합니다.
+   * [필터](#add-filters)
+     <!--* [Grouping](#add-grouping)-->
+     <!--* [Settings](#edit-the-calendar-view-settings)-->
+     <!--* [Sort](#add-sort) not sure if this is present in calendar views?!; also check the anchor and make sure it's correct-->
+
+### 필터 추가
+
+필터를 사용하여 화면에 표시되는 정보의 양을 줄일 수 있습니다.
+
+달력 보기에서 필터를 사용할 때는 다음 사항을 고려하십시오.
+
+<!-- this list is almost identical to the one for the table view - update both-->
+
+* 달력 보기를 위해 만든 필터는 동일한 레코드 유형에 적용되는 다른 보기의 필터와는 독립적으로 작동합니다.
+
+* 필터는 사용자가 선택한 보기에 고유합니다. 동일한 기록 유형의 두 달력 보기에는 서로 다른 필터가 적용될 수 있습니다.
+
+* 동일한 달력 보기를 보고 있는 두 명의 사용자에게 현재 적용된 동일한 필터가 표시됩니다.
+
+* 달력 보기를 위해 빌드하는 필터의 이름을 지정할 수 없습니다.
+
+* 필터를 제거하면 사용자와 동일한 레코드 종류에 액세스하고 사용자와 동일한 보기를 표시하는 모든 사용자에서 필터가 제거됩니다.
+
+* 달력 보기에서 필터를 추가하는 것은 표 보기에서 필터를 추가하는 것과 동일합니다.
+
+  자세한 내용은 문서의 &quot;필터 추가&quot; 섹션을 참조하십시오 [표 보기 관리](/help/quicksilver/maestro/views/manage-the-table-view.md).
+
+* 연결된 레코드 필드나 조회 필드를 기준으로 필터링할 수 있지만 여러 레코드에 연결할 수 있는 필드는 필터링할 수 없습니다.

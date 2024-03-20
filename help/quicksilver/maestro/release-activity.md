@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '4925'
+source-wordcount: '5057'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,36 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >아래 섹션에서 참조하는 설명서는 기능이 프로덕션에 릴리스된 후 잠시 사용할 수 있습니다.
+
+## 2024년 3월 18일 주
+
+### 달력 보기에서 사용할 수 있는 필터
+
+프로덕션: 2024년 3월 19일
+
+미리보기: 결정 예정
+
+이제 달력 보기에서 정보를 필터링할 수 있습니다. 자세한 내용은 [달력 보기 관리](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
+
+### 타임라인 및 달력 보기에 추가된 세부 정보 상자
+
+프로덕션: 2024년 3월 19일
+
+미리보기: 결정 예정
+
+이제 타임라인 및 달력 보기에서 레코드의 세부 정보 상자에 액세스할 수 있습니다. 타임라인 및 달력 보기 내의 세부 정보 상자에서 레코드를 편집할 수 있습니다.
+
+세부 정보 상자에서 레코드의 세부 정보 페이지를 열 수 있습니다.
+
+자세한 내용은 [레코드 편집](/help/quicksilver/maestro/records/edit-records.md).
+
+### 레코드 종류 Excel 가져오기가 일시적으로 비활성화되었습니다.
+
+프로덕션: 2024년 3월 21일
+
+미리보기: 결정 예정
+
+Excel 또는 CSV 파일을 사용하여 레코드 유형 가져오기를 일시적으로 비활성화합니다. 이 기능은 나중에 사용할 수 있습니다.
 
 ## 2024년 3월 11일 주
 

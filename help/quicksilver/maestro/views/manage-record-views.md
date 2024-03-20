@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '949'
 ht-degree: 1%
 
 ---
@@ -131,7 +131,7 @@ Adobe Workfront 계획 기능 영역에서 레코드 유형을 선택한 후 다
 | 보기에 필드를 새 열로 추가 | ✓ 덧신 |               |         |
 | 외부 목록에서 행을 복사하여 표에 붙여넣기 | ✓ 덧신 |               |          |
 | 타임라인에 레코드 표시 |            | ✓ 덧신 |             |
-| 레코드 필터링 | ✓ 덧신 | ✓ 덧신 |           |
+| 레코드 필터링 | ✓ 덧신 | ✓ 덧신 | ✓ 덧신 |
 | 달력에 레코드 표시 |           |              | ✓ 덧신 |
 | 그룹 레코드 | ✓ 덧신 | ✓ 덧신 |
 | 레코드 정렬 | ✓ 덧신 |              |

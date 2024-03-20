@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '1705'
+source-wordcount: '1704'
 ht-degree: 0%
 
 ---
@@ -162,9 +162,11 @@ Adobe Workfront Planning 기능의 레코드 유형 페이지에 액세스할 �
 
 <!-- this list is almost identical to the one for the table view - update both-->
 
-* 타임라인 보기에 대해 만든 필터는 동일한 레코드 유형에 적용할 때 테이블 보기의 필터와는 독립적으로 작동합니다.
+* 타임라인 보기에 대해 만드는 필터는 동일한 레코드 유형에 적용되는 다른 보기의 필터와는 독립적으로 작동합니다.
 
-* 필터는 사용자가 선택한 보기에 고유합니다. 동일한 레코드 종류의 두 타임라인 보기에는 서로 다른 필터가 적용될 수 있습니다. 동일한 타임라인 보기를 보는 두 명의 사용자에게 현재 적용된 동일한 필터가 표시됩니다.
+* 필터는 사용자가 선택한 보기에 고유합니다. 동일한 레코드 종류의 두 타임라인 보기에는 서로 다른 필터가 적용될 수 있습니다.
+
+* 동일한 타임라인 보기를 보는 두 명의 사용자에게 현재 적용된 동일한 필터가 표시됩니다.
 
 * 타임라인 보기를 위해 빌드하는 필터의 이름을 지정할 수 없습니다.
 

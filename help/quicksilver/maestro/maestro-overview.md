@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '1982'
+source-wordcount: '1994'
 ht-degree: 1%
 
 ---
@@ -61,7 +61,7 @@ Adobe Workfront 계획 기능은 Adobe Workfront의 새로운 기능입니다. �
 | 분류 만들기 | ✓ 덧신 |                                  |                  |
 | 이름이 지정된 개별 레코드 및 분류 만들기 | ✓ 덧신 |                                  |                  |
 | 레코드 사용자 정의 필드 만들기 | ✓ 덧신 |                                  |                  |
-| Excel 또는 CSV 파일을 사용하여 레코드 유형 및 필드 가져오기 | ✓ 덧신 |                                  |                  |
+| Excel 또는 CSV 파일을 사용하여 레코드 유형 및 필드 가져오기* | ✓ 덧신 |                                  |                  |
 | 레코드 연결 | ✓ 덧신 |                                  |                  |
 | 테이블에서 레코드 보기 | ✓ 덧신 |                                  |                  |
 | 타임라인에서 레코드 보기 | ✓ 덧신 |                                  |                  |
@@ -275,7 +275,12 @@ Adobe Workfront 계획 기능은 Adobe Workfront의 새로운 기능입니다. �
 | 레코드 종류 표에 붙여 넣을 수 있는 파일 크기 | 1MB |
 | 레코드 유형 테이블에 대한 API를 통해 가져올 수 있는 파일의 크기입니다. | 1.5MB |
 | API 요청을 수행할 수 있는 속도입니다 | 분당 요청 200개 |
-| 표에서 가져올 수 있는 Excel 파일의 CSV 크기 | 5MB |
+| 가져올 수 있는 Excel 파일의 CSV 크기* | 5MB |
+
+>[!IMPORTANT]
+>
+>*이 기능은 일시적으로 비활성화되었으며 나중에 사용할 수 있습니다.
+
 
 ## Adobe Workfront 계획 기능 찾기
 
