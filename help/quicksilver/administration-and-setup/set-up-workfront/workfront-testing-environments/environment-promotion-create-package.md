@@ -11,9 +11,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: b2a2a6b84edc74efa89db2aba459a40e98bfb0e5
+source-git-commit: c0a841d8f6a4431ff95c1b1d5904c8f41a7c82ca
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
@@ -46,6 +46,11 @@ ht-degree: 0%
    또는
 
    클릭 **저장 및 어셈블** 패키지를 저장하고 어셈블합니다.
+
+   >[!NOTE]
+   >
+   >* 패키지에 5자 이상의 이름과 하나 이상의 개체가 모두 추가된 경우 저장 및 닫기, 저장 및 어셈블 단추를 사용할 수 있습니다.
+   >* 테스트 또는 활성과 같이 설치 가능한 상태의 패키지는 어셈블할 수 없습니다.
 
 ## 기존 패키지 편집 또는 결합
 
