@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 0bfeae7db0e3dfbb402ee602b4ede97cb6c605fa
+source-git-commit: 8ceb370df6ff6f3a7a4376d6086fbabe99609e29
 workflow-type: tm+mt
-source-wordcount: '1595'
+source-wordcount: '1605'
 ht-degree: 0%
 
 ---
@@ -197,6 +197,8 @@ URL을 사용하여 사용자 지정 새로 고침 샌드박스에 액세스하�
 
 ## 의도한 사용 및 가용성
 
-[!DNL Workfront] 사용자 정의 새로 고침 샌드박스 환경은 성능 또는 로드 테스트를 위한 것이 아닙니다. 대신 이러한 환경을 사용하여 조직의 기존 워크플로우로 기능 기능을 검증할 수 있습니다.
+* [!DNL Workfront] 사용자 정의 새로 고침 샌드박스 환경은 성능 또는 로드 테스트를 위한 것이 아닙니다. 대신 이러한 환경을 사용하여 조직의 기존 워크플로우로 기능 기능을 검증할 수 있습니다.
 
-[!DNL Workfront] 사용자 정의 새로 고침 샌드박스 환경은 항상 사용할 수 있도록 설계되었습니다. 정규 업무 시간 동안 Workfront 사용자 정의 새로 고침 샌드박스 환경의 중단은 프로덕션 문제가 해결된 후 즉시 최우선 순위가 됩니다(존재하는 경우). 주말(토요일 및 일요일)에 발생한 Workfront 사용자 정의 새로 고침 샌드박스 환경의 중단은 월요일 업무 시간 동안 환경이 실행되도록 처리됩니다.
+* [!DNL Workfront] 사용자 정의 새로 고침 샌드박스 환경은 항상 사용할 수 있도록 설계되었습니다. 정규 업무 시간 동안 Workfront 사용자 정의 새로 고침 샌드박스 환경의 중단은 프로덕션 문제가 해결된 후 즉시 최우선 순위가 됩니다(존재하는 경우). 주말(토요일 및 일요일)에 발생한 Workfront 사용자 정의 새로 고침 샌드박스 환경의 중단은 월요일 업무 시간 동안 환경이 실행되도록 처리됩니다.
+
+* 사용자 정의 새로 고침 샌드박스 환경에서는 증명을 사용할 수 없습니다.
