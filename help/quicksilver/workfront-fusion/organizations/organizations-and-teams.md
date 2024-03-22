@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion의 조직 및 팀 기능을 통해 기업은
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: 7c05196cd00765a506e028627305ba17978e410d
+source-git-commit: 063c4a885d43b41ba6ff72ac22a1552486531fa6
 workflow-type: tm+mt
-source-wordcount: '1266'
+source-wordcount: '1239'
 ht-degree: 0%
 
 ---
@@ -169,19 +169,13 @@ Fusion에서 두 개 이상의 조직에 속해 있을 수 있습니다. 조직 
 
 >[!NOTE]
 >
->에 액세스하는 경우 [!DNL Fusion] 다음을 통해 [!DNL Adobe Experience Cloud]에서 알림이 처리됨 [!DNL Experience Cloud] 알림 센터.
->
->자세한 내용은 [알림 액세스](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications) 위치: [[!DNL Adobe Unified Experience] 대상 [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md)
-
-이메일 알림 옵션은 팀 수준에서 설정됩니다.
-
->[!NOTE]
->
 >조직이 통합 쉘로 이동된 경우 알림 Adobe 영역을 통해 알림을 받게 됩니다. Adobe 알림 영역에서 알림을 보려면 통합 쉘 경험을 사용해야 합니다.
 >
 >Adobe 알림 영역을 포함한 통합 쉘 경험을 사용하려면 페이지 상단에 있는 통합 경험에서 새 Fusion UI 시도 단추를 클릭합니다. 이 단추는 조직이 통합 쉘로 이동한 경우에만 사용할 수 있습니다.
 >
->통합 쉘에서 알림을 찾는 방법에 대한 자세한 내용은 [알림 액세스](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications).
+>자세한 내용은 [알림 액세스](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications) 위치: [!DNL Adobe Unified Experience] 대상 [!DNL Workfront Fusion].
+
+이메일 알림 옵션은 팀 수준에서 설정됩니다.
 
 1. 왼쪽 탐색 패널에서 을 클릭합니다. **[!UICONTROL 팀]**
 1. 다음 항목 선택 **[!UICONTROL 알림 옵션]** 탭.
