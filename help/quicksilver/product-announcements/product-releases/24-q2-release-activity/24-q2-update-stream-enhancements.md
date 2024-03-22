@@ -4,9 +4,9 @@ description: 2024년 2분기 업데이트 스트림 및 알림 개선 사항
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d6094d944b7955db8a97b5e1ce0af8cb85f82a9e
+source-git-commit: 4387c4cda66384f9d988d82cab5e7ed90a70173e
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 자세한 내용은 [업데이트 섹션 개요](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-[이 기능에 대한 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3427992/){target=_blank} 이 특정 기능에 대한 논의는 비디오에서 2시에 시작됩니다.
+[이 기능에 대한 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3427992/){target=_blank} (이 특정 기능에 대한 논의는 2:00부터 시작)
 
 ## 댓글과 시스템 활동 항목을 모두 캡처하는 새로운 업데이트 스트림 탭
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 자세한 내용은 [업데이트 섹션 개요](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-[이 기능에 대한 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3427992/){target=_blank} 이 특정 기능에 대한 논의는 비디오에서 0:31부터 시작됩니다.
+[이 기능에 대한 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3427992/){target=_blank} (이 특정 기능에 대한 논의는 0:31부터 시작됩니다.)
 
 ## 이제 요약 패널에서 새 댓글 스트림을 사용할 수 있습니다.
 

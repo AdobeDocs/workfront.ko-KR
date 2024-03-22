@@ -6,9 +6,9 @@ description: 새로운 홈은 작업 관리를 위한 강력한 새로운 기능
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 07d5abb6a36dd97a5d810fb69bde95ef74a76174
+source-git-commit: 4387c4cda66384f9d988d82cab5e7ed90a70173e
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1120'
 ht-degree: 8%
 
 ---
@@ -64,7 +64,7 @@ Adobe Workfront의 새로운 홈 경험은 현재의 홈 경험을 개선하는 
     내 업데이트 페이지와 유사하게 Workfront 전체에서 최근 주석 스레드를 표시합니다. 회신 버튼을 사용하여 위젯 내에서 회신을 작성할 수 있습니다. 또한 이 위젯에는 지난 30일 동안 작업 또는 문제가 업데이트된 경우 할당한 작업 및 문제에 대한 댓글, 다른 사용자에게 할당한 댓글, 소유한 댓글, 기본 담당자인 댓글 또는 생성한 댓글이 표시됩니다.
 
 * **할 일**\
-    이 고유한 위젯을 사용하면 자유롭게 편집할 수 있는 개인 체크리스트에 텍스트 항목을 추가할 수 있습니다.
+    이 고유한 위젯을 사용하면 자유롭게 편집할 수 있는 개인 체크리스트에 항목을 추가할 수 있습니다. 할 일은 개인 프로젝트의 작업으로 추적되며 완료 후 최대 2주 동안 유지됩니다.
 
   >[!NOTE]
   >
