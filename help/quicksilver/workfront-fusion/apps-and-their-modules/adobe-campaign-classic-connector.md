@@ -9,9 +9,9 @@ description: 포함 [!DNL Adobe Campaign] 모듈, 다음을 시작할 수 있습
 author: Becky
 feature: Workfront Fusion
 exl-id: 84e8fa35-0c3c-46bd-8886-88c6d8d9e1d5
-source-git-commit: 33488d46a14dae070083f28f56e1347da3944ca0
+source-git-commit: 7decc5cbf4bb2c3d4d1802dec1f369ca061f6b48
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '1434'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,13 @@ ht-degree: 0%
 보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
 
 다음에 대한 정보: [!DNL Adobe Workfront Fusion] 라이센스, 참조 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+## 전제 조건
+
+Fusion IP 주소 추가 필요 [!DNL Adobe Campaign].
+
+* 허용 목록에 추가하다 Ip 주소를 Campaign에 추가하는 방법에 대한 지침은 을 참조하십시오. [허용 목록에 추가하다에 IP 주소 추가](https://experienceleague.adobe.com/en/docs/control-panel/using/sftp-management/ip-range-allow-listing#adding-ip-addresses-allow-list) Adobe Campaign 설명서에서 확인할 수 있습니다.
+* 허용 목록에 추가하다에 추가할 IP 주소 목록은 을 참조하십시오. [Adobe Workfront Fusion 액세스용 IP 주소](/help/quicksilver/workfront-fusion/get-started/ip-addresses-for-fusion.md).
 
 ## 연결 [!DNL Adobe Campaign] 끝 [!DNL Adobe Workfront Fusion]
 
