@@ -7,10 +7,10 @@ description: 의 시나리오 세부 정보 [!DNL Adobe Workfront Fusion]
 author: Becky
 feature: Workfront Fusion
 exl-id: 1d8a3492-d609-43c8-a486-a401a597f160
-source-git-commit: 759472ada4595625e3a02b55c455564e24343743
+source-git-commit: ae57c38149bf6db3bbbb471fad8f3567b7d712a7
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 0%
+source-wordcount: '579'
+ht-degree: 1%
 
 ---
 
@@ -90,7 +90,7 @@ ht-degree: 0%
       <td role="rowheader">[!UICONTROL 미완료 실행]</td> 
       <td> <p>이 탭은 시나리오의 불완전한 실행에 대한 정보를 제공합니다. 각 불완전 실행에 대한 다음 정보가 포함됩니다.</p> 
        <ul> 
-        <li>만든 날짜</li> 
+        <li>제작일</li> 
         <li>데이터 전송 크기</li> 
         <li>다시 시도</li> 
         <li>해결됨</li> 
@@ -133,6 +133,10 @@ ht-degree: 0%
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Stats]</p>  </td> 
       <td>이 그래프를 사용하면 [!UICONTROL line] 그래프에서 시나리오 실행 전체에 사용된 데이터 전송 및 작업의 양을 볼 수 있습니다.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"> <p>[!UICONTROL 처리 배너]</p>  </td> 
+      <td>시나리오가 최근에 실행된 경우 다음과 같은 배너가 표시될 수 있습니다.<p><code>Data is still being processed. Only partial scenario history will show until processing is complete.</code></p>실행 세부 정보가 스토리지에 기록되는 동안 이 오류가 표시됩니다. 처리는 시나리오가 실행된 직후에 발생합니다. 및 은(는) 몇 분 이내로 지속됩니다. 실행이 처리되는 동안에는 시나리오 실행에 대한 세부 정보가 표시되지 않을 수 있습니다.</td> 
      </tr> 
     </tbody> 
    </table>
