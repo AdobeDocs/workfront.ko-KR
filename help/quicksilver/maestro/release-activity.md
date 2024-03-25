@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
+source-git-commit: 593612fea52d917904605cf3d97403347c9c9ac0
 workflow-type: tm+mt
 source-wordcount: '5057'
 ht-degree: 0%
@@ -445,7 +445,7 @@ Adobe Workfront 계획 기능이 미리보기 및 샌드박스 환경에서 일�
 
 * 계획 기능이 변경되면 시나리오를 트리거합니다.
 
-자세한 내용은 [Adobe Maestro 모듈](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md).
+자세한 내용은 [Adobe Maestro 모듈](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md).
 
 ## 2023년 12월 11일 주
 
