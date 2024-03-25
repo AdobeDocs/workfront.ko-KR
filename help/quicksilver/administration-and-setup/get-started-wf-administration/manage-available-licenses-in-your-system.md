@@ -8,9 +8,9 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: bba5992184c50a159be21d78f1a9c61aa2d861d8
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1069'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,10 @@ Workfront에 추가하는 사용자에게 액세스 수준을 할당하면 사�
    >증명 라이선스는 Workfront 라이선스 외에 유료 Workfront 증명 추가 기능을 구입한 고객에게만 제공됩니다. 이 추가 기능에 대한 자세한 내용은 [Workfront 증명: 문서 색인](../../workfront-proof/workfront-proof.md).
 
 1. (조건부) 메시지가 표시되면 **최대값을 설정하려면 홈 그룹을 추가해야 합니다.**&#x200B;섹션에 설명된 대로 시스템에 홈 그룹을 추가합니다 [라이선스 페이지에 홈 그룹 추가 또는 제거](#add-or-remove-a-home-group-to-the-licenses-page) 이 문서에서.
+
+   >[!NOTE]
+   >
+   >새 플랜의 경우 Select 플랜에서는 관리자가 홈 그룹별로 라이센스를 볼 수 없습니다. 사용된 라이센스의 전체 수만 볼 수 있습니다. Prime 및 Ultimate 플랜은 홈 그룹당 최대 라이선스 수를 설정할 수 있는 기능을 제공합니다.
 
 ## Workfront 추가 기능에 대한 라이선스 정보 보기
 
