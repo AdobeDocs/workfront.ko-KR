@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 0ede24f4-4bba-4812-9dd9-e7af77ea5ecc
-source-git-commit: 580ed17642f2f7e20e507de00f61aec7f7a3b131
+source-git-commit: 86ae4fee243bbb2bee6f32c081b6b9debcc3e9b3
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,20 @@ ht-degree: 0%
 
 ## 최신 릴리스
 
+## Alpha 릴리스 7 - 2024년 3월
+
+이번 7번째 Alpha 릴리스에는 다음이 있습니다.
+
+* 문서 승인에 대한 기한을 만들 수 있는 기능이 추가되었습니다.
+* 이제 생성 및 승인에 적용하여 설정 시간을 절약할 수 있는 승인 템플릿이 도입되었습니다.
+* 자세히 드릴다운할 수 있는 세부 목록과 함께 여러 주요 성능 지표를 표시하도록 승인 위젯이 업데이트되었습니다.
+
+아래의 전체 비디오를 확인하십시오.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3428023/)
+
+## _이전 릴리스_
+
 ## Alpha 릴리스 6 - 2024년 1월
 
 이번 6번째 Alpha 릴리스에는 다음과 같은 내용이 있습니다.
@@ -37,8 +51,6 @@ ht-degree: 0%
 아래의 전체 비디오를 확인하십시오.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3426860/)
-
-## _이전 릴리스_
 
 ### Alpha 릴리스 5 - 2023년 9월
 
