@@ -4,7 +4,8 @@ description: 이 페이지에서는 2024년 2분기 릴리스에 포함된 기�
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4387c4cda66384f9d988d82cab5e7ed90a70173e
+exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
+source-git-commit: fcf4ff8525e3ac65aa75ab01463a3641e7898169
 workflow-type: tm+mt
 source-wordcount: '1820'
 ht-degree: 0%
@@ -20,7 +21,7 @@ ht-degree: 0%
 
 [Adobe Workfront의 미래](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=S302) 2024년 3월 26일, 전략 계획 및 워크플로우의 미래를 살짝 살펴봅니다. Workfront 팀이 작업을 자동화하고, 사용자 경험을 단순화하고, 생산성을 높이기 위한 AI 우선 접근 방식을 통해 전체 마케팅 라이프사이클에서 비즈니스 기능을 어떻게 해결할지 알아봅니다.
 
-[전체 캠페인 계획을 위한 마케팅 캘린더 및 도구 공개](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=s304) 2023년 3월 23일, 조직에서 전체적인 운영 주기를 관리하고 시각화할 수 있도록 설계된 새로운 제품 기능에 대해 알아봅니다.
+[전체 캠페인 계획을 위한 마케팅 캘린더 및 도구 공개](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=s304) 2024년 3월 28일, 귀사에서 엔드 투 엔드 운영 라이프사이클을 관리하고 시각화할 수 있도록 설계된 새로운 제품 기능에 대해 알아봅니다.
 
 <span class="preview">오프로드 기능(2024년 2분기 릴리스 날짜 이전에 프로덕션에 릴리스된 기능)은 노란색으로 강조 표시됩니다.</span>
 
