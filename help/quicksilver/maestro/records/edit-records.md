@@ -1,13 +1,13 @@
 ---
 title: 레코드 편집
-description: Adobe Workfront 계획 기능에서 레코드 정보를 편집할 수 있습니다. 레코드 만들기 및 편집을 시작하려면 먼저 레코드 유형을 만들어야 합니다.
+description: Adobe Workfront Planning에서 레코드 정보를 편집할 수 있습니다. 레코드 만들기 및 편집을 시작하려면 먼저 레코드 유형을 만들어야 합니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '1337'
+source-wordcount: '1332'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-레코드와 연결된 필드의 값을 편집하여 Adobe Workfront 계획 기능에서 레코드 정보를 편집할 수 있습니다.
+레코드와 연결된 필드의 값을 편집하여 Adobe Workfront planning에서 레코드 정보를 편집할 수 있습니다.
 
 레코드 만들기 및 편집을 시작하려면 먼저 레코드 유형을 만들어야 합니다.
 
@@ -47,7 +47,7 @@ ht-degree: 0%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront 계약</p></td>
    <td>
-<p>Adobe Workfront 계획 기능 비공개 베타 프로그램에 조직을 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
+<p>조직은 Adobe Workfront planning Beta 프로그램에 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
    </td>
   </tr>
   <tr>
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 <tr>
    <td role="rowheader"><p>액세스 수준 구성</p></td>
-   <td> <p>Adobe Workfront 계획 기능에 대한 액세스 제어가 없습니다 </p>  
+   <td> <p>Adobe Workfront 계획에 대한 액세스 제어가 없습니다.</p>  
 </td>
   </tr>
 <tr>
@@ -78,7 +78,7 @@ ht-degree: 0%
   </tr>
 <tr>
    <td role="rowheader"><p>레이아웃 템플릿</p></td>
-   <td> <p>Workfront 또는 그룹 관리자는 레이아웃 템플릿에 마에스트로 영역을 추가해야 합니다. 자세한 내용은 <a href="../access/access-overview.md">액세스 개요</a>. </p>  
+   <td> <p>Workfront 또는 그룹 관리자는 레이아웃 템플릿에 계획 영역을 추가해야 합니다. 자세한 내용은 <a href="../access/access-overview.md">액세스 개요</a>. </p>  
 </td>
   </tr>
 

@@ -1,14 +1,14 @@
 ---
 title: "레코드: 문서 인덱스"
-description: Adobe Maestro에서 레코드 유형을 만든 후 해당 유형의 개별 레코드를 만들 수 있습니다. 다음 문서에서는 Adobe Maestro에서 레코드와 해당 정보를 만들고 관리하는 방법을 설명합니다.
+description: Adobe Workfront planning에서 레코드 유형을 만든 후 해당 유형의 개별 레코드를 만들 수 있습니다. 다음 문서에서는 Adobe Workfront planning에서 레코드 및 해당 정보를 만들고 관리하는 방법을 설명합니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 0%
+source-wordcount: '96'
+ht-degree: 2%
 
 ---
 
@@ -28,15 +28,15 @@ hide: yes
 
 {{maestro-important-intro}}
 
-Adobe Maestro에서 레코드 유형을 만든 후 해당 유형의 개별 레코드를 만들 수 있습니다.
+Adobe Workfront planning에서 레코드 유형을 만든 후 해당 유형의 개별 레코드를 만들 수 있습니다.
 
-다음 문서에서는 Adobe Maestro에서 레코드와 해당 정보를 만들고 관리하는 방법을 설명합니다.
+다음 문서에서는 Adobe Workfront Planning에서 레코드 및 해당 정보를 만들고 관리하는 방법에 대해 설명합니다.
 
 * [레코드 만들기](/help/quicksilver/maestro/records/create-records.md)
 * [레코드 편집](/help/quicksilver/maestro/records/edit-records.md)
 * [레코드 삭제](/help/quicksilver/maestro/records/delete-records.md)
 * [레코드 공유](/help/quicksilver/maestro/records/share-records.md)
-* [레코드 연결](/help/quicksilver/maestro/records/connect-records.md)
+* [기록 연결](/help/quicksilver/maestro/records/connect-records.md)
 * [레코드 주석 관리](/help/quicksilver/maestro/records/manage-record-comments.md)
 * [내역 섹션 개요](/help/quicksilver/maestro/records/history-section-overview.md)
 * [레코드에 썸네일 추가](/help/quicksilver/maestro/records/add-thumbnails-to-records.md)

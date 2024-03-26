@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '488'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 {{maestro-important-intro}}
 
-Adobe Workfront 계획 기능에서 더 이상 관련이 없는 레코드를 삭제할 수 있습니다.
+Adobe Workfront Planning에서 더 이상 관련이 없는 레코드를 삭제할 수 있습니다.
 
 ## 액세스 요구 사항
 
@@ -39,7 +39,7 @@ Adobe Workfront 계획 기능에서 더 이상 관련이 없는 레코드를 삭
   </tr>  
  <td role="rowheader"><p>Adobe Workfront 계약</p></td>
    <td>
-<p>Adobe Workfront 계획 기능 비공개 베타 프로그램에 조직을 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
+<p>조직은 Adobe Workfront planning Beta 프로그램에 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
    </td>
   </tr>
   <tr>
@@ -58,7 +58,7 @@ Adobe Workfront 계획 기능에서 더 이상 관련이 없는 레코드를 삭
 
 <tr>
    <td role="rowheader"><p>액세스 수준 구성</p></td>
-   <td> <p>Adobe Workfront 계획 기능에 대한 액세스 수준 제어가 없습니다 </p>  
+   <td> <p>Adobe Workfront 계획에 대한 액세스 수준 제어가 없습니다. </p>  
 </td>
   </tr>
 
@@ -70,7 +70,7 @@ Adobe Workfront 계획 기능에서 더 이상 관련이 없는 레코드를 삭
   </tr>
 <tr>
    <td role="rowheader"><p>레이아웃 템플릿</p></td>
-   <td> <p>Workfront 또는 그룹 관리자는 레이아웃 템플릿에 마에스트로 영역을 추가해야 합니다. 자세한 내용은 <a href="../access/access-overview.md">액세스 개요</a>. </p>  
+   <td> <p>Workfront 또는 그룹 관리자는 레이아웃 템플릿에 계획 영역을 추가해야 합니다. 자세한 내용은 <a href="../access/access-overview.md">액세스 개요</a>. </p>  
 </td>
   </tr>
 

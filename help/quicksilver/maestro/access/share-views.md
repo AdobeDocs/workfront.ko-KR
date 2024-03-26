@@ -1,16 +1,16 @@
 ---
 title: 보기 공유
-description: 보기를 다른 사용자와 공유하여 Adobe Workfront 계획 기능을 사용할 때 공동 작업을 보장할 수 있습니다.
+description: 보기를 다른 사용자와 공유하여 Adobe Workfront Planning 사용 시 공동 작업을 보장할 수 있습니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
-
 
 <!--update the metadata and description when we turn this article live-->
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-보기를 다른 사용자와 공유하여 Adobe Workfront 계획 기능에서 레코드 작업을 할 때 공동 작업을 보장할 수 있습니다.
+보기를 다른 사용자와 공유하여 Adobe Workfront Planning에서 레코드 작업 시 공동 작업을 보장할 수 있습니다.
 
 작업 영역에 권한을 부여해도 다른 사용자에게 레코드 유형 페이지의 보기에 대한 권한이 부여되지 않습니다. 다른 사용자와 공유하려면 레코드 유형 페이지에서 개별 보기에 대한 권한을 부여해야 합니다.
 
@@ -41,7 +41,7 @@ ht-degree: 0%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront 계약</p></td>
    <td>
-<p>Adobe Workfront 계획 기능 비공개 베타 프로그램에 조직을 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
+<p>Adobe Workfront Planning 마감된 Beta 프로그램에 조직을 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
    </td>
   </tr>
   <tr>
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 <tr>
    <td role="rowheader"><p>액세스 수준 구성</p></td>
-   <td> Adobe Workfront 계획 기능에 대한 액세스 제어가 없습니다</p>  
+   <td> Adobe Workfront 계획에 대한 액세스 제어가 없습니다. </p>  
 </td>
   </tr>
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 <tr>
    <td role="rowheader"><p>레이아웃 템플릿</p></td>
-   <td> <p>Workfront 관리자를 포함한 모든 사용자에게 메인 메뉴의 마에스트로 영역을 포함하는 레이아웃 템플릿을 할당해야 합니다. </p> <p>자세한 내용은 <a href="/help/quicksilver/maestro/access/access-overview.md">액세스 개요</a>. </p>  
+   <td> <p>Workfront 관리자를 포함한 모든 사용자에게 메인 메뉴의 계획 영역을 포함하는 레이아웃 템플릿을 할당해야 합니다. </p> <p>자세한 내용은 <a href="/help/quicksilver/maestro/access/access-overview.md">액세스 개요</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -106,7 +106,7 @@ ht-degree: 0%
    * 보기
    * 관리
 
-     권한 수준 및 사용자가 각 수준에 대해 수행할 수 있는 작업에 대한 자세한 내용은 [Adobe Workfront 계획 기능의 공유 권한 개요](../access/sharing-permissions-overview.md).
+     권한 수준 및 사용자가 각 수준에 대해 수행할 수 있는 작업에 대한 자세한 내용은 [Adobe Workfront Planning의 공유 권한 개요](../access/sharing-permissions-overview.md).
 
      <!--System administrators always receive Manage permissions to views shared with them.-->
 

@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 593612fea52d917904605cf3d97403347c9c9ac0
+source-git-commit: c3ba1d5fe789dec76e5513583d35679be290f14a
 workflow-type: tm+mt
-source-wordcount: '14044'
+source-wordcount: '14037'
 ht-degree: 1%
 
 ---
@@ -2025,13 +2025,13 @@ ht-degree: 1%
       * [Adobe Workfront 목표 알림 활성화](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
 * Adobe 마에스트로 {#adobe-maestro}
    * [Adobe 마에스트로 정보](maestro/maestro-information.md)
-   * [Adobe Workfront 계획 기능 개요](maestro/maestro-overview.md)
-   * [Adobe Workfront 계획 기능 릴리스 활동](maestro/release-activity.md)
+   * [Adobe Workfront 계획 개요](maestro/maestro-overview.md)
+   * [Adobe Workfront 계획 릴리스 활동](maestro/release-activity.md)
    * Adobe 마에스트로 건축 {#adobe-maestro-architecture}
       * [아키텍처: 문서 인덱스](maestro/architecture/architecture-information.md)
       * [작업 공간 만들기](maestro/architecture/create-workspaces.md)
-      * [레코드 유형 및 분류 개요](maestro/architecture/overview-of-record-types-and-taxonomies.md)
-      * [운영 레코드 유형 만들기](maestro/architecture/create-record-types.md)
+      * [레코드 유형 개요](maestro/architecture/overview-of-record-types-and-taxonomies.md)
+      * [레코드 유형 만들기](maestro/architecture/create-record-types.md)
       * [분류 레코드 유형 만들기](maestro/architecture/create-a-taxonomy.md)
       * [레코드 유형 연결](maestro/architecture/connect-record-types.md)
       * [레코드 유형 편집](maestro/architecture/edit-record-types.md)
@@ -2051,7 +2051,7 @@ ht-degree: 1%
       * [액세스 정보](maestro/access/access-information.md)
       * [액세스 개요](maestro/access/access-overview.md)
       * [Adobe Workfront 계획 기능의 공유 권한 개요](maestro/access/sharing-permissions-overview.md)
-      * [Adobe Workfront 계획 기능 사용 시 라이선스 유형 개요](maestro/access/license-type-overview.md)
+      * [Adobe Workfront planning 사용 시 라이선스 유형 개요](maestro/access/license-type-overview.md)
       * [작업 공간 공유](maestro/access/share-workspaces.md)
       * [보기 공유](maestro/access/share-views.md)
    * Adobe 마에스트로 레코드 {#adobe-maestro-records}

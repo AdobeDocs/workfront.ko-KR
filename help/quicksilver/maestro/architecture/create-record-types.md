@@ -1,35 +1,27 @@
 ---
-title: 운영 레코드 유형 만들기
+title: 레코드 유형 만들기
 description: 레코드 유형은 Adobe Workfront planning의 객체 유형입니다. Workfront planning에서 조직의 라이프사이클에 필요한 작업 항목을 설명하는 사용자 정의 레코드 유형을 생성할 수 있습니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '1234'
+source-wordcount: '1245'
 ht-degree: 0%
 
 ---
 
 <!--udpate the metadata with real information when making this available in TOC and in the left nav-->
 
-# 운영 레코드 유형 만들기
+# 레코드 유형 만들기
 
 {{maestro-important-intro}}
 
 레코드 유형은 Adobe Workfront planning의 객체 유형입니다. Workfront planning에서 조직의 라이프사이클에 필요한 작업 관련 항목을 설명하는 사용자 정의 레코드 유형을 생성할 수 있습니다.
-
 레코드 유형은 다음 중 하나일 수 있습니다.
 
-* **운영 레코드 유형**
-* **분류**
-
-레코드 유형에 대한 자세한 내용은 [레코드 유형 및 분류 개요](../architecture/overview-of-record-types-and-taxonomies.md).
-
-운영 레코드 유형을 만드는 것은 분류 레코드 유형을 만드는 것과 비슷합니다. 이 문서에서는 작업 레코드 유형을 만드는 방법에 대해 설명합니다.
-
-분류 생성에 대한 자세한 내용은 [분류 레코드 유형 만들기](../architecture/create-a-taxonomy.md).
+레코드 유형에 대한 자세한 내용은 [레코드 유형 개요](../architecture/overview-of-record-types-and-taxonomies.md).
 
 ## 액세스 요구 사항
 
@@ -75,7 +67,7 @@ ht-degree: 0%
   </tr>
 <tr>
    <td role="rowheader"><p>레이아웃 템플릿</p></td>
-   <td> <p>Workfront 또는 그룹 관리자는 레이아웃 템플릿에 마에스트로 영역을 추가해야 합니다. 자세한 내용은 <a href="../access/access-overview.md">액세스 개요</a>. </p>  
+   <td> <p>Workfront 또는 그룹 관리자는 레이아웃 템플릿에 계획 영역을 추가해야 합니다. 자세한 내용은 <a href="../access/access-overview.md">액세스 개요</a>. </p>  
 </td>
   </tr>
 <tr>
@@ -87,7 +79,7 @@ ht-degree: 0%
  </tbody>
 </table>
 
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
+<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
@@ -106,22 +98,34 @@ ht-degree: 0%
       * 템플릿을 사용하여 작업 공간을 만드는 경우.
 
         자세한 내용은 [작업 공간 만들기](../architecture/create-workspaces.md).
-      * Excel 또는 CSV 파일을 사용하여 가져올 때. 분류 레코드 유형에는 사용할 수 없습니다.
+
+      * Excel 또는 CSV 파일을 사용하여 가져올 때.
 
         >[!IMPORTANT]
         >
         >이 기능은 2024년 3월 21일부터 일시적으로 비활성화되었습니다. 이 기능은 나중에 활성화됩니다.
 
-     <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a Maestro record. This creates a read-only record type in Maestro which is connected to object types from the original application. 
+     <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a record. This creates a read-only record type in Workfront planning which is connected to object types from the original application. 
         For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).
-        For information about connecting objects with Maestro records, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). -->
+        For information about connecting objects with records, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). -->
    * 수동:
 
       * 처음부터.
 
+        이 문서에서는 처음부터 만든 작업 영역에서 일반 레코드 유형을 처음부터 새로 만드는 방법에 대해 설명합니다.
+
+* 한 섹션 내에서 또는 작업 영역의 한 섹션에서 다른 섹션으로 레코드 유형을 이동할 수 있습니다. 한 작업 영역에서 다른 작업 영역으로 레코드 유형을 이동할 수 없습니다.
+
 ## 작업 공간 템플릿을 사용하여 레코드 유형 만들기
 
-Workfront Planning 템플릿을 사용하여 작업 공간을 만들 때 레코드 유형을 자동으로 만들 수 있습니다. 각 템플릿에는 샘플 운영 및 분류 레코드 유형이 포함되어 있습니다.
+Workfront Planning 템플릿을 사용하여 작업 공간을 만들 때 레코드 유형을 자동으로 만들 수 있습니다. 각 템플릿에는 샘플 레코드 유형이 포함되어 있습니다.
+
+템플릿에서 작업 공간을 만들 때 레코드 유형은 다음 섹션으로 그룹화됩니다.
+
+* 운영 레코드 유형
+* 분류
+
+운영 레코드 유형 및 분류 섹션에서 레코드 유형을 수동으로 추가할 수 있습니다.
 
 작업 공간 만들기에 대한 자세한 내용은 [작업 공간 만들기](../architecture/create-workspaces.md).
 
@@ -129,9 +133,7 @@ Workfront Planning 템플릿을 사용하여 작업 공간을 만들 때 레코�
 
 ## 처음부터 레코드 유형 만들기
 
-이 문서에서는 운영 레코드 유형을 처음부터 만드는 방법에 대해 설명합니다. 운영 레코드 유형을 처음부터 만드는 것은 분류를 만드는 것과 비슷합니다.
-
-분류법에 대한 자세한 내용은 [분류 체계 만들기](../architecture/create-a-taxonomy.md).
+이 문서에서는 처음부터 레코드 유형을 만드는 방법을 설명합니다.
 
 {{step1-to-maestro}}
 
@@ -139,7 +141,7 @@ Workfront Planning 템플릿을 사용하여 작업 공간을 만들 때 레코�
 
 1. (선택 사항) 기존 작업 영역 이름의 오른쪽에 있는 아래쪽 방향 화살표를 확장하고 레코드 유형을 만들 작업 영역을 선택합니다.
 1. 클릭 **레코드 유형 추가**.
-1. (조건부) 작업 레코드 유형을 만드는 경우 **처음부터**. 분류를 만들 때는 이 옵션을 사용할 수 없습니다.
+1. (조건부) 작업 레코드 유형을 만드는 경우 **처음부터**.
 
    레코드 유형 추가 상자가 열립니다.
 
@@ -165,14 +167,12 @@ Workfront Planning 템플릿을 사용하여 작업 공간을 만들 때 레코�
    기본적으로 다음 필드는 작업 레코드 유형의 테이블 보기 열에 표시됩니다.
 
    * 이름
-
-     이름 필드는 분류법에 대해 자동으로 생성되는 유일한 필드입니다.
    * 설명
    * 시작 일자
    * 종료 일자
    * 상태
 
-1. (선택 사항) 페이지 머리글에서 레코드 유형 이름을 업데이트합니다
+1. (선택 사항) 페이지 헤더에서 레코드 유형 이름을 업데이트합니다
 
    또는
 
@@ -195,6 +195,10 @@ Workfront Planning 템플릿을 사용하여 작업 공간을 만들 때 레코�
    * [레코드 유형 삭제](../architecture/delete-record-types.md)
    * [레코드 유형 편집](../architecture/edit-record-types.md)
    * [레코드 보기 관리](../views/manage-record-views.md)
+
+1. (선택 사항) 작업 공간에서 을 클릭하여 레코드 유형을 원하는 위치에 끌어다 놓거나 다른 섹션으로 이동합니다.
+
+   선택한 레코드 유형 카드를 놓으면 변경 사항이 자동으로 저장됩니다.
 
 ## Excel 또는 CSV 파일을 가져와서 레코드 유형 만들기
 
@@ -223,12 +227,7 @@ Excel 파일을 사용하여 레코드 유형을 가져오려면 다음을 수�
 
 1. (선택 사항) 기존 작업 영역 이름의 오른쪽에 있는 아래쪽 방향 화살표를 확장하고 레코드 유형을 만들 작업 영역을 선택합니다.
 1. 클릭 **레코드 유형 추가**.
-1. (조건부) 작업 레코드 유형을 만드는 경우 **Excel/CSV**.
-
-   >[!NOTE]
-   >
-   >    분류 레코드 유형을 만들 때는 이 옵션을 사용할 수 없습니다.
-
+1. 클릭 **Excel/CSV**.
 1. 컴퓨터에 이전에 저장한 Excel 또는 CSV 파일을 끌어서 놓거나 **CSV 또는 Excel 파일 선택** 찾아 봅니다.
 1. 클릭 **데이터 검토**.
 
@@ -267,9 +266,9 @@ Excel 파일을 사용하여 레코드 유형을 가져오려면 다음을 수�
 
 <!--## Connect record types with object types from another application
 
-You can connect a Maestro record type and an object type from another application. This creates a read-only record type in Maestro that corresponds to the object type in the other application. 
+You can connect a record type and an object type from another application. This creates a read-only record type in Workfront planning that corresponds to the object type in the other application. 
 
-For example, you can create record types by connecting Maestro record types with Workfront projects. As a result, the Workfront project object type is imported into Maestro as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
+For example, you can create record types by connecting Workfront planning record types with Workfront projects. As a result, the Workfront project object type is imported into Workfront planning as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
     
 You can import the following objects from the following applications: 
 

@@ -1,12 +1,13 @@
 ---
 title: 레코드에 썸네일 추가
-description: Adobe 마에스트로에서 레코드 정보를 편집하고 각 레코드를 쉽게 인식할 수 있도록 개별 썸네일과 연결할 수 있습니다.
+description: Adobe Workfront Planning에서 레코드 정보를 편집하고 각 레코드를 쉽게 인식할 수 있도록 개별 썸네일과 연결할 수 있습니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '542'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Adobe Maestro에서 레코드를 고유한 썸네일과 연결하여 쉽게 인식할 수 있습니다.
+레코드를 Adobe Workfront Planning에서 고유한 썸네일과 연결하여 쉽게 인식할 수 있습니다.
 
 레코드 만들기 및 편집을 시작하려면 먼저 레코드 유형을 만들어야 합니다.
 자세한 내용은 [레코드 유형 만들기](../architecture/create-record-types.md).
@@ -43,7 +44,7 @@ Adobe Maestro에서 레코드를 고유한 썸네일과 연결하여 쉽게 인�
   </tr>  
  <td role="rowheader"><p>Adobe Workfront 계약</p></td>
    <td>
-<p>Adobe Maestro Closed Beta 프로그램에 조직을 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
+<p>조직은 Adobe Workfront planning Beta 프로그램에 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
    </td>
   </tr>
   <tr>
@@ -61,7 +62,7 @@ Adobe Maestro에서 레코드를 고유한 썸네일과 연결하여 쉽게 인�
 
 <tr>
    <td role="rowheader"><p>액세스 수준 구성</p></td>
-   <td> <p>Maestro에 대한 액세스 제어가 없습니다. </p>  
+   <td> <p>Workfront 계획에 대한 액세스 제어가 없습니다. </p>  
 </td>
   </tr>
 <tr>
@@ -72,7 +73,7 @@ Adobe Maestro에서 레코드를 고유한 썸네일과 연결하여 쉽게 인�
   </tr>
 <tr>
    <td role="rowheader"><p>레이아웃 템플릿</p></td>
-   <td>  <p>Workfront 관리자를 포함한 모든 사용자에게 메인 메뉴의 마에스트로 영역을 포함하는 레이아웃 템플릿을 할당해야 합니다. </p> <p>자세한 내용은 <a href="/help/quicksilver/maestro/access/access-overview.md">액세스 개요</a>. </p>  
+   <td>  <p>Workfront 관리자를 포함한 모든 사용자에게 메인 메뉴의 계획 영역을 포함하는 레이아웃 템플릿을 할당해야 합니다. </p> <p>자세한 내용은 <a href="/help/quicksilver/maestro/access/access-overview.md">액세스 개요</a>. </p>  
 </td>
   </tr>
 

@@ -1,16 +1,16 @@
 ---
 title: 내역 섹션 개요
-description: Adobe 마에스트로의 레코드 오른쪽 패널에서 레코드에 대한 변경 사항 및 시스템에 의해 기록된 변경 사항을 검토할 수 있습니다.
+description: Adobe Workfront planning에서 레코드의 오른쪽 패널에서 레코드에 대해 수행된 변경 사항 및 시스템에서 기록한 변경 사항을 검토할 수 있습니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '448'
 ht-degree: 4%
 
 ---
-
 
 # 내역 섹션 개요
 
@@ -24,11 +24,11 @@ ht-degree: 4%
 
 <span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
-레코드의 오른쪽 패널에 댓글 또는 답글을 추가하여 Adobe Maestro 레코드에서 공동 작업할 수 있습니다. 이 영역에서 레코드에 대해 수행된 다른 변경 사항 및 시스템에서 기록한 변경 사항을 볼 수도 있습니다.
+레코드의 오른쪽 패널에 댓글 또는 답글을 추가하여 Adobe Workfront 계획 레코드에 대해 공동 작업을 할 수 있습니다. 이 영역에서 레코드에 대해 수행된 다른 변경 사항 및 시스템에서 기록한 변경 사항을 볼 수도 있습니다.
 
 레코드의 오른쪽 패널에는 다음 섹션이 표시됩니다.
 
-* **댓글**: 사용자가 레코드에 추가하는 댓글 및 답글을 표시합니다. Maestro 레코드에서 주석 관리에 대한 자세한 내용은 [레코드 주석 관리](/help/quicksilver/maestro/records/manage-record-comments.md).
+* **댓글**: 사용자가 레코드에 추가하는 댓글 및 답글을 표시합니다. Workfront 계획 레코드에서 주석 관리에 대한 자세한 내용은 [레코드 주석 관리](/help/quicksilver/maestro/records/manage-record-comments.md).
 * **기록**: 사용자가 레코드 필드에 적용한 시스템 기록 변경 사항을 표시합니다.
 
 ## 레코드의 내역 섹션 찾기
@@ -46,11 +46,11 @@ ht-degree: 4%
 
 ## 작업 내역 섹션에 대한 고려 사항
 
-작업 레코드 또는 분류법의 세부 정보 페이지의 오른쪽 패널에 있는 기록 섹션에서 레코드 필드에 대한 변경 사항을 검토할 수 있습니다.
+레코드 세부 정보 페이지의 오른쪽 패널에 있는 기록 섹션에서 레코드 필드에 대한 변경 사항을 검토할 수 있습니다.
 
 ![](assets/history-area-in-comments.png)
 
-* Maestro는 History 섹션에 다음 정보를 기록합니다.
+* Workfront planning은 내역 섹션에 다음 정보를 기록합니다.
 
    * 모든 필드 변경 사항
 
@@ -80,7 +80,7 @@ ht-degree: 4%
 
 * 확인란 유형 필드에는 이전 값이 취소선 형식으로 표시되지 않습니다. 필드를 편집하면 변경한 시점의 현재 상태만 표시됩니다.
 
-  Maestro 필드에 대한 자세한 내용은 [필드 만들기](/help/quicksilver/maestro/fields/create-fields.md).
+  Workfront 계획 필드에 대한 자세한 내용은 [필드 만들기](/help/quicksilver/maestro/fields/create-fields.md).
 
 * 다음 유형의 필드에 대한 변경 사항은 기록 섹션에 표시되지 않습니다.
 

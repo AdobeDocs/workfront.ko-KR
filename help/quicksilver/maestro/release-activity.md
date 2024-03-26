@@ -1,18 +1,18 @@
 ---
-title: Adobe Workfront 계획 기능 릴리스 활동
+title: Adobe Workfront 계획 릴리스 활동
 description: Adobe Workfront 계획 기능은 현재 Workfront 고객을 선택할 수 있습니다. 이 문서를 자주 검토하여 계획 기능용으로 최근 릴리스된 기능에 대해 알아보십시오.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 593612fea52d917904605cf3d97403347c9c9ac0
+source-git-commit: c3ba1d5fe789dec76e5513583d35679be290f14a
 workflow-type: tm+mt
-source-wordcount: '5057'
+source-wordcount: '5266'
 ht-degree: 0%
 
 ---
 
-# Adobe Workfront 계획 기능 릴리스 활동
+# Adobe Workfront 계획 릴리스 활동
 
 {{maestro-important-intro}}
 
@@ -31,6 +31,46 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >아래 섹션에서 참조하는 설명서는 기능이 프로덕션에 릴리스된 후 잠시 사용할 수 있습니다.
+
+## 2024년 3월 25일 주
+
+### 작업 공간에 대한 유연한 새로운 레코드 유형 조직
+
+프로덕션: 2024년 3월 25일
+
+미리보기: 결정 예정
+
+작업 공간을 설정할 때 효율성을 높이기 위해 작업 공간에서 레코드 유형을 구성하는 방법을 수정했습니다. 몇 가지 개선 사항은 다음과 같습니다.
+
+* 각 작업 영역에 최대 50개의 레코드 유형 섹션을 만듭니다. 기존 작업 레코드 유형 및 분류 섹션은 기존 작업 공간에 남아 있습니다.
+
+* 프로세스와 조직의 요구 사항을 반영하도록 모든 새 작업 공간과 해당 새 섹션을 완전히 맞춤화합니다.
+
+* 작업 공간 내에서 레코드 유형을 다른 섹션 등 필요한 위치에 끌어다 놓아 동적으로 이동합니다.
+
+자세한 내용은 [레코드 유형 만들기](/help/quicksilver/maestro/architecture/create-record-types.md).
+
+### 중복 보기
+
+프로덕션: 2024년 3월 25일
+
+미리보기: 결정 예정
+
+시간을 절약하고 일관성을 유지하기 위해 액세스 권한이 있는 기존 보기를 복제할 수 있습니다.
+
+보기를 복제하면 동일한 필터, 정렬 기준 및 그룹화를 사용하여 동일한 보기가 만들어집니다. 보기를 복제해도 원래 보기의 권한은 유지되지 않습니다.
+
+자세한 내용은 [레코드 보기 관리](/help/quicksilver/maestro/views/manage-record-views.md).
+
+### 메인 메뉴에서 마에스트로 영역의 이름이 Planning으로 변경되었습니다.
+
+프로덕션: 2024년 3월 28일
+
+미리보기: 결정 예정
+
+메인 메뉴에 있는 마에스트로 영역의 이름을 계획으로 변경했습니다.
+
+Adobe Workfront 계획에 대한 개요는 를 참조하십시오. [Adobe Workfront 계획 개요](/help/quicksilver/maestro/maestro-overview.md).
 
 ## 2024년 3월 18일 주
 
@@ -207,7 +247,7 @@ Excel 또는 CSV 파일을 사용하여 레코드 유형 가져오기를 일시�
 
 새 라이선스 모델에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Planning 기능의 라이선스 유형과 권한 간의 연결에 대한 자세한 내용은 [Adobe Workfront 계획 기능 사용 시 라이선스 유형 개요](/help/quicksilver/maestro/access/license-type-overview.md).
+Planning 기능의 라이선스 유형과 권한 간의 연결에 대한 자세한 내용은 [Adobe Workfront planning 사용 시 라이선스 유형 개요](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
 ### 레코드 필드에 대한 리치 텍스트 도구 모음의 새로운 모양

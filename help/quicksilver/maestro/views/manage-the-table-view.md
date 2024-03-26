@@ -1,13 +1,13 @@
 ---
 title: 표 보기 관리
-description: Adobe Workfront 계획 기능의 레코드 유형 페이지에 액세스할 때 테이블 보기에 레코드와 해당 필드를 표시할 수 있습니다.
+description: Adobe Workfront planning의 레코드 유형 페이지에 액세스할 때 테이블 보기에 레코드와 해당 필드를 표시할 수 있습니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '2400'
+source-wordcount: '2395'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,7 @@ hide: yes
 
 {{maestro-important-intro}}
 
-Adobe Workfront 계획 기능의 레코드 유형 페이지에 액세스할 때 테이블 보기에 레코드와 해당 필드를 표시할 수 있습니다.
+Adobe Workfront planning의 레코드 유형 페이지에 액세스할 때 테이블 보기에 레코드와 해당 필드를 표시할 수 있습니다.
 
 레코드 보기 및 관리 방법에 대한 자세한 내용은 [레코드 보기 관리](../views/manage-record-views.md).
 
@@ -51,7 +51,7 @@ Adobe Workfront 계획 기능의 레코드 유형 페이지에 액세스할 때 
   </tr>  
  <td role="rowheader"><p>Adobe Workfront 계약</p></td>
    <td>
-<p>Adobe Workfront 계획 기능 비공개 베타 프로그램에 조직을 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
+<p>조직은 Adobe Workfront planning Beta 프로그램에 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
    </td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ Adobe Workfront 계획 기능의 레코드 유형 페이지에 액세스할 때 
 
 <tr>
    <td role="rowheader">액세스 수준 구성</td>
-   <td> <p>Adobe Workfront 계획 기능에 대한 액세스 수준 제어가 없습니다 </p>  
+   <td> <p>Adobe Workfront Planning에 대한 액세스 수준 제어가 없습니다.</p>  
 </td>
   </tr>
 

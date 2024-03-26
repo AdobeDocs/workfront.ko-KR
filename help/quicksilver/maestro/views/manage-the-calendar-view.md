@@ -4,9 +4,10 @@ description: 달력 보기에서 레코드와 해당 필드를 표시할 수 있
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
+exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -50,7 +51,7 @@ Adobe Workfront 계획 기능 보기 및 관리 방법에 대한 자세한 내�
   </tr>  
  <td role="rowheader"><p>Adobe Workfront 계약</p></td>
    <td>
-<p>Adobe Workfront 계획 기능 비공개 베타 프로그램에 조직을 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
+<p>조직은 Adobe Workfront planning Beta 프로그램에 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
    </td>
   </tr>
   <tr>
@@ -68,7 +69,7 @@ Adobe Workfront 계획 기능 보기 및 관리 방법에 대한 자세한 내�
 
 <tr>
    <td role="rowheader">액세스 수준 구성</td>
-   <td> <p>Adobe Workfront 계획 기능에 대한 액세스 수준 제어가 없습니다  </p>  
+   <td> <p>Adobe Workfront 계획에 대한 액세스 수준 제어가 없습니다.</p>  
 </td>
   </tr>
 
@@ -80,7 +81,7 @@ Adobe Workfront 계획 기능 보기 및 관리 방법에 대한 자세한 내�
 
 <tr>
    <td role="rowheader">레이아웃 템플릿</td>
-   <td> <p>시스템 관리자가 레이아웃 템플릿에 마에스트로 영역을 추가해야 합니다. 자세한 내용은 <a href="../access/access-overview.md">액세스 개요</a>. </p>  
+   <td> <p>시스템 관리자가 레이아웃 템플릿에 계획 영역을 추가해야 합니다. 자세한 내용은 <a href="../access/access-overview.md">액세스 개요</a>. </p>  
 </td>
   </tr>
  </tbody>

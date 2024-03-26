@@ -1,13 +1,13 @@
 ---
 title: 레코드 만들기
-description: Adobe Workfront 계획 기능을 사용하는 경우 레코드는 레코드 유형의 인스턴스입니다. 개별 레코드를 만들려면 먼저 레코드 종류를 만들어야 합니다. 분류 레코드를 만드는 것은 운영 레코드를 만드는 것과 동일합니다.
+description: Adobe Workfront Planning을 사용할 때 레코드는 레코드 유형의 인스턴스입니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '796'
 ht-degree: 0%
 
 ---
@@ -18,19 +18,11 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Adobe Workfront 계획 기능에서 레코드는 레코드 유형의 인스턴스입니다.
-
-다음과 같은 유형의 레코드를 가질 수 있습니다.
-
-* **운영 레코드**: 작업 관련 개체를 나타냅니다. 예를 들어 &quot;Campaign&quot;이라는 운영 레코드의 경우 &quot;Monthly Newsletter&quot; 또는 &quot;Summer Sale&quot;과 같은 이름의 레코드를 사용할 수 있습니다.
-* **분류 레코드**: 작업 레코드와 연결할 수 있는 속성을 나타냅니다. 예를 들어 &quot;채널&quot;이라는 분류법 레코드 유형의 경우 &quot;이메일&quot;, &quot;소셜 미디어&quot; 또는 &quot;광고&quot;와 같은 분류법에 이름을 지정할 수 있습니다.
-
-운영 레코드를 만드는 것은 분류 레코드를 만드는 것과 동일합니다.
+Adobe Workfront 계획에서 레코드는 레코드 유형의 인스턴스입니다.
 
 다음 중 하나를 수행하여 레코드를 만들 수 있습니다.
 
 * 레코드 유형에 대해 수동으로 만들기
-  <!-- not possible anymore: * Connect them to records from other applications-->
 * 외부 목록에서 정보를 복사하여 붙여 넣어 레코드를 만듭니다.
 
 이 문서에서는 레코드를 만드는 방법을 설명합니다. 테이블 또는 타임라인 보기에서 레코드 관리에 대한 자세한 내용은 다음 문서를 참조하십시오.
@@ -57,7 +49,7 @@ Adobe Workfront 계획 기능에서 레코드는 레코드 유형의 인스턴�
   </tr>  
  <td role="rowheader"><p>Adobe Workfront 계약</p></td>
    <td>
-<p>Adobe Workfront 계획 기능 비공개 베타 프로그램에 조직을 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
+<p>조직은 Adobe Workfront planning Beta 프로그램에 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
    </td>
   </tr>
   <tr>
@@ -75,7 +67,7 @@ Adobe Workfront 계획 기능에서 레코드는 레코드 유형의 인스턴�
 
 <tr>
    <td role="rowheader"><p>액세스 수준 구성</p></td>
-   <td> <p>Adobe Workfront 계획 기능에 대한 액세스 제어가 없습니다 </p>  
+   <td> <p>Adobe Workfront 계획에 대한 액세스 제어가 없습니다. </p>  
 </td>
   </tr>
 <tr>
@@ -86,7 +78,7 @@ Adobe Workfront 계획 기능에서 레코드는 레코드 유형의 인스턴�
   </tr>
 <tr>
    <td role="rowheader"><p>레이아웃 템플릿</p></td>
-   <td> <p>Workfront 또는 그룹 관리자는 레이아웃 템플릿에 마에스트로 영역을 추가해야 합니다. 자세한 내용은 <a href="../access/access-overview.md">액세스 개요</a>. </p>  
+   <td> <p>Workfront 또는 그룹 관리자는 레이아웃 템플릿에 계획 영역을 추가해야 합니다. 자세한 내용은 <a href="../access/access-overview.md">액세스 개요</a>. </p>  
 </td>
   </tr>
 
@@ -196,7 +188,7 @@ You can import records from other applications by linking them to existing recor
 
 1. 다른 응용 프로그램에서 여러 행과 열을 선택한 다음 첫 번째 새 레코드부터 시작하여 레코드 유형 테이블 보기에 정보를 붙여 넣습니다.
 
-   Workfront 계획 기능 영역에서 다음 정보를 가져옵니다.
+   Workfront 계획 영역에 다음 정보를 가져옵니다.
 
    * 행에는 새 레코드가 포함됩니다
    * 열은 레코드의 필드에 대한 정보를 채웁니다.

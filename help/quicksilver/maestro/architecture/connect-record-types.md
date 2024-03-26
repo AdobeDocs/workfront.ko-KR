@@ -1,20 +1,20 @@
 ---
 title: 레코드 유형 연결
-description: 개별 레코드 종류가 서로 관련되는 방식을 나타내는 방법은 해당 레코드 종류를 연결하는 것입니다. 또한 Maestro 레코드 유형을 다른 애플리케이션의 객체 유형과 연결하여 사용자 경험을 향상시키고 한 애플리케이션에서 집중력을 유지할 수 있습니다.
+description: 개별 레코드 종류가 서로 관련되는 방식을 나타내는 방법은 해당 레코드 종류를 연결하는 것입니다. 또한 Adobe Workfront Planning 레코드 유형을 다른 애플리케이션의 객체 유형과 연결하여 사용자 경험을 향상시키고 한 애플리케이션에서 집중할 수 있습니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '2222'
+source-wordcount: '2213'
 ht-degree: 0%
 
 ---
 
 <!-----
 title: Connect record types
-description: A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Maestro record types with object types from other applications to enhance your users' experience and keep their focus in one application.
+description: A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Adobe Workfront planning record types with object types from other applications to enhance your users' experience and keep their focus in one application.
 hidefromtoc: yes
 hide: yes
 feature: Work management
@@ -30,17 +30,17 @@ author: Alina
 
 {{maestro-important-intro}}
 
-Adobe Maestro를 사용하여 조직에 필요한 레코드 유형이 포함된 사용자 정의 가능한 작업 공간을 디자인할 수 있습니다. 개별 레코드 종류가 서로 관련되는 방식을 나타내는 방법은 해당 레코드 종류를 연결하는 것입니다. 또한 Maestro 레코드 유형을 다른 애플리케이션의 객체 유형과 연결하여 사용자 경험을 향상시키고 한 애플리케이션에서 집중력을 유지할 수 있습니다.
+Adobe Workfront planning을 사용하여 조직에 필요한 레코드 유형을 포함하는 사용자 정의 가능한 작업 공간을 디자인할 수 있습니다. 개별 레코드 종류가 서로 관련되는 방식을 나타내는 방법은 해당 레코드 종류를 연결하는 것입니다. 또한 Workfront Planning 레코드 유형을 다른 애플리케이션의 객체 유형과 연결하여 사용자 경험을 향상시키고 한 애플리케이션에서 집중할 수 있습니다.
 
-Maestro 레코드 유형을 서로 연결하거나 Maestro 레코드 유형을 다른 응용 프로그램의 객체 유형과 연결할 수 있습니다.
+레코드 유형을 서로 연결하거나 다른 응용 프로그램의 개체 유형을 사용하여 레코드 유형을 연결할 수 있습니다.
 
-이렇게 하면 연결된 레코드나 오브젝트 유형의 필드를 다른 Maestro 레코드에 표시할 수 있습니다.
+이렇게 하면 Workfront 계획 레코드에 연결된 레코드 또는 개체 유형의 필드를 표시할 수 있습니다.
 
-이 문서에서는 두 가지 Maestro 레코드 유형 또는 Maestro 레코드 유형을 다른 응용 프로그램의 오브젝트와 연결하는 방법에 대해 설명합니다.
+이 문서에서는 Workfront Planning의 두 레코드 유형 또는 다른 응용 프로그램의 오브젝트와 레코드 유형을 연결하는 방법에 대해 설명합니다.
 
 레코드나 개체 유형 간에 연결을 설정한 후에는 개별 레코드를 서로 연결할 수 있습니다.
 
-다른 응용 프로그램의 개체에 Maestro 레코드를 연결하는 방법에 대한 자세한 내용은 [레코드 연결](../records/connect-records.md).
+Workfront Planning 레코드를 다른 애플리케이션의 객체에 연결하는 방법에 대한 자세한 내용은 [레코드 연결](../records/connect-records.md).
 
 레코드 종류 연결에 대한 예는 [레코드 종류 및 레코드 연결의 예](../architecture/example-connect-record-types-and-records.md).
 
@@ -61,11 +61,11 @@ Maestro 레코드 유형을 서로 연결하거나 Maestro 레코드 유형을 �
 <td>
    <p> 제품</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>Maestro 레코드 유형을 Experience Manager Assets과 연결하려면 Adobe Experience Manager Assets 라이선스가 있어야 하며, 조직의 Workfront 인스턴스가 Adobe 비즈니스 플랫폼 또는 Adobe Admin Console에 온보딩되어야 합니다.</p> </td>
+   <p> Adobe Workfront</p> <p>Adobe Workfront 계획 레코드 유형을 Experience Manager Assets과 연결하려면 Adobe Experience Manager Assets 라이선스가 있어야 하며 조직의 Workfront 인스턴스가 Adobe 비즈니스 플랫폼 또는 Adobe Admin Console에 온보딩되어야 합니다.</p> </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront 계약</p></td>
    <td>
-<p>Adobe Maestro Closed Beta 프로그램에 조직을 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
+<p>Adobe Workfront Planning 마감된 Beta 프로그램에 조직을 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
    </td>
   </tr>
   <tr>
@@ -83,12 +83,12 @@ Maestro 레코드 유형을 서로 연결하거나 Maestro 레코드 유형을 �
 
 <tr>
    <td role="rowheader"><p>액세스 수준 구성</p></td>
-   <td> <p>Maestro에 대한 액세스 수준 제어 없음</p>  
+   <td> <p>Adobe Workfront 계획에 대한 액세스 수준 제어가 없습니다.</p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>레이아웃 템플릿</p></td>
-   <td> <p>Workfront 또는 그룹 관리자는 레이아웃 템플릿에 마에스트로 영역을 추가해야 합니다. 자세한 내용은 <a href="../access/access-overview.md">액세스 개요</a>. </p>  
+   <td> <p>Workfront 또는 그룹 관리자는 레이아웃 템플릿에 계획 영역을 추가해야 합니다. 자세한 내용은 <a href="../access/access-overview.md">액세스 개요</a>. </p>  
 </td>
   </tr>
 <tr>
@@ -100,7 +100,7 @@ Maestro 레코드 유형을 서로 연결하거나 Maestro 레코드 유형을 �
  </tbody>
 </table>
 
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
+<!--Maybe enable this at GA - but planing is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
@@ -114,16 +114,14 @@ Maestro 레코드 유형을 서로 연결하거나 Maestro 레코드 유형을 �
 
 ## 레코드 유형 연결에 대한 고려 사항
 
-* Maestro에서 다음 엔티티를 연결할 수 있습니다.
+* Adobe Workfront planning에서 다음 엔티티를 연결할 수 있습니다.
 
-   * 두 가지 운영 레코드 유형
-   * 두 가지 분류
-   * 운영 레코드 유형 및 분류 체계
-   * 다른 응용 프로그램의 작업 레코드 유형 또는 분류와 객체 유형입니다.
+   * 두 가지 레코드 유형
 
-  모든 운영 레코드 유형 및 분류는 동일한 작업 공간에 속해야 합니다.
+     레코드 유형은 동일한 작업 영역에 속해야 합니다.
+   * 다른 응용 프로그램의 레코드 형식과 개체 형식입니다.
 
-* 다음 응용 프로그램에서 다음 객체 유형을 Maestro 레코드 유형과 연결할 수 있습니다.
+* Workfront Planning 레코드 유형을 사용하여 다음 응용 프로그램에서 다음 객체 유형을 연결할 수 있습니다.
 
    * Adobe Workfront:
 
@@ -140,7 +138,7 @@ Maestro 레코드 유형을 서로 연결하거나 Maestro 레코드 유형을 �
 
      >[!IMPORTANT]
      >
-     >Adobe Experience Manager Assets 라이선스가 있어야 하며, Maestro 레코드를 Adobe Experience Manager Assets에 연결하려면 조직의 Workfront 인스턴스가 Adobe 비즈니스 플랫폼 또는 Adobe Admin Console에 온보딩되어야 합니다.
+     >Adobe Experience Manager Assets 라이선스가 있어야 하며 Workfront 계획 레코드를 Adobe Experience Manager Assets에 연결하려면 조직의 Workfront 인스턴스가 Adobe 비즈니스 플랫폼 또는 Adobe Admin Console에 온보딩되어야 합니다.
      >
      >Adobe Admin Console 온보딩에 대한 질문이 있는 경우 [통합 경험 FAQ Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
@@ -154,13 +152,13 @@ Maestro 레코드 유형을 서로 연결하거나 Maestro 레코드 유형을 �
 
    * **레코드 형식을 다른 응용 프로그램의 개체 형식과 연결하는 경우**: 연결 중인 레코드 종류에 연결된 레코드 필드가 만들어집니다. 연결된 레코드 필드는 다른 응용 프로그램의 개체 유형에 자동으로 만들어지지 않습니다.
 
-     실제 개체가 Maestro 레코드에 연결되어 있을 때만 다른 응용 프로그램의 개체에 대해 새로운 Maestro 읽기 전용 레코드 유형이 만들어집니다.
+     실제 객체가 Workfront planning 레코드에 연결되어 있는 경우에만 다른 응용 프로그램의 객체에 대해 새 Workfront planning 읽기 전용 레코드 유형이 생성됩니다.
 
      자세한 내용은 [레코드 연결](../records/connect-records.md).
 
-   * **연결하는 레코드 또는 개체의 조회 필드를 추가할 때**: 다른 응용 프로그램의 개체에서 Maestro 레코드 유형으로 필드를 연결할 수 있습니다. 링크 또는 조회 필드입니다. 연결된 필드는 레코드나 개체를 연결할 때 연결된 레코드나 개체의 정보를 자동으로 표시합니다. 연결된 조회 필드는 항상 읽기 전용이며 연결된 레코드 또는 개체의 값으로 자동으로 채워집니다.
+   * **연결하는 레코드 또는 개체의 조회 필드를 추가할 때**: 다른 응용 프로그램의 개체에서 Workfront planning 레코드 유형으로 필드를 연결할 수 있습니다. 링크 또는 조회 필드입니다. 연결된 필드는 레코드나 개체를 연결할 때 연결된 레코드나 개체의 정보를 자동으로 표시합니다. 연결된 조회 필드는 항상 읽기 전용이며 연결된 레코드 또는 개체의 값으로 자동으로 채워집니다.
 
-     예를 들어 &quot;캠페인&quot; 마에스트로 레코드 유형을 Workfront 프로젝트와 연결하고 프로젝트의 계획된 완료 일자 필드를 마에스트로 레코드로 가져오도록 선택하면 캠페인에 대해 연결된 필드(프로젝트의 계획된 완료 일자)가 자동으로 생성됩니다. 연결된 이 필드는 수동으로 편집할 수 없습니다. 계획된 완료 일자(프로젝트 시작) 필드에는 연결된 프로젝트의 계획된 완료 일자가 표시됩니다.
+     예를 들어 &quot;캠페인&quot; 레코드 유형을 Workfront 프로젝트와 연결하고 프로젝트의 계획된 완료 일자 필드를 Workfront 계획 레코드로 가져오도록 선택하면 캠페인에 대해 연결된 필드(프로젝트의 계획된 완료 일자)가 자동으로 생성됩니다. 연결된 이 필드는 수동으로 편집할 수 없습니다. 계획된 완료 일자(프로젝트 시작) 필드에는 연결된 프로젝트의 계획된 완료 일자가 표시됩니다.
 
      >[!IMPORTANT]
      >
@@ -186,11 +184,11 @@ Maestro 레코드 유형을 서로 연결하거나 Maestro 레코드 유형을 �
 
 1. 다음에서 **레코드 유형** 필드를 입력하거나 레코드 유형을 검색하거나 다음 중 하나를 선택합니다.
 
-   * 선택한 작업 영역의 섹션에 있는 다른 작업 레코드 유형 또는 분류법입니다.
+   * 선택한 작업 영역의 섹션에서 다른 레코드 유형
 
      >[!TIP]
      >
-     >선택한 작업 영역의 레코드 유형과 분류만 연결할 수 있습니다.
+     >선택한 작업 영역의 레코드 유형만 연결할 수 있습니다.
      > 
      >선택한 작업 영역에 다른 레코드 유형이 없는 경우 작업 영역 섹션이 표시되지 않습니다.
 
@@ -212,7 +210,7 @@ Maestro 레코드 유형을 서로 연결하거나 Maestro 레코드 유형을 �
    * **여러 레코드 허용**: 이 옵션을 선택하면 연결된 레코드 유형 필드가 원본 레코드에 표시될 때 사용자가 여러 레코드를 추가할 수 있음을 나타냅니다. 이 옵션은 기본적으로 선택되어 있습니다.
    * **조회 필드 선택**: 선택한 레코드 유형에서 필드를 추가하려면 이 옵션을 선택합니다. 조회 필드는 연결 중인 레코드 또는 개체 유형과 관련된 필드입니다. 이 레코드들을 연결하면 연결하려는 레코드나 오브젝트의 정보가 원하는 레코드에 표시됩니다. 이 옵션은 기본적으로 선택되어 있습니다.
 
-1. (조건부 및 선택 사항) Workfront 개체를 연결하도록 선택한 경우 **사용자 정의 양식** 다음에서 **다음 기준과 일치하는 객체만 연결** 섹션. 선택한 사용자 정의 양식이 첨부된 객체만 선택한 Maestro 레코드 유형에 연결할 수 있습니다. 두 개 이상의 양식을 선택할 수 있습니다.
+1. (조건부 및 선택 사항) Workfront 개체를 연결하도록 선택한 경우 **사용자 정의 양식** 다음에서 **다음 기준과 일치하는 객체만 연결** 섹션. 선택한 사용자 정의 양식이 첨부된 객체만 선택한 레코드 유형에 연결할 수 있습니다. 두 개 이상의 양식을 선택할 수 있습니다.
 
    ![](assets/workfront-project-connection-selection.png)
 
@@ -286,13 +284,13 @@ Maestro 레코드 유형을 서로 연결하거나 Maestro 레코드 유형을 �
 
      예를 들어 캠페인 레코드 유형을 프로그램 레코드 유형과 연결하고 프로그램 연결 레코드 필드의 이름을 &quot;프로그램 정보&quot;로 지정한 다음, Campaign의 테이블 보기에서 프로그램 예산 필드도 표시하도록 선택하면 연결된 필드의 이름이 자동으로 지정됩니다 `Budget (from Program information)` 를 입력합니다.
 
-   * Maestro 레코드 유형을 서로 연결하면 연결된 레코드 필드도 연결되는 레코드 유형에 추가됩니다. 연결된 레코드 유형의 연결된 레코드 필드 이름은 연결된 레코드 유형의 이름입니다.
+   * 레코드 종류를 서로 연결하면 연결된 레코드 종류에도 연결된 레코드 필드가 추가됩니다. 연결된 레코드 유형의 연결된 레코드 필드 이름은 연결된 레코드 유형의 이름입니다.
 
      예를 들어 &quot;캠페인&quot; 레코드 유형에서 &quot;제품&quot; 레코드 유형을 연결하고 캠페인의 연결된 필드 이름을 &quot;연결된 제품&quot;으로 지정하면 제품 레코드 유형에 대해 &quot;캠페인&quot; 연결된 레코드 필드가 만들어집니다.
 
      >[!TIP]
      >
-     > 다른 응용 프로그램에서 Maestro에서 연결할 레코드 유형으로 연결되는 객체에 대해서는 연결된 레코드 필드가 만들어지지 않습니다.
+     > 다른 응용 프로그램에서 연결하려는 레코드 유형으로 연결되는 객체에 대해 연결된 레코드 필드가 만들어지지 않습니다. Workfront planning
 
 1. (선택 사항 및 조건부) 원래 레코드 유형 또는 연결된 레코드 유형 테이블 보기에서 연결된 레코드 필드의 머리글에 있는 아래쪽 방향 화살표를 클릭한 다음 다음 중 하나를 클릭합니다.
 
@@ -305,7 +303,7 @@ Maestro 레코드 유형을 서로 연결하거나 Maestro 레코드 유형을 �
 
    >[!NOTE]
    >
-   > 다른 응용 프로그램에서 개체 유형으로 연결하는 Maestro 레코드 유형에 속하는 조회 필드를 추가할 수 없습니다.
+   > 다른 응용 프로그램에서 개체 유형으로 연결하는 레코드 유형에 속하는 조회 필드는 추가할 수 없습니다.
    >
    > 예를 들어 캠페인에서 연결 중인 Workfront 프로젝트에는 &quot;캠페인 상태&quot;의 조회 필드를 추가할 수 없습니다.
 

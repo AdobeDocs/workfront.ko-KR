@@ -1,13 +1,13 @@
 ---
 title: 필드 편집
-description: Adobe Maestro에서 이미 만들어진 필드의 필드 설정을 편집할 수 있습니다.
+description: Adobe Workfront planning에서 이미 생성된 필드의 필드 설정을 편집할 수 있습니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -30,11 +30,11 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-이미 만들어진 필드의 필드 설정을 편집할 수 있습니다.
+Adobe Workfront Planning에서 이미 생성된 필드의 필드 설정을 편집할 수 있습니다.
 
-Adobe 마에스트로 필드 생성에 대한 자세한 내용은 [필드 만들기](../fields/create-fields.md).
+Adobe Workfront 계획 필드 만들기에 대한 자세한 내용은 [필드 만들기](../fields/create-fields.md).
 
-이 문서에서는 Maestro 필드의 설정을 편집하는 방법을 설명합니다. Maestro 레코드의 필드 값 편집에 대한 자세한 내용은 [레코드 편집](/help/quicksilver/maestro/records/edit-records.md).
+이 문서에서는 Workfront 계획 필드의 설정을 편집하는 방법에 대해 설명합니다. 레코드의 필드 값 편집에 대한 자세한 내용은 [레코드 편집](/help/quicksilver/maestro/records/edit-records.md).
 
 ## 필드 정보 편집에 대한 고려 사항
 
@@ -69,7 +69,7 @@ Adobe 마에스트로 필드 생성에 대한 자세한 내용은 [필드 만들
   </tr>  
  <td role="rowheader"><p>Adobe Workfront 계약</p></td>
    <td>
-<p>Adobe Maestro Closed Beta 프로그램에 조직을 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
+<p>조직은 Adobe Workfront planning Beta 프로그램에 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
    </td>
   </tr>
   <tr>
@@ -87,7 +87,7 @@ Adobe 마에스트로 필드 생성에 대한 자세한 내용은 [필드 만들
 
 <tr>
    <td role="rowheader"><p>액세스 수준 구성</p></td>
-   <td> <p>Maestro에 대한 액세스 제어가 없습니다.</p>  
+   <td> <p>Workfront 계획에 대한 액세스 제어가 없습니다.</p>  
 </td>
   </tr>
 
@@ -99,7 +99,7 @@ Adobe 마에스트로 필드 생성에 대한 자세한 내용은 [필드 만들
   </tr>
 <tr>
    <td role="rowheader"><p>레이아웃 템플릿</p></td>
-   <td> <p>Workfront 또는 그룹 관리자는 레이아웃 템플릿에 마에스트로 영역을 추가해야 합니다. 자세한 내용은 <a href="../access/access-overview.md">액세스 개요</a>. </p>  
+   <td> <p>Workfront 또는 그룹 관리자는 레이아웃 템플릿에 계획 영역을 추가해야 합니다. 자세한 내용은 <a href="../access/access-overview.md">액세스 개요</a>. </p>  
 </td>
   </tr>
 
@@ -113,14 +113,14 @@ Adobe 마에스트로 필드 생성에 대한 자세한 내용은 [필드 만들
 
 ## 필드 편집
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-workfront.png) Workfront의 오른쪽 위 모서리 또는 **메인 메뉴** 아이콘 ![](assets/main-menu-shell.png)  왼쪽 위 모서리에서 사용 가능한 경우 을(를) 클릭합니다. **마에스트로** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   기본적으로 마지막으로 액세스한 작업 영역이 열립니다.
+    기본적으로 마지막으로 액세스한 작업 영역이 열립니다.
 
 1. (선택 사항) 기존 작업 영역 이름의 오른쪽에 있는 아래쪽 방향 화살표를 확장하고 레코드 유형을 삭제할 작업 영역을 선택합니다.
 
-   작업공간이 열리고 작업공간과 연관된 레코드 유형 및 분류가 표시됩니다.
-1. 편집할 필드를 포함하는 레코드 유형 또는 분류법에 대한 카드를 클릭합니다.
+   작업공간이 열리고 작업공간과 연관된 레코드 유형이 표시됩니다.
+1. 편집할 필드가 있는 레코드 유형의 카드를 클릭합니다.
 
    레코드 유형의 페이지가 열립니다.
 1. (조건부) 선택 **표 보기** 다음에서 **보기** 레코드 유형 페이지의 오른쪽 위 모서리에 있는 드롭다운 메뉴.

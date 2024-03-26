@@ -1,13 +1,13 @@
 ---
 title: 레코드 보기 관리
-description: Adobe Workfront 계획 기능을 사용할 때 표, 타임라인 또는 달력 보기에 레코드를 표시할 수 있습니다.
+description: Adobe Workfront planning을 사용할 때 테이블, 타임라인 또는 달력 보기에 레코드를 표시할 수 있습니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '1071'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 {{maestro-important-intro}}
 
-Adobe Workfront 계획 기능 영역에서 레코드 유형을 선택한 후 다음 보기에서 해당 유형의 모든 레코드를 표시할 수 있습니다.
+Adobe Workfront 계획 영역에서 레코드 유형을 선택한 후 다음 보기에서 해당 유형의 모든 레코드를 표시할 수 있습니다.
 
 * 테이블
 
@@ -51,7 +51,7 @@ Adobe Workfront 계획 기능 영역에서 레코드 유형을 선택한 후 다
   </tr>  
  <td role="rowheader"><p>Adobe Workfront 계약</p></td>
    <td>
-<p>Adobe Workfront 계획 기능 비공개 베타 프로그램에 조직을 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
+<p>Adobe Workfront Planning 마감된 Beta 프로그램에 조직을 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
    </td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ Adobe Workfront 계획 기능 영역에서 레코드 유형을 선택한 후 다
 
 <tr>
    <td role="rowheader">액세스 수준 구성</td>
-   <td> <p>Workfront 계획 기능에 대한 액세스 수준 제어가 없습니다</p>  
+   <td> <p>Workfront 계획에 대한 액세스 수준 제어가 없습니다.</p>  
 </td>
   </tr>
 
@@ -81,7 +81,7 @@ Adobe Workfront 계획 기능 영역에서 레코드 유형을 선택한 후 다
 
 <tr>
    <td role="rowheader">레이아웃 템플릿</td>
-   <td> <p>시스템 관리자가 레이아웃 템플릿에 마에스트로 영역을 추가해야 합니다. 자세한 내용은 <a href="../access/access-overview.md">액세스 개요</a>. </p>  
+   <td> <p>시스템 관리자가 레이아웃 템플릿에 계획 영역을 추가해야 합니다. 자세한 내용은 <a href="../access/access-overview.md">액세스 개요</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -89,9 +89,8 @@ Adobe Workfront 계획 기능 영역에서 레코드 유형을 선택한 후 다
 
 ## 레코드 보기 작업 시 고려 사항
 
-* Workfront 계획 기능 영역의 보기는 레코드 유형별로 다릅니다. 동일한 보기를 두 개의 다른 레코드 유형에 적용할 수 없습니다.
+* Workfront Planning의 보기는 레코드 유형별로 다릅니다. 동일한 보기를 두 개의 다른 레코드 유형에 적용할 수 없습니다.
 * 만든 보기는 사용자와 보기를 공유하는 사용자만 볼 수 있습니다.
-* 운영 레코드 유형에 대한 뷰 작성은 분류 레코드 유형에 대한 뷰 작성과 동일합니다.
 * 보기를 수정하거나 삭제하면 보기에 대한 권한이 있는 모든 사용자에 대해 수정 및 삭제됩니다.
 * 다음 요소는 각 레코드 보기에 고유합니다.
 
@@ -101,19 +100,19 @@ Adobe Workfront 계획 기능 영역에서 레코드 유형을 선택한 후 다
 
   <!-- some of these are not available in all of the views - edit above-->
 
-  예를 들어, 테이블 보기에서 필터를 만들면 필터 결과는 선택한 보기에서만 볼 수 있고 보기 드롭다운 메뉴에 나열된 모든 보기에서는 볼 수 없습니다.
+  예를 들어, 테이블 보기에서 필터를 만들 때 선택한 보기에서만 필터 결과를 볼 수 있고 레코드 유형과 연관된 모든 보기에서는 볼 수 없습니다.
 
   >[!NOTE]
   >
-  > Adobe Workfront 계획 기능은 현재 베타 상태이므로 일부 보기 요소는 모든 보기에서 사용하지 못할 수 있습니다.
+  > Adobe Workfront planning은 현재 Beta 상태이므로 일부 보기 요소를 일부 보기에서 사용하지 못할 수 있습니다.
 
 이 문서에서는 레코드 보기에 대한 다음 정보를 설명합니다.
 
 * [보기 만들기 및 편집](#create-or-edit-record-views)
 * [보기 삭제](#delete-views)
-  <!--* [Duplicate a view](#duplicate-views)-->
-  <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
+* [보기 복제](#duplicate-views)
 * [보기 공유](#share-a-view)
+  <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 
 ## 레코드 보기 간의 유사성 및 차이점
 
@@ -233,20 +232,30 @@ Adobe Workfront 계획 기능 영역에서 레코드 유형을 선택한 후 다
 
 <!--## Add a view as a favorite - this is not possible yet-->
 
-<!--not possible yet - August 30, 2023: 
+<!--not possible yet - August 30, 2023: -->
 
-## Duplicate views
+## 보기 복제
 
-If you want to keep multiple versions of a view and make slight changes between the version, you can duplicate a view. Duplicating a view creates identical copies of an existing view. 
+여러 버전의 보기를 유지하고 버전 간에 약간의 변경 내용을 적용하려는 경우 보기를 복제할 수 있습니다.
 
-1. From the **Main Menu**, click **Maestro**. 
-    The workspace you last accessed opens by default. For information about creating workspaces, see [Create workspaces](../architecture/create-workspaces.md).
-1. Click a record type. For information about creating a record type, see [Create record types](../architecture/create-record-types.md). 
+뷰를 복제하면 기존 뷰의 동일한 복사본이 만들어집니다.
 
-    By default, all the records of the type selected display in the table view. 
+원래 보기의 공유 권한이 복제된 보기로 전송되지 않습니다.
 
-1. Click the view drop-down menu, then click the **More** menu ![](assets/more-menu.png) to the right of the view name > **Duplicate**. (**********ensure there is not another saving step here?! also, add how this view is named; the button to duplicate was there but not the functionality yet************)
-    
-    The view is duplicated and visible to all users who can access the Maestro area. 
+{{step1-to-maestro}}
 
--->
+마지막으로 액세스한 작업공간은 기본적으로 열립니다.
+
+작업 공간 만들기에 대한 자세한 내용은 [작업 공간 만들기](../architecture/create-workspaces.md).
+
+1. 레코드 유형 카드를 클릭합니다. 레코드 종류 만들기에 대한 내용은 [레코드 유형 만들기](../architecture/create-record-types.md).
+
+   기본적으로 선택된 유형의 모든 레코드가 테이블 뷰에 표시됩니다.
+
+1. 복제할 보기의 탭 위로 마우스를 가져간 다음 **자세히** 메뉴 ![](assets/more-menu.png) 뷰 이름의 오른쪽에 있는 **복제**.
+
+   ![](assets/view-more-menu-with-duplicate-option.png)
+
+
+   뷰가 복제되고 새 뷰의 이름은 다음 패턴을 따릅니다. `Original view's name (Copy)`. 새 보기 탭은 모든 보기 탭의 끝에 표시됩니다.
+

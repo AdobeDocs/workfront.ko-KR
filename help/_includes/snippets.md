@@ -1,7 +1,7 @@
 ---
-source-git-commit: 46c4deee89c786b73945c2facbf6d21ef035c14f
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '2362'
+source-wordcount: '2355'
 ht-degree: 1%
 
 ---
@@ -247,19 +247,19 @@ Workfront 프로젝트에 있는 동안 사용자가 Experience Manager에 연�
 
 ## 1단계 - Maestro 시작하기 - {#step1-to-maestro}
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리에서 을(를) 클릭하고 **[!UICONTROL 마에스트로]**.
+1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리에서 을(를) 클릭하고 **[!UICONTROL 계획 수립]**.
 
 ## 마에스트로의 중요한 소개 - {#maestro-important-intro}
 
 >[!IMPORTANT]
 >
->이 문서의 정보는 Adobe Workfront의 새로운 서비스인 Adobe Workfront 계획 기능에 대한 것입니다.
+>이 문서의 정보는 Adobe Workfront의 새 서비스인 Adobe Workfront 계획에 나와 있습니다.
 >
->현재 계획 기능은 제한된 수의 고객에게 제공되는 베타 프로그램의 일부입니다. 이러한 기능을 사용하려면 Workfront 고객이어야 합니다.
+>현재 Workfront planning은 제한된 수의 고객에게 공개되는 베타 프로그램의 일부입니다. 이러한 기능을 사용하려면 Workfront 고객이어야 합니다.
 >
->계획 기능에 대한 베타 프로그램 가입에 대한 자세한 내용은 계정 담당자에게 문의하십시오.
+>Workfront Planning용 Beta 프로그램 가입에 대한 자세한 내용은 계정 담당자에게 문의하십시오.
 >
->계획 기능에 대한 자세한 내용은 다음을 참조하십시오. [Adobe Workfront 계획 기능 개요](/help/quicksilver/maestro/maestro-overview.md).
+>자세한 내용은 [Adobe Workfront 계획 개요](/help/quicksilver/maestro/maestro-overview.md).
 
 <!-- Manage Work -->
 

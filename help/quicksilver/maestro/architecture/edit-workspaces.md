@@ -4,22 +4,23 @@ description: 기존 작업 영역의 정보를 편집하고 이름을 변경할 
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
 
-<!--update the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # 작업 영역 편집
 
 {{maestro-important-intro}}
 
-Adobe Maestro에서 작업 공간은 팀이 작업을 계획하기 위한 중앙 집중식 위치입니다.
+Adobe Workfront 계획에서 작업 공간은 팀이 작업을 계획하는 중앙 집중식 위치입니다.
 
-작업 공간은 팀에서 사용하는 운영 레코드 유형 및 분류의 모음이며 팀의 작업 주기를 나타냅니다. Maestro에서 작업 공간을 완전히 사용자 지정할 수 있습니다.
+작업 영역은 팀에서 사용하는 레코드 유형의 컬렉션으로, 팀의 작업 라이프사이클을 나타냅니다. Adobe Workfront planning에서 작업 공간을 완전히 사용자 정의할 수 있습니다.
 
 작업 공간 만들기에 대한 자세한 내용은 [작업 공간 만들기](/help/quicksilver/maestro/architecture/create-workspaces.md).
 
@@ -42,7 +43,7 @@ Adobe Maestro에서 작업 공간은 팀이 작업을 계획하기 위한 중앙
   </tr>  
  <td role="rowheader"><p>Adobe Workfront 계약</p></td>
    <td>
-<p>Adobe Maestro Closed Beta 프로그램에 조직을 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
+<p>Adobe Workfront Planning 마감된 Beta 프로그램에 조직을 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
    </td>
   </tr>
   <tr>
@@ -61,7 +62,7 @@ Adobe Maestro에서 작업 공간은 팀이 작업을 계획하기 위한 중앙
 
 <tr>
    <td role="rowheader"><p>액세스 수준 구성</p></td>
-   <td> <p>Maestro에 대한 액세스 수준 제어 없음</p>
+   <td> <p>Workfront 계획에 대한 액세스 수준 제어가 없습니다.</p>
 </td>
   </tr>
 
@@ -73,7 +74,7 @@ Adobe Maestro에서 작업 공간은 팀이 작업을 계획하기 위한 중앙
 
 <tr>
    <td role="rowheader"><p>레이아웃 템플릿</p></td>
-   <td> <p>레이아웃 템플릿에 마에스트로 영역을 추가해야 합니다. 자세한 내용은 <a href="../access/access-overview.md">액세스 개요</a>. </p>  
+   <td> <p>레이아웃 템플릿에 계획 영역을 추가해야 합니다. 자세한 내용은 <a href="../access/access-overview.md">액세스 개요</a>. </p>  
 </td>
   </tr>
 
@@ -87,7 +88,7 @@ Adobe Maestro에서 작업 공간은 팀이 작업을 계획하기 위한 중앙
 
 {{step1-to-maestro}}
 
-그러면 Maestro의 Workspaces 영역이 열립니다.
+Workfront 계획의 작업 영역 영역이 열립니다.
 
 1. 새 작업 공간 헤더의 작업 공간 이름 안쪽을 클릭하여 이름을 변경한 다음 키를 누릅니다 **입력**
 
@@ -99,11 +100,7 @@ Adobe Maestro에서 작업 공간은 팀이 작업을 계획하기 위한 중앙
 
    자세한 내용은 [레코드 유형 만들기](../architecture/create-record-types.md).
 
-1. (선택 사항) **분류 추가** 작업공간에 분류를 추가합니다.
-
-   자세한 내용은 [분류 만들기](../architecture/create-a-taxonomy.md).
-
-1. (선택 사항) 뷰 드롭다운 메뉴를 클릭하여 기존 뷰를 편집하거나 뷰를 만듭니다.
+1. (선택 사항) 뷰 탭에서 뷰 이름을 클릭하여 기존 뷰를 편집하거나 **+ 보기** 를 클릭하여 보기를 생성합니다.
 
    자세한 내용은 [레코드 보기 관리](/help/quicksilver/maestro/views/manage-record-views.md).
 

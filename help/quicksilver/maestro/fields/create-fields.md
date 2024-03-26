@@ -1,13 +1,13 @@
 ---
 title: 필드 만들기
-description: Adobe Maestro에서 각 유형의 운영 레코드 유형 또는 분류법에 대한 사용자 정의 필드를 만들 수 있습니다. 그런 다음 필드를 Maestro 레코드와 연결할 수 있습니다.
+description: Adobe Workfront planning에서 각 레코드 유형에 대해 사용자 정의 필드를 만들 수 있습니다. 그런 다음 필드를 Workfront 계획 레코드와 연결할 수 있습니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: be9cedb0d09e6409a0e589f01b85a72933ac89fc
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '3341'
+source-wordcount: '3338'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-Adobe Maestro에서 운영 레코드 유형 또는 분류법에 대한 사용자 정의 필드를 만들 수 있습니다. 그런 다음 필드를 마에스트로 레코드와 연결하여 레코드 정보를 향상시킬 수 있습니다.
+Adobe Workfront planning에서 레코드 유형에 대한 사용자 정의 필드를 만들 수 있습니다. 그런 다음 필드를 Workfront 계획 레코드와 연결하여 레코드 정보를 향상시킬 수 있습니다.
 
 레코드 유형과 연결할 필드를 만들려면 먼저 레코드 유형을 만들어야 합니다. 자세한 내용은 [레코드 유형 만들기](../architecture/create-record-types.md).
 
@@ -68,7 +68,7 @@ Maestro 필드에 대한 자세한 내용은 [필드 개요](../fields/fields-ov
   </tr>  
  <td role="rowheader"><p>Adobe Workfront 계약</p></td>
    <td>
-<p>Adobe Maestro Closed Beta 프로그램에 조직을 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
+<p>조직은 Adobe Workfront planning Beta 프로그램에 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
    </td>
   </tr>
   <tr>
@@ -86,7 +86,7 @@ Maestro 필드에 대한 자세한 내용은 [필드 개요](../fields/fields-ov
 
 <tr>
    <td role="rowheader"><p>액세스 수준 구성</p></td>
-   <td> <p>Maestro에 대한 액세스 수준 제어가 없습니다.</p>  
+   <td> <p>Workfront 계획에 대한 액세스 수준 제어가 없습니다.</p>  
 </td>
   </tr>
 
@@ -98,7 +98,7 @@ Maestro 필드에 대한 자세한 내용은 [필드 개요](../fields/fields-ov
   </tr>
 <tr>
    <td role="rowheader"><p>레이아웃 템플릿</p></td>
-   <td> <p>Workfront 또는 그룹 관리자는 레이아웃 템플릿에 마에스트로 영역을 추가해야 합니다. 자세한 내용은 <a href="../access/access-overview.md">액세스 개요</a>. </p>  
+   <td> <p>Workfront 또는 그룹 관리자는 레이아웃 템플릿에 계획 영역을 추가해야 합니다. 자세한 내용은 <a href="../access/access-overview.md">액세스 개요</a>. </p>  
 </td>
   </tr>
 
@@ -373,13 +373,13 @@ Maestro 필드에 대한 자세한 내용은 [필드 개요](../fields/fields-ov
 
    지원되는 표현식에 대한 자세한 내용은 [공식 필드 개요](/help/quicksilver/maestro/fields/formula-fields.md)
 
-1. 수식에서 참조할 수 있도록 Maestro 인터페이스에 표시되는 필드 이름을 추가합니다.
+1. Workfront 계획 인터페이스에 표시되는 대로 필드 이름을 추가하여 공식에서 참조합니다.
 
    >[!NOTE]
    >
    > * 수식에 다중 선택 유형 필드를 추가할 수 없습니다.
    >
-   > * 수식에서 연결된 레코드에서 필드를 추가할 수 없습니다. 이 기능은 나중에 릴리스됩니다. 새 릴리스에 대한 자세한 내용은 [Adobe Workfront 계획 기능 릴리스 활동](/help/quicksilver/maestro/release-activity.md).
+   > * 수식에서 연결된 레코드에서 필드를 추가할 수 없습니다. 이 기능은 나중에 릴리스됩니다. 새 릴리스에 대한 자세한 내용은 [Adobe Workfront 계획 릴리스 활동](/help/quicksilver/maestro/release-activity.md).
 
 
 1. Click **Create**.
@@ -513,7 +513,7 @@ Maestro 필드에 대한 자세한 내용은 [필드 개요](../fields/fields-ov
 
 두 Maestro 레코드 유형 또는 다른 응용 프로그램의 레코드 유형과 객체 유형 간에 새로운 연결을 추가할 때 연결된 레코드 필드를 만들 수 있습니다.
 
-Maestro 레코드 유형 연결에 대한 자세한 내용은 [레코드 유형 연결](../architecture/connect-record-types.md)
+Workfront Planning 레코드 유형 연결에 대한 자세한 내용은 [레코드 유형 연결](../architecture/connect-record-types.md)
 
 ## Excel 및 CSV 파일을 사용하여 레코드 유형을 가져와서 필드 만들기
 
@@ -521,10 +521,10 @@ Maestro 레코드 유형 연결에 대한 자세한 내용은 [레코드 유형 
 
 ## 레코드 유형을 만들어 필드 만들기
 
-레코드 유형을 만들 때 새 레코드 유형과 연관된 여러 필드도 기본적으로 만들어집니다. 자세한 내용은 [운영 레코드 유형 만들기](../architecture/create-record-types.md).
+레코드 유형을 만들 때 새 레코드 유형과 연관된 여러 필드도 기본적으로 만들어집니다. 자세한 내용은 [레코드 유형 만들기](../architecture/create-record-types.md).
 
 ## 템플릿으로 작업 공간을 만들어 필드 만들기
 
-템플릿에서 작업 영역을 만들 때 Maestro는 작동 기록 유형 및 분류법에 대한 필드를 만듭니다.
+템플릿에서 작업 영역을 만들 때 Adobe Workfront planning은 레코드 유형에 대한 필드를 만듭니다.
 
-자세한 내용은 [운영 작업 공간 만들기](../architecture/create-workspaces.md).
+자세한 내용은 [작업 공간 만들기](/help/quicksilver/maestro/architecture/create-workspaces.md).
