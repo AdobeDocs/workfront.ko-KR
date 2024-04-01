@@ -8,9 +8,9 @@ author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 34814016-e030-4e21-a597-686c4107eff4
-source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
+source-git-commit: 8321138e6bc2c789a3f4f0fc97fb4fb01ad429ae
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!-- Audited: 12/2023 -->
 
-크리에이티브 팀이 작동하는 동일한 문서에서 검토하고 주석을 답니다. Workfront Proofing을 사용하면 댓글 및 버전에 대한 감사 추적을 유지하면서 피드백을 요청하고, 댓글을 확인하고, 보류 및 완료된 승인에 대한 알림을 받을 수 있습니다.
+크리에이티브 팀이 작동하는 동일한 문서에서 검토하고 주석을 답니다. Proofing을 사용하면 댓글 및 버전의 감사 추적을 유지하면서 피드백을 요청하고, 의견을 확인하고, 보류 중인 승인 및 완료된 승인에 대한 알림을 받을 수 있습니다.
 
 이 섹션에는 다음 하위 섹션이 포함됩니다.
 

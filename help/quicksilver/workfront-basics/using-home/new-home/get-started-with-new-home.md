@@ -6,14 +6,16 @@ description: 새로운 홈은 작업 관리를 위한 강력한 새로운 기능
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 4387c4cda66384f9d988d82cab5e7ed90a70173e
+source-git-commit: 8321138e6bc2c789a3f4f0fc97fb4fb01ad429ae
 workflow-type: tm+mt
-source-wordcount: '1120'
-ht-degree: 8%
+source-wordcount: '1131'
+ht-degree: 5%
 
 ---
 
 # 새 홈 시작
+
+
 
 <!--Audited: 12/2023-->
 
@@ -55,7 +57,7 @@ Adobe Workfront의 새로운 홈 경험은 현재의 홈 경험을 개선하는 
     보류 중인 할당 또는 위임된 승인, 승인을 위임하는 버튼 및 위젯 내에서 직접 승인을 결정하는 버튼을 모두 표시합니다.
 
 * **모든 승인**\
-    맞춤형 열과 특정 승인을 검색할 수 있는 검색창이 있는 표에 조직에 대한 모든 승인을 표시합니다.
+        <span class="preview"> 평균 승인 시간 및 의사 결정과 보류 중인 승인 및 기한 경과 승인의 목록 보기에 대한 정보가 포함된 2개의 차트를 표시합니다.</span> <span style="color: #ff0000;">이 기능은 단계별 릴리스의 일부이며 현재 특정 고객에게만 제공됩니다.</span>
 
 * **승인 보류 중**\
     자신이 소유한 프로젝트의 문서에 할당된 승인을 표시합니다. 여기에서 승인 상태를 보고 사용자에게 미완료 검토 및 승인을 알릴 수 있습니다. <span style="color: #ff0000;">이 기능은 단계별 릴리스의 일부이며 현재 특정 고객에게만 제공됩니다.</span>
