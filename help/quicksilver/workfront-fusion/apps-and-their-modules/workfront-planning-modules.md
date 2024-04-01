@@ -11,9 +11,9 @@ feature: Workfront Fusion
 hide: true
 hidefromtoc: true
 exl-id: 892fdaf3-935e-4e66-a01c-9e9b6e0daf3e
-source-git-commit: 593612fea52d917904605cf3d97403347c9c9ac0
+source-git-commit: e067c5ff34c31060ca6fd392289d845f53a5ef3a
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1116'
 ht-degree: 0%
 
 ---
@@ -93,6 +93,10 @@ ht-degree: 0%
       <td role="rowheader">[!UICONTROL 개체 유형]</td>
       <td>레코드, 레코드 종류 또는 작업 영역을 감시할지 여부를 선택합니다.</td>
     </tr>
+     <tr data-mc-conditions=""> 
+      <td> <p>[!UICONTROL 이벤트 필터]</p> </td> 
+      <td> <p>선택한 기준을 충족하는 레코드만 보도록 필터를 설정할 수 있습니다.</p> <p>각 필터에 대해 필터를 평가할 필드, 연산자 및 필터를 허용할 값을 입력합니다. AND 규칙을 추가하여 두 개 이상의 필터를 사용할 수 있습니다.</p> <p>참고: 기존 필터에서는 편집할 수 없습니다 [!DNL Workfront] 웹훅. 다음에 대한 다른 필터를 설정하려면 [!DNL Workfront] 이벤트 구독, 현재 웹후크를 제거하고 새 웹후크를 만듭니다.</p> <p>이벤트 필터에 대한 자세한 내용은 <a href="/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#event-subscription-filters-in-the-workfront--watch-events-modules" class="MCXref xref">의 이벤트 구독 필터 [!DNL Workfront] &gt; [!UICONTROL 감시 이벤트] 모듈</a> Workfront 모듈 문서에서.</p> </td> 
+     </tr> 
     <tr>
       <td role="rowheader">[!UICONTROL Objects to watch]</td>
       <td>새로운 항목을 감시할지 여부를 선택합니다. 업데이트, 새 레코드 및 업데이트 또는 삭제된 레코드.</td>
