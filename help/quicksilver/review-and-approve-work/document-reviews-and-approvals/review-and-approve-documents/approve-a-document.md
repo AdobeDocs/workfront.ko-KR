@@ -6,9 +6,9 @@ description: 문서의 승인자로 할당된 경우 여러 가지 방법으로 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
-source-git-commit: 864481fe2af7a2433bac841bb35995c58fe06743
+source-git-commit: e8116a6778d5952ba583cfdfb94b761757adc030
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1063'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 문서의 승인자로 할당된 경우 여러 가지 방법으로 승인 결정을 내릴 수 있습니다.
 
-새 문서 승인 만들기에 대한 자세한 내용은 [문서 승인 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+새 문서 승인 만들기에 대한 자세한 내용은 [문서 검토 또는 승인 요청 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 >[!IMPORTANT]
 >
