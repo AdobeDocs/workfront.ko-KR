@@ -4,9 +4,10 @@ description: 2024년 2분기 업데이트 스트림 및 알림 개선 사항
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4387c4cda66384f9d988d82cab5e7ed90a70173e
+exl-id: 29d8b581-27c9-4215-8147-8044b3e2bc5e
+source-git-commit: 2faa01024a1a174bacb42e9c6e24f528252f49f4
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
@@ -16,6 +17,16 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2024년 2분기 릴리스의 모든 업데이트 스트림 및 알림 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2024년 2분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [2024년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## 기존 댓글 달기 영역에 대한 액세스가 제거되었습니다.
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2024년 4월 1일, 모든 고객을 위한 프로덕션: 24.4 릴리스 포함(2024년 4월)
+
+프로젝트, 작업, 문제 및 문서에 대한 업데이트 영역에서 &quot;새 댓글 달기&quot; 전환을 제거했습니다. 이제 새로운 댓글 달기 는 이러한 개체에 대한 기본적이고 유일한 옵션입니다. 이 변경 사항으로 인해 더 이상 이전의 댓글 달기 경험으로 되돌릴 수 없습니다.
+
+자세한 내용은 [새 댓글 달기 환경](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 ## 이제 새 홈 위젯에 대한 빠른 작업에서 새 댓글 달기 스트림을 사용할 수 있습니다.
 

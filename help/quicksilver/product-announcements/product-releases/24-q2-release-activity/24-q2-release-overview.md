@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: fcf4ff8525e3ac65aa75ab01463a3641e7898169
+source-git-commit: 876991bab19d065257802a903adf432e420fcc44
 workflow-type: tm+mt
-source-wordcount: '1820'
+source-wordcount: '2020'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,7 @@ ht-degree: 0%
 ## Adobe Workfront 개선 사항
 
 * [관리자 개선 사항](#administrator-enhancements)
+* [문서 관리 개선 사항](#document-management-enhancements)
 * [홈 개선 사항](#home-enhancements)
 * [프로젝트 개선 사항](#project-enhancements)
 * [향상된 리소스 관리 기능](#resource-management-enhancements)
@@ -64,7 +65,23 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">이제 회사 및 사용자가 고급 사용자 정의 양식 필드를 지원합니다</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">이제 양식 디자이너 미리 보기 모드에서 표시 논리 및 건너뛰기 논리를 사용할 수 있습니다</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p>
+                        <p>이제 Beta 사용자 정의 양식 디자이너를 사용하여 미리보기 모드에서 디스플레이 논리를 테스트하고 논리를 건너뛸 수 있습니다. 이전에는 논리가 적용되어도 모든 필드가 미리보기에 표시되었습니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2024년 3월 28일</p>
+                            </li>
+                            <li>
+                                <p>고객을 위한 프로덕션: 24.4 릴리스 포함(2024년 4월)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">이제 회사 및 사용자가 고급 사용자 정의 양식 필드를 지원합니다</a></p>
                         <p>이제 회사 또는 사용자에 사용자 정의 양식을 첨부할 때 외부 조회 필드 및 Workfront 기본 필드와 같은 고급 사용자 정의 양식 기능을 사용할 수 있습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -154,7 +171,7 @@ ht-degree: 0%
             </tbody>
         </table>
 
-### 홈 개선 사항
+### 문서 관리 개선 사항
 
 <table>
             <col style="width: 50%;" />
@@ -169,58 +186,80 @@ ht-degree: 0%
                         <p><span class="bold">릴리스 날짜</span>
                         </p>
                     </td>
-                 </tr>
+                </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">레이아웃 템플릿을 사용하여 새 홈의 관리자 컨트롤에 열 옵션 추가</a></p><p>[!BADGE In Production for Fast Release ]{type=Positive}</p><p>이제 관리자는 레이아웃 템플릿을 사용하여 특정 새 홈 위젯의 사용자가 사용할 수 있는 열을 사용자 정의할 수 있습니다. 옵션에는 기본 열을 숨기거나 표시하고 기존 필드를 새 열로 추가하는 작업이 포함됩니다.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">문서 검토 및 승인에 기한 추가</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p>
+                        <p>이제 문서를 검토하거나 승인하도록 할당된 사용자 또는 팀에 대한 기한을 지정할 수 있습니다. 검토자와 승인자는 72시간 후 지정된 기한 24시간 전에 이메일 알림을 수신합니다. 기한은 새 홈 영역의 승인 위젯에도 반영됩니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
                             <li>
-                                <p>미리보기 릴리스: 2024년 1월 2일</p>
+                                <p>미리보기 릴리스: 2024년 3월 28일</p>
                             </li>
                             <li>
-                                <p>빠른 릴리스를 위한 프로덕션: 24.2 릴리스 포함(2024년 2월 15일)</p>
-                            </li>
-                            <li>
-                                <p>분기별 릴리스 프로덕션: 24.4 릴리스 포함(2024년 4월)</p>
+                                <p>고객을 위한 프로덕션: 24.4 릴리스 포함(2024년 4월)</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
-           </tbody>
-        </table>
-
-### 통합 개선 사항
-
-<table>
-    <col style="width: 50%;" />
-    <col style="width: 50%;" />
-    <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">기능</span>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">승인 템플릿 만들기 및 사용</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p>
+                        <p>이제 설정 영역에서 승인 템플릿을 만들어 검토 및 승인 프로세스를 간소화할 수 있습니다. 승인 템플릿을 사용하면 다음 작업을 통해 검토 및 승인 프로세스를 보다 반복적으로 사용할 수 있습니다.
+                        <ul>
+                            <li>
+                                <p>검토자 및 승인자 추가</p>
+                            </li>
+                            <li>
+                                <p>일정 설정</p>
+                            </li>
+                        </ul>
                         </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">릴리스 날짜</span>
-                        </p>
-                    </td>
-                 </tr>
-                 <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager 통합에서 자동 폴더 생성 워크플로 개선 사항</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Adobe Experience Manager 폴더가 요구 사항을 보다 정확하게 반영할 수 있도록 중첩 폴더 트리를 Adobe Experience Manager 연결 폴더 워크플로에 추가했습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
                             <li>
-                                <p>미리보기 릴리스: 2024년 3월 11일</p>
+                                <p>미리보기 릴리스: 2024년 3월 28일</p>
                             </li>
-                             <li> <p><span class="preview">모든 고객을 위한 프로덕션 릴리스: 2024년 3월 14일</span></p>
-                             </li>
+                            <li>
+                                <p>고객을 위한 프로덕션: 24.4 릴리스 포함(2024년 4월)</p>
+                            </li>
                         </ul>
                     </td>
-                 </tr>          
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">한 곳에서 모든 승인에 대한 정보 보기</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p>
+                        <p>승인 요청을 한눈에 관리하고 분석할 수 있도록 모든 승인 위젯에 다음과 같은 주요 성능 지표를 추가했습니다.
+                        <ul>
+                            <li>
+                                <p>결정에 의한 승인</p>
+                            </li>
+                            <li>
+                                <p>평균 승인 시간</p>
+                            </li>
+                            <li>
+                                <p>보류 중인 승인</p>
+                            </li>
+                            <li>
+                                <p>기한이 경과된 승인</p>
+                            </li>
+                        </ul>
+                        </p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2024년 3월 28일</p>
+                            </li>
+                            <li>
+                                <p>고객을 위한 프로덕션: 24.4 릴리스 포함(2024년 4월)</p>
+                            </li>
+                        </ul>
+                        <p><span style="color: #ff0000;">이 기능은 단계별 릴리스의 일부이며 현재 특정 고객에게만 제공됩니다.</span></p>
+                    </td>
+                </tr>
             </tbody>
 </table>
 
@@ -338,6 +377,22 @@ ht-degree: 0%
                         </p>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">기존 댓글 달기 영역에 대한 액세스가 제거되었습니다.</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p>
+                        <p>프로젝트, 작업, 문제 및 문서에 대한 업데이트 영역에서 "새 댓글 달기" 전환을 제거했습니다. 이제 새로운 댓글 달기 는 이러한 개체에 대한 기본적이고 유일한 옵션입니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2024년 4월 1일</p>
+                            </li>
+                            <li>
+                                <p>모든 고객을 위한 프로덕션: 24.4 릴리스 포함(2024년 4월)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>  
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">이제 새 홈 위젯에 대한 빠른 작업에서 새 댓글 달기 스트림을 사용할 수 있습니다.</a></p><p>[!BADGE In Production for Fast Release ]{type=Positive}</p>

@@ -4,9 +4,10 @@ description: 2024년 2분기 관리자 개선 사항
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a4056eb307c326b99f25406c2d5b87ad6018c754
+exl-id: a297ee8d-d949-45ab-a219-437316fa8fa3
+source-git-commit: 2faa01024a1a174bacb42e9c6e24f528252f49f4
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '802'
 ht-degree: 0%
 
 ---
@@ -16,6 +17,16 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2024년 2분기 릴리스의 모든 관리자 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2024년 2분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [2024년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## 이제 양식 디자이너 미리 보기 모드에서 표시 논리 및 건너뛰기 논리를 사용할 수 있습니다
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2024년 3월 28일, 모든 고객을 위한 프로덕션: 24.4(2024년 4월)
+
+이제 Beta 사용자 정의 양식 디자이너를 사용하여 미리보기 모드에서 디스플레이 논리를 테스트하고 논리를 건너뛸 수 있습니다. 이전에는 논리가 적용되어도 모든 필드가 미리보기에 표시되었습니다.
+
+양식 디자이너에서 사용자 정의 양식을 미리 보는 방법에 대한 자세한 내용은 [양식 디자이너를 사용하여 양식 구성 및 미리 보기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
 
 ## 이제 회사 및 사용자가 고급 사용자 정의 양식 필드를 지원합니다
 
