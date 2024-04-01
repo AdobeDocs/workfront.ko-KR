@@ -8,16 +8,14 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1190'
 ht-degree: 0%
 
 ---
 
 # 업데이트에 대한 회신
-
-{{preview-and-fast-release}}
 
 <!--remove legacy and new experience references when we remove the legacy updates in the UI - Jan 2024???-->
 
@@ -28,6 +26,12 @@ ht-degree: 0%
 <span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> 
 
 -->
+
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리보기 환경 또는 빠른 릴리스를 활성화한 고객의 프로덕션 환경에서만 사용할 수 있습니다. </span>
+
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 활성화 또는 비활성화](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">현재 릴리스 일정에 대한 자세한 내용은 [2024년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 >[!IMPORTANT]
 >
@@ -40,14 +44,16 @@ ht-degree: 0%
 >
 >새 댓글 달기 경험과 사용 가능 여부에 대한 자세한 내용은 [새 댓글 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->새 주석 달기 경험은 Workfront 오브젝트의 업데이트 섹션에만 사용할 수 있고 다음 영역에서 오브젝트에 액세스할 때는 사용할 수 없습니다.
+><Span class="preview"> 이전 댓글 달기 경험이 미리보기 환경의 프로젝트, 작업, 문제 및 문서에서 제거되었습니다. </span>
+>
+>새 댓글 달기 경험은 Workfront 개체의 업데이트 섹션에만 사용할 수 있으며 다음 영역에서 업데이트에 액세스할 때는 사용할 수 없습니다.
 >
 > * 홈
 > * 목록의 요약 패널
 > * 타임시트의 요약 패널
 > * 업무 균형자의 요약 패널
 >
-><span class="preview">새로운 댓글 달기 환경은 빠른 릴리스 프로세스를 선택한 고객을 위해 미리보기 환경의 목록, 타임시트 및 업무 균형자의 요약 패널과 프로덕션 환경에서 사용할 수 있습니다.</span>
+><span class="preview">새로운 댓글 달기 환경은 빠른 릴리스 프로세스를 선택한 고객을 위해 미리보기 환경의 목록, 타임시트 및 업무 균형자의 요약 패널과 프로덕션 환경에서 사용할 수 있습니다. </span>
 
 누군가 작업 개체에 대한 댓글 또는 시스템 업데이트에 답글을 달면 해당 답글이 해당 개체의 업데이트 섹션에 있는 통신 스레드에 나타납니다.
 

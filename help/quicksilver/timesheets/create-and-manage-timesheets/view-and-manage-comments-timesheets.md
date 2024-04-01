@@ -6,9 +6,9 @@ description: 타임시트, 타임시트에 포함된 작업 항목 및 사용자
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: fdf4c86ce70402885e109a680ed1b088dcf71f55
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
@@ -90,7 +90,16 @@ ht-degree: 0%
 
    댓글이에 표시됩니다. [!UICONTROL 업데이트] 구성 요소 탭의 타임시트 섹션.
 
-1. (선택 사항) **시스템 활동** 시스템 생성 업데이트를 검토하는 탭입니다.
+1. (선택 사항) **시스템 활동** 시스템이 생성한 업데이트를 검토하는 탭
+
+   또는
+
+   다음을 클릭합니다. **모두** 시간 순서대로 시스템 활동 및 사용자 주석을 볼 수 있는 탭입니다.
+
+   >[!TIP]
+   >
+   >   모두 탭은 읽기 전용 탭이며 여기에서 댓글에 답글을 달 수 없습니다.
+
 
    자세한 내용은 [작업 업데이트](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
@@ -139,7 +148,7 @@ ht-degree: 0%
 1. 클릭 [!UICONTROL **타임시트**].
 1. 댓글을 달려는 타임시트로 이동하여 [!UICONTROL **타임시트**] 왼쪽 패널에서
 1. 작업 또는 문제의 행을 클릭한 다음 [!UICONTROL **요약 열기**].
-1. 에서 업데이트를 입력하십시오. [!UICONTROL **업데이트**] 요약 패널의 영역을 클릭한 다음 [!UICONTROL **업데이트**].
+1. 에서 업데이트를 입력하십시오. [!UICONTROL **업데이트**] 요약 패널의 영역을 클릭한 다음 [!UICONTROL **제출**].
 작업 및 문제의 업데이트 섹션에 업데이트가 표시됩니다.
 1. (선택 사항) [!UICONTROL **요약 닫기**] 요약 패널을 닫습니다.
 

@@ -6,9 +6,9 @@ description: 작업의 완료율을 업데이트하여 해당 작업의 완료 �
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -75,6 +75,16 @@ ht-degree: 0%
 * **작업 헤더**: 작업 헤더에서 작업의 완료율을 업데이트할 수 있습니다. 자세한 내용은 [작업 편집](../../tasks/manage-tasks/edit-tasks.md).
 
   ![](assets/nwe-updatetaskpercentinheader-350x54.png)
+
+* **작업의 요약 패널에서**: 다음 영역에서 작업을 볼 때 요약 패널의 맨 위에 있는 작업의 완료율을 업데이트할 수 있습니다.
+
+   * 작업 목록 또는 보고서
+   * 타임시트
+   * 워크로드 밸런서
+
+  ![](assets/update-percent-complete-in-task-summary-highlighted.png)
+
+  자세한 내용은 [요약 개요](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
 
 
 ## 작업 완료율 업데이트에 대한 고려 사항

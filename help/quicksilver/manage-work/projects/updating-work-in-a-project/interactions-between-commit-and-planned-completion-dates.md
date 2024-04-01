@@ -6,9 +6,9 @@ description: 계획된 완료 및 커밋 일자는 모두 작업이 완료되어
 author: Alina
 feature: Work Management
 exl-id: 1709c60c-ac75-48eb-9226-ec2cf556ebf0
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '410'
 ht-degree: 1%
 
 ---
@@ -57,7 +57,7 @@ this article has mostly information that is repeated from the articles linked fr
 
 커밋 일자를 변경하는 피할당자는 계획된 완료 일자를 자동으로 변경하지 않습니다. 그 반대도 마찬가지입니다. 계획된 완료 일자를 변경해도 커밋 일자는 변경되지 않습니다.
 
-커밋 일자가 계획된 완료 일자보다 늦은 일자로 변경되면 프로젝트 소유자에게 이 변경이 발생했으며 프로젝트 소유자가 기존 주석 달기 경험을 사용하는 경우 프로젝트의 타임라인에 영향을 줄 수 있다는 알림이 전송됩니다. 이 기능은 새 댓글 달기 환경에서 지원되지 않습니다. 자세한 내용은 [새 댓글 달기 환경](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+커밋 일자가 계획된 완료 일자보다 늦은 일자로 변경되면 프로젝트 소유자에게 이 변경이 발생했으며 이는 프로젝트의 타임라인에 영향을 줄 수 있다는 알림이 전송됩니다.
 
 피할당자가 제공한 커밋 일자를 프로젝트 소유자가 수락할 수 있는 경우 작업이나 문제에 대해 계획된 완료 일자를 수동으로 업데이트해야 합니다. 자세한 내용은 다음 문서를 참조하십시오.
 

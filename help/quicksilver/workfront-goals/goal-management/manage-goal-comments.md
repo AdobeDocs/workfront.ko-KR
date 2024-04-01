@@ -6,16 +6,14 @@ description: Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: a1481513747bec3486d94c74c234e2db5cc664d6
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1095'
 ht-degree: 0%
 
 ---
 
 # Adobe Workfront 목표의 목표 주석 관리
-
-{{highlighted-preview}}
 
 <!--Audited: 01/2024-->
 
@@ -101,14 +99,6 @@ Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석을 추가할
 1. 클릭  **업데이트** 왼쪽 패널에서
 1. (선택 사항) 기존 설명을 찾으려면 키워드 입력을 시작합니다 <!--or a user's name--> 다음에서 **검색** 의 오른쪽 위 모서리에 있는 상자 **댓글** 탭.
 
-   <div class="preview">
-
-   미리보기 환경의 예:
-   ![댓글 검색](assets/search-for-update-goals-2.png)
-
-   </div>
-
-   프로덕션 환경의 예:
    ![](assets/search-field-in-updates-tab-goals.png)
 
    키워드 <!--or user--> 을 검색하면 강조 표시되고 이 검색어가 포함된 주석이 업데이트 섹션의 맨 위에 표시됩니다.
@@ -125,14 +115,6 @@ Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석을 추가할
 1. 다음을 클릭합니다. **댓글** 업데이트 영역의 왼쪽 상단 모서리에 있는 탭입니다.
 1. 에 주석 입력 시작 **새 댓글** 상자.
 
-   <div class="preview">
-
-   미리보기 환경의 새로운 댓글 상자 예:
-   ![새 댓글 상자](assets/comment-box-all-tabs.png)
-
-   </div>
-
-   프로덕션 환경의 새 주석 상자 예:
    ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
@@ -190,5 +172,4 @@ Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석을 추가할
 
 1. (선택 사항) **시스템 활동** 시스템에 의해 기록된 업데이트를 보려면 탭하십시오. 목표가 업데이트되면 Workfront에서는 해당 업데이트에 대한 메모를 생성하고 시스템 활동 탭에 표시합니다. Workfront은 결과, 활동 또는 프로젝트가 목표에 추가되거나 업데이트될 때도 시스템 업데이트를 기록합니다. <!--ensure the casing on the tab has not changed-->
 
-1. <span class="preview">(선택 사항) **모두** 탭에서는 사용자 댓글과 시스템 활동 댓글을 한 곳에서 모두 볼 수 있습니다. 모두 탭에서 댓글에 회신하려면 **댓글로 회신** 을 클릭하여 [주석] 탭에서 주석을 엽니다. 모두 탭에서 회신할 수 없습니다.</span>
 

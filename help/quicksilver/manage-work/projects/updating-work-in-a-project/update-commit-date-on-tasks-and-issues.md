@@ -6,12 +6,13 @@ description: 할당된 작업 또는 문제의 커밋 일자를 수동으로 업
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: 55e8fc5ce8f3b4065f6c974bf77da4e91e66090f
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
+
 
 # 작업 및 문제에 대한 커밋 일자 업데이트
 
@@ -88,8 +89,11 @@ ht-degree: 0%
 
      ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
-   * 기존 업데이트 영역을 사용하는 경우 프로젝트 소유자에게 작업 또는 문제에 대한 새 커밋 일자를 제안했다는 알림이 표시되며, 이때 제안한 커밋 일자와 일치하도록 작업 또는 문제의 계획된 완료 일자를 업데이트할 수 있습니다. 이 기능은 새 댓글 달기 환경에서 지원되지 않습니다. 자세한 내용은 [새로운 댓글 달기 환경](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+   * 작업 또는 문제에 대한 새 커밋 일자를 제안했다는 알림이 인앱 알림을 통해 프로젝트 소유자에게 표시됩니다.
+   * 업데이트 섹션에서 프로젝트 소유자에게 새 커밋 일자를 제안했다는 알림이 표시되며 사용자는 이때 제안한 커밋 일자와 일치하도록 작업 또는 문제의 계획된 완료 일자를 업데이트할 수 있습니다. 이 기능은 새 댓글 달기 환경에서 지원되지 않습니다. 자세한 내용은 [새로운 댓글 달기 환경](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
      ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)
 
-     이 변경으로 인해 트리거되는 알림 및 업데이트에 대한 자세한 내용은 섹션을 참조하십시오 [커밋 일자 변경으로 트리거된 알림 및 업데이트](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md#notifica) 이 문서에서 [커밋 일자 개요](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+     이 변경으로 인해 트리거되는 알림 및 업데이트에 대한 자세한 내용은 문서의 &quot;커밋 일자 변경으로 인해 트리거되는 알림 및 업데이트&quot; 섹션을 참조하십시오 [커밋 일자 개요](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+
+<!--at the Production update stream when removing legacy - replace the last bullet with: The Project Owner is notified in the Systems Activity and the All tabs of the Updates section that you have suggested a new Commit Date. They can then update the Planned Completion Date accordingly by editing the task or the issue.-->

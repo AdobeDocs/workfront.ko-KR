@@ -5,16 +5,20 @@ description: 요약 패널을 사용하여 작업 문제 목록, 문서 또는 �
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '1001'
 ht-degree: 1%
 
 ---
 
 # [!UICONTROL 요약] 개요
 
-{{preview-and-fast-release}}
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리보기 환경 또는 빠른 릴리스를 활성화한 고객의 프로덕션 환경에서만 사용할 수 있습니다. </span>
+
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 활성화 또는 비활성화](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">현재 릴리스 일정에 대한 자세한 내용은 [2024년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 다음을 사용할 수 있습니다. [!UICONTROL 요약] 작업 문제 목록, 문서 또는 의 다른 영역에서 작업 항목 정보를 직접 검토하고 업데이트하는 패널 [!DNL Adobe Workfront] 작업 및 문제를 표시합니다.
 
@@ -36,6 +40,9 @@ ht-degree: 1%
   <tr> 
    <td>[!UICONTROL 업무 균형자]의 [!UICONTROL Unassigned] 및 [!UICONTROL Assigned] 작업 영역의 작업</td> 
   </tr> 
+   <tr> 
+   <td>[!UICONTROL 타임시트]의 작업</td> 
+  </tr> 
   <tr data-mc-conditions=""> 
    <td>문제</td> 
   </tr> 
@@ -53,7 +60,12 @@ ht-degree: 1%
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Requests] 영역의 [!UICONTROL Submitted] 섹션에 있는 문제</td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+</tr> 
+   <tr> 
+   <td>[!UICONTROL 타임시트]의 문제</td> 
+  </tr>
+
+<tr data-mc-conditions=""> 
    <td>문서</td> 
   </tr> 
   <tr data-mc-conditions=""> 

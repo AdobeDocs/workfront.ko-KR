@@ -9,16 +9,20 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
 
 # 시스템 추적 업데이트
 
-{{preview-and-fast-release}}
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리보기 환경 또는 빠른 릴리스를 활성화한 고객의 프로덕션 환경에서만 사용할 수 있습니다.</span>
+
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 활성화 또는 비활성화](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">현재 릴리스에 대한 자세한 내용은 [2024년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 <!--remove new experience and legacy notes when we remove legacy in the UI - Jan 24???-->
 
@@ -92,12 +96,16 @@ Your [!DNL Workfront] license determines whether system updates display by defau
 
      새 댓글 달기 환경에 대한 자세한 내용은 [새 댓글 달기 환경](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
+     <span class="preview">시스템 활동 또는 모두 탭이 없는 객체 목록은 다음을 참조하십시오. [업데이트 섹션 개요](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)</span>
+
    * <span class="preview">새 댓글 달기 경험을 사용할 때는 시스템 업데이트에 댓글을 추가할 수 없습니다. 그러나 기존 댓글 달기 경험의 시스템 활동 레코드에 대한 모든 답글은 새 댓글 달기 경험에서 읽기 전용으로 시스템 활동 탭에 채워집니다.</span>
    * 기존 댓글 달기 경험을 사용하는 경우 시스템 및 사용자 업데이트가 하나의 연속 피드에 표시됩니다.
 
    * 기존 댓글 달기 경험을 사용하는 경우 사용자는 기본적으로 시스템 업데이트를 보거나 표시하지 않도록 선택할 수 있습니다. 새 댓글 달기 환경을 사용할 때는 시스템 업데이트를 비활성화할 수 없습니다.
 
      시스템 업데이트 표시를 비활성화하는 방법에 대한 자세한 내용은 섹션을 참조하십시오 [시스템 업데이트 활성화 또는 비활성화](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) 이 문서에서 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+   * <span class="preview">미리보기 환경에서 레거시 댓글 달기 환경이 비활성화되었습니다. 자세한 내용은 [2024년 2분기 업데이트 스트림 및 알림 개선 사항](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md).</span>
 
 * Workfront은 다음 개체에 대해 시스템에서 추적한 업데이트를 기록하지만 표시를 비활성화하는 옵션이 없습니다.
 
