@@ -4,9 +4,10 @@ description: 2024년 2분기 문서 관리 개선 사항
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2faa01024a1a174bacb42e9c6e24f528252f49f4
+exl-id: 9f7873e0-3645-49db-8dec-fb0c6eff3e8d
+source-git-commit: 7f822e5ba6c65d50eb7a7a660689f88066939e2d
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '337'
 ht-degree: 2%
 
 ---
@@ -16,6 +17,10 @@ ht-degree: 2%
 이 페이지에서는 미리보기 환경에 대한 2024년 2분기 릴리스의 모든 문서 관리 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2024년 2분기 릴리스를 통해 프로덕션 환경에서 사용할 수 있습니다.
 
 2024년 2분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [2024년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+>[!IMPORTANT]
+>
+>이 페이지에 나열된 기능은 단계별 릴리스의 일부이며, 특정 고객에게만 제공됩니다.
 
 ## 문서 검토 및 승인에 기한 추가
 
@@ -47,10 +52,6 @@ ht-degree: 2%
 >[!NOTE]
 >
 >미리보기 릴리스: 2024년 3월 28일, 모든 고객을 위한 프로덕션: 24.4 릴리스 포함(2024년 4월)
-
->[!IMPORTANT]
->
->이 기능은 단계별 릴리스의 일부이며 현재 특정 고객에게만 제공됩니다.
 
 승인 요청을 한눈에 관리하고 분석할 수 있도록 모든 승인 위젯에 다음과 같은 주요 성능 지표를 추가했습니다.
 
