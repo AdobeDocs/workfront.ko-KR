@@ -7,9 +7,10 @@ description: 사용자가 양식을 작성할 때 선택한 사항에 따라 사
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 930a04e02d73b75a6dac957e4dfbc76a5f73246f
+exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
+source-git-commit: 2280019a7cc02c0730f85c010dc8cc08834535aa
 workflow-type: tm+mt
-source-wordcount: '1358'
+source-wordcount: '1366'
 ht-degree: 0%
 
 ---
@@ -124,7 +125,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->양식 디자이너에서 양식을 미리 볼 때 일시적으로 표시 논리를 사용할 수 없습니다.
+><span class="preview">표시 논리는 미리 보기 환경의 양식 디자이너에서 양식을 미리 볼 때만 사용할 수 있습니다.</span>
 
 ## 사용자 정의 양식에 건너뛰기 논리 추가
 
@@ -158,4 +159,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->양식 디자이너에서 양식을 미리 볼 때 일시적으로 건너뛰기 논리를 사용할 수 없습니다.
+><span class="preview">건너뛰기 논리는 미리 보기 환경의 양식 디자이너에서 양식을 미리 볼 때만 사용할 수 있습니다.</span>
