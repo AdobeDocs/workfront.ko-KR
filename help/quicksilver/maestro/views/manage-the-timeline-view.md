@@ -1,13 +1,13 @@
 ---
 title: 타임라인 보기 관리
-description: Adobe Workfront planning의 레코드 유형 페이지에 액세스할 때 타임라인 보기에 레코드를 표시할 수 있습니다.
+description: Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 타임라인 보기에 레코드를 표시할 수 있습니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1714'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ role: User
 
 {{maestro-important-intro}}
 
-Adobe Workfront planning의 레코드 유형 페이지에 액세스할 때 타임라인 보기에 레코드를 표시할 수 있습니다.
+Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 타임라인 보기에 레코드를 표시할 수 있습니다.
 
 레코드 보기에 대한 자세한 내용은 [레코드 보기 관리](../views/manage-record-views.md).
 
@@ -51,7 +51,7 @@ Adobe Workfront planning의 레코드 유형 페이지에 액세스할 때 타�
   </tr>  
  <td role="rowheader"><p>Adobe Workfront 계약</p></td>
    <td>
-<p>조직은 Adobe Workfront planning Beta 프로그램에 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
+<p>조직은 Adobe Workfront Planning Beta 프로그램에 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
    </td>
   </tr>
   <tr>
@@ -64,12 +64,13 @@ Adobe Workfront planning의 레코드 유형 페이지에 액세스할 때 타�
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td>
    <td>
    <p>임의</p> 
+   <p>시스템 관리자는 자신이 만들었거나 자신과 공유된 보기에만 액세스할 수 있습니다. </p>
   </td>
   </tr>
 
 <tr>
    <td role="rowheader">액세스 수준 구성</td>
-   <td> <p>Adobe Workfront 계획에 대한 액세스 수준 제어가 없습니다. </p>  
+   <td> <p>Adobe Workfront Planning에 대한 액세스 수준 제어가 없습니다. </p>  
 </td>
   </tr>
 

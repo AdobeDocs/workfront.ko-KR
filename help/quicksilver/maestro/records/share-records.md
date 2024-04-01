@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
@@ -21,15 +21,15 @@ ht-degree: 0%
 
 다른 사용자와 공동 작업하려면 레코드를 다른 사용자와 공유할 수 있습니다.
 
-다음과 같은 방법으로 Adobe Workfront 계획 레코드를 공유할 수 있습니다.
+다음과 같은 방법으로 Adobe Workfront Planning 레코드를 공유할 수 있습니다.
 
-* 페이지가 열릴 때 브라우저에서 레코드의 세부 정보 페이지의 링크를 복사합니다.
+* 페이지가 열릴 때 브라우저에서 레코드 페이지의 링크를 복사합니다.
 
-* 레코드 유형의 테이블 보기에서 레코드를 볼 때 레코드의 세부 정보 페이지에 대한 링크를 복사합니다.
+* 레코드 유형의 표 보기에서 레코드를 볼 때 레코드의 페이지에 대한 링크를 복사합니다.
 
 * 작업 영역을 공유하면 작업 영역의 모든 레코드를 다른 사용자와 공유할 수 있습니다. 자세한 내용은 [작업 영역 공유](/help/quicksilver/maestro/access/share-workspaces.md).
 
-이 문서에서는 레코드 유형의 테이블 보기에서 레코드의 세부 정보 페이지에 대한 링크를 복사하는 방법에 대해 설명합니다.
+이 문서에서는 레코드 유형의 표 보기에서 레코드 페이지에 링크를 복사하는 방법에 대해 설명합니다.
 
 ## 액세스 요구 사항
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 <tr>
    <td role="rowheader"><p>액세스 수준 구성</p></td>
-   <td> <p>Workfront 계획에 대한 액세스 수준 제어가 없습니다.</p>  
+   <td> <p>Workfront Planning에 대한 액세스 수준 제어가 없습니다.</p>  
 </td>
   </tr>
 <tr>
@@ -124,11 +124,11 @@ ht-degree: 0%
 
    링크가 클립보드에 복사됩니다.
 
-1. 링크를 이메일 또는 채팅 창에 붙여넣어 다른 사용자와 공유할 수 있습니다. 사용자가 링크를 수신하면 레코드의 세부 정보 페이지가 열립니다.
+1. 링크를 이메일 또는 채팅 창에 붙여넣어 다른 사용자와 공유할 수 있습니다. 사용자가 링크를 받으면 레코드 페이지가 열립니다.
 
    >[!TIP]
    >
-   >세부 정보 페이지에 있는 레코드의 필드는 해당 레코드의 테이블 보기에서 사용할 수 있는 동일한 필드입니다.
+   >레코드 페이지의 필드는 레코드의 테이블 보기에서 사용할 수 있는 필드와 동일합니다.
 
 
    <!--add there when it will be available: if they have access to this record-->

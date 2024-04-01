@@ -1,13 +1,13 @@
 ---
 title: 레코드 보기 관리
-description: Adobe Workfront planning을 사용할 때 테이블, 타임라인 또는 달력 보기에 레코드를 표시할 수 있습니다.
+description: Adobe Workfront Planning을 사용할 때 표, 타임라인 또는 달력 보기에 레코드를 표시할 수 있습니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1085'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 {{maestro-important-intro}}
 
-Adobe Workfront 계획 영역에서 레코드 유형을 선택한 후 다음 보기에서 해당 유형의 모든 레코드를 표시할 수 있습니다.
+Adobe Workfront Planning 영역에서 레코드 유형을 선택한 후 다음 보기에서 해당 유형의 모든 레코드를 표시할 수 있습니다.
 
 * 테이블
 
@@ -64,12 +64,13 @@ Adobe Workfront 계획 영역에서 레코드 유형을 선택한 후 다음 보
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td>
    <td>
    <p>임의</p> 
+   <p>시스템 관리자는 자신이 만들었거나 자신과 공유된 보기에만 액세스할 수 있습니다. </p>
   </td>
   </tr>
 
 <tr>
    <td role="rowheader">액세스 수준 구성</td>
-   <td> <p>Workfront 계획에 대한 액세스 수준 제어가 없습니다.</p>  
+   <td> <p>Workfront Planning에 대한 액세스 수준 제어가 없습니다.</p>  
 </td>
   </tr>
 
@@ -89,7 +90,7 @@ Adobe Workfront 계획 영역에서 레코드 유형을 선택한 후 다음 보
 
 ## 레코드 보기 작업 시 고려 사항
 
-* Workfront Planning의 보기는 레코드 유형별로 다릅니다. 동일한 보기를 두 개의 다른 레코드 유형에 적용할 수 없습니다.
+* Workfront Planning 보기는 레코드 유형별로 다릅니다. 동일한 보기를 두 개의 다른 레코드 유형에 적용할 수 없습니다.
 * 만든 보기는 사용자와 보기를 공유하는 사용자만 볼 수 있습니다.
 * 보기를 수정하거나 삭제하면 보기에 대한 권한이 있는 모든 사용자에 대해 수정 및 삭제됩니다.
 * 다음 요소는 각 레코드 보기에 고유합니다.
@@ -104,7 +105,7 @@ Adobe Workfront 계획 영역에서 레코드 유형을 선택한 후 다음 보
 
   >[!NOTE]
   >
-  > Adobe Workfront planning은 현재 Beta 상태이므로 일부 보기 요소를 일부 보기에서 사용하지 못할 수 있습니다.
+  > Adobe Workfront Planning은 현재 베타 상태이므로 일부 보기 요소는 모든 보기에서 사용할 수 없을 수 있습니다.
 
 이 문서에서는 레코드 보기에 대한 다음 정보를 설명합니다.
 
@@ -138,7 +139,7 @@ Adobe Workfront 계획 영역에서 레코드 유형을 선택한 후 다음 보
 | 색상 코드 그룹화 |           | ✓ 덧신 |
 | 특정 레코드 검색 | ✓ 덧신 | ✓ 덧신 |
 | 보기 공유 | ✓ 덧신 | ✓ 덧신 | ✓ 덧신 |
-| 보기에서 레코드의 세부 정보 페이지를 엽니다. | ✓ 덧신 | ✓ 덧신 |    |
+| 보기에서 레코드의 페이지를 엽니다. | ✓ 덧신 | ✓ 덧신 |    |
 
 
 ## 보기 만들기 또는 편집 {#create-or-edit-views}

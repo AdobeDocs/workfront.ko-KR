@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '487'
 ht-degree: 2%
 
 ---
@@ -39,7 +39,7 @@ Adobe Workfront Planning에서 더 이상 관련이 없는 레코드를 삭제�
   </tr>  
  <td role="rowheader"><p>Adobe Workfront 계약</p></td>
    <td>
-<p>조직은 Adobe Workfront planning Beta 프로그램에 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
+<p>조직은 Adobe Workfront Planning Beta 프로그램에 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
    </td>
   </tr>
   <tr>
@@ -58,7 +58,7 @@ Adobe Workfront Planning에서 더 이상 관련이 없는 레코드를 삭제�
 
 <tr>
    <td role="rowheader"><p>액세스 수준 구성</p></td>
-   <td> <p>Adobe Workfront 계획에 대한 액세스 수준 제어가 없습니다. </p>  
+   <td> <p>Adobe Workfront Planning에 대한 액세스 수준 제어가 없습니다. </p>  
 </td>
   </tr>
 
@@ -95,10 +95,10 @@ Adobe Workfront Planning에서 더 이상 관련이 없는 레코드를 삭제�
 
 다음 영역에서 레코드를 삭제할 수 있습니다.
 
-* [레코드의 세부 정보 페이지에서](#delete-a-record-from-the-records-details-page)
+* [레코드 페이지에서](#delete-a-record-from-the-records-page)
 * [레코드 유형의 테이블 보기에서](#delete-a-record-from-the-record-type-table-view)
 
-### 레코드의 세부 정보 페이지에서 레코드 삭제
+### 레코드 페이지에서 레코드 삭제
 
 {{step1-to-maestro}}
 
@@ -115,7 +115,7 @@ Adobe Workfront Planning에서 더 이상 관련이 없는 레코드를 삭제�
      ![](assets/contextual-menu-for-record-row.png)
    * 타임라인 보기에서 레코드 모음을 클릭합니다.
 
-   레코드 **세부 사항** 페이지가 열립니다.
+   레코드 페이지가 열립니다.
 
 1. 다음을 클릭합니다. **자세히** 메뉴 ![](assets/more-menu.png) 레코드 이름 오른쪽에서 **삭제**, 그런 다음 **삭제** 다시 한 번 확인해 보십시오.
 
@@ -141,7 +141,7 @@ Adobe Workfront Planning에서 더 이상 관련이 없는 레코드를 삭제�
 
      ![](assets/contextual-menu-for-record-row.png)
 
-   * 다음을 클릭합니다. **세부 정보 열기** 아이콘 ![](assets/open-details-icon-in-table-name-field.png) 세부 정보 상자를 열고 **자세히** ![](assets/more-menu.png) 레코드 이름의 오른쪽에 있는 경우 **삭제**.
+   * 다음을 클릭합니다. **세부 정보 열기** 아이콘 ![](assets/open-details-icon-in-table-name-field.png) 를 클릭하여 레코드의 세부 정보가 있는 상자를 열고 **자세히** ![](assets/more-menu.png) 레코드 이름의 오른쪽에 있는 경우 **삭제**.
 
    레코드가 삭제되어 복구할 수 없습니다.
 

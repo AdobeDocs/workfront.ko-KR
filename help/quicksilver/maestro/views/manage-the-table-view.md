@@ -1,13 +1,13 @@
 ---
 title: 표 보기 관리
-description: Adobe Workfront planning의 레코드 유형 페이지에 액세스할 때 테이블 보기에 레코드와 해당 필드를 표시할 수 있습니다.
+description: Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테이블 보기에 레코드와 해당 필드를 표시할 수 있습니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
 workflow-type: tm+mt
-source-wordcount: '2395'
+source-wordcount: '2401'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,7 @@ hide: yes
 
 {{maestro-important-intro}}
 
-Adobe Workfront planning의 레코드 유형 페이지에 액세스할 때 테이블 보기에 레코드와 해당 필드를 표시할 수 있습니다.
+Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테이블 보기에 레코드와 해당 필드를 표시할 수 있습니다.
 
 레코드 보기 및 관리 방법에 대한 자세한 내용은 [레코드 보기 관리](../views/manage-record-views.md).
 
@@ -51,7 +51,7 @@ Adobe Workfront planning의 레코드 유형 페이지에 액세스할 때 테�
   </tr>  
  <td role="rowheader"><p>Adobe Workfront 계약</p></td>
    <td>
-<p>조직은 Adobe Workfront planning Beta 프로그램에 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
+<p>조직은 Adobe Workfront Planning Beta 프로그램에 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
    </td>
   </tr>
   <tr>
@@ -64,6 +64,7 @@ Adobe Workfront planning의 레코드 유형 페이지에 액세스할 때 테�
    <td role="rowheader"><p>Adobe Workfront 라이선스</p></td>
    <td>
    <p>임의</p> 
+   <p>시스템 관리자는 자신이 만들었거나 자신과 공유된 보기에만 액세스할 수 있습니다. </p>
   </td>
   </tr>
 
@@ -127,7 +128,7 @@ Adobe Workfront planning의 레코드 유형 페이지에 액세스할 때 테�
    <!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. 문서에 설명된 대로 필드(또는 열) 추가 시작 [필드 만들기](../fields/create-fields.md).
 
-   추가한 열은 레코드 유형에 액세스하는 모든 사용자가 볼 수 있으며 선택한 레코드 유형의 레코드에 대한 세부 정보 페이지에서 새 필드로 추가됩니다.
+   추가하는 열은 레코드 유형에 액세스하고 레코드 페이지에서 새 필드로 추가되는 모든 사용자에게 표시됩니다.
 
 1. 다음 중 하나를 수행하여 테이블의 열 순서를 변경합니다.
 
@@ -174,7 +175,7 @@ Adobe Workfront planning의 레코드 유형 페이지에 액세스할 때 테�
    >
    >   * 기본 필드는 삭제하거나 숨길 수 없습니다.
    >
-   >   * 기본 필드에 나열된 값은 항상 레코드의 세부 정보 페이지에 하이퍼링크됩니다.
+   >   * 기본 필드에 나열된 값은 항상 레코드의 페이지에 하이퍼링크됩니다.
 
 1. 열 구분선을 클릭하고 드래그하여 원하는 위치에 놓아 열의 너비를 늘립니다.
 

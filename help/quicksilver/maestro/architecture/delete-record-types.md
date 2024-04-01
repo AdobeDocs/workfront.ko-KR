@@ -1,13 +1,13 @@
 ---
 title: 레코드 유형 삭제
-description: 더 이상 관련이 없는 레코드 유형은 삭제할 수 있습니다.
+description: 더 이상 관련이 없는 레코드 유형은 삭제할 수 있습니다. 레코드 유형을 삭제하면 레코드, 필드 및 보기와 같이 레코드 유형과 관련된 모든 정보도 삭제됩니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: f4fb9d5c22ec6216a05e31cbcf80f1cf9add125f
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ hide: yes
   </tr>  
  <td role="rowheader"><p>Adobe Workfront 계약</p></td>
    <td>
-<p>조직은 Adobe Workfront planning Beta 프로그램에 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
+<p>조직은 Adobe Workfront Planning Beta 프로그램에 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
    </td>
   </tr>
   <tr>
@@ -74,7 +74,7 @@ hide: yes
 
 <tr>
    <td role="rowheader"><p>액세스 수준 구성</p></td>
-   <td> <p>Adobe Workfront 계획에 대한 액세스 수준 제어가 없습니다.</p>  
+   <td> <p>Adobe Workfront Planning에 대한 액세스 수준 제어가 없습니다.</p>  
 </td>
   </tr>
 
@@ -126,11 +126,11 @@ hide: yes
 
 1. (선택 사항) 기존 작업 영역 이름의 오른쪽에 있는 아래쪽 방향 화살표를 확장하고 레코드 유형을 삭제할 작업 영역을 선택합니다.
 
-   작업공간이 열리고 작업공간과 연관된 레코드 유형 및 분류가 표시됩니다.
+   작업공간이 열리고 레코드 유형이 표시됩니다.
 1. 삭제할 레코드 유형의 카드를 클릭합니다.
 
    레코드 유형의 페이지가 열립니다.
-1. 다음을 클릭합니다. **자세히** 메뉴 ![](assets/more-menu.png) 레코드 유형 이름의 오른쪽에 있는 **삭제**.
-1. 클릭 **삭제** 확인할 수 있습니다.
+1. 다음을 클릭합니다. **자세히** 메뉴 ![](assets/more-menu.png) 레코드 유형 이름의 오른쪽에 있는 **삭제**. <!--add screen shot when they finalize the UI-->
+1. 유형 **삭제** 확인 상자에서 을(를) 클릭한 다음 **영구적으로 삭제**.
 
    선택한 레코드 종류, 해당 필드, 연결된 레코드 및 보기가 삭제됩니다.

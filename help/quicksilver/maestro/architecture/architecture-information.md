@@ -1,11 +1,11 @@
 ---
 title: "아키텍처: 문서 인덱스"
-description: 다음 문서에서는 Adobe Workfront Planning의 아키텍처를 구성하는 방법에 대해 설명합니다. 이 구성의 일부로, 작업 공간, 레코드 유형 및 사용자 지정 필드를 만들어 Workfront Planning에서 관리할 워크플로우를 매핑하는 방법을 배웁니다.
+description: 다음 문서에서는 Adobe Workfront Planning의 아키텍처를 구성하는 방법에 대해 설명합니다. 이 구성의 일부로, 작업 공간, 레코드 유형 및 사용자 지정 필드를 만들어 Workfront Planning에서 관리할 워크플로를 매핑하는 방법에 대해 알아봅니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 <!--
 ---
 title: "Architecture: article index"
-description: The following articles describe how you can configure the architecture of Adobe Workfront planning. As part of this configuration, you learn how you create workspaces, record types, and custom fields to map out the workflows you want to manage in Workfront planning. 
+description: The following articles describe how you can configure the architecture of Adobe Workfront Planning. As part of this configuration, you learn how you create workspaces, record types, and custom fields to map out the workflows you want to manage in Workfront Planning. 
 hidefromtoc: yes
 author: Alina
 feature: Work Management
@@ -30,13 +30,13 @@ hide: yes
 
 {{maestro-important-intro}}
 
-마케팅 운영 리더로서 Adobe Workfront planning을 사용하여 모든 팀의 마케팅 라이프사이클 전반에서 작업을 구성할 수 있습니다.
+마케팅 운영 리더로서 Adobe Workfront Planning을 사용하여 모든 팀의 마케팅 라이프사이클 전반에서 작업을 구성할 수 있습니다.
 
 Workfront Planning을 사용하면 조직에서 사용하는 개체 유형(또는 레코드 유형)을 결정하는 것부터 이러한 개체가 서로 연결되는 방법을 구성하는 것까지 워크플로를 완전히 사용자 정의할 수 있습니다.
 
-또한 Workfront planning은 다른 시스템의 객체 유형에 연결하여 모든 프로세스에 일관된 프레임워크를 만들 수 있습니다.
+또한 Workfront Planning은 다른 시스템의 객체 유형에 연결하여 모든 프로세스에 일관된 프레임워크를 만들 수 있습니다.
 
-다음 섹션의 문서에서는 Adobe Workfront Planning 작업 영역을 구성하고, 이러한 작업 영역의 기본 구성단위인 레코드 유형을 정의하고, 해당 기능을 사용하는 방법을 설명합니다.
+다음 섹션의 문서에서는 Adobe Workfront Planning 작업 영역을 구성하고, 이러한 작업 영역의 기본 구성단위인 레코드 유형을 정의하고, 해당 기능을 사용하는 방법에 대해 설명합니다.
 
 * [작업 공간 만들기](../architecture/create-workspaces.md)
 * [작업 공간 템플릿 목록](../architecture/workspace-templates.md)

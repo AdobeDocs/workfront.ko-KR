@@ -1,13 +1,13 @@
 ---
 title: 필드 편집
-description: Adobe Workfront planning에서 이미 생성된 필드의 필드 설정을 편집할 수 있습니다.
+description: Adobe Workfront Planning에서 이미 생성된 필드의 필드 설정을 편집할 수 있습니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -25,22 +25,21 @@ role: User, Administrator (************is this right???************)
 recommendations: noDisplay, noCatalog
 --->
 
-
 # 필드 편집
 
 {{maestro-important-intro}}
 
 Adobe Workfront Planning에서 이미 생성된 필드의 필드 설정을 편집할 수 있습니다.
 
-Adobe Workfront 계획 필드 만들기에 대한 자세한 내용은 [필드 만들기](../fields/create-fields.md).
+Adobe Workfront Planning 필드 생성에 대한 자세한 내용은 다음을 참조하십시오. [필드 만들기](../fields/create-fields.md).
 
-이 문서에서는 Workfront 계획 필드의 설정을 편집하는 방법에 대해 설명합니다. 레코드의 필드 값 편집에 대한 자세한 내용은 [레코드 편집](/help/quicksilver/maestro/records/edit-records.md).
+이 문서에서는 Workfront Planning 필드의 설정을 편집하는 방법에 대해 설명합니다. 레코드의 필드 값 편집에 대한 자세한 내용은 [레코드 편집](/help/quicksilver/maestro/records/edit-records.md).
 
 ## 필드 정보 편집에 대한 고려 사항
 
 * 필드가 속한 작업 영역에 대한 관리 권한이 있는 경우 사용자가 만든 필드나 다른 사용자가 만든 필드를 편집할 수 있습니다.
 * 레코드 유형 테이블에서 필드를 편집할 수 있습니다.
-* 레코드의 세부 정보 페이지나 타임라인 보기에서 필드를 편집할 수 없습니다.
+* 레코드 페이지나 타임라인 보기의 필드는 편집할 수 없습니다.
 * 필드를 저장한 후에는 필드 유형을 편집할 수 없습니다.
 * 이미 음수 값이 첨부된 레코드에 저장된 경우 숫자, 백분율 또는 통화 필드에 대해 이전에 선택한 음수 허용 설정을 선택 해제할 수 없습니다.
 <!--this is not true yet; one piece of it is true and I added it as the bullet above: 
@@ -69,7 +68,7 @@ Adobe Workfront 계획 필드 만들기에 대한 자세한 내용은 [필드 �
   </tr>  
  <td role="rowheader"><p>Adobe Workfront 계약</p></td>
    <td>
-<p>조직은 Adobe Workfront planning Beta 프로그램에 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
+<p>조직은 Adobe Workfront Planning Beta 프로그램에 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
    </td>
   </tr>
   <tr>
@@ -87,7 +86,7 @@ Adobe Workfront 계획 필드 만들기에 대한 자세한 내용은 [필드 �
 
 <tr>
    <td role="rowheader"><p>액세스 수준 구성</p></td>
-   <td> <p>Workfront 계획에 대한 액세스 제어가 없습니다.</p>  
+   <td> <p>Workfront Planning에 대한 액세스 제어가 없습니다.</p>  
 </td>
   </tr>
 

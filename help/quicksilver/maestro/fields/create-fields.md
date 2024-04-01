@@ -1,13 +1,13 @@
 ---
 title: 필드 만들기
-description: Adobe Workfront planning에서 각 레코드 유형에 대해 사용자 정의 필드를 만들 수 있습니다. 그런 다음 필드를 Workfront 계획 레코드와 연결할 수 있습니다.
+description: Adobe Workfront Planning에서 각 레코드 유형에 대한 사용자 정의 필드를 만들 수 있습니다. 그런 다음 필드를 Workfront Planning 레코드와 연결할 수 있습니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '3338'
+source-wordcount: '3308'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-Adobe Workfront planning에서 레코드 유형에 대한 사용자 정의 필드를 만들 수 있습니다. 그런 다음 필드를 Workfront 계획 레코드와 연결하여 레코드 정보를 향상시킬 수 있습니다.
+Adobe Workfront Planning에서 레코드 유형에 대한 사용자 정의 필드를 만들 수 있습니다. 그런 다음 필드를 Workfront Planning 레코드와 연결하여 레코드 정보를 개선할 수 있습니다.
 
 레코드 유형과 연결할 필드를 만들려면 먼저 레코드 유형을 만들어야 합니다. 자세한 내용은 [레코드 유형 만들기](../architecture/create-record-types.md).
 
@@ -68,7 +68,7 @@ Maestro 필드에 대한 자세한 내용은 [필드 개요](../fields/fields-ov
   </tr>  
  <td role="rowheader"><p>Adobe Workfront 계약</p></td>
    <td>
-<p>조직은 Adobe Workfront planning Beta 프로그램에 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
+<p>조직은 Adobe Workfront Planning Beta 프로그램에 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
    </td>
   </tr>
   <tr>
@@ -86,7 +86,7 @@ Maestro 필드에 대한 자세한 내용은 [필드 개요](../fields/fields-ov
 
 <tr>
    <td role="rowheader"><p>액세스 수준 구성</p></td>
-   <td> <p>Workfront 계획에 대한 액세스 수준 제어가 없습니다.</p>  
+   <td> <p>Workfront Planning에 대한 액세스 수준 제어가 없습니다.</p>  
 </td>
   </tr>
 
@@ -248,7 +248,7 @@ Maestro 필드에 대한 자세한 내용은 [필드 개요](../fields/fields-ov
 
 
 1. 에 다음 정보를 추가합니다. **새 필드** 탭:
-   * **이름**: 테이블 또는 레코드의 세부 정보 페이지에 표시되는 필드 유형의 이름입니다. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **이름**: 테이블 또는 레코드 페이지에 표시되는 필드 유형의 이름입니다. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **설명**: 필드에 대한 추가 정보입니다. 필드의 설명은 테이블에서 필드의 열 위로 마우스를 가져가면 표시됩니다.
    * **날짜 형식**: 이 필드에 표시할 날짜 형식의 유형입니다. <!--update this casing - submitted bug for it-->
 
@@ -278,7 +278,7 @@ Maestro 필드에 대한 자세한 내용은 [필드 개요](../fields/fields-ov
    ![](assets/number-field-type.png)
 1. 에 다음 정보를 추가합니다. **새 필드** 탭:
 
-   * **이름**: 테이블 또는 레코드의 세부 정보 페이지에 표시되는 필드 유형의 이름입니다.
+   * **이름**: 테이블 또는 레코드 페이지에 표시되는 필드 유형의 이름입니다.
    * **설명**: 필드에 대한 추가 정보입니다. 필드의 설명은 테이블에서 필드의 열 위로 마우스를 가져가면 표시됩니다.
    * **정밀도**: 필드에 기록할 소수 자릿수입니다. 최대 6개의 소수를 표시할 수 있습니다.
    * **음수 허용**: 이 필드에 음수를 허용하려면 이 옵션을 선택합니다. 이 옵션은 기본적으로 선택되지 않습니다.
@@ -300,7 +300,7 @@ Maestro 필드에 대한 자세한 내용은 [필드 개요](../fields/fields-ov
    ![](assets/percentage-field-type.png)
 
 1. 에 다음 정보를 추가합니다. **새 필드** 탭:
-   * **이름**: 테이블 또는 레코드의 세부 정보 페이지에 표시되는 필드 유형의 이름입니다.
+   * **이름**: 테이블 또는 레코드 페이지에 표시되는 필드 유형의 이름입니다.
    * **설명**: 필드에 대한 추가 정보입니다. 필드의 설명은 테이블에서 필드의 열 위로 마우스를 가져가면 표시됩니다.
    * **정밀도**: 필드에 기록할 소수 자릿수입니다. 최대 6개의 소수를 표시할 수 있습니다.
    * **음수 허용**: 이 필드에 음수 백분율 값을 허용하려면 이 옵션을 선택합니다. 이 옵션은 기본적으로 선택되지 않습니다.
@@ -322,7 +322,7 @@ Maestro 필드에 대한 자세한 내용은 [필드 개요](../fields/fields-ov
    ![](assets/currency-field-type.png)
 
 1. 에 다음 정보를 추가합니다. **새 필드** 탭:
-   * **이름**: 테이블 또는 레코드의 세부 정보 페이지에 표시되는 필드 유형의 이름입니다. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **이름**: 테이블 또는 레코드 페이지에 표시되는 필드 유형의 이름입니다. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **설명**: 필드에 대한 추가 정보입니다. 필드의 설명은 테이블에서 필드의 열 위로 마우스를 가져가면 표시됩니다.
    * **통화**: 이 필드에 표시할 통화 유형입니다. ISO(International Organization of Standardization)에 따른 통화 목록입니다.
    * **정밀도**: 필드에 기록할 소수 자릿수입니다. 최대 6개의 소수를 표시할 수 있습니다.
@@ -345,7 +345,7 @@ Maestro 필드에 대한 자세한 내용은 [필드 개요](../fields/fields-ov
    ![](assets/checkbox-field-type.png)
 
 1. 에 다음 정보를 추가합니다. **새 필드** 탭:
-   * **이름**: 테이블 또는 레코드의 세부 정보 페이지에 표시되는 필드 유형의 이름입니다. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **이름**: 테이블 또는 레코드 페이지에 표시되는 필드 유형의 이름입니다. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **설명**: 필드에 대한 추가 정보입니다. 필드의 설명은 테이블에서 필드의 열 위로 마우스를 가져가면 표시됩니다.
 1. Click **Create**.
 
@@ -373,13 +373,13 @@ Maestro 필드에 대한 자세한 내용은 [필드 개요](../fields/fields-ov
 
    지원되는 표현식에 대한 자세한 내용은 [공식 필드 개요](/help/quicksilver/maestro/fields/formula-fields.md)
 
-1. Workfront 계획 인터페이스에 표시되는 대로 필드 이름을 추가하여 공식에서 참조합니다.
+1. 필드 이름이 수식에서 참조하도록 Workfront Planning 인터페이스에 표시되는 대로 필드 이름을 추가합니다.
 
    >[!NOTE]
    >
    > * 수식에 다중 선택 유형 필드를 추가할 수 없습니다.
    >
-   > * 수식에서 연결된 레코드에서 필드를 추가할 수 없습니다. 이 기능은 나중에 릴리스됩니다. 새 릴리스에 대한 자세한 내용은 [Adobe Workfront 계획 릴리스 활동](/help/quicksilver/maestro/release-activity.md).
+   > * 수식에서 연결된 레코드에서 필드를 추가할 수 없습니다. 이 기능은 나중에 릴리스됩니다. 새 릴리스에 대한 자세한 내용은 [Adobe Workfront Planning 릴리스 활동](/help/quicksilver/maestro/release-activity.md).
 
 
 1. Click **Create**.
@@ -396,7 +396,7 @@ Maestro 필드에 대한 자세한 내용은 [필드 개요](../fields/fields-ov
    ![](assets/people-field-type.png)
 
 1. 에 다음 정보를 추가합니다. **새 필드** 탭:
-   * **이름**: 테이블 또는 레코드의 세부 정보 페이지에 표시되는 필드 유형의 이름입니다.
+   * **이름**: 테이블 또는 레코드 페이지에 표시되는 필드 유형의 이름입니다.
    * **설명**: 필드에 대한 추가 정보입니다. 필드의 설명은 테이블에서 필드의 열 위로 마우스를 가져가면 표시됩니다.
    * **여러 값 허용**: 사용자가 이 필드에 두 명 이상의 사용자를 추가할 수 있도록 하려면 이 옵션을 선택합니다. 이 옵션은 기본적으로 선택되지 않습니다.
 
@@ -418,7 +418,7 @@ Maestro 필드에 대한 자세한 내용은 [필드 개요](../fields/fields-ov
 
 1. 에 다음 정보를 추가합니다. **새 필드** 탭:
 
-   * **이름**: 테이블 또는 레코드의 세부 정보 페이지에 표시되는 필드 유형의 이름입니다. <!--this might change and they might prepopulate it with "Created by"-->
+   * **이름**: 테이블 또는 레코드 페이지에 표시되는 필드 유형의 이름입니다. <!--this might change and they might prepopulate it with "Created by"-->
    * **설명**: 필드에 대한 추가 정보입니다. 필드의 설명은 테이블에서 필드의 열 위로 마우스를 가져가면 표시됩니다.
 
 1. Click **Create**.
@@ -438,7 +438,7 @@ Maestro 필드에 대한 자세한 내용은 [필드 개요](../fields/fields-ov
 
 1. 에 다음 정보를 추가합니다. **새 필드** 탭:
 
-   * **이름**: 테이블 또는 레코드의 세부 정보 페이지에 표시되는 필드 유형의 이름입니다. <!--this might change and they might prepopulate it with "Created date"-->
+   * **이름**: 테이블 또는 레코드 페이지에 표시되는 필드 유형의 이름입니다. <!--this might change and they might prepopulate it with "Created date"-->
    * **설명**: 필드에 대한 추가 정보입니다. 필드의 설명은 테이블에서 필드의 열 위로 마우스를 가져가면 표시됩니다.
    * **날짜 형식**: 다음 형식 중에서 선택합니다.
 
@@ -469,7 +469,7 @@ Maestro 필드에 대한 자세한 내용은 [필드 개요](../fields/fields-ov
 
 1. 에 다음 정보를 추가합니다. **새 필드** 탭:
 
-   * **이름**: 테이블 또는 레코드의 세부 정보 페이지에 표시되는 필드 유형의 이름입니다. <!--this might change and they might prepopulate it with "Created by"-->
+   * **이름**: 테이블 또는 레코드 페이지에 표시되는 필드 유형의 이름입니다. <!--this might change and they might prepopulate it with "Created by"-->
    * **설명**: 필드에 대한 추가 정보입니다. 필드의 설명은 테이블에서 필드의 열 위로 마우스를 가져가면 표시됩니다.
 
 1. Click **Create**.
@@ -489,7 +489,7 @@ Maestro 필드에 대한 자세한 내용은 [필드 개요](../fields/fields-ov
 
 1. 에 다음 정보를 추가합니다. **새 필드** 탭:
 
-   * **이름**: 테이블 또는 레코드의 세부 정보 페이지에 표시되는 필드 유형의 이름입니다. <!--this might change and they might prepopulate it with "Created date"-->
+   * **이름**: 테이블 또는 레코드 페이지에 표시되는 필드 유형의 이름입니다. <!--this might change and they might prepopulate it with "Created date"-->
    * **설명**: 필드에 대한 추가 정보입니다. 필드의 설명은 테이블에서 필드의 열 위로 마우스를 가져가면 표시됩니다.
    * **날짜 형식**: 다음 형식 중에서 선택합니다.
 
@@ -525,6 +525,6 @@ Workfront Planning 레코드 유형 연결에 대한 자세한 내용은 [레코
 
 ## 템플릿으로 작업 공간을 만들어 필드 만들기
 
-템플릿에서 작업 영역을 만들 때 Adobe Workfront planning은 레코드 유형에 대한 필드를 만듭니다.
+템플릿에서 작업 영역을 만들 때 Adobe Workfront Planning은 레코드 유형에 대한 필드를 만듭니다.
 
 자세한 내용은 [작업 공간 만들기](/help/quicksilver/maestro/architecture/create-workspaces.md).

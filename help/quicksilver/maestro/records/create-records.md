@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Adobe Workfront 계획에서 레코드는 레코드 유형의 인스턴스입니다.
+Adobe Workfront Planning에서 레코드는 레코드 유형의 인스턴스입니다.
 
 다음 중 하나를 수행하여 레코드를 만들 수 있습니다.
 
@@ -49,7 +49,7 @@ Adobe Workfront 계획에서 레코드는 레코드 유형의 인스턴스입니
   </tr>  
  <td role="rowheader"><p>Adobe Workfront 계약</p></td>
    <td>
-<p>조직은 Adobe Workfront planning Beta 프로그램에 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
+<p>조직은 Adobe Workfront Planning Beta 프로그램에 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
    </td>
   </tr>
   <tr>
@@ -67,7 +67,7 @@ Adobe Workfront 계획에서 레코드는 레코드 유형의 인스턴스입니
 
 <tr>
    <td role="rowheader"><p>액세스 수준 구성</p></td>
-   <td> <p>Adobe Workfront 계획에 대한 액세스 제어가 없습니다. </p>  
+   <td> <p>Adobe Workfront Planning에 대한 액세스 제어가 없습니다. </p>  
 </td>
   </tr>
 <tr>
@@ -127,14 +127,14 @@ Adobe Workfront 계획에서 레코드는 레코드 유형의 인스턴스입니
 
    또는
 
-   새 레코드의 이름 또는 **세부 정보 열기** 아이콘 ![](assets/open-details-icon-in-table-name-field.png) 레코드 이름 왼쪽에 있습니다. 다음 **세부 사항** 테이블에서 상자가 열립니다.
+   새 레코드의 이름 또는 **세부 정보 열기** 아이콘 ![](assets/open-details-icon-in-table-name-field.png) 레코드 이름 왼쪽에 있습니다. 레코드의 세부 정보가 있는 상자가 표에 열립니다.
 
    >[!TIP]
    >
    >이름 필드가 기본 필드인 경우 레코드의 이름 필드에서만 세부 정보 상자에 액세스할 수 있습니다.
 
-1. 세부 정보 상자에서 레코드 정보 편집을 시작합니다. Workfront은 변경 사항을 자동으로 저장합니다.
-1. (선택 사항) **새 탭에서 열기** 아이콘 ![](assets/open-details-in-a-new-tab-icon.png) 세부 정보 상자의 오른쪽 상단 모서리에서 레코드를 엽니다. **세부 사항** 새 탭에서 페이지를 만듭니다. 세부 정보 페이지에서 레코드 편집을 계속합니다.
+1. 레코드 상자에서 레코드 정보 편집을 시작합니다. Workfront은 변경 사항을 자동으로 저장합니다.
+1. (선택 사항) **새 탭에서 열기** 아이콘 ![](assets/open-details-in-a-new-tab-icon.png) 레코드 상자의 오른쪽 상단 모서리에서 새 탭에서 레코드 페이지를 엽니다. 레코드 페이지에서 레코드 편집을 계속합니다.
 
 
 1. (선택 사항) 다음 키보드 단축키를 사용하여 새 레코드 추가를 실행 취소하거나 재실행할 수 있습니다.

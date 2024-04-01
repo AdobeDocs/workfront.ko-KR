@@ -1,11 +1,11 @@
 ---
 title: 작업 공간 템플릿 목록
-description: 작업 영역은 팀에서 사용하는 레코드 유형의 컬렉션으로, 팀의 작업 라이프사이클을 나타냅니다. Adobe Workfront planning에는 작업 영역을 구축할 때 기본 레코드 유형 및 필드를 시작하기 위한 템플릿 세트가 포함되어 있습니다.
+description: 작업 영역은 팀에서 사용하는 레코드 유형의 컬렉션으로, 팀의 작업 라이프사이클을 나타냅니다. Adobe Workfront Planning에는 작업 영역을 구축할 때 기본 레코드 유형 및 필드를 시작하기 위한 템플릿 세트가 포함되어 있습니다.
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 0%
@@ -31,18 +31,18 @@ role: User
 
 Adobe Workfront Planning에서 작업 공간은 팀에서 사용하는 레코드 유형의 컬렉션으로, 팀의 작업 라이프사이클을 나타냅니다.
 
-Workfront planning에는 작업 영역을 구축할 때 기본 레코드 유형 및 필드를 시작하기 위한 템플릿 세트가 포함되어 있습니다. 작업 공간 만들기에 대한 자세한 내용은 [작업 공간 만들기](../architecture/create-workspaces.md).
+Workfront Planning에는 작업 영역을 구축할 때 기본 레코드 유형 및 필드를 시작하기 위한 템플릿 세트가 포함되어 있습니다. 작업 공간 만들기에 대한 자세한 내용은 [작업 공간 만들기](../architecture/create-workspaces.md).
 
 이 문서에서는 Adobe Workfront Planning에서 사용할 수 있는 작업 공간 템플릿에 대해 설명합니다.
 
-## Adobe Workfront 계획 템플릿에 대한 고려 사항
+## Adobe Workfront Planning 템플릿에 대한 고려 사항
 
 * 각 템플릿에는 레코드 유형 세트가 있습니다. 자세한 내용은 [레코드 유형 개요](../architecture/overview-of-record-types-and-taxonomies.md).
 * 각 템플릿의 레코드 유형은 다음 섹션으로 구성됩니다.
 
    * 운영 레코드 유형
    * 분류
-* 각 레코드 종류에는 필드 집합이 포함되어 있습니다. 이러한 필드 중 일부는 다른 Workfront 계획 레코드 유형에 대한 연결입니다.
+* 각 레코드 종류에는 필드 집합이 포함되어 있습니다. 이러한 필드 중 일부는 다른 Workfront Planning 레코드 유형에 대한 연결입니다.
 * 모든 템플릿을 사용자 정의하고 기존 레코드 유형과 필드에 더 많은 레코드 유형과 필드를 추가할 수 있습니다.
 
 <!-- I modeled this article by the "List of available Blueprints" and that articles does not have an Access area
@@ -96,7 +96,7 @@ You must have the following:
 
 -->
 
-## Workfront planning workspace 템플릿
+## Workfront Planning 작업 공간 템플릿
 
 다음은 Workfront Planning의 작업 공간 템플릿과 여기에 포함된 필드 수입니다.
 

@@ -1,13 +1,13 @@
 ---
 title: 레코드 주석 관리
-description: 레코드의 오른쪽 패널에 댓글 또는 답글을 추가하여 Adobe Workfront 계획 레코드에 대해 공동 작업을 할 수 있습니다. 이 영역에서 레코드에 대해 수행된 다른 변경 사항 및 시스템에서 기록한 변경 사항을 볼 수도 있습니다.
+description: 레코드의 오른쪽 패널에 댓글 또는 답글을 추가하여 Adobe Workfront Planning 레코드에 대한 공동 작업을 수행할 수 있습니다. 이 영역에서 레코드에 대해 수행된 다른 변경 사항 및 시스템에서 기록한 변경 사항을 볼 수도 있습니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1144'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 <span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
-레코드의 오른쪽 패널에 댓글 또는 답글을 추가하여 Adobe Workfront 계획 레코드에 대해 공동 작업을 할 수 있습니다. 이 영역에서 레코드에 대해 수행된 다른 변경 사항 및 시스템에서 기록한 변경 사항을 볼 수도 있습니다.
+레코드의 오른쪽 패널에 댓글 또는 답글을 추가하여 Adobe Workfront Planning 레코드에 대한 공동 작업을 수행할 수 있습니다. 이 영역에서 레코드에 대해 수행된 다른 변경 사항 및 시스템에서 기록한 변경 사항을 볼 수도 있습니다.
 
 레코드의 오른쪽 패널에는 다음 섹션이 표시됩니다.
 
@@ -33,23 +33,23 @@ ht-degree: 0%
 
 ## 레코드에 댓글을 달 때 고려 사항
 
-* 레코드의 댓글 섹션에서 Workfront Planning의 레코드에 댓글 및 답글을 추가할 수 있습니다.
+* 레코드의 댓글 섹션에서 Workfront Planning의 레코드에 댓글 및 응답을 추가할 수 있습니다.
 
-* 연결된 레코드에 추가된 댓글은 연결하려는 레코드에 표시되지 않습니다. 예를 들어 캠페인 레코드에 연결된 Workfront 계획 제품 레코드에 댓글을 다는 경우 해당 댓글은 Workfront planning의 제품 레코드에만 표시되고 연결 중인 캠페인 레코드에는 표시되지 않습니다.
+* 연결된 레코드에 추가된 댓글은 연결하려는 레코드에 표시되지 않습니다. 예를 들어 캠페인 레코드에 연결된 Workfront Planning 제품 레코드에 댓글을 다는 경우 해당 댓글은 Workfront Planning의 제품 레코드에만 표시되고 연결된 캠페인 레코드에는 표시되지 않습니다.
 
 * 레코드와 다른 응용 프로그램의 개체 간의 연결로 생성된 Workfront Planning 레코드에 주석을 추가할 수 있습니다.
 
-  예를 들어 Workfront 프로젝트를 Workfront 계획 레코드와 연결한 후 프로젝트 Workfront 계획 레코드에 주석을 달 수 있습니다. 자세한 내용은 [레코드 연결](/help/quicksilver/maestro/records/connect-records.md).
+  예를 들어 Workfront 프로젝트를 Workfront Planning 레코드와 연결한 후 프로젝트 Workfront Planning 레코드에 주석을 달 수 있습니다. 자세한 내용은 [레코드 연결](/help/quicksilver/maestro/records/connect-records.md).
 
-* 다른 응용 프로그램의 연결된 객체에 추가된 주석은 Workfront planning에 표시되지 않으며 Workfront planning의 연결된 객체에 추가된 주석은 다른 응용 프로그램에 표시되지 않습니다.
+* 다른 응용 프로그램의 연결된 객체에 추가된 주석은 Workfront Planning에서 표시되지 않으며 Workfront Planning의 연결된 객체에 추가된 주석은 다른 응용 프로그램에서 표시되지 않습니다.
 
-  예를 들어 Workfront의 프로젝트에 추가된 댓글은 Workfront planning의 캠페인에 연결된 동일한 프로젝트에 표시되지 않으며 프로젝트 Workfront 계획 레코드에 추가된 댓글은 Workfront에 표시되지 않습니다.
+  예를 들어 Workfront의 프로젝트에 추가된 댓글은 Workfront Planning의 캠페인에 연결된 동일한 프로젝트에 표시되지 않으며, Workfront Planning 프로젝트에 추가된 댓글은 Workfront에 표시되지 않습니다.
 
 * 사용자에 태그를 지정하여 업데이트에 주의를 기울일 수 있습니다. 태그가 지정된 사용자가 인앱 알림이나 업데이트에 대한 이메일을 받지 않습니다. <!--this might change??-->
 
-* 레코드에 업데이트를 추가하고 Workfront planning의 다음 영역에서 변경 내역을 검토할 수 있습니다.
+* 레코드에 업데이트를 추가하고 Workfront Planning의 다음 영역에서 변경 내역을 검토할 수 있습니다.
 
-   * 레코드의 세부 정보 페이지에서
+   * 레코드 페이지에서.
 
   <!--* From the table view.-->
 
@@ -72,7 +72,7 @@ ht-degree: 0%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront 계약</p></td>
    <td>
-<p>조직은 Adobe Workfront planning Beta 프로그램에 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
+<p>조직은 Adobe Workfront Planning Beta 프로그램에 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
    </td>
   </tr>
   <tr>

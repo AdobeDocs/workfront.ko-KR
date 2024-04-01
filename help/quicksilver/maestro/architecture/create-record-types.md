@@ -1,24 +1,25 @@
 ---
 title: 레코드 유형 만들기
-description: 레코드 유형은 Adobe Workfront planning의 객체 유형입니다. Workfront planning에서 조직의 라이프사이클에 필요한 작업 항목을 설명하는 사용자 정의 레코드 유형을 생성할 수 있습니다.
+description: 레코드 유형은 Adobe Workfront Planning의 객체 유형입니다. Workfront Planning에서 조직의 라이프사이클에 필요한 작업 항목을 설명하는 사용자 정의 레코드 유형을 생성할 수 있습니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1264'
 ht-degree: 0%
 
 ---
 
-<!--udpate the metadata with real information when making this available in TOC and in the left nav-->
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--this is linked to the UI in an empty workspace screen-->
 
 # 레코드 유형 만들기
 
 {{maestro-important-intro}}
 
-레코드 유형은 Adobe Workfront planning의 객체 유형입니다. Workfront planning에서 조직의 라이프사이클에 필요한 작업 관련 항목을 설명하는 사용자 정의 레코드 유형을 생성할 수 있습니다.
+레코드 유형은 Adobe Workfront Planning의 객체 유형입니다. Workfront Planning에서 조직의 라이프사이클에 필요한 작업 관련 항목을 설명하는 사용자 정의 레코드 유형을 생성할 수 있습니다.
 레코드 유형은 다음 중 하나일 수 있습니다.
 
 레코드 유형에 대한 자세한 내용은 [레코드 유형 개요](../architecture/overview-of-record-types-and-taxonomies.md).
@@ -62,7 +63,7 @@ ht-degree: 0%
 
 <tr>
    <td role="rowheader"><p>액세스 수준 구성</p></td>
-   <td> <p>Workfront 계획에 대한 액세스 수준 제어가 없습니다.</p>  
+   <td> <p>Workfront Planning에 대한 액세스 수준 제어가 없습니다.</p>  
 </td>
   </tr>
 <tr>
@@ -105,14 +106,14 @@ ht-degree: 0%
         >
         >이 기능은 2024년 3월 21일부터 일시적으로 비활성화되었습니다. 이 기능은 나중에 활성화됩니다.
 
-     <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a record. This creates a read-only record type in Workfront planning which is connected to object types from the original application. 
+     <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a record. This creates a read-only record type in Workfront Planning which is connected to object types from the original application. 
         For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).
         For information about connecting objects with records, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). -->
    * 수동:
 
       * 처음부터.
 
-        이 문서에서는 처음부터 만든 작업 영역에서 일반 레코드 유형을 처음부터 새로 만드는 방법에 대해 설명합니다.
+        이 문서에서는 처음부터 레코드 유형을 만드는 방법을 설명합니다.
 
 * 한 섹션 내에서 또는 작업 영역의 한 섹션에서 다른 섹션으로 레코드 유형을 이동할 수 있습니다. 한 작업 영역에서 다른 작업 영역으로 레코드 유형을 이동할 수 없습니다.
 
@@ -133,17 +134,14 @@ Workfront Planning 템플릿을 사용하여 작업 공간을 만들 때 레코�
 
 ## 처음부터 레코드 유형 만들기
 
-이 문서에서는 처음부터 레코드 유형을 만드는 방법을 설명합니다.
-
 {{step1-to-maestro}}
 
 기본적으로 마지막으로 액세스한 작업 영역이 열립니다.
 
 1. (선택 사항) 기존 작업 영역 이름의 오른쪽에 있는 아래쪽 방향 화살표를 확장하고 레코드 유형을 만들 작업 영역을 선택합니다.
+1. (선택 사항) **섹션 추가** 작업공간에 새 섹션을 추가합니다.
 1. 클릭 **레코드 유형 추가**.
-1. (조건부) 작업 레코드 유형을 만드는 경우 **처음부터**.
-
-   레코드 유형 추가 상자가 열립니다.
+1. (조건부) Excel 또는 CSV 파일을 가져와서 레코드 유형을 만드는 것이 활성화되어 있으면 **처음부터**. 그렇지 않으면 **레코드 유형 추가** 상자가 열립니다.
 
    ![](assets/add-record-type-box-with-appearance-options.png)
 
@@ -156,13 +154,17 @@ Workfront Planning 템플릿을 사용하여 작업 공간을 만들 때 레코�
 
 1. 바깥쪽을 클릭합니다. **레코드 유형 추가** 레코드 종류를 저장하는 상자입니다.
 
-   레코드 유형 카드가 선택한 작업 영역에 추가됩니다.
+   레코드 유형 카드가 선택한 섹션 및 작업 영역에 추가됩니다.
 레코드 종류에 포함된 필드 수가 카드에 표시됩니다.
 1. (선택 사항) 레코드 유형 카드를 클릭하여 레코드 유형 페이지를 엽니다.
 
    ![](assets/operational-record-type-blank.png)
 
    레코드 유형 페이지는 기본적으로 테이블 뷰에 표시됩니다. 표의 열은 새 레코드 종류와 관련된 필드입니다. 각 행은 추가해야 하는 고유한 레코드입니다.
+
+   >[!TIP]
+   >
+   >    Excel 또는 CSV 파일에서 레코드 형식을 가져오는 경우 레코드도 가져옵니다.
 
    기본적으로 다음 필드는 작업 레코드 유형의 테이블 보기 열에 표시됩니다.
 
@@ -183,7 +185,7 @@ Workfront Planning 템플릿을 사용하여 작업 공간을 만들 때 레코�
 
    필드 만들기에 대한 자세한 내용은 [필드 만들기](../fields/create-fields.md).
 
-1. (선택 사항) 선택한 작업 영역으로 돌아가려면 레코드 유형 이름의 왼쪽에 있는 왼쪽 방향 화살표를 클릭합니다.
+1. (선택 사항) 헤더에서 레코드 유형 이름의 왼쪽에 있는 왼쪽 화살표를 클릭하여 선택한 작업 영역으로 돌아갑니다.
 
    레코드 유형 카드에는 레코드 유형에 포함된 필드 및 연결 수가 표시됩니다.
 
@@ -196,16 +198,15 @@ Workfront Planning 템플릿을 사용하여 작업 공간을 만들 때 레코�
    * [레코드 유형 편집](../architecture/edit-record-types.md)
    * [레코드 보기 관리](../views/manage-record-views.md)
 
-1. (선택 사항) 작업 공간에서 을 클릭하여 레코드 유형을 원하는 위치에 끌어다 놓거나 다른 섹션으로 이동합니다.
+1. (선택 사항) 작업 공간에서 레코드 유형 카드를 클릭하여 원하는 위치에 레코드 유형을 끌어다 놓거나 다른 섹션으로 이동합니다.
 
-   선택한 레코드 유형 카드를 놓으면 변경 사항이 자동으로 저장됩니다.
+   변경 사항은 자동으로 저장됩니다.
 
 ## Excel 또는 CSV 파일을 가져와서 레코드 유형 만들기
 
 >[!IMPORTANT]
 >
 >이 기능은 2024년 3월 21일부터 일시적으로 비활성화되었습니다. 이 기능은 나중에 활성화됩니다.
-
 
 Excel 또는 CSV 파일을 사용하여 레코드 유형을 가져올 때는 다음 사항을 고려하십시오.
 
@@ -233,7 +234,7 @@ Excel 파일을 사용하여 레코드 유형을 가져오려면 다음을 수�
 
    미리보기 및 편집(Preview and edit) 상자에 다음 정보가 표시됩니다.
 
-   * 시트 이름 또는 이후 레코드 유형이 왼쪽 패널에 표시됩니다. Workfront planning에서는 기본적으로 각 새 레코드 유형에 대해 아이콘과 색상을 선택합니다.
+   * 시트 이름 또는 이후 레코드 유형이 왼쪽 패널에 표시됩니다. Workfront Planning에서는 기본적으로 각 새 레코드 유형에 대해 아이콘과 색상을 선택합니다.
    * 첫 번째 시트 또는 레코드 유형이 선택되고 연관된 필드의 이름이 열 머리글로 표시됩니다. 각 필드의 유형은 기본적으로 선택됩니다.
    * 각 행은 새 레코드를 나타냅니다. 처음 10개의 레코드만 [미리 보기 및 편집] 상자에 표시됩니다.
 
@@ -254,7 +255,7 @@ Excel 파일을 사용하여 레코드 유형을 가져오려면 다음을 수�
 
 1. 클릭 **가져오기** 파일을 가져올 준비가 되면
 
-   다음 정보는에서 Workfront 계획으로 가져옵니다.
+   다음 정보는에서 Workfront Planning으로 가져옵니다.
 
    * 새 레코드 유형
    * 각 레코드 유형과 연결된 새 필드
@@ -266,9 +267,9 @@ Excel 파일을 사용하여 레코드 유형을 가져오려면 다음을 수�
 
 <!--## Connect record types with object types from another application
 
-You can connect a record type and an object type from another application. This creates a read-only record type in Workfront planning that corresponds to the object type in the other application. 
+You can connect a record type and an object type from another application. This creates a read-only record type in Workfront Planning that corresponds to the object type in the other application. 
 
-For example, you can create record types by connecting Workfront planning record types with Workfront projects. As a result, the Workfront project object type is imported into Workfront planning as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
+For example, you can create record types by connecting Workfront Planning record types with Workfront projects. As a result, the Workfront project object type is imported into Workfront Planning as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
     
 You can import the following objects from the following applications: 
 

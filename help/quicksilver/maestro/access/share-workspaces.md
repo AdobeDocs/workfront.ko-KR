@@ -1,11 +1,11 @@
 ---
 title: 작업 공간 공유
-description: Adobe Workfront planning에서 작업할 때 공동 작업을 보장하기 위해 다른 사용자와 작업 영역을 공유할 수 있습니다.
+description: Adobe Workfront Planning에서 작업할 때 공동 작업을 보장하기 위해 다른 사용자와 작업 영역을 공유할 수 있습니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 2%
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 {{maestro-important-intro}}
 
-Adobe Workfront planning에서 작업할 때 공동 작업을 보장하기 위해 다른 사용자와 작업 영역을 공유할 수 있습니다.
+Adobe Workfront Planning에서 작업할 때 공동 작업을 보장하기 위해 다른 사용자와 작업 영역을 공유할 수 있습니다.
 
 >[!NOTE]
 >
@@ -65,7 +65,7 @@ Adobe Workfront planning에서 작업할 때 공동 작업을 보장하기 위�
 
 <tr>
    <td role="rowheader"><p>액세스 수준 구성</p></td>
-   <td> Adobe Workfront 계획에 대한 액세스 제어가 없습니다.</p>  
+   <td> Adobe Workfront Planning에 대한 액세스 제어가 없습니다.</p>  
 </td>
   </tr>
 

@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 0%
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Adobe Workfront 계획에서 작업 공간은 팀이 작업을 계획하는 중앙 집중식 위치입니다.
+Adobe Workfront Planning에서 작업 공간은 팀이 작업을 계획하는 중앙 집중식 위치입니다.
 
-작업 영역은 팀에서 사용하는 레코드 유형의 컬렉션으로, 팀의 작업 라이프사이클을 나타냅니다. Adobe Workfront planning에서 작업 공간을 완전히 사용자 정의할 수 있습니다.
+작업 영역은 팀에서 사용하는 레코드 유형의 컬렉션으로, 팀의 작업 라이프사이클을 나타냅니다. Adobe Workfront Planning에서 작업 공간을 완전히 사용자 정의할 수 있습니다.
 
 작업 공간 만들기에 대한 자세한 내용은 [작업 공간 만들기](/help/quicksilver/maestro/architecture/create-workspaces.md).
 
@@ -62,7 +62,7 @@ Adobe Workfront 계획에서 작업 공간은 팀이 작업을 계획하는 중�
 
 <tr>
    <td role="rowheader"><p>액세스 수준 구성</p></td>
-   <td> <p>Workfront 계획에 대한 액세스 수준 제어가 없습니다.</p>
+   <td> <p>Workfront Planning에 대한 액세스 수준 제어가 없습니다.</p>
 </td>
   </tr>
 
@@ -88,7 +88,7 @@ Adobe Workfront 계획에서 작업 공간은 팀이 작업을 계획하는 중�
 
 {{step1-to-maestro}}
 
-Workfront 계획의 작업 영역 영역이 열립니다.
+Workfront Planning의 작업 영역 영역이 열립니다.
 
 1. 새 작업 공간 헤더의 작업 공간 이름 안쪽을 클릭하여 이름을 변경한 다음 키를 누릅니다 **입력**
 

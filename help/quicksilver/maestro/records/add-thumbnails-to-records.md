@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront 계약</p></td>
    <td>
-<p>조직은 Adobe Workfront planning Beta 프로그램에 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
+<p>조직은 Adobe Workfront Planning Beta 프로그램에 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
    </td>
   </tr>
   <tr>
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 <tr>
    <td role="rowheader"><p>액세스 수준 구성</p></td>
-   <td> <p>Workfront 계획에 대한 액세스 제어가 없습니다. </p>  
+   <td> <p>Workfront Planning에 대한 액세스 제어가 없습니다. </p>  
 </td>
   </tr>
 <tr>
@@ -93,8 +93,8 @@ ht-degree: 0%
 
    * 테이블 보기에서 레코드의 기본 필드
    * 타임라인 보기의 레코드 모음
-* 레코드의 세부 정보 페이지나 타임라인 보기에서는 레코드 축소판을 추가할 수 없습니다.
-* 레코드의 세부 정보 페이지에는 썸네일이 표시되지 않습니다.
+* 레코드 페이지나 다른 유형의 보기에서 레코드 축소판을 추가할 수 없습니다.
+* 썸네일은 레코드의 페이지에 표시되지 않습니다.
 
 ## 레코드에 썸네일 추가
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '2372'
+source-wordcount: '2353'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ hide: yes
 
 {{maestro-important-intro}}
 
-Adobe Workfront 계획 레코드를 서로 연결하거나 다른 응용 프로그램의 개체에 연결할 수 있습니다.
+Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프로그램의 객체에 연결할 수 있습니다.
 
 먼저 두 레코드 형식을 서로 연결하거나 다른 응용 프로그램의 개체 형식에 레코드 형식을 연결해야 합니다. 이렇게 하면 연결된 레코드 필드가 만들어집니다. 그런 다음 연결된 레코드 필드를 사용하여 레코드를 서로 연결하거나 레코드를 다른 응용 프로그램의 다른 개체에 연결할 수 있습니다.
 
@@ -43,7 +43,7 @@ Adobe Workfront 계획 레코드를 서로 연결하거나 다른 응용 프로�
 다음을 연결할 수 있습니다.
 
 * Adobe Workfront 계획 레코드
-* Adobe Workfront planning은 다른 응용 프로그램의 객체를 사용하여 레코드를 기록합니다.
+* Adobe Workfront Planning은 다른 응용 프로그램의 객체를 사용하여 레코드를 기록합니다.
 
   다음 응용 프로그램에서 아래 나열된 형식의 개체에 레코드를 연결할 수 있습니다.
 
@@ -77,7 +77,7 @@ Adobe Workfront 계획 레코드를 서로 연결하거나 다른 응용 프로�
 <td>제품</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>Adobe Workfront 계획 레코드를 Experience Manager Assets과 연결하려면 Adobe Experience Manager Assets 라이선스가 있어야 하며, 조직의 Workfront 인스턴스가 Adobe 비즈니스 플랫폼 또는 Adobe Admin Console에 온보딩되어야 합니다.</p>
+   <p>Adobe Workfront Planning 레코드를 Experience Manager Assets과 연결하려면 Adobe Experience Manager Assets 라이선스가 있어야 하며, 조직의 Workfront 인스턴스가 Adobe 비즈니스 플랫폼 또는 Adobe Admin Console에 온보딩되어야 합니다.</p>
    </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront 계약</p></td>
@@ -100,7 +100,7 @@ Adobe Workfront 계획 레코드를 서로 연결하거나 다른 응용 프로�
 
 <tr>
    <td role="rowheader"><p>액세스 수준 구성</p></td>
-   <td> <p>Workfront 계획에 대한 액세스 수준 제어가 없습니다.</p>  
+   <td> <p>Workfront Planning에 대한 액세스 수준 제어가 없습니다.</p>  
 </td>
   </tr>
 <tr>
@@ -129,14 +129,14 @@ Adobe Workfront 계획 레코드를 서로 연결하거나 다른 응용 프로�
 
 ### 레코드 연결에 대한 고려 사항
 
-* 레코드 유형을 연결하면 연결된 레코드 유형이 연결된 레코드 유형의 표 및 연결된 레코드의 세부 정보 페이지에 연결된 레코드 필드로 표시됩니다.
+* 레코드 유형을 연결하면 연결된 레코드 유형이 연결된 레코드 유형의 테이블 및 해당 레코드 페이지에서 연결된 레코드 필드로 표시됩니다.
 * 연결된 레코드 필드에서 연결된 레코드와 개체 유형의 레코드와 개체를 찾아보고 추가할 수 있습니다.
 * 연결된 레코드 유형의 필드를 연결 중인 레코드 유형의 테이블에 추가할 수 있습니다.
 * 연결 중인 레코드의 연결된 필드 값은 수동으로 업데이트할 수 없습니다.
 
-  연결된 레코드의 연결된 필드 값은 원본 레코드나 개체에서 자동으로 연결되는 Workfront 계획 레코드를 채웁니다.
+  연결된 레코드의 연결된 필드 값은 원본 레코드나 개체에서 자동으로 연결되는 Workfront Planning 레코드를 채웁니다.
 
-* Workfront 계획 및 보기 또는 작업 공간에 대한 상위 권한에 액세스할 수 있는 모든 사용자는 레코드 간 또는 레코드와 다른 애플리케이션의 개체 간에 수행하는 연결을 볼 수 있습니다. 연결하려는 응용 프로그램의 사용 권한에 관계없이 연결된 레코드와 개체를 볼 수 있습니다.
+* Workfront 계획 및 보기에 대한 액세스 권한 또는 작업 공간에 대한 상위 권한이 있는 모든 사용자는 레코드 간 또는 레코드와 다른 응용 프로그램의 개체 간에 수행하는 연결을 볼 수 있습니다. 연결하려는 응용 프로그램의 사용 권한에 관계없이 연결된 레코드와 개체를 볼 수 있습니다.
 * 연결된 레코드가 있는 작업 영역에 대한 관리 권한이 있는 경우 다른 사용자의 연결을 보고 편집할 수 있습니다.
 * 한 레코드를 다른 응용 프로그램에서 하나 또는 여러 개체에 연결할 수 있습니다.
 * 레코드를 다른 레코드나 개체와 연결하려면 다음이 필요합니다.
@@ -183,7 +183,7 @@ Adobe Workfront 계획 레코드를 서로 연결하거나 다른 응용 프로�
 
    >[!TIP]
    >
-   >    레코드의 세부 정보 페이지를 열고 연결된 레코드 필드를 찾은 다음 **+** 연결된 레코드 또는 개체 유형에서 레코드를 추가할 필드의 아이콘입니다.
+   >    레코드의 페이지를 열고 연결된 레코드 필드를 찾은 다음 **+** 연결된 레코드 또는 개체 유형에서 레코드를 추가할 필드의 아이콘입니다.
 
    다음이 추가됩니다.
 
@@ -207,7 +207,7 @@ Adobe Workfront 계획 레코드를 서로 연결하거나 다른 응용 프로�
 
    다음 사항에 주목하십시오. **캠페인** 연결된 레코드 필드는 제품 레코드 유형 페이지에서 제품에 연결한 캠페인의 이름을 표시합니다. Campaign 정보를 업데이트하면 제품 레코드 유형에 대한 Campaign 연결 레코드 필드가 자동으로 업데이트됩니다.
 
-### Adobe Workfront 계획 레코드를 Workfront 개체에 연결
+### Adobe Workfront Planning 레코드를 Workfront 객체에 연결
 
 <!--when we will have more applications to link to from Maestro, change the title to something like: Connect Maestro records to objects from other applications-->
 
@@ -215,7 +215,7 @@ Adobe Workfront 계획 레코드를 서로 연결하거나 다른 응용 프로�
 
 >[!NOTE]
 >
->Workfront에서 Workfront 개체를 Workfront 계획 레코드와 연결할 수 없습니다.
+>Workfront에서 Workfront 개체를 Workfront Planning 레코드와 연결할 수 없습니다.
 
 
 {{step1-to-maestro}}
@@ -260,13 +260,13 @@ Adobe Workfront 계획 레코드를 서로 연결하거나 다른 응용 프로�
 
    >[!TIP]
    >
-   >레코드의 세부 정보 페이지를 열고 연결된 레코드 필드를 찾은 다음 **+** 연결된 객체 유형에서 객체를 추가하는 필드의 아이콘.
+   >레코드의 페이지를 열고 연결된 레코드 필드를 찾은 다음 **+** 연결된 객체 유형에서 객체를 추가하는 필드의 아이콘.
 
    다른 응용 프로그램의 개체와 레코드 형식을 연결하는 방법에 대한 자세한 내용은 [레코드 유형 연결](../architecture/connect-record-types.md).
 
-1. (선택 사항) 테이블 보기의 연결된 필드 또는 의 연결된 필드에서 Workfront 계획 레코드에 연결된 Workfront 개체의 이름을 클릭합니다. **세부 사항** 레코드의 페이지.
+1. (선택 사항) 테이블 보기의 연결된 필드 또는 레코드 페이지의 연결된 필드에서 Workfront Planning 레코드에 연결된 Workfront 개체의 이름을 클릭합니다.
 
-   이렇게 하면 읽기 전용 Workfront 계획이 열립니다 **세부 사항** 연결된 Workfront 개체의 페이지입니다. 레코드 유형을 Workfront 개체와 연결할 때 조회 필드로 선택한 필드가 Workfront 계획 레코드의 세부 정보 페이지에 표시됩니다.
+   연결된 Workfront 개체에 대한 읽기 전용 Workfront Planning 레코드 페이지가 열립니다. 레코드 유형을 Workfront 개체와 연결할 때 조회 필드로 선택한 필드가 Workfront Planning 레코드 페이지에 표시됩니다.
 
    >[!TIP]
    >
@@ -274,7 +274,7 @@ Adobe Workfront 계획 레코드를 서로 연결하거나 다른 응용 프로�
    >
    >* Workfront의 연결된 Workfront 개체에 대해 연결된 레코드 필드가 만들어지지 않습니다.
 
-1. (선택 사항) Workfront에서 연결된 Workfront 개체를 열려면 **소스로 이동** Workfront 객체의 세부내용 페이지의 오른쪽 상단 모서리에서 참조할 수 있습니다.
+1. (선택 사항) Workfront에서 연결된 Workfront 개체를 열려면 **소스로 이동** Workfront 개체의 레코드 페이지의 오른쪽 상단 모서리에서 참조할 수 있습니다.
 
    ![](assets/workfront-project-maestro-details-page-with-go-to-source-link.png)
 
@@ -288,16 +288,16 @@ Adobe Workfront 계획 레코드를 서로 연결하거나 다른 응용 프로�
 
    에서 Workfront 개체 필드 제거 **선택된 필드** 영역입니다.
 
-   이렇게 하면 Workfront 계획 레코드에서 연결된 필드가 추가되거나 제거됩니다. 제거된 필드와 관련된 정보는 Workfront에 남아 있습니다.
+   이렇게 하면 Workfront Planning 레코드에서 연결된 필드가 추가되거나 제거됩니다. 제거된 필드와 관련된 정보는 Workfront에 남아 있습니다.
 
 
-### Workfront 계획 레코드를 Adobe Experience Manager 개체에 연결
+### Workfront Planning 레코드를 Adobe Experience Manager 객체에 연결
 
 <!--when we will have more applications to link to from Maestro, change the title to something like: Connect Maestro records to objects from other applications-->
 
 >[!IMPORTANT]
 >
->Adobe Experience Manager Assets 라이선스가 있어야 하며, Workfront 계획 레코드를 Adobe Experience Manager Assets에 연결하려면 조직의 Workfront 인스턴스가 Adobe 비즈니스 플랫폼 또는 Adobe Admin Console에 온보딩되어야 합니다.
+>Adobe Experience Manager Assets 라이선스가 있어야 하며, Workfront Planning 레코드를 Adobe Experience Manager Assets에 연결하려면 조직의 Workfront 인스턴스가 Adobe 비즈니스 플랫폼 또는 Adobe Admin Console에 온보딩되어야 합니다.
 >
 >Adobe Admin Console 온보딩에 대한 질문이 있는 경우 [통합 경험 FAQ Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
@@ -316,7 +316,7 @@ Adobe Workfront 계획 레코드를 서로 연결하거나 다른 응용 프로�
 
    >[!TIP]
    >
-   >  다음을 추가할 수 있습니다. **+** ( 레코드의 세부 정보 페이지에 있는 링크된 객체 필드) 아이콘을 클릭하여 에셋을 레코드에 연결합니다.
+   >  다음을 추가할 수 있습니다. **+** 레코드 페이지의 연결된 개체 필드에 있는 아이콘으로 자산을 레코드에 연결합니다.
 
    다음 **에셋 선택** 상자가 표시됩니다. <!--we might change this to Connect assets-->
 
@@ -346,7 +346,7 @@ Adobe Workfront 계획 레코드를 서로 연결하거나 다른 응용 프로�
      >
      >* 복수 레코드 허용 설정을 활성화한 경우 선택한 집계기에 따라 여러 객체 값이 쉼표로 구분되거나 집계되어 표시됩니다.
      >
-     >* Workfront Planning 연결 레코드에 대한 연결된 레코드 필드는 Experience Manager Assets 애플리케이션에서 연결된 Experience Manager 에셋에 대해 생성되지 않습니다.
+     >* Workfront Planning 연결 레코드에 대한 연결된 레코드 필드는 Experience Manager Assets 애플리케이션에서 연결된 Experience Manager 자산에 대해 생성되지 않습니다.
 
 1. (선택 사항) Experience Manager Assets에 연결한 레코드 유형으로 이동하고 연결된 레코드 필드에서 에셋의 이름을 클릭합니다. 에셋의 Experience Manager 세부 정보가 팝업 창에 표시됩니다. <!--update screen shot with hi-rez picture-->
 
@@ -364,7 +364,7 @@ Adobe Workfront 계획 레코드를 서로 연결하거나 다른 응용 프로�
    * 제작일
    * 수정일
 
-1. (선택 사항) Experience Manager에서 에셋 레코드 Experience Manager 세부 정보 페이지를 열려면 연결하려는 레코드의 레코드 유형 페이지로 이동하고 연결된 레코드 필드에서 에셋 이름을 클릭하여 팝업 창을 연 다음 **열기** 아이콘 ![](assets/open-asset-icon.png) 를 클릭하여 자산을 엽니다.
+1. (선택 사항) Experience Manager에서 에셋 레코드 Experience Manager 페이지를 열려면 연결하려는 레코드의 레코드 유형 페이지로 이동하고 연결된 레코드 필드에서 에셋 이름을 클릭하여 팝업 창을 연 다음 **열기** 아이콘 ![](assets/open-asset-icon.png) 를 클릭하여 자산을 엽니다.
 
    이렇게 하면 Adobe Experience Manager Assets에서 Experience Manager 에셋이 열립니다.
 

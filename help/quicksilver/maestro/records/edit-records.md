@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '1332'
+source-wordcount: '1299'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-레코드와 연결된 필드의 값을 편집하여 Adobe Workfront planning에서 레코드 정보를 편집할 수 있습니다.
+레코드와 연결된 필드의 값을 편집하여 Adobe Workfront Planning에서 레코드 정보를 편집할 수 있습니다.
 
 레코드 만들기 및 편집을 시작하려면 먼저 레코드 유형을 만들어야 합니다.
 
@@ -47,7 +47,7 @@ ht-degree: 0%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront 계약</p></td>
    <td>
-<p>조직은 Adobe Workfront planning Beta 프로그램에 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
+<p>조직은 Adobe Workfront Planning Beta 프로그램에 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
    </td>
   </tr>
   <tr>
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 <tr>
    <td role="rowheader"><p>액세스 수준 구성</p></td>
-   <td> <p>Adobe Workfront 계획에 대한 액세스 제어가 없습니다.</p>  
+   <td> <p>Adobe Workfront Planning에 대한 액세스 제어가 없습니다.</p>  
 </td>
   </tr>
 <tr>
@@ -92,8 +92,8 @@ ht-degree: 0%
 * 작업 영역에 대한 권한이 부여된 경우 직접 만든 레코드나 다른 사용자가 만든 레코드를 편집할 수 있습니다.
 * 다음 영역에서 레코드 필드를 편집할 수 있습니다.
 
-   * 레코드 보기에서 레코드의 세부 정보 상자.
-   * 레코드의 세부 정보 페이지입니다.
+   * 레코드 보기의 레코드 상자
+   * 레코드의 페이지
    * 테이블 보기에서 인라인입니다.
 
 * 다음 유형의 필드는 자동으로 업데이트되며, 해당 값을 수동으로 편집할 수 없습니다.
@@ -109,7 +109,8 @@ ht-degree: 0%
 다음 영역에서 레코드를 편집할 수 있습니다.
 
 * [레코드 유형의 테이블 보기에서](#edit-a-record-from-the-table-view-of-a-record-type)
-* [레코드의 세부 정보 페이지에서](#edit-a-record-from-the-records-details-page)
+* [보기의 레코드 상자에서](#edit-a-record-from-the-records-box-in-a-view)
+* [레코드 페이지에서](#edit-a-record-from-the-records-page)
 
 ### 레코드 유형의 표 보기에서 인라인 레코드 편집
 
@@ -165,7 +166,7 @@ ht-degree: 0%
    >   * 붙여넣기: CTRL + V(Mac의 경우 ⌘ + V)
    >* 정보를 붙여넣은 필드와 같은 유형의 레코드 필드 이외의 다른 소스에서 정보를 복사할 수 없습니다.
    >
-   >* 레코드의 세부 정보 영역에는 필드 값을 복사하여 붙여넣을 수 없습니다. 이 기능은 레코드 종류의 표 보기에서만 지원됩니다.
+   >* 레코드 페이지에서 필드 값을 복사하여 붙여넣을 수 없습니다. 이 기능은 레코드 종류의 표 보기에서만 지원됩니다.
    >* 다음 필드 유형에 대한 필드 값을 복사하여 붙여넣을 수 없습니다.
    >
    >
@@ -183,9 +184,7 @@ ht-degree: 0%
 
 1. (선택 사항) 레코드에 썸네일을 추가합니다. 자세한 내용은 [레코드에 썸네일 추가](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
-### 보기의 기록 세부 정보 상자에서 레코드 편집
-
-모든 보기의 세부 정보 상자에서 레코드를 편집할 수 있습니다.
+### 보기의 레코드 상자에서 레코드 편집
 
 {{step1-to-maestro}}
 
@@ -201,7 +200,7 @@ ht-degree: 0%
 
    또는
 
-   테이블 테이블 보기에서 **세부 정보 열기** 아이콘 ![](assets/open-details-icon-in-table-name-field.png) 레코드 이름의 왼쪽에 있거나 레코드 이름을 클릭합니다. 다음 **세부 사항** 상자가 뷰에 열립니다.
+   테이블 테이블 보기에서 **세부 정보 열기** 아이콘 ![](assets/open-details-icon-in-table-name-field.png) 레코드 이름의 왼쪽에 있거나 레코드 이름을 클릭합니다. 레코드 상자가 뷰에 열립니다.
 
    ![](assets/details-box.png)
 
@@ -209,13 +208,11 @@ ht-degree: 0%
    >
    >다음을 볼 수 있습니다. **세부 정보 열기** 테이블 보기에서 레코드의 이름 필드 왼쪽에 있는 아이콘은 이름 필드가 기본 필드인 경우에만 해당됩니다.
 
-1. 에서 필드 정보 편집을 시작합니다. **세부 사항** 상자. Workfront은 변경 사항을 자동으로 저장합니다.
+1. 레코드 상자의 필드 정보 편집을 시작합니다. Workfront은 변경 사항을 자동으로 저장합니다.
 
-1. (선택 사항) **새 탭에서 열기** 아이콘 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 의 오른쪽 위 모서리 **세부 사항** 레코드를 여는 상자 **세부 사항** 새 탭에서 페이지를 만듭니다. 에 설명된 대로 레코드를 계속 편집합니다. [레코드의 세부 정보 페이지에서 레코드 편집](#edit-a-record-from-the-records-details-page) 이 문서의 섹션.
+1. (선택 사항) **새 탭에서 열기** 아이콘 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 레코드 상자의 오른쪽 상단 모서리에서 새 탭에서 레코드 페이지를 엽니다. 에 설명된 대로 레코드를 계속 편집합니다. [레코드 페이지에서 레코드 편집](#edit-a-record-from-the-records-page) 이 문서의 섹션.
 
-### 레코드의 세부 정보 페이지에서 레코드 편집
-
-세부 정보 페이지에서 레코드를 편집할 수 있습니다.
+### 레코드 페이지에서 레코드 편집
 
 {{step1-to-maestro}}
 
@@ -229,13 +226,13 @@ ht-degree: 0%
 
 1. 다음 중 하나를 수행하십시오.
 
-   * 모든 보기에서 다음에 설명된 대로 세부 정보 상자에 액세스합니다. [보기의 기록 세부 정보 상자에서 레코드 편집](#edit-a-record-from-the-records-details-box-in-a-view)이 문서의 섹션. 그런 다음 **새 탭에서 열기** 아이콘 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 의 오른쪽 위 모서리 **세부 사항** 레코드를 여는 상자 **세부 사항** 새 탭에서 페이지를 만듭니다.
+   * 모든 보기에서 다음에 설명된 대로 레코드 상자에 액세스합니다. [보기의 레코드 상자에서 레코드 편집](#edit-a-record-from-the-records-box-in-a-view) 이 문서의 섹션. 그런 다음 **새 탭에서 열기** 아이콘 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 레코드 상자의 오른쪽 상단 모서리에서 새 탭에서 레코드 페이지를 엽니다.
 
    * 다음에서 **표** 보기, 레코드 이름 위로 마우스를 가져간 다음 **자세히** 메뉴 ![](assets/more-menu.png)을 클릭한 다음 을 클릭합니다 **보기**
 
      ![](assets/contextual-menu-for-record-row.png)
 
-     레코드 **세부 사항** 페이지가 열립니다.
+     레코드 페이지가 열립니다.
 
      ![](assets/details-page.png)
 
@@ -243,7 +240,7 @@ ht-degree: 0%
 
    또는
 
-   세부 정보 페이지의 편집 가능한 필드 내부를 클릭하여 정보를 편집합니다.
+   레코드 페이지의 편집 가능한 필드 내부를 클릭하여 정보를 편집합니다.
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 

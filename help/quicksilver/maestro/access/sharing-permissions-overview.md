@@ -1,19 +1,19 @@
 ---
 title: Adobe Workfront Planning의 공유 권한 개요
-description: Adobe Workfront 계획 작업 영역 또는 보기에 대한 권한을 공유하거나 제거할 수 있습니다.
+description: Adobe Workfront Planning 작업 영역 또는 보기에 대한 권한을 공유하거나 제거할 수 있습니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 7%
 
 ---
 
-<!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Workfront planning. This article describes the levels of access that users could have to Adobe Workfront planning. -->
+<!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Workfront Planning. This article describes the levels of access that users could have to Adobe Workfront Planning. -->
 
 <!--over time, this article should look like this one does: https://eperienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
 
@@ -21,9 +21,9 @@ ht-degree: 7%
 
 {{maestro-important-intro}}
 
-Adobe Workfront planning에서 작업 공간 또는 보기에 대한 권한을 공유하거나 제거할 수 있습니다.
+Adobe Workfront Planning에서 작업 공간 또는 보기에 대한 권한을 공유하거나 제거할 수 있습니다.
 
-이 문서에서는 Workfront 계획 객체의 권한 수준에 대해 설명합니다.
+이 문서에서는 Workfront Planning 객체의 권한 수준에 대해 설명합니다.
 
 작업 영역 또는 보기를 공유하는 방법에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
@@ -31,7 +31,7 @@ Adobe Workfront planning에서 작업 공간 또는 보기에 대한 권한을 �
 
 * [보기 공유](/help/quicksilver/maestro/access/share-views.md)
 
-## Adobe Workfront planning에서 공유할 수 있는 객체
+## Adobe Workfront Planning에서 공유할 수 있는 객체
 
 다음 개체를 공유할 수 있습니다.
 
@@ -41,11 +41,11 @@ Adobe Workfront planning에서 작업 공간 또는 보기에 대한 권한을 �
 
 * 조회수
 
-## Adobe Workfront Planning에서 오브젝트 공유에 대한 고려 사항
+## Adobe Workfront Planning에서 객체 공유에 대한 고려 사항
 
-* Adobe Workfront 라이선스 유형은 Workfront planning 권한과 함께 작동하여 Workfront planning 사용 시 개체를 보고, 기여하고, 관리할 수 있는 액세스 권한을 부여합니다.
+* Adobe Workfront 라이선스 유형은 Workfront Planning 권한과 함께 작동하여 Workfront Planning 사용 시 개체를 보고, 기여하고, 관리할 수 있는 액세스 권한을 부여합니다.
 
-  라이선스 유형이 Workfront Planning의 권한 수준에 미치는 영향에 대한 자세한 내용은 [Adobe Workfront planning 사용 시 라이선스 유형 개요](/help/quicksilver/maestro/access/license-type-overview.md).
+  라이선스 유형이 Workfront Planning의 권한 수준에 미치는 영향에 대한 자세한 내용은 [Adobe Workfront Planning 사용 시 라이선스 유형 개요](/help/quicksilver/maestro/access/license-type-overview.md).
 * 시스템 관리자는 다른 사용자가 만든 작업 공간을 관리하고 공유할 수 있습니다.
 * 시스템 관리자가 아닌 경우 다른 사용자가 만든 작업 영역이 사용자와 공유될 경우 해당 작업 영역에 기여할 수 있습니다.
 * 작업 공간은 일괄적으로 공유할 수 없습니다.
@@ -55,15 +55,15 @@ Adobe Workfront planning에서 작업 공간 또는 보기에 대한 권한을 �
 * 시스템 관리자를 포함한 다른 사용자는 자신이 만들었거나 자신과 공유된 보기에만 액세스할 수 있습니다. 시스템 관리자에게만 보기 관리 권한이 부여될 수 있습니다.
 * 작업 영역 또는 레코드 유형 페이지의 보기에 대한 링크를 다른 사용자와 공유할 수 있습니다. 링크를 받은 사용자는 활성 사용자여야 하며 Workfront에 로그인해야 선택한 보기에 표시된 작업 영역 또는 레코드 유형 페이지에 액세스할 수 있습니다.
 
-## Adobe Workfront 계획 개체에 대한 권한 공유
+## Adobe Workfront Planning 개체에 대한 권한 공유
 
 다음 섹션의 표에서는 작업 영역 또는 보기를 공유할 때 선택할 수 있는 권한 수준과 각 수준에서 허용하는 기능을 보여 줍니다.
 
 >[!IMPORTANT]
 >
->모든 사용자가 아래에 설명된 권한 수준을 가질 수 있는 것은 아닙니다. 사용자의 개별 라이선스는 Workfront 계획 개체에 대해 받을 수 있는 권한 수준을 결정합니다.
+>모든 사용자가 아래에 설명된 권한 수준을 가질 수 있는 것은 아닙니다. 사용자의 개별 라이선스는 Workfront Planning 개체에 대해 받을 수 있는 권한 수준을 결정합니다.
 >
->자세한 내용은 [Adobe Workfront planning 사용 시 라이선스 유형 개요](/help/quicksilver/maestro/access/license-type-overview.md).
+>자세한 내용은 [Adobe Workfront Planning 사용 시 라이선스 유형 개요](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
 ### 작업 공간 권한

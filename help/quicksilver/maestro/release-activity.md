@@ -1,22 +1,22 @@
 ---
-title: Adobe Workfront 계획 릴리스 활동
-description: Adobe Workfront 계획 기능은 현재 Workfront 고객을 선택할 수 있습니다. 이 문서를 자주 검토하여 계획 기능용으로 최근 릴리스된 기능에 대해 알아보십시오.
+title: Adobe Workfront Planning 릴리스 활동
+description: 현재 일부 Workfront 고객에게는 Adobe Workfront Planning 기능을 사용할 수 있습니다. 이 문서를 자주 검토하여 계획 기능용으로 최근 릴리스된 기능에 대해 알아보십시오.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: c3ba1d5fe789dec76e5513583d35679be290f14a
+source-git-commit: 5c867a0c6f81cc80675409ef9318a228bceaabb5
 workflow-type: tm+mt
-source-wordcount: '5266'
+source-wordcount: '5359'
 ht-degree: 0%
 
 ---
 
-# Adobe Workfront 계획 릴리스 활동
+# Adobe Workfront Planning 릴리스 활동
 
 {{maestro-important-intro}}
 
-이 문서에서는 2023년 5월 22일 Adobe Workfront 계획 기능 비공개 베타 프로그램 출시 후 릴리스된 기능을 나열합니다.
+이 문서에서는 2023년 5월 22일 Adobe Workfront Planning 기능 비공개 베타 프로그램 출시 후 릴리스된 기능을 나열합니다.
 
 릴리스된 기능은 릴리스 순서대로 나열되며 가장 최근의 기능이 먼저 릴리스됩니다. 계획 기능 Closed Beta 프로그램에 참여하는 고객은 프로덕션 환경의 모든 기능에 액세스할 수 있습니다.
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >2023년 5월과 2023년 12월 사이에 이 문서의 모든 기능이 미리보기 및 프로덕션 환경에 릴리스되었습니다. 계획 기능은 2024년 1월부터 미리보기 및 샌드박스 환경에서 일시적으로 제거되었습니다. 이 날짜 이후 릴리스된 모든 기능은 현재 프로덕션에서 사용할 수 있습니다.
 
-이 문서에서는 2023년 5월 22일 Adobe Workfront 계획 기능 비공개 베타 프로그램 출시 후 릴리스된 기능 및 패치를 나열합니다.
+이 문서에서는 2023년 5월 22일 Adobe Workfront Planning 기능 비공개 베타 프로그램 출시 후 릴리스된 기능 및 패치를 나열합니다.
 
 기능은 매주 릴리스되고 릴리스 순서대로 나열되며, 가장 최근의 기능이 먼저 나열됩니다. 계획 기능 Closed Beta 프로그램에 참여하는 고객은 미리보기 및 프로덕션 환경의 모든 기능에 액세스할 수 있습니다.
 
@@ -64,13 +64,23 @@ ht-degree: 0%
 
 ### 메인 메뉴에서 마에스트로 영역의 이름이 Planning으로 변경되었습니다.
 
-프로덕션: 2024년 3월 28일
+프로덕션: 2024년 3월 27일
 
 미리보기: 결정 예정
 
 메인 메뉴에 있는 마에스트로 영역의 이름을 계획으로 변경했습니다.
 
-Adobe Workfront 계획에 대한 개요는 를 참조하십시오. [Adobe Workfront 계획 개요](/help/quicksilver/maestro/maestro-overview.md).
+Adobe Workfront Planning에 대한 개요는 다음을 참조하십시오. [Adobe Workfront Planning 개요](/help/quicksilver/maestro/maestro-overview.md).
+
+### 레코드 유형을 삭제할 때 새로운 경험
+
+프로덕션: 2024년 3월 27일
+
+미리보기: 결정 예정
+
+레코드 유형을 삭제할 때 확인 상자를 다시 디자인했습니다. 레코드 유형을 삭제하면 모든 레코드, 해당 필드, 필드의 정보 및 레코드 유형과 연관된 보기가 삭제되므로 영향을 줍니다. 삭제된 레코드 종류 및 삭제된 정보는 복구할 수 없습니다.
+
+이러한 이유로 레코드 유형을 삭제할 때 사용자의 의도가 정확한지 확인하고자 했으므로 삭제 확인에 추가 단계를 도입했습니다. 자세한 내용은 [레코드 유형 삭제](/help/quicksilver/maestro/architecture/delete-record-types.md).
 
 ## 2024년 3월 18일 주
 
@@ -82,15 +92,15 @@ Adobe Workfront 계획에 대한 개요는 를 참조하십시오. [Adobe Workfr
 
 이제 달력 보기에서 정보를 필터링할 수 있습니다. 자세한 내용은 [달력 보기 관리](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
 
-### 타임라인 및 달력 보기에 추가된 세부 정보 상자
+### 타임라인 및 달력 보기에 추가된 레코드 세부 정보가 있는 상자
 
 프로덕션: 2024년 3월 19일
 
 미리보기: 결정 예정
 
-이제 타임라인 및 달력 보기에서 레코드의 세부 정보 상자에 액세스할 수 있습니다. 타임라인 및 달력 보기 내의 세부 정보 상자에서 레코드를 편집할 수 있습니다.
+이제 타임라인 및 달력 보기에서 레코드 세부 정보가 있는 상자에 액세스할 수 있습니다. 타임라인 및 달력 보기 내의 레코드 상자에서 레코드를 편집할 수 있습니다.
 
-세부 정보 상자에서 레코드의 세부 정보 페이지를 열 수 있습니다.
+레코드 상자에서 새 브라우저 탭에서 레코드 페이지를 열 수 있습니다.
 
 자세한 내용은 [레코드 편집](/help/quicksilver/maestro/records/edit-records.md).
 
@@ -116,7 +126,7 @@ Excel 또는 CSV 파일을 사용하여 레코드 유형 가져오기를 일시�
 
 * 레코드 정보 수정 기능
 
-* 레코드의 세부 정보 페이지를 여는 링크
+* 레코드의 페이지를 여는 링크
 
 자세한 내용은 [레코드 편집](/help/quicksilver/maestro/records/edit-records.md).
 
@@ -247,7 +257,7 @@ Excel 또는 CSV 파일을 사용하여 레코드 유형 가져오기를 일시�
 
 새 라이선스 모델에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Planning 기능의 라이선스 유형과 권한 간의 연결에 대한 자세한 내용은 [Adobe Workfront planning 사용 시 라이선스 유형 개요](/help/quicksilver/maestro/access/license-type-overview.md).
+Planning 기능의 라이선스 유형과 권한 간의 연결에 대한 자세한 내용은 [Adobe Workfront Planning 사용 시 라이선스 유형 개요](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
 ### 레코드 필드에 대한 리치 텍스트 도구 모음의 새로운 모양
@@ -360,7 +370,7 @@ Planning 기능의 라이선스 유형과 권한 간의 연결에 대한 자세�
 
 미리보기 및 샌드박스: 2024년 1월 11일
 
-Adobe Workfront 계획 기능이 미리보기 및 샌드박스 환경에서 일시적으로 제거되었습니다. 나중에 이러한 환경에 추가되며, 이는 릴리스 활동 정보에서 전달됩니다.
+Adobe Workfront Planning 기능이 미리보기 및 샌드박스 환경에서 일시적으로 제거되었습니다. 나중에 이러한 환경에 추가되며, 이는 릴리스 활동 정보에서 전달됩니다.
 
 ### 작업 공간 및 보기에 대한 Planning 기능 권한
 
@@ -387,7 +397,7 @@ Adobe Workfront 계획 기능이 미리보기 및 샌드박스 환경에서 일�
 * 보기: 사용자는 레코드 유형 페이지의 보기 드롭다운 메뉴에서 보기를 선택할 수 있습니다.
 * 관리: 사용자가 보기를 편집, 공유 및 삭제할 수 있습니다.
 
-자세한 내용은 [액세스 개요](/help/quicksilver/maestro/access/access-overview.md) 및 [Adobe Workfront 계획 기능의 공유 권한 개요](../maestro/access/sharing-permissions-overview.md).
+자세한 내용은 [액세스 개요](/help/quicksilver/maestro/access/access-overview.md) 및 [Adobe Workfront Planning 기능의 공유 권한 개요](../maestro/access/sharing-permissions-overview.md).
 
 ### 새 공식 필드 유형
 
@@ -439,7 +449,7 @@ Adobe Workfront 계획 기능이 미리보기 및 샌드박스 환경에서 일�
 
 ## 2023년 12월 18일이 있는 주
 
-### 세부 정보 페이지에서 레코드에 대한 주석 추가
+### 레코드의 페이지에서 레코드에 대한 댓글 추가
 
 모든 고객을 위한 미리보기 및 프로덕션: 2023년 12월 18일
 
@@ -455,7 +465,7 @@ Adobe Workfront 계획 기능이 미리보기 및 샌드박스 환경에서 일�
 >
 >자세한 내용은 [2024년 1분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
-이제 세부 정보 페이지에서 레코드를 보는 동안 주석을 추가하거나 다른 레코드에 회신하여 개별 레코드에 대해 다른 사용자와 공동 작업을 할 수 있습니다.
+이제 레코드의 페이지를 보는 동안 주석을 추가하거나 다른 사용자에게 회신하여 개별 레코드에 대해 다른 사용자와 공동 작업을 할 수 있습니다.
 
 계획 기능 레코드에 대한 댓글 달기 환경은 Workfront 객체에 대한 새로운 댓글 달기 환경과 일치합니다.
 
@@ -467,7 +477,7 @@ Adobe Workfront 계획 기능이 미리보기 및 샌드박스 환경에서 일�
 
 >[!IMPORTANT]
 >
->조직에서 Adobe Workfront 계획 기능을 사용하여 연결을 구축하려면 Adobe Workfront Fusion을 구매해야 합니다.
+>Adobe Workfront Planning 기능을 사용하여 연결을 만들려면 조직에서 Adobe Workfront Fusion을 구매해야 합니다.
 >
 >자세한 내용은 [Adobe Workfront Fusion 개요](/help/quicksilver/workfront-fusion/get-started/workfront-fusion-overview.md).
 
@@ -525,11 +535,11 @@ Adobe Workfront 계획 기능이 미리보기 및 샌드박스 환경에서 일�
 
 >[!IMPORTANT]
 >
->Workfront 계획 기능 레코드를 Adobe Experience Manager Assets에 연결하려면 조직의 Adobe Workfront 인스턴스가 Adobe 비즈니스 플랫폼 또는 Adobe Admin Console에 온보딩되어야 합니다.
+>Workfront 기능 레코드를 Adobe Experience Manager Assets에 연결하려면 조직의 Adobe Workfront 인스턴스가 Adobe 비즈니스 플랫폼 또는 Adobe Admin Console에 온보딩되어야 합니다.
 >
 >Adobe Admin Console 온보딩에 대한 질문이 있는 경우 [통합 경험 FAQ Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
-이제 Adobe Workfront 계획 기능 레코드 유형과 Adobe Experience Manager Assets 간에 연결을 설정할 수 있습니다.
+이제 Adobe Workfront Planning 기능 레코드 유형과 Adobe Experience Manager Assets 간에 연결을 설정할 수 있습니다.
 
 연결을 설정하면 이 업데이트에서 다음 기능을 사용할 수 있습니다.
 
@@ -608,7 +618,7 @@ Adobe Workfront 계획 기능이 미리보기 및 샌드박스 환경에서 일�
 
 미리보기 및 프로덕션: 2023년 10월 30일
 
-Adobe Workfront 계획 기능 레코드에 대해 다음 필드 유형을 도입했습니다.
+Adobe Workfront Planning 기능 레코드에 대해 다음 필드 유형을 도입했습니다.
 
 * 제작자
 
@@ -630,7 +640,7 @@ Adobe Workfront 계획 기능 레코드에 대해 다음 필드 유형을 도입
 
 * 읽기 전용으로 연결된 Workfront 개체 레코드 테이블 보기
 
-* 읽기 전용 Workfront 개체 레코드 세부 정보 페이지
+* 읽기 전용 Workfront 개체 레코드 페이지
 
 자세한 내용은 [레코드 연결](../maestro/records/connect-records.md).
 
@@ -662,7 +672,7 @@ Adobe Workfront 계획 기능 레코드에 대해 다음 필드 유형을 도입
 
 미리보기 및 프로덕션: 2023년 10월 16일
 
-단락 유형 필드에 리치 텍스트 형식 컨트롤을 추가했습니다. 레코드 유형의 표 보기 또는 레코드의 세부 정보 페이지에서 서식 있는 텍스트를 사용하여 단락 필드의 서식을 지정할 수 있습니다. 자세한 내용은 [레코드 편집](../maestro/records/edit-records.md).
+단락 유형 필드에 리치 텍스트 형식 컨트롤을 추가했습니다. 레코드 종류의 표 보기 또는 레코드 페이지에서 서식 있는 텍스트를 사용하여 단락 필드의 서식을 지정할 수 있습니다. 자세한 내용은 [레코드 편집](../maestro/records/edit-records.md).
 
 
 ### 타임라인 보기에 대한 색상 코딩 기록 및 그룹화
@@ -752,7 +762,7 @@ Adobe Workfront 계획 기능 레코드에 대해 다음 필드 유형을 도입
 
 ## 2023년 8월 21일 주
 
-### Adobe Workfront 계획 기능 레코드를 프로그램 및 포트폴리오에 연결
+### Adobe Workfront Planning 기능 레코드를 프로그램 및 포트폴리오에 연결
 
 미리보기 및 프로덕션: 2023년 8월 24일
 
@@ -839,7 +849,7 @@ Workfront 프로젝트에 연결을 포함하여 레코드 유형을 연결하�
 
 미리보기 및 프로덕션: 2023년 6월 28일
 
-테이블 보기 또는 레코드 유형에서 레코드를 볼 때 레코드 행의 아무 곳이나 마우스 오른쪽 버튼으로 클릭하여 상황별 메뉴를 활성화하는 기능을 활성화했습니다. 이제 레코드 유형의 테이블 보기에서 컨텍스트 메뉴에 액세스할 때 레코드의 세부 정보 페이지에 대한 링크를 빠르게 보거나 삭제하거나 복사할 수 있습니다. 이 기능이 향상되기 전에는 레코드의 이름 열에 있는 자세히 메뉴에서만 상황별 메뉴에 액세스할 수 있었습니다.
+테이블 보기 또는 레코드 유형에서 레코드를 볼 때 레코드 행의 아무 곳이나 마우스 오른쪽 버튼으로 클릭하여 상황별 메뉴를 활성화하는 기능을 활성화했습니다. 이제 레코드 유형의 표 보기에서 컨텍스트 메뉴에 액세스할 때 레코드의 페이지에 대한 링크를 빠르게 보거나 삭제하거나 복사할 수 있습니다. 이 기능이 향상되기 전에는 레코드의 이름 열에 있는 자세히 메뉴에서만 상황별 메뉴에 액세스할 수 있었습니다.
 
 ## 2023년 6월 19일 주
 
@@ -849,7 +859,7 @@ Workfront 프로젝트에 연결을 포함하여 레코드 유형을 연결하�
 
 ## 2023년 6월 5일 주
 
-### Adobe Workfront 계획 기능 레코드를 Workfront 프로젝트와 연결
+### Adobe Workfront Planning 기능 레코드를 Workfront 프로젝트와 연결
 
 미리보기 및 프로덕션: 2023년 6월 5일
 

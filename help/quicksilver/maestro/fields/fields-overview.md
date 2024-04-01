@@ -1,13 +1,13 @@
 ---
 title: 필드 개요
-description: 조직의 라이프사이클을 반영하는 Adobe Workfront planning의 새 필드를 추가할 수 있습니다. 필드는 레코드 유형의 속성입니다.
+description: 조직의 라이프사이클을 반영하는 새 필드를 Adobe Workfront Planning에 추가할 수 있습니다. 필드는 레코드 유형의 속성입니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '436'
 ht-degree: 2%
 
 ---
@@ -28,12 +28,12 @@ hide: yes
 
 {{maestro-important-intro}}
 
-조직의 라이프사이클을 반영하는 Adobe Workfront planning의 새 필드를 추가할 수 있습니다. 필드는 레코드 유형의 속성입니다.
+조직의 라이프사이클을 반영하는 새 필드를 Adobe Workfront Planning에 추가할 수 있습니다. 필드는 레코드 유형의 속성입니다.
 
 
-## Adobe Workfront 계획 필드에 대한 고려 사항
+## Adobe Workfront Planning 필드에 대한 고려 사항
 
-* 레코드 유형 페이지의 테이블 보기에서만 필드를 만들 수 있습니다. 필드는 표 보기에서 열로 표시됩니다. 레코드 유형과 연관된 모든 필드는 해당 유형의 각 레코드에 대한 세부 정보 페이지에도 표시됩니다.
+* 레코드 유형 페이지의 테이블 보기에서만 필드를 만들 수 있습니다. 필드는 표 보기에서 열로 표시됩니다. 레코드 유형과 연관된 모든 필드도 레코드 페이지에 표시됩니다.
 
   테이블 열(또는 레코드 필드) 관리에 대한 자세한 내용은 [표 보기 관리](../views/manage-the-table-view.md).
 
@@ -50,11 +50,9 @@ hide: yes
 
    * 수동:
 
-      * 레코드 유형 페이지의 테이블 뷰에 열을 추가합니다. 테이블의 열은 레코드 유형과 연관된 필드입니다. 레코드의 세부 정보 페이지에 표시되는 필드와 동일합니다.
+      * 레코드 유형 페이지의 테이블 뷰에 열을 추가합니다. 테이블의 열은 레코드 유형과 연관된 필드입니다. 레코드 페이지에 표시되는 필드와 동일합니다.
 
-        레코드의 세부 정보 페이지에서 필드를 만들 수 없습니다.
-
-        이 문서에서는 필드를 수동으로 만드는 방법을 설명합니다.
+        레코드의 페이지에서 필드를 만들 수 없습니다.
 
       * 레코드 유형을 연결하여 두 레코드 형식 또는 다른 응용 프로그램의 레코드 형식과 개체 형식 간에 새 연결을 추가할 때 연결된 레코드 필드를 만들 수 있습니다.
 
@@ -81,11 +79,11 @@ hide: yes
 
         값을 더 추가하거나 기존 값의 이름을 변경할 수 있습니다.
 
-     템플릿에서 작업 영역을 만들 때 Workfront planning은 레코드 유형에 대한 필드를 만듭니다. 자세한 내용은 [작업 공간 만들기](../architecture/create-workspaces.md).
+     템플릿에서 작업 영역을 만들 때 Workfront Planning은 레코드 유형에 대한 필드를 만듭니다. 자세한 내용은 [작업 공간 만들기](../architecture/create-workspaces.md).
 
-* Workfront 계획 필드는 Workfront에서 액세스할 수 없습니다.
+* Workfront Planning 필드는 Workfront에서 액세스할 수 없습니다.
 
-* Workfront 필드는 레코드 유형을 Workfront 개체 유형과 연결하고 Workfront 개체에서 연결 또는 조회 필드를 추가하는 경우에만 Workfront planning에서 액세스할 수 있습니다. 자세한 내용은 [레코드 유형 연결](../architecture/connect-record-types.md).
+* Workfront 필드는 레코드 유형을 Workfront 개체 유형과 연결하고 Workfront 개체에서 연결 또는 조회 필드를 추가하는 경우에만 Workfront Planning에서 액세스할 수 있습니다. 자세한 내용은 [레코드 유형 연결](../architecture/connect-record-types.md).
 
 * 필드가 속한 작업 영역에 대한 관리 권한이 있는 경우 사용자 또는 다른 사용자가 만든 필드의 설정을 보고 업데이트할 수 있습니다.
 

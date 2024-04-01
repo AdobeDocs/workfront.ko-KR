@@ -1,11 +1,11 @@
 ---
 title: 레코드 유형 개요
-description: 레코드 유형은 Adobe Workfront 계획 작업 영역의 기본 구성단위입니다.
+description: 레코드 유형은 Adobe Workfront Planning 작업 영역의 기본 구성단위입니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-객체 유형이 사전 정의된 Workfront과 달리 Adobe Workfront planning에서는 고유한 객체 유형을 만들 수 있습니다. 예를 들어 Workfront에서 프로그램, Portfolio, 프로젝트, 작업 또는 문제의 객체 유형이 이미 생성되었습니다.
+객체 유형이 사전 정의된 Workfront과 달리 Adobe Workfront Planning에서는 고유한 객체 유형을 만들 수 있습니다. 예를 들어 Workfront에서 프로그램, Portfolio, 프로젝트, 작업 또는 문제의 객체 유형이 이미 생성되었습니다.
 
-Workfront planning 객체 유형을 &quot;레코드 유형&quot;이라고 하며, 모든 유형을 만들고 사용자 정의할 수 있습니다. 레코드 유형은 Workfront 계획 작업 영역의 기본 구성단위입니다. 작업 공간에 대한 자세한 내용은 [작업 공간 만들기](../architecture/create-workspaces.md).
+Workfront Planning 객체 유형을 &quot;레코드 유형&quot;이라고 하며, 모든 유형을 만들고 사용자 정의할 수 있습니다. 레코드 유형은 Workfront Planning 작업 영역의 기본 구성단위입니다. 작업 공간에 대한 자세한 내용은 [작업 공간 만들기](../architecture/create-workspaces.md).
 
 ## 레코드 유형 개요
 
-Workfront planning에서 조직의 요구 사항에 맞는 사용자 정의 레코드 유형을 만들 수 있습니다.
+Workfront Planning에서 조직의 요구 사항에 맞는 사용자 정의 레코드 유형을 만들 수 있습니다.
 
 * 템플릿에서 작업 공간을 만들면 다음 작업 공간 섹션에 레코드 유형이 생성됩니다.
 

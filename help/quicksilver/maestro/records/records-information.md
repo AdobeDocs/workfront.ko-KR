@@ -1,11 +1,11 @@
 ---
 title: "레코드: 문서 인덱스"
-description: Adobe Workfront planning에서 레코드 유형을 만든 후 해당 유형의 개별 레코드를 만들 수 있습니다. 다음 문서에서는 Adobe Workfront planning에서 레코드 및 해당 정보를 만들고 관리하는 방법을 설명합니다.
+description: Adobe Workfront Planning에서 레코드 유형을 생성한 후 해당 유형의 개별 레코드를 생성할 수 있습니다. 다음 문서에서는 Adobe Workfront Planning에서 레코드와 해당 정보를 만들고 관리하는 방법을 설명합니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 2%
@@ -28,7 +28,7 @@ hide: yes
 
 {{maestro-important-intro}}
 
-Adobe Workfront planning에서 레코드 유형을 만든 후 해당 유형의 개별 레코드를 만들 수 있습니다.
+Adobe Workfront Planning에서 레코드 유형을 만든 후 해당 유형의 개별 레코드를 만들 수 있습니다.
 
 다음 문서에서는 Adobe Workfront Planning에서 레코드 및 해당 정보를 만들고 관리하는 방법에 대해 설명합니다.
 

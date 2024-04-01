@@ -1,11 +1,11 @@
 ---
 title: 공식 필드 개요
-description: Adobe Workfront planning에서 함수 및 기존 필드를 사용하여 새 사용자 정의 값을 계산하는 공식 필드를 생성할 수 있습니다.
+description: Adobe Workfront Planning에서 함수 및 기존 필드를 사용하여 새 사용자 정의 값을 계산하는 공식 필드를 생성할 수 있습니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 0%
@@ -31,7 +31,7 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-기존 필드를 참조하고 수식으로 연결하여 Adobe Workfront planning에서 사용자 정의 필드를 만들 수 있습니다. 사용자 정의 공식 유형 필드를 생성하여 이 작업을 수행할 수 있습니다.
+기존 필드를 참조하고 수식으로 연결하여 Adobe Workfront Planning에서 사용자 정의 필드를 만들 수 있습니다. 사용자 정의 공식 유형 필드를 생성하여 이 작업을 수행할 수 있습니다.
 
 공식 필드는 레코드 유형의 다른 필드에 있는 기존 값과 기존 값을 계산하는 방법을 나타내는 함수를 사용하여 새 값을 생성합니다.
 
@@ -56,7 +56,7 @@ recommendations: noDisplay, noCatalog
   </tr>  
  <td role="rowheader"><p>Adobe Workfront 계약</p></td>
    <td>
-<p>조직은 Adobe Workfront planning Beta 프로그램에 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
+<p>조직은 Adobe Workfront Planning Beta 프로그램에 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
    </td>
   </tr>
   <tr>
@@ -102,14 +102,14 @@ recommendations: noDisplay, noCatalog
 * 공식 필드는 동일한 레코드 유형에 속하는 필드를 참조합니다. 공식 필드를 만들 때 다른 레코드 유형의 필드를 참조할 수 없습니다. <!--is this still accurate??-->
 * 수식 필드를 저장한 후에는 수식 필드의 필드 유형을 변경할 수 없습니다.
 * 배합표 필드를 저장한 후 배합표 필드의 계산을 갱신할 수 있으며, 계산 결과는 동일한 유형의 모든 레코드에 대해 자동으로 갱신됩니다.
-* 수식에서 참조하는 필드가 Workfront Planning 인터페이스에 표시될 때 추가해야 합니다.
+* 수식에서 참조하는 필드가 Workfront Planning 인터페이스에 표시되는 대로 추가해야 합니다.
 * 수식에서 연결된 레코드 종류의 조회 필드를 사용하면 나중에 사용할 수 있습니다.
 
 ## 지원되는 공식
 
-Adobe Workfront 계획 공식 필드는 Workfront 계산된 필드의 모든 표현식을 지원합니다. 자세한 내용은 [계산된 데이터 표현식 개요](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Adobe Workfront Planning 공식 필드는 Workfront 계산된 필드의 모든 표현식을 지원합니다. 자세한 내용은 [계산된 데이터 표현식 개요](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-또한 Workfront 계획 공식 필드에 대해 다음 표현식을 지원합니다.
+또한 Workfront Planning 공식 필드에 대해 다음 표현식을 지원합니다.
 
 <table style="table-layout:auto"> 
  <col> 

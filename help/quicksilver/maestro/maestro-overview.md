@@ -1,18 +1,18 @@
 ---
-title: Adobe Workfront 계획 개요
-description: Adobe Workfront planning은 Adobe Workfront의 새로운 제품입니다. 완전히 사용자 정의 가능한 작업 공간을 만들어 기업의 각 조직 단위 요구 사항을 충족하는 워크플로우를 정의할 수 있습니다.
+title: Adobe Workfront Planning 개요
+description: Adobe Workfront Planning은 Adobe Workfront의 새로운 제품입니다. 완전히 사용자 정의 가능한 작업 공간을 만들어 기업의 각 조직 단위 요구 사항을 충족하는 워크플로우를 정의할 수 있습니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
 workflow-type: tm+mt
-source-wordcount: '1785'
-ht-degree: 1%
+source-wordcount: '1790'
+ht-degree: 2%
 
 ---
 
-# Adobe Workfront 계획 개요
+# Adobe Workfront Planning 개요
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
@@ -22,17 +22,17 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->이 문서의 정보는 Adobe Workfront의 새 서비스인 Adobe Workfront 계획에 나와 있습니다.
+>이 문서의 정보는 Adobe Workfront의 새 서비스인 Adobe Workfront Planning을 참조합니다.
 >
->현재 Adobe Workfront planning은 제한된 수의 고객에게 공개되는 베타 프로그램의 일부입니다. 이러한 기능을 사용하려면 Workfront 고객이어야 합니다.
+>현재 Adobe Workfront Planning은 제한된 수의 고객에게 공개되는 베타 프로그램의 일부입니다. 이러한 기능을 사용하려면 Workfront 고객이어야 합니다.
 >
 >Workfront Planning용 Beta 프로그램 가입에 대한 자세한 내용은 계정 담당자에게 문의하십시오.
 
-<!--[View a video demonstration of Adobe Workfront planning capabilities.](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
+<!--[View a video demonstration of Adobe Workfront Planning capabilities.](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
-## Adobe Workfront 계획 소개
+## Adobe Workfront Planning 소개
 
-Adobe Workfront planning은 Adobe Workfront의 새로운 제품입니다. Workfront 계획의 목적은 조직의 운영 세부 정보에 대한 포괄적인 가시성을 확보하고 작업 관리 수명주기의 각 단계에서 중요한 비즈니스 질문에 답변하는 것입니다.
+Adobe Workfront Planning은 Adobe Workfront의 새로운 제품입니다. Workfront Planning의 목적은 조직의 운영 세부 정보에 대한 포괄적인 가시성을 확보하고 작업 관리 수명 주기의 각 단계에서 중요한 비즈니스 질문에 답변하는 것입니다.
 
 팀 및 리더쉽은 다음과 같은 질문에 대한 명확한 답변을 필요로 합니다.
 
@@ -49,11 +49,11 @@ Adobe Workfront planning은 Adobe Workfront의 새로운 제품입니다. Workfr
 * 조직에서 사용하는 개체 유형(또는 레코드 유형) 결정부터 이러한 개체가 서로 연결되는 방법을 구성하는 등 워크플로를 완전히 사용자 지정합니다.
 * 다른 시스템의 오브젝트 유형에 연결하여 모든 프로세스에 대해 일관된 프레임워크를 만듭니다.
 
-## 현재 사용 가능한 Adobe Workfront 계획 기능
+## 현재 사용 가능한 Adobe Workfront Planning 기능
 
-다음 표는 Workfront Planning에서 사용할 수 있는 주요 기능과 해당 사용 가능 여부에 대한 타임라인을 보여 줍니다. 목록에 모든 기능이 포함되지 않습니다.
+다음 표는 Workfront Planning에서 사용할 수 있는 주요 기능과 해당 기능의 사용 가능 시간표를 보여 줍니다. 목록에 모든 기능이 포함되지 않습니다.
 
-새로운 기능과 출시된 시기에 대한 자세한 내용은 [Adobe Workfront 계획 릴리스 활동](/help/quicksilver/maestro/release-activity.md).
+새로운 기능과 출시된 시기에 대한 자세한 내용은 [Adobe Workfront Planning 릴리스 활동](/help/quicksilver/maestro/release-activity.md).
 
 | 기능 | 현재 사용 가능 | 곧 사용 가능 | 연구 중 |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
@@ -75,10 +75,10 @@ Adobe Workfront planning은 Adobe Workfront의 새로운 제품입니다. Workfr
 | 작업 공간 연결 |                               | ✓ 덧신 |                  |
 | 표 보기에서 레코드 검색 | ✓ 덧신 |   |
 | 타임라인 보기에서 레코드 검색 | ✓ 덧신 |   |
-| Workfront 계획 레코드를 Workfront 프로젝트, 프로그램, 포트폴리오, 회사, 그룹에 연결 | ✓ 덧신 |                                 |                  |
-| Workfront 계획 레코드를 Adobe Experience Manager 에셋에 연결 | ✓ 덧신 |                                  |                 |
-| 레코드 세부 정보 페이지 | ✓ 덧신 |                                  |                  |
-| 레코드 세부 정보 페이지의 레이아웃 업데이트 |                               | ✓ 덧신 |                  |
+| Workfront Planning 레코드를 Workfront 프로젝트, 프로그램, 포트폴리오, 회사, 그룹에 연결 | ✓ 덧신 |                                 |                  |
+| Workfront Planning 레코드를 Adobe Experience Manager 에셋에 연결 | ✓ 덧신 |                                  |                 |
+| 자세한 정보가 포함된 페이지 기록 | ✓ 덧신 |                                  |                  |
+| 레코드 페이지의 레이아웃을 업데이트합니다. |                               | ✓ 덧신 |                  |
 | 작업 공간 공유 | ✓ 덧신 | |  |
 | 보기 공유 | ✓ 덧신 | |  |
 | 중복 보기 | ✓ 덧신 | |  |
@@ -89,22 +89,22 @@ Adobe Workfront planning은 Adobe Workfront의 새로운 제품입니다. Workfr
 | 레코드에 썸네일 추가 | ✓ 덧신 |                                  |                 |
 | 레코드의 변경 내용 보기 | ✓ 덧신 |                                  |                 |
 | 단락 필드에 대한 서식 있는 텍스트 서식 | ✓ 덧신 |                                  |                 |
-| Adobe Workfront Fusion용 Adobe Workfront 계획 모듈 | ✓ 덧신 |                                  |                 |
+| Adobe Workfront Fusion용 Adobe Workfront Planning 모듈 | ✓ 덧신 |                                  |                 |
 | 한 필드에서 다른 필드로 정보 복사 및 붙여넣기 | ✓ 덧신 |                                  |                 |
 
 ## Workfront 인스턴스의 사용자에 대해 Adobe Workfront Planning 활성화
 
-계획 기능에 액세스하려면 조직이 Adobe Workfront 계획 마감 베타 프로그램에 등록해야 합니다. Beta 프로그램 등록에 대한 자세한 내용은 계정 담당자에게 문의하십시오.
+계획 기능에 액세스하려면 먼저 조직이 Adobe Workfront Planning Closed Beta 프로그램에 등록해야 합니다. Beta 프로그램 등록에 대한 자세한 내용은 계정 담당자에게 문의하십시오.
 
 액세스 권한을 부여하고 다른 사용자가 Workfront Planning을 사용할 수 있도록 하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [액세스 개요](/help/quicksilver/maestro/access/access-overview.md).
 
-## Adobe Workfront 계획 용어
+## Adobe Workfront Planning 용어
 
-Workfront planning은 Workfront의 일부이지만 독점 개념 및 용어와 함께 제공됩니다. 조직에 대한 Workfront 계획 설정을 시작하기 전에 새로운 개념을 숙지하십시오.
+Workfront Planning은 Workfront의 일부이지만 독점 개념 및 용어와 함께 제공됩니다. 조직에 대한 Workfront Planning 설정을 시작하기 전에 새 개념을 숙지하십시오.
 
-Workfront 계획에 대한 프레임워크는 완전히 사용자 정의할 수 있습니다. 조직의 정확한 요구 사항에 맞게 모든 레코드 종류, 해당 속성 및 이와 연결된 모든 필드를 만들 수 있습니다.
+Workfront Planning의 프레임워크는 완전히 사용자 정의할 수 있습니다. 조직의 정확한 요구 사항에 맞게 모든 레코드 종류, 해당 속성 및 이와 연결된 모든 필드를 만들 수 있습니다.
 
-다음은 주요 Workfront 계획 객체 및 개념입니다.
+다음은 주요 Workfront Planning 개체 및 개념입니다.
 
 * **작업 영역**: 특정 조직의 운영 라이프사이클을 정의하는 레코드 유형의 컬렉션입니다. 작업 공간은 조직 단위의 작업 프레임입니다.
 
@@ -114,13 +114,13 @@ Workfront 계획에 대한 프레임워크는 완전히 사용자 정의할 수 
 
   자세한 내용은 [작업 공간 만들기](../maestro/architecture/create-workspaces.md).
 
-* **레코드 유형**: 오브젝트 유형 또는 Workfront planning.
+* **레코드 유형**: 오브젝트 유형 또는 Workfront Planning.
 
-  객체 유형이 사전 정의된 Workfront과 달리 Workfront planning에서는 고유한 객체 유형을 만들 수 있습니다.
+  객체 유형이 사전 정의된 Workfront과 달리 Workfront Planning에서는 고유한 객체 유형을 만들 수 있습니다.
 
   예를 들어 Workfront에서 프로그램, Portfolio, 프로젝트, 작업 또는 문제의 객체 유형이 이미 생성되었습니다.
 
-  Workfront 계획에서는 조직의 워크플로우에 맞는 모든 레코드 유형을 만들 수 있습니다. 나중에 레코드 종류 간에 어떤 관계가 있는지 정의하거나 양식 종속성을 정의할 수 있습니다.
+  Workfront Planning에서 조직의 워크플로에 맞는 모든 레코드 유형을 만들 수 있습니다. 나중에 레코드 종류 간에 어떤 관계가 있는지 정의하거나 양식 종속성을 정의할 수 있습니다.
 
   자세한 내용은 [레코드 유형 개요](../maestro/architecture/overview-of-record-types-and-taxonomies.md).
 
@@ -138,7 +138,7 @@ Workfront 계획에 대한 프레임워크는 완전히 사용자 정의할 수 
 
   ![](assets/workspaces-page-with-templates-thumbnails.png)
 
-  Adobe Workfront planning에는 판매, 마케팅 및 제품 관리 작업 영역 템플릿이 함께 제공됩니다.
+  Adobe Workfront Planning에는 판매, 마케팅 및 제품 관리 작업 영역 템플릿이 포함되어 있습니다.
 
   자세한 내용은 [작업 공간 만들기](../maestro/architecture/create-workspaces.md).
 
@@ -150,11 +150,11 @@ Workfront 계획에 대한 프레임워크는 완전히 사용자 정의할 수 
 
    * 레코드 유형에 추가하는 필드는 해당 유형의 모든 레코드와 자동으로 연결되고 해당 레코드에 대한 데이터를 캡처하는 데 사용할 수 있습니다.
 
-   * 레코드 유형 페이지에 적용된 테이블 보기에서 필드가 열로 표시됩니다. 레코드의 세부 정보 페이지에도 표시됩니다.
+   * 레코드 유형 페이지에 적용된 테이블 보기에서 필드가 열로 표시됩니다. 레코드의 페이지에도 표시됩니다.
 
    * 필드는 레코드 유형에 고유하며 한 레코드 유형에서 다른 레코드 유형으로 전송되지 않습니다.
 
-   * 필드는 완전히 사용자 지정할 수 있으며 Workfront planning에서만 액세스할 수 있습니다. Workfront에서 Workfront 계획 필드에 액세스할 수 없습니다.
+   * 필드는 완전히 사용자 지정할 수 있으며 Workfront Planning에서만 액세스할 수 있습니다. Workfront에서 Workfront Planning 필드에 액세스할 수 없습니다.
 
   자세한 내용은 [필드 만들기](../maestro/fields/create-fields.md).
 
@@ -184,7 +184,7 @@ Workfront 계획에 대한 프레임워크는 완전히 사용자 정의할 수 
    * 마지막 수정자
    * 마지막 수정일
 
-* **연결된 레코드 유형**, **연결된 레코드**, 및 **연결된 레코드 필드**: Workfront planning에서 다음 엔티티 간에 연결을 만들 수 있습니다.
+* **연결된 레코드 유형**, **연결된 레코드**, 및 **연결된 레코드 필드**: Workfront Planning에서 다음 엔티티 간에 연결을 만들 수 있습니다.
 
    * 두 가지 레코드 유형.
    * 기록 유형 및 Workfront 프로젝트, 프로그램, 포트폴리오, 회사 또는 그룹 객체 유형.
@@ -233,13 +233,14 @@ Workfront 계획에 대한 프레임워크는 완전히 사용자 정의할 수 
 자세한 내용은 [레코드 보기 관리](../maestro/views/manage-record-views.md).
 
 
-## Adobe Workfront 계획 객체 제한 사항
+## Adobe Workfront Planning 개체 제한 사항
 
-다음 표는 Workfront planning에서 생성할 수 있는 객체 수에 대한 제한을 보여 줍니다. 다음 단계의 개발로 넘어감에 따라 제한 사항이 변경될 수 있습니다.
+다음 표는 Workfront Planning에서 생성할 수 있는 객체 수에 대한 제한을 보여 줍니다. 다음 단계의 개발로 넘어감에 따라 제한 사항이 변경될 수 있습니다.
 
-| Adobe Workfront 계획 객체 | 제한 |
+| Adobe Workfront Planning 개체 | 제한 |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 | 하나의 Workfront 인스턴스에 대한 작업 공간 수 | 1,000 |
+| 하나의 작업 영역에 대한 섹션 수 | 50 |
 | 하나의 작업 영역에 대한 레코드 유형 수 | 1,000(모든 섹션의 레코드 유형과 작업 영역 템플릿을 사용할 때 생성된 레코드 유형 포함) |
 | 하나의 레코드 유형에 대한 레코드 수 | 50,000 |
 | 하나의 레코드 유형 또는 분류법에 대한 필드 수 | 500 |
@@ -254,9 +255,9 @@ Workfront 계획에 대한 프레임워크는 완전히 사용자 정의할 수 
 >*이 기능은 일시적으로 비활성화되었으며 나중에 사용할 수 있습니다.
 
 
-## Adobe Workfront 계획 찾기
+## Adobe Workfront Planning 찾기
 
-조직에서 Workfront 계획에 대한 액세스 권한을 받았으며 시스템 또는 그룹 관리자가 계획 영역을 기본 메뉴에 추가했는지 확인합니다. 자세한 내용은 [액세스 개요](/help/quicksilver/maestro/access/access-overview.md).
+조직에서 Workfront Planning에 대한 액세스 권한을 받았으며 시스템 또는 그룹 관리자가 Main Menu에 Planning 영역을 추가했는지 확인합니다. 자세한 내용은 [액세스 개요](/help/quicksilver/maestro/access/access-overview.md).
 
 Workfront Planning을 찾으려면 다음을 수행합니다.
 
@@ -286,9 +287,9 @@ Workfront Planning을 찾으려면 다음을 수행합니다.
 
       열을 추가하여 레코드 필드 추가를 시작합니다.
 
-## Adobe Workfront 계획 릴리스 활동
+## Adobe Workfront Planning 릴리스 활동
 
-Workfront 계획에 대한 새로운 기능을 정기적으로 출시하고 있습니다.
+Workfront Planning에 대한 새로운 기능을 정기적으로 릴리스하고 있습니다.
 
-릴리스된 기능의 최신 목록은 을 참조하십시오. [Adobe Workfront 계획 릴리스 활동](../maestro/release-activity.md).
+릴리스된 기능의 최신 목록은 을 참조하십시오. [Adobe Workfront Planning 릴리스 활동](../maestro/release-activity.md).
 
