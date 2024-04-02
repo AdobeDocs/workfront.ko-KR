@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 00e03775fa21f816c845681873ca12c241150076
+source-git-commit: d2539f19a3c6c1e15e33c622e463b3a0875fcf2e
 workflow-type: tm+mt
-source-wordcount: '14071'
+source-wordcount: '14076'
 ht-degree: 1%
 
 ---
@@ -1802,6 +1802,7 @@ ht-degree: 1%
    * 문서 검토 및 승인 {#document-reviews-and-approvals}
       * [문서 검토 및 승인](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * [문서 승인 개요](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
+      * [자산 검토 및 승인 개요](review-and-approve-work/document-reviews-and-approvals/review-and-approval-overview.md)
       * 문서 검토 {#review-and-approve-documents}
          * [문서 검토: 문서 색인](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
          * [문서 검토](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
