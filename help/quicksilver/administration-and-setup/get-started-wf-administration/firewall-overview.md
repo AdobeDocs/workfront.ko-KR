@@ -9,10 +9,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: d74b0aa22644b7c79d3c6c3c3bbd5e67efdff732
+source-git-commit: 405460158b9a540e427b9f9e5de101823838b17b
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 0%
+source-wordcount: '758'
+ht-degree: 1%
 
 ---
 
@@ -49,11 +49,11 @@ Workfront에 대한 방화벽을 구성하려면 네트워크 관리자가 추�
  <tbody> 
   <tr> 
    <td role="rowheader">허용할 특정 IP 주소 및 도메인</td> 
-   <td> <p>문서 <a href="../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md" class="MCXref xref">허용 목록에 추가하다 방화벽 구성</a> 조직에서 해당 허용 목록에 추가하다에 추가해야 하는 IP 주소 및 도메인 목록을 포함합니다. </p> <p>네트워크 관리자가 "방화벽 구성" 문서에 액세스하지 못할 수 있습니다. 그런 경우 제공해야 합니다. 하드(용지) 사본은 인쇄하지 않는 것이 좋습니다. 디지털 복사본을 사용하면 네트워크 관리자가 주소를 복사하고 붙여넣을 수 있으므로 하드 복사본으로 입력하는 것보다 빠르고 정확합니다.</p> </td> 
+   <td> <p>문서 <a href="../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md" class="MCXref xref">허용 목록에 추가하다 방화벽 구성</a> 조직에서 해당 허용 목록에 추가하다에 추가해야 하는 IP 주소 및 도메인 목록을 포함합니다. </p> <p>허용 목록에 추가하다 네트워크 관리자가 "방화벽 구성" 문서에 액세스할 수 없습니다. 그런 경우 제공해야 합니다. 하드(용지) 사본은 인쇄하지 않는 것이 좋습니다. 디지털 복사본을 사용하면 네트워크 관리자가 주소를 복사하고 붙여넣을 수 있으므로 하드 복사본으로 입력하는 것보다 빠르고 정확합니다.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">내 클러스터</td> 
-   <td>조직의 클러스터를 찾으려면 다음을 참조하십시오. <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">조직의 클러스터 및 Workfront 계획 보기</a></td> 
+   <td>조직의 클러스터를 찾으려면 다음을 참조하십시오. <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">조직의 클러스터 및 Workfront 계획 보기</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Workfront 플랜</td> 
@@ -75,20 +75,19 @@ Workfront에 대한 방화벽을 구성하려면 네트워크 관리자가 추�
    <td role="rowheader">Adobe Workfront 통합</td> 
    <td>다음 중 하나를 사용하는 경우 네트워크 관리자에게 알립니다.
     <ul>
-     <li><p><p>Workfront for Jira</p></p></li>
-     <li><p>Workfront for G Suite</p></li>
-     <li><p>Workfront for Microsoft Teams</p></li>
+     <li><p>Jira용 Workfront</p></li>
+     <li><p>G Suite용 Workfront</p></li>
+     <li><p>Microsoft Teams용 Workfront</p></li>
      <li><p>Outlook용 Workfront</p></li>
      <li><p>Salesforce용 Workfront</p></li>
     </ul></td> 
   </tr> 
   <tr> 
    <td role="rowheader">추가 기능</td> 
-   <td> <p>다음 중 하나를 사용하는 경우 네트워크 관리자에게 알립니다.</p> 
+   <td> <p>다음을 사용하는 경우 네트워크 관리자에게 알립니다.</p> 
     <ul> 
      <li> <p>Workfront 테스트 드라이브</p> </li> 
-     <li> <p>Workfront 어센트</p> </li> 
-    </ul> </td> 
+    </ul> </td>
   </tr> 
  </tbody> 
 </table>
@@ -99,7 +98,7 @@ Workfront에 대한 방화벽을 구성하려면 네트워크 관리자가 추�
 
 ### 조직의 클러스터 및 Workfront 계획 보기 {#view-your-organization-s-cluster-and-workfront-plan}
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 상단에서 을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png).
+1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리에서 을(를) 클릭하고 **[!UICONTROL 설정]** ![설정 아이콘](/help/_includes/assets/gear-icon-setup.png).
 
 1. 클릭 **시스템** 왼쪽 패널에서
 1. 클러스터를 보려면 **고객 정보**.

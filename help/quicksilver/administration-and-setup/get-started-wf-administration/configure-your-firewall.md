@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 1199551f9ffb802a5691f6986cd855064a921d08
+source-git-commit: 405460158b9a540e427b9f9e5de101823838b17b
 workflow-type: tm+mt
-source-wordcount: '1620'
+source-wordcount: '1578'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,6 @@ ht-degree: 0%
 * [향상된 인증을 허용하는 IP 주소](#ip-addresses-to-allow-for-enhanced-authentication)
 * [Workfront Fusion 액세스를 위해 추가할 IP 주소](#ip-addresses-to-add-for-accessing-workfront-fusion)
 * [Jira용 Workfront 사용을 위해 추가할 IP 주소](#ip-addresses-to-add-for-using-workfront-for-jira)
-* [Workfront Ascent 사용을 위해 추가할 IP 주소](#ip-addresses-to-add-for-using-workfront-ascent)
 * [모든 클러스터에 추가할 URL Workfront](#urls-to-add-for-all-clusters-workfront)
 
 ### 클러스터 1, 2, 3, 5, 7, 8 및 9를 허용하는 IP 주소 {#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9}
@@ -431,38 +430,6 @@ Jira 통합에 Workfront을 사용하려면 다음 IP 주소를 허용 목록에
      <li>35.160.0.242 </li> 
      <li>3.209.27.146</li> 
      <li>18.205.251.4</li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### Workfront Ascent 사용을 위해 추가할 IP 주소 {#ip-addresses-to-add-for-using-workfront-ascent}
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Workfront Ascent를 통해 Workfront 교육 리소스에 액세스하려면</td> 
-   <td> 
-    <ul> 
-     <li>18.223.140.34</li> 
-     <li>3.13.223.30</li> 
-     <li>3.13.19.112</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Workfront Ascent에서 이메일 알림을 받으려면</td> 
-   <td> 
-    <ul> 
-     <li>23.251.227.75</li> 
-     <li>23.251.227.76</li> 
-     <li>23.251.227.77</li> 
-     <li>23.251.227.78</li> 
-     <li>23.251.227.79</li> 
-     <li>23.251.227.80</li> 
-     <li>23.251.227.81</li> 
-     <li>23.251.227.82</li> 
     </ul> </td> 
   </tr> 
  </tbody> 

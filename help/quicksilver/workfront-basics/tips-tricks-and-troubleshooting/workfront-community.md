@@ -5,9 +5,9 @@ title: 다음 [!DNL Adobe Workfront] 커뮤니티
 description: TheAdobe [!DNL Workfront] 커뮤니티는 10,000명 이상의 온라인 그룹입니다 [!DNL Workfront] 사용자. 커뮤니티를 통해 제품 릴리스를 최신 상태로 유지하고, 고객 이벤트에 대해 알아보고, 다른 사용자에게 다음에 대한 정보를 제공할 수 있습니다. [!DNL Workfront] 제품 및 서비스. 질문에 대한 답변을 찾고 다른 사용자와의 연결을 설정할 수 있습니다. [!DNL Workfront] 고객.
 feature: Get Started with Workfront
 exl-id: 1b581917-2e71-4e8a-b38c-775ade578f09
-source-git-commit: 813b97ee0979e29a90293d9ddaba12a33c99f64d
+source-git-commit: 405460158b9a540e427b9f9e5de101823838b17b
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ TheAdobe [!DNL Workfront] 커뮤니티는 10,000명 이상의 온라인 그룹�
 
 ### Authorized Support 연락처 {#authorized-support-contact}
 
-ASC(Authorized Support Contact)인 경우 [!UICONTROL 헬프 데스크], [!UICONTROL Innovation Lab], 및 [!DNL Workfront] [!UICONTROL 상승]. 동일한 자격 증명을 사용하여 [!DNL Workfront] 커뮤니티. 이 경우 하위 도메인은 비워 둡니다.
+ASC(Authorized Support Contact)인 경우 [!UICONTROL 헬프 데스크], 및 [!UICONTROL Innovation Lab]. 동일한 자격 증명을 사용하여 [!DNL Workfront] 커뮤니티. 이 경우 하위 도메인은 비워 둡니다.
 
 ![community_4.png](assets/community-4-350x129.png)
 
@@ -43,8 +43,6 @@ ASC(Authorized Support Contact)인 경우 [!UICONTROL 헬프 데스크], [!UICON
 ### SSO 로그인을 통해 권한이 없는 지원 담당자 {#non-authorized-support-contact-with-sso-login}
 
 회사에서 SSO를 사용하고 있다면 다음 대상에게 연락해야 합니다. [!DNL Workfront] 전화를 통한 고객 지원(계정 요청). 티켓을 제출하거나 라이브 채팅에 참여할 수 없는 경우 Authorized에 문의하십시오. [!DNL Workfront] 고객 지원 담당자.
-
-Ascent Training 내에 이미 계정을 설정한 경우 동일한 자격 증명을 사용하여 커뮤니티 사이트에 액세스할 수 있습니다(이 경우 하위 도메인을 비워 둠).
 
 커뮤니티 사이트에 대한 암호가 기억나지 않는 경우 다음 위치에 문의하십시오. [!DNL Workfront Customer Support] 그들이 도와줄 수 있어요
 
