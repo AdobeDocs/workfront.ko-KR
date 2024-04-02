@@ -2,20 +2,20 @@
 content-type: reference
 product-area: agile-and-teams
 navigation-topic: use-scrum-in-an-agile-team
-title: 반복 업데이트 관리
+title: 반복 주석 관리
 description: Adobe Workfront의 다른 사용자와 공동 작업하기 위해 반복에 업데이트를 추가할 수 있습니다.
 author: Alina
 feature: Agile
 recommendations: noDisplay, noCatalog
-source-git-commit: 8abff9553518d6742f7751fefe04dcb199f5880a
+exl-id: 68af4128-82a7-41e2-a88a-27c51b4a5cb7
+source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 3%
 
 ---
 
-
-# 반복 업데이트 관리
+# 반복 주석 관리
 
 Adobe Workfront의 다른 사용자와 공동 작업하기 위해 반복에 업데이트를 추가할 수 있습니다.
 

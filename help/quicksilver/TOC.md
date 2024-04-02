@@ -3,7 +3,7 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: d2539f19a3c6c1e15e33c622e463b3a0875fcf2e
+source-git-commit: ca65f2720204a9616a849036834e2bf40a60150c
 workflow-type: tm+mt
 source-wordcount: '14076'
 ht-degree: 1%
@@ -1069,7 +1069,7 @@ ht-degree: 1%
          * [기존 반복에 스토리 추가](agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)
          * [반복 보기](agile/use-scrum-in-an-agile-team/iterations/view-iteration.md)
          * [반복 삭제](agile/use-scrum-in-an-agile-team/iterations/delete-iteration.md)
-         * [반복 업데이트 관리](agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md)
+         * [반복 주석 관리](agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md)
       * 스크럼 보드 {#scrum-board}
          * [스크럼 보드](agile/use-scrum-in-an-agile-team/scrum-board/scrum-board.md)
          * [스크럼 보드 개요](agile/use-scrum-in-an-agile-team/scrum-board/scrum-board-overview.md)

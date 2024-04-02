@@ -8,7 +8,7 @@ author: Lisa
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: 474ab807-fd6c-4248-9567-121e5d4b7b5b
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 4%
@@ -25,4 +25,4 @@ ht-degree: 4%
 * [기존 반복에 스토리 추가](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)
 * [반복 보기](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md)
 * [반복 삭제](../../../agile/use-scrum-in-an-agile-team/iterations/delete-iteration.md)
-* [반복 업데이트 관리](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md)
+* [반복 주석 관리](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md)

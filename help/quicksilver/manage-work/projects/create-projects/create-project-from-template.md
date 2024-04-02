@@ -6,9 +6,9 @@ description: 템플릿을 프레임워크로 사용하여 Adobe Workfront에서 
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: 9447310f0d4cf4504ee6d690116fb62f718fe23d
+source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1128'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,11 @@ ht-degree: 0%
 
 ## 프로젝트 영역의 템플릿에서 프로젝트 만들기
 
-주 메뉴의 프로젝트 영역에서 프로젝트를 만들거나 포트폴리오 또는 프로그램의 프로젝트 영역에서 프로젝트를 만들 수 있습니다.
+주 메뉴의 프로젝트 영역이나 포트폴리오 또는 프로그램의 프로젝트 영역에서 프로젝트를 만들 수 있습니다.
+
+>[!NOTE]
+>
+>시스템 또는 그룹 관리자가 레이아웃 템플릿을 사용하여 인터페이스를 수정할 수 있습니다. 이 경우 다음 단계에서 참조하는 섹션 및 영역의 이름 중 일부는 Workfront 인스턴스에서 다를 수 있습니다.
 
 1. 다음 중 하나를 수행하십시오.
 

@@ -7,16 +7,20 @@ description: 커밋 일자는 작업 또는 문제에 할당된 사용자가 작
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '776'
 ht-degree: 1%
 
 ---
 
 # 커밋 일자 개요
 
-커밋 일자는 작업 또는 문제에 할당된 사용자가 작업 또는 문제를 완료하기로 커밋하는 일자입니다. 이는 업무를 담당하는 사용자만이 부여한 준공기일을 보다 현실적으로 추정한 것이어서 계획된 준공기일과 다르다. 계획된 완료 일자에 대한 자세한 내용은 [작업 계획 완료 일자 개요](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
+커밋 일자는 작업 또는 문제에 할당된 사용자가 작업 또는 문제를 완료하기로 커밋하는 일자입니다.
+
+이는 업무를 담당하는 사용자만이 부여한 완료일에 대한 보다 현실적인 추계로써 업무나 문제의 계획된 완료일자와 다르다.
+
+계획된 완료 일자에 대한 자세한 내용은 [작업 계획 완료 일자 개요](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
 ## 커밋 일자 개요
 
@@ -29,6 +33,7 @@ ht-degree: 1%
 
    * Workfront에서 작업 또는 문제에 대한 작업, 문제 시작 또는 작업 시작을 클릭하여 커밋 일자를 작업 또는 문제의 기존 계획된 완료 일자와 일치하도록 설정할 수 있습니다. [처리 중] 단추를 [시작] 단추로 바꾸는 방법에 대한 자세한 내용은  [처리 중 단추를 시작 단추로 바꾸기](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
    * 작업 또는 문제가 완료될 수 있다고 생각되는 시기에 따라 커밋 일자를 직접 수동으로 설정하십시오. 이는 프로젝트 관리자가 작업 또는 문제를 특정 날짜까지 완료할 수 있도록 프로젝트 관리자에 대한 예상 및 약속입니다.
+자세한 내용은 [작업 및 문제에 대한 커밋 일자 업데이트](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
 
 >[!NOTE]
 >
@@ -41,17 +46,17 @@ ht-degree: 1%
 >* 작업에 대한 다른 모든 할당자
 >* 작업에 대한 권한이 있는 다른 모든 사용자입니다.
 >
->작업 소유자에 대한 자세한 내용은 섹션을 참조하십시오 [작업 편집](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) 이 문서에서 [작업 편집](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+>작업 소유자에 대한 자세한 내용은 [작업 편집](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
 ## 커밋 일자 변경으로 트리거된 알림 및 업데이트 {#notifications-and-updates-triggered-by-changing-the-commit-date}
 
-작업 또는 문제 할당자가 프로젝트 소유자가 설정한 계획된 완료 일자와 다른 커밋 일자를 선택하면 프로젝트 소유자 및 다른 사용자에게 이 변경 사항을 알리는 다수의 알림 및 업데이트가 있습니다.
+작업 또는 문제 피할당자가 수동으로 커밋 일자를 프로젝트 소유자가 설정한 계획된 완료 일자와 다른 일자로 변경하면 프로젝트 소유자 및 다른 사용자에게 이 변경을 알리는 다수의 알림 및 업데이트가 있습니다.
 
 >[!NOTE]
 >
 >커밋 일자를 변경해도 계획된 일자는 자동으로 변경되지 않고, 계획된 일자를 변경해도 커밋 일자는 자동으로 변경되지 않습니다.
 
-작업 또는 문제에 대한 커밋 일자를 설정하면 다음 변경 사항이 트리거됩니다.
+작업 또는 문제에 대한 커밋 일자를 수동으로 설정하면 다음 변경 사항이 트리거됩니다.
 
 * 작업 또는 문제의 업데이트 섹션에 있는 시스템 활동 및 모두 탭에 커밋 일자 변경이 채워집니다.
 
@@ -80,9 +85,6 @@ ht-degree: 1%
 
   ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
-
-
-
 * 알림 영역의 프로젝트 소유자에게는 작업 또는 문제 커밋 일자가 변경되었다는 알림이 표시됩니다.
 
   ![](assets/in-product-notification-commit-date-changed-nwe-350x149.png)
@@ -94,8 +96,6 @@ ht-degree: 1%
   >[!TIP]
   >
   >Workfront 관리자가 설정의 업데이트 피드 영역에 커밋 일자 표시를 활성화할 경우에만 커밋 일자가 변경되었다는 알림이 프로젝트 소유자에게 전송됩니다. 자세한 내용은 [시스템 추적 업데이트](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
-
-
 
 작업 항목을 업데이트할 때 사용할 수 있는 추가 기능에 대한 자세한 내용은  [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 

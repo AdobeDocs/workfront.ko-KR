@@ -7,9 +7,9 @@ description: 객체의 업데이트 섹션에는 사용자가 객체에 대해 �
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
 workflow-type: tm+mt
-source-wordcount: '1378'
+source-wordcount: '1385'
 ht-degree: 3%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 3%
 
 <!-- Audited: 1/2024 -->
 
-<!--take "legacy" and "new commenting" references out when we remove the legacy - April 2024???-->
+<!--take "legacy" and "new commenting" and "production" or "preview" references out when we remove the legacy - April 2024???-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
 
@@ -113,7 +113,7 @@ ht-degree: 3%
 
    * 반복
 
-     반복에 대한 새 주석 달기 경험을 활성화하는 옵션은 없습니다.
+     반복에 대한 새 주석 달기 경험을 활성화하는 옵션은 없습니다. 자세한 내용은 [반복 주석 관리](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md).
 
 ### 새 댓글 달기 환경의 업데이트 섹션 개요
 
