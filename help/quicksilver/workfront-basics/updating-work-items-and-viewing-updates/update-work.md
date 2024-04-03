@@ -6,9 +6,9 @@ description: Adobe Workfront 개체(프로젝트, 작업 또는 문제)에 업�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '4341'
+source-wordcount: '4261'
 ht-degree: 1%
 
 ---
@@ -61,6 +61,8 @@ After the monthly releases to Production, the same features are also available i
 <span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 활성화 또는 비활성화](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 <span class="preview">현재 릴리스 일정에 대한 자세한 내용은 [2024년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+
+<!--info for April 11: take out the "Important" box below (or hide it)-->
 
 >[!IMPORTANT]
 >
@@ -119,6 +121,8 @@ After the monthly releases to Production, the same features are also available i
 
 보드 영역의 카드에 댓글을 다는 방법에 대한 자세한 내용은 [보드에 애드혹 카드 추가](../../agile/get-started-with-boards/add-card-to-board.md).
 
+반복에 대한 댓글에 대한 자세한 내용은 [반복 주석 관리](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md).
+
 ## 액세스 요구 사항
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
@@ -172,6 +176,8 @@ After the monthly releases to Production, the same features are also available i
 * 목표
 * 보드 영역의 카드
 * 반복
+
+<!--info for April 11: hide the section below completely:-->
 
 ### 레거시 업데이트 섹션에서 작업 항목에 업데이트 추가
 
@@ -232,6 +238,8 @@ After the monthly releases to Production, the same features are also available i
    >Workfront 관리자가 액세스 수준에서 &quot;사용자가 주석을 삭제하는 것을 허용하지 않음&quot; 설정을 선택하면 주석을 실행 취소할 수 없습니다. 자세한 내용은 [사용자 정의 액세스 수준 만들기 및 수정](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 1. 업데이트에 회신하려면 다음을 참조하십시오. [업데이트에 대한 회신](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+
+<!--info for April 11: reword the title of this section to: Add an update to a work item-->
 
 ### 새 댓글 달기 경험을 사용하여 작업 항목에 업데이트 추가
 
@@ -463,6 +471,8 @@ After the monthly releases to Production, the same features are also available i
 
 업데이트 복사는 사용하는 댓글 달기 경험에 따라 다릅니다.
 
+<!--info for April 11: take the sentence above out and reword the section title below to: Copy an update-->
+
 ### 새 댓글 달기 환경에서 업데이트 복사
 
 새 댓글 달기 환경에 사용할 수 있는 기능과 개체에 대한 자세한 내용은 [새 댓글 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
@@ -515,9 +525,9 @@ After the monthly releases to Production, the same features are also available i
 
 1. 업데이트 추가를 계속하고 **제출** 주석을 추가합니다.
 
-### 기존 댓글 달기 환경에서 업데이트 복사
+<!--info for April 11: hide the entire section below - notice that there are several sub-sub sections below this main section-->
 
-<!--remove legacy when removed from the UI-->
+### 기존 댓글 달기 환경에서 업데이트 복사
 
 * [업데이트 복사](#copy-the-update)
 * [스레드 링크 복사](#copy-the-thread-link)
@@ -621,31 +631,19 @@ Workfront 사용자(Workfront 관리자 포함)는 다른 사용자가 업데이
 
 -->
 
-
-
-## 시스템 업데이트 활성화 또는 비활성화
-
-<!--update this section when we remove legacy, to just point to the article in green below and rename this section as "Review system activity updates" or something-->
-
-<!--October 2023: when the new stream goes to all objects production, consider updating this article also, to say there is no System Activity tab to be disabled for objects anymore: help\quicksilver\administration-and-setup\set-up-workfront\system-tracked-update-feeds\system-tracked-update-feeds.md-->
-
->[!NOTE]
->
->새 댓글 달기 환경을 사용할 때 시스템 업데이트를 비활성화할 수 없습니다.
->이 섹션의 정보는 기존 업데이트 섹션에서 사용할 수 있는 기능에만 적용됩니다. &lt;!—시스템에서 레거시 제거->
->새 댓글 달기 환경의 시스템 업데이트에 대한 자세한 내용은 [업데이트 섹션 개요](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
+## 시스템 업데이트 검토
 
 Workfront 객체의 업데이트 섹션에는 두 가지 유형의 정보가 표시됩니다.
 
-* **사용자 업데이트:** 사용자 업데이트는 사용자와 시스템의 다른 사용자가 입력하는 주석입니다. <!--October 2023 - new screen shot -->
+* **사용자 업데이트:** 사용자 업데이트는 사용자와 시스템의 다른 사용자가 입력하는 주석입니다. 사용자 업데이트는 업데이트 섹션의 설명 및 모든 탭에 표시됩니다.
 
   ![](assets/user-update-cl-350x277.png)
 
-* **시스템 업데이트:** 시스템은 객체의 문서에 대한 편집 또는 변경 사항뿐만 아니라 에셋 제거, 버전 추가 또는 삭제, 승인 요청 첨부 또는 제거를 기록하는 레코드를 업데이트합니다. <!--October 2023 - new screen shot -->
+* **시스템 업데이트:** 시스템은 작업 또는 문제 제거, 문서 버전 추가 또는 삭제, 승인 요청 첨부 또는 제거, 오브젝트에 대한 편집 또는 변경 사항을 기록합니다. 시스템 업데이트가 시스템 활동 및 업데이트 섹션의 모든 탭에 표시됩니다.
 
   ![](assets/system-updates-cl-350x277.png)
 
-  Workfront 라이선스에 따라 시스템 업데이트가 기본적으로 활성화될 수 있습니다. Workfront 관리자는에 설명된 대로 시스템 업데이트에서 추적되는 항목을 결정할 수 있습니다. [시스템 추적 업데이트](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). 모든 객체에 대한 사용자 업데이트만 표시되도록 시스템 업데이트 또는 활동을 필터링할 수도 있습니다.
+  Workfront 관리자는에 설명된 대로 시스템 업데이트에서 추적되는 항목을 결정할 수 있습니다. [시스템 추적 업데이트](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). 모든 객체에 대한 사용자 업데이트만 표시되도록 시스템 업데이트 또는 활동을 필터링할 수도 있습니다.
 
   다음 개체에는 시스템 생성 업데이트가 없습니다.
 
@@ -653,19 +651,6 @@ Workfront 객체의 업데이트 섹션에는 두 가지 유형의 정보가 표
    * 템플릿
    * 템플릿 작업
 
-시스템 업데이트를 활성화하거나 비활성화하려면 다음 작업을 수행하십시오.
-
-1. 다음을 클릭합니다. **업데이트** 개체의 탭입니다.
-1. 클릭 **시스템 업데이트 표시** 스위치를 왼쪽(비활성화) 또는 오른쪽(활성화)으로 밀어서 놓습니다.
-
-   ![](assets/show-system-updates-qs-350x55.png)
-
-   이 옵션은 Workfront 전체의 모든 오브젝트에서 영구적이며 Workfront에서 로그아웃한 경우에도 선택한 위치에 유지됩니다.
-
-   >[!TIP]
-   >
-   >   시스템 업데이트를 기록하지 않는 개체에는 업데이트 영역에 시스템 업데이트 표시 옵션이 없습니다.
-
-   <!--when Anna adds the new updates stream to ALL objects, she will remove the System Activity tab from the objects that don't record system updates - add another line to the TIP above to say: The System Activity tab is not available for objects that don't record system-generated updates.*************** OR: maybe make this part of the statement where we list which objects these are, above???  -->
+업데이트 섹션에서 시스템 업데이트에 대한 자세한 내용은 [업데이트 섹션 개요](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 

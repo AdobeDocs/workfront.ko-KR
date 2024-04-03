@@ -3,13 +3,13 @@ content-type: overview
 product-area: projects
 navigation-topic: update-work-in-a-project
 title: 커밋 일자 개요
-description: 커밋 일자는 작업 또는 문제에 할당된 사용자가 작업 또는 문제를 완료하기로 커밋하는 일자입니다. 이는 업무를 담당하는 사용자만이 부여한 준공기일을 보다 현실적으로 추정한 것이어서 계획된 준공기일과 다르다. 계획된 완료 일자에 대한 자세한 내용은 태스크 계획 완료 일자 개요를 참조하십시오.
+description: 커밋 일자는 작업 또는 문제에 할당된 사용자가 작업 또는 문제를 완료하기로 커밋하는 일자입니다. 이는 업무를 직접 담당하는 사용자가 부여한 준공기일을 보다 현실적으로 추정한 것이어서 계획된 준공기일과 다르다.
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '763'
 ht-degree: 1%
 
 ---

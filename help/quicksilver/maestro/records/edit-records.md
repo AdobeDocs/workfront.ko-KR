@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '1299'
+source-wordcount: '1294'
 ht-degree: 0%
 
 ---
@@ -103,6 +103,8 @@ ht-degree: 0%
 * 표시되는 레코드가 다른 레코드에 연결되어 있는 경우 편집 중인 레코드의 새 정보가 연결된 레코드에 반영됩니다.
 * 레코드를 일괄적으로 편집할 수 없습니다. <!--this will probably change-->
 * URL은 http://, https://, ftp:// 또는 www로 시작하는 경우에만 한 줄 텍스트 필드 유형에서 링크로 인식됩니다. .
+<!--
+* You can edit the order of the fields in a record page and add a cover image for a record. For more information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md). -->
 
 ## 레코드 편집
 
@@ -200,7 +202,7 @@ ht-degree: 0%
 
    또는
 
-   테이블 테이블 보기에서 **세부 정보 열기** 아이콘 ![](assets/open-details-icon-in-table-name-field.png) 레코드 이름의 왼쪽에 있거나 레코드 이름을 클릭합니다. 레코드 상자가 뷰에 열립니다.
+   테이블 테이블 보기에서 **세부 정보 열기** 아이콘 ![](assets/open-details-icon-in-table-name-field.png) 레코드 이름의 왼쪽에 있습니다. 레코드 상자가 뷰에 열립니다.
 
    ![](assets/details-box.png)
 

@@ -7,7 +7,7 @@ description: 객체의 업데이트 섹션에는 사용자가 객체에 대해 �
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
 source-wordcount: '1385'
 ht-degree: 3%
@@ -23,7 +23,7 @@ ht-degree: 3%
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
 
-<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
+<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md) ).</span> -->
 
 
 <span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리보기 환경 또는 빠른 릴리스를 활성화한 고객의 프로덕션 환경에서만 사용할 수 있습니다. </span>
@@ -31,6 +31,8 @@ ht-degree: 3%
 <span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 활성화 또는 비활성화](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 <span class="preview">현재 릴리스 일정에 대한 자세한 내용은 [2024년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+
+<!--info for April 11: take out the Important box-->
 
 >[!IMPORTANT]
 >
@@ -54,21 +56,6 @@ ht-degree: 3%
 >
 ><span class="preview">새로운 댓글 달기 환경은 빠른 릴리스 프로세스를 선택한 고객을 위해 미리보기 환경의 목록, 타임시트 및 업무 균형자의 요약 패널과 프로덕션 환경에서 사용할 수 있습니다.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## 업데이트 섹션 개요
 
 오브젝트의 업데이트 섹션에는 시스템 업데이트와 지난 90일 이내에 수행한 가장 최근 업데이트 사용자 중 최대 200명이 표시됩니다.
@@ -78,6 +65,27 @@ ht-degree: 3%
 ![업데이트 섹션](assets/updates-tab-with-unified-experience-for-issues-all-tab.png)
 
 </div>
+
+<!--Info for April 11: Add the following right under the screen shot above:
+
+The following objects have an Updates section where you can add comments or review system updates: 
+
+* Projects
+* Tasks
+* Issues
+* Programs
+* Portfolios
+* Templates
+* Template tasks
+* Users
+* Timesheets
+* Teams
+* Goals
+* Cards in the Boards area
+* Iterations
+-->
+
+<!--remove all the information below, all the way down to the following section: -->
 
 댓글 달기 경험에 액세스하는 객체에 따라 업데이트 섹션에 대해 다음 경험을 찾을 수 있습니다.
 
@@ -115,6 +123,8 @@ ht-degree: 3%
 
      반복에 대한 새 주석 달기 경험을 활성화하는 옵션은 없습니다. 자세한 내용은 [반복 주석 관리](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md).
 
+<!--Info for April 11: reword the section title below to: Overview of the Updates section-->
+
 ### 새 댓글 달기 환경의 업데이트 섹션 개요
 
 <div class="preview">
@@ -122,6 +132,8 @@ ht-degree: 3%
 ![업데이트 섹션](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
 </div>
+
+<!--info for April 11: remove the NOTE below-->
 
 >[!NOTE]
 >
@@ -144,6 +156,7 @@ ht-degree: 3%
 
    * 목표
 
+<!-- info for April 11: hide the entire section below: -->
 
 ### 기존 업데이트 섹션의 개요
 

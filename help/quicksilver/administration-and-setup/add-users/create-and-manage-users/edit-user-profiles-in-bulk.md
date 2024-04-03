@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: 1949a0bb213553f1f1f252c4382a90514fcd0b5b
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '2285'
+source-wordcount: '2294'
 ht-degree: 0%
 
 ---
 
 # 사용자 프로필 일괄 편집
+
+{{highlighted-preview}}
 
 <!--
 
@@ -81,7 +83,10 @@ ht-degree: 0%
        <ul> 
         <li><b>시간대:</b> 사용자의 표준 시간대입니다.</li> 
         <li><b>로케일</b>: 사용자 기본 로케일. 이 오류는 Workfront에서 전송되는 이메일의 숫자 및 날짜 형식에 영향을 줍니다.</li> 
-        <li><b>업데이트 상태에 완료율 표시</b>: 기존 댓글 달기 환경을 사용할 때 모든 사용자의 작업 업데이트 영역 내에 완료율 표시줄을 표시하려면 이 옵션을 선택합니다. 자세한 내용은 <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">새 댓글 달기 환경</a>.</li> 
+        <li><b>업데이트 상태에 완료율 표시</b>: 기존 댓글 달기 환경을 사용할 때 모든 사용자의 작업 업데이트 영역 내에 완료율 표시줄을 표시하려면 이 옵션을 선택합니다. 자세한 내용은 <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">새 댓글 달기 환경</a>.
+        <p><span class="preview">이 옵션은 미리보기 환경에서 제거되었습니다.</span></p>
+
+   </li> 
         <li><b>자신에게 할당한 작업을 내 처리 중 탭으로 전송</b>: 사용자가 자신에게 할당하는 모든 항목이 [작업 중] 탭에 직접 표시되도록 하려면 이 옵션을 선택합니다. 기본적으로 사용자에게 할당된 모든 항목이 작업 요청 탭에 나열됩니다.</li> 
        </ul> </td> 
      </tr> 

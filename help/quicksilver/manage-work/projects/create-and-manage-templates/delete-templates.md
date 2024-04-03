@@ -2,13 +2,13 @@
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: 프로젝트 템플릿 삭제
-description: 시간이 지남에 따라 프로젝트에 대한 기록 정보를 유지할 수 있도록 템플릿을 삭제하는 대신 더 이상 사용하지 않는 템플릿을 비활성화하는 것이 좋습니다. 템플릿 비활성화에 대한 자세한 내용은 프로젝트 템플릿 편집을 참조하십시오.
+description: 시간이 지남에 따라 프로젝트에 대한 기록 정보를 유지할 수 있도록 템플릿을 삭제하는 대신 더 이상 사용하지 않는 템플릿을 비활성화하는 것이 좋습니다.
 author: Alina
 feature: Work Management
 exl-id: 41e0979c-f8ef-4a07-8848-e4ee8cc212c5
-source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---

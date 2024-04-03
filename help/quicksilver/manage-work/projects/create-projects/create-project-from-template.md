@@ -2,13 +2,13 @@
 product-area: projects;templates
 navigation-topic: create-projects
 title: 템플릿을 사용하여 프로젝트 만들기
-description: 템플릿을 프레임워크로 사용하여 Adobe Workfront에서 프로젝트를 만들 수 있습니다. 자주 반복되는 프로젝트가 있는 경우 새 프로젝트의 일반 타임라인에 템플릿을 사용하면 동일한 프로젝트를 반복적으로 작성할 필요가 없습니다.
+description: 템플릿을 프레임워크로 사용하여 Adobe Workfront에서 프로젝트를 만들 수 있습니다. 자주 반복되는 프로젝트가 있는 경우 새 프로젝트에 템플릿을 사용하면 동일한 프로젝트를 반복적으로 작성할 필요가 없습니다.
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1124'
 ht-degree: 0%
 
 ---

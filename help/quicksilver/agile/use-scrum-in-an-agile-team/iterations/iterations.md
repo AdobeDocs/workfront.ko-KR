@@ -3,21 +3,21 @@ content-type: reference
 product-area: agile-and-teams
 navigation-topic: use-scrum-in-an-agile-team
 title: 반복
-description: 이 문서를 검토하여 반복 사용 방법을 알아보십시오.
+description: 다음 문서에서는 스크럼 환경에서 작업할 때 반복을 사용하는 방법을 설명합니다.
 author: Lisa
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: 474ab807-fd6c-4248-9567-121e5d4b7b5b
-source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 4%
+source-wordcount: '62'
+ht-degree: 3%
 
 ---
 
 # 반복
 
-이 섹션에는 다음 문서가 포함됩니다.
+다음 문서에서는 Adobe Workfront의 스크럼 환경에서 작업할 때 반복을 사용하는 방법을 설명합니다.
 
 * [반복 개요](../../../agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md)
 * [반복 만들기](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md)

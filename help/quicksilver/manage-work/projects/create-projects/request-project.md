@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: create-projects
 title: 프로젝트 요청
-description: 작업을 시작하기 전에 승인할 프로젝트를 요청할 수 있습니다. 새 프로젝트에 대한 비즈니스 사례를 구축하여 완료함으로써 달성하고자 하는 몇 가지 주요 사항을 개략적으로 설명하고 노무 및 경비 예산을 경영진에게 제시할 수 있도록 하는 것이 좋습니다. 비즈니스 사례를 작성하고 승인을 위해 프로젝트를 제출하면 프로젝트에 대한 공식 요청이 완료됩니다. 승인을 위해 비즈니스 사례를 제출하면 프로젝트의 상태가 요청됨이 됩니다.
+description: 작업을 시작하기 전에 승인할 프로젝트를 요청할 수 있습니다. 새 프로젝트에 대한 비즈니스 사례를 구축하여 완료함으로써 달성하고자 하는 몇 가지 주요 사항을 개략적으로 설명하고 인건비 및 경비 예산을 관리 팀에 제시할 수 있도록 하는 것이 좋습니다. 비즈니스 사례를 작성하고 승인을 위해 프로젝트를 제출하면 프로젝트에 대한 공식 요청이 완료됩니다. 승인을 위해 비즈니스 사례를 제출하면 프로젝트의 상태가 요청됨이 됩니다.
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
-source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '562'
 ht-degree: 2%
 
 ---

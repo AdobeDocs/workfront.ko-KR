@@ -7,10 +7,10 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 2%
+source-wordcount: '1339'
+ht-degree: 1%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 2%
 
 <!--take out legacy, preview, prod references from below-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.  </span>  
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다.  </span>
 
-<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](../../product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>-->
+<span class="preview">현재 릴리스 일정에 대한 자세한 내용은 [2024년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 <!--
 
@@ -59,13 +59,13 @@ The new commenting experience will slowly become available for all the objects w
 
 다음 기능은 제거되었거나 새 경험에서 더 이상 사용되지 않습니다.
 
-* 시스템 업데이트에 대한 주석 달기
+* 시스템 업데이트에 대한 댓글을 달습니다. 이전에 시스템 업데이트에 추가한 주석은 새 시스템 활동 탭에서 읽기 전용 주석으로 가져왔습니다.
 * 작업 및 문제에 대해 댓글을 작성하는 동안 상태, 조건, 커밋 일자 및 완료율을 편집할 수 있습니다.
-* 사용자 정의 양식 편집
+* 사용자 정의 양식 편집 기능
 * Workfront 또는 그룹 관리자가 다른 사용자로 로그인하고 대신 주석을 추가할 때의 &quot;대신하여 &lt; 사용자 이름 >&quot; 정보는 원래 제거되었습니다. 2023년 10월 19일에 복원되었습니다.
 * 문서에 주석을 추가하는 동안 다른 사용자에게 태그를 지정할 때 &quot;승인 요청&quot; 옵션이 표시됩니다.
 * 사용자의 프로필 상자를 편집할 때 &quot;업데이트 상태에서 완료율 표시&quot; 설정이 제거됩니다. 작업 또는 문제의 완료율을 업데이트하는 기능이 제거되었습니다.
-* 작업 또는 문제의 할당자가 커밋 일자를 편집했다는 업데이트 영역의 프로젝트 소유자에 대한 알림입니다. <!--ensure this is correct when re remove the legacy and leave only new commenting-->
+* 업데이트 섹션에서 커밋 일자가 변경되면 프로젝트 소유자가 작업의 계획된 완료 일자를 변경할 수 있습니다. <!--ensure this is correct when re remove the legacy and leave only new commenting-->
 
 <!--removed this note on November 28, 2023, when this limitation was removed: 
 
@@ -544,13 +544,23 @@ Beta 기간이 종료된 후 새 주석 달기 경험을 위해 릴리스된 기
   >
   >    반복에는 기존 댓글 달기 환경이 계속 유지됩니다. 새 주석 달기 경험을 반복할 수 없습니다.
 
-* 2024년 2분기(2024년 4월):
+* 2024년 2분기 릴리스(2024년 4월 11일):
 
    * 기존 댓글 달기 스트림으로 다시 전환하고 새 댓글 달기 스트림을 반복을 제외하고 모든 개체에 대한 유일한 경험으로 만드는 옵션을 제거합니다.
 
 ## 새 댓글 달기 환경 찾기
 
-&lt;!—중요: 기존 경험을 제거할 때 이 의 버전을 업데이트 작업 문서 또는 업데이트 섹션 개요로 이동하여 경험이 반복을 제외한 모든 작업에 대해 다르다고 설명하십시오—>
+<!--info for April 11: make this commented out text live and hide everything else underneath it, all the way to the end of the article: 
+
+>[!IMPORTANT]
+>
+>The new commenting experience is available in all Workfront environments on all objects with the exception of Iterations. 
+>
+>The legacy commenting experience has been removed from all environments for Projects, Tasks, Issues, and Documents. 
+
+For information about accessing the Updates section of Workfront objects, see [Updates section overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+
+-->
 
 새로운 댓글 달기 환경은 현재 모든 고객 및 모든 환경에서 사용할 수 있습니다.
 
@@ -563,25 +573,25 @@ Beta 기간이 종료된 후 새 주석 달기 경험을 위해 릴리스된 기
    * 문제
    * 문서
 
-  >[!TIP]
-  >
-  >새 주석 달기 옵션을 사용하여 이 섹션에 설명된 대로 새 주석 달기 경험(활성화할 경우) 또는 기존 주석 달기 경험(비활성화할 경우)을 표시합니다. 새 댓글 달기 환경이 기본값입니다.
-
-   * 아래 나열된 객체에 대한 새 댓글 달기 경험만 해당됩니다. 다음 객체에 대한 기존 댓글 달기 환경을 활성화하는 옵션은 없습니다.
-
-      * 목표
-
      >[!NOTE]
      >
-     >이 Workfront 영역에 액세스하려면 Adobe Workfront 목표에 대한 추가 라이선스가 있어야 합니다. 자세한 내용은 [Workfront 목표 사용 요구 사항](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-      * 보드에 있는 카드
-      * 팀
-      * 템플릿
-      * 템플릿 작업
-      * 타임시트
-      * 프로그램
-      * 포트폴리오
-      * 사용자
+     ><span class="preview">기존 댓글 달기 환경은 2024년 4월 1일부터 미리보기 환경에서 제거되었습니다. </span>
+
+* 아래 나열된 객체에 대한 새 댓글 달기 경험만 해당됩니다. 다음 객체에 대한 기존 댓글 달기 환경을 활성화하는 옵션은 없습니다.
+
+   * 목표
+
+  >[!NOTE]
+  >
+  >이 Workfront 영역에 액세스하려면 Adobe Workfront 목표에 대한 추가 라이선스가 있어야 합니다. 자세한 내용은 [Workfront 목표 사용 요구 사항](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+   * 보드에 있는 카드
+   * 팀
+   * 템플릿
+   * 템플릿 작업
+   * 타임시트
+   * 프로그램
+   * Portfolio
+   * 사용자
 
 * 다음 개체에 대한 레거시 댓글 달기 환경만 해당:
 
@@ -619,8 +629,9 @@ The new commenting experience is currently supported for the following objects:
 
 프로젝트, 작업, 문제 및 문서에 대해 주석 달기 경험 옵션을 활성화하려면 다음을 수행하십시오.
 
-1. 새 댓글 달기 경험을 활성화할 개체로 이동한 다음, **업데이트** 왼쪽 패널에서
+1. (조건부) 프로덕션 환경에서 새 댓글 달기 경험을 활성화할 개체로 이동한 다음 를 클릭합니다 **업데이트** 왼쪽 패널에서
 1. (조건부) 비활성화되어 있다면 **새 댓글 달기** 업데이트 영역의 오른쪽 위 모서리에 있는 옵션을 활성화하십시오. 이 기능은 기본적으로 활성화되어 있어야 합니다.
+   <span class="preview">새 주석 달기 옵션이 미리보기 환경에서 제거되었습니다.</span>
 
    ![](assets/new-commenting-toggle-off-highlighted.png)
 
