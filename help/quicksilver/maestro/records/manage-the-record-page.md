@@ -4,7 +4,7 @@ description: Adobe Workfront Planning에서 레코드 상자 및 페이지의 �
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 7d3778d52f9a3afa12a7bdf348f7400693f8f7ab
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 0%
@@ -102,7 +102,6 @@ Adobe Workfront Planning에서 레코드 상자 및 페이지의 레이아웃을
 마지막으로 액세스한 작업공간이 열립니다.
 
 1. (선택 사항) 작업 영역 이름의 오른쪽에 있는 아래쪽 방향 화살표를 클릭하여 레코드를 업데이트할 작업 영역을 선택합니다.
-
 1. 레코드 유형 카드를 클릭합니다.
 
    레코드 유형 페이지가 열립니다.
