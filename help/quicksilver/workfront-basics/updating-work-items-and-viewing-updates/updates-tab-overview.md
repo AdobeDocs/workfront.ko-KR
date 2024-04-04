@@ -7,7 +7,7 @@ description: 객체의 업데이트 섹션에는 사용자가 객체에 대해 �
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
 workflow-type: tm+mt
 source-wordcount: '1385'
 ht-degree: 3%
@@ -123,7 +123,7 @@ The following objects have an Updates section where you can add comments or revi
 
      반복에 대한 새 주석 달기 경험을 활성화하는 옵션은 없습니다. 자세한 내용은 [반복 주석 관리](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md).
 
-<!--Info for April 11: reword the section title below to: Overview of the Updates section-->
+<!--Info for April 11: reword the section title below to: Overview of the Updates section; and remove the preview tags-->
 
 ### 새 댓글 달기 환경의 업데이트 섹션 개요
 
@@ -159,8 +159,6 @@ The following objects have an Updates section where you can add comments or revi
 <!-- info for April 11: hide the entire section below: -->
 
 ### 기존 업데이트 섹션의 개요
-
-<!--when we remove legacy, make this section an "Iterations-only" section-->
 
 ![](assets/updates-tab-before-unified-experience-for-tasks.png)
 

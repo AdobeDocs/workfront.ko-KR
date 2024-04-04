@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1378'
 ht-degree: 1%
 
 ---
@@ -60,12 +60,14 @@ The new commenting experience will slowly become available for all the objects w
 다음 기능은 제거되었거나 새 경험에서 더 이상 사용되지 않습니다.
 
 * 시스템 업데이트에 대한 댓글을 달습니다. 이전에 시스템 업데이트에 추가한 주석은 새 시스템 활동 탭에서 읽기 전용 주석으로 가져왔습니다.
-* 작업 및 문제에 대해 댓글을 작성하는 동안 상태, 조건, 커밋 일자 및 완료율을 편집할 수 있습니다.
+* 작업 및 문제에 대한 댓글을 달면서 상태, 조건, 커밋 일자 및 완료율을 편집하는 기능.
+
+  또는 목록, 보고서, 홈, Workfront 밸런서 또는 타임시트에서 작업 및 문제의 요약 패널에 이러한 필드를 추가하는 것이 좋습니다.
 * 사용자 정의 양식 편집 기능
 * Workfront 또는 그룹 관리자가 다른 사용자로 로그인하고 대신 주석을 추가할 때의 &quot;대신하여 &lt; 사용자 이름 >&quot; 정보는 원래 제거되었습니다. 2023년 10월 19일에 복원되었습니다.
 * 문서에 주석을 추가하는 동안 다른 사용자에게 태그를 지정할 때 &quot;승인 요청&quot; 옵션이 표시됩니다.
 * 사용자의 프로필 상자를 편집할 때 &quot;업데이트 상태에서 완료율 표시&quot; 설정이 제거됩니다. 작업 또는 문제의 완료율을 업데이트하는 기능이 제거되었습니다.
-* 업데이트 섹션에서 커밋 일자가 변경되면 프로젝트 소유자가 작업의 계획된 완료 일자를 변경할 수 있습니다. <!--ensure this is correct when re remove the legacy and leave only new commenting-->
+
 
 <!--removed this note on November 28, 2023, when this limitation was removed: 
 
@@ -499,6 +501,21 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    <td>
    </td>
    <td> 
+   </td>
+  </tr>
+
+<tr>
+   <td>업데이트 섹션에서 커밋 일자가 변경되면 프로젝트 소유자가 작업의 계획된 완료 일자를 변경할 수 있습니다.
+   </td>
+   <td> ✓ 덧신
+   </td>
+   <td> 나중에 릴리스될 수 있습니다.
+   </td>
+   <td> 
+   </td>
+   <td>
+   </td>
+   <td> ✓ 덧신
    </td>
   </tr>
 </table>

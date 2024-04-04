@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '100'
 ht-degree: 2%
 
 ---
@@ -40,3 +40,4 @@ Adobe Workfront Planning에서 레코드 유형을 만든 후 해당 유형의 �
 * [레코드 주석 관리](/help/quicksilver/maestro/records/manage-record-comments.md)
 * [내역 섹션 개요](/help/quicksilver/maestro/records/history-section-overview.md)
 * [레코드에 썸네일 추가](/help/quicksilver/maestro/records/add-thumbnails-to-records.md)
+* [레코드 페이지 관리](/help/quicksilver/maestro/records/manage-the-record-page.md)
