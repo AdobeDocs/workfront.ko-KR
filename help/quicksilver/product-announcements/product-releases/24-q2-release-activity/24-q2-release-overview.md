@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+source-git-commit: 87e4676e45dd174c6abb2b1edc646d34d43af169
 workflow-type: tm+mt
-source-wordcount: '2026'
+source-wordcount: '2108'
 ht-degree: 0%
 
 ---
@@ -265,6 +265,44 @@ ht-degree: 0%
                 </tr>
             </tbody>
 </table>
+
+### 홈 개선 사항
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">기능</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">릴리스 날짜</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">레이아웃 템플릿을 사용하여 새 홈의 관리자 컨트롤에 열 옵션 추가</a></p><p>[!BADGE In Production for Fast Release ]{type=Positive}</p>
+                        <p>이제 관리자는 레이아웃 템플릿을 사용하여 특정 새 홈 위젯의 사용자가 사용할 수 있는 열을 사용자 정의할 수 있습니다. 옵션에는 기본 열을 숨기거나 표시하고 기존 필드를 새 열로 추가하는 작업이 포함됩니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2024년 1월 2일</p>
+                            </li>
+                            <li>
+                                <p>빠른 릴리스를 위한 프로덕션: 24.2 릴리스 포함(2024년 2월 15일)</p>
+                            </li>
+                            <li>
+                                <p>분기별 릴리스 프로덕션: 24.4 릴리스 포함(2024년 4월 11일)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
 
 ### 프로젝트 개선 사항
 
