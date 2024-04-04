@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: 21b2a8180512f71383a7d5201d62fd9ab166d8ef
+source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
 workflow-type: tm+mt
-source-wordcount: '2020'
+source-wordcount: '2026'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 >
 >| 월별 릴리스 | 분기별 릴리스 |
 >|----|----|
->| <ul><li>24.2 (2024년 2월 15일)</li><li>24.3 (2024년 3월 14일)</li><li>24.4 (2024년 4월 11일)</li></ul> | <ul><li>24.4 (2024년 4월)</li></ul> |
+>| <ul><li>24.2 (2024년 2월 15일)</li><li>24.3 (2024년 3월 14일)</li><li>24.4 (2024년 4월 11일)</li></ul> | <ul><li>24.4 (2024년 4월 11일)</li></ul> |
 >
 >빠른 릴리스 프로세스에 대한 자세한 내용은 [빠른 릴리스 프로세스 활성화 또는 비활성화](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
@@ -65,7 +65,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">이제 양식 디자이너 미리 보기 모드에서 표시 논리 및 건너뛰기 논리를 사용할 수 있습니다</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">이제 양식 디자이너 미리 보기 모드에서 표시 논리 및 건너뛰기 논리를 사용할 수 있습니다</a></p>
                         <p>이제 Beta 사용자 정의 양식 디자이너를 사용하여 미리보기 모드에서 디스플레이 논리를 테스트하고 논리를 건너뛸 수 있습니다. 이전에는 논리가 적용되어도 모든 필드가 미리보기에 표시되었습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -74,7 +74,7 @@ ht-degree: 0%
                                 <p>미리보기 릴리스: 2024년 3월 28일</p>
                             </li>
                             <li>
-                                <p>고객을 위한 프로덕션: 24.4 릴리스 포함(2024년 4월)</p>
+                                <p>고객을 위한 프로덕션: 24.4 릴리스 포함(2024년 4월 11일)</p>
                             </li>
                         </ul>
                     </td>
@@ -90,7 +90,7 @@ ht-degree: 0%
                                 <p>미리보기 릴리스: 2024년 3월 14일</p>
                             </li>
                             <li>
-                                <p>고객을 위한 프로덕션: 24.4 릴리스 포함(2024년 4월)</p>
+                                <p>고객을 위한 프로덕션: 24.4 릴리스 포함(2024년 4월 11일)</p>
                             </li>
                         </ul>
                     </td>
@@ -109,7 +109,7 @@ ht-degree: 0%
                                 <p>빠른 릴리스를 위한 프로덕션: 24.3 릴리스 포함(2024년 3월 14일)</p>
                             </li>
                             <li>
-                                <p>분기별 릴리스 프로덕션: 24.4 릴리스 포함(2024년 4월)</p>
+                                <p>분기별 릴리스 프로덕션: 24.4 릴리스 포함(2024년 4월 11일)</p>
                             </li>
                         </ul>
                     </td>
@@ -128,7 +128,7 @@ ht-degree: 0%
                                 <p>빠른 릴리스를 위한 프로덕션: 24.3 릴리스 포함(2024년 3월 14일)</p>
                             </li>
                             <li>
-                                <p>분기별 릴리스 프로덕션: 24.4 릴리스 포함(2024년 4월)</p>
+                                <p>분기별 릴리스 프로덕션: 24.4 릴리스 포함(2024년 4월 11일)</p>
                             </li>
                         </ul>
                     </td>
@@ -173,6 +173,10 @@ ht-degree: 0%
 
 ### 문서 관리 개선 사항
 
+>[!IMPORTANT]
+>
+>에 나열된 기능 **문서 관리 개선 사항** 는 단계별 릴리스의 일부이며 특정 고객에게만 제공됩니다.
+
 <table>
             <col style="width: 50%;" />
             <col style="width: 50%;" />
@@ -189,7 +193,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">문서 검토 및 승인에 기한 추가</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">문서 검토 및 승인에 기한 추가</a></p>
                         <p>이제 문서를 검토하거나 승인하도록 할당된 사용자 또는 팀에 대한 기한을 지정할 수 있습니다. 검토자와 승인자는 72시간 후 지정된 기한 24시간 전에 이메일 알림을 수신합니다. 기한은 새 홈 영역의 승인 위젯에도 반영됩니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -198,14 +202,14 @@ ht-degree: 0%
                                 <p>미리보기 릴리스: 2024년 3월 28일</p>
                             </li>
                             <li>
-                                <p>고객을 위한 프로덕션: 24.4 릴리스 포함(2024년 4월)</p>
+                                <p>고객을 위한 프로덕션: 24.4 릴리스 포함(2024년 4월 11일)</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">승인 템플릿 만들기 및 사용</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">승인 템플릿 만들기 및 사용</a></p>
                         <p>이제 설정 영역에서 승인 템플릿을 만들어 검토 및 승인 프로세스를 간소화할 수 있습니다. 승인 템플릿을 사용하면 다음 작업을 통해 검토 및 승인 프로세스를 보다 반복적으로 사용할 수 있습니다.
                         <ul>
                             <li>
@@ -223,14 +227,14 @@ ht-degree: 0%
                                 <p>미리보기 릴리스: 2024년 3월 28일</p>
                             </li>
                             <li>
-                                <p>고객을 위한 프로덕션: 24.4 릴리스 포함(2024년 4월)</p>
+                                <p>고객을 위한 프로덕션: 24.4 릴리스 포함(2024년 4월 11일)</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">한 곳에서 모든 승인에 대한 정보 보기</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">한 곳에서 모든 승인에 대한 정보 보기</a></p>
                         <p>승인 요청을 한눈에 관리하고 분석할 수 있도록 모든 승인 위젯에 다음과 같은 주요 성능 지표를 추가했습니다.
                         <ul>
                             <li>
@@ -254,10 +258,9 @@ ht-degree: 0%
                                 <p>미리보기 릴리스: 2024년 3월 28일</p>
                             </li>
                             <li>
-                                <p>고객을 위한 프로덕션: 24.4 릴리스 포함(2024년 4월)</p>
+                                <p>고객을 위한 프로덕션: 24.4 릴리스 포함(2024년 4월 11일)</p>
                             </li>
                         </ul>
-                        <p><span style="color: #ff0000;">이 기능은 단계별 릴리스의 일부이며 현재 특정 고객에게만 제공됩니다.</span></p>
                     </td>
                 </tr>
             </tbody>
@@ -295,7 +298,7 @@ ht-degree: 0%
                                 <p><span style="color: #ff0000;">이 기능은 2024년 3월 18일에 빠른 릴리스 고객을 위한 프로덕션에서 제거되었습니다.</span></p>
                             </li>
                             <li>
-                                <p>분기별 릴리스 프로덕션: 24.4 릴리스 포함(2024년 4월)</p>
+                                <p>분기별 릴리스 프로덕션: 24.4 릴리스 포함(2024년 4월 11일)</p>
                             </li>
                         </ul>
                     </td>
@@ -316,7 +319,7 @@ ht-degree: 0%
                                 <p><span style="color: #ff0000;">이 기능은 2024년 3월 18일에 빠른 릴리스 고객을 위한 프로덕션에서 제거되었습니다.</span></p>
                             </li>
                             <li>
-                                <p>분기별 릴리스 프로덕션: 24.4 릴리스 포함(2024년 4월)</p>
+                                <p>분기별 릴리스 프로덕션: 24.4 릴리스 포함(2024년 4월 11일)</p>
                             </li>
                         </ul>
                     </td>
@@ -353,7 +356,7 @@ ht-degree: 0%
                                 <p>빠른 릴리스를 위한 프로덕션: 24.2 릴리스 포함(2024년 2월 15일)</p>
                             </li>
                             <li>
-                                <p>분기별 릴리스 프로덕션: 24.4 릴리스 포함(2024년 4월)</p>
+                                <p>분기별 릴리스 프로덕션: 24.4 릴리스 포함(2024년 4월 11일)</p>
                             </li>
                         </ul>
                     </td>
@@ -379,8 +382,8 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">기존 댓글 달기 영역에 대한 액세스가 제거되었습니다.</a><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p>
-                        <p>프로젝트, 작업, 문제 및 문서에 대한 업데이트 영역에서 "새 댓글 달기" 전환을 제거했습니다. 이제 새로운 댓글 달기 는 이러한 개체에 대한 기본적이고 유일한 옵션입니다.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">기존 댓글 달기 영역에 대한 액세스가 제거되었습니다.</a></p>
+                        <p>프로젝트, 작업, 문제 및 문서에 대한 업데이트 영역에서 "새 댓글 달기" 전환을 제거했습니다. 이제 새로운 댓글 달기 는 이러한 개체에 대한 기본적이고 유일한 옵션입니다. 이 변경 사항으로 인해 더 이상 이전의 댓글 달기 경험으로 되돌릴 수 없습니다. 또한 사용자 프로필에서 "업데이트 상태에서 완료율 표시" 설정을 제거했습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
@@ -388,7 +391,7 @@ ht-degree: 0%
                                 <p>미리보기 릴리스: 2024년 4월 1일</p>
                             </li>
                             <li>
-                                <p>모든 고객을 위한 프로덕션: 24.4 릴리스 포함(2024년 4월)</p>
+                                <p>모든 고객을 위한 프로덕션: 24.4 릴리스 포함(2024년 4월 11일)</p>
                             </li>
                         </ul>
                     </td>
@@ -407,7 +410,7 @@ ht-degree: 0%
                                 <p>빠른 릴리스를 위한 프로덕션: 24.3 릴리스 포함(2024년 3월 14일)</p>
                             </li>
                             <li>
-                                <p>분기별 릴리스 프로덕션: 24.4 릴리스 포함(2024년 4월)</p>
+                                <p>분기별 릴리스 프로덕션: 24.4 릴리스 포함(2024년 4월 11일)</p>
                             </li>
                         </ul>
                     </td>
@@ -434,7 +437,7 @@ ht-degree: 0%
                                 <p>빠른 릴리스를 위한 프로덕션: 24.3 릴리스 포함(2024년 3월 14일)</p>
                             </li>
                             <li>
-                                <p>분기별 릴리스 프로덕션: 24.4 릴리스 포함(2024년 4월)</p>
+                                <p>분기별 릴리스 프로덕션: 24.4 릴리스 포함(2024년 4월 11일)</p>
                             </li>
                         </ul>
                     </td>
@@ -453,7 +456,7 @@ ht-degree: 0%
                                 <p>빠른 릴리스를 위한 프로덕션: 24.3 릴리스 포함(2024년 3월 14일)</p>
                             </li>
                             <li>
-                                <p>분기별 릴리스 프로덕션: 24.4 릴리스 포함(2024년 4월)</p>
+                                <p>분기별 릴리스 프로덕션: 24.4 릴리스 포함(2024년 4월 11일)</p>
                             </li>
                         </ul>
                     </td>
@@ -472,7 +475,7 @@ ht-degree: 0%
                                 <p>빠른 릴리스를 위한 프로덕션: 24.3 릴리스 포함(2024년 3월 14일)</p>
                             </li>
                             <li>
-                                <p>분기별 릴리스 프로덕션: 24.4 릴리스 포함(2024년 4월)</p>
+                                <p>분기별 릴리스 프로덕션: 24.4 릴리스 포함(2024년 4월 11일)</p>
                             </li>
                         </ul>
                     </td>
@@ -491,7 +494,7 @@ ht-degree: 0%
                                 <p>빠른 릴리스를 위한 프로덕션: 24.3 릴리스 포함(2024년 3월 14일)</p>
                             </li>
                             <li>
-                                <p>분기별 릴리스 프로덕션: 24.4 릴리스 포함(2024년 4월)</p>
+                                <p>분기별 릴리스 프로덕션: 24.4 릴리스 포함(2024년 4월 11일)</p>
                             </li>
                         </ul>
                     </td>
@@ -540,7 +543,7 @@ ht-degree: 0%
 
 ### Workfront Fusion 개선 사항
 
-Workfront Fusion의 새로운 기능은 2023년 1분기 릴리스 일정 이외의 케이던스로 프로덕션에서 사용할 수 있습니다. 최신 기능에 대한 자세한 내용은 [Adobe Workfront Fusion 릴리스 활동](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Workfront Fusion의 새로운 기능은 2024년 2분기 릴리스 일정 이외의 케이던스로 프로덕션에서 사용할 수 있습니다. 최신 기능에 대한 자세한 내용은 [Adobe Workfront Fusion 릴리스 활동](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 ### Workfront Scenario Planner 개선 사항
 
@@ -564,7 +567,7 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/
 
 ### Workfront 유지 보수 업데이트
 
-22.3 릴리스 동안 수행된 유지 관리 업데이트에 대한 자세한 내용은 다음을 참조하십시오. [Workfront 유지 보수 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+2024년 2분기 릴리스 동안 수행된 유지 관리 업데이트에 대한 자세한 내용은 을 참조하십시오. [Workfront 유지 보수 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### 교육 업데이트
 

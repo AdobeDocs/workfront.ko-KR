@@ -4,9 +4,10 @@ description: 2024년 2분기 리소스 관리 개선 사항
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1e103c41d225c3bcc2699da24b0c6733c09b6637
+exl-id: 12b3c586-5f44-48cf-9451-1ef32118676f
+source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리보기 릴리스: 2023년 10월 12일, 빠른 릴리스를 위한 프로덕션: 24.2 릴리스(2024년 2월 15일), 분기별 릴리스의 프로덕션: 24.4 릴리스(2024년 4월)
+>미리보기 릴리스: 2023년 10월 12일, 빠른 릴리스를 위한 프로덕션: 24.2 릴리스(2024년 2월 15일), 분기별 릴리스의 프로덕션: 24.4 릴리스(2024년 4월 11일)
 
 업무 균형자에서 수동 조정 또는 윤곽선에 대해 더 명확하게 이해하기 위해 이제 수동으로 조정된 시간별 할당에 연필 아이콘이 표시됩니다.
 

@@ -4,9 +4,10 @@ description: 2024년 2분기 릴리스 기간 동안의 룩앤필 업데이트
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1e103c41d225c3bcc2699da24b0c6733c09b6637
+exl-id: be398d7f-7bc3-4a27-bc17-ffa4054d81ac
+source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -29,11 +30,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리보기 릴리스: 2024년 2월 8일, 빠른 릴리스를 위한 프로덕션: 24.3 릴리스 포함(2024년 3월 14일), 분기별 릴리스의 프로덕션: 24.4 릴리스 포함(2024년 4월)
+>미리보기 릴리스: 2024년 2월 8일, 빠른 릴리스를 위한 프로덕션: 24.3 릴리스 포함(2024년 3월 14일), 분기별 릴리스의 프로덕션: 24.4 릴리스 포함(2024년 4월 11일)
 
 설정 > 사용자 지정 Forms 영역의 Forms, 필드 및 섹션에 대한 탭을 Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 업데이트했습니다. 이제 왼쪽 탐색 메뉴에서 세 영역에 액세스할 수 있습니다. 목록에 대해 필터, 보기 및 그룹화를 계속 사용할 수 있습니다. 업데이트된 디자인은 새 양식 디자이너와 레거시 양식 빌더에서 만든 사용자 정의 양식, 필드 및 섹션에 적용됩니다.
 
 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) 및 [기존 양식 빌더로 사용자 정의 양식 만들기 또는 편집](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-
-
-

@@ -4,9 +4,10 @@ description: 2024년 2분기 홈 개선 사항
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
+exl-id: df78f09c-7855-4538-abda-421a7a4bc225
+source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리보기 릴리스: 2024년 1월 2일, 빠른 릴리스를 위한 프로덕션: 24.2 릴리스(2024년 2월 15일), 모든 고객을 위한 프로덕션: 24.4 릴리스(2024년 4월)
+>미리보기 릴리스: 2024년 1월 2일, 빠른 릴리스를 위한 프로덕션: 24.2 릴리스(2024년 2월 15일), 모든 고객을 위한 프로덕션: 24.4 릴리스(2024년 4월 11일)
 
 이제 관리자는 레이아웃 템플릿을 사용하여 특정 새 홈 위젯의 사용자가 사용할 수 있는 열을 사용자 정의할 수 있습니다. 옵션에는 기본 열을 숨기거나 표시하고 기존 필드를 새 열로 추가하는 작업이 포함됩니다.
 
