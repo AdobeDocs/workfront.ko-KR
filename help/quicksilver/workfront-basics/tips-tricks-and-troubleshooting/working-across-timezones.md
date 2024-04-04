@@ -5,9 +5,9 @@ title: 시간대 간 작업
 description: 방법을 이해하는 것이 도움이 될 수 있습니다 [!DNL Adobe Workfront] 시간대를 사용하여 이메일과 같은 다른 영역의 오브젝트 및 시간에 대한 시간 필드를 계산합니다.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
+source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
 workflow-type: tm+mt
-source-wordcount: '1081'
+source-wordcount: '1152'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,15 @@ ht-degree: 0%
 
 * 오브젝트의 시간 필드
 * 기타 시간 [!DNL Workfront] 영역(예: 자동화된 Workfront 이메일)
+
+>[!WARNING]
+>
+>제공되는 목록에서 정확한 시간대를 찾을 수 없는 경우 가장 가까운 시간대를 찾아 인스턴스에 대해 업데이트합니다.
+>
+>또한 유사한 시간대가 사용자의 시간대와 완벽하게 일치하지 않을 수 있다는 점을 고려하십시오.
+>
+>예를 들어, 일부 국가나 지역에서는 일광 절약 시간제를 준수할 수 있지만, 해당 국가에서는 그렇지 않을 수 있습니다. 필요한 경우 이러한 변경 사항에 따라 시스템의 시간대를 조정해야 할 수 있습니다.
+
 
 ## 의 시간대 [!DNL Workfront]
 

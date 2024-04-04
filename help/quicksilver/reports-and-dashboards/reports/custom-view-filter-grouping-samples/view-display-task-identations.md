@@ -7,7 +7,7 @@ description: 이 작업 보기에서 작업 이름 열에 코드를 추가하여
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: f7f43e1e-db32-48b8-9a23-ff9fa6195386
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
@@ -61,13 +61,7 @@ ht-degree: 0%
 
 1. 새 열에서 **텍스트 모드로 전환**.
 1. 텍스트 모드 영역 위로 마우스를 가져간 다음 **텍스트를 편집하려면 클릭**.
-1. 에서 찾은 텍스트 제거
-
-   ```
-   valuefield=
-   ```
-
-   줄을 그어 다음 코드로 바꿉니다.
+1. 에서 찾은 텍스트 제거 `valuefield=` 줄을 그어 다음 코드로 바꿉니다.
 
    ```
    valueexpression=IF({indent}<1,{name},IF({indent}<2,CONCAT(' - ',{name}),IF({indent}<3,CONCAT(' - - ',{name}),IF({indent}<4,CONCAT(' - - - ',{name}),CONCAT(' - - - - ',{name})))))

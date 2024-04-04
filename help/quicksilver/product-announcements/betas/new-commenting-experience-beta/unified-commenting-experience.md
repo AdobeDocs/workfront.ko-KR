@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
+source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
 workflow-type: tm+mt
-source-wordcount: '1378'
+source-wordcount: '1377'
 ht-degree: 1%
 
 ---
@@ -62,7 +62,7 @@ The new commenting experience will slowly become available for all the objects w
 * 시스템 업데이트에 대한 댓글을 달습니다. 이전에 시스템 업데이트에 추가한 주석은 새 시스템 활동 탭에서 읽기 전용 주석으로 가져왔습니다.
 * 작업 및 문제에 대한 댓글을 달면서 상태, 조건, 커밋 일자 및 완료율을 편집하는 기능.
 
-  또는 목록, 보고서, 홈, Workfront 밸런서 또는 타임시트에서 작업 및 문제의 요약 패널에 이러한 필드를 추가하는 것이 좋습니다.
+  또는 작업 및 문제의 요약 패널에서 이러한 필드를 추가하여 목록, 홈, Workfront 밸런서 또는 타임시트에서 쉽게 액세스할 수 있습니다.
 * 사용자 정의 양식 편집 기능
 * Workfront 또는 그룹 관리자가 다른 사용자로 로그인하고 대신 주석을 추가할 때의 &quot;대신하여 &lt; 사용자 이름 >&quot; 정보는 원래 제거되었습니다. 2023년 10월 19일에 복원되었습니다.
 * 문서에 주석을 추가하는 동안 다른 사용자에게 태그를 지정할 때 &quot;승인 요청&quot; 옵션이 표시됩니다.

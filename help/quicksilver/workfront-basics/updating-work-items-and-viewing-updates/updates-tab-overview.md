@@ -7,9 +7,9 @@ description: 객체의 업데이트 섹션에는 사용자가 객체에 대해 �
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
+source-git-commit: 6dceeeb7803e177ee0f366ee2bc94275ed231722
 workflow-type: tm+mt
-source-wordcount: '1385'
+source-wordcount: '1426'
 ht-degree: 3%
 
 ---
@@ -19,12 +19,9 @@ ht-degree: 3%
 
 <!-- Audited: 1/2024 -->
 
-<!--take "legacy" and "new commenting" and "production" or "preview" references out when we remove the legacy - April 2024???-->
+<!--info for April 11: take "legacy" and "new commenting" and "production" or "preview" references out when we remove the legacy-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
-
-<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md) ).</span> -->
-
+<!--info for April 11: hide the disclaimer for preview below-->
 
 <span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리보기 환경 또는 빠른 릴리스를 활성화한 고객의 프로덕션 환경에서만 사용할 수 있습니다. </span>
 
@@ -33,6 +30,8 @@ ht-degree: 3%
 <span class="preview">현재 릴리스 일정에 대한 자세한 내용은 [2024년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 <!--info for April 11: take out the Important box-->
+
+객체의 업데이트 섹션에는 사용자가 객체에 대해 수행하는 설명이나 객체에 대한 변경 사항을 추적하는 시스템 업데이트가 표시됩니다.
 
 >[!IMPORTANT]
 >
@@ -85,7 +84,7 @@ The following objects have an Updates section where you can add comments or revi
 * Iterations
 -->
 
-<!--remove all the information below, all the way down to the following section: -->
+<!--info for April 11: remove all the information below, all the way down to the following section: -->
 
 댓글 달기 경험에 액세스하는 객체에 따라 업데이트 섹션에 대해 다음 경험을 찾을 수 있습니다.
 
@@ -133,7 +132,7 @@ The following objects have an Updates section where you can add comments or revi
 
 </div>
 
-<!--info for April 11: remove the NOTE below-->
+<!--info for April 11: remove the NOTE below and any references below to "the new commenting experience". This should be just the ONLY experience. -->
 
 >[!NOTE]
 >
@@ -152,9 +151,23 @@ The following objects have an Updates section where you can add comments or revi
    * 템플릿 작업
    * 임시 카드
 
+     카드 업데이트에 대한 자세한 내용은 [보드에 애드혹 카드 추가](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
+
 * 다음 개체에는 <span class="preview">모든 탭:</span>
 
    * 목표
+
+     목표에 대한 업데이트에 대한 자세한 내용은 다음을 참조하십시오. [목표 댓글 관리](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
+
+<!--info for April 11: make the text below live - remove the commented out brackets: 
+
+* The following objects don't have a System Activity or an All tab: 
+
+  * Iterations
+
+    For more information about updates on iterations, see [Manage iteration comments](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md). 
+
+-->
 
 <!-- info for April 11: hide the entire section below: -->
 
@@ -175,9 +188,9 @@ The following objects have an Updates section where you can add comments or revi
 * 반복
 
 
-## 상위 등급 개체에도 표시되는 업데이트
+## 상위 개체에도 표시되는 업데이트
 
-특정 개체의 설명, 회신 또는 시스템 업데이트가 상위 개체의 업데이트 섹션에도 나타납니다.
+특정 객체에 대한 설명, 회신 또는 시스템 업데이트가 상위 객체의 업데이트 섹션에도 나타납니다.
 
 예를 들어 작업에 업데이트를 추가하면 해당 작업의 업데이트 섹션과 해당 작업이 포함된 프로젝트의 업데이트 섹션에 업데이트가 나타납니다.
 
@@ -248,6 +261,8 @@ The following objects have an Updates section where you can add comments or revi
  </tbody> 
 </table>
 
+<!--info for April 11: hide the note below-->
+
 >[!NOTE]
 >
 >시스템 업데이트에 추가된 답글은 상위 개체로 롤업되지 않습니다. 하위 개체에 직접 회신과 기존 업데이트에 추가된 회신만 상위 개체에 롤업됩니다.
@@ -267,16 +282,14 @@ The following objects have an Updates section where you can add comments or revi
 
 * 팀의 업데이트 섹션에서 새 주석을 추가할 수 없습니다.
 
-* 팀에서 보는 업데이트에 회신을 추가할 수 있습니다. 응답이 속한 객체의 업데이트 섹션뿐만 아니라 팀의 업데이트 섹션에도 표시됩니다.
-
 * 팀의 업데이트 섹션은 다음 개체에 입력한 업데이트로 채워집니다.
 
    * 사용자
-   * 타임시트*
    * 스토리
-   * 반복*
+   * 타임시트
+   * 반복
 
-  *새 댓글 달기 경험에는 사용할 수 없습니다.
+* 팀에서 보는 업데이트에 회신을 추가할 수 있습니다. 응답이 속한 객체의 업데이트 섹션뿐만 아니라 팀의 업데이트 섹션에도 표시됩니다.
 
 * 사용자 및 팀을 위한 업데이트 섹션에서 지난 90일 동안 입력한 업데이트를 볼 수 있습니다.
 

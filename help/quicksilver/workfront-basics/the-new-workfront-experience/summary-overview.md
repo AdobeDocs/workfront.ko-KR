@@ -5,22 +5,38 @@ description: 요약 패널을 사용하여 작업 문제 목록, 문서 또는 �
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 1%
+source-wordcount: '992'
+ht-degree: 2%
 
 ---
 
 # [!UICONTROL 요약] 개요
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리보기 환경 또는 빠른 릴리스를 활성화한 고객의 프로덕션 환경에서만 사용할 수 있습니다. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 활성화 또는 비활성화](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">현재 릴리스 일정에 대한 자세한 내용은 [2024년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span> -->
 
-다음을 사용할 수 있습니다. [!UICONTROL 요약] 작업 문제 목록, 문서 또는 의 다른 영역에서 작업 항목 정보를 직접 검토하고 업데이트하는 패널 [!DNL Adobe Workfront] 작업 및 문제를 표시합니다.
+다음을 사용할 수 있습니다. [!UICONTROL 요약] 작업, 문제, 문서 목록 또는 의 다른 영역에서 작업 항목 정보를 직접 검토하고 업데이트하는 패널 [!DNL Adobe Workfront] 작업 및 문제를 표시합니다.
+
+Workfront 또는 그룹 관리자는 요약 패널에 표시되는 영역과 필드를 수정할 수 있습니다. 요약 패널에 최대 16개의 필드를 추가할 수 있습니다.
+
+>[!IMPORTANT]
+>
+>요약 패널에 자주 업데이트해야 하는 필드를 추가하여 오브젝트의 기본 페이지에 액세스하지 않고도 쉽게 액세스하고 업데이트할 수 있도록 하는 것이 좋습니다.
+>
+>예를 들어 작업 및 문제 요약 패널에 다음과 같이 자주 업데이트되는 필드를 추가할 수 있습니다.
+>
+>* 상태
+>* 완료율
+>* 커밋 일자
+>* 계획된 완료 일자 기준
+>* 조건
+
+
 
 다음 표에는 를 찾아 사용할 수 있는 영역이 나와 있습니다. [!UICONTROL 요약] 패널:
 
@@ -28,7 +44,7 @@ ht-degree: 1%
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>작업</td> 
+   <td><b>작업</b></td> 
   </tr> 
   <tr> 
    <td> <p>다음 범위 내의 작업 목록</p> 
@@ -44,7 +60,7 @@ ht-degree: 1%
    <td>[!UICONTROL 타임시트]의 작업</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>문제</td> 
+   <td><b>문제</b></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>문제 목록</p> 
@@ -66,7 +82,7 @@ ht-degree: 1%
   </tr>
 
 <tr data-mc-conditions=""> 
-   <td>문서</td> 
+   <td><b>문서</b></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Documents] 영역</td> 
@@ -96,25 +112,27 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 플랜*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 플랜</strong></td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
-   <td> <p>[!UICONTROL Request] 이상</p> </td> 
+   <td> <p>새로운 기능: 기여자 이상</p>
+   또는
+   <p>현재:[!UICONTROL Request] 이상</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>액세스 수준 구성*</strong></td> 
-   <td> <p>작업, 문제, 문서에 대한 [!UICONTROL 보기] 이상 액세스</p> <p>문서의 [!UICONTROL 요약]을(를) 보려는 개체에 대한 [!UICONTROL 보기] 이상 액세스</p> <p>참고: 여전히 액세스 권한이 없는 경우 [!DNL Workfront] 관리자가 액세스 수준에 추가 제한을 설정하는 경우. 자세한 내용: [!DNL Workfront] 관리자가 액세스 수준을 수정할 수 있습니다. 다음을 참조하십시오. <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td role="rowheader"><strong>액세스 수준 구성</strong></td> 
+   <td> <p>작업, 문제, 문서에 대한 [!UICONTROL 보기] 이상 액세스</p> <p>문서를 보려는 [!UICONTROL Summary] 개체에 대한 [!UICONTROL View] 이상 액세스</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>개체 권한</strong></td> 
-   <td> <p>작업, 문제 또는 문서에 대한 [!UICONTROL 보기] 이상 권한</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>작업, 문제 또는 문서에 대한 [!UICONTROL 보기] 이상 권한</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
+*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자. 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 보기 [!UICONTROL 요약] 작업 또는 문제 목록의 패널
 
@@ -131,11 +149,7 @@ ht-degree: 1%
    >
    >한 번에 하나의 작업 또는 문제만 선택하여 다음에서 해당 세부 사항을 볼 수 있습니다. [!UICONTROL 요약] 패널.
 
-   <div class="preview">
-
    ![요약 패널](assets/summary-panel-for-task-new-comments.png)
-
-   </div>
 
 1. (선택 사항) [!UICONTROL 요약] 패널, 다음 중 하나를 수행합니다.
 
@@ -155,17 +169,13 @@ ht-degree: 1%
 
 진행률 표시줄 사용 [!UICONTROL 요약] 을(를) 클릭하여 선택한 작업 또는 문제에 대한 완료율을 업데이트합니다. 숫자를 입력하거나 막대를 올바른 백분율로 끕니다.
 
-<span class="preview">![요약 패널의 완료율](assets/summary-overview-percent-complete.png)</span>
+![요약 패널의 완료율](assets/summary-overview-percent-complete.png)
 
 ## [!UICONTROL 업데이트]
 
 사용 [!UICONTROL 업데이트] 의 섹션 [!UICONTROL 요약] 선택한 작업 또는 문제에 대한 최근 업데이트를 보고 업데이트하기 위해 클릭 **[!UICONTROL 모두 보기]** 로 직접 이동 [!UICONTROL 업데이트] 탭에서 액세스할 수 있습니다.
 
-<div class="preview">
-
 ![요약 패널의 업데이트 섹션](assets/summary-updates-section.png)
-
-</div>
 
 ## [!UICONTROL 문서]
 
