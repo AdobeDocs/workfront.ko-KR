@@ -9,9 +9,9 @@ feature: Workfront API
 role: Developer
 recommendations: noDisplay, noCatalog
 exl-id: 644b9323-c6c3-49bd-8295-b51352992316
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 0ed09ce00716269c01e59e64cc9efe751bcff577
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 0%
 
 이 섹션에는 다음 문서가 포함됩니다.
 
+* [Adobe Workfront API 호출에 대한 도메인 형식](../../wf-api/tips-tricks-and-troubleshooting/locate-domain-for-API.md)
 * [API 오류: &quot;원격 서버에서 오류를 반환했습니다. (400) 잘못된 요청&quot;](../../wf-api/tips-tricks-and-troubleshooting/api-error-remote-server.md)
 * [페이지가 매겨진 대규모 검색 중 중복이 반환됨](../../wf-api/tips-tricks-and-troubleshooting/duplicates-paginated-search.md)
 * [API에서 쿼리 결과 정렬](../../wf-api/tips-tricks-and-troubleshooting/query-sort-api.md)

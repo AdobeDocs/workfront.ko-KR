@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+source-git-commit: 0ed09ce00716269c01e59e64cc9efe751bcff577
 workflow-type: tm+mt
-source-wordcount: '14095'
+source-wordcount: '14102'
 ht-degree: 1%
 
 ---
@@ -2698,6 +2698,7 @@ ht-degree: 1%
       * [범주](wf-api/wf-objects/category.md)
    * Adobe Workfront API에 대한 팁, 요령 및 문제 해결 {#tips-troubleshooting-apis}
       * [Adobe Workfront API에 대한 팁, 요령 및 문제 해결](wf-api/tips-tricks-and-troubleshooting/tips-troubleshoot-api.md)
+      * [Adobe Workfront API 호출에 대한 도메인 형식](wf-api/tips-tricks-and-troubleshooting/locate-domain-for-API.md)
       * [API 오류: &quot;원격 서버에서 오류를 반환했습니다. (400) 잘못된 요청&quot;](wf-api/tips-tricks-and-troubleshooting/api-error-remote-server.md)
       * [페이지가 매겨진 대규모 검색 중 중복이 반환됨](wf-api/tips-tricks-and-troubleshooting/duplicates-paginated-search.md)
       * [API에서 쿼리 결과 정렬](wf-api/tips-tricks-and-troubleshooting/query-sort-api.md)
