@@ -9,9 +9,9 @@ description: Adobe Workfront Boards 커넥터를 사용하여 Workfront Boards �
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 0b4a25f7-a8f1-47f4-8929-7eff82f1dfdc
-source-git-commit: f5ed9dac8fdd0a5049330f06ccc26d56d5cee774
+source-git-commit: 9b4e1b4227b15a6998966838552a5058675fa9a0
 workflow-type: tm+mt
-source-wordcount: '2318'
+source-wordcount: '2325'
 ht-degree: 1%
 
 ---
@@ -136,6 +136,7 @@ Workfront 보드 모듈을 구성할 때 [!DNL Workfront Fusion] 아래 나열�
 * [보드](#boards)
 * [열](#columns)
 * [태그](#tags)
+* [댓글](#comments)
 * [기타](#other)
 
 <!--
@@ -482,6 +483,9 @@ After the webhook is created, you can view the address of the endpoint that even
 </table>
 
 ### 댓글
+
+* [댓글 만들기](#create-a-comment)
+* [카드 댓글 읽기](#read-card-comments)
 
 #### 댓글 만들기
 
