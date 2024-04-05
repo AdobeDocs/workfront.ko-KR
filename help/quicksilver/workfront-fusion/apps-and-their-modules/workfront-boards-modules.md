@@ -8,9 +8,10 @@ title: Adobe Workfront 보드 모듈
 description: Adobe Workfront Boards 커넥터를 사용하여 Workfront Boards 내에서 프로세스를 자동화하고 서드파티 앱 및 서비스에 연결할 수 있습니다.
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
-source-git-commit: db3f5b1e406d62fd0d3b99cb108ad824d1a32c24
+exl-id: 0b4a25f7-a8f1-47f4-8929-7eff82f1dfdc
+source-git-commit: f5ed9dac8fdd0a5049330f06ccc26d56d5cee774
 workflow-type: tm+mt
-source-wordcount: '2111'
+source-wordcount: '2318'
 ht-degree: 1%
 
 ---
@@ -476,6 +477,54 @@ After the webhook is created, you can view the address of the endpoint that even
   <tr> 
    <td>[!UICONTROL 태그 색상]</td> 
    <td>이 태그의 색상을 선택합니다.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### 댓글
+
+#### 댓글 만들기
+
+이 작업 모듈은 지정된 카드에 주석을 만들었습니다.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+      <td> <p>기존 Workfront 연결을 사용하여 Workfront 보드에 연결하거나 특정 Workfront 보드 연결을 사용할 수 있습니다. </p><p>연결에 대한 자세한 내용 [!DNL Workfront] 앱 대상 [!DNL Workfront Fusion], 참조 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront 보드에 대한 연결 만들기</a> 이 문서에서.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Card ID]</td> 
+   <td>댓글을 추가할 카드의 ID를 입력하거나 매핑합니다.<p>Workfront에서 카드를 볼 때 URL에서 카드 ID를 찾을 수 있습니다.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Comment]</td> 
+   <td>추가할 댓글의 텍스트를 입력하거나 매핑합니다.</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### 카드 댓글 읽기
+
+이 작업 모듈은 지정된 카드에서 주석을 검색합니다.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+      <td> <p>기존 Workfront 연결을 사용하여 Workfront 보드에 연결하거나 특정 Workfront 보드 연결을 사용할 수 있습니다. </p><p>연결에 대한 자세한 내용 [!DNL Workfront] 앱 대상 [!DNL Workfront Fusion], 참조 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront 보드에 대한 연결 만들기</a> 이 문서에서.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Card ID]</td> 
+   <td>댓글을 검색할 카드의 ID를 입력하거나 매핑합니다.<p>Workfront에서 카드를 볼 때 URL에서 카드 ID를 찾을 수 있습니다.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL 제한]</td> 
+   <td>한 실행 주기에서 모듈이 반환할 최대 주석 수를 입력합니다.</p></td> 
   </tr> 
  </tbody> 
 </table>
