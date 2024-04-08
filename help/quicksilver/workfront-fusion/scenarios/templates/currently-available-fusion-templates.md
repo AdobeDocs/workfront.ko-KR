@@ -7,9 +7,9 @@ description: 현재 Adobe Workfront Fusion에서 사용할 수 있는 공용 템
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 3f07ccb23c6697547742537aa63211ac594c1062
+source-git-commit: 2b2424a26ba903cda8f03c468da733732bf6d434
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '1162'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 이 템플릿은 문제를 프로젝트로 변환합니다. 조직의 표준에 맞게 수정할 수 있습니다.
 
-### [!BADGE 신규!]{type=Informative}
+### Workfront - 문제/요청에서 이미 전환된 프로젝트 또는 작업으로 문서 복사
 
 이 유연한 시나리오는 문제 또는 요청에서 이전에 전환된 프로젝트 또는 작업으로 문서를 복사합니다.
 
