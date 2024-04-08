@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 68b91aad-af76-473f-861d-da846fdfb84c
-source-git-commit: 7e970f4f707937a62f68c191a7cbd5dfa26e471c
+source-git-commit: 959bd3cab0de8b76c94fad1be5b6b2b8b7ae904b
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: '908'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ Frame.io에 대한 자세한 내용은 [Frame.io 시작하기](https://support.f
 
 ## Workfront의 작업 시작 및 계획
 
-Workfront 관리자는 설정 영역에서 기본 Frame.io 계정을 구성한 다음 Workfront에서 Frame.io 사용자를 지정하여 Workfront과 Frame.io 간을 통합할 수 있습니다. 이를 통해 코디네이터는 Workfront 프로젝트 및 공식 검토 및 승인을 사용하여 작업을 계획하고 시작할 수 있습니다.
+Workfront 관리자는 설정 영역에서 기본 Frame.io 계정을 구성한 다음 Workfront에서 Frame.io 사용자를 지정하여 Workfront과 Frame.io 간을 통합할 수 있습니다. 이를 통해 코디네이터는 Workfront 프로젝트 및 공식 검토 및 승인 워크플로를 사용하여 작업을 계획하고 시작할 수 있습니다.
 
 ### 기본 Frame.io 계정 구성
 
-Workfront 관리자는 Workfront의 설정 영역에서 기본 Frame.io 계정을 추가하여 Workfront 및 Frame.io 통합을 시작합니다. 기본 Frame.io 계정이 설정되면 통합에서 Workfront과 Frame.io 간에 연결된 프로젝트를 만듭니다.
+Workfront 관리자는 Workfront의 설정 영역에서 기본 Frame.io 계정을 추가하여 Workfront 및 Frame.io 통합을 시작합니다. 기본 Frame.io 계정이 설정되면 Workfront에서 만든 모든 프로젝트에 Frame.io에서 만든 미러 프로젝트가 있습니다.
 
 자세한 내용은 [].
 
@@ -42,11 +42,11 @@ Frame.io를 정기적으로 사용하는 Workfront 사용자는 Frame.io 사용�
 
 * Frame.io에서 공동 작업자로 추가됩니다
 * 정식 검토 및 승인을 위해 Frame.io에서 Workfront으로 자산을 전송할 수 있습니다.
+* Workfront의 단방향 동기화 폴더에서 정보를 볼 수 있습니다
 
 >[!TIP]
 >
 >크리에이티브 도구에서 정기적으로 작업하고 검토 및 승인을 위해 에셋을 업로드하는 사용자를 Frame.io 사용자로 활성화하는 것이 좋습니다.
-
 
 자세한 내용은 [].
 
@@ -86,26 +86,26 @@ Frame.io에서 에셋을 검토하는 방법에 대한 자세한 내용은
 
 크리에이티브가 완성된 에셋을 Frame.io에서 Workfront으로 전송하면 프로젝트 코디네이터는 Workfront에서 공식 검토 및 승인 프로세스를 시작할 수 있습니다.
 
-승인이 만들어지면 사용자는 Frame.io로 돌아가서 자산에 댓글을 달고 마크업을 합니다. Frame.io 뷰어에서 승인 결정을 내릴 수도 있습니다.
+승인이 생성되면 사용자는 Frame.io로 돌아가서 자산에 댓글을 달고 자산을 표시합니다. Frame.io 뷰어에서 승인 결정을 내릴 수도 있습니다.
 
 ### Workfront에서 공식 검토 및 승인 시작
 
 프로젝트 코디네이터는 Workfront의 설정 영역에서 일회성 검토 및 승인 또는 재생성 가능한 승인 템플릿을 생성할 수 있습니다. Frame.io에서 수행된 모든 검토 및 승인 활동은 Workfront에도 기록됩니다.
 
+#### 검토자 및 승인자 추가
+
 프로젝트 코디네이터에게는 검토자, 승인자 또는 두 가지 모두를 할당할 수 있는 옵션이 있습니다.
 
-* **검토자** 및 마크업 에셋에 댓글을 달 수 있습니다. 완료되면 검토를 완료된 것으로 표시할 수 있습니다. <!--example of when to add reviewers-->
-* **승인자** 마크업 자산에 댓글을 달 수 있습니다. 그들은 승인 절차를 진행하기 위해 결정을 내려야 한다.
+* **검토자** 에셋에 댓글을 달거나 표시할 수 있습니다. 완료되면 검토를 완료된 것으로 표시할 수 있습니다. <!--example of when to add reviewers-->
+* **승인자** 에셋에 댓글을 달거나 표시할 수 있습니다. 그들은 승인 절차를 진행하기 위해 결정을 내려야 한다.
 
 
+#### 검토 및 승인 워크플로우 만들기
 
-Frame.io에서 작성한 모든 주석은 Workfront의 업데이트 탭에 반영됩니다. Workfront에서 작성한 답글은 Frame.io에 반영되지 않습니다.
-
-Team only라고 표시된 댓글은 Workfront 업데이트 탭에 표시되지 않습니다.
-
-검토자 및 승인자를 일회용 또는 승인 템플릿에 추가할 수 있습니다.
+검토자와 승인자를 일회용 승인 워크플로 또는 승인 템플릿에 추가할 수 있습니다.
 
 <!--can also assign teams and set deadline-->
+이메일 - 기한 이메일 72, 24 및 기한
 
 * **일회용 승인**: 승인 마감 설정
 
@@ -123,31 +123,34 @@ Workfront 설정 영역에서 Standard 라이선스를 가진 사용자는 다�
 
 ### Frame.io에서 자산 승인
 
-Frame.io 연결된 자산 이해 당사자는 Workfront 업데이트 스트림, 의사 결정 등과 동기화되는 주석을 사용하여 Frame.io 뷰어 내에서 검토하고 승인할 수 있습니다.
+이해 당사자는 Frame.io 뷰어로 연결된 자산을 검토하고 승인할 수 있습니다.
+
+#### Frame.io 뷰어 액세스
+
+사용자는 다음과 같은 방법으로 Frame.io 뷰어에 액세스할 수 있습니다.
+
+* 새 Workfront 홈 영역의 내 승인 대기 중 위젯
+* Workfront 이메일 알림.
+
+외부 Workfront 사용자는 에셋을 검토하고 승인할 Frame.io 로그인을 만들라는 요청을 받게 됩니다.
+
+#### 에셋에 주석 달기 및 표시
+
+Frame.io 뷰어에서 작성한 모든 주석은 Workfront 업데이트 탭에도 기록됩니다. Workfront에서 만든 답글은 Frame.io에 표시되지 않습니다. Team only라고 표시된 댓글은 Workfront 업데이트 탭에 표시되지 않습니다.
+
+#### 결정
+
+승인자는 다음 중 한 가지 결정을 내려야 합니다.
+
+* 승인:
+* 변경 사항과 함께 승인
+* 작업 필요
+
+검토자는 Frame.io 뷰어 내에서 검토 완료를 표시할 수 있습니다.
 
 <!-- include screenshot from frame.io-->
 
-프레임에서 독점적으로 작업하는 경우 이메일을 통해 요청에 대한 알림을 받을 수 있습니다.
 
-Workfront에서만 작업하는 경우 홈에서 승인 위젯을 사용할 수 있습니다.
-
-작업할 때마다 Frame.io 뷰어에 액세스할 수 있습니다
-
-**Frame.io에서 자산 승인**
-알림 방법
-
-의사 결정 - 승인, 변경 사항 포함 승인, 작업 필요
-
-**Workfront에서 에셋 승인**
-알림 방법
-
-홈 내 승인 대기 중 위젯
-
-이메일 - 기한 이메일 72, 24 및 기한
-
-외부 WF 사용자에게 프레임에 대한 로그인을 만들라는 메시지가 표시됩니다.
-
-자산이 프레임에 연결되지 않은 경우 WF에서 썸네일을 보고 주석 스트림을 사용할 수 있습니다. 검토 및 승인 결정을 내릴 수 있습니다.
 
 <!-- upload assets directly to workfront to be reviewed in Frame.io/ Will have to send manually at first
 
