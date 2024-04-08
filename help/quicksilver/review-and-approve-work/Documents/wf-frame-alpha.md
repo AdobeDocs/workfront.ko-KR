@@ -1,28 +1,28 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Alpha 프로그램 - Workfront + Frame.io
-description: Workfront + Frame.io용 Alpha 프로그램의 출시를 발표하게 되어 기쁘게 생각합니다. 여기에서 최신 Alpha 릴리스와 간단한 비디오 연습을 통해 시작할 수 있습니다.
+title: Beta 프로그램 - Workfront + Frame.io
+description: Workfront + Frame.io용 베타 프로그램의 출시를 발표하게 되어 기쁘게 생각합니다. 여기에서는 최신 Beta 릴리스와 간단한 비디오 연습에 대한 정보를 찾아 시작할 수 있습니다.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: 7b2a087c2d611110ffbb14c57f52de1bf633d4d5
+source-git-commit: 10967c222cdcbfc426260af491f5e6f5b9b81a76
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 1%
 
 ---
 
-# Alpha 프로그램 - Workfront + Frame.io
+# Beta 프로그램 - Workfront + Frame.io
 
-Workfront + Frame.io용 Alpha 프로그램의 출시를 발표하게 되어 기쁘게 생각합니다. 여기에서 최신 Alpha 릴리스와 간단한 비디오 연습을 통해 시작할 수 있습니다.
+Workfront + Frame.io용 베타 프로그램의 출시를 발표하게 되어 기쁘게 생각합니다. 여기에서는 최신 Beta 릴리스와 간단한 비디오 연습에 대한 정보를 찾아 시작할 수 있습니다.
 
-## Frame.io의 Alpha 릴리스 업데이트 - 2024년 3월
+## Frame.io의 베타 릴리스 업데이트 - 2024년 3월
 
-이 Alpha 릴리스에는 다음이 있습니다.
+이 Beta 릴리스에는 다음과 같은 항목이 있습니다.
 
 ### Frame.io에서 Workfront으로 여러 에셋 추가
 
@@ -34,9 +34,9 @@ Workfront + Frame.io용 Alpha 프로그램의 출시를 발표하게 되어 기�
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428213/)
 
-## Workfront의 Alpha 릴리스 업데이트 - 2024년 3월
+## Workfront의 베타 릴리스 업데이트 - 2024년 3월
 
-이 Alpha 릴리스에는 다음이 있습니다.
+이 Beta 릴리스에는 다음과 같은 항목이 있습니다.
 
 ### 문서 검토 및 승인에 기한 추가
 
