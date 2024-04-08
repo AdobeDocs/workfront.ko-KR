@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 362a14c2c25e995d06a26b77ab51448b033bc2ac
+source-git-commit: 78584b3e774af77d291ea99327c344fdb4e28709
 workflow-type: tm+mt
-source-wordcount: '4361'
+source-wordcount: '4386'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,10 @@ Workfront 스키마에 익숙하면 통합 목적으로 Workfront에서 데이�
 ### 면책조항
 
 API의 모든 사용은 프로덕션 환경에서 실행하기 전에 Workfront Beta 환경에서 테스트해야 합니다. Workfront이 온디맨드 소프트웨어에 부담을 준다고 합리적으로 생각하는 프로세스에 고객이 API를 사용하는 경우(즉, 프로세스가 다른 고객을 위해 소프트웨어 성능에 심각한 부정적인 영향을 미치는 경우), Workfront은 고객에게 해당 프로세스를 중단하도록 요청할 권리를 보유합니다. 고객이 이를 준수하지 않고 문제가 지속되는 경우 Workfront은 프로세스를 종료할 수 있는 권한을 보유합니다.
+
+## WORKFRONT API URL
+
+Workfront API를 호출하는 데 사용할 URL에 대한 자세한 내용은 [Adobe Workfront API 호출에 대한 도메인 형식](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-API.md).
 
 ## REST 기본 사항
 
@@ -124,22 +128,22 @@ API는 웹 UI에서 시스템에 사용하는 것과 동일한 쿠키 기반 인
 
 >[!IMPORTANT]
 >
-Workfront은 더 이상 `/login` 끝점 또는 API 키. 대신 다음 인증 방법 중 하나를 사용하십시오.
+>Workfront은 더 이상 `/login` 끝점 또는 API 키. 대신 다음 인증 방법 중 하나를 사용하십시오.
 >
-* JWT를 사용한 서버 인증
-* OAuth2를 통한 사용자 인증
+>* JWT를 사용한 서버 인증
+>* OAuth2를 통한 사용자 인증
 >
-이러한 인증 방법 설정에 대한 지침은 [Workfront 통합을 위한 OAuth2 애플리케이션 만들기](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+>이러한 인증 방법 설정에 대한 지침은 [Workfront 통합을 위한 OAuth2 애플리케이션 만들기](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 >
-Workfront에서 서버 인증을 사용하는 방법에 대한 지침은 [JWT 플로우를 사용하여 조직의 사용자 지정 OAuth 2 애플리케이션 구성 및 사용](../../wf-api/api/oauth-app-jwt-flow.md)
+>Workfront에서 서버 인증을 사용하는 방법에 대한 지침은 [JWT 플로우를 사용하여 조직의 사용자 지정 OAuth 2 애플리케이션 구성 및 사용](../../wf-api/api/oauth-app-jwt-flow.md)
 >
-Workfront에서 사용자 인증을 사용하는 방법에 대한 지침은 [인증 코드 흐름을 사용하여 조직의 사용자 지정 OAuth 2 애플리케이션 구성 및 사용](../../wf-api/api/oauth-app-code-token-flow.md)
+>Workfront에서 사용자 인증을 사용하는 방법에 대한 지침은 [인증 코드 흐름을 사용하여 조직의 사용자 지정 OAuth 2 애플리케이션 구성 및 사용](../../wf-api/api/oauth-app-code-token-flow.md)
 
 >[!NOTE]
 >
-이 섹션에 설명된 절차는 Adobe 비즈니스 플랫폼에 아직 온보딩되지 않은 조직에만 적용됩니다. 조직이 Workfront Business Platform에 온보딩된 경우 Adobe API를 통해 Workfront에 로그인할 수 없습니다.
+>이 섹션에 설명된 절차는 Adobe 비즈니스 플랫폼에 아직 온보딩되지 않은 조직에만 적용됩니다. 조직이 Workfront Business Platform에 온보딩된 경우 Adobe API를 통해 Workfront에 로그인할 수 없습니다.
 >
-조직이 Adobe 비즈니스 플랫폼에 온보딩되었는지 여부에 따라 다른 절차 목록은 을 참조하십시오. [플랫폼 기반 관리의 차이점(Adobe Workfront/Adobe 비즈니스 플랫폼)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>조직이 Adobe 비즈니스 플랫폼에 온보딩되었는지 여부에 따라 다른 절차 목록은 을 참조하십시오. [플랫폼 기반 관리의 차이점(Adobe Workfront/Adobe 비즈니스 플랫폼)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 유효한 사용자 이름과 암호를 사용하여 다음 요청을 사용하여 세션 ID를 얻을 수 있습니다.
 
@@ -151,7 +155,7 @@ POST /attask/api/v15.0/login?username=admin&password=user
 
 >[!NOTE]
 >
-지정된 API 사용자 및 관리자가 있는 경우 Workfront에서는 API 키를 사용하여 로그인할 것을 권장합니다.
+>지정된 API 사용자 및 관리자가 있는 경우 Workfront에서는 API 키를 사용하여 로그인할 것을 권장합니다.
 
 **API 키 생성**
 
@@ -284,7 +288,7 @@ GET /attask/api/v15.0/task/search?percentComplete=100
 
 >[!NOTE]
 >
-검색 요청은 대소문자를 구분합니다. 오류가 표시되면 다음을 확인하십시오.  **_Mod** 및 **범위(_R)** 올바른 대소문자가 있습니다.
+>검색 요청은 대소문자를 구분합니다. 오류가 표시되면 다음을 확인하십시오.  **_Mod** 및 **범위(_R)** 올바른 대소문자가 있습니다.
 
 #### OR 문 사용
 
@@ -326,7 +330,7 @@ OR 문은 OR 문의 필터링 기준을 충족하는 API 호출의 레코드만 
 
 >[!NOTE]
 >
-이 필드 이름은 대소문자를 구분합니다.
+>이 필드 이름은 대소문자를 구분합니다.
 
 가능한 필드 참조 목록을 보려면  [API 탐색기](../../wf-api/general/api-explorer.md)
 
@@ -505,7 +509,7 @@ PUT에 대한 응답은 GET과 동일합니다. 두 경우 모두 업데이트 �
 
 >[!NOTE]
 >
-최상위 수준에 대한 업데이트는 스파스(sparse)이지만 컬렉션이나 중첩된 객체에 대한 업데이트는 기존 컬렉션을 완전히 대체합니다. 오브젝트에 영향을 주지 않고 작업에 대한 단일 할당을 편집하려면 작업이 아닌 할당에 대한 PUT을 사용합니다.
+>최상위 수준에 대한 업데이트는 스파스(sparse)이지만 컬렉션이나 중첩된 객체에 대한 업데이트는 기존 컬렉션을 완전히 대체합니다. 오브젝트에 영향을 주지 않고 작업에 대한 단일 할당을 편집하려면 작업이 아닌 할당에 대한 PUT을 사용합니다.
 
 다음 예제에서는 프로젝트를 공용 헬프 데스크 대기열로 만듭니다. 기존 대기열 속성이 대체됩니다.
 <pre>PUT /attask/api/v15.0/project/4c7...?업데이트= <br>{ <br>    queueDef: { <br>        isPublic: 1 <br>    } <br>}</pre>
@@ -546,4 +550,4 @@ DELETE은 객체를 제거합니다. 모든 경우에, URI는 서버가 지정�
 
 >[!NOTE]
 >
-원자 일괄 처리 작업은 &quot;success: true&quot; 또는 오류만 반환할 수 있습니다.
+>원자 일괄 처리 작업은 &quot;success: true&quot; 또는 오류만 반환할 수 있습니다.
