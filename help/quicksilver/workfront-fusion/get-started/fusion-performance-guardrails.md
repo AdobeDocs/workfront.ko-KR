@@ -8,10 +8,10 @@ description: Adobe Workfront Fusion에는 Adobe Workfront 라이센스 외에 Ad
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: a866fec950343c73712f22a08e2e045e8b80dbd9
+source-git-commit: 370743780e5be419eb6a8c432619e5d76acfbfce
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 0%
+source-wordcount: '545'
+ht-degree: 1%
 
 ---
 
@@ -73,3 +73,6 @@ Workfront Fusion은 Chrome 기반 브라우저만 지원합니다.
 
 * 실행 기록 로그의 크기는 다음과 같이 제한됩니다. **100MB**. 실행 기록이 이 크기를 초과하면 처음 100MB만 표시됩니다.
 
+## 재시도
+
+Break 모듈을 사용하고 Retry 지시문을 지정할 때 시나리오가 2분 기간 내에 10번 연속적으로 실패하면 시나리오가 자동으로 비활성화됩니다.
