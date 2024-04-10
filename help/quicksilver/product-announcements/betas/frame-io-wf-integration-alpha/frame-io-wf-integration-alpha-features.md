@@ -1,29 +1,29 @@
 ---
 content-type: reference
 navigation-topic: betas
-title: "Adobe Workfront 및 Frame.io 기본 통합 알파: 기능"
-description: Adobe Workfront 및 Frame.io 기본 통합 알파에 대해 계획된 기능
+title: "Adobe Workfront 및 Frame.io 기본 통합 beta: 기능"
+description: Adobe Workfront 및 Frame.io 기본 통합 Beta에 대해 계획된 기능
 author: Nolan
 feature: Product Announcements
 hide: true
 hidefromtoc: true
 exl-id: a1603a06-957b-4d52-89f3-f0cec1a4e02c
-source-git-commit: 9e6033e495e83afa994b21996a4026ac484045a0
+source-git-commit: b7a0fe333f0d8f17bc2d6c612d8cff6ee484c935
 workflow-type: tm+mt
 source-wordcount: '1250'
 ht-degree: 0%
 
 ---
 
-# Adobe Workfront 및 Frame.io 기본 통합 알파: 기능 및 테스트
+# Adobe Workfront 및 Frame.io 기본 통합 beta: 기능 및 테스트
 
 이 통합을 통해 크리에이티브가 원하는 도구(CC 또는 Frame.io)에 머무르며 컨텐츠 생성 및 피어 검토를 수행하는 동시에 프로젝트 관리자가 작업을 조정하고 Workfront 내부에서 공식 검토 프로세스를 초기화 및 모니터링할 수 있도록 하는 것이 목표입니다. 이는 Frame.io에서 제공하는 콘텐츠 검토 기능과 함께 콘텐츠 승인 관리를 위한 Workfront의 새 문서 승인이라는 두 가지 솔루션의 장점을 활용하여 달성할 수 있습니다. 전체적으로 새로운 문서 승인 및 Frame.io는 새로운 컨텐츠 검토 및 승인 환경을 형성합니다. 
 
-알파의 작동 방식과 참여 방법에 대한 자세한 내용은 다음을 참조하십시오. [Adobe Workfront 및 Frame.io 통합 알파: 개요](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md).
+Beta의 작동 방식과 참여 방법에 대한 자세한 내용은 을 참조하십시오. [Adobe Workfront 및 Frame.io 통합 베타: 개요](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md).
 
 >[!NOTE]
 >
->이 알파 프로그램에 귀사가 참여하지 않은 상태에서 이 페이지를 접한 경우, 여기에서 정보를 주의 깊게 처리하고 자세한 내용은 Workfront 또는 Frame.io 관리자에게 문의하십시오.
+>귀사가 이 Beta 프로그램에 참여하지 않은 상태에서 이 페이지를 접한 경우, 여기에서 신중하게 정보를 처리하고 자세한 내용은 Workfront 또는 Frame.io 관리자에게 문의하십시오.
 >
 
 ## 데모 비디오
@@ -32,11 +32,11 @@ ht-degree: 0%
 
 ## 기본 테스트 시나리오
 
-알파 프로그램의 새로운 기능을 쉽게 테스트할 수 있도록 새로운 테스트 Frame.io 계정을 만들고 다음과 같은 새 그룹에 연결했습니다. `Frame.io alpha testing` 기존 Workfront 미리보기 또는 샌드박스 환경에서.
+Beta 프로그램의 새로운 기능을 쉽게 테스트할 수 있도록 새로운 테스트 Frame.io 계정을 만들고 다음과 같은 새 그룹에 연결했습니다. `Frame.io testing` 기존 Workfront 미리보기 또는 샌드박스 환경에서.
 
 기능을 테스트하려면 Workfront 미리보기 또는 샌드박스 인스턴스에 로그인하고 다음 단계를 수행하십시오.
 
-1. **코디네이터:** Workfront 내에서 `Frame.io alpha testing` 프로젝트 그룹으로 할당된 그룹.
+1. **코디네이터:** Workfront 내에서 `Frame.io testing` 프로젝트 그룹으로 할당된 그룹.
 
 1. **코디네이터:** Workfront 내에서 크리에이티브 작업이 필요한 작업을 프레임 사용(작업 세부 정보에서)으로 표시하고 크리에이티브를 이 작업에 할당합니다(전체 워크플로우를 테스트하려는 경우 자신을 할당).
 
@@ -69,7 +69,9 @@ ht-degree: 0%
 
 ## 자세한 테스트 시나리오
 
-추가 기능을 테스트하려는 참가자를 위해 더 많은 관련 테스트 시나리오를 만들었습니다. 이 세부 테스트 시나리오에 대한 안내서는 여기에서 다운로드할 수 있습니다. [WF + Frame.io 상세 테스트 시나리오 연습](/help/quicksilver/product-announcements/betas/assets/WF-Frame-Detailed-Test-Scenario-Walkthrough.pdf).
+추가 기능을 테스트하려는 참가자를 위해 더 많은 관련 테스트 시나리오를 만들었습니다. 이 세부 테스트 시나리오에 대한 안내서는 여기에서 다운로드할 수 있습니다. [WF + Frame.io 상세 테스트 시나리오 연습](/help/quicksilver/product-announcements/betas/assets/MVP-WF-Frame-Detailed-Walk-Through.pdf).
+
+
 
 ## 기능 계획
 
@@ -77,7 +79,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->아래에 글머리 기호 **&quot;향후 릴리스에서 잠재적인 개선 사항&quot;** 알파 피드백 및 발전하는 개발 계획에 따라 헤더가 향후 릴리스에 포함될 수도 있고 포함되지 않을 수도 있습니다.
+>아래에 글머리 기호 **&quot;향후 릴리스에서 잠재적인 개선 사항&quot;** beta 피드백 및 발전하는 개발 계획에 따라 헤더가 향후 릴리스에 포함될 수도 있고 포함되지 않을 수도 있습니다.
 >
 
 ### Workfront 관리자는 Workfront 그룹과 Frame.io 계정 간의 연결을 설정할 수 있습니다
