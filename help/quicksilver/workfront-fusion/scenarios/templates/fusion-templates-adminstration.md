@@ -7,9 +7,9 @@ description: 관리자는 다른 사용자가 만든 템플릿을 보고, 수정
 author: Becky
 feature: Workfront Fusion
 exl-id: 63c14183-0d22-44f3-87e5-c311cfbf5540
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 2b67b5fb951b5ae7867144c444411ebd1c299e75
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '636'
 ht-degree: 0%
 
 ---
@@ -61,17 +61,22 @@ ht-degree: 0%
 
 다음에 대한 정보: [!DNL Adobe Workfront Fusion] 라이센스, 참조 [[!DNL Adobe Workfront Fusion] 라이선스](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-## 보기 [!DNL Workfront Fusion] 관리자인 템플릿
+## 보기 [!DNL Workfront Fusion] 로서의 템플릿 [!DNL Workfront Fusion] 관리자
 
 생성된 모든 템플릿과 해당 상태의 테이블을 보려면 다음과 같이 하십시오.
 
 1. 클릭 **[!UICONTROL 관리]** 을 클릭하여 왼쪽 탐색 패널에서 [!UICONTROL 관리] 영역입니다.
+
+   >[!NOTE]
+   >
+   >관리 영역은 Workfront Fusion 관리자만 볼 수 있습니다.
+
 1. 클릭 **[!UICONTROL 템플릿]** 을 클릭합니다.
 
 템플릿 게시 상태와 관련된 세 가지 열이 있습니다. 열의 확인 표시는 다음을 나타냅니다.
 
-* **[!UICONTROL 게시됨]**: 이러한 템플릿은 현재 [!UICONTROL 팀 템플릿] 사용자 인터페이스의 탭입니다.
-* **[!UICONTROL 승인 요청됨]**: 이 템플릿들은 사용자의 승인을 기다리고 있습니다. 현재 다음 위치에 표시됩니다. [!UICONTROL 팀 템플릿] 사용자 인터페이스의 탭입니다.
+* **[!UICONTROL 게시됨]**: 이러한 템플릿은 현재 [!UICONTROL 팀 템플릿] 사용자 인터페이스의 탭.
+* **[!UICONTROL 승인 요청됨]**: 이 템플릿들은 사용자의 승인을 기다리고 있습니다. 현재 다음 위치에 표시됩니다. [!UICONTROL 팀 템플릿] 사용자 인터페이스의 탭.
 * **[!UICONTROL 승인됨]**: 이 템플릿들은 승인되었습니다. 현재 다음 위치에 표시됩니다. [!UICONTROL 공개 템플릿] 표준 사용자 인터페이스의 탭.
 
 >[!NOTE]
