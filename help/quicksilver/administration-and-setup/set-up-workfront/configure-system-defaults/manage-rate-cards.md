@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3972f498-c461-4535-82c6-ad1b60d3ed86
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: a61635022da9eed7c2fc61bad1cbca0f7f23d7ec
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
@@ -56,8 +56,14 @@ ht-degree: 0%
 {{step-1-to-setup}}
 
 1. 왼쪽 패널에서 [!UICONTROL **카드 평가**].
-1. 클릭 [!UICONTROL **새 요금 카드**]&#x200B;을(를) 클릭한 다음, [!UICONTROL **등급 카드**] 필드입니다. &quot;제목 없는 비율 카드&quot;를 바꿉니다.
-1. 카드 화면에서 다음을 클릭합니다. [!UICONTROL **작업 역할 추가**].
+1. 클릭 [!UICONTROL **새 요금 카드**]&#x200B;을(를) 클릭한 다음, [!UICONTROL 새 요금 카드] &quot;제목 없는 등급 카드&quot;를 대체합니다.
+1. (선택 사항) 요금 카드 세부 정보 화면에서 [!UICONTROL **설명**].
+1. (선택 사항) 사용자 정의 양식을 요율 카드에 첨부하려면 [!UICONTROL **사용자 정의 양식 추가**] 오른쪽 위 모서리에 있는 필드를 클릭하고 표시되는 목록에서 사용자 정의 양식을 선택합니다.
+
+   사용자 정의 양식을 첨부하는 방법에 대한 자세한 내용은 [오브젝트에 사용자 정의 양식 추가](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+
+1. 클릭 [!UICONTROL **작업 역할 및 비율**] 을 클릭합니다.
+1. 비율 카드 작업 역할 및 비율 화면에서 다음을 클릭합니다 [!UICONTROL **작업 역할 추가**].
 1. 대화 상자에서 [!UICONTROL **작업 역할**] 에 대한 청구 요율을 정의합니다.
 
    기본 청구 요금이 정의된 경우 이 작업 역할에 대한 시스템 레벨 요금을 표시합니다.
@@ -82,7 +88,7 @@ ht-degree: 0%
 
 1. [!UICONTROL **저장**]&#x200B;을 클릭합니다.
 1. (선택 사항) 다른 위치의 동일한 작업 역할이나 별도의 작업 역할에 대해 다른 청구 요금을 추가하려면 [!UICONTROL **작업 역할 추가**].
-1. (선택 사항) 청구 요금을 편집하려면 요금 카드에서 요금을 선택하고 **편집** 아이콘.
+1. (선택 사항) 비율 카드를 편집하려면 설정의 비율 카드 목록에서 비율 카드 이름을 클릭합니다. 청구 요금을 편집하려면 다음을 클릭하십시오. [!UICONTROL **작업 역할 및 비율**] (요금 카드의 왼쪽 탐색 패널) 그런 다음 비율을 선택하고 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png).
 
 ## 요금 카드 복사
 
@@ -90,8 +96,9 @@ ht-degree: 0%
 
 1. 왼쪽 패널에서 [!UICONTROL **카드 평가**].
 1. 목록에서 요금 카드 옆에 있는 확인란을 선택하고 **복사** 아이콘 ![복사 아이콘](assets/copy-icon.png).
+1. 요금 카드의 이름을 입력하십시오. [!UICONTROL 요금 카드 복사] &quot;제목 없는 등급 카드&quot;를 대체합니다. 그런 다음 을 클릭합니다. **저장**.
 
-   중복 요금 카드가 추가되었습니다. 목록에서 요금 카드 이름을 클릭하여 이름을 변경합니다.
+   새 요금 카드가 저장되었습니다. 필요에 따라 비율 카드 세부 정보, 작업 역할 및 비율을 편집합니다.
 
 ## 전체 요금 카드 삭제
 
