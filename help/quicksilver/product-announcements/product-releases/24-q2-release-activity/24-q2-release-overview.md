@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: 87e4676e45dd174c6abb2b1edc646d34d43af169
+source-git-commit: d463a3878552f926c4b5a5c87e0f87764e60c60d
 workflow-type: tm+mt
-source-wordcount: '2108'
+source-wordcount: '2167'
 ht-degree: 0%
 
 ---
@@ -297,6 +297,41 @@ ht-degree: 0%
                             </li>
                             <li>
                                 <p>분기별 릴리스 프로덕션: 24.4 릴리스 포함(2024년 4월 11일)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+### 통합 개선 사항
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">기능</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">릴리스 날짜</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager 통합에서 자동 폴더 생성 워크플로 개선 사항</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <p>Adobe Experience Manager 폴더가 요구 사항을 보다 정확하게 반영할 수 있도록 Adobe Experience Manager 연결 폴더 워크플로에 대한 몇 가지 업데이트를 수행했습니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2024년 3월 11일</p>
+                            </li>
+                            <li>
+                                <p>모든 고객을 위한 프로덕션: 2024년 3월 14일</p>
                             </li>
                         </ul>
                     </td>
@@ -595,11 +630,11 @@ Workfront Fusion의 새로운 기능은 2024년 2분기 릴리스 일정 이외�
 
 릴리스의 현재 시점에는 Workfront 목표 업데이트가 없습니다. 업데이트를 사용할 수 있으면 이 영역이 업데이트됩니다.
 
-### API 버전 16
+### API 버전 18
 
-API 버전 16의 경우 일부 리소스 및 끝점을 수정했습니다. 일부 변경 사항은 새로운 기능을 지원하며, 다른 변경 사항을 통해 API를 통해 사용 가능한 정보를 보다 쉽게 사용할 수 있습니다.
+API 버전 18의 경우 일부 리소스 및 끝점을 수정했습니다. 일부 변경 사항은 새로운 기능을 지원하며, 다른 변경 사항을 통해 API를 통해 사용 가능한 정보를 보다 쉽게 사용할 수 있습니다.
 
-새로운 기능 및 업데이트 사항에 대한 자세한 내용은 [API 버전 16의 새로운 기능](/help/quicksilver/wf-api/api/new-api-version-16.md).
+새로운 기능 및 업데이트 사항에 대한 자세한 내용은 [API 버전 18의 새로운 기능](/help/quicksilver/wf-api/api/new-api-version-18.md).
 
 API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
