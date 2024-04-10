@@ -8,7 +8,7 @@ description: Adobe Workfront Fusion에는 Adobe Workfront 라이센스 외에 Ad
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: 370743780e5be419eb6a8c432619e5d76acfbfce
+source-git-commit: 00ef33666bebe434739056cb38c3dff24285d682
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 1%
@@ -76,3 +76,4 @@ Workfront Fusion은 Chrome 기반 브라우저만 지원합니다.
 ## 재시도
 
 Break 모듈을 사용하고 Retry 지시문을 지정할 때 시나리오가 2분 기간 내에 10번 연속적으로 실패하면 시나리오가 자동으로 비활성화됩니다.
+
