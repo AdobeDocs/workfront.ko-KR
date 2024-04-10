@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 10967c222cdcbfc426260af491f5e6f5b9b81a76
+source-git-commit: fffe92bc21104e297bc9dfcbc399c34b011e3927
 workflow-type: tm+mt
-source-wordcount: '14102'
+source-wordcount: '14108'
 ht-degree: 1%
 
 ---
@@ -2642,6 +2642,7 @@ ht-degree: 1%
       * [JWT 플로우를 사용하여 조직의 사용자 지정 OAuth 2 애플리케이션 구성 및 사용](wf-api/api/oauth-app-jwt-flow.md)
       * [PKCE 플로우를 사용하여 조직의 사용자 정의 OAuth 2 애플리케이션 구성 및 사용](wf-api/api/oauth-app-pkce-flow.md)
       * [API 내부 사용 중단](wf-api/api/deprecation-api-internal.md)
+      * [API 버전 18의 새로운 기능](wf-api/api/new-api-version-18.md)
       * [API 버전 17의 새로운 기능](wf-api/api/new-api-version-17.md)
       * [API 버전 16의 새로운 기능](wf-api/api/new-api-version-16.md)
       * [API 버전 15의 새로운 기능](wf-api/api/new-api-version-15.md)
@@ -2698,7 +2699,7 @@ ht-degree: 1%
       * [범주](wf-api/wf-objects/category.md)
    * Adobe Workfront API에 대한 팁, 요령 및 문제 해결 {#tips-troubleshooting-apis}
       * [Adobe Workfront API에 대한 팁, 요령 및 문제 해결](wf-api/tips-tricks-and-troubleshooting/tips-troubleshoot-api.md)
-      * [Adobe Workfront API 호출에 대한 도메인 형식](wf-api/tips-tricks-and-troubleshooting/locate-domain-for-API.md)
+      * [Adobe Workfront API 호출에 대한 도메인 형식](wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md)
       * [API 오류: &quot;원격 서버에서 오류를 반환했습니다. (400) 잘못된 요청&quot;](wf-api/tips-tricks-and-troubleshooting/api-error-remote-server.md)
       * [페이지가 매겨진 대규모 검색 중 중복이 반환됨](wf-api/tips-tricks-and-troubleshooting/duplicates-paginated-search.md)
       * [API에서 쿼리 결과 정렬](wf-api/tips-tricks-and-troubleshooting/query-sort-api.md)

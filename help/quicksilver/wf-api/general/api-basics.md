@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 78584b3e774af77d291ea99327c344fdb4e28709
+source-git-commit: fffe92bc21104e297bc9dfcbc399c34b011e3927
 workflow-type: tm+mt
 source-wordcount: '4386'
 ht-degree: 0%
@@ -37,7 +37,7 @@ API의 모든 사용은 프로덕션 환경에서 실행하기 전에 Workfront 
 
 ## WORKFRONT API URL
 
-Workfront API를 호출하는 데 사용할 URL에 대한 자세한 내용은 [Adobe Workfront API 호출에 대한 도메인 형식](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-API.md).
+Workfront API를 호출하는 데 사용할 URL에 대한 자세한 내용은 [Adobe Workfront API 호출에 대한 도메인 형식](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md).
 
 ## REST 기본 사항
 
