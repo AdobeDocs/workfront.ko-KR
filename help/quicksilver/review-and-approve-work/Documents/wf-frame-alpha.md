@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: 10967c222cdcbfc426260af491f5e6f5b9b81a76
+source-git-commit: f3c724135ae7fa0406f178b10cb0828f978805b7
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '560'
 ht-degree: 1%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 1%
 # Beta 프로그램 - Workfront + Frame.io
 
 Workfront + Frame.io용 베타 프로그램의 출시를 발표하게 되어 기쁘게 생각합니다. 여기에서는 최신 Beta 릴리스와 간단한 비디오 연습에 대한 정보를 찾아 시작할 수 있습니다.
+
+이 Beta에 참여하려면 제품 팀에서 활성화해야 합니다. 고객 성공 또는 계정 관리자에게 문의하여 추가를 요청하십시오.
 
 ## Frame.io의 베타 릴리스 업데이트 - 2024년 3월
 
