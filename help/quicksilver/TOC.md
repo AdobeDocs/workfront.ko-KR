@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 0b40f44929dc8ec01e97f88ddacbbf7bf111775c
+source-git-commit: cd0d3a0651faf76592efdae93a0df7c921a283e7
 workflow-type: tm+mt
-source-wordcount: '14151'
+source-wordcount: '14153'
 ht-degree: 1%
 
 ---
@@ -2262,6 +2262,7 @@ ht-degree: 1%
       * [이미지 모듈](workfront-fusion/apps-and-their-modules/image-module.md)
       * [Jira 소프트웨어 모듈](workfront-fusion/apps-and-their-modules/jira-software-modules.md)
       * [JSON 모듈](workfront-fusion/apps-and-their-modules/json-modules.md)
+      * [JWT 모듈](workfront-fusion/apps-and-their-modules/jwt-modules.md)
       * [MariaDB 모듈](workfront-fusion/apps-and-their-modules/mariadb-modules.md)
       * [Markdown 모듈](workfront-fusion/apps-and-their-modules/markdown-modules.md)
       * [Marketo 모듈](workfront-fusion/apps-and-their-modules/marketo-modules.md)
