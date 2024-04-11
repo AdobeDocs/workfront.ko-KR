@@ -6,9 +6,9 @@ description: 리소스 관리자는 사용자에게 작업을 할당하고 업�
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '2859'
+source-wordcount: '2798'
 ht-degree: 0%
 
 ---
@@ -16,12 +16,6 @@ ht-degree: 0%
 # 업무 균형자에서 사용자 할당 관리
 
 <!-- Audited: 01/2024 -->
-
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리보기 환경 또는 빠른 릴리스를 활성화한 고객의 프로덕션 환경에서만 사용할 수 있습니다.</span>
-
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 활성화 또는 비활성화](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">현재 릴리스에 대한 자세한 내용은 [2024년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 리소스 관리자는 사용자에게 작업을 할당하고 업무 균형자에서 일별, 주별 또는 월별 할당을 관리하여 사용 가능한 일정에 맞는 시간을 할당할 수 있습니다.
 
@@ -259,7 +253,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-><span class="preview">작업 항목 이름 오른쪽에 연필 아이콘이 표시되어 수동으로 조정되었음을 나타냅니다.</span>
+>작업 항목 이름 오른쪽에 연필 아이콘이 표시되어 수동으로 조정되었음을 나타냅니다.
 
 ![수동으로 조정된 시간 아이콘](assets/icon-for-manually-adjusted-hours.png)
 

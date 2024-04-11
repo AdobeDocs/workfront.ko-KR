@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: ae774e73-9798-40d1-a96d-a4511f729e7f
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
 
 # 기존 양식 빌더와 사용자 정의 필드 및 위젯에 대한 공유 구성
-
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리보기 환경 또는 빠른 릴리스를 활성화한 고객의 프로덕션 환경에서만 사용할 수 있습니다.</span>
-
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 활성화 또는 비활성화](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">현재 릴리스에 대한 자세한 내용은 [2024년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 기본적으로 사용자 정의 양식에 새 사용자 정의 필드 또는 위젯을 추가하면 사용자 정의 양식에 대한 액세스 권한이 있는 시스템의 모든 사용자가 해당 항목에 대한 레이블 및 이름과 같은 속성을 편집할 수 있습니다. 공유할 수 있는 사용자를 제어하여 변경할 수 있습니다.
 
@@ -63,11 +57,11 @@ ht-degree: 0%
 1. 조직의 Workfront 인스턴스에서 사용자 정의 필드 또는 위젯에 대한 공유를 구성하는 경우 다음을 수행합니다.
 
    1. 클릭 **필드** 필드 영역을 엽니다.
-   1. 공유를 구성할 항목을 선택하고 **공유** <span class="preview">또는 ![공유 아이콘](assets/share-icon.png).</span>
+   1. 공유를 구성할 항목을 선택하고 ![공유 아이콘](assets/share-icon.png).
 
    또는 기존 사용자 정의 양식의 사용자 정의 필드 또는 위젯에 대한 공유를 구성하는 경우 다음을 수행합니다.
 
-   1. 사용자 정의 양식을 선택한 다음 **편집** <span class="preview">또는 ![편집 아이콘](assets/edit-icon.png).</span>
+   1. 사용자 정의 양식을 선택한 다음 ![편집 아이콘](assets/edit-icon.png).
    1. 오른쪽의 양식 편집 영역에서 공유를 구성할 항목을 선택합니다.
    1. 왼쪽 패널에서 **필드 공유**.
 
@@ -131,7 +125,7 @@ ht-degree: 0%
 1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 상단에서 을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png).
 
 1. 왼쪽 패널에서 **사용자 지정 Forms**.
-1. 다음을 클릭합니다. **필드** 그런 다음 필드, 이미지 또는 액세스 위젯을 선택합니다.
+1. 클릭 **필드**&#x200B;을 선택한 다음 필드, 이미지 또는 액세스 위젯을 선택합니다.
 1. 표시되는 상자에서 **상속된 권한** 표시되는 이름을 봅니다.
 1. 클릭 **취소**.
 

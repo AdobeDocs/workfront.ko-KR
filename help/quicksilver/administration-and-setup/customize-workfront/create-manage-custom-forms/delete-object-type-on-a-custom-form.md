@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: ca6565c4-3d9e-4a11-a7b6-fce701923bf2
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
 
 # 사용자 정의 양식의 오브젝트 유형 삭제
-
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리보기 환경 또는 빠른 릴리스를 활성화한 고객의 프로덕션 환경에서만 사용할 수 있습니다.</span>
-
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 활성화 또는 비활성화](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">현재 릴리스에 대한 자세한 내용은 [2024년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 기존 사용자 정의 양식에서 해당 양식과 연결된 오브젝트 유형을 삭제할 수 있습니다. 이 작업을 수행하면 사용자는 더 이상 해당 유형의 오브젝트에 양식을 첨부할 수 없습니다.
 
@@ -68,7 +62,7 @@ ht-degree: 0%
 {{step-1-to-setup}}
 
 1. 클릭 **사용자 지정 Forms** 왼쪽 패널에서
-1. 편집할 사용자 정의 양식을 선택한 다음 **편집** <span class="preview">또는 ![편집 아이콘](assets/edit-icon.png).</span>
+1. 편집할 사용자 정의 양식을 선택한 다음 ![편집 아이콘](assets/edit-icon.png).
 1. 다음 중 하나에서 X를 클릭합니다. **오브젝트 유형** 양식에서 삭제할 항목을 클릭한 다음 **삭제** 경고 메시지가 표시됩니다.
 
    ![](assets/click-x-object-types.jpg)

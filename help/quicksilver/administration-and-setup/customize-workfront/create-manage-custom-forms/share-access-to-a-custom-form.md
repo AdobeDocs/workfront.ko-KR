@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 0%
+source-wordcount: '844'
+ht-degree: 1%
 
 ---
 
 # 사용자 정의 양식 공유
-
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리보기 환경 또는 빠른 릴리스를 활성화한 고객의 프로덕션 환경에서만 사용할 수 있습니다.</span>
-
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 활성화 또는 비활성화](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">현재 릴리스에 대한 자세한 내용은 [2024년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 사용자 정의 양식에 대한 액세스 권한을 구성하여 사용자 정의 양식을 보고, 공유하고, 편집할 수 있는 사용자(개인, 역할, 그룹, 팀, 회사)를 제어할 수 있습니다.
 
@@ -69,7 +63,7 @@ ht-degree: 0%
 {{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **사용자 지정 Forms**.
-1. 사용자 정의 양식을 선택한 다음 **공유** <span class="preview">또는 ![공유 아이콘](assets/share-icon.png).</span>
+1. 사용자 정의 양식을 선택한 다음 ![공유 아이콘](assets/share-icon.png).
 1. 표시되는 상자에서 **사용자 정의 양식 액세스 권한 부여 대상**&#x200B;사용자 정의 양식을 공유할 사용자, 팀, 작업 역할, 그룹 또는 회사의 이름을 입력한 다음 키를 누릅니다 **입력** 이름이 표시되는 경우입니다.
 1. 방금 추가한 사용자, 팀, 작업 역할, 그룹 또는 회사에 대한 액세스를 조정하려면 이름 오른쪽에 있는 드롭다운 메뉴를 클릭한 다음 사용 가능한 다음 옵션 중 하나와 고급 설정을 구성합니다.
 
@@ -118,7 +112,7 @@ ht-degree: 0%
 {{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **사용자 지정 Forms**.
-1. 사용자 정의 양식을 선택한 다음 **공유** <span class="preview">또는 ![공유 아이콘](assets/share-icon.png).</span>
+1. 사용자 정의 양식을 선택한 다음 ![공유 아이콘](assets/share-icon.png).
 1. 표시되는 상자에서 양식에 대해 더 이상 특별한 액세스 권한을 보유하지 않으려는 사용자, 팀, 역할, 그룹 또는 회사 이름 오른쪽에 있는 X를 클릭합니다.
 1. (선택 사항) 제거하려는 다른 이름에 대해 이전 단계에서까지 반복합니다.
 1. **저장**&#x200B;을 클릭합니다.

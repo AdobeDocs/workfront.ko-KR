@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 578a8bd5-d93f-4327-bb4f-2c17b91b170a
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
 
 # 양식 디자이너를 사용하여 사본에서 양식 디자인
-
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리보기 환경 또는 빠른 릴리스를 활성화한 고객의 프로덕션 환경에서만 사용할 수 있습니다.</span>
-
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 활성화 또는 비활성화](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">현재 릴리스에 대한 자세한 내용은 [2024년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 기존 양식을 기반으로 하는 새 사용자 정의 양식을 디자인할 수 있습니다. 다른 Workfront 개체에 사용자 정의 양식을 첨부하여 해당 개체에 대한 데이터를 캡처할 수 있습니다.
 
@@ -58,7 +52,7 @@ ht-degree: 0%
 {{step-1-to-setup}}
 
 1. 클릭 **사용자 지정 Forms.**
-1. 새 사용자 정의 양식의 기반으로 사용할 사용자 정의 양식을 선택한 다음 를 클릭합니다 **복사** <span class="preview">또는 ![복사 아이콘](assets/copy-icon.png).</span>
+1. 새 사용자 정의 양식의 기반으로 사용할 사용자 정의 양식을 선택한 다음 를 클릭합니다 ![복사 아이콘](assets/copy-icon.png).
 1. 다음에서 **사용자 정의 양식 복사** 나타나는 상자에 다음 정보를 입력합니다.
 
    <table style="table-layout:auto"> 
@@ -72,20 +66,20 @@ ht-degree: 0%
      <tr> 
       <td role="rowheader"> <p role="rowheader">양식 유형 </p> </td> 
       <td> <p>다음에서 <b>양식 유형</b> 상자에서 사용자 정의 양식을 사용할 객체 유형을 선택하고 제거할 유형 옆의 X를 클릭합니다. 양식과 이미 연결되어 있는 유형은 목록에서 비활성화됩니다.</p> 
-      <p><img src="assets/copy-form-obj-types.png"></p> 
+      <p><img src="assets/copy-form-obj-types-040524.png"></p> 
       <p>양식은 하나 이상의 개체 유형과 연결되어 있어야 합니다.</p> 
       </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 클릭 **양식 복사**.
+1. 클릭 **복사**.
 
    원래 양식에서 계산된 필드가 새 양식에 추가하는 오브젝트 유형과 호환되지 않는 필드를 참조하는 경우, 해당 필드의 계산을 변경하라는 메시지가 표시됩니다.
 
    마찬가지로 원본 양식의 섹션 구분에 대한 액세스 옵션이 새 양식에 추가하는 오브젝트 유형과 호환되지 않으면 옵션을 조정하라는 메시지가 표시됩니다.
 
-1. 방금 복사한 양식을 선택한 다음 **편집** <span class="preview">또는 ![편집 아이콘](assets/edit-icon.png).</span>
+1. 방금 복사한 양식을 선택한 다음 ![편집 아이콘](assets/edit-icon.png).
 1. 다음 섹션에 설명된 대로 양식을 변경합니다. [양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) 문서:
 
    * [다른 사용자 정의 양식에서 이미 사용된 기존 필드 또는 위젯 재사용](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)

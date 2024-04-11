@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 2d4d104a-1465-43e2-8184-83dd63d9681c
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
 
 # 개체를 변환할 때 사용자 정의 양식 데이터 전송
-
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리보기 환경 또는 빠른 릴리스를 활성화한 고객의 프로덕션 환경에서만 사용할 수 있습니다.</span>
-
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 활성화 또는 비활성화](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">현재 릴리스에 대한 자세한 내용은 [2024년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 조직의 비즈니스 요구 사항에 따라 작업 또는 문제에 정의된 작업이 너무 커져 작업 또는 문제 내에서 관리할 수 없습니다. 이 경우 더 큰 작업 항목으로 변환할 수 있습니다.
 
@@ -65,7 +59,7 @@ ht-degree: 0%
 {{step-1-to-setup}}
 
 1. 클릭 **사용자 지정 Forms**.
-1. 필요한 양식을 찾은 다음 을 클릭합니다. **편집** <span class="preview">또는 ![편집 아이콘](assets/edit-icon.png).</span>
+1. 필요한 양식을 찾은 다음 을 클릭합니다. ![편집 아이콘](assets/edit-icon.png).
 1. 양식 맨 위에서 작업 또는 문제를 전환하려는 개체를 추가합니다.
 
    >[!INFO]

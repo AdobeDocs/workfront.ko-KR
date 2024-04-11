@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8c49c2c8-4056-46a2-9ede-efb91ff237e5
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
 
 # 양식 디자이너를 사용하여 사용자 정의 양식 이름 바꾸기
-
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리보기 환경 또는 빠른 릴리스를 활성화한 고객의 프로덕션 환경에서만 사용할 수 있습니다.</span>
-
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 활성화 또는 비활성화](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">현재 릴리스에 대한 자세한 내용은 [2024년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 양식 디자이너를 사용하여 사용자 정의 양식을 만든 후 언제든지 이름을 바꿀 수 있습니다.
 
@@ -61,7 +55,7 @@ ht-degree: 0%
 
    표시되는 보기에서 조직에 대해 만들어진 모든 사용자 정의 양식을 검토할 수 있습니다. 각 양식을 만든 사용자, 양식 작성자가 작동하는 객체 유형 및 양식 활성화 여부도 확인할 수 있습니다.
 
-1. 이름을 바꿀 사용자 정의 양식을 선택한 다음 **편집** <span class="preview">또는 ![편집 아이콘](assets/edit-icon2.png).</span>
+1. 이름을 바꿀 사용자 정의 양식을 선택한 다음 또는 을 클릭합니다 ![편집 아이콘](assets/edit-icon2.png).
 1. 제목을 변경하려면 양식 이름을 클릭합니다.
 1. 설명을 변경하려면 설명 텍스트 상자를 클릭합니다.
 

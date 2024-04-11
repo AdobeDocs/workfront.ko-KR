@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5712e82d-bd1d-4d8a-9a2a-1e19b562b9d1
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
@@ -19,13 +19,7 @@ ht-degree: 0%
 
 <!--Audited: 01/2024-->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리보기 환경 또는 빠른 릴리스를 활성화한 고객의 프로덕션 환경에서만 사용할 수 있습니다.</span>
-
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 활성화 또는 비활성화](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">현재 릴리스에 대한 자세한 내용은 [2024년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
-
-새 사용자 정의 양식을 만들거나 편집할 수 있습니다. 두 작업은 이 문서에 설명되어 있습니다.
+새 사용자 정의 양식을 만들거나 기존 양식을 편집할 수 있습니다. 두 작업은 이 문서에 설명되어 있습니다.
 
 기존 양식에서 새 사용자 정의 양식을 만드는 방법에 대한 자세한 내용은 [기존 양식 빌더로 새 양식을 만들려면 사용자 정의 양식을 복사하십시오.](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md).
 
@@ -116,7 +110,7 @@ ht-degree: 0%
 
    사용자 정의 양식이 목록에 표시됩니다. 조직에 대해 만들어진 모든 사용자 정의 양식 및 사용자 정의 필드를 검토할 수 있습니다. 각 양식을 작성한 사용자, 양식 작성과 연관된 객체 및 양식 작성의 활성 여부도 확인할 수 있습니다.
 
-1. 편집할 사용자 정의 양식을 선택한 다음 **편집** <span class="preview">또는 ![편집 아이콘](assets/edit-icon.png).</span>
+1. 편집할 사용자 정의 양식을 선택한 다음 ![편집 아이콘](assets/edit-icon.png).
 1. (선택 사항) 사용자 정의 양식의 제목과 설명을 변경하려면 **양식 설정** 탭을 클릭한 다음 a를 입력합니다 **양식 제목** 및 **설명**.
 
 1. (선택 사항) 더 많은 오브젝트에 첨부할 수 있도록 양식에 더 많은 오브젝트 유형을 추가하려면 다음 더하기 기호 + 를 클릭합니다 **오브젝트 유형**&#x200B;을 클릭한 다음 표시되는 메뉴에서 원하는 유형을 선택합니다.

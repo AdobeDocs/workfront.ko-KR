@@ -9,20 +9,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 946a726e-af88-413c-abe3-55fbc7486380
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
 
 # 기존 빌더로 새 양식을 만들려면 사용자 정의 양식을 복사하십시오.
-
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리보기 환경 또는 빠른 릴리스를 활성화한 고객의 프로덕션 환경에서만 사용할 수 있습니다.</span>
-
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 활성화 또는 비활성화](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">현재 릴리스에 대한 자세한 내용은 [2024년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 기존 양식을 기반으로 하는 새 사용자 정의 양식을 만들 수 있습니다.
 
@@ -59,7 +53,7 @@ ht-degree: 0%
 {{step-1-to-setup}}
 
 1. 클릭 **사용자 지정 Forms.**
-1. 새 사용자 정의 양식의 기반으로 사용할 사용자 정의 양식을 선택한 다음 를 클릭합니다 **복사** <span class="preview">또는 ![복사 아이콘](assets/copy-icon.png).</span>
+1. 새 사용자 정의 양식의 기반으로 사용할 사용자 정의 양식을 선택한 다음 를 클릭합니다 ![복사 아이콘](assets/copy-icon.png).
 1. 다음에서 **사용자 정의 양식 복사** 나타나는 상자에 다음 정보를 입력합니다.
 
    <table style="table-layout:auto"> 
@@ -73,14 +67,14 @@ ht-degree: 0%
      <tr> 
       <td role="rowheader"> <p role="rowheader">양식 유형 </p> </td> 
       <td> <p>다음에서 <b>양식 유형</b> 상자에서 사용자 정의 양식을 사용할 객체 유형을 선택하고 제거할 유형 옆의 X를 클릭합니다. 양식과 이미 연결되어 있는 유형은 목록에서 비활성화됩니다.</p> 
-      <p><img src="assets/copy-form-obj-types.png"></p> 
+      <p><img src="assets/copy-form-obj-types-040524.png"></p> 
       <p>양식은 하나 이상의 개체 유형과 연결되어 있어야 합니다.</p> 
       </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 클릭 **양식 복사**.
+1. 클릭 **복사**.
 
    원래 양식에서 계산된 필드가 새 양식에 추가하는 오브젝트 유형과 호환되지 않는 필드를 참조하는 경우, 해당 필드의 계산을 변경하라는 메시지가 표시됩니다.
 

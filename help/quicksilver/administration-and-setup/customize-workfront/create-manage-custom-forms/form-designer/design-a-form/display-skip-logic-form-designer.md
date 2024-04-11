@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 21b2a8180512f71383a7d5201d62fd9ab166d8ef
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '1366'
+source-wordcount: '1270'
 ht-degree: 0%
 
 ---
 
 # 양식 디자이너를 사용하여 표시 논리 및 건너뛰기 논리 추가
-
-<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리보기 환경 또는 빠른 릴리스를 활성화한 고객의 프로덕션 환경에서만 사용할 수 있습니다.</span>
-
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 활성화 또는 비활성화](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">현재 릴리스에 대한 자세한 내용은 [2024년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 사용자가 양식을 작성할 때 선택한 사항에 따라 사용자 정의 양식의 표시 또는 생략 섹션을 결정할 수 있습니다.
 
@@ -123,10 +117,6 @@ ht-degree: 0%
 
    표시 논리 아이콘이 양식 디자이너의 대상 필드 및 정의 필드에 추가됩니다.
 
->[!NOTE]
->
-><span class="preview">표시 논리는 미리 보기 환경의 양식 디자이너에서 양식을 미리 볼 때만 사용할 수 있습니다.</span>
-
 ## 사용자 정의 양식에 건너뛰기 논리 추가
 
 건너뛰기 논리는 사용자가 다중 선택 필드에서 특정 값을 선택할 때 건너뛰는 사용자 정의 양식 필드를 정의합니다. 건너뛴 필드는 양식에서 숨겨집니다. 로직은 건너뛴 필드가 아니라 선택한 정의 필드에 적용됩니다.
@@ -157,7 +147,4 @@ ht-degree: 0%
 
    건너뛰기 논리 아이콘은 양식 디자이너의 대상 필드 및 정의 필드에 추가됩니다.
 
->[!NOTE]
->
-><span class="preview">건너뛰기 논리는 미리 보기 환경의 양식 디자이너에서 양식을 미리 볼 때만 사용할 수 있습니다.</span>
 
