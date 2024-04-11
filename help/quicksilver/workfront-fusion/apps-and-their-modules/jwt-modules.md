@@ -7,7 +7,7 @@ title: JWT 모듈
 description: 다음 [!DNL Adobe Workfront Fusion] [!UICONTROL JWT] app은 제공된 알고리즘을 기반으로 JWT 토큰을 생성하는 모듈을 제공합니다.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: d4f6f5d4919120e37fb94a23ac834a3896019584
+source-git-commit: 121aef2ee55597fee2e2adc8250dd0651ea86f17
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 0%
@@ -111,4 +111,5 @@ ht-degree: 0%
   </tr> 
  </tbody> 
 </table>
+
 
