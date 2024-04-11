@@ -9,9 +9,9 @@ description: Adobe Workfront Fusion Adobe Workfront 커넥터를 사용하여 Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 5110370fd934ac53e48d5993604d541c73ffdadf
+source-git-commit: ceec745097d14d30a06ec347d836b701766a4f08
 workflow-type: tm+mt
-source-wordcount: '5945'
+source-wordcount: '6207'
 ht-degree: 2%
 
 ---
@@ -814,6 +814,58 @@ ht-degree: 2%
 +++
 
 +++ **[!UICONTROL 검색]**
+
+이 검색 모듈은 의 개체에서 레코드를 찾습니다. [!DNL Workfront] 지정한 검색 쿼리와 일치하는 쿼리입니다.
+
+이 정보는 시나리오의 후속 모듈에 매핑할 수 있습니다.
+
+이 모듈을 구성할 때 다음 필드가 표시됩니다.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+   <td> <p>연결에 대한 자세한 내용 [!DNL Workfront] 앱 대상 [!DNL Workfront Fusion], 참조 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">연결 [!DNL Workfront] 끝 [!DNL Workfront Fusion]</a> 이 문서에서.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL 레코드 유형]</td> 
+   <td> <p>유형 선택 [!DNL Workfront] 모듈에서 검색할 레코드를 기록합니다.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL 결과 집합]</td> 
+   <td>옵션을 선택하여 모듈이 검색 기준과 일치하는 첫 번째 결과를 가져오는지 또는 일치하는 모든 결과를 가져오는지 여부를 지정합니다.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Maximal]</td> 
+   <td> <p>각 시나리오 실행 주기 동안 모듈이 반환할 최대 레코드 수를 입력하거나 매핑합니다.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL 검색 기준 필드]</td> 
+   <td> <p>검색 기준에 사용할 필드를 선택합니다. 그런 다음 검색 기준 드롭다운에서 이러한 필드를 사용할 수 있습니다.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL 검색 기준]</td> 
+   <td> <p>검색할 필드, 쿼리에 사용할 연산자 및 검색할 값을 필드에 입력합니다.</p> <p>참고: 를 사용하지 마십시오 <code>username </code>을 입력합니다. 포함 <code>username </code>API 쿼리에서 [!DNL Workfront] 는 사용자를 Workfront에 로그인하므로 검색이 성공하지 않습니다.</p> <p>참고: <code>In</code> 및 <code>NotIn</code>배열을 사용하여 작업. 입력은 배열 형식이어야 합니다.</p></td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL 출력]</td> 
+   <td> <p>이 모듈의 출력에 포함할 필드를 선택합니다.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL 참조]</td> 
+   <td>검색에 포함할 참조 필드를 선택합니다.</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Collections]</td> 
+   <td>검색에 추가할 컬렉션을 선택합니다.</td> 
+  </tr> 
+ </tbody> 
+</table>
++++
+
++++ **[!UICONTROL 검색(기존)]**
 
 이 검색 모듈은 의 개체에서 레코드를 찾습니다. [!DNL Workfront] 지정한 검색 쿼리와 일치하는 쿼리입니다.
 
