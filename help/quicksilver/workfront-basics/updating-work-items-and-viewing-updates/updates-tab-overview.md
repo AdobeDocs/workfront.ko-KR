@@ -7,10 +7,10 @@ description: 객체의 업데이트 섹션에는 사용자가 객체에 대해 �
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 6dceeeb7803e177ee0f366ee2bc94275ed231722
+source-git-commit: c6575c832fa21a17a1d20fa7e92798d970ca0f50
 workflow-type: tm+mt
-source-wordcount: '1426'
-ht-degree: 3%
+source-wordcount: '912'
+ht-degree: 4%
 
 ---
 
@@ -23,170 +23,172 @@ ht-degree: 3%
 
 <!--info for April 11: hide the disclaimer for preview below-->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리보기 환경 또는 빠른 릴리스를 활성화한 고객의 프로덕션 환경에서만 사용할 수 있습니다. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 활성화 또는 비활성화](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">현재 릴리스 일정에 대한 자세한 내용은 [2024년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+-->
 
 <!--info for April 11: take out the Important box-->
 
 객체의 업데이트 섹션에는 사용자가 객체에 대해 수행하는 설명이나 객체에 대한 변경 사항을 추적하는 시스템 업데이트가 표시됩니다.
 
+<!--
 >[!IMPORTANT]
 >
->현재 Adobe Workfront의 댓글 달기 환경을 다시 디자인하고 있습니다.
+>We are currently redesigning the commenting experience in Adobe Workfront.
 >
->댓글 달기 경험에 액세스하는 객체에 따라 업데이트 섹션에 다음과 같은 기능이 표시될 수 있습니다.
->* 새로운 경험
->* 기존 경험
->* 새로운 및 기존 경험
+>Depending on what objects you access the commenting experience for, you might see the following functionality for the Updates section:
+>* The new experience
+>* The legacy experience
+>* The new and the legacy experience
 >
->새 댓글 달기 경험과 사용 가능 여부에 대한 자세한 내용은 [새 댓글 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
-><Span class="preview"> 이전 댓글 달기 경험이 미리보기 환경의 프로젝트, 작업, 문제 및 문서에서 제거되었습니다. </span>
+><Span class="preview"> The legacy commenting experience has been removed from projects, tasks, issues, and documents in the Preview environment. </span>
 >
->새 댓글 달기 경험은 Workfront 개체의 업데이트 섹션에만 사용할 수 있으며 다음 영역에서 업데이트에 액세스할 때는 사용할 수 없습니다.
+>The new commenting experience is available only for the Updates section of Workfront objects, and it is not available when you access updates from the following areas:
 >
-> * 홈
-> * 목록의 요약 패널
-> * 타임시트의 요약 패널
-> * 업무 균형자의 요약 패널
+> * Home
+> * Summary panel in lists
+> * Summary panel in timesheets 
+> * Summary panel in the Workload Balancer
 >
-><span class="preview">새로운 댓글 달기 환경은 빠른 릴리스 프로세스를 선택한 고객을 위해 미리보기 환경의 목록, 타임시트 및 업무 균형자의 요약 패널과 프로덕션 환경에서 사용할 수 있습니다.
+><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process.
+-->
 
 ## 업데이트 섹션 개요
 
 오브젝트의 업데이트 섹션에는 시스템 업데이트와 지난 90일 이내에 수행한 가장 최근 업데이트 사용자 중 최대 200명이 표시됩니다.
 
-<div class="preview">
-
 ![업데이트 섹션](assets/updates-tab-with-unified-experience-for-issues-all-tab.png)
 
-</div>
+<!--Info for April 11: Add the following right under the screen shot above:-->
 
-<!--Info for April 11: Add the following right under the screen shot above:
+다음 객체에는 주석을 추가하거나 시스템 업데이트를 검토할 수 있는 업데이트 섹션이 있습니다.
 
-The following objects have an Updates section where you can add comments or review system updates: 
-
-* Projects
-* Tasks
-* Issues
-* Programs
-* Portfolios
-* Templates
-* Template tasks
-* Users
-* Timesheets
-* Teams
-* Goals
-* Cards in the Boards area
-* Iterations
--->
+* 프로젝트
+* 작업
+* 문제
+* 프로그램
+* 포트폴리오
+* 템플릿
+* 템플릿 작업
+* 사용자
+* 타임시트
+* 팀
+* 목표
+* 보드 영역의 카드
+* 반복
 
 <!--info for April 11: remove all the information below, all the way down to the following section: -->
 
-댓글 달기 경험에 액세스하는 객체에 따라 업데이트 섹션에 대해 다음 경험을 찾을 수 있습니다.
+<!--
+Depending on what objects you access the commenting experience for, you might find the following experience for the Updates section:
 
-* 다음 개체에 대한 새 댓글 및 이전 댓글 사용 환경:
+* Both the new and legacy commenting experience for the following objects: 
 
-   * 프로젝트
-   * 작업(스토리 포함)
-   * 문제
-   * 문서
+  * Project
+  * Task (this includes Stories)
+  * Issue
+  * Document
 
-     >[!TIP]
-     >
-     >새 주석 달기 옵션을 사용하여 새 주석 달기 경험(활성화할 경우) 또는 기존 주석 달기 경험(비활성화할 경우)을 표시합니다. 새 댓글 달기 환경이 기본값입니다. 자세한 내용은 [새 댓글 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+    >[!TIP]
+    >
+    >Use the New commenting option to display the new commenting experience (when you enable it) or the legacy commenting experience (when you disable it). The new commenting experience is the default. For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 
-* 아래 나열된 객체에 대한 새 댓글 달기 경험만 해당됩니다. 다음 객체에 대한 기존 댓글 달기 환경을 활성화하는 옵션은 없습니다.
+* Only the new commenting experience for the objects listed below. There is no option to enable the legacy commenting experience for these objects:   
 
-   * 목표
+  * Goal
 
-     >[!NOTE]
-     >
-     >이 Workfront 영역에 액세스하려면 Adobe Workfront 목표에 대한 추가 라이선스가 있어야 합니다. 자세한 내용은 [Workfront 목표 사용 요구 사항](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+    >[!NOTE]
+    >
+    >You must have an additional license to Adobe Workfront Goals to be able to access this area of Workfront. For more information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
 
-   * 보드에 있는 카드
-   * 팀
-   * 템플릿
-   * 템플릿 작업
-   * 타임시트
-   * 프로그램
-   * Portfolio
-   * 사용자
+  * Card on a board
+  * Team
+  * Template
+  * Template Task
+  * Timesheet
+  * Program
+  * Portfolio
+  * User
 
-* 다음 개체에 대한 레거시 댓글 달기 환경만 해당:
+* Only the legacy commenting experience for the following objects:
 
-   * 반복
+  * Iterations
 
-     반복에 대한 새 주석 달기 경험을 활성화하는 옵션은 없습니다. 자세한 내용은 [반복 주석 관리](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md).
+    There is no option to enable the new commenting experience for iterations. For more information, see [Manage iteration comments](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md). 
+-->
 
 <!--Info for April 11: reword the section title below to: Overview of the Updates section; and remove the preview tags-->
 
-### 새 댓글 달기 환경의 업데이트 섹션 개요
-
-<div class="preview">
+### 업데이트 섹션 개요 <!--in the new commenting experience-->
 
 ![업데이트 섹션](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
-</div>
-
 <!--info for April 11: remove the NOTE below and any references below to "the new commenting experience". This should be just the ONLY experience. -->
 
+<!--
 >[!NOTE]
 >
->새 주석 달기 경험은 반복에 사용할 수 없습니다.
+>The new commenting experience is not available for iterations.
+-->
 
-* 업데이트 섹션에는 새 댓글 달기 환경의 다음 탭에 정보가 표시됩니다.
+* 업데이트 섹션에는 다음 탭에 정보가 표시됩니다<!-- in the new commenting experience-->:
 
-   * **댓글**: 사용자가 작성한 댓글과 해당 댓글에 대한 답글을 표시합니다. 의견 탭을 사용하여 새 의견을 추가하거나 기존 의견에 회신할 수 있습니다. 새 댓글 달기 환경에서 오브젝트를 업데이트하는 방법에 대한 자세한 내용은 [작업 업데이트](../updating-work-items-and-viewing-updates/update-work.md).
-   * **시스템 활동**: Workfront이 개체에 특정 이벤트를 기록하기 위해 만드는 정보 메시지인 시스템 업데이트를 표시합니다. 예를 들어 상태, 이름 또는 사용자 정의 필드의 변경 사항은 시스템 업데이트와 함께 캡처됩니다. Workfront 또는 그룹 관리자가 개체에 대한 시스템 업데이트를 활성화할 수 있습니다. <span class="preview">기존 댓글 달기 경험의 시스템 활동 레코드에 대한 모든 답글은 시스템 활동 탭에서 읽기 전용으로 채워집니다.</span> 자세한 내용은 [시스템 업데이트 구성](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
-   * <span class="preview">**모두(읽기 전용)**: 사용자 댓글과 시스템 활동 댓글을 모두 한 곳에 표시합니다. 보기 전용 탭입니다. 모든 탭에서 기존 댓글에 댓글에 답글을 달거나 다른 사용자를 태그 지정할 수 없습니다. 특정 댓글에 회신하려면 모두 탭의 댓글 탭에 있는 링크를 사용합니다. 새 댓글 달기 환경에서 오브젝트를 업데이트하는 방법에 대한 자세한 내용은 [작업 업데이트](../updating-work-items-and-viewing-updates/update-work.md).</span>
+   * **댓글**: 사용자가 작성한 댓글과 해당 댓글에 대한 답글을 표시합니다. 의견 탭을 사용하여 새 의견을 추가하거나 기존 의견에 회신할 수 있습니다. 객체 업데이트에 대한 자세한 내용<!-- in the new commenting experience-->, 참조 [작업 업데이트](../updating-work-items-and-viewing-updates/update-work.md).
+   * **시스템 활동**: Workfront이 개체에 특정 이벤트를 기록하기 위해 만드는 정보 메시지인 시스템 업데이트를 표시합니다. 예를 들어 상태, 이름 또는 사용자 정의 필드의 변경 사항은 시스템 업데이트와 함께 캡처됩니다. Workfront 또는 그룹 관리자가 개체에 대한 시스템 업데이트를 활성화할 수 있습니다. 기존 댓글 달기 경험의 시스템 활동 레코드에 대한 모든 답글은 시스템 활동 탭에서 읽기 전용으로 채워집니다. 자세한 내용은 [시스템 업데이트 구성](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+   * **모두(읽기 전용)**: 사용자 댓글과 시스템 활동 댓글을 모두 한 곳에 표시합니다. 보기 전용 탭입니다. 모든 탭에서 기존 댓글에 댓글에 답글을 달거나 다른 사용자를 태그 지정할 수 없습니다. 특정 댓글에 회신하려면 모두 탭의 댓글 탭에 있는 링크를 사용합니다. 객체 업데이트에 대한 자세한 내용<!-- in the new commenting experience-->, 참조 [작업 업데이트](../updating-work-items-and-viewing-updates/update-work.md).
 
-* 다음 개체에는 시스템 활동 탭이 없습니다. <span class="preview">또는 모든 탭:</span>
+* 다음 개체에는 시스템 활동 탭이나 모두 탭이 없습니다.
 
    * 팀
    * 템플릿
    * 템플릿 작업
    * 임시 카드
+   * 반복
 
      카드 업데이트에 대한 자세한 내용은 [보드에 애드혹 카드 추가](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
 
-* 다음 개체에는 <span class="preview">모든 탭:</span>
+     반복 업데이트에 대한 자세한 내용은 [반복 주석 관리](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md).
+
+* 다음 객체에는 모두 탭이 없습니다.
 
    * 목표
 
      목표에 대한 업데이트에 대한 자세한 내용은 다음을 참조하십시오. [목표 댓글 관리](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
 
 <!--info for April 11: make the text below live - remove the commented out brackets: 
+NOTE FROM LISA: I added this info above, because there was already a list of items without a System Activity or All tab.
 
 * The following objects don't have a System Activity or an All tab: 
 
   * Iterations
 
-    For more information about updates on iterations, see [Manage iteration comments](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md). 
-
--->
+    For more information about updates on iterations, see [Manage iteration comments](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md). -->
 
 <!-- info for April 11: hide the entire section below: -->
 
-### 기존 업데이트 섹션의 개요
+<!--
+### Overview of the legacy Updates section 
 
 ![](assets/updates-tab-before-unified-experience-for-tasks.png)
 
-기존 업데이트 섹션에는 다음 정보가 표시됩니다.
+The legacy Updates section shows the following information:
 
-* **사용자 업데이트**: 사용자가 작성한 댓글과 해당 댓글에 대한 답글.
-* **시스템 업데이트**: Workfront이 개체에 특정 이벤트를 기록하기 위해 만드는 정보 메시지입니다. 예를 들어 시스템 업데이트를 통해 상태, 이름 또는 사용자 정의 필드의 변경 사항을 캡처할 수 있습니다. Workfront 또는 그룹 관리자가 개체에 대한 시스템 업데이트를 활성화할 수 있습니다. 자세한 내용은 [시스템 업데이트 구성](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+* **User updates**: Comments made by users and replies to those comments. 
+* **System updates**: Informational messages that Workfront creates to record certain events on an objects. For example, you can capture changes in status, name, or custom fields with system updates. Your Workfront or group administrator can enable system updates for your objects. For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-다음 개체는 시스템 업데이트를 기록하지 않습니다.
+The following objects don't record system updates:
 
-* 팀
-* 템플릿
-* 템플릿 작업
-* 반복
-
+* Team
+* Template
+* Template Task
+* Iterations
+-->
 
 ## 상위 개체에도 표시되는 업데이트
 
@@ -263,13 +265,15 @@ The following objects have an Updates section where you can add comments or revi
 
 <!--info for April 11: hide the note below-->
 
+<!--
 >[!NOTE]
 >
->시스템 업데이트에 추가된 답글은 상위 개체로 롤업되지 않습니다. 하위 개체에 직접 회신과 기존 업데이트에 추가된 회신만 상위 개체에 롤업됩니다.
+>Replies added to system updates do not roll up to the parent object. Only direct replies on a child object and replies added to existing updates roll up to parent objects.
 >
->Adobe Workfront의 개체 계층에 대한 자세한 내용은 [Adobe Workfront의 오브젝트 이해](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+>For information about the object hierarchy in Adobe Workfront, see [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 >
-> 새 댓글 달기 환경에서 시스템 업데이트에 회신할 수 없습니다. 자세한 내용은 [새 댓글 달기 환경](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+> It is not possible to reply to system updates in the new commenting experience. For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+-->
 
 
 ## 업데이트 섹션의 제한 사항
