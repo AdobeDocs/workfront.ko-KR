@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 5d84d50b8984bbff7bbc02ffc0ce86ec1f486742
+source-git-commit: 53194c44b55f5441323672425106d8df4c7cc508
 workflow-type: tm+mt
-source-wordcount: '915'
-ht-degree: 1%
+source-wordcount: '927'
+ht-degree: 2%
 
 ---
 
@@ -98,6 +98,15 @@ ht-degree: 1%
 | 리소스 풀(RSPL) | 리소스 풀 |
 
 \* 현재 사용할 수 없음
+
+>[!NOTE]
+>
+>현재 다음 개체에 대해 덮어쓰기를 사용할 수 있습니다.
+>
+>* 역할
+>* 팀
+>* 회사
+>* 그룹
 
 
 ## 환경 프로모션 상태
