@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8c49c2c8-4056-46a2-9ede-efb91ff237e5
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
+source-git-commit: c19583b5524e2a2e4756920686ff8852032765a6
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 0%
 
    표시되는 보기에서 조직에 대해 만들어진 모든 사용자 정의 양식을 검토할 수 있습니다. 각 양식을 만든 사용자, 양식 작성자가 작동하는 객체 유형 및 양식 활성화 여부도 확인할 수 있습니다.
 
-1. 이름을 바꿀 사용자 정의 양식을 선택한 다음 또는 을 클릭합니다 ![편집 아이콘](assets/edit-icon2.png).
+1. 이름을 바꿀 사용자 정의 양식을 선택한 다음 ![편집 아이콘](assets/edit-icon2.png).
 1. 제목을 변경하려면 양식 이름을 클릭합니다.
 1. 설명을 변경하려면 설명 텍스트 상자를 클릭합니다.
 
