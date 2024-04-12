@@ -7,10 +7,10 @@ description: 객체의 업데이트 섹션에는 사용자가 객체에 대해 �
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: c6575c832fa21a17a1d20fa7e92798d970ca0f50
+source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 4%
+source-wordcount: '985'
+ht-degree: 5%
 
 ---
 
@@ -19,9 +19,6 @@ ht-degree: 4%
 
 <!-- Audited: 1/2024 -->
 
-<!--info for April 11: take "legacy" and "new commenting" and "production" or "preview" references out when we remove the legacy-->
-
-<!--info for April 11: hide the disclaimer for preview below-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
@@ -30,8 +27,6 @@ ht-degree: 4%
 
 <span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 -->
-
-<!--info for April 11: take out the Important box-->
 
 객체의 업데이트 섹션에는 사용자가 객체에 대해 수행하는 설명이나 객체에 대한 변경 사항을 추적하는 시스템 업데이트가 표시됩니다.
 
@@ -125,50 +120,45 @@ Depending on what objects you access the commenting experience for, you might fi
 
 <!--Info for April 11: reword the section title below to: Overview of the Updates section; and remove the preview tags-->
 
-### 업데이트 섹션 개요 <!--in the new commenting experience-->
+### 업데이트 섹션 개요
 
 ![업데이트 섹션](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
-<!--info for April 11: remove the NOTE below and any references below to "the new commenting experience". This should be just the ONLY experience. -->
+* 업데이트 섹션은 다음 탭에 정보를 표시합니다.
 
-<!--
->[!NOTE]
->
->The new commenting experience is not available for iterations.
--->
-
-* 업데이트 섹션에는 다음 탭에 정보가 표시됩니다<!-- in the new commenting experience-->:
-
-   * **댓글**: 사용자가 작성한 댓글과 해당 댓글에 대한 답글을 표시합니다. 의견 탭을 사용하여 새 의견을 추가하거나 기존 의견에 회신할 수 있습니다. 객체 업데이트에 대한 자세한 내용<!-- in the new commenting experience-->, 참조 [작업 업데이트](../updating-work-items-and-viewing-updates/update-work.md).
+   * **댓글**: 사용자가 작성한 댓글과 해당 댓글에 대한 답글을 표시합니다. 의견 탭을 사용하여 새 의견을 추가하거나 기존 의견에 회신할 수 있습니다. 객체 업데이트에 대한 자세한 내용은 [작업 업데이트](../updating-work-items-and-viewing-updates/update-work.md).
    * **시스템 활동**: Workfront이 개체에 특정 이벤트를 기록하기 위해 만드는 정보 메시지인 시스템 업데이트를 표시합니다. 예를 들어 상태, 이름 또는 사용자 정의 필드의 변경 사항은 시스템 업데이트와 함께 캡처됩니다. Workfront 또는 그룹 관리자가 개체에 대한 시스템 업데이트를 활성화할 수 있습니다. 기존 댓글 달기 경험의 시스템 활동 레코드에 대한 모든 답글은 시스템 활동 탭에서 읽기 전용으로 채워집니다. 자세한 내용은 [시스템 업데이트 구성](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
-   * **모두(읽기 전용)**: 사용자 댓글과 시스템 활동 댓글을 모두 한 곳에 표시합니다. 보기 전용 탭입니다. 모든 탭에서 기존 댓글에 댓글에 답글을 달거나 다른 사용자를 태그 지정할 수 없습니다. 특정 댓글에 회신하려면 모두 탭의 댓글 탭에 있는 링크를 사용합니다. 객체 업데이트에 대한 자세한 내용<!-- in the new commenting experience-->, 참조 [작업 업데이트](../updating-work-items-and-viewing-updates/update-work.md).
+   * **모두(읽기 전용)**: 사용자 댓글과 시스템 활동 댓글을 모두 한 곳에 표시합니다. 보기 전용 탭입니다. 모든 탭에서 기존 댓글에 댓글에 답글을 달거나 다른 사용자를 태그 지정할 수 없습니다. 특정 댓글에 회신하려면 모두 탭의 댓글 탭에 있는 링크를 사용합니다. 객체 업데이트에 대한 자세한 내용은 [작업 업데이트](../updating-work-items-and-viewing-updates/update-work.md).
 
-* 다음 개체에는 시스템 활동 탭이나 모두 탭이 없습니다.
+* 다음 오브젝트는 업데이트 섹션의 세 탭 모두에서 비슷한 경험을 제공합니다.
+
+   * 프로젝트
+   * 작업
+   * 문제
+   * 프로그램
+   * 포트폴리오
+   * 사용자
+   * 타임시트
+
+* 다음 개체에는 시스템 활동 탭이나 모두 탭이 없고 설명 탭의 경험은 다른 모든 개체의 경험과 일치합니다.
 
    * 팀
    * 템플릿
    * 템플릿 작업
+
+* 다음 개체에는 시스템 활동 탭이나 모두 탭이 없으며, 설명 탭의 경험은 다른 모든 개체의 경험과 다릅니다.
    * 임시 카드
-   * 반복
 
      카드 업데이트에 대한 자세한 내용은 [보드에 애드혹 카드 추가](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
+   * 반복
 
      반복 업데이트에 대한 자세한 내용은 [반복 주석 관리](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md).
 
-* 다음 객체에는 모두 탭이 없습니다.
+* 다음 객체에는 모두 탭이 없고 주석 탭의 경험은 대부분의 객체와 일치합니다.
 
    * 목표
 
      목표에 대한 업데이트에 대한 자세한 내용은 다음을 참조하십시오. [목표 댓글 관리](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
-
-<!--info for April 11: make the text below live - remove the commented out brackets: 
-NOTE FROM LISA: I added this info above, because there was already a list of items without a System Activity or All tab.
-
-* The following objects don't have a System Activity or an All tab: 
-
-  * Iterations
-
-    For more information about updates on iterations, see [Manage iteration comments](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md). -->
 
 <!-- info for April 11: hide the entire section below: -->
 

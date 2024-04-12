@@ -7,10 +7,10 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
-source-git-commit: 3ec1b40ec66b7fa043412203b6c0303a27eb8bfc
+source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
-source-wordcount: '1874'
-ht-degree: 2%
+source-wordcount: '1867'
+ht-degree: 0%
 
 ---
 
@@ -29,31 +29,11 @@ ht-degree: 2%
 >
 >이 문서의 정보는 새 댓글 달기 경험을 위해 베타 단계 동안 릴리스된 기능을 참조합니다.
 >
->새로운 댓글 달기 경험을 위한 베타 프로그램은 2023년 4월에 시작하여 2023년 10월에 종료되었습니다.
->
->베타 기간 동안 릴리스된 기능은 베타 프로그램이 종료되는 2023년 4분기 릴리스(2023년 10월)부터 모든 고객이 사용할 수 있습니다.
+>새로운 댓글 달기 경험을 위한 베타 프로그램은 2023년 4월에 시작되어 2023년 10월에 종료되었으며, 2023년 10월 릴리스되었습니다.
 > 
-><br>자세한 내용은 다음 문서를 참조하십시오. </br>
+>자세한 내용은 [새 댓글 달기 환경](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->* 새 경험 베타 기간 동안 릴리스된 기능에 대한 자세한 내용은 다음을 참조하십시오. [새 댓글 달기 환경](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
->
->* 새 댓글 달기 경험 Beta 프로그램이 종료된 후 댓글 달기 경험을 위해 릴리스된 기능에 대한 자세한 내용은 현재 릴리스 개요 페이지를 참조하십시오.
-
-<!--
- This page contains information about the release timeline for the new commenting experience which is currently ongoing in Adobe Workfront. 
-
-For general information on the new commenting experience, including a list of features that are currently available or in research, see [New commenting experience](../new-commenting-experience-beta/unified-commenting-experience.md). 
-
-
->[!IMPORTANT]
->
->The new commenting experience launched in Beta with the 23.2 release. For information about the original release, see [23.2 Release overview](../../product-releases/23.2-release-activity/23-2-release-overview.md). 
->
->Features that are released to the Workfront objects that support the beta commenting experience are also released to the Updates section of the following objects as the only commenting experience: 
->* Goals
->* Cards in the Boards area. 
-
--->
+>새로운 댓글 달기 환경에 포함된 모든 기능은 2024년 4월 11일부터 프로덕션 환경의 모든 고객이 사용할 수 있습니다.
 
 ## 새 댓글 달기 경험 위치 및 릴리스 타임라인
 
@@ -69,6 +49,8 @@ For general information on the new commenting experience, including a list of fe
 이제 모든 고객과 모든 환경에서 이 섹션에 설명된 기능을 사용할 수 있습니다.
 
 23.2 릴리스(2023년 4월 6일)와 2023년 4분기 릴리스(2023년 10월 26일) 사이의 Beta 단계에서 주석 달기 환경에 다음 기능이 추가되었습니다.
+
+Beta 프로그램 종료 후 릴리스된 기능은 릴리스 당시 현재 릴리스 페이지에 메시지가 표시되었습니다.
 
 다음 정보는 최신 업데이트부터 시작하여 매주 릴리스 활동을 참조합니다.
 
@@ -333,19 +315,19 @@ Beta 경험에 대한 댓글을 달거나 다음 날짜에 기본적으로 Workf
 
 베타 문제를 댓글로 달고 목표에 대해 다음 유지 보수 업데이트가 릴리스되었습니다.
 
-댓글 수정 시 첨부된 이미지 수정. 자세한 내용은 이 문서의 &quot;4월 27일 유지 보수 업데이트&quot; 섹션을 참조하십시오 <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">2023년 4월 업데이트</a>.
+주석을 편집할 때 첨부된 이미지를 편집합니다. 자세한 내용은 이 문서의 &quot;4월 27일 유지 보수 업데이트&quot; 섹션을 참조하십시오 <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">2023년 4월 업데이트</a>.
 
 ### 2023년 4월 20일
 
 베타 문제를 댓글로 달고 목표에 대해 다음 유지 보수 업데이트가 릴리스되었습니다.
 
-댓글 달기 Beta 경험의 목표 및 문제에 대한 업데이트에서 이동할 때 이미지를 초안으로 유지. 자세한 내용은 이 문서의 &quot;4월 20일 유지 보수 업데이트&quot; 섹션을 참조하십시오 <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">2023년 4월 업데이트</a>.
+목표 및 주석 달기 베타 경험의 문제에 대한 업데이트에서 이동할 때 이미지를 초안으로 유지합니다. 자세한 내용은 이 문서의 &quot;4월 20일 유지 보수 업데이트&quot; 섹션을 참조하십시오 <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">2023년 4월 업데이트</a>.
 
 ### 2023년 4월 17일
 
 베타 문제를 댓글로 달고 목표에 대해 다음 유지 보수 업데이트가 릴리스되었습니다.
 
-문제의 업데이트 섹션(새로운 댓글 달기 Beta 경험)과 목표에서 보이는 화면 영역 외부에 새 댓글이 표시됨. 자세한 내용은 이 문서의 &quot;4월 17일 유지 보수 업데이트&quot; 섹션을 참조하십시오  <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">2023년 4월 업데이트</a>.
+문제(새 댓글 달기 Beta 경험) 및 목표의 업데이트 섹션에서 표시되는 화면 영역 외부에 새 댓글을 표시합니다. 자세한 내용은 이 문서의 &quot;4월 17일 유지 보수 업데이트&quot; 섹션을 참조하십시오  <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">2023년 4월 업데이트</a>.
 
 
 ### 2023년 4월 6일 주

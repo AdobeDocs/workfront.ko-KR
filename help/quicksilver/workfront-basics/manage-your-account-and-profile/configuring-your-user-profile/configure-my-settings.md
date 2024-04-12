@@ -6,9 +6,9 @@ description: '사용자 [!DNL Adobe Workfront] 프로필에는 자신에 대한 
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
-source-wordcount: '3320'
+source-wordcount: '3273'
 ht-degree: 1%
 
 ---
@@ -16,8 +16,6 @@ ht-degree: 1%
 # 내 설정 구성
 
 <!-- Audited: 01/2024 -->
-
-{{highlighted-preview}}
 
 <!--
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Edit the job role FTE percentage allocation blurbs when more functionality is released: now, it says that the % is that of the user's schedule, but it will be either the user's schedule or the system schedule.</p>
@@ -342,14 +340,9 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL 전자 메일 로케일]</strong> </td> 
    <td>여기에서 원하는 언어를 지정하십시오. 발신 전자 메일 메시지에 사용되는 언어, 날짜 및 숫자 형식을 제어합니다.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!UICONTROL 업데이트 상태에서 완료율 표시]</strong> </td> 
-   <td>기존 댓글 달기 환경을 사용할 때 작업의 업데이트 영역 내에 완료율 표시줄을 표시하려면 이 옵션을 선택합니다. 자세한 내용은 <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">새 댓글 달기 환경</a>.
-  <p><span class="preview">이 옵션은 미리보기 환경에서 제거되었습니다.</span></p> 
-   </td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
    <td role="rowheader"><strong>[!UICONTROL 자신에게 할당된 작업을 내 처리 중 탭으로 전송]</strong> </td> 
    <td>[!UICONTROL 작업 요청] 탭 대신 [!UICONTROL 작업 중] 탭에서 직접 자신에게 할당하는 작업을 표시하려면 이 필드를 선택합니다.</td> 
   </tr> 

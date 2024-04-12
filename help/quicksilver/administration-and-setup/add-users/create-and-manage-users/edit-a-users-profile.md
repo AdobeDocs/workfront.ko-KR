@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: c19583b5524e2a2e4756920686ff8852032765a6
+source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
-source-wordcount: '3334'
+source-wordcount: '3287'
 ht-degree: 0%
 
 ---
@@ -113,9 +113,6 @@ Adobe Workfront 관리자는 사용자를 만들고 기존 사용자의 프로�
       <p><b>메모</b></p>
       <p>이 옵션은 미리보기 및 샌드박스 환경에서만 사용할 수 있습니다. 이메일 알림은 기본적으로 프로덕션 환경에서 활성화됩니다. </p>
       </li>
-
-   <li><b>업데이트 상태에 완료율 표시</b>: 기존 댓글 달기 환경을 사용할 때 이 사용자의 작업에 대한 업데이트 영역 내에 완료율 표시줄을 표시하려면 이 옵션을 선택합니다. 자세한 내용은 <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">새 댓글 달기 환경</a>.
-      <p><span class="preview">이 옵션은 미리보기 환경에서 제거되었습니다.</span></p>
 
    </li> 
        <li><b>자신에게 할당한 작업을 내 처리 중 탭으로 전송</b>: 사용자가 자신에게 할당하는 모든 항목이 [홈] 영역의 [작업 중] 목록에 바로 표시되도록 하려면 이 옵션을 선택합니다. 기본값은 홈 영역의 [시작할 준비] 또는 [준비되지 않음] 목록에서 사용자에게 할당된 모든 항목을 나열하는 것입니다.</li> 

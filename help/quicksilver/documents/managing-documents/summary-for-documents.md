@@ -7,18 +7,18 @@ description: 요약을 사용하면 문서 목록에서 직접 중요한 정보�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 2%
+source-wordcount: '394'
+ht-degree: 3%
 
 ---
 
 # 문서에 대한 요약 개요
 
-{{preview-and-fast-release}}
+<!--Audited: April, 2024-->
 
-요약을 사용하면 문서 목록에서 직접 중요한 정보와 상호 작용할 수 있습니다.
+요약 패널을 사용하여 문서 목록에서 직접 중요한 정보에 액세스하고 업데이트할 수 있습니다.
 
 ## 액세스 요구 사항
 
@@ -31,25 +31,27 @@ ht-degree: 2%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
    <td> <p> 임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>요청 이상</p> </td> 
+   <td> <p>새로운 기능: 기여자 이상</p> 
+   <p>현재: 요청 이상</p>
+   </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>문서에 대한 액세스 편집</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>문서에 대한 액세스 편집</p>  </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>문서와 연관된 객체에 대한 액세스 보기</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>문서와 연관된 객체에 대한 액세스 보기</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오. 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 요약 보기 열기
 
@@ -67,7 +69,7 @@ ht-degree: 2%
 * [개요](#overview)
 * [사용자 정의 양식](#custom-forms)
 
-<span class="preview">![](assets/copy-of-doc-summary-details-section-350x404.png)</span>
+![](assets/copy-of-doc-summary-details-section-350x404.png)
 
 ### 개요 {#overview}
 
@@ -79,18 +81,13 @@ ht-degree: 2%
 
 사용자 정의 Forms 섹션을 사용하여 문서와 연결된 모든 사용자 정의 양식을 추가, 편집 또는 볼 수 있습니다. 사용자 정의 양식의 이름을 입력하여 문서에 추가하십시오. 자세한 내용은 [문서에 사용자 정의 양식 추가 또는 편집](../../documents/managing-documents/add-custom-form-documents.md).
 
-<span class="preview">![](assets/add-custom-form-doc-summary-350x265.png)</span>
+![](assets/add-custom-form-doc-summary-350x265.png)
 
 ## 업데이트
 
 업데이트 섹션을 사용하여 문서 또는 증명에 대한 업데이트를 읽습니다. 요약에는 처음 두 개의 주석이 표시됩니다. 업데이트에 대한 자세한 내용은 [증명에 주석 달기](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
 
-<div class="preview">
-
 ![요약 패널의 업데이트 섹션](assets/summary-updates-section-new-comments.png)
-
-</div>
-
 
 ## 승인
 
@@ -101,7 +98,7 @@ ht-degree: 2%
 * [작업 승인](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [문서 승인 요청](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
-<span class="preview">![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)</span>
+![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
 
 ## 버전
 
@@ -113,4 +110,4 @@ ht-degree: 2%
 * 문서 세부 정보로 이동
 * 증명 또는 문서 삭제
 
-<span class="preview">![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)</span>
+![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)

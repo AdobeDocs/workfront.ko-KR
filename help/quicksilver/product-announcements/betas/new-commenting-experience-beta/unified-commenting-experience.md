@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: c6575c832fa21a17a1d20fa7e92798d970ca0f50
+source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1102'
 ht-degree: 0%
 
 ---
@@ -30,19 +30,9 @@ ht-degree: 0%
 >
 >이 문서의 정보는 새로운 댓글 달기 환경에 릴리스된 기능을 참조합니다.
 >
->새로운 댓글 달기 경험을 위한 베타 프로그램은 2023년 4월에 시작하여 2023년 10월에 종료되었습니다. 새로운 댓글 달기 경험을 위한 베타 프로그램은 2023년 10월 릴리스로 종료되었습니다.
+>새로운 댓글 달기 경험을 위한 베타 프로그램은 2023년 4월에 시작되어 2023년 10월에 종료되었으며, 2023년 10월 릴리스되었습니다.
 >
->2023년 10월부터 새로운 댓글 달기 경험을 위한 모든 새로운 기능이 모든 고객에게 릴리스됩니다. 자세한 내용은 각 릴리스의 현재 릴리스 개요 페이지를 참조하십시오.
-
-<!--An update to the commenting experience in Adobe Workfront is currently in development. This update includes a new interface, new features, and improved performance in the Updates section of select objects. 
-
-The new commenting experience will slowly become available for all the objects with an Updates section in Workfront, and later it will expand to other Adobe Experience Cloud applications.-->
-
-<!--For additional resources for the new commenting experience, also see the following articles:
-
-* [New commenting experience release activity](../new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
-* [New commenting experience FAQs](../../betas/new-commenting-experience-beta/new-commenting-faq.md)
--->
+>2024년 4월 11일부터 모든 고객을 위한 프로덕션 환경에서 새로운 댓글 달기 경험을 위한 모든 기능을 사용할 수 있습니다.
 
 ## 기능
 
@@ -561,19 +551,20 @@ Beta 기간이 종료된 후 새 주석 달기 경험을 위해 릴리스된 기
 
 * 2024년 2분기 릴리스(2024년 4월 11일):
 
-   * 기존 댓글 달기 스트림으로 다시 전환하고 새 댓글 달기 스트림을 반복을 제외하고 모든 개체에 대한 유일한 경험으로 만드는 옵션을 제거합니다.
+  기존 댓글 달기 스트림으로 다시 전환하고 새 댓글 달기 스트림을 반복을 제외하고 모든 개체에 대한 유일한 경험으로 만드는 옵션을 제거합니다.
 
 ## 새 댓글 달기 환경 찾기
 
-<!--info for April 11: make this commented out text live and hide everything else underneath it, all the way to the end of the article:-->
+새로운 댓글 달기 환경은 Workfront의 다음 영역에서 사용할 수 있습니다.
 
->[!IMPORTANT]
->
->새 주석 달기 환경은 반복을 제외한 모든 오브젝트의 모든 Workfront 환경에서 사용할 수 있습니다.
->
->프로젝트, 작업, 문제 및 문서에 대한 모든 환경에서 레거시 주석 달기 환경이 제거되었습니다.
+* 이터레이션을 제외한 모든 객체의 업데이트 섹션에서
 
-Workfront 개체의 업데이트 섹션에 액세스하는 방법에 대한 자세한 내용은 [업데이트 섹션 개요](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+  Workfront 개체의 업데이트 섹션에 액세스하는 방법에 대한 자세한 내용은 [업데이트 섹션 개요](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+
+* 사용 가능한 모든 영역(목록, 타임시트, 업무 균형자 및 홈)의 작업, 문제 및 문서 요약 패널에서 다음을 수행할 수 있습니다.
+* 작업 및 문제에 대한 홈 영역.
+
+
 
 <!--
 

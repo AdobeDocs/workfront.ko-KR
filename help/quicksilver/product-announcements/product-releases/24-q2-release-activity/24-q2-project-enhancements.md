@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0d9b1725-ed90-45a5-b63c-ff6ccbf3ae75
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리보기 릴리스: 2024년 2월 13일, 빠른 릴리스를 위한 프로덕션: 24.3 릴리스(2024년 3월 14일), 모든 고객을 위한 프로덕션: 24.4 릴리스(2024년 4월 11일).
+>미리보기 릴리스: 2024년 2월 13일, 빠른 릴리스를 위한 프로덕션: 24.3 릴리스(2024년 3월 14일), 모든 고객을 위한 프로덕션: 결정
 
 <span style="color: #ff0000;">이 기능은 2024년 3월 18일에 빠른 릴리스 고객을 위한 프로덕션에서 제거되었습니다.</span>
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리보기 릴리스: 2023년 12월 21일, 빠른 릴리스를 위한 프로덕션: 24.3 릴리스(2024년 3월 14일), 모든 고객을 위한 프로덕션: 24.4 릴리스(2024년 4월 11일).
+>미리보기 릴리스: 2023년 12월 21일, 빠른 릴리스를 위한 프로덕션: 24.3 릴리스(2024년 3월 14일), 모든 고객을 위한 프로덕션: 결정.
 
 <span style="color: #ff0000;">이 기능은 2024년 3월 18일에 빠른 릴리스 고객을 위한 프로덕션에서 제거되었습니다.</span>
 

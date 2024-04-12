@@ -6,9 +6,9 @@ description: Adobe Workfront 개체(프로젝트, 작업 또는 문제)에 업�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: c6575c832fa21a17a1d20fa7e92798d970ca0f50
+source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
-source-wordcount: '2974'
+source-wordcount: '2971'
 ht-degree: 0%
 
 ---
@@ -16,8 +16,6 @@ ht-degree: 0%
 # 작업 업데이트
 
 <!-- Audited: 1/2024 -->
-
-<!--info for April 11: take "legacy" and "new commenting" references out when we remove the legacy-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
@@ -53,7 +51,7 @@ ht-degree: 0%
 ><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. </span>
 -->
 
-Adobe Workfront 개체에 대한 업데이트를 추가하여 개체의 진행 상황에 대해 전달할 수 있습니다. Workfront에서 업데이트를 추가할 수 있는 개체에 대한 자세한 내용은 [업데이트 섹션 개요](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+Adobe Workfront 개체에 대한 업데이트를 추가하여 해당 개체의 진행 상황에 대해 다른 사용자와 통신할 수 있습니다. Workfront에서 업데이트를 추가할 수 있는 개체에 대한 자세한 내용은 [업데이트 섹션 개요](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 이 문서의 정보는 프로젝트, 작업 및 문제에 대한 정보를 댓글로 달거나 업데이트하는 방법에 대해 설명합니다. 개체를 할당받거나 구독 중인 사용자는 업데이트를 볼 수 있습니다. 사용자에 태그를 지정하여 업데이트에 주의를 기울일 수도 있습니다.
 
@@ -128,7 +126,7 @@ Adobe Workfront 개체에 대한 업데이트를 추가하여 개체의 진행 �
 
    * Workfront 개체의 업데이트 섹션(프로젝트, 작업 및 문제의 경우)에서
    * 홈 영역에서(작업 및 문제의 경우)
-   * 작업 및 문제의 경우 다음 영역의 요약 패널에서 다음을 수행합니다.
+   * 다음 영역(작업, 문제 및 문서의 경우)의 요약 패널에서
 
       * 오브젝트 목록
       * 타임시트
@@ -225,21 +223,23 @@ You can add updates to the following objects:
 
 <!--info for April 11: reword the title of this section to: "Add an update to a work item"; take out the step that says you need to enable the "New commenting" toggle (I think it is step 3??)-->
 
-## 작업 항목에 업데이트 추가 <!--using the new commenting experience-->
+## 작업 항목에 업데이트 추가
 
-1. 업데이트할 개체(프로젝트, 작업 또는 문제)를 찾은 다음 해당 이름을 클릭하여 개체의 페이지를 엽니다.
+이 문서에서는 프로젝트, 작업 또는 문제를 업데이트하는 방법에 대해 설명합니다. 대부분의 다른 객체를 업데이트하는 것도 유사합니다.
+
+1. 업데이트할 개체를 찾은 다음 개체 이름을 클릭하여 개체의 페이지를 엽니다.
 1. 클릭  **업데이트** 왼쪽 패널에서
 다음 **댓글** 기본적으로 탭이 선택되어 있습니다.
 
-<!--
-1. (Conditional) If the **New commenting** option is disabled, click to enable it. 
+   <!--
+   1. (Conditional) If the **New commenting** option is disabled, click to enable it. 
 
-   This enables the new commenting experience. 
+      This enables the new commenting experience. 
 
-      >[!TIP]
-      >
-      ><span class="preview">The New commenting option has been removed in the Preview environment.</span>
--->
+         >[!TIP]
+         >
+         ><span class="preview">The New commenting option has been removed in the Preview environment.</span>
+   -->
 
 1. 에 주석 입력 시작 **새 댓글** 상자.
 
@@ -294,10 +294,6 @@ You can add updates to the following objects:
 
    추가 주석이 화면 하단에 표시됩니다.
 
-   >[!NOTE]
-   >
-   >   새 업데이트를 입력한 사용자와 현재 업데이트 섹션을 보고 있는 사용자가 모두 새 댓글 달기 환경을 사용하는 경우에만 &quot;새 댓글&quot; 표시기와 &quot;보기&quot; 버튼이 표시됩니다.
-
 1. (선택 사항) **좋아요** 아이콘![](assets/like-icon.png). 아이콘이 좋아요 수로 업데이트됩니다.
 1. (조건부 및 선택 사항) 댓글에 다른 사람을 포함한 경우 업데이트에 포함된 멤버 수를 클릭하여 입력한 댓글이 공유되는 엔티티 목록을 표시합니다.
 
@@ -314,7 +310,7 @@ You can add updates to the following objects:
 
    >[!TIP]
    >
-   >시스템 업데이트에 주석을 추가할 수 없습니다. 그러나 이전 댓글 달기 환경에서 시스템 활동 레코드에 대한 모든 답글은 시스템 활동 탭에서 읽기 전용으로 채워집니다.
+   >시스템 업데이트에 주석을 추가할 수 없습니다. 그러나 이전 댓글 달기 경험의 시스템 활동 레코드에 대한 모든 답글은 시스템 활동 탭에 읽기 전용으로 추가되었습니다. 기존 댓글 달기 환경은 2024년 4월 11일에 Workfront에서 제거되었습니다.
 
 1. (선택 사항) **모두** 탭에서는 사용자 댓글과 시스템 활동 댓글을 한 곳에서 모두 볼 수 있습니다. 보기 전용 탭입니다.
 
@@ -355,11 +351,11 @@ You can add updates to the following objects:
    >* 조직에서 Internet Explorer와 함께 Workfront을 사용하는 경우 업데이트에 붙여넣은 서식 있는 텍스트 서식이 손실되고 일반 텍스트로 표시됩니다. 리치 텍스트 도구 모음의 속성을 사용하여 텍스트 서식을 변경할 수 있습니다.
    >* 타임시트 영역에서 수행한 업데이트 또는 보고서에서 본 메모 및 마지막 조건 개체에 대해 서식 있는 텍스트 서식을 사용할 수 없습니다.
 
-<!--1. (Optional and conditional) If you want to include text from previous updates or from other sources and distinguish it from your own update, you can mark it as a Block Quote. Click the **Block Quote** icon ![](assets/block-quote-small.png) and type the text you want to quote. The quoted text displays marked with a vertical gray line. Click the **Block Quote** icon again to return to normal formatting. This is not available in the new commenting experience.-->
+   <!--1. (Optional and conditional) If you want to include text from previous updates or from other sources and distinguish it from your own update, you can mark it as a Block Quote. Click the **Block Quote** icon ![](assets/block-quote-small.png) and type the text you want to quote. The quoted text displays marked with a vertical gray line. Click the **Block Quote** icon again to return to normal formatting. This is not available in the new commenting experience.-->
 
-<!--remove this picture below and the bullet above when we remove legacy-->
+   <!--remove this picture below and the bullet above when we remove legacy-->
 
-<!--![](assets/block-quote-marked-350x144.png)-->
+   <!--![](assets/block-quote-marked-350x144.png)-->
 
 1. (선택 사항) **이모지** 아이콘 ![](assets/emoji-icon.png) 를 클릭하여 업데이트에 이모지를 추가합니다.
 
@@ -431,9 +427,11 @@ You can add updates to the following objects:
 
 <!-- when we release search to production, check above and make sure you don't have to add that the users tagged/ owners are also searchable-->
 
-## 업데이트 정보 복사
+## 업데이트 복사
 
-업데이트를 복사할 수 있는 방법에는 여러 가지가 있습니다. 링크를 복사한 후 다른 사용자와 링크를 공유하여 업데이트를 표시할 수 있습니다.
+업데이트를 복사할 수 있는 방법에는 여러 가지가 있습니다.
+
+업데이트에 대한 링크를 복사하거나 업데이트 콘텐츠를 복사하여 새 업데이트에서 사용할 수 있습니다.
 
 <!--Copying an update differs depending on which commenting experience you use.-->
 
@@ -447,7 +445,7 @@ You can add updates to the following objects:
 
 * [링크 복사](#copy-link)
 * [본문 복사](#copy-body-text)
-* [견적 회신](#quote-reply-1)
+* [견적 회신](#quote-reply)
 
 ![](assets/copy-comment-ways-from-more-menu-on-comment.png)
 
@@ -485,7 +483,6 @@ You can add updates to the following objects:
 
    ![](assets/block-quote-highlighted-mid-comment-before-submit.png)
 
-   <!--ensure the screen shot above is correct - missing he block quote icon in rich text -->
 
 1. 업데이트 추가를 계속하고 **제출** 주석을 추가합니다.
 
@@ -549,14 +546,14 @@ The Quote Reply option copies the original comment to a new reply as a block quo
 1. Continue adding your update and click **Reply** to add the comment.
 -->
 
-## 업데이트 또는 회신 삭제
+## 업데이트 또는 답글 삭제
 
 Workfront 관리자가 제공하는 액세스 권한에 따라, 오브젝트의 업데이트 탭에서 추가한 업데이트를 삭제할 수 있습니다. 자세한 내용은 [사용자 정의 액세스 수준 만들기 또는 수정](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) 이 문서에서 [사용자 정의 액세스 수준 만들기 또는 수정](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 Workfront 사용자(Workfront 관리자 포함)는 다른 사용자가 업데이트한 내용을 삭제할 수 없습니다. 그러나 사용자의 액세스 수준에서 자체 업데이트를 삭제할 수 있는 경우 Workfront 관리자가 해당 사용자로 로그인하여 수행한 업데이트를 삭제할 수 있습니다. 자세한 내용은 [사용자 정의 액세스 수준 만들기 또는 수정](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) 및 [다른 사용자로 로그인](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
 1. 삭제할 업데이트 또는 회신으로 이동합니다.
-1. 다음을 클릭합니다. **자세히** 삭제할 업데이트 또는 답글 옆에 있는 메뉴를 클릭한 다음 **삭제**. <!--October 2023 - replace screen shot here-->
+1. 다음을 클릭합니다. **자세히** 삭제할 업데이트 또는 답글 옆에 있는 메뉴를 클릭한 다음 **삭제**.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
