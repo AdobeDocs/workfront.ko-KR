@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: f504013e202c57245a2edc3dff2b71d19bcfdbee
+source-git-commit: cbbc743cfd69aaf0e5e7468980bef730a1c8fbf5
 workflow-type: tm+mt
 source-wordcount: '1386'
 ht-degree: 2%
@@ -82,7 +82,7 @@ Workfront 관리자에게도 고유한 API 키가 있습니다. 애플리케이�
    API 키를 생성하려면 다음을 수행합니다. **API 키 설정** 섹션, 클릭 **API 키 생성**.
 
    또는\
-   API 키를 재설정하려면 **API 키 설정** 섹션, 클릭 **재설정**, 그런 다음&#x200B;**재설정.**
+   API 키를 재설정하려면 **API 키 설정** 섹션, 클릭 **재설정**, 그런 다음 **재설정.**
 
    또는
 
