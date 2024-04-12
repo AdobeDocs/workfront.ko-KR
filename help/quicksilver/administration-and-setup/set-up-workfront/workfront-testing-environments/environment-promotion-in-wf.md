@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: d0ed2869c42230e9d82c553505253e3a3131fa39
+source-git-commit: 4c87f33a29f07cc1b5aa2873b1e4fdade82dc41b
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '932'
 ht-degree: 2%
 
 ---
@@ -101,7 +101,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->현재 다음 개체에 대해 덮어쓰기를 사용할 수 있습니다.
+>다음 오브젝트에서 작업(무시, 기존 항목 선택 및 새로 만들기)을 사용할 수 있습니다.
 >
 >* 역할
 >* 팀
