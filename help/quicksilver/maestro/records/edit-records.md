@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
+source-git-commit: 78c28a1a5a850d13729113fa9f9819635ceb5d13
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: '1321'
 ht-degree: 0%
 
 ---
@@ -201,7 +201,7 @@ ht-degree: 0%
 
    또는
 
-   테이블 테이블 보기에서 **세부 정보 열기** 아이콘 ![](assets/open-details-icon-in-table-name-field.png) 레코드 이름의 왼쪽에 있습니다. 레코드 상자가 뷰에 열립니다.
+   테이블 보기에서 **세부 정보 열기** 아이콘 ![](assets/open-details-icon-in-table-name-field.png) 레코드 이름의 왼쪽에 있습니다. 레코드 상자가 뷰에 열립니다.
 
    ![](assets/details-box.png)
 

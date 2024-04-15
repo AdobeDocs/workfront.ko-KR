@@ -7,10 +7,10 @@ description: 커밋 일자는 작업 또는 문제에 할당된 사용자가 작
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 1%
+source-wordcount: '815'
+ht-degree: 0%
 
 ---
 
@@ -64,9 +64,20 @@ ht-degree: 1%
 
   Workfront 관리자가 설정의 업데이트 피드 영역에서 이 업데이트를 활성화하면 작업 또는 문제의 업데이트 영역에 커밋 일자 변경이 표시됩니다. 자세한 내용은 [시스템 추적 업데이트](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
-  프로젝트 소유자가 변경 사항을 수락하지 않으려는 경우 업데이트 섹션의 설명 탭을 사용하여 새 날짜를 제안하는 사용자에게 다시 댓글을 달거나 커밋 날짜를 원래 계획된 날짜로 다시 변경하거나 새 날짜를 선택하는 것이 좋습니다. 프로젝트 소유자가 변경을 수락하면 작업 또는 문제를 편집하여 항목에 할당된 사용자가 제공한 커밋 일자와 일치하도록 계획된 완료 일자를 수동으로 조정할 수 있습니다.
+  프로젝트 소유자가 변경 사항을 수락하지 않으려는 경우 업데이트 섹션의 설명 탭을 사용하여 새 날짜를 제안하는 사용자에게 다시 댓글을 달거나 커밋 날짜를 원래 계획된 날짜로 다시 변경하거나 새 날짜를 선택하는 것이 좋습니다.
+
+  프로젝트 소유자가 변경을 수락하면 작업 또는 문제를 편집하여 항목에 할당된 사용자가 제공한 커밋 일자와 일치하도록 계획된 완료 일자를 수동으로 조정할 수 있습니다.
 
   편집하려면 작업 또는 문제를 관리할 수 있는 액세스 권한이 있어야 합니다.
+
+  >[!TIP]
+  >
+  >요약 패널이 표시되는 Workfront의 다양한 영역에서 보다 쉽게 업데이트할 수 있도록 시스템 또는 그룹 관리자에게 요약 패널에 커밋 일자 필드를 추가하도록 요청할 수 있습니다.
+  >
+  >자세한 내용은 다음 문서를 참조하십시오.
+  >
+  >* [요약 개요](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+  >* [레이아웃 템플릿을 사용하여 홈 및 요약 맞춤화](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 <!--this is no longer possible: 
 >[!NOTE]

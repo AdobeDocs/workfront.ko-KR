@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '3577'
+source-wordcount: '3578'
 ht-degree: 0%
 
 ---
@@ -344,7 +344,7 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
 
 1. 에 연결 **홈** 영역입니다.
 1. 추가 **내 작업** 위젯을 홈 페이지로 이동합니다.
-1. 목록에서 작업, 문제 또는 요청을 선택한 다음 **처리 중**
+1. (선택 사항) 목록에서 작업, 문제 또는 요청을 선택한 다음 **처리 중**
 1. 시간을 기록할 작업 또는 문제를 마우스로 가리킨 다음 **로그 시간** 아이콘 ![](assets/log-time-icon-in-new-home.png) 작업 정보 오른쪽에 있습니다.
 
    ![](assets/log-time-ui-for-task-from-new-home.png)

@@ -6,9 +6,9 @@ description: 작업의 완료율을 업데이트하여 해당 작업의 완료 �
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -86,6 +86,9 @@ ht-degree: 0%
 
   자세한 내용은 [요약 개요](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
 
+* **홈**: 홈 영역의 요약 패널 또는 내 작업 위젯에서 작업 또는 문제의 완료율을 업데이트할 수 있습니다.
+
+자세한 내용은  [새 홈 시작하기](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## 작업 완료율 업데이트에 대한 고려 사항
 
@@ -104,7 +107,13 @@ ht-degree: 0%
    * 프로젝트 목록 및 마일스톤 보기 적용
    * 작업 페이지 액세스를 통한 작업
 1. 를 찾습니다. **완료율** 완료율을 업데이트하려는 작업의 필드입니다.
-1. 완료율 필드 안쪽을 클릭하고 0에서 100 사이의 숫자를 입력합니다.
+
+   >[!TIP]
+   >
+   >  완료율 필드는 항상 요약 패널의 맨 위에 표시됩니다.
+
+
+1. 내부를 클릭합니다. **완료율** 필드에 0에서 100 사이의 숫자를 입력합니다.
 
    또는
 

@@ -6,9 +6,9 @@ description: 다음을 사용할 수 있습니다. [!UICONTROL 내 업데이트]
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -153,8 +153,12 @@ ht-degree: 0%
    >처음 50개 언급 이 기본적으로 표시됩니다.
 
 1. (선택 사항) **[!UICONTROL 업데이트 더 보기]** 추가 언급을 보려면 다음을 수행하십시오.
-1. (선택 사항) **[!UICONTROL 답변]** 댓글에 응답하려면 응답을 입력한 다음 **[!UICONTROL 답변]** 다시.
+1. (선택 사항) **[!UICONTROL 답변]** 댓글에 응답하고 다음 중 하나를 수행합니다.
+   * 답글 입력 시작
+   * 리치 텍스트 도구 모음을 사용하여 텍스트 서식을 지정하고, 메시지에 링크, 목록, 이모지, 따옴표 또는 이미지를 추가합니다
+   * 사용자 또는 팀을 추가하여 회신을 알려 주십시오.
 
-   항목 업데이트에 대한 자세한 내용은 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+     답글 추가가 끝나면 **[!UICONTROL 답변]** 다시.
 
+     ![](assets/reply-in-the-my-updates-area.png)
 1. (선택 사항) **[!UICONTROL 현재 페이지 고정]** 고정 [!UICONTROL 내 업데이트] 위쪽 탐색에 추가합니다.

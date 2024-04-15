@@ -8,10 +8,10 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 1%
+source-wordcount: '725'
+ht-degree: 0%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 1%
 >
 >시스템 활동 탭에서 시스템 업데이트에 회신할 수 없습니다. 2024년 4월 11일 이전의 기존 댓글 달기 환경에서 수행된 시스템 업데이트에 대한 모든 답글은 읽기 전용으로 표시됩니다.
 
-<!--adjust the sentence before the second IMPORTANT and remove this important note when we remove legacy from the system-->
+이 문서에서는 Workfront에 있는 대부분의 개체에서 댓글에 응답하는 방법에 대해 설명합니다. 다양한 객체의 업데이트 섹션 간의 차이점에 대해서는 다음을 참조하십시오. [업데이트 섹션 개요](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 ## 액세스 요구 사항
 
@@ -85,9 +85,9 @@ ht-degree: 1%
 
 볼 수 있는 오브젝트의 스레드에서 댓글에 답글을 달 수 있습니다. 또는 Workfront 또는 그룹 관리자로 로그인하여 다른 사용자를 대신하여 댓글에 답글을 달 수 있습니다. 자세한 내용은 [다른 사용자로 로그인](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
-댓글 또는 답글에 대한 답글은 선택한 경험과 개체에 따라 다릅니다.
-
 ### 댓글에 회신
+
+오브젝트의 업데이트 섹션에 있는 댓글에 대한 회신은 Workfront에 있는 대부분의 오브젝트에서 유사합니다.
 
 1. 회신을 추가할 객체로 이동합니다.
 1. 클릭 **업데이트**&#x200B;을(를) 클릭하고 **댓글** 개체 탭과 회신할 댓글 또는 회신을 찾습니다.

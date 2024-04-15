@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
+source-git-commit: 78c28a1a5a850d13729113fa9f9819635ceb5d13
 workflow-type: tm+mt
-source-wordcount: '1790'
+source-wordcount: '1799'
 ht-degree: 2%
 
 ---
@@ -184,7 +184,7 @@ Workfront Planning의 프레임워크는 완전히 사용자 정의할 수 있�
    * 마지막 수정자
    * 마지막 수정일
 
-* **연결된 레코드 유형**, **연결된 레코드**, 및 **연결된 레코드 필드**: Workfront Planning에서 다음 엔티티 간에 연결을 만들 수 있습니다.
+* **연결된 레코드 유형**, **연결된 레코드**, 및 **연결된 레코드 필드** 또는 **연결된 레코드 유형**, **연결된 레코드**, 및 **연결된 필드**: Workfront Planning에서 다음 엔티티 간에 연결을 만들 수 있습니다.
 
    * 두 가지 레코드 유형.
    * 기록 유형 및 Workfront 프로젝트, 프로그램, 포트폴리오, 회사 또는 그룹 객체 유형.

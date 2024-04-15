@@ -7,9 +7,9 @@ description: 이 문서에서는 Adobe Workfront의 타임시트 레이아웃에
 author: Alina
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1049'
 ht-degree: 1%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 1%
 
 <!-- Audited: 12/2023 -->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리보기 환경 또는 빠른 릴리스를 활성화한 고객의 프로덕션 환경에서만 사용할 수 있습니다. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 활성화 또는 비활성화](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">현재 릴리스 일정에 대한 자세한 내용은 [2024년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>-->
 
 이 문서에서는 Adobe Workfront의 타임시트 레이아웃에 대해 설명하므로 타임시트를 사용자 정의하고 활용하여 시간을 기록하는 방법을 더 잘 이해할 수 있습니다.
 
@@ -125,11 +125,7 @@ ht-degree: 1%
 
 ## 왼쪽 패널의 업데이트 영역
 
-<div class="preview">
-
 ![왼쪽 타임시트 패널의 업데이트 영역](assets/timesheet-updates-with-all-tab.png)
-
-</div>
 
 타임시트의 왼쪽 패널에 있는 업데이트 섹션에서 타임시트 승인자 또는 다른 사용자와 소통하기 위해 타임시트에 댓글을 달 수 있습니다.
 
@@ -137,11 +133,7 @@ ht-degree: 1%
 
 ## 요약 패널
 
-<div class="preview">
-
 ![요약 패널](assets/timesheet-summary-panel-on-updates.png)
-
-</div>
 
 타임시트에 표시되는 작업 또는 문제에 대한 요약 패널에 액세스할 수 있습니다. 여기에서 작업 및 문제에 대해 댓글을 달거나 정보를 업데이트할 수 있습니다. 자세한 내용은 [요약 개요](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
