@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a297ee8d-d949-45ab-a219-437316fa8fa3
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+source-git-commit: a1386652f5181d4aa94ddab8e4f9714ef1c08b73
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '797'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ JumpSeat 통합에 대한 자세한 내용은 [JumpSeat 통합 구성](/help/qui
 
 >[!NOTE]
 >
->미리보기 릴리스: 2024년 2월 8일, 빠른 릴리스를 위한 프로덕션: 24.2 릴리스 포함(2024년 2월 15일), 모든 고객을 위한 프로덕션: TBD
+>미리보기 릴리스: 2024년 2월 8일, 빠른 릴리스를 위한 프로덕션: 24.2 릴리스 포함(2024년 2월 15일), 모든 고객을 위한 프로덕션: 24.4(2024년 4월 11일)
 
 이제 양식 디자이너 베타에서 기존 표시 및 건너뛰기 논리를 편집하고 새 논리를 사용자 정의 양식에 추가할 수 있습니다. 사용하기 쉬운 논리 빌더를 사용하여 양식의 선택 사항을 기반으로 표시하거나 건너뛸 필드를 정의할 수 있습니다.
 

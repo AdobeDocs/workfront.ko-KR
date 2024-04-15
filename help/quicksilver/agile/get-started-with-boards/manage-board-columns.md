@@ -6,9 +6,9 @@ description: 새 보드에는 기본적으로 3개의 열이 있습니다. 열�
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 8097842fedb468d8f0e5c9eed94bf74d489edd2b
+source-git-commit: 46099e6ceba4310453743c023823e8952f5ce553
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '967'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 플랜*</strong></td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
@@ -102,6 +102,10 @@ ht-degree: 0%
 1. 클릭 **[!UICONTROL 구성 숨기기]** 닫으려면 다음을 수행하십시오. [!UICONTROL 구성] 패널.
 
 ## 열 설정 및 정책 정의
+
+>[!NOTE]
+>
+>동적 보드는 열 정책의 활성화 여부에 관계없이 항상 해당 상태와 일치하는 열에 카드를 배치합니다. 카드를 새로 고치면 할당된 열로 돌아갑니다.
 
 1. 보드에 액세스합니다.
 1. 다음을 클릭합니다. **[!UICONTROL 자세히]** 메뉴 ![기타 메뉴](assets/more-icon-spectrum.png) 열에서 **[!UICONTROL 편집]**.

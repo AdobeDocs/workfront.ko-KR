@@ -6,16 +6,22 @@ description: 보드에서 카드를 삭제하면 영구적으로 삭제되며 �
 author: Lisa
 feature: Agile
 exl-id: 68b7d2e5-92f0-462d-8122-eaecb1e6b87c
-source-git-commit: b6a824ac6248c86043f7f21866c8a14a6c97602f
+source-git-commit: 46099e6ceba4310453743c023823e8952f5ce553
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
 
 # 보드에서 카드 삭제 또는 보관
 
-보드에서 카드를 삭제하면 영구적으로 삭제되며 복원할 수 없습니다. 카드를 보관하면 아카이브로 전송되고 나중에 보드에 복원할 수 있습니다.
+보드에서 임시 카드를 삭제하면 영구적으로 삭제되며 복원할 수 없습니다. 연결된 카드는 삭제한 후 보드에 수동으로 다시 추가할 수 있습니다.
+
+연결된 카드를 동적 보드에서 삭제하면 보드를 새로 고칠 때 이 보드 유형이 특정 프로젝트에서 모든 작업과 문제를 가져오기 때문에 다시 나타납니다. 카드를 삭제하려면 Workfront 프로젝트에서 연결된 작업 또는 문제를 삭제해야 합니다.
+
+접수 열이 있는 다른 보드 유형에서 연결된 카드를 삭제하면 연결된 작업 또는 문제가 아직 완료로 표시되지 않은 경우 보드를 새로 고칠 때 카드가 접수 열에 다시 나타납니다. 접수 열에 대한 자세한 내용은 [보드에 접수 열 추가](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+
+카드를 보관하면 아카이브로 전송되고 나중에 보드에 복원할 수 있습니다.
 
 ## 액세스 요구 사항
 
@@ -27,7 +33,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 플랜*</strong></td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
