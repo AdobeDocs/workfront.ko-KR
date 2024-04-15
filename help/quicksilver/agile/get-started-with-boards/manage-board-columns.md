@@ -6,9 +6,9 @@ description: 새 보드에는 기본적으로 3개의 열이 있습니다. 열�
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 46099e6ceba4310453743c023823e8952f5ce553
+source-git-commit: ade2551a82f28a41816dbf956f3a216cca07034e
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
@@ -106,6 +106,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >동적 보드는 열 정책의 활성화 여부에 관계없이 항상 해당 상태와 일치하는 열에 카드를 배치합니다. 카드를 새로 고치면 할당된 열로 돌아갑니다.
+> 
+>또한 모든 보드 유형의 경우 한 열에서 동일한 상태의 다른 열로 카드를 이동하면 보드를 새로 고칠 때 카드가 원래 열로 돌아갑니다.
 
 1. 보드에 액세스합니다.
 1. 다음을 클릭합니다. **[!UICONTROL 자세히]** 메뉴 ![기타 메뉴](assets/more-icon-spectrum.png) 열에서 **[!UICONTROL 편집]**.
