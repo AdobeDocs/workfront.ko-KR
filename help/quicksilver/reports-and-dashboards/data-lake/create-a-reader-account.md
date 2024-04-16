@@ -6,12 +6,11 @@ title: Snowflake을 위한 리더(서비스) 계정 만들기
 description: Workfront 데이터 레이크의 데이터에 액세스하려면 먼저 Snowflake에 대한 리더 계정을 만들어야 합니다.
 author: Nolan
 feature: Reports and Dashboards
-hidefromtoc: true
-hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 7d24659833f0ac0ceeecb245358f2ade8bd08a17
+exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
+source-git-commit: 912f46c87170d6b678d885ccc1fb0170526578df
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
@@ -30,7 +29,7 @@ Workfront 데이터 레이크 데이터에 액세스하려면 먼저 Snowflake�
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td>Ultimate</td> 
+   <td>TBD</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -67,7 +66,7 @@ Workfront 데이터 레이크 데이터에 액세스하려면 먼저 Snowflake�
 
    ![Snowflake 암호 재설정](/help/quicksilver/reports-and-dashboards/data-lake/assets/reset-snowflake-password.png) {width="300"}
 
-1. 이제 사용자 이름과 새 암호를 사용하여 Snowflake의 Workfront 데이터 레이크에 액세스할 수 있습니다.
+1. 이제 사용자 이름과 새 암호를 사용하여 Snowflake의 Workfront 데이터 레이크 또는 선택한 비즈니스 시각화 도구에 액세스할 수 있습니다.
 
 ## 허용 목록에 추가하다에 IP 추가
 
@@ -77,9 +76,9 @@ Workfront 데이터 레이크 데이터에 액세스하려면 먼저 Snowflake�
 
 1. 을(를) 클릭합니다 **허용된 IP** 탭을 클릭한 다음 **허용 목록에 추가하다 IP 주소를 IP에 추가** 단추를 클릭합니다.
 
-   ![IP 주소 추가](/help/quicksilver/reports-and-dashboards/data-lake/assets/add-IP-allowlist.png) {width="500"}
-
 1. 에 IP 주소 이름을 입력하십시오. **IP 주소 설명** 에서 사용할 도구의 IP 주소를 입력하십시오. **IP 주소**&#x200B;을 클릭한 다음 을 클릭합니다 **IP를 허용 목록에 추가**.
+
+   ![IP 주소 추가](/help/quicksilver/reports-and-dashboards/data-lake/assets/add-IP-allowlist.png) {width="500"}
 
 ## 리더 계정을 해지하거나 허용 목록에 추가하다에서 IP 주소를 제거합니다.
 

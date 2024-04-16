@@ -6,13 +6,12 @@ title: 데이터 레이크 데이터 사전
 description: 이 페이지에는 Workfront 데이터 레이크의 데이터 구조 및 컨텐츠에 대한 정보가 포함되어 있습니다.
 author: Nolan
 feature: Reports and Dashboards
-hidefromtoc: true
-hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: c82f70c78bc23f69bed2351a67c2e0d0bac9e973
+exl-id: 57985404-554e-4289-b871-b02d3427aa5c
+source-git-commit: 912f46c87170d6b678d885ccc1fb0170526578df
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 8%
+source-wordcount: '455'
+ht-degree: 9%
 
 ---
 
@@ -42,7 +41,7 @@ ht-degree: 8%
 
 <!-- Custom table -->
 
-## 엔티티 관계 테이블
+## 용어 표
 
 다음 표는 Workfront의 개체 이름(인터페이스 및 API의 개체 이름)과 데이터 레이크의 해당 이름을 연관시킵니다.
 

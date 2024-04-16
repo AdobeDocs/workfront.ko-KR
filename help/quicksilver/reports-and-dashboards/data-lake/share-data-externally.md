@@ -6,10 +6,9 @@ title: 비즈니스 인텔리전스 도구 및 외부 데이터 웨어하우스�
 description: Workfront 데이터 레이크를 사용하면 많이 사용되는 비즈니스 인텔리전스 도구를 사용하여 조직의 Workfront 데이터를 사용하거나 외부 데이터 웨어하우스에 저장할 수 있습니다.
 author: Nolan
 feature: Reports and Dashboards
-hidefromtoc: true
-hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 7d24659833f0ac0ceeecb245358f2ade8bd08a17
+exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
+source-git-commit: 6a7af60a5f66b37abcaeb594290503febc179d25
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 0%

@@ -4,10 +4,9 @@ title: Workfront 데이터 레이크 베타 정보
 description: Workfront 데이터 레이크 베타에 대한 일반 정보
 author: Nolan
 feature: Reports and Dashboards
-hidefromtoc: true
-hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: a1eb393a929ff7246056bb53b3e28b9da240c252
+exl-id: 2daf7617-5b3e-49f7-b93b-4210b1b2ea49
+source-git-commit: 6a7af60a5f66b37abcaeb594290503febc179d25
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 12%
@@ -104,4 +103,3 @@ Beta에 조직을 등록하려면 다음 링크에서 양식을 작성하여 제
 
 * 판독기 계정을 설정하는 동안 사용 가능한 개체를 제한하십시오.
 * 리더 계정을 Workfront의 특정 그룹 또는 그룹과 연결하여 레코드의 가시성을 그룹 멤버로만 제한합니다.
-
