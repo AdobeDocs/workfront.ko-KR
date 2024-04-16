@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 57a1046a-434a-4453-a101-c5f0a16e079e
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: bd1ebbedecff63fcc9165bd6e409ca1b3b632b3d
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,10 @@ Adobe Workfront 관리자는 레이아웃 템플릿을 사용하여 사용자가
 
 레이아웃 템플릿을 구성한 후에는 다른 사용자가 변경 내용을 볼 수 있도록 사용자에게 할당해야 합니다. 사용자에게 레이아웃 템플릿을 할당하는 방법에 대한 자세한 내용은 [레이아웃 템플릿에 사용자 할당](../use-layout-templates/assign-users-to-layout-template.md).
 
+>[!NOTE]
+>
+>요청이 랜딩 페이지로 설정되면 레이아웃 템플릿에 할당된 기여자 또는 요청자 사용자에게 홈 페이지가 대신 랜딩 페이지로 표시됩니다. 기여자 또는 요청자 사용자를 위한 레이아웃 템플릿에 대한 요청 이외의 랜딩 페이지를 선택하는 것이 좋습니까?
+
 ## 액세스 요구 사항
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
@@ -35,7 +39,7 @@ Adobe Workfront 관리자는 레이아웃 템플릿을 사용하여 사용자가
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td>모든</td> 
+   <td>임의</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 

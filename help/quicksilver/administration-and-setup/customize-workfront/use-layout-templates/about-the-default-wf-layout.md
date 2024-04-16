@@ -4,15 +4,15 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration;templates
 navigation-topic: layout-templates
-description: 기본 레이아웃은 Adobe Workfront 관리자가 레이아웃 템플릿을 사용하여 변경 작업을 수행하기 전에 기본 메뉴 , 왼쪽 패널 및 보기, 그룹화, 필터의 배열입니다.
+description: 기본 레이아웃은 Adobe Workfront 관리자가 레이아웃 템플릿을 사용하여 변경하기 전에 기본 메뉴 , 왼쪽 패널 및 보기, 그룹화, 필터의 배열입니다.
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: bd1ebbedecff63fcc9165bd6e409ca1b3b632b3d
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 14%
+source-wordcount: '309'
+ht-degree: 6%
 
 ---
 
@@ -140,7 +140,7 @@ Workfront 관리자가 사용자에게 레이아웃 템플릿을 할당하여 �
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>일정 조정</strong> </td> 
+   <td><strong>예약</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td> </td> 
