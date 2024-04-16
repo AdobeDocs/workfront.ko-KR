@@ -7,9 +7,9 @@ description: 만드는 모든 모듈에 대한 설정을 구성해야 합니다.
 author: Becky
 feature: Workfront Fusion
 exl-id: 7e66728d-8c6f-4597-98c4-bc6d36f96911
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '329'
 ht-degree: 1%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 1%
 
    에 설명된 대로 시나리오 편집기에서 모듈 아이콘을 클릭합니다 [에서 시나리오 만들기 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-1. 모듈에 필요한 경우 **[!UICONTROL 연결]** 에 설명된 대로 해당 서비스에 대해 등록된 사용자 계정으로 [연결 기본 정보 [!DNL Adobe Workfront Fusion] 앱 또는 서비스에](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+1. 모듈에 필요한 경우 **[!UICONTROL 연결]** 에 설명된 대로 해당 서비스에 대해 등록된 사용자 계정으로 [연결 개요](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
 1. 각 필드에 적절한 텍스트를 입력합니다.
 
    또는

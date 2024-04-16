@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
+source-git-commit: 97231a6021aa4e897059063293e649f45dc9908d
 workflow-type: tm+mt
-source-wordcount: '14157'
+source-wordcount: '14149'
 ht-degree: 1%
 
 ---
@@ -2115,7 +2115,7 @@ ht-degree: 1%
       * [플랫폼 기반 관리의 차이점(Adobe Workfront Fusion/Adobe 비즈니스 플랫폼)](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-adobe-admin-console.md)
    * Adobe Workfront Fusion의 연결 {#connections-in-fusion}
       * [Adobe Workfront Fusion의 연결](workfront-fusion/connections/connections.md)
-      * [앱 또는 서비스에 Adobe Workfront Fusion 연결 정보](workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md)
+      * [연결 개요](workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md)
       * [Adobe Workfront Fusion에서 연결 만들기](workfront-fusion/connections/connection-instruction-toc.md)
       * [연결 메타데이터](/help/quicksilver/workfront-fusion/connections/connection-metadata.md)
       * [Adobe Workfront Fusion에 대한 연결 만들기 - 기본 지침](workfront-fusion/connections/connect-to-fusion-general.md)

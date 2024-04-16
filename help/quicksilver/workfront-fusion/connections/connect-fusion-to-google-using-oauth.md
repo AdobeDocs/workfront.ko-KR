@@ -7,9 +7,9 @@ description: 다음을 사용할 수 있습니다. [!DNL Adobe Workfront Fusion]
 author: Becky
 feature: Workfront Fusion
 exl-id: 5efc0001-a8cd-4ffc-b074-3536f095727b
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 7d2b4a9940cb21de1b8b5f2955f53b3d88040e44
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '928'
 ht-degree: 0%
 
 ---
@@ -20,38 +20,38 @@ ht-degree: 0%
 
 이 문서의 기능을 사용하려면 다음 액세스 권한이 있어야 합니다.
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜*</td> 
-   <td> <p>[!UICONTROL Pro] 이상</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
+   <td> <p>새로운 기능: [!UICONTROL Standard]</p><p>또는</p><p>현재: [!UICONTROL Work] 이상</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 라이센스**</td> 
    <td>
-   <p>현재 라이선스 요구 사항: 아니요 [!DNL Workfront Fusion] 라이센스 요구 사항.</p>
+   <p>현재: 아니요 [!DNL Workfront Fusion] 라이센스 요구 사항.</p>
    <p>또는</p>
-   <p>기존 라이선스 요구 사항: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
+   <p>레거시: 모두 </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">제품</td> 
    <td>
-   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime]이 있는 경우 [!DNL Adobe Workfront] 플랜, 조직은 다음을 구매해야 합니다. [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오. [!DNL Workfront Fusion] [!UICONTROL Ultimate]에 포함되어 있습니다. [!DNL Workfront] 계획.</p>
+   <p>신규:</p> <ul><li>[!UICONTROL Select] 또는 [!UICONTROL Prime] [!DNL Workfront] 플랜: 조직에서 구매해야 합니다. [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] 플랜: [!DNL Workfront Fusion] 포함됩니다.</li></ul>
    <p>또는</p>
-   <p>레거시 제품 요구 사항: 조직에서 구매해야 함 [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오.</p>
+   <p>현재: 조직에서 구매해야 합니다. [!DNL Adobe Workfront Fusion].</p>
    </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 다음에 대한 정보: [!DNL Adobe Workfront Fusion] 라이센스, 참조 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -59,12 +59,23 @@ ht-degree: 0%
 
 기존 항목이 필요합니다. [!DNL Google] 연결할 계정입니다.
 
-## 프로젝트 만들기 [!DNL Google Cloud Platform]
+## 사용자 지정 OAuth 클라이언트를 사용하여 Fusion을 Google 서비스에 연결
 
-다음 절차는 다음 용도로 사용됩니다.
+이 연결을 만들려면 Google Cloud 플랫폼에서 프로젝트를 만들고 구성한 다음 해당 프로젝트를 기반으로 Fusion에서 연결을 구성해야 합니다.
 
-* 개인 사용([!DNL @gmail.com] 및 [!DNL @googlemail.com] 사용자)
-* 내부 사용([!DNL G Suite] 사용자 정의 OAuth 클라이언트 사용을 선호하는 사용자)
+* [프로젝트 만들기 [!DNL Google Cloud Platform]](#create-a-project-on-google-cloud-platform)
+* [구성 [!UICONTROL OAuth 동의] 설정](#configure-oauth-consent-settings)
+* [OAuth 자격 증명 만들기](#create-oauth-credentials)
+* [연결 대상 [!DNL Google] 위치: [!DNL Workfront Fusion]](#connect-to-google-in-workfront-fusion)
+
+>[!NOTE]
+>
+>이 절차는 다음 용도로 사용됩니다.
+>
+>* 개인 사용([!DNL `@gmail.com`] 및 [!DNL `@googlemail.com`] 사용자)
+>* 내부 사용([!DNL G Suite] 사용자 정의 OAuth 클라이언트 사용을 선호하는 사용자)
+
+### 프로젝트 만들기 [!DNL Google Cloud Platform]
 
 다음에 대한 프로젝트를 만들려면 [!DNL Google Cloud] 플랫폼:
 
@@ -86,7 +97,7 @@ ht-degree: 0%
 1. 표시되는 화면에서 다음을 클릭합니다. **[!UICONTROL 자격 증명 만들기]** 오른쪽 상단 모서리입니다.
 1. 섹션으로 계속 [OAuth 동의 설정 구성](#configure-oauth-consent-settings) 이 문서에서.
 
-## 구성 [!UICONTROL OAuth 동의] 설정
+### 구성 [!UICONTROL OAuth 동의] 설정
 
 1. 왼쪽 패널에서 **[!UICONTROL OAuth 동의 화면]**.
 1. 선택 **[!UICONTROL 외부]**&#x200B;을 클릭한 다음 을 클릭합니다 **[!UICONTROL 만들기]**.
@@ -157,7 +168,7 @@ ht-degree: 0%
 
 1. 계속 [OAuth 자격 증명 만들기](#create-oauth-credentials).
 
-## OAuth 자격 증명 만들기
+### OAuth 자격 증명 만들기
 
 1. 왼쪽 패널에서 **[!UICONTROL 자격 증명]**.
 
@@ -197,14 +208,14 @@ ht-degree: 0%
 1. 다음을 복사합니다. [!UICONTROL 클라이언트 ID] 및 [!UICONTROL 클라이언트 암호] 안전한 장소로. 해당 사용자가에서 연결을 만드는 데 사용됩니다. [!DNL Workfront Fusion].
 1. 계속 [연결 대상 [!DNL Google] 위치: [!DNL Workfront Fusion]](#connect-to-google-in-workfront-fusion).
 
-## 연결 대상 [!DNL Google] 위치: [!DNL Workfront Fusion]
+### 연결 대상 [!DNL Google] 위치: [!DNL Workfront Fusion]
 
 에 대한 연결을 만드는 프로세스입니다 [!DNL Google] 의 모듈을 사용하는지 여부에 따라 다릅니다. [!DNL Google] 서비스(예: [!DNL Google Sheets] 또는 [!DNL Google Docs])에 연결하거나 [!DNL Google] 를 통해 [!UICONTROL HTTP] >[!UICONTROL OAuth2.0 만들기] 모듈 요청.
 
 * [연결 대상 [!DNL Google] 다음 기간: [!DNL Google] 서비스](#connect-to-google-in-a-google-service)
 * [연결 대상 [!DNL Google] 다음에서 [!UICONTROL HTTP] > [!UICONTROL OAuth2.0 요청 만들기] 모듈](#connect-to-google-in-the-http--make-an-oauth20-request-module)
 
-### 연결 대상 [!DNL Google] 다음 기간: [!DNL Google] 서비스
+#### 연결 대상 [!DNL Google] 다음 기간: [!DNL Google] 서비스
 
 1. 위치 [!DNL Workfront Fusion], 다음 위치 찾기 [!DNL Google] 연결을 만들어야 하는 모듈입니다.
 1. 클릭 **[!UICONTROL 연결 만들기]**&#x200B;을 클릭한 다음 을 클릭합니다 **[!UICONTROL 고급 설정 표시]**.
@@ -222,10 +233,10 @@ ht-degree: 0%
 
    원하는 연결에 대한 연결 [!DNL Google] 사용자 정의 OAuth 클라이언트를 사용하는 서비스가 설정됩니다.
 
-### 연결 대상 [!DNL Google] 다음에서 [!UICONTROL HTTP] > [!UICONTROL OAuth2.0 요청 만들기] 모듈 {#connect-to-google-in-the-http--make-an-oauth20-request-module}
+#### 연결 대상 [!DNL Google] 다음에서 [!UICONTROL HTTP] > [!UICONTROL OAuth2.0 요청 만들기] 모듈 {#connect-to-google-in-the-http--make-an-oauth20-request-module}
 
-에 연결하는 방법에 대한 지침: [!DNL Google] 다음에서 [!UICONTROL HTTP] > [!UICONTROL OAuth2.0 요청 만들기] 모듈, 참조 [에 대한 연결 만들기 지침 [!DNL Google] 다음에서 [!UICONTROL HTTP] > [!UICONTROL OAuth 2.0 요청] 모듈](../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-oauth-2-request.md#instruct) 위치: [[!UICONTROL HTTP] > [!UICONTROL OAuth 2.0 요청] 모듈](../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-oauth-2-request.md).
+에 연결하는 방법에 대한 지침: [!DNL Google] 다음에서 [!UICONTROL HTTP] > [!UICONTROL OAuth2.0 요청 만들기] 모듈, 참조 [에 대한 연결 만들기 지침 [!DNL Google] 다음에서 [!UICONTROL HTTP] > [!UICONTROL OAuth 2.0 요청] 모듈](../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-oauth-2-request.md#instructions-for-creating-a-connection-to-google-in-the-http-make-an-oauth-20-request-module) 위치: [[!UICONTROL HTTP] > [!UICONTROL OAuth 2.0 요청] 모듈](../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-oauth-2-request.md).
 
 ## 가능한 오류 메시지:[!UICONTROL [403] 액세스 구성되지 않음]
 
-다음과 같은 경우 [!UICONTROL [403] 액세스 구성되지 않음] 오류 메시지가 표시되면 Google 클라우드 플랫폼에서 해당 API를 활성화해야 합니다. API를 활성화하려면 섹션의 단계를 따릅니다 [프로젝트 만들기 [!DNL Google Cloud Platform]](#create-a-project-on-google-cloud-platform) 이 문서에서.
+다음과 같은 경우 [!UICONTROL `403 Access Not Configured`] 오류 메시지가 표시되면 Google 클라우드 플랫폼에서 해당 API를 활성화해야 합니다. API를 활성화하려면 섹션의 단계를 따릅니다 [프로젝트 만들기 [!DNL Google Cloud Platform]](#create-a-project-on-google-cloud-platform) 이 문서에서.

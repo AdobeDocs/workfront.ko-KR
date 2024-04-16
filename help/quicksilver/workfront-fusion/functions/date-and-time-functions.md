@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion 매핑 패널에서 다음 날짜 및 시간
 author: Becky
 feature: Workfront Fusion
 exl-id: 76c63afc-4bb6-4895-9bba-6b3913ecbcf6
-source-git-commit: 7de4016e489c5194aee674f4ea090e7bcbb1ce79
+source-git-commit: 6374a1a0ca49507872c71eaebd5227e88e3225b7
 workflow-type: tm+mt
-source-wordcount: '1992'
+source-wordcount: '1958'
 ht-degree: 1%
 
 ---
@@ -19,44 +19,288 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
+
+
 이 문서의 기능을 사용하려면 다음 액세스 권한이 있어야 합니다.
 
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜*</td> 
-   <td> <p>[!DNL Pro] 이상</p> </td> 
+
+
+<table style="table-layout:auto"> 
+ <col>  
+ <col>  
+ <tbody>  
+  <tr>  
+   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td>  
+   <td> <p>임의</p> </td>  
+  </tr>  
+  <tr data-mc-conditions="">  
+   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td>  
+   <td> <p>새로운 기능: [!UICONTROL Standard]</p><p>또는</p><p>현재: [!UICONTROL Work] 이상</p> </td>  
+  </tr>  
+  <tr>  
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] 라이센스**</td>  
+   <td> 
+   <p>현재: 아니요 [!DNL Workfront Fusion] 라이센스 요구 사항.</p> 
+   <p>또는</p> 
+   <p>레거시: 모두 </p> 
+   </td>  
+  </tr>  
+  <tr>  
+   <td role="rowheader">제품</td>  
+   <td> 
+   <p>신규:</p> <ul><li>[!UICONTROL Select] 또는 [!UICONTROL Prime] [!DNL Workfront] 플랜: 조직에서 구매해야 합니다. [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] 플랜: [!DNL Workfront Fusion] 포함됩니다.</li></ul> 
+   <p>또는</p> 
+   <p>현재: 조직에서 구매해야 합니다. [!DNL Adobe Workfront Fusion].</p> 
+   </td>  
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] 라이선스**</td> 
-   <td>
-   <p>현재 라이선스 요구 사항: 아니요 [!DNL Workfront Fusion] 라이센스 요구 사항.</p>
-   <p>또는</p>
-   <p>기존 라이선스 요구 사항: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">제품</td> 
-   <td>
-   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime]이 있는 경우 [!DNL Adobe Workfront] 플랜, 조직은 다음을 구매해야 합니다. [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오. [!DNL Workfront Fusion] [!UICONTROL Ultimate]에 포함되어 있습니다. [!DNL Workfront] 계획.</p>
-   <p>또는</p>
-   <p>레거시 제품 요구 사항: 조직에서 구매해야 함 [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오.</p>
-   </td> 
-  </tr> 
- </tbody> 
+ </tbody>  
 </table>
 
-보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 다음에 대한 정보: [!DNL Adobe Workfront Fusion] 라이센스, 참조 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## [!UICONTROL formatDate(date; format; [시간대])]
+## 변수
+
+### now
+
+### timestamp
+
+## 함수
+
+### [!UICONTROL addSeconds(날짜, 숫자)]
+
+날짜에 주어진 시간(초)을 추가한 결과로 새 날짜를 반환합니다. 초를 빼려면 음수를 입력합니다.
+
+>[!INFO]
+>
+>**예:**
+>
+>* `addSeconds(2016-12-08T15:55:57.536Z;2)`
+>
+>   2016-12-08T15 반환:55:59.536Z
+>
+>* `addSeconds(2016-12-08T15:55:57.536Z;-2)`
+>
+>   2016-12-08T15 반환:55:55.536Z
+
+### [!UICONTROL addMinutes (date, number)] {#addminutes-date-number}
+
+날짜에 주어진 시간(분) 수를 추가한 결과로 새 날짜를 반환합니다. 분을 빼려면 음수를 입력합니다.
+
+>[!INFO]
+>
+>**예:**
+>
+>* `addMinutes(2016-12-08T15:55:57.536Z;2)`
+>
+>    2016-12-08T15 반환:57:57.536Z
+>
+>* `addMinutes(2016-12-08T15:55:57.536Z;-2)`
+>
+>    2016-12-08T15 반환:53:57.536Z
+
+### [!UICONTROL addHours(일자, 숫자)] {#addhours-date-number}
+
+날짜에 지정된 시간(시) 수를 추가한 결과로 새 날짜를 반환합니다. 시간을 빼려면 음수를 입력합니다.
+
+>[!INFO]
+>
+>**예:**
+>
+>* `addHours(2016-12-08T15:55:57.536Z; 2)`
+>
+>    2016-12-08T17 반환:55:57.536Z
+>
+>* `addHours(2016-12-08T15:55:57.536Z;-2)`
+>
+>    2016-12-08T13 반환:55:57.536Z
+
+### [!UICONTROL addDays(일자, 숫자)] {#adddays-date-number}
+
+날짜에 지정된 일 수를 추가한 결과로 새 날짜를 반환합니다. 일수를 빼려면 음수를 입력합니다.
+
+>[!INFO]
+>
+>**예:**
+>
+>* `addDays(2016-12-08T15:55:57.536Z;2)`
+>
+>    2016-12-10T15 반환:55:57.536Z
+>
+>* `addDays(2016-12-08T15:55:57.536Z;-2)`
+>
+>    2016-12-6T15 반환:55:57.536Z
+
+### [!UICONTROL addMonths (date, number)]
+
+날짜에 지정된 개월 수를 추가한 결과로 새 날짜를 반환합니다. 월을 빼려면 음수를 입력합니다.
+
+>[!INFO]
+>
+>**예:**
+>
+>* `addMonths(2016-08-08T15:55:57.536Z;2)`
+>
+>    2016-10-08T15 반환:55:57.536Z
+>
+>* `addMonths(2016-08-08T15:55:57.536Z;-2)`
+>
+>    2016-06-08T15 반환:55:57.536Z
+
+### [!UICONTROL addYears (date, number)]
+
+날짜에 지정된 연도 수를 추가한 결과로 새 날짜를 반환합니다. 연도를 빼려면 음수를 입력합니다.
+
+>[!INFO]
+>
+>**예:**
+>
+>* `addYears(2016-08-08T15:55:57.536Z;2)`
+>
+>    2018-08-08T15 반환:55:57.536Z
+>
+>* `addYears(2016-12-08T15:55:57.536Z; -2)`
+>
+>    2014-08-08T15 반환:55:57.536Z
+
+### [!UICONTROL setSecond(일자, 숫자)]
+
+이 함수는 매개 변수에 지정된 초 수를 사용하는 새 날짜를 반환합니다.
+
+0에서 59 사이의 숫자를 지정하십시오. 숫자가 해당 범위를 벗어나면 함수는 이전 분 (음수) 또는 이후 분 (양수)에서 1초를 반환합니다.
+
+범위 밖의 숫자를 지정해야 하는 경우에는[!UICONTROL  addSeconds]섹션에 설명된 대로 [addSeconds(날짜, 숫자)](#addseconds-date-number).
+
+>[!INFO]
+>
+>**예:**
+>
+>* `setSecond(2015-10-07T11:36:39.138Z;10)`
+>
+>    2015-10-07T11 반환:36:10.138Z
+>
+>* `setSecond(2015-10-07T11:36:39.138Z; 6)`
+>
+>    2015-10-07T11 반환:37:01.138Z
+
+### [!UICONTROL setMinute(일자, 숫자)]
+
+이 함수는 매개 변수에 지정된 분이 있는 새 날짜를 반환합니다.
+
+0에서 59 사이의 숫자를 지정하십시오. 숫자가 해당 범위를 벗어나면 함수는 이전 시간(음수의 경우) 또는 이후 시간(양수의 경우)에서 1분을 반환합니다.
+
+범위 밖의 숫자를 지정해야 하는 경우 위에서 설명한 대로 addMinutes를 사용하는 것이 좋습니다 [addMinutes (date, number)](#addminutes-date-number).
+
+>[!INFO]
+>
+>**예:**
+>
+>* `setMinute(2015-10-07T11:36:39.138Z;10)`
+>
+>    2015-10-07T11 반환:10:39.138Z
+>
+>* `setMinute(2015-10-07T11:36:39.138Z;61)`
+>
+>    2015-10-07T12 반환:01:39.138Z
+
+### [!UICONTROL setHour(일자, 숫자)]
+
+이 함수는 매개 변수에 지정된 시간이 있는 새 날짜를 반환합니다.
+
+0에서 23 사이의 숫자를 지정하십시오. 숫자가 이 범위를 벗어나면 함수는 전날(음수의 경우) 또는 다음날(양수의 경우)에서 한 시간을 반환합니다.
+
+범위 밖의 숫자를 지정해야 하는 경우 위에서 설명한 대로 addHours를 사용하는 것이 좋습니다 [addHours(일자, 숫자)](#addhours-date-number).
+
+>[!INFO]
+>
+>**예:**
+>
+>* `setHour(2015-08-07T11:36:39.138Z;6)`
+>
+>   2015-08-07T06 반환:36:39.138Z
+>
+>* `setHour(2015-08-07T11:36:39.138;-6)`
+>
+>    2015-08-06T18 반환:36:39.138Z
+
+### [!UICONTROL setDay(날짜, 영어로 된 날짜의 번호/이름)]
+
+이 함수는 매개 변수에 지정된 날짜가 포함된 새 날짜를 반환합니다.
+
+이 함수를 사용하여 일요일을 1로, 토요일을 7로 설정할 수 있습니다. 1에서 7까지의 숫자를 지정하는 경우 결과 날짜는 현재(일요일-토요일) 주 내에 있습니다. 숫자가 해당 범위를 벗어난 경우 함수는 이전 주(음수의 경우) 또는 후속 주(양수의 경우)에서 하루를 반환합니다.
+
+범위 밖의 숫자를 지정해야 하는 경우 위에서 설명한 대로 addDays를 사용하는 것이 좋습니다 [addDays(일자, 숫자)](#adddays-date-number).
+
+>[!INFO]
+>
+>**예:**
+>
+>* `setDay(2018-06-27T11:36:39.138Z;Monday)`
+>
+>   2018-06-25T11 반환:36:39.138Z
+>
+>* `setDay(2018-06-27T11:36:39.138Z;1)`
+>
+>   2018-06-24T11 반환:36:39.138Z
+>
+>* `setDay(2018-06-27T11:36:39.138Z;7)`
+>
+>   2018-06-30T11 반환:36:39.138Z
+
+### [!UICONTROL setDate(date, number)]
+
+이 함수는 매개 변수에 지정된 월의 일을 사용하는 새 날짜를 반환합니다.
+
+1에서 31 사이의 숫자를 지정하십시오. 숫자가 이 범위를 벗어나면 함수는 이전 달(음수의 경우) 또는 이후 달(양수의 경우)에서 하루를 반환합니다.
+
+>[!INFO]
+>
+>**예:**
+>
+>* `setDate(2015-08-07T11:36:39.138Z;5)`
+>
+>   2015-08-05T11 반환:36:39.138Z
+>
+>* `setDate(2015-08-07T11:36:39.138Z;32)`
+>
+>   2015-09-01T11 반환:36:39.138Z
+
+### [!UICONTROL setMonth(날짜, 영어로 된 월의 번호/이름)]
+
+이 함수는 매개 변수에 지정된 월이 있는 새 날짜를 반환합니다.
+
+1에서 12 사이의 숫자를 지정하십시오. 숫자가 이 범위를 벗어나면 함수는 이전 연도(음수의 경우) 또는 이후 연도(양수의 경우)의 월을 반환합니다.
+
+>[!INFO]
+>
+>**예:**
+>
+>* `setMonth(2015-08-07T11:36:39.138Z;5)`
+>
+>   2015-05-07T11 반환:36:39.138Z
+>
+>* `setMonth(2015-08-07T11:36:39.138Z;17)`
+>
+>   2016-05-07T11 반환:36:39.138Z
+>
+>* `setMonth(2015-08-07T11:36:39.138Z;january)`
+>
+>   2015-01-07T12 반환:36:39.138Z
+
+### [!UICONTROL setYear(일자, 숫자)]
+
+매개 변수에 지정된 연도가 있는 새 날짜를 반환합니다.
+
+>[!INFO]
+>
+>**예:**
+>
+>* `setYear(2015-08-07T11:36:39.138Z;2017)`
+>
+>   2017-08-07T11 반환:36:39.138Z
+
+### [!UICONTROL formatDate(date; format; [시간대])]
 
 다음과 같은 날짜 값이 있는 경우 이 함수를 사용합니다. `12-10-2021 20:30`텍스트 값으로 형식을 지정할 수 있습니다. 예: `Dec 10, 2021 8:30 PM`.
 
@@ -64,7 +308,7 @@ ht-degree: 1%
 
 자세한 내용은 [날짜](../../workfront-fusion/mapping/item-data-types.md#date) 및 [텍스트](../../workfront-fusion/mapping/item-data-types.md#text) 이 문서에서 [Adobe Workfront Fusion의 항목 데이터 유형](../../workfront-fusion/mapping/item-data-types.md).
 
-### 매개변수
+#### 매개변수
 
 <table style="table-layout:auto"> 
  <col> 
@@ -98,7 +342,7 @@ ht-degree: 1%
 
 다른 유형이 제공되면 유형 보압이 적용됩니다. 자세한 내용은 [형식 강제 변환 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md).
 
-### 반환 값 및 유형
+#### 반환 값 및 유형
 
 다음 `formatDate` 함수는 지정된 형식 및 시간대에 따라 지정된 Date 값의 텍스트 표현을 반환합니다. 데이터 유형은 텍스트입니다.
 
@@ -124,11 +368,11 @@ ht-degree: 1%
 >
 >    반환 19.03.2019 15:30
 
-## [!UICONTROL parseDate(텍스트; 형식; [시간대])]
+### [!UICONTROL parseDate(텍스트; 형식; [시간대])]
 
 날짜를 나타내는 텍스트 값이 있을 때 이 함수를 사용합니다(예: `12-10-2019 20:30` 또는 `Aug 18, 2019 10:00 AM`)에 도입된 ID를 Date 값(읽을 수 있는 이진 표시)으로 변환(구문 분석)하려는 경우 자세한 내용은 [날짜](../../workfront-fusion/mapping/item-data-types.md#date) 및 [텍스트](../../workfront-fusion/mapping/item-data-types.md#text) 이 문서에서 [의 항목 데이터 유형 [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md).
 
-### 매개변수
+#### 매개변수
 
 두 번째 열은 예상 유형을 나타냅니다. 다른 유형이 제공되면 유형 보압이 적용됩니다. 자세한 내용은 [형식 강제 변환 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md).
 
@@ -164,7 +408,7 @@ ht-degree: 1%
 
 다른 유형이 제공되면 유형 보압이 적용됩니다. 자세한 내용은 [형식 강제 변환 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md).
 
-### 반환 값 및 유형
+#### 반환 값 및 유형
 
 이 함수는 지정한 형식 및 시간대에 따라 텍스트 문자열을 날짜로 변환합니다. 값의 데이터 유형은 날짜입니다.
 
@@ -188,239 +432,7 @@ ht-degree: 1%
 >
 >   2016-12-28T16 반환:03:06.000Z
 
-## [!UICONTROL addDays(일자, 숫자)] {#adddays-date-number}
-
-날짜에 지정된 일 수를 추가한 결과로 새 날짜를 반환합니다. 일수를 빼려면 음수를 입력합니다.
-
->[!INFO]
->
->**예:**
->
->* `addDays(2016-12-08T15:55:57.536Z;2)`
->
->    2016-12-10T15 반환:55:57.536Z
->
->* `addDays(2016-12-08T15:55:57.536Z;-2)`
->
->    2016-12-6T15 반환:55:57.536Z
-
-## [!UICONTROL addHours(일자, 숫자)] {#addhours-date-number}
-
-날짜에 지정된 시간(시) 수를 추가한 결과로 새 날짜를 반환합니다. 시간을 빼려면 음수를 입력합니다.
-
->[!INFO]
->
->**예:**
->
->* `addHours(2016-12-08T15:55:57.536Z; 2)`
->
->    2016-12-08T17 반환:55:57.536Z
->
->* `addHours(2016-12-08T15:55:57.536Z;-2)`
->
->    2016-12-08T13 반환:55:57.536Z
-
-## [!UICONTROL addMinutes (date, number)] {#addminutes-date-number}
-
-날짜에 주어진 시간(분) 수를 추가한 결과로 새 날짜를 반환합니다. 분을 빼려면 음수를 입력합니다.
-
->[!INFO]
->
->**예:**
->
->* `addMinutes(2016-12-08T15:55:57.536Z;2)`
->
->    2016-12-08T15 반환:57:57.536Z
->
->* `addMinutes(2016-12-08T15:55:57.536Z;-2)`
->
->    2016-12-08T15 반환:53:57.536Z
-
-## [!UICONTROL addMonths (date, number)] {#addseconds-date-number}
-
-날짜에 지정된 개월 수를 추가한 결과로 새 날짜를 반환합니다. 월을 빼려면 음수를 입력합니다.
-
->[!INFO]
->
->**예:**
->
->* `addMonths(2016-08-08T15:55:57.536Z;2)`
->
->    2016-10-08T15 반환:55:57.536Z
->
->* `addMonths(2016-08-08T15:55:57.536Z;-2)`
->
->    2016-06-08T15 반환:55:57.536Z
-
-## [!UICONTROL addSeconds(날짜, 숫자)]
-
-날짜에 주어진 시간(초)을 추가한 결과로 새 날짜를 반환합니다. 초를 빼려면 음수를 입력합니다.
-
->[!INFO]
->
->**예:**
->
->* `addSeconds(2016-12-08T15:55:57.536Z;2)`
->
->   2016-12-08T15 반환:55:59.536Z
->
->* `addSeconds(2016-12-08T15:55:57.536Z;-2)`
->
->   2016-12-08T15 반환:55:55.536Z
-
-## [!UICONTROL addYears (date, number)]
-
-날짜에 지정된 연도 수를 추가한 결과로 새 날짜를 반환합니다. 연도를 빼려면 음수를 입력합니다.
-
->[!INFO]
->
->**예:**
->
->* `addYears(2016-08-08T15:55:57.536Z;2)`
->
->    2018-08-08T15 반환:55:57.536Z
->
->* `addYears(2016-12-08T15:55:57.536Z; -2)`
->
->    2014-08-08T15 반환:55:57.536Z
-
-## [!UICONTROL setSecond(일자, 숫자)]
-
-이 함수는 매개 변수에 지정된 초 수를 사용하는 새 날짜를 반환합니다.
-
-0에서 59 사이의 숫자를 지정하십시오. 숫자가 해당 범위를 벗어나면 함수는 이전 분 (음수) 또는 이후 분 (양수)에서 1초를 반환합니다.
-
-범위 밖의 숫자를 지정해야 하는 경우에는[!UICONTROL  addSeconds]섹션에 설명된 대로 [addSeconds(날짜, 숫자)](#addseconds-date-number).
-
->[!INFO]
->
->**예:**
->
->* `setSecond(2015-10-07T11:36:39.138Z;10)`
->
->    2015-10-07T11 반환:36:10.138Z
->
->* `setSecond(2015-10-07T11:36:39.138Z; 6)`
->
->    2015-10-07T11 반환:37:01.138Z
-
-## [!UICONTROL setMinute(일자, 숫자)]
-
-이 함수는 매개 변수에 지정된 분이 있는 새 날짜를 반환합니다.
-
-0에서 59 사이의 숫자를 지정하십시오. 숫자가 해당 범위를 벗어나면 함수는 이전 시간(음수의 경우) 또는 이후 시간(양수의 경우)에서 1분을 반환합니다.
-
-범위 밖의 숫자를 지정해야 하는 경우 위에서 설명한 대로 addMinutes를 사용하는 것이 좋습니다 [addMinutes (date, number)](#addminutes-date-number).
-
->[!INFO]
->
->**예:**
->
->* `setMinute(2015-10-07T11:36:39.138Z;10)`
->
->    2015-10-07T11 반환:10:39.138Z
->
->* `setMinute(2015-10-07T11:36:39.138Z;61)`
->
->    2015-10-07T12 반환:01:39.138Z
-
-## [!UICONTROL setHour(일자, 숫자)]
-
-이 함수는 매개 변수에 지정된 시간이 있는 새 날짜를 반환합니다.
-
-0에서 23 사이의 숫자를 지정하십시오. 숫자가 이 범위를 벗어나면 함수는 전날(음수의 경우) 또는 다음날(양수의 경우)에서 한 시간을 반환합니다.
-
-범위 밖의 숫자를 지정해야 하는 경우 위에서 설명한 대로 addHours를 사용하는 것이 좋습니다 [addHours(일자, 숫자)](#addhours-date-number).
-
->[!INFO]
->
->**예:**
->
->* `setHour(2015-08-07T11:36:39.138Z;6)`
->
->   2015-08-07T06 반환:36:39.138Z
->
->* `setHour(2015-08-07T11:36:39.138;-6)`
->
->    2015-08-06T18 반환:36:39.138Z
-
-## [!UICONTROL setDay(날짜, 영어로 된 날짜의 번호/이름)]
-
-이 함수는 매개 변수에 지정된 날짜가 포함된 새 날짜를 반환합니다.
-
-이 함수를 사용하여 일요일을 1로, 토요일을 7로 설정할 수 있습니다. 1에서 7까지의 숫자를 지정하는 경우 결과 날짜는 현재(일요일-토요일) 주 내에 있습니다. 숫자가 해당 범위를 벗어난 경우 함수는 이전 주(음수의 경우) 또는 후속 주(양수의 경우)에서 하루를 반환합니다.
-
-범위 밖의 숫자를 지정해야 하는 경우 위에서 설명한 대로 addDays를 사용하는 것이 좋습니다 [addDays(일자, 숫자)](#adddays-date-number).
-
->[!INFO]
->
->**예:**
->
->* `setDay(2018-06-27T11:36:39.138Z;Monday)`
->
->   2018-06-25T11 반환:36:39.138Z
->
->* `setDay(2018-06-27T11:36:39.138Z;1)`
->
->   2018-06-24T11 반환:36:39.138Z
->
->* `setDay(2018-06-27T11:36:39.138Z;7)`
->
->   2018-06-30T11 반환:36:39.138Z
-
-## [!UICONTROL setDate(date, number)]
-
-이 함수는 매개 변수에 지정된 월의 일을 사용하는 새 날짜를 반환합니다.
-
-1에서 31 사이의 숫자를 지정하십시오. 숫자가 이 범위를 벗어나면 함수는 이전 달(음수의 경우) 또는 이후 달(양수의 경우)에서 하루를 반환합니다.
-
->[!INFO]
->
->**예:**
->
->* `setDate(2015-08-07T11:36:39.138Z;5)`
->
->   2015-08-05T11 반환:36:39.138Z
->
->* `setDate(2015-08-07T11:36:39.138Z;32)`
->
->   2015-09-01T11 반환:36:39.138Z
-
-## [!UICONTROL setMonth(날짜, 영어로 된 월의 번호/이름)]
-
-이 함수는 매개 변수에 지정된 월이 있는 새 날짜를 반환합니다.
-
-1에서 12 사이의 숫자를 지정하십시오. 숫자가 이 범위를 벗어나면 함수는 이전 연도(음수의 경우) 또는 이후 연도(양수의 경우)의 월을 반환합니다.
-
->[!INFO]
->
->**예:**
->
->* `setMonth(2015-08-07T11:36:39.138Z;5)`
->
->   2015-05-07T11 반환:36:39.138Z
->
->* `setMonth(2015-08-07T11:36:39.138Z;17)`
->
->   2016-05-07T11 반환:36:39.138Z
->
->* `setMonth(2015-08-07T11:36:39.138Z;january)`
->
->   2015-01-07T12 반환:36:39.138Z
-
-## [!UICONTROL setYear(일자, 숫자)]
-
-매개 변수에 지정된 연도가 있는 새 날짜를 반환합니다.
-
->[!INFO]
->
->**예:**
->
->* `setYear(2015-08-07T11:36:39.138Z;2017)`
->
->   2017-08-07T11 반환:36:39.138Z
-
-## [!UICONTROL dateDifference (Date1, Date2, Unit)]
+### [!UICONTROL dateDifference (Date1, Date2, Unit)]
 
 두 날짜의 차이를 나타내는 숫자를 지정된 단위로 표시합니다.
 
@@ -454,9 +466,9 @@ Date2는 Date1에서 빼집니다.
 >
 >    반환 `1`
 
-## 추가 예시
+### 추가 예시
 
-### 월의 n번째 요일을 계산하는 방법
+#### 월의 n번째 요일을 계산하는 방법
 
 이 섹션은 다음 용도로 조정되었습니다. [!DNL Workfront Fusion] 다음에서 [!DNL Exceljet] 한 달에 n번째 요일을 가져오는 방법을 설명하는 웹 페이지입니다.
 
@@ -511,12 +523,12 @@ Date2는 Date1에서 빼집니다.
 
 ![](assets/nth-day-variable-value-350x33.png)
 
-### 설명:
+#### 설명:
 
 * `setDate(now;1)` 현재 월의 첫 번째 반환
 * `formatDate(....;E)` 요일 반환(1, 2, ... 6)
 
-## 날짜 사이의 일 수 계산 방법
+### 날짜 사이의 일 수 계산 방법
 
 한 가지 가능성은 다음 표현식을 사용하는 것입니다.
 
@@ -532,7 +544,7 @@ Date2는 Date1에서 빼집니다.
 >
 >* 다음 `round()` 날짜 중 하나가 일광 절약 시간제에 해당하고 다른 하나는 해당되지 않는 경우에 사용됩니다. 이러한 경우 시간 차이가 1시간 적거나 그 이상입니다. 정수가 아닌 결과에 대해 24로 나눌 수 있습니다. 1시간 일광 절약 시간제를 놓치셨네요. 반올림하면 백분율이 나오지 않습니다
 
-### 월의 마지막 날/밀리초를 계산하는 방법
+#### 월의 마지막 날/밀리초를 계산하는 방법
 
 날짜 범위를 지정할 때(예: 검색 모듈에서) 범위가 이전 달 전체에 대해 닫힌 간격(해당 제한 지점을 모두 포함하는 간격)으로 걸쳐 있으면 해당 월의 마지막 날을 계산해야 합니다.
 

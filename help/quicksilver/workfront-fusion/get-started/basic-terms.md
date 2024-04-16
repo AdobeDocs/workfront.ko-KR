@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion에는 Adobe Workfront 라이센스 외에 Ad
 author: Becky
 feature: Workfront Fusion
 exl-id: 2169dc2e-2135-47e0-a615-3de12cd120a9
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '828'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>시나리오에 앱 또는 서비스를 추가할 때 먼저 다음 사이에 연결을 만들어야 합니다. [!DNL Workfront Fusion] 및 선택한 데이터를 검색하거나 전송하기 위한 앱 또는 서비스를 제공합니다. 자세한 내용은 <a href="../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md" class="MCXref xref">연결 기본 정보 [!DNL Adobe Workfront Fusion] 앱 또는 서비스에</a>.</p> </td> 
+   <td> <p>시나리오에 앱 또는 서비스를 추가할 때 먼저 다음 사이에 연결을 만들어야 합니다. [!DNL Workfront Fusion] 및 선택한 데이터를 검색하거나 전송하기 위한 앱 또는 서비스를 제공합니다. 자세한 내용은 <a href="../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md" class="MCXref xref">연결 개요</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>주기</p> </td> 

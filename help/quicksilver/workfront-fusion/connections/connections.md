@@ -9,14 +9,16 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 7fc257ea-0c17-4bf5-aa07-e81f6f2d756c
-source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
+source-git-commit: b90343eab40e91c6f5cddeaa960ce9c9c97b1d29
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---
 
-# Adobe Workfront Fusion의 연결
+# Fusion의 연결: 문서 색인
+
+<!-- Audited: 3/2024-->
 
 >[!NOTE]
 >
@@ -24,7 +26,7 @@ ht-degree: 0%
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [연결 기본 정보 [!DNL Adobe Workfront Fusion] 앱 또는 서비스에](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md)
+* [연결 개요](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md)
 * [에서 연결 만들기 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/connections/connection-instruction-toc.md)
 * [에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침](../../workfront-fusion/connections/connect-to-fusion-general.md)
 * [연결 [!DNL Adobe Workfront Fusion] 모든 웹 서비스에](../../workfront-fusion/connections/connect-wf-fusion-to-any-web-service.md)

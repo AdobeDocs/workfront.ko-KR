@@ -3,20 +3,20 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Adobe Workfront Fusion에서 연습 통합 시나리오 만들기
-description: 이 문서에서는 Adobe Workfront Fusion과 통합 시나리오를 만드는 방법에 대해 설명합니다. 통합 시나리오는 개별 앱을 서로 연결하여 데이터를 다양한 애플리케이션을 통해 전달할 수 있습니다.
+description: 이 문서에서는 Adobe Workfront Fusion과 통합 시나리오를 만드는 방법에 대해 설명합니다. 통합 시나리오는 개별 앱을 서로 연결하여 데이터가 다양한 애플리케이션을 통해 전달되도록 합니다.
 author: Becky
 feature: Workfront Fusion
 exl-id: 643bb1d5-d7bc-402b-8ed1-9ca9a30e4560
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
 workflow-type: tm+mt
-source-wordcount: '2142'
+source-wordcount: '2139'
 ht-degree: 0%
 
 ---
 
 # Adobe Workfront Fusion에서 연습 통합 시나리오 만들기
 
-이 문서에서는 Adobe Workfront Fusion과 통합 시나리오를 만드는 방법에 대해 설명합니다. 통합 시나리오는 개별 앱을 서로 연결하여 데이터를 다양한 애플리케이션을 통해 전달할 수 있습니다.
+이 문서에서는 Adobe Workfront Fusion과 통합 시나리오를 만드는 방법에 대해 설명합니다. 통합 시나리오는 개별 앱을 서로 연결하여 데이터가 다양한 애플리케이션을 통해 전달되도록 합니다.
 
 통합 시나리오를 만들려면 조직에 [!DNL Workfront Fusion for Work Automation and Integration] 라이센스.
 
@@ -153,7 +153,7 @@ Workfront Fusion 라이선스에 대한 자세한 내용은 [Adobe Workfront Fus
 1. 다음에서 **[!DNL Google Sheets]** 상자, 아래 **[!UICONTROL 연결]**, 클릭 **[!UICONTROL 추가]**&#x200B;을(를) 클릭한 다음 &quot;Olivia의 Google 계정&quot;과 같은 연결 이름을 입력하고 **[!UICONTROL 계속]**.
 1. 표시되는 창에서 연결을 인증합니다.
 
-   연결을 인증하는 프로세스는 앱 간에 약간 다를 수 있습니다. 앱에 로그인해야 할 수 있습니다. 일반적으로 다음을 클릭해야 합니다. **[!UICONTROL 허용]** 단추를 클릭합니다. 도움이 필요한 경우 다음을 참조하십시오. [연결 기본 정보 [!DNL Adobe Workfront Fusion] 앱 또는 서비스에](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+   연결을 인증하는 프로세스는 앱 간에 약간 다를 수 있습니다. 앱에 로그인해야 할 수 있습니다. 일반적으로 다음을 클릭해야 합니다. **[!UICONTROL 허용]** 단추를 클릭합니다. 도움이 필요한 경우 다음을 참조하십시오. [연결 개요](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
 
 ## 첫 번째 모듈 구성
 

@@ -9,14 +9,16 @@ description: 연결은 연결되는 앱 또는 웹 서비스의 API에 의해 �
 author: Becky
 feature: Workfront Fusion
 exl-id: fb1a2af4-da58-48ba-85b5-1903d6a3ceda
-source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
+source-git-commit: b90343eab40e91c6f5cddeaa960ce9c9c97b1d29
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 0%
+source-wordcount: '503'
+ht-degree: 1%
 
 ---
 
 # 에서 연결 만들기 [!DNL Adobe Workfront Fusion]
+
+<!-- Audited: 3/2024-->
 
 연결은 연결되는 앱 또는 웹 서비스의 API에 의해 설정된 요구 사항을 준수해야 합니다. 이러한 이유로 연결 설정에 대한 지침은 앱 또는 웹 서비스에 따라 다릅니다. 이 문서는 연결에 대한 지침을 식별하고 찾는 데 도움이 됩니다 [!DNL Adobe Workfront Fusion] 선택한 앱 또는 웹 서비스에 연결합니다.
 
@@ -24,46 +26,40 @@ ht-degree: 0%
 
 이 문서의 기능을 사용하려면 다음 액세스 권한이 있어야 합니다.
 
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜*</td> 
-   <td> <p>[!UICONTROL Pro] 이상</p> </td> 
+<table style="table-layout:auto"> 
+ <col>  
+ <col>  
+ <tbody>  
+  <tr>  
+   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td>  
+   <td> <p>임의</p> </td>  
+  </tr>  
+  <tr data-mc-conditions="">  
+   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td>  
+   <td> <p>새로운 기능: [!UICONTROL Standard]</p><p>또는</p><p>현재: [!UICONTROL Work] 이상</p> </td>  
+  </tr>  
+  <tr>  
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] 라이센스**</td>  
+   <td> 
+   <p>현재: 아니요 [!DNL Workfront Fusion] 라이센스 요구 사항.</p> 
+   <p>또는</p> 
+   <p>레거시: 모두 </p> 
+   </td>  
+  </tr>  
+  <tr>  
+   <td role="rowheader">제품</td>  
+   <td> 
+   <p>신규:</p> <ul><li>[!UICONTROL Select] 또는 [!UICONTROL Prime] [!DNL Workfront] 플랜: 조직에서 구매해야 합니다. [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] 플랜: [!DNL Workfront Fusion] 포함됩니다.</li></ul> 
+   <p>또는</p> 
+   <p>현재: 조직에서 구매해야 합니다. [!DNL Adobe Workfront Fusion].</p> 
+   </td>  
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] 라이센스**</td> 
-   <td>
-   <p>현재 라이선스 요구 사항: 아니요 [!DNL Workfront Fusion] 라이센스 요구 사항.</p>
-   <p>또는</p>
-   <p>기존 라이선스 요구 사항: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">제품</td> 
-   <td>
-   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime]이 있는 경우 [!DNL Adobe Workfront] 플랜, 조직은 다음을 구매해야 합니다. [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오. [!DNL Workfront Fusion] [!UICONTROL Ultimate]에 포함되어 있습니다. [!DNL Workfront] 계획.</p>
-   <p>또는</p>
-   <p>레거시 제품 요구 사항: 조직에서 구매해야 함 [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오.</p>
-   </td>
-
-</tbody> 
+ </tbody>  
 </table>
 
-보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 다음에 대한 정보: [!DNL Adobe Workfront Fusion] 라이센스, 참조 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md).
-
-## 연결 [!DNL Adobe Workfront] 끝 [!DNL Workfront Fusion]
-
-Workfront 및 [!DNL Workfront Fusion] 함께 작동하도록 디자인되었습니다. 만든 연결에 따라 [!DNL Workfront Fusion] 은 을 사용하여 Workfront에서 작업을 수행합니다.
-
-자세한 내용은 [연결 [!DNL Workfront] 끝 [!DNL Workfront Fusion]](../../workfront-fusion/apps-and-their-modules/workfront-modules.md#connect) in [[!DNL Adobe Workfront] 모듈](../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
 ## 구성이 필요하지 않은 앱 또는 웹 서비스에 연결
 

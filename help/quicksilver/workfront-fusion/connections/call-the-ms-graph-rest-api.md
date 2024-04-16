@@ -2,56 +2,57 @@
 title: 를 통해 MS Graph REST API를 호출합니다. [!DNL Adobe Workfront Fusion] HTTP &gt; OAuth 2.0 요청 모듈 만들기
 description: 를 통해 MS Graph REST API를 호출합니다. [!DNL Adobe Workfront Fusion] HTTP &gt; OAuth 2.0 요청 모듈 만들기
 author: Becky
-draft: Probably
 feature: Workfront Fusion
 exl-id: adae390d-8b9e-4dab-8551-605e50af5a1e
-source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
+source-git-commit: b90343eab40e91c6f5cddeaa960ce9c9c97b1d29
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 0%
+source-wordcount: '571'
+ht-degree: 1%
 
 ---
 
 # 호출[!UICONTROL  MS Graph REST API] 를 통해 [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL OAuth 2.0 요청] 모듈
 
-많음 [!DNL Microsoft] 웹 서비스는 [!DNL Microsoft Graph API]. 이 문서에서는 다음을 사용하여 해당 API에 대한 연결을 만드는 방법을 설명합니다. [!DNL Workfront Fusion] [!DNL HTTP] > [!UICONTROL OAuth 2.0 요청] 모듈.
+<!-- Audited: 3/2024-->
+
+많음 [!DNL Microsoft] 웹 서비스는 [!DNL Microsoft Graph API]. 에 대한 연결을 만들 수 있습니다. [!DNL Microsoft Graph API], 를 사용하여 [!DNL Workfront Fusion] [!DNL HTTP] > [!UICONTROL OAuth 2.0 요청] 모듈.
 
 ## 액세스 요구 사항
 
 이 문서의 기능을 사용하려면 다음 액세스 권한이 있어야 합니다.
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜*</td> 
-   <td> <p>[!UICONTROL Pro] 이상</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
+   <td> <p>새로운 기능: [!UICONTROL Standard]</p><p>또는</p><p>현재: [!UICONTROL Work] 이상</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 라이센스**</td> 
    <td>
-   <p>현재 라이선스 요구 사항: 아니요 [!DNL Workfront Fusion] 라이센스 요구 사항.</p>
+   <p>현재: 아니요 [!DNL Workfront Fusion] 라이센스 요구 사항.</p>
    <p>또는</p>
-   <p>기존 라이선스 요구 사항: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
+   <p>레거시: 모두 </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">제품</td> 
    <td>
-   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime]이 있는 경우 [!DNL Adobe Workfront] 플랜, 조직은 다음을 구매해야 합니다. [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오. [!DNL Workfront Fusion] [!UICONTROL Ultimate]에 포함되어 있습니다. [!DNL Workfront] 계획.</p>
+   <p>신규:</p> <ul><li>[!UICONTROL Select] 또는 [!UICONTROL Prime] [!DNL Workfront] 플랜: 조직에서 구매해야 합니다. [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] 플랜: [!DNL Workfront Fusion] 포함됩니다.</li></ul>
    <p>또는</p>
-   <p>레거시 제품 요구 사항: 조직에서 구매해야 함 [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오.</p>
+   <p>현재: 조직에서 구매해야 합니다. [!DNL Adobe Workfront Fusion].</p>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 다음에 대한 정보: [!DNL Adobe Workfront Fusion] 라이센스, 참조 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -107,7 +108,7 @@ ht-degree: 0%
         <li> <p><code>offline_access</code> </p> </li> 
         <li> <p><code>openid</code> </p> </li> 
         <li> <p>통합에 필요한 기타 모든 권한 (예: <code>User.Read</code>)</p> </li> 
-       </ul> <p>중요:에서 연결을 설정하려면 선택한 권한이 필요합니다. [!DNL Workfront Fusion].</p> </td> 
+       </ul> <p><b>중요 사항</b>: 에서 연결을 설정하려면 선택한 권한이 필요합니다. [!DNL Workfront Fusion].</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -116,9 +117,9 @@ ht-degree: 0%
 
 ## 구성 [!DNL MS Graph API] 의 연결 [!DNL Workfront Fusion]
 
-등록 후 [!DNL Workfront Fusion] 에서 논의된대로 [등록 [!DNL Workfront Fusion] 다음에서 [!DNL Microsoft Application Registration Portal]](#register-workfront-fusion-in-the-microsoft-application-registration-portal)에서 연결을 구성할 수 있습니다. [!UICONTROL HTTP] >[!UICONTROL Oauth 2.0 만들기] 모듈 요청.
+등록 후 [!DNL Workfront Fusion] 에서 논의된대로 [등록 [!DNL Workfront Fusion] 다음에서 [!DNL Microsoft Application Registration Portal]](#register-workfront-fusion-in-the-microsoft-application-registration-portal)에서 연결을 구성할 수 있습니다. [!UICONTROL HTTP] > [!UICONTROL Oauth 2.0 만들기] 모듈 요청.
 
-1. 추가 [!UICONTROL HTTP] >[!UICONTROL OAuth 2.0 호출] 을 시나리오에 연결합니다.
+1. 추가 [!UICONTROL HTTP] > [!UICONTROL OAuth 2.0 호출] 을 시나리오에 연결합니다.
 1. 클릭 **[!UICONTROL 추가]** 다음 옆에 [!UICONTROL 연결] 필드.
 1. 연결 필드를 다음과 같이 구성합니다.
 
@@ -156,7 +157,7 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 클라이언트 암호]</td> 
-      <td>의 2단계에서 생성한 [!UICONTROL 응용 프로그램 암호]를 입력합니다. <a href="#register-workfront-fusion-in-the-microsoft-application-registration-portal" class="MCXref xref">등록 [!DNL Workfront Fusion] 다음에서 [!DNL Microsoft Application Registration Portal]</a>.</td> 
+      <td>의 3단계에서 생성한 [!UICONTROL 응용 프로그램 암호]를 입력합니다. <a href="#register-workfront-fusion-in-the-microsoft-application-registration-portal" class="MCXref xref">등록 [!DNL Workfront Fusion] 다음에서 [!DNL Microsoft Application Registration Portal]</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Authorize parameters]</td> 

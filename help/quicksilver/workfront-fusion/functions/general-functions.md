@@ -8,10 +8,10 @@ description: Adobe Workfront Fusion 매핑 패널에서 다음과 같은 일반 
 author: Becky
 feature: Workfront Fusion
 exl-id: 74bfda4e-5690-4b8c-ac58-20cf261f188d
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: a5130e551ad73717796bfac206d99799efc7987d
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 3%
+source-wordcount: '303'
+ht-degree: 0%
 
 ---
 
@@ -135,7 +135,7 @@ ht-degree: 3%
 >
 >`omit(` 사용자 `;` 암호 `)`
 >
->>암호를 제외한 사용자 정보의 컬렉션을 반환합니다.
+>암호를 제외한 사용자 정보의 컬렉션을 반환합니다.
 
 ## [!UICONTROL pick(object; key1; [키2; ...])]
 

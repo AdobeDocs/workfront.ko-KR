@@ -7,9 +7,9 @@ description: 다음 작업에서는 를 만드는 방법을 설명합니다. [!D
 author: Becky
 feature: Workfront Fusion
 exl-id: adf66cfc-ccaf-4b29-9199-c13260695569
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1417'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ ht-degree: 0%
 
 시나리오에서 앱에 대한 연결을 선택하거나 만들 때 이후 모듈을 설정할 때 다른 연결을 선택하지 않는 한 해당 앱에 대한 다른 모듈이 자동으로 동일한 연결을 사용합니다.
 
-자세한 내용은 [연결 기본 정보 [!DNL Adobe Workfront Fusion] 앱 또는 서비스에](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+자세한 내용은 [연결 개요](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
 
 ![](assets/connection-field-350x169.png)
 
