@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 78c28a1a5a850d13729113fa9f9819635ceb5d13
+source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
 workflow-type: tm+mt
 source-wordcount: '1799'
 ht-degree: 2%
@@ -237,6 +237,8 @@ Workfront Planning의 프레임워크는 완전히 사용자 정의할 수 있�
 
 다음 표는 Workfront Planning에서 생성할 수 있는 객체 수에 대한 제한을 보여 줍니다. 다음 단계의 개발로 넘어감에 따라 제한 사항이 변경될 수 있습니다.
 
+<!--consider making the table view a stand-alone article when we go to GA-->
+
 | Adobe Workfront Planning 개체 | 제한 |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 | 하나의 Workfront 인스턴스에 대한 작업 공간 수 | 1,000 |
@@ -249,6 +251,8 @@ Workfront Planning의 프레임워크는 완전히 사용자 정의할 수 있�
 | 레코드 유형 테이블에 대한 API를 통해 가져올 수 있는 파일의 크기입니다. | 1.5MB |
 | API 요청을 수행할 수 있는 속도입니다 | 분당 요청 200개 |
 | 가져올 수 있는 Excel 파일의 CSV 크기* | 5MB |
+
+<!--add to the table above: Maximum number of views created by one use 100 -->
 
 >[!IMPORTANT]
 >

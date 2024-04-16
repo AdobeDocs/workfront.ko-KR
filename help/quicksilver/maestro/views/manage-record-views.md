@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
+source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
 workflow-type: tm+mt
 source-wordcount: '1085'
 ht-degree: 1%
@@ -93,6 +93,7 @@ Adobe Workfront Planning 영역에서 레코드 유형을 선택한 후 다음 �
 * Workfront Planning 보기는 레코드 유형별로 다릅니다. 동일한 보기를 두 개의 다른 레코드 유형에 적용할 수 없습니다.
 * 만든 보기는 사용자와 보기를 공유하는 사용자만 볼 수 있습니다.
 * 보기를 수정하거나 삭제하면 보기에 대한 권한이 있는 모든 사용자에 대해 수정 및 삭제됩니다.
+<!--* Each user can create a maximum of 100 views. -->
 * 다음 요소는 각 레코드 보기에 고유합니다.
 
    * 필터

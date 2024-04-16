@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
+source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
 workflow-type: tm+mt
-source-wordcount: '1360'
+source-wordcount: '1336'
 ht-degree: 0%
 
 ---
@@ -166,7 +166,6 @@ ht-degree: 0%
    >* 정보를 복사하고 붙여넣으려면 다음 키보드 단축키를 사용하십시오.
    >   * 복사: CTRL + C (Mac의 경우 ⌘ + C)
    >   * 붙여넣기: CTRL + V(Mac의 경우 ⌘ + V)
-   >* 정보를 붙여넣은 필드와 같은 유형의 레코드 필드 이외의 다른 소스에서 정보를 복사할 수 없습니다.
    >
    >* 레코드 페이지에서 필드 값을 복사하여 붙여넣을 수 없습니다. 이 기능은 레코드 종류의 표 보기에서만 지원됩니다.
    >* 다음 필드 유형에 대한 필드 값을 복사하여 붙여넣을 수 없습니다.

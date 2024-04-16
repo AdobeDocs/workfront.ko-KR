@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
+source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
 workflow-type: tm+mt
-source-wordcount: '5486'
+source-wordcount: '5562'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,35 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >아래 섹션에서 참조하는 설명서는 기능이 프로덕션에 릴리스된 후 잠시 사용할 수 있습니다.
+
+<!--
+## Week of <date>
+
+### Added a limit of 100 views for a record type
+
+Production: <date> 
+
+Preview: To be determined 
+
+A record type can have only 100 views. Prior to this change, there was no limit for how many views a record type could have.  
+
+For more information, see [Manage record views](/help/quicksilver/maestro/views/manage-record-views.md). 
+
+-->
+
+## 2024년 4월 8일 주
+
+### 한 셀의 내용을 복사하여 선택한 여러 셀에 붙여넣습니다
+
+프로덕션: 2024년 4월 10일
+
+미리보기: 결정 예정
+
+이제 표 보기에서 한 셀의 내용을 복사하여 선택한 여러 셀에 붙여넣을 수 있습니다. 외부 소스에서 정보를 복사하여 표 보기 셀에 붙여넣을 수도 있습니다.
+
+이 기능은 계산된 필드를 제외한 모든 필드 유형에 대해 지원됩니다.
+
+자세한 내용은 [레코드 편집](/help/quicksilver/maestro/records/edit-records.md).
 
 ## 2024년 4월 1일 주
 
