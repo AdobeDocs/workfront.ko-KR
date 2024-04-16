@@ -7,9 +7,9 @@ description: 객체의 업데이트 섹션에는 사용자가 객체에 대해 �
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
+source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '974'
 ht-degree: 5%
 
 ---
@@ -147,12 +147,10 @@ Depending on what objects you access the commenting experience for, you might fi
    * 템플릿 작업
 
 * 다음 개체에는 시스템 활동 탭이나 모두 탭이 없으며, 설명 탭의 경험은 다른 모든 개체의 경험과 다릅니다.
+   * 반복
    * 임시 카드
 
      카드 업데이트에 대한 자세한 내용은 [보드에 애드혹 카드 추가](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
-   * 반복
-
-     반복 업데이트에 대한 자세한 내용은 [반복 주석 관리](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md).
 
 * 다음 객체에는 모두 탭이 없고 주석 탭의 경험은 대부분의 객체와 일치합니다.
 

@@ -7,10 +7,10 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
+source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
 workflow-type: tm+mt
-source-wordcount: '1102'
-ht-degree: 0%
+source-wordcount: '1092'
+ht-degree: 1%
 
 ---
 
@@ -551,13 +551,13 @@ Beta 기간이 종료된 후 새 주석 달기 경험을 위해 릴리스된 기
 
 * 2024년 2분기 릴리스(2024년 4월 11일):
 
-  기존 댓글 달기 스트림으로 다시 전환하고 새 댓글 달기 스트림을 반복을 제외하고 모든 개체에 대한 유일한 경험으로 만드는 옵션을 제거합니다.
+  옵션을 제거하여 기존 댓글 달기 스트림으로 다시 전환하고 새 댓글 달기 스트림을 모든 개체에 대한 유일한 환경으로 만듭니다.
 
 ## 새 댓글 달기 환경 찾기
 
 새로운 댓글 달기 환경은 Workfront의 다음 영역에서 사용할 수 있습니다.
 
-* 이터레이션을 제외한 모든 객체의 업데이트 섹션에서
+* 모든 객체의 업데이트 섹션에서 다음을 수행합니다.
 
   Workfront 개체의 업데이트 섹션에 액세스하는 방법에 대한 자세한 내용은 [업데이트 섹션 개요](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 

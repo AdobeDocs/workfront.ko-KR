@@ -6,9 +6,9 @@ description: Adobe Workfront 개체(프로젝트, 작업 또는 문제)에 업�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
+source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
 workflow-type: tm+mt
-source-wordcount: '2971'
+source-wordcount: '2967'
 ht-degree: 0%
 
 ---
@@ -55,17 +55,13 @@ Adobe Workfront 개체에 대한 업데이트를 추가하여 해당 개체의 �
 
 이 문서의 정보는 프로젝트, 작업 및 문제에 대한 정보를 댓글로 달거나 업데이트하는 방법에 대해 설명합니다. 개체를 할당받거나 구독 중인 사용자는 업데이트를 볼 수 있습니다. 사용자에 태그를 지정하여 업데이트에 주의를 기울일 수도 있습니다.
 
-다른 오브젝트에 설명을 추가하는 것은 프로젝트, 작업 및 문제를 업데이트하는 것과 비슷합니다. 카드, 목표 또는 반복에 대한 댓글에 대한 자세한 내용은 다음 문서를 참조하십시오.
+다른 오브젝트에 설명을 추가하는 것은 프로젝트, 작업 및 문제를 업데이트하는 것과 비슷합니다. 카드 및 목표에 대한 추가 정보는 다음 문서를 참조하십시오.
 
 * [Adobe Workfront 목표의 목표 주석 관리](../../workfront-goals/goal-management/manage-goal-comments.md).
 
   Workfront 목표에 액세스하려면 추가 라이선스가 있어야 합니다.
 
 * [보드에 애드혹 카드 추가](../../agile/get-started-with-boards/add-card-to-board.md)
-
-* [반복 주석 관리](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md)
-
-
 
 ## 액세스 요구 사항
 

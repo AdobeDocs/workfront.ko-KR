@@ -6,9 +6,9 @@ description: Adobe Workfront 개체에 업데이트 설명을 제공하면 프�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
+source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '997'
 ht-degree: 0%
 
 ---
@@ -88,13 +88,6 @@ ht-degree: 0%
 다음과 같은 방법으로 업데이트에 다른 사용자를 태그 지정할 수 있습니다.
 
 * **자동**: 사용자가 스레드를 시작하거나, 댓글을 추가하거나, 답글을 추가하면 자동으로 태그가 지정되고 댓글 달기 상자의 사람 또는 팀 태그 영역에 추가됩니다.
-
-  >[!TIP]
-  >
-  >   반복에 댓글을 추가할 때 사용자를 자동으로 태그 지정할 수 없습니다.  자세한 내용은 [반복 주석 관리](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md). \
-  >다른 애플리케이션에서 댓글을 추가할 때 사용자를 자동으로 태그 지정할 수 없습니다.
-
-
 * **수동**: 댓글 달기 상자의 인물 태그 영역에 사용자를 수동으로 추가하는 경우.
 
 댓글을 편집하거나 답글을 달 때 실수로 태그가 지정된 사용자를 제거할 수도 있습니다.
