@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: fcd3e565c10a952bd78b4f628b071c6718c92747
+source-git-commit: 873aea8f26b59e73f55ee31bf2639f0e588ec274
 workflow-type: tm+mt
-source-wordcount: '2254'
+source-wordcount: '2242'
 ht-degree: 0%
 
 ---
@@ -458,7 +458,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">새 주석 달기 경험이 반복에 추가됨</a></p><p>[!BADGE In production ]{type=Informative}</p>
-                        <p>애플리케이션 전반에 걸쳐 일관된 경험을 제공하기 위해 새 주석 달기 경험을 반복에 추가했습니다. 자세한 내용은 [업데이트 섹션 개요](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)를 참조하십시오.</p>
+                        <p>애플리케이션 전반에 걸쳐 일관된 경험을 제공하기 위해 새 주석 달기 경험을 반복에 추가했습니다. </p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
