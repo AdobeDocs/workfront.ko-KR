@@ -8,7 +8,7 @@ feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: dcc9eb57eedd0517d484ece1445917f7c275a0b4
+source-git-commit: 0d9212f0719535f191e61d27a73b8f5b2ef5fb30
 workflow-type: tm+mt
 source-wordcount: '1186'
 ht-degree: 0%
@@ -348,7 +348,9 @@ Adobe은 App Builder 애플리케이션을 만드는 데 사용할 수 있는 �
 
 ## 추가 도움말
 
-Adobe은 AppBuilder용 앱 빌드를 시작하고 배포하는 방법에 대한 훌륭한 설명서를 가지고 있습니다. 다음은 몇 가지 유용한 링크입니다.
+Adobe은 AppBuilder용 앱 빌드를 시작하고 배포하는 방법에 대한 훌륭한 설명서를 가지고 있습니다.
+
+다음은 몇 가지 유용한 링크입니다.
 
 * [https://developer.adobe.com/app-builder/docs/getting_started/first_app/#4-bootstrapping-new-app-using-the-cli](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#4-bootstrapping-new-app-using-the-cli)
 
