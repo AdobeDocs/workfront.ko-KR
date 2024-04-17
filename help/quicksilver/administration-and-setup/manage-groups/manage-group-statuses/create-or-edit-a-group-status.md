@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
-source-git-commit: ba11f324f6ad68f841bf4266e5eb27f59e25ddae
+source-git-commit: 0afd578ebaa55d911c04a1d08fbcadddc1d05bbc
 workflow-type: tm+mt
 source-wordcount: '1345'
 ht-degree: 1%
@@ -172,3 +172,4 @@ Workfront 관리자인 경우 시스템 전체 상태를 만든 다음 필요하
    상태는 흐리게 표시되며 더 이상 해당 그룹의 모든 사용자에게 표시되지 않습니다.
 
 1. 3~5단계를 반복하여 사용자 정의 상태를 필요하지 않은 다른 그룹에서 숨깁니다.
+
