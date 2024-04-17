@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 6b746b3cdd0fa38607ba3230d44e1b9f3f12b6d6
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,6 @@ recommendations: noDisplay, noCatalog
 * 수식 필드를 저장한 후에는 수식 필드의 필드 유형을 변경할 수 없습니다.
 * 배합표 필드를 저장한 후 배합표 필드의 계산을 갱신할 수 있으며, 계산 결과는 동일한 유형의 모든 레코드에 대해 자동으로 갱신됩니다.
 * 수식에서 참조하는 필드가 Workfront Planning 인터페이스에 표시되는 대로 추가해야 합니다.
-* 수식에서 연결된 레코드 종류의 조회 필드를 사용하면 나중에 사용할 수 있습니다.
 
 ## 지원되는 공식
 

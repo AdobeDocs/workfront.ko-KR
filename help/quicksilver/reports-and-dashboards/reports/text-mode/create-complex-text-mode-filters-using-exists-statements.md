@@ -6,7 +6,7 @@ description: EXISTS 문을 사용하여 복잡한 텍스트 모드 필터를 만
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 106f7c9d-46cc-46c5-ae34-93fd13a36c14
-source-git-commit: 09492b2657aaf599bb31a19329d5de23791b66ec
+source-git-commit: 6b746b3cdd0fa38607ba3230d44e1b9f3f12b6d6
 workflow-type: tm+mt
 source-wordcount: '2649'
 ht-degree: 0%
@@ -163,7 +163,7 @@ API 탐색기를 탐색하고 개체를 찾는 방법에 대한 자세한 내용
 
    위에서 식별한 필드를 사용하는 예는 다음을 참조하십시오. [예제 1: Portfolio 소유자 이름별로 문제 필터링](#example-1-filter-for-issues-by-portfolio-owner-name) 이 문서의 섹션.
 
-1. 클릭 **필터 저장**.
+1. **필터 저장**&#x200B;을 클릭합니다.
 
 ## 누락된 오브젝트에 대한 복잡한 텍스트 모드 필터 만들기
 
@@ -209,7 +209,7 @@ API 탐색기를 탐색하고 개체를 찾는 방법에 대한 자세한 내용
 
    사용자 지정 Forms과 연결되지 않은 사용자 지정 필드에 대한 보고의 예는 다음을 참조하십시오. [예제 2: 누락된 개체 필터링: 사용자 정의 양식에 표시되지 않는 사용자 정의 필드](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms) 이 문서의 섹션.
 
-1. 클릭 **필터 저장**.
+1. **필터 저장**&#x200B;을 클릭합니다.
 
 ## 객체 계층의 여러 수준에 걸쳐 있는 텍스트 모드 필터의 예
 
@@ -229,7 +229,9 @@ Portfolio 소유자 이름별로 문제를 필터링하려면:
 
    `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
 
-   `EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>`
+   `EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object>`
+
+   `EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>`
 
 1. 다음 코드를 **보고서에 대한 필터 규칙 설정** 위의 일반 코드를 바꿀 영역:
 
@@ -249,7 +251,7 @@ Portfolio 소유자 이름별로 문제를 필터링하려면:
    >* 원래 오브젝트에 표시되는 연결 필드는 projectID이고 연결 필드는 ID입니다.
 
 1. 마지막 문의 Target 필드(ownerID) 값을 환경의 사용자 ID로 바꿉니다.
-1. 클릭 **필터 저장**.
+1. **필터 저장**&#x200B;을 클릭합니다.
 
 ### 예제 2: 누락된 개체 필터링: 사용자 정의 양식에 표시되지 않는 사용자 정의 필드 {#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms}
 
@@ -288,7 +290,7 @@ Portfolio 소유자 이름별로 문제를 필터링하려면:
    >* parameterID는 연결 개체 테이블과 대상 개체 테이블 모두에 있으므로 대상 개체에 대한 연결 필드는 parameterID입니다.
    >* 원래 오브젝트에 표시되는 연결 필드는 범주 매개 변수의 ID입니다.
 
-1. 클릭 **필터 저장**.
+1. **필터 저장**&#x200B;을 클릭합니다.
 
 ### 예제 3: 누락된 개체 필터링: 특정 기간 동안 시간을 기록하지 않은 사용자 {#example-3-filter-for-missing-objects-users-who-did-not-log-time-for-a-certain-period-of-time}
 
@@ -321,7 +323,7 @@ Portfolio 소유자 이름별로 문제를 필터링하려면:
    >* 존재함:A:entryDate 문은 Target 개체(시간)를 정의하고 일반 필터 문과 동일한 구문을 사용하는 필드를 나타냅니다. 이렇게 하면 특정 기간(이 경우 이전 주) 동안 시간을 기록하지 않은 사용자만 표시할 수 있습니다.
    >* NOTEXISTS 수정자는 보고서(사용자) 개체에 존재하지 않는 항목(시간)을 찾고 있음을 나타냅니다.
 
-1. 클릭 **필터 저장**.
+1. **필터 저장**&#x200B;을 클릭합니다.
 
 ### 예제 4: 여러 필드로 필터링: Portfolio 소유자 이름 및 Portfolio 정렬 스코어카드 ID별 작업 {#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id}
 
@@ -360,4 +362,4 @@ Portfolio 소유자 이름 및 Portfolio 정렬 스코어카드 ID별로 작업�
    >* 원래 오브젝트에 표시되는 연결 필드는 projectID입니다.
    >* ownerID를 환경의 사용자 ID로 바꿉니다.
 
-1. 클릭 **필터 저장**.
+1. **필터 저장**&#x200B;을 클릭합니다.

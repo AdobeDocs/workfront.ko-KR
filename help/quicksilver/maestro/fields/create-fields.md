@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 6b746b3cdd0fa38607ba3230d44e1b9f3f12b6d6
 workflow-type: tm+mt
-source-wordcount: '3308'
+source-wordcount: '3277'
 ht-degree: 2%
 
 ---
@@ -377,9 +377,8 @@ Maestro 필드에 대한 자세한 내용은 [필드 개요](../fields/fields-ov
 
    >[!NOTE]
    >
-   > * 수식에 다중 선택 유형 필드를 추가할 수 없습니다.
-   >
-   > * 수식에서 연결된 레코드에서 필드를 추가할 수 없습니다. 이 기능은 나중에 릴리스됩니다. 새 릴리스에 대한 자세한 내용은 [Adobe Workfront Planning 릴리스 활동](/help/quicksilver/maestro/release-activity.md).
+   > 수식에 다중 선택 유형 필드를 추가할 수 없습니다.
+
 
 
 1. Click **Create**.
