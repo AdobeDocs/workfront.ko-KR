@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 97231a6021aa4e897059063293e649f45dc9908d
+source-git-commit: 77fa441ab01407142efa4ac3afe9f8f35406023c
 workflow-type: tm+mt
-source-wordcount: '14149'
+source-wordcount: '14158'
 ht-degree: 1%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 1%
       * [Adobe Workfront 분기 릴리스 준비](product-announcements/product-releases/release-readiness.md)
       * 2024년 3분기 릴리스 {#release-24-q3}
          * [2024년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
+         * [2024년 3분기 프로젝트 개선 사항](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md)
          * [2024년 3분기 릴리스 기간 동안의 룩앤필 업데이트](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-look-and-feel-updates.md)
       * 2024년 2분기 릴리스 {#release-24-q2}
          * [2024년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
@@ -1121,6 +1122,7 @@ ht-degree: 1%
       * [문서 저장 공간 제한 확인](documents/managing-documents/check-document-storage.md)
       * [문서 삭제](documents/managing-documents/delete-documents.md)
       * [클립보드에서 이미지 붙여넣기](documents/managing-documents/paste-image-clipboard.md)
+      * [Workfront 문서 세부 정보 내의 AddBuilder](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)
    * 문서 구성 {#organize-documents}
       * [문서 구성](documents/organizing-documents/organize-documents.md)
       * [문서 폴더 만들기](documents/organizing-documents/create-documents-folder.md)

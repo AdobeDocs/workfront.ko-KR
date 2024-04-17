@@ -1,10 +1,9 @@
 ---
-title: 2024년 2분기 프로젝트 개선 사항
-description: 2024년 2분기 프로젝트 개선 사항
+title: 2024년 3분기 프로젝트 개선 사항
+description: 2024년 3분기 프로젝트 개선 사항
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-exl-id: 0d9b1725-ed90-45a5-b63c-ff6ccbf3ae75
 source-git-commit: bf9f524320e6c9794921fe3f865cfba964c49349
 workflow-type: tm+mt
 source-wordcount: '359'
@@ -12,11 +11,11 @@ ht-degree: 0%
 
 ---
 
-# 2024년 2분기 프로젝트 개선 사항
+# 2024년 3분기 프로젝트 개선 사항
 
-이 페이지에서는 미리보기 환경에 대한 2024년 2분기 릴리스의 모든 프로젝트 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
+이 페이지에서는 미리보기 환경에 대한 2024년 3분기 릴리스의 모든 프로젝트 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
-2024년 2분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [2024년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+2024년 3분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [2024년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 
 ## 새 작업 워크플로우에 더 많은 관련 할당이 추가됨
