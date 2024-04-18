@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 7f6f569f5380f51494e5051443570b186b443948
+source-git-commit: 0f760710ec7ec2029c37377fc9e732870d2ca575
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '942'
 ht-degree: 1%
 
 ---
@@ -122,6 +122,10 @@ ht-degree: 1%
  <col> 
  <col> 
  <tbody> 
+  <tr> 
+   <td>조립되지 않음</td> 
+   <td><p>이 상태는 자동으로 지정되며, 저장되었지만 아직 조립되지 않은 패키지를 나타냅니다. </p><p>이 상태는 고객이 직접 설정할 수 없습니다.</p></td> 
+  </tr> 
   <tr> 
    <td>어셈블</td> 
    <td><p>이 상태는 객체가 어셈블되는 동안 자동으로 지정됩니다. </p><p>어셈블링은 패키지에 포함할 객체와 하위 객체를 식별하고 해당 객체와 해당 데이터를 패키지에 추가하는 자동화된 프로세스를 말합니다.</p><p>이 상태는 고객이 직접 설정할 수 없습니다.</p></td> 
