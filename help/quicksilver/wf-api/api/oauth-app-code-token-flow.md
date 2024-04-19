@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a1ab60c4-4255-4d80-87f1-f36d325254c2
-source-git-commit: 293b7354e4549e51d78ad1aa75927a21d9044c43
+source-git-commit: 6f041459caf040846ffdec5bc75e9d74c99e318b
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,10 @@ Workfront과 통합하고 클라이언트 앱이 사용자를 대신하여 Workf
 ## OAuth2 애플리케이션 만들기
 
 OAuth2 애플리케이션 만들기에 대한 지침은 [사용자 자격 증명을 사용하여 OAuth2 애플리케이션 만들기(인증 코드 흐름)](../../administration-and-setup/configure-integrations/create-oauth-application.md#create3) 위치: [Workfront 통합을 위한 OAuth2 애플리케이션 만들기](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+
+>[!NOTE]
+>
+>한 번에 최대 10개의 OAuth2 애플리케이션을 보유할 수 있습니다.
 
 ## 사용자의 Authorize 페이지 링크
 

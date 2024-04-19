@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 61fe77b6-c6d7-4f23-bfb6-617bccaa1989
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: 6f041459caf040846ffdec5bc75e9d74c99e318b
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '811'
 ht-degree: 0%
 
 ---
@@ -48,6 +48,10 @@ PKCE 흐름에는 다음과 같은 단계가 있습니다. 이 섹션의 단계�
 인증을 구현하려면 먼저 Workfront에서 앱 통합을 만들어 OAuth2에 앱을 등록해야 합니다.
 
 OAuth2 애플리케이션 만들기에 대한 지침은 [PKCE를 사용하여 OAuth2 단일 페이지 웹 애플리케이션 만들기](../../administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-single-page-web-application-using-pkce) 위치: [Workfront 통합을 위한 OAuth2 애플리케이션 만들기](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+
+>[!NOTE]
+>
+>한 번에 최대 10개의 OAuth2 애플리케이션을 보유할 수 있습니다.
 
 
 ## 코드 교환을 위한 증명 키 만들기
