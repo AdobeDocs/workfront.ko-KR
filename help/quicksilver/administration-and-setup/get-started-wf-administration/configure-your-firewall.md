@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 8a8a36732800d0f48026b616cc16e4ff30e0ad41
+source-git-commit: c5100faf3d29182ecf62169708d39d41542a9398
 workflow-type: tm+mt
-source-wordcount: '1598'
+source-wordcount: '1625'
 ht-degree: 0%
 
 ---
@@ -470,6 +470,16 @@ Jira 통합에 Workfront을 사용하려면 다음 IP 주소를 허용 목록에
 * mfe.static.workfront.com
 * https://app.pendo.io/
 * https://cdn.pendo.io/
+* *.static.workfront.com
+
+  다음 도메인을 모두 제외하는 정적 도메인입니다. 원하는 경우 개별 도메인을 추가할 수 있습니다.
+
+   * mfe.static.workfront.com
+   * mfe-c.static.workfront.com
+   * mfe-preview-c.static.workfront.com
+   * mfe-preview.static.workfront.com
+   * mfe-review.static.workfront.com
+
 
 ## 모든 클러스터에 추가할 URL Workfront {#urls-to-add-for-all-clusters-workfront}
 
