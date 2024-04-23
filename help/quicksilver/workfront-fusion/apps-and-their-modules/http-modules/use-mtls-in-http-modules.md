@@ -9,9 +9,9 @@ description: Adobe Workfront Fusion HTTP 모듈에서 Mutual TLS를 사용하여
 author: Becky
 feature: Workfront Fusion
 exl-id: ace9c404-34de-4bc5-bc77-2e53df36dbd9
-source-git-commit: 355d060d67685a98bfc9e7c37073024f3a82c5c9
+source-git-commit: a340a082e1490c46d3ab5c9591e2e30eee266fcf
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '665'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ HTTP 요청을 사용하여 웹 서비스에 연결할 때 웹 서비스에는 �
 
 >[!IMPORTANT]
 >
->* 다음 [!DNL Workfront Fusion] 공개 인증서는 2024년 6월 9일에 만료됩니다. 만료되면 웹 서비스에 새 인증서를 업로드해야 합니다. 권장 사항:
+>* 다음 [!DNL Workfront Fusion] 공개 인증서는 2025년 5월 7일에 만료됩니다. 만료되면 웹 서비스에 새 인증서를 업로드해야 합니다. 권장 사항:
 >
 >   * 만료 날짜를 기록하고 인증서를 웹 서비스에 업로드하도록 미리 알림을 설정하십시오.
 >   * 새 인증서를 쉽게 찾으려면 이 페이지에 책갈피를 지정합니다.
