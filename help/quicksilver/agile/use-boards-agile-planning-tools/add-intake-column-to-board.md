@@ -7,10 +7,10 @@ description: 정의한 필터에 따라 Workfront에 작업 및 문제를 추가
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: b816f41796e33fed81b76e80823c83fcb45d2b6b
+source-git-commit: 3e97df265df83965d094d8723fe76043ff4af80e
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 2%
+source-wordcount: '1048'
+ht-degree: 1%
 
 ---
 
@@ -34,6 +34,10 @@ ht-degree: 2%
 * 기본 순서: 프로젝트 이름
 * 2차 순서: 참조 번호
 
+>[!IMPORTANT]
+>
+>여러 사용자가 동시에 보드에서 작업하는 경우 보드를 자주 새로 고치는 것이 좋습니다. 페이지를 새로 고치면 보드의 시각적 변경 사항을 최신 상태로 유지하는 데 도움이 되며 중복 카드가 접수 열에서 보드로 이동하는 것과 같은 문제가 방지됩니다.
+
 열에 대한 자세한 내용은 [보드 열 관리](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). 연결된 카드에 대한 자세한 내용은 [보드에서 연결된 카드 사용](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## 액세스 요구 사항
@@ -48,7 +52,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 플랜*</strong></td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
@@ -83,7 +87,7 @@ ht-degree: 2%
 
    모든 오브젝트는 보드 접수 열에 연결된 카드로 나타납니다.
 
-   ![열 접수](assets/intake-column-added3.png)
+   ![접수 열](assets/intake-column-added3.png)
 
 ## 고급 필터를 사용하여 접수 열 만들기
 
@@ -136,7 +140,7 @@ ht-degree: 2%
 1. (선택 사항) 접수 열에 작업과 문제를 모두 포함하려면 **[!UICONTROL 소스 필터링]** 다른 객체를 선택하여 다른 필터를 생성합니다.
 1. 필터 추가가 끝나면 접수 열을 검토하여 올바른 작업 및 문제가 표시되는지 확인합니다.
 
-   ![열 접수](assets/intake-column-added3.png)
+   ![접수 열](assets/intake-column-added3.png)
 
    >[!NOTE]
    >

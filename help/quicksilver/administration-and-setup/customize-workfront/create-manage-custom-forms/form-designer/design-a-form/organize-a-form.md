@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: f79d3243058e4b71d9825c2b219730e9bc44944e
+source-git-commit: 3e97df265df83965d094d8723fe76043ff4af80e
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1220'
 ht-degree: 0%
 
 ---
@@ -110,6 +110,10 @@ ht-degree: 0%
        <li> <p>여기에서 지정한 권한이 없는 사용자는 섹션에서 사용자 정의 필드 및 위젯을 볼 수 없습니다. </p> <p>이는 보고서의 필드 값을 표시하거나 텍스트 모드 보고의 계산된 필드에서 사용하는 경우에도 마찬가지입니다.</p> </li> 
        <li> <p>여러 객체 유형을 양식과 연결하면 다음 단계에서 사용할 수 있는 보기 및 편집 권한이 변경될 수 있습니다. 자세한 내용은 <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">여러 오브젝트 유형이 사용자 정의 양식의 섹션 구분 권한에 영향을 주는 방법</a> 이 문서에서.</p> </li> 
         </ul> </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><p>논리 추가</p></td> 
+      <td><p>표시 논리를 사용하여 사용자가 양식을 작성할 때 다중 선택 사용자 정의 필드에서 선택한 항목에 따라 섹션을 양식에 표시할지 여부를 지정합니다.</p><p><strong>참고:</strong> 섹션 구분 아래의 모든 개별 필드에 표시 논리가 적용되어 있고 논리의 결과로 해당 필드가 모두 숨겨져 있는 경우 사용자 정의 양식에서 전체 섹션이 숨겨집니다. 이 문제는 표시 논리가 섹션 구분에 적용되지 않는 경우에도 발생합니다.</p><p>자세한 내용은 <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md" class="MCXref xref">양식 디자이너를 사용하여 표시 논리 및 건너뛰기 논리 추가</a>.</p></td> 
      </tr> 
     </tbody> 
    </table>
