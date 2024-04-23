@@ -8,9 +8,9 @@ description: 데이터베이스 또는 간단한 테이블과 유사한 데이�
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: 85e5483b7ee1433d0b1efbaa37c6d55c7c1d5bf7
+source-git-commit: 6c449b004e61048d5391a39e5adc38b05f4a3033
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1312'
 ht-degree: 1%
 
 ---
@@ -44,35 +44,56 @@ Workfront Fusion의 데이터 저장소에 대한 비디오 소개는 다음을 
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] 플랜*</td> 
-   <td> <p>[!DNL Pro] 이상</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
+   <td> <p>새로운 기능: [!UICONTROL Standard]</p><p>또는</p><p>현재: [!UICONTROL Work] 이상</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] 라이선스**</td> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] 라이센스**</td> 
    <td>
-   <p>현재 라이선스 요구 사항: 아니요 [!DNL Workfront Fusion] 라이센스 요구 사항.</p>
+   <p>현재: 아니요 [!DNL Workfront Fusion] 라이센스 요구 사항.</p>
    <p>또는</p>
-   <p>기존 라이선스 요구 사항: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
+   <p>레거시: 모두 </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">제품</td> 
    <td>
-   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime]이 있는 경우 [!DNL Adobe Workfront] 플랜, 조직은 다음을 구매해야 합니다. [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오. [!DNL Workfront Fusion] [!UICONTROL Ultimate]에 포함되어 있습니다. [!DNL Workfront] 계획.</p>
+   <p>신규:</p> <ul><li>[!UICONTROL Select] 또는 [!UICONTROL Prime] [!DNL Workfront] 플랜: 조직에서 구매해야 합니다. [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] 플랜: [!DNL Workfront Fusion] 포함됩니다.</li></ul>
    <p>또는</p>
-   <p>레거시 제품 요구 사항: 조직에서 구매해야 함 [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오.</p>
+   <p>현재: 조직에서 구매해야 합니다. [!DNL Adobe Workfront Fusion].</p>
    </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 다음에 대한 정보: [!DNL Adobe Workfront Fusion] 라이센스, 참조 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+## 사용 가능한 데이터 공간
+
+조직이 새로운 Workfront 플랜 모델(Select, Prime 및 Ultimate 패키지)에 있는 경우, 조직의 플랜은 Fusion 인스턴스에 사용할 수 있는 데이터 저장소의 크기와 수에 영향을 줍니다.
+
+### 최종 플랜
+
+Ultimate 패키지의 Fusion 인스턴스는 다음 혜택을 받습니다.
+
+* 500MB 공간
+* 50개 데이터 저장소
+
+### Select 및 Prime 플랜
+
+Select 또는 Prime 패키지의 Fusion 인스턴스는 다음 사항을 수신합니다.
+
+* 처음 500K 작업에는 100MB.
+
+* 10K 작업을 추가로 수행할 때마다 10MB
+
+예를 들어, 600만 건의 작업을 수행하는 조직은 110MB를 수신합니다.
 
 ## 에서 데이터 저장소 만들기 [!DNL Workfront Fusion]
 
