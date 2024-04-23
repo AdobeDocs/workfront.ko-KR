@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1495'
 ht-degree: 0%
 
 ---
@@ -103,6 +103,7 @@ ht-degree: 0%
 * 표시되는 레코드가 다른 레코드에 연결되어 있는 경우 편집 중인 레코드의 새 정보가 연결된 레코드에 반영됩니다.
 * 레코드를 일괄적으로 편집할 수 없습니다. <!--this will probably change-->
 * URL은 http://, https://, ftp:// 또는 www로 시작하는 경우에만 한 줄 텍스트 필드 유형에서 링크로 인식됩니다. .
+* 각 레코드에 표지 이미지를 추가할 수 있습니다. 이 이미지는 각 레코드에 대해 고유하며, 동시에 모든 레코드에 적용되지 않습니다.
 * 레코드 페이지의 필드 순서를 편집하고 레코드에 대한 표지 이미지를 추가할 수 있습니다. 자세한 내용은 [레코드 페이지 관리](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
 ## 레코드 편집
@@ -130,7 +131,7 @@ ht-degree: 0%
 
    ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
 
-   >[!NOTE]
+   >[!TIP]
    >
    >  다음 필드는 읽기 전용이고 Workfront에서 자동으로 업데이트하므로 해당 필드에 대한 정보는 편집할 수 없습니다.
    >  
@@ -209,7 +210,18 @@ ht-degree: 0%
    >
    >다음을 볼 수 있습니다. **세부 정보 열기** 테이블 보기에서 레코드의 이름 필드 왼쪽에 있는 아이콘은 이름 필드가 기본 필드인 경우에만 해당됩니다.
 
-1. 레코드 상자의 필드 정보 편집을 시작합니다. Workfront은 변경 사항을 자동으로 저장합니다.
+1. 레코드 상자의 필드 정보 편집을 시작합니다.
+
+   >[!TIP]
+   >
+   >  다음 필드는 읽기 전용이고 Workfront에서 자동으로 업데이트하므로 해당 필드에 대한 정보는 편집할 수 없습니다.
+   >  
+   >  * 레코드 종류를 연결하여 만든 연결된 필드. 자세한 내용은 [레코드 유형 연결](../architecture/connect-record-types.md).
+   >  * 생성자, 생성일, 마지막 수정자, 마지막 수정일, 공식 필드 유형의 필드.
+
+1. (선택 사항) **표지 추가** 표지 이미지를 레코드에 추가합니다. 자세한 내용은 [레코드에 표지 이미지 추가](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md).
+
+   Workfront은 변경 사항을 자동으로 저장합니다.
 
 1. (선택 사항) **새 탭에서 열기** 아이콘 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 레코드 상자의 오른쪽 상단 모서리에서 새 탭에서 레코드 페이지를 엽니다. 에 설명된 대로 레코드를 계속 편집합니다. [레코드 페이지에서 레코드 편집](#edit-a-record-from-the-records-page) 이 문서의 섹션.
 
@@ -227,7 +239,7 @@ ht-degree: 0%
 
 1. 다음 중 하나를 수행하십시오.
 
-   * 모든 보기에서 다음에 설명된 대로 레코드 상자에 액세스합니다. [보기의 레코드 상자에서 레코드 편집](#edit-a-record-from-the-records-box-in-a-view) 이 문서의 섹션. 그런 다음 **새 탭에서 열기** 아이콘 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 레코드 상자의 오른쪽 상단 모서리에서 새 탭에서 레코드 페이지를 엽니다.
+   * 모든 보기에서 다음에 설명된 대로 레코드 상자에 액세스합니다. [보기의 레코드 상자에서 레코드 편집](#edit-a-record-from-the-records-box-in-a-view) 이 문서의 섹션을 클릭한 다음 **새 탭에서 열기** 아이콘 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 레코드 상자의 오른쪽 상단 모서리에서 새 탭에서 레코드 페이지를 엽니다.
 
    * 다음에서 **표** 보기, 레코드 이름 위로 마우스를 가져간 다음 **자세히** 메뉴 ![](assets/more-menu.png)을 클릭한 다음 을 클릭합니다 **보기**
 
@@ -237,12 +249,16 @@ ht-degree: 0%
 
      ![](assets/details-page.png)
 
-1. 다음을 클릭합니다. **자세히** 메뉴 ![](assets/more-menu.png) 레코드 이름 오른쪽에서 **편집**
+1. 레코드 페이지에서 편집 가능한 필드를 클릭하여 편집합니다.
 
-   또는
+   >[!TIP]
+   >
+   >  다음 필드는 읽기 전용이고 Workfront에서 자동으로 업데이트하므로 해당 필드에 대한 정보는 편집할 수 없습니다.
+   >  
+   >  * 레코드 종류를 연결하여 만든 연결된 필드. 자세한 내용은 [레코드 유형 연결](../architecture/connect-record-types.md).
+   >  * 생성자, 생성일, 마지막 수정자, 마지막 수정일, 공식 필드 유형의 필드.
 
-   레코드 페이지의 편집 가능한 필드 내부를 클릭하여 정보를 편집합니다.
+1. (선택 사항) **표지 추가** 표지 이미지를 레코드에 추가합니다. 자세한 내용은 [레코드에 표지 이미지 추가](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md).
 
-   ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
+   Workfront은 변경 사항을 자동으로 저장합니다.
 
-1. 클릭 **변경 내용 저장**.

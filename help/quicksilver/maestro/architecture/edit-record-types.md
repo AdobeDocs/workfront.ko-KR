@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
@@ -100,28 +100,30 @@ hide: yes
 기본적으로 마지막으로 액세스한 작업 영역이 열립니다.
 
 1. (선택 사항) 기존 작업 영역 이름의 오른쪽에 있는 아래쪽 방향 화살표를 확장하고 레코드 유형을 편집할 작업 영역을 선택합니다.
-1. 기록 유형의 카드 위로 마우스를 가져간 다음 **자세히** 메뉴 ![](assets/more-menu.png) 기록 유형 카드의 오른쪽 상단 모서리에서 을(를) 클릭합니다. **모양 업데이트**.
+1. 기록 유형의 카드 위로 마우스를 가져간 다음 **자세히** 메뉴 ![](assets/more-menu.png) 기록 유형 카드의 오른쪽 상단 모서리에서 을(를) 클릭합니다. **편집**.
 
-   ![](assets/update-appearance-link-from-more-menu-on-record-type-card.png)
+   ![](assets/more-menu-options-from-record-type-card.png)
 
-1. 다음에서 **레코드 유형 업데이트** 상자에서 다음 정보를 업데이트합니다.
+1. 다음에서 **레코드 유형 편집** 상자에서 다음 정보를 업데이트합니다.
 
-   * **레코드 이름**: 필요한 경우 레코드 유형 이름을 편집합니다. <!--correct this - I asked Garik to change this field to "Record type name"-->
-   * **모양**: 레코드 종류와 관련된 아이콘의 색 및 모양을 편집합니다. 다음을 수행합니다.
+   * 필요한 경우 레코드 유형 이름을 편집합니다. <!--did they add a field label for this? -->
+   * **설명**: 레코드 유형에 대한 자세한 내용을 포함하여 설명을 편집하거나 추가합니다.
+   * 레코드 종류와 관련된 아이콘의 색 및 모양을 편집합니다. 다음을 수행합니다.
       * 레코드 유형을 식별할 색상을 선택합니다. 레코드 유형 아이콘의 색상입니다. 기본적으로 회색이 선택되어 있습니다.
       * 목록에서 아이콘을 선택하거나 아이콘 이름을 입력하여 아이콘이 나타내는 내용을 설명한 다음 표시될 때 선택합니다. 레코드 유형의 아이콘입니다. 기본적으로 파일 아이콘이 선택되어 있습니다.
 
      ![](assets/update-record-type-box.png)
 
-1. 바깥쪽을 클릭합니다. **레코드 유형 업데이트** 변경 내용을 저장하는 상자입니다.
+1. **저장**&#x200B;을 클릭합니다.
 1. (선택 사항) 작업 영역 영역에서 레코드 유형 카드를 클릭하여 레코드 유형의 페이지를 엽니다.
-1. 다음을 클릭합니다. **자세히** 레코드 종류 이름의 오른쪽에 있는 메뉴를 클릭한 다음 **이름 바꾸기** 레코드 유형의 이름을 변경하려면
+1. 다음을 클릭합니다. **자세히** 레코드 종류 이름의 오른쪽에 있는 메뉴를 클릭한 다음 **편집** 레코드 유형에 대한 정보를 업데이트합니다.
 
-   또는
+   >[!TIP]
+   >
+   >   헤더에서 레코드 유형의 이름을 바꿀 수 있습니다.
 
-   헤더에서 레코드 유형의 이름을 변경합니다.  <!--check to see if they renamed this to "Rename" - it kept going back and forth between Rename and Edit-->
+   ![](assets/more-menu-options-from-record-details-page.png)
 
-   ![](assets/more-menu-options-from-record-details-page.png) <!--check this screen shot - not sure this is valid ???-->
+   <!--check this screen shot - not sure this is valid ???-->
 
-   레코드 유형 페이지의 헤더에서 레코드 유형의 이름을 바꿀 수도 있습니다.
 1. (선택 사항) 레코드 유형 이름의 오른쪽에 있는 아래쪽 방향 화살표를 확장하고 편집할 다른 레코드 유형을 선택합니다.

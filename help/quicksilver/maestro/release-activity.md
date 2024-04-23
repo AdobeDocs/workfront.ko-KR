@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '5562'
+source-wordcount: '5636'
 ht-degree: 0%
 
 ---
@@ -46,6 +46,24 @@ A record type can have only 100 views. Prior to this change, there was no limit 
 For more information, see [Manage record views](/help/quicksilver/maestro/views/manage-record-views.md). 
 
 -->
+
+## 2024년 4월 22일 주
+
+### 작업 영역 또는 레코드 유형을 편집할 때 워크플로우가 업데이트됨
+
+프로덕션: 2024년 4월 23일
+
+미리보기: 결정 예정
+
+작업 영역 편집 및 레코드 유형 편집 상자의 디자인을 업데이트했습니다.
+
+이제 작업 공간이나 레코드 유형을 편집할 때 이름, 설명을 정의하고 색상 및 아이콘을 지정할 수 있습니다.
+
+자세한 내용은 다음 문서를 참조하십시오.
+
+* [작업 영역 편집](/help/quicksilver/maestro/architecture/edit-workspaces.md)
+
+* [레코드 유형 편집](/help/quicksilver/maestro/architecture/edit-record-types.md).
 
 ## 2024년 4월 8일 주
 
