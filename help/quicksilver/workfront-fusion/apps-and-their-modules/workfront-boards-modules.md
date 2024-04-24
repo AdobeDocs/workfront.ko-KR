@@ -9,9 +9,9 @@ description: Adobe Workfront Boards 커넥터를 사용하여 Workfront Boards �
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 0b4a25f7-a8f1-47f4-8929-7eff82f1dfdc
-source-git-commit: 9b4e1b4227b15a6998966838552a5058675fa9a0
+source-git-commit: 7003ea4b6daba68957ef0ec501ecfd4a8d750d4c
 workflow-type: tm+mt
-source-wordcount: '2325'
+source-wordcount: '2591'
 ht-degree: 1%
 
 ---
@@ -261,7 +261,7 @@ After the webhook is created, you can view the address of the endpoint that even
   </tr> 
   <tr> 
    <td>[!UICONTROL 열 ID]</td> 
-   <td>하위 작업을 추가할 열의 ID를 입력하거나 매핑합니다.<p>보드 읽기 모듈에서 반환된 정보에서 태그 ID를 찾을 수 있습니다.</p></td> 
+   <td>하위 작업을 추가할 열의 ID를 입력하거나 매핑합니다.<p>보드 읽기 모듈에서 반환된 정보에서 열 ID를 찾을 수 있습니다.</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 이름]</td> 
@@ -292,7 +292,7 @@ After the webhook is created, you can view the address of the endpoint that even
   </tr> 
   <tr> 
    <td>[!UICONTROL 대상 열 ID]</td> 
-   <td>카드를 이동할 열의 ID를 입력하거나 매핑합니다.<p>보드 읽기 모듈에서 반환된 정보에서 태그 ID를 찾을 수 있습니다.</p></td> 
+   <td>카드를 이동할 열의 ID를 입력하거나 매핑합니다.<p>보드 읽기 모듈에서 반환된 정보에서 열 ID를 찾을 수 있습니다.</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL To index]</td> 
@@ -346,7 +346,7 @@ After the webhook is created, you can view the address of the endpoint that even
   </tr> 
   <tr> 
    <td>[!UICONTROL Card ID]</td> 
-   <td>카드/\에 대한 새 설명을 입력하거나 매핑합니다.</p></td> 
+   <td>카드에 대한 새 설명을 입력하거나 매핑합니다.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -400,6 +400,10 @@ After the webhook is created, you can view the address of the endpoint that even
 
 ### 열
 
+* [열 만들기](#create-a-column)
+* [열 검색](#search-for-a-column)
+* [열 업데이트](#update-a-column)
+
 #### 열 만들기
 
 이 작업 모듈은 지정된 보드에 새 열을 만듭니다.
@@ -417,8 +421,62 @@ After the webhook is created, you can view the address of the endpoint that even
    <td>열을 추가할 게시판의 ID를 입력하거나 매핑합니다.<p>Workfront에서 게시판을 볼 때 URL에서 게시판 ID를 찾을 수 있습니다.</p></td> 
   </tr> 
   <tr> 
+   <td>[!UICONTROL 열 ID]</td> 
+   <td>업데이트할 열의 ID를 입력하거나 매핑합니다.<p>보드 읽기 모듈에서 반환된 정보에서 열 ID를 찾을 수 있습니다.</p></td> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL 열 이름]</td> 
-   <td>새 열의 이름을 입력하거나 매핑합니다.</td> 
+   <td>열의 새 이름을 입력하거나 매핑합니다.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL WIP 제한]</td> 
+   <td>열에 대한 신규 WIP 한도를 입력하거나 맵핑합니다.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### 열 검색
+
+이 검색 모듈은 지정된 이름의 열에 대한 정보를 반환합니다.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+      <td> <p>기존 Workfront 연결을 사용하여 Workfront 보드에 연결하거나 특정 Workfront 보드 연결을 사용할 수 있습니다. </p><p>연결에 대한 자세한 내용 [!DNL Workfront] 앱 대상 [!DNL Workfront Fusion], 참조 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront 보드에 대한 연결 만들기</a> 이 문서에서.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL 보드 ID]</td> 
+   <td>검색할 열이 포함된 보드의 ID를 입력하거나 매핑합니다.<p>Workfront에서 게시판을 볼 때 URL에서 게시판 ID를 찾을 수 있습니다.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL 열 이름]</td> 
+   <td>검색할 열의 이름을 입력하거나 매핑합니다.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### 열 업데이트
+
+이 조치 모듈은 지정된 열의 이름 또는 WIP 한도를 갱신합니다.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+      <td> <p>기존 Workfront 연결을 사용하여 Workfront 보드에 연결하거나 특정 Workfront 보드 연결을 사용할 수 있습니다. </p><p>연결에 대한 자세한 내용 [!DNL Workfront] 앱 대상 [!DNL Workfront Fusion], 참조 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront 보드에 대한 연결 만들기</a> 이 문서에서.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL 보드 ID]</td> 
+   <td>검색할 열이 포함된 보드의 ID를 입력하거나 매핑합니다.<p>Workfront에서 게시판을 볼 때 URL에서 게시판 ID를 찾을 수 있습니다.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL 열 이름]</td> 
+   <td>검색할 열의 이름을 입력하거나 매핑합니다.</td> 
   </tr> 
  </tbody> 
 </table>
