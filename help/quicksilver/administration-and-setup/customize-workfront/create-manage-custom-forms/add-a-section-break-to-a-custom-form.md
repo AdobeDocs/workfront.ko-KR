@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 44a52767-60a7-4aaa-b3b8-6b8fb7da7e72
-source-git-commit: 56e1ceac4f37d9789f4a3a37ee0e6a7774133bfb
+source-git-commit: 1bad65ff741cdd4273c07893044d42d6b8c826e0
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1238'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,8 @@ ht-degree: 0%
        <p>개체의 사용 권한에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">오브젝트에 대한 공유 권한 개요</a>.</p> 
        <p><b>참고</b>:  
        <ul> 
-       <li> <p>여기에서 지정한 권한이 없는 사용자는 섹션에서 사용자 정의 필드 및 위젯을 볼 수 없습니다. </p> <p>이는 보고서의 필드 값을 표시하거나 텍스트 모드 보고의 계산된 필드에서 사용하는 경우에도 마찬가지입니다.</p> </li> 
+       <li> <p>여기에서 지정한 권한이 없는 사용자는 섹션에서 사용자 정의 필드 및 위젯을 볼 수 없습니다. </p> <p>이는 보고서의 필드 값을 표시하거나 텍스트 모드 보고의 계산된 필드에서 사용하는 경우에도 마찬가지입니다.</p> </li>
+       <li><p>요청/문제 사용자 정의 양식의 경우: 섹션 구분에서 필드를 보려면 보기 권한이 필요하지만 필드를 편집하려면 관리자 권한이 필요한 경우 양식을 작성할 때 섹션과 해당 필드의 모든 항목이 관리자가 아닌 사용자에게 표시되지 않습니다. 요청이 생성되면 보기 액세스 권한이 있는 사용자가 섹션의 필드를 볼 수 있습니다.</p></li>
        <li> <p>여러 객체 유형을 양식과 연결하면 다음 단계에서 사용할 수 있는 보기 및 편집 권한이 변경될 수 있습니다. 자세한 내용은 <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">여러 오브젝트 유형이 사용자 정의 양식의 섹션 구분 권한에 영향을 주는 방법</a> 이 문서에서.</p> </li> 
         </ul> </p> </td> 
      </tr> 
