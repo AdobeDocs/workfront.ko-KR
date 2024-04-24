@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 44a52767-60a7-4aaa-b3b8-6b8fb7da7e72
-source-git-commit: 1bad65ff741cdd4273c07893044d42d6b8c826e0
+source-git-commit: 28961cda48ce4eec84ed272e660be6ba938be370
 workflow-type: tm+mt
 source-wordcount: '1238'
 ht-degree: 0%
@@ -223,3 +223,4 @@ You can click
 >Portfolio 개체 유형을 양식에 추가하면 양식의 섹션 구분에 대해 제한된 편집 권한 옵션을 더 이상 사용할 수 없습니다.
 >
 >[편집] 권한으로 전환하라는 메시지가 화면에 표시됩니다. 이 권한은 [제한된 편집]과 가장 유사하며 프로젝트 객체 유형 및 Portfolio 객체 유형과 모두 호환됩니다.
+
