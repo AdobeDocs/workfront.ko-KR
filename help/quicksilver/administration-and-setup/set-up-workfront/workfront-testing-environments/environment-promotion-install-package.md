@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: 92a7a2df142d7736417b903949a5a667cff53913
+source-git-commit: bd27f98191637a3efd11c732890be0091feca89c
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '565'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 0%
 
   충돌이 감지되지 않더라도 덮어쓸 오브젝트를 선택할 수도 있습니다.
 
-  덮어쓰기가 상위 및 하위 객체에 미치는 영향에 대한 자세한 내용은
+  덮어쓰기가 상위 및 하위 객체에 미치는 영향에 대한 자세한 내용은 [상위 및 하위 개체 덮어쓰기](#overwriting-parent-and-child-objects) 이 문서에서.
 <!--
 * Do not use: The object in the package is not installed in the target environment. If you select Do not use, an error message will appear detailing how this choice will affect other objects or fields.
 -->

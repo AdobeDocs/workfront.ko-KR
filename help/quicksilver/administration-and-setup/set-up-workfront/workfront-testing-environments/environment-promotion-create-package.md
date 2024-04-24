@@ -11,9 +11,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: c0a841d8f6a4431ff95c1b1d5904c8f41a7c82ca
+exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
+source-git-commit: 856b3422ef1e91a55a61acaee0bd4068a4508856
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
@@ -59,11 +60,9 @@ ht-degree: 0%
 1. 선택 **시스템** 왼쪽 탐색에서 을(를) 선택합니다. **환경 프로모션**.
 1. 표시된 목록에서 패키지를 선택합니다.
 1. (조건부) 보관(사용 안 함) 패키지를 보려면 **중단된 패키지 표시** 옵션을 선택합니다.
-1. 모든 객체와 해당 하위 객체를 포함한 컨텐트를 보려면 **내용** 섹션.
-1. 이 패키지의 이전 설치 및 설치 시도를 보려면 **배포**.
-1. 패키지를 편집하려면 다음을 클릭하십시오. **패키지 편집** 화면 오른쪽 상단에 있습니다.
+1. (선택 사항) 모든 객체와 해당 하위 객체를 포함한 컨텐츠를 보려면 **내용** 섹션.
+1. (선택 사항) 이 패키지의 이전 설치 및 설치 시도를 보려면 **배포**.
+1. (선택 사항) 패키지를 편집하려면 **패키지 편집** 화면 오른쪽 상단에 있습니다.
 1. 패키지를 설치하려면 **설치** 화면 오른쪽 상단에 있습니다.
 
    패키지 설치에 대한 지침은 [환경 프로모션 패키지 설치](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md).
-
-

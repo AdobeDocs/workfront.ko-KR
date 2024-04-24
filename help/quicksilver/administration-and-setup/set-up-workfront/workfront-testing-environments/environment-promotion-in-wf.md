@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 0f760710ec7ec2029c37377fc9e732870d2ca575
+source-git-commit: ff225e6ed17c06c333806d25ed00e7f744da6f93
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '941'
 ht-degree: 1%
 
 ---
@@ -144,7 +144,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>비활성화됨</td> 
-   <td><p>이 상태는 나중에 환경에 설치되지 않는 이전에 사용한 프로모션 패키지를 숨기는 데 사용됩니다.</p><p>패키지가 이 상태일 때는 환경에 설치할 수 없습니다.</p><p>패키지 상태를 사용 안 함으로 설정하면 <code>retiredAt</code> 날짜는 요청의 현재 타임스탬프로 자동 설정됩니다.</p><p>이 상태를 사용하는 것이 을(를) 사용하는 것보다 좋습니다.<code>DELETE /package</code> 끝점은 검색할 수 있고 설치 기록이 이 패키지로 만든 배포에 대해 보존되기 때문입니다.</p></td> 
+   <td><p>이 상태는 나중에 환경에 설치되지 않는 이전에 사용한 프로모션 패키지를 숨기는 데 사용됩니다.</p><p>패키지가 이 상태일 때는 환경에 설치할 수 없습니다.</p><p>패키지 상태를 사용 안 함으로 설정하면 <code>retiredAt</code> 날짜는 요청의 현재 타임스탬프로 자동 설정됩니다.</p><p>이 상태를 사용하는 것이 을(를) 사용하는 것보다 좋습니다.<code>DELETE /package</code> 끝점은 검색할 수 있고 설치 기록은 이 패키지로 만든 배포에 대해 유지됩니다.</p></td> 
   </tr> 
   <tr> 
    <td>ASSEMBLING_FAILED</td> 
