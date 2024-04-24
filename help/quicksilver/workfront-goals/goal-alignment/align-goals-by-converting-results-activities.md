@@ -6,9 +6,9 @@ description: 두 목표를 수동으로 정렬하거나 기존 목표의 결과�
 author: Alina
 feature: Workfront Goals
 exl-id: 48371389-952c-4732-b519-9774cd4d1b93
-source-git-commit: c24adf93172d002ea636904d62f531a8e69aace4
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '652'
 ht-degree: 15%
 
 ---
@@ -80,7 +80,6 @@ ht-degree: 15%
 
 시작하려면 먼저 다음 항목이 있어야 합니다.
 
-* 메인 메뉴에 목표 영역을 포함하는 레이아웃 템플릿입니다.
 * 기존 결과 및 활동이 있는 기존 목표입니다.
 
   목표 작성에 대한 자세한 내용은 [Adobe Workfront 목표에서 목표 만들기](../../workfront-goals/goal-management/create-goals.md).

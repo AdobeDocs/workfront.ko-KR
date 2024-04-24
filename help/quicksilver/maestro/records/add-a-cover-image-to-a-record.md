@@ -1,15 +1,17 @@
 ---
 title: 레코드에 표지 이미지 추가
-description: Adobe Workfront Planning에서 레코드 정보를 편집하고 각 레코드를 표지 이미지와 연결하여 레코드의 페이지를 개인화할 수 있습니다.
+description: 레코드를 편집할 때 Adobe Workfront Planning의 레코드 페이지에 표지 이미지를 추가하여 레코드를 개인화할 수 있습니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
+
 
 <!--update the metadata with real information-->
 
@@ -17,9 +19,12 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Adobe Workfront Planning에서 레코드 정보를 편집하고 각 레코드를 표지 이미지와 연결하여 레코드의 페이지를 개인화할 수 있습니다.
+레코드를 편집할 때 Adobe Workfront Planning의 레코드 페이지에 표지 이미지를 추가하여 레코드를 개인화할 수 있습니다.
+
+레코드 편집에 대한 자세한 내용은 [레코드 편집](/help/quicksilver/maestro/records/edit-records.md).
 
 레코드 만들기 및 편집을 시작하려면 먼저 레코드 유형을 만들어야 합니다.
+
 자세한 내용은 [레코드 유형 만들기](../architecture/create-record-types.md).
 
 ## 액세스 요구 사항
@@ -81,14 +86,15 @@ Adobe Workfront Planning에서 레코드 정보를 편집하고 각 레코드를
 
 ## 레코드 페이지 표지 이미지에 대한 고려 사항
 
-표지 이미지를 추가하여 레코드의 페이지를 개인화할 수 있습니다. 이 이미지는 각 레코드에 고유하며 동일한 유형의 모든 레코드에 적용되지 않습니다.
+표지 이미지를 추가하여 레코드의 페이지를 개인화할 수 있습니다.
 
 다음 사항을 고려하십시오.
 
+* 표지 이미지는 하나의 레코드에 고유하며 동일한 유형의 모든 레코드에 적용되지 않습니다.
 * 이미지 파일만 커버 이미지로 추가할 수 있습니다.
   <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
 * 보기의 레코드 상자나 레코드 페이지에서 커버 이미지를 개별 레코드에 추가할 수 있습니다.
-* 표 보기에서 표지 이미지를 인라인으로 추가할 수 없습니다.
+* 레코드 보기에서 표지 이미지를 인라인으로 추가할 수 없습니다.
 
 ## 레코드에 표지 이미지 추가
 

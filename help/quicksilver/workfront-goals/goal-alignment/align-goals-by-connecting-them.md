@@ -6,10 +6,10 @@ description: 개인 목표가 있는 개별 기여자의 경우 조직의 전략
 author: Alina
 feature: Workfront Goals
 exl-id: 4276f1c9-2ee9-4f74-b011-ae1e19fefe35
-source-git-commit: c24adf93172d002ea636904d62f531a8e69aace4
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 1%
+source-wordcount: '775'
+ht-degree: 0%
 
 ---
 
@@ -90,12 +90,6 @@ Adobe Workfront 목표에는 두 가지 접근 방식으로 목표를 연결할 
 </table>
 
 *자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-## 전제 조건
-
-시작하려면 먼저 다음 항목이 있어야 합니다.
-
-* 메인 메뉴에 목표 영역을 포함하는 레이아웃 템플릿입니다.
 
 ## 목표를 서로 연결하여 정렬
 

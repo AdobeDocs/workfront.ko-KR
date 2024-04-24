@@ -6,9 +6,9 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '535'
 ht-degree: 7%
 
 ---
@@ -48,10 +48,11 @@ Adobe Workfront Planning에서 작업 공간 또는 보기에 대한 권한을 �
   라이선스 유형이 Workfront Planning의 권한 수준에 미치는 영향에 대한 자세한 내용은 [Adobe Workfront Planning 사용 시 라이선스 유형 개요](/help/quicksilver/maestro/access/license-type-overview.md).
 * 시스템 관리자는 다른 사용자가 만든 작업 공간을 관리하고 공유할 수 있습니다.
 * 시스템 관리자가 아닌 경우 다른 사용자가 만든 작업 영역이 사용자와 공유될 경우 해당 작업 영역에 기여할 수 있습니다.
-* 작업 공간은 일괄적으로 공유할 수 없습니다.
+* 작업 공간이나 보기는 일괄적으로 공유할 수 없습니다.
 * 작업공간 또는 뷰를 다음 엔티티와 공유할 수 있습니다.
    * 사용자
    * 그룹
+     <!--* You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.-->
 * 시스템 관리자를 포함한 다른 사용자는 자신이 만들었거나 자신과 공유된 보기에만 액세스할 수 있습니다. 시스템 관리자에게만 보기 관리 권한이 부여될 수 있습니다.
 * 작업 영역 또는 레코드 유형 페이지의 보기에 대한 링크를 다른 사용자와 공유할 수 있습니다. 링크를 받은 사용자는 활성 사용자여야 하며 Workfront에 로그인해야 선택한 보기에 표시된 작업 영역 또는 레코드 유형 페이지에 액세스할 수 있습니다.
 
@@ -114,9 +115,28 @@ Adobe Workfront Planning에서 작업 공간 또는 보기에 대한 권한을 �
 
 뷰를 기록하려면 별도의 권한을 부여해야 합니다. 작업 영역에 권한을 부여해도 작업 영역의 레코드 보기에 대한 권한은 부여되지 않습니다.
 
+<!--You can share views internally or publicly. -->
+
 |        | 관리 | 보기 |
 |--------|--------|-------|
 | 편집 | ✓ 덧신 |       |
 | 삭제 | ✓ 덧신 |       |
+| 공유 | ✓ 덧신 |       |
 | 보기 | ✓ 덧신 | ✓ 덧신 |
 | 적용 | ✓ 덧신 | ✓ 덧신 |
+
+<!--Replace the table above with the following when public sharing releases: 
+
+|   Internal sharing     | Manage | View  |
+|--------|--------|-------|
+| Edit   | ✓      |       |
+| Delete | ✓      |       |
+| Share  | ✓       |       |
+| View   | ✓      | ✓     |
+| Apply  | ✓      | ✓     |
+
+|   Public sharing      | View  |
+|--------|-------|
+| View   | ✓     |
+| Apply  | ✓     |
+-->
