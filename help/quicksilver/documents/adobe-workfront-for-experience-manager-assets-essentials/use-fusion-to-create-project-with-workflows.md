@@ -5,7 +5,7 @@ title: Workfront Fusion을 사용하여 Adobe Experience Manager 워크플로가
 description: Workfront Fusion을 통해 프로젝트를 생성하고 프로젝트에 Adobe Experience Manager 워크플로를 포함하려는 경우 이 문서에 설명된 특정 Fusion 모듈 구성을 사용해야 합니다.
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
-source-git-commit: df8f99da107f50eb1302188aa544f45b7b451966
+source-git-commit: 308118e94f76ac1fb070282d31fbba5cac5312fe
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 0%
@@ -156,4 +156,7 @@ Workfront Fusion에서 Adobe Experience Manager 워크플로가 포함된 프로
 Fusion에서 모듈의 연결을 구성할 때 이 클라이언트 ID와 클라이언트 암호를 사용합니다.
 
 연결 만들기에 대한 지침은 [연결 [!DNL Workfront] 끝 [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#connect-workfront-to-workfront-fusion) 문서 Workfront 모듈에서
+
+
+
 
