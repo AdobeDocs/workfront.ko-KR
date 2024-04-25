@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+source-git-commit: 80f20ef1020a7040f0a1f5fb47227764bf1f0b54
 workflow-type: tm+mt
-source-wordcount: '14171'
+source-wordcount: '14166'
 ht-degree: 1%
 
 ---
@@ -1743,9 +1743,9 @@ ht-degree: 1%
    * Workfront 데이터 레이크 {#data-lake}
       * [Workfront 데이터 레이크 개요](reports-and-dashboards/data-lake/data-lake-overview.md)
       * [리더 계정 만들기](reports-and-dashboards/data-lake/create-a-reader-account.md)
+      * [Workfront 데이터 레이크에 대한 연결 설정](reports-and-dashboards/data-lake/share-data-externally.md)
       * [Workfront 데이터 레이크 데이터 사전](reports-and-dashboards/data-lake/data-dictionary.md)
       * [기본 Workfront 데이터 레이크 쿼리 예](reports-and-dashboards/data-lake/basic-query-examples.md)
-      * [비즈니스 인텔리전스 도구 및 외부 데이터 웨어하우스와 데이터 레이크 데이터 공유](reports-and-dashboards/data-lake/share-data-externally.md)
 * 리소스 관리 {#manage-resources}
    * [리소스 관리](resource-mgmt/manage-resources.md)
    * 리소스 관리 {#resource-management}

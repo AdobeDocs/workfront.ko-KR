@@ -6,10 +6,10 @@ description: 새로운 홈은 작업 관리를 위한 강력한 새로운 기능
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
+source-git-commit: e5bd25315062ad15ccd3448e008dfe94f1b616da
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 6%
+source-wordcount: '1135'
+ht-degree: 5%
 
 ---
 
@@ -67,7 +67,7 @@ Adobe Workfront의 새로운 홈 경험은 현재의 홈 경험을 개선하는 
 
   >[!NOTE]
   >
-  >할 일 위젯에서 할 일을 만들려면 작업을 만들 수 있는 권한이 있어야 합니다.
+  >할 일 위젯에서 할 일을 만들려면 작업을 만들 수 있는 권한이 있어야 하며 현재 사용자가 입력한 개인 작업만 위젯에 표시됩니다.
 
 기본적으로 홈 페이지는 라이선스 유형에 따라 몇 가지 특정 위젯으로 채워집니다. 아래 표는 각 라이선스 유형의 사용자가 새 홈으로 처음 이동할 때 표시되는 위젯에 대한 개요입니다.
 

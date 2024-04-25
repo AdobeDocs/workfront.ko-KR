@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5224c12a-7879-491b-87ec-6173bcf9525c
-source-git-commit: 912f46c87170d6b678d885ccc1fb0170526578df
+source-git-commit: e5bd25315062ad15ccd3448e008dfe94f1b616da
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '161'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Workfront 데이터 레이크는 Snowflake 기술을 사용하여 Workfront 데�
 Workfront 데이터 레이크에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
 * [Workfront 데이터 레이크 베타 정보](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
-* [리더 계정 만들기](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md)
+* [Snowflake을 위한 리더(서비스) 계정 만들기](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md)
+* [Workfront 데이터 레이크에 대한 연결 설정](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)
 * [Workfront 데이터 레이크 데이터 사전](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md)
-* [비즈니스 인텔리전스 도구 및 외부 데이터 웨어하우스와 데이터 레이크 데이터 공유](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)
 <!-- * [Basic Workfront data lake query examples](/help/quicksilver/reports-and-dashboards/data-lake/basic-query-examples.md) -->
