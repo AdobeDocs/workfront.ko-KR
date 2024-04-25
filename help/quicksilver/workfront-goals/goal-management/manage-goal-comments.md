@@ -6,9 +6,9 @@ description: Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1063'
 ht-degree: 0%
 
 ---
@@ -50,11 +50,9 @@ Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석을 추가할
 </td>
  </tr>
  <tr>
- <td role="rowheader">Adobe Workfront 라이센스*</td>
+ <td role="rowheader">Adobe Workfront 라이선스</td>
  <td>
- <p>새 라이선스: 기여자 이상</p>
- 또는
- <p>현재 라이선스: 요청 이상</p> </td>
+ <p>임의</td>
  </tr>
  <tr>
  <td role="rowheader">제품*</td>
@@ -65,7 +63,7 @@ Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석을 추가할
  </tr>
  <tr>
  <td role="rowheader">액세스 수준 구성</td>
- <td> <p>목표에 대한 보기 또는 상위 액세스</p> <p><b>메모</b><p>액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. 자세한 내용은 <span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Adobe Workfront 목표에 대한 액세스 권한 부여</a></span></td>
+ <td> <p>목표에 대한 보기 또는 상위 액세스</p> </td>
  </tr>
  <tr data-mc-conditions="">
  <td role="rowheader">개체 권한</td>
@@ -76,10 +74,15 @@ Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석을 추가할
  <p>목표 공유에 대한 자세한 내용은 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront 목표에서 목표 공유</a>. </p>
   </div> </td>
  </tr>
+ <tr>
+   <td role="rowheader"><p>레이아웃 템플릿</p></td>
+   <td> <p>Workfront 관리자를 포함한 모든 사용자에게 메인 메뉴의 목표 영역을 포함하는 레이아웃 템플릿을 할당해야 합니다. </p>  
+</td>
+  </tr>
 </tbody>
 </table>
 
-*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오. 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 전제 조건
 

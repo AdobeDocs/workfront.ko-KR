@@ -6,15 +6,14 @@ description: 개인 목표가 있는 개별 기여자의 경우 조직의 전략
 author: Alina
 feature: Workfront Goals
 exl-id: 4276f1c9-2ee9-4f74-b011-ae1e19fefe35
-source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
+source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 0%
+source-wordcount: '765'
+ht-degree: 1%
 
 ---
 
 # Adobe Workfront 목표에서 연결하여 목표 정렬
-
 
 개인 목표가 있는 개별 기여자의 경우 조직의 전략의 더 큰 컨텍스트에서 자체 목표의 진행 상황을 효과적으로 표시하기 위해 목표를 팀의 목표에 맞출 수 있습니다.
 
@@ -37,56 +36,54 @@ Adobe Workfront 목표에는 두 가지 접근 방식으로 목표를 연결할 
 다음 항목이 있어야 합니다.
 
 <table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-  <tr>
-   <td role="rowheader">Adobe Workfront 플랜*</td>
-   <td>
-   <p>새 플랜: 선택 이상</p>
-   또는
-   <p>현재 플랜: Pro 이상</p>
-   
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Adobe Workfront 라이센스*</td>
-   <td>
-   <p>현재 라이선스: 기여자 이상</p>
-   또는
-   <p>기존 라이선스: 요청 이상</p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">제품*</td>
-   <td>
-   <p> 다음 중 하나인 새 제품 요구 사항: </p>
+<col>
+</col>
+<col>
+</col>
+<tbody>
+ <tr>
+ <td role="rowheader">Adobe Workfront 플랜</td>
+ <td>
+ <p>임의</p>
+
+</td>
+ </tr>
+ <tr>
+ <td role="rowheader">Adobe Workfront 라이센스*</td>
+ <td>
+ <p>현재 라이선스: 기여자 이상</p>
+ 또는
+ <p>기존 라이선스: 요청 이상</p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">제품*</td>
+ <td>
+ <p> 다음 중 하나인 새 제품 요구 사항: </p>
 <ul>
 <li>Select 또는 Prime Adobe Workfront 플랜 및 추가 Adobe Workfront Goals 라이선스.</li>
 <li>기본적으로 Workfront 목표를 포함하는 Ultimate Workfront 계획입니다. </li></ul>
-   <p>또는</p>
-   <p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표 사용 요구 사항</a>. </p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">액세스 수준</td>
-   <td> <p>목표에 대한 액세스 편집</p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">개체 권한</td>
-   <td>
-    
-     <p>목표에 대한 또는 그 이상의 권한에 대한 보기</p>
-     <p>편집할 목표에 대한 권한 관리</p>
-     <p>목표 공유에 대한 자세한 내용은 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront 목표에서 목표 공유</a>. </p>
-     </td>
-  </tr>
+ <p>또는</p>
+ <p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표 사용 요구 사항</a>. </p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">액세스 수준</td>
+ <td> <p>목표에 대한 액세스 편집</p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">개체 권한</td>
+ <td>
+
+<p>목표에 대한 또는 그 이상의 권한에 대한 보기</p>
+  <p>편집할 목표에 대한 권한 관리</p>
+  <p>목표 공유에 대한 자세한 내용은 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront 목표에서 목표 공유</a>. </p>
+   </td>
+ </tr>
 <tr>
    <td role="rowheader"><p>레이아웃 템플릿</p></td>
    <td> <p>Workfront 관리자를 포함한 모든 사용자에게 메인 메뉴의 목표 영역을 포함하는 레이아웃 템플릿을 할당해야 합니다. </p>  
 </td>
   </tr>
- </tbody>
+</tbody>
 </table>
 
 *자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
