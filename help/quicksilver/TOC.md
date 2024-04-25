@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 80f20ef1020a7040f0a1f5fb47227764bf1f0b54
+source-git-commit: daa9aa361e58242754aee93b3db4e1499756f29c
 workflow-type: tm+mt
-source-wordcount: '14166'
+source-wordcount: '14183'
 ht-degree: 1%
 
 ---
@@ -1155,6 +1155,7 @@ ht-degree: 1%
          * [Experience Manager Assets 또는 Assets Essentials과 연결된 폴더 만들기](documents/adobe-workfront-for-experience-manager-assets-essentials/create-linked-folder.md)
          * [Experience Manager Assets 또는 Assets Essentials에서 에셋 및 폴더 연결 해제 또는 삭제](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/unlink-or-delete-aem-assets.md)
          * [Experience Manager Assets Essentials 통합에서 워크플로우 사용](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)
+         * [Workfront Fusion을 사용하여 Workfront 문제를 Adobe Experience Manager 워크플로가 포함된 프로젝트로 변환합니다](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-fusion-to-create-project-with-workflows.md)
          * [Adobe Experience Manager 통합 문제 해결](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
    * 레거시 또는 향상된 커넥터에서 마이그레이션 {#migrate-from-legacy-enhanced-connectors}
       * [레거시 또는 향상된 커넥터에서 마이그레이션](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
