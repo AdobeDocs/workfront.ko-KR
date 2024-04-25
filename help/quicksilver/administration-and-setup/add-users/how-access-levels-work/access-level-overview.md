@@ -10,9 +10,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 416ec4f50a03e0911053fe580ff7e6ca2e648a96
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: '1702'
 ht-degree: 5%
 
 ---
@@ -263,6 +263,7 @@ Standard 라이선스에 첨부된 이 기본 제공 액세스 수준은 Adobe W
 
 * 요청을 만들고 해당 요청을 업데이트할 수 있음
 * 문서를 업로드하고 승인할 수 있음
+* 프로젝트, 작업 및 문제를 승인할 수 있음
 * 제출한 문제의 상태를 검토할 수 있습니다.
 * 작업 항목에 할당할 수 있지만 완료할 수 없습니다.
 * 메인 메뉴에서만 요청에 액세스할 수 있습니다. 요청 대기열에 대한 자세한 내용은 [요청 대기열 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
