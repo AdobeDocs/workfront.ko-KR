@@ -12,14 +12,22 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: bd27f98191637a3efd11c732890be0091feca89c
+source-git-commit: 6497bfa1bf8236baaf4beee38078426b754e1241
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
 
 # 환경 프로모션 패키지 설치
+
+패키지를 만든 후에는 다른 환경에 설치할 수 있습니다.
+
+## 전제 조건
+
+패키지를 설치하려면 먼저 패키지를 생성해야 합니다.
+
+자세한 내용은 [환경 프로모션 패키지 만들기 또는 편집](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md).
 
 >[!NOTE]
 >
@@ -31,7 +39,7 @@ ht-degree: 0%
 1. 표시된 목록에서 패키지를 선택합니다.
 1. 충돌이 있는 각 개체에 대해 충돌 해결 방법을 선택합니다.
 
-   충돌을 해결하려면 객체 유형 옆의 드롭다운 화살표를 클릭하고 수행할 작업을 선택합니다.
+   충돌을 해결하려면 객체 유형 옆에 있는 드롭다운 화살표를 클릭하고 수행할 작업을 선택합니다.
 
    자세한 내용은 [충돌](#collisions) 이 문서에서
 1. 패키지를 새 환경에 배포하려면 **배포** 화면 오른쪽 상단에 있습니다.

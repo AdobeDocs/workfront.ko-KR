@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: 856b3422ef1e91a55a61acaee0bd4068a4508856
+source-git-commit: 6497bfa1bf8236baaf4beee38078426b754e1241
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,11 @@ ht-degree: 0%
 1. 목록에서 하나 이상의 객체를 선택하거나 검색 막대에 이름을 입력하고 목록에 표시될 때 객체를 선택합니다. 목록에서 개체를 두 개 이상 선택할 수 있습니다.
 1. 클릭 **추가(X 개체)** 을 클릭하여 선택한 개체를 패키지에 추가합니다.
 
-   예를 들어 프로젝트에 추가할 프로젝트를 세 개 선택한 경우 버튼에 다음과 같이 표시됩니다 **3개의 프로젝트 추가**.
+   >[!INFO]
+   >
+   >**예**
+   >
+   >프로젝트에 추가할 프로젝트를 세 개 선택한 경우 버튼에 다음과 같이 표시됩니다 **3개의 프로젝트 추가**.
 
    추가한 개체는 페이지 오른쪽의 패키지 콘텐츠 영역에 나타납니다.
 
@@ -59,7 +63,7 @@ ht-degree: 0%
 1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리에서 을(를) 클릭하고 **[!UICONTROL 설정]** ![설정 아이콘](/help/_includes/assets/gear-icon-setup.png).
 1. 선택 **시스템** 왼쪽 탐색에서 을(를) 선택합니다. **환경 프로모션**.
 1. 표시된 목록에서 패키지를 선택합니다.
-1. (조건부) 보관(사용 안 함) 패키지를 보려면 **중단된 패키지 표시** 옵션을 선택합니다.
+1. (조건부) 비활성화된 패키지를 보려면 **중단된 패키지 표시** 옵션을 선택합니다.
 1. (선택 사항) 모든 객체와 해당 하위 객체를 포함한 컨텐츠를 보려면 **내용** 섹션.
 1. (선택 사항) 이 패키지의 이전 설치 및 설치 시도를 보려면 **배포**.
 1. (선택 사항) 패키지를 편집하려면 **패키지 편집** 화면 오른쪽 상단에 있습니다.
