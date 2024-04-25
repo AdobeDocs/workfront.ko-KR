@@ -7,10 +7,10 @@ description: 정의한 필터에 따라 Workfront에 작업 및 문제를 추가
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 3e97df265df83965d094d8723fe76043ff4af80e
+source-git-commit: d593d288546abb4a674646519c6245563673b938
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 접수 열은 보드에 하나만 허용되며 항상 맨 왼쪽 열로 표시됩니다.
 
-접수 열은 동적 보드에서 사용할 수 없습니다.
+접수 열은 동적 보드에서 사용할 수 없습니다. 그러나 동적 보드로 가져올 카드를 정의하는 필터를 업데이트할 수 있습니다. 동적 보드에서 이러한 필터를 변경하면 Workfront 작업 또는 문제의 일부가 아닌 카드 설정(예: 태그)이 재설정됩니다.
 
 접수 열은 300개의 작업과 300개의 문제로 제한됩니다. 접수 열의 기본 항목 순서는 다음과 같습니다.
 

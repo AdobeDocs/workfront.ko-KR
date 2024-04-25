@@ -6,10 +6,10 @@ description: 다음에서 [!UICONTROL 게시판] 대시보드에서 새 보드�
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 0564fbf37b98d7c96ed9fccd832e96027562a85f
+source-git-commit: d593d288546abb4a674646519c6245563673b938
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -81,6 +81,8 @@ ht-degree: 1%
    1. (선택 사항) [!UICONTROL **고급 필터 사용**] 추가 필터 옵션을 표시합니다.
 
       이 프로세스는 접수 열에 필터를 만드는 프로세스와 동일합니다. 자세한 내용은 [보드에 접수 열 추가](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+
+      동적 보드를 만든 후 필터를 업데이트하면 Workfront 작업 또는 문제(예: 태그)에 포함되지 않은 카드 설정이 재설정됩니다.
 
    1. 필터를 추가한 후 다음을 클릭합니다. [!UICONTROL **보드 만들기**].
 
