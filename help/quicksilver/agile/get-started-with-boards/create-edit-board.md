@@ -6,10 +6,10 @@ description: 다음에서 [!UICONTROL 게시판] 대시보드에서 새 보드�
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: d593d288546abb4a674646519c6245563673b938
+source-git-commit: 1b91cac202151cd60f16b4ef034b60f840088aea
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '802'
+ht-degree: 1%
 
 ---
 
@@ -109,3 +109,4 @@ ht-degree: 0%
 1. 클릭 **[!UICONTROL 모든 게시판]** 을 눌러 보드 대시보드로 돌아갑니다.
 
    현재 보드 이름으로 레이블이 지정된 드롭다운 메뉴를 찾은 다음 클릭하여 다른 보드로 전환할 수도 있습니다.
+

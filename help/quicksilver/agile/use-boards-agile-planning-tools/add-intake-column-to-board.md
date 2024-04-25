@@ -7,10 +7,10 @@ description: 정의한 필터에 따라 Workfront에 작업 및 문제를 추가
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: d593d288546abb4a674646519c6245563673b938
+source-git-commit: 1b91cac202151cd60f16b4ef034b60f840088aea
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1090'
+ht-degree: 1%
 
 ---
 
@@ -162,3 +162,4 @@ ht-degree: 0%
    다음을 클릭합니다. **[!UICONTROL 자세히]** 메뉴 ![기타 메뉴 아이콘](assets/more-icon-spectrum.png) 카드에서 을(를) 선택하고 **[!UICONTROL 이동]**. 그런 다음 **[!UICONTROL 항목 이동]** 상자에서 다른 열을 선택하고 **[!UICONTROL 이동]**.
 
 1. (선택 사항) 접수 열을 삭제하려면 **[!UICONTROL 자세히]** 메뉴 ![기타 메뉴 아이콘](assets/more-icon-spectrum.png) 및 선택 **[!UICONTROL 삭제]**.
+
