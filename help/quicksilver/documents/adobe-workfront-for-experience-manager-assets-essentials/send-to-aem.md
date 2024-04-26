@@ -6,9 +6,9 @@ description: Workfront에서 Experience Manager Assets 또는 Assets Essentials�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
-source-git-commit: 706e531be6f6269a927f94fee4d2c37d9367c9af
+source-git-commit: 825e0a04b2a49d91f9c084fa42e876f9880b2d80
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '878'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # Experience Manager Assets 또는 Assets Essentials에게 문서 보내기
 
 Workfront에서 Experience Manager Assets 또는 Assets Essentials으로 문서를 보낼 수 있습니다. Workfront에서 Assets Essentials으로 업로드되고 전송된 문서는 여전히 전체 문서 스토리지에 대해 계산됩니다. Assets Essentials에서 연결된 자산은 전체 스토리지에 포함되지 않습니다.
+
+이 통합을 통해 Experience Manager으로 전송된 에셋의 크기 제한은 다음과 같습니다. **5GB**.
 
 메타데이터 필드는 에셋을 Workfront에서 Experience Manager Assets 또는 Assets Essentials으로 보낼 때 먼저 매핑됩니다. 상위 개체에 대해 매핑하도록 구성된 메타데이터도 전송됩니다. 메타데이터 매핑 구성에 대한 자세한 내용은 [Experience Manager Assets as a Cloud Service 통합 구성](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) 또는 [Experience Manager Assets Essentials 통합 구성](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
@@ -33,7 +35,7 @@ Workfront에서 Experience Manager Assets 또는 Assets Essentials으로 문서�
  <tbody> 
   <tr> 
    <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront 플랜</a>*</td> 
-   <td> <p> 모든</p> </td> 
+   <td> <p> 임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">기존 라이선스 개요</a>*</td> 
