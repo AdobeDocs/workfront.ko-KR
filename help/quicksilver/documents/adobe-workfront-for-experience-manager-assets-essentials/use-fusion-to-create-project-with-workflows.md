@@ -6,9 +6,9 @@ description: Workfront Fusion을 통해 프로젝트를 생성하고 프로젝�
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
 exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
-source-git-commit: 13f689c4ee404c07be6b9cf9c526bef8dca878ff
+source-git-commit: 1677ed676a5ccb4f519cc81bf3b31cc90b8326b4
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
@@ -54,14 +54,14 @@ Workfront Fusion을 통해 프로젝트를 생성하고 프로젝트에 Adobe Ex
   <b>Workfront Fusion</b>:<p>신규:</p>
    <ul>
    <li>
-   <p>[!UICONTROL Select] 또는 [!UICONTROL Prime] [!DNL Workfront] 플랜: 조직에서 구매해야 합니다. [!DNL Adobe Workfront Fusion].</p>
+   <p>Select 또는 Prime Workfront 플랜: 조직에서 Adobe Workfront Fusion을 구매해야 합니다.</p>
    </li>
    <li> 
-   <p>[!UICONTROL Ultimate] [!DNL Workfront] 플랜: [!DNL Workfront Fusion] 포함됩니다.</p>
+   <p>Ultimate Workfront Plan: Workfront Fusion이 포함됩니다.</p>
    </li>
    </ul>
    <p>또는</p>
-   <p>현재: 조직에서 구매해야 합니다. [!DNL Adobe Workfront Fusion].</p>
+   <p>현재: 조직은 Adobe Workfront Fusion을 구매해야 합니다.</p>
    </td>
   </tr>
   <tr>
