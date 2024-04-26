@@ -6,7 +6,7 @@ description: Workfront Fusion을 통해 프로젝트를 생성하고 프로젝�
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
 exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
-source-git-commit: 1677ed676a5ccb4f519cc81bf3b31cc90b8326b4
+source-git-commit: 605065896263ebbb761883689668be181b5012e3
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Workfront Fusion을 통해 프로젝트를 생성하고 프로젝트에 Adobe Ex
    <p>Adobe Experience Manager의 저장소에 대한 쓰기 액세스 권한이 있어야 합니다.</p>
    </li>
    </ul>
-  <b>Workfront Fusion</b>:<p>신규:</p>
+   <b>Workfront Fusion</b>:<p>신규:</p>
    <ul>
    <li>
    <p>Select 또는 Prime Workfront 플랜: 조직에서 Adobe Workfront Fusion을 구매해야 합니다.</p>
@@ -68,8 +68,8 @@ Workfront Fusion을 통해 프로젝트를 생성하고 프로젝트에 Adobe Ex
    <td><strong>액세스 수준 구성*</strong>
    </td>
    <td>문서에 대한 액세스 편집
-<p>
-<strong>참고: </strong>여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <strong>사용자 정의 액세스 수준 만들기 또는 수정</strong>.
+   <p>
+   <strong>참고: </strong>여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <strong>사용자 정의 액세스 수준 만들기 또는 수정</strong>.
    </td>
   </tr>
 </table>
@@ -174,4 +174,3 @@ Workfront Fusion에서 Adobe Experience Manager 워크플로가 포함된 프로
 Fusion에서 모듈의 연결을 구성할 때 이 클라이언트 ID와 클라이언트 암호를 사용합니다.
 
 연결 만들기에 대한 지침은 [연결 [!DNL Workfront] 끝 [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#connect-workfront-to-workfront-fusion) 문서 Workfront 모듈에서
-
