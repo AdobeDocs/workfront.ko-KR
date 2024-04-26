@@ -6,7 +6,7 @@ description: 이미 보류 중인 승인이 있는 문서에 승인자 또는 �
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 8321138e6bc2c789a3f4f0fc97fb4fb01ad429ae
+source-git-commit: 04743d6915c938564dc349db4e438682ea220ebc
 workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 1%
@@ -55,9 +55,11 @@ ht-degree: 1%
 
 요청을 받은 문서를 검토하거나 승인하려는 사용자의 경우 다음 목록에 있는 문서를 참조하십시오. [문서 검토: 문서 색인](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
 
-새 문서 승인은 현재 보고 도구에서 지원되지 않습니다. 새 홈 및 캔버스 대시보드에서 사용할 수 있는 모든 승인 위젯에는 새 문서 승인에 대한 다음과 같은 세부 정보가 제공됩니다.
-
-* 결정에 의한 승인
-* 평균 승인 시간
-* 보류 중인 승인
-* 기한이 경과된 승인
+>[!IMPORTANT]
+>
+>새 문서 승인은 현재 보고 도구에서 지원되지 않습니다. 새 홈 및 캔버스 대시보드에서 사용할 수 있는 모든 승인 위젯은 새 문서 승인에 대한 다음 세부 정보를 제공합니다.
+>
+>* 결정에 의한 승인
+>* 평균 승인 시간
+>* 보류 중인 승인
+>* 기한이 경과된 승인
