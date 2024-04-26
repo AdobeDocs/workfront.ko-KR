@@ -5,7 +5,8 @@ title: Workfront Fusion을 사용하여 Adobe Experience Manager 워크플로가
 description: Workfront Fusion을 통해 프로젝트를 생성하고 프로젝트에 Adobe Experience Manager 워크플로를 포함하려는 경우 이 문서에 설명된 특정 Fusion 모듈 구성을 사용해야 합니다.
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
-source-git-commit: 308118e94f76ac1fb070282d31fbba5cac5312fe
+exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
+source-git-commit: 13f689c4ee404c07be6b9cf9c526bef8dca878ff
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 0%
@@ -41,8 +42,25 @@ Workfront Fusion을 통해 프로젝트를 생성하고 프로젝트에 Adobe Ex
   <tr>
    <td><strong>제품</strong>
    </td>
-   <td><b>Adobe Experience Manager<b>:<ul><li><p>Experience Manager Assets as a Cloud Service 또는 Assets Essentials이 있어야 하며, Admin Console에서 사용자로 제품에 추가되어야 합니다.</p></li><li><p>Adobe Experience Manager의 저장소에 대한 쓰기 액세스 권한이 있어야 합니다.</p></li></ul>
-  <b>Workfront Fusion</b>:<p>신규:</p> <ul><li>[!UICONTROL Select] 또는 [!UICONTROL Prime] [!DNL Workfront] 플랜: 조직에서 구매해야 합니다. [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] 플랜: [!DNL Workfront Fusion] 포함됩니다.</li></ul>   <p>또는</p>
+   <td><b>Adobe Experience Manager<b>:
+   <ul>
+   <li>
+   <p>Experience Manager Assets as a Cloud Service 또는 Assets Essentials이 있어야 하며, Admin Console에서 사용자로 제품에 추가되어야 합니다.</p>
+   </li
+   ><li>
+   <p>Adobe Experience Manager의 저장소에 대한 쓰기 액세스 권한이 있어야 합니다.</p>
+   </li>
+   </ul>
+  <b>Workfront Fusion</b>:<p>신규:</p>
+   <ul>
+   <li>
+   <p>[!UICONTROL Select] 또는 [!UICONTROL Prime] [!DNL Workfront] 플랜: 조직에서 구매해야 합니다. [!DNL Adobe Workfront Fusion].</p>
+   </li>
+   <li> 
+   <p>[!UICONTROL Ultimate] [!DNL Workfront] 플랜: [!DNL Workfront Fusion] 포함됩니다.</p>
+   </li>
+   </ul>
+   <p>또는</p>
    <p>현재: 조직에서 구매해야 합니다. [!DNL Adobe Workfront Fusion].</p>
    </td>
   </tr>
@@ -156,7 +174,4 @@ Workfront Fusion에서 Adobe Experience Manager 워크플로가 포함된 프로
 Fusion에서 모듈의 연결을 구성할 때 이 클라이언트 ID와 클라이언트 암호를 사용합니다.
 
 연결 만들기에 대한 지침은 [연결 [!DNL Workfront] 끝 [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#connect-workfront-to-workfront-fusion) 문서 Workfront 모듈에서
-
-
-
 
