@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: c24adf93172d002ea636904d62f531a8e69aace4
+source-git-commit: 948cd81908df3174eb985d1c65533077d3ef5d49
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 0%
+source-wordcount: '433'
+ht-degree: 8%
 
 ---
 
@@ -31,7 +31,7 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-기존 필드를 참조하고 수식으로 연결하여 Adobe Workfront Planning에서 사용자 정의 필드를 만들 수 있습니다. 사용자 정의 공식 유형 필드를 생성하여 이 작업을 수행할 수 있습니다.
+기존 필드를 참조하고 수식 유형 필드에서 연결하여 Adobe Workfront Planning에서 사용자 정의 필드를 만들 수 있습니다.
 
 공식 필드는 레코드 유형의 다른 필드에 있는 기존 값과 기존 값을 계산하는 방법을 나타내는 함수를 사용하여 새 값을 생성합니다.
 
@@ -154,7 +154,7 @@ Adobe Workfront Planning 공식 필드는 Workfront 계산된 필드의 모든 �
 
 <tr> 
    <td><strong>WEEKOFYEAR</strong> </td> 
-   <td> <p>일 년 단위의 주 번호를 반환합니다. 주간이 시작되는 요일을 지정할 수도 있습니다(일요일의 경우 1, 월요일의 경우 2 사용). 생략된 경우 기본적으로 주는 일요일에 시작됩니다.</p> <p>표현식의 형식은 다음과 같습니다.
+   <td> <p>1년의 주 수를 반환합니다. 선택적으로 주가 시작되는 요일을 지정할 수 있습니다(일요일은 1, 월요일은 2 사용). 생략하면 기본적으로 주가 일요일에 시작됩니다.</p> <p>표현식의 형식은 다음과 같습니다.
 
 <code>WEEKOFYEAR(일자,2)</code>
 또는
