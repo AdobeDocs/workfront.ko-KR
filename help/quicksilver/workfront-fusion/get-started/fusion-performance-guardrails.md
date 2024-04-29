@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion에는 Adobe Workfront 라이센스 외에 Ad
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: 00ef33666bebe434739056cb38c3dff24285d682
+source-git-commit: c35b1bc54719a6c9a056d2ddd08c953c0bae03b7
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '570'
 ht-degree: 1%
 
 ---
@@ -72,6 +72,10 @@ Workfront Fusion은 Chrome 기반 브라우저만 지원합니다.
 ## 실행 기록
 
 * 실행 기록 로그의 크기는 다음과 같이 제한됩니다. **100MB**. 실행 기록이 이 크기를 초과하면 처음 100MB만 표시됩니다.
+
+## 불완전한 실행
+
+불완전한 실행은 총 크기로 제한됩니다. **500MB**. 500MB 제한에 도달하면 더 이상 완료되지 않은 실행이 저장되지 않습니다.
 
 ## 재시도
 
