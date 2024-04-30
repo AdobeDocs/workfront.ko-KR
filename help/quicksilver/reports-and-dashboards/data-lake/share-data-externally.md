@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: e5bd25315062ad15ccd3448e008dfe94f1b616da
+source-git-commit: 508e3c786bc6cfe676fb2cb33080c99b76c3d6a0
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '502'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ Workfront 데이터 레이크 데이터를 외부 제품과 연결하려면에 �
 
 1. 을(를) 클릭합니다 **허용된 IP** 탭을 클릭한 다음 **허용 목록에 추가하다 IP 주소를 IP에 추가** 단추를 클릭합니다.
 
-1. 에 IP 주소 이름을 입력하십시오. **IP 주소 설명** 에서 사용할 도구의 IP 주소를 입력하십시오. **IP 주소**&#x200B;을 클릭한 다음 을 클릭합니다 **IP를 허용 목록에 추가**.
+1. 에 IP 주소 이름을 입력하십시오. **IP 주소 설명** 에서 사용할 도구의 IP 주소(또는 CIDR 블록)를 입력하십시오. **IP 주소**&#x200B;을 클릭한 다음 을 클릭합니다 **IP를 허용 목록에 추가**.
 
    ![IP 주소 추가](/help/quicksilver/reports-and-dashboards/data-lake/assets/add-IP-allowlist.png) {width="500"}
 
