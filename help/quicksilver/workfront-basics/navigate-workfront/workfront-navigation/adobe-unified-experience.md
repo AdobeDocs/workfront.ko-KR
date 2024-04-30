@@ -3,12 +3,12 @@ product-area: workfront-navigation
 navigation-topic: workfront-navigation
 title: 통합 경험 Adobe [!DNL Workfront]
 description: 액세스 [!DNL Workfront] Adobe Experience Cloud을 통해 모든 Adobe 애플리케이션을 원활하게 관리할 수 있는 통합된 환경을 제공합니다.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: 4331917d133c52cf727f148b75a213853c1e5679
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,13 @@ ht-degree: 0%
 # [!DNL Workfront]에 대한 [!DNL Adobe Unified Experience]
 
 액세스 [!DNL Workfront] 에서 [!DNL Adobe Experience Cloud] 는 모든 환경을 완벽하게 관리할 수 있는 통합 환경을 제공합니다. [!DNL Adobe] 응용 프로그램. 단일 ID 관리를 사용하면 여러 URL이나 로그인 ID 없이 한 곳에서 로그인할 수 있습니다.
+
+조직이 Adobe 통합 환경에 있는지 확인하려면 Workfront에 액세스하는 데 사용하는 URL을 검사하십시오.
+
+| URL | Adobe 경험 |
+|------------|------------|
+| (CompanyName).my.workfront.com | Workfront 경험 |
+| experience.adobe.com | 통합 경험 Adobe |
 
 ## 액세스 요구 사항
 
@@ -27,7 +34,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 플랜*</strong></td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 

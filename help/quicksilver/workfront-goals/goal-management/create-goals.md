@@ -6,9 +6,9 @@ description: CEO, 관리자 또는 개별 기여자에 관계없이 Adobe Workfr
 author: Alina
 feature: Workfront Goals
 exl-id: 14bf48b6-eb0c-4b00-a1a4-0d070ccc1392
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '727'
 ht-degree: 5%
 
 ---
@@ -27,14 +27,19 @@ CEO, 관리자 또는 개별 기여자에 관계없이 Adobe Workfront 목표에
 <col>
 </col>
 <tbody>
- <tr>
- <td role="rowheader">Adobe Workfront 플랜</td>
- <td>
- <p>임의</p>
-
-</td>
- </tr>
- <tr>
+<tr> 
+   <td role="rowheader">Adobe Workfront 플랜*</td> 
+   <td> 
+   <p>새 플랜 및 라이선스 구조의 경우:
+  <ul><li>궁극적인 플랜 </li>
+  또는
+  <li>Prime 또는 Select Adobe Workfront 플랜에 대한 Adobe Workfront Goals에 대한 추가 라이센스입니다. </li></ul> </p>
+<p>현재 플랜 및 라이선스 구조의 경우: 
+<ul><li> Pro 이상 </li>
+  <li>Workfront 라이선스 외에 Adobe Workfront Goals 라이선스.</li></ul></p>
+   </td> 
+  </tr>
+  <tr>
  <td role="rowheader">Adobe Workfront 라이센스*</td>
  <td>
  <p>새 라이선스: 기여자 이상</p>
@@ -52,7 +57,7 @@ CEO, 관리자 또는 개별 기여자에 관계없이 Adobe Workfront 목표에
  <p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표 사용 요구 사항</a>. </p> </td>
  </tr>
 <tr>
-<td role="rowheader">액세스 수준*</td>
+<td role="rowheader">액세스 수준</td>
 <td> <p>목표에 대한 액세스 편집</p> </td>
 </tr>
 <tr data-mc-conditions="">

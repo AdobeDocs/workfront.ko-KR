@@ -1,61 +1,51 @@
 ---
 product-previous: workfront-goals
 navigation-topic: workfront-goals-settings
-title: Adobe Workfront 목표 용어 사용자 지정
-description: Workfront 또는 그룹 관리자는 조직의 용어와 더 잘 일치하도록 Workfront 목표에 있는 개체의 이름을 사용자 지정할 수 있습니다.
+title: Adobe Workfront 목표 용어 사용자 정의
+description: Workfront 또는 그룹 관리자는 조직의 용어와 더 잘 일치하도록 Workfront 목표의 개체 이름을 사용자 정의할 수 있습니다.
 author: Alina
 feature: Workfront Goals
 exl-id: a3b3e61e-c385-429b-856b-7579b02c9946
-source-git-commit: a9a43cba127917be5c030b79fa099a960c1dcd56
+source-git-commit: 514c4ea3eb603bb7a614e4b37abec4272a5febc7
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '247'
 ht-degree: 1%
 
 ---
 
-# Adobe Workfront 목표 용어 사용자 지정
+# Adobe Workfront 목표 용어 사용자 정의
 
-<!--drafted for P&P new model: the note at the top will need to be replaced with this:
+이 문서에 설명된 기능을 사용하려면 조직에 다음 사항이 있어야 합니다.
 
-Your organization must have the following to use the functionality described in this article:
+* 현재 플랜 및 라이선스 구조의 경우:
 
-* For the legacy plan and license structure: 
+   * Pro 이상 [Adobe Workfront 플랜](https://www.workfront.com/plans).
+   * Workfront 라이선스 외에 Adobe Workfront Goals 라이선스.
 
-  * A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans). 
-  * An Adobe Workfront Goals license in addition to a Workfront license.
+* 새 플랜 및 라이선스 구조의 경우:
 
-* For the current plan and license structure:
+   * 궁극적인 플랜
 
-  * An Ultimate plan 
-    
-    Or
-    
-    An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. <is there a link we can add here for the plans and what they contain?!>
+     또는
 
-Contact your Workfront account manager to learn about a Workfront Goals license.
+     Prime 또는 Select Adobe Workfront 플랜에 대한 Adobe Workfront Goals에 대한 추가 라이센스입니다.
 
-For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../workfront-goals/goal-management/access-needed-for-wf-goals.md).
--->
+Workfront Goals 라이선스에 대한 자세한 내용은 Workfront 계정 관리자에게 문의하십시오.
 
-이 문서에 설명된 기능을 사용하려면 조직에 다음 내용이 있어야 합니다.
+Workfront 목표 액세스에 대한 자세한 내용은 을 참조하십시오. [Workfront 목표 사용 요구 사항](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-* Pro 이상 [Adobe Workfront 플랜](https://www.workfront.com/plans).
-* Workfront 라이선스 외에 Adobe Workfront 목표 라이선스.
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-   Workfront 목표 라이센스에 대한 자세한 내용은 Workfront 계정 관리자에게 문의하십시오.
+Workfront 또는 그룹 관리자는 조직의 용어와 더 잘 일치하도록 Workfront 목표의 개체 이름을 사용자 정의할 수 있습니다.
 
-Workfront 목표 액세스에 대한 자세한 내용은 [Workfront 목표 사용 요구 사항](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+예를 들어 조직에서 &quot;목표&quot; 개념을 사용하지 않을 수 있지만 &quot;목표&quot; 개념을 사용합니다. Workfront 또는 그룹 관리자는 모든 사람 또는 그룹의 사람에 대한 Workfront 목표의 모든 위치에서 이름 &quot;목표&quot;를 &quot;목표&quot;로 바꿀 수 있습니다.
 
-Workfront 또는 그룹 관리자는 조직의 용어와 더 잘 일치하도록 Workfront 목표에 있는 개체의 이름을 사용자 지정할 수 있습니다.
-
-예를 들어, 조직은 &quot;목표&quot;의 개념을 사용하지 않을 수 있지만 &quot;목표&quot;의 개념을 사용합니다. Workfront 또는 그룹 관리자는 Workfront 목표에 있는 모든 사람 또는 해당 그룹에 있는 사람을 위해 &quot;목표&quot;라는 이름을 &quot;목표&quot;로 바꿀 수 있습니다.
-
-관리자는 레이아웃 템플릿을 사용하여 다음 Workfront 목표 개체 이름을 사용자 지정하고 Workfront 목표 사용자에게 할당할 수 있습니다.
+관리자는 레이아웃 템플릿을 사용하여 다음 Workfront Goals 오브젝트 이름을 사용자 정의하고 Workfront Goals 사용자에게 할당할 수 있습니다.
 
 * 목표
 * 결과
 * 활동
 
-Workfront 목표 용어 사용자 지정은 Workfront의 용어 사용자 지정과 동일합니다.
+Workfront 목표 용어 맞춤화는 Workfront의 용어 맞춤화와 동일합니다.
 
-Workfront의 용어 사용자 지정에 대한 자세한 내용은 [레이아웃 템플릿을 사용하여 사용자 인터페이스 용어 사용자 지정](../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).
+Workfront에서 용어 맞춤화에 대한 자세한 내용은 [레이아웃 템플릿을 사용하여 사용자 인터페이스 용어 맞춤화](../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).

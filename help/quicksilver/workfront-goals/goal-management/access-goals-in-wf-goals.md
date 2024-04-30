@@ -6,9 +6,9 @@ description: 이 문서에서는 Adobe Workfront에서 목표를 찾고 관리�
 author: Alina
 feature: Workfront Goals
 exl-id: a729f334-6ca4-4cf5-a3ef-01a7effb7153
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '479'
 ht-degree: 1%
 
 ---
@@ -29,9 +29,15 @@ ht-degree: 1%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td role="rowheader">Adobe Workfront 플랜*</td> 
    <td> 
-   <p>임의</p>
+   <p>새 플랜 및 라이선스 구조의 경우:
+  <ul><li>궁극적인 플랜 </li>
+  또는
+  <li>Prime 또는 Select Adobe Workfront 플랜에 대한 Adobe Workfront Goals에 대한 추가 라이센스입니다. </li></ul> </p>
+<p>현재 플랜 및 라이선스 구조의 경우: 
+<ul><li> Pro 이상 </li>
+  <li>Workfront 라이선스 외에 Adobe Workfront Goals 라이선스.</li></ul></p>
    </td> 
   </tr> 
   <tr> 

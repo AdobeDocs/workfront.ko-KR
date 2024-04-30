@@ -3,101 +3,106 @@ content-type: overview
 product-previous: workfront-goals
 navigation-topic: goal-review-and-sections
 title: Adobe Workfront 목표 섹션 개요
-description: 목표 또는 개별 목표 목록에 액세스하고 Adobe Workfront 목표의 여러 섹션에서 관리할 수 있습니다. 사용 중인 섹션은 목표 작업 시 달성하려는 목적에 따라 다릅니다.
+description: 목표 또는 개별 목표 목록에 액세스하고 Adobe Workfront 목표의 여러 섹션에서 관리할 수 있습니다. 사용할 섹션은 목표를 사용하여 작업할 때 달성하고자 하는 목적에 따라 다릅니다.
 author: Alina
 feature: Workfront Goals
 exl-id: 915f8c62-e35a-41a0-8a63-40c28468c55a
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 0%
+source-wordcount: '698'
+ht-degree: 2%
 
 ---
 
 # Adobe Workfront 목표 섹션 개요
 
+이 문서에 설명된 기능을 사용하려면 조직에 다음 사항이 있어야 합니다.
 
->[!NOTE]
->
->이 문서에 설명된 기능을 사용하려면 조직에 다음 내용이 있어야 합니다.
->
->* Pro 이상 [Adobe Workfront 플랜](https://www.workfront.com/plans).
->* Workfront 라이선스 외에 Adobe Workfront 목표 라이선스.
->
->  Workfront 목표 라이센스에 대한 자세한 내용은 Workfront 계정 관리자에게 문의하십시오.
->
->Workfront 목표 액세스에 대한 자세한 내용은 [Workfront 목표 사용 요구 사항](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+* 새 플랜 및 라이선스 구조의 경우:
 
-Workfront 관리자가 Workfront 목표에 대한 액세스 권한을 부여하면 사용자 또는 Workfront 목표 영역에서 조직의 다른 사용자가 만든 목표를 볼 수 있습니다.
+   * 궁극적인 플랜
 
-목표 또는 개별 목표 목록에 액세스하고 Workfront 목표의 여러 섹션에서 관리할 수 있습니다. 사용 중인 섹션은 목표 작업 시 달성하려는 목적에 따라 다릅니다.
+     또는
 
-필터를 적용하여 각 섹션에 중요한 목표만 표시할 수 있습니다.
+     Prime 또는 Select Adobe Workfront 플랜에 대한 Adobe Workfront Goals에 대한 추가 라이센스입니다. 자세한 내용은 [Adobe Workfront 플랜](https://www.workfront.com/plans).
+
+* 현재 플랜 및 라이선스 구조의 경우:
+
+   * Pro 이상
+   * Workfront 라이선스 외에 Adobe Workfront Goals 라이선스.
+
+Workfront Goals 라이선스에 대한 자세한 내용은 Workfront 계정 관리자에게 문의하십시오.
+
+Workfront 관리자가 Workfront 목표에 대한 액세스 권한을 부여하면 본인이나 조직의 다른 사용자가 Workfront 목표 영역에서 만든 목표를 볼 수 있습니다.
+
+목표 또는 개별 목표 목록에 액세스하고 Workfront 목표의 여러 섹션에서 관리할 수 있습니다. 사용할 섹션은 목표 작업을 수행할 때 달성하고자 하는 목적에 따라 다릅니다.
+
+필터를 적용하여 각 섹션에서 자신에게 중요한 목표만 표시할 수 있습니다.
 
 >[!TIP]
 >
->한 섹션에서 업데이트된 필터는 목표 목록, 그래프 및 목표 정렬 섹션에 자동으로 적용됩니다. 이 방법으로 한 번만 업데이트할 수 있습니다. 자세한 내용은 [Adobe Workfront 목표에서 정보 필터링](../../workfront-goals/goal-management/filter-information-wf-goals.md).
+>한 섹션에서 업데이트된 필터는 목표 목록, 그래프 및 목표 정렬 섹션에 자동으로 적용됩니다. 이렇게 하면 한 번만 업데이트할 수 있습니다. 자세한 내용은 [Adobe Workfront 목표의 정보 필터링](../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
-다음은 Workfront 목표 섹션과 목표 관리에 사용할 수 있는 옵션에 대한 간략한 개요입니다. Workfront 목표의 각 섹션 내에서 수행할 수 있는 추가 작업에 대한 자세한 내용은 다음 문서를 참조하십시오.
+다음은 Workfront 목표 의 섹션과 목표 관리에 사용할 수 있는 옵션에 대한 간략한 개요입니다. Workfront 목표의 각 섹션 내에서 수행할 수 있는 추가 작업에 대한 자세한 내용은 다음 문서도 참조하십시오.
 
 * [Adobe Workfront 목표에서 목표 만들기](../../workfront-goals/goal-management/create-goals.md)
-* [Adobe Workfront 목표에서 목표 진행 상태 업데이트](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
-* [Adobe Workfront 목표에서 정보 필터링](../../workfront-goals/goal-management/filter-information-wf-goals.md)
+* [Adobe Workfront 목표의 목표 진행 상황 업데이트](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
+* [Adobe Workfront 목표의 정보 필터링](../../workfront-goals/goal-management/filter-information-wf-goals.md)
 
 
 ## 목표 목록
 
-목표 목록을 사용하여 사용자, 팀, 그룹 또는 조직에 속한 목표를 검토할 수 있습니다. 모든 상태 및 기간에서 목표를 볼 수 있습니다.
+목표 목록을 사용하여 사용자, 팀, 그룹 또는 조직에 속한 목표를 검토할 수 있습니다. 모든 상태와 기간에서 목표를 볼 수 있습니다.
 
-목표 목록 탐색 및 목표 관리에 대한 자세한 내용은 [Adobe Workfront 목표 목표 목표 목표 목록에서 목표 관리](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md).
+목표 목록 탐색 및 목표 관리에 대한 자세한 내용은 [Adobe Workfront 목표의 목표 목록에서 목표 관리](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md).
 
 ![](assets/goal-list-unshimmed.png)
 
 목표 목록을 사용하여 다음을 수행합니다.
 
 * 사용자, 팀, 그룹 또는 조직에 속한 목표를 봅니다.
-* 목표 및 해당 정보(예: 이름, 소유자, 진행률 또는 조건)를 검토합니다.
+* 목표 및 해당 정보(예: 이름, 소유자, 진행 상황 또는 조건)를 검토합니다.
 * 새 목표를 추가합니다.
 
-   자세한 내용은 [Adobe Workfront 목표에서 목표 만들기](../../workfront-goals/goal-management/create-goals.md).
+  자세한 내용은 [Adobe Workfront 목표에서 목표 만들기](../../workfront-goals/goal-management/create-goals.md).
 
-* 목표 페이지에 액세스하여 목표, 결과 또는 활동을 편집하고 업데이트합니다
+* 목표의 페이지에 액세스하고 목표, 결과 또는 활동을 편집하고 업데이트합니다
 
-   자세한 내용은 [Adobe Workfront 목표에서 목표 편집](../../workfront-goals/goal-management/edit-goals.md).
+  자세한 내용은 [Adobe Workfront 목표의 목표 편집](../../workfront-goals/goal-management/edit-goals.md).
 
 * 목표 편집.
 
 ## 그래프
 
-그래프 섹션을 사용하여 사용자 또는 조직에 속한 목표의 상태를 전체적으로 확인할 수 있습니다. 이 섹션의 모든 기간에서 임의의 상태의 목표 진행 정보를 볼 수 있습니다.
+그래프 섹션을 사용하여 사용자 또는 조직에 속한 목표의 상태에 대한 거시적인 보기를 얻을 수 있습니다. 이 섹션에서 기간의 모든 상태에 있는 목표의 진행 정보를 볼 수 있습니다.
 
-그래프 섹션 사용에 대한 자세한 내용은 [Adobe Workfront 목표의 목표 진행 상황을 이해하려면 그래프를 검토하십시오](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
+그래프 섹션 사용에 대한 자세한 내용은 다음을 참조하십시오. [그래프를 검토하여 Adobe Workfront 목표의 목표 진행 트렌드를 파악합니다](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
 
 ![](assets/graphs-section-unshimmed.png)
 
 그래프 섹션을 사용하여 다음을 수행합니다.
 
-* 사용자, 팀, 그룹 또는 조직에 속한 목표 성과를 확인합니다.
-* 주어진 진행 상태를 사용하여 목표 수를 확인합니다.
+* 사용자, 팀, 그룹 또는 조직에 속한 목표의 성과를 봅니다.
+* 주어진 진행 상태의 목표 수를 확인합니다.
 * 매주 목표가 어떻게 수행되는지 이해합니다.
 
 ## 목표 정렬
 
-목표가 서로 정렬되어 있는 경우 목표 정렬 섹션을 사용하여 조직의 모든 목표와 목표에 대한 정렬을 서로 표시 및 검토할 수 있습니다. 연결된 카드에 정렬된 목표는 서로 정렬되어 있음을 나타냅니다. 상위 목표가 먼저 표시되고 하위 목표가 그 뒤로 누적됩니다. 이 섹션의 모든 상태 및 기간에 목표를 볼 수 있습니다.
+목표가 서로 일치하면 목표 정렬 섹션을 사용하여 조직의 모든 목표와 목표를 서로 정렬한 사항을 표시하고 검토할 수 있습니다. 정렬된 목표는 여기에 연결된 카드에 표시되어 서로 정렬된 상태를 보여 줍니다. 상위 목표가 먼저 표시되고 하위 목표가 그 뒤에 쌓입니다. 이 섹션에서 모든 상태 및 기간의 목표를 볼 수 있습니다.
 
-목표 관리를 위한 목표 정렬 섹션 탐색에 대한 자세한 내용은 다음을 참조하십시오 [Adobe Workfront 목표의 목표 정렬 섹션으로 이동합니다](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
+목표 정렬 섹션을 탐색하여 목표를 관리하는 방법에 대한 자세한 내용은 [Adobe Workfront 목표의 목표 정렬 섹션 탐색](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
 
 목표 정렬에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
-* [Adobe Workfront 목표에 연결하여 목표 정렬](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
+* [Adobe Workfront 목표에서 연결하여 목표 정렬](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
 * [결과 및 활동을 목표로 변환하여 목표 정렬](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
 
 ![](assets/goal-alignment-section-unshimmed.png)
 
-목표 정렬 섹션을 사용하여 다음을 수행합니다.
+[목표 정렬] 섹션을 사용하여 다음을 수행합니다.
 
 * 사용자 또는 조직에 속한 목표를 카드 형식으로 봅니다.
-* 목표 계층 구조를 표시하고 정렬된 하위 목표를 봅니다.
+* 목표 계층을 표시하고 정렬된 하위 목표를 봅니다.
 * 목표 페이지에 액세스하여 목표, 결과 또는 활동을 업데이트합니다.
 
 <!--

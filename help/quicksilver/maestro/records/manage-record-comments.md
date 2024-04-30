@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1153'
 ht-degree: 0%
 
 ---
@@ -47,11 +47,21 @@ ht-degree: 0%
 
 * 사용자에 태그를 지정하여 업데이트에 주의를 기울일 수 있습니다. 태그가 지정된 사용자가 인앱 알림이나 업데이트에 대한 이메일을 받지 않습니다. <!--this might change??-->
 
+<!--replace the bullet above with this: * You can tag users to bring their attention to an update. Tagged users receive an in-app notification or an email notification about your update. 
+   The following scenario exists:   
+
+   * Adobe Unified Experience users receive both an in-app notification and an email notification. 
+   * Users who are not in the Adobe Unified Experience receive only an email notification. 
+
+      For information, see [Adobe Workfront Planning notifications: article index](/help/quicksilver/maestro/notifications/notifications-information.md)
+   
+      To determine whether your company is using the Adobe Unified Experience, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+      -->
+
 * 레코드에 업데이트를 추가하고 Workfront Planning의 다음 영역에서 변경 내역을 검토할 수 있습니다.
 
-   * 레코드 페이지에서.
-
-  <!--* From the table view.-->
+   * 레코드 세부 정보 페이지에서.
+   * 보기에서 레코드 세부 정보 상자의
 
 ## 액세스 요구 사항
 
@@ -132,6 +142,9 @@ ht-degree: 0%
    * 변경 내용을 취소하려면 CTRL+Z(Mac의 경우 ⌘+z)
    * CTRL+Y(Mac의 경우 ⌘+y) 를 눌러 변경 사항을 재실행합니다
 1. (선택 사항) 추가 **@** 뒤에 업데이트의 사용자를 태깅할 사용자 이름이 옵니다.
+
+   <!--Adobe Unified Experience users can receive an in-app and an email notification when they are tagged. All other users receive an email when they are tagged. For more information, see the section [Considerations about commenting on a record](#considerations-about-commenting-on-a-record) in this article. -->
+
 1. (선택 사항) 리치 텍스트 도구 모음의 옵션을 사용하여 텍스트 서식을 지정하고, 업데이트에 이모지, 링크 또는 이미지를 추가하여 콘텐츠를 개선합니다. 자세한 내용은 이 문서의 &quot;Workfront 업데이트에서 리치 텍스트 사용&quot; 섹션을 참조하십시오 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
    >[!TIP]

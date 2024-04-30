@@ -6,43 +6,31 @@ draft: Probably
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: 945a7d15-f10e-4829-aedb-e0de46cd6090
-source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 8%
+source-wordcount: '145'
+ht-degree: 0%
 
 ---
 
 # Adobe Workfront 목표
 
-<!--drafted for P&P new model: the note at the top will need to be replaced with this:
-
-Your organization must have the following to use the functionality described in this article:
-
-* For the legacy plan and license structure: 
-
-  * A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans). 
-  * An Adobe Workfront Goals license in addition to a Workfront license.
-
-* For the current plan and license structure:
-
-  * An Ultimate plan 
-    
-    Or
-    
-    An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. <is there a link we can add here for the plans and what they contain?!>
-
-Contact your Workfront account manager to learn about a Workfront Goals license.
-
-For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../workfront-goals/goal-management/access-needed-for-wf-goals.md).
--->
-
 이 문서에 설명된 기능을 사용하려면 조직에 다음 사항이 있어야 합니다.
 
-* Pro 이상 [Adobe Workfront 플랜](https://www.workfront.com/plans).
-* Workfront 라이선스 외에 Adobe Workfront Goals 라이선스.
+* 새 플랜 및 라이선스 구조의 경우:
 
-  Workfront Goals 라이선스에 대한 자세한 내용은 Workfront 계정 관리자에게 문의하십시오.
+   * 궁극적인 플랜
+
+     또는
+
+     Prime 또는 Select Adobe Workfront 플랜에 대한 Adobe Workfront Goals에 대한 추가 라이센스입니다. 자세한 내용은 [Adobe Workfront 플랜](https://www.workfront.com/plans).
+
+* 현재 플랜 및 라이선스 구조의 경우:
+
+   * Pro 이상
+   * Workfront 라이선스 외에 Adobe Workfront Goals 라이선스.
+
+Workfront Goals 라이선스에 대한 자세한 내용은 Workfront 계정 관리자에게 문의하십시오.
 
 Workfront 목표 액세스에 대한 자세한 내용은 을 참조하십시오. [Workfront 목표 사용 요구 사항](../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 

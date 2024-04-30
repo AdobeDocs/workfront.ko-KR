@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
 source-wordcount: '1495'
 ht-degree: 0%
@@ -95,6 +95,8 @@ ht-degree: 0%
    * 레코드 보기의 레코드 상자
    * 레코드의 페이지
    * 테이블 보기에서 인라인입니다.
+
+<!--* When a user edits a record in a view, the changes are visible immediately in all views and the record pages to all other users. -->
 
 * 다음 유형의 필드는 자동으로 업데이트되며, 해당 값을 수동으로 편집할 수 없습니다.
    * 다른 레코드의 연결된 필드

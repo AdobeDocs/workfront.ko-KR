@@ -6,9 +6,9 @@ description: 목표 세부 정보 패널에 액세스하여 개별 목표에 대
 author: Alina
 feature: Workfront Goals
 exl-id: e9df0d98-05a1-4977-b7f1-426b8f5b3eae
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '654'
 ht-degree: 1%
 
 ---
@@ -37,12 +37,18 @@ ht-degree: 1%
 <col>
 </col>
 <tbody>
- <tr>
- <td role="rowheader">Adobe Workfront 플랜</td>
- <td>
- <p>임의</p> 
- </td>
- </tr>
+ <tr> 
+   <td role="rowheader">Adobe Workfront 플랜*</td> 
+   <td> 
+   <p>새 플랜 및 라이선스 구조의 경우:
+  <ul><li>궁극적인 플랜 </li>
+  또는
+  <li>Prime 또는 Select Adobe Workfront 플랜에 대한 Adobe Workfront Goals에 대한 추가 라이센스입니다. </li></ul> </p>
+<p>현재 플랜 및 라이선스 구조의 경우: 
+<ul><li> Pro 이상 </li>
+  <li>Workfront 라이선스 외에 Adobe Workfront Goals 라이선스.</li></ul></p>
+   </td> 
+  </tr>
  <tr>
  <td role="rowheader">Adobe Workfront 라이센스*</td>
  <td>
