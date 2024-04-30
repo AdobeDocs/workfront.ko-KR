@@ -8,7 +8,7 @@ description: Adobe Workfront Fusion에는 Adobe Workfront 라이센스 외에 Ad
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: c35b1bc54719a6c9a056d2ddd08c953c0bae03b7
+source-git-commit: 9e934a81bce632902dda97f8d79f5110df3cce92
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 1%
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 ## 브라우저
 
-Workfront Fusion은 Chrome 기반 브라우저만 지원합니다.
+* Workfront Fusion은 Chrome 기반 브라우저만 지원합니다.
 
 ## 시나리오
 
@@ -75,9 +75,9 @@ Workfront Fusion은 Chrome 기반 브라우저만 지원합니다.
 
 ## 불완전한 실행
 
-불완전한 실행은 총 크기로 제한됩니다. **500MB**. 500MB 제한에 도달하면 더 이상 완료되지 않은 실행이 저장되지 않습니다.
+* 불완전한 실행은 총 크기로 제한됩니다. **500MB**. 500MB 제한에 도달하면 더 이상 완료되지 않은 실행이 저장되지 않습니다.
 
 ## 재시도
 
-Break 모듈을 사용하고 Retry 지시문을 지정할 때 시나리오가 2분 기간 내에 10번 연속적으로 실패하면 시나리오가 자동으로 비활성화됩니다.
+* Break 모듈을 사용하고 Retry 지시문을 지정할 때 시나리오가 2분 기간 내에 10번 연속적으로 실패하면 시나리오가 자동으로 비활성화됩니다.
 
