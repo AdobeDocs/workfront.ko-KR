@@ -6,7 +6,7 @@ description: Workfront Fusion을 통해 프로젝트를 생성하고 프로젝�
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
 exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
-source-git-commit: 605065896263ebbb761883689668be181b5012e3
+source-git-commit: 012aa4c15bcdb26a3e30f8c143599a7e90c9a0f3
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 0%
@@ -28,48 +28,46 @@ Workfront Fusion을 통해 프로젝트를 생성하고 프로젝트에 Adobe Ex
 
 <table>
   <tr>
-   <td><strong>Adobe Workfront 플랜*</strong>
-   </td>
-   <td>임의
-   </td>
+    <td><strong>Adobe Workfront 플랜*</strong></td>
+    <td>임의</td>
   </tr>
   <tr>
-   <td><strong>Adobe Workfront 라이센스*</strong>
-   </td>
-   <td>요청 이상
-   </td>
+   <td><strong>Adobe Workfront 라이센스*</strong></td>
+   <td>요청 이상</td>
   </tr>
   <tr>
-   <td><strong>제품</strong>
-   </td>
-   <td><b>Adobe Experience Manager<b>:
-   <ul>
-   <li>
-   <p>Experience Manager Assets as a Cloud Service 또는 Assets Essentials이 있어야 하며, Admin Console에서 사용자로 제품에 추가되어야 합니다.</p>
-   </li
-   ><li>
-   <p>Adobe Experience Manager의 저장소에 대한 쓰기 액세스 권한이 있어야 합니다.</p>
-   </li>
-   </ul>
-   <b>Workfront Fusion</b>:<p>신규:</p>
-   <ul>
-   <li>
-   <p>Select 또는 Prime Workfront 플랜: 조직에서 Adobe Workfront Fusion을 구매해야 합니다.</p>
-   </li>
-   <li> 
-   <p>Ultimate Workfront Plan: Workfront Fusion이 포함됩니다.</p>
-   </li>
-   </ul>
-   <p>또는</p>
-   <p>현재: 조직은 Adobe Workfront Fusion을 구매해야 합니다.</p>
+   <td><strong>제품</strong></td>
+   <td>
+     <p><b>Adobe Experience Manager:</b></p>
+     <ul>
+       <li>
+         <p>Experience Manager Assets as a Cloud Service 또는 Assets Essentials이 있어야 하며, Admin Console에서 사용자로 제품에 추가되어야 합니다.</p>
+       </li>
+       <li>
+        <p>Adobe Experience Manager의 저장소에 대한 쓰기 액세스 권한이 있어야 합니다.</p>
+       </li>
+     </ul>
+     <p><b>Workfront Fusion:</b></p>
+     <p>신규:</p>
+     <ul>
+       <li>
+         <p>Select 또는 Prime Workfront 플랜: 조직에서 Adobe Workfront Fusion을 구매해야 합니다.</p>
+       </li>
+       <li> 
+         <p>Ultimate Workfront Plan: Workfront Fusion이 포함됩니다.</p>
+       </li>
+     </ul>
+     <p>또는</p>
+     <p>현재: 조직은 Adobe Workfront Fusion을 구매해야 합니다.</p>
    </td>
   </tr>
   <tr>
    <td><strong>액세스 수준 구성*</strong>
    </td>
    <td>문서에 대한 액세스 편집
-   <p>
-   <strong>참고: </strong>여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <strong>사용자 정의 액세스 수준 만들기 또는 수정</strong>.
+     <p>
+       <strong>참고: </strong>여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <strong>사용자 정의 액세스 수준 만들기 또는 수정</strong>.
+     </p>
    </td>
   </tr>
 </table>
