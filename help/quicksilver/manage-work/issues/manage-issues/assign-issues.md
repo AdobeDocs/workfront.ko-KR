@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: abe6d1dbd256506fd733fa626ac5907fb9c24d65
 workflow-type: tm+mt
-source-wordcount: '1459'
+source-wordcount: '1490'
 ht-degree: 0%
 
 ---
 
 # 문제 할당
+
+{{highlighted-preview}}
 
 사용자, 역할 및 팀에 문제를 할당하여 문제 완료에 대한 책임 주체를 나타낼 수 있습니다. 문제 지정에 대한 일반적인 내용은 [문제 할당 수정 개요](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
@@ -112,13 +114,17 @@ ht-degree: 0%
 
    문제가 이미 할당된 경우 현재 할당의 이름을 클릭합니다.
 
-   ![](assets/nwe-assign-to-button-in-header-350x77.png)
+   ![할당 대상 단추](assets/assign-to-button-in-header.png)
 
 1. 다음 중 하나를 수행하십시오.
 
    * 할당하려는 사용자, 역할 또는 팀의 이름을 입력한 다음 목록에 나타나면 클릭합니다.
 
+     프로덕션 환경의 샘플 이미지:
      ![](assets/nwe-assignments-expanded-in-task-header-350x259.png)
+
+     <span class="preview">미리보기 환경의 샘플 이미지:</span>
+     ![할당 검색](assets/assignments-expanded-in-task-issue-header.png)
 
    * (조건부) **제안된 할당** 목록
    * 클릭 **나에게 할당** 자신에게 할당하기
@@ -161,7 +167,11 @@ ht-degree: 0%
 
    * 내부를 클릭합니다. **할당** 필드에 문제에 할당할 활성 사용자, 작업 역할 또는 활성 팀의 이름을 입력한 다음 목록에 표시될 때 클릭합니다.
 
+     프로덕션 환경의 샘플 이미지:
      ![](assets/assignments-field-task-list-nwe.png)
+
+     <span class="preview">미리보기 환경의 샘플 이미지:</span>
+     ![할당 필드](assets/assignments-field-task-list-0424.png)
 
    >[!TIP]
    >

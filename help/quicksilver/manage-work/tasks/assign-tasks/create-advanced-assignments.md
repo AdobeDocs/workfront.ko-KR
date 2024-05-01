@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: ad5d6bfda24119076df8336ed291c0ba63e2c88a
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1204'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 * 각 할당자가 할당된 시간을 조정하고 재배포합니다.
 * 작업 또는 문제의 소유자 또는 기본 피할당자로 지정되어야 하는 사용자를 결정합니다.
 * 작업 또는 문제를 작업할 때 각 사용자가 수행할 역할을 지정합니다.
-* <span class="preview">작업 역할에 대한 청구 요율을 재정의합니다.</span>
+  <!--* <span class="preview">Override the billing rate for a job role.</span>-->
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
@@ -93,7 +93,11 @@ ht-degree: 0%
 
 1. 클릭 **고급**.
 
+   프로덕션 환경의 샘플 이미지:
    ![](assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
+
+   <span class="preview">미리보기 환경의 샘플 이미지:</span>
+   ![고급을 클릭합니다](assets/assignments-box-in-task-header.png)
 
 1. 다음에서 **사람, 역할 및 팀 검색** 필드에서 사용자, 역할 또는 팀의 이름을 입력한 다음 드롭다운 목록에 나타나면 이름을 클릭합니다.
 
@@ -113,15 +117,15 @@ ht-degree: 0%
    >사용자의 이메일을 보려면 사용자의 액세스 수준에서 연락처 정보 보기 설정을 활성화해야 합니다. 자세한 내용은 [사용자에게 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
    >
    >
-   >* <span class="preview">작업 역할 할당을 추가할 때 작업 역할이나 위치를 검색할 수 있습니다. 발령에 대한 기본 청구 단가를 사용하려면 시스템/기본 작업 역할을 선택하고, 발령 레벨에서 단가를 대체하려면 비율 카드 작업 역할을 선택합니다. 등급 카드에 대한 자세한 내용은 [등급 카드 관리](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
-   >
-   >
    >* 비활성화되기 전에 사용자, 작업 역할 또는 팀이 할당된 경우 작업 항목에 할당된 상태로 유지됩니다. 이 경우 다음 사항을 권장합니다.
    >   
    >   * 작업 항목을 활성 리소스에 재할당합니다.
    >   * 비활성화된 팀의 사용자를 활성 팀과 연결하고 작업 항목을 활성 팀에 재할당합니다.
-   >   
    >
+
+   <!-- SHOULD BE THIRD BULLET POINT IN TIP TABLE WHEN THIS FEATURE IS RELEASED 
+    * <span class="preview">When adding a job role assignment, you can search for the job role or location. Select the System/Default Job Role to use the default billing rate for the assignment, or select a Rate Card Job Role to override the rate at the assignment level. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
+    -->
 
 1. 의 각 사용자에 대해 **할당자** 열에서 다음 정보를 지정합니다.
 
@@ -151,33 +155,35 @@ ht-degree: 0%
 
    * **할당자의 역할:** 이 할당을 수행할 때 사용자가 사용해야 하는 역할을 선택합니다.  사용자의 기본 역할 이 기본적으로 표시됩니다. 피할당자의 역할 상자를 클릭하여 다른 역할을 선택합니다.  먼저 작업 또는 문제를 역할에 할당한 다음 해당 역할을 수행할 수 있는 사용자를 두 번째 할당으로 추가하면 제안된 사용자 목록이 작업 및 문제에 이미 할당된 역할을 수행할 수 있는 사용자에 대해 필터링됩니다.
 
+     프로덕션 환경의 샘플 이미지:
      ![](assets/advanced-assignments-box-select-a-role-350x243.png)
 
-   <div class="preview">
+     <span class="preview">미리보기 환경의 샘플 이미지:</span>
+     ![피할당자의 역할](assets/advanced-assignments-select-role.png)
 
-   * **위치**: 프로젝트에 첨부된 비율 카드가 작업 역할과 함께 위치를 사용하는 경우 위치는 비율 카드에서 가져옵니다. 위치를 변경할 수 없습니다.
+   <!--<div class="preview">
 
-   * **청구 요금**: 사용자의 청구 요금은 사용자 또는 관련 작업 역할에 대한 시스템 요율에서 옵니다. 작업 역할에 대한 청구 요금은 시스템 요금 또는 프로젝트에 요금 카드가 첨부된 경우 요금 카드에서 나옵니다. 이 필드에는 기존 청구 요금이 표시되지 않습니다. 이 특정 작업 지정에 대한 청구 요금을 변경하려면 필드를 클릭합니다.
+   * **Location**: The location comes from the rate card, if a rate card attached to the project uses locations with the job roles. The location can't be changed. 
 
-   </div>
+   * **Billing Rates**: The billing rate for a user comes from the system rate for the user or their associated job role. The billing rate for a job role comes from the system rate or from the rate card, if a rate card is attached to the project. Existing billing rates are not displayed in this field. Click in the field to change the billing rate for this specific task assignment.
+
+   </div>-->
 
    * **기간 유형**: 작업에만 사용할 수 있습니다. 기간 유형 이름을 클릭하고 드롭다운 메뉴에서 기간 유형 을 선택합니다. 기간 유형에 대한 자세한 내용은 [작업 기간 및 기간 유형 개요](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
    * **기간:** 작업에 대한 관리 권한이 있는 경우 작업에 대해 이 필드를 업데이트할 수 있습니다.
 
-     자세한 내용은 [작업 기간 및 기간 유형 개요](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md). 할당 정보를 벌크 편집할 때 사용자, 시간, 할당 및 작업 소유자를 할당하는 유사한 대화 상자가 나타납니다.
+     자세한 내용은 [작업 기간 및 기간 유형 개요](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md). 할당 정보를 일괄 편집할 때 사용자, 시간, 할당 및 작업 소유자를 할당하는 유사한 대화 상자가 나타납니다.
 
    * **계획된 시간**: 기간 유형이 계산된 할당 또는 단순인 경우 계획된 시간을 업데이트합니다. 결과적으로 각 리소스에 대한 할당 백분율 또는 시간이 균등하게 분배됩니다. Workfront은 기간 유형이 계산된 작업 또는 작업량 고정 시 계획된 시간을 계산합니다. 자세한 내용은 [작업 기간 및 기간 유형 개요](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
      프로덕션 환경의 샘플 이미지:
-
      ![](assets/qs-advanced-assignments-box-with-duration-type-and-duration-350x251.png)
 
      <div class="preview">
 
      미리보기 환경의 샘플 이미지:
-
-     ![고급 할당](assets/advanced-assignments-location-billing-rates.png)
+     ![고급 할당](assets/advanced-assignments-duration-type-allocations.png)
 
      </div>
 

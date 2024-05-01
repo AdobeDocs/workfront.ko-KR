@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 13a1d9ebee75c468ce55794db130f01ba658f125
+source-git-commit: ad5d6bfda24119076df8336ed291c0ba63e2c88a
 workflow-type: tm+mt
-source-wordcount: '1953'
+source-wordcount: '1966'
 ht-degree: 1%
 
 ---
@@ -88,7 +88,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
@@ -170,7 +170,11 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
    작업 또는 문제가 이미 할당된 경우 할당명을 클릭합니다.
 
+   프로덕션 환경의 샘플 이미지:
    ![](../assign-tasks/assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
+
+   <span class="preview">미리보기 환경의 샘플 이미지:</span>
+   ![할당](assets/assignments-box-in-task-header.png)
 
 1. 다음 중 하나를 수행하십시오.
 
@@ -288,7 +292,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
    1. 작업에서 제거할 사용자, 역할 또는 팀의 이름을 입력한 다음 목록에 표시될 때 선택하고 **피할당자 제거** 추가 피할당자를 제거합니다.
    1. 클릭 **기존 할당자 모두 제거** 을 눌러 선택한 모든 작업에서 모든 피할당자를 제거합니다.
 
-1. 클릭 **변경 내용 저장**.
+1. **변경 내용 저장**&#x200B;을 클릭합니다.
 1. (선택 사항 및 조건부) 할당 대상 또는 할당 필드가 작업 목록에 표시되면 작업에 대해 이러한 열 중 하나를 클릭한 다음 **X 아이콘** 피할당자 이름 옆에 있는 을 클릭하여 작업에서 제거합니다.
 
 <!--
