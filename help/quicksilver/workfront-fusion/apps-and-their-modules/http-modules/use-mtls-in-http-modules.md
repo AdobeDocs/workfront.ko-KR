@@ -9,7 +9,7 @@ description: Adobe Workfront Fusion HTTP 모듈에서 Mutual TLS를 사용하여
 author: Becky
 feature: Workfront Fusion
 exl-id: ace9c404-34de-4bc5-bc77-2e53df36dbd9
-source-git-commit: a340a082e1490c46d3ab5c9591e2e30eee266fcf
+source-git-commit: d2baef04d0a02a2a73dbe1dd4c46cb49a75a0d5e
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 0%
@@ -90,7 +90,7 @@ HTTP 요청을 사용하여 웹 서비스에 연결할 때 웹 서비스에는 �
 
 다음 링크를 사용하여 Workfront Fusion 공개 인증서를 다운로드할 수 있습니다.
 
-### 2023년 5월 25일 - 2024년 6월 9일 인증서
+### 2023년 4월 23일 - 2024년 5월 7일 인증서
 
 >[!IMPORTANT]
 >
