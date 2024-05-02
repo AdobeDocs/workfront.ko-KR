@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
 workflow-type: tm+mt
-source-wordcount: '5636'
+source-wordcount: '5725'
 ht-degree: 0%
 
 ---
@@ -47,8 +47,19 @@ For more information, see [Manage record views](/help/quicksilver/maestro/views/
 
 -->
 
+## 2029년 4월 29일 주
+
+### 테이블 보기에서 레코드를 편집한 후 레코드 세부 정보 상자 및 페이지의 실시간 업데이트
+
+프로덕션: 2024년 5월 2일
+
+미리보기: 결정 예정
+
+사용자가 표 보기의 레코드에 대한 정보를 업데이트할 때 다른 사용자는 레코드의 세부 정보 상자(보기 내부) 또는 페이지에서 실시간으로 업데이트된 정보를 볼 수 있습니다. 이렇게 하면 모든 사용자가 업데이트된 정보를 동시에 보면서 변경 사항이 발생할 때와 동기화할 수 있습니다.
+
+레코드 편집에 대한 자세한 내용은 [레코드 편집](/help/quicksilver/maestro/records/edit-records.md).
+
 <!--
-## Week of April 29, 2029
 
 ### Add sections to the record's page 
 
@@ -77,16 +88,6 @@ If any user changes any field configuration (name, description, list of options 
 >There is no notification to other users that the field configuration has changed.  
 
 For more information, see [Edit fields](/help/quicksilver/maestro/fields/edit-fields.md).  
-
-### Real-time updates on the record details box and page after editing records in the table view
-
-Production: <date> 
-
-Preview: To be determined.  
-
-When a user updates the information on a record in the table view, other users can view the updated information in the record's details box (inside of a view) or page in real time. This ensures that all users view the updated information at the same time, in sync with when the changes happen.  
-
-For information, see [Edit records](/help/quicksilver/maestro/records/edit-records.md). 
 
 ### Enable Workfront Planning notifications  
 
@@ -144,7 +145,7 @@ For information, see [Adobe Workfront Planning notifications: Article index](/he
 
 미리보기: 결정 예정
 
-이제 작업 영역 관리자는 레코드 페이지나 상자에 나열된 필드를 재정렬할 수 있습니다. 레코드 페이지나 레코드 상자를 보는 모든 사람에게 필드 순서를 업데이트하면 동일한 유형의 모든 레코드에서 필드 순서가 변경됩니다.
+이제 작업 영역 관리자는 레코드 페이지나 미리 보기에 나열된 필드를 재정렬할 수 있습니다. 필드 순서를 업데이트하면 레코드 페이지나 레코드 미리 보기를 보는 모든 사람에게 동일한 유형의 모든 레코드에서 필드 순서가 변경됩니다.
 
 자세한 내용은 [레코드 페이지 관리](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
@@ -155,7 +156,7 @@ For information, see [Adobe Workfront Planning notifications: Article index](/he
 
 미리보기: 결정 예정
 
-이제 레코드 페이지를 관리할 때 레코드 페이지나 상자에서 표지 이미지를 추가, 위치 변경 및 교체하여 레코드의 프레젠테이션과 관련자 참여를 강화할 수 있습니다. 표지 이미지는 레코드를 보는 모든 사용자가 볼 수 있습니다.
+이제 레코드 페이지를 관리할 때 레코드 페이지나 미리 보기의 표지 이미지를 추가, 위치 변경 및 교체하여 레코드의 프레젠테이션과 관련자 참여를 강화할 수 있습니다. 표지 이미지는 레코드를 보는 모든 사용자가 볼 수 있습니다.
 
 자세한 내용은 [레코드 페이지 관리](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
@@ -219,15 +220,15 @@ Adobe Workfront Planning에 대한 개요는 다음을 참조하십시오. [Adob
 
 이제 달력 보기에서 정보를 필터링할 수 있습니다. 자세한 내용은 [달력 보기 관리](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
 
-### 타임라인 및 달력 보기에 추가된 레코드 세부 정보가 있는 상자
+### 타임라인 및 달력 보기에 추가된 레코드 세부 정보로 미리 보기
 
 프로덕션: 2024년 3월 19일
 
 미리보기: 결정 예정
 
-이제 타임라인 및 달력 보기에서 레코드 세부 정보가 있는 상자에 액세스할 수 있습니다. 타임라인 및 달력 보기 내의 레코드 상자에서 레코드를 편집할 수 있습니다.
+이제 타임라인 및 달력 보기에서 레코드 세부 사항과 함께 미리 보기에 액세스할 수 있습니다. 타임라인 및 달력 보기 내부에 있는 레코드의 미리 보기 상자에서 레코드를 편집할 수 있습니다.
 
-레코드 상자에서 새 브라우저 탭에서 레코드 페이지를 열 수 있습니다.
+레코드 미리 보기에서 새 브라우저 탭에서 레코드 페이지를 열 수 있습니다.
 
 자세한 내용은 [레코드 편집](/help/quicksilver/maestro/records/edit-records.md).
 
@@ -247,7 +248,7 @@ Excel 또는 CSV 파일을 사용하여 레코드 유형 가져오기를 일시�
 
 미리보기: 결정 예정
 
-테이블 보기를 사용할 때 레코드에 대한 추가 정보를 더 쉽게 볼 수 있도록 레코드의 세부 정보에 대한 빠른 보기를 표시하는 새 세부 정보 상자를 도입했습니다. 다음은 이 상자에 포함된 일부 정보입니다.
+테이블 보기를 사용할 때 레코드에 대한 추가 정보를 더 쉽게 볼 수 있도록 레코드의 세부 정보에 대한 빠른 보기를 표시하는 새 세부 정보 미리 보기를 도입했습니다. 다음은 레코드 미리 보기에 포함된 일부 정보입니다.
 
 * 관련 레코드 세부 정보 개요
 

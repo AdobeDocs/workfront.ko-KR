@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1520'
 ht-degree: 0%
 
 ---
@@ -92,11 +92,11 @@ ht-degree: 0%
 * 작업 영역에 대한 권한이 부여된 경우 직접 만든 레코드나 다른 사용자가 만든 레코드를 편집할 수 있습니다.
 * 다음 영역에서 레코드 필드를 편집할 수 있습니다.
 
-   * 레코드 보기의 레코드 상자
+   * 레코드 보기의 레코드 미리 보기
    * 레코드의 페이지
    * 테이블 보기에서 인라인입니다.
 
-<!--* When a user edits a record in a view, the changes are visible immediately in all views and the record pages to all other users. -->
+* 사용자가 보기에서 레코드를 편집하면 변경 내용이 모든 보기에서 즉시 표시되고 레코드 페이지가 다른 모든 사용자에게 표시됩니다.
 
 * 다음 유형의 필드는 자동으로 업데이트되며, 해당 값을 수동으로 편집할 수 없습니다.
    * 다른 레코드의 연결된 필드
@@ -113,7 +113,7 @@ ht-degree: 0%
 다음 영역에서 레코드를 편집할 수 있습니다.
 
 * [레코드 유형의 테이블 보기에서](#edit-a-record-from-the-table-view-of-a-record-type)
-* [보기의 레코드 상자에서](#edit-a-record-from-the-records-box-in-a-view)
+* [보기의 레코드 미리 보기에서](#edit-a-record-from-the-records-box-in-a-view)
 * [레코드 페이지에서](#edit-a-record-from-the-records-page)
 
 ### 레코드 유형의 표 보기에서 인라인 레코드 편집
@@ -188,7 +188,7 @@ ht-degree: 0%
 
 1. (선택 사항) 레코드에 썸네일을 추가합니다. 자세한 내용은 [레코드에 썸네일 추가](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
-### 보기의 레코드 상자에서 레코드 편집
+### 보기의 레코드 미리 보기에서 레코드 편집
 
 {{step1-to-maestro}}
 
@@ -204,7 +204,7 @@ ht-degree: 0%
 
    또는
 
-   테이블 보기에서 **세부 정보 열기** 아이콘 ![](assets/open-details-icon-in-table-name-field.png) 레코드 이름의 왼쪽에 있습니다. 레코드 상자가 뷰에 열립니다.
+   테이블 보기에서 **세부 정보 열기** 아이콘 ![](assets/open-details-icon-in-table-name-field.png) 레코드 이름의 왼쪽에 있습니다. 레코드의 미리보기가 보기에서 열립니다.
 
    ![](assets/details-box.png)
 
@@ -212,7 +212,7 @@ ht-degree: 0%
    >
    >다음을 볼 수 있습니다. **세부 정보 열기** 테이블 보기에서 레코드의 이름 필드 왼쪽에 있는 아이콘은 이름 필드가 기본 필드인 경우에만 해당됩니다.
 
-1. 레코드 상자의 필드 정보 편집을 시작합니다.
+1. 레코드의 미리 보기에서 필드 정보 편집을 시작합니다.
 
    >[!TIP]
    >
@@ -225,7 +225,7 @@ ht-degree: 0%
 
    Workfront은 변경 사항을 자동으로 저장합니다.
 
-1. (선택 사항) **새 탭에서 열기** 아이콘 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 레코드 상자의 오른쪽 상단 모서리에서 새 탭에서 레코드 페이지를 엽니다. 에 설명된 대로 레코드를 계속 편집합니다. [레코드 페이지에서 레코드 편집](#edit-a-record-from-the-records-page) 이 문서의 섹션.
+1. (선택 사항) **새 탭에서 열기** 아이콘 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 레코드 미리 보기의 오른쪽 상단 모서리에서 새 탭에서 레코드 페이지를 엽니다. 에 설명된 대로 레코드를 계속 편집합니다. [레코드 페이지에서 레코드 편집](#edit-a-record-from-the-records-page) 이 문서의 섹션.
 
 ### 레코드 페이지에서 레코드 편집
 
@@ -241,7 +241,7 @@ ht-degree: 0%
 
 1. 다음 중 하나를 수행하십시오.
 
-   * 모든 보기에서 다음에 설명된 대로 레코드 상자에 액세스합니다. [보기의 레코드 상자에서 레코드 편집](#edit-a-record-from-the-records-box-in-a-view) 이 문서의 섹션을 클릭한 다음 **새 탭에서 열기** 아이콘 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 레코드 상자의 오른쪽 상단 모서리에서 새 탭에서 레코드 페이지를 엽니다.
+   * 모든 보기에서 다음에 설명된 대로 레코드의 미리보기에 액세스합니다. [보기의 레코드 미리 보기에서 레코드 편집](#edit-a-record-from-the-records-preview-in-a-view) 이 문서의 섹션을 클릭한 다음 **새 탭에서 열기** 아이콘 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 레코드 미리 보기의 오른쪽 상단 모서리에서 새 탭에서 레코드 페이지를 엽니다.
 
    * 다음에서 **표** 보기, 레코드 이름 위로 마우스를 가져간 다음 **자세히** 메뉴 ![](assets/more-menu.png)을 클릭한 다음 을 클릭합니다 **보기**
 

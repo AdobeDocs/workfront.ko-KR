@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '800'
 ht-degree: 0%
 
 ---
@@ -127,14 +127,14 @@ Adobe Workfront Planning에서 레코드는 레코드 유형의 인스턴스입�
 
    또는
 
-   새 레코드의 이름 또는 **세부 정보 열기** 아이콘 ![](assets/open-details-icon-in-table-name-field.png) 레코드 이름 왼쪽에 있습니다. 레코드의 세부 정보가 있는 상자가 표에 열립니다.
+   새 레코드의 이름 또는 **세부 정보 열기** 아이콘 ![](assets/open-details-icon-in-table-name-field.png) 레코드 이름 왼쪽에 있습니다. 레코드의 세부 정보가 포함된 미리보기가 테이블에 열립니다.
 
    >[!TIP]
    >
-   >이름 필드가 기본 필드인 경우 레코드의 이름 필드에서만 세부 정보 상자에 액세스할 수 있습니다.
+   >다음에 액세스할 수 있습니다. **세부 정보 열기** ( 이름 필드가 기본 필드인 경우 레코드의 이름 필드에서만) 아이콘으로 표시됩니다.
 
-1. 레코드 상자에서 레코드 정보 편집을 시작합니다. Workfront은 변경 사항을 자동으로 저장합니다.
-1. (선택 사항) **새 탭에서 열기** 아이콘 ![](assets/open-details-in-a-new-tab-icon.png) 레코드 상자의 오른쪽 상단 모서리에서 새 탭에서 레코드 페이지를 엽니다. 레코드 페이지에서 레코드 편집을 계속합니다.
+1. 레코드 미리 보기에서 레코드 정보 편집을 시작합니다. Workfront은 변경 사항을 자동으로 저장합니다.
+1. (선택 사항) **새 탭에서 열기** 아이콘 ![](assets/open-details-in-a-new-tab-icon.png) 레코드 미리 보기의 오른쪽 상단 모서리에서 새 탭에서 레코드 페이지를 엽니다. 레코드 페이지에서 레코드 편집을 계속합니다.
 
 
 1. (선택 사항) 다음 키보드 단축키를 사용하여 새 레코드 추가를 실행 취소하거나 재실행할 수 있습니다.

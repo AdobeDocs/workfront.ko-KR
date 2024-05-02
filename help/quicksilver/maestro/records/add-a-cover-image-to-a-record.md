@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
+source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 0%
@@ -93,12 +93,12 @@ ht-degree: 0%
 * 표지 이미지는 하나의 레코드에 고유하며 동일한 유형의 모든 레코드에 적용되지 않습니다.
 * 이미지 파일만 커버 이미지로 추가할 수 있습니다.
   <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
-* 보기의 레코드 상자나 레코드 페이지에서 커버 이미지를 개별 레코드에 추가할 수 있습니다.
+* 모든 보기의 레코드 미리 보기 또는 레코드 페이지에서 커버 이미지를 개별 레코드에 추가할 수 있습니다.
 * 레코드 보기에서 표지 이미지를 인라인으로 추가할 수 없습니다.
 
 ## 레코드에 표지 이미지 추가
 
-레코드 상자나 페이지 맨 위에 표지 이미지를 추가하여 레코드를 개인화할 수 있습니다.
+레코드 미리 보기 또는 페이지의 맨 위에 표지 이미지를 추가하여 레코드를 개인화할 수 있습니다.
 
 {{step1-to-maestro}}
 
@@ -116,7 +116,7 @@ ht-degree: 0%
 
    테이블 테이블 보기에서 **세부 정보 열기** 아이콘 ![](assets/open-details-icon-in-table-name-field.png) 레코드 이름의 왼쪽에 있습니다.
 
-   레코드 상자가 뷰에 열립니다.
+   레코드의 미리보기가 보기에서 열립니다.
 
    ![](assets/details-box.png)
 
@@ -124,18 +124,18 @@ ht-degree: 0%
    >
    >다음을 볼 수 있습니다. **세부 정보 열기** 테이블 보기에서 레코드의 이름 필드 왼쪽에 있는 아이콘은 이름 필드가 기본 필드인 경우에만 해당됩니다.
 
-1. (선택 사항) **새 탭에서 열기** 아이콘 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 레코드 상자의 오른쪽 상단 모서리에서 새 탭에서 레코드 페이지를 엽니다.
+1. (선택 사항) **새 탭에서 열기** 아이콘 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 레코드 미리 보기의 오른쪽 상단 모서리에서 새 탭에서 레코드 페이지를 엽니다.
 
    레코드 페이지가 열립니다.
 
    ![](assets/details-page.png)
 
-1. 레코드 상자 또는 페이지에서 **표지 추가**. <!--check the casing here; I logged a bug for this-->
+1. 레코드 미리 보기 또는 페이지에서 **표지 추가**. <!--check the casing here; I logged a bug for this-->
 다음 **레코드 커버** 상자가 열립니다.
 
 1. 클릭 **업로드하려면 선택** 컴퓨터에서 그림을 찾아 선택하고 추가한 다음 **이미지 사용**.
 
-   이미지가 레코드 상자나 페이지 맨 위에 업로드되고 변경 사항이 자동으로 저장됩니다.
+   이미지가 레코드 미리 보기 또는 페이지 맨 위에 업로드되고 변경 사항이 자동으로 저장됩니다.
 
    ![](assets/record-page-with-cover-image.png)
 
