@@ -6,7 +6,7 @@ title: 에서 모듈을 새 버전으로 업데이트 [!DNL Adobe Workfront Fusi
 description: Workfront Fusion이 연결되는 애플리케이션은 새 버전을 업데이트하거나 릴리스할 수 있으므로 Fusion에서 해당 애플리케이션에 대해 업데이트된 모듈을 릴리스해야 하는 경우가 있습니다.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 342f6993e6992ce0f92a706c75e9de6e3e835509
+source-git-commit: 787329beb0e3a44bc25d59184d35fa82841ebc4c
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 0%
@@ -29,6 +29,9 @@ Workfront Fusion이 연결되는 애플리케이션은 새 버전을 업데이�
 1. 기존 모듈과 동일한 설정으로 모듈을 구성합니다.
 1. 새 모듈을 기존 모듈과 동일한 위치에서 시나리오에 연결합니다.
 1. 이전 모듈을 삭제합니다.
+
+
+
 
 
 
