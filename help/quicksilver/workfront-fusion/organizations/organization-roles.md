@@ -8,9 +8,9 @@ description: 이 문서는에서 역할의 액세스 및 권한에 대한 정보
 author: Becky
 feature: Workfront Fusion
 exl-id: 0370fa9d-6680-4724-a431-8df884ce4f9a
-source-git-commit: 2169ce1dd7fe48c26b4a80a28b5cd7b0bf4e2617
+source-git-commit: cb093fcecd5defd9dbdbb955ad5158d4a794f005
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '533'
 ht-degree: 1%
 
 ---
@@ -89,66 +89,52 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p>모든 팀에 액세스</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>조직용 앱 설치</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>조직 삭제</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>조직 편집</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>조직 사용자 관리</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span></td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>조직 보기</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td> <p>Process payments</p> </td> 
-    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+    <td>✓ </td> 
+    <td>✓ </td> 
     <td> </td> 
     <td> </td> 
    </tr>
   --> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td> <p>List payments</p> </td> 
-    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+    <td>✓ </td> 
+    <td>✓ </td> 
     <td> </td> 
     <td> </td> 
    </tr>
   --> 
   <tr> 
    <td> <p>팀 추가</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
    <td> </td> 
    <td> </td> 
   </tr>
@@ -179,101 +165,101 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p style="text-align: left;">미완료 실행 관리</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">미완료 실행 나열</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">시나리오 추가</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">시나리오 삭제</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">시나리오 편집</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">시나리오 실행 내역 찾아보기</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">시나리오 알림 수신</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">통계 재설정</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">시나리오 나열</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">시나리오 스케줄러 편집</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
    <td> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">시작 시나리오</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
    <td> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">시나리오 중지</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
    <td> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">시나리오 수동 실행</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
    <td> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">시나리오 보기</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
    </tr> 
  </tbody> 
 </table>
@@ -298,36 +284,36 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p style="text-align: left;">연결 추가</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">연결 삭제</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">연결 편집</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">연결 나열</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
   </tr> 
  </tbody> 
 </table>
 
-### 웹훅
+### 웹후크
 
 <table style="table-layout:auto"> 
  <col> 
@@ -347,31 +333,31 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p style="text-align: left;">웹후크 추가</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">웹후크 삭제</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">웹후크 편집</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">웹 후크 나열</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
   </tr> 
  </tbody> 
 </table>
@@ -396,38 +382,38 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p style="text-align: left;">데이터 저장소 추가</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">데이터 저장소 삭제</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">데이터 저장소 편집</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">데이터 저장소 나열</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">데이터 저장소 검색</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
   </tr> 
  </tbody> 
 </table>
@@ -452,80 +438,31 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p style="text-align: left;">데이터 구조 추가</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">데이터 구조 삭제</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">데이터 구조 편집</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">목록 데이터 구조</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
    <td> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### 장치
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <col> 
- <col> 
- <col> 
- <thead> 
-  <tr> 
-   <th> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL 멤버]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL 모니터링]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p style="text-align: left;">장치 추가</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td> <p style="text-align: left;">장치 삭제</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td> <p style="text-align: left;">장치 편집</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td> <p style="text-align: left;">장치 나열</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
   </tr> 
  </tbody> 
 </table>
@@ -550,31 +487,31 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p style="text-align: left;">키 추가</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">키 삭제</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">키 편집</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">목록 키</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
    <td> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
   </tr> 
  </tbody> 
 </table>
@@ -599,38 +536,38 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p style="text-align: left;">템플릿 추가</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">템플릿 삭제</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">템플릿 편집</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">목록 템플릿</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">템플릿 보기</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
   </tr> 
  </tbody> 
 </table>
@@ -655,31 +592,31 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p style="text-align: left;">팀 추가</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">팀 삭제</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">팀 사용자 추가 및 편집</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">팀 보기</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
+   <td>✓ 덧신 </td> 
   </tr> 
  </tbody> 
 </table>
