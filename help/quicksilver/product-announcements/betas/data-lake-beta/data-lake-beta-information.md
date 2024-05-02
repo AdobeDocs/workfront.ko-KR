@@ -6,7 +6,7 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 2daf7617-5b3e-49f7-b93b-4210b1b2ea49
-source-git-commit: 6a7af60a5f66b37abcaeb594290503febc179d25
+source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 12%
@@ -22,7 +22,7 @@ Workfront 데이터 레이크 사용에 대한 자세한 내용은 다음을 참
 **베타 일정:**
 
 * Beta 시작 날짜 - 2024년 4월 15일
-* 예정된 GA 릴리스 - TBA
+* 계획된 릴리스 일자 - TBA
 
 ## Beta에 참여
 

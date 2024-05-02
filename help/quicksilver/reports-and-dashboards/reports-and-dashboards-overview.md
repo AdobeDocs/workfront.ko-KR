@@ -8,10 +8,10 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 618c9dda-ad7d-4a05-960b-3ad14c14d605
-source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
+source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
 workflow-type: tm+mt
 source-wordcount: '88'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -27,4 +27,4 @@ Adobe Workfront의 보고서에서 정보를 구성할 수 있습니다. 대시�
 * [보고서](../reports-and-dashboards/reports/reports-overview.md)
 * [대시보드](../reports-and-dashboards/dashboards/dashboards-overview.md)
 * [향상된 분석](../enhanced-analytics/enhanced-analytics.md)
-* [보고 캔버스](../reports-and-dashboards/reporting-canvas/reporting-canvas.md)
+* [캔버스 대시보드](../reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)

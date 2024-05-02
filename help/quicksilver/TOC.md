@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: d337bb199db13c17e70be7b40654be8f1a87c2db
+source-git-commit: c3c3c2b7f7cf867ed98c2bbbb54d5a50980a78a0
 workflow-type: tm+mt
-source-wordcount: '14191'
+source-wordcount: '14154'
 ht-degree: 1%
 
 ---
@@ -1512,29 +1512,20 @@ ht-degree: 1%
       * [사용자 이름이 이미 사용 중입니다.](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
 * 보고 {#reporting}
    * [보고서 및 대시보드: 문서 색인](reports-and-dashboards/reports-and-dashboards-overview.md)
-   * 보고 캔버스 {#reporting-canvas}
-      * [보고 캔버스](reports-and-dashboards/reporting-canvas/reporting-canvas.md)
-      * 보고서 관리 {#manage-reports}
-         * [보고서 관리 개요](reports-and-dashboards/reporting-canvas/manage-reports/manage-reports.md)
-         * [보고 캔버스에서 보고서 작성](reports-and-dashboards/reporting-canvas/manage-reports/build-report.md)
-         * [보고 캔버스에서 보고서 내보내기](reports-and-dashboards/reporting-canvas/manage-reports/export-report.md)
-      * 테이블 블록 {#table-blocks}
-         * [테이블 블록](reports-and-dashboards/reporting-canvas/table-blocks/table-blocks.md)
-         * [보고 캔버스에서 테이블 블록 추가 또는 편집](reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)
-         * [보고 캔버스에서 테이블 열 구성](reports-and-dashboards/reporting-canvas/table-blocks/modify-columns-table.md)
-         * [보고 캔버스에서 공식 필드 작성](reports-and-dashboards/reporting-canvas/table-blocks/create-formula-field.md)
-         * [보고 캔버스의 그룹 테이블 행](reports-and-dashboards/reporting-canvas/table-blocks/group-rows-in-table.md)
-         * [보고 캔버스에서 테이블 필터링](reports-and-dashboards/reporting-canvas/table-blocks/configure-filter-rules-for-table.md)
-      * 시각화 블록 {#visualization-blocks}
-         * [시각화 블록](reports-and-dashboards/reporting-canvas/visualization-blocks/visualization-blocks.md)
-         * [보고 캔버스에서 시각화 블록 추가 또는 편집](reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md)
-         * [보고 캔버스에서 막대 시각화 구성](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-bar-visualization.md)
-         * [보고 캔버스에서 열 시각화 구성](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-column-visualization.md)
-         * [보고 캔버스에서 파이 시각화 구성](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-pie-visualization.md)
-         * [보고 캔버스에서 KPI 시각화 구성](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-kpi-visualization.md)
-      * 기타 블록 {#other-blocks}
-         * [기타 블록](reports-and-dashboards/reporting-canvas/other-blocks/other-blocks.md)
-         * [보고 캔버스에서 웹 콘텐츠 블록 추가 또는 편집](reports-and-dashboards/reporting-canvas/other-blocks/add-or-edt-web-content-block.md)
+   * 캔버스 대시보드 {#canvas-dashboards}
+      * [캔버스 대시보드](reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
+      * 캔버스 대시보드 관리 {#manage-canvas-dashboards}
+         * [캔버스 대시보드 관리](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
+         * [캔버스 대시보드 시작](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)
+         * [캔버스 대시보드에서 보고서 추가, 제거 또는 정렬](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)
+         * [캔버스 대시보드 공유](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
+      * 캔버스 대시보드 보고서 유형 {#report-types}
+         * [캔버스 대시보드 보고서 유형 개요](reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
+         * [캔버스 대시보드에 기존 보고서 추가](reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
+         * [캔버스 대시보드에서 KPI 보고서 작성](reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
+         * [캔버스 대시보드에서 차트 보고서 작성](reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
+         * [캔버스 대시보드에서 표 보고서 작성](reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
+         * [캔버스 대시보드에 보류 중인 승인 보고서 추가](reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)
    * 보고서 {#reports}
       * [보고서](reports-and-dashboards/reports/reports-overview.md)
       * 보고 기본 사항 {#report-basics}

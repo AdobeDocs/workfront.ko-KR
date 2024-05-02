@@ -6,13 +6,14 @@ description: Adobe Workfront에 예정된 보고 캔버스 도구의 베타 프�
 author: Nolan
 feature: Product Announcements
 hidefromtoc: true
-source-git-commit: 2fa10260b54e4ba2e9ab661ac5a4985a91e69191
+hide: true
+exl-id: 5767ef7d-1bc3-40d8-abeb-02b15166a0a3
+source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1061'
 ht-degree: 1%
 
 ---
-
 
 # 보고 캔버스 Beta: 개요
 
@@ -34,7 +35,7 @@ Workfront에서 보고를 완전히 재현한 새로운 보고 캔버스 도구�
 >
 >아래 베타 정보는 보고 캔버스 베타에 이미 포함되어 있으며 더 이상 새 참가자를 허용하지 않는 관리자를 위한 것입니다. 보고 캔버스의 새로운 기능이 추가될 때 이를 테스트하려면 다음을 참조하십시오. **개발 계획** 위의 을 참조하십시오.
 
-### 사용 가능
+### 가용성
 
 보고 캔버스 베타는 지역에 상관없이 AWS에 있는 모든 조직에서 사용할 수 있습니다.
 
@@ -105,7 +106,7 @@ Beta에 대한 피드백을 제출하려면 다음 작업을 수행하십시오.
 * 시간
 * 문제
 * 참고
-* 포트폴리오
+* Portfolio
 * 프로젝트
 * 프로그램
 * 작업
