@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: d337bb199db13c17e70be7b40654be8f1a87c2db
+source-git-commit: 58c6062ef427d1ef615768a11e7dbd4835aafa5e
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 >
 >| 월별 릴리스 | 분기별 릴리스 |
 >|----|----|
->| <ul><li>24.5 (2024년 5월)</li><li>24.6 (2024년 6월)</li><li>24.7 (2024년 7월)</li></ul> | <ul><li>24.7 (2024년 7월)</li></ul> |
+>| <ul><li>24.5 (2024년 5월 16일)</li><li>24.6 (2024년 6월)</li><li>24.7 (2024년 7월)</li></ul> | <ul><li>24.7 (2024년 7월)</li></ul> |
 >
 >빠른 릴리스 프로세스에 대한 자세한 내용은 [빠른 릴리스 프로세스 활성화 또는 비활성화](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
@@ -136,7 +136,7 @@ ht-degree: 0%
             <col style="width: 50%;" />
             <col style="width: 50%;" />
             <tbody>
-            <tr>
+                <tr>
                     <td>
                         <p><span class="bold">기능</span>
                         </p>
@@ -145,8 +145,8 @@ ht-degree: 0%
                         <p><span class="bold">릴리스 날짜</span>
                         </p>
                     </td>
-                 </tr>
-                 <tr>
+                </tr>
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">오브젝트 액세스가 제한된 사용자를 위한 UI 경험 개선</a></p>
                         <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
@@ -164,26 +164,6 @@ ht-degree: 0%
                                 <p>분기별 릴리스 프로덕션: 24.7 릴리스 포함 </p>
                             </li>
                         </ul>
-                    </td>
-                 </tr>
-                <tr>
-                    <td>
-                        <p><span class="bold">기능</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">릴리스 날짜</span>
-                        </p>
-                    </td>
-                 </tr>
-                <tr>
-                    <td>
-                        <p><span class="bold">기능</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">릴리스 날짜</span>
-                        </p>
                     </td>
                 </tr>
                 <tr>
