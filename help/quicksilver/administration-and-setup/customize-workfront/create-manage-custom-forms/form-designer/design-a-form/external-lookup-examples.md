@@ -7,9 +7,10 @@ description: 사용자 정의 양식의 외부 조회 필드는 외부 API를 �
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: a082f010dbd78235aaad41a80d87d772ca77ff89
+exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
+source-git-commit: 101a5a80d00a8113ce31222b92f77300a5b0ce8a
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '841'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,7 @@ ht-degree: 0%
 
 이 문서에서는 외부 조회 필드를 사용하여 동일한 Workfront 인스턴스 또는 공개 API를 호출하는 예제를 제공합니다. 외부 조회를 사용하여 Jira, Salesforce 또는 ServiceNow와 같은 외부 시스템과 통신할 수도 있습니다.
 
-사용자 정의 양식에 외부 조회 필드를 추가하는 방법과 외부 조회 구성 요소에 대한 추가 정의에 대한 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+외부 조회 필드는 기존 양식 빌더가 아닌 새 양식 디자이너에서만 사용할 수 있습니다. 사용자 정의 양식에 외부 조회 필드를 추가하는 방법과 외부 조회 구성 요소에 대한 추가 정의에 대한 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## 동일한 Workfront 인스턴스에 대해 외부 조회 필드 설정
 
@@ -127,4 +128,3 @@ ht-degree: 0%
    ![외부 조회 필드가 있는 사용자 정의 양식](assets/external-lookup-countries-example1.png)
 
    ![지역 기반 국가의 외부 조회 옵션](assets/external-lookup-countries-example2.png)
-
