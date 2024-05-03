@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
+source-git-commit: b9e8669c81891eeaa4c97bf8ab3ce72c02b2f62a
 workflow-type: tm+mt
-source-wordcount: '5725'
+source-wordcount: '5784'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,14 @@ For more information, see [Manage record views](/help/quicksilver/maestro/views/
 사용자가 표 보기의 레코드에 대한 정보를 업데이트할 때 다른 사용자는 레코드의 세부 정보 상자(보기 내부) 또는 페이지에서 실시간으로 업데이트된 정보를 볼 수 있습니다. 이렇게 하면 모든 사용자가 업데이트된 정보를 동시에 보면서 변경 사항이 발생할 때와 동기화할 수 있습니다.
 
 레코드 편집에 대한 자세한 내용은 [레코드 편집](/help/quicksilver/maestro/records/edit-records.md).
+
+### 레코드를 편집한 후 캘린더 보기에서 실시간 업데이트
+
+프로덕션: 2024년 5월 3일
+
+미리보기: 확인할 사항.
+
+사용자가 레코드에 대한 정보를 업데이트할 때 다른 사용자는 레코드의 캘린더 보기에서 업데이트된 정보를 실시간으로 볼 수 있습니다. 이렇게 하면 모든 사용자가 업데이트된 정보를 동시에 보면서 변경 사항이 발생할 때와 동기화할 수 있습니다.
 
 <!--
 
