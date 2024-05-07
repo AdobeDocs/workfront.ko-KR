@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: 6497bfa1bf8236baaf4beee38078426b754e1241
+source-git-commit: 66b9fc84c18bce2d0cecee9368a125570c822a54
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,26 @@ ht-degree: 0%
 
 자세한 내용은 [환경 프로모션 패키지 만들기 또는 편집](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md).
 
+## 설치를 위한 패키지 상태
+
+프로덕션 환경에 설치하려면 패키지가 활성 상태여야 합니다.
+
+패키지를 테스트 상태로 이동하고 다른 샌드박스에 설치하여 패키지를 테스트하는 것이 좋습니다.  이 테스트가 성공하고 오류가 없으면 패키지를 활성으로 이동하여 프로덕션 환경에 설치합니다.
+
+패키지 상태를 편집하려면:
+
+1. 에 설명된 대로 패키지를 선택합니다  [기존 패키지 편집 또는 결합](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md#create-or-edit-an-environment-promotion-package) 문서 환경 프로모션 패키지 만들기 및 편집
+1. 클릭 **패키지 편집**.
+1. 클릭 **상태**.
+1. 드롭다운 메뉴에서 원하는 상태를 선택합니다.
+
+상태에 대한 자세한 내용은 [환경 프로모션 상태](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses) 문서 Workfront 환경 간 객체 이동에 대한 개요
+
+## 패키지 설치
+
 >[!NOTE]
 >
->패키지를 설치하려면 패키지를 설치할 환경에 로그인해야 합니다. 객체를 복사하는 환경입니다 **끝**.
+>* 패키지를 설치하려면 패키지를 설치할 환경에 로그인해야 합니다. 객체를 복사하는 환경입니다 **끝**.
 
 1. 패키지를 설치할 환경으로 이동합니다.
 1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리에서 을(를) 클릭하고 **[!UICONTROL 설정]** ![설정 아이콘](/help/_includes/assets/gear-icon-setup.png).
