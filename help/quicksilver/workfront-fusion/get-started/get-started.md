@@ -9,9 +9,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 91b07548-059f-4eb9-bf8f-69b0bc397097
-source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
+source-git-commit: 811f38da4f91695ef0589dd10122b29d09e4e09c
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '70'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,7 @@ ht-degree: 0%
 
 * [[!DNL Adobe Workfront Fusion] 개요](../../workfront-fusion/get-started/workfront-fusion-overview.md)
 * [의 기본 용어 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/basic-terms.md)
+* [에서 간단한 연습 시나리오 만들기 [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-practice-scenarios.md)
 * [에서 연습 자동화 시나리오 만들기 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/create-a-practice-automation-scenario.md)
 * [에서 연습 통합 시나리오 만들기 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/create-a-practice-scenario.md)
 * [[!DNL Adobe Workfront Fusion] 성능 보호](../../workfront-fusion/get-started/fusion-performance-guardrails.md)
