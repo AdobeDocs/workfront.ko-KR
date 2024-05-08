@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: f843dca1190a0b55d00280e83b5bf28edfa5c8af
+source-git-commit: 14d9c862bee9f367d20b851254c8e55a8d08907f
 workflow-type: tm+mt
-source-wordcount: '14212'
+source-wordcount: '14239'
 ht-degree: 1%
 
 ---
@@ -2085,6 +2085,11 @@ ht-degree: 1%
       * [표 보기 관리](maestro/views/manage-the-table-view.md)
       * [타임라인 보기 관리](maestro/views/manage-the-timeline-view.md)
       * [달력 보기 관리](maestro/views/manage-the-calendar-view.md)
+   * Adobe Maestro 알림 {#adobe-maestro-notifications}
+      * [Adobe Workfront Planning 알림: 문서 색인](maestro/notifications/notifications-information.md)
+      * [Adobe Workfront Planning 알림 환경 설정 관리](maestro/notifications/manage-notification-preferences.md)
+      * [Adobe Workfront Planning 이메일 알림 관리](maestro/notifications/manage-planning-email-notifications.md)
+      * [Adobe Workfront Planning 인앱 알림 관리](maestro/notifications/manage-planning-in-app-notifications.md)
 * Adobe Workfront Fusion {#adobe-workfront-fusion}
    * [Adobe Workfront Fusion](workfront-fusion/workfront-fusion-2.md)
    * [Fusion 액세스 테이블 템플릿](/help/quicksilver/workfront-fusion/fusion-access-table-template.md)

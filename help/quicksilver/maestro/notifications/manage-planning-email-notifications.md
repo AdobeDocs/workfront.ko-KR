@@ -4,9 +4,9 @@ description: 누군가가 기록 댓글에서 귀하를 태그하면 해당 태�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,12 @@ ht-degree: 0%
 {{maestro-important-intro}}
 
 누군가가 기록 댓글에서 귀하를 태그하면 해당 태그에 대한 이메일 알림을 받게 됩니다.
+
+>[!IMPORTANT]
+>
+>Workfront Planning에서 알림을 받으려면 귀사가 Adobe 통합 경험 고객이어야 합니다.
+>
+>자세한 내용은 [Workfront용 통합 경험 Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 레코드 댓글에 다른 사용자를 태그 지정하는 방법에 대한 자세한 내용은 [레코드 주석 관리](/help/quicksilver/maestro/records/manage-record-comments.md).
 
@@ -35,7 +41,8 @@ ht-degree: 0%
 <td>
    <p> 제품</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> 
+   <p>Workfront Planning에서 알림을 수신하고 알림 환경 설정을 관리하려면 조직의 Workfront 인스턴스가 통합 경험 Adobe에 온보딩되어야 합니다. 자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 통합 경험 Adobe</a>.</p></td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront 계약</p></td>
    <td>
@@ -78,7 +85,7 @@ ht-degree: 0%
 
 ## 이메일 알림 관리
 
-1. (조건부) 다른 사용자가 레코드에 있는 댓글에서 귀하를 태그 지정한 후 태그와 댓글을 알려 주는 이메일 알림으로 이동합니다.
+1. (조건부) 다른 사용자가 레코드에 있는 댓글에서 귀하를 태그 지정한 후 태그와 댓글을 알려 주는 이메일 알림으로 이동합니다. 이메일 발신자는 Adobe Experience Cloud입니다.
 
    ![](assets/email-notification-example.png)
 
@@ -87,4 +94,4 @@ ht-degree: 0%
    Workfront에 레코드 세부 정보 페이지가 열립니다. 레코드를 업데이트하거나 댓글에 답글을 달 수 있습니다.
 
 1. (조건부) 사용 가능한 경우 **모든 알림 보기**. <!--check with Lilit - do non-IMS users have this button??-->
-Adobe Experience Cloud에 알림 페이지가 열립니다.
+다음 **알림** 페이지가 Adobe Experience Cloud에서 열립니다.

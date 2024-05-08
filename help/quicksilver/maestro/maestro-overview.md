@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '1799'
-ht-degree: 2%
+source-wordcount: '1807'
+ht-degree: 1%
 
 ---
 
@@ -86,6 +86,8 @@ Adobe Workfront Planning은 Adobe Workfront의 새로운 제품입니다. Workfr
 | 크리에이티브 개요 |                               |                                  | ✓ 덧신 |
 | 레코드의 색상 및 아이콘 사용자 지정 | ✓ 덧신 |                                  |                 |
 | 레코드에 주석 추가 | ✓ 덧신 |                                  |                 |
+| 인앱 알림 수신 | ✓ 덧신 |                                  |                 |
+| 이메일 알림 수신 | ✓ 덧신 |                                  |                 |
 | 레코드에 썸네일 추가 | ✓ 덧신 |                                  |                 |
 | 레코드의 변경 내용 보기 | ✓ 덧신 |                                  |                 |
 | 단락 필드에 대한 서식 있는 텍스트 서식 | ✓ 덧신 |                                  |                 |

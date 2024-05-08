@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '1441'
 ht-degree: 2%
 
 ---
@@ -25,6 +25,7 @@ ht-degree: 2%
 
 ## 문제 전환 시 고려 사항
 
+* 문제를 작업 또는 프로젝트로 전환할 때 이 문서에 별도로 명시되지 않는 한 문제의 대부분의 정보가 작업 또는 프로젝트로 전달됩니다.
 * Workfront 관리자 또는 그룹 관리자는에 설명된 대로 프로젝트 또는 작업으로 변환될 때 문제가 발생하는 상황, 해결 방법 및 기본 담당자의 액세스 권한에 대한 환경 설정을 이미 설정했습니다. [시스템 전체 작업 및 문제 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 * Workfront은 전환 중에 문제와 관련된 모든 승인을 제거합니다.
 * Workfront은 작업 또는 프로젝트로 전환할 때 문제의 해결 중 오브젝트를 덮어씁니다. 새 작업 또는 문제는 전환 후 문제의 새 해결 오브젝트가 됩니다.
@@ -76,7 +77,9 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>우선 순위</td> 
-   <td>템플릿에서 전송합니다. </td> 
+   <td><p>문제에서 전송.</p>
+   <p>변환된 프로젝트에 템플릿을 사용하는 경우 우선순위를 수동으로 변경할 수 있는 옵션이 있습니다. 변경하지 않기로 선택한 경우 문제의 우선순위가 프로젝트로 이전됩니다. 
+    </td> 
   </tr> 
   <tr> 
    <td>URL</td> 
@@ -103,12 +106,12 @@ ht-degree: 2%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>포트폴리오</td> 
-   <td>템플릿에서 전송합니다. 그렇지 않으면 이 필드는 비어 있습니다.</td> 
+   <td>Portfolio</td> 
+   <td>템플릿에서 전송합니다. 그렇지 않으면 이 필드는 비어 있습니다.</td> 
   </tr> 
   <tr> 
    <td>프로그램</td> 
-   <td>템플릿에서 전송합니다. 그렇지 않으면 이 필드는 비어 있습니다.</td> 
+   <td>템플릿에서 전송합니다. 그렇지 않으면 이 필드는 비어 있습니다.</td> 
   </tr> 
   <tr> 
    <td>그룹</td> 
@@ -157,7 +160,7 @@ ht-degree: 2%
 <!--WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Convert an issue to a project</h2> 
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;moved to its own article)</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: moved to its own article)</p>
 -->
 <!--
 <ol>
@@ -239,8 +242,8 @@ ht-degree: 2%
 | 문제 필드 | 프로젝트 또는 작업 필드 | 프로젝트 목록 또는 보고서 | 프로젝트 세부 정보 영역 | 작업 목록 또는 보고서 | 작업 세부 정보 영역 |
 |---|---|---|---|---|---|
 | 문제 이름 | 전환된 문제 이름 | ✔ | ✔ | ✔ | ✔ |
-| 기본 담당자 | 전환된 문제 작성자 이름 | ✔ | `✔` | ✔ |   |
-| 입력 일자 | 전환된 문제 입력 일자 | ✔ |   | ✔ |   |
+| 기본 담당자 | 전환된 문제 작성자 이름 | ✔ | `✔` | ✔ |  |
+| 입력 일자 | 전환된 문제 입력 일자 | ✔ |  | ✔ |  |
 
 
 >[!CAUTION]

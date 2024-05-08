@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 78c28a1a5a850d13729113fa9f9819635ceb5d13
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '2353'
+source-wordcount: '2356'
 ht-degree: 1%
 
 ---
@@ -77,7 +77,7 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
 <td>제품</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>Adobe Workfront Planning 레코드를 Experience Manager Assets과 연결하려면 Adobe Experience Manager Assets 라이선스가 있어야 하며, 조직의 Workfront 인스턴스가 Adobe 비즈니스 플랫폼 또는 Adobe Admin Console에 온보딩되어야 합니다.</p>
+   <p>Adobe Workfront Planning 레코드를 Experience Manager Assets과 연결하려면 Adobe Experience Manager Assets 라이선스가 있어야 하며, 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다. 자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 통합 경험 Adobe</a>.</p>
    </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront 계약</p></td>

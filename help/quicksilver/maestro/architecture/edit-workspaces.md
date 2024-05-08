@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 0%
@@ -134,9 +134,9 @@ Workfront Planning의 작업 영역 영역이 열립니다.
 
    자세한 내용은 [레코드 유형 삭제](/help/quicksilver/maestro/architecture/delete-record-types.md).
 
-1. (선택 사항) 뷰 탭에서 뷰 이름을 클릭하여 기존 뷰를 편집하거나 **+ 보기** 를 클릭하여 보기를 생성합니다.
+1. (선택 사항) 레코드 유형 카드를 마우스 오른쪽 단추로 클릭하여 새 위치로 끌어서 놓습니다. 한 작업 영역 섹션에서 다른 작업 영역으로 레코드 유형을 끌어다 놓을 수 있습니다.
 
-   자세한 내용은 [레코드 보기 관리](/help/quicksilver/maestro/views/manage-record-views.md).
+   ![](assets/drag-and-drop-record-types-in-a-workspace.png)
 
 1. (선택 사항) **공유** 작업 영역의 오른쪽 위 모서리에서 다른 사용자와 작업 영역을 공유할 수 있습니다.
 

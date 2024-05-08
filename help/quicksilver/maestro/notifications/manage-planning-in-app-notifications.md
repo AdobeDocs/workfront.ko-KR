@@ -4,9 +4,9 @@ description: 누군가가 기록 댓글에서 귀하를 태그하면 해당 태�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,12 @@ ht-degree: 0%
 {{maestro-important-intro}}
 
 누군가가 기록 댓글에서 귀하를 태그하면 해당 태그에 대한 인앱 알림을 받을 수 있습니다.
+
+>[!IMPORTANT]
+>
+>Workfront Planning에서 알림을 받으려면 귀사가 Adobe 통합 경험 고객이어야 합니다.
+>
+>자세한 내용은 [Workfront용 통합 경험 Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 레코드 댓글에 다른 사용자를 태그 지정하는 방법에 대한 자세한 내용은 [레코드 주석 관리](/help/quicksilver/maestro/records/manage-record-comments.md).
 
@@ -35,7 +41,8 @@ ht-degree: 0%
 <td>
    <p> 제품</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> 
+   <p>Workfront Planning에서 알림을 받으려면 조직의 Workfront 인스턴스가 통합 경험 Adobe에 온보딩되어 있어야 합니다. 자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 통합 경험 Adobe</a>.</p></td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront 계약</p></td>
    <td>
@@ -76,12 +83,6 @@ ht-degree: 0%
 </table>
 
 
-## 전제 조건
-
-누군가가 기록 댓글에 나를 태그 지정할 때 인앱 알림을 받으려면 귀사가 Adobe Unified Experience Workfront 고객이어야 합니다.
-
-Adobe 통합 경험 사용자인지 여부를 확인하려면 다음을 참조하십시오. [Workfront용 통합 경험 Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
-
 ## 인앱 알림 관리
 
 1. (조건부) 다른 사용자가 레코드에 있는 댓글에 귀하를 태그 지정한 후 인앱으로 이동 **알림** 아이콘 ![](assets/experience-cloud-notifications-icon.png) Adobe Experience Cloud.
@@ -90,7 +91,7 @@ Adobe 통합 경험 사용자인지 여부를 확인하려면 다음을 참조�
 
 1. 알림을 클릭합니다.
 
-   Workfront에 레코드 세부 정보 페이지가 열립니다. 레코드를 업데이트하거나 댓글에 답글을 달 수 있습니다.
+   Workfront Planning에서 레코드 세부 사항 페이지가 열립니다. 레코드를 업데이트하거나 댓글에 답글을 달 수 있습니다.
 
 1. (선택 사항) **모두 읽음으로 표시** 모든 알림을 읽었음을 나타냅니다.
 1. (선택 사항) **모두 보기** 로 이동 **알림** Adobe Experience Cloud의 페이지.

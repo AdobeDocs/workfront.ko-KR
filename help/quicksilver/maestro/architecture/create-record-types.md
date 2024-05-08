@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '1288'
+source-wordcount: '1269'
 ht-degree: 1%
 
 ---
@@ -146,7 +146,7 @@ Workfront Planning 템플릿을 사용하여 작업 공간을 만들 때 레코�
 
 1. 다음 정보를 업데이트합니다.
 
-   * &quot;제목 없는 운영 레코드 유형&quot;을 미래 레코드 유형의 이름으로 바꿉니다. <!--did they bring back the field label here and did they rename it to "Name"-->
+   * &quot;제목 없는 레코드 유형&quot;을 이후 레코드 유형의 이름으로 바꿉니다. <!--did they bring back the field label here and did they rename it to "Name"-->
    * **설명**: 레코드 유형에 대한 정보를 더 추가합니다.
    * 레코드 유형과 연관된 아이콘의 색과 모양을 선택합니다. 다음을 수행합니다.
       * 색상을 선택하여 새 레코드 유형을 식별합니다. 레코드 유형 아이콘의 색상입니다. 기본적으로 회색이 선택되어 있습니다.
@@ -155,8 +155,11 @@ Workfront Planning 템플릿을 사용하여 작업 공간을 만들 때 레코�
 1. Click **Create**.
 
    레코드 유형 카드가 선택한 섹션 및 작업 영역에 추가됩니다.
-레코드 종류에 포함된 필드 수가 카드에 표시됩니다.
-1. (선택 사항) 레코드 유형 카드에 마우스를 가져다 대고 **자세히** 아이콘 ![](assets/more-menu.png) 오른쪽 상단에서 을(를) 클릭한 다음 **편집** 레코드 유형에 대한 정보를 편집합니다.
+레코드 유형의 설명이 카드에 표시됩니다.
+
+   ![](assets/record-type-card-with-description.png)
+
+1. (선택 사항) 레코드 유형 카드에 마우스를 가져다 대고 **자세히** 아이콘 ![](assets/more-menu.png) 오른쪽 상단에서 을(를) 클릭한 다음 **편집** 레코드 유형에 대한 정보를 수정합니다.
 1. (선택 사항) 레코드 유형 카드를 클릭하여 레코드 유형 페이지를 엽니다.
 
    ![](assets/operational-record-type-blank.png)
@@ -188,9 +191,9 @@ Workfront Planning 템플릿을 사용하여 작업 공간을 만들 때 레코�
 
 1. (선택 사항) 헤더에서 레코드 유형 이름의 왼쪽에 있는 왼쪽 화살표를 클릭하여 선택한 작업 영역으로 돌아갑니다.
 
-   레코드 유형 카드에는 레코드 유형에 포함된 필드 및 연결 수가 표시됩니다.
+1. (선택 사항) 작업 공간에서 레코드 유형 카드를 클릭하여 원하는 위치에 레코드 유형을 끌어다 놓거나 다른 섹션으로 이동합니다.
 
-   ![](assets/campaign-card-with-fields-and-connections-highlighted.png)
+   변경 사항은 자동으로 저장됩니다.
 
    레코드 추가, 레코드 유형 삭제 또는 편집, 레코드 유형 페이지의 보기 업데이트에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
@@ -198,10 +201,6 @@ Workfront Planning 템플릿을 사용하여 작업 공간을 만들 때 레코�
    * [레코드 유형 삭제](../architecture/delete-record-types.md)
    * [레코드 유형 편집](../architecture/edit-record-types.md)
    * [레코드 보기 관리](../views/manage-record-views.md)
-
-1. (선택 사항) 작업 공간에서 레코드 유형 카드를 클릭하여 원하는 위치에 레코드 유형을 끌어다 놓거나 다른 섹션으로 이동합니다.
-
-   변경 사항은 자동으로 저장됩니다.
 
 ## Excel 또는 CSV 파일을 가져와서 레코드 유형 만들기
 
