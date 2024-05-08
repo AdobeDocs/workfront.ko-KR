@@ -3,7 +3,7 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 3cd55b35f870314f8694149151733eb1d3aad914
+source-git-commit: f843dca1190a0b55d00280e83b5bf28edfa5c8af
 workflow-type: tm+mt
 source-wordcount: '14212'
 ht-degree: 1%
@@ -2097,7 +2097,7 @@ ht-degree: 1%
          * [에서 기본 시나리오 만들기 [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md)
          * [의 기본 시나리오에 트리거 모듈 추가 [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-trigger-to-simple-scenario.md)
          * [함수를 사용하여 의 간단한 시나리오로 프로젝트 업데이트 [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/update-a-project-simple-scenario.md)
-         * [의 기본 시나리오에 필터 추가 [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-filter-simple-scenario)
+         * [의 기본 시나리오에 필터 추가 [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-filter-simple-scenario.md)
          * [의 기본 시나리오에 웹후크 추가 [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-a-webhook.md)
       * [Adobe Workfront Fusion에서 연습 자동화 시나리오 만들기](workfront-fusion/get-started/create-a-practice-automation-scenario.md)
       * [Adobe Workfront Fusion에서 연습 통합 시나리오 만들기](workfront-fusion/get-started/create-a-practice-scenario.md)
