@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 14d9c862bee9f367d20b851254c8e55a8d08907f
+source-git-commit: 4564bc136576a92ddacec7116ca18ef9fb15a5bc
 workflow-type: tm+mt
-source-wordcount: '14239'
+source-wordcount: '14226'
 ht-degree: 1%
 
 ---
@@ -413,9 +413,8 @@ ht-degree: 1%
          * [새 댓글 달기 환경](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
          * [새로운 댓글 달기 경험 릴리스 활동](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
          * [새로운 주석 달기 경험 FAQ](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
-      * Workfront 및 Frame.io 통합 알파 {#frame-io-wf-integration-alpha}
-         * [Adobe Workfront 및 Frame.io 기본 통합 알파: 개요](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
-         * [Adobe Workfront 및 Frame.io 기본 통합 알파: 기능](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-features.md)
+      * Workfront 및 Frame.io 통합 베타 {#frame-io-wf-integration-beta}
+         * [Adobe Workfront 및 Frame.io 기본 통합 베타](review-and-approve-work/Documents/wf-frame-alpha.md)
       * Workfront 데이터 레이크 베타 {#data-lake-beta}
          * [Workfront 데이터 레이크 베타 정보](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
 * 관리 및 설정 {#administration-and-setup}
@@ -1792,7 +1791,6 @@ ht-degree: 1%
 * 작업 검토 및 승인 {#review-and-approve-work}
    * [작업 검토 및 승인](review-and-approve-work/review-and-approve-work.md)
    * [Alpha 프로그램 - 문서 승인](review-and-approve-work/Documents/doc-approvals-alpha.md)
-   * [Beta 프로그램 - Workfront + Frame.io](review-and-approve-work/Documents/wf-frame-alpha.md)
    * [비유료 사용자에 대한 제한된 문서 및 증명 결정 개요](review-and-approve-work/proof-doc-decision-limits.md)
    * 작업 승인 {#work-approvals}
       * [작업 승인](review-and-approve-work/manage-approvals/manage-approvals.md)

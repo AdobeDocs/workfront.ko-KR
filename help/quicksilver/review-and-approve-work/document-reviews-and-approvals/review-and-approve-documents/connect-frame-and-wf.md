@@ -5,13 +5,13 @@ title: Workfront 및 Frame.io 연결
 description: Workfront은 검토 및 승인 프로세스에서 Frame.io를 사용하여 원하는 곳에서 사람들을 만나고 있습니다. 프로젝트 관리 및 승인 프로세스는 Workfront에서 관리되며 검토 프로세스는 Frame.io에서 수행됩니다.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 2c1945cdc9f923ea7fdc750f69eeba2a026571ac
+exl-id: 8529b4d5-9732-4dd6-bf81-191aea1ed68c
+source-git-commit: a8a5205616a0bf30c5ba4b27a2ffb9fae4d52ac4
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '633'
 ht-degree: 0%
 
 ---
-
 
 # Workfront 및 Frame.io 연결
 
@@ -28,7 +28,7 @@ Workfront은 검토 및 승인 프로세스에서 Frame.io를 사용하여 원�
 
 ## 액세스 요구 사항
 
-* 이 문서에 설명된 기능을 사용하려면 조직을 수동으로 온보딩해야 합니다. 자세한 내용은 [Adobe Workfront 및 Frame.io 기본 통합 알파: 개요](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md).
+* 이 문서에 설명된 기능을 사용하려면 조직을 수동으로 Beta에 온보딩해야 합니다. 자세한 내용은 [Adobe Workfront 및 Frame.io 기본 통합 베타](/help/quicksilver/review-and-approve-work/Documents/wf-frame-alpha.md).
 
 
 ## Workfront 그룹을 Frame.io 팀에 연결
@@ -121,5 +121,3 @@ Workfront 그룹을 Frame.io 팀에 연결한 후에는 연결된 그룹으로 �
 >[!IMPORTANT]
 >
 >프로젝트가 Frame.io에 대해 연결되면 프로젝트 그룹의 변경 사항이 Frame.io에 반영되지 않습니다.
-
-
