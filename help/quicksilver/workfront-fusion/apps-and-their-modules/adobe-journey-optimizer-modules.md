@@ -11,9 +11,9 @@ feature: Workfront Fusion
 exl-id: 2c1aea46-edbf-42a3-a6e9-f8aea042a48d
 hide: true
 hidefromtoc: true
-source-git-commit: a61459db5174e8159b72293f0eed0162cc03f6d1
+source-git-commit: 35c4043c40a374006e0023be5a1e942e95a63863
 workflow-type: tm+mt
-source-wordcount: '30'
+source-wordcount: '59'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->이 커넥터는 더 이상 사용되지 않습니다.
+>이 커넥터는 이제 더 이상 사용되지 않는 Adobe Journey Optimizer API를 기반으로 하므로 더 이상 사용되지 않습니다.
+>
+>현재 새로운 Adobe Journey Optimizer API를 기반으로 하는 새 커넥터를 개발하고 있습니다.
 
 <!--
 
