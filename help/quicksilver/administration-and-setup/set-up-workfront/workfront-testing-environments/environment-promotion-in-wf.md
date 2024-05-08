@@ -12,7 +12,7 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: a8608aa0db6a482570b02b8b22cac0c02f6d8a07
+source-git-commit: b3d356f514675688f8ef77343c53fef8601398ad
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 1%
@@ -58,10 +58,10 @@ ht-degree: 1%
 
 | 프로모션 가능 개체 | 포함된 프로모션 가능 연결된 오브젝트 |
 | --- | --- |
-| 레이아웃 템플릿(UITMPL) | 레이아웃 템플릿<br>대시보드<br>캘린더<br>달력 섹션<br>외부 페이지<br>보고서<br>필터<br>그룹화<br>보기<br>매개 변수 |
-| 대시보드(PTLTAB) | 대시보드<br>캘린더<br>달력 섹션<br>외부 페이지<br>보고서<br>필터<br>그룹화<br>보기<br>매개 변수 |
-| 달력(달력) | 캘린더<br>달력 섹션 |
-| 외부 페이지(EXTSEC) | 외부 페이지 |
+| 레이아웃 템플릿(UITMPL) | 레이아웃 템플릿<br>대시보드<br>달력*<br>달력 섹션*<br>외부 페이지*<br>보고서<br>필터<br>그룹화<br>보기<br>매개 변수 |
+| 대시보드(PTLTAB) | 대시보드<br>달력*<br>달력 섹션*<br>외부 페이지*<br>보고서<br>필터<br>그룹화<br>보기<br>매개 변수 |
+| 달력*(달력) | 달력*<br>달력 섹션* |
+| 외부 페이지*(EXTSEC) | 외부 페이지* |
 | 보고서(PTLSEC) | 보고서<br>필터<br>그룹화<br>보기<br>매개 변수 |
 | 필터(UIFT) | 필터<br>매개 변수 |
 | 그룹화(UIGB) | 그룹화<br>매개 변수 |
