@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
+source-git-commit: 32ed7c1adee51ed134e44bb4f8114c41d14cd2df
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -30,8 +30,6 @@ hide: yes
 
 <!--remove the video at open beta or before-->
 
-마케팅 운영 리더로서 Adobe Workfront Planning을 사용하여 모든 팀의 마케팅 라이프사이클 전반에서 작업을 구성할 수 있습니다.
-
 {{maestro-important-intro}}
 
 이 페이지를 Adobe Workfront Planning과 관련된 모든 설명서의 시작점으로 사용할 수 있습니다.
@@ -51,15 +49,17 @@ hide: yes
 <!--* [View a video demonstration of Adobe Maestro](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
 * [Adobe Workfront Planning 개요](maestro-overview.md): 이 솔루션에 고유한 용어 및 개념을 포함하여 Adobe Workfront Planning에 대한 높은 수준의 개요입니다. 여기에서 Workfront Planning으로 여정을 시작하는 것이 좋습니다.
-* [Adobe Workfront Planning 릴리스 활동](../maestro/release-activity.md): 2023년 5월 22일 Adobe Workfront Planning 비공개 베타 프로그램 출시 이후 릴리스된 모든 기능 목록과 정확한 릴리스 날짜 및 각 기능에 대한 간단한 개요.
+* [Adobe Workfront Planning 릴리스 활동](/help/quicksilver/maestro/release-activity.md): 2023년 5월 22일 Adobe Workfront Planning 비공개 베타 프로그램 출시 이후 릴리스된 모든 기능 목록과 정확한 릴리스 날짜 및 각 기능에 대한 간단한 개요.
 * [Workfront Fusion용 Adobe Maestro 모듈](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md).
 
 ## Workfront Planning 아키텍처 및 기능
 
 다음 섹션에는 현재 Workfront Planning에서 사용할 수 있는 기능에 대해 자세히 설명하는 문서가 포함되어 있습니다.
 
-* [Adobe Workfront Planning 액세스 정보: 문서 색인](../maestro/access/access-information.md): Workfront Planning을 사용하는 데 필요한 액세스 및 권한에 대한 정보입니다.
-* [아키텍처: 문서 인덱스](../maestro/architecture/architecture-information.md): 작업 공간 및 레코드 유형을 만들고 관리하는 방법에 대한 단계별 지침을 통해 Workfront Planning의 아키텍처에 대한 심층적인 정보입니다.
-* [필드: 문서 색인](../maestro/fields/fields-information.md): 레코드 유형의 사용자 정의 필드 만들기에 대한 심층적인 정보와 단계별 지침입니다.
-* [레코드: 문서 인덱스](../maestro/records/records-information.md): 레코드를 만들고 관리하는 방법에 대한 심층적인 정보와 단계별 지침입니다.
-* [보기: 문서 색인](../maestro/views/views-information.md): 레코드 유형 페이지를 볼 때 레코드 보기 및 레코드 보기를 관리하는 방법에 대한 자세한 정보입니다.
+* [Adobe Workfront Planning 액세스 정보: 문서 색인](/help/quicksilver/maestro/access/access-information.md): Workfront Planning을 사용하는 데 필요한 액세스 및 권한에 대한 정보입니다.
+* [아키텍처: 문서 인덱스](/help/quicksilver/maestro/architecture/architecture-information.md): 작업 공간 및 레코드 유형을 만들고 관리하는 방법에 대한 단계별 지침을 통해 Workfront Planning의 아키텍처에 대한 심층적인 정보입니다.
+* [필드: 문서 색인](/help/quicksilver/maestro/fields/fields-information.md): 레코드 유형의 사용자 정의 필드 만들기에 대한 심층적인 정보와 단계별 지침입니다.
+* [레코드: 문서 인덱스](/help/quicksilver/maestro/records/records-information.md): 레코드를 만들고 관리하는 방법에 대한 심층적인 정보와 단계별 지침입니다.
+* [보기: 문서 색인](/help/quicksilver/maestro/views/views-information.md): 레코드 유형 페이지를 볼 때 레코드 보기 및 레코드 보기를 관리하는 방법에 대한 자세한 정보입니다.
+* [Adobe Workfront Planning 알림: 문서 색인](/help/quicksilver/maestro/notifications/notifications-information.md): Workfront Planning의 이벤트로 생성된 이메일 및 인앱 알림에 대한 정보입니다.
+
