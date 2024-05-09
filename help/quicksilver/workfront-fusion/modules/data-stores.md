@@ -8,9 +8,9 @@ description: 데이터베이스 또는 간단한 테이블과 유사한 데이�
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: 6c449b004e61048d5391a39e5adc38b05f4a3033
+source-git-commit: b7980d03791fe4a90bf66cebe042ed5890aaa802
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1299'
 ht-degree: 1%
 
 ---
@@ -76,24 +76,28 @@ Workfront Fusion의 데이터 저장소에 대한 비디오 소개는 다음을 
 
 ## 사용 가능한 데이터 공간
 
-조직이 새로운 Workfront 플랜 모델(Select, Prime 및 Ultimate 패키지)에 있는 경우, 조직의 플랜은 Fusion 인스턴스에 사용할 수 있는 데이터 저장소의 크기와 수에 영향을 줍니다.
+조직이 새로운 Workfront 계획 모델(Select, Prime 및 Ultimate 패키지)에 있는 경우 총 데이터 저장소 크기는 다음과 같습니다.
 
-### 최종 플랜
+<!--If your organization is on the new Workfront plan model (Select, Prime, and Ultimate packages), your organization's plan affects the size and number of data stores available your Fusion instance.
 
-Ultimate 패키지의 Fusion 인스턴스는 다음 혜택을 받습니다.
+### Ultimate plan
 
-* 500MB 공간
-* 50개 데이터 저장소
+Fusion instances on the Ultimate package receive:
 
-### Select 및 Prime 플랜
+* 500 MB of space
+* 50 data stores 
 
-Select 또는 Prime 패키지의 Fusion 인스턴스는 다음 사항을 수신합니다.
+### Select and Prime plans
+
+Fusion instances on the Select or Prime packages receive:-->
 
 * 처음 500K 작업에는 100MB.
 
 * 10K 작업을 추가로 수행할 때마다 10MB
 
-예를 들어, 600만 건의 작업을 수행하는 조직은 110MB를 수신합니다.
+  예를 들어, 600만 건의 작업을 수행하는 조직은 110MB를 수신합니다.
+
+조직은 최대 50개의 데이터 저장소를 가질 수 있습니다. 이러한 데이터 저장소의 결합된 크기는 조직의 총 데이터 저장소 크기를 초과할 수 없습니다.
 
 ## 에서 데이터 저장소 만들기 [!DNL Workfront Fusion]
 
