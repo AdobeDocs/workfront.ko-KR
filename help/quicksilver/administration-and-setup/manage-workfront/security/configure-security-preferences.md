@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: security
-title: 시스템 보안 환경 설정 구성
-description: Adobe Workfront 관리자는 Workfront 시스템에 대한 보안 환경 설정을 구성할 수 있습니다.
-author: Caroline
+title: 시스템 환경 설정 구성
+description: Adobe Workfront 관리자는 보안 환경 설정을 포함하여 Workfront 시스템에 대한 환경 설정을 구성할 수 있습니다.
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 57ea12e1da0ad326910021b2d2349c6d1eba4b69
+source-git-commit: 5cc1acffff12d78e48228f3ae223514c0ff379ef
 workflow-type: tm+mt
-source-wordcount: '848'
-ht-degree: 4%
+source-wordcount: '866'
+ht-degree: 5%
 
 ---
 
@@ -21,9 +21,11 @@ ht-degree: 4%
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
 -->
 
+<!--Audited: 05/2024-->
+
 {{important-admin-console-onboard}}
 
-Adobe Workfront 관리자는 Workfront 시스템에 대한 환경 설정을 구성할 수 있습니다.
+Adobe Workfront 관리자는 다음을 포함하여 Workfront 시스템에 대한 환경 설정을 구성할 수 있습니다.
 
 * 모바일 앱 및 기타 통합 애플리케이션에서 Workfront에 액세스
 * iframe에 Workfront 포함 규칙
@@ -46,18 +48,22 @@ Workfront 구현 중에 시스템 환경 설정을 구성하고, 그 이후에 �
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td>플랜</td> 
+   <td><p>새로운 기능: 표준</p>
+   <p>또는</p>
+   <p>현재: 플랜</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>Workfront 관리자여야 합니다.</p> <p><b>참고</b>: 아직 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가적인 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td> <p>Workfront 관리자여야 합니다.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 ## 시스템 환경 설정 구성
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 상단에서 을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **시스템** > **환경 설정**.
 
@@ -68,11 +74,11 @@ Workfront 구현 중에 시스템 환경 설정을 구성하고, 그 이후에 �
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p>빠른 검토 프로세스 활성화</p> </td> 
+      <td role="rowheader"> <p>빠른 릴리스 프로세스 활성화</p> </td> 
       <td>분기별 릴리스 대신 조직에 대한 월별 Workfront 릴리스를 활성화할 수 있습니다.</p><p>빠른 릴리스 프로세스에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md" class="MCXref xref">조직의 빠른 릴리스 활성화 또는 비활성화</a>.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>포함 허용 <strong>Workfront</strong> iframe에서</p> </td> 
+      <td role="rowheader"> <p>iframe에 Workfront 포함 허용</p> </td> 
       <td>Workfront을 iframe에 포함할 수 있습니다.<p>이 옵션은 기본적으로 비활성화되어 있습니다.</p><p><b>중요 사항</b>: iframe에 웹 기반 애플리케이션을 표시하면 애플리케이션이 클릭재킹 보안 취약성을 보일 수 있습니다.</p></td> 
      </tr> 
      <tr> 
@@ -84,8 +90,8 @@ Workfront 구현 중에 시스템 환경 설정을 구성하고, 그 이후에 �
       <td> <p>대시보드에 외부 페이지를 추가할 때 사용자가 사이트의 세션 ID 정보를 사용할 수 있도록 허용합니다.</p> <p>이 옵션은 기본적으로 안전하지 않으며 꺼져 있습니다. 통합을 위해 대신 OAuth를 사용하는 것이 좋습니다.</p> <p>대시보드에 외부 페이지 추가에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">외부 웹 페이지를 대시보드에 포함</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">사람들이 Workfront의 모바일 애플리케이션 및 <strong>Workfront</strong> Outlook 추가 기능</td> 
-      <td> <p>사용자가 모바일 앱(iPad 및 휴대폰 앱용 Workfront 보기) 및 Workfront Outlook 앱에 액세스할 수 있습니다.</p> <p>이 옵션은 기본적으로 활성화되어 있습니다. </p> <p>Workfront 보기에 대한 자세한 내용은 <a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">Adobe Workfront 보기 사용</a>. 모바일 앱에 대한 자세한 내용은 <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">Adobe Workfront 모바일 앱 사용</a>.</p> <p>Outlook 플러그인에 대한 자세한 내용은 <a href="../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md" class="MCXref xref">Outlook용 Adobe Workfront 설정</a>.</p> </td> 
+      <td role="rowheader">사람들이 Workfront의 모바일 애플리케이션과 Workfront Outlook 추가 기능을 사용할 수 있도록 허용</td> 
+      <td> <p>사용자가 모바일 앱(iPad 및 휴대폰 앱용 Workfront 보기) 및 Workfront Outlook 앱에 액세스할 수 있습니다.</p> <p>이 옵션은 기본적으로 활성화되어 있습니다. </p> <p>Workfront 보기에 대한 자세한 내용은 <a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">Adobe Workfront 보기 사용</a>. 모바일 앱에 대한 자세한 내용은 <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">Adobe Workfront 모바일 앱 사용: 문서 색인</a>.</p> <p>Outlook 플러그인에 대한 자세한 내용은 <a href="../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md" class="MCXref xref">Outlook용 Adobe Workfront 설정</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>이메일 주소를 사용하여 Workfront 계정이 없는 사람들과 공동 작업</p> </td> 
@@ -110,12 +116,19 @@ Workfront 구현 중에 시스템 환경 설정을 구성하고, 그 이후에 �
       <td>사용자가 비활성 기간 후 Workfront 애플리케이션에서 로그아웃하는 시간을 지정할 수 있습니다. 기본적으로 사용자는 7일 동안 활동이 없으면 로그아웃됩니다. <p>이 옵션은 SSO(Single Sign-On) 솔루션을 사용하는 Workfront 고객에게도 영향을 줍니다.</p></td> 
      </tr> 
      <tr> 
+      <td role="rowheader">사용자 정의 도움말 URL</td> 
+      <td>메인 메뉴 도움말 아이콘이 이동할 내부 사용자 정의 도움말 사이트를 정의할 수 있습니다. 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md">사용자 정의 도움말 URL 구성</a>.</p></td> 
+     </tr>
+     <tr> 
       <td role="rowheader">시스템의 사용자는 기본적으로 새 홈 환경을 볼 수 있습니다. </td> 
       <td>기본적으로 사용자에게 새 홈 환경이 표시되는지 여부를 지정할 수 있습니다. 활성화하면 기본적으로 새 홈 환경이 표시되지만, 개별적으로 새 홈을 활성화하거나 비활성화하도록 선택할 수 있습니다. 비활성화하면 새 홈으로 전환할 수 있는 배너가 표시되지 않지만 수동으로 입력하여 새 홈 페이지로 이동할 수 있습니다 <code>/home/workspaces</code> 인스턴스 URL의 끝 이 설정은 기본적으로 활성화되어 있습니다.</td> 
-     </tr> 
+     </tr>
+     <tr> 
+      <td role="rowheader">테스트 환경</td> 
+      <td>Workfront 테스트 환경에 액세스할 수 있습니다. 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Adobe Workfront 미리보기 샌드박스 환경</a>.</p></td> 
     </tbody> 
    </table>
 
 1. **저장**&#x200B;을 클릭합니다.
 
-   여기에 저장한 변경 사항은 Workfront의 모든 사용자 및 외부 사용자로 상호 작용하는 모든 사용자의 경험에 영향을 줍니다.
+   여기에 저장한 변경 사항은 Workfront의 모든 사용자와 외부 사용자로서 시스템과 상호 작용하는 모든 사용자의 경험에 영향을 줍니다.
