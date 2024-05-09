@@ -6,9 +6,9 @@ description: 외부 소스에서 문서 및 폴더를 Adobe Workfront에 연결�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: 9e57fa6d70e5cfe3de90a24564e76e22b82f63ff
+source-git-commit: 8aeb8c23f6eb6cf696512aaf7c6bd92b138f00cb
 workflow-type: tm+mt
-source-wordcount: '2578'
+source-wordcount: '2596'
 ht-degree: 0%
 
 ---
@@ -143,7 +143,8 @@ Google 및 Microsoft OneDrive와 같은 외부 애플리케이션에서 Workfron
 
    >[!NOTE]
    >
-   >Box에 연결된 문서의 경우 페이지를 새로 고칠 때까지 Box에 있는 문서에 대한 링크가 표시되지 않습니다.
+   >* 문서를 연결하는 데 사용되는 다운로드 URL이 2048자를 초과하는 경우 파일을 연결할 수 없습니다.
+   >* Box에 연결된 문서의 경우 페이지를 새로 고칠 때까지 Box에 있는 문서에 대한 링크가 표시되지 않습니다.
 
 ### 링크된 문서의 새 버전 추가 {#add-a-new-version-of-a-linked-document}
 
@@ -190,14 +191,14 @@ Google 및 Microsoft OneDrive와 같은 외부 애플리케이션에서 Workfron
 
 파일 시스템에서 Workfront으로 업로드한 문서의 새 버전을 추가하는 방법에 대한 자세한 내용은 [Adobe Workfront에 문서 추가](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#add-documents-to-workfront) 위치: [파일 시스템에서 Adobe Workfront에 문서 추가](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
-### Workfront 증명 문서 연결 {#link-workfront-proof-documents}
+### Workfront Proof 문서 연결 {#link-workfront-proof-documents}
 
 Workfront Proof에 원래 있었던 Workfront에 증명을 연결할 수 있습니다. Workfront Proof에서 증명을 연결할 때 증명과 연결된 모든 댓글과 기타 메타데이터를 Workfront에서 사용할 수 있습니다.
 
-Workfront Proof에서 보기 권한이 있는 증명만 연결할 수 있습니다.
+Workfront Proof에서 보기 액세스 권한이 있는 증명만 연결할 수 있습니다.
 
 1. 로 이동 **문서** 문서를 저장할 Workfront의 영역입니다.
-1. 클릭 **새로 추가**&#x200B;을 클릭한 다음 을 클릭합니다 **출처: Workfront 증명**.
+1. 클릭 **새로 추가**&#x200B;을 클릭한 다음 을 클릭합니다 **출처: Workfront Proof**.
 
    >[!NOTE]
    >
