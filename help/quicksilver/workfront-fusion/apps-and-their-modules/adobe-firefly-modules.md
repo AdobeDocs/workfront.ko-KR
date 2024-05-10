@@ -8,8 +8,7 @@ title: Adobe Firefly 모듈
 description: 다음에서 [!DNL Adobe Workfront Fusion] 시나리오에서는 다음을 사용하는 워크플로를 자동화할 수 있습니다 [!DNL Adobe Firefly]을 여러 타사 응용 프로그램 및 서비스에 연결할 수 있습니다.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
-exl-id: f20192ea-e363-4fba-8bd2-b1d50443918d
-source-git-commit: 4f583c7826625e08af6b63b21cacf9c770b11567
+source-git-commit: c932f869de9ff842a7bbb809bc60ec1d53350b51
 workflow-type: tm+mt
 source-wordcount: '1215'
 ht-degree: 0%

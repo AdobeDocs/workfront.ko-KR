@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 32ed7c1adee51ed134e44bb4f8114c41d14cd2df
+source-git-commit: b562383febd3865bc318dfaaceef88a003d9239e
 workflow-type: tm+mt
-source-wordcount: '14226'
+source-wordcount: '14236'
 ht-degree: 1%
 
 ---
@@ -159,6 +159,7 @@ ht-degree: 1%
          * [21.1 모바일 개선 사항](product-announcements/product-releases/21.1-release-activity/21-1-mobile-enhancements.md)
          * [21.1 기타 개선 사항](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Fusion 릴리스 활동 {#fusion-release}
+         * [Workfront Fusion 릴리스 활동: 2024년 5월 6일이 있는 주](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-5-6.md)
          * [Workfront Fusion 릴리스 활동: 2024년 4월 8일이 있는 주](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-4-8.md)
          * [Workfront Fusion 릴리스 활동: 2024년 3월 11일이 있는 주](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-3-14.md)
          * [Workfront Fusion 릴리스 활동: 2024년 2월 26일 주](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-2-26.md)
@@ -2220,6 +2221,7 @@ ht-degree: 1%
       * [Adobe Campaign Classic 모듈](workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md)
       * [Adobe Experience Manager Assets 모듈](workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
       * [Adobe Experience Manager Forms 모듈](workfront-fusion/apps-and-their-modules/aem-forms-modules.md)
+      * [Adobe Firefly 모듈](workfront-fusion/apps-and-their-modules/adobe-firefly-modules.md)
       * [Adobe Journey Optimizer 모듈](workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
       * [Adobe Lightroom 모듈](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-lightroom-modules.md)
       * [Adobe PDF 서비스 모듈](workfront-fusion/apps-and-their-modules/pdf-modules.md)
