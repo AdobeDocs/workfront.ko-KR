@@ -6,9 +6,9 @@ description: 다음 [!DNL Adobe Workfront] 용어집 목록은에서 일반적�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
+source-git-commit: b57f5038746094dde4b98bd28361e730c28ba412
 workflow-type: tm+mt
-source-wordcount: '19889'
+source-wordcount: '20060'
 ht-degree: 0%
 
 ---
@@ -252,6 +252,19 @@ ht-degree: 0%
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL 기준 요소]</td> 
    <td>애자일 환경에서 반복을 측정할 데이터 소스입니다.</td> 
+  </tr>
+
+<tr data-mc-conditions=""> 
+   <td>[!UICONTROL 청구 가능 경비]</td> 
+   <td> <p>고객에게 청구 가능으로 표시된 비용. 이는 계획된 비용이거나 실제 비용일 수 있습니다.</p> <p>뷰 및 보고서에 추가할 수 있는 계획된 청구 가능 경비 및 실제 청구 가능 경비 필드를 사용할 수 있습니다. 프로젝트 또는 작업 세부 정보 페이지에는 표시되지 않습니다.</p>
+   <p>다음 유형의 보고서에서 이러한 필드를 찾을 수 있습니다.</p>
+   <ul>
+   <li>기준선</li>
+   <li>템플릿</li>
+   <li>프로젝트(재무 데이터)</li>
+   </ul>
+   <p>경비를 청구 가능 경비로 표시하는 방법에 대한 자세한 내용은 다음을 참조하십시오. <a href="/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md">프로젝트 경비 관리</a>.</p>
+   </td> 
   </tr>
 
 <tr data-mc-conditions=""> 
@@ -1305,7 +1318,21 @@ The designated full time equivalency for users. A full-time user should have 100
    <td>[!UICONTROL Journal Entry] 보고서에서 [!UICONTROL Old Number Value]을(를) 대체하는 필드의 업데이트된 값이 표시됩니다.
    자세한 내용은 이 문서의 "[!UICONTROL Old Number Value]"를 참조하십시오.</td> 
   </tr>
-  <tr> 
+
+<tr data-mc-conditions=""> 
+   <td>[!UICONTROL 청구 불능 경비]</td> 
+   <td> <p>고객에게 청구 가능으로 표시되지 않은 비용. 이는 계획된 비용이거나 실제 비용일 수 있습니다.</p> <p>뷰 및 보고서에 추가할 수 있는 계획된 청구 불가능한 비용 및 실제 청구 불가능한 비용 필드를 사용할 수 있습니다. 프로젝트 또는 작업 세부 정보 페이지에는 표시되지 않습니다.</p>
+   <p>다음 유형의 보고서에서 이러한 필드를 찾을 수 있습니다.</p>
+   <ul>
+   <li>기준선</li>
+   <li>템플릿</li>
+   <li>프로젝트(재무 데이터)</li>
+   </ul>
+   <p>경비를 청구 가능 경비로 표시하는 방법에 대한 자세한 내용은 다음을 참조하십시오. <a href="/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md">프로젝트 경비 관리</a>.</p>
+   </td> 
+  </tr>
+
+<tr> 
    <td>[!UICONTROL 비근무일]</td> 
    <td>할당 완료에 할당되지 않은 날짜. 일반적으로 휴가일, 휴일 또는 주말입니다. API 탐색기에서 용어 표시. </td> 
   </tr> 
