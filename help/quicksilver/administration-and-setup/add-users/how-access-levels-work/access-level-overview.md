@@ -10,7 +10,7 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 416ec4f50a03e0911053fe580ff7e6ca2e648a96
+source-git-commit: 2da3c687b33d808ec4bf19d380bc82759d19bf99
 workflow-type: tm+mt
 source-wordcount: '1702'
 ht-degree: 5%
@@ -215,8 +215,8 @@ Standard 라이선스에 첨부된 이 기본 제공 액세스 수준은 Adobe W
   </tr> 
   <tr> 
    <td>재무 데이터</td> 
-   <td>✓ 덧신</td> 
-   <td> <p> </p> </td> 
+   <td></td> 
+   <td> <p>✓ 덧신</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
