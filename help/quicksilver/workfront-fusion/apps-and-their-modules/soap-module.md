@@ -9,10 +9,10 @@ description: SOAP 모듈을 사용하여 Adobe Workfront Fusion의 SOAP API에 �
 author: Becky
 feature: Workfront Fusion
 exl-id: 752e0766-25f2-4d22-bed5-7c931284258d
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: b820fb8d597205da9f2d0e5e6f5aec1056ec9a45
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 1%
+source-wordcount: '490'
+ht-degree: 0%
 
 ---
 
@@ -59,7 +59,11 @@ ht-degree: 1%
 
 다음에 대한 정보: [!DNL Adobe Workfront Fusion] 라이센스, 참조 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## 사용 [!UICONTROL SOAP] 모듈
+## 의 제한 사항 [!UICONTROL SOAP] 모듈
+
+>[!NOTE]
+>
+>WDSL을 로드하는 동안 리디렉션이 비활성화됩니다. 이는 보안 기능이지만 모듈을 실행할 때 확인되지 않은 리디렉션이 차단됨을 의미할 수 있습니다.
 
 다음 [!UICONTROL SOAP] 모듈은 현재 beta 상태이며 다음을 지원하지 않습니다.
 
@@ -86,8 +90,8 @@ ht-degree: 1%
 >     </complexContent>
 ></complexType>
 >```
-
-여기에는 다음이 포함됩니다. `soapenc:Array`, `soapenc:arrayType` 및 `wsdl:arrayType` 에서 아직 지원되지 않는 참조 [!UICONTROL Workfront Fusion].
+>
+>이 예에는 다음이 포함됩니다. `soapenc:Array`, `soapenc:arrayType` 및 `wsdl:arrayType` 에서 아직 지원되지 않는 참조 [!UICONTROL Workfront Fusion].
 
 ## 해결 방법
 
