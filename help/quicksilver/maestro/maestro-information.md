@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 32ed7c1adee51ed134e44bb4f8114c41d14cd2df
+source-git-commit: ace194b584601f9edd7862dbd74f639538891370
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
@@ -56,10 +56,10 @@ hide: yes
 
 다음 섹션에는 현재 Workfront Planning에서 사용할 수 있는 기능에 대해 자세히 설명하는 문서가 포함되어 있습니다.
 
-* [Adobe Workfront Planning 액세스 정보: 문서 색인](/help/quicksilver/maestro/access/access-information.md): Workfront Planning을 사용하는 데 필요한 액세스 및 권한에 대한 정보입니다.
+* [액세스 및 권한 정보: 문서 색인](/help/quicksilver/maestro/access/access-information.md): Workfront Planning을 사용하는 데 필요한 액세스 및 권한에 대한 정보입니다.
 * [아키텍처: 문서 인덱스](/help/quicksilver/maestro/architecture/architecture-information.md): 작업 공간 및 레코드 유형을 만들고 관리하는 방법에 대한 단계별 지침을 통해 Workfront Planning의 아키텍처에 대한 심층적인 정보입니다.
 * [필드: 문서 색인](/help/quicksilver/maestro/fields/fields-information.md): 레코드 유형의 사용자 정의 필드 만들기에 대한 심층적인 정보와 단계별 지침입니다.
 * [레코드: 문서 인덱스](/help/quicksilver/maestro/records/records-information.md): 레코드를 만들고 관리하는 방법에 대한 심층적인 정보와 단계별 지침입니다.
 * [보기: 문서 색인](/help/quicksilver/maestro/views/views-information.md): 레코드 유형 페이지를 볼 때 레코드 보기 및 레코드 보기를 관리하는 방법에 대한 자세한 정보입니다.
-* [Adobe Workfront Planning 알림: 문서 색인](/help/quicksilver/maestro/notifications/notifications-information.md): Workfront Planning의 이벤트로 생성된 이메일 및 인앱 알림에 대한 정보입니다.
+* [알림: 문서 색인](/help/quicksilver/maestro/notifications/notifications-information.md): Workfront Planning의 이벤트로 생성된 이메일 및 인앱 알림에 대한 정보입니다.
 
