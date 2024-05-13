@@ -8,13 +8,13 @@ feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 0d9212f0719535f191e61d27a73b8f5b2ef5fb30
+exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
+source-git-commit: 21ef9365561fca2301223ae79f6371f3c94c7313
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1334'
 ht-degree: 0%
 
 ---
-
 
 # Workfront 문서 세부 정보 내의 AppBuilder
 
@@ -358,3 +358,12 @@ Adobe은 AppBuilder용 앱 빌드를 시작하고 배포하는 방법에 대한 
 
 * [https://developer.adobe.com/uix/docs/services/aem-cf-console-admin/extension-development/](https://developer.adobe.com/uix/docs/services/aem-cf-console-admin/extension-development/)
 
+## 로컬 개발
+
+Workfront용 App Builder 애플리케이션을 개발하는 동안 앱을 게시하지 않고 Workfront 내에서 테스트해야 할 수도 있습니다. 다행히도, 우리는 이에 대한 해결책을 가지고 있습니다.
+
+App Builder 앱 내에서 `aio app run` 로컬 개발용. 일반적으로 다음과 같은 URL을 제공합니다. `https://localhost:9080`. 또는 다음을 실행할 수 있습니다 `aio app deploy` 정적 Adobe 도메인을 가져옵니다. 나중에 사용할 수 있도록 이 URL을 메모해 두십시오.
+
+그런 다음 브라우저에서 개발하려는 특정 문서 세부 정보 페이지로 이동합니다. 개발자 도구를 열고 workfront.com 또는 workfront.adobe.com용 로컬 저장소에 액세스합니다. 여기에서 항목을 추가해야 합니다. 사용 `appBuilderDocDetailsOverride` 를 키 로 사용하고 이전에 값으로 지정한 app builder URL을 로 사용합니다.
+
+페이지를 다시 로드하면 App Builder 애플리케이션의 버튼이 표시되는 것을 볼 수 있습니다. 이 버튼을 클릭하면 작동 중인 앱을 볼 수 있습니다.
