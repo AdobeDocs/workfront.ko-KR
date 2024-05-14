@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
+source-git-commit: b2ec979cf9aa2431c8c908440c227758d9dab521
 workflow-type: tm+mt
-source-wordcount: '5929'
+source-wordcount: '6045'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,39 @@ If your organization is not in the Adobe Unified Experience, you receive an emai
 
 For more information, see [Adobe Workfront Planning notifications: Article index](/help/quicksilver/maestro/notifications/notifications-information.md). 
 
+### New warning about object visibility when connecting records 
+
+Production: <date>
+
+Preview: To be determined
+
+When you create connections to object types outside of Workfront Planning, you are now notified that anyone working in the current workspace will have visibility to all the linked objects and their lookup fields, regardless of their permissions and access levels in the other application. 
+
+For example, if you link projects to Workfront Planning campaigns, everyone with access to View the campaign will also have access to view the linked projects and the information from their lookup fields, even when they don't have any permissions to the linked projects, or access to projects, in general. 
+
+For more information, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).  
+
 -->
+
+## 2024년 5월 13일 주
+
+### 레코드 편집 후 타임라인 보기의 실시간 업데이트
+
+프로덕션: 2024년 5월 14일
+
+미리보기: 확인할 사항.
+
+사용자가 레코드에 대한 정보를 업데이트할 때 다른 사용자는 레코드의 타임라인 보기에서 업데이트된 정보를 실시간으로 볼 수 있습니다. 이렇게 하면 모든 사용자가 업데이트된 정보를 동시에 보면서 변경 사항이 발생할 때와 동기화할 수 있습니다.
+
+### 보기 헤더에서 레코드 추가
+
+프로덕션: 2024년 5월 14일
+
+미리보기: 결정 예정
+
+레코드 유형 페이지의 헤더에 &quot;새 레코드&quot; 버튼을 추가했습니다. 이제 모든 보기에서 레코드를 만들 수 있습니다. 이 기능이 향상되기 전에는 표 보기에서만 레코드를 만들 수 있었습니다.
+
+자세한 내용은 [레코드 만들기](/help/quicksilver/maestro/records/create-records.md).
 
 ## 2024년 5월 6일 주
 

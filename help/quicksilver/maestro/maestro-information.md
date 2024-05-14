@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: ace194b584601f9edd7862dbd74f639538891370
+source-git-commit: b2ec979cf9aa2431c8c908440c227758d9dab521
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ hide: yes
 
 * [Adobe Workfront Planning 개요](maestro-overview.md): 이 솔루션에 고유한 용어 및 개념을 포함하여 Adobe Workfront Planning에 대한 높은 수준의 개요입니다. 여기에서 Workfront Planning으로 여정을 시작하는 것이 좋습니다.
 * [Adobe Workfront Planning 릴리스 활동](/help/quicksilver/maestro/release-activity.md): 2023년 5월 22일 Adobe Workfront Planning 비공개 베타 프로그램 출시 이후 릴리스된 모든 기능 목록과 정확한 릴리스 날짜 및 각 기능에 대한 간단한 개요.
-* [Workfront Fusion용 Adobe Maestro 모듈](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md).
+* [Workfront Fusion용 Adobe Workfront Planning 모듈](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md).
 
 ## Workfront Planning 아키텍처 및 기능
 
