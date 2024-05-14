@@ -6,9 +6,9 @@ description: 액세스 [!DNL Workfront] Adobe Experience Cloud을 통해 모든 
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: ca74ef02b83a76fad92d2bc8b1a9afc3927693ec
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 ## 프로필 및 환경 설정 액세스
 
-상단 탐색 영역에서 프로필 사진을 클릭하여 프로필 및 환경 설정 옵션에 액세스할 수 있습니다.
+상단 탐색 영역에서 Adobe 계정 메뉴(프로필 사진)를 클릭하여 프로필 및 환경 설정 옵션에 액세스할 수 있습니다.
 
 ![프로필 메뉴](assets/aec-profile-picture-menu.png)
 
