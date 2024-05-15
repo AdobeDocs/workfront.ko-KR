@@ -1,21 +1,23 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: 문서 승인 상태
-description: 문서 승인 상태가 나열되고 설명되어 있습니다
+title: 문서 결정 상태
+description: 문서 결정 상태가 나열되고 설명됨
 author: Becky
 feature: Work Management, Digital Content and Documents
 exl-id: 30a10ed9-ae11-4ff1-a66c-58ea94fe9959
-source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
+source-git-commit: ac3200b478c706194a8c8246d1754b16601d5f56
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '161'
 ht-degree: 5%
 
 ---
 
-# 문서 승인 상태
+# 문서 결정 상태
 
-문서의 헤더에서 문서의 승인 상태를 찾을 수 있습니다.
+문서 목록에서 직접 문서 상태를 볼 수 있습니다.
+
+![](assets/status-in-doc-list.png)
 
 다음 상태를 사용할 수 있습니다.
 

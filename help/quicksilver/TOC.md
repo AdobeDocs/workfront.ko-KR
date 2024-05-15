@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: b562383febd3865bc318dfaaceef88a003d9239e
+source-git-commit: 6caa46150eed42c792a01891018aaa16f8700cb9
 workflow-type: tm+mt
-source-wordcount: '14236'
+source-wordcount: '14250'
 ht-degree: 1%
 
 ---
@@ -781,9 +781,10 @@ ht-degree: 1%
    * 통합 구성 {#configure-integrations}
       * [통합 구성](administration-and-setup/configure-integrations/workfront-integrations.md)
       * [Adobe Workfront 통합](administration-and-setup/configure-integrations/workfront-integrations-1.md)
-      * [Adobe Experience Manager 레거시 커넥터를 사용하여 Workfront 구성](administration-and-setup/configure-integrations/configure-workfront-aem.md)
+      * [구성 [!DNL Workfront] 및 [!DNL Frame.io] 통합](administration-and-setup/configure-integrations/configure-wf-and-frame.md)
       * [Experience Manager Assets as a Cloud Service 통합 구성](administration-and-setup/configure-integrations/configure-aacs-integration.md)
       * [Experience Manager Assets Essentials 통합 구성](documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
+      * [Adobe Experience Manager 레거시 커넥터를 사용하여 Workfront 구성](administration-and-setup/configure-integrations/configure-workfront-aem.md)
       * [사용자가 모바일 애플리케이션에 액세스할 수 있도록 설정](administration-and-setup/configure-integrations/enable-users-access-mobile-app.md)
       * [Outlook용 Adobe Workfront 활성화](administration-and-setup/configure-integrations/enable-workfront-for-outlook.md)
       * [문서 통합 구성](administration-and-setup/configure-integrations/configure-document-integrations.md)
@@ -1197,6 +1198,7 @@ ht-degree: 1%
          * [템플릿을 사용하여 프로젝트 만들기](manage-work/projects/create-projects/create-project-from-template.md)
          * [Microsoft 프로젝트에서 프로젝트 가져오기](manage-work/projects/create-projects/import-project-from-ms-project.md)
          * [프로젝트 기준선 만들기](manage-work/projects/create-projects/create-baselines.md)
+         * [Frame.io와 연결된 프로젝트 만들기](manage-work/projects/create-projects/create-frame-connected-project.md)
       * 프로젝트에 대한 작업 업데이트 {#update-work-on-a-project}
          * [프로젝트 작업 업데이트: 문서 색인](manage-work/projects/updating-work-in-a-project/update-work-on-project.md)
          * [그룹에 연결된 작업에 상태 적용](manage-work/projects/updating-work-in-a-project/apply-custom-status-work-assigned-to-group.md)
@@ -1808,7 +1810,7 @@ ht-degree: 1%
    * 문서 검토 및 승인 {#document-reviews-and-approvals}
       * [문서 검토 및 승인](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * [문서 승인 개요](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
-      * [자산 검토 및 승인 개요](review-and-approve-work/document-reviews-and-approvals/review-and-approval-overview.md)
+      * [Frame.io로 자산 검토 및 승인 시작](review-and-approve-work/document-reviews-and-approvals/frame-wf-get-started.md)
       * 문서 검토 {#review-and-approve-documents}
          * [문서 검토: 문서 색인](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
          * [문서 검토](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
@@ -1820,7 +1822,7 @@ ht-degree: 1%
          * [문서에 추가 검토자 또는 승인자 추가](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
          * [문서에서 승인자 또는 검토자 제거](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
          * [승인 템플릿 만들기](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
-         * [문서 승인 상태](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
+         * [문서 결정 상태](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
          * [문서 승인](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
    * 증명 {#proofing}
       * [증명: 문서 색인](review-and-approve-work/proofing/proofing.md)

@@ -9,10 +9,10 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 50088ae0-8460-4163-acab-ebb711acda5a
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: 8d2329e111393e83e3c26ee694df7770b8459247
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 1%
+source-wordcount: '81'
+ht-degree: 4%
 
 ---
 
@@ -21,10 +21,11 @@ ht-degree: 1%
 이 섹션에는 다음 문서가 포함됩니다.
 
 * [[!DNL Adobe Workfront] 통합](../../administration-and-setup/configure-integrations/workfront-integrations-1.md)
-* [구성 [!DNL Workfront] 포함 [!DNL Adobe Experience Manager] 레거시 커넥터](../../administration-and-setup/configure-integrations/configure-workfront-aem.md)
+* [구성 [!DNL Workfront] 및 [!DNL Frame.io] 통합](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md)
 * [구성 [!DNL Experience Manager Assets as a Cloud Service] 통합](../../administration-and-setup/configure-integrations/configure-aacs-integration.md)
 * [구성 [!DNL Experience Manager Assets Essentials] 통합](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
-* [[!DNL Workfront] and [!DNL Experience Manager Assets] 통합](../../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
+* [[!DNL Workfront] 및 [!DNL Experience Manager Assets] 통합](../../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
+* [구성 [!DNL Workfront] 포함 [!DNL Adobe Experience Manager] 레거시 커넥터](../../administration-and-setup/configure-integrations/configure-workfront-aem.md)
 * [사용 [!UICONTROL Outlook용 Adobe Workfront]](../../administration-and-setup/configure-integrations/enable-workfront-for-outlook.md)
 * [문서 통합 구성](../../administration-and-setup/configure-integrations/configure-document-integrations.md)
 * [문서 통합 비활성화](../../administration-and-setup/configure-integrations/disable-document-integrations.md)

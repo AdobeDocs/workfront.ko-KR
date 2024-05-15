@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: 2c9d52ad5e3d330d0a183d9cef545ff6b6aed6b2
+source-git-commit: cb29d7ff4854faf50195af6916dfaa6eae588764
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1343'
 ht-degree: 0%
 
 ---
@@ -24,10 +24,32 @@ Workfront + Frame.io 통합 베타 프로그램을 시작합니다! 이 Beta의 
 >
 >이 Beta에 참여하려면 제품 팀에서 활성화해야 합니다. 고객 성공 또는 계정 관리자에게 문의하여 추가를 요청하십시오.
 
+## 2024년 5월: Workfront의 베타 릴리스 업데이트
 
-## Frame.io의 베타 릴리스 업데이트 - 2024년 3월
+이번 5월 릴리스에는 다음 기능이 포함됩니다.  
 
-이 Beta 릴리스에는 다음과 같은 항목이 있습니다.
+>[!VIDEO](https://video.tv.adobe.com/v/3429129/)
+
+### Workfront 프로젝트는 Frame.io에 자동으로 동기화됩니다.
+
+사용자 피드백을 기반으로 경험을 개선하고 연결된 Frame.io의 생성을 트리거하는 데 필요한 단계를 줄였습니다.  이제 Workfront에서 프로젝트를 만들면 해당 프로젝트가 Frame.io에서 자동으로 만들어집니다. 
+
+### Frame.io 프로젝트에 대한 크리에이티브 할당 개선
+
+이제 연결된 Frame.io 프로젝트에 액세스할 수 있는 사용자를 쉽게 관리할 수 있습니다. 크리에이티브 사용자는 &quot;Frame.io enabled&quot;로 플래그가 지정될 수 있으며, 이 플래그를 사용하면 Workfront 프로젝트에 할당할 때 연결된 Frame.io 프로젝트에 대한 액세스 권한을 자동으로 부여할 수 있습니다.   
+
+### Workfront 프로젝트 이름이 변경되면 Frame.io 프로젝트 이름이 업데이트됩니다.
+
+Workfront과 Frame.io 간의 프로젝트 동기화를 개선하기 위한 노력의 일부로 이제 Workfront 프로젝트 이름 업데이트가 Frame.io 내에도 반영됩니다. 
+
+### 문서 목록의 승인 상태
+
+문서 목록에서 직접 파일의 승인 상태를 쉽게 추적할 수 있습니다. 전체 상태를 간단히 클릭하면 승인 프로세스와 관련된 모든 참가자의 세부 분류 및 개별 상태에 액세스할 수 있습니다. 또한 한 번의 클릭으로 모든 우수 승인자에게 알림 메시지를 보내 신속한 응답과 효율적인 문서 관리를 통해 워크플로를 간소화할 수 있습니다. 
+
+
+## 2024년 3월: Frame.io의 베타 릴리스 업데이트
+
++++ 를 확장하여 2024년 3월에 릴리스된 기능을 확인합니다
 
 ### Frame.io에서 Workfront으로 여러 에셋 추가
 
@@ -39,7 +61,7 @@ Workfront + Frame.io 통합 베타 프로그램을 시작합니다! 이 Beta의 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428213/)
 
-## Workfront의 베타 릴리스 업데이트 - 2024년 3월
+## 2024년 3월: Workfront의 베타 릴리스 업데이트
 
 이 Beta 릴리스에는 다음과 같은 항목이 있습니다.
 
@@ -82,6 +104,8 @@ Workfront + Frame.io 통합 베타 프로그램을 시작합니다! 이 Beta의 
 새 문서 버전을 업로드할 때 이전 수정 버전을 잠근 상태로 유지하면서 다음 수정 버전을 시작할 수 있습니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428179/)
+
++++
 
 ## 기능 테스트
 
@@ -128,14 +152,12 @@ Beta 프로그램의 새로운 기능을 쉽게 테스트할 수 있도록 새�
 
 +++ 을 확장하여 자세한 테스트 지침을 봅니다.
 
-추가 기능을 테스트하려는 참가자를 위해 더 많은 관련 테스트 시나리오를 만들었습니다. 이 세부 테스트 시나리오에 대한 안내서는 여기에서 다운로드할 수 있습니다. [WF + Frame.io 상세 테스트 시나리오 연습](/help/quicksilver/review-and-approve-work/Documents/assets/wf-frame-detailed-walk-through-may-release.pdf).
+추가 기능을 테스트하려는 참가자를 위해 더 많은 관련 테스트 시나리오를 만들었습니다. 이 세부 테스트 시나리오에 대한 안내서는 여기에서 다운로드할 수 있습니다. [WF + Frame.io 상세 테스트 시나리오 연습](/help/quicksilver/review-and-approve-work/Documents/assets/WF-Frame-Detailed-Walk-Through-May-Release.pdf).
 +++
 
-<!-- 
-## Demo Video
+## 데모 비디오
 
->[!VIDEO](https://video.tv.adobe.com/v/3426406/)
--->
+>[!VIDEO](https://video.tv.adobe.com/v/3429092/)
 
 ## 피드백 보내기
 
