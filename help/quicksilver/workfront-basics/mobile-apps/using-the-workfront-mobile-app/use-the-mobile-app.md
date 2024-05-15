@@ -7,9 +7,9 @@ author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
-source-git-commit: 7a9232f59e4c6f2eac2995be7d7862295b6bab2c
+source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -38,9 +38,13 @@ ht-degree: 0%
 * Workfront 요청 만들기 및 처리
 * 타임시트에 시간 기록
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >다음 [!DNL Adobe Workfront] 모바일 앱이 [!DNL Workfront Proof] 앱. [!DNL Workfront] 이제 고객은 [!DNL Adobe Workfront] 증명 검토 및 승인을 수행하기 위한 모바일 앱.
+
+>[!NOTE]
+>
+>텍스트 필드의 하이퍼링크는 Workfront 모바일 앱에서 지원되지 않습니다.
 
 에 대한 자세한 내용은 [!DNL Adobe Workfront] 모바일 앱에서 다음 문서를 검토하십시오.
 

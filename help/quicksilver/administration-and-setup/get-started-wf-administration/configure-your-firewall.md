@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: c5100faf3d29182ecf62169708d39d41542a9398
+source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: '1633'
 ht-degree: 0%
 
 ---
@@ -191,7 +191,7 @@ ht-degree: 0%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">AWS 이메일 서비스를 사용하려면</td> 
+   <td role="rowheader">이메일 서비스를 사용하려면</td> 
    <td> 
     <ul> 
      <li>54.240.60.174</li> 
@@ -202,6 +202,15 @@ ht-degree: 0%
      <li>52.14.70.114</li> 
      <li>52.15.230.220</li> 
      <li>54.71.252.65 </li> 
+    </ul> </td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader">Mailgun 이메일 서비스를 사용하려면</td> 
+   <td> 
+    <ul> 
+     <li>143.55.228.56 </li> 
+     <li>209.61.151.229</li> 
+     <li>69.72.43.7</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -496,12 +505,12 @@ Jira 통합에 Workfront을 사용하려면 다음 IP 주소를 허용 목록에
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Workfront Proof가 모든 클러스터의 Workfront에 액세스할 수 있도록 하려면 모든 환경에 추가하십시오</td> 
+   <td role="rowheader">Workfront Proof이 모든 클러스터의 Workfront에 액세스할 수 있도록 하려면 모든 환경에 추가하십시오</td> 
    <td> 
     <ul> 
      <li>*.workfront.com - Workfront에서 증명을 보는 데 필요</li> 
      <li>*.proofhq.com - Workfront Proof에서 증명을 보는 데 필요</li> 
-     <li>*.proofhq.eu - Workfront 증명에서 증명을 보는 데 필요</li> 
+     <li>*.proofhq.eu - Workfront Proof에서 증명을 보는 데 필요</li> 
     </ul> <p><b>참고</b>:  <p>Workfront Proof용 허용 목록에 추가하다에 IP 주소를 추가할 수 없습니다. Workfront이 AWS으로 이동한 후 다이내믹했습니다. 대신 Workfront Proof 도메인만 허용하는 것이 좋습니다.</p> <p>허용 목록에 추가하다에 이러한 도메인을 추가하는 데 문제가 있고 대신 IP 주소가 필요한 경우 Workfront 고객 지원 센터에 문의하십시오.</p> </p> </td> 
   </tr> 
  </tbody> 
@@ -598,7 +607,7 @@ Jira 통합에 Workfront을 사용하려면 다음 IP 주소를 허용 목록에
 
 ## 최상의 Workfront Proof 성능을 위해 열 포트
 
-증명을 로드할 때 문제가 발생하거나 Workfront Proof에서 작동하지 않는 경우 다음 포트를 엽니다.
+Workfront Proof에서 증명을 로드하거나 사용할 수 없는 문제가 발생하는 경우 다음 포트를 여십시오.
 
 * 5671
 * 5672
