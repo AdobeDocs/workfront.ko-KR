@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: 198129edd8690393e3214f5041b183b5516617a7
+source-git-commit: ece0275518169fd67708dce903b8bf46a9ee7b1b
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1170'
 ht-degree: 0%
 
 ---
@@ -80,6 +80,16 @@ Workfront 관리자 또는 Standard 또는 Plan 라이선스 사용자를 비활
 
 ## 사용자 비활성화
 
+사용자를 비활성화할 때는 다음 사항에 유의하십시오.
+
+* 사용자가 시스템에 액세스할 수 없습니다.
+<!--* The user will be removed from Frame.io review links, assets, projects, and accounts.
+   * Reactivating the user does not automatically add them back to the Frame.io items. You must reassign the user manually to Workfront projects, tasks, and assets that require Frame.io collaboration.-->
+* 사용자와 관련된 모든 데이터는 유지됩니다.
+* 비활성화된 사용자 라이선스를 다른 사용자에게 할당할 수 있습니다.
+
+사용자를 비활성화하려면:
+
 1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리에서 을(를) 클릭하고 **사용자** ![](assets/users-icon-in-main-menu.png).
 
 1. 사용자를 선택하고 **자세히** 아이콘 ![](assets/more-icon.png)을 클릭한 다음 을 클릭합니다 **비활성화**.
@@ -126,6 +136,10 @@ Workfront 관리자 및 플랜 라이선스 사용자는 사용자 프로필에�
 1. 사용자를 선택하고 기타 아이콘을 클릭합니다 ![](assets/more-icon.png)을 클릭한 다음 을 클릭합니다 **활성화**.
 
 1. 새 항목 할당 **액세스 수준**&#x200B;드롭다운 메뉴에서 다음을 클릭합니다. **다시 활성화**.
+<!--
+### Asset review and approval impact when you reactivate a user
+
+Deactivated users lose access to their assigned Frame.io accounts as well as assigned projects, assets, and review links. If you choose to reactivate the user, you must manually reassign them to projects, tasks, and assets that require Frame.io collaboration. -->
 
 ### 사용자를 다시 활성화하면 증명이 미치는 영향
 
