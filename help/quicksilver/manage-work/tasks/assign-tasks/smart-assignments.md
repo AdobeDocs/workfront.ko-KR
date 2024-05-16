@@ -7,19 +7,20 @@ description: 작업 및 문제 할당을 관리할 때 스마트 할당을 사�
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: c4b7ef023d4b45deade0f56f422b0ba6b6662ee4
+source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1278'
 ht-degree: 0%
 
 ---
 
 # 스마트 할당 개요
 
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리보기 환경 또는 빠른 릴리스를 활성화한 고객의 프로덕션 환경에서만 사용할 수 있습니다.</span>
 
-<!-- {{preview-and-fast-release}} -->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 활성화 또는 비활성화](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-{{highlighted-preview}}
+<span class="preview">현재 릴리스에 대한 자세한 내용은 [2024년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 작업 및 문제 할당을 관리할 때 스마트 할당을 사용하여 작업을 완료하는 데 가장 적합한 리소스를 식별할 수 있습니다. 스마트 할당은 작업에 가장 적합한 리소스를 결정하는 알고리즘을 기반으로 리소스에 작업 항목을 할당할 때 Adobe Workfront이 제공하는 제안입니다. 스마트 할당은 사용자, 작업 역할 또는 팀이 될 수 있습니다.
 
@@ -121,7 +122,7 @@ ht-degree: 0%
 
   예를 들어 릭이 오늘 일찍 유사한 작업에 할당되었고 제니퍼가 이틀 전에 유사한 작업에 할당되었다면 릭이 먼저 표시됩니다.
 
-* 이 단계에서 식별된 할당은 **제안된 할당** 섹션 아래에 그룹화됩니다.
+* 이 단계에서 식별된 할당은    **제안된 할당**  섹션 아래에 그룹화됩니다.
 
 * 이 계산을 사용하여 일치하는 항목이 없으면 스마트 할당의 두 번째 단계가 시작되고 다른 알고리즘을 사용하여 계산됩니다.
 
@@ -131,7 +132,7 @@ ht-degree: 0%
 
 자세한 내용은 섹션을 참조하십시오 [작업 및 문제에 대한 스마트 할당 기준](#smart-assignments-criteria-for-tasks-and-issues) 이 문서에서.
 
-이 단계에서 식별된 할당은 **기타 할당** 임무를 위한 지정 필드의 섹션. <!--update this to "Other assignments"-->
+이 단계에서 식별된 할당은   **기타 할당** (또는 작업 할당 필드의 사용자 및 팀 또는 작업 역할 할당) 섹션.
 
 ### 작업 및 문제에 대한 스마트 할당 기준
 

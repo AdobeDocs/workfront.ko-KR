@@ -6,20 +6,20 @@ description: 스마트 할당을 사용하여 작업을 완료하는 데 가장 
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: c4b7ef023d4b45deade0f56f422b0ba6b6662ee4
+source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
 
 # 스마트 할당 만들기
 
-<!--Audited: 02/2024-->
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리보기 환경 또는 빠른 릴리스를 활성화한 고객의 프로덕션 환경에서만 사용할 수 있습니다.</span>
 
-<!-- {{preview-and-fast-release}} -->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 활성화 또는 비활성화](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-{{highlighted-preview}}
+<span class="preview">현재 릴리스에 대한 자세한 내용은 [2024년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 스마트 할당을 사용하여 작업을 완료하는 데 가장 적합한 사용자를 식별할 수 있습니다.
 
@@ -87,8 +87,8 @@ ht-degree: 0%
 
    작업의 경우, 스마트 할당은 알고리즘 계산에서 할당을 식별하는 단계에 따라 다음 섹션에 표시됩니다.
 
-   * **제안된 할당**: 작업 스마트 할당의 알고리즘 계산 첫 번째 단계에서 확인된 할당입니다.
-   * <span class="preview">**기타 할당**: 작업 스마트 할당의 알고리즘 계산 두 번째 단계에서 식별된 할당입니다. 이 섹션은 문제에 사용할 수 없습니다. </span> <!--replace this with the new UI: "Other assignments"-->
+   * **제안된 할당**: 작업 스마트 할당의 알고리즘 계산 첫 번째 단계에서 확인된 할당입니다. <span class="preview">이 섹션은 문제에 사용할 수 없습니다.</span>
+   * <span class="preview">**기타 할당** (또는 **사용자 및 팀**, 또는 **작업 역할**): 작업 스마트 할당의 알고리즘 계산 두 번째 단계에서 식별된 할당입니다. <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
 
    ![](assets/smart-assignments-task-list.png)
 

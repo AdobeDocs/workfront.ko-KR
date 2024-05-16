@@ -4,7 +4,7 @@ description: 왼쪽 패널의 Workfront 개체에 대한 계획 섹션에 Adobe 
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
+source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 1%
@@ -142,11 +142,11 @@ ht-degree: 1%
    * 계획 레코드에 연결된 Workfront 필드의 값도 삭제됩니다.
 1. 클릭 **연결** 더 많은 레코드를 연결합니다.
 
-   <!--checking with the team on the below note - not sure if if should stay Manage or be changed to Contribute??-->
+   <!--checking with the team on the below note - not sure if if should stay Manage or Contribute - Lilit said Contribute??-->
 
    >[!NOTE]
    >
-   >   연결 버튼은 관리 권한이 있는 작업 공간에 대해서만 표시됩니다.
+   >   연결 단추는 Contribute 권한이 있는 작업 영역에 대해서만 표시됩니다.
 
 1. 연결할 레코드를 클릭합니다. 다음과 같은 상황이 발생합니다.
 

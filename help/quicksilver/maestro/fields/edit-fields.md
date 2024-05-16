@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
+source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---
@@ -44,14 +44,19 @@ Adobe Workfront Planning 필드 생성에 대한 자세한 내용은 다음을 �
 * 레코드 페이지나 테이블 보기 외부의 다른 보기에서는 필드를 편집할 수 없습니다.
 * 필드를 저장한 후에는 필드 유형을 편집할 수 없습니다.
 * 이미 음수 값이 첨부된 레코드에 저장된 경우 숫자, 백분율 또는 통화 필드에 대해 이전에 선택한 음수 허용 설정을 선택 해제할 수 없습니다.
+* 필드를 저장한 후 다음 필드 요소의 구성을 편집할 수 있습니다.
 
-<!--this is not true yet, but will be with the release of RTBE for field configuration changes: 
+   * 모든 필드의 이름 또는 설명
+   * 단일 선택 또는 다중 선택 필드의 옵션
+   * 공식 필드의 표현식.
 
-* You can edit the configuration of the following fields, after they are saved:
-
-    * The Name or the Description of any field
-    * The Options of a Single-select or a Multi-select field.
-    * The expression of a Formula field.-->
+  >[!WARNING]
+  >
+  >수식 표현식이 변경되거나 선택 유형 필드에서 옵션을 추가하거나 제거하면 구성이 수정된 필드에 이미 정보가 저장된 레코드에 대한 데이터가 손실됩니다.
+  >
+  >필드의 구성을 변경할 때 이 데이터 손실이 발생할 수 있다는 경고나 표시는 없습니다.
+  >
+  >필드 구성이 변경되었다는 알림이 다른 사용자에게 표시되지 않습니다.
 
 <!--this is not yet true, but it might come later:
 * You can deselect Allow negative numbers option from a Number, Percentage, or Currency field after you save the field. 
