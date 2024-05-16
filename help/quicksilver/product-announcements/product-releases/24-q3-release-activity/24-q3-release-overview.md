@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
+source-git-commit: 44ca7103afe0a44012063f14318968183a6442f9
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 0%
+source-wordcount: '788'
+ht-degree: 1%
 
 ---
 
@@ -35,6 +35,7 @@ ht-degree: 0%
 ## Adobe Workfront 개선 사항
 
 <!--* [Administrator enhancements](#administrator-enhancements)-->
+* [향상된 Financial Management](#financial-management-enhancements)
 * [프로젝트 개선 사항](#project-enhancements)
 * [기타 개선 사항](#other-enhancements)
 
@@ -79,13 +80,65 @@ ht-degree: 0%
         </table>
 -->
 
+### 향상된 Financial Management
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">기능</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">릴리스 날짜</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-financial-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">프로젝트 및 태스크에 사용할 수 있는 청구 가능 및 청구 불가능 경비 필드</a></p>
+                        <p>[!BADGE In production ]{type=Informative}</p>
+                        <p>경비 유형을 보다 쉽게 볼 수 있도록 하기 위해, 경비는 프로젝트 및 태스크에서 청구 가능 경비와 청구 불가능 경비로 구분되었습니다. 보기 및 보고서에 추가할 수 있는 필드는 다음과 같습니다.</p>
+                        <ul>
+                            <li><p>계획된 청구 가능 경비 비용</p></li>
+                            <li><p>청구 불가능한 계획된 경비</p></li>
+                            <li><p>실제 청구 불가능한 경비</p></li>
+                            <li><p>실제 청구 불가능한 경비</p></li>
+                        </ul>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2024년 5월 10일</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">모든 고객을 위한 프로덕션: 2024년 5월 10일</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>             
+           </tbody>
+        </table>
+
 ### 프로젝트 개선 사항
 
 <table>
             <col style="width: 50%;" />
             <col style="width: 50%;" />
             <tbody>
-                 <tr>
+                <tr>
+                    <td>
+                        <p><span class="bold">기능</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">릴리스 날짜</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">새 작업 워크플로우에 더 많은 관련 할당이 추가됨</a></p>
                         <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
@@ -97,10 +150,7 @@ ht-degree: 0%
                                 <p>미리보기 릴리스: 2024년 2월 13일</p>
                             </li>
                             <li>
-                                <p>빠른 릴리스를 위한 프로덕션: 24.5 릴리스 포함(2024년 5월 16일)</p>
-                            </li>
-                            <li>
-                                <p>분기별 릴리스: TBD</p>
+                                <p>모든 고객을 위한 프로덕션 릴리스: 24.7 릴리스 포함(2024년 7월)</p>
                             </li>
                         </ul>
                     </td>
@@ -117,10 +167,7 @@ ht-degree: 0%
                                 <p>미리보기 릴리스: 2023년 12월 21일</p>
                             </li>
                             <li>
-                                <p>빠른 릴리스를 위한 프로덕션: 24.5 릴리스 포함(2024년 5월 16일)</p>
-                            </li>
-                            <li>
-                                <p>분기별 릴리스: TBD</p>
+                                <p>모든 고객을 위한 프로덕션 릴리스: 24.7 릴리스 포함(2024년 7월)</p>
                             </li>
                         </ul>
                     </td>
@@ -147,7 +194,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">오브젝트 액세스가 제한된 사용자를 위한 UI 경험 개선</a></p>
-                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
+                        <p>[!BADGE In Production for Fast Release ]{type=Positive}</p>
                         <p>사용자에게 오브젝트에 대한 액세스 권한이 없는 경우 Workfront에 해당 오브젝트 이름이 표시되는 모든 위치에 "액세스 권한 없음"이 표시됩니다. 이러한 향상된 경험은 Workfront API에도 적용됩니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -181,11 +228,7 @@ ht-degree: 0%
                     </td>
                 </tr>                
            </tbody>
-        </table>   
-           </tbody>
         </table>
-
-
 
 ## 공지
 
