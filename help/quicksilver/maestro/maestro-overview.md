@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
+source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
 workflow-type: tm+mt
-source-wordcount: '1807'
+source-wordcount: '1826'
 ht-degree: 1%
 
 ---
@@ -27,6 +27,8 @@ ht-degree: 1%
 >현재 Adobe Workfront Planning은 제한된 수의 고객에게 공개되는 베타 프로그램의 일부입니다. 이러한 기능을 사용하려면 Workfront 고객이어야 합니다.
 >
 >Workfront Planning용 Beta 프로그램 가입에 대한 자세한 내용은 계정 담당자에게 문의하십시오.
+>
+>Workfront Planning을 문서화하는 모든 섹션 및 문서의 전체 목록은 다음을 참조하십시오. [Adobe Workfront Planning: 문서 색인](/help/quicksilver/maestro/maestro-information.md).
 
 <!--[View a video demonstration of Adobe Workfront Planning capabilities.](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 

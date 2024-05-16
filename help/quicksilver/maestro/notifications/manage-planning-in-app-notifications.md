@@ -4,13 +4,13 @@ description: 누군가가 기록 댓글에서 귀하를 태그하면 해당 태�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
+exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
+source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Workfront Planning 인앱 알림 관리
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 ## 인앱 알림 관리
 
-1. (조건부) 다른 사용자가 레코드에 있는 댓글에 귀하를 태그 지정한 후 인앱으로 이동 **알림** 아이콘 ![](assets/experience-cloud-notifications-icon.png) Adobe Experience Cloud.
+1. (조건부) 다른 사용자가 레코드에 있는 댓글에 귀하를 태그 지정한 후 인앱으로 이동합니다 **알림** 아이콘 ![](assets/experience-cloud-notifications-icon.png) Adobe Experience Cloud.
 
    ![](assets/in-app-notification-example.png)
 

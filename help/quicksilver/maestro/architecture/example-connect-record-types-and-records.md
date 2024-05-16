@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
 workflow-type: tm+mt
-source-wordcount: '1771'
+source-wordcount: '1797'
 ht-degree: 0%
 
 ---
@@ -116,6 +116,10 @@ Product라는 다른 레코드 유형이 있으며 Budget이라는 통화 필드
 
 
 ## Workfront Planning 레코드 유형을 Workfront 프로젝트 객체 유형과 연결하고 레코드를 개별 프로젝트와 연결합니다
+
+>[!IMPORTANT]
+>
+>    작업 영역에 대한 보기 이상의 권한이 있는 모든 사용자는 Workfront의 권한 또는 액세스 수준에 관계없이 연결된 필드에서 정보를 볼 수 있습니다.
 
 예를 들어 원래 레코드 유형으로 Campaign이라는 레코드 유형이 있습니다.
 

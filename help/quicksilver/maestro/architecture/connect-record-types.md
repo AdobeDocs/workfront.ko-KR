@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
+source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
 workflow-type: tm+mt
 source-wordcount: '2216'
 ht-degree: 0%
@@ -219,6 +219,8 @@ Workfront Planning 레코드를 다른 애플리케이션의 객체에 연결하
    > 이 목록에 표시되기 전에 선택한 개체에 대해 Workfront에서 사용자 정의 양식을 만들어야 합니다.
 
 1. (조건부) Experience Manager Assets에 연결하도록 선택한 경우 **Experience Manager 저장소** 드롭다운 메뉴 **다음 저장소에서 에셋 연결** 섹션. 필수 필드입니다. Experience Manager Assets에서 액세스할 수 있는 저장소만 이 필드에 표시됩니다.
+
+   <!--replace the screen shot below when they fix the permissions info icon bug-->
 
    ![](assets/aem-assets-connection-selection.png)
 

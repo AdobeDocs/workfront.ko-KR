@@ -4,13 +4,13 @@ description: 누군가가 기록 댓글에서 귀하를 태그하면 해당 태�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
+exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
+source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Workfront Planning 이메일 알림 관리
 
@@ -94,4 +94,4 @@ ht-degree: 0%
    Workfront에 레코드 세부 정보 페이지가 열립니다. 레코드를 업데이트하거나 댓글에 답글을 달 수 있습니다.
 
 1. (조건부) 사용 가능한 경우 **모든 알림 보기**. <!--check with Lilit - do non-IMS users have this button??-->
-다음 **알림** 페이지가 Adobe Experience Cloud에서 열립니다.
+다음 **알림** 페이지가 Adobe Experience Cloud에서 열립니다. 모든 Adobe Experience Cloud 애플리케이션의 모든 알림이 표시됩니다.
