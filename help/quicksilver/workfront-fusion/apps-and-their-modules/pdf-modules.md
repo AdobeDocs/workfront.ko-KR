@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e0a5736b-dbdb-43c6-83ff-e88a5625a5bf
-source-git-commit: b43ea012d7c649c94011f72f010ae24895e6ef4b
+source-git-commit: ba161761acfc57e271f8593f534a5f7510187559
 workflow-type: tm+mt
-source-wordcount: '3590'
+source-wordcount: '3719'
 ht-degree: 0%
 
 ---
@@ -801,6 +801,44 @@ OAuth 서버 간 연결을 만들려면 Adobe 개발자 콘솔에서 Adobe PDF �
    <li><p><b>파일 수</b></p><p>문서를 분할할 파일 크기를 동일하게 입력합니다.</p></li>
    </ul>
    </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## 사용자 지정 API 호출 만들기
+
+이 작업 모듈은 PDF 서비스 API에 대한 사용자 지정 HTTP 요청을 처리합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> 에 대한 연결 만들기에 대한 지침: [!DNL Adobe PDF Services], 참조 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe PDF Services]</a> 이 문서에서. </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL URL]</td> 
+   <td> 상대 경로 또는 URL을 입력합니다. </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 메서드]</td> 
+   <td> <p>API 호출을 구성하는 데 필요한 HTTP 요청 메서드를 선택합니다. 자세한 내용은 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">의 HTTP 요청 메서드 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Headers]</td> 
+   <td> <p>표준 JSON 개체 형태로 요청의 헤더를 추가합니다.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion은 인증 헤더를 자동으로 추가합니다.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 쿼리 문자열]</td> 
+   <td> <p>표준 JSON 개체 형식으로 API 호출에 대한 쿼리를 추가합니다.</p> <p>For example: <code>{"name":"something-urgent"}</code></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 필드]</td> 
+   <td> <p>API 호출에 추가할 각 필드에 대해 <b>항목 추가</b> 필드의 키와 선택적 값을 입력합니다.</p> <p>참고:  <p>다음과 같은 조건문을 사용할 때 <code>if</code> json에서 따옴표를 조건문 외부에 넣습니다.</p> 
+     <div class="example" data-mc-autonum="<b>Example: </b>"> 
+      <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
+     </div> </p> </td> 
   </tr> 
  </tbody> 
 </table>
