@@ -1,18 +1,21 @@
 ---
 content-type: reference
 navigation-topic: workfront-navigation
-title: 의 프로젝트, 작업 및 문제 날짜 개요 [!DNL Adobe Workfront]
-description: 의 프로젝트, 작업 및 문제 날짜 개요 [!DNL Adobe Workfront]
+title: 의 프로젝트, 작업 및 문제 날짜 개요 [!DNL Workfront]
+description: 이 문서는에서 프로젝트, 작업 및 문제와 관련된 가장 일반적인 날짜에 대한 정의를 제공합니다. [!DNL Adobe Workfront].
 feature: Get Started with Workfront
+author: Alina
 exl-id: 3808200f-a573-4c39-8965-b254f69c893c
-source-git-commit: db9193c7593ec6ce361c020b70ed02e79742eb9b
+source-git-commit: 040dd446ff2b347dabf8a139feb17fd1a7d50e4e
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1258'
 ht-degree: 0%
 
 ---
 
-# 의 프로젝트, 작업 및 문제 날짜 개요 [!DNL Adobe Workfront]
+# 의 프로젝트, 작업 및 문제 날짜 개요 [!DNL Workfront]
+
+<!-- Audited: 05/2024 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider expanding on this article with ALL dates for PTIs - Hand off dates, Approval Dates, etc) </p>
@@ -35,7 +38,7 @@ ht-degree: 0%
 
 자세한 내용은 [프로젝트 개요 [!UICONTROL 계획된 시작 일자]](../../../manage-work/projects/planning-a-project/project-planned-start-date.md).
 
-![](assets/planned-start-date-on-edit-task-highlighted-nwe-350x249.png)
+![](assets/planned-start-date-on-edit-task-highlighted-nwe.png)
 
 ![](assets/planned-start-date-in-task-list-highlighted-nwe-350x167.png)
 
@@ -63,7 +66,7 @@ ht-degree: 0%
 
 다음 [!UICONTROL 입력 일자] 은 프로젝트, 작업 또는 문제의 타임라인에 영향을 주지 않지만 추적 및 보고 목적상 중요합니다. [!DNL Workfront] 을 자동으로 생성합니다. [!UICONTROL 입력 일자] 개체를 만들 때 수동으로 편집할 수 없습니다.
 
-![](assets/entry-date-in-task-details-highlighted-nwe-350x105.png)
+![](assets/entry-date-in-task-details-highlighted-nwe.png)
 
 ## [!UICONTROL 실제 시작 일자]
 
@@ -114,7 +117,7 @@ ht-degree: 0%
 
 ## [!UICONTROL 예상 시작 일자]
 
-다음 [!UICONTROL 예상 시작 일자] 은 프로젝트, 작업 또는 문제의 실시간 날짜이며 모든 지연을 고려합니다. 이 날짜는 프로젝트, 작업 또는 문제의 시작 날짜보다 [!UICONTROL 계획된 시작 일자]. 다음 [!UICONTROL 계획된 시작 일자] 지연 또는 지난 날짜를 고려하지 않습니다.
+다음 [!UICONTROL 예상 시작 일자] 은 프로젝트, 작업 또는 문제가 시작되는 실시간 날짜이며 모든 지연을 고려합니다. 이 날짜는 프로젝트, 작업 또는 문제의 시작 날짜보다 [!UICONTROL 계획된 시작 일자]. 다음 [!UICONTROL 계획된 시작 일자] 지연 또는 지난 날짜를 고려하지 않습니다.
 
 프로젝트를 처음 계획할 때 [!UICONTROL 계획된 시작 일자] 및 [!UICONTROL 예상 시작 일자] 의 작업과 프로젝트의 가 동일합니다. 지연이 발생하거나 작업이 더 일찍 완료될 수 있으므로 [!UICONTROL 예상 시작 일자] 은(는) 과(와) 다를 수 있습니다. [!UICONTROL 계획된 시작 일자].
 
@@ -132,7 +135,7 @@ ht-degree: 0%
 
 다음 [!UICONTROL 예상 완료 일자] 은 프로젝트, 작업 또는 문제가 완료되는 시기를 실시간으로 계산한 지표를 나타냅니다. 프로젝트, 작업 또는 문제가 완료됨으로 표시되면 [!UICONTROL 예상 완료 일자] 날짜 변경 사항 [!UICONTROL 실제 완료 일자].
 
-모든 것이 순조롭게 계획대로 진행되면 [!UICONTROL 예상 완료 일자] 은(는) 다음과 일치해야 합니다. [!UICONTROL 계획된 완료 일자]. 그렇지 않은 경우 전임 작업 지연으로 인해 [!UICONTROL 예상 완료 일자] 은(는) 과(와) 다를 수 있습니다. [!UICONTROL 계획된 완료 일자].
+모든 것이 순조롭게 계획대로 진행되면 [!UICONTROL 예상 완료 일자] 은(는) 다음과 일치해야 합니다. [!UICONTROL 계획된 완료 일자]. 그렇지 않으면 전임 작업 지연으로 인해 [!UICONTROL 예상 완료 일자] 은(는) 과(와) 다를 수 있습니다. [!UICONTROL 계획된 완료 일자].
 
 자세한 내용은 [개요 [!UICONTROL 예상 완료 일자] 프로젝트, 작업 및 문제의 경우](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
 
@@ -146,7 +149,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->다음 [!UICONTROL 시간 입력 일자] 다음과다름: [!UICONTROL 입력 일자] 시간 로그가 생성된 날짜가 아니라 시간을 연결하려는 날짜라는 점에서 볼 수 있습니다.
+>다음 [!UICONTROL 시간 입력 일자] 다음과다름: [!UICONTROL 입력 일자] 시간 로그가 생성된 날짜가 아니라 시간을 연결하려는 날짜라는 점에서 차이가 있습니다.
 
 Workfront의 다음 영역에서 시간을 기록하고 볼 수 있습니다.
 

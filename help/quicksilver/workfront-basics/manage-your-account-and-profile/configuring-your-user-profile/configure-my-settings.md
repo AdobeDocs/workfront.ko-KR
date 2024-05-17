@@ -6,9 +6,9 @@ description: '사용자 [!DNL Adobe Workfront] 프로필에는 자신에 대한 
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
+source-git-commit: 157ab840d63388b342db624824db9538d43b70b1
 workflow-type: tm+mt
-source-wordcount: '3273'
+source-wordcount: '3275'
 ht-degree: 1%
 
 ---
@@ -255,7 +255,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>(조건부) [!UICONTROL만 허용 &lt;sso configuration=""&gt; Authentication]</strong></td> 
-   <td> <p> 다음의 경우 [!DNL Workfront] 관리자가 (으)로 SSO 통합을 활성화했습니다. [!DNL Workfront] 이(가) SSO를 위해 사용자를 업데이트했습니다. 이 필드는 기본적으로 선택되어 있습니다. 에 대해 활성화된 SSO 구성 유형 [!DNL Workfront] 인스턴스가 이 필드에 표시됩니다.</p> <p>이 필드를 선택하면 로그인해야 합니다. [!DNL Workfront] (SSO 자격 증명 포함) 선택을 취소하면 다음에 로그인할 수 있습니다. [!DNL Workfront] (으)로 [!DNL Workfront] 자격 증명.</p> <p>구성에 대한 자세한 내용 [!DNL Workfront] sso 솔루션을 사용하여 다음을 참조하십시오. <a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref">단일 사인온 [!DNL Adobe Workfront]</a>. SSO용 사용자 업데이트에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">SSO(Single Sign-On)를 위해 사용자 업데이트</a>.</p> </td> 
+   <td> <p> 다음의 경우 [!DNL Workfront] 관리자가 (으)로 SSO 통합을 활성화했습니다. [!DNL Workfront] 이(가) SSO를 위해 사용자를 업데이트했습니다. 이 필드는 기본적으로 선택되어 있습니다. 에 대해 활성화된 SSO 구성 유형 [!DNL Workfront] 인스턴스가 이 필드에 표시됩니다.</p> <p>이 필드를 선택하면 로그인해야 합니다. [!DNL Workfront] (SSO 자격 증명 포함) 선택을 취소하면 다음에 로그인할 수 있습니다. [!DNL Workfront] (으)로 [!DNL Workfront] 자격 증명.</p> <p>구성에 대한 자세한 내용 [!DNL Workfront] sso 솔루션을 사용하여 다음을 참조하십시오. <a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref">단일 사인온 [!DNL Workfront]: 문서 색인</a>. SSO용 사용자 업데이트에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">SSO(Single Sign-On)를 위해 사용자 업데이트</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -348,7 +348,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>(조건부) 문서 업로드 시 증명을 자동으로 생성합니다</strong></td> 
-   <td>이 필드를 선택하여 문서가 로 로드된 후 바로 증명 생성을 시작합니다. [!DNL Workfront]. 이 필드는 기본적으로 비활성화되어 있으며 Workfront 관리자만 업데이트할 수 있습니다.<br>이 필드는 회사에서 Workfront용 Workfront Proof 구성 요소를 구매했고 사용자가 증명 사용자로 활성화되어 있을 경우에만 사용할 수 있습니다. Workfront 증명에 대한 자세한 내용은 <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md" class="MCXref xref">Adobe Workfront 내에서 증명 관리</a>.
+   <td>이 필드를 선택하여 문서가 로 로드된 후 바로 증명 생성을 시작합니다. [!DNL Workfront]. 이 필드는 기본적으로 비활성화되어 있으며 Workfront 관리자만 업데이트할 수 있습니다.<br>이 필드는 회사에서 Workfront용 Workfront Proof 구성 요소를 구입한 경우와 증명 사용자로 활성화된 경우에만 사용할 수 있습니다. Workfront 증명에 대한 자세한 내용은 <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md" class="MCXref xref">Adobe Workfront 내에서 증명 관리</a>.
    <p><b>참고:</b> 요청에 업로드된 문서는 증명을 자동으로 생성하지 않습니다. </p></td> 
   </tr> 
  </tbody> 

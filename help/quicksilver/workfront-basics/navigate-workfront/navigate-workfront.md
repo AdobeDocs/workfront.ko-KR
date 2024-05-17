@@ -7,7 +7,7 @@ feature: Get Started with Workfront
 author: Lisa
 recommendations: noDisplay, noCatalog
 exl-id: 2ee82e53-1cc3-4438-a325-8c2c4d4ca1fb
-source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
+source-git-commit: 040dd446ff2b347dabf8a139feb17fd1a7d50e4e
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 0%
@@ -37,6 +37,6 @@ Adobe Workfront을 탐색하고 Workfront 용어를 학습하는 방법을 이�
 * [목록: [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/use-lists/lists.md)
 * [사용자 정의 섹션 만들기](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
 * [액세스 [!DNL Adobe Workfront] 도움말](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)
-* [의 프로젝트, 작업 및 문제 날짜 개요 [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
+* [의 프로젝트, 작업 및 문제 날짜 개요 [!DNL Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
 * [탐색 이해 [!UICONTROL 작업]-license 사용자](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
 * [탐색 이해 [!UICONTROL 리뷰]-license 사용자](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)

@@ -3,7 +3,7 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
+source-git-commit: 040dd446ff2b347dabf8a139feb17fd1a7d50e4e
 workflow-type: tm+mt
 source-wordcount: '14246'
 ht-degree: 1%
@@ -540,8 +540,8 @@ ht-degree: 1%
          * [시나리오 플래너에 대한 액세스 권한 부여](administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
          * [리소스 관리에 대한 액세스 권한 부여](administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
          * [Workfront 목표에 대한 액세스 권한 부여](administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
-      * Adobe Workfront에서 SSO(Single Sign-On) {#sso}
-         * [단일 사인온](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
+      * Workfront에서 SSO(Single Sign-On) {#sso}
+         * [SSO(Single Sign-On): 문서 색인](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
          * [SSO(Single Sign-On) 개요](administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
          * [SSO(Single Sign-On)를 위해 사용자 업데이트](administration-and-setup/add-users/single-sign-on/update-users-sso.md)
          * [SAML 2.0으로 Workfront 구성](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
@@ -873,7 +873,7 @@ ht-degree: 1%
       * [[!DNL Adobe Workfront] 개체 개요](workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
       * [작업 라이선스 사용자의 탐색 이해](workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
       * [Review-license 사용자의 탐색 이해](workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)
-      * [Adobe Workfront의 프로젝트, 작업 및 문제 날짜 개요](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
+      * [Workfront의 프로젝트, 작업 및 문제 날짜 개요](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
    * 홈 {#home}
       * [홈](workfront-basics/using-home/home.md)
       * 새 홈 {#new-home}

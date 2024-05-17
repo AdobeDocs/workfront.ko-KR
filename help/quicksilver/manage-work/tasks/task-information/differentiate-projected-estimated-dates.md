@@ -7,9 +7,9 @@ description: 시작 가능한 시점과 완료 가능한 시점 사이의 작업
 author: Alina
 feature: Work Management
 exl-id: 7cc68fc4-5f79-4ce6-a404-737ea8959ec3
-source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
+source-git-commit: 040dd446ff2b347dabf8a139feb17fd1a7d50e4e
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '990'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 작업을 처음 만들 때 계획된 일자, 예상 일자 및 예상 일자가 일반적으로 일치해야 합니다. 일부 예외가 존재합니다. 
 
-Adobe Workfront의 프로젝트, 작업 및 문제 날짜에 대한 자세한 내용은 [Adobe Workfront의 프로젝트, 작업 및 문제 날짜 개요](../../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md).
+Adobe Workfront의 프로젝트, 작업 및 문제 날짜에 대한 자세한 내용은 [Workfront의 프로젝트, 작업 및 문제 날짜 개요](../../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md).
 
 ## 계획된 일자 개요
 
