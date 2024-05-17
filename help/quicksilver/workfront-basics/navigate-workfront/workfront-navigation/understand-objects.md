@@ -6,9 +6,9 @@ description: "사용자가 표시하는 정보 [!DNL Adobe Workfront] 는 다음
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: d55432667aa86db3216d10d8475962d9e441648b
+source-git-commit: ae2e8f0914e5090b9ea2605f593fcef271469c61
 workflow-type: tm+mt
-source-wordcount: '2400'
+source-wordcount: '2441'
 ht-degree: 1%
 
 ---
@@ -300,11 +300,12 @@ API에 대한 자세한 내용은 [API 탐색기](../../../wf-api/general/api-ex
 * [!UICONTROL 매개변수 그룹] (또는 [!UICONTROL 섹션 구분])
 * [!UICONTROL Portfolio]
 * [!UICONTROL 프로그램]
-* [!UICONTROL 프로젝트] ([!UICONTROL 재무 데이터])
+* [!UICONTROL 프로젝트(재무 데이터)]
+   * 재무 정보는 [!UICONTROL 프로젝트(재무 데이터)] 연관된 데이터가 5년 미만인 경우에만 보고합니다. 예를 들어 2015년 1월에 작업 역할이 작업에 할당되었고 오늘이 2021년 9월인 경우 다음과 같은 재무 파일이 생성됩니다. [!UICONTROL 할당 일자] 작업 역할이에 이(가) 채워지지 않음 [!UICONTROL 프로젝트(재무 데이터)] 보고서.
 
-  >[!NOTE]
+  >[!CAUTION]
   >
-  >재무 정보는 [!UICONTROL 프로젝트] ([!UICONTROL 재무 데이터])는 연결된 데이터가 5년 미만인 경우에만 보고합니다. 예를 들어 2015년 1월에 작업 역할이 작업에 할당되었고 오늘이 2021년 9월인 경우 다음과 같은 재무 파일이 생성됩니다. [!UICONTROL 할당 일자] 작업 역할이에 이(가) 채워지지 않음 [!UICONTROL 프로젝트(재무 데이터)] 보고서.
+  >프로젝트(재무 데이터) 보고서를 실행하면 재무 데이터가 다시 계산되어 이전 재무 데이터를 덮어쓸 수 있으며 상당한 시간이 소요될 수 있습니다. 재무 데이터 재계산 결과에 대한 자세한 내용은 [프로젝트 재무 다시 계산](/help/quicksilver/manage-work/projects/project-finances/recalculate-project-finances.md).
 
 * [!UICONTROL 증명 승인]
    * 승인을 위해 제출된 증명, 다음에 대한 정보를 포함하여 증명 승인에 대한 다양한 정보를 볼 수 있습니다. [!UICONTROL 승인자], 요청자에 대한 정보(요청자가 라이센스가 있는 경우) [!DNL Workfront] 사용자), 버전 정보, 증명 ID 및 증명 생성일.\

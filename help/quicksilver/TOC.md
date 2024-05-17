@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 44ca7103afe0a44012063f14318968183a6442f9
+source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
 workflow-type: tm+mt
-source-wordcount: '14262'
+source-wordcount: '14246'
 ht-degree: 1%
 
 ---
@@ -1735,8 +1735,6 @@ ht-degree: 1%
       * [향상된 분석에서 프로젝트 활동 시각화 보기](enhanced-analytics/project-activity-overview.md)
       * [향상된 분석에서 프로젝트 트리맵 시각화 보기](enhanced-analytics/project-treemap-overview.md)
       * [향상된 분석에서 팀별 활동 시각화 보기](enhanced-analytics/activity-by-team-overview.md)
-      * [향상된 분석에서 리소스 용량 시각화 보기](enhanced-analytics/resource-capacity-overview.md)
-      * [향상된 분석에서 팀 용량 시각화 보기](enhanced-analytics/team-capacity-overview.md)
    * Workfront 데이터 레이크 {#data-lake}
       * [Workfront 데이터 레이크 개요](reports-and-dashboards/data-lake/data-lake-overview.md)
       * [리더 계정 만들기](reports-and-dashboards/data-lake/create-a-reader-account.md)

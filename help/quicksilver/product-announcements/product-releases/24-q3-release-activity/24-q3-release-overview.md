@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 44ca7103afe0a44012063f14318968183a6442f9
+source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '822'
 ht-degree: 1%
 
 ---
@@ -141,13 +141,16 @@ ht-degree: 1%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">새 작업 워크플로우에 더 많은 관련 할당이 추가됨</a></p>
-                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
+                        <p>[!BADGE In Production for Fast Release ]{type=Positive}</p>
                         <p>프로젝트 및 프로젝트 작업 목록에 작업을 추가할 때 새 작업 상자의 할당 필드에 더 적절한 스마트 할당에 대해 동일한 기능을 추가했습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
                             <li>
                                 <p>미리보기 릴리스: 2024년 2월 13일</p>
+                            </li>
+                            <li>
+                                <p>빠른 릴리스를 위한 프로덕션: 24.5 릴리스 포함(2024년 5월 16일)</p>
                             </li>
                             <li>
                                 <p>모든 고객을 위한 프로덕션 릴리스: 24.7 릴리스 포함(2024년 7월)</p>
@@ -158,13 +161,16 @@ ht-degree: 1%
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">더 관련성 있는 스마트 할당</a></p>
-                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
+                        <p>[!BADGE In Production for Fast Release ]{type=Positive}</p>
                         <p>Workfront이 작업에 대한 스마트 할당을 계산하고 제안하는 데 사용하는 알고리즘을 변경했습니다. 새 알고리즘은 작업을 지정하는 Workfront의 작업 목록, 작업 헤더의 지정 영역, 홈 및 요약 패널에서 적용됩니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
                             <li>
                                 <p>미리보기 릴리스: 2023년 12월 21일</p>
+                            </li>
+                            <li>
+                                <p>빠른 릴리스를 위한 프로덕션: 24.5 릴리스 포함(2024년 5월 16일)</p>
                             </li>
                             <li>
                                 <p>모든 고객을 위한 프로덕션 릴리스: 24.7 릴리스 포함(2024년 7월)</p>

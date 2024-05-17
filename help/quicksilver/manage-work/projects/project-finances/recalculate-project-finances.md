@@ -6,9 +6,9 @@ description: 재원은 프로젝트에 기록된 시간 또는 비용 및 수익
 author: Alina
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: bfe77796863bb2d7d324901721fda7fa045c2c0b
+source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
 workflow-type: tm+mt
-source-wordcount: '1620'
+source-wordcount: '1647'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,8 @@ ht-degree: 0%
 >[!CAUTION]
 >
 >주어진 프로젝트에 대한 재무를 수동으로 다시 계산하기 전에 이미 이전 비율로 계산된 재무 데이터를 보존할 수 있습니다. 기존 정보를 변경하지 않고 있거나 변경하고자 하는 경우에만 재무 재계산 옵션을 사용하는 것이 좋습니다.
+>
+>프로젝트(재무 데이터) 보고서를 실행하면 재무 데이터가 다시 계산되므로 보고서를 실행하기 전에 동일한 고려 사항을 고려해야 합니다.
 
 ## 기존 시간이 있는 작업에 대한 재무 데이터 유지 {#preserve-financial-data-for-tasks-with-existing-hours}
 
