@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
+source-git-commit: 34b1bf4e776a1f5b4a413ab9f78bed63c4b64f45
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1118'
 ht-degree: 1%
 
 ---
@@ -31,6 +31,14 @@ Adobe Workfront Planning 영역에서 레코드 유형을 선택한 후 다음 �
 * 캘린더
 
   자세한 내용은 [달력 보기 관리](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
+
+이 문서에서는 레코드 보기에 대한 다음 정보를 설명합니다.
+
+* [보기 만들기 및 편집](#create-or-edit-record-views)
+* [보기 삭제](#delete-views)
+* [보기 복제](#duplicate-views)
+  <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
+
 
 ## 액세스 요구 사항
 
@@ -93,7 +101,8 @@ Adobe Workfront Planning 영역에서 레코드 유형을 선택한 후 다음 �
 * Workfront Planning 보기는 레코드 유형별로 다릅니다. 동일한 보기를 두 개의 다른 레코드 유형에 적용할 수 없습니다.
 * 만든 보기는 사용자와 보기를 공유하는 사용자만 볼 수 있습니다.
 * 보기를 수정하거나 삭제하면 보기에 대한 권한이 있는 모든 사용자에 대해 수정 및 삭제됩니다.
-<!--* Each user can create a maximum of 100 views. -->
+* 각 사용자는 최대 100개의 보기를 만들 수 있습니다. 레코드 유형에 대해 100개 이상의 보기를 표시할 수 있지만 한 사용자가 100개의 보기만 만들 수 있습니다.
+* 만든 보기를 다른 사용자와 공유할 수 있습니다. 자세한 내용은 [보기 공유](/help/quicksilver/maestro/access/share-views.md).
 * 다음 요소는 각 레코드 보기에 고유합니다.
 
    * 필터
@@ -108,14 +117,6 @@ Adobe Workfront Planning 영역에서 레코드 유형을 선택한 후 다음 �
   >[!NOTE]
   >
   > Adobe Workfront Planning은 현재 베타 상태이므로 일부 보기 요소는 모든 보기에서 사용할 수 없을 수 있습니다.
-
-이 문서에서는 레코드 보기에 대한 다음 정보를 설명합니다.
-
-* [보기 만들기 및 편집](#create-or-edit-record-views)
-* [보기 삭제](#delete-views)
-* [보기 복제](#duplicate-views)
-* [보기 공유](#share-a-view)
-  <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 
 ## 레코드 보기 간의 유사성 및 차이점
 
@@ -228,10 +229,6 @@ Adobe Workfront Planning 영역에서 레코드 유형을 선택한 후 다음 �
 1. 클릭 **삭제** 확인할 수 있습니다. <!--ensure there is not another saving step here?!-->
 
    레코드 영역에 액세스할 수 있는 모든 사용자에 대해 보기가 삭제되며 복구할 수 없습니다.
-
-## 보기 공유
-
-보기 공유에 대한 자세한 내용은 [보기 공유](/help/quicksilver/maestro/access/share-views.md).
 
 <!--## Add a view as a favorite - this is not possible yet-->
 

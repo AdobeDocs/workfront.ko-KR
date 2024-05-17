@@ -8,7 +8,7 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: 34b1bf4e776a1f5b4a413ab9f78bed63c4b64f45
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Adobe Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 �
   <tr>
    <td><strong>Adobe Workfront 플랜</strong>
    </td>
-   <td>모든
+   <td>임의
    </td>
   </tr>
   <tr>
@@ -63,7 +63,7 @@ Adobe Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 �
 ## 개체 헤더 사용자 지정
 
 1. 에 설명된 대로 레이아웃 템플릿에서 작업 시작 [레이아웃 템플릿 만들기 및 관리](../../customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. 다음에서 **사용자에게 표시되는 항목 맞춤화** 드롭다운 메뉴에서 다음을 선택합니다. **프로젝트**, **작업** 또는 **문제**.
+1. 다음에서 **사용자에게 표시되는 항목 맞춤화** 드롭다운 메뉴에서 다음을 선택합니다. **프로젝트**, **작업**, 또는 **문제**.
 
    <!--when this will be possible for more than 3 objects, at production, make this more general: update the sentence above to say "select an object you want to customize in the Customize what users see drop-down menu). -->
 
@@ -72,7 +72,7 @@ Adobe Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 �
 
      또는
 
-   * 를 클릭하고 길게 **grab** 아이콘을 클릭하여 필드를 새 위치에 끌어다 놓습니다.
+   * 을(를) 클릭하고 **grab** 아이콘을 클릭하여 필드를 새 위치에 끌어다 놓습니다.
 
    <!--(NOTE: make sure the default names of these fields have not changed; otherwise, update screen shot)-->
 
