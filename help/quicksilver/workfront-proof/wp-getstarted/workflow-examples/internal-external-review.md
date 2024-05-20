@@ -4,13 +4,13 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: workflow-examples
 title: 내부 검토 후 외부 검토 [!DNL Workfront Proof]
-description: 조직 외부의 검토에 Workfront 증명을 사용하는 방법을 알아봅니다.
+description: 조직 외부의 검토에 Workfront Proof을 사용하는 방법을 알아봅니다.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c54246e9-edb8-4d98-81e1-faf7ee75f81e
-source-git-commit: 692d0e903c1b92ad539eacf6d26e18e81530a8b0
+source-git-commit: 153951e3bba91d67bcfe5fbf22c0970743f0dc6e
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 디자이너는 먼저 프로젝트 관리자(및 다른 동료)와 증명을 공유합니다. 동료가 증명을 검토하고 승인하면 공유 기능을 사용하여 클라이언트와 증명을 공유할 수 있습니다. 자세한 내용은 [에서 증명 공유 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
 
-![internal_external_-_option_A.png](assets/internal-external---option-a-350x86.png)
+![internal_external_-_option_A.png](assets/internal_external_-_option_A.png)
 
 1. **새 증명 만들기** - 디자이너가에서 새 증명을 만듭니다. [!DNL Workfront Proof] 공유하면 내부 검토자가 됩니다. 디자이너는 프로젝트 관리자를 증명의 소유자로 만듭니다.
 1. **내부 검토** - 프로젝트 관리자 및 다른 동료가 증명을 검토합니다.
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 이 옵션은 새 버전(필요한 경우)을 만들고 증명을 클라이언트와 공유하는 프로젝트 관리자가 증명 프로세스를 관리하는 워크플로를 보여 줍니다. 디자이너는 검토 프로세스에 관여할 필요가 없습니다.)
 
-![internal_external_-_option_B.png](assets/internal-external---option-b-350x86.png)
+![internal_external_-_option_B.png](assets/internal_external_-_option_B.png)
 
 1. **새 증명 만들기** - 디자이너가에서 새 증명을 만듭니다. [!DNL Workfront Proof] 내부 검토자와 공유합니다. 디자이너는 프로젝트 관리자를 증명의 소유자로 만들거나, 그에게 다음과 같은 역할을 제공합니다. [!UICONTROL 작성자] 증명 시(참조) [에서 증명 역할 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
 
