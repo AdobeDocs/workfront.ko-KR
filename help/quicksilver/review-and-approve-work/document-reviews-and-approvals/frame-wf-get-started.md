@@ -5,11 +5,9 @@ title: Frame.io로 자산 검토 및 승인 시작
 description: Workfront 및 Frame.io를 사용하는 공식 검토 및 승인 프로세스에 대해 자세히 알아보십시오.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 68b91aad-af76-473f-861d-da846fdfb84c
-source-git-commit: bbd8d500fbca5bb80bfce4a1897ab53110f60e64
+source-git-commit: a1ffd3ff488e06a10c9b418360906146c9cb3c99
 workflow-type: tm+mt
 source-wordcount: '1149'
 ht-degree: 0%
