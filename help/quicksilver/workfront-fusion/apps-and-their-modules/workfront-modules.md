@@ -9,9 +9,9 @@ description: Adobe Workfront Fusion Adobe Workfront 커넥터를 사용하여 Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: ceec745097d14d30a06ec347d836b701766a4f08
+source-git-commit: 5803d21b0f606ad5beb138869a50d355d3273d4a
 workflow-type: tm+mt
-source-wordcount: '6207'
+source-wordcount: '6260'
 ht-degree: 2%
 
 ---
@@ -353,6 +353,14 @@ ht-degree: 2%
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Options]</td> 
    <td> <p>개체를 변환할 때 원하는 옵션을 활성화합니다. 변환 중인 개체 또는 변환 중인 개체에 따라 옵션을 사용할 수 있습니다.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Copy native fields]</td> 
+   <td> <p>원본 개체에서 새 개체로 네이티브 필드를 복사하려면 이 옵션을 활성화합니다.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL 사용자 정의 양식 복사]</td> 
+   <td> <p>원본 개체에서 새 개체로 네이티브 필드를 복사하려면 이 옵션을 활성화합니다.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1107,7 +1115,7 @@ ht-degree: 2%
    <td> </td> 
   </tr> 
   <tr> 
-   <td>증명 승인</td> 
+   <td>교정쇄 승인</td> 
    <td> </td> 
    <td> </td> 
    <td>✓ 덧신</td> 
@@ -1238,6 +1246,16 @@ ht-degree: 2%
    <td>✓ 덧신</td> 
   </tr> 
   <tr> 
+   <td>기준선</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td> </td> 
+   <td>✓ 덧신</td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+   <tr> 
    <td>청구 기록</td> 
    <td>✓ 덧신</td> 
    <td>✓ 덧신</td> 
@@ -1298,6 +1316,16 @@ ht-degree: 2%
    <td>✓ 덧신</td> 
   </tr> 
   <tr> 
+   <td>환율</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td>✓ 덧신</td> 
+   <td> </td> 
+   <td>✓ 덧신</td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
    <td>경비</td> 
    <td>✓ 덧신</td> 
    <td>✓ 덧신</td> 
@@ -1316,6 +1344,16 @@ ht-degree: 2%
    <td>✓ 덧신</td> 
    <td> </td> 
    <td> </td> 
+  </tr> 
+  <tr> 
+   <td>외부 문서</td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>✓ 덧신</td> 
   </tr> 
   <tr> 
    <td>그룹</td> 
@@ -1522,7 +1560,7 @@ ht-degree: 2%
    <td>✓ 덧신</td> 
    <td>✓ 덧신</td> 
    <td>✓ 덧신</td> 
-   <td>✓ 덧신</td> 
+   <td> </td> 
    <td>✓ 덧신</td> 
    <td> </td> 
    <td> </td> 
