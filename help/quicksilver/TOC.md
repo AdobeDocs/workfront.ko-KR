@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: e4a265400b2ce4e6338d09477463a6a6c7cded84
+source-git-commit: 922e5e1924416955e8b154f226c503526d22129f
 workflow-type: tm+mt
-source-wordcount: '14260'
+source-wordcount: '14263'
 ht-degree: 1%
 
 ---
@@ -2738,6 +2738,8 @@ ht-degree: 1%
       * [개요](proofhq-api/general/overview.md)
       * [코드 샘플](proofhq-api/general/code-samples.md)
       * [SOAP API FAQ](proofhq-api/general/soap-api-faqs.md)
+* [숨겨진 테스트 문서](hidden-test.md)
+
 
 <!--
 Moved and commented out sections from line 1477 - I believe the entire section is duped but need to verify
