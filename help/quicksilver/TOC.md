@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 922e5e1924416955e8b154f226c503526d22129f
+source-git-commit: 7c205d13ec12614ddae19f3a1a286fe88d80ebac
 workflow-type: tm+mt
-source-wordcount: '14263'
+source-wordcount: '14265'
 ht-degree: 1%
 
 ---
@@ -2203,6 +2203,7 @@ ht-degree: 1%
       * [AI를 사용하여 모듈 생성](/help/quicksilver/workfront-fusion/scenarios/add-a-module-with-ai.md)
       * Adobe Workfront Fusion 시나리오 템플릿 {#fusion-scenario-templates}
          * [시나리오 템플릿](workfront-fusion/scenarios/templates/fusion-templates.md)
+         * [[!DNL Fusion] 템플릿 개요](/help/quicksilver/workfront-fusion/scenarios/templates/fusion-templates-overview.md)
          * [Adobe Workfront Fusion에서 새 템플릿 만들기](workfront-fusion/scenarios/templates/create-new-fusion-templates.md)
          * [Adobe Workfront Fusion 템플릿 게시 및 공유](workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md)
          * [Adobe Workfront Fusion 템플릿을 사용하여 시나리오 만들기](workfront-fusion/scenarios/templates/create-scenarios-with-fusion-templates.md)
