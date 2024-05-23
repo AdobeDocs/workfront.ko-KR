@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
-source-git-commit: 362c538d7680f8d8b85fbd8735e79ec5032d2919
+source-git-commit: 9dcd8dbe0474bdbb1fd50bb1f2525e03cd350559
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 2%
@@ -46,37 +46,37 @@ ht-degree: 2%
   <tr> 
    <td>사용자 프로필 만들기 및 편집</td> 
    <td>✓ 덧신</td> 
-   <td> <p>✓ *</p> </td> 
-   <td> <p>✓ *</p> </td> 
+   <td>✓ *</td> 
+   <td>✓ *</td> 
   </tr> 
   <tr> 
-   <td> <p>하위 그룹 만들기 및 관리</p> </td> 
+   <td>하위 그룹 만들기 및 관리</td>
    <td>✓ 덧신 </td> 
-   <td> <p>✓ ***</p> </td> 
+   <td>✓ ***</td> 
    <td>✓ ***</td> 
   </tr> 
   <tr> 
-   <td> <p>시스템 수준에서 프로젝트, 작업 및 문제 환경 설정 구성</p> </td> 
+   <td>시스템 수준에서 프로젝트, 작업 및 문제 환경 설정 구성</td> 
    <td>✓ 덧신</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>그룹 및 하위 그룹에 대한 프로젝트, 작업 및 문제 환경 설정 활성화 및 비활성화</p> </td> 
+   <td>그룹 및 하위 그룹에 대한 프로젝트, 작업 및 문제 환경 설정 활성화 및 비활성화</td> 
    <td>✓ ***</td> 
-   <td> <p>✓ ***</p> </td> 
+   <td>✓ ***</td> 
    <td>✓ ***</td> 
   </tr> 
   <tr> 
-   <td> <p>시스템 수준에서 타임시트 및 시간 환경 설정 구성</p> </td> 
+   <td>시스템 수준에서 타임시트 및 시간 환경 설정 구성</td> 
    <td>✓ 덧신 </td> 
-   <td> <p> </p> </td> 
+   <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>그룹 및 하위 그룹에 대한 타임시트 및 시간 환경 설정 활성화 및 비활성화</p> </td> 
+   <td>그룹 및 하위 그룹에 대한 타임시트 및 시간 환경 설정 활성화 및 비활성화 </td> 
    <td>✓ ***</td> 
-   <td> <p>✓ ***</p> </td> 
+   <td>✓ ***</td> 
    <td>✓ ***</td> 
   </tr> 
   <tr> 
@@ -92,63 +92,63 @@ ht-degree: 2%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>맞춤형 양식 생성 및 관리</p> </td> 
+   <td>맞춤형 양식 생성 및 관리</td> 
    <td>✓ 덧신 </td> 
    <td>✓ **</td> 
    <td>✓ **</td> 
   </tr> 
   <tr> 
-   <td> <p>레이아웃 템플릿 만들기 및 관리</p> </td> 
+   <td>레이아웃 템플릿 만들기 및 관리</td> 
    <td>✓ 덧신 </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td>✓ 덧신</td> 
    <td>✓ 덧신</td> 
   </tr> 
   <tr> 
-   <td> <p>그룹에 대한 승인 프로세스 만들기 및 관리</p> </td> 
+   <td>그룹에 대한 승인 프로세스 만들기 및 관리</td> 
    <td>✓ *** </td> 
-   <td> <p>✓ ***</p> </td> 
+   <td>✓ ***</td> 
    <td>✓ ***</td> 
   </tr> 
   <tr> 
-   <td> <p>팀 만들기 및 관리</p> </td> 
+   <td>팀 만들기 및 관리</td> 
    <td>✓ 덧신 </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td>✓ 덧신</td> 
    <td>✓ 덧신</td> 
   </tr> 
   <tr> 
-   <td> <p>환율 생성 및 관리</p> </td> 
+   <td>환율 생성 및 관리</td> 
    <td>✓ 덧신 </td> 
    <td>✓ **</td> 
    <td>✓ **</td> 
   </tr> 
   <tr> 
-   <td> <p>시간 유형 만들기 및 관리</p> </td> 
+   <td>시간 유형 만들기 및 관리</td> 
    <td>✓ 덧신 </td> 
    <td>✓ **</td> 
    <td>✓ **</td> 
   </tr> 
   <tr> 
-   <td> <p>마일스톤 경로 만들기 및 관리</p> </td> 
+   <td>마일스톤 경로 만들기 및 관리</td> 
    <td>✓ 덧신 </td> 
    <td>✓ **</td> 
    <td>✓ **</td> 
   </tr> 
   <tr> 
-   <td> <p>일정 만들기 및 관리</p> </td> 
+   <td>일정 만들기 및 관리</td> 
    <td>✓ 덧신 </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td>✓ 덧신</td> 
    <td>✓ 덧신</td> 
   </tr> 
   <tr> 
-   <td> <p>회사 만들기 및 관리</p> </td> 
+   <td>회사 만들기 및 관리</td> 
    <td>✓ 덧신 </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td>✓ 덧신</td> 
    <td>✓ 덧신</td> 
   </tr> 
   <tr> 
-   <td> <p>타임시트 프로필 만들기 및 관리</p> </td> 
+   <td>타임시트 프로필 만들기 및 관리</td> 
    <td>✓ 덧신 </td> 
-   <td> <p>✓ 덧신</p> </td> 
+   <td>✓ 덧신</td> 
    <td>✓ 덧신</td> 
   </tr> 
   <tr> 
@@ -164,13 +164,13 @@ ht-degree: 2%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p> 우선 순위, 심각도, 조건 생성 및 관리</p> </td> 
+   <td>우선 순위, 심각도, 조건 생성 및 관리</td> 
    <td>✓ 덧신</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>위험 유형 생성 및 관리</p> </td> 
+   <td>위험 유형 생성 및 관리</td> 
    <td>✓ 덧신 </td> 
    <td> </td> 
    <td> </td> 
