@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
+source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ Adobe Workfront Planning을 사용하려면 다음 설정이 있어야 합니다
   </tr>
 <tr>
    <td role="rowheader"><p>레이아웃 템플릿</p></td>
-   <td> <p>Workfront 관리자를 포함한 모든 사용자에게 메인 메뉴의 계획 영역을 포함하는 레이아웃 템플릿을 할당해야 합니다. </p> <p>자세한 내용은 <a href="/help/quicksilver/maestro/access/access-overview.md">액세스 개요</a>. </p>  
+   <td> <p>Workfront 관리자를 포함한 모든 사용자에게 메인 메뉴의 계획 영역을 포함하는 레이아웃 템플릿을 할당해야 합니다. </p> <p>자세한 내용은 <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">레이아웃 템플릿을 사용하여 메인 메뉴 사용자 정의</a> 및 <a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md">레이아웃 템플릿에 사용자 할당</a>. </p>  
 </td>
   </tr>
  </tbody>

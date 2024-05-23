@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 7c205d13ec12614ddae19f3a1a286fe88d80ebac
+source-git-commit: 3d9f6da7f4790015d4423bd8c83d751ec44249be
 workflow-type: tm+mt
-source-wordcount: '14265'
+source-wordcount: '14275'
 ht-degree: 1%
 
 ---
@@ -2082,6 +2082,7 @@ ht-degree: 1%
       * [레코드에 썸네일 추가](maestro/records/add-thumbnails-to-records.md)
       * [레코드에 표지 이미지 추가](maestro/records/add-a-cover-image-to-a-record.md)
       * [레코드 페이지 관리](maestro/records/manage-the-record-page.md)
+      * [Adobe Workfront 오브젝트의 계획 섹션에서 레코드 관리](maestro/records/manage-records-in-planning-section.md)
    * Adobe Maestro 조회수 {#adobe-maestro-views}
       * [보기: 문서 색인](maestro/views/views-information.md)
       * [레코드 보기 관리](maestro/views/manage-record-views.md)

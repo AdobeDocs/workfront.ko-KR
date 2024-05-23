@@ -4,18 +4,19 @@ description: 왼쪽 패널의 Workfront 개체에 대한 계획 섹션에 Adobe 
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
+source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '630'
 ht-degree: 1%
 
 ---
 
-<!--add this to the main TOC and the mini TOC-->
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!--add also Group and Company when they are available-->
+
+<!-- opening the Details preview and page is not possible yet - hid those steps, but add them when released-->
 
 
 # Adobe Workfront 오브젝트의 계획 섹션에서 레코드 관리
@@ -101,7 +102,8 @@ ht-degree: 1%
    * [레코드 유형 연결](/help/quicksilver/maestro/architecture/connect-record-types.md)
    * [기록 연결](/help/quicksilver/maestro/records/connect-records.md)
 * Workfront 객체와 연관된 레코드가 없는 경우에도 Workfront 객체에서 계획 섹션을 볼 수 있습니다.
-* 계획 섹션에서 Workfront의 Workfront 오브젝트와 Planning 레코드를 연결할 수 있습니다.
+* Workfront 객체에 연결된 레코드가 하나 이상 있는 경우 계획 섹션에서 Workfront의 Workfront 객체와 Planning 레코드를 연결할 수 있습니다.
+* Workfront 개체의 레코드를 연결하려면 작업 영역에 대한 기여 이상의 권한이 있어야 합니다.
 
 ## 계획 섹션의 레코드 관리
 
@@ -132,17 +134,15 @@ ht-degree: 1%
 
    ![](assets/planning-section-on-project.png)
 
-1. 레코드에 대한 자세한 내용을 표시하려면 레코드 카드를 클릭합니다. 레코드 미리 보기 상자가 표시됩니다.
-1. (선택 사항) 레코드의 미리 보기 상자에서 필드 수정을 시작합니다. 변경 사항은 자동으로 저장됩니다.
-1. (선택 사항) **새 탭에서 열기** 아이콘 ![](assets/open-details-in-a-new-tab-icon.png) 미리 보기 상자의 오른쪽 상단 모서리에서 레코드의 세부 사항 페이지를 엽니다.
+<!--1. Click a record card to display more information about the record. The record preview box displays.
+1. (Optional) Start modifying fields in the record's preview box. Your changes are saved automatically.
+1. (Optional) Click the **Open in a new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview box to open the record's details page.-->
 1. 레코드 카드 위로 마우스를 가져간 다음 레코드 연결 끊기 아이콘을 클릭합니다 **-**&#x200B;을 클릭한 다음 을 클릭합니다 **연결 해제**.
 다음과 같은 상황이 발생합니다.
    * 레코드가 더 이상 Workfront 개체에 연결되어 있지 않습니다.
    * Workfront 개체는 Workfront Planning에서 레코드의 연결된 필드에서도 제거됩니다.
-   * 계획 레코드에 연결된 Workfront 필드의 값도 삭제됩니다.
+   * 계획 레코드에 연결된 Workfront 조회 필드의 값도 삭제됩니다.
 1. 클릭 **연결** 더 많은 레코드를 연결합니다.
-
-   <!--checking with the team on the below note - not sure if if should stay Manage or Contribute - Lilit said Contribute??-->
 
    >[!NOTE]
    >
@@ -152,7 +152,7 @@ ht-degree: 1%
 
    * 레코드는 즉시 Workfront 개체에 연결되고 계획 섹션에 표시됩니다.
    * Workfront 개체가 Workfront Planning 레코드의 연결된 필드에 추가됩니다.
-   * 계획 레코드에 연결된 Workfront 필드의 값은 Workfront Planning에서 채워집니다.
+   * 계획 레코드에 연결된 Workfront 조회 필드의 값은 Workfront Planning에서 채워집니다.
 
 <!--add more steps here for what happens after clicking Connect-->
 

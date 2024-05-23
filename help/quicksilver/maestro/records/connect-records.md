@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
+source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
 workflow-type: tm+mt
-source-wordcount: '2358'
+source-wordcount: '2463'
 ht-degree: 1%
 
 ---
@@ -125,9 +125,7 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-## 기록 연결
-
-### 레코드 연결에 대한 고려 사항
+## 레코드 연결에 대한 고려 사항
 
 * 레코드 유형을 연결하면 연결된 레코드 유형이 연결된 레코드 유형의 테이블 및 해당 레코드 페이지에서 연결된 레코드 필드로 표시됩니다.
 * 연결된 레코드 필드에서 연결된 레코드와 개체 유형의 레코드와 개체를 찾아보고 추가할 수 있습니다.
@@ -150,6 +148,11 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
       * [레코드 만들기](../records/create-records.md)
 
    * 레코드 유형 간 또는 레코드 유형과 다른 응용 프로그램의 개체 간 연결입니다. 자세한 내용은 [레코드 유형 연결](../architecture/connect-record-types.md)
+* Workfront에서 다음 영역의 Workfront Planning 레코드로 객체를 연결할 수 있습니다.
+   * Workfront Planning의 Planning 레코드에서.
+   * Workfront 객체의 Planning 섹션에서 다음을 수행합니다.
+
+## Workfront Planning에서 레코드 연결
 
 ### Adobe Workfront 계획 레코드 연결
 
@@ -379,3 +382,13 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
    에서 Workfront 개체 필드 제거 **선택된 필드** 영역입니다.
 
    이렇게 하면 레코드에서 연결된 필드가 추가되거나 제거됩니다. 제거된 필드와 관련된 정보는 Experience Assets Adobe에 유지됩니다.
+
+## Workfront 개체에서 레코드 연결
+
+Workfront 객체에서 Workfront Planning 레코드를 연결하려면 다음이 있어야 합니다.
+
+* 레코드 유형과 Workfront 객체 유형 간의 연결입니다.
+* 레코드와 Workfront 개체 간 최소 하나 이상의 연결.
+* Workfront 또는 그룹 관리자는 Planning 레코드 유형에 연결할 수 있는 Workfront 객체 유형에 Planning 섹션을 추가해야 합니다.
+
+자세한 내용은 [Adobe Workfront 오브젝트의 계획 섹션에서 레코드 관리](/help/quicksilver/maestro/records/manage-records-in-planning-section.md).
