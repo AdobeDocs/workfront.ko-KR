@@ -9,9 +9,9 @@ description: 다음에서 [!DNL Adobe Workfront Fusion] 시나리오에서는 �
 author: Becky
 feature: Workfront Fusion
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
-source-git-commit: b20f08a3c039ac2f1ece9fc4cef7ad5f58421482
+source-git-commit: 43bd30c2db6219cd4e68380c1d9c0d1421f51592
 workflow-type: tm+mt
-source-wordcount: '2119'
+source-wordcount: '2235'
 ht-degree: 0%
 
 ---
@@ -78,6 +78,13 @@ ht-degree: 0%
 
 ## 에 대한 연결 만들기 [!DNL Adobe Target]
 
+>[!IMPORTANT]
+>
+>2024년 6월 3일 이후에 생성된 연결에는 Adobe Target 서버 간 연결이 필요합니다.
+>
+>* 기존 서비스 계정 연결은 2025년 1월까지 계속 작동합니다. 2024년 1월까지는 서비스 계정 연결을 Adobe Target 서버 간 연결로 대체해야 합니다.
+>* Adobe Target 서버 간 연결을 만들려면 조직의 개발자여야 합니다. 개발자 역할은 Adobe Admin Console에서 설정합니다.
+
 에 대한 연결을 만들려면 [!DNL Adobe Target] 모듈:
 
 1. 클릭 **[!UICONTROL 추가]** 연결 상자 옆에 있습니다.
@@ -94,6 +101,11 @@ ht-degree: 0%
         <td role="rowheader">[!UICONTROL 연결 이름]</td>
         <td>
           <p>이 연결의 이름을 입력하십시오.</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL 연결 유형]</td>
+        <td>서비스 계정 연결을 만드는지 아니면 Adobe Target 서버 간 연결을 만드는지 선택합니다.<p><b>중요 사항</b>: 2024년 6월 3일 이후에 생성된 연결에는 Adobe Target 서버 간 연결이 필요합니다. 기존 서비스 계정 연결은 2025년 1월까지 계속 작동합니다. 2024년 1월까지는 서비스 계정 연결을 Adobe Target 서버 간 연결로 대체해야 합니다.
         </td>
       </tr>
       <tr>
