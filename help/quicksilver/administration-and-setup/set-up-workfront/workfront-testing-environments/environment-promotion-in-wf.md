@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 087e173d12e57071e77747d2150285bffb1bacae
+source-git-commit: 29e2e89d15804d6d4a5e7b0080ab91b98cf7ea2d
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '1005'
 ht-degree: 1%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 1%
 
 환경 프로모션 기능은 구성 관련 객체를 한 환경에서 다른 환경으로 이동할 수 있는 기능을 제공하기 위한 것입니다. 프로젝트, 팀 또는 사용자 정의 양식과 같이 구성할 수 있는 개체입니다.
 
-환경 프로모션에서는 트랜잭션 개체를 이동하는 기능을 지원하지 않습니다(제한된 예외 사항 포함). 트랜잭션 개체를 구성할 수 없습니다. 시스템 활동 업데이트 및 증명 결정 등이 그 예입니다.
+환경 프로모션은 객체 구성을 다루므로 트랜잭션 객체(자주 변경되거나 사용 사례에 크게 의존하는 객체)는 포함되지 않습니다. 트랜잭션 개체의 예로는 문서, 문제, 요청, 업데이트 및 증명 결정이 있습니다.
 
 * [작업 오브젝트](#work-objects)
 * [보고 개체](#reporting-objects)
