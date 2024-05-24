@@ -4,9 +4,9 @@ description: 왼쪽 패널의 Workfront 개체에 대한 계획 섹션에 Adobe 
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
+source-git-commit: c2659e0b3f571053c1c014703103bfcc7935ff3c
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '683'
 ht-degree: 1%
 
 ---
@@ -134,9 +134,9 @@ ht-degree: 1%
 
    ![](assets/planning-section-on-project.png)
 
-<!--1. Click a record card to display more information about the record. The record preview box displays.
-1. (Optional) Start modifying fields in the record's preview box. Your changes are saved automatically.
-1. (Optional) Click the **Open in a new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview box to open the record's details page.-->
+1. 레코드에 대한 자세한 내용을 표시하려면 레코드 카드를 클릭합니다. 레코드 미리 보기 상자가 표시됩니다.
+1. (선택 사항) 레코드의 미리 보기 상자에서 필드 수정을 시작합니다. 변경 사항은 자동으로 저장됩니다.
+1. (선택 사항) **새 탭에서 열기** 아이콘 ![](assets/open-details-in-a-new-tab-icon.png) 미리 보기 상자의 오른쪽 상단 모서리에서 레코드의 세부 사항 페이지를 엽니다.
 1. 레코드 카드 위로 마우스를 가져간 다음 레코드 연결 끊기 아이콘을 클릭합니다 **-**&#x200B;을 클릭한 다음 을 클릭합니다 **연결 해제**.
 다음과 같은 상황이 발생합니다.
    * 레코드가 더 이상 Workfront 개체에 연결되어 있지 않습니다.

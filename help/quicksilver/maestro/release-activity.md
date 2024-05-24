@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
+source-git-commit: c2659e0b3f571053c1c014703103bfcc7935ff3c
 workflow-type: tm+mt
-source-wordcount: '6456'
+source-wordcount: '6471'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,8 @@ Workfront의 계획 섹션에서 다음 작업을 사용할 수 있습니다.
 * Workfront Planning 레코드를 Workfront 개체에 연결
 
 * 레코드 연결 해제
+
+* 세부 정보 미리 보기 상자 또는 페이지를 열어 연결된 레코드에 대한 자세한 내용을 봅니다
 
 자세한 내용은 [Adobe Workfront 오브젝트의 계획 섹션에서 레코드 관리](/help/quicksilver/maestro/records/manage-records-in-planning-section.md).
 
