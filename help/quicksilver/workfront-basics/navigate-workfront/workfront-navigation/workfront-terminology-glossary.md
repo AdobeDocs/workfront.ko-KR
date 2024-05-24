@@ -6,7 +6,7 @@ description: 다음 [!DNL Adobe Workfront] 용어집 목록은에서 일반적�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: b57f5038746094dde4b98bd28361e730c28ba412
+source-git-commit: 6371f6d19bfbad31c4564f9726f52e3ce394e516
 workflow-type: tm+mt
 source-wordcount: '20060'
 ht-degree: 0%
@@ -96,7 +96,7 @@ ht-degree: 0%
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL 애자일 팀]</td> 
-   <td>장래의 작업을 백로그에서 가져와서 [!UICONTROL Iteration]이라고 하는 지정된 기간 내에 작업하기 때문에 기존 팀과 다릅니다.</td> 
+   <td>백로그에서 선행 작업을 가져와 [!UICONTROL 반복]이라고 하는 지정된 기간 내에 작업하기 때문에 기존 팀과 다릅니다.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL 모든 내 팀]</td> 

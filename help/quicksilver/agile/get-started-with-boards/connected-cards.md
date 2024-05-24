@@ -6,9 +6,9 @@ description: Workfront의 기존 작업 및 문제에 연결된 카드를 보드
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
+source-git-commit: 6371f6d19bfbad31c4564f9726f52e3ce394e516
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1507'
 ht-degree: 0%
 
 ---
@@ -41,11 +41,11 @@ ht-degree: 0%
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 플랜</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
    <td>
    <p>새로운 기능: 기여자 이상</p>
    <p>또는</p>
@@ -53,12 +53,13 @@ ht-degree: 0%
  </td> 
   </tr> 
   <tr>
-   <td role="rowheader"><strong>액세스 수준 구성</strong></td>
+   <td role="rowheader">액세스 수준 구성</td>
    <td><p>작업 및 문제에 대한 보기 또는 상위 액세스 권한</p></td>
   </tr>
   <tr>
-   <td role="rowheader"><strong>개체 권한</strong></td>
-   <td><p>Workfront 작업 또는 문제에 대한 이상의 권한 보기</p></td>
+   <td role="rowheader">개체 권한</td>
+   <td><p>Workfront 작업 또는 문제에 대한 이상의 권한 보기</p>
+   <p><strong>참고:</strong> 작업 또는 문제에 대한 보기 권한이 있는 사용자는 연결된 카드에 대해 카드를 보드의 다른 열로 이동하는 등의 작업을 수행할 수 없습니다. 사용자 보기는 카드를 열어 해당 속성을 확인하고 연결된 작업 또는 문제를 열 수만 있습니다. 추가 액세스를 요청하려면 작업 또는 문제를 열고 액세스를 요청하십시오.</td>
   </tr>
  </tbody> 
 </table>
