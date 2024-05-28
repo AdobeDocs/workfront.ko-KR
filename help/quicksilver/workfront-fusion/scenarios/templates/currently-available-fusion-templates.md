@@ -7,9 +7,9 @@ description: 현재 Adobe Workfront Fusion에서 사용할 수 있는 공용 템
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 2b2424a26ba903cda8f03c468da733732bf6d434
+source-git-commit: e569469c2b5e0ba40569ef86043294acae7a6aa8
 workflow-type: tm+mt
-source-wordcount: '1162'
+source-wordcount: '1186'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,10 @@ ht-degree: 0%
 ## Workfront 템플릿
 
 이러한 템플릿은 Workfront 프로세스 및 워크플로를 자동화합니다.
+
+### [!BADGE 신규!]{type=Informative}
+
+이 Fusion 템플릿은 특정 보드에 특정 열을 시간 기준으로 입력하는 모든 카드에 대한 표준 검사 목록을 만듭니다.
 
 ### Workfront - CSV로 프로젝트 만들기
 
@@ -86,15 +90,15 @@ ht-degree: 0%
 
 한 달에 한 번, 자체 정책을 사용하여 프로젝트 템플릿을 검토하십시오. 이를 통해 손쉽게 관리할 수 있습니다. 템플릿을 사용하면 정책을 위반하는 템플릿에 대해 적절한 사용자에게 알릴 수 있습니다.
 
-## Workfront - Workfront 증명 템플릿
+## Workfront - Workfront Proof 템플릿
 
-이러한 템플릿은 Workfront과 Workfront Proof를 결합하는 워크플로를 자동화합니다.
+이러한 템플릿은 Workfront과 Workfront Proof을 결합하는 워크플로를 자동화합니다.
 
-### Workfront 증명 > Workfront - 증명 결정에 대한 프로젝트 업데이트
+### Workfront Proof > Workfront - 증명 결정 시 프로젝트 업데이트
 
 프로젝트에 직접 추가된 Proof에 대한 결정이 내려지면 이 자동화는 결정 주체 등 Proof 결정에 대한 정보를 수집한 다음 해당 Workfront 프로젝트에 이 진행 상황을 업데이트로 반영합니다.
 
-### Workfront 증명 > Workfront - 증명 결정에 대한 작업 업데이트 및 완료(승인된 경우)
+### Workfront Proof > Workfront - 증명 결정에 대한 작업 업데이트 및 완료(승인된 경우)
 
 개별 증명이 개별 작업에 연결된 경우 이 시나리오는 증명에 대한 승인 결정이 내려지면 관련 작업을 닫습니다. 승인되면 작업이 완료되고 프로젝트가 업데이트됩니다.
 
