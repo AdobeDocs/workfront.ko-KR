@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: eed1f0e5b8dfaebbfc312ba5a592a49487838b39
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 **베타 일정:**
 
-* 마감된 Beta 시작 날짜 - 2024년 5월 2일
+* 마감된 Beta 시작 일자 - TBA
 * Beta 시작 날짜 열기 - TBA
 * 계획된 릴리스 일자 - TBA
 
@@ -36,6 +36,10 @@ Beta에 등록하려면:
 1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리에서 을(를) 클릭하고 **대시보드**.
 
 1. 다음을 클릭합니다. **캔버스 대시보드 Beta 가입** 페이지의 오른쪽 상단 모서리에 있는 Beta 버튼입니다.
+
+   >[!NOTE]
+   >
+   >이 버튼은 조직이 비공개 베타로 승인된 경우에만 사용할 수 있습니다. 공개 베타가 시작되면 모든 조직에서 사용할 수 있습니다.
 
 1. 용어를 읽은 다음 **Accept**. 이제 Beta에 등록되었습니다. 하지만 Canvas Dashboards에서 Workfront 데이터에 완전히 액세스할 수 있으려면 몇 분이 소요됩니다.
 
@@ -63,12 +67,13 @@ Beta에 등록하려면:
 
 ### 개발 중인 기능
 
-* 매트릭스 테이블 보고서
+* 필터에 대한 날짜 및 사용자 기반 와일드카드
+* Workfront 계획 보고서
+* 추가 Workfront 개체 유형
+* 게시판 보고서
+* 기타 유용성 개선 사항
 * 워크시트
 * 포함된 웹 콘텐츠
-* 게시판 보고서
-* 대시보드 필터
-* 필터에 대한 날짜 및 사용자 기반 와일드카드
 
 ### 향후 로드맵 기능
 
