@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: 8d0cfe9bdf32b3be8f44fde0c921abdd1ba9920b
+source-git-commit: 96ff148ff9a05242d9ce900047d5e7d1de3f0388
 workflow-type: tm+mt
-source-wordcount: '1894'
+source-wordcount: '1829'
 ht-degree: 2%
 
 ---
@@ -28,32 +28,8 @@ Workfront 애플리케이션을 사용하여 환경 간에 객체를 이동하�
 * [환경 프로모션 패키지 만들기 또는 편집](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
 * [환경 프로모션 패키지 설치](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
-## 액세스 요구 사항
 
-다음 항목이 있어야 합니다.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Workfront] 플랜</td> 
-   <td> <p>Enterprise, Prime 또는 Ultimate</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p role="rowheader">[!DNL Workfront] 라이센스</p> </td> 
-   <td> <p>[!UICONTROL 계획] </p> <p>다음이어야 합니다: [!DNL Workfront] 관리자. 다음에 대한 정보: [!DNL Workfront] 관리자, 참조 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">사용자에게 전체 관리 액세스 권한 부여</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p role="rowheader">개체 권한</p> </td> 
-   <td> <p>모두</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">지원 패키지</td> 
-   <td> <p>[!UICONTROL Plus], [!UICONTROL Preferred] 또는 [!UICONTROL Enterprise]</p> <p>표준 지원 패키지는 사용자 정의 새로 고침 샌드박스에 액세스할 수 없지만 미리보기 샌드박스에 액세스할 수 있습니다.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+<!-- add access req for GA-->
 
 ## 전제 조건
 
