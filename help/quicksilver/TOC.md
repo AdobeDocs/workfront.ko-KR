@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 3d9f6da7f4790015d4423bd8c83d751ec44249be
+source-git-commit: 6f97b6c5853bd5403c27276fbdab80ae51543bf2
 workflow-type: tm+mt
-source-wordcount: '14275'
+source-wordcount: '14300'
 ht-degree: 1%
 
 ---
@@ -897,6 +897,12 @@ ht-degree: 1%
          * [홈 캘린더 보기 사용](workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md)
          * [홈 캘린더 보기](workfront-basics/using-home/using-the-home-area/view-home-calendar.md)
          * [내 업데이트 영역 사용](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
+   * AI Assistant {#ai-assistant}
+      * [AI 어시스턴트](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
+      * [AI Assistant를 사용하여 요약](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md)
+      * [AI Assistant에서 도움말 받기](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md)
+      * [AI Assistant를 사용하여 계산된 필드 공식 개정](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md)
+      * [AI Assistant 활성화 또는 비활성화](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)
    * 작업 항목 업데이트 및 업데이트 보기 {#update-work-items-view-updates}
       * [작업 항목 업데이트 및 업데이트 보기: 문서 색인](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
       * [업데이트 섹션 개요](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
