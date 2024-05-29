@@ -6,15 +6,17 @@ description: 할당된 작업 또는 문제의 커밋 일자를 수동으로 업
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
+source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
 
 
 # 작업 및 문제에 대한 커밋 일자 업데이트
+
+{{highlighted-preview}}
 
 할당된 작업 또는 문제의 커밋 일자를 수동으로 업데이트할 수 있습니다. Adobe Workfront의 커밋 일자에 대한 자세한 내용은 다음을 참조하십시오. [커밋 일자 개요](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
@@ -29,7 +31,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
@@ -63,9 +65,18 @@ ht-degree: 0%
 
 ## 전제 조건
 
-시작하기 전에 작업 또는 문제에 할당되어 있어야 하며 의 커밋 일자를 업데이트해야 합니다.
+작업 또는 문제의 커밋 일자를 편집하려면 먼저 해당 커밋 일자를 업데이트해야 하는 작업 또는 문제에 할당해야 합니다.
 
 ## 작업 및 문제에 대한 커밋 일자 업데이트
+
+
+Workfront의 다음 영역에서 작업 또는 문제의 커밋 일자를 업데이트할 수 있습니다.
+
+* 작업 또는 문제의 세부 정보 섹션
+<!--
+* <span class="preview">The task or issue header
+   Your Workfront or group administrator must add the Commit Date to the task or issue header of your layout template to view it from the task or issue page. </span>
+   For information, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). -->
 
 커밋 일자 업데이트는 작업 및 문제와 동일합니다.
 
@@ -82,6 +93,10 @@ ht-degree: 0%
 1. (으)로 할당된 작업 또는 문제로 이동 **소유자**.
 
    문제 또는 작업에 대한 작업 소유자 확인에 대한 자세한 내용은 섹션을 참조하십시오 [작업 편집](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) 이 문서에서 [작업 편집](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+
+<!--1. <span class="preview">(Conditional and optional) If your Workfront or group administrator added the Commit Date to your task or issue header, click the **Commit Date** field in the header, then select a date from the calendar. If the Commit Date is not in the header, proceed with the following steps. </span>
+
+   <span class="preview">![](assets/commit-date-task-header.png)</span>-->
 
 1. 클릭 **작업 세부 정보** 또는 **문제 세부 정보** 왼쪽 패널에서
 1. 클릭 **개요** 확장하기 위해

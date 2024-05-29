@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: c2659e0b3f571053c1c014703103bfcc7935ff3c
+source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
 workflow-type: tm+mt
-source-wordcount: '6471'
+source-wordcount: '6571'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Adobe Workfront Planning 릴리스 활동
 
-<!--this article is linked to the WF Planning landing page - do not change URL or move it-->
+<!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
 {{maestro-important-intro}}
 
@@ -49,7 +49,45 @@ If your organization is not in the Adobe Unified Experience, you receive an emai
 
 For more information, see [Adobe Workfront Planning notifications: Article index](/help/quicksilver/maestro/notifications/notifications-information.md). 
 
+### New process for deleting a workspace 
+
+Production: May 30, 2024 
+
+Preview: To be determined 
+
+Because the impact for deleting a workspace can be significant, we are adding an extra step in confirming the deletion. Users are required to type "delete" before they can complete the deletion of a workspace. For more information, see [Delete workspaces](/help/quicksilver/maestro/architecture/delete-workspaces.md).  
+
+### Share views with all members of a workspace by default
+
+Production: <date> 
+
+Preview: To be determined 
+
+We have now introduced an option where you can quickly give View permissions to a view to all members of a workspace. Prior to this enhancement, only users you specifically shared a view with could access the view. This option is not enabled by default.  
+
+For information, see [Share views](/help/quicksilver/maestro/access/share-views.md).  
+
 -->
+
+## 2024년 5월 27일 주
+
+### 조회 필드에 대한 UNIQUE 롤업 연산자 소개
+
+프로덕션: 2024년 5월 27일
+
+미리보기: 결정 예정
+
+조회 필드 값을 집계할 때 UNIQUE 연산자를 추가했습니다.
+
+UNIQUE 연산자는 조회 필드 값에서 중복을 제거하고 고유한 값만 표시합니다. 예를 들어 연결된 레코드를 여러 개 추가하고 조회 필드의 값이 여러 레코드 간에 동일한 경우, Workfront은 원래 레코드의 조회 필드에 값 중 하나만 표시합니다.
+
+UNIQUE 연산자는 다음을 제외한 모든 필드 유형에 사용할 수 있습니다.
+
+* 단락
+* 사용자
+* 확인란 필드
+
+자세한 내용은 [레코드 유형 연결](/help/quicksilver/maestro/architecture/connect-record-types.md).
 
 ## 2024년 5월 20일 주
 
