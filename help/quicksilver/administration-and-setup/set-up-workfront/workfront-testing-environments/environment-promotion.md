@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: 96ff148ff9a05242d9ce900047d5e7d1de3f0388
+source-git-commit: b010a5126a9c7f49128c11b57e5d7b15260e691c
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '2059'
 ht-degree: 2%
 
 ---
@@ -509,7 +509,7 @@ Deleted
   </tr> 
   <tr> 
    <td>덮어쓰기</td> 
-   <td><p>이 작업은 자동으로 설정되지 않습니다.</p><p>이 작업은 대상 환경에 있는 개체를 업데이트하는 기능을 제공합니다. CREATE 또는 USEEXISTING 작업을 실행하기 전에 수동으로 재정의하는 기능을 제공합니다. <code>/install</code> 호출합니다.<ul><li>사용자는 테스트 환경에서 개체를 업데이트한 다음 덮어쓰기 작업을 사용하여 대상 환경에서 해당 개체를 업데이트할 수 있습니다.</p></li><li><p>사용자가 처음에 프로모션 패키지를 한 개 설치한 다음 차후에 새(또는 업데이트된) 패키지에 초기 패키지의 객체에 대한 변경 사항이 포함된 경우 덮어쓰기 를 사용하여 이전에 설치한 객체를 대체(재정의)할 수 있습니다. </p></li><ul></td> 
+   <td><p>이 작업은 자동으로 설정되지 않습니다.</p><p>이 작업은 대상 환경에 있는 개체를 업데이트하는 기능을 제공합니다. CREATE 또는 USEEXISTING 작업을 실행하기 전에 수동으로 재정의하는 기능을 제공합니다. <code>/install</code> 호출합니다.<ul><li>사용자는 테스트 환경에서 개체를 업데이트한 다음 덮어쓰기 작업을 사용하여 대상 환경에서 해당 개체를 업데이트할 수 있습니다.</p></li><li><p>사용자가 처음에 프로모션 패키지를 한 개 설치한 다음 차후에 새(또는 업데이트된) 패키지에 초기 패키지의 객체에 대한 변경 사항이 포함된 경우 덮어쓰기 를 사용하여 이전에 설치한 객체를 대체(재정의)할 수 있습니다. </p><p>덮어쓰기에 대한 자세한 내용은 이 문서의 [덮어쓰기](#overwriting) 섹션을 참조하십시오.</li><ul></td> 
   </tr> 
   <tr> 
    <td>무시</td> 
@@ -891,7 +891,209 @@ _비어 있음_
 }
 ```
 
+## 덮어쓰기
 
+3단계 프로세스입니다.
+
+1. 번역 맵 만들기(&quot;설치 준비&quot; 단계와 유사)
+1. 생성된 번역 맵을 편집하고 `action` 및 `targetId` 덮어쓸 오브젝트의 필드. 작업은 다음과 같아야 합니다. `OVERWRITING`및 `targetId` 은(는) 덮어써야 하는 오브젝트의 uuid여야 합니다
+1. 설치를 실행합니다.
+
+* [1단계 - 번역 맵 만들기](#step-1---create-a-translation-map)
+* [2단계 - 번역 맵 수정](#step-2---modify-the-translation-map)
+* [3단계 - 설치](#step-3---install)
+
+### **1단계 - 번역 맵 만들기**
+
+#### URL
+
+```
+POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages/{id}/translation-map
+```
+
+#### 본문
+
+없음
+
+#### 응답
+
+가 있는 번역 맵 `202 - OK` 상태
+
+```json
+{
+    {objcode}: {
+        {object uuid}: {
+            "targetId": {uuid of object in destination},
+            "action": {installation action},
+            "name": {name of the object},
+            "isValid": true
+        },
+        {...more objects}
+    },
+    {...more objcodes}
+}
+```
+
+
+#### 예
+
+```json
+{
+    "UIVW": {
+        "109f611680bb3a2b0c0a8c1f5ec63f6d": {
+            "targetId": "6643a26b0001401ff797ccb318f97aa6",
+            "action": "CREATE",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "UIGB": {
+        "edb4c6c127d38910e4860eb25569a5cc": {
+            "targetId": "6643a26b000178fb5cc27b74cc1e87ec",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "UIFT": {
+        "f97b662e229fd09ee595d8d359ec88bd": {
+            "targetId": "6643a26b00015cdd6727b76d6fda1d1d",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "PTLSEC": {
+        "4bb80aa88a96420296a7f47bf866f162": {
+            "targetId": "4bb80aa88a96420296a7f47bf866f162",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "EXTSEC": {
+        "65f8637900015e4dceb6fe079bd5409d": {
+            "targetId": "65f8637900015e4dceb6fe079bd5409d",
+            "action": "USEEXISTING",
+            "name": "Asnyc List",
+            "isValid": true
+        }
+    },
+    "PTLTAB": {
+        "65f8638a00016422a83ddc3508852d0f": {
+            "targetId": "65f8638a00016422a83ddc3508852d0f",
+            "action": "CREATEWITHALTNAME",
+            "name": "Cool 2.0 The Best",
+            "isValid": true
+        }
+    }
+}
+```
+
+### 2단계 - 번역 맵 수정
+
+이 단계에 대한 끝점이 없습니다.
+
+1. 에 반환된 번역 맵에서 [1단계 - 번역 맵 만들기](#step-1---create-a-translation-map)를 클릭하여 설치할 개체 목록을 검사합니다.
+1. 각 개체의 작업 필드를 원하는 설치 작업으로 업데이트합니다.
+1. 유효성 검사 `targetId` 각 개체에 대해 설명합니다. 설정된 작업이 `USEEXISTING` 또는 `OVERWRITING`, `targetId` 대상 환경에서 대상 개체의 UUID로 설정해야 합니다. 다른 모든 작업의 경우 targetId는 빈 문자열이어야 합니다.
+
+   >[!NOTE]
+   >
+   >다음 `targetId` 충돌이 감지된 경우 가 이미 채워집니다.
+
+### **3단계 - 설치**
+
+#### URL
+
+```
+POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages/{id}/install
+```
+
+#### 본문
+
+단일 필드가 있는 개체입니다. `translationMap`, 이는 수정된 번역 맵과 동일해야 함 [2단계 - 번역 맵 수정](#step-2---modify-the-translation-map).
+
+```json
+{
+    "translationMap": {
+        {objcode}: {
+            {object uuid}: {
+                "targetId": {uuid of object in destination},
+                "action": {installation action},
+                "name": {name of the object},
+                "isValid": true
+            },
+            {...more objects}
+        },
+        {...more objcodes}
+    }
+}
+```
+
+
+#### 예
+
+```json
+{
+    "translationMap": {
+    "UIVW": {
+        "109f611680bb3a2b0c0a8c1f5ec63f6d": {
+            "targetId": "6643a26b0001401ff797ccb318f97aa6",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "UIGB": {
+        "edb4c6c127d38910e4860eb25569a5cc": {
+            "targetId": "6643a26b000178fb5cc27b74cc1e87ec",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "UIFT": {
+        "f97b662e229fd09ee595d8d359ec88bd": {
+            "targetId": "6643a26b00015cdd6727b76d6fda1d1d",
+            "action": "OVERWRITING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "PTLSEC": {
+        "4bb80aa88a96420296a7f47bf866f162": {
+            "targetId": "4bb80aa88a96420296a7f47bf866f162",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "EXTSEC": {
+        "65f8637900015e4dceb6fe079bd5409d": {
+            "targetId": "65f8637900015e4dceb6fe079bd5409d",
+            "action": "USEEXISTING",
+            "name": "Asnyc List",
+            "isValid": true
+        }
+    },
+    "PTLTAB": {
+        "65f8638a00016422a83ddc3508852d0f": {
+            "targetId": "65f8638a00016422a83ddc3508852d0f",
+            "action": "CREATEWITHALTNAME",
+            "name": "Cool 2.0 The Best",
+            "isValid": true
+        }
+    }
+}
+}
+```
+
+#### 응답
+
+응답에는 다음이 포함됩니다. `{uuid of the created installation}` 및 a `202 - ACCEPTED` 상태.
+
+예: `b6aa0af8-3520-4b25-aca3-86793dff44a6`
 
 <!--table templates
 
