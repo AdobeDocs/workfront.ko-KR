@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 27d479d1-338a-429c-9703-8e72ed8d5c95
-source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
+source-git-commit: 39f5526a7a816da60cb80ea4fe9313a2773e6398
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -19,19 +19,20 @@ ht-degree: 0%
 2024년 3분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [2024년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 
-## 새 작업 워크플로우에 더 많은 관련 할당이 추가됨
+## 헤더 또는 세부 정보 섹션에서 작업 및 문제 커밋 일자 및 조건 편집
 
 >[!NOTE]
 >
->미리보기 릴리스: 2024년 2월 13일, 빠른 릴리스를 위한 프로덕션: 24.5 릴리스(2024년 5월 16일), 모든 고객을 위한 프로덕션 릴리스: 24.7 릴리스(2024년 7월).
+>미리보기 릴리스: 2024년 5월 30일, 빠른 릴리스를 위한 프로덕션: 24.6 릴리스(2024년 6월 13일), 모든 고객을 위한 프로덕션 릴리스: 24.7 릴리스(2024년 7월).
 
-다음 영역의 할당 필드에 보다 관련성이 높은 스마트 할당에 대해 동일한 기능을 추가했습니다.
+작업 및 문제를 더 쉽게 업데이트할 수 있도록 이제 커밋 일자 및 조건 필드를 레이아웃 템플릿의 작업 및 문제 헤더 및 세부 정보 섹션에 추가할 수 있는 옵션으로 추가했습니다. 이제 사용자는 수정된 레이아웃 템플릿에 할당될 때 페이지의 헤더 또는 세부 정보 섹션에서 이러한 필드를 업데이트할 수 있습니다. 이 개선 사항 이전에는 헤더를 사용자 지정할 때 작업 및 문제의 조건 및 커밋 일자를 추가할 수 없었습니다.
 
-* 프로젝트에 작업을 추가할 때의 새 작업 상자
+커밋 일자 및 조건 갱신에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
-* 프로젝트 작업 목록에서
+* [작업 및 문제에 대한 상태 업데이트](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
+* [작업 및 문제에 대한 커밋 일자 업데이트](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
 
-자세한 내용은 [스마트 할당 개요](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
+[이 기능에 대한 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3429471/){target=_blank}
 
 ## 더 관련성 있는 스마트 할당
 
