@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
+source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Adobe Workfront Planning을 사용하려면 다음 설정이 있어야 합니다
   </tr>  
  <td role="rowheader"><p>Adobe Workfront 계약</p></td>
    <td>
-<p>조직은 Adobe Workfront Planning Beta 프로그램에 등록해야 합니다. </p>
+<p>Workfront Planning의 조기 액세스 단계에 조직을 등록해야 합니다. </p>
    </td>
   </tr>
   <tr>
@@ -94,7 +94,7 @@ Adobe Workfront Planning을 사용하려면 다음 설정이 있어야 합니다
 
 <!--First, contact your account manager to obtain access to the current Workfront Planning closed beta program.-->
 
-조직이 Workfront Planning Beta 프로그램에 등록되면 레이아웃 템플릿을 사용하여 모든 사용자의 기본 메뉴에 계획 영역을 추가할 수 있습니다.
+조직이 Workfront Planning 프로그램에 등록되면 레이아웃 템플릿을 사용하여 모든 사용자의 기본 메뉴에 계획 영역을 추가할 수 있습니다.
 
 1. 에 로그인 **Workfront** Workfront 관리자입니다.
 

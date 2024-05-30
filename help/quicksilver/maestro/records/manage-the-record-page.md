@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
+source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1144'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Adobe Workfront Planning에서 레코드 미리 보기 및 페이지의 레이�
   </tr>  
  <td role="rowheader"><p>Adobe Workfront 계약</p></td>
    <td>
-<p>조직은 Adobe Workfront Planning Beta 프로그램에 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
+<p>Workfront Planning의 조기 액세스 단계에 조직을 등록해야 합니다. </p>
    </td>
   </tr>
   <tr>

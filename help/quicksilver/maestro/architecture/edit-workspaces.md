@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
+source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Adobe Workfront Planning에서 작업 공간은 팀이 작업을 계획하는 �
   </tr>  
  <td role="rowheader"><p>Adobe Workfront 계약</p></td>
    <td>
-<p>Adobe Workfront Planning 마감된 Beta 프로그램에 조직을 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
+<p>Workfront Planning의 조기 액세스 단계에 조직을 등록해야 합니다. </p>
    </td>
   </tr>
   <tr>

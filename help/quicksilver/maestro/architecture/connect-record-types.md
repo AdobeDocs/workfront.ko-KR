@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
+source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
 workflow-type: tm+mt
-source-wordcount: '2253'
+source-wordcount: '2243'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Workfront Planning 레코드를 다른 애플리케이션의 객체에 연결하
   </tr>  
  <td role="rowheader"><p>Adobe Workfront 계약</p></td>
    <td>
-<p>Adobe Workfront Planning 마감된 Beta 프로그램에 조직을 등록해야 합니다. 이 새 제품에 대해 문의하려면 계정 담당자에게 문의하십시오. </p>
+<p>Workfront Planning의 조기 액세스 단계에 조직을 등록해야 합니다. </p>
    </td>
   </tr>
   <tr>

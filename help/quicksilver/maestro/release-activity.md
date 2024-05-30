@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
+source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
 workflow-type: tm+mt
-source-wordcount: '6602'
+source-wordcount: '6669'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,15 @@ UNIQUE 연산자는 다음을 제외한 모든 필드 유형에 사용할 수 �
 
 미리보기: 결정 예정
 
-메인 메뉴 영역의 계획 아이콘 모양이 업데이트되었습니다. 자세한 내용은 [Adobe Workfront Planning 개요](/help/quicksilver/maestro/maestro-overview.md).
+메인 메뉴에서 계획 영역 아이콘의 모양을 업데이트했습니다. 자세한 내용은 [Adobe Workfront Planning 개요](/help/quicksilver/maestro/maestro-overview.md).
+
+### Workfront Planning 프로그램 이름 바꾸기
+
+2024년 5월 30일부터 Adobe Workfront Planning 프로그램이 Beta 단계에서 조기 액세스 단계로 전환됩니다. 설명서의 용어에서 이 변경 사항을 확인할 수 있습니다.
+
+초기 액세스 단계도 일부 Workfront 고객으로 제한됩니다.
+
+조기 액세스 단계에 참여할 자격이 있는지 계정 담당자에게 알려줍니다.
 
 ## 2024년 5월 20일 주
 
