@@ -5,7 +5,7 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 0%
@@ -27,7 +27,7 @@ role: User
 
 # 작업 공간 템플릿 목록
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Adobe Workfront Planning에서 작업 공간은 팀에서 사용하는 레코드 유형의 컬렉션으로, 팀의 작업 라이프사이클을 나타냅니다.
 

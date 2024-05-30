@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '2253'
 ht-degree: 0%
@@ -28,7 +28,7 @@ author: Alina
 
 # 레코드 유형 연결
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Adobe Workfront Planning을 사용하여 조직에 필요한 레코드 유형을 포함하는 사용자 정의 가능한 작업 공간을 디자인할 수 있습니다. 개별 레코드 종류가 서로 관련되는 방식을 나타내는 방법은 해당 레코드 종류를 연결하는 것입니다. 또한 Workfront Planning 레코드 유형을 다른 애플리케이션의 객체 유형과 연결하여 사용자 경험을 향상시키고 한 애플리케이션에서 집중할 수 있습니다.
 

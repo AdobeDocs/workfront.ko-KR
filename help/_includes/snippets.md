@@ -1,7 +1,7 @@
 ---
-source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
-source-wordcount: '2355'
+source-wordcount: '2354'
 ht-degree: 1%
 
 ---
@@ -249,15 +249,17 @@ Workfront 프로젝트에 있는 동안 사용자가 Experience Manager에 연�
 
 1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리에서 을(를) 클릭하고 **[!UICONTROL 계획 수립]**.
 
-## 마에스트로의 중요한 소개 - {#maestro-important-intro}
+## Workfront Planning 중요한 소개 - {#planning-important-intro}
 
 >[!IMPORTANT]
 >
 >이 문서의 정보는 Adobe Workfront의 새 서비스인 Adobe Workfront Planning을 참조합니다.
 >
->현재 Workfront Planning은 제한된 수의 고객에게 공개되는 베타 프로그램의 일부입니다. 이러한 기능을 사용하려면 Workfront 고객이어야 합니다.
+>현재 Workfront Planning은 제한된 수의 고객에게 개방되어 있는 초기 액세스 단계에 있습니다.
 >
->Workfront Planning용 Beta 프로그램 가입에 대한 자세한 내용은 계정 담당자에게 문의하십시오.
+>이러한 기능을 사용하려면 Workfront 고객이어야 합니다.
+>
+>이 단계에 속해 있는 경우 계정 담당자에게 알립니다.
 >
 >자세한 내용은 [Adobe Workfront Planning 개요](/help/quicksilver/maestro/maestro-overview.md).
 
@@ -303,7 +305,7 @@ Workfront 프로젝트에 있는 동안 사용자가 Experience Manager에 연�
 
 ## 1단계 - 증명 시작하기 - {#step1-to-proofing}
 
-1. Workfront에서 **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png)또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 왼쪽 위 모서리에 있는 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 을 클릭합니다 **[!UICONTROL 증명]** Workfront 증명에 액세스.
+1. Workfront에서 **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png)또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 왼쪽 위 모서리에 있는 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 을 클릭합니다 **[!UICONTROL 증명]** Workfront Proof에 액세스
 
 ## 최신 DPV 버전 {#latest-version}
 

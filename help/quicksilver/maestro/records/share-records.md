@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 레코드 공유
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 다른 사용자와 공동 작업하려면 레코드를 다른 사용자와 공유할 수 있습니다.
 

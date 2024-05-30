@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
-source-wordcount: '6571'
+source-wordcount: '6602'
 ht-degree: 0%
 
 ---
@@ -17,19 +17,15 @@ ht-degree: 0%
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
-이 문서에서는 2023년 5월 22일 Adobe Workfront Planning 기능 비공개 베타 프로그램 출시 후 릴리스된 기능을 나열합니다.
+이 문서에서는 2023년 5월 22일 Adobe Workfront Planning 프로그램 시작 이후 릴리스된 기능을 나열합니다.
 
-릴리스된 기능은 릴리스 순서대로 나열되며 가장 최근의 기능이 먼저 릴리스됩니다. 계획 기능 Closed Beta 프로그램에 참여하는 고객은 프로덕션 환경의 모든 기능에 액세스할 수 있습니다.
-
->[!IMPORTANT]
+>[!NOTE]
 >
->2023년 5월과 2023년 12월 사이에 이 문서의 모든 기능이 미리보기 및 프로덕션 환경에 릴리스되었습니다. 계획 기능은 2024년 1월부터 미리보기 및 샌드박스 환경에서 일시적으로 제거되었습니다. 이 날짜 이후 릴리스된 모든 기능은 현재 프로덕션에서 사용할 수 있습니다.
+>2023년 5월과 2023년 12월 사이에 이 문서의 모든 기능이 미리보기 및 프로덕션 환경에 릴리스되었습니다. Workfront Planning은 2024년 1월부터 미리보기 및 샌드박스 환경에서 일시적으로 제거되었습니다. 이 날짜 이후 릴리스된 모든 기능은 현재 프로덕션에서 사용할 수 있습니다.
 
-이 문서에서는 2023년 5월 22일 Adobe Workfront Planning 기능 비공개 베타 프로그램 출시 후 릴리스된 기능 및 패치를 나열합니다.
-
-기능은 매주 릴리스되고 릴리스 순서대로 나열되며, 가장 최근의 기능이 먼저 나열됩니다. 계획 기능 Closed Beta 프로그램에 참여하는 고객은 미리보기 및 프로덕션 환경의 모든 기능에 액세스할 수 있습니다.
+릴리스된 기능은 릴리스 순서대로 나열되며 가장 최근의 기능이 먼저 릴리스됩니다. Workfront Planning 프로그램에 참여하는 고객은 프로덕션 환경의 모든 기능에 액세스할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -57,16 +53,6 @@ Preview: To be determined
 
 Because the impact for deleting a workspace can be significant, we are adding an extra step in confirming the deletion. Users are required to type "delete" before they can complete the deletion of a workspace. For more information, see [Delete workspaces](/help/quicksilver/maestro/architecture/delete-workspaces.md).  
 
-### Share views with all members of a workspace by default
-
-Production: <date> 
-
-Preview: To be determined 
-
-We have now introduced an option where you can quickly give View permissions to a view to all members of a workspace. Prior to this enhancement, only users you specifically shared a view with could access the view. This option is not enabled by default.  
-
-For information, see [Share views](/help/quicksilver/maestro/access/share-views.md).  
-
 -->
 
 ## 2024년 5월 27일 주
@@ -88,6 +74,24 @@ UNIQUE 연산자는 다음을 제외한 모든 필드 유형에 사용할 수 �
 * 확인란 필드
 
 자세한 내용은 [레코드 유형 연결](/help/quicksilver/maestro/architecture/connect-record-types.md).
+
+### 기본적으로 작업 영역의 모든 구성원과 보기 공유
+
+프로덕션: 2024년 5월 30일
+
+미리보기: 결정 예정
+
+이제 작업 영역의 모든 구성원에게 보기에 대한 권한을 신속하게 부여할 수 있는 옵션이 도입되었습니다. 이 개선 이전에는 특별히 보기를 공유한 사용자만 보기에 액세스할 수 있었습니다. 이 옵션은 기본적으로 활성화되어 있지 않습니다.
+
+자세한 내용은 [보기 공유](/help/quicksilver/maestro/access/share-views.md).
+
+### 메인 메뉴의 계획 아이콘 모양이 업데이트되었습니다.
+
+프로덕션: 2024년 5월 30일
+
+미리보기: 결정 예정
+
+메인 메뉴 영역의 계획 아이콘 모양이 업데이트되었습니다. 자세한 내용은 [Adobe Workfront Planning 개요](/help/quicksilver/maestro/maestro-overview.md).
 
 ## 2024년 5월 20일 주
 
@@ -713,7 +717,7 @@ Adobe Workfront Planning 기능이 미리보기 및 샌드박스 환경에서 �
 
 자세한 내용은 [레코드 주석 관리](/help/quicksilver/maestro/records/manage-record-comments.md).
 
-### Adobe Workfront Fusion용 Planning 기능 커넥터(베타)
+### Adobe Workfront Fusion용 Workfront Planning 커넥터
 
 프로덕션: 2023년 12월 21일
 

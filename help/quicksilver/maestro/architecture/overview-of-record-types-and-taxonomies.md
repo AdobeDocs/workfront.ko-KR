@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: b2ec979cf9aa2431c8c908440c227758d9dab521
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # 레코드 유형 개요
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 객체 유형이 사전 정의된 Workfront과 달리 Adobe Workfront Planning에서는 고유한 객체 유형을 만들 수 있습니다. 예를 들어 Workfront에서 프로그램, Portfolio, 프로젝트, 작업 또는 문제의 객체 유형이 이미 생성되었습니다.
 

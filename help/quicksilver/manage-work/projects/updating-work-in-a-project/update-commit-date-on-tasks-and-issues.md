@@ -6,9 +6,9 @@ description: 할당된 작업 또는 문제의 커밋 일자를 수동으로 업
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---
@@ -73,10 +73,10 @@ ht-degree: 0%
 Workfront의 다음 영역에서 작업 또는 문제의 커밋 일자를 업데이트할 수 있습니다.
 
 * 작업 또는 문제의 세부 정보 섹션
-<!--
-* <span class="preview">The task or issue header
-   Your Workfront or group administrator must add the Commit Date to the task or issue header of your layout template to view it from the task or issue page. </span>
-   For information, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). -->
+* <span class="preview">작업 또는 문제 헤더</span>
+
+  <span class="preview">Workfront 또는 그룹 관리자가 작업 또는 문제 페이지에서 보려면 레이아웃 템플릿의 작업 또는 문제 헤더에 커밋 일자를 추가해야 합니다.
+자세한 내용은 [레이아웃 템플릿을 사용하여 개체 머리글 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).</span>
 
 커밋 일자 업데이트는 작업 및 문제와 동일합니다.
 
@@ -94,9 +94,9 @@ Workfront의 다음 영역에서 작업 또는 문제의 커밋 일자를 업데
 
    문제 또는 작업에 대한 작업 소유자 확인에 대한 자세한 내용은 섹션을 참조하십시오 [작업 편집](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) 이 문서에서 [작업 편집](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
-<!--1. <span class="preview">(Conditional and optional) If your Workfront or group administrator added the Commit Date to your task or issue header, click the **Commit Date** field in the header, then select a date from the calendar. If the Commit Date is not in the header, proceed with the following steps. </span>
+1. <span class="preview">(조건부 및 선택 사항) Workfront 또는 그룹 관리자가 커밋 일자를 작업 또는 문제 헤더에 추가한 경우 **커밋 일자** 머리글에서 필드를 선택한 다음 달력에서 날짜를 선택합니다. 커밋 일자 가 헤더에 없으면 다음 단계를 진행하십시오. </span>
 
-   <span class="preview">![](assets/commit-date-task-header.png)</span>-->
+   <span class="preview">![](assets/commit-date-task-header.png)</span>
 
 1. 클릭 **작업 세부 정보** 또는 **문제 세부 정보** 왼쪽 패널에서
 1. 클릭 **개요** 확장하기 위해
@@ -106,7 +106,7 @@ Workfront의 다음 영역에서 작업 또는 문제의 커밋 일자를 업데
 
 1. **변경 내용 저장**&#x200B;을 클릭합니다.
 
-   이 변경 작업을 수행한 후 다음 작업이 수행됩니다. 
+   이 변경 작업을 수행한 후 다음 작업이 수행됩니다.
 
    * 작업 또는 문제의 커밋 일자와 계획된 완료 일자가 더 이상 동일하지 않습니다.
 
@@ -115,10 +115,13 @@ Workfront의 다음 영역에서 작업 또는 문제의 커밋 일자를 업데
      ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
    * 작업 또는 문제에 대한 새 커밋 날짜를 제안했다는 알림이 Workfront 인앱 알림을 통해 프로젝트 소유자에게 표시됩니다.
-   <!--* The Project Owner is notified in the Updates section that you have suggested a new Commit Date and they can, at this time, update the Planned Completion Date of the task or issue to match the Commit Date you suggested. This functionality is not supported in the new commenting experience. For information, see [The new commenting experience](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). -->
+   * 업데이트 섹션에서 프로젝트 소유자에게 새 커밋 일자를 제안했다는 알림이 표시되며 사용자는 이때 제안한 커밋 일자와 일치하도록 작업 또는 문제의 계획된 완료 일자를 업데이트할 수 있습니다.
 
-   <!--![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)-->
+     ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
 
-   이 변경으로 인해 트리거되는 알림 및 업데이트에 대한 자세한 내용은 문서의 &quot;커밋 일자 변경으로 인해 트리거되는 알림 및 업데이트&quot; 섹션을 참조하십시오 [커밋 일자 개요](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+
+     <!--![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)-->
+
+     이 변경으로 인해 트리거되는 알림 및 업데이트에 대한 자세한 내용은 문서의 &quot;커밋 일자 변경으로 인해 트리거되는 알림 및 업데이트&quot; 섹션을 참조하십시오 [커밋 일자 개요](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 <!--at the Production update stream when removing legacy - replace the last bullet with: The Project Owner is notified in the Systems Activity and the All tabs of the Updates section that you have suggested a new Commit Date. They can then update the Planned Completion Date accordingly by editing the task or the issue.-->

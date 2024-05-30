@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Adobe Workfront Planning 이메일 알림 관리
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 누군가가 기록 댓글에서 귀하를 태그하면 해당 태그에 대한 이메일 알림을 받게 됩니다.
 

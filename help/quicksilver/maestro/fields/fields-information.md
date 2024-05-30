@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d06028d9-9230-4a6c-a227-20618067192c
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 0%
@@ -26,7 +26,7 @@ hide: yes
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 마케팅 운영 리더로서 Adobe Workfront Planning을 사용하여 모든 팀의 마케팅 라이프사이클 전반에서 작업을 구성할 수 있습니다. Workfront Planning에서는 생성하는 모든 사용자 정의 레코드 유형에 대한 사용자 정의 필드 추가를 포함하여 워크플로우의 아키텍처를 완전히 사용자 정의할 수 있습니다.
 

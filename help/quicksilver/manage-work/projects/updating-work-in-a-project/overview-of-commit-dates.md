@@ -7,16 +7,16 @@ description: 커밋 일자는 작업 또는 문제에 할당된 사용자가 작
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '895'
 ht-degree: 0%
 
 ---
 
 # 커밋 일자 개요
 
-<!--{{highlighted-preview}}-->
+{{highlighted-preview}}
 
 커밋 일자는 작업 또는 문제에 할당된 사용자가 작업 또는 문제를 완료하기로 커밋하는 일자입니다.
 
@@ -56,8 +56,7 @@ Workfront의 다음 영역에서 작업 및 문제에 대한 커밋 일자를 �
 
 * 세부 정보 페이지
 * 요약 패널은 Workfront 또는 그룹 관리자가 레이아웃 템플릿에 추가하면 됩니다. 자세한 내용은 [레이아웃 템플릿을 사용하여 홈 및 요약 맞춤화](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
-<!--
-* <span class="preview">The header of a task or issue, after a Workfront or group administrator adds it to your layout template. For information, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span> -->
+* <span class="preview">Workfront 또는 그룹 관리자가 작업 또는 문제를 레이아웃 템플릿에 추가한 후의 헤더. 자세한 내용은 [레이아웃 템플릿을 사용하여 개체 머리글 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span>
 
 ## 커밋 일자 변경으로 트리거된 알림 및 업데이트 {#notifications-and-updates-triggered-by-changing-the-commit-date}
 
@@ -71,7 +70,7 @@ Workfront의 다음 영역에서 작업 및 문제에 대한 커밋 일자를 �
 
 * 작업 또는 문제의 업데이트 섹션에 있는 시스템 활동 및 모두 탭에 커밋 일자 변경이 채워집니다.
 
-  ![](assets/update-stream-confirmation-that-commit-date-changed-nwe-350x73.png)
+  ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
 
   Workfront 관리자가 설정의 업데이트 피드 영역에서 이 업데이트를 활성화하면 작업 또는 문제의 업데이트 영역에 커밋 일자 변경이 표시됩니다. 자세한 내용은 [시스템 추적 업데이트](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
@@ -83,12 +82,13 @@ Workfront의 다음 영역에서 작업 및 문제에 대한 커밋 일자를 �
 
   >[!TIP]
   >
-  >요약 패널이 표시되는 Workfront의 다양한 영역에서 보다 쉽게 업데이트할 수 있도록 시스템 또는 그룹 관리자에게 요약 패널에 커밋 일자 필드를 추가하도록 요청할 수 있습니다.
+  >업데이트하기 쉽도록 시스템 또는 그룹 관리자에게 요청하여 요약 패널 또는 헤더에 커밋 일자 필드를 추가할 수 있습니다.
   >
   >자세한 내용은 다음 문서를 참조하십시오.
   >
   >* [요약 개요](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
-  >* [레이아웃 템플릿을 사용하여 홈 및 요약 맞춤화](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+  >* [레이아웃 템플릿을 사용하여 홈 및 요약 맞춤화](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+  >* [레이아웃 템플릿을 사용하여 개체 머리글 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 <!--this is no longer possible: 
 >[!NOTE]

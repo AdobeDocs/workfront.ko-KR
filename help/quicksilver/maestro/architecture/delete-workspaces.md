@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 1%
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # 작업 영역 삭제
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Adobe Workfront Planning에서 작업 공간은 팀이 작업을 계획하는 중앙 집중식 위치입니다. 자세한 내용은 [작업 공간 만들기](../architecture/delete-workspaces.md).
 

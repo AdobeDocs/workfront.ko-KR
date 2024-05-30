@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 2%
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 # 작업 공간 공유
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Adobe Workfront Planning에서 작업할 때 공동 작업을 보장하기 위해 다른 사용자와 작업 영역을 공유할 수 있습니다.
 

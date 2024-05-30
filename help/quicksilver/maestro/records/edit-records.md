@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '1520'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # 레코드 편집
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 레코드와 연결된 필드의 값을 편집하여 Adobe Workfront Planning에서 레코드 정보를 편집할 수 있습니다.
 

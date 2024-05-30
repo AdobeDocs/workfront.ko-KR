@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 액세스 개요
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Adobe Workfront Planning을 사용하려면 라이선스 및 공유 권한 제한이 있습니다.
 
@@ -98,7 +98,7 @@ Adobe Workfront Planning을 사용하려면 다음 설정이 있어야 합니다
 
 1. 에 로그인 **Workfront** Workfront 관리자입니다.
 
-1. 추가 **계획 수립** 아이콘 ![](assets/maestro-icon.png) (으)로 **메인 메뉴** 사용 **레이아웃 템플릿**.
+1. 추가 **계획 수립** 아이콘 ![](assets/planning-icon.png) (으)로 **메인 메뉴** 사용 **레이아웃 템플릿**.
 
    자세한 내용은 [레이아웃 템플릿을 사용하여 메인 메뉴 사용자 정의](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 

@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 1%
+source-wordcount: '617'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # 보기 공유
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 보기를 다른 사용자와 공유하여 Adobe Workfront Planning에서 레코드 작업 시 공동 작업을 보장할 수 있습니다.
 
@@ -24,12 +24,12 @@ ht-degree: 1%
 
 보기를 공유할 때 다른 사용자에게 보기의 모든 요소에 액세스할 수 있는 권한을 부여합니다. 예를 들어, 보기에 대한 관리 권한을 부여하면 그룹화, 필터, 정렬 또는 막대 모양을 수정할 수 있습니다.
 
-<!--
-You can share a view with the following entities: 
 
-* Workfront users
-* Workfront groups
-* Publicly, with users outside Workfront
+다음 엔티티와 뷰를 공유할 수 있습니다.
+
+* Workfront 사용자
+* Workfront 그룹
+<!--* Publicly, with users outside Workfront
 -->
 
 ## 액세스 요구 사항
@@ -110,14 +110,12 @@ You can share a view with the following entities:
 
    <!--The Internal sharing tab should be selected by default.-->
 
-<!--   
-1. (Optional) Select from the following options to share the view: 
+1. (선택 사항) 보기를 공유하려면 다음 옵션 중에서 선택합니다.
 
-* **Only invited people can access**: You must specify users or groups that you want to share the view with. This is the default option.
-* **Everyone in the workspace can view**: All users that have View or higher permissions to workspaces can access the view. -->
+   * **초대된 사람만 액세스할 수 있습니다.**: 보기를 공유할 사용자 또는 그룹을 지정해야 합니다. 기본 옵션입니다.
+   * **작업 영역의 모든 사용자가 볼 수 있음**: 작업 영역에 대한 보기 이상의 권한이 있는 모든 사용자가 보기에 액세스할 수 있습니다.
 
-
-1. 다음에서 **보기 액세스 권한 부여 대상** 필드에서 사용자 또는 그룹 이름을 입력한 다음 목록에 표시될 때 클릭합니다.  <!--***********replace screen shot below when global sharing is released***********-->
+1. 다음에서 **보기 액세스 권한 부여 대상** 필드에서 사용자 또는 그룹 이름을 입력한 다음 목록에 표시될 때 클릭합니다.  <!--***********replace screen shot below when public sharing is released***********-->
 
    ![](assets/sharing-a-view-ui-with-groups.png)
 

@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '2403'
 ht-degree: 3%
@@ -26,7 +26,7 @@ hide: yes
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테이블 보기에 레코드와 해당 필드를 표시할 수 있습니다.
 
@@ -305,7 +305,7 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
             <td>다중 선택, 사람</td>
             <td><p>다음 중 하나 포함</p>
             <p>다음을 모두 포함</p>
-            <p>정확함</p>
+            <p>다음이 정확함</p>
             <p>다음 중 어느 것도 포함하지 않음</p>
             <p>비어 있음</p>
             <p>비어 있지 않음</p></td>

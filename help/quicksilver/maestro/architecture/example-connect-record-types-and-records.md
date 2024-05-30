@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '1797'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 레코드 종류 및 레코드 연결의 예
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 이 문서에서는 다음 내용의 예를 설명합니다.
 

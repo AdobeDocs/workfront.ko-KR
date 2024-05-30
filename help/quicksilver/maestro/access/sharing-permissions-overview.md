@@ -6,10 +6,10 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 5d7a7157c7ffb9634ec44de0b55b3bcf08d88786
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 7%
+source-wordcount: '696'
+ht-degree: 6%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 7%
 
 # Adobe Workfront Planning의 공유 권한 개요
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Adobe Workfront Planning에서 작업 공간 또는 보기에 대한 권한을 공유하거나 제거할 수 있습니다.
 
@@ -75,9 +75,9 @@ Adobe Workfront Planning에서 작업 공간 또는 보기에 대한 권한을 �
 * 레코드 유형
 * 레코드
 * 필드
-<!--* Views*
-    
-    *You can allow all users with View or higher permissions to a workspace to also access a view. This is an additional permission that you must enable when sharing a view. For information, see [Share views](/help/quicksilver/maestro/access/share-views.md). -->
+* 보기*
+
+  *작업 공간에 대한 보기 이상의 권한이 있는 모든 사용자가 작업 공간의 보기에 액세스하도록 허용할 수도 있습니다. 보기를 공유할 때 활성화해야 하는 추가 권한입니다. 자세한 내용은 [보기 공유](/help/quicksilver/maestro/access/share-views.md).
 
 작업 공간에 대한 권한 수준은 다음과 같습니다.
 
@@ -147,17 +147,19 @@ Adobe Workfront Planning에서 작업 공간 또는 보기에 대한 권한을 �
 
 다음은 보기 및 보기 요소에 대한 권한 수준입니다.
 
-|        | 관리 | 보기 |
-|--------|--------|-------|
-| 편집 | ✓ 덧신 |       |
-| 삭제 | ✓ 덧신 |       |
-| 공유 | ✓ 덧신 |       |
-| 보기 | ✓ 덧신 | ✓ 덧신 |
-| 적용 | ✓ 덧신 | ✓ 덧신 |
+|        | 관리(초대받은 사람만 액세스 가능) | 보기(초대된 사람만 액세스할 수 있음) | 작업 영역의 모든 사용자가 볼 수 있음* |
+|--------|--------|-------|------------------------------|
+| 편집 | ✓ 덧신 |       |                            |
+| 삭제 | ✓ 덧신 |       |                            |
+| 공유 | ✓ 덧신 |       |                           |
+| 보기 | ✓ 덧신 | ✓ 덧신 | ✓ 덧신 |
+| 적용 | ✓ 덧신 | ✓ 덧신 | ✓ 덧신 |
 
-<!--Replace the above with this when global sharing is released: 
+*이 보기 액세스 권한을 얻으려면 사용자에게 작업 영역에 대한 보기 이상의 권한이 있어야 합니다.
 
-|        | Manage | View  |View permissions to a workspace*|
+<!--Replace the table above with the following when public sharing releases: 
+
+|   Internal sharing     | Manage (Only invited people can access) | View (Only invited people can access)  |Everyone in the workspace can view*|
 |--------|--------|-------|------------------------------|
 | Edit   | ✓      |       |                            |
 | Delete | ✓      |       |                            |
@@ -165,20 +167,19 @@ Adobe Workfront Planning에서 작업 공간 또는 보기에 대한 권한을 �
 | View   | ✓      | ✓     | ✓                         |
 | Apply  | ✓      | ✓     | ✓                          |
 
-*Users must have View or higher permissions on a workspace to gain this view access.-->
-
-<!--Replace the table above with the following when public sharing releases: 
-
-|   Internal sharing     | Manage | View  |
-|--------|--------|-------|
-| Edit   | ✓      |       |
-| Delete | ✓      |       |
-| Share  | ✓       |       |
-| View   | ✓      | ✓     |
-| Apply  | ✓      | ✓     |
-
 |   Public sharing      | View  |
 |--------|-------|
 | View   | ✓     |
 | Apply  | ✓     |
+-->
+
+
+<!--old view permissions, before sharing View permissions to a view through a workspace:
+|        | Manage | View  |
+|--------|--------|-------|
+| Edit   | ✓      |       |                            
+| Delete | ✓      |       |                            
+| Share  | ✓       |       |                           
+| View   | ✓      | ✓     |                         
+| Apply  | ✓      | ✓     |    
 -->

@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '1845'
 ht-degree: 2%
@@ -26,9 +26,11 @@ ht-degree: 2%
 >
 >이 문서의 정보는 Adobe Workfront의 새 서비스인 Adobe Workfront Planning을 참조합니다.
 >
->현재 Adobe Workfront Planning은 제한된 수의 고객에게 공개되는 베타 프로그램의 일부입니다. 이러한 기능을 사용하려면 Workfront 고객이어야 합니다.
+>현재 Workfront Planning은 제한된 수의 고객에게 개방되어 있는 초기 액세스 단계에 있습니다.
 >
->Workfront Planning용 Beta 프로그램 가입에 대한 자세한 내용은 계정 담당자에게 문의하십시오.
+>이러한 기능을 사용하려면 Workfront 고객이어야 합니다.
+>
+>이 단계에 속해 있다면 계정 담당자가 귀하에게 알려 주었을 것입니다.
 >
 >Workfront Planning을 문서화하는 모든 섹션 및 문서의 전체 목록은 다음을 참조하십시오. [Adobe Workfront Planning: 문서 색인](/help/quicksilver/maestro/maestro-information.md).
 
@@ -101,7 +103,7 @@ Adobe Workfront Planning은 Adobe Workfront의 새로운 제품입니다. Workfr
 
 ## Workfront 인스턴스의 사용자에 대해 Adobe Workfront Planning 활성화
 
-계획 기능에 액세스하려면 먼저 조직이 Adobe Workfront Planning Closed Beta 프로그램에 등록해야 합니다. Beta 프로그램 등록에 대한 자세한 내용은 계정 담당자에게 문의하십시오.
+계획 기능에 액세스하려면 먼저 조직이 Adobe Workfront 계획 프로그램에 등록해야 합니다. 자격이 되는 경우 계정 담당자가 이 프로그램 등록에 대한 정보를 제공해야 합니다.
 
 액세스 권한을 부여하고 다른 사용자가 Workfront Planning을 사용할 수 있도록 하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [액세스 개요](/help/quicksilver/maestro/access/access-overview.md).
 
@@ -277,7 +279,7 @@ Workfront Planning을 찾으려면 다음을 수행합니다.
 
 1. 다음을 클릭합니다. **메인 메뉴** ![](assets/main-menu-workfront.png) 오른쪽 상단에서 를 클릭하거나 **메인 메뉴** ![](assets/main-menu-shell.png) 사용 가능한 경우 왼쪽 상단 모서리에 있습니다.
 
-1. 클릭 **계획 수립** ![](assets/maestro-icon.png).
+1. 클릭 **계획 수립** ![](assets/planning-icon.png).
 
    작업공간(Workspaces) 영역이 열립니다.
 

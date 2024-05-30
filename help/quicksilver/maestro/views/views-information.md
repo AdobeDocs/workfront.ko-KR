@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0f93014b-d0f7-4ea3-9b11-3314b46f1ef3
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 0%
@@ -28,7 +28,7 @@ hide: yes
 
 # 보기: 문서 색인
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 테이블, 타임라인 또는 달력 보기에서 Adobe Workfront Planning 레코드를 표시할 수 있습니다.
 

@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '2463'
 ht-degree: 1%
@@ -28,7 +28,7 @@ hide: yes
 
 # 기록 연결
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프로그램의 객체에 연결할 수 있습니다.
 

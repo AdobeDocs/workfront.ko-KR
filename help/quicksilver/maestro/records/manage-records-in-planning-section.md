@@ -4,7 +4,7 @@ description: 왼쪽 패널의 Workfront 개체에 대한 계획 섹션에 Adobe 
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: c2659e0b3f571053c1c014703103bfcc7935ff3c
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 1%
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 # Adobe Workfront 오브젝트의 계획 섹션에서 레코드 관리
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 왼쪽 패널의 Workfront 개체에 대한 계획 섹션에 Adobe Workfront 개체에 연결된 레코드를 표시할 수 있습니다.
 
