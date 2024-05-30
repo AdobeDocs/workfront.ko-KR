@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
+source-git-commit: 706495396b4cf733659e05e28e57c4626c104ef5
 workflow-type: tm+mt
-source-wordcount: '6669'
+source-wordcount: '6732'
 ht-degree: 0%
 
 ---
@@ -100,6 +100,18 @@ UNIQUE 연산자는 다음을 제외한 모든 필드 유형에 사용할 수 �
 초기 액세스 단계도 일부 Workfront 고객으로 제한됩니다.
 
 조기 액세스 단계에 참여할 자격이 있는지 계정 담당자에게 알려줍니다.
+
+### 작업 영역 삭제를 위한 새로운 프로세스
+
+프로덕션: 2024년 5월 30일
+
+미리보기: 결정 예정
+
+작업 영역 삭제에 대한 영향이 클 수 있으므로 삭제 확인에 추가 단계를 추가하고 있습니다. 이제 작업 영역의 영구 삭제를 완료하려면 먼저 &quot;delete&quot;를 입력해야 합니다.
+
+삭제된 작업 공간 및 해당 정보는 복구할 수 없습니다.
+
+자세한 내용은 [작업 영역 삭제](/help/quicksilver/maestro/architecture/delete-workspaces.md).
 
 ## 2024년 5월 20일 주
 
