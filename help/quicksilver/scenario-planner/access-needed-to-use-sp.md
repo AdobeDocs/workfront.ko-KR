@@ -7,9 +7,9 @@ description: 시나리오 플래너에는 Adobe Workfront과 별도의 라이센
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d7f3c7fa-81aa-40c9-b506-fe1fe346e9ea
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '952'
 ht-degree: 0%
 
 ---
@@ -37,66 +37,57 @@ might need to add information about the permissions to plans/ initiatives if tho
 
 ## 를 보고 사용하는 데 필요한 액세스 권한 [!DNL Adobe Workfront Scenario Planner]
 
-에 액세스하려면 먼저 다음 조건이 모두 충족되는지 확인해야 합니다 [!DNL Workfront Scenario Planner]:
+다음에 액세스하려면 먼저 다음 조건을 모두 충족하는지 확인해야 합니다 [!DNL Workfront Scenario Planner]:
 
-<!--drafted for P&P:
+1. 조직에는 아래에 설명된 Workfront 플랜 중 하나가 있어야 합니다.
 
-* Depending on whether you use the current or the legacy Workfront plans, your organization must have the following:
+   새 Workfront 플랜을 사용하는지 아니면 현재 플랜을 사용하는지에 따라 조직에 다음 중 하나가 있어야 합니다.
 
-  * For the current plans:  
+   * 현재 계획의 경우, 조직에 다음 중 하나가 있어야 합니다.
 
-    * The [!UICONTROL Ultimate] [!DNL Workfront] plan.
+      * 다음 [!UICONTROL 최적] [!DNL Workfront] 계획. 시나리오 플래너는 최종 계획에 포함됩니다.
 
-      Or
-  
-    * The [!UICONTROL Select] or [!UICONTROL Prime] [!DNL Workfront] plan, in addition to purchasing a separate [!DNL Scenario Planner] license.
+        또는
 
-  * For the legacy plans: (indent the bullets below, before the NOTE)
+      * 다음 [!UICONTROL 선택] 또는 [!UICONTROL Prime] [!DNL Workfront] 별도의 플랜을 구매하는 것 외에 [!DNL Scenario Planner] 라이센스.
 
--->
+   * 현재 Workfront 플랜의 경우 조직은 다음 두 가지 조건을 모두 충족해야 합니다.
 
-* 조직은 다음을 구매해야 합니다. [!DNL Workfront] [!UICONTROL 비즈니스] 이상 [!DNL Workfront] 계획. 에 대한 자세한 내용은 [!DNL Workfront] 플랜, 참조 [Workfront 플랜](https://workfront.com/plans).
-* 조직은 다음을 구매해야 합니다. [!DNL Workfront Scenario Planner] 라이센스, 추가 [!DNL Workfront] 라이센스. 다음으로 연락 [!DNL Workfront] 자세히 알아볼 계정 담당자 [!DNL Workfront Scenario Planner] 라이선스.
+      * 조직은 다음을 구매해야 합니다. [!DNL Workfront] [!UICONTROL 비즈니스] 이상 [!DNL Workfront] 계획. 에 대한 자세한 내용은 [!DNL Workfront] 플랜, 참조 [Workfront 플랜](https://workfront.com/plans).
 
-<!--drafted for P&P: 
+      * 조직은 다음을 구매해야 합니다. [!DNL Workfront Scenario Planner] 라이센스, 추가 [!DNL Workfront] 라이센스. 다음으로 연락 [!DNL Workfront] 자세히 알아볼 계정 담당자 [!DNL Workfront Scenario Planner] 라이선스.
 
-* Depending on whether you use the current or legacy licenses, your [!DNL Workfront] administrator must assign you a license of any of the following types: 
+1. 아래에 설명된 Workfront 라이센스 중 하나가 있어야 합니다.
 
-  * For the current licenses: 
-    * [!UICONTROL Standard]
-    * [!UICONTROL Light]
+   새 라이센스를 사용하는지 아니면 현재 라이센스를 사용하는지에 따라 [!DNL Workfront] 관리자는 사용자에게 다음 유형의 라이선스를 할당해야 합니다.
 
-  * For the legacy licenses: (re-indent the licenses below and reword the sentence)
+   * 새 라이센스의 경우:
+      * [!UICONTROL 표준]
+      * [!UICONTROL 밝게]
 
--->
+   * 현재 라이센스의 경우:
 
+      * [!UICONTROL 플랜]
+      * [!UICONTROL 작업]
+      * [!UICONTROL 리뷰]
 
+   >[!NOTE]
+   > 
+   >* 새 라이센스를 사용할 때 [!UICONTROL 참여자] 또는 [!UICONTROL 외부] 라이선스 유형 액세스 불가 [!DNL Scenario Planner].
+   >
+   >* 현재 라이선스를 사용할 때 요청 또는 외부 라이선스 유형을 가진 사용자는 시나리오 플래너에 액세스할 수 없습니다.
 
-* 사용자 [!DNL Workfront] 관리자는 사용자에게 다음 중 하나의 라이센스를 할당해야 합니다 [!DNL Workfront] 유형:
+1. 사용자 [!DNL Workfront] 관리자가 다음을 수행해야 합니다. [!UICONTROL 보기] 또는 [!UICONTROL 편집] 액세스 대상: [!DNL Scenario Planner] 액세스 수준으로 이동합니다.
 
-   * [!UICONTROL 플랜]
-   * [!UICONTROL 작업]
-   * [!UICONTROL 검토]
+   에 대한 액세스 권한 부여에 대한 자세한 내용 [!DNL Workfront Scenario Planner], 참조 [액세스 권한 부여 대상 [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
 
-  >[!NOTE]
-  >
-  >이 있는 사용자 [!UICONTROL 요청] 또는 [!UICONTROL 외부] 라이선스 유형 액세스 불가 [!DNL Workfront Scenario Planner].
+1. (선택 사항 및 권장) 계획 및 이니셔티브에 대한 재무 정보를 보거나 갱신하려면 [!DNL Workfront] 관리자는에 대한 액세스 권한도 부여해야 합니다. [!UICONTROL 재무 데이터] 액세스 수준으로 이동합니다. 액세스 수준에서 재무 데이터 부여에 대한 자세한 내용은 [재무 데이터에 대한 액세스 권한 부여](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
-<!--drafted - replace the note above with this at P&P release: 
-  * When using the current licenses, users with a [!UICONTROL Contributor] or [!UICONTROL External] license type cannot access the [!DNL Scenario Planner].
-  * When using the legacy licenses, users with a Request or External license type cannot access the Scenario Planner. -->
+1. (선택 사항) 본인이 만들지 않은 플랜에 액세스해야 하는 경우 플랜 작성자는 해당 플랜에 액세스할 수 있는 올바른 권한을 부여해야 합니다. 만들지 않은 계획 및 이니셔티브에 액세스하는 데 필요한 권한에 대한 자세한 내용은 [계획 및 이니셔티브에 액세스하는 데 필요한 권한](#permissions-needed-to-access-plans-and-initiatives) 이 문서의 섹션.
 
-* 사용자 [!DNL Workfront] 관리자가 다음을 수행해야 합니다. [!UICONTROL 보기] 또는 [!UICONTROL 편집] 액세스 대상: [!DNL Scenario Planner] 액세스 수준으로 이동합니다.
-
-  에 대한 액세스 권한 부여에 대한 자세한 내용 [!DNL Workfront Scenario Planner], 참조 [액세스 권한 부여 대상 [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
-
-* (선택 사항 및 권장) 계획 및 이니셔티브에 대한 재무 정보를 보거나 갱신하려면 [!DNL Workfront] 관리자는에 대한 액세스 권한도 부여해야 합니다. [!UICONTROL 재무 데이터] 액세스 수준으로 이동합니다. 액세스 수준에서 재무 데이터 부여에 대한 자세한 내용은 [재무 데이터에 대한 액세스 권한 부여](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
-
-  <!--this used to be true but not anymore:
+<!--this used to be true but not anymore:
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>(NOTE: this is no longer needed) </p> <p>Your Workfront administrator must assign you a layout template that includes the Scenarios area in the Main Menu. </p> <p>For information about customizing the Main Menu in a layout template, see <a href="../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md" class="MCXref xref" xrefformat="{para}">Customize the Main Menu using a layout template</a>. </p> <p>For information about assigning users to a Layout Template, see <a href="../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md" class="MCXref xref" xrefformat="{para}">Assign users to a layout template</a>.</p> </li>
   -->
-
-* 본인이 만들지 않은 플랜에 액세스해야 하는 경우, 플랜 작성자는 해당 플랜에 액세스할 수 있는 올바른 권한을 귀하에게 제공해야 합니다. 만들지 않은 계획 및 이니셔티브에 액세스하는 데 필요한 권한에 대한 자세한 내용은 [계획 및 이니셔티브에 액세스하는 데 필요한 권한](#permissions-needed-to-access-plans-and-initiatives) 이 문서의 섹션.
 
 ## 계획 및 이니셔티브 보기에 필요한 액세스
 

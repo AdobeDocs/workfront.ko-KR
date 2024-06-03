@@ -6,7 +6,7 @@ description: 개인 목표가 있는 개별 기여자의 경우 조직의 전략
 author: Alina
 feature: Workfront Goals
 exl-id: 4276f1c9-2ee9-4f74-b011-ae1e19fefe35
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 1%
@@ -51,9 +51,9 @@ Adobe Workfront 목표에는 두 가지 접근 방식으로 목표를 연결할 
  <tr>
  <td role="rowheader">Adobe Workfront 라이센스*</td>
  <td>
- <p>현재 라이선스: 기여자 이상</p>
+ <p>새 라이선스: 기여자 이상</p>
  또는
- <p>기존 라이선스: 요청 이상</p> </td>
+ <p>현재 라이선스: 요청 이상</p> </td>
  </tr>
  <tr>
  <td role="rowheader">제품*</td>

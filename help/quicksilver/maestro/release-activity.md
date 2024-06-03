@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 706495396b4cf733659e05e28e57c4626c104ef5
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
-source-wordcount: '6732'
+source-wordcount: '6799'
 ht-degree: 0%
 
 ---
@@ -17,19 +17,30 @@ ht-degree: 0%
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>이 문서의 정보는 Adobe Workfront의 새 서비스인 Adobe Workfront Planning을 참조합니다.
+>
+>현재 Workfront Planning은 제한된 수의 고객에게 개방되어 있는 초기 액세스 단계에 있습니다.
+>
+>이러한 기능을 사용하려면 Workfront 고객이어야 합니다.
+>
+>이 단계에 속해 있는 경우 계정 담당자에게 알립니다.
+>
+>자세한 내용은 [Adobe Workfront Planning 개요](/help/quicksilver/maestro/maestro-overview.md).
+>
+>경우에 따라 아래 섹션에서 참조하는 설명서는 문서화된 기능이 프로덕션에 릴리스된 후에 사용할 수 있습니다.
 
 이 문서에서는 2023년 5월 22일 Adobe Workfront Planning 프로그램 시작 이후 릴리스된 기능을 나열합니다.
 
->[!NOTE]
->
->2023년 5월과 2023년 12월 사이에 이 문서의 모든 기능이 미리보기 및 프로덕션 환경에 릴리스되었습니다. Workfront Planning은 2024년 1월부터 미리보기 및 샌드박스 환경에서 일시적으로 제거되었습니다. 이 날짜 이후 릴리스된 모든 기능은 현재 프로덕션에서 사용할 수 있습니다.
-
 릴리스된 기능은 릴리스 순서대로 나열되며 가장 최근의 기능이 먼저 릴리스됩니다. Workfront Planning 프로그램에 참여하는 고객은 프로덕션 환경의 모든 기능에 액세스할 수 있습니다.
 
->[!IMPORTANT]
->
->아래 섹션에서 참조하는 설명서는 기능이 프로덕션에 릴리스된 후 잠시 사용할 수 있습니다.
+2023년 5월과 2023년 12월 사이에 이 문서의 모든 기능이 미리보기 및 프로덕션 환경에 릴리스되었습니다.
+
+Workfront Planning은 2024년 1월부터 미리보기 및 샌드박스 환경에서 일시적으로 제거되었습니다. 이 날짜 이후 릴리스된 모든 기능은 현재 프로덕션에서 사용할 수 있습니다.
+
+
+
 
 <!--
 

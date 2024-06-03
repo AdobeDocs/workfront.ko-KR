@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -30,15 +30,24 @@ hide: yes
 
 <!--remove the video at open beta or before-->
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>이 문서의 정보는 Adobe Workfront의 새 서비스인 Adobe Workfront Planning을 참조합니다.
+>
+>현재 Workfront Planning은 제한된 수의 고객에게 개방되어 있는 초기 액세스 단계에 있습니다.
+>
+>이러한 기능을 사용하려면 Workfront 고객이어야 합니다.
+>
+>이 단계에 속해 있는 경우 계정 담당자에게 알립니다.
+>
+>자세한 내용은 [Adobe Workfront Planning 개요](/help/quicksilver/maestro/maestro-overview.md).
+>
+>경우에 따라 아래 섹션에서 참조하는 설명서는 문서화된 기능이 프로덕션에 릴리스된 후에 사용할 수 있습니다.
 
 이 페이지를 Adobe Workfront Planning과 관련된 모든 설명서의 시작점으로 사용할 수 있습니다.
 
 아래 나열된 섹션의 문서에서는 Workfront Planning을 구성하고 사용하는 방법을 설명합니다.
 
->[!IMPORTANT]
->
->아래 섹션에서 참조하는 설명서는 기능이 프로덕션에 릴리스된 후 잠시 사용할 수 있습니다.
 
 ## Adobe Workfront Planning의 일반 개요
 

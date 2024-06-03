@@ -6,7 +6,7 @@ description: 두 목표를 수동으로 정렬하거나 기존 목표의 결과�
 author: Alina
 feature: Workfront Goals
 exl-id: 48371389-952c-4732-b519-9774cd4d1b93
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 16%
@@ -37,9 +37,9 @@ ht-degree: 16%
  <tr>
  <td role="rowheader">Adobe Workfront 라이센스*</td>
  <td>
- <p>현재 라이선스: 기여자 이상</p>
+ <p>새 라이선스: 기여자 이상</p>
  또는
- <p>기존 라이선스: 요청 이상</p> <p>자세한 내용은 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront 라이선스 개요</a>.</p> </td>
+ <p>현재 라이선스: 요청 이상</p> <p>자세한 내용은 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront 라이선스 개요</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">제품*</td>

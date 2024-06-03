@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
 source-wordcount: '3274'
 ht-degree: 2%
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 <!---
 title: Create fields
-description: In Adobe Maestro, you can create custom fields for each kind of operational record type or taxonomy. You can then associate the field with Maestro records.
+description: In Adobe Workfront Planning, you can create custom fields for each kind of operational record type or taxonomy. You can then associate the field with records.
 hidefromtoc: yes
 hide: yes
 author: Alina
@@ -39,7 +39,7 @@ Adobe Workfront Planning에서 레코드 유형에 대한 사용자 정의 필�
 
 레코드 유형과 연결할 필드를 만들려면 먼저 레코드 유형을 만들어야 합니다. 자세한 내용은 [레코드 유형 만들기](../architecture/create-record-types.md).
 
-Maestro에서 다음과 같은 방법으로 필드를 만들 수 있습니다.
+Workfront Planning에서 다음과 같은 방법으로 필드를 생성할 수 있습니다.
 
 * 처음부터
 * 레코드 유형 연결
@@ -47,7 +47,7 @@ Maestro에서 다음과 같은 방법으로 필드를 만들 수 있습니다.
 * 레코드 유형 만들기
 * 템플릿으로 작업 공간 만들기
 
-Maestro 필드에 대한 자세한 내용은 [필드 개요](/help/quicksilver/maestro/fields/fields-overview.md).
+레코드 필드에 대한 자세한 내용은 [필드 개요](/help/quicksilver/maestro/fields/fields-overview.md).
 
 ## 액세스 요구 사항
 
@@ -106,7 +106,7 @@ Maestro 필드에 대한 자세한 내용은 [필드 개요](/help/quicksilver/m
 </table>
 
 
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
+<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
@@ -510,7 +510,7 @@ Maestro 필드에 대한 자세한 내용은 [필드 개요](/help/quicksilver/m
 
 ## 레코드 유형을 연결하여 필드 만들기
 
-두 Maestro 레코드 유형 또는 다른 응용 프로그램의 레코드 유형과 객체 유형 간에 새로운 연결을 추가할 때 연결된 레코드 필드를 만들 수 있습니다.
+두 레코드 형식 또는 다른 응용 프로그램의 레코드 형식과 개체 형식 간에 새 연결을 추가할 때 연결된 레코드 필드를 만들 수 있습니다.
 
 Workfront Planning 레코드 유형 연결에 대한 자세한 내용은 [레코드 유형 연결](../architecture/connect-record-types.md)
 
