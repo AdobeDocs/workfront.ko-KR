@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 1e8ea4b1f53a19a5872e39f7671b1b4e047f31d1
+source-git-commit: cbba9d21046d2bf05675cadea9ce706fbde6adc1
 workflow-type: tm+mt
-source-wordcount: '14314'
+source-wordcount: '14329'
 ht-degree: 1%
 
 ---
@@ -2046,61 +2046,62 @@ ht-degree: 1%
       * [Adobe Workfront 목표 용어 사용자 정의](workfront-goals/workfront-goals-settings/customize-wf-goals-terminology.md)
       * [Workfront 목표에서 목표 공유](workfront-goals/workfront-goals-settings/share-a-goal.md)
       * [Adobe Workfront 목표 알림 활성화](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
-* Adobe 마에스트로 {#adobe-maestro}
-   * [Adobe 마에스트로 정보](maestro/maestro-information.md)
-   * [Adobe Workfront 계획 개요](maestro/maestro-overview.md)
-   * [Adobe Workfront 계획 릴리스 활동](maestro/release-activity.md)
-   * Adobe 마에스트로 건축 {#adobe-maestro-architecture}
-      * [아키텍처: 문서 인덱스](maestro/architecture/architecture-information.md)
-      * [작업 공간 만들기](maestro/architecture/create-workspaces.md)
-      * [레코드 유형 개요](maestro/architecture/overview-of-record-types-and-taxonomies.md)
-      * [레코드 유형 만들기](maestro/architecture/create-record-types.md)
-      * [분류 레코드 유형 만들기](maestro/architecture/create-a-taxonomy.md)
-      * [레코드 유형 연결](maestro/architecture/connect-record-types.md)
-      * [레코드 유형 편집](maestro/architecture/edit-record-types.md)
-      * [작업 영역 삭제](maestro/architecture/delete-workspaces.md)
-      * [작업 영역 편집](maestro/architecture/edit-workspaces.md)
-      * [레코드 유형 삭제](maestro/architecture/delete-record-types.md)
-      * [레코드 종류 및 레코드 연결의 예](maestro/architecture/example-connect-record-types-and-records.md)
-      * [작업 공간 템플릿 목록](maestro/architecture/workspace-templates.md)
-   * Adobe 마에스트로 필드 {#adobe-maestro-fields}
-      * [필드: 문서 색인](maestro/fields/fields-information.md)
-      * [필드 개요](maestro/fields/fields-overview.md)
-      * [필드 만들기](maestro/fields/create-fields.md)
-      * [필드 편집](maestro/fields/edit-fields.md)
-      * [필드 삭제](maestro/fields/delete-fields.md)
-      * [공식 필드 개요](maestro/fields/formula-fields.md)
-   * Adobe 마에스트로 액세스 {#adobe-maestro-access}
-      * [Adobe Workfront Planning 액세스 정보: 문서 색인](maestro/access/access-information.md)
-      * [액세스 개요](maestro/access/access-overview.md)
-      * [Adobe Workfront 계획 기능의 공유 권한 개요](maestro/access/sharing-permissions-overview.md)
-      * [Adobe Workfront planning 사용 시 라이선스 유형 개요](maestro/access/license-type-overview.md)
-      * [작업 공간 공유](maestro/access/share-workspaces.md)
-      * [보기 공유](maestro/access/share-views.md)
-   * Adobe 마에스트로 레코드 {#adobe-maestro-records}
-      * [레코드: 문서 인덱스](maestro/records/records-information.md)
-      * [레코드 만들기](maestro/records/create-records.md)
-      * [기록 연결](maestro/records/connect-records.md)
-      * [레코드 편집](maestro/records/edit-records.md)
-      * [레코드 삭제](maestro/records/delete-records.md)
-      * [레코드 공유](maestro/records/share-records.md)
-      * [레코드 주석 관리](maestro/records/manage-record-comments.md)
-      * [내역 섹션 개요](maestro/records/history-section-overview.md)
-      * [레코드에 썸네일 추가](maestro/records/add-thumbnails-to-records.md)
-      * [레코드에 표지 이미지 추가](maestro/records/add-a-cover-image-to-a-record.md)
-      * [레코드 페이지 관리](maestro/records/manage-the-record-page.md)
-      * [Adobe Workfront 오브젝트의 계획 섹션에서 레코드 관리](maestro/records/manage-records-in-planning-section.md)
-   * Adobe Maestro 조회수 {#adobe-maestro-views}
-      * [보기: 문서 색인](maestro/views/views-information.md)
-      * [레코드 보기 관리](maestro/views/manage-record-views.md)
-      * [표 보기 관리](maestro/views/manage-the-table-view.md)
-      * [타임라인 보기 관리](maestro/views/manage-the-timeline-view.md)
-      * [달력 보기 관리](maestro/views/manage-the-calendar-view.md)
-   * Adobe Maestro 알림 {#adobe-maestro-notifications}
-      * [Adobe Workfront Planning 알림: 문서 색인](maestro/notifications/notifications-information.md)
-      * [Adobe Workfront Planning 알림 환경 설정 관리](maestro/notifications/manage-notification-preferences.md)
-      * [Adobe Workfront Planning 이메일 알림 관리](maestro/notifications/manage-planning-email-notifications.md)
-      * [Adobe Workfront Planning 인앱 알림 관리](maestro/notifications/manage-planning-in-app-notifications.md)
+* Adobe Workfront 계획 {#adobe-workfront-planning}
+   * [Adobe Workfront Planning: 문서 색인](planning/planning-information.md)
+   * Adobe Workfront Planning 일반 정보 {#adobe-workfront-planning-general-information}
+      * [Adobe Workfront Planning 일반 정보: 문서 색인](planning/general/planning-general-article-index.md)
+      * [Adobe Workfront Planning 개요](planning/general/planning-overview.md)
+      * [Adobe Workfront Planning 릴리스 활동](planning/general/release-activity.md)
+   * Adobe Workfront Planning 아키텍처 {#adobe-workfront-planning-architecture}
+      * [아키텍처: 문서 인덱스](planning/architecture/architecture-information.md)
+      * [작업 공간 만들기](planning/architecture/create-workspaces.md)
+      * [레코드 유형 개요](planning/architecture/overview-of-record-types.md)
+      * [레코드 유형 만들기](planning/architecture/create-record-types.md)
+      * [레코드 유형 연결](planning/architecture/connect-record-types.md)
+      * [레코드 유형 편집](planning/architecture/edit-record-types.md)
+      * [작업 영역 삭제](planning/architecture/delete-workspaces.md)
+      * [작업 영역 편집](planning/architecture/edit-workspaces.md)
+      * [레코드 유형 삭제](planning/architecture/delete-record-types.md)
+      * [레코드 종류 및 레코드 연결의 예](planning/architecture/example-connect-record-types-and-records.md)
+      * [작업 공간 템플릿 목록](planning/architecture/workspace-templates.md)
+   * Adobe Workfront Planning 필드 {#adobe-workfront-planning-fields}
+      * [필드: 문서 색인](planning/fields/fields-information.md)
+      * [필드 개요](planning/fields/fields-overview.md)
+      * [필드 만들기](planning/fields/create-fields.md)
+      * [필드 편집](planning/fields/edit-fields.md)
+      * [필드 삭제](planning/fields/delete-fields.md)
+      * [공식 필드 개요](planning/fields/formula-fields.md)
+   * Adobe Workfront Planning 액세스 {#adobe-workfront-planning-access}
+      * [Adobe Workfront Planning 액세스 정보: 문서 색인](planning/access/access-information.md)
+      * [액세스 개요](planning/access/access-overview.md)
+      * [Adobe Workfront Planning의 공유 권한 개요](planning/access/sharing-permissions-overview.md)
+      * [Adobe Workfront Planning 사용 시 라이선스 유형 개요](planning/access/license-type-overview.md)
+      * [작업 공간 공유](planning/access/share-workspaces.md)
+      * [보기 공유](planning/access/share-views.md)
+   * Adobe Workfront 계획 레코드 {#adobe-workfront-planning-records}
+      * [레코드: 문서 인덱스](planning/records/records-information.md)
+      * [레코드 만들기](planning/records/create-records.md)
+      * [기록 연결](planning/records/connect-records.md)
+      * [레코드 편집](planning/records/edit-records.md)
+      * [레코드 삭제](planning/records/delete-records.md)
+      * [레코드 공유](planning/records/share-records.md)
+      * [레코드 주석 관리](planning/records/manage-record-comments.md)
+      * [내역 섹션 개요](planning/records/history-section-overview.md)
+      * [레코드에 썸네일 추가](planning/records/add-thumbnails-to-records.md)
+      * [레코드에 표지 이미지 추가](planning/records/add-a-cover-image-to-a-record.md)
+      * [레코드 페이지 관리](planning/records/manage-the-record-page.md)
+      * [Adobe Workfront 오브젝트의 계획 섹션에서 레코드 관리](planning/records/manage-records-in-planning-section.md)
+   * Adobe Workfront Planning 보기 {#adobe-workfront-planning-views}
+      * [보기: 문서 색인](planning/views/views-information.md)
+      * [레코드 보기 관리](planning/views/manage-record-views.md)
+      * [표 보기 관리](planning/views/manage-the-table-view.md)
+      * [타임라인 보기 관리](planning/views/manage-the-timeline-view.md)
+      * [달력 보기 관리](planning/views/manage-the-calendar-view.md)
+   * Adobe Workfront Planning 알림 {#adobe-workfront-planning-notifications}
+      * [Adobe Workfront Planning 알림: 문서 색인](planning/notifications/notifications-information.md)
+      * [Adobe Workfront Planning 알림 환경 설정 관리](planning/notifications/manage-notification-preferences.md)
+      * [Adobe Workfront Planning 이메일 알림 관리](planning/notifications/manage-planning-email-notifications.md)
+      * [Adobe Workfront Planning 인앱 알림 관리](planning/notifications/manage-planning-in-app-notifications.md)
 * Adobe Workfront Fusion {#adobe-workfront-fusion}
    * [Adobe Workfront Fusion](workfront-fusion/workfront-fusion-2.md)
    * [Fusion 액세스 테이블 템플릿](/help/quicksilver/workfront-fusion/fusion-access-table-template.md)

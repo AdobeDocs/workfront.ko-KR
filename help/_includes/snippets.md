@@ -1,5 +1,5 @@
 ---
-source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
+source-git-commit: 6c50746c4c230d7f9fa2c73b66d13c8b02153b89
 workflow-type: tm+mt
 source-wordcount: '2354'
 ht-degree: 1%
@@ -243,9 +243,9 @@ Workfront 프로젝트에 있는 동안 사용자가 Experience Manager에 연�
       </tr>
       </table>
 
-<!-- Maestro -->
+<!-- Workfront Planning -->
 
-## 1단계 - Maestro 시작하기 - {#step1-to-maestro}
+## 1단계 - Maestro 시작하기 - {#step1-to-planning}
 
 1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리에서 을(를) 클릭하고 **[!UICONTROL 계획 수립]**.
 
@@ -261,7 +261,7 @@ Workfront 프로젝트에 있는 동안 사용자가 Experience Manager에 연�
 >
 >이 단계에 속해 있는 경우 계정 담당자에게 알립니다.
 >
->자세한 내용은 [Adobe Workfront Planning 개요](/help/quicksilver/maestro/maestro-overview.md).
+>자세한 내용은 [Adobe Workfront Planning 개요](/help/quicksilver/planning/general/planning-overview.md).
 
 <!-- Manage Work -->
 
