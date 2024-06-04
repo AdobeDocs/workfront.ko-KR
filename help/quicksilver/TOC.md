@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 6f97b6c5853bd5403c27276fbdab80ae51543bf2
+source-git-commit: 1e8ea4b1f53a19a5872e39f7671b1b4e047f31d1
 workflow-type: tm+mt
-source-wordcount: '14300'
+source-wordcount: '14314'
 ht-degree: 1%
 
 ---
@@ -161,6 +161,7 @@ ht-degree: 1%
          * [21.1 기타 개선 사항](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Fusion 릴리스 활동 {#fusion-release}
          * [Adobe Workfront Fusion 릴리스 활동](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+         * [Workfront Fusion 릴리스 활동: 2024년 6월 3일 주](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-6-3.md)
          * [Workfront Fusion 릴리스 활동: 2024년 5월 20일이 있는 주](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-5-20.md)
          * [Workfront Fusion 릴리스 활동: 2024년 5월 13일이 있는 주](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-5-13.md)
          * [Workfront Fusion 릴리스 활동: 2024년 5월 6일이 있는 주](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-5-6.md)
@@ -2106,6 +2107,7 @@ ht-degree: 1%
    * Adobe Workfront Fusion 시작 {#get-started-with-workfront-fusion}
       * [Adobe Workfront Fusion 시작](workfront-fusion/get-started/get-started.md)
       * [Adobe Workfront Fusion 개요](workfront-fusion/get-started/workfront-fusion-overview.md)
+      * [Workfront Fusion의 새로운 경험 탐색](workfront-fusion/get-started/new-fusion-ui.md)
       * [Adobe Workfront Fusion의 기본 용어](workfront-fusion/get-started/basic-terms.md)
       * 빌드 연습 시나리오 {#practice-scenarios-in-workfront-fusion}
          * [연습 시나리오 만들기](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-practice-scenarios.md)

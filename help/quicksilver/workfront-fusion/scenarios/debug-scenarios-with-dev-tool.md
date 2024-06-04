@@ -7,9 +7,9 @@ description: Adobe Workfront Fusion Devtool을 사용하면 시나리오를 이�
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: 7fe35f70cfc7ef346584e3cf525c2553f867ed1f
+source-git-commit: 6edcb5b826bdcf37b62396a926c923875a3a1436
 workflow-type: tm+mt
-source-wordcount: '1831'
+source-wordcount: '1858'
 ht-degree: 1%
 
 ---
@@ -73,9 +73,13 @@ Devtool 액세스는 Fusion을 사용하는지 여부에 따라 다릅니다. [!
 * [에서 Devtool에 액세스 [!DNL Adobe Unified Experience]](#access-the-devtool-in-the-adobe-unified-experience)
 * [클래식 Devtool에 액세스 [!DNL Fusion] 경험](#access-the-devtool-in-the-classic-fusion-experience)
 
-### 에서 Devtool에 액세스 [!DNL Adobe Unified Experience]
+### 에서 Devtool에 액세스 [!DNL Adobe Unified Experience] 또는 새로운 Fusion 경험
 
-Adobe 통합 쉘에서 Fusion을 사용하는 경우 시나리오 편집기에서 개발 도구에 액세스할 수 있습니다.
+Adobe 통합 쉘에서 Fusion을 사용하거나 새 Fusion 경험으로 업데이트한 경우 시나리오 편집기에서 개발 도구에 액세스할 수 있습니다.
+
+1. 다음을 클릭합니다. **도우미 도구** ![도우미 도구](assets/debugger-icon.png) 아이콘으로 표시됩니다.
+
+또는:
 
 1. 디버그하려는 시나리오의 시나리오 편집기로 이동합니다.
 

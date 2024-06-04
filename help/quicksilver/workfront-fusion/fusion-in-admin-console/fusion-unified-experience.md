@@ -7,10 +7,10 @@ description: Adobe Experience Cloud을 통해 Workfront Fusion에 액세스하�
 author: Becky
 feature: Workfront Fusion
 exl-id: ea89cf36-f08d-4f4c-b89f-4895b5947e7a
-source-git-commit: 0cb3a77c1b9b00fa886a3321c6a8d4119f58f84d
+source-git-commit: 1e8ea4b1f53a19a5872e39f7671b1b4e047f31d1
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 1%
+source-wordcount: '572'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 의 탐색을 설명하는 비디오용 [!DNL Fusion] 다음에서 [!DNL Adobe Experience Cloud]를 참조하십시오.
 
-[[!DNL Fusion] 다음에서 [!DNL Unified Shell]](https://video.tv.adobe.com/v/3412392/){target=_blank}
+[[!DNL Fusion] 다음에 있음 [!DNL Unified Shell]](https://video.tv.adobe.com/v/3412392/){target=_blank}
 
 ## 액세스 요구 사항
 
@@ -41,9 +41,7 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 라이센스**</td> 
    <td>
-   <p>현재 라이선스 요구 사항: 아니요 [!DNL Workfront Fusion] 라이센스 요구 사항.</p>
-   <p>또는</p>
-   <p>기존 라이선스 요구 사항: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p> 
+   <p>임의</p> 
   </tr> 
   <tr> 
    <td role="rowheader">제품</td> 
@@ -86,7 +84,7 @@ ht-degree: 1%
 
 사용 [!UICONTROL 메인 메뉴] 아이콘 ![](assets/main-menu-icon-left-nav.png) 의 왼쪽에 [!DNL Adobe] 탐색 모음을 사용하여 [!UICONTROL 조직] 및 [!UICONTROL 팀] 메뉴 아래의 제품에서 사용할 수 있습니다. 다음과 같은 경우 [!DNL Workfront Fusion] 관리자, [!UICONTROL 관리] 메뉴도 여기에 표시됩니다.
 
-팀을 전환하려면 페이지 상단의 팀 이름을 클릭한 다음 팀을 선택합니다. 시나리오 빌더 또는 와 같이 팀에 고유한 페이지에만 표시됩니다. [!UICONTROL 연결] 페이지를 가리키도록 업데이트하는 중입니다.
+팀을 전환하려면 페이지 상단의 팀 이름을 클릭한 다음 팀을 선택합니다. 팀 선택기는 시나리오 빌더나 [!UICONTROL 연결] 페이지를 가리키도록 업데이트하는 중입니다.
 
 조직을 전환하려면 화면 오른쪽 상단의 조직 이름을 클릭한 다음 조직을 선택합니다.
 
