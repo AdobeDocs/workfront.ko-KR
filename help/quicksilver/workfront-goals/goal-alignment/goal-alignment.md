@@ -8,7 +8,7 @@ author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: b5b0e5b2-1133-443b-8ef1-cbb1ca377fd6
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: f0f6c2bee98c6cebf8ea9e18bf34262f3c1d6e3a
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 >      
 >* 현재 플랜 및 라이선스 구조의 경우:
 >    
->   * Pro 이상 [Adobe Workfront 플랜]
+>   * Pro 이상의 Adobe Workfront 플랜
 >   * Workfront 라이선스 외에 Adobe Workfront Goals 라이선스.
 >    
 >Workfront Goals 라이선스에 대한 자세한 내용은 Workfront 계정 관리자에게 문의하십시오.

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
+source-git-commit: f0f6c2bee98c6cebf8ea9e18bf34262f3c1d6e3a
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1124'
 ht-degree: 1%
 
 ---
@@ -192,6 +192,11 @@ Adobe Workfront Planning 영역에서 레코드 유형을 선택한 후 다음 �
    이 숫자는 자동으로 생성된 증가값입니다.
 
 1. (조건부) **시작** 및 **종료 날짜** 타임라인 또는 달력 보기에 표시할 레코드입니다.
+
+   >[!TIP]
+   >
+   >    레코드 날짜 필드에서 선택하거나 연결된 레코드 또는 개체에서 날짜 필드를 조회할 수 있습니다.
+
 1. Click **Create**.
 
    보기가 새 탭으로 표시됩니다. 보기가 만들어지거나 사용자와 공유될 때부터 시간 순서대로 표시됩니다.

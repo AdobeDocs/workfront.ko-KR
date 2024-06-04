@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: f0f6c2bee98c6cebf8ea9e18bf34262f3c1d6e3a
 workflow-type: tm+mt
-source-wordcount: '6799'
+source-wordcount: '6843'
 ht-degree: 0%
 
 ---
@@ -123,6 +123,12 @@ UNIQUE 연산자는 다음을 제외한 모든 필드 유형에 사용할 수 �
 삭제된 작업 공간 및 해당 정보는 복구할 수 없습니다.
 
 자세한 내용은 [작업 영역 삭제](/help/quicksilver/maestro/architecture/delete-workspaces.md).
+
+### 이제 조회 날짜 필드를 타임라인 보기에서 사용할 수 있습니다.
+
+이제 연결된 레코드 또는 개체 유형에서 타임라인 보기의 시작 및 종료 날짜를 조회 필드로 설정할 수 있습니다.
+
+보기 만들기에 대한 자세한 내용은 [레코드 보기 관리](/help/quicksilver/maestro/views/manage-record-views.md).
 
 ## 2024년 5월 20일 주
 
