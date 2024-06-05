@@ -6,16 +6,17 @@ title: Workfront Fusion의 새 UI 탐색
 description: Workfront Fusion은 Adobe Experience Cloud을 통해 Fusion에 액세스하지 않는 사용자를 위해 UI를 업데이트했습니다. 이제 그들의 경험은 Adobe Experience Cloud의 Fusion과 더 밀접하게 일치합니다.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 1e8ea4b1f53a19a5872e39f7671b1b4e047f31d1
+exl-id: 2887a0e2-039e-4e29-823d-82809f217045
+source-git-commit: 2a33e997113e098d0e019c2437795ac481748fc9
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
 
 # Workfront Fusion의 새로운 경험 탐색
 
-Workfront Fusion은 Adobe Experience Cloud을 통해 Fusion에 액세스하지 않는 사용자를 위해 업데이트되었습니다. 새로운 Fusion UI는 다른 Adobe 제품과 더 원활한 경험을 제공합니다.
+Workfront Fusion은 Adobe Experience Cloud을 통해 Fusion에 액세스하지 않는 사용자를 위해 업데이트되었습니다. 새로운 Fusion UI는 다른 Adobe 제품과의 보다 원활한 경험을 제공하고 사용자의 Adobe Experience Cloud 전환을 원활하게 해 줍니다.
 
 >[!IMPORTANT]
 >
