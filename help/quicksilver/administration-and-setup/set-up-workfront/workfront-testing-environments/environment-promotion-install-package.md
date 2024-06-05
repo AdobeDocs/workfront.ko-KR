@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: 66b9fc84c18bce2d0cecee9368a125570c822a54
+source-git-commit: e03573640fd8af9c811cef4cf176cc4f37d757fc
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '808'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,12 @@ ht-degree: 0%
 # 환경 프로모션 패키지 설치
 
 패키지를 만든 후에는 다른 환경에 설치할 수 있습니다.
+
+개체를 복사할 환경에 패키지를 설치해야 합니다 **끝**. 예를 들어 사용자 정의 샌드박스 새로 고침 환경에서 프로젝트를 구성하고 프로덕션 환경으로 승격하는 경우 프로덕션 환경에 패키지를 설치해야 합니다.
+
+>[!IMPORTANT]
+>
+>환경 프로모션을 위해 오브젝트를 구성하는 동안 사용자 정의 새로 고침 샌드박스를 새로 고치면 해당 구성이 새로 고침에서 손실됩니다. 미해결 환경 프로모션 개체 및 패키지가 모두 성공적으로 프로모션되지 않는 한 사용자 정의 샌드박스 새로 고침을 새로 고치지 않는 것이 좋습니다.
 
 ## 전제 조건
 

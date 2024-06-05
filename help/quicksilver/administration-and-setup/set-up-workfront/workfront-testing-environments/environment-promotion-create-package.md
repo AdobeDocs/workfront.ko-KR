@@ -12,14 +12,20 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: 6497bfa1bf8236baaf4beee38078426b754e1241
+source-git-commit: e03573640fd8af9c811cef4cf176cc4f37d757fc
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
 
 # 환경 프로모션 패키지 만들기 또는 편집
+
+개체를 복사할 환경에서 패키지를 만들어야 합니다 **출처:**. 예를 들어 사용자 정의 새로 고침 샌드박스 환경에서 프로젝트를 구성하고 프로덕션 환경으로 승격하는 경우 사용자 정의 새로 고침 샌드박스 환경에서 패키지를 생성해야 합니다.
+
+>[!IMPORTANT]
+>
+>환경 프로모션을 위해 오브젝트를 구성하는 동안 사용자 정의 새로 고침 샌드박스를 새로 고치면 해당 구성이 새로 고침에서 손실됩니다. 미해결 환경 프로모션 개체 및 패키지가 모두 성공적으로 프로모션되지 않는 한 사용자 정의 샌드박스 새로 고침을 새로 고치지 않는 것이 좋습니다.
 
 ## 패키지 만들기
 
