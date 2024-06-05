@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: 508e3c786bc6cfe676fb2cb33080c99b76c3d6a0
+source-git-commit: 91371c862be6f3b99f0450ff359f601dc913dc0c
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '532'
 ht-degree: 1%
 
 ---
@@ -37,6 +37,9 @@ Workfront 데이터 레이크 데이터를 외부 제품과 연결하려면에 �
 >[!IMPORTANT]
 >
 >한 항목이 IP 허용 목록에 추가되면 다른 모든 IP 주소는 더 이상 허용되지 않습니다. 시각화 도구를 사용하기 전에 시각화 도구의 작성 및 읽기 경험에 필요한 모든 IP 주소를 입력해야 합니다. 그렇지 않은 경우 잘못된 자격 증명에 대한 오류가 발생할 수 있습니다.
+>
+>허용 목록에 추가하다에 IP 주소가 포함되어 있지 않지만 BI 도구에 연결하는 데 여전히 문제가 있는 경우 BI 도구에 대한 프록시 서버 구성을 확인하십시오.
+
 
 ## 허용 목록에 추가하다에 IP 추가
 

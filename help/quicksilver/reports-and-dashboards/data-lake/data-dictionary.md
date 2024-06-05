@@ -8,7 +8,7 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
+source-git-commit: 91371c862be6f3b99f0450ff359f601dc913dc0c
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 7%
@@ -70,42 +70,42 @@ Workfront의 개체(및 따라서 데이터 레이크)는 개별 값뿐만 아�
     <td>할당</td>
     <td>할당</td>
     <td>ASSIGN | 할당</td>
-    <td>ASSIGNMENTS_CURRENT<br>     ASSIGNMENTS_DAILY_HISTORY<br>     ASSIGNMENTS_EVENT</td>
+    <td>ASSIGNMENTS_CURRENT<br>ASSIGNMENTS_DAILY_HISTORY<br>ASSIGNMENTS_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>CustomEnum</td>
     <td>상태, 우선 순위, 심각도, 상태</td>
     <td>CSTEM | 사용자 정의 열거형</td>
-    <td>CUSTOMENUMS_CURRENT<br>     CUSTOMENUMS_DAILY_HISTORY<br>     CUSTOMENUMS_EVENT</td>
-    <td>레코드 유형은 'enumClass' 속성을 통해 식별됩니다. 예상 유형은 다음과 같습니다.<br>     CONDITION_OPTASK<br>     CONDITION_PROJ<br>     CONDITION_TASK<br>     PRIORITY_OPTASK<br>     PRIORITY_PROJECT<br>     PRIORITY_TASK<br>     SEVERITY_OPTASK<br>     STATUS_OPTASK<br>     STATUS_PROJECT<br>     STATUS_TASK</td>
+    <td>CUSTOMENUMS_CURRENT<br>CUSTOMENUMS_DAILY_HISTORY<br>CUSTOMENUMS_EVENT</td>
+    <td>레코드 유형은 'enumClass' 속성을 통해 식별됩니다. 예상 유형은 다음과 같습니다.<br>CONDITION_OPTASK<br>CONDITION_PROJ<br>CONDITION_TASK<br>PRIORITY_OPTASK<br>PRIORITY_PROJECT<br>PRIORITY_TASK<br>SEVERITY_OPTASK<br>STATUS_OPTASK<br>STATUS_PROJECT<br>STATUS_TASK</td>
   </tr>
   <tr>
     <td>문서</td>
     <td>문서</td>
     <td>도쿠 | 문서</td>
-    <td>DOCUMENTS_CURRENT<br>     DOCUMENTS_DAILY_HISTORY<br>     문서 이벤트<br>     <br>     DOCUMENTS_CUSTOM_VALUE_CURRENT<br>     DOCUMENTS_CUSTOM_VALUE_DAILY_HISTORY<br>     DOCUMENTS_CUSTOM_VALUE_EVENT</td>
+    <td>DOCUMENTS_CURRENT<br>DOCUMENTS_DAILY_HISTORY<br>문서 이벤트<br><br>DOCUMENTS_CUSTOM_VALUE_CURRENT<br>DOCUMENTS_CUSTOM_VALUE_DAILY_HISTORY<br>DOCUMENTS_CUSTOM_VALUE_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>DocumentVersion</td>
     <td>문서 버전</td>
     <td>DOCV | 문서 버전</td>
-    <td>DOCUMENTVERSIONS_CURRENT<br>     DOCUMENTVERSIONS_DAILY_HISTORY<br>     DOCUMENTVERSIONS_EVENT</td>
+    <td>DOCUMENTVERSIONS_CURRENT<br>DOCUMENTVERSIONS_DAILY_HISTORY<br>DOCUMENTVERSIONS_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>그룹</td>
     <td>그룹</td>
     <td>그룹 | 그룹</td>
-    <td>GROUPS_CURRENT<br>     GROUPS_DAILY_HISTORY<br>     GROUPS_EVENT</td>
+    <td>GROUPS_CURRENT<br>GROUPS_DAILY_HISTORY<br>GROUPS_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>시간</td>
     <td>시간</td>
     <td>시간 | 시간</td>
-    <td>HOURS_CURRENT<br>     HOURS_DAILY_HISTORY<br>     HOURS_EVENT</td>
+    <td>HOURS_CURRENT<br>HOURS_DAILY_HISTORY<br>HOURS_EVENT</td>
     <td></td>
   </tr>
   <tr>
@@ -119,91 +119,91 @@ Workfront의 개체(및 따라서 데이터 레이크)는 개별 값뿐만 아�
     <td>마일스톤</td>
     <td>마일스톤</td>
     <td>마일 | 마일스톤</td>
-    <td>마일스톤_현재<br>     마일스톤_일별_내역<br>     마일스톤_이벤트</td>
+    <td>마일스톤_현재<br>마일스톤_일별_내역<br>마일스톤_이벤트</td>
     <td></td>
   </tr>
   <tr>
     <td>마일스톤 경로</td>
     <td>마일스톤 경로</td>
     <td>MPATH | 마일스톤 경로</td>
-    <td>MILESTONEPATHS_CURRENT<br>     마일스톤 경로_일별_내역<br>     MILESTONEPATHS_EVENT</td>
+    <td>MILESTONEPATHS_CURRENT<br>마일스톤 경로_일별_내역<br>MILESTONEPATHS_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>참고</td>
     <td>참고</td>
     <td>참고 | 참고</td>
-    <td>NOTES_CURRENT<br>     NOTES_DAILY_HISTORY<br>     NOTES_EVENT</td>
+    <td>NOTES_CURRENT<br>NOTES_DAILY_HISTORY<br>NOTES_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>OpTask</td>
     <td>문제, 요청</td>
     <td>OPTASK | 문제</td>
-    <td>OPTASKS_CURRENT<br>     OPTASKS_DAILY_HISTORY<br>     OPTASKS_EVENT<br>     <br>     OPTASKS_CUSTOM_VALUE_CURRENT<br>     OPTASKS_CUSTOM_VALUE_DAILY_HISTORY<br>     OPTASKS_CUSTOM_VALUE_EVENT</td>
+    <td>OPTASKS_CURRENT<br>OPTASKS_DAILY_HISTORY<br>OPTASKS_EVENT<br><br>OPTASKS_CUSTOM_VALUE_CURRENT<br>OPTASKS_CUSTOM_VALUE_DAILY_HISTORY<br>OPTASKS_CUSTOM_VALUE_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>Portfolio</td>
     <td>Portfolio</td>
     <td>포트 | Portfolio</td>
-    <td>PORTFOLIO_현재<br>     PORTFOLIO_DAILY_HISTORY<br>     PORTFOLIO 이벤트<br>     <br>     PORTFOLIO_CUSTOM_VALUE_CURRENT<br>     PORTFOLIO_사용자 정의_값_일별_내역<br>     PORTFOLIO_CUSTOM_VALUE_EVENT</td>
+    <td>PORTFOLIO_현재<br>PORTFOLIO_DAILY_HISTORY<br>PORTFOLIO 이벤트<br><br>PORTFOLIO_CUSTOM_VALUE_CURRENT<br>PORTFOLIO_사용자 정의_값_일별_내역<br>PORTFOLIO_CUSTOM_VALUE_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>프로그램</td>
     <td>프로그램</td>
     <td>PRGM | 프로그램</td>
-    <td>PROGRAMS_CURRENT<br>     PROGRAMS_DAILY_HISTORY<br>     PROGRAMS_EVENT<br>     <br>     PROGRAMS_CUSTOM_VALUE_CURRENT<br>     PROGRAMS_CUSTOM_VALUE_DAILY_HISTORY<br>     PROGRAMS_CUSTOM_VALUE_EVENT</td>
+    <td>PROGRAMS_CURRENT<br>PROGRAMS_DAILY_HISTORY<br>PROGRAMS_EVENT<br><br>PROGRAMS_CUSTOM_VALUE_CURRENT<br>PROGRAMS_CUSTOM_VALUE_DAILY_HISTORY<br>PROGRAMS_CUSTOM_VALUE_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>프로젝트</td>
     <td>프로젝트</td>
     <td>프로젝트 | 프로젝트</td>
-    <td>PROJECTS_CURRENT<br>     PROJECTS_DAILY_HISTORY<br>     프로젝트_이벤트<br>     <br>     PROJECTS_CUSTOM_VALUE_CURRENT<br>     PROJECTS_CUSTOM_VALUE_DAILY_HISTORY<br>     PROJECTS_CUSTOM_VALUE_EVENT</td>
+    <td>PROJECTS_CURRENT<br>PROJECTS_DAILY_HISTORY<br>프로젝트_이벤트<br><br>PROJECTS_CUSTOM_VALUE_CURRENT<br>PROJECTS_CUSTOM_VALUE_DAILY_HISTORY<br>PROJECTS_CUSTOM_VALUE_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>역할</td>
     <td>작업 역할</td>
     <td>역할 | 작업 역할</td>
-    <td>ROLES_CURRENT<br>     ROLES_DAILY_HISTORY<br>     ROLES_EVENT</td>
+    <td>ROLES_CURRENT<br>ROLES_DAILY_HISTORY<br>ROLES_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>예약</td>
     <td>예약</td>
     <td>일정 조정됨 | 예약</td>
-    <td>SCHEDULES_CURRENT<br>     SCHEDULES_DAILY_HISTORY<br>     SCHEDULES_EVENT</td>
+    <td>SCHEDULES_CURRENT<br>SCHEDULES_DAILY_HISTORY<br>SCHEDULES_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>작업</td>
     <td>작업</td>
     <td>작업 | 작업</td>
-    <td>TASKS_CURRENT<br>     TASKS_DAILY_HISTORY<br>     TASKS_EVENT<br>     <br>     TASKS_CUSTOM_VALUE_CURRENT<br>     TASKS_CUSTOM_VALUE_DAILY_HISTORY<br>     TASKS_CUSTOM_VALUE_EVENT</td>
+    <td>TASKS_CURRENT<br>TASKS_DAILY_HISTORY<br>TASKS_EVENT<br><br>TASKS_CUSTOM_VALUE_CURRENT<br>TASKS_CUSTOM_VALUE_DAILY_HISTORY<br>TASKS_CUSTOM_VALUE_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>팀</td>
     <td>팀</td>
     <td>TEAOB | 팀</td>
-    <td>TEAMS_CURRENT<br>     TEAMS_DAILY_HISTORY<br>     TEAMS_EVENT</td>
+    <td>TEAMS_CURRENT<br>TEAMS_DAILY_HISTORY<br>TEAMS_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>타임시트</td>
     <td>타임시트</td>
     <td>체트 | 타임시트</td>
-    <td>TIMESHEETS_CURRENT<br>     TIMESHEETS_DAILY_HISTORY<br>     TIMESHEETS_EVENT</td>
+    <td>TIMESHEETS_CURRENT<br>TIMESHEETS_DAILY_HISTORY<br>TIMESHEETS_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>사용자</td>
     <td>사용자</td>
     <td>사용자 | 사용자</td>
-    <td>USERS_CURRENT<br>     USERS_DAILY_HISTORY<br>     USERS_EVENT<br>     <br>     USERS_CUSTOM_VALUE_CURRENT<br>     USERS_CUSTOM_VALUE_DAILY_HISTORY<br>     USERS_CUSTOM_VALUE_EVENT</td>
+    <td>USERS_CURRENT<br>USERS_DAILY_HISTORY<br>USERS_EVENT<br><br>USERS_CUSTOM_VALUE_CURRENT<br>USERS_CUSTOM_VALUE_DAILY_HISTORY<br>USERS_CUSTOM_VALUE_EVENT</td>
     <td></td>
   </tr>
 </tbody>
