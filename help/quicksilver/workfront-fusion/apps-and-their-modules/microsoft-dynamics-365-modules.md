@@ -9,9 +9,9 @@ description: 다음에서 [!DNL Adobe Workfront Fusion] 시나리오에서는 Mi
 author: Becky
 feature: Workfront Fusion
 exl-id: 116df088-20a7-40a8-8880-9f422dc37632
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 46c282062ed737be860aeb4af96ac5f5efe9360d
 workflow-type: tm+mt
-source-wordcount: '1589'
+source-wordcount: '1633'
 ht-degree: 0%
 
 ---
@@ -186,9 +186,13 @@ ht-degree: 0%
    <td role="rowheader">[!UICONTROL 엔티티 유형]</td> 
    <td>모듈에서 만들 엔티티 유형을 선택합니다.</td> 
   </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 매핑할 필드 선택]</td> 
+   <td>레코드를 만들 때 값을 포함할 필드를 선택합니다. 사용 가능한 필드는 엔티티 유형에 따라 다릅니다.</td> 
+  </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL 속성 필드]</td> 
-   <td>이 필드에 주어진 속성에 대해 작업 항목에 지정할 값을 입력합니다. 사용 가능한 필드는 엔티티 유형에 따라 다릅니다.</td> 
+   <td> 선택한 필드입니다. 주어진 속성에 대해 레코드에 보유할 값을 입력합니다. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -321,9 +325,13 @@ ht-degree: 0%
    <td role="rowheader">[!UICONTROL 엔티티 유형]</td> 
    <td>모듈을 업데이트할 엔티티 유형을 선택합니다.</td> 
   </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 매핑할 필드 선택]</td> 
+   <td>레코드를 만들 때 값을 포함할 필드를 선택합니다. 사용 가능한 필드는 엔티티 유형에 따라 다릅니다.</td> 
+  </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL 속성 필드]</td> 
-   <td>이 필드에 주어진 속성에 대해 작업 항목에 지정할 값을 입력합니다. 사용 가능한 필드는 엔티티 유형에 따라 다릅니다.</td> 
+   <td>선택된 필드입니다. 주어진 속성에 대해 레코드에 보유할 값을 입력합니다.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL ID]</td> 
