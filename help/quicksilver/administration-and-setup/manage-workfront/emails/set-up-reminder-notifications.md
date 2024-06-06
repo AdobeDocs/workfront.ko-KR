@@ -1,13 +1,13 @@
 ---
 title: 미리 알림 설정
-description: 미리 알림 설정
+description: 미리 알림 은 지정된 기준에 따라 사용자에게 전송되는 이메일을 생성합니다. 미리 알림 은 사용자에게 작업, 문제, 프로젝트 또는 타임시트에 대해 수행해야 하는 작업을 알려줍니다.
 author: Alina, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
+source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1215'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,11 @@ ht-degree: 2%
 
 <!-- Audited: 1/2024 -->
 
-미리 알림 은 지정된 기준에 따라 수신자에게 이메일을 전송합니다. 미리 알림을 프로젝트, 작업, 문제 및 타임시트와 같은 작업 항목과 수동으로 연결할 수 있습니다.
+Workfront 관리자는 사용자를 위한 미리 알림을 만들고 사용자가 특별히 주의를 기울여야 하는 오브젝트와 연결할 수 있습니다.
+
+미리 알림 은 지정된 기준에 따라 사용자에게 전송되는 이메일을 생성합니다. 미리 알림 은 사용자에게 작업, 문제, 프로젝트 또는 타임시트에 대해 수행해야 하는 작업을 알려줍니다.
+
+미리 알림을 만든 후 사용자는 이를 프로젝트, 작업, 문제 및 타임시트와 같은 작업 항목에 수동으로 연결할 수 있습니다. 자세한 내용은 [객체에 미리 알림 첨부](/help/quicksilver/workfront-basics/using-notifications/attach-reminder-notification-object.md).
 
 <!--
 DRAFTED IN FLARE:
@@ -36,7 +40,7 @@ An example of how this can be used would be helpful here and/or in the section <
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td role="rowheader">Adobe Workfront 플랜*</td> 
    <td>임의</td> 
   </tr> 
   <tr> 
@@ -53,7 +57,7 @@ An example of how this can be used would be helpful here and/or in the section <
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 미리 알림 이메일 사용자 지정
 
@@ -126,7 +130,18 @@ An example of how this can be used would be helpful here and/or in the section <
      </tr> 
      <tr> 
       <td role="rowheader">수신자</td> 
-      <td>알림을 수신할 사용자 유형을 선택합니다. 소유자, 승인자 또는 할당자와 같은 다양한 객체 관련자 중에서 선택합니다.</td> 
+      <td><p>미리 알림이 사용되는 객체에 따라 알림을 받을 다음 사용자 유형 중에서 선택합니다.</p>
+      <ul>
+      <li>할당 대상</li>
+      <li>작성자</li>
+      <li>프로젝트 팀(프로젝트 팀의 모든 사용자가 미리 알림을 받음)</li>
+      <li>종속 작업 할당자(종속 작업에 할당된 사용자가 미리 알림을 받음)</li>
+      <li>프로젝트 소유자</li>
+      <li>할당 대상(작업 또는 문제에 할당된 사용자가 미리 알림을 받음)</li>
+      <li>타임시트 소유자</li>
+      <li>타임시트 승인자</li>
+      <li>타임시트 소유자의 관리자</li></ul>
+      </td> 
      </tr> 
     </tbody> 
    </table>

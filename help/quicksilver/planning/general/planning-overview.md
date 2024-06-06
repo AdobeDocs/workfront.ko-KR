@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 6c50746c4c230d7f9fa2c73b66d13c8b02153b89
+source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
 workflow-type: tm+mt
-source-wordcount: '1843'
-ht-degree: 2%
+source-wordcount: '1875'
+ht-degree: 1%
 
 ---
 
@@ -283,23 +283,35 @@ Workfront Planning을 찾으려면 다음을 수행합니다.
 
    작업공간(Workspaces) 영역이 열립니다.
 
+   <!--replace above with: The Workfront Planning landing page opens. 
+    ![](assets/planning-landing-page-admin.png)
+    1. (Conditional and optional) If you are a Workfront administrator, click one of the following tabs:
+    * **My workspaces**: Displays workspaces you created or workspaces that are shared with you.
+    * **Other workspaces**: Displays all workspaces in the system.
+    Otherwise, all workspaces display in the **Workspaces** area.-->
+
 1. (선택 사항 및 권장) 다음 작업 중 일부를 계속하여 작업 구조를 빌드합니다.
 
-   1. 처음부터 작업공간을 작성하거나 템플릿을 사용합니다.
+   1. 처음부터 작업공간을 작성하거나 템플릿을 사용합니다. 자세한 내용은 [작업 공간 만들기](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-   1. 새 작업 영역에 섹션을 추가합니다.
+   1. 새 작업 영역에 섹션을 추가합니다. 자세한 내용은 [작업 영역 편집](/help/quicksilver/planning/architecture/edit-workspaces.md).
    1. 새 작업 영역에서 기존 섹션의 이름을 바꿉니다.
-   1. 새 작업 영역에 레코드 유형을 추가합니다.
+   1. 새 작업 영역에 레코드 유형을 추가합니다. 자세한 내용은 [레코드 유형 만들기](/help/quicksilver/planning/architecture/create-record-types.md).
 
    1. 레코드 유형의 이름을 클릭하여 레코드 유형의 페이지를 엽니다. 레코드 유형 페이지는 기본적으로 테이블 뷰에 열립니다.
 
-      타임라인 또는 달력 보기를 만들 수도 있습니다.
+      타임라인 또는 달력 보기를 만들 수도 있습니다. 자세한 내용은 [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md).
 
    1. 테이블 보기에서 행을 추가하여 레코드 추가를 시작합니다
 
       또는
 
       열을 추가하여 레코드 필드 추가를 시작합니다.
+
+      자세한 내용은 다음 문서를 참조하십시오.
+
+      * [레코드 만들기](/help/quicksilver/planning/records/create-records.md)
+      * [필드 만들기](/help/quicksilver/planning/fields/create-fields.md).
 
 ## Adobe Workfront Planning 릴리스 활동
 

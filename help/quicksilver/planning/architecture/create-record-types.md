@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
 workflow-type: tm+mt
-source-wordcount: '1258'
+source-wordcount: '1244'
 ht-degree: 1%
 
 ---
@@ -135,8 +135,6 @@ Workfront Planning 템플릿을 사용하여 작업 공간을 만들 때 레코�
 
 {{step1-to-planning}}
 
-기본적으로 마지막으로 액세스한 작업 영역이 열립니다.
-
 1. (선택 사항) 기존 작업 영역 이름의 오른쪽에 있는 아래쪽 방향 화살표를 확장하고 레코드 유형을 만들 작업 영역을 선택합니다.
 1. (선택 사항) **섹션 추가** 작업공간에 새 섹션을 추가합니다.
 1. 클릭 **레코드 유형 추가**.
@@ -223,8 +221,6 @@ Excel 또는 CSV 파일을 사용하여 레코드 유형을 가져올 때는 다
 Excel 파일을 사용하여 레코드 유형을 가져오려면 다음을 수행합니다.
 
 {{step1-to-planning}}
-
-기본적으로 마지막으로 액세스한 작업 영역이 열립니다.
 
 1. (선택 사항) 기존 작업 영역 이름의 오른쪽에 있는 아래쪽 방향 화살표를 확장하고 레코드 유형을 만들 작업 영역을 선택합니다.
 1. 클릭 **레코드 유형 추가**.

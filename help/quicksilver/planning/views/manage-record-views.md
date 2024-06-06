@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: cbba9d21046d2bf05675cadea9ce706fbde6adc1
+source-git-commit: a923d86f78e6dab4705289a8165c4b31ff68b5a2
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1083'
 ht-degree: 1%
 
 ---
@@ -172,14 +172,12 @@ Adobe Workfront Planning 영역에서 레코드 유형을 선택한 후 다음 �
 >
 >레코드 유형을 만들면 기본적으로 테이블 뷰도 만들어집니다.
 >
->타임라인 또는 달력 보기를 만들려면 보기를 만드는 레코드 종류에는 최소 두 개 이상의 날짜 필드가 있어야 합니다. 그렇지 않으면 [타임라인] 및 [달력] 옵션이 흐리게 표시됩니다.
+>타임라인 또는 달력 보기를 만들려면 보기를 만드는 레코드 종류에는 최소 두 개 이상의 날짜 필드가 있어야 합니다.
+>
+>그렇지 않으면 [타임라인] 및 [달력] 옵션이 흐리게 표시됩니다.
 >
 
 ![](assets/view-types-drop-down-from-record-type-list.png)
-
->[!NOTE]
->
->    타임라인 또는 달력 보기를 만들려면 보기를 만드는 레코드 종류에는 최소 두 개 이상의 날짜 필드가 있어야 합니다. 그렇지 않으면 타임라인 또는 달력 옵션이 흐리게 표시됩니다.
 
 1. (조건부) 클릭 **다음**&#x200B;을 사용하여 타임라인 또는 달력 보기를 만들 수 있습니다.
 
@@ -195,7 +193,7 @@ Adobe Workfront Planning 영역에서 레코드 유형을 선택한 후 다음 �
 
    >[!TIP]
    >
-   >    레코드 날짜 필드에서 선택하거나 연결된 레코드 또는 개체에서 날짜 필드를 조회할 수 있습니다.
+   >    레코드 날짜 필드에서 선택하거나 연결된 레코드 또는 개체 유형에서 날짜 필드를 조회할 수 있습니다.
 
 1. Click **Create**.
 
