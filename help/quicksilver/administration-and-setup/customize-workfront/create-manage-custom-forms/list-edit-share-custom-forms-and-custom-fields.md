@@ -4,9 +4,9 @@ description: 조직의 사용자 정의 양식 목록과 여기에 추가된 사
 author: Caroline
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 55b659dc4d24856d835f901b22b937e5bcbfe657
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Adobe Workfront 플랜*</p> </td> 
-   <td>모든</td> 
+   <td>임의</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
@@ -75,7 +75,7 @@ ht-degree: 0%
 
    목록에서 항목을 선택할 때 수행할 수 있는 작업에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
-   * [사용자 정의 양식에서 사용자 정의 필드, 섹션 구분 또는 위젯의 속성 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
+   * [사용자 정의 필드, 섹션 구분 또는 위젯 추가 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
    * [사용자 정의 필드 및 위젯에 대한 공유 구성](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)
    * [시스템에서 사용자 정의 필드 또는 위젯 삭제](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
 

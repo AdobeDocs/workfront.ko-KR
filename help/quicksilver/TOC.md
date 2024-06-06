@@ -3,7 +3,7 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: cbba9d21046d2bf05675cadea9ce706fbde6adc1
+source-git-commit: bfc4586d8e277e8fc7855edf3c04631ec8d09436
 workflow-type: tm+mt
 source-wordcount: '14329'
 ht-degree: 1%
@@ -624,7 +624,7 @@ ht-degree: 1%
             * [사용자 정의 필드 또는 위젯을 사용하는 보고서 보기](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md)
             * [사용자 정의 필드 또는 위젯을 사용하는 사용자 정의 양식 보기](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md)
             * [개체를 변환할 때 사용자 정의 양식 데이터 전송](administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md)
-            * [사용자 정의 필드, 섹션 구분 또는 위젯의 속성 편집](administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
+            * [사용자 정의 필드, 섹션 구분 또는 위젯 추가 또는 편집](administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
             * [시스템에서 사용자 정의 필드 또는 위젯 삭제](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
             * [사용자 정의 양식 삭제](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
             * [API의 리치 텍스트 필드 스토리지](administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)

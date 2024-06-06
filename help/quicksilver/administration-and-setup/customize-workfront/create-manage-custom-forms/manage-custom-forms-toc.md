@@ -8,7 +8,7 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b15e5a75-1675-48d2-9c88-e7def24ac550
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 55b659dc4d24856d835f901b22b937e5bcbfe657
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 * [사용자 정의 필드 또는 위젯을 사용하는 보고서 보기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md)
 * [사용자 정의 필드 또는 위젯을 사용하는 사용자 정의 양식 보기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md)
 * [개체를 변환할 때 사용자 정의 양식 데이터 전송](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md)
-* [사용자 정의 필드, 섹션 구분 또는 위젯의 속성 편집](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
+* [사용자 정의 필드, 섹션 구분 또는 위젯 추가 또는 편집](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
 * [시스템에서 사용자 정의 필드 또는 위젯 삭제](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
 * [사용자 정의 양식 삭제](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
 * [API의 리치 텍스트 필드 스토리지](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)
