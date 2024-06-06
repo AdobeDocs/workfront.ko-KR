@@ -9,9 +9,9 @@ description: 다음에서 [!DNL Adobe Workfront Fusion] 시나리오에서는 Mi
 author: Becky
 feature: Workfront Fusion
 exl-id: 814c285e-c106-458a-a0b1-760677634f4f
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
 workflow-type: tm+mt
-source-wordcount: '1883'
+source-wordcount: '1999'
 ht-degree: 0%
 
 ---
@@ -69,6 +69,16 @@ Office 365 계정 연결에 대한 자세한 내용 [!DNL Workfront Fusion], 참
 
 사용 [!DNL Microsoft Office 365 Calendar] 모듈, 다음이 있어야 합니다. [!DNL Microsoft Office 365 Calendar] 계정입니다.
 
+## 연결 중 [!DNL Office 365 Calendar] 서비스 대상 [!DNL Workfront Fusion]
+
+연결에 대한 자세한 내용 [!DNL Office 365 Calendar] 계정 위치: [!UICONTROL Workfront Fusion], 참조 [에 대한 연결 만들기 [!UICONTROL Adobe Workfront Fusion] - 기본 지침](../../workfront-fusion/connections/connect-to-fusion-general.md)
+
+>[!NOTE]
+>
+>일부 Microsoft 앱은 개별 사용자 권한에 연결된 동일한 연결을 사용합니다. 따라서 연결을 만들 때 권한 동의 화면에는 현재 애플리케이션에 필요한 새 권한 외에도 이 사용자의 연결에 대해 이전에 부여된 모든 권한이 표시됩니다.
+>
+>예를 들어 사용자가 Excel 커넥터를 통해 부여된 &quot;테이블 읽기&quot; 권한을 가지고 있는 다음 Outlook 커넥터에서 연결을 만들어 이메일을 읽은 경우 권한 동의 화면에 이미 부여된 &quot;테이블 읽기&quot; 권한과 새로 필요한 &quot;이메일 쓰기&quot; 권한이 모두 표시됩니다.
+
 ## [!DNL Microsoft Office 365 Calendar] 모듈 및 해당 필드
 
 를 구성할 때 [!DNL Microsoft Office 365 Calendar] 모듈, [!DNL Workfront Fusion] 아래 나열된 필드를 표시합니다. 이와 함께 추가 [!DNL Microsoft Office 365 Calendar] 앱이나 서비스의 액세스 수준 등에 따라 필드가 표시될 수 있습니다. 모듈의 굵은 제목은 필수 필드를 나타냅니다.
@@ -77,11 +87,11 @@ Office 365 계정 연결에 대한 자세한 내용 [!DNL Workfront Fusion], 참
 
 ![](assets/map-toggle-350x74.png)
 
-* [Event](#event)
+* [이벤트](#event)
 * [캘린더](#calendar)
 * [기타](#other)
 
-### Event
+### 이벤트
 
 * [[!UICONTROL 이벤트 보기]](#watch-events)
 * [[!UICONTROL 이벤트 검색]](#search-events)

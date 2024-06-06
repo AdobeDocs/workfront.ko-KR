@@ -9,9 +9,9 @@ description: 다음에서 [!DNL Adobe Workfront Fusion] 시나리오에서는 �
 author: Becky
 feature: Workfront Fusion
 exl-id: b7175cb9-aade-49b7-a28b-25fc9805a078
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1201'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,18 @@ ht-degree: 0%
 사용 [!DNL Microsoft OneDrive for Business] 포함 [!DNL Adobe Workfront Fusion], 다음이 필요합니다. [!DNL Microsoft] 계정입니다.
 
 연결에 대한 자세한 내용 [!DNL OneDrive for Business] 계정 위치: [!DNL Workfront Fusion], 참조 [Adobe에 대한 연결 만들기 [!DNL Workfront Fusion] - 기본 지침](../../workfront-fusion/connections/connect-to-fusion-general.md)
+
+
+
+## 연결 중 [!DNL Microsoft OneDrive for Business] 서비스 대상 [!DNL Workfront Fusion]
+
+연결에 대한 자세한 내용 [!DNL Microsoft OneDrive for Business] 계정 위치: [!UICONTROL Workfront Fusion], 참조 [에 대한 연결 만들기 [!UICONTROL Adobe Workfront Fusion] - 기본 지침](../../workfront-fusion/connections/connect-to-fusion-general.md)
+
+>[!NOTE]
+>
+>일부 Microsoft 앱은 개별 사용자 권한에 연결된 동일한 연결을 사용합니다. 따라서 연결을 만들 때 권한 동의 화면에는 현재 애플리케이션에 필요한 새 권한 외에도 이 사용자의 연결에 대해 이전에 부여된 모든 권한이 표시됩니다.
+>
+>예를 들어 사용자가 Excel 커넥터를 통해 부여된 &quot;테이블 읽기&quot; 권한을 가지고 있는 다음 Outlook 커넥터에서 연결을 만들어 이메일을 읽은 경우 권한 동의 화면에 이미 부여된 &quot;테이블 읽기&quot; 권한과 새로 필요한 &quot;이메일 쓰기&quot; 권한이 모두 표시됩니다.
 
 ## [!DNL Microsoft OneDrive for Business] 모듈 및 해당 필드
 

@@ -10,9 +10,9 @@ description: Adobe Workfront Fusion 시나리오에서는 Microsoft Word 템플�
 author: Becky
 feature: Workfront Fusion
 exl-id: 889b417c-04a9-4dbf-9a34-0dab65f11f03
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
 workflow-type: tm+mt
-source-wordcount: '1286'
+source-wordcount: '1401'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,18 @@ ht-degree: 0%
 
 를 사용하려면 [!DNL Miscrosoft Word Templates] 포함 [!DNL Adobe Workfront Fusion], 다음을 수행해야 합니다. [!DNL Office 365] 계정입니다. www.office.com에서 만들 수 있습니다.
 
+
+
+## 연결 중 [!DNL Office] 서비스 대상 [!DNL Workfront Fusion]
+
+연결에 대한 자세한 내용 [!DNL Office] 계정 위치: [!UICONTROL Workfront Fusion], 참조 [에 대한 연결 만들기 [!UICONTROL Adobe Workfront Fusion] - 기본 지침](../../workfront-fusion/connections/connect-to-fusion-general.md)
+
+>[!NOTE]
+>
+>일부 Microsoft 앱은 개별 사용자 권한에 연결된 동일한 연결을 사용합니다. 따라서 연결을 만들 때 권한 동의 화면에는 현재 애플리케이션에 필요한 새 권한 외에도 이 사용자의 연결에 대해 이전에 부여된 모든 권한이 표시됩니다.
+>
+>예를 들어 사용자가 Excel 커넥터를 통해 부여된 &quot;테이블 읽기&quot; 권한을 가지고 있는 다음 Outlook 커넥터에서 연결을 만들어 이메일을 읽은 경우 권한 동의 화면에 이미 부여된 &quot;테이블 읽기&quot; 권한과 새로 필요한 &quot;이메일 쓰기&quot; 권한이 모두 표시됩니다.
+
 ## 사용 [!DNL Microsoft Word Templates] 모듈
 
 다음을 사용할 수 있습니다. [!DNL Microsoft Word Template] 여러 웹 서비스의 데이터를 [!DNL Microsoft Word] 문서.
@@ -93,14 +105,14 @@ A [!DNL Microsoft Word] 템플릿이 일반적입니다. [!DNL Microsoft Word] �
 단순 값 태그는 해당 값으로 간단히 대체됩니다. 태그의 이름은 [!UICONTROL 키] 중괄호 안에 있는 필드의 값(예:
 
 
-<pre>&#123;&#123;이름&#125;&#125;</pre>
+<pre>{{name}}</pre>
 
 
 .
 
 **예:** &quot;안녕하세요, Petr!&quot;이라고 하는 문서를 만들려면 [!DNL Microsoft Word Template] 다음 템플릿을 만드는 모듈입니다.
 
-<pre>&gt; 안녕하세요. &#123;&#123;name&#125;&#125;!</pre>
+<pre>&gt; 안녕하세요. {{name}}!</pre>
 
 이렇게 하려면 다음과 같이 모듈을 설정합니다.
 
@@ -111,7 +123,7 @@ A [!DNL Microsoft Word] 템플릿이 일반적입니다. [!DNL Microsoft Word] �
 조건 태그를 사용하여 특정 조건이 충족될 때만 렌더링해야 하는 텍스트를 줄 바꿈할 수 있습니다. 텍스트를 둘러싸려면 데이터에 전화번호가 포함되는지 여부가 조건에 해당하는 경우 &quot;hasPhone&quot;과 같이 여는 조건 태그와 닫는 조건 태그 사이에 텍스트를 배치합니다. 여는 태그의 이름 앞에는 # 해시 기호가 사용되고, 닫는 태그의 이름 앞에는 아래 예와 같이 슬래시 / 기호가 추가됩니다.
 
 **예:** 입력 데이터에 전화번호는 있지만 이메일 주소는 없는 경우 고객의 전화번호가 포함된 문서를 생성하려면 [!DNL Microsoft Word Template] 을(를) 모듈화하고 다음 템플릿을 만듭니다.
-<pre>&gt; &#123;&#123;#hasPhone&#125;&#125;전화: &#123;&#123;phone&#125;&#125; &#123;&#123;/hasPhone&#125;&#125;</pre><pre>&gt; &#123;&#123;#hasEmail&#125;&#125;이메일: &#123;&#123;email&#125;&#125; &#123;&#123;/hasEmail&#125;&#125;</pre>이렇게 하려면 다음과 같이 모듈을 설정합니다.
+<pre>&gt; {{#hasPhone}}전화: {{phone}} {{/hasPhone}}</pre><pre>&gt; {{#hasEmail}}이메일: {{email}} {{/hasEmail}}</pre>이렇게 하려면 다음과 같이 모듈을 설정합니다.
 
 ![](assets/word-template-conditional-350x501.png)
 
@@ -129,7 +141,7 @@ A [!DNL Microsoft Word] 템플릿이 일반적입니다. [!DNL Microsoft Word] �
 
 **예:** 고객 목록에 있는 각 연락처의 이름과 전화 번호를 나열하는 문서를 만들려면 [!DNL Microsoft Word Template] 을(를) 모듈화하고 다음 템플릿을 만듭니다.
 
-<pre>&gt; &#123;&#123;#contact&#125;&#125;</pre><pre>&gt;     &#123;&#123;name&#125;&#125;, &#123;&#123;phone&#125;&#125;</pre><pre>&gt; &#123;&#123;/contact&#125;&#125;</pre>
+<pre>&gt; {{#contact}}</pre><pre>&gt;     {{name}}, {{phone}}</pre><pre>&gt; {{/contact}}</pre>
 
 이렇게 하려면 다음과 같이 모듈을 설정합니다.
 

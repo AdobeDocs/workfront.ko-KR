@@ -8,10 +8,10 @@ description: 많음 [!DNL Adobe Workfront Fusion] 커넥터는 연결을 만들 
 author: Becky
 feature: Workfront Fusion
 exl-id: 6576a515-a1a1-4613-8d04-3c9d36bb1ed9
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 1%
+source-wordcount: '355'
+ht-degree: 0%
 
 ---
 
@@ -69,3 +69,9 @@ ht-degree: 1%
 1. 클릭 **[!UICONTROL 계속]**.
 1. 아직 로그인하지 않은 경우 표시되는 로그인 창에서 자격 증명을 입력하여 앱에 로그인합니다.
 1. (조건부) **[!UICONTROL 허용]** 버튼을 표시하고 커넥터가 수행할 수 있는 작업을 검사한 다음 버튼을 클릭하여 앱을 연결합니다. [!DNL Workfront Fusion].
+
+   >[!NOTE]
+   >
+   >일부 Microsoft 앱은 개별 사용자 권한에 연결된 동일한 연결을 사용합니다. 따라서 연결을 만들 때 권한 동의 화면에는 현재 애플리케이션에 필요한 새 권한 외에도 이 사용자의 연결에 대해 이전에 부여된 모든 권한이 표시됩니다.
+   >
+   >예를 들어 사용자가 Excel 커넥터를 통해 부여된 &quot;테이블 읽기&quot; 권한을 가지고 있는 다음 Outlook 커넥터에서 연결을 만들어 이메일을 읽은 경우 권한 동의 화면에 이미 부여된 &quot;테이블 읽기&quot; 권한과 새로 필요한 &quot;이메일 쓰기&quot; 권한이 모두 표시됩니다.
