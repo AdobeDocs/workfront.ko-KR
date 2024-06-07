@@ -8,10 +8,10 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 91371c862be6f3b99f0450ff359f601dc913dc0c
+source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 7%
+source-wordcount: '725'
+ht-degree: 5%
 
 ---
 
@@ -50,6 +50,15 @@ Workfront의 개체(및 따라서 데이터 레이크)는 개별 값뿐만 아�
 >[!IMPORTANT]
 >
 >엔티티 관계 다이어그램은 진행 중인 작업입니다. 따라서 참조용으로만 사용되며 변경될 수 있습니다.
+
+## 날짜 유형
+
+특정 이벤트가 발생하는 시기에 대한 정보를 제공하는 다양한 날짜 개체가 있습니다.
+
+* `DL_LOAD_TIMESTAMP`: 이 날짜는 내부 참조에 사용되며 데이터가 Current, Event 또는 Daily History 테이블에 로드된 시기를 반영합니다. 이 날짜는 데이터 분석에 사용되어서는 안 되며 Workfront 데이터 레이크의 베타 단계 동안 제거될 계획입니다.
+* `CALENDAR_DATE`: 이 날짜는 일일 기록 테이블에만 표시됩니다. 이 테이블은에 지정된 각 날짜에 대해 11:59 UTC로 데이터의 모습에 대한 기록을 제공합니다. `CALENDAR_DATE`.
+* `BEGIN_EFFECTIVE_TIMESTAMP`: 이 날짜는 이벤트 및 일일 기록 테이블 모두에 있으며 레코드가 변경된 시기를 정확하게 기록합니다 _끝_ 현재 행에 있는 값입니다.
+* `END_EFFECTIVE_TIMESTAMP`: 이 날짜는 이벤트 및 일일 기록 테이블 모두에 있으며 레코드가 변경된 시기를 정확하게 기록합니다 _출처:_ 현재 행의 값을 다른 행의 값으로 바꿉니다. 에서 쿼리 사이를 허용하려면 `BEGIN_EFFECTIVE_TIMESTAMP` 및 `END_EFFECTIVE_TIMESTAMP` 새 값이 없는 경우에도 값은 null이 아닙니다. 레코드가 여전히 유효한 경우(즉, 값이 변경되지 않은 경우), `END_EFFECTIVE_TIMESTAMP` 값은 2300-01-01이 됩니다.
 
 ## 용어 표
 

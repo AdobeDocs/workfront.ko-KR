@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 39f5526a7a816da60cb80ea4fe9313a2773e6398
+source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '1378'
 ht-degree: 0%
 
 ---
@@ -28,19 +28,19 @@ ht-degree: 0%
 >
 >| 월별 릴리스 | 분기별 릴리스 |
 >|----|----|
->| <ul><li>24.5 (2024년 5월 16일)</li><li>24.6 (2024년 6월)</li><li>24.7 (2024년 7월)</li></ul> | <ul><li>24.7 (2024년 7월)</li></ul> |
+>| <ul><li>24.5 (2024년 5월 16일)</li><li>24.6 (2024년 6월 20일)</li><li>24.7 (2024년 7월)</li></ul> | <ul><li>24.7 (2024년 7월)</li></ul> |
 >
 >빠른 릴리스 프로세스에 대한 자세한 내용은 [빠른 릴리스 프로세스 활성화 또는 비활성화](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 ## Adobe Workfront 개선 사항
 
-<!--* [Administrator enhancements](#administrator-enhancements)-->
+* [관리자 개선 사항](#administrator-enhancements)
 * [향상된 Financial Management](#financial-management-enhancements)
 * [프로젝트 개선 사항](#project-enhancements)
+* [향상된 리소스 관리 기능](#resource-management-enhancements)
 * [기타 개선 사항](#other-enhancements)
 
-<!--
-### Administrator enhancements
+### 관리자 개선 사항
 
 <table>
             <col style="width: 50%;" />
@@ -48,37 +48,83 @@ ht-degree: 0%
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Feature</span>
+                        <p><span class="bold">기능</span>
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Release dates</span>
+                        <p><span class="bold">릴리스 날짜</span>
                         </p>
                     </td>
-                 </tr>
-                 <tr>
+                </tr>
+                <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Multi-select dropdown field type available on the form designer</a></p>
-                        [!BADGE New in Preview ]{type=Negative}
-                        <p>To help you define dropdown fields more easily, we have added the Multi-Select Dropdown field to the custom form designer. This field type allows users to choose more than one option from a dropdown list.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">환경 프로모션을 사용하여 Workfront 환경 간에 개체 이동</a></p>
+                        <p>환경 프로모션을 사용하면 오브젝트를 한 Workfront 환경에서 다른 환경(예: 샌드박스 환경에서 프로덕션 환경으로)으로 이동할 수 있습니다. 조직의 데이터 및 레코드에 대한 위험 없이 개체를 구성하고 테스트할 수 있습니다. 그런 다음 재구성할 필요 없이 해당 객체를 프로덕션으로 이동하여 시간과 노력을 절약할 수 있습니다.</p>
                     </td>
-                    <td><p><b>Available on these dates:</b></p>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: April 18, 2024</p>
-                            </li>
-                            <li>
-                                <p>Production for fast release: With the 24.5 release (May 2024)</p>
-                            </li>
-                            <li>
-                                <p>Production for quarterly release: With the 24.7 release (July 2024)</p>
+                                <p>모든 고객을 위한 프로덕션 릴리스: 24.6 릴리스 포함(2024년 6월 20일)</p>
                             </li>
                         </ul>
                     </td>
-                 </tr>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">사용자 정의 양식 디자이너에서 사용자 정의 양식 및 사용자 정의 필드 공유</a></p>
+                        [!BADGE New in Preview ]{type=Negative}
+                        <p>이제 새 양식 디자이너 내에서 사용자 정의 양식과 사용자 정의 필드를 모두 공유할 수 있습니다. 이를 통해 사용자 정의 양식에서 사용자 간의 공동 작업을 향상시킬 수 있습니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2024년 6월 6일</p>
+                            </li>
+                            <li>
+                                <p>모든 고객을 위한 프로덕션 릴리스: TBD</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">필드 영역에서 새 사용자 정의 필드 추가</a></p>
+                        [!BADGE New in Preview ]{type=Negative}
+                        <p>이제 사용자 정의 양식을 열어 필드를 만들지 않고도 Workfront의 필드 영역에서 직접 새 사용자 정의 필드 또는 위젯을 추가할 수 있습니다. 이를 통해 재사용 가능한 사용자 정의 필드를 신속하게 만들 수 있습니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2024년 6월 6일</p>
+                            </li>
+                            <li>
+                                <p>빠른 릴리스를 위한 프로덕션: 24.6 릴리스 포함(2024년 6월 20일)</p>
+                            </li>
+                            <li>
+                                <p>분기별 릴리스 프로덕션: 24.7 릴리스 포함(2024년 7월)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">양식 디자이너에서 사용할 수 있는 드롭다운 필드 유형 다중 선택</a></p>
+                        [!BADGE In production ]{type=Informative}
+                        <p>드롭다운 필드를 보다 쉽게 정의할 수 있도록 다중 선택 드롭다운 필드를 사용자 정의 양식 디자이너에 추가했습니다. 이 필드 유형을 사용하면 드롭다운 목록에서 두 개 이상의 옵션을 선택할 수 있습니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2024년 6월 4일</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">모든 고객을 위한 프로덕션: 2024년 6월 4일</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
            </tbody>
         </table>
--->
 
 ### 향상된 Financial Management
 
@@ -141,7 +187,6 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">헤더 또는 세부 정보 섹션에서 작업 및 문제 커밋 일자 및 조건 편집</a></p>
-                        <p><span style="color: #ff0000;"> 미리보기의 새로운 기능!</span></p>
                         <p>작업 및 문제를 더 쉽게 업데이트할 수 있도록 이제 커밋 일자 및 조건 필드를 레이아웃 템플릿의 작업 및 문제 헤더 및 세부 정보 섹션에 추가할 수 있는 옵션으로 추가했습니다. 이제 사용자는 수정된 레이아웃 템플릿에 할당될 때 페이지의 헤더 또는 세부 정보 섹션에서 이러한 필드를 업데이트할 수 있습니다.   </p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -201,6 +246,45 @@ ht-degree: 0%
            </tbody>
         </table>
 
+### 향상된 리소스 관리 기능
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">기능</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">릴리스 날짜</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">휴무가 업무 균형자에 반영됨</a></p>
+                        [!BADGE New in Preview ]{type=Negative}
+                        <p>작업의 기본 할당자가 휴무를 예약한 경우 작업을 원활하게 조정하기 위해 이제 업무 균형자 가 프로젝트 타임라인이 다시 계산될 때 기본 사용자와 보조 사용자 모두에게 시간을 다시 할당합니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2024년 6월 6일</p>
+                            </li>
+                            <li>
+                                <p>빠른 릴리스를 위한 프로덕션: 24.6 릴리스 포함(2024년 6월 20일)</p>
+                            </li>
+                            <li>
+                                <p>분기별 릴리스 프로덕션: 24.7 릴리스 포함(2024년 7월)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
 ### 기타 개선 사항
 
 <table>
@@ -215,6 +299,26 @@ ht-degree: 0%
                     <td>
                         <p><span class="bold">릴리스 날짜</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">기본 탐색 모음에서 도움말 단추 제거됨</a></p>
+                        [!BADGE New in Preview ]{type=Negative}
+                        <p>통합 셸이 아닌 사용자를 위해 환경을 통합하기 위해 기본 탐색 막대의 도움말 버튼이 제거되었습니다. 통합 셸의 사용자에게 제공되지 않는 이 단추는 Workfront 설명서에 연결되어 있으며 기본 메뉴의 모든 사용자에게 사용할 수 있는 유사한 도움말 단추와 함께 이중화되었습니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2024년 6월 6일</p>
+                            </li>
+                            <li>
+                                <p>빠른 릴리스를 위한 프로덕션: 24.6 릴리스 포함(2024년 6월 20일)</p>
+                            </li>
+                            <li>
+                                <p>분기별 릴리스 프로덕션: 24.7 릴리스 포함(2024년 7월)</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>

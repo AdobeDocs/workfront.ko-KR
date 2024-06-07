@@ -6,9 +6,9 @@ description: Adobe Workfront 관리자는 사용자가 액세스 수준을 할�
 author: Alina, Nolan
 feature: Get Started with Workfront
 exl-id: 27a1beb9-e83a-4ef6-bf5f-ad52575a993c
-source-git-commit: 91371c862be6f3b99f0450ff359f601dc913dc0c
+source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
 workflow-type: tm+mt
-source-wordcount: '1962'
+source-wordcount: '1966'
 ht-degree: 0%
 
 ---
@@ -167,7 +167,7 @@ Workfront의 다른 모든 개체를 공유하는 방법에 대한 자세한 내
 
 ## 해당 페이지에서 문서, 포트폴리오 또는 프로그램 공유
 
-1. 공유할 개체로 이동합니다.
+1. 공유할 문서, 포트폴리오 또는 프로그램의 페이지로 이동합니다.
 
    공유할 수 있는 객체에 대한 자세한 내용은 [오브젝트에 대한 공유 권한 개요](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
