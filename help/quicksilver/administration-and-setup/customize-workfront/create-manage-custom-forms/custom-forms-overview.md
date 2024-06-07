@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 5b167c2d7ca388d0f5298edb301174ff23d85c4d
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '357'
 ht-degree: 7%
 
 ---
@@ -70,12 +70,14 @@ Workfront에서 다음 유형의 사용자 정의 필드를 사용자 정의 양
 * 문서
 * 사용자
 * 프로그램
-* 포트폴리오
+* Portfolio
 * 경비
 * 그룹
 * 반복
 * 청구 기록
 
 사용자 정의 양식을 오브젝트에 첨부하는 방법에 대한 자세한 내용은 [오브젝트에 사용자 정의 양식 추가](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+
+문제를 프로젝트로 전환할 때 사용자 정의 양식이 어떻게 되는지에 대한 자세한 내용은 [문제를 프로젝트로 전환](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-project.md).
 
 
