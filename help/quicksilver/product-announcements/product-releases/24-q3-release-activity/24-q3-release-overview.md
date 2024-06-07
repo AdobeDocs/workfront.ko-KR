@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
+source-git-commit: 1881803a78d1003636da558504e978316e80d064
 workflow-type: tm+mt
-source-wordcount: '1378'
+source-wordcount: '1362'
 ht-degree: 0%
 
 ---
@@ -98,10 +98,7 @@ ht-degree: 0%
                                 <p>미리보기 릴리스: 2024년 6월 6일</p>
                             </li>
                             <li>
-                                <p>빠른 릴리스를 위한 프로덕션: 24.6 릴리스 포함(2024년 6월 20일)</p>
-                            </li>
-                            <li>
-                                <p>분기별 릴리스 프로덕션: 24.7 릴리스 포함(2024년 7월)</p>
+                                <p>모든 고객을 위한 프로덕션 릴리스: 24.7 릴리스 포함(2024년 7월)</p>
                             </li>
                         </ul>
                     </td>
@@ -264,7 +261,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">휴무가 업무 균형자에 반영됨</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-resource-mgmt-enhancements.md">휴무가 업무 균형자에 반영됨</a></p>
                         [!BADGE New in Preview ]{type=Negative}
                         <p>작업의 기본 할당자가 휴무를 예약한 경우 작업을 원활하게 조정하기 위해 이제 업무 균형자 가 프로젝트 타임라인이 다시 계산될 때 기본 사용자와 보조 사용자 모두에게 시간을 다시 할당합니다.</p>
                     </td>
@@ -274,10 +271,7 @@ ht-degree: 0%
                                 <p>미리보기 릴리스: 2024년 6월 6일</p>
                             </li>
                             <li>
-                                <p>빠른 릴리스를 위한 프로덕션: 24.6 릴리스 포함(2024년 6월 20일)</p>
-                            </li>
-                            <li>
-                                <p>분기별 릴리스 프로덕션: 24.7 릴리스 포함(2024년 7월)</p>
+                                <p>모든 고객을 위한 프로덕션 릴리스: 24.7 릴리스 포함(2024년 7월)</p>
                             </li>
                         </ul>
                     </td>

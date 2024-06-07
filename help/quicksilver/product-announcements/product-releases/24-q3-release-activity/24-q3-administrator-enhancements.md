@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
+source-git-commit: 1881803a78d1003636da558504e978316e80d064
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리보기 릴리스: 2024년 6월 6일, 빠른 릴리스를 위한 프로덕션: 24.6 릴리스 포함(2024년 6월 20일), 분기별 릴리스의 프로덕션: 24.7 릴리스 포함(2024년 7월)
+>미리보기 릴리스: 2024년 6월 6일, 모든 고객을 위한 프로덕션 릴리스: 24.7 릴리스 포함(2024년 7월)
 
 이제 사용자 정의 양식을 열어 필드를 만들지 않고도 Workfront의 필드 영역에서 직접 새 사용자 정의 필드 또는 위젯을 추가할 수 있습니다. 이를 통해 재사용 가능한 사용자 정의 필드를 신속하게 만들 수 있습니다.
 
