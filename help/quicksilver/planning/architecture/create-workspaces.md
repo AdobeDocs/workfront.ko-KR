@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '635'
 ht-degree: 1%
 
 ---
@@ -111,19 +111,9 @@ Adobe Workfront Planning에서 작업 공간은 팀이 작업을 계획하는 �
 
 {{step1-to-planning}}
 
-<!--replace the snippet with the new snippet with the landing page The Workfront Planning landing page opens. 
-    ![](assets/planning-landing-page-admin.png)
-    1. (Optional) Click the **My workspaces** tab to view workspaces you created
-    Or
-    Click the **Other workspaces** tab to view workspaces shared with you. 
-    -->
+1. 클릭 **작업 영역 만들기**
 
-1. (조건부) 환경에 작업 공간이 없는 경우 **작업 영역 만들기**
-
-   또는 기존 작업 영역에서 작업 영역 이름의 오른쪽에 있는 아래쪽 방향 화살표를 클릭한 다음 를 클릭합니다 **작업 영역 만들기**.
-
-   ![](assets/workspace-drop-down-right-menu.png)
-
+   작업 공간 만들기 상자가 표시됩니다. 작업공간을 처음부터 만들거나 사용 가능한 템플릿 중 하나를 사용하여 만들 수 있습니다.
 
 1. (선택 사항 및 조건부) 클릭 **미리 보기** 다음 사전 정의된 작업 공간 템플릿 내부:
 
@@ -131,17 +121,19 @@ Adobe Workfront Planning에서 작업 공간은 팀이 작업을 계획하는 �
    * 영업 관리
    * 제품 관리
 
+   템플릿 미리보기 상자가 열립니다.
+
    각 템플릿과 연관된 운영 레코드 유형, 분류 및 필드 수가 표시됩니다.
 
    ![](assets/previewing-a-workspace-template.png)
 
    Workfront Planning 작업 공간 템플릿에 대한 자세한 내용은 다음을 참조하십시오. [작업 공간 템플릿 목록](/help/quicksilver/planning/architecture/workspace-templates.md).
 
-1. 클릭 **템플릿 사용** 선택한 템플릿에서 작업 공간 만들기 시작하기
+1. 템플릿 미리 보기 상자에서 **템플릿 사용** 선택한 템플릿에서 작업 공간 만들기 시작하기
 
    또는
 
-   클릭 **작업 영역 만들기** 처음부터 작업공간을 만듭니다.
+   클릭 **뒤로**&#x200B;을 클릭한 다음 을 클릭합니다 **작업 영역 만들기** 처음부터 작업공간을 만듭니다.
 
    다음 유형의 작업 공간에 대한 하나가 만들어집니다.
 

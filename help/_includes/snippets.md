@@ -1,7 +1,7 @@
 ---
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '2362'
+source-wordcount: '2412'
 ht-degree: 1%
 
 ---
@@ -249,20 +249,14 @@ Workfront 프로젝트에 있는 동안 사용자가 Experience Manager에 연�
 
 1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리에서 을(를) 클릭하고 **[!UICONTROL 계획 수립]**.
 
-   Workfront Planning의 작업 영역 영역이 열립니다.
+   Workfront Planning 랜딩 페이지가 열립니다.
 
-<!-- replace sentence above with this and following step:
-   The Workfront Planning landing page opens. 
-    
-1. (Optional and conditional) If you are a Workfront administrator, click the following tabs:
+1. (선택 사항 및 조건부) Workfront 관리자인 경우 다음 탭을 클릭합니다.
 
-   * **My workspaces**: Displays workspaces you created or workspaces that are shared with you.
-   * **Other workspaces**: Displays all other workspaces in Workfront Planning. 
+   * **내 작업 공간**: 사용자가 만든 작업 공간을 표시합니다.
+   * **기타 작업 공간**: 사용자와 공유된 작업 공간을 포함하여 Workfront Planning의 모든 작업 공간을 표시합니다.
 
-   Otherwise, all workspaces you have view or higher permissions to display in the **Workspaces** area. 
- 
--->
-
+   다른 모든 사용자의 경우, 사용자가 만들었거나 사용자와 공유되는 모든 작업 공간은 **작업 공간** 영역입니다.
 
 ## Workfront Planning 중요한 소개 - {#planning-important-intro}
 

@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 1%
@@ -120,7 +120,7 @@ ht-degree: 1%
 
    특히 목록에 여러 작업을 추가할 때 이 옵션을 사용하는 것이 좋습니다.
 
-   ![](assets/ctp4-350x26.png)
+   ![](assets/add-more-tasks-inline.png)
 
 1. (조건부) 다음 중 하나를 수행합니다.
 
@@ -141,7 +141,7 @@ ht-degree: 1%
 
          이렇게 하면 새 작업이 이전 작업의 하위 작업 또는 하위 작업이 됩니다.
 
-         하위 작업에 대한 자세한 내용은 [작업 개요](../../../manage-work/tasks/task-information/tasks-overview.md).
+         하위 작업에 대한 자세한 내용은 [하위 작업 만들기](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
 
       1. (조건부) 을 비활성화한 경우 **자동 저장** 누르기 후 옵션 **더 많은 작업 추가**, 다음 작업을 수행할 수 있습니다.
 

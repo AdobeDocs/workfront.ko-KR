@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 0%
+source-wordcount: '404'
+ht-degree: 2%
 
 ---
 
@@ -122,13 +122,20 @@ hide: yes
 
 {{step1-to-planning}}
 
-1. (선택 사항) 기존 작업 영역 이름의 오른쪽에 있는 아래쪽 방향 화살표를 확장하고 레코드 유형을 삭제할 작업 영역을 선택합니다.
+1. 레코드 유형을 삭제할 작업 영역을 클릭합니다.
+
+   또는
+
+   작업 영역에서 기존 작업 영역 이름의 오른쪽에 있는 아래쪽 방향 화살표를 확장하고 레코드 유형을 삭제할 작업 영역을 선택합니다.
 
    작업공간이 열리고 레코드 유형이 표시됩니다.
-1. 삭제할 레코드 유형의 카드를 클릭합니다.
+1. 다음 중 하나를 수행하십시오.
 
-   레코드 유형의 페이지가 열립니다.
-1. 다음을 클릭합니다. **자세히** 메뉴 ![](assets/more-menu.png) 레코드 유형 이름의 오른쪽에 있는 **삭제**. <!--add screen shot when they finalize the UI-->
-1. 유형 **삭제** 확인 상자에서 을(를) 클릭한 다음 **영구적으로 삭제**.
+   * 레코드 유형 카드에 마우스를 가져다 대고 자세히 메뉴를 클릭한 다음 **삭제**.
+   * 삭제할 레코드 유형의 카드를 클릭하고 레코드 유형 페이지에서 **자세히** 메뉴 ![](assets/more-menu.png) 레코드 유형 이름의 오른쪽에 있는 **삭제**.
+
+   ![](assets/permanently-delete-record-type-confirmation.png)
+
+1. 유형 **삭제** 확인 상자에서 을(를) 클릭한 다음 **영구적으로 삭제**. 대/소문자를 구분하지 않습니다.
 
    선택한 레코드 종류, 해당 필드, 연결된 레코드 및 보기가 삭제됩니다.

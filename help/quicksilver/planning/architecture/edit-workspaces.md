@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -90,6 +90,7 @@ Adobe Workfront Planning에서 작업 공간은 팀이 작업을 계획하는 �
 
 {{step1-to-planning}}
 
+1. 작업 영역 카드를 클릭하여 작업 영역을 엽니다.
 1. 새 작업 공간 헤더의 작업 공간 이름 안쪽을 클릭하여 이름을 변경한 다음 키를 누릅니다 **입력**.
 1. 다음을 클릭합니다. **자세히** 메뉴 ![](assets/more-menu.png)헤더에서 작업 공간 이름 오른쪽에 있는 을 클릭합니다. **편집**.
 
@@ -130,7 +131,7 @@ Adobe Workfront Planning에서 작업 공간은 팀이 작업을 계획하는 �
 
 1. (선택 사항) 레코드 유형 카드에 마우스를 가져다 대고 **자세히** 메뉴 ![](assets/more-menu.png) 오른쪽 상단에서 을(를) 클릭한 다음 **삭제** 레코드 종류를 삭제합니다.
 
-   자세한 내용은 [레코드 유형 삭제](/help/quicksilver/planning/architecture/delete-record-types.md)).
+   자세한 내용은 [레코드 유형 삭제](/help/quicksilver/planning/architecture/delete-record-types.md).
 
 1. (선택 사항) 레코드 유형 카드를 마우스 오른쪽 단추로 클릭하여 새 위치로 끌어서 놓습니다. 한 작업 영역 섹션에서 다른 작업 영역으로 레코드 유형을 끌어다 놓을 수 있습니다.
 

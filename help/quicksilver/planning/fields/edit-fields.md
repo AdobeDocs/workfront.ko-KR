@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '613'
 ht-degree: 0%
 
 ---
@@ -127,13 +127,17 @@ Adobe Workfront Planning 필드 생성에 대한 자세한 내용은 다음을 �
 
 {{step1-to-planning}}
 
-1. (선택 사항) 기존 작업 영역 이름의 오른쪽에 있는 아래쪽 방향 화살표를 확장하고 레코드 유형을 삭제할 작업 영역을 선택합니다.
+1. 레코드 필드를 편집할 작업 영역을 클릭합니다.
 
-   작업공간이 열리고 작업공간과 연관된 레코드 유형이 표시됩니다.
-1. 편집할 필드가 있는 레코드 유형의 카드를 클릭합니다.
+   작업공간이 열리고 작업공간의 모든 레코드 유형이 카드에 표시됩니다.
+
+1. 기록 유형의 카드를 클릭합니다.
 
    레코드 유형의 페이지가 열립니다.
+
 1. (조건부) **표 보기**.
+
+   레코드 유형과 연관된 모든 기존 레코드는 테이블 뷰의 행에 표시됩니다.
 1. 편집할 필드의 열 헤더 위로 마우스를 가져간 다음 필드 이름 뒤에 있는 아래쪽 화살표를 클릭하고 **필드 편집**
 
    또는
@@ -146,7 +150,9 @@ Adobe Workfront Planning 필드 생성에 대한 자세한 내용은 다음을 �
 
    >[!TIP]
    >
-   >필드를 저장한 후에는 필드 유형을 업데이트할 수 없습니다.
+   >* 필드를 저장한 후에는 필드 유형을 업데이트할 수 없습니다.
+   >
+   >* 필드 구성(필드 옵션 또는 수식 표현식)을 수정하면 수정된 필드에 이미 정보가 들어 있는 레코드가 해당 값을 실시간으로 업데이트합니다. 필드 구성 변경에 의해 트리거된 값 변경에 대한 경고 및 감사 로그가 없습니다. 필드를 보는 모든 사용자는 수정 사항이 적용된 새 값을 즉시 볼 수 있습니다.
 
    필드 정보는 작업 영역을 볼 수 있는 액세스 권한이 있는 모든 사용자에 대해 업데이트됩니다.
 
@@ -154,9 +160,3 @@ Adobe Workfront Planning 필드 생성에 대한 자세한 내용은 다음을 �
 
    자세한 내용은 [레코드 유형 연결](/help/quicksilver/planning/architecture/connect-record-types.md).
 
-<!--After the release of the RTBE for field configurations, replace the tip with this:
->[!TIP]
->
->* You cannot update the field type after the field is saved.
->
->* When you modify field configurations (field options or formula expressions), records that already contain information in the modified fields will update their values in real-time. There is no warning and no audit log for the value changes triggered by field configuration changes. All users who view the fields will immediately see the new values with the modifications. -->

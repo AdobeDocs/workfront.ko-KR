@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '504'
 ht-degree: 2%
 
 ---
@@ -102,9 +102,11 @@ Adobe Workfront Planning에서 더 이상 관련이 없는 레코드를 삭제�
 
 {{step1-to-planning}}
 
-마지막으로 액세스한 작업공간이 열립니다.
+1. 삭제할 레코드가 있는 작업 영역을 클릭합니다.
 
-1. 레코드 유형을 클릭합니다.
+   작업공간이 열리고 레코드 유형이 카드로 표시됩니다.
+
+1. 레코드 유형 카드를 클릭합니다.
 
    레코드 유형 페이지가 열립니다.
 1. 다음 중 하나를 수행하십시오.
@@ -126,9 +128,11 @@ Adobe Workfront Planning에서 더 이상 관련이 없는 레코드를 삭제�
 
 {{step1-to-planning}}
 
-마지막으로 액세스한 작업 영역이 열립니다.
+1. 삭제할 레코드가 있는 작업 영역을 클릭합니다.
 
-1. 레코드 유형을 클릭합니다.
+   작업공간이 열리고 레코드 유형이 카드로 표시됩니다.
+
+1. 레코드 유형 카드를 클릭합니다.
 
    레코드 유형 페이지가 열립니다.
 1. (조건부) **보기** 테이블 왼쪽 위 모서리에 있는 드롭다운 메뉴에서 테이블 뷰를 선택합니다. 레코드 유형에 마지막으로 액세스했을 때 타임라인 보기에서 확인하지 않은 경우 기본 보기여야 합니다.

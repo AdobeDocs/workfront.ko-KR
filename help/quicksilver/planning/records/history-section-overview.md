@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
-source-git-commit: 6c50746c4c230d7f9fa2c73b66d13c8b02153b89
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 4%
+source-wordcount: '472'
+ht-degree: 3%
 
 ---
 
@@ -35,7 +35,12 @@ ht-degree: 4%
 
 {{step1-to-planning}}
 
-마지막으로 액세스한 작업 공간은 기본적으로 열립니다.
+1. 작업 영역의 카드를 클릭합니다.
+
+   작업공간이 열리고 기록 유형이 카드에 표시됩니다.
+
+1. 레코드 유형 카드를 클릭합니다.
+레코드 유형 페이지가 열리고 해당 유형의 모든 레코드가 표시됩니다.
 
 1. 다음에서 표 보기 선택 **보기** 드롭다운 메뉴.
 1. 테이블 보기에서 레코드 이름을 클릭합니다.

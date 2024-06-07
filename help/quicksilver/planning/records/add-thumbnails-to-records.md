@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: 3856e56036a9845387d7dc6498a6f20728c8234a
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 0%
@@ -100,7 +100,7 @@ ht-degree: 0%
 
 {{step1-to-planning}}
 
-1. 썸네일을 추가할 레코드가 있는 작업 영역을 선택한 다음 레코드 유형 카드를 클릭합니다.
+1. 썸네일을 추가할 레코드가 있는 작업 영역을 클릭한 다음 레코드 유형 카드를 클릭합니다.
 
    그러면 레코드 유형 페이지가 열립니다.
 1. 다음에서 표 보기 선택 **보기** 드롭다운 메뉴. 선택한 유형의 모든 레코드가 테이블에 표시됩니다.
@@ -145,7 +145,7 @@ You can add a thumbnail to a record in the following ways:
 
 {{step1-to-planning}}
 
-1. Select the workspace for whose records you want to add thumbnails, then click the record type card. 
+1. Click the workspace for whose records you want to add thumbnails, then click the record type card. 
 
    This opens the record type page. 
 1. Select a table view from the **View** drop-down menu. All records of the type you selected display in a table. 
@@ -180,7 +180,7 @@ You can add a thumbnail to a record in the following ways:
 
 {{step1-to-planning}}
 
-1. Select the workspace for whose records you want to add thumbnails, then click the record type card. 
+1. Click the workspace for whose records you want to add thumbnails, then click the record type card. 
 
    This opens the record type page. 
 1. Select a table view from the **View** drop-down menu. All records of the type you selected display in a table. 

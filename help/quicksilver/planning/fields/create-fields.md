@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '3275'
+source-wordcount: '3287'
 ht-degree: 2%
 
 ---
@@ -117,9 +117,11 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
 
 {{step1-to-planning}}
 
-기본적으로 마지막으로 액세스한 작업 영역이 열립니다.
+1. 필드를 만들 레코드가 있는 작업 영역을 클릭합니다.
 
-1. (선택 사항) 기존 작업 영역 이름의 오른쪽에 있는 아래쪽 방향 화살표를 확장하고 필드를 만들 레코드 유형이 있는 작업 영역을 선택한 다음 레코드 유형을 클릭합니다.
+   작업공간이 열리고 레코드 유형이 표시됩니다.
+
+1. 기록 유형의 카드를 클릭합니다.
 
    레코드 유형과 연관된 모든 기존 레코드는 테이블 뷰의 행에 표시됩니다.
 
@@ -127,8 +129,11 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
    >
    >    레코드가 표시되지 않으면 아직 레코드가 없거나 화면에 표시되는 내용을 제한하는 필터가 적용될 수 있습니다.
 
-   레코드 유형과 연관된 모든 기존 필드가 테이블 뷰의 열에 표시됩니다. <!--caveat this for when we can hide the fields; mention that they can be hidden if they are not visible by default-->
+   레코드 유형과 연관된 모든 기존 필드가 테이블 뷰의 열에 표시됩니다.
 
+   >[!TIP]
+   >
+   >    일부 필드가 숨겨져 있을 수 있습니다. 필드를 클릭하고 테이블 보기에서 열로 보려는 필드의 토글을 활성화합니다.
 
 1. 다음을 클릭합니다. **+** 아이콘을 클릭하면 새 필드가 추가됩니다.
 1. 다음에서 **새 필드** 탭에서 필드 유형을 검색합니다. **필드 유형** 또는 다음 필드 유형 중에서 선택합니다.

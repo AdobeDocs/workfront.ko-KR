@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 7580c7638c9e4d0f9aa53d208d9773fa1524ab54
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '683'
 ht-degree: 1%
 
 ---
@@ -109,7 +109,9 @@ ht-degree: 1%
 
 {{step1-to-planning}}
 
-마지막으로 액세스한 작업 공간은 기본적으로 열립니다.
+1. 작업 영역의 카드를 클릭합니다.
+
+   작업공간이 열리고 레코드 유형이 카드로 표시됩니다.
 
 1. Workfront 프로젝트, 포트폴리오 또는 프로그램에 연결된 레코드 유형의 카드를 클릭합니다.
 1. 다음에서 표 보기 선택 **보기** 드롭다운 메뉴.

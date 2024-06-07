@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: a923d86f78e6dab4705289a8165c4b31ff68b5a2
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1065'
 ht-degree: 1%
 
 ---
@@ -150,9 +150,13 @@ Adobe Workfront Planning 영역에서 레코드 유형을 선택한 후 다음 �
 {{step1-to-planning}}
 
 
-마지막으로 액세스한 작업공간은 기본적으로 열립니다. 작업 공간 만들기에 대한 자세한 내용은 [작업 공간 만들기](/help/quicksilver/planning/architecture/create-workspaces.md).
+1. 작업 영역의 카드를 클릭합니다.
 
-1. 레코드 유형 카드를 클릭합니다. 레코드 종류 만들기에 대한 내용은 [레코드 유형 만들기](/help/quicksilver/planning/architecture/create-record-types.md).
+   작업공간이 열리고 레코드 유형이 카드로 표시됩니다.
+
+1. 레코드 유형 카드를 클릭합니다.
+
+   레코드 유형 페이지가 열립니다.
 
    기본적으로 선택한 유형의 모든 레코드가 테이블 뷰에 표시됩니다.
 
@@ -218,11 +222,13 @@ Adobe Workfront Planning 영역에서 레코드 유형을 선택한 후 다음 �
 
 {{step1-to-planning}}
 
-마지막으로 액세스한 작업공간은 기본적으로 열립니다. 작업 공간 만들기에 대한 자세한 내용은 [작업 공간 만들기](/help/quicksilver/planning/architecture/create-workspaces.md).
+1. 작업 영역의 카드를 클릭합니다.
+
+   작업공간이 열리고 레코드 유형이 카드로 표시됩니다.
 
 1. 레코드 유형 카드를 클릭합니다.
 
-   레코드 종류 만들기에 대한 내용은 [레코드 유형 만들기](/help/quicksilver/planning/architecture/create-record-types.md).
+   레코드 유형 페이지가 열립니다.
 
    기본적으로 선택한 유형의 모든 레코드가 테이블 뷰에 표시됩니다.
 
@@ -247,13 +253,14 @@ Adobe Workfront Planning 영역에서 레코드 유형을 선택한 후 다음 �
 
 {{step1-to-planning}}
 
-마지막으로 액세스한 작업공간은 기본적으로 열립니다.
+1. 작업 영역의 카드를 클릭합니다.
 
-작업 공간 만들기에 대한 자세한 내용은 [작업 공간 만들기](/help/quicksilver/planning/architecture/create-workspaces.md).
+   작업공간이 열리고 레코드 유형이 카드로 표시됩니다.
 
-1. 레코드 유형 카드를 클릭합니다. 레코드 종류 만들기에 대한 내용은 [레코드 유형 만들기](/help/quicksilver/planning/architecture/create-record-types.md).
+1. 레코드 유형 카드를 클릭합니다.
 
-   기본적으로 선택된 유형의 모든 레코드가 테이블 뷰에 표시됩니다.
+   레코드 유형 페이지가 열립니다.
+기본적으로 선택된 유형의 모든 레코드가 테이블 뷰에 표시됩니다.
 
 1. 복제할 보기의 탭 위로 마우스를 가져간 다음 **자세히** 메뉴 ![](assets/more-menu.png) 뷰 이름의 오른쪽에 있는 **복제**.
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
@@ -113,9 +113,16 @@ Workfront Planning에서 사용자 정의 필드를 만드는 방법에 대한 �
 
 {{step1-to-planning}}
 
-Workfront Planning에서 마지막으로 액세스한 작업 영역이 열립니다.
-1. 필드를 삭제할 레코드 유형의 카드를 클릭합니다.
-1. (조건부) 선택 **표 보기** 다음에서 **보기** 레코드 유형 페이지의 오른쪽 위 모서리에 있는 드롭다운 메뉴.
+1. 레코드 필드를 삭제할 작업 영역을 클릭합니다.
+
+   작업공간이 열리고 레코드 유형이 표시됩니다.
+
+1. 기록 유형의 카드를 클릭합니다.
+
+1. (조건부) 아직 선택되지 않은 경우 **표 보기** 레코드 유형 페이지에서 참조할 수 있습니다.
+
+   레코드 유형과 연관된 모든 기존 레코드는 테이블 뷰의 행에 표시됩니다.
+
 1. 열 헤더에서 삭제할 필드를 찾고 열 헤더 위로 마우스를 가져간 다음 필드 이름 뒤에 있는 아래쪽 방향 화살표를 클릭합니다.
 
    ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)

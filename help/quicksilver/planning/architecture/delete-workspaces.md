@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '274'
 ht-degree: 1%
 
 ---
@@ -98,13 +98,14 @@ Adobe Workfront Planning에서 작업 공간은 팀이 작업을 계획하는 �
 
 {{step1-to-planning}}
 
-마지막으로 액세스한 작업 영역이 열립니다.
+1. 삭제할 작업공간을 클릭합니다.
 
-1. (선택 사항) 기존 작업 영역 이름의 오른쪽에 있는 아래쪽 방향 화살표를 확장하고 삭제할 작업 영역을 선택합니다.
+   작업 영역 페이지가 표시됩니다.
+
 1. 다음을 클릭합니다. **자세히** 메뉴 ![](assets/more-menu.png) workspace 이름 옆에 있는 을 클릭합니다. **삭제**.
 
    ![](assets/permanently-delete-workspace-confirmation.png)
 
-1. 유형 &quot;**삭제**&#x200B;제공된 공간에서 &quot;&quot;를 클릭한 다음 **영구적으로 삭제**.
+1. 유형 &quot;**삭제**&#x200B;제공된 공간에서 &quot;&quot;를 클릭한 다음 **영구적으로 삭제**. 대/소문자를 구분하지 않습니다.
 
    작업 영역이 삭제되며 복구할 수 없습니다. 모든 레코드 종류, 레코드, 필드 및 연결된 보기도 삭제됩니다. <!--ensure this is right at or before GA-->

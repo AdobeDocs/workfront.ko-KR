@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 0d525df9beacc989ec3c1c695a7757dff0ad77b3
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '2027'
+source-wordcount: '2021'
 ht-degree: 1%
 
 ---
@@ -168,16 +168,16 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 ## 단일 작업 할당
 
 1. 할당할 작업으로 이동합니다.
-1. 클릭 **할당 대상** 다음에서 **할당** 작업 또는 문제의 헤더에 있는 필드.
+1. 클릭 **할당 대상** 다음에서 **할당** 작업 헤더의 필드
 
    또는
 
    작업 또는 문제가 이미 할당된 경우 할당명을 클릭합니다.
 
-   프로덕션 환경의 샘플 이미지:
+   프로덕션 환경에서:
    ![](../assign-tasks/assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
 
-   <span class="preview">미리보기 환경의 샘플 이미지:</span>
+   <span class="preview">미리보기 환경에서:</span>
    ![할당](assets/assignments-box-in-task-header.png)
 
 1. 다음 중 하나를 수행하십시오.

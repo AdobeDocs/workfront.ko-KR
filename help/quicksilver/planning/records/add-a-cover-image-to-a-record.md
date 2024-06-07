@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: 3856e56036a9845387d7dc6498a6f20728c8234a
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '568'
 ht-degree: 0%
 
 ---
@@ -102,9 +102,13 @@ ht-degree: 0%
 
 {{step1-to-planning}}
 
-마지막으로 액세스한 작업공간이 열립니다.
+1. 개인화할 레코드가 있는 작업 영역을 클릭합니다.
 
-1. (선택 사항) 작업 영역 이름의 오른쪽에 있는 아래쪽 방향 화살표를 클릭하여 레코드를 업데이트할 작업 영역을 선택합니다.
+   또는
+
+   작업 영역에서 기존 작업 영역 이름의 오른쪽에 있는 아래쪽 방향 화살표를 확장하고 개인화할 레코드가 있는 작업 영역을 선택합니다.
+
+   작업공간이 열리고 레코드 유형이 표시됩니다.
 
 1. 레코드 유형 카드를 클릭합니다.
 
