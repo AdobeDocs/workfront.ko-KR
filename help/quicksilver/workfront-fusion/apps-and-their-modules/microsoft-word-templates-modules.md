@@ -105,14 +105,14 @@ A [!DNL Microsoft Word] 템플릿이 일반적입니다. [!DNL Microsoft Word] �
 단순 값 태그는 해당 값으로 간단히 대체됩니다. 태그의 이름은 [!UICONTROL 키] 중괄호 안에 있는 필드의 값(예:
 
 
-<pre>{{name}}</pre>
+<pre>&lbrace;&lbrace;name&rbrace;&rbrace;</pre>
 
 
 .
 
 **예:** &quot;안녕하세요, Petr!&quot;이라고 하는 문서를 만들려면 [!DNL Microsoft Word Template] 다음 템플릿을 만드는 모듈입니다.
 
-<pre>&gt; 안녕하세요. {{name}}!</pre>
+<pre>&gt; 안녕하세요. &lbrace;&lbrace;name&rbrace;&rbrace;!</pre>
 
 이렇게 하려면 다음과 같이 모듈을 설정합니다.
 
@@ -123,7 +123,7 @@ A [!DNL Microsoft Word] 템플릿이 일반적입니다. [!DNL Microsoft Word] �
 조건 태그를 사용하여 특정 조건이 충족될 때만 렌더링해야 하는 텍스트를 줄 바꿈할 수 있습니다. 텍스트를 둘러싸려면 데이터에 전화번호가 포함되는지 여부가 조건에 해당하는 경우 &quot;hasPhone&quot;과 같이 여는 조건 태그와 닫는 조건 태그 사이에 텍스트를 배치합니다. 여는 태그의 이름 앞에는 # 해시 기호가 사용되고, 닫는 태그의 이름 앞에는 아래 예와 같이 슬래시 / 기호가 추가됩니다.
 
 **예:** 입력 데이터에 전화번호는 있지만 이메일 주소는 없는 경우 고객의 전화번호가 포함된 문서를 생성하려면 [!DNL Microsoft Word Template] 을(를) 모듈화하고 다음 템플릿을 만듭니다.
-<pre>&gt; {{#hasPhone}}전화: {{phone}} {{/hasPhone}}</pre><pre>&gt; {{#hasEmail}}이메일: {{email}} {{/hasEmail}}</pre>이렇게 하려면 다음과 같이 모듈을 설정합니다.
+<pre>&gt; &lbrace;&lbrace;#hasPhone&rbrace;&rbrace;전화: &lbrace;&lbrace;phone&rbrace;&rbrace; &lbrace;&lbrace;/hasPhone&rbrace;&rbrace;</pre><pre>&gt; &lbrace;&lbrace;#hasEmail&rbrace;&rbrace;이메일: &lbrace;&lbrace;email&rbrace;&rbrace; &lbrace;&lbrace;/hasEmail&rbrace;&rbrace;</pre>이렇게 하려면 다음과 같이 모듈을 설정합니다.
 
 ![](assets/word-template-conditional-350x501.png)
 
@@ -141,7 +141,7 @@ A [!DNL Microsoft Word] 템플릿이 일반적입니다. [!DNL Microsoft Word] �
 
 **예:** 고객 목록에 있는 각 연락처의 이름과 전화 번호를 나열하는 문서를 만들려면 [!DNL Microsoft Word Template] 을(를) 모듈화하고 다음 템플릿을 만듭니다.
 
-<pre>&gt; {{#contact}}</pre><pre>&gt;     {{name}}, {{phone}}</pre><pre>&gt; {{/contact}}</pre>
+<pre>&gt; &lbrace;&lbrace;#contact&rbrace;&rbrace;</pre><pre>&gt;     &lbrace;&lbrace;name&rbrace;&rbrace;, &lbrace;&lbrace;phone&rbrace;&rbrace;</pre><pre>&gt; &lbrace;&lbrace;/contact&rbrace;&rbrace;</pre>
 
 이렇게 하려면 다음과 같이 모듈을 설정합니다.
 
