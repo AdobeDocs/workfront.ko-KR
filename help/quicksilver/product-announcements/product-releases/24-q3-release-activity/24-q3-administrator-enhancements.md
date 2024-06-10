@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: 1881803a78d1003636da558504e978316e80d064
+source-git-commit: 4e6f4523cd0b52458f8dc445d2b7784126f32a23
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,8 @@ ht-degree: 0%
 이전에는 개체를 샌드박스 또는 미리보기 환경과 별도로 프로덕션 환경에서 구성해야 했습니다.
 
 24.6 릴리스와 함께 환경 프로모션이 진행될 때 환경 프로모션에 대한 자세한 정보와 지침을 사용할 수 있습니다.
+
+[이 기능에 대한 비디오 데모 보기](https://video.tv.adobe.com/v/3429735/){target=_blank}
 
 ## 사용자 정의 양식 디자이너에서 사용자 정의 양식 및 사용자 정의 필드 공유
 
