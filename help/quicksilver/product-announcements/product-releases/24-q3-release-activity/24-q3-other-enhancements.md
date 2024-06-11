@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8fde6efe-dcf7-47f0-bf85-c66550191066
-source-git-commit: c219fb78fec086cdf5cad70da3f86873c5e6fe31
+source-git-commit: f71460bc3a0f3f93c3922b18d637435f77ca9594
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
@@ -17,8 +17,6 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2024년 3분기 릴리스의 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2024년 3분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [2024년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
-
-이미 메시지 - NOLAN은 무시할 수 있음
 
 ## 이제 더 많은 Workfront 조직에서 통합 경험 Adobe을 사용할 수 있습니다.
 
@@ -47,7 +45,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리보기 릴리스: 2024년 6월 6일, 빠른 릴리스를 위한 프로덕션: 24.6 릴리스 포함(2024년 6월 13일), 분기별 릴리스의 프로덕션: 24.7 릴리스 포함(2024년 7월)
+>미리보기 릴리스: 2024년 6월 6일, 모든 고객을 위한 프로덕션: 24.7 릴리스 포함(2024년 7월)
 
 통합 셸이 아닌 사용자를 위해 환경을 통합하기 위해 기본 탐색 막대의 도움말 버튼이 제거되었습니다. 통합 셸의 사용자에게 제공되지 않는 이 단추는 Workfront 설명서에 연결되어 있으며 기본 메뉴의 모든 사용자에게 사용할 수 있는 유사한 도움말 단추와 함께 이중화되었습니다.
 

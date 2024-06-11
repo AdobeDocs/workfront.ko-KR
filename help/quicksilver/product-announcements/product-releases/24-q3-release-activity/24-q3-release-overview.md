@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: c219fb78fec086cdf5cad70da3f86873c5e6fe31
+source-git-commit: f71460bc3a0f3f93c3922b18d637435f77ca9594
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1435'
 ht-degree: 0%
 
 ---
@@ -325,10 +325,7 @@ ht-degree: 0%
                                 <p>미리보기 릴리스: 2024년 6월 6일</p>
                             </li>
                             <li>
-                                <p>빠른 릴리스를 위한 프로덕션: 24.6 릴리스 포함(2024년 6월 13일)</p>
-                            </li>
-                            <li>
-                                <p>분기별 릴리스 프로덕션: 24.7 릴리스 포함(2024년 7월)</p>
+                                <p>모든 고객을 위한 프로덕션 릴리스: 24.7 릴리스 포함(2024년 7월)</p>
                             </li>
                         </ul>
                     </td>
