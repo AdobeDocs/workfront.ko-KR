@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 1881803a78d1003636da558504e978316e80d064
+source-git-commit: c219fb78fec086cdf5cad70da3f86873c5e6fe31
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: '1443'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 >
 >| 월별 릴리스 | 분기별 릴리스 |
 >|----|----|
->| <ul><li>24.5 (2024년 5월 16일)</li><li>24.6 (2024년 6월 20일)</li><li>24.7 (2024년 7월)</li></ul> | <ul><li>24.7 (2024년 7월)</li></ul> |
+>| <ul><li>24.5 (2024년 5월 16일)</li><li>24.6 (2024년 6월 13일)</li><li>24.7 (2024년 7월)</li></ul> | <ul><li>24.7 (2024년 7월)</li></ul> |
 >
 >빠른 릴리스 프로세스에 대한 자세한 내용은 [빠른 릴리스 프로세스 활성화 또는 비활성화](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
@@ -64,7 +64,7 @@ ht-degree: 0%
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
                             <li>
-                                <p>모든 고객을 위한 프로덕션 릴리스: 24.6 릴리스 포함(2024년 6월 20일)</p>
+                                <p>모든 고객을 위한 프로덕션 릴리스: 24.6 릴리스 포함(2024년 6월 13일)</p>
                             </li>
                         </ul>
                     </td>
@@ -297,6 +297,24 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">이제 더 많은 Workfront 조직에서 통합 경험 Adobe을 사용할 수 있습니다.</a></p>
+                        [!BADGE New in Preview ]{type=Negative}
+                        <p>조직이 Adobe 통합 경험의 이점에 액세스할 수 있도록 하기 위해 기존 Workfront 고객이 사용할 수 있도록 하기 시작했습니다. </p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2024년 6월 13일</p>
+                            </li>
+                            <li>
+                                <p>지정된 고객을 위한 프로덕션: 24.7 릴리스(2024년 7월)</p>
+                            </li>
+                         </ul>
+                         <span style="color: #ff0000;">Adobe 통합 쉘은 단계적 롤아웃에서 사용할 수 있습니다. 추가 조직은 24.10 및 25.1 릴리스와 함께 Adobe 통합 쉘로 온보딩됩니다. </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">기본 탐색 모음에서 도움말 단추 제거됨</a></p>
                         [!BADGE New in Preview ]{type=Negative}
                         <p>통합 셸이 아닌 사용자를 위해 환경을 통합하기 위해 기본 탐색 막대의 도움말 버튼이 제거되었습니다. 통합 셸의 사용자에게 제공되지 않는 이 단추는 Workfront 설명서에 연결되어 있으며 기본 메뉴의 모든 사용자에게 사용할 수 있는 유사한 도움말 단추와 함께 이중화되었습니다.</p>
@@ -307,7 +325,7 @@ ht-degree: 0%
                                 <p>미리보기 릴리스: 2024년 6월 6일</p>
                             </li>
                             <li>
-                                <p>빠른 릴리스를 위한 프로덕션: 24.6 릴리스 포함(2024년 6월 20일)</p>
+                                <p>빠른 릴리스를 위한 프로덕션: 24.6 릴리스 포함(2024년 6월 13일)</p>
                             </li>
                             <li>
                                 <p>분기별 릴리스 프로덕션: 24.7 릴리스 포함(2024년 7월)</p>

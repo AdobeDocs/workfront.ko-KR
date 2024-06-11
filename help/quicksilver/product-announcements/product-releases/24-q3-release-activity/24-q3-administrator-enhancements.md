@@ -7,7 +7,7 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: 4e6f4523cd0b52458f8dc445d2b7784126f32a23
+source-git-commit: c219fb78fec086cdf5cad70da3f86873c5e6fe31
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->환경 프로모션은 24.6 릴리스(2024년 6월 20일)를 통해 샌드박스, 미리보기 및 프로덕션 환경에서 사용할 수 있습니다.
+>환경 프로모션은 24.6 릴리스(2024년 6월 13일)를 통해 샌드박스, 미리보기 및 프로덕션 환경에서 사용할 수 있습니다.
 
 환경 프로모션을 사용하면 오브젝트를 한 Workfront 환경에서 다른 환경(예: 샌드박스 환경에서 프로덕션 환경으로)으로 이동할 수 있습니다. 조직의 데이터 및 레코드에 대한 위험 없이 개체를 구성하고 테스트할 수 있습니다. 그런 다음 재구성할 필요 없이 해당 객체를 프로덕션으로 이동하여 시간과 노력을 절약할 수 있습니다.
 
