@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: f71460bc3a0f3f93c3922b18d637435f77ca9594
+source-git-commit: 742de02474455f3518fb9d3422fe38dde59a076e
 workflow-type: tm+mt
 source-wordcount: '1435'
 ht-degree: 0%
@@ -304,7 +304,7 @@ ht-degree: 0%
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
                             <li>
-                                <p>미리보기 릴리스: 2024년 6월 13일</p>
+                                <p>미리보기 릴리스: 2024년 6월 11일</p>
                             </li>
                             <li>
                                 <p>지정된 고객을 위한 프로덕션: 24.7 릴리스(2024년 7월)</p>
