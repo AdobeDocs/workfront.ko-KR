@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: d0880e0b58a3fb853569e2c09efc495cbd9c38ec
 workflow-type: tm+mt
-source-wordcount: '2403'
+source-wordcount: '2619'
 ht-degree: 3%
 
 ---
@@ -264,6 +264,8 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
 
 * 연결된 레코드 필드나 조회 필드를 기준으로 필터링할 수 있지만 여러 레코드에 연결할 수 있는 필드는 필터링할 수 없습니다.
 
+* 현재 레코드 유형에서 최대 4개 수준까지 떨어진 필드를 참조할 수 있습니다. 예를 들어 활동 레코드 유형에 대한 필터를 만드는 경우 활동이 Workfront 프로젝트에 연결된 캠페인 레코드 유형에 연결된 제품 레코드 유형에 연결된 경우 활동 레코드 유형에 대해 만들고 있는 필터에서 프로젝트 소유자를 참조할 수 있습니다.
+
 테이블 보기에 필터를 추가하려면 다음 작업을 수행하십시오.
 
 1. 문서에 설명된 대로 레코드 유형 페이지에 대한 테이블 보기를 만듭니다 [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md).
@@ -373,6 +375,7 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
 * 그룹화를 제거하면 사용자와 동일한 레코드 유형에 액세스하거나 사용자와 동일한 보기를 표시하는 모든 사용자에게서 그룹화가 제거됩니다.
 * 그룹화 아래에 나열된 레코드를 편집할 수 있습니다.
 * 연결된 레코드 필드나 조회 필드를 기준으로 그룹화할 수 있지만 여러 레코드에 연결할 수 있는 필드는 그룹화할 수 없습니다.
+* 현재 레코드 유형에서 최대 4개 수준까지 떨어진 필드를 참조할 수 있습니다. 예를 들어, 활동 레코드 유형에 대한 그룹화를 만드는 중에 활동이 Workfront 프로젝트에 연결된 캠페인 레코드 유형에 연결된 제품 레코드 유형에 연결된 경우 활동 레코드 유형에 대해 만들고 있는 그룹화에서 프로젝트 소유자를 참조할 수 있습니다.
 <!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
 <!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 
@@ -428,6 +431,8 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
 * 정렬 기준을 제거하면 사용자와 동일한 레코드 유형에 액세스하는 모든 사람에서 정렬 기준이 제거되며 사용하는 것과 동일한 보기를 사용합니다.
 
 * 연결된 레코드 필드나 조회 필드를 기준으로 정렬할 수 있지만 여러 레코드에 연결할 수 있는 필드는 정렬할 수 없습니다.
+
+* 현재 레코드 유형에서 최대 4개 수준까지 떨어진 필드를 참조할 수 있습니다. 예를 들어 활동 레코드 유형에 대한 정렬을 생성하고 활동이 Workfront 프로젝트에 연결된 캠페인 레코드 유형에 연결된 제품 레코드 유형에 연결된 경우 활동 레코드 유형에 대해 생성 중인 정렬에서 프로젝트 소유자를 참조할 수 있습니다.
 
 정렬하려면 <!--ungrouped (add this when sorting for groupings will be available--> 레코드, 다음을 수행합니다.
 

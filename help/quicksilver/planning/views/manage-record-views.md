@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: d0880e0b58a3fb853569e2c09efc495cbd9c38ec
 workflow-type: tm+mt
 source-wordcount: '1065'
 ht-degree: 1%
@@ -117,6 +117,7 @@ Adobe Workfront Planning 영역에서 레코드 유형을 선택한 후 다음 �
   >[!NOTE]
   >
   > 일부 보기 요소는 모든 보기에서 사용하지 못할 수 있습니다.
+
 
 ## 레코드 보기 간의 유사성 및 차이점
 
