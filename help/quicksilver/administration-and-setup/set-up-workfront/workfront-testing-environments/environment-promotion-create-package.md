@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: d249751b78e9d40fe7a351db14cbf0f3b7c79889
+source-git-commit: 6f5da5ede6bb8c98b26d7d37366670c89ded6c49
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '669'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
   <tr>
    <td><strong>[!DNL Adobe Workfront] 플랜</strong>
    </td>
-   <td> 조직은 새로운 가격 모델에 포함되어야 하며 Prime 또는 Ultimate 플랜이 있어야 합니다.
+   <td> Prime 또는 Ultimate(신규 계획만 해당)
    </td>
   </tr>
   <tr>
