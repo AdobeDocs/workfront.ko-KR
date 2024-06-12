@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3d362be8-89c2-4699-a984-59c9234b4a0c
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: d249751b78e9d40fe7a351db14cbf0f3b7c79889
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
@@ -23,3 +23,9 @@ ht-degree: 0%
 
 * [다음 [!DNL Adobe Workfront] 샌드박스 환경 미리보기](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)
 * [다음 [!DNL Adobe Workfront] 사용자 정의 샌드박스 환경 새로 고침](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
+* 환경 프로모션:
+
+   * [Workfront 환경 간 객체 이동 개요(환경 프로모션)](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)
+   * [환경 프로모션 패키지 만들기 또는 편집](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
+   * [환경 프로모션 패키지 설치](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
+   * [다음 항목 간 개체 이동 [!DNL Workfront] 를 사용하는 환경 [!DNL Workfront] 환경 프로모션 API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)

@@ -8,20 +8,18 @@ description: 환경 프로모션 기능은 구성 관련 객체를 한 환경에
 author: Becky
 feature: System Setup and Administration
 role: Admin
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: b010a5126a9c7f49128c11b57e5d7b15260e691c
+source-git-commit: d249751b78e9d40fe7a351db14cbf0f3b7c79889
 workflow-type: tm+mt
-source-wordcount: '2059'
+source-wordcount: '2105'
 ht-degree: 2%
 
 ---
 
 # 다음 항목 간 개체 이동 [!DNL Workfront] 를 사용하는 환경 [!DNL Workfront] 환경 프로모션 API
 
-환경 프로모션 기능은 구성 관련 객체를 한 환경에서 다른 환경으로 이동할 수 있는 기능을 제공하기 위한 것입니다. 이 문서에 설명된 대로 Workfront API를 사용하여 이러한 개체를 이동할 수 있습니다.
+환경 프로모션 기능을 사용하면 구성 관련 객체를 한 환경에서 다른 환경으로 이동할 수 있습니다. 이 문서에 설명된 대로 Workfront API를 사용하여 이러한 개체를 이동할 수 있습니다.
 
 Workfront 애플리케이션을 사용하여 환경 간에 객체를 이동하는 방법에 대한 지침은 다음을 참조하십시오.
 
@@ -29,7 +27,32 @@ Workfront 애플리케이션을 사용하여 환경 간에 객체를 이동하�
 * [환경 프로모션 패키지 설치](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
 
-<!-- add access req for GA-->
+## 액세스 요구 사항
+
+다음 항목이 있어야 합니다.
+
+<table>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] 플랜</strong>
+   </td>
+   <td> 조직은 새로운 가격 모델에 포함되어야 하며 Prime 또는 Ultimate 플랜이 있어야 합니다.
+   </td>
+  </tr>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] 라이선스</strong>
+   </td>
+   <td> [!UICONTROL Standard]
+   </td>
+  </tr>
+   <tr>
+   <td>액세스 수준 구성
+   </td>
+   <td>다음이어야 합니다: [!DNL Workfront] 관리자.
+   </td>
+  </tr>
+</table>
+
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 전제 조건
 

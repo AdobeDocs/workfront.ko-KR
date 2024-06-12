@@ -8,13 +8,11 @@ description: 환경 프로모션 기능은 구성 관련 객체를 한 환경에
 author: Becky
 feature: System Setup and Administration
 role: Admin
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: e03573640fd8af9c811cef4cf176cc4f37d757fc
+source-git-commit: d249751b78e9d40fe7a351db14cbf0f3b7c79889
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -26,6 +24,33 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >환경 프로모션을 위해 오브젝트를 구성하는 동안 사용자 정의 새로 고침 샌드박스를 새로 고치면 해당 구성이 새로 고침에서 손실됩니다. 미해결 환경 프로모션 개체 및 패키지가 모두 성공적으로 프로모션되지 않는 한 사용자 정의 샌드박스 새로 고침을 새로 고치지 않는 것이 좋습니다.
+
+## 액세스 요구 사항
+
+다음 항목이 있어야 합니다.
+
+<table>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] 플랜</strong>
+   </td>
+   <td> 조직은 새로운 가격 모델에 포함되어야 하며 Prime 또는 Ultimate 플랜이 있어야 합니다.
+   </td>
+  </tr>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] 라이선스</strong>
+   </td>
+   <td> [!UICONTROL Standard]
+   </td>
+  </tr>
+   <tr>
+   <td>액세스 수준 구성
+   </td>
+   <td>다음이어야 합니다: [!DNL Workfront] 관리자.
+   </td>
+  </tr>
+</table>
+
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 패키지 만들기
 
