@@ -9,9 +9,9 @@ feature: Workfront API
 role: Developer
 recommendations: noDisplay, noCatalog
 exl-id: 644b9323-c6c3-49bd-8295-b51352992316
-source-git-commit: fffe92bc21104e297bc9dfcbc399c34b011e3927
+source-git-commit: 86c0517443537ec5af640036c290b3a495825fdc
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
@@ -29,4 +29,5 @@ ht-degree: 0%
 * [OPTASK copyIssue에 대한 옵션 구성](../../wf-api/tips-tricks-and-troubleshooting/copyissue-options.md)
 * [통화가 null(지정되지 않음)인 경우 프로젝트에 대한 통화 정보 검색](../../wf-api/tips-tricks-and-troubleshooting/retrieve-currency-when-null.md)
 * [API를 사용하여 연결된 폴더를 추가하는 작업은 지원되지 않습니다](../../wf-api/tips-tricks-and-troubleshooting/linked-folders-for-docu-not-supported.md)
+* [문서 moveToFolder 작업이 작동하지 않음](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/error-using-movetofolder.md)
 

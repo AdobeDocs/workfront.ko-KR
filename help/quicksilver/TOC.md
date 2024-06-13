@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: ca7d1276c179ceb5517881d064e431658ea63793
+source-git-commit: 86c0517443537ec5af640036c290b3a495825fdc
 workflow-type: tm+mt
-source-wordcount: '14345'
+source-wordcount: '14351'
 ht-degree: 1%
 
 ---
@@ -2744,6 +2744,7 @@ ht-degree: 1%
       * [OPTASK copyIssue에 대한 옵션 구성](wf-api/tips-tricks-and-troubleshooting/copyissue-options.md)
       * [통화가 null(지정되지 않음)인 경우 프로젝트에 대한 통화 정보 검색](wf-api/tips-tricks-and-troubleshooting/retrieve-currency-when-null.md)
       * [API를 사용하여 연결된 폴더를 추가하는 작업은 지원되지 않습니다](wf-api/tips-tricks-and-troubleshooting/linked-folders-for-docu-not-supported.md)
+      * [문서 moveToFolder 작업이 작동하지 않음](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/error-using-movetofolder.md)
 * ProofHQ API {#proofhqpapi}
    * [ProofHQ API](proofhq-api/proofhq-api.md)
    * 일반 {#general}
