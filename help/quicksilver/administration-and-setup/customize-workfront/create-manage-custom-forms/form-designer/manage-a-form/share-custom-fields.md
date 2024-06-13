@@ -7,7 +7,7 @@ description: 기본적으로 사용자 정의 양식에 새 사용자 정의 필
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: d80eb802baa6f03ca6e65e542f16b23e9d42444a
+source-git-commit: 6c43d836c24f893d1b7d7d01c1dd0b1cc3fba357
 workflow-type: tm+mt
 source-wordcount: '1095'
 ht-degree: 1%
@@ -15,8 +15,6 @@ ht-degree: 1%
 ---
 
 # 양식 디자이너와 사용자 정의 필드 및 위젯에 대한 공유 구성
-
-{{highlighted-preview-article-level}}
 
 기본적으로 사용자 정의 양식에 새 사용자 정의 필드 또는 위젯을 추가하면 사용자 정의 양식에 대한 액세스 권한이 있는 시스템의 모든 사용자가 해당 항목에 대한 레이블 및 이름과 같은 속성을 편집할 수 있습니다. 공유할 수 있는 사용자를 제어하여 변경할 수 있습니다.
 

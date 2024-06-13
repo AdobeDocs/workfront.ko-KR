@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: 6ddbe56dd187d62489c41ff721d0f071202e54e4
+source-git-commit: 6c43d836c24f893d1b7d7d01c1dd0b1cc3fba357
 workflow-type: tm+mt
 source-wordcount: '1408'
 ht-degree: 1%
@@ -16,8 +16,6 @@ ht-degree: 1%
 ---
 
 # 사용자 정의 양식 공유
-
-{{highlighted-preview}}
 
 사용자 정의 양식에 대한 액세스 권한을 구성하여 사용자 정의 양식을 보고, 공유하고, 편집할 수 있는 사용자(개인, 역할, 그룹, 팀, 회사)를 제어할 수 있습니다.
 
@@ -109,8 +107,6 @@ ht-degree: 1%
 
 1. **저장**&#x200B;을 클릭합니다.
 
-<div class="preview">
-
 ## 양식 디자이너에서 사용자 정의 양식 공유
 
 {{step-1-to-setup}}
@@ -160,8 +156,6 @@ ht-degree: 1%
    >사용자 정의 양식이 특정 오브젝트에 첨부되어 있을 때 사용자가 중요한 데이터를 입력할 수 있는 것이 걱정되는 경우, 해당 오브젝트에 대한 공유를 제한합니다 *오브젝트* 양식 자체에 대한 액세스를 제한하는 것보다 나을 수 있습니다.
 
 1. **저장**&#x200B;을 클릭합니다.
-
-</div>
 
 ## 양식 목록에서 사용자 정의 양식에 대한 액세스 제거
 
