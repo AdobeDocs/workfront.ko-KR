@@ -6,16 +6,14 @@ description: "사용자가 표시하는 정보 [!DNL Adobe Workfront] 는 다음
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: ae2e8f0914e5090b9ea2605f593fcef271469c61
+source-git-commit: 25939493f6ffed31ae1bdaf26d417ce4e5e5c004
 workflow-type: tm+mt
-source-wordcount: '2441'
+source-wordcount: '2419'
 ht-degree: 1%
 
 ---
 
 # [!DNL Adobe Workfront] 개체 개요
-
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
 
 <!--Audited: 12/2023-->
 
@@ -211,14 +209,11 @@ Workfront에서 다른 개체의 이름은 사용자 지정할 수 없습니다.
 
 ## 오브젝트에 대한 제한된 액세스
 
-<span class="preview">
-사용자에게 오브젝트에 대한 액세스 권한이 없는 경우 Workfront에 해당 오브젝트 이름이 표시되는 모든 위치에 "액세스 권한 없음"이 표시됩니다.
+사용자에게 오브젝트에 대한 액세스 권한이 없는 경우 Workfront에 해당 오브젝트 이름이 표시되는 모든 위치에 &quot;액세스 권한 없음&quot;이 표시됩니다.
 
 객체에 대한 액세스는 액세스 수준 또는 특정 객체의 권한으로 제한될 수 있습니다.
 
 다음 목록에 나열된 모든 객체와 하위 객체에 적용됩니다. [객체의 상호 의존성 및 계층](#interdependency-and-hierarchy-of-objects) 이 문서의 섹션. 팀 및 사용자 개체에는 적용되지 않습니다.
-
-</span>
 
 ## 오브젝트에 대한 보고서
 
