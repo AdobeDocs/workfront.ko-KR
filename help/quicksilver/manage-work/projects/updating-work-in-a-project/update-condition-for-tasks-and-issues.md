@@ -6,16 +6,20 @@ description: 작업 또는 문제의 상태는 작업 또는 문제의 진행 �
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1095'
 ht-degree: 1%
 
 ---
 
 # 작업 및 문제에 대한 상태 업데이트
 
-{{highlighted-preview}}
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리보기 환경 또는 빠른 릴리스를 활성화한 고객의 프로덕션 환경에서만 사용할 수 있습니다.</span>
+
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 활성화 또는 비활성화](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">현재 릴리스에 대한 자세한 내용은 [2024년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 작업 또는 문제의 상태는 작업 또는 문제의 진행 상황을 나타내는 플래그입니다. 이는 항목의 현재 개발 단계를 나타내는 작업 항목의 상태와 다릅니다.
 
@@ -136,7 +140,7 @@ Updating the Condition of a task or issue differs depending on whether you are a
 
 1. 작업 또는 문제 세부 정보 섹션에서 작업 또는 문제의 상태를 업데이트하려면 다음을 수행하십시오.
 
-   1. (조건부) Workfront 또는 그룹 관리자가 레이아웃 템플릿에서 작업 또는 문제의 세부 정보 섹션에 조건 필드를 추가한 경우 다음을 클릭하십시오. **세부 사항** 왼쪽 패널에서 를 클릭한 다음 **조건** 필드를 선택하고 다음 옵션 중에서 선택합니다.
+   1. (조건부) Workfront 또는 그룹 관리자가 레이아웃 템플릿에서 작업 또는 문제의 세부 정보 섹션에 조건 필드를 추가한 경우 다음을 클릭하십시오. **세부 사항** 왼쪽 패널에서 를 클릭한 다음 **작업 상태** 또는 **문제 상태** 을 클릭하고 다음 옵션 중에서 선택합니다.
       * 매끄럽게 진행 중
       * 일부 우려 사항
       * 주요 장애물

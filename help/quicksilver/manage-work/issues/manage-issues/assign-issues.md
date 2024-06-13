@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: 0d525df9beacc989ec3c1c695a7757dff0ad77b3
+source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
 workflow-type: tm+mt
 source-wordcount: '1551'
 ht-degree: 0%
@@ -128,7 +128,7 @@ ht-degree: 0%
      ![](assets/nwe-assignments-expanded-in-task-header-350x259.png)
 
      <span class="preview">미리보기 환경의 샘플 이미지:</span>
-     ![할당 검색](assets/assignments-expanded-in-task-issue-header.png)
+     <span class="preview">![할당 검색](assets/smart-assignments-issue-header.png)</span>
 
    * (조건부) **제안된 할당** 목록
    * 클릭 **나에게 할당** 자신에게 할당하기

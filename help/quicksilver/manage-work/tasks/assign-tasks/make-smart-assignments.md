@@ -6,9 +6,9 @@ description: 스마트 할당을 사용하여 작업을 완료하는 데 가장 
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
+source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
@@ -75,22 +75,29 @@ ht-degree: 0%
 
 1. 할당 필드에 커서를 놓고 2초 동안 기다립니다.
 
-   <span class="preview">다음 **제안된 할당** 목록이 표시됩니다.</span> <!--check the casing for "assignments" should be lower case in task lists??-->
+   <div class="preview">
+   스마트 할당 제안을 포함하는 다음 섹션 중 하나 또는 여러 섹션이 표시됩니다.
 
-   >[!TIP]
-   >
-   >   목록 헤더가 표시됩니다. **다음은 몇 가지 권장 사항입니다** 대신 **제안된 할당** 문제 목록에 있습니다.
+   * **제안된 할당**: 작업용으로 표시됩니다.
 
-   ![](assets/smart-assignments-task-header-nwe-350x302.png)
+     >[!TIP]
+     >
+     >   목록 헤더가 표시됩니다. **다음은 몇 가지 권장 사항입니다** 대신 **제안된 할당** 프로덕션 환경에서.
+     >
+   * **기타 할당**: 작업 및 문제에 대해 표시됩니다.
+   * **사용자 및 팀**: 작업 및 문제에 대해 표시됩니다.
+   * **작업 역할**: 작업 및 문제를 표시합니다.
+   </div>
 
-   문제의 경우 스마트 할당 제안이 **제안된 할당** 영역입니다.
+   <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
+
 
    작업의 경우, 스마트 할당은 알고리즘 계산에서 할당을 식별하는 단계에 따라 다음 섹션에 표시됩니다.
 
    * **제안된 할당**: 작업 스마트 할당의 알고리즘 계산 첫 번째 단계에서 확인된 할당입니다. <span class="preview">이 섹션은 문제에 사용할 수 없습니다.</span>
-   * <span class="preview">**기타 할당** (또는 **사용자 및 팀**, 또는 **작업 역할**): 작업 스마트 할당의 알고리즘 계산 두 번째 단계에서 식별된 할당입니다. <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
+   * <span class="preview">**기타 할당**, **사용자 및 팀**, 또는 **작업 역할**: 작업 스마트 할당의 알고리즘 계산 두 번째 단계에서 식별된 할당입니다. <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
 
-   ![](assets/smart-assignments-task-list.png)
+   <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 
    자세한 내용은 [스마트 할당 개요](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
