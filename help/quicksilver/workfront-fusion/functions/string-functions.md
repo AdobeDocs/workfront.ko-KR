@@ -8,7 +8,7 @@ description: Adobe Workfront Fusion 매핑 패널에서 다음 문자열 함수�
 author: Becky
 feature: Workfront Fusion
 exl-id: c6676a87-2498-4de8-b877-7edc30aeabae
-source-git-commit: 33f2a721aa6bc246b27e5f45107619346512318f
+source-git-commit: 0b286e43ed77669329fbee25618394ee5641e428
 workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 0%
@@ -56,121 +56,6 @@ ht-degree: 0%
 
 다음에 대한 정보: [!DNL Adobe Workfront Fusion] 라이센스, 참조 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## [!UICONTROL ascii(텍스트; [분음 부호 제거])]
-
-텍스트 문자열에서 ASCII가 아닌 모든 문자를 제거합니다.
-
->[!INFO]
->
->**예:**
->
->* `ascii(` `Wěošrčkřfžrýoáníté` `)`
->
->   반환: [!DNL Workfront]
->
->* `ascii(` `ěščřž` `;` `true` `)`
->
->   반환: [!UICONTROL escrz]
-
-## [!UICONTROL base64(텍스트)]
-
-텍스트를 base64로 변환합니다.
-
->[!INFO]
->
->**예:**
->
->`base64( workfront )`
->
->반환: d29ya2Zyb250==
-
-## [!UICONTROL 대문자(텍스트)]
-
-텍스트 문자열의 첫 번째 문자를 대문자로 변환합니다.
-
->[!INFO]
->
->**예:**
->
->`capitalize( workfront )`
->
->반환: [!DNL Workfront]
-
-## 포함(텍스트, 검색 문자열)
-
-텍스트에 검색 문자열이 포함되어 있는지 확인합니다.
-
->[!INFO]
->
->**예:**
->
->* `contains( Hello World ; Hello )`
->
->   반환: [!UICONTROL true]
->
->* `contains( Hello World ; Bye )`
->
->   반환: [!UICONTROL false]
-
-## [!UICONTROL decodeURL(텍스트)]
-
-URL의 특수 문자를 텍스트로 디코딩합니다.
-
->[!INFO]
->
->**예:**
->`decodeURL( Automate%20your%20workflow )`
->
->반환: [!UICONTROL 워크플로우 자동화]
-
-## [!UICONTROL encodeURL(텍스트)]
-
-일부 텍스트의 특수 문자를 유효한 URL 주소로 인코딩합니다.
-
-## [!UICONTROL escapeHTML(텍스트)]
-
-텍스트의 모든 HTML 태그를 이스케이프 처리합니다.
-
->[!INFO]
->
->**예:**
->
->`escapeHTML( <b>Hello</b> )`
->
-> 반환: `&lt;b&gt;Hello&lt;/b&gt;`
-
-## [!UICONTROL escapeMarkdown(텍스트)]
-
-텍스트의 모든 Markdown 태그를 이스케이프 처리합니다.
-
->[!INFO]
->
->**예:**
->
->`escapeMarkdown( # Header )`
->
->반환: `&#35; Header`
-
-## [!DNL indexOf (string; value; [start])]
-
-문자열에서 지정된 값의 첫 번째 발생 위치를 반환합니다. 이 메서드는 검색된 값이 없는 경우 &#39;-1&#39;을 반환합니다. 시작 값은 문자열에서 검색이 시작되는 위치를 나타냅니다.
-
->[!INFO]
->
->**예:**
->
->* `indexOf( Workfront ; o )`
->
->   반환: 1
->
->* `indexOf( Workfront ; x )`
->
->   반환: -1
->
->* `indexOf( Workfront ; o ; 3 )`
->
->   반환: 6
-
 ## [!UICONTROL length(텍스트 또는 버퍼)]
 
 텍스트 문자열 길이(문자 수) 또는 이진 버퍼(버퍼 크기(바이트))를 반환합니다.
@@ -195,17 +80,46 @@ URL의 특수 문자를 텍스트로 디코딩합니다.
 >
 >반환: hello
 
-## [!UICONTROL md5(텍스트)]
+## [!UICONTROL 대문자(텍스트)]
 
-문자열의 md5 해시를 계산합니다.
+텍스트 문자열의 첫 번째 문자를 대문자로 변환합니다.
 
 >[!INFO]
 >
 >**예:**
 >
->`md5( Workfront )`
+>`capitalize( workfront )`
 >
->반환: `1448bbbeaa7a9b8091d426999f1f666b`
+>반환: [!DNL Workfront]
+
+## [!UICONTROL startcase(텍스트)]
+
+모든 단어의 첫 번째 문자를 대문자로 사용하고 다른 모든 문자는 소문자로 바꿉니다.
+
+>[!INFO]
+>
+>**예:**
+>`startcase( hello WORLD )`
+>
+>반환: [!UICONTROL 헬로 월드]
+
+## [!UICONTROL ascii(텍스트; [분음 부호 제거])]
+
+텍스트 문자열에서 ASCII가 아닌 모든 문자를 제거합니다.
+
+>[!INFO]
+>
+>**예:**
+>
+>* `ascii(` `Wěošrčkřfžrýoáníté` `)`
+>
+>   반환: [!DNL Workfront]
+>
+>* `ascii(` `ěščřž` `;` `true` `)`
+>
+>   반환: [!UICONTROL escrz]
+
+
 
 ## [!UICONTROL 바꾸기(텍스트;검색 문자열; 대체 문자열)]
 
@@ -251,6 +165,169 @@ URL의 특수 문자를 텍스트로 디코딩합니다.
 >다음과 같은 명명된 캡처 그룹을 사용하지 마십시오. `/ is (?<number>\d+)/` 를 입력합니다. 이렇게 하면 오류가 발생합니다.
 
 정규 표현식에 대한 자세한 내용은 [텍스트 구문 분석기](../../workfront-fusion/apps-and-their-modules/text-parser.md).
+
+## [!UICONTROL 트리밍(텍스트)]
+
+텍스트의 시작 또는 끝에 있는 공백 문자를 제거합니다.
+
+## [!UICONTROL upper(텍스트)]
+
+텍스트 문자열의 모든 알파벳 문자를 대문자로 변환합니다.
+
+>[!INFO]
+>
+>**예:**
+>
+>`upper( Hello )`
+>
+>반환: [!UICONTROL 안녕하세요.]
+
+## [!UICONTROL 하위 문자열(텍스트, 시작, 종료)]
+
+시작 위치와 끝 위치 사이의 텍스트 문자열 부분을 반환합니다.
+
+>[!INFO]
+>
+>**예:**
+>
+>* `substring( Hello ; 0 ; 3)`
+>
+>   반환: 도움말
+>
+>* `substring( Hello ; 1 ; 3 )`
+>
+>   반환: el
+
+## [!DNL indexOf (string; value; [start])]
+
+문자열에서 지정된 값의 첫 번째 발생 위치를 반환합니다. 이 메서드는 검색된 값이 없는 경우 &#39;-1&#39;을 반환합니다. 시작 값은 문자열에서 검색이 시작되는 위치를 나타냅니다.
+
+>[!INFO]
+>
+>**예:**
+>
+>* `indexOf( Workfront ; o )`
+>
+>   반환: 1
+>
+>* `indexOf( Workfront ; x )`
+>
+>   반환: -1
+>
+>* `indexOf( Workfront ; o ; 3 )`
+>
+>   반환: 6
+
+## [!UICONTROL toBinary(값)]
+
+모든 값을 이진 데이터로 변환합니다.
+
+16진수 또는 base64의 이진 변환을 이진 데이터에 적용할 두 번째 인수로 인코딩을 지정할 수도 있습니다.
+
+>[!INFO]
+>
+>**예:**
+>
+>* `toBinary( Workfront )`
+>
+>   반환: 57 6f 72 6b 66 72 6f 6e 74
+>
+>* `toBinary( V29ya2Zyb250 ; base64 )`
+>
+>   반환: 57 6f 72 6b 66 72 6f 6e 74
+
+## [!UICONTROL toString (값)]
+
+모든 값을 문자열로 변환합니다.
+
+## [!UICONTROL encodeURL(텍스트)]
+
+일부 텍스트의 특수 문자를 유효한 URL 주소로 인코딩합니다.
+
+## [!UICONTROL decodeURL(텍스트)]
+
+URL의 특수 문자를 텍스트로 디코딩합니다.
+
+>[!INFO]
+>
+>**예:**
+>`decodeURL( Automate%20your%20workflow )`
+>
+>반환: [!UICONTROL 워크플로우 자동화]
+
+## [!UICONTROL escapeHTML(텍스트)]
+
+텍스트의 모든 HTML 태그를 이스케이프 처리합니다.
+
+>[!INFO]
+>
+>**예:**
+>
+>`escapeHTML( <b>Hello</b> )`
+>
+> 반환: `&lt;b&gt;Hello&lt;/b&gt;`
+
+## [!UICONTROL escapeMarkdown(텍스트)]
+
+텍스트의 모든 Markdown 태그를 이스케이프 처리합니다.
+
+>[!INFO]
+>
+>**예:**
+>
+>`escapeMarkdown( # Header )`
+>
+>반환: `&#35; Header`
+
+## [!UICONTROL stripHTML(텍스트)]
+
+텍스트에서 모든 HTML 태그를 제거합니다.
+
+>[!INFO]
+>
+>**예:**
+>
+>`stripHTML( <b>Hello</b> )`
+>
+>반환: 안녕하세요.
+
+## 포함(텍스트, 검색 문자열)
+
+텍스트에 검색 문자열이 포함되어 있는지 확인합니다.
+
+>[!INFO]
+>
+>**예:**
+>
+>* `contains( Hello World ; Hello )`
+>
+>   반환: [!UICONTROL true]
+>
+>* `contains( Hello World ; Bye )`
+>
+>   반환: [!UICONTROL false]
+
+## [!UICONTROL 분할(텍스트, 구분 문자)]
+
+문자열을 하위 문자열로 분리하여 문자열을 문자열 배열로 분할합니다.
+
+>[!INFO]
+>
+>**예:**
+>
+>`split( John, George, Paul ; , )`
+
+## [!UICONTROL md5(텍스트)]
+
+문자열의 md5 해시를 계산합니다.
+
+>[!INFO]
+>
+>**예:**
+>
+>`md5( Workfront )`
+>
+>반환: `1448bbbeaa7a9b8091d426999f1f666b`
 
 ## [!UICONTROL sha1(텍스트; [인코딩]; [key])]
 
@@ -302,89 +379,14 @@ URL의 특수 문자를 텍스트로 디코딩합니다.
 >
 >반환: 789ae41b9456357e4f27c6a09956a767abbb8d80b206003ffdd1e94dbc687cd119b85e1e19db58bb44b234493af35fd431639c0345aadf2cf7ec26e9f4a7fb19
 
-## [!UICONTROL 분할(텍스트, 구분 문자)]
+## [!UICONTROL base64(텍스트)]
 
-문자열을 하위 문자열로 분리하여 문자열을 문자열 배열로 분할합니다.
-
->[!INFO]
->
->**예:**
->
->`split( John, George, Paul ; , )`
-
-## [!UICONTROL startcase(텍스트)]
-
-모든 단어의 첫 번째 문자를 대문자로 사용하고 다른 모든 문자는 소문자로 바꿉니다.
-
->[!INFO]
->
->**예:**
->`startcase( hello WORLD )`
->
->반환: [!UICONTROL 헬로 월드]
-
-## [!UICONTROL stripHTML(텍스트)]
-
-텍스트에서 모든 HTML 태그를 제거합니다.
+텍스트를 base64로 변환합니다.
 
 >[!INFO]
 >
 >**예:**
 >
->`stripHTML( <b>Hello</b> )`
+>`base64( workfront )`
 >
->반환: 안녕하세요.
-
-## [!UICONTROL 하위 문자열(텍스트, 시작, 종료)]
-
-시작 위치와 끝 위치 사이의 텍스트 문자열 부분을 반환합니다.
-
->[!INFO]
->
->**예:**
->
->* `substring( Hello ; 0 ; 3)`
->
->   반환: 도움말
->
->* `substring( Hello ; 1 ; 3 )`
->
->   반환: el
-
-## [!UICONTROL toBinary(값)]
-
-모든 값을 이진 데이터로 변환합니다.
-
-16진수 또는 base64의 이진 변환을 이진 데이터에 적용할 두 번째 인수로 인코딩을 지정할 수도 있습니다.
-
->[!INFO]
->
->**예:**
->
->* `toBinary( Workfront )`
->
->   반환: 57 6f 72 6b 66 72 6f 6e 74
->
->* `toBinary( V29ya2Zyb250 ; base64 )`
->
->   반환: 57 6f 72 6b 66 72 6f 6e 74
-
-## [!UICONTROL toString (값)]
-
-모든 값을 문자열로 변환합니다.
-
-## [!UICONTROL 트리밍(텍스트)]
-
-텍스트의 시작 또는 끝에 있는 공백 문자를 제거합니다.
-
-## [!UICONTROL upper(텍스트)]
-
-텍스트 문자열의 모든 알파벳 문자를 대문자로 변환합니다.
-
->[!INFO]
->
->**예:**
->
->`upper( Hello )`
->
->반환: [!UICONTROL 안녕하세요.]
+>반환: d29ya2Zyb250==
