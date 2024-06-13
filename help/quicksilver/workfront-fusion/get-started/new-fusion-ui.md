@@ -7,9 +7,9 @@ description: Workfront Fusion은 Adobe Experience Cloud을 통해 Fusion에 액�
 author: Becky
 feature: Workfront Fusion
 exl-id: 2887a0e2-039e-4e29-823d-82809f217045
-source-git-commit: 2a33e997113e098d0e019c2437795ac481748fc9
+source-git-commit: 5e1508e8e49a5ceb95b1524dbb23a258ab5c4e20
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,8 @@ Workfront Fusion은 Adobe Experience Cloud을 통해 Fusion에 액세스하지 �
 
 >[!IMPORTANT]
 >
->레거시 Fusion 경험은 2024년 8월 15일에 사용이 중단됩니다.
+>* 레거시 Fusion 경험은 2024년 8월 15일에 사용이 중단됩니다.
+>* 처음 로드할 때 새 Fusion 경험이 느리게(30~60초) 로드될 수 있습니다. 처음 시도하면 Fusion이 더 빠르게 로드됩니다.
 
 ## 액세스 요구 사항
 
