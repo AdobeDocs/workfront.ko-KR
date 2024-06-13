@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: 6f5da5ede6bb8c98b26d7d37366670c89ded6c49
+source-git-commit: b26f20b13a18c6e727fcf9e267ba9c53e5b566dc
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '912'
 ht-degree: 0%
 
 ---
@@ -94,9 +94,15 @@ ht-degree: 0%
 
 ## 충돌
 
-충돌은 설치 패키지의 일부인 객체가 대상 환경에 이미 존재하는 객체와 동일한 이름을 가질 때 발생합니다. 이 경우 충돌 해결 방법을 선택할 수 있습니다. 충돌은 객체 레벨에서 해결됩니다.
+충돌은 소스 환경에서 설치 중인 객체 중 하나와 일치하는 설치 대상 환경에서 발견된 객체입니다. 소스 객체의 이름과 ID를 대상 환경의 객체와 비교하여 충돌을 감지합니다. 또한 소스 객체와 이전에 설치된 객체의 기록을 비교하여 충돌을 감지합니다.
+
+충돌이 발생하면 충돌 해결 방법을 선택할 수 있습니다. 충돌은 객체 레벨에서 해결됩니다.
 
 각 객체 유형 옆에 있는 드롭다운을 클릭하여 충돌을 볼 수 있습니다. 충돌은 충돌(Collision) 열에 표시됩니다.
+
+>[!NOTE]
+>
+>감지된 충돌은 재정의하거나 설치에서 사용할 개체가 아닐 수 있습니다. 감지된 충돌을 확인하여 설치 대상이 올바른지 확인하는 것이 좋습니다.
 
 충돌을 해결하려면 배포 작업 열에서 작업을 선택하거나 이미 표시된 기본 작업을 사용합니다.
 
