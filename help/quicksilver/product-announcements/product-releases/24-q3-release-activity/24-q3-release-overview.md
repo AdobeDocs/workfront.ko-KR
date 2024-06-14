@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 742de02474455f3518fb9d3422fe38dde59a076e
+source-git-commit: d75b99987bec596c44454d77073e332441f4ed29
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1440'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 이 페이지에서는 2024년 3분기 릴리스에 포함된 기능에 대한 정보를 제공합니다. 이러한 개선 사항은 분기 내내 프로덕션 환경에서 사용할 수 있도록 계획되어 있습니다.
 
-<!--The 24.1 release webinar was on January 11, 2024. You can [register for the webinar to view an on-demand recording here](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).-->
+24.7 릴리스 웨비나는 2024년 6월 27일에 제공됩니다. 다음을 수행할 수 있습니다. [여기서 웨비나 등록](https://webinars.on24.com/adobe_workfront/whatsnewin247?partnerref=releaseoverview).
 
 <span class="preview">오프 사이클 기능(2024년 3분기 릴리스 날짜 이전에 프로덕션에 릴리스된 기능)은 노란색으로 강조 표시됩니다.</span>
 
@@ -59,6 +59,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">환경 프로모션을 사용하여 Workfront 환경 간에 개체 이동</a></p>
+                        [!BADGE In production ]{type=Informative}
                         <p>환경 프로모션을 사용하면 오브젝트를 한 Workfront 환경에서 다른 환경(예: 샌드박스 환경에서 프로덕션 환경으로)으로 이동할 수 있습니다. 조직의 데이터 및 레코드에 대한 위험 없이 개체를 구성하고 테스트할 수 있습니다. 그런 다음 재구성할 필요 없이 해당 객체를 프로덕션으로 이동하여 시간과 노력을 절약할 수 있습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -72,7 +73,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">사용자 정의 양식 디자이너에서 사용자 정의 양식 및 사용자 정의 필드 공유</a></p>
-                        [!BADGE New in Preview ]{type=Negative}
+                        [!BADGE In production ]{type=Informative}
                         <p>이제 새 양식 디자이너 내에서 사용자 정의 양식과 사용자 정의 필드를 모두 공유할 수 있습니다. 이를 통해 사용자 정의 양식에서 사용자 간의 공동 작업을 향상시킬 수 있습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -81,7 +82,7 @@ ht-degree: 0%
                                 <p>미리보기 릴리스: 2024년 6월 6일</p>
                             </li>
                             <li>
-                                <p>모든 고객을 위한 프로덕션 릴리스: TBD</p>
+                                <p><span class="preview">모든 고객을 위한 프로덕션 릴리스: 6월 13일</span></p>
                             </li>
                         </ul>
                     </td>
@@ -89,7 +90,6 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">필드 영역에서 새 사용자 정의 필드 추가</a></p>
-                        [!BADGE New in Preview ]{type=Negative}
                         <p>이제 사용자 정의 양식을 열어 필드를 만들지 않고도 Workfront의 필드 영역에서 직접 새 사용자 정의 필드 또는 위젯을 추가할 수 있습니다. 이를 통해 재사용 가능한 사용자 정의 필드를 신속하게 만들 수 있습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -142,7 +142,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-financial-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">프로젝트 및 태스크에 사용할 수 있는 청구 가능 및 청구 불가능 경비 필드</a></p>
-                        <p>[!BADGE In production ]{type=Informative}</p>
+                        [!BADGE In production ]{type=Informative}
                         <p>경비 유형을 보다 쉽게 볼 수 있도록 하기 위해, 경비는 프로젝트 및 태스크에서 청구 가능 경비와 청구 불가능 경비로 구분되었습니다. 보기 및 보고서에 추가할 수 있는 필드는 다음과 같습니다.</p>
                         <ul>
                             <li><p>계획된 청구 가능 경비 비용</p></li>
@@ -184,7 +184,8 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">헤더 또는 세부 정보 섹션에서 작업 및 문제 커밋 일자 및 조건 편집</a></p>
-                        <p>작업 및 문제를 더 쉽게 업데이트할 수 있도록 이제 커밋 일자 및 조건 필드를 레이아웃 템플릿의 작업 및 문제 헤더 및 세부 정보 섹션에 추가할 수 있는 옵션으로 추가했습니다. 이제 사용자는 수정된 레이아웃 템플릿에 할당될 때 페이지의 헤더 또는 세부 정보 섹션에서 이러한 필드를 업데이트할 수 있습니다.   </p>
+                        [!BADGE In Production for Fast Release ]{type=Positive}
+                        <p>작업 및 문제를 더 쉽게 업데이트할 수 있도록 이제 커밋 일자 및 조건 필드를 레이아웃 템플릿의 작업 및 문제 헤더 및 세부 정보 섹션에 추가할 수 있는 옵션으로 추가했습니다. 이제 사용자는 수정된 레이아웃 템플릿에 할당될 때 페이지의 헤더 또는 세부 정보 섹션에서 이러한 필드를 업데이트할 수 있습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
@@ -262,7 +263,6 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-resource-mgmt-enhancements.md">휴무가 업무 균형자에 반영됨</a></p>
-                        [!BADGE New in Preview ]{type=Negative}
                         <p>작업의 기본 할당자가 휴무를 예약한 경우 작업을 원활하게 조정하기 위해 이제 업무 균형자 가 프로젝트 타임라인이 다시 계산될 때 기본 사용자와 보조 사용자 모두에게 시간을 다시 할당합니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -298,7 +298,6 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">이제 더 많은 Workfront 조직에서 통합 경험 Adobe을 사용할 수 있습니다.</a></p>
-                        [!BADGE New in Preview ]{type=Negative}
                         <p>조직이 Adobe 통합 경험의 이점에 액세스할 수 있도록 하기 위해 기존 Workfront 고객이 사용할 수 있도록 하기 시작했습니다. </p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -316,7 +315,6 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">기본 탐색 모음에서 도움말 단추 제거됨</a></p>
-                        [!BADGE New in Preview ]{type=Negative}
                         <p>통합 셸이 아닌 사용자를 위해 환경을 통합하기 위해 기본 탐색 막대의 도움말 버튼이 제거되었습니다. 통합 셸의 사용자에게 제공되지 않는 이 단추는 Workfront 설명서에 연결되어 있으며 기본 메뉴의 모든 사용자에게 사용할 수 있는 유사한 도움말 단추와 함께 이중화되었습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -333,7 +331,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">오브젝트 액세스가 제한된 사용자를 위한 UI 경험 개선</a></p>
-                        <p>[!BADGE In Production for Fast Release ]{type=Positive}</p>
+                        [!BADGE In Production for Fast Release ]{type=Positive}
                         <p>사용자에게 오브젝트에 대한 액세스 권한이 없는 경우 Workfront에 해당 오브젝트 이름이 표시되는 모든 위치에 "액세스 권한 없음"이 표시됩니다. 이러한 향상된 경험은 Workfront API에도 적용됩니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>

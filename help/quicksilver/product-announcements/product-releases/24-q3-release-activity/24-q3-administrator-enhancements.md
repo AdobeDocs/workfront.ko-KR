@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: f71460bc3a0f3f93c3922b18d637435f77ca9594
+source-git-commit: d75b99987bec596c44454d77073e332441f4ed29
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -28,15 +28,20 @@ ht-degree: 0%
 
 이전에는 개체를 샌드박스 또는 미리보기 환경과 별도로 프로덕션 환경에서 구성해야 했습니다.
 
-24.6 릴리스와 함께 환경 프로모션이 진행될 때 환경 프로모션에 대한 자세한 정보와 지침을 사용할 수 있습니다.
+환경 프로모션에 대한 자세한 내용은 [Workfront 환경 간 객체 이동 개요(환경 프로모션)](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)
 
 [이 기능에 대한 비디오 데모 보기](https://video.tv.adobe.com/v/3429735/){target=_blank}
+
+>[!IMPORTANT]
+>
+>환경 프로모션은 새로운 Prime 또는 Ultimate 플랜에 있는 조직에서만 사용할 수 있습니다.
+>
 
 ## 사용자 정의 양식 디자이너에서 사용자 정의 양식 및 사용자 정의 필드 공유
 
 >[!NOTE]
 >
->미리보기 릴리스: 2024년 6월 6일, 모든 고객을 위한 프로덕션 릴리스: 미정
+>미리보기 릴리스: 2024년 6월 6일, 모든 고객을 위한 프로덕션 릴리스: 6월 13일
 
 이제 새 양식 디자이너 내에서 사용자 정의 양식과 사용자 정의 필드를 모두 공유할 수 있습니다. 이를 통해 사용자 정의 양식에서 사용자 간의 공동 작업을 향상시킬 수 있습니다.
 
