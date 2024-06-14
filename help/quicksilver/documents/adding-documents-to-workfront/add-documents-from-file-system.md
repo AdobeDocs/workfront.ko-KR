@@ -6,9 +6,9 @@ description: Adobe Workfront의 여러 영역에서 프로젝트, 작업 또는 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: 873745b7a7e7902a3617a577b3ed0414f987a4ce
+source-git-commit: 187e33c088177affd246aaf90cea33d6201e7a1b
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '766'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,8 @@ Workfront에 업로드할 수 있는 파일의 유형과 크기에는 제한이 
 새 버전의 문서를 Workfront에 업로드하는 방법에 대한 자세한 내용은 [새 문서 버전 업로드](../../documents/managing-documents/upload-new-document-version.md).
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 다음 항목이 있어야 합니다.
 
@@ -50,15 +52,19 @@ Workfront에 업로드할 수 있는 파일의 유형과 크기에는 제한이 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+
++++
 
 ## Workfront에 문서 추가
 
 워크스테이션의 파일 시스템에서 Workfront에 새 문서를 추가할 수 있습니다. Google 드라이브 및 SharePoint과 같은 서드파티 애플리케이션에서 문서를 연결할 수도 있습니다.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->문서 업로드에 대한 크기 제한은 없지만 문서 다운로드는 4GB로 제한됩니다.
+>* 한 번에 최대 150개의 문서를 업로드할 수 있습니다.
+>* 파일 크기에는 제한이 없습니다.
+>* 문서 다운로드는 4GB로 제한됩니다.
 
 문서를 추가하려면 다음 작업을 수행하십시오.
 
