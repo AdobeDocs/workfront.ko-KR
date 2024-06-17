@@ -6,9 +6,9 @@ description: 다음을 설치할 수 있습니다. [!DNL Adobe Workfront for des
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 78a6cee213887c72aedc14bbb4552f28fc27625d
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '536'
 ht-degree: 1%
 
 ---
@@ -39,6 +39,8 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -60,7 +62,9 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
+보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
+
++++
 
 ## 전제 조건
 
@@ -78,7 +82,7 @@ ht-degree: 1%
 
 다음을 설치할 수 있습니다. [!DNL Adobe Workfront for design and video] 에서 직접 [!DNL Adobe Exchange].
 
-1. 로 이동 [디자인 및 비디오용 Adobe Workfront 설치 페이지](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=108938&amp;workflow=share) Adobe 교환.
+1. 로 이동 [디자인 및 비디오용 Adobe Workfront 설치 페이지](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=108938&amp;workflow=share) Adobe Exchange.
 1. 표시되는 대화 상자에서 **열기 [!DNL Adobe Creative Cloud] 데스크탑 앱**.
 1. 한 번 [!DNL Adobe Creative Cloud] plugin manager가 열리고 **[!UICONTROL 설치]**.
 1. 대화 상자에서 정보를 읽은 다음 **[!UICONTROL 확인]**.

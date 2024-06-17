@@ -6,9 +6,9 @@ description: 다양한 목록, 보고서, 대시보드 및 검색에서 Adobe Wo
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '2153'
+source-wordcount: '2164'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,8 @@ Workfront 인터페이스에서 보고서를 수동으로 내보내거나 보고
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -75,6 +77,8 @@ Workfront 인터페이스에서 보고서를 수동으로 내보내거나 보고
 </table>
 
 이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 전제 조건
 

@@ -6,9 +6,9 @@ description: Adobe Workfront을 사용하면 애자일 팀이 점진적이고 �
 author: Lisa
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1012'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 1%
 * **[!UICONTROL 칸반]:** 팀은 사전 결정된 상태에서 Kanban 보기에서 작업을 이동합니다. 기본 상태는 백로그, 처리 중 및 완료입니다. Kanban 팀 관리에 대한 자세한 내용은 [애자일 팀의 칸반](../../agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md).
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -51,7 +53,9 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜 또는 라이선스 유형을 확인하려면 다음으로 문의하십시오. [!DNL Workfront] 관리자.
+보유 중인 플랜 또는 라이선스 유형을 확인하려면 다음으로 문의하십시오. [!DNL Workfront] 관리자.
+
++++
 
 ## 애자일 방법론 결정
 

@@ -7,9 +7,9 @@ description: Workfront Proof에서 생성된 이메일 알림은 공동 작업�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
-source-git-commit: e80a3ede9ccf6ccf9ea7777aab35cc859f13a6ac
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '2058'
+source-wordcount: '2049'
 ht-degree: 0%
 
 ---
@@ -25,17 +25,6 @@ ht-degree: 0%
 이메일 알림은 공동 작업자에게 댓글, 답글 또는 의사 결정과 같은 증명에 대한 최근 활동에 대해 알립니다.
 
 다음 영역의 검토자에 대한 이메일 알림을 설정할 수 있습니다.
-
-## 액세스 요구 사항
-
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
-
-<table style="table-layout:auto"> 
-<tr> 
-   <td role="rowheader">제품</td> 
-   <td>Workfront Proof Standalone</td> 
-  </tr> 
-</table>
 
 새 증명 페이지에서 검토자에 대한 이메일 알림을 설정할 수 있습니다. [!UICONTROL 새 버전] 페이지 및 관리 [!UICONTROL 워크플로] 의 섹션 [!UICONTROL 증명 세부 정보] 페이지를 가리키도록 업데이트하는 중입니다. 자세한 내용은 [에서 증명 생성 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
@@ -63,9 +52,20 @@ ht-degree: 0%
 
 프로필에 대한 자세한 내용은 [에서 증명 권한 프로필 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
-* [개인 설정에서 증명 기본값 구성([!DNL Workfront Proof] 사용자만)](#configure-proof-defaults-in-personal-settings-workfront-proof-users-only)
-* [수신자에 대한 이메일 경고 변경](#change-email-alerts-for-a-recipient)
-* [사용자에 대한 증명 기본값 구성](#configure-proof-defaults-for-a-user)
+## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
+이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
+
+<table style="table-layout:auto"> 
+<tr> 
+   <td role="rowheader">제품</td> 
+   <td>Workfront Proof Standalone</td> 
+  </tr> 
+</table>
+
++++
 
 ## 개인 설정에서 증명 기본값 구성([!DNL Workfront Proof] 사용자만)
 

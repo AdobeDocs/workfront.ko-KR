@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
-source-git-commit: 5f11e6ccda9fa3b37ec1300edb8f322521013a52
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '832'
 ht-degree: 1%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 1%
 Adobe Workfront 시스템 구성의 일부로, 고객 정보 페이지의 기본 정보 섹션에서 조직에 대한 세부 정보를 관리할 수 있습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -47,6 +49,8 @@ Adobe Workfront 시스템 구성의 일부로, 고객 정보 페이지의 기본
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 고객 정보 액세스
 

@@ -6,9 +6,9 @@ description: 전임 작업은 다른 작업이 완료에 종속되는 작업입�
 author: Alina
 feature: Work Management
 exl-id: c3242b92-9036-4770-a073-2a9c393b97fd
-source-git-commit: 7a9232f59e4c6f2eac2995be7d7862295b6bab2c
+source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,8 @@ ht-degree: 0%
 전임 작업이 적용되면 전임 작업이 완료되기 전에 후임 작업을 시작할 수 없습니다. 예를 들어, 태스크 A와 태스크 B 간에 완료-시작 관계를 적용하면 태스크 A가 완료됨으로 표시될 때까지 태스크 B를 시작할 수 없습니다(상태는 신규 상태로 유지되어야 하고 완료율은 0%로 유지되어야 함). 관계 적용은 모든 전임 작업 유형에 적용됩니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -67,6 +69,8 @@ ht-degree: 0%
 </table>
 
 이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 작업 수준에서 전임 작업 적용
 

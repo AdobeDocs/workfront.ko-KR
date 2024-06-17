@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ Portfolio 관리자는 일반적으로 스코어카드 질문과 답변을 정�
 서로 다른 프로젝트를 비교할 수 있는 정렬 값을 제공하려면 스코어카드에 대해 선택한 질문과 답변을 수량화할 수 있어야 합니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음이 있어야 합니다.
 
@@ -51,6 +53,8 @@ Portfolio 관리자는 일반적으로 스코어카드 질문과 답변을 정�
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 스코어카드 만들기
 

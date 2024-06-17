@@ -6,9 +6,9 @@ description: Workfront에 업로드할 때 문서에 대한 증명을 생성할 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 609e95fa-1fb3-4cc4-9ee8-403fd2f30e10
-source-git-commit: d71ee30378c39975366f4f257e3f7b17aba0c0ae
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '667'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ If a proof fails to generate after following the steps described in the followin
 -->
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -46,7 +48,7 @@ If a proof fails to generate after following the steps described in the followin
    <p>현재 : 작업 또는 계획</p> <p>기존 계획: 모두(사용자에 대해 증명이 활성화되어 있어야 함)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">증명 권한 프로필 </td> 
+   <td role="rowheader">교정쇄 권한 프로필 </td> 
    <td>관리자 이상</td> 
   </tr> 
   <tr> 
@@ -57,6 +59,8 @@ If a proof fails to generate after following the steps described in the followin
 </table>
 
 이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 문서 업로드 및 증명 만들기
 

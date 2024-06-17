@@ -6,9 +6,9 @@ description: 필터를 사용하여 항목 목록의 화면에 표시되는 정�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: 09492b2657aaf599bb31a19329d5de23791b66ec
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '2450'
+source-wordcount: '2461'
 ht-degree: 1%
 
 ---
@@ -32,6 +32,8 @@ Adobe Workfront에서 다음 유형의 필터를 적용할 수 있습니다.
   Workfront의 모든 필터 목록 및 이를 적용할 수 있는 영역에 대해서는 다음을 참조하십시오. [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -80,7 +82,9 @@ Adobe Workfront에서 다음 유형의 필터를 적용할 수 있습니다.
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+
++++
 
 ## 필터 구축 인터페이스 유형
 

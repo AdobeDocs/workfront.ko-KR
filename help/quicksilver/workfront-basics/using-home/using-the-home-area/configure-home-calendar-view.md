@@ -6,9 +6,9 @@ description: 웹 기반 버전의 Outlook과 통합되도록 홈 캘린더 설�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 2acd930b-5923-452e-9d8d-a6121d8d37ac
-source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
+source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '854'
 ht-degree: 1%
 
 ---
@@ -27,6 +27,8 @@ ht-degree: 1%
 이 문서에서는 홈 캘린더 설정을 구성하고 홈 캘린더를 외부 Outlook 캘린더와 통합하는 방법에 대해 설명합니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -51,6 +53,8 @@ ht-degree: 1%
 </table>
 
 *보유 중인 플랜 또는 라이선스 유형을 확인하려면 다음 연락처로 문의하십시오. [!DNL Workfront] 관리자. 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 통합 기본 정보 [!DNL Microsoft Outlook] 캘린더
 

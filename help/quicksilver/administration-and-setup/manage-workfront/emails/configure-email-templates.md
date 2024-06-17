@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '821'
 ht-degree: 2%
 
 ---
@@ -25,6 +25,8 @@ Adobe Workfront 관리자는 미리 알림을 지원하도록 이메일 템플�
 이메일 템플릿은 문제, 작업, 프로젝트 및 타임시트에 대한 미리 알림과 연결할 수 있습니다. 이메일 템플릿을 만들 때 Workfront 관리자는 이메일 콘텐츠와 제목 줄을 제공할 수 있습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -50,6 +52,8 @@ Adobe Workfront 관리자는 미리 알림을 지원하도록 이메일 템플�
 </table>
 
 *액세스 요구 사항에 대한 자세한 내용은 다음을 참조하십시오. [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 이메일 템플릿 만들기 {#create-an-email-template}
 

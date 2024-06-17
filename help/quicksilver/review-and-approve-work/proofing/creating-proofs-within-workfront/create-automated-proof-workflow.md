@@ -6,9 +6,9 @@ description: 프로세스가 복잡하거나 검토용 콘텐츠를 정기적으
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 977fe1bc-458f-4301-8056-dc51c61edb6c
-source-git-commit: ccfea4cdf7280f992068bc64bab27e63aaab8b74
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '1820'
+source-wordcount: '1831'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 프로세스가 복잡하거나 검토용 콘텐츠를 정기적으로 동일한 사람에게 보내는 경우 자동화된 워크플로를 사용하면 검토 프로세스를 보다 쉽게 관리할 수 있습니다. 증명이 단계 간에 이동하고 Adobe Workfront이 검토할 차례가 되면 각 사용자에게 알립니다. 자동화된 워크플로에 대한 자세한 내용은 [자동화된 워크플로우 개요](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -36,7 +38,7 @@ ht-degree: 0%
    <td> <p>새로운 기능: 표준</p><p>현재 계획: 작업 또는 계획</p> <p>기존 계획: 모두(사용자에 대해 증명이 활성화되어 있어야 함)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">증명 권한 프로필 </td> 
+   <td role="rowheader">교정쇄 권한 프로필 </td> 
    <td>관리자 이상</td> 
   </tr> 
   <tr> 
@@ -47,6 +49,8 @@ ht-degree: 0%
 </table>
 
 이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 자동화된 워크플로를 사용하여 고급 증명 만들기
 
@@ -121,7 +125,7 @@ ht-degree: 0%
         </tr>
         <tr>
          <td role="rowheader">이 단계를 비공개로 설정</td>
-         <td>수퍼바이저, Workfront 관리자 및 Workfront Proof 관리자만 이 단계에서 댓글 및 결정을 볼 수 있습니다.</td>
+         <td>수퍼바이저, Workfront 관리자 및 Workfront Proof 관리자만 이 단계에서 주석 및 의사 결정을 볼 수 있습니다.</td>
         </tr>
        </tbody>
       </table>

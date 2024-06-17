@@ -6,9 +6,9 @@ description: 리소스 관리자는 사용자에게 작업을 할당하고 업�
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: 1ce89f7e680f11a11c8646853652f9f24ee89b14
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '2887'
+source-wordcount: '2898'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 리소스 관리자는 사용자에게 작업을 할당하고 업무 균형자에서 일별, 주별 또는 월별 할당을 관리하여 사용 가능한 일정에 맞는 시간을 할당할 수 있습니다.
 
 ## 액세스 요구 사항 {#access-requirements}
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 다음 항목이 있어야 합니다.
 
@@ -64,6 +66,8 @@ ht-degree: 0%
 </table>
 
 이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 사용자 할당 이해
 

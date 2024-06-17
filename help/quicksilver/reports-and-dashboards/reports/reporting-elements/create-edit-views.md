@@ -6,9 +6,9 @@ description: 보기를 사용하여 화면에 표시할 정보 유형을 사용�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '1777'
+source-wordcount: '1788'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 1%
 이 문서에서는 목록 및 보고서에 대한 표준 보기를 만들고 편집하는 방법과 애자일 보기를 만드는 방법을 설명합니다. 자세한 내용은 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -47,6 +49,8 @@ ht-degree: 1%
 </table>
 
 &#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+
++++
 
 ## 보기 만들기 또는 사용자 지정
 
@@ -79,8 +83,8 @@ ht-degree: 1%
 
         숫자 및 통화 필드의 경우 다음 옵션으로 값을 요약할 수 있습니다.
 
-         * 수
-         * Sum
+         * 개수
+         * 합계
          * 평균
          * 최대
          * 최소

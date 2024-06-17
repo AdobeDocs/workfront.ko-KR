@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '2327'
+source-wordcount: '2338'
 ht-degree: 2%
 
 ---
@@ -30,6 +30,8 @@ ht-degree: 2%
 >많은 사용자 정의 필드 또는 사용자 정의 필드의 수많은 다중 선택 옵션이 포함된 사용자 정의 양식에서 사용자는 해당 필드의 값을 추가하거나 변경할 때 성능이 저하될 수 있습니다. 예를 들어 100개의 사용자 정의 필드가 포함된 양식이나 200개 이상의 옵션이 있는 다중 선택 사용자 정의 필드는 사용자가 상호 작용할 때 속도가 느려질 수 있습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음이 있어야 합니다.
 
@@ -56,6 +58,8 @@ ht-degree: 2%
 </table>
 
 이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 사용자 정의 양식에 사용자 정의 필드 추가 {#add-custom-field-to-custom-form}
 

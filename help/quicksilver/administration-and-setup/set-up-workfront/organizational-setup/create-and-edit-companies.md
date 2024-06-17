@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '1461'
+source-wordcount: '1472'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 0%
 회사는 의 조직 단위입니다. [!DNL Adobe Workfront] 조직, 조직 내 부서 또는 함께 일하는 클라이언트를 나타낼 수 있습니다. 에 회사를 추가할 수 있습니다. [!DNL Workfront] 재무 계획, 보고 목적, 객체에 대한 권한 정의, 정보의 기밀 유지 등에 사용할 수 있습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 에서 회사를 관리하려면 다음 항목이 있어야 합니다. [!DNL Workfront]:
 
@@ -62,6 +64,8 @@ ht-degree: 0%
 </table>
 
 &#42;보유 중인 플랜, 라이선스 유형 또는 액세스 수준 구성을 알아보려면 [!DNL Workfront] 관리자. 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 회사에 사용자를 추가하면 얻을 수 있는 이점 {#benefits-of-adding-users-to-a-company}
 

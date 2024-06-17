@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: 48c9bb06dff1e8f1260b331ace7843b204b3139e
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '994'
 ht-degree: 8%
 
 ---
@@ -29,6 +29,8 @@ Adobe Workfront 관리자는 킥스타트 데이터 내보내기를 사용하여
 킥스타트를 통해 데이터를 내보내면 각 오브젝트와 연관된 필드, 이러한 필드의 코딩 방식과 이러한 필드의 값이 데이터베이스에서 어떻게 형식화되는지 이해하는 데에도 도움이 됩니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -56,6 +58,8 @@ Adobe Workfront 관리자는 킥스타트 데이터 내보내기를 사용하여
 </table>
 
 이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 킥스타트를 사용하여 데이터를 내보낼 때의 장단점
 

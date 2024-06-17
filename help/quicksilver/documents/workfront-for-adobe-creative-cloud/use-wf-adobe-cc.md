@@ -6,9 +6,9 @@ description: Workfront 확장 프로그램을 사용하여 Adobe Illustrator 및
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 40945eac-e8de-42af-b6ba-f3082c208e02
-source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '3076'
+source-wordcount: '3087'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,8 @@ Workfront 확장은 다음 애플리케이션에서 Adobe Creative Cloud 2017 �
   >새 를 사용하는 것이 좋습니다. [Photoshop용 Adobe Workfront](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md) 플러그인입니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -65,6 +67,8 @@ Workfront 확장은 다음 애플리케이션에서 Adobe Creative Cloud 2017 �
 </table>
 
 &#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오. 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Illustrator 또는 InDesign에서 Workfront 확장 기능에 로그인합니다 {#log-in-to-workfront-extension-from-illustrator-or-indesign}
 

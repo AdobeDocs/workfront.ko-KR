@@ -6,9 +6,9 @@ description: 기본 워크플로를 사용하면 여러 검토자가 증명을 �
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f5d0c0e-e070-4f32-89c4-3b511a3b7fdc
-source-git-commit: d71ee30378c39975366f4f257e3f7b17aba0c0ae
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '1842'
+source-wordcount: '1853'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 1%
 기본 워크플로를 사용하면 여러 검토자가 증명을 검토할 수 있지만 단계로 구성되지 않습니다. 추가하는 모든 검토자는 증명을 만든 직후에 액세스할 수 있습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -41,7 +43,7 @@ ht-degree: 1%
     <p>현재: 작업 또는 계획</p> <p>기존 계획: 모두(사용자에 대해 증명이 활성화되어 있어야 함)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">증명 권한 프로필 </td> 
+   <td role="rowheader">교정쇄 권한 프로필 </td> 
    <td>관리자 이상</td> 
   </tr> 
   <tr> 
@@ -52,6 +54,8 @@ ht-degree: 1%
 </table>
 
 &#42;보유 중인 플랜, 역할 또는 증명 권한 프로필을 알아보려면 Workfront 또는 Workfront Proof 관리자에게 문의하십시오.
+
++++
 
 ## 기본 워크플로를 사용하여 고급 증명 만들기
 
@@ -220,7 +224,7 @@ ht-degree: 1%
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">태그를 지정하여 증명 공유</td> 
+      <td role="rowheader">태그하여 증명 공유</td> 
       <td> <p>검토자가에 설명된 대로 Workfront 사용자를 증명에 추가할 수 있습니다. <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md" class="MCXref xref">사용자를 태그로 지정하여 증명 공유</a>.</p> <p>참고:  <p>이 두 옵션을 사용할 수 없는 경우(흐리게 표시), 사용자에게 댓글 해결, 댓글에 작업 적용 및 사용자 태그 지정을 허용하는 권한 프로필이 이미 있습니다. </p> <p>옵션이 표시되지 않으면 추가한 사용자는 Workfront 라이선스 소유자가 아닙니다.</p> </p> </td> 
      </tr> 
     </tbody> 

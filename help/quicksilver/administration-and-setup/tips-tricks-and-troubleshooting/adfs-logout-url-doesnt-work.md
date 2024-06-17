@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4d868625-e976-47b4-9e80-f1eca84a2768
-source-git-commit: 4a9936b6bc034f2176167fc3939d647ee679a888
+source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,8 @@ ADFS 로그아웃 URL(https://myadfsserver.domain.net/adfs/ls/?wa=wsignout1.0)�
 문제가 지속되면 이 사이트의 관리자에게 문의하여 다음 참조 번호를 제공하여 문제를 확인하십시오. **57092dfc-751a-4915-8e6a-b4c5d413f8c6**
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -58,6 +60,8 @@ ADFS 로그아웃 URL(https://myadfsserver.domain.net/adfs/ls/?wa=wsignout1.0)�
 </table>
 
 이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 솔루션
 

@@ -6,9 +6,9 @@ description: Adobe Workfront의 다른 사용자와 보고서를 공유할 때 �
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 0ea65b3f-fbcf-40f4-a4d1-4dd91619c349
-source-git-commit: 532ec7f7a33e1e1111a31422c5c3c442b2e176b5
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1220'
 ht-degree: 3%
 
 ---
@@ -36,6 +36,8 @@ Adobe Workfront의 다른 사용자와 보고서를 공유할 때 특정 정보�
 보고서 보기에서 수행한 변경 사항은 보고서의 세부 정보 탭에서만 적용됩니다. 이러한 변경 사항은 보고서의 요약, 매트릭스 또는 차트 탭에 영향을 주지 않습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -70,6 +72,8 @@ Adobe Workfront의 다른 사용자와 보고서를 공유할 때 특정 정보�
 </table>
 
 &#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+
++++
 
 ## 전제 조건
 

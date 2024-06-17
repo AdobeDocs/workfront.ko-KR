@@ -7,9 +7,9 @@ description: Lag는 강제 적용된 전임 작업이 완료된 후 종속 작�
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1476'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ Lag는 종속 작업이 시작될 때까지 선행 작업의 계획된 완료 �
 후속 작업의 계획, 예상 및 예상 일자는 선행 작업의 지연 및 계획, 예상 및 예상 시작(완료) 일자를 고려하여 계산됩니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 <!--drafted - replace table at P&P:
 
@@ -82,6 +84,8 @@ Lag는 종속 작업이 시작될 때까지 선행 작업의 계획된 완료 �
 </table>
 
 이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 작업의 지연 및 지연 유형 표시
 

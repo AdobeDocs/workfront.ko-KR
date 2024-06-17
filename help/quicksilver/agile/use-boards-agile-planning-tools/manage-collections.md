@@ -7,10 +7,10 @@ description: 작업 스트림은 작업에 대해 공동 작업하기 위해 구
 author: Lisa
 feature: Agile
 exl-id: c46c42e8-e14d-414d-b883-c4d885338e42
-source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '915'
-ht-degree: 2%
+source-wordcount: '926'
+ht-degree: 1%
 
 ---
 
@@ -28,6 +28,8 @@ ht-degree: 2%
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -38,7 +40,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 플랜*</strong></td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
@@ -46,6 +48,8 @@ ht-degree: 2%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 작업 스트림 만들기
 
@@ -66,7 +70,7 @@ ht-degree: 2%
 |---------|----------|
 | 기본 보드 | 보드에는 세 개의 기본 열이 제공됩니다. 새 열을 추가하고 기본 열의 이름을 바꾸거나 삭제할 수 있습니다. <p>열 정책이 적용되지 않습니다. |
 | 칸반 보드 | 백로그, 신규, 진행 중, 완료 및 보류 중 열이 보드에 제공됩니다. 새 열을 추가하고 기본 열의 이름을 바꾸거나 삭제할 수 있습니다.<p>백로그를 사용하려면 접수 열에 대한 필터를 설정해야 합니다. 자세한 내용은 [보드에 접수 열 추가](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>각 열에 대한 기본 정책을 검토하려면 [!UICONTROL **자세히** 메뉴] 열에서 [!UICONTROL **편집**]. 이러한 사전 설정된 정책을 변경할 수 있습니다. 자세한 내용은 [보드 열 관리](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
-| Retrospective 보드 | 게시판에는 다음과 같은 열이 제공됩니다. 무엇이 잘 되었습니까? 개선 가능한 사항? 축하해야 할 사람? 보다 빠른 진행을 위해 할 수 있는 일? 새 열을 추가하고 기본 열의 이름을 바꾸거나 삭제할 수 있습니다. <p>열 정책이 적용되지 않습니다. |
+| Retrospective 보드 | 게시판에는 다음과 같은 열이 제공됩니다. 무엇이 잘 되었습니까? 무엇을 개선할 수 있을까요? 축하해야 할 사람이 누구죠? 더 빨리 움직이기 위해 우리가 할 수 있는 일은 무엇인가? 새 열을 추가하고 기본 열의 이름을 바꾸거나 삭제할 수 있습니다. <p>열 정책이 적용되지 않습니다. |
 | 반복 프로세스 | 반복을 정의하고 실행하는 데 사용되는 보드입니다. <p>백로그, 신규, 진행 중, 완료 및 보류 중 열이 보드에 제공됩니다. 보드에 열을 추가할 수 없습니다. <p>각 열에 대한 기본 정책을 검토하려면 [!UICONTROL **자세히**] 열 메뉴 및 선택 [!UICONTROL **편집**]. 이러한 사전 설정된 정책을 변경할 수 있습니다. 자세한 내용은 [보드 열 관리](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 
 보드 설정에 대한 자세한 내용은 [보드 만들기 또는 편집](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).

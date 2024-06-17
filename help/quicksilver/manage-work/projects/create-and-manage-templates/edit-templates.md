@@ -6,9 +6,9 @@ description: 프로젝트 프로세스 및 설정의 변경 사항을 반영하�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: a243094dc6bbbe71a6efdb4fe99f7365daae514d
+source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
 workflow-type: tm+mt
-source-wordcount: '4710'
+source-wordcount: '4721'
 ht-degree: 2%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 2%
 프로젝트 프로세스 및 설정의 변경 사항을 반영하도록 프로젝트 템플릿을 편집할 수 있습니다. 템플릿에 변경 사항을 업데이트하고 저장한 후 템플릿을 사용하여 프로젝트를 만들 때 새 프로젝트에 새 변경 사항이 표시됩니다. 템플릿에서 변경한 내용은 현재 해당 템플릿을 사용하고 있는 프로젝트에 반영되지 않습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -57,6 +59,8 @@ ht-degree: 2%
 </table>
 
 이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 템플릿 편집 {#edit-a-template}
 

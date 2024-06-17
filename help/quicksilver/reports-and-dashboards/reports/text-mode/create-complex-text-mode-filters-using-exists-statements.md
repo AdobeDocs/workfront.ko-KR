@@ -6,9 +6,9 @@ description: EXISTS 문을 사용하여 복잡한 텍스트 모드 필터를 만
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 106f7c9d-46cc-46c5-ae34-93fd13a36c14
-source-git-commit: 6b746b3cdd0fa38607ba3230d44e1b9f3f12b6d6
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '2649'
+source-wordcount: '2660'
 ht-degree: 0%
 
 ---
@@ -90,6 +90,8 @@ API 탐색기를 탐색하고 개체를 찾는 방법에 대한 자세한 내용
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -118,6 +120,8 @@ API 탐색기를 탐색하고 개체를 찾는 방법에 대한 자세한 내용
 </table>
 
 이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 객체 계층의 여러 수준에 걸쳐 있는 복잡한 텍스트 모드 필터 만들기
 

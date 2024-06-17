@@ -6,9 +6,9 @@ description: Adobe 마켓플레이스에서 Photoshop용 Adobe Workfront 플러�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: 316c85d4809f6833441f63578038624a7ebfcb39
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '516'
 ht-degree: 1%
 
 ---
@@ -29,6 +29,8 @@ ht-degree: 1%
 * 한국어
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -51,7 +53,9 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
+보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
+
++++
 
 ## 전제 조건
 
@@ -69,7 +73,7 @@ ht-degree: 1%
 
 다음을 설치할 수 있습니다. [!DNL Adobe Workfront for Photoshop] 에서 직접 플러그인 [!DNL Adobe Exchange].
 
-1. 로 이동 [Photoshop용 Adobe Workfront 설치 페이지](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=37722a55&amp;workflow=share) Adobe 교환.
+1. 로 이동 [Photoshop용 Adobe Workfront 설치 페이지](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=37722a55&amp;workflow=share) Adobe Exchange.
 1. 표시되는 대화 상자에서 **열기 [!DNL Adobe Creative Cloud] 데스크탑 앱**.
 1. 한 번 [!DNL Adobe Photoshop] plugin manager가 열리고 **[!UICONTROL 설치]**.
 1. 대화 상자에서 정보를 읽은 다음 **[!UICONTROL 확인]**.

@@ -6,14 +6,16 @@ description: 에서 Kanban 또는 Scrum Agile 팀을 만듭니다. [!DNL Adobe W
 author: Lisa
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1487'
 ht-degree: 1%
 
 ---
 
 # 구성 [!UICONTROL 칸반]
+
+<!--Audited: 12/2023-->
 
 에서 애자일 팀을 만들 수 있습니다. [!DNL Adobe Workfront] 에 설명된대로 [애자일 팀 만들기](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md). 애자일 팀을 만드는 동안 팀이 작업을 완료하는 데 사용하는 방법론을 선택할 수 있습니다. 다음 옵션 중에서 선택할 수 있습니다.
 
@@ -33,7 +35,7 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-<!--Audited: 12/2023-->
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -64,6 +66,8 @@ ht-degree: 1%
 </table>
 
 *보유 중인 플랜 또는 라이선스 유형을 확인하려면 다음 연락처로 문의하십시오. [!DNL Workfront] 관리자.
+
++++
 
 ## 스토리를 포인트 또는 시간 단위로 예상할지 구성
 

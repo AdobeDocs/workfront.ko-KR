@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: 5d4434d090c4b6cdefc9c313fecccf6d6e9a510b
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '1156'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ Adobe 관리자는 Adobe Admin Console을 사용하여 Adobe Workfront 시스템
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -46,6 +48,8 @@ Adobe 관리자는 Adobe Admin Console을 사용하여 Adobe Workfront 시스템
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 전제 조건
 

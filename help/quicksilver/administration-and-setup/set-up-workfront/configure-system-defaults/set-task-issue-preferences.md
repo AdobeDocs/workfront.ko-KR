@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 128082d2af40f1dcbbc058f8bc2fd25deae00809
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '2063'
+source-wordcount: '2074'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ Linked to Converting Issues.-->
 
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -54,6 +56,8 @@ Linked to Converting Issues.-->
 
 이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## 의 모든 사용자를 위한 작업 및 문제 환경 설정 구성 [!DNL Workfront]
 
 {{step-1-to-setup}}
@@ -70,7 +74,7 @@ Linked to Converting Issues.-->
 
    <!--
 <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">처리 중</a> </li>
-  -->
+  —&gt;
 
 * [[!UICONTROL 액세스]](#access)
 
@@ -114,7 +118,7 @@ Linked to Converting Issues.-->
       </ul> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader">[!UICONTROL 문제를 작업으로 전환할 때]</td> 
+    <td role="rowheader" [!UICONTROL>문제를 작업으로 전환할 때]</td> 
     <td> <p>이 섹션의 설정은 문제에서 작업으로 전환 프로세스 중에 발생하는 작업을 결정합니다.</p> 
       <ul> 
       <li> <p><strong>[!UICONTROL 원래 문제를 유지하고 해결 방법을 작업에 연결]</strong>: 문제를 전환하는 경우 작업이 완료될 때까지 문제로 표시됩니다. 작업이 완료되면 문제의 상태가 자동으로 [!UICONTROL Closed](으)로 변경됩니다. 이 옵션을 선택 취소하면 문제가 삭제됩니다.</p> <p><b>참고</b>:  <p>문제를 삭제할 수 있는 액세스 또는 권한이 없는 사용자는 이 설정의 상태에 관계없이 문제를 전환할 때 문제를 삭제할 수 없습니다. 문제에 대한 액세스 및 권한에 대한 자세한 내용은 다음을 참조하십시오.</p> 

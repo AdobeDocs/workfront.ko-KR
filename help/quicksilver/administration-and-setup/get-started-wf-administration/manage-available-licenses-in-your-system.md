@@ -8,9 +8,9 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 362c538d7680f8d8b85fbd8735e79ec5032d2919
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '1187'
+source-wordcount: '1198'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 Adobe Workfront 관리자는 조직에 대해 구매한 라이선스 수와 현재 사용 중인 라이선스 수를 포함하여 Workfront 계정에 대한 정보에 액세스할 수 있습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -64,6 +66,8 @@ Adobe Workfront 관리자는 조직에 대해 구매한 라이선스 수와 현�
 >1. 시스템 관리자는 [라이센스] 페이지에 홈 그룹을 추가하여 해당 그룹의 라이센스 활용도를 볼 수 있으며 라이센스 제한도 설정할 수 있습니다.
 >2. 그룹 관리자는 라이센스 페이지에 액세스하여 시스템 관리자가 라이센스 페이지에 추가한 그룹에서 라이센스를 사용할 수 있습니다.
 >3. 그룹 관리자는 다른 홈 그룹에 대한 정보를 보거나 최대값을 추가할 수 없습니다.
+
++++
 
 ## 조직의 라이선스 보기
 

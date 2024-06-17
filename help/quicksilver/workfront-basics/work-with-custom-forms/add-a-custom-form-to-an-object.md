@@ -7,9 +7,9 @@ description: 아래 나열된 객체에 기존 사용자 정의 양식을 추가
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '822'
 ht-degree: 2%
 
 ---
@@ -37,6 +37,8 @@ ht-degree: 2%
 사용자 정의 양식은 양식을 만든 객체 유형에만 추가할 수 있습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서에 설명된 작업을 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -68,6 +70,8 @@ ht-degree: 2%
 </table>
 
 이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 전제 조건
 

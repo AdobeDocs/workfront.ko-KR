@@ -6,9 +6,9 @@ description: 기준선은 초기 프로젝트 계획 또는 프로젝트 수명 
 author: Alina
 feature: Work Management
 exl-id: 422bd7a5-d7a0-4c24-8624-bd0fe6e79d7b
-source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 기준선을 사용하여 현재 계획의 해당 정보를 원래 계획 또는 다른 시점과 비교하여 문제 작업, 범위 변경 및 시간에 따른 기타 추세를 식별할 수 있습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 <!--
 drafted for P&P:
@@ -83,6 +85,8 @@ drafted for P&P:
 </table>
 
 이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 기준선 작업 고려 사항
 

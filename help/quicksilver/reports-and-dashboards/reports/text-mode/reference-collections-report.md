@@ -6,9 +6,9 @@ description: 보고서에서 컬렉션 참조
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '2587'
+source-wordcount: '2598'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ Adobe Workfront에서 보고서를 작성하면 목록, 그리드 또는 차트 
 Workfront에서 보고서 빌드에 대한 자세한 내용은 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -47,6 +49,8 @@ Workfront에서 보고서 빌드에 대한 자세한 내용은 [사용자 지정
 </table>
 
 보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+
++++
 
 ## 컬렉션 이해
 
@@ -101,7 +105,7 @@ API 탐색기 테이블에 대한 자세한 내용은 [API 탐색기](../../../w
 
 다음 보고 요소에 있는 컬렉션의 개체를 참조할 수 있습니다.
 
-* 조회수
+* 보기
 * 필터
 * 프롬프트
 
@@ -419,7 +423,7 @@ API 탐색기 테이블에 대한 자세한 내용은 [API 탐색기](../../../w
 
    >[!NOTE]
    >
-   다음을 사용해야 합니다. **문제** 컬렉션 개체 이름입니다. 현재 API 탐색기에서 문제에 대한 컬렉션 개체 이름을 제공하지 않습니다.
+   >다음을 사용해야 합니다. **문제** 컬렉션 개체 이름입니다. 현재 API 탐색기에서 문제에 대한 컬렉션 개체 이름을 제공하지 않습니다.
 
 1. 클릭 **완료**.
 1. (선택 사항) 보고서를 계속 편집합니다.

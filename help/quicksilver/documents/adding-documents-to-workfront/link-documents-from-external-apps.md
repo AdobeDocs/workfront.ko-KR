@@ -6,9 +6,9 @@ description: 외부 소스에서 문서 및 폴더를 Adobe Workfront에 연결�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: 8aeb8c23f6eb6cf696512aaf7c6bd92b138f00cb
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '2596'
+source-wordcount: '2607'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,8 @@ Workfront에 직접 업로드한 문서를 사용하는 것과 동일한 방식�
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -85,6 +87,8 @@ Workfront에 직접 업로드한 문서를 사용하는 것과 동일한 방식�
 </table>
 
 이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## 문서 스토리지
 

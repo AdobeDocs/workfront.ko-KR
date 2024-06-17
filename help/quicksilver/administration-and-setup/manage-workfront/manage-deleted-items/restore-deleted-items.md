@@ -8,9 +8,9 @@ feature: System Setup and Administration
 author: Lisa
 role: Admin
 exl-id: e5b63652-ce16-44a9-a806-a41f19970ee1
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1082'
 ht-degree: 2%
 
 ---
@@ -38,6 +38,8 @@ Workfront 관리자인 경우 지난 30일 동안 프로젝트, 작업, 문제, 
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -58,6 +60,8 @@ Workfront 관리자인 경우 지난 30일 동안 프로젝트, 작업, 문제, 
 </table>
 
 &#42;보유 중인 플랜 또는 라이선스 유형을 확인하려면 Workfront 관리자에게 문의하십시오.
+
++++
 
 ## 프로젝트, 작업 또는 문제를 복원할 때 복구되는 정보
 

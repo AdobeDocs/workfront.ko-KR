@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
 workflow-type: tm+mt
-source-wordcount: '2679'
+source-wordcount: '2690'
 ht-degree: 2%
 
 ---
@@ -29,6 +29,8 @@ ht-degree: 2%
 이 문서에서는 사용자가 요청을 제출할 수 있는 요청 대기열을 만드는 방법에 대해 설명합니다. 새 요청을 요청 대기열에 제출하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [요청 복사 및 제출](../create-requests/copy-and-submit-requests.md).
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -58,7 +60,9 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오
+&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+
++++
 
 
 <!--old access levels: 

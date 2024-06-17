@@ -6,9 +6,9 @@ description: 프로젝트 간 전임 작업은 다른 프로젝트의 다른 작
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
-source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '726'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,8 @@ Adobe Workfront을 사용하면 단일 프로젝트 내에서 전임 작업을 �
 전임 작업 관계에 대한 자세한 내용은 [작업 전임 작업 개요](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -64,6 +66,8 @@ Adobe Workfront을 사용하면 단일 프로젝트 내에서 전임 작업을 �
 </table>
 
 이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 
 ## 프로젝트 간 전임 작업 만들기

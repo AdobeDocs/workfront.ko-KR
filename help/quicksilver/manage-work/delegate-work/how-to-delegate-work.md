@@ -6,9 +6,9 @@ description: 부재 중 할당된 작업을 임시로 위임할 수 있습니다
 author: Alina
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: 42601f701e4109320e9e7b3f3f4275dee59bad97
+source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1460'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,8 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 작업 위임에 대한 일반 정보는 다음을 참조하십시오. [작업 위임 개요](../../manage-work/delegate-work/delegate-work-overview.md).
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 >[!IMPORTANT]
 >
@@ -79,6 +81,8 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 </table>
 
 이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 <!--note from the table for Object permissions:
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Contribute or higher permissions to the projects where you are designated as the Project&nbsp;Owner (NOTE:&nbsp;you cannot delegate projects yet)</p>

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: c3cb97a36c29b90bbc9d8438d8811cc23266d894
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '346'
 ht-degree: 2%
 
 ---
@@ -24,6 +24,8 @@ Adobe Workfront 관리자는 Workfront 시스템의 모든 사용자에 대한 �
 개별 사용자는 자신의 사용자 환경 설정을 재설정할 수도 있습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -50,6 +52,8 @@ Adobe Workfront 관리자는 Workfront 시스템의 모든 사용자에 대한 �
 
 이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## 영향을 받는 설정 정보
 
 사용자 환경 설정을 재설정하면 일부 환경 설정은 시스템 기본값으로 되돌려지고 다른 환경 설정은 지워지거나 제거됩니다.
@@ -65,7 +69,7 @@ Adobe Workfront 관리자는 Workfront 시스템의 모든 사용자에 대한 �
  </thead> 
  <tbody> 
   <tr> 
-   <td>조회수</td> 
+   <td>보기</td> 
    <td> <p> 시스템 기본값으로 되돌림</p> <p>기존 보기는 삭제되지 않습니다. 다시 선택할 수 있습니다.</p> </td> 
   </tr> 
   <tr> 

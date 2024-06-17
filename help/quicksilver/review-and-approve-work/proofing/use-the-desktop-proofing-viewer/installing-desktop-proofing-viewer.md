@@ -6,9 +6,9 @@ description: 주로 대화형 콘텐츠의 증명을 위해 설계된 Desktop Pr
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: f21e87d86e62f85d7661224ac75f06f61caff61e
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,11 @@ ht-degree: 0%
 * Windows 7 이상, 32비트 및 64비트
 * Mac OS X 10.9 이상, 64비트
 
+{{latest-version}}
+
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -47,11 +51,13 @@ ht-degree: 0%
 
 이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-{{latest-version}}
++++
+
+
 
 ## Mac에 Desktop Proofing Viewer 설치
 
-Adobe Workfront 관리자 또는 Workfront Proof 관리자가 워크스테이션에서 앱을 다운로드하고 데스크탑 증명 뷰어를 대화형 증명의 기본 뷰어로 구성한 경우 문서 영역에서 대화형 증명을 열기만 하면 설치를 완료할 수 있습니다.
+Adobe Workfront 관리자 또는 Workfront Proof 관리자가 워크스테이션에서 앱을 다운로드하고 데스크탑 증명 뷰어를 대화형 증명의 기본 뷰어로 구성한 경우 문서 영역에서 대화형 증명을 열면 설치를 완료할 수 있습니다.
 
 그렇지 않은 경우 아래 단계를 따를 수 있습니다.
 
@@ -69,7 +75,7 @@ Adobe Workfront 관리자 또는 Workfront Proof 관리자가 워크스테이션
 
 >[!NOTE]
 >
->대화형 증명을 열 때 데스크탑 증명 뷰어가 시작되지 않으면 다음에 설명된 대로 Workfront 또는 Workfront 증명 관리자가 데스크탑 증명 뷰어를 대화형 증명에 대한 기본 뷰어로 구성해야 함을 의미할 수 있습니다 [데스크탑 증명 뷰어에서 비대화형 증명을 열기 위한 사용자 설정](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-opening-non-interactive-proofs-in-the-desktop-proofing-viewer).
+>대화형 증명을 열 때 데스크탑 증명 뷰어가 실행되지 않는 경우, 다음에 설명된 대로 Workfront 또는 Workfront Proof 관리자가 데스크탑 증명 뷰어를 대화형 증명에 대한 기본 뷰어로 구성해야 함을 의미할 수 있습니다. [데스크탑 증명 뷰어에서 비대화형 증명을 열기 위한 사용자 설정](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-opening-non-interactive-proofs-in-the-desktop-proofing-viewer).
 
 ## Windows에서 Desktop Proofing Viewer 설치
 
@@ -93,4 +99,4 @@ Workfront 또는 Workfront Proof 관리자가 워크스테이션에서 앱을 �
 1. (조건부) Internet Explorer를 사용하여 응용 프로그램을 설치하는 경우 응용 프로그램이 설치된 후 브라우저에서 시작 페이지를 새로 고칩니다.
 1. 문서 영역에서 대화형 증명을 엽니다.
 
-Desktop Proofing Viewer가 설치되면 모든 대화형 증명이 Desktop Proofing Viewer에서 열립니다. 대화형 증명을 열 때 데스크탑 증명 뷰어가 시작되지 않으면 다음에 설명된 대로 Workfront 또는 Workfront 증명 관리자가 데스크탑 증명 뷰어를 대화형 증명에 대한 기본 뷰어로 구성해야 함을 의미할 수 있습니다 [데스크탑 증명 뷰어에서 비대화형 증명을 열기 위한 사용자 설정](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs).
+Desktop Proofing Viewer가 설치되면 모든 대화형 증명이 Desktop Proofing Viewer에서 열립니다. 대화형 증명을 열 때 데스크탑 증명 뷰어가 실행되지 않는 경우, 다음에 설명된 대로 Workfront 또는 Workfront Proof 관리자가 데스크탑 증명 뷰어를 대화형 증명에 대한 기본 뷰어로 구성해야 함을 의미할 수 있습니다. [데스크탑 증명 뷰어에서 비대화형 증명을 열기 위한 사용자 설정](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs).
