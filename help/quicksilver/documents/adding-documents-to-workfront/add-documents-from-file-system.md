@@ -6,7 +6,7 @@ description: Adobe Workfront의 여러 영역에서 프로젝트, 작업 또는 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: c6fc7325700f220fcda5c7cb1b4aa0b94cb67880
+source-git-commit: 8687e92ffed08e87fcb8c22816fd86bafa7f9e7a
 workflow-type: tm+mt
 source-wordcount: '766'
 ht-degree: 1%
@@ -53,8 +53,6 @@ Workfront에 업로드할 수 있는 파일의 유형과 크기에는 제한이 
 </table>
 
 보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
-
-+++
 
 +++
 
