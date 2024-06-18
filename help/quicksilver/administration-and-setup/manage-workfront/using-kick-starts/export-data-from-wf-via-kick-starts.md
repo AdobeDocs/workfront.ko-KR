@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 8e076e9c89ad208aa94ddefead4b8c6105992542
 workflow-type: tm+mt
-source-wordcount: '994'
-ht-degree: 8%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -334,13 +334,13 @@ Workfront 내에서 데이터를 내보내는 방법에는 두 가지가 있습�
 
    매트릭스 보고서는 내보낼 수 없습니다. 매트릭스 보고서에 대한 자세한 내용은 [매트릭스 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
+   킥스타트는 텍스트 모드 필터를 지원하지 않습니다. 내보내기에 성공하려면 보고 필터를 표준 모드로 전환해야 합니다.
+
    단일 내보내기에서 최대 100개의 대시보드 및 100개의 보고서를 선택할 수 있습니다.
 
    ![](assets/kickstart-export-350x381.png)
 
    한 번에 여러 객체를 내보낼 수 있습니다.
-
-
 
 1. (권장) 내보낸 데이터를 분석하여 표시될 것으로 예상되는 모든 정보가 내보내졌는지 확인합니다.
 

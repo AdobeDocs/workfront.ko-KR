@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: 8e076e9c89ad208aa94ddefead4b8c6105992542
 workflow-type: tm+mt
-source-wordcount: '2736'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -109,7 +109,7 @@ ht-degree: 6%
       <td scope="col"> <p>매개변수</p> <p>설명 텍스트</p><p>매개변수 옵션</p> <p>매개변수 그룹</p> <p>범주 매개변수</p> <p>범주</p> <p>보고서</p> <p>포털 탭 섹션</p> <p>대시보드</p> <p>환경 설정</p> </td> 
      </tr> 
      <tr> 
-      <td scope="col"> <p>보고서</p> <p>시스템의 모든 보고서를 내보낼 수 있습니다. 단일 내보내기에서 최대 100개의 특정 보고서를 선택할 수 있습니다.</p> </td> 
+      <td scope="col"> <p>보고서</p> <p>시스템의 모든 보고서를 내보낼 수 있습니다. 단일 내보내기에서 최대 100개의 특정 보고서를 선택할 수 있습니다.</p> <p>킥스타트는 텍스트 모드 필터를 지원하지 않습니다. 내보내기에 성공하려면 보고 필터를 표준 모드로 전환해야 합니다.</p> </td> 
       <td scope="col">ZIP 파일로 내보내기 </td> 
       <td scope="col"> <p scope="col">매개변수</p> <p scope="col">설명 텍스트</p> <p scope="col">매개변수 옵션</p> <p scope="col">매개변수 그룹</p> <p scope="col">범주 매개변수</p> <p scope="col">범주</p> <p scope="col">보고서</p> <p scope="col">환경 설정</p> </td> 
      </tr> 
