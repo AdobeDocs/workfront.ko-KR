@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
-source-git-commit: 21ef9365561fca2301223ae79f6371f3c94c7313
+source-git-commit: 04259d63523050d5bd43e5e776c21237e5a5cfe4
 workflow-type: tm+mt
-source-wordcount: '1334'
+source-wordcount: '1325'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ AppBuilder가 제대로 구성된 경우 새 프로젝트 만들기의 일부로
    >이 단계에서는 작업 공간을 추가할 수 있습니다. 각 개발자를 위한 작업 영역을 만드는 것이 좋습니다. 이렇게 하면 개발자가 작업할 때 비밀과 배포가 서로 분리됩니다. 작업 공간의 이름을 을 사용하는 개발자의 이름으로 지정해야 합니다. AIO cli에는 작업 공간 전환을 위한 옵션이 있으며, 이 옵션은 나중에 살펴보겠습니다.
 
 
-1. 나가기 **런타임 포함** 선택됨. 왜 그런지는 모르지만 바꾸진 마!
+1. 나가기 **런타임 포함** 선택됨.
 
 1. **저장**&#x200B;을 클릭합니다.
 
