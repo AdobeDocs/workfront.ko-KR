@@ -1,7 +1,7 @@
 ---
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '2412'
+source-wordcount: '2411'
 ht-degree: 1%
 
 ---
@@ -256,7 +256,7 @@ Workfront 프로젝트에 있는 동안 사용자가 Experience Manager에 연�
    * **내 작업 공간**: 사용자가 만든 작업 공간을 표시합니다.
    * **기타 작업 공간**: 사용자와 공유된 작업 공간을 포함하여 Workfront Planning의 모든 작업 공간을 표시합니다.
 
-   다른 모든 사용자의 경우, 사용자가 만들었거나 사용자와 공유되는 모든 작업 공간은 **작업 공간** 영역입니다.
+   다른 모든 사용자의 경우 생성했거나 공유한 모든 작업공간이 **작업 공간** 영역입니다.
 
 ## Workfront Planning 중요한 소개 - {#planning-important-intro}
 

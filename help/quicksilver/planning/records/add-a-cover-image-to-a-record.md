@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-<!--************double-check permissions here - asking Isk and Lilit what permissions users need for adding thumbnails-->
+<!--************double-check permissions here - asking Isk and Lilit what permissions users need for adding cover images-->
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -58,9 +58,10 @@ ht-degree: 0%
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront 라이선스</p></td>
+   <td role="rowheader"><p>Adobe Workfront 라이센스*</p></td>
    <td>
-   <p>임의</p> 
+   <p>현재: 작업 시간 이상</p>
+   <p>새로운 기능: 표준</p>  
   </td>
   </tr>
 
@@ -71,7 +72,7 @@ ht-degree: 0%
   </tr>
 <tr>
    <td role="rowheader"><p>권한</p></td>
-   <td> <p>작업 영역에 대한 상위 권한 기여 </p>  
+   <td> <p>작업 공간에 대한 권한 관리 </p>  
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p>
 </td>
   </tr>
@@ -84,6 +85,8 @@ ht-degree: 0%
 </tbody>
 </table>
 
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 ## 레코드 페이지 표지 이미지에 대한 고려 사항
 
 표지 이미지를 추가하여 레코드의 페이지를 개인화할 수 있습니다.
@@ -94,7 +97,8 @@ ht-degree: 0%
 * 이미지 파일만 커버 이미지로 추가할 수 있습니다.
   <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
 * 모든 보기의 레코드 미리 보기 또는 레코드 페이지에서 커버 이미지를 개별 레코드에 추가할 수 있습니다.
-* 레코드 보기에서 표지 이미지를 인라인으로 추가할 수 없습니다.
+* 레코드 보기에서는 표지 이미지를 추가할 수 없습니다.
+* Workfront은 레코드를 만들 때마다 표지 이미지를 자동으로 업로드합니다. 나중에 이 이미지를 수정할 수 있습니다.
 
 ## 레코드에 표지 이미지 추가
 
@@ -114,19 +118,15 @@ ht-degree: 0%
 
    레코드 유형 페이지가 열립니다.
 
-1. 모든 유형의 보기에서 레코드 이름을 클릭합니다
+1. 모든 유형의 보기에서 레코드를 클릭합니다
 
    또는
 
-   테이블 테이블 보기에서 **세부 정보 열기** 아이콘 ![](assets/open-details-icon-in-table-name-field.png) 레코드 이름의 왼쪽에 있습니다.
+   테이블 테이블 보기에서 **세부 정보 열기** 아이콘 ![](assets/open-details-icon-in-table-name-field.png) 첫 번째 열에서
 
    레코드의 미리보기가 보기에서 열립니다.
 
    ![](assets/details-box.png)
-
-   >[!TIP]
-   >
-   >다음을 볼 수 있습니다. **세부 정보 열기** 테이블 보기에서 레코드의 이름 필드 왼쪽에 있는 아이콘은 이름 필드가 기본 필드인 경우에만 해당됩니다.
 
 1. (선택 사항) **새 탭에서 열기** 아이콘 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 레코드 미리 보기의 오른쪽 상단 모서리에서 새 탭에서 레코드 페이지를 엽니다.
 
@@ -134,10 +134,25 @@ ht-degree: 0%
 
    ![](assets/details-page.png)
 
-1. 레코드 미리 보기 또는 페이지에서 **표지 추가**. <!--check the casing here; I logged a bug for this-->
-다음 **레코드 커버** 상자가 열립니다.
+1. 레코드 미리 보기 또는 페이지에서 **표지 추가**
 
-1. 클릭 **업로드하려면 선택** 컴퓨터에서 그림을 찾아 선택하고 추가한 다음 **이미지 사용**.
+
+   또는
+
+   기존 표지 이미지 위로 마우스를 가져간 후 **자세히** 메뉴 ![](assets/more-menu.png) 을 클릭한 다음 을 클릭합니다 **업로드**. <!--check the casing here; I logged a bug for this-->
+다음 **레코드 커버** 상자에서 열기 **업로드** 탭.
+
+   ![](assets/record-cover-box-for-upload.png)
+
+1. 클릭 **이미지 찾아보기** 컴퓨터에서 그림을 찾아 선택하고 추가합니다.
+
+1. (선택 사항) 이미지를 저장하기 전에 제거하려면 **새 이미지 업로드** 아이콘 ![](assets/upload-new-image-icon.png) 을 클릭하고 새 이미지를 업로드하십시오.
+
+1. (선택 사항) **갤러리** 탭을 클릭한 다음 이미지 갤러리에서 이미지를 클릭합니다. 이미지 갤러리는 수정할 수 없습니다.
+
+   ![](assets/record-cover-box-for-gallery.png)
+
+1. 클릭 **이미지 사용**.
 
    이미지가 레코드 미리 보기 또는 페이지 맨 위에 업로드되고 변경 사항이 자동으로 저장됩니다.
 

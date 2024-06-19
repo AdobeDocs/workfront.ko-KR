@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '1932'
-ht-degree: 1%
+source-wordcount: '1965'
+ht-degree: 2%
 
 ---
 
@@ -100,6 +100,7 @@ Adobe Workfront Planning은 Adobe Workfront의 새로운 제품입니다. Workfr
 | Adobe Workfront Fusion용 Adobe Workfront Planning 모듈 | ✓ 덧신 |                                  |                 |
 | 한 필드에서 다른 필드로 정보 복사 및 붙여넣기 | ✓ 덧신 |                                  |                 |
 | Workfront 객체에서 Planning 레코드에 액세스 | ✓ 덧신 |                                  |                 |
+| Workfront 객체에서 Planning 레코드 연결 | ✓ 덧신 |                                  |                 |
 
 ## Workfront 인스턴스의 사용자에 대해 Adobe Workfront Planning 활성화
 
@@ -208,9 +209,18 @@ Workfront Planning의 프레임워크는 완전히 사용자 정의할 수 있�
 
 * **연결된 필드** (또는 조회 필드): 두 레코드 유형 간에 연결을 설정하고 개별 레코드를 함께 연결하면 연결 중인 레코드에서 연결된 레코드의 필드를 참조할 수 있습니다.
 
-  예를 들어 캠페인 레코드 유형을 Workfront 프로젝트 오브젝트 유형과 연결하는 경우 캠페인 레코드에 연결된 프로젝트의 프로젝트 소유자 필드를 표시할 수 있습니다.
+  예를 들어 캠페인 레코드 유형을 Workfront 프로젝트 오브젝트 유형과 연결하는 경우, 캠페인 레코드에 연결된 프로젝트의 예산 필드를 표시할 수 있습니다.
 
   ![](assets/add-lookup-fields-modal.png)
+
+  >[!TIP]
+  >
+  > 다음 필드 유형을 조회 필드로 추가할 수 없습니다.
+  >
+  >* 사용자
+  >* 제작자
+  >* 마지막 수정자
+  >* Workfront 자동 완성 필드(프로젝트 소유자 또는 프로젝트 스폰서와 같은 필드 포함)
 
   레코드 유형, 레코드 연결 및 연결된 필드 만들기에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
@@ -285,7 +295,7 @@ Workfront Planning을 찾으려면 다음을 수행합니다.
 
    ![](assets/planning-landing-page-admin.png)
 
-   1. (조건부 및 선택 사항) Workfront 관리자인 경우 다음 탭 중 하나를 클릭합니다.
+1. (조건부 및 선택 사항) Workfront 관리자인 경우 다음 탭 중 하나를 클릭합니다.
    * **내 작업 공간**: 사용자가 만든 작업 공간을 표시합니다.
    * **기타 작업 공간**: 사용자와 공유된 작업 공간을 포함하여 시스템의 다른 모든 작업 공간을 표시합니다.
 

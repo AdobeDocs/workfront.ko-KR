@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '779'
 ht-degree: 0%
 
 ---
@@ -54,9 +54,10 @@ ht-degree: 0%
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront 라이선스</p></td>
+   <td role="rowheader"><p>Adobe Workfront 라이센스*</p></td>
    <td>
-   <p>임의</p> 
+   <p>현재: 작업 시간 이상</p>
+   <p>새로운 기능: 표준</p>  
   </td>
   </tr>
 
@@ -67,7 +68,7 @@ ht-degree: 0%
   </tr>
 <tr>
    <td role="rowheader"><p>권한</p></td>
-   <td> <p>작업 영역에 대한 상위 권한 기여 </p>  
+   <td> <p>작업 공간에 대한 권한 관리 </p>  
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p>
 </td>
   </tr>
@@ -80,23 +81,33 @@ ht-degree: 0%
 </tbody>
 </table>
 
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 ## 레코드 썸네일에 대한 고려 사항
 
 테이블 보기에서 레코드를 시각적으로 구별하기 위해 고유한 썸네일 이미지를 각 레코드와 연결할 수 있습니다.
 
 다음 사항을 고려하십시오.
 
+* 축소판은 하나의 레코드에 고유하며 동일한 유형의 모든 레코드에는 적용되지 않습니다.
 * 이미지 파일만 썸네일로 추가할 수 있습니다.
   <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
-* 표 보기에서 개별 레코드에 축소판 이미지를 추가할 수 있습니다.
-* 썸네일은 레코드 정보에 속하며 레코드가 표시되는 뷰에 표시됩니다. 예를 들어 축소판은 다음 영역의 레코드 정보와 함께 표시됩니다.
+* 표 보기 또는 레코드의 페이지나 미리 보기 상자의 개별 레코드에 축소판 이미지를 추가할 수 있습니다.
+* Workfront은 레코드를 만들 때마다 썸네일 이미지를 자동으로 업로드합니다. 나중에 이 이미지를 수정할 수 있습니다.
+* 축소판은 레코드 정보에 속하며 레코드가 표시되는 영역에 표시됩니다. 예를 들어 축소판은 다음 영역의 레코드 정보와 함께 표시됩니다.
 
    * 테이블 보기에서 레코드의 기본 필드
    * 타임라인 보기의 레코드 모음
-* 레코드 페이지나 다른 유형의 보기에서 레코드 축소판을 추가할 수 없습니다.
-* 썸네일은 레코드의 페이지에 표시되지 않습니다.
+   * 레코드의 세부 사항 미리 보기 및 페이지.
 
 ## 레코드에 썸네일 추가
+
+다음과 같은 방법으로 썸네일을 추가할 수 있습니다.
+
+* [표 보기에서 레코드에 썸네일 추가](#add-a-thumbnail-to-a-record-from-the-table-view)
+* [세부 정보 페이지에서 레코드에 썸네일 추가](#add-a-thumbnail-to-a-record-from-the-details-page)
+
+### 표 보기에서 레코드에 썸네일 추가
 
 {{step1-to-planning}}
 
@@ -110,72 +121,85 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >   기본 필드는 테이블 뷰의 첫 번째 열에 표시되는 필드입니다. 기본 필드는 항상 고정되어 있으므로 숨기거나 재배치할 수 없습니다.
+   >   기본 필드는 테이블 뷰의 첫 번째 열에 표시되는 필드입니다. 기본 필드는 항상 고정되어 있으므로 숨기거나 재배치할 수 없습니다. 기본 필드가 공식 필드인 경우 기타 메뉴에서 썸네일 옵션을 사용할 수 없습니다.
 
-   다음 **레코드 썸네일** 상자가 열립니다.
+   다음 **업로드** 탭에서 기본적으로 열림 **레코드 썸네일** 상자.
 
-   ![](assets/record-thumbnail-box-for-upload.png)
-
-   <!--update screen shot with correct casing-->
-
-1. 다음에서 **업로드** 탭하거나, 파일을 드래그 앤 드롭하여 썸네일로 추가하거나 **업로드하려면 선택**&#x200B;을 클릭한 다음 추가할 이미지 파일을 찾습니다. 파일을 컴퓨터에 저장해야 합니다.
-1. (선택 사항) 크기 조정 도구를 사용하여 이미지를 자르고 크기를 조정합니다.
-1. 클릭 **이미지 사용** 이미지를 썸네일로 추가합니다.
-이 옵션을 닫으면 **레코드 썸네일** 상자.
-1. (조건부) 테이블 보기에 대해 적어도 기여 권한이 있는 경우 **필드** 테이블 보기의 오른쪽 위 모서리에서 참조할 수 있습니다.
-1. 다음 항목 선택 **축소판** 썸네일을 표시하려면 전환합니다. 기본적으로 선택되어 있지 않습니다.
-
-   ![](assets/thumbnail-toggle-in-fields-menu-deselected.png)
-
-   기본 필드 값의 왼쪽에 썸네일이 표시됩니다.
-1. (선택 사항 및 조건부) 보기에 대한 Contribute 이상의 권한이 없는 경우 **보기** 드롭다운 메뉴 또는 뷰를 만듭니다.
-1. (선택 사항) 썸네일을 제거하려면 기본 필드 위로 마우스를 가져간 다음 **자세히** 메뉴 ![](assets/more-menu.png)> **축소판** > **제거** 아이콘 ![](assets/remove-image-icon.png)을 클릭한 다음 을 클릭합니다 **변경 내용 저장**.
+   썸네일 업로드에 대한 자세한 내용은 섹션 을 참조하십시오 [세부 정보 페이지에서 레코드에 썸네일 추가](#add-a-thumbnail-to-a-record-from-the-details-page) 이 문서에서는 6단계부터 시작합니다. <!--see if this is accurate-->
 
 <!--
-Replace the section above with the following when we release generate thumbnails:
+   ![](assets/record-thumbnail-box-for-upload.png) 
 
-## Add a thumbnail to a record
+  *****update screen shot with correct casing****
 
-You can add a thumbnail to a record in the following ways:
+1. Drag and drop a file to add as a thumbnail
+   
+   Or
+   
+   Click **Browse images**, then browse for an image file to add. The file must be saved on your computer. 
+1. (Optional) After the image uploads in the **Record thumbnail** box, use the sizing tool to crop and resize the image.
+1. (Optional) Click the **Upload new image** icon ![](assets/upload-new-image-icon.png) to upload another image. 
+1. (Optional) To remove a thumbnail before it is saved, click  **Remove uploaded image** icon ![](assets/remove-image-icon.png) to the right of the image. 
+1. (Optional) Click the **Gallery** tab, then click an image. The gallery of images cannot be modified.
 
-* Upload a file from your computer
-* Generate an image with a prompt
+   ![](assets/record-thumbnail-box-for-gallery.png)
+1. Click **Use image** to add the image as a thumbnail. 
+   This closes the **Record thumbnail** box.
+   The thumbnail displays in areas of Workfront Planning where the record displays. 
 
-### Upload a thumbnail to a record
+   >[!TIP]
+   >
+   >   You must enable the Thumbnail field in the table view to display thumbnails in this view. It is disabled by default.
+
+1. (Optional) To remove the thumbnail after it is saved, hover over the primary field and click the **More** menu ![](assets/more-menu.png)> **Thumbnail** > the **Remove** icon ![](assets/remove-image-icon.png), then click **Save changes**. -->
+
+### 세부 정보 페이지에서 레코드에 썸네일 추가
 
 {{step1-to-planning}}
 
-1. Click the workspace for whose records you want to add thumbnails, then click the record type card. 
+1. 썸네일을 추가할 레코드가 있는 작업 영역을 클릭한 다음 레코드 유형 카드를 클릭합니다.
 
-   This opens the record type page. 
-1. Select a table view from the **View** drop-down menu. All records of the type you selected display in a table. 
-1. Hover over the primary field information, click the **More** menu ![](assets/more-menu.png), then click **Thumbnail**. 
+   그러면 레코드 유형 페이지가 열립니다.
+1. 보기에서 레코드를 클릭하여 엽니다.
 
-   ![](assets/record-more-menu-expanded.png)
+   세부 사항 미리 보기 상자가 표시됩니다.
+1. (선택 사항) **새 탭에서 열기** 아이콘 ![](assets/open-details-in-a-new-tab-icon.png) 오른쪽 상단 모서리입니다.
 
-      >[!TIP]
-      >
-      >   The primary field is the field that displays in the first column of a table view. The primary field is always frozen and cannot be hidden or relocated. 
+   레코드의 세부 정보 페이지가 열립니다.
+1. 썸네일 이미지 또는 아이콘 위로 마우스 오버 ![](assets/record-thumbnail-icon-on-details-page.png)을(를) 클릭하고 **자세히** 메뉴 ![](assets/more-menu.png) > **썸네일 편집**.
 
-   The **Record thumbnail** box opens.
+   다음 **업로드** 탭에서 기본적으로 열림 **레코드 썸네일** 상자.
 
-   ![](assets/record-thumbnail-box-for-upload.png) 
+   ![](assets/record-thumbnail-box-for-upload.png)
 
-1. Click the **Upload** tab, and drag and drop a file to add as a thumbnail
-   Or
-   Click **Select to upload**, then browse for an image file to add. The file must be saved on your computer. 
-1. (Optional) Use the sizing tool to crop and resize the image.
-1. Click **Use image** to add the image as a thumbnail. 
-   This closes the **Record thumbnail** box.
-1. (Conditional) If you have at least Contribute permissions to the table view, click **Fields** in the upper-right corner of the table view. 
-1. Select the **Thumbnail** toggle to display the thumbnail. This is deselected by default. 
+1. 썸네일로 추가할 파일 드래그 앤 드롭
 
-   ![](assets/thumbnail-toggle-in-fields-menu-deselected.png)
+   또는
 
-   The thumbnail displays to the left of the primary field value. 
-1. (Optional and conditional) If you do not have Contribute or higher permissions to the view, select a new view from the **View** drop-down menu, or create a view. 
-1. (Optional) To remove the thumbnail, hover over the primary field and click the **More** menu ![](assets/more-menu.png)> **Thumbnail** > the **Remove** icon ![](assets/remove-image-icon.png), then click **Save changes**.
+   클릭 **이미지 찾아보기**&#x200B;을 클릭한 다음 추가할 이미지 파일을 찾습니다. 파일을 컴퓨터에 저장해야 합니다.
 
+1. (선택 사항)에서 이미지를 업로드한 후 **레코드 썸네일** 상자, 크기 조정 도구를 사용하여 이미지를 자르고 크기를 조정합니다.
+1. (선택 사항) **새 이미지 업로드** 아이콘 ![](assets/upload-new-image-icon.png) 다른 이미지를 업로드합니다.
+1. (선택 사항) **갤러리** 탭을 클릭한 다음 이미지를 클릭합니다. 이미지 갤러리는 수정할 수 없습니다.
+
+   ![](assets/record-thumbnail-box-for-gallery.png)
+
+1. (선택 사항) 썸네일을 저장하기 전에 제거하려면 **제거** 아이콘 ![](assets/remove-image-icon.png) 이미지 오른쪽에 있습니다.
+
+1. 클릭 **이미지 사용** 이미지를 썸네일로 추가합니다.
+이 옵션을 닫으면 **레코드 썸네일** 상자.
+썸네일은 레코드가 표시되는 Workfront Planning 영역에 표시됩니다.
+
+   >[!TIP]
+   >
+   >   이 보기에서 썸네일을 표시하려면 표 보기에서 썸네일 필드를 활성화해야 합니다. 기본적으로 비활성화되어 있습니다.
+
+1. (선택 사항) 썸네일을 저장한 후 제거하려면 보기에서 레코드를 클릭하여 세부 정보 페이지를 연 다음 썸네일 이미지 위로 마우스를 이동하고 **자세히** 메뉴 ![](assets/more-menu.png)> **제거** 아이콘 ![](assets/remove-image-icon.png). 썸네일 이미지가 제거됩니다.
+
+
+
+
+<!--
 ### Generate a thumbnail for a record
 
 {{step1-to-planning}}

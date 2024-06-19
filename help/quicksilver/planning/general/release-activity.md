@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 216ddc77c76d3e607cc56f32f347aa3544a03ebf
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '7497'
+source-wordcount: '7510'
 ht-degree: 0%
 
 ---
@@ -97,7 +97,7 @@ Workfront Planning에서 작업 공간 템플릿 카드의 모양 및 필드를 
 
 세부 정보 페이지에서 레코드에 축소판 또는 표지 이미지를 추가하는 경험을 업데이트했습니다. 개선 사항에는 다음 업데이트가 포함됩니다.
 
-* 축소판 이미지는 레코드를 만들 때 레코드에 임의로 할당됩니다. 나중에 이 이미지를 편집할 수 있습니다.
+* 축소판 이미지와 표지 이미지는 레코드를 만들 때 자동으로 레코드에 할당됩니다. 나중에 이러한 이미지를 편집할 수 있습니다.
 
 * 세부 정보 페이지에서 썸네일을 추가할 수 있습니다. 이 개선 이전에는 표 보기에서만 썸네일을 추가할 수 있었습니다.
 
@@ -129,7 +129,7 @@ Workfront Planning에서 작업 공간 템플릿 카드의 모양 및 필드를 
 
 미리보기: 결정 예정
 
-두 개 이상의 행에 표시되는 레코드가 있을 경우 연결된 레코드 필드에 &quot;자세히 표시/ 간단히 표시&quot; 링크를 추가했습니다.
+레코드의 세부 정보 페이지에서 두 개 이상의 행에 표시되는 레코드가 있는 경우 연결된 레코드 필드에 &quot;자세히 표시/ 간단히 표시&quot; 링크를 추가했습니다.
 
 자세한 내용은 [레코드 연결](/help/quicksilver/planning/records/connect-records.md).
 
@@ -169,7 +169,7 @@ Workfront Planning에서 작업 공간 템플릿 카드의 모양 및 필드를 
 
 랜딩 페이지의 일부 정보에는 다음이 포함됩니다.
 
-* 작업 영역과 사용자와 공유되는 작업 영역을 표시하는 영역입니다. 작업 영역 소유자는 각 작업 영역 카드에 나열됩니다.
+* 작업 영역과 사용자와 공유되는 작업 영역을 표시하는 영역입니다. 작업 영역 소유자는 각 작업 영역 카드에 표시됩니다.
 
 * Workfront 관리자인 경우 다음 탭이 표시됩니다.
 
@@ -324,7 +324,7 @@ Workfront의 계획 섹션에서 다음 작업을 사용할 수 있습니다.
 
 보다 효율적인 가독성과 탐색을 위해 레코드 페이지의 정보를 더 잘 정리하기 위해 레코드 페이지에 섹션을 도입했습니다. 섹션 제목은 필드를 개별 카테고리로 구성하는 헤더 역할을 합니다. 섹션은 완전히 사용자 지정할 수 있으며 필요한 경우 확장하거나 축소할 수 있습니다.
 
-자세한 내용은 [레코드 페이지 관리](/help/quicksilver/planning/records/manage-the-record-page.md).
+자세한 내용은 [레코드 페이지 레이아웃 관리](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ### 필드 구성 변경에 대한 실시간 업데이트
 
@@ -433,7 +433,7 @@ Workfront Planning 알림에 대한 자세한 내용은 [Adobe Workfront Plannin
 
 이제 작업 영역 관리자는 레코드 페이지나 미리 보기에 나열된 필드를 재정렬할 수 있습니다. 필드 순서를 업데이트하면 레코드 페이지나 레코드 미리 보기를 보는 모든 사람에게 동일한 유형의 모든 레코드에서 필드 순서가 변경됩니다.
 
-자세한 내용은 [레코드 페이지 관리](/help/quicksilver/planning/records/manage-the-record-page.md).
+자세한 내용은 [레코드 페이지 레이아웃 관리](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 
 ### 녹화 페이지에 표지 이미지 추가
@@ -444,7 +444,7 @@ Workfront Planning 알림에 대한 자세한 내용은 [Adobe Workfront Plannin
 
 이제 레코드 페이지를 관리할 때 레코드 페이지나 미리 보기의 표지 이미지를 추가, 위치 변경 및 교체하여 레코드의 프레젠테이션과 관련자 참여를 강화할 수 있습니다. 표지 이미지는 레코드를 보는 모든 사용자가 볼 수 있습니다.
 
-자세한 내용은 [레코드 페이지 관리](/help/quicksilver/planning/records/manage-the-record-page.md).
+자세한 내용은 [레코드 페이지 레이아웃 관리](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ## 2024년 3월 25일 주
 
