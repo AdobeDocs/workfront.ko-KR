@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '1752'
+source-wordcount: '1764'
 ht-degree: 0%
 
 ---
@@ -251,7 +251,7 @@ this is not possible right now; if this is the same functionality as the table v
 
 1. 클릭 **막대 스타일** 왼쪽 패널에서 레코드 막대에 표시할 필드를 나타냅니다.
 
-   기본적으로 이름 필드가 선택되어 있습니다. <!--adjust this when the primary field is released??-->
+   레코드의 테이블 보기에서 정의된 레코드의 기본 필드(또는 제목)는 기본적으로 선택됩니다. <!--adjust this when the primary field is released??-->
 
 1. (선택 사항 및 조건부) 레코드에 썸네일을 추가한 경우 썸네일 옵션을 선택하여 레코드와 연관된 이미지를 레코드 표시줄에 표시합니다.
 

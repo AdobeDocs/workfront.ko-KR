@@ -1,0 +1,51 @@
+---
+title: 기본 필드 개요
+description: Adobe Workfront Planning에 있는 레코드 유형의 테이블 보기에서 한 줄 텍스트, 숫자 또는 공식 필드를 기본 필드로 지정할 수 있습니다. 기본 필드는 해당 유형의 레코드 제목이 됩니다.
+hidefromtoc: true
+hide: true
+recommendations: noDisplay, noCatalog
+source-git-commit: 406cd3f929d3955d196f883bf1830fd0fffe9251
+workflow-type: tm+mt
+source-wordcount: '294'
+ht-degree: 1%
+
+---
+
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
+
+# 기본 필드 개요
+
+{{planning-important-intro}}
+
+기본 필드는 Adobe Workfront Planning에서 레코드 유형 테이블 뷰의 첫 번째 열에 표시되는 필드입니다.
+
+기본적으로 이름 필드는 기본 필드입니다. 그러나 다음 유형의 필드를 레코드의 기본 필드로 지정할 수 있습니다.
+
+* 한 줄 텍스트 필드
+* 숫자
+* 공식
+
+![](assets/another-text-field-as-a-primary-field-highlighted.png)
+
+필드를 기본 필드로 지정하는 방법에 대한 자세한 내용은 [표 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+## 기본 필드 개요
+
+* 기본으로 지정된 필드의 정보가 레코드의 제목이 됩니다.
+
+  >[!NOTE]
+  >
+  >    &quot;기본 필드&quot; 및 &quot;레코드 제목&quot;은 Workfront Planning에서 동의어입니다. 표 보기에서 레코드를 볼 때는 &quot;기본 필드&quot;가 선호됩니다.
+
+
+* 레코드의 제목은 다음 영역에 표시됩니다.
+
+   * 레코드 페이지 및 미리 보기 상자의 헤더 영역
+   * 연결된 레코드 필드
+   * 보기
+* 다른 필드를 기본 필드로 지정하지 않으면 테이블 보기에서 기본 필드를 이동, 숨기기 또는 삭제할 수 없습니다.
+* 기본 필드는 항상 잠겨 있으며 테이블 뷰의 가로 스크롤의 일부가 아닙니다.
+* 테이블 보기의 기본 필드를 변경하면 기본 필드를 선택하는 다른 모든 사용자의 보기에 영향을 줍니다.
+* 표 보기에서 기본 필드를 변경하면 레코드 유형의 모든 표 보기에 영향을 줍니다.
+* 기본 필드에 나열된 값은 항상 레코드의 페이지에 하이퍼링크됩니다.
+* 작업 영역에 대한 Contribute 이상의 권한이 있는 경우 공식 필드를 제외한 기본 필드의 값을 편집할 수 있습니다. 공식은 자동으로 업데이트되는 계산입니다.

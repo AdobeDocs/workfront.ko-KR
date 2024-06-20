@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1678'
 ht-degree: 0%
 
 ---
@@ -115,6 +115,7 @@ ht-degree: 0%
 * [레코드 유형의 테이블 보기에서](#edit-a-record-inline-in-the-table-view-of-a-record-type)
 * [보기의 레코드 미리 보기에서](#edit-a-record-from-the-records-preview-in-a-view)
 * [레코드 페이지에서](#edit-a-record-from-the-records-page)
+* [Planning 섹션의 Workfront 객체에서](#edit-a-record-from-a-workfront-object-in-the-planning-section)
 
 ### 레코드 유형의 표 보기에서 인라인 레코드 편집
 
@@ -210,7 +211,7 @@ ht-degree: 0%
 
 1. (선택 사항) **자세히** 레코드 제목 오른쪽에 있는 메뉴를 클릭한 다음 **이름 바꾸기**. 레코드의 제목으로 표시되는 필드가 업데이트됩니다.
 
-   레코드의 제목은 테이블 보기에서 볼 때 레코드의 기본 필드입니다. 자세한 내용은 [표 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md).
+   레코드의 제목은 테이블 보기에서 볼 때 레코드의 기본 필드입니다. 자세한 내용은 [기본 필드 개요](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. 레코드의 미리 보기에서 필드 정보 편집을 시작합니다.
 
@@ -280,3 +281,8 @@ ht-degree: 0%
 
    Workfront은 변경 사항을 자동으로 저장합니다.
 
+## 계획 섹션의 Workfront 객체에서 레코드 편집
+
+레코드를 Workfront 오브젝트와 연결한 후 오브젝트의 계획 섹션에서 Workfront의 Workfront Planning 레코드를 편집할 수 있습니다.
+
+자세한 내용은 [Adobe Workfront 오브젝트의 계획 섹션에서 레코드 관리](/help/quicksilver/planning/records/manage-records-in-planning-section.md).

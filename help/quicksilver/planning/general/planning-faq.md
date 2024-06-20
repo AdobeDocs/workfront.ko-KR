@@ -4,7 +4,7 @@ description: 마케팅 운영 리더로서 Adobe Workfront Planning을 사용하
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 406cd3f929d3955d196f883bf1830fd0fffe9251
 workflow-type: tm+mt
 source-wordcount: '1630'
 ht-degree: 0%
@@ -13,6 +13,8 @@ ht-degree: 0%
 
 
 # Adobe Workfront 계획 FAQ
+
+{{planning-important-intro}}
 
 <!-- add to TOC and mini TOC-->
 

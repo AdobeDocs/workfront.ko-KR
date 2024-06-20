@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '689'
 ht-degree: 1%
 
 ---
@@ -103,7 +103,7 @@ ht-degree: 1%
    * [기록 연결](/help/quicksilver/planning/records/connect-records.md)
 * Workfront 객체와 연관된 레코드가 없는 경우에도 Workfront 객체에서 계획 섹션을 볼 수 있습니다.
 * Workfront 객체에 연결된 레코드가 하나 이상 있는 경우 계획 섹션에서 Workfront의 Workfront 객체와 Planning 레코드를 연결할 수 있습니다.
-* Workfront 개체의 레코드를 연결하려면 작업 영역에 대한 기여 이상의 권한이 있어야 합니다.
+* Workfront 개체의 레코드를 연결하려면 작업 공간에 대한 관리 권한이 있어야 합니다.
 
 ## 계획 섹션의 레코드 관리
 
@@ -138,7 +138,7 @@ ht-degree: 1%
 
 1. 레코드에 대한 자세한 내용을 표시하려면 레코드 카드를 클릭합니다. 레코드 미리 보기 상자가 표시됩니다.
 1. (선택 사항) 레코드의 미리 보기 상자에서 필드 수정을 시작합니다. 변경 사항은 자동으로 저장됩니다.
-1. (선택 사항) **새 탭에서 열기** 아이콘 ![](assets/open-details-in-a-new-tab-icon.png) 미리 보기 상자의 오른쪽 상단 모서리에서 레코드의 세부 사항 페이지를 엽니다.
+1. (선택 사항) **새 탭에서 열기** 아이콘 ![](assets/open-details-in-a-new-tab-icon.png) 미리 보기 상자의 오른쪽 상단 모서리에서 레코드의 세부 사항 페이지를 엽니다. 레코드의 세부 사항 페이지가 Workfront Planning에 열립니다.
 1. 레코드 카드 위로 마우스를 가져간 다음 레코드 연결 끊기 아이콘을 클릭합니다 **-**&#x200B;을 클릭한 다음 을 클릭합니다 **연결 해제**.
 다음과 같은 상황이 발생합니다.
    * 레코드가 더 이상 Workfront 개체에 연결되어 있지 않습니다.
@@ -148,7 +148,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >   연결 단추는 Contribute 권한이 있는 작업 영역에 대해서만 표시됩니다.
+   >   연결 단추는 Contribute 권한이 있는 작업 영역에 대해서만 표시됩니다. <!--they might replace this with one button at the top of the page. Rephrase-->
 
 1. 연결할 레코드를 클릭합니다. 다음과 같은 상황이 발생합니다.
 
