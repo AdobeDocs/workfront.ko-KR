@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '642'
 ht-degree: 1%
 
 ---
@@ -117,7 +117,9 @@ Adobe Workfront Planning에서 작업 공간은 팀이 작업을 계획하는 �
 
 1. (선택 사항 및 조건부) 클릭 **미리 보기** 다음 사전 정의된 작업 공간 템플릿 내부:
 
-   * 마케팅 관리
+   * 기본: 마케팅 관리
+   * 고급: 마케팅 관리
+   * 엔터프라이즈: 마케팅 관리
    * 영업 관리
    * 제품 관리
 
@@ -133,7 +135,7 @@ Adobe Workfront Planning에서 작업 공간은 팀이 작업을 계획하는 �
 
    또는
 
-   클릭 **뒤로**&#x200B;을 클릭한 다음 을 클릭합니다 **작업 영역 만들기** 처음부터 작업공간을 만듭니다.
+   클릭 **뒤로**&#x200B;을 클릭한 다음 을 클릭합니다 **새 작업 영역** 처음부터 작업공간을 만듭니다.
 
    다음 유형의 작업 공간에 대한 하나가 만들어집니다.
 

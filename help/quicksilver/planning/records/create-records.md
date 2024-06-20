@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
@@ -121,11 +121,16 @@ Adobe Workfront Planning에서 레코드는 레코드 유형의 인스턴스입�
 
       * 클릭 **새 레코드** 페이지의 오른쪽 상단 모서리에서 을 참조하십시오. 레코드 미리 보기 상자가 열립니다.
 
-1. 새 레코드나 미리 보기 상자에 표시되는 필드에 정보를 입력하십시오.
+     Workfront은 각 새 레코드에 썸네일과 표지 이미지를 자동으로 업로드합니다. 나중에 이러한 이미지를 수정할 수 있습니다. 자세한 내용은 다음 문서를 참조하십시오.
+
+      * [레코드에 표지 이미지 추가](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
+      * [레코드에 썸네일 추가](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
+
+1. 미리 보기 상자에 표시되는 필드에 새 레코드에 대한 정보를 입력하십시오.
 
    >[!NOTE]
    >
-   >  * 레코드에 대한 필수 필드가 없습니다. 그러나 레코드를 서로 연결할 때 레코드별로 식별하는 것이 도움이 되므로 레코드에 이름을 추가하는 것이 좋습니다.
+   >  * 레코드에 대한 필수 필드가 없습니다. 그러나 레코드를 서로 연결할 때 레코드를 식별하는 데 도움이 되므로 레코드의 기본 필드에 대한 정보를 추가하는 것이 좋습니다. 기본 필드에 대한 자세한 내용은 [표 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md).
    >
    >  * 다른 레코드 종류 또는 계산된 필드를 참조하는 필드는 읽기 전용 필드입니다.
 
@@ -140,7 +145,7 @@ Adobe Workfront Planning에서 레코드는 레코드 유형의 인스턴스입�
    >다음에 액세스할 수 있습니다. **세부 정보 열기** ( 이름 필드가 기본 필드인 경우 레코드의 이름 필드에서만) 아이콘으로 표시됩니다.
 
 1. 레코드 미리 보기에서 레코드 정보 편집을 시작합니다. Workfront은 변경 사항을 자동으로 저장합니다.
-1. (선택 사항) **새 탭에서 열기** 아이콘 ![](assets/open-details-in-a-new-tab-icon.png) 레코드 미리 보기의 오른쪽 상단 모서리에서 새 탭에서 레코드 페이지를 엽니다. 레코드 페이지에서 레코드 편집을 계속합니다.
+1. (선택 사항) **새 탭에서 열기** 아이콘 ![](assets/open-details-in-a-new-tab-icon.png) 레코드 미리 보기의 오른쪽 상단 모서리에서 새 탭에서 레코드 페이지를 엽니다. 레코드 페이지에서 레코드 편집을 계속합니다. 자세한 내용은 [레코드 편집](/help/quicksilver/planning/records/edit-records.md).
 
 1. (선택 사항) 다음 키보드 단축키를 사용하여 표 보기에서 새 레코드 또는 해당 정보를 추가할 때 해당 추가 작업을 취소하거나 다시 실행합니다.
 

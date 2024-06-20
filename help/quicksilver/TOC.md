@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 86c0517443537ec5af640036c290b3a495825fdc
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '14351'
+source-wordcount: '14352'
 ht-degree: 1%
 
 ---
@@ -2091,7 +2091,7 @@ ht-degree: 1%
       * [내역 섹션 개요](planning/records/history-section-overview.md)
       * [레코드에 썸네일 추가](planning/records/add-thumbnails-to-records.md)
       * [레코드에 표지 이미지 추가](planning/records/add-a-cover-image-to-a-record.md)
-      * [레코드 페이지 관리](planning/records/manage-the-record-page.md)
+      * [레코드 페이지 레이아웃 관리](planning/records/manage-the-record-page.md)
       * [Adobe Workfront 오브젝트의 계획 섹션에서 레코드 관리](planning/records/manage-records-in-planning-section.md)
    * Adobe Workfront Planning 보기 {#adobe-workfront-planning-views}
       * [보기: 문서 색인](planning/views/views-information.md)

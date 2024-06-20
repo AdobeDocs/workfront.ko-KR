@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: a923d86f78e6dab4705289a8165c4b31ff68b5a2
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1752'
 ht-degree: 0%
 
 ---
@@ -280,7 +280,13 @@ this is not possible right now; if this is the same functionality as the table v
 
    * **기본값(회색)**: 그룹화의 색상이 회색으로 설정됩니다. 이것이 기본값입니다.
    * **필드 값**: 그룹화의 색상은 그룹화하는 필드의 색상과 일치합니다.
-그룹화의 색상을 색상으로 구분된 옵션이 있는 필드에만 일치시킬 수 있습니다.
+
+     >[!NOTE]
+     >
+     >    * 색상을 색상으로 구분된 옵션이 있는 필드에만 일치시킬 수 있습니다. 예를 들어 색상을 상태 필드 또는 색상과 연관된 옵션이 있는 필드와 일치시킬 수 있습니다.
+     >    
+     >    * 연결된 레코드 또는 개체 유형의 조회 필드에 색상을 일치시킬 수 없습니다.
+
 
    예를 들어 다중 선택 또는 단일 선택 필드에는 색상으로 구분된 옵션이 있을 수 있습니다.
 

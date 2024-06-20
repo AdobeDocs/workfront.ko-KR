@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: d0880e0b58a3fb853569e2c09efc495cbd9c38ec
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
 source-wordcount: '3360'
 ht-degree: 2%
@@ -384,7 +384,7 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
    >
    >* 수식에 다중 선택 유형 필드를 추가할 수 없습니다.
    >
-   >* 현재 레코드 유형에서 최대 4개 수준까지 떨어진 필드를 참조할 수 있습니다. 예를 들어 활동 레코드 유형에 대한 공식 필드를 생성하고 활동이 Workfront 프로젝트에 연결된 캠페인 레코드 유형에 연결된 제품 레코드 유형에 연결된 경우 활동 레코드 유형에 대해 생성 중인 공식에서 프로젝트 소유자를 참조할 수 있습니다.
+   >* 현재 레코드 유형에서 최대 4개 수준까지 떨어진 필드를 참조할 수 있습니다. 예를 들어, 활동 레코드 유형에 대한 공식 필드를 생성하고 활동이 Workfront 프로젝트에 연결된 캠페인 레코드 유형에 연결된 제품 레코드 유형에 연결된 경우, 활동 레코드 유형에 대해 생성 중인 공식에서 프로젝트의 예산을 참조할 수 있습니다.
 
 1. Click **Create**.
 

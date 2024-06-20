@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '1481'
+source-wordcount: '1626'
 ht-degree: 0%
 
 ---
@@ -106,14 +106,14 @@ ht-degree: 0%
 * 레코드를 일괄적으로 편집할 수 없습니다. <!--this will probably change-->
 * URL은 http://, https://, ftp:// 또는 www로 시작하는 경우에만 한 줄 텍스트 필드 유형에서 링크로 인식됩니다. .
 * 각 레코드에 표지 이미지를 추가할 수 있습니다. 이 이미지는 각 레코드에 대해 고유하며, 동시에 모든 레코드에 적용되지 않습니다.
-* 레코드 페이지의 필드 순서를 편집하고 레코드에 대한 표지 이미지를 추가할 수 있습니다. 자세한 내용은 [레코드 페이지 관리](/help/quicksilver/planning/records/manage-the-record-page.md).
+* 레코드 페이지의 필드 순서를 편집하고 레코드에 대한 표지 이미지를 추가할 수 있습니다. 자세한 내용은 [레코드 페이지 레이아웃 관리](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ## 레코드 편집
 
 다음 영역에서 레코드를 편집할 수 있습니다.
 
-* [레코드 유형의 테이블 보기에서](#edit-a-record-from-the-table-view-of-a-record-type)
-* [보기의 레코드 미리 보기에서](#edit-a-record-from-the-records-box-in-a-view)
+* [레코드 유형의 테이블 보기에서](#edit-a-record-inline-in-the-table-view-of-a-record-type)
+* [보기의 레코드 미리 보기에서](#edit-a-record-from-the-records-preview-in-a-view)
 * [레코드 페이지에서](#edit-a-record-from-the-records-page)
 
 ### 레코드 유형의 표 보기에서 인라인 레코드 편집
@@ -200,17 +200,17 @@ ht-degree: 0%
 
    레코드 유형 페이지가 열립니다.
 
-1. 모든 유형의 보기에서 레코드 이름을 클릭합니다
+1. 모든 유형의 보기에서 레코드를 클릭합니다
 
    또는
 
-   테이블 보기에서 **세부 정보 열기** 아이콘 ![](assets/open-details-icon-in-table-name-field.png) 레코드 이름의 왼쪽에 있습니다. 레코드의 미리보기가 보기에서 열립니다.
+   테이블 보기에서 **세부 정보 열기** 아이콘 ![](assets/open-details-icon-in-table-name-field.png) 첫 번째 열에서 레코드의 미리보기가 보기에서 열립니다.
 
    ![](assets/details-box.png)
 
-   >[!TIP]
-   >
-   >다음을 볼 수 있습니다. **세부 정보 열기** 테이블 보기에서 레코드의 이름 필드 왼쪽에 있는 아이콘은 이름 필드가 기본 필드인 경우에만 해당됩니다.
+1. (선택 사항) **자세히** 레코드 제목 오른쪽에 있는 메뉴를 클릭한 다음 **이름 바꾸기**. 레코드의 제목으로 표시되는 필드가 업데이트됩니다.
+
+   레코드의 제목은 테이블 보기에서 볼 때 레코드의 기본 필드입니다. 자세한 내용은 [표 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 1. 레코드의 미리 보기에서 필드 정보 편집을 시작합니다.
 
@@ -218,10 +218,12 @@ ht-degree: 0%
    >
    >  다음 필드는 읽기 전용이고 Workfront에서 자동으로 업데이트하므로 해당 필드에 대한 정보는 편집할 수 없습니다.
    >  
-   >  * 레코드 종류를 연결하여 만든 연결된 필드. 자세한 내용은 [레코드 유형 연결](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >  * 레코드 종류를 연결하여 만든 다른 레코드에서 필드를 조회합니다. 자세한 내용은 [레코드 유형 연결](/help/quicksilver/planning/architecture/connect-record-types.md).
    >  * 생성자, 생성일, 마지막 수정자, 마지막 수정일, 공식 필드 유형의 필드.
 
 1. (선택 사항) **표지 추가** 표지 이미지를 레코드에 추가합니다. 자세한 내용은 [레코드에 표지 이미지 추가](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
+
+1. (선택 사항) 썸네일 아이콘 위로 마우스를 가져간 다음 **자세히** ![](assets/more-menu.png) > **썸네일 편집** 축소판 이미지를 추가합니다. 자세한 내용은 [레코드에 썸네일 추가](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
    Workfront은 변경 사항을 자동으로 저장합니다.
 
@@ -251,6 +253,10 @@ ht-degree: 0%
 
      ![](assets/details-page.png)
 
+1. (선택 사항) **자세히** 레코드 제목 오른쪽에 있는 메뉴를 클릭한 다음 **이름 바꾸기**. 레코드의 제목으로 표시되는 필드가 업데이트됩니다.
+
+   레코드의 제목은 테이블 보기에서 볼 때 레코드의 기본 필드입니다. 자세한 내용은 [표 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md).
+
 1. 레코드 페이지에서 편집 가능한 필드를 클릭하여 편집합니다.
 
    >[!TIP]
@@ -260,7 +266,17 @@ ht-degree: 0%
    >  * 레코드 종류를 연결하여 만든 연결된 필드. 자세한 내용은 [레코드 유형 연결](/help/quicksilver/planning/architecture/connect-record-types.md).
    >  * 생성자, 생성일, 마지막 수정자, 마지막 수정일, 공식 필드 유형의 필드.
 
-1. (선택 사항) **표지 추가** 표지 이미지를 레코드에 추가합니다. 자세한 내용은 [레코드에 표지 이미지 추가](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
+1. (선택 사항) **표지 추가** 커버 이미지를 레코드에 추가하려면
+
+   또는
+
+   기존 표지 이미지를 마우스로 가리킨 다음, **자세히** 메뉴 ![](assets/more-menu.png) > **업로드** 레코드에 대한 새 표지 이미지를 추가합니다.
+
+   자세한 내용은 [레코드에 표지 이미지 추가](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
+
+1. (선택 사항) 기존 썸네일 위로 마우스를 이동하거나 **축소판 아이콘** ![](assets/record-thumbnail-icon-on-details-page.png)을(를) 클릭하고 **자세히** 메뉴 ![](assets/more-menu.png) > **썸네일 편집** 레코드에 대한 썸네일을 추가합니다.
+
+   자세한 내용은 [레코드에 썸네일 추가](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
    Workfront은 변경 사항을 자동으로 저장합니다.
 
