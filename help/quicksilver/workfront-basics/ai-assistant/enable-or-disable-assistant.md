@@ -6,9 +6,10 @@ author: Becky
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: 4ab71bfa3d93da8250748ba5aaa90f01dda9d8e3
+exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
+source-git-commit: d698a0a4f262bb0b4008c18875473b63997de6ef
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '207'
 ht-degree: 1%
 
 ---
@@ -16,6 +17,31 @@ ht-degree: 1%
 # AI Assistant 활성화 또는 비활성화
 
 Workfront 관리자는 조직에서 AI Assistant를 활성화할 사용자를 제어할 수 있습니다. 액세스 수준을 통해 관리됩니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td>임의</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td><p>새로운 기능: 표준</p>
+       <p>또는</p>
+       <p>현재: 플랜</p></td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>Workfront 관리자여야 합니다.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+## Workfront에서 AI Assistant 활성화 또는 비활성화
 
 AI Assistant는 기본적으로 활성화되어 있습니다.
 
