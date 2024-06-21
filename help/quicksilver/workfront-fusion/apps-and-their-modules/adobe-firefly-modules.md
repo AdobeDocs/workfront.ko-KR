@@ -8,9 +8,10 @@ title: Adobe Firefly 모듈
 description: 다음에서 [!DNL Adobe Workfront Fusion] 시나리오에서는 다음을 사용하는 워크플로를 자동화할 수 있습니다 [!DNL Adobe Firefly]을 여러 타사 응용 프로그램 및 서비스에 연결할 수 있습니다.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
-source-git-commit: c932f869de9ff842a7bbb809bc60ec1d53350b51
+exl-id: 1e131c27-571d-4099-9243-69572bdb3f5a
+source-git-commit: f1821568ea69d370dc5b2e4cbaaf6b0a72f9fe7f
 workflow-type: tm+mt
-source-wordcount: '1215'
+source-wordcount: '1274'
 ht-degree: 0%
 
 ---
@@ -177,6 +178,10 @@ ht-degree: 0%
    <td>이미지를 확장할 내용에 대한 프롬프트를 입력하거나 매핑합니다. 프롬프트가 제공되지 않으면 이미지가 원본 이미지와 일치하는 콘텐츠로 확장됩니다.</td> 
   </tr> 
   <tr> 
+   <td role="rowheader">[!UICONTROL 변형 수]</td> 
+   <td>1-4 사이의 숫자를 입력하십시오. 모듈은 이 수의 확장된 이미지 변형을 생성합니다.</td> 
+  </tr> 
+  <tr> 
    <td role="rowheader">[!UICONTROL 확장된 이미지 형식]</td> 
    <td>확장된 이미지를 저장할 파일 형식을 선택합니다.</td> 
   </tr> 
@@ -212,6 +217,10 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[!UICONTROL 프롬프트]</td> 
    <td>이미지를 채울 콘텐츠에 대한 프롬프트를 입력하거나 매핑합니다. 프롬프트가 제공되지 않으면 이미지는 원본 이미지와 일치하는 콘텐츠로 채워집니다.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 변형 수]</td> 
+   <td>1-4 사이의 숫자를 입력하십시오. 모듈은 이 수의 채워진 이미지 변형을 생성합니다.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 채워진 이미지 형식]</td> 
@@ -253,6 +262,10 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[!UICONTROL 프롬프트]</td> 
    <td>만들려는 이미지에 대한 프롬프트를 입력하거나 매핑합니다. 프롬프트에 자세히 설명되어 있으면 이미지에 나타나는 내용을 보다 세밀하게 제어할 수 있습니다.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 변형 수]</td> 
+   <td>1-4 사이의 숫자를 입력하십시오. 모듈은 이 수의 이미지 변형을 생성합니다.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 생성된 이미지 형식]</td> 
@@ -297,5 +310,3 @@ ht-degree: 0%
   </tr> 
  </tbody> 
 </table>
-
-
