@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: fffe92bc21104e297bc9dfcbc399c34b011e3927
+source-git-commit: 0479d6e2e2781acf8bb1dfbb8b70768516769d3f
 workflow-type: tm+mt
-source-wordcount: '4386'
+source-wordcount: '4384'
 ht-degree: 0%
 
 ---
@@ -363,7 +363,7 @@ OR 문은 OR 문의 필터링 기준을 충족하는 API 호출의 레코드만 
 #### 명명된 쿼리 사용
 
 일부 객체 유형에는 일반적으로 실행되며 객체 유형 URI의 끝에 쿼리 이름을 추가하여 사용할 수 있는 이름이 지정된 검색어가 있습니다. 예를 들어 다음 요청은 사용자가 현재 할당된 작업 항목(작업 및 문제)을 검색합니다.
-<pre>/attask/api/v15.0/work/myWork</pre>명명된 쿼리는 필드 매개 변수를 요청하여 추가 필드를 검색할 수 있도록 지원합니다. 일부 명명된 쿼리는 추가 필터도 수락합니다. 개체에 대해 허용되는 명명된 쿼리 목록을 보려면 [API 탐색기](../../wf-api/general/api-explorer.md)에서 개체에 대한 작업 탭을 참조하십시오.
+<pre>/attask/api/v15.0/work/myWork</pre>명명된 쿼리는 필드 매개 변수를 요청하여 추가 필드를 검색할 수 있도록 지원합니다. 일부 명명된 쿼리는 추가 필터도 수락합니다. 개체에 대해 허용되는 명명된 쿼리 목록을 보려면 [API 탐색기](https://developer.adobe.com/workfront/api-explorer/)에서 개체에 대한 작업 탭을 참조하십시오.
 
 #### 사용 `Count`
 
