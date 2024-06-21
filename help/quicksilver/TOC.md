@@ -3,7 +3,7 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 0411db95c2c4b85fdc09ec11ca90dec60deacbb7
+source-git-commit: a48f51de4de911605b84055cf115e649d5750ca4
 workflow-type: tm+mt
 source-wordcount: '14367'
 ht-degree: 1%
@@ -2239,9 +2239,9 @@ ht-degree: 1%
       * [Adobe Creative Cloud 라이브러리 모듈](workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md)
       * [Adobe Campaign Classic 모듈](workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md)
       * [Adobe Experience Manager Assets 모듈](workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
-      * [Adobe I/O 이벤트 모듈](workfront-fusion/apps-and-their-modules/adobe-io-events-modules.md)
       * [Adobe Experience Manager Forms 모듈](workfront-fusion/apps-and-their-modules/aem-forms-modules.md)
       * [Adobe Firefly 모듈](workfront-fusion/apps-and-their-modules/adobe-firefly-modules.md)
+      * [Adobe I/O 이벤트 모듈](workfront-fusion/apps-and-their-modules/adobe-io-events-modules.md)
       * [Adobe Journey Optimizer 모듈](workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
       * [Adobe Lightroom 모듈](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-lightroom-modules.md)
       * [Adobe PDF 서비스 모듈](workfront-fusion/apps-and-their-modules/pdf-modules.md)
