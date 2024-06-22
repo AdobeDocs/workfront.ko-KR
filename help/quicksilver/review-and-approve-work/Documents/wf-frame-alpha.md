@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: f8cf09b085ad319955afd2b4f8b35b59bcd7d277
+source-git-commit: 9768756ac444bfe5fc21f20c3431c9cb1235a5f4
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '978'
 ht-degree: 1%
 
 ---
@@ -20,9 +20,10 @@ Workfront + Frame.io 통합 베타 프로그램을 시작합니다! 이 Beta의 
 
 여기에서는 최신 Beta 릴리스와 간단한 비디오 연습에 대한 정보를 찾아 시작할 수 있습니다.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->이 Beta에 참여하려면 제품 팀에서 활성화해야 합니다. 고객 성공 또는 계정 관리자에게 문의하여 추가를 요청하십시오.
+>이 베타 버전은 이제 종료되어 더 이상 새 참가자를 받지 않습니다.
+
 
 ## 2024년 5월: Workfront의 베타 릴리스 업데이트
 
