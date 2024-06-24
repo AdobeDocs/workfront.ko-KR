@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
@@ -65,9 +65,9 @@ Adobe Workfront Planning에서 레코드 미리 보기 및 페이지의 레이�
   <tr>
    <td role="rowheader"><p>Adobe Workfront 라이센스*</p></td>
    <td>
-   <p>새로운 기능: 밝게 또는 높음</p>
+   <p>새로운 기능: 표준</p>
    또는
-   <p>현재: 작업 시간 이상</p> 
+   <p>현재: 플랜</p> 
   </td>
   </tr>
 
@@ -78,7 +78,7 @@ Adobe Workfront Planning에서 레코드 미리 보기 및 페이지의 레이�
   </tr>
 <tr>
    <td role="rowheader"><p>권한</p></td>
-   <td> <p>작업 공간에 대한 이상 권한 관리</a> </p>  
+   <td> <p>작업 공간에 대한 권한 관리</a> </p>  
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p>
 </td>
   </tr>

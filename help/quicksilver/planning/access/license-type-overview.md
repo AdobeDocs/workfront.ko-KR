@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: 502ab27759749ed428f8adbf486e39165d61fcf0
+source-git-commit: 99b8d6371a718b7268edfda81959ae3170d1962b
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 0%
 
 Adobe Workfront 라이선스 유형은 Adobe Workfront Planning 권한과 함께 작동하여 작업 공간을 보고, 기여하고, 관리할 수 있는 액세스 권한을 부여합니다. <!--add more objects here when we can grant other object-specific permissions-->
 
+레코드 보기에 대한 Workfront Planning 권한은 Workfront 라이선스 유형과 독립적입니다.
+
 모든 라이선스 유형을 가진 사용자는 Workfront Planning 보기를 보거나, 만들거나, 편집하거나, 관리할 수 있습니다.
 
 이 문서에서는 Workfront에 필요한 라이선스 유형 및 각 라이선스 유형에 따라 Workfront Planning의 작업 영역에 부여된 권한에 대해 설명합니다.
@@ -33,7 +35,7 @@ Adobe Workfront 라이선스 유형은 Adobe Workfront Planning 권한과 함께
 >
 >요청자(또는 새 라이선스 모델에 따라 공동 작업자)는 작업 공간 및 해당 개체에 기여하거나 관리할 수 없습니다.
 >
->사용자가 하위 수준의 라이선스를 보유하고 있는 경우 공유 상자에 작업 영역에 기여하거나 관리할 수 있는 권한을 부여할 수 없다는 표시가 있습니다.
+>하위 수준 라이선스를 보유하고 있는 경우 이러한 권한 수준이 흐리게 표시되므로 사용자에게 작업 영역에 기여하거나 관리할 수 있는 권한을 부여할 수 없다는 표시가 공유 상자에 표시됩니다.
 >
 >![](assets/permissions-grayed-out-for-requestor-user.png)
 
@@ -47,10 +49,9 @@ Workfront Planning의 객체에 대한 권한에 대한 자세한 내용은 다�
 작업 영역에 대한 사용자 권한을 부여하면 레코드 유형, 레코드 및 필드에 대한 권한도 부여됩니다.
 
 
-| Adobe Workfront 라이선스 유형* | Adobe Workfront Planning에서 허용되는 권한 |
+| Adobe Workfront 라이선스 유형* | Adobe Workfront Planning에서 허용되는 가장 높은 권한 |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 새로운 기능: 표준 <br> 또는 <br>현재: 플랜 | 사용자는 작업 공간, 레코드 유형 및 레코드를 만들고 관리할 수 있습니다.<br> 시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 관리 권한을 가집니다. |
-| 새로운 기능: 밝게 <br> 또는 <br>현재: 작업 | 사용자는 공유된 작업 영역 및 해당 작업 영역의 레코드 유형과 레코드뿐만 아니라 기여하고 볼 수 있습니다. <br> 사용자는 Contribute 권한이 있는 작업 영역에서 레코드를 만들고, 편집하고, 삭제할 수 있습니다. |
-| 새로운 기능: 기여자 <br> 또는 <br>현재: 검토자 또는 요청자 | 사용자는 공유된 작업 공간과 해당 작업 공간의 레코드 유형 및 레코드를 볼 수 있습니다. <br> 사용자는 레코드 종류 또는 레코드를 만들거나 편집하거나 삭제할 수 없습니다. |
+| 새로운 기능: 표준 <br> 또는 <br>현재: 플랜 | 사용자는 작업 공간을 관리할 수 있습니다. 작업 공간, 레코드 유형, 레코드 및 필드를 작성, 편집 또는 삭제할 수 있습니다. <br> 시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 관리 권한을 가집니다. |
+| 새로운 기능: 라이트, 기여자 <br> 또는 <br>현재: 작업, 요청자, 검토자 | 사용자는 공유된 작업 공간과 해당 작업 공간의 레코드 유형, 레코드 및 필드를 볼 수 있습니다. <br> 사용자는 작업 공간, 레코드 유형, 레코드 또는 필드를 작성, 편집 또는 삭제할 수 없습니다. |
 
 *자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).

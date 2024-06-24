@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -135,4 +135,8 @@ ht-degree: 0%
 
 ## 작업 영역을 공유하여 작업 영역의 모든 레코드 공유
 
-다른 사용자와 작업 영역을 공유할 때 작업 영역의 모든 레코드를 공유할 수 있습니다. 자세한 내용은 [작업 영역 공유](/help/quicksilver/planning/access/share-workspaces.md).
+다른 사용자와 작업 영역을 공유할 때 작업 영역의 모든 레코드를 공유할 수 있습니다.
+
+작업 영역에 대한 관리 권한이 있는 사용자만 다른 사용자와 공유할 수 있습니다.
+
+자세한 내용은 [작업 영역 공유](/help/quicksilver/planning/access/share-workspaces.md).

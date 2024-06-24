@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d06028d9-9230-4a6c-a227-20618067192c
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ hide: yes
 
 * [필드 개요](/help/quicksilver/planning/fields/fields-overview.md)
 * [필드 만들기](/help/quicksilver/planning/fields/create-fields.md)
-* [필드 편집](/help/quicksilver/planning/fields/edit-fields.md)
+* [필드 설정 편집](/help/quicksilver/planning/fields/edit-fields.md)
 * [필드 삭제](/help/quicksilver/planning/fields/delete-fields.md)
 * [공식 필드](/help/quicksilver/planning/fields/formula-fields.md)
 * [기본 필드 개요](/help/quicksilver/planning/fields/primary-field-overview.md)

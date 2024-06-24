@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
 workflow-type: tm+mt
-source-wordcount: '7684'
+source-wordcount: '7781'
 ht-degree: 0%
 
 ---
@@ -156,6 +156,16 @@ Workfront Planning에서 작업 공간 템플릿 카드의 모양 및 필드를 
 이 개선 사항은 Workfront Planning에서 연결된 레코드 및 Adobe Experience Manager에서 연결된 에셋에 사용할 수 있습니다.
 
 자세한 내용은 [레코드 유형 연결](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+### Standard 또는 Plan 라이선스가 있는 사용자만 작업 공간(제목)에 대한 관리 권한을 가질 수 있습니다.
+
+프로덕션: 2024년 6월 21일
+
+미리보기: 결정 예정
+
+작업 영역에 대한 전체 액세스 권한을 가질 수 있는 사용자 유형을 변경했습니다. 이제 Standard 또는 Plan 라이선스가 있는 사용자만 작업 공간에 대한 관리 권한을 가질 수 있습니다. 레코드 유형, 레코드 및 필드에 대한 액세스는 작업 영역에서 상속됩니다. 다른 모든 사용자는 작업 공간 및 해당 오브젝트 유형에 대한 보기 전용 액세스 권한을 갖습니다. 이 업데이트 이전에는 Light 및 작업자 허가를 받은 사용자가 작업 공간에 대한 Contribute 권한을 받을 수 있었습니다.
+
+자세한 내용은 [Adobe Workfront Planning 사용 시 라이선스 유형 개요](/help/quicksilver/planning/access/license-type-overview.md).
 
 ## 2024년 6월 10일 주
 
@@ -366,7 +376,7 @@ Workfront의 계획 섹션에서 다음 작업을 사용할 수 있습니다.
 >
 >필드 구성이 변경되었다는 알림이 다른 사용자에게 표시되지 않습니다.
 
-자세한 내용은 [필드 편집](/help/quicksilver/planning/fields/edit-fields.md).
+자세한 내용은 [필드 설정 편집](/help/quicksilver/planning/fields/edit-fields.md).
 
 ## 2024년 5월 6일 주
 

@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
 workflow-type: tm+mt
 source-wordcount: '1170'
 ht-degree: 0%
@@ -30,38 +30,6 @@ ht-degree: 0%
 
 * **댓글**: 사용자가 레코드에 추가하는 댓글 및 답글을 표시합니다.
 * **기록**: 사용자가 레코드 필드에 적용한 시스템 기록 변경 사항을 표시합니다. 자세한 내용은 [내역 섹션 개요](/help/quicksilver/planning/records/history-section-overview.md).
-
-## 레코드에 댓글을 달 때 고려 사항
-
-* 레코드의 댓글 섹션에서 Workfront Planning의 레코드에 댓글 및 응답을 추가할 수 있습니다.
-
-* 연결된 레코드에 추가된 댓글은 연결하려는 레코드에 표시되지 않습니다. 예를 들어 캠페인 레코드에 연결된 Workfront Planning 제품 레코드에 댓글을 다는 경우 해당 댓글은 Workfront Planning의 제품 레코드에만 표시되고 연결된 캠페인 레코드에는 표시되지 않습니다.
-
-* 레코드와 다른 응용 프로그램의 개체 간의 연결로 생성된 Workfront Planning 레코드에 주석을 추가할 수 있습니다.
-
-  예를 들어 Workfront 프로젝트를 Workfront Planning 레코드와 연결한 후 프로젝트 Workfront Planning 레코드에 주석을 달 수 있습니다. 자세한 내용은 [레코드 연결](/help/quicksilver/planning/records/connect-records.md).
-
-* 다른 응용 프로그램의 연결된 객체에 추가된 주석은 Workfront Planning에서 표시되지 않으며 Workfront Planning의 연결된 객체에 추가된 주석은 다른 응용 프로그램에서 표시되지 않습니다.
-
-  예를 들어 Workfront의 프로젝트에 추가된 댓글은 Workfront Planning의 캠페인에 연결된 동일한 프로젝트에 표시되지 않으며, Workfront Planning 프로젝트에 추가된 댓글은 Workfront에 표시되지 않습니다.
-
-* 사용자에 태그를 지정하여 업데이트에 주의를 기울일 수 있습니다. 태그가 지정된 사용자가 인앱 알림이나 업데이트에 대한 이메일을 받지 않습니다. <!--this might change??-->
-
-<!--replace the bullet above with this: * You can tag users to bring their attention to an update. Tagged users receive an in-app notification or an email notification about your update. 
-   The following scenario exists:   
-
-   * Adobe Unified Experience users receive both an in-app notification and an email notification. 
-   * Users who are not in the Adobe Unified Experience receive only an email notification. 
-
-      For information, see [Adobe Workfront Planning notifications: article index](/help/quicksilver/planning/notifications/notifications-information.md)
-   
-      To determine whether your company is using the Adobe Unified Experience, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
-      -->
-
-* 레코드에 업데이트를 추가하고 Workfront Planning의 다음 영역에서 변경 내역을 검토할 수 있습니다.
-
-   * 레코드 세부 정보 페이지에서.
-   * 보기에서 레코드 세부 정보 상자의
 
 ## 액세스 요구 사항
 
@@ -117,6 +85,39 @@ ht-degree: 0%
   </tr>
  </tbody>
 </table>
+
+
+## 레코드에 댓글을 달 때 고려 사항
+
+* 레코드의 댓글 섹션에서 Workfront Planning의 레코드에 댓글 및 응답을 추가할 수 있습니다.
+
+* 연결된 레코드에 추가된 댓글은 연결하려는 레코드에 표시되지 않습니다. 예를 들어 캠페인 레코드에 연결된 Workfront Planning 제품 레코드에 댓글을 다는 경우 해당 댓글은 Workfront Planning의 제품 레코드에만 표시되고 연결된 캠페인 레코드에는 표시되지 않습니다.
+
+* 레코드와 다른 응용 프로그램의 개체 간의 연결로 생성된 Workfront Planning 레코드에 주석을 추가할 수 있습니다.
+
+  예를 들어 Workfront 프로젝트를 Workfront Planning 레코드와 연결한 후 프로젝트 Workfront Planning 레코드에 주석을 달 수 있습니다. 자세한 내용은 [레코드 연결](/help/quicksilver/planning/records/connect-records.md).
+
+* 다른 응용 프로그램의 연결된 객체에 추가된 주석은 Workfront Planning에서 표시되지 않으며 Workfront Planning의 연결된 객체에 추가된 주석은 다른 응용 프로그램에서 표시되지 않습니다.
+
+  예를 들어 Workfront의 프로젝트에 추가된 댓글은 Workfront Planning의 캠페인에 연결된 동일한 프로젝트에 표시되지 않으며, Workfront Planning 프로젝트에 추가된 댓글은 Workfront에 표시되지 않습니다.
+
+* 사용자에 태그를 지정하여 업데이트에 주의를 기울일 수 있습니다. 태그가 지정된 사용자가 인앱 알림이나 업데이트에 대한 이메일을 받지 않습니다. <!--this might change??-->
+
+<!--replace the bullet above with this: * You can tag users to bring their attention to an update. Tagged users receive an in-app notification or an email notification about your update. 
+   The following scenario exists:   
+
+   * Adobe Unified Experience users receive both an in-app notification and an email notification. 
+   * Users who are not in the Adobe Unified Experience receive only an email notification. 
+
+      For information, see [Adobe Workfront Planning notifications: article index](/help/quicksilver/planning/notifications/notifications-information.md)
+   
+      To determine whether your company is using the Adobe Unified Experience, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+      -->
+
+* 레코드에 업데이트를 추가하고 Workfront Planning의 다음 영역에서 변경 내역을 검토할 수 있습니다.
+
+   * 레코드 세부 정보 페이지에서.
+   * 보기에서 레코드 세부 정보 상자의
 
 ### 레코드에 대한 댓글 관리
 

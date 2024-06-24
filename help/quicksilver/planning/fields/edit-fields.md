@@ -1,13 +1,13 @@
 ---
-title: 필드 편집
+title: 필드 설정 편집
 description: Adobe Workfront Planning에서 이미 생성된 필드의 필드 설정을 편집할 수 있습니다. 이 문서에서는 Workfront Planning 필드의 설정을 편집하는 방법에 대해 설명합니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: dc8e6f730ec88fc66c3486987e064b5f0760fb80
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!---
-title: Edit foelds
+title: Edit fields
 description: In Adobe Workfront Planning, you can edit the field settings for fields that are already created.
 hidefromtoc: yes
 hide: yes
@@ -25,7 +25,7 @@ role: User, Administrator (************is this right???************)
 recommendations: noDisplay, noCatalog
 --->
 
-# 필드 편집
+# 필드 설정 편집
 
 {{planning-important-intro}}
 
@@ -34,33 +34,6 @@ Adobe Workfront Planning에서 이미 생성된 필드의 필드 설정을 편�
 Adobe Workfront Planning 필드 생성에 대한 자세한 내용은 다음을 참조하십시오. [필드 만들기](/help/quicksilver/planning/fields/create-fields.md).
 
 이 문서에서는 Workfront Planning 필드의 설정을 편집하는 방법에 대해 설명합니다. 레코드의 필드 값 편집에 대한 자세한 내용은 [레코드 편집](/help/quicksilver/planning/records/edit-records.md).
-
-## 필드 설정 편집에 대한 고려 사항
-
-필드의 구성을 변경하기 전에 다음 사항을 고려해야 합니다.
-
-* 필드가 속한 작업 영역에 대한 관리 권한이 있는 경우 사용자가 만든 필드나 다른 사용자가 만든 필드를 편집할 수 있습니다.
-* 레코드 유형 테이블에서 필드를 편집할 수 있습니다.
-* 레코드 페이지나 테이블 보기 외부의 다른 보기에서는 필드를 편집할 수 없습니다.
-* 필드를 저장한 후에는 필드 유형을 편집할 수 없습니다.
-* 이미 음수 값이 첨부된 레코드에 저장된 경우 숫자, 백분율 또는 통화 필드에 대해 이전에 선택한 음수 허용 설정을 선택 해제할 수 없습니다.
-* 필드를 저장한 후 다음 필드 요소의 구성을 편집할 수 있습니다.
-
-   * 모든 필드의 이름 또는 설명
-   * 단일 선택 또는 다중 선택 필드의 옵션
-   * 공식 필드의 표현식.
-
-  >[!WARNING]
-  >
-  >수식 표현식이 변경되거나 선택 유형 필드에서 옵션을 추가하거나 제거하면 구성이 수정된 필드에 이미 정보가 저장된 레코드에 대한 데이터가 손실됩니다.
-  >
-  >필드의 구성을 변경할 때 이 데이터 손실이 발생할 수 있다는 경고나 표시는 없습니다.
-  >
-  >필드 구성이 변경되었다는 알림이 다른 사용자에게 표시되지 않습니다.
-
-<!--this is not yet true, but it might come later:
-* You can deselect Allow negative numbers option from a Number, Percentage, or Currency field after you save the field. 
--->
 
 ## 액세스 요구 사항
 
@@ -91,9 +64,10 @@ Adobe Workfront Planning 필드 생성에 대한 자세한 내용은 다음을 �
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront 라이선스</p></td>
+   <td role="rowheader"><p>Adobe Workfront 라이센스*</p></td>
    <td>
-   <p>임의</p> 
+   <p>새로운 기능: 표준</p>
+   <p>현재: 플랜</p> 
   </td>
   </tr>
 
@@ -118,10 +92,39 @@ Adobe Workfront Planning 필드 생성에 대한 자세한 내용은 다음을 �
 </tbody>
 </table>
 
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 <!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
+
+## 필드 설정 편집에 대한 고려 사항
+
+필드의 구성을 변경하기 전에 다음 사항을 고려해야 합니다.
+
+* 필드가 속한 작업 영역에 대한 관리 권한이 있는 경우 사용자가 만든 필드나 다른 사용자가 만든 필드를 편집할 수 있습니다.
+* 레코드 유형 테이블에서 필드를 편집할 수 있습니다.
+* 레코드 페이지나 테이블 보기 외부의 다른 보기에서는 필드를 편집할 수 없습니다.
+* 필드를 저장한 후에는 필드 유형을 편집할 수 없습니다.
+* 이미 음수 값이 첨부된 레코드에 저장된 경우 숫자, 백분율 또는 통화 필드에 대해 이전에 선택한 음수 허용 설정을 선택 해제할 수 없습니다.
+* 필드를 저장한 후 다음 필드 요소의 구성을 편집할 수 있습니다.
+
+   * 모든 필드의 이름 또는 설명
+   * 단일 선택 또는 다중 선택 필드의 옵션
+   * 공식 필드의 표현식.
+
+  >[!WARNING]
+  >
+  >수식 표현식이 변경되거나 선택 유형 필드에서 옵션을 추가하거나 제거하면 구성이 수정된 필드에 이미 정보가 저장된 레코드에 대한 데이터가 손실됩니다.
+  >
+  >필드의 구성을 변경할 때 이 데이터 손실이 발생할 수 있다는 경고나 표시는 없습니다.
+  >
+  >필드 구성이 변경되었다는 알림이 다른 사용자에게 표시되지 않습니다.
+
+<!--this is not yet true, but it might come later:
+* You can deselect Allow negative numbers option from a Number, Percentage, or Currency field after you save the field. 
+-->
 
 ## 필드 설정 편집
 
