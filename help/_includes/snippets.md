@@ -1,7 +1,7 @@
 ---
-source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
+source-git-commit: 400b10e2803e7a74e70ccd0a33e55ca7075fdfed
 workflow-type: tm+mt
-source-wordcount: '2411'
+source-wordcount: '2502'
 ht-degree: 1%
 
 ---
@@ -61,6 +61,15 @@ ht-degree: 1%
 
 1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리에서 을(를) 클릭하고 **[!UICONTROL 설정]** ![설정 아이콘](/help/_includes/assets/gear-icon-setup.png).
 
+## GA에 대한 양식 디자이너 {#form-designer-default}
+
+>[!IMPORTANT]
+>
+>24.7 릴리스에서는 양식 디자이너를 일반적으로 사용할 수 있으며, Adobe Workfront에서 사용자 정의 양식을 만들고 편집할 수 있는 기본 환경이 됩니다. 기존 양식 빌더는 더 이상 사용할 수 없습니다. 지금 양식 디자이너로 전환하여 해당 기능을 활용하는 것이 좋습니다.
+>
+>자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+>
+>레거시 양식 빌더는 2024년 6월 19일에 미리보기 환경에서 제거되었으며 7월에 24.7 릴리스를 통해 프로덕션 환경에서 제거될 예정입니다.
 
 ## 오른쪽 그룹을 팀과 연결 {#right-group-team}
 

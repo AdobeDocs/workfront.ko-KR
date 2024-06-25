@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5712e82d-bd1d-4d8a-9a2a-1e19b562b9d1
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 6b2a2160b5daaa94374707bad4b026daa13edf06
 workflow-type: tm+mt
 source-wordcount: '908'
 ht-degree: 0%
@@ -18,6 +18,8 @@ ht-degree: 0%
 # 기존 양식 빌더로 사용자 정의 양식 만들기 또는 편집
 
 <!--Audited: 01/2024-->
+
+{{form-designer-default}}
 
 새 사용자 정의 양식을 만들거나 기존 양식을 편집할 수 있습니다. 두 작업은 이 문서에 설명되어 있습니다.
 

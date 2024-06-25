@@ -1,18 +1,20 @@
 ---
 title: 기존 양식 빌더를 사용하여 사용자 정의 양식의 이미지 또는 기타 에셋 위젯 추가 또는 편집
 description: 이미지, 비디오, PDF 파일 및 Adobe XD 파일과 같은 다음 에셋 위젯의 속성을 사용자 정의 양식에 추가하거나 편집할 수 있습니다. 이 기능은 디자인하는 앱에 대한 브랜딩 이미지, 지침 비디오 또는 대화형 프로토타입과 같은 시각적 콘텐츠를 포함해야 할 때 유용합니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 62a2f9a1-80de-40e7-9d8b-46ed9df083c1
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: d32f274390f6ffc5fdd01c2c9b4b2abd99d7cb10
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1345'
 ht-degree: 1%
 
 ---
 
 # 기존 양식 빌더를 사용하여 사용자 정의 양식의 이미지 또는 기타 에셋 위젯 추가 또는 편집
+
+{{form-designer-default}}
 
 사용자 정의 양식에서 다음 에셋 위젯의 속성을 추가하거나 편집할 수 있습니다.
 
@@ -46,7 +48,7 @@ ht-degree: 1%
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Adobe Workfront 플랜*</p> </td> 
-   <td>모든</td> 
+   <td>임의</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 

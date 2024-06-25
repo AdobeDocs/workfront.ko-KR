@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: 기존 양식 빌더를 사용하여 사용자 정의 양식에서 기존의 계산된 사용자 정의 필드 재사용
 description: 다른 오브젝트에 속한 사용자 정의 양식에서 동일한 계산된 사용자 정의 필드를 사용할 수 있습니다. 예를 들어 작업 사용자 정의 양식에서 프로젝트 사용자 정의 양식에 대해 생성한 Profit 계산 필드를 사용할 수 있습니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 24482fca-94e4-406d-9d62-3db9f51481e6
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: d32f274390f6ffc5fdd01c2c9b4b2abd99d7cb10
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 0%
@@ -16,6 +16,8 @@ ht-degree: 0%
 ---
 
 # 기존 양식 빌더를 사용하여 사용자 정의 양식에서 기존의 계산된 사용자 정의 필드 재사용
+
+{{form-designer-default}}
 
 다른 오브젝트에 속한 사용자 정의 양식에서 동일한 계산된 사용자 정의 필드를 사용할 수 있습니다. 예를 들어 작업 사용자 정의 양식에서 프로젝트 사용자 정의 양식에 대해 생성한 Profit 계산 필드를 사용할 수 있습니다.
 

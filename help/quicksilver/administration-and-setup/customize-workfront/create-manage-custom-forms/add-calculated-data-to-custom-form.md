@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 6b2a2160b5daaa94374707bad4b026daa13edf06
 workflow-type: tm+mt
 source-wordcount: '2911'
 ht-degree: 0%
@@ -18,6 +18,8 @@ ht-degree: 0%
 # 기존 양식 빌더로 계산된 데이터를 사용자 정의 양식에 추가
 
 <!--Audited: 01/2024-->
+
+{{form-designer-default}}
 
 사용자 정의 양식에서 사용자 정의 양식을 오브젝트에 첨부할 때 기존 데이터를 사용하는 계산된 사용자 정의 필드를 추가하여 새 데이터를 생성할 수 있습니다.
 

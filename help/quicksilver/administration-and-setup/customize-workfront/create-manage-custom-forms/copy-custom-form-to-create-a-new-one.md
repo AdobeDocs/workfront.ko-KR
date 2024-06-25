@@ -9,7 +9,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 946a726e-af88-413c-abe3-55fbc7486380
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
+source-git-commit: d32f274390f6ffc5fdd01c2c9b4b2abd99d7cb10
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -17,6 +17,8 @@ ht-degree: 0%
 ---
 
 # 기존 빌더로 새 양식을 만들려면 사용자 정의 양식을 복사하십시오.
+
+{{form-designer-default}}
 
 기존 양식을 기반으로 하는 새 사용자 정의 양식을 만들 수 있습니다.
 

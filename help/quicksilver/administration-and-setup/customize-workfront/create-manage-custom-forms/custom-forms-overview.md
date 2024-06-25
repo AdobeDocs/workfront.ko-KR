@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 5b167c2d7ca388d0f5298edb301174ff23d85c4d
+source-git-commit: d32f274390f6ffc5fdd01c2c9b4b2abd99d7cb10
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 7%
@@ -18,6 +18,8 @@ ht-degree: 7%
 # 사용자 정의 양식 개요
 
 <!--Audited: 12/2023-->
+
+{{form-designer-default}}
 
 사용자가 Adobe Workfront 개체에 첨부할 수 있는 사용자 정의 양식을 작성할 수 있습니다. 오브젝트에 대한 작업을 수행하는 사용자는 사용자 정의 양식을 작성하여 오브젝트에 대한 정보를 제공할 수 있습니다.
 

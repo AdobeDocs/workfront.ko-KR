@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: ca6565c4-3d9e-4a11-a7b6-fce701923bf2
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
+source-git-commit: d32f274390f6ffc5fdd01c2c9b4b2abd99d7cb10
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 0%
@@ -16,6 +16,8 @@ ht-degree: 0%
 ---
 
 # 사용자 정의 양식의 오브젝트 유형 삭제
+
+{{form-designer-default}}
 
 기존 사용자 정의 양식에서 해당 양식과 연결된 오브젝트 유형을 삭제할 수 있습니다. 이 작업을 수행하면 사용자는 더 이상 해당 유형의 오브젝트에 양식을 첨부할 수 없습니다.
 

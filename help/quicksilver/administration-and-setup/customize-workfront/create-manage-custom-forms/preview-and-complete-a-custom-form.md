@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: 기존 양식 빌더로 사용자 정의 양식 미리 보기 및 완료
 description: 사용자 정의 양식을 작성하거나 편집한 후 미리 보기하여 사용자의 디자인을 확인한 다음 저장하고 닫을 수 있습니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 6bf4e7dd-50a6-4a36-947f-326f83aeb8a4
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: d32f274390f6ffc5fdd01c2c9b4b2abd99d7cb10
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 0%
@@ -16,6 +16,8 @@ ht-degree: 0%
 ---
 
 # 기존 양식 빌더로 사용자 정의 양식 미리 보기 및 완료
+
+{{form-designer-default}}
 
 사용자 정의 양식을 작성하거나 편집한 후 미리 보기하여 사용자의 디자인을 확인한 다음 저장하고 닫을 수 있습니다.
 
@@ -29,7 +31,7 @@ ht-degree: 0%
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Adobe Workfront 플랜*</p> </td> 
-   <td>모든</td> 
+   <td>임의</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
