@@ -8,9 +8,10 @@ title: Adobe Photoshop 모듈
 description: Adobe Photoshop 모듈을 사용하면 Adobe Photoshop 계정의 이벤트를 기반으로 Adobe Workfront Fusion 시나리오를 시작하고, 계약 및 기타 레코드를 생성, 읽기 또는 업데이트하고, 설정한 기준을 사용하여 레코드를 검색하고, 문서를 업로드할 수 있습니다.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
-source-git-commit: 8d6f8217a58459539c9e4f4faa43e01d17d6ecee
+exl-id: f20192ea-e363-4fba-8bd2-b1d50443918d
+source-git-commit: 6bcf404432129a812b5e4d840b59e72f036ec723
 workflow-type: tm+mt
-source-wordcount: '1549'
+source-wordcount: '1547'
 ht-degree: 0%
 
 ---
@@ -157,7 +158,7 @@ ht-degree: 0%
 
 이 작업 모듈은 선택 가능한 레이어로 새 PSD을 만들고 렌디션을 생성하거나 PSD으로 저장합니다.
 
-이 모듈과 관련된 필드는 을 참조하십시오. [새 PSD 만들기](https://developer.adobe.com/photoshop/photoshop-api-docs/api/#tag/Photoshop/operation/documentCreate) Adobe Photoshop 설명서의에 있습니다.
+이 모듈과 관련된 필드는 을 참조하십시오. [새 PSD 만들기](https://developer.adobe.com/photoshop/photoshop-api-docs/api/#tag/Photoshop/operation/documentCreate) Adobe Photoshop 설명서에서 확인할 수 있습니다.
 
 #### 텍스트 레이어 편집
 
@@ -535,4 +536,3 @@ ht-degree: 0%
      </div> </p> </td>     </tr>
   </tbody>
 </table>
-
