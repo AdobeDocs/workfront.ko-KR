@@ -4,13 +4,14 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: 커넥터
 navigation-topic: apps-and-their-modules
-title: "Adobe I/O 이벤트 모듈"
-description: "Adobe I/O 이벤트 모듈을 사용하면 Adobe 애플리케이션의 이벤트를 기반으로 Adobe Workfront Fusion 시나리오를 시작할 수 있습니다."
+title: Adobe I/O 이벤트 모듈
+description: Adobe I/O 이벤트 모듈을 사용하면 Adobe 애플리케이션의 이벤트를 기반으로 Adobe Workfront Fusion 시나리오를 시작할 수 있습니다.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
-source-git-commit: 508f21b6860f13a9cf2a5b19713ed70aaba638c3
+exl-id: 18ad8098-9742-44d2-97cd-b0c2b5591538
+source-git-commit: db322faeb53a0ae4a061076d457f3c10c31ec33c
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '912'
 ht-degree: 1%
 
 ---
@@ -113,7 +114,7 @@ Adobe I/O 이벤트 모듈에 대한 연결을 만들려면 다음 작업을 수
       </tr>
       <tr>
         <td role="rowheader">작업 공간 ID</td>
-        <td>작업 공간 ID를 입력합니다. </td>
+        <td>프로젝트의 작업 공간 ID를 보려면 Adobe Developer 콘솔의 프로젝트 개요 페이지에서 프로젝트 세부 정보를 다운로드하십시오. </td>
       </tr>
     </tbody>
     </table>
@@ -341,4 +342,3 @@ This trigger module starts a scenario when an event occurs in the chosen Adobe p
 </table>
 
 -->
-
