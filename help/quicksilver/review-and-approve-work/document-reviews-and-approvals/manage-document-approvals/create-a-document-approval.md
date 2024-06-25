@@ -6,16 +6,14 @@ description: Adobe Workfront에서 문서에 대한 다른 사용자의 승인�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: e8116a6778d5952ba583cfdfb94b761757adc030
+source-git-commit: 6daf68aee442b3322d186e649e7797cc2e911145
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
 
 # 문서 검토 또는 승인 요청 만들기
-
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
 
 Adobe Workfront에서 문서에 대한 다른 사용자 또는 팀의 승인을 요청하거나 승인할 필요 없이 문서를 검토하도록 요청할 수 있습니다.
 
@@ -62,7 +60,7 @@ Adobe Workfront에서 문서에 대한 다른 사용자 또는 팀의 승인을 
 
 1. 클릭 **승인** 왼쪽 창에서 을 클릭합니다.
 
-1. <span class="preview">(선택 사항) 승인 기한을 설정합니다. 사용자와 팀은 지정된 기한 24시간 전에 이메일로 72시간 전에 알림을 받습니다.</span>
+1. (선택 사항) 승인 기한을 설정합니다. 사용자와 팀은 지정된 기한 24시간 전에 이메일로 72시간 전에 알림을 받습니다.
 
 1. 승인자를 추가하려면 **승인자** 을 클릭하고 사용자 또는 팀 이름을 입력하십시오.
 
@@ -84,7 +82,7 @@ Adobe Workfront에서 문서에 대한 다른 사용자 또는 팀의 승인을 
 
 ![](assets/doc-summary-add-approvers.png)
 
-1. <span class="preview">(선택 사항) 승인 기한을 설정합니다. 사용자와 팀은 지정된 기한 24시간 전에 이메일로 72시간 전에 알림을 받습니다.</span>
+1. (선택 사항) 승인 기한을 설정합니다. 사용자와 팀은 지정된 기한 24시간 전에 이메일로 72시간 전에 알림을 받습니다.
 
 1. 승인자를 추가하려면 **승인자** 을 클릭하고 사용자 또는 팀 이름을 입력하십시오.
 
