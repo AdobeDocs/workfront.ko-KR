@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 93a2630ec5c21f03643a29a8730046c8458c795f
 workflow-type: tm+mt
-source-wordcount: '2524'
+source-wordcount: '2561'
 ht-degree: 0%
 
 ---
@@ -117,7 +117,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 다음을 기준으로 완료율 계산]</td> 
-   <td> <p>프로젝트 또는 상위 작업의 완료율은 작업의 전체 진행 상황을 기반으로 합니다. 이 정보는 프로젝트에 대한 작업의 기간 또는 계획된 시간을 기반으로 계산할 수 있습니다.</p> <p>[!UICONTROL Duration]을 선택하면 프로젝트에 있는 각 작업의 Duration에 따라 프로젝트의 전체 완료율이 결정되고 각 하위 작업의 Duration에 따라 상위 작업의 전체 완료율이 결정됩니다.</p> <p>[!UICONTROL Duration]을 선택한 경우 [!UICONTROL 타임라인] 섹션에서 [!UICONTROL Typical hours per work day] 및 [!UICONTROL Typical work days per week]을(를) 지정해야 합니다. [!DNL Workfront] 기간 을 기준으로 작업의 완료율을 계산할 때 이 정보를 사용합니다. </p> <p>[!UICONTROL 계획된 시간]을 선택하는 경우 각 프로젝트의 모든 작업에 정의된 [!UICONTROL 계획된 시간] 양이 있고 금액이 0이 아닌지 확인합니다.</p> </td> 
+   <td> <p>Workfront은 프로젝트에 있는 각 작업의 완료율과 각 작업의 기간 또는 계획된 시간을 사용하여 프로젝트 또는 상위 작업의 완료율을 계산합니다.</p><p>작업 할당자는 각 작업의 완료율을 수동으로 설정합니다.</p><p>Workfront에서 작업의 기간 또는 계획된 시간을 사용하여 프로젝트의 완료율을 계산할지 여부를 여기에서 선택할 수 있습니다.</p> <p>[!UICONTROL Duration]을 선택하면 프로젝트에 있는 각 작업의 Duration에 따라 프로젝트의 전체 완료율이 결정되고 각 하위 작업의 Duration에 따라 상위 작업의 전체 완료율이 결정됩니다.</p> <p>[!UICONTROL Duration]을 선택한 경우 [!UICONTROL 타임라인] 섹션에서 [!UICONTROL Typical hours per work day] 및 [!UICONTROL Typical work days per week]을(를) 지정해야 합니다. [!DNL Workfront] 기간 을 기준으로 작업의 완료율을 계산할 때 이 정보를 사용합니다. </p> <p>[!UICONTROL 계획된 시간]을 선택하는 경우 각 프로젝트의 모든 작업에 정의된 [!UICONTROL 계획된 시간] 양이 있고 금액이 0이 아닌지 확인합니다.</p><p>자세한 내용은 <a href="/help/quicksilver/manage-work/tasks/task-information/project-percent-complete.md">프로젝트 완료율 개요</a>.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 진행 상태를 기반으로 프로젝트의 상태를 자동으로 설정]</td> 
