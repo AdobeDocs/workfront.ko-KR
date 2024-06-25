@@ -1,7 +1,7 @@
 ---
-source-git-commit: 400b10e2803e7a74e70ccd0a33e55ca7075fdfed
+source-git-commit: 9960d5a100e710afefed3036958a3435528cafa3
 workflow-type: tm+mt
-source-wordcount: '2502'
+source-wordcount: '2510'
 ht-degree: 1%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->24.7 릴리스에서는 양식 디자이너를 일반적으로 사용할 수 있으며, Adobe Workfront에서 사용자 정의 양식을 만들고 편집할 수 있는 기본 환경이 됩니다. 기존 양식 빌더는 더 이상 사용할 수 없습니다. 지금 양식 디자이너로 전환하여 해당 기능을 활용하는 것이 좋습니다.
+>7월 15일 주(24.7 릴리스)에 예정된 릴리스를 통해 양식 디자이너는 일반적으로 사용할 수 있으며 Adobe Workfront에서 사용자 정의 양식을 만들고 편집하는 기본 환경이 됩니다. 기존 양식 빌더는 더 이상 사용할 수 없습니다. 지금 양식 디자이너로 전환하여 해당 기능을 활용하는 것이 좋습니다.
 >
 >자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 >
