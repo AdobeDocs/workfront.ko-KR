@@ -9,9 +9,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: b50b918c-7c74-442c-a91a-3f313d40d00b
-source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
+source-git-commit: 633c41eeb570402254125f92f3624cad7befd609
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '65'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 0%
 * [모듈 유형](../../workfront-fusion/modules/module-types.md)
 * [에서 모듈 설정 구성 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/configure-a-modules-settings.md)
 * [트리거 모듈의 시작 위치 선택 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/choose-where-trigger-module-starts.md)
+* [의 인스턴트 트리거(웹후크) [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/webhooks/instant-triggers-webhooks.md)
 * [의 데이터 저장소 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
 * [의 데이터 구조 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-structures.md)
 * [의 집계 모듈 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/aggregator-module.md)

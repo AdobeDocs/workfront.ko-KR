@@ -6,9 +6,9 @@ description: 을(를) 재설정할 수 있습니다 [!DNL Adobe Workfront] 암�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 699498fb286c53b6ba4ddde88ba59e79699fd7b3
+source-git-commit: 633c41eeb570402254125f92f3624cad7befd609
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '246'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 >
 >A [!DNL Workfront] 관리자는에 설명된 대로 사용자 정의 암호 제한을 구성할 수 있습니다. [시스템 보안 환경 설정 구성](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) 및 [인증을 위한 암호 정책 구성](../../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md).
 >
->A [!DNL Workfront] 관리자는 향상된 인증 사용 환경에서 암호를 재설정할 수도 있습니다. 자세한 내용은 [향상된 인증을 통해 사용자 암호 재설정](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md).
+><!-- [!DNL Workfront] administrator can also reset your password in an Enhanced Authentication enabled environment. For more information, see [Reset a user's password with Enhanced Authentication](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md).-->
 
 ## 액세스 요구 사항
 
@@ -37,7 +37,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 플랜*</strong></td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
@@ -72,4 +72,4 @@ ht-degree: 1%
 
    암호 규칙은 다음에 의해 설정된 구성 설정에 따라 이보다 더 엄격할 수 있습니다. [!DNL Workfront] 관리자.
 
-1. 클릭 **[!UICONTROL 변경 내용 저장]**.
+1. **[!UICONTROL 변경 내용 저장]**&#x200B;을 클릭합니다.

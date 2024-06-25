@@ -4,14 +4,14 @@ content-type: reference
 product-area: system-administration;workfront-integrations
 navigation-topic: adobe-admin-console
 title: Adobe Admin Console으로의 Workfront 마이그레이션 이해
-description: Workfront 제품 및 Adobe Admin Console으로의 사용자 마이그레이션 이해
+description: 이 문서에서는 Workfront 관리자인 사용자가 예상할 수 있는 내용을 알 수 있도록 조직을 Adobe Admin Console으로 이동하는 프로세스를 일반적인 용어로 설명합니다.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 54d855e6-c387-458c-9cd3-f32318c8ae02
-source-git-commit: 0a638b143d2de4b8ff2948e701ee90acbd1ab857
+source-git-commit: 633c41eeb570402254125f92f3624cad7befd609
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1114'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 # Adobe Admin Console으로의 Workfront 마이그레이션 이해
 
 Adobe은 Adobe Workfront 사용자를 관리하는 방법을 변경하여 사용자와 조직에 생산성을 높여줍니다. 이 변경의 일부로 Adobe은 Workfront 인스턴스와 사용자를 Adobe Admin Console으로 마이그레이션하고 있습니다. 이는 필수 마이그레이션이며 보고, 승인 경로, 콘텐츠 또는 자산에는 영향을 주지 않습니다. 사용자 액세스를 관리하는 방법과 사용자가 로그인하는 방법에 영향을 줍니다.
+
+이 문서에서는 Workfront 관리자인 사용자가 예상할 수 있는 내용을 알 수 있도록 조직을 Adobe Admin Console으로 이동하는 프로세스를 일반적인 용어로 설명합니다.
 
 Adobe Admin Console을 사용하여 전체 조직에서 Adobe 권한을 관리하는 방법에 대해 알아보려면 다음을 참조하십시오. [Adobe Admin Console에서 사용자 관리](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 
