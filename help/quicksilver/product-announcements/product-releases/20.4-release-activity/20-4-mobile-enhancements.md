@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: b7f986a6-a876-4e0d-84e5-237ec8fcf590
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: 52ca3335f6c2dde0442f31fb4bd4ca0180c96b40
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
@@ -62,4 +62,4 @@ Workfront 모바일 앱의 새로운 빠른 작업 옵션을 사용하여 작업
 
 이 명령은 도우미에게 요청할 수 있는 다양한 항목의 목록을 표시합니다.
 
-기존 명령 목록은 [Adobe Workfront 모바일 앱 가상 도우미](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md).
+**참고: Mobile Virtual Assistant는 2024년 4월부터 더 이상 사용되지 않습니다.**

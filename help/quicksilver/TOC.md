@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 6ae31d24aaea1d5e94301ec5fd0f840ef45927ca
+source-git-commit: c4ee5b01750d28b2715c35594123ebe8619c2508
 workflow-type: tm+mt
-source-wordcount: '14373'
+source-wordcount: '14367'
 ht-degree: 1%
 
 ---
@@ -273,8 +273,8 @@ ht-degree: 1%
             * [Adobe Workfront Proof 23.3 릴리스 활동: 2023년 7월 17일의 주](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jul-17.md)
             * [Adobe Workfront Proof 23.3 릴리스 활동: 2023년 6월 5일 주](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md)
             * [Adobe Workfront Proof 23.3 릴리스 활동: 2023년 5월 8일 주](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md)
-         * [Workfront 증명 릴리스 활동: 2021년 5월 17일이 있는 주](product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md)
-         * [Workfront Proof 릴리스 활동: 2021년 11월 29일 주](product-announcements/product-releases/workfront-proof-release-activity/wp-release-22-1.md)
+         * [Workfront Proof 릴리스 활동: 2021년 5월 17일이 있는 주](product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md)
+         * [Workfront Proof 릴리스 활동: 2021년 11월 29일의 주](product-announcements/product-releases/workfront-proof-release-activity/wp-release-22-1.md)
       * 분기별 릴리스 아카이브 {#quarterly-release}
          * [분기별 릴리스 아카이브](product-announcements/product-releases/quarterly-release-archive/quarterly-release-archive.md)
          * 20.4 릴리스 {#release-20-4}
@@ -341,45 +341,45 @@ ht-degree: 1%
          * 2018.3 릴리스 {#release-18-3}
             * [2018.3 릴리스 활동](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity.md)
             * [2018.3 릴리스 활동 개요](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md)
-            * [2018.3 베타 1 릴리스 활동](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-1-release-activity.md)
-            * [2018.3 베타 2 릴리스 활동](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-2-release-activity.md)
-            * [2018.3 베타 3 릴리스 활동](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-3-release-activity.md)
-            * [2018.3 베타 4 릴리스 활동](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-4-release-activity.md)
-            * [2018.3 베타 5 릴리스 활동](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-5-release-activity.md)
-            * [2018.3 베타 최종](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-final.md)
+            * [2018.3 Beta 1 릴리스 활동](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-1-release-activity.md)
+            * [2018.3 Beta 2 릴리스 활동](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-2-release-activity.md)
+            * [2018.3 Beta 3 릴리스 활동](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-3-release-activity.md)
+            * [2018.3 Beta 4 릴리스 활동](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-4-release-activity.md)
+            * [2018.3 Beta 5 릴리스 활동](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-5-release-activity.md)
+            * [2018.3 Beta 결승전](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-final.md)
          * 2018.2 릴리스 {#release-18-2}
             * [2018.2 릴리스 활동](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity.md)
             * [2018.2 릴리스 활동 개요](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md)
-            * [2018.2 베타 1 릴리스 활동](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md)
-            * [2018.2 베타 2 릴리스 활동](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md)
-            * [2018.2 베타 3 릴리스 활동](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-3-release-activity.md)
-            * [2018.2 베타 4 릴리스 활동](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md)
-            * [2018.2 베타 5 릴리스 활동](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md)
-            * [2018.2 베타 최종 릴리스 활동](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md)
+            * [2018.2 Beta 1 릴리스 활동](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md)
+            * [2018.2 Beta 2 릴리스 활동](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md)
+            * [2018.2 Beta 3 릴리스 활동](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-3-release-activity.md)
+            * [2018.2 Beta 4 릴리스 활동](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md)
+            * [2018.2 Beta 5 릴리스 활동](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md)
+            * [2018.2 Beta 최종 릴리스 활동](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md)
          * 2018.1 릴리스 {#release-18-1}
             * [2018.1 릴리스 활동](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity.md)
             * [2018.1 릴리스 활동 개요](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md)
-            * [2018.1 베타 1 릴리스 활동](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-1-release-activity.md)
-            * [2018.1 베타 2 릴리스 활동](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-2-release-activity.md)
-            * [2018.1 베타 3 릴리스 활동](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-3-release-activity.md)
-            * [2018.1 베타 4 릴리스 활동](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-4-release-activity.md)
-            * [2018.1 베타 최종 릴리스 활동](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-final-release-activity.md)
+            * [2018.1 Beta 1 릴리스 활동](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-1-release-activity.md)
+            * [2018.1 Beta 2 릴리스 활동](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-2-release-activity.md)
+            * [2018.1 Beta 3 릴리스 활동](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-3-release-activity.md)
+            * [2018.1 Beta 4 릴리스 활동](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-4-release-activity.md)
+            * [2018.1 Beta 최종 릴리스 활동](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-final-release-activity.md)
          * 2017.3 릴리스 {#release-17-3}
             * [2017.3 릴리스 활동](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity.md)
             * [2017.3 릴리스 활동 개요](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md)
-            * [2017.3 베타 1 릴리스 활동](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md)
-            * [2017.3 베타 2 릴리스 활동](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-2-release-activity.md)
-            * [2017.3 베타 3 릴리스 활동](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-3-release-activity.md)
-            * [2017.3 베타 4 릴리스 활동](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md)
-            * [2017.3 베타 최종 릴리스 활동](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md)
+            * [2017.3 Beta 1 릴리스 활동](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md)
+            * [2017.3 Beta 2 릴리스 활동](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-2-release-activity.md)
+            * [2017.3 Beta 3 릴리스 활동](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-3-release-activity.md)
+            * [2017.3 Beta 4 릴리스 활동](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md)
+            * [2017.3 Beta 최종 릴리스 활동](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md)
             * [2017.3 릴리스 웨비나](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-webinars.md)
          * 2017.2 릴리스 {#release-17-2}
             * [2017.2 릴리스 활동](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity.md)
             * [2017.2 릴리스 활동 개요](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md)
-            * [2017.2 베타 1 릴리스 활동](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-1-release-activity.md)
-            * [2017.2 베타 2 릴리스 활동](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-2-release-activity.md)
-            * [2017.2 베타 3 릴리스 활동](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-3-release-activity.md)
-            * [2017.2 베타 최종](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md)
+            * [2017.2 Beta 1 릴리스 활동](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-1-release-activity.md)
+            * [2017.2 Beta 2 릴리스 활동](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-2-release-activity.md)
+            * [2017.2 Beta 3 릴리스 활동](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-3-release-activity.md)
+            * [2017.2 Beta 결승전](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md)
             * [2017.2 릴리스 웨비나](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-webinars.md)
          * Workfront R1 릴리스 {#r1-release}
             * [Workfront R1 릴리스](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/workfront-r1-release.md)
@@ -400,7 +400,7 @@ ht-degree: 1%
       * [새 Adobe Workfront 경험의 알림 센터 메시지 구독 취소](product-announcements/announcements/unsubscribe-from-ac-messages.md)
       * 공지 아카이브 {#announcement-archive}
          * [공지 아카이브](product-announcements/announcements/announcement-archive/announcement-archive.md)
-         * [iOS 및 Android용 모바일 앱 업데이트 (2017년 8월 초)](product-announcements/announcements/announcement-archive/updated-mobile-app.md)
+         * [iOS 및 Android용 모바일 앱 업데이트(2017년 8월 초)](product-announcements/announcements/announcement-archive/updated-mobile-app.md)
          * [Adobe Workfront에서 TLS 1.2 필요](product-announcements/announcements/announcement-archive/tls-1-disabled.md)
          * [이제 Outlook 365 추가 기능을 사용할 수 있습니다.](product-announcements/outlook-365-add-in/outlook-365-add-in-now-available.md)
          * [Adobe Workfront에서 Flash 기반 도구 교체](product-announcements/announcements/announcement-archive/replace-flash-tools.md)
@@ -409,8 +409,8 @@ ht-degree: 1%
          * [이메일 스푸핑 및 POP 회신 제거](product-announcements/announcements/announcement-archive/email-spoofing-pop-reply-message.md)
          * [클러스터 1, 2 및 3의 고객은 Adobe Workfront 서비스가 차단되지 않도록 허용 목록에 추가하다 IP 블록을 업데이트해야 합니다](product-announcements/announcements/announcement-archive/clusters-1-3-update-whitelist.md)
          * [사용자 지정 SMTP를 보내는 전자 메일 옵션으로 제거](product-announcements/announcements/announcement-archive/remove-custom-smtp.md)
-   * 베타 프로그램 {#beta}
-      * [베타 프로그램](product-announcements/betas/betas.md)
+   * Beta 프로그램 {#beta}
+      * [Beta 프로그램](product-announcements/betas/betas.md)
       * 캔버스 대시보드 베타 {#canvas-dashboards-beta}
          * [캔버스 대시보드 베타 정보](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
          * [보고 캔버스 베타 개요](product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)
@@ -982,7 +982,7 @@ ht-degree: 1%
       * Adobe Workfront 모바일 앱 사용 {#use-workfront-mobile-app}
          * [Adobe Workfront 모바일 앱 사용](workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md)
          * [Android용 Adobe Workfront](workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
-         * [Android 베타 테스터여야 함](workfront-basics/mobile-apps/using-the-workfront-mobile-app/android-beta-tester.md)
+         * [Android 베타 테스터가 되십시오.](workfront-basics/mobile-apps/using-the-workfront-mobile-app/android-beta-tester.md)
          * [iOS용 Adobe Workfront](workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
          * [iOS 베타 테스터가 되십시오.](workfront-basics/mobile-apps/using-the-workfront-mobile-app/ios-beta-tester.md)
          * [홈 영역 위젯](workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md)
@@ -994,7 +994,6 @@ ht-degree: 1%
          * [iOS의 증명에 대한 댓글](workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-ios.md)
          * [모바일 장치 관리용 Adobe Workfront(MDM)](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mdm.md)
          * [MobileIron용 Adobe Workfront 구성](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)
-         * [Adobe Workfront 모바일 앱 가상 도우미](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md)
          * [Adobe Workfront 모바일 앱의 승인](workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)
       * Adobe Workfront 보기 사용 {#use-workfront-view}
          * [Adobe Workfront 보기 사용](workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md)
@@ -1175,7 +1174,7 @@ ht-degree: 1%
          * [Adobe Experience Manager 통합 문제 해결](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
    * 레거시 또는 향상된 커넥터에서 마이그레이션 {#migrate-from-legacy-enhanced-connectors}
       * [레거시 또는 향상된 커넥터에서 마이그레이션](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
-      * [Adobe Experience Manager as a Cloud Service 통합을 위해 레거시 또는 향상된 커넥터에서 Workfront으로 마이그레이션](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
+      * [Adobe as a Cloud Service Experience Mangaer 통합을 위해 레거시 또는 향상된 커넥터에서 Workfront으로 마이그레이션](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
       * [기존 커넥터에서 향상된 커넥터로 마이그레이션](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-to-enhanced.md)
       * [Adobe Experience Manager 레거시 커넥터를 사용하여 Workfront 제거](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-legacy-connector.md)
       * [Workfront with Adobe Experience Manager 강화 커넥터 제거](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-enhanced-connector.md)
@@ -1871,7 +1870,7 @@ ht-degree: 1%
             * [보관된 증명 복원](review-and-approve-work/proofing/managing-proofs-within-workfront/restore-archived-proof.md)
             * [Adobe Workfront 내의 증명에 대한 활동 보기](review-and-approve-work/proofing/managing-proofs-within-workfront/view-activity-on-proof-in-wf.md)
             * [증명 승인 보고서 사용](review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md)
-            * [Adobe Workfront에서 Workfront 증명 액세스](review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)
+            * [Adobe Workfront에서 Workfront Proof 액세스](review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)
          * 증명 버전 관리 {#manage-proof-versions}
             * [증명 버전 관리](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/manage-proof-versions.md)
             * [증명의 새 버전 만들기](review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md)
@@ -2220,7 +2219,7 @@ ht-degree: 1%
          * [시나리오 템플릿](workfront-fusion/scenarios/templates/fusion-templates.md)
          * [[!DNL Fusion] 템플릿 개요](/help/quicksilver/workfront-fusion/scenarios/templates/fusion-templates-overview.md)
          * [Adobe Workfront Fusion에서 새 템플릿 만들기](workfront-fusion/scenarios/templates/create-new-fusion-templates.md)
-         * [Adobe Workfront Fusion 템플릿 게시 및 공유](workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md)
+         * [Publish 및 Adobe Workfront Fusion 템플릿 공유](workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md)
          * [Adobe Workfront Fusion 템플릿을 사용하여 시나리오 만들기](workfront-fusion/scenarios/templates/create-scenarios-with-fusion-templates.md)
          * [Adobe Workfront Fusion 템플릿 보기, 편집 및 삭제](workfront-fusion/scenarios/templates/view-edit-and-delete-fusion-templates.md)
          * [Adobe Workfront Fusion 템플릿 관리](workfront-fusion/scenarios/templates/fusion-templates-adminstration.md)
@@ -2232,7 +2231,7 @@ ht-degree: 1%
    * Workfront Fusion 앱 및 해당 모듈 {#fusion-apps-and-modules}
       * [앱 및 해당 모듈](workfront-fusion/apps-and-their-modules/apps-and-their-modules.md)
       * [Adobe Workfront 모듈](workfront-fusion/apps-and-their-modules/workfront-modules.md)
-      * [Workfront 증명 모듈](workfront-fusion/apps-and-their-modules/workfront-proof-modules.md)
+      * [Workfront Proof 모듈](workfront-fusion/apps-and-their-modules/workfront-proof-modules.md)
       * [Adobe Workfront Planning 모듈](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)
       * [[!DNL Workfront Boards] 모듈](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-boards-modules.md)
       * [Adobe Authenticator 모듈](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md)
@@ -2421,7 +2420,7 @@ ht-degree: 1%
       * [Slack에서 Adobe Workfront 항목 검색](workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md)
       * [Slack의 공유 링크에서 Adobe Workfront 개체에 액세스](workfront-integrations-and-apps/using-workfront-with-slack/access-wf-objects-from-shared-linked-in-slack.md)
       * [Slack에서 Adobe Workfront 액세스](workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)
-      * [Slack 댓글을 업데이트로 게시](workfront-integrations-and-apps/using-workfront-with-slack/post-a-slack-comment-as-an-update.md)
+      * [업데이트로 Slack 주석 Post](workfront-integrations-and-apps/using-workfront-with-slack/post-a-slack-comment-as-an-update.md)
       * [Slack에서 Adobe Workfront 알림 수신](workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md)
    * Adobe Workfront과 Anaplan {#workfront-with-anaplan}
       * [Adobe Workfront과 Anaplan](workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md)
@@ -2434,13 +2433,13 @@ ht-degree: 1%
       * [Adobe Workfront 캠페인 요청에서 Anaplan 목록 항목 만들기](workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
       * [Adobe Workfront 캠페인 요청 또는 캠페인 프로젝트에 Anaplan 예산 할당 적용](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
 * Workfront Proof {#workfront-proof}
-   * [Workfront 증명: 문서 색인](workfront-proof/workfront-proof.md)
-   * Workfront 증명 시작 {#get-started-wf-proof}
-      * [Workfront 증명 시작하기](workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md)
+   * [Workfront Proof: 문서 색인](workfront-proof/workfront-proof.md)
+   * Workfront Proof 시작 {#get-started-wf-proof}
+      * [Workfront Proof 시작하기](workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md)
       * 워크플로 예 {#workflow-examples}
          * [워크플로 예](workfront-proof/wp-getstarted/workflow-examples/workflow-examples.md)
          * [Workfront Proof의 기본 증명 프로세스](workfront-proof/wp-getstarted/workflow-examples/basic-proof-process.md)
-         * [Workfront Proof에서 내부 및 외부 검토](workfront-proof/wp-getstarted/workflow-examples/internal-external-review.md)
+         * [Workfront Proof의 내부 검토 및 외부 검토](workfront-proof/wp-getstarted/workflow-examples/internal-external-review.md)
          * [Workfront Proof에서 디자이너 및 프로젝트 관리자 작업](workfront-proof/wp-getstarted/workflow-examples/work-designers-project-managers.md)
          * [Workfront Proof에서 프리랜서와 함께 작업하기](workfront-proof/wp-getstarted/workflow-examples/work-freelancers.md)
       * Workfront Proof의 개인 설정 {#personal-settings-in-wf-proof}
@@ -2449,14 +2448,14 @@ ht-degree: 1%
          * [통합 - 사용자 설정](workfront-proof/wp-getstarted/personal-settings/integrations-user-setup.md)
       * Workfront Proof의 시스템 정보 {#system-info-wf-proof}
          * [Workfront Proof의 시스템 정보](workfront-proof/wp-getstarted/system-information/system-information.md)
-         * [샌드박스 테스트 환경 미리보기 - Workfront Proof](workfront-proof/wp-getstarted/system-information/preview-sandbox.md)
+         * [샌드박스 테스트 환경 미리 보기 - Workfront Proof](workfront-proof/wp-getstarted/system-information/preview-sandbox.md)
          * [Workfront Proof의 언어 설정](workfront-proof/wp-getstarted/system-information/language-settings.md)
-         * [Workfront 증명 코덱](workfront-proof/wp-getstarted/system-information/codecs.md)
-      * Workfront 증명 FAQ {#wf-proof-faq}
-         * [Workfront 증명 - 자주 묻는 질문](workfront-proof/wp-getstarted/faqs/faqs.md)
+         * [Workfront Proof의 코덱](workfront-proof/wp-getstarted/system-information/codecs.md)
+      * WORKFRONT PROOF FAQ {#wf-proof-faq}
+         * [Workfront Proof - 자주 묻는 질문](workfront-proof/wp-getstarted/faqs/faqs.md)
          * [FAQ - 증명 및 파일 만들기 및 공유](workfront-proof/wp-getstarted/faqs/faq-create-share-proofs-files.md)
          * [FAQ - 증명 검토](workfront-proof/wp-getstarted/faqs/faq-review-proofs.md)
-         * [FAQ - Workfront 증명 계정](workfront-proof/wp-getstarted/faqs/faq-wp-account.md)
+         * [FAQ - Workfront Proof 계정](workfront-proof/wp-getstarted/faqs/faq-wp-account.md)
          * [Workfront Proof에 로그인하고 암호 및 이메일 변경](workfront-proof/wp-getstarted/faqs/log-in-change-password.md)
          * [Workfront Proof에서 시간대 설정](workfront-proof/wp-getstarted/faqs/set-timezones-in-wp.md)
    * Workfront Proof에서 증명 및 파일 작업 {#work-with-proofs-in-wf-proof}
@@ -2467,10 +2466,10 @@ ht-degree: 1%
          * [Workfront Proof에서 자동화된 워크플로로 구성된 증명 관리](workfront-proof/wp-work-proofsfiles/automated-workflow/manage-proof-configured-auto-workflow.md)
       * Workfront Proof의 기본 기능 {#basic-features-in-wf-proof}
          * [Workfront Proof의 기본 기능](workfront-proof/wp-work-proofsfiles/basic-features/basic-features.md)
-         * [Workfront 증명의 대시보드](workfront-proof/wp-work-proofsfiles/basic-features/dashboard.md)
+         * [Workfront Proof의 대시보드](workfront-proof/wp-work-proofsfiles/basic-features/dashboard.md)
          * [Workfront Proof의 보기 탭에 있는 페이지 레이아웃](workfront-proof/wp-work-proofsfiles/basic-features/page-layout-view.md)
-         * [Workfront 증명 검색 중](workfront-proof/wp-work-proofsfiles/basic-features/search.md)
-         * [Workfront Proof Activity 감사 추적 이해](workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)
+         * [Workfront Proof 검색 중](workfront-proof/wp-work-proofsfiles/basic-features/search.md)
+         * [Workfront Proof 활동 감사 추적 이해](workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)
       * 증명 및 파일 만들기 {#create-proofs-and-files}
          * [증명 및 파일 만들기](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/create-proofs-and-files.md)
          * [Workfront Proof에 파일 및 웹 컨텐츠 업로드](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md)
@@ -2483,17 +2482,17 @@ ht-degree: 1%
          * [Workfront Proof의 보기 페이지에서 항목 관리](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)
          * [Workfront Proof에서 증명 버전 관리](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-versions.md)
          * [Workfront Proof에서 증명 설정 구성](workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)
-         * [Workfront Proof에서 사용자 정의 보기 만들기 및 관리](workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md)
+         * [Workfront Proof Proof에서 사용자 정의 보기 만들기 및 관리](workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md)
          * [Workfront Proof에 저장된 파일 다운로드](workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md)
          * [Workfront Proof에서 증명 세부 정보 관리](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)
          * [Workfront Proof에서 증명 진행 상황 및 상태 보기](workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md)
          * [Workfront Proof의 증명 상태 이해](workfront-proof/wp-work-proofsfiles/manage-your-work/proof-state.md)
          * [Workfront Proof에서 증명 삭제](workfront-proof/wp-work-proofsfiles/manage-your-work/delete-proof.md)
-         * [Workfront 증명에서 휴지통 복원 및 비우기](workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)
-         * [Workfront 증명에서 보고서 실행](workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md)
+         * [Workfront Proof에서 휴지통 복원 및 비우기](workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)
+         * [Workfront Proof에서 보고서 실행](workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md)
       * 작업 구성 {#organize-your-work}
          * [작업 구성](workfront-proof/wp-work-proofsfiles/organize-your-work/organize-your-work.md)
-         * [Workfront Proof 폴더](workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md)
+         * [Workfront Proof의 폴더](workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md)
          * [Workfront Proof에서 폴더 만들기](workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md)
          * [Workfront Proof에서 폴더 관리](workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md)
          * [Workfront Proof에서 폴더 및 해당 컨텐츠 관리](workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md)
@@ -2501,7 +2500,7 @@ ht-degree: 1%
          * [Workfront Proof의 폴더 권한 이해](workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md)
          * [Workfront Proof에서 태그 만들기 및 관리](workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md)
          * [Workfront Proof의 아카이브](workfront-proof/wp-work-proofsfiles/organize-your-work/archive.md)
-         * [Workfront 증명 데이터 백업](workfront-proof/wp-work-proofsfiles/organize-your-work/back-up-data.md)
+         * [Workfront Proof 데이터 백업](workfront-proof/wp-work-proofsfiles/organize-your-work/back-up-data.md)
          * [Workfront Proof에서 주석 인쇄 및 내보내기](workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md)
       * Desktop Proofing Viewer에서 증명 검토 {#review-proofs-in-viewer}
          * [Desktop Proofing Viewer에서 증명 검토](workfront-proof/wp-work-proofsfiles/review-proofs-dpv/review-proofs-in-desktop-proofing-viewer.md)
@@ -2517,7 +2516,7 @@ ht-degree: 1%
          * [증명 뷰어에서 증명 비교](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md)
          * [웹 증명 뷰어에서 이전 증명 버전 보기](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-previous-proof-versions.md)
          * [증명 뷰어에서 증명 다운로드](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/download-proof.md)
-         * [Workfront 증명 뷰어의 키보드 단축키](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md)
+         * [Workfront Proof 증명 뷰어의 키보드 단축키](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md)
          * [기존 증명 뷰어가 제거됨](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/lpv-removed.md)
       * 증명 및 파일 공유 {#share-proofs-and-files}
          * [증명 및 파일 공유](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proofs-and-files.md)
@@ -2527,7 +2526,7 @@ ht-degree: 1%
          * [Workfront Proof에서 파일 공유](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md)
          * [나와 공유된 증명 액세스](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/access-proofs-shared-with-you.md)
          * [Workfront Proof에서 증명 구독](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md)
-         * [Workfront Proof에서 미니 증명 만들기](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/create-mini-proof.md)
+         * [Workfront Proof에서 Mini 증명 만들기](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/create-mini-proof.md)
          * [미니 증명 포함](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/embed-mini-proof.md)
          * [Workfront Proof에서 증명 역할 관리](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)
    * Workfront Proof 계정 관리 {#wf-proof-account-admin}
@@ -2536,8 +2535,8 @@ ht-degree: 1%
          * [Workfront Proof의 계정 설정](workfront-proof/wp-acct-admin/account-settings/account-settings.md)
          * [Workfront Proof 사용자 관리](workfront-proof/wp-acct-admin/account-settings/manage-wp-users.md)
          * [Workfront Proof에서 사용자의 증명 권한 프로필 구성](workfront-proof/wp-acct-admin/account-settings/config-user-pref-in-wp.md)
-         * [Workfront Proof에서 사용자 정의 프로필 구성](workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md)
-         * [Workfront Proof 사용자를 위한 단일 사인온 구성](workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
+         * [Workfront Proof에서 사용자 지정 프로필 구성](workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md)
+         * [Workfront Proof 사용자를 위한 SSO(Single Sign-On) 구성](workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
          * [Workfront Proof의 단일 사인온: AD FS 구성](workfront-proof/wp-acct-admin/account-settings/sso-in-wp-adfs-configuration.md)
          * [Workfront Proof의 증명 권한 프로필](workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)
          * [Workfront Proof에서 승인 결정 옵션 구성](workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md)
@@ -2547,16 +2546,16 @@ ht-degree: 1%
          * [Workfront Proof에서 인증 로그 보기](workfront-proof/wp-acct-admin/account-settings/view-auth-logs-in-wp.md)
          * [조직의 Workfront Proof 계정 세부 정보 보기 및 편집](workfront-proof/wp-acct-admin/account-settings/view-edit-org-wp-acct-details.md)
          * [조직의 Workfront Proof 관리자 계정 내역 보기](workfront-proof/wp-acct-admin/account-settings/view-org-wp-acct-history.md)
-         * [Workfront Proof 저장소 확인](workfront-proof/wp-acct-admin/account-settings/check-workfront-proof-storage.md)
+         * [Workfront Proof 스토리지 확인](workfront-proof/wp-acct-admin/account-settings/check-workfront-proof-storage.md)
          * [Workfront Proof에서 새 데이터 백업 요청](workfront-proof/wp-acct-admin/account-settings/request-new-data-backup-in-wp.md)
-      * 브랜딩 Workfront 증명 {#branding-wf-proof}
-         * [브랜딩 Workfront 증명](workfront-proof/wp-acct-admin/branding/branding.md)
-         * [Workfront 증명 사이트 브랜딩](workfront-proof/wp-acct-admin/branding/brand-wp-site.md)
-         * [Workfront 증명 사이트 브랜딩 - 고급](workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md)
+      * 브랜딩 Workfront Proof {#branding-wf-proof}
+         * [브랜딩 Workfront Proof](workfront-proof/wp-acct-admin/branding/branding.md)
+         * [Workfront Proof 사이트 브랜딩](workfront-proof/wp-acct-admin/branding/brand-wp-site.md)
+         * [Workfront Proof 사이트 브랜딩 - 고급](workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md)
       * 보안 관리 {#manage-security}
          * [보안 관리](workfront-proof/wp-acct-admin/managing-security/manage-security.md)
          * [Workfront Proof의 증명 보안](workfront-proof/wp-acct-admin/managing-security/proof-security-in-workfront-proof.md)
-         * [Workfront Proof의 Single Sign-On](workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md)
+         * [Workfront Proof의 단일 사인온](workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md)
          * [Workfront Proof의 전자 서명 이해](workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md)
       * Workfront Proof의 파트너 계정 {#partner-accounts-in-wf-proof}
          * [Workfront Proof의 파트너 계정](workfront-proof/wp-acct-admin/partner-accounts/partner-accounts.md)
@@ -2567,24 +2566,24 @@ ht-degree: 1%
          * [Workfront Proof의 위성 계정](workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md)
          * [Workfront Proof에서 위성 계정 구성](workfront-proof/wp-acct-admin/satellite-accounts/configure-sat-acct-in-wp.md)
          * [Workfront Proof에서 위성 계정 관리](workfront-proof/wp-acct-admin/satellite-accounts/manage-sat-acct-in-wp.md)
-      * Workfront Proof 계정 관리를 위한 팁, 요령 및 문제 해결 {#ttt-wf-proof-account-admin}
-         * [Workfront Proof 계정 관리를 위한 팁, 요령 및 문제 해결](workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting.md)
-         * [FAQ: Workfront 증명 - 미국-EMEA 마이그레이션](workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/faq-wp-us-to-emea-mig.md)
-   * Workfront Proof 과금 설정 {#wf-proof-billing-settings}
-      * [Workfront Proof 과금 설정](workfront-proof/wp-billingsettings/wp-billing-settings.md)
+      * Workfront Proof 계정 관리에 대한 팁, 요령 및 문제 해결 {#ttt-wf-proof-account-admin}
+         * [Workfront Proof 계정 관리에 대한 팁, 요령 및 문제 해결](workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting.md)
+         * [FAQ: Workfront Proof - 미국 - EMEA로 마이그레이션](workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/faq-wp-us-to-emea-mig.md)
+   * Workfront Proof 청구 설정 {#wf-proof-billing-settings}
+      * [Workfront Proof 청구 설정](workfront-proof/wp-billingsettings/wp-billing-settings.md)
       * 청구 관리 {#manage-billing}
          * [청구 관리](workfront-proof/wp-billingsettings/manage-your-billing/manage-your-billing.md)
-         * [Workfront Proof 과금 페이지](workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
-         * [Workfront 증명에서 결제 방법 선택](workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md)
-         * [Workfront 증명 송장 다운로드](workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md)
-         * [Workfront 증명 계정 닫기](workfront-proof/wp-billingsettings/manage-your-billing/close-wp-acct.md)
+         * [Workfront Proof 청구 페이지](workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
+         * [Workfront Proof에서 결제 방법 선택](workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md)
+         * [Workfront Proof 송장 다운로드](workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md)
+         * [Workfront Proof 계정 닫기](workfront-proof/wp-billingsettings/manage-your-billing/close-wp-acct.md)
    * 증명 알림 및 미리 알림 {#proof-notifications-and-reminders}
       * [증명 알림 및 미리 알림](workfront-proof/wp-emailsntfctns/wp-emails-and-notifications.md)
       * 스팸 필터 방지 {#avoid-spam-filters}
          * [스팸 필터 방지](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/avoid-spam-filters.md)
          * [일반 이메일 클라이언트에 대한 스팸 설정 구성](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-spam-settings-clients.md)
-         * [스팸 필터를 방지하도록 Workfront 증명 이메일 구성](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-wp-emails-avoid-spam-filters.md)
-         * [Workfront Proof SPF 레코드](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/wp-spf-records.md)
+         * [스팸 필터를 방지하도록 Workfront Proof 이메일 구성](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-wp-emails-avoid-spam-filters.md)
+         * [Workfront Proof 레코드](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/wp-spf-records.md)
       * 검토자에게 메시지 보내기 {#send-messages-to-reviewers}
          * [검토자에게 메시지 보내기](workfront-proof/wp-emailsntfctns/messaging-reviewers/send-messages-to-reviewers.md)
          * [검토자에게 Workfront Proof의 할당에 대해 알림](workfront-proof/wp-emailsntfctns/messaging-reviewers/remind-reviewer-assignments-wp.md)
@@ -2603,26 +2602,26 @@ ht-degree: 1%
       * [Workfront Proof에서 사용자 및 연락처 관리](workfront-proof/wp-mnguserscontacts/manage-user-contacts.md)
       * 사용자 {#users}
          * [사용자](workfront-proof/wp-mnguserscontacts/users/users.md)
-         * [Workfront 증명을 사용하여 사용자 만들기](workfront-proof/wp-mnguserscontacts/users/create-users.md)
-         * [Workfront 증명을 사용하여 사용자 정보 구성](workfront-proof/wp-mnguserscontacts/users/configure-user-info.md)
-         * [Workfront Proof를 사용하여 사용자 정의 프로필 만들기 및 관리](workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md)
-         * [Workfront 증명을 사용하여 계정 간 사용자 이동](workfront-proof/wp-mnguserscontacts/users/move-users-between-accounts.md)
+         * [Workfront Proof을 사용하여 사용자 만들기](workfront-proof/wp-mnguserscontacts/users/create-users.md)
+         * [Workfront Proof을 사용하여 사용자 정보 구성](workfront-proof/wp-mnguserscontacts/users/configure-user-info.md)
+         * [Workfront Proof을 사용하여 사용자 지정 프로필 만들기 및 관리](workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md)
+         * [Workfront Proof을 사용하여 계정 간에 사용자 이동](workfront-proof/wp-mnguserscontacts/users/move-users-between-accounts.md)
       * 그룹 {#groups}
          * [그룹](workfront-proof/wp-mnguserscontacts/groups/groups.md)
          * [증명에 그룹 추가](workfront-proof/wp-mnguserscontacts/groups/add-groups.md)
-         * [Workfront 증명을 사용하여 증명 그룹 만들기](workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md)
-         * [Workfront 증명을 사용하여 그룹을 비공개로 만들기](workfront-proof/wp-mnguserscontacts/groups/make-groups-private.md)
-         * [Workfront 증명을 사용하여 그룹 관리](workfront-proof/wp-mnguserscontacts/groups/manage-groups.md)
+         * [Workfront Proof을 사용하여 증명 그룹 만들기](workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md)
+         * [Workfront Proof을 사용하여 그룹을 비공개로 설정](workfront-proof/wp-mnguserscontacts/groups/make-groups-private.md)
+         * [Workfront Proof을 사용하여 그룹 관리](workfront-proof/wp-mnguserscontacts/groups/manage-groups.md)
       * 연락처 {#contacts}
          * [연락처](workfront-proof/wp-mnguserscontacts/contacts/contacts.md)
-         * [Workfront 증명에 게스트 추가](workfront-proof/wp-mnguserscontacts/contacts/add-guest.md)
+         * [Workfront Proof에 게스트 추가](workfront-proof/wp-mnguserscontacts/contacts/add-guest.md)
          * [Workfront Proof에서 연락처 관리](workfront-proof/wp-mnguserscontacts/contacts/manage-contacts.md)
          * [Workfront Proof의 사용자, 멤버 및 게스트 이해](workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md)
       * Workfront Proof 사용자 및 연락처를 위한 팁, 요령 및 문제 해결 {#ttt-wf-proof-users-and-contacts}
          * [Workfront Proof 사용자 및 연락처를 위한 팁, 요령 및 문제 해결](workfront-proof/wp-mnguserscontacts/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wfproof.md)
          * [사용자의 기타 그룹 일괄 편집](workfront-proof/wp-mnguserscontacts/tips-tricks-and-troubleshooting/bulk-edit-users-other-groups.md)
-   * Workfront Proof 모바일 {#wf-proof-mobile}
-      * [Workfront Proof 모바일](workfront-proof/wp-mobile/wp-mobile.md)
+   * Workfront Proof mobile {#wf-proof-mobile}
+      * [Workfront Proof mobile](workfront-proof/wp-mobile/wp-mobile.md)
       * Workfront Proof 모바일 앱 {#wf-proof-mobile-apps}
          * [Workfront Proof 모바일 앱](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-apps.md)
          * [Workfront Proof 모바일 앱](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-phones.md)
@@ -2634,34 +2633,34 @@ ht-degree: 1%
       * [Workfront Proof 기술 코너](workfront-proof/wp-tech-corner/tech-corner.md)
       * 증명 유형 {#proof-types}
          * [증명 유형](workfront-proof/wp-tech-corner/proof-types/proof-types.md)
-         * [Workfront Proof를 사용하여 정적 웹 사이트 증명 만들기](workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md)
-      * Workfront Proof에서 문제 해결 {#troubleshooting-wf-proof}
-         * [Workfront Proof에서 문제 해결](workfront-proof/wp-tech-corner/troubleshooting/troubleshooting.md)
+         * [Workfront Proof을 사용하여 정적 웹 사이트 증명 만들기](workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md)
+      * Workfront Proof의 문제 해결 {#troubleshooting-wf-proof}
+         * [Workfront Proof의 문제 해결](workfront-proof/wp-tech-corner/troubleshooting/troubleshooting.md)
          * [문제 해결 - Mac의 proofing viewer에서 인터페이스 글꼴이 손상되었습니다.](workfront-proof/wp-tech-corner/troubleshooting/corrupted-interface-font-pv-mac.md)
-         * [캐시와 쿠키가 Workfront 증명에 미치는 영향 이해](workfront-proof/wp-tech-corner/troubleshooting/how-cache-cookies-affect-pv.md)
-         * [Workfront Proof의 문제 속도](workfront-proof/wp-tech-corner/troubleshooting/speed-issue.md)
-         * [문제 해결 - Workfront 증명 뷰어](workfront-proof/wp-tech-corner/troubleshooting/proofing-viewer.md)
+         * [캐시와 쿠키가 Workfront Proof에 미치는 영향 이해](workfront-proof/wp-tech-corner/troubleshooting/how-cache-cookies-affect-pv.md)
+         * [Workfront Proof의 속도 문제](workfront-proof/wp-tech-corner/troubleshooting/speed-issue.md)
+         * [문제 해결 - Workfront Proof 증명 뷰어](workfront-proof/wp-tech-corner/troubleshooting/proofing-viewer.md)
    * Workfront Proof 통합 {#wf-proof-integrations}
       * [Workfront Proof 통합](workfront-proof/wp-integrations/wp-integrations.md)
-      * Workfront Proof API {#wf-proof-api}
-         * [Workfront Proof API](workfront-proof/wp-integrations/api/wp-api.md)
-         * [Workfront Proof API](workfront-proof/wp-integrations/api/workfront-proof-api.md)
+      * WORKFRONT PROOF API {#wf-proof-api}
+         * [WORKFRONT PROOF API](workfront-proof/wp-integrations/api/wp-api.md)
+         * [WORKFRONT PROOF API](workfront-proof/wp-integrations/api/workfront-proof-api.md)
       * Box {#box}
          * [Box](workfront-proof/wp-integrations/box/box.md)
-         * [Workfront Proof and Box 통합 소개](workfront-proof/wp-integrations/box/introduction-to-box.md)
+         * [Workfront Proof 및 Box 통합 소개](workfront-proof/wp-integrations/box/introduction-to-box.md)
          * [Box 계정을 통해 증명 만들기](workfront-proof/wp-integrations/box/create-proof-box-account.md)
-         * [Workfront Proof로 상자 폴더 동기화](workfront-proof/wp-integrations/box/sycn-box-folder.md)
+         * [상자 폴더를 Workfront Proof과 동기화](workfront-proof/wp-integrations/box/sycn-box-folder.md)
          * [Box에서 증명의 원본 파일 보기](workfront-proof/wp-integrations/box/view-proof-original-file-box.md)
       * 베이스캠프 {#basecamp}
          * [베이스캠프](workfront-proof/wp-integrations/basecamp/basecamp.md)
          * [Basecamp 프로젝트에 증명 추가](workfront-proof/wp-integrations/basecamp/add-proof-to-basecamp-project.md)
-         * [Workfront Proof와 Basecamp 통합](workfront-proof/wp-integrations/basecamp/integrate-workfront-proof-with-basecamp.md)
+         * [Workfront Proof과 Basecamp 통합](workfront-proof/wp-integrations/basecamp/integrate-workfront-proof-with-basecamp.md)
          * [Basecamp에서 증명 검토](workfront-proof/wp-integrations/basecamp/review-proof-basecamp.md)
-         * [Workfront Proof와의 Basecamp 통합 이해](workfront-proof/wp-integrations/basecamp/basecamp-integration-overview.md)
+         * [Workfront Proof과의 Basecamp 통합 이해](workfront-proof/wp-integrations/basecamp/basecamp-integration-overview.md)
       * 베이스캠프 클래식 {#basecamp-classic}
          * [베이스캠프 클래식](workfront-proof/wp-integrations/basecamp-classic/basecamp-classic.md)
          * [Basecamp Classic 프로젝트에 증명 추가](workfront-proof/wp-integrations/basecamp-classic/add-proof-basecamp-classic.md)
-         * [Workfront Proof와 Basecamp Classic 통합](workfront-proof/wp-integrations/basecamp-classic/integrate-workfront-proof-basecamp-classic.md)
+         * [Workfront Proof과 Basecamp Classic 통합](workfront-proof/wp-integrations/basecamp-classic/integrate-workfront-proof-basecamp-classic.md)
          * [Basecamp Classic에서 증명 검토](workfront-proof/wp-integrations/basecamp-classic/review-proof-basecamp-classic.md)
 * ADOBE WORKFRONT API {#adobe-workfront-api}
    * [WORKFRONT API](wf-api/workfront-api.md)

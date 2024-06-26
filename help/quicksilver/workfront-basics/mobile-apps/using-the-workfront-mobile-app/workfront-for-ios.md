@@ -7,10 +7,10 @@ description: 다음 [!DNL Adobe Workfront] 앱을 사용하면 모든 iOS 장치
 author: Nolan
 feature: Get Started with Workfront
 exl-id: dcf52fc5-8029-49e0-bf6a-0733df334dc2
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 52ca3335f6c2dde0442f31fb4bd4ca0180c96b40
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 3%
+source-wordcount: '570'
+ht-degree: 2%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 3%
    <td> 
     <ul> 
      <li>작업 및 문제 상태 업데이트</li> 
-     <li>업데이트 영역에 게시</li> 
+     <li>업데이트 영역의 Post</li> 
      <li>문서 보기</li> 
      <li>사진 첨부</li> 
      <li> <p>요청 또는 빠른 작업 만들기</p> <p>참고: 프로젝트를 할당하도록 선택하지 않은 경우 홈에서 생성된 빠른 작업은 개인 작업입니다.</p> </li> 
@@ -58,7 +58,7 @@ ht-degree: 3%
 
 ![게시판 영역](assets/mobile-all-boards-displayed.png)
 
-자세한 내용은 [[!DNL Adobe Workfront] [!UICONTROL Boards] 모바일용](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
+자세한 내용은 [[!DNL Adobe Workfront] [!UICONTROL 게시판] 모바일용](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
 
 ## [!UICONTROL 프로젝트]
 
@@ -73,7 +73,7 @@ ht-degree: 3%
     <ul> 
      <li>프로젝트 상태 업데이트</li> 
      <li>중요한 프로젝트 세부 정보 보기</li> 
-     <li>[!UICONTROL Updates] 영역에 게시</li> 
+     <li>[!UICONTROL Updates] 영역의 Post</li> 
      <li>작업, 문제 및 요청을 프로젝트로 전환</li> 
     </ul> </td> 
    <td> 
@@ -145,7 +145,7 @@ ht-degree: 3%
     </ul> </td>
    <td>
     <ul>
-     <li>[!UICONTROL Updates] 영역에 게시</li>
+     <li>[!UICONTROL Updates] 영역의 Post</li>
      <li>문서 보기</li>
      <li>사진 첨부</li>
      <li>초안으로 요청 저장</li>
@@ -160,7 +160,7 @@ ht-degree: 3%
 
 다음 [!UICONTROL 타임시트] 영역을 사용하면 타임시트에 대한 세부 정보를 볼 수 있습니다. 다음에서 [!UICONTROL 타임시트] 앱의 영역에서 다음을 수행할 수 있습니다.
 
-* 다음에 게시 [!UICONTROL 업데이트] 영역
+* 의 Post [!UICONTROL 업데이트] 영역
 * 시간 유형 조정
 * 기록한 시간 변경
 * 타임시트에 댓글 입력
@@ -192,21 +192,3 @@ ht-degree: 3%
 * 로그아웃
 
 ![구성 영역](assets/ios-configuration-area.png)
-
-## Virtual Assistant
-
-가상 도우미에서 음성 명령을 통해 다음 작업을 수행할 수 있습니다.
-
-* [!UICONTROL 표시]
-* [!UICONTROL 삭제]
-* [!UICONTROL 검색]
-* [!UICONTROL 명령 도움말]
-
-Virtual Assistant에 대한 자세한 내용은 [[!DNL Adobe Workfront] 모바일 앱 가상 도우미](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md).
-
-## [!UICONTROL 고정]
-
-다음 [!UICONTROL 고정] 영역을 사용하면 웹 브라우저에서 저장된 가상 도우미 명령과 핀을 액세스할 수 있습니다.
-![쿼리 고정 및 저장](assets/pin-and-save-query-adobe-350x285.png)
-
-Virtual Assistant에 대한 자세한 내용은 [Adobe Workfront 모바일 앱 가상 도우미](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md).

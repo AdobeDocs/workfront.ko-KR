@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 891be3ab-ba65-406e-a90c-d7a9db8310e3
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 52ca3335f6c2dde0442f31fb4bd4ca0180c96b40
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Workfront for MobileIron을 사용하면 관리자는 복사/붙여넣기 기능
 
 ## 새 Mobile Virtual Assistant
 
-이제 새로운 Workfront 모바일 앱 Virtual Assistant를 Android와 iOS 모두에서 사용할 수 있습니다.
+이제 새로운 Workfront 모바일 앱 Virtual Assistant를 Android 및 iOS 모두에서 사용할 수 있습니다.
 
 음성 명령
 
@@ -52,5 +52,5 @@ Workfront for MobileIron을 사용하면 관리자는 복사/붙여넣기 기능
 
 핀 기능을 사용하여 저장된 가상 도우미 명령과 웹 브라우저에서 핀에 액세스할 수 있습니다.
 
-이 두 기능에 대한 자세한 내용은 [Adobe Workfront 모바일 앱 가상 도우미](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md).
+**참고: Mobile Virtual Assistant는 2024년 4월부터 더 이상 사용되지 않습니다.**
 
