@@ -1,14 +1,14 @@
 ---
 product-area: workfront-navigation
 navigation-topic: workfront-navigation
-title: FAQ에 대한 통합 경험 Adobe
+title: 통합 경험 FAQ Adobe
 description: 다음과 같은 몇 가지 기능이 서로 다릅니다. [!DNL Workfront] 그리고 Adobe Experience Cloud을 사용하면 다음과 같은 질문이 있을 수 있습니다. [!DNL Workfront] 인스턴스가 통합 경험으로 마이그레이션됩니다.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 019a1b61cd97d5d61f9a4fbf3f98eccab50809a8
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '1288'
 ht-degree: 0%
 
 ---

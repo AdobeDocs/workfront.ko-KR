@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8fde6efe-dcf7-47f0-bf85-c66550191066
-source-git-commit: f71460bc3a0f3f93c3922b18d637435f77ca9594
+source-git-commit: 42db442966cff841774f894b6538f997de39adfb
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* Adobe 통합 쉘은 단계적 롤아웃에서 사용할 수 있습니다. 추가 조직은 24.10 및 25.1 릴리스와 함께 Adobe 통합 쉘로 온보딩됩니다.
->* 미리보기 릴리스: 2024년 6월 11일, 지정된 고객의 프로덕션 릴리스: 24.7 릴리스 포함(2024년 7월)
+>* 미리보기 릴리스: 2024년 6월 20일, 지정된 고객의 프로덕션 릴리스: 24.7 릴리스 포함(2024년 7월)
 
 조직이 Adobe 통합 경험의 이점에 액세스할 수 있도록 하기 위해 기존 Workfront 고객이 사용할 수 있도록 하기 시작했습니다.
 

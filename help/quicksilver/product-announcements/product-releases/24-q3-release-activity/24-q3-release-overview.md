@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: d75b99987bec596c44454d77073e332441f4ed29
+source-git-commit: 42db442966cff841774f894b6538f997de39adfb
 workflow-type: tm+mt
 source-wordcount: '1440'
 ht-degree: 0%
@@ -303,7 +303,7 @@ ht-degree: 0%
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
                             <li>
-                                <p>미리보기 릴리스: 2024년 6월 11일</p>
+                                <p>미리보기 릴리스: 2024년 6월 20일</p>
                             </li>
                             <li>
                                 <p>지정된 고객을 위한 프로덕션: 24.7 릴리스(2024년 7월)</p>
@@ -377,9 +377,9 @@ Workfront Fusion의 새로운 기능은 2024년 3분기 릴리스 일정 이외�
 
 릴리스의 현재 시점에는 시나리오 플래너 업데이트가 없습니다. 업데이트를 사용할 수 있으면 이 영역이 업데이트됩니다.
 
-### Workfront 증명 개선 사항
+### Workfront Proof 개선 사항
 
-릴리스의 현재 시점에는 Workfront 증명 업데이트가 없습니다. 업데이트를 사용할 수 있으면 이 영역이 업데이트됩니다.
+릴리스의 현재 시점에는 Workfront Proof 업데이트가 없습니다. 업데이트를 사용할 수 있으면 이 영역이 업데이트됩니다.
 
 ### Workfront 목표 개선 사항
 
