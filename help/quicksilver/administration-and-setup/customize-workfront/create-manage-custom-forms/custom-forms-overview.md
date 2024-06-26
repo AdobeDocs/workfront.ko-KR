@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: d32f274390f6ffc5fdd01c2c9b4b2abd99d7cb10
+source-git-commit: 286a5b40baced3bfd3e06a2b3f1c143839808018
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '355'
 ht-degree: 7%
 
 ---
@@ -80,6 +80,6 @@ Workfront에서 다음 유형의 사용자 정의 필드를 사용자 정의 양
 
 사용자 정의 양식을 오브젝트에 첨부하는 방법에 대한 자세한 내용은 [오브젝트에 사용자 정의 양식 추가](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
-문제를 프로젝트로 전환할 때 사용자 정의 양식이 어떻게 되는지에 대한 자세한 내용은 [문제를 프로젝트로 전환](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-project.md).
+개체를 변환할 때 사용자 정의 양식이 어떻게 되는지에 대한 자세한 내용은 [개체를 변환할 때 사용자 정의 양식 데이터 전송](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
 
 
