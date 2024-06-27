@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: d75b99987bec596c44454d77073e332441f4ed29
+source-git-commit: 3326173517762a62630d6b7285cc8a22873a6712
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '594'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,20 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2024년 3분기 릴리스의 모든 관리자 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2024년 3분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [2024년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+
+## Adobe Workfront에서 일반적으로 사용할 수 있는 사용자 정의 양식 디자이너
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2024년 6월 19일, 모든 고객을 위한 프로덕션 릴리스: 24.7 릴리스(2024년 7월 18일) 포함
+
+사용자 정의 양식 디자이너는 2023년 4월(23.2 릴리스)에 Beta로 출시되었으며 이후 외부 조회 필드 및 Workfront 기본 필드와 같은 더 많은 기능이 추가되었습니다. 2024년에 양식 디자이너는 기존 양식 빌더와 동등한 기능을 갖추게 되었습니다.
+
+24.7 릴리스에서는 양식 디자이너를 일반적으로 사용할 수 있으며, Adobe Workfront에서 사용자 정의 양식을 만들고 편집할 수 있는 기본 환경이 됩니다. 새 사용자 정의 양식을 만들거나 기존 양식을 열면 양식 디자이너의 캔버스 스타일 작업 영역이 표시됩니다.
+
+이 릴리스 후에는 이전 양식 빌더로 되돌리는 옵션이 더 이상 없습니다.
+
+양식 디자이너 및 비디오 데모에 대한 자세한 내용은 [양식 디자이너 베타 릴리스 정보](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md).
 
 ## 환경 프로모션을 사용하여 Workfront 환경 간에 개체 이동
 
@@ -51,7 +65,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리보기 릴리스: 2024년 6월 6일, 모든 고객을 위한 프로덕션 릴리스: 24.7 릴리스 포함(2024년 7월)
+>미리보기 릴리스: 2024년 6월 6일, 모든 고객을 위한 프로덕션 릴리스: 24.7 릴리스 포함(2024년 7월 18일)
 
 이제 사용자 정의 양식을 열어 필드를 만들지 않고도 Workfront의 필드 영역에서 직접 새 사용자 정의 필드 또는 위젯을 추가할 수 있습니다. 이를 통해 재사용 가능한 사용자 정의 필드를 신속하게 만들 수 있습니다.
 

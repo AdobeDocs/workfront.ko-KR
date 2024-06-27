@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 42db442966cff841774f894b6538f997de39adfb
+source-git-commit: d53be1bfb102f4b7fb81bfc9b7dc4bb313dab421
 workflow-type: tm+mt
-source-wordcount: '1440'
+source-wordcount: '1616'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 이 페이지에서는 2024년 3분기 릴리스에 포함된 기능에 대한 정보를 제공합니다. 이러한 개선 사항은 분기 내내 프로덕션 환경에서 사용할 수 있도록 계획되어 있습니다.
 
-24.7 릴리스 웨비나는 2024년 6월 27일에 제공됩니다. 다음을 수행할 수 있습니다. [여기서 웨비나 등록](https://webinars.on24.com/adobe_workfront/whatsnewin247?partnerref=releaseoverview).
+라이브 24.7 릴리스 웨비나가 취소되었지만 여전히 다음을 수행할 수 있습니다. [여기에서 24.7 기능에 대한 비디오 데모 보기](https://video.tv.adobe.com/v/3430532/%20).
 
 <span class="preview">오프 사이클 기능(2024년 3분기 릴리스 날짜 이전에 프로덕션에 릴리스된 기능)은 노란색으로 강조 표시됩니다.</span>
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 >
 >| 월별 릴리스 | 분기별 릴리스 |
 >|----|----|
->| <ul><li>24.5 (2024년 5월 16일)</li><li>24.6 (2024년 6월 13일)</li><li>24.7 (2024년 7월)</li></ul> | <ul><li>24.7 (2024년 7월)</li></ul> |
+>| <ul><li>24.5 (2024년 5월 16일)</li><li>24.6 (2024년 6월 13일)</li><li>24.7 (2024년 7월 18일)</li></ul> | <ul><li>24.7 (2024년 7월 18일)</li></ul> |
 >
 >빠른 릴리스 프로세스에 대한 자세한 내용은 [빠른 릴리스 프로세스 활성화 또는 비활성화](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
@@ -36,6 +36,7 @@ ht-degree: 0%
 
 * [관리자 개선 사항](#administrator-enhancements)
 * [향상된 Financial Management](#financial-management-enhancements)
+* [통합 개선 사항](#integration-enhancements)
 * [프로젝트 개선 사항](#project-enhancements)
 * [향상된 리소스 관리 기능](#resource-management-enhancements)
 * [기타 개선 사항](#other-enhancements)
@@ -54,6 +55,23 @@ ht-degree: 0%
                     <td>
                         <p><span class="bold">릴리스 날짜</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Adobe Workfront에서 일반적으로 사용할 수 있는 사용자 정의 양식 디자이너</a></p>
+                        <p>24.7 릴리스에서는 양식 디자이너를 일반적으로 사용할 수 있으며, Adobe Workfront에서 사용자 정의 양식을 만들고 편집할 수 있는 기본 환경이 됩니다. 새 사용자 정의 양식을 만들거나 기존 양식을 열면 양식 디자이너의 캔버스 스타일 작업 영역이 표시됩니다.</p>
+                        <p>이 릴리스 후에는 이전 양식 빌더로 되돌리는 옵션이 더 이상 없습니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2024년 6월 19일</p>
+                            </li>
+                            <li>
+                                <p>모든 고객을 위한 프로덕션 릴리스: 24.7 릴리스 포함(2024년 7월 18일)</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -98,7 +116,7 @@ ht-degree: 0%
                                 <p>미리보기 릴리스: 2024년 6월 6일</p>
                             </li>
                             <li>
-                                <p>모든 고객을 위한 프로덕션 릴리스: 24.7 릴리스 포함(2024년 7월)</p>
+                                <p>모든 고객을 위한 프로덕션 릴리스: 24.7 릴리스 포함(2024년 7월 18일)</p>
                             </li>
                         </ul>
                     </td>
@@ -165,6 +183,46 @@ ht-degree: 0%
            </tbody>
         </table>
 
+### 통합 개선 사항
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">기능</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">릴리스 날짜</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Experience Manager Assets 및 Assets Essentials용 Workfront 개선 사항</a></p>
+                        [!BADGE New in Preview ]{type=Negative}
+                        <p>Experience Manager Assets 및 Assets Essentials 통합을 위한 Workfront이 다음과 같이 개선되었습니다.</p>
+                        <ul>
+                            <li><p>통합은 이제 클라우드 서비스 공급자로서 GCP를 지원합니다. 이전에 AWS 및 Azure가 지원되었습니다.</p></li>
+                            <li><p>통합을 통해 Experience Manager으로 전송된 파일의 크기 제한이 30GB로 늘어났습니다. 이전에는 5GB로 제한되었습니다.</p></li>
+                        </ul>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2024년 6월 27일</p>
+                            </li>
+                            <li>
+                                <p>모든 고객을 위한 프로덕션: 24.7 릴리스 포함(2024년 7월 18일)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>             
+           </tbody>
+        </table>
+
 ### 프로젝트 개선 사항
 
 <table>
@@ -196,7 +254,7 @@ ht-degree: 0%
                                 <p>빠른 릴리스를 위한 프로덕션: 24.6 릴리스 포함(2024년 6월 13일)</p>
                             </li>
                             <li>
-                                <p>모든 고객을 위한 프로덕션 릴리스: 24.7 릴리스 포함(2024년 7월)</p>
+                                <p>모든 고객을 위한 프로덕션 릴리스: 24.7 릴리스 포함(2024년 7월 18일)</p>
                             </li>
                         </ul>
                     </td>
@@ -216,7 +274,7 @@ ht-degree: 0%
                                 <p>빠른 릴리스를 위한 프로덕션: 24.5 릴리스 포함(2024년 5월 16일)</p>
                             </li>
                             <li>
-                                <p>모든 고객을 위한 프로덕션 릴리스: 24.7 릴리스 포함(2024년 7월)</p>
+                                <p>모든 고객을 위한 프로덕션 릴리스: 24.7 릴리스 포함(2024년 7월 18일)</p>
                             </li>
                         </ul>
                     </td>
@@ -236,7 +294,7 @@ ht-degree: 0%
                                 <p>빠른 릴리스를 위한 프로덕션: 24.5 릴리스 포함(2024년 5월 16일)</p>
                             </li>
                             <li>
-                                <p>모든 고객을 위한 프로덕션 릴리스: 24.7 릴리스 포함(2024년 7월)</p>
+                                <p>모든 고객을 위한 프로덕션 릴리스: 24.7 릴리스 포함(2024년 7월 18일)</p>
                             </li>
                         </ul>
                     </td>
@@ -271,7 +329,7 @@ ht-degree: 0%
                                 <p>미리보기 릴리스: 2024년 6월 6일</p>
                             </li>
                             <li>
-                                <p>모든 고객을 위한 프로덕션 릴리스: 24.7 릴리스 포함(2024년 7월)</p>
+                                <p>모든 고객을 위한 프로덕션 릴리스: 24.7 릴리스 포함(2024년 7월 18일)</p>
                             </li>
                         </ul>
                     </td>
@@ -306,7 +364,7 @@ ht-degree: 0%
                                 <p>미리보기 릴리스: 2024년 6월 20일</p>
                             </li>
                             <li>
-                                <p>지정된 고객을 위한 프로덕션: 24.7 릴리스(2024년 7월)</p>
+                                <p>지정된 고객의 프로덕션: 24.7 릴리스(2024년 7월 18일)</p>
                             </li>
                          </ul>
                          <span style="color: #ff0000;">Adobe 통합 쉘은 단계적 롤아웃에서 사용할 수 있습니다. 추가 조직은 24.10 및 25.1 릴리스와 함께 Adobe 통합 쉘로 온보딩됩니다. </p>
@@ -323,7 +381,7 @@ ht-degree: 0%
                                 <p>미리보기 릴리스: 2024년 6월 6일</p>
                             </li>
                             <li>
-                                <p>모든 고객을 위한 프로덕션 릴리스: 24.7 릴리스 포함(2024년 7월)</p>
+                                <p>모든 고객을 위한 프로덕션 릴리스: 24.7 릴리스 포함(2024년 7월 18일)</p>
                             </li>
                         </ul>
                     </td>
@@ -343,7 +401,7 @@ ht-degree: 0%
                                 <p>빠른 릴리스를 위한 프로덕션: 24.5 릴리스 포함(2024년 5월 16일)</p>
                             </li>
                             <li>
-                                <p>분기별 릴리스 프로덕션: 24.7 릴리스 포함 </p>
+                                <p>분기별 릴리스 프로덕션: 24.7 릴리스 포함(2024년 7월 18일)</p>
                             </li>
                         </ul>
                     </td>
