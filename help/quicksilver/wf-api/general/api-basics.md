@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 0479d6e2e2781acf8bb1dfbb8b70768516769d3f
+source-git-commit: cf84efd2b1e38e497eb0ac73ce76ed7366901251
 workflow-type: tm+mt
-source-wordcount: '4384'
+source-wordcount: '4395'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Workfront 스키마에 익숙하면 통합 목적으로 Workfront에서 데이�
 
 ## 제한 및 지침
 
-일관된 Workfront 온디맨드 시스템 성능을 보장하기 위해 각 고객은 10개의 동시 API 스레드로 제한됩니다. 샌드박스 환경에는 동일한 제한이 있으므로 고객 및 파트너가 프로덕션에 코드를 릴리스하기 전에 API 호출을 정확하게 테스트할 수 있습니다.
+일관된 Workfront 온디맨드 시스템 성능을 보장하기 위해 Workfront API는 동시 API 스레드를 제한합니다. 이 가드레일은 API 호출 남용으로 인해 발생하는 시스템 문제를 방지합니다. 샌드박스 환경에는 동일한 동시 API 스레드 제한이 있으므로 고객 및 파트너가 프로덕션에 코드를 릴리스하기 전에 API 호출을 정확하게 테스트할 수 있습니다.
 
 프로덕션, 미리보기 및 테스트 드라이브 환경의 경우 최종 사용자 요청은 Workfront CDN(Akamai)을 통해 라우팅되므로 최대 URI 길이가 8892바이트입니다. 이 제한은 CDN을 통해 라우팅되는 URI에만 적용됩니다.
 
