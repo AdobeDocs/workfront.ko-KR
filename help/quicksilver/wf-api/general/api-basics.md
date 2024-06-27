@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: cf84efd2b1e38e497eb0ac73ce76ed7366901251
+source-git-commit: 70cbeaa132127d1fc879b04fb6b5eb339945ff78
 workflow-type: tm+mt
 source-wordcount: '4395'
 ht-degree: 0%
@@ -551,3 +551,4 @@ DELETE은 객체를 제거합니다. 모든 경우에, URI는 서버가 지정�
 >[!NOTE]
 >
 >원자 일괄 처리 작업은 &quot;success: true&quot; 또는 오류만 반환할 수 있습니다.
+
