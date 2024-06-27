@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: 64f187ed78b69db9b9ac0259e96ef0bf47abf4f4
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '676'
 ht-degree: 1%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 1%
 <tr>
    <td role="rowheader"><p>권한</p></td>
    <td> <p>Workfront에서 프로젝트, 포트폴리오 또는 프로그램에 대한 보기 이상의 권한</a> </p> 
-   <p>Workfront Planning에서 작업 공간에 대한 보기 이상의 권한</a> </p>  
+   <p>Workfront Planning에서 작업 공간에 대한 Contribute 이상 권한</a> </p>  
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 Workfront Planning 작업 영역에 대한 권한을 가집니다</p>
 </td>
   </tr>
@@ -103,7 +103,6 @@ ht-degree: 1%
    * [기록 연결](/help/quicksilver/planning/records/connect-records.md)
 * Workfront 객체와 연관된 레코드가 없는 경우에도 Workfront 객체에서 계획 섹션을 볼 수 있습니다.
 * Workfront 객체에 연결된 레코드가 하나 이상 있는 경우 계획 섹션에서 Workfront의 Workfront 객체와 Planning 레코드를 연결할 수 있습니다.
-* Workfront 개체의 레코드를 연결하려면 작업 공간에 대한 관리 권한이 있어야 합니다.
 
 ## 계획 섹션의 레코드 관리
 
@@ -114,8 +113,8 @@ ht-degree: 1%
    작업공간이 열리고 레코드 유형이 카드로 표시됩니다.
 
 1. Workfront 프로젝트, 포트폴리오 또는 프로그램에 연결된 레코드 유형의 카드를 클릭합니다.
-1. 다음에서 표 보기 선택 **보기** 드롭다운 메뉴.
-1. (조건부) 테이블에서 연결된 레코드 필드로 이동하여 Workfront 개체를 추가한 다음 필드에서 Workfront 개체의 이름을 클릭합니다. 자세한 내용은 [레코드 연결](/help/quicksilver/planning/records/connect-records.md).
+1. 테이블 보기 또는 레코드의 세부 사항 페이지에서 Workfront 개체와 연결된 연결된 레코드 필드로 이동합니다. 자세한 내용은 [레코드 연결](/help/quicksilver/planning/records/connect-records.md).
+1. 연결된 레코드 필드에서 Workfront 개체의 이름을 클릭합니다.
 개체의 페이지가 Workfront Planning에서 열립니다.
 1. 클릭 **소스로 이동**&#x200B;을 클릭합니다.
 
@@ -148,7 +147,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >   연결 단추는 Contribute 권한이 있는 작업 영역에 대해서만 표시됩니다. <!--they might replace this with one button at the top of the page. Rephrase-->
+   >   연결 버튼은 Contribute 권한이 있는 작업 공간에 대해서만 표시됩니다. <!--they might replace this with one button at the top of the page. Rephrase-->
 
 1. 연결할 레코드를 클릭합니다. 다음과 같은 상황이 발생합니다.
 
