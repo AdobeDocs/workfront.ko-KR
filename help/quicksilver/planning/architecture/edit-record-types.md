@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '462'
 ht-degree: 1%
 
 ---
@@ -101,7 +101,7 @@ hide: yes
 
    또는
 
-   작업 영역에서 기존 작업 영역 이름의 오른쪽에 있는 아래쪽 방향 화살표를 확장하고 레코드 유형을 편집할 작업 영역을 선택합니다.
+   작업 영역에서 기존 작업 영역 이름의 오른쪽에 있는 아래쪽 방향 화살표를 확장하고 작업 영역을 검색한 다음 목록에 표시될 때 선택합니다.
 
    작업공간이 열리고 레코드 유형이 표시됩니다.
 1. 기록 유형의 카드 위로 마우스를 가져간 다음 **자세히** 메뉴 ![](assets/more-menu.png) 기록 유형 카드의 오른쪽 상단 모서리에서 을(를) 클릭합니다. **편집**.
@@ -130,4 +130,4 @@ hide: yes
 
    <!--check this screen shot - not sure this is valid ???-->
 
-1. (선택 사항) 레코드 유형 이름의 오른쪽에 있는 아래쪽 방향 화살표를 확장하고 편집할 다른 레코드 유형을 선택합니다.
+1. (선택 사항) 다른 레코드 유형을 편집하려면 레코드 유형 이름의 오른쪽에 있는 아래쪽 방향 화살표를 확장하고 레코드 유형을 검색한 다음 목록에 표시될 때 선택합니다.

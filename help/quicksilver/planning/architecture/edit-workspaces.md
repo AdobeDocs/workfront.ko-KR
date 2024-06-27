@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
 workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 0%
@@ -92,7 +92,7 @@ Adobe Workfront Planning에서 작업 공간은 팀이 작업을 계획하는 �
 
 1. 작업 영역 카드를 클릭하여 작업 영역을 엽니다.
 1. 새 작업 공간 헤더의 작업 공간 이름 안쪽을 클릭하여 이름을 변경한 다음 키를 누릅니다 **입력**.
-1. 다음을 클릭합니다. **자세히** 메뉴 ![](assets/more-menu.png)헤더에서 작업 공간 이름 오른쪽에 있는 을 클릭합니다. **편집**.
+1. 다음을 클릭합니다. **자세히** 메뉴 ![](assets/more-menu.png) 헤더에서 작업 공간 이름 오른쪽에 있는 을 클릭합니다. **편집**.
 
    ![](assets/edit-workspace-box.png)
 

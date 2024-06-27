@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
 workflow-type: tm+mt
-source-wordcount: '3360'
+source-wordcount: '3384'
 ht-degree: 2%
 
 ---
@@ -135,7 +135,11 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
    >
    >    일부 필드가 숨겨져 있을 수 있습니다. 필드를 클릭하고 테이블 보기에서 열로 보려는 필드의 토글을 활성화합니다.
 
-1. 다음을 클릭합니다. **+** 아이콘을 클릭하면 새 필드가 추가됩니다.
+1. 다음을 클릭합니다. **+** 테이블 보기의 오른쪽 위 모서리에 있는 아이콘
+
+   또는
+
+   열의 헤더 위로 마우스를 가져간 후 필드 이름 뒤에 있는 아래쪽 화살표를 클릭한 다음 를 클릭합니다 **왼쪽에 삽입** 또는 **오른쪽에 삽입** 새 필드를 추가합니다.
 1. 다음에서 **새 필드** 탭에서 필드 유형을 검색합니다. **필드 유형** 또는 다음 필드 유형 중에서 선택합니다.
 
    * [한 줄 텍스트](#single-line-text)
