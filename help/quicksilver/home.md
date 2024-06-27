@@ -3,7 +3,7 @@ title: '[!DNL Adobe Workfront] 설명서'
 description: 설명서 [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: 618267f23e5d080a5c0072370eb31188f86a1700
+source-git-commit: 31c87d326cb34a153ba17e7b9769d79d0141c113
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 1%
@@ -94,7 +94,7 @@ Adobe Workfront 제품 및 기술 설명서 홈 페이지를 시작합니다. �
 
 ### 학습 및 교육 섹션 탐색
 
-* **교육 자료**: 다음으로 이동 [Workfront 교육](https://experienceleague.adobe.com/en/browse/workfront) Workfront 기능 및 설정을 더 잘 이해할 수 있도록 고안된 교육 비디오 및 문서 라이브러리용 페이지입니다. 다음 위치에서 유료 교육 자료에 액세스할 수도 있습니다. [learning.adobe.com](http://learning.adobe.com/).
+* **교육 자료**: 다음으로 이동 [Workfront 교육](https://experienceleague.adobe.com/en/browse/workfront) Workfront 기능 및 설정을 더 잘 이해할 수 있도록 고안된 교육 비디오 및 문서 라이브러리용 페이지입니다. 다음 위치에서 유료 교육 자료에 액세스할 수도 있습니다. [learning.adobe.com](https://learning.adobe.com/).
 * **교육 과정**: 찾기 [구조화된 학습 과정](https://experienceleague.adobe.com/home?Solution=Workfront#courses) 논리적 시퀀스에서 다양한 Workfront 기능을 사용하는 방법을 안내합니다.
 
 ### 커뮤니티 포럼에서 답변 찾기

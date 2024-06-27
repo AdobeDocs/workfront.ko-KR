@@ -2,22 +2,26 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Experience Manager Assets 또는 Assets Essentials에게 문서 보내기
-description: Workfront에서 Experience Manager Assets 또는 Assets Essentials으로 문서를 보낼 수 있습니다. Workfront에서 Assets Essentials으로 업로드되고 전송된 문서는 여전히 전체 문서 스토리지에 대해 계산됩니다. Assets Essentials에서 연결된 자산은 전체 스토리지에 포함되지 않습니다.
+description: Workfront에서 Experience Manager Assets 또는 Assets Essentials으로 문서를 보낼 수 있습니다. Workfront에서 Assets Essentials으로 업로드되고 전송된 문서는 여전히 전체 문서 스토리지에 대해 계산됩니다. Assets Essentials에서 연결된 Assets은 전체 스토리지에 포함되지 않습니다.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
-source-git-commit: 825e0a04b2a49d91f9c084fa42e876f9880b2d80
+source-git-commit: 7fa4493d269862c9cdece75f0bf216931c671ea6
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '918'
 ht-degree: 0%
 
 ---
 
 # Experience Manager Assets 또는 Assets Essentials에게 문서 보내기
 
-Workfront에서 Experience Manager Assets 또는 Assets Essentials으로 문서를 보낼 수 있습니다. Workfront에서 Assets Essentials으로 업로드되고 전송된 문서는 여전히 전체 문서 스토리지에 대해 계산됩니다. Assets Essentials에서 연결된 자산은 전체 스토리지에 포함되지 않습니다.
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
 
-이 통합을 통해 Experience Manager으로 전송된 에셋의 크기 제한은 다음과 같습니다. **5GB**.
+Workfront에서 Experience Manager Assets 또는 Assets Essentials으로 문서를 보낼 수 있습니다. Workfront에서 Assets Essentials으로 업로드되고 전송된 문서는 여전히 전체 문서 스토리지에 대해 계산됩니다. Assets Essentials에서 연결된 Assets은 전체 스토리지에 포함되지 않습니다.
+
+이 통합을 통해 Experience Manager으로 전송된 Assets의 크기 제한 **5GB**.
+
+<span class="preview">미리보기 환경에서 이 통합을 통해 Experience Manager으로 전송된 Assets의 크기 제한은 다음과 같습니다. **30GB**.</span>
 
 메타데이터 필드는 에셋을 Workfront에서 Experience Manager Assets 또는 Assets Essentials으로 보낼 때 먼저 매핑됩니다. 상위 개체에 대해 매핑하도록 구성된 메타데이터도 전송됩니다. 메타데이터 매핑 구성에 대한 자세한 내용은 [Experience Manager Assets as a Cloud Service 통합 구성](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) 또는 [Experience Manager Assets Essentials 통합 구성](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
@@ -43,7 +47,7 @@ Workfront에서 Experience Manager Assets 또는 Assets Essentials으로 문서�
   </tr> 
   <tr> 
    <td role="rowheader">제품</td> 
-   <td>Experience Manager as a Cloud Service 또는 Assets Essentials이 있어야 하며, 제품에 Admin Console의 사용자로 추가되어야 합니다.
+   <td>Experience Manager as a Cloud Service 또는 Assets Essentials이 있어야 하며 Admin Console에서 사용자로 제품에 추가되어야 합니다.
 </td> 
   </tr> 
   <tr> 
@@ -68,7 +72,7 @@ Workfront에서 Experience Manager Assets 또는 Assets Essentials으로 문서�
 
 ## Workfront에서 문서 보내기
 
-사용자가 Workfront에서 Experience Manager Assets 또는 Assets Essentials으로 문서를 전송하면 매핑된 메타데이터가 문서를 따라 전송됩니다. 문서를 보낸 후 Workfront에서 문서의 메타데이터에 수행된 변경 사항은 에셋 또는 Assets Essentials에 반영되지 않습니다. Workfront의 매핑된 필드가 변경된 경우 업데이트된 메타데이터가 포함된 새 문서 버전을 에셋 또는 Assets Essentials으로 보내야 합니다. 메타데이터를 설정하거나 편집하려면 다음을 참조하십시오. [Experience Manager Assets as a Cloud Service 통합 구성](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) 또는 [Experience Manager Assets Essentials 통합 구성](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+사용자가 Workfront에서 Experience Manager Assets 또는 Assets Essentials으로 문서를 전송하면 매핑된 메타데이터가 문서를 따라 전송됩니다. 문서를 보낸 후 Workfront에서 문서의 메타데이터에 수행된 변경 사항은 Assets 또는 Assets Essentials에 반영되지 않습니다. Workfront의 매핑된 필드가 변경된 경우 업데이트된 메타데이터가 포함된 새 문서 버전을 Assets 또는 Assets Essentials으로 보내야 합니다. 메타데이터를 설정하거나 편집하려면 다음을 참조하십시오. [Experience Manager Assets as a Cloud Service 통합 구성](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) 또는 [Experience Manager Assets Essentials 통합 구성](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 문서를 전송하려면:
 
@@ -77,7 +81,7 @@ Workfront에서 Experience Manager Assets 또는 Assets Essentials으로 문서�
 
    >[!NOTE]
    >
-   >Workfront 관리자는 이 통합에 사용할 이름을 선택할 수 있으므로 에셋 또는 Assets Essentials에 대해 구체적으로 언급하지 않을 수 있습니다.
+   >Workfront 관리자는 이 통합에 사용할 이름을 선택할 수 있으므로 Assets 또는 Assets Essentials에 대해 구체적으로 언급하지 않을 수 있습니다.
 
    ![](assets/copy-of-send-to-in-toolbar-350x149.png)
 
@@ -99,7 +103,7 @@ Workfront에서 Experience Manager Assets 또는 Assets Essentials으로 문서�
 
    >[!NOTE]
    >
-   >Workfront 관리자는 이 통합에 사용할 이름을 선택할 수 있으므로 에셋 또는 Assets Essentials에 대해 구체적으로 언급하지 않을 수 있습니다.
+   >Workfront 관리자는 이 통합에 사용할 이름을 선택할 수 있으므로 Assets 또는 Assets Essentials에 대해 구체적으로 언급하지 않을 수 있습니다.
 
    ![](assets/copy-of-send-to-in-toolbar-350x149.png)
 
@@ -109,7 +113,7 @@ Workfront에서 Experience Manager Assets 또는 Assets Essentials으로 문서�
 
 >[!NOTE]
 >
->이 기능은 Experience Manager Assets as a Cloud Service으로만 사용할 수 있습니다. Experience Manager Assets Essentials에서는 사용할 수 없습니다.
+>이 기능은 Experience Manager Assetsas a Cloud Service 에서만 사용할 수 있습니다. Experience Manager Assets Essentials에서는 사용할 수 없습니다.
 
 문서와 연결된 폴더가 모두 동일한 문서 목록(예: 프로젝트의 문서 영역)에 있는 경우 문서를 Experience Manager Assets의 연결된 폴더로 이동할 수 있습니다.
 
