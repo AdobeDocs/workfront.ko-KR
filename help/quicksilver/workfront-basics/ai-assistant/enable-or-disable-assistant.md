@@ -7,14 +7,23 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: d698a0a4f262bb0b4008c18875473b63997de6ef
+source-git-commit: fdee3747716f22e291234a2e0ad626eb5a27feda
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '244'
 ht-degree: 1%
 
 ---
 
 # AI Assistant 활성화 또는 비활성화
+
+>[!IMPORTANT]
+>
+>현재 AI Assistant는 제한된 수의 Workfront 및 Workfront Planning 고객이 사용할 수 있습니다.
+>
+>* Workfront: AI Assistant 베타
+>* Workfront 계획: 조기 액세스
+>
+>귀하가 이러한 그룹에 속해 있는 경우 계정 담당자가 귀하에게 알릴 수 있습니다.
 
 Workfront 관리자는 조직에서 AI Assistant를 활성화할 사용자를 제어할 수 있습니다. 액세스 수준을 통해 관리됩니다.
 
