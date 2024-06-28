@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: d53be1bfb102f4b7fb81bfc9b7dc4bb313dab421
+source-git-commit: abc172f312d9b6695fa57598c2c0396d30ff2a95
 workflow-type: tm+mt
-source-wordcount: '1616'
+source-wordcount: '1666'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ ht-degree: 0%
 * [향상된 Financial Management](#financial-management-enhancements)
 * [통합 개선 사항](#integration-enhancements)
 * [프로젝트 개선 사항](#project-enhancements)
+* [증명 개선 사항](#proofing-enhancements)
 * [향상된 리소스 관리 기능](#resource-management-enhancements)
 * [기타 개선 사항](#other-enhancements)
 
@@ -299,6 +300,41 @@ ht-degree: 0%
                         </ul>
                     </td>
                  </tr>
+           </tbody>
+        </table>
+
+### 증명 개선 사항
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">기능</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">릴리스 날짜</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Desktop Proofing Viewer 보안 업데이트</a></p>
+                        <p>Workfront Proof Desktop Proofing Viewer 2.1.35 보안 업데이트는 이전 릴리스에서 식별된 취약점에 대한 보안 버그 수정 사항을 제공합니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2024년 7월</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">모든 고객을 위한 프로덕션: 2024년 7월 4일</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>             
            </tbody>
         </table>
 
