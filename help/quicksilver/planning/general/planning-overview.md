@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
+source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
 workflow-type: tm+mt
-source-wordcount: '1965'
+source-wordcount: '1967'
 ht-degree: 2%
 
 ---
@@ -59,7 +59,7 @@ Adobe Workfront Planning은 Adobe Workfront의 새로운 제품입니다. Workfr
 
 다음 표는 Workfront Planning에서 사용할 수 있는 주요 기능과 해당 기능의 사용 가능 시간표를 보여 줍니다. 목록에 모든 기능이 포함되지 않습니다.
 
-새로운 기능과 출시된 시기에 대한 자세한 내용은 [Adobe Workfront Planning 릴리스 활동](/help/quicksilver/planning/general/release-activity.md).
+새로운 기능과 출시된 시기에 대한 자세한 내용은 [Adobe Workfront Planning 현재 릴리스 활동](/help/quicksilver/planning/general/release-activity.md).
 
 | 기능 | 현재 사용 가능 | 곧 사용 가능 | 연구 중 |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
@@ -116,7 +116,7 @@ Workfront Planning의 프레임워크는 완전히 사용자 정의할 수 있�
 
 다음은 주요 Workfront Planning 개체 및 개념입니다.
 
-* **작업 영역**: 특정 조직의 운영 라이프사이클을 정의하는 레코드 유형의 컬렉션입니다. 작업 공간은 조직 단위의 작업 프레임입니다.
+* **Workspace**: 특정 조직의 운영 라이프사이클을 정의하는 레코드 유형의 컬렉션입니다. 작업 공간은 조직 단위의 작업 프레임입니다.
 
   하나의 Workfront 인스턴스에는 최대 1,000개의 작업 공간이 있을 수 있습니다.
 
@@ -144,7 +144,7 @@ Workfront Planning의 프레임워크는 완전히 사용자 정의할 수 있�
 
   자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md).
 
-* **작업 공간 템플릿**: 사전 정의된 템플릿을 사용하여 작업 공간을 만들 수 있습니다. 템플릿에 있는 미리 정의된 레코드 종류 및 필드를 사용하거나 사용자 고유의 레코드 종류를 추가할 수 있습니다.
+* **Workspace 템플릿**: 사전 정의된 템플릿을 사용하여 작업 공간을 만들 수 있습니다. 템플릿에 있는 미리 정의된 레코드 종류 및 필드를 사용하거나 사용자 고유의 레코드 종류를 추가할 수 있습니다.
 
   ![](assets/workspaces-page-with-templates-thumbnails.png)
 
@@ -328,5 +328,5 @@ Workfront Planning을 찾으려면 다음을 수행합니다.
 
 Workfront Planning에 대한 새로운 기능을 정기적으로 릴리스하고 있습니다.
 
-릴리스된 기능의 최신 목록은 을 참조하십시오. [Adobe Workfront Planning 릴리스 활동](/help/quicksilver/planning/general/release-activity.md)
+릴리스된 기능의 최신 목록은 을 참조하십시오. [Adobe Workfront Planning 현재 릴리스 활동](/help/quicksilver/planning/general/release-activity.md)
 

@@ -1,19 +1,19 @@
 ---
-title: Adobe Workfront Planning 릴리스 활동
+title: Adobe Workfront Planning 현재 릴리스 활동
 description: 현재 일부 Workfront 고객에게는 Adobe Workfront Planning 기능을 사용할 수 있습니다. 이 문서를 자주 검토하여 계획 기능용으로 최근 릴리스된 기능에 대해 알아보십시오.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
+source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
 workflow-type: tm+mt
-source-wordcount: '5143'
+source-wordcount: '5234'
 ht-degree: 0%
 
 ---
 
 
-# Adobe Workfront Planning 릴리스 활동
+# Adobe Workfront Planning 현재 릴리스 활동
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 이 문서에서는 2024년 동안 Workfront Planning에 릴리스된 기능을 나열합니다.
 
-Workfront 계획 프로그램은 2023년 5월 22일부터 시작되었습니다. 2023년 동안 릴리스된 모든 기능 목록은 을 참조하십시오. [Adobe Workfront 2023년 릴리스 활동 계획](/help/quicksilver/planning/general/release-activity-archives-2023.md).
+Workfront 계획 프로그램은 2023년 5월 22일부터 시작되었습니다. 2023년 동안 릴리스된 모든 기능 목록은 을 참조하십시오. [Adobe Workfront Planning의 2023년 릴리스 활동 아카이브](/help/quicksilver/planning/general/release-activity-archives-2023.md).
 
 릴리스된 기능은 릴리스 순서대로 나열되며 가장 최근의 기능이 먼저 릴리스됩니다. Workfront Planning 프로그램에 참여하는 고객은 프로덕션 환경의 모든 기능에 액세스할 수 있습니다.
 
@@ -54,6 +54,16 @@ If your organization is not in the Adobe Unified Experience, you receive an emai
 For more information, see [Adobe Workfront Planning notifications: Article index](/help/quicksilver/planning/notifications/notifications-information.md). -->
 
 ## 2024년 6월 24일 주
+
+### 이제 Workfront Planning에서 Workfront AI Assistant(베타)를 사용할 수 있습니다
+
+이제 Workfront Planning에서 AI 지원(베타)을 사용할 수 있습니다.
+
+AI 도우미는 선택한 페이지의 컨텍스트에서 액세스 및 권한 수준으로 작동하여 레코드 생성, 업데이트, 제거 또는 복원과 같은 작업을 수행합니다.
+
+AI 어시스턴트는 현재 베타 단계이며 고객을 선택할 수 있다. 이 단계에 참여할 수 있는지 알아보려면 계정 담당자에게 문의하십시오.
+
+자세한 내용은 [Adobe Workfront Planning AI Assistant 개요](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
 
 ### 작업 영역 또는 레코드 유형을 선택할 때 새 검색 상자
 

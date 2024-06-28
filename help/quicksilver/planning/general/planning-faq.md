@@ -4,9 +4,9 @@ description: 마케팅 운영 리더로서 Adobe Workfront Planning을 사용하
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: d052b883e47f32908e939d64c610427d4475afb3
+source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
 workflow-type: tm+mt
-source-wordcount: '1674'
+source-wordcount: '1675'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Workfront Planning 모듈은 서로 다르지만 연결되어 있는 세 가지 
 
 ## Workfront Planning은 언제 출시됩니까?
 
-일반 출시까지의 최신 Workfront Planning 릴리스는 2024년 8월 28일에 예정되어 있습니다. 현재 출시되는 기능에 대한 최신 정보는 를 참조하십시오. [Adobe Workfront Planning 릴리스 활동](/help/quicksilver/planning/general/release-activity.md).
+일반 출시까지의 최신 Workfront Planning 릴리스는 2024년 8월 28일에 예정되어 있습니다. 현재 출시되는 기능에 대한 최신 정보는 를 참조하십시오. [Adobe Workfront Planning 현재 릴리스 활동](/help/quicksilver/planning/general/release-activity.md).
 
 ## Workfront Planning의 초기 단계가 끝난 후 발생하는 일은 무엇입니까?
 
