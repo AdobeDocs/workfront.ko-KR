@@ -6,10 +6,10 @@ description: 이미 보류 중인 승인이 있는 문서에 승인자 또는 �
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 04743d6915c938564dc349db4e438682ea220ebc
+source-git-commit: 6758b90636bf1c5b05934150b83f9350d040a38e
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 1%
+source-wordcount: '478'
+ht-degree: 2%
 
 ---
 
@@ -41,13 +41,9 @@ ht-degree: 1%
 
 ## 릴리스 계획
 
-여러 릴리스 과정에서 사용자가 새 문서 승인을 사용할 수 있도록 하고 있습니다. 새로운 기능을 추가하는 것 외에도 각 릴리스에서 새 문서 승인을 사용할 수 있는 계정의 수도 확장됩니다. 계정 관리자는 포함되기 전에 변경 사항을 알리는 공지 센터 이메일을 받게 됩니다.
+여러 릴리스 과정에서 사용자가 새 문서 승인을 사용할 수 있도록 하고 있습니다. 새로운 기능을 추가하는 것 외에도 각 릴리스에서 새 문서 승인을 사용할 수 있는 계정의 수도 확장됩니다.
 
 프로덕션 환경에서 새 문서 승인을 활성화하려면 고객 성공 또는 전략 계정 관리자에게 문의하십시오.
-
-**릴리스 1**\
-    미리 보기: 2023년 5월 31일\
-    프로덕션: 2023년 6월 14일
 
 ## 새 문서 승인 사용
 
