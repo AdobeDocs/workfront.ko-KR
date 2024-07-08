@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 0965c9a02496127bbf9b562784ff06c295dc0cf1
+source-git-commit: cd84a3b448de41c795cc962e4756db0946bae0fd
 workflow-type: tm+mt
-source-wordcount: '1740'
+source-wordcount: '1746'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,7 @@ ht-degree: 0%
                                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">이제 비즈니스 규칙을 사용할 수 있습니다</a></p>
+                        [!BADGE New in Preview ]{type=Negative}
                         <p>이제 관리자는 Workfront의 설정 영역에서 비즈니스 규칙을 추가할 수 있습니다.</p>
                         <p>비즈니스 규칙을 사용하면 Workfront 객체에 검증을 적용하고 특정 조건이 충족될 때 사용자가 객체를 생성, 편집 또는 삭제하지 못하도록 할 수 있습니다. 규칙은 사용자 정의 양식의 계산된 필드와 유사한 공식을 사용하여 작성됩니다.</p>
                     </td>
