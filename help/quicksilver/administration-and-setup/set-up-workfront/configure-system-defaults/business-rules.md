@@ -7,17 +7,16 @@ description: 새 Workfront 기능을 월별 또는 분기별로 수신할지 선
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-hidefromtoc: true
-hide: true
-recommendations: noDisplay, noCatalog
-source-git-commit: d96ddcc2f514d9f79e94a3437a3b66e07a270abc
+source-git-commit: ff192113a73e19bf21a3e459cd793f82179dff3d
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '1051'
 ht-degree: 0%
 
 ---
 
 # 비즈니스 규칙 만들기 및 편집
+
+{{highlighted-preview-article-level}}
 
 비즈니스 규칙을 사용하면 Workfront 객체에 검증을 적용하고 특정 조건이 충족될 때 사용자가 객체를 생성, 편집 또는 삭제하지 못하도록 할 수 있습니다. 비즈니스 규칙을 사용하면 데이터 무결성을 손상시킬 수 있는 작업을 방지하여 데이터 품질과 운영 효율성을 향상시킬 수 있습니다.
 
@@ -25,7 +24,7 @@ ht-degree: 0%
 
 사용자가 오브젝트와 상호 작용할 때 액세스 수준 및 오브젝트 공유는 비즈니스 규칙보다 우선 순위가 높습니다. 예를 들어, 사용자에게 프로젝트 편집을 허용하지 않는 액세스 수준 또는 권한이 있는 경우, 이러한 권한은 특정 조건에서 프로젝트 편집을 허용하는 비즈니스 규칙보다 우선합니다.
 
-객체에 둘 이상의 비즈니스 규칙이 적용되는 경우에도 계층이 존재합니다. 예를 들어 두 가지 비즈니스 규칙이 있습니다. 하나는 2월의 경비 만들기를 제한합니다. 두 번째는 프로젝트 상태가 완료일 때 프로젝트를 편집할 수 없도록 합니다. 사용자가 6월에 완료된 프로젝트에 경비를 추가하려고 하면 두 번째 규칙을 트리거했기 때문에 경비를 추가할 수 없습니다.
+객체에 둘 이상의 비즈니스 규칙이 적용되면 모든 규칙이 준수되지만 특정 순서로 적용되지 않습니다. 예를 들어 두 가지 비즈니스 규칙이 있습니다. 하나는 2월의 경비 만들기를 제한합니다. 두 번째는 프로젝트 상태가 완료일 때 프로젝트를 편집할 수 없도록 합니다. 사용자가 6월에 완료된 프로젝트에 경비를 추가하려고 하면 두 번째 규칙을 트리거했기 때문에 경비를 추가할 수 없습니다.
 
 비즈니스 규칙은 API와 Workfront 인터페이스를 통해 개체를 만들고, 편집하고, 삭제하는 데 적용됩니다.
 
@@ -64,18 +63,36 @@ ht-degree: 0%
 
 ## 비즈니스 규칙 시나리오
 
-몇 가지 간단한 비즈니스 규칙 시나리오는 다음과 같습니다.
+비즈니스 규칙의 형식은 &quot;정의된 조건이 충족되는 경우 사용자가 오브젝트에 대한 작업을 수행할 수 없게 되며 메시지가 표시됩니다.&quot;입니다.
 
-* 2월 마지막 주 중에는 새 경비를 추가할 수 없습니다. 이 공식은 다음과 같이 명시될 수 있습니다. `IF(AND(MONTH($$TODAY) = 2, DAYOFMONTH($$TODAY) >= 22), "You cannot add new expenses during the last week of February.")`
-* 완료 상태의 프로젝트는 사용자가 편집할 수 없습니다. 이 공식은 다음과 같이 명시될 수 있습니다. `IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
-
-비즈니스 규칙을 작성하는 구문은 사용자 정의 양식에서 계산된 필드를 작성하는 것과 같습니다. 구문에 대한 자세한 내용은 [양식 디자이너를 사용하여 계산된 필드 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+비즈니스 규칙의 속성 및 기타 함수 구문은 사용자 정의 양식의 계산된 필드 구문과 동일합니다. 구문에 대한 자세한 내용은 [양식 디자이너를 사용하여 계산된 필드 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 IF 문에 대한 자세한 내용은 [&quot;IF&quot; 문 개요](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) 및 [계산된 사용자 정의 필드의 조건 연산자](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
 사용자 기반 와일드카드에 대한 자세한 내용은 [사용자 기반 와일드카드를 사용하여 보고서 일반화](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
 
 날짜 기반 와일드카드에 대한 자세한 내용은 [날짜 기반 와일드카드를 사용하여 보고서를 일반화합니다.](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
+
+API 와일드카드는 비즈니스 규칙에서도 사용할 수 있습니다. 다음을 사용할 수 있습니다. `$$ISAPI` UI 또는 API에서만 규칙을 트리거합니다.
+
+몇 가지 간단한 비즈니스 규칙 시나리오는 다음과 같습니다.
+
+* 2월 마지막 주 중에는 새 경비를 추가할 수 없습니다. 이 공식은 다음과 같이 명시될 수 있습니다. `IF(AND(MONTH($$TODAY) = 2, DAYOFMONTH($$TODAY) >= 22), "You cannot add new expenses during the last week of February.")`
+* 완료 상태의 프로젝트는 사용자가 편집할 수 없습니다. 이 공식은 다음과 같이 명시될 수 있습니다. `IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
+
+중첩된 IF 문이 있는 시나리오는 다음과 같습니다.
+
+사용자는 완료된 프로젝트를 편집할 수 없으며 3월에 계획된 완료 일자가 있는 프로젝트를 편집할 수 없습니다. 이 공식은 다음과 같이 명시될 수 있습니다.
+
+```
+IF(
+    {status}="CPL",
+    "You cannot edit a completed project",
+    IF(
+        MONTH({plannedCompletionDate})=3,
+        "You cannot edit a project with a planned completion date in March")
+)
+```
 
 ## 새 비즈니스 규칙 추가
 

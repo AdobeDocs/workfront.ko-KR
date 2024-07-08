@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: 3326173517762a62630d6b7285cc8a22873a6712
+source-git-commit: ff192113a73e19bf21a3e459cd793f82179dff3d
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '685'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,22 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2024년 3분기 릴리스의 모든 관리자 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2024년 3분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [2024년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+
+## 이제 비즈니스 규칙을 사용할 수 있습니다
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2024년 7월 4일, 모든 고객을 위한 프로덕션 릴리스: 24.7 릴리스(2024년 7월 18일) 포함
+
+이제 관리자는 Workfront의 설정 영역에서 비즈니스 규칙을 추가할 수 있습니다.
+
+비즈니스 규칙을 사용하면 Workfront 객체에 검증을 적용하고 특정 조건이 충족될 때 사용자가 객체를 생성, 편집 또는 삭제하지 못하도록 할 수 있습니다. 규칙은 사용자 정의 양식의 계산된 필드와 유사한 공식을 사용하여 작성됩니다.
+
+자세한 내용은 [비즈니스 규칙 만들기 및 편집](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
+
+>[!IMPORTANT]
+>
+>비즈니스 규칙은 새 Ultimate 플랜의 조직에서만 사용할 수 있습니다.
 
 ## Adobe Workfront에서 일반적으로 사용할 수 있는 사용자 정의 양식 디자이너
 
