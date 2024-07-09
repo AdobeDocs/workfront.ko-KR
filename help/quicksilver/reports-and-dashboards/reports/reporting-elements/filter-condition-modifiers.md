@@ -6,9 +6,9 @@ description: 필터 및 조건 수정자를 사용하여 필터를 작성하고 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
-source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
+source-git-commit: c915c282c6258300b01600dd5b6247e96bf45185
 workflow-type: tm+mt
-source-wordcount: '1516'
+source-wordcount: '1566'
 ht-degree: 0%
 
 ---
@@ -127,16 +127,16 @@ ht-degree: 0%
    <td> <p><strong>같지 않음</strong> </p> </td> 
    <td> <p><strong>notin</strong> </p> </td> 
    <td> <p>다음 은 <i>대소문자 구분</i> 의 반대 <strong>위치:</strong>. 지정된 목록에 없는 결과만 반환합니다.</p> <p>이 수정자는 텍스트 모드 필터에서만 사용할 수 있습니다. 필터의 텍스트 모드에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">텍스트 모드를 사용하여 필터 편집</a>.</p> <p>참고: <span>필터링하려는 필드에 여러 옵션이 있는 경우, 이 필터는 지정한 선택 사항뿐만 아니라 지정한 선택 사항 및 추가 선택 사항을 모두 포함하는 결과를 필터링합니다.</span> </p> </td> 
-  </tr> 
+  </tr>
+  <tr valign="top"> 
+   <td> <p> </p> </td> 
+   <td> <p><strong>좋아요</strong> </p> </td> 
+   <td> <p>이 수정자는 <i>대소문자 구분</i> 과 유사한 방식으로 텍스트 문자열 <strong>다음 포함</strong>. 그러나 <strong>좋아요</strong> 는 와일드카드 문자를 삽입하여 텍스트를 구분하는 기능을 제공합니다.</p> <p>예를 들어 메모를 검색할 때 <code>like %Current% %Dead%</code> "Current to Dead" 구문을 포함하는 메모를 반환합니다. "Dead to Current"가 포함된 노트는 포함되지 않습니다. 각 값은 나열된 순서대로 검색됩니다. %는 텍스트의 문자 또는 세그먼트를 바꿀 와일드카드를 나타냅니다. 다음과 같이 단일 와일드카드 문자에 밑줄을 사용할 수도 있습니다. <code>like Project_</code> 는 "Project"와 "Projects"를 모두 반환합니다. 을(를) 사용하려는 경우 <strong>좋아요</strong> 또는 <strong>비슷해</strong> 필터링의 수정자에서는 사용자 지정 데이터 필드 이름, 매개 변수 옵션 값 또는 기타 개체 이름에서 % 또는 _ 문자를 사용하지 않는 것이 좋습니다.</p><p>이 수정자는 텍스트 모드 필터에서만 사용할 수 있습니다. 필터의 텍스트 모드에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">텍스트 모드를 사용하여 필터 편집</a>.</p> </td> 
+  </tr>  
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>섬모</strong> </p> </td> 
    <td> <p>다음 은 <i>대소문자 구분 안 함</i> 버전 <strong>좋아요</strong>. 예: <code>cilike %Current% %Dead%</code> 이 포함된 모든 메모를 반환합니다. <code>Current to Dead</code> 또는 <code>current to dead</code>.</p> <p>이 수정자는 텍스트 모드 필터에서만 사용할 수 있습니다. 필터의 텍스트 모드에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">텍스트 모드를 사용하여 필터 편집</a>.</p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td> <p> </p> </td> 
-   <td> <p><strong>좋아요</strong> </p> </td> 
-   <td> <p>이 수정자는 <i>대소문자 구분</i> 과 유사한 방식으로 텍스트 문자열 <strong>다음 포함</strong>. 그러나 <strong>좋아요</strong> 는 와일드카드 문자를 삽입하여 텍스트를 구분하는 기능을 제공합니다.</p> <p>예를 들어 메모를 검색할 때 <code>like %Current% %Dead%</code> "Current to Dead" 구문을 포함하는 메모를 반환합니다. "Dead to Current"가 포함된 노트는 포함되지 않습니다. 각 값은 나열된 순서대로 검색됩니다. %는 텍스트의 문자 또는 세그먼트를 바꿀 와일드카드를 나타냅니다.</p> <p>이 수정자는 텍스트 모드 필터에서만 사용할 수 있습니다. 필터의 텍스트 모드에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">텍스트 모드를 사용하여 필터 편집</a>.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td><strong>존재하지 않음</strong> </td> 

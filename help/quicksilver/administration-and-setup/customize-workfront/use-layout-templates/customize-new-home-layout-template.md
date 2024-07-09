@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: 9de4a3729abe0ea2ee89df0be2974b714e65332a
+source-git-commit: c915c282c6258300b01600dd5b6247e96bf45185
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '829'
 ht-degree: 1%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 1%
 
 1. 에 설명된 대로 레이아웃 템플릿에서 작업 시작 [레이아웃 템플릿 만들기 및 관리](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-1. 아래쪽 화살표 클릭 ![](assets/dropdown-arrow.png) 아래에 **사용자에게 표시되는 항목 맞춤화**&#x200B;을 클릭한 다음 을 클릭합니다 **홈 작업 영역**.
+1. 아래쪽 화살표 클릭 ![](assets/dropdown-arrow.png) 아래에 **사용자에게 표시되는 항목 맞춤화**&#x200B;을 클릭한 다음 을 클릭합니다 **홈 Workspace**.
 
 1. 오른쪽에 나타나는 탭에서 다음 중 하나를 클릭합니다. **디자인 및 레이아웃** 위젯과 배경을 선택하고 정렬하려면 또는 **위젯 설정** 사용 가능한 필터 및 그룹과 같은 개별 위젯에 대한 설정을 관리합니다.
 
@@ -132,3 +132,8 @@ ht-degree: 1%
    또는
 
    사용자 지정을 마쳤으면 **저장** 왼쪽 아래에 있습니다.
+
+
+>[!NOTE]
+>
+>자체 레이아웃 템플릿을 사용자 정의하는 관리자는 변경 사항을 보려면 페이지를 새로 고쳐야 합니다.
