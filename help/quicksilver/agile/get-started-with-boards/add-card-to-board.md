@@ -6,9 +6,9 @@ description: Ad Hoc 카드를 보드에 빠르게 추가하고 보드에 있는 
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: b25a165dd85b64a154233b64ae2fc9b676a5aaa2
+source-git-commit: 5c093edc97afdbd1d88824376ce4b019f71e099f
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '878'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 플랜*</strong></td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
@@ -106,9 +106,9 @@ Ad Hoc 카드가 의 작업 항목에 연결되어 있지 않습니다. [!DNL Ad
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Comments]</strong></td>
-      <td><p>을(를) 클릭합니다. <strong>[!UICONTROL 새 주석]</strong> 필드에 댓글을 입력합니다. 서식 도구를 사용하여 텍스트 서식을 지정하고 <strong>첨부 파일 추가</strong> 아이콘 <img src="assets/attachment-icon.png" alt="첨부 파일 아이콘"> 파일을 주석에 첨부합니다. 사용자 또는 팀에 태그를 지정하려면 댓글 영역 하단에 있는 검색 상자를 사용합니다. 사용자는 보드에서 멤버일 필요가 없습니다.</p><p><strong>참고:</strong> 현재 Ad Hoc 카드에 댓글을 태그 지정한 사용자는 이메일 알림을 받지 못합니다.
+      <td><p>을(를) 클릭합니다. <strong>[!UICONTROL 새 주석]</strong> 필드에 댓글을 입력합니다. 서식 도구를 사용하여 텍스트 서식을 지정합니다. 사용자 또는 팀에 태그를 지정하려면 댓글 영역 하단에 있는 검색 상자를 사용합니다. 사용자는 보드에서 멤버일 필요가 없습니다.</p><p><strong>참고:</strong> 현재 Ad Hoc 카드에 댓글을 태그 지정한 사용자는 이메일 알림을 받지 못합니다.
       </p><p>클릭 <strong>[!UICONTROL Submit]</strong> 주석을 카드에 추가합니다.</p>
-      <p><strong>참고:</strong> 카드의 주석 달기 영역에서는 새로운 Adobe Workfront 주석 달기 경험을 사용합니다. 자세한 내용은 <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">작업 업데이트</a>.</p></td>
+      <p>댓글에 대한 자세한 내용은 <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">작업 업데이트</a>.</p></td>
      </tr>
     </tbody> 
    </table>
