@@ -6,22 +6,20 @@ description: Workfront에서 Experience Manager Assets 또는 Assets Essentials�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
-source-git-commit: 7fa4493d269862c9cdece75f0bf216931c671ea6
+source-git-commit: 65805e2ca81a46cce75610ff13b77e3748a6a810
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '915'
 ht-degree: 0%
 
 ---
 
 # Experience Manager Assets 또는 Assets Essentials에게 문서 보내기
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
-
 Workfront에서 Experience Manager Assets 또는 Assets Essentials으로 문서를 보낼 수 있습니다. Workfront에서 Assets Essentials으로 업로드되고 전송된 문서는 여전히 전체 문서 스토리지에 대해 계산됩니다. Assets Essentials에서 연결된 Assets은 전체 스토리지에 포함되지 않습니다.
 
 이 통합을 통해 Experience Manager으로 전송된 Assets의 크기 제한 **5GB**.
 
-<span class="preview">미리보기 환경에서 이 통합을 통해 Experience Manager으로 전송된 Assets의 크기 제한은 다음과 같습니다. **30GB**.</span>
+미리보기 환경에서 이 통합을 통해 Experience Manager으로 전송된 Assets의 크기 제한은 다음과 같습니다. **30GB**.
 
 메타데이터 필드는 에셋을 Workfront에서 Experience Manager Assets 또는 Assets Essentials으로 보낼 때 먼저 매핑됩니다. 상위 개체에 대해 매핑하도록 구성된 메타데이터도 전송됩니다. 메타데이터 매핑 구성에 대한 자세한 내용은 [Experience Manager Assets as a Cloud Service 통합 구성](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) 또는 [Experience Manager Assets Essentials 통합 구성](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
@@ -31,7 +29,9 @@ Workfront에서 Experience Manager Assets 또는 Assets Essentials으로 문서�
 
 ## 액세스 요구 사항
 
-다음 항목이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
+이 문서의 단계를 완료하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -62,6 +62,8 @@ Workfront에서 Experience Manager Assets 또는 Assets Essentials으로 문서�
 </table>
 
 &#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+
++++
 
 ## 전제 조건
 
