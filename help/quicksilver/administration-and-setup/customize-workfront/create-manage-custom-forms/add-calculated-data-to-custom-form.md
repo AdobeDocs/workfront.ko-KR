@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
-source-git-commit: 6b2a2160b5daaa94374707bad4b026daa13edf06
+source-git-commit: 02b025f228b6e2abc58dbc30f88c055c7850b803
 workflow-type: tm+mt
-source-wordcount: '2911'
+source-wordcount: '2895'
 ht-degree: 0%
 
 ---
@@ -300,7 +300,7 @@ ht-degree: 0%
 
 ## 다중 오브젝트 사용자 정의 양식의 계산된 사용자 정의 필드 {#calculated-custom-fields-in-multi-object-custom-forms}
 
-다중 개체 사용자 정의 양식에서 선택한 개체 유형은 해당 양식의 계산된 사용자 정의 필드에서 참조되는 모든 필드와 호환되어야 합니다. 비호환성이 있는 경우 조정할 것을 알리는 메시지가 표시됩니다.
+다중 개체 사용자 정의 양식에서 선택한 개체 유형은 해당 양식의 계산된 사용자 정의 필드에서 참조되는 모든 필드와 호환되어야 합니다.
 
 >[!INFO]
 >
@@ -310,7 +310,7 @@ ht-degree: 0%
 >
 >`{assignedTo}.{name}`
 >
->나중에 프로젝트 개체 유형을 사용자 정의 양식에 추가합니다. 프로젝트 오브젝트 유형이 계산된 사용자 정의 필드와 호환되지 않는다는 경고 메시지가 표시됩니다.
+>나중에 프로젝트 오브젝트 유형을 사용자 정의 양식에 추가하지만 프로젝트 오브젝트 유형이 계산된 사용자 정의 필드와 호환되지 않습니다.
 
 이 경우 다음 중 하나를 수행할 수 있습니다.
 
@@ -325,7 +325,7 @@ ht-degree: 0%
 >
 >`IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})`
 
-변수에 대한 자세한 내용은 다음을 참조하십시오 `$$OBJCODE,` 참조 [와일드카드 필터 변수 개요](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+변수에 대한 자세한 내용은 다음을 참조하십시오 `$$OBJCODE,` 참조 [와일드카드 필터 변수 개요](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ## 계산된 사용자 정의 필드의 자동 업데이트
 

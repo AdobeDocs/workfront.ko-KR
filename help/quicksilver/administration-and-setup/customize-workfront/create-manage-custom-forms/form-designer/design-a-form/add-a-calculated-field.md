@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: fac70de35b3380105911f2958f477f65c9999e55
+source-git-commit: ca453e45dfe32d9545e95139ae7e41d0106e30ff
 workflow-type: tm+mt
 source-wordcount: '2355'
 ht-degree: 0%
@@ -278,6 +278,7 @@ ht-degree: 0%
       여는 괄호를 입력하면 닫는 괄호가 자동으로 추가됩니다.
 
 +++ **를 확장하여 유용한 팁 확인**
+
       >[!TIP]
       >
       >다음 중 원하는 작업을 수행하여 계산에 도움을 받을 수 있습니다.
