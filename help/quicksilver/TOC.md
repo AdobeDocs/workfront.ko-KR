@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: abc172f312d9b6695fa57598c2c0396d30ff2a95
+source-git-commit: 1c9deb747ee9e9598949bcd0b64513b222fa0bc1
 workflow-type: tm+mt
-source-wordcount: '14390'
+source-wordcount: '14395'
 ht-degree: 1%
 
 ---
@@ -2056,6 +2056,7 @@ ht-degree: 1%
    * Adobe Workfront Planning 일반 정보 {#adobe-workfront-planning-general-information}
       * [Adobe Workfront Planning 일반 정보: 문서 색인](planning/general/planning-general-article-index.md)
       * [Adobe Workfront Planning 개요](planning/general/planning-overview.md)
+      * [Adobe Workfront Planning API 기본 사항](planning/general/planning-api-basics.md)
       * [Adobe Workfront Planning AI Assistant 개요](planning/general/planning-ai-assistant-overview.md)
       * [Adobe Workfront Planning 현재 릴리스 활동](planning/general/release-activity.md)
       * [Adobe Workfront Planning의 2023년 릴리스 활동 아카이브](planning/general/release-activity-archives-2023.md)
