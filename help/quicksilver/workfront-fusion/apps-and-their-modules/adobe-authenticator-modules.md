@@ -8,9 +8,10 @@ title: Adobe Authenticator 모듈
 description: Adobe Authenticator 모듈을 사용하면 단일 연결을 사용하여 API를 통해 모든 Adobe 제품에 연결할 수 있습니다.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 61a579c19228381d0aa06de3db5217614999731b
+exl-id: 74c943fb-37ad-4d91-8af7-9808ba69992e
+source-git-commit: 443bdb5caee4b8a7ba9df95b0befff27b7aaabc2
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '993'
 ht-degree: 1%
 
 ---
@@ -63,19 +64,19 @@ HTTP 모듈에 대한 이점은 전용 앱에서와 같이 연결을 만들 수 
 ## 전제 조건
 
 * 모듈을 연결할 Adobe 제품에 대한 액세스 권한이 있어야 합니다.
-* Adobe Developer 콘솔에 액세스할 수 있어야 합니다.
-* 모듈을 연결할 API가 포함된 프로젝트가 Adobe Developer 콘솔에 있어야 합니다. 다음을 수행할 수 있습니다.
+* Adobe Developer Console에 대한 액세스 권한이 있어야 합니다.
+* 모듈을 연결할 API가 포함된 프로젝트가 Adobe Developer Console에 있어야 합니다. 다음을 수행할 수 있습니다.
 
    * API를 사용하여 새 프로젝트를 만듭니다.
 
      또는
    * 기존 프로젝트에 API를 추가합니다.
 
-  Adobe Developer 콘솔에서 API를 만들거나 프로젝트에 추가하는 방법에 대한 자세한 내용은 을 참조하십시오. [프로젝트 만들기](https://developer.adobe.com/dep/guides/dev-console/create-project/) Adobe 설명서에서 확인할 수 있습니다.
+  Adobe Developer Console에서 API를 만들거나 프로젝트에 추가하는 방법에 대한 자세한 내용은 을 참조하십시오. [프로젝트 만들기](https://developer.adobe.com/dep/guides/dev-console/create-project/) Adobe 설명서에서 확인할 수 있습니다.
 
 ## 연결 만들기
 
-Adobe Authenticator 연결은 Adobe Developer 콘솔의 단일 프로젝트에 연결합니다. 두 개 이상의 Adobe API에 대해 동일한 연결을 사용하려면 동일한 프로젝트에 API를 추가하고 해당 프로젝트에 대한 연결을 만듭니다.
+Adobe Authenticator 연결은 Adobe Developer Console의 단일 프로젝트에 연결됩니다. 두 개 이상의 Adobe API에 대해 동일한 연결을 사용하려면 동일한 프로젝트에 API를 추가하고 해당 프로젝트에 대한 연결을 만듭니다.
 
 별도의 프로젝트에 대해 별도의 연결을 만들 수 있지만 연결을 사용하여 해당 연결에 지정된 프로젝트에 없는 API에 액세스할 수는 없습니다.
 
@@ -157,6 +158,14 @@ Adobe Authenticator 연결은 Adobe Developer 콘솔의 단일 프로젝트에 �
         </td>
       </tr>
       <tr>
+        <td role="rowheader">[!UICONTROL 기본 URL]</td>
+        <td>이 인증자가 허용할 기본 URL을 추가해야 합니다. 시나리오의 뒷부분에서 사용자 지정 API 호출 만들기 모듈을 사용할 때 선택한 URL에 대한 상대 경로를 추가합니다. 여기에 URL을 입력하면 사용자 정의 API 호출 만들기 모듈이 연결할 수 있는 내용을 제어할 수 있으므로 보안이 강화됩니다.<p>인증자에 추가하려는 각 기본 URL에 대해 <b>항목 추가</b> 기본 URL을 입력합니다.</td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL 인증 URL]</td>
+        <td>의 표준 Adobe IMS 인증 URL을 사용하려면 이 비워 둡니다. <code>https://ims-na1.adobelogin.com</code>. 인증에 Adobe IMS를 사용하지 않는 경우 인증에 사용할 URL을 입력합니다.</td>
+      </tr>
+      <tr>
         <td role="rowheader">[!UICONTROL 환경]</td>
         <td>프로덕션 환경에 연결할지 아니면 비프로덕션 환경에 연결할지 선택합니다.</td>
       </tr>
@@ -229,4 +238,3 @@ Adobe Authenticator 연결은 Adobe Developer 콘솔의 단일 프로젝트에 �
     </tr>
   </tbody>
 </table>
-
