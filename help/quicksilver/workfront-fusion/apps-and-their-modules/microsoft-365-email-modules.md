@@ -9,14 +9,14 @@ description: 다음에서 [!DNL Adobe Workfront Fusion] 시나리오에서는 Mi
 author: Becky
 feature: Workfront Fusion
 exl-id: 29b69e8c-a889-441e-a052-287f1db2052d
-source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
+source-git-commit: a09116572d4f9101740fa976f1d334e99fac3010
 workflow-type: tm+mt
-source-wordcount: '1974'
+source-wordcount: '2699'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft Office 365 Email]
+# [!DNL Microsoft Office 365 Email] 모듈
 
 다음에서 [!DNL Adobe Workfront Fusion] 시나리오에서는 다음을 사용하는 워크플로를 자동화할 수 있습니다 [!UICONTROL Microsoft Office 365 전자 메일]을 여러 타사 응용 프로그램 및 서비스에 연결할 수 있습니다.
 
@@ -96,16 +96,18 @@ ht-degree: 0%
 
 ### 메시지
 
-* [[!UICONTROL 메시지 보기]](#watch-messages)
-* [[!UICONTROL 메시지 검색]](#search-messages)
-* [[!UICONTROL 메시지 받기]](#get-a-message)
-* [[!UICONTROL 메시지 만들기 및 보내기]](#create-and-send-a-message)
-* [[!UICONTROL 메시지 이동]](#move-a-message)
+* [[!UICONTROL 메시지 만들기 및 보내기(이전)]](#create-and-send-a-message)
 * [[!UICONTROL 메시지 삭제]](#delete-a-message)
+* [[!UICONTROL 메시지 받기]](#get-a-message)
+* [[!UICONTROL 메시지 이동]](#move-a-message)
+* [[!UICONTROL 메시지 검색]](#search-messages)
+* [[!UICONTROL 메시지 보기]](#watch-messages)
 
-#### [!UICONTROL 메시지 보기]
 
-새 이메일 메시지를 보내거나 받을 때 트리거됩니다.
+
+#### [!UICONTROL 메시지 만들기 및 보내기(이전)]
+
+이메일 메시지를 만들고 보냅니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -116,85 +118,65 @@ ht-degree: 0%
    <td> <p>연결에 대한 자세한 내용 [!DNL Office 365] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 시청 메시지]</p> </td> 
-   <td> <p>보려는 메시지 선택:</p> 
+   <td role="rowheader">[!UICONTROL Subject]</td> 
+   <td> <p>메시지의 제목 줄을 입력하거나 매핑합니다.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">[!UICONTROL 본문 컨텐츠 유형]</td> 
+   <td>메시지의 본문 콘텐츠가 HTML 또는 텍스트인지 선택합니다.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Body content]</td> 
+   <td> <p>이메일의 메시지 본문 텍스트를 입력하거나 매핑합니다.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 중요도]</td> 
+   <td> <p>이메일의 중요도 선택</p> 
     <ul> 
-     <li>[!UICONTROL 읽지 않은 항목만]</li> 
-     <li>[!UICONTROL 읽기 전용]</li> 
-     <li>[!UICONTROL All]</li> 
+     <li>[!UICONTROL 낮음]</li> 
+     <li>[!UICONTROL Normal]</li> 
+     <li>[!UICONTROL 높음]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 메일 폴더]</td> 
-   <td> <p>보려는 메시지가 포함된 폴더를 선택합니다.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Search]</td> 
-   <td>검색 쿼리를 입력합니다. 검색 쿼리를 작성하는 방법에 대한 자세한 내용은 [!DNL Microsoft] 지원 문서 <a href="https://support.microsoft.com/en-us/office/search-mail-and-people-in-outlook-com-88108edf-028e-4306-b87e-7400bbb40aa7?ui=en-us&amp;rs=en-us&amp;ad=us">에서 메일 및 사람 검색 [!DNL Outlook.com]</a>.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 제한] </td> 
-   <td> <p>최대 메시지 수 입력 [!DNL Workfront Fusion] 한 시나리오 실행 주기 중에 를 반환해야 합니다.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL 메시지 검색]
-
-특정 기준에 따라 메시지를 검색합니다.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Office 365] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 메일 폴더]</td> 
-   <td> <p>검색할 메시지가 포함된 폴더를 선택합니다.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Search]</td> 
-   <td>검색 쿼리를 입력합니다. 검색 쿼리를 작성하는 방법에 대한 자세한 내용은 [!DNL Microsoft] 지원 문서 <a href="https://support.microsoft.com/en-us/office/search-mail-and-people-in-outlook-com-88108edf-028e-4306-b87e-7400bbb40aa7?ui=en-us&amp;rs=en-us&amp;ad=us">에서 메일 및 사람 검색 [!DNL Outlook.com]</a>.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Order by]</td> 
-   <td> <p>결과 정렬 방법을 선택합니다.</p> 
+   <td role="rowheader"> <p>[!UICONTROL To Recipients]</p> </td> 
+   <td> <p>메시지를 보낼 이메일 주소를 추가합니다.</p> 
     <ul> 
-     <li>[!UICONTROL 제목(오름차순 또는 내림차순)]</li> 
-     <li>[!UICONTROL 생성된 날짜 시간(오름차순 또는 내림차순)]</li> 
-     <li>[!UICONTROL 마지막 수정 날짜 시간(오름차순 또는 내림차순)]</li> 
-     <li>[!UICONTROL 받은 날짜 시간(오름차순 또는 내림차순)]</li> 
+     <li> <p><strong>[!UICONTROL 이름]</strong> </p> <p>연락처의 이름을 입력하십시오.</p> </li> 
+     <li> <p><strong>[!UICONTROL 이메일 주소]</strong> </p> <p>연락처의 이메일 주소를 입력합니다.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 제한]</td> 
-   <td> <p>최대 메시지 수 입력 [!DNL Workfront Fusion] 한 시나리오 실행 주기 중에 를 반환해야 합니다.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL 메시지 받기]
-
-특정 메시지의 메타데이터를 가져옵니다.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Office 365] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL CC Recipients]</p> </td> 
+   <td> <p>메시지 복사본을 받을 수신자를 추가합니다.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL 이름]</strong> </p> <p>연락처의 이름을 입력하십시오.</p> </li> 
+     <li> <p><strong>[!UICONTROL 이메일 주소]</strong> </p> <p>연락처의 이메일 주소를 입력합니다.</p> </li> 
+    </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 메시지 ID]</td> 
-   <td> <p> 메타데이터를 검색할 메시지의 ID를 선택하거나 매핑합니다.</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Bcc Recipients]</p> </td> 
+   <td> <p>다른 수신자가 자신의 이름이나 이메일 주소를 볼 수 없도록 하면서 메시지에 복사할 수신자를 추가합니다.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL 이름]</strong> </p> <p>연락처의 이름을 입력하십시오.</p> </li> 
+     <li> <p><strong>[!UICONTROL 이메일 주소]</strong> </p> <p>연락처의 이메일 주소를 입력합니다.</p> </li> 
+    </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL MIME 콘텐츠 가져오기]</td> 
-   <td>메시지의 MIME 콘텐츠에 대한 데이터를 검색하려면 이 옵션을 활성화하십시오. [!UICONTROL MIME] 컨텐츠에는 이미지, 오디오, 비디오 또는 기타 유형의 파일이 포함될 수 있습니다.</td> 
+   <td role="rowheader"> <p>[!UICONTROL 첨부 파일]</p> </td> 
+   <td> <p>이메일에 첨부 파일 추가:</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL 파일 이름]</strong> </p> <p>파일 이름을 입력합니다. 예: <code>sample.doc</code></p> </li> 
+     <li> <p><strong>[!UICONTROL Data]</strong> </p> <p>필드에 파일 데이터를 입력하거나 파일 소스를 매핑합니다.</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 인터넷 메시지 헤더]</td> 
+   <td> <p>이메일에 대한 메시지 헤더를 추가합니다.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL 이름]</strong> </p> <p>헤더 이름 입력</p> </li> 
+     <li> <p><strong>[!UICONTROL 이메일 주소]</strong> </p> <p>헤더 값을 입력합니다.</p> </li> 
+    </ul> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -272,6 +254,62 @@ ht-degree: 0%
      <li> <p><strong>[!UICONTROL 이메일 주소]</strong> </p> <p>헤더 값을 입력합니다.</p> </li> 
     </ul> </td> 
   </tr> 
+   <td role="rowheader">[!UICONTROL 보내는 사람 이메일 주소]</td> 
+   <td> <p> 공유 전자 메일 주소를 사용하려면 여기에 주소를 입력하십시오. 이 모듈에 사용되는 연결에 자격 증명을 사용하는 사용자는 공유 폴더에 액세스할 수 있어야 합니다.<p>연결 소유자의 전자 메일 주소를 사용하려면 이 필드를 비워 둡니다.</p></p> </td> 
+  </tr> 
+   <td role="rowheader">[!UICONTROL 제한]</td> 
+   <td>각 시나리오 실행 주기 동안 모듈이 반환할 최대 레코드 수를 입력하거나 매핑합니다.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL 메시지 삭제]
+
+기존 이메일 메시지를 삭제합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>연결에 대한 자세한 내용 [!DNL Office 365] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 보내는 사람 이메일 주소]</td> 
+   <td> <p> 공유 전자 메일 주소를 사용하려면 여기에 주소를 입력하십시오. 이 모듈에 사용되는 연결에 자격 증명을 사용하는 사용자는 공유 폴더에 액세스할 수 있어야 합니다.<p>연결 소유자의 전자 메일 주소를 사용하려면 이 필드를 비워 둡니다.</p></p> </td> 
+  </tr> 
+   <td role="rowheader">[!UICONTROL 메시지 ID]</td> 
+   <td> <p> 삭제하려는 메시지의 ID를 선택하거나 매핑합니다.</p> </td> 
+  </tr> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL 메시지 받기]
+
+특정 메시지의 메타데이터를 가져옵니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>연결에 대한 자세한 내용 [!DNL Office 365] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 보내는 사람 이메일 주소]</td> 
+   <td> <p> 공유 전자 메일 주소를 사용하려면 여기에 주소를 입력하십시오. 이 모듈에 사용되는 연결에 자격 증명을 사용하는 사용자는 공유 폴더에 액세스할 수 있어야 합니다.<p>연결 소유자의 전자 메일 주소를 사용하려면 이 필드를 비워 둡니다.</p></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 메시지 ID]</td> 
+   <td> <p> 메타데이터를 검색할 메시지의 ID를 선택하거나 매핑합니다.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL MIME 콘텐츠 가져오기]</td> 
+   <td>메시지의 MIME 콘텐츠에 대한 데이터를 검색하려면 이 옵션을 활성화하십시오. [!UICONTROL MIME] 컨텐츠에는 이미지, 오디오, 비디오 또는 기타 유형의 파일이 포함될 수 있습니다.</td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -298,9 +336,50 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-#### [!UICONTROL 메시지 삭제]
+#### [!UICONTROL 메시지 검색]
 
-기존 이메일 메시지를 삭제합니다.
+특정 기준에 따라 메시지를 검색합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>연결에 대한 자세한 내용 [!DNL Office 365] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></p> </td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader">[!UICONTROL 보내는 사람 이메일 주소]</td> 
+   <td> <p> 공유 전자 메일 주소를 사용하려면 여기에 주소를 입력하십시오. 이 모듈에 사용되는 연결에 자격 증명을 사용하는 사용자는 공유 폴더에 액세스할 수 있어야 합니다.<p>연결 소유자의 전자 메일 주소를 사용하려면 이 필드를 비워 둡니다.</p></p> </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader">[!UICONTROL 메일 폴더]</td> 
+   <td> <p>검색할 메시지가 포함된 폴더를 선택합니다.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Search]</td> 
+   <td>검색 쿼리를 입력합니다. 검색 쿼리를 작성하는 방법에 대한 자세한 내용은 [!DNL Microsoft] 지원 문서 <a href="https://support.microsoft.com/en-us/office/search-mail-and-people-in-outlook-com-88108edf-028e-4306-b87e-7400bbb40aa7?ui=en-us&amp;rs=en-us&amp;ad=us">에서 메일 및 사람 검색 [!DNL Outlook.com]</a>.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Order by]</td> 
+   <td> <p>결과 정렬 방법을 선택합니다.</p> 
+    <ul> 
+     <li>[!UICONTROL 제목(오름차순 또는 내림차순)]</li> 
+     <li>[!UICONTROL 생성된 날짜 시간(오름차순 또는 내림차순)]</li> 
+     <li>[!UICONTROL 마지막 수정 날짜 시간(오름차순 또는 내림차순)]</li> 
+     <li>[!UICONTROL 받은 날짜 시간(오름차순 또는 내림차순)]</li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 제한]</td> 
+   <td> <p>최대 메시지 수 입력 [!DNL Workfront Fusion] 한 시나리오 실행 주기 중에 를 반환해야 합니다.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL 메시지 보기]
+
+새 이메일 메시지를 보내거나 받을 때 트리거됩니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -311,8 +390,25 @@ ht-degree: 0%
    <td> <p>연결에 대한 자세한 내용 [!DNL Office 365] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 메시지 ID]</td> 
-   <td> <p> 삭제하려는 메시지의 ID를 선택하거나 매핑합니다.</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 시청 메시지]</p> </td> 
+   <td> <p>보려는 메시지 선택:</p> 
+    <ul> 
+     <li>[!UICONTROL 읽지 않은 항목만]</li> 
+     <li>[!UICONTROL 읽기 전용]</li> 
+     <li>[!UICONTROL All]</li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 메일 폴더]</td> 
+   <td> <p>보려는 메시지가 포함된 폴더를 선택합니다.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Search]</td> 
+   <td>검색 쿼리를 입력합니다. 검색 쿼리를 작성하는 방법에 대한 자세한 내용은 [!DNL Microsoft] 지원 문서 <a href="https://support.microsoft.com/en-us/office/search-mail-and-people-in-outlook-com-88108edf-028e-4306-b87e-7400bbb40aa7?ui=en-us&amp;rs=en-us&amp;ad=us">에서 메일 및 사람 검색 [!DNL Outlook.com]</a>.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 제한] </td> 
+   <td> <p>최대 메시지 수 입력 [!DNL Workfront Fusion] 한 시나리오 실행 주기 중에 를 반환해야 합니다.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -388,6 +484,10 @@ ht-degree: 0%
      <li> <p><strong>[!UICONTROL Data]</strong> </p> <p>필드에 파일 데이터를 입력하거나 파일 소스를 매핑합니다.</p> </li> 
     </ul> </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 보내는 사람 이메일 주소]</td> 
+   <td> <p> 공유 전자 메일 주소를 사용하려면 여기에 주소를 입력하십시오. 이 모듈에 사용되는 연결에 자격 증명을 사용하는 사용자는 공유 폴더에 액세스할 수 있어야 합니다.<p>연결 소유자의 전자 메일 주소를 사용하려면 이 필드를 비워 둡니다.</p></p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -402,6 +502,10 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
    <td> <p>연결에 대한 자세한 내용 [!DNL Office 365] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 보내는 사람 이메일 주소]</td> 
+   <td> <p> 공유 전자 메일 주소를 사용하려면 여기에 주소를 입력하십시오. 이 모듈에 사용되는 연결에 자격 증명을 사용하는 사용자는 공유 폴더에 액세스할 수 있어야 합니다.<p>연결 소유자의 전자 메일 주소를 사용하려면 이 필드를 비워 둡니다.</p></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 초안 메시지 ID]</td> 
@@ -421,6 +525,10 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
    <td> <p>연결에 대한 자세한 내용 [!DNL Office 365] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 보내는 사람 이메일 주소]</td> 
+   <td> <p> 공유 전자 메일 주소를 사용하려면 여기에 주소를 입력하십시오. 이 모듈에 사용되는 연결에 자격 증명을 사용하는 사용자는 공유 폴더에 액세스할 수 있어야 합니다.<p>연결 소유자의 전자 메일 주소를 사용하려면 이 필드를 비워 둡니다.</p></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 메시지 ID 입력]</td> 
@@ -488,31 +596,8 @@ ht-degree: 0%
 
 ### 첨부 파일
 
-* [[!UICONTROL 첨부 파일 나열]](#list-attachments)
 * [[!UICONTROL 첨부 파일 다운로드]](#download-an-attachment)
-
-#### [!UICONTROL 첨부 파일 나열]
-
-이 모듈은 지정된 메시지에 속하는 첨부 파일 목록을 검색합니다.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Office 365] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 메시지 ID]</td> 
-   <td> <p> 첨부 파일을 가져올 메시지의 ID를 선택하거나 매핑합니다.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 제한]</td> 
-   <td> <p>각 시나리오 실행 주기 동안 모듈이 반환할 최대 첨부 파일 수를 입력하거나 매핑합니다.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+* [[!UICONTROL 첨부 파일 나열]](#list-attachments)
 
 #### [!UICONTROL 첨부 파일 다운로드]
 
@@ -527,6 +612,10 @@ ht-degree: 0%
    <td> <p>연결에 대한 자세한 내용 [!DNL Office 365] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></p> </td> 
   </tr> 
   <tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 보내는 사람 이메일 주소]</td> 
+   <td> <p> 공유 전자 메일 주소를 사용하려면 여기에 주소를 입력하십시오. 이 모듈에 사용되는 연결에 자격 증명을 사용하는 사용자는 공유 폴더에 액세스할 수 있어야 합니다.<p>연결 소유자의 전자 메일 주소를 사용하려면 이 필드를 비워 둡니다.</p></p> </td> 
+  </tr> 
    <td role="rowheader">[!UICONTROL 메시지 ID]</td> 
    <td> <p> 다운로드하려는 첨부 파일이 포함된 메시지의 ID를 선택하거나 매핑합니다.</p> </td> 
   </tr> 
@@ -537,10 +626,64 @@ ht-degree: 0%
  </tbody> 
 </table>
 
+#### [!UICONTROL 첨부 파일 나열]
+
+이 모듈은 지정된 메시지에 속하는 첨부 파일 목록을 검색합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>연결에 대한 자세한 내용 [!DNL Office 365] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 보내는 사람 이메일 주소]</td> 
+   <td> <p> 공유 전자 메일 주소를 사용하려면 여기에 주소를 입력하십시오. 이 모듈에 사용되는 연결에 자격 증명을 사용하는 사용자는 공유 폴더에 액세스할 수 있어야 합니다.<p>연결 소유자의 전자 메일 주소를 사용하려면 이 필드를 비워 둡니다.</p></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 메시지 ID]</td> 
+   <td> <p> 첨부 파일을 가져올 메시지의 ID를 선택하거나 매핑합니다.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 제한]</td> 
+   <td> <p>각 시나리오 실행 주기 동안 모듈이 반환할 최대 첨부 파일 수를 입력하거나 매핑합니다.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 ### 기타
 
-* [[!UICONTROL API 호출 만들기]](#make-an-api-call)
 * [[!UICONTROL 첨부 파일 추가]](#add-an-attachment)
+* [[!UICONTROL API 호출 만들기]](#make-an-api-call)
+
+#### [!UICONTROL 첨부 파일 추가]
+
+이 모듈은 메시지에 큰 첨부 파일을 추가합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>연결에 대한 자세한 내용 [!DNL Office 365] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 보내는 사람 이메일 주소]</td> 
+   <td> <p> 공유 전자 메일 주소를 사용하려면 여기에 주소를 입력하십시오. 이 모듈에 사용되는 연결에 자격 증명을 사용하는 사용자는 공유 폴더에 액세스할 수 있어야 합니다.<p>연결 소유자의 전자 메일 주소를 사용하려면 이 필드를 비워 둡니다.</p></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 메시지 ID]</td> 
+   <td> <p> 첨부 파일을 추가할 메시지의 ID를 선택하거나 매핑합니다.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Source 파일]</td> 
+   <td> <p>이전 모듈에서 파일을 선택하거나 소스 파일의 이름과 데이터를 매핑합니다.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 #### [!UICONTROL API 호출 만들기]
 
@@ -576,29 +719,6 @@ ht-degree: 0%
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL 첨부 파일 추가]
-
-이 모듈은 메시지에 큰 첨부 파일을 추가합니다.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Office 365] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 메시지 ID]</td> 
-   <td> <p> 첨부 파일을 추가할 메시지의 ID를 선택하거나 매핑합니다.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 소스 파일]</td> 
-   <td> <p>이전 모듈에서 파일을 선택하거나 소스 파일의 이름과 데이터를 매핑합니다.</p> </td> 
   </tr> 
  </tbody> 
 </table>
