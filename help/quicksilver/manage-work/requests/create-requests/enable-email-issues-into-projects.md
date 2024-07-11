@@ -6,7 +6,7 @@ description: 사용자가 문제를 요청 대기열 프로젝트에 이메일�
 author: Alina
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: dad055b0901cfa8114f7f6b13b6f689d70b31205
+source-git-commit: 9cda6fd41ba7fcb9b9f412a7c2b7ffd39f3fe189
 workflow-type: tm+mt
 source-wordcount: '817'
 ht-degree: 0%
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 1. 이메일을 통해 문제를 수신할 수 있도록 활성화할 프로젝트로 이동합니다.
 1. 클릭 **대기열 세부 정보** 왼쪽 패널에서 다음을 클릭해야 할 수 있습니다. **더 보기** 첫 번째.
-1. 다음에서 **대기열 유형** 영역, 선택 **도움말 요청 대기열로 게시**.
+1. 다음에서 **대기열 유형** 영역, 선택 **도움말 요청 대기열로 Publish**.
 
 1. 아래로 스크롤하여 **이메일 대기열 설정** 영역을 선택한 다음 을 선택합니다. **이메일을 통한 요청 접수 활성화**.
 
