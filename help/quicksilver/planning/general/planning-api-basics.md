@@ -4,9 +4,9 @@ description: Adobe Workfront Planning API의 목표는 HTTP를 통해 작동하�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: b50d2746fe6ab0155d0385b92227b203a9eb7fd6
+source-git-commit: ebdcb8ee2a6efe96c77f863e85f8911d20ab1dd4
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '939'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ Workfront Planning 스키마에 익숙하면 통합 목적으로 Workfront Plann
 
 표준 HTTP 메서드는 다음 작업에 해당합니다.
 
-* **GET** - ID로 개체를 검색하거나, 쿼리로 모든 개체를 검색하거나, 보고서를 실행하거나, 명명된 쿼리를 실행합니다.
+* **GET** - ID별로 개체를 검색하고 쿼리별로 모든 개체를 검색합니다.
 * **POST** - 새 개체를 삽입합니다.
 * **PUT** - 기존 개체를 편집합니다.
 * **DELETE** - 오브젝트 삭제
