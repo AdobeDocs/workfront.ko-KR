@@ -1,21 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: 문서에 승인자 또는 검토자 추가
+title: 에셋 또는 문서에 승인자 또는 검토자 추가
 description: 이미 보류 중인 승인이 있는 문서에 승인자 또는 검토자를 추가할 수 있습니다.
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: f3d94dff-a855-44ae-9e85-1dcbc4d417a0
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: d01a26eaa43b264d11faa88c750f48f0ef1272c4
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
 
-# 문서에 승인자 또는 검토자 추가
+# 에셋 또는 문서에 승인자 또는 검토자 추가
 
-이미 보류 중인 승인이 있는 문서에 승인자 또는 검토자를 추가할 수 있습니다.
+이미 보류 중인 승인이 있는 에셋 또는 문서에 승인자 또는 검토자를 추가할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -31,7 +31,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 &#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
 
-## 문서 페이지에서 추가 승인자 또는 검토자 추가
+## 문서 세부 정보 페이지에서 추가 승인자 또는 검토자 추가
 
 1. 문서 이름을 클릭하여 문서 페이지로 이동한 다음 버전 드롭다운에서 승인자나 검토자를 추가하려는 문서 버전을 선택합니다. 기본적으로 최신 버전이 선택됩니다.
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 1. 이전 단계를 반복하여 승인자 또는 검토자를 추가합니다.
 
-## 문서 요약 창에서 승인자 또는 검토자 추가
+## 문서 요약에서 승인자 또는 검토자 추가
 
 1. 문서가 포함된 프로젝트, 작업 또는 문제로 이동한 다음 선택 **문서**.
 

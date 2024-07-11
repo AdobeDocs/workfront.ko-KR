@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 1c9deb747ee9e9598949bcd0b64513b222fa0bc1
+source-git-commit: 04e81c6f3b2e34c9951203b6a9b3c06ed1977f54
 workflow-type: tm+mt
-source-wordcount: '14395'
+source-wordcount: '14434'
 ht-degree: 1%
 
 ---
@@ -1820,22 +1820,22 @@ ht-degree: 1%
       * [승인 요청 위임](review-and-approve-work/manage-approvals/delegate-approval-requests.md)
       * [신규 또는 기존 승인 프로세스를 작업과 연결](review-and-approve-work/manage-approvals/associate-approval-with-work.md)
       * [제출된 승인 회수](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
-   * 문서 검토 및 승인 {#document-reviews-and-approvals}
-      * [문서 검토 및 승인](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
+   * 자산 및 문서 검토 및 승인 {#document-reviews-and-approvals}
+      * [자산 및 문서 검토 및 승인: 문서 색인](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * [문서 승인 개요](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
+      * [문서 의사 결정 상태 개요](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
       * [Frame.io로 자산 검토 및 승인 시작](review-and-approve-work/document-reviews-and-approvals/frame-wf-get-started.md)
-      * 문서 검토 {#review-and-approve-documents}
-         * [문서 검토: 문서 색인](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
-         * [문서 검토](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
-         * [Workfront 및 Frame.io 연결](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/connect-frame-and-wf.md)
-         * [연결된 Workfront 프로젝트에 Frame.io 자산 추가](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/add-frame-asset-to-connected-project.md)
-      * 문서 승인 {#approve-documents}
-         * [문서 승인: 문서 색인](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/approve-documents-toc.md)
+      * [자산 및 문서 승인 설정 및 관리]{#manage-asset-review-and-approval}
+         * [자산 및 문서 승인 설정 및 관리: 문서 색인](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
          * [문서 검토 또는 승인 요청 만들기](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
-         * [문서에 추가 검토자 또는 승인자 추가](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
-         * [문서에서 승인자 또는 검토자 제거](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
-         * [승인 템플릿 만들기](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
-         * [문서 결정 상태](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
+         * [Frame.io 자산에 대한 검토 또는 승인 요청을 만듭니다.](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-request-for-frame-asset.md)
+         * [에셋 또는 문서에 추가 검토자 또는 승인자 추가](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
+         * [에셋 또는 문서에서 승인자 또는 검토자 제거](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
+         * [자산 및 문서에 대한 승인 템플릿 만들기](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
+         * [연결된 Workfront 프로젝트에 Frame.io 자산 추가](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/add-frame-asset-to-connected-project.md)
+      * 에셋 및 문서 승인 및 검토 {#review-and-approve-documents}
+         * [문서 승인 및 검토: 문서 색인](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
+         * [문서 검토](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
          * [문서 승인](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
    * 증명 {#proofing}
       * [증명: 문서 색인](review-and-approve-work/proofing/proofing.md)

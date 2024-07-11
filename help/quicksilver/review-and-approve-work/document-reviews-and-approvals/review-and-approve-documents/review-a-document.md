@@ -1,19 +1,19 @@
 ---
 product-area: projects
 navigation-topic: approvals
-title: 문서 검토
+title: Workfront에서 문서 검토
 description: 검토자는 검토를 위해 제출한 문서를 미리 볼 수 있습니다.
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
-source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
+source-git-commit: 50a38ad915b639bf742a4b1f18bcb4da88e07d63
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
 
-# 문서 검토
+# Workfront에서 문서 검토
 
 검토자는 검토를 위해 제출한 문서를 볼 수 있습니다. 승인과 달리, 결정을 내리지 않습니다. 대신 에셋을 검토했음을 확인합니다.
 

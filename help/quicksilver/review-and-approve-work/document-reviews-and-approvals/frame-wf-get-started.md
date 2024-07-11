@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 68b91aad-af76-473f-861d-da846fdfb84c
-source-git-commit: a1ffd3ff488e06a10c9b418360906146c9cb3c99
+source-git-commit: d01a26eaa43b264d11faa88c750f48f0ef1272c4
 workflow-type: tm+mt
-source-wordcount: '1149'
+source-wordcount: '1152'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ Frame.io에 대한 자세한 내용은 [프로젝트에 공동 작업자로 초�
 
 * **일회용 승인**: 에셋이 있는 프로젝트 또는 작업에서 프로젝트 코디네이터는 검토자와 승인자를 할당하고 완료 기한을 설정할 수 있습니다. 검토자와 승인자는 기한 자체뿐만 아니라 기한 72시간 및 24시간 전에 이메일로 알림을 받습니다.
 
-  자세한 내용은 [문서 검토 또는 승인 요청 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md). <!--I think this needs to be renamed? -->
+  자세한 내용은 * 를 참조하십시오. [Frame.io 자산에 대한 검토 또는 승인 요청을 만듭니다.](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-request-for-frame-asset.md).
 
 * **승인 템플릿**: Workfront 설정 영역에서 프로젝트 코디네이터는 재생성 가능한 승인 템플릿을 만들 수 있습니다. 템플릿 내에서 검토자와 승인자를 추가하고 완료 기간을 지정할 수 있습니다. 승인 템플릿이 에셋에 적용되면 기한은 지정된 시간대에서 계산됩니다.
 

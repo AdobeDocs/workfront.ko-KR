@@ -1,19 +1,19 @@
 ---
 product-area: projects
 navigation-topic: approvals
-title: 문서 승인
+title: Workfront에서 문서 승인
 description: 문서의 승인자로 할당된 경우 여러 가지 방법으로 승인 결정을 내릴 수 있습니다.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
-source-git-commit: e8116a6778d5952ba583cfdfb94b761757adc030
+source-git-commit: 50a38ad915b639bf742a4b1f18bcb4da88e07d63
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1067'
 ht-degree: 0%
 
 ---
 
-# 문서 승인
+# Workfront에서 문서 승인
 
 문서의 승인자로 할당된 경우 여러 가지 방법으로 승인 결정을 내릴 수 있습니다.
 

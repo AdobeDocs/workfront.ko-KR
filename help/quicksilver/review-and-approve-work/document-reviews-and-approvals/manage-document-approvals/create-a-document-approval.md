@@ -6,7 +6,7 @@ description: Adobe Workfront에서 문서에 대한 다른 사용자의 승인�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: 6daf68aee442b3322d186e649e7797cc2e911145
+source-git-commit: 66f3b53a06147d531e5e700857ca88219c2d4109
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Adobe Workfront에서 문서에 대한 다른 사용자 또는 팀의 승인을 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
+   <td role="rowheader">Adobe Workfront 라이센스*</td>  
    <td> <p>검토 이상</p> </td> 
   </tr> 
   <tr> 

@@ -1,19 +1,19 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: 승인 템플릿 만들기
+title: 자산 및 문서에 대한 승인 템플릿 만들기
 description: 승인 템플릿을 만들어 승인 프로세스를 간소화할 수 있습니다.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
-source-git-commit: 0d828f8dd316c332b98066a9bb797c534eeace3d
+source-git-commit: 04e81c6f3b2e34c9951203b6a9b3c06ed1977f54
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '236'
 ht-degree: 2%
 
 ---
 
-# 승인 템플릿 만들기
+# 자산 및 문서에 대한 승인 템플릿 만들기
 
 <span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
 

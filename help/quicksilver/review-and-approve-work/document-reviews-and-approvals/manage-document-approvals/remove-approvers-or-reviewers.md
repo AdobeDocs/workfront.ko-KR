@@ -1,21 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: 문서에서 승인자 또는 검토자 제거
+title: 에셋 또는 문서에서 승인자 또는 검토자 제거
 description: 문서에서 개별 승인자 또는 검토자를 제거할 수 있습니다.
-author: Nolan
+author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6877ee90-9a70-4616-98f4-4b0ff932d79a
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 50a38ad915b639bf742a4b1f18bcb4da88e07d63
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
 
-# 문서에서 승인자 또는 검토자 제거
+# 에셋 또는 문서에서 승인자 또는 검토자 제거
 
-문서에 승인자 또는 검토자가 할당되면 문서에서 해당 승인자 또는 검토자를 제거할 수 있습니다.
+에셋 또는 문서에 할당된 개별 승인자 또는 검토자를 제거할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -31,7 +31,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 &#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
 
-## 문서 페이지에서 승인자 또는 검토자 제거
+## 문서 세부 정보 페이지에서 승인자 또는 검토자 제거
 
 1. 문서 이름을 클릭하여 문서 페이지로 이동한 다음 버전 드롭다운에서 승인을 제거할 문서의 버전을 선택합니다. 기본적으로 최신 버전이 선택됩니다.
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 1. 이전 단계를 반복하여 추가 승인자 또는 검토자를 제거합니다.
 
-## 문서 요약 창에서 승인자 또는 검토자 제거
+## 문서 요약에서 승인자 또는 검토자 제거
 
 1. 문서가 포함된 프로젝트, 작업 또는 문제로 이동한 다음 선택 **문서**.
 

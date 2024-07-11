@@ -6,9 +6,9 @@ description: 광고 팀은 검토해야 하는 에셋을 Frame.io에 추가하�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f196e56f-6e67-4d54-b36d-83bb4a3ae681
-source-git-commit: cf5e96fc1d0b2f17dcbc6f99dba2d11cc9161103
+source-git-commit: a343b8822523d48ca717c87f9ca4c51ca76abc57
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -55,11 +55,7 @@ ht-degree: 0%
 
 ## 전제 조건
 
-* Frame.io 팀에 연결된 Workfront 그룹이 있어야 합니다.
-* Frame.io 프로젝트에 연결된 Workfront 프로젝트가 있어야 하며 Frame.io에 대해 활성화된 Workfront 작업에 사용자로 추가되어야 합니다.
-
-자세한 내용은 [Workfront 및 Frame.io를 연결합니다.](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/connect-frame-and-wf.md)
-
+* Workfront 및 Frame.io 통합을 구성해야 합니다. 자세한 내용은 [Workfront 및 Frame.io 통합 구성](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md).
 
 ## 연결된 Workfront 프로젝트에 Frame.io 자산 추가
 
