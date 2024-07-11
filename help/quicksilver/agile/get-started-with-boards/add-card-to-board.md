@@ -6,9 +6,9 @@ description: Ad Hoc 카드를 보드에 빠르게 추가하고 보드에 있는 
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: 5c093edc97afdbd1d88824376ce4b019f71e099f
+source-git-commit: 61eb51d458caebbb144112ad697f98f019f54918
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '888'
 ht-degree: 0%
 
 ---
@@ -106,7 +106,7 @@ Ad Hoc 카드가 의 작업 항목에 연결되어 있지 않습니다. [!DNL Ad
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Comments]</strong></td>
-      <td><p>을(를) 클릭합니다. <strong>[!UICONTROL 새 주석]</strong> 필드에 댓글을 입력합니다. 서식 도구를 사용하여 텍스트 서식을 지정합니다. 사용자 또는 팀에 태그를 지정하려면 댓글 영역 하단에 있는 검색 상자를 사용합니다. 사용자는 보드에서 멤버일 필요가 없습니다.</p><p><strong>참고:</strong> 현재 Ad Hoc 카드에 댓글을 태그 지정한 사용자는 이메일 알림을 받지 못합니다.
+      <td><p>을(를) 클릭합니다. <strong>[!UICONTROL 새 주석]</strong> 필드에 댓글을 입력합니다. 서식 도구를 사용하여 텍스트 서식을 지정합니다. (이미지는 임시 카드의 주석에서 사용할 수 없습니다.) 사용자 또는 팀에 태그를 지정하려면 댓글 영역 하단에 있는 검색 상자를 사용합니다. 사용자는 보드에서 멤버일 필요가 없습니다.</p><p><strong>참고:</strong> 현재 Ad Hoc 카드에 댓글을 태그 지정한 사용자는 이메일 알림을 받지 못합니다.
       </p><p>클릭 <strong>[!UICONTROL Submit]</strong> 주석을 카드에 추가합니다.</p>
       <p>댓글에 대한 자세한 내용은 <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">작업 업데이트</a>.</p></td>
      </tr>
