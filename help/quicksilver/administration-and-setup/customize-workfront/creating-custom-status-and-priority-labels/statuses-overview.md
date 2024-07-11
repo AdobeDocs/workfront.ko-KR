@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0fa2f445-be8e-405f-864a-dbc4726d096b
-source-git-commit: 81118e794dca746b482b8355c24fa997a9f0edc9
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,17 @@ ht-degree: 0%
 예를 들어 이 프로젝트에서 &#39;계획 중&#39; 상태는 프로젝트 관리자가 현재 프로젝트의 타임라인, 작업 할당 및 승인과 같은 측면을 계획 중임을 나타냅니다.
 
 ![샘플 프로젝트 상태](assets/statuses-overview.png)
+
+상태를 보려면 프로젝트, 작업 또는 문제에 대해 다음 액세스 및 권한이 있어야 합니다.
+
+* 프로젝트, 작업 및 문제에 대한 액세스 수준에서 보기 이상의 액세스 권한
+* 오브젝트에 대한 보기 이상의 권한
+
+프로젝트, 작업 또는 문제의 상태를 수동으로 변경하려면 다음과 같은 액세스 및 권한이 있어야 합니다.
+
+* 프로젝트, 작업 및 문제에 대한 액세스 수준에서 액세스 편집
+* 작업 또는 문제에 대한 Contribute 이상 권한
+* 프로젝트에 대한 권한을 관리합니다.
 
 일반적으로 프로젝트, 작업 또는 문제의 상태를 변경하는 것은 수동 프로세스입니다. 그러나 시스템에서 발생하는 다른 요인에 따라 문제의 상태가 자동으로 변경되는 경우가 있습니다.
 

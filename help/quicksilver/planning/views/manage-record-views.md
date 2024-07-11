@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1113'
 ht-degree: 1%
 
 ---
@@ -44,6 +44,8 @@ Adobe Workfront Planning 영역에서 레코드 유형을 선택한 후 다음 �
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
+<!--at GA the plan below will change to Prime, Select and Ultimate only-->
+
 <table style="table-layout:auto">
  <col>
  </col>
@@ -69,32 +71,37 @@ Adobe Workfront Planning 영역에서 레코드 유형을 선택한 후 다음 �
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront 라이선스</p></td>
+   <td role="rowheader"><p>Adobe Workfront 라이센스*</p></td>
    <td>
-   <p>임의</p> 
-   <p>시스템 관리자는 자신이 만들었거나 자신과 공유된 보기에만 액세스할 수 있습니다. </p>
+   <p>새로운 기능: 표준</p>
+   또는
+   <p>현재: 플랜 </p> 
   </td>
   </tr>
 
 <tr>
-   <td role="rowheader">액세스 수준 구성</td>
-   <td> <p>Workfront Planning에 대한 액세스 수준 제어가 없습니다.</p>  
+   <td role="rowheader"><p>액세스 수준 구성</p></td>
+   <td> Adobe Workfront Planning에 대한 액세스 제어가 없습니다.</p>  
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>권한</p></td>
    <td> <p>보기에 대한 권한 관리</p>  
+   <p>보기에 대한 권한을 보고 일시적으로 보기 설정 변경</p>
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader">레이아웃 템플릿</td>
-   <td> <p>시스템 관리자가 레이아웃 템플릿에 계획 영역을 추가해야 합니다. 자세한 내용은 <a href="/help/quicksilver/planning/access/access-overview.md">액세스 개요</a>. </p>  
+   <td role="rowheader"><p>레이아웃 템플릿</p></td>
+   <td> <p>Workfront 관리자를 포함한 모든 사용자에게 메인 메뉴의 계획 영역을 포함하는 레이아웃 템플릿을 할당해야 합니다. </p> <p>자세한 내용은 <a href="/help/quicksilver/planning/access/access-overview.md">액세스 개요</a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
+
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 ## 레코드 보기 작업 시 고려 사항
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 64f187ed78b69db9b9ac0259e96ef0bf47abf4f4
+source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '658'
 ht-degree: 1%
 
 ---
@@ -115,10 +115,8 @@ ht-degree: 1%
 1. Workfront 프로젝트, 포트폴리오 또는 프로그램에 연결된 레코드 유형의 카드를 클릭합니다.
 1. 테이블 보기 또는 레코드의 세부 사항 페이지에서 Workfront 개체와 연결된 연결된 레코드 필드로 이동합니다. 자세한 내용은 [레코드 연결](/help/quicksilver/planning/records/connect-records.md).
 1. 연결된 레코드 필드에서 Workfront 개체의 이름을 클릭합니다.
-개체의 페이지가 Workfront Planning에서 열립니다.
-1. 클릭 **소스로 이동**&#x200B;을 클릭합니다.
+개체의 페이지가 Workfront에서 열립니다.
 
-   개체의 페이지가 Workfront에서 열립니다.
 1. 클릭 **계획 수립** 왼쪽 패널에서
 
    >[!NOTE]

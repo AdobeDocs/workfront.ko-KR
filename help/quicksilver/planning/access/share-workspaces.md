@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 3856e56036a9845387d7dc6498a6f20728c8234a
+source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '412'
 ht-degree: 2%
 
 ---
@@ -55,7 +55,7 @@ Adobe Workfront Planning에서 작업할 때 공동 작업을 보장하기 위�
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront 라이선스</p></td>
+   <td role="rowheader"><p>Adobe Workfront 라이센스*</p></td>
    <td>
    <p>새로운 기능: 표준</p>
    또는
@@ -82,6 +82,8 @@ Adobe Workfront Planning에서 작업할 때 공동 작업을 보장하기 위�
   </tr>
  </tbody>
 </table>
+
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 작업 공간에 대한 권한 공유
 

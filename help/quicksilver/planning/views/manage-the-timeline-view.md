@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '1764'
+source-wordcount: '1880'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,8 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 타�
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
+<!--at GA the plan below will change to Prime, Select and Ultimate only-->
+
 <table style="table-layout:auto">
  <col>
  </col>
@@ -61,32 +63,36 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 타�
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront 라이선스</p></td>
+   <td role="rowheader"><p>Adobe Workfront 라이센스*</p></td>
    <td>
-   <p>임의</p> 
-   <p>시스템 관리자는 자신이 만들었거나 자신과 공유된 보기에만 액세스할 수 있습니다. </p>
+   <p>새로운 기능: 표준</p>
+   또는
+   <p>현재: 플랜 </p> 
   </td>
   </tr>
 
 <tr>
-   <td role="rowheader">액세스 수준 구성</td>
-   <td> <p>Adobe Workfront Planning에 대한 액세스 수준 제어가 없습니다. </p>  
+   <td role="rowheader"><p>액세스 수준 구성</p></td>
+   <td> Adobe Workfront Planning에 대한 액세스 제어가 없습니다.</p>  
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>권한</p></td>
    <td> <p>보기에 대한 권한 관리</p>  
+   <p>보기에 대한 권한을 보고 일시적으로 보기 설정 변경</p>
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader">레이아웃 템플릿</td>
-   <td> <p>시스템 관리자가 레이아웃 템플릿에 계획 영역을 추가해야 합니다. 자세한 내용은 <a href="/help/quicksilver/planning/access/access-overview.md">액세스 개요</a>. </p>  
+   <td role="rowheader"><p>레이아웃 템플릿</p></td>
+   <td> <p>Workfront 관리자를 포함한 모든 사용자에게 메인 메뉴의 계획 영역을 포함하는 레이아웃 템플릿을 할당해야 합니다. </p> <p>자세한 내용은 <a href="/help/quicksilver/planning/access/access-overview.md">액세스 개요</a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
+
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## 타임라인 보기 관리 {#manage-a-timeline-view}
@@ -179,7 +185,9 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 타�
 
   자세한 내용은 문서의 &quot;필터 추가&quot; 섹션을 참조하십시오 [표 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md).
 
-* 연결된 레코드 필드나 조회 필드를 기준으로 필터링할 수 있지만 여러 레코드에 연결할 수 있는 필드는 필터링할 수 없습니다.
+* 연결된 레코드 필드 또는 조회 필드를 기준으로 필터링할 수 있습니다.
+* 여러 값을 표시하는 조회 필드를 기준으로 필터링할 수 있습니다.
+
 
 ### 그룹화 추가
 
@@ -193,11 +201,16 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 타�
 
 * 표 및 타임라인 보기에서 그룹화를 적용할 수 있습니다. 테이블 보기의 그룹화는 동일한 레코드 유형의 타임라인 보기의 그룹화와는 독립적입니다.
 * 보기에서 3가지 수준의 그룹화를 적용할 수 있습니다. 선택한 그룹화 순서대로 레코드가 그룹화됩니다.
-* API 사용 시 최대 4가지 수준의 그룹화를 적용할 수 있습니다.
-* 그룹화는 선택하는 보기에 대해 고유합니다. 동일한 레코드 종류의 두 타임라인 보기에는 서로 다른 그룹화가 적용될 수 있습니다. 동일한 타임라인 보기를 보고 있는 두 명의 사용자에게 현재 적용된 동일한 그룹화가 표시됩니다.
-* 타임라인 보기를 위해 빌드하는 그룹화의 이름을 지정할 수 없습니다.
+&lt;!—* API를 사용할 때 최대 4가지 수준의 그룹화를 적용할 수 있습니다. —현재 이 항목을 확인하고 있습니다—>
+* 그룹화는 선택하는 보기에 대해 고유합니다. 동일한 레코드 종류의 두 테이블 보기에는 서로 다른 그룹화가 적용될 수 있습니다. 동일한 테이블 보기를 보는 두 명의 사용자에게 현재 적용된 동일한 그룹화가 표시됩니다.
+* 테이블 보기에 대해 빌드하는 그룹화의 이름을 지정할 수 없습니다.
 * 그룹화를 제거하면 사용자와 동일한 레코드 유형에 액세스하거나 사용자와 동일한 보기를 표시하는 모든 사용자에게서 그룹화가 제거됩니다.
-* 연결된 레코드 필드나 조회 필드를 기준으로 그룹화할 수 있지만 여러 레코드에 연결할 수 있는 필드는 그룹화할 수 없습니다.
+* 그룹화 아래에 나열된 레코드를 편집할 수 있습니다.
+* 연결된 레코드 필드 또는 조회 필드를 기준으로 그룹화할 수 있습니다.
+* 집계자가 요약하지 않은 여러 값이 있는 조회 필드를 기준으로 그룹화하면, 레코드는 각 필드 값의 고유한 조합으로 그룹화됩니다.
+* 현재 레코드 유형에서 최대 4개 수준까지 떨어진 필드를 참조할 수 있습니다. 예를 들어, 활동 레코드 유형에 대한 그룹화를 만드는 중에 활동이 Workfront 프로젝트에 연결된 캠페인 레코드 유형에 연결된 제품 레코드 유형에 연결된 경우, 활동 레코드 유형에 대해 만들고 있는 그룹화에서 프로젝트의 상태를 참조할 수 있습니다.
+<!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
+<!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 
 타임라인 보기에서 그룹화를 추가하려면 다음을 수행합니다.
 

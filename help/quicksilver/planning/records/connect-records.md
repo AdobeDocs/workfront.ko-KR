@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: b63b9bcd88eaf70c629dde264656d45567896f2e
+source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
 workflow-type: tm+mt
-source-wordcount: '2585'
+source-wordcount: '2512'
 ht-degree: 1%
 
 ---
@@ -288,19 +288,13 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
 
 1. (선택 사항) 테이블 보기의 연결된 필드 또는 레코드 페이지의 연결된 필드에서 Workfront Planning 레코드에 연결된 Workfront 개체의 이름을 클릭합니다.
 
-   연결된 Workfront 개체에 대한 읽기 전용 Workfront Planning 레코드 페이지가 열립니다. 레코드 유형을 Workfront 개체와 연결할 때 조회 필드로 선택한 필드가 Workfront Planning 레코드 페이지에 표시됩니다.
+   이 경우 객체에 대한 보기 권한이 적어도 있으면 Workfront에서 Workfront 객체가 열립니다.
 
    >[!TIP]
    >
    >* 여러 레코드 허용 설정을 사용하면 조회 필드 값이 쉼표로 구분되어 표시되거나 선택한 집계기에 따라 집계됩니다.
    >
    >* Workfront의 연결된 Workfront 개체에 대해 연결된 레코드 필드가 만들어지지 않습니다.
-
-1. (선택 사항) Workfront에서 연결된 Workfront 개체를 열려면 **소스로 이동** Workfront 개체의 레코드 페이지의 오른쪽 상단 모서리에서 참조할 수 있습니다.
-
-   ![](assets/workfront-project-maestro-details-page-with-go-to-source-link.png)
-
-   적어도 개체를 볼 수 있는 보기 권한이 있는 경우 Workfront 개체 페이지가 열립니다. 권한이 있는 경우 Workfront 개체에 대한 정보를 편집할 수 있습니다.
 
 1. (선택 사항) 레코드 유형의 테이블 보기에서 연결된 Workfront 개체의 열 헤더를 마우스로 가리킨 다음 드롭다운 메뉴를 클릭한 다음 **조회 필드 편집**.
 
@@ -345,7 +339,7 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
    >
    >  다음을 추가할 수 있습니다. **+** 레코드 페이지의 연결된 개체 필드에 있는 아이콘으로 자산을 레코드에 연결합니다.
 
-   다음 **에셋 선택** 상자가 표시됩니다. <!--we might change this to Connect assets-->
+   다음 **Assets 선택** 상자가 표시됩니다. <!--we might change this to Connect assets-->
 
    ![](assets/select-assets-box-for-aem-record-connections.png)
 
@@ -391,7 +385,7 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
    * 제작일
    * 수정일
 
-1. (선택 사항) Experience Manager에서 에셋 레코드 Experience Manager 페이지를 열려면 연결하려는 레코드의 레코드 유형 페이지로 이동하고 연결된 레코드 필드에서 에셋 이름을 클릭하여 팝업 창을 연 다음 **열기** 아이콘 ![](assets/open-asset-icon.png) 를 클릭하여 자산을 엽니다.
+1. (선택 사항) Experience Manager에서 에셋 레코드 Experience Manager 페이지를 열려면 연결하려는 레코드의 레코드 유형 페이지로 이동하고 연결된 레코드 필드에서 에셋 이름을 클릭하여 팝업 창을 연 다음 **AEM에서 열기** 아이콘 ![](assets/open-asset-icon.png) 를 클릭하여 자산을 엽니다.
 
    이렇게 하면 Adobe Experience Manager Assets에서 Experience Manager 에셋이 열립니다.
 
@@ -403,7 +397,7 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
 
    에서 Workfront 개체 필드 제거 **선택된 필드** 영역입니다.
 
-   이렇게 하면 레코드에서 연결된 필드가 추가되거나 제거됩니다. 제거된 필드와 관련된 정보는 Experience Assets Adobe에 유지됩니다.
+   이렇게 하면 레코드에서 연결된 필드가 추가되거나 제거됩니다. 제거된 필드와 관련된 정보는 Experience Assets Adobe에 남아 있습니다.
 
 ## Workfront 개체에서 레코드 연결
 

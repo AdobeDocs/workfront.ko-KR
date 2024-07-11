@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: a923d86f78e6dab4705289a8165c4b31ff68b5a2
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 0%
+source-wordcount: '565'
+ht-degree: 1%
 
 ---
 
@@ -30,11 +30,9 @@ hide: yes
 
 레코드 유형 페이지에서 레코드와 해당 필드를 달력 보기에 표시할 수 있습니다.
 
-Adobe Workfront Planning 기능 보기 및 관리 방법에 대한 자세한 내용은 다음을 참조하십시오. [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md).
+Adobe Workfront Planning 보기 및 관리 방법에 대한 자세한 내용은 [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md).
 
-## 액세스 요구 사항
-
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
+<!--at GA the plan below will change to Prime, Select and Ultimate only-->
 
 <table style="table-layout:auto">
  <col>
@@ -61,33 +59,36 @@ Adobe Workfront Planning 기능 보기 및 관리 방법에 대한 자세한 내
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront 라이선스</p></td>
+   <td role="rowheader"><p>Adobe Workfront 라이센스*</p></td>
    <td>
-   <p>임의</p> 
-   <p>시스템 관리자는 자신이 만들었거나 자신과 공유된 보기에만 액세스할 수 있습니다. </p>
+   <p>새로운 기능: 표준</p>
+   또는
+   <p>현재: 플랜 </p> 
   </td>
   </tr>
 
 <tr>
-   <td role="rowheader">액세스 수준 구성</td>
-   <td> <p>Adobe Workfront Planning에 대한 액세스 수준 제어가 없습니다.</p>  
+   <td role="rowheader"><p>액세스 수준 구성</p></td>
+   <td> Adobe Workfront Planning에 대한 액세스 제어가 없습니다.</p>  
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>권한</p></td>
    <td> <p>보기에 대한 권한 관리</p>  
+   <p>보기에 대한 권한을 보고 일시적으로 보기 설정 변경</p>
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader">레이아웃 템플릿</td>
-   <td> <p>시스템 관리자가 레이아웃 템플릿에 계획 영역을 추가해야 합니다. 자세한 내용은 <a href="/help/quicksilver/planning/access/access-overview.md">액세스 개요</a>. </p>  
+   <td role="rowheader"><p>레이아웃 템플릿</p></td>
+   <td> <p>Workfront 관리자를 포함한 모든 사용자에게 메인 메뉴의 계획 영역을 포함하는 레이아웃 템플릿을 할당해야 합니다. </p> <p>자세한 내용은 <a href="/help/quicksilver/planning/access/access-overview.md">액세스 개요</a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
 
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 달력 보기 관리 {#manage-a-calendar-view}
 
@@ -148,4 +149,6 @@ Adobe Workfront Planning 기능 보기 및 관리 방법에 대한 자세한 내
 
   자세한 내용은 문서의 &quot;필터 추가&quot; 섹션을 참조하십시오 [표 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md).
 
-* 연결된 레코드 필드나 조회 필드를 기준으로 필터링할 수 있지만 여러 레코드에 연결할 수 있는 필드는 필터링할 수 없습니다.
+* 연결된 레코드 필드 또는 조회 필드를 기준으로 필터링할 수 있습니다.
+
+* 여러 값을 표시하는 조회 필드를 기준으로 필터링할 수 있습니다.

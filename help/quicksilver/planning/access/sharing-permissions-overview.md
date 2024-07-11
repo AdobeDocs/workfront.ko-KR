@@ -6,10 +6,10 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: dc8e6f730ec88fc66c3486987e064b5f0760fb80
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 7%
+source-wordcount: '692'
+ht-degree: 6%
 
 ---
 
@@ -69,12 +69,14 @@ Adobe Workfront Planning에서 작업 공간 또는 보기에 대한 권한을 �
 >
 >모든 사용자가 아래에 설명된 권한 수준을 가질 수 있는 것은 아닙니다. 사용자의 개별 라이선스는 Workfront Planning 개체에 대해 받을 수 있는 권한 수준을 결정합니다.
 >
->Standard(또는 Plan) 라이선스 사용자만 작업 공간에 대한 Contribute 또는 관리 권한을 가질 수 있습니다.
+>Standard(또는 Plan) 라이선스 사용자만 작업 공간에 대한 Contribute 또는 관리 권한 및 보기에 대한 관리 권한을 가질 수 있습니다.
+> 
+>다른 모든 라이선스 유형을 가진 사용자는 작업 공간 및 보기에 대한 보기 권한을 가질 수 있습니다.
 >
 >자세한 내용은 [Adobe Workfront Planning 사용 시 라이선스 유형 개요](/help/quicksilver/planning/access/license-type-overview.md).
 
 
-### 작업 공간 권한
+### Workspace 권한
 
 사용자가 다음 엔티티에 액세스할 수 있도록 하려면 작업 영역에 대한 권한을 사용자에게 부여해야 합니다.
 
@@ -157,7 +159,8 @@ Adobe Workfront Planning에서 작업 공간 또는 보기에 대한 권한을 �
 | 삭제 | ✓ 덧신 |       |                            |
 | 공유 | ✓ 덧신 |       |                           |
 | 보기 | ✓ 덧신 | ✓ 덧신 | ✓ 덧신 |
-| 적용 | ✓ 덧신 | ✓ 덧신 | ✓ 덧신 |
+| 보기 액세스 | ✓ 덧신 | ✓ 덧신 | ✓ 덧신 |
+| 임시 필터, 그룹화, 정렬 적용 | ✓ 덧신 | ✓ 덧신 | ✓ 덧신 |
 
 *이 보기 액세스 권한을 얻으려면 사용자에게 작업 영역에 대한 보기 이상의 권한이 있어야 합니다.
 

@@ -4,9 +4,9 @@ description: 현재 일부 Workfront 고객에게는 Adobe Workfront Planning �
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
+source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
 workflow-type: tm+mt
-source-wordcount: '2989'
+source-wordcount: '2988'
 ht-degree: 0%
 
 ---
@@ -236,7 +236,7 @@ Adobe Workfront Planning 기능 레코드에 대해 다음 필드 유형을 도�
 
 미리보기 및 프로덕션: 2023년 10월 31일
 
-이제 계획 기능의 다음 영역에서 Workfront 개체 페이지를 열 수 있습니다.
+이제 Workfront Planning의 다음 영역에서 Workfront 개체 페이지를 열 수 있습니다.
 
 * 읽기 전용으로 연결된 Workfront 개체 레코드 테이블 보기
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
 workflow-type: tm+mt
-source-wordcount: '1834'
+source-wordcount: '1801'
 ht-degree: 0%
 
 ---
@@ -130,7 +130,7 @@ Workfront Planning의 캠페인에 연결된 Workfront 프로젝트의 계획된
 
 방법은 다음과 같습니다.
 
-1. Campaign 기록 유형을 Workfront 프로젝트와 연결하려는 작업 영역으로 이동합니다.
+1. Campaign 기록 유형을 Workspace 프로젝트와 연결하려는 Workfront으로 이동합니다.
 1. 선택한 작업 영역에서 Campaign 레코드 유형에 대한 표 보기를 엽니다.
 1. 다음을 클릭합니다. **+** 테이블 보기의 오른쪽 위 모서리에 있는 아이콘을 클릭하여 새 필드를 추가한 다음 **새 연결**&#x200B;을 클릭한 다음 을 클릭합니다 **프로젝트** 다음에서 **Workfront 개체 유형** 섹션.
 1. 예를 들어 다음 정보를 추가합니다.
@@ -205,10 +205,7 @@ Workfront Planning의 캠페인에 연결된 Workfront 프로젝트의 계획된
 
 1. 연결된 레코드 필드에서 프로젝트 이름을 클릭합니다.
 
-   그러면 읽기 전용 Workfront Planning 프로젝트 페이지가 열립니다.
-프로젝트에 대한 정보를 검토합니다. 선택한 프로젝트 필드만 레코드의 페이지에 표시됩니다.
-
-1. 클릭 **소스로 이동** 프로젝트에 대한 보기 권한이 하나 이상 있는 경우 Workfront에서 프로젝트를 열 수 있도록 화면 오른쪽 상단에 표시됩니다.
+   프로젝트에 대해 최소 보기 권한이 있는 경우 Workfront에서 프로젝트가 열립니다.
 1. (선택 사항) 권한이 있는 경우 Workfront에서 프로젝트에 대한 정보를 업데이트합니다.
 
 1. (선택 사항) 캠페인 테이블 보기에서 **프로젝트 정보** 필드 헤더를 클릭하고 아래쪽 화살표를 클릭한 다음 **조회 필드를 편집합니다.**

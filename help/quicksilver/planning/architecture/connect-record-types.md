@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '2487'
+source-wordcount: '2515'
 ht-degree: 0%
 
 ---
@@ -156,10 +156,6 @@ Workfront Planning 레코드를 다른 애플리케이션의 객체에 연결하
 
       * 연결하는 레코드 종류에 연결된 레코드 필드가 만들어집니다. 연결된 레코드 필드는 다른 응용 프로그램의 개체 유형에 자동으로 만들어지지 않습니다.
 
-      * 실제 객체가 Workfront Planning 레코드에 연결되어 있는 경우에만 다른 응용 프로그램의 객체에 대해 새 Workfront Planning 읽기 전용 레코드 유형이 생성됩니다.
-
-        자세한 내용은 [레코드 연결](/help/quicksilver/planning/records/connect-records.md).
-
       * Workfront 오브젝트에서 Planning 레코드 필드에 액세스할 수 없습니다.
       * Workfront 관리자가 Workfront과 Adobe Experience Manager Assets 간의 통합을 통해 메타데이터 매핑을 구성할 때 Experience Manager 에셋에서 계획 레코드 필드에 액세스할 수 있습니다. 자세한 내용은 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 
@@ -274,7 +270,15 @@ Workfront Planning 레코드를 다른 애플리케이션의 객체에 연결하
 
 1. (선택 사항) **건너뛰기** 연결된 레코드나 개체 유형에서 필드 추가를 건너뜁니다. 다음 **이름** 또는 **제목** 연결된 레코드 중 는 사용자가 연결한 레코드 종류의 표 보기에서 볼 수 있는 유일한 필드입니다.
 
-1. (선택 사항 및 조건부) 숫자, 통화, 백분율 또는 날짜 유형 필드를 연결하도록 선택하는 경우 집계기 값도 선택합니다. 사용자가 연결된 레코드 필드에서 둘 이상의 연결된 레코드를 선택하면 연결된 필드의 값이 선택한 집계기에 따라 쉼표로 구분되거나 집계된 값으로 표시됩니다.
+1. (선택 사항 및 조건부) 숫자, 통화, 백분율 또는 날짜 유형 필드를 연결하도록 선택하는 경우 여러 값을 요약할 집계 값도 선택합니다. 사용자가 연결된 레코드 필드에서 둘 이상의 연결된 레코드를 선택하면 연결된 필드의 값이 선택한 집계기에 따라 쉼표로 구분되거나 요약된 값으로 표시됩니다.
+
+   조회 필드에 요약되지 않은 값이 여러 개 있는 경우 보기에서 정렬 또는 그룹화에 필드를 사용할 때 다음 사항을 고려하십시오.
+
+   * 정렬은 첫 번째 값으로 수행됩니다
+
+   * 레코드는 필드 값의 고유한 조합별로 그룹화됩니다
+
+   * 타임라인 보기는 첫 번째 날짜 값을 기반으로 빌드됩니다.
 
    >[!IMPORTANT]
    >
