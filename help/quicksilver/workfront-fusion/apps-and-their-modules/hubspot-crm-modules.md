@@ -4,9 +4,9 @@ description: 다음 [!DNL Adobe Workfront Fusion] HubSpot CRM 모듈을 사용�
 author: Becky
 feature: Workfront Fusion
 exl-id: d58e0c12-a798-495c-8f88-fbf2a532f8a4
-source-git-commit: 5bb394c2fffb4426d66a8b144802db8f7c97afe1
+source-git-commit: 1c56cf8aa9da7ec2644955d5533c71f60160d580
 workflow-type: tm+mt
-source-wordcount: '2582'
+source-wordcount: '2615'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,10 @@ ht-degree: 0%
 ## 연결 [!DNL Adobe Workfront Fusion] 끝 [!DNL HubSpot CRM]
 
 연결에 대한 자세한 내용 [!DNL HubSpot CRM] 계정 위치: [!DNL Workfront Fusion], 참조 [에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침](../../workfront-fusion/connections/connect-to-fusion-general.md)
+
+>[!NOTE]
+>
+>연결을 구성할 때 **HubSpot CRM** 연결 유형. HubSpot CRM(더 이상 사용되지 않음) 유형은 기존 연결을 지원하지만 새 연결을 만들 때는 사용하지 않는 것이 좋습니다.
 
 ## [!DNL HubSpot CRM] 모듈 및 해당 필드
 
