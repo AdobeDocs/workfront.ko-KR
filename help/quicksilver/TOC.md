@@ -3,7 +3,7 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 04e81c6f3b2e34c9951203b6a9b3c06ed1977f54
+source-git-commit: 496f5e6dcaab225ce48cecd291a0cf79f1dc1868
 workflow-type: tm+mt
 source-wordcount: '14434'
 ht-degree: 1%
@@ -13,7 +13,7 @@ ht-degree: 1%
 # Workfront 안내서 {#using}
 
 * [Workfront 설명서](home.md)
-* 제품 공지 {#product-announcements}
+* 제품 알림 {#product-announcements}
    * [제품 공지](product-announcements/product-announcements.md)
    * 제품 릴리스 {#product-releases}
       * [제품 릴리스 개요](product-announcements/product-releases/product-releases.md)
@@ -187,7 +187,7 @@ ht-degree: 1%
          * [Workfront Fusion 릴리스 활동: 2023년 5월 1일이 있는 주](product-announcements/product-releases/fusion-release-activity/fusion-2023-5-2.md)
          * [Workfront Fusion 릴리스 활동: 2023년 4월 17일이 있는 주](product-announcements/product-releases/fusion-release-activity/fusion-2023-4-20.md)
          * [Workfront Fusion 릴리스 활동: 2023년 3월 20일이 있는 주](product-announcements/product-releases/fusion-release-activity/fusion-2023-3-21.md)
-         * [Workfront Fusion 릴리스 활동: 2023년 3월 6일이 있는 주](product-announcements/product-releases/fusion-release-activity/fusion-2023-3-6.md)
+         * [Workfront Fusion 릴리스 활동: 2023년 3월 6일 주](product-announcements/product-releases/fusion-release-activity/fusion-2023-3-6.md)
          * [Workfront Fusion 릴리스 활동: 2022년 12월 12일이 있는 주](product-announcements/product-releases/fusion-release-activity/fusion-dec-12-22.md)
          * [Workfront Fusion 릴리스 활동: 2022년 11월 14일이 있는 주](product-announcements/product-releases/fusion-release-activity/fusion-nov-14-22.md)
          * [Workfront Fusion 릴리스 활동: 2022년 11월 7일 주](product-announcements/product-releases/fusion-release-activity/fusion-nov-9-22.md)
@@ -247,21 +247,21 @@ ht-degree: 1%
          * [20.3 릴리스의 Workfront Scenario Planner - 2020년 8월 14일](product-announcements/product-releases/scenario-planner-release-activity/sp-release-20-3.md)
       * Adobe Workfront 목표 릴리스 활동 {#goals-release}
          * [Adobe Workfront 목표 릴리스 활동](product-announcements/product-releases/goals-release-activity/goals-release-activity.md)
-         * 목표(23.3 릴리스) {#goals-23-3}
+         * 23.3 릴리스 {#goals-23-3}의 목표
             * [Adobe Workfront 목표 및 23.3 릴리스](product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-release.md)
             * [Adobe Workfront Goals 23.3 릴리스 활동: 2023년 5월 1일 주](product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-may-5.md)
-         * 목표(23.2 릴리스) {#goals-23-2}
+         * 23.2 릴리스 {#goals-23-2}의 목표
             * [23.2 릴리스의 Adobe Workfront 목표](product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-23-2-release.md)
             * [Adobe Workfront Goals 23.2 릴리스 활동: 2023년 3월 20일 주](product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-march.md)
-         * 23.1 릴리스의 목표 {#goals-23-1}
+         * 23.1 릴리스 {#goals-23-1}의 목표
             * [Adobe Workfront 목표 및 23.1 릴리스](product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-23-1-release.md)
             * [Adobe Workfront Goals 23.1 릴리스 활동: 2023년 12월 5일의 주](product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-jan.md)
-         * 21.2 릴리스의 목표 {#goals-21-2}
+         * 21.2 릴리스 {#goals-21-2}의 목표
             * [21.2 릴리스의 Adobe Workfront 목표](product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-release-21-2.md)
             * [Adobe Workfront Goals 21.2 릴리스 활동: 2021년 4월 19일의 주](product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-apr-19.md)
             * [Adobe Workfront Goals 21.2 릴리스 활동: 2021년 4월 5일 주](product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-apr-5.md)
             * [Adobe Workfront Goals 21.2 릴리스 활동: 2021년 2월 15일의 주](product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-feb-15.md)
-         * 21.1 릴리스의 목표 {#goals-21-1}
+         * 21.1 릴리스 {#goals-21-1}의 목표
             * [21.1 릴리스의 Adobe Workfront 목표](product-announcements/product-releases/goals-release-activity/goals-release-21-1.md)
             * [Adobe Workfront Goals 21.1 릴리스 활동: 2021년 1월 11일의 주](product-announcements/product-releases/goals-release-activity/goals-21.1-release/goals-jan-11.md)
             * [Adobe Workfront Goals 21.1 릴리스 활동: 2020년 12월 14일의 주](product-announcements/product-releases/goals-release-activity/goals-21.1-release/goals-dec-14.md)
@@ -270,14 +270,14 @@ ht-degree: 1%
          * [Workfront 목표 및 20.4 릴리스](product-announcements/product-releases/goals-release-activity/goals-release-20-4.md)
          * [Workfront 20.3 릴리스 목표 - 2020년 8월 14일](product-announcements/product-releases/goals-release-activity/goals-release-20-3.md)
       * Workfront Proof 릴리스 활동 {#proof-release}
-         * 증명(23.3 릴리스) {#proof-23-3-release}
+         * 23.3 릴리스 {#proof-23-3-release}을(를) 사용한 증명
             * [Adobe Workfront Proof 및 23.3 릴리스](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-overview.md)
             * [Adobe Workfront Proof 23.3 릴리스 활동: 2023년 7월 17일의 주](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jul-17.md)
             * [Adobe Workfront Proof 23.3 릴리스 활동: 2023년 6월 5일 주](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md)
             * [Adobe Workfront Proof 23.3 릴리스 활동: 2023년 5월 8일 주](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md)
          * [Workfront Proof 릴리스 활동: 2021년 5월 17일이 있는 주](product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md)
          * [Workfront Proof 릴리스 활동: 2021년 11월 29일의 주](product-announcements/product-releases/workfront-proof-release-activity/wp-release-22-1.md)
-      * 분기별 릴리스 아카이브 {#quarterly-release}
+      * 분기별 릴리스 보관 파일 {#quarterly-release}
          * [분기별 릴리스 아카이브](product-announcements/product-releases/quarterly-release-archive/quarterly-release-archive.md)
          * 20.4 릴리스 {#release-20-4}
             * [20.4 릴리스 개요](product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md)
@@ -400,7 +400,7 @@ ht-degree: 1%
       * [유지 관리 기간 FAQ](product-announcements/announcements/maintenance-window-faq.md)
       * [허용 목록에 추가하다에 증명을 추가하는 데 필요한 변경 사항](product-announcements/announcements/proofhq-domain-change-workfront.md)
       * [새 Adobe Workfront 경험의 알림 센터 메시지 구독 취소](product-announcements/announcements/unsubscribe-from-ac-messages.md)
-      * 공지 아카이브 {#announcement-archive}
+      * 공지 보관 {#announcement-archive}
          * [공지 아카이브](product-announcements/announcements/announcement-archive/announcement-archive.md)
          * [iOS 및 Android용 모바일 앱 업데이트(2017년 8월 초)](product-announcements/announcements/announcement-archive/updated-mobile-app.md)
          * [Adobe Workfront에서 TLS 1.2 필요](product-announcements/announcements/announcement-archive/tls-1-disabled.md)
@@ -428,7 +428,7 @@ ht-degree: 1%
          * [Workfront 데이터 레이크 베타 정보](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
 * 관리 및 설정 {#administration-and-setup}
    * [관리 및 설정: 문서 색인](administration-and-setup/administration-and-setup.md)
-   * 관리 시작 {#get-started-administration}
+   * {#get-started-administration} 관리 시작
       * [관리 시작: 문서 색인](administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
       * [Adobe Workfront 구현을 위한 목표 정의 개요](administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
       * [시스템에서 사용 가능한 라이선스 관리](administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
@@ -439,7 +439,7 @@ ht-degree: 1%
       * [공지 보내기](administration-and-setup/get-started-wf-administration/view-send-announcements.md)
       * [브라우저 요구 사항](administration-and-setup/get-started-wf-administration/workfront-browser-requirements.md)
       * [플랫폼 기반 차이점](administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)
-   * Workfront 설정 {#set-up-wf}
+   * Workfront {#set-up-wf} 설정
       * [설정](administration-and-setup/set-up-workfront/set-up-workfront.md)
       * 시스템 기본값 구성 {#configure-system-defaults}
          * [기본값 구성](administration-and-setup/set-up-workfront/configure-system-defaults/configure-system-defaults.md)
@@ -509,7 +509,7 @@ ht-degree: 1%
          * [감사 로그 보기 및 내보내기](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
          * [사용자 로그인 정보 보기](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
          * [Adobe Admin Console에서 사용자 관리](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
-      * 새로운 액세스 수준 작동 방식 {#access-levels}
+      * 새 액세스 수준 작동 방식 {#access-levels}
          * [새로운 액세스 수준 작동 방식](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
          * [새로운 액세스 수준 개요](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
          * [새 라이선스 개요](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
@@ -527,7 +527,7 @@ ht-degree: 1%
          * [각 객체 유형에 대한 구성 가능한 액세스](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
          * [기본 제공 액세스 수준](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
          * [사용자의 액세스 수준 및 라이선스 나열](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
-      * Workfront 액세스 구성 {#configure-access}
+      * Workfront {#configure-access}에 대한 액세스 구성
          * [액세스 구성](administration-and-setup/add-users/configure-and-grant-access/configure-access.md)
          * [사용자 정의 액세스 수준 만들기 또는 수정](administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)
          * [관리 액세스 권한 부여](administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)
@@ -547,7 +547,7 @@ ht-degree: 1%
          * [시나리오 플래너에 대한 액세스 권한 부여](administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
          * [리소스 관리에 대한 액세스 권한 부여](administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
          * [Workfront 목표에 대한 액세스 권한 부여](administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
-      * Workfront에서 SSO(Single Sign-On) {#sso}
+      * Workfront {#sso}에서 단일 사인온
          * [SSO(Single Sign-On): 문서 색인](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
          * [SSO(Single Sign-On) 개요](administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
          * [SSO(Single Sign-On)를 위해 사용자 업데이트](administration-and-setup/add-users/single-sign-on/update-users-sso.md)
@@ -556,13 +556,13 @@ ht-degree: 1%
          * [ADFS를 사용하여 SAML 2.0으로 Adobe Workfront 구성](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
          * [Workfront 및 SAML 2.0용 Outlook 사용](administration-and-setup/add-users/single-sign-on/enable-outlook-for-use-w-wf-and-saml-2.md)
          * [단일 사인온 비활성화](administration-and-setup/add-users/single-sign-on/deactivate-sso.md)
-      * 팀 만들기 및 관리 {#create-manage-teams}
+      * {#create-manage-teams} 팀 만들기 및 관리
          * [팀 관리](administration-and-setup/add-users/create-and-manage-teams/create-and-manage-teams.md)
          * [팀 만들기](administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md)
          * [팀 설정 편집](administration-and-setup/add-users/create-and-manage-teams/edit-team-settings-from-setup.md)
-   * Adobe Workfront 사용자 지정 {#customize}
+   * Adobe Workfront {#customize} 사용자 지정
       * [Workfront 사용자 지정](administration-and-setup/customize-workfront/customize-workfront.md)
-      * Adobe Workfront의 사용자 지정 브랜딩 {#custom-branding}
+      * Adobe Workfront {#custom-branding}의 사용자 지정 브랜딩
          * [사용자 지정 브랜딩](administration-and-setup/customize-workfront/brand-workfront/brand-workfront.md)
          * [인스턴스 브랜딩](administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)
          * [사용자 정의 도움말 URL 구성](administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md)
@@ -589,8 +589,8 @@ ht-degree: 1%
       * 사용자 정의 양식 {#custom-forms}
          * [사용자 정의 양식: 문서 색인](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
          * [사용자 정의 양식 개요](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
-         * 기존 사용자 정의 양식 빌더 {#custom-form-builder}
-            * 사용자 정의 양식 빌더 사용 {#use-the-custom-form-builder}
+         * 레거시 사용자 정의 양식 빌더 {#custom-form-builder}
+            * 사용자 지정 양식 빌더 {#use-the-custom-form-builder} 사용
                * [기존 사용자 정의 양식 빌더 사용](administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
                * [기존 빌더로 사용자 정의 양식 만들기 또는 편집](administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
                * [기존 빌더로 새 양식을 만들려면 사용자 정의 양식을 복사하십시오.](administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md)
@@ -608,7 +608,7 @@ ht-degree: 1%
          * 양식 디자이너 {#form-designer}
             * [양식 디자이너](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-toc.md)
             * [양식 디자이너 개요](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md)
-            * 사용자 정의 양식 디자인 {#design-a-form}
+            * 사용자 정의 양식 {#design-a-form} 디자인
                * [양식 디자인](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form-toc.md)
                * [양식 디자이너를 사용하여 양식 디자인](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
                * [양식 디자이너를 사용하여 사본에서 양식 디자인](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-from-copy.md)
@@ -616,12 +616,12 @@ ht-degree: 1%
                * [양식 디자이너를 사용하여 표시 논리 및 건너뛰기 논리 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)
                * [사용자 정의 양식의 외부 조회 필드 예](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
                * [양식 디자이너를 사용하여 양식 구성 및 미리 보기](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)
-            * 양식 관리 {#manage-a-form}
+            * {#manage-a-form} 양식 관리
                * [양식 관리](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/manage-a-form-toc.md)
                * [양식 디자이너를 사용하여 기존 사용자 정의 양식에서 오브젝트 유형 추가 또는 삭제](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/add-or-remove-objects-from-a-form.md)
                * [양식 디자이너를 사용하여 사용자 정의 양식 이름 바꾸기](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/rename-a-custom-form.md)
                * [양식 디자이너와 사용자 정의 필드 및 위젯에 대한 공유 구성](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md)
-         * 사용자 정의 양식 관리 {#manage-custom-forms}
+         * 사용자 정의 양식 {#manage-custom-forms} 관리
             * [사용자 정의 양식 및 필드 관리](administration-and-setup/customize-workfront/create-manage-custom-forms/manage-custom-forms-toc.md)
             * [사용자 정의 양식 공유](administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
             * [사용자 정의 필드에 액세스](administration-and-setup/customize-workfront/create-manage-custom-forms/access-for-a-shared-custom-form-you-want-to-use.md)
@@ -657,14 +657,14 @@ ht-degree: 1%
          * [전역 승인 프로세스 설정](administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md)
          * [변경 사항이 할당된 승인 프로세스에 미치는 영향](administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md)
          * [마일스톤 경로 만들기](administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)
-      * 사용자 지정 조건 만들기 및 관리 {#custom-conditions}
+      * 사용자 지정 조건 {#custom-conditions} 만들기 및 관리
          * [사용자 지정 조건](administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)
          * [조건 만들기 또는 편집](administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md)
          * [조건의 표시 순서 변경](administration-and-setup/customize-workfront/create-manage-custom-conditions/change-display-order-of-conditions.md)
          * [프로젝트 기본값으로 조건 설정](administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md)
          * [작업 및 문제에 대한 기본값으로 조건 설정](administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md)
          * [사용자 지정 조건 삭제](administration-and-setup/customize-workfront/create-manage-custom-conditions/delete-custom-conditions.md)
-   * Adobe Workfront 관리 {#manage-wf}
+   * Adobe Workfront {#manage-wf} 관리
       * [Workfront 관리](administration-and-setup/manage-workfront/manage-workfront.md)
       * 증명 기능 구성 {#configure-proofing}
          * [증명 구성](administration-and-setup/manage-workfront/configure-proofing/configuring-proofing-functionality.md)
@@ -678,10 +678,10 @@ ht-degree: 1%
          * [사용자의 증명 액세스 구성](administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md)
          * [증명 공유](administration-and-setup/manage-workfront/configure-proofing/configure-sharing-settings-users.md)
          * [자동화된 워크플로 템플릿](administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md)
-      * 보고서 구성 {#configure-reports}
+      * 보고서 {#configure-reports} 구성
          * [보고서 구성](administration-and-setup/manage-workfront/configure-reports/configure-reports.md)
          * [보고서 숨기기](administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md)
-      * 이메일 {#emails}
+      * 전자 메일 {#emails}
          * [이메일](administration-and-setup/manage-workfront/emails/emails.md)
          * [이메일 알림: 문서 색인](administration-and-setup/manage-workfront/emails/email-notifications-page.md)
          * [이벤트 알림 구성](administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
@@ -729,14 +729,14 @@ ht-degree: 1%
          * [킥스타트 시나리오: 여러 옵션 사용자 정의 필드를 Workfront에 가져오기](administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-multiple-option-custom-field-import.md)
          * [킥스타트 시나리오: 오브젝트 가져오기](administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md)
          * [킥스타트 FAQ](administration-and-setup/manage-workfront/using-kick-starts/frequently-asked-questions-about-kick-starts.md)
-   * 그룹 관리 {#manage-groups}
+   * {#manage-groups} 그룹 관리
       * [그룹 관리](administration-and-setup/manage-groups/manage-groups.md)
-      * 그룹 {#groups}
+      * {#groups} 그룹
          * [그룹: 문서 색인](administration-and-setup/manage-groups/groups-overview/groups-overview.md)
          * [그룹 개요](administration-and-setup/manage-groups/groups-overview/groups.md)
          * [하위 그룹 개요](administration-and-setup/manage-groups/groups-overview/subgroups.md)
          * [홈 그룹 개요](administration-and-setup/manage-groups/groups-overview/home-groups.md)
-      * 그룹 만들기 및 관리 {#create-manage-groups}
+      * {#create-manage-groups} 그룹 만들기 및 관리
          * [그룹 만들기 및 관리](administration-and-setup/manage-groups/create-and-manage-groups/create-and-manage-groups.md)
          * [그룹 만들기](administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)
          * [그룹 관리](administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md)
@@ -753,7 +753,7 @@ ht-degree: 1%
          * [그룹 비활성화 또는 재활성화](administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md)
          * [그룹 삭제](administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md)
          * [그룹 목록 내보내기](administration-and-setup/manage-groups/create-and-manage-groups/export-a-list-of-groups.md)
-      * 하위 그룹 만들기 및 관리 {#create-manage-subgroups}
+      * 하위 그룹 {#create-manage-subgroups} 만들기 및 관리
          * [하위 그룹 만들기 및 관리](administration-and-setup/manage-groups/create-and-manage-subgroups/create-and-manage-subgroups.md)
          * [하위 그룹 만들기](administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md)
          * [하위 그룹 관리](administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)
@@ -774,7 +774,7 @@ ht-degree: 1%
          * [그룹 상태 삭제](administration-and-setup/manage-groups/manage-group-statuses/delete-a-group-status.md)
          * [이동 및 삭제된 그룹 상태](administration-and-setup/manage-groups/manage-group-statuses/custom-statuses-in-group-moved-or-deleted.md)
          * [이동 및 복사된 그룹 상태](administration-and-setup/manage-groups/manage-group-statuses/custom-statuses-on-a-task-or-issue-that-is-moved-or-copied.md)
-      * 그룹의 오브젝트 작업 {#group-objects}
+      * 그룹의 개체 {#group-objects}을(를) 사용하여 작업
          * [그룹 개체 관리](administration-and-setup/manage-groups/work-with-group-objects/work-with-a-groups-objects.md)
          * [그룹 회사 관리](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-companies.md)
          * [그룹 레이아웃 템플릿 관리](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)
@@ -791,7 +791,7 @@ ht-degree: 1%
    * 통합 구성 {#configure-integrations}
       * [통합 구성](administration-and-setup/configure-integrations/workfront-integrations.md)
       * [Adobe Workfront 통합](administration-and-setup/configure-integrations/workfront-integrations-1.md)
-      * [구성 [!DNL Workfront] 및 [!DNL Frame.io] 통합](administration-and-setup/configure-integrations/configure-wf-and-frame.md)
+      * [ [!DNL Workfront] 및 [!DNL Frame.io] 통합 구성](administration-and-setup/configure-integrations/configure-wf-and-frame.md)
       * [Experience Manager Assets as a Cloud Service 통합 구성](administration-and-setup/configure-integrations/configure-aacs-integration.md)
       * [Experience Manager Assets Essentials 통합 구성](documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
       * [Adobe Experience Manager 레거시 커넥터를 사용하여 Workfront 구성](administration-and-setup/configure-integrations/configure-workfront-aem.md)
@@ -817,11 +817,11 @@ ht-degree: 1%
    * 관리자 FAQ {#admin-faq}
       * [관리자 FAQ](administration-and-setup/administrator-faqs/adminstrator-faqs.md)
       * [AtTask OnPremise 지원 정책](administration-and-setup/administrator-faqs/attask-onpremise-support-policy.md)
-   * Adobe Admin Console의 관리 {#admin-in-admin-console}
+   * Adobe Admin Console {#admin-in-admin-console}의 관리
       * [Adobe Admin Console의 Workfront 관리](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
       * [Adobe Admin Console 준비](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
-      * [Adobe Admin Console으로의 Workfront 마이그레이션 이해](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
-   * 관리 및 설정을 위한 팁, 요령 및 문제 해결 {#admin-setup-tips}
+      * [Adobe Admin Console에 대한 Workfront 마이그레이션 이해](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
+   * 관리 및 설정 {#admin-setup-tips}에 대한 팁, 요령 및 문제 해결
       * [팁, 요령 및 문제 해결](administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)
       * [그룹 관리자는 자신이 관리하는 사용자보다 높은 액세스 권한을 가져야 합니다.](administration-and-setup/tips-tricks-and-troubleshooting/group-admin-access-level.md)
       * [활성 및 비활성화된 개체](administration-and-setup/tips-tricks-and-troubleshooting/acitve-and-deactivated-objects.md)
@@ -851,17 +851,17 @@ ht-degree: 1%
    * [Adobe Workfront 용어 목록](workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
    * [Adobe Workfront 브라우저 요구 사항](workfront-basics/workfront-browser-requirements.md)
    * [Adobe Workfront에서 지원되는 언어](workfront-basics/supported-languages-in-workfront.md)
-   * Adobe Workfront 탐색 {#navigate}
+   * Adobe Workfront {#navigate} 탐색
       * [Adobe Workfront 탐색: 문서 색인](workfront-basics/navigate-workfront/navigate-workfront.md)
       * Adobe Workfront 검색 {#search}
          * [Adobe Workfront 검색](workfront-basics/navigate-workfront/search/search.md)
          * [Adobe Workfront 검색](workfront-basics/navigate-workfront/search/search-workfront.md)
          * [참조 개체 수 사용](workfront-basics/navigate-workfront/search/reference-number-of-objects.md)
-      * Adobe Workfront의 최근 항목 및 즐겨찾기 {#recents-and-favorites}
+      * Adobe Workfront {#recents-and-favorites}의 최근 항목 및 즐겨찾기
          * [Adobe Workfront의 최근 항목 및 즐겨찾기](workfront-basics/navigate-workfront/recent-and-favorites/recent-and-favorites.md)
          * [즐겨찾기 보기 및 관리](workfront-basics/navigate-workfront/recent-and-favorites/view-and-manage-favorites.md)
          * [최근 항목 보기](workfront-basics/navigate-workfront/recent-and-favorites/view-recent-items.md)
-      * Adobe Workfront의 목록 {#lists-in-adobe-workfront}
+      * Adobe Workfront {#lists-in-adobe-workfront}의 목록
          * [Adobe Workfront의 목록](workfront-basics/navigate-workfront/use-lists/lists.md)
          * [Adobe Workfront에서 목록 시작](workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)
          * [목록에 빠른 필터 적용](workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md)
@@ -878,7 +878,7 @@ ht-degree: 1%
       * [페이지를 고정하여 작업 영역 사용자 지정](workfront-basics/the-new-workfront-experience/pin-pages.md)
       * [사용자 정의 섹션 만들기](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
       * [Adobe Workfront 도움말 액세스](workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)
-      * [[!DNL Adobe Workfront] 개체 개요](workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
+      * [[!DNL Adobe Workfront]개 개체 개요](workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
       * [작업 라이선스 사용자의 탐색 이해](workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
       * [Review-license 사용자의 탐색 이해](workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)
       * [Workfront의 프로젝트, 작업 및 문제 날짜 개요](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
@@ -888,7 +888,7 @@ ht-degree: 1%
          * [새 홈](workfront-basics/using-home/new-home/new-home.md)
          * [새 홈 시작](workfront-basics/using-home/new-home/get-started-with-new-home.md)
          * [새 홈에서 위젯 추가, 편집 또는 제거](workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
-      * 홈 영역 사용 {#use-home-area}
+      * 홈 영역 {#use-home-area} 사용
          * [홈 영역 사용](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
          * [홈 시작](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
          * [홈 영역의 작업 목록에 항목 표시](workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
@@ -920,13 +920,13 @@ ht-degree: 1%
       * [업데이트에 다른 사용자 태그 지정](workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
       * [메모 보고서의 모든 업데이트 보기](workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
       * [작업 및 완료 버튼 개요](workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
-   * 사용자 정의 양식을 사용한 작업 {#work-with-custom-forms}
+   * 사용자 정의 양식 {#work-with-custom-forms} 작업
       * [사용자 정의 양식을 사용한 작업](workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
       * [오브젝트에 사용자 정의 양식 추가](workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)
       * [사용자 정의 양식 필드의 정보 편집](workfront-basics/work-with-custom-forms/edit-custom-forms.md)
       * [사용자 정의 양식 및 개체 세부 정보 내보내기](workfront-basics/work-with-custom-forms/export-custom-forms-details.md)
       * [오브젝트에 첨부된 사용자 정의 양식 관리](workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)
-   * 알림 사용 {#use-notifications}
+   * 알림 {#use-notifications} 사용
       * [알림 사용: 문서 색인](workfront-basics/using-notifications/use-notifications.md)
       * [알림 개요](workfront-basics/using-notifications/wf-notifications.md)
       * [이메일 알림 수정](workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
@@ -947,7 +947,7 @@ ht-degree: 1%
       * [알림: 나에게 할당된 작업 정보](workfront-basics/using-notifications/notifications-information-about-work-assigned-to-me.md)
       * [알림: 기타 정보](workfront-basics/using-notifications/notifications-misc-information.md)
       * [알림: 내가 한 요청](workfront-basics/using-notifications/notifications-requests-i-have-made.md)
-   * 오브젝트에 권한 부여 및 요청 {#grant-request-object-permissions}
+   * 개체 {#grant-request-object-permissions}에 대한 권한 부여 및 요청
       * [오브젝트에 권한 부여 및 요청](workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
       * [오브젝트에 대한 공유 권한 개요](workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
       * [홈 영역의 객체에 대한 액세스 권한 부여](workfront-basics/grant-and-request-access-to-objects/grant-access-home.md)
@@ -965,23 +965,23 @@ ht-degree: 1%
       * [문서 폴더 공유](workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md)
       * [보고서, 대시보드 및 캘린더 공유](workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)
       * [오브젝트에서 권한 제거](workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
-   * 계정 및 프로필 관리 {#manage-account-profile}
+   * 계정 및 프로필 {#manage-account-profile} 관리
       * [계정 및 프로필 관리](workfront-basics/manage-your-account-and-profile/manage-your-account-and-profile.md)
-      * 사용자 프로필 구성 {#configure-user-profile}
+      * 사용자 프로필 {#configure-user-profile} 구성
          * [사용자 프로필 구성](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-user-profile.md)
          * [내 설정 구성](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)
          * [개인 휴무 구성](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)
-      * Adobe Workfront 계정 관리 {#manage-workfront-account}
+      * Adobe Workfront 계정 {#manage-workfront-account} 관리
          * [Adobe Workfront 계정 관리](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/manage-workfront-account.md)
          * [Adobe Workfront에 로그인](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md)
          * [Adobe Workfront에서 로그아웃](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-out-of-workfront.md)
          * [향상된 인증을 통해 사용자 암호 재설정](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md)
          * [이메일 초대 수신 및 Adobe Workfront 암호 만들기](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md)
-         * [에서 계정 만들기 [!DNL Adobe Workfront] 외부 사용자로서](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/create-account-external-user.md)
+         * [ [!DNL Adobe Workfront] 에서 외부 사용자로 계정 만들기](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/create-account-external-user.md)
          * [암호 재설정](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md)
    * 모바일 앱 {#mobile-apps}
       * [모바일 앱](workfront-basics/mobile-apps/mobile-apps.md)
-      * Adobe Workfront 모바일 앱 사용 {#use-workfront-mobile-app}
+      * Adobe Workfront 모바일 앱 {#use-workfront-mobile-app} 사용
          * [Adobe Workfront 모바일 앱 사용](workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md)
          * [Android용 Adobe Workfront](workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
          * [Android 베타 테스터가 되십시오.](workfront-basics/mobile-apps/using-the-workfront-mobile-app/android-beta-tester.md)
@@ -997,17 +997,17 @@ ht-degree: 1%
          * [모바일 장치 관리용 Adobe Workfront(MDM)](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mdm.md)
          * [MobileIron용 Adobe Workfront 구성](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)
          * [Adobe Workfront 모바일 앱의 승인](workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)
-      * Adobe Workfront 보기 사용 {#use-workfront-view}
+      * Adobe Workfront 보기 {#use-workfront-view} 사용
          * [Adobe Workfront 보기 사용](workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md)
          * [Adobe Workfront 보기 시작](workfront-basics/mobile-apps/using-workfront-view/get-started-with-workfront-view.md)
          * [Adobe Workfront 보기에서 프로젝트 표시](workfront-basics/mobile-apps/using-workfront-view/display-projects-in-wokrfont-view.md)
          * [Adobe Workfront 보기에서 프로젝트 목록 필터링](workfront-basics/mobile-apps/using-workfront-view/filter-project-lists-in-workfront-view.md)
          * [프로젝트 세부 정보 보기에서 위젯 업데이트](workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)
          * [Adobe Workfront 보기에서 업데이트 추가](workfront-basics/mobile-apps/using-workfront-view/add-updates-in-workfront-view.md)
-      * Adobe Workfront 모바일 앱에 대한 팁, 요령 및 문제 해결 {#tips-tricks-for-mobile-apps}
+      * Adobe Workfront 모바일 앱 {#tips-tricks-for-mobile-apps}에 대한 팁, 요령 및 문제 해결
          * [Adobe Workfront 모바일 앱에 대한 팁, 요령 및 문제 해결](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-mobile.md)
-         * [Adobe Workfront 모바일 앱에 오류 메시지: &quot;계정이 API를 활성화하지 않았습니다.&quot;](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/error-message-on-mobile-app.md)
-   * Adobe Workfront 기본 사항에 대한 팁, 요령 및 문제 해결 {#tips-tricks-for-basics}
+         * [Adobe Workfront 모바일 앱에 오류 메시지: &quot;계정이 API를 사용할 수 없습니다.&quot;](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/error-message-on-mobile-app.md)
+   * Adobe Workfront 기본 사항 {#tips-tricks-for-basics}에 대한 팁, 요령 및 문제 해결
       * [Adobe Workfront 기본 사항에 대한 팁, 요령 및 문제 해결](workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)
       * [Adobe Workfront에서 도움말 찾기에 대한 빠른 안내서](workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md)
       * [Adobe Workfront에서 날짜 형식 변경](workfront-basics/tips-tricks-and-troubleshooting/change-date-format-chrome.md)
@@ -1023,7 +1023,7 @@ ht-degree: 1%
 * 애자일 {#agile}
    * [애자일](agile/agile.md)
    * [보드 개요](agile/boards-overview.md)
-   * Adobe Workfront에서 보드 시작 {#boards-in-workfront}
+   * Adobe Workfront {#boards-in-workfront}에서 보드 시작
       * [보드 시작: 문서 색인](agile/get-started-with-boards/get-started-with-boards.md)
       * [Adobe Workfront Boards 비디오 데모](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)
       * [게시판 초기 기능 옵트인](agile/get-started-with-boards/boards-early-feature-opt-in.md)
@@ -1044,7 +1044,7 @@ ht-degree: 1%
       * [보드에서 필터링 및 검색](agile/get-started-with-boards/filter-search-in-board.md)
       * [태그 추가](agile/get-started-with-boards/add-tags.md)
       * [게시판 이메일 알림 및 환경 설정](/help/quicksilver/agile/get-started-with-boards/boards-emails.md)
-   * 보드에서 애자일 계획 도구 사용 {#agile-planning-boards}
+   * {#agile-planning-boards} 보드에서 애자일 계획 도구 사용
       * [애자일 계획 도구 개요](agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
       * [보드에서 WIP(Work In Progress) 한도 관리](agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)
       * [보드에 접수 열 추가](agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
@@ -1057,12 +1057,12 @@ ht-degree: 1%
       * [워크스트림 보드에서 백로그 구성](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-backlog-workstream-board.md)
       * [반복 지표 검토](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)
    * [애자일 개요](agile/agile-overview.md)
-   * Adobe Workfront에서 애자일 시작 {#agile-in-workfront}
+   * Adobe Workfront {#agile-in-workfront}에서 애자일 시작
       * [Adobe Workfront에서 애자일 시작](agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
       * [애자일 팀 만들기](agile/get-started-with-agile-in-workfront/create-an-agile-team.md)
       * [칸반 구성](agile/get-started-with-agile-in-workfront/configure-kanban.md)
       * [스크럼 구성](agile/get-started-with-agile-in-workfront/configure-scrum.md)
-   * 애자일 팀의 칸반 {#kanban}
+   * 애자일 팀 {#kanban}의 칸반
       * [애자일 팀의 칸반](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
       * [Kanban 개요](agile/use-kanban-in-an-agile-team/kanban-overview.md)
       * [Kanban 보드의 기존 스토리에 하위 작업 추가](agile/use-kanban-in-an-agile-team/add-a-subtask-to-an-existing-story.md)
@@ -1077,7 +1077,7 @@ ht-degree: 1%
       * [칸반 보드의 스토리에 플래그 사용](agile/use-kanban-in-an-agile-team/use-flags-on-stories.md)
       * [Kanban 보드에 백로그 추가](agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md)
       * [칸반 보드에서 스토리 삭제](agile/use-kanban-in-an-agile-team/delete-story-from-kanban-board.md)
-   * 애자일 팀의 스크럼 {#scrum}
+   * 애자일 팀 {#scrum}의 스크럼
       * [애자일 팀의 스크럼](agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md)
       * 번다운 {#burndown}
          * [번다운](agile/use-scrum-in-an-agile-team/burndown/burndown.md)
@@ -1106,17 +1106,17 @@ ht-degree: 1%
          * [스크럼 보드에서 스토리 및 문제 관리](agile/use-scrum-in-an-agile-team/scrum-board/manage-scrum-board.md)
          * [스크럼 보드에서 스토리 및 하위 작업 상태 업데이트](agile/use-scrum-in-an-agile-team/scrum-board/update-status-of-stories-and-subtasks.md)
          * [스크럼 보드에서 스토리 정보 보기 및 편집](agile/use-scrum-in-an-agile-team/scrum-board/view-and-edit-story-info.md)
-   * 애자일 환경에서 작업 {#work-in-agile-environment}
+   * 애자일 환경 {#work-in-agile-environment}에서 작업
       * [애자일 환경에서 작업](agile/work-in-an-agile-environment/work-in-an-agile-environment.md)
       * [애자일 스토리 만들기](agile/work-in-an-agile-environment/create-an-agile-story.md)
       * [애자일 백로그 관리](agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
       * [애자일 스토리 이동](agile/work-in-an-agile-environment/move-an-agile-story.md)
-   * 애자일 팁, 요령 및 문제 해결 {#tips-tricks-agile}
+   * 애자일 {#tips-tricks-agile}에 대한 팁, 요령 및 문제 해결
       * [애자일 팁, 요령 및 문제 해결](agile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-agile.md)
       * [애자일 스토리 보드에 사용자 정의 상태가 표시되지 않음](agile/tips-tricks-and-troubleshooting/custom-status-does-not-show.md)
 * 문서 {#documents}
    * [문서: 문서 색인](documents/documents-overview.md)
-   * Adobe Workfront에 새 문서 추가 {#add-new-documents-to-workfront}
+   * Adobe Workfront {#add-new-documents-to-workfront}에 새 문서 추가
       * [Adobe Workfront에 새 문서 추가](documents/adding-documents-to-workfront/add-new-documents-to-workfront.md)
       * [파일 시스템에서 Adobe Workfront에 문서 추가](documents/adding-documents-to-workfront/add-documents-from-file-system.md)
       * [외부 애플리케이션에서 문서 연결](documents/adding-documents-to-workfront/link-documents-from-external-apps.md)
@@ -1145,7 +1145,7 @@ ht-degree: 1%
       * [문서 구성](documents/organizing-documents/organize-documents.md)
       * [문서 폴더 만들기](documents/organizing-documents/create-documents-folder.md)
       * [스마트 폴더 만들기 및 관리](documents/organizing-documents/create-manage-smart-folders.md)
-   * Adobe Workfront 내의 Workfront DAM {#wf-dam-within-workfront}
+   * Adobe Workfront {#wf-dam-within-workfront} 내의 Workfront DAM
       * [Adobe Workfront 내의 Workfront DAM](documents/workfront-dam-within-workfront/workfront-dam-in-workfrontt.md)
       * [Adobe Workfront DAM 활성화](documents/workfront-dam-within-workfront/enable-wf-dam.md)
       * [Adobe Workfront DAM을 사용하여 문서 관리](documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md)
@@ -1161,7 +1161,7 @@ ht-degree: 1%
          * [강화된 커넥터로 문서 보내기](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-send-document.md)
          * [향상된 커넥터로 연결된 자산 증명](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-proof-asset.md)
          * [강화된 커넥터로 연결된 에셋 보기 또는 다운로드](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-view-download-asset.md)
-      * Experience Manager Assets 및 Assets Essentials용 Adobe Workfront {#wf-aem-essentials}
+      * Experience Manager Assets 및 Assets Essentials {#wf-aem-essentials}용 Adobe Workfront
          * [Experience Manager Assets 및 Assets Essentials용 Adobe Workfront: 문서 색인](documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
          * [Adobe Experience Manager Assets 통합 개요](documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
          * [Experience Manager Assets Essentials에서 에셋 및 폴더 연결](documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
@@ -1174,7 +1174,7 @@ ht-degree: 1%
          * [Experience Manager Assets Essentials 통합에서 워크플로우 사용](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)
          * [Workfront Fusion을 사용하여 Workfront 문제를 Adobe Experience Manager 워크플로가 포함된 프로젝트로 변환합니다](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-fusion-to-create-project-with-workflows.md)
          * [Adobe Experience Manager 통합 문제 해결](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
-   * 레거시 또는 향상된 커넥터에서 마이그레이션 {#migrate-from-legacy-enhanced-connectors}
+   * 레거시 또는 향상된 커넥터 {#migrate-from-legacy-enhanced-connectors}에서 마이그레이션
       * [레거시 또는 향상된 커넥터에서 마이그레이션](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
       * [Adobe as a Cloud Service Experience Mangaer 통합을 위해 레거시 또는 향상된 커넥터에서 Workfront으로 마이그레이션](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
       * [기존 커넥터에서 향상된 커넥터로 마이그레이션](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-to-enhanced.md)
@@ -1185,7 +1185,7 @@ ht-degree: 1%
    * [작업 관리](manage-work/manage-work.md)
    * 프로젝트 {#projects}
       * [프로젝트: 문서 색인](manage-work/projects/projects-overview.md)
-      * 프로젝트 계획 {#plan-a-project}
+      * 프로젝트 {#plan-a-project} 계획
          * [프로젝트 계획: 문서 색인](manage-work/projects/planning-a-project/plan-project-overview.md)
          * [프로젝트 계획 개요](manage-work/projects/planning-a-project/plan-project.md)
          * [프로젝트의 작업 분류 구조 결정](manage-work/projects/planning-a-project/determine-project-work-breakdown-structure.md)
@@ -1206,7 +1206,7 @@ ht-degree: 1%
          * [프로젝트, 작업 및 문제의 예상 완료 일자 개요](manage-work/projects/planning-a-project/project-projected-completion-date.md)
          * [프로젝트 진행 상태 개요](manage-work/projects/planning-a-project/project-progress-status.md)
          * [프로젝트 예상 시작 일자 개요](manage-work/projects/planning-a-project/project-projected-start-date.md)
-      * 프로젝트 만들기 {#create-projects}
+      * 프로젝트 {#create-projects} 만들기
          * [프로젝트 만들기: 문서 색인](manage-work/projects/create-projects/create-projects-overview.md)
          * [프로젝트 만들기](manage-work/projects/create-projects/create-project.md)
          * [프로젝트 요청](manage-work/projects/create-projects/request-project.md)
@@ -1214,7 +1214,7 @@ ht-degree: 1%
          * [Microsoft 프로젝트에서 프로젝트 가져오기](manage-work/projects/create-projects/import-project-from-ms-project.md)
          * [프로젝트 기준선 만들기](manage-work/projects/create-projects/create-baselines.md)
          * [Frame.io와 연결된 프로젝트 만들기](manage-work/projects/create-projects/create-frame-connected-project.md)
-      * 프로젝트에 대한 작업 업데이트 {#update-work-on-a-project}
+      * {#update-work-on-a-project} 프로젝트에 대한 작업 업데이트
          * [프로젝트 작업 업데이트: 문서 색인](manage-work/projects/updating-work-in-a-project/update-work-on-project.md)
          * [그룹에 연결된 작업에 상태 적용](manage-work/projects/updating-work-in-a-project/apply-custom-status-work-assigned-to-group.md)
          * [작업 상태 업데이트](manage-work/projects/updating-work-in-a-project/update-task-status.md)
@@ -1264,7 +1264,7 @@ ht-degree: 1%
          * [프로젝트에서 템플릿 정보 제거](manage-work/projects/create-and-manage-templates/remove-template-from-project.md)
          * [템플릿의 시작 및 완료 일수 개요](manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md)
          * [프로젝트에 템플릿 첨부 개요](manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md)
-      * 비즈니스 사례 정의 {#define-business-case}
+      * 비즈니스 사례 {#define-business-case} 정의
          * [비즈니스 사례 정의: 문서 색인](manage-work/projects/define-a-business-case/define-business-case.md)
          * [비즈니스 사례 영역 개요](manage-work/projects/define-a-business-case/areas-of-business-case.md)
          * [프로젝트에 대한 비즈니스 사례 만들기](manage-work/projects/define-a-business-case/create-business-case.md)
@@ -1307,7 +1307,7 @@ ht-degree: 1%
          * [예약된 작업의 예산 비용 계산(BCWS)](manage-work/projects/project-finances/calculate-bcws.md)
          * [프로젝트의 예산 인건비 및 예산 시간 이해](manage-work/projects/project-finances/budgeted-labor-cost.md)
          * [계획된 인건비 계산](manage-work/projects/project-finances/planned-labor-cost.md)
-      * 프로젝트에 대한 팁, 요령 및 문제 해결 {#tips-tricks-troubleshooting-for-projects}
+      * 프로젝트 {#tips-tricks-troubleshooting-for-projects}에 대한 팁, 요령 및 문제 해결
          * [팁, 요령 및 문제 해결: 문서 색인](manage-work/projects/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-for-projects.md)
          * [프로젝트 FAQ](manage-work/projects/tips-tricks-and-troubleshooting/projects-faqs.md)
          * [프로젝트 상태가 완료에서 현재로 변경되지 않음](manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md)
@@ -1336,13 +1336,13 @@ ht-degree: 1%
          * [예상 일자와 예상 일자 차이](manage-work/tasks/task-information/differentiate-projected-estimated-dates.md)
          * [원래 작업 기간 및 원래 계획된 시간 개요](manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md)
          * [작업의 계획된 기간 및 기간 차이](manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md)
-      * 작업 만들기 {#create-tasks}
+      * 작업 {#create-tasks} 만들기
          * [작업 만들기](manage-work/tasks/create-tasks/create-tasks-overview-1.md)
          * [작업 만들기 개요](manage-work/tasks/create-tasks/create-tasks-overview.md)
          * [프로젝트에서 작업 만들기](manage-work/tasks/create-tasks/create-tasks-in-project.md)
          * [하위 작업 만들기](manage-work/tasks/create-tasks/create-subtasks.md)
          * [반복 작업 만들기](manage-work/tasks/create-tasks/create-recurring-tasks.md)
-      * 작업 할당 {#assign-tasks}
+      * 작업 {#assign-tasks} 할당
          * [작업 할당](manage-work/tasks/assign-tasks/assign-tasks-1.md)
          * [작업 할당](manage-work/tasks/assign-tasks/assign-tasks.md)
          * [고급 할당 만들기](manage-work/tasks/assign-tasks/create-advanced-assignments.md)
@@ -1352,7 +1352,7 @@ ht-degree: 1%
          * [작업에 대한 사용자 또는 역할 할당 백분율 관리](manage-work/tasks/assign-tasks/manage-allocation-percentage-on-tasks.md)
          * [작업에 대한 사용자 및 역할 할당 시간 관리](manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md)
          * [스마트 할당 만들기](manage-work/tasks/assign-tasks/make-smart-assignments.md)
-      * 작업 관리 {#manage-tasks}
+      * 작업 {#manage-tasks} 관리
          * [작업 관리](manage-work/tasks/manage-tasks/manage-tasks.md)
          * [작업 편집](manage-work/tasks/manage-tasks/edit-tasks.md)
          * [목록에서 작업 편집](manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md)
@@ -1391,7 +1391,7 @@ ht-degree: 1%
          * [작업의 기간 유형 업데이트](manage-work/tasks/taskdurtn/update-duration-type-of-task.md)
          * [간단한 기간 유형으로 작업의 계획된 시간 및 기간 업데이트](manage-work/tasks/taskdurtn/update-planned-hours-duration-for-simple-duration-task.md)
          * [Adobe Workfront 및 Microsoft 프로젝트의 기간 유형](manage-work/tasks/taskdurtn/workfront-ms-project-duration-types.md)
-      * 작업 전임 작업 사용 {#use-task-predecessors}
+      * 작업 전임 작업 {#use-task-predecessors} 사용
          * [작업 전임 작업 사용](manage-work/tasks/use-prdcssrs/use-task-predecessors.md)
          * [작업 전임 작업 개요](manage-work/tasks/use-prdcssrs/predecessors-overview.md)
          * [작업 목록에 전임 작업 관계 만들기](manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md)
@@ -1402,13 +1402,13 @@ ht-degree: 1%
          * [전임 작업 시행](manage-work/tasks/use-prdcssrs/enforced-predecessors.md)
          * [지연 유형 개요](manage-work/tasks/use-prdcssrs/lag-types.md)
          * [작업 종속성 루프 개요](manage-work/tasks/use-prdcssrs/dependency-loop-overview.md)
-      * 작업에 대한 팁, 요령 및 문제 해결 {#tips-tricks-and-troubleshooting-for-tasks}
+      * 작업 {#tips-tricks-and-troubleshooting-for-tasks}에 대한 팁, 요령 및 문제 해결
          * [작업에 대한 팁, 요령 및 문제 해결](manage-work/tasks/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-tasks.md)
          * [작업 FAQ](manage-work/tasks/tips-tricks-and-troubleshooting/tasks-faqs.md)
          * [예상 기간이 계획된 기간과 일치하지 않음](manage-work/tasks/tips-tricks-and-troubleshooting/projected-and-planned-durations-dont-match.md)
    * 문제 {#issues}
       * [문제](manage-work/issues/issues-overview.md)
-      * 문제 전환 {#convert-issues}
+      * 문제 {#convert-issues} 변환
          * [문제 전환](manage-work/issues/convert-issues/convert-issues-overview.md)
          * [Adobe Workfront의 문제 전환 개요](manage-work/issues/convert-issues/convert-issues.md)
          * [Adobe Workfront에서 문제를 프로젝트로 전환](manage-work/issues/convert-issues/convert-issue-to-project.md)
@@ -1449,12 +1449,12 @@ ht-degree: 1%
          * [간트 차트를 PDF으로 내보내기](manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)
    * Portfolio 관리 {#portfolio-management}
       * [포트폴리오 관리](manage-work/portfolios/portfolio-management-overview.md)
-      * Adobe Workfront의 Portfolio 개요 {#portfolio-overview-in-adobe-workfront}
+      * Adobe Workfront {#portfolio-overview-in-adobe-workfront}의 Portfolio 개요
          * [포트폴리오](manage-work/portfolios/portfolios-overview/portfolio-overview-1.md)
          * [포트폴리오 내에서 탐색](manage-work/portfolios/portfolios-overview/navigate-within-portfolio.md)
          * [Portfolio 관리 개요](manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md)
          * [Adobe Workfront의 Portfolio 개요](manage-work/portfolios/portfolios-overview/portfolio-overview.md)
-      * 포트폴리오 만들기 및 관리 {#create-and-manage-portfolios}
+      * 포트폴리오 {#create-and-manage-portfolios} 만들기 및 관리
          * [포트폴리오 만들기 및 관리](manage-work/portfolios/create-and-manage-portfolios/create-and-manage-portfolios.md)
          * [포트폴리오 만들기](manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
          * [포트폴리오 삭제 및 비활성화](manage-work/portfolios/create-and-manage-portfolios/delete-deactivate-portfolios.md)
@@ -1462,14 +1462,14 @@ ht-degree: 1%
          * [포트폴리오에 프로젝트 추가](manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
          * [포트폴리오에서 프로젝트 제거](manage-work/portfolios/create-and-manage-portfolios/remove-project-from-portfolio.md)
          * [요청된 프로젝트 검토](manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md)
-      * 프로그램 제작 및 관리 {#create-and-manage-programs}
+      * {#create-and-manage-programs} 프로그램 만들기 및 관리
          * [프로그램 제작 및 관리](manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)
          * [프로그램 만들기](manage-work/portfolios/create-and-manage-programs/create-program.md)
          * [프로그램 편집](manage-work/portfolios/create-and-manage-programs/edit-programs.md)
          * [포트폴리오에 기존 프로그램 추가](manage-work/portfolios/create-and-manage-programs/move-program.md)
          * [프로그램에 프로젝트 추가](manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)
          * [프로그램에서 프로젝트 제거](manage-work/portfolios/create-and-manage-programs/remove-project-from-program.md)
-      * Portfolio 최적화 도구에서 프로젝트 관리 {#manage-projects-in-portfolio-optimizer}
+      * Portfolio 최적화 도구 {#manage-projects-in-portfolio-optimizer}에서 프로젝트 관리
          * [Portfolio 최적화 도구에서 프로젝트 관리](manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)
          * [Portfolio 최적화 프로그램 개요](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
          * [Portfolio 최적화 도구 찾기](manage-work/portfolios/portfolio-optimizer/locate-portfolio-optimizer.md)
@@ -1479,7 +1479,7 @@ ht-degree: 1%
          * [포트폴리오에서 순 가치에 대한 위험 계산](manage-work/portfolios/portfolio-optimizer/calculate-risk-to-net-value-in-portfolio.md)
    * 요청 {#requests}
       * [요청](manage-work/requests/requests-overview.md)
-      * 요청 대기열 생성 및 관리 {#create-and-manage-request-queues}
+      * 요청 큐 {#create-and-manage-request-queues} 만들기 및 관리
          * [요청 대기열 생성 및 관리](manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md)
          * [요청 대기열 만들기](manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
          * [요청 대기열에 대한 액세스 권한 제공](manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md)
@@ -1487,7 +1487,7 @@ ht-degree: 1%
          * [대기열 주제 만들기](manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
          * [라우팅 규칙 만들기](manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
          * [프로젝트에 대한 요청 유형 정의](manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md)
-      * 요청 만들기 {#create-requests}
+      * 요청 {#create-requests} 만들기
          * [요청 만들기](manage-work/requests/create-requests/create-requests.md)
          * [요청 만들기 및 제출](manage-work/requests/create-requests/create-submit-requests.md)
          * [초안에서 요청 만들기](manage-work/requests/create-requests/create-requests-from-drafts.md)
@@ -1496,13 +1496,13 @@ ht-degree: 1%
          * [요청 대기열에 대한 링크 공유](manage-work/requests/create-requests/share-link-to-request-queue.md)
          * [요청 초안 삭제](manage-work/requests/create-requests/delete-request-draft.md)
          * [요청 복사 및 제출](manage-work/requests/create-requests/copy-and-submit-requests.md)
-   * 작업 위임 {#delegate-work}
+   * 작업 {#delegate-work} 위임
       * [작업 위임](manage-work/delegate-work/delegate-work.md)
       * [작업 및 문제 위임 개요](manage-work/delegate-work/delegate-work-overview.md)
       * [작업 및 문제 위임 관리](manage-work/delegate-work/how-to-delegate-work.md)
 * 팀 및 그룹 {#teams-groups}
    * [팀 및 그룹](people-teams-and-groups/people-teams-and-groups.md)
-   * 팀 만들기 및 관리 {#create-manage-teams}
+   * {#create-manage-teams} 팀 만들기 및 관리
       * [팀 만들기 및 관리](people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md)
       * [팀 개요](people-teams-and-groups/create-and-manage-teams/teams-overview.md)
       * [팀 만들기](people-teams-and-groups/create-and-manage-teams/create-a-team.md)
@@ -1513,25 +1513,25 @@ ht-degree: 1%
       * [작업에 대한 완료 버튼 구성](people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
       * [문제에 대한 완료 버튼 구성](people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
       * [처리 중 단추를 시작 단추로 바꾸기](people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)
-   * 다른 사용자와 직접 작업 {#work-with-others}
+   * 다른 사용자 {#work-with-others}과(와) 직접 작업
       * [다른 사용자와 직접 작업](people-teams-and-groups/work-directly-with-others/work-directly-with-others.md)
       * [다른 사용자에게 다이렉트 메시지 보내기](people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md)
       * [조직도 보기](people-teams-and-groups/work-directly-with-others/view-the-org-chart.md)
-   * 그룹 및 팀과 작업 {#work-with-groups-teams}
+   * {#work-with-groups-teams} 그룹 및 팀과 작업
       * [그룹 및 팀과 작업](people-teams-and-groups/work-with-groups-and-teams/work-with-groups-and-teams.md)
       * [Adobe Workfront의 그룹과 팀 비교](people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md)
-   * 팀 요청 작업 {#work-with-team-requests}
+   * 팀 요청 {#work-with-team-requests}을(를) 사용하여 작업
       * [팀 요청 작업](people-teams-and-groups/work-with-team-requests/work-with-team-requests.md)
       * [팀 요청 개요](people-teams-and-groups/work-with-team-requests/team-requests-overview.md)
       * [작업 및 팀 요청 관리](people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md)
-   * 팀 및 그룹에 대한 팁, 요령 및 문제 해결 {#tips-tricks-people-teams-groups}
+   * 팀 및 그룹 {#tips-tricks-people-teams-groups}에 대한 팁, 요령 및 문제 해결
       * [팀 및 그룹에 대한 팁, 요령 및 문제 해결](people-teams-and-groups/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-grps.md)
       * [사용자 이름이 이미 사용 중입니다.](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
 * 보고 {#reporting}
    * [보고서 및 대시보드: 문서 색인](reports-and-dashboards/reports-and-dashboards-overview.md)
    * 캔버스 대시보드 {#canvas-dashboards}
       * [캔버스 대시보드](reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
-      * 캔버스 대시보드 관리 {#manage-canvas-dashboards}
+      * 캔버스 대시보드 {#manage-canvas-dashboards} 관리
          * [캔버스 대시보드 관리](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
          * [캔버스 대시보드 시작](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)
          * [캔버스 대시보드에서 보고서 추가, 제거 또는 정렬](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)
@@ -1568,12 +1568,12 @@ ht-degree: 1%
          * [필터, 보기 및 그룹화 제거](reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)
          * [마일스톤 보기 사용](reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)
          * [열 너비 및 순서 수정](reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)
-      * 기본 제공 보고서 사용 {#built-in-reports}
+      * 기본 제공 보고서 {#built-in-reports} 사용
          * [기본 제공 보고서 사용](reports-and-dashboards/reports/using-built-in-reports/use-built-in-reports.md)
          * [보기의 기본 제공 상태 아이콘](reports-and-dashboards/reports/using-built-in-reports/built-in-status-icons-views.md)
          * [Adobe Workfront 기본 제공 보고서 사용](reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
          * [자원 가동률 보고서 개요](reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)
-      * 보고서 만들기 및 관리 {#create-manage-reports}
+      * {#create-manage-reports} 보고서 만들기 및 관리
          * [보고서 만들기 및 관리](reports-and-dashboards/reports/creating-and-managing-reports/create-manage-reports.md)
          * [보고서 만들기](reports-and-dashboards/reports/creating-and-managing-reports/create-report.md)
          * [사용자 지정 보고서 만들기](reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)
@@ -1595,7 +1595,7 @@ ht-degree: 1%
          * [보고서 소유자 변경](reports-and-dashboards/reports/creating-and-managing-reports/change-owner-report.md)
          * [업데이트 영역에 대한 보고서](reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)
          * [사용자 위임 보고서 만들기](reports-and-dashboards/reports/creating-and-managing-reports/create-user-delegation-report.md)
-      * 보고서의 계산된 사용자 정의 데이터 {#calculated-custom-data}
+      * 보고서 {#calculated-custom-data}의 계산된 사용자 지정 데이터
          * [보고서의 계산된 사용자 정의 데이터](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
          * [계산된 데이터 표현식 개요](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)
          * [계산된 사용자 정의 필드와 계산된 열 비교](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md)
@@ -1604,7 +1604,7 @@ ht-degree: 1%
          * [계산된 사용자 정의 필드 예: 문제 사용자 정의 양식에 문제 작성자의 관리자 표시](reports-and-dashboards/reports/calc-cstm-data-reports/custom-field-manager-issue-creator-on-issue-form.md)
          * [계산된 사용자 정의 필드 예: 사용자 정의 양식에 상태 타임스탬프 표시](reports-and-dashboards/reports/calc-cstm-data-reports/example-status-timestamp-in-calculated-field.md)
          * [계산된 사용자 정의 필드 예: 필드의 편집 내역 표시](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-field-example-edit-history-of-another-field.md)
-      * 사용자 정의 보기, 필터 및 그룹화 샘플 {#custom-view-samples}
+      * 사용자 지정 보기, 필터 및 그룹화 샘플 {#custom-view-samples}
          * [사용자 정의 보기, 필터링 및 그룹화 샘플: 문서 인덱스](reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
          * [보고서 또는 목록: 객체와 연관된 사용자를 표시합니다.](reports-and-dashboards/reports/custom-view-filter-grouping-samples/display-object-users-in-report.md)
          * [필터: 불완전한 프로젝트 간 전임 작업 표시](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-predecessors.md)
@@ -1698,7 +1698,7 @@ ht-degree: 1%
          * [보고 활동에 대한 보고서 만들기](reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md)
          * [대시보드에서 보고서를 구성하는 방법 이해](reports-and-dashboards/reports/report-usage/understand-how-organize-reports-dashboard.md)
          * [보고서 사용 보기](reports-and-dashboards/reports/report-usage/view-report-usage.md)
-      * 캘린더 {#calendars}
+      * 일정 {#calendars}
          * [캘린더: 기사 색인](reports-and-dashboards/reports/calendars/calendars.md)
          * [달력 보고서 개요](reports-and-dashboards/reports/calendars/calendar-reports-overview.md)
          * [달력 보고서에서 사용자 정의 날짜 필드 사용](reports-and-dashboards/reports/calendars/use-custom-dates.md)
@@ -1710,7 +1710,7 @@ ht-degree: 1%
          * [캘린더 보고서 삭제](reports-and-dashboards/reports/calendars/delete-a-calendar-report.md)
          * [캘린더 보고서 복사](reports-and-dashboards/reports/calendars/copy-a-calendar-report.md)
          * [달력 보고서에 임시 이벤트 추가](reports-and-dashboards/reports/calendars/add-ad-hoc-events.md)
-      * 보고서에 대한 팁, 요령 및 문제 해결 {#troubleshooting-tips-tricks-reports}
+      * 보고서 {#troubleshooting-tips-tricks-reports}에 대한 팁, 요령 및 문제 해결
          * [보고서에 대한 팁, 요령 및 문제 해결](reports-and-dashboards/reports/tips-tricks-and-troubleshooting/tips-troubleshooting-reports.md)
          * [보고서 FAQ](reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)
          * [캘린더에 오류 메시지: &quot;이 캘린더에는 비활성화된 사용자의 보기 권한이 있습니다.&quot;](reports-and-dashboards/reports/tips-tricks-and-troubleshooting/error-message-calendar.md)
@@ -1723,7 +1723,7 @@ ht-degree: 1%
          * [대시보드 이해](reports-and-dashboards/dashboards/understanding-dashboards/understand-dashboards.md)
          * [대시보드 시작](reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md)
          * [보고서가 대시보드에 표시되는 방식 이해](reports-and-dashboards/dashboards/understanding-dashboards/understand-how-reports-display-dashboard.md)
-      * 대시보드 만들기 및 관리 {#create-dashboards}
+      * 대시보드 {#create-dashboards} 만들기 및 관리
          * [대시보드 만들기 및 관리](reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md)
          * [대시보드 만들기](reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)
          * [대시보드에 보고서 추가](reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)
@@ -1759,7 +1759,7 @@ ht-degree: 1%
    * 리소스 관리 {#resource-management}
       * [리소스 관리](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
       * [리소스 관리 시작](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
-   * Adobe Workfront의 리소스 계획 {#resource-planning-in-adobe-workfront}
+   * Adobe Workfront {#resource-planning-in-adobe-workfront}의 리소스 계획
       * [리소스 계획: 문서 색인](resource-mgmt/resource-planning/resource-planning-overview.md)
       * 리소스 풀 {#resource-pools}
          * [리소스 풀](resource-mgmt/resource-planning/resource-pools/resource-pools.md)
@@ -1825,7 +1825,7 @@ ht-degree: 1%
       * [문서 승인 개요](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * [문서 의사 결정 상태 개요](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
       * [Frame.io로 자산 검토 및 승인 시작](review-and-approve-work/document-reviews-and-approvals/frame-wf-get-started.md)
-      * [자산 및 문서 승인 설정 및 관리]{#manage-asset-review-and-approval}
+      * 자산 및 문서 승인 설정 및 관리 {#manage-asset-review-and-approval}
          * [자산 및 문서 승인 설정 및 관리: 문서 색인](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
          * [문서 검토 또는 승인 요청 만들기](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
          * [Frame.io 자산에 대한 검토 또는 승인 요청을 만듭니다.](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-request-for-frame-asset.md)
@@ -1833,7 +1833,7 @@ ht-degree: 1%
          * [에셋 또는 문서에서 승인자 또는 검토자 제거](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
          * [자산 및 문서에 대한 승인 템플릿 만들기](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
          * [연결된 Workfront 프로젝트에 Frame.io 자산 추가](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/add-frame-asset-to-connected-project.md)
-      * 에셋 및 문서 승인 및 검토 {#review-and-approve-documents}
+      * 자산 및 문서 {#review-and-approve-documents} 승인 및 검토
          * [문서 승인 및 검토: 문서 색인](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
          * [문서 검토](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
          * [문서 승인](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
@@ -1852,7 +1852,7 @@ ht-degree: 1%
          * [증명 보안 개요](review-and-approve-work/proofing/proofing-overview/proof-security-overview.md)
          * [증명 진행 상황 및 상태 개요](review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md)
          * [웹 증명 뷰어와 데스크탑 증명 뷰어의 차이점 개요](review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)
-      * 증명 만들기 {#create-proofs}
+      * 증명 {#create-proofs} 만들기
          * [증명 만들기](review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)
          * [개인 증명 기본값 구성](review-and-approve-work/proofing/creating-proofs-within-workfront/set-proof-defaults.md)
          * [여러 페이지로 된 증명 만들기](review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)
@@ -1862,9 +1862,9 @@ ht-degree: 1%
          * [문서에 대한 증명 만들기](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md)
          * [기본 워크플로를 사용하여 고급 증명 만들기](review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
          * [자동화된 워크플로를 사용하여 고급 증명 만들기](review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
-      * Adobe Workfront에서 증명 관리 {#manage-proofs-in-workfront}
+      * Adobe Workfront {#manage-proofs-in-workfront}에서 증명 관리
          * [Adobe Workfront 내에서 증명 관리](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md)
-         * 증명 관리 {#manage-proofs}
+         * 증명 {#manage-proofs} 관리
             * [증명 관리](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs/manage-proofs.md)
             * [증명 설정 편집](review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md)
             * [Adobe Workfront 내에서 증명 요약 인쇄](review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md)
@@ -1873,13 +1873,13 @@ ht-degree: 1%
             * [Adobe Workfront 내의 증명에 대한 활동 보기](review-and-approve-work/proofing/managing-proofs-within-workfront/view-activity-on-proof-in-wf.md)
             * [증명 승인 보고서 사용](review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md)
             * [Adobe Workfront에서 Workfront Proof 액세스](review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)
-         * 증명 버전 관리 {#manage-proof-versions}
+         * 증명 버전 {#manage-proof-versions} 관리
             * [증명 버전 관리](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/manage-proof-versions.md)
             * [증명의 새 버전 만들기](review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md)
             * [증명 버전 보기](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-proof-versions.md)
             * [증명 버전 세부 정보 보기 및 관리](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-version-details.md)
             * [증명 버전 다운로드](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/download-versions.md)
-         * 증명 검토자 관리 {#manage-proof-reviewers}
+         * 증명 검토자 {#manage-proof-reviewers} 관리
             * [증명 검토자 관리](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-reviewers/manage-proof-reviewers.md)
             * [증명에 대한 액세스 및 구독 설정 구성](review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
             * [Adobe Workfront 내에서 증명 공유](review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
@@ -1887,13 +1887,13 @@ ht-degree: 1%
          * 증명 알림 관리 {#manage-proof-notifications}
             * [증명 알림 관리](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-notifications/manage-proof-notifications.md)
             * [증명 댓글 및 결정에 대한 알림 관리](review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md)
-         * 증명 기한 관리 {#manage-proof-deadlines}
+         * 증명 기한 {#manage-proof-deadlines} 관리
             * [증명 기한 관리](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/manage-proof-deadlines.md)
             * [기존 기본 증명의 기한 설정](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-deadline-basic-proof.md)
             * [단계에 대한 기한 추가, 편집 또는 삭제](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/add-edit-delete-deadline.md)
             * [개별 검토자 기한 설정](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-individual-deadlines.md)
             * [개별 검토자 기한 제거](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/remove-individual-deadlines.md)
-         * 자동화된 증명 관리 {#manage-automated-proofs}
+         * 자동화된 증명 {#manage-automated-proofs} 관리
             * [자동화된 증명 관리](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-automated-proofs/manage-automated-proofs.md)
             * [증명에서 자동화된 워크플로 단계 보기](review-and-approve-work/proofing/managing-proofs-within-workfront/view-aw-stages-proof.md)
             * [증명에서 활성 단계 보기](review-and-approve-work/proofing/managing-proofs-within-workfront/view-active-stages-proof.md)
@@ -1901,16 +1901,16 @@ ht-degree: 1%
             * [증명 단계 및 검토자 편집](review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-stages-and-reviewers.md)
             * [증명에서 기본 워크플로를 자동화된 워크플로로 변환](review-and-approve-work/proofing/managing-proofs-within-workfront/convert-basic-automatic-workflow.md)
             * [증명에서 자동화된 워크플로에 단계 및 사용자 추가](review-and-approve-work/proofing/managing-proofs-within-workfront/add-stages-users-to-automated-workflow-proof.md)
-      * Desktop Proof Viewer 사용 {#use-the-desktop-proofing-viewer}
+      * 데스크톱 증명 뷰어 {#use-the-desktop-proofing-viewer} 사용
          * [Desktop Proof Viewer 사용](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/use-desktop-proofing-viewer.md)
          * [Desktop Proof Viewer 설치](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)
          * [Desktop Proofing 뷰어 업데이트](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)
          * [Desktop Proofing Viewer에서 증명 열기](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/open-proofs-in-dpv.md)
          * [Desktop Proofing Viewer에서 비대화형 콘텐츠 검토](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/review-non-interactive-content-in-desktop-proofing-viewer.md)
          * [FAQ - 데스크탑 증명 뷰어](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/faq-desktop-proofing-viewer.md)
-      * Adobe Workfront에서 증명 검토 {#review-proofs-in-workfront}
+      * Adobe Workfront {#review-proofs-in-workfront}에서 증명 검토
          * [Adobe Workfront 내에서 증명 검토](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)
-         * 증명 검토 {#review-a-proof}
+         * 증명 {#review-a-proof} 검토
             * [증명 검토](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md)
             * [증명에서 컨텐츠 보기](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-a-proof.md)
             * [증명 내 영역 측정](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/measure-an-area-proof.md)
@@ -1927,7 +1927,7 @@ ht-degree: 1%
             * [증명 뷰어에서 이전 증명 버전 보기](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-previous-version.md)
             * [증명 뷰어에서 대화형 증명 해상도 변경](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md)
             * [증명 뷰어 설정 구성](review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)
-         * 증명에 주석 달기 {#comment-on-a-proof}
+         * 증명 {#comment-on-a-proof}에 주석 달기
             * [증명에 대한 댓글](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)
             * [증명에 주석 달기](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md)
             * [증명 댓글 보기 및 회신](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md)
@@ -1937,12 +1937,12 @@ ht-degree: 1%
             * [증명 주석 삭제](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/delete-proof-comment.md)
             * [증명 댓글에 작업 사용](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md)
             * [사용자를 태그로 지정하여 증명 공유](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md)
-         * 증명에 대한 결정 {#make-decision-on-proof}
+         * 증명 {#make-decision-on-proof}에 대해 결정
             * [증명에 대한 결정](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decision-on-proof.md)
             * [증명 승인](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/approve-proof.md)
             * [증명 뷰어에서 증명 결정](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)
             * [증명에서 기존 결정 변경](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/change-existing-decision.md)
-      * Adobe Workfront 증명을 위한 팁, 요령 및 문제 해결 {#ttt-proofing-in-workfront}
+      * Adobe Workfront {#ttt-proofing-in-workfront}에서 증명을 위한 팁, 요령 및 문제 해결
          * [Adobe Workfront 내의 증명에 대한 팁, 요령 및 문제 해결](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-proofing.md)
          * [Adobe Workfront에서 증명 라이선스가 있는 사용자 나열](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/report-which-users-have-proofing-license-in-wf.md)
          * [증명 권한 프로필 필드를 일괄적으로 편집](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/edit-proof-profile-bulk.md)
@@ -1950,7 +1950,7 @@ ht-degree: 1%
          * [FAQ: Adobe Workfront 내의 증명 - 미국 - EMEA로 마이그레이션](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
          * [업로드 후 문서 이름이 변경되었으며 잘못된 문자가 포함되어 있습니다.](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
          * [포함된 비디오로 PowerPoint 증명](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
-   * 승인을 위한 팁, 요령 및 문제 해결 {#ttt-approvals}
+   * 승인 {#ttt-approvals}에 대한 팁, 요령 및 문제 해결
       * [승인을 위한 팁, 요령 및 문제 해결](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [모든 사용자에 대한 증명 및 문서 결정 수 보기](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
 * 타임시트 {#timesheets}
@@ -1959,7 +1959,7 @@ ht-degree: 1%
       * [타임시트 세부 정보: 문서 색인](timesheets/timesheets/timesheets.md)
       * [타임시트 개요](timesheets/timesheets/timesheets-overview.md)
       * [타임시트 레이아웃 개요](timesheets/timesheets/timesheet-layout.md)
-   * 타임시트 만들기 및 관리 {#create-and-manage-timesheets-in-adobe-workfront}
+   * 타임시트 {#create-and-manage-timesheets-in-adobe-workfront} 만들기 및 관리
       * [타임시트 만들기 및 관리: 문서 인덱스](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
       * [타임시트 프로필 만들기, 편집 및 할당](timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
       * [타임시트의 시간 유형 및 가용성 정의](timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
@@ -1974,10 +1974,10 @@ ht-degree: 1%
       * [Adobe Workfront에서 타임시트 삭제](timesheets/create-and-manage-timesheets/delete-timesheets.md)
       * [수동으로 타임시트 생성](timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)
       * [타임시트 목록 내보내기](timesheets/create-and-manage-timesheets/export-timesheets.md)
-   * 시간 기록 방법 구성 {#configure-timesheet-preferences}
+   * 시간이 기록되는 방식 구성 {#configure-timesheet-preferences}
       * [시간 기록 방법 구성: 문서 색인](timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
       * [시간이 시간 단위로 기록되는지 또는 일 단위로 기록되는지 구성](timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)
-   * 타임시트에 대한 팁, 요령 및 문제 해결 {#tips-tricks-troubleshooting-for-timesheets}
+   * 타임시트 {#tips-tricks-troubleshooting-for-timesheets}에 대한 팁, 요령 및 문제 해결
       * [팁, 요령 및 문제 해결: 문서 색인](timesheets/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-timesheets.md)
       * [타임시트의 작업 주 시작일 수정](timesheets/tips-tricks-and-troubleshooting/correct-start-day-of-work-week.md)
       * [재무 다시 계산 작업이 요금이 변경될 때 기록 시간에 영향을 주지 않도록 합니다.](timesheets/tips-tricks-and-troubleshooting/prevent-recalculate-finance-action.md)
@@ -2008,7 +2008,7 @@ ht-degree: 1%
 * Adobe Workfront 목표 {#adobe-workfront-goals}
    * [Adobe Workfront 목표](workfront-goals/workfront-goals.md)
    * [Adobe Workfront 목표 개요](workfront-goals/goal-management/wf-goals-overview.md)
-   * Adobe Workfront 목표의 목표 관리 {#goal-management}
+   * Adobe Workfront 목표 {#goal-management}의 목표 관리
       * [Adobe Workfront 목표의 목표 관리](workfront-goals/goal-management/goal-management.md)
       * [Adobe Workfront 목표 시작](workfront-goals/goal-management/getting-started-with-wf-goals.md)
       * [Adobe Workfront 목표의 목표 액세스 및 열기](workfront-goals/goal-management/access-goals-in-wf-goals.md)
@@ -2025,7 +2025,7 @@ ht-degree: 1%
       * [Adobe Workfront 목표의 목표 주석 관리](workfront-goals/goal-management/manage-goal-comments.md)
       * [Adobe Workfront 목표의 목표 세부 사항 섹션에서 목표 업데이트](workfront-goals/goal-management/update-goals-in-goal-details-panel.md)
       * [Adobe Workfront 목표에서 문제 발생 목표 검토](workfront-goals/goal-management/view-in-trouble-goals.md)
-   * Adobe Workfront 목표의 목표 정렬 {#goal-alignment}
+   * Adobe Workfront 목표 {#goal-alignment}의 목표 정렬
       * [Adobe Workfront 목표의 목표 정렬](workfront-goals/goal-alignment/goal-alignment.md)
       * [Adobe Workfront 목표에서 연결하여 목표 정렬](workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
       * [결과 및 활동을 목표로 변환하여 목표 정렬](workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
@@ -2038,7 +2038,7 @@ ht-degree: 1%
       * [Adobe Workfront 목표의 목표 진행 상황 업데이트](workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
       * [Adobe Workfront 목표의 목표 목록에서 목표 관리](workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md)
       * [그래프를 검토하여 Adobe Workfront 목표의 목표 진행 트렌드를 파악합니다](workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md)
-   * Adobe Workfront 목표의 결과 및 활동 {#results-activities-adobe-workfront-goals}
+   * Adobe Workfront 목표 {#results-activities-adobe-workfront-goals}의 결과 및 활동
       * [Adobe Workfront 목표의 결과 및 활동](workfront-goals/results-and-activities/results-and-activities.md)
       * [Adobe Workfront 목표의 목표에 활동 추가](workfront-goals/results-and-activities/add-activities-to-goals.md)
       * [Adobe Workfront 목표의 목표에 결과 추가](workfront-goals/results-and-activities/add-results-to-goals.md)
@@ -2060,7 +2060,7 @@ ht-degree: 1%
       * [Adobe Workfront Planning AI Assistant 개요](planning/general/planning-ai-assistant-overview.md)
       * [Adobe Workfront Planning 현재 릴리스 활동](planning/general/release-activity.md)
       * [Adobe Workfront Planning의 2023년 릴리스 활동 아카이브](planning/general/release-activity-archives-2023.md)
-   * Adobe Workfront Planning 아키텍처 {#adobe-workfront-planning-architecture}
+   * Adobe Workfront 계획 아키텍처 {#adobe-workfront-planning-architecture}
       * [아키텍처: 문서 인덱스](planning/architecture/architecture-information.md)
       * [작업 공간 만들기](planning/architecture/create-workspaces.md)
       * [레코드 유형 개요](planning/architecture/overview-of-record-types.md)
@@ -2072,13 +2072,13 @@ ht-degree: 1%
       * [레코드 유형 삭제](planning/architecture/delete-record-types.md)
       * [레코드 종류 및 레코드 연결의 예](planning/architecture/example-connect-record-types-and-records.md)
       * [작업 공간 템플릿 목록](planning/architecture/workspace-templates.md)
-   * Adobe Workfront Planning 필드 {#adobe-workfront-planning-fields}
+   * Adobe Workfront 계획 필드 {#adobe-workfront-planning-fields}
       * [필드: 문서 색인](planning/fields/fields-information.md)
       * [필드 개요](planning/fields/fields-overview.md)
       * [필드 만들기](planning/fields/create-fields.md)
       * [필드 설정 편집](planning/fields/edit-fields.md)
       * [필드 삭제](planning/fields/delete-fields.md)
-      * [공식 필드 개요](planning/fields/formula-fields.md)
+      * [수식 필드 개요](planning/fields/formula-fields.md)
       * [기본 필드 개요](planning/fields/primary-field-overview.md)
    * Adobe Workfront Planning 액세스 {#adobe-workfront-planning-access}
       * [Adobe Workfront Planning 액세스 정보: 문서 색인](planning/access/access-information.md)
@@ -2100,7 +2100,7 @@ ht-degree: 1%
       * [레코드에 표지 이미지 추가](planning/records/add-a-cover-image-to-a-record.md)
       * [레코드 페이지 레이아웃 관리](planning/records/manage-the-record-page.md)
       * [Adobe Workfront 오브젝트의 계획 섹션에서 레코드 관리](planning/records/manage-records-in-planning-section.md)
-   * Adobe Workfront Planning 보기 {#adobe-workfront-planning-views}
+   * Adobe Workfront 계획 보기 {#adobe-workfront-planning-views}
       * [보기: 문서 색인](planning/views/views-information.md)
       * [레코드 보기 관리](planning/views/manage-record-views.md)
       * [표 보기 관리](planning/views/manage-the-table-view.md)
@@ -2114,37 +2114,37 @@ ht-degree: 1%
 * Adobe Workfront Fusion {#adobe-workfront-fusion}
    * [Adobe Workfront Fusion](workfront-fusion/workfront-fusion-2.md)
    * [Fusion 액세스 테이블 템플릿](/help/quicksilver/workfront-fusion/fusion-access-table-template.md)
-   * Adobe Workfront Fusion 시작 {#get-started-with-workfront-fusion}
+   * Adobe Workfront Fusion {#get-started-with-workfront-fusion} 시작
       * [Adobe Workfront Fusion 시작](workfront-fusion/get-started/get-started.md)
       * [Adobe Workfront Fusion 개요](workfront-fusion/get-started/workfront-fusion-overview.md)
       * [Workfront Fusion의 새로운 경험 탐색](workfront-fusion/get-started/new-fusion-ui.md)
       * [Adobe Workfront Fusion의 기본 용어](workfront-fusion/get-started/basic-terms.md)
       * 빌드 연습 시나리오 {#practice-scenarios-in-workfront-fusion}
          * [연습 시나리오 만들기](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-practice-scenarios.md)
-         * [에서 기본 시나리오 만들기 [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md)
-         * [의 기본 시나리오에 트리거 모듈 추가 [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-trigger-to-simple-scenario.md)
-         * [함수를 사용하여 의 간단한 시나리오로 프로젝트 업데이트 [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/update-a-project-simple-scenario.md)
-         * [의 기본 시나리오에 필터 추가 [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-filter-simple-scenario.md)
-         * [의 기본 시나리오에 웹후크 추가 [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-a-webhook.md)
+         * [ [!DNL Adobe Workfront Fusion]에서 기본 시나리오 만들기](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md)
+         * [ [!DNL Adobe Workfront Fusion]의 기본 시나리오에 트리거 모듈 추가](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-trigger-to-simple-scenario.md)
+         * [함수를 사용하여  [!DNL Adobe Workfront Fusion]의 간단한 시나리오로 프로젝트를 업데이트하십시오.](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/update-a-project-simple-scenario.md)
+         * [ [!DNL Adobe Workfront Fusion]의 기본 시나리오에 필터 추가](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-filter-simple-scenario.md)
+         * [ [!DNL Adobe Workfront Fusion]의 기본 시나리오에 웹후크 추가](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-a-webhook.md)
       * [Adobe Workfront Fusion에서 연습 자동화 시나리오 만들기](workfront-fusion/get-started/create-a-practice-automation-scenario.md)
       * [Adobe Workfront Fusion에서 연습 통합 시나리오 만들기](workfront-fusion/get-started/create-a-practice-scenario.md)
       * [Adobe Workfront Fusion 성능 보호 기능](workfront-fusion/get-started/fusion-performance-guardrails.md)
       * [Adobe Workfront Fusion 액세스용 IP 주소](workfront-fusion/get-started/ip-addresses-for-fusion.md)
       * [Adobe Workfront Fusion 라이선스](workfront-fusion/get-started/license-automation-vs-integration.md)
-      * [의 작업 [!DNL Adobe Workfront Fusion]](workfront-fusion/get-started/operations-in-workfront-fusion.md)
+      * [ [!DNL Adobe Workfront Fusion]의 작업](workfront-fusion/get-started/operations-in-workfront-fusion.md)
       * [Adobe Workfront Fusion 비디오 개요](/help/quicksilver/workfront-fusion/get-started/fusion-basics-videos.md)
    * Adobe Workfront Fusion 기본 사항 {#workfront-fusion-basics}
       * [Adobe Workfront Fusion 기본 사항](workfront-fusion/workfront-fusion-basics/workfront-fusion-basics.md)
       * [Adobe Workfront Fusion에서 프로필 설정 변경](workfront-fusion/workfront-fusion-basics/change-profile-settings.md)
       * [Adobe Workfront Fusion에서 사용자 데이터 삭제](workfront-fusion/workfront-fusion-basics/delete-user-data.md)
       * [Adobe Workfront Fusion FAQ](workfront-fusion/workfront-fusion-basics/faq.md)
-   * Adobe Experience Cloud의 Adobe Workfront Fusion {#fusion-in-experience-cloud}
+   * Adobe Experience Cloud {#fusion-in-experience-cloud}의 Adobe Workfront Fusion
       * [Adobe Experience Cloud의 Adobe Workfront Fusion](workfront-fusion/fusion-in-admin-console/fusion-in-admin-console.md)
       * [Adobe 통합 경험의 Adobe Workfront Fusion](workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md)
       * [Adobe Admin Console을 통해 Adobe Workfront Fusion에 사용자 추가](/help/quicksilver/workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md)
       * [Adobe Admin Console을 통해 Adobe Workfront Fusion에서 사용자 삭제](/help/quicksilver/workfront-fusion/fusion-in-admin-console/delete-fusion-users-admin-console.md)
       * [플랫폼 기반 관리의 차이점(Adobe Workfront Fusion/Adobe 비즈니스 플랫폼)](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-adobe-admin-console.md)
-   * Adobe Workfront Fusion의 연결 {#connections-in-fusion}
+   * Adobe Workfront Fusion {#connections-in-fusion}의 연결
       * [Adobe Workfront Fusion의 연결](workfront-fusion/connections/connections.md)
       * [연결 개요](workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md)
       * [Adobe Workfront Fusion에서 연결 만들기](workfront-fusion/connections/connection-instruction-toc.md)
@@ -2157,7 +2157,7 @@ ht-degree: 1%
       * [Adobe Workfront Fusion HTTP > OAuth 2.0 요청 모듈 만들기 를 통해 MS Graph REST API를 호출합니다](workfront-fusion/connections/call-the-ms-graph-rest-api.md)
       * [Adobe Workfront Fusion의 키](workfront-fusion/connections/keys.md)
       * [웹 서비스에서 웹후크 받기](workfront-fusion/connections/receive-a-webhook-from-a-web-service.md)
-   * Adobe Workfront Fusion 오류 {#errors-in-fusion}
+   * Adobe Workfront Fusion {#errors-in-fusion}에서 오류 발생
       * [Adobe Workfront Fusion 오류](workfront-fusion/errors/errors.md)
       * [Adobe Workfront Fusion에서 오류 처리](workfront-fusion/errors/error-processing.md)
       * [Adobe Workfront Fusion에서 오류 처리](workfront-fusion/errors/error-handling.md)
@@ -2165,7 +2165,7 @@ ht-degree: 1%
       * [Adobe Workfront Fusion에서 오류 처리 다시 시도](workfront-fusion/errors/retry.md)
       * [Adobe Workfront Fusion에서 오류 처리 실행](workfront-fusion/errors/throw.md)
       * [Adobe Workfront Fusion의 고급 오류 처리](workfront-fusion/errors/advanced-error-handling.md)
-   * Adobe Workfront Fusion의 함수 {#functions-in-fusion}
+   * Adobe Workfront Fusion {#functions-in-fusion}의 함수
       * [Adobe Workfront Fusion의 함수](workfront-fusion/functions/functions.md)
       * [Adobe Workfront Fusion의 일반 함수](workfront-fusion/functions/general-functions.md)
       * [Adobe Workfront Fusion의 함수를 사용하여 항목 매핑](workfront-fusion/functions/map-using-functions.md)
@@ -2176,14 +2176,14 @@ ht-degree: 1%
       * [Adobe Workfront Fusion의 배열 함수](workfront-fusion/functions/array-functions.md)
       * [Adobe Workfront Fusion의 날짜 및 시간 서식에 대한 토큰](workfront-fusion/functions/tokens-for-date-and-time-formatting.md)
       * [Adobe Workfront Fusion의 날짜 및 시간 구문 분석용 토큰](workfront-fusion/functions/tokens-for-date-and-time-parsing.md)
-   * Adobe Workfront Fusion의 매핑 {#mapping-in-fusion}
+   * Adobe Workfront Fusion {#mapping-in-fusion}에서 매핑
       * [Adobe Workfront Fusion의 매핑](workfront-fusion/mapping/mapping.md)
       * [Adobe Workfront Fusion의 한 모듈에서 다른 모듈로 정보 매핑](workfront-fusion/mapping/map-information-between-modules.md)
       * [Adobe Workfront Fusion의 매핑 파일 정보](workfront-fusion/mapping/about-mapping-files.md)
       * [Adobe Workfront Fusion의 항목 데이터 유형](workfront-fusion/mapping/item-data-types.md)
       * [Adobe Workfront Fusion에서 배열 매핑](workfront-fusion/mapping/map-an-array.md)
       * [Adobe Workfront Fusion에서 문자 강제 변환](workfront-fusion/mapping/type-coercion.md)
-   * Adobe Workfront Fusion의 모듈 {#modules-in-fusion}
+   * Adobe Workfront Fusion {#modules-in-fusion}의 모듈
       * [Adobe Workfront Fusion의 모듈](workfront-fusion/modules/modules.md)
       * [모듈 유형](workfront-fusion/modules/module-types.md)
       * [Adobe Workfront Fusion에서 모듈 설정 구성](workfront-fusion/modules/configure-a-modules-settings.md)
@@ -2195,13 +2195,13 @@ ht-degree: 1%
       * [Adobe Workfront Fusion의 반복자 모듈](workfront-fusion/modules/iterator-module.md)
       * [Adobe Workfront Fusion의 HTTP 요청 메서드](workfront-fusion/modules/http-request-methods.md)
       * [Adobe Workfront Fusion의 텍스트 파서 문제 해결](workfront-fusion/modules/text-parser-troubleshooting.md)
-   * Adobe Workfront Fusion의 조직 {#organizations-in-fusion}
+   * Adobe Workfront Fusion {#organizations-in-fusion}의 조직
       * [Adobe Workfront Fusion의 조직](workfront-fusion/organizations/organizations.md)
       * [Adobe Workfront Fusion 조직 및 팀](workfront-fusion/organizations/organizations-and-teams.md)
       * [Adobe Workfront Fusion에서 조직에 사용자 추가](workfront-fusion/organizations/add-user-to-an-organization.md)
       * [Adobe Workfront Fusion에서 사용자 관리](workfront-fusion/organizations/manage-fusion-users.md)
       * [Adobe Workfront Fusion의 조직 역할](workfront-fusion/organizations/organization-roles.md)
-   * Adobe Workfront Fusion의 시나리오 {#scenarios-in-fusion}
+   * Adobe Workfront Fusion {#scenarios-in-fusion}의 시나리오
       * [Adobe Workfront Fusion의 시나리오](workfront-fusion/scenarios/scenarios.md)
       * [Adobe Workfront Fusion 시나리오 개요](workfront-fusion/scenarios/scenario-overview.md)
       * [Adobe Workfront Fusion에서 시나리오 만들기](workfront-fusion/scenarios/create-a-scenario.md)
@@ -2213,8 +2213,8 @@ ht-degree: 1%
       * [Adobe Workfront Fusion의 시나리오 실행, 주기 및 단계](workfront-fusion/scenarios/scenario-execution-cycles-phases.md)
       * [Adobe Workfront Fusion에서 시나리오의 실행 내역 보기](workfront-fusion/scenarios/view-scenario-execution-history.md)
       * [Adobe Workfront Fusion의 불완전한 실행 보기 및 해결](workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md)
-      * [에서 잠긴 시나리오 보기 및 관리 [!DNL Adobe Workfront Fusion]](workfront-fusion/scenarios/view-and-manage-locked-scenarios.md)
-      * [에서 모듈을 새 버전으로 업데이트 [!DNL Adobe Workfront Fusion] 시나리오](workfront-fusion/scenarios/update-module-to-new-version.md)
+      * [잠긴 시나리오 보기 및 관리 [!DNL Adobe Workfront Fusion]](workfront-fusion/scenarios/view-and-manage-locked-scenarios.md)
+      * [모듈을  [!DNL Adobe Workfront Fusion] 시나리오](workfront-fusion/scenarios/update-module-to-new-version.md)의 새 버전으로 업데이트
       * [Adobe Workfront Fusion에서 시나리오 예약](workfront-fusion/scenarios/schedule-a-scenario.md)
       * [Adobe Workfront Fusion에서 시나리오 활성화 또는 비활성화](workfront-fusion/scenarios/activate-or-inactivate-scenario.md)
       * [Adobe Workfront Fusion의 시나리오에 필터 추가](workfront-fusion/scenarios/add-a-filter-to-a-scenario.md)
@@ -2222,7 +2222,7 @@ ht-degree: 1%
       * [AI를 사용하여 모듈 생성](/help/quicksilver/workfront-fusion/scenarios/add-a-module-with-ai.md)
       * Adobe Workfront Fusion 시나리오 템플릿 {#fusion-scenario-templates}
          * [시나리오 템플릿](workfront-fusion/scenarios/templates/fusion-templates.md)
-         * [[!DNL Fusion] 템플릿 개요](/help/quicksilver/workfront-fusion/scenarios/templates/fusion-templates-overview.md)
+         * [[!DNL Fusion]개 템플릿 개요](/help/quicksilver/workfront-fusion/scenarios/templates/fusion-templates-overview.md)
          * [Adobe Workfront Fusion에서 새 템플릿 만들기](workfront-fusion/scenarios/templates/create-new-fusion-templates.md)
          * [Publish 및 Adobe Workfront Fusion 템플릿 공유](workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md)
          * [Adobe Workfront Fusion 템플릿을 사용하여 시나리오 만들기](workfront-fusion/scenarios/templates/create-scenarios-with-fusion-templates.md)
@@ -2313,7 +2313,7 @@ ht-degree: 1%
       * [Microsoft Word 템플릿 모듈](workfront-fusion/apps-and-their-modules/microsoft-word-templates-modules.md)
       * [MIME 모듈](workfront-fusion/apps-and-their-modules/mime.md)
       * [NetSuite 모듈](workfront-fusion/apps-and-their-modules/netsuite.md)
-      * [[!DNL OpenAI(ChatGPT & DALL-E)] 모듈](workfront-fusion/apps-and-their-modules/openai-chatgpt-modules.md)
+      * [[!DNL OpenAI(ChatGPT & DALL-E)]개 모듈](workfront-fusion/apps-and-their-modules/openai-chatgpt-modules.md)
       * [Qualtrics 모듈](workfront-fusion/apps-and-their-modules/qualtrics-modules.md)
       * [Quickbase 모듈](workfront-fusion/apps-and-their-modules/quickbase-modules.md)
       * [Salesforce 모듈](workfront-fusion/apps-and-their-modules/salesforce-modules.md)
@@ -2331,30 +2331,30 @@ ht-degree: 1%
       * [모듈 확장](workfront-fusion/apps-and-their-modules/widen-modules.md)
       * [Workday 모듈](workfront-fusion/apps-and-their-modules/workday-modules.md)
       * [XML](workfront-fusion/apps-and-their-modules/xml-modules.md)
-   * Adobe Workfront Fusion의 웹훅 {#webhooks-in-fusion}
+   * Adobe Workfront Fusion {#webhooks-in-fusion}의 웹후크
       * [Adobe Workfront Fusion의 웹훅](workfront-fusion/webhooks/webhooks.md)
       * [Adobe Workfront Fusion의 즉각적인 트리거(웹후크)](workfront-fusion/webhooks/instant-triggers-webhooks.md)
 * Adobe Workfront 통합 {#adobe-workfront-integrations}
    * [Adobe Workfront 통합](workfront-integrations-and-apps/workfront-integrations.md)
    * [Adobe Workfront 기본 제공 통합 개요](workfront-integrations-and-apps/built-in-integrations-non-admin.md)
    * [Adobe Workfront 통합 메서드](workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md)
-   * Creative Cloud을 위한 Adobe Workfront {#workfront-for-creative-cloud}
+   * Creative Cloud {#workfront-for-creative-cloud}에 대한 Adobe Workfront
       * [Creative Cloud을 위한 Adobe Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)
-      * Creative Cloud 애플리케이션용 Adobe Workfront 플러그인 설치 {#install-wf-cc}
+      * Creative Cloud 응용 프로그램 {#install-wf-cc}용 Adobe Workfront 플러그인 설치
          * [Creative Cloud 애플리케이션용 Adobe Workfront 설치](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
          * [Photoshop용 Adobe Workfront 설치 및 열기](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
          * [XD용 Adobe Workfront 설치 및 열기](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
          * [설치 및 열기 [!DNL Adobe Workfront for design and video]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
-      * Creative Cloud 애플리케이션용 Adobe Workfront 플러그인을 사용한 작업 관리 {#manage-wf-cc}
+      * Creative Cloud 응용 프로그램 {#manage-wf-cc}용 Adobe Workfront 플러그인으로 작업 관리
          * [Creative Cloud 애플리케이션용 Adobe Workfront 플러그인을 사용한 작업 관리](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
          * [Adobe Workfront 플러그인을 사용하여 작업 찾기](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-find-work.md)
          * [Adobe Workfront 플러그인을 사용하여 작업 항목 정보 보기](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-view-work-info.md)
          * [Adobe Workfront 플러그인을 사용하여 작업 업데이트](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
          * [Adobe Workfront 플러그인을 사용하여 작업 항목을 완료로 표시](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
          * [Adobe Workfront 플러그인을 사용하여 시간 기록](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
-         * [관리 [!DNL Adobe Workfront] Adobe Creative Cloud의 알림](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
-      * Creative Cloud 애플리케이션용 Adobe Workfront 플러그인으로 문서 및 증명 업로드 {#upload-docs-proofs-wf-cc}
-         * [에서 문서 및 증명 업로드 [!DNL Adobe Workfront plugin] (으)로 [!DNL Creative Cloud]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
+         * [Adobe Creative Cloud의  [!DNL Adobe Workfront] 알림 관리](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
+      * Creative Cloud 응용 프로그램 {#upload-docs-proofs-wf-cc}용 Adobe Workfront 플러그인으로 문서 및 증명 업로드
+         * [ [!DNL Adobe Workfront plugin] 에서  [!DNL Creative Cloud](으)로 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Creative Cloud 애플리케이션용 Adobe Workfront 플러그인으로 문서 및 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
          * [Photoshop에서 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs-ps.md)
          * [Photoshop에서 문서 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-ps.md)
@@ -2362,9 +2362,9 @@ ht-degree: 1%
          * [XD 아트보드를 Workfront에 문서로 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
          * [InDesign에서 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-id.md)
          * [InDesign에서 문서 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-docs-id.md)
-         * [다음에서 증명 업로드 [!DNL Illustrator]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai.md)
-         * [다음에서 문서 업로드 [!DNL Illustrator]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-ai-docs.md)
-      * Illustrator 및 InDesign용 Workfront 확장 {#workfront-for-illustrator-indesign}
+         * [ [!DNL Illustrator]에서 증명 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai.md)
+         * [ [!DNL Illustrator]에서 문서 업로드](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-ai-docs.md)
+      * Illustrator 및 InDesign {#workfront-for-illustrator-indesign}용 Workfront 확장
          * [Illustrator 및 InDesign용 Workfront 확장 사용](documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)
    * Adobe Workfront for Jira {#workfront-for-jira}
       * [Adobe Workfront for Jira](workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md)
@@ -2373,7 +2373,7 @@ ht-degree: 1%
       * [Adobe Workfront과 Jira 간의 항목 연결](workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md)
       * [Jira와 Adobe Workfront 간 연결된 항목 업데이트](workfront-integrations-and-apps/use-workfront-with-jira/update-linked-items-between-jira-wf.md)
       * [Jira 활동 로그 보기](workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md)
-   * Adobe Workfront for G Suite {#workfront-for-g-suite}
+   * G Suite {#workfront-for-g-suite}용 Adobe Workfront
       * [Adobe Workfront for G Suite](workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md)
       * [G Suite용 Adobe Workfront 설치](workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)
       * [G Suite용 Workfront의 개인 정보 및 권한](workfront-integrations-and-apps/workfront-for-g-suite/privacy-and-permissions-in-g-suite.md)
@@ -2400,8 +2400,8 @@ ht-degree: 1%
       * [작업 목록에 작업으로 Outlook 전자 메일 추가](workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-as-task-to-your-work-list.md)
       * [Outlook용 Adobe Workfront에 대한 추가 정보 보기 및 로그아웃](workfront-integrations-and-apps/using-workfront-with-outlook/view-additional-infor-wf-outlook-and-log-out.md)
       * [Adobe Workfront 및 SAML 2.0에서 사용할 Office용 Outlook 활성화](workfront-integrations-and-apps/using-workfront-with-outlook/enable-outlook-for-office-for-use-with-wf-and-saml-2.md)
-   * Adobe Workfront for Microsoft Teams {#workfront-for-microsoft-teams}
-      * [[!DNL Adobe Workfront for Microsoft Teams]: 문서 색인](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md)
+   * Microsoft Teams {#workfront-for-microsoft-teams}용 Adobe Workfront
+      * [[!DNL Adobe Workfront for Microsoft Teams]: 문서 인덱스](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md)
       * [Microsoft Teams에 대한 Adobe Workfront 개요](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/workfront-for-microsoft-teams.md)
       * [Microsoft Teams용 Adobe Workfront 설치](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)
       * [Microsoft Teams에서 Adobe Workfront 액세스](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/access-workfront-from-ms-teams.md)
@@ -2416,7 +2416,7 @@ ht-degree: 1%
       * [Salesforce 사용자를 위한 Adobe Workfront 섹션 구성](workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md)
       * [Salesforce 오브젝트에서 Adobe Workfront 요청 제출](workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md)
       * [Salesforce 오브젝트에서 Adobe Workfront 프로젝트 만들기](workfront-integrations-and-apps/using-workfront-with-salesforce/create-wf-projects-from-salesforce-objects.md)
-   * Slack을 위한 Adobe Workfront {#workfront-for-slack}
+   * Slack {#workfront-for-slack}에 대한 Adobe Workfront
       * [Slack을 위한 Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-slack/use-workfront-for-slack.md)
       * [Slack을 위한 Adobe Workfront 구성](workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)
       * [Slack에서 즐겨찾기 및 최근 항목에 액세스](workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md)
@@ -2427,7 +2427,7 @@ ht-degree: 1%
       * [Slack에서 Adobe Workfront 액세스](workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)
       * [업데이트로 Slack 주석 Post](workfront-integrations-and-apps/using-workfront-with-slack/post-a-slack-comment-as-an-update.md)
       * [Slack에서 Adobe Workfront 알림 수신](workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md)
-   * Adobe Workfront과 Anaplan {#workfront-with-anaplan}
+   * Anaplan이 {#workfront-with-anaplan}인 Adobe Workfront
       * [Adobe Workfront과 Anaplan](workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md)
       * [Adobe Workfront과 Anaplan 통합 FAQ](workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration-faq.md)
       * [Anaplan 목록 항목으로 Adobe Workfront 프로젝트 업데이트 보내기](workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item.md)
@@ -2439,43 +2439,43 @@ ht-degree: 1%
       * [Adobe Workfront 캠페인 요청 또는 캠페인 프로젝트에 Anaplan 예산 할당 적용](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
 * Workfront Proof {#workfront-proof}
    * [Workfront Proof: 문서 색인](workfront-proof/workfront-proof.md)
-   * Workfront Proof 시작 {#get-started-wf-proof}
+   * Workfront Proof {#get-started-wf-proof} 시작
       * [Workfront Proof 시작하기](workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md)
-      * 워크플로 예 {#workflow-examples}
+      * 워크플로 예제 {#workflow-examples}
          * [워크플로 예](workfront-proof/wp-getstarted/workflow-examples/workflow-examples.md)
          * [Workfront Proof의 기본 증명 프로세스](workfront-proof/wp-getstarted/workflow-examples/basic-proof-process.md)
          * [Workfront Proof의 내부 검토 및 외부 검토](workfront-proof/wp-getstarted/workflow-examples/internal-external-review.md)
          * [Workfront Proof에서 디자이너 및 프로젝트 관리자 작업](workfront-proof/wp-getstarted/workflow-examples/work-designers-project-managers.md)
          * [Workfront Proof에서 프리랜서와 함께 작업하기](workfront-proof/wp-getstarted/workflow-examples/work-freelancers.md)
-      * Workfront Proof의 개인 설정 {#personal-settings-in-wf-proof}
+      * Workfront Proof {#personal-settings-in-wf-proof}의 개인 설정
          * [Workfront Proof의 개인 설정](workfront-proof/wp-getstarted/personal-settings/personal-settings.md)
          * [Workfront Proof에서 임시 증명 소유자 지정](workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md)
          * [통합 - 사용자 설정](workfront-proof/wp-getstarted/personal-settings/integrations-user-setup.md)
-      * Workfront Proof의 시스템 정보 {#system-info-wf-proof}
+      * Workfront Proof {#system-info-wf-proof}의 시스템 정보
          * [Workfront Proof의 시스템 정보](workfront-proof/wp-getstarted/system-information/system-information.md)
          * [샌드박스 테스트 환경 미리 보기 - Workfront Proof](workfront-proof/wp-getstarted/system-information/preview-sandbox.md)
          * [Workfront Proof의 언어 설정](workfront-proof/wp-getstarted/system-information/language-settings.md)
          * [Workfront Proof의 코덱](workfront-proof/wp-getstarted/system-information/codecs.md)
-      * WORKFRONT PROOF FAQ {#wf-proof-faq}
+      * Workfront Proof FAQ {#wf-proof-faq}
          * [Workfront Proof - 자주 묻는 질문](workfront-proof/wp-getstarted/faqs/faqs.md)
          * [FAQ - 증명 및 파일 만들기 및 공유](workfront-proof/wp-getstarted/faqs/faq-create-share-proofs-files.md)
          * [FAQ - 증명 검토](workfront-proof/wp-getstarted/faqs/faq-review-proofs.md)
          * [FAQ - Workfront Proof 계정](workfront-proof/wp-getstarted/faqs/faq-wp-account.md)
          * [Workfront Proof에 로그인하고 암호 및 이메일 변경](workfront-proof/wp-getstarted/faqs/log-in-change-password.md)
          * [Workfront Proof에서 시간대 설정](workfront-proof/wp-getstarted/faqs/set-timezones-in-wp.md)
-   * Workfront Proof에서 증명 및 파일 작업 {#work-with-proofs-in-wf-proof}
+   * Workfront Proof {#work-with-proofs-in-wf-proof}에서 증명 및 파일 작업
       * [Workfront Proof에서 증명 및 파일 작업](workfront-proof/wp-work-proofsfiles/wp-work-proofs-files.md)
-      * Workfront Proof의 자동화된 워크플로 {#automated-workflow-in-wf-proof}
+      * Workfront Proof {#automated-workflow-in-wf-proof}의 자동화된 워크플로
          * [Workfront Proof의 자동화된 워크플로](workfront-proof/wp-work-proofsfiles/automated-workflow/automated-workflow.md)
          * [Workfront Proof에서 자동화된 워크플로를 사용하여 증명 설정](workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md)
          * [Workfront Proof에서 자동화된 워크플로로 구성된 증명 관리](workfront-proof/wp-work-proofsfiles/automated-workflow/manage-proof-configured-auto-workflow.md)
-      * Workfront Proof의 기본 기능 {#basic-features-in-wf-proof}
+      * Workfront Proof {#basic-features-in-wf-proof}의 기본 기능
          * [Workfront Proof의 기본 기능](workfront-proof/wp-work-proofsfiles/basic-features/basic-features.md)
          * [Workfront Proof의 대시보드](workfront-proof/wp-work-proofsfiles/basic-features/dashboard.md)
          * [Workfront Proof의 보기 탭에 있는 페이지 레이아웃](workfront-proof/wp-work-proofsfiles/basic-features/page-layout-view.md)
          * [Workfront Proof 검색 중](workfront-proof/wp-work-proofsfiles/basic-features/search.md)
          * [Workfront Proof 활동 감사 추적 이해](workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)
-      * 증명 및 파일 만들기 {#create-proofs-and-files}
+      * 증명 및 파일 {#create-proofs-and-files} 만들기
          * [증명 및 파일 만들기](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/create-proofs-and-files.md)
          * [Workfront Proof에 파일 및 웹 컨텐츠 업로드](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md)
          * [Workfront Proof에서 증명 생성](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
@@ -2507,11 +2507,11 @@ ht-degree: 1%
          * [Workfront Proof의 아카이브](workfront-proof/wp-work-proofsfiles/organize-your-work/archive.md)
          * [Workfront Proof 데이터 백업](workfront-proof/wp-work-proofsfiles/organize-your-work/back-up-data.md)
          * [Workfront Proof에서 주석 인쇄 및 내보내기](workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md)
-      * Desktop Proofing Viewer에서 증명 검토 {#review-proofs-in-viewer}
+      * 데스크톱 증명 뷰어 {#review-proofs-in-viewer}에서 증명 검토
          * [Desktop Proofing Viewer에서 증명 검토](workfront-proof/wp-work-proofsfiles/review-proofs-dpv/review-proofs-in-desktop-proofing-viewer.md)
          * [Desktop Proofing 뷰어 이해](workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md)
          * [Desktop Proofing Viewer에서 하이퍼링크를 여는 방법 구성](workfront-proof/wp-work-proofsfiles/review-proofs-dpv/configure-how-hyperlinks-open.md)
-      * 웹 증명 뷰어에서 증명 검토 {#review-proofs-web-proofing-viewer}
+      * 웹 증명 뷰어 {#review-proofs-web-proofing-viewer}에서 증명 검토
          * [웹 증명 뷰어에서 증명 검토](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proofs-in-wpv.md)
          * [Workfront Proof에서 증명 열기](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/open-proof.md)
          * [증명 뷰어에서 워크플로우 검토](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-workflow.md)
@@ -2523,7 +2523,7 @@ ht-degree: 1%
          * [증명 뷰어에서 증명 다운로드](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/download-proof.md)
          * [Workfront Proof 증명 뷰어의 키보드 단축키](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md)
          * [기존 증명 뷰어가 제거됨](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/lpv-removed.md)
-      * 증명 및 파일 공유 {#share-proofs-and-files}
+      * 증명 및 파일 {#share-proofs-and-files} 공유
          * [증명 및 파일 공유](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proofs-and-files.md)
          * [Workfront Proof에서 증명 공유](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md)
          * [Workfront Proof에서 증명 링크 공유](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof-links.md)
@@ -2536,7 +2536,7 @@ ht-degree: 1%
          * [Workfront Proof에서 증명 역할 관리](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)
    * Workfront Proof 계정 관리 {#wf-proof-account-admin}
       * [Workfront Proof 계정 관리](workfront-proof/wp-acct-admin/wp-account-admin.md)
-      * Workfront Proof의 계정 설정 {#account-settings-in-wf-proof}
+      * Workfront Proof {#account-settings-in-wf-proof}의 계정 설정
          * [Workfront Proof의 계정 설정](workfront-proof/wp-acct-admin/account-settings/account-settings.md)
          * [Workfront Proof 사용자 관리](workfront-proof/wp-acct-admin/account-settings/manage-wp-users.md)
          * [Workfront Proof에서 사용자의 증명 권한 프로필 구성](workfront-proof/wp-acct-admin/account-settings/config-user-pref-in-wp.md)
@@ -2562,16 +2562,16 @@ ht-degree: 1%
          * [Workfront Proof의 증명 보안](workfront-proof/wp-acct-admin/managing-security/proof-security-in-workfront-proof.md)
          * [Workfront Proof의 단일 사인온](workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md)
          * [Workfront Proof의 전자 서명 이해](workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md)
-      * Workfront Proof의 파트너 계정 {#partner-accounts-in-wf-proof}
+      * Workfront Proof {#partner-accounts-in-wf-proof}의 파트너 계정
          * [Workfront Proof의 파트너 계정](workfront-proof/wp-acct-admin/partner-accounts/partner-accounts.md)
          * [Workfront Proof 계정 간의 파트너 관계 관리](workfront-proof/wp-acct-admin/partner-accounts/manage-partner-relationship-between-wp-accts.md)
          * [Workfront Proof에서 파트너와 항목 공유](workfront-proof/wp-acct-admin/partner-accounts/share-items-partner-in-wp.md)
-      * Workfront Proof의 위성 계정 {#satellite-accounts-in-wf-proof}
+      * Workfront Proof {#satellite-accounts-in-wf-proof}의 위성 계정
          * [Workfront Proof의 위성 계정](workfront-proof/wp-acct-admin/satellite-accounts/satellite-accounts.md)
          * [Workfront Proof의 위성 계정](workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md)
          * [Workfront Proof에서 위성 계정 구성](workfront-proof/wp-acct-admin/satellite-accounts/configure-sat-acct-in-wp.md)
          * [Workfront Proof에서 위성 계정 관리](workfront-proof/wp-acct-admin/satellite-accounts/manage-sat-acct-in-wp.md)
-      * Workfront Proof 계정 관리에 대한 팁, 요령 및 문제 해결 {#ttt-wf-proof-account-admin}
+      * Workfront Proof 계정 관리 {#ttt-wf-proof-account-admin}에 대한 팁, 요령 및 문제 해결
          * [Workfront Proof 계정 관리에 대한 팁, 요령 및 문제 해결](workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting.md)
          * [FAQ: Workfront Proof - 미국 - EMEA로 마이그레이션](workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/faq-wp-us-to-emea-mig.md)
    * Workfront Proof 청구 설정 {#wf-proof-billing-settings}
@@ -2582,28 +2582,28 @@ ht-degree: 1%
          * [Workfront Proof에서 결제 방법 선택](workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md)
          * [Workfront Proof 송장 다운로드](workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md)
          * [Workfront Proof 계정 닫기](workfront-proof/wp-billingsettings/manage-your-billing/close-wp-acct.md)
-   * 증명 알림 및 미리 알림 {#proof-notifications-and-reminders}
+   * 증명 알림 및 알림 메시지 {#proof-notifications-and-reminders}
       * [증명 알림 및 미리 알림](workfront-proof/wp-emailsntfctns/wp-emails-and-notifications.md)
-      * 스팸 필터 방지 {#avoid-spam-filters}
+      * 스팸 필터 {#avoid-spam-filters} 방지
          * [스팸 필터 방지](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/avoid-spam-filters.md)
          * [일반 이메일 클라이언트에 대한 스팸 설정 구성](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-spam-settings-clients.md)
          * [스팸 필터를 방지하도록 Workfront Proof 이메일 구성](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-wp-emails-avoid-spam-filters.md)
          * [Workfront Proof 레코드](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/wp-spf-records.md)
-      * 검토자에게 메시지 보내기 {#send-messages-to-reviewers}
+      * 검토자 {#send-messages-to-reviewers}에게 메시지 보내기
          * [검토자에게 메시지 보내기](workfront-proof/wp-emailsntfctns/messaging-reviewers/send-messages-to-reviewers.md)
          * [검토자에게 Workfront Proof의 할당에 대해 알림](workfront-proof/wp-emailsntfctns/messaging-reviewers/remind-reviewer-assignments-wp.md)
          * [증명에서 검토자에게 미리 알림 메시지 보내기](workfront-proof/wp-emailsntfctns/messaging-reviewers/send-reminder-to-proof-reviewers.md)
-      * 증명 알림 및 미리 알림 {#proof-notifications-and-reminders}
+      * 증명 알림 및 알림 메시지 {#proof-notifications-and-reminders}
          * [증명 알림 및 미리 알림](workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-notifications-and-reminders.md)
          * [지연 증명 이메일](workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/late-proof-email.md)
          * [새 증명 이메일](workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md)
          * [새 버전 이메일](workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-version-email.md)
          * [증명된 이메일](workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md)
-   * 이메일 경고 {#email-alerts}
+   * 전자 메일 경고 {#email-alerts}
       * [이메일 경고](workfront-proof/wp-emailsntfctns/email-alerts/email-alerts.md)
       * [Workfront Proof에서 이메일 알림 설정 구성](workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)
       * [Workfront Proof에서 증명에 대한 이메일 경고 설정 변경](workfront-proof/wp-emailsntfctns/email-alerts/change-email-alert-settings-wp.md)
-   * Workfront Proof에서 사용자 및 연락처 관리 {#managing-users-in-wf-proof}
+   * Workfront Proof {#managing-users-in-wf-proof}에서 사용자 및 연락처 관리
       * [Workfront Proof에서 사용자 및 연락처 관리](workfront-proof/wp-mnguserscontacts/manage-user-contacts.md)
       * 사용자 {#users}
          * [사용자](workfront-proof/wp-mnguserscontacts/users/users.md)
@@ -2611,7 +2611,7 @@ ht-degree: 1%
          * [Workfront Proof을 사용하여 사용자 정보 구성](workfront-proof/wp-mnguserscontacts/users/configure-user-info.md)
          * [Workfront Proof을 사용하여 사용자 지정 프로필 만들기 및 관리](workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md)
          * [Workfront Proof을 사용하여 계정 간에 사용자 이동](workfront-proof/wp-mnguserscontacts/users/move-users-between-accounts.md)
-      * 그룹 {#groups}
+      * {#groups} 그룹
          * [그룹](workfront-proof/wp-mnguserscontacts/groups/groups.md)
          * [증명에 그룹 추가](workfront-proof/wp-mnguserscontacts/groups/add-groups.md)
          * [Workfront Proof을 사용하여 증명 그룹 만들기](workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md)
@@ -2622,7 +2622,7 @@ ht-degree: 1%
          * [Workfront Proof에 게스트 추가](workfront-proof/wp-mnguserscontacts/contacts/add-guest.md)
          * [Workfront Proof에서 연락처 관리](workfront-proof/wp-mnguserscontacts/contacts/manage-contacts.md)
          * [Workfront Proof의 사용자, 멤버 및 게스트 이해](workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md)
-      * Workfront Proof 사용자 및 연락처를 위한 팁, 요령 및 문제 해결 {#ttt-wf-proof-users-and-contacts}
+      * Workfront Proof 사용자 및 연락처 {#ttt-wf-proof-users-and-contacts}에 대한 팁, 요령 및 문제 해결
          * [Workfront Proof 사용자 및 연락처를 위한 팁, 요령 및 문제 해결](workfront-proof/wp-mnguserscontacts/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wfproof.md)
          * [사용자의 기타 그룹 일괄 편집](workfront-proof/wp-mnguserscontacts/tips-tricks-and-troubleshooting/bulk-edit-users-other-groups.md)
    * Workfront Proof mobile {#wf-proof-mobile}
@@ -2631,7 +2631,7 @@ ht-degree: 1%
          * [Workfront Proof 모바일 앱](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-apps.md)
          * [Workfront Proof 모바일 앱](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-phones.md)
          * [태블릿용 Workfront Proof 모바일 앱](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-tablet.md)
-      * Workfront Proof 모바일 앱에 대한 팁, 요령 및 문제 해결 {#ttt-wf-proof-mobile-apps}
+      * Workfront Proof 모바일 앱 {#ttt-wf-proof-mobile-apps}에 대한 팁, 요령 및 문제 해결
          * [Workfront Proof 모바일 앱에 대한 팁, 요령 및 문제 해결](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wp-mobile.md)
          * [Workfront Proof 모바일 앱에 로그인할 수 없음](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/unable-to-log-in.md)
    * Workfront Proof 기술 코너 {#wf-proof-tech-corner}
@@ -2639,7 +2639,7 @@ ht-degree: 1%
       * 증명 유형 {#proof-types}
          * [증명 유형](workfront-proof/wp-tech-corner/proof-types/proof-types.md)
          * [Workfront Proof을 사용하여 정적 웹 사이트 증명 만들기](workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md)
-      * Workfront Proof의 문제 해결 {#troubleshooting-wf-proof}
+      * Workfront Proof {#troubleshooting-wf-proof}에서 문제 해결
          * [Workfront Proof의 문제 해결](workfront-proof/wp-tech-corner/troubleshooting/troubleshooting.md)
          * [문제 해결 - Mac의 proofing viewer에서 인터페이스 글꼴이 손상되었습니다.](workfront-proof/wp-tech-corner/troubleshooting/corrupted-interface-font-pv-mac.md)
          * [캐시와 쿠키가 Workfront Proof에 미치는 영향 이해](workfront-proof/wp-tech-corner/troubleshooting/how-cache-cookies-affect-pv.md)
@@ -2647,29 +2647,29 @@ ht-degree: 1%
          * [문제 해결 - Workfront Proof 증명 뷰어](workfront-proof/wp-tech-corner/troubleshooting/proofing-viewer.md)
    * Workfront Proof 통합 {#wf-proof-integrations}
       * [Workfront Proof 통합](workfront-proof/wp-integrations/wp-integrations.md)
-      * WORKFRONT PROOF API {#wf-proof-api}
+      * Workfront Proof API {#wf-proof-api}
          * [WORKFRONT PROOF API](workfront-proof/wp-integrations/api/wp-api.md)
          * [WORKFRONT PROOF API](workfront-proof/wp-integrations/api/workfront-proof-api.md)
-      * Box {#box}
+      * 상자 {#box}
          * [Box](workfront-proof/wp-integrations/box/box.md)
          * [Workfront Proof 및 Box 통합 소개](workfront-proof/wp-integrations/box/introduction-to-box.md)
          * [Box 계정을 통해 증명 만들기](workfront-proof/wp-integrations/box/create-proof-box-account.md)
          * [상자 폴더를 Workfront Proof과 동기화](workfront-proof/wp-integrations/box/sycn-box-folder.md)
          * [Box에서 증명의 원본 파일 보기](workfront-proof/wp-integrations/box/view-proof-original-file-box.md)
-      * 베이스캠프 {#basecamp}
+      * 기본 Amp {#basecamp}
          * [베이스캠프](workfront-proof/wp-integrations/basecamp/basecamp.md)
          * [Basecamp 프로젝트에 증명 추가](workfront-proof/wp-integrations/basecamp/add-proof-to-basecamp-project.md)
          * [Workfront Proof과 Basecamp 통합](workfront-proof/wp-integrations/basecamp/integrate-workfront-proof-with-basecamp.md)
          * [Basecamp에서 증명 검토](workfront-proof/wp-integrations/basecamp/review-proof-basecamp.md)
          * [Workfront Proof과의 Basecamp 통합 이해](workfront-proof/wp-integrations/basecamp/basecamp-integration-overview.md)
-      * 베이스캠프 클래식 {#basecamp-classic}
+      * Basecamp Classic {#basecamp-classic}
          * [베이스캠프 클래식](workfront-proof/wp-integrations/basecamp-classic/basecamp-classic.md)
          * [Basecamp Classic 프로젝트에 증명 추가](workfront-proof/wp-integrations/basecamp-classic/add-proof-basecamp-classic.md)
          * [Workfront Proof과 Basecamp Classic 통합](workfront-proof/wp-integrations/basecamp-classic/integrate-workfront-proof-basecamp-classic.md)
          * [Basecamp Classic에서 증명 검토](workfront-proof/wp-integrations/basecamp-classic/review-proof-basecamp-classic.md)
-* ADOBE WORKFRONT API {#adobe-workfront-api}
+* Adobe Workfront API {#adobe-workfront-api}
    * [WORKFRONT API](wf-api/workfront-api.md)
-   * API 참고 사항 {#api-notes}
+   * API 메모 {#api-notes}
       * [API 참고 사항](wf-api/api/api.md)
       * [API를 통해 파일 업로드](wf-api/api/uploading-files-api.md)
       * [JSONP에 대한 지원 종료](wf-api/api/ending-support-jsonp.md)
@@ -2684,7 +2684,7 @@ ht-degree: 1%
       * [API 응답에서 이스케이프 처리된 문자](wf-api/api/escaped-characters-api.md)
       * [인증 코드 흐름을 사용하여 조직의 사용자 지정 OAuth 2 애플리케이션 구성 및 사용](wf-api/api/oauth-app-code-token-flow.md)
       * [JWT 플로우를 사용하여 조직의 사용자 지정 OAuth 2 애플리케이션 구성 및 사용](wf-api/api/oauth-app-jwt-flow.md)
-      * [PKCE 플로우를 사용하여 조직의 사용자 정의 OAuth 2 애플리케이션 구성 및 사용](wf-api/api/oauth-app-pkce-flow.md)
+      * [PKCE 흐름을 사용하여 조직의 사용자 지정 OAuth 2 응용 프로그램 구성 및 사용](wf-api/api/oauth-app-pkce-flow.md)
       * [API 내부 사용 중단](wf-api/api/deprecation-api-internal.md)
       * [API 버전 18의 새로운 기능](wf-api/api/new-api-version-18.md)
       * [API 버전 17의 새로운 기능](wf-api/api/new-api-version-17.md)
@@ -2741,7 +2741,7 @@ ht-degree: 1%
    * Workfront 개체 설명 {#workfrtont-object-descriptions}
       * [Workfront 개체 설명](wf-api/wf-objects/workfront-objects.md)
       * [범주](wf-api/wf-objects/category.md)
-   * Adobe Workfront API에 대한 팁, 요령 및 문제 해결 {#tips-troubleshooting-apis}
+   * Adobe Workfront API {#tips-troubleshooting-apis}에 대한 팁, 요령 및 문제 해결
       * [Adobe Workfront API에 대한 팁, 요령 및 문제 해결](wf-api/tips-tricks-and-troubleshooting/tips-troubleshoot-api.md)
       * [Adobe Workfront API 호출에 대한 도메인 형식](wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md)
       * [API 오류: &quot;원격 서버에서 오류를 반환했습니다. (400) 잘못된 요청&quot;](wf-api/tips-tricks-and-troubleshooting/api-error-remote-server.md)
