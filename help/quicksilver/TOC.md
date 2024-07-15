@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 65c7c11762ab82445e6f99a6ddb2c5e995b95380
 workflow-type: tm+mt
-source-wordcount: '14441'
+source-wordcount: '14439'
 ht-degree: 1%
 
 ---
@@ -1963,7 +1963,7 @@ ht-degree: 1%
    * 타임시트 {#create-and-manage-timesheets-in-adobe-workfront} 만들기 및 관리
       * [타임시트 만들기 및 관리: 문서 인덱스](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
       * [타임시트 프로필 만들기, 편집 및 할당](timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
-      * [타임시트의 시간 유형 및 가용성 정의](timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
+      * [시간 유형 및 가용성 정의](timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
       * [일회용 타임시트 만들기](timesheets/create-and-manage-timesheets/create-tmshts.md)
       * [타임시트 정보 편집](timesheets/create-and-manage-timesheets/edit-timesheets.md)
       * [로그 시간](timesheets/create-and-manage-timesheets/log-time.md)
@@ -2389,7 +2389,7 @@ ht-degree: 1%
       * [Google Workspace 이메일을 Adobe Workfront 개체 및 업데이트로 변환](workfront-integrations-and-apps/workfront-for-g-suite/turn-gsuite-emails-into-wf-objects-and-updates.md)
       * [이메일 콘텐츠를 사용하여 Google Workspace에서 Adobe Workfront 작업 만들기](workfront-integrations-and-apps/workfront-for-g-suite/create-wf-task-in-gsuite-using-email-content.md)
       * [이메일 콘텐츠를 사용하여 Google Workspace에서 Adobe Workfront 문제 만들기](workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md)
-      * [이메일 콘텐츠를 사용하여 Google Workspace에서 Adobe Workfront 항목 업데이트](workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)
+      * [이메일 콘텐츠를 사용하여 G Suite에서 Adobe Workfront 항목 업데이트](workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)
    * Outlook용 Adobe Workfront {#workfront-for-outlook}
       * [Outlook용 Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)
       * [Outlook용 Adobe Workfront 설정](workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
