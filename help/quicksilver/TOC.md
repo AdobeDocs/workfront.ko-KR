@@ -3,7 +3,7 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 39a6f46d811812ca70e7455fb4353b8d1841586a
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
 source-wordcount: '14441'
 ht-degree: 1%
@@ -2374,22 +2374,22 @@ ht-degree: 1%
       * [Adobe Workfront과 Jira 간의 항목 연결](workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md)
       * [Jira와 Adobe Workfront 간 연결된 항목 업데이트](workfront-integrations-and-apps/use-workfront-with-jira/update-linked-items-between-jira-wf.md)
       * [Jira 활동 로그 보기](workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md)
-   * G Suite {#workfront-for-g-suite}용 Adobe Workfront
-      * [Adobe Workfront for G Suite](workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md)
-      * [G Suite용 Adobe Workfront 설치](workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)
-      * [G Suite용 Workfront의 개인 정보 및 권한](workfront-integrations-and-apps/workfront-for-g-suite/privacy-and-permissions-in-g-suite.md)
-      * [G Suite용 Adobe Workfront 로그인 및 로그아웃](workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md)
-      * [G Suite에서 Adobe Workfront 홈 컨텐츠 액세스](workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md)
-      * [G Suite에서 Adobe Workfront 개체 업데이트](workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md)
-      * [G Suite의 문서 보기 및 관리](workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md)
-      * [G Suite의 Adobe Workfront 개체 세부 사항 보기 및 관리](workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md)
-      * [G Suite의 Adobe Workfront 개체 업데이트 보기](workfront-integrations-and-apps/workfront-for-g-suite/view-object-updates-in-gsuite.md)
-      * [G Suite에서 Adobe Workfront 알림 세부 정보 관리](workfront-integrations-and-apps/workfront-for-g-suite/manage-wf-email-notification-details-in-gsuite.md)
-      * [G Suite의 Adobe Workfront 업데이트 알림에 회신](workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md)
-      * [G Suite 이메일을 Adobe Workfront 개체 및 업데이트로 변환](workfront-integrations-and-apps/workfront-for-g-suite/turn-gsuite-emails-into-wf-objects-and-updates.md)
-      * [이메일 콘텐츠를 사용하여 G Suite에서 Adobe Workfront 작업 만들기](workfront-integrations-and-apps/workfront-for-g-suite/create-wf-task-in-gsuite-using-email-content.md)
-      * [이메일 콘텐츠를 사용하여 G Suite의 Adobe Workfront 문제 만들기](workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md)
-      * [이메일 콘텐츠를 사용하여 G Suite에서 Adobe Workfront 항목 업데이트](workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)
+   * Google Workspace {#workfront-for-g-suite}용 Adobe Workfront
+      * [Google Workspace용 Adobe Workfront](workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md)
+      * [Google Workspace용 Adobe Workfront 설치](workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)
+      * [Google Workspace용 Workfront의 개인 정보 및 권한](workfront-integrations-and-apps/workfront-for-g-suite/privacy-and-permissions-in-g-suite.md)
+      * [Google Workspace용 Adobe Workfront 로그인 및 로그아웃](workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md)
+      * [Google Workspace에서 Adobe Workfront 홈 콘텐츠에 액세스](workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md)
+      * [Google Workspace에서 Adobe Workfront 개체 업데이트](workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md)
+      * [Google Workspace에서 문서 보기 및 관리](workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md)
+      * [Google Workspace에서 Adobe Workfront 개체 세부 사항 보기 및 관리](workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md)
+      * [Google Workspace에서 Adobe Workfront 개체 업데이트 보기](workfront-integrations-and-apps/workfront-for-g-suite/view-object-updates-in-gsuite.md)
+      * [Google Workspace에서 Adobe Workfront 알림 세부 정보 관리](workfront-integrations-and-apps/workfront-for-g-suite/manage-wf-email-notification-details-in-gsuite.md)
+      * [Google Workspace에서 Adobe Workfront 업데이트 알림에 회신](workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md)
+      * [Google Workspace 이메일을 Adobe Workfront 개체 및 업데이트로 변환](workfront-integrations-and-apps/workfront-for-g-suite/turn-gsuite-emails-into-wf-objects-and-updates.md)
+      * [이메일 콘텐츠를 사용하여 Google Workspace에서 Adobe Workfront 작업 만들기](workfront-integrations-and-apps/workfront-for-g-suite/create-wf-task-in-gsuite-using-email-content.md)
+      * [이메일 콘텐츠를 사용하여 Google Workspace에서 Adobe Workfront 문제 만들기](workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md)
+      * [이메일 콘텐츠를 사용하여 Google Workspace에서 Adobe Workfront 항목 업데이트](workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)
    * Outlook용 Adobe Workfront {#workfront-for-outlook}
       * [Outlook용 Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)
       * [Outlook용 Adobe Workfront 설정](workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)

@@ -9,10 +9,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: 405460158b9a540e427b9f9e5de101823838b17b
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
 source-wordcount: '758'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ Adobe Workfront은 조직의 네트워크와 통신하므로 해당 통신을 �
 
 이는 본질적으로 방화벽을 통해 데이터를 전송하거나 수신할 수 있는 사이트의 &quot;목록&quot;인 허용 목록에 추가하다를 통해 수행됩니다. 사이트는 다음 두 가지 방법 중 하나로 식별할 수 있습니다.
 
-* **IP 주소**: 일련의 숫자(예: 52.31.132.175)
+* **IP 주소**: 52.31.132.175와 같은 일련의 숫자
 * **도메인**: www.thisdomain.com의 &quot;thisdomain&quot;과 같은 URL의 일부
 
 Workfront은 웹 통신에 특정 IP 주소 및 도메인을 사용합니다. 조직에서 Workfront을 사용하려면 먼저 조직의 허용 목록에 추가하다에 추가해야 합니다.
@@ -49,19 +49,19 @@ Workfront에 대한 방화벽을 구성하려면 네트워크 관리자가 추�
  <tbody> 
   <tr> 
    <td role="rowheader">허용할 특정 IP 주소 및 도메인</td> 
-   <td> <p>문서 <a href="../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md" class="MCXref xref">허용 목록에 추가하다 방화벽 구성</a> 조직에서 해당 허용 목록에 추가하다에 추가해야 하는 IP 주소 및 도메인 목록을 포함합니다. </p> <p>허용 목록에 추가하다 네트워크 관리자가 "방화벽 구성" 문서에 액세스할 수 없습니다. 그런 경우 제공해야 합니다. 하드(용지) 사본은 인쇄하지 않는 것이 좋습니다. 디지털 복사본을 사용하면 네트워크 관리자가 주소를 복사하고 붙여넣을 수 있으므로 하드 복사본으로 입력하는 것보다 빠르고 정확합니다.</p> </td> 
+   <td> <p>허용 목록에 추가하다 허용 목록에 추가하다 문서 <a href="../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md" class="MCXref xref">방화벽 구성</a>에는 조직에서 방화벽에 추가해야 하는 IP 주소 및 도메인 목록이 포함되어 있습니다. </p> <p>허용 목록에 추가하다 네트워크 관리자가 "방화벽 구성" 문서에 액세스할 수 없습니다. 그런 경우 제공해야 합니다. 하드(용지) 사본은 인쇄하지 않는 것이 좋습니다. 디지털 복사본을 사용하면 네트워크 관리자가 주소를 복사하고 붙여넣을 수 있으므로 하드 복사본으로 입력하는 것보다 빠르고 정확합니다.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">내 클러스터</td> 
-   <td>조직의 클러스터를 찾으려면 다음을 참조하십시오. <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">조직의 클러스터 및 Workfront 계획 보기</a>.</td> 
+   <td>조직의 클러스터를 찾으려면 <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">조직의 클러스터 및 Workfront 계획 보기</a>를 참조하십시오.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Workfront 플랜</td> 
-   <td> <p>조직의 플랜을 찾으려면 다음을 참조하십시오. <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">조직의 클러스터 및 Workfront 계획을 봅니다.</a></p> </td> 
+   <td> <p>조직의 계획을 찾으려면 <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">조직의 클러스터 및 Workfront 계획 보기</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">내 도메인</td> 
-   <td> <p>도메인을 찾으려면 Workfront에 연결하는 데 사용하는 웹 주소를 확인하십시오.</p> <p>예: 웹 주소에서 <code>greatcompany.my.workfront.com</code>, 도메인은 "greatcompany"입니다.</p> </td> 
+   <td> <p>도메인을 찾으려면 Workfront에 연결하는 데 사용하는 웹 주소를 확인하십시오.</p> <p>예: 웹 주소 <code>greatcompany.my.workfront.com</code>에서 도메인은 "greatcompany"입니다.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">기타 Adobe Workfront 제품</td> 
@@ -76,7 +76,7 @@ Workfront에 대한 방화벽을 구성하려면 네트워크 관리자가 추�
    <td>다음 중 하나를 사용하는 경우 네트워크 관리자에게 알립니다.
     <ul>
      <li><p>Jira용 Workfront</p></li>
-     <li><p>G Suite용 Workfront</p></li>
+     <li><p>Google Workspace용 Workfront</p></li>
      <li><p>Microsoft Teams용 Workfront</p></li>
      <li><p>Outlook용 Workfront</p></li>
      <li><p>Salesforce용 Workfront</p></li>
@@ -98,16 +98,16 @@ Workfront에 대한 방화벽을 구성하려면 네트워크 관리자가 추�
 
 ### 조직의 클러스터 및 Workfront 계획 보기 {#view-your-organization-s-cluster-and-workfront-plan}
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리에서 을(를) 클릭하고 **[!UICONTROL 설정]** ![설정 아이콘](/help/_includes/assets/gear-icon-setup.png).
+1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **[!UICONTROL 설정]** ![설정 아이콘](/help/_includes/assets/gear-icon-setup.png)을 클릭합니다.
 
-1. 클릭 **시스템** 왼쪽 패널에서
-1. 클러스터를 보려면 **고객 정보**.
+1. 왼쪽 패널에서 **시스템** 클릭
+1. 클러스터를 보려면 **고객 정보**&#x200B;를 선택하세요.
 
-   클러스터가 의 오른쪽 상단 근처에 표시됩니다. **기본 정보** 섹션.
+   클러스터가 **기본 정보** 섹션의 오른쪽 상단 근처에 표시됩니다.
 
    ![](assets/locate-cluster.png)
 
-1. Workfront 플랜을 보려면 **라이선스**.
+1. Workfront 플랜을 보려면 **라이선스**&#x200B;를 선택하세요.
 
    플랜이 페이지 하단 근처에 표시됩니다.
 

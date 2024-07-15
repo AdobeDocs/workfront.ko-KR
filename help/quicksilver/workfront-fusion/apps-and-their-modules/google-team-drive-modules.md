@@ -5,28 +5,28 @@ product-area: workfront-integrations;agile-and-teams;user-management
 keywords: 커넥터
 navigation-topic: apps-and-their-modules
 title: Google 팀 드라이브 모듈
-description: 다음 [!DNL Adobe Workfront Fusion Google Team Drive] 모듈을 사용하면 파일을 모니터링, 업로드, 업데이트, 복사, 삭제 또는 검색하고 [!DNL Google Shared] 드라이브.
+description: ' [!DNL Adobe Workfront Fusion Google Team Drive] 모듈을 사용하면  [!DNL Google Shared] 드라이브에서 파일을 모니터링, 업로드, 업데이트, 복사, 삭제 또는 검색하고 폴더를 만들 수 있습니다.'
 author: Becky
 feature: Workfront Fusion
 exl-id: 8b4c057f-bb98-44d1-9b71-cbeaa402a1c3
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
-source-wordcount: '1306'
+source-wordcount: '1297'
 ht-degree: 0%
 
 ---
 
-# [!DNL Google Team Drive] 모듈
+# [!DNL Google Team Drive]개 모듈
 
-다음 [!DNL Adobe Workfront Fusion] [!DNL Google Team Drive] 모듈을 사용하면 파일을 모니터링, 업로드, 업데이트, 복사, 삭제 또는 검색하고 [!DNL Google Shared Drive].
+[!DNL Adobe Workfront Fusion] [!DNL Google Team Drive] 모듈을 사용하면 파일을 모니터링, 업로드, 업데이트, 복사, 삭제 또는 검색하고 [!DNL Google Shared Drive]에서 폴더를 만들 수 있습니다.
 
-를 사용하려면 [!DNL Google Team Drive] 포함 [!DNL Adobe Workfront Fusion], 다음을 보유해야 합니다. [!DNL G Suite] 계정입니다. 파일이 없는 경우 [!DNL G Suite] 계정 위치: [[!DNL G Suite] 등록 사이트](https://gsuite.google.com/signup/businessstarter/welcome).
+[!DNL Adobe Workfront Fusion]에 [!DNL Google Team Drive]을(를) 사용하려면 [!DNL Google Workspace] 계정이 있어야 합니다. 계정이 없으면 [[!DNL Google Workspace] 등록 사이트](https://workspace.google.com/business/signup/welcome)에서 [!DNL Google Workspace] 계정을 만들 수 있습니다.
 
-다음에서 [!DNL Adobe Workfront Fusion] 시나리오에서는 다음을 사용하는 워크플로를 자동화할 수 있습니다 [!DNL Google Team Drive]을 여러 타사 응용 프로그램 및 서비스에 연결할 수 있습니다.
+[!DNL Adobe Workfront Fusion] 시나리오에서는 [!DNL Google Team Drive]을(를) 사용하는 워크플로를 자동화하고 여러 타사 응용 프로그램 및 서비스에 연결할 수 있습니다.
 
-시나리오를 만드는 방법에 대한 지침이 필요한 경우 [에서 시나리오 만들기 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+시나리오를 만드는 방법에 대한 지침이 필요하면 [시나리오 만들기 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md)를 참조하십시오.
 
-모듈에 대한 자세한 내용은 [의 모듈 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+모듈에 대한 자세한 내용은 [의 모듈 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md)을 참조하세요.
 
 ## 액세스 요구 사항
 
@@ -47,37 +47,37 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 라이센스**</td> 
    <td>
-   <p>현재 라이선스 요구 사항: 아니요 [!DNL Workfront Fusion] 라이센스 요구 사항.</p>
+   <p>현재 라이선스 요구 사항: [!DNL Workfront Fusion] 라이선스 요구 사항이 없습니다.</p>
    <p>또는</p>
-   <p>기존 라이선스 요구 사항: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
+   <p>레거시 라이선스 요구 사항: 작업 자동화 및 통합을 위한 [!UICONTROL [!DNL Workfront Fusion]] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">제품</td> 
    <td>
-   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime]이 있는 경우 [!DNL Adobe Workfront] 플랜, 조직은 다음을 구매해야 합니다. [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오. [!DNL Workfront Fusion] [!UICONTROL Ultimate]에 포함되어 있습니다. [!DNL Workfront] 계획.</p>
+   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime] [!DNL Adobe Workfront] 플랜이 있는 경우 조직에서 이 문서에 설명된 기능을 사용하려면 [!DNL Adobe Workfront Fusion]과(와) [!DNL Adobe Workfront]을(를) 구매해야 합니다. [!DNL Workfront Fusion]이(가) [!UICONTROL Ultimate] [!DNL Workfront] 계획에 포함되어 있습니다.</p>
    <p>또는</p>
-   <p>레거시 제품 요구 사항: 조직에서 구매해야 함 [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오.</p>
+   <p>레거시 제품 요구 사항: 이 문서에 설명된 기능을 사용하려면 조직에서 [!DNL Adobe Workfront Fusion]과(와) [!DNL Adobe Workfront]을(를) 구매해야 합니다.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
+보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
 
-다음에 대한 정보: [!DNL Adobe Workfront Fusion] 라이센스, 참조 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+[!DNL Adobe Workfront Fusion] 라이선스에 대한 자세한 내용은 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md)를 참조하세요.
 
 ## 전제 조건
 
-사용 [!DNL Google Team Drive] 모듈, 다음이 있어야 합니다. [!DNL Google Team Drive].
+[!DNL Google Team Drive] 모듈을 사용하려면 [!DNL Google Team Drive]이(가) 있어야 합니다.
 
-## [!DNL Google Team Drive] 모듈 및 해당 필드
+## [!DNL Google Team Drive]개 모듈 및 해당 필드
 
-를 구성할 때 [!DNL Google Team Drive] 모듈, [!DNL Workfront Fusion] 아래 나열된 필드를 표시합니다. 이와 함께 추가 [!DNL Google Team Drive] 앱이나 서비스의 액세스 수준 등에 따라 필드가 표시될 수 있습니다. 모듈의 굵은 제목은 필수 필드를 나타냅니다.
+[!DNL Google Team Drive] 모듈을 구성할 때 [!DNL Workfront Fusion]에 아래 나열된 필드가 표시됩니다. 앱 또는 서비스의 액세스 수준과 같은 요소에 따라 이러한 필드와 함께 [!DNL Google Team Drive] 필드가 추가로 표시될 수 있습니다. 모듈의 굵은 제목은 필수 필드를 나타냅니다.
 
-표시되는 모듈 대화 상자 필드입니다 **굵게** (에서) [!DNL Workfront Fusion] 시나리오, **아님** 이 문서 문서에서)는 필수입니다.
+**bold**&#x200B;에 표시되는 모듈 대화 상자 필드([!DNL Workfront Fusion] 시나리오에서 이 문서 문서의 **not**)는 필수입니다.
 
-필드나 함수 위에 맵 단추가 표시되면 이 단추를 사용하여 해당 필드에 대한 변수와 함수를 설정할 수 있습니다. 자세한 내용은 [의 한 모듈에서 다른 모듈로 정보 매핑 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+필드나 함수 위에 맵 단추가 표시되면 이 단추를 사용하여 해당 필드에 대한 변수와 함수를 설정할 수 있습니다. 자세한 내용은 [한 모듈에서 다른 모듈로 정보를 매핑 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)을 참조하십시오.
 
 ![](assets/map-toggle-350x74.png)
 
@@ -93,7 +93,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Google Team Drive] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Google Team Drive] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Team Drive]</td> 
@@ -108,20 +108,20 @@ ht-degree: 0%
    <td> <p> 보려는 파일 유형을 선택합니다.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 변환 [!DNL Google Documents] 형식을 지정할 파일] </td> 
-   <td> <p>감시할 형식 선택 [!DNL Google Documents] 로 변환된 파일입니다.</p> </td> 
+   <td>[!UICONTROL [!DNL Google Documents]개 파일을 형식으로 변환] </td> 
+   <td> <p>감시된 [!DNL Google Documents] 파일을 변환할 형식을 선택하십시오.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 변환 [!DNL Google Sheets] 형식을 지정할 파일] </td> 
-   <td> <p>감시할 형식 선택 [!DNL Google Sheets] 로 변환된 파일입니다.</p> </td> 
+   <td>[!UICONTROL [!DNL Google Sheets]개 파일을 형식으로 변환] </td> 
+   <td> <p>감시된 [!DNL Google Sheets] 파일을 변환할 형식을 선택하십시오.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 변환 [!DNL Google Slides] 형식을 지정할 파일] </td> 
-   <td> <p>감시할 형식 선택 [!DNL Google Slides] 로 변환된 파일입니다.</p> </td> 
+   <td>[!UICONTROL [!DNL Google Slides]개 파일을 형식으로 변환] </td> 
+   <td> <p>감시된 [!DNL Google Slides] 파일을 변환할 형식을 선택하십시오.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 변환 [!DNL Google Drawings] 형식을 지정할 파일] </td> 
-   <td> <p>감시할 형식 선택 [!DNL Google Drawings] 로 변환된 파일입니다.</p> </td> 
+   <td>[!UICONTROL [!DNL Google Drawings]개 파일을 형식으로 변환] </td> 
+   <td> <p>감시된 [!DNL Google Drawings] 파일을 변환할 형식을 선택하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Watch]</td> 
@@ -129,7 +129,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!UICONTROL 다운로드한 최대 파일 수]</td> 
-   <td> <p> 최대 파일 수 설정 [!DNL Workfront Fusion] 는 한 실행 주기 동안 를 반환합니다.</p> </td> 
+   <td> <p> 한 실행 주기 동안 [!DNL Workfront Fusion]이(가) 반환할 최대 파일 수를 설정하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -140,7 +140,7 @@ ht-degree: 0%
 * [[!UICONTROL 파일 업데이트]](#update-a-file)
 * [[!UICONTROL 파일 복사]](#copy-a-file)
 * [[!UICONTROL 파일 삭제]](#delete-a-file)
-* [[!UICONTROL 파일을 휴지통으로 이동]](#move-a-file-to-trash)
+* [[!UICONTROL 휴지통으로 파일 이동]](#move-a-file-to-trash)
 * [[!UICONTROL 파일 가져오기]](#get-a-file)
 * [[!UICONTROL 파일 목록 가져오기]](#get-a-file-list)
 * [[!UICONTROL 폴더 만들기]](#create-a-folder)
@@ -155,7 +155,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Google Team Drive] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Google Team Drive] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Team Drive] </td> 
@@ -166,7 +166,7 @@ ht-degree: 0%
    <td> <p>공유 드라이브 내의 폴더를 선택합니다.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL 소스 파일]</p> </td> 
+   <td> <p>[!UICONTROL Source 파일]</p> </td> 
    <td> <p>공유 드라이브에 업로드할 파일을 지정합니다.</p> <p>이전 모듈에서 업로드할 파일을 매핑합니다(예: [!UICONTROL HTTP] &gt;[!UICONTROL 파일 가져오기] 또는 [!UICONTROL Dropbox] &gt;[!UICONTROL 파일 가져오기)]를 선택하거나 파일 이름과 파일 데이터를 수동으로 입력합니다.</p> </td> 
   </tr> 
   <tr> 
@@ -190,7 +190,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Google Team Drive] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Google Team Drive] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Team Drive]</td> 
@@ -205,7 +205,7 @@ ht-degree: 0%
    <td> <p> 업데이트할 파일의 ID를 입력합니다(매핑).</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL 소스 파일]</p> </td> 
+   <td> <p>[!UICONTROL Source 파일]</p> </td> 
    <td>이전 모듈에서 소스 파일을 선택하거나 소스 파일의 이름과 데이터를 매핑합니다.</td> 
   </tr> 
   <tr> 
@@ -214,7 +214,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!UICONTROL 파일 변환]</td> 
-   <td> <p> 이 옵션을 활성화하여 파일을 해당하는 파일로 변환합니다. [!DNL Google] 공유 폴더의 형식입니다.</p> </td> 
+   <td> <p> 파일을 공유 폴더의 해당 [!DNL Google] 형식으로 변환하려면 이 옵션을 활성화하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -229,7 +229,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Google Team Drive] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Google Team Drive] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Team Drive]</td> 
@@ -260,7 +260,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Google Team Drive] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Google Team Drive] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 파일 ID]</td> 
@@ -269,7 +269,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-#### [!UICONTROL 파일을 휴지통으로 이동]
+#### [!UICONTROL 휴지통으로 파일 이동]
 
 지정된 파일을 휴지통으로 이동합니다.
 
@@ -279,7 +279,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Google Team Drive] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Google Team Drive] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 파일 ID]</td> 
@@ -298,23 +298,23 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Google Team Drive] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Google Team Drive] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 변환 [!DNL Google Documents] 형식을 지정할 파일] </td> 
-   <td> <p>원하는 형식 선택 [!DNL Google Documents] 로 변환된 파일입니다.</p> </td> 
+   <td>[!UICONTROL [!DNL Google Documents]개 파일을 형식으로 변환] </td> 
+   <td> <p>[!DNL Google Documents] 파일을 변환할 형식을 선택하십시오.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 변환 [!DNL Google Sheets] 형식을 지정할 파일] </td> 
-   <td> <p>원하는 형식 선택 [!DNL Google Sheets] 로 변환된 파일입니다.</p> </td> 
+   <td>[!UICONTROL [!DNL Google Sheets]개 파일을 형식으로 변환] </td> 
+   <td> <p>[!DNL Google Sheets] 파일을 변환할 형식을 선택하십시오.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 변환 [!DNL Google Slides] 형식을 지정할 파일] </td> 
-   <td> <p>원하는 형식 선택 [!DNL Google Slides] 로 변환된 파일입니다.</p> </td> 
+   <td>[!UICONTROL [!DNL Google Slides]개 파일을 형식으로 변환] </td> 
+   <td> <p>[!DNL Google Slides] 파일을 변환할 형식을 선택하십시오.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 변환 [!DNL Google Drawings] 형식을 지정할 파일] </td> 
-   <td> <p>원하는 형식 선택 [!DNL Google Drawings] 로 변환된 파일입니다.</p> </td> 
+   <td>[!UICONTROL [!DNL Google Drawings]개 파일을 형식으로 변환] </td> 
+   <td> <p>[!DNL Google Drawings] 파일을 변환할 형식을 선택하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 파일 ID]</td> 
@@ -333,7 +333,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Google Team Drive] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Google Team Drive] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Team Drive]</td> 
@@ -353,7 +353,7 @@ ht-degree: 0%
     <ul> 
      <li style="font-weight: bold;"> <p>[!UICONTROL 파일 이름 내 검색]</p> <p style="font-weight: normal;">[!UICONTROL Search for exact term Search] 옵션을 선택한 경우 파일 이름(파일 확장자 포함)을 입력하거나 [!UICONTROL Search for names contains the search for the search term] 옵션을 선택한 경우 이름의 일부를 입력합니다.</p> </li> 
      <li> <p style="font-weight: bold;">[!UICONTROL 전체 텍스트 검색]</p> <p>파일 이름, 설명 및 내용을 검색할 검색어를 입력합니다.</p> </li> 
-     <li> <p style="font-weight: bold;">[!UICONTROL 사용자 지정 검색 쿼리]</p> <p>다음을 입력합니다. [!DNL Google] 검색어. 자세한 내용은 다음을 참조하십시오. [!DNL Google]의 <a href="https://developers.google.com/drive/api/v2/ref-search-terms">검색 쿼리 설명서</a>. 예: <code>fullText contains '"Hello world"'</code></p> </li> 
+     <li> <p style="font-weight: bold;">[!UICONTROL 사용자 지정 검색 쿼리]</p> <p>[!DNL Google] 검색 쿼리 용어를 입력하십시오. 자세한 내용은 [!DNL Google]의 <a href="https://developers.google.com/drive/api/v2/ref-search-terms">검색 쿼리 설명서</a>를 참조하세요. 예: <code>fullText contains '"Hello world"'</code></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -362,7 +362,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!UICONTROL 반환되는 최대 결과 수]</td> 
-   <td> <p> 최대 파일 또는 폴더 수 설정 [!DNL Workfront Fusion] 는 한 실행 주기 동안 를 반환합니다.</p> </td> 
+   <td> <p> 한 실행 주기 동안 [!DNL Workfront Fusion]이(가) 반환할 최대 파일 또는 폴더 수를 설정하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -377,7 +377,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Google Team Drive] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Google Team Drive] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Team Drive]</td> 

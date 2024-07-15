@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: d85898a74991b2c634d8bd33c81c127321617cf9
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
 source-wordcount: '1635'
 ht-degree: 0%
@@ -23,9 +23,9 @@ ht-degree: 0%
 >
 >이 페이지에 설명된 절차는 아직 Admin Console에 온보딩되지 않은 조직에만 적용됩니다. 조직이 Adobe Admin Console에 온보딩된 경우 Adobe Admin Console을 통해 이 작업을 수행해야 합니다.
 >
->조직에서 Adobe Admin Console에 온보딩된 경우 허용 목록에 추가하다를 구성하려면 을 참조하십시오. [Adobe 앱 및 서비스에 대해 허용되는 도메인](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
+>조직에서 Adobe Admin Console에 온보딩한 경우 Adobe을 구성하려면 [허용 목록 앱 및 서비스에 사용할 수 있는 도메인](https://helpx.adobe.com/enterprise/kb/network-endpoints.html)을 참조하십시오.
 >
->조직이 Adobe Admin Console에 온보딩되었는지 여부에 따라 달라지는 절차 목록은 을 참조하십시오. [플랫폼 기반 관리의 차이점(Adobe Workfront/Adobe 비즈니스 플랫폼)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>조직이 Adobe Admin Console에 온보딩되었는지 여부에 따라 달라지는 프로시저 목록은 [플랫폼 기반 관리 차이점(Adobe Workfront/Adobe 비즈니스 플랫폼)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)을 참조하십시오.
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ ht-degree: 0%
 * 사용자 정의 문서 통합 구성 시 문서 웹후크 사용
 * Workfront 이벤트 구독 사용
 
-  자세한 내용은 [이벤트 구독 API](https://experience.workfront.com/s/article/Event-Subscription-API-2100945680).
+  자세한 내용은 [이벤트 구독 API](https://experience.workfront.com/s/article/Event-Subscription-API-2100945680)를 참조하십시오.
 
 또한 전자 메일 메시지가 배달될 때 암호화하려면 특정 포트를 열어야 합니다.
 
@@ -50,8 +50,8 @@ ht-degree: 0%
 
 조직에 Enterprise 플랜이 있는 경우 두 개의 Workfront 허용 목록을 구성할 수도 있습니다.
 
-* **허용 목록에 추가하다 전자 메일**: 사용자가 Workfront에 저장된 데이터를 이메일로 보낼 수 있는 위치를 제어할 수 있습니다. 자세한 내용은 [허용 목록에 추가하다 이메일 구성](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
-* **IP 허용 목록**: Workfront에 대한 액세스를 지정한 45개의 IP 주소 또는 IP 주소 범위로 제한하여 Workfront 애플리케이션에 추가 보안 계층을 제공합니다. 자세한 내용은 [IP 주소로 Adobe Workfront에 대한 액세스 제한](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
+* **전자 메일 허용 목록**: 사용자가 Workfront에 저장된 전자 메일을 보낼 수 있는 위치를 제어할 수 있습니다. 허용 목록에 추가하다 자세한 내용은 [전자 메일 구성](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)을 참조하십시오.
+* **IP 허용 목록**: Workfront에 대한 액세스를 지정한 45개의 IP 주소 또는 IP 주소 범위로 제한하여 Workfront 응용 프로그램에 추가적인 보안 계층을 제공합니다. 자세한 내용은 [IP 주소로 Adobe Workfront에 대한 액세스 제한](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md)을 참조하십시오.
 
 ## Workfront 클러스터 찾기
 
@@ -59,13 +59,13 @@ ht-degree: 0%
 
 조직의 클러스터를 찾으려면 다음을 수행합니다.
 
-1. Workfront 관리자로서 **메인 메뉴** 아이콘 ![메인 메뉴](assets/main-menu-icon.png)을 클릭한 다음 을 클릭합니다 **설정**.
-1. 왼쪽 탐색에서 **시스템**&#x200B;을 선택한 다음 을 선택합니다. **고객 정보**.
-1. 를 찾습니다. **클러스터 설정** 페이지의 오른쪽 위 모서리에 있는 필드입니다. 조직의 클러스터가 여기에 나열됩니다.
+1. Workfront 관리자는 **주 메뉴** 아이콘 ![주 메뉴](assets/main-menu-icon.png)을 클릭한 다음 **설정**&#x200B;을 클릭합니다.
+1. 왼쪽 탐색에서 **시스템**&#x200B;을 클릭한 다음 **고객 정보**&#x200B;를 선택합니다.
+1. 페이지 오른쪽 상단에서 **클러스터 설정** 필드를 찾습니다. 조직의 클러스터가 여기에 나열됩니다.
 
    CL01은 클러스터 1을 참조하고, CL02는 클러스터 2를 참조합니다.
 
-자세한 내용은 섹션을 참조하십시오 [조직의 클러스터 및 Workfront 계획 보기](../../administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan) 이 문서에서 [방화벽 개요](../../administration-and-setup/get-started-wf-administration/firewall-overview.md).
+자세한 내용은 문서 [방화벽 개요](../../administration-and-setup/get-started-wf-administration/firewall-overview.md)에서 [조직의 클러스터 및 Workfront 계획 보기](../../administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan) 섹션을 참조하십시오.
 
 ## 허용 목록에 추가하다에 추가할 IP 주소
 
@@ -73,14 +73,14 @@ ht-degree: 0%
 >
 >정적 IP 주소로 구성할 수 없어 Workfront이 활성화되지 않은 경우 일부 허용 목록에 추가하다 통합이 작동하지 않습니다. 다음 통합을 사용하려면 허용 목록에 추가하다를 비활성화해야 합니다.
 >
->* G Suite용 Workfront
+>* Google Workspace용 Workfront
 >* Outlook용 Workfront
 >* Salesforce용 Workfront
 
 * [클러스터 1, 2, 3, 5, 7, 8 및 9를 허용하는 IP 주소](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)
-* [클러스터 4에서 허용할 IP 주소](#ip-addresses-to-allow-for-cluster-4)
-* [클러스터 6을 허용할 IP 주소](#ip-addresses-to-allow-for-cluster-6)
-* [테스트 드라이브를 허용할 IP 주소](#IP%20Addre2)
+* 클러스터 4](#ip-addresses-to-allow-for-cluster-4)에 대해 허용할 [IP 주소
+* 클러스터 6](#ip-addresses-to-allow-for-cluster-6)을(를) 허용할 [IP 주소
+* 테스트 드라이브를 허용할 [IP 주소](#IP%20Addre2)
 * [이벤트 구독을 구현할 때 허용할 IP 주소](#ip-addresses-to-allow-when-implementing-event-subscriptions)
 * [향상된 인증을 허용하는 IP 주소](#ip-addresses-to-allow-for-enhanced-authentication)
 * [Workfront Fusion 액세스를 위해 추가할 IP 주소](#ip-addresses-to-add-for-accessing-workfront-fusion)
@@ -126,7 +126,7 @@ ht-degree: 0%
      <li>52.14.70.114</li> 
      <li>52.15.230.220</li> 
      <li>54.71.252.65</li> 
-    </ul> <p>다음 IP 주소에 대한 자세한 내용은 <a href="../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md" class="MCXref xref">21.1 릴리스가 포함된 Adobe Workfront 이메일의 새 IP 주소</a></p> 
+    </ul> <p>다음 IP 주소에 대한 자세한 내용은 <a href="../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md" class="MCXref xref">21.1 릴리스와 함께 Adobe Workfront 전자 메일에 대한 새 IP 주소</a>를 참조하세요.</p> 
     <ul> 
      <li>23.251.237.107</li> 
      <li>23.251.237.108</li> 
@@ -163,7 +163,7 @@ ht-degree: 0%
 * 46.51.194.192/32
 * 54.229.129.66/32
 
-다음 IP 주소에 대한 자세한 내용은 [21.1 릴리스가 포함된 Adobe Workfront 이메일의 새 IP 주소](../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md)
+다음 IP 주소에 대한 자세한 내용은 [21.1 릴리스와 함께 Adobe Workfront 전자 메일에 대한 새 IP 주소](../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md)를 참조하세요.
 
 * 23.251.239.98
 * 23.251.239.99
@@ -511,7 +511,7 @@ Jira 통합에 Workfront을 사용하려면 다음 IP 주소를 허용 목록에
      <li>*.workfront.com - Workfront에서 증명을 보는 데 필요</li> 
      <li>*.proofhq.com - Workfront Proof에서 증명을 보는 데 필요</li> 
      <li>*.proofhq.eu - Workfront Proof에서 증명을 보는 데 필요</li> 
-    </ul> <p><b>참고</b>:  <p>Workfront Proof용 허용 목록에 추가하다에 IP 주소를 추가할 수 없습니다. Workfront이 AWS으로 이동한 후 다이내믹했습니다. 대신 Workfront Proof 도메인만 허용하는 것이 좋습니다.</p> <p>허용 목록에 추가하다에 이러한 도메인을 추가하는 데 문제가 있고 대신 IP 주소가 필요한 경우 Workfront 고객 지원 센터에 문의하십시오.</p> </p> </td> 
+    </ul> <p><b>참고</b>:  <p>Workfront Proof용 허용 목록에 추가하다에 IP 주소를 추가하는 것은 지원되지 않습니다. Workfront이 AWS으로 이동한 후 다이내믹했습니다. 대신 Workfront Proof 도메인만 허용하는 것이 좋습니다.</p> <p>허용 목록에 추가하다에 이러한 도메인을 추가하는 데 문제가 있고 대신 IP 주소가 필요한 경우 Workfront 고객 지원 센터에 문의하십시오.</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -520,7 +520,7 @@ Jira 통합에 Workfront을 사용하려면 다음 IP 주소를 허용 목록에
 
 다양한 기능을 사용하려면 다음 IP 주소를 허용 목록에 추가해야 합니다.
 
-* [콜백 및 웹 캡처 증명](#for-callbacks-and-webcapture-proofs)
+* [콜백 및 Webcapture 증명](#for-callbacks-and-webcapture-proofs)
 * [발신 이메일의 경우](#for-outgoing-email)
 
 ### 콜백 및 웹 캡처 증명 {#for-callbacks-and-webcapture-proofs}

@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 5e841349-7d76-4ab9-9625-a0c53111bf35
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 0%
@@ -25,7 +25,7 @@ in January 2022
 
 2022년 4월 4일이 있는 주
 
-22.2 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [22.2 릴리스 개요](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+22.2 릴리스에서 사용할 수 있는 모든 변경 사항 목록을 보려면 [22.2 릴리스 개요](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md)를 참조하십시오.
 
 ## 이제 Adobe Workfront과 Anaplan 통합을 사용할 수 있습니다.
 
@@ -39,29 +39,29 @@ Workfront을 Anaplan에 통합하는 데 사용할 수 있는 기타 워크플�
 * 새 Anaplan 목록 항목에서 Workfront 프로젝트 만들기
 * Workfront 프로젝트에서 Anaplan 공급자 요청 시작
 
-자세한 내용은 [Adobe Workfront과 Anaplan](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md).
+자세한 내용은 [Anaplan이 있는 Adobe Workfront](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md)을 참조하세요.
 
 ## Workfront for Experience Manager 강화 커넥터 업데이트
 
 이제 Workfront for Experience Manager 강화 커넥터에 다음 업데이트가 포함됩니다.
 
-* 이제 여러 개의 프로젝트로 연결된 폴더 구성이 있는 경우에도 Adobe Workfront과 Adobe Experience Manager Assets as a Cloud Service 간에 연결된 폴더를 만들 수 있습니다.
+* 이제 여러 프로젝트 폴더 구성이 있더라도 Adobe Workfront과 Adobe Experience Manager Assets as a Cloud Service 간에 연결된 폴더를 만들 수 있습니다.
 * 이벤트 구독 페이지 매김에 대한 지원을 추가했습니다.
 * AEM 6.4.x에 대한 지원이 추가되었습니다
 * 프록시 환경에 대한 지원이 추가되었습니다
 * 파트너 및 고객 피드백을 기반으로 한 몇 가지 버그 수정
 
-자세한 내용은 [Workfront for Experience Manager 강화 커넥터 개요](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-aem-enhanced-connector-overview.md).
+자세한 내용은 [Workfront for Experience Manager 강화 커넥터 개요](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-aem-enhanced-connector-overview.md)를 참조하십시오.
 
 >[!NOTE]
 >
->이 커넥터를 배포하고 구성하려면 인증된 파트너가 필요합니다. 다음을 참조하십시오 [Experience Manager 강화 커넥터용 Workfront 설치](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install.html?lang=en#) 추가 정보.
+>이 커넥터를 배포하고 구성하려면 인증된 파트너가 필요합니다. 자세한 내용은 [Experience Manager 강화 커넥터용 Workfront 설치](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install.html?lang=en#)를 참조하십시오.
 
 ## 이제 Adobe Creative Cloud 통합에서 OAuth2를 사용합니다
 
 보안을 강화하고 통합 전반에서 보다 일관된 환경을 제공하기 위해 사용자를 인증하는 업계 표준 방법인 OAuth2 인증을 사용하도록 Adobe Creative Cloud 통합을 업데이트했습니다. 이제 사용자가 로그인하면 통합에서 액세스할 수 있는 특정 작업과 영역을 볼 수 있으며 액세스를 허용할 수 있습니다. 이 후에는 를 자주 로그인할 필요가 없습니다.
 
-자세한 내용은 [Illustrator 및 InDesign용 Workfront 확장 사용](../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md).
+자세한 내용은 [Illustrator 및 InDesign용 Workfront 확장 사용](../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)을 참조하십시오.
 
 ## 사용자 정의 OAuth2 또는 JWT 통합을 위한 클라이언트 암호 세부 사항 을 참조하십시오
 
@@ -69,7 +69,7 @@ Workfront을 Anaplan에 통합하는 데 사용할 수 있는 기타 워크플�
 
 이전에는 이러한 세부 정보를 사용할 수 없었습니다.
 
-OAuth2 또는 JWT 사용자 지정 통합의 클라이언트 암호에 대한 자세한 내용은 다음을 참조하십시오. [Workfront 통합을 위한 OAuth2 애플리케이션 만들기](../../../administration-and-setup/configure-integrations/create-oauth-application.md).
+OAuth2 또는 JWT 사용자 지정 통합의 클라이언트 암호에 대한 자세한 내용은 [Workfront 통합을 위한 OAuth2 애플리케이션 만들기](../../../administration-and-setup/configure-integrations/create-oauth-application.md)를 참조하십시오.
 
 ## 사용자 지정 OAuth2 애플리케이션 목록에서 인증 유형 을 참조하십시오
 
@@ -77,13 +77,13 @@ OAuth2 또는 JWT 사용자 지정 통합의 클라이언트 암호에 대한 �
 
 이전에는 각 애플리케이션의 편집 옵션으로 이동해야만 이 정보를 볼 수 있었습니다.
 
-자세한 내용은 [Workfront 통합을 위한 OAuth2 애플리케이션 만들기](../../../administration-and-setup/configure-integrations/create-oauth-application.md).
+자세한 내용은 [Workfront 통합을 위한 OAuth2 애플리케이션 만들기](../../../administration-and-setup/configure-integrations/create-oauth-application.md)를 참조하십시오.
 
 ## 사용자 지정 OAuth2 통합에서 새로 고침 토큰에 대한 만료 설정
 
 이제 사용자 지정 OAuth2 통합에 대한 액세스 및 보안을 더 잘 제어하기 위해 새로 고침 토큰의 수명을 사용자 지정할 수 있습니다. 사용자의 새로 고침 토큰이 만료되면 다시 통합에 로그인해야 합니다.
 
-자세한 내용은 [Workfront 통합을 위한 OAuth2 애플리케이션 만들기](../../../administration-and-setup/configure-integrations/create-oauth-application.md).
+자세한 내용은 [Workfront 통합을 위한 OAuth2 애플리케이션 만들기](../../../administration-and-setup/configure-integrations/create-oauth-application.md)를 참조하십시오.
 
 ## 서버 간 앱에 대한 사용자 지정 OAuth2 통합에서 공개 및 개인 키 사용
 
@@ -91,10 +91,10 @@ OAuth2 또는 JWT 사용자 지정 통합의 클라이언트 암호에 대한 �
 
 이전에는 사용자 정의 OAuth2 애플리케이션의 모든 인증이 사용자의 로그인 자격 증명을 사용했습니다.
 
-자세한 내용은 [Workfront 통합을 위한 OAuth2 애플리케이션 만들기](../../../administration-and-setup/configure-integrations/create-oauth-application.md).
+자세한 내용은 [Workfront 통합을 위한 OAuth2 애플리케이션 만들기](../../../administration-and-setup/configure-integrations/create-oauth-application.md)를 참조하십시오.
 
-## 이제 Google G Suite 통합에서 OAuth2를 사용합니다.
+## Google Google Workspace 통합에서 이제 OAuth2를 사용합니다
 
-보안을 강화하고 통합 전반에서 보다 일관된 환경을 제공하기 위해 사용자를 인증하는 업계 표준 방법인 OAuth2 인증을 사용하도록 Google G Suite 통합을 업데이트했습니다. 이제 사용자가 로그인하면 통합에서 액세스할 수 있는 특정 작업과 영역을 볼 수 있으며 액세스를 허용할 수 있습니다. 이 후에는 를 자주 로그인할 필요가 없습니다.
+보안을 강화하고 통합 전반에서 보다 일관된 환경을 제공하기 위해 사용자를 인증하는 업계 표준 방법인 OAuth2 인증을 사용하도록 Google Google Workspace 통합을 업데이트했습니다. 이제 사용자가 로그인하면 통합에서 액세스할 수 있는 특정 작업과 영역을 볼 수 있으며 액세스를 허용할 수 있습니다. 이 후에는 를 자주 로그인할 필요가 없습니다.
 
-자세한 내용은 [G Suite용 Adobe Workfront 로그인 및 로그아웃](../../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md).
+자세한 내용은 [Google Workspace용 Adobe Workfront 로그인 및 로그아웃](../../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md)을 참조하세요.
