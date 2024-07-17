@@ -16,17 +16,17 @@ ht-degree: 0%
 
 # 커밋 일자 개요
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리보기 환경 또는 빠른 릴리스를 활성화한 고객의 프로덕션 환경에서만 사용할 수 있습니다.</span>
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리 보기 환경이나 빠른 릴리스를 활성화한 고객의 프로덕션 환경에서만 사용할 수 있습니다.</span>
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 활성화 또는 비활성화](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>을 참조하세요.
 
-<span class="preview">현재 릴리스에 대한 자세한 내용은 [2024년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">현재 릴리스에 대한 자세한 내용은 [2024년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)를 참조하십시오.</span>
 
 커밋 일자는 작업 또는 문제에 할당된 사용자가 작업 또는 문제를 완료하기로 커밋하는 일자입니다.
 
 이는 업무를 담당하는 사용자만이 부여한 완료일에 대한 보다 현실적인 추계로써 업무나 문제의 계획된 완료일자와 다르다.
 
-계획된 완료 일자에 대한 자세한 내용은 [작업 계획 완료 일자 개요](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
+계획된 완료 날짜에 대한 자세한 내용은 [작업 계획된 완료 날짜에 대한 개요](../../../manage-work/tasks/task-information/task-planned-completion-date.md)를 참조하십시오.
 
 ## 커밋 일자 개요
 
@@ -37,9 +37,9 @@ ht-degree: 0%
   작업 또는 문제를 만들 때 작업 또는 문제에 할당된 커밋 일자가 없습니다.
 * 작업 또는 문제에 할당된 경우 다음 중 하나를 수행하여 커밋 일자를 설정할 수 있습니다.
 
-   * Workfront에서 작업 또는 문제에 대한 작업, 문제 시작 또는 작업 시작을 클릭하여 커밋 일자를 작업 또는 문제의 기존 계획된 완료 일자와 일치하도록 설정할 수 있습니다. [처리 중] 단추를 [시작] 단추로 바꾸는 방법에 대한 자세한 내용은  [처리 중 단추를 시작 단추로 바꾸기](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
+   * Workfront에서 작업 또는 문제에 대한 작업, 문제 시작 또는 작업 시작을 클릭하여 커밋 일자를 작업 또는 문제의 기존 계획된 완료 일자와 일치하도록 설정할 수 있습니다. [처리 중] 단추를 [시작] 단추로 바꾸는 방법에 대한 자세한 내용은 [[처리 중] 단추를 [시작] 단추로 바꾸기](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)를 참조하십시오.
    * 작업 또는 문제가 완료될 수 있다고 생각되는 시기에 따라 커밋 일자를 직접 수동으로 설정하십시오. 이는 프로젝트 관리자가 작업 또는 문제를 특정 날짜까지 완료할 수 있도록 프로젝트 관리자에 대한 예상 및 약속입니다.
-자세한 내용은 [작업 및 문제에 대한 커밋 일자 업데이트](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
+자세한 내용은 [작업 및 문제에 대한 커밋 일자 업데이트](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md)를 참조하십시오.
 
 >[!NOTE]
 >
@@ -52,15 +52,15 @@ ht-degree: 0%
 >* 작업에 대한 다른 모든 할당자
 >* 작업에 대한 권한이 있는 다른 모든 사용자입니다.
 >
->작업 소유자에 대한 자세한 내용은 [작업 편집](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+>작업 소유자에 대한 자세한 내용은 [작업 편집](../../../manage-work/tasks/manage-tasks/edit-tasks.md)을 참조하세요.
 
 ## 작업 및 문제의 커밋 일자 찾기
 
 Workfront의 다음 영역에서 작업 및 문제에 대한 커밋 일자를 찾을 수 있습니다.
 
 * 세부 정보 페이지
-* 요약 패널은 Workfront 또는 그룹 관리자가 레이아웃 템플릿에 추가하면 됩니다. 자세한 내용은 [레이아웃 템플릿을 사용하여 홈 및 요약 맞춤화](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
-* <span class="preview">Workfront 또는 그룹 관리자가 작업 또는 문제를 레이아웃 템플릿에 추가한 후의 헤더. 자세한 내용은 [레이아웃 템플릿을 사용하여 개체 머리글 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span>
+* 요약 패널은 Workfront 또는 그룹 관리자가 레이아웃 템플릿에 추가하면 됩니다. 자세한 내용은 [레이아웃 템플릿을 사용하여 홈 및 요약 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)을 참조하십시오.
+* <span class="preview">Workfront 또는 그룹 관리자가 작업 또는 문제를 레이아웃 템플릿에 추가한 후 작업 또는 문제의 헤더입니다. 자세한 내용은 [레이아웃 템플릿을 사용하여 개체 머리글 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)을 참조하십시오. </span>
 
 ## 커밋 일자 변경으로 트리거된 알림 및 업데이트 {#notifications-and-updates-triggered-by-changing-the-commit-date}
 
@@ -76,7 +76,7 @@ Workfront의 다음 영역에서 작업 및 문제에 대한 커밋 일자를 �
 
   ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
 
-  Workfront 관리자가 설정의 업데이트 피드 영역에서 이 업데이트를 활성화하면 작업 또는 문제의 업데이트 영역에 커밋 일자 변경이 표시됩니다. 자세한 내용은 [시스템 추적 업데이트](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+  Workfront 관리자가 설정의 업데이트 피드 영역에서 이 업데이트를 활성화하면 작업 또는 문제의 업데이트 영역에 커밋 일자 변경이 표시됩니다. 자세한 내용은 [시스템 추적 업데이트](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)를 참조하십시오.
 
   프로젝트 소유자가 변경 사항을 수락하지 않으려는 경우 업데이트 섹션의 설명 탭을 사용하여 새 날짜를 제안하는 사용자에게 다시 댓글을 달거나 커밋 날짜를 원래 계획된 날짜로 다시 변경하거나 새 날짜를 선택하는 것이 좋습니다.
 
@@ -91,8 +91,8 @@ Workfront의 다음 영역에서 작업 및 문제에 대한 커밋 일자를 �
   >자세한 내용은 다음 문서를 참조하십시오.
   >
   >* [요약 개요](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
-  >* [레이아웃 템플릿을 사용하여 홈 및 요약 맞춤화](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
-  >* [레이아웃 템플릿을 사용하여 개체 머리글 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+  >* [레이아웃 템플릿을 사용하여 홈 및 요약 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+  >* [레이아웃 템플릿을 사용하여 개체 헤더를 사용자 지정합니다](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 <!--this is no longer possible: 
 >[!NOTE]
@@ -107,7 +107,7 @@ Workfront의 다음 영역에서 작업 및 문제에 대한 커밋 일자를 �
 
 * 이제 작업이 완료될 가능성이 더 정확하게 표시되므로 작업 또는 문제의 예상 완료 일자가 동일한 일자로 설정됩니다.
 
-  예상 완료 일자에 대한 자세한 내용은 [프로젝트, 작업 및 문제의 예상 완료 일자 개요](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
+  예상 완료 날짜에 대한 자세한 내용은 [프로젝트, 작업 및 문제의 예상 완료 날짜 개요](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md)를 참조하십시오.
 
   ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
@@ -121,11 +121,11 @@ Workfront의 다음 영역에서 작업 및 문제에 대한 커밋 일자를 �
 
   >[!TIP]
   >
-  >Workfront 관리자가 설정의 업데이트 피드 영역에 커밋 일자 표시를 활성화할 경우에만 커밋 일자가 변경되었다는 알림이 프로젝트 소유자에게 전송됩니다. 자세한 내용은 [시스템 추적 업데이트](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+  >Workfront 관리자가 설정의 업데이트 피드 영역에 커밋 일자 표시를 활성화할 경우에만 커밋 일자가 변경되었다는 알림이 프로젝트 소유자에게 전송됩니다. 자세한 내용은 [시스템 추적 업데이트](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)를 참조하십시오.
 
-작업 항목을 업데이트할 때 사용할 수 있는 추가 기능에 대한 자세한 내용은  [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+작업 항목을 업데이트할 때 사용할 수 있는 추가 기능에 대한 자세한 내용은 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)를 참조하십시오.
 
-작업 및 문제에 대한 커밋 일자 업데이트에 대한 자세한 내용은 다음을 참조하십시오. [작업 및 문제에 대한 커밋 일자 업데이트](../../../manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
+작업 및 문제의 커밋 일자 업데이트에 대한 자세한 내용은 [작업 및 문제의 커밋 일자 업데이트](../../../manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md)를 참조하십시오.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

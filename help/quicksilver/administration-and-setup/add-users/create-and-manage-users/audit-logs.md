@@ -21,7 +21,7 @@ ht-degree: 3%
 
 Adobe Workfront 관리자는 아래에 설명된 감사 로그를 사용하여 지난 90일 동안 시스템에서 트리거된 사용자 변경 사항을 추적할 수 있습니다.
 
-이러한 감사 로그에서 보려는 항목을 보고 필터링하는 방법에 대한 지침은 [감사 로그 보기 및 내보내기](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md).
+이 감사 로그에서 보고 필터링할 내용을 보려면 [감사 로그 보기 및 내보내기](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)를 참조하십시오.
 
 ## 감사 로그에서 찾을 수 있는 정보
 
@@ -67,9 +67,9 @@ Adobe Workfront 관리자는 아래에 설명된 감사 로그를 사용하여 �
 * [액세스 수준](#access-level)
 * [회사](#company)
 * [조건](#condition)
-* [사용자 정의 필드](#custom-field)
+* [사용자 지정 필드](#custom-field)
 * [사용자 정의 양식](#custom-forms)
-* [사용자 정의 섹션](#custom-section)
+* [사용자 지정 섹션](#custom-section)
 * [환율](#exchange-rate)
 * [그룹](#group)
 * [작업 역할](#job-roles)
@@ -115,7 +115,7 @@ Adobe Workfront 관리자는 아래에 설명된 감사 로그를 사용하여 �
 
 * 회사 삭제
 
-상태에 대한 자세한 내용은 [상태 개요](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+상태에 대한 자세한 내용은 [상태 개요](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md)를 참조하십시오.
 
 ### 조건 {#condition}
 
@@ -132,7 +132,7 @@ Adobe Workfront 관리자는 아래에 설명된 감사 로그를 사용하여 �
 
 * 조건 삭제
 
-작업 역할 구성에 대한 자세한 내용은 [사용자 지정 조건 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
+작업 역할 구성에 대한 자세한 내용은 [사용자 지정 조건 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md)을 참조하세요.
 
 ### 사용자 정의 필드 {#custom-field}
 
@@ -192,7 +192,7 @@ Adobe Workfront 관리자는 아래에 설명된 감사 로그를 사용하여 �
 * 사용자 정의 섹션의 이름 또는 설명을 변경합니다.
 * 사용자 정의 섹션을 삭제합니다.
 
-사용자 정의 양식의 사용자 정의 섹션에 대한 자세한 내용은 [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+사용자 정의 양식의 사용자 정의 섹션에 대한 자세한 내용은 [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)을 참조하십시오.
 
 ### 환율 {#exchange-rate}
 
@@ -207,7 +207,7 @@ Adobe Workfront 관리자는 아래에 설명된 감사 로그를 사용하여 �
 
 * 환율을 삭제합니다.
 
-환율 구성에 대한 자세한 내용은 [환율 설정](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+환율 구성에 대한 자세한 내용은 [환율 설정](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)을 참조하십시오.
 
 ### 그룹 {#group}
 
@@ -234,7 +234,7 @@ Adobe Workfront 관리자는 아래에 설명된 감사 로그를 사용하여 �
 
 * 작업 역할 삭제
 
-작업 역할 구성에 대한 자세한 내용은 [작업 역할 만들기 및 관리](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+작업 역할 구성에 대한 자세한 내용은 [작업 역할 만들기 및 관리](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)를 참조하십시오.
 
 ### 로그인 시도 {#login-attempt}
 
@@ -265,7 +265,7 @@ Workfront 관리자가 다음으로 로그인 기능을 사용하는 경우 로�
 
 * 우선 순위를 삭제합니다.
 
-우선 순위 구성에 대한 자세한 내용은 [우선 순위 만들기 및 사용자 지정](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
+우선 순위 구성에 대한 자세한 내용은 [우선 순위 만들기 및 사용자 지정](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md)을 참조하십시오.
 
 ### 프로젝트 환경 설정 {#project-preference}
 
@@ -281,7 +281,7 @@ Workfront 관리자가 다음으로 로그인 기능을 사용하는 경우 로�
 
 * 사용자 정의 영역 삭제
 
-프로젝트 환경 설정에 대한 자세한 내용은 [시스템 전체 프로젝트 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+프로젝트 환경 설정에 대한 자세한 내용은 [시스템 전체 프로젝트 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)을 참조하십시오.
 
 ### 심각도 {#severity}
 
@@ -298,7 +298,7 @@ Workfront 관리자가 다음으로 로그인 기능을 사용하는 경우 로�
 
 * 문제 심각도 삭제
 
-작업 역할 구성에 대한 자세한 내용은 [문제 심각도 만들기 또는 사용자 지정](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md).
+작업 역할 구성에 대한 자세한 내용은 [문제 심각도 만들기 또는 사용자 지정](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md)을 참조하십시오.
 
 ### 상태 {#status}
 
@@ -315,7 +315,7 @@ Workfront 관리자가 다음으로 로그인 기능을 사용하는 경우 로�
 
 * 시스템 또는 그룹 수준에서 상태를 삭제합니다.
 
-상태에 대한 자세한 내용은 [상태 개요](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+상태에 대한 자세한 내용은 [상태 개요](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md)를 참조하십시오.
 
 ### 작업 및 문제 환경 설정 {#tasks-issues-preferences}
 
@@ -325,7 +325,7 @@ Workfront 관리자가 다음으로 로그인 기능을 사용하는 경우 로�
 * 환경 설정 변경
 * 작업, 문제 또는 요청에 대한 액세스 설정 변경
 
-작업 및 문제 환경 설정에 대한 자세한 내용은 [시스템 전체 작업 및 문제 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+작업 및 문제 환경 설정에 대한 자세한 내용은 [시스템 전체의 작업 및 문제 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)을 참조하십시오.
 
 ### 사용자 {#user}
 

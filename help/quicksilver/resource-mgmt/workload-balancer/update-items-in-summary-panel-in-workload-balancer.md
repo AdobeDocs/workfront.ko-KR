@@ -47,11 +47,11 @@ ht-degree: 1%
      <li> <p>프로젝트</p> </li> 
      <li> <p>작업</p> </li> 
      <li> <p>문제</p> </li> 
-    </ul> <p>여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+    </ul> <p>여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>프로젝트, 작업 및 문제에 대한 권한 이상 기여 </p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>프로젝트, 작업 및 문제에 대한 Contribute 권한 이상 </p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -64,21 +64,21 @@ ht-degree: 1%
 
    업무 균형자에 현재 주부터 시작되는 작업 할당 정보가 표시됩니다.
 
-1. 로 이동 **할당 해제된 작업** 영역을 지정하고 작업 항목을 찾습니다.
+1. **미할당 작업** 영역으로 이동하여 작업 항목을 찾습니다.
 
    또는
 
-   로 이동 **할당된 작업** 영역을 지정하고 사용자를 확장한 다음 작업 항목을 찾습니다.
+   **할당된 작업** 영역으로 이동하여 사용자를 확장하고 작업 항목을 찾습니다.
 
 1. 작업 또는 문제의 막대를 클릭하여 오른쪽의 요약 패널을 엽니다.
 
    또는
 
-   클릭 **요약 열기** 아이콘 ![](assets/summary-panel-icon.png)을 클릭한 다음 작업 또는 문제의 막대를 클릭하여 요약 패널을 엽니다.
+   **요약 열기** 아이콘 ![](assets/summary-panel-icon.png)을 클릭한 다음 작업 또는 문제의 막대를 클릭하여 요약 패널을 엽니다.
 
    또는
 
-   다음을 클릭합니다. **자세히** 메뉴 ![](assets/more-icon.png) 작업 또는 문제의 오른쪽에 있는 **요약 열기**.
+   작업 또는 문제의 오른쪽에 있는 **자세히** 메뉴 ![](assets/more-icon.png)을(를) 클릭한 다음 **요약 열기**&#x200B;를 클릭합니다.
 
    오른쪽에 요약 패널이 열립니다.
 
@@ -98,7 +98,7 @@ ht-degree: 1%
    >
    >상위 작업이 업무 균형자에 표시되지 않으므로 요약 섹션에서 하위 작업 섹션으로 이동하여 하위 작업을 추가하면 원래 작업이 제거됩니다.
 
-   요약을 사용하여 정보를 업데이트하는 방법에 대한 자세한 내용은 [요약 개요](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+   요약을 사용하여 정보를 업데이트하는 방법에 대한 자세한 내용은 [요약 개요](../../workfront-basics/the-new-workfront-experience/summary-overview.md)를 참조하십시오.
 
-1. (조건부) 작업 항목의 섹션을 연 경우 **뒤로 단추** 을 클릭하여 업무 균형자로 돌아갑니다.
-1. 다음을 클릭합니다. **닫기 아이콘** ![](assets/close-icon.png) 요약 오른쪽 상단 모서리에서 을 눌러 닫습니다.
+1. (조건부) 작업 항목의 섹션을 연 경우 브라우저의 **뒤로 단추**&#x200B;를 클릭하여 업무 균형자로 돌아갑니다.
+1. 요약 오른쪽 위의 **닫기 아이콘** ![](assets/close-icon.png)을 클릭하여 닫습니다.

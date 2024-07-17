@@ -21,15 +21,15 @@ ht-degree: 0%
 <p>(We need to keep this as a standalone article. It is linked in multiple articles and FAQs.)</p>
 -->
 
-(으)로 [!DNL Adobe Workfront] 고객, 다음으로 문의할 수 있습니다. [!DNL Workfront] 고객 지원 팀은 전화 또는 온라인으로 티켓을 제출합니다.
+[!DNL Adobe Workfront] 고객의 경우 전화 또는 온라인으로 티켓을 제출하여 [!DNL Workfront] 고객 지원 팀에 문의할 수 있습니다.
 
 >[!NOTE]
 >
->중요한 문제에 대해서는 다음으로 문의하십시오. [!DNL Workfront] 전화를 통한 고객 지원.
+>중요한 문제가 발생하면 [!DNL Workfront] 고객 지원 센터에 전화로 문의하십시오.
 
 ## 휴대폰
 
-다음으로 문의할 수 있습니다 [!DNL Workfront Customer Support] 주 7일, 하루 24시간, 다음 숫자로 계산합니다.
+다음 번호를 통해 주 7일, 하루 24시간 [!DNL Workfront Customer Support]에 연결할 수 있습니다.
 
 * US: 844-306-HELP(4357)
 * EMEA: +44 1256 274200
@@ -37,30 +37,30 @@ ht-degree: 0%
 
 ## 웹
 
-셀프서비스에서 지원 티켓을 제출할 수 있습니다 [!DNL Experience League] 포털.
+셀프서비스 [!DNL Experience League] 포털에서 지원 티켓을 제출할 수 있습니다.
 
 >[!IMPORTANT]
 >
 >승인된 지원 담당자(또는 지원 권한이 있는 사용자)만 온라인 지원 티켓을 제출할 수 있습니다.
 
 
-1. 다음에서 [[!DNL Experience League]](https://experienceleague.adobe.com) 웹 사이트 **[!UICONTROL 지원]**  을 클릭합니다.
+1. [[!DNL Experience League]](https://experienceleague.adobe.com) 웹 사이트에서 페이지 상단의 **[!UICONTROL 지원]**&#x200B;을 클릭합니다.
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
-   다음 [!UICONTROL 지원] 페이지가 열립니다.
+   [!UICONTROL 지원] 페이지가 열립니다.
 
-   다음에서 [!UICONTROL 지원] 홈 페이지, 진행 중인 지원 사례로 이동하여 새 사례를 기록하고 맨 위를 볼 수 있습니다. [!UICONTROL 지원] 또는 추가 학습 소스에 액세스합니다.
+   [!UICONTROL 지원] 홈 페이지에서 진행 중인 지원 사례로 이동하거나, 새로운 사례를 기록하거나, 상위 [!UICONTROL 지원] 문서를 보거나, 추가 학습 소스에 액세스할 수 있습니다.
 
-1. 사례를 제출하려면 옵션을 선택합니다 **[!UICONTROL 지원 사례 열기]**&#x200B;을 클릭한 다음 을 클릭합니다 **[!UICONTROL 서명] 위치**.
+1. 서비스 케이스를 제출하려면 **[!UICONTROL 지원 서비스 케이스 열기]** 옵션을 선택한 다음&#x200B;**에서**[!UICONTROL &#x200B;서명]을 클릭하세요.
 
-1. 클릭 **[!UICONTROL 서비스 케이스 열기]** 왼쪽 사이드바에서
+1. 왼쪽 사이드바에서 **[!UICONTROL 대/소문자 열기]**&#x200B;를 클릭합니다.
 
 <!--
    ![](assets/left-nav-bar-for-exl-support-portal.png)
 -->
 
-다음 [!UICONTROL 사례 만들기] 제품 이름( )을 입력할 수 있는 페이지가 열립니다[!DNL Adobe Workfront], [!DNL Adobe Workfront Fusion], 등), 사례 제목 및 사례 설명.
+제품 이름([!DNL Adobe Workfront], [!DNL Adobe Workfront Fusion] 등), 사례 제목 및 사례 설명을 입력할 수 있는 [!UICONTROL 사례 만들기] 페이지가 열립니다.
 
 >[!TIP]
 >
@@ -69,14 +69,14 @@ ht-degree: 0%
 
 1. 다음 필드에 대한 정보를 입력하여 보다 구체적인 세부 정보를 제공합니다.
 
-   * **[!UICONTROL 사례 우선 순위]** ([!UICONTROL 낮음], [!UICONTROL Medium], [!UICONTROL 높음], [!UICONTROL 중요])
-   * **[!UICONTROL 사례 제품]** ([!UICONTROL DAM], [!DNL Fusion], [!DNL Goals]등)
-   * **[!UICONTROL 환경]** ([!UICONTROL 프로덕션], [!UICONTROL 미리 보기], [!UICONTROL 샌드박스]등)
-   * **[!UICONTROL 고객 지역]** (아메리카, EMEA, APAC)
+   * **[!UICONTROL 사례 우선 순위]**([!UICONTROL 낮음], [!UICONTROL Medium], [!UICONTROL 높음], [!UICONTROL 중요])
+   * **[!UICONTROL 사례 제품]**([!UICONTROL DAM], [!DNL Fusion], [!DNL Goals] 등)
+   * **[!UICONTROL 환경]**([!UICONTROL 프로덕션], [!UICONTROL 미리 보기], [!UICONTROL 샌드박스] 등)
+   * **[!UICONTROL 고객 지역]**(아메리카, EMEA, APAC)
 
-1. 관련 파일을 업로드한 다음 **[!UICONTROL 사례 제출]**.
+1. 관련 파일을 업로드한 다음 **[!UICONTROL 사례 제출]**&#x200B;을 클릭합니다.
 
-   케이스가 제출되고 [!UICONTROL 내 케이스] 페이지가 표시됩니다.
+   서비스 케이스가 제출되고 [!UICONTROL 내 서비스 케이스] 페이지가 표시됩니다.
 
    <!--
    [](assets/all-cases-list-exl-support-portal.png)
@@ -87,19 +87,19 @@ ht-degree: 0%
 
 ## 지원 사례 보기 및 관리
 
-1. 다음 위치로 이동 **[!UICONTROL 내 케이스]** 페이지를 가리키도록 업데이트하는 중입니다. 이 페이지는 사례를 제출할 때 열리거나 다음을 클릭하여 열 수 있습니다. **[!UICONTROL 내 케이스]** 왼쪽 탐색.
+1. **[!UICONTROL 내 사례]** 페이지로 이동합니다. 이 페이지는 사례를 제출할 때 열리거나 왼쪽 탐색 메뉴에서 **[!UICONTROL 내 사례]**&#x200B;를 클릭하여 열 수 있습니다.
 
-1. (선택 사항) 페이지 상단에 있는 옵션을 사용하여 필터링 기준 **제품([!DNL Experience Cloud] 솔루션)** 또는 사례 **[!UICONTROL 상태]** ([!UICONTROL 열기] 또는 Closed). 다음을 사용할 수도 있습니다 [!UICONTROL 검색] 지원 사례와 관련된 키워드를 검색하는 상자.
+1. (선택 사항) 페이지 상단의 옵션을 사용하여 **제품([!DNL Experience Cloud] 솔루션)** 또는 사례 **[!UICONTROL 상태]**([!UICONTROL 열기] 또는 Closed)별로 필터링합니다. [!UICONTROL search] 상자를 사용하여 지원 사례와 관련된 키워드를 검색할 수도 있습니다.
 
-1. (선택 사항) 서비스 케이스에 대한 자세한 내용을 보려면 **서비스 케이스 번호** 액세스할 수 있습니다.
+1. (선택 사항) 서비스 케이스에 대한 자세한 내용을 보려면 **서비스 케이스 번호**&#x200B;를 클릭하여 액세스하십시오.
 
    서비스 케이스 보기가 열립니다.
 
 1. (선택 사항) 사례 보기에서 지정된 사례 소유자와 함께 최신 주석을 검토하고 추가 첨부 파일 또는 응답을 추가합니다.
 
-1. (선택 사항) 대/소문자를 구분하려면 **[!UICONTROL 관리로 에스컬레이션]** ** 아래의 페이지 오른쪽[!UICONTROL 사례 세부 정보].
+1. (선택 사항) 서비스 케이스를 에스컬레이션하려면 **[!UICONTROL 서비스 케이스 세부 정보]의 페이지 오른쪽에서 **[!UICONTROL 관리로 에스컬레이션]**&#x200B;을 클릭하세요.
 
-1. 다음을 클릭합니다. **[!UICONTROL 대소문자 구분]** 단추를 클릭하여 케이스를 닫습니다.
+1. **[!UICONTROL 대/소문자 닫기]** 단추를 클릭하여 대/소문자를 닫습니다.
 
 
 <!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)

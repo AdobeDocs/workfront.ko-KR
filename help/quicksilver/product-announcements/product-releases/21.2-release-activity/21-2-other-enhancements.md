@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 21.2 기타 개선 사항
 
-이 페이지에서는 미리보기 환경에 대한 21.2 릴리스의 기타 모든 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2021년 5월 10일이 있는 주에 프로덕션 환경에서 사용할 수 있습니다. 21.2 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [21.2 릴리스 개요](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+이 페이지에서는 미리보기 환경에 대한 21.2 릴리스의 기타 모든 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2021년 5월 10일이 있는 주에 프로덕션 환경에서 사용할 수 있습니다. 21.2 릴리스에서 사용할 수 있는 모든 변경 사항 목록을 보려면 [21.2 릴리스 개요](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md)를 참조하십시오.
 
 ## 이제 공식적으로 Adobe Workfront입니다.
 
@@ -37,7 +37,7 @@ Adobe Workfront 애플리케이션 및 고객 대면 웹 사이트에서 가장 
 * 목록 및 보고서에 대한 PDF 내보내기
 * 브라우저 탭의 파비콘 아이콘
 
-**나중에 영역 업데이트**
+**나중에 업데이트되는 영역**
 
 * 이메일 알림
 
@@ -49,7 +49,7 @@ Adobe Workfront 애플리케이션 및 고객 대면 웹 사이트에서 가장 
 
 이메일 주소를 사용하는 경우 이제 허용 목록에 추가하다허용 목록에 추가하다 에 대해 새 사용자 이메일과 업데이트된 사용자 이메일이 확인됩니다. 새 사용자를 추가하거나 기존 사용자를 편집하고 허용 목록에 추가하다에 없는 이메일 도메인을 입력하면 사용자가 이메일 메시지를 받지 못한다는 메시지가 표시됩니다. 허용 목록에 추가하다 사용자 프로필을 저장할 수 있지만 사용자가 이메일을 수신할 수 있도록 도메인에 도메인을 추가해야 합니다.
 
-자세한 내용은 [사용자 프로필 편집](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+자세한 내용은 [사용자 프로필 편집](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)을 참조하세요.
 
 ## 오브젝트 헤더의 새로운 모양과 느낌
 
@@ -70,7 +70,7 @@ Adobe Workfront 애플리케이션 및 고객 대면 웹 사이트에서 가장 
 
 향상된 분석, 리소스 관리 등과 같은 새 Workfront 경험에 있는 영역의 페이지 머리글에도 이러한 업데이트된 모양과 느낌이 있습니다.
 
-새 Workfront 경험의 새 개체 헤더에 대한 자세한 내용은 [새 개체 헤더](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
+새 Workfront 경험의 새 개체 헤더에 대한 자세한 내용은 [새 개체 헤더](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md)를 참조하십시오.
 
 ![](assets/product-announcement-object-header-350x179.png)
 
@@ -80,7 +80,7 @@ Adobe Workfront 애플리케이션 및 고객 대면 웹 사이트에서 가장 
 
 이러한 변경 사항은 상태 검색 요청이 수행되는 방식에 영향을 주지 않습니다. 하지만 개체 상태 검색이 포함된 API 요청은 불완전한 그룹 상태 목록을 반환합니다.
 
-자세한 내용은 [핵심 API 변경 사항: 상태 검색 응답](../../../wf-api/api/api-changes-search.md) .
+자세한 내용은 [핵심 API 변경 사항: 상태 검색 응답](../../../wf-api/api/api-changes-search.md) 을 참조하십시오.
 
 ## ID로 끝나는 모든 필드를 포함하도록 이벤트 구독 페이로드가 업데이트되었습니다
 
@@ -96,4 +96,4 @@ Adobe Workfront 애플리케이션 및 고객 대면 웹 사이트에서 가장 
 
 블루프린트는 사용자와 함께 성장하는 작업 관리 시스템을 만드는 데 도움이 되는 기본 구성 요소를 제공합니다. 시스템 관리자는 블루프린트 카탈로그를 검색하고 바로 사용할 수 있는 프로젝트 템플릿을 설치할 수 있습니다.
 
-자세한 내용은 [블루프린트](../../../administration-and-setup/blueprints/blueprints.md).
+자세한 내용은 [블루프린트](../../../administration-and-setup/blueprints/blueprints.md)를 참조하세요.

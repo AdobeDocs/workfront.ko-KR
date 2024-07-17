@@ -5,7 +5,8 @@ title: 캔버스 대시보드에서 보고서 추가, 제거 또는 정렬
 description: 캔버스 대시보드를 만들면 Adobe Workfront 데이터를 다양한 형식으로 표시하는 보고서를 추가할 수 있습니다. 이러한 보고서는 필요에 따라 캔버스에서 이동하거나 크기를 조정할 수 있습니다.
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+exl-id: 840f2e1f-592f-44c1-b2e9-7201e424209a
+source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 # 캔버스 대시보드에서 보고서 추가, 제거 또는 정렬
 
-캔버스 대시보드를 만들면 Adobe Workfront 데이터를 다양한 형식으로 표시하는 보고서를 추가할 수 있습니다. 이러한 보고서는 필요에 따라 캔버스에서 이동하거나 크기를 조정할 수 있습니다. 캔버스 대시보드 만들기에 대한 자세한 내용은 다음을 참조하십시오. [캔버스 대시보드 시작](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
+캔버스 대시보드를 만들면 Adobe Workfront 데이터를 다양한 형식으로 표시하는 보고서를 추가할 수 있습니다. 이러한 보고서는 필요에 따라 캔버스에서 이동하거나 크기를 조정할 수 있습니다. 캔버스 대시보드 만들기에 대한 자세한 내용은 [캔버스 대시보드 시작](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)을 참조하세요.
 
 ## 액세스 요구 사항
 
@@ -41,27 +42,27 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## 캔버스 대시보드에 보고서 추가
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리에서 을(를) 클릭하고 **대시보드**.
+1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![기본 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![기본 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **대시보드**&#x200B;를 클릭합니다.
 
-1. 왼쪽 패널에서 **캔버스 대시보드**&#x200B;을 클릭한 후 보고서를 추가할 캔버스 대시보드의 이름을 클릭합니다.
+1. 왼쪽 패널에서 **캔버스 대시보드**&#x200B;를 클릭한 다음 보고서를 추가할 캔버스 대시보드의 이름을 클릭합니다.
 
-1. 다음을 클릭합니다. **+ 보고서 추가** 단추를 클릭합니다.
+1. 페이지 오른쪽 상단의 **+ 보고서 추가** 단추를 클릭합니다.
 
-1. 다음에서 **보고서 추가** 창이 나타나면 **추가** 캔버스 대시보드에 추가할 보고서 유형 아래에 있는 을 참조하십시오.
+1. 표시되는 **보고서 추가** 창에서 캔버스 대시보드에 추가할 보고서 유형 아래의 **추가**&#x200B;를 클릭합니다.
 
-1. 선택한 보고서 유형에 따라 보고서 설정을 계속합니다. 각 보고서 유형 설정에 대한 자세한 내용은 [캔버스 대시보드 보고서 유형](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md). 설정을 완료하기 전에 창을 닫아도 빈 보고서가 캔버스 대시보드에 추가됩니다. 나중에 다음을 클릭하여 설정을 완료할 수 있습니다 **구성** 빈 보고서의 중앙에 있는 단추입니다.
+1. 선택한 보고서 유형에 따라 보고서 설정을 계속합니다. 각 유형의 보고서 설정에 대한 자세한 내용은 [캔버스 대시보드 보고서 유형](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)을 참조하세요. 설정을 완료하기 전에 창을 닫아도 빈 보고서가 캔버스 대시보드에 추가됩니다. 빈 보고서의 중앙에 있는 **구성** 단추를 클릭하면 나중에 설정을 완료할 수 있습니다.
 
 ## 캔버스 대시보드에서 보고서 이동 또는 크기 조정
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리에서 을(를) 클릭하고 **대시보드**.
+1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![기본 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![기본 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **대시보드**&#x200B;를 클릭합니다.
 
-1. 왼쪽 패널에서 **캔버스 대시보드**&#x200B;을 클릭한 후 편집할 캔버스 대시보드의 이름을 클릭합니다.
+1. 왼쪽 패널에서 **캔버스 대시보드**&#x200B;를 클릭한 다음 편집할 캔버스 대시보드의 이름을 클릭합니다.
 
-1. 다음을 클릭합니다. **레이아웃 편집** 단추를 클릭합니다.
+1. 페이지의 오른쪽 상단에 있는 **레이아웃 편집** 단추를 클릭합니다.
 
 1. 이제 캔버스 대시보드의 보고서가 편집할 수 있는 상자에 표시됩니다.
 
@@ -71,12 +72,12 @@ ht-degree: 0%
 
    보고서의 크기를 조정하려면 원하는 크기가 될 때까지 상자의 오른쪽 아래 모서리에 있는 쐐기를 클릭하고 드래그합니다.
 
-1. 보고서 정렬을 완료했으면 **완료** 단추를 클릭하여 변경 사항을 저장합니다.
+1. 보고서 정렬을 완료했으면 페이지 오른쪽 상단의 **완료** 단추를 클릭하여 변경 내용을 저장합니다.
 
 ## 캔버스 대시보드에서 보고서 제거
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리에서 을(를) 클릭하고 **대시보드**.
+1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![기본 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![기본 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **대시보드**&#x200B;를 클릭합니다.
 
-1. 왼쪽 패널에서 **캔버스 대시보드**&#x200B;을 클릭한 후 제거하려는 보고서가 포함된 캔버스 대시보드 의 이름을 클릭합니다.
+1. 왼쪽 패널에서 **캔버스 대시보드**&#x200B;를 클릭한 다음 제거할 보고서가 있는 캔버스 대시보드의 이름을 클릭합니다.
 
-1. 다음을 클릭합니다. **자세히** 아이콘 ![기타 아이콘](/help/quicksilver/reports-and-dashboards/canvas-dashboards/assets/more-icon.png) 제거할 보고서의 오른쪽 상단 모서리에서 을(를) 클릭합니다. **제거**.
+1. 제거할 보고서의 오른쪽 상단에 있는 **자세히** 아이콘 ![자세히 아이콘](/help/quicksilver/reports-and-dashboards/canvas-dashboards/assets/more-icon.png)을 클릭한 다음 **제거**&#x200B;를 클릭합니다.

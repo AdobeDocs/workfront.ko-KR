@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: 63ba6758-ba62-48b4-89f4-d784e32a1bfa
 source-git-commit: 1517e3e28fe536a8a72d2802919c8b8819e9ea1a
 workflow-type: tm+mt
-source-wordcount: '3852'
+source-wordcount: '3860'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 {{highlighted-preview}}
 
-프로젝트에 소요된 시간에 청구 요금을 곱하면 프로젝트의 수익을 계산하는 데 청구 요금을 사용할 수 있습니다. 청구 요금 및 매출에 대한 자세한 내용은 문서 를 참조하십시오 [청구 및 수익 개요](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+프로젝트에 소요된 시간에 청구 요금을 곱하면 프로젝트의 수익을 계산하는 데 청구 요금을 사용할 수 있습니다. 청구 요금 및 매출에 대한 자세한 내용은 문서 [청구 및 매출 개요](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md)를 참조하십시오.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -56,26 +56,26 @@ If you still don't have access, ask your Workfront administrator if they set add
 ## 작업 역할 청구 요금 및 역할 시간당 수익 유형 개요
 
 Adobe Workfront 관리자는 청구 요금을 사용자 및 작업 역할에 모두 연결할 수 있습니다.\
-사용자를 만들고 청구 요금과 연결하는 방법에 대한 자세한 내용은 문서를 참조하십시오 [사용자 추가](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md). 작업 역할을 생성하고 청구 요금과 연관시키는 방법에 대한 자세한 내용은 문서를 참조하십시오 [작업 역할 만들기 및 관리](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+사용자를 만들고 청구 요금과 연결하는 방법에 대한 자세한 내용은 문서 [사용자 추가](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)를 참조하십시오. 작업 역할을 만들고 청구 요금과 연결하는 방법에 대한 자세한 내용은 문서 [작업 역할 만들기 및 관리](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)를 참조하십시오.
 
 사용자와 연결된 청구 요금은 재정의할 수 없습니다.
 
 작업 역할과 연결된 청구 요금은 회사 또는 프로젝트 수준에서 재정의할 수 있습니다.
 
-작업 역할의 청구 요율을 기반으로 프로젝트의 수익을 계산하려면 다음을 수행합니다. **수익 유형** 프로젝트의 작업 중 하나는 다음 중 하나여야 합니다.
+작업 역할의 청구 요율을 기반으로 프로젝트의 수익을 계산하려면 프로젝트의 **수익 유형** 중 하나가 되어야 합니다.
 
 * 시간별 역할
 * 시간별 역할(수용작업량 포함)
 * 시간별 + 고정 역할
 
-에 대한 자세한 내용 **수익 유형** 및 청구 요금, 참조: [청구 및 수익 개요](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+**수익 유형** 및 청구 요금에 대한 자세한 내용은 [청구 및 수익 개요](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md)를 참조하십시오.
 
 ## 수익 계산 시 청구 요금 대체 계층
 
 작업 역할에는 다음과 같은 방법으로 청구 요금이 연결될 수 있습니다.
 
 * Workfront 관리자는 작업 역할을 생성할 때 해당 작업 역할과 연관된 시스템 수준 청구 요금을 정의할 수 있습니다.\
-  작업 역할 생성에 대한 자세한 내용은 [작업 역할 만들기 및 관리](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+  작업 역할 만들기에 대한 자세한 내용은 [작업 역할 만들기 및 관리](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)를 참조하십시오.
 
 * Workfront 관리자는 회사를 만들 때 동일한 작업 역할에 대한 회사 수준 청구 요금을 정의할 수 있습니다.\
   Workfront이 이 회사와 연결된 프로젝트의 수익을 계산할 때 이 작업 역할에 대한 시스템 수준 청구 요금 대신 작업이 할당되면 회사 청구 요금이 사용됩니다.\
@@ -83,25 +83,25 @@ Adobe Workfront 관리자는 청구 요금을 사용자 및 작업 역할에 모
 
   >[!NOTE]
   >
-  >회사 청구 요금을 업데이트해야 하는 경우 프로젝트의 요금이 자동으로 업데이트되지 않습니다. 새 회사 요율이 프로젝트에 적용되기 전에 프로젝트에서 회사를 제거하고 회사에 대한 요율을 업데이트한 다음 회사를 프로젝트에 다시 첨부해야 합니다. 프로젝트에 회사를 첨부하는 방법에 대한 지침은 [프로젝트 편집](../../../manage-work/projects/manage-projects/edit-projects.md).
+  >회사 청구 요금을 업데이트해야 하는 경우 프로젝트의 요금이 자동으로 업데이트되지 않습니다. 새 회사 요율이 프로젝트에 적용되기 전에 프로젝트에서 회사를 제거하고 회사에 대한 요율을 업데이트한 다음 회사를 프로젝트에 다시 첨부해야 합니다. 프로젝트에 회사를 연결하는 방법에 대한 지침은 [프로젝트 편집](../../../manage-work/projects/manage-projects/edit-projects.md)을 참조하세요.
 
-  회사별 작업 역할 청구 요금 생성에 대한 자세한 내용은 다음을 참조하십시오. [회사 만들기 및 편집](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+  회사별 작업 역할 청구 요율을 만드는 방법에 대한 자세한 내용은 [회사 만들기 및 편집](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)을 참조하십시오.
 
 * Workfront 관리자는 사용자가 프로젝트 재무 정보를 수동으로 다시 계산할 때 프로젝트를 편집할 때 회사 수준의 청구 요금에 변경 사항을 프로젝트에 적용하도록 옵션을 활성화할 수 있습니다.\
-  자세한 내용은 [프로젝트 수준 청구 요율을 회사 수준 청구 요율로 재정의](../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md).
+  자세한 내용은 [회사 수준의 청구 요율로 프로젝트 수준의 청구 요율 재정의](../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md)를 참조하십시오.
 
 <div class="preview">
 
 * Workfront 관리자는 위치 및 날짜에 따라 역할당 여러 청구 요금이 있는 요금 카드를 정의할 수 있습니다. 요금 카드가 프로젝트에 첨부된 경우 모든 역할(위치가 사용되는 경우 위치별)과 관련 청구 요금이 프로젝트의 청구 요금 섹션에 추가됩니다. 요금 카드를 첨부하면 프로젝트의 기존 청구 요금이 무시됩니다.
 
-  자세한 내용은 [등급 카드 관리](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md) 및 [프로젝트에 요금 카드 첨부](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md).
+  자세한 내용은 [요금 카드 관리](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md) 및 [프로젝트에 요금 카드 첨부](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)를 참조하십시오.
 
 </div>
 
 * 프로젝트 관리자는 프로젝트 수준에서 동일한 작업 역할에 대한 청구 요금을 정의할 수 있습니다.\
   프로젝트에서 변경된 작업 역할 비율은 해당 프로젝트에만 영향을 줍니다.
 
-  프로젝트의 역할 비율 재정의에 대한 자세한 내용은 [프로젝트 수준에서 작업 역할 청구 요금 재정의](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
+  프로젝트의 역할 요율 재정의에 대한 자세한 내용은 [프로젝트 수준에서 작업 역할 청구 요율 재정의](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)를 참조하십시오.
 
 >[!IMPORTANT]
 >
@@ -111,11 +111,11 @@ Adobe Workfront 관리자는 청구 요금을 사용자 및 작업 역할에 모
 
 프로젝트 관리자는 특정 프로젝트의 작업 역할에 대한 청구 요금을 지정할 수 있습니다. 이 프로젝트 수준의 청구 요율은 이 작업 역할에 대한 시스템 수준의 청구 요율을 무시합니다. Workfront은 시스템 수준 청구 요금을 사용하는 대신 작업 역할의 프로젝트 수준 청구 요금을 사용하여 수익을 계산합니다.
 
-<span class="preview">프로젝트에 요금 카드를 첨부할 수도 있습니다. 이 경우 요금 카드에서 프로젝트로 작업 역할 청구 요금을 가져옵니다.</span>
+<span class="preview">프로젝트에 요금 카드를 첨부할 수도 있습니다. 요금 카드에서 프로젝트로 작업 역할 청구 요금을 가져옵니다.</span>
 
-프로젝트 수준에서 작업 역할 청구 요율을 재정의하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [프로젝트 수준에서 작업 역할 청구 요금 재정의](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
+프로젝트 수준에서 작업 역할 청구 요율을 재정의하는 방법에 대한 자세한 내용은 [프로젝트 수준에서 작업 역할 청구 요율 재정의](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)를 참조하십시오.
 
-프로젝트의 수익을 계산하는 데 사용되는 작업 역할에 대한 자세한 내용은 의 &quot;사용자 및 역할 할당에 따른 작업에 대한 수익 계산&quot; 섹션을 참조하십시오. [청구 및 수익 개요](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md). <span class="preview">프로젝트에 비율 카드를 첨부하는 방법에 대한 자세한 내용은 [프로젝트에 요금 카드 첨부](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md).</span>
+프로젝트의 수익을 계산하는 데 사용되는 작업 역할에 대한 자세한 내용은 [청구 및 수익 개요](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md)의 &quot;사용자 및 역할 할당에 따른 작업에 대한 수익 계산&quot; 섹션을 참조하십시오. <span class="preview">프로젝트에 요금 카드를 첨부하는 방법에 대한 자세한 내용은 [프로젝트에 요금 카드 첨부](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)를 참조하십시오.</span>
 
 >[!NOTE]
 >
@@ -155,9 +155,9 @@ You cannot specify a
 
 ## 프로젝트의 청구 요금 섹션 개요
 
-프로젝트와 연계된 작업 역할에 대한 대체 청구 요율을 지정한 후에는에서 모든 작업 역할과 해당 재정의를 볼 수 있습니다. **청구 요금** 프로젝트의 탭.
+프로젝트와 연계된 작업 역할에 대해 청구 요율 재정의를 지정하면 프로젝트의 **청구 요율** 탭에서 모든 작업 역할과 해당 재정의를 볼 수 있습니다.
 
-목록에 다음 정보가 표시됩니다. **청구 요금**:
+**청구 요금** 목록에 다음 정보가 있습니다.
 
 * [작업 역할 그룹화](#job-role-grouping)
 * [프로젝트 청구 요금 값](#project-billing-rate-value)
@@ -167,51 +167,51 @@ You cannot specify a
 
 ### 작업 역할 그룹화 {#job-role-grouping}
 
-청구 요금은 다음에 그룹화되어 있습니다. **청구 요금** 영역별로 지정합니다. <span class="preview">비율 카드가 프로젝트에 첨부된 경우 작업 역할도 비율 카드로 그룹화됩니다. 위치가 작업 역할에 적용되는 경우 위치 이름이 작업 역할 이름의 일부로 포함됩니다. 여러 위치에 대해 동일한 작업 역할이 나열될 수 있습니다.</span>
+청구 요금은 해당 작업 역할별로 **청구 요금** 영역에 그룹화되어 있습니다. <span class="preview">등급 카드가 프로젝트에 첨부된 경우 작업 역할도 등급 카드로 그룹화됩니다. 위치가 작업 역할에 적용되는 경우 위치 이름이 작업 역할 이름의 일부로 포함됩니다. 여러 위치에 대해 동일한 작업 역할이 나열될 수 있습니다.</span>
 
 ### 프로젝트 청구 요금 값 {#project-billing-rate-value}
 
-작업 역할에 해당하는 그룹화 줄에서 의 프로젝트 수준에서 해당 작업 역할에 대한 청구 요금을 확인합니다. **프로젝트 청구 요금** 열. 작업 역할에 복수 대체 비율이 있는 경우 현재 날짜에 해당하는 대체 비율이 **프로젝트 청구 요금** 열.
+작업 역할에 해당하는 그룹화 줄에서 **프로젝트 청구 요금** 열의 프로젝트 수준에서 해당 작업 역할에 대한 청구 요금을 확인합니다. 작업 역할에 여러 오버라이드 요금이 있는 경우 **프로젝트 청구 요금** 열의 그룹화 줄에 현재 날짜에 해당하는 오버라이드 요금이 표시됩니다.
 
 ### 기본 청구 요금 값 {#default-billing-rate-value}
 
-작업 역할의 그룹화 줄에서 의 시스템 수준에서 해당 작업 역할에 대한 청구 요금을 확인합니다. **기본 청구 요금** 열.
+작업 역할의 그룹화 줄에서 **기본 청구 요금** 열의 시스템 수준에서 해당 작업 역할에 대한 청구 요금을 확인합니다.
 
 >[!NOTE]
 >
->작업 역할에 대한 프로젝트 청구 요금이 있는 경우 **기본 청구 요금** 은 프로젝트의 수익 계산에 적용되지 않습니다. 만 **프로젝트 청구 요금** 매출 계산에 적용됩니다.
+>작업 역할에 대한 프로젝트 청구 요금이 있는 경우 **기본 청구 요금**&#x200B;이(가) 프로젝트의 수익 계산에 적용되지 않습니다. **프로젝트 청구 요금**&#x200B;만 수익 계산에 적용됩니다.
 
 ### 회사 청구 요금 값 {#company-billing-rate-value}
 
-작업 역할의 그룹화 줄에서 의 회사 수준에서 해당 작업 역할에 대한 청구 요금을 확인합니다. **회사 청구 요금** 열. 즉, 이 프로젝트와 연계된 회사가 있으며 이 작업 역할에는 해당 회사의 청구 요금이 다릅니다. 프로젝트 요금과 동일한 경우에도 회사의 청구 요금이 표시됩니다.
+작업 역할의 그룹화 줄에서 **회사 청구 요금** 열의 회사 수준에서 해당 작업 역할에 대한 청구 요금을 확인합니다. 즉, 이 프로젝트와 연계된 회사가 있으며 이 작업 역할에는 해당 회사의 청구 요금이 다릅니다. 프로젝트 요금과 동일한 경우에도 회사의 청구 요금이 표시됩니다.
 
 >[!NOTE]
 >
-><span class="preview">요금 카드가 프로젝트에 첨부된 경우 **회사 청구 요금** 청구 요금에 가져오지 않습니다. 이 계산은 작업 역할에 대한 비율 카드 비율 또는 회사 비율을 기반으로 합니다.</span>
+><span class="preview">요금 카드가 프로젝트에 첨부된 경우 **회사 청구 요금**&#x200B;을(를) 청구 요율로 가져오지 않습니다. 이 계산은 작업 역할에 대한 비율 카드 비율이나 회사 비율을 기반으로 합니다.</span>
 >
->작업 역할에 대한 프로젝트 청구 요금이 있는 경우 **회사 청구 요금** 은 프로젝트의 매출 계산에 적용되지 않습니다. 만 **프로젝트 청구 요금** 매출 계산에 적용됩니다.
+>작업 역할에 대한 프로젝트 청구 요금이 있는 경우 **회사 청구 요금**&#x200B;이(가) 프로젝트 수익 계산에 적용되지 않습니다. **프로젝트 청구 요금**&#x200B;만 수익 계산에 적용됩니다.
 
 ### 여러 청구 요금 값 및 일정 {#multiple-billing-rate-values-and-timeframes}
 
-특정 작업 역할에 대해 여러 대체 청구 요금이 있는 경우 해당 작업 역할에 대한 그룹화 아래에 나열됩니다. 인라인 편집을 사용하여 재정의 비율과 **시작** **날짜** 및 **종료일** 이 탭의 청구 요금 재정의.
+특정 작업 역할에 대해 여러 대체 청구 요금이 있는 경우 해당 작업 역할에 대한 그룹화 아래에 나열됩니다. 인라인 편집을 사용하여 이 탭에서 오버라이드 요금과 오버라이드 청구 요금의 **시작** **날짜** 및 **종료 날짜**&#x200B;를 변경할 수 있습니다.
 
 >[!NOTE]
 >
->다음을 지정할 수 없습니다. **시작일** 첫 번째 재정의 비율의 경우 **종료일** 마지막 재정의 비율입니다. Workfront에서는 날짜가 다음보다 오래된 모든 시간에 대해 첫 번째 재정의 비율이 적용된다고 가정합니다. **종료일** 을 반환합니다. 마지막 재정의 비율은 다음 날짜 이후의 모든 시간에 적용됩니다. **시작일** 마지막 재정의\
+>첫 번째 재정의 비율로 **시작 날짜**&#x200B;를 지정할 수 없으며, 마지막 재정의 비율로 **종료 날짜**&#x200B;를 지정할 수 없습니다. Workfront에서는 첫 번째 재정의의 **종료 날짜**&#x200B;보다 오래된 날짜가 있는 모든 시간에 대해 첫 번째 재정의 비율이 적용되고, 마지막 재정의의 **시작 날짜**&#x200B;보다 오래된 날짜가 있는 모든 시간에 대해 마지막 재정의 비율이 적용된다고 가정합니다.\
 >프로젝트의 계획된 시작 일자 전에 시간이 기록되는 경우 첫 번째 청구 요금이 사용됩니다.\
 >프로젝트의 계획된 완료 일자 이후 시간이 기록된 경우 마지막 청구 요금이 사용됩니다.
 
 ## 계획된 수익 계산
 
 * [일회성 청구 요금 재정의를 기반으로 계획된 수익 계산](#calculate-planned-revenue-based-on-a-one-time-billing-rate-override)
-* [여러 청구 요금 재정의를 기반으로 계획된 수익 계산](#calculate-planned-revenue-based-on-multiple-billing-rate-overrides)
+* [여러 청구 요금 무시를 기반으로 계획된 수익 계산](#calculate-planned-revenue-based-on-multiple-billing-rate-overrides)
 * [작업 기간 전체에 대한 계획된 시간 분포](#distribution-of-planned-hours-across-the-duration-of-a-task)
 
 ### 일회성 청구 요금 재정의를 기반으로 계획된 수익 계산 {#calculate-planned-revenue-based-on-a-one-time-billing-rate-override}
 
 일회성 청구 요금 재정의를 기반으로 계획된 수익을 계산할 때 다음 사항을 고려하십시오.
 
-* 다음의 경우 **수익 유형** 작업: **시간별 역할**, Workfront은 작업의 계획된 시간과 작업과 연결된 작업 역할의 청구 요금을 곱하여 작업의 계획된 수익을 계산합니다.
+* 작업의 **수익 유형**&#x200B;이(가) **시간별 역할**&#x200B;인 경우 Workfront은 작업의 계획된 시간과 작업에 연결된 작업 역할의 청구 요금을 곱하여 작업의 계획된 수익을 계산합니다.
 
 * 작업 역할의 청구 요금이 프로젝트 수준에서 재정의된 경우 Workfront은 프로젝트의 재정의 요금을 사용하여 계획 수익을 계산합니다.
 * 작업에 할당이 여러 개 있는 경우 계획된 수익은 각 할당의 작업 역할과 해당 계획된 시간 할당에 대한 청구 요율을 곱하여 계산됩니다.
@@ -220,27 +220,27 @@ You cannot specify a
 >
 >할당당 계획된 시간은 여러 할당의 경우 작업에 대한 계획된 시간과 다릅니다.
 
-계획된 수익을 계산하는 데 사용되는 작업 역할에 대한 자세한 내용은 문서의 &quot;사용자 및 역할 할당에 따른 작업에 대한 수익 계산 이해&quot; 섹션을 참조하십시오 [청구 및 수익 개요](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+계획된 수익을 계산하는 데 사용되는 작업 역할에 대한 자세한 내용은 [청구 및 수익 개요](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md) 문서의 &quot;사용자 및 역할 할당에 따른 작업에 대한 수익 계산 이해&quot; 섹션을 참조하십시오.
 
 ### 여러 청구 요금 재정의를 기반으로 계획된 수익 계산 {#calculate-planned-revenue-based-on-multiple-billing-rate-overrides}
 
 여러 청구 요금 재정의를 기반으로 계획된 수익을 계산할 때 다음 사항을 고려하십시오.
 
-* 다음의 경우 **수익 유형** 작업: **시간별 역할**, Workfront은 작업의 계획된 시간과 작업과 연결된 작업 역할의 청구 요금을 곱하여 작업의 계획된 수익을 계산합니다.
+* 작업의 **수익 유형**&#x200B;이(가) **시간별 역할**&#x200B;인 경우 Workfront은 작업의 계획된 시간과 작업에 연결된 작업 역할의 청구 요금을 곱하여 작업의 계획된 수익을 계산합니다.
 
-  계획된 수익을 계산하는 데 사용되는 작업 역할에 대한 자세한 내용은 문서의 &quot;사용자 및 역할 할당에 따른 작업에 대한 수익 계산 이해&quot; 섹션을 참조하십시오 [청구 및 수익 개요](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+  계획된 수익을 계산하는 데 사용되는 작업 역할에 대한 자세한 내용은 [청구 및 수익 개요](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md) 문서의 &quot;사용자 및 역할 할당에 따른 작업에 대한 수익 계산 이해&quot; 섹션을 참조하십시오.
 
-* 여러 청구 요율 무시의 경우 작업 기간 동안 계획된 시간을 곱한 요율이 변경됩니다. 기본적으로 Workfront은 작업 기간 동안 계획된 시간을 균등하게 분배하여 작업의 각 날에 동일한 시간을 할당합니다. 계산할 때 **계획된 수익** 작업의 경우 Workfront은 일별 계획된 시간과 해당 날짜의 청구 요금을 곱합니다. 여러 청구 요금의 경우 매일 요금이 다를 수 있습니다.
+* 여러 청구 요율 무시의 경우 작업 기간 동안 계획된 시간을 곱한 요율이 변경됩니다. 기본적으로 Workfront은 작업 기간 동안 계획된 시간을 균등하게 분배하여 작업의 각 날에 동일한 시간을 할당합니다. Workfront은 작업에 대한 **계획된 수익**&#x200B;을(를) 계산할 때 일별 계획된 시간과 해당 날짜의 청구 요금을 곱합니다. 여러 청구 요금의 경우 매일 요금이 다를 수 있습니다.
 
-  예를 들어 시간별 역할이 있는 작업이 있는 경우 **수익 유형**. 작업의 기간은 5일이며 계획된 시간 값은 40시간입니다. 일별 계획된 시간은 8시간입니다. 프로젝트 관리자 작업 역할을 작업에 할당하고 작업의 마지막 3일에 대해 이 작업 역할의 청구 요금을 재정의하면 이 작업 역할에 대해 처음 2일까지는 요율 1 청구 요율이 적용되고 나머지 3일까지는 요율 2 청구 요율이 적용됩니다.
+  예를 들어, 시간별 역할 **수익 유형**&#x200B;이(가) 있는 작업이 있습니다. 작업의 기간은 5일이며 계획된 시간 값은 40시간입니다. 일별 계획된 시간은 8시간입니다. 프로젝트 관리자 작업 역할을 작업에 할당하고 작업의 마지막 3일에 대해 이 작업 역할의 청구 요금을 재정의하면 이 작업 역할에 대해 처음 2일까지는 요율 1 청구 요율이 적용되고 나머지 3일까지는 요율 2 청구 요율이 적용됩니다.
 
-  를 계산하는 공식 **계획된 수익** 이 작업 중:
+  이 작업의 **계획된 수익**&#x200B;을(를) 계산하는 수식은 다음과 같습니다.
 
   ```
   Planned Revenue = (Rate 1) * (Planned Hours for Day 1) + (Rate 1) * (Planned hours for Day 2) + (Rate 2) * (Planned hours for Day 3) + (Rate 2) * (Planned hours for Day 4) + (Rate 2) * (Planned hours for Day 5)
   ```
 
-Workfront에서 일별 계획된 시간 금액을 찾는 방법에 대한 자세한 내용은 섹션 을 참조하십시오. [작업 기간 전체에 대한 계획된 시간 분포](#distribution-of-planned-hours-across-the-duration-of-a-task) 이 문서에서.
+Workfront에서 일별 계획된 시간 수를 찾는 방법에 대한 자세한 내용은 이 문서의 [작업 기간 동안의 계획된 시간 분포](#distribution-of-planned-hours-across-the-duration-of-a-task) 섹션을 참조하십시오.
 
 >[!NOTE]
 >
@@ -252,7 +252,7 @@ Workfront에서 일별 계획된 시간 금액을 찾는 방법에 대한 자세
 
 * 기본적으로 Workfront은 작업 기간 동안 계획된 시간을 균등하게 분배하며 프로젝트 일정의 가용성에 따라 작업의 각 날에 대해 동일한 수의 계획된 시간을 할당합니다.
 
-  작업 기간 동안 계획된 시간의 분포를 이해하는 방법에 대한 자세한 내용은 문서의 &quot;작업 기간 동안 계획된 시간의 분포 이해&quot; 섹션을 참조하십시오 [계획된 시간 개요](../../../manage-work/tasks/task-information/planned-hours.md).
+  작업 기간 동안 계획된 시간의 분포를 이해하는 방법에 대한 자세한 내용은 문서 [계획된 시간 개요](../../../manage-work/tasks/task-information/planned-hours.md)의 &quot;작업 기간 동안 계획된 시간의 분포 이해&quot; 섹션을 참조하십시오.
 
   >[!NOTE]
   >
@@ -270,36 +270,36 @@ Workfront에서 일별 계획된 시간 금액을 찾는 방법에 대한 자세
 
 일회성 청구 요금 재정의를 기준으로 실제 수익을 계산할 때 다음 사항을 고려하십시오.
 
-* 다음의 경우 **수익 유형** 작업: **시간별 역할**, Workfront은 **실제 근로시간** 계산할 작업에 연결된 작업 역할의 청구 요율별 작업 **실제 수익** 작업. 실제 시간은 작업에 직접 기록된 시간입니다.
+* 작업의 **매출 유형**&#x200B;이(가) **시간별 역할**&#x200B;인 경우 Workfront은 작업의 **실제 시간**&#x200B;에 작업과 연결된 작업 역할의 청구 요금을 곱하여 작업에 대한 **실제 매출**&#x200B;을(를) 계산합니다. 실제 시간은 작업에 직접 기록된 시간입니다.
 
-  계산에 사용되는 작업 역할에 대한 자세한 정보 **실제 수익**&#x200B;이 문서에서 설명하는 &quot;사용자 및 역할 할당에 따른 작업에 대한 수익 계산 이해&quot; 섹션을 참조하십시오 [청구 및 수익 개요](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+  **실제 수익**&#x200B;을 계산하는 데 사용되는 작업 역할에 대한 자세한 내용은 [청구 및 수익 개요](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md) 문서의 &quot;사용자 및 역할 할당에 따른 작업에 대한 수익 계산 이해&quot; 섹션을 참조하십시오.
 
-* 작업 역할의 청구 요금이 프로젝트 수준에서 재정의된 경우 Workfront은 프로젝트의 재정의 요금을 사용하여 실제 수익을 계산합니다. 프로젝트에서 작업 역할의 청구 요금을 재정의하는 경우 **실제 수익** 의 프로젝트가 새로 조정된 비율을 사용하여 자동으로 다시 계산됩니다.
+* 작업 역할의 청구 요금이 프로젝트 수준에서 재정의된 경우 Workfront은 프로젝트의 재정의 요금을 사용하여 실제 수익을 계산합니다. 프로젝트에서 작업 역할의 청구 요율을 재정의하면 새로운 조정된 요율을 사용하여 프로젝트의 **실제 수익**&#x200B;이 자동으로 다시 계산됩니다.
 
-  프로젝트의 역할 비율 재정의에 대한 자세한 내용은 [프로젝트 수준에서 작업 역할 청구 요금 재정의](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
+  프로젝트의 역할 요율 재정의에 대한 자세한 내용은 [프로젝트 수준에서 작업 역할 청구 요율 재정의](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)를 참조하십시오.
 
 >[!NOTE]
 >
->원래 요율로 청구된 원래 청구 요율을 재정의하기 전에 프로젝트에 이미 로그온한 시간을 유지하려면 해당 시간을 **청구 기록**, 그리고 다음을 표시해야 합니다. **청구 기록** 다음으로: **청구됨**. 그렇지 않으면 **실제 수익** 프로젝트에 대한 청구 요금이 재정의되기 전에 기록된 시간부터 프로젝트의 재정이 다시 계산되면 새 요금을 사용하여 다시 계산됩니다.\
->청구 기록에 시간을 포함하고 다음으로 표시하는 방법에 대한 자세한 정보 **청구됨**, 문서 참조 [청구 기록 만들기](../../../manage-work/projects/project-finances/create-billing-records.md).
+>원래 요율로 청구된 원래 청구 요율을 재정의하기 전에 프로젝트에 이미 로그온한 시간을 유지하려면 **청구 기록**&#x200B;에 포함하고 **청구 기록**&#x200B;을 **청구됨**&#x200B;으로 표시해야 합니다. 그렇지 않으면 프로젝트의 청구 요금이 재정의되기 전에 기록된 시간의 **실제 수익**&#x200B;이(가) 프로젝트의 재무 정보가 다시 계산될 때 새 요금을 사용하여 다시 계산됩니다.\
+>청구 기록에 시간을 포함하고 **청구됨**(으)로 표시하는 방법에 대한 자세한 내용은 [청구 기록 만들기](../../../manage-work/projects/project-finances/create-billing-records.md) 문서를 참조하십시오.
 
 ### 여러 청구 요금 재정의를 기반으로 실제 수익 계산 {#calculate-actual-revenue-based-on-multiple-billing-rate-overrides}
 
 여러 청구 요금 재정의를 기준으로 실제 수익을 계산할 때는 다음 사항을 고려하십시오.
 
-* 다음의 경우 **수익 유형** 작업: **시간별 역할**, Workfront은 **실제 근로시간** 계산할 작업에 할당된 작업 역할의 청구 요금이 있는 작업 **실제 수익** 작업. 실제 시간은 작업에 직접 기록된 시간입니다.
+* 작업의 **매출 유형**&#x200B;이(가) **시간당 역할**&#x200B;인 경우 Workfront은 작업에 대한 **실제 시간**&#x200B;과 작업에 할당된 작업 역할의 청구 요금을 곱하여 작업에 대한 **실제 매출**&#x200B;을 계산합니다. 실제 시간은 작업에 직접 기록된 시간입니다.
 
-* 여러 청구 요금이 무시되는 경우 **실제 근로시간** 곱하기 로 계산합니다. **실제 수익** 는 작업 기간 동안 변경될 수 있습니다. Workfront은 시간대가 과(와) 일치하는 작업 역할의 청구 요금을 사용합니다. **입력 일자** 계산할 작업에 기록된 시간 중 **실제 수익.**
+* 여러 청구 요금이 무시되는 경우 **실제 매출**&#x200B;을(를) 계산하기 위해 **실제 근로시간**&#x200B;을(를) 곱한 요금이 작업 기간 동안 변경될 수 있습니다. Workfront은 작업에 기록된 시간의 **시작 일자**&#x200B;와(과) 일치하는 시간대를 가진 작업 역할의 청구 요금을 사용하여 **실제 수익**&#x200B;을(를) 계산합니다.
 
-  예를 들어 작업에는 **수익 유형** / **시간별 역할** 및 이 프로젝트 관리자의 작업 역할에 할당됩니다. 6월 19일부터 6월 25일 사이의 날짜에 대한 요금 1로 이 작업 역할의 청구 요금을 재정의합니다. 6월 26일부터 청구 요금을 요금 2로 재정의합니다. 6월 20일은 2시간, 6월 28일은 3시간을 기록하십시오.
+  예를 들어 작업에 **시간별 역할**&#x200B;의 **수익 유형**&#x200B;이(가) 있으며 이 작업은 프로젝트 관리자의 작업 역할에 할당됩니다. 6월 19일부터 6월 25일 사이의 날짜에 대한 요금 1로 이 작업 역할의 청구 요금을 재정의합니다. 6월 26일부터 청구 요금을 요금 2로 재정의합니다. 6월 20일은 2시간, 6월 28일은 3시간을 기록하십시오.
 
-  Workfront이 다음을 계산합니다. **실제 수익** 다음 공식을 사용하는 이 작업에 대해:
+  Workfront은 다음 공식을 사용하여 이 작업에 대한 **실제 매출**&#x200B;을 계산합니다.
 
   ```
   Actual Revenue = 2 * Rate 1 + 3 * Rate 2
   ```
 
-  계산에 사용되는 작업 역할에 대한 자세한 정보 **실제 수익**&#x200B;이 문서에서 설명하는 &quot;사용자 및 역할 할당에 따른 작업에 대한 수익 계산 이해&quot; 섹션을 참조하십시오 [청구 및 수익 개요](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+  **실제 수익**&#x200B;을 계산하는 데 사용되는 작업 역할에 대한 자세한 내용은 [청구 및 수익 개요](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md) 문서의 &quot;사용자 및 역할 할당에 따른 작업에 대한 수익 계산 이해&quot; 섹션을 참조하십시오.
 
 ## 여러 청구 요율을 기반으로 수익을 계산할 때 시간대가 미치는 영향
 
@@ -323,30 +323,30 @@ Workfront에서 일별 계획된 시간 금액을 찾는 방법에 대한 자세
 
 다른 시간대의 사용자에 대한 계획된 수익을 계산할 때 다음 사항을 고려하십시오.
 
-* 이 있는 작업의 경우 **수익 유형** / **시간별 역할** 및 이(가) 작업 역할에 할당되었습니다. **계획된 수익** 는 다음을 곱하여 계산됩니다. **계획된 시간** 작업 역할의 청구 요율별 작업.
+* **시간당 역할**&#x200B;의 **수익 유형**&#x200B;이(가) 있고 작업 역할에 할당된 작업의 경우 **계획된 수익**&#x200B;은(는) 작업의 **계획된 시간**&#x200B;에 작업 역할의 청구 요금을 곱하여 계산됩니다.
 
-* 다음 **계획된 시간** 전체에 고르게 분포되어 있습니다. **기간** 작업.
+* **계획된 시간**&#x200B;은(는) 작업의 **기간**&#x200B;에 균등하게 분배됩니다.
 
-* 다음 **기간** 다음 기간 사이의 기간입니다. **계획된 시작** **날짜** 및 **계획된 완료 일자** 작업. 이유:**계획된 시작 일자** 및 **계획된 완료 일자** 작업 중 은 작업을 보는 사용자의 시간대에 따라 다를 수 있으며, 다른 시간대에 있는 두 명의 사용자에 대해 일별 계획된 시간의 양이 다를 수 있습니다.
+* **Duration**&#x200B;은(는) 작업의 **계획된 시작** **날짜**&#x200B;와(과) **계획된 완료 날짜** 사이의 기간입니다. 작업을 보는 사용자의 시간대에 따라 작업의 **계획된 시작 일자** 및 **계획된 완료 일자**&#x200B;가 다를 수 있으므로 서로 다른 시간대의 두 사용자에 대해 하루 계획된 시간의 양이 다를 수 있습니다.
 
 * 작업 역할의 청구 요금이 변경되지 않았거나 청구 요금 재정의가 한 개만 있는 경우 일별 계획된 시간의 양은 프로젝트의 계획된 수익을 변경하지 않습니다. 이 경우 서로 다른 두 시간대의 두 사용자에게 일별 계획된 시간이 다르더라도 프로젝트의 전체 계획된 수익은 두 사용자 간에 동일합니다.
 
-  그러나 여러 청구 요금 무시의 경우 전체적으로 **계획된 수익** 은(는) 일별 계획된 시간 (두 명의 사용자에 대해 다를 수 있음)의 양과 청구 요금 재정의 (각 사용자가 고유한 시간대에서 작업을 볼 때 동일한 날에 대해 다를 수 있음)에 의존하므로, 두 명의 사용자가 서로 다른 시간대에 있는 이(가) 서로 다른 것처럼 보일 수 있습니다.
+  그러나 여러 청구 요금 무시의 경우 프로젝트의 전체 **계획된 수익**&#x200B;이(가) 두 개의 다른 시간대에 있는 두 명의 사용자에 대해 다르게 보일 수 있습니다. 이는 일별 계획된 시간(두 명의 사용자에 대해 다를 수 있음)과 청구 요금 무시(각 사용자가 자신의 시간대에 있는 작업을 보는 경우 같은 날에 대해 다를 수 있음)의 양에 의존하기 때문입니다.
 
-* 정확함 **계획된 수익** amount는 Workfront 인스턴스의 시간대와 동일한 시간대를 가진 사용자가 보는 값입니다. Workfront 관리자는 시스템 고객 정보 영역에서 Workfront 시간대를 정의합니다.\
-  시스템의 시간대 정의에 대한 자세한 내용은 문서 를 참조하십시오 [시스템에 대한 기본 정보 구성](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+* 정확한 **계획된 매출** 금액은 Workfront 인스턴스의 시간대와 시간대가 같은 사용자가 볼 수 있는 금액입니다. Workfront 관리자는 시스템 고객 정보 영역에서 Workfront 시간대를 정의합니다.\
+  시스템의 표준 시간대 정의에 대한 자세한 내용은 문서 [시스템의 기본 정보 구성](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md)을 참조하십시오.
 
 ### 다른 시간대의 사용자에 대한 실제 수익 계산 {#calculate-actual-revenue-for-users-in-different-time-zones}
 
 다른 시간대의 사용자에 대한 실제 매출을 계산할 때는 다음 사항을 고려하십시오.
 
-* 다음의 경우 **수익 유형** 작업: **시간별 역할**, Workfront은 **실제 근로시간** (이)가 작업을 계산하기 위해 작업에 할당된 작업 역할의 청구 요금이 있는 작업에 대해 **실제 수익**. 실제 시간은 작업에 직접 기록된 시간입니다.
+* 작업의 **매출 유형**&#x200B;이(가) **시간당 역할**&#x200B;인 경우 Workfront은 작업에 대한 **실제 시간**&#x200B;과 작업에 할당된 작업 역할의 청구 요금을 곱하여 **실제 매출**&#x200B;을 계산합니다. 실제 시간은 작업에 직접 기록된 시간입니다.
 
-* 여러 청구 요금이 무시되는 경우 Workfront은 시간대가 다음과 일치하는 작업 역할의 청구 요금을 사용합니다. **입력 일자** 계산할 작업에 기록된 시간 중 **실제 수익**.
+* 여러 청구 요금이 무시되는 경우 Workfront은 작업에 기록된 시간의 **시작 날짜**&#x200B;와(과) 일치하는 작업 역할의 청구 요금을 사용하여 **실제 수익**&#x200B;을(를) 계산합니다.
 
-* 왜냐면 타임스탬프가 **입력 일자** 기록된 시간 및 여러 청구 요금 무시의 날짜 범위에 타임스탬프가 없는 경우 **실제 수익** 계산은 사용자와 연결된 시간대의 영향을 받지 않습니다.
+* 기록된 시간의 **시작 날짜**&#x200B;에 타임스탬프가 없고 여러 청구 요금 재정의 날짜 범위에 타임스탬프가 없기 때문에 **실제 수익** 계산은 사용자와 연결된 시간대의 영향을 받지 않습니다.
 
-계산에 사용되는 작업 역할에 대한 자세한 정보 **실제 수익**&#x200B;이 문서에서 설명하는 &quot;사용자 및 역할 할당에 따른 작업에 대한 수익 계산 이해&quot; 섹션을 참조하십시오 [청구 및 수익 개요](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+**실제 수익**&#x200B;을 계산하는 데 사용되는 작업 역할에 대한 자세한 내용은 [청구 및 수익 개요](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md) 문서의 &quot;사용자 및 역할 할당에 따른 작업에 대한 수익 계산 이해&quot; 섹션을 참조하십시오.
 
 ## 프로젝트 재무 다시 계산
 
@@ -354,11 +354,12 @@ Workfront에서 일별 계획된 시간 금액을 찾는 방법에 대한 자세
 
 프로젝트의 수명 동안 비율이 변경된 경우 프로젝트의 재무 다시 계산 옵션을 사용하여 프로젝트의 비용 및 수익을 수동으로 다시 계산할 수 있습니다. 또한 일부 작업은 자동 재계산을 트리거합니다.
 
-프로젝트 재무 다시 계산에 대한 자세한 내용은 문서 를 참조하십시오 [프로젝트 재무 다시 계산](../../../manage-work/projects/project-finances/recalculate-project-finances.md).
+프로젝트 재무 다시 계산에 대한 자세한 내용은 [프로젝트 재무 다시 계산](../../../manage-work/projects/project-finances/recalculate-project-finances.md) 문서를 참조하십시오.
 
 ## API를 사용하여 새 청구 요금 추가
 
-API를 사용하여 작업 역할에 대한 새 청구 요금을 추가하려면 다음을 수행합니다 *setRatesForRole* 에 대한 작업 **비율** 을 사용하는 개체 *PUT 방법*.
-의 작업 및 날짜 필드 **비율** 개체는 API 버전 8.0에서 사용할 수 있습니다. 프로젝트의 작업 역할에 대해 이미 여러 청구 요금이 정의되어 있고 새 날짜 범위를 사용하여 새 청구 요금을 추가하려면 기존 요금과 추가할 요금을 동일한 API 호출에 모두 포함해야 합니다. 이는 개체에 대한 컬렉션을 업데이트하는 방법과 유사합니다.
+API를 사용하여 작업 역할에 대한 새 청구 요금을 추가하려면 *PUT 메서드*&#x200B;를 사용하여 **요금** 개체에 대해 *setRatesForRole* 작업을 수행합니다.
+**Rate** 개체의 작업 및 날짜 필드는 API 버전 8.0에서 사용할 수 있습니다.
+프로젝트의 작업 역할에 대해 이미 여러 청구 요금이 정의되어 있고 새 날짜 범위를 사용하여 새 청구 요금을 추가하려면 기존 요금과 추가할 요금을 동일한 API 호출에 모두 포함해야 합니다. 이는 개체에 대한 컬렉션을 업데이트하는 방법과 유사합니다.
 
-다음 API 호출은 **attachableID** 은(는) **프로젝트 ID** 및 을(를) 추가하는 프로젝트의 **역할 ID** 은(는) **작업 역할 ID** 에 대해 새 청구 요금을 추가합니다.<pre>{</pre><pre>&quot;attachableID&quot;:&quot;593f01500000557d75fdd4fdfcc624f2&quot;,</pre><pre>&quot;attachableObjCode&quot;:&quot;PROJ&quot;,</pre><pre>&quot;roleID&quot;:&quot;544820df000014148cda5136d4b79d09&quot;, </pre><pre>&quot;비율&quot;:[</pre><pre>         {&quot;rateValue&quot;:&quot;0.00&quot;,&quot;startDate&quot;:null,&quot;endDate&quot;:&quot;2017-06-11&quot;},</pre><pre>         {&quot;rateValue&quot;:&quot;45.00&quot;,&quot;startDate&quot;:&quot;2017-06-12&quot;,&quot;endDate&quot;:&quot;2017-06-17&quot;},</pre><pre>         {&quot;rateValue&quot;:&quot;95.00&quot;,&quot;startDate&quot;:&quot;2017-06-21&quot;,&quot;endDate&quot;:null}</pre><pre>]</pre><pre>}</pre>Workfront API 사용에 대한 자세한 내용은 문서를 참조하십시오 [API 기본 사항](https://experience.workfront.com/s/article/API-Basics-638808549).
+다음 API 호출은 요금을 추가할 프로젝트의 **attachableID**&#x200B;이(가) **프로젝트 ID**&#x200B;이고 **RoleID**&#x200B;이(가) 새 청구 요금을 추가할 **작업 역할 ID**&#x200B;인 예입니다.<pre>{</pre><pre>&quot;attachableID&quot;:&quot;593f01500000557d75fdd4fdfcc624f2&quot;,</pre><pre>&quot;attachableObjCode&quot;:&quot;PROJ&quot;,</pre><pre>&quot;roleID&quot;:&quot;544820df000014148cda5136d4b79d09&quot;, </pre><pre>&quot;속도&quot;:[</pre><pre>         {&quot;rateValue&quot;:&quot;0.00&quot;,&quot;startDate&quot;:null,&quot;endDate&quot;:&quot;2017-06-11&quot;},</pre><pre>         {&quot;rateValue&quot;:&quot;45.00&quot;,&quot;startDate&quot;:&quot;2017-06-12&quot;,&quot;endDate&quot;:&quot;2017-06-17&quot;},</pre><pre>         {&quot;rateValue&quot;:&quot;95.00&quot;,&quot;startDate&quot;:&quot;2017-06-21&quot;,&quot;endDate&quot;:null}</pre><pre>]</pre><pre>}</pre>Workfront API 사용에 대한 자세한 내용은 문서 [API 기본 사항](https://experience.workfront.com/s/article/API-Basics-638808549)을 참조하십시오.

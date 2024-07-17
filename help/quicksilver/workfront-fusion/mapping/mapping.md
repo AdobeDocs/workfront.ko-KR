@@ -20,12 +20,12 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] 을(를) 필요로 합니다. [!DNL Adobe Workfront Fusion] 에 더해진 라이센스 [!DNL Adobe Workfront license].
+>[!DNL Adobe Workfront Fusion]에는 [!DNL Adobe Workfront license] 외에 [!DNL Adobe Workfront Fusion] 라이선스가 필요합니다.
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [의 한 모듈에서 다른 모듈로 정보 매핑 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)
-* [의 매핑 파일 정보 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/about-mapping-files.md)
-* [의 항목 데이터 유형 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md)
-* [에서 배열 매핑 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-an-array.md)
-* [형식 강제 변환 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md)
+* [ [!DNL Adobe Workfront Fusion]의 한 모듈에서 다른 모듈로 정보 매핑](../../workfront-fusion/mapping/map-information-between-modules.md)
+* [ [!DNL Adobe Workfront Fusion]의 매핑 파일 정보](../../workfront-fusion/mapping/about-mapping-files.md)
+* [ [!DNL Adobe Workfront Fusion]의 항목 데이터 형식](../../workfront-fusion/mapping/item-data-types.md)
+* [ [!DNL Adobe Workfront Fusion]에서 배열 매핑](../../workfront-fusion/mapping/map-an-array.md)
+* [ [!DNL Adobe Workfront Fusion]에 강제 변환 입력](../../workfront-fusion/mapping/type-coercion.md)

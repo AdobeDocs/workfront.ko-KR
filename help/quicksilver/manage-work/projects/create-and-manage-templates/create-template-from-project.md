@@ -9,7 +9,7 @@ role: User
 exl-id: 923deab4-205b-4312-9ec4-4471fd6cea26
 source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '478'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 1%
 >
 >프로젝트를 템플릿으로 저장할 때 작업 및 프로젝트의 실제 날짜가 템플릿에 저장되지 않습니다.
 >
->템플릿 및 해당 작업에는 실제 날짜가 없고, 작업이 시작될 수 있는 날짜(향후 프로젝트가 시작될 수 있는 날짜)와 작업이 완료되어야 하는 날짜가 표시됩니다. 템플릿을 사용하여 향후 프로젝트를 만들 때 프로젝트에 실제 날짜가 표시됩니다. 자세한 내용은 [프로젝트 만들기](../create-projects/create-project.md).
+>템플릿 및 해당 작업에는 실제 날짜가 없고, 작업이 시작될 수 있는 날짜(향후 프로젝트가 시작될 수 있는 날짜)와 작업이 완료되어야 하는 날짜가 표시됩니다. 템플릿을 사용하여 향후 프로젝트를 만들 때 프로젝트에 실제 날짜가 표시됩니다. 자세한 내용은 [프로젝트 만들기](../create-projects/create-project.md)를 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -40,7 +40,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든 </p> </td> 
+   <td> <p>임의 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
@@ -48,11 +48,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>템플릿에 대한 액세스 편집</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td> <p>템플릿에 대한 액세스 편집</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>프로젝트에 대한 이상의 권한 보기 </p> <p>템플릿을 만든 후 템플릿에 대한 관리 권한을 받습니다</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>프로젝트에 대한 이상의 권한 보기 </p> <p>템플릿을 만든 후 템플릿에 대한 관리 권한을 받습니다</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,7 +62,7 @@ ht-degree: 1%
 ## 프로젝트에서 템플릿 만들기
 
 1. 템플릿으로 저장할 프로젝트로 이동합니다.
-1. 다음을 클릭합니다. **자세히** 메뉴 ![](assets/qs-more-icon-on-an-object.png), 그런 다음 **템플릿으로 저장**.
+1. **자세히** 메뉴 ![](assets/qs-more-icon-on-an-object.png)을(를) 클릭한 다음 **템플릿으로 저장**&#x200B;을 클릭합니다.
 1. 템플릿에 대해 다음 정보를 지정합니다.
 
    <table style="table-layout:auto"> 
@@ -87,26 +87,26 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader">사용자 정의 양식</td> 
-      <td>드롭다운 목록을 사용하여 템플릿에 첨부할 사용자 정의 양식을 선택합니다. 사용자 정의 양식이 이미 프로젝트와 연결된 경우 해당 사용자 정의 양식의 모든 데이터 필드가 표시됩니다.<br>단일 템플릿에 최대 10개의 사용자 정의 양식을 포함할 수 있습니다.</td> 
+      <td>드롭다운 목록을 사용하여 템플릿에 첨부할 사용자 정의 양식을 선택합니다. 사용자 정의 양식이 이미 프로젝트와 연결된 경우 해당 사용자 정의 양식의 모든 데이터 필드가 표시됩니다.<br>한 서식 파일에 최대 10개의 사용자 정의 양식을 포함할 수 있습니다.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 클릭 **Forms 관리** 을 클릭하여 양식을 제거하거나 순서를 변경합니다. 템플릿에서 사용자 정의 양식을 제거하고 순서를 변경하는 방법에 대한 자세한 내용은 [사용자 정의 양식](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
+1. 양식을 제거하거나 순서를 변경하려면 **Forms 관리**&#x200B;를 클릭하십시오. 템플릿에서 사용자 정의 양식을 제거하고 순서를 변경하는 방법에 대한 자세한 내용은 [사용자 정의 양식](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)을 참조하십시오.
 
    ![](assets/save-as-template-first-step-350x159.png)
 
-1. 클릭 **다음 단계.**
-1. 다음에서&#x200B;**옵션** 섹션에서 템플릿에서 지우려는 정보 옆의 확인란을 선택합니다.
+1. **다음 단계를 클릭합니다.**
+1. **옵션** 섹션에서 템플릿에서 지우려는 정보 옆의 확인란을 선택합니다.
 
    ![](assets/save-as-template-options-step-350x109.png)
 
-1. 클릭 **다음 단계.**
-1. 다음에서 **제외** 섹션에서 프로젝트에서 제외할 작업을 선택합니다.
+1. **다음 단계를 클릭합니다.**
+1. **제외** 섹션에서 프로젝트에서 제외할 작업을 선택합니다.
 
    ![](assets/save-as-template-exclude-350x205.png)
 
-1. 클릭 **템플릿을 완료하고 저장합니다.**
+1. **템플릿 완료 및 저장**&#x200B;을 클릭합니다.
 
    이제 템플릿이 사용 가능한 템플릿 목록에 표시되며 기존 프로젝트에 첨부하거나 새 템플릿을 만드는 데 사용할 수 있습니다.
 

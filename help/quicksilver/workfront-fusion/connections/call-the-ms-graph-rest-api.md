@@ -1,6 +1,6 @@
 ---
-title: 를 통해 MS Graph REST API를 호출합니다. [!DNL Adobe Workfront Fusion] HTTP &gt; OAuth 2.0 요청 모듈 만들기
-description: 를 통해 MS Graph REST API를 호출합니다. [!DNL Adobe Workfront Fusion] HTTP &gt; OAuth 2.0 요청 모듈 만들기
+title: ' [!DNL Adobe Workfront Fusion] HTTP &gt; OAuth 2.0 요청 모듈 만들기 를 통해 MS Graph REST API를 호출합니다.'
+description: ' [!DNL Adobe Workfront Fusion] HTTP &gt; OAuth 2.0 요청 모듈 만들기 를 통해 MS Graph REST API를 호출합니다.'
 author: Becky
 feature: Workfront Fusion
 exl-id: adae390d-8b9e-4dab-8551-605e50af5a1e
@@ -11,11 +11,11 @@ ht-degree: 1%
 
 ---
 
-# 호출[!UICONTROL  MS Graph REST API] 를 통해 [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL OAuth 2.0 요청] 모듈
+# [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL OAuth 2.0 요청 만들기] 모듈을 통해 [!UICONTROL  MS Graph REST API]를 호출합니다
 
 <!-- Audited: 3/2024-->
 
-많음 [!DNL Microsoft] 웹 서비스는 [!DNL Microsoft Graph API]. 에 대한 연결을 만들 수 있습니다. [!DNL Microsoft Graph API], 를 사용하여 [!DNL Workfront Fusion] [!DNL HTTP] > [!UICONTROL OAuth 2.0 요청] 모듈.
+[!DNL Microsoft Graph API]을(를) 통해 많은 [!DNL Microsoft] 웹 서비스에 액세스할 수 있습니다. [!DNL Workfront Fusion] [!DNL HTTP] > [!UICONTROL OAuth 2.0 요청 만들기] 모듈을 사용하여 [!DNL Microsoft Graph API]에 연결할 수 있습니다.
 
 ## 액세스 요구 사항
 
@@ -36,7 +36,7 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 라이센스**</td> 
    <td>
-   <p>현재: 아니요 [!DNL Workfront Fusion] 라이센스 요구 사항.</p>
+   <p>현재: [!DNL Workfront Fusion] 라이선스 요구 사항이 없습니다.</p>
    <p>또는</p>
    <p>레거시: 모두 </p>
    </td> 
@@ -44,30 +44,30 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">제품</td> 
    <td>
-   <p>신규:</p> <ul><li>[!UICONTROL Select] 또는 [!UICONTROL Prime] [!DNL Workfront] 플랜: 조직에서 구매해야 합니다. [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] 플랜: [!DNL Workfront Fusion] 포함됩니다.</li></ul>
+   <p>신규:</p> <ul><li>[!UICONTROL Select] 또는 [!UICONTROL Prime] [!DNL Workfront] 플랜: 조직에서 [!DNL Adobe Workfront Fusion]을(를) 구매해야 합니다.</li><li>[!UICONTROL Ultimate] [!DNL Workfront] 계획: [!DNL Workfront Fusion]이(가) 포함되어 있습니다.</li></ul>
    <p>또는</p>
-   <p>현재: 조직에서 구매해야 합니다. [!DNL Adobe Workfront Fusion].</p>
+   <p>현재: 조직에서 [!DNL Adobe Workfront Fusion]을(를) 구매해야 합니다.</p>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
-다음에 대한 정보: [!DNL Adobe Workfront Fusion] 라이센스, 참조 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+[!DNL Adobe Workfront Fusion] 라이선스에 대한 자세한 내용은 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md)를 참조하세요.
 
-## 등록 [!DNL Workfront Fusion] 다음에서 [!DNL Microsoft Application Registration Portal]
+## [!DNL Microsoft Application Registration Portal]에서 [!DNL Workfront Fusion] 등록
 
-에 대한 연결을 만들려면 [!DNL Microsoft Graph REST API], 먼저 등록해야 합니다. [!DNL Adobe Workfront Fusion].
+[!DNL Microsoft Graph REST API]에 대한 연결을 만들려면 먼저 [!DNL Adobe Workfront Fusion]을(를) 등록해야 합니다.
 
-1. 에 설명된 대로 새 애플리케이션 등록 시작 [앱 등록](https://docs.microsoft.com/en-us/graph/auth-register-app-v2) 다음에서 [!DNL Microsoft] 설명서를 참조하십시오.
+1. [!DNL Microsoft] 설명서의 [앱 등록](https://docs.microsoft.com/en-us/graph/auth-register-app-v2)에 설명된 대로 새 응용 프로그램 등록을 시작합니다.
 
-   등록의 일부로, [!DNL Microsoft] 를 사용하려면 다음 정보가 필요합니다.
+   등록의 일부로 [!DNL Microsoft]에는 다음 정보가 필요합니다.
 
    <table style="table-layout:auto">
       <tr>
         <td>[!UICONTROL Application name]</td>
-        <td>응용 프로그램 이름 입력(예: "내") [!DNL Workfront Fusion] 응용 프로그램."</td>
+        <td>응용 프로그램 이름(예: "내 [!DNL Workfront Fusion] 응용 프로그램")을 입력하십시오.</td>
       </tr>
       <tr>
         <td>[!UICONTROL 리디렉션 URL]</td>
@@ -75,23 +75,23 @@ ht-degree: 1%
       </tr>
     </table>
 
-1. 앱 등록을 완료하면 다음을 참고하십시오. [!UICONTROL 애플리케이션 ID].
+1. 앱 등록을 완료하면 [!UICONTROL 응용 프로그램 ID]를 메모하세요.
 
    >[!IMPORTANT]
    >
-   >에서 연결을 설정하려면 애플리케이션 ID가 필요합니다. [!DNL Workfront Fusion].
+   >[!DNL Workfront Fusion]에서 연결을 설정하려면 응용 프로그램 ID가 필요합니다.
 
-1. 생성 [!UICONTROL 애플리케이션 암호]. 이 비밀을 메모해 두십시오.
+1. [!UICONTROL 응용 프로그램 암호]를 생성합니다. 이 비밀을 메모해 두십시오.
 
-   자세한 내용은 [앱 등록](https://docs.microsoft.com/en-us/graph/auth-register-app-v2) 다음에서 [!DNL Microsoft] 설명서를 참조하십시오.
+   지침은 [!DNL Microsoft] 설명서의 [앱 등록](https://docs.microsoft.com/en-us/graph/auth-register-app-v2)을 참조하십시오.
 
    >[!IMPORTANT]
    >
-   >다음이 필요합니다. [!UICONTROL 애플리케이션 암호] 에서 연결을 설정하려면 [!DNL Workfront Fusion].
+   >[!DNL Workfront Fusion]에서 연결을 설정하려면 [!UICONTROL 응용 프로그램 암호]가 필요합니다.
 
 1. 애플리케이션에 대한 권한을 구성합니다.
 
-   이러한 필드를 찾고 구성하는 방법에 대한 자세한 내용은 의 &quot;Microsoft 그래프에 대한 권한 구성&quot; 섹션을 참조하십시오. [사용자 없이 액세스](https://docs.microsoft.com/en-us/graph/auth-v2-service) 다음에서 [!UICONTROL Microsoft] 설명서를 참조하십시오.
+   이러한 필드를 찾고 구성하는 방법에 대한 자세한 내용은 [!UICONTROL Microsoft] 설명서의 [사용자 없이 액세스 받기](https://docs.microsoft.com/en-us/graph/auth-v2-service)에서 &quot;Microsoft 그래프에 대한 권한 구성&quot; 섹션을 참조하십시오.
 
    <table style="table-layout:auto">
     <col> 
@@ -99,7 +99,7 @@ ht-degree: 1%
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL 애플리케이션에 필요한 권한 유형은 무엇입니까?]</td> 
-      <td>선택 <code>[!UICONTROL Delegated permissions]</code>.</td> 
+      <td><code>[!UICONTROL Delegated permissions]</code>을(를) 선택합니다.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 권한 선택]</td> 
@@ -107,20 +107,20 @@ ht-degree: 1%
        <ul> 
         <li> <p><code>offline_access</code> </p> </li> 
         <li> <p><code>openid</code> </p> </li> 
-        <li> <p>통합에 필요한 기타 모든 권한 (예: <code>User.Read</code>)</p> </li> 
-       </ul> <p><b>중요 사항</b>: 에서 연결을 설정하려면 선택한 권한이 필요합니다. [!DNL Workfront Fusion].</p> </td> 
+        <li> <p>통합에 필요한 다른 모든 권한(예: <code>User.Read</code>)</p> </li> 
+       </ul> <p><b>중요</b>: [!DNL Workfront Fusion]에서 연결을 설정하려면 선택한 권한이 필요합니다.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 다음으로 진행 [구성 [!DNL MS Graph API] 의 연결 [!DNL Workfront Fusion]](#configure-your-ms-graph-api-connection-in-workfront-fusion).
+1. [연결 구성 [!DNL Workfront Fusion]](#configure-your-ms-graph-api-connection-in-workfront-fusion)로 진행합니다. [!DNL MS Graph API] 
 
-## 구성 [!DNL MS Graph API] 의 연결 [!DNL Workfront Fusion]
+## [!DNL Workfront Fusion]에서 [!DNL MS Graph API] 연결 구성
 
-등록 후 [!DNL Workfront Fusion] 에서 논의된대로 [등록 [!DNL Workfront Fusion] 다음에서 [!DNL Microsoft Application Registration Portal]](#register-workfront-fusion-in-the-microsoft-application-registration-portal)에서 연결을 구성할 수 있습니다. [!UICONTROL HTTP] > [!UICONTROL Oauth 2.0 만들기] 모듈 요청.
+ [!DNL Microsoft Application Registration Portal]](#register-workfront-fusion-in-the-microsoft-application-registration-portal)의 [등록 [!DNL Workfront Fusion] 에서 설명한 대로 [!DNL Workfront Fusion]을(를) 등록한 후 [!UICONTROL HTTP] > [!UICONTROL Oauth 2.0] 요청 모듈에서 연결을 구성할 수 있습니다.
 
-1. 추가 [!UICONTROL HTTP] > [!UICONTROL OAuth 2.0 호출] 을 시나리오에 연결합니다.
-1. 클릭 **[!UICONTROL 추가]** 다음 옆에 [!UICONTROL 연결] 필드.
+1. 시나리오에 [!UICONTROL HTTP] > [!UICONTROL OAuth 2.0 호출 만들기] 모듈을 추가합니다.
+1. [!UICONTROL 연결] 필드 옆에 있는 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
 1. 연결 필드를 다음과 같이 구성합니다.
 
    <table style="table-layout:auto"> 
@@ -145,7 +145,7 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 범위]</td> 
-      <td> <p>의 4단계에서 선택한 권한을 입력하십시오. <a href="#register-workfront-fusion-in-the-microsoft-application-registration-portal" class="MCXref xref">등록 [!DNL Workfront Fusion] 다음에서 [!DNL Microsoft Application Registration Portal]</a>.</p> <p>각 범위에 대해 <b>[!UICONTROL 추가]</b> 을 누르고 권한을 입력합니다.</p> <p>예: <code>offline_access</code>.</p> </td> 
+      <td> <p><a href="#register-workfront-fusion-in-the-microsoft-application-registration-portal" class="MCXref xref">등록 [!DNL Workfront Fusion]의 4단계에서 선택한 권한을 [!DNL Microsoft Application Registration Portal]</a>에 입력하십시오.</p> <p>각 범위에 대해 <b>[!UICONTROL 추가]</b>를 클릭하고 권한을 입력하십시오.</p> <p>예: <code>offline_access</code></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 범위 구분 기호]</td> 
@@ -153,11 +153,11 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 클라이언트 ID]</td> 
-      <td>의 2단계에서 [!UICONTROL Application ID]를 입력하십시오. <a href="#register-workfront-fusion-in-the-microsoft-application-registration-portal" class="MCXref xref">등록 [!DNL Workfront Fusion] 다음에서 [!DNL Microsoft Application Registration Portal]</a>.</td> 
+      <td><a href="#register-workfront-fusion-in-the-microsoft-application-registration-portal" class="MCXref xref">[!DNL Microsoft Application Registration Portal]</a>에 [!DNL Workfront Fusion] 등록의 2단계에서 [!UICONTROL 응용 프로그램 ID]를 입력하십시오.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 클라이언트 암호]</td> 
-      <td>의 3단계에서 생성한 [!UICONTROL 응용 프로그램 암호]를 입력합니다. <a href="#register-workfront-fusion-in-the-microsoft-application-registration-portal" class="MCXref xref">등록 [!DNL Workfront Fusion] 다음에서 [!DNL Microsoft Application Registration Portal]</a>.</td> 
+      <td><a href="#register-workfront-fusion-in-the-microsoft-application-registration-portal" class="MCXref xref">등록 [!DNL Workfront Fusion]의 [!DNL Microsoft Application Registration Portal]</a>에서 3단계에서 생성한 [!UICONTROL 응용 프로그램 암호를 입력하십시오.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Authorize parameters]</td> 
@@ -175,9 +175,9 @@ ht-degree: 1%
       <td role="rowheader">[!UICONTROL 토큰 매개 변수 새로 고침]</td> 
       <td> 
        <ol> 
-        <li value="1"> <p>클릭 <b>[!UICONTROL 추가]</b>.</p> </li> 
-        <li value="2"> <p>다음에서 <b>[!UICONTROL 키]</b> 필드, 입력 <code>scope</code>.</p> </li> 
-        <li value="3"> <p>다음에서 <b>[!UICONTROL 값]</b> 필드에 범위 필드에 입력한 모든 [!UICONTROL 범위]를 공백으로 구분하여 입력합니다.</p> <p>예: <code>offline_access openid User.Read</code></p> </li> 
+        <li value="1"> <p><b>[!UICONTROL 추가]</b>를 클릭합니다.</p> </li> 
+        <li value="2"> <p><b>[!UICONTROL 키]</b> 필드에 <code>scope</code>을(를) 입력합니다.</p> </li> 
+        <li value="3"> <p><b>[!UICONTROL 값]</b> 필드에 범위 필드에 입력한 모든 [!UICONTROL 범위]를 공백으로 구분하여 입력합니다.</p> <p>예: <code>offline_access openid User.Read</code></p> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
@@ -191,5 +191,5 @@ ht-degree: 1%
     </tbody> 
    </table>
 
-1. 클릭 **[!UICONTROL 계속]**.
-1. 표시되는 창에서 을 클릭합니다. **[!UICONTROL Accept]** 를 클릭하여 연결을 완료하고 모듈로 돌아갑니다.
+1. **[!UICONTROL 계속]**&#x200B;을 클릭합니다.
+1. 표시되는 창에서 **[!UICONTROL 수락]**&#x200B;을 클릭하여 연결을 완료하고 모듈로 돌아갑니다.

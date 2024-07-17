@@ -23,7 +23,7 @@ ht-degree: 8%
 >[!NOTE]
 >
 >팀 시각화에 의한 활동은 이 시각화와 유사하게 동작하지만, 팀 시각화에 의한 활동은 모든 프로젝트에 대한 홈 팀 활동을 보여줍니다.\
->팀 시각화별 활동에 대한 자세한 내용은 다음을 참조하십시오. [향상된 분석에서 팀별 활동 시각화 보기](../enhanced-analytics/activity-by-team-overview.md).
+>팀 시각화별 활동에 대한 자세한 내용은 [향상된 분석에서 팀별 활동 보기](../enhanced-analytics/activity-by-team-overview.md)를 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -56,46 +56,46 @@ ht-degree: 8%
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## 전제 조건
 
-Enhanced Analytics를 사용하기 위한 사전 요구 사항은 의 &quot;사전 요구 사항&quot; 섹션을 참조하십시오. [향상된 분석 개요](../enhanced-analytics/enhanced-analytics-overview.md).
+향상된 Analytics를 사용하기 위한 전제 조건은 [향상된 Analytics 개요](../enhanced-analytics/enhanced-analytics-overview.md)의 &quot;전제 조건&quot; 섹션을 참조하십시오.
 
 ## 프로젝트 활동 시각화 이해
 
 프로젝트 활동은 일정 기간 동안 프로젝트의 특정 이벤트를 요약하기 위해 다양한 색상으로 표시됩니다.
 
-* **로그인한 사용자 수**: 보라색 상자는 프로젝트에 할당된 사용자가 해당 일에 로그인했음을 보여 줍니다. 어두운 음영은 더 많은 수의 로그인 사용자를 나타냅니다.
+* **로그인한 사용자**: 자주색 상자에 해당 프로젝트에 할당된 사용자가 해당 날짜에 로그인했음을 보여 줍니다. 어두운 음영은 더 많은 수의 로그인 사용자를 나타냅니다.
 
   ![](assets/project-activity-users-logged-in.png)
 
-* **작업 상태 변경**: 분홍색 상자에 표시된 것처럼 사람들이 그날 프로젝트에 대한 작업의 상태를 변경했습니다. 어두운 음영은 더 많은 수의 작업 상태가 변경됨을 나타냅니다.
+* **작업 상태 변경**: 분홍색 상자에 표시된 경우 해당 날짜의 프로젝트 작업 상태가 변경되었습니다. 어두운 음영은 더 많은 수의 작업 상태가 변경됨을 나타냅니다.
 
   ![](assets/project-activity-task-status-changes.png)
 
-* **작업 완료됨**: 파란색 상자는 사람들이 프로젝트에 대한 작업을 완료했음을 보여 줍니다. 어두운 음영은 더 많은 수의 작업이 완료되었음을 나타냅니다.
+* **작업 완료됨**: 파란색 상자에 프로젝트의 작업을 완료했음을 표시됩니다. 어두운 음영은 더 많은 수의 작업이 완료되었음을 나타냅니다.
 
   ![](assets/project-activity-tasks-completed.png)
 
 상자 위로 마우스를 가져가면 지정된 날짜에 작업이 완료된 정확한 횟수를 볼 수 있습니다. 프로젝트를 선택하여 프로젝트에 대한 각 개별 기여자의 이러한 활동 분류를 볼 수 있습니다.
 
-이 정보를 보면 다음을 확인할 수 있습니다.
+이 정보를 보면 다음과 같은 사항을 확인할 수 있습니다.
 
 * 특정 프로젝트에 대한 활동.
 * 다른 프로젝트와 비교한 하나의 프로젝트 활동.
 * 프로젝트 작업을 하는 사용자 및 빈도
 
-이 시각화에 대한 최상의 데이터를 얻는 방법에 대해 알아보려면 다음을 참조하십시오. [향상된 분석 개요](../enhanced-analytics/enhanced-analytics-overview.md).
+이 시각화에 가장 적합한 데이터를 얻는 방법에 대해 알아보려면 [향상된 분석 개요](../enhanced-analytics/enhanced-analytics-overview.md)를 참조하십시오.
 
 ## 프로젝트 활동 시각화 보기
 
-1. 메인 메뉴 아이콘 클릭 ![](assets/main-menu-icon-16x12.png)을 선택한 다음 을 선택합니다. **분석**.
+1. 메인 메뉴 아이콘 ![](assets/main-menu-icon-16x12.png)을(를) 클릭한 다음 **분석**&#x200B;을(를) 선택합니다.
 1. (선택 사항) 다른 날짜 범위를 사용하려면 날짜 범위 필터에서 새 시작 날짜와 종료 날짜를 선택합니다.
 
    ![](assets/filters-select-date-range-350x344.png)
 
-   날짜 범위 필터 사용에 대한 자세한 내용은 [향상된 분석에서 필터 적용](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   날짜 범위 필터 사용에 대한 자세한 내용은 [향상된 분석에서 필터 적용](../enhanced-analytics/use-enhanced-analytics-filters.md)을 참조하십시오.
 
    >[!NOTE]
    >
@@ -103,7 +103,7 @@ Enhanced Analytics를 사용하기 위한 사전 요구 사항은 의 &quot;사�
 
 1. (조건부) 프로젝트 데이터 세트를 제한해야 하는 경우 사용할 필터를 선택하고 적용합니다.
 
-   향상된 분석에서 필터를 추가하는 방법에 대한 자세한 내용은 [향상된 분석에서 필터 적용](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   향상된 분석에서 필터를 추가하는 방법에 대한 자세한 내용은 [향상된 분석에서 필터 적용](../enhanced-analytics/use-enhanced-analytics-filters.md)을 참조하십시오.
 
    필터를 추가하면 최대 50개의 프로젝트에 대한 데이터가 표시되고 페이지를 떠나거나 Workfront에서 로그아웃한 후에도 필터가 활성 상태로 유지됩니다.
 
@@ -113,7 +113,7 @@ Enhanced Analytics를 사용하기 위한 사전 요구 사항은 의 &quot;사�
 
    ![](assets/timeframe-filter-350x220.png)
 
-1. (선택 사항) 프로젝트 정렬 방법을 변경하려면 **정렬 기준:** 메뉴를 선택한 다음 새 정렬 옵션을 선택합니다.
+1. (선택 사항) 프로젝트 정렬 방법을 변경하려면 **정렬 기준** 메뉴를 클릭한 다음, 새 정렬 옵션을 선택하십시오.
 
    * **A - Z**
    * **Z - A**
@@ -136,7 +136,7 @@ Enhanced Analytics를 사용하기 위한 사전 요구 사항은 의 &quot;사�
 
    ![](assets/project-activity-activity-pop-up-350x137.png)
 
-1. (선택 사항) 시각화 데이터를 내보내려면 **내보내기 아이콘** ![](assets/export.png) 시각화의 오른쪽 상단 모서리에서 내보내기 형식을 선택합니다.
+1. (선택 사항) 시각화 데이터를 내보내려면 시각화의 오른쪽 상단 모서리에 있는 **내보내기 아이콘** ![](assets/export.png)을(를) 클릭한 다음 내보내기 형식을 선택합니다.
 
    * **차트(PNG)**
    * **데이터 테이블(XSLX)**

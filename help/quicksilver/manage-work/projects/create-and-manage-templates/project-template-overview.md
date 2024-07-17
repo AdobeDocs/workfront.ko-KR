@@ -58,31 +58,31 @@ ht-degree: 1%
    * [작업 기간 및 기간 유형 개요](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
    * [프로젝트 기간 개요](../../../manage-work/projects/planning-a-project/project-duration.md)
 
-  계획된 시간에 대한 자세한 내용은 다음을 참조하십시오. [계획된 시간 개요](../../../manage-work/tasks/task-information/planned-hours.md).
+  계획된 시간에 대한 자세한 내용은 [계획된 시간 개요](../../../manage-work/tasks/task-information/planned-hours.md)를 참조하십시오.
 
 * 향후 프로젝트 계획 전체를 명확하게 이해할 수 있는 경우 맨 끝에서 작업 간에 전임 작업 관계를 추가합니다. 템플릿 작업에 전임 작업을 추가하는 것은 프로젝트의 작업에 전임 작업을 추가하는 것과 비슷합니다.
 
-  작업에 전임 작업을 추가하는 방법에 대한 자세한 내용은 [작업 전임 작업 개요](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+  작업에 전임 작업을 추가하는 방법에 대한 자세한 내용은 [작업 전임 작업 개요](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md)를 참조하십시오.
 
-* 나중에 사용하기 위해 템플릿을 공유할 사용자 및 템플릿에서 만들 프로젝트를 공유할 사용자를 지정합니다. 템플릿 공유에 대한 자세한 내용은 [프로젝트 템플릿 공유](../../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+* 나중에 사용하기 위해 템플릿을 공유할 사용자 및 템플릿에서 만들 프로젝트를 공유할 사용자를 지정합니다. 템플릿 공유에 대한 자세한 내용은 [프로젝트 템플릿 공유](../../../manage-work/projects/create-and-manage-templates/share-project-template.md)를 참조하십시오.
 * 글로벌 승인 프로세스를 사용하고 가능한 경우 템플릿 및 템플릿 작업에 추가합니다. 이를 통해 작업 또는 향후 프로젝트가 동일한 승인을 거쳐야 하는 시간을 절약할 수 있습니다.
 
-  승인 만들기에 대한 자세한 내용은 [작업 항목에 대한 승인 프로세스 만들기](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+  승인 만들기에 대한 자세한 내용은 [작업 항목에 대한 승인 프로세스 만들기](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)를 참조하십시오.
 
-  승인 프로세스를 작업 항목에 연관시키는 방법에 대한 자세한 내용은 다음을 참조하십시오. [신규 또는 기존 승인 프로세스를 작업과 연결](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+  승인 프로세스를 작업 항목에 연결하는 방법에 대한 자세한 내용은 [새 승인 프로세스 또는 기존 승인 프로세스를 작업과 연결](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)을 참조하십시오.
 
 ## 템플릿을 만드는 방법
 
 다음과 같은 방법으로 새 템플릿을 만들 수 있습니다.
 
 * 처음부터.\
-  새 템플릿을 처음부터 만드는 방법에 대한 자세한 내용은 [프로젝트 템플릿 만들기](../../../manage-work/projects/create-and-manage-templates/create-template.md).
+  처음부터 새 템플릿을 만드는 방법에 대한 자세한 내용은 [프로젝트 템플릿 만들기](../../../manage-work/projects/create-and-manage-templates/create-template.md)를 참조하십시오.
 
 * 기존 프로젝트에서 프로젝트를 템플릿으로 저장\
-  기존 프로젝트에서 템플릿 만들기에 대한 자세한 내용은 [프로젝트에서 템플릿 만들기](../../../manage-work/projects/create-and-manage-templates/create-template-from-project.md).
+  기존 프로젝트에서 템플릿을 만드는 방법에 대한 자세한 내용은 [프로젝트에서 템플릿 만들기](../../../manage-work/projects/create-and-manage-templates/create-template-from-project.md)를 참조하십시오.
 
 * 다른 템플릿에서 복사하여\
-  기존 템플릿 복사에 대한 자세한 내용은 [프로젝트 템플릿 복사](../../../manage-work/projects/create-and-manage-templates/copy-template.md).
+  기존 템플릿을 복사하는 방법에 대한 자세한 내용은 [프로젝트 템플릿 복사](../../../manage-work/projects/create-and-manage-templates/copy-template.md)를 참조하십시오.
 
 * 예제 템플릿을 사용합니다.\
-  예제 템플릿을 사용하여 템플릿을 작성하는 방법에 대한 자세한 내용은 [예제에서 프로젝트 템플릿 만들기](../../../manage-work/projects/create-and-manage-templates/create-templates-from-examples.md).
+  예제 템플릿을 사용하여 템플릿을 만드는 방법에 대한 자세한 내용은 [예제에서 프로젝트 템플릿 만들기](../../../manage-work/projects/create-and-manage-templates/create-templates-from-examples.md)를 참조하십시오.

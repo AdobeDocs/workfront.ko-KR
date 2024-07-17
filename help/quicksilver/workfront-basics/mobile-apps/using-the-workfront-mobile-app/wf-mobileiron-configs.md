@@ -1,8 +1,8 @@
 ---
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
-title: 구성 [!DNL Adobe Workfront] MobileIron 용
-description: MobileIron용 Adobe Workfront 앱에서는 Android와 iOS 모두에 대해 MobileIron에서 제공하는 기본 구성을 지원합니다.
+title: MobileIron용  [!DNL Adobe Workfront] 구성
+description: MobileIron용 Adobe Workfront 앱에서는 Android 및 iOS 모두에 대해 MobileIron에서 제공하는 기본 구성을 지원합니다.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 294fd42d-89a8-44c2-a97c-95ea5dd876d4
@@ -13,26 +13,26 @@ ht-degree: 0%
 
 ---
 
-# 구성 [!DNL Adobe Workfront] 대상 [!DNL MobileIron]
+# [!DNL MobileIron]에 대해 [!DNL Adobe Workfront] 구성
 
-Adobe Workfront에서 [!DNL MobileIron] 앱에서 제공하는 기본 구성을 지원합니다. [!DNL MobileIron] 두 가지 모두에 대해 [!DNL Android] 및 [!DNL iOS].
+[!DNL MobileIron]용 Adobe Workfront 앱에서는 [!DNL Android]과(와) [!DNL iOS] 모두에 대해 [!DNL MobileIron]에서 제공하는 기본 구성을 지원합니다.
 
 ## Android
 
-구성하려면 [!DNL Workfront] 대상 [!DNL MobileIron] 대상 [!DNL Android]:
+[!DNL Android]에 대해 [!DNL MobileIron]에 대해 [!DNL Workfront]을(를) 구성하려면:
 
-1. 내 [!DNL MobileIron Cloud] 인스턴스로 이동 **[!UICONTROL 구성]**&#x200B;을 클릭한 다음 을 클릭합니다 **[!UICONTROL 기본값 [!DNL Android] AppConnect 구성]**.
+1. [!DNL MobileIron Cloud] 인스턴스에서 **[!UICONTROL 구성]**(으)로 이동한 다음 **[!UICONTROL 기본 [!DNL Android] AppConnect 구성]**&#x200B;을 클릭합니다.
 
-1. 클릭 **[!UICONTROL 편집]**&#x200B;을(를) 클릭한 후 사용할 옵션을 선택합니다.
+1. **[!UICONTROL 편집]**&#x200B;을 클릭한 다음 사용할 옵션을 선택하십시오.
 
    <table style="table-layout:auto">
     <tr>
         <td><strong>[!UICONTROL Copy/Paste]</strong></td>
-        <td>활성화되면 사용자가 다른 보안 앱에 붙여 넣거나 [!DNL Workfront] 대상 [!DNL MobileIron] 앱.</td>
+        <td>활성화되면 사용자가 다른 보안 앱에 붙여넣도록 허용하거나 [!DNL MobileIron] 앱의 [!DNL Workfront] 내에서만 붙여넣도록 허용할 수 있습니다.</td>
     </tr>
     <tr>
         <td><strong>[!UICONTROL 카메라 허용]</strong></td>
-        <td>활성화되면 사용자는 내에서 사진을 찍을 수 있습니다 [!DNL Workfront] 대상 [!DNL MobileIron] 앱.</td>
+        <td>이 옵션을 활성화하면 사용자가 [!DNL MobileIron] 앱의 [!DNL Workfront] 내에서 사진을 찍을 수 있습니다.</td>
     </tr>
     <tr>
         <td><strong>[!UICONTROL Allow Gallery]</strong></td>
@@ -40,25 +40,25 @@ Adobe Workfront에서 [!DNL MobileIron] 앱에서 제공하는 기본 구성을 
     </tr>
     <tr>
         <td><strong>[!UICONTROL Allow Media Player]</strong></td>
-        <td>활성화되면 사용자는 내에서 미디어를 재생할 수 있습니다 [!DNL Workfront] 대상 [!DNL MobileIron] 앱.</td>
+        <td>이 옵션을 활성화하면 사용자가 [!DNL Workfront] 내에서 [!DNL MobileIron] 앱에 대한 미디어를 재생할 수 있습니다.</td>
     </tr>
     <tr>
         <td><strong>[!UICONTROL Allow Screen Capture]</strong></td>
-        <td>활성화되면 사용자는 내에서 화면 캡처를 수행할 수 있습니다. [!DNL Workfront] 대상 [!DNL MobileIron] 앱.</td>
+        <td>활성화되면 사용자는 [!DNL MobileIron] 앱에 대해 [!DNL Workfront] 내에서 화면 캡처를 수행할 수 있습니다.</td>
     </tr>
     <tr>
         <td><strong>[!UICONTROL Allow web]</strong></td>
-        <td>활성화되면 사용자는 내에서 웹 브라우저로 이동할 수 있습니다. [!DNL Workfront] 대상 [!DNL MobileIron] 앱.</td>
+        <td>이 옵션을 사용하도록 설정하면 사용자가 [!DNL MobileIron] 앱의 [!DNL Workfront] 내에서 웹 브라우저로 이동할 수 있습니다.</td>
     </tr>
    </table>
 
 ## [!DNL iOS]
 
-구성하려면 [!DNL Workfront] 대상 [!DNL MobileIron] 대상 [!DNL iOS]:
+[!DNL iOS]에 대해 [!DNL MobileIron]에 대해 [!DNL Workfront]을(를) 구성하려면:
 
-1. 내 [!DNL MobileIron Cloud] 인스턴스로 이동 **[!UICONTROL 구성]**&#x200B;을 클릭한 다음 을 클릭합니다 **[!UICONTROL 기본값 [!DNL iOS] AppConnect 구성]**.
+1. [!DNL MobileIron Cloud] 인스턴스에서 **[!UICONTROL 구성]**(으)로 이동한 다음 **[!UICONTROL 기본 [!DNL iOS] AppConnect 구성]**&#x200B;을 클릭합니다.
 
-1. 클릭 **[!UICONTROL 편집]**&#x200B;을(를) 클릭한 후 사용할 옵션을 선택합니다.
+1. **[!UICONTROL 편집]**&#x200B;을 클릭한 다음 사용할 옵션을 선택하십시오.
 
    <table style="table-layout:auto">
     <tr>
@@ -67,7 +67,7 @@ Adobe Workfront에서 [!DNL MobileIron] 앱에서 제공하는 기본 구성을 
     </tr>
     <tr>
         <td><strong>[!UICONTROL 인쇄 허용]</strong></td>
-        <td>이 옵션을 활성화하면 사용자가 [!DNL Workfront for MobileIron] 앱.</td>
+        <td>이 옵션을 활성화하면 사용자가 [!DNL Workfront for MobileIron] 앱에서 AirPrint에 연결할 수 있습니다.</td>
     </tr>
     <tr>
         <td><strong>[!UICONTROL Allow Open-In]</strong></td>

@@ -1,7 +1,7 @@
 ---
 navigation-topic: use-lists
-title: 에서 목록 시작 [!DNL Adobe Workfront]
-description: 에서 객체 목록을 볼 수 있습니다. [!DNL Adobe Workfront] 시작 및 기한, 사용자에게 지정된 사용자 및 해당 사용자와 연관된 기타 객체와 같은 객체에 대한 정보를 얻을 수 있습니다.
+title: ' [!DNL Adobe Workfront]의 목록 시작'
+description: ' [!DNL Adobe Workfront] 에서 개체 목록을 보고 해당 개체의 시작 날짜와 기한, 해당 개체에 할당된 사용자, 해당 개체와 연결된 다른 개체 등 개체에 대한 정보를 얻을 수 있습니다.'
 feature: Get Started with Workfront
 author: Lisa
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
@@ -12,24 +12,24 @@ ht-degree: 0%
 
 ---
 
-# 에서 목록 시작 [!DNL Adobe Workfront]
+# [!DNL Adobe Workfront]의 목록 시작
 
 <!--
 {{highlighted-preview}}
 -->
 
-에서 객체 목록을 볼 수 있습니다. [!DNL Adobe Workfront] 시작 및 기한, 사용자에게 지정된 사용자 및 해당 사용자와 연관된 기타 객체와 같은 객체에 대한 정보를 얻을 수 있습니다.
+[!DNL Adobe Workfront]의 개체 목록을 보고 해당 개체의 시작 날짜와 기한, 해당 개체에 할당된 사용자, 해당 개체와 연결된 다른 개체 등 해당 개체에 대한 정보를 얻을 수 있습니다.
 
-다음은 목록의 몇 가지 특성입니다. [!DNL Workfront]:
+다음은 [!DNL Workfront]에 있는 목록의 몇 가지 특성입니다.
 
 * 시스템의 다른 사용자가 다른 위치에서 업데이트하는 정보를 업데이트하기 위해 5분마다 자동으로 새로 고침을 나열합니다.
-* 의 일부 영역 [!DNL Workfront] 은 기본 객체 목록으로 사전 구성되어 있습니다.
+* [!DNL Workfront]의 일부 영역에는 기본 개체 목록이 미리 구성되어 있습니다.
 
   이렇게 미리 구성된 대부분의 목록을 사용자 지정할 수 있습니다.
 
-* A [!DNL Workfront] 관리자는 사용자 정의 목록을 만들어 의 다양한 영역에 적용할 수 있습니다. [!DNL Workfront].
+* [!DNL Workfront] 관리자는 [!DNL Workfront]의 다양한 영역에 적용할 사용자 지정 목록을 만들 수 있습니다.
 
-  시스템 수준 목록 만들기에 대한 자세한 내용은 문서 를 참조하십시오 [기본 필터, 보기 및 그룹화 만들기, 편집 및 공유](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
+  시스템 수준 목록 만들기에 대한 자세한 내용은 문서 [기본 필터, 보기, 그룹화 만들기, 편집 및 공유](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md)를 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -49,20 +49,20 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>액세스 수준 구성*</strong></td> 
-   <td> <p>필터, 보기, 그룹화에 대한 [!UICONTROL 보기] 이상 액세스</p> <P>[!UICONTROL Setup] 영역의 항목에 대해서는 항목 또는 [!UICONTROL System Administrator] 액세스 수준에 대한 관리 액세스 권한이 필요합니다.</P> <p>참고: 여전히 액세스 권한이 없는 경우 [!DNL Workfront] 관리자가 액세스 수준에 추가 제한을 설정하는 경우.<br>자세한 내용: [!DNL Workfront] 관리자가 액세스 수준을 변경할 수 있습니다. 다음을 참조하십시오. <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td> <p>필터, 보기, 그룹화에 대한 [!UICONTROL 보기] 이상 액세스</p> <P>[!UICONTROL Setup] 영역의 항목에 대해서는 항목 또는 [!UICONTROL System Administrator] 액세스 수준에 대한 관리 액세스 권한이 필요합니다.</P> <p>참고: 여전히 액세스 권한이 없는 경우 [!DNL Workfront] 관리자에게 액세스 수준에 추가 제한을 설정했는지 문의하십시오.<br>[!DNL Workfront] 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>개체 권한</strong></td> 
-   <td> <p>공유 액세스 권한이 있는 [!UICONTROL 보기] 이상 권한</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td>
+   <td> <p>공유 액세스 권한이 있는 [!UICONTROL 보기] 이상 권한</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td>
   </tr> 
  </tbody> 
 </table>
 
-보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
+보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
 
 ## 오브젝트 목록
 
-아래는에서 찾을 수 있는 몇 가지 유형의 객체 목록입니다 [!DNL Workfront] 객체를 볼 수 있는 권한이 있는 경우 기본적으로 표시되는 일부 영역이 있습니다.
+다음은 [!DNL Workfront]에서 찾을 수 있는 일부 형식의 개체 목록과 개체를 볼 수 있는 권한이 있을 때 기본적으로 표시되는 일부 영역입니다.
 
 >[!NOTE]
 >
@@ -213,7 +213,7 @@ ht-degree: 0%
     <ul> 
      <li class="preview"> <p>[!UICONTROL Setup] &gt;[!UICONTROL 사용자 지정 Forms]</p>
      <!--Remove the following note box when this goes to Production. Or do this when the Preview highlighting becomes available.-->
-     <p><b>참고</b>: 현재 미리보기 환경에서만 사용할 수 있습니다</p> </li> 
+     <p><b>참고</b>: 현재 미리 보기 환경에서만 사용할 수 있습니다.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -255,7 +255,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-지정된 영역의 목록은 사용자 지정할 수 없습니다. A [!DNL Workfront] 관리자는 시스템 수준에서 사용자 지정된 목록을 만들 수 있으며, 액세스 수준에서 사용자가 보고서를 편집할 수 있는 액세스 권한을 가진 경우 이 개체에 대한 보고서를 만들 수도 있습니다.
+지정된 영역의 목록은 사용자 지정할 수 없습니다. [!DNL Workfront] 관리자는 시스템 수준에서 사용자 지정된 목록을 만들 수 있습니다. 또는 액세스 수준에 따라 보고서를 편집할 수 있는 액세스 권한이 있는 경우 이 개체에 대한 보고서를 만들 수 있습니다.
 
 ## 목록 요소
 
@@ -263,7 +263,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->목록에서 새 필터, 보기 또는 그룹화를 선택하면 해당 선택 항목은에서 로그아웃해도 유지됩니다 [!DNL Workfront] 또는 브라우저를 닫습니다.
+>목록에서 새 필터, 보기 또는 그룹화를 선택하면 [!DNL Workfront]에서 로그아웃하거나 브라우저를 닫아도 해당 선택 항목이 유지됩니다.
 
 다음은 목록의 요소입니다.
 
@@ -279,15 +279,15 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td><strong>[!UICONTROL Filter]</strong></td> 
-   <td> <p>필터는 지정한 기준에 따라 불필요한 정보를 목록에서 제거합니다. </p> <p>자세한 내용은 <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">필터 개요</a>.</p> </td> 
+   <td> <p>필터는 지정한 기준에 따라 불필요한 정보를 목록에서 제거합니다. </p> <p>자세한 내용은 <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">필터 개요</a>를 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>[!UICONTROL 보기]</strong></td> 
-   <td> <p>보기는 화면에 표시할 필드(열)를 정의합니다.</p> <p>자세한 내용은 <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">의 보기 개요 [!DNL Adobe Workfront]</a>.</p> </td> 
+   <td> <p>보기는 화면에 표시할 필드(열)를 정의합니다.</p> <p>자세한 내용은 [!DNL Adobe Workfront]</a>의 <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">보기 개요를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>[!UICONTROL 그룹화]</strong></td> 
-   <td> <p>그룹화는 사용자가 지정하는 기준에 따라 영역의 목록에 있는 객체를 구분합니다.</p> <p>예를 들어 목록의 문제는 상태 또는 우선 순위별로 섹션에 표시될 수 있습니다.</p> <p>표준 그룹화에는 최대 3개의 그룹화 레이어를 사용할 수 있으며, 텍스트 모드에서 그룹화를 구성하는 경우 네 번째 레이어를 추가할 수 있습니다.</p> <p>그룹화에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">의 그룹화 개요 [!DNL Adobe Workfront]</a>.</p> <p>텍스트 모드에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">텍스트 모드 개요</a>.</p> </td> 
+   <td> <p>그룹화는 사용자가 지정하는 기준에 따라 영역의 목록에 있는 객체를 구분합니다.</p> <p>예를 들어 목록의 문제는 상태 또는 우선 순위별로 섹션에 표시될 수 있습니다.</p> <p>표준 그룹화에는 최대 3개의 그룹화 레이어를 사용할 수 있으며, 텍스트 모드에서 그룹화를 구성하는 경우 네 번째 레이어를 추가할 수 있습니다.</p> <p>그룹화에 대한 자세한 내용은 [!DNL Adobe Workfront]</a>의 <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">그룹화 개요를 참조하십시오.</p> <p>텍스트 모드에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">텍스트 모드 개요</a>를 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -298,12 +298,12 @@ ht-degree: 0%
 
 다음 영역에서 목록 요소를 사용자 지정하고 다른 사용자와 공유할 수 있습니다.
 
-* 섹션에 있는 모든 시스템 기본 목록 [에서 목록 시작 [!DNL Adobe Workfront]](#default-workfront-lists) 이 문서에서
+* 이 문서의 [목록 시작 [!DNL Adobe Workfront]](#default-workfront-lists) 섹션에 있는 모든 시스템 기본 목록
 * 나와 공유된 모든 보고서
 
 목록의 빌딩 요소는 보고서의 빌딩 요소와 동일합니다.
 
-목록 및 보고서의 작성 요소 만들기 및 사용자 지정에 대한 자세한 내용은 [보고 요소: 필터, 보기 및 그룹화](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
+목록 및 보고서의 빌드 요소를 만들고 사용자 지정하는 방법에 대한 자세한 내용은 [보고 요소: 필터, 보기 및 그룹화](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)를 참조하십시오.
 
 ## 작업 나열
 
@@ -321,23 +321,23 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td><strong>인라인 편집</strong> </td> 
-   <td> <p>개체 및 해당 정보를 목록에서 직접 편집합니다.</p> <p>자세한 내용은 <a href="../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md" class="MCXref xref">목록의 항목 인라인 편집 [!DNL Adobe Workfront]</a>.</p> </td> 
+   <td> <p>개체 및 해당 정보를 목록에서 직접 편집합니다.</p> <p>자세한 내용은 [!DNL Adobe Workfront]</a>의 목록에서 <a href="../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md" class="MCXref xref">인라인 편집 항목을 참조하십시오.</p> </td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-   <td><strong>[!UICONTROL Summary] 업데이트</strong> </td> 
-   <td> <p>[!UICONTROL 요약] 패널을 사용하여 프로젝트 수준에서 작업 및 문제를 업데이트합니다.</p> <p>팁: 요약은 모든 오브젝트에 사용할 수 없으며 작업 또는 문제 보고서에서 사용할 수 없습니다.</p> <p>자세한 내용은 <a href="../../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">요약 개요</a>.</p> </td> 
+   <td><strong>[!UICONTROL Summary]로 업데이트</strong> </td> 
+   <td> <p>[!UICONTROL 요약] 패널을 사용하여 프로젝트 수준에서 작업 및 문제를 업데이트합니다.</p> <p>팁: 요약은 모든 오브젝트에 사용할 수 없으며 작업 또는 문제 보고서에서 사용할 수 없습니다.</p> <p>자세한 내용은 <a href="../../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">요약 개요</a>를 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>목록 표시 사용자 지정</strong> </td> 
-   <td> <p>목록, 열 배열, 항목 정렬 순서 또는 표시되는 항목 수의 모양과 느낌을 사용자 지정합니다.</p> <p>참고: 페이지에 표시할 항목 수에 대한 변경 사항은에서 로그아웃할 때 되돌려집니다 [!DNL Workfront] 또는 브라우저를 닫습니다. 변경 사항은 8시간 후 되돌릴 수도 있습니다.</p> <p>자세한 내용은 <a href="../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md" class="MCXref xref">목록 표시 방법 수정</a>.</p> </td> 
+   <td> <p>목록, 열 배열, 항목 정렬 순서 또는 표시되는 항목 수의 모양과 느낌을 사용자 지정합니다.</p> <p>참고: 페이지에 표시할 항목 수에 대한 변경 내용은 [!DNL Workfront]에서 로그아웃하거나 브라우저를 닫을 때 되돌려집니다. 변경 사항은 8시간 후 되돌릴 수도 있습니다.</p> <p>자세한 내용은 <a href="../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md" class="MCXref xref">목록 표시 방법 수정</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>빠른 필터</strong> </td> 
-   <td> <p>빠른 필터를 적용하여 중요한 항목만 찾아 빠르게 검토, 업데이트 또는 다른 사람과 공유할 수 있습니다.</p> <p>중요: 빠른 필터를 사용하여 검색어가 포함된 항목을 찾을 수 있습니다. 해당 항목이 화면에 표시되는지 아니면 페이지 맨 아래로 스크롤한 후 표시되는지 여부입니다. 브라우저의 검색 기능을 사용하면 이미 화면에 표시된 항목만 찾을 수 있습니다. 목록에 여러 페이지가 있는 경우 빠른 필터는 현재 페이지의 항목만 찾습니다.</p> <p>자세한 내용은 <a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">목록에 빠른 필터 적용</a>.</p> </td> 
+   <td> <p>빠른 필터를 적용하여 중요한 항목만 찾아 빠르게 검토, 업데이트 또는 다른 사람과 공유할 수 있습니다.</p> <p>중요: 빠른 필터를 사용하여 검색어가 포함된 항목을 찾을 수 있습니다. 해당 항목이 화면에 표시되는지 아니면 페이지 맨 아래로 스크롤한 후 표시되는지 여부입니다. 브라우저의 검색 기능을 사용하면 이미 화면에 표시된 항목만 찾을 수 있습니다. 목록에 여러 페이지가 있는 경우 빠른 필터는 현재 페이지의 항목만 찾습니다.</p> <p>자세한 내용은 <a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">목록에 빠른 필터 적용</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>내보내기</strong> </td> 
-   <td> <p>객체 목록 내보내기 [!DNL Workfront]. 목록에 2000개가 넘는 항목이 있는 경우 목록을 내보내는 것만이 한 페이지의 모든 항목을 검토할 수 있는 유일한 방법입니다.</p> <p>목록 내보내기에 대한 자세한 내용은 <a href="../../../workfront-basics/navigate-workfront/use-lists/export-lists.md" class="MCXref xref">목록 내보내기</a>. 내보내기 형식 및 제한에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">데이터 내보내기</a>.</p> </td> 
+   <td> <p>[!DNL Workfront]에서 개체 목록을 내보냅니다. 목록에 2000개가 넘는 항목이 있는 경우 목록을 내보내는 것만이 한 페이지의 모든 항목을 검토할 수 있는 유일한 방법입니다.</p> <p>목록 내보내기에 대한 자세한 내용은 <a href="../../../workfront-basics/navigate-workfront/use-lists/export-lists.md" class="MCXref xref">목록 내보내기</a>를 참조하십시오. 내보내기 형식 및 제한에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">데이터 내보내기</a>를 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -444,17 +444,17 @@ ht-degree: 0%
   <tr data-mc-conditions=""> 
    <td> <img src="assets/qs-autosave-icon-in-new-toolbar-for-tasks.png"> </td> 
    <td> <p>[!UICONTROL 계획 모드]</p> </td> 
-   <td> <p>작업 목록에서 변경한 내용을 자동으로 저장할지 수동으로 저장할지 선택합니다. </p> <p>목록에서 작업을 편집하는 방법에 대한 자세한 내용은 <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md" class="MCXref xref">목록에서 작업 편집</a>. </p> <p>작업에만 사용할 수 있습니다.</p> </td> 
+   <td> <p>작업 목록에서 변경한 내용을 자동으로 저장할지 수동으로 저장할지 선택합니다. </p> <p>목록에서 작업을 편집하는 방법에 대한 자세한 내용은 <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md" class="MCXref xref">목록에서 작업 편집</a>을 참조하십시오. </p> <p>작업에만 사용할 수 있습니다.</p> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/summary-panel-icon.png"> </td> 
    <td>[!UICONTROL 요약]</td> 
-   <td> <p>선택한 항목에 대한 [!UICONTROL 요약] 상자를 표시하거나 숨깁니다.</p> <p>작업 및 문제에만 사용할 수 있습니다.</p> <p>새 기능의 [!UICONTROL Summary] 패널에 대한 정보 [!DNL Adobe Workfront] 경험, 참조 <a href="/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">요약 개요</a>.</p> </td> 
+   <td> <p>선택한 항목에 대한 [!UICONTROL 요약] 상자를 표시하거나 숨깁니다.</p> <p>작업 및 문제에만 사용할 수 있습니다.</p> <p>새 [!DNL Adobe Workfront] 경험의 [!UICONTROL 요약] 패널에 대한 자세한 내용은 <a href="/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">요약 개요</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/remove-icon---x-in-circle.png"> </td> 
    <td>[!UICONTROL 제거]</td> 
-   <td>목록에서 항목을 제거합니다. 예를 들어 그룹 또는 하위 그룹 멤버십을 관리하는 그룹 관리자의 경우,에 설명된 대로 그룹 멤버를 제거합니다 <a href="/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md" class="MCXref xref">그룹 멤버십 보기 및 관리</a>.</td> 
+   <td>목록에서 항목을 제거합니다. 예를 들어 그룹 또는 하위 그룹 멤버십을 관리하는 그룹 관리자는 <a href="/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md" class="MCXref xref">그룹 멤버십 보기 및 관리</a>에 설명된 대로 그룹 멤버를 제거합니다.</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/comment-icon.png"> </td> 
@@ -484,11 +484,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td> <p>누구나 만들 수 있습니다.</p> </td> 
-   <td><span>✓ *</span> </td> 
+   <td>✓ <span>개</span> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>만 [!DNL Workfront] 관리자 및 [!UICONTROL Plan] 라이선스가 있는 사용자가 만들 수 있습니다.</p> </td> 
+   <td> <p>[!DNL Workfront] 관리자와 [!UICONTROL Plan] 라이선스가 있는 사용자만 만들 수 있습니다.</p> </td> 
    <td> </td> 
    <td>✓ **</td> 
   </tr> 
@@ -523,7 +523,7 @@ ht-degree: 0%
    <td>✓ 덧신 </td> 
   </tr> 
   <tr> 
-   <td> <p>.pdf로 내보낼 수 있으며 [!DNL Excel]및 탭으로 구분된 형식</p> </td> 
+   <td> <p>.pdf, [!DNL Excel] 및 탭으로 구분된 형식으로 내보낼 수 있습니다</p> </td> 
    <td>✓ 덧신</td> 
    <td> ✓ 덧신 </td> 
   </tr> 
@@ -565,9 +565,9 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-필터, 보기 및 그룹화를 만들 수 있으려면 액세스 권한이 있어야 합니다. 자세한 내용은 [필터, 보기 및 그룹화에 대한 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+필터, 보기 및 그룹화를 만들 수 있으려면 액세스 권한이 있어야 합니다. 자세한 내용은 [필터, 보기 및 그룹화에 대한 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)를 참조하십시오.
 
-필터, 보기 및 그룹뿐만 아니라 보고서, 대시보드 및 달력에 대한 액세스 권한이 있어야 만들 수 있습니다. 자세한 내용은 [보고서, 대시보드 및 캘린더에 대한 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+필터, 보기 및 그룹뿐만 아니라 보고서, 대시보드 및 달력에 대한 액세스 권한이 있어야 만들 수 있습니다. 자세한 내용은 [보고서, 대시보드 및 일정에 대한 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)를 참조하십시오.
 
 보고서 작성자가 대시보드에 표시되도록 목록 요소를 구성한 경우에만 대시보드에 배치된 보고서의 목록을 사용자 지정할 수 있습니다.
 
@@ -575,11 +575,11 @@ ht-degree: 0%
 >
 >보고서를 만들어 대시보드에 먼저 추가하지 않으면 목록을 대시보드에 추가할 수 없습니다.
 
-보고서 빌드에 대한 자세한 내용은 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). 사용자 지정 섹션 만들기에 대한 내용은 [사용자 정의 탭 또는 섹션 만들기](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
+보고서 작성에 대한 자세한 내용은 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)를 참조하십시오. 사용자 지정 섹션 만들기에 대한 자세한 내용은 [사용자 지정 탭 또는 섹션 만들기](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)를 참조하십시오.
 
 ## 업데이트된 목록과 기존 목록의 차이점
 
-에는 두 가지 유형의 목록이 있습니다 [!DNL Workfront]:
+[!DNL Workfront]에는 두 가지 유형의 목록이 있습니다.
 
 * 레거시 목록
 
@@ -589,14 +589,14 @@ ht-degree: 0%
 
   ![](assets/updated-list-screen-shot-gray-groupings-350x71.png)
 
-두 유형의 목록은 모두 [!DNL Adobe Workfront].
+두 형식의 목록이 [!DNL Adobe Workfront]에 나타납니다.
 
-의 모든 목록 및 보고서 [!DNL Adobe Workfront] 는 다음을 제외하고 업데이트된 목록입니다.
+[!DNL Adobe Workfront]의 모든 목록 및 보고서는 다음 항목을 제외하고 업데이트된 목록입니다.
 
-* 목록: [!UICONTROL 설정] 영역
-* 목록: [!UICONTROL 보고서] 영역
+* [!UICONTROL 설정] 영역의 목록
+* [!UICONTROL 보고서] 영역의 목록
 
-다음 표에서 기존 목록과 업데이트된 목록의 몇 가지 차이점을 확인할 수 있습니다 [!DNL Workfront]:
+다음 표는 [!DNL Workfront]의 기존 목록과 업데이트된 목록의 몇 가지 차이점을 보여 줍니다.
 
 <!--
 <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> [Legacy does not equal Classic. Legacy lists appear in NWE and Classic. Updated lists appear in NWE and Classic.]</span>
@@ -619,16 +619,16 @@ ht-degree: 0%
    <td> <p>빠른 인라인 편집</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>표시 <strong>10</strong> 기본적으로 항목</p> </td> 
-   <td> <p>표시 <strong>모두</strong> 또는 최대 <strong>2000</strong> 기본적으로 항목</p> </td> 
+   <td> <p>기본적으로 <strong>100</strong>개 항목 표시</p> </td> 
+   <td> <p>기본적으로 <strong>모두</strong> 또는 최대 <strong>2,000</strong>개 항목 표시</p> </td> 
   </tr> 
   <tr> 
    <td> <p>목록에서 항목을 찾으려면 CTRL+F 를 사용합니다.</p> </td> 
-   <td> <p>빠른 필터를 사용하여 큰 목록의 정보를 빠르게 찾을 수 있습니다</p> <p>목록에서 빠른 필터를 사용하는 방법에 대한 자세한 내용은 <a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">목록에 빠른 필터 적용</a>.</p> </td> 
+   <td> <p>빠른 필터를 사용하여 큰 목록의 정보를 빠르게 찾을 수 있습니다</p> <p>목록에서 빠른 필터를 사용하는 방법에 대한 자세한 내용은 <a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">목록에 빠른 필터 적용</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>서식 있는 텍스트 서식을 사용하여 사용자 지정 필드를 인라인 편집할 수 없습니다.</td> 
-   <td> <p>서식 있는 사용자 정의 필드의 텍스트를 굵게, 기울임체, 밑줄, 글머리 기호, 번호 매기기, 하이퍼링크 및 블록 따옴표를 허용하도록 구성할 수 있습니다.</p> <p>자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">사용자 정의 양식 만들기 또는 편집</a>.</p> </td> 
+   <td> <p>서식 있는 사용자 정의 필드의 텍스트를 굵게, 기울임체, 밑줄, 글머리 기호, 번호 매기기, 하이퍼링크 및 블록 따옴표를 허용하도록 구성할 수 있습니다.</p> <p>자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">사용자 정의 양식 만들기 또는 편집</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td>조건부 서식은 목록에 있는 링크의 텍스트 색상을 변경할 수 있습니다</td> 

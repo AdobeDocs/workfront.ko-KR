@@ -19,4 +19,4 @@ ht-degree: 7%
 이 섹션에는 다음 하위 섹션이 포함됩니다.
 
 * [새 홈](../../workfront-basics/using-home/new-home/new-home.md)
-* [사용 [!UICONTROL 홈] 영역](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
+* [[!UICONTROL Home] 영역 사용](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)

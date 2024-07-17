@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >이 페이지에 설명된 기능은 프로덕션 환경에서 사용하기 전에 변경될 수 있습니다.
 
-2019.2의 모든 변경 사항 목록은 을 참조하십시오. [2019.2 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
+2019.2의 모든 변경 사항 목록은 [2019.2 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md)를 참조하십시오.
 
 ## 애자일 도구에서 문제에 대한 완료율 진행 추적
 

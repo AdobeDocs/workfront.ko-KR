@@ -25,7 +25,7 @@ in January 2022
 
 2022년 1월 17일이 있는 주.
 
-22.1 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [22.1 릴리스 개요](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+22.1 릴리스에서 사용할 수 있는 모든 변경 사항 목록을 보려면 [22.1 릴리스 개요](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md)를 참조하십시오.
 
 ## 요청을 만들 수 있는 액세스 권한이 없는 사용자를 위한 인터페이스 개선
 
@@ -33,7 +33,7 @@ in January 2022
 
 이 개선 이전에는 이러한 사용자에 대한 요청 영역에 새 요청 버튼이 표시되지 않았습니다. 새 요청으로 요청 복사 및 제출도 제한됩니다.
 
-요청 만들기에 대한 자세한 내용은 [Adobe Workfront 요청 만들기 및 제출](../../../manage-work/requests/create-requests/create-submit-requests.md).
+요청 만들기에 대한 자세한 내용은 [Adobe Workfront 요청 만들기 및 제출](../../../manage-work/requests/create-requests/create-submit-requests.md)을 참조하십시오.
 
 ## 요청 복사 및 제출
 
@@ -45,7 +45,7 @@ in January 2022
 >
 >이 기능이 릴리스되기 전에 대기열 주제 없이 요청 대기열에 제출된 문제를 복사하고 다시 제출할 수 없습니다.
 
-자세한 내용은 [요청 복사 및 제출](../../../manage-work/requests/create-requests/copy-and-submit-requests.md).
+자세한 내용은 [요청 복사 및 제출](../../../manage-work/requests/create-requests/copy-and-submit-requests.md)을 참조하십시오.
 
 ## 요청 영역의 제출됨 섹션에서 요약 패널 경험이 업데이트되었습니다
 
@@ -55,6 +55,6 @@ in January 2022
 
 요약 패널과의 가시성 및 상호 작용을 개선하기 위해 요청 영역의 제출됨 섹션에 요약 열기 아이콘에 레이블을 추가했습니다. 이제 레이블이 동적이고 패널의 열기 또는 닫기 여부에 따라 업데이트됩니다.
 
-요청을 먼저 선택하지 않고 요약 패널을 열 경우 이제 보다 사용자 친화적인 이미지가 표시되어 패널을 열기 전에 항목을 선택하도록 사용자에게 명확하게 지시합니다. 자세한 내용은 [제출된 요청 찾기](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
+요청을 먼저 선택하지 않고 요약 패널을 열 경우 이제 보다 사용자 친화적인 이미지가 표시되어 패널을 열기 전에 항목을 선택하도록 사용자에게 명확하게 지시합니다. 자세한 내용은 [제출된 요청 찾기](../../../manage-work/requests/create-requests/locate-submitted-requests.md)를 참조하십시오.
 
-이 변경 사항으로 작업, 문제 및 문서에 대한 요약 패널도 업데이트되었습니다. 요약 패널에 대한 자세한 내용은 [요약 개요](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+이 변경 사항으로 작업, 문제 및 문서에 대한 요약 패널도 업데이트되었습니다. 요약 패널에 대한 자세한 내용은 [요약 개요](../../../workfront-basics/the-new-workfront-experience/summary-overview.md)를 참조하십시오.

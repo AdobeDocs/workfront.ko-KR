@@ -16,14 +16,14 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Photoshop] 모듈
+# [!DNL Adobe Photoshop]개 모듈
 
-다음에서 [!DNL Adobe Workfront Fusion] 시나리오에서는 다음을 사용하는 워크플로를 자동화할 수 있습니다 [!DNL Adobe Photoshop]을 여러 타사 응용 프로그램 및 서비스에 연결할 수 있습니다.
+[!DNL Adobe Workfront Fusion] 시나리오에서는 [!DNL Adobe Photoshop]을(를) 사용하는 워크플로를 자동화하고 여러 타사 응용 프로그램 및 서비스에 연결할 수 있습니다.
 
 
-시나리오를 만드는 방법에 대한 지침이 필요한 경우 [시나리오 만들기](../../workfront-fusion/scenarios/create-a-scenario.md).
+시나리오를 만드는 방법에 대한 지침은 [시나리오 만들기](../../workfront-fusion/scenarios/create-a-scenario.md)를 참조하십시오.
 
-모듈에 대한 자세한 내용은 [의 모듈 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+모듈에 대한 자세한 내용은 [의 모듈 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md)을 참조하세요.
 
 ## 액세스 요구 사항
 
@@ -53,28 +53,28 @@ ht-degree: 0%
     </tr>
     <tr>
       <td role="rowheader">제품</td>
-      <td>조직은 다음을 구매해야 합니다. [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오.</td>
+      <td>조직에서 이 문서에 설명된 기능을 사용하려면 [!DNL Adobe Workfront Fusion]과(와) [!DNL Adobe Workfront]을(를) 구입해야 합니다.</td>
     </tr>
     </tr>
   </tbody>
 </table>
 
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
+&#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
 
-&#42;&#42;다음에 대한 정보: [!DNL Adobe Workfront Fusion] 라이센스, 참조 [!DNL [Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;[!DNL Adobe Workfront Fusion] 라이선스에 대한 자세한 내용은 [!DNL [Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)을(를) 참조하세요.
 
 ## 전제 조건
 
-을(를) 사용하기 전에 [!DNL Adobe Photoshop] connector에서 다음 전제 조건이 충족되는지 확인해야 합니다.
+[!DNL Adobe Photoshop] 커넥터를 사용하려면 먼저 다음 전제 조건을 충족하는지 확인해야 합니다.
 
-* 활성 상태가 있어야 합니다. [!DNL Adobe Photoshop] 계정입니다.
+* 활성 [!DNL Adobe Photoshop] 계정이 있어야 합니다.
 
-## 에 대한 연결 만들기 [!DNL Adobe Photoshop]
+## [!DNL Adobe Photoshop]에 연결 만들기
 
-에 대한 연결을 만들려면 [!DNL Adobe Photoshop] 모듈:
+[!DNL Adobe Photoshop] 모듈에 대한 연결을 만들려면:
 
-1. 클릭 **[!UICONTROL 추가]** 연결 상자 옆에 있습니다.
+1. 연결 상자 옆에 있는 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
 
 1. 다음 필드를 채웁니다.
 
@@ -96,24 +96,24 @@ ht-degree: 0%
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL 클라이언트 암호]</td>
-        <td>다음을 입력하십시오. [!DNL Adobe] [!UICONTROL 클라이언트 암호]. 이 로그는 의 [!UICONTROL 자격 증명] 세부 정보 섹션에서 찾을 수 있습니다. [!DNL Adobe Developer Console]</td>
+        <td>[!DNL Adobe] [!UICONTROL 클라이언트 암호]를 입력하십시오. 이 로그는 의 [!UICONTROL 자격 증명] 세부 정보 섹션에서 찾을 수 있습니다. [!DNL Adobe Developer Console]</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL 기술 계정 ID]</td>
-        <td>다음을 입력하십시오. [!DNL Adobe] [!UICONTROL 기술 계정 ID]. 이 로그는 의 [!UICONTROL 자격 증명] 세부 정보 섹션에서 찾을 수 있습니다. [!DNL Adobe Developer Console]</td>
+        <td>[!DNL Adobe] [!UICONTROL 기술 계정 ID]를 입력하십시오. 이 로그는 의 [!UICONTROL 자격 증명] 세부 정보 섹션에서 찾을 수 있습니다. [!DNL Adobe Developer Console]</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL 조직 ID]</td>
-        <td>다음을 입력하십시오. [!DNL Adobe] [!UICONTROL 조직 ID]. 이 로그는 의 [!UICONTROL 자격 증명] 세부 정보 섹션에서 찾을 수 있습니다. [!DNL Adobe Developer Console]</td>
+        <td>[!DNL Adobe] [!UICONTROL 조직 ID]를 입력하십시오. 이 로그는 의 [!UICONTROL 자격 증명] 세부 정보 섹션에서 찾을 수 있습니다. [!DNL Adobe Developer Console]</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL 개인 키]</td>
         <td>
-          <p>에서 자격 증명을 만들 때 생성된 개인 키를 입력합니다. [!DNL Adobe Developer Console]. </p>
+          <p>[!DNL Adobe Developer Console]에서 자격 증명을 만들 때 생성된 개인 키를 입력하십시오. </p>
           <p>개인 키 또는 인증서를 추출하려면 다음을 수행하십시오.</p>
           <ol>
             <li value="1">
-              <p>클릭 <b>[!UICONTROL Extract]</b>.</p>
+              <p><b>[!UICONTROL Extract]</b>을(를) 클릭합니다.</p>
             </li>
             <li value="2">
               <p>추출 중인 파일 유형을 선택합니다.</p>
@@ -125,7 +125,7 @@ ht-degree: 0%
               <p>파일의 암호를 입력합니다.</p>
             </li>
             <li value="5">
-              <p>클릭 <b>저장</b> 파일을 추출하고 [!UICONTROL ]e 연결 설정으로 돌아갑니다.</p>
+              <p><b>저장</b>을 클릭하여 파일을 추출하고 [!UICONTROL ]e 연결 설정으로 돌아갑니다.</p>
             </li>
           </ol>
         </td>
@@ -133,13 +133,13 @@ ht-degree: 0%
       </tbody>
     </table>
 
-1. 클릭 **[!UICONTROL 계속]** 연결을 저장하고 모듈로 돌아갑니다.
+1. 연결을 저장하고 모듈로 돌아가려면 **[!UICONTROL 계속]**&#x200B;을 클릭하세요.
 
-## [!DNL Adobe Photoshop] 모듈 및 해당 필드
+## [!DNL Adobe Photoshop]개 모듈 및 해당 필드
 
-를 구성할 때 [!DNL Adobe Photoshop] 모듈, [!DNL Workfront Fusion] 아래 나열된 필드를 표시합니다. 이와 함께 추가 [!DNL Adobe Photoshop] 앱이나 서비스의 액세스 수준 등에 따라 필드가 표시될 수 있습니다. 모듈의 굵은 제목은 필수 필드를 나타냅니다.
+[!DNL Adobe Photoshop] 모듈을 구성할 때 [!DNL Workfront Fusion]에 아래 나열된 필드가 표시됩니다. 앱 또는 서비스의 액세스 수준과 같은 요소에 따라 이러한 필드와 함께 [!DNL Adobe Photoshop] 필드가 추가로 표시될 수 있습니다. 모듈의 굵은 제목은 필수 필드를 나타냅니다.
 
-필드나 함수 위에 맵 단추가 표시되면 이 단추를 사용하여 해당 필드에 대한 변수와 함수를 설정할 수 있습니다. 자세한 내용은 [의 한 모듈에서 다른 모듈로 정보 매핑 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+필드나 함수 위에 맵 단추가 표시되면 이 단추를 사용하여 해당 필드에 대한 변수와 함수를 설정할 수 있습니다. 자세한 내용은 [한 모듈에서 다른 모듈로 정보를 매핑 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)을 참조하십시오.
 
 ![](assets/map-toggle-350x74.png)
 
@@ -158,7 +158,7 @@ ht-degree: 0%
 
 이 작업 모듈은 선택 가능한 레이어로 새 PSD을 만들고 렌디션을 생성하거나 PSD으로 저장합니다.
 
-이 모듈과 관련된 필드는 을 참조하십시오. [새 PSD 만들기](https://developer.adobe.com/photoshop/photoshop-api-docs/api/#tag/Photoshop/operation/documentCreate) Adobe Photoshop 설명서에서 확인할 수 있습니다.
+이 모듈과 관련된 필드는 Adobe Photoshop 설명서에서 [새 PSD 만들기](https://developer.adobe.com/photoshop/photoshop-api-docs/api/#tag/Photoshop/operation/documentCreate)를 참조하십시오.
 
 #### 텍스트 레이어 편집
 
@@ -170,7 +170,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Photoshop], 참조 <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Photoshop]</a> 이 문서에서.</td>
+      <td>[!DNL Adobe Photoshop]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >[!DNL Adobe Photoshop]</a>에 대한 연결 만들기 를 참조하십시오.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 입력 파일 저장소]</td>
@@ -198,7 +198,7 @@ ht-degree: 0%
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 레이어]</td>
-   <td> <p>레이어 옵션에 대한 자세한 내용은 <a href="https://developer.adobe.com/photoshop/photoshop-api-docs/api/#tag/Photoshop/operation/text">텍스트 레이어 편집</a> Adobe Photoshop 설명서에서 확인할 수 있습니다.</p>  </td>     </tr>
+   <td> <p>레이어 옵션에 대한 자세한 내용은 Adobe Photoshop 설명서에서 <a href="https://developer.adobe.com/photoshop/photoshop-api-docs/api/#tag/Photoshop/operation/text">텍스트 레이어 편집</a>을 참조하십시오.</p>  </td>     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 출력 파일 저장소]</td>
       <td>
@@ -242,7 +242,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Photoshop], 참조 <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Photoshop]</a> 이 문서에서.</td>
+      <td>[!DNL Adobe Photoshop]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >[!DNL Adobe Photoshop]</a>에 대한 연결 만들기 를 참조하십시오.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 입력 파일 저장소]</td>
@@ -277,7 +277,7 @@ ht-degree: 0%
     <tr>
       <td role="rowheader">[!UICONTROL 기타 필드]</td>
       <td>
-        <p>다른 깊이 흐림 효과 옵션에 대한 자세한 내용은 <a href="https://developer.adobe.com/photoshop/photoshop-api-docs/api/#tag/Photoshop/operation/depthBlur">깊이 흐림 효과 실행 </a>Adobe Photoshop API 설명서에서 확인할 수 있습니다.</p>
+        <p>다른 깊이 흐림 효과 옵션에 대한 자세한 내용은 Adobe Photoshop API 설명서의 <a href="https://developer.adobe.com/photoshop/photoshop-api-docs/api/#tag/Photoshop/operation/depthBlur">깊이 흐림 효과 실행 </a>을(를) 참조하십시오.</p>
       </td>
     </tr>
     <tr>
@@ -305,7 +305,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Photoshop], 참조 <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Photoshop]</a> 이 문서에서.</td>
+      <td>[!DNL Adobe Photoshop]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >[!DNL Adobe Photoshop]</a>에 대한 연결 만들기 를 참조하십시오.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 입력 파일 저장소]</td>
@@ -392,7 +392,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Photoshop], 참조 <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Photoshop]</a> 이 문서에서.</td>
+      <td>[!DNL Adobe Photoshop]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >[!DNL Adobe Photoshop]</a>에 대한 연결 만들기 를 참조하십시오.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 입력 파일 저장소]</td>
@@ -467,7 +467,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Photoshop], 참조 <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Photoshop]</a> 이 문서에서.</td>
+      <td>[!DNL Adobe Photoshop]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >[!DNL Adobe Photoshop]</a>에 대한 연결 만들기 를 참조하십시오.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 입력 파일 저장소]</td>
@@ -500,19 +500,19 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Photoshop], 참조 <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Photoshop]</a> 이 문서에서.</td>
+      <td>[!DNL Adobe Photoshop]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >[!DNL Adobe Photoshop]</a>에 대한 연결 만들기 를 참조하십시오.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL URL]</td>
       <td>
-        <p>상대 경로 입력 <code>https://image.adobe.io/pie/psdService</code>. 예: <code>/photoshopActions</code></p>
+        <p><code>https://image.adobe.io/pie/psdService</code>과(와) 관련된 경로를 입력하십시오. 예: <code>/photoshopActions</code></p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL 메서드]</p>
       </td>
-   <td> <p>API 호출을 구성하는 데 필요한 HTTP 요청 메서드를 선택합니다. 자세한 내용은 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">의 HTTP 요청 메서드 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>API 호출을 구성하는 데 필요한 HTTP 요청 메서드를 선택합니다. 자세한 내용은 [!DNL Adobe Workfront Fusion]</a>에서 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP 요청 메서드를 참조하십시오.</p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Headers]</td>
@@ -530,7 +530,7 @@ ht-degree: 0%
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Body]</td>
-   <td> <p>표준 JSON 개체의 형태로 API 호출에 대한 본문 콘텐츠를 추가합니다.</p> <p>참고:  <p>다음과 같은 조건문을 사용할 때 <code>if</code> json에서 따옴표를 조건문 외부에 넣습니다.</p> 
+   <td> <p>표준 JSON 개체의 형태로 API 호출에 대한 본문 콘텐츠를 추가합니다.</p> <p>참고:  <p>JSON에서 <code>if</code>과(와) 같은 조건문을 사용할 때 따옴표를 조건문 외부에 넣으십시오.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>

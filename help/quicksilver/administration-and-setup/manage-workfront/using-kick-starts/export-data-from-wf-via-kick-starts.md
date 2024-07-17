@@ -11,8 +11,8 @@ role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
 source-git-commit: 8e076e9c89ad208aa94ddefead4b8c6105992542
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1013'
+ht-degree: 7%
 
 ---
 
@@ -57,7 +57,7 @@ Adobe Workfront 관리자는 킥스타트 데이터 내보내기를 사용하여
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -67,7 +67,7 @@ Workfront 내에서 데이터를 내보내는 방법에는 두 가지가 있습�
 
 * 보고서 또는 목록에서 데이터 내보내기
 
-  보고서나 목록에서 데이터를 내보내는 방법에 대한 자세한 내용은 [데이터 내보내기](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+  보고서나 목록에서 데이터를 내보내는 방법에 대한 자세한 내용은 [데이터 내보내기](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md)를 참조하십시오.
 
 * 킥스타트를 통해 데이터 내보내기
 
@@ -86,7 +86,7 @@ Workfront 내에서 데이터를 내보내는 방법에는 두 가지가 있습�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p><strong>목록 보기에서 데이터 내보내기</strong> </p> <p>목록에서 데이터를 내보내는 방법에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">데이터 내보내기</a></p> </td> 
+   <td> <p><strong>목록 보기에서 데이터 내보내기</strong> </p> <p>목록에서 데이터를 내보내는 방법에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">데이터 내보내기</a>를 참조하십시오</p> </td> 
    <td> <p>예</p> <p>Workfront 기본 필드와 오브젝트와 연결된 사용자 정의 필드를 모두 내보냅니다.</p> </td> 
    <td> <p>아니요</p> </td> 
   </tr> 
@@ -102,16 +102,16 @@ Workfront 내에서 데이터를 내보내는 방법에는 두 가지가 있습�
 
 킥스타트를 통해 데이터를 내보낼 경우(데이터를 Excel 파일 형식으로 내보낼 경우) 다음과 같은 제한 사항이 있습니다.
 
-* **50,000행:** 파일에서 허용되는 행 수입니다.
-* **65,530개의 하이퍼링크:** Excel에서 65,530개 이상의 하이퍼링크가 포함된 문서에 적용하는 제한입니다. 이러한 문서는 내보낸 후에는 열 수 없습니다. Excel 문서에는 200개의 데이터 행만 있을 수 있지만 문서 내에 65,530개가 넘는 링크가 있으면 문서가 열리지 않습니다.
+* **50,000개 행:** 파일에 허용되는 행 수입니다.
+* **65,530개의 하이퍼링크:** Excel에서 65,530개가 넘는 하이퍼링크가 포함된 문서에 적용한 제한입니다. 이러한 문서는 내보낸 후에는 열 수 없습니다. Excel 문서에는 200개의 데이터 행만 있을 수 있지만 문서 내에 65,530개가 넘는 링크가 있으면 문서가 열리지 않습니다.
 
 ## 킥스타트를 통해 데이터 내보내기
 
 {{step-1-to-setup}}
 
-1. 클릭 **시스템** > **킥스타트,** 그런 다음 을 클릭합니다. **데이터를 내보냅니다.**
+1. **시스템** > **킥스타트,**&#x200B;를 클릭한 다음 **데이터 내보내기**&#x200B;를 클릭합니다.
 
-1. 내보낼 객체를 선택합니다. 기본적으로 다음 개체는에 표시됩니다. **포함할 항목**:
+1. 내보낼 객체를 선택합니다. 기본적으로 **포함할 항목** 아래에 다음 개체가 표시됩니다.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -119,7 +119,7 @@ Workfront 내에서 데이터를 내보내는 방법에는 두 가지가 있습�
     <col> 
     <thead> 
      <tr> 
-      <th> <p><strong>오브젝트</strong> </p> </th> 
+      <th> <p><strong>개체</strong> </p> </th> 
       <th> <p><strong>내보낸 Excel 파일 시트</strong> </p> </th> 
       <th> <p> <strong>내보내기 형식</strong></p> </th> 
      </tr> 
@@ -127,22 +127,22 @@ Workfront 내에서 데이터를 내보내는 방법에는 두 가지가 있습�
     <tbody> 
      <tr> 
       <td scope="col" valign="top"> <p>대시보드</p> <p> </p> <p> </p> </td> 
-      <td scope="col" valign="top"> <p>매개 변수<br>매개변수 옵션<br>매개변수 그룹<br>범주 매개변수<br>범주<br>보고서<br>포털 탭 섹션<br>대시보드<br>환경 설정</p> </td> 
+      <td scope="col" valign="top"> <p>매개 변수<br>매개 변수 옵션<br>매개 변수 그룹<br>범주 매개 변수<br>범주<br>보고서<br>포털 탭 섹션<br>대시보드<br>환경 설정</p> </td> 
       <td scope="col" valign="top"> ZIP</td> 
      </tr> 
      <tr> 
       <td scope="col" valign="top"> <p>보고서</p> <p> </p> <p> </p> </td> 
-      <td scope="col" valign="top">매개 변수<br>매개변수 옵션<br>매개변수 그룹<br>범주 매개변수<br>범주<br>보고서<br>환경 설정</td> 
+      <td scope="col" valign="top">매개 변수<br>매개 변수 옵션<br>매개 변수 그룹<br>범주 매개 변수<br>범주<br>보고서<br>환경 설정</td> 
       <td scope="col" valign="top"> ZIP </td> 
      </tr> 
      <tr> 
       <td scope="col" valign="top"> <p>승인</p> </td> 
-      <td scope="col" valign="top"> <p>단계 승인자<br>승인 단계<br>승인<br>승인 진행<br>환경 설정</p> </td> 
+      <td scope="col" valign="top"> <p>단계 승인자<br>승인 단계<br>승인<br>승인 프로세스<br>환경 설정</p> </td> 
       <td scope="col" valign="top"> <p> Excel</p> </td> 
      </tr> 
      <tr> 
       <td scope="col" valign="top"> <p>사용자 정의 데이터</p> </td> 
-      <td scope="col" valign="top"> <p>매개 변수<br>매개변수 옵션<br>매개변수 그룹<br>범주 매개변수<br>범주<br>환경 설정</p> </td> 
+      <td scope="col" valign="top"> <p>매개 변수<br>매개 변수 옵션<br>매개 변수 그룹<br>범주 매개 변수<br>범주<br>환경 설정</p> </td> 
       <td scope="col" valign="top"> <p> Excel</p> </td> 
      </tr> 
      <tr> 
@@ -168,13 +168,13 @@ Workfront 내에서 데이터를 내보내는 방법에는 두 가지가 있습�
     </tbody> 
    </table>
 
-1. 클릭 **추가 옵션** 전체 개체 목록을 봅니다.
+1. 개체의 전체 목록을 보려면 **추가 옵션**&#x200B;을 클릭하세요.
 
    여기에 나열된 모든 개체를 사용하여 데이터를 Workfront으로 가져올 수도 있습니다.
 
-   유일한 예외는 **액세스 수준** 개체. 내보내기에 포함된 액세스 수준 데이터 시트는 참조용으로만 제공됩니다. 새 사용자 계정에 ID별로 액세스 수준을 할당할 수 있습니다.
+   유일한 예외는 **액세스 수준** 개체입니다. 내보내기에 포함된 액세스 수준 데이터 시트는 참조용으로만 제공됩니다. 새 사용자 계정에 ID별로 액세스 수준을 할당할 수 있습니다.
 
-   킥스타트를 통해 Workfront으로 데이터를 가져오는 방법에 대한 자세한 내용은 [킥스타트 템플릿을 사용하여 Adobe Workfront으로 데이터 가져오기](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md). 다음은 킥스타트를 통해 내보낼 수 있는 모든 객체의 목록입니다.
+   킥스타트를 통해 Workfront으로 데이터를 가져오는 방법에 대한 자세한 내용은 [킥스타트 템플릿을 사용하여 Adobe Workfront으로 데이터 가져오기](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)를 참조하십시오. 다음은 킥스타트를 통해 내보낼 수 있는 모든 객체의 목록입니다.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -235,7 +235,7 @@ Workfront 내에서 데이터를 내보내는 방법에는 두 가지가 있습�
      </tr> 
      <tr> 
       <td valign="top">시간</td> 
-      <td valign="top"> 시간<br>환경 설정 </td> 
+      <td valign="top"> Hour<br>환경 설정 </td> 
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
@@ -255,7 +255,7 @@ Workfront 내에서 데이터를 내보내는 방법에는 두 가지가 있습�
      </tr> 
      <tr> 
       <td valign="top">참고</td> 
-      <td valign="top"> 참고<br>환경 설정 </td> 
+      <td valign="top"> 메모<br>환경 설정 </td> 
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
@@ -265,12 +265,12 @@ Workfront 내에서 데이터를 내보내는 방법에는 두 가지가 있습�
      </tr> 
      <tr> 
       <td valign="top">프로젝트</td> 
-      <td valign="top"> 큐<br>프로젝트<br>라우팅 규칙<br>대기열 주제<br>환경 설정 </td> 
+      <td valign="top"> 대기열<br>프로젝트<br>라우팅 규칙<br>대기열 주제<br>환경 설정 </td> 
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
       <td valign="top">리소스 견적</td> 
-      <td valign="top"> 리소스 견적<br>환경 설정 </td> 
+      <td valign="top"> 리소스 예상<br>환경 설정 </td> 
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
@@ -300,7 +300,7 @@ Workfront 내에서 데이터를 내보내는 방법에는 두 가지가 있습�
      </tr> 
      <tr> 
       <td valign="top">템플릿</td> 
-      <td valign="top"> 큐<br>템플릿<br>라우팅 규칙<br>대기열 주제<br>환경 설정 </td> 
+      <td valign="top"> 대기열<br>템플릿<br>라우팅 규칙<br>대기열 주제<br>환경 설정 </td> 
       <td valign="top">Excel  </td> 
      </tr> 
      <tr> 
@@ -320,19 +320,19 @@ Workfront 내에서 데이터를 내보내는 방법에는 두 가지가 있습�
      </tr> 
      <tr> 
       <td valign="top"> 보기 </td> 
-      <td valign="top"> 보기<br>환경 설정  </td> 
+      <td valign="top"> <br>환경 설정 보기  </td> 
       <td valign="top">ZIP</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 클릭 **다운로드.**
+1. **다운로드**&#x200B;를 클릭합니다.
 
-   내보낸 킥스타트 파일은 Excel 파일 또는 로 컴퓨터에 다운로드됩니다. 여러 Excel 및 속성 파일이 포함된 zip 파일입니다. 각 Excel 파일은 시트의 컬렉션이며, 각 시트는 선택한 개체와 연결된 필드를 나타냅니다. 다음 항목이 있습니다. **속성** 모든 내보내기와 연결된 시트.
+   내보낸 킥스타트 파일은 Excel 파일 또는 로 컴퓨터에 다운로드됩니다. 여러 Excel 및 속성 파일이 포함된 zip 파일입니다. 각 Excel 파일은 시트의 컬렉션이며, 각 시트는 선택한 개체와 연결된 필드를 나타냅니다. 모든 내보내기와 연결된 **속성** 시트가 있습니다.
 
-   다음 **대시보드** 및 **보고서** 옵션을 사용하면 다운로드에 포함할 특정 대시보드 및 보고서를 선택할 수 있습니다. 시스템 전체에서 공유되는 대시보드만 내보낼 수 있습니다.
+   **대시보드** 및 **보고서** 옵션을 사용하면 다운로드에 포함할 특정 대시보드 및 보고서를 선택할 수 있습니다. 시스템 전체에서 공유되는 대시보드만 내보낼 수 있습니다.
 
-   매트릭스 보고서는 내보낼 수 없습니다. 매트릭스 보고서에 대한 자세한 내용은 [매트릭스 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
+   매트릭스 보고서는 내보낼 수 없습니다. 매트릭스 보고서에 대한 자세한 내용은 [매트릭스 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)를 참조하십시오.
 
    킥스타트는 텍스트 모드 필터를 지원하지 않습니다. 내보내기에 성공하려면 보고 필터를 표준 모드로 전환해야 합니다.
 

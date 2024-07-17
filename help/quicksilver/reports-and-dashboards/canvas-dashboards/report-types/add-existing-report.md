@@ -5,7 +5,8 @@ title: 캔버스 대시보드에 기존 보고서 추가
 description: Adobe Workfront 보고서 도구를 통해 만든 보고서를 캔버스 대시보드에 추가할 수 있습니다.
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+exl-id: f77990ab-da7a-4dcb-89fa-f65ed2b79522
+source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
@@ -14,9 +15,9 @@ ht-degree: 0%
 
 # 캔버스 대시보드에 기존 보고서 추가
 
-Adobe Workfront 보고서 도구를 통해 만든 보고서를 캔버스 대시보드에 추가할 수 있습니다. 보고서 만들기에 대한 자세한 내용은 [보고서 시작](/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
+Adobe Workfront 보고서 도구를 통해 만든 보고서를 캔버스 대시보드에 추가할 수 있습니다. 보고서 만들기에 대한 자세한 내용은 [보고서 시작](/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)을 참조하세요.
 
-캔버스 대시보드에서 보고서를 추가하고 정렬하는 방법에 대한 일반 정보는 를 참조하십시오. [캔버스 대시보드에서 보고서 추가, 제거 또는 정렬](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md).
+캔버스 대시보드에서 보고서를 추가 및 정렬하는 방법에 대한 일반 정보는 [캔버스 대시보드에서 보고서 추가, 제거 또는 정렬](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)을 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -43,10 +44,10 @@ Adobe Workfront 보고서 도구를 통해 만든 보고서를 캔버스 대시�
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## 캔버스 대시보드에 기존 보고서 추가
 
 >[!IMPORTANT]
 >
->이 기사는 아직 완성되지 않았다. 문서의 캔버스 대시보드에 보고서 추가에 대한 일반 지침을 참조하십시오 [캔버스 대시보드에서 보고서 추가, 제거 또는 정렬](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md).
+>이 기사는 아직 완성되지 않았다. [캔버스 대시보드에서 보고서 추가, 제거 또는 정렬](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md) 문서의 캔버스 대시보드에 보고서 추가에 대한 일반 지침을 참조하십시오.

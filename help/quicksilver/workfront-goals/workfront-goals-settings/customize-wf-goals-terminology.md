@@ -19,7 +19,7 @@ ht-degree: 1%
 
 * 현재 플랜 및 라이선스 구조의 경우:
 
-   * Pro 이상 [Adobe Workfront 플랜](https://www.workfront.com/plans).
+   * Pro 이상의 [Adobe Workfront 플랜](https://www.workfront.com/plans).
    * Workfront 라이선스 외에 Adobe Workfront Goals 라이선스.
 
 * 새 플랜 및 라이선스 구조의 경우:
@@ -32,9 +32,9 @@ ht-degree: 1%
 
 Workfront Goals 라이선스에 대한 자세한 내용은 Workfront 계정 관리자에게 문의하십시오.
 
-Workfront 목표 액세스에 대한 자세한 내용은 을 참조하십시오. [Workfront 목표 사용 요구 사항](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+Workfront 목표에 액세스하는 방법에 대한 자세한 내용은 [Workfront 목표 사용 요구 사항](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)을 참조하십시오.
 
-자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 Workfront 또는 그룹 관리자는 조직의 용어와 더 잘 일치하도록 Workfront 목표의 개체 이름을 사용자 정의할 수 있습니다.
 
@@ -48,4 +48,4 @@ Workfront 또는 그룹 관리자는 조직의 용어와 더 잘 일치하도록
 
 Workfront 목표 용어 맞춤화는 Workfront의 용어 맞춤화와 동일합니다.
 
-Workfront에서 용어 맞춤화에 대한 자세한 내용은 [레이아웃 템플릿을 사용하여 사용자 인터페이스 용어 맞춤화](../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).
+Workfront에서 용어 사용자 지정에 대한 자세한 내용은 [레이아웃 템플릿을 사용하여 사용자 인터페이스 용어 사용자 지정](../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)을 참조하십시오.

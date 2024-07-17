@@ -29,4 +29,4 @@ ht-degree: 0%
 * 빌드 또는 실패한 파이프라인 작업 다시 시도
 * GitLab 개체 편집, 수정 또는 업데이트
 
-사용 가능한 작업의 전체 목록을 포함한 자세한 내용은 [GitLab 모듈](/help/quicksilver/workfront-fusion/apps-and-their-modules/gitlab-modules.md).
+사용 가능한 작업의 전체 목록을 포함한 자세한 내용은 [GitLab 모듈](/help/quicksilver/workfront-fusion/apps-and-their-modules/gitlab-modules.md)을 참조하세요.

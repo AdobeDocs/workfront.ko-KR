@@ -11,7 +11,7 @@ exl-id: 924f3c9b-394d-4637-b981-9062c1fdd5aa
 source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '60'
-ht-degree: 3%
+ht-degree: 0%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 3%
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [설치 [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md)
-* [Configure [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md)
-* [다음 사이에 항목 연결 [!DNL Adobe Workfront] 및 [!DNL Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md)
-* [다음 기간 동안 연결된 항목 업데이트: [!DNL Jira] 및 [!DNL Adobe Workfront]](../../workfront-integrations-and-apps/use-workfront-with-jira/update-linked-items-between-jira-wf.md)
-* [[!UICONTROL 보기 [!DNL Jira] 활동 로그]](../../workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md)
+* [ [!DNL Adobe Workfront for Jira] 설치](../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md)
+* [ [!DNL Adobe Workfront for Jira] 구성](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md)
+* [ [!DNL Adobe Workfront] 과(와) [!DNL Jira] 사이의 항목 연결](../../workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md)
+* [ [!DNL Jira] 에서 [!DNL Adobe Workfront] 사이의 연결된 항목 업데이트](../../workfront-integrations-and-apps/use-workfront-with-jira/update-linked-items-between-jira-wf.md)
+* [[!UICONTROL [!DNL Jira] 활동 로그] 보기](../../workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md)

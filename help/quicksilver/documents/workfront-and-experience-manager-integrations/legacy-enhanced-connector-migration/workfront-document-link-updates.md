@@ -31,8 +31,8 @@ API를 사용하여 연결된 폴더 및 문서를 Adobe Experience Manager Asse
 
 1. 새 외부 ID를 통해 새 위치의 리소스를 가리키는 Workfront에서 새 문서 또는 문서 폴더 링크를 만듭니다.
 
-   1. **문서**: 새 외부 문서 공급자로 기존 문서의 새 버전을 추가합니다.
-   1. **폴더**: 동일한 위치에 동일한 이름으로 새 폴더를 만듭니다.
+   1. **문서**: 새 외부 문서 공급자를 사용하여 기존 문서의 새 버전을 추가합니다.
+   1. **폴더**: 같은 위치에 같은 이름으로 새 폴더를 만듭니다.
 
 >[!CAUTION]
 >
@@ -45,11 +45,11 @@ API를 사용하여 연결된 폴더 및 문서를 Adobe Experience Manager Asse
 
 ## API 정보
 
-이 섹션의 Workfront API에 대한 자세한 내용은 다음을 참조하십시오. [개발자 설명서:문서](https://developer.workfront.com/documents.html).
+이 섹션에서 Workfront API에 대한 자세한 내용은 [개발자 설명서:문서](https://developer.workfront.com/documents.html)를 참조하십시오.
 
 ### 모든 문서 찾기
 
-모두 찾기 **문서(DOCU)** 연결 대상 **문서 공급자** / **providerType** 포함 **문서 공급자 ID**.
+**documentProviderID**&#x200B;을(를) 사용하여 **providerType**&#x200B;의 **문서 공급자**&#x200B;에 연결된 모든 **문서(DOCU)**&#x200B;를 찾으십시오.
 
 ```
 Http Method: GET
@@ -61,7 +61,7 @@ Http Endpoint: {host}/attask/api/v14.0/document/search?fields=currentVersion:*&c
 
 ### 모든 폴더 찾기
 
-모두 찾기 **문서 폴더(DOCFDR)** 의 문서 공급자에 연결됨 **providerType** 포함 **문서 공급자 ID**.
+**documentProviderID**&#x200B;을(를) 통해 **providerType**&#x200B;의 문서 공급자에 연결된 모든 **DOCFDR(문서 폴더)**&#x200B;을(를) 찾으십시오.
 
 ```
 Http Method: GET
@@ -73,7 +73,7 @@ API 문서: (현재 developer.workfront.com에서 다루지 않는 문서 폴더
 
 ### 문서 연결
 
-링크 **문서(DOCU)** 출처: **외부 문서 공급자** / **providerType** 포함 **문서 공급자 ID**.
+**documentProviderID**&#x200B;을(를) 사용하여 **providerType**&#x200B;의 **외부 문서 공급자**&#x200B;에서 **문서(DOCU)**&#x200B;를 연결합니다.
 
 >[!IMPORTANT]
 >
@@ -92,7 +92,7 @@ API 문서: (현재 developer.workfront.com에서 다루지 않는 내부 링크
 
 ### 링크 폴더
 
-링크 **문서 폴더(DOCFDR)** 출처: **외부 문서 공급자** / **providerType** 포함 **문서 공급자 ID**.
+**documentProviderID**&#x200B;을(를) 사용하여 **providerType**&#x200B;의 **외부 문서 공급자**&#x200B;에서 **문서 폴더(DOCFDR)**&#x200B;에 연결합니다.
 
 >[!IMPORTANT]
 >
@@ -116,11 +116,11 @@ API 문서: (현재 developer.workfront.com에서 다루지 않는 내부 링크
 
 ## 중요 용어
 
-* **문서**: Workfront 내의 디지털 자산
+* **문서**: Workfront 내의 디지털 에셋
 
-* **문서 폴더**: Workfront 내의 디지털 에셋용 컨테이너
+* **문서 폴더**: Workfront 내의 디지털 에셋에 대한 컨테이너입니다.
 
-* **문서 ID**: 디지털 자산용 Workfront 내부 ID
+* **문서 ID**: 디지털 에셋의 Workfront 내부 ID
 
 * **문서 폴더 ID**: 디지털 자산 폴더의 Workfront 내부 ID
 
@@ -130,9 +130,9 @@ API 문서: (현재 developer.workfront.com에서 다루지 않는 내부 링크
 >
 > 주어진 문서 공급자 유형의 경우 고객에게 연결된 인스턴스가 여러 개 있을 수 있습니다. 예를 들어 여러 AEM 저장소가 연결되어 있을 수 있습니다. 또는 여러 Google 드라이브 인스턴스가 연결되어 있습니다. 문서 공급자 ID는 대체하거나 전환할 연결 유형의 특정 인스턴스를 나타냅니다.
 
-* **문서 스토리지 공급자 유형(&quot;외부 통합 유형&quot;)**: Workfront이 지원하는 문서 스토리지 공급자 통합 유형입니다. 전용 통합 또는 &quot;사용자 정의 통합&quot;을 통해.
+* **문서 저장소 공급자 유형(또한 &quot;외부 통합 유형&quot;)**: Workfront에서 지원하는 문서 저장소 공급자 통합 유형입니다. 전용 통합 또는 &quot;사용자 정의 통합&quot;을 통해.
 
-* **현재 문서 저장소 공급자 유형( providerType)**:
+* **현재 문서 저장소 공급자 형식( providerType)**:
 
   ```
   ATTASK
@@ -152,17 +152,17 @@ API 문서: (현재 developer.workfront.com에서 다루지 않는 내부 링크
   MOCK
   ```
 
-* **연결된 문서**: 외부 문서 스토리지 공급자에서 호스팅되는 디지털 에셋입니다. Workfront에는 자산에 대한 자체 내부 &quot;문서 ID&quot;가 있지만 바이트는 외부에 저장됩니다. 이를 용이하게 하기 위해 Workfront은 &quot;외부 문서 ID&quot;를 저장하여 외부에서 참조한 리소스를 원격 리포지토리 또는 저장소 내에서 찾을 수 있도록 합니다.
+* **연결된 문서**: 외부 문서 저장소 공급자에서 호스팅되는 디지털 자산입니다. Workfront에는 자산에 대한 자체 내부 &quot;문서 ID&quot;가 있지만 바이트는 외부에 저장됩니다. 이를 용이하게 하기 위해 Workfront은 &quot;외부 문서 ID&quot;를 저장하여 외부에서 참조한 리소스를 원격 리포지토리 또는 저장소 내에서 찾을 수 있도록 합니다.
 
-* **연결된 문서 폴더**: 외부 문서 스토리지 공급자에서 호스팅되는 디지털 에셋의 컨테이너입니다. Workfront에는 자산에 대한 자체 내부 &quot;문서 폴더 ID&quot;가 있지만 바이트는 외부에 저장됩니다. 이를 용이하게 하기 위해 Workfront은 &quot;외부 문서 ID&quot;를 저장하여 외부에서 참조한 리소스를 원격 리포지토리 또는 저장소 내에서 찾을 수 있도록 합니다.
+* **연결된 문서 폴더**: 외부 문서 저장소 공급자에서 호스팅되는 디지털 에셋의 컨테이너입니다. Workfront에는 자산에 대한 자체 내부 &quot;문서 폴더 ID&quot;가 있지만 바이트는 외부에 저장됩니다. 이를 용이하게 하기 위해 Workfront은 &quot;외부 문서 ID&quot;를 저장하여 외부에서 참조한 리소스를 원격 리포지토리 또는 저장소 내에서 찾을 수 있도록 합니다.
 
-* **외부 문서 ID**: 자산이 Workfront 외부에 저장될 때 할당된 ID입니다. Workfront은 이 &quot;외부 문서 식별자&quot; 필드를 통해 내부 식별자를 외부 시스템에서 에셋을 찾는 데 사용되는 식별자에 매핑합니다. 따라서 새 외부 저장소에서 문서나 폴더를 연결할 때는 외부 문서 공급자가 새 저장소나 저장소에서 문서를 식별할 수 있는 적절한 형식으로 새 외부 문서 식별자를 작성해야 합니다.
+* **외부 문서 ID**: 자산이 Workfront 외부에 저장되어 있을 때 할당된 ID입니다. Workfront은 이 &quot;외부 문서 식별자&quot; 필드를 통해 내부 식별자를 외부 시스템에서 에셋을 찾는 데 사용되는 식별자에 매핑합니다. 따라서 새 외부 저장소에서 문서나 폴더를 연결할 때는 외부 문서 공급자가 새 저장소나 저장소에서 문서를 식별할 수 있는 적절한 형식으로 새 외부 문서 식별자를 작성해야 합니다.
 
   >[!NOTE]
   >
   > Workfront에는 아직 외부 문서 식별자에 대한 표준이 없습니다. AEM ID에 새 사양이 사용되고 있지만, 다른 ID의 경우 외부 문서 ID는 공급자 유형에 따라 다른 양식을 사용할 수 있습니다.
 
 
-* **오브젝트 유형**: 이 설명서의 경우 API 전용 용어입니다. 상호 작용하려는 Workfront 내의 일반 오브젝트 유형입니다. 이 경우 &quot;DOCU&quot; 및 &quot;DOCFDR&quot; 유형이 각각 포함된 문서 및 폴더와 상호 작용하게 됩니다.
+* **개체 유형**: 이 문서의 목적에 맞는 API 전용 용어입니다. 상호 작용하려는 Workfront 내의 일반 오브젝트 유형입니다. 이 경우 &quot;DOCU&quot; 및 &quot;DOCFDR&quot; 유형이 각각 포함된 문서 및 폴더와 상호 작용하게 됩니다.
 
 * **개체 ID**: 상호 작용하려는 일반 개체의 내부 Workfront 식별자입니다. 문서 및 폴더와 상호 작용하므로 각각 문서 ID 또는 문서 폴더 ID가 됩니다.

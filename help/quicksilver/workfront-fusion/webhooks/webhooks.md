@@ -18,10 +18,10 @@ ht-degree: 0%
 
 ---
 
-# 의 웹후크 [!DNL Adobe Workfront Fusion]
+# [!DNL Adobe Workfront Fusion]의 웹후크
 
-[!DNL Adobe Workfront Fusion] 을(를) 필요로 합니다. [!DNL Adobe Workfront Fusion] Adobe Workfront 라이선스 이외의 라이선스.
+[!DNL Adobe Workfront Fusion]에는 Adobe Workfront 라이선스 외에 [!DNL Adobe Workfront Fusion] 라이선스가 필요합니다.
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [의 인스턴트 트리거(웹후크) [!DNL Adobe Workfront Fusion]](../../workfront-fusion/webhooks/instant-triggers-webhooks.md)
+* [ [!DNL Adobe Workfront Fusion]의 인스턴트 트리거(웹후크)](../../workfront-fusion/webhooks/instant-triggers-webhooks.md)

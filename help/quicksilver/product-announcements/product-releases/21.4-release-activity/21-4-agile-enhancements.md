@@ -16,7 +16,7 @@ ht-degree: 0%
 
 이 페이지에서는 미리보기 환경에 대한 21.4 릴리스의 모든 애자일 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2021년 10월 4일이 있는 주에 프로덕션 환경에서 사용할 수 있습니다.
 
-21.4 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [21.4 릴리스 개요](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+21.4 릴리스에서 사용할 수 있는 모든 변경 사항 목록을 보려면 [21.4 릴리스 개요](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md)를 참조하십시오.
 
 ## Kanban 및 Scrum 보드에 대한 사용자 할당
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 자세한 내용은
 
-* [칸반 보드의 스토리에 사용자 할당](../../../agile/use-kanban-in-an-agile-team/assign-users-to-a-story.md)
+* [칸반 보드에 있는 스토리에 사용자 할당](../../../agile/use-kanban-in-an-agile-team/assign-users-to-a-story.md)
 * [스크럼 보드에서 스토리에 사용자 할당](../../../agile/use-scrum-in-an-agile-team/scrum-board/assign-users-to-a-story-scrum.md)
 
 ## 작업 항목을 스크럼 반복에 추가할 때 날짜가 적용되는 방식 구성
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 이 옵션은 Kanban 팀이 아닌 Scrum 팀에만 적용됩니다.
 
-자세한 내용은 [스크럼 구성](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+자세한 내용은 [스크럼 구성](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)을 참조하십시오.
 
 ## 프로젝트에서 애자일 보기 변경 사항
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 >
 >이 기능은 2021년 9월 16일에 미리보기 환경에 릴리스되었습니다.
 
-21.3 릴리스의 일부로 애자일 카드 헤더 및 스토리 보드에 대한 개선이 이루어졌습니다(참조) [애자일 카드 헤더 및 스토리 보드 업데이트](../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile)). 이러한 업데이트는 반복뿐만 아니라 프로젝트의 애자일 보기에 적용됩니다.
+21.3 릴리스의 일부로 애자일 카드 헤더 및 스토리 보드에 대한 개선이 이루어졌습니다([애자일 카드 헤더 및 스토리 보드 업데이트](../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile) 참조). 이러한 업데이트는 반복뿐만 아니라 프로젝트의 애자일 보기에 적용됩니다.
 
 21.4 릴리스에서는 프로젝트의 애자일 보기에 대한 이러한 개선 사항을 되돌립니다. 애자일 반복에 대한 변경 사항이 없습니다.
 
@@ -56,5 +56,5 @@ ht-degree: 0%
 
 이제 Kanban 보드에서 직접 새 스토리 또는 문제를 만들 수 있습니다. 이렇게 하면 작업을 만들기 위해 프로젝트, 보고서 또는 대시보드로 이동할 필요 없이 새 스토리를 더 쉽게 추가할 수 있습니다.
 
-자세한 내용은 [Kanban 보드에서 스토리 및 문제 추가](../../../agile/use-kanban-in-an-agile-team/add-story-from-kanban-board.md).
+자세한 내용은 [Kanban 보드에서 스토리 및 문제 추가](../../../agile/use-kanban-in-an-agile-team/add-story-from-kanban-board.md)를 참조하십시오.
 

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 이 페이지에서는 2019.2 릴리스에 포함된 모든 통합 및 모바일 개선 사항에 대해 설명합니다. 이 기능은 2019년 5월 20일이 있는 주에 프로덕션 환경에서 사용할 수 있습니다.
 
-2019.2의 모든 변경 사항 목록은 을 참조하십시오. [2019.2 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
+2019.2의 모든 변경 사항 목록은 [2019.2 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md)를 참조하십시오.
 
 ## Workfront for Microsoft Teams 개선 사항
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
   이 개선 이전에는 Microsoft Teams에서 Workfront 알림을 비활성화할 수 없었습니다.
 
-  자세한 내용은 [Microsoft Teams에서 Workfront 알림 및 승인 요청 관리](../../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md).
+  자세한 내용은 [Microsoft Teams에서 Workfront 알림 및 승인 요청 관리](../../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md)를 참조하십시오.
 
 ## Adobe Creative Cloud 통합을 위한 Workfront 업데이트됨
 

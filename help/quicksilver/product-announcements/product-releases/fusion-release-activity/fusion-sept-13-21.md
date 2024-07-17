@@ -18,9 +18,9 @@ ht-degree: 0%
 
 이 페이지에서는 2021년 9월 23일이 있는 주에 Adobe Workfront Fusion에서 향상된 기능을 모두 설명합니다.
 
-최근 변경 사항의 목록은 다음을 참조하십시오. [Adobe Workfront Fusion 릴리스 활동](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+최근 모든 변경 사항의 목록은 [Adobe Workfront Fusion 릴리스 활동](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)을 참조하십시오.
 
-Workfront Fusion의 최근 버그 수정 목록은 다음을 참조하십시오. [Workfront 유지 보수 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) Workfront Fusion Maintenance Update로 레이블이 지정된 업데이트를 찾아 확인합니다.
+Workfront Fusion의 최근 버그 수정 목록을 보려면 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 페이지를 참조하고 Workfront Fusion 유지 관리 업데이트 레이블이 지정된 업데이트를 확인하십시오.
 
 ## Workfront Fusion 시나리오 실행 내역 필터링 및 정렬
 
@@ -41,7 +41,7 @@ Workfront Fusion의 최근 버그 수정 목록은 다음을 참조하십시오.
 * 작업 수
 * 전송된 데이터 양
 
-실행 내역 필터링 및 정렬에 대한 자세한 내용은 [Adobe Workfront Fusion에서 시나리오의 실행 내역 보기](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
+실행 내역 필터링 및 정렬에 대한 자세한 내용은 [Adobe Workfront Fusion에서 시나리오 실행 내역 보기](../../../workfront-fusion/scenarios/view-scenario-execution-history.md)를 참조하십시오.
 
 ## 이제 Fusion의 도움말 링크가 특정 문서로 연결됩니다.
 
@@ -57,7 +57,7 @@ Fusion의 모든 영역에서 도움말 아이콘을 클릭하여 해당 영역�
 
 이전에는 모든 실행에 세부 정보 버튼이 있었으며, 경우에 따라 사용자가 세부 정보를 클릭하여 사용 가능한 세부 정보가 없다는 점만 확인할 수 있었습니다.
 
-자세한 내용은 [Adobe Workfront Fusion에서 시나리오의 실행 내역 보기](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
+자세한 내용은 [Adobe Workfront Fusion에서 시나리오 실행 내역 보기](../../../workfront-fusion/scenarios/view-scenario-execution-history.md)를 참조하십시오.
 
 ## SDL Managed Translation 커넥터 시간 제한이 120초로 늘어남
 

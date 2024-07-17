@@ -21,5 +21,5 @@ ht-degree: 0%
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [설정 영역에서 팀 만들기](../../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md)
+* [설정 영역에서 팀을 만듭니다](../../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md)
 * [설정 영역에서 팀 설정 편집](../../../administration-and-setup/add-users/create-and-manage-teams/edit-team-settings-from-setup.md)

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 이 페이지에서는 2019.3 릴리스에 포함된 프로젝트 개선 사항의 모든 변경 사항에 대해 설명합니다. 2019년 8월 19일이 있는 주에 프로덕션 환경에서 사용할 수 있게 되었습니다.
 
-2019.3의 모든 변경 사항 목록은 을 참조하십시오. [2019.3 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
+2019.3의 모든 변경 사항 목록은 [2019.3 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md)를 참조하십시오.
 
 ## 사용자 정의 양식에서 필드의 표시 유형 변경
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 이전에는 사용자 정의 필드의 표시 유형을 변경하려면 새 필드를 만들고 이전 필드를 삭제해야 했습니다. 이를 위해서는 데이터 전송이 필요했는데, 이는 종종 시간이 오래 걸립니다.
 
-자세한 내용은 [사용자 정의 양식 만들기 또는 편집](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) 이 문서에서 [사용자 정의 양식 만들기 또는 편집](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+자세한 내용은 문서 [사용자 정의 양식 만들기 또는 편집](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)에서 [사용자 정의 양식 만들기 또는 편집](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create)을 참조하십시오.
 
 >[!NOTE]
 >
@@ -75,13 +75,13 @@ Workfront의 다음 영역에서 새 목록을 찾을 수 있습니다.
 * 작업 목록
 * 프로젝트 목록
 
-목록에서 항목을 보는 방법에 대한 자세한 내용은 [Adobe Workfront에서 목록 시작](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+목록에서 항목을 보는 방법에 대한 자세한 내용은 [Adobe Workfront에서 목록 시작](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)을 참조하십시오.
 
 ## 특수 편집 모드를 활성화하지 않고 간트 편집
 
 이제 자동 저장이 활성화되거나 비활성화될 때 작업 목록 간트 차트를 편집할 수 있습니다. 토글이 켜져 있으면 변경 내용을 실행 취소할 수 없습니다. 이 경우 프로젝트에 대한 변경 사항이 자동으로 저장됩니다.
 
-작업 목록 간트 차트 편집에 대한 자세한 내용은 [작업 목록 간트 차트에서 정보 업데이트](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
+작업 목록 간트 차트 편집에 대한 자세한 내용은 [작업 목록 간트 차트에서 정보 업데이트](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)를 참조하십시오.
 
 ## 칸반 보드에서 문제 탭 제거
 
@@ -96,7 +96,7 @@ Workfront의 다음 영역에서 새 목록을 찾을 수 있습니다.
 애자일 반복 세부 정보 페이지에서 문서 및 문제 탭을 제거하고 있습니다.
 
 * **문서:** 문서 탭에 저장된 모든 문서는 프로덕션 릴리스 전에 이동해야 합니다. 문서를 이동하지 않으면 더 이상 액세스할 수 없습니다.
-* **문제:** 이 탭은 일반적으로 기타 드롭다운 메뉴 아래에 있습니다. 반복의 작업 항목 탭에서 문제 하위 탭에 액세스할 수 있습니다.
+* **문제:** 이 탭은 일반적으로 기타 드롭다운 메뉴에 있습니다. 반복의 작업 항목 탭에서 문제 하위 탭에 액세스할 수 있습니다.
 
 ## 작업 날짜에서 사용자 휴무 고려 또는 무시
 
@@ -106,9 +106,9 @@ Workfront의 다음 영역에서 새 목록을 찾을 수 있습니다.
 
 이 변경 이전에는 작업 제한으로 일자를 수정할 수 있는 경우 기본 할당자의 휴무가 항상 작업의 계획된 일자를 조정했습니다.
 
-시스템 수준 사용자 휴가 설정에 대한 자세한 내용은 [시스템 전체 프로젝트 환경 설정 구성](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+시스템 수준 사용자 휴무 설정에 대한 자세한 내용은 [시스템 전체 프로젝트 환경 설정 구성](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)을 참조하십시오.
 
-프로젝트 수준 사용자 휴가 설정에 대한 자세한 내용은 [프로젝트 편집](../../../../manage-work/projects/manage-projects/edit-projects.md).
+프로젝트 수준 사용자 휴가 설정에 대한 자세한 내용은 [프로젝트 편집](../../../../manage-work/projects/manage-projects/edit-projects.md)을 참조하세요.
 
 >[!NOTE]
 >
@@ -129,7 +129,7 @@ Workfront의 다음 영역에서 새 목록을 찾을 수 있습니다.
 
 이전에는 조건을 사용자 정의하거나 변경할 수 없었고, 작업 또는 문제에 할당된 경우 사용자만 작업 또는 문제의 조건을 변경할 수 있었습니다.
 
-자세한 내용은 [사용자 지정 조건](../../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+자세한 내용은 [사용자 지정 조건](../../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)을 참조하세요.
 
 >[!NOTE]
 >
@@ -159,7 +159,7 @@ Workfront의 다음 영역에서 새 목록을 찾을 수 있습니다.
 
 이전에는 업데이트 주석이 문서의 업데이트 탭에만 표시되었습니다.
 
-자세한 내용은 섹션을 참조하십시오 [작업 업데이트](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#updates) 이 문서에서 [작업 업데이트](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+자세한 내용은 문서 [작업 업데이트](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)의 [작업 업데이트](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#updates) 섹션을 참조하십시오.
 
 >[!NOTE]
 >
@@ -171,9 +171,9 @@ Workfront의 다음 영역에서 새 목록을 찾을 수 있습니다.
 
 이제 작업 또는 문제에 사용자를 할당할 때 선택한 사용자에게 작업 또는 문제의 계획된 일자 사이에 휴무가 예약된 경우 인라인 경고가 표시됩니다.
 
-작업 할당에 대한 자세한 내용은 [작업 할당](../../../../manage-work/tasks/assign-tasks/assign-tasks-1.md)
+작업 할당에 대한 자세한 내용은 [작업 할당](../../../../manage-work/tasks/assign-tasks/assign-tasks-1.md)을 참조하세요.
 
-휴무에 대한 자세한 내용은 [개인 휴무 구성](../../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+휴무에 대한 자세한 내용은 [개인 휴무 구성](../../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)을 참조하세요.
 
 >[!NOTE]
 >
@@ -187,7 +187,7 @@ Workfront의 다음 영역에서 새 목록을 찾을 수 있습니다.
 
 이전에는 관리자가 사용자 정의 양식 드롭다운 메뉴에서 개별 옵션으로 사용자를 수동으로 유지 관리해야 했습니다.
 
-자세한 내용은 [사용자 정의 양식 만들기 또는 편집](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+자세한 내용은 [사용자 정의 양식 만들기 또는 편집](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)을 참조하세요.
 
 >[!NOTE]
 >
@@ -209,5 +209,5 @@ Workfront의 다음 영역에서 새 목록을 찾을 수 있습니다.
 
 이 변경 전에 &quot;제목&quot; 필드에 요청의 이름을 입력합니다.
 
-요청 만들기에 대한 자세한 내용은 [Workfront 요청 만들기 및 제출](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+요청 만들기에 대한 자세한 내용은 [Workfront 요청 만들기 및 제출](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)을 참조하십시오.
 

@@ -9,7 +9,7 @@ role: Developer
 exl-id: 76c5eca6-be82-4331-9da9-9943e0bda669
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '248'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 Workfront의 Github 페이지에서 이러한 예를 다운로드할 수 있습니다.  [https://github.com/Workfront](https://github.com/Workfront)
 
-저장소에서 예제를 찾으려면 다음을 입력합니다. `example` 대상: **저장소 찾기...** 상자.
+저장소에서 예제를 찾으려면 **저장소 찾기..** 상자에 `example`을(를) 입력하십시오.
 
 >[!NOTE]
 >

@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: 2018.1 베타 최종 릴리스 활동
-description: 이 페이지에서는 2018.1 Beta 최종 릴리스가 포함된 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 기능은 2018년 1월 31일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2018년 3월에 사용할 수 있습니다.
+title: 2018.1 Beta 최종 릴리스 활동
+description: 이 페이지에서는 2018.1 Beta 최종 릴리스의 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 기능은 2018년 1월 31일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2018년 3월에 사용할 수 있습니다.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 ---
 
-# 2018.1 베타 최종 릴리스 활동
+# 2018.1 Beta 최종 릴리스 활동
 
-이 페이지에서는 2018.1 Beta 최종 릴리스가 포함된 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 기능은 2018년 1월 31일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2018년 3월에 사용할 수 있습니다.
+이 페이지에서는 2018.1 Beta 최종 릴리스의 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 기능은 2018년 1월 31일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2018년 3월에 사용할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -24,9 +24,9 @@ ht-degree: 0%
 
 2018.1의 모든 변경 사항 목록은 다음을 참조하십시오.  [2018.1 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
 
-2018.1 베타 최종 릴리스에는 Workfront 관리자와 기타 사용자 모두를 위한 개선 사항이 포함되어 있습니다.
+2018.1 Beta 최종 릴리스에는 Workfront 관리자와 기타 사용자 모두를 위한 개선 사항이 포함되어 있습니다.
 
-**관리자용**
+관리자용 **1}**
 
 * [리소스 가용성 및 사용자 할당을 구성하여 사용자 일정에 따라 계산](#configure-resource-availability-and-user-allocations-to-calculate-based-on-the-user-schedule)
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 * [모바일 개선 사항](#mobile-enhancements)
 * [Jira 통합](#jira-integration)
 * [증명 뷰어 이름 업데이트](#update-to-proofing-viewer-names)
-* [증명 프로덕션 환경에서 미리보기로 동기화할 때 동기화 케이던스로 변경](#change-to-synchronization-cadence-when-synchronizing-from-the-proofing-production-environment-to-preview)
+* [증명 프로덕션 환경에서 미리 보기로 동기화할 때 동기화 케이던스로 변경](#change-to-synchronization-cadence-when-synchronizing-from-the-proofing-production-environment-to-preview)
 * [리소스 플래너에서 2,000개 항목 제한에 도달하면 경고 메시지가 표시됩니다.](#warning-message-displays-when-the-2-000-item-limit-is-reached-in-the-resource-planner)
 
 ## 모바일 개선 사항 {#mobile-enhancements}
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 Workfront 추가 기능은 Jira의 온프레미스 및 온디맨드 버전 모두에서 사용할 수 있습니다. 이 추가 기능은 무료이며, 2018년 3월 초에 Atlassian Marketplace에서 다운로드할 수 있습니다.
 
-다운로드 링크를 포함하여 Jira용 Workfront 추가 기능에 대한 자세한 내용은 다음을 참조하십시오. [Jira와 함께 Workfront 사용.](https://support.workfront.com/hc/en-us/sections/115001130053)
+다운로드하는 링크가 포함된 Jira용 Workfront 추가 기능에 대한 자세한 내용은 [Jira에서 Workfront 사용](https://support.workfront.com/hc/en-us/sections/115001130053)을 참조하십시오.
 
 ## 증명 뷰어 이름 업데이트 {#update-to-proofing-viewer-names}
 
@@ -72,13 +72,13 @@ Workfront 시스템 전체에서 HTML5 기반 증명 뷰어 및 Flash 기반 증
 
 {style="table-layout:auto"}
 
- 새 증명 뷰어 사용에 대한 자세한 내용은 [증명 뷰어에서 증명 검토.](https://support.workfront.com/hc/en-us/sections/115000275214)
+ 새 증명 뷰어를 사용하는 방법에 대한 자세한 내용은 [증명 뷰어에서 증명 검토](https://support.workfront.com/hc/en-us/sections/115000275214)를 참조하십시오.
 
 ## 리소스 가용성 및 사용자 할당을 구성하여 사용자 일정에 따라 계산 {#configure-resource-availability-and-user-allocations-to-calculate-based-on-the-user-schedule}
 
 >[!NOTE]
 >
->리소스 예약 도구는 23.1 릴리스에서 더 이상 사용되지 않으며 Workfront에서 제거되었습니다. 업무 균형자 를 사용하여 리소스를 예약하는 방법에 대한 자세한 내용은 [업무 균형자 개요](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>리소스 예약 도구는 23.1 릴리스에서 더 이상 사용되지 않으며 Workfront에서 제거되었습니다. 업무 균형자를 사용하여 리소스를 예약하는 방법에 대한 자세한 내용은 [업무 균형자 개요](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md)를 참조하십시오.
 
 이제 Workfront 관리자는 Workfront이 시스템 수준에서 리소스 가용성과 사용자 할당을 계산하는 방법을 결정할 수 있습니다(시간과 FTE 가용성을 고려). Workfront 관리자는 기본 일정 또는 사용자의 일정을 사용하여 계산되도록 리소스 가용성 및 사용자 할당을 구성할 수 있습니다.
 
@@ -92,7 +92,7 @@ Workfront 시스템 전체에서 HTML5 기반 증명 뷰어 및 Flash 기반 증
 
 >[!NOTE]
 >
->리소스 예약 도구는 23.1 릴리스에서 더 이상 사용되지 않으며 Workfront에서 제거되었습니다. 업무 균형자 를 사용하여 리소스를 예약하는 방법에 대한 자세한 내용은 [업무 균형자 개요](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>리소스 예약 도구는 23.1 릴리스에서 더 이상 사용되지 않으며 Workfront에서 제거되었습니다. 업무 균형자를 사용하여 리소스를 예약하는 방법에 대한 자세한 내용은 [업무 균형자 개요](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md)를 참조하십시오.
 
 
 ## 증명 프로덕션 환경에서 미리보기로 동기화할 때 동기화 케이던스로 변경 {#change-to-synchronization-cadence-when-synchronizing-from-the-proofing-production-environment-to-preview}
@@ -105,7 +105,7 @@ Workfront 시스템 전체에서 HTML5 기반 증명 뷰어 및 Flash 기반 증
 
 이 변경 이전에는 데이터가 월별로 Workfront Proof 프로덕션 환경에서 미리보기 환경으로 동기화된 반면, Workfront 프로덕션 환경의 데이터는 주별로 Workfront 미리보기 환경으로 동기화되었습니다. 이 불일치로 인해 Workfront 미리보기 환경에서 증명 기능을 사용할 때 일부 동기화 오류가 발생했습니다. 
 
-자세한 내용은 [샌드박스 테스트 환경 미리보기 - Workfront Proof](../../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md). 
+자세한 내용은 [샌드박스 테스트 환경 미리 보기 - Workfront Proof](../../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md)를 참조하십시오. 
 
 ## 리소스 플래너에서 2,000개 항목 제한에 도달하면 경고 메시지가 표시됩니다. {#warning-message-displays-when-the-2-000-item-limit-is-reached-in-the-resource-planner}
 
@@ -117,7 +117,7 @@ Workfront 시스템 전체에서 HTML5 기반 증명 뷰어 및 Flash 기반 증
 
 리소스 플래너가 2,000개가 넘는 항목을 로드하려고 하면 2,000개 항목만 표시될 수 있다는 알림이 표시됩니다.
 
-이러한 제한과 리소스 플래너에 영향을 주는 방법에 대한 자세한 내용은 다음을 참조하십시오. [리소스 플래너 표시 제한](../../../../resource-mgmt/resource-planning/resource-planner-display-limitations.md).
+이러한 제한과 리소스 플래너에 영향을 주는 방법에 대한 자세한 내용은 [리소스 플래너 표시 제한](../../../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)을 참조하십시오.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">To participate in our beta program for the Resource Planner performance, see <a href="../../../../product-announcements/betas/resource-planner-performance-beta.md" class="MCXref xref">Resource Planner performance beta </a>.</p>

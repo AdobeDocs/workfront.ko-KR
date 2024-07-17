@@ -17,7 +17,7 @@ ht-degree: 0%
 
 이 페이지에서는 미리보기 환경에 대한 21.4 릴리스의 모든 증명 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2021년 10월 4일이 있는 주에 프로덕션 환경에서 사용할 수 있습니다.
 
-21.4 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [21.4 릴리스 개요](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+21.4 릴리스에서 사용할 수 있는 모든 변경 사항 목록을 보려면 [21.4 릴리스 개요](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md)를 참조하십시오.
 
 ## 검토자 및 요청자를 위한 증명 기능 개선
 
@@ -31,4 +31,4 @@ Workfront과 Proof 간의 통합 경험을 제공하기 위해 검토자 및 요
 * 로그인해야 하거나 전자 서명이 필요한 증명에 검토자와 요청자를 추가할 수 있습니다.
 * 또한 모든 사용자는 Workfront과 Proof 간의 연결 기능이 개선되어 많은 이점을 얻을 수 있습니다. 이제 사용자를 비활성화하거나 사용자의 이메일 주소를 업데이트할 때 Workfront에서 업데이트를 변경하면 증명이 올바르게 반영됩니다.
 
-자세한 내용은 [증명 역할 개요](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).
+자세한 내용은 [증명 역할 개요](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md)를 참조하십시오.

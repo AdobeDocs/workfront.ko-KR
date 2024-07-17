@@ -40,7 +40,7 @@ ht-degree: 6%
  <col>
  <thead> 
   <tr> 
-   <th> <p><strong>제한 이름</strong> </p> </th> 
+   <th> <p><strong>제약 조건 이름</strong> </p> </th> 
    <th> <p><strong>약어</strong> </p> </th> 
    <th> <p><strong>설명</strong> </p> </th> 
   </tr> 
@@ -71,35 +71,35 @@ ht-degree: 6%
    <td scope="col"> <p>프로젝트의 전임 작업-후임 작업 관계를 고려한 후 사용 가능한 가장 늦은 시간에 작업을 시작하도록 예약합니다.</p> </td>
   </tr> 
   <tr> 
-   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/start-no-earlier-than.md" class="MCXref xref">작업 제한 개요: 다음 이후에 시작:</a> </p> </td> 
+   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/start-no-earlier-than.md" class="MCXref xref">작업 제한 개요: </a> 이후에 시작 </p> </td> 
    <td scope="col"> <p>SNET</p> </td> 
    <td scope="col"> <p>지정한 날짜 이후에 작업을 시작하도록 예약합니다.</p> 
    <p>프로젝트 일정 모드가 시작 일자와 시스템 또는 그룹의 새 작업에 대한 기본 시작 일자가 오늘로 설정된 경우 이 제한이 기본 제한입니다.   </td> 
   </tr> 
   <tr> 
-   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/start-no-later-than.md" class="MCXref xref">작업 제한 개요: 다음 이후에 시작</a> </p> </td> 
+   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/start-no-later-than.md" class="MCXref xref">작업 제한 개요: </a> 이후에 시작 </p> </td> 
    <td scope="col"> <p>SNLT</p> </td> 
    <td scope="col"> <p>지정한 날짜 이전에 작업을 시작하도록 예약합니다.</p> 
    <p>프로젝트 일정 모드가 완료 일자부터 이고 작업 시작 일자에 대한 시스템 또는 그룹 기본값이 오늘로 설정된 경우 이 제한이 기본 제한입니다. 
    </td> 
   </tr> 
   <tr> 
-   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md" class="MCXref xref">작업 제한 개요: 다음 이후에 완료:</a> </p> </td> 
+   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md" class="MCXref xref">작업 제한 개요: </a> 이후에 완료 </p> </td> 
    <td scope="col"> <p>FNET</p> </td>
    <td scope="col"> <p>지정한 날짜 이후에 작업을 완료하도록 예약합니다.</p> </td> 
   </tr> 
   <tr> 
-   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/finish-no-later-than.md" class="MCXref xref">작업 제한 개요: 다음 이후에 완료</a> </p> </td> 
+   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/finish-no-later-than.md" class="MCXref xref">작업 제한 개요: </a> 이후에 완료 </p> </td> 
    <td scope="col"> <p>FNLT</p> </td> 
    <td scope="col"> <p>지정한 날짜 이전에 작업이 완료되도록 예약합니다.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../manage-work/tasks/task-constraints/must-start-on.md" class="MCXref xref">작업 제한 개요: 다음 일자에 시작</a> </p> </td> 
+   <td> <p><a href="../../../manage-work/tasks/task-constraints/must-start-on.md" class="MCXref xref">작업 제한 개요: </a>에 시작해야 합니다. </p> </td> 
    <td scope="col"> <p>MSO</p> </td> 
    <td scope="col"> <p>특정 날짜에 정확히 시작되도록 작업을 예약합니다.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../manage-work/tasks/task-constraints/must-finish-on.md" class="MCXref xref">작업 제한 개요: 다음 일자에 완료되어야 함</a> </p> </td> 
+   <td> <p><a href="../../../manage-work/tasks/task-constraints/must-finish-on.md" class="MCXref xref">작업 제한 개요: </a>에 완료해야 함 </p> </td> 
    <td scope="col"> <p>MFO</p> </td> 
    <td scope="col"> <p>특정 날짜에 작업이 종료되도록 예약합니다.</p> </td>
   </tr> 
@@ -117,19 +117,19 @@ ht-degree: 6%
 
 Workfront은 두 개의 변수를 사용하여 새 작업에 대해 기본적으로 선택되는 작업 제한 사항을 결정합니다.
 
-* 다음 **프로젝트 일정 출처:** 프로젝트의 필드입니다.
+* 프로젝트의 **프로젝트 일정 시작 날짜** 필드.
 
-  프로젝트 일정 시작 필드에 대한 자세한 내용은 [프로젝트 편집](../../../manage-work/projects/manage-projects/edit-projects.md).
+  프로젝트 일정 시작 필드에 대한 자세한 내용은 [프로젝트 편집](../../../manage-work/projects/manage-projects/edit-projects.md)을 참조하십시오.
 
-* 다음 **시작일** 에서 Workfront 또는 그룹 관리자가 구성한 환경 설정 **작업 및 문제** 영역 **설정**.
+* **설정**&#x200B;의 **작업 및 문제** 영역에서 Workfront 또는 그룹 관리자가 구성한 **시작 날짜** 환경 설정입니다.
 
-  작업 및 문제 환경 설정에 대한 자세한 내용은 [새 작업 기본값](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#new-task-defaults) 의 섹션 [시스템 전체 작업 및 문제 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  작업 및 문제 환경 설정에 대한 자세한 내용은 [시스템 전체 작업 및 문제 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)의 [새 작업 기본값](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#new-task-defaults) 섹션을 참조하십시오.
 
 다음 표에서는 프로젝트 및 새 작업에 대해 서로 다른 변수를 선택할 때의 기본 작업 제한 사항을 보여 줍니다.
 
 | 프로젝트 일정 출처: | 작업 시작 일자 | 작업 제한 조건 기본값 |
 |---|---|---|
 | 시작 일자 | 프로젝트 계획된 일자 기준 | 빠른 시일 내에 |
-| 시작 일자 | 오늘 | 다음 이후에 시작: |
+| 시작 일자 | 오늘 | 다음 이후에 시작 |
 | 완료 일자 | 프로젝트 계획된 일자 기준 | 가능한 한 늦게 |
 | 완료 일자 | 오늘 | 다음 이전에 시작 |

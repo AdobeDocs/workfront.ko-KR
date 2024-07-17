@@ -9,8 +9,8 @@ role: Developer
 exl-id: 8c575251-677b-474d-84aa-02b637ef7760
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 47%
+source-wordcount: '498'
+ht-degree: 43%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 47%
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>수 </td> 
+   <td>카운트 </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -112,7 +112,7 @@ ht-degree: 47%
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | 추가 |
-|   |   |   |   |   |   | 수 |
+|   |   |   |   |   |   | 개수 |
 |   |   |   |   |   |   | 삭제 |
 |   |   |   |   |   |   | Get |
 |   |   |   |   |   |   | 보고서 |
@@ -124,7 +124,7 @@ ht-degree: 47%
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| ID |   |   |   |   |   | 수 |
+| ID |   |   |   |   |   | 개수 |
 |   |   |   |   |   |   | Get |
 |   |   |   |   |   |   | 보고서 |
 |   |   |   |   |   |   | 검색 |
@@ -138,7 +138,7 @@ ht-degree: 47%
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | 추가 |
-|   |   |   |   |   |   | 수 |
+|   |   |   |   |   |   | 개수 |
 |   |   |   |   |   |   | 삭제 |
 |   |   |   |   |   |   | 편집 |
 |   |   |   |   |   |   | Get |
@@ -167,7 +167,7 @@ ht-degree: 47%
 |---|---|---|---|---|---|---|
 | ID |   |  hourType |   |   |   | 추가 |
 | 이름 |   |   |   |   |   | 복사 |
-|   |   |   |   |   |   | 수 |
+|   |   |   |   |   |   | 개수 |
 |   |   |   |   |   |   | 삭제 |
 |   |   |   |   |   |   | 편집 |
 |   |   |   |   |   |   | Get |
@@ -184,7 +184,7 @@ ht-degree: 47%
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
 | ID | 고객 | 사용자 |   |   |   | 추가 |
-| customerID  | 입력한 사람  |   |   |   |   | 수 |
+| customerID  | 입력한 사람  |   |   |   |   | 개수 |
 | 설명  | lastUpdatedBy  |   |   |   |   | 삭제 |
 | 입력자 ID  |   |   |   |   |   | 편집 |
 | entryDate  |   |   |   |   |   | Get |
@@ -201,7 +201,7 @@ ht-degree: 47%
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| ID |   |   |   |   |   | 수 |
+| ID |   |   |   |   |   | 개수 |
 | articleName  |   |   |   |   |   | Get |
 | pageID  |   |   |   |   |   | 보고서 |
 | url  |   |   |   |   |   | 검색 |
@@ -226,7 +226,7 @@ ht-degree: 47%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 가능한 값 변경 
+가능한 값에 대한 <sup>1</sup> 변경 
 
  
 
@@ -235,7 +235,7 @@ ht-degree: 47%
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
 | approvalCompleteDate |   |   |   |   |   |   |
-| approvalStartDate<sup>1</sup> |   |   |   |   |   |   |
+| 승인 시작 날짜<sup>1</sup> |   |   |   |   |   |   |
 | 일별 작업 목록 |   |   |   |   |   |    |
 
 {style="table-layout:auto"}
@@ -244,7 +244,7 @@ ht-degree: 47%
 
 ### AccessRule<sup>1</sup>
 
-<sup>1</sup> 보고 가능한 것으로 플래그 지정됨
+<sup>1</sup>이(가) 보고 가능한 것으로 표시됨
 
  
 
@@ -268,7 +268,7 @@ ht-degree: 47%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 보고 가능 플래그 제거됨
+<sup>1</sup> 보고 가능 플래그가 제거됨
 
  
 
@@ -292,9 +292,9 @@ ht-degree: 47%
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-|  일별 작업 목록 |   |   |   | assignUserToRoleOnprojects<sup>1</sup> |   |   |
-|   |   |   |   | swapUserOnProjects<sup>1</sup> |   |   |
-|   |   |   |   | 프로젝트에서 사용자 할당 해제<sup>1</sup> |   |   |
+|  일별 작업 목록 |   |   |   | assignUserToRoleOnProjects<sup>1</sup> |   |   |
+|   |   |   |   | swapUsersOnProjects<sup>1</sup> |   |   |
+|   |   |   |   | 프로젝트 할당 해제<sup>1</sup> |   |   |
 
 {style="table-layout:auto"}
 
@@ -310,7 +310,7 @@ ht-degree: 47%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 가능한 값 변경 
+가능한 값에 대한 <sup>1</sup> 변경 
 
  
 
@@ -353,7 +353,7 @@ ht-degree: 47%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> PRECISION 검사기를 8에서 9로 변경했습니다.
+<sup>1</sup>이(가) PRECISION 유효성 검사기를 8에서 9로 변경했습니다.
 
  
 
@@ -379,7 +379,7 @@ ht-degree: 47%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 가능한 값 변경
+가능한 값에 대한 <sup>1</sup> 변경
 
  
 
@@ -459,7 +459,7 @@ ht-degree: 47%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 유형이 Int에서 Double로 변경됨 
+<sup>1</sup> 형식이 Int에서 Double로 변경됨 
 
  
 
@@ -566,4 +566,4 @@ ht-degree: 47%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 가능한 값 변경
+가능한 값에 대한 <sup>1</sup> 변경

@@ -30,7 +30,7 @@ hide: yes
 
 레코드 유형 페이지에서 레코드와 해당 필드를 달력 보기에 표시할 수 있습니다.
 
-Adobe Workfront Planning 보기 및 관리 방법에 대한 자세한 내용은 [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md).
+Adobe Workfront Planning 보기 및 관리 방법에 대한 자세한 내용은 [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md)를 참조하십시오.
 
 <!--at GA the plan below will change to Prime, Select and Ultimate only-->
 
@@ -82,13 +82,13 @@ Adobe Workfront Planning 보기 및 관리 방법에 대한 자세한 내용은 
 
 <tr>
    <td role="rowheader"><p>레이아웃 템플릿</p></td>
-   <td> <p>Workfront 관리자를 포함한 모든 사용자에게 메인 메뉴의 계획 영역을 포함하는 레이아웃 템플릿을 할당해야 합니다. </p> <p>자세한 내용은 <a href="/help/quicksilver/planning/access/access-overview.md">액세스 개요</a>. </p> 
+   <td> <p>Workfront 관리자를 포함한 모든 사용자에게 메인 메뉴의 계획 영역을 포함하는 레이아웃 템플릿을 할당해야 합니다. </p> <p>자세한 내용은 <a href="/help/quicksilver/planning/access/access-overview.md">액세스 개요</a>를 참조하십시오. </p> 
 </td>
   </tr>
  </tbody>
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## 달력 보기 관리 {#manage-a-calendar-view}
 
@@ -108,7 +108,7 @@ Adobe Workfront Planning 보기 및 관리 방법에 대한 자세한 내용은 
 달력 보기를 관리하려면:
 
 1. 달력을 보려는 레코드 유형 페이지로 이동합니다.
-1. 문서에 설명된 대로 달력 보기를 만듭니다 [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md).
+1. [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md) 문서에 설명된 대로 일정 보기를 만듭니다.
 
    ![](assets/calendar-view-example.png)
 
@@ -117,7 +117,7 @@ Adobe Workfront Planning 보기 및 관리 방법에 대한 자세한 내용은 
 1. 다음 중 하나를 수행하여 달력을 탐색합니다.
 
    * 왼쪽 및 오른쪽 아이콘을 클릭하거나 가로 스크롤을 사용하여 달력에서 앞뒤로 이동합니다.
-   * 클릭 **오늘** 캘린더를 오늘 날짜로 맞춰야 합니다.
+   * **오늘**&#x200B;을 클릭하여 캘린더를 오늘 날짜로 가운데로 맞춥니다.
    * 시간 증가를 업데이트하려면 시간대 드롭다운 메뉴에서 다음 옵션 중 하나를 선택합니다.
 
       * 월
@@ -147,7 +147,7 @@ Adobe Workfront Planning 보기 및 관리 방법에 대한 자세한 내용은 
 
 * 달력 보기에서 필터를 추가하는 것은 표 보기에서 필터를 추가하는 것과 동일합니다.
 
-  자세한 내용은 문서의 &quot;필터 추가&quot; 섹션을 참조하십시오 [표 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md).
+  자세한 내용은 문서 [테이블 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md)의 &quot;필터 추가&quot; 섹션을 참조하십시오.
 
 * 연결된 레코드 필드 또는 조회 필드를 기준으로 필터링할 수 있습니다.
 

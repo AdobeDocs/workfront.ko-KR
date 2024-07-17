@@ -21,11 +21,11 @@ ht-degree: 0%
 
 레코드를 편집할 때 Adobe Workfront Planning의 레코드 페이지에 표지 이미지를 추가하여 레코드를 개인화할 수 있습니다.
 
-레코드 편집에 대한 자세한 내용은 [레코드 편집](/help/quicksilver/planning/records/edit-records.md).
+레코드 편집에 대한 자세한 내용은 [레코드 편집](/help/quicksilver/planning/records/edit-records.md)을 참조하세요.
 
 레코드 만들기 및 편집을 시작하려면 먼저 레코드 유형을 만들어야 합니다.
 
-자세한 내용은 [레코드 유형 만들기](/help/quicksilver/planning/architecture/create-record-types.md).
+자세한 내용은 [레코드 종류 만들기](/help/quicksilver/planning/architecture/create-record-types.md)를 참조하세요.
 
 ## 액세스 요구 사항
 
@@ -78,14 +78,14 @@ ht-degree: 0%
   </tr>
 <tr>
    <td role="rowheader"><p>레이아웃 템플릿</p></td>
-   <td>  <p>Workfront 관리자를 포함한 모든 사용자에게 메인 메뉴의 계획 영역을 포함하는 레이아웃 템플릿을 할당해야 합니다. </p> <p>자세한 내용은 <a href="/help/quicksilver/planning/access/access-overview.md">액세스 개요</a>. </p>  
+   <td>  <p>Workfront 관리자를 포함한 모든 사용자에게 메인 메뉴의 계획 영역을 포함하는 레이아웃 템플릿을 할당해야 합니다. </p> <p>자세한 내용은 <a href="/help/quicksilver/planning/access/access-overview.md">액세스 개요</a>를 참조하십시오. </p>  
 </td>
   </tr>
 
 </tbody>
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*자세한 내용은 Workfront 설명서의 [액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## 레코드 페이지 표지 이미지에 대한 고려 사항
 
@@ -122,46 +122,46 @@ ht-degree: 0%
 
    또는
 
-   테이블 테이블 보기에서 **세부 정보 열기** 아이콘 ![](assets/open-details-icon-in-table-name-field.png) 첫 번째 열에서
+   테이블 테이블 보기에서 첫 번째 열의 **세부 정보 열기** 아이콘 ![](assets/open-details-icon-in-table-name-field.png)을(를) 클릭합니다.
 
    레코드의 미리보기가 보기에서 열립니다.
 
    ![](assets/details-box.png)
 
-1. (선택 사항) **새 탭에서 열기** 아이콘 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> 레코드 미리 보기의 오른쪽 상단 모서리에서 새 탭에서 레코드 페이지를 엽니다.
+1. (선택 사항) 레코드 미리 보기의 오른쪽 상단에 있는 **새 탭에서 열기** 아이콘 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->을(를) 클릭하여 새 탭에서 레코드 페이지를 엽니다.
 
    레코드 페이지가 열립니다.
 
    ![](assets/details-page.png)
 
-1. 레코드 미리 보기 또는 페이지에서 **표지 추가**
+1. 레코드 미리 보기 또는 페이지에서 **표지 추가**&#x200B;를 클릭합니다.
 
 
    또는
 
-   기존 표지 이미지 위로 마우스를 가져간 후 **자세히** 메뉴 ![](assets/more-menu.png) 을 클릭한 다음 을 클릭합니다 **업로드**. <!--check the casing here; I logged a bug for this-->
-다음 **레코드 커버** 상자에서 열기 **업로드** 탭.
+   기존 표지 이미지 위로 마우스를 가져간 후 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭한 다음 **업로드**&#x200B;를 클릭합니다. <!--check the casing here; I logged a bug for this-->
+**레코드 표지** 상자가 **업로드** 탭에서 열립니다.
 
    ![](assets/record-cover-box-for-upload.png)
 
-1. 클릭 **이미지 찾아보기** 컴퓨터에서 그림을 찾아 선택하고 추가합니다.
+1. **이미지 찾아보기**&#x200B;를 클릭하고 컴퓨터에서 그림을 찾아 선택하여 추가합니다.
 
-1. (선택 사항) 이미지를 저장하기 전에 제거하려면 **새 이미지 업로드** 아이콘 ![](assets/upload-new-image-icon.png) 을 클릭하고 새 이미지를 업로드하십시오.
+1. (선택 사항) 이미지를 저장하기 전에 제거하려면 **새 이미지 업로드** 아이콘 ![](assets/upload-new-image-icon.png)을(를) 클릭하고 새 이미지를 업로드하십시오.
 
 1. (선택 사항) **갤러리** 탭을 클릭한 다음 이미지 갤러리에서 이미지를 클릭합니다. 이미지 갤러리는 수정할 수 없습니다.
 
    ![](assets/record-cover-box-for-gallery.png)
 
-1. 클릭 **이미지 사용**.
+1. **이미지 사용**&#x200B;을 클릭합니다.
 
    이미지가 레코드 미리 보기 또는 페이지 맨 위에 업로드되고 변경 사항이 자동으로 저장됩니다.
 
    ![](assets/record-page-with-cover-image.png)
 
-1. (선택 사항) 이미지를 마우스로 가리킨 다음, **자세히** 메뉴 ![](assets/more-menu.png) 커버 이미지의 오른쪽 아래 모서리에서 다음 중 하나를 수행합니다.
+1. (선택 사항) 이미지 위로 마우스를 가져간 다음 표지 이미지의 오른쪽 아래 모서리에 있는 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭하고 다음 중 하나를 수행합니다.
 
-   * 클릭 **업로드** 표지 이미지를 교체하고 6단계를 반복하여 새 이미지를 업로드하고 저장합니다.
-   * 클릭 **위치 변경**, 및 사용 **위치 변경** 도구 ![](assets/reposition-tool-icon.png) 표지 이미지를 가운데로 맞추려면 **저장** 완료 시.
-   * 클릭 **제거** 커버 이미지를 제거합니다.
+   * 표지 이미지를 바꾸려면 **업로드**&#x200B;를 클릭하고 6단계를 반복하여 새 이미지를 업로드하고 저장합니다.
+   * **위치 변경**&#x200B;을 클릭하고 **위치 변경** 도구 ![](assets/reposition-tool-icon.png)을(를) 사용하여 표지 이미지를 가운데로 설정한 다음 완료되면 **저장**&#x200B;을 클릭합니다.
+   * 표지 이미지를 제거하려면 **제거**&#x200B;를 클릭하십시오.
 
    Workfront은 변경 사항을 자동으로 저장합니다.

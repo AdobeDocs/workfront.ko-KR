@@ -17,15 +17,15 @@ ht-degree: 0%
 
 이 페이지에서는 미리보기 환경에 대한 21.4 릴리스의 모든 관리자 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2021년 10월 4일이 있는 주에 프로덕션 환경에서 사용할 수 있습니다.
 
-21.4 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [21.4 릴리스 개요](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+21.4 릴리스에서 사용할 수 있는 모든 변경 사항 목록을 보려면 [21.4 릴리스 개요](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md)를 참조하십시오.
 
 ## 관리자의 경우: 승인 프로세스와 연결된 그룹을 확인하십시오
 
 시스템의 승인 프로세스와 연결된 그룹을 찾기 위해 설정에서 승인 페이지의 표준 보기에 그룹 이름 열을 추가했습니다. 이제 사용자 지정 보기를 만들지 않고도 이 정보를 볼 수 있습니다.
 
-승인 프로세스에 대한 자세한 내용은 [승인 프로세스 개요](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md).
+승인 프로세스에 대한 자세한 내용은 [승인 프로세스 개요](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md)를 참조하십시오.
 
-그룹 승인 프로세스 관리에 대한 자세한 내용은 [그룹 수준 승인 프로세스](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md).
+그룹 승인 프로세스 관리에 대한 자세한 내용은 [그룹 수준 승인 프로세스](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md)를 참조하십시오.
 
 ## 관리자용 새로운 기능: 그룹은 자신의 타임시트 및 시간 환경 설정을 구성할 수 있습니다.
 
@@ -37,27 +37,27 @@ ht-degree: 0%
 
 이 기능은 프로젝트 환경 설정 및 작업 및 문제 환경 설정에 대해서도 최근에 추가되었습니다.
 
-Workfront 관리자가 타임시트 및 시간 환경 설정을 잠금 해제하는 방법에 대한 자세한 내용은 섹션을 참조하십시오 [그룹에 대한 타임시트 및 시간 환경 설정 잠금 해제](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) 이 문서에서 [타임시트 및 시간 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Workfront 관리자가 타임시트 및 시간 환경 설정을 잠금 해제하는 방법에 대한 자세한 내용은 문서 [타임시트 및 시간 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)의 [그룹에 대한 타임시트 및 시간 환경 설정 잠금 해제](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) 섹션을 참조하십시오.
 
-그룹 관리자가 그룹의 잠금 해제된 작업 및 문제 환경 설정을 구성하는 방법에 대한 자세한 내용은 [그룹에 대한 타임시트 및 시간 환경 설정 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
+그룹 관리자가 잠금 해제된 작업 및 문제 환경 설정을 그룹에 대해 구성하는 방법에 대한 자세한 내용은 [그룹에 대한 타임시트 및 시간 환경 설정 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md)을 참조하십시오.
 
 ## Workfront 관리자를 위한 새로운 기능: 새 Workfront 경험에서 자동 프로비저닝된 사용자를 위한 레이아웃 템플릿을 구성합니다
 
 이제 자동 프로비저닝된 사용자를 위해 새 Workfront 경험에서 레이아웃 템플릿을 구성할 수 있습니다. 사용자 속성을 매핑하는 Workfront 사용자 속성 드롭다운 메뉴([설정] > [시스템] > [Single Sign-On])에서 이제 새로운 &quot;NWE 레이아웃 템플릿&quot; 메뉴 항목을 사용하여 이 구성을 수행할 수 있습니다. 이전에는 Workfront Classic에서만 자동 프로비저닝된 사용자에 대한 레이아웃 템플릿을 구성할 수 있었습니다.
 
-사용자 속성 매핑에 대한 지침은 [사용자 속성 매핑 및 새 사용자 자동 프로비저닝](../../../administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md).
+사용자 특성 매핑에 대한 지침은 [사용자 특성 매핑 및 새 사용자 자동 프로비저닝](../../../administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md)을 참조하십시오.
 
 ## 새 필드에는 사용자가 속한 그룹이 표시됩니다.
 
 이제 사용자가 속한 그룹을 쉽게 찾을 수 있습니다. 사용자를 나열하는 보고서 또는 보기에서 새 기타 그룹 필드를 사용하여 열을 만들 수 있습니다. 이 필드에는 각 사용자가 구성원으로 있는 그룹이 나열됩니다.
 
-보고서 및 보기 사용에 대한 자세한 내용은 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) 및 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+보고서 및 보기 사용에 대한 자세한 내용은 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) 및 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)를 참조하십시오.
 
 ## 이제 블루프린트 세부 사항 페이지에 이미지가 표시됩니다.
 
 이제 각 블루프린트에 대한 세부 정보 페이지에 블루프린트와 함께 설치된 프로젝트 템플릿의 이미지가 표시됩니다. 이 이미지는 설치하려는 내용을 알 수 있도록 블루프린트 콘텐츠 미리보기를 제공합니다. 필요한 경우 브라우저에서 전체 이미지를 미리 보거나 이미지를 다운로드할 수 있습니다.
 
-자세한 내용은 [블루프린트 개요](../../../administration-and-setup/blueprints/blueprints-overview.md).
+자세한 내용은 [블루프린트 개요](../../../administration-and-setup/blueprints/blueprints-overview.md)를 참조하십시오.
 
 ![](assets/blueprint-detailspage.png)
 
@@ -69,7 +69,7 @@ Workfront 관리자가 타임시트 및 시간 환경 설정을 잠금 해제하
 
 이러한 환경 설정을 사용하면 템플릿에서 만든 프로젝트가 요청 대기열로 만들어지지 않습니다.
 
-자세한 내용은 [블루프린트 구성](../../../administration-and-setup/blueprints/configure-template-package.md).
+자세한 내용은 [블루프린트 구성](../../../administration-and-setup/blueprints/configure-template-package.md)을 참조하세요.
 
 ## 그룹 관리자를 위한 새로운 기능: 최근에 삭제되고 복원된 그룹의 항목 보기 및 관리
 
@@ -79,7 +79,7 @@ Workfront 관리자가 타임시트 및 시간 환경 설정을 잠금 해제하
 
 그룹과 관련 개체를 한 곳에서 더 쉽게 관리할 수 있도록 계속해서 노력하고 있습니다. 이제 그룹 영역에서 최근에 삭제되고 복원된 그룹의 항목을 보고 작업할 수 있습니다. 이렇게 하면 해당 항목을 관리하기 위해 설치에서 최근에 삭제됨 또는 최근에 복원됨 영역으로 이동하지 않아도 됩니다. 또한 작업 중인 그룹 항목 목록을 시스템의 다른 삭제 및 복원 항목과 별도로 유지합니다.
 
-자세한 내용은 [최근에 삭제된 그룹 항목 보기 및 관리](../../../administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-deleted-objects.md) 및 [최근에 복원된 그룹의 항목 보기 및 관리](../../../administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md).
+자세한 내용은 [최근 삭제된 그룹 항목 보기 및 관리](../../../administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-deleted-objects.md) 및 [최근 복원된 그룹 항목 보기 및 관리](../../../administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md)를 참조하십시오.
 
 ## 그룹 관리자를 위한 새로운 기능: 그룹 환경 설정은 그룹 템플릿에 영향을 미칩니다
 
@@ -102,13 +102,13 @@ Workfront 관리자가 타임시트 및 시간 환경 설정을 잠금 해제하
 
 그룹 없이 템플릿 또는 템플릿 작업을 생성하는 경우(예: 기본 템플릿 페이지에서) 위의 설정은 시스템 수준 프로젝트 및 작업 기본 설정에서 상속됩니다. 그러나 나중에 템플릿 또는 템플릿 작업에 그룹을 할당해도 그룹의 환경 설정이 영향을 주지 않습니다.
 
-자세한 내용은 문서의 템플릿 및 템플릿 작업에 환경 설정을 적용하는 방법 섹션을 참조하십시오 [그룹의 프로젝트 템플릿 만들기 및 수정](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
+자세한 내용은 문서 [그룹의 프로젝트 템플릿 만들기 및 수정](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)에서 템플릿 및 템플릿 작업에 환경 설정을 적용하는 방법 섹션을 참조하십시오.
 
 ## 관리자용 새로운 기능: 사용자 정의 필드를 사용하는 사용자 정의 양식 확인
 
 이제 사용자 정의 양식에서 사용자 정의 필드를 보다 쉽게 변경할 수 있습니다. 사용자 정의 양식을 한 번 클릭하면 필드를 사용하는 다른 사용자 정의 양식에 대해 확인할 수 있습니다. 변경한 후에도 제대로 작동하기 위해 이러한 양식에 조정이 필요한지 여부를 평가하는 것이 중요합니다.
 
-자세한 내용은 [특정 사용자 정의 필드 또는 위젯을 사용하는 모든 사용자 정의 양식 보기](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md).
+자세한 내용은 [특정 사용자 정의 필드 또는 위젯을 사용하는 모든 사용자 정의 양식 보기](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md)를 참조하십시오.
 
 ## 그룹 관리자의 새로운 기능: 그룹에 대한 프로젝트, 작업 및 문제 환경 설정 잠금 및 잠금 해제
 
@@ -118,11 +118,11 @@ Workfront 관리자가 타임시트 및 시간 환경 설정을 잠금 해제하
 
   반대로 그룹에 대한 환경 설정을 잠금 해제할 수 있습니다. 이를 통해 하위 그룹 관리자는 사용자의 고유한 프로젝트, 작업 또는 문제 워크플로 요구 사항에 맞게 구성할 수 있습니다.
 
-  자세한 내용은 [하위 그룹에 대한 프로젝트, 작업 또는 문제 환경 설정 잠금 또는 잠금 해제](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
+  자세한 내용은 [하위 그룹에 대한 프로젝트, 작업 또는 문제 환경 설정 잠금 또는 잠금 해제](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md)를 참조하십시오.
 
 * Workfront 관리자인 경우 그룹 영역으로 이동하여 하위 그룹의 환경 설정을 구성할 필요가 없습니다. 기본 프로젝트 환경 설정, 작업 및 문제 환경 설정 또는 타임시트 및 시간 환경 설정 영역에서 페이지 상단에 있는 검색 상자를 사용하여 하위 그룹을 찾고 해당 환경 설정을 구성할 수 있습니다.
 
-  자세한 내용은 [그룹에 대한 프로젝트 환경 설정 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) 및 [그룹에 대한 작업 및 문제 환경 설정 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+  자세한 내용은 [그룹에 대한 프로젝트 환경 설정 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) 및 [그룹에 대한 작업 및 문제 환경 설정 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)을 참조하십시오.
 
 ## 그룹 관리자의 새로운 기능: 그룹 영역에서 템플릿을 만들고 편집합니다
 
@@ -132,7 +132,7 @@ Workfront 관리자가 타임시트 및 시간 환경 설정을 잠금 해제하
 
 그룹과 관련 개체를 한 곳에서 더 쉽게 관리할 수 있도록 계속 노력하고 있습니다. 이제 설정의 그룹 영역에서 그룹 템플릿을 보고 작업할 수 있습니다. 이렇게 하면 그룹의 템플릿을 관리하기 위해 템플릿 영역으로 이동할 필요가 없습니다. 작업 중인 그룹 템플릿 목록이 시스템 전체의 다른 템플릿과 별도로 유지됩니다.
 
-자세한 내용은 [그룹의 프로젝트 템플릿 만들기 및 수정](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
+자세한 내용은 [그룹의 프로젝트 템플릿 만들기 및 수정](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)을 참조하세요.
 
 ## 첨부된 하나의 사용자 정의 양식에 정보를 한 번에 입력 및 저장
 
@@ -162,7 +162,7 @@ Workfront 관리자는 (모든 그룹에 대해) 이러한 작업을 수행할 �
 
 이전에는 이 기능을 최상위 그룹에만 사용할 수 있었습니다.
 
-자세한 내용은 [그룹 상태 관리](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md).
+자세한 내용은 [그룹 상태 관리](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md)를 참조하십시오.
 
 ## Workfront 관리자를 위한 새로운 기능: 레이아웃 템플릿을 Workfront Classic에서 새로운 Workfront 환경으로 직접 마이그레이션
 
@@ -180,4 +180,4 @@ Workfront 관리자는 (모든 그룹에 대해) 이러한 작업을 수행할 �
 
 21.3에서 그룹 템플릿을 그룹과 연결하는 기능을 추가했으므로 템플릿에서 그룹별 승인 프로세스를 선택할 수 있지만 템플릿의 대기열 세부 정보 또는 대기열 주제에서는 이를 선택할 수 없습니다.
 
-자세한 내용은 [신규 또는 기존 승인 프로세스를 작업과 연결](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+자세한 내용은 [새 승인 프로세스 또는 기존 승인 프로세스와 작업 연결](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)을 참조하십시오.

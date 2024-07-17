@@ -6,24 +6,24 @@ product-area: workfront-integrations
 keywords: 커넥터
 navigation-topic: apps-and-their-modules
 title: Workday 모듈
-description: Adobe Workfront Fusion 시나리오에서는 다음을 사용하는 워크플로를 자동화할 수 있습니다. [!DNL Workday]을 여러 타사 응용 프로그램 및 서비스에 연결할 수 있습니다.
+description: Adobe Workfront Fusion 시나리오에서는  [!DNL Workday]을(를) 사용하는 워크플로를 자동화하고 여러 타사 애플리케이션 및 서비스에 연결할 수 있습니다.
 author: Becky
 feature: Workfront Fusion
 exl-id: 535573e0-b6ad-43a2-b7cb-ed32d1dc8d16
 source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1013'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
-# [!DNL Workday] 모듈
+# [!DNL Workday]개 모듈
 
-다음에서 [!DNL Adobe Workfront Fusion] 시나리오에서는 다음을 사용하는 워크플로를 자동화할 수 있습니다 [!DNL Workday]을 여러 타사 응용 프로그램 및 서비스에 연결할 수 있습니다.
+[!DNL Adobe Workfront Fusion] 시나리오에서는 [!DNL Workday]을(를) 사용하는 워크플로를 자동화하고 여러 타사 응용 프로그램 및 서비스에 연결할 수 있습니다.
 
-시나리오를 만드는 방법에 대한 지침이 필요한 경우 [에서 시나리오 만들기 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+시나리오를 만드는 방법에 대한 지침이 필요하면 [시나리오 만들기 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md)를 참조하십시오.
 
-모듈에 대한 자세한 내용은 [의 모듈 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+모듈에 대한 자세한 내용은 [의 모듈 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md)을 참조하세요.
 
 ## 액세스 요구 사항
 
@@ -44,37 +44,37 @@ ht-degree: 2%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 라이센스**</td> 
    <td>
-   <p>현재 라이선스 요구 사항: 아니요 [!DNL Workfront Fusion] 라이센스 요구 사항.</p>
+   <p>현재 라이선스 요구 사항: [!DNL Workfront Fusion] 라이선스 요구 사항이 없습니다.</p>
    <p>또는</p>
-   <p>기존 라이선스 요구 사항: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
+   <p>레거시 라이선스 요구 사항: 작업 자동화 및 통합을 위한 [!UICONTROL [!DNL Workfront Fusion]] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">제품</td> 
    <td>
-   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime]이 있는 경우 [!DNL Adobe Workfront] 플랜, 조직은 다음을 구매해야 합니다. [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오. [!DNL Workfront Fusion] [!UICONTROL Ultimate]에 포함되어 있습니다. [!DNL Workfront] 계획.</p>
+   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime] [!DNL Adobe Workfront] 플랜이 있는 경우 조직에서 이 문서에 설명된 기능을 사용하려면 [!DNL Adobe Workfront Fusion]과(와) [!DNL Adobe Workfront]을(를) 구매해야 합니다. [!DNL Workfront Fusion]이(가) [!UICONTROL Ultimate] [!DNL Workfront] 계획에 포함되어 있습니다.</p>
    <p>또는</p>
-   <p>레거시 제품 요구 사항: 조직에서 구매해야 함 [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오.</p>
+   <p>레거시 제품 요구 사항: 이 문서에 설명된 기능을 사용하려면 조직에서 [!DNL Adobe Workfront Fusion]과(와) [!DNL Adobe Workfront]을(를) 구매해야 합니다.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
+보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
 
-다음에 대한 정보: [!DNL Adobe Workfront Fusion] 라이센스, 참조 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+[!DNL Adobe Workfront Fusion] 라이선스에 대한 자세한 내용은 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md)를 참조하세요.
 
 ## 전제 조건
 
-을(를) 사용하려면 [!DNL Workday] 모듈, 다음을 수행해야 합니다.
+[!DNL Workday] 모듈을 사용하려면 다음을 수행해야 합니다.
 
-* 다음 작업 수행 [!DNL Workday] 계정입니다.
+* [!DNL Workday] 계정이 있습니다.
 
-* 에서 OAuth 애플리케이션 만들기 [!DNL Workday]. 자세한 내용은 [!DNL Workday] 설명서를 참조하십시오.
+* [!DNL Workday]에서 OAuth 응용 프로그램을 만듭니다. 자세한 내용은 [!DNL Workday] 설명서를 참조하십시오.
 
-## 연결 [!DNL Workday] 끝 [!DNL Workfront Fusion]
+## [!DNL Workday]을(를) [!DNL Workfront Fusion]에 연결
 
-1. 다음 중 하나 [!DNL Workfront Fusion] 모듈, 클릭 [!UICONTROL 추가] 다음 옆에 [!UICONTROL 연결] 필드
+1. [!DNL Workfront Fusion] 모듈에서 [!UICONTROL 연결] 필드 옆의 [!UICONTROL 추가]를 클릭합니다
 
 2. 다음 필드를 채웁니다.
 
@@ -90,23 +90,23 @@ ht-degree: 2%
             </tr>
             <tr>
                 <td  role="rowheader">[!UICONTROL Workday 호스트]</td>
-                <td>주소 입력 [!DNL Workday] 호스트 없이 <code>https://</code>. For example: <code>mycompany.workday.com</code>.</td>
+                <td><code>https://</code> 없이 [!DNL Workday] 호스트의 주소를 입력하십시오. 예: <code>mycompany.workday.com</code>.</td>
             </tr>
             <tr>
                 <td role="rowheader">[!UICONTROL Services URL]</td>
-                <td>주소 입력 [!DNL Workday] 없는 웹 서비스 <code>https://</code>. For example: <code>mycompany-services.workday.com</code>.</td>
+                <td><code>https://</code> 없이 [!DNL Workday] 웹 서비스의 주소를 입력하십시오. 예: <code>mycompany-services.workday.com</code>.</td>
             </tr>
             <tr>
                 <td  role="rowheader">[!UICONTROL 테넌트 이름]</td>
-                <td>이에 대한 테넌트 입력 [!DNL Workday] 계정입니다. 테넌트는 조직의 식별자이며, Workday에 로그인하는 데 사용하는 URL에서 볼 수 있습니다. 예: 주소에서 <code>https://www.myworkday.com/mycompany</code>, 테넌트는 <code>mycompany</code>.</td>
+                <td>이 [!DNL Workday] 계정의 테넌트를 입력하십시오. 테넌트는 조직의 식별자이며, Workday에 로그인하는 데 사용하는 URL에서 볼 수 있습니다. 예: 주소 <code>https://www.myworkday.com/mycompany</code>에서 테넌트는 <code>mycompany</code>입니다.</td>
             </tr>
             <tr>
                 <td role="rowheader">[!UICONTROL 클라이언트 ID]</td>
-                <td>클라이언트 ID 입력 [!DNL Workday] 이 연결에서 사용하는 응용 프로그램입니다. 다음에서 응용 프로그램을 만들 때 이 값을 가져옵니다. [!DNL Workday].</td>
+                <td>이 연결에서 사용하는 [!DNL Workday] 응용 프로그램의 클라이언트 ID를 입력하십시오. [!DNL Workday]에서 응용 프로그램을 만들 때 이 오류가 발생합니다.</td>
             </tr>
             <tr>
                 <td  role="rowheader">[!UICONTROL 클라이언트 암호]</td>
-                <td>클라이언트 암호 입력 [!DNL Workday] 이 연결에서 사용하는 응용 프로그램입니다. 다음에서 응용 프로그램을 만들 때 이 값을 가져옵니다. [!DNL Workday].</td>
+                <td>이 연결에서 사용하는 [!DNL Workday] 응용 프로그램의 클라이언트 암호를 입력하십시오. [!DNL Workday]에서 응용 프로그램을 만들 때 이 오류가 발생합니다.</td>
             </tr>
             <tr>
                 <td role="rowheader">[!UICONTROL 세션 시간 초과(분)]</td>
@@ -116,13 +116,13 @@ ht-degree: 2%
     </table>
 
 
-3. 클릭 [!UICONTROL 계속] 연결을 저장하고 모듈로 돌아가려면
+3. 연결을 저장하고 모듈로 돌아가려면 [!UICONTROL 계속]을 클릭하세요.
 
-## [!DNL Workday] 모듈 및 해당 필드
+## [!DNL Workday]개 모듈 및 해당 필드
 
-를 구성할 때 [!DNL Workday] 모듈, [!DNL Workfront Fusion] 아래 나열된 필드를 표시합니다. 이와 함께 추가 [!DNL Workday] 앱이나 서비스의 액세스 수준 등에 따라 필드가 표시될 수 있습니다. 모듈의 굵은 제목은 필수 필드를 나타냅니다.
+[!DNL Workday] 모듈을 구성할 때 [!DNL Workfront Fusion]에 아래 나열된 필드가 표시됩니다. 앱 또는 서비스의 액세스 수준과 같은 요소에 따라 이러한 필드와 함께 [!DNL Workday] 필드가 추가로 표시될 수 있습니다. 모듈의 굵은 제목은 필수 필드를 나타냅니다.
 
-필드나 함수 위에 맵 단추가 표시되면 이 단추를 사용하여 해당 필드에 대한 변수와 함수를 설정할 수 있습니다. 자세한 내용은 [의 한 모듈에서 다른 모듈로 정보 매핑 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+필드나 함수 위에 맵 단추가 표시되면 이 단추를 사용하여 해당 필드에 대한 변수와 함수를 설정할 수 있습니다. 자세한 내용은 [한 모듈에서 다른 모듈로 정보를 매핑 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)을 참조하십시오.
 
 ![](assets/map-toggle-350x74.png)
 
@@ -144,7 +144,7 @@ ht-degree: 2%
 
 #### [!UICONTROL 레코드 만들기]
 
-이 작업 모듈은에서 단일 레코드를 만듭니다. [!DNL Workday].
+이 작업 모듈은 [!DNL Workday]에 단일 레코드를 만듭니다.
 
 <table style="table-layout:auto"> 
     <col/>
@@ -152,7 +152,7 @@ ht-degree: 2%
     <tbody>
         <tr>
             <td role="rowheader">[!UICONTROL Connection]</td>
-            <td>연결에 대한 자세한 내용 [!DNL Workday] Workfront Fusion에 대한 계정은 다음을 참조하십시오. <a href="#Connect" class="MCXref xre[!DNL ]f" >연결 [!DNL Workday] 끝 [!DNL Workfront Fusion]</a>.</td>
+            <td>[!DNL Workday] 계정을 Workfront Fusion에 연결하는 방법에 대한 지침은 <a href="#Connect" class="MCXref xre[!DNL ]f" >[!DNL Workday]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</td>
         </tr>
         <tr>
             <td  role="rowheader">[!UICONTROL 레코드 유형]</td>
@@ -171,7 +171,7 @@ ht-degree: 2%
 
 #### [!UICONTROL 레코드 삭제]
 
-이 작업 모듈은에서 단일 레코드를 삭제합니다. [!DNL Workday].
+이 작업 모듈은 [!DNL Workday]에서 단일 레코드를 삭제합니다.
 
 <table style="table-layout:auto"> 
     <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
@@ -181,7 +181,7 @@ ht-degree: 2%
     <tbody>
         <tr>
             <td role="rowheader">[!UICONTROL Connection]</td>
-            <td>연결에 대한 자세한 내용 [!DNL Workday] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#Connect" class="MCXref xre[!DNL ]f" >연결 [!DNL Workday] 끝 [!DNL Workfront Fusion]</a>.</td>
+            <td>[!DNL Workday] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="#Connect" class="MCXref xre[!DNL ]f" >[!DNL Workday]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</td>
         </tr>
         <tr>
             <td  role="rowheader">[!UICONTROL 레코드 유형]</td>
@@ -205,7 +205,7 @@ ht-degree: 2%
 
 ### [!UICONTROL 사용자 지정 API 호출 만들기]
 
-이 작업 모듈에서는 다음을 위한 사용자 지정 인증 호출을 만들 수 있습니다. [!DNL Workday] API. 이렇게 하면 다른 사용자가 수행할 수 없는 데이터 흐름 자동화를 만들 수 있습니다 [!DNL Workday] 모듈.
+이 작업 모듈을 사용하면 [!DNL Workday] API에 대해 사용자 지정 인증된 호출을 수행할 수 있습니다. 이렇게 하면 다른 [!DNL Workday] 모듈에서 수행할 수 없는 데이터 흐름 자동화를 만들 수 있습니다.
 
 이 모듈을 구성할 때 다음 필드가 표시됩니다.
 
@@ -217,15 +217,15 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!DNL Connection]</p> </td> 
-            <td>연결에 대한 자세한 내용 [!DNL Workday] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#Connect" class="MCXref xre[!DNL ]f" >연결 [!DNL Workday] 끝 [!DNL Workfront Fusion]</a>.</td>
+            <td>[!DNL Workday] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="#Connect" class="MCXref xre[!DNL ]f" >[!DNL Workday]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</td>
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
-   <td>상대 경로 입력 <code style="color: #ff1493;">https://&lt;tenantHostname>/api/&lt;serviceName>/&lt;version>/&lt;tenant></code>.</td> 
+   <td><code style="color: #ff1493;">https://&lt;tenantHostname>/api/&lt;serviceName>/&lt;version>/&lt;tenant></code>과(와) 관련된 경로를 입력하십시오.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 메서드]</td> 
-   <td> <p>API 호출을 구성하는 데 필요한 HTTP 요청 메서드를 선택합니다. 자세한 내용은 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">의 HTTP 요청 메서드 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>API 호출을 구성하는 데 필요한 HTTP 요청 메서드를 선택합니다. 자세한 내용은 [!DNL Adobe Workfront Fusion]</a>에서 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">HTTP 요청 메서드를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -237,7 +237,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>표준 JSON 개체의 형태로 API 호출에 대한 본문 콘텐츠를 추가합니다.</p> <p>참고:  <p>다음과 같은 조건문을 사용할 때 <code>if</code> json에서 따옴표를 조건문 외부에 넣습니다.</p> 
+   <td> <p>표준 JSON 개체의 형태로 API 호출에 대한 본문 콘텐츠를 추가합니다.</p> <p>참고:  <p>JSON에서 <code>if</code>과(와) 같은 조건문을 사용할 때 따옴표를 조건문 외부에 넣으십시오.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -247,7 +247,7 @@ ht-degree: 2%
 
 #### [!UICONTROL 레코드 업데이트]
 
-이 작업 모듈은 의 단일 레코드를 업데이트합니다. [!DNL Workday].
+이 작업 모듈은 [!DNL Workday]의 단일 레코드를 업데이트합니다.
 
 <table style="table-layout:auto"> 
     <col/>
@@ -255,7 +255,7 @@ ht-degree: 2%
     <tbody>
         <tr>
             <td role="rowheader">[!UICONTROL Connection]</td>
-            <td>연결에 대한 자세한 내용 [!DNL Workday] Workfront Fusion에 대한 계정은 다음을 참조하십시오. <a href="#Connect" class="MCXref xref" >[!UICONTROL Connect [!DNL Workday] Workfront Fusion]</a></td>
+            <td>[!DNL Workday] 계정을 Workfront Fusion에 연결하는 방법은 <a href="#Connect" class="MCXref xref" >[!UICONTROL [!DNL Workday]을(를) Workfront Fusion에 연결</a>을 참조하십시오.</td>
         </tr>
         <tr>
             <td  role="rowheader">레코드 유형</td>
@@ -276,7 +276,7 @@ ht-degree: 2%
 
 * [[!UICONTROL 레코드 읽기]](#read-a-record)
 
-* [[!UICONTROL 목록 레코드]](#list-records)
+* [[!UICONTROL 레코드 나열]](#list-records)
 
 
 #### [!UICONTROL 레코드 읽기]
@@ -291,7 +291,7 @@ ht-degree: 2%
     <tbody>
         <tr>
             <td role="rowheader">[!UICONTROL Connection]</td>
-            <td>연결에 대한 자세한 내용 [!DNL Workday] Workfront Fusion에 대한 계정은 다음을 참조하십시오. <a href="#Connect" class="MCXref xref" >[!UICONTROL Connect [!DNL Workday] Workfront Fusion]</a></td>
+            <td>[!DNL Workday] 계정을 Workfront Fusion에 연결하는 방법은 <a href="#Connect" class="MCXref xref" >[!UICONTROL [!DNL Workday]을(를) Workfront Fusion에 연결</a>을 참조하십시오.</td>
         </tr>
         <tr>
             <td  role="rowheader">[!UICONTROL 레코드 유형]</td>
@@ -308,7 +308,7 @@ ht-degree: 2%
     </tbody>
 </table>
 
-#### [!UICONTROL 목록 레코드]
+#### [!UICONTROL 레코드 나열]
 
 이 검색 모듈은 지정된 유형의 레코드 목록을 검색합니다.
 
@@ -318,7 +318,7 @@ ht-degree: 2%
       <tbody>
           <tr>
               <td role="rowheader">[!UICONTROL Connection]</td>
-              <td>연결에 대한 자세한 내용 [!DNL Workday] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#Connect" class="MCXref xref" >연결 [!DNL Workday] 끝 [!DNL Workfront Fusion]</a></td>
+              <td>[!DNL Workday] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="#Connect" class="MCXref xref" >[!DNL Workday]을(를) [!DNL Workfront Fusion]</a>에 연결</td>
           </tr>
           <tr>
               <td  role="rowheader">[!UICONTROL 레코드 유형]</td>

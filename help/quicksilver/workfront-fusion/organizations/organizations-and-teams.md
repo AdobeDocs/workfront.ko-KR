@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Workfront Fusion] 조직 및 팀
+# [!DNL Adobe Workfront Fusion]개 조직 및 팀
 
 [!DNL Adobe Workfront Fusion]의 조직 및 팀 기능을 사용하면 기업에서 Fusion 내의 시나리오 및 기타 기능에 대한 액세스를 제어할 수 있습니다.
 
@@ -34,37 +34,37 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] 라이선스**</td> 
    <td>
-   <p>현재 라이선스 요구 사항: 아니요 [!DNL Workfront Fusion] 라이센스 요구 사항.</p>
+   <p>현재 라이선스 요구 사항: [!DNL Workfront Fusion] 라이선스 요구 사항이 없습니다.</p>
    <p>또는</p>
-   <p>기존 라이선스 요구 사항: [!UICONTROL [!DNL Workfront Fusion] 작업 자동화 및 통합용], [!UICONTROL [!DNL Workfront Fusion] 작업 자동화용]</p>
+   <p>레거시 라이선스 요구 사항: 작업 자동화 및 통합의 경우 [!UICONTROL [!DNL Workfront Fusion], 작업 자동화의 경우 [!UICONTROL [!DNL Workfront Fusion]]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">제품</td> 
    <td>
-   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime]이 있는 경우 [!DNL Adobe Workfront] 플랜, 조직은 다음을 구매해야 합니다. [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오. [!DNL Workfront Fusion] [!UICONTROL Ultimate]에 포함되어 있습니다. [!DNL Workfront] 계획.</p>
+   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime] [!DNL Adobe Workfront] 플랜이 있는 경우 조직에서 이 문서에 설명된 기능을 사용하려면 [!DNL Adobe Workfront Fusion]과(와) [!DNL Adobe Workfront]을(를) 구매해야 합니다. [!DNL Workfront Fusion]이(가) [!UICONTROL Ultimate] [!DNL Workfront] 계획에 포함되어 있습니다.</p>
    <p>또는</p>
-   <p>레거시 제품 요구 사항: 조직에서 구매해야 함 [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오.</p>
+   <p>레거시 제품 요구 사항: 이 문서에 설명된 기능을 사용하려면 조직에서 [!DNL Adobe Workfront Fusion]과(와) [!DNL Adobe Workfront]을(를) 구매해야 합니다.</p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">액세스 수준 구성*</td> 
    <td> 
-     <p>다음이어야 합니다: [!DNL Workfront Fusion] 조직의 관리자.</p>
-     <p>다음이어야 합니다: [!DNL Workfront Fusion] 팀 관리자.</p>
+     <p>조직의 [!DNL Workfront Fusion] 관리자여야 합니다.</p>
+     <p>팀의 [!DNL Workfront Fusion] 관리자여야 합니다.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
+보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
 
-<p>**다음에 대한 정보: [!DNL Adobe Workfront Fusion] 라이센스, 참조 <a href="../../workfront-fusion/get-started/license-automation-vs-integration.md" class="MCXref xref">[!DNL Adobe Workfront Fusion] 라이선스</a></p>
+<p>**[!DNL Adobe Workfront Fusion]개 라이선스에 대한 자세한 내용은 <a href="../../workfront-fusion/get-started/license-automation-vs-integration.md" class="MCXref xref">[!DNL Adobe Workfront Fusion]개 라이선스</a>를 참조하세요.</p>
 
 
 ## 조직
 
-[!DNL Workfront Fusion] 사용자가 조직에 속합니다.
+[!DNL Workfront Fusion]명의 사용자가 조직에 속합니다.
 
 * [조직 역할](#organization-roles)
 * [조직에 사용자 초대](#inviting-users-to-an-organization)
@@ -74,13 +74,13 @@ ht-degree: 0%
 
 사용자에게는 조직에서 다음 역할 중 하나가 있습니다.
 
-* **[!UICONTROL 소유자]**: 소유자는 조직에서 사용 가능한 모든 권한을 가지고 있습니다.
+* **[!UICONTROL 소유자]**: 소유자에게 조직에서 사용 가능한 모든 권한이 있습니다.
 * **[!UICONTROL 관리자]**: 관리자 역할을 통해 사용자는 조직의 팀 및 사용자를 만들고 관리할 수 있습니다.
-* **[!UICONTROL 멤버]**: 구성원은 다음을 사용할 수 있습니다. [!DNL Workfront Fusion] 그러나 조직을 변경할 수 없습니다.
-* **[!UICONTROL 회계사]**: 회계사 역할은 사용자가 조직 대시보드에서 라이선스 정보만 볼 수 있도록 허용합니다.
+* **[!UICONTROL 구성원]**: 구성원은 [!DNL Workfront Fusion]을(를) 사용할 수 있지만 조직을 변경할 수 없습니다.
+* **[!UICONTROL 회계사]**: 회계사 역할은 사용자가 조직 대시보드에서 라이선스 정보만 볼 수 있도록 합니다.
 * **[!UICONTROL 앱 개발자]**: 이 역할의 기능은 현재 사용할 수 없으며 곧 제공될 예정입니다. 지금은 이 역할에 사용자를 할당하지 않는 것이 좋습니다.
 
-각 조직 역할의 사용자가 사용할 수 있는 특정 작업에 대한 자세한 내용은 [조직 및 팀 역할](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
+각 조직 역할의 사용자가 사용할 수 있는 특정 작업에 대한 자세한 내용은 [조직 및 팀 역할](/help/quicksilver/workfront-fusion/organizations/organization-roles.md)을 참조하세요.
 
 ### 조직에 사용자 초대
 
@@ -88,17 +88,17 @@ ht-degree: 0%
 
 사용자를 조직에 초대하려면 다음 작업을 수행하십시오.
 
-1. 클릭 **[!UICONTROL 세부 정보 변경]** 화면의 오른쪽 상단에 있습니다.
-1. 선택 **[!UICONTROL 새 사용자 초대]**.
+1. 화면 오른쪽 상단의 **[!UICONTROL 세부 정보 변경]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 새 사용자 초대]**&#x200B;를 선택합니다.
 
    ![](assets/fusion-organization-invite-user-350x199.png)
 
 1. 사용자의 이메일 주소와 이름을 입력합니다.
-1. 사용자의 역할을 선택합니다. 역할에 대한 자세한 내용은 [조직 역할](#organization-roles) 이 문서에서.
+1. 사용자의 역할을 선택합니다. 역할에 대한 자세한 내용은 이 문서에서 [조직 역할](#organization-roles)을 참조하십시오.
 1. (선택 사항) 메모를 추가합니다. 이 메모는 사용자가 받는 초대 이메일에 표시됩니다.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-[!DNL Fusion] 은(는) 특정 조직 및 [!UICONTROL 역할 수락] 단추를 클릭합니다.
+[!DNL Fusion]이(가) 특정 조직에 초대장을 보내고 [!UICONTROL 역할 수락] 단추가 포함된 전자 메일을 보냅니다.
 
 수신자가 버튼을 클릭하면 초대를 수락할 수 있는 초대 페이지로 리디렉션됩니다.
 
@@ -106,7 +106,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->을 처음 사용하는 사용자인 경우 [!DNL Fusion], [!DNL Fusion] 은(는) 자동으로 계정을 만들고 임시 암호가 포함된 이메일을 보내어 새 사용자가 로그인하고 암호를 변경하도록 지시합니다.
+>사용자가 [!DNL Fusion]을(를) 처음 사용하는 경우 [!DNL Fusion]이(가) 자동으로 계정을 만들고 임시 암호가 포함된 전자 메일을 보내 새 사용자에게 로그인하여 암호를 변경하도록 지시합니다.
 
 ### 조직 간 전환
 
@@ -128,7 +128,7 @@ Fusion에서 두 개 이상의 조직에 속해 있을 수 있습니다. 조직 
 
 >[!NOTE]
 >
->팀이 리소스에 대한 액세스를 제어하므로 팀에는 한 명의 멤버만 있는 것이 유용한 경우도 있습니다. 예를 들어 교육 중인 사용자는 개인에 대한 연결을 만들 수 있습니다 [!DNL Google] 계정. 모든 팀원이 개인에 연결할 수도 있습니다. [!DNL Google] 계정, 따라서 이 경우 사용자가 교육 팀의 유일한 멤버인 것이 좋습니다.
+>팀이 리소스에 대한 액세스를 제어하므로 팀에는 한 명의 멤버만 있는 것이 유용한 경우도 있습니다. 예를 들어 교육 중인 사용자는 개별 [!DNL Google] 계정에 대한 연결을 만들 수 있습니다. 모든 팀 구성원이 개별 [!DNL Google] 계정에 연결할 수도 있으므로 이 경우 사용자가 교육 팀의 유일한 구성원이 되는 것이 좋습니다.
 
 조직에는 필요한 만큼 많은 팀이 있을 수 있으며 사용자는 하나 이상의 팀에 속할 수 있습니다.
 
@@ -141,13 +141,13 @@ Fusion에서 두 개 이상의 조직에 속해 있을 수 있습니다. 조직 
 
 사용자는 각 팀에서 다음 역할 중 하나를 수행합니다.
 
-* **[!UICONTROL 팀 관리자]**: 관리자 역할을 통해 다른 팀 역할의 기능 외에도 팀 구성원의 역할을 추가, 제거 또는 변경할 수 있습니다.
-* **[!UICONTROL 팀원]**: 팀 구성원 역할을 통해 사용자는 시나리오를 만들고 실행할 수 있습니다.
-* **[!UICONTROL 팀 모니터링]**: [!UICONTROL 모니터링] 역할을 통해 사용자는 시나리오의 실행 정보에 액세스할 수 있지만 시나리오를 디자인하거나 &quot;활성&quot; 상태를 변경할 수 없습니다.
-* **[!UICONTROL 팀 운영자]**: [!UICONTROL 연산자] 역할을 통해 사용자는 실행 데이터를 보고 시나리오의 &quot;활성&quot; 상태를 변경할 수 있습니다.
-* **[!UICONTROL 팀 제한된 구성원]**: 이 역할의 기능은 현재 사용할 수 없으며 곧 제공될 예정입니다. 지금은 이 역할에 사용자를 할당하지 않는 것이 좋습니다.
+* **[!UICONTROL 팀 관리자]**: 관리자 역할로 다른 팀 역할의 기능 외에 팀 구성원의 역할을 추가, 제거 또는 변경할 수 있습니다.
+* **[!UICONTROL 팀 구성원]**: 팀 구성원 역할을 통해 사용자는 시나리오를 만들고 실행할 수 있습니다.
+* **[!UICONTROL 팀 모니터링]**: [!UICONTROL 모니터링] 역할을 사용하면 사용자가 시나리오에 대한 실행 정보에 액세스할 수 있지만 시나리오를 디자인하거나 &quot;활성&quot; 상태를 변경할 수 없습니다.
+* **[!UICONTROL 팀 연산자]**: [!UICONTROL 연산자] 역할을 사용하면 사용자가 실행 데이터를 보고 시나리오의 &quot;활성&quot; 상태를 변경할 수 있습니다.
+* **[!UICONTROL 제한된 팀 구성원]**: 이 역할의 기능은 현재 사용할 수 없으며 곧 사용할 수 있게 됩니다. 지금은 이 역할에 사용자를 할당하지 않는 것이 좋습니다.
 
-각 팀 역할의 사용자가 사용할 수 있는 특정 작업에 대한 자세한 내용은 [조직 및 팀 역할](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
+각 팀 역할의 사용자가 사용할 수 있는 특정 작업에 대한 자세한 내용은 [조직 및 팀 역할](/help/quicksilver/workfront-fusion/organizations/organization-roles.md)을 참조하세요.
 
 ### 팀 관리
 
@@ -160,10 +160,10 @@ Fusion에서 두 개 이상의 조직에 속해 있을 수 있습니다. 조직 
 
 팀을 만들려면 다음 작업을 수행하십시오.
 
-1. 왼쪽 탐색 패널에서 을 클릭합니다. **[!UICONTROL 조직]**
-1. 다음 항목 선택 **[!UICONTROL 팀]** 탭.
-1. 클릭 **[!UICONTROL 새 팀 추가]** 팀 목록 아래에 있습니다.
-1. 새 팀의 이름을 입력하고 **추가**.
+1. 왼쪽 탐색 패널에서 **[!UICONTROL 조직]**&#x200B;을 클릭합니다
+1. **[!UICONTROL 팀]** 탭을 선택합니다.
+1. 팀 목록 아래에 있는 **[!UICONTROL 새 팀 추가]**&#x200B;를 클릭합니다.
+1. 새 팀의 이름을 입력하고 **추가**&#x200B;를 클릭합니다.
 
 #### 팀 알림 옵션 설정
 
@@ -173,12 +173,12 @@ Fusion에서 두 개 이상의 조직에 속해 있을 수 있습니다. 조직 
 >
 >Adobe 알림 영역을 포함한 통합 쉘 경험을 사용하려면 페이지 상단에 있는 통합 경험에서 새 Fusion UI 시도 단추를 클릭합니다. 이 단추는 조직이 통합 쉘로 이동한 경우에만 사용할 수 있습니다.
 >
->자세한 내용은 [알림 액세스](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications) 위치: [!DNL Adobe Unified Experience] 대상 [!DNL Workfront Fusion].
+>자세한 내용은 [!DNL Workfront Fusion]의 [!DNL Adobe Unified Experience]에서 [알림에 액세스](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications)를 참조하십시오.
 
 이메일 알림 옵션은 팀 수준에서 설정됩니다.
 
-1. 왼쪽 탐색 패널에서 을 클릭합니다. **[!UICONTROL 팀]**
-1. 다음 항목 선택 **[!UICONTROL 알림 옵션]** 탭.
+1. 왼쪽 탐색 패널에서 **[!UICONTROL 팀]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 알림 옵션]** 탭을 선택합니다.
 1. 팀이 수신할 알림을 활성화합니다.
 
    <table style="table-layout:auto"> 
@@ -195,7 +195,7 @@ Fusion에서 두 개 이상의 조직에 속해 있을 수 있습니다. 조직 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL 시나리오 비활성화]</p> </td> 
-      <td><p>시나리오가 비활성화되면 이메일을 받습니다.</p><p><b>참고:</b> 오류로 인해 시나리오가 자동으로 비활성화되는 경우에만 시나리오 비활성화에 대한 알림이 표시됩니다. 수동으로 비활성화된 시나리오에 대한 알림은 받지 않습니다.</p><p>경우에 따라 시나리오는 [!DNL Workfront Fusion] 엔지니어링 팀 이유는 시나리오가 성능 또는 기타 문제를 일으키기 때문입니다. 이러한 경우에서 알림을 받지 않습니다. [!DNL Workfront Fusion]. </p></td>
+      <td><p>시나리오가 비활성화되면 이메일을 받습니다.</p><p><b>참고:</b> 시나리오가 오류로 인해 자동으로 비활성화되는 경우에만 시나리오 비활성화에 대한 알림을 받습니다. 수동으로 비활성화된 시나리오에 대한 알림은 받지 않습니다.</p><p>시나리오가 성능 또는 다른 문제를 일으키므로 [!DNL Workfront Fusion] 엔지니어링 팀에서 시나리오를 비활성화하는 경우가 있습니다. 이러한 경우 [!DNL Workfront Fusion]에서 알림을 받지 않습니다. </p></td>
 
 </tr>
 </tbody>

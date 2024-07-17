@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration;timesheets
 navigation-topic: set-up-workfront
 title: 일정 및 타임시트 환경 설정 구성
-description: 로서의 [!DNL Workfront] 관리자는 스케줄을 사용하여 작업 주를 정의하고 사용자 또는 프로젝트와 스케줄을 연관시킬 수 있습니다. 이렇게 하면 [!DNL Adobe Workfront] 을 클릭하여 타임라인 및 사용자 가용성을 계산합니다. 타임시트 및 시간 환경 설정을 구성할 수도 있습니다.
+description: ' [!DNL Workfront] 관리자는 일정을 사용하여 작업 주를 정의하고 사용자 또는 프로젝트와 일정을 연결할 수 있습니다. 이를 통해  [!DNL Adobe Workfront] 에서는 타임라인과 사용자 가용성을 계산할 수 있습니다. 타임시트 및 시간 환경 설정을 구성할 수도 있습니다.'
 author: Caroline
 feature: System Setup and Administration
 role: Admin

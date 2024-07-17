@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->접수 열의 모든 카드는 그룹에 포함되지 않으며, 그룹을 적용하면 접수 열이 숨겨집니다. 접수 열에 대한 자세한 내용은 [보드에 접수 열 추가](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+>접수 열의 모든 카드는 그룹에 포함되지 않으며, 그룹을 적용하면 접수 열이 숨겨집니다. 접수 열에 대한 자세한 내용은 [보드에 접수 열 추가](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)를 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -34,7 +34,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 플랜*</strong></td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
@@ -43,19 +43,19 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
+&#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
 
 ## 보드에서 카드 그룹화
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](assets/main-menu-icon.png) 의 오른쪽 위 모서리 [!DNL Adobe Workfront]을 클릭한 다음 을 클릭합니다 **[!UICONTROL 게시판]**.
-1. 보드에 액세스합니다. 자세한 내용은 [보드 만들기 또는 편집](../../agile/get-started-with-boards/create-edit-board.md).
-1. 클릭 **[!UICONTROL 그룹]** 을 클릭하여 보드 왼쪽에 있는 그룹 패널을 엽니다.
+1. [!DNL Adobe Workfront]의 오른쪽 위 모서리에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 게시판]**&#x200B;을 클릭합니다.
+1. 보드에 액세스합니다. 자세한 내용은 [게시판 만들기 또는 편집](../../agile/get-started-with-boards/create-edit-board.md)을 참조하세요.
+1. **[!UICONTROL 그룹]**&#x200B;을 클릭하여 게시판 왼쪽의 그룹 패널을 엽니다.
 
    >[!NOTE]
    >
-   >그룹화 기준 기본 설정은 입니다. **[!UICONTROL 없음]**. 언제든지 이 옵션을 선택하여 그룹을 제거하고 보드에 열만 표시할 수 있습니다.
+   >그룹화 기준 기본 설정은 **[!UICONTROL 없음]**&#x200B;입니다. 언제든지 이 옵션을 선택하여 그룹을 제거하고 보드에 열만 표시할 수 있습니다.
 
-1. 카드를 그룹화하려면 **[!UICONTROL 할당자]** 또는 **[!UICONTROL 태그]**.
+1. 카드를 그룹화하려면 **[!UICONTROL 피할당자]** 또는 **[!UICONTROL 태그]**&#x200B;를 선택하세요.
 
    카드는 자동으로 그룹화됩니다. 그룹을 축소하고 확장하려면 그룹 이름 옆에 있는 화살표를 클릭합니다.
 
@@ -63,9 +63,9 @@ ht-degree: 0%
 
 1. 카드를 다른 그룹으로 이동할 때 수행할 작업을 선택합니다.
 
-   * **[!UICONTROL 피할당자에 추가] / [!UICONTROL 태그에 추가]:** 새 그룹의 할당자 또는 태그가 카드의 기존 할당자 또는 태그 목록에 추가됩니다.
-   * **[!UICONTROL 피할당자 무시] / [!UICONTROL 태그 재정의]:** 새 그룹의 할당자 또는 태그는 다른 모든 할당자 또는 태그를 재정의하며 카드의 유일한 할당자 또는 태그가 됩니다.
+   * **[!UICONTROL 피할당자에 추가] / [!UICONTROL 태그에 추가]:** 새 그룹의 피할당자 또는 태그가 카드의 기존 피할당자 또는 태그 목록에 추가됩니다.
+   * **[!UICONTROL 피할당자 재정의] / [!UICONTROL 태그 재정의]:** 새 그룹의 피할당자 또는 태그가 다른 모든 피할당자 또는 태그를 재정의하고 카드의 유일한 피할당자 또는 태그가 됩니다.
 
    ![[!UICONTROL 옵션별 그룹화]](assets/group-by-rail.png)
 
-1. 클릭 **[!UICONTROL 그룹 숨기기]** 그룹 패널을 숨기고 전체 게시판을 표시합니다.
+1. **[!UICONTROL 그룹 숨기기]**&#x200B;를 클릭하여 그룹 패널을 숨기고 전체 게시판을 표시합니다.

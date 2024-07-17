@@ -73,31 +73,31 @@ Adobe Workfront Planning에서 레코드는 레코드 유형의 인스턴스입�
   </tr>
 <tr>
    <td role="rowheader"><p>권한</p></td>
-   <td> <p>작업 영역에 대한 상위 권한 기여</a> </p>  
+   <td> <p>작업 영역에 대한 Contribute 이상의 권한</a> </p>  
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p>
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>레이아웃 템플릿</p></td>
-   <td> <p>Workfront 또는 그룹 관리자는 레이아웃 템플릿에 계획 영역을 추가해야 합니다. 자세한 내용은 <a href="/help/quicksilver/planning/access/access-overview.md">액세스 개요</a>. </p>  
+   <td> <p>Workfront 또는 그룹 관리자는 레이아웃 템플릿에 계획 영역을 추가해야 합니다. 자세한 내용은 <a href="/help/quicksilver/planning/access/access-overview.md">액세스 개요</a>를 참조하십시오. </p>  
 </td>
   </tr>
 
 </tbody>
 </table>
 
-*자세한 내용은 [Workfront 설명서에 대한 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*자세한 내용은 [Workfront 설명서에 대한 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 <!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/planning/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-## 수동으로 레코드 유형에 추가하여 레코드 만들기 <!--in a record type table (I don't think you can create them elsewhere right now)-->
+## 레코드 형식 <!--in a record type table (I don't think you can create them elsewhere right now)-->에 레코드를 수동으로 추가하여 만듭니다.
 
 레코드 유형 페이지의 표 보기에서 레코드를 만들 수 있습니다.
 
-레코드 정보 편집에 대한 자세한 내용은 [레코드 편집](/help/quicksilver/planning/records/edit-records.md).
+레코드 정보 편집에 대한 자세한 내용은 [레코드 편집](/help/quicksilver/planning/records/edit-records.md)을 참조하세요.
 
 {{step1-to-planning}}
 
@@ -105,7 +105,7 @@ Adobe Workfront Planning에서 레코드는 레코드 유형의 인스턴스입�
 
    작업공간이 열리고 레코드 유형이 카드로 표시됩니다.
 
-1. 레코드 유형 카드를 클릭합니다. 레코드 종류 만들기에 대한 내용은 [레코드 유형 만들기](/help/quicksilver/planning/architecture/create-record-types.md).
+1. 레코드 유형 카드를 클릭합니다. 레코드 종류 만들기에 대한 자세한 내용은 [레코드 종류 만들기](/help/quicksilver/planning/architecture/create-record-types.md)를 참조하세요.
 
    마지막으로 액세스한 보기에서 레코드 유형 페이지가 열립니다. 기본적으로 레코드 유형 페이지가 표 뷰에 열립니다.
 선택한 유형의 모든 레코드가 뷰에 표시됩니다.
@@ -114,15 +114,15 @@ Adobe Workfront Planning에서 레코드는 레코드 유형의 인스턴스입�
 
    * 테이블 보기에서:
 
-      * 클릭 **새 레코드** 테이블의 마지막 행에서
+      * 테이블의 마지막 행에서 **새 레코드**&#x200B;을(를) 클릭합니다.
 
-      * 클릭 **Shift + Enter** 표의 열 또는 행에서 키보드에 있는 경우 빈 행이 표시됩니다.
+      * 표의 열 또는 행에서 키보드에서 **Shift + Enter**&#x200B;를 클릭합니다. 빈 행이 표시됩니다.
 
      ![](assets/adding-a-new-campaign-in-table-row.png)
 
    * 모든 보기에서:
 
-      * 클릭 **새 레코드** 페이지의 오른쪽 상단 모서리에서 을 참조하십시오. 레코드 미리 보기 상자가 열립니다.
+      * 페이지의 오른쪽 상단에 있는 **새 레코드**&#x200B;을(를) 클릭합니다. 레코드 미리 보기 상자가 열립니다.
 
      Workfront은 각 새 레코드에 썸네일과 표지 이미지를 자동으로 업로드합니다. 나중에 이러한 이미지를 수정할 수 있습니다. 자세한 내용은 다음 문서를 참조하십시오.
 
@@ -133,22 +133,22 @@ Adobe Workfront Planning에서 레코드는 레코드 유형의 인스턴스입�
 
    >[!NOTE]
    >
-   >  * 레코드에 대한 필수 필드가 없습니다. 그러나 레코드를 서로 연결할 때 레코드를 식별하는 데 도움이 되므로 레코드의 기본 필드에 대한 정보를 추가하는 것이 좋습니다. 기본 필드에 대한 자세한 내용은 [표 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md) 및 [기본 필드 개요](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >  * 레코드에 대한 필수 필드가 없습니다. 그러나 레코드를 서로 연결할 때 레코드를 식별하는 데 도움이 되므로 레코드의 기본 필드에 대한 정보를 추가하는 것이 좋습니다. 기본 필드에 대한 자세한 내용은 [테이블 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md) 및 [기본 필드 개요](/help/quicksilver/planning/fields/primary-field-overview.md)를 참조하십시오.
    >
    >  * 다른 레코드 종류 또는 계산된 필드를 참조하는 필드는 읽기 전용 필드입니다.
 
-1. (조건부) 테이블에서 레코드를 추가할 때 각 행에 대한 정보를 계속 추가한 다음 을 클릭합니다 **입력** 키보드에서 을(를) 클릭하여 변경 내용을 저장합니다.
+1. (조건부) 표에 레코드를 추가할 때 각 행에 정보를 계속 추가한 다음 키보드에서 **Enter**&#x200B;를 클릭하여 변경 내용을 저장합니다.
 
    또는
 
-   새 레코드의 이름 또는 **세부 정보 열기** 아이콘 ![](assets/open-details-icon-in-table-name-field.png) 레코드 이름 왼쪽에 있습니다. 레코드의 세부 정보가 포함된 미리보기가 테이블에 열립니다.
+   새 레코드 이름 또는 레코드 이름 왼쪽에 있는 **세부 정보 열기** 아이콘 ![](assets/open-details-icon-in-table-name-field.png)을(를) 클릭합니다. 레코드의 세부 정보가 포함된 미리보기가 테이블에 열립니다.
 
    >[!TIP]
    >
-   >다음에 액세스할 수 있습니다. **세부 정보 열기** ( 이름 필드가 기본 필드인 경우 레코드의 이름 필드에서만) 아이콘으로 표시됩니다.
+   >이름 필드가 기본 필드인 경우 레코드의 이름 필드에서만 **세부 정보 열기** 아이콘에 액세스할 수 있습니다.
 
 1. 레코드 미리 보기에서 레코드 정보 편집을 시작합니다. Workfront은 변경 사항을 자동으로 저장합니다.
-1. (선택 사항) **새 탭에서 열기** 아이콘 ![](assets/open-details-in-a-new-tab-icon.png) 레코드 미리 보기의 오른쪽 상단 모서리에서 새 탭에서 레코드 페이지를 엽니다. 레코드 페이지에서 레코드 편집을 계속합니다. 자세한 내용은 [레코드 편집](/help/quicksilver/planning/records/edit-records.md).
+1. (선택 사항) 레코드 미리 보기의 오른쪽 상단에 있는 **새 탭에서 열기** 아이콘 ![](assets/open-details-in-a-new-tab-icon.png)을(를) 클릭하여 새 탭에서 레코드 페이지를 엽니다. 레코드 페이지에서 레코드 편집을 계속합니다. 자세한 내용은 [레코드 편집](/help/quicksilver/planning/records/edit-records.md)을 참조하세요.
 
 1. (선택 사항) 다음 키보드 단축키를 사용하여 표 보기에서 새 레코드 또는 해당 정보를 추가할 때 해당 추가 작업을 취소하거나 다시 실행합니다.
 
@@ -179,11 +179,11 @@ You can import records from other applications by linking them to existing recor
 
 ## 외부 목록에서 정보를 복사하여 붙여 넣어 레코드 만들기
 
-1. 섹션에 설명된 대로 테이블 보기에서 레코드 만들기를 시작합니다. [수동으로 레코드 유형에 추가하여 레코드 만들기](#create-records-by-manually-adding-them-to-a-record-type) 이 문서에서.
+1. 이 문서의 [레코드 형식에 수동으로 추가하여 레코드 만들기](#create-records-by-manually-adding-them-to-a-record-type) 섹션에 설명된 대로 테이블 보기에서 레코드 만들기를 시작합니다.
 
    테이블 뷰에 새 레코드 정보로 채울 열(또는 필드)이 있는지 확인합니다.
 
-1. 클릭 **새로 만들기 &lt; 레코드 유형 이름 >** 테이블의 마지막 행에 새 레코드를 원하는 만큼 추가합니다.
+1. 테이블의 마지막 행에서 **새 &lt; 레코드 유형 이름 >**&#x200B;을(를) 클릭하여 새 레코드를 원하는 만큼 테이블에 새 행을 추가합니다.
 
    예를 들어 다른 응용 프로그램에서 10개의 새 레코드에 대한 정보를 붙여넣으려면 10개의 행을 테이블 보기에 추가합니다.
 

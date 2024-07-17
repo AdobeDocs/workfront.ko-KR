@@ -29,7 +29,7 @@ ht-degree: 7%
 
 ## 사용자 정의 양식을 만드는 방법
 
-에서 사용자 정의 양식을 만드는 두 가지 옵션이 있습니다. [!DNL Workfront]. 기존 사용자 정의 양식 빌더 또는 새 양식 디자이너를 사용할 수 있습니다.
+[!DNL Workfront]에 사용자 정의 양식을 만드는 두 가지 옵션이 있습니다. 기존 사용자 정의 양식 빌더 또는 새 양식 디자이너를 사용할 수 있습니다.
 
 * [기존 사용자 정의 양식 빌더](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
 * [양식 디자이너](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-toc.md)
@@ -78,8 +78,8 @@ Workfront에서 다음 유형의 사용자 정의 필드를 사용자 정의 양
 * 반복
 * 청구 기록
 
-사용자 정의 양식을 오브젝트에 첨부하는 방법에 대한 자세한 내용은 [오브젝트에 사용자 정의 양식 추가](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+개체에 사용자 정의 양식을 첨부하는 방법에 대한 자세한 내용은 [개체에 사용자 정의 양식 추가](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)를 참조하십시오.
 
-개체를 변환할 때 사용자 정의 양식이 어떻게 되는지에 대한 자세한 내용은 [개체를 변환할 때 사용자 정의 양식 데이터 전송](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
+개체를 변환할 때 사용자 정의 양식이 어떻게 되는지에 대한 자세한 내용은 [개체를 변환할 때 사용자 정의 양식 데이터 전송](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md)을 참조하십시오.
 
 

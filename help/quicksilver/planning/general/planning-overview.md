@@ -32,7 +32,7 @@ ht-degree: 2%
 >
 >이 단계에 속해 있다면 계정 담당자가 귀하에게 알려 주었을 것입니다.
 >
->Workfront Planning을 문서화하는 모든 섹션 및 문서의 전체 목록은 다음을 참조하십시오. [Adobe Workfront Planning: 문서 색인](/help/quicksilver/planning/planning-information.md).
+>Workfront Planning을 문서화하는 모든 섹션 및 문서의 전체 목록은 [Adobe Workfront Planning: 문서 색인](/help/quicksilver/planning/planning-information.md)을 참조하십시오.
 
 <!--[View a video demonstration of Adobe Workfront Planning capabilities.](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
@@ -59,7 +59,7 @@ Adobe Workfront Planning은 Adobe Workfront의 새로운 제품입니다. Workfr
 
 다음 표는 Workfront Planning에서 사용할 수 있는 주요 기능과 해당 기능의 사용 가능 시간표를 보여 줍니다. 목록에 모든 기능이 포함되지 않습니다.
 
-새로운 기능과 출시된 시기에 대한 자세한 내용은 [Adobe Workfront Planning 현재 릴리스 활동](/help/quicksilver/planning/general/release-activity.md).
+새로운 기능 및 릴리스 시기에 대한 자세한 내용은 [Adobe Workfront Planning 현재 릴리스 활동](/help/quicksilver/planning/general/release-activity.md)을 참조하십시오.
 
 | 기능 | 현재 사용 가능 | 곧 사용 가능 | 연구 중 |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
@@ -106,7 +106,7 @@ Adobe Workfront Planning은 Adobe Workfront의 새로운 제품입니다. Workfr
 
 해당 기능에 액세스하려면 먼저 조직이 Adobe Workfront Planning 프로그램에 등록해야 합니다. 자격이 되는 경우 계정 담당자가 이 프로그램 등록에 대한 정보를 제공해야 합니다.
 
-액세스 권한을 부여하고 다른 사용자가 Workfront Planning을 사용할 수 있도록 하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [액세스 개요](/help/quicksilver/planning/access/access-overview.md).
+액세스 권한을 부여하고 다른 사용자가 Workfront Planning을 사용할 수 있도록 하는 방법에 대한 자세한 내용은 [액세스 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
 
 ## Adobe Workfront Planning 용어
 
@@ -116,15 +116,15 @@ Workfront Planning의 프레임워크는 완전히 사용자 정의할 수 있�
 
 다음은 주요 Workfront Planning 개체 및 개념입니다.
 
-* **Workspace**: 특정 조직의 운영 라이프사이클을 정의하는 레코드 유형의 컬렉션입니다. 작업 공간은 조직 단위의 작업 프레임입니다.
+* **Workspace**: 특정 조직의 작업 주기를 정의하는 레코드 형식의 컬렉션입니다. 작업 공간은 조직 단위의 작업 프레임입니다.
 
   하나의 Workfront 인스턴스에는 최대 1,000개의 작업 공간이 있을 수 있습니다.
 
   ![](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
 
-  자세한 내용은 [작업 공간 만들기](/help/quicksilver/planning/architecture/create-workspaces.md).
+  자세한 내용은 [작업 영역 만들기](/help/quicksilver/planning/architecture/create-workspaces.md)를 참조하십시오.
 
-* **레코드 유형**: 오브젝트 유형 또는 Workfront Planning.
+* **레코드 종류**: 개체 종류 또는 Workfront Planning.
 
   객체 유형이 사전 정의된 Workfront과 달리 Workfront Planning에서는 고유한 객체 유형을 만들 수 있습니다.
 
@@ -132,9 +132,9 @@ Workfront Planning의 프레임워크는 완전히 사용자 정의할 수 있�
 
   Workfront Planning에서 조직의 워크플로에 맞는 모든 레코드 유형을 만들 수 있습니다. 나중에 레코드 종류 간에 어떤 관계가 있는지 정의하거나 양식 종속성을 정의할 수 있습니다.
 
-  자세한 내용은 [레코드 유형 개요](/help/quicksilver/planning/architecture/overview-of-record-types.md).
+  자세한 내용은 [레코드 종류 개요](/help/quicksilver/planning/architecture/overview-of-record-types.md)를 참조하세요.
 
-* **기록**: 레코드 유형의 인스턴스입니다.
+* **레코드**: 레코드 형식의 인스턴스입니다.
 
   ![](assets/records-highlighted-in-campaign-record-type-list.png)
 
@@ -142,17 +142,17 @@ Workfront Planning의 프레임워크는 완전히 사용자 정의할 수 있�
 
   예를 들어 &quot;Campaign&quot;은 레코드 유형이고 &quot;EMEA에 대한 여름 캠페인&quot;은 캠페인 레코드 유형의 레코드입니다
 
-  자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md).
+  자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)를 참조하세요.
 
-* **Workspace 템플릿**: 사전 정의된 템플릿을 사용하여 작업 공간을 만들 수 있습니다. 템플릿에 있는 미리 정의된 레코드 종류 및 필드를 사용하거나 사용자 고유의 레코드 종류를 추가할 수 있습니다.
+* **Workspace 템플릿**: 미리 정의된 템플릿을 사용하여 작업 영역을 만들 수 있습니다. 템플릿에 있는 미리 정의된 레코드 종류 및 필드를 사용하거나 사용자 고유의 레코드 종류를 추가할 수 있습니다.
 
   ![](assets/workspaces-page-with-templates-thumbnails.png)
 
   Adobe Workfront Planning에는 판매, 마케팅 및 제품 관리 작업 영역 템플릿이 포함되어 있습니다.
 
-  자세한 내용은 [작업 공간 만들기](/help/quicksilver/planning/architecture/create-workspaces.md).
+  자세한 내용은 [작업 영역 만들기](/help/quicksilver/planning/architecture/create-workspaces.md)를 참조하십시오.
 
-* **필드**: 필드는 레코드 유형에 추가할 수 있는 속성입니다. 필드에는 레코드 유형에 대한 정보가 포함됩니다. <!--check the shot below, "Connection" needs to be in lowercase-->
+* **필드**: 필드는 레코드 형식에 추가할 수 있는 특성입니다. 필드에는 레코드 유형에 대한 정보가 포함됩니다. <!--check the shot below, "Connection" needs to be in lowercase-->
 
   ![](assets/drop-down-list-of-record-fields.png)
 
@@ -166,7 +166,7 @@ Workfront Planning의 프레임워크는 완전히 사용자 정의할 수 있�
 
    * 필드는 완전히 사용자 지정할 수 있으며 Workfront Planning에서만 액세스할 수 있습니다. Workfront에서 Workfront Planning 필드에 액세스할 수 없습니다.
 
-  자세한 내용은 [필드 만들기](/help/quicksilver/planning/fields/create-fields.md).
+  자세한 내용은 [필드 만들기](/help/quicksilver/planning/fields/create-fields.md)를 참조하십시오.
 
   새 레코드 유형은 기본적으로 다음과 같은 사전 정의된 필드와 연결되어 있습니다.
 
@@ -194,7 +194,7 @@ Workfront Planning의 프레임워크는 완전히 사용자 정의할 수 있�
    * 마지막 수정자
    * 마지막 수정일
 
-* **연결된 레코드 유형**, **연결된 레코드**, 및 **연결된 레코드 필드** 또는 **연결된 레코드 유형**, **연결된 레코드**, 및 **연결된 필드**: Workfront Planning에서 다음 엔티티 간에 연결을 만들 수 있습니다.
+* **연결된 레코드 형식**, **연결된 레코드** 및 **연결된 레코드 필드** 또는 **연결된 레코드 형식**, **연결된 레코드** 및 **연결된 필드**: Workfront Planning에서 다음 엔터티 간에 연결을 만들 수 있습니다.
 
    * 두 가지 레코드 유형.
    * 기록 유형 및 Workfront 프로젝트, 프로그램, 포트폴리오, 회사 또는 그룹 객체 유형.
@@ -207,7 +207,7 @@ Workfront Planning의 프레임워크는 완전히 사용자 정의할 수 있�
 
   레코드 종류 간에 연결을 설정한 후 해당 형식의 개별 레코드를 서로 연결할 수 있습니다. 레코드 간의 연결은 연결된 레코드 필드로 표시됩니다.
 
-* **연결된 필드** (또는 조회 필드): 두 레코드 유형 간에 연결을 설정하고 개별 레코드를 함께 연결하면 연결 중인 레코드에서 연결된 레코드의 필드를 참조할 수 있습니다.
+* **연결된 필드**(또는 조회 필드): 두 레코드 종류 간에 연결을 설정하고 개별 레코드를 함께 연결하면 연결 중인 레코드에서 연결된 레코드의 필드를 참조할 수 있습니다.
 
   예를 들어 캠페인 레코드 유형을 Workfront 프로젝트 오브젝트 유형과 연결하는 경우, 캠페인 레코드에 연결된 프로젝트의 예산 필드를 표시할 수 있습니다.
 
@@ -229,7 +229,7 @@ Workfront Planning의 프레임워크는 완전히 사용자 정의할 수 있�
 
 <!--not yet:* Fields are reusable across Record Types.  -->
 
-* **보기**: 레코드는 다양한 유형의 보기에서 해당 레코드 유형 페이지 아래에 표시됩니다.
+* **보기**: 레코드가 각 레코드 형식 페이지 아래에 다른 형식의 보기로 표시됩니다.
 
   ![](assets/view-types-drop-down-from-record-type-list.png)
 
@@ -237,19 +237,19 @@ Workfront Planning의 프레임워크는 완전히 사용자 정의할 수 있�
 
   다음은 레코드 유형 페이지에 적용할 수 있는 보기 유형입니다.
 
-   * **표 보기**: 레코드와 해당 필드를 표 형식으로 표시합니다. 표의 행은 개별 레코드이고 열은 레코드 필드입니다. 기본 보기입니다.
+   * **테이블 보기**: 레코드와 해당 필드를 테이블 형식으로 표시합니다. 표의 행은 개별 레코드이고 열은 레코드 필드입니다. 기본 보기입니다.
 
      ![](assets/table-view-example.png)
 
-   * **타임라인 보기**: 시간 표시 막대에 날짜 유형 필드가 두 개 이상 있는 레코드를 표시합니다.
+   * **타임라인 보기**: 날짜 형식 필드가 두 개 이상 있는 레코드를 시간 순서대로 표시합니다.
 
      ![](assets/grouping-applied-in-timeline-view.png)
 
-   * **달력 보기**: 날짜 유형 필드가 두 개 이상 있는 레코드를 달력 형식으로 표시합니다.
+   * **일정 보기**: 날짜 유형 필드가 두 개 이상 있는 레코드를 일정 형식으로 표시합니다.
      ![](assets/calendar-view-example.png)
 
 
-자세한 내용은 [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md).
+자세한 내용은 [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md)를 참조하십시오.
 
 
 ## Adobe Workfront Planning 개체 제한 사항
@@ -281,37 +281,37 @@ Workfront Planning의 프레임워크는 완전히 사용자 정의할 수 있�
 
 ## Adobe Workfront Planning 찾기
 
-조직에서 Workfront Planning에 대한 액세스 권한을 받았으며 시스템 또는 그룹 관리자가 Main Menu에 Planning 영역을 추가했는지 확인합니다. 자세한 내용은 [액세스 개요](/help/quicksilver/planning/access/access-overview.md).
+조직에서 Workfront Planning에 대한 액세스 권한을 받았으며 시스템 또는 그룹 관리자가 Main Menu에 Planning 영역을 추가했는지 확인합니다. 자세한 내용은 [액세스 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
 
 Workfront Planning을 찾으려면 다음을 수행합니다.
 
 1. Adobe Workfront에 로그인.
 
-1. 다음을 클릭합니다. **메인 메뉴** ![](assets/main-menu-workfront.png) 오른쪽 상단에서 를 클릭하거나 **메인 메뉴** ![](assets/main-menu-shell.png) 사용 가능한 경우 왼쪽 상단 모서리에 있습니다.
+1. 오른쪽 상단의 **주 메뉴** ![](assets/main-menu-workfront.png)을(를) 클릭하거나 왼쪽 상단의 **주 메뉴** ![](assets/main-menu-shell.png)을(를) 클릭합니다(사용 가능한 경우).
 
-1. 클릭 **계획 수립** ![](assets/planning-icon.png).
+1. **계획** ![](assets/planning-icon.png)을 클릭합니다.
 
    Workfront Planning 랜딩 페이지가 열립니다.
 
    ![](assets/planning-landing-page-admin.png)
 
 1. (조건부 및 선택 사항) Workfront 관리자인 경우 다음 탭 중 하나를 클릭합니다.
-   * **내 작업 공간**: 사용자가 만든 작업 공간을 표시합니다.
-   * **기타 작업 공간**: 사용자와 공유된 작업 공간을 포함하여 시스템의 다른 모든 작업 공간을 표시합니다.
+   * **내 작업 영역**: 사용자가 만든 작업 영역을 표시합니다.
+   * **다른 작업 영역**: 사용자와 공유된 작업 영역을 포함하여 시스템의 다른 모든 작업 영역을 표시합니다.
 
-   다른 모든 사용자의 경우, 사용자가 만들었거나 사용자와 공유되는 모든 작업 공간은 **작업 공간** 영역입니다.
+   다른 모든 사용자의 경우 해당 사용자가 만들었거나 사용자와 공유하는 모든 작업 영역이 **작업 영역** 영역에 표시됩니다.
 
 1. (선택 사항 및 권장) 다음 작업 중 일부를 계속하여 작업 구조를 빌드합니다.
 
-   1. 처음부터 작업공간을 작성하거나 템플릿을 사용합니다. 자세한 내용은 [작업 공간 만들기](/help/quicksilver/planning/architecture/create-workspaces.md).
+   1. 처음부터 작업공간을 작성하거나 템플릿을 사용합니다. 자세한 내용은 [작업 영역 만들기](/help/quicksilver/planning/architecture/create-workspaces.md)를 참조하십시오.
 
-   1. 새 작업 영역에 섹션을 추가합니다. 자세한 내용은 [작업 영역 편집](/help/quicksilver/planning/architecture/edit-workspaces.md).
+   1. 새 작업 영역에 섹션을 추가합니다. 자세한 내용은 [작업 영역 편집](/help/quicksilver/planning/architecture/edit-workspaces.md)을 참조하십시오.
    1. 새 작업 영역에서 기존 섹션의 이름을 바꿉니다.
-   1. 새 작업 영역에 레코드 유형을 추가합니다. 자세한 내용은 [레코드 유형 만들기](/help/quicksilver/planning/architecture/create-record-types.md).
+   1. 새 작업 영역에 레코드 유형을 추가합니다. 자세한 내용은 [레코드 종류 만들기](/help/quicksilver/planning/architecture/create-record-types.md)를 참조하세요.
 
    1. 레코드 유형의 이름을 클릭하여 레코드 유형의 페이지를 엽니다. 레코드 유형 페이지는 기본적으로 테이블 뷰에 열립니다.
 
-      타임라인 또는 달력 보기를 만들 수도 있습니다. 자세한 내용은 [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md).
+      타임라인 또는 달력 보기를 만들 수도 있습니다. 자세한 내용은 [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md)를 참조하십시오.
 
    1. 테이블 보기에서 행을 추가하여 레코드 추가를 시작합니다
 
@@ -328,5 +328,5 @@ Workfront Planning을 찾으려면 다음을 수행합니다.
 
 Workfront Planning에 대한 새로운 기능을 정기적으로 릴리스하고 있습니다.
 
-릴리스된 기능의 최신 목록은 을 참조하십시오. [Adobe Workfront Planning 현재 릴리스 활동](/help/quicksilver/planning/general/release-activity.md)
+릴리스된 기능의 최신 목록을 보려면 [Adobe Workfront Planning 현재 릴리스 활동](/help/quicksilver/planning/general/release-activity.md)을 참조하십시오.
 

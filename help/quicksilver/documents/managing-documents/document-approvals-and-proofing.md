@@ -15,6 +15,6 @@ ht-degree: 0%
 
 # 문서 승인 및 증명
 
-Workfront에 업로드한 문서에 대한 승인을 사용자에게 요청할 수 있습니다. 자세한 내용은 [문서 승인 요청](../../review-and-approve-work/manage-approvals/request-document-approvals.md).
+Workfront에 업로드한 문서에 대한 승인을 사용자에게 요청할 수 있습니다. 자세한 내용은 [문서 승인 요청](../../review-and-approve-work/manage-approvals/request-document-approvals.md)을 참조하세요.
 
-증명 뷰어를 사용하여 Adobe Workfront에서 문서를 증명으로 검토하도록 사용자에게 요청할 수도 있습니다. 증명 뷰어에는 콘텐츠를 표시하고 댓글을 달기 위한 도구가 포함되어 있습니다. 자세한 내용은 [증명 만들기](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md).
+증명 뷰어를 사용하여 Adobe Workfront에서 문서를 증명으로 검토하도록 사용자에게 요청할 수도 있습니다. 증명 뷰어에는 콘텐츠를 표시하고 댓글을 달기 위한 도구가 포함되어 있습니다. 자세한 내용은 [증명 만들기](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)를 참조하십시오.

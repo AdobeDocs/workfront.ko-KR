@@ -19,7 +19,7 @@ ht-degree: 0%
 
 공유에 액세스할 수 있는 개체에 대한 다른 사용자의 권한을 제거할 수 있습니다. 객체에서 권한을 제거하는 것은 공유할 수 있는 모든 객체에 대해 동일합니다.
 
-객체 공유에 대한 고려 사항과 유사한 사항은 객체에서 권한을 제거하는 데 적용됩니다. 자세한 내용은 섹션을 참조하십시오 [오브젝트 공유에 대한 고려 사항](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#consider) 이 문서에서 [오브젝트에 대한 공유 권한 개요](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
+객체 공유에 대한 고려 사항과 유사한 사항은 객체에서 권한을 제거하는 데 적용됩니다. 자세한 내용은 [개체에 대한 공유 권한 개요](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md) 문서의 [개체 공유에 대한 고려 사항](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#consider) 섹션을 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -58,7 +58,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오. 자세한 내용은 [Workfront 설명서에 대한 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오. 자세한 내용은 [Workfront 설명서에 대한 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## 오브젝트의 공유 목록에서 엔티티 제거 {#remove-entities-from-the-sharing-list-of-an-object}
 
@@ -66,28 +66,28 @@ ht-degree: 0%
 
 1. 권한을 제거할 개체로 이동합니다.
 
-   공유할 수 있는 객체에 대한 자세한 내용은 [오브젝트에 대한 공유 권한 개요](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+   공유할 수 있는 개체에 대한 자세한 내용은 [개체에 대한 공유 권한 개요](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)를 참조하십시오.
 
 1. (조건부) 프로그램, 포트폴리오 및 문서의 경우 다음을 수행합니다.
 
-   1. 다음을 클릭합니다. **자세히** 아이콘 ![](assets/more-icon.png)객체 이름 옆에 있는 을(를) 클릭한 다음 을(를) 클릭합니다 **공유** 또는 **공유.**
+   1. 개체 이름 옆에 있는 **자세히** 아이콘 ![](assets/more-icon.png)을 클릭한 다음 **공유** 또는 **공유를 클릭합니다.**
 
       ![](assets/share-a-document-350x160.png)
 
-   1. 다음을 클릭합니다. **x** 객체 액세스 상자에서 제거할 사용자, 팀, 그룹, 회사, 작업 역할의 이름 옆에 있는
+   1. 사용자, 팀, 그룹, 회사, 작업 역할 옆의 **x**&#x200B;을(를) 클릭하여 개체 액세스 상자에서 제거합니다.
 
       ![](assets/remove-permissions-on-portfolio.png)
 
-   1. 다음에서 **&lt; 사용자 이름 >의 Workfront 액세스가 이에서 제거됩니다.** 드롭다운 메뉴에서 선택한 객체에서만 액세스 권한을 제거할지 또는 해당 객체와 연관된 모든 하위 객체에서 액세스 권한을 제거할지 선택합니다.
+   1. 이&#x200B;**드롭다운 메뉴에서**&lt; 사용자 이름 > 의 Workfront 액세스가 제거됩니다. 이 드롭다운 메뉴에서 선택한 개체에서만 액세스 권한을 제거할지 또는 해당 개체와 연결된 모든 하위 개체에서 액세스 권한을 제거할지 여부를 선택합니다.
 
 1. (조건부) 프로젝트, 작업 및 문제의 경우 다음을 수행합니다.
 
-   1. 클릭 **공유** 개체 이름 오른쪽에 있습니다.
+   1. 개체 이름 오른쪽에 있는 **공유**&#x200B;를 클릭합니다.
 
       ![](assets/new-share-button.png)
    1. 객체에서 제거할 사용자, 역할, 팀, 그룹 또는 회사를 찾습니다.
-   1. 클릭 **제거**.
-다음에서 **에서 &lt; 사용자 이름 > 제거** 드롭다운 메뉴에서 선택한 객체에서만 액세스 권한을 제거할지 또는 해당 객체와 연관된 모든 하위 객체에서 액세스 권한을 제거할지 선택합니다.
+   1. **제거**를 클릭합니다.
+**제거 &lt; 사용자 이름 > from** 드롭다운 메뉴에서 선택한 개체에서만 액세스 권한을 제거할지 또는 해당 개체와 연결된 모든 자식 개체에서 액세스 권한을 제거할지를 선택합니다.
 
       ![](assets/remove-permissions-on-project-nwe-350x479.png)
 
@@ -108,27 +108,27 @@ ht-degree: 0%
 
 1. 공유할 개체 목록으로 이동합니다.
 
-   공유할 수 있는 객체에 대한 자세한 내용은 [오브젝트에 대한 공유 권한 개요](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+   공유할 수 있는 개체에 대한 자세한 내용은 [개체에 대한 공유 권한 개요](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)를 참조하십시오.
 
-1. 목록에서 여러 개체를 선택한 다음 **공유** 아이콘 ![](assets/share-icon.png)목록의 맨 위에 있습니다.
-1. 에서 액세스 권한을 제거할 사용자, 역할, 팀, 그룹 또는 회사의 이름을 입력합니다 **편집 `<Object Name>` 액세스 대상:** 필드.
-1. 액세스 드롭다운 메뉴에서 다음을 선택합니다. **액세스 권한 없음**.
+1. 목록에서 여러 개체를 선택한 다음 목록 맨 위에 있는 **공유** 아이콘 ![](assets/share-icon.png)을(를) 클릭합니다.
+1. **액세스 권한 편집** 필드에 액세스 권한을 제거할 사용자, 역할, 팀, 그룹 또는 회사의 이름을 입력하십시오.`<Object Name>`
+1. 액세스 드롭다운 메뉴에서 **액세스 권한 없음**&#x200B;을 선택합니다.
 
    ![](assets/no-access-option-removing-permissions-bulk-tasks-nwe-350x166.png)
 
-1. 다음에서 `<User Name>`의 Workfront 액세스가 이 드롭다운 메뉴에서 제거됩니다. 선택한 객체에서만 액세스 권한을 제거할지 또는 그와 연결된 다른 모든 하위 객체에서 액세스 권한을 제거할지 선택하십시오.\
+1. `<User Name>`의 Workfront 액세스가 이 드롭다운 메뉴에서 제거됩니다. 선택한 개체에서만 해당 액세스를 제거할지 또는 해당 개체와 연결된 다른 모든 자식 개체에서 해당 액세스를 제거할지 선택하십시오.\
    다음과 같은 시나리오가 있습니다.
 
    * 개체에서만 개체를 제거하면 해당 개체에 대한 사용 권한과 자식 개체에 대한 상속된 사용 권한이 손실됩니다. 이전에 하위 항목에 대해 개별적으로 권한이 부여된 경우 이 옵션을 선택하면 연관된 모든 하위 개체에 대해 동일한 권한이 유지됩니다. 
    * 개체와 모든 자식 개체에서 엔티티를 제거하면 이전에 각 자식 개체에 대한 개별 권한이 주어졌더라도 해당 엔티티는 개체와 모든 자식 개체에 대한 사용 권한을 잃게 됩니다.
 
-   **예:** 목록에서 선택한 작업에만 대한 권한을 제거할지 또는 작업에 첨부된 문제 및 문서에 대한 권한을 제거할지 여부를 선택합니다.
+   **예:** 목록에서 선택한 작업에만 대한 권한을 제거할지, 작업에 첨부된 문제 및 문서에도 권한을 제거할지 여부를 선택합니다.
 
    ![](assets/remove-permissions-bulk-drop-down-for-attached-objects-nwe-350x96.png)
 
 1. (선택 사항) 여러 객체에 대한 권한을 일괄적으로 변경하려면 선택한 엔티티에 대해 다른 공유 레벨을 선택합니다.
 
-   예를 들어 관리 권한이 있는 경우 Contribute 또는 View 를 선택합니다.
+   예를 들어 관리 권한이 있는 경우 대신 Contribute 또는 보기 를 선택합니다.
 
 1. **저장**&#x200B;을 클릭합니다.
 
@@ -143,33 +143,33 @@ ht-degree: 0%
 상속된 권한을 제거하려면 다음을 수행합니다.
 
 1. 관리 권한이 있는 개체로 이동합니다. 예를 들어 작업으로 이동합니다.
-1. 에 설명된 대로 객체 액세스 상자로 이동합니다. [오브젝트의 공유 목록에서 엔티티 제거](#remove-entities-from-the-sharing-list-of-an-object) 이 문서의 섹션.
-1. 다음 항목 선택 **x** 다음에 **상속된 권한** 공유 상자에 나열된 모든 사용자를 제거합니다.
+1. 이 문서의 [개체의 공유 목록에서 엔터티 제거](#remove-entities-from-the-sharing-list-of-an-object) 섹션에 설명된 대로 개체 액세스 상자로 이동합니다.
+1. 공유 상자에서 **상속된 권한** 옆의 **x**&#x200B;을(를) 선택하여 나열된 모든 권한을 제거합니다.
 
    ![](assets/remove-inherited-permissions-on-project-nwe-350x475.png)
 
-   이렇게 하면 상위 개체(예: 프로젝트)에 대한 권한이 부여된 어느 누구도 기본적으로 이 작업에 대한 권한을 갖지 않게 됩니다. 작업에 대한 권한을 부여하려면 작업의 공유 목록에 개별 엔티티를 나열해야 합니다.
+   이렇게 하면 상위 개체(예: 프로젝트)에 대한 권한이 부여된 어느 누구도 기본적으로 이 작업에 대한 권한을 갖지 않게 됩니다. 다음을 나열해야 합니다.  작업에 대한 권한을 부여할 작업의 공유 목록에 있는 개별 엔티티입니다.
 
    >[!TIP]
    >
    >상속된 권한 목록에서 개별 엔티티를 제거할 수 없습니다. 나열된 모든 엔티티에 대해서만 상속된 권한을 비활성화할 수 있습니다.
 
-1. 클릭 **저장**. 
+1. **저장**&#x200B;을 클릭합니다. 
 
 ## 개체를 비공개로 설정
 
 개체를 시스템 전체에서 공유했거나, 개체를 공개로 설정하여 외부 사용자와 공유한 경우, 시스템 전체 또는 공개 권한을 제거하여 개체를 다시 비공개로 만들 수 있습니다. 
 
-시스템 전체에서 또는 공개적으로 개체를 사용할 수 있게 하는 방법에 대한 자세한 내용은 [개체 공유](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+개체를 시스템 전체에서 사용할 수 있게 하거나 공개적으로 사용할 수 있게 하는 방법에 대한 자세한 내용은 [개체 공유](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)를 참조하십시오.
 
 객체를 비공개로 설정하려면 다음을 수행합니다.
 
 1. 비공개로 설정할 개체로 이동합니다.\
    예를 들어, 보고서로 이동합니다.
-1. 클릭 **보고서 작업**, 그런 다음 **공유**.
+1. **보고서 동작**&#x200B;을 클릭한 다음 **공유**&#x200B;를 클릭합니다.
 
    ![](assets/report-permissions-make-private-nwe-350x477.png)
 
-1. 클릭 **공개 액세스 제거** 보고서 보기에 대한 외부 사용자의 액세스 권한을 제거합니다.
-1. 클릭 **시스템 전체 액세스 제거** 모든 Workfront 사용자와의 공유를 중단합니다. 
+1. 보고서를 볼 수 있는 외부 사용자의 액세스를 제거하려면 **공개 액세스 제거**&#x200B;를 클릭하십시오.
+1. 모든 Workfront 사용자와의 공유를 중지하려면 **시스템 전체 액세스 제거**&#x200B;를 클릭하십시오. 
 1. **저장**&#x200B;을 클릭합니다.

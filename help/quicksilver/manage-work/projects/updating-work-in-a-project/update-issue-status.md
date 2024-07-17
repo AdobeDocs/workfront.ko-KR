@@ -49,7 +49,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오. 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오. 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## 문제 상태
 
@@ -86,8 +86,8 @@ Workfront의 다음 영역에서 문제 상태를 업데이트할 수 있습니�
 문제 헤더에서 문제 상태를 수동으로 업데이트하려면:
 
 1. 상태를 업데이트할 문제로 이동합니다.
-1. 다음을 클릭합니다. **상태** 문제 헤더의 필드에 새 상태를 선택합니다.
-1. 문제 완료를 시각적으로 나타내려면 아래의 버블을 끌거나 두 번 클릭합니다. **완료율** 문제의 헤더에서
+1. 문제 헤더의 **상태** 필드를 클릭하고 새 상태를 선택하십시오.
+1. 문제 완료의 시각적 표시를 제공하려면 문제 헤더의 **완료율** 아래에 있는 버블을 드래그하거나 두 번 클릭합니다
 
    또는
 
@@ -97,12 +97,12 @@ Workfront의 다음 영역에서 문제 상태를 업데이트할 수 있습니�
 
 1. (선택 사항) 업데이트에 대한 추가 정보를 제공하려면 다음 중 하나를 수행합니다.
 
-   * 업데이트에 대한 메모를 추가하려면 **업데이트** 섹션 및 클릭 **새 댓글**&#x200B;을 클릭한 다음 메모를 입력합니다.
+   * 업데이트에 대한 메모를 추가하려면 **업데이트** 섹션으로 이동하여 **새 댓글**&#x200B;을 클릭한 다음 메모를 입력하세요.
 
      ![](assets/nwe-issue-update-stream-message-box-350x125.png)
 
-   * 특정 사용자에게 업데이트에 대해 알리려면 **사람 또는 팀에 태그 지정** 댓글을 입력할 때 표시되는 필드입니다. 자세한 내용은 [업데이트에 다른 사용자 태그 지정](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-   * 문제의 커밋 일자를 업데이트하려면 다음을 클릭하십시오. **문제 세부 정보**&#x200B;를 클릭한 다음 을(를) 편집합니다. **커밋 일자** 필드. 자세한 내용은 [문제 편집](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md).
+   * 특정 사용자에게 업데이트에 대한 알림을 보내려면 댓글을 입력할 때 표시되는 **사람 또는 팀 태그 지정** 필드에 이름을 입력하세요. 자세한 내용은 [업데이트에 다른 사용자 태그 지정](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)을 참조하세요.
+   * 문제의 커밋 일자를 업데이트하려면 **문제 세부 정보**&#x200B;를 클릭한 다음 **커밋 일자** 필드를 편집합니다. 자세한 내용은 [문제 편집](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md)을 참조하세요.
 
 
    >[!IMPORTANT]
@@ -136,7 +136,7 @@ Workfront은 아래 표에 나열된 작업이 발생하면 문제의 기존 상
 
 >[!NOTE]
 >
->다음 표의 상태는 기본 시스템 상태입니다. Workfront 관리자 또는 그룹 관리자는 Workfront 인스턴스의 상태를 변경할 수 있습니다. Workfront에서 상태를 만들고 관리하는 방법에 대한 자세한 내용은 [상태 만들기 또는 편집](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+>다음 표의 상태는 기본 시스템 상태입니다. Workfront 관리자 또는 그룹 관리자는 Workfront 인스턴스의 상태를 변경할 수 있습니다. Workfront에서 상태를 만들고 관리하는 방법에 대한 자세한 내용은 [상태 만들기 또는 편집](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)을 참조하세요.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -161,12 +161,12 @@ Workfront은 아래 표에 나열된 작업이 발생하면 문제의 기존 상
   <tr> 
    <td>문제에 연결된 해결 중 오브젝트의 상태 업데이트</td> 
    <td>다양한 상태</td> 
-   <td> <p>다양한 상태</p> <p>해결 중인 객체와 이것이 문제 상태에 미치는 영향에 대한 자세한 내용은 문서의 "해결 가능한 객체의 상태를 해결 중인 객체의 상태와 동기화" 섹션을 참조하십시오 <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">해결 및 해결 가능한 객체 개요 </a>.</p> </td> 
+   <td> <p>다양한 상태</p> <p>해결 중인 개체와 문제 상태에 영향을 주는 방법에 대한 자세한 내용은 해결 및 해결 가능한 개체 개요 </a> 문서의 "해결 가능한 개체의 상태와 해결 중인 개체의 상태 동기화" 섹션을 참조하십시오.<a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref"></p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><span>할당된 문제에 대한 작업을 수락하려면 문제 시작 단추를 클릭하십시오.</span> </td> 
-   <td><span>신규</span> </td> 
-   <td> <p>홈 팀 설정의 문제 시작 단추와 연결된 모든 상태입니다. </p> <p>처리 중(Work On It) 단추를 문제 시작 단추로 바꾸는 방법에 대한 자세한 내용은 <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">처리 중 단추를 시작 단추로 바꾸기</a></span><span>.</span> </p> <p>팁: 클릭 <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">실행 취소 단추</span> 문제 시작을 클릭하면 상태가 새로 으로 되돌아갑니다. </p> </td> 
+   <td><span>문제 시작 단추를 클릭하여 할당된 문제에 대한 작업을 수락합니다</span> </td> 
+   <td><span>새로 만들기</span> </td> 
+   <td> <p>홈 팀 설정의 문제 시작 단추와 연결된 모든 상태입니다. </p> <p>[처리 중] 단추를 [시작 문제] 단추로 바꾸는 방법에 대한 자세한 내용은 <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">[처리 중 작업] 단추를 [시작] 단추로 바꾸기</a></span><span>.</span>를 참조하십시오. </p> <p>팁: [문제 시작]을 클릭한 후 <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">실행 취소 단추</span>를 클릭하면 상태가 [새로 만들기]로 되돌아갑니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

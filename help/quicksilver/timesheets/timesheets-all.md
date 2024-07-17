@@ -20,7 +20,7 @@ ht-degree: 0%
 
 이 섹션에는 다음 하위 섹션의 문서가 포함되어 있습니다.
 
-* [타임시트 세부 정보: 문서 색인](../timesheets/timesheets/timesheets.md)
+* [타임시트 세부 정보: 문서 인덱스](../timesheets/timesheets/timesheets.md)
 * [타임시트 만들기 및 관리: 문서 인덱스](../timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
-* [시간 기록 방법 구성: 문서 색인](../timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
+* [시간 기록 방법 구성: 문서 인덱스](../timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
 * [팁, 요령 및 문제 해결: 문서 색인](../timesheets/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-timesheets.md)

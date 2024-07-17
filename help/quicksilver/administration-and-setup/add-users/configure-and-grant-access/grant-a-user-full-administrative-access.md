@@ -18,9 +18,9 @@ ht-degree: 1%
 >
 >이 페이지에 설명된 절차는 아직 Admin Console에 온보딩되지 않은 조직에만 적용됩니다. 조직이 Adobe Admin Console에 온보딩된 경우 Adobe Admin Console을 통해 이 작업을 수행해야 합니다.
 >
->Adobe Admin Console에서 전체 관리자 액세스 권한을 부여하는 방법에 대한 지침은 [Adobe Admin Console에서 시스템 관리자 관리](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+>Adobe Admin Console에서 전체 관리자 액세스 권한을 부여하는 방법에 대한 지침은 [Adobe Admin Console에서 시스템 관리자 관리](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)를 참조하십시오.
 >
->조직이 Adobe Admin Console에 온보딩되었는지 여부에 따라 달라지는 절차 목록은 을 참조하십시오. [플랫폼 기반 관리의 차이점(Adobe Workfront/Adobe 비즈니스 플랫폼)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>조직이 Adobe Admin Console에 온보딩되었는지 여부에 따라 달라지는 프로시저 목록은 [플랫폼 기반 관리 차이점(Adobe Workfront/Adobe 비즈니스 플랫폼)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)을 참조하십시오.
 
 Adobe Workfront 관리자는 시스템 관리자 액세스 수준을 할당하여 다른 Workfront 관리자를 만들 수 있습니다. 이 액세스 수준을 가진 사용자는 직접 만들지 않은 항목을 포함하여 Workfront의 모든 항목에 대해 완전한 관리 액세스 권한을 갖습니다.
 
@@ -28,8 +28,8 @@ Adobe Workfront 관리자는 시스템 관리자 액세스 수준을 할당하�
 >
 >이는 액세스 수준을 사용하여 시스템의 특정 영역에 대한 관리 액세스 권한을 사용자에게 부여하는 것과 다릅니다. 자세한 내용은 다음을 참조하십시오.
 >
->* [사용자에게 특정 영역에 대한 관리 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)
->* [Workfront 관리자의 액세스와 관리 권한이 있는 계획 사용자의 액세스 비교](#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights) 이 문서에서
+>* [특정 영역에 대한 관리자 액세스 권한을 사용자에게 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)
+>* 이 문서에서 [Workfront 관리자의 액세스 및 관리 권한이 있는 계획 사용자의 액세스](#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights)
 >
 
 ## 액세스 요구 사항
@@ -50,25 +50,25 @@ Adobe Workfront 관리자는 시스템 관리자 액세스 수준을 할당하�
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>Workfront 관리자여야 합니다. 자세한 내용은 <a href="#" class="MCXref xref selected">사용자에게 전체 관리 액세스 권한 부여</a>.</p> <p><b>참고</b>: 아직 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가적인 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td> <p>Workfront 관리자여야 합니다. 자세한 내용은 <a href="#" class="MCXref xref selected">사용자에게 전체 관리 액세스 권한 부여</a>를 참조하십시오.</p> <p><b>참고</b>: 아직 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정했는지 문의하세요. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 단일 사용자에게 전체 시스템 관리자 액세스 권한 부여
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 상단에서 을(를) 클릭한 다음 **사용자** ![](assets/users-icon-in-main-menu.png).
+1. Adobe Workfront의 오른쪽 상단에 있는 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **사용자** ![](assets/users-icon-in-main-menu.png)를 클릭합니다.
 
 1. 관리자 권한을 부여할 사용자의 이름을 클릭합니다.
-1. 기타 메뉴 클릭 ![](assets/more-icon.png)을 클릭한 다음 을 클릭합니다 **편집**.
+1. 기타 메뉴 ![](assets/more-icon.png)을(를) 클릭한 다음 **편집**&#x200B;을 클릭합니다.
 
-1. 다음에서 **사용자 편집** 나타나는 상자에서 **액세스**.
+1. 표시되는 **사용자 편집** 상자에서 **액세스**&#x200B;를 클릭합니다.
 
-1. 다음에서 **액세스 수준** 드롭다운 목록에서 **시스템 관리자** 액세스 수준.
+1. **액세스 수준** 드롭다운 목록에서 **시스템 관리자** 액세스 수준을 선택합니다.
 
    시스템에서 변경된 사항에 따라 이 액세스 수준의 이름이 변경되었을 수 있습니다.
 
-1. 클릭 **변경 사항을 저장합니다.**
+1. **변경 내용 저장**&#x200B;을 클릭합니다.
 
    이제 사용자는 시스템에서 전체 시스템 관리자 권한을 갖습니다.
 
@@ -82,7 +82,7 @@ Workfront 관리자는 만든 사람에 관계없이 시스템의 모든 개체�
 
 >[!NOTE]
 >
->그룹 관리자로 지정된 플랜 라이선스가 있는 사용자는 Workfront 관리자에게 허용된 작업 중 일부를 수행할 수 있습니다. 관리자는 자신이 관리하는 그룹, 하위 그룹 및 이러한 그룹과 하위 그룹의 사용자에 대해서만 이러한 작업을 수행할 수 있습니다. 자세한 내용은 [그룹 관리자](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
+>그룹 관리자로 지정된 플랜 라이선스가 있는 사용자는 Workfront 관리자에게 허용된 작업 중 일부를 수행할 수 있습니다. 관리자는 자신이 관리하는 그룹, 하위 그룹 및 이러한 그룹과 하위 그룹의 사용자에 대해서만 이러한 작업을 수행할 수 있습니다. 자세한 내용은 [그룹 관리자](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md)를 참조하세요.
 
 * [설정 영역에 액세스](#access-to-the-setup-area)
 * [오브젝트에 대한 액세스](#access-to-objects)
@@ -179,7 +179,7 @@ Workfront 관리자는 만든 사람에 관계없이 시스템의 모든 개체�
   <tr> 
    <td>다음으로 로그인</td> 
    <td>전체 액세스 권한 </td> 
-   <td> <p>그룹 관리 액세스 권한이 액세스 수준에 활성화되어 있고 그룹 관리자로 지정되어 있으면 자신이 관리하는 그룹의 사용자 및 하위 그룹으로 로그인할 수 있습니다. 시스템 관리자로 로그인할 수 없습니다.<br>사용자의 그룹 관리 액세스 활성화에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">사용자에게 액세스 권한 부여</a>.</p> </td> 
+   <td> <p>그룹 관리 액세스 권한이 액세스 수준에 활성화되어 있고 그룹 관리자로 지정되어 있으면 자신이 관리하는 그룹의 사용자 및 하위 그룹으로 로그인할 수 있습니다. 시스템 관리자로 로그인할 수 없습니다.<br>사용자에 대한 그룹 관리 액세스를 사용하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">사용자에게 액세스 권한 부여</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>일정</td> 
@@ -411,7 +411,7 @@ Workfront 관리자는 만든 사람에 관계없이 시스템의 모든 개체�
   <tr> 
    <td>사용자</td> 
    <td>전체 액세스 권한</td> 
-   <td> <p>제한된 액세스</p> <p>그룹 관리자가 아닌 사용자 또는 공개가 아닌 그룹에 그룹을 할당할 수 없습니다.</p> <p>자신의 액세스 수준보다 높은 액세스 수준을 사용자에게 할당할 수 없습니다.</p> <p>액세스 수준에서 그룹 관리 액세스 권한이 활성화되어 있고 그룹의 그룹 관리자로 지정되어 있는 경우 그룹 관리자는 의 암호를 재설정하고 관리하는 그룹의 사용자 및 하위 그룹으로 로그인할 수 있습니다. 의 암호를 재설정하거나 시스템 관리자로 로그인할 수 없습니다.<br>사용자의 그룹 관리 액세스 활성화에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">사용자에게 액세스 권한 부여</a>.</p> </td> 
+   <td> <p>제한된 액세스</p> <p>그룹 관리자가 아닌 사용자 또는 공개가 아닌 그룹에 그룹을 할당할 수 없습니다.</p> <p>자신의 액세스 수준보다 높은 액세스 수준을 사용자에게 할당할 수 없습니다.</p> <p>액세스 수준에서 그룹 관리 액세스 권한이 활성화되어 있고 그룹의 그룹 관리자로 지정되어 있는 경우 그룹 관리자는 의 암호를 재설정하고 관리하는 그룹의 사용자 및 하위 그룹으로 로그인할 수 있습니다. 의 암호를 재설정하거나 시스템 관리자로 로그인할 수 없습니다.<br>사용자에 대한 그룹 관리 액세스를 사용하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">사용자에게 액세스 권한 부여</a>를 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>

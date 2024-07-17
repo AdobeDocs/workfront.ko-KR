@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # 캔버스 대시보드 개요
 
-캔버스 대시보드를 사용하면 다양한 보고서 유형을 사용자 지정 가능한 캔버스에 추가하여 Adobe Workfront 데이터를 쉽게 시각화할 수 있습니다. 캔버스 대시보드 사용에 대한 기본 지침은 문서 부터 시작하십시오 [캔버스 대시보드 시작](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md). 그렇지 않은 경우 특정 주제에 대한 자세한 내용은 아래 문서 색인을 참조하십시오.
+캔버스 대시보드를 사용하면 다양한 보고서 유형을 사용자 지정 가능한 캔버스에 추가하여 Adobe Workfront 데이터를 쉽게 시각화할 수 있습니다. 캔버스 대시보드 사용에 대한 기본 지침은 [캔버스 대시보드 시작](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md) 문서부터 시작하십시오. 그렇지 않은 경우 특정 주제에 대한 자세한 내용은 아래 문서 색인을 참조하십시오.
 
 ## 캔버스 대시보드: 문서 색인
 

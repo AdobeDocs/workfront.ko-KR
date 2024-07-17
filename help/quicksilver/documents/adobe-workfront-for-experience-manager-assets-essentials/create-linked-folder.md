@@ -27,11 +27,11 @@ Workfront에 있는 동안 Experience Manager Assets 또는 Assets Essentials과
   <tr>
    <td><strong>Adobe Workfront 플랜*</strong>
    </td>
-   <td>모든
+   <td>임의
    </td>
   </tr>
   <tr>
-   <td><strong>Adobe Workfront 라이센스*</strong>
+   <td><strong>Adobe Workfront 라이선스*</strong>
    </td>
    <td>플랜
    </td>
@@ -39,7 +39,7 @@ Workfront에 있는 동안 Experience Manager Assets 또는 Assets Essentials과
   <tr>
    <td><strong>제품</strong>
    </td>
-   <td>Experience Manager Assets as a Cloud Service 또는 Assets Essentials이 있어야 하며 제품에 사용자로 추가되어야 합니다.
+   <td>Experience Manager Assets as a Cloud Service 또는 Assets Essentials이 있어야 하며, 사용자를 제품에 추가해야 합니다.
    </td>
   </tr>
   <tr>
@@ -64,7 +64,7 @@ Workfront에 있는 동안 Experience Manager Assets 또는 Assets Essentials과
 
 시작하기 전에,
 
-* Workfront 관리자는 Experience Manager 통합을 구성해야 합니다. 자세한 내용은 [Experience Manager Assets as a Cloud Service 통합 구성](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) 또는 [Experience Manager Assets Essentials 통합 구성](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+* Workfront 관리자는 Experience Manager 통합을 구성해야 합니다. 자세한 내용은 [Experience Manager Assets as a Cloud Service 통합 구성](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) 또는 [Experience Manager Assets Essentials 통합 구성](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)을 참조하십시오.
 
 
 ## 연결된 폴더 만들기
@@ -78,11 +78,11 @@ Workfront에 있는 동안 Experience Manager Assets 또는 Assets Essentials과
 
 
 1. 폴더를 원하는 프로젝트로 이동합니다.
-1. 선택 **새로 추가**&#x200B;그런 다음 관리자가 설정한 Experience manager 통합으로 이동합니다.
+1. **새로 추가**&#x200B;를 선택한 다음 관리자가 설정한 Experience Manager 통합으로 이동합니다.
 
    >[!NOTE]
    >
    >Workfront 관리자는 이 통합에 사용할 이름을 선택할 수 있으므로 Experience Manager Assets 또는 Assets Essentials에 대해 구체적으로 언급하지 않을 수 있습니다.
 
-1. 선택 **연결된 폴더 만들기**. 시스템은 통합 설정 시 지정된 위치를 기반으로 Experience Manager에 폴더를 자동으로 생성합니다.
+1. **연결된 폴더 만들기**를 선택합니다. 시스템은 통합 설정 시 지정된 위치를 기반으로 Experience Manager에 폴더를 자동으로 생성합니다.
    ![연결된 폴더 만들기](assets/linked-folder.png)

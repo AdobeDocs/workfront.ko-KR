@@ -274,19 +274,19 @@ AccessRule 개체는 사용자가 만드는 프로젝트를 공유할 수 있는
             </p>
             <ul>
               <li>
-                <p><b>실제 청구 가능 경비</b>
+                <p><b>actualBillableExpenseCost</b>
                 </p>
               </li>
               <li>
-                <p><b>actualNonBillableExpenseCost</b>
+                <p><b>실제 청구 불가능한 경비</b>
                 </p>
               </li>
               <li>
-                <p><b>계획된 청구 가능 경비</b>
+                <p><b>plannedBillableExpenseCost</b>
                 </p>
               </li>
               <li>
-                <p><b>계획된 비용 청구 불가 비용</b>
+                <p><b>plannedNonBillableExpenseCost</b>
                 </p>
               </li>
              </ul>
@@ -342,19 +342,19 @@ AccessRule 개체는 사용자가 만드는 프로젝트를 공유할 수 있는
             </p>
             <ul>
               <li>
-                <p><b>실제 청구 가능 경비</b>
+                <p><b>actualBillableExpenseCost</b>
                 </p>
               </li>
               <li>
-                <p><b>actualNonBillableExpenseCost</b>
+                <p><b>실제 청구 불가능한 경비</b>
                 </p>
               </li>
               <li>
-                <p><b>계획된 청구 가능 경비</b>
+                <p><b>plannedBillableExpenseCost</b>
                 </p>
               </li>
               <li>
-                <p><b>계획된 비용 청구 불가 비용</b>
+                <p><b>plannedNonBillableExpenseCost</b>
                 </p>
               </li>
              </ul>
@@ -382,19 +382,19 @@ AccessRule 개체는 사용자가 만드는 프로젝트를 공유할 수 있는
             </p>
             <ul>
               <li>
-                <p><b>실제 청구 가능 경비</b>
+                <p><b>actualBillableExpenseCost</b>
                 </p>
               </li>
               <li>
-                <p><b>actualNonBillableExpenseCost</b>
+                <p><b>실제 청구 불가능한 경비</b>
                 </p>
               </li>
               <li>
-                <p><b>계획된 청구 가능 경비</b>
+                <p><b>plannedBillableExpenseCost</b>
                 </p>
               </li>
               <li>
-                <p><b>계획된 비용 청구 불가 비용</b>
+                <p><b>plannedNonBillableExpenseCost</b>
                 </p>
               </li>
              </ul>
@@ -438,7 +438,7 @@ Category 객체는 사용자 정의 양식입니다.
              </p>
           </li>
           <li>
-            <p><b>objType</b>:
+            <p><b>objTypes</b>:
             </p>
             <p>다음과 같은 가능한 값이 추가되었습니다.
             <ul>
@@ -528,19 +528,19 @@ Document 객체는 파일(예: 작성된 자료, 이미지 또는 기타 정보 
             </p>
             <ul>
               <li>
-                <p><b>실제 청구 가능 경비</b>
+                <p><b>actualBillableExpenseCost</b>
                 </p>
               </li>
               <li>
-                <p><b>actualNonBillableExpenseCost</b>
+                <p><b>실제 청구 불가능한 경비</b>
                 </p>
               </li>
               <li>
-                <p><b>계획된 청구 가능 경비</b>
+                <p><b>plannedBillableExpenseCost</b>
                 </p>
               </li>
               <li>
-                <p><b>계획된 비용 청구 불가 비용</b>
+                <p><b>plannedNonBillableExpenseCost</b>
                 </p>
               </li>
              </ul>
@@ -557,19 +557,19 @@ Document 객체는 파일(예: 작성된 자료, 이미지 또는 기타 정보 
             </p>
             <ul>
               <li>
-                <p><b>실제 청구 가능 경비</b>
+                <p><b>actualBillableExpenseCost</b>
                 </p>
               </li>
               <li>
-                <p><b>actualNonBillableExpenseCost</b>
+                <p><b>실제 청구 불가능한 경비</b>
                 </p>
               </li>
               <li>
-                <p><b>계획된 청구 가능 경비</b>
+                <p><b>plannedBillableExpenseCost</b>
                 </p>
               </li>
               <li>
-                <p><b>계획된 비용 청구 불가 비용</b>
+                <p><b>plannedNonBillableExpenseCost</b>
                 </p>
               </li>
              </ul>
@@ -642,7 +642,7 @@ OpTask 객체를 일반적으로 문제라고 합니다. 문제는 일반적으�
              </p>
           </li>
           <li>
-            <p><b>작업으로 변환</b>:
+            <p><b>변환 작업</b>:
             </p>
             <p>다음 필드가 추가되었습니다.
             <ul>
@@ -676,19 +676,19 @@ OpTask 객체를 일반적으로 문제라고 합니다. 문제는 일반적으�
             </p>
             <ul>
               <li>
-                <p><b>실제 청구 가능 경비</b>
+                <p><b>actualBillableExpenseCost</b>
                 </p>
               </li>
               <li>
-                <p><b>actualNonBillableExpenseCost</b>
+                <p><b>실제 청구 불가능한 경비</b>
                 </p>
               </li>
               <li>
-                <p><b>계획된 청구 가능 경비</b>
+                <p><b>plannedBillableExpenseCost</b>
                 </p>
               </li>
               <li>
-                <p><b>계획된 비용 청구 불가 비용</b>
+                <p><b>plannedNonBillableExpenseCost</b>
                 </p>
               </li>
              </ul>
@@ -883,19 +883,19 @@ QueueDef 개체는 사용자가 문제를 제출할 수 있도록 헬프 데스�
             </p>
             <ul>
               <li>
-                <p><b>실제 청구 가능 경비</b>
+                <p><b>actualBillableExpenseCost</b>
                 </p>
               </li>
               <li>
-                <p><b>actualNonBillableExpenseCost</b>
+                <p><b>실제 청구 불가능한 경비</b>
                 </p>
               </li>
               <li>
-                <p><b>계획된 청구 가능 경비</b>
+                <p><b>plannedBillableExpenseCost</b>
                 </p>
               </li>
               <li>
-                <p><b>계획된 비용 청구 불가 비용</b>
+                <p><b>plannedNonBillableExpenseCost</b>
                 </p>
               </li>
              </ul>
@@ -908,7 +908,7 @@ QueueDef 개체는 사용자가 문제를 제출할 수 있도록 헬프 데스�
       <td>
         <ul>
           <li>
-            <p><b>프로젝트 변환</b>
+            <p><b>프로젝트로 전환</b>
             </p>
              <p>다음 필드가 추가되었습니다.
              <ul><li><code>copyCategories</code></li></ul>
@@ -937,11 +937,11 @@ Template 객체는 프로젝트의 패턴을 나타냅니다. 템플릿에서 �
             </p>
             <ul>
               <li>
-                <p><b>계획된 청구 가능 경비</b>
+                <p><b>plannedBillableExpenseCost</b>
                 </p>
               </li>
               <li>
-                <p><b>계획된 비용 청구 불가 비용</b>
+                <p><b>plannedNonBillableExpenseCost</b>
                 </p>
               </li>
              </ul>
@@ -968,11 +968,11 @@ TemplateTask 개체는 Template의 일부인 작업을 나타냅니다. 템플�
             </p>
             <ul>
               <li>
-                <p><b>계획된 청구 가능 경비</b>
+                <p><b>plannedBillableExpenseCost</b>
                 </p>
               </li>
               <li>
-                <p><b>계획된 비용 청구 불가 비용</b>
+                <p><b>plannedNonBillableExpenseCost</b>
                 </p>
               </li>
              </ul>
@@ -1089,7 +1089,7 @@ Workfront의 작업 항목을 업데이트하여 사용자에게 현재 상태�
       <td>
         <ul>
           <li>
-            <p><b>최근 업데이트 수</b>
+            <p><b>recentUpdatesObjID</b>
             </p>
             <p>추가됨.</p>
           </li>
@@ -1137,19 +1137,19 @@ Work 개체는 Task와 OpTask가 모두 상속하는 공통 인터페이스이�
             </p>
             <ul>
               <li>
-                <p><b>실제 청구 가능 경비</b>
+                <p><b>actualBillableExpenseCost</b>
                 </p>
               </li>
               <li>
-                <p><b>actualNonBillableExpenseCost</b>
+                <p><b>실제 청구 불가능한 경비</b>
                 </p>
               </li>
               <li>
-                <p><b>계획된 청구 가능 경비</b>
+                <p><b>plannedBillableExpenseCost</b>
                 </p>
               </li>
               <li>
-                <p><b>계획된 비용 청구 불가 비용</b>
+                <p><b>plannedNonBillableExpenseCost</b>
                 </p>
               </li>
              </ul>

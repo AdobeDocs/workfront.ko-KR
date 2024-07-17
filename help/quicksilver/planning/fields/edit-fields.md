@@ -31,9 +31,9 @@ recommendations: noDisplay, noCatalog
 
 Adobe Workfront Planning에서 이미 생성된 필드의 필드 설정을 편집할 수 있습니다.
 
-Adobe Workfront Planning 필드 생성에 대한 자세한 내용은 다음을 참조하십시오. [필드 만들기](/help/quicksilver/planning/fields/create-fields.md).
+Adobe Workfront Planning 필드 만들기에 대한 자세한 내용은 [필드 만들기](/help/quicksilver/planning/fields/create-fields.md)를 참조하십시오.
 
-이 문서에서는 Workfront Planning 필드의 설정을 편집하는 방법에 대해 설명합니다. 레코드의 필드 값 편집에 대한 자세한 내용은 [레코드 편집](/help/quicksilver/planning/records/edit-records.md).
+이 문서에서는 Workfront Planning 필드의 설정을 편집하는 방법에 대해 설명합니다. 레코드의 필드 값 편집에 대한 자세한 내용은 [레코드 편집](/help/quicksilver/planning/records/edit-records.md)을 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -79,20 +79,20 @@ Adobe Workfront Planning 필드 생성에 대한 자세한 내용은 다음을 �
 
 <tr>
    <td role="rowheader"><p>권한</p></td>
-   <td> <p>작업 공간에 대한 권한 관리</a> </p>  
+   <td> <p>작업 영역</a>에 대한 권한 관리 </p>  
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p>
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>레이아웃 템플릿</p></td>
-   <td> <p>Workfront 또는 그룹 관리자는 레이아웃 템플릿에 계획 영역을 추가해야 합니다. 자세한 내용은 <a href="/help/quicksilver/planning/access/access-overview.md">액세스 개요</a>. </p>  
+   <td> <p>Workfront 또는 그룹 관리자는 레이아웃 템플릿에 계획 영역을 추가해야 합니다. 자세한 내용은 <a href="/help/quicksilver/planning/access/access-overview.md">액세스 개요</a>를 참조하십시오. </p>  
 </td>
   </tr>
 
 </tbody>
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 <!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -138,10 +138,10 @@ Adobe Workfront Planning 필드 생성에 대한 자세한 내용은 다음을 �
 
    레코드 유형의 페이지가 열립니다.
 
-1. (조건부) **표 보기**.
+1. (조건부) **테이블 보기**&#x200B;의 탭을 클릭합니다.
 
    레코드 유형과 연관된 모든 기존 레코드는 테이블 뷰의 행에 표시됩니다.
-1. 편집할 필드의 열 헤더 위로 마우스를 가져간 다음 필드 이름 뒤에 있는 아래쪽 화살표를 클릭하고 **필드 편집**
+1. 편집할 필드의 열 머리글 위로 마우스를 가져간 후 필드 이름 뒤에 있는 아래쪽 화살표를 클릭한 다음 **필드 편집**&#x200B;을 클릭합니다
 
    또는
 
@@ -149,7 +149,7 @@ Adobe Workfront Planning 필드 생성에 대한 자세한 내용은 다음을 �
 
    ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
-1. 필드에 대한 정보를 업데이트하고 **저장**. <!--insert screen shot when finalized-->
+1. 필드에 대한 정보를 업데이트하고 **저장**&#x200B;을 클릭합니다. <!--insert screen shot when finalized-->
 
    >[!TIP]
    >
@@ -159,7 +159,7 @@ Adobe Workfront Planning 필드 생성에 대한 자세한 내용은 다음을 �
 
    필드 정보는 작업 영역을 볼 수 있는 액세스 권한이 있는 모든 사용자에 대해 업데이트됩니다.
 
-1. (조건부) 연결된 레코드 필드의 경우 **조회 필드 편집** 연결된 레코드 종류에서 필드를 추가하거나 제거합니다.
+1. (조건부) 연결된 레코드 필드의 경우 **조회 필드 편집**&#x200B;을 클릭하고 연결된 레코드 형식에서 필드를 추가하거나 제거합니다.
 
-   자세한 내용은 [레코드 유형 연결](/help/quicksilver/planning/architecture/connect-record-types.md).
+   자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
 

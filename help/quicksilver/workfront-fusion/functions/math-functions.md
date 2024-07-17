@@ -15,7 +15,7 @@ ht-degree: 1%
 
 ---
 
-# 의 수학 함수 [!DNL Adobe Workfront Fusion]
+# [!DNL Adobe Workfront Fusion]의 연산 함수
 
 <!--Audited: 4/2024-->
 
@@ -38,7 +38,7 @@ ht-degree: 1%
   <tr>  
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 라이센스**</td>  
    <td> 
-   <p>현재: 아니요 [!DNL Workfront Fusion] 라이센스 요구 사항.</p> 
+   <p>현재: [!DNL Workfront Fusion] 라이선스 요구 사항이 없습니다.</p> 
    <p>또는</p> 
    <p>레거시: 모두 </p> 
    </td>  
@@ -46,19 +46,19 @@ ht-degree: 1%
   <tr>  
    <td role="rowheader">제품</td>  
    <td> 
-   <p>신규:</p> <ul><li>[!UICONTROL Select] 또는 [!UICONTROL Prime] [!DNL Workfront] 플랜: 조직에서 구매해야 합니다. [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] 플랜: [!DNL Workfront Fusion] 포함됩니다.</li></ul> 
+   <p>신규:</p> <ul><li>[!UICONTROL Select] 또는 [!UICONTROL Prime] [!DNL Workfront] 플랜: 조직에서 [!DNL Adobe Workfront Fusion]을(를) 구매해야 합니다.</li><li>[!UICONTROL Ultimate] [!DNL Workfront] 계획: [!DNL Workfront Fusion]이(가) 포함되어 있습니다.</li></ul> 
    <p>또는</p> 
-   <p>현재: 조직에서 구매해야 합니다. [!DNL Adobe Workfront Fusion].</p> 
+   <p>현재: 조직에서 [!DNL Adobe Workfront Fusion]을(를) 구매해야 합니다.</p> 
    </td>  
   </tr> 
  </tbody>  
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
-다음에 대한 정보: [!DNL Adobe Workfront Fusion] 라이센스, 참조 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+[!DNL Adobe Workfront Fusion] 라이선스에 대한 자세한 내용은 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md)를 참조하세요.
 
-## [!UICONTROL 평균 ([값 배열]) average(value1; [value2], ...)]
+## [!UICONTROL 평균([값 배열]) 평균(value1; [값2], ...)]
 
 특정 배열에 있는 숫자 값의 평균 값 또는 개별적으로 입력한 숫자 값의 평균 값을 반환합니다.
 
@@ -78,7 +78,7 @@ ht-degree: 1%
 >
 >   반환 4
 
-## [!UICONTROL floor(숫자)]
+## [!UICONTROL 층(숫자)]
 
 지정된 숫자보다 작거나 같은 가장 큰 정수를 반환합니다.
 
@@ -98,15 +98,15 @@ ht-degree: 1%
 >
 >   반환 4
 
-## [!UICONTROL 최대 ([값 배열]), max(value1;value2; ...)]
+## [!UICONTROL max([값 배열]), max(value1;value2; ...)]
 
 지정된 배열에서 가장 큰 숫자를 반환하거나 개별적으로 입력한 숫자 중 가장 큰 숫자를 반환합니다.
 
-## [!UICONTROL 분 ([값 배열]), min(value1; value2; ...)]
+## [!UICONTROL 분([값 배열]), min(value1; value2; ...)]
 
 지정된 배열에서 가장 작은 숫자를 반환하거나 개별적으로 입력한 숫자 중 가장 작은 숫자를 반환합니다.
 
-## [!UICONTROL round (숫자)]
+## [!UICONTROL 라운드(숫자)]
 
 숫자 값을 가장 가까운 정수로 반올림합니다.
 
@@ -130,7 +130,7 @@ ht-degree: 1%
 >
 >   반환 2
 
-## [!UICONTROL 합계 ([값 배열]), sum(value1; value2; ...)]
+## [!UICONTROL 합계([값 배열]), sum(value1; value2; ...)]
 
 지정된 배열의 값 합계 또는 개별적으로 입력한 숫자 합계를 반환합니다.
 
@@ -138,7 +138,7 @@ ht-degree: 1%
 
 문자열을 숫자로 구문 분석하고 숫자를 반환합니다. 예를 들어 parseNumber(1 756,456;,)
 
-## [!UICONTROL formatNumber(숫자, 소수점, [decimalSeparator]; [천 단위 구분 기호])]
+## [!UICONTROL formatNumber(number; decimalPOINTS; [decimalSeparator]; [thousandsSeparator])]
 
 요청한 형식으로 숫자를 반환합니다. 기본적으로 소수점은 쉼표(,)이고 천 단위 구분 기호는 마침표(.)입니다.
 

@@ -58,22 +58,22 @@ ht-degree: 0%
 
   Desktop Proofing Viewer를 사용하는 경우에는 필수가 아닙니다.
 
-  자세한 내용은 [Desktop Proofing 뷰어 이해](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md).
+  자세한 내용은 [데스크톱 증명 뷰어 이해](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md)를 참조하십시오.
 
 * 웹 사이트는 iframe에서 볼 수 있어야 합니다.
 
   Desktop Proofing Viewer를 사용하는 경우에는 필수가 아닙니다.
 
-  자세한 내용은 [Desktop Proofing 뷰어 이해](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md).
+  자세한 내용은 [데스크톱 증명 뷰어 이해](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md)를 참조하십시오.
 
 ## 대화형 증명 만들기 기본 정보
 
 ZIP 번들 파일을 준비한 후 대화형 증명을 만듭니다.
 
-자세한 내용은 [ZIP 파일에 대화형 컨텐츠에 대한 증명 만들기](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md).
+자세한 내용은 [ZIP 파일에 대화형 콘텐츠에 대한 증명 만들기](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md)를 참조하십시오.
 
-또는 Workfront 증명을 사용하는 경우 섹션 을 참조하십시오 [대화형 콘텐츠에 대한 증명 생성](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md#generate-a-proof-for-interactive-content) 이 문서에서 [Workfront Proof에서 증명 생성](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
+또는 Workfront Proof을 사용하는 경우 문서 [Workfront Proof에서 증명 생성](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)에서 [대화형 콘텐츠에 대한 증명 생성](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md#generate-a-proof-for-interactive-content) 섹션을 참조하십시오.
 
 ## 대화형 증명 검토 정보
 
-독립형 데스크탑 증명 뷰어를 대화형 증명의 기본 뷰어로 사용하는 것이 좋습니다. 그러나 조직의 정책에서 Desktop Proofing Viewer 앱 사용을 허용하지 않는 경우 Workfront 관리자는 사용자가 ZIP 아카이브 파일에 번들로 제공된 대화형 컨텐츠를 웹 증명 뷰어에서 검토할 수 있도록 시스템을 구성할 수 있습니다. Desktop Proofing Viewer와 웹 증명 뷰어에 대한 비교 정보는 [웹 증명 뷰어와 데스크탑 증명 뷰어의 차이점 개요](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
+독립형 데스크탑 증명 뷰어를 대화형 증명의 기본 뷰어로 사용하는 것이 좋습니다. 그러나 조직의 정책에서 Desktop Proofing Viewer 앱 사용을 허용하지 않는 경우 Workfront 관리자는 사용자가 ZIP 아카이브 파일에 번들로 제공된 대화형 컨텐츠를 웹 증명 뷰어에서 검토할 수 있도록 시스템을 구성할 수 있습니다. 데스크톱 증명 뷰어와 웹 증명 뷰어에 대한 비교 정보는 [웹 증명 뷰어와 데스크톱 증명 뷰어의 차이점](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)을 참조하십시오.

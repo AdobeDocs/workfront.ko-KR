@@ -31,7 +31,7 @@ recommendations: noDisplay, noCatalog
 
 Adobe Workfront Planning에서 사용자 정의 필드를 만들어 레코드에 대한 정보를 저장할 수 있습니다.
 
-Workfront Planning에서 사용자 정의 필드를 만드는 방법에 대한 자세한 내용은 [필드 만들기](/help/quicksilver/planning/fields/create-fields.md).
+Workfront Planning에서 사용자 정의 필드를 만드는 방법에 대한 자세한 내용은 [필드 만들기](/help/quicksilver/planning/fields/create-fields.md)를 참조하십시오.
 
 더 이상 관련이 없는 Workfront Planning 필드를 삭제할 수 있습니다.
 
@@ -42,7 +42,7 @@ Workfront Planning에서 사용자 정의 필드를 만드는 방법에 대한 �
 * 필드에 저장된 모든 정보는 삭제되며 복구할 수 없습니다.
 * 연결된 레코드 필드를 삭제하면 연결된 모든 조회 필드도 연결된 레코드 유형에서 삭제됩니다. 연결된 레코드 종류의 연결된 레코드 필드는 삭제되지 않습니다.
 
-  자세한 내용은 [레코드 유형 연결](/help/quicksilver/planning/architecture/connect-record-types.md).
+  자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
 
 <!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
 
@@ -88,12 +88,12 @@ Workfront Planning에서 사용자 정의 필드를 만드는 방법에 대한 �
   </tr>
 <tr>
    <td role="rowheader"><p>레이아웃 템플릿</p></td>
-   <td> <p>Workfront 또는 그룹 관리자는 레이아웃 템플릿에 계획 영역을 추가해야 합니다. 자세한 내용은 <a href="/help/quicksilver/planning/access/access-overview.md">액세스 개요</a>. </p>  
+   <td> <p>Workfront 또는 그룹 관리자는 레이아웃 템플릿에 계획 영역을 추가해야 합니다. 자세한 내용은 <a href="/help/quicksilver/planning/access/access-overview.md">액세스 개요</a>를 참조하십시오. </p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>권한</p></td>
-   <td> <p>작업 공간에 대한 권한 관리</a> </p>  
+   <td> <p>작업 영역</a>에 대한 권한 관리 </p>  
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p>
 </td>
   </tr>
@@ -119,7 +119,7 @@ Workfront Planning에서 사용자 정의 필드를 만드는 방법에 대한 �
 
 1. 기록 유형의 카드를 클릭합니다.
 
-1. (조건부) 아직 선택되지 않은 경우 **표 보기** 레코드 유형 페이지에서 참조할 수 있습니다.
+1. (조건부) 아직 선택하지 않은 경우 레코드 유형 페이지에서 **테이블 보기**&#x200B;의 탭을 클릭합니다.
 
    레코드 유형과 연관된 모든 기존 레코드는 테이블 뷰의 행에 표시됩니다.
 
@@ -127,10 +127,10 @@ Workfront Planning에서 사용자 정의 필드를 만드는 방법에 대한 �
 
    ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
-1. 클릭 **삭제**. <!-- check this: they might replace it with **Delete field**-->
+1. **삭제**&#x200B;를 클릭합니다. <!-- check this: they might replace it with **Delete field**-->
 
    <!--insert screen shot when finalized-->
 
-1. 클릭 **삭제** 확인할 수 있습니다.
+1. 확인하려면 **삭제**&#x200B;를 클릭하세요.
 
    필드가 삭제되고 복구할 수 없으며 더 이상 레코드와 연결할 수 없습니다.

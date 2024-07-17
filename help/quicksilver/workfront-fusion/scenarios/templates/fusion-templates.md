@@ -20,17 +20,17 @@ ht-degree: 0%
 
 >[!INFO]
 >
->[!DNL Adobe Workfront Fusion] 을(를) 필요로 합니다. [!DNL Adobe Workfront Fusion] 에 더해진 라이센스 [!DNL Adobe Workfront license].
+>[!DNL Adobe Workfront Fusion]에는 [!DNL Adobe Workfront license] 외에 [!DNL Adobe Workfront Fusion] 라이선스가 필요합니다.
 
-[!DNL Workfront Fusion]의 템플릿 기능을 사용하면 기존 템플릿을 만들고 의 시작점으로 사용할 수 있습니다. [!DNL Workfront Fusion] 시나리오.
+[!DNL Workfront Fusion]의 템플릿 기능을 사용하면 기존 템플릿을 만들어 [!DNL Workfront Fusion] 시나리오의 시작점으로 사용할 수 있습니다.
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [[!DNL Adobe Workfront Fusion] 템플릿 개요](/help/quicksilver/workfront-fusion/scenarios/templates/fusion-templates-overview.md)
-* [에서 새 템플릿 만들기 [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md)
-* [게시 및 공유 [!DNL Adobe Workfront Fusion] 템플릿](../../../workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md)
-* [다음을 사용하여 시나리오 만들기 [!DNL Adobe Workfront Fusion] 템플릿](../../../workfront-fusion/scenarios/templates/create-scenarios-with-fusion-templates.md)
+* [[!DNL Adobe Workfront Fusion]개 템플릿 개요](/help/quicksilver/workfront-fusion/scenarios/templates/fusion-templates-overview.md)
+* [새 템플릿 만들기 [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md)
+* [Publish 및 공유 [!DNL Adobe Workfront Fusion] 템플릿](../../../workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md)
+* [템플릿 [!DNL Adobe Workfront Fusion] 을 사용하여 시나리오 만들기](../../../workfront-fusion/scenarios/templates/create-scenarios-with-fusion-templates.md)
 * [보기, 편집 및 삭제 [!DNL Adobe Workfront Fusion] 템플릿](../../../workfront-fusion/scenarios/templates/view-edit-and-delete-fusion-templates.md)
 * [[!DNL Adobe Workfront Fusion] 템플릿 관리](../../../workfront-fusion/scenarios/templates/fusion-templates-adminstration.md)
-* [[!DNL Adobe Workfront Fusion] 템플릿 FAQ](../../../workfront-fusion/scenarios/templates/fusion-templates-faqs.md)
-* [현재 사용 가능하 [!DNL Adobe Workfront Fusion] 템플릿](../../../workfront-fusion/scenarios/templates/currently-available-fusion-templates.md)
+* [[!DNL Adobe Workfront Fusion]개 템플릿 FAQ](../../../workfront-fusion/scenarios/templates/fusion-templates-faqs.md)
+* [현재 사용 가능한 [!DNL Adobe Workfront Fusion] 템플릿](../../../workfront-fusion/scenarios/templates/currently-available-fusion-templates.md)

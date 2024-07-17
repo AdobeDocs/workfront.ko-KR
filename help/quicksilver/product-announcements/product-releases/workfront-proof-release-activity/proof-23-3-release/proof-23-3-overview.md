@@ -19,7 +19,7 @@ ht-degree: 0%
 
 이 페이지에서는 23.3 릴리스 기간 내에 프로덕션 환경에 릴리스되는 Adobe Workfront Proof 기능에 대한 정보를 제공합니다.
 
-23.3 릴리스 주기 시점에서 Workfront의 모든 영역에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [23.3 릴리스 개요](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+23.3 릴리스 주기 동안 이 시점에서 Workfront의 모든 영역에 사용할 수 있는 모든 변경 사항 목록을 보려면 [23.3 릴리스 개요](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)를 참조하십시오.
 
 <table>
             <col style="width: 50%;" />
@@ -37,7 +37,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jul-17.md" class="MCXref xref" xrefformat="{para}">Desktop Proofing Viewer 업데이트 연기</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jul-17.md" class="MCXref xref" xrefformat="{para}">데스크톱 증명 뷰어에 대한 업데이트 연기</a> </p>
                         <p>사용자 피드백을 기반으로 Desktop Proofing Viewer에 대한 업데이트를 연기하는 옵션을 추가하고 있습니다. 이제 사용자는 업데이트를 지연하고 작업을 계속할 수 있지만 Desktop Proofing Viewer를 열 때마다 업데이트를 사용할 수 있다는 메시지가 표시됩니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -71,7 +71,7 @@ ht-degree: 0%
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md">Desktop Proofing 뷰어 업데이트</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md">데스크톱 증명 뷰어 업데이트</a></p>
                         <p>Desktop Proofing Viewer가 버전 2.1.24로 업데이트되었습니다. 이 업데이트에는 대화형 증명 검토를 위한 Chrome v100 지원과 많은 문제 수정 사항이 포함되어 있습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>

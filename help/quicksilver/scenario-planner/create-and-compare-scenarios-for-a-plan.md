@@ -14,7 +14,7 @@ ht-degree: 1%
 
 ---
 
-# 에서 계획 시나리오 만들기 및 비교 [!DNL Scenario Planner]
+# [!DNL Scenario Planner]에서 계획 시나리오 만들기 및 비교
 
 기업의 장기적 전략을 구상 할 때, 처음부터 가지고 있지 않거나 생각지도 못한 정보가 많다. 이해 당사자가 받아들일 수 있는 최종 전략에 도달하려면 시간과 실험이 필요하다. 플랜에 대한 여러 시나리오를 만들기 위해 &quot;가정&quot; 분석을 수행하면 잠재적 상황을 정확하게 예측 및 평가하고 궁극적으로 최상의 계획을 개발하는 데 도움이 될 수 있습니다.
 
@@ -27,47 +27,47 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> 플랜*</b> </p> </td> 
+   <td> <p>[!DNL Adobe Workfront]<b> 계획*</b> </p> </td> 
    <td>[!UICONTROL Business] 이상</td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> 라이센스*</b> </p> </td> 
+   <td> <p>[!DNL Adobe Workfront]<b> 라이선스*</b> </p> </td> 
    <td> <p>[!UICONTROL Review] 이상</p> </td> 
   </tr> 
   <tr> 
    <td><b>제품</b> </td> 
-   <td> <p>다음에 대한 추가 라이선스를 구입해야 합니다. [!DNL Adobe Workfront Scenario Planner] 이 문서에 설명된 기능에 액세스합니다.</p> <p>를 가져오는 방법에 대한 자세한 내용은 [!DNL Workfront Scenario Planner], 참조 <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">를 사용하기 위해 필요한 액세스 권한 [!DNL Scenario Planner]</a>. </p> </td> 
+   <td> <p>이 문서에 설명된 기능에 액세스하려면 [!DNL Adobe Workfront Scenario Planner]에 대한 추가 라이선스를 구입해야 합니다.</p> <p>[!DNL Workfront Scenario Planner]을(를) 얻는 방법에 대한 자세한 내용은 [!DNL Scenario Planner]</a>을(를) 사용하는 데 필요한 <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">액세스를 참조하십시오. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><strong>액세스 수준 구성*</strong> </td> 
-   <td> <p>에 대한 액세스 이상 편집 [!DNL Scenario Planner]</p> <p>참고: 여전히 액세스 권한이 없는 경우 [!DNL Workfront] 관리자가 액세스 수준에 추가 제한을 설정하는 경우. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td> <p>에 대한 액세스 이상 편집 [!DNL Scenario Planner]</p> <p>참고: 여전히 액세스 권한이 없는 경우 [!DNL Workfront] 관리자에게 액세스 수준에 추가 제한을 설정했는지 문의하십시오. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><strong>개체 권한</strong> </p> </td> 
-   <td> <p>플랜에 대한 [!UICONTROL 관리] 권한</p> <p>계획에 대한 추가 액세스 요청에 대한 자세한 내용은 다음을 참조하십시오. <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">플랜에 대한 액세스 권한 요청 [!DNL Scenario Planner]</a>.</p> </td> 
+   <td> <p>플랜에 대한 [!UICONTROL 관리] 권한</p> <p>플랜에 대한 추가 액세스 요청에 대한 자세한 내용은 <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">플랜에 대한 액세스 요청 [!DNL Scenario Planner]</a>을(를) 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
+&#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
 
 ## 시나리오 만들기
 
 시나리오는 계획의 사본입니다. 필요한 만큼 시나리오를 만들 수 있습니다. 그러나 시나리오 수를 쉽게 비교할 수 있도록 시나리오 수를 최소로 유지하는 것이 좋습니다.
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을 클릭한 다음 을 클릭합니다 [!UICONTROL 시나리오].
+1. **[!UICONTROL 주 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 [!UICONTROL 시나리오]를 클릭합니다.
 
 1. 계획을 생성합니다.
 
-   계획 생성에 대한 자세한 내용은 다음을 참조하십시오. [에서 계획 생성 및 편집 [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md).
+   계획 만들기에 대한 자세한 내용은 [계획 만들기 및 편집 [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md)을 참조하세요.
 
-   생성한 첫 번째 플랜은 자동으로 &quot;[!UICONTROL 초기 시나리오].&quot;
+   처음 만든 계획은 자동으로 &quot;[!UICONTROL 초기 시나리오]&quot;(으)로 저장됩니다.
 
-1. 기존 시나리오 옆에 있는 아래쪽 화살표를 클릭한 다음 **[!UICONTROL 복사]** 아이콘.
+1. 기존 시나리오 옆에 있는 아래쪽 화살표를 클릭한 다음 **[!UICONTROL 복사]** 아이콘을 클릭합니다.
 
    ![](assets/copy-scenarios-ui-and-highlighted-icon-350x95.png)
 
-   이렇게 하면 복사된 시나리오와 동일한 정보로 새 시나리오가 생성됩니다. 이 이름은 자동으로 &quot;&quot;로 지정됩니다.[!UICONTROL 시나리오 2]&quot; 플랜의 두 번째 시나리오인 경우 &quot;[!UICONTROL 시나리오 3]세 번째면... 시나리오 이름은 변경할 수 없습니다. 만들 수 있는 부수는 제한이 없습니다.
+   이렇게 하면 복사된 시나리오와 동일한 정보로 새 시나리오가 생성됩니다. 플랜의 두 번째 시나리오인 경우 자동으로 &quot;[!UICONTROL 시나리오 2]&quot;, 세 번째 시나리오인 경우 자동으로 &quot;[!UICONTROL 시나리오 3]&quot;으로 지정됩니다. 시나리오 이름은 변경할 수 없습니다. 만들 수 있는 부수는 제한이 없습니다.
 
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -83,22 +83,22 @@ ht-degree: 1%
      >
      >시나리오에서 이니셔티브를 삭제하면 모든 시나리오가 아닌 선택한 시나리오에서만 제거됩니다.
 
-     이니셔티브 생성에 대한 자세한 내용은 [에서 이니셔티브 만들기 및 편집 [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
+     이니셔티브 만들기에 대한 자세한 내용은 [이니셔티브 만들기 및 편집 [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md)을 참조하십시오.
 
    * 이니셔티브의 우선 순위 업데이트
    * 직원 또는 예산 정보 조정
    * 시나리오에서 이니셔티브 충돌 검토 및 조정
 
-     충돌 해결에 대한 자세한 내용은 다음을 참조하십시오. [에서 이니셔티브 충돌 해결 [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md).
+     충돌 해결에 대한 자세한 내용은 [Resolve initiative conflicts in the [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md)을(를) 참조하십시오.
 
-1. 클릭 **[!UICONTROL 플랜 저장]** 변경 사항을 저장합니다.
+1. 변경 내용을 저장하려면 **[!UICONTROL 계획 저장]**&#x200B;을 클릭하세요.
 
 ## 시나리오 비교
 
 시나리오를 만든 후 비교하여 조직에 가장 적합한 시나리오를 찾을 수 있습니다.
 
 1. 시나리오를 비교하려는 계획으로 이동합니다.
-1. 클릭 **[!UICONTROL 시나리오 비교]**. 시나리오 비교 페이지가 표시됩니다.
+1. **[!UICONTROL 시나리오 비교]**&#x200B;를 클릭합니다. 시나리오 비교 페이지가 표시됩니다.
 
    플랜에 대한 모든 기존 시나리오가 나란히 카드 형식으로 표시됩니다. 초기 시나리오는 항상 먼저 나열되며 정적입니다.
 
@@ -130,19 +130,19 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td>예산</td> 
-      <td>이 시나리오에서 계획에 정의된 총 예산. 계획에 대한 예산 정보는 다음을 참조하십시오. <a href="../scenario-planner/plans-overview.md" class="MCXref xref">의 플랜 개요 [!DNL Scenario Planner]</a>. </td> 
+      <td>이 시나리오에서 계획에 정의된 총 예산. 플랜에 대한 예산 정보는 [!DNL Scenario Planner]</a>의 <a href="../scenario-planner/plans-overview.md" class="MCXref xref">플랜 개요를 참조하십시오. </td> 
      </tr> 
      <tr> 
       <td>비용</td> 
-      <td>시나리오에서 이니셔티브와 연계된 비용. 비용에 대한 자세한 내용은 <a href="../scenario-planner/initiatives-overview.md" class="MCXref xref">의 이니셔티브 개요 [!DNL Scenario Planner]</a>. </td> 
+      <td>시나리오에서 이니셔티브와 연계된 비용. 비용에 대한 자세한 내용은 [!DNL Scenario Planner]</a>에서 <a href="../scenario-planner/initiatives-overview.md" class="MCXref xref">이니셔티브 개요를 참조하십시오. </td> 
      </tr> 
      <tr> 
       <td>활용성</td> 
-      <td>이 시나리오에서 플랜에 대한 [!UICONTROL 예산 활용률] 백분율입니다. [!UICONTROL Budget Utilization] 백분율에 대한 자세한 내용은 다음을 참조하십시오. <a href="../scenario-planner/plans-overview.md" class="MCXref xref">의 플랜 개요 [!DNL Scenario Planner]</a>. </td> 
+      <td>이 시나리오에서 플랜에 대한 [!UICONTROL 예산 활용률] 백분율입니다. [!UICONTROL Budget Utilization] 비율에 대한 자세한 내용은 [!DNL Scenario Planner]</a>의 <a href="../scenario-planner/plans-overview.md" class="MCXref xref">계획 개요를 참조하십시오. </td> 
      </tr> 
      <tr> 
       <td>순 가치</td> 
-      <td>이 시나리오에서 플랜의 [!UICONTROL 순 값]. 플랜의 [!UICONTROL Net Value]에 대한 자세한 내용은 다음을 참조하십시오. <a href="../scenario-planner/plans-overview.md" class="MCXref xref">의 플랜 개요 [!DNL Scenario Planner]</a>. </td> 
+      <td>이 시나리오에서 플랜의 [!UICONTROL 순 값]. 플랜의 [!UICONTROL Net Value]에 대한 자세한 내용은 [!DNL Scenario Planner]</a>에서 <a href="../scenario-planner/plans-overview.md" class="MCXref xref">플랜 개요를 참조하십시오. </td> 
      </tr> 
      <tr> 
       <td>이니셔티브</td> 
@@ -150,7 +150,7 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td>충돌</td> 
-      <td>이 시나리오에 대한 플랜에서 충돌 유형을 표시하는 이니셔티브 수입니다. 이니셔티브 충돌에 대한 자세한 내용은 <a href="../scenario-planner/resolve-conflicts-in-sp.md" class="MCXref xref">에서 이니셔티브 충돌 해결 [!DNL Scenario Planner]</a>. </td> 
+      <td>이 시나리오에 대한 플랜에서 충돌 유형을 표시하는 이니셔티브 수입니다. 이니셔티브 충돌에 대한 자세한 내용은 [!DNL Scenario Planner]</a>에서 <a href="../scenario-planner/resolve-conflicts-in-sp.md" class="MCXref xref">이니셔티브 충돌 해결을 참조하십시오. </td> 
      </tr> 
     </tbody> 
    </table>
@@ -166,24 +166,24 @@ ht-degree: 1%
 
 1. 시나리오에 액세스하고 변경하려면 시나리오의 이름을 클릭합니다.
 
-   자세한 내용은 [시나리오 만들기](#create-scenarios) 이 문서의 섹션.
+   자세한 내용은 이 문서의 [시나리오 만들기](#create-scenarios) 섹션을 참조하십시오.
 
-1. 클릭 **[!UICONTROL 설명 추가]** 시나리오에 대한 설명을 추가하려면
+1. 시나리오에 대한 설명을 추가하려면 **[!UICONTROL 설명 추가]**&#x200B;를 클릭하십시오.
 
    또는
 
    설명 필드를 클릭하여 업데이트한 다음 화면의 아무 곳이나 클릭하여 변경 사항을 저장합니다.
 
-1. (선택 사항) **[!UICONTROL 자세히]** 메뉴 ![](assets/more-icon.png) 끝 **[!UICONTROL 복사]** 또는 **[!UICONTROL 삭제]** 시나리오.
+1. (선택 사항) 시나리오를 **[!UICONTROL 복사]** 또는 **[!UICONTROL 삭제]**&#x200B;하려면 **[!UICONTROL 자세히]** 메뉴 ![](assets/more-icon.png)를 클릭합니다.
 
    ![](assets/copy-or-delete-scenario-links-from-card-350x109.png)
 
-   시나리오를 복사하면 카드 페이지에 자동으로 나타나고 이 패턴에 따라 이름이 바뀝니다. &quot;[!UICONTROL 시나리오] `<next number in order>`.&quot;
+   시나리오를 복사하면 카드 페이지에 자동으로 표시되며 다음 패턴에 따라 이름이 바뀝니다. &quot;[!UICONTROL 시나리오] `<next number in order>`&quot;
 
-1. (조건부) 을 클릭한 경우 **[!UICONTROL 삭제]**, 클릭 **[!UICONTROL 예, 삭제합니다.]** 확인할 수 있습니다.
+1. (조건부) **[!UICONTROL 삭제]**&#x200B;를 클릭한 경우 **[!UICONTROL 예, 삭제]**&#x200B;를 클릭하여 확인합니다.
 
    삭제된 시나리오는 복구할 수 없습니다.
 
-   시나리오 삭제에 대한 자세한 내용은 [에서 플랜 삭제 [!DNL Scenario Planner]](../scenario-planner/delete-plans.md).
+   시나리오 삭제에 대한 자세한 내용은 [Delete plans in the [!DNL Scenario Planner]](../scenario-planner/delete-plans.md)을(를) 참조하십시오.
 
-1. 클릭 **[!UICONTROL 플랜 저장]** 시나리오 및 계획을 저장합니다.
+1. 시나리오 및 플랜을 저장하려면 **[!UICONTROL 플랜 저장]**&#x200B;을 클릭하세요.

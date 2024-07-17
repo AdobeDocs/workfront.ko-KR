@@ -22,9 +22,9 @@ ht-degree: 0%
 
 이 페이지에서는 2020년 11월 30일이 있는 주에 Adobe Workfront Fusion에서 향상된 모든 기능에 대해 설명합니다.
 
-최근 변경 사항의 목록은 다음을 참조하십시오. [Adobe Workfront Fusion 릴리스 활동](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+최근 모든 변경 사항의 목록은 [Adobe Workfront Fusion 릴리스 활동](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)을 참조하십시오.
 
-Workfront Fusion의 최근 버그 수정 목록은 다음을 참조하십시오. [Workfront 유지 보수 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) Workfront Fusion Maintenance Update로 레이블이 지정된 업데이트를 찾아 확인합니다.
+Workfront Fusion의 최근 버그 수정 목록을 보려면 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 페이지를 참조하고 Workfront Fusion 유지 관리 업데이트 레이블이 지정된 업데이트를 확인하십시오.
 
 ## Workfront Fusion 2.0 웹후크에 대한 등급 제한.
 
@@ -32,7 +32,7 @@ Workfront Fusion 2.0에 새로운 성능 보호 기능이 도입되었습니다.
 
 이전에는 Webhook 요청이 제한되지 않았습니다.
 
-자세한 내용은 [Adobe Workfront Fusion 성능 보호 기능](../../../../../workfront-fusion/get-started/fusion-performance-guardrails.md).
+자세한 내용은 [Adobe Workfront Fusion 성능 보호 기능](../../../../../workfront-fusion/get-started/fusion-performance-guardrails.md)을 참조하십시오.
 
 ## Workfront Fusion 2.0의 Workfront 개체에 사용자 정의 양식 추가
 
@@ -40,7 +40,7 @@ Workfront Fusion 2.0에서는 사용자 정의 양식을 오브젝트에 추가�
 
 이전에는 Workfront Fusion 2.0 모듈을 사용하여 사용자 정의 양식을 Workfront의 오브젝트에 추가할 수 없었습니다.
 
-Workfront > 기타 섹션에 대한 자세한 내용을 보려면 여기를 클릭하십시오. 작업 모듈입니다. 다음을 참조하십시오. [Adobe Workfront 모듈](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Workfront > 기타 섹션에 대한 자세한 내용을 보려면 여기를 클릭하십시오. 작업 모듈입니다. [Adobe Workfront 모듈](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md)을 참조하세요.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

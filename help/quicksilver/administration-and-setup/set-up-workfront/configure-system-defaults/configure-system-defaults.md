@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration;setup
 navigation-topic: set-up-workfront
 title: 시스템 기본값 구성
-description: (으)로 [!DNL Adobe Workfront] 관리자는 사용자가 만드는 모든 프로젝트에 대한 환경 설정과 같은 시스템 기본값을 구성할 수 있습니다.
+description: ' [!DNL Adobe Workfront] 관리자는 사용자가 만드는 모든 프로젝트에 대한 환경 설정과 같은 시스템 기본값을 구성할 수 있습니다.'
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -27,7 +27,7 @@ ht-degree: 0%
 * [요청 유형 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md)
 * [기본 문제 유형 사용자 지정](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md)
 * [기본 필터, 보기 및 그룹화 만들기, 편집 및 공유](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md)
-* [구성 [!UICONTROL 리소스 관리] 환경 설정](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)
+* [[!UICONTROL 리소스 관리] 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)
 * [위험 유형 편집 및 만들기](../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md)
 * [사용자 정의 경비 유형 만들기](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md)
 * [스코어카드 만들기](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)

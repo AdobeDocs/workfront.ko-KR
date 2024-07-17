@@ -22,5 +22,5 @@ ht-degree: 0%
 * [보고서 FAQ](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)
 * [캘린더에 오류 메시지: &quot;이 캘린더에는 비활성화된 사용자의 보기 권한이 있습니다.&quot;](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/error-message-calendar.md)
 * [보고서를 실행할 때 오류 메시지: &quot;현재 로그인되어 있지 않습니다.&quot;](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/error-running-report.md)
-* [인라인 편집 일자 교대 달력 표시 외부적](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/date-edits-shift-calendar.md)
+* [인라인 편집 날짜가 일정 표시를 상자 밖에 이동](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/date-edits-shift-calendar.md)
 * [공유 열의 데이터가 대시보드 보고서에 표시되지 않음](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/shared-columns-not-displayed-in-report-dashboard.md)

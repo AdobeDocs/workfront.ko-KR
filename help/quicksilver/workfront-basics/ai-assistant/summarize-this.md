@@ -6,7 +6,8 @@ author: Becky
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: bddf7a2a9c3e8732bbced042e6fdc28b440870c4
+exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
+source-git-commit: 6dd2fd4d688514540265fa3b0d2634194fb6a7ab
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 2%
@@ -30,21 +31,16 @@ AI Assistant는 다음 객체를 요약할 수 있습니다.
 >
 >AI Assistant 요약 기능은 요약 패널과 다릅니다.
 >
->Workfront의 요약 패널에 대한 자세한 내용은 [요약 개요](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
+>Workfront의 요약 패널에 대한 자세한 내용은 [요약 개요](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)를 참조하세요.
 
 ## 개체 요약
 
 객체 요약을 보려면 다음과 같이 하십시오.
 
 1. 요약을 보려는 객체로 이동합니다.
-1. 다음을 클릭합니다. **AI Assistant** 아이콘 ![AI Assistant 아이콘](assets/ai-assistant-icon.png) 화면 오른쪽 상단 모서리 근처.
-1. AI Assistant 패널에서 **요약**.
+1. 화면 오른쪽 상단 근처에 있는 **AI Assistant** 아이콘 ![AI Assistant 아이콘](assets/ai-assistant-icon.png)을 클릭합니다.
+1. AI 지원 패널에서 **이 요약**&#x200B;을 클릭합니다.
 
    AI Assistant는 객체의 크기 또는 복잡성에 따라 요약을 생성하는 데 몇 분 정도 걸릴 수 있습니다.
 
 1. AI Assistant 패널에서 AI 요약을 봅니다.
-
-
-
-
-

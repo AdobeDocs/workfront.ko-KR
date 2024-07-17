@@ -23,7 +23,7 @@ ht-degree: 0%
 
 텍스트 모드를 사용하여 목록 또는 보고서에서 필터를 편집하여 표준 인터페이스에서 사용할 수 없는 필드에 액세스하고 보다 복잡한 필터를 만들 수 있습니다.
 
-필터를 만들 때의 추가 텍스트 모드 예제는 섹션 을 참조하십시오 [맞춤형 필터 샘플](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md#samples-of-custom-filters) 이 문서에서 [사용자 정의 보기, 필터링 및 그룹화 샘플: 문서 인덱스](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md).
+필터를 만들 때의 텍스트 모드 예에 대한 자세한 내용은 문서 [사용자 지정 보기, 필터 및 그룹화 샘플: 문서 인덱스](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)의 [사용자 지정 필터 샘플](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md#samples-of-custom-filters) 섹션을 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -56,7 +56,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -78,18 +78,18 @@ ht-degree: 0%
 >
 >표준 모드에서 가능한 한 많은 필터를 작성한 다음 필터를 텍스트 모드로 변환하여 편집하는 것이 좋습니다.
 
-필터 빌드에 대한 자세한 내용은 [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+필터 빌드에 대한 자세한 내용은 [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)를 참조하세요.
 
-보고서 만들기에 대한 자세한 내용은 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+보고서 만들기에 대한 자세한 내용은 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)를 참조하십시오.
 
 1. 다음 중 하나를 수행하십시오.
 
-   1. 보고서에서 필터에 액세스하려면 보고서로 이동한 다음 **보고서 작업** > **편집** > **필터** 탭.
-   1. 목록에서 필터에 액세스하려면 목록으로 이동한 다음 **필터** 메뉴를 클릭하고 수정할 필터를 마우스로 가리킨 다음 **편집** 아이콘 ![](assets/edit-icon.png).
+   1. 보고서에서 필터에 액세스하려면 보고서로 이동한 다음 **보고서 작업** > **편집** > **필터** 탭을 클릭합니다.
+   1. 목록에서 필터에 액세스하려면 목록으로 이동한 후 **필터** 메뉴에서 수정할 필터를 마우스로 가리킨 다음 **편집** 아이콘 ![](assets/edit-icon.png)을(를) 클릭합니다.
 
       필터 빌더가 열립니다.
 
-1. 클릭 **필터 규칙 추가** 필터의 조건을 추가하려면 을 클릭합니다. **텍스트 모드** 또는 **텍스트 모드로 전환** 빌더 오른쪽에 있습니다.
+1. **필터 규칙 추가**&#x200B;를 클릭하여 필터의 조건을 추가한 다음 빌더 오른쪽에 있는 **텍스트 모드** 또는 **텍스트 모드로 전환**&#x200B;을 클릭합니다.
 1. 텍스트 모드를 사용하여 필터 문을 추가합니다. 각 필터 문에는 다음 줄과 추가 정보가 포함될 수 있습니다.
 
    <table style="table-layout:auto"> 
@@ -101,7 +101,7 @@ ht-degree: 0%
       <td><b>예</b></td> 
      </tr> 
      <tr> 
-      <td> <p>필드 이름 및 Workfront 데이터베이스에 나타나는 값과 동일합니다.</p> <p>이 라인은 필수입니다.</p> <p> 개체와 필드가 데이터베이스에 표시되는 방법에 대한 자세한 내용은 <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API 탐색기</a>.</p> </td> 
+      <td> <p>필드 이름 및 Workfront 데이터베이스에 나타나는 값과 동일합니다.</p> <p>이 라인은 필수입니다.</p> <p> 데이터베이스에 개체 및 필드가 표시되는 방법에 대한 자세한 내용은 <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API 탐색기</a>를 참조하십시오.</p> </td> 
       <td> <p><code>&lt;field name in camel case&gt;=&lt;value&gt;</code> </p> <p>진행 중 상태의 작업을 필터링하려면 다음 줄을 사용하십시오.</p> <p><code>status=INP</code> </p> <p><b>팁</b>
 
    상태를 필터링할 때는 이름이 아닌 세 글자로 된 상태 코드를 사용해야 합니다.</p> </td>
@@ -118,7 +118,7 @@ ht-degree: 0%
         <p><code>plannedCompletionDate=$$TODAYbm</code> </p> 
         <p><code>plannedCompletionDate_Mod=between</code> </p> 
         <p><code>plannedCompletionDate_Range=$$TODAYem</code> </p> 
-        <p>텍스트 모드의 전체 필터 수정자 목록은 문서 를 참조하십시오 <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">필터 및 조건 수정자</a>.</p> 
+        <p>텍스트 모드의 전체 필터 수정자 목록은 <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">필터 및 조건 수정자</a> 문서를 참조하십시오.</p> 
        </div> </td> 
      </tr> 
      <tr> 
@@ -137,7 +137,7 @@ ht-degree: 0%
        </div> </td> 
      </tr> 
      <tr> 
-      <td> <p>와일드카드: 필터에 있는 정보를 일반화하고 현재 시간 또는 로그인한 사용자를 참조할 수 있습니다.</p> <p>와일드카드는 선택 사항입니다.</p> <p>팁:   <p>필터를 보다 역동적으로 만들고 각 사용자 또는 유사한 시간대에 대해 동일한 필터를 복제하지 않도록 할 때는 가능하면 와일드카드를 사용하는 것이 좋습니다.</p> <p>필터 와일드카드에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">와일드카드 필터 변수 개요</a>.</p> </p> </td> 
+      <td> <p>와일드카드: 필터에 있는 정보를 일반화하고 현재 시간 또는 로그인한 사용자를 참조할 수 있습니다.</p> <p>와일드카드는 선택 사항입니다.</p> <p>팁:   <p>필터를 보다 역동적으로 만들고 각 사용자 또는 유사한 시간대에 대해 동일한 필터를 복제하지 않도록 할 때는 가능하면 와일드카드를 사용하는 것이 좋습니다.</p> <p>필터 와일드카드에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">와일드카드 필터 변수 개요</a>를 참조하십시오.</p> </p> </td> 
       <td> <p><code>&lt;first field name in camel case&gt;=&lt;wildcard&gt;</code> </p> <p><code>&lt;first field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> 
        <div class="example" data-mc-autonum="<b>Example: </b>"> <span class="autonumber"><span><b>예</b></span></span> 
         <p>현재 로그인한 사용자에게 할당된 작업을 필터링하려면 다음을 사용합니다.</p> 
@@ -150,17 +150,17 @@ ht-degree: 0%
 
 1. &quot;OR&quot; 연산자로 연결된 필터 문을 추가하려면 다음을 수행합니다.
 
-   1. 새 코드 행을 추가하고 OR 입력:1: 뒤에 필터링할 개체 또는 특성과 비교할 값이 옵니다. 신규를 제외한 모든 상태의 작업을 참조하려면 다음 라인을 사용합니다.
+   1. OR:1:을(를) 입력하고 그 뒤에 필터링할 개체 또는 특성과 비교하려는 값을 추가합니다. 신규를 제외한 모든 상태의 작업을 참조하려면 다음 라인을 사용합니다.
 
       `OR:1:status=NEW`
 
-   1. 두 번째 줄을 추가하고 OR 입력:1: 뒤에 object, modifier 및 modifier 코드가 옵니다. 신규를 제외한 모든 태스크 상태를 참조하는 코드 라인의 수정자를 정의하려면 다음 수정자 라인을 사용합니다.
+   1. 두 번째 줄을 추가하고 OR:1:을(를) 입력한 다음 개체, 수정자 및 수정자 코드를 입력합니다. 신규를 제외한 모든 태스크 상태를 참조하는 코드 라인의 수정자를 정의하려면 다음 수정자 라인을 사용합니다.
 
       `OR:1:status_Mod=notin`
 
-      새 명령문의 각 줄 앞에는 &quot;OR:`<number>`:&quot;.
+      새 문의 각 줄 앞에는 &quot;OR:`<number>`:&quot;이 와야 합니다.
 
-      필터에서 &quot;OR&quot; 문을 만드는 방법에 대한 자세한 내용은 [텍스트 모드 필터에서 &quot;OR&quot; 문 만들기](../../../reports-and-dashboards/reports/text-mode/create-or-statements-in-filters-text-mode.md).
+      필터에서 &quot;OR&quot; 문을 만드는 방법에 대한 자세한 내용은 [텍스트 모드 필터에서 &quot;OR&quot; 문 만들기](../../../reports-and-dashboards/reports/text-mode/create-or-statements-in-filters-text-mode.md)를 참조하십시오.
 
       >[!NOTE]
       >
@@ -175,7 +175,7 @@ ht-degree: 0%
       >`OR:2:plannedCompletionDate=$$TODAY`
       >`OR:2:plannedCompletionDate_Mod=eq`
 
-1. 클릭 **텍스트 모드 종료** 또는 **완료** 텍스트 모드 변경 내용을 저장하고 보고서 또는 필터 편집을 계속합니다.
-1. 클릭 **저장 + 닫기** 보고서를 저장하거나 **필터 저장** 필터를 목록에 저장합니다.
+1. 텍스트 모드 변경 내용을 저장하고 보고서 또는 필터를 계속 편집하려면 **텍스트 모드 종료** 또는 **완료**&#x200B;를 클릭하십시오.
+1. **저장 + 닫기**&#x200B;를 클릭하여 보고서를 저장하거나 **필터 저장**&#x200B;을 클릭하여 필터를 목록에 저장합니다.
 
 

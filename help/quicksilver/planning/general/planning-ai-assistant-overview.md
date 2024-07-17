@@ -28,7 +28,7 @@ ht-degree: 0%
 >
 >이 단계에 속해 있는 경우 계정 담당자에게 알립니다.
 >
->자세한 내용은 [Adobe Workfront Planning 개요](/help/quicksilver/planning/general/planning-overview.md).
+>자세한 내용은 [Adobe Workfront 계획 개요](/help/quicksilver/planning/general/planning-overview.md)를 참조하십시오.
 
 AI Assistant를 사용하여 현재 페이지 컨텍스트 및 레코드 구조를 기반으로 레코드를 생성, 업데이트 또는 제거할 수 있습니다.
 
@@ -38,7 +38,7 @@ AI Assistant를 사용하여 현재 페이지 컨텍스트 및 레코드 구조�
 
 * Workfront 관리자는 기본적으로 AI Assistant를 사용할 수 있습니다.
 
-* Workfront 관리자는 다른 모든 사용자에 대해 AI Assistant를 활성화해야 합니다. 자세한 내용은 [AI Assistant 활성화 또는 비활성화](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
+* Workfront 관리자는 다른 모든 사용자에 대해 AI Assistant를 활성화해야 합니다. 자세한 내용은 [AI Assistant 사용 또는 사용 안 함](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)을 참조하십시오.
 
 * AI 도우미는 각 페이지의 컨텍스트에서 작동합니다. AI Assistant에 대해 제출 중인 요청은 열려 있는 페이지에서 사용할 수 있는 기능을 참조해야 합니다.
 
@@ -72,15 +72,15 @@ AI Assistant를 사용하여 현재 페이지 컨텍스트 및 레코드 구조�
 
 ## AI Assistant 액세스
 
-1. Workfront에 로그인한 다음 **계획 수립** 영역입니다.
+1. Workfront에 로그인한 다음 **계획** 영역으로 이동합니다.
 
-1. 클릭: **작업 영역 카드**.
+1. **작업 영역 카드**&#x200B;를 클릭합니다.
 
-1. (선택 사항) **레코드 종류 카드**.
+1. (선택 사항) **레코드 종류 카드**&#x200B;를 클릭합니다.
 
-1. (선택 사항) **기록** 레코드 열기 **세부 사항** 페이지를 가리키도록 업데이트하는 중입니다.
+1. (선택 사항) **레코드**&#x200B;을(를) 클릭하여 레코드의 **세부 정보** 페이지를 엽니다.
 
-1. 다음을 클릭합니다. **AI Assistant 아이콘** 전역 탐색 막대에 있는 화면의 오른쪽 상단
+1. 전역 탐색 막대에서 화면 오른쪽 상단의 **AI Assistant 아이콘**&#x200B;을 클릭합니다.
 
    ![](assets/ai-assistant-icon-highlighted.png)
 

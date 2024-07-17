@@ -6,7 +6,8 @@ description: 다양한 방법으로 Workfront 데이터를 시각화하는 다�
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+exl-id: d593a9d5-6351-48ff-891d-cc1b727188bc
+source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
@@ -23,7 +24,7 @@ ht-degree: 0%
 * 테이블 보고서
 * 보류 중인 승인 보고서
 
-캔버스 대시보드에서 보고서를 추가하고 정렬하는 방법에 대한 일반 정보는 를 참조하십시오. [캔버스 대시보드에서 보고서 추가, 제거 또는 정렬](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md). 특정 보고서 유형 추가 및 서식 지정에 대한 자세한 내용은 아래 문서 색인을 참조하십시오.
+캔버스 대시보드에서 보고서를 추가 및 정렬하는 방법에 대한 일반 정보는 [캔버스 대시보드에서 보고서 추가, 제거 또는 정렬](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)을 참조하십시오. 특정 보고서 유형 추가 및 서식 지정에 대한 자세한 내용은 아래 문서 색인을 참조하십시오.
 
 ## 캔버스 대시보드 보고서 유형: 문서 색인
 

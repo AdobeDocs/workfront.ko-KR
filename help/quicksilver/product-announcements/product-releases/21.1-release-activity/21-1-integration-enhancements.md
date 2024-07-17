@@ -19,7 +19,7 @@ ht-degree: 0%
 
 이 페이지에서는 미리보기 환경에 대한 21.1 릴리스의 모든 통합 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2021년 2월 15일이 있는 주에 프로덕션 환경에서 사용할 수 있습니다.
 
-21.1 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [21.1 릴리스 개요](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+21.1 릴리스에서 사용할 수 있는 모든 변경 사항 목록은 [21.1 릴리스 개요](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md)를 참조하십시오.
 
 ## Microsoft Teams의 Adobe Workfront 알림 개선 사항
 
@@ -31,5 +31,5 @@ Microsoft Teams을 통해 Workfront을 더 쉽게 사용할 수 있도록 Workfr
 
 이 새로운 기능을 이용하려면 Microsoft Teams 계정에 다시 로그인해야 합니다. 다른 조치는 취하지 않으셔도 됩니다
 
-자세한 내용은 [Microsoft Teams에서 Adobe Workfront 알림 관리](../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md).
+자세한 내용은 [Microsoft Teams에서 Adobe Workfront 알림 관리](../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md)를 참조하십시오.
 

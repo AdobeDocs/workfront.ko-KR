@@ -30,7 +30,7 @@ OAuth2를 통해 Workfront은 사용자를 대신하여 웹후크 공급자에 �
 1. 사용자가 Webhook 통합을 해당 계정에 연결하기 시작합니다. 현재 이 작업은 &quot;문서 추가&quot; 드롭다운 > &quot;서비스 추가&quot; > 사용자 정의 통합 이름을 클릭하여 수행됩니다.
 1. Workfront은 사용자에게 인증 URL을 탐색합니다. 이 URL은 사용자가 외부 문서 공급자에 로그인하라는 메시지를 표시할 수 있습니다. 이 페이지는 웹후크 공급자 또는 외부 문서 관리 시스템에 의해 호스팅됩니다. 이렇게 하면 Workfront이 인증 URL에 &quot;state&quot; 매개 변수를 추가합니다. 아래 단계에서 동일한 값을 Workfront 반환 URI에 추가하여 이 값을 Workfront에 다시 전달해야 합니다.
 1. 외부 시스템에 로그인한 후(또는 사용자가 이미 로그인한 경우) 사용자는 &quot;인증&quot; 페이지로 이동됩니다. 이 페이지는 Workfront이 사용자를 대신하여 일련의 작업을 수행하기 위해 액세스 권한을 요청하고 있음을 설명합니다.
-1. 사용자가 &quot;허용&quot; 단추를 클릭하면 브라우저가 Workfront 리디렉션 URI 로 리디렉션되고 &quot;code=&quot;가 추가됩니다.`<code>`&quot;쿼리 문자열. OAuth2 사양에 따라 이 토큰은 수명이 짧습니다. 쿼리 문자열에는 &quot;state=&quot;도 있어야 합니다.`<sent_by_workfront>`&quot;.
+1. 사용자가 &quot;허용&quot; 단추를 클릭하면 브라우저가 Workfront 리디렉션 URI 로 리디렉션되고 쿼리 문자열에 &quot;code=`<code>`&quot;이(가) 추가됩니다. OAuth2 사양에 따라 이 토큰은 수명이 짧습니다. 쿼리 문자열에는 &quot;state=`<sent_by_workfront>`&quot;도 있어야 합니다.
 1. Workfront은 이 요청을 처리하고 인증 코드를 사용하여 토큰 끝점 URL에 대한 API를 호출합니다.
 1. 토큰 끝점 URL은 새로 고침 토큰 및 액세스 토큰을 반환합니다.
 1. Workfront은 이러한 토큰을 저장하고 이 사용자를 위한 webhook 통합을 완전히 프로비저닝합니다.

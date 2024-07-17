@@ -18,17 +18,17 @@ ht-degree: 2%
 
 이 페이지에서는 R1.1 및 R1.2 릴리스와 함께 미리보기 환경에서 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 페이지의 기능은 2017년 1월 19일에 미리보기 환경에서 사용할 수 있습니다.
 
-R1의 모든 변경 사항 목록은 다음을 참조하십시오. [R1 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md). 
+R1의 모든 변경 사항 목록은 [R1 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md)를 참조하십시오. 
 
 ## 휴지통에서 프로젝트, 작업 및 문제 복원 
 
 이제 Workfront 관리자는 지난 30일 이내에 삭제된 프로젝트, 작업 및 문제를 복원할 수 있습니다. 문서 및 사용자 지정 데이터를 포함하여 프로젝트, 작업 또는 문제와 관련된 모든 정보가 복원됩니다.
 
-삭제된 프로젝트, 작업 또는 문제에 대해 기록된 시간을 구성하는 데 새로운 옵션도 사용할 수 있습니다. 자세한 내용은 [오브젝트가 삭제되고 복원될 때 시간에 대한 영향 구성](../../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md).
+삭제된 프로젝트, 작업 또는 문제에 대해 기록된 시간을 구성하는 데 새로운 옵션도 사용할 수 있습니다. 자세한 내용은 [개체가 삭제되고 복원될 때 시간에 대한 영향 구성](../../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md)을 참조하십시오.
 
-Workfront에서 개체를 복원하는 방법에 대한 자세한 내용은 [삭제된 항목 복원](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+Workfront에서 개체를 복원하는 방법에 대한 자세한 내용은 [삭제된 항목 복원](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)을 참조하십시오.
 
-최근에 복원된 프로젝트, 작업 및 문제를 보는 방법에 대한 자세한 내용은 [복원된 항목 보기](../../../../administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
+최근에 복원된 프로젝트, 작업 및 문제를 보는 방법에 대한 자세한 내용은 [복원된 항목 보기](../../../../administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)를 참조하십시오.
 
 ## 승인 다이어그램은 이전, 현재 및 향후 승인 단계를 시각적으로 보여 줍니다.
 
@@ -38,20 +38,20 @@ Workfront에서 개체를 복원하는 방법에 대한 자세한 내용은 [삭
 
 프로젝트의 경우 프로젝트 제목 옆에 있는 헤더에 승인 정보가 표시됩니다. 작업 및 문제의 경우 승인 정보가 오른쪽 패널에 표시됩니다.
 
-자세한 내용은 [작업 승인](../../../../review-and-approve-work/manage-approvals/approving-work.md) 위치:  [작업 승인](../../../../review-and-approve-work/manage-approvals/approving-work.md).
+자세한 내용은 [작업 승인](../../../../review-and-approve-work/manage-approvals/approving-work.md)을 참조하세요.  [작업 승인](../../../../review-and-approve-work/manage-approvals/approving-work.md).
 
 ## 승인 보류 중인 업데이트할 개체 구성
 
 프로젝트, 작업 또는 문제가 승인 보류 중일 때 이제 사용자가 다음을 수행할 수 있는지 여부를 구성할 수 있습니다.
 
 * 승인 보류 중인 프로젝트, 작업 또는 문제의 사용자 정의 양식을 편집합니다.\
-  승인 보류 중 시 편집할 프로젝트, 작업 및 문제를 구성하는 방법에 대한 자세한 내용은 [전역 승인 설정 구성](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md)
+  승인 보류 시 편집할 프로젝트, 작업 및 문제를 구성하는 방법에 대한 자세한 내용은 [전역 승인 설정 구성](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md)을 참조하십시오.
 
 * 승인 보류 중인 프로젝트에 문제를 추가합니다.\
-  프로젝트가 승인 보류 중일 때 사용자가 문제를 추가할 수 있도록 프로젝트를 구성하는 방법에 대한 자세한 내용은 을 참조하십시오. [시스템 전체 프로젝트 환경 설정 구성](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  프로젝트가 승인 보류 중일 때 사용자가 문제를 추가할 수 있도록 프로젝트를 구성하는 방법에 대한 자세한 내용은 [시스템 차원의 프로젝트 환경 설정 구성](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)을 참조하십시오.
 
 * 승인 보류 중인 프로젝트 내의 작업 및 문제를 편집합니다.\
-  프로젝트가 승인 보류 중일 때 사용자가 작업 및 문제를 편집할 수 있도록 프로젝트를 구성하는 방법에 대한 자세한 내용은 [시스템 전체 프로젝트 환경 설정 구성](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  프로젝트가 승인 보류 중일 때 사용자가 작업 및 문제를 편집할 수 있도록 프로젝트를 구성하는 방법에 대한 자세한 내용은 [시스템 차원의 프로젝트 환경 설정 구성](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)을 참조하십시오.
 
 이 변경 이전에는 승인 보류 중인 프로젝트, 작업 및 문제를 편집할 수 없었고, 승인 보류 중인 프로젝트에 문제를 추가할 수 없었으며, 승인 보류 중인 프로젝트 내에서 작업 및 문제를 편집할 수 없었습니다.
 
@@ -69,7 +69,7 @@ Workfront에서 개체를 복원하는 방법에 대한 자세한 내용은 [삭
 
 이 변경 이전에는, 선택한 이메일 알림 설정이 저장되었으며, 변경 사항을 저장할 때 변경되지 않은 다른 모든 알림 설정은 선택 해제되었습니다. 
 
-자세한 내용은 의 &quot;사용자 알림 설정 일괄 수정&quot;을 참조하십시오. [이메일 알림 수정](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+자세한 내용은 [사용자 전자 메일 알림 수정](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)의 &quot;사용자 알림 설정 일괄 수정&quot;을 참조하십시오.
 
 ## 여러 이메일 알림의 모양과 느낌이 업데이트됨
 
@@ -83,7 +83,7 @@ Workfront에서 개체를 복원하는 방법에 대한 자세한 내용은 [삭
 * 승인 보류 중(프로젝트, 작업, 문제)
 * 프로젝트, 작업, 문제의 상태 변경
 
-미리보기 샌드박스에서 모든 사용자의 이메일 주소를 지우므로 이 기능을 테스트하려면 계정과 연결된 이메일 주소를 업데이트해야 합니다.    이메일 알림에 대한 자세한 내용은 [Adobe Workfront 알림](../../../../workfront-basics/using-notifications/wf-notifications.md).  
+미리보기 샌드박스에서 모든 사용자의 이메일 주소를 지우므로 이 기능을 테스트하려면 계정과 연결된 이메일 주소를 업데이트해야 합니다.    전자 메일 알림에 대한 자세한 내용은 [Adobe Workfront 알림](../../../../workfront-basics/using-notifications/wf-notifications.md)을 참조하세요.  
 
 ## 여러 알림 영역에 대한 새로운 이메일 다이제스트 옵션
 
@@ -95,13 +95,13 @@ Workfront에서 개체를 복원하는 방법에 대한 자세한 내용은 [삭
 * 나에게 할당된 작업 정보
 * 커뮤니케이션
 
-자세한 내용은 [Adobe Workfront 알림](../../../../workfront-basics/using-notifications/wf-notifications.md).  미리보기 샌드박스에서 모든 사용자의 이메일 주소를 지우므로 이 기능을 테스트하려면 계정과 연결된 이메일 주소를 업데이트해야 합니다. 
+자세한 내용은 [Adobe Workfront 알림](../../../../workfront-basics/using-notifications/wf-notifications.md)을 참조하세요.  미리보기 샌드박스에서 모든 사용자의 이메일 주소를 지우므로 이 기능을 테스트하려면 계정과 연결된 이메일 주소를 업데이트해야 합니다. 
 
 ## 공개로 그룹 만들기
 
 이제 그룹을 공개로 만들 때 그룹 소유자가 되지 않고도 해당 그룹을 사용자에게 추가할 수 있습니다. 사용자를 편집하려면 사용자 관리 액세스 권한이 있어야 합니다.
 
-그룹을 공개하는 방법에 대한 자세한 내용은 [그룹 만들기](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#making-a-group-public) 의 섹션 [그룹 만들기](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+그룹을 공개하는 방법에 대한 자세한 내용은 [그룹 만들기](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)의 [그룹 만들기](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#making-a-group-public) 섹션을 참조하십시오.
 
 ## 모바일 앱에서 오브젝트의 URL 공유 
 
@@ -131,7 +131,7 @@ Workfront에서 개체를 복원하는 방법에 대한 자세한 내용은 [삭
 
 이 변경 이전에는 경비 비율이 소수점 뒤에 최대 2자까지 포함될 수 있었습니다(예: 1.03).
 
-경비율 생성에 대한 자세한 내용은 다음을 참조하십시오. [사용자 정의 경비 유형 만들기](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md).
+경비율 만들기에 대한 자세한 내용은 [사용자 지정 경비 형식 만들기](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md)를 참조하십시오.
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Updated Look and Improved Performance in the Tasks&nbsp;List (by request only)</h2>

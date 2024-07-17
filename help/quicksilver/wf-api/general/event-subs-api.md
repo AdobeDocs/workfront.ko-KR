@@ -9,8 +9,8 @@ role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
 source-git-commit: c08bd3311892d24a9bd40af138169957f5ea2ca4
 workflow-type: tm+mt
-source-wordcount: '2126'
-ht-degree: 4%
+source-wordcount: '2147'
+ht-degree: 3%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 4%
 
 허용 목록에 추가하다 귀하의 방화벽을 통해 이벤트 구독 페이로드를 수신하려면 다음 IP 주소를 귀하의 방화벽에 추가해야 합니다.
 
-**유럽 지역 고객의 경우:**
+**유럽 고객의 경우:**
 
 * 52.30.133.50
 * 52.208.159.124
@@ -36,7 +36,7 @@ ht-degree: 4%
 * 34.254.76.122
 * 34.252.250.191
 
-**유럽 이외의 지역 고객의 경우:**
+**유럽 이외의 지역에 있는 고객의 경우:**
 
 * 54.244.142.219
 * 44.241.82.96
@@ -60,7 +60,7 @@ ht-degree: 4%
 * 시간
 * 문제
 * 참고
-* 포트폴리오
+* Portfolio
 * 프로그램
 * 프로젝트
 * 기록
@@ -72,16 +72,16 @@ ht-degree: 4%
 * 사용자
 * 작업 영역
 
-이벤트 구독 오브젝트에서 지원하는 필드 목록은 다음을 참조하십시오. [이벤트 구독 리소스 필드](../../wf-api/api/event-sub-resource-fields.md).
+이벤트 구독 개체에서 지원하는 필드 목록은 [이벤트 구독 리소스 필드](../../wf-api/api/event-sub-resource-fields.md)를 참조하십시오.
 
 ## 이벤트 구독 인증
 
 이벤트 구독을 생성, 쿼리 또는 삭제하려면 Workfront 사용자에게 다음이 필요합니다.
 
 * 이벤트 구독을 사용하려면 &quot;시스템 관리자&quot;의 액세스 수준이 필요합니다.
-* A `sessionID`  이벤트 구독 API를 사용하려면 헤더가 필요합니다.
+* 이벤트 구독 API를 사용하려면 `sessionID` 헤더가 필요합니다.
 
-  자세한 내용은 [인증](api-basics.md#authentication) 위치: [API 기본 사항](api-basics.md).
+  자세한 내용은 [API 기본 사항](api-basics.md)의 [인증](api-basics.md#authentication)을 참조하세요.
 
 ## 구독 리소스 구성
 
@@ -93,7 +93,7 @@ ht-degree: 4%
 
 * objCode(필수)
 
-   * **문자열** - 변경 사항을 구독 중인 오브젝트의 objCode입니다. 아래 표에는 objCode에 대해 가능한 값이 나열되어 있습니다.
+   * **문자열** - 변경 내용을 구독하는 개체의 objCode입니다. 아래 표에는 objCode에 대해 가능한 값이 나열되어 있습니다.
 
      <table style="table-layout:auto"> 
       <col> 
@@ -142,7 +142,7 @@ ht-degree: 4%
         <td scope="col">메모</td> 
        </tr> 
        <tr> 
-        <td scope="col"><p>포트폴리오</p></td> 
+        <td scope="col"><p>Portfolio</p></td> 
         <td scope="col"><p>포트</p></td> 
        </tr> 
        <tr> 
@@ -183,7 +183,7 @@ ht-degree: 4%
        </tr> 
        <tr> 
         <td scope="col">작업 영역</td> 
-        <td scope="col">작업 영역</td> 
+        <td scope="col">WORKSPACE</td> 
        </tr> 
       </tbody> 
      </table>
@@ -260,7 +260,7 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 | 401(승인되지 않음) | 입력한 sessionID가 비어 있거나 유효하지 않은 것으로 간주되었습니다. |
 | 403(금지됨) | 제공된 sessionID와 일치하는 사용자에게 관리자 액세스 권한이 없습니다. |
 
-구독 리소스를 요청 본문으로 전달하면(&quot;application/json&quot; 콘텐츠 유형이 있음) 지정된 개체에 대해 이벤트 구독이 생성됩니다. 응답 코드 201(생성됨)은 구독이 생성되었음을 나타냅니다. 201 이외의 응답 코드는 구독이 **아님** 생성됨.
+구독 리소스를 요청 본문으로 전달하면(&quot;application/json&quot; 콘텐츠 유형이 있음) 지정된 개체에 대해 이벤트 구독이 생성됩니다. 응답 코드 201(생성됨)은 구독이 생성되었음을 나타냅니다. 201 이외의 응답 코드는 구독이 **NOT**(이)임을 의미합니다.
 
 >[!NOTE]
 >
@@ -283,8 +283,8 @@ Workfront의 HTTP를 쿼리할 때 GET 메서드를 사용합니다. 이벤트 �
 
 고객에 대한 모든 이벤트 구독을 쿼리하거나 다음을 사용하여 응답을 관리할 수 있습니다. 다음 옵션을 사용하여 응답을 관리할 수도 있습니다.
 
-* **페이지**: 반환할 페이지 수를 지정하는 쿼리 매개 변수 옵션입니다. 기본값은 1입니다.
-* **제한**: 페이지당 반환할 결과 수를 지정하는 쿼리 매개 변수 옵션입니다. 기본값은 100(최대 1,000)입니다.
+* **page**: 반환할 페이지 수를 지정하는 쿼리 매개 변수 옵션입니다. 기본값은 1입니다.
+* **limit**: 페이지당 반환할 결과 수를 지정하는 쿼리 매개 변수 옵션입니다. 기본값은 100(최대 1,000)입니다.
 
 특정 고객에 대한 모든 이벤트 구독을 나열하기 위한 요청 구문은 다음과 같습니다.
 
@@ -373,9 +373,9 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 
 위치
 
-* **페이지** 및 **제한** 요청에 제공된 값이거나 제공된 값이 없는 경우 기본값입니다
-* **page_count** 쿼리할 수 있는 총 페이지 수입니다.
-* **total_count** 는 쿼리와 일치하는 총 구독 수입니다.
+* **page** 및 **limit**&#x200B;은(는) 요청에 제공된 값이거나 값이 제공되지 않은 경우 기본값입니다
+* **page_count**&#x200B;은(는) 쿼리할 수 있는 총 페이지 수입니다.
+* **total_count**&#x200B;은 쿼리와 일치하는 총 구독 수입니다.
 
 ### 이벤트 구독 ID로 쿼리
 
@@ -437,21 +437,21 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 이벤트 구독 필터링을 사용하여 관련 메시지만 받도록 할 수 있습니다. 구독에 대한 필터를 만들면 엔드포인트에서 사용해야 하는 메시지 수가 상당히 줄어들 수 있습니다.
 
-예: **업데이트 - 작업** 이벤트 구독은 다음 경우에만 트리거되도록 설정할 수 있습니다. **newState** 이벤트 페이로드의 **taskStatus** 다음으로: **현재**.
+예를 들어 이벤트 페이로드의 **newState**&#x200B;이(가) **taskStatus**&#x200B;을(를) **current**(으)로 정의하는 경우에만 **UPDATE - TASK** 이벤트 구독을 트리거하도록 설정할 수 있습니다.
 
 >[!IMPORTANT]
 >
-다음 속성은 이벤트 구독 필터링에 적용됩니다
+>다음 속성은 이벤트 구독 필터링에 적용됩니다
 
-* 필터 필드에 비어 있지 않은 값이 있는 경우 **newState** 필터 키 및 값이 포함된 은 구독한 URL로 전송됩니다.
-* 에 포함된 사용자 지정 데이터로 필터링할 수 있습니다. **newState** 및/또는 **oldState**/ 오브젝트
+* 필터 필드에 비어 있지 않은 값이 있으면 필터 키와 값이 포함된 **newState**&#x200B;이(가) 있는 메시지만 구독한 URL로 전송됩니다
+* 개체의 **newState** 및/또는 **oldState**&#x200B;에 포함된 사용자 지정 데이터를 기준으로 필터링할 수 있습니다.
 * 필터는 특정 값과 동일한지 여부에만 평가됩니다
-* 필터 구문이 올바르지 않거나 **newState** 페이로드의 경우 오류가 발생했음을 나타내는 유효성 검사 메시지가 반환되지 않습니다
+* 필터 구문이 올바르지 않거나 페이로드의 **newState**&#x200B;에 포함된 데이터와 일치하지 않으면 오류가 발생했음을 나타내는 유효성 검사 메시지가 반환되지 않습니다
 * 현재 존재하는 구독에서는 필터를 업데이트할 수 없습니다. 새 구독은 새 필터 매개 변수로 만들어야 합니다.
 * 여러 필터를 단일 구독에 적용할 수 있으며 모든 필터 조건이 충족된 경우에만 구독이 전달됩니다.
-* 단일 구독에 여러 필터를 적용하는 것은 를 사용하는 것과 동일한 방법입니다. **및** 논리 연산자.
+* 단일 구독에 여러 필터를 적용하는 것은 **AND** 논리 연산자를 사용하는 것과 같은 방법입니다.
 * 각 이벤트 구독 간에 하나 이상의 이벤트 구독 필드 매개 변수가 다른 한 단일 오브젝트에 여러 이벤트 구독을 적용할 수 있습니다.
-* 여러 이벤트 구독이 단일 개체에 할당되면 해당 개체와 연결된 모든 이벤트 구독이 단일 끝점에 반환될 수 있습니다. 이 방법은 논리 연산자에 대한 동등한 대용으로 사용할 수 있습니다 **또는** 필터 매개 변수를 사용하여 설정할 수 없습니다.
+* 여러 이벤트 구독이 단일 개체에 할당되면 해당 개체와 연결된 모든 이벤트 구독이 단일 끝점에 반환될 수 있습니다. 이 연습은 필터 매개 변수를 사용하여 설정할 수 없는 논리 연산자 **OR**&#x200B;에 대한 동등한 대용으로 사용할 수 있습니다.
 
 ### 비교 연산자 사용
 
@@ -459,7 +459,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 #### eq: 같음
 
-이 필터를 사용하면 발생한 변경 사항이 일치하는 경우 메시지를 전달할 수 있습니다. `fieldValue` 을 정확히 필터에서 클릭합니다. 다음 `fieldValue` 값은 대/소문자를 구분합니다.
+이 필터를 사용하면 발생한 변경 내용이 필터의 `fieldValue`과(와) 정확히 일치하는 경우 메시지를 보낼 수 있습니다. `fieldValue` 값은 대/소문자를 구분합니다.
 
 ```
 {
@@ -479,7 +479,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 #### ne: 같지 않음
 
-이 필터를 사용하면 발생한 변경 사항이 일치하지 않는 경우 메시지를 보낼 수 있습니다. `fieldValue` 을 정확히 필터에서 클릭합니다. 다음 `fieldValue` 값은 대/소문자를 구분합니다.
+이 필터를 사용하면 발생한 변경 내용이 필터의 `fieldValue`과(와) 정확히 일치하지 않는 경우 메시지를 보낼 수 있습니다. `fieldValue` 값은 대/소문자를 구분합니다.
 
 ```
 {
@@ -499,7 +499,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 #### gt: 보다 큼
 
-이 필터를 사용하면 지정된 의 업데이트가 있을 경우 메시지를 보낼 수 있습니다. `fieldName` 이(가) 의 값보다 큽니다. `fieldValue`.
+이 필터를 사용하면 지정된 `fieldName`의 업데이트가 `fieldValue`의 값보다 큰 경우 메시지를 보낼 수 있습니다.
 
 ```
 {
@@ -519,7 +519,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 #### gte: 보다 크거나 같음
 
-이 필터를 사용하면 지정된 의 업데이트가 있을 경우 메시지를 보낼 수 있습니다. `fieldName` 다음 값보다 크거나 같음: `fieldValue`.
+이 필터를 사용하면 지정된 `fieldName`의 업데이트가 `fieldValue`의 값보다 크거나 같은 경우 메시지를 보낼 수 있습니다.
 
 ```
 {
@@ -539,7 +539,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 #### lt: 보다 작음
 
-이 필터를 사용하면 지정된 의 업데이트가 있을 경우 메시지를 보낼 수 있습니다. `fieldName` 다음 값보다 작음: `fieldValue`.
+이 필터를 사용하면 지정된 `fieldName`의 업데이트가 `fieldValue`의 값보다 작은 경우 메시지를 보낼 수 있습니다.
 
 ```
 {
@@ -559,7 +559,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 #### lte: 보다 작거나 같음
 
-이 필터를 사용하면 지정된 의 업데이트가 있을 경우 메시지를 보낼 수 있습니다. `fieldName` 다음 값보다 작거나 같음: `fieldValue`.
+이 필터를 사용하면 지정된 `fieldName`의 업데이트가 `fieldValue`의 값보다 작거나 같은 경우 메시지를 보낼 수 있습니다.
 
 ```
 {
@@ -579,7 +579,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 #### 포함
 
-이 필터를 사용하면 발생한 변경 사항에 `fieldValue` 필터에서. 다음 `fieldValue` 값은 대/소문자를 구분합니다.
+이 필터를 사용하면 발생한 변경 내용에 필터에 `fieldValue`이(가) 포함된 경우 메시지를 보낼 수 있습니다. `fieldValue` 값은 대/소문자를 구분합니다.
 
 ```
 {
@@ -599,11 +599,11 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 #### 변경
 
-이 필터는 지정된 필드(`fieldName`)의 값은 oldstate와 newstate에서 다릅니다. 지정된 필드 이외의 다른 필드 업데이트(`fieldName`)은 해당 변경 사항을 반환하지 않습니다.
+이 필터를 사용하면 지정된 필드(`fieldName`)의 값이 이전 상태와 새 상태에서 다른 경우에만 메시지를 보낼 수 있습니다. 지정한 필드(`fieldName`) 이외의 다른 필드를 업데이트해도 해당 변경 내용이 반환되지 않습니다.
 
 >[!NOTE]
 >
-`fieldValue` 아래의 필터 배열에서는 영향을 주지 않습니다.
+>아래 필터 배열의 `fieldValue`은(는) 영향을 주지 않습니다.
 
 ```
 {
@@ -624,12 +624,12 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 #### 상태
 
 이 커넥터를 사용하면 필터가 생성 또는 업데이트된 객체의 새 상태 또는 이전 상태에 적용됩니다. 이 기능은 어떤 항목에서 다른 항목으로 변경된 위치를 알고 싶을 때 유용합니다.
-`oldState` 만들 수 없음 `eventTypes`.
+`eventTypes` 만들기에서 `oldState`을(를) 사용할 수 없습니다.
 
 >[!NOTE]
 >
-지정된 필터가 있는 아래 구독은 작업 이름에 포함된 메시지만 반환합니다. `again` 다음에 있음 `oldState`, 작업에 대한 업데이트가 수행되기 전의 작업.
-이 메서드의 사용 사례는 사물 간에 변경된 objCode 메시지를 찾는 것입니다. 예를 들어 &quot;Research Some name&quot;에서 &quot;Research TeamName Some name&quot;으로 변경된 모든 작업을 찾으려면
+>지정된 필터가 있는 아래 구독은 `oldState`에서 작업 이름이 `again`인 메시지만 반환합니다. 이 메시지는 작업에 대한 업데이트가 이루어지기 전입니다.
+>이 메서드의 사용 사례는 사물 간에 변경된 objCode 메시지를 찾는 것입니다. 예를 들어 &quot;Research Some name&quot;에서 &quot;Research TeamName Some name&quot;으로 변경된 모든 작업을 찾으려면
 
 ```
 {
@@ -650,7 +650,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 ### 커넥터 필드 사용
 
-다음 `filterConnector` 구독 페이로드의 필드에서 필터를 적용하는 방법을 선택할 수 있습니다. 기본값은 &quot;AND&quot;이며, 여기서 필터는 모두 다음과 같아야 합니다. `true` 구독 메시지를 보낼 수 있습니다. &quot;OR&quot;을 지정하면 구독 메시지가 표시되기 위해 하나의 필터만 일치해야 합니다.
+구독 페이로드의 `filterConnector` 필드를 사용하면 필터를 적용하는 방법을 선택할 수 있습니다. 기본값은 &quot;AND&quot;입니다. 여기서 가입 메시지를 받으려면 필터가 모두 `true`이어야 합니다. &quot;OR&quot;을 지정하면 구독 메시지가 표시되기 위해 하나의 필터만 일치해야 합니다.
 
 ```
 {
@@ -881,7 +881,7 @@ Base64Encoding 필드는 이벤트 구독 페이로드의 Base64 인코딩을 �
 
 ### base64Encoding 필드를 사용하는 요청의 예
 
-true로 설정된 base64Encoding 필드를 사용하여 요청한 경우 **newState** 및 **oldState** 페이로드의 개체는 기본 64개의 인코딩 문자열로 전달됩니다. base64Encoding 필드가 false로 설정되어 있거나, 비어 있거나, 요청에 포함되지 않은 경우, 반환된 페이로드는 base64에서 인코딩되지 않습니다.
+true로 설정된 base64Encoding 필드를 사용하여 요청하면 페이로드의 **newState** 및 **oldState** 개체가 base 64 인코딩 문자열로 전달됩니다. base64Encoding 필드가 false로 설정되어 있거나, 비어 있거나, 요청에 포함되지 않은 경우, 반환된 페이로드는 base64에서 인코딩되지 않습니다.
 
 다음은 base64Encoding 필드를 사용하는 요청의 예입니다.
 
@@ -917,7 +917,7 @@ true로 설정된 base64Encoding 필드를 사용하여 요청한 경우 **newSt
 
 ## 모든 이벤트 구독을 쿼리하기 위해 더 이상 사용되지 않는 메서드
 
-다음 API 끝점은 더 이상 사용되지 않으며 새 구현에 사용되어서는 안 됩니다. 또한 이전 구현을 의 메서드로 전환하는 것이 좋습니다 **이벤트 구독 쿼리** 섹션에 설명되어 있습니다.
+다음 API 끝점은 더 이상 사용되지 않으며 새 구현에 사용되어서는 안 됩니다. 또한 위에서 설명한 **이벤트 구독 쿼리** 섹션에서 이전 구현을 메서드로 전환하는 것이 좋습니다.
 
 sessionID 값으로 지정된 대로 고객에 대한 모든 이벤트 구독을 쿼리할 수 있습니다. 특정 고객에 대한 모든 이벤트 구독을 나열하기 위한 요청 구문은 다음 URL입니다.
 

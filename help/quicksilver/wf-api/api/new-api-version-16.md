@@ -9,7 +9,7 @@ role: Developer
 exl-id: a3d8534b-fe6e-4782-baab-7c94555ea40c
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1160'
 ht-degree: 0%
 
 ---
@@ -93,9 +93,9 @@ An AccessLevel object is associated with users, and describes the set of AccessL
       <td>
         <ul>
           <li>
-            <p><b>작업 날짜</b>
+            <p><b>작업당 일자</b>
             </p>
-            <p>이 필드가 추가되었으며, 필요한 하루 작업 시간(분)을 표시합니다. 형식은 다음과 같습니다. <code>YYYY-MM-DD: (number of minutes)</code>, 및 은 시간대를 고려합니다.</p>
+            <p>이 필드가 추가되었으며, 필요한 하루 작업 시간(분)을 표시합니다. 이 형식은 <code>YYYY-MM-DD: (number of minutes)</code> 형식이며 시간대를 고려합니다.</p>
           </li>
         </ul>
       </td>
@@ -116,12 +116,12 @@ An AccessLevel object is associated with users, and describes the set of AccessL
       <td>
         <ul>
           <li>
-            <p><b>작업 날짜</b>
+            <p><b>작업당 일자</b>
             </p>
-            <p>이 필드가 추가되었으며, 필요한 하루 작업 시간(분)을 표시합니다. 형식은 다음과 같습니다. <code>YYYY-MM-DD: (number of minutes)</code>, 및 은 시간대를 고려합니다.</p>
+            <p>이 필드가 추가되었으며, 필요한 하루 작업 시간(분)을 표시합니다. 이 형식은 <code>YYYY-MM-DD: (number of minutes)</code> 형식이며 시간대를 고려합니다.</p>
           </li>
           <li>
-            <p><b>isContofed</b>
+            <p><b>isConforured</b>
             </p>
             <p>이 필드가 추가되었으며, 은 할당의 윤곽선 표시 여부를 반영하는 부울입니다. 일별 할당 시간이 업무 균형자에서 편집된 경우 할당이 윤곽선으로 표시됩니다.</p>
           </li>
@@ -237,7 +237,7 @@ Hour 개체는 타임시트에 사용자가 기록한 시간을 나타냅니다.
           <li>
             <p><b>timesheetHourIdentifier</b>
             </p>
-            <p>추가됨. 이 매개 변수는 다음을 사용하여 만든 시간을 식별하는 데 사용됩니다. <code>batchSave</code>. </p>
+            <p>추가됨. 이 매개 변수는 <code>batchSave</code>(으)로 만든 시간을 식별하는 데 사용됩니다. </p>
            </li>
         </ul>
       </td>
@@ -312,9 +312,9 @@ OpTask 객체를 일반적으로 문제라고 합니다. 문제는 일반적으�
       <td>
         <ul>
           <li>
-            <p><b>작업 날짜</b>
+            <p><b>작업당 일자</b>
             </p>
-            <p>이 필드가 추가되었으며, 필요한 하루 작업 시간(분)을 표시합니다. 형식은 다음과 같습니다. <code>YYYY-MM-DD: (number of minutes)</code>, 및 은 시간대를 고려합니다.</p>
+            <p>이 필드가 추가되었으며, 필요한 하루 작업 시간(분)을 표시합니다. 이 형식은 <code>YYYY-MM-DD: (number of minutes)</code> 형식이며 시간대를 고려합니다.</p>
           </li>
         </ul>
       </td>
@@ -326,7 +326,7 @@ OpTask 객체를 일반적으로 문제라고 합니다. 문제는 일반적으�
            <li>
             <p><b>assignMultiple</b>
             </p>
-            <p>이 작업은 필드를 추가했습니다. <code>teamIDs</code> 작업 또는 문제에 여러 팀을 할당하는 기능을 지원합니다.</p>
+            <p>이 작업은 작업 또는 문제에 여러 팀을 할당하는 기능을 지원하기 위해 <code>teamIDs</code> 필드를 추가했습니다.</p>
          </li>
         </ul>
       </td>
@@ -400,11 +400,11 @@ OpTask 객체를 일반적으로 문제라고 합니다. 문제는 일반적으�
 
 RichTextNote 객체는 굵게 또는 기울임꼴 텍스트와 같은 서식 있는 텍스트를 포함하는 Workfront 객체에 대한 댓글 또는 업데이트입니다.
 
-RichTextNote 개체에서 플래그를 제거했습니다. `REPORTABLE`.
+RichTextNote 개체에서 `REPORTABLE` 플래그를 제거했습니다.
 
 ### 역할/작업 역할(역할)
 
-역할 객체(작업 역할)는 사용자가 채울 수 있는 기능 역량 또는 기술 세트(예: 디자이너 또는 제품 관리자)를 나타냅니다.
+역할 객체(작업 역할)는 Designer 또는 제품 관리자와 같이 사용자가 채울 수 있는 기능 역량 또는 스킬 세트를 나타냅니다.
 
 <table>
   <col/>
@@ -415,7 +415,7 @@ RichTextNote 개체에서 플래그를 제거했습니다. `REPORTABLE`.
       <td>
         <ul>
            <li>
-            <p><b>비율</b>
+            <p><b>속도</b>
             </p>
             <p>이 항목이 추가되었으며 이 역할에 첨부된 비율 개체를 나타냅니다.</p>
          </li>
@@ -437,9 +437,9 @@ RichTextNote 개체에서 플래그를 제거했습니다. `REPORTABLE`.
       <td>
         <ul>
           <li>
-            <p><b>작업 날짜</b>
+            <p><b>작업당 일자</b>
             </p>
-            <p>이 필드가 추가되었으며, 필요한 하루 작업 시간(분)을 표시합니다. 형식은 다음과 같습니다. <code>YYYY-MM-DD: (number of minutes)</code>, 및 은 시간대를 고려합니다.</p>
+            <p>이 필드가 추가되었으며, 필요한 하루 작업 시간(분)을 표시합니다. 이 형식은 <code>YYYY-MM-DD: (number of minutes)</code> 형식이며 시간대를 고려합니다.</p>
           </li>
         </ul>
       </td>
@@ -451,7 +451,7 @@ RichTextNote 개체에서 플래그를 제거했습니다. `REPORTABLE`.
            <li>
             <p><b>assignMultiple</b>
             </p>
-            <p>이 작업은 필드를 추가했습니다. <code>teamIDs</code> 작업 또는 문제에 여러 팀을 할당하는 기능을 지원합니다.</p>
+            <p>이 작업은 작업 또는 문제에 여러 팀을 할당하는 기능을 지원하기 위해 <code>teamIDs</code> 필드를 추가했습니다.</p>
          </li>
         </ul>
       </td>
@@ -474,17 +474,17 @@ RichTextNote 개체에서 플래그를 제거했습니다. `REPORTABLE`.
            <li>
             <p><b>availableActions</b>
             </p>
-            <p>이 매개 변수는 플래그를 제거했습니다. <code>READ_ONLY</code>.</p>
+            <p>이 매개 변수가 <code>READ_ONLY</code> 플래그를 제거했습니다.</p>
          </li>
            <li>
-            <p><b>isEdit</b>
+            <p><b>isEditable</b>
             </p>
-            <p>이 매개 변수는 플래그를 제거했습니다. <code>READ_ONLY</code>.</p>
+            <p>이 매개 변수가 <code>READ_ONLY</code> 플래그를 제거했습니다.</p>
          </li>
            <li>
             <p><b>totalDays</b>
             </p>
-            <p>이 매개 변수가 추가되었으며 "전체 Workday에 해당하는 시간"의 변경과 관계없이 타임시트 지속 시간을 일 단위로 저장합니다.  예를 들어, 등가 시간이 6으로 설정되어 있고 1일이 기록된 경우, 등가 시간은 8시간으로 변경됩니다. <code>totalDays</code> 에는 여전히 1의 값이 있습니다.</p>
+            <p>이 매개 변수가 추가되었으며 "전체 Workday에 해당하는 시간"의 변경과 관계없이 타임시트 지속 시간을 일 단위로 저장합니다.  예를 들어, [등가 시간]을 6으로 설정하고 1일이 기록된 경우 [등가 시간]이 8시간으로 바뀌어도 <code>totalDays</code>의 값은 여전히 1입니다.</p>
          </li>
         </ul>
       </td>
@@ -506,7 +506,7 @@ RichTextNote 개체에서 플래그를 제거했습니다. `REPORTABLE`.
           <li>
             <p><b>addJoinForNullableFields</b>
             </p>
-            <p>이 작업이 추가되었으며 필터 쿼리 맵을 가져오고 다음을 추가합니다. <code>allowingnull</code> nullable 필드에 대한 조인.</p>
+            <p>이 작업이 추가되었으며 필터 쿼리 맵을 가져오고 null 허용 필드에 대한 <code>allowingnull</code> 조인을 추가합니다.</p>
          </li>
          <li>
             <p><b>disableSystemWideVisibility
@@ -514,7 +514,7 @@ RichTextNote 개체에서 플래그를 제거했습니다. `REPORTABLE`.
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>이러한 작업은 시스템 전체에서 필터, 보기 및 그룹화를 공유하는 기능을 지원합니다.</p><p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">모든 사용자가 필터, 보기 또는 그룹화를 사용할 수 있도록 설정</a>.</p>
+            <p>이러한 작업은 시스템 전체에서 필터, 보기 및 그룹화를 공유하는 기능을 지원합니다.</p><p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">모든 사용자가 사용할 수 있는 필터, 보기 또는 그룹화 만들기</a>를 참조하십시오.</p>
          </li>
         </ul>
       </td>
@@ -538,7 +538,7 @@ RichTextNote 개체에서 플래그를 제거했습니다. `REPORTABLE`.
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>이러한 작업은 시스템 전체에서 필터, 보기 및 그룹화를 공유하는 기능을 지원합니다.</p><p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">모든 사용자가 필터, 보기 또는 그룹화를 사용할 수 있도록 설정</a>.</p>
+            <p>이러한 작업은 시스템 전체에서 필터, 보기 및 그룹화를 공유하는 기능을 지원합니다.</p><p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">모든 사용자가 사용할 수 있는 필터, 보기 또는 그룹화 만들기</a>를 참조하십시오.</p>
          </li>
         </ul>
       </td>
@@ -579,7 +579,7 @@ RichTextNote 개체에서 플래그를 제거했습니다. `REPORTABLE`.
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>이러한 작업은 시스템 전체에서 필터, 보기 및 그룹화를 공유하는 기능을 지원합니다.</p><p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">모든 사용자가 필터, 보기 또는 그룹화를 사용할 수 있도록 설정</a>.</p>
+            <p>이러한 작업은 시스템 전체에서 필터, 보기 및 그룹화를 공유하는 기능을 지원합니다.</p><p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">모든 사용자가 사용할 수 있는 필터, 보기 또는 그룹화 만들기</a>를 참조하십시오.</p>
          </li>
         </ul>
       </td>
@@ -599,7 +599,7 @@ RichTextNote 개체에서 플래그를 제거했습니다. `REPORTABLE`.
       <td>
         <ul>
            <li>
-            <p><b>비율</b>
+            <p><b>속도</b>
             </p>
             <p>이 항목이 추가되었으며 이 사용자에게 첨부된 비율 개체를 나타냅니다.</p>
          </li>
@@ -648,9 +648,9 @@ Work 개체는 Task와 OpTask가 모두 상속하는 공통 인터페이스이�
       <td>
         <ul>
           <li>
-            <p><b>작업 날짜</b>
+            <p><b>작업당 일자</b>
             </p>
-            <p>이 필드가 추가되었으며, 필요한 하루 작업 시간(분)을 표시합니다. 형식은 다음과 같습니다. <code>YYYY-MM-DD: (number of minutes)</code>, 및 은 시간대를 고려합니다.</p>
+            <p>이 필드가 추가되었으며, 필요한 하루 작업 시간(분)을 표시합니다. 이 형식은 <code>YYYY-MM-DD: (number of minutes)</code> 형식이며 시간대를 고려합니다.</p>
           </li>
         </ul>
       </td>

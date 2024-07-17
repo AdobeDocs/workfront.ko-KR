@@ -3,8 +3,8 @@ content-type: overview
 product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: box
-title: 소개 [!DNL Workfront Proof] 및 Box 통합
-description: Box 온라인 파일 공유 및 컨텐츠 관리 시스템과 통합하면 Box 계정의 파일에서 직접 새로운 증명 및 새로운 증명 버전을 만들 수 있습니다. 상자에 대한 자세한 내용은 www.box.com 을 참조하십시오.
+title: ' [!DNL Workfront Proof] and Box 통합 소개'
+description: Box 온라인 파일 공유 및 콘텐츠 관리 시스템과 통합하면 Box 계정의 파일에서 직접 새 증명 및 새 증명 버전을 만들 수 있습니다. Box에 대한 자세한 내용은 www.box.com을 참조하십시오.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 0050a478-30a9-4400-9854-9d6339114243
@@ -15,41 +15,41 @@ ht-degree: 0%
 
 ---
 
-# 소개 [!DNL Workfront Proof] 및 [!DNL Box] 통합
+# [!DNL Workfront Proof] 및 [!DNL Box] 통합 소개
 
 >[!IMPORTANT]
 >
->이 문서는 독립형 제품의 기능을 참조합니다 [!DNL Workfront Proof]. 내부 교정에 대한 자세한 정보 [!DNL Adobe Workfront]를 참조하십시오. [교정](../../../review-and-approve-work/proofing/proofing.md).
+>이 문서는 독립 실행형 제품 [!DNL Workfront Proof]의 기능을 참조합니다. [!DNL Adobe Workfront] 내부의 증명에 대한 자세한 내용은 [증명](../../../review-and-approve-work/proofing/proofing.md)을 참조하십시오.
 
-과의 통합 [!DNL Box] 온라인 파일 공유 및 콘텐츠 관리 시스템을 사용하면 파일의 새로운 증명과 새로운 증명 버전을 직접 만들 수 있습니다 [!DNL Box] 계정이 필요합니다. 에 대한 자세한 정보 [!DNL Box]www.box.com 을 참조하십시오.
+[!DNL Box] 온라인 파일 공유 및 콘텐츠 관리 시스템과 통합하면 [!DNL Box] 계정의 파일에서 직접 새 증명 및 새 증명 버전을 만들 수 있습니다. [!DNL Box]에 대한 자세한 내용은 www.box.com을 참조하십시오.
 
-폴더 동기화 기능을 사용하면 [!DNL Box] 폴더의 폴더 [!DNL Workfront Proof]. 파일 또는 파일의 새 버전을 의 동기화된 폴더에 추가할 때 [!DNL Box]로 설정되면 파일이 Workfront 증명의 관련 폴더에도 추가됩니다. 자세한 내용은 [동기화 [!DNL Box] 폴더 [!DNL Workfront Proof]](../../../workfront-proof/wp-integrations/box/sycn-box-folder.md).
+폴더 동기화 기능을 사용하면 [!DNL Box] 폴더를 [!DNL Workfront Proof]의 폴더와 동기화할 수 있습니다. [!DNL Box]의 동기화된 폴더에 파일 또는 새 버전의 파일을 추가하면 해당 파일은 Workfront Proof의 관련 폴더에도 추가됩니다. 자세한 내용은 [동기화 [!DNL Box] 폴더  [!DNL Workfront Proof]](../../../workfront-proof/wp-integrations/box/sycn-box-folder.md)을(를) 참조하십시오.
 
 ## 주요 이점
 
-* **공동 검토 및 승인 개선:** 팀에 리치 마크업, 주석 및 토론 도구를 제공하여 크리에이티브 자산에 대한 공동 작업을 개선할 수 있습니다.
-* **프로젝트 전달 시간 단축:** 검토 주기를 단축하고 개정 수를 줄임으로써 설계 프로젝트를 56% 신속하게 전달할 수 있습니다. 더 빠른 합의 및 결정을 통해 프로젝트 전환과 시장 진출 속도가 빨라집니다. 설계 개정판은 29% 감소합니다.
-* **관리 시간 절약:** 팀이 수동으로 사본을 인쇄하거나 주석을 전자 메일로 보내고 수정 사항을 라우팅하는 데 드는 시간을 줄일 경우, 증명을 관리하는 노력을 평균 59%까지 줄일 수 있습니다.
-* **비용 절감:** 시간은 돈이다. 표준화된 워크플로우를 통해 승인 프로세스를 간소화할 수 있습니다. 효율성, 정확성 및 속도가 향상되므로 비용을 절감할 수 있습니다.
-* **가시성과 신뢰성 향상:** 추적 가능한 감사 추적에서 타임스탬프를 사용하여 파일 버전, 주석 및 결정을 기록할 수 있습니다. 따라서 검토 프로세스의 모든 단계에서 완벽한 책임을 지게 되며 규정 준수 요구 사항을 충족할 수 있습니다.\
+* **공동 검토 및 승인 개선:** 팀에 풍부한 마크업, 댓글 달기 및 토론 도구를 제공하여 크리에이티브 자산에 대한 공동 작업을 개선합니다.
+* **프로젝트 게재 가속화:** 검토 주기를 단축하고 수정 횟수를 줄여 디자인 프로젝트 게재를 56% 가속화합니다. 합의 및 의사 결정 속도가 빨라지면 프로젝트 전환도 빨라지고 시장 진입도 빨라집니다. 디자인 수정 사항이 29% 감소되었습니다.
+* **관리 시간 절약:** 팀에서 수동으로 사본 인쇄, 댓글 전자 메일 및 수정 내용 라우팅에 드는 시간이 줄면 증명을 관리하는 노력을 평균 59% 줄일 수 있습니다.
+* **비용 절감:** 시간이 금전입니다. 표준화된 워크플로우를 통해 승인 프로세스를 간소화할 수 있습니다. 효율성과 정확성, 속도가 향상되기 때문에 비용도 절약할 수 있다.
+* **가시성과 신뢰성 향상:** 추적 가능한 감사 추적에서 타임스탬프를 사용하여 파일 버전, 댓글 및 결정을 기록할 수 있습니다. 이를 통해 검토 프로세스의 모든 단계에 대한 모든 책임을 완수하고 규정 준수 요구 사항을 충족할 수 있습니다.\
    ![Box_and_ProofHQ_integration.jpg](assets/box-and-proofhq-integration-350x157.jpg)
 
 ## 주요 기능
 
-* 크리에이티브 파일을에 보내기 [!DNL Workfront Proof] 직접 [!DNL Box] 계정이 필요합니다.
-* 의 파일에 대한 링크가 포함된 이메일을 통해 검토 팀에 새로운 증명을 알립니다. [!UICONTROL 상자].
-* 사용자에게 다음을 제공합니다. [!DNL Workfront Proof]의 다양한 마크업, 주석 달기 및 토론 도구.
-* 프로젝트 팀이 인쇄, 디지털, 웹, 비디오 및 대화형 컨텐츠를 포함하여 다양한 미디어 포맷에 대해 실시간으로 공동 작업을 수행하고 결정을 내릴 수 있도록 합니다.
-* 사용 [!DNL Workfront Proof] 규정 요구 사항을 충족하고 프로세스 개선 사항을 확인합니다.
+* [!DNL Box] 계정에서 [!DNL Workfront Proof](으)로 크리에이티브 파일을 직접 보냅니다.
+* [!UICONTROL Box]에 있는 파일에 대한 링크가 포함된 전자 메일을 통해 검토 팀에 새 증명에 대해 알립니다.
+* [!DNL Workfront Proof]의 풍부한 마크업, 댓글 달기 및 토론 도구를 사용자에게 제공합니다.
+* 프로젝트 팀이 인쇄, 디지털, 웹, 비디오 및 대화형 컨텐츠를 비롯한 다양한 미디어 형식에 대해 실시간으로 공동 작업을 수행하고 의사 결정을 내릴 수 있도록 합니다.
+* [!DNL Workfront Proof]을(를) 사용하여 규정 요구 사항을 충족하고 프로세스 개선 사항을 식별하십시오.
 
-## 추가 [!DNL Workfront Proof] 앱에 동기화 [!DNL Box] 계정
+## [!DNL Box] 계정에 [!DNL Workfront Proof] 동기화 앱 추가 중
 
-아래 몇 가지 간단한 단계에 따라 앱을 Box 계정에 추가하십시오.
+아래의 몇 가지 간단한 단계에 따라 앱을 Box 계정에 추가하세요.
 
-1. 사용자 [!DNL Box] 계정, **[!UICONTROL 앱]** 섹션을 참조하십시오.
-1. 검색 막대에서 을 입력합니다 **[!DNL Workfront Proof]동기화**.
-1. 클릭 **[!UICONTROL [!DNL Workfront Proof]동기화]** 참조하십시오.
-1. 클릭 **[!UICONTROL 추가]** 를 추가하려면 [!DNL Workfront Proof] 앱을 Box 계정에 동기화합니다.
-1. 표시되는 확인 상자에서 **[!UICONTROL 좋아요]**.
+1. [!DNL Box] 계정에서 **[!UICONTROL 앱]** 섹션으로 이동합니다.
+1. 검색 창에서 **[!DNL Workfront Proof]동기화**&#x200B;를 입력하십시오.
+1. 검색 결과에서 **[!UICONTROL [!DNL Workfront Proof]동기화]**&#x200B;를 클릭합니다.
+1. Box 계정에 [!DNL Workfront Proof] 동기화 앱을 추가하려면 **[!UICONTROL 추가]**&#x200B;를 클릭하세요.
+1. 표시되는 확인란에서 **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
 
 

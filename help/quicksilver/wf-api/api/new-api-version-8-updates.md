@@ -9,8 +9,8 @@ role: Developer
 exl-id: c6d7d2d2-cd21-4ca8-a5a0-afe3669dc959
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 34%
+source-wordcount: '537'
+ht-degree: 31%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 34%
 
 ## 업데이트된 리소스
 
-다음 기존 리소스가 Adobe Workfront API의 이번 릴리스로 업데이트되었습니다. 버전 8의 새로운 리소스를 보려면 [API 버전 8의 새로운 기능](../../wf-api/api/new-api-version-8.md). 리소스에 대한 변경 사항은 다음 방법으로 표시됩니다.
+다음 기존 리소스가 Adobe Workfront API의 이번 릴리스로 업데이트되었습니다. 버전 8의 새로운 리소스를 보려면 [API 버전 8의 새로운 기능](../../wf-api/api/new-api-version-8.md)을 참조하세요. 리소스에 대한 변경 사항은 다음 방법으로 표시됩니다.
 
 * 추가 사항은 간단히 나열되어 있습니다
 * 제거는 취소선 텍스트로 표시됩니다
@@ -32,7 +32,7 @@ ht-degree: 34%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 가능한 값 변경
+가능한 값에 대한 <sup>1</sup> 변경
 
 ### AccessRule<sup>1</sup> 
 
@@ -45,20 +45,20 @@ ht-degree: 34%
 {style="table-layout:auto"}
 
 <sup>1</sup> 플래그 제거됨: 보고 가능\
-<sup>2</sup> 가능한 값 변경
+가능한 값에 대한 <sup>2</sup> 변경
 
 ### 승인
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| auditType<sup>1</sup> | 애자일 작업  | 리소스 풀 |   |   |   |   |
+| auditTypes<sup>1</sup> | 애자일 작업  | 리소스 풀 |   |   |   |   |
 | backlogOrder<sup>2</sup> | kanbanBoard  |   |   |   |   |   |
 | 백로그 상위 |   |   |   |   |   |   |
 | 칸반 보드 ID |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup>가능한 값 변경\
+<sup>1</sup>가능한 값에 대한 변경 내용\
 <sup>2</sup>추가된 플래그: DYNAMIC, LAZY_READ 및 NOT_GROUPABLE
 
 ### 할당
@@ -80,7 +80,7 @@ ht-degree: 34%
 
 {style="table-layout:auto"}
 
-<sup>1</sup>가능한 값 변경
+<sup>1</sup>가능한 값에 대한 변경 내용
 
 ### 고객 환경 설정
 
@@ -90,7 +90,7 @@ ht-degree: 34%
 
 {style="table-layout:auto"}
 
-<sup>1</sup>가능한 값 변경
+<sup>1</sup>가능한 값에 대한 변경 내용
 
 ### DocumentApproval
 
@@ -152,13 +152,13 @@ ht-degree: 34%
 
 {style="table-layout:auto"}
 
-<sup>1</sup>가능한 값 변경
+<sup>1</sup>가능한 값에 대한 변경 내용
 
 ### OpTask
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| auditType<sup>1</sup> | 애자일 작업  |   |   |   | defaultShownTimesheetIssues  |   |
+| auditTypes<sup>1</sup> | 애자일 작업  |   |   |   | defaultShownTimesheetIssues  |   |
 | backlogOrder | 반복 |   |   |   |   |   |
 | 백로그 상위 |   |   |   |   |   |   |
 | 예상 |   |   |   |   |   |   |
@@ -166,37 +166,37 @@ ht-degree: 34%
 
 {style="table-layout:auto"}
 
-<sup>1</sup>가능한 값 변경
+<sup>1</sup>가능한 값에 대한 변경 내용
 
-### 포트폴리오
+### Portfolio
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| auditType<sup>1</sup> |   |   |   |   |   |   |
+| auditTypes<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup>가능한 값 변경
+<sup>1</sup>가능한 값에 대한 변경 내용
 
 ### 프로그램
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| auditType<sup>1</sup> |   |   |   |   |   |   |
+| auditTypes<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup>가능한 값 변경
+<sup>1</sup>가능한 값에 대한 변경 내용
 
 ### 프로젝트
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| auditType<sup>1</sup> |   | 리소스 풀 |   |   | defaultShownTimesheetProjects |   |
+| auditTypes<sup>1</sup> |   | 리소스 풀 |   |   | defaultShownTimesheetProjects |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup>가능한 값 변경
+<sup>1</sup>가능한 값에 대한 변경 내용
 
 ### ProofApproval
 
@@ -220,7 +220,7 @@ ht-degree: 34%
 
 {style="table-layout:auto"}
 
-<sup>1</sup>가능한 값 변경
+<sup>1</sup>가능한 값에 대한 변경 내용
 
 ### 요금
 
@@ -252,13 +252,13 @@ ht-degree: 34%
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| auditType<sup>1</sup> | 애자일 작업  |   |   |   | 모든 작업 반복  |   |
+| auditTypes<sup>1</sup> | 애자일 작업  |   |   |   | 모든 작업 반복  |   |
 | 백로그 상위 | kanbanBoard |   |   |   | defaultShownTimesheetTasks |   |
 | 칸반 보드 ID |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup>가능한 값 변경
+<sup>1</sup>가능한 값에 대한 변경 내용
 
 ### 팀
 
@@ -284,11 +284,11 @@ ht-degree: 34%
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| auditType<sup>1</sup> |   |   |   |   |   |   |
+| auditTypes<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup>가능한 값 변경
+<sup>1</sup>가능한 값에 대한 변경 내용
 
 업데이트
 
@@ -298,7 +298,7 @@ ht-degree: 34%
 
 {style="table-layout:auto"}
 
-<sup>1</sup>가능한 값 변경
+<sup>1</sup>가능한 값에 대한 변경 내용
 
 ### 사용자
 
@@ -320,18 +320,18 @@ ht-degree: 34%
 
 {style="table-layout:auto"}
 
-<sup>1</sup>가능한 값 변경
+<sup>1</sup>가능한 값에 대한 변경 내용
 
 ### 작업
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| auditType<sup>1</sup> | 애자일 작업  |   |   |   |   |   |
+| auditTypes<sup>1</sup> | 애자일 작업  |   |   |   |   |   |
 | backlogOrder<sup>2</sup> | kanbanBoard  |   |   |   |   |   |
 | 백로그 상위  |   |   |   |   |   |   |
 | 칸반 보드 ID |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup>가능한 값 변경\
+<sup>1</sup>가능한 값에 대한 변경 내용\
 <sup>2</sup>추가된 플래그: DYNAMIC, LAZY_READ 및 NOT_GROUPABLE

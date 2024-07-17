@@ -35,11 +35,11 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 편집</p> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 편집</p> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>보고서에 대한 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>보고서에 대한 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -48,13 +48,13 @@ ht-degree: 6%
 
 ## 방법 단계
 
-1. 로 이동하여 보고서 만들기 시작 **메인 메뉴** > **보고서**&#x200B;를 클릭한 다음 보고서의 개체를 선택합니다.
+1. **기본 메뉴** > **보고서**(으)로 이동하여 보고서 만들기를 시작한 다음 보고서의 개체를 선택합니다.
 
    또는
 
-   기존 보고서를 연 다음 **보고서 작업** > **편집**.
+   기존 보고서를 연 다음 **보고서 작업** > **편집**&#x200B;을 클릭합니다.
 
-1. 클릭 **보고서 설정** report builder의 오른쪽 상단 모서리에서
+1. Report Builder의 오른쪽 위 모서리에서 **보고서 설정**&#x200B;을 클릭합니다.
 1. 다음 보고서 설정을 구성합니다.
 
    <table style="table-layout:auto"> 
@@ -71,7 +71,7 @@ ht-degree: 6%
      </tr> 
      <tr> 
       <td role="rowheader">다음의 액세스 권한으로 이 보고서 실행:</td> 
-      <td>다른 사용자를 위해 이 보고서를 표시할 때 사용할 액세스 권한을 가진 사용자를 선택합니다. 다른 사용자의 액세스 권한으로 보고서를 실행하는 방법에 대한 자세한 내용은 문서를 참조하십시오 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">다른 사용자의 액세스 권한으로 보고서 실행 및 전달</a>.</td> 
+      <td>다른 사용자를 위해 이 보고서를 표시할 때 사용할 액세스 권한을 가진 사용자를 선택합니다. 다른 사용자의 액세스 권한으로 보고서를 실행하는 방법에 대한 자세한 내용은 문서 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">다른 사용자의 액세스 권한으로 보고서 실행 및 전달</a>을 참조하십시오.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">보고서가 로드되면</td> 
@@ -95,7 +95,7 @@ ht-degree: 6%
      </tr> 
      <tr> 
       <td role="rowheader">기본으로 간트 보기에서 이 보고서 표시</td> 
-      <td>(프로젝트 보고서 및 작업 보고서만 해당) 사용자가 이 보고서의 세부 정보 탭을 볼 때 간트 보기를 자동으로 활성화하려면 이 옵션을 선택합니다.<br>프로젝트 보고서 및 작업 보고서에서 간트 차트를 보는 방법에 대한 자세한 내용은 문서의 "프로젝트 목록 간트 차트에서 작업 정보 보기" 섹션을 참조하십시오 <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md" class="MCXref xref">간트 차트에서 정보 보기 </a>.</td> 
+      <td>(프로젝트 보고서 및 작업 보고서만 해당) 사용자가 이 보고서의 세부 정보 탭을 볼 때 간트 보기를 자동으로 활성화하려면 이 옵션을 선택합니다.<br>프로젝트 보고서 및 작업 보고서에서 간트 차트를 보는 방법에 대한 자세한 내용은 문서 <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md" class="MCXref xref">간트 차트에서 정보 보기 </a>의 "프로젝트 목록 간트 차트에서 작업 정보 보기" 섹션을 참조하십시오.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">보고서에서 보기 변경 가능</td> 
@@ -112,10 +112,10 @@ ht-degree: 6%
     </tbody> 
    </table>
 
-1. 클릭 **보고서 프롬프트** 를 클릭하여 보고서에 대한 프롬프트를 설정합니다.\
-   보고서에 프롬프트를 추가하는 방법에 대한 자세한 내용은 문서를 참조하십시오 [보고서에 프롬프트 추가](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+1. 보고서에 대한 프롬프트를 설정하려면 **보고서 프롬프트**&#x200B;를 클릭하십시오.\
+   보고서에 프롬프트를 추가하는 방법에 대한 자세한 내용은 문서 [보고서에 프롬프트 추가](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)를 참조하십시오.
 
-1. 클릭&#x200B;**완료,** 그런 다음 을 클릭합니다. **저장 + 닫기**.
+1. **완료,**&#x200B;를 클릭한 다음 **저장 + 닫기**&#x200B;를 클릭합니다.
 
 ## 추가 정보
 

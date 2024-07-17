@@ -90,7 +90,7 @@ Workfront에는 다음과 같은 제한이 있습니다.
 * FLC - Flic 애니메이션
 * FPX - Kodak FlashPix
 * GBR - 거버 GIF - CompuServe
-* GIF - 그래픽 교환 형식(새 Workfront Proof Viewer의 애니메이션 GIF 전용)
+* GIF - 그래픽 교환 형식(새 Workfront Proof 뷰어의 애니메이션 GIF 전용)
 * GIF HDP - Windows HD 사진
 * ICO - Windows 아이콘
 * IFF - 교환 파일 형식
@@ -132,7 +132,7 @@ Workfront에는 다음과 같은 제한이 있습니다.
 * PNM - 휴대용 비트맵 유틸리티
 * PPM - 휴대용 비트맵 유틸리티
 * PPT - PowerPoint 프레젠테이션
-* PPTX - PowerPoint Presentation 2007 PS - PostScript 파일
+* PPTX - PowerPoint 프레젠테이션 2007 PS - PostScript 파일
 * PSD - PHOTOSHOP
 * PSP - Paint Shop Pro
 * PTK - 프토카
@@ -185,7 +185,7 @@ Workfront에는 다음과 같은 제한이 있습니다.
 >[!WARNING]
 > 보안 문제로 인해 일시적으로 다음 정적 파일 형식을 지원하지 않습니다.
 >
-> * EPS - 캡슐화된 포스트스크립트
+> * EPS - 캡슐화된 PostScript
 
 * AI - Adobe Illustrator 아트워크
 * AIT - Adobe Illustrator 템플릿
@@ -193,7 +193,7 @@ Workfront에는 다음과 같은 제한이 있습니다.
 * DOCX - Microsoft Word 문서
 * PDF - Adobe 휴대용 문서 파일
 * PPT - PowerPoint 프레젠테이션
-* PPTX - PowerPoint Presentation 2007 PS - PostScript 파일
+* PPTX - PowerPoint 프레젠테이션 2007 PS - PostScript 파일
 * PSD - PHOTOSHOP
 * RTF - 리치 텍스트
 * XLS - Microsoft Excel 스프레드시트
@@ -239,7 +239,7 @@ Workfront에는 다음과 같은 제한이 있습니다.
 
 ## 웹 캡처
 
-정적 웹 페이지 증명을 만들 수 있습니다. 자세한 내용은 [웹 사이트 또는 기타 웹 컨텐츠에 대한 정적 증명 만들기](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md) 및 [Workfront Proof를 사용하여 정적 웹 사이트 증명 만들기](../../../workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md).
+정적 웹 페이지 증명을 만들 수 있습니다. 자세한 내용은 [웹 사이트 또는 기타 웹 콘텐츠에 대한 정적 증명 만들기](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md) 및 [Workfront Proof을 사용하여 정적 웹 사이트 증명 만들기](../../../workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md)를 참조하십시오.
 
 ## Zip 파일
 
@@ -247,7 +247,7 @@ Workfront에는 다음과 같은 제한이 있습니다.
 
 전체 대화형 프로젝트가 포함되어 있고 계정에 대화형 기능(Premium 계획)이 활성화된 경우에만 zip 파일을 제출할 수 있습니다.
 
-자세한 내용은 [대화형 콘텐츠 증명 개요](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
+자세한 내용은 [대화형 콘텐츠 증명 개요](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md)를 참조하십시오.
 
 ## InDesign 및 Quark 파일
 

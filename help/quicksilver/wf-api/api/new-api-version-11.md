@@ -9,7 +9,7 @@ role: Developer
 exl-id: b8826dc6-9791-49f6-923d-5a0c5392a8b0
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '3600'
+source-wordcount: '3573'
 ht-degree: 2%
 
 ---
@@ -234,31 +234,31 @@ API v11에 대해 제거된 리소스가 없습니다.
   <tr> 
    <td> 
     <ul> 
-     <li><a href="#accesslevelpermissions" class="MCXref xref">액세스 수준 권한</a> </li> 
+     <li><a href="#accesslevelpermissions" class="MCXref xref">AccessLevelPermissions</a> </li> 
      <li><a href="#accessrequest" class="MCXref xref">AccessRequest</a> </li> 
      <li><a href="#accessrule" class="MCXref xref">AccessRule</a> </li> 
      <li><a href="#approval" class="MCXref xref">승인</a> </li> 
      <li><a href="#approvalpath" class="MCXref xref">승인 경로</a> </li> 
-     <li><a href="#approvalprocess" class="MCXref xref">승인 프로세스</a> </li> 
+     <li><a href="#approvalprocess" class="MCXref xref">ApprovalProcess</a> </li> 
      <li><a href="#assignment" class="MCXref xref">할당</a> </li> 
      <li><a href="#baselinetask" class="MCXref xref">기준선 작업</a> </li> 
      <li><a href="#category" class="MCXref xref">범주</a> </li> 
      <li><a href="#company" class="MCXref xref">회사</a> </li> 
      <li><a href="#customenum" class="MCXref xref">CustomEnum</a> </li> 
      <li><a href="#customer" class="MCXref xref">고객</a> </li> 
-     <li><a href="#customerpreferences" class="MCXref xref">고객 환경 설정</a> </li> 
+     <li><a href="#customerpreferences" class="MCXref xref">CustomerPreferences</a> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li><a href="#docmetadatalinkgroup" class="MCXref xref">문서 메타데이터 링크 그룹</a> </li> 
+     <li><a href="#docmetadatalinkgroup" class="MCXref xref">DocMetadataLinkGroup</a> </li> 
      <li><a href="#document" class="MCXref xref">문서</a> </li> 
      <li><a href="#iteration" class="MCXref xref">반복</a> </li> 
      <li><a href="#layout-template" class="MCXref xref">레이아웃 템플릿</a> </li> 
      <li><a href="#milestonepath" class="MCXref xref">마일스톤 경로</a> </li> 
      <li><a href="#note" class="MCXref xref">참고</a> </li> 
      <li><a href="#optask" class="MCXref xref">OpTask</a> </li> 
-     <li><a href="#parameter" class="MCXref xref">매개변수</a> </li> 
-     <li><a href="#portfolio" class="MCXref xref">포트폴리오</a> </li> 
+     <li><a href="#parameter" class="MCXref xref">매개 변수</a> </li> 
+     <li><a href="#portfolio" class="MCXref xref">Portfolio</a> </li> 
      <li><a href="#program" class="MCXref xref">프로그램</a> </li> 
      <li><a href="#project" class="MCXref xref">프로젝트</a> </li> 
      <li><a href="#proofapproval" class="MCXref xref">ProofApproval</a> </li> 
@@ -267,20 +267,20 @@ API v11에 대해 제거된 리소스가 없습니다.
     </ul> </td> 
    <td> 
     <ul> 
-     <li><a href="#resourceplannerfilter" class="MCXref xref">리소스 플래너 필터</a> </li> 
+     <li><a href="#resourceplannerfilter" class="MCXref xref">ResourcePlannerFilter</a> </li> 
      <li><a href="#risk" class="MCXref xref">위험</a> </li> 
      <li><a href="#scheduledreport" class="MCXref xref">예약된 보고서</a> </li> 
-     <li><a href="#scorecardquestion" class="MCXref xref">스코어카드 질문</a> </li> 
+     <li><a href="#scorecardquestion" class="MCXref xref">ScoreCardQuestion</a> </li> 
      <li><a href="#task" class="MCXref xref">작업</a> </li> 
      <li><a href="#team" class="MCXref xref">팀</a> </li> 
      <li><a href="#template" class="MCXref xref">템플릿</a> </li> 
-     <li><a href="#templateassignment" class="MCXref xref">템플릿 할당</a> </li> 
+     <li><a href="#templateassignment" class="MCXref xref">TemplateAssignment</a> </li> 
      <li><a href="#templatetask" class="MCXref xref">TemplateTask</a> </li> 
      <li><a href="#timesheet" class="MCXref xref">타임시트</a> </li> 
      <li><a href="#update" class="MCXref xref">업데이트</a> </li> <!--
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#user" class="MCXref xref">User</a> </li>
      --> 
-     <li><a href="#usernote" class="MCXref xref">UserNote</a> </li> 
+     <li><a href="#usernote" class="MCXref xref">사용자 메모</a> </li> 
      <li><a href="#work" class="MCXref xref">작업 </a> </li> 
     </ul> </td> 
   </tr> 
@@ -832,13 +832,13 @@ Parameter 개체는 사용자 지정 필드입니다.
    <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>displayType</p> <p style="font-weight: normal;">가능한 값 TYAH(Typeahead)가 추가되었습니다.</p> </li> 
-     <li style="font-weight: bold;"> <p>refObjCode </p> <p style="font-weight: normal;">이 필드가 추가되었으며 참조된 개체의 개체 코드를 참조합니다. 모든 개체의 개체 코드는 <a href="../../wf-api/general/api-explorer.md" class="MCXref xref">API 탐색기</a>.  </p> </li> 
+     <li style="font-weight: bold;"> <p>refObjCode </p> <p style="font-weight: normal;">이 필드가 추가되었으며 참조된 개체의 개체 코드를 참조합니다. 모든 개체의 개체 코드는 <a href="../../wf-api/general/api-explorer.md" class="MCXref xref">API 탐색기</a>에서 찾을 수 있습니다.  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### 포트폴리오 {#portfolio}
+### Portfolio {#portfolio}
 
 Portfolio 객체는 동일한 리소스(일반적으로 돈 또는 완료하는 사람)에 대해 경쟁하는 프로젝트의 컬렉션입니다.
 

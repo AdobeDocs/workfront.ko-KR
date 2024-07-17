@@ -23,7 +23,7 @@ in January 2022
 </MadCap:conditionalText>
 -->
 
-2022년 4월 4일이 있는 주 22.2 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [22.2 릴리스 개요](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+2022년 4월 4일이 있는 주 22.2 릴리스에서 사용할 수 있는 모든 변경 사항 목록을 보려면 [22.2 릴리스 개요](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md)를 참조하십시오.
 
 ## 이제 Adobe Workfront 보드를 사용할 수 있습니다!
 
@@ -40,7 +40,7 @@ in January 2022
 
 시스템 관리자는 레이아웃 템플릿에서 보드를 활성화하여 메인 메뉴의 모든 사용자가 옵션을 사용할 수 있도록 해야 합니다.
 
-자세한 내용은 [보드 개요](../../../agile/boards-overview.md).
+자세한 내용은 [게시판 개요](../../../agile/boards-overview.md)를 참조하십시오.
 
 ## Workfront 보드에 대한 추가 개선 사항
 
@@ -65,13 +65,13 @@ in January 2022
 
   이제 보드에서 개별 카드에 대한 기한을 설정할 수 있습니다.
 
-자세한 내용은 [Adobe Workfront에서 보드 시작](../../../agile/get-started-with-boards/get-started-with-boards.md).
+자세한 내용은 [Adobe Workfront에서 보드 시작](../../../agile/get-started-with-boards/get-started-with-boards.md)을 참조하세요.
 
 ## 업데이트 게시물에 대한 실행 취소 옵션
 
 이제 업데이트를 게시할 때 실수를 더 쉽게 발견할 수 있습니다. 이제 오브젝트의 업데이트 탭에서 댓글을 확정하면 시스템에서 타임스탬프를 부여하거나 이메일 및 인앱 알림을 보내기 전에 게시물을 취소하고 편집으로 돌아갈 수 있는 팝업 창이 7초 동안 만들어집니다. 팝업 창을 닫거나 페이지를 떠나거나 창이 시간 초과될 때까지 7초 동안 대기하면 게시물이 정상적으로 만들어집니다.
 
-자세한 내용은 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+자세한 내용은 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)를 참조하세요.
 
 ## 문제 복사 및 이동 시 경험 업데이트됨
 
@@ -94,7 +94,7 @@ Workfront을 새로운 Adobe Workfront 환경과 일관되게 사용하기 위�
 
 Workfront을 새로운 Adobe Workfront 환경과 일관되게 사용하기 위해 프로젝트 복사 인터페이스를 다시 설계했습니다. 현재 프로젝트 페이지에서 프로젝트를 복사하거나 목록 또는 보고서에서 프로젝트를 복사할 때 사용할 수 있습니다. 이 업데이트 이전에는 프로젝트 페이지에서만 프로젝트를 복사할 수 있었습니다.
 
-자세한 내용은 [프로젝트 복사](../../../manage-work/projects/manage-projects/copy-project.md).
+자세한 내용은 [프로젝트 복사](../../../manage-work/projects/manage-projects/copy-project.md)를 참조하십시오.
 
 ## 새 기타 메뉴에서 목록 및 보고서에서 프로젝트를 관리하는 기능
 
@@ -113,7 +113,7 @@ Workfront을 새로운 Adobe Workfront 환경과 일관되게 사용하기 위�
 
 * [프로젝트 타임라인 다시 계산](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md)
 * [프로젝트 재무 다시 계산](../../../manage-work/projects/project-finances/recalculate-project-finances.md)
-* [사용자 정의 양식 필드의 정보 편집](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md)
+* [사용자 정의 양식 필드에서 정보 편집](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md)
 * [프로젝트에 템플릿 첨부](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md)
 * [Microsoft 프로젝트로 프로젝트 내보내기](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md)
 * [Adobe Workfront에서 항목 구독](../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
@@ -124,7 +124,7 @@ Workfront을 새로운 Adobe Workfront 환경과 일관되게 사용하기 위�
 
 사용자는 문제를 프로젝트의 페이지로 리디렉션되지 않고 프로젝트로 전환한 후 목록, 보고서 또는 대시보드에 남아 있습니다. 필요한 경우 프로젝트로 쉽게 이동할 수 있도록 전환이 완료된 후 프로젝트에 대한 링크가 있는 성공 알림이 표시됩니다.
 
-자세한 내용은 [Adobe Workfront에서 문제를 프로젝트로 전환](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+자세한 내용은 [문제를 Adobe Workfront의 프로젝트로 변환](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)을 참조하십시오.
 
 ## 할당을 변경할 때 할당 시간이 더 이상 제거되지 않음
 
@@ -140,7 +140,7 @@ Workfront을 새로운 Adobe Workfront 환경과 일관되게 사용하기 위�
 * 사용자 및 역할을 대체할 때 개별 할당 할당은 유지됩니다.
 * 개별 할당 할당은 사용자를 제거할 때 역할에 유지됩니다. (릴리스에서 제거됨. 이제 모든 할당자를 제거한 후 계획된 시간이 0으로 설정됩니다.)
 
-계획된 시간에 대한 자세한 내용은 다음을 참조하십시오. [계획된 시간 개요](../../../manage-work/tasks/task-information/planned-hours.md).
+계획된 시간에 대한 자세한 내용은 [계획된 시간 개요](../../../manage-work/tasks/task-information/planned-hours.md)를 참조하십시오.
 
 ## 폴더 계층의 상위 5개 수준에서만 폴더 공유
 
@@ -152,5 +152,5 @@ Workfront을 새로운 Adobe Workfront 환경과 일관되게 사용하기 위�
 
 여섯 번째 수준 또는 그 이하의 각 폴더는 바로 위의 폴더에서 공유 구성을 상속합니다.
 
-폴더 공유에 대한 자세한 내용은 [문서 폴더 공유](../../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
+폴더 공유에 대한 자세한 내용은 [문서 폴더 공유](../../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md)를 참조하십시오.
 

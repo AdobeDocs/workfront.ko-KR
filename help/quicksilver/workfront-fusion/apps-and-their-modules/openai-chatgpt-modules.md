@@ -8,20 +8,21 @@ title: OpenAI(ChatGPT) 모듈
 description: Adobe Workfront Fusion 시나리오에서는 OpenAIT(ChatGPT)를 사용하는 워크플로를 자동화할 수 있을 뿐만 아니라 여러 타사 애플리케이션 및 서비스에 연결할 수 있습니다.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: aa672a81b0899c45c1c7e6abba03b6d975dc7017
+exl-id: 3a747013-5fb6-4416-8d95-d656dfeeb7db
+source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
 workflow-type: tm+mt
 source-wordcount: '1320'
 ht-degree: 0%
 
 ---
 
-# [!DNL OpenAI (ChatGPT & DALL-E)] 모듈
+# [!DNL OpenAI (ChatGPT & DALL-E)]개 모듈
 
-다음에서 [!DNL Adobe Workfront Fusion] 시나리오에서는 다음을 사용하는 워크플로를 자동화할 수 있습니다 [!DNL OpenAI (ChatGPT & DALL-E)]을 여러 타사 응용 프로그램 및 서비스에 연결할 수 있습니다.
+[!DNL Adobe Workfront Fusion] 시나리오에서는 [!DNL OpenAI (ChatGPT & DALL-E)]을(를) 사용하는 워크플로를 자동화하고 여러 타사 응용 프로그램 및 서비스에 연결할 수 있습니다.
 
-시나리오를 만드는 방법에 대한 지침이 필요한 경우 [에서 시나리오 만들기 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+시나리오를 만드는 방법에 대한 지침이 필요하면 [시나리오 만들기 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md)를 참조하십시오.
 
-모듈에 대한 자세한 내용은 [의 모듈 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+모듈에 대한 자세한 내용은 [의 모듈 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md)을 참조하세요.
 
 ## 액세스 요구 사항
 
@@ -41,28 +42,28 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 라이센스**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p> </td> 
+   <td> <p>작업 자동화 및 통합을 위한 [!UICONTROL [!DNL Workfront Fusion]] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">제품</td> 
-   <td>조직은 다음을 구매해야 합니다. [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오.</td> 
+   <td>조직에서 이 문서에 설명된 기능을 사용하려면 [!DNL Adobe Workfront Fusion]과(와) [!DNL Adobe Workfront]을(를) 구입해야 합니다.</td> 
   </tr> 
  </tbody> 
 </table>
 
-보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
+보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
 
-다음에 대한 정보: [!DNL Adobe Workfront Fusion] 라이센스, 참조 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+[!DNL Adobe Workfront Fusion] 라이선스에 대한 자세한 내용은 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md)를 참조하세요.
 
 ## 전제 조건
 
-사용 [!DNL OpenAI (ChatGPT & DALL-E)] 모듈, 다음 항목이 있어야 합니다. [!DNL OpenAI] API 키 및 조직 ID가 포함된 계정입니다.
+[!DNL OpenAI (ChatGPT & DALL-E)] 모듈을 사용하려면 API 키와 조직 ID를 포함한 [!DNL OpenAI] 계정이 있어야 합니다.
 
-## 연결 중 [!DNL OpenAI (ChatGPT & DALL-E)] 끝 [!DNL Workfront Fusion]
+## [!DNL Workfront Fusion]에 [!DNL OpenAI (ChatGPT & DALL-E)] 연결 중
 
-에 대한 연결을 만들 수 있습니다. [!DNL OpenAI (ChatGPT & DALL-E)] 내에서 직접 계정 [!DNL OpenAI (ChatGPT & DALL-E)] 모듈.
+[!DNL OpenAI (ChatGPT & DALL-E)] 모듈 내에서 직접 [!DNL OpenAI (ChatGPT & DALL-E)] 계정에 연결할 수 있습니다.
 
-1. 다음 중 하나 [!DNL OpenAI (ChatGPT & DALL-E)] 모듈, 클릭 **[!UICONTROL 추가]** 다음 옆에 [!UICONTROL 연결] 필드.
+1. [!DNL OpenAI (ChatGPT & DALL-E)] 모듈에서 [!UICONTROL 연결] 필드 옆에 있는 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
 1. 다음 정보를 입력합니다.
 
    <table style="table-layout:auto"> 
@@ -84,14 +85,14 @@ ht-degree: 0%
     </tbody> 
    </table>
 
-1. 클릭 **[!UICONTROL 계속]** 를 클릭하여 연결을 만들고 모듈로 돌아갑니다.
+1. 연결을 만들고 모듈로 돌아가려면 **[!UICONTROL 계속]**&#x200B;을 클릭하세요.
 
 
-## [!DNL OpenAI (ChatGPT & DALL-E)] 모듈 및 해당 필드
+## [!DNL OpenAI (ChatGPT & DALL-E)]개 모듈 및 해당 필드
 
-를 구성할 때 [!DNL OpenAI (ChatGPT & DALL-E)] 모듈, [!DNL Workfront Fusion] 아래 나열된 필드를 표시합니다. 이와 함께 추가 [!DNL OpenAI (ChatGPT & DALL-E)] 앱이나 서비스의 액세스 수준 등에 따라 필드가 표시될 수 있습니다. 모듈의 굵은 제목은 필수 필드를 나타냅니다.
+[!DNL OpenAI (ChatGPT & DALL-E)] 모듈을 구성할 때 [!DNL Workfront Fusion]에 아래 나열된 필드가 표시됩니다. 앱 또는 서비스의 액세스 수준과 같은 요소에 따라 이러한 필드와 함께 [!DNL OpenAI (ChatGPT & DALL-E)] 필드가 추가로 표시될 수 있습니다. 모듈의 굵은 제목은 필수 필드를 나타냅니다.
 
-필드나 함수 위에 맵 단추가 표시되면 이 단추를 사용하여 해당 필드에 대한 변수와 함수를 설정할 수 있습니다. 자세한 내용은 [의 한 모듈에서 다른 모듈로 정보 매핑 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+필드나 함수 위에 맵 단추가 표시되면 이 단추를 사용하여 해당 필드에 대한 변수와 함수를 설정할 수 있습니다. 자세한 내용은 [한 모듈에서 다른 모듈로 정보를 매핑 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)을 참조하십시오.
 
 ![](assets/map-toggle-350x74.png)
 
@@ -140,11 +141,11 @@ This action module creates a completion for the provided prompt or chat.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL OpenAI (ChatGPT & DALL-E)] Workfront Fusion에 대한 계정은 다음을 참조하십시오. <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">연결 중 [!DNL OpenAI (ChatGPT & DALL-E)] 끝 [!DNL Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL OpenAI (ChatGPT & DALL-E)] 계정을 Workfront Fusion에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">[!DNL OpenAI (ChatGPT & DALL-E)]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Input]</td> 
-   <td> 포함할 각 텍스트 샘플에 대해 <b>항목 추가</b> 텍스트를 입력하거나 매핑합니다. 전체 텍스트 샘플을 포함합니다.</td> 
+   <td> 포함할 각 텍스트 샘플에 대해 <b>항목 추가</b>를 클릭하고 텍스트를 입력하거나 매핑합니다. 전체 텍스트 샘플을 포함합니다.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 모델]</td> 
@@ -163,7 +164,7 @@ This action module creates a completion for the provided prompt or chat.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL OpenAI (ChatGPT & DALL-E)] Workfront Fusion에 대한 계정은 다음을 참조하십시오. <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">연결 중 [!DNL OpenAI (ChatGPT & DALL-E)] 끝 [!DNL Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL OpenAI (ChatGPT & DALL-E)] 계정을 Workfront Fusion에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">[!DNL OpenAI (ChatGPT & DALL-E)]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 모델]</td> 
@@ -179,7 +180,7 @@ This action module creates a completion for the provided prompt or chat.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 고급 설정]</td> 
-   <td> <p>이 모듈의 선택적 고급 설정에 대한 자세한 내용은 <a href="https://platform.openai.com/docs/api-reference/edits/create" class="MCXref xref">OpenAI API 설명서</a>.</p> </td> 
+   <td> <p>이 모듈의 선택적 고급 설정에 대한 자세한 내용은 <a href="https://platform.openai.com/docs/api-reference/edits/create" class="MCXref xref">OpenAI API 설명서</a>에서 편집 만들기에 대한 정보를 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -194,7 +195,7 @@ This action module creates a completion for the provided prompt or chat.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL OpenAI (ChatGPT & DALL-E)] Workfront Fusion에 대한 계정은 다음을 참조하십시오. <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">연결 중 [!DNL OpenAI (ChatGPT & DALL-E)] 끝 [!DNL Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL OpenAI (ChatGPT & DALL-E)] 계정을 Workfront Fusion에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">[!DNL OpenAI (ChatGPT & DALL-E)]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 모델]</td> 
@@ -225,7 +226,7 @@ This action module creates a completion for the provided prompt or chat.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL OpenAI (ChatGPT & DALL-E)] Workfront Fusion에 대한 계정은 다음을 참조하십시오. <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">연결 중 [!DNL OpenAI (ChatGPT & DALL-E)] 끝 [!DNL Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL OpenAI (ChatGPT & DALL-E)] 계정을 Workfront Fusion에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">[!DNL OpenAI (ChatGPT & DALL-E)]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 모델]</td> 
@@ -233,17 +234,17 @@ This action module creates a completion for the provided prompt or chat.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Messages]</td> 
-   <td>메시지는 지금까지의 대화에 대해 설명합니다. 추가할 각 메시지에 대해 <b>항목 추가</b> 다음을 입력합니다.
+   <td>메시지는 지금까지의 대화에 대해 설명합니다. 추가할 각 메시지에 대해 <b>항목 추가</b>를 클릭하고 다음을 입력하십시오.
    <ul>
-   <li> <b>역할</b>: 이 메시지의 작성자 역할을 선택합니다.</li>
-   <li> <b>콘텐츠</b>: 이 메시지의 내용을 입력하거나 매핑합니다.</li>
-   <li> <b>이름</b>: 이 메시지 작성자의 이름을 입력하거나 매핑합니다. 이름에는 대/소문자, 숫자 및 밑줄을 포함할 수 있습니다. 이름의 최대 길이는 64자입니다.</li>
+   <li> <b>역할</b>: 이 메시지의 작성자 역할을 선택하십시오.</li>
+   <li> <b>내용</b>: 이 메시지의 내용을 입력하거나 매핑합니다.</li>
+   <li> <b>이름</b>: 이 메시지의 작성자 이름을 입력하거나 매핑합니다. 이름에는 대/소문자, 숫자 및 밑줄을 포함할 수 있습니다. 이름의 최대 길이는 64자입니다.</li>
    </ul>
     </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 고급 설정]</td> 
-   <td> <p>이 모듈의 선택적 고급 설정에 대한 자세한 내용은 <a href="https://platform.openai.com/docs/api-reference/chat/create" class="MCXref xref">OpenAI API 설명서</a>.</p> </td> 
+   <td> <p>이 모듈의 선택적 고급 설정에 대한 자세한 내용은 <a href="https://platform.openai.com/docs/api-reference/chat/create" class="MCXref xref">OpenAI API 설명서</a>에서 채팅 완료 만들기에 대한 정보를 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -295,7 +296,7 @@ This action module makes edits or creates variations of existing images.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL OpenAI (ChatGPT & DALL-E)] Workfront Fusion에 대한 계정은 다음을 참조하십시오. <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">연결 중 [!DNL OpenAI (ChatGPT & DALL-E)] 끝 [!DNL Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL OpenAI (ChatGPT & DALL-E)] 계정을 Workfront Fusion에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">[!DNL OpenAI (ChatGPT & DALL-E)]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 원하는 이미지의 텍스트 설명]</td> 
@@ -304,7 +305,7 @@ This action module makes edits or creates variations of existing images.
   </tr> 
    <tr> 
    <td role="rowheader">[!UICONTROL 고급 설정]</td> 
-   <td> <p>이 모듈의 선택적 고급 설정에 대한 자세한 내용은 <a href="https://platform.openai.com/docs/api-reference/images/create" class="MCXref xref">OpenAI API 설명서</a>.</p> </td> 
+   <td> <p>이 모듈의 선택적 고급 설정에 대한 자세한 내용은 <a href="https://platform.openai.com/docs/api-reference/images/create" class="MCXref xref">OpenAI API 설명서</a>에서 이미지 만들기에 대한 정보를 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -319,7 +320,7 @@ This action module makes edits or creates variations of existing images.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL OpenAI (ChatGPT & DALL-E)] Workfront Fusion에 대한 계정은 다음을 참조하십시오. <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">연결 중 [!DNL OpenAI (ChatGPT & DALL-E)] 끝 [!DNL Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL OpenAI (ChatGPT & DALL-E)] 계정을 Workfront Fusion에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">[!DNL OpenAI (ChatGPT & DALL-E)]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Action]</td> 
@@ -342,15 +343,15 @@ This action module makes edits or creates variations of existing images.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL OpenAI (ChatGPT & DALL-E)] Workfront Fusion에 대한 계정은 다음을 참조하십시오. <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">연결 중 [!DNL OpenAI (ChatGPT & DALL-E)] 끝 [!DNL Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL OpenAI (ChatGPT & DALL-E)] 계정을 Workfront Fusion에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">[!DNL OpenAI (ChatGPT & DALL-E)]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
-   <td> <p>상대 경로 입력 <code>https://api.openai.com/v1/</code> </p> </td> 
+   <td> <p><code>https://api.openai.com/v1/</code>과(와) 관련된 경로 입력 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 메서드]</td> 
-   <td> <p>API 호출을 구성하는 데 필요한 HTTP 요청 메서드를 선택합니다. 자세한 내용은 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">의 HTTP 요청 메서드 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>API 호출을 구성하는 데 필요한 HTTP 요청 메서드를 선택합니다. 자세한 내용은 [!DNL Adobe Workfront Fusion]</a>에서 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP 요청 메서드를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -362,7 +363,7 @@ This action module makes edits or creates variations of existing images.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>표준 JSON 개체의 형태로 API 호출에 대한 본문 콘텐츠를 추가합니다.</p> <p>참고:  <p>다음과 같은 조건문을 사용할 때 <code>if</code> json에서 따옴표를 조건문 외부에 넣습니다.</p> 
+   <td> <p>표준 JSON 개체의 형태로 API 호출에 대한 본문 콘텐츠를 추가합니다.</p> <p>참고:  <p>JSON에서 <code>if</code>과(와) 같은 조건문을 사용할 때 따옴표를 조건문 외부에 넣으십시오.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -416,7 +417,7 @@ This action modules converts audio to text.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL OpenAI (ChatGPT & DALL-E)] Workfront Fusion에 대한 계정은 다음을 참조하십시오. <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">연결 중 [!DNL OpenAI (ChatGPT & DALL-E)] 끝 [!DNL Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL OpenAI (ChatGPT & DALL-E)] 계정을 Workfront Fusion에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">[!DNL OpenAI (ChatGPT & DALL-E)]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Action]</td> 
@@ -439,7 +440,7 @@ This action modules converts audio to text.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL OpenAI (ChatGPT & DALL-E)] Workfront Fusion에 대한 계정은 다음을 참조하십시오. <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">연결 중 [!DNL OpenAI (ChatGPT & DALL-E)] 끝 [!DNL Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL OpenAI (ChatGPT & DALL-E)] 계정을 Workfront Fusion에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">[!DNL OpenAI (ChatGPT & DALL-E)]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 작업 선택]</td> 
@@ -458,4 +459,3 @@ This action modules converts audio to text.
    <td> 파일을 삭제하거나 파일 또는 파일 내용을 검색하는 경우 파일 ID를 입력하거나 매핑합니다. 
   </tr> 
 </tbody>
-

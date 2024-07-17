@@ -62,7 +62,7 @@ ht-degree: 0%
 * 외부 승인자를 추가하는 기능이 추가되었습니다.
 * 외부 승인자가 문서를 미리 보고, 다운로드하고, 댓글을 달 수 있도록 보기가 개선되었습니다
 
-시청 [비디오 둘러보기](https://video.tv.adobe.com/v/3424613/){target=_blank}.
+[비디오 둘러보기](https://video.tv.adobe.com/v/3424613/){target=_blank}.
 
 ### Alpha 릴리스 4 - 2023년 5월
 
@@ -70,23 +70,23 @@ ht-degree: 0%
 
 우리는 이 이정표에 대해 흥분하고 앞으로 더 많은 것을 기대합니다!
 
-시청 [비디오 둘러보기](https://video.tv.adobe.com/v/3420094/){target=_blank}.
+[비디오 둘러보기](https://video.tv.adobe.com/v/3420094/){target=_blank}.
 
 ### Alpha 릴리스 3 - 2023년 3월
 
 이 세 번째 Alpha 릴리스에서는 승인자 및 검토자 추가 또는 제거와 같은 작업 완료 시 표시되는 성공 메시지를 도입하여 피드백을 통합했습니다. 또한 이 릴리스에서는 보류 중인 승인에 대한 가시성이 향상되었으며, 이제 홈 및 내 업데이트 페이지에서 볼 수 있으므로 사용자가 이러한 페이지에서 직접 문서를 쉽게 승인할 수 있습니다.
 
-시청 [비디오 둘러보기](https://video.tv.adobe.com/v/3417854/){target=_blank}.
+[비디오 둘러보기](https://video.tv.adobe.com/v/3417854/){target=_blank}.
 
 ### Alpha 릴리스 2 - 2023년 1월
 
 이 Alpha 2 릴리스에서는 개인 및 팀을 검토자 또는 승인자로 추가하고 문서 세부 정보 페이지에서 직접 승인 결정을 내릴 수 있습니다.
 
-시청 [비디오 둘러보기](https://video.tv.adobe.com/v/3413941){target=_blank}.
+[비디오 둘러보기](https://video.tv.adobe.com/v/3413941){target=_blank}.
 
 ### Alpha 릴리스 1 - 2022년 11월
 
-다음 항목 보기 [비디오 둘러보기](https://video.tv.adobe.com/v/3412837){target=_blank} 그리고 원한다면 언제든지 따라가도 돼!
+[비디오 둘러보기](https://video.tv.adobe.com/v/3412837){target=_blank}를 시청하고 싶으시면 언제든지 따라오세요!
 
 비디오에서 계속 진행하려면 미리보기 환경에서 다음을 설정해야 합니다.
 
@@ -102,4 +102,4 @@ ht-degree: 0%
 
 ## 피드백 보내기
 
-우리는 당신의 의견을 소중히 여기며 당신의 관점은 우리가 가능한 최고의 제품을 만드는 데 매우 중요하다고 믿습니다. 귀사가 프로덕션에서 이 솔루션을 채택하기 위해 필요한 사항에 대한 구체적인 피드백이 있으면으로 보내주십시오. [jbarron@adobe.com](mailto:jbarron@adobe.com).
+우리는 당신의 의견을 소중히 여기며 당신의 관점은 우리가 가능한 최고의 제품을 만드는 데 매우 중요하다고 믿습니다. 회사에서 프로덕션에서 이 솔루션을 채택하기 위해 필요한 사항에 대한 구체적인 피드백이 있으므로 [jbarron@adobe.com](mailto:jbarron@adobe.com)(으)로 보내 주십시오.

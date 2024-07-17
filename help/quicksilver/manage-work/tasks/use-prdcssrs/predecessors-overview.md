@@ -22,7 +22,7 @@ ht-degree: 0%
 
 CONTEXT SENSITIVE HELP article. DO NOT CHANGE THE NAME OF THE ARTICLE/ DO NOT MOVE OR DELETE! -->
 
-전임 작업은 다른 작업(후임 작업 또는 종속 작업이라고 함)이 종속된 작업입니다. Adobe Workfront은 5가지 유형의 전임 작업 종속성을 지원합니다. 전임 작업 종속성을 이해하려면 다음을 참조하십시오 [작업 종속성 유형 개요](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+전임 작업은 다른 작업(후임 작업 또는 종속 작업이라고 함)이 종속된 작업입니다. Adobe Workfront은 5가지 유형의 전임 작업 종속성을 지원합니다. 전임 작업 종속성을 이해하려면 [작업 종속성 유형 개요](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)를 참조하세요.
 
 ## 전임 작업 개요
 
@@ -38,35 +38,35 @@ CONTEXT SENSITIVE HELP article. DO NOT CHANGE THE NAME OF THE ARTICLE/ DO NOT MO
 
 * 전임 작업 종속성
 * 지연 값 및 유형\
-  종속성과 지연 모두에 대한 자세한 내용은 [작업 목록의 전임 작업 값의 예](#examples-of-predecessor-values-in-a-task-list).
+  종속성과 지연 모두에 대한 자세한 내용은 [작업 목록에 있는 전임 작업 값의 예](#examples-of-predecessor-values-in-a-task-list)를 참조하십시오.
 
   예를 들어, 작업 A가 완료-시작 관계의 작업 B의 전임 작업이고 작업 B가 가능한 한 빨리 작업 제한조건이 있는 경우, Workfront은 전임 작업의 적용 여부에 관계없이 작업 B에 작업 A의 계획된 완료 일자 바로 다음에 계획된 시작 일자를 지정합니다.
 
 전임 작업 관계를 이해하려면 다음을 이해해야 합니다.
 
-* **종속성 유형:** 전임 작업은 다양한 종속성 유형에 의해 연결됩니다. 종속성 유형에 대한 자세한 내용은 [작업 종속성 유형 개요](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+* **종속성 유형:**&#x200B;개의 전임 작업이 다양한 종속성 유형에 의해 연결되어 있습니다. 종속성 유형에 대한 자세한 내용은 [작업 종속성 유형 개요](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)를 참조하십시오.
 
-* **전임 작업 시행:** 전임 작업을 적용할 때 전임 작업이 완료될 때까지 후임 작업이 절대 시작되지 않을 수 있습니다. 후임 작업은 전임 작업이 끝난 직후에 시작으로 표시됩니다.
+* **전임 작업 적용:** 전임 작업을 적용할 때 전임 작업이 완료될 때까지 후임 작업을 시작할 수 없습니다. 후임 작업은 전임 작업이 끝난 직후에 시작으로 표시됩니다.
 
   전임 작업이 완료(또는 시작)되지 않았고 적용되지 않은 경우 후임 작업을 시작할 수 있지만 프로젝트 타임라인은 전임 작업과 후임 작업 모두의 날짜로 인해 계속 영향을 받습니다.
 
   Workfront은 강제 적용된 전임 작업을 사용할 경우 전임 작업이 완료될 때까지 후임 작업을 진행 중 또는 완료로 표시할 수 없습니다.
 
   그러나 Workfront에서는 작업에 대해 시간을 보고할 수 있습니다.\
-  전임 작업을 적용하는 방법에 대한 자세한 내용은 [전임 작업 시행](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
+  전임 작업을 적용하는 방법에 대한 자세한 내용은 [전임 작업 적용](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md)을 참조하십시오.
 
-* **랙:** 종속성에 래그를 작성하여 전임 작업이 완료된 후 후임 작업이 시작되기 전에 지연이 발생해야 합니다. 지연은 프로젝트의 타임라인에 영향을 줍니다.
+* **지연:** 종속 항목에 지연을 만들 수 있습니다. 이 지연은 전임 작업이 완료된 후 후속 작업이 시작되기 전에 발생해야 합니다. 지연은 프로젝트의 타임라인에 영향을 줍니다.
 
-  지연 유형을 이해하려면 다음을 참조하십시오 [지연 유형 개요](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
+  지연 유형을 이해하려면 [지연 유형 개요](../../../manage-work/tasks/use-prdcssrs/lag-types.md)를 참조하십시오.
 
 ## 전임 작업 관계 만들기
 
 전임 작업을 만들려면 다음 문서를 참조하십시오.
 
-* 작업의 [전임 작업] 탭을 사용하여 전임 작업을 설정하려면 다음을 참조하십시오. [전임 작업 영역을 사용하여 전임 작업 관계 만들기](../../../manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md).
-* 작업 목록에서 전임 작업을 설정하려면 다음을 참조하십시오 [작업 목록에 전임 작업 관계 만들기](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md).
-* 작업을 연결하여 전임 작업 관계를 설정하려면 다음을 참조하십시오 [작업을 연결하여 전임 작업 관계 만들기](../../../manage-work/tasks/use-prdcssrs/create-predecessors-by-chaining-tasks.md).
-* 프로젝트 간 전임 작업을 설정하려면 [프로젝트 간 전임 작업 만들기](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).
+* 작업의 [전임 작업] 탭을 사용하여 전임 작업을 설정하려면 [전임 작업 영역을 사용하여 전임 작업 관계 만들기](../../../manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md)를 참조하십시오.
+* 작업 목록에서 전임 작업을 설정하려면 [작업 목록에서 전임 작업 관계 만들기](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md)를 참조하십시오.
+* 작업을 연결하여 전임 작업 관계를 설정하려면 [작업을 연결하여 전임 작업 관계 만들기](../../../manage-work/tasks/use-prdcssrs/create-predecessors-by-chaining-tasks.md)를 참조하십시오.
+* 프로젝트 간 전임 작업을 설정하려면 [프로젝트 간 전임 작업 만들기](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md)를 참조하십시오.
 
 ## 작업의 전임 작업 찾기 {#locate-the-predecessors-of-a-task}
 
@@ -75,18 +75,18 @@ CONTEXT SENSITIVE HELP article. DO NOT CHANGE THE NAME OF THE ARTICLE/ DO NOT MO
 * 작업 중인 프로젝트로 이동하여 다음을 수행합니다.
 
    1. 전임 작업을 찾을 작업을 찾은 다음 해당 작업을 클릭합니다.
-   1. 클릭 **전임 작업** 왼쪽 패널에서 다음을 클릭해야 할 수 있습니다. **더 보기**, 그런 다음 **전임 작업**.
-   1. 전임 작업이 진행 중인 프로젝트의 이름은에 표시됩니다. **프로젝트** 열.
+   1. 왼쪽 패널에서 **전임 작업**&#x200B;을 클릭합니다. **자세히 표시**&#x200B;를 클릭한 다음 **전임 작업**&#x200B;을 클릭해야 할 수 있습니다.
+   1. **프로젝트** 열에 전임 작업이 있는 프로젝트의 이름이 표시됩니다.
 
-      다음에 있는 숫자 **#** 열에는 전임 작업 번호가 표시됩니다. 예를 들어 &quot;6&quot;은 프로젝트의 여섯 번째 작업을 의미합니다.
+      **#** 열의 숫자는 전임 작업 번호를 표시합니다. 예를 들어 &quot;6&quot;은 프로젝트의 여섯 번째 작업을 의미합니다.
 
-      ![작업의 전임 작업 섹션](assets/predecessors-area-with-task-header.png)
+      작업의 ![전임 작업 섹션](assets/predecessors-area-with-task-header.png)
 
 * 작업 중인 프로젝트로 이동하여 다음을 수행합니다.
 
-   1. 다음을 클릭합니다. **작업** 탭.
-   1. 다음을 선택합니다. **표준 보기** 을 클릭합니다.
-   1. 다음 **전임 작업** 열에는 전임 작업 번호가 표시됩니다.
+   1. **작업** 탭을 클릭합니다.
+   1. 작업 목록 맨 위에서 **표준 보기**&#x200B;를 선택합니다.
+   1. **전임 작업** 열에 전임 작업 번호가 표시됩니다.
 
       프로젝트 간 전임 작업의 경우 전임 작업 열에는 전임 작업이 속한 프로젝트의 참조 번호와 작업 번호가 콜론으로 구분되어 표시됩니다.
 
@@ -101,18 +101,18 @@ CONTEXT SENSITIVE HELP article. DO NOT CHANGE THE NAME OF THE ARTICLE/ DO NOT MO
 작업 목록에서 전임 작업을 볼 때 해당 종속성 유형 및 지연 금액이 있는 다음 유형의 전임 작업이 표시될 수 있습니다.
 
 * **1fs -** 전임 작업 번호는 1입니다. 종속성 유형은 완료-시작입니다. 프로젝트 타임라인에서 이 작업은 작업 1이 완료된 직후에 시작되도록 예약되어 있습니다. 이에도 불구하고 여전히 진행 중 또는 완료로 표시할 수 있습니다.
-* **1 -** 전임 작업 번호는 1입니다. 이는 과(와) 동일합니다 **1fs**, 이유 **fs** 는 Workfront의 기본 전임 작업 관계입니다.
+* **1 -** 전임 작업 번호는 1입니다. **fs**&#x200B;이(가) Workfront의 기본 전임 작업 관계이므로 **1fs**&#x200B;과(와) 동일합니다.
 
 * **1fse -** 전임 작업 번호는 1입니다. 종속성 유형은 완료-시작-강제 적용입니다. 프로젝트 타임라인에서 이 작업은 작업 1이 완료된 직후에 시작으로 표시됩니다. Workfront에서는 작업 1이 완료될 때까지 진행 중 또는 완료로 표시할 수 없습니다. 그러나 Workfront에서는 작업에 대해 시간을 보고할 수 있습니다.
 * **1fs+3d -** 전임 작업 번호는 1입니다. 종속성 유형은 지연 시간이 3일인 완료-시작입니다. 프로젝트 타임라인에서 이 작업은 작업 1이 완료된 후 3일 후에 시작으로 표시됩니다.
 * **1fs-3d -** 전임 작업 번호는 1입니다. 종속성 유형은 지연 시간이 3일인 완료-시작입니다. 프로젝트 타임라인에서 이 작업은 전임 작업이 완료되기 3일 전에 시작으로 표시됩니다.
-* **1fs+3de** -전임 작업 번호는 1입니다. 종속성 유형은 3일의 지연 시간으로 완료-시작-시행됩니다. 프로젝트 타임라인에서 이 작업은 작업 1이 완료된 후 3일 후에 시작으로 표시됩니다. Workfront에서는 작업 1이 완료될 때까지 진행 중 또는 완료로 표시할 수 없습니다. 그러나 Workfront에서는 작업에 대해 시간을 보고할 수 있습니다.
+* **1fs+3de** - 전임 작업 번호는 1입니다. 종속성 유형은 3일의 지연 시간으로 완료-시작-시행됩니다. 프로젝트 타임라인에서 이 작업은 작업 1이 완료된 후 3일 후에 시작으로 표시됩니다. Workfront에서는 작업 1이 완료될 때까지 진행 중 또는 완료로 표시할 수 없습니다. 그러나 Workfront에서는 작업에 대해 시간을 보고할 수 있습니다.
 
   >[!NOTE]
   >
-  >강제 적용된 값()을 추가해야 합니다.**e**)를 후임 작업 없이 Lag에 추가합니다.
+  >강제 적용된 값(**e**)을 선행 값이 아닌 Lag에 추가해야 합니다.
 
-* **4515:2** 전임 작업 번호는 2입니다. - 참조 번호가 있는 프로젝트의 전임 작업 항목에 대해 적용되지 않는 완료 후 시작 종속성입니다. **4515**.
+* **4515:2** 전임 작업 번호는 2입니다. - 참조 번호가 **4515**&#x200B;인 프로젝트의 전임 작업과의 시작 완료 및 적용되지 않는 종속성입니다.
 
 ## 전임 작업 정보 보기
 
@@ -120,11 +120,11 @@ Workfront의 다음 영역에서 전임 작업 정보를 볼 수 있습니다. �
 
 * 작업 수준에서 전임 작업 섹션으로 이동합니다.
 
-  전임 작업 섹션에서 전임 작업 정보를 보는 방법에 대한 자세한 내용은 섹션을 참조하십시오 [작업의 전임 작업 찾기](#locate-the-predecessors-of-a-task) 이 문서에서.
+  전임 작업 섹션에서 전임 작업 정보를 보는 방법에 대한 자세한 내용은 이 문서의 [작업의 전임 작업 찾기](#locate-the-predecessors-of-a-task) 섹션을 참조하십시오.
 
 * Gantt 차트에서 확인할 수 있습니다.
 
-  간트 차트에 전임 작업을 표시하는 방법에 대한 자세한 내용은 [간트 차트에 정보가 표시되는 방식 구성](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
+  간트 차트에 전임 작업을 표시하는 방법에 대한 자세한 내용은 [간트 차트에 정보가 표시되는 방법 구성](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md)을 참조하십시오.
 
 * 작업 목록.
 
@@ -132,11 +132,11 @@ Workfront의 다음 영역에서 전임 작업 정보를 볼 수 있습니다. �
 
    * 작업 목록에서 기본 제공 표준 보기를 적용합니다.
 
-     표준 보기에서 전임 작업 정보를 보는 방법에 대한 자세한 내용은 섹션을 참조하십시오 [작업의 전임 작업 찾기](#locate-the-predecessors-of-a-task) 이 문서에서.
+     표준 보기에서 전임 작업 정보를 보는 방법에 대한 자세한 내용은 이 문서의 [작업의 전임 작업 찾기](#locate-the-predecessors-of-a-task) 섹션을 참조하십시오.
 
    * 작업 보기 또는 보고서를 작성하고 전임 작업 열을 해당 보기에 추가합니다.
 
-     전임 작업 정보가 있는 작업에 대한 사용자 지정 보기를 작성하는 방법에 대한 자세한 내용은 [보기: 전임 작업 세부 정보](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-predecessor-details.md).
+     전임 작업 정보가 있는 작업에 대한 사용자 지정 보기를 만드는 방법에 대한 자세한 내용은 [보기: 전임 작업 세부 정보](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-predecessor-details.md)를 참조하십시오.
 
 * 작업에 액세스할 때 작업 헤더에서.
 

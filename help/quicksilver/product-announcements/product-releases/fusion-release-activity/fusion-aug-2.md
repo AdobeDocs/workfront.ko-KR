@@ -1,6 +1,6 @@
 ---
-title: 'Workfront Fusion 릴리스 활동: 2021년 8월 2일 주&nbsp;'
-description: 'Workfront Fusion 릴리스 활동: 2021년 8월 2일 주&nbsp;'
+title: Workfront Fusion 릴리스 활동:&nbsp;2021년 8월 2일 주
+description: Workfront Fusion 릴리스 활동:&nbsp;2021년 8월 2일 주
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 이 페이지에서는 2021년 8월 2일이 있는 주에 Adobe Workfront Fusion에서 향상된 모든 기능에 대해 설명합니다.
 
-최근 변경 사항의 목록은 다음을 참조하십시오. [Adobe Workfront Fusion 릴리스 활동](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+최근 모든 변경 사항의 목록은 [Adobe Workfront Fusion 릴리스 활동](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)을 참조하십시오.
 
-Workfront Fusion의 최근 버그 수정 목록은 다음을 참조하십시오. [Workfront 유지 보수 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) Workfront Fusion Maintenance Update로 레이블이 지정된 업데이트를 찾아 확인합니다.
+Workfront Fusion의 최근 버그 수정 목록을 보려면 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 페이지를 참조하고 Workfront Fusion 유지 관리 업데이트 레이블이 지정된 업데이트를 확인하십시오.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -55,7 +55,7 @@ Workfront Fusion의 최근 버그 수정 목록은 다음을 참조하십시오.
 
   이전에는 사용자가 입력한 수식으로만 날짜와 시간 차이를 계산할 수 있었습니다.
 
-  자세한 내용은 [Adobe Workfront Fusion의 날짜 및 시간 함수](../../../workfront-fusion/functions/date-and-time-functions.md).
+  자세한 내용은 [Adobe Workfront Fusion의 날짜 및 시간 함수](../../../workfront-fusion/functions/date-and-time-functions.md)를 참조하십시오.
 
 * 새로운 배열 함수: arrayDifference
 
@@ -64,4 +64,4 @@ Workfront Fusion의 최근 버그 수정 목록은 다음을 참조하십시오.
    * 다른 배열에 포함되지 않은 한 배열의 요소 배열
    * 한 배열 또는 다른 배열에 포함되어 있지만 둘 다 포함되지는 않는 요소의 배열입니다.
 
-  자세한 내용은 [Adobe Workfront Fusion의 배열 함수](../../../workfront-fusion/functions/array-functions.md).
+  자세한 내용은 [Adobe Workfront Fusion의 배열 함수](../../../workfront-fusion/functions/array-functions.md)를 참조하십시오.

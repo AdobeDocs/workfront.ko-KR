@@ -20,7 +20,7 @@ ht-degree: 0%
 
 이 문서에는 새로운 댓글 달기 환경에 대해 가장 일반적으로 묻는 질문 목록이 포함되어 있습니다.
 
-새 댓글 달기 환경에 대한 자세한 내용은 [새 댓글 달기 환경](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
+새 댓글 달기 경험에 대한 자세한 내용은 [새 댓글 달기 경험](../../betas/new-commenting-experience-beta/unified-commenting-experience.md)을 참조하세요.
 
 ## 이미지 외에 다른 파일 형식을 주석에 첨부할 수 있습니까?
 

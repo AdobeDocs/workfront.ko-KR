@@ -19,6 +19,6 @@ ht-degree: 0%
 
 다음을 참조하십시오.
 
-* [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md): 이 문서에서는 보고서를 처음부터 만드는 방법을 설명합니다.
-* [보고서 사본 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md): 이 문서에서는 보고서 사본을 만드는 방법을 설명합니다.
-* [텍스트 모드 개요](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md): 이 문서에는 텍스트 모드에 대한 정보가 포함되어 있으며, 이 모드에서는 표준 Report Builder로 보고서에 이미 추가한 정보를 향상시킬 수 있습니다.
+* [사용자 지정 보고서를 만듭니다](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md): 이 문서에서는 보고서를 처음부터 만드는 방법에 대해 설명합니다.
+* [보고서 복사본을 만듭니다](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md): 이 문서에서는 보고서 복사본을 만드는 방법에 대해 설명합니다.
+* [텍스트 모드 개요](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md): 이 문서에는 표준 Report Builder를 사용하여 보고서에 이미 추가한 정보를 개선할 수 있는 텍스트 모드에 대한 정보가 포함되어 있습니다.

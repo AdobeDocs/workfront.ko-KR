@@ -32,7 +32,7 @@ Webhook 기반 통합을 위한 사용자 경험은 Google Drive, Box 및 Dropbo
 
 **참조 구현**
 
-새 웹후크 구현의 개발을 바로 시작할 수 있도록 Workfront에서는 참조 구현의 예를 제공합니다. 이러한 예는 다음에서 찾을 수 있습니다. [https://github.com/Workfront/webhooks-app](https://github.com/Workfront/webhooks-app). 예제는 Java 기반이며 Workfront에서 네트워크 파일 시스템의 문서를 연결할 수 있도록 해줍니다. 
+새 웹후크 구현의 개발을 바로 시작할 수 있도록 Workfront에서는 참조 구현의 예를 제공합니다. 이러한 예제는 [https://github.com/Workfront/webhooks-app](https://github.com/Workfront/webhooks-app)에서 확인할 수 있습니다. 예제는 Java 기반이며 Workfront에서 네트워크 파일 시스템의 문서를 연결할 수 있도록 해줍니다. 
 
 >[!NOTE]
 >

@@ -42,9 +42,9 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-Workfront 플랜에 대한 자세한 내용은 [우리의 플랜](https://www.workfront.com/plans).
+Workfront 플랜에 대한 자세한 내용은 [플랜](https://www.workfront.com/plans)을 참조하세요.
 
-Workfront에서 업무 균형자 를 찾을 수 있는 위치에 대한 자세한 내용은 [업무 균형자 찾기](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+Workfront에서 업무 균형자를 찾을 수 있는 위치에 대한 자세한 내용은 [업무 균형자 찾기](../../resource-mgmt/workload-balancer/locate-workload-balancer.md)를 참조하십시오.
 
 ## 업무 균형자 보기에 필요한 액세스
 
@@ -61,13 +61,13 @@ Workfront에서 업무 균형자 를 찾을 수 있는 위치에 대한 자세�
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>리소스 관리에 대한 보기 이상의 액세스 권한</p> <p>리소스 관리 액세스 수준에 대한 자세한 내용은 문서 를 참조하십시오 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">리소스 관리에 대한 액세스 권한 부여</a>.</p> <p><b>메모</b>
+   <td> <p>리소스 관리에 대한 보기 이상의 액세스 권한</p> <p>리소스 관리 액세스 수준에 대한 자세한 내용은 문서 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">리소스 관리에 대한 액세스 권한 부여</a>를 참조하십시오.</p> <p><b>메모</b>
 
-여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td>
+여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>할당을 보려는 프로젝트에 대한 보기 권한이 있습니다. </p> <p>프로젝트 권한에 대한 자세한 내용은 문서 를 참조하십시오 <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Adobe Workfront에서 프로젝트 공유</a>.</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>할당을 보려는 프로젝트에 대한 보기 권한이 있습니다. </p> <p>프로젝트 권한에 대한 자세한 내용은 문서 <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Adobe Workfront에서 프로젝트 공유</a>를 참조하십시오.</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -91,14 +91,14 @@ Workfront에서 업무 균형자 를 찾을 수 있는 위치에 대한 자세�
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
    <td> <p>리소스 관리에 대한 액세스 편집</p> 
-     <p>리소스 관리 액세스 수준에 대한 자세한 내용은 문서 를 참조하십시오 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">리소스 관리에 대한 액세스 권한 부여</a>.</p>
+     <p>리소스 관리 액세스 수준에 대한 자세한 내용은 문서 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">리소스 관리에 대한 액세스 권한 부여</a>를 참조하십시오.</p>
      <p><b>메모</b>
 
-여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td>
+여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p> 할당할 프로젝트에 대해 할당할 권한이 포함된 상위 이상의 권한을 부여합니다. </p> <p>프로젝트 권한에 대한 자세한 내용은 문서 를 참조하십시오 <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Adobe Workfront에서 프로젝트 공유</a>.</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p> 할당할 프로젝트에 대한 Contribute 이상의 권한으로, 할당에 대한 권한이 포함되어 있습니다. </p> <p>프로젝트 권한에 대한 자세한 내용은 문서 <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Adobe Workfront에서 프로젝트 공유</a>를 참조하십시오.</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>

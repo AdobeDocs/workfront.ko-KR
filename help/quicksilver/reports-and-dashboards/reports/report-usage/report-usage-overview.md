@@ -10,7 +10,7 @@ recommendations: noDisplay, noCatalog
 exl-id: cacac66d-371a-42b0-891d-2e26bb4af326
 source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: '47'
 ht-degree: 0%
 
 ---
@@ -19,8 +19,8 @@ ht-degree: 0%
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [새로운 Workfront 경험을 위한 기본 보고서 만들기 프로그램](https://one.workfront.com/s/basic-report-creation-program)
+* [새 Workfront 환경을 위한 기본 보고서 만들기 프로그램](https://one.workfront.com/s/basic-report-creation-program)
 * [보고서 액세스 및 구성](../../../reports-and-dashboards/reports/report-usage/access-organize-reports.md)
 * [보고 활동에 대한 보고서 만들기](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md)
-* [대시보드에서 보고서를 구성하는 방법 이해](../../../reports-and-dashboards/reports/report-usage/understand-how-organize-reports-dashboard.md)
+* [대시보드에서 보고서를 구성하는 방법을 이해합니다](../../../reports-and-dashboards/reports/report-usage/understand-how-organize-reports-dashboard.md)
 * [보고서 사용 보기](../../../reports-and-dashboards/reports/report-usage/view-report-usage.md)

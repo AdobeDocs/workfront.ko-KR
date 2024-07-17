@@ -16,7 +16,7 @@ ht-degree: 0%
 
 이 페이지에서는 미리보기 환경에 대한 2024년 2분기 릴리스의 모든 관리자 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
-2024년 2분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [2024년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+2024년 2분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2024년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)를 참조하십시오.
 
 ## 이제 양식 디자이너 미리 보기 모드에서 표시 논리 및 건너뛰기 논리를 사용할 수 있습니다
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 이제 Beta 사용자 정의 양식 디자이너를 사용하여 미리보기 모드에서 디스플레이 논리를 테스트하고 논리를 건너뛸 수 있습니다. 이전에는 논리가 적용되어도 모든 필드가 미리보기에 표시되었습니다.
 
-양식 디자이너에서 사용자 정의 양식을 미리 보는 방법에 대한 자세한 내용은 [양식 디자이너를 사용하여 양식 구성 및 미리 보기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
+양식 디자이너에서 사용자 정의 양식을 미리 보는 방법에 대한 자세한 내용은 [양식 디자이너로 양식 구성 및 미리 보기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)를 참조하십시오.
 
 ## 이제 회사 및 사용자가 고급 사용자 정의 양식 필드를 지원합니다
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 이제 회사 또는 사용자에 사용자 정의 양식을 첨부할 때 외부 조회 필드 및 Workfront 기본 필드와 같은 고급 사용자 정의 양식 기능을 사용할 수 있습니다. 고급 기능은 회사 편집 및 사용자 편집 대화 상자가 아닌 회사 세부 정보 및 사용자 세부 정보 페이지에서 사용할 수 있습니다. 이러한 필드 유형을 사용하려면 새 양식 디자이너에서 사용자 정의 양식을 만들어야 합니다.
 
-사용자 정의 양식 필드에 대한 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+사용자 지정 양식 필드에 대한 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
 
 ## 이제 새로운 패키지 유형에 JumpSeat 통합을 사용할 수 있습니다.
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 이제 새로운 패키지 유형(예: Select, Prime 또는 Ultimate) 중 하나를 사용하는 계정에서 기존 JumpSeat 통합을 사용할 수 있습니다. 통합을 활성화하려면 여전히 활성 JumpSeat 구독이 있어야 합니다.
 
-JumpSeat 통합에 대한 자세한 내용은 [JumpSeat 통합 구성](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md).
+JumpSeat 통합에 대한 자세한 내용은 [JumpSeat 통합 구성](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)을 참조하십시오.
 
 ## Workfront 기본 필드는 양식 디자이너 베타에서 사용할 수 있습니다
 
@@ -64,7 +64,7 @@ JumpSeat 통합에 대한 자세한 내용은 [JumpSeat 통합 구성](/help/qui
 
 이 기능은 기존 양식 빌더가 아닌 양식 디자이너 Beta에서만 사용할 수 있습니다.
 
-자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
 
 [이 기능에 대한 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3427702/){target=_blank}
 
@@ -78,7 +78,7 @@ JumpSeat 통합에 대한 자세한 내용은 [JumpSeat 통합 구성](/help/qui
 
 이전에는 Adobe IMS에 아직 온보딩되지 않은 조직에서만 이 기능을 사용할 수 있었습니다.
 
-속성 매핑 구성에 대한 지침은 [Adobe 통합 경험의 사용자 속성 매핑](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) 이 문서에서 **사용자 속성 매핑 및 새 사용자 자동 프로비저닝**.
+특성 매핑 구성에 대한 지침은 **사용자 특성 매핑 및 새 사용자 자동 프로비저닝**&#x200B;의 [Adobe 통합 경험에서 사용자 특성 매핑](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience)을 참조하십시오.
 
 ## 이제 양식 디자이너 베타에서 건너뛰기 논리 및 표시 논리를 사용할 수 있습니다
 
@@ -90,4 +90,4 @@ JumpSeat 통합에 대한 자세한 내용은 [JumpSeat 통합 구성](/help/qui
 
 양식 디자이너 캔버스의 필드에 있는 아이콘은 해당 필드에 논리가 구성되었거나 필드가 다른 필드에 구성된 논리 규칙에 사용되었음을 나타냅니다.
 
-자세한 내용은 [양식 디자이너를 사용하여 표시 논리 및 건너뛰기 논리 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).
+자세한 내용은 [양식 디자이너를 사용하여 표시 논리 추가 및 건너뛰기 논리 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)를 참조하십시오.

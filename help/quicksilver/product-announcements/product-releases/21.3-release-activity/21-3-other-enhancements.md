@@ -17,7 +17,7 @@ ht-degree: 0%
 
 이 페이지에서는 미리보기 환경에 대한 21.3 릴리스의 기타 모든 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2021년 7월 21일이 있는 주에 프로덕션 환경에서 사용할 수 있습니다.
 
-21.3 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [21.3 릴리스 개요](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+21.3 릴리스에서 사용할 수 있는 모든 변경 사항 목록을 보려면 [21.3 릴리스 개요](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md)를 참조하십시오.
 
 ## 모바일 앱을 위한 홈 영역 재디자인
 
@@ -44,4 +44,4 @@ Adobe Workfront 모바일 앱의 홈 영역에 다음과 같은 개선 사항이
 
 이제 이벤트 구독 필터가 미리보기 환경에서 활성화됩니다. 이벤트 구독 필터링을 사용하여 관련 메시지만 받도록 할 수 있습니다. 구독에 대한 필터를 만들면 엔드포인트에서 사용해야 하는 메시지 수가 상당히 줄어들 수 있습니다.
 
-이벤트 구독에 대한 자세한 내용은 다음을 참조하십시오. [이벤트 구독 API](../../../wf-api/general/event-subs-api.md) 및 [FAQ - 이벤트 구독](../../../wf-api/general/event-subs-faq.md).
+이벤트 구독에 대한 자세한 내용은 [이벤트 구독 API](../../../wf-api/general/event-subs-api.md) 및 [FAQ - 이벤트 구독](../../../wf-api/general/event-subs-faq.md)을 참조하십시오.

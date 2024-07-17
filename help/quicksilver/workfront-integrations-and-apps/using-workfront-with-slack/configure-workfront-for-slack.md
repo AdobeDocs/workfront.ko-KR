@@ -1,30 +1,30 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: workfront-for-slack
-title: 구성 [!DNL Adobe Workfront] Slack
-description: 통합 [!DNL Adobe Workfront] 을(를) 통해 액세스 및 생성 가능 [!DNL Workfront] Slack의 작업 항목, 승인, 즐겨찾기, 최근 항목
+title: Slack에 대해  [!DNL Adobe Workfront] 구성
+description: ' [!DNL Adobe Workfront] Slack과 통합하여  [!DNL Workfront] 작업 항목, 승인, 즐겨찾기, 최근 항목 등을 Slack에서 액세스하고 만들 수 있습니다.'
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: cac75a81-26e8-4713-a6be-453943b431ab
 source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
 
-# Configure [!DNL Adobe Workfront for Slack]
+# [!DNL Adobe Workfront for Slack] 구성
 
-통합 [!DNL Adobe Workfront] with [!DNL Slack] 다음을 수행할 수 있습니다.
+[!DNL Adobe Workfront]을(를) [!DNL Slack]과(와) 통합하여 다음 작업을 수행할 수 있습니다.
 
-* 액세스 권한 [!DNL Workfront] 작업 항목, 승인, 즐겨찾기, 최근 항목 [!DNL Slack].
-* 가입, 승인, 작업 할당 대상 [!DNL Slack].
-* 작업 및 문제 만들기 [!DNL Slack].
-* 일부 수신 [!DNL Workfront] 알림 [!DNL Slack].
+* [!DNL Slack]에서 [!DNL Workfront] 작업 항목, 승인, 즐겨찾기, 최근 항목에 액세스합니다.
+* [!DNL Slack]에서 작업 구독, 승인, 할당
+* [!DNL Slack]에서 작업 및 문제를 만듭니다.
+* [!DNL Slack]에서 [!DNL Workfront]개의 알림을 받습니다.
 
-사용자의 [!DNL Slack] 환경은 구성되므로 설치 및 구성할 수 있습니다 [!DNL Workfront for Slack] 네 자신이나 [!DNL Workfront] 직접 구성하려면 먼저 관리자가 설치 및 구성해야 합니다.
+[!DNL Slack] 환경을 구성하는 방법에 따라 [!DNL Workfront for Slack]을(를) 직접 설치하고 구성할 수 있습니다. 또는 직접 구성하기 전에 [!DNL Workfront] 관리자가 먼저 설치하고 구성해야 합니다.
 
-를 통합할 때 [!DNL Slack] 인스턴스가 있는 인스턴스 [!DNL Workfront] 사용자는 [!DNL Workfront] 공유하면서 [!DNL Slack] 채널입니다. 통합은 모든 위치에서 사용할 수 있습니다 [!DNL Slack] 환경(다음을 포함) [!DNL Slack] 모바일 앱.
+[!DNL Slack] 인스턴스를 [!DNL Workfront] 사용자와 통합하면 사용자가 [!DNL Slack] 채널 내에서 공동 작업하는 동안 [!DNL Workfront]을(를) 사용할 수 있습니다. [!DNL Slack] 모바일 앱을 포함한 모든 [!DNL Slack] 환경에서 통합을 사용할 수 있습니다.
 
 ## 액세스 요구 사항
 
@@ -37,73 +37,73 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL [!DNL Adobe Workfront] 플랜]</a>*</td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL [!DNL Adobe Workfront] 계획]</a>*</td> 
    <td> <p>[!UICONTROL Pro] 이상</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;어떤 계획, 라이센스 유형 또는 액세스 권한을 보유하고 있는지 확인하려면 [!DNL Workfront] 관리자\
+&#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.\
 
-## 사용하기 위한 사전 요구 사항 [!DNL Workfront] with [!DNL Slack]
+## [!DNL Slack]에서 [!DNL Workfront]을(를) 사용하기 위한 필수 구성 요소
 
-* 다음을 수행해야 합니다. [!DNL Slack] 인스턴스.
-* 사용자 [!DNL Slack] 시스템 관리자는 모든 것을 허용해야 합니다. [!DNL Slack] 설치 사용자 [!DNL Workfront for Slack].
-* 다음을 수행해야 합니다. [!DNL Workfront] 의 통합 기능을 사용할 수 있는 라이선스 [!DNL Workfront].
+* [!DNL Slack] 인스턴스가 있어야 합니다.
+* [!DNL Slack] 시스템 관리자는 모든 [!DNL Slack] 사용자가 [!DNL Workfront for Slack]을(를) 설치하도록 허용해야 합니다.
+* [!DNL Workfront]의 통합 기능을 사용하려면 [!DNL Workfront] 라이선스가 있어야 합니다.
 
-   >[!NOTE]
-   >
-   >임의의 [!DNL Workfront] 라이센스 유형이 액세스 가능 [!DNL Workfront] 변환 전: [!DNL Slack]. 수행할 수 있는 작업 [!DNL Slack] 는 [!DNL Workfront] 라이선스 및 권한 수준.
+  >[!NOTE]
+  >
+  >[!DNL Workfront] 라이선스 유형의 사용자는 [!DNL Slack]에서 [!DNL Workfront]에 액세스할 수 있습니다. [!DNL Slack]에서 수행할 수 있는 작업은 [!DNL Workfront] 라이선스 및 권한 수준으로 제한됩니다.
 
-의 앱 관리에 대한 자세한 정보 [!DNL Slack]를 참조하십시오. [Analysis Workspace용 앱을 관리합니다.](https://get.slack.help/hc/en-us/articles/222386767-Manage-apps-for-your-workspace)
+[!DNL Slack]에서 앱을 관리하는 방법에 대한 자세한 내용은 [Workspace용 앱 관리](https://get.slack.help/hc/en-us/articles/222386767-Manage-apps-for-your-workspace)를 참조하십시오.
 
-## 설치 [!DNL Workfront for Slack]
+## [!DNL Workfront for Slack] 설치
 
-각 [!DNL Slack] 사용자가 설치 [!DNL Workfront] 사용하기 위해 앱 자체 [!DNL Workfront] 변환 전: [!DNL Slack].
+[!DNL Slack]에서 [!DNL Workfront]을(를) 사용하려면 각 [!DNL Slack] 사용자는 [!DNL Workfront] 앱 자체를 설치해야 합니다.
 
 다음과 같은 방법으로 앱을 설치할 수 있습니다.
 
-* [설치 [!DNL Workfront] 앱 외부 [!DNL Slack]](#install-the-workfront-app-outside-slack-install-the-workfront-app-outside-slack)
-* [설치 [!DNL Workfront] 앱 내 [!DNL Slack]](#install-the-workfront-app-within-slack-install-the-workfront-app-within-slack)
+* [ [!DNL Workfront] 외부 앱 설치 [!DNL Slack]](#install-the-workfront-app-outside-slack-install-the-workfront-app-outside-slack)
+* [ [!DNL Slack] 내에  [!DNL Workfront] 앱 설치](#install-the-workfront-app-within-slack-install-the-workfront-app-within-slack)
 
-### 설치 [!DNL Workfront] 앱 외부 [!DNL Slack] {#install-the-workfront-app-outside-slack}
+### [!DNL Slack] 외부에 [!DNL Workfront] 앱 설치 {#install-the-workfront-app-outside-slack}
 
-설치 프로세스를 실행하고 권한을 부여하려면 아래 단계를 따르십시오 [!DNL Workfront for Slack] 설정 [!DNL Slack] 인스턴스.
+설치 프로세스를 실행하고 [!DNL Slack] 인스턴스에서 [!DNL Workfront for Slack]을(를) 승인하려면 아래 단계를 따르십시오.
 
 >[!IMPORTANT]
 >
->새 버전의 [!DNL Workfront] Slack이 릴리스된 경우 앱을 계속 사용하려면 다시 인증해야 합니다.
+>Slack을 위한 [!DNL Workfront]의 새 버전이 출시되면 앱을 계속 사용하려면 앱을 다시 승인해야 합니다.
 
-1. 을(를) 찾습니다 [!DNL Adobe Workfront] 의 추가 기능 [[!DNL Slack] 스토어](https://workfront.slack.com/apps/A7CLAMVNW-adobe-workfront?tab=more_info).
+1. [[!DNL Slack] 스토어](https://workfront.slack.com/apps/A7CLAMVNW-adobe-workfront?tab=more_info)에서 [!DNL Adobe Workfront] 추가 기능을 찾습니다.
 
-1. 클릭 **[!UICONTROL 여는 위치[!DNL Slack]]**.
+1. [!DNL Slack]]**에서**[!UICONTROL &#x200B;열기를 클릭합니다.
 
-1. 을(를) 지정하여 작업 영역에 로그인합니다 [!DNL Slack] URL 및 클릭 **[!UICONTROL 계속]**.\
+1. [!DNL Slack] URL을 지정하고 **[!UICONTROL 계속]**&#x200B;을 클릭하여 작업 영역에 로그인합니다.\
 
-1. 다음 액세스 권한을 검사합니다. [!DNL Slack] 을 요청하는 중입니다. 이 액세스 권한에 동의하는 경우 **[!UICONTROL 액세스 허용]** 권한을 부여하려면 [!DNL Workfront] 앱.
+1. [!DNL Slack]이(가) 요청하는 액세스를 검사합니다. 이 액세스에 동의하면 **[!UICONTROL 액세스 허용]**&#x200B;을 클릭하여 [!DNL Workfront] 앱을 인증하세요.
 
-이제 액세스할 수 있습니다 [!DNL Workfront] 변환 전: [!DNL Slack]에 설명된 대로 [액세스 [!DNL Workfront] 변환 전: [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md#viewing-all-available-commands) section in [Access [!DNL Adobe Workfront] 변환 전: [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
+이제 [액세스 [!DNL Workfront] 출처 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md#viewing-all-available-commands) section in [Access [!DNL Adobe Workfront] 출처 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)에 설명된 대로 [!DNL Slack]에서 [!DNL Workfront]에 액세스할 수 있습니다.
 
-### 설치 [!DNL Workfront] 앱 내 [!DNL Slack] {#install-the-workfront-app-within-slack}
+### [!DNL Slack] 내에 [!DNL Workfront] 앱 설치 {#install-the-workfront-app-within-slack}
 
-을(를) 설치할 수 있습니다 [!DNL Workfront] 앱에서 바로 사용 [!DNL Slack] 애플리케이션:
+[!DNL Slack] 응용 프로그램에서 직접 [!DNL Workfront] 앱을 설치할 수 있습니다.
 
-1. 로 이동합니다. [!DNL Slack] URL.
+1. [!DNL Slack] URL로 이동합니다.
 
    예: *`<YourTeamName>`.slack.com/apps*.
 
    또는
 
-   을(를) 클릭합니다. **[!UICONTROL 앱 추가]** 아이콘 사용 [!DNL Slack] 인스턴스.
+   [!DNL Slack] 인스턴스에서 **[!UICONTROL 앱 추가]** 아이콘을 클릭합니다.
 
-1. 입력 시작 *[!DNL Workfront]* 검색 필드에서 을 클릭합니다.
+1. 검색 필드에 *[!DNL Workfront]*&#x200B;을(를) 입력하십시오.
 1. Enter 키를 누릅니다.
-1. 을(를) 선택합니다 **[!DNL Workfront]** 앱.
-1. 클릭 **[!UICONTROL 설정]**.
+1. **[!DNL Workfront]** 앱을 선택하십시오.
+1. **[!UICONTROL 설정]**&#x200B;을 클릭합니다.
 
-   앱 디렉토리 페이지가 표시됩니다.
+   [앱 디렉토리] 페이지가 표시됩니다.
 
-1. 클릭 **[!UICONTROL 앱 사이트 방문]**.
-1. 클릭 **[!UICONTROL 추가 대상[!DNL Slack]]**.
-1. 단계에 따라 설치를 완료합니다.
-1. 설치가 완료되면 [!DNL Workfront] 변환 전: [!DNL Slack]에 설명된 대로 [[!UICONTROL Access [!DNL Workfront] 변환 전: [!DNL Slack]]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md#viewing-all-available-commands) section in [Access [!DNL Adobe Workfront] 변환 전: [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
+1. **[!UICONTROL 앱 사이트 방문]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL [!DNL Slack]]**&#x200B;에 추가를 클릭합니다.
+1. 다음 단계에 따라 설치를 완료합니다.
+1. 설치가 완료되면 [[!UICONTROL 액세스 [!DNL Workfront] from [!DNL Slack]]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md#viewing-all-available-commands) section in [Access [!DNL Adobe Workfront] from [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)에 설명된 대로 [!DNL Slack]에서 [!DNL Workfront]에 액세스할 수 있습니다.

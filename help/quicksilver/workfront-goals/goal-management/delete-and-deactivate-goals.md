@@ -54,7 +54,7 @@ ht-degree: 0%
 <li>Select 또는 Prime Adobe Workfront 플랜 및 추가 Adobe Workfront Goals 라이선스.</li>
 <li>기본적으로 Workfront 목표를 포함하는 Ultimate Workfront 계획입니다. </li></ul>
  <p>또는</p>
- <p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표 사용 요구 사항</a>. </p> </td>
+ <p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표를 사용하기 위한 요구 사항</a>을 참조하십시오. </p> </td>
  </tr>
  <tr>
  <td role="rowheader"><p>액세스 수준</p></td>
@@ -66,7 +66,7 @@ ht-degree: 0%
   <div>
   <p>목표에 대한 또는 그 이상의 권한에 대한 보기</p>
   <p>편집할 목표에 대한 권한 관리</p>
-  <p>목표 공유에 대한 자세한 내용은 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront 목표에서 목표 공유</a>. </p>
+  <p>목표 공유에 대한 자세한 내용은 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront 목표에서 목표 공유</a>를 참조하십시오. </p>
   </div> </td>
  </tr>
  <tr>
@@ -77,27 +77,27 @@ ht-degree: 0%
 </tbody>
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## 목표 비활성화
 
 더 이상 관련성이 없고 나중에 다시 활성화할 수 있는 목표를 비활성화할 수 있습니다.
 
-* [목표를 비활성화할 때 고려 사항](#considerations-when-deactivating-goals)
+* [목표를 비활성화할 때의 고려 사항](#considerations-when-deactivating-goals)
 * [목표 비활성화](#deactivate-goals)
 
 ### 목표를 비활성화할 때 고려 사항
 
 목표를 비활성화할 때는 다음 사항을 기억하십시오.
 
-* 활성 상태의 목표만 비활성화할 수 있습니다. 목표 활성화에 대한 자세한 내용은 [Adobe Workfront 목표에서 목표 활성화](../../workfront-goals/goal-management/activate-goals.md).
+* 활성 상태의 목표만 비활성화할 수 있습니다. 목표 활성화에 대한 자세한 내용은 [Adobe Workfront 목표에서 목표 활성화](../../workfront-goals/goal-management/activate-goals.md)를 참조하십시오.
 
   >[!TIP]
   >
   >초안 상태에서는 목표를 비활성화할 수 없습니다.
 
 * Workfront이 비활성화된 목표의 진행 상황 계산을 중지합니다.
-* 비활성 목표는 더 이상 Workfront 목표의 그래프 섹션에 표시되거나 고려되지 않습니다. Workfront 목표 그래프에 대한 자세한 내용은 다음을 참조하십시오. [그래프를 검토하여 Adobe Workfront 목표의 목표 진행 트렌드를 파악합니다](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
+* 비활성 목표는 더 이상 Workfront 목표의 그래프 섹션에 표시되거나 고려되지 않습니다. Workfront 목표 그래프에 대한 자세한 내용은 [Adobe Workfront 목표의 목표 진행 트렌드를 이해하려면 그래프 검토](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md)를 참조하십시오.
 
   <!--* The Check-in section. For information about the Check-in page, see [Update goal progress in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md). -->
 
@@ -132,7 +132,7 @@ Deactivating goals differs depending on which environment you use.
 1. Click the **X** icon in the upper-right to close Goal Details.
 -->
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) 오른쪽 상단에서 을(를) 클릭한 다음 **목표**.
+1. 오른쪽 상단의 **주 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **목표**&#x200B;를 클릭합니다.
 
    목표 목록이 표시됩니다.
 
@@ -141,7 +141,7 @@ Deactivating goals differs depending on which environment you use.
 
 1. (선택 사항) 활성 상태인 목표만 표시하도록 필터를 수정합니다.
 
-   Workfront 목표의 필터링 정보에 대한 자세한 내용은 다음을 참조하십시오. [Adobe Workfront 목표의 정보 필터링](../goal-management/filter-information-wf-goals.md).
+   Workfront 목표의 정보 필터링에 대한 자세한 내용은 [Adobe Workfront 목표의 정보 필터링](../goal-management/filter-information-wf-goals.md)을 참조하십시오.
 
 1. 활성 목표를 클릭합니다.
 
@@ -149,7 +149,7 @@ Deactivating goals differs depending on which environment you use.
 
    ![](assets/goal-page-unshimmed.png)
 
-1. 다음을 클릭합니다. **자세히** 메뉴 ![](assets/more-icon.png) 목표 이름의 오른쪽에 있는 을(를) 클릭합니다. **비활성화**.
+1. 목표 이름 오른쪽에 있는 **자세히** 메뉴 ![](assets/more-icon.png)을(를) 클릭한 다음 **비활성화**&#x200B;를 클릭합니다.
 
 1. 목표가 비활성화되고 상태는 비활성으로 설정됩니다.
 
@@ -157,7 +157,7 @@ Deactivating goals differs depending on which environment you use.
 
 더 이상 관련이 없거나 없을 수 있는 목표를 삭제할 수 있습니다.
 
-* [목표 삭제 시 고려 사항](#considerations-when-deleting-goals)
+* [목표를 삭제할 때 고려 사항](#considerations-when-deleting-goals)
 * [목표 삭제](#delete-goals)
 
 ### 목표 삭제 시 고려 사항 {#considerations-when-deleting-goals}
@@ -189,14 +189,14 @@ Deleting  goals differs depending on which environment you use.
    The goal is removed from the Goal List and cannot be recovered.
 -->
 
-1. 메인 메뉴 아이콘 클릭 ![](assets/main-menu-icon.png) 오른쪽 상단에서 을(를) 클릭한 다음 **목표**.
+1. 오른쪽 상단의 기본 메뉴 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **목표**&#x200B;를 클릭합니다.
 
    목표 목록이 표시됩니다.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 1. 목표의 이름을 클릭합니다. 목표 페이지가 열립니다.
-1. 다음을 클릭합니다. **자세히** 메뉴 ![](assets/more-icon.png) 목표 이름의 오른쪽에 있는 을(를) 클릭합니다. **목표 삭제**, 그런 다음 **삭제**.
+1. 목표 이름의 오른쪽에 있는 **자세히** 메뉴 ![](assets/more-icon.png)을(를) 클릭한 다음 **목표 삭제**, **삭제**&#x200B;를 클릭합니다.
 
    목표와 그 활동 및 결과도 삭제되며 복구할 수 없습니다. 목표 또는 하위 목표와 연관된 프로젝트는 삭제되지 않습니다.
 

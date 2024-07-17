@@ -17,7 +17,7 @@ ht-degree: 0%
 
 이 페이지에서는 미리보기 환경에 대한 23.2 릴리스의 기타 모든 개선 사항에 대해 설명합니다. 이러한 개선 사항은 프로덕션 환경에서 23.2 릴리스를 통해 제공될 예정입니다.
 
-23.2 릴리스 주기 내에서 이 시점에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [23.2 릴리스 개요](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+23.2 릴리스 주기 동안 현재 사용 가능한 모든 변경 사항 목록을 보려면 [23.2 릴리스 개요](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)를 참조하십시오.
 
 ## Creative Cloud 플러그인을 위한 Workfront의 새로운 기능
 
@@ -26,7 +26,7 @@ Creative Cloud 플러그인용 Workfront에 다음과 같은 변경 사항을 �
 * 이제 플러그인이 작업에 전임 작업이 있는 경우 알림을 보냅니다.
 * 한국어는 이제 지원되는 언어입니다
 
-## 문제에 대한 새로운 댓글 달기 경험 Beta
+## 문제에 대한 새로운 주석 달기 경험 Beta
 
 Adobe Workfront의 댓글 달기 환경에 대한 업데이트가 현재 개발 중입니다. 이 업데이트에는 일부 개체의 업데이트 섹션에 새로운 인터페이스, 새로운 기능 및 향상된 성능이 포함되어 있습니다.
 
@@ -50,7 +50,7 @@ Adobe Workfront의 댓글 달기 환경에 대한 업데이트가 현재 개발 
 
 이러한 개선 사항은 다른 오브젝트에 계속 추가되므로 향후 릴리스에 더 많은 기능이 추가됩니다.
 
-새 댓글 달기 경험이 제공하는 기능에 대한 자세한 내용은 [새 댓글 달기 환경](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
+새 댓글 달기 환경에서 제공하는 기능에 대한 자세한 내용은 [새 댓글 달기 환경](../../betas/new-commenting-experience-beta/unified-commenting-experience.md)을 참조하세요.
 
 [이 기능에 대한 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3416962/){target=_blank}
 
@@ -60,8 +60,8 @@ Adobe Workfront의 댓글 달기 환경에 대한 업데이트가 현재 개발 
 
 자세한 내용은 다음 문서를 참조하십시오.
 
-* [업로드 [!DNL XD] 문서로서의 아트 보드 [!DNL Workfront]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
-* [업로드 [!DNL XD] 에 대한 증명으로서의 아트 보드 [!DNL Workfront]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-proofs.md)
+* [ [!DNL XD] 아트 게시판을 문서로  [!DNL Workfront]에 업로드](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
+* [ [!DNL XD] 아트 게시판을 증명으로  [!DNL Workfront]에 업로드](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-proofs.md)
 
 ## 완전히 새로운 고객은 통합 경험 Adobe에 온보딩됩니다
 
@@ -75,7 +75,7 @@ Adobe Workfront의 댓글 달기 환경에 대한 업데이트가 현재 개발 
 * Workfront 조직과 환경 사이를 이동하는 &quot;조직 전환기&quot;
 * Workfront 페이지, Adobe Experience Cloud 환경 설정 및 Workfront 프로필에 대한 옵션을 사용하여 탐색
 
-자세한 내용은 [Workfront용 통합 경험 Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+자세한 내용은 [Workfront용 통합 경험 Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)를 참조하십시오.
 
 [이 기능에 대한 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3412388/){target=_blank}
 

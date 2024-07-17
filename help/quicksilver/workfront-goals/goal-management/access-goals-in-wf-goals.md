@@ -45,7 +45,7 @@ ht-degree: 1%
    <td> 
    <p>새 라이선스: 기여자 이상</p>
    또는
-   <p>현재 라이선스: 요청 이상</p> <p>자세한 내용은 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront 라이선스 개요</a>.</p> </td> 
+   <p>현재 라이선스: 요청 이상</p> <p>자세한 내용은 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront 라이선스 개요</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr>
  <td role="rowheader">제품*</td>
@@ -55,7 +55,7 @@ ht-degree: 1%
 <li>Select 또는 Prime Adobe Workfront 플랜 및 추가 Adobe Workfront Goals 라이선스.</li>
 <li>기본적으로 Workfront 목표를 포함하는 Ultimate Workfront 계획입니다. </li></ul>
  <p>또는</p>
- <p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표 사용 요구 사항</a>. </p> </td>
+ <p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표를 사용하기 위한 요구 사항</a>을 참조하십시오. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">액세스 수준</td>
@@ -71,7 +71,7 @@ ht-degree: 1%
     <div> 
      <p>목표에 대한 또는 그 이상의 권한에 대한 보기</p> 
      <p>편집할 목표에 대한 권한 관리</p> 
-     <p>목표 공유에 대한 자세한 내용은 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront 목표에서 목표 공유</a>. </p> 
+     <p>목표 공유에 대한 자세한 내용은 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront 목표에서 목표 공유</a>를 참조하십시오. </p> 
     </div> </td> 
   </tr> 
   <tr>
@@ -82,11 +82,11 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## Workfront 목표 액세스
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) 오른쪽 상단에서 을(를) 클릭한 다음 **목표**.
+1. 오른쪽 상단의 **주 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **목표**&#x200B;를 클릭합니다.
 
    <!-- drafted for Shell release: Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -106,9 +106,9 @@ ht-degree: 1%
 
    또는
 
-   클릭 **새 목표** 을 클릭하여 새 목표를 추가합니다.
+   새 목표를 추가하려면 **새 목표**&#x200B;를 클릭하십시오.
 
-   목표 작성에 대한 자세한 내용은 [Adobe Workfront 목표에서 목표 만들기](../../workfront-goals/goal-management/create-goals.md).
+   목표 만들기에 대한 자세한 내용은 [Adobe Workfront 목표에서 목표 만들기](../../workfront-goals/goal-management/create-goals.md)를 참조하십시오.
 
 ## 개별 목표 열기 및 관리
 
@@ -154,13 +154,13 @@ To access an individual goal in the Production environment:
 
 개별 목표에 액세스하려면 다음 작업을 수행하십시오.
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘을 클릭한 다음 Workfront 오른쪽 위 모서리에 있는 **목표** .
+1. Workfront의 오른쪽 위 모서리에 있는 **기본 메뉴** 아이콘을 클릭한 다음 **목표** 를 클릭합니다.
 기본적으로 목표 목록이 표시됩니다.
    ![](assets/goal-list-unshimmed.png)
 1. 목록에서 목표의 이름을 클릭합니다.
 목표의 페이지가 표시됩니다.
    ![](assets/goal-page-unshimmed.png)
-1. 다음을 클릭합니다. **자세히** 메뉴 ![](assets/more-icon.png) 목표를 추가 편집하거나 공유하려면 목표 이름 오른쪽에 있어야 합니다.
-1. 클릭 **목표 세부 정보** 왼쪽 패널에서 목표에 대한 정보를 편집할 수 있습니다. 자세한 내용은 [Adobe Workfront 목표의 목표 세부 사항 섹션에서 목표 업데이트](../goal-management/update-goals-in-goal-details-panel.md).
+1. 목표를 추가로 편집하거나 공유하려면 목표 이름 오른쪽에 있는 **자세히** 메뉴 ![](assets/more-icon.png)을(를) 클릭하십시오.
+1. 목표에 대한 정보를 편집하려면 왼쪽 패널의 **목표 세부 정보**&#x200B;를 클릭하십시오. 자세한 내용은 [Adobe Workfront 목표의 목표 세부 정보 섹션에서 목표 업데이트](../goal-management/update-goals-in-goal-details-panel.md)를 참조하십시오.
 
 

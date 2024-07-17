@@ -30,11 +30,11 @@ Adobe Workfront 관리자는 시스템 수준에서 타임시트 및 시간 환�
 
 * 삭제된 프로젝트, 작업 및 문제
 
-Workfront 관리자가 타임시트 및 시간 환경 설정을 잠금 해제하는 방법에 대한 자세한 내용은 섹션을 참조하십시오 [그룹에 대한 타임시트 및 시간 환경 설정 잠금 해제](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) 이 문서에서 [타임시트 및 시간 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Workfront 관리자가 타임시트 및 시간 환경 설정을 잠금 해제하는 방법에 대한 자세한 내용은 문서 [타임시트 및 시간 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)의 [그룹에 대한 타임시트 및 시간 환경 설정 잠금 해제](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) 섹션을 참조하십시오.
 
 >[!TIP]
 >
->프로젝트 환경 설정, 작업 및 문제 환경 설정에 대해서도 그룹 수준 구성이 가능합니다. 자세한 내용은 [그룹에 대한 프로젝트 환경 설정 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) 및 [그룹에 대한 작업 및 문제 환경 설정 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+>프로젝트 환경 설정, 작업 및 문제 환경 설정에 대해서도 그룹 수준 구성이 가능합니다. 자세한 내용은 [그룹에 대한 프로젝트 환경 설정 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) 및 [그룹에 대한 작업 및 문제 환경 설정 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)을 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -52,7 +52,7 @@ Workfront 관리자가 타임시트 및 시간 환경 설정을 잠금 해제하
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>플랜 </p> <p>그룹의 그룹 관리자 또는 Workfront 관리자여야 합니다. 자세한 내용은 <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">그룹 관리자</a> 및 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">사용자에게 전체 관리 액세스 권한 부여</a>.</p> </td> 
+   <td> <p>플랜 </p> <p>그룹의 그룹 관리자 또는 Workfront 관리자여야 합니다. 자세한 내용은 <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">그룹 관리자</a> 및 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">사용자에게 전체 관리 액세스 권한 부여</a>를 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -73,7 +73,7 @@ Workfront 관리자가 타임시트 및 시간 환경 설정을 잠금 해제하
   Add example here?
   -->
 
-* Workfront 관리자가 시스템 수준에서 환경 설정을 잠금 해제하고 그룹에 대해 구성한 후에는 그룹의 모든 사용자가 동일한 구성을 사용하도록 잠글 수 있습니다. 이는 Workfront 관리자가 시스템 내의 모든 사용자에 대한 환경 설정을 구성하고 잠그는 기능과 병행됩니다. 자세한 내용은 [그룹 타임시트 및 시간 환경 설정 잠금 또는 잠금 해제](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md).
+* Workfront 관리자가 시스템 수준에서 환경 설정을 잠금 해제하고 그룹에 대해 구성한 후에는 그룹의 모든 사용자가 동일한 구성을 사용하도록 잠글 수 있습니다. 이는 Workfront 관리자가 시스템 내의 모든 사용자에 대한 환경 설정을 구성하고 잠그는 기능과 병행됩니다. 자세한 내용은 [그룹 타임시트 및 시간 환경 설정 잠금 또는 잠금 해제](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md)를 참조하십시오.
 
 ## 그룹에 대해 잠금 해제된 타임시트 또는 시간 환경 설정 구성
 
@@ -81,14 +81,14 @@ Workfront 관리자가 타임시트 및 시간 환경 설정을 잠금 해제하
 >
 >Workfront 관리자인 경우 설정 > 타임시트 및 시간 > 환경 설정으로 이동한 다음 페이지 상단에 있는 상자에서 그룹 이름을 검색하여 1-4단계를 건너뛸 수 있습니다.
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 상단에서 을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png).
+1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
 
-1. 왼쪽 패널에서 **그룹** ![](assets/groups-icon.png).
+1. 왼쪽 패널에서 **그룹** ![](assets/groups-icon.png)을(를) 클릭합니다.
 
 1. 타임시트 또는 시간 환경 설정을 구성할 그룹의 이름을 클릭합니다.
-1. 왼쪽 패널에서 **타임시트 및 시간**.
+1. 왼쪽 패널에서 **타임시트 및 시간**&#x200B;을 클릭합니다.
 
-1. 을 표시하는 페이지에서 **일반 환경 설정** 섹션에서 다음 옵션 중 하나를 구성합니다.
+1. 표시되는 페이지에서 **일반 환경 설정** 섹션에서 다음 옵션을 구성합니다.
 
    >[!TIP]
    >
@@ -106,7 +106,7 @@ Workfront 관리자가 타임시트 및 시간 환경 설정을 잠금 해제하
        <li>일반 시간으로서의 타임시트</li>
        </ul> 
        <p>이 기능은 사용자가 사무실을 비울 예정이고 해당 시간을 미리 기록하려는 경우 유용합니다.</p> 
-       <p><b>참고</b>: 사용자가 종료 또는 취소된 작업 또는 문제에 시간을 기록하는 것을 방지할 수 없습니다. 사용자가 완료 또는 중단된 프로젝트에 시간을 기록하지 못하도록 할 수만 있습니다. 작업 및 문제 목록에서 필터를 사용하여 완료되거나 취소된 작업을 사용자가 볼 수 없도록 제외하는 것이 좋습니다.</p> </td> 
+       <p><b>참고</b>: 사용자가 닫히거나 취소한 작업 또는 문제에 시간을 기록하지 못하도록 할 수 없습니다. 사용자가 완료 또는 중단된 프로젝트에 시간을 기록하지 못하도록 할 수만 있습니다. 작업 및 문제 목록에서 필터를 사용하여 완료되거나 취소된 작업을 사용자가 볼 수 없도록 제외하는 것이 좋습니다.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">타임시트의 경비 추가</td> 
@@ -116,7 +116,7 @@ Workfront 관리자가 타임시트 및 시간 환경 설정을 잠금 해제하
      </tr> 
      <tr> 
       <td role="rowheader">시간 항목에 수동으로 작업 역할 할당</td> 
-      <td> <p>사용자가 사용자 프로필에 할당되거나 객체에 할당된 작업 역할을 수동으로 선택할 수 있습니다.</p> <p><b>중요 사항</b>:  
+      <td> <p>사용자가 사용자 프로필에 할당되거나 객체에 할당된 작업 역할을 수동으로 선택할 수 있습니다.</p> <p><b>중요</b>:  
         <ul> 
          <li>작업 역할을 시간 항목에 할당한 후 이 설정을 사용하지 않으면 사용자는 프로젝트, 작업 또는 문제의 시간 탭에서 다양한 역할에 기록된 시간을 조정해야 합니다.</li> 
          <li>사용자의 프로필에 작업 역할이 할당되어 있지 않고 고급 할당 대화 상자에 작업 소유자로 할당된 작업이 있는 경우 사용자가 작업에 시간을 기록할 때 해당 작업 역할이 표시됩니다.</li> 
@@ -138,7 +138,7 @@ Workfront 관리자가 타임시트 및 시간 환경 설정을 잠금 해제하
     </tbody> 
    </table>
 
-1. 다음에서 **사용자가 시간을 기록할 수 있는 위치** 섹션에서 다음 옵션 중 하나를 구성합니다.
+1. **사용자가 시간을 기록할 수 있는 위치** 섹션에서 다음 옵션을 구성합니다.
 
    <table style="table-layout:auto">
     <col>
@@ -163,14 +163,14 @@ Workfront 관리자가 타임시트 및 시간 환경 설정을 잠금 해제하
    >
    >이 환경 설정은 사용자의 홈 그룹 환경 설정 구성을 기반으로 적용됩니다. 이러한 설정을 사용자의 홈 그룹 환경 설정에서 활성화하면 프로젝트의 그룹 환경 설정에서 허용하는지 여부에 관계없이 완료된 프로젝트나 중단된 프로젝트를 포함하여 프로젝트에 직접 시간을 기록할 수 있습니다.
 
-1. 다음에서 **타임시트 미리 채우기** 섹션에서 다음 옵션 중 하나를 구성합니다.
+1. **타임시트 미리 채우기** 섹션에서 다음 옵션을 구성합니다.
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">내에 있는 작업 &lt;number of="" weeks=""&gt; 타임시트의 작업 범위 중</td> 
+      <td role="rowheader">타임시트의 작업 범위 &lt;주 수&gt; 내에 있는 작업</td> 
       <td> <p>사용자에게 할당된 작업 및 문제의 날짜가 포함된 타임시트의 날짜 범위 전후 주 수를 정의합니다. 기본 설정은 1주이며 이 범위를 4주로 확장할 수 있습니다. 즉, 범위에 대해 4주를 선택하는 경우, 타임시트의 일자 범위 전 4주부터 타임시트의 일자 범위 후 4주까지의 일자 범위가 있는 작업 및 문제로 타임시트가 미리 채워집니다. </p> </td> 
      </tr> 
      <tr> 

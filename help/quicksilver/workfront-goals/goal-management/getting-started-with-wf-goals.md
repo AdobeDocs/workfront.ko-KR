@@ -22,7 +22,7 @@ ht-degree: 1%
 
      또는
 
-     Prime 또는 Select Adobe Workfront 플랜에 대한 Adobe Workfront Goals에 대한 추가 라이센스입니다. 자세한 내용은 [Adobe Workfront 플랜](https://www.workfront.com/plans).
+     Prime 또는 Select Adobe Workfront 플랜에 대한 Adobe Workfront Goals에 대한 추가 라이센스입니다. 자세한 내용은 [Adobe Workfront 계획](https://www.workfront.com/plans)을 참조하세요.
 
 * 현재 플랜 및 라이선스 구조의 경우:
 
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 Workfront Goals 라이선스에 대한 자세한 내용은 Workfront 계정 관리자에게 문의하십시오.
 
-Workfront 목표 액세스에 대한 자세한 내용은 을 참조하십시오. [Workfront 목표 사용 요구 사항](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+Workfront 목표에 액세스하는 방법에 대한 자세한 내용은 [Workfront 목표 사용 요구 사항](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)을 참조하십시오.
 
 모든 조직은 팀이 생산적이고 집중적이며 참여할 수 있도록 명확한 목표를 설정하고 전달해야 합니다. 일이 전략과 어떻게 연계되어 있는지를 진정으로 아는 것이 성공의 핵심이다. 그러나 전략과 목표를 조직 내 작업과 연결하는 기록 시스템이 없다면 정렬을 달성하는 것은 매우 어려울 수 있습니다.
 
@@ -40,7 +40,7 @@ Workfront 목표는 전략을 작업 실행 및 전달에 연결하여 전략을
 
 Workfront 목표 는 핵심 Workfront 작업 관리 플랫폼을 위한 추가 기능 모듈입니다. Workfront 플랫폼과 함께 작동하며 사용자, 팀, 그룹 및 프로젝트와 같은 많은 플랫폼 설정 및 구성 엔티티를 활용합니다.
 
-Workfront 목표에 대한 자세한 내용은 다음을 참조하십시오. [Adobe Workfront 목표 개요](../../workfront-goals/goal-management/wf-goals-overview.md).
+Workfront 목표에 대한 자세한 내용은 [Adobe Workfront 목표 개요](../../workfront-goals/goal-management/wf-goals-overview.md)를 참조하십시오.
 
 ## 조직의 비전과 전략을 수립합니다.
 
@@ -134,11 +134,11 @@ Workfront 목표에 대한 자세한 내용은 다음을 참조하십시오. [Ad
 >
 >주요 소유자를 식별할 때 개인 개발 목표가 아닌 기업 성과에 대한 전략적 목표를 설정하고 있음을 고려하십시오.
 
-Workfront 목표에 대한 액세스 구성에 대한 자세한 내용은 다음을 참조하십시오. [Workfront 목표 사용 요구 사항](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+Workfront 목표에 대한 액세스 구성에 대한 자세한 내용은 [Workfront 목표 사용 요구 사항](../../workfront-goals/goal-management/access-needed-for-wf-goals.md)을 참조하십시오.
 
 ## Workfront 목표 개체
 
-아래 표에서는 Workfront 목표 객체에 대해 설명합니다. 레이아웃 템플릿을 수정하고 사용자, 팀 또는 그룹에 할당하여 이름을 사용자 지정할 수 있습니다. 레이아웃 템플릿을 사용하여 개체 이름을 사용자 정의하는 방법에 대한 자세한 내용은 [레이아웃 템플릿을 사용하여 사용자 인터페이스 용어 맞춤화](../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).
+아래 표에서는 Workfront 목표 객체에 대해 설명합니다. 레이아웃 템플릿을 수정하고 사용자, 팀 또는 그룹에 할당하여 이름을 사용자 지정할 수 있습니다. 레이아웃 템플릿을 사용하여 개체 이름을 사용자 지정하는 방법에 대한 자세한 내용은 [레이아웃 템플릿을 사용하여 사용자 인터페이스 용어 사용자 지정](../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)을 참조하십시오.
 
 Workfront 목표에서는 다음 기본 개체를 사용합니다.
 

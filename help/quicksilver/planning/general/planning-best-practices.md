@@ -26,13 +26,13 @@ ht-degree: 0%
 
 Workfront Planning 모듈은 서로 다르지만 연결되어 있는 세 가지 Workfront 기능 중 하나로, 함께 기록 마케팅 시스템을 만듭니다. 세 가지 기능은 다음과 같습니다.
 
-* **계획 수립**: Workfront Planning에 포함된 새로운 고급 기능.
+* **계획**: Workfront 계획에 포함된 새로운 고급 기능입니다.
 
 * **워크플로**: 현재 Workfront에서 사용하는 공동 작업 관리 기능(프로젝트 관리, 리소스 관리 등)
 
-* **자동화 및 통합**: Workfront Fusion에서 제공하는 포괄적인 통합 및 자동화 기능
+* **자동화 및 통합**: Workfront Fusion에서 제공하는 포괄적인 통합 및 자동화 기능입니다.
 
-Workfront Planning은 사용자 정의가 용이합니다. Workfront Planning 용어 및 주요 개념에 대한 자세한 내용은 [Adobe Workfront Planning 개요](/help/quicksilver/planning/general/planning-overview.md).
+Workfront Planning은 사용자 정의가 용이합니다. Workfront Planning 용어 및 주요 개념에 대한 자세한 내용은 [Adobe Workfront Planning 개요](/help/quicksilver/planning/general/planning-overview.md)를 참조하십시오.
 
 ## Workfront Planning을 설정하기 전에 해야 할 질문
 
@@ -48,13 +48,13 @@ Planning을 설정할 때 자문할 수 있는 질문은 다음과 같습니다.
   >
   >    하나의 Workfront 인스턴스에 1,000개의 작업 공간이 있을 수 있습니다.
 
-* **각 작업 영역에서 어떤 사용자 정의 레코드 유형을 만들어야 합니까?**
+* **각 작업 영역에서 어떤 사용자 지정 레코드 유형을 만들어야 합니까?**
 
   레코드 유형은 Workfront의 오브젝트 유형과 같습니다. 워크플로우에 대해 생각하고 어떤 레코드 유형(작업 오브젝트, 사람 오브젝트, 분류 등)을 결정하십시오. 각 워크플로우에는 다음이 필요할 수 있습니다.
 
-  자세한 내용은 [레코드 유형 만들기](/help/quicksilver/planning/architecture/create-record-types.md)
+  자세한 내용은 [레코드 종류 만들기](/help/quicksilver/planning/architecture/create-record-types.md)를 참조하세요.
 
-* **레코드를 만들려면 어떻게 해야 합니까? Planning에 추가해야 하는 레코드가 이미 포함된 외부 목록 또는 스프레드시트가 사용 가능합니까? 필요에 따라 레코드가 점차적으로 추가됩니까? 또는 Fusion 또는 사용자 지정 API 통합을 사용하여 가져오시겠습니까?**
+* **어떻게 레코드를 만들 수 있습니까? Planning에 추가해야 하는 레코드가 이미 포함된 외부 목록 또는 스프레드시트가 사용 가능합니까? 필요에 따라 레코드가 점차적으로 추가됩니까? 또는 Fusion 또는 사용자 지정 API 통합을 사용하여 가져오시겠습니까?**
 
   자세한 내용은 다음을 참조하십시오.
 
@@ -63,15 +63,15 @@ Planning을 설정할 때 자문할 수 있는 질문은 다음과 같습니다.
 
 * **레코드에 대해 어떤 필드를 만들어야 합니까?**
 
-  자세한 내용은 [필드 만들기](/help/quicksilver/planning/fields/create-fields.md).
+  자세한 내용은 [필드 만들기](/help/quicksilver/planning/fields/create-fields.md)를 참조하십시오.
 
-* **종속성을 표시하고 조직을 위한 원활한 워크플로를 만들기 위해 Workfront Planning 레코드 유형에 연결하는 데 필요한 Workfront 또는 AEM Assets 개체 유형은 무엇입니까?**
+* **종속성을 표시하고 조직에 대한 원활한 워크플로를 만들기 위해 Workfront Planning 레코드 유형에 연결하는 데 필요한 Workfront 또는 AEM Assets 개체 유형은 무엇입니까?**
 
-  자세한 내용은 [레코드 유형 연결](/help/quicksilver/planning/architecture/connect-record-types.md)
+  자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
 
-* **캠페인 스토리를 전달하는 데 필요한 마케팅 캘린더 및 보기는 무엇입니까? 그리고 원활한 협업을 위해 이러한 견해를 이용할 수 있는 이해 당사자는 무엇입니까?**
+* **캠페인 스토리를 전달하는 데 필요한 마케팅 일정 및 보기는 무엇입니까? 원활한 공동 작업을 위해 이러한 보기를 사용할 수 있는 이해 당사자는 무엇입니까?**
 
-  자세한 내용은 [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md).
+  자세한 내용은 [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md)를 참조하십시오.
 
 
 ## Workfront 계획 모범 사례
@@ -149,7 +149,7 @@ Planning을 설정할 때 자문할 수 있는 질문은 다음과 같습니다.
 
 &quot;캠페인&quot;과 같이 단일 구문 또는 명사를 나타내는 레코드 유형을 만들고 레이블을 지정합니다.
 
-:no_entry_sign: 보기 레이어로 더 잘 표현되는 레코드 유형은 만들지 마십시오. 예를 들어 &quot;달력&quot;은 레코드 유형 자체가 아니라 레코드 보기이므로 레코드 유형에는 적합하지 않습니다.
+:no_entry_sign: 보기 레이어로 더 잘 표시되는 레코드 형식을 만들지 마십시오. 예를 들어 &quot;달력&quot;은 레코드 형식 자체가 아니라 레코드 보기이므로 레코드 형식에 적합하지 않습니다.
 
 ### 몇 개의 계층 구조를 만들어야 합니까?
 

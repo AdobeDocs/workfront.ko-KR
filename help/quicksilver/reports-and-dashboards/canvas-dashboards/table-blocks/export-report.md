@@ -22,12 +22,12 @@ ht-degree: 2%
 
 ## 전제 조건
 
-시작하기 전에 보고 캔버스 베타에 등록해야 합니다. 자세한 내용은 [보고 캔버스 Beta: 개요](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+시작하기 전에 보고 캔버스 베타에 등록해야 합니다. 자세한 내용은 [보고 캔버스 베타: 개요](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)를 참조하십시오.
 
 ## 보고서 내보내기
 
 1. 내보낼 보고서로 이동합니다.
-1. 보고서 헤더에서 **자세히** 아이콘 ![](assets/more-icon-27x15.png), 클릭 **내보내기**&#x200B;을 클릭한 후 만들려는 파일 형식을 선택합니다.
+1. 보고서 헤더에서 **자세히** 아이콘 ![](assets/more-icon-27x15.png)을 클릭하고 **내보내기**&#x200B;를 클릭한 다음 만들 파일 형식을 선택합니다.
 
    >[!NOTE]
    >

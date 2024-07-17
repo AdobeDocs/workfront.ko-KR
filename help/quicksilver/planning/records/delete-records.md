@@ -65,13 +65,13 @@ Adobe Workfront Planning에서 더 이상 관련이 없는 레코드를 삭제�
 
 <tr>
    <td role="rowheader"><p>권한</p></td>
-   <td> <p>작업 영역에 대한 상위 권한 기여</a> </p>  
+   <td> <p>작업 영역에 대한 Contribute 이상의 권한</a> </p>  
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p>
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>레이아웃 템플릿</p></td>
-   <td> <p>Workfront 또는 그룹 관리자는 레이아웃 템플릿에 계획 영역을 추가해야 합니다. 자세한 내용은 <a href="/help/quicksilver/planning/access/access-overview.md">액세스 개요</a>. </p>  
+   <td> <p>Workfront 또는 그룹 관리자는 레이아웃 템플릿에 계획 영역을 추가해야 합니다. 자세한 내용은 <a href="/help/quicksilver/planning/access/access-overview.md">액세스 개요</a>를 참조하십시오. </p>  
 </td>
   </tr>
 
@@ -97,7 +97,7 @@ Adobe Workfront Planning에서 더 이상 관련이 없는 레코드를 삭제�
 다음 영역에서 레코드를 삭제할 수 있습니다.
 
 * [레코드 페이지에서](#delete-a-record-from-the-records-page)
-* [레코드 유형의 테이블 보기에서](#delete-a-record-from-the-record-type-table-view)
+* [레코드 종류의 테이블 보기에서](#delete-a-record-from-the-record-type-table-view)
 
 ### 레코드 페이지에서 레코드 삭제
 
@@ -113,14 +113,14 @@ Adobe Workfront Planning에서 더 이상 관련이 없는 레코드를 삭제�
 1. 다음 중 하나를 수행하십시오.
 
    * 테이블 보기에서 레코드 이름을 클릭합니다.
-   * 테이블 보기에서 레코드 이름 위로 마우스를 가져간 다음 **자세히** 메뉴 ![](assets/more-menu.png)을 클릭한 다음 을 클릭합니다 **보기**
+   * 테이블 보기에서 레코드 이름 위로 마우스를 가져간 다음 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭하고 **보기**&#x200B;를 클릭합니다
 
      ![](assets/contextual-menu-for-record-row.png)
    * 타임라인 보기에서 레코드 모음을 클릭합니다.
 
    레코드 페이지가 열립니다.
 
-1. 다음을 클릭합니다. **자세히** 메뉴 ![](assets/more-menu.png) 레코드 이름 오른쪽에서 **삭제**, 그런 다음 **삭제** 다시 한 번 확인해 보십시오.
+1. 레코드 이름의 오른쪽에 있는 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭한 다음 **삭제**&#x200B;를 클릭한 다음 다시 **삭제**&#x200B;를 클릭하여 확인합니다.
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 레코드가 삭제되어 복구할 수 없습니다.
@@ -136,17 +136,17 @@ Adobe Workfront Planning에서 더 이상 관련이 없는 레코드를 삭제�
 1. 레코드 유형 카드를 클릭합니다.
 
    레코드 유형 페이지가 열립니다.
-1. (조건부) **보기** 테이블 왼쪽 위 모서리에 있는 드롭다운 메뉴에서 테이블 뷰를 선택합니다. 레코드 유형에 마지막으로 액세스했을 때 타임라인 보기에서 확인하지 않은 경우 기본 보기여야 합니다.
+1. (조건부) 표의 왼쪽 위 모서리에 있는 **보기** 드롭다운 메뉴에서 표 보기를 선택합니다. 레코드 유형에 마지막으로 액세스했을 때 타임라인 보기에서 확인하지 않은 경우 기본 보기여야 합니다.
 
    선택한 레코드 유형과 연관된 레코드가 테이블 뷰에 표시됩니다.
 1. 다음 중 하나를 수행하십시오.
 
-   * 레코드 행을 마우스 오른쪽 단추로 클릭한 다음 **삭제**.
-   * 다음을 클릭합니다. **자세히** 메뉴 ![](assets/more-menu.png) 레코드 이름 오른쪽에서 **삭제**
+   * 레코드 행을 마우스 오른쪽 단추로 클릭한 다음 **삭제**&#x200B;를 클릭합니다.
+   * 레코드 이름의 오른쪽에 있는 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭한 다음 **삭제**&#x200B;를 클릭합니다
 
      ![](assets/contextual-menu-for-record-row.png)
 
-   * 다음을 클릭합니다. **세부 정보 열기** 아이콘 ![](assets/open-details-icon-in-table-name-field.png) 를 클릭하여 레코드의 세부 정보가 있는 상자를 열고 **자세히** ![](assets/more-menu.png) 레코드 이름의 오른쪽에 있는 경우 **삭제**.
+   * **세부 정보 열기** 아이콘 ![](assets/open-details-icon-in-table-name-field.png)을(를) 클릭하여 레코드의 세부 정보가 있는 상자를 열고 레코드 이름 오른쪽에 있는 **자세히** ![](assets/more-menu.png)을(를) 클릭한 다음 **삭제**&#x200B;를 클릭합니다.
 
    레코드가 삭제되어 복구할 수 없습니다.
 

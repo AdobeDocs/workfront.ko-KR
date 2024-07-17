@@ -21,13 +21,13 @@ ht-degree: 0%
 
 * 문제는 요청 대기열을 통해 입력해야 합니다.
 
-  요청 대기열 만들기에 대한 자세한 내용은 [요청 대기열 생성 및 관리](../../../manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md) 섹션. 요청 만들기에 대한 자세한 내용은 [Adobe Workfront 요청 만들기 및 제출](../../../manage-work/requests/create-requests/create-submit-requests.md).
+  요청 큐 만들기에 대한 자세한 내용은 [요청 큐 만들기 및 관리](../../../manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md) 섹션을 참조하십시오. 요청 만들기에 대한 자세한 내용은 [Adobe Workfront 요청 만들기 및 제출](../../../manage-work/requests/create-requests/create-submit-requests.md)을 참조하십시오.
 
 * 요청 대기열의 대기열 세부 정보에 다음 설정이 있어야 합니다.
-   * **누군가가 요청하면 자동으로 승인** 이(가) (으)로 설정됨 **액세스 참여**
-   * **상태 변경** 고급 설정에서 선택됨
+   * **다른 사람이 요청할 때 자동으로 부여**&#x200B;이(가) **Contribute 액세스**(으)로 설정됩니다.
+   * 고급 설정에서 **상태 변경**&#x200B;을(를) 선택했습니다.
 
-  ![대기열 세부 정보를 통해 기여자 액세스 및 상태 변경을 선택할 수 있습니다.](assets/queuedetails-contributeaccess-changestatus.png)
+  ![큐 세부 정보에서 Contribute 액세스 및 상태 변경을 선택할 수 있습니다.](assets/queuedetails-contributeaccess-changestatus.png)
 
   >[!IMPORTANT]
   >
@@ -35,9 +35,9 @@ ht-degree: 0%
   >
   >요청 대기열을 설정할 때 상태 변경 설정을 선택 해제할 경우 요청 대기열 설정에서 상태 변경 옵션을 선택 해제한 경우에도 시스템 관리자는 항상 문제 상태를 변경할 수 있는 액세스 권한을 보유합니다.
 
-  대기열 세부 정보에 대한 자세한 내용은 [요청 대기열 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+  대기열 세부 정보에 대한 자세한 내용은 [요청 대기열 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)를 참조하십시오.
 
 * 문제는 피드백 대기 중 상태여야 합니다.
 * 시스템 수준의 문제에 사용할 수 있는 피드백 대기(AWF) 상태가 있어야 합니다.
 
-  시스템 수준 상태에 대한 자세한 내용은 [상태 만들기 또는 편집](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+  시스템 수준 상태에 대한 자세한 내용은 [상태 만들기 또는 편집](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)을 참조하세요.

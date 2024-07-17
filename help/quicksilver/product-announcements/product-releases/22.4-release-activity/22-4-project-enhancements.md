@@ -17,13 +17,13 @@ ht-degree: 2%
 
 이 페이지에서는 미리보기 환경에 대한 22.4 릴리스의 모든 프로젝트 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2022년 10월 3일이 있는 주에 사용할 수 있습니다.
 
-22.4 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [22.4 릴리스 개요](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+22.4 릴리스에서 사용할 수 있는 모든 변경 사항 목록을 보려면 [22.4 릴리스 개요](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md)를 참조하십시오.
 
 ## 이제 전임 작업 세부 정보를 사용할 수 있습니다.
 
 이제 작업의 전임 작업에 대한 세부 정보를 보려면 전임 작업 열의 전임 작업 번호 위로 마우스를 가져가면 됩니다. 세부 정보 상자에는 참조되는 전임 작업 및 프로젝트, 전임 작업에 대한 계획된 시작 및 종료 일자, 전임 작업의 전임 작업 및 후임 작업 수가 표시됩니다. 프로젝트 세부 정보를 확장하여 프로젝트에 대한 자세한 정보를 볼 수 있습니다. 프로젝트 간 전임 작업에 대한 추가 정보가 포함되어 있습니다.
 
-자세한 내용은 [작업 목록에 전임 작업 관계 만들기](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md).
+자세한 내용은 [작업 목록에서 전임 작업 관계 만들기](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md)를 참조하십시오.
 
 ## 작업 또는 문제에 여러 팀 할당
 
@@ -33,7 +33,7 @@ ht-degree: 2%
 >
 >이 기능은 현재 팀 영역의 업무 균형자에서 사용할 수 없습니다.
 
-자세한 내용은 [작업 할당](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md) 및 [문제 할당](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md).
+자세한 내용은 [작업 할당](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md) 및 [문제 할당](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md)을 참조하세요.
 
 ## 편집 및 세부 정보 영역에서 프로젝트 역할에 대한 스마트 사용자 선택
 
@@ -47,7 +47,7 @@ ht-degree: 2%
 
 이제 편집 또는 세부 정보 영역에서 이러한 필드에 사용자를 추가하면 이름과 아바타 외에도 기본 역할과 이메일도 표시됩니다. 이러한 수정은 유사하거나 동일한 이름을 가진 여러 사용자를 구별하는 데 도움이 됩니다.
 
-자세한 내용은 [프로젝트 편집](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
+자세한 내용은 [프로젝트 편집](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md)을 참조하세요.
 
 참고: 프로젝트, 작업 및 문제에 대한 추가 사용자 필드는 이후 릴리스에서 이 기능으로 업데이트됩니다.
 
@@ -65,7 +65,7 @@ ht-degree: 2%
 
 * 누군가 개체를 편집하여 계산된 필드 표현식이 다시 계산되는 경우 날짜 함수 결과는 사용자의 현지 시간대로 결정됩니다. 이 시나리오의 계산된 날짜 필드 결과도 UTC를 기반으로 계산됩니다.
 
-자세한 내용은 [시간대 간 작업](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md).
+자세한 내용은 [시간대 작업](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md)을 참조하세요.
 
 ## 사용자 정의 양식 개선 사항: Adobe XD 및 빠른 필터
 
@@ -73,11 +73,11 @@ ht-degree: 2%
 
 * Adobe XD 파일을 추가하여 사용자 정의 양식을 보다 시각적으로 유익하게 만듭니다. 양식이 오브젝트에 첨부되어 있으면 오브젝트와 함께 작업하는 사용자는 양식 내에서 XD 파일을 보고 상호 작용할 수 있습니다.
 
-  자세한 내용은 [사용자 정의 양식에서 이미지 또는 기타 에셋 위젯 추가 또는 편집](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+  자세한 내용은 [사용자 지정 양식에서 이미지 또는 기타 에셋 위젯 추가 또는 편집](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)을 참조하세요.
 
 * 빠른 필터를 사용하여 현대화된 사용자 정의 양식 및 필드 목록에서 항목을 쉽게 찾을 수 있습니다. 또한 양식 및 필드를 관리하면서 향상된 모양과 느낌을 즐겨보십시오.
 
-  빠른 필터에 대한 자세한 내용은 [목록에 빠른 필터 적용](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
+  빠른 필터에 대한 자세한 내용은 [목록에 빠른 필터 적용](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md)을 참조하십시오.
 
 [이 기능에 대한 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3412469/){target=_blank}
 
@@ -128,6 +128,6 @@ ht-degree: 2%
 
 우리는 여러분에게 반복적으로 가치를 전달하고 싶기 때문에 새로운 경험과 다른 영역들이 준비되면 계속 전달할 것입니다. 더 흥미로운 업데이트를 위해 추후에 업데이트될 예정입니다.
 
-자세한 내용은 [필터 개요](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md) 및 [Adobe Workfront에서 필터 만들기 또는 편집](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+자세한 내용은 [필터 개요](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md) 및 [Adobe Workfront에서 필터 만들기 또는 편집](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md)을 참조하십시오.
 
 [이 기능에 대한 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3412391/)

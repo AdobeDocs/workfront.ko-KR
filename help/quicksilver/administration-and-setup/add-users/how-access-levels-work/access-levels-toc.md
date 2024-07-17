@@ -23,10 +23,10 @@ Adobe Workfront 관리자는 사용자에게 액세스 수준을 할당하여 �
 * [새로운 액세스 수준 개요](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
 * [새 라이선스 개요](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
 * [새 라이센스에 대한 의 객체별 및 영역 액세스](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
-* [각 객체 유형에 사용할 수 있는 기능](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
+* [각 개체 유형에 사용할 수 있는 기능](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
 * [새 라이선스 플랜에서 비유료 사용자에 대한 자동 업그레이드 옵션 사용 안 함](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
 
 ## 참조:
 
-* 액세스 수준을 만드는 방법에 대한 자세한 내용은 [Adobe Workfront 액세스 구성](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md).
-* 사용자가 개체를 서로 공유하는 방법에 대한 자세한 내용은 해당 개체에 대한 보기 및 편집 권한을 부여합니다. [오브젝트에 권한 부여 및 요청](../../../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md).
+* 액세스 수준을 만드는 방법에 대한 자세한 내용은 [Adobe Workfront 액세스 구성](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)을 참조하십시오.
+* 사용자가 개체를 서로 공유하는 방법과 해당 개체에 대한 보기 및 편집 권한을 부여하는 방법에 대한 자세한 내용은 [개체에 대한 권한 부여 및 요청](../../../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)을 참조하십시오.

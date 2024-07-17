@@ -5,7 +5,7 @@ product-area: workfront-integrations
 keywords: 커넥터
 navigation-topic: apps-and-their-modules
 title: SharePoint 모듈
-description: 다음에서 [!DNL Adobe Workfront Fusion] 시나리오에서는 SharePoint을 사용하는 워크플로를 자동화할 수 있을 뿐만 아니라 여러 타사 애플리케이션 및 서비스에 연결할 수도 있습니다.
+description: ' [!DNL Adobe Workfront Fusion] 시나리오에서는 SharePoint을 사용하는 워크플로를 자동화할 수 있을 뿐만 아니라 여러 타사 응용 프로그램 및 서비스에 연결할 수도 있습니다.'
 author: Becky
 feature: Workfront Fusion
 exl-id: 16d49031-06d2-4c86-bac4-f58cd9b2f1f5
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 ---
 
-# [!DNL SharePoint] 모듈
+# [!DNL SharePoint]개 모듈
 
-다음에서 [!DNL Adobe Workfront Fusion] 시나리오에서는 다음을 사용하는 워크플로를 자동화할 수 있습니다 [!DNL SharePoint]을 여러 타사 응용 프로그램 및 서비스에 연결할 수 있습니다.
+[!DNL Adobe Workfront Fusion] 시나리오에서는 [!DNL SharePoint]을(를) 사용하는 워크플로를 자동화하고 여러 타사 응용 프로그램 및 서비스에 연결할 수 있습니다.
 
-시나리오를 만드는 방법에 대한 지침이 필요한 경우 [에서 시나리오 만들기 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+시나리오를 만드는 방법에 대한 지침이 필요하면 [시나리오 만들기 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md)를 참조하십시오.
 
-모듈에 대한 자세한 내용은 [의 모듈 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+모듈에 대한 자세한 내용은 [의 모듈 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md)을 참조하세요.
 
 ## 액세스 요구 사항
 
@@ -43,65 +43,65 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 라이센스**</td> 
    <td>
-   <p>현재 라이선스 요구 사항: 아니요 [!DNL Workfront Fusion] 라이센스 요구 사항.</p>
+   <p>현재 라이선스 요구 사항: [!DNL Workfront Fusion] 라이선스 요구 사항이 없습니다.</p>
    <p>또는</p>
-   <p>기존 라이선스 요구 사항: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
+   <p>레거시 라이선스 요구 사항: 작업 자동화 및 통합을 위한 [!UICONTROL [!DNL Workfront Fusion]] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">제품</td> 
    <td>
-   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime]이 있는 경우 [!DNL Adobe Workfront] 플랜, 조직은 다음을 구매해야 합니다. [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오. [!DNL Workfront Fusion] [!UICONTROL Ultimate]에 포함되어 있습니다. [!DNL Workfront] 계획.</p>
+   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime] [!DNL Adobe Workfront] 플랜이 있는 경우 조직에서 이 문서에 설명된 기능을 사용하려면 [!DNL Adobe Workfront Fusion]과(와) [!DNL Adobe Workfront]을(를) 구매해야 합니다. [!DNL Workfront Fusion]이(가) [!UICONTROL Ultimate] [!DNL Workfront] 계획에 포함되어 있습니다.</p>
    <p>또는</p>
-   <p>레거시 제품 요구 사항: 조직에서 구매해야 함 [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오.</p>
+   <p>레거시 제품 요구 사항: 이 문서에 설명된 기능을 사용하려면 조직에서 [!DNL Adobe Workfront Fusion]과(와) [!DNL Adobe Workfront]을(를) 구매해야 합니다.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
+보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
 
-다음에 대한 정보: [!DNL Adobe Workfront Fusion] 라이센스, 참조 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+[!DNL Adobe Workfront Fusion] 라이선스에 대한 자세한 내용은 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md)를 참조하세요.
 
 ## 전제 조건
 
-사용 [!DNL SharePoint] 모듈, 다음이 있어야 합니다. [!DNL SharePoint] 계정입니다.
+[!DNL SharePoint] 모듈을 사용하려면 [!DNL SharePoint] 계정이 있어야 합니다.
 
-## 연결 [!DNL SharePoint] 끝 [!DNL Workfront Fusion] {#connect-sharepoint-to-workfront-fusion}
+## [!DNL SharePoint]을(를) [!DNL Workfront Fusion]에 연결 {#connect-sharepoint-to-workfront-fusion}
 
-* [연결 [!DNL SharePoint] 끝 [!DNL Workfront Fusion] 사용 [!DNL Microsoft] account](#connect-sharepoint-to-workfront-fusion-using-a-microsoft-account)
-* [연결 [!DNL SharePoint] 끝 [!DNL Workfront Fusion] 고급 설정 사용](#connect-sharepoint-to-workfront-fusion-using-advanced-settings)
+* [ [!DNL Microsoft] 계정을 사용하여  [!DNL SharePoint] to [!DNL Workfront Fusion] 연결](#connect-sharepoint-to-workfront-fusion-using-a-microsoft-account)
+* [고급 설정을 사용하여  [!DNL SharePoint] to [!DNL Workfront Fusion] 연결](#connect-sharepoint-to-workfront-fusion-using-advanced-settings)
 
-### 연결 [!DNL SharePoint] 끝 [!DNL Workfront Fusion] 사용 [!DNL Microsoft] account
+### [!DNL Microsoft] 계정을 사용하여 [!DNL SharePoint]을(를) [!DNL Workfront Fusion]에 연결
 
-다음을 사용할 수 있습니다. [!DNL Microsoft] 연결을 만들 계정 [!DNL SharePoint]. 연결에 대한 자세한 내용 [!DNL Sharepoint] 계정 위치: [!DNL Workfront Fusion], 참조 [에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침](../../workfront-fusion/connections/connect-to-fusion-general.md)
+[!DNL Microsoft] 계정을 사용하여 [!DNL SharePoint]에 연결할 수 있습니다. [!DNL Sharepoint] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 [연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침](../../workfront-fusion/connections/connect-to-fusion-general.md)을 참조하세요.
 
-### 연결 [!DNL SharePoint] 끝 [!DNL Workfront Fusion] 고급 설정 사용
+### 고급 설정을 사용하여 [!DNL SharePoint]을(를) [!DNL Workfront Fusion]에 연결
 
-연결하려면 [!DNL SharePoint] 끝 [!DNL Workfront Fusion] 없이 [!DNL Microsoft] 계정에는 클라이언트 ID, 클라이언트 암호 및 테넌트 ID가 필요합니다.
+[!DNL Microsoft] 계정 없이 [!DNL SharePoint]을(를) [!DNL Workfront Fusion]에 연결하려면 클라이언트 ID, 클라이언트 암호 및 테넌트 ID가 필요합니다.
 
-1. 클릭 **[!UICONTROL 추가]** 의 맨 위 **[!DNL SharePoint]** 를 여는 상자 **[!UICONTROL 연결 만들기]** 상자.
+1. **[!DNL SharePoint]** 상자 위쪽에 있는 **[!UICONTROL 추가]**&#x200B;를 클릭하여 **[!UICONTROL 연결 만들기]** 상자를 엽니다.
 
-1. (선택 사항) 기본값 변경 **[!UICONTROL 연결 이름]**.
-1. 클릭 **[!UICONTROL 고급 설정 표시]**.
-1. 다음을 입력합니다. [!DNL SharePoint] **[!UICONTROL 클라이언트 ID]** 및 **[!UICONTROL 클라이언트 암호]**.
+1. (선택 사항) 기본 **[!UICONTROL 연결 이름]**&#x200B;을 변경합니다.
+1. **[!UICONTROL 고급 설정 표시]**&#x200B;를 클릭합니다.
+1. [!DNL SharePoint] **[!UICONTROL 클라이언트 ID]** 및 **[!UICONTROL 클라이언트 암호]**&#x200B;를 입력하십시오.
 
-1. 클릭 **[!UICONTROL 계속]**.
+1. **[!UICONTROL 계속]**&#x200B;을 클릭합니다.
 1. 아직 로그인하지 않은 경우 표시되는 로그인 창에서 자격 증명을 입력하여 앱에 로그인합니다.
-1. (조건부) **[!UICONTROL 허용]** 버튼이 표시되면 버튼을 클릭하여 앱을 다음으로 연결 [!DNL Workfront Fusion].
+1. (조건부) **[!UICONTROL 허용]** 단추가 표시되면 단추를 클릭하여 앱을 [!DNL Workfront Fusion]에 연결합니다.
 
-## [!DNL SharePoint] 모듈 및 해당 필드
+## [!DNL SharePoint]개 모듈 및 해당 필드
 
-를 구성할 때 [!DNL SharePoint] 모듈, [!DNL Workfront Fusion] 아래 나열된 필드를 표시합니다. 이와 함께 추가 [!DNL SharePoint] 앱이나 서비스의 액세스 수준 등에 따라 필드가 표시될 수 있습니다. 모듈의 굵은 제목은 필수 필드를 나타냅니다.
+[!DNL SharePoint] 모듈을 구성할 때 [!DNL Workfront Fusion]에 아래 나열된 필드가 표시됩니다. 앱 또는 서비스의 액세스 수준과 같은 요소에 따라 이러한 필드와 함께 [!DNL SharePoint] 필드가 추가로 표시될 수 있습니다. 모듈의 굵은 제목은 필수 필드를 나타냅니다.
 
-필드나 함수 위에 맵 단추가 표시되면 이 단추를 사용하여 해당 필드에 대한 변수와 함수를 설정할 수 있습니다. 자세한 내용은 [의 한 모듈에서 다른 모듈로 정보 매핑 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+필드나 함수 위에 맵 단추가 표시되면 이 단추를 사용하여 해당 필드에 대한 변수와 함수를 설정할 수 있습니다. 자세한 내용은 [한 모듈에서 다른 모듈로 정보를 매핑 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)을 참조하십시오.
 
 ![](assets/map-toggle-350x74.png)
 
 * [드라이브 항목](#drive-item)
 * [항목](#item)
 * [목록](#list)
-* [페이지(베타)](#page-beta)
+* [페이지(Beta)](#page-beta)
 * [Site](#site)
 * [기타](#other)
 
@@ -122,14 +122,14 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL SharePoint] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">연결 [!DNL SharePoint] 끝 [!DNL Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL SharePoint] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">[!DNL SharePoint]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 사이트, 드라이브 및 폴더 ID 입력]</td> 
    <td> <p>변경 사항을 검색할 폴더의 위치를 식별하는 방법을 선택합니다.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>입력 또는 매핑 <strong>[!UICONTROL 사이트 ID]</strong>, <strong>[!UICONTROL 목록 ID]</strong>, 및 <strong>[!UICONTROL 폴더 ID]</strong> 을 클릭합니다.</p> </li> 
-     <li> <p><strong>[!UICONTROL 따를 목록에서 선택]</strong> </p> <p>변경 사항을 검색할 위치를 선택합니다. </p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>표시되는 필드에 <strong>[!UICONTROL 사이트 ID]</strong>, <strong>[!UICONTROL 목록 ID]</strong> 및 <strong>[!UICONTROL 폴더 ID]</strong>을(를) 입력하거나 매핑합니다.</p> </li> 
+     <li> <p><strong>[!UICONTROL 팔로우하는 목록에서 선택]</strong> </p> <p>변경 사항을 검색할 위치를 선택합니다. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -148,14 +148,14 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL SharePoint] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">연결 [!DNL SharePoint] 끝 [!DNL Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL SharePoint] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">[!DNL SharePoint]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 사이트, 드라이브 및 폴더 ID 입력]</td> 
    <td> <p>만들려는 폴더의 위치를 식별하는 방법을 선택합니다.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>입력 또는 매핑 <strong>[!UICONTROL 사이트 ID]</strong>, <strong>[!UICONTROL 목록 ID]</strong>, 및 <strong>[!UICONTROL 폴더 ID]</strong> 을 클릭합니다.</p> </li> 
-     <li> <p><strong>[!UICONTROL 따를 목록에서 선택]</strong> </p> <p>폴더를 만들 위치를 선택합니다. </p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>표시되는 필드에 <strong>[!UICONTROL 사이트 ID]</strong>, <strong>[!UICONTROL 목록 ID]</strong> 및 <strong>[!UICONTROL 폴더 ID]</strong>을(를) 입력하거나 매핑합니다.</p> </li> 
+     <li> <p><strong>[!UICONTROL 팔로우하는 목록에서 선택]</strong> </p> <p>폴더를 만들 위치를 선택합니다. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -175,14 +175,14 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL SharePoint] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">연결 [!DNL SharePoint] 끝 [!DNL Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL SharePoint] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">[!DNL SharePoint]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 사이트, 드라이브 및 폴더 ID 입력]</td> 
    <td> <p>가져올 파일의 위치를 식별하는 방법을 선택하십시오.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>입력 또는 매핑 <strong>[!UICONTROL 사이트 ID]</strong>, <strong>[!UICONTROL 목록 ID]</strong>, 및 <strong>[!UICONTROL 파일 ID]</strong> 을 클릭합니다.</p> </li> 
-     <li> <p><strong>[!UICONTROL 따를 목록에서 선택]</strong> </p> <p>파일 위치를 선택합니다. </p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>표시되는 필드에 <strong>[!UICONTROL 사이트 ID]</strong>, <strong>[!UICONTROL 목록 ID]</strong> 및 <strong>[!UICONTROL 파일 ID]</strong>을(를) 입력하거나 매핑합니다.</p> </li> 
+     <li> <p><strong>[!UICONTROL 팔로우하는 목록에서 선택]</strong> </p> <p>파일 위치를 선택합니다. </p> </li> 
     </ul> </td> 
   </tr> 
 </tbody> 
@@ -198,18 +198,18 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL SharePoint] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">연결 [!DNL SharePoint] 끝 [!DNL Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL SharePoint] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">[!DNL SharePoint]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 사이트, 드라이브 및 폴더 ID 입력]</td> 
    <td> <p>가져올 파일의 위치를 식별하는 방법을 선택하십시오.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>입력 또는 매핑 <strong>[!UICONTROL 사이트 ID]</strong>, <strong>[!UICONTROL 목록 ID]</strong>, 및 <strong>[!UICONTROL 폴더 ID]</strong> 을 클릭합니다.</p> </li> 
-     <li> <p><strong>[!UICONTROL 따를 목록에서 선택]</strong> </p> <p>감시할 폴더의 위치를 선택합니다. </p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>표시되는 필드에 <strong>[!UICONTROL 사이트 ID]</strong>, <strong>[!UICONTROL 목록 ID]</strong> 및 <strong>[!UICONTROL 폴더 ID]</strong>을(를) 입력하거나 매핑합니다.</p> </li> 
+     <li> <p><strong>[!UICONTROL 팔로우하는 목록에서 선택]</strong> </p> <p>감시할 폴더의 위치를 선택합니다. </p> </li> 
     </ul> </td> 
   </tr> 
    <td role="rowheader">[!UICONTROL 제한]</td> 
-   <td>최대 항목 수 입력 [!DNL Workfront Fusion] 한 시나리오 실행 주기 중에 를 반환해야 합니다.</td> 
+   <td>시나리오 실행 주기 동안 [!DNL Workfront Fusion]이(가) 반환해야 하는 최대 항목 수를 입력하십시오.</td> 
   <tr>
   </tr>
 </tbody> 
@@ -224,7 +224,7 @@ ht-degree: 0%
 * [[!UICONTROL 목록 항목]](#list-items)
 * [[!UICONTROL 항목 이동]](#move-an-item)
 * [[!UICONTROL 항목 업데이트]](#update-an-item)
-* [[!UICONTROL 항목 보기] (예약됨)](#watch-items-scheduled)
+* [[!UICONTROL 항목 보기](예약됨)](#watch-items-scheduled)
 
 
 #### [!UICONTROL 항목 복사]
@@ -237,14 +237,14 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL SharePoint] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">연결 [!DNL SharePoint] 끝 [!DNL Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL SharePoint] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">[!DNL SharePoint]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">사이트, 드라이브 및 폴더 ID 입력</td> 
    <td> <p>복사할 항목이 들어 있는 사이트 및 목록을 식별하는 방법을 선택합니다.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>입력 또는 매핑 <strong>[!UICONTROL 사이트 ID]</strong>, <strong>[!UICONTROL 목록 ID]</strong>, 및 <strong>[!UICONTROL 항목 ID]</strong> 을 클릭합니다.</p> </li> 
-     <li> <p><strong>[!UICONTROL 따르는 목록에서 선택]</strong> </p> <p>항목 유형 필드에서 필드를 이동할 것인지 폴더를 이동할 것인지 선택합니다.  복사할 항목이 들어 있는 사이트를 선택한 다음 목록을 선택하고 항목을 선택합니다. </p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>표시되는 필드에 <strong>[!UICONTROL 사이트 ID]</strong>, <strong>[!UICONTROL 목록 ID]</strong> 및 <strong>[!UICONTROL 항목 ID]</strong>을(를) 입력하거나 매핑합니다.</p> </li> 
+     <li> <p><strong>[!UICONTROL 팔로우하는 목록에서 선택]</strong> </p> <p>항목 유형 필드에서 필드를 이동할 것인지 폴더를 이동할 것인지 선택합니다.  복사할 항목이 들어 있는 사이트를 선택한 다음 목록을 선택하고 항목을 선택합니다. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -268,13 +268,13 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL SharePoint] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">연결 [!DNL SharePoint] 끝 [!DNL Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL SharePoint] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">[!DNL SharePoint]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 항목 만들기]</td> 
    <td> <p>항목을 만들 사이트 및 목록을 식별하는 방법을 선택합니다.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>입력 또는 매핑 <strong>[!UICONTROL 사이트 ID]</strong> 및 <strong>[!UICONTROL 목록 ID]</strong> 을 클릭합니다.</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>표시되는 필드에 <strong>[!UICONTROL 사이트 ID]</strong> 및 <strong>[!UICONTROL 목록 ID]</strong>을(를) 입력하거나 매핑합니다.</p> </li> 
      <li> <p><strong>[!UICONTROL 목록에서 선택]</strong> </p> <p>항목을 만들 목록이 포함된 사이트를 선택한 다음 목록을 선택합니다. </p> </li> 
     </ul> </td> 
   </tr> 
@@ -295,13 +295,13 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL SharePoint] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">연결 [!DNL SharePoint] 끝 [!DNL Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL SharePoint] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">[!DNL SharePoint]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 항목 업데이트]</td> 
    <td> <p>삭제하려는 항목이 포함된 사이트 및 목록을 식별하는 방법을 선택합니다.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>입력 또는 매핑 <strong>[!UICONTROL 사이트 ID]</strong>, <strong>[!UICONTROL 목록 ID]</strong>, 및 <strong>[!UICONTROL 항목 ID]</strong> 을 클릭합니다.</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>표시되는 필드에 <strong>[!UICONTROL 사이트 ID]</strong>, <strong>[!UICONTROL 목록 ID]</strong> 및 <strong>[!UICONTROL 항목 ID]</strong>을(를) 입력하거나 매핑합니다.</p> </li> 
      <li> <p><strong>[!UICONTROL 목록에서 선택]</strong> </p> <p>삭제할 항목이 포함된 사이트를 선택한 다음 목록을 선택하고 항목을 선택합니다. </p> </li> 
     </ul> </td> 
   </tr> 
@@ -318,13 +318,13 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL SharePoint] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">연결 [!DNL SharePoint] 끝 [!DNL Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL SharePoint] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">[!DNL SharePoint]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 항목 가져오기]</td> 
    <td> <p>가져오려는 항목이 포함된 사이트 및 목록을 식별하는 방법을 선택합니다.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>입력 또는 매핑 <strong>[!UICONTROL 사이트 ID]</strong>, <strong>[!UICONTROL 목록 ID]</strong>, 및 <strong>[!UICONTROL 항목 ID]</strong> 을 클릭합니다.</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>표시되는 필드에 <strong>[!UICONTROL 사이트 ID]</strong>, <strong>[!UICONTROL 목록 ID]</strong> 및 <strong>[!UICONTROL 항목 ID]</strong>을(를) 입력하거나 매핑합니다.</p> </li> 
      <li> <p><strong>[!UICONTROL 목록에서 선택]</strong> </p> <p>항목을 검색할 목록이 포함된 사이트를 선택한 다음 목록을 선택하고 항목을 선택합니다. </p> </li> 
     </ul> </td> 
   </tr> 
@@ -341,13 +341,13 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL SharePoint] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">연결 [!DNL SharePoint] 끝 [!DNL Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL SharePoint] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">[!DNL SharePoint]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 목록 항목]</td> 
    <td> <p>항목을 검색할 목록을 식별하는 방법을 선택합니다.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>입력 또는 매핑 <strong>[!UICONTROL 사이트 ID]</strong> 및 <strong>[!UICONTROL 목록 ID]</strong> 을 클릭합니다.</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>표시되는 필드에 <strong>[!UICONTROL 사이트 ID]</strong> 및 <strong>[!UICONTROL 목록 ID]</strong>을(를) 입력하거나 매핑합니다.</p> </li> 
      <li> <p><strong>[!UICONTROL 목록에서 선택]</strong> </p> <p>항목을 검색할 목록이 포함된 사이트를 선택한 다음 목록을 선택합니다. </p> </li> 
     </ul> </td> 
   </tr> 
@@ -368,14 +368,14 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL SharePoint] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">연결 [!DNL SharePoint] 끝 [!DNL Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL SharePoint] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">[!DNL SharePoint]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">사이트, 드라이브 및 폴더 ID 입력</td> 
    <td> <p>이동할 항목이 포함된 사이트 및 목록을 식별하는 방법을 선택합니다.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>입력 또는 매핑 <strong>[!UICONTROL 사이트 ID]</strong>, <strong>[!UICONTROL 목록 ID]</strong>, 및 <strong>[!UICONTROL 항목 ID]</strong> 을 클릭합니다.</p> </li> 
-     <li> <p><strong>[!UICONTROL 따르는 목록에서 선택]</strong> </p> <p>항목 유형 필드에서 필드를 이동할 것인지 폴더를 이동할 것인지 선택합니다. 복사할 항목이 들어 있는 사이트를 선택한 다음 목록을 선택하고 항목을 선택합니다. </p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>표시되는 필드에 <strong>[!UICONTROL 사이트 ID]</strong>, <strong>[!UICONTROL 목록 ID]</strong> 및 <strong>[!UICONTROL 항목 ID]</strong>을(를) 입력하거나 매핑합니다.</p> </li> 
+     <li> <p><strong>[!UICONTROL 팔로우하는 목록에서 선택]</strong> </p> <p>항목 유형 필드에서 필드를 이동할 것인지 폴더를 이동할 것인지 선택합니다. 복사할 항목이 들어 있는 사이트를 선택한 다음 목록을 선택하고 항목을 선택합니다. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -399,13 +399,13 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL SharePoint] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">연결 [!DNL SharePoint] 끝 [!DNL Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL SharePoint] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">[!DNL SharePoint]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 항목 업데이트]</td> 
    <td> <p>업데이트하려는 항목이 포함된 사이트 및 목록을 식별하는 방법을 선택합니다.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>입력 또는 매핑 <strong>[!UICONTROL 사이트 ID]</strong>, <strong>[!UICONTROL 목록 ID]</strong>, 및 <strong>[!UICONTROL 항목 ID]</strong> 을 클릭합니다.</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>표시되는 필드에 <strong>[!UICONTROL 사이트 ID]</strong>, <strong>[!UICONTROL 목록 ID]</strong> 및 <strong>[!UICONTROL 항목 ID]</strong>을(를) 입력하거나 매핑합니다.</p> </li> 
      <li> <p><strong>[!UICONTROL 목록에서 선택]</strong> </p> <p>업데이트할 항목이 들어 있는 사이트를 선택한 다음 목록을 선택하고 항목을 선택합니다. </p> </li> 
     </ul> </td> 
   </tr> 
@@ -416,7 +416,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-#### [!UICONTROL 항목 보기] (예약됨)
+#### [!UICONTROL 항목 보기](예약됨)
 
 이 트리거 모듈은 항목을 만들거나 수정할 때 시나리오를 시작합니다.
 
@@ -426,7 +426,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL SharePoint] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">연결 [!DNL SharePoint] 끝 [!DNL Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL SharePoint] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">[!DNL SharePoint]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 감시 목록]</td> 
@@ -436,8 +436,8 @@ ht-degree: 0%
    <td role="rowheader">[!UICONTROL Enter Site and List ID]</td> 
    <td> <p>보려는 사이트 및 목록을 식별하는 방법을 선택합니다.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>입력 또는 매핑 <strong>[!UICONTROL 사이트 ID]</strong> 및 <strong>[!UICONTROL 목록 ID]</strong> 을 클릭합니다.</p> </li> 
-     <li> <p><strong>[!UICONTROL 따를 목록에서 선택]</strong> </p> <p>보려는 사이트를 선택한 다음 목록을 선택합니다. 이러한 드롭다운은 팔로우한 사이트만 검색합니다.</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>표시되는 필드에 <strong>[!UICONTROL 사이트 ID]</strong> 및 <strong>[!UICONTROL 목록 ID]</strong>을(를) 입력하거나 매핑합니다.</p> </li> 
+     <li> <p><strong>[!UICONTROL 팔로우하는 목록에서 선택]</strong> </p> <p>보려는 사이트를 선택한 다음 목록을 선택합니다. 이러한 드롭다운은 팔로우한 사이트만 검색합니다.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -451,7 +451,7 @@ ht-degree: 0%
 
 * [[!UICONTROL 목록 만들기]](#create-a-list)
 * [[!UICONTROL 목록 가져오기]](#get-a-list)
-* [[!UICONTROL 목록 목록]](#list-lists)
+* [[!UICONTROL 목록]](#list-lists)
 * [[!UICONTROL 시청 목록]](#watch-lists)
 
 #### [!UICONTROL 목록 만들기]
@@ -464,13 +464,13 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL SharePoint] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">연결 [!DNL SharePoint] 끝 [!DNL Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL SharePoint] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">[!DNL SharePoint]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 사이트 ID 입력]</td> 
    <td> <p>목록을 만들 사이트 및 목록을 식별하는 방법을 선택합니다.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>입력 또는 매핑 <strong>[!UICONTROL 사이트 ID]</strong> 목록을 만들 위치입니다.</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>목록을 만들 <strong>[!UICONTROL 사이트 ID]</strong>을(를) 입력하거나 매핑합니다.</p> </li> 
      <li> <p><strong>[!UICONTROL 목록에서 선택]</strong> </p> <p>목록을 만들 사이트를 선택합니다. </p> </li> 
     </ul> </td> 
   </tr> 
@@ -484,7 +484,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 열 추가]</td> 
-   <td>새 목록에 대해 설정할 각 열에 대해 <strong>[!UICONTROL 이름]</strong> 을(를) 필드에 대해 선택하고 <strong>[!UICONTROL 유형]</strong> 새 열에 지정할 값.</td> 
+   <td>새 목록에 대해 설정할 각 열에 대해 필드에 <strong>[!UICONTROL 이름]</strong>을(를) 입력하고 새 열에 사용할 값의 <strong>[!UICONTROL 유형]</strong>을(를) 선택합니다.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -499,20 +499,20 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL SharePoint] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">연결 [!DNL SharePoint] 끝 [!DNL Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL SharePoint] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">[!DNL SharePoint]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 목록 가져오기]</td> 
    <td> <p>가져오려는 항목이 포함된 사이트 및 목록을 식별하는 방법을 선택합니다.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>입력 또는 매핑 <strong>[!UICONTROL 사이트 ID]</strong> 및 <strong>목록 ID</strong> 을 클릭합니다.</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>표시되는 필드에 <strong>[!UICONTROL 사이트 ID]</strong> 및 <strong>목록 ID</strong>을(를) 입력하거나 매핑합니다.</p> </li> 
      <li> <p><strong>[!UICONTROL 목록에서 선택]</strong> </p> <p>검색할 목록이 포함된 사이트를 선택한 다음 목록을 선택합니다. </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL 목록 목록]
+#### [!UICONTROL 목록]
 
 이 작업 모듈은 지정된 목록의 모든 항목 목록을 검색합니다.
 
@@ -522,13 +522,13 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL SharePoint] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">연결 [!DNL SharePoint] 끝 [!DNL Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL SharePoint] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">[!DNL SharePoint]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 목록]</td> 
    <td> <p>목록을 검색할 사이트를 식별하는 방법을 선택합니다.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>입력 또는 매핑 <strong>[!UICONTROL 사이트 ID]</strong>.</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p><strong>[!UICONTROL 사이트 ID]</strong>을(를) 입력하거나 매핑합니다.</p> </li> 
      <li> <p><strong>[!UICONTROL 목록에서 선택]</strong> </p> <p>검색할 목록이 포함된 사이트를 선택합니다. 드롭다운은 팔로우하는 사이트만 검색합니다.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -549,7 +549,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL SharePoint] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">연결 [!DNL SharePoint] 끝 [!DNL Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL SharePoint] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">[!DNL SharePoint]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 감시 목록]</td> 
@@ -559,8 +559,8 @@ ht-degree: 0%
    <td role="rowheader">[!UICONTROL Enter Site and List ID]</td> 
    <td> <p>보려는 사이트 및 목록을 식별하는 방법을 선택합니다.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>입력 또는 매핑 <strong>[!UICONTROL 사이트 ID]</strong> 보려는 목록이 있는 위치입니다.</p> </li> 
-     <li> <p><strong>[!UICONTROL 따를 목록에서 선택]</strong> </p> <p>보려는 사이트를 선택합니다. 드롭다운은 팔로우하는 사이트만 검색합니다.</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>보려는 목록이 있는 <strong>[!UICONTROL 사이트 ID]</strong>을(를) 입력하거나 매핑하십시오.</p> </li> 
+     <li> <p><strong>[!UICONTROL 팔로우하는 목록에서 선택]</strong> </p> <p>보려는 사이트를 선택합니다. 드롭다운은 팔로우하는 사이트만 검색합니다.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -570,11 +570,11 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-### 페이지(베타)
+### 페이지(Beta)
 
 >[!NOTE]
 >
->의 API `beta` 의 버전 [!DNL Microsoft Graph] 변경될 수 있습니다. 프로덕션 응용 프로그램에서는 이러한 API를 사용할 수 없습니다.
+>[!DNL Microsoft Graph]에서 `beta` 버전의 API는 변경될 수 있습니다. 프로덕션 응용 프로그램에서는 이러한 API를 사용할 수 없습니다.
 
 #### [!UICONTROL 페이지 가져오기]
 
@@ -586,13 +586,13 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL SharePoint] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">연결 [!DNL SharePoint] 끝 [!DNL Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL SharePoint] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">[!DNL SharePoint]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 페이지 가져오기]</td> 
    <td> <p>검색할 페이지를 식별하는 방법을 선택합니다.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>입력 또는 매핑 <strong>[!UICONTROL 사이트 ID]</strong>및 <strong>[!UICONTROL 페이지 ID]</strong>.</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p><strong>[!UICONTROL 사이트 ID]</strong> 및 <strong>[!UICONTROL 페이지 ID]</strong>을(를) 입력하거나 매핑합니다.</p> </li> 
      <li> <p><strong>[!UICONTROL 목록에서 선택]</strong> </p> <p>검색할 페이지가 포함된 사이트를 선택한 다음 페이지를 선택합니다.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -614,13 +614,13 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL SharePoint] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">연결 [!DNL SharePoint] 끝 [!DNL Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL SharePoint] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">[!DNL SharePoint]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 사이트 가져오기]</td> 
    <td> <p>검색할 페이지를 식별하는 방법을 선택합니다.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>입력 또는 매핑 <strong>[!UICONTROL 사이트 ID]</strong>.</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p><strong>[!UICONTROL 사이트 ID]</strong>을(를) 입력하거나 매핑합니다.</p> </li> 
      <li> <p><strong>[!UICONTROL 목록에서 선택]</strong> </p> <p>검색할 사이트를 선택합니다.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -637,7 +637,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL SharePoint] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">연결 [!DNL SharePoint] 끝 [!DNL Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL SharePoint] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">[!DNL SharePoint]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Keyword of Display Name]</td> 
@@ -662,13 +662,13 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL SharePoint] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">연결 [!DNL SharePoint] 끝 [!DNL Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL SharePoint] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">[!DNL SharePoint]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 사이트, 드라이브 및 폴더 ID 입력]</td> 
    <td> <p>업데이트하려는 항목이 포함된 사이트 및 목록을 식별하는 방법을 선택합니다.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>입력 또는 매핑 <strong>[!UICONTROL 사이트 ID]</strong>, <strong>[!UICONTROL 드라이브 ID]</strong>, 및 <strong>[!UICONTROL 폴더 ID]</strong> 을 클릭합니다.</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>표시되는 필드에 <strong>[!UICONTROL 사이트 ID]</strong>, <strong>[!UICONTROL 드라이브 ID]</strong> 및 <strong>[!UICONTROL 폴더 ID]</strong>을(를) 입력하거나 매핑합니다.</p> </li> 
      <li> <p><strong>[!UICONTROL 목록에서 선택]</strong> </p> <p>업데이트할 항목이 있는 사이트를 선택한 다음 드라이브를 선택하고 폴더를 선택합니다. </p> </li> 
     </ul> </td> 
   </tr> 
@@ -689,19 +689,19 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL SharePoint] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">연결 [!DNL SharePoint] 끝 [!DNL Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL SharePoint] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">[!DNL SharePoint]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
-   <td> <p>상대 경로 입력 <code>https://graph.microsoft.com</code>. 예:<code> /beta/sites</code></p> </td> 
+   <td> <p><code>https://graph.microsoft.com</code>과(와) 관련된 경로를 입력하십시오. 예:<code> /beta/sites</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 메서드]</p> </td> 
-   <td> <p>API 호출을 구성하는 데 필요한 HTTP 요청 메서드를 선택합니다. 자세한 내용은 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">의 HTTP 요청 메서드 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>API 호출을 구성하는 데 필요한 HTTP 요청 메서드를 선택합니다. 자세한 내용은 [!DNL Adobe Workfront Fusion]</a>에서 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP 요청 메서드를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p>표준 JSON 개체 형식으로 요청의 헤더를 추가합니다.예: <code>{"Content-type":"application/json"}</code>. [!DNL Workfront Fusion] 인증 헤더를 추가합니다.</p> </td> 
+   <td> <p>표준 JSON 개체 형식으로 요청의 헤더를 추가합니다(예: <code>{"Content-type":"application/json"}</code>). [!DNL Workfront Fusion]이(가) 권한 부여 헤더를 추가합니다.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 쿼리 문자열]</td> 
@@ -713,7 +713,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>표준 JSON 개체의 형태로 API 호출에 대한 본문 콘텐츠를 추가합니다.</p> <p>참고:  <p>다음과 같은 조건문을 사용할 때 <code>if</code> json에서 따옴표를 조건문 외부에 넣습니다.</p> 
+   <td> <p>표준 JSON 개체의 형태로 API 호출에 대한 본문 콘텐츠를 추가합니다.</p> <p>참고:  <p>JSON에서 <code>if</code>과(와) 같은 조건문을 사용할 때 따옴표를 조건문 외부에 넣으십시오.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 

@@ -9,14 +9,14 @@ role: Developer
 exl-id: 0af97c16-e6a7-4796-92e0-4c2d9751c845
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 25%
+source-wordcount: '153'
+ht-degree: 24%
 
 ---
 
 # API 버전 9의 새로운 기능(계속)
 
-이 목록은 더 큰 목록의 후반부입니다. 전반부는 다음 위치에 있습니다. [API 버전 9의 새로운 기능](../../wf-api/api/new-api-version-9.md). 버전 9에 대한 업데이트 목록은 다음 위치에서 찾을 수 있습니다. [API 버전 9 업데이트](../../wf-api/api/new-api-version-9-updates.md).
+이 목록은 더 큰 목록의 후반부입니다. 전반부는 [API 버전 9의 새로운 기능](../../wf-api/api/new-api-version-9.md)에 있습니다. 버전 9의 업데이트 목록은 [API 버전 9](../../wf-api/api/new-api-version-9-updates.md)에 있습니다.
 
 ## PortalSection
 

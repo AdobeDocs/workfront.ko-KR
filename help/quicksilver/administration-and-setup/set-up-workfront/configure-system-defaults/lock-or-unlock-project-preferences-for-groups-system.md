@@ -39,7 +39,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>다음이어야 합니다: [!DNL Workfront] 관리자.</p> <p><b>참고</b>: 아직 액세스 권한이 없는 경우 [!DNL Workfront] 관리자가 액세스 수준에 추가 제한을 설정하는 경우. 자세한 내용: [!DNL Workfront] 관리자가 액세스 수준을 수정할 수 있습니다. 다음을 참조하십시오. <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td> <p>[!DNL Workfront] 관리자여야 합니다.</p> <p><b>참고</b>: 아직 액세스 권한이 없는 경우 [!DNL Workfront] 관리자에게 액세스 수준에 추가 제한을 설정했는지 문의하세요. [!DNL Workfront] 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,21 +52,21 @@ ht-degree: 0%
 
 필드에 잠금/잠금 해제 토글이 없으면 그룹 관리자가 그룹 수준에서 설정을 구성할 수 있도록 잠금 해제할 수 없습니다. 구성은 시스템 수준에서만 사용할 수 있습니다.
 
-시스템 수준 프로젝트, 작업 또는 문제 환경 설정을 잠그거나 잠금 해제하는 방법에 대한 지침은 [시스템 전체 작업 및 문제 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+시스템 수준 프로젝트, 작업 또는 문제 환경 설정을 잠그거나 잠금 해제하는 방법에 대한 지침은 [시스템 전체 작업 및 문제 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)을 참조하십시오.
 
 >[!NOTE]
 >
->다음 이후 [!DNL Workfront] 관리자는 시스템 수준에서 환경 설정을 잠금 해제하고, 모든 그룹 관리자가 이를 구성한 다음 잠가서 그룹의 모든 사람과 아래의 하위 그룹이 동일한 구성을 사용하도록 할 수 있습니다. 이는 다음과 같은 기능과 병행됩니다. [!DNL Workfront] 관리자는 시스템 내의 모든 사용자에 대한 기본 설정을 구성하고 잠가야 합니다. 자세한 내용은 [그룹에 대한 프로젝트 환경 설정 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) 및 [하위 그룹에 대한 프로젝트, 작업 또는 문제 환경 설정 잠금 또는 잠금 해제](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
+>[!DNL Workfront] 관리자가 시스템 수준에서 환경 설정을 잠금 해제하면 모든 그룹 관리자가 이를 구성한 다음 잠가 그룹의 모든 사용자와 아래의 하위 그룹이 동일한 구성을 사용하도록 할 수 있습니다. 이는 [!DNL Workfront] 관리자가 시스템 내의 모든 사용자에 대한 환경 설정을 구성하고 잠그는 기능과 비슷합니다. 자세한 내용은 [그룹에 대한 프로젝트 환경 설정 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) 및 [하위 그룹에 대한 프로젝트, 작업 또는 문제 환경 설정 잠금 또는 잠금 해제](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md)를 참조하십시오.
 
 ## 그룹이 구성할 수 있도록 프로젝트 환경 설정 잠금 해제
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![](assets/main-menu-icon.png) 의 오른쪽 위 모서리 [!DNL Adobe Workfront]을 클릭한 다음 을 클릭합니다 **[!UICONTROL 설정]** ![](assets/gear-icon-settings.png).
+1. [!DNL Adobe Workfront]의 오른쪽 위 모서리에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 설정]** ![](assets/gear-icon-settings.png)을 클릭합니다.
 
-1. 클릭 **[!UICONTROL 프로젝트 환경 설정]**&#x200B;을 클릭한 다음 을 클릭합니다 **[!UICONTROL 프로젝트]**.
+1. **[!UICONTROL 프로젝트 환경 설정]**&#x200B;을 클릭한 다음 **[!UICONTROL 프로젝트]**&#x200B;을 클릭합니다.
 
 1. 다음 중 하나를 수행합니다.
 
-   * 그룹 관리자가 그룹에 대한 환경 설정을 구성할 수 있도록 하려면 잠금을 해제하십시오 ![](assets/unlock-toggle-button.png).
+   * 그룹 관리자가 그룹에 대한 환경 설정을 구성할 수 있도록 하려면 ![](assets/unlock-toggle-button.png) 잠금을 해제하세요.
    * 모든 그룹이 환경 설정에 대한 구성을 사용하도록 하려면 구성 설정이 잠겨 있는지(기본값) 확인합니다.
 
      >[!IMPORTANT]

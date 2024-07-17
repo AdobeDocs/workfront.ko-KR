@@ -17,13 +17,13 @@ ht-degree: 0%
 
 이 페이지에서는 22.4 릴리스 기간 내에 이루어진 Adobe Workfront 애플리케이션의 다양한 영역에 대한 룩앤필에 대한 작은 업데이트를 설명합니다. 이러한 개선 사항은 미리보기에 릴리스한 후 최소 2주 후에 프로덕션 환경에서 사용할 수 있습니다.
 
-22.4 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [22.4 릴리스 개요](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+22.4 릴리스에서 사용할 수 있는 모든 변경 사항 목록을 보려면 [22.4 릴리스 개요](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md)를 참조하십시오.
 
 ## 라이선스 페이지 업데이트 확인 및 확인
 
 중요한 라이선스 정보를 페이지의 오른쪽 상단 모서리로 이동하고 Workfront의 다른 영역에 맞게 텍스트 및 단추의 모양을 업데이트했습니다.
 
-자세한 내용은 [시스템에서 사용 가능한 라이선스 관리](/help/quicksilver/administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+자세한 내용은 [시스템에서 사용 가능한 라이선스 관리](/help/quicksilver/administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)를 참조하십시오.
 
 ## 사용자 지정 Forms 영역의 업데이트된 목록
 

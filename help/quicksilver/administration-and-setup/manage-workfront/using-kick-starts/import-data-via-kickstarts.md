@@ -11,8 +11,8 @@ role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
 source-git-commit: 8e076e9c89ad208aa94ddefead4b8c6105992542
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2755'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 <!--Audited: 12/2023-->
 
-킥스타트는 특별히 형식이 지정된 Excel 통합 문서로, Workfront으로 가져올 데이터로 채울 수 있습니다. Adobe Workfront은에 설명된 대로 이 작업을 수행하는 데 사용할 수 있는 킥스타트 템플릿을 제공합니다 [킥스타트 데이터 가져오기](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-data-importer.md).
+킥스타트는 특별히 형식이 지정된 Excel 통합 문서로, Workfront으로 가져올 데이터로 채울 수 있습니다. Adobe Workfront에서는 [킥스타트 데이터 가져오기](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-data-importer.md)에 설명된 대로 킥스타트 템플릿을 제공하여 이 작업을 수행할 수 있습니다.
 
 이 프로세스는 다음 3가지 주요 작업으로 나뉩니다.
 
@@ -58,7 +58,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 <!--
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  -->
 
-1. 클릭 **시스템** > **데이터 가져오기(킥스타트)**.
+1. **시스템** > **데이터 가져오기(킥스타트)**&#x200B;를 클릭합니다.
 
 1. 포함할 정보 유형을 선택합니다.
 
@@ -97,9 +97,9 @@ ht-degree: 0%
     <col> 
     <thead> 
      <tr> 
-      <th> <p><strong>오브젝트</strong> </p> </th> 
+      <th> <p><strong>개체</strong> </p> </th> 
       <th> <p><strong>다음으로 내보내기</strong> </p> </th> 
-      <th> <p><strong>내보낸 스프레드시트의 시트</strong> </p> </th> 
+      <th> <p>내보낸 스프레드시트의 <strong>시트</strong> </p> </th> 
      </tr> 
     </thead> 
     <tbody> 
@@ -140,7 +140,7 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td> <p>사용자</p> </td> 
-      <td> <p>Excel 파일로 내보냅니다. 옵션의 전체 목록을 보려면 <strong>추가 옵션</strong>.</p> </td> 
+      <td> <p>Excel 파일로 내보냅니다. 전체 옵션 목록을 보려면 <strong>추가 옵션</strong>을 클릭하세요.</p> </td> 
       <td> <p>사용자</p> <p>환경 설정</p> </td> 
      </tr> 
      <tr> 
@@ -278,8 +278,8 @@ ht-degree: 0%
     </tbody> 
    </table>
 
-1. 클릭 **다운로드**.
-1. 계속 [데이터로 스프레드시트 템플릿 채우기](#populate-the-spreadsheet-template-with-your-data) 빈 템플릿 스프레드시트를 정보로 채웁니다.
+1. **다운로드**&#x200B;를 클릭합니다.
+1. [스프레드시트를 데이터로 채우기](#populate-the-spreadsheet-template-with-your-data)를 선택하여 빈 템플릿 스프레드시트를 정보로 채웁니다.
 
 ## 데이터로 스프레드시트 템플릿 채우기 {#populate-the-spreadsheet-template-with-your-data}
 
@@ -293,7 +293,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->킥스타트 템플릿을 채울 때 각 열의 정보 형식을 지정해야 하는 방법을 더 잘 이해하려면 가져오려는 개체에서 기존 Workfront 데이터로 킥스타트를 내보내는 연습을 고려해 보십시오. 자세한 내용은 [킥스타트를 통해 Adobe Workfront에서 데이터 내보내기](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
+>킥스타트 템플릿을 채울 때 각 열의 정보 형식을 지정해야 하는 방법을 더 잘 이해하려면 가져오려는 개체에서 기존 Workfront 데이터로 킥스타트를 내보내는 연습을 고려해 보십시오. 지침은 [킥스타트를 통해 Adobe Workfront에서 데이터 내보내기](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)를 참조하십시오.
 
 빈 킥스타트 템플릿을 열면 다양한 탭(데이터 시트)을 사용할 수 있습니다. 다운로드하도록 선택한 객체에 따라 다릅니다. 각 객체는 프로젝트, 작업, 시간, 대시보드 및 사용자와 같은 애플리케이션의 객체를 나타냅니다.
 
@@ -309,28 +309,28 @@ ht-degree: 0%
 >
 >     그러나 필수 필드에 시스템 기본 설정에 설정된 기본값이 포함되어 있으면 이를 채우지 않아도 됩니다.
 >
->     예를 들어 **프로젝트 프로젝트** 탭, **setCondition** 및 **setConditionType** 필드는 비워 둘 수 있지만 **집합 ID** 및 **setName** 열은 사용할 수 없습니다.
+>     예를 들어 **PROJ 프로젝트** 탭에서 **setCondition** 및 **setConditionType** 필드는 비워 둘 수 있지만 **setGroupID** 및 **setName** 열은 비워 둘 수 없습니다.
 >
->* 특정 필드: **setResourceRevenue** 및 **setEnteredByID**&#x200B;는 시스템에서 자동으로 생성됩니다. 스프레드시트에서 이러한 필드에 대한 데이터를 입력하면 스프레드시트를 업로드할 때 킥스타트 프로세스가 우선합니다.
+>* **setResourceRevenue** 및 **setEnteredByID**&#x200B;을(를) 포함한 특정 필드는 시스템에서 자동으로 생성됩니다. 스프레드시트에서 이러한 필드에 대한 데이터를 입력하면 스프레드시트를 업로드할 때 킥스타트 프로세스가 우선합니다.
 
 ### 레코드 가져오기  {#import-a-record}
 
 시트의 각 행은 고유한 오브젝트에 해당합니다.
 
-1. 에 정보 추가 **isNew** 열:
+1. **isNew** 열에 정보 추가:
 
-   * 가져오려는 개체가 새 개체인 경우 **참** 행에서 데이터를 가져옵니다. 이 값은 대/소문자를 구분하므로 항상 모두 대문자로 입력해야 합니다.
-   * 개체가 이미 Workfront에 있는 경우 **FALSE** 다음에서 **isNew** 행을 무시하는 열입니다. 이 값은 대/소문자를 구분하므로 항상 모두 대문자로 입력해야 합니다.
+   * 가져오려는 개체가 새 개체인 경우 **TRUE**&#x200B;를 입력하여 행의 데이터를 가져옵니다. 이 값은 대/소문자를 구분하므로 항상 모두 대문자로 입력해야 합니다.
+   * 개체가 이미 Workfront에 있는 경우 **isNew** 열에 **FALSE**&#x200B;을(를) 입력하여 행을 무시합니다. 이 값은 대/소문자를 구분하므로 항상 모두 대문자로 입력해야 합니다.
 
       * Workfront에 이미 존재하는 레코드는 업데이트되지 않습니다.
-      * Workfront의 데이터가 있는 템플릿을 다운로드한 경우 기존 개체가 이미 로 표시되어 있습니다. **FALSE**.
+      * Workfront의 데이터가 있는 템플릿을 다운로드한 경우 기존 개체가 이미 **FALSE**(으)로 표시되어 있습니다.
       * 빈 템플릿을 다운로드한 경우에는 기존 객체에 대해 새 행을 추가할 필요가 없습니다.
 
-1. 에 정보 추가 **ID** 다음 방법 중 하나로 열을 만듭니다.
+1. 다음 방법 중 하나로 **ID** 열에 정보를 추가하십시오.
 
-   * 가져오려는 개체가 새 개체인 경우(입력한 경우) **참** 다음에서 **isNew** 열)에서 ID에 대한 숫자를 입력합니다. 이 번호는 스프레드시트에서 고유해야 합니다. 예를 들어 세 개의 객체를 가져오는 경우 객체 각각에 대해 1, 2, 3의 ID를 부여할 수 있습니다.
+   * 가져오려는 개체가 새 개체이고 **isNew** 열에 **TRUE**&#x200B;을(를) 입력한 경우 ID에 숫자를 입력합니다. 이 번호는 스프레드시트에서 고유해야 합니다. 예를 들어 세 개의 객체를 가져오는 경우 객체 각각에 대해 1, 2, 3의 ID를 부여할 수 있습니다.
 
-   * 개체가 Workfront에 이미 있는 경우 (및 **FALSE** 다음에 있음 **isNew** column)을 사용하고 기존 개체에 대한 새 정보를 가져오는 경우 ID는 해당 개체의 Workfront에 있는 영숫자 GUID여야 합니다.
+   * 개체가 Workfront에 이미 있고 **FALSE**&#x200B;이(가) **isNew** 열에 있는 경우 기존 개체에 대한 새 정보를 가져오는 경우 ID는 해당 개체에 대해 Workfront에 있는 영숫자 GUID여야 합니다.
 
    >[!TIP]
    >
@@ -338,29 +338,29 @@ ht-degree: 0%
 
    * Workfront에 이미 존재하는 레코드는 업데이트되지 않습니다.
    * 데이터가 있는 템플릿을 다운로드한 경우 기존 개체에는 이미 ID로 GUID가 포함되어 있습니다.
-   * 를 변경하여 기존 개체를 기반으로 새 개체를 가져올 수 있습니다 **FALSE** 끝 **참** 다음에서 **isNew** 열, ID 변경 및 가져오기 전에 필요한 데이터 조정
+   * **isNew** 열에서 **FALSE**&#x200B;을(를) **TRUE**(으)로 변경하고, ID를 변경하고, 가져오기 전에 필요한 데이터를 조정하여 기존 개체를 기반으로 새 개체를 가져올 수 있습니다.
 
    ![그룹에 대한 샘플 ID](assets/kick-start-group-example.png)
 
    * 프로젝트를 가져올 때 그룹 ID를 표시해야 합니다.
 
-      * 그룹이 Workfront에 이미 있는 경우 고유한 ID를 **집합 ID** 프로젝트용 필드입니다.
-      * 그룹이 Workfront에 없는 경우 **그룹** 시트를 가져오기 파일로 설정한 다음 **isNew** 필드 대상 **참** 그룹 시트에서 새 그룹의 숫자 ID를 **ID** 열. 다음 **집합 ID** 새 프로젝트의 필드는 숫자와 일치해야 합니다. **ID** 새 그룹용입니다.
+      * 그룹이 Workfront에 이미 있는 경우 프로젝트의 **setGroupID** 필드에 해당 고유 ID를 추가해야 합니다.
+      * 그룹이 Workfront에 없는 경우 가져오기 파일에 **그룹** 시트를 추가하고 그룹 시트의 **isNew** 필드를 **TRUE**(으)로 설정하고 **ID** 열에 새 그룹의 숫자 ID를 표시할 수 있습니다. 새 프로젝트의 **setGroupID** 필드는 새 그룹의 숫자 **ID**&#x200B;과(와) 일치해야 합니다.
 
-     **예:** 프로젝트의 경우 다음에 표시되는 값 **집합 ID** 열은 다음 중 하나여야 합니다.
+     **예:** 프로젝트의 경우 **setGroupID** 열에 표시되는 값은 다음 중 하나여야 합니다.
 
       * Workfront 인스턴스의 기존 그룹에 대한 GUID
-      * 의 ID 열에 있는 값(숫자) **그룹** 시트(가져오는 동안 새 그룹을 만드는 경우)
+      * 가져오는 동안 새 그룹을 만드는 경우 **그룹** 시트의 ID 열에 있는 값(숫자)입니다
 
 1. 가져오기 중에 채울 필수 필드 및 기타 필드의 입력 값.
 1. (선택 사항) 사용자 지정 데이터를 추가하려면:
 
    * 가져오기 프로세스에 포함할 각 사용자 정의 필드에 대해 새 열을 만듭니다.
-   * 해당 사용자 정의 필드에 대해 각 새 열의 이름을 다음과 같이 지정합니다. **DE:[Workfront에 표시되는 사용자 정의 필드의 이름]**. 예를 들어 사용자 정의 필드 &quot;DE: Departments&quot;를 만들 수 있습니다.
-   * 열에서 **setCategoryId**&#x200B;이 사용자 정의 필드가 있는 기존 사용자 정의 양식의 GUID를 입력합니다. 사용자 정의 데이터를 가져올 때 이 필드가 필요합니다.
+   * 해당 사용자 정의 필드에 대해 새 열 이름을 각각 다음과 같이 지정합니다. **DE:[Workfront에 표시되는 사용자 정의 필드의 이름]**. 예를 들어 사용자 정의 필드 &quot;DE: Departments&quot;를 만들 수 있습니다.
+   * **setCategoryID** 열에 이 사용자 지정 필드가 있는 기존 사용자 지정 양식의 GUID를 입력하십시오. 사용자 정의 데이터를 가져올 때 이 필드가 필요합니다.
    * 사용자 지정 필드(예: 라디오 단추, 확인란 또는 목록)에 여러 데이터 값을 추가해야 하는 경우 환경 설정 탭에 나열된 세로 막대 사용자 지정 데이터 구분 기호 &quot;|&quot;를 사용하여 값을 구분하십시오.
 
-     **예:** DE:Departments 열 아래에 A|D를 입력하여 사용자 정의 양식에서 부서 A 및 부서 D를 채웁니다.
+     **예:** DE:Departments 열 아래에 A|D를 입력하여 사용자 정의 양식의 부서 A 및 부서 D를 채웁니다.
 
 ### 날짜 포함  {#include-dates}
 
@@ -397,42 +397,42 @@ Workfront은 시간 값도 날짜의 일부로 허용합니다.
  <thead> 
   <tr> 
    <th> <p><strong>와일드카드</strong> </p> </th> 
-   <th> <p><strong>비헤이비어</strong> </p> </th> 
+   <th> <p><strong>동작</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> <p>$$오늘</p> </td> 
-   <td> <p>에 사용되는 경우 <strong>setDate</strong> 필드, 이 와일드카드는 킥스타트를 가져오는 날의 날짜를 자정으로 설정합니다.</p> <p>필터에서 와일드카드에 허용된 표준 구문을 사용하여 와일드카드를 수정할 수 있습니다.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>예: </b></span></span>실제로 가져오기를 수행하는 요일에 관계없이 프로젝트를 가져온 주의 월요일에 시작하도록 하려면 다음을 사용할 수 있습니다. <strong>$$TODAYbw</strong>. 이렇게 하면 프로젝트의 계획된 시작 일자가 일요일 오전 12시로 설정됩니다. 그 시간에는 프로젝트 일정이 안 될 수도 있어서 월요일 아침 9시에 시작될 거야.</p> </td> 
+   <td> <p>이 와일드카드는 <strong>setDate</strong> 필드에서 사용하는 경우 킥스타트를 가져올 때 날짜를 자정으로 설정합니다.</p> <p>필터에서 와일드카드에 허용된 표준 구문을 사용하여 와일드카드를 수정할 수 있습니다.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>예: </b></span></span>실제로 가져오기를 수행하는 날과 관계없이 프로젝트를 가져온 주의 월요일에 시작하려는 경우 <strong>$$TODAYbw</strong>을(를) 사용할 수 있습니다. 이렇게 하면 프로젝트의 계획된 시작 일자가 일요일 오전 12시로 설정됩니다. 그 시간에는 프로젝트 일정이 안 될 수도 있어서 월요일 아침 9시에 시작될 거야.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>$$NOW</p> </td> 
-   <td> <p>에 사용되는 경우 <strong>setDate</strong> 필드, 이 와일드카드는 킥스타트 가져오기 중에 레코드를 만드는 순간에 따라 날짜를 설정합니다.</p> <p>필터에서 와일드카드에 허용된 표준 구문을 사용하여 와일드카드를 수정할 수 있습니다.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>예: </b></span></span>프로젝트를 가져온 후 3시간 후에 시작하려면 다음을 사용할 수 있습니다. <strong>$$NOW+3h</strong>.</p> </td> 
+   <td> <p>이 와일드카드는 <strong>setDate</strong> 필드에서 사용하는 경우 킥스타트 가져오기 중에 레코드를 만드는 순간에 따라 날짜를 설정합니다.</p> <p>필터에서 와일드카드에 허용된 표준 구문을 사용하여 와일드카드를 수정할 수 있습니다.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>예: </b></span></span>프로젝트를 가져온 후 3시간 후에 시작하려면 <strong>$$NOW+3h</strong>을 사용할 수 있습니다.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>$$USER.ID</p> </td> 
-   <td> <p>에 사용되는 경우 <strong>setAssignedToID</strong> 또는 기타 userID 기반 필드인 경우 이 와일드카드는 작업을 할당하거나 가져오기를 수행하는 개인과 레코드를 연결합니다.</p> </td> 
+   <td> <p><strong>setAssignedToID</strong> 또는 다른 userID 기반 필드에서 사용하는 경우 이 와일드카드가 작업을 할당하거나 가져오기를 수행하는 개인과 레코드를 연결합니다.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>$$고객</p> </td> 
-   <td> <p>이 와일드카드는 특히 킥스타트 사용자 가져오기에 대해 추가되었습니다. Workfront 계정이 만들어지면 시스템 관리자 액세스 수준의 사용자가 만들어집니다. 기본 관리자에게 할당된 사용자 이름은 계정에서 다른 사용자를 만들 때 접두사로 사용할 수 있습니다.</p> <p>사용자 이름은 모든 고객에서 고유해야 하므로 John Smith와 같이 사용자 이름이 "jsmith"인 매우 일반적인 여러 개인이 있는 경우에 유용합니다. 사용자 이름 할당 앞에 기본 관리자 사용자 이름을 추가하면 각 사용자 이름이 고유합니다(예: <strong>$$CUSTOMER.jsmith</strong>).</p> <p>팁: 사용자 이름이 시스템 전체에서 고유한지 확인할 수 있는 보다 우아한 방법은 개인 이메일 주소를 <strong>setUsername</strong> 필드.</p> </td> 
+   <td> <p>이 와일드카드는 특히 킥스타트 사용자 가져오기에 대해 추가되었습니다. Workfront 계정이 만들어지면 시스템 관리자 액세스 수준의 사용자가 만들어집니다. 기본 관리자에게 할당된 사용자 이름은 계정에서 다른 사용자를 만들 때 접두사로 사용할 수 있습니다.</p> <p>사용자 이름은 모든 고객에서 고유해야 하므로 John Smith와 같이 사용자 이름이 "jsmith"인 매우 일반적인 여러 개인이 있는 경우에 유용합니다. 사용자 이름 할당 앞에 기본 관리자 사용자 이름을 추가하면 각 사용자 이름이 고유합니다(예: <strong>$$CUSTOMER.jsmith</strong>).</p> <p>팁: 사용자 이름이 시스템 전체에서 고유한지 확인할 수 있는 보다 우아한 방법은 <strong>setUsername</strong> 필드에 개인의 이메일 주소를 입력하는 것입니다.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### ID에 대한 속성 이름 대체  {#attribute-name-substitution-for-ids}
 
-가능하면 ID를 사용하는 것이 좋지만 를 설정할 때 한 시트에서 다른 시트로 ID를 상호 참조하기가 불편한 경우가 있습니다 **setAttributeID** 값. 열 머리글을 변경하여 이름별로 값을 참조할 수 있습니다.
+가능하면 항상 ID를 사용하는 것이 좋지만 **setAttributeID** 값을 설정할 때 한 시트에서 다른 시트로 ID를 상호 참조하는 것이 불편할 수 있습니다. 열 머리글을 변경하여 이름별로 값을 참조할 수 있습니다.
 
 **예:**
 
 * **프로젝트 가져오기**
 
-  프로젝트를 가져올 때 **집합 ID** 로 이동하여 프로젝트 중 **그룹** 시트, 각 그룹 ID를 기록하고 올바른 셀에 붙여 넣습니다(**집합 ID** 열) **프로젝트 프로젝트** 시트.
+  프로젝트를 가져올 때 **그룹** 시트로 이동하여 각 그룹 ID를 메모한 다음 **PROJ 프로젝트** 시트의 올바른 셀(**setGroupID** 열)에 붙여 넣어 프로젝트의 **setGroupID**&#x200B;을(를) 설정하십시오.
 
   이는 몇 개의 그룹과 프로젝트만으로 작업할 때는 가능하지만, 여러 개의 그룹과 프로젝트를 수행하는 경우에는 실용적이지 않습니다.
 
-  위에서 설명한 예에 대해 속성 이름 대체를 수행하려면 다음을 변경합니다 **집합 ID** 열 머리글에서 다음으로 **#setGroupID 이름 입력**. 그런 다음 이름별로 각 프로젝트의 그룹을 참조할 수 있습니다.
+  위에서 설명한 예제에 대해 특성 이름 대체를 수행하려면 **setGroupID** 열 헤더를 **#setGroupID GROUP 이름**(으)로 변경합니다. 그런 다음 이름별로 각 프로젝트의 그룹을 참조할 수 있습니다.
 
   >[!NOTE]
   >
@@ -440,7 +440,7 @@ Workfront은 시간 값도 날짜의 일부로 허용합니다.
 
 * **사용자 가져오기**
 
-  사용자를 가져올 때 다음을 입력하십시오. **setRoleId** 의 역할 목록에서 **역할 역할** 탭.
+  사용자를 가져올 때 **역할 역할** 탭의 역할 목록에서 **setRoleID**&#x200B;을(를) 채우십시오.
 
   일부 역할 ID는 계정에 이미 존재하는 레코드에 대한 ID이고, 다른 ID는 가져오는 동안 만들어지는 ID입니다.
 
@@ -448,9 +448,9 @@ Workfront은 시간 값도 날짜의 일부로 허용합니다.
 
   다음은 동일한 가져오기 파일에서 두 메서드를 모두 사용하는 방법입니다.
 
-   * 스프레드시트의 왼쪽에 열을 추가합니다. **setRoleId** 열.
-   * 새 열 이름 지정 **#setRoleID 이름 입력**.
-   * 기존 레코드에 대한 역할 할당의 경우 **#setRoleID 이름 입력** 열.
+   * 스프레드시트에서 **setRoleID** 열의 왼쪽에 열을 추가합니다.
+   * 새 열의 이름을 **#setRoleID역할 이름**(으)로 지정합니다.
+   * 기존 레코드에 역할을 할당하려면 **#setRoleID 역할 이름** 열에 역할 이름을 입력하십시오.
 
      새 역할 레코드에 역할을 할당하려면 setRoleID의 역할 시트에 할당한 ID를 입력합니다.
 
@@ -482,11 +482,11 @@ Excel 템플릿을 데이터로 채운 후 해당 데이터를 Workfront에 업�
 
 {{step-1-to-setup}}
 
-1. 클릭 **시스템** > **데이터 가져오기(킥스타트)**.
+1. **시스템** > **데이터 가져오기(킥스타트)**&#x200B;를 클릭합니다.
 
-1. 다음에서 **킥스타트 스프레드시트로 데이터 업로드** 섹션, 클릭 **파일 선택**&#x200B;을 클릭한 다음 채워진 스프레드시트로 이동하여 선택합니다.
+1. **킥스타트 스프레드시트로 데이터 업로드** 섹션에서 **파일 선택**&#x200B;을 클릭한 다음 채워진 스프레드시트로 이동하여 선택합니다.
 
-1. 클릭 **업로드.**
+1. **업로드**&#x200B;를 클릭합니다.
 
    Excel 파일을 Workfront에 업로드하는 데 5분 이상 걸리는 경우 애플리케이션 시간이 초과되어 Workfront에서 파일을 업로드할 수 없습니다.
 

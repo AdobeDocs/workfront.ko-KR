@@ -23,7 +23,7 @@ in January 2022
 </MadCap:conditionalText>
 -->
 
-2022년 4월 4일이 있는 주 22.2 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [22.2 릴리스 개요](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+2022년 4월 4일이 있는 주 22.2 릴리스에서 사용할 수 있는 모든 변경 사항 목록을 보려면 [22.2 릴리스 개요](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md)를 참조하십시오.
 
 ## 여러 오브젝트 유형에서 작동하도록 사용자 정의 양식 구성
 
@@ -33,20 +33,20 @@ in January 2022
 
 이 기능은 이전에 Workfront 시스템에서 만든 모든 사용자 정의 양식에서 작동합니다. 예를 들어 Task 객체 유형에 대해 작성된 사용자 정의 양식이 이미 있는 경우 이제 Project 및 Issue와 같은 다른 객체 유형에서도 작동하도록 양식을 구성할 수 있습니다.
 
-자세한 내용은 섹션을 참조하십시오 [사용자 정의 양식 만들기 시작](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#start) 이 문서에서 [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+자세한 내용은 문서 [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)에서 [사용자 정의 양식 만들기 시작](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#start) 섹션을 참조하십시오.
 
 >[!NOTE]
 >
->* 이 기능의 초기 미리보기 릴리스 당시 다중 오브젝트 사용자 정의 양식을 복사하는 기능이 일시적으로 비활성화되었습니다. 이 기능은 3월 24일에 활성화되었습니다. 사용자 정의 양식 복사에 대한 자세한 내용은 [사용자 정의 양식을 복사하여 새 양식 만들기](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md).
->* 계산된 사용자 지정 필드에서 참조하는 일부 필드가 양식에 대해 구성된 개체 유형과 호환되지 않을 수 있습니다. 이 해결 방법은 양식에 첨부된 개체에 따라 계산에서 다른 값을 출력할 수 있는 와일드카드입니다. 우리는 3월 24일에 와일드 카드를 추가했어요. 사용 방법에 대한 자세한 내용은 섹션을 참조하십시오 [다중 오브젝트 사용자 정의 양식의 계산된 사용자 정의 필드](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#calculat) 이 문서에서 [사용자 정의 양식에 계산된 데이터 추가](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
->* 사용자 정의 양식의 섹션 구분의 경우 양식에 대해 구성할 수 있는 모든 객체 유형에 대해 작동하는 공통 보기 및 편집 권한 집합을 만들었습니다. 한 가지 시나리오에서 이러한 권한 중 하나인 제한된 편집으로 인해 양식에 오류가 발생할 수 있음을 발견했습니다. 이 문제는 3월 24일에 수정되었습니다. 섹션 구분에 대한 자세한 내용은 [사용자 정의 양식에 섹션 구분 추가](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md).
+>* 이 기능의 초기 미리보기 릴리스 당시 다중 오브젝트 사용자 정의 양식을 복사하는 기능이 일시적으로 비활성화되었습니다. 이 기능은 3월 24일에 활성화되었습니다. 사용자 정의 양식을 복사하는 방법에 대한 자세한 내용은 [사용자 정의 양식을 복사하여 새 양식을 만들기](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md)를 참조하십시오.
+>* 계산된 사용자 지정 필드에서 참조하는 일부 필드가 양식에 대해 구성된 개체 유형과 호환되지 않을 수 있습니다. 이 해결 방법은 양식에 첨부된 개체에 따라 계산에서 다른 값을 출력할 수 있는 와일드카드입니다. 우리는 3월 24일에 와일드 카드를 추가했어요. 사용 방법에 대한 자세한 내용은 문서 [사용자 정의 양식에 계산된 데이터 추가](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)의 [다중 개체 사용자 정의 양식의 계산된 사용자 정의 필드](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#calculat) 섹션을 참조하십시오.
+>* 사용자 정의 양식의 섹션 구분의 경우 양식에 대해 구성할 수 있는 모든 객체 유형에 대해 작동하는 공통 보기 및 편집 권한 집합을 만들었습니다. 한 가지 시나리오에서 이러한 권한 중 하나인 제한된 편집으로 인해 양식에 오류가 발생할 수 있음을 발견했습니다. 이 문제는 3월 24일에 수정되었습니다. 섹션 구분에 대한 자세한 내용은 [사용자 정의 양식에 섹션 구분 추가](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)를 참조하십시오.
 >
 
 ## 블루프린트 카탈로그는 모든 사용자가 사용할 수 있으며 관리자는 요청을 허용할 수 있습니다.
 
-이제 모든 Adobe Workfront 사용자가 사용 가능한 블루프린트 카탈로그를 검색할 수 있습니다. 자세한 내용은 [블루프린트 카탈로그 검색 및 블루프린트 설치 요청](../../../administration-and-setup/blueprints/browse-catalog.md).
+이제 모든 Adobe Workfront 사용자가 사용 가능한 블루프린트 카탈로그를 검색할 수 있습니다. 자세한 내용은 [블루프린트 카탈로그 검색 및 블루프린트 설치 요청](../../../administration-and-setup/blueprints/browse-catalog.md)을 참조하세요.
 
-또한 시스템 관리자는 사용자가 블루프린트 설치를 요청할 수 있도록 액세스 권한을 설정할 수 있습니다. 요청을 저장할 요청 대기열을 할당하면 사용자가 블루프린트 카탈로그에서 요청을 할 수 있습니다. 자세한 내용은 [블루프린트에 대한 액세스 구성](../../../administration-and-setup/blueprints/configure-access-to-blueprints.md).
+또한 시스템 관리자는 사용자가 블루프린트 설치를 요청할 수 있도록 액세스 권한을 설정할 수 있습니다. 요청을 저장할 요청 대기열을 할당하면 사용자가 블루프린트 카탈로그에서 요청을 할 수 있습니다. 자세한 내용은 [블루프린트에 대한 액세스 구성](../../../administration-and-setup/blueprints/configure-access-to-blueprints.md)을 참조하십시오.
 
 ## 사용자 정의 양식에 이미지 추가
 
@@ -60,11 +60,11 @@ in January 2022
 >
 >항목을 대량 편집할 때 표시되는 상자와 같이 아직 현대화되지 않은 새로운 Adobe Workfront 경험 영역에서는 사용자 정의 양식 이미지가 표시되지 않습니다. 해당 영역을 계속 업데이트하면 표시됩니다.
 
-자세한 내용은 [사용자 정의 양식에서 에셋 위젯 추가 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+자세한 내용은 [사용자 정의 양식에서 자산 위젯 추가 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)을 참조하세요.
 
 ## 새로운 기본 액세스 수준 구성
 
-새 액세스 수준을 만드는 대부분의 관리자의 요구에 더 잘 부합하도록 아래 나열된 &quot;설정 세부 조정&quot; 옵션에 대한 기본 구성을 변경했습니다. 톱니바퀴 아이콘을 클릭하면 표시됩니다 ![](assets/gear-icon-in-access-levels.png) (편집 단추)
+새 액세스 수준을 만드는 대부분의 관리자의 요구에 더 잘 부합하도록 아래 나열된 &quot;설정 세부 조정&quot; 옵션에 대한 기본 구성을 변경했습니다. 편집 단추에서 톱니바퀴 아이콘 ![](assets/gear-icon-in-access-levels.png)을(를) 클릭하면 표시됩니다.
 
 이러한 모든 변경 사항은 이전에 기본적으로 활성화되었던 옵션을 비활성화합니다. 조직의 요구 사항에 맞지 않으면 새 액세스 수준을 설정할 때 또는 나중에 언제든지 활성화할 수 있습니다.
 
@@ -95,13 +95,13 @@ in January 2022
 
 이전에는 그룹을 비활성화할 수 없었습니다.
 
-자세한 내용은 [그룹 비활성화 또는 재활성화](../../../administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
+자세한 내용은 [그룹 비활성화 또는 다시 활성화](../../../administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md)를 참조하십시오.
 
 ## 블루프린트 설치 기록 개선 사항
 
 이제 블루프린트를 설치할 때 메시지에 블루프린트와 함께 성공적으로 설치된 특정 개체(예: 역할, 팀 또는 그룹) 및 설치하지 못한 모든 개체가 표시됩니다. 또한 설치 기록 테이블에서 특정 설치 옆에 있는 세부 정보 보기를 눌러 블루프린트 세부 정보 페이지에서 설치된 객체 목록을 볼 수도 있습니다.
 
-자세한 내용은 [블루프린트 설치](../../../administration-and-setup/blueprints/blueprints-install.md).
+자세한 내용은 [블루프린트 설치](../../../administration-and-setup/blueprints/blueprints-install.md)를 참조하십시오.
 
 ![](assets/blueprints-installation-history-350x95.png)
 
@@ -111,4 +111,4 @@ in January 2022
 
 프로덕션 환경, 샌드박스 1 또는 샌드박스 2에서 미리보기 전용 콘텐츠에 액세스하는 경우 설치 버튼이 활성화되지 않고 경고 메시지가 표시될 수 있습니다.
 
-자세한 내용은 [블루프린트 설치](../../../administration-and-setup/blueprints/blueprints-install.md).
+자세한 내용은 [블루프린트 설치](../../../administration-and-setup/blueprints/blueprints-install.md)를 참조하십시오.

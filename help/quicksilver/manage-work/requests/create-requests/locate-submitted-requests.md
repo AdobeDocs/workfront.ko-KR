@@ -10,7 +10,7 @@ role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '870'
 ht-degree: 1%
 
 ---
@@ -21,8 +21,8 @@ ht-degree: 1%
 
 본인이나 다른 사람이 제출한 다음 유형의 요청이나 시작했지만 제출하지 않은 요청을 찾을 수 있습니다. Adobe Workfront의 다음 영역에서 이러한 요청을 찾을 수 있습니다.
 
-* **제출된 섹션**: 본인 또는 다른 사람이 제출하고 최소 보기에 대한 액세스 권한이 있는 모든 요청입니다.
-* **초안 섹션** : 시작했지만 완료하지 않았고 제출하지 않은 모든 요청. 초안 요청에 대한 자세한 내용은 다음을 참조하십시오. [Adobe Workfront 요청 만들기 및 제출](../../../manage-work/requests/create-requests/create-submit-requests.md).
+* **제출된 섹션**: 귀하 또는 다른 사람이 제출한 모든 요청이며 귀하는 최소한 보기에 액세스할 수 있습니다.
+* **초안 섹션** : 시작했지만 완료하지 않았고 제출한 적이 없는 모든 요청. 초안 요청에 대한 자세한 내용은 [Adobe Workfront 요청 만들기 및 제출](../../../manage-work/requests/create-requests/create-submit-requests.md)을 참조하십시오.
 
   >[!TIP]
   >
@@ -38,7 +38,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든 </p> </td> 
+   <td> <p>임의 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스 개요*</td> 
@@ -48,11 +48,11 @@ ht-degree: 1%
    <td role="rowheader">액세스 수준 구성*</td> 
    <td> <p>문제에 대한 액세스 편집</p> <p><b>메모</b>
 
-여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td>
+여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>요청 이상에 대한 권한 보기</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>요청 이상에 대한 권한 보기</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,8 +63,8 @@ ht-degree: 1%
 
 사용자 또는 다른 사용자가 제출한 요청을 찾으려면 다음을 수행합니다.
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront 오른쪽 상단에 있습니다.
-1. 클릭 **제출됨** 을 클릭하여 모든 제출된 요청을 확인합니다.
+1. Adobe Workfront 오른쪽 상단의 **주 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭합니다.
+1. 제출된 모든 요청을 보려면 왼쪽 패널의 **제출됨**&#x200B;을 클릭합니다.
 
    최대 2000개의 요청을 볼 수 있으며 여러 페이지에 표시될 수 있습니다.
 
@@ -85,7 +85,7 @@ ht-degree: 1%
          <td role="rowheader">이름</td> 
          <td> <p>요청의 이름입니다.</p> <p>요청 이름을 클릭하여 엽니다. </p> <p><b>팁</b>
 
-   작업 또는 프로젝트로 전환할 때 문제가 유지되지 않으면 문제의 이름이 흐리게 표시되어 더 이상 클릭할 수 없습니다. 문제 변환에 대한 자세한 내용은 <a href="../../../manage-work/issues/convert-issues/convert-issues.md" class="MCXref xref">Adobe Workfront의 문제 전환 개요</a>. </p> </td>
+   작업 또는 프로젝트로 전환할 때 문제가 유지되지 않으면 문제의 이름이 흐리게 표시되어 더 이상 클릭할 수 없습니다. 문제 변환에 대한 자세한 내용은 <a href="../../../manage-work/issues/convert-issues/convert-issues.md" class="MCXref xref">Adobe Workfront의 문제 변환 개요</a>를 참조하십시오. </p> </td>
    </tr> 
       <tr> 
          <td role="rowheader">전환 대상:</td> 
@@ -100,7 +100,7 @@ ht-degree: 1%
          <td>요청 또는 해결 중 오브젝트(작업 또는 프로젝트)의 현재 상태</td> 
       </tr> 
       <tr> 
-         <td role="rowheader">시작 날짜</td> 
+         <td role="rowheader">입력 일자</td> 
          <td>요청이 제출된 날짜 또는 전환 시 요청이 삭제된 경우 해결 중 오브젝트가 생성된 날짜입니다. </td> 
       </tr> 
       <tr> 
@@ -116,17 +116,17 @@ ht-degree: 1%
    >
    >제출된 요청 목록에서 멀리 이동하면 선택한 정렬 옵션이 유지됩니다.
 
-1. (선택 사항) 목록에서 요청을 선택한 다음 **요약 열기** 아이콘 ![](assets/open-summary-with-text-nwe.png) 요약 패널을 열고 요청에 대한 추가 정보를 표시하려면 설명, 문서를 추가하거나 할당합니다. 요약 패널에 대한 자세한 내용은 [요약 개요](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+1. (선택 사항) 목록에서 요청을 선택한 다음 **요약 열기** 아이콘 ![](assets/open-summary-with-text-nwe.png)을(를) 클릭하여 요약 패널을 열고 요청에 대한 추가 정보를 표시하거나 설명, 문서를 추가하거나 할당합니다. 요약 패널에 대한 자세한 내용은 [요약 개요](../../../workfront-basics/the-new-workfront-experience/summary-overview.md)를 참조하십시오.
 
    >[!TIP]
    >
    >요약 패널이 이미 열려 있는 경우 요약 열기 아이콘이 요약 닫기로 변경됩니다.
 
-1. (선택 사항 및 조건부) **X** 아이콘(오른쪽 위) 또는 **요약 닫기** 아이콘 ![](assets/close-summary-with-text-nwe.png) 요약 패널을 닫습니다.
+1. (선택 사항 및 조건부) 오른쪽 위의 **X** 아이콘 또는 **요약 닫기** 아이콘 ![](assets/close-summary-with-text-nwe.png)을 클릭하여 요약 패널을 닫습니다.
 
-   문제가 작업 또는 프로젝트로 전환되고 전환 프로세스에서 문제가 삭제된 경우 요약 패널이 비어 있습니다. 문제 변환에 대한 자세한 내용은 [Adobe Workfront의 문제 전환 개요](../../../manage-work/issues/convert-issues/convert-issues.md).
+   문제가 작업 또는 프로젝트로 전환되고 전환 프로세스에서 문제가 삭제된 경우 요약 패널이 비어 있습니다. 문제 변환에 대한 자세한 내용은 [Adobe Workfront의 문제 변환 개요](../../../manage-work/issues/convert-issues/convert-issues.md)를 참조하십시오.
 
-1. 다음에서 **필터 아이콘** ![](assets/filter-nwepng.png) 목록의 오른쪽 상단에서 아래 표에 나열된 필터를 선택합니다.
+1. 목록의 오른쪽 상단에 있는 **필터 아이콘** ![](assets/filter-nwepng.png)에서 아래 표에 나열된 필터를 선택하십시오.
 
    >[!TIP]
    >
@@ -159,7 +159,7 @@ ht-degree: 1%
     </tbody> 
    </table>
 
-1. (선택 사항) **페이지 필터링** 아이콘 ![](assets/search-icon.png) 을 눌러 이름으로 요청을 검색합니다. 목록이 검색 기준과 일치하는 결과로 업데이트됩니다.
+1. (선택 사항) 이름 순으로 요청을 검색하려면 목록 맨 위에 있는 **페이지 필터링** 아이콘 ![](assets/search-icon.png)을(를) 클릭합니다. 목록이 검색 기준과 일치하는 결과로 업데이트됩니다.
 
    <!--
    <li value="9" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Click the&nbsp;<strong>Complete</strong> subtab to view requests that have been completed.</p> <p>(NOTE: this step will stay drafted even after release. We can't see Completed at this time!) <br>Requests with an Actual Completion Date or whose resolving object has an Actual Completion Date are listed in the Complete subtab.<br>Once a request receives an Actual Completion Date, it stays in the Recently Completed area for 10 business days. After that, it is moved to the Completed area. <br>For information about resolving and resolvable objects, see the article <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</p> </li>
@@ -184,7 +184,7 @@ ht-degree: 1%
    </ul></li>
    -->
 
-1. 클릭 **초안** 모든 초안 요청을 봅니다. Workfront은 이 폴더의 각 요청 대기열에 대해 초안을 무제한으로 저장합니다. 이미 초안이 있는 대기열 주제에 대한 새 요청을 입력하면 기존 초안을 사용하라는 메시지가 표시됩니다. 자세한 내용은 [초안에서 요청 만들기](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
+1. 모든 초안 요청을 보려면 **초안**&#x200B;을 클릭하십시오. Workfront은 이 폴더의 각 요청 대기열에 대해 초안을 무제한으로 저장합니다. 이미 초안이 있는 대기열 주제에 대한 새 요청을 입력하면 기존 초안을 사용하라는 메시지가 표시됩니다. 자세한 내용은 [초안에서 요청 만들기](../../../manage-work/requests/create-requests/create-requests-from-drafts.md)를 참조하십시오.
 
  
 

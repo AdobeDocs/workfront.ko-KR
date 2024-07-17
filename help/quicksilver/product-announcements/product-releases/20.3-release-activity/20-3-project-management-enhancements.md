@@ -18,7 +18,7 @@ ht-degree: 0%
 
 이 페이지에서는 프로덕션 환경에 대한 20.3 릴리스의 모든 프로젝트 관리 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2020년 8월 10일 주에 프로덕션 환경에서 사용할 수 있습니다.
 
-20.3 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [20.3 릴리스 개요](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
+20.3 릴리스에서 사용할 수 있는 모든 변경 사항 목록은 [20.3 릴리스 개요](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md)를 참조하십시오.
 
 ## 목록의 사용자 정의 필드 서식
 
@@ -28,9 +28,9 @@ ht-degree: 0%
 
 이제 시스템 관리자가 서식을 지정하도록 구성된 사용자 정의 양식 필드를 만들 때 해당 필드를 가장 많이 사용하는 필드(Workfront 전체의 목록)의 텍스트에 서식을 지정할 수 있습니다. 세부 정보 영역으로 이동하여 사용자 정의 양식의 텍스트 서식을 지정하는 대신 목록의 필드를 클릭하고 텍스트에 볼드체, 이탤릭체 및 밑줄을 적용할 수 있습니다.
 
-이 기능은 업데이트된 목록에서만 사용할 수 있습니다. 업데이트된 목록에 대한 자세한 내용은 [Adobe Workfront에서 목록 시작](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+이 기능은 업데이트된 목록에서만 사용할 수 있습니다. 업데이트된 목록에 대한 자세한 내용은 [Adobe Workfront 목록 시작](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)을 참조하세요.
 
-Workfront 관리자가 서식을 사용하여 텍스트 필드를 만드는 방법에 대한 자세한 내용은 [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Workfront 관리자가 서식을 지정하여 텍스트 필드를 만드는 방법에 대한 자세한 내용은 [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)을 참조하십시오.
 
 ## 여러 글로벌 헤더의 모양과 느낌이 업데이트됨
 
@@ -60,7 +60,7 @@ Workfront 관리자가 서식을 사용하여 텍스트 필드를 만드는 방�
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about the new Edit Box box, see "New Edit Object box" (NEW ARTICLE, LINK LATER!!).</p>
 -->
 
-새 프로젝트 편집 상자에 대한 자세한 내용은 [프로젝트 편집](../../../manage-work/projects/manage-projects/edit-projects.md).
+새 프로젝트 편집 상자에 대한 자세한 내용은 [프로젝트 편집](../../../manage-work/projects/manage-projects/edit-projects.md)을 참조하십시오.
 
 ## 문서 목록의 새 요약 패널 및 업데이트 개선 사항
 
@@ -72,7 +72,7 @@ Workfront 관리자가 서식을 사용하여 텍스트 필드를 만드는 방�
 
 일부 작업은 현재 사용할 수 없지만 향후 릴리스에 추가됩니다. 이러한 작업에는 증명 워크플로가 포함됩니다.
 
-자세한 내용은 [문서에 대한 요약 개요](../../../documents/managing-documents/summary-for-documents.md).
+자세한 내용은 [문서에 대한 요약 개요](../../../documents/managing-documents/summary-for-documents.md)를 참조하십시오.
 
 ## 문서 세부 정보 개선 사항
 
@@ -87,7 +87,7 @@ Workfront 관리자가 서식을 사용하여 텍스트 필드를 만드는 방�
 * 보다 큰 미리보기 축소판을 통해 문서를 쉽게 식별할 수 있습니다.
 * 여러 필드를 한 번에 편집할 수 있는 전역 편집 아이콘이 추가되었습니다.
 
-자세한 내용은 [문서 세부 정보 개요](../../../documents/managing-documents/document-details-overview.md).
+자세한 내용은 [문서 세부 정보 개요](../../../documents/managing-documents/document-details-overview.md)를 참조하십시오.
 
 ## 관리자의 경우: 그룹 수준에서 프로젝트 환경 설정 지정
 
@@ -99,7 +99,7 @@ Workfront 관리자가 서식을 사용하여 텍스트 필드를 만드는 방�
 
 타임라인 계산 및 사용자 정의 분기를 제외한 모든 프로젝트 환경 설정은 그룹 수준에서 사용자 정의할 수 있습니다.
 
-그룹 프로젝트 환경 설정에 대한 자세한 내용은 [그룹에 대한 프로젝트 환경 설정 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
+그룹 프로젝트 환경 설정에 대한 자세한 내용은 [그룹에 대한 프로젝트 환경 설정 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)을 참조하십시오.
 
 ## 관리자용 새로운 기능: 사용자가 텍스트 서식을 지정할 수 있는 사용자 정의 양식 필드 만들기
 
@@ -109,9 +109,9 @@ Workfront 관리자가 서식을 사용하여 텍스트 필드를 만드는 방�
 
 ## 관리자용 새로운 기능: 사용자 정의 양식 필드에 대한 내부 이름과 사용자 대면 레이블을 모두 만듭니다.
 
-이제 사용자 정의 양식 필드에 레이블을 지정하고 레이블을 다시 지정할 때 보다 유연하게 사용할 수 있도록 내부 라이브러리를 만들 수 있습니다 *이름* 사용자 대면 필드 *레이블* 을(를) 사용하고 있습니다. 이렇게 하면 시스템에 표시되는 필드 이름을 변경하지 않고 사용자에게 표시되는 필드 레이블을 자유롭게 변경할 수 있습니다.
+사용자 정의 양식 필드에 레이블을 지정하고 레이블을 다시 지정할 때 보다 유연하게 사용할 수 있도록 이전에 사용했던 사용자 지정 *레이블* 외에 필드에 대한 내부 *이름*&#x200B;을(를) 만들 수 있습니다. 이렇게 하면 시스템에 표시되는 필드 이름을 변경하지 않고 사용자에게 표시되는 필드 레이블을 자유롭게 변경할 수 있습니다.
 
 이전에는 레이블이 사용자용 필드 위에 표시되고 시스템에서 필드를 식별하는 데 사용되었습니다. 따라서 시스템에서 더 이상 식별할 수 없기 때문에 사용자가 사용할 수 있는 레이블을 변경하면 필드가 제대로 작동하지 않습니다.
 
-자세한 내용은 [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+자세한 내용은 [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)을 참조하세요.
 

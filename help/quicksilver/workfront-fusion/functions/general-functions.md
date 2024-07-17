@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ---
 
-# 의 일반 함수 [!DNL Adobe Workfront Fusion]
+# [!DNL Adobe Workfront Fusion]의 일반 함수
 
 ## 액세스 요구 사항
 
@@ -36,27 +36,27 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] 라이선스**</td> 
    <td>
-   <p>현재 라이선스 요구 사항: 아니요 [!DNL Workfront Fusion] 라이센스 요구 사항.</p>
+   <p>현재 라이선스 요구 사항: [!DNL Workfront Fusion] 라이선스 요구 사항이 없습니다.</p>
    <p>또는</p>
-   <p>기존 라이선스 요구 사항: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
+   <p>레거시 라이선스 요구 사항: 작업 자동화 및 통합을 위한 [!UICONTROL [!DNL Workfront Fusion]] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">제품</td> 
    <td>
-   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime]이 있는 경우 [!DNL Adobe Workfront] 플랜, 조직은 다음을 구매해야 합니다. [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오. [!DNL Workfront Fusion] [!UICONTROL Ultimate]에 포함되어 있습니다. [!DNL Workfront] 계획.</p>
+   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime] [!DNL Adobe Workfront] 플랜이 있는 경우 조직에서 이 문서에 설명된 기능을 사용하려면 [!DNL Adobe Workfront Fusion]과(와) [!DNL Adobe Workfront]을(를) 구매해야 합니다. [!DNL Workfront Fusion]이(가) [!UICONTROL Ultimate] [!DNL Workfront] 계획에 포함되어 있습니다.</p>
    <p>또는</p>
-   <p>레거시 제품 요구 사항: 조직에서 구매해야 함 [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오.</p>
+   <p>레거시 제품 요구 사항: 이 문서에 설명된 기능을 사용하려면 조직에서 [!DNL Adobe Workfront Fusion]과(와) [!DNL Adobe Workfront]을(를) 구매해야 합니다.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
+보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
 
-다음에 대한 정보: [!DNL Adobe Workfront Fusion] 라이센스, 참조 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+[!DNL Adobe Workfront Fusion] 라이선스에 대한 자세한 내용은 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md)를 참조하세요.
 
-## [!UICONTROL get(객체 또는 배열, 경로)]
+## [!UICONTROL get(개체 또는 배열, 경로)]
 
 개체 또는 배열의 값 경로를 반환합니다. 중첩된 오브젝트에 액세스하려면 점 표기법을 사용하십시오. 배열의 첫 번째 항목은 인덱스 1입니다.
 
@@ -69,9 +69,9 @@ ht-degree: 0%
 >* `get( object ; raw_name )`
 >* `get( object ; raw_name.sub_raw_name )`
 
-## [!UICONTROL if (표현식; value1; value2)]
+## [!UICONTROL if (expression; value1; value2)]
 
-다음을 반환합니다. `value1` 표현식이 true로 평가되는 경우, 그렇지 않으면 `value2`.
+식이 true로 평가되면 `value1`을(를) 반환합니다. 그렇지 않으면 `value2`을(를) 반환합니다.
 
 >[!INFO]
 >
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 ## [!UICONTROL ifempty (value1; value2)]
 
-다음을 반환합니다. `value1` 이 값이 비어 있지 않으면 `value2`.
+이 값이 비어 있지 않으면 `value1`을(를) 반환합니다. 그렇지 않으면 `value2`을(를) 반환합니다.
 
 >[!INFO]
 >
@@ -125,7 +125,7 @@ ht-degree: 0%
 >
 >  반환 4
 
-## [!UICONTROL omthing(object; key1; [키2; ...])]
+## [!UICONTROL 생략(object; key1; [key2; ...])]
 
 개체의 지정된 키를 생략하고 나머지 키를 반환합니다.
 
@@ -137,7 +137,7 @@ ht-degree: 0%
 >
 >암호를 제외한 사용자 정보의 컬렉션을 반환합니다.
 
-## [!UICONTROL pick(object; key1; [키2; ...])]
+## [!UICONTROL pick(object; key1; [key2; ...])]
 
 개체에서 지정된 키만 선택합니다.
 
@@ -145,6 +145,6 @@ ht-degree: 0%
 >
 >**예:**
 >
->`pick(` 사용자 `;` 암호 `;` 이메일 `)`
+>`pick(` 사용자 `;` 암호 `;` 전자 메일 `)`
 >
 >사용자의 암호와 전자 메일 주소만 모아 놓은 컬렉션을 반환합니다.

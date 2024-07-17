@@ -54,7 +54,7 @@ ht-degree: 1%
 </table>
 
 &#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
-액세스 요구 사항에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+액세스 요구 사항에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -76,14 +76,14 @@ ht-degree: 1%
 >
 >표준 모드에서 가능한 한 많은 보기를 작성한 다음 텍스트 모드로 변환하여 편집하는 것이 좋습니다.
 
-빌딩 보기에 대한 자세한 내용은 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+뷰 빌드에 대한 자세한 내용은 [Adobe Workfront의 뷰 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)를 참조하십시오.
 
-보고서 만들기에 대한 자세한 내용은 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+보고서 만들기에 대한 자세한 내용은 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)를 참조하십시오.
 
 1. 다음 중 하나를 수행하십시오.
 
-   1. 보고서에서 보기에 액세스하려면 보고서로 이동한 다음 를 클릭합니다. **보고서 작업** > **편집** > **열(보기)** 탭.
-   1. 목록에서 보기에 액세스하려면 목록으로 이동한 후 **보기** 드롭다운 메뉴를 수정하려는 뷰를 마우스로 가리킨 다음 **편집** 아이콘 ![](assets/edit-icon.png).
+   1. 보고서에서 보기에 액세스하려면 보고서로 이동한 다음 **보고서 작업** > **편집** > **열(보기)** 탭을 클릭합니다.
+   1. 목록에서 보기에 액세스하려면 목록으로 이동한 후 **보기** 드롭다운 메뉴에서 수정할 보기를 마우스로 가리키고 **편집** 아이콘 ![](assets/edit-icon.png)을(를) 클릭합니다.
 
       뷰 빌더 가 열립니다.
 
@@ -91,17 +91,17 @@ ht-degree: 1%
 
    또는
 
-   다음 항목 선택 **열(보기)** report builder의 탭에서 열을 선택합니다.
+   Report Builder의 **열(보기)** 탭을 선택한 다음 열을 선택합니다.
 
    >[!TIP]
    >
    >텍스트 모드를 사용하여 뷰를 편집하려면 한 번에 한 열씩 편집해야 합니다.
 
-1. 클릭 **텍스트 모드로 전환** 빌더의 오른쪽 상단 모서리에서 을 클릭합니다.
+1. 빌더의 오른쪽 위 모서리에서 **텍스트 모드로 전환**&#x200B;을 클릭합니다.
 
    >[!NOTE]
    >
-   >텍스트 모드에서 열을 편집하면 Workfront이 다음을 추가합니다. `textmode=true` 열에 대한 코드 행입니다. 텍스트 모드에서 열이 수정되었음을 나타냅니다.
+   >텍스트 모드에서 열을 편집하면 Workfront에서 `textmode=true` 코드 행을 열에 추가합니다. 텍스트 모드에서 열이 수정되었음을 나타냅니다.
 
    ![](assets/switch-to-text-mode-in-view-nwe-highlighted-350x447.png)
 
@@ -201,15 +201,15 @@ ht-degree: 1%
        </div>
 
    <div>
-      다음 <code>aggregator. </code>행에 다음이 포함될 수 있음: <code>valuefield </code>또는 <code>valueexpression</code>.
+      <code>aggregator. </code>줄에 <code>valuefield </code> 또는 <code>valueexpression</code>이(가) 포함될 수 있습니다.
        </div> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 클릭 **적용** 변경 내용을 저장하고 보기를 계속 편집하려면 다음을 수행하십시오.
-1. 클릭 **저장 + 닫기** 보고서를 저장합니다.
+1. 변경 내용을 저장하고 보기를 계속 편집하려면 **적용**&#x200B;을 클릭합니다.
+1. 보고서를 저장하려면 **저장 + 닫기**&#x200B;를 클릭하십시오.
 
    또는
 
-   클릭 **보기 저장** 를 클릭하여 보기를 목록에 저장합니다.
+   **보기 저장**&#x200B;을 클릭하여 목록에 보기를 저장합니다.

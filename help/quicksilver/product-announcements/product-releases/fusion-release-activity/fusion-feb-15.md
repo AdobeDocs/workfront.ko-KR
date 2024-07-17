@@ -18,11 +18,11 @@ ht-degree: 0%
 
 이 페이지에서는 2021년 2월 15일이 있는 주에 Adobe Workfront Fusion에서 향상된 모든 기능에 대해 설명합니다.
 
-최근 변경 사항의 목록은 다음을 참조하십시오. [Adobe Workfront Fusion 릴리스 활동](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+최근 모든 변경 사항의 목록은 [Adobe Workfront Fusion 릴리스 활동](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)을 참조하십시오.
 
-Workfront Fusion의 최근 버그 수정 목록은 다음을 참조하십시오. [Workfront 유지 보수 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) Workfront Fusion Maintenance Update로 레이블이 지정된 업데이트를 찾아 확인합니다.
+Workfront Fusion의 최근 버그 수정 목록을 보려면 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 페이지를 참조하고 Workfront Fusion 유지 관리 업데이트 레이블이 지정된 업데이트를 확인하십시오.
 
-이 릴리스에는 하나 이상의 유지 관리 업데이트도 포함되어 있습니다. Workfront Fusion 2.0 유지 관리 업데이트에 대한 자세한 내용은 다음을 참조하십시오. [Workfront 유지 보수 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+이 릴리스에는 하나 이상의 유지 관리 업데이트도 포함되어 있습니다. Workfront Fusion 2.0 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)를 참조하십시오.
 
 ## 이제 팀에서 이메일 알림 설정을 공유합니다.
 
@@ -34,7 +34,7 @@ Workfront Fusion의 최근 버그 수정 목록은 다음을 참조하십시오.
 >
 >Fusion은 조직의 각 팀에 대한 팀 수준에 조직 알림 설정을 적용합니다. 팀이 새로운 알림 기능을 활용하고 있는지 확인하려면 팀 수준에서 이메일 알림 설정을 업데이트하십시오.
 
-자세한 내용은 [Adobe Workfront Fusion 조직 및 팀](../../../workfront-fusion/organizations/organizations-and-teams.md).
+자세한 내용은 [Adobe Workfront Fusion 조직 및 팀](../../../workfront-fusion/organizations/organizations-and-teams.md)을 참조하세요.
 
 ## Workfront > 사용자 정의 API 호출 모듈에서 API 버전 선택
 
@@ -42,4 +42,4 @@ API 호출을 사용자 정의할 수 있도록 하기 위해 Workfront > 사용
 
 이전에는 이 모듈에 대한 Workfront API 버전을 선택할 수 없었습니다.
 
-자세한 내용은 [Adobe Workfront 모듈](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+자세한 내용은 [Adobe Workfront 모듈](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md)을 참조하세요.

@@ -15,4 +15,4 @@ ht-degree: 0%
 
 # 증명 삭제
 
-문서에서 증명을 삭제하려면 전체 문서를 삭제해야 합니다. 자세한 내용은 [문서 삭제](../../../documents/managing-documents/delete-documents.md).
+문서에서 증명을 삭제하려면 전체 문서를 삭제해야 합니다. 자세한 내용은 [문서 삭제](../../../documents/managing-documents/delete-documents.md)를 참조하십시오.

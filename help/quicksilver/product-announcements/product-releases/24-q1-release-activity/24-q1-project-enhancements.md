@@ -4,7 +4,8 @@ description: 2024년 1분기 프로젝트 개선 사항
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
+exl-id: 260e629d-361b-4022-8be0-7d2e7d66770f
+source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 이 페이지에서는 미리보기 환경에 대한 2024년 1분기 릴리스의 모든 프로젝트 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2024년 1분기 릴리스를 통해 프로덕션 환경에서 사용할 수 있습니다.
 
-2024년 1분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [2024년 1분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+2024년 1분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2024년 1분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)를 참조하십시오.
 
 ## 더 관련성 있는 스마트 할당
 
@@ -39,4 +40,4 @@ Workfront이 작업에 대한 스마트 할당을 계산하고 제안하는 데 
 
 * 문제에 대한 스마트 할당 계산 방식에는 변경 사항이 없습니다. 문제 목록의 스마트 할당 목록 이름은 &quot;다음 몇 가지 권장 사항&quot;입니다.
 
-자세한 내용은 [스마트 할당 개요](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
+자세한 내용은 [스마트 할당 개요](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md)를 참조하십시오.

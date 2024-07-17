@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: 2018.1 베타 1 릴리스 활동
-description: 이 페이지에서는 2018.1 베타 1 릴리스의 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 페이지의 기능은 2017년 12월 1일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2018년 3월에 사용할 수 있습니다.
+title: 2018.1 Beta 1 릴리스 활동
+description: 이 페이지에서는 2018.1 Beta 1 릴리스의 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 페이지의 기능은 2017년 12월 1일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2018년 3월에 사용할 수 있습니다.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 ---
 
-# 2018.1 베타 1 릴리스 활동
+# 2018.1 Beta 1 릴리스 활동
 
-이 페이지에서는 2018.1 베타 1 릴리스의 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 페이지의 기능은 2017년 12월 1일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2018년 3월에 사용할 수 있습니다.
+이 페이지에서는 2018.1 Beta 1 릴리스의 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 페이지의 기능은 2017년 12월 1일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2018년 3월에 사용할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -24,20 +24,20 @@ ht-degree: 0%
 
 2018.1의 모든 변경 사항 목록은 다음을 참조하십시오.  [2018.1 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
 
-2018.1 베타 1 릴리스에는 Workfront 관리자와 기타 사용자 모두를 위한 개선 사항이 포함되어 있습니다.
+2018.1 Beta 1 릴리스에는 Workfront 관리자와 기타 사용자 모두를 위한 개선 사항이 포함되어 있습니다.
 
-**관리자용**
+관리자용 **1}**
 
-* [홈 영역을 지원하도록 레이아웃 템플릿을 업데이트했습니다.](#updated-layout-template-to-support-the-home-area)
-* [Workfront에서 보낸 증명 이메일 알림 비활성화](#disable-proofing-email-notifications-sent-from-workfront)
+* [홈 영역을 지원하도록 레이아웃 템플릿을 업데이트했습니다](#updated-layout-template-to-support-the-home-area)
+* [Workfront에서 보낸 증명 전자 메일 알림 사용 안 함](#disable-proofing-email-notifications-sent-from-workfront)
 * [이벤트 구독에 추가된 새 리소스](#new-resources-added-to-event-subscriptions)
 
 **모든 사용자용**
 
 * [홈 영역(내 작업 영역 업데이트됨)](#home-area-updated-my-work-area)
-* [비즈니스 사례 및 업데이트된 비즈니스 사례 요약 아래에 리소스 플래너 데이터 표시](#display-resource-planner-data-under-the-business-case-and-updated-business-case-summary)
-* [리소스 플래너에 계획된 시간 할당의 백분율 표시](#display-the-percentage-of-planned-hour-allocation-in-the-resource-planner)
-* [&quot;자동 및 변경 시에만&quot; 및 &quot;변경 전용&quot; 업데이트 유형은 작업 업데이트와 동시에 상위 오브젝트에 대한 업데이트를 트리거합니다](#the-automatic-and-on-change-and-change-only-update-types-trigger-updates-to-the-parent-objects-at-the-same-time-as-tasks-are-updated)
+* [비즈니스 사례 및 업데이트된 비즈니스 사례 요약에 리소스 플래너 데이터 표시](#display-resource-planner-data-under-the-business-case-and-updated-business-case-summary)
+* [리소스 플래너의 계획된 시간 할당 비율을 표시합니다](#display-the-percentage-of-planned-hour-allocation-in-the-resource-planner)
+* [자동 및 변경 시 및 변경 전용 업데이트 유형은 작업이 업데이트되는 동시에 상위 개체에 대한 업데이트를 트리거합니다](#the-automatic-and-on-change-and-change-only-update-types-trigger-updates-to-the-parent-objects-at-the-same-time-as-tasks-are-updated)
 * [간트 차트에서 사용할 수 있는 타임라인 스냅샷](#timeline-snapshot-available-in-the-gantt-chart)
 
 ## 홈 영역(내 작업 영역 업데이트됨) {#home-area-updated-my-work-area}
@@ -58,7 +58,7 @@ Workfront 관리자는 할당된 레이아웃 템플릿을 구성하여 조직�
 
 이제 증명에 대한 댓글이 있을 때 Workfront 인스턴스의 사용자가 Workfront에서 이메일 알림을 수신하는지 여부를 구성할 수 있습니다.
 
-이전에는 증명에 댓글이 달리면 항상 Workfront에서 증명 이메일이 전송되었습니다. Workfront Proof에서도 알림을 활성화한 경우 사용자가 중복 알림을 받게 되었습니다. 
+이전에는 증명에 댓글이 달리면 항상 Workfront에서 증명 이메일이 전송되었습니다. Workfront Proof에서도 알림을 활성화한 경우 이로 인해 사용자가 중복 알림을 받게 되었습니다. 
 
 기존 Workfront 고객의 경우 Workfront은 증명에 댓글이 있을 때 이메일을 보내도록 기본적으로 구성됩니다.
 
@@ -74,7 +74,7 @@ Workfront에서 증명에 대한 이메일 알림을 비활성화하여 Workfron
 
 이 변경 이전에는 프로젝트의 비즈니스 사례에 대한 리소스 플래너 정보를 볼 수 없었습니다. 레거시 리소스 풀의 용량 플래너에 지정된 리소스 견적 정보만 볼 수 있습니다.
 
-비즈니스 사례 만들기에 대한 자세한 내용은 [프로젝트에 대한 비즈니스 사례 만들기](../../../../manage-work/projects/define-a-business-case/create-business-case.md).
+비즈니스 사례 만들기에 대한 자세한 내용은 [프로젝트에 대한 비즈니스 사례 만들기](../../../../manage-work/projects/define-a-business-case/create-business-case.md)를 참조하세요.
 
 ## 리소스 플래너에 계획된 시간 할당의 백분율 표시 {#display-the-percentage-of-planned-hour-allocation-in-the-resource-planner}
 
@@ -82,7 +82,7 @@ Workfront에서 증명에 대한 이메일 알림을 비활성화하여 Workfron
 
 이 변경 이전에는 사용자 및 작업 역할에 대한 계획된 시간과 가용 시간의 합계를 별도의 열에서만 볼 수 있었습니다.
 
-계획된 시간 할당 퍼센트 열에 대한 자세한 내용은 &quot;리소스 플래너에서 가용 시간과 계획된 시간 또는 FTE 사이의 차이 보기&quot; 섹션을 참조하십시오. [리소스 플래너 개요](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+계획된 시간 할당 백분율 열에 대한 자세한 내용은 [리소스 플래너 개요](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md)의 &quot;리소스 플래너에서 사용 가능한 시간과 계획된 시간 또는 FTE 사이의 차이 보기&quot; 섹션을 참조하십시오.
 
 ## &quot;자동 및 변경 시에만&quot; 및 &quot;변경 전용&quot; 업데이트 유형은 작업 업데이트와 동시에 상위 오브젝트에 대한 업데이트를 트리거합니다 {#the-automatic-and-on-change-and-change-only-update-types-trigger-updates-to-the-parent-objects-at-the-same-time-as-tasks-are-updated}
 
@@ -97,7 +97,7 @@ Workfront에서 증명에 대한 이메일 알림을 비활성화하여 Workfron
 
 이 변경 이전에는 페이지를 새로 고쳐 상위 개체와 프로젝트의 타임라인도 업데이트되었는지 확인해야 했습니다.
 
-프로젝트의 업데이트 유형에 대한 자세한 내용은 [프로젝트 업데이트 유형 선택](../../../../manage-work/projects/manage-projects/select-project-update-type.md).
+프로젝트의 업데이트 형식에 대한 자세한 내용은 [프로젝트 업데이트 형식 선택](../../../../manage-work/projects/manage-projects/select-project-update-type.md)을 참조하세요.
 
 ## 간트 차트에서 사용할 수 있는 타임라인 스냅샷 {#timeline-snapshot-available-in-the-gantt-chart}
 
@@ -107,14 +107,14 @@ Workfront에서 증명에 대한 이메일 알림을 비활성화하여 Workfron
 
 이 변경 이전에는 전체 간트 차트에서 가로로 스크롤하여 특정 시점을 찾거나 세부 보기에서 축소해야 했습니다.
 
-간트 차트에 정보가 표시되는 방법에 대한 자세한 내용은 [간트 차트에 정보가 표시되는 방식 구성](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
+간트 차트에 정보가 표시되는 방법에 대한 자세한 내용은 [간트 차트에 정보가 표시되는 방법 구성](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md)을 참조하십시오.
 
 ## 이벤트 구독에 추가된 새 리소스 {#new-resources-added-to-event-subscriptions}
 
 이제 다음 리소스에 대한 이벤트 구독을 만들 수 있습니다.
 
-* **경비:** 경비가 추가 또는 수정되면 알려줍니다.
-* **할당:** 사용자, 작업 역할 또는 팀에 대한 작업 또는 문제에 할당이 추가되거나 수정되면 알려줍니다.
+* **경비:** 경비를 추가하거나 수정하면 알려줍니다.
+* **할당:** 사용자, 작업 역할 또는 팀의 작업 또는 문제에 대한 할당이 추가되거나 수정되면 알림을 보냅니다.
 * **타임시트:** 타임시트가 제출, 거부 또는 승인되면 알려줍니다.
 
-이벤트 구독에 대한 자세한 내용은 [이벤트 구독 API](../../../../wf-api/general/event-subs-api.md).
+이벤트 구독에 대한 자세한 내용은 [이벤트 구독 API](../../../../wf-api/general/event-subs-api.md)를 참조하세요.

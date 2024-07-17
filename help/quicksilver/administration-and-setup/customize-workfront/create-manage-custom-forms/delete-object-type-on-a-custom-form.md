@@ -47,7 +47,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## 사용자 정의 양식의 오브젝트 유형 삭제
 
@@ -63,11 +63,11 @@ ht-degree: 0%
 
 {{step-1-to-setup}}
 
-1. 클릭 **사용자 지정 Forms** 왼쪽 패널에서
-1. 편집할 사용자 정의 양식을 선택한 다음 ![편집 아이콘](assets/edit-icon.png).
-1. 다음 중 하나에서 X를 클릭합니다. **오브젝트 유형** 양식에서 삭제할 항목을 클릭한 다음 **삭제** 경고 메시지가 표시됩니다.
+1. 왼쪽 패널에서 **사용자 지정 Forms**&#x200B;을 클릭합니다.
+1. 편집할 사용자 정의 양식을 선택한 다음 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.
+1. 양식에서 삭제할 **개체 형식**&#x200B;의 X를 클릭한 다음 표시되는 경고 메시지에서 **삭제**&#x200B;를 클릭합니다.
 
    ![](assets/click-x-object-types.jpg)
 
 1. (선택 사항) 양식에서 제거할 다른 객체 유형에 대해 이전 단계를 반복합니다.
-1. 클릭 **완료**&#x200B;을 클릭한 다음 을 클릭합니다 **저장 및 닫기**.
+1. **완료**&#x200B;를 클릭한 다음 **저장 후 닫기**&#x200B;를 클릭합니다.

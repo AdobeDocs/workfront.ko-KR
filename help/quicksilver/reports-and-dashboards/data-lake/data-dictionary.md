@@ -35,7 +35,7 @@ ht-degree: 5%
 
   이벤트 테이블은 Workfront의 모든 변경 레코드를 추적합니다. 즉, 객체가 상태를 변경할 때마다 변경 발생 시간, 변경한 사람 및 변경된 내용을 표시하는 레코드가 만들어집니다. 따라서 이 표는 시점 비교에 유용합니다. 이 표에는 지난 3년간의 기록만 포함되어 있습니다.
 
-* **일별 내역 테이블**
+* **일별 기록 테이블**
 
   일별 내역 테이블은 각 개별 이벤트가 발생한 시점이 아니라 매일 각 객체의 상태를 표시한다는 점에서 이벤트 테이블의 축약된 버전을 제공합니다. 따라서 이 표는 추세 분석에 유용합니다.
 
@@ -56,9 +56,9 @@ Workfront의 개체(및 따라서 데이터 레이크)는 개별 값뿐만 아�
 특정 이벤트가 발생하는 시기에 대한 정보를 제공하는 다양한 날짜 개체가 있습니다.
 
 * `DL_LOAD_TIMESTAMP`: 이 날짜는 내부 참조에 사용되며 데이터가 Current, Event 또는 Daily History 테이블에 로드된 시기를 반영합니다. 이 날짜는 데이터 분석에 사용되어서는 안 되며 Workfront 데이터 레이크의 베타 단계 동안 제거될 계획입니다.
-* `CALENDAR_DATE`: 이 날짜는 일일 기록 테이블에만 표시됩니다. 이 테이블은에 지정된 각 날짜에 대해 11:59 UTC로 데이터의 모습에 대한 기록을 제공합니다. `CALENDAR_DATE`.
-* `BEGIN_EFFECTIVE_TIMESTAMP`: 이 날짜는 이벤트 및 일일 기록 테이블 모두에 있으며 레코드가 변경된 시기를 정확하게 기록합니다 _끝_ 현재 행에 있는 값입니다.
-* `END_EFFECTIVE_TIMESTAMP`: 이 날짜는 이벤트 및 일일 기록 테이블 모두에 있으며 레코드가 변경된 시기를 정확하게 기록합니다 _출처:_ 현재 행의 값을 다른 행의 값으로 바꿉니다. 에서 쿼리 사이를 허용하려면 `BEGIN_EFFECTIVE_TIMESTAMP` 및 `END_EFFECTIVE_TIMESTAMP` 새 값이 없는 경우에도 값은 null이 아닙니다. 레코드가 여전히 유효한 경우(즉, 값이 변경되지 않은 경우), `END_EFFECTIVE_TIMESTAMP` 값은 2300-01-01이 됩니다.
+* `CALENDAR_DATE`: 이 날짜는 [일별 기록] 테이블에만 있습니다. 이 테이블은 `CALENDAR_DATE`에 지정된 각 날짜에 대해 11:59 UTC에 데이터가 어떻게 보이는지에 대한 기록을 제공합니다.
+* `BEGIN_EFFECTIVE_TIMESTAMP`: 이 날짜는 이벤트 및 일별 기록 테이블 모두에 있으며 레코드가 현재 행에 있는 값을 _to_(으)로 변경한 시기를 정확하게 기록합니다.
+* `END_EFFECTIVE_TIMESTAMP`: 이 날짜는 이벤트 및 일일 기록 테이블 모두에 있으며 레코드가 현재 행의 값을 _부터_&#x200B;까지 다른 행의 값으로 변경한 정확한 시점을 기록합니다. `BEGIN_EFFECTIVE_TIMESTAMP`과(와) `END_EFFECTIVE_TIMESTAMP`의 쿼리 사이에 을(를) 허용하려면 새 값이 없어도 이 값은 null이 아닙니다. 레코드가 여전히 유효한 경우(즉, 값이 변경되지 않은 경우) `END_EFFECTIVE_TIMESTAMP`의 값은 2300-01-01입니다.
 
 ## 용어 표
 
@@ -87,13 +87,13 @@ Workfront의 개체(및 따라서 데이터 레이크)는 개별 값뿐만 아�
     <td>상태, 우선 순위, 심각도, 상태</td>
     <td>CSTEM | 사용자 정의 열거형</td>
     <td>CUSTOMENUMS_CURRENT<br>CUSTOMENUMS_DAILY_HISTORY<br>CUSTOMENUMS_EVENT</td>
-    <td>레코드 유형은 'enumClass' 속성을 통해 식별됩니다. 예상 유형은 다음과 같습니다.<br>CONDITION_OPTASK<br>CONDITION_PROJ<br>CONDITION_TASK<br>PRIORITY_OPTASK<br>PRIORITY_PROJECT<br>PRIORITY_TASK<br>SEVERITY_OPTASK<br>STATUS_OPTASK<br>STATUS_PROJECT<br>STATUS_TASK</td>
+    <td>레코드 유형은 'enumClass' 속성을 통해 식별됩니다. 다음은 예상 유형입니다.<br>CONDITION_OPTASK<br>CONDITION_PROJ<br>CONDITION_TASK<br>PRIORITY_OPTASK<br>PRIORITY_PROJ<br>PRIORITY_TASK<br>SEVERITY_OPTASK<br>STATUS_OPTASK<br>STATUS_PROJ<br>STATUS_TASK</td>
   </tr>
   <tr>
     <td>문서</td>
     <td>문서</td>
     <td>도쿠 | 문서</td>
-    <td>DOCUMENTS_CURRENT<br>DOCUMENTS_DAILY_HISTORY<br>문서 이벤트<br><br>DOCUMENTS_CUSTOM_VALUE_CURRENT<br>DOCUMENTS_CUSTOM_VALUE_DAILY_HISTORY<br>DOCUMENTS_CUSTOM_VALUE_EVENT</td>
+    <td>DOCUMENTS_CURRENT<br>DOCUMENTS_DAILY_HISTORY<br>DOCUMENTS_EVENT<br><br>DOCUMENTS_CUSTOM_VALUE_CURRENT<br>DOCUMENTS_CUSTOM_VALUE_DAILY_HISTORY<br>DOCUMENTS_CUSTOM_VALUE_EVENT</td>
     <td></td>
   </tr>
   <tr>
@@ -128,14 +128,14 @@ Workfront의 개체(및 따라서 데이터 레이크)는 개별 값뿐만 아�
     <td>마일스톤</td>
     <td>마일스톤</td>
     <td>마일 | 마일스톤</td>
-    <td>마일스톤_현재<br>마일스톤_일별_내역<br>마일스톤_이벤트</td>
+    <td>MILESTONES_CURRENT<br>MILESTONES_DAILY_HISTORY<br>MILESTONES_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>마일스톤 경로</td>
     <td>마일스톤 경로</td>
     <td>MPATH | 마일스톤 경로</td>
-    <td>MILESTONEPATHS_CURRENT<br>마일스톤 경로_일별_내역<br>MILESTONEPATHS_EVENT</td>
+    <td>MILESTONEPATHS_CURRENT<br>MILESTONEPATHS_DAILY_HISTORY<br>MILESTONEPATHS_EVENT</td>
     <td></td>
   </tr>
   <tr>
@@ -156,7 +156,7 @@ Workfront의 개체(및 따라서 데이터 레이크)는 개별 값뿐만 아�
     <td>Portfolio</td>
     <td>Portfolio</td>
     <td>포트 | Portfolio</td>
-    <td>PORTFOLIO_현재<br>PORTFOLIO_DAILY_HISTORY<br>PORTFOLIO 이벤트<br><br>PORTFOLIO_CUSTOM_VALUE_CURRENT<br>PORTFOLIO_사용자 정의_값_일별_내역<br>PORTFOLIO_CUSTOM_VALUE_EVENT</td>
+    <td>PORTFOLIO_CURRENT<br>PORTFOLIO_DAILY_HISTORY<br>PORTFOLIO_EVENT<br><br>PORTFOLIO_CUSTOM_VALUE_CURRENT<br>PORTFOLIO_CUSTOM_VALUE_DAILY_HISTORY<br>PORTFOLIO_CUSTOM_VALUE_EVENT</td>
     <td></td>
   </tr>
   <tr>
@@ -170,7 +170,7 @@ Workfront의 개체(및 따라서 데이터 레이크)는 개별 값뿐만 아�
     <td>프로젝트</td>
     <td>프로젝트</td>
     <td>프로젝트 | 프로젝트</td>
-    <td>PROJECTS_CURRENT<br>PROJECTS_DAILY_HISTORY<br>프로젝트_이벤트<br><br>PROJECTS_CUSTOM_VALUE_CURRENT<br>PROJECTS_CUSTOM_VALUE_DAILY_HISTORY<br>PROJECTS_CUSTOM_VALUE_EVENT</td>
+    <td>PROJECTS_CURRENT<br>PROJECTS_DAILY_HISTORY<br>PROJECTS_EVENT<br><br>PROJECTS_CUSTOM_VALUE_CURRENT<br>PROJECTS_CUSTOM_VALUE_DAILY_HISTORY<br>PROJECTS_CUSTOM_VALUE_EVENT</td>
     <td></td>
   </tr>
   <tr>

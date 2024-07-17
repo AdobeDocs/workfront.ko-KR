@@ -20,11 +20,11 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->이 문서는 독립 실행형 제품의 기능에 대해 설명합니다 [!DNL Workfront Proof]. 내부 교정에 대한 정보 [!DNL Adobe Workfront], 참조 [증명](../../../review-and-approve-work/proofing/proofing.md).
+>이 문서는 독립 실행형 제품 [!DNL Workfront Proof]의 기능을 참조합니다. [!DNL Adobe Workfront] 내부의 증명에 대한 자세한 내용은 [증명](../../../review-and-approve-work/proofing/proofing.md)을 참조하십시오.
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [소개 [!DNL Workfront Proof] 및 [!DNL Box] 통합](../../../workfront-proof/wp-integrations/box/introduction-to-box.md)
-* [다음을 통해 증명 만들기 [!DNL Box] 계정](../../../workfront-proof/wp-integrations/box/create-proof-box-account.md)
-* [동기화 [!DNL Box] 폴더 [!DNL Workfront Proof]](../../../workfront-proof/wp-integrations/box/sycn-box-folder.md)
-* [에서 증명의 원본 파일 보기 [!DNL Box]](../../../workfront-proof/wp-integrations/box/view-proof-original-file-box.md)
+* [ [!DNL Workfront Proof] and [!DNL Box] 통합 소개](../../../workfront-proof/wp-integrations/box/introduction-to-box.md)
+* [ [!DNL Box] 계정을 통해 증명 만들기](../../../workfront-proof/wp-integrations/box/create-proof-box-account.md)
+* [ [!DNL Workfront Proof]과(와)  [!DNL Box] 폴더 동기화](../../../workfront-proof/wp-integrations/box/sycn-box-folder.md)
+* [ [!DNL Box]에서 증명의 원본 파일 보기](../../../workfront-proof/wp-integrations/box/view-proof-original-file-box.md)

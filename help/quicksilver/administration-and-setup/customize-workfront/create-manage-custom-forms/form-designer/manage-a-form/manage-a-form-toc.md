@@ -4,7 +4,7 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: customize-workfront
-description: 양식 디자이너를 사용하여 기존 사용자 정의 양식을 관리할 수 있습니다.
+description: 양식 Designer으로 기존 사용자 정의 양식을 관리할 수 있습니다.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin

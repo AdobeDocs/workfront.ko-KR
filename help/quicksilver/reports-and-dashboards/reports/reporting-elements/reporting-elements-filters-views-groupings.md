@@ -35,11 +35,11 @@ Adobe Workfront에서 목록 또는 보고서를 가능하게 하는 몇 가지 
 * Workfront의 보고서는 한 개의 오브젝트에 한정됩니다. 보고서를 작성하려면 먼저 보고서에 대한 주 개체를 정의해야 합니다. 따라서 모든 보고 요소는 개체별로 다릅니다.
 * Workfront 관리자는 목록 및 보고서에서 보거나 편집할 수 있도록 액세스 수준의 필터, 보기 및 그룹화에 대한 액세스 권한을 부여해야 합니다.
 
-  필터, 보기 및 그룹화에 대한 액세스 권한을 부여하는 방법에 대한 자세한 내용은 [필터, 보기 및 그룹화에 대한 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+  필터, 보기 및 그룹화에 대한 액세스 권한을 부여하는 방법에 대한 자세한 내용은 [필터, 보기 및 그룹화에 대한 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)를 참조하십시오.
 
 * 보고서를 보거나 편집할 수 있으려면 Workfront 관리자가 액세스 수준에서 보고서, 대시보드 및 달력에 대한 액세스 권한을 부여해야 합니다.
 
-  보고서, 대시보드 및 달력에 대한 액세스 권한을 부여하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [보고서, 대시보드 및 캘린더에 대한 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+  보고서, 대시보드 및 캘린더에 대한 액세스 권한을 부여하는 방법에 대한 자세한 내용은 [보고서, 대시보드 및 캘린더에 대한 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)를 참조하십시오.
 
 * 보고서나 목록에서 필터, 보기 또는 그룹화를 선택하면 Workfront은 사용자가 브라우저를 로그아웃하거나 닫은 후에도 해당 오브젝트의 목록에 대해 이 선택 내용을 유지합니다. 예를 들어 작업 보고서에 대해 특정 보기를 선택하면 프로젝트의 작업 목록과 같은 다른 작업 목록에 대해 해당 선택 사항이 표시됩니다.
 
@@ -54,11 +54,11 @@ Adobe Workfront에서 목록 또는 보고서를 가능하게 하는 몇 가지 
 * Workfront은 기본적으로 다양한 오브젝트에 대한 여러 필터를 제공합니다.
 * 소유하거나 관리하는 필터를 사용자 지정할 수 있습니다.
 
-  필터에 대한 자세한 내용은 문서 를 참조하십시오 [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  필터에 대한 자세한 내용은 문서 [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)를 참조하십시오.
 
 ![필터 아이콘](assets/projects-list-with-filter-drop-down-highlighted-nwe.png)
 
-## 조회수
+## 보기
 
 보고서 보기를 정의하여 보고서에 포함할 정보를 정의합니다. 모든 보고 요소와 마찬가지로 보기는 하나의 객체 유형을 기반으로 합니다.\
 예를 들어 작업 보고서 보기에는 기한을 표시하거나 비용 등 주요 재무 세부 정보를 포함하거나 할당 및 납품 일자 세부 정보를 표시하는 데 사용할 수 있습니다. 보기는 보고서의 데이터에 대한 다양한 세부 사항을 전달하는 데 사용할 수 있습니다.
@@ -69,7 +69,7 @@ Adobe Workfront에서 목록 또는 보고서를 가능하게 하는 몇 가지 
 * 보고서를 실행한 후 보기 드롭다운 필드에서 추가 보기를 적용할 수 있습니다.
 * 추가 보기는 보고서를 만들 때 정의된 보기를 임시로 대체합니다. 그러나 다음 번에 보고서로 돌아가면 기본 보기가 표시됩니다.
 
-  보기에 대한 자세한 내용은 문서 를 참조하십시오 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+  보기에 대한 자세한 내용은 문서 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)를 참조하십시오.
 
 ## 그룹화
 
@@ -83,20 +83,20 @@ Adobe Workfront에서 목록 또는 보고서를 가능하게 하는 몇 가지 
 * 그룹화는 결과에 집계 값을 표시합니다&#x200B;.
 * 그룹화는 차트에서 축을 결정합니다.
 * 그룹화는 매트릭스 보고서에서 헤더 ID를 결정합니다.\
-  매트릭스 보고서에 대한 자세한 내용은 문서 를 참조하십시오 [매트릭스 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
+  매트릭스 보고서에 대한 자세한 내용은 문서 [매트릭스 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)를 참조하십시오.
 
 * 그룹화는 보고서의 요약 탭을 만들고 보고서의 집계된 값을 제공하는 데 도움이 됩니다.
 * Workfront은 기본적으로 서로 다른 개체에 대해 여러 가지 그룹화를 제공합니다.
 * 소유하거나 관리하는 그룹화를 사용자 지정할 수 있습니다.
 
-  그룹화에 대한 자세한 내용은 [Adobe Workfront의 그룹화 개요](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+  그룹화에 대한 자세한 내용은 Adobe Workfront의 [그룹화 개요](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)를 참조하십시오.
 
 ## 기타 보고 요소
 
 필터, 보기 및 그룹화 외에 다음 요소를 보고서에 추가할 수도 있습니다.
 
-* **프롬프트**: 보고서를 실행할 때마다 사용자 지정하고 다르게 적용할 수 있는 열린 필터입니다.\
-  프롬프트에 대한 자세한 내용은 문서를 참조하십시오 [보고서에 프롬프트 추가](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+* **프롬프트**: 보고서를 실행할 때마다 다르게 사용자 지정 및 적용할 수 있는 열린 필터입니다.\
+  프롬프트에 대한 자세한 내용은 문서 [보고서에 프롬프트 추가](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)를 참조하십시오.
 
-* **차트**: 차트에 차트를 추가하고 정보를 시각적으로 표시하여 보고서를 향상시킬 수 있습니다.\
-  보고서의 차트에 대한 자세한 내용은 문서를 참조하십시오 [보고서에 차트 추가](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+* **차트**: 차트를 추가하고 정보를 시각적으로 표시하여 보고서를 향상시킬 수 있습니다.\
+  보고서의 차트에 대한 자세한 내용은 [보고서에 차트 추가](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md) 문서를 참조하십시오.

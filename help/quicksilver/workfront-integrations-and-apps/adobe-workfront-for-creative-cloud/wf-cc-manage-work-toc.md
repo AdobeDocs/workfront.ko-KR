@@ -1,6 +1,6 @@
 ---
-title: 을(를) 사용하여 작업 관리  [!DNL Adobe Workfront] 플러그인 [!DNL Creative Cloud] 애플리케이션
-description: 을(를) 사용하여 작업 관리  [!DNL Adobe Workfront] 플러그인 [!DNL Creative Cloud] 애플리케이션
+title: ' [!DNL Creative Cloud] 응용 프로그램에 대한  [!DNL Adobe Workfront] 플러그인으로 작업 관리'
+description: ' [!DNL Creative Cloud] 응용 프로그램에 대한  [!DNL Adobe Workfront] 플러그인으로 작업 관리'
 author: Courtney
 draft: Probably
 feature: Workfront Integrations and Apps, Digital Content and Documents
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 ---
 
-# 을(를) 사용하여 작업 관리  [!DNL Adobe Workfront] 플러그인 [!DNL Creative Cloud] 애플리케이션
+# [!DNL Creative Cloud] 응용 프로그램에 대해 [!DNL Adobe Workfront] 플러그인으로 작업 관리
 
-* [다음을 사용하여 작업 찾기 [!DNL Adobe Workfront] 플러그인](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-find-work.md)
-* [다음을 사용하여 작업 항목 정보 보기 [!DNL Adobe Workfront] 플러그인](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-view-work-info.md)
-* [다음을 사용하여 작업 업데이트 [!DNL Adobe Workfront] 플러그인](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
-* [다음을 사용하여 작업 항목 완료 표시 [!DNL Adobe Workfront] 플러그인](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
-* [다음을 사용하여 시간 기록 [!DNL Adobe Workfront] 플러그인](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
-* [보기 및 관리 [!DNL Adobe Workfront] 다음에서 알림: [!DNL Adobe Creative Cloud]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
+* [ [!DNL Adobe Workfront] plugin을 사용하여 작업 찾기](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-find-work.md)
+* [ [!DNL Adobe Workfront] plugin을 사용하여 작업 항목 정보 보기](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-view-work-info.md)
+* [ [!DNL Adobe Workfront] plugin을 사용하여 작업 업데이트](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
+* [ [!DNL Adobe Workfront] plugin을 사용하여 작업 항목을 완료로 표시](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
+* [ [!DNL Adobe Workfront] plugin을 사용하여 시간 기록](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
+* [ [!DNL Adobe Creative Cloud]의  [!DNL Adobe Workfront] 알림 보기 및 관리](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)

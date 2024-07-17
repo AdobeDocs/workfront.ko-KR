@@ -9,7 +9,7 @@ feature: Work Management
 exl-id: 60576107-89f1-4328-89e2-5b1e5e243fd9
 source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Adobe Workfront에는 프로젝트와 연결할 수 있는 개체 수에 대한 
    <td role="rowheader"><p>작업</p></td> 
    <td>  <p>프로젝트당 최대 작업 수는 5,000개입니다. 작업 수가 이 최대값에 근접하면 경고 메시지가 표시됩니다. 최대값에 도달하면 오류 메시지가 표시되고 프로젝트에 추가 작업을 추가할 수 없습니다.</p> <p>이 최대값에 도달하지 않도록 닫힌 작업을 닫힌 작업으로 지정된 다른 프로젝트로 이동합니다. 이러한 프로젝트에 대한 보고서를 조정해야 할 수 있습니다.</p>
 
-<b>중요 사항</b>
+<b>중요</b>
 
 작업에 많은 종속성이 있는 프로젝트의 경우 타임라인 계산 시 또는 프로젝트에서 작업할 때 성능이 저하될 수 있습니다.
 
@@ -53,7 +53,7 @@ Adobe Workfront에는 프로젝트와 연결할 수 있는 개체 수에 대한 
   </tr> 
   <tr> 
    <td role="rowheader"><p>타임라인 계산</p></td> 
-   <td>Workfront은 6개월 동안 업데이트되지 않은 프로젝트에 대해 자동 타임라인 계산을 수행하지 않으며 업데이트가 이루어질 때까지 다시 시작하지 않습니다.<p>3개월 동안 업데이트되지 않은 프로젝트의 경우 Workfront은 매일 밤 대신 매주 타임라인 계산을 수행합니다.</p><p>프로젝트 타임라인 계산에 대한 자세한 내용은 <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">프로젝트 타임라인 다시 계산</a>. </p></td> 
+   <td>Workfront은 6개월 동안 업데이트되지 않은 프로젝트에 대해 자동 타임라인 계산을 수행하지 않으며 업데이트가 이루어질 때까지 다시 시작하지 않습니다.<p>3개월 동안 업데이트되지 않은 프로젝트의 경우 Workfront은 매일 밤 대신 매주 타임라인 계산을 수행합니다.</p><p>프로젝트 타임라인 계산에 대한 자세한 내용은 <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">프로젝트 타임라인 다시 계산</a>을 참조하십시오. </p></td> 
   </tr> 
  </tbody> 
 </table>

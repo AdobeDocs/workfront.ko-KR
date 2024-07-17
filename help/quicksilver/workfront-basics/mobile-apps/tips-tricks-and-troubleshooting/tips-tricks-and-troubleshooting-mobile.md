@@ -2,8 +2,8 @@
 content-type: tips-tricks-troubleshooting;reference
 product-previous: mobile
 navigation-topic: mobile-apps
-title: 팁, 요령 및 문제 해결 [!DNL Adobe Workfront] 모바일 앱
-description: 팁, 요령 및 문제 해결 [!DNL Adobe Workfront] 모바일 앱
+title: ' [!DNL Adobe Workfront] 모바일 앱에 대한 팁, 요령 및 문제 해결'
+description: ' [!DNL Adobe Workfront] 모바일 앱에 대한 팁, 요령 및 문제 해결'
 author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
@@ -15,8 +15,8 @@ ht-degree: 0%
 
 ---
 
-# 팁, 요령 및 문제 해결 [!DNL Adobe Workfront] 모바일 앱
+# [!DNL Adobe Workfront] 모바일 앱에 대한 팁, 요령 및 문제 해결
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [오류 메시지: [!DNL Adobe Workfront] 모바일 앱: &quot;[!UICONTROL 계정이 API가 활성화되지 않았습니다.]&quot;](../../../workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/error-message-on-mobile-app.md)
+* [ [!DNL Adobe Workfront] 모바일 앱: &quot;[!UICONTROL 계정이 API를 사용할 수 없습니다.]&quot;](../../../workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/error-message-on-mobile-app.md)

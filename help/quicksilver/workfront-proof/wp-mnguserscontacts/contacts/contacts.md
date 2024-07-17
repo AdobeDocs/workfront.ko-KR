@@ -20,10 +20,10 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->이 문서는 독립 실행형 제품의 기능에 대해 설명합니다 [!DNL Workfront Proof]. 내부 교정에 대한 정보 [!DNL Adobe Workfront], 참조 [증명](../../../review-and-approve-work/proofing/proofing.md).
+>이 문서는 독립 실행형 제품 [!DNL Workfront Proof]의 기능을 참조합니다. [!DNL Adobe Workfront] 내부의 증명에 대한 자세한 내용은 [증명](../../../review-and-approve-work/proofing/proofing.md)을 참조하십시오.
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [다음에 게스트 추가 [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/add-guest.md)
-* [에서 연락처 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/manage-contacts.md)
-* [에서 사용자, 멤버 및 게스트 이해 [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md)
+* [ [!DNL Workfront Proof]에 게스트 추가](../../../workfront-proof/wp-mnguserscontacts/contacts/add-guest.md)
+* [ [!DNL Workfront Proof]에서 연락처 관리](../../../workfront-proof/wp-mnguserscontacts/contacts/manage-contacts.md)
+* [ [!DNL Workfront Proof]의 사용자, 구성원 및 게스트 이해](../../../workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md)

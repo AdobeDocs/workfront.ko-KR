@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 22.2 릴리스 개요
 
-이 페이지에서는 22.2 릴리스에 포함된 기능에 대한 정보를 제공합니다. 나열된 모든 기능은 새로운 Adobe Workfront 환경에서 사용할 수 있습니다. 일부 기능은 Adobe Workfront Classic에서도 사용할 수 있습니다. [Workfront Classic은 2022년 3월에 중단됩니다](https://one.workfront.com/s/new-workfront-experience), 곧 이어 2022년 7월 Workfront Classic의 사용 종료 날짜가 표시됩니다.
+이 페이지에서는 22.2 릴리스에 포함된 기능에 대한 정보를 제공합니다. 나열된 모든 기능은 새로운 Adobe Workfront 환경에서 사용할 수 있습니다. 일부 기능은 Adobe Workfront Classic에서도 사용할 수 있습니다. 그러나 [Workfront Classic은 2022년 3월에 중단되며](https://one.workfront.com/s/new-workfront-experience), 곧 Workfront Classic의 사용 종료 날짜는 2022년 7월입니다.
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -54,7 +54,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
 
 * [관리자 개선 사항](#administrator-enhancements)
 * [프로젝트 개선 사항](#project-enhancements)
-* [향상된 리소스 관리 기능](#resource-management-enhancements)
+* [리소스 관리 개선 사항](#resource-management-enhancements)
 * [홈 개선 사항](#home-enhancements)
 * [모바일 개선 사항](#mobile-enhancements)
 * [통합 개선 사항](#integrations-enhancements)
@@ -71,23 +71,23 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td> <p><strong>릴리스 날짜 및 환경</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-admin-enhancements.md#configur" class="MCXref xref" xrefformat="{para}">여러 오브젝트 유형에서 작동하도록 사용자 정의 양식 구성</a> </p> <p>이제 여러 오브젝트 유형에서 작동하도록 새 사용자 정의 양식 또는 기존 사용자 정의 양식을 구성할 수 있으므로 양식의 유용성은 더욱 높아집니다. 사용자는 사용자가 구성하는 모든 유형의 개체에 양식을 첨부하고 작성할 수 있습니다.</p> <p>이전에는 하나의 오브젝트 유형에서만 작동하도록 사용자 정의 양식을 구성할 수 있었습니다.</p> <p>이 기능은 이전에 Workfront 시스템에서 만든 모든 사용자 정의 양식에서 작동합니다. 예를 들어, Task 객체 유형에 대해 작성된 사용자 정의 양식이 이미 있는 경우, 이제 Project 및 Issue와 같은 다른 객체 유형에서도 작동하도록 구성할 수 있습니다.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-admin-enhancements.md#configur" class="MCXref xref" xrefformat="{para}">여러 개체 형식에서 작동하도록 사용자 지정 양식을 구성</a> </p> <p>이제 여러 오브젝트 유형에서 작동하도록 새 사용자 정의 양식 또는 기존 사용자 정의 양식을 구성할 수 있으므로 양식의 유용성은 더욱 높아집니다. 사용자는 사용자가 구성하는 모든 유형의 개체에 양식을 첨부하고 작성할 수 있습니다.</p> <p>이전에는 하나의 오브젝트 유형에서만 작동하도록 사용자 정의 양식을 구성할 수 있었습니다.</p> <p>이 기능은 이전에 Workfront 시스템에서 만든 모든 사용자 정의 양식에서 작동합니다. 예를 들어, Task 객체 유형에 대해 작성된 사용자 정의 양식이 이미 있는 경우, 이제 Project 및 Issue와 같은 다른 객체 유형에서도 작동하도록 구성할 수 있습니다.</p> </td> 
    <td> <p><b>다음 날짜에 사용 가능:</b> </p> 
     <ul> 
      <li> <p>미리보기 릴리스: 2022년 3월 10일<br></p> </li> 
      <li> <p>프로덕션 릴리스: 22.2 릴리스 포함 </p> </li> 
-    </ul> <p><strong>다음 환경에서 사용할 수 있습니다.</strong> </p> 
+    </ul> <p><strong>다음 환경에서 사용 가능:</strong> </p> 
     <ul> 
      <li> <p>새로운 Adobe Workfront 환경 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-admin-enhancements.md#blueprin" class="MCXref xref" xrefformat="{para}">블루프린트 카탈로그는 모든 사용자가 사용할 수 있으며 관리자는 요청을 허용할 수 있습니다.</a> </p> <p>이제 모든 Adobe Workfront 사용자가 사용 가능한 블루프린트 카탈로그를 검색할 수 있습니다. </p> <p>또한 시스템 관리자는 사용자가 블루프린트 설치를 요청할 수 있도록 액세스 권한을 설정할 수 있습니다. 요청을 저장할 요청 대기열을 할당하면 사용자가 블루프린트 카탈로그에서 요청을 할 수 있습니다. </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-admin-enhancements.md#blueprin" class="MCXref xref" xrefformat="{para}">블루프린트 카탈로그를 모든 사용자가 사용할 수 있으며 관리자가 요청을 허용할 수 있습니다</a> </p> <p>이제 모든 Adobe Workfront 사용자가 사용 가능한 블루프린트 카탈로그를 검색할 수 있습니다. </p> <p>또한 시스템 관리자는 사용자가 블루프린트 설치를 요청할 수 있도록 액세스 권한을 설정할 수 있습니다. 요청을 저장할 요청 대기열을 할당하면 사용자가 블루프린트 카탈로그에서 요청을 할 수 있습니다. </p> </td> 
    <td> <p><b>다음 날짜에 사용 가능:</b> </p> 
     <ul> 
      <li> <p>미리보기 릴리스: 2022년 3월 10일<br></p> </li> 
      <li> <p>프로덕션 릴리스: 22.2 릴리스 포함 </p> </li> 
-    </ul> <p><strong>다음 환경에서 사용할 수 있습니다.</strong> </p> 
+    </ul> <p><strong>다음 환경에서 사용 가능:</strong> </p> 
     <ul> 
      <li> <p>새로운 Adobe Workfront 환경 </p> </li> 
     </ul> </td> 
@@ -98,7 +98,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     <ul> 
      <li> <p>미리보기 릴리스: 2022년 3월 10일<br></p> </li> 
      <li> <p>프로덕션 릴리스: 22.2 릴리스 포함 </p> </li> 
-    </ul> <p><strong>다음 환경에서 사용할 수 있습니다.</strong> </p> 
+    </ul> <p><strong>다음 환경에서 사용 가능:</strong> </p> 
     <ul> 
      <li> <p>새로운 Adobe Workfront 환경 </p> </li> 
     </ul> </td> 
@@ -109,21 +109,21 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     <ul> 
      <li> <p>미리보기 릴리스: 2022년 3월 10일<br></p> </li> 
      <li> <p>프로덕션 릴리스: 22.2 릴리스 포함 </p> </li> 
-    </ul> <p><strong>다음 환경에서 사용할 수 있습니다.</strong> </p> 
+    </ul> <p><strong>다음 환경에서 사용 가능:</strong> </p> 
     <ul> 
      <li> <p>새로운 Adobe Workfront 환경 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-admin-enhancements.md#new" class="MCXref xref" xrefformat="{para}">새로운 기본 액세스 수준 구성</a> </p> <p>액세스 수준을 생성하는 대부분의 관리자의 요구 사항에 보다 잘 부합하도록 편집 버튼에서 톱니바퀴 아이콘을 클릭할 때 표시되는 여러 "설정 미세 조정" 옵션의 기본 구성을 변경했습니다.</p> <p>이전에 기본적으로 활성화되었던 옵션이 이제 비활성화되었습니다. 조직의 요구 사항에 맞지 않으면 새 액세스 수준을 설정할 때 또는 나중에 언제든지 활성화할 수 있습니다.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-admin-enhancements.md#new" class="MCXref xref" xrefformat="{para}">새 기본 액세스 수준 구성</a> </p> <p>액세스 수준을 생성하는 대부분의 관리자의 요구 사항에 보다 잘 부합하도록 편집 버튼에서 톱니바퀴 아이콘을 클릭할 때 표시되는 여러 "설정 미세 조정" 옵션의 기본 구성을 변경했습니다.</p> <p>이전에 기본적으로 활성화되었던 옵션이 이제 비활성화되었습니다. 조직의 요구 사항에 맞지 않으면 새 액세스 수준을 설정할 때 또는 나중에 언제든지 활성화할 수 있습니다.</p> </td> 
    <td> <p><b>다음 날짜에 사용 가능:</b> </p> 
     <ul> 
      <li> <p>미리보기 릴리스: 2022년 1월 27일<br></p> </li> 
      <li> <p>프로덕션 릴리스: 22.2 릴리스 포함 </p> </li> 
-    </ul> <p><strong>다음 환경에서 사용할 수 있습니다.</strong> </p> 
+    </ul> <p><strong>다음 환경에서 사용 가능:</strong> </p> 
     <ul> 
      <li> <p>새로운 Adobe Workfront 환경 </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic은 2022년 3월에 중단됩니다</a>, 곧 이어 2022년 7월에 Workfront Classic의 사용 종료 날짜가 표시됩니다.)</p> </li> 
+     <li> <p>Adobe Workfront Classic(<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic은 2022년 3월에 중단됩니다</a>, 곧 Workfront Classic의 사용 종료 날짜가 2022년 7월로 변경됩니다.)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -132,18 +132,18 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     <ul> 
      <li> <p>미리보기 릴리스: 2022년 2월 10일<br></p> </li> 
      <li> <p>프로덕션 릴리스: 22.2 릴리스 포함 </p> </li> 
-    </ul> <p><strong>다음 환경에서 사용할 수 있습니다.</strong> </p> 
+    </ul> <p><strong>다음 환경에서 사용 가능:</strong> </p> 
     <ul> 
      <li> <p>새로운 Adobe Workfront 환경 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-admin-enhancements.md#a" class="MCXref xref" xrefformat="{para}">프로덕션에 미리보기 전용 블루프린트를 설치할 때 이제 경고가 표시됩니다</a> </p> <p>특정 블루프린트는 테스트 목적으로 미리보기 환경에서만 설치할 수 있습니다.</p> <p>프로덕션 환경, 샌드박스 1 또는 샌드박스 2에서 미리보기 전용 콘텐츠에 액세스하는 경우 설치 버튼이 활성화되지 않고 경고 메시지가 표시될 수 있습니다.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-admin-enhancements.md#a" class="MCXref xref" xrefformat="{para}">프로덕션에 미리 보기 전용 블루프린트를 설치할 때 경고가 표시됩니다</a> </p> <p>특정 블루프린트는 테스트 목적으로 미리보기 환경에서만 설치할 수 있습니다.</p> <p>프로덕션 환경, 샌드박스 1 또는 샌드박스 2에서 미리보기 전용 콘텐츠에 액세스하는 경우 설치 버튼이 활성화되지 않고 경고 메시지가 표시될 수 있습니다.</p> </td> 
    <td><b>다음 날짜에 사용 가능:</b> 
     <ul> 
      <li> <p>미리보기 릴리스: 2022년 2월 10일<br></p> </li> 
      <li> <p>프로덕션 릴리스: 22.2 릴리스 포함 </p> </li> 
-    </ul> <p><strong>다음 환경에서 사용할 수 있습니다.</strong> </p> 
+    </ul> <p><strong>다음 환경에서 사용 가능:</strong> </p> 
     <ul> 
      <li> <p>새로운 Adobe Workfront 환경 </p> </li> 
     </ul> </td> 
@@ -162,12 +162,12 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td> <p><strong>릴리스 날짜 및 환경</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-project-enhancements.md#adobe" class="MCXref xref" xrefformat="{para}">이제 Adobe Workfront 보드를 사용할 수 있습니다! </a> </p> <p>보드는 열과 카드가 포함된 공유 보드에 대한 액세스를 제공하여 팀 공동 작업을 허용하는 유연한 도구입니다. </p> <p>보드를 사용하면 여러 열로 구성된 작업 보드를 빠르게 설정하고, 상태 또는 범주를 표시하도록 열을 구성하고, 보드에 다른 사용자를 추가하고 카드에 할당하는 등의 작업을 수행할 수 있습니다.</p> </td> 
+   <td> <p>이제 <a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-project-enhancements.md#adobe" class="MCXref xref" xrefformat="{para}">Adobe Workfront 게시판을 사용할 수 있습니다! </a> </p> <p>보드는 열과 카드가 포함된 공유 보드에 대한 액세스를 제공하여 팀 공동 작업을 허용하는 유연한 도구입니다. </p> <p>보드를 사용하면 여러 열로 구성된 작업 보드를 빠르게 설정하고, 상태 또는 범주를 표시하도록 열을 구성하고, 보드에 다른 사용자를 추가하고 카드에 할당하는 등의 작업을 수행할 수 있습니다.</p> </td> 
    <td> <p><b>다음 날짜에 사용 가능:</b> </p> 
     <ul> 
      <li> <p>미리보기 릴리스: 2022년 3월 10일<br></p> </li> 
      <li> <p>프로덕션 릴리스: 22.2 릴리스 포함 </p> </li> 
-    </ul> <p><strong>다음 환경에서 사용할 수 있습니다.</strong> </p> 
+    </ul> <p><strong>다음 환경에서 사용 가능:</strong> </p> 
     <ul> 
      <li> <p>새로운 Adobe Workfront 환경 </p> </li> 
     </ul> </td> 
@@ -185,7 +185,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     <ul> 
      <li> <p>미리보기 릴리스: 2022년 3월 24일<br></p> </li> 
      <li> <p>프로덕션 릴리스: 22.2 릴리스 포함 </p> </li> 
-    </ul> <p><strong>다음 환경에서 사용할 수 있습니다.</strong> </p> 
+    </ul> <p><strong>다음 환경에서 사용 가능:</strong> </p> 
     <ul> 
      <li> <p>새로운 Adobe Workfront 환경 </p> </li> 
     </ul> </td> 
@@ -196,7 +196,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     <ul> 
      <li> <p>미리보기 릴리스: 2022년 3월 10일<br></p> </li> 
      <li> <p>프로덕션 릴리스: 22.2 릴리스 포함 </p> </li> 
-    </ul> <p><strong>다음 환경에서 사용할 수 있습니다.</strong> </p> 
+    </ul> <p><strong>다음 환경에서 사용 가능:</strong> </p> 
     <ul> 
      <li> <p>새로운 Adobe Workfront 환경 </p> </li> 
     </ul> </td> 
@@ -207,7 +207,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     <ul> 
      <li> <p>미리보기 릴리스: 2022년 3월 10일<br></p> </li> 
      <li> <p>프로덕션 릴리스: 22.2 릴리스 포함 </p> </li> 
-    </ul> <p><strong>다음 환경에서 사용할 수 있습니다.</strong> </p> 
+    </ul> <p><strong>다음 환경에서 사용 가능:</strong> </p> 
     <ul> 
      <li> <p>새로운 Adobe Workfront 환경 </p> </li> 
     </ul> </td> 
@@ -228,7 +228,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     <ul> 
      <li> <p>미리보기 릴리스: 2022년 3월 10일<br></p> </li> 
      <li> <p>프로덕션 릴리스: 22.2 릴리스 포함 </p> </li> 
-    </ul> <p><strong>다음 환경에서 사용할 수 있습니다.</strong> </p> 
+    </ul> <p><strong>다음 환경에서 사용 가능:</strong> </p> 
     <ul> 
      <li> <p>새로운 Adobe Workfront 환경 </p> </li> 
     </ul> </td> 
@@ -238,8 +238,8 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td><strong>다음 날짜에 사용 가능:</strong> 
     <ul> 
      <li> <p>미리보기 릴리스: 2021년 12월 8일<br></p> </li> 
-     <li> <p>프로덕션 릴리스: 22.1 릴리스 포함 <span style="color: #ff0000; font-weight: bold;">이 기능은 2022년 3월 4일에 프로덕션 환경에서 일시적으로 제거되었습니다. 2022년 4월 28일부터 단계적으로 출시되었습니다. 롤아웃은 2022년 5월 5일에 완료되었습니다. 이제 모든 고객을 위한 미리보기 및 프로덕션에서 사용할 수 있습니다.</span></p> </li> 
-    </ul> <p><strong>다음 환경에서 사용할 수 있습니다.</strong> </p> 
+     <li> <p>프로덕션 릴리스: 22.1 릴리스 <span style="color: #ff0000; font-weight: bold;">이 기능은 2022년 3월 4일에 프로덕션 환경에서 일시적으로 제거되었습니다. 2022년 4월 28일부터 단계적으로 출시되었습니다. 롤아웃은 2022년 5월 5일에 완료되었습니다. 이제 모든 고객의 미리 보기 및 프로덕션에서 사용할 수 있습니다.</span></p> </li> 
+    </ul> <p><strong>다음 환경에서 사용 가능:</strong> </p> 
     <ul> 
      <li> <p>새로운 Adobe Workfront 환경 </p> </li> 
     </ul> </td> 
@@ -249,19 +249,19 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td><strong>다음 날짜에 사용 가능:</strong> 
     <ul> 
      <li> <p>미리보기 릴리스: 2021년 12월 8일<br></p> </li> 
-     <li> <p>프로덕션 릴리스: 22.1 릴리스 포함 <span style="color: #ff0000; font-weight: bold;">이 기능은 2022년 3월 4일에 프로덕션 환경에서 일시적으로 제거되었습니다. 2022년 4월 28일부터 단계적으로 출시되었습니다. 롤아웃은 2022년 5월 5일에 완료되었습니다. 이제 모든 고객을 위한 미리보기 및 프로덕션에서 사용할 수 있습니다.</span></p> </li> 
-    </ul> <p><strong>다음 환경에서 사용할 수 있습니다.</strong> </p> 
+     <li> <p>프로덕션 릴리스: 22.1 릴리스 <span style="color: #ff0000; font-weight: bold;">이 기능은 2022년 3월 4일에 프로덕션 환경에서 일시적으로 제거되었습니다. 2022년 4월 28일부터 단계적으로 출시되었습니다. 롤아웃은 2022년 5월 5일에 완료되었습니다. 이제 모든 고객의 미리 보기 및 프로덕션에서 사용할 수 있습니다.</span></p> </li> 
+    </ul> <p><strong>다음 환경에서 사용 가능:</strong> </p> 
     <ul> 
      <li> <p>새로운 Adobe Workfront 환경 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-project-enhancements.md#updated" class="MCXref xref" xrefformat="{para}">문제 복사 및 이동 시 경험 업데이트됨</a> </p> <p>Workfront을 새로운 Adobe Workfront 환경과 일관되게 사용하기 위해 문제 복사 및 이동 인터페이스를 다시 설계했습니다. 현재 하나의 문제를 복사하거나 이동할 때 또는 목록이나 보고서에서 문제를 일괄적으로 복사하거나 이동할 때 사용할 수 있습니다.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-project-enhancements.md#updated" class="MCXref xref" xrefformat="{para}">문제를 복사하고 이동할 때 경험이 업데이트됨</a> </p> <p>Workfront을 새로운 Adobe Workfront 환경과 일관되게 사용하기 위해 문제 복사 및 이동 인터페이스를 다시 설계했습니다. 현재 하나의 문제를 복사하거나 이동할 때 또는 목록이나 보고서에서 문제를 일괄적으로 복사하거나 이동할 때 사용할 수 있습니다.</p> </td> 
    <td><strong>다음 날짜에 사용 가능:</strong> 
     <ul> 
      <li> <p>미리보기 릴리스: 2022년 2월 18일<br></p> </li> 
      <li> <p>프로덕션 릴리스: 22.2 릴리스 포함</p> </li> 
-    </ul> <p><strong>다음 환경에서 사용할 수 있습니다.</strong> </p> 
+    </ul> <p><strong>다음 환경에서 사용 가능:</strong> </p> 
     <ul> 
      <li> <p>새로운 Adobe Workfront 환경 </p> </li> 
     </ul> </td> 
@@ -272,38 +272,38 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     <ul> 
      <li> <p>미리보기 릴리스: 2022년 2월 10일<br></p> </li> 
      <li> <p>프로덕션 릴리스: 2022년 2월 24일</p> </li> 
-    </ul> <p><strong>다음 환경에서 사용할 수 있습니다.</strong> </p> 
+    </ul> <p><strong>다음 환경에서 사용 가능:</strong> </p> 
     <ul> 
      <li> <p>새로운 Adobe Workfront 환경 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-project-enhancements.md#allocati" class="MCXref xref" xrefformat="{para}">할당을 변경할 때 할당 시간이 더 이상 제거되지 않음</a> </p> <p>데이터의 정확성을 보장하기 위해 할당 시간을 보존하고 작업 할당을 변경할 때 작업 계획 시간을 변경하지 않도록 변경했습니다.</p> <p>단순 기간 유형의 작업이 다음과 같이 변경되었습니다.</p> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-project-enhancements.md#allocati" class="MCXref xref" xrefformat="{para}">할당을 변경할 때 할당 시간이 더 이상 제거되지 않습니다</a> </p> <p>데이터의 정확성을 보장하기 위해 할당 시간을 보존하고 작업 할당을 변경할 때 작업 계획 시간을 변경하지 않도록 변경했습니다.</p> <p>단순 기간 유형의 작업이 다음과 같이 변경되었습니다.</p> 
     <ul> 
      <li> <p>사용자 및 역할을 대체할 때 개별 할당 할당은 유지됩니다.</p> </li> 
      <li> <p>개별 할당 할당은 사용자를 제거할 때 역할에 유지됩니다.</p> </li> 
-     <li> <p>모든 할당자를 제거하면 계획된 시간이 유지됩니다. <span style="color: #ff0000;">(릴리스에서 제거됨. 이제 모든 할당자를 제거한 후 계획된 시간이 0으로 설정됩니다.)</span></p> </li> 
+     <li> <p>모든 할당자를 제거하면 계획된 시간이 유지됩니다. <span style="color: #ff0000;">(릴리스에서 제거됨) 이제 모든 피할당자를 제거한 후 계획된 시간이 0으로 설정됩니다.)</span></p> </li> 
     </ul> </td> 
    <td><strong>다음 날짜에 사용 가능:</strong> 
     <ul> 
      <li> <p>미리보기 릴리스: 2022년 2월 10일<br></p> </li> 
-     <li> <p>프로덕션 릴리스: 22.2 릴리스 포함 <span style="color: #ff0000; font-weight: bold;">이 기능은 22.2 릴리스 직후 프로덕션에 릴리스될 예정입니다</span></p> </li> 
-    </ul> <p><strong>다음 환경에서 사용할 수 있습니다.</strong> </p> 
+     <li> <p>프로덕션 릴리스: 22.2 릴리스 <span style="color: #ff0000; font-weight: bold;">이 기능은 22.2 릴리스</span> 직후 프로덕션에 릴리스됩니다.</p> </li> 
+    </ul> <p><strong>다음 환경에서 사용 가능:</strong> </p> 
     <ul> 
      <li> <p>새로운 Adobe Workfront 환경 </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic은 2022년 3월에 중단됩니다</a>, 곧 이어 2022년 7월에 Workfront Classic의 사용 종료 날짜가 표시됩니다.)</p> </li> 
+     <li> <p>Adobe Workfront Classic(<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic은 2022년 3월에 중단됩니다</a>, 곧 Workfront Classic의 사용 종료 날짜가 2022년 7월로 변경됩니다.)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-project-enhancements.md#share" class="MCXref xref" xrefformat="{para}">폴더 계층의 상위 5개 수준에서만 폴더 공유</a> </p> <p>폴더를 공유하는 사용자에게 최상의 성능을 보장하기 위해 현재 오브젝트의 폴더 계층 구조에서 상위 5개 수준으로 공유를 제한하고 있습니다.</p> <p>여섯 번째 수준 또는 그 이하의 각 폴더는 바로 위의 폴더에서 공유 구성을 상속합니다.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-project-enhancements.md#share" class="MCXref xref" xrefformat="{para}">폴더 계층 구조의 상위 5개 수준에서만 폴더 공유</a> </p> <p>폴더를 공유하는 사용자에게 최상의 성능을 보장하기 위해 현재 오브젝트의 폴더 계층 구조에서 상위 5개 수준으로 공유를 제한하고 있습니다.</p> <p>여섯 번째 수준 또는 그 이하의 각 폴더는 바로 위의 폴더에서 공유 구성을 상속합니다.</p> </td> 
    <td><strong>다음 날짜에 사용 가능:</strong> 
     <ul> 
      <li> <p>미리보기 릴리스: 2022년 2월 10일<br></p> </li> 
-     <li> <p>프로덕션 릴리스: 22.2 릴리스 포함 <span style="color: #ff0000; font-weight: bold;">이 기능은 일시적으로 사용할 수 없습니다. 이 페이지는 프로덕션에서 기능을 사용할 수 있게 되면 업데이트됩니다.</span></p> </li> 
-    </ul> <p><strong>다음 환경에서 사용할 수 있습니다.</strong> </p> 
+     <li> <p>프로덕션 릴리스: 22.2 릴리스 <span style="color: #ff0000; font-weight: bold;">에서는 이 기능을 일시적으로 사용할 수 없습니다. 프로덕션에서 기능을 사용할 수 있게 되면 이 페이지가 업데이트됩니다.</span></p> </li> 
+    </ul> <p><strong>다음 환경에서 사용 가능:</strong> </p> 
     <ul> 
      <li> <p>새로운 Adobe Workfront 환경 </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic은 2022년 3월에 중단됩니다</a>, 곧 이어 2022년 7월에 Workfront Classic의 사용 종료 날짜가 표시됩니다.)</p> </li> 
+     <li> <p>Adobe Workfront Classic(<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic은 2022년 3월에 중단됩니다</a>, 곧 Workfront Classic의 사용 종료 날짜가 2022년 7월로 변경됩니다.)</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -332,7 +332,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     <ul> 
      <li> <p>미리보기 릴리스: 2022년 3월 10일<br></p> </li> 
      <li> <p>프로덕션 릴리스: 22.2 릴리스 포함 </p> </li> 
-    </ul> <p><strong>다음 환경에서 사용할 수 있습니다.</strong> </p> 
+    </ul> <p><strong>다음 환경에서 사용 가능:</strong> </p> 
     <ul> 
      <li> <p>새로운 Adobe Workfront 환경 </p> </li> 
     </ul> </td> 
@@ -343,21 +343,21 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     <ul> 
      <li> <p>미리보기 릴리스: 2022년 3월 10일<br></p> </li> 
      <li> <p>프로덕션 릴리스: 22.2 릴리스 포함 </p> </li> 
-    </ul> <p><strong>다음 환경에서 사용할 수 있습니다.</strong> </p> 
+    </ul> <p><strong>다음 환경에서 사용 가능:</strong> </p> 
     <ul> 
      <li> <p>새로운 Adobe Workfront 환경 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-resource-management-enhancements.md#new" class="MCXref xref" xrefformat="{para}">기본 일정 기본 설정을 선택한 경우 사용자 가용성을 계산하는 새 공식</a> </p> <p>리소스 관리 도구에 대한 보다 정확한 정보를 제공하기 위해 Workfront 관리자가 리소스 관리 환경 설정에서 기본 일정을 선택할 때 Workfront이 사용자 가용성을 계산하는 데 사용하는 공식을 변경했습니다. 새 업데이트를 통해 Workfront은 다음 공식을 사용하여 사용자 가용성을 계산합니다.</p> <p>사용자 가용 시간 = (기본 스케줄 시간 - 예외) * FTE - 휴무 시간</p> <p>이 업데이트 이전에는 기본 일정이 선택되었을 때 Workfront에서 다음 공식을 사용하여 사용자 가용성을 계산했습니다.</p> <p>사용자 가용 시간 = (기본 스케줄 시간 - (스케줄 예외 + 휴무 시간)) * 사용자 FTE 값</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-resource-management-enhancements.md#new" class="MCXref xref" xrefformat="{para}">기본 일정 기본 설정을 선택한 경우 사용자 가용성을 계산하는 새 수식</a> </p> <p>리소스 관리 도구에 대한 보다 정확한 정보를 제공하기 위해 Workfront 관리자가 리소스 관리 환경 설정에서 기본 일정을 선택할 때 Workfront이 사용자 가용성을 계산하는 데 사용하는 공식을 변경했습니다. 새 업데이트를 통해 Workfront은 다음 공식을 사용하여 사용자 가용성을 계산합니다.</p> <p>사용자 가용 시간 = (기본 스케줄 시간 - 예외) * FTE - 휴무 시간</p> <p>이 업데이트 이전에는 기본 일정이 선택되었을 때 Workfront에서 다음 공식을 사용하여 사용자 가용성을 계산했습니다.</p> <p>사용자 가용 시간 = (기본 스케줄 시간 - (스케줄 예외 + 휴무 시간)) * 사용자 FTE 값</p> </td> 
    <td> <p><b>다음 날짜에 사용 가능:</b> </p> 
     <ul> 
      <li> <p>미리보기 릴리스: 2022년 3월 10일<br></p> </li> 
      <li> <p>프로덕션 릴리스: 22.2 릴리스 포함 </p> </li> 
-    </ul> <p><strong>다음 환경에서 사용할 수 있습니다.</strong> </p> 
+    </ul> <p><strong>다음 환경에서 사용 가능:</strong> </p> 
     <ul> 
      <li> <p>새로운 Adobe Workfront 환경 </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic은 2022년 3월에 중단됩니다</a>, 곧 이어 2022년 7월에 Workfront Classic의 사용 종료 날짜가 표시됩니다.)</p> </li> 
+     <li> <p>Adobe Workfront Classic(<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic은 2022년 3월에 중단됩니다</a>, 곧 Workfront Classic의 사용 종료 날짜가 2022년 7월로 변경됩니다.)</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -374,12 +374,12 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td> <p><strong>릴리스 날짜 및 환경</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-home-enhancements.md#improvem" class="MCXref xref" xrefformat="{para}">홈 작업 목록의 필터 개선 사항</a> </p> <p>작업 목록을 더 잘 제어하고 집중할 수 있도록 홈 영역의 필터에 대한 몇 가지 개선 사항을 구현했습니다. 새로운 개선 사항을 통해 오브젝트 유형별로 필터를 선택하고 작업 항목의 상태(예: 시작 준비, 작업 중 또는 요청됨)별로 결과의 범위를 좁힐 수 있습니다. 이제 오브젝트 유형과 작업 항목 상태 필터의 조합을 적용할 때 새로운 홈 필터는 작업, 문제, 개인 작업 항목 및 승인의 올바른 수를 제공합니다.</p> <p>이 경험 이전에는, 하나 이상의 필터를 선택했을 때 홈 영역의 필터가 목록의 작업 항목 수를 정확하게 카운트하지 않았으므로 작업 항목의 상태에 대해 혼동이 있었습니다.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-home-enhancements.md#improvem" class="MCXref xref" xrefformat="{para}">홈 작업 목록에서 필터 개선</a> </p> <p>작업 목록을 더 잘 제어하고 집중할 수 있도록 홈 영역의 필터에 대한 몇 가지 개선 사항을 구현했습니다. 새로운 개선 사항을 통해 오브젝트 유형별로 필터를 선택하고 작업 항목의 상태(예: 시작 준비, 작업 중 또는 요청됨)별로 결과의 범위를 좁힐 수 있습니다. 이제 오브젝트 유형과 작업 항목 상태 필터의 조합을 적용할 때 새로운 홈 필터는 작업, 문제, 개인 작업 항목 및 승인의 올바른 수를 제공합니다.</p> <p>이 경험 이전에는, 하나 이상의 필터를 선택했을 때 홈 영역의 필터가 목록의 작업 항목 수를 정확하게 카운트하지 않았으므로 작업 항목의 상태에 대해 혼동이 있었습니다.</p> </td> 
    <td> <p><b>다음 날짜에 사용 가능:</b> </p> 
     <ul> 
      <li> <p>미리보기 릴리스: 2022년 3월 10일<br></p> </li> 
      <li> <p>프로덕션 릴리스: 22.2 릴리스 포함 </p> </li> 
-    </ul> <p><strong>다음 환경에서 사용할 수 있습니다.</strong> </p> 
+    </ul> <p><strong>다음 환경에서 사용 가능:</strong> </p> 
     <ul> 
      <li> <p>새로운 Adobe Workfront 환경 </p> </li> 
     </ul> </td> 
@@ -403,14 +403,14 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     <ul> 
      <li> <p>미리보기 릴리스: 해당 사항 없음<br></p> </li> 
      <li> <p>프로덕션 릴리스: 2022년 4월 중순부터 하순 </p> </li> 
-    </ul> <p><strong>다음 환경에서 사용할 수 있습니다.</strong> </p> 
+    </ul> <p><strong>다음 환경에서 사용 가능:</strong> </p> 
     <ul> 
      <li> <p>iOS 모바일 앱</p> </li> 
      <li> <p>Android 모바일 앱</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-mobile-enhancements.md#enhancem" class="MCXref xref" xrefformat="{para}">모바일 앱의 증명 기능 개선 사항</a> </p> <p>이제 Adobe Workfront 모바일 앱에서 다음 작업을 수행할 수 있습니다.</p> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-mobile-enhancements.md#enhancem" class="MCXref xref" xrefformat="{para}">모바일 앱의 증명 기능 개선</a> </p> <p>이제 Adobe Workfront 모바일 앱에서 다음 작업을 수행할 수 있습니다.</p> 
     <ul> 
      <li> <p>내부 및 외부 수신자와 증명 공유</p> </li> 
      <li> <p>증명 주석 보기</p> </li> 
@@ -420,7 +420,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     <ul> 
      <li> <p>미리보기 릴리스: 해당 사항 없음<br></p> </li> 
      <li> <p>프로덕션 릴리스: 2022년 2월 초(이러한 개선 사항은 원래 22.1 릴리스와 함께 제공되었습니다.)</p> </li> 
-    </ul> <p><strong>다음 환경에서 사용할 수 있습니다.</strong> </p> 
+    </ul> <p><strong>다음 환경에서 사용 가능:</strong> </p> 
     <ul> 
      <li> <p>iOS 모바일 앱</p> </li> 
      <li> <p>Android 모바일 앱</p> </li> 
@@ -440,20 +440,20 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td> <p><strong>릴리스 날짜 및 환경</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-integration-enhancements.md#adobe" class="MCXref xref" xrefformat="{para}">이제 Adobe Workfront과 Anaplan 통합을 사용할 수 있습니다.</a> </p> <p>이제 Workfront을 Anaplan 계정과 통합하여 Workfront 프로젝트의 재무 측면에 대한 보다 나은 유연성과 통찰력을 얻을 수 있습니다. Workfront 오브젝트를 Anaplan 오브젝트에 연결하면 두 계정 간의 정보를 자동으로 업데이트하여 두 계정의 정보가 모두 최신 상태이고 동일한지 확인할 수 있습니다. </p> <p>Workfront의 작업을 기반으로 Anaplan에서 자동화된 프로세스를 트리거할 수도 있습니다(또는 그 반대의 경우도 가능).</p> <p>예를 들어 Anaplan에서 캠페인을 만든 다음 캠페인에 연결된 Workfront 프로젝트 또는 프로그램을 만들 수 있습니다. 그런 다음 Workfront에서 추적한 모든 비용을 Anaplan에 다시 업로드하여 캠페인 성과를 검토할 수 있습니다.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-integration-enhancements.md#adobe" class="MCXref xref" xrefformat="{para}">이제 Anaplan이 포함된 Adobe Workfront 통합을 사용할 수 있습니다</a> </p> <p>이제 Workfront을 Anaplan 계정과 통합하여 Workfront 프로젝트의 재무 측면에 대한 보다 나은 유연성과 통찰력을 얻을 수 있습니다. Workfront 오브젝트를 Anaplan 오브젝트에 연결하면 두 계정 간의 정보를 자동으로 업데이트하여 두 계정의 정보가 모두 최신 상태이고 동일한지 확인할 수 있습니다. </p> <p>Workfront의 작업을 기반으로 Anaplan에서 자동화된 프로세스를 트리거할 수도 있습니다(또는 그 반대의 경우도 가능).</p> <p>예를 들어 Anaplan에서 캠페인을 만든 다음 캠페인에 연결된 Workfront 프로젝트 또는 프로그램을 만들 수 있습니다. 그런 다음 Workfront에서 추적한 모든 비용을 Anaplan에 다시 업로드하여 캠페인 성과를 검토할 수 있습니다.</p> </td> 
    <td><strong>다음 날짜에 사용 가능:</strong> 
     <ul> 
      <li> <p>미리보기 릴리스: 2022년 3월 10일<br></p> </li> 
      <li> <p>프로덕션 릴리스: 22.2 릴리스 포함</p> </li> 
-    </ul> <p><strong>다음 환경에서 사용할 수 있습니다.</strong> </p> 
+    </ul> <p><strong>다음 환경에서 사용 가능:</strong> </p> 
     <ul> 
      <li> <p>새로운 Adobe Workfront 환경 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-integration-enhancements.md#workfron" class="MCXref xref" xrefformat="{para}">Workfront for Experience Manager 강화 커넥터 업데이트</a> </p> <p>이제 Workfront for Experience Manager 강화 커넥터에 다음 업데이트가 포함됩니다.</p> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-integration-enhancements.md#workfron" class="MCXref xref" xrefformat="{para}">Experience Manager 강화 커넥터 업데이트용 Workfront</a> </p> <p>이제 Workfront for Experience Manager 강화 커넥터에 다음 업데이트가 포함됩니다.</p> 
     <ul> 
-     <li> <p>이제 여러 개의 프로젝트로 연결된 폴더 구성이 있는 경우에도 Adobe Workfront과 Adobe Experience Manager Assets as a Cloud Service 간에 연결된 폴더를 만들 수 있습니다.</p> </li> 
+     <li> <p>이제 여러 프로젝트 폴더 구성이 있더라도 Adobe Workfront과 Adobe Experience Manager Assets as a Cloud Service 간에 연결된 폴더를 만들 수 있습니다.</p> </li> 
      <li> <p>이벤트 구독 페이지 매김에 대한 지원을 추가했습니다.</p> </li> 
      <li> <p>AEM 6.4.x에 대한 지원이 추가되었습니다</p> </li> 
      <li> <p>프록시 환경에 대한 지원이 추가되었습니다</p> </li> 
@@ -463,41 +463,41 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     <ul> 
      <li> <p>미리보기 릴리스: 해당 사항 없음<br></p> </li> 
      <li> <p>프로덕션 릴리스: 2022년 3월 28일</p> </li> 
-    </ul> <p><strong>다음 환경에서 사용할 수 있습니다.</strong> </p> 
+    </ul> <p><strong>다음 환경에서 사용 가능:</strong> </p> 
     <ul> 
      <li> <p>새로운 Adobe Workfront 환경 </p> </li> 
      <li> <p>Adobe Workfront 클래식 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-integration-enhancements.md#see" class="MCXref xref" xrefformat="{para}">사용자 정의 OAuth2 또는 JWT 통합을 위한 클라이언트 암호 세부 사항 을 참조하십시오</a> </p> <p>사용자 정의 OAuth2 및 JWT 통합 사용에 대한 투명성을 제공하기 위해 통합 사용 중인 클라이언트 암호에 대한 세부 사항을 볼 수 있도록 했습니다. 이제 클라이언트 암호가 만들어지고 마지막으로 사용된 날짜를 볼 수 있습니다. 클라이언트 암호에 대한 자신의 메모를 추가하고 볼 수도 있습니다.</p> <p>이전에는 이러한 세부 정보를 사용할 수 없었습니다.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-integration-enhancements.md#see" class="MCXref xref" xrefformat="{para}">사용자 지정 OAuth2 또는 JWT 통합을 위한 클라이언트 암호에 대한 세부 정보를 봅니다</a> </p> <p>사용자 정의 OAuth2 및 JWT 통합 사용에 대한 투명성을 제공하기 위해 통합 사용 중인 클라이언트 암호에 대한 세부 사항을 볼 수 있도록 했습니다. 이제 클라이언트 암호가 만들어지고 마지막으로 사용된 날짜를 볼 수 있습니다. 클라이언트 암호에 대한 자신의 메모를 추가하고 볼 수도 있습니다.</p> <p>이전에는 이러한 세부 정보를 사용할 수 없었습니다.</p> </td> 
    <td><strong>다음 날짜에 사용 가능:</strong> 
     <ul> 
      <li> <p>미리보기 릴리스: 2022년 3월 3일<br></p> </li> 
      <li> <p>프로덕션 릴리스: 22.2 릴리스 포함</p> </li> 
-    </ul> <p><strong>다음 환경에서 사용할 수 있습니다.</strong> </p> 
+    </ul> <p><strong>다음 환경에서 사용 가능:</strong> </p> 
     <ul> 
      <li> <p>새로운 Adobe Workfront 환경 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-integration-enhancements.md#adobe2" class="MCXref xref" xrefformat="{para}">이제 Adobe Creative Cloud 통합에서 OAuth2를 사용합니다</a> </p> <p>보안을 강화하고 통합 전반에서 보다 일관된 환경을 제공하기 위해 사용자를 인증하는 업계 표준 방법인 OAuth2 인증을 사용하도록 Adobe Creative Cloud 통합을 업데이트했습니다. 이제 사용자가 로그인하면 통합에서 액세스할 수 있는 특정 작업과 영역을 볼 수 있으며 액세스를 허용할 수 있습니다. 이 후에는 를 자주 로그인할 필요가 없습니다.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-integration-enhancements.md#adobe2" class="MCXref xref" xrefformat="{para}">Adobe Creative Cloud 통합에서 이제 OAuth2 사용</a> </p> <p>보안을 강화하고 통합 전반에서 보다 일관된 환경을 제공하기 위해 사용자를 인증하는 업계 표준 방법인 OAuth2 인증을 사용하도록 Adobe Creative Cloud 통합을 업데이트했습니다. 이제 사용자가 로그인하면 통합에서 액세스할 수 있는 특정 작업과 영역을 볼 수 있으며 액세스를 허용할 수 있습니다. 이 후에는 를 자주 로그인할 필요가 없습니다.</p> </td> 
    <td><strong>다음 날짜에 사용 가능:</strong> 
     <ul> 
      <li> <p>미리보기 릴리스: 2022년 2월 24일<br></p> </li> 
      <li> <p>프로덕션 릴리스: 22.2 릴리스 포함</p> </li> 
-    </ul> <p><strong>다음 환경에서 사용할 수 있습니다.</strong> </p> 
+    </ul> <p><strong>다음 환경에서 사용 가능:</strong> </p> 
     <ul> 
      <li> <p>새로운 Adobe Workfront 환경 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-integration-enhancements.md#see2" class="MCXref xref" xrefformat="{para}">사용자 지정 OAuth2 애플리케이션 목록에서 인증 유형 을 참조하십시오</a> </p> <p>이제 조직의 사용자 지정 OAuth2 애플리케이션 목록을 보면 각 애플리케이션이 사용자 인증을 사용하는지 아니면 서버 인증을 사용하는지 확인할 수 있습니다.</p> <p>이전에는 각 애플리케이션의 편집 옵션으로 이동해야만 이 정보를 볼 수 있었습니다.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-integration-enhancements.md#see2" class="MCXref xref" xrefformat="{para}">사용자 지정 OAuth2 응용 프로그램 목록에서 인증 유형을 확인하십시오</a> </p> <p>이제 조직의 사용자 지정 OAuth2 애플리케이션 목록을 보면 각 애플리케이션이 사용자 인증을 사용하는지 아니면 서버 인증을 사용하는지 확인할 수 있습니다.</p> <p>이전에는 각 애플리케이션의 편집 옵션으로 이동해야만 이 정보를 볼 수 있었습니다.</p> </td> 
    <td><strong>다음 날짜에 사용 가능:</strong> 
     <ul> 
      <li> <p>미리보기 릴리스: 2022년 2월 17일<br></p> </li> 
      <li> <p>프로덕션 릴리스: 22.2 릴리스 포함</p> </li> 
-    </ul> <p><strong>다음 환경에서 사용할 수 있습니다.</strong> </p> 
+    </ul> <p><strong>다음 환경에서 사용 가능:</strong> </p> 
     <ul> 
      <li> <p>새로운 Adobe Workfront 환경 </p> </li> 
     </ul> </td> 
@@ -508,7 +508,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     <ul> 
      <li> <p>미리보기 릴리스: 2022년 2월 10일 <br></p> </li> 
      <li> <p>프로덕션 릴리스: 22.2 릴리스 포함 </p> </li> 
-    </ul> <p><strong>다음 환경에서 사용할 수 있습니다.</strong> </p> 
+    </ul> <p><strong>다음 환경에서 사용 가능:</strong> </p> 
     <ul> 
      <li> <p>새로운 Adobe Workfront 환경 </p> </li> 
     </ul> </td> 
@@ -519,7 +519,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     <ul> 
      <li> <p>미리보기 릴리스: 2022년 2월 10일 <br></p> </li> 
      <li> <p>프로덕션 릴리스: 22.2 릴리스 포함 </p> </li> 
-    </ul> <p><strong>다음 환경에서 사용할 수 있습니다.</strong> </p> 
+    </ul> <p><strong>다음 환경에서 사용 가능:</strong> </p> 
     <ul> 
      <li> <p>새로운 Adobe Workfront 환경 </p> </li> 
     </ul> </td> 
@@ -543,7 +543,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     <ul> 
      <li> <p>미리보기 릴리스: 22.2 릴리스 일정 전체<br></p> </li> 
      <li> <p>프로덕션 릴리스: 미리보기에 릴리스한 후 최소 2주</p> </li> 
-    </ul> <p><strong>다음 환경에서 사용할 수 있습니다.</strong> </p> 
+    </ul> <p><strong>다음 환경에서 사용 가능:</strong> </p> 
     <ul> 
      <li> <p>새로운 Adobe Workfront 환경 </p> </li> 
     </ul> </td> 
@@ -559,7 +559,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     <ul> 
      <li> <p>미리보기 릴리스: 2022년 3월 10일<br></p> </li> 
      <li> <p>프로덕션 릴리스: 22.2 릴리스 포함</p> </li> 
-    </ul> <p><strong>다음 환경에서 사용할 수 있습니다.</strong> </p> 
+    </ul> <p><strong>다음 환경에서 사용 가능:</strong> </p> 
     <ul> 
      <li> <p>새로운 Adobe Workfront 환경 </p> </li> 
     </ul> </td> 
@@ -574,7 +574,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     <ul> 
      <li> <p>미리보기 릴리스: 2022년 3월 10일<br></p> </li> 
      <li> <p>프로덕션 릴리스: 22.2 릴리스 포함</p> </li> 
-    </ul> <p><strong>다음 환경에서 사용할 수 있습니다.</strong> </p> 
+    </ul> <p><strong>다음 환경에서 사용 가능:</strong> </p> 
     <ul> 
      <li> <p>새로운 Adobe Workfront 환경 </p> </li> 
     </ul> </td> 
@@ -584,7 +584,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
 
 ## Workfront Fusion 개선 사항
 
-Workfront Fusion의 새로운 기능은 22.2 릴리스 일정이 아닌 다른 케이던스로 프로덕션에서 사용할 수 있습니다. 최신 기능에 대한 자세한 내용은 [Adobe Workfront Fusion 릴리스 활동](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Workfront Fusion의 새로운 기능은 22.2 릴리스 일정이 아닌 다른 케이던스로 프로덕션에서 사용할 수 있습니다. 최신 기능에 대한 자세한 내용은 [Adobe Workfront Fusion 릴리스 활동](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)을 참조하십시오.
 
 ## Workfront Scenario Planner 개선 사항
 
@@ -594,9 +594,9 @@ Workfront Fusion의 새로운 기능은 22.2 릴리스 일정이 아닌 다른 �
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">New features are coming to Workfront Scenario Planner release with the 21.4 release. For information about these new features now available in Preview, see <a href="../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Scenario Planner release activity</a>.</p>
 -->
 
-## Workfront 증명 개선 사항
+## Workfront Proof 개선 사항
 
-릴리스의 현재 시점에는 Workfront 증명 업데이트가 없습니다. 업데이트를 사용할 수 있으면 이 영역이 업데이트됩니다.
+릴리스의 현재 시점에는 Workfront Proof 업데이트가 없습니다. 업데이트를 사용할 수 있으면 이 영역이 업데이트됩니다.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">New features in Workfront Proof are now available. For more information, see <a href="../../../product-announcements/product-releases/workfront-proof-release-activity/wp-release-22-1.md" class="MCXref xref" xrefformat="{para}">Workfront Proof release activity:&nbsp;Week of November 29, 2021</a>.</p>
@@ -614,17 +614,17 @@ Workfront Fusion의 새로운 기능은 22.2 릴리스 일정이 아닌 다른 �
 
 API 버전 14의 경우 일부 리소스 및 끝점을 수정했습니다. 일부 변경 사항은 새로운 기능을 지원하며, 다른 변경 사항을 통해 API를 통해 사용 가능한 정보를 보다 쉽게 사용할 수 있습니다.
 
-새로운 기능 및 업데이트 사항에 대한 자세한 내용은 [API 버전 14의 새로운 기능](../../../wf-api/api/new-api-version-14.md).
+새로운 기능 및 업데이트 내용은 [API 버전 14의 새로운 기능](../../../wf-api/api/new-api-version-14.md)을 참조하세요.
 
-API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](../../../wf-api/api/api-version-support-schedule.md).
+API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](../../../wf-api/api/api-version-support-schedule.md)을 참조하십시오.
 
 ## Workfront 유지 보수 업데이트
 
-22.2 릴리스 동안 수행된 유지 관리 업데이트에 대한 자세한 내용은 다음을 참조하십시오. [Workfront 유지 보수 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+22.2 릴리스 동안 이루어진 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)를 참조하십시오.
 
 ## 22.2 릴리스 웨비나
 
-Workfront 22.2 릴리스 웨비나는 2022년 3월 24일 오전 8시 MST에서 제공됩니다. 다음에서 이벤트에 등록할 수 있습니다. [Workfront One의 이벤트 페이지](https://webinars.on24.com/adobe_workfront/WF22point2?partnerref=WFOne).
+Workfront 22.2 릴리스 웨비나는 2022년 3월 24일 오전 8시 MST에서 제공됩니다. Workfront One](https://webinars.on24.com/adobe_workfront/WF22point2?partnerref=WFOne)의 [이벤트 페이지에서 이벤트를 등록할 수 있습니다.
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -653,12 +653,12 @@ was presented on January 12, 2022. You can view the webinar recording on the
 
 ## 교육 업데이트
 
-각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [교육 릴리스 업데이트 페이지](https://one.workfront.com/s/training-release-updates).
+각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [교육 릴리스 업데이트 페이지](https://one.workfront.com/s/training-release-updates)를 참조하십시오.
 
 ## 기능이 더 이상 지원되지 않음
 
 ### Internet Explorer 11
 
-Internet Explorer에 대한 지원이 제거됨에 따라 이제 Workfront이 공식적으로 Microsoft Edge를 지원합니다.
+Internet Explorer에 대한 지원이 제거됨에 따라 이제 Workfront에서 공식적으로 Microsoft Edge을 지원합니다.
 
-지원되는 브라우저에 대한 자세한 내용은 [Adobe Workfront 브라우저 요구 사항](../../../workfront-basics/workfront-browser-requirements.md).
+지원되는 브라우저에 대한 자세한 내용은 [Adobe Workfront 브라우저 요구 사항](../../../workfront-basics/workfront-browser-requirements.md)을 참조하십시오.

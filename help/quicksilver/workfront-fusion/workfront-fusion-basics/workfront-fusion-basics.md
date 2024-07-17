@@ -21,6 +21,6 @@ ht-degree: 0%
 Adobe Workfront Fusion에는 Adobe Workfront 라이센스 외에 Adobe Workfront Fusion 라이센스가 필요합니다.
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [에서 프로필 설정 변경 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md)
-* [에서 사용자 데이터 삭제 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/workfront-fusion-basics/delete-user-data.md)
+* [ [!DNL Adobe Workfront Fusion]에서 프로필 설정 변경](../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md)
+* [ [!DNL Adobe Workfront Fusion]에서 사용자 데이터 삭제](../../workfront-fusion/workfront-fusion-basics/delete-user-data.md)
 * [[!DNL Adobe Workfront Fusion] FAQ](../../workfront-fusion/workfront-fusion-basics/faq.md)

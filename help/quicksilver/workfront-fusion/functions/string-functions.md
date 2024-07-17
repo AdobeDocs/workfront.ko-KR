@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ---
 
-# 의 문자열 함수 [!DNL Adobe Workfront Fusion]
+# [!DNL Adobe Workfront Fusion]의 문자열 함수
 
 ## 액세스 요구 사항
 
@@ -36,7 +36,7 @@ ht-degree: 0%
   <tr>  
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 라이센스**</td>  
    <td> 
-   <p>현재: 아니요 [!DNL Workfront Fusion] 라이센스 요구 사항.</p> 
+   <p>현재: [!DNL Workfront Fusion] 라이선스 요구 사항이 없습니다.</p> 
    <p>또는</p> 
    <p>레거시: 모두 </p> 
    </td>  
@@ -44,19 +44,19 @@ ht-degree: 0%
   <tr>  
    <td role="rowheader">제품</td>  
    <td> 
-   <p>신규:</p> <ul><li>[!UICONTROL Select] 또는 [!UICONTROL Prime] [!DNL Workfront] 플랜: 조직에서 구매해야 합니다. [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] 플랜: [!DNL Workfront Fusion] 포함됩니다.</li></ul> 
+   <p>신규:</p> <ul><li>[!UICONTROL Select] 또는 [!UICONTROL Prime] [!DNL Workfront] 플랜: 조직에서 [!DNL Adobe Workfront Fusion]을(를) 구매해야 합니다.</li><li>[!UICONTROL Ultimate] [!DNL Workfront] 계획: [!DNL Workfront Fusion]이(가) 포함되어 있습니다.</li></ul> 
    <p>또는</p> 
-   <p>현재: 조직에서 구매해야 합니다. [!DNL Adobe Workfront Fusion].</p> 
+   <p>현재: 조직에서 [!DNL Adobe Workfront Fusion]을(를) 구매해야 합니다.</p> 
    </td>  
   </tr> 
  </tbody>  
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
-다음에 대한 정보: [!DNL Adobe Workfront Fusion] 라이센스, 참조 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+[!DNL Adobe Workfront Fusion] 라이선스에 대한 자세한 내용은 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md)를 참조하세요.
 
-## [!UICONTROL length(텍스트 또는 버퍼)]
+## [!UICONTROL 길이(텍스트 또는 버퍼)]
 
 텍스트 문자열 길이(문자 수) 또는 이진 버퍼(버퍼 크기(바이트))를 반환합니다.
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 >
 >반환: 5
 
-## [!UICONTROL lower(텍스트)]
+## [!UICONTROL 하단(텍스트)]
 
 텍스트 문자열의 모든 알파벳 문자를 소문자로 변환합니다.
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 >
 >반환: hello
 
-## [!UICONTROL 대문자(텍스트)]
+## [!UICONTROL 자본화(텍스트)]
 
 텍스트 문자열의 첫 번째 문자를 대문자로 변환합니다.
 
@@ -92,7 +92,7 @@ ht-degree: 0%
 >
 >반환: [!DNL Workfront]
 
-## [!UICONTROL startcase(텍스트)]
+## [!UICONTROL 시작 사례(텍스트)]
 
 모든 단어의 첫 번째 문자를 대문자로 사용하고 다른 모든 문자는 소문자로 바꿉니다.
 
@@ -101,7 +101,7 @@ ht-degree: 0%
 >**예:**
 >`startcase( hello WORLD )`
 >
->반환: [!UICONTROL 헬로 월드]
+>반환: [!UICONTROL Hello World]
 
 ## [!UICONTROL ascii(텍스트; [분음 부호 제거])]
 
@@ -131,9 +131,9 @@ ht-degree: 0%
 >
 >`replace( Hello World ; Hello ; Hi )`
 >
->반환: [!UICONTROL 하이 월드]
+>반환: [!UICONTROL Hi World]
 
-정규 표현식(안에 포함) `/.../`)는 플래그(예: )를 조합한 검색 문자열로 사용할 수 있습니다. `g`, `i`, `m`) 추가됨:
+정규식(`/.../`(으)로 묶음)은 플래그(예: `g`, `i`, `m`)가 추가된 검색 문자열로 사용할 수 있습니다.
 
 >[!INFO]
 >
@@ -146,7 +146,7 @@ ht-degree: 0%
 대체 문자열에는 다음과 같은 특수 대체 패턴이 포함될 수 있습니다.
 
 * `$&` 일치하는 하위 문자열을 삽입합니다.
-* `$n` n이 100보다 작은 양의 정수인 경우 는 n번째 괄호로 묶인 부분 일치 문자열을 삽입합니다. 1개 색인화되었습니다.
+* `$n` n이 100보다 작은 양의 정수인 경우 n번째 괄호로 묶인 하위 일치 문자열을 삽입합니다. 1개 색인화되었습니다.
 
 >[!INFO]
 >
@@ -162,9 +162,9 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->다음과 같은 명명된 캡처 그룹을 사용하지 마십시오. `/ is (?<number>\d+)/` 를 입력합니다. 이렇게 하면 오류가 발생합니다.
+>대체 문자열 인수에는 `/ is (?<number>\d+)/`과(와) 같은 명명된 캡처 그룹을 사용하지 마십시오. 이렇게 하면 오류가 발생합니다.
 
-정규 표현식에 대한 자세한 내용은 [텍스트 구문 분석기](../../workfront-fusion/apps-and-their-modules/text-parser.md).
+정규식에 대한 자세한 내용은 [텍스트 구문 분석기](../../workfront-fusion/apps-and-their-modules/text-parser.md)를 참조하십시오.
 
 ## [!UICONTROL 트리밍(텍스트)]
 
@@ -180,9 +180,9 @@ ht-degree: 0%
 >
 >`upper( Hello )`
 >
->반환: [!UICONTROL 안녕하세요.]
+>반환: [!UICONTROL HELLO]
 
-## [!UICONTROL 하위 문자열(텍스트, 시작, 종료)]
+## [!UICONTROL 하위 문자열(텍스트; start;end)]
 
 시작 위치와 끝 위치 사이의 텍스트 문자열 부분을 반환합니다.
 
@@ -236,7 +236,7 @@ ht-degree: 0%
 >
 >   반환: 57 6f 72 6b 66 72 6f 6e 74
 
-## [!UICONTROL toString (값)]
+## [!UICONTROL toString(값)]
 
 모든 값을 문자열로 변환합니다.
 
@@ -255,7 +255,7 @@ URL의 특수 문자를 텍스트로 디코딩합니다.
 >
 >반환: [!UICONTROL 워크플로우 자동화]
 
-## [!UICONTROL escapeHTML(텍스트)]
+## [!UICONTROL 이스케이프 HTML(텍스트)]
 
 텍스트의 모든 HTML 태그를 이스케이프 처리합니다.
 
@@ -267,7 +267,7 @@ URL의 특수 문자를 텍스트로 디코딩합니다.
 >
 > 반환: `&lt;b&gt;Hello&lt;/b&gt;`
 
-## [!UICONTROL escapeMarkdown(텍스트)]
+## [!UICONTROL escapeMarkdown(text)]
 
 텍스트의 모든 Markdown 태그를 이스케이프 처리합니다.
 
@@ -307,7 +307,7 @@ URL의 특수 문자를 텍스트로 디코딩합니다.
 >
 >   반환: [!UICONTROL false]
 
-## [!UICONTROL 분할(텍스트, 구분 문자)]
+## [!UICONTROL 분할(텍스트, 구분 기호)]
 
 문자열을 하위 문자열로 분리하여 문자열을 문자열 배열로 분할합니다.
 
@@ -329,7 +329,7 @@ URL의 특수 문자를 텍스트로 디코딩합니다.
 >
 >반환: `1448bbbeaa7a9b8091d426999f1f666b`
 
-## [!UICONTROL sha1(텍스트; [인코딩]; [key])]
+## [!UICONTROL sha1(텍스트; [인코딩]; [키])]
 
 문자열의 sha1 해시를 계산합니다. key 인수를 지정하면 sha1 HMAC 해시가 대신 반환됩니다. 지원되는 인코딩: &quot;hex&quot;(기본값), &quot;base64&quot; 또는 &quot;latin1&quot;.
 
@@ -341,7 +341,7 @@ URL의 특수 문자를 텍스트로 디코딩합니다.
 >
 >반환: b2b30b8ae1f9e5b40fbb0696eaabdbfd8d0c087f
 
-## [!UICONTROL sha256(텍스트; [인코딩]; [key])]
+## [!UICONTROL sha256(텍스트; [인코딩]; [키])]
 
 문자열의 sha256 해시를 계산합니다. key 인수를 지정하면 sha256 HMAC 해시가 대신 반환됩니다. 지원되는 인코딩: &quot;hex&quot;(기본값), &quot;base64&quot; 또는 &quot;latin1&quot;.>
 
@@ -353,23 +353,23 @@ URL의 특수 문자를 텍스트로 디코딩합니다.
 >
 >반환: ed3d7397eec7b94453035b67ba4468c883ee3bedeb57137f7371f2e0cf5e2bbc
 
-## [!UICONTROL sha512(텍스트; [출력 인코딩]; [key]; [키 인코딩])]
+## [!UICONTROL sha512(텍스트; [출력 인코딩]; [키]; [키 인코딩])]
 
 문자열의 sha512 해시를 계산합니다. key 인수를 지정하면 sha512 HMAC 해시가 대신 반환됩니다.
 
 지원되는 인코딩:
 
-* &quot;[!UICONTROL 16]&quot;(기본값)
+* &quot;[!UICONTROL hex]&quot;(기본값)
 * &quot;[!UICONTROL base64]&quot;
 * &quot;[!UICONTROL latin1]&quot;
 
 지원되는 키 인코딩:
 
-* &quot;[!UICONTROL 텍스트]&quot;(기본값)
-* &quot;[!UICONTROL 16]&quot;
-* &quot;[!UICONTROL base64]&quot; 또는 &quot;[!UICONTROL 이진]&quot;
+* &quot;[!UICONTROL text]&quot;(기본값)
+* &quot;[!UICONTROL hex]&quot;
+* &quot;[!UICONTROL base64]&quot; 또는 &quot;[!UICONTROL binary]&quot;
 
-사용 시[!UICONTROL 이진]&quot;키 인코딩. 키는 문자열이 아닌 버퍼여야 합니다.
+&quot;[!UICONTROL binary]&quot; 키 인코딩을 사용하는 경우 키는 문자열이 아닌 버퍼여야 합니다.
 
 >[!INFO]
 >

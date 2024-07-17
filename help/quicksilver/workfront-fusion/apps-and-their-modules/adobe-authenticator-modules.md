@@ -22,7 +22,7 @@ Adobe Authenticator 모듈을 사용하면 단일 연결을 사용하여 모든 
 
 HTTP 모듈에 대한 이점은 전용 앱에서와 같이 연결을 만들 수 있다는 것입니다.
 
-사용 가능한 Adobe API 목록을 보려면 [ADOBE API](https://developer.adobe.com/apis). 할당된 API만 사용할 수 있습니다.
+사용 가능한 Adobe API 목록을 보려면 [Adobe API](https://developer.adobe.com/apis)를 참조하십시오. 할당된 API만 사용할 수 있습니다.
 
 ## 액세스 요구 사항
 
@@ -45,17 +45,17 @@ HTTP 모듈에 대한 이점은 전용 앱에서와 같이 연결을 만들 수 
     <tr>
       <td role="rowheader">[!DNL Adobe Workfront Fusion] 라이센스</td>
       <td>
-   <p>현재 Fusion 라이센스 요구 사항: 아니요 [!DNL Workfront Fusion] 라이센스 요구 사항.</p>
+   <p>현재 Fusion 라이선스 요구 사항: [!DNL Workfront Fusion] 라이선스 요구 사항이 없습니다.</p>
    <p>또는</p>
-   <p>기존 Fusion 라이선스 요구 사항: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
+   <p>레거시 Fusion 라이선스 요구 사항: 작업 자동화 및 통합을 위한 [!UICONTROL [!DNL Workfront Fusion]] </p>
    </td>
     </tr>
     <tr>
       <td role="rowheader">제품</td>
       <td>
-   <p>새 Workfront 플랜: [!UICONTROL Select] 또는 [!UICONTROL Prime]이 있는 경우 [!DNL Adobe Workfront] 플랜, 조직은 다음을 구매해야 합니다. [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오. [!DNL Workfront Fusion] [!UICONTROL Ultimate]에 포함되어 있습니다. [!DNL Workfront] 계획.</p>
+   <p>새 Workfront 플랜: [!UICONTROL Select] 또는 [!UICONTROL Prime] [!DNL Adobe Workfront] 플랜이 있는 경우 조직에서 이 문서에 설명된 기능을 사용하려면 [!DNL Adobe Workfront Fusion]과(와) [!DNL Adobe Workfront]을(를) 구매해야 합니다. [!DNL Workfront Fusion]이(가) [!UICONTROL Ultimate] [!DNL Workfront] 계획에 포함되어 있습니다.</p>
    <p>또는</p>
-   <p>현재 Workfront 플랜: 조직에서 구매해야 합니다. [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오.</p>
+   <p>현재 Workfront 플랜: 이 문서에 설명된 기능을 사용하려면 조직에서 [!DNL Adobe Workfront Fusion]과(와) [!DNL Adobe Workfront]을(를) 구매해야 합니다.</p>
    </td>
     </tr>
   </tbody>
@@ -72,7 +72,7 @@ HTTP 모듈에 대한 이점은 전용 앱에서와 같이 연결을 만들 수 
      또는
    * 기존 프로젝트에 API를 추가합니다.
 
-  Adobe Developer Console에서 API를 만들거나 프로젝트에 추가하는 방법에 대한 자세한 내용은 을 참조하십시오. [프로젝트 만들기](https://developer.adobe.com/dep/guides/dev-console/create-project/) Adobe 설명서에서 확인할 수 있습니다.
+  Adobe Developer Console에서 API를 만들거나 프로젝트에 추가하는 방법에 대한 자세한 내용은 Adobe 설명서에서 [프로젝트 만들기](https://developer.adobe.com/dep/guides/dev-console/create-project/)를 참조하십시오.
 
 ## 연결 만들기
 
@@ -84,11 +84,11 @@ Adobe Authenticator 연결은 Adobe Developer Console의 단일 프로젝트에 
 >
 >Adobe Authenticator 커넥터를 사용하면 OAuth 서버 간 연결과 서비스 계정(JWT) 연결 중 하나를 선택할 수 있습니다. Adobe에 더 이상 사용되지 않는 JWT 자격 증명이 있으며, 2025년 1월 1일 이후 작동을 중지합니다. **따라서 OAuth 연결을 만드는 것이 좋습니다.**
 >
->이러한 연결 유형에 대한 자세한 내용은 [서버 간 인증](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/) Adobe 설명서에서
+>이러한 연결 유형에 대한 자세한 내용은 Adobe 설명서에서 [서버 간 인증](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/)을 참조하십시오
 
 연결을 만들려면 다음 작업을 수행하십시오.
 
-1. Adobe Authenticator 모듈에서 **추가** 연결 필드 옆에 있습니다.
+1. 모든 Adobe Authenticator 모듈에서 연결 필드 옆에 있는 **추가**&#x200B;를 클릭합니다.
 1. 다음 필드를 채웁니다.
 
    <table style="table-layout:auto"> 
@@ -111,11 +111,11 @@ Adobe Authenticator 연결은 Adobe Developer Console의 단일 프로젝트에 
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL 클라이언트 ID]</td>
-        <td>다음을 입력하십시오. [!DNL Adobe] 클라이언트 ID. 이 정보는 의 [!UICONTROL 자격 증명 세부 정보] 섹션에서 찾을 수 있습니다. [!DNL Adobe Developer Console].
+        <td>[!DNL Adobe] 클라이언트 ID를 입력하십시오. 이는 [!DNL Adobe Developer Console]의 [!UICONTROL 자격 증명 세부 정보] 섹션에서 찾을 수 있습니다.
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL 클라이언트 암호]</td>
-        <td>다음을 입력하십시오. [!DNL Adobe] 클라이언트 암호. 이 정보는 의 [!UICONTROL 자격 증명 세부 정보] 섹션에서 찾을 수 있습니다. [!DNL Adobe Developer Console].
+        <td>[!DNL Adobe] 클라이언트 암호를 입력하십시오. 이는 [!DNL Adobe Developer Console]의 [!UICONTROL 자격 증명 세부 정보] 섹션에서 찾을 수 있습니다.
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL 범위]</td>
@@ -123,11 +123,11 @@ Adobe Authenticator 연결은 Adobe Developer Console의 단일 프로젝트에 
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL 기술 계정 ID]</td>
-        <td>다음을 입력하십시오. [!DNL Adobe] 기술 계정 ID. 이 정보는 의 [!UICONTROL 자격 증명 세부 정보] 섹션에서 찾을 수 있습니다. [!DNL Adobe Developer Console].
+        <td>[!DNL Adobe] 기술 계정 ID를 입력하십시오. 이는 [!DNL Adobe Developer Console]의 [!UICONTROL 자격 증명 세부 정보] 섹션에서 찾을 수 있습니다.
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL 조직 ID]</td>
-        <td>JWT 연결을 선택한 경우 [!DNL Adobe] 조직 ID. 이 정보는 의 [!UICONTROL 자격 증명 세부 정보] 섹션에서 찾을 수 있습니다. [!DNL Adobe Developer Console].
+        <td>JWT 연결을 선택한 경우 [!DNL Adobe] 조직 ID를 입력하십시오. 이는 [!DNL Adobe Developer Console]의 [!UICONTROL 자격 증명 세부 정보] 섹션에서 찾을 수 있습니다.
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL 메타 범위]</td>
@@ -136,11 +136,11 @@ Adobe Authenticator 연결은 Adobe Developer Console의 단일 프로젝트에 
       <tr>
         <td role="rowheader">[!UICONTROL 개인 키]</td>
         <td>
-          <p>JWT 연결을 선택한 경우에서 자격 증명을 생성할 때 생성된 개인 키를 입력합니다 [!DNL Adobe Developer Console]. </p>
+          <p>JWT 연결을 선택한 경우 [!DNL Adobe Developer Console]에서 자격 증명을 만들 때 생성된 개인 키를 입력하십시오. </p>
           <p>개인 키 또는 인증서를 추출하려면 다음을 수행하십시오.</p>
           <ol>
             <li value="1">
-              <p>클릭 <b>[!UICONTROL Extract]</b>.</p>
+              <p><b>[!UICONTROL Extract]</b>을(를) 클릭합니다.</p>
             </li>
             <li value="2">
               <p>추출 중인 파일 유형을 선택합니다.</p>
@@ -152,18 +152,18 @@ Adobe Authenticator 연결은 Adobe Developer Console의 단일 프로젝트에 
               <p>파일의 암호를 입력합니다.</p>
             </li>
             <li value="5">
-              <p>클릭 <b>[!UICONTROL 저장]</b> 를 클릭하여 파일을 추출하고 연결 설정으로 돌아갑니다.</p>
+              <p><b>[!UICONTROL 저장]</b>을(를) 클릭하여 파일을 추출하고 연결 설정으로 돌아갑니다.</p>
             </li>
           </ol>
         </td>
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL 기본 URL]</td>
-        <td>이 인증자가 허용할 기본 URL을 추가해야 합니다. 시나리오의 뒷부분에서 사용자 지정 API 호출 만들기 모듈을 사용할 때 선택한 URL에 대한 상대 경로를 추가합니다. 여기에 URL을 입력하면 사용자 정의 API 호출 만들기 모듈이 연결할 수 있는 내용을 제어할 수 있으므로 보안이 강화됩니다.<p>인증자에 추가하려는 각 기본 URL에 대해 <b>항목 추가</b> 기본 URL을 입력합니다.</td>
+        <td>이 인증자가 허용할 기본 URL을 추가해야 합니다. 시나리오의 뒷부분에서 사용자 지정 API 호출 만들기 모듈을 사용할 때 선택한 URL에 대한 상대 경로를 추가합니다. 여기에 URL을 입력하면 사용자 정의 API 호출 만들기 모듈이 연결할 수 있는 내용을 제어할 수 있으므로 보안이 강화됩니다.<p>인증자에 추가하려는 각 기본 URL에 대해 <b>항목 추가</b>를 클릭하고 기본 URL을 입력하십시오.</td>
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL 인증 URL]</td>
-        <td>의 표준 Adobe IMS 인증 URL을 사용하려면 이 비워 둡니다. <code>https://ims-na1.adobelogin.com</code>. 인증에 Adobe IMS를 사용하지 않는 경우 인증에 사용할 URL을 입력합니다.</td>
+        <td><code>https://ims-na1.adobelogin.com</code>의 표준 Adobe IMS 인증 URL을 사용하려면 비워 두십시오. 인증에 Adobe IMS를 사용하지 않는 경우 인증에 사용할 URL을 입력합니다.</td>
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL 환경]</td>
@@ -176,7 +176,7 @@ Adobe Authenticator 연결은 Adobe Developer Console의 단일 프로젝트에 
     </tbody>
     </table>
 
-1. 클릭 **[!UICONTROL 계속]** 연결을 저장하고 모듈로 돌아갑니다.
+1. 연결을 저장하고 모듈로 돌아가려면 **[!UICONTROL 계속]**&#x200B;을 클릭하세요.
 
 ## 모듈
 
@@ -194,7 +194,7 @@ Adobe Authenticator 연결은 Adobe Developer Console의 단일 프로젝트에 
   <tbody>
     <tr>
      <td role="rowheader">[!UICONTROL Connection]</td>
-     <td>Adobe Authenticator 모듈에 대한 연결 만들기에 대한 지침은 <a href="#create-a-connection" class="MCXref xref" >연결 만들기</a> 이 문서에서.</td>
+     <td>Adobe Authenticator 모듈에 대한 연결 만들기에 대한 지침은 이 문서의 <a href="#create-a-connection" class="MCXref xref" >연결 만들기</a>를 참조하십시오.</td>
     </tr>
     <tr>
       <td role="rowheader">
@@ -207,7 +207,7 @@ Adobe Authenticator 연결은 Adobe Developer Console의 단일 프로젝트에 
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL 메서드]</p>
-   <td> <p>API 호출을 구성하는 데 필요한 HTTP 요청 메서드를 선택합니다. 자세한 내용은 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">의 HTTP 요청 메서드 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>API 호출을 구성하는 데 필요한 HTTP 요청 메서드를 선택합니다. 자세한 내용은 [!DNL Adobe Workfront Fusion]</a>에서 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP 요청 메서드를 참조하십시오.</p> </td> 
       </td>
     </tr>
     <tr>
@@ -226,7 +226,7 @@ Adobe Authenticator 연결은 Adobe Developer Console의 단일 프로젝트에 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Body]</td>
-   <td> <p>표준 JSON 개체의 형태로 API 호출에 대한 본문 콘텐츠를 추가합니다.</p> <p>참고:  <p>다음과 같은 조건문을 사용할 때 <code>if</code> json에서 따옴표를 조건문 외부에 넣습니다.</p> 
+   <td> <p>표준 JSON 개체의 형태로 API 호출에 대한 본문 콘텐츠를 추가합니다.</p> <p>참고:  <p>JSON에서 <code>if</code>과(와) 같은 조건문을 사용할 때 따옴표를 조건문 외부에 넣으십시오.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>

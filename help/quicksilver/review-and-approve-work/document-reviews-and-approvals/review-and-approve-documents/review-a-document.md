@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->이 문서의 내용은 특정 계정에만 사용할 수 있는 업데이트된 문서 승인 기능에 적용됩니다. 표준 승인 프로세스에 대한 정보는 다음 목록에 있는 문서를 참조하십시오. [작업 승인](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>이 문서의 내용은 특정 계정에만 사용할 수 있는 업데이트된 문서 승인 기능에 적용됩니다. 표준 승인 프로세스에 대한 자세한 내용은 [작업 승인](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md)에 나열된 문서를 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -39,11 +39,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>승인과 연관된 객체에 대한 보기 이상의 액세스 권한</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td> <p>승인과 연관된 객체에 대한 보기 이상의 액세스 권한</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>승인과 연관된 오브젝트에 대한 이상 권한 보기</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>승인과 연관된 오브젝트에 대한 이상 권한 보기</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,32 +63,32 @@ Add once functionality is added
 
 1. 미리 보기 상자에서 문서 위로 마우스를 가져갑니다. 그런 다음 다음 다음 중 하나를 수행합니다.
 
-   클릭 **미리 보기** 새 창에서 읽기 전용 버전의 문서를 엽니다.
+   **미리 보기**&#x200B;를 클릭하여 새 창에서 읽기 전용 버전의 문서를 엽니다.
 
    또는
 
-   클릭 **다운로드** 를 클릭하여 문서의 로컬 복사본을 장치에 다운로드합니다.
+   문서의 로컬 복사본을 장치에 다운로드하려면 **다운로드**&#x200B;를 클릭하세요.
 
-1. (선택 사항) 문서를 검토한 후에는 요청자를 위한 주석을 문서 **업데이트** 섹션. 댓글에 대한 자세한 내용은 [작업 업데이트](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. 검토를 완료했음을 기록하려면 **검토 완료**.
+1. (선택 사항) 문서를 검토한 후에는 문서의 **업데이트** 섹션에 요청자를 위한 댓글을 남길 수 있습니다. 댓글에 대한 자세한 내용은 [작업 업데이트](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)를 참조하세요.
+1. 검토를 완료했음을 기록하려면 **검토 완료**&#x200B;를 클릭하십시오.
 
 ## 문서 요약 창에서 문서 검토
 
-1. 문서가 포함된 프로젝트, 작업 또는 문제로 이동한 다음 선택 **문서**.
+1. 문서가 포함된 프로젝트, 작업 또는 문제로 이동한 다음 **문서**&#x200B;을(를) 선택합니다.
 
 1. 필요한 문서를 클릭하면 문서 요약 창이 열립니다.
 
 1. 버전 드롭다운에서 검토할 문서의 버전을 선택합니다. 기본적으로 최신 버전이 선택됩니다.
 
-1. 에서 문서 미리보기 위로 마우스 오버 **세부 사항** 문서 요약 창의 맨 위에 있는 섹션입니다. 그런 다음 다음 다음 중 하나를 수행합니다.
+1. 문서 요약 창 상단의 **세부 정보** 섹션에서 문서 미리 보기 위로 마우스를 가져갑니다. 그런 다음 다음 다음 중 하나를 수행합니다.
 
-   클릭 **미리 보기** 새 창에서 읽기 전용 버전의 문서를 엽니다.
+   **미리 보기**&#x200B;를 클릭하여 새 창에서 읽기 전용 버전의 문서를 엽니다.
 
    또는
 
-   클릭 **다운로드** 를 클릭하여 문서의 로컬 복사본을 장치에 다운로드합니다.
+   문서의 로컬 복사본을 장치에 다운로드하려면 **다운로드**&#x200B;를 클릭하세요.
 
-1. (선택 사항) 문서를 검토한 후에는 요청자를 위한 주석을 문서 **업데이트** 섹션. 댓글에 대한 자세한 내용은 [작업 업데이트](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (선택 사항) 문서를 검토한 후에는 문서의 **업데이트** 섹션에 요청자를 위한 댓글을 남길 수 있습니다. 댓글에 대한 자세한 내용은 [작업 업데이트](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)를 참조하세요.
 
-1. (선택 사항) 아래로 스크롤하여 문서의 특정 버전을 미리 보거나 다운로드할 수도 있습니다. **버전** 문서 요약 창의 섹션을 클릭한 다음 자세히 아이콘을 클릭합니다 ![](../assets/more-icon.png) 을 클릭하고 을 선택합니다. **다운로드** 또는 **미리 보기**.
-1. 검토를 완료했음을 기록하려면 **검토 완료**.
+1. (선택 사항) 문서 요약 창의 **버전** 섹션으로 스크롤한 다음 검토할 버전 옆에 있는 자세히 아이콘 ![](../assets/more-icon.png)을 클릭하고 **다운로드** 또는 **미리 보기**&#x200B;를 선택하여 특정 버전의 문서를 미리 보거나 다운로드할 수도 있습니다.
+1. 검토를 완료했음을 기록하려면 **검토 완료**&#x200B;를 클릭하십시오.

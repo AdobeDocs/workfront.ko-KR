@@ -10,7 +10,7 @@ exl-id: fda4630a-2590-46f4-94ff-499a485367ee
 source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
@@ -36,11 +36,11 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 편집</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 편집</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>보고서에 대한 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>보고서에 대한 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -50,7 +50,7 @@ ht-degree: 4%
 ## 문제
 
 보고서를 실행하거나 대시보드에 표시할 때 다음 오류가 반환됩니다.\
-*다시 시도해 보겠습니다. 현재 로그인되어 있지 않습니다.*
+*다시 시도해 보십시오. 현재 로그인되어 있지 않습니다.*
 
 보고서에 결과가 표시되지 않습니다.
 
@@ -64,12 +64,12 @@ ht-degree: 4%
 보고서를 조정하고 결과를 보려면 다음 작업을 수행하십시오.
 
 1. 보고서로 이동합니다.
-1. 클릭 **보고서 작업** > **편집** > **보고서 설정**.
+1. **보고서 작업** > **편집** > **보고서 설정**&#x200B;을 클릭합니다.
 
-1. 에서 활성 사용자의 이름을 지정합니다. **다음의 액세스 권한으로 이 보고서 실행:** 필드.\
+1. **액세스 권한:** 필드에서 이 보고서 실행에서 활성 사용자의 이름을 지정하십시오.\
    또는\
-   나가기 **다음의 액세스 권한으로 이 보고서 실행:** 필드가 비어 있습니다.
+   **액세스 권한:** 필드가 비어 있는 상태로 이 보고서 실행
 
-1. 클릭 **완료**.
-1. 클릭 **저장 + 닫기**.\
+1. **완료**&#x200B;를 클릭합니다.
+1. **저장 및 닫기**&#x200B;를 클릭합니다.\
    이 보고서를 실행할 때 오류가 다시 나타나지 않아야 합니다.

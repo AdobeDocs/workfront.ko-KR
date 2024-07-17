@@ -36,9 +36,9 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
 
 레코드를 연결하는 것은 다른 응용 프로그램의 개체에 레코드를 연결하는 것과 비슷합니다.
 
-레코드 형식을 서로 연결하거나 다른 응용 프로그램의 개체 형식에 연결하는 방법에 대한 자세한 내용은 [레코드 유형 연결](/help/quicksilver/planning/architecture/connect-record-types.md).
+레코드 형식을 서로 연결하거나 다른 응용 프로그램의 개체 형식에 연결하는 방법에 대한 자세한 내용은 [레코드 형식 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하십시오.
 
-레코드 종류 연결에 대한 예는 [레코드 종류 및 레코드 연결의 예](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md).
+레코드 종류를 연결하는 예제는 [레코드 종류 및 레코드를 연결하는 예제](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md)를 참조하십시오.
 
 다음을 연결할 수 있습니다.
 
@@ -77,7 +77,7 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
 <td>제품</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>Adobe Workfront Planning 레코드를 Experience Manager Assets과 연결하려면 Adobe Experience Manager Assets 라이선스가 있어야 하며, 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다. 자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 통합 경험 Adobe</a>.</p>
+   <p>Adobe Workfront Planning 레코드를 Experience Manager Assets과 연결하려면 Adobe Experience Manager Assets 라이선스가 있어야 하며, 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다. 자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 통합 경험 Adobe</a>를 참조하십시오.</p>
    </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront 계약</p></td>
@@ -115,14 +115,14 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
 
 <tr>
    <td role="rowheader"><p>레이아웃 템플릿</p></td>
-   <td> <p>Workfront 또는 그룹 관리자는 레이아웃 템플릿에 계획 영역을 추가해야 합니다. 자세한 내용은 <a href="/help/quicksilver/planning/access/access-overview.md">액세스 개요</a>. </p>  
+   <td> <p>Workfront 또는 그룹 관리자는 레이아웃 템플릿에 계획 영역을 추가해야 합니다. 자세한 내용은 <a href="/help/quicksilver/planning/access/access-overview.md">액세스 개요</a>를 참조하십시오. </p>  
 </td>
   </tr>
 
 </tbody>
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 <!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -167,7 +167,7 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
    * [레코드 유형 만들기](/help/quicksilver/planning/architecture/create-record-types.md)
    * [레코드 만들기](/help/quicksilver/planning/records/create-records.md)
 
-* 레코드 유형 간 또는 레코드 유형과 다른 응용 프로그램의 개체 간 연결입니다. 자세한 내용은 [레코드 유형 연결](/help/quicksilver/planning/architecture/connect-record-types.md).
+* 레코드 유형 간 또는 레코드 유형과 다른 응용 프로그램의 개체 간 연결입니다. 자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
 
 ## Workfront Planning에서 레코드 연결
 
@@ -179,8 +179,8 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
 
    작업공간이 열리고 레코드 유형이 카드로 표시됩니다.
 1. 레코드 유형의 카드를 클릭하여 레코드 유형 페이지를 엽니다.
-1. 선택 **표** 다음에서 보기 **보기** 레코드 유형 페이지의 오른쪽 위 모서리에 있는 드롭다운 메뉴.
-1. (선택 사항) 테이블에 새 행을 추가하여 선택한 레코드 유형에 레코드를 추가합니다. 자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md).
+1. 레코드 종류 페이지의 오른쪽 위 모서리에 있는 **보기** 드롭다운 메뉴에서 **테이블** 보기를 선택하십시오.
+1. (선택 사항) 테이블에 새 행을 추가하여 선택한 레코드 유형에 레코드를 추가합니다. 자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)를 참조하세요.
 1. (조건부) 선택한 레코드 종류를 다른 레코드 종류와 연결한 후 연결된 레코드 열로 이동하여 다른 레코드와 연결할 레코드에 해당하는 셀을 두 번 클릭합니다.
 
    ![](assets/connect-other-records-smaller-box-in-table-view.png)
@@ -189,9 +189,9 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
 
    * 목록에서 연결된 레코드의 이름을 클릭하여 선택한 레코드에 추가합니다. 레코드가 자동으로 추가됩니다.
    * 레코드의 이름을 입력하고 목록에 표시될 때 클릭합니다. 레코드가 자동으로 추가됩니다.
-   * 클릭 **모두 보기** 모든 레코드를 표시합니다.
+   * 모든 레코드를 표시하려면 **모두 보기**&#x200B;를 클릭합니다.
 
-1. (조건부) 을 클릭한 경우 **모두 선택** 이전 단계에서 **오브젝트 연결** 상자가 표시됩니다.
+1. (조건부) 이전 단계에서 **모두 선택**&#x200B;을 클릭한 경우 **개체 연결** 상자가 표시됩니다.
 
    ![](assets/connected-objects-table-for-records.png)
 
@@ -199,17 +199,17 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
 
    또는
 
-   상자에서 하나 이상의 레코드 이름을 선택한 다음 **오브젝트 연결** 을 클릭합니다.
+   상자에서 하나 이상의 레코드 이름을 선택한 다음 개체 연결 상자의 오른쪽 상단 모서리에서 **개체 연결**&#x200B;을 클릭합니다.
 
    >[!TIP]
    >
-   >    레코드의 페이지를 열고 연결된 레코드 필드를 찾은 다음 연결된 필드(이미 연결된 레코드가 있는 경우)를 클릭하거나 **레코드 연결** (필드가 비어 있는 경우) 연결된 레코드 또는 개체 유형에서 레코드를 추가할 수 있습니다.
+   >    레코드의 페이지를 열고 연결된 레코드 필드를 찾아 연결된 필드를 클릭하거나(이미 연결된 레코드가 있는 경우) **레코드 연결**(필드가 비어 있는 경우)을 클릭하여 연결된 레코드나 개체 형식의 레코드를 추가할 수 있습니다.
    >
    >![](assets/connect-records-from-record-page-field.png)
 
    다음이 추가됩니다.
 
-   * 연결된 레코드는 6단계에서 선택한 레코드의 연결된 레코드 필드에 표시됩니다. <!--accurate?-->
+   * 연결된 레코드가 6단계에서 선택한 레코드의 연결된 레코드 필드에 표시됩니다. <!--accurate?-->
    * 레코드 유형을 연결할 때 연결된 조회 필드를 추가한 경우 연결된 필드는 연결된 레코드의 정보로 채워집니다.
 
    연결된 레코드를 업데이트하면 연결되는 레코드의 연결된 필드가 자동으로 업데이트됩니다. 연결된 필드는 수동으로 편집할 수 없습니다.
@@ -218,16 +218,16 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
    >
    >* &quot;연결된 필드&quot;와 &quot;조회 필드&quot;를 서로 교환하여 사용합니다.
    >
-   >* 을 활성화한 경우 **여러 레코드 허용** 레코드 유형을 연결하면 선택한 여러 개체의 필드 값이 쉼표로 구분되어 표시되거나 선택한 집계기에 따라 집계됩니다.
+   >* 레코드 종류를 연결할 때 **여러 레코드 허용** 설정을 사용하도록 설정한 경우 선택한 여러 개체의 필드 값이 쉼표로 구분되어 표시되거나 선택한 집계기에 따라 집계됩니다.
 
 1. (선택 사항) 레코드 유형 페이지를 닫고 선택한 작업 영역으로 이동합니다.
 1. 연결한 레코드 종류의 카드를 클릭합니다.
 
-   예를 들어 를 연결한 경우 **캠페인** 제품 레코드와 함께 레코딩하려면 **제품** 카드.
+   예를 들어 **Campaign** 레코드를 제품 레코드와 연결한 경우 **Product** 카드를 클릭합니다.
 
    레코드 유형 카드가 표 보기에서 열립니다. 그렇지 않으면 테이블 뷰를 선택합니다.
 
-   다음 사항에 주목하십시오. **캠페인** 연결된 레코드 필드는 제품 레코드 유형 페이지에서 제품에 연결한 캠페인의 이름을 표시합니다. Campaign 정보를 업데이트하면 제품 레코드 유형에 대한 Campaign 연결 레코드 필드가 자동으로 업데이트됩니다.
+   **Campaign** 연결된 레코드 필드에는 제품 레코드 종류 페이지에서 제품에 연결한 캠페인의 이름이 표시됩니다. Campaign 정보를 업데이트하면 제품 레코드 유형에 대한 Campaign 연결 레코드 필드가 자동으로 업데이트됩니다.
 
 ### Adobe Workfront Planning 레코드를 Workfront 객체에 연결
 
@@ -246,9 +246,9 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
 
    작업공간이 열리고 레코드 유형이 카드로 표시됩니다.
 1. 레코드 유형의 카드를 클릭하여 레코드 유형 페이지를 엽니다.
-1. 선택 **표** 다음에서 보기 **보기** 드롭다운 메뉴.
+1. **보기** 드롭다운 메뉴에서 **테이블** 보기를 선택하십시오.
 
-1. 클릭 **새 레코드**  선택한 레코드 유형에 개별 레코드를 추가할 수 있습니다. 자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md).
+1. 선택한 레코드 종류에 개별 레코드를 추가하려면 **새 레코드**&#x200B;을(를) 클릭하십시오. 자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)를 참조하세요.
 1. (조건부) 선택한 레코드 종류를 Workfront 개체 형식과 연결한 후 연결된 개체 열로 이동하여 Workfront의 개체와 연결할 레코드에 해당하는 셀을 두 번 클릭합니다.
 
    ![](assets/connect-projects-smaller-box-in-table-view.png)
@@ -257,9 +257,9 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
 
    * 목록에서 개체를 클릭하여 선택한 레코드에 추가합니다. 객체는 알파벳순으로 나열됩니다. 개체가 자동으로 추가됩니다.
    * 객체의 이름을 입력하고 목록에 표시될 때 클릭합니다. 개체가 자동으로 추가됩니다.
-   * 클릭 **모두 보기** 최소한 볼 수 있는 권한이 있는 모든 개체를 표시합니다.
+   * 볼 수 있는 권한 이상의 모든 개체를 표시하려면 **모두 보기**&#x200B;를 클릭하십시오.
 
-1. (조건부) 을 클릭한 경우 **모두 보기** 이전 단계에서 **오브젝트 연결** 상자가 표시됩니다.
+1. (조건부) 이전 단계에서 **모두 보기**&#x200B;를 클릭한 경우 **개체 연결** 상자가 표시됩니다.
 
    ![](assets/connect-objects-box-to-select-projects.png)
 
@@ -267,7 +267,7 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
 
    또는
 
-   상자에서 하나 이상의 개체 이름을 선택한 다음 **오브젝트 연결** 을 클릭합니다.
+   상자에서 하나 이상의 개체 이름을 선택한 다음 개체 연결 상자의 오른쪽 상단 모서리에서 **개체 연결**&#x200B;을 클릭합니다.
 
    >[!IMPORTANT]
    >
@@ -282,9 +282,9 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
 
    >[!TIP]
    >
-   >레코드의 페이지를 열고 연결된 레코드 필드를 찾은 다음 **+** 연결된 객체 유형에서 객체를 추가하는 필드의 아이콘.
+   >레코드의 페이지를 열고 연결된 레코드 필드를 찾은 다음 필드의 **+** 아이콘을 클릭하여 연결된 개체 형식에서 개체를 추가할 수 있습니다.
 
-   다른 응용 프로그램의 개체와 레코드 형식을 연결하는 방법에 대한 자세한 내용은 [레코드 유형 연결](/help/quicksilver/planning/architecture/connect-record-types.md).
+   다른 응용 프로그램의 개체와 레코드 형식을 연결하는 방법에 대한 자세한 내용은 [레코드 형식 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하십시오.
 
 1. (선택 사항) 테이블 보기의 연결된 필드 또는 레코드 페이지의 연결된 필드에서 Workfront Planning 레코드에 연결된 Workfront 개체의 이름을 클릭합니다.
 
@@ -296,13 +296,13 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
    >
    >* Workfront의 연결된 Workfront 개체에 대해 연결된 레코드 필드가 만들어지지 않습니다.
 
-1. (선택 사항) 레코드 유형의 테이블 보기에서 연결된 Workfront 개체의 열 헤더를 마우스로 가리킨 다음 드롭다운 메뉴를 클릭한 다음 **조회 필드 편집**.
+1. (선택 사항) 레코드 종류의 테이블 보기에서 연결된 Workfront 개체의 열 머리글 위로 마우스를 가져간 다음 드롭다운 메뉴를 클릭한 다음 **조회 필드 편집**&#x200B;을 클릭합니다.
 
-1. 에서 Workfront 개체 필드 추가 **선택하지 않은 필드** 영역
+1. **선택하지 않은 필드** 영역에서 Workfront 개체 필드 추가
 
    또는
 
-   에서 Workfront 개체 필드 제거 **선택된 필드** 영역입니다.
+   **선택한 필드** 영역에서 Workfront 개체 필드를 제거합니다.
 
    이렇게 하면 Workfront Planning 레코드에서 연결된 필드가 추가되거나 제거됩니다. 제거된 필드와 관련된 정보는 Workfront에 남아 있습니다.
 
@@ -315,13 +315,13 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
 >
 >Adobe Experience Manager Assets 라이선스가 있어야 하며, Workfront Planning 레코드를 Adobe Experience Manager Assets에 연결하려면 조직의 Workfront 인스턴스가 Adobe 비즈니스 플랫폼 또는 Adobe Admin Console에 온보딩되어야 합니다.
 >
->Adobe Admin Console 온보딩에 대한 질문이 있는 경우 [통합 경험 FAQ Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+>Adobe Admin Console 온보딩에 대한 질문이 있는 경우 [통합 경험 Adobe FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)를 참조하십시오.
 
 레코드 종류와 Adobe Experience Manager Assets 간에 연결을 만들면 개별 레코드를 Experience Manager 에셋에 연결할 수 있습니다. 연결을 만들 때 Experience Manager Assets에서 연결한 에셋 필드는 연결한 레코드 종류에 자동으로 채워집니다.
 
 >[!NOTE]
 >
->Workfront 관리자가 Experience Manager Assets과 Adobe Experience Manager Assets 간의 통합을 통해 메타데이터 매핑을 구성할 때 Workfront에서 Planning 레코드 및 해당 필드에 액세스할 수 있습니다. 자세한 내용은 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+>Workfront 관리자가 Experience Manager Assets과 Adobe Experience Manager Assets 간의 통합을 통해 메타데이터 매핑을 구성할 때 Workfront에서 Planning 레코드 및 해당 필드에 액세스할 수 있습니다. 자세한 내용은 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en)을 참조하십시오.
 
 
 {{step1-to-planning}}
@@ -330,16 +330,16 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
 
    작업공간이 열리고 레코드 유형이 표시됩니다.
 1. 레코드 유형의 카드를 클릭하여 레코드 유형 페이지를 엽니다.
-1. 선택 **표** 다음에서 보기 **보기** 레코드 유형 페이지의 오른쪽 위 모서리에 있는 드롭다운 메뉴.
+1. 레코드 종류 페이지의 오른쪽 위 모서리에 있는 **보기** 드롭다운 메뉴에서 **테이블** 보기를 선택하십시오.
 
-1. (선택 사항) **새 레코드** 선택한 레코드 유형에 새 레코드를 추가합니다. 자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md).
-1. (조건부) 선택한 레코드 종류를 Experience Manager Assets에 연결한 후 연결된 개체 열로 이동하여 Experience Manager의 다른 개체와 연결할 레코드에 해당하는 셀을 마우스로 가리킨 다음 **+** 아이콘.
+1. (선택 사항) 선택한 레코드 형식에 새 레코드를 추가하려면 **새 레코드**&#x200B;을 클릭합니다. 자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)를 참조하세요.
+1. (조건부) 선택한 레코드 종류를 Experience Manager Assets에 연결한 후 연결된 개체 열로 이동하여 Experience Manager에서 다른 개체와 연결할 레코드에 해당하는 셀을 마우스로 가리킨 다음 **+** 아이콘을 클릭합니다.
 
    >[!TIP]
    >
-   >  다음을 추가할 수 있습니다. **+** 레코드 페이지의 연결된 개체 필드에 있는 아이콘으로 자산을 레코드에 연결합니다.
+   >  레코드 페이지의 연결된 개체 필드에서 **+** 아이콘을 클릭하여 자산을 레코드에 연결할 수 있습니다.
 
-   다음 **Assets 선택** 상자가 표시됩니다. <!--we might change this to Connect assets-->
+   **Assets 선택** 상자가 표시됩니다. <!--we might change this to Connect assets-->
 
    ![](assets/select-assets-box-for-aem-record-connections.png)
 
@@ -354,7 +354,7 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
    >
    > Experience Manager에서 볼 수 있는 액세스 권한이 있는 에셋만 연결할 수 있습니다. 연결되면 모든 Workfront Planning 사용자는 Experience Manager Assets에서의 액세스 권한에 관계없이 Workfront Planning에서 에셋을 볼 수 있습니다.
 
-1. 클릭 **선택**. <!-- we might change this to Connect-->
+1. **선택**&#x200B;을 클릭합니다. <!-- we might change this to Connect-->
 
    다음이 추가됩니다.
 
@@ -385,17 +385,17 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
    * 제작일
    * 수정일
 
-1. (선택 사항) Experience Manager에서 에셋 레코드 Experience Manager 페이지를 열려면 연결하려는 레코드의 레코드 유형 페이지로 이동하고 연결된 레코드 필드에서 에셋 이름을 클릭하여 팝업 창을 연 다음 **AEM에서 열기** 아이콘 ![](assets/open-asset-icon.png) 를 클릭하여 자산을 엽니다.
+1. (선택 사항) Experience Manager에서 에셋 Experience Manager 레코드 페이지를 열려면 연결하려는 레코드의 레코드 종류 페이지로 이동하고 연결된 레코드 필드에서 에셋 이름을 클릭하여 팝업 창을 연 다음 **AEM에서 열기** 아이콘 ![](assets/open-asset-icon.png)을 클릭하여 에셋을 엽니다.
 
    이렇게 하면 Adobe Experience Manager Assets에서 Experience Manager 에셋이 열립니다.
 
-1. (선택 사항) 레코드 유형의 테이블 보기에서 연결된 Experience Manager 에셋의 열 헤더 위로 마우스를 가져간 다음 드롭다운 메뉴를 클릭하고 **조회 필드 편집**.
+1. (선택 사항) 레코드 종류의 테이블 보기에서 연결된 Experience Manager 에셋의 열 머리글 위로 마우스를 가져간 다음 드롭다운 메뉴를 클릭한 다음 **조회 필드 편집**&#x200B;을 클릭합니다.
 
-1. 에서 Experience Manager Assets 개체 필드 추가 **선택하지 않은 필드** 영역
+1. **선택하지 않은 필드** 영역에서 Experience Manager Assets 개체 필드 추가
 
    또는
 
-   에서 Workfront 개체 필드 제거 **선택된 필드** 영역입니다.
+   **선택한 필드** 영역에서 Workfront 개체 필드를 제거합니다.
 
    이렇게 하면 레코드에서 연결된 필드가 추가되거나 제거됩니다. 제거된 필드와 관련된 정보는 Experience Assets Adobe에 남아 있습니다.
 
@@ -407,4 +407,4 @@ Workfront 객체에서 Workfront Planning 레코드를 연결하려면 다음이
 * 레코드와 Workfront 개체 간 최소 하나 이상의 연결.
 * Workfront 또는 그룹 관리자는 Planning 레코드 유형에 연결할 수 있는 Workfront 객체 유형에 Planning 섹션을 추가해야 합니다.
 
-자세한 내용은 [Adobe Workfront 오브젝트의 계획 섹션에서 레코드 관리](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+자세한 내용은 [Adobe Workfront 개체의 계획 섹션에서 레코드 관리](/help/quicksilver/planning/records/manage-records-in-planning-section.md)를 참조하십시오.

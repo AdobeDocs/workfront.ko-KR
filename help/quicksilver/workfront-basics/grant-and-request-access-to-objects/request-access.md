@@ -19,15 +19,15 @@ Adobe Workfront에서 개체에 대한 가시성은 해당 개체 유형에 대�
 
 >[!NOTE]
 >
->이 문서에서는 Adobe Workfront Scenario Planner의 계획을 제외한 모든 객체에 대한 권한을 요청하는 방법에 대해 설명합니다. 계획 액세스 요청에 대한 자세한 내용은 다음을 참조하십시오. [시나리오 플래너에서 플랜에 대한 액세스 권한 요청](../../scenario-planner/request-access-to-plan.md). 이를 위해서는 추가 라이센스가 필요합니다.
+>이 문서에서는 Adobe Workfront Scenario Planner의 계획을 제외한 모든 객체에 대한 권한을 요청하는 방법에 대해 설명합니다. 플랜에 대한 액세스 요청에 대한 자세한 내용은 [시나리오 플래너의 플랜에 대한 액세스 요청](../../scenario-planner/request-access-to-plan.md)을 참조하십시오. 이를 위해서는 추가 라이센스가 필요합니다.
 
-Workfront 관리자는 액세스 수준의 오브젝트 유형에 대한 액세스를 구성합니다. 자세한 내용은 [액세스 수준 및 권한이 함께 작동하는 방식](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+Workfront 관리자는 액세스 수준의 오브젝트 유형에 대한 액세스를 구성합니다. 자세한 내용은 [액세스 수준과 사용 권한이 함께 작동하는 방법](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)을 참조하세요.
 
 Workfront 내의 특정 개체에 대한 권한이 필요한 경우 액세스를 요청할 수 있습니다. Workfront 관리자 또는 개체 소유자에게 이메일을 보내 요구 사항을 설명하는 대신 Workfront 내에서 추가 액세스(또는 권한)를 요청할 수 있습니다.
 
 다른 사용자가 객체에 대한 링크를 공유하는 경우 객체에 대한 초기 액세스를 요청하거나 최소한 보는 객체에 대한 추가 액세스를 요청할 수 있습니다.
 
-예를 들어 프로젝트에 대한 보기 권한이 있을 수 있지만 해당 프로젝트에 작업을 추가해야 합니다. 이 경우 프로젝트에 대한 기여 권한을 요청할 수 있습니다.
+예를 들어 프로젝트에 대한 보기 권한이 있을 수 있지만 해당 프로젝트에 작업을 추가해야 합니다. 이 경우 프로젝트에 Contribute 권한을 요청할 수 있습니다.
 
 ## 액세스 요구 사항
 
@@ -77,7 +77,7 @@ Workfront 내의 특정 개체에 대한 권한이 필요한 경우 액세스를
    <td role="rowheader">액세스 수준 구성*</td> 
    <td> <p>권한을 요청한 개체에 대한 액세스 이상 보기</p> <p><b>메모</b>
 
-여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td>
+여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td>
 </tr> 
  </tbody> 
 </table>
@@ -88,14 +88,14 @@ Workfront 내의 특정 개체에 대한 권한이 필요한 경우 액세스를
 
 다음 표준 공유 규칙은 Workfront 시스템에서 기본 옵션으로 설정되므로 자동으로 적용됩니다.
 
-* 작업 또는 문제에 할당된 사용자에게 기여 액세스 권한이 있습니다.
+* 작업 또는 문제에 할당된 사용자에게는 Contribute 액세스 권한이 있습니다.
 * 프로젝트, Portfolio 및 프로그램 관리자는 자신이 소유한 객체에 대한 관리 액세스 권한을 가집니다.
 * 대화에 포함된 사용자는 대화가 발생하는 오브젝트에 대한 보기 액세스 권한을 갖습니다.
 * 승인자로 할당된 사용자는 승인 대기 중인 오브젝트에 대한 보기 액세스 권한을 갖습니다.
 * 대시보드를 공유할 때 대시보드의 모든 보고서가 동일한 사용자에 대한 동일한 액세스 권한으로 공유됩니다.
 * 객체 소유자는 관리자가 정의한 해당 객체에 대한 액세스 권한 이상으로 객체에 대한 액세스를 확장할 수 없습니다.
 
-## 액세스 요청
+## 액세스 권한 요청
 
 현재 액세스할 수 없는 객체에 대한 초기 액세스를 요청하거나, 액세스가 제한된 객체에 대한 추가 액세스를 요청할 수 있습니다.
 
@@ -108,16 +108,16 @@ Workfront 내의 특정 개체에 대한 권한이 필요한 경우 액세스를
 
 객체에 대한 초기 액세스를 요청하려면 다음을 수행합니다.
 
-1. 클릭 **액세스 요청**.\
-   다음 **액세스 요청** 대화 상자가 표시됩니다.
+1. **액세스 요청**&#x200B;을 클릭합니다.\
+   **액세스 요청** 대화 상자가 표시됩니다.
 
 1. (조건부) 추가 액세스 권한을 부여할 수 있는 적절한 액세스 권한이 두 명 이상의 사용자에게 있는 경우 사용자 이름 옆에 드롭다운 화살표가 표시됩니다.
 1. 드롭다운 목록에서 액세스 요청을 수신할 사용자를 선택합니다.\
    10명의 사용자만 드롭다운 목록에 표시됩니다. 목록은 알파벳순으로 정렬됩니다.\
-   이 드롭다운 메뉴에 나열된 사용자 순서에 대한 자세한 내용은  [&quot;액세스 요청&quot; 및 &quot;추가 액세스 요청&quot; 드롭다운 메뉴의 계층](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
+   이 드롭다운 메뉴에 나열된 사용자 순서에 대한 자세한 내용은 [액세스 권한 요청 및 액세스 권한 추가 요청 드롭다운 메뉴의 계층 구조](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus)를 참조하십시오.
 
 1. 드롭다운 목록에서 요청하는 액세스 유형을 선택합니다.
-1. (선택 사항) **추신** 필드에서 추가 액세스 권한이 필요한 이유에 대해 사용자에게 메모를 지정합니다.
+1. (선택 사항) **P.S.** 필드에 추가 액세스 권한이 필요한 이유에 대해 사용자에게 메모를 지정합니다.
 
    ![](assets/request-access-dialog-350x314.png)
 
@@ -132,18 +132,18 @@ Workfront 내의 특정 개체에 대한 권한이 필요한 경우 액세스를
 
 1. 추가 액세스를 요청할 객체로 이동합니다.
 
-1. 다음을 클릭합니다. **자세히** 프로젝트 이름의 오른쪽에 있는 메뉴를 클릭한 다음 **추가 액세스 권한 요청**.
+1. 프로젝트 이름의 오른쪽에 있는 **자세히** 메뉴를 클릭한 다음 **추가 액세스 요청**&#x200B;을 클릭합니다.
 
    ![](assets/request-access-in-project-350x201.png)
 
 1. (조건부) 추가 액세스 권한을 부여할 수 있는 적절한 액세스 권한이 두 명 이상의 사용자에게 있는 경우 사용자 이름 옆에 드롭다운 화살표가 표시됩니다.
 1. 드롭다운 목록에서 액세스 요청을 수신할 사용자를 선택합니다.\
    10명의 사용자만 드롭다운 목록에 표시됩니다. 목록은 알파벳순으로 정렬됩니다.\
-   이 드롭다운 메뉴에 나열된 사용자 순서에 대한 자세한 내용은  [&quot;액세스 요청&quot; 및 &quot;추가 액세스 요청&quot; 드롭다운 메뉴의 계층](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
+   이 드롭다운 메뉴에 나열된 사용자 순서에 대한 자세한 내용은 [액세스 권한 요청 및 액세스 권한 추가 요청 드롭다운 메뉴의 계층 구조](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus)를 참조하십시오.
 
 1. 드롭다운 목록에서 요청하는 액세스 수준을 선택합니다.
-1. (선택 사항) **추신** 필드에서 추가 액세스 권한이 필요한 이유에 대한 메모를 지정합니다.
-1. 클릭 **액세스 요청**.\
+1. (선택 사항) **P.S.** 필드에 추가 액세스가 필요한 이유에 대한 메모를 지정합니다.
+1. **액세스 요청**&#x200B;을 클릭합니다.\
    ![](assets/request-access-dialog-350x314.png)
 
 ## &quot;액세스 요청&quot; 및 &quot;추가 액세스 요청&quot; 드롭다운 메뉴의 계층 {#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus}
@@ -159,7 +159,7 @@ Workfront은 &quot;액세스 요청&quot; 및 &quot;추가 액세스 요청&quot
 
 &quot;액세스 요청&quot; 또는 &quot;추가 액세스 요청&quot; 드롭다운 메뉴의 사용자 순서는 다음 규칙에 따라 결정됩니다.
 
-* 목록의 첫 번째 사용자는에 설명된 대로 &quot;소유자&quot; 객체입니다 [오브젝트의 소유자 이해](#understand-the-owner-of-an-object).
+* [개체 소유자 이해](#understand-the-owner-of-an-object)에 설명된 대로 목록의 첫 번째 사용자는 &quot;소유자&quot; 개체입니다.
 * 그러면 객체가 개별적으로 공유되는 사용자로 목록이 채워집니다. 그들은 알파벳순으로 나열되어 있다.
 * 그러면 목록이 팀, 그룹 또는 회사와의 공유를 통해 필요한 액세스 권한을 받는 사용자로 더 채워집니다. 그들은 알파벳순으로 나열되어 있다.
 * 목록이 비어 있으면 항상 액세스 권한을 요청할 사용자가 있도록 Workfront 관리자가 추가됩니다. 그들은 알파벳순으로 나열되어 있다.
@@ -174,7 +174,7 @@ Workfront은 &quot;액세스 요청&quot; 및 &quot;추가 액세스 요청&quot
  <col> 
  <thead> 
   <tr> 
-   <th><strong>오브젝트</strong> </th> 
+   <th><strong>개체</strong> </th> 
    <th><strong>개체 소유자의 정의</strong> </th> 
   </tr> 
  </thead> 
@@ -212,12 +212,12 @@ Workfront은 &quot;액세스 요청&quot; 및 &quot;추가 액세스 요청&quot
    <td>필터, 보기 또는 그룹화의 소유자는 작성자입니다. </td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-   <td><span>플랜</span> </td> 
-   <td> <p><span>소유자는 플랜의 작성자입니다.</span> </p> <p>이를 위해서는 추가 라이센스가 필요합니다. </p> <p><span>Workfront 시나리오 플래너에 대한 자세한 내용은 다음을 참조하십시오.</span> <a href="../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">시나리오 플래너 개요</a>.</p> </td> 
+   <td><span>계획</span> </td> 
+   <td> <p><span>소유자가 플랜의 작성자입니다.</span> </p> <p>이를 위해서는 추가 라이센스가 필요합니다. </p> <p><span>Workfront 시나리오 플래너에 대한 자세한 내용은 </span> <a href="../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">시나리오 플래너 개요</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td>목표</td> 
-   <td> <p>소유자는 소유자로 지정된 사용자입니다. 목표 생성자와 동일한 개인이 아닐 수 있습니다. </p> <p>이를 위해서는 추가 라이센스가 필요합니다. </p> <p>Workfront 목표에 대한 자세한 내용은 다음을 참조하십시오. <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">Adobe Workfront 목표 개요</a>. </p> </td> 
+   <td> <p>소유자는 소유자로 지정된 사용자입니다. 목표 생성자와 동일한 개인이 아닐 수 있습니다. </p> <p>이를 위해서는 추가 라이센스가 필요합니다. </p> <p>Workfront 목표에 대한 자세한 내용은 <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">Adobe Workfront 목표 개요</a>를 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>

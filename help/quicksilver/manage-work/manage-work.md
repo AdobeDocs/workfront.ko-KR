@@ -27,8 +27,8 @@ Adobe Workfront을 사용하여 작업을 관리할 수 있습니다.
 
 이 섹션에는 다음 하위 섹션이 포함됩니다.
 
-* [프로젝트: 문서 색인](../manage-work/projects/projects-overview.md)
-* [작업: 문서 색인](../manage-work/tasks/tasks-overview.md)
+* [프로젝트: 문서 인덱스](../manage-work/projects/projects-overview.md)
+* [작업: 문서 인덱스](../manage-work/tasks/tasks-overview.md)
 * [문제](../manage-work/issues/issues-overview.md)
 * [간트 차트](../manage-work/gantt-chart/the-gantt-chart.md)
 * [Portfolio 관리](../manage-work/portfolios/portfolio-management-overview.md)

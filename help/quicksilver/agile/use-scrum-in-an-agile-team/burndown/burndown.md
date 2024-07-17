@@ -22,5 +22,5 @@ ht-degree: 4%
 * [애자일 번다운 차트 개요](../../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md)
 * [반복 완료 상태 개요](../../../agile/use-scrum-in-an-agile-team/burndown/iteration-completion-status-overview.md)
 * [번다운 차트 크기 조정 및 축소](../../../agile/use-scrum-in-an-agile-team/burndown/resize-collapse-burndown-chart.md)
-* [번다운 차트에서 데이터 동기화](../../../agile/use-scrum-in-an-agile-team/burndown/sync-the-burndown-chart.md)
+* [번다운 차트에서 데이터를 동기화합니다](../../../agile/use-scrum-in-an-agile-team/burndown/sync-the-burndown-chart.md)
 * [번다운 차트에 대체 팀 일정 사용](../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md)

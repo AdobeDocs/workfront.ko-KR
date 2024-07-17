@@ -23,7 +23,7 @@ ht-degree: 0%
 
      또는
 
-     Prime 또는 Select Adobe Workfront 플랜에 대한 Adobe Workfront Goals에 대한 추가 라이센스입니다. 자세한 내용은 [Adobe Workfront 플랜](https://www.workfront.com/plans).
+     Prime 또는 Select Adobe Workfront 플랜에 대한 Adobe Workfront Goals에 대한 추가 라이센스입니다. 자세한 내용은 [Adobe Workfront 계획](https://www.workfront.com/plans)을 참조하세요.
 
 * 현재 플랜 및 라이선스 구조의 경우:
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 Workfront Goals 라이선스에 대한 자세한 내용은 Workfront 계정 관리자에게 문의하십시오.
 
-Workfront 목표 액세스에 대한 자세한 내용은 을 참조하십시오. [Workfront 목표 사용 요구 사항](../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+Workfront 목표에 액세스하는 방법에 대한 자세한 내용은 [Workfront 목표 사용 요구 사항](../workfront-goals/goal-management/access-needed-for-wf-goals.md)을 참조하십시오.
 
 이 섹션에는 다음 하위 섹션이 포함됩니다.
 

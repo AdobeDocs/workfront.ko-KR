@@ -24,11 +24,11 @@ ht-degree: 0%
 
 * 사용자 정의 양식의 계산된 사용자 정의 필드
 
-  Workfront에서 사용자 정의 양식에서 계산된 사용자 정의 필드를 만드는 방법에 대한 자세한 내용은 [사용자 정의 양식에 계산된 데이터 추가](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+  Workfront의 사용자 정의 양식에서 계산된 사용자 정의 필드를 만드는 방법에 대한 자세한 내용은 [사용자 정의 양식에 계산된 데이터 추가](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)를 참조하십시오.
 
 * 텍스트 모드를 사용할 때 보고서 또는 목록의 계산된 사용자 지정 열
 
-  보고서 및 보기에서 텍스트 모드를 사용하는 방법에 대한 자세한 내용은 [텍스트 모드 개요](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+  보고서 및 보기에서 텍스트 모드를 사용하는 방법에 대한 자세한 내용은 [텍스트 모드 개요](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)를 참조하십시오.
 
 ## 계산된 사용자 정의 필드와 계산된 사용자 정의 열의 구문
 
@@ -77,17 +77,17 @@ For example:
   >
   >계산된 표현식이 사용되는 모든 텍스트 모드 보고 요소(보기, 필터, 그룹화, 프롬프트)에도 동일한 구문이 적용됩니다.
 
-계산된 사용자 지정 열에서 사용해야 하는 구문에 대한 자세한 내용은 [텍스트 모드 개요](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+계산된 사용자 지정 열에서 사용해야 하는 구문에 대한 자세한 내용은 [텍스트 모드 개요](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)를 참조하십시오.
 
 ## 사용할 수 있는 데이터 표현식
 
 아래 목록은 Workfront에서 세 가지 유형의 계산된 사용자 정의 필드 중 하나를 작성할 때 사용할 수 있는 표현식을 정의합니다.
 
-* [계산된 날짜 및 시간 사용자 정의 필드](#date-time-calculated-custom-fields)
-* [계산된 수학 사용자 정의 필드](#mathematical-calculated-custom-fields)
+* [계산된 사용자 정의 필드 날짜 및 시간](#date-time-calculated-custom-fields)
+* [계산된 사용자 정의 필드](#mathematical-calculated-custom-fields)
 * [계산된 사용자 정의 필드 텍스트](#text-calculated-custom-fields)
 
-아래 나열된 표현식을 사용하여 계산된 사용자 정의 열을 작성할 수 있습니다. 그러나 섹션에 설명된 대로 계산된 사용자 정의 열에 올바른 구문을 사용해야 합니다  [계산된 사용자 정의 필드와 계산된 사용자 정의 열의 구문](#syntax-of-calculated-custom-fields-vs-calculated-custom-columns) 이 문서에서.
+아래 나열된 표현식을 사용하여 계산된 사용자 정의 열을 작성할 수 있습니다. 그러나 이 문서의 [계산된 사용자 정의 필드와 계산된 사용자 정의 열의 구문](#syntax-of-calculated-custom-fields-vs-calculated-custom-columns) 섹션에 설명된 대로 계산된 사용자 정의 열에 올바른 구문을 사용해야 합니다.
 
 ### 계산된 날짜 및 시간 사용자 정의 필드 {#date-time-calculated-custom-fields}
 
@@ -186,7 +186,7 @@ For example:
 <p><code>DMAX(date1, date2, ...)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>ADMIN</strong> </td> 
+   <td><strong>관리자</strong> </td> 
    <td> <p>목록에서 가장 빠른 날짜를 반환하며 형식은 다음과 같습니다.</p>
 
 <p><code>DMIN(date1, date2, ...)</code></p> </td> 
@@ -210,7 +210,7 @@ For example:
 <p><code>MONTH({entryDate})</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>두 번째</strong> </td> 
+   <td><strong>초</strong> </td> 
    <td> <p>날짜의 초를 0에서 60 사이의 숫자로 반환합니다(형식은 다음과 같음). 이 예에서 날짜는 작업 객체의 입력 날짜입니다.</p>
 
 <p><code>SECOND({entryDate})</code></p> </td> 
@@ -251,7 +251,7 @@ For example:
  </thead> 
  <tbody> 
   <tr> 
-   <td><strong>ABS</strong> </td> 
+   <td><strong>절대</strong> </td> 
    <td>숫자의 절대값을 반환하며 형식은 다음과 같습니다. 이 예제에서는 사용자 정의 양식이 첨부된 오브젝트 아래에 있는 오브젝트의 수를 사용합니다.
 
 <p><code>ABS({numberOfChildren})</code></p></td> 
@@ -275,7 +275,7 @@ For example:
 <p><code>DIV(number1, number2, ...)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>FLOOR</strong> </td> 
+   <td><strong>층</strong> </td> 
    <td>숫자를 가장 가까운 정수로 내림하고 형식을 다음과 같이 지정합니다. 이 예제에서는 사용자 정의 양식이 첨부된 오브젝트 아래에 있는 오브젝트의 수를 사용합니다.
 
 <p><code>FLOOR({numberOfChildren})</code></p></td> 
@@ -309,7 +309,7 @@ For example:
    <td>문자열을 숫자로 전환하고 형식을 다음과 같이 지정합니다.<p><code>NUMBER(string)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>POWER</strong> </td> 
+   <td><strong>전원</strong> </td> 
    <td>제곱한 숫자를 반환하며 형식은 다음과 같습니다.
 
 <p><code>POWER(number, power)</code></p></td> 
@@ -325,7 +325,7 @@ For example:
    </td> 
   </tr> 
   <tr> 
-   <td><strong>ROUND</strong> </td> 
+   <td><strong>라운드</strong> </td> 
    <td>지정한 정밀도 소수점으로 숫자를 반올림하고 형식을 다음과 같이 지정합니다.
 
 <p><code>ROUND(number, precision)</code></p></td> 
@@ -349,7 +349,7 @@ For example:
 <p><code>SQRT({numberOfChildren})</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>SUB</strong> </td> 
+   <td><strong>하위</strong> </td> 
    <td>제공된 순서대로 모든 숫자를 뺍니다. 형식은 다음과 같습니다.
 
 <p><code>SUB(number1, number2, ...)</code></p></td> 
@@ -434,7 +434,7 @@ For example:
 
 <p><code>IF({projectedCompletionDate}&gt;{plannedCompletionDate},"Off Track","")</code></p>
 
-<p>"IF" 문 작성에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md" class="MCXref xref">"IF" 문 개요</a>.</p> </td> 
+<p>"IF" 문 작성에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md" class="MCXref xref">"IF" 문 개요</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>IFIN</strong> </td> 
@@ -452,7 +452,7 @@ For example:
     <p><code>IFIN({owner}.{name},"Jennifer Campbell","Rick Kuvec","Marketing Team","")</code></p> </p> </td> 
   </tr> 
   <tr> 
-   <td><strong>위치</strong> </td> 
+   <td><strong>IN</strong> </td> 
    <td> <p>값이 제공된 값 중 하나와 같으면 true를 반환하고, 그렇지 않으면 표현식에서 false를 반환합니다.</p> <p>표현식의 형식은 다음과 같습니다.
 
 </p><p><code>IN(value, value1[, value2...])</code></p> </td> 
@@ -464,7 +464,7 @@ For example:
 </p><p><code>ISBLANK(value)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>LEFT</strong> </td> 
+   <td><strong>왼쪽</strong> </td> 
    <td> <p>문자열의 왼쪽에서 지정된 문자 수를 반환하며 형식은 다음과 같습니다.</p>
 
 <p><code>LEFT(string, length)</code></p> </td> 
@@ -518,13 +518,13 @@ For example:
 <p><code>SORTDESCSTRING(string1, string2, ...)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>SUBSTR</strong> </td> 
+   <td><strong>하위 문자열</strong> </td> 
    <td> <p>지정된 시작 및 끝 인덱스를 기반으로 문자열의 문자를 반환하고 형식은 다음과 같습니다.</p>
 
 <p><code>SUBSTR({string}, number of start position, number of end position)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>트림</strong> </td> 
+   <td><strong>트리밍</strong> </td> 
    <td> <p>문자열의 시작과 끝에서 공백을 제거하고 형식을 다음과 같이 지정합니다.</p>
 
 <p><code>TRIM(string)</code></p> </td> 

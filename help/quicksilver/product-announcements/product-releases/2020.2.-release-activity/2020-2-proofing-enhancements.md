@@ -18,7 +18,7 @@ ht-degree: 0%
 
 이 페이지에서는 프로덕션 환경에 대한 2020.2 릴리스의 모든 증명 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2020년 5월 11일이 있는 주에 프로덕션 환경에서 사용할 수 있습니다.
 
-2020.2 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [2020.2 릴리스 개요](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
+2020.2 릴리스에서 사용할 수 있는 모든 변경 사항 목록은 [2020.2 릴리스 개요](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md)를 참조하십시오.
 
 ## 증명 도메인이 proofhq.com에서 workfront.com으로 변경됩니다.
 
@@ -30,11 +30,11 @@ ht-degree: 0%
 
 &#42;.workfront.com
 
-다음 &#42;proofhq.com URL도 필요합니다.
+&#42;proofhq.com URL도 필요합니다.
 
-허용 목록에 추가하다 업데이트에 대한 자세한 내용은 다음을 참조하십시오. [허용 목록에 추가하다 방화벽 구성](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+허용 목록 허용 목록에 추가하다 업데이트에 대한 자세한 내용은 [방화벽 구성](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)을 참조하십시오.
 
-이 업데이트는 Workfront 내의 증명에만 적용되며 Workfront Proof 독립형 응용 프로그램을 사용하는 경우에는 적용되지 않습니다.
+이 업데이트는 Workfront 내의 증명에만 적용되며 Workfront Proof 독립 실행형 애플리케이션을 사용하는 경우에는 적용되지 않습니다.
 
 ## 게스트가 작성한 증명 주석이 업데이트 영역에 표시됩니다
 

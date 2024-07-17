@@ -1,6 +1,6 @@
 ---
 title: '[!DNL Adobe Workfront] 설명서'
-description: 설명서 [!DNL Adobe Workfront].
+description: ' [!DNL Adobe Workfront]에 대한 설명서.'
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
 source-git-commit: 31c87d326cb34a153ba17e7b9769d79d0141c113
@@ -87,16 +87,16 @@ Adobe Workfront 제품 및 기술 설명서 홈 페이지를 시작합니다. �
 
 ### 목차 및 검색 창 사용
 
-* **목차**: 목차로 시작하여 사용 가능한 주제에 대한 개요를 확인하고 섹션 확장을 통해 특정 주제로 범위를 좁힙니다.
+* **목차**: 목차로 시작하여 사용 가능한 주제에 대한 개요를 확인하고 섹션을 확장하여 특정 주제에 대한 범위를 좁힙니다.
 * **검색 창**: 검색 창을 사용하여 설명서를 찾습니다. 문제 또는 주제와 관련된 특정 용어를 입력합니다. &quot;프로젝트 관리&quot;와 같은 일반적인 용어 대신 &quot;프로젝트 타임라인 설정&quot; 또는 &quot;작업 종속성&quot;을 사용하십시오.
 
 ![](assets/exl-site-nav.png)
 
 ### 학습 및 교육 섹션 탐색
 
-* **교육 자료**: 다음으로 이동 [Workfront 교육](https://experienceleague.adobe.com/en/browse/workfront) Workfront 기능 및 설정을 더 잘 이해할 수 있도록 고안된 교육 비디오 및 문서 라이브러리용 페이지입니다. 다음 위치에서 유료 교육 자료에 액세스할 수도 있습니다. [learning.adobe.com](https://learning.adobe.com/).
-* **교육 과정**: 찾기 [구조화된 학습 과정](https://experienceleague.adobe.com/home?Solution=Workfront#courses) 논리적 시퀀스에서 다양한 Workfront 기능을 사용하는 방법을 안내합니다.
+* **교육 자료**: Workfront 기능 및 설정을 더 잘 이해할 수 있도록 고안된 교육 비디오 및 문서 라이브러리의 [Workfront 교육](https://experienceleague.adobe.com/en/browse/workfront) 페이지로 이동합니다. [learning.adobe.com](https://learning.adobe.com/)에서 유료 교육 자료에 액세스할 수도 있습니다.
+* **과정**: 논리적 시퀀스에서 다양한 Workfront 기능을 사용하는 방법을 안내하는 [구조화된 학습 과정](https://experienceleague.adobe.com/home?Solution=Workfront#courses)을 찾으십시오.
 
 ### 커뮤니티 포럼에서 답변 찾기
 
-* **질문하기**: 설명서에서 질문에 대한 답변을 얻을 수 없다면 [Workfront 커뮤니티 포럼](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=en) 다른 사용자와 전문가가 지원을 제공할 수 있는 경우.
+* **질문하기**: 설명서가 질문에 대답하지 않으면 다른 사용자와 전문가가 도움을 제공할 수 있는 [Workfront 커뮤니티 포럼](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=en)에 게시해 보십시오.

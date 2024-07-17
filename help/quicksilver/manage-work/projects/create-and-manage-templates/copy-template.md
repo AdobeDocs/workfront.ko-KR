@@ -27,7 +27,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든 </p> </td> 
+   <td> <p>임의 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
@@ -35,11 +35,11 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>템플릿에 대한 액세스 편집</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td> <p>템플릿에 대한 액세스 편집</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>템플릿에 대한 보기 이상의 권한</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>템플릿에 대한 보기 이상의 권한</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -69,10 +69,10 @@ ht-degree: 3%
 ## 템플릿 복사
 
 1. 복사할 템플릿으로 이동합니다.
-1. 다음을 클릭합니다. **자세히** 메뉴 ![](assets/qs-more-icon-on-an-object.png)을 클릭한 다음 을 클릭합니다 **복사**.
-1. 에서 템플릿 이름 지정 **새 템플릿 이름** 필드.
+1. **자세히** 메뉴 ![](assets/qs-more-icon-on-an-object.png)을(를) 클릭한 다음 **복사**&#x200B;를 클릭합니다.
+1. **새 템플릿 이름** 필드에 템플릿 이름을 지정하십시오.
 
-   기본적으로 새 이름은 입니다. **다음의 사본 `<original template name>`.**
+   기본적으로 새 이름은 **`<original template name>`의 복사본**&#x200B;입니다.
 
-1. 다음 중 원하는 항목을 선택합니다 **작업 및 템플릿에 대한 사용자 할당 유지**: 모든 작업 및 템플릿 할당을 원래 템플릿에서 새 템플릿으로 전달하려면 이 옵션을 선택합니다.
-1. 클릭 **저장** 템플릿 복사본을 만듭니다.
+1. **작업 및 템플릿에 대한 사용자 할당 유지**: 이 옵션을 선택하여 원래 템플릿의 모든 작업 및 템플릿 할당을 새 템플릿으로 전달합니다.
+1. 템플릿의 복사본을 만들려면 **저장**&#x200B;을 클릭하십시오.

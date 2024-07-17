@@ -9,8 +9,8 @@ role: Developer
 exl-id: 3606b6c3-b373-47ea-9cb5-813bd3af8da7
 source-git-commit: c547ff323ad9e43472074964ac365447755e4aa5
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 0%
+source-wordcount: '284'
+ht-degree: 2%
 
 ---
 
@@ -65,7 +65,7 @@ server {
 }
 ```
 
-자세한 내용은 [ngx_http_ssl_module용 NGiNX 설명서](https://nginx.org/en/docs/http/ngx_http_ssl_module.html).
+자세한 내용은 [ngx_http_ssl_module용 NGiNX 설명서](https://nginx.org/en/docs/http/ngx_http_ssl_module.html)를 참조하십시오.
 
 ### Apache
 

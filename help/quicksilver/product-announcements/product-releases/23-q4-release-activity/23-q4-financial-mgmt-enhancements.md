@@ -16,7 +16,7 @@ ht-degree: 0%
 
 이 페이지에서는 미리보기 환경에 대한 2023년 4분기 릴리스의 모든 Financial Management 개선 사항에 대해 설명합니다. 이러한 개선 사항은 프로덕션 환경에서 23.10 릴리스를 통해 사용할 수 있습니다.
 
-2023년 4분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [2023년 4분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+2023년 4분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2023년 4분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)를 참조하십시오.
 
 ## 일자 유효 비용 및 청구 요금
 
@@ -26,6 +26,6 @@ ht-degree: 0%
 
 이제 Workfront의 회사, 사용자 및 작업 역할 오브젝트에서 날짜 유효 비용 및 청구 요금을 사용할 수 있습니다. 날짜 유효 비율이 프로젝트에 적용되고 시간이 프로젝트 작업에 기록되면 각 기간에 대해 지정된 비율을 사용하여 비용 및 수익이 계산됩니다.
 
-자세한 내용은 [사용자 프로필 편집](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md), [작업 역할 만들기 및 관리](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md), 및 [청구 및 수익 개요](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+자세한 내용은 [사용자 프로필 편집](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md), [작업 역할 만들기 및 관리](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md) 및 [청구 및 수익 개요](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md)를 참조하십시오.
 
 [이 기능에 대한 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3424915/){target=_blank}

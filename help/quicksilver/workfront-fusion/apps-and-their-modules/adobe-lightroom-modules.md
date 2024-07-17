@@ -8,22 +8,23 @@ title: Adobe Lightroom 모듈
 description: Adobe Lightroom 모듈을 사용하면 Adobe Lightroom 계정의 이벤트를 기반으로 Adobe Workfront Fusion 시나리오를 시작할 수 있습니다.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
-source-git-commit: e99bd69c712a7685512eecc7fccc8211013a259d
+exl-id: e48bdf18-49f0-436e-9182-16c9da2b3169
+source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
 workflow-type: tm+mt
 source-wordcount: '2244'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Lightroom] 모듈
+# [!DNL Adobe Lightroom]개 모듈
 
 <!--Add Connection info-->
 
-다음에서 [!DNL Adobe Workfront Fusion] 시나리오에서는 다음을 사용하는 워크플로를 자동화할 수 있습니다 [!DNL Adobe Lightroom]을 여러 타사 응용 프로그램 및 서비스에 연결할 수 있습니다.
+[!DNL Adobe Workfront Fusion] 시나리오에서는 [!DNL Adobe Lightroom]을(를) 사용하는 워크플로를 자동화하고 여러 타사 응용 프로그램 및 서비스에 연결할 수 있습니다.
 
-시나리오를 만드는 방법에 대한 지침이 필요한 경우 [시나리오 만들기](../../workfront-fusion/scenarios/create-a-scenario.md).
+시나리오를 만드는 방법에 대한 지침은 [시나리오 만들기](../../workfront-fusion/scenarios/create-a-scenario.md)를 참조하십시오.
 
-모듈에 대한 자세한 내용은 [의 모듈 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+모듈에 대한 자세한 내용은 [의 모듈 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md)을 참조하세요.
 
 ## 액세스 요구 사항
 
@@ -53,22 +54,22 @@ ht-degree: 0%
     </tr>
     <tr>
       <td role="rowheader">제품</td>
-      <td>조직은 다음을 구매해야 합니다. [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오.</td>
+      <td>조직에서 이 문서에 설명된 기능을 사용하려면 [!DNL Adobe Workfront Fusion]과(와) [!DNL Adobe Workfront]을(를) 구입해야 합니다.</td>
     </tr>
     </tr>
   </tbody>
 </table>
 
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
+&#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
 
-&#42;&#42;다음에 대한 정보: [!DNL Adobe Workfront Fusion] 라이센스, 참조 [!DNL [Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;[!DNL Adobe Workfront Fusion] 라이선스에 대한 자세한 내용은 [!DNL [Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)을(를) 참조하세요.
 
 ## 전제 조건
 
-을(를) 사용하기 전에 [!DNL Adobe Lightroom] connector에서 다음 전제 조건이 충족되는지 확인해야 합니다.
+[!DNL Adobe Lightroom] 커넥터를 사용하려면 먼저 다음 전제 조건을 충족하는지 확인해야 합니다.
 
-* 활성 상태가 있어야 합니다. [!DNL Adobe Lightroom] 계정입니다.
+* 활성 [!DNL Adobe Lightroom] 계정이 있어야 합니다.
 
 ## Adobe Lightroom에 대한 연결 만들기
 
@@ -76,9 +77,9 @@ ht-degree: 0%
 
 ## Adobe Lightroom 모듈 및 해당 필드
 
-를 구성할 때 [!DNL Adobe Lightroom] 모듈, [!DNL Workfront Fusion] 아래 나열된 필드를 표시합니다. 이와 함께 추가 [!DNL Adobe Lightroom] 앱이나 서비스의 액세스 수준 등에 따라 필드가 표시될 수 있습니다. 모듈의 굵은 제목은 필수 필드를 나타냅니다.
+[!DNL Adobe Lightroom] 모듈을 구성할 때 [!DNL Workfront Fusion]에 아래 나열된 필드가 표시됩니다. 앱 또는 서비스의 액세스 수준과 같은 요소에 따라 이러한 필드와 함께 [!DNL Adobe Lightroom] 필드가 추가로 표시될 수 있습니다. 모듈의 굵은 제목은 필수 필드를 나타냅니다.
 
-필드나 함수 위에 맵 단추가 표시되면 이 단추를 사용하여 해당 필드에 대한 변수와 함수를 설정할 수 있습니다. 자세한 내용은 [의 한 모듈에서 다른 모듈로 정보 매핑 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+필드나 함수 위에 맵 단추가 표시되면 이 단추를 사용하여 해당 필드에 대한 변수와 함수를 설정할 수 있습니다. 자세한 내용은 [한 모듈에서 다른 모듈로 정보를 매핑 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)을 참조하십시오.
 
 ![](assets/map-toggle-350x74.png)
 
@@ -101,7 +102,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Lightroom], 참조 <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Lightroom]</a> 이 문서에서.</td>
+      <td>[!DNL Adobe Lightroom]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >[!DNL Adobe Lightroom]</a>에 대한 연결 만들기 를 참조하십시오.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 자격 증명]</td>
@@ -120,7 +121,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Lightroom], 참조 <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Lightroom]</a> 이 문서에서.</td>
+      <td>[!DNL Adobe Lightroom]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >[!DNL Adobe Lightroom]</a>에 대한 연결 만들기 를 참조하십시오.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 자격 증명]</td>
@@ -153,7 +154,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Lightroom], 참조 <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Lightroom]</a> 이 문서에서.</td>
+      <td>[!DNL Adobe Lightroom]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >[!DNL Adobe Lightroom]</a>에 대한 연결 만들기 를 참조하십시오.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 카탈로그 ID]</td>
@@ -199,7 +200,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Lightroom], 참조 <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Lightroom]</a> 이 문서에서.</td>
+      <td>[!DNL Adobe Lightroom]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >[!DNL Adobe Lightroom]</a>에 대한 연결 만들기 를 참조하십시오.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 카탈로그 ID]</td>
@@ -222,19 +223,19 @@ ht-degree: 0%
     <tr>
       <td role="rowheader">[!UICONTROL 날짜/시간 사용자 생성됨]</td>
       <td>
-        <p>형식으로 날짜 입력 또는 매핑 <code>YYYY-MM-DDT00:00:00-00:00</code>.</p>
+        <p><code>YYYY-MM-DDT00:00:00-00:00</code> 형식으로 날짜를 입력하거나 매핑합니다.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 날짜/시간 사용자 업데이트됨]</td>
       <td>
-        <p>형식으로 날짜 입력 또는 매핑 <code>YYYY-MM-DDT00:00:00-00:00</code>.</p>
+        <p><code>YYYY-MM-DDT00:00:00-00:00</code> 형식으로 날짜를 입력하거나 매핑합니다.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 날짜 캡처됨]</td>
       <td>
-        <p>형식으로 날짜 입력 또는 매핑 <code>YYYY-MM-DDT00:00:00-00:00</code>.</p>
+        <p><code>YYYY-MM-DDT00:00:00-00:00</code> 형식으로 날짜를 입력하거나 매핑합니다.</p>
       </td>
     </tr>
   </tbody>
@@ -250,7 +251,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Lightroom], 참조 <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Lightroom]</a> 이 문서에서.</td>
+      <td>[!DNL Adobe Lightroom]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >[!DNL Adobe Lightroom]</a>에 대한 연결 만들기 를 참조하십시오.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 콘텐츠의 길이(바이트)]</td>
@@ -295,7 +296,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Lightroom], 참조 <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Lightroom]</a> 이 문서에서.</td>
+      <td>[!DNL Adobe Lightroom]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >[!DNL Adobe Lightroom]</a>에 대한 연결 만들기 를 참조하십시오.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 렌디션 유형(세미콜론으로 구분)]</td>
@@ -334,7 +335,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Lightroom], 참조 <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Lightroom]</a> 이 문서에서.</td>
+      <td>[!DNL Adobe Lightroom]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >[!DNL Adobe Lightroom]</a>에 대한 연결 만들기 를 참조하십시오.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 카탈로그 ID]</td>
@@ -362,7 +363,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Lightroom], 참조 <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Lightroom]</a> 이 문서에서.</td>
+      <td>[!DNL Adobe Lightroom]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >[!DNL Adobe Lightroom]</a>에 대한 연결 만들기 를 참조하십시오.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 카탈로그 ID]</td>
@@ -389,7 +390,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Lightroom], 참조 <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Lightroom]</a> 이 문서에서.</td>
+      <td>[!DNL Adobe Lightroom]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >[!DNL Adobe Lightroom]</a>에 대한 연결 만들기 를 참조하십시오.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 카탈로그 ID]</td>
@@ -422,7 +423,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Lightroom], 참조 <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Lightroom]</a> 이 문서에서.</td>
+      <td>[!DNL Adobe Lightroom]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >[!DNL Adobe Lightroom]</a>에 대한 연결 만들기 를 참조하십시오.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 카탈로그 ID]</td>
@@ -439,13 +440,13 @@ ht-degree: 0%
     <tr>
       <td role="rowheader">[!UICONTROL 전에 캡처된 자산 반환]</td>
       <td>
-        <p>형식으로 날짜 입력 <code>YYYY-MM-DDT00:00:00</code>. 모듈은 이 날짜 이전에 캡처된 결과를 반환합니다.</p><p> 이 필드는 필드와 함께 사용할 수 없습니다. <code>Return assets captured after</code>.</p>
+        <p><code>YYYY-MM-DDT00:00:00</code> 형식의 날짜를 입력하십시오. 모듈은 이 날짜 이전에 캡처된 결과를 반환합니다.</p><p> 이 필드는 필드 <code>Return assets captured after</code>과(와) 함께 사용할 수 없습니다.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 반환되는 최대 자산 수]</td>
       <td>
-        <p>다음과 같은 최대 에셋 수를 설정합니다. [!DNL Workfront Fusion] 는 한 실행 주기 동안 를 반환합니다. 이 숫자는 100보다 작거나 같아야 합니다.</p>
+        <p>한 실행 주기 동안 [!DNL Workfront Fusion]이(가) 반환할 최대 자산 수를 설정하십시오. 이 숫자는 100보다 작거나 같아야 합니다.</p>
       </td>
     </tr>
     <tr>
@@ -519,7 +520,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Lightroom], 참조 <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Lightroom]</a> 이 문서에서.</td>
+      <td>[!DNL Adobe Lightroom]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >[!DNL Adobe Lightroom]</a>에 대한 연결 만들기 를 참조하십시오.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 카탈로그 ID]</td>
@@ -536,7 +537,7 @@ ht-degree: 0%
     <tr>
       <td role="rowheader">[!UICONTROL Assets]</td>
       <td>
-        <p>앨범에 추가할 각 에셋에 대해 <b>항목 추가</b> 을(를) 클릭하고 다음 필드를 입력합니다.</p>
+        <p>앨범에 추가할 각 에셋에 대해 <b>항목 추가</b>를 클릭하고 다음 필드를 입력하십시오.</p>
       </td>
     <tr>
       <td role="rowheader">[!UICONTROL 자산 ID]</td>
@@ -577,7 +578,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Lightroom], 참조 <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Lightroom]</a> 이 문서에서.</td>
+      <td>[!DNL Adobe Lightroom]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >[!DNL Adobe Lightroom]</a>에 대한 연결 만들기 를 참조하십시오.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 카탈로그 ID]</td>
@@ -604,13 +605,13 @@ ht-degree: 0%
     <tr>
       <td role="rowheader">[!UICONTROL 날짜/시간 사용자 생성됨]</td>
       <td>
-        <p>형식으로 날짜 입력 또는 매핑 <code>YYYY-MM-DDT00:00:00-00:00Z</code>.</p>
+        <p><code>YYYY-MM-DDT00:00:00-00:00Z</code> 형식으로 날짜를 입력하거나 매핑합니다.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 날짜/시간 사용자 업데이트됨]</td>
       <td>
-        <p>형식으로 날짜 입력 또는 매핑 <code>YYYY-MM-DDT00:00:00-00:00Z</code>.</p>
+        <p><code>YYYY-MM-DDT00:00:00-00:00Z</code> 형식으로 날짜를 입력하거나 매핑합니다.</p>
       </td>
     </tr>
     <tr>
@@ -632,12 +633,12 @@ ht-degree: 0%
     <tr>
       <td role="rowheader">[!UICONTROL 만든 날짜]</td>
       <td>
-        <p>형식으로 날짜 입력 또는 매핑 <code>YYYY-MM-DDT00:00:00-00:00Z</code>.</p>
+        <p><code>YYYY-MM-DDT00:00:00-00:00Z</code> 형식으로 날짜를 입력하거나 매핑합니다.</p>
       </td>
     <tr>
       <td role="rowheader">[!UICONTROL 업데이트된 날짜]</td>
       <td>
-        <p>형식으로 날짜 입력 또는 매핑 <code>YYYY-MM-DDT00:00:00-00:00Z</code>.</p>
+        <p><code>YYYY-MM-DDT00:00:00-00:00Z</code> 형식으로 날짜를 입력하거나 매핑합니다.</p>
       </td>
     </tr>
     <tr>
@@ -665,7 +666,7 @@ ht-degree: 0%
 
 이 작업 모듈은 앨범을 삭제합니다.
 
-삭제된 앨범은 현재 삭제 중인 것과 동일한 클라이언트 앱에서 만들었어야 하며 하위 유형이어야 합니다 `project` 또는 `project_set`.
+삭제된 앨범은 현재 삭제 중인 것과 동일한 클라이언트 앱에 의해 만들어졌어야 하며 하위 유형 `project` 또는 `project_set`이어야 합니다.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -673,7 +674,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Lightroom], 참조 <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Lightroom]</a> 이 문서에서.</td>
+      <td>[!DNL Adobe Lightroom]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >[!DNL Adobe Lightroom]</a>에 대한 연결 만들기 를 참조하십시오.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 카탈로그 ID]</td>
@@ -706,7 +707,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Lightroom], 참조 <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Lightroom]</a> 이 문서에서.</td>
+      <td>[!DNL Adobe Lightroom]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >[!DNL Adobe Lightroom]</a>에 대한 연결 만들기 를 참조하십시오.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 카탈로그 ID]</td>
@@ -739,7 +740,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Lightroom], 참조 <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Lightroom]</a> 이 문서에서.</td>
+      <td>[!DNL Adobe Lightroom]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >[!DNL Adobe Lightroom]</a>에 대한 연결 만들기 를 참조하십시오.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 카탈로그 ID]</td>
@@ -762,7 +763,7 @@ ht-degree: 0%
     <tr>
       <td role="rowheader">[!UICONTROL 반환되는 최대 앨범 수]</td>
       <td>
-        <p>다음과 같은 최대 에셋 수를 설정합니다. [!DNL Workfront Fusion] 는 한 실행 주기 동안 를 반환합니다. 이 필드의 기본값은 100입니다. 이 모듈은 제한 경계의 여러 앨범이 동일한 경우 이 제한보다 더 많은 앨범을 반환할 수 있습니다 <code>name_after</code> 값.</p>
+        <p>한 실행 주기 동안 [!DNL Workfront Fusion]이(가) 반환할 최대 자산 수를 설정하십시오. 이 필드의 기본값은 100입니다. 제한 경계의 여러 앨범에 동일한 <code>name_after</code> 값이 있는 경우 이 모듈은 이 제한보다 더 많은 앨범을 반환할 수 있습니다.</p>
       </td>
     </tr>
   </tbody>
@@ -772,7 +773,7 @@ ht-degree: 0%
 
 이 작업 모듈은 지정된 앨범을 업데이트합니다.
 
-업데이트된 앨범은 현재 업데이트 중인 것과 동일한 클라이언트 앱에서 만들었어야 하며 하위 유형이어야 합니다 `project` 또는 `project_set`.
+업데이트된 앨범은 현재 업데이트 중인 것과 동일한 클라이언트 앱에서 만들었어야 하며 하위 유형 `project` 또는 `project_set`이어야 합니다.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -780,7 +781,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Lightroom], 참조 <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Lightroom]</a> 이 문서에서.</td>
+      <td>[!DNL Adobe Lightroom]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >[!DNL Adobe Lightroom]</a>에 대한 연결 만들기 를 참조하십시오.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 카탈로그 ID]</td>
@@ -797,18 +798,8 @@ ht-degree: 0%
     <tr>
       <td role="rowheader">기타 필드</td>
       <td>
-      <td>이 모듈의 다른 필드에 대한 설명은 <a href="#create-an-album" class="MCXref xref" >앨범 만들기</a> 이 문서에서.</td>
+      <td>이 모듈의 다른 필드에 대한 설명은 이 문서의 <a href="#create-an-album" class="MCXref xref" >앨범 만들기</a>를 참조하십시오.</td>
       </td>
     </tr>
   </tbody>
 </table>
-
-
-
-
-
-
-
-
-
-

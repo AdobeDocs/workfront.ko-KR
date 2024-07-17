@@ -25,11 +25,11 @@ Adobe Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 �
 
 ![](assets/object-header-fields.png)
 
-레이아웃 템플릿 만들기에 대한 자세한 내용은 [레이아웃 템플릿 만들기 및 관리](../use-layout-templates/create-and-manage-layout-templates.md).
+레이아웃 템플릿 만들기에 대한 자세한 내용은 [레이아웃 템플릿 만들기 및 관리](../use-layout-templates/create-and-manage-layout-templates.md)를 참조하십시오.
 
-그룹의 레이아웃 템플릿에 대한 자세한 내용은 [그룹의 레이아웃 템플릿 만들기 및 수정](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+그룹의 레이아웃 템플릿에 대한 자세한 내용은 [그룹의 레이아웃 템플릿 만들기 및 수정](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)을 참조하십시오.
 
-레이아웃 템플릿을 구성한 후에는 다른 사용자가 변경 내용을 볼 수 있도록 사용자에게 할당해야 합니다. 사용자에게 레이아웃 템플릿을 할당하는 방법에 대한 자세한 내용은 [레이아웃 템플릿에 사용자 할당](../use-layout-templates/assign-users-to-layout-template.md).
+레이아웃 템플릿을 구성한 후에는 다른 사용자가 변경 내용을 볼 수 있도록 사용자에게 할당해야 합니다. 사용자에게 레이아웃 템플릿을 할당하는 방법에 대한 자세한 내용은 [레이아웃 템플릿에 사용자 할당](../use-layout-templates/assign-users-to-layout-template.md)을 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -58,21 +58,21 @@ Adobe Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 �
   </tr>
 </table>
 
-여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 [사용자 정의 액세스 수준 만들기 또는 수정](../../add-users/configure-and-grant-access/create-modify-access-levels.md).
+여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 [사용자 지정 액세스 수준 만들기 또는 수정](../../add-users/configure-and-grant-access/create-modify-access-levels.md)을 참조하십시오.
 
 ## 개체 헤더 사용자 지정
 
-1. 에 설명된 대로 레이아웃 템플릿에서 작업 시작 [레이아웃 템플릿 만들기 및 관리](../../customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. 다음에서 **사용자에게 표시되는 항목 맞춤화** 드롭다운 메뉴에서 다음을 선택합니다. **프로젝트**, **작업**, 또는 **문제**.
+1. [레이아웃 템플릿 만들기 및 관리](../../customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)에 설명된 대로 레이아웃 템플릿 작업을 시작합니다.
+1. **사용자에게 표시되는 항목 사용자 지정** 드롭다운 메뉴에서 **프로젝트**, **작업** 또는 **문제**&#x200B;를 선택합니다.
 
    <!--when this will be possible for more than 3 objects, at production, make this more general: update the sentence above to say "select an object you want to customize in the Customize what users see drop-down menu). -->
 
-1. 다음에서 [!UICONTROL 헤더 필드] 섹션에서 표시된 필드 위로 마우스를 가져간 후 다음 중 하나를 수행합니다.
-   * 다음을 클릭합니다. **x** 필드 제거 아이콘
+1. [!UICONTROL 헤더 필드] 섹션에서 표시된 필드 위로 마우스를 가져간 후 다음 중 하나를 수행합니다.
+   * 필드를 제거하려면 **x** 아이콘을 클릭하십시오.
 
      또는
 
-   * 을(를) 클릭하고 **grab** 아이콘을 클릭하여 필드를 새 위치에 끌어다 놓습니다.
+   * **grab** 아이콘을 길게 클릭하여 필드를 새 위치로 끌어서 놓습니다.
 
    <!--(NOTE: make sure the default names of these fields have not changed; otherwise, update screen shot)-->
 
@@ -80,7 +80,7 @@ Adobe Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 �
 
 1. 오브젝트의 헤더에는 최대 5개의 필드가 있을 수 있습니다.
 이미 5개의 필드를 선택한 경우 새 필드를 추가하기 전에 필드를 제거해야 합니다.
-1. 다음에서 **필드 추가** 상자에서 추가하려는 편집할 수 없는 Workfront 필드의 이름을 입력한 다음 목록에 표시될 때 선택합니다. 필드는 필드 추가 상자의 바로 오른쪽에 추가되며, 개체 헤더의 왼쪽 위 모서리에 첫 번째 필드로 표시됩니다.
+1. **필드 추가** 상자에서 추가하려는 편집할 수 없는 Workfront 필드의 이름을 입력한 다음 목록에 표시될 때 선택합니다. 필드는 필드 추가 상자의 바로 오른쪽에 추가되며, 개체 헤더의 왼쪽 위 모서리에 첫 번째 필드로 표시됩니다.
 
    >[!TIP]
    >
@@ -100,7 +100,7 @@ Adobe Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 �
 
    또는
 
-   사용자 지정을 마쳤으면 **저장**.
+   사용자 지정을 마쳤으면 **저장**&#x200B;을 클릭합니다.
 
    >[!TIP]
    >

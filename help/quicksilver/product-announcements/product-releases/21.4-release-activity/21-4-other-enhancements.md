@@ -17,7 +17,7 @@ ht-degree: 0%
 
 이 페이지에서는 미리보기 환경에 대한 21.4 릴리스의 기타 모든 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2021년 10월 4일이 있는 주에 프로덕션 환경에서 사용할 수 있습니다.
 
-21.4 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [21.4 릴리스 개요](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+21.4 릴리스에서 사용할 수 있는 모든 변경 사항 목록을 보려면 [21.4 릴리스 개요](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md)를 참조하십시오.
 
 ## 목록에서 들여쓰기 및 내어쓰기를 위한 새 키보드 단축키
 
@@ -31,4 +31,4 @@ Windows의 경우 Alt + > 키를 눌러 목록 항목을 들여쓰고 Alt + &lt;
 
 이 변경 사항은 업데이트된 목록에만 적용되며 이전 목록에는 적용되지 않습니다.
 
-자세한 내용은 [하위 작업 만들기](../../../manage-work/tasks/create-tasks/create-subtasks.md).
+자세한 내용은 [하위 작업 만들기](../../../manage-work/tasks/create-tasks/create-subtasks.md)를 참조하십시오.

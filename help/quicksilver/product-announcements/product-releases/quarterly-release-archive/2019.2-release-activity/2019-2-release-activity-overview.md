@@ -16,14 +16,14 @@ ht-degree: 1%
 
 # 2019.2 릴리스 활동 개요
 
-이 페이지에서는 2019.2 릴리스에 포함된 기능에 대한 정보를 제공합니다. 이 콘텐츠를 PDF 형식으로 다운로드하려면 [여기](https://documentation.my.workfront.com/library/a/6626eb71-16b2-4460-bd81-9adcd4953eb5).
+이 페이지에서는 2019.2 릴리스에 포함된 기능에 대한 정보를 제공합니다. 이 콘텐츠를 PDF 형식으로 다운로드하려면 [여기](https://documentation.my.workfront.com/library/a/6626eb71-16b2-4460-bd81-9adcd4953eb5)로 이동하세요.
 
 >[!NOTE]
 >
 >프로덕션 환경에서는 다음 날짜에 2019.2 릴리스를 사용할 수 있습니다.
 >
->* *클러스터 2, 4 및 6을 위한 Workfront 프로덕션 환경 - 5월 23일*
->* *클러스터 1, 3 및 5를 위한 Workfront 프로덕션 환경 - 5월 24일*
+>* *클러스터 2, 4 및 6용 Workfront 프로덕션 환경 - 5월 23일*
+>* *클러스터 1, 3 및 5용 Workfront 프로덕션 환경 - 5월 24일*
 >* *Workfront Proof 프로덕션 환경 - 5월 21일*
 
 2019.2 릴리스에는 시스템 관리자와 기타 사용자 모두를 위한 개선 사항이 포함되어 있습니다.
@@ -94,7 +94,7 @@ ht-degree: 1%
 
 ### 통합 개선 사항
 
-* [Adobe Creative Cloud 통합을 위한 Workfront 업데이트됨](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-project-enhancements.md#updated)
+* [Adobe Creative Cloud 통합을 위해 Workfront 업데이트됨](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-project-enhancements.md#updated)
 
   이제 Workfront for Adobe Creative Cloud 확장 기능에 Workfront 라이브러리와의 통합이 포함됩니다.
 
@@ -133,9 +133,9 @@ ht-degree: 1%
 
 ## 공지
 
-* [이제 Workfront 라이브러리를 사용할 수 있습니다](#workfront-library-now-available)
-* [API 버전 3은 더 이상 지원되지 않습니다.](#api-version-3-no-longer-supported)
-* [TLS 지원 종료 중](#tls-support-is-ending)
+* [이제 Workfront 라이브러리를 사용할 수 있음](#workfront-library-now-available)
+* [API 버전 3은 더 이상 지원되지 않습니다](#api-version-3-no-longer-supported)
+* [TLS 지원이 종료되는 중](#tls-support-is-ending)
 * [Flash 응용 프로그램 제거](#flash-application-removal)
 * [제거할 다양한 Single Sign-On 옵션](#various-single-sign-on-options-to-be-removed)
 
@@ -145,19 +145,19 @@ Workfront 라이브러리는 조직의 디지털 에셋에 대한 전체 라이�
 
 ### API 버전 3은 더 이상 지원되지 않습니다. {#api-version-3-no-longer-supported}
 
-API 버전 3에 대한 지원은 2018년 11월에 종료되었습니다. Workfront API 버전에 대한 지원 일정에 대한 자세한 내용은 다음을 참조하십시오. [API 버전 관리 및 지원 일정](../../../../wf-api/api/api-version-support-schedule.md).
+API 버전 3에 대한 지원은 2018년 11월에 종료되었습니다. Workfront API 버전에 대한 지원 일정에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](../../../../wf-api/api/api-version-support-schedule.md)을 참조하십시오.
 
 ### TLS 지원 종료 중 {#tls-support-is-ending}
 
 최적의 보안을 제공하기 위해 Workfront에서는 TLS 1.0 이하를 사용하는 모든 통합 및 웹 트래픽을 TLS 1.1 이상을 사용하도록 업그레이드해야 합니다. 이 변경 사항은 미리보기 환경에 이미 적용되어 있습니다.
 
-자세한 내용은 [Adobe Workfront에서 TLS 1.2 필요](../../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md).
+자세한 내용은 Adobe Workfront에서 필요한 [TLS 1.2](../../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md)를 참조하십시오.
 
 ### Flash 응용 프로그램 제거 {#flash-application-removal}
 
 Flash 기술에 의존하는 모든 기능은 2018.3 릴리스부터 Workfront에서 제거되었으며 새 솔루션으로 대체되었습니다.
 
-기존 Flash 도구 및 대체 요소에 대한 자세한 내용은 [Adobe Workfront에서 Flash 기반 도구 교체](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
+기존 Flash 도구 및 대체 요소에 대한 자세한 내용은 [Adobe Workfront에서 Flash 기반 도구 교체](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)를 참조하십시오.
 
 ### 제거할 다양한 Single Sign-On 옵션 {#various-single-sign-on-options-to-be-removed}
 
@@ -165,15 +165,15 @@ Flash 기술에 의존하는 모든 기능은 2018.3 릴리스부터 Workfront�
 
 * LDAP
 
-  Workfront에서 LDAP를 사용하는 방법에 대한 자세한 내용은 [LDAP를 사용하여 Adobe Workfront 구성](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md).
+  Workfront에서 LDAP를 사용하는 방법에 대한 자세한 내용은 [LDAP로 Adobe Workfront 구성](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)을 참조하십시오.
 
 * Active Directory
 
-  Workfront에서 Active Directory 사용에 대한 자세한 내용은 [Active Directory를 사용하여 Adobe Workfront 구성](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md).
+  Active Directory를 Workfront과 함께 사용하는 방법에 대한 자세한 내용은 [Active Directory와 함께 Adobe Workfront 구성](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)을 참조하십시오.
 
 * SAML 1.1
 
-  Workfront에서 SAML 1.1을 사용하는 방법에 대한 자세한 내용은 [SAML 1.1을 사용하여 Adobe Workfront 구성](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md).
+  Workfront에서 SAML 1.1을 사용하는 방법에 대한 자세한 내용은 [SAML 1.1을 사용하여 Adobe Workfront 구성](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)을 참조하십시오.
 
 다음은 이러한 SSO 옵션의 제거 타임라인입니다.
 
@@ -195,7 +195,7 @@ Flash 기술에 의존하는 모든 기능은 2018.3 릴리스부터 Workfront�
 
 Workfront 제품 관리 팀에 참여하여 제품 비전, 2019 로드맵 및 참여 방법에 대해 자세히 알아보십시오.
 
-웨비나 녹화를 보려면 다음을 참조하십시오. [2019년 2분기 제품 로드맵 웨비나](https://webinars.on24.com/workfront/q2roadmap?partnerref=Product).
+웨비나 녹화를 보려면 [2019년 2분기 제품 로드맵 웨비나](https://webinars.on24.com/workfront/q2roadmap?partnerref=Product)를 참조하십시오.
 
 ### Workfront 제품 로드맵 웨비나 - 2019년 1분기
 

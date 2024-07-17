@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: 2018.2 베타 2 릴리스 활동
-description: 이 페이지에서는 2018.2 베타 2 릴리스의 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 기능은 2018년 4월 5일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2018년 6월에 사용할 수 있습니다.
+title: 2018.2 Beta 2 릴리스 활동
+description: 이 페이지에서는 2018.2 Beta 2 릴리스의 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 기능은 2018년 4월 5일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2018년 6월에 사용할 수 있습니다.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 ---
 
-# 2018.2 베타 2 릴리스 활동
+# 2018.2 Beta 2 릴리스 활동
 
-이 페이지에서는 2018.2 베타 2 릴리스의 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 기능은 2018년 4월 5일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2018년 6월에 사용할 수 있습니다.
+이 페이지에서는 2018.2 Beta 2 릴리스의 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 기능은 2018년 4월 5일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2018년 6월에 사용할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -24,15 +24,15 @@ ht-degree: 0%
 
 2018.2의 모든 변경 사항 목록은 다음을 참조하십시오.  [2018.2 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
-2018.2 베타 2 릴리스에는 다음과 같은 개선 사항이 포함됩니다.
+2018.2 Beta 2 릴리스에는 다음과 같은 개선 사항이 포함되어 있습니다.
 
 * [홈 영역에서 직접 필드 편집](#edit-fields-directly-from-the-home-area)
-* [기간 내 시간 기록](#log-time-in-days)
+* [일 단위로 시간 기록](#log-time-in-days)
 * [프로젝트 목록의 간트 차트에서 프로젝트 간 전임 작업 관계 보기](#view-cross-project-predecessor-relationships-on-the-gantt-chart-in-a-list-of-projects)
 * [Portfolio 최적화 도구에서 예산 비용을 사용하여 Portfolio 재무 계산](#use-budgeted-cost-in-the-portfolio-optimizer-to-calculate-portfolio-finances)
-* [활용성 보고서: 신규 자원 예산 책정에서 예산 시간을 채웁니다.](#utilization-report-populates-budgeted-hours-from-new-resource-budgeting-area) (미리 보기 전용)
+* [사용률 보고서: 새 리소스 예산 책정에서 예산 시간을 채웁니다](#utilization-report-populates-budgeted-hours-from-new-resource-budgeting-area)(미리 보기 전용)
 
-* [활용성 보고서: 프로젝트에 대한 사용자별 예산 시간 보기](#utilization-report-view-budgeted-hours-by-user-on-a-project) (미리 보기 전용)
+* [사용률 보고서: 프로젝트에 대한 사용자별 예산 시간을 봅니다](#utilization-report-view-budgeted-hours-by-user-on-a-project)(미리 보기만)
 
 * [비증명 사용자가 사용할 수 있는 문서 목록의 증명 진행률](#proof-progress-from-the-document-list-available-to-non-proofing-users)
 * [모바일 개선 사항](#mobile-improvements)
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 이 변경 이전에는 정보를 편집하지 않고 홈 영역에서만 볼 수 있었습니다.
 
-자세한 내용은 [홈 영역에서 작업 항목 업데이트 또는 편집](../../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md) 이 문서에서  [홈 영역에서 작업 항목 업데이트 또는 편집](../../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
+자세한 내용은 문서에서 [홈 영역에서 작업 항목 업데이트 또는 편집](../../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)을 참조하십시오  [홈 영역에서 작업 항목 업데이트 또는 편집](../../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
 
 ## 기간 내 시간 기록 {#log-time-in-days}
 
@@ -51,9 +51,9 @@ ht-degree: 0%
 
 이 변경 이전에는 사용자가 시간을 시간 단위로만 기록할 수 있었습니다.
 
-사용자 프로필을 편집하여 이 설정을 구성할 수 있습니다. 자세한 내용은 [시간이 시간 단위로 기록되는지 또는 일 단위로 기록되는지 구성](../../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md).
+사용자 프로필을 편집하여 이 설정을 구성할 수 있습니다. 자세한 내용은 [시간이 시간 단위로 기록되는지 또는 일 단위로 기록되는지 구성](../../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)을 참조하십시오.
 
-이 설정이 업데이트된 후 사용자가 일 단위로 시간을 기록할 수 있는 방법에 대한 자세한 내용은 [로그 시간](../../../../timesheets/create-and-manage-timesheets/log-time.md).
+이 설정이 업데이트된 후 사용자가 일 단위로 시간을 기록할 수 있는 방법에 대한 자세한 내용은 [시간 기록](../../../../timesheets/create-and-manage-timesheets/log-time.md)을 참조하십시오.
 
 ## 프로젝트 목록의 간트 차트에서 프로젝트 간 전임 작업 관계 보기 {#view-cross-project-predecessor-relationships-on-the-gantt-chart-in-a-list-of-projects}
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 이 변경 이전에는 프로젝트 수준의 개별 작업에 대해서만 프로젝트 간 전임 작업 관계를 볼 수 있었습니다.
 
-자세한 내용은 [간트 차트에 정보가 표시되는 방식 구성](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md). 
+자세한 내용은 [간트 차트에 정보가 표시되는 방법 구성](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md)을 참조하십시오. 
 
 ## Portfolio 최적화 도구에서 예산 비용을 사용하여 Portfolio 재무 계산 {#use-budgeted-cost-in-the-portfolio-optimizer-to-calculate-portfolio-finances}
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 또한 Portfolio 재무 필드에 레거시 ROI 및 레거시 순 가치라는 두 가지 새로운 필드를 추가하여 새로운 리소스 관리 도구에서 새로운 가치를 포착했습니다.
 
-자세한 내용은 [Portfolio 최적화 프로그램 개요](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md) 이 문서에서  [Portfolio 최적화 프로그램 개요](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+자세한 내용은 이 문서에서 [Portfolio 최적화 도구 개요](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)를 참조하십시오.  [Portfolio 최적화 도구 개요](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 ## 활용성 보고서: 신규 자원 예산 책정에서 예산 시간을 채웁니다. {#utilization-report-populates-budgeted-hours-from-new-resource-budgeting-area}
 
@@ -90,7 +90,7 @@ ht-degree: 0%
 
 이 변경 이전에는 기존 리소스 견적 영역의 정보가 사용되었습니다.
 
-자세한 내용은 [자원 가동률 보고서 개요](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) 이 문서에서  [자원 가동률 보고서 개요](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+자세한 내용은 이 문서에서 [리소스 사용률 보고서 개요](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)를 참조하십시오.  [리소스 사용률 보고서 개요](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## 활용성 보고서: 프로젝트에 대한 사용자별 예산 시간 보기 {#utilization-report-view-budgeted-hours-by-user-on-a-project}
 
@@ -102,7 +102,7 @@ ht-degree: 0%
 
 이 변경 이전의 활용성 보고서에는 작업 역할별 예산 시간만 표시됩니다. 
 
-자세한 내용은 [자원 가동률 보고서 개요](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) 이 문서에서 [자원 가동률 보고서 개요](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+자세한 내용은 [리소스 사용률 보고서 개요](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) 문서의 [리소스 사용률 보고서 개요](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)를 참조하십시오.
 
 ## 비증명 사용자가 사용할 수 있는 문서 목록의 증명 진행률 {#proof-progress-from-the-document-list-available-to-non-proofing-users}
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 이 변경 이전에는 증명을 생성할 수 있는 사용자에 대해서만 증명 진행 상태 표시기를 사용할 수 있었습니다.
 
-자세한 내용은 [증명 진행 상황 및 상태 개요](../../../../review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md).
+자세한 내용은 [증명 진행 상황 및 상태 개요](../../../../review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md)를 참조하세요.
 
 ## 모바일 개선 사항 {#mobile-improvements}
 

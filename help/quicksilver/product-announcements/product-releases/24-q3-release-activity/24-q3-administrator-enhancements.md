@@ -16,7 +16,7 @@ ht-degree: 0%
 
 이 페이지에서는 미리보기 환경에 대한 2024년 3분기 릴리스의 모든 관리자 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
-2024년 3분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [2024년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+2024년 3분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2024년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)를 참조하십시오.
 
 ## 이제 비즈니스 규칙을 사용할 수 있습니다
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 비즈니스 규칙을 사용하면 Workfront 객체에 검증을 적용하고 특정 조건이 충족될 때 사용자가 객체를 생성, 편집 또는 삭제하지 못하도록 할 수 있습니다. 규칙은 사용자 정의 양식의 계산된 필드와 유사한 공식을 사용하여 작성됩니다.
 
-자세한 내용은 [비즈니스 규칙 만들기 및 편집](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
+자세한 내용은 [비즈니스 규칙 만들기 및 편집](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)을 참조하세요.
 
 >[!IMPORTANT]
 >
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 이 릴리스 후에는 이전 양식 빌더로 되돌리는 옵션이 더 이상 없습니다.
 
-양식 디자이너 및 비디오 데모에 대한 자세한 내용은 [양식 디자이너 베타 릴리스 정보](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md).
+양식 디자이너 및 비디오 데모에 대한 자세한 내용은 [양식 디자이너 베타 릴리스 정보](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)를 참조하십시오.
 
 ## 환경 프로모션을 사용하여 Workfront 환경 간에 개체 이동
 
@@ -58,9 +58,9 @@ ht-degree: 0%
 
 이전에는 개체를 샌드박스 또는 미리보기 환경과 별도로 프로덕션 환경에서 구성해야 했습니다.
 
-환경 프로모션에 대한 자세한 내용은 [Workfront 환경 간 객체 이동 개요(환경 프로모션)](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)
+환경 프로모션에 대한 자세한 내용은 [Workfront 환경 간 개체 이동 개요(환경 프로모션)](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)를 참조하십시오.
 
-[이 기능에 대한 비디오 데모 보기](https://video.tv.adobe.com/v/3429735/){target=_blank}
+[이 기능의 비디오 데모 보기](https://video.tv.adobe.com/v/3429735/){target=_blank}
 
 >[!IMPORTANT]
 >
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 이제 새 양식 디자이너 내에서 사용자 정의 양식과 사용자 정의 필드를 모두 공유할 수 있습니다. 이를 통해 사용자 정의 양식에서 사용자 간의 공동 작업을 향상시킬 수 있습니다.
 
-자세한 내용은 [사용자 정의 양식 공유](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md) 및 [양식 디자이너와 사용자 정의 필드 및 위젯에 대한 공유 구성](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md).
+자세한 내용은 [사용자 정의 양식 공유](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md) 및 [양식 디자이너와 사용자 정의 필드 및 위젯에 대한 공유 구성](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md)을 참조하십시오.
 
 ## 필드 영역에서 새 사용자 정의 필드 추가
 
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 이 기능은 사용자 정의 양식 디자이너와 레거시 사용자 정의 양식 빌더에서 모두 사용할 수 있습니다.
 
-자세한 내용은 [사용자 정의 필드, 섹션 구분 또는 위젯 추가 또는 편집](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md).
+자세한 내용은 [사용자 지정 필드, 섹션 구분 또는 위젯 추가 또는 편집](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)을 참조하세요.
 
 ## 양식 디자이너에서 사용할 수 있는 드롭다운 필드 유형 다중 선택
 
@@ -101,4 +101,4 @@ ht-degree: 0%
 
 이 옵션은 기존 양식 빌더에서 사용할 수 없습니다.
 
-자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.

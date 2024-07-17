@@ -9,8 +9,8 @@ role: Developer
 exl-id: 24c900ee-a8f1-458e-a18b-c098c6314e0c
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 22%
+source-wordcount: '304'
+ht-degree: 25%
 
 ---
 
@@ -79,7 +79,7 @@ Fieldsclass: &quot;java.lang.IllegalArgumentException&quot;,\
    <td> <p><span class="dtEdit">편집 가능</span> </p> </td> 
   </tr> 
   <tr> 
-   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;enteredByID&quot;}"><strong>입력자 ID</strong> </td> 
+   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;enteredByID&quot;}"><strong>enteredByID</strong> </td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Entered By ID&quot;}">작성자 ID</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">문자열</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;ID of the User that added the Custom Form&quot;}">사용자 정의 양식을 추가한 사용자의 ID</td> 
@@ -111,7 +111,7 @@ Fieldsclass: &quot;java.lang.IllegalArgumentException&quot;,\
    <td> <p><span class="dtGrp">그룹화할 수 없음</span> </p> </td> 
   </tr> 
   <tr> 
-   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;lastUpdateDate&quot;}"><strong>마지막 업데이트 날짜</strong> </td> 
+   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;lastUpdateDate&quot;}"><strong>lastUpdateDate</strong> </td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Last Update Date&quot;}">마지막 업데이트 날짜</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Date/Time&quot;}">일자/시간</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Date of when the object was last modified&quot;}">개체를 마지막으로 수정한 날짜</td> 
@@ -142,7 +142,7 @@ Fieldsclass: &quot;java.lang.IllegalArgumentException&quot;,\
 | 이름 | 레이블 | 유형 | 개체 코드 입력 | URL |
 |---|---|---|---|---|
 | 고객 | 고객 | 고객 | CUST | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| 작성자: | 입력한 사람 | 사용자 | 사용자 | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
+| 작성자 | 입력한 사람 | 사용자 | 사용자 | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
 | 그룹 | 그룹 | 그룹 | 그룹 | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
 | 마지막으로 업데이트한 사람 | lastUpdatedBy | 사용자 | 사용자 | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
 

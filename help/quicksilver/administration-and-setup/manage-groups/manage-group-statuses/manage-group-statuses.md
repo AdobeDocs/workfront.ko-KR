@@ -27,7 +27,7 @@ ht-degree: 0%
 * [잠금 및 잠금 해제된 그룹 상태](../../../administration-and-setup/manage-groups/manage-group-statuses/lock-or-unlock-a-custom-group-status.md)
 * [그룹이 상태를 상속하는 방법](../../../administration-and-setup/manage-groups/manage-group-statuses/how-groups-inherit-statuses.md)
 * [그룹 상태 삭제](../../../administration-and-setup/manage-groups/manage-group-statuses/delete-a-group-status.md)
-* [이동 또는 삭제된 그룹의 사용자 지정 상태](../../../administration-and-setup/manage-groups/manage-group-statuses/custom-statuses-in-group-moved-or-deleted.md)
+* 이동 또는 삭제된 그룹의 [사용자 지정 상태](../../../administration-and-setup/manage-groups/manage-group-statuses/custom-statuses-in-group-moved-or-deleted.md)
 * [이동 또는 복사된 작업 또는 문제의 사용자 지정 상태](../../../administration-and-setup/manage-groups/manage-group-statuses/custom-statuses-on-a-task-or-issue-that-is-moved-or-copied.md)
 
-그룹 상태 재정렬에 대한 자세한 내용은 [시스템 수준 및 그룹 상태 순서 바꾸기](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md).
+그룹 상태 순서 조정에 대한 자세한 내용은 [시스템 수준 및 그룹 상태 순서 조정](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md)을 참조하십시오.

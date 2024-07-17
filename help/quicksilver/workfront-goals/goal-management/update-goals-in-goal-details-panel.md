@@ -54,7 +54,7 @@ ht-degree: 1%
  <td>
  <p>새 라이선스: 기여자 이상</p>
  또는
- <p>현재 라이선스: 요청 이상</p> <p>자세한 내용은 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront 라이선스 개요</a>.</p> </td>
+ <p>현재 라이선스: 요청 이상</p> <p>자세한 내용은 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront 라이선스 개요</a>를 참조하십시오.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">제품*</td>
@@ -64,7 +64,7 @@ ht-degree: 1%
 <li>Select 또는 Prime Adobe Workfront 플랜 및 추가 Adobe Workfront Goals 라이선스.</li>
 <li>기본적으로 Workfront 목표를 포함하는 Ultimate Workfront 계획입니다. </li></ul>
  <p>또는</p>
- <p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표 사용 요구 사항</a>. </p> </td>
+ <p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표를 사용하기 위한 요구 사항</a>을 참조하십시오. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">액세스 수준*</td>
@@ -76,7 +76,7 @@ ht-degree: 1%
   <div>
   <p>목표에 대한 또는 그 이상의 권한에 대한 보기</p>
   <p>편집할 목표에 대한 권한 관리</p>
-  <p>목표 공유에 대한 자세한 내용은 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront 목표에서 목표 공유</a>. </p>
+  <p>목표 공유에 대한 자세한 내용은 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront 목표에서 목표 공유</a>를 참조하십시오. </p>
   </div> </td>
  </tr>
  <tr>
@@ -87,7 +87,7 @@ ht-degree: 1%
 </tbody>
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## 목표 세부 사항 섹션의 목표 업데이트
 
@@ -180,11 +180,11 @@ Updating goals in the Goal Details panel differs depending on where you access t
 
 1. 목표 목록에서 목표 이름을 클릭한 다음, 목표 이름을 클릭합니다.
 
-   이렇게 하면 **목표 세부 정보** 왼쪽 섹션에 있는 마지막 항목이 될 필요가 없습니다.
+   왼쪽에 **목표 세부 정보** 섹션이 열립니다.
 
    ![](assets/goal-page-unshimmed.png)
 
-1. 다음을 클릭합니다. **편집 아이콘** ![](assets/edit-icon.png) 오른쪽 상단에서 을(를) 클릭한 다음 **모두 편집** 또는 **개요**
+1. 오른쪽 상단의 **편집 아이콘** ![](assets/edit-icon.png)을 클릭한 다음 **모두 편집** 또는 **개요**&#x200B;를 클릭합니다
 
    또는
 
@@ -197,13 +197,13 @@ Updating goals in the Goal Details panel differs depending on where you access t
 1. 다음 필드를 업데이트하거나 검토합니다.
 
    * **설명**: 목표에 대한 정보를 추가하거나 업데이트합니다.
-   * **진행률**: 지금까지 완료된 목표 비율을 나타냅니다. 목표의 진행 상황을 수동으로 업데이트할 수 없습니다. 목표 진행률은 모든 진행률 지표를 계산한 것이다.
-   * **조건**: 목표가 새로운 것인지, 아직 업데이트되지 않았는지, 제 시간에 완료될 수 있는 목표에 도달했는지 또는 목표에 미달되는지 여부를 나타냅니다. 목표의 상태는 업데이트할 수 없습니다. 목표의 상태는 Workfront에 의해 자동으로 계산됩니다.\
+   * **진행**: 지금까지 완료된 목표의 백분율을 나타냅니다. 목표의 진행 상황을 수동으로 업데이트할 수 없습니다. 목표 진행률은 모든 진행률 지표를 계산한 것이다.
+   * **조건**: 목표가 새 목표이며 아직 업데이트되지 않았는지, 제 시간에 완료될 대상에 있는지 또는 지연되고 있는지 여부를 나타냅니다. 목표의 상태는 업데이트할 수 없습니다. 목표의 상태는 Workfront에 의해 자동으로 계산됩니다.\
      목표 조건 및 진행률에 대한 자세한 내용은
-     [Adobe Workfront 목표의 목표 진행 및 상태 개요](../goal-management/calculate-goal-progress.md).
-   * **상태**: 목표의 상태를 수동으로 업데이트할 수 없습니다. 자세한 내용은 [Adobe Workfront 목표의 목표 상태 개요](../goal-management/goal-status-overview.md).
-   * **목표 소유자**: 목표 소유자의 이름을 업데이트하려면 를 클릭합니다. 사용자, 팀, 그룹 또는 조직의 이름을 입력한 다음 목록에 표시될 때 선택합니다. 목표에 대해 소유자는 한 명만 있을 수 있습니다.
-   * **상위 목표**: 선택한 목표의 상위로 설정할 목표의 이름을 입력합니다. 선택한 목표의 진행률은 상위 목표의 진행률을 자동으로 업데이트합니다.
+     [Adobe Workfront 목표의 목표 진행 상황 및 상태 개요](../goal-management/calculate-goal-progress.md).
+   * **상태**: 목표의 상태를 수동으로 업데이트할 수 없습니다. 자세한 내용은 [Adobe Workfront 목표의 목표 상태 개요](../goal-management/goal-status-overview.md)를 참조하십시오.
+   * **목표 소유자**: 목표 소유자의 이름을 업데이트하려면 클릭하세요. 사용자, 팀, 그룹 또는 조직의 이름을 입력한 다음 목록에 표시될 때 선택합니다. 목표에 대해 소유자는 한 명만 있을 수 있습니다.
+   * **상위 목표**: 선택한 목표의 상위로 설정할 목표의 이름을 입력하세요. 선택한 목표의 진행률은 상위 목표의 진행률을 자동으로 업데이트합니다.
 
      >[!TIP]
      >
@@ -214,9 +214,9 @@ Updating goals in the Goal Details panel differs depending on where you access t
      >      
      >상위 목표 자체에 대한 이 정보를 업데이트해야 합니다.
 
-   * **기간**: 목표에 대한 기간을 업데이트하려면 클릭합니다\
+   * **기간**: 목표의 기간을 업데이트하려면 클릭하십시오.\
      또는\
-     선택 **사용자 지정 날짜 활성화** 목표 일자를 지정하려면 **시작** 및 **종료 날짜**.
-   * **마감 메모**: 이 필드는 닫힘 상태의 목표에 대해서만 표시됩니다. 종료된 목표는 편집할 수 없습니다. 마감된 목표를 다시 열면 마감된 메모가 영구적으로 삭제됩니다.
+     목표의 **시작** 및 **종료 날짜**&#x200B;에 대한 날짜를 지정하려면 **사용자 지정 날짜 사용**&#x200B;을 선택하세요.
+   * **마감 메모**: 이 필드는 [닫힘] 상태의 목표에만 표시됩니다. 종료된 목표는 편집할 수 없습니다. 마감된 목표를 다시 열면 마감된 메모가 영구적으로 삭제됩니다.
 
 

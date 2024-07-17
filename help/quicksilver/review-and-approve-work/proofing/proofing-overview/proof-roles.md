@@ -16,11 +16,11 @@ ht-degree: 1%
 
 # 증명 역할 개요
 
-증명 역할을 사용하면 개별 증명에 대한 권한을 부여할 수 있습니다. 증명 역할은 증명 권한 프로필과 다릅니다. 증명 권한 프로필에 대한 자세한 내용은 [증명 권한 프로필 개요](../../../review-and-approve-work/proofing/proofing-overview/permission-profiles.md).
+증명 역할을 사용하면 개별 증명에 대한 권한을 부여할 수 있습니다. 증명 역할은 증명 권한 프로필과 다릅니다. 증명 권한 프로필에 대한 자세한 내용은 [증명 권한 프로필 개요](../../../review-and-approve-work/proofing/proofing-overview/permission-profiles.md)를 참조하십시오.
 
-## 증명 역할
+## 교정쇄 역할
 
-증명 역할은 사용자가 증명을 검토하도록 초대될 때 개별 증명에 대한 사용자에게 부여됩니다. Workfront Pro+ 플랜이 있는 경우 작업 또는 플랜 라이선스로 사용자에게 증명 역할을 부여할 수 있습니다. Workfront Premium 레거시 플랜이 있는 경우 지정된 증명 라이선스로 사용자에게 증명 역할을 부여할 수 있습니다. 자세한 내용은 [Workfront의 증명 기능에 액세스](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
+증명 역할은 사용자가 증명을 검토하도록 초대될 때 개별 증명에 대한 사용자에게 부여됩니다. Workfront Pro+ 플랜이 있는 경우 작업 또는 플랜 라이선스로 사용자에게 증명 역할을 부여할 수 있습니다. Workfront Premium 레거시 플랜이 있는 경우 지정된 증명 라이선스로 사용자에게 증명 역할을 부여할 수 있습니다. 자세한 내용은 [Workfront의 증명 기능에 액세스](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md)를 참조하십시오.
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 증명 역할은 검토자가 해당 특정 증명과 관련하여 취할 수 있는 작업을 정의합니다.
 
-**예:** 검토자 역할이 할당된 경우 마크업과 주석을 추가하여 증명을 검토하라는 메시지가 표시되지만 증명을 승인하거나 거부할 수 있는 옵션이 없습니다.
+**예:** 검토자 역할이 할당된 경우 마크업과 댓글을 추가하여 증명을 검토하라는 메시지가 표시되지만 증명을 승인하거나 거부할 수 있는 옵션이 없습니다.
 
 특정 증명 역할은 검토자에게 증명에 대한 편집 권한을 부여하고(계정 프로필이 그렇지 않은 경우에도) 댓글에 작업을 추가하고, 새 버전을 만들고, 증명에 검토자를 더 추가하는 것과 같은 몇 가지 추가 기능을 사용할 수 있도록 합니다.
 
@@ -53,7 +53,7 @@ ht-degree: 1%
    <th> <p><strong>증명 보기</strong> </p> </th> 
    <th> <p><strong>마크업 추가</strong> </p> </th> 
    <th> <p><strong>댓글 추가</strong> </p> </th> 
-   <th> <p><strong>답글이 없는 경우 자신의 댓글 편집</strong> </p> </th> 
+   <th> <p><strong>답글이 없으면 댓글 편집</strong> </p> </th> 
    <th> <p><strong>결정</strong> </p> </th> 
    <th> <p><strong>다른 사용자가 작성한 댓글 삭제</strong> </p> </th> 
    <th>댓글 확인</th> 
@@ -150,7 +150,7 @@ ht-degree: 1%
    <td> <p><strong>중재자</strong> </p> </td> 
    <td> <p>✓ 덧신</p> </td> 
    <td> <p>✓ 덧신</p> </td> 
-   <td> <p><strong>✓ 덧신</strong> </p> </td> 
+   <td> <p>✓ <strong>개</strong> </p> </td> 
    <td> <p>✓ 덧신</p> </td> 
    <td> <p>✓ 덧신</p> </td> 
    <td> <p>✓ 덧신</p> <p> </p> </td> 

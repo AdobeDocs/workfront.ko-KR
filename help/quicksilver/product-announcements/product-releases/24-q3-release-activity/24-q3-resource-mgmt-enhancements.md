@@ -16,7 +16,7 @@ ht-degree: 0%
 
 이 페이지에서는 미리보기 환경에 대한 2024년 3분기 릴리스의 모든 리소스 관리 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2024년 3분기 릴리스를 통해 프로덕션 환경에서 사용할 수 있습니다.
 
-2024년 3분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [2024년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+2024년 3분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2024년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)를 참조하십시오.
 
 ## 휴무가 업무 균형자에 반영됨
 
@@ -28,4 +28,4 @@ ht-degree: 0%
 
 이전에는 타임라인이 다시 계산될 때 시간이 다시 할당되지 않았습니다.
 
-자세한 내용은 [업무 균형자에서 사용자 할당 관리](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+자세한 내용은 [업무 균형자에서 사용자 할당 관리](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)를 참조하십시오.

@@ -29,7 +29,7 @@ ht-degree: 0%
 
 프로젝트를 작업하는 동안 예기치 않은 이벤트가 발생할 수 있습니다. 이러한 예기치 않은 이벤트를 특정 프로젝트 또는 작업에 대한 문제로 기록할 수 있습니다. 적절한 액세스 권한이 있는 사용자는 프로젝트 또는 작업이 완료될 때까지 문제 상태를 보고 모니터링할 수 있으므로 긴 이메일 체인 또는 상태 미팅이 필요하지 않습니다. 계획된 이벤트인 작업과 달리 문제는 Adobe Workfront에서 계획되지 않은 작업 항목을 나타냅니다.
 
-프로젝트에 문제를 요청으로 추가할 수도 있습니다. 자세한 내용은 [Adobe Workfront 요청 만들기 및 제출](../../../manage-work/requests/create-requests/create-submit-requests.md).
+프로젝트에 문제를 요청으로 추가할 수도 있습니다. 자세한 내용은 [Adobe Workfront 요청 만들기 및 제출](../../../manage-work/requests/create-requests/create-submit-requests.md)을 참조하십시오.
 
 >[!TIP]
 >
@@ -55,11 +55,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>문제에 대한 액세스 편집</p> <p>프로젝트 및 작업에 대한 보기 또는 상위 액세스 권한</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. 액세스 수준의 문제에 대한 액세스와 관련된 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">문제에 대한 액세스 권한 부여</a>. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>. </p> </td> 
+   <td> <p>문제에 대한 액세스 편집</p> <p>프로젝트 및 작업에 대한 보기 또는 상위 액세스 권한</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. 액세스 수준의 문제에 액세스하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">문제에 액세스 권한 부여</a>를 참조하십시오. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>문제를 만드는 작업 또는 프로젝트에 문제를 추가할 수 있는 기능을 가진 참여자 이상의 권한</p> <p> 문제에 대한 권한 부여에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">문제 공유 </a></p> <p>추가 권한 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>문제를 만드는 작업 또는 프로젝트에 문제를 추가할 수 있는 Contribute 이상의 권한</p> <p> 문제에 대한 권한 부여에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">문제 공유 </a>를 참조하십시오.</p> <p>추가 권한 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 권한 요청을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -76,16 +76,16 @@ ht-degree: 0%
 
 올바른 액세스 및 권한이 있으면 프로젝트 또는 작업에 문제를 만들 수 있습니다. 그러나 문제를 만들지 못할 수 있는 경우는 다음과 같습니다.
 
-* Workfront 관리자 또는 그룹 관리자는 프로젝트 환경 설정 영역에서 완료 또는 중단 상태인 프로젝트에 문제를 추가할 수 있도록 설정해야 합니다. 프로젝트 환경 설정 지정에 대한 자세한 내용은 [시스템 전체 프로젝트 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* Workfront 관리자 또는 그룹 관리자는 프로젝트 환경 설정 영역에서 완료 또는 중단 상태인 프로젝트에 문제를 추가할 수 있도록 설정해야 합니다. 프로젝트 환경 설정 지정에 대한 자세한 내용은 [시스템 전체 프로젝트 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)을 참조하십시오.
 * 승인 보류 중인 프로젝트에 문제를 추가할 수 없습니다.
 
 ## 새 문제 양식 준비
 
 문제를 기록하는 시기와 방법에 대해 조직이 잘 정의된 프로세스를 갖추고 있어야 합니다. 이 프로세스를 구성할 때 첫 번째 단계는 문제 제출에 필요한 양식을 만드는 것입니다. 문제를 작업 및 프로젝트에 직접 추가하도록 허용할지 또는 문제가 제출된 요청 대기열이 있는 경우 사용자가 새 문제를 제출하고 완료해야 할 때 사용할 수 있는 사용자 정의 필드 및 Workfront 필드를 정의할 수 있습니다. 새 문제 양식에는 문제를 신속하게 해결하는 데 도움이 되는 중요한 정보가 포함될 수 있습니다.
 
-프로젝트의 새 문제에 대한 필드는 문제가 기록될 프로젝트의 대기열 세부 정보 섹션에 정의됩니다. 프로젝트의 대기열 세부 정보 섹션 구성에 대한 자세한 내용은 [요청 대기열 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+프로젝트의 새 문제에 대한 필드는 문제가 기록될 프로젝트의 대기열 세부 정보 섹션에 정의됩니다. 프로젝트의 큐 세부 정보 섹션을 구성하는 방법에 대한 자세한 내용은 [요청 큐 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)를 참조하십시오.
 
-문제를 요청 대기열로 제출하여 문제를 만드는 방법에 대한 자세한 내용은 다음을 참조하십시오. [새 요청을 입력하여 문제 만들기](#create-issues-by-entering-a-new-request) 이 문서의 섹션.
+요청 대기열에 문제를 제출하여 문제를 만드는 방법에 대한 자세한 내용은 이 문서의 [새 요청을 입력하여 문제 만들기](#create-issues-by-entering-a-new-request) 섹션을 참조하십시오.
 
 ## 새 문제 버튼을 사용하여 작업 또는 프로젝트에 문제 생성
 
@@ -155,25 +155,25 @@ Issues can be assigned to multiple users, job roles or to a team. For more infor
 작업 또는 프로젝트에 문제를 만들려면 다음 작업을 수행하십시오.
 
 1. 문제를 만들려는 프로젝트로 이동합니다.
-1. (선택 사항) 작업에 대한 문제를 기록하려면 **작업** 영역을 클릭한 다음 작업 이름을 클릭합니다.
-1. 다음을 클릭합니다. **문제** 섹션.
+1. (선택 사항) 작업에 대한 문제를 기록하려면 **작업** 영역으로 이동한 다음 작업 이름을 클릭합니다.
+1. **문제** 섹션을 클릭합니다.
 
    프로젝트 문제 목록이 표시됩니다
 
-1. 클릭 **새 문제** 문제 목록의 맨 위에 있습니다.
+1. 문제 목록의 맨 위에 있는 **새 문제**를 클릭합니다.
 새 문제 상자가 표시됩니다.
 
    ![](assets/new-issue-box-matches-new-request-ui.png)
 
-1. (조건부) 프로젝트 생성자가 프로젝트에서 대기열 주제 또는 주제 그룹을 생성하면 새 문제 양식에 추가됩니다. 다음을 지정합니다. **주제 그룹** 또는 **대기열 주제** 을 참조하십시오. 주제 그룹 및 대기열 주제의 이름이 사용자 환경에 맞게 사용자 정의되었습니다.\
-   주제 그룹 만들기에 대한 자세한 내용은 [주제 그룹 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). 대기열 주제 만들기에 대한 자세한 내용은 [대기열 주제 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+1. (조건부) 프로젝트 생성자가 프로젝트에서 대기열 주제 또는 주제 그룹을 생성하면 새 문제 양식에 추가됩니다. 새 문제의 **주제 그룹** 또는 **대기열 주제**&#x200B;를 지정하십시오. 주제 그룹 및 대기열 주제의 이름이 사용자 환경에 맞게 사용자 정의되었습니다.\
+   주제 그룹 만들기에 대한 자세한 내용은 [주제 그룹 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)를 참조하십시오. 대기열 주제 만들기에 대한 자세한 내용은 [대기열 주제 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)를 참조하십시오.
 
    * 프로젝트에 설정된 대기열 주제가 하나뿐인 경우 자동으로 표시됩니다.
    * 주제 그룹에 대기열 주제 또는 주제 그룹이 없으면 주제 그룹 드롭다운에서 사용할 수 없습니다.
 
-1. 에 문제 이름 추가 **제목** 필드, 추가 **설명**.
+1. **제목** 필드에 문제 이름을 추가한 다음 **설명**&#x200B;을 추가하십시오.
 
-1. (조건부) 프로젝트 생성자가 **요청 유형** 새 문제 양식에 표시할 필드에서 다음 선택 사항 중에서 문제 유형을 선택합니다.
+1. (조건부) 프로젝트 제작자가 **요청 유형** 필드에 새 문제 양식을 표시할 수 있도록 허용한 경우 다음 선택 사항에서 문제의 유형을 선택합니다.
 
    * 버그 신고
    * 순서 변경
@@ -184,32 +184,32 @@ Issues can be assigned to multiple users, job roles or to a team. For more infor
    >[!TIP]
    >
    >요청 유형은 대기열 세부 정보 및 대기열 주제를 만들 때뿐만 아니라 새 문제 양식에 선택 항목으로 표시할 때에도 활성화되어야 합니다. 자세한 내용은 다음 문서를 참조하십시오.
-   >* [요청 대기열 만들기](../../requests/create-and-manage-request-queues/create-request-queue.md)
+   >* [요청 큐 만들기](../../requests/create-and-manage-request-queues/create-request-queue.md)
    >  * [대기열 주제 만들기](../../requests/create-and-manage-request-queues/create-queue-topics.md)
 
-1. 에서 사용할 수 있는 필드를 계속 지정합니다. **새 문제** 양식. 새 문제를 입력할 때 사용할 수 있는 필드에 대한 자세한 내용은 [문제 편집](../../../manage-work/issues/manage-issues/edit-issues.md).
+1. **새 문제** 양식에서 사용할 수 있는 필드를 계속 지정하십시오. 새 문제를 입력할 때 사용할 수 있는 필드에 대한 자세한 내용은 [문제 편집](../../../manage-work/issues/manage-issues/edit-issues.md)을 참조하세요.
 
    >[!IMPORTANT]
    >
-   >새 문제 양식에서 모든 문제 관련 필드를 사용할 수 있는 것은 아닙니다. 프로젝트 생성자는 프로젝트의 대기열 세부 정보 영역을 정의할 때 문제를 생성할 때 사용할 수 있는 필드를 활성화합니다. 자세한 내용은 [요청 대기열 만들기](../../requests/create-and-manage-request-queues/create-request-queue.md).
+   >새 문제 양식에서 모든 문제 관련 필드를 사용할 수 있는 것은 아닙니다. 프로젝트 생성자는 프로젝트의 대기열 세부 정보 영역을 정의할 때 문제를 생성할 때 사용할 수 있는 필드를 활성화합니다. 자세한 내용은 [요청 큐 만들기](../../requests/create-and-manage-request-queues/create-request-queue.md)를 참조하세요.
 
 
-1. (조건부) 대기열 주제가 사용자 정의 양식과 연관되어 있으면 해당 사용자 정의 양식이 **새 문제** 양식.\
+1. (조건부) 대기열 주제가 사용자 정의 양식과 연결된 경우 해당 사용자 정의 양식은 **새 문제** 양식에 표시됩니다.\
    또는\
-   프로젝트가 대기열 세부 정보 영역을 통해 문제 사용자 정의 양식과 연결된 경우 양식에 **새 문제** 양식, 기본 Workfront 필드 뒤
+   프로젝트가 대기열 세부 정보 영역을 통해 문제 사용자 정의 양식과 연결된 경우 기본 Workfront 필드 뒤에 **새 문제** 양식이 표시됩니다.
 
-   자세한 내용은 [요청 대기열 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   자세한 내용은 [요청 큐 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)를 참조하세요.
 
-1. 클릭 **제출**.
+1. **제출**&#x200B;을 클릭합니다.
 
-   여러 사용자, 작업 역할 또는 팀에 문제를 할당할 수 있습니다. 요청 할당 및 관리에 대한 자세한 내용은 [작업 및 팀 요청 관리](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
+   여러 사용자, 작업 역할 또는 팀에 문제를 할당할 수 있습니다. 요청 할당 및 관리에 대한 자세한 내용은 [작업 및 팀 요청 관리](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md)를 참조하십시오.
 
 
 ## 작업 또는 프로젝트에 대한 문제 인라인 만들기
 
 >[!IMPORTANT]
 >
->프로젝트 소유자는 **사용자가 문제를 인라인으로 추가하도록 허용** 프로젝트 문제 설정을 정의할 때 프로젝트 또는 작업에 인라인으로 문제를 추가할 수 있습니다. 프로젝트에 대한 문제 설정 구성에 대한 자세한 내용은 [프로젝트 편집](../../../manage-work/projects/manage-projects/edit-projects.md).
+>프로젝트 소유자는 프로젝트에 대한 문제 설정을 정의할 때 **사용자가 문제를 인라인으로 추가할 수 있도록 허용**&#x200B;을 활성화해야 프로젝트 또는 작업에 인라인으로 문제를 추가할 수 있습니다. 프로젝트에서 문제 설정을 구성하는 방법에 대한 자세한 내용은 [프로젝트 편집](../../../manage-work/projects/manage-projects/edit-projects.md)을 참조하십시오.
 >
 
 여러 문제를 빠르게 추가하려면 문제 목록에 작업 또는 프로젝트를 추가하여 인라인 문제를 만들 수 있습니다.
@@ -221,15 +221,15 @@ Issues can be assigned to multiple users, job roles or to a team. For more infor
 인라인으로 문제를 생성하려면 다음을 수행합니다.
 
 1. 문제를 만들려는 프로젝트로 이동합니다.
-1. (선택 사항) 작업에 대한 문제를 기록하려면 **작업** 섹션을 클릭한 다음 작업 이름을 클릭합니다.
-1. 다음을 클릭합니다. **문제** 왼쪽 패널의 섹션입니다.
-1. 클릭 **더 많은 문제 추가** 문제 목록 맨 아래에 있습니다.
+1. (선택 사항) 작업에 대한 문제를 기록하려면 **작업** 섹션으로 이동한 다음, 작업 이름을 클릭합니다.
+1. 왼쪽 패널에서 **문제** 섹션을 클릭합니다.
+1. 문제 목록의 맨 아래에 있는 **더 많은 문제 추가**&#x200B;를 클릭합니다.
 
    문제 섹션의 문제 목록에 새 줄이 만들어집니다.
 
    >[!TIP]
    >
-   >프로젝트 편집 상자에서 사용자 문제 추가 허용 인라인 설정이 선택 취소되면 이 옵션이 흐리게 표시됩니다. 자세한 내용은 [프로젝트 편집](../../../manage-work/projects/manage-projects/edit-projects.md).
+   >프로젝트 편집 상자에서 사용자 문제 추가 허용 인라인 설정이 선택 취소되면 이 옵션이 흐리게 표시됩니다. 자세한 내용은 [프로젝트 편집](../../../manage-work/projects/manage-projects/edit-projects.md)을 참조하세요.
 
    ![](assets/add-more-issues-button-highlighted-issue-list-nwe-350x272.png)
 
@@ -253,4 +253,4 @@ Issues can be assigned to multiple users, job roles or to a team. For more infor
 >
 >&quot;문제&quot; 및 &quot;요청&quot;이라는 용어는 Workfront에서 상호 교환 가능합니다.
 
-프로젝트를 요청 대기열로 설정하여 문제를 수신하는 방법에 대한 자세한 내용은 [요청 대기열 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md). 요청 제출에 대한 자세한 내용은 [Adobe Workfront 요청 만들기 및 제출](../../../manage-work/requests/create-requests/create-submit-requests.md).
+프로젝트를 요청 대기열로 설정하여 문제를 받는 방법에 대한 자세한 내용은 [요청 대기열 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)를 참조하십시오. 요청 제출에 대한 자세한 내용은 [Adobe Workfront 요청 만들기 및 제출](../../../manage-work/requests/create-requests/create-submit-requests.md)을 참조하십시오.

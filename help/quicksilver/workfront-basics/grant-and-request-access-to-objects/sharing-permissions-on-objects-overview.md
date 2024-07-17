@@ -9,7 +9,7 @@ exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '1165'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 액세스 권한이 있는 개체에 대한 권한을 공유하기 위해 Adobe Workfront 관리자일 필요는 없지만, 개체에 대한 권한은 Workfront 관리자가 설정한 액세스 수준 내에서 작동합니다.
 
-만든 개체 또는 사용자와 공유된 개체에 대한 권한을 공유하거나 제거할 수 있습니다. 개체를 만든 사람이 아닌 경우 개체에 대한 공유 권한 외에 액세스 수준에서 공유할 개체에 대한 공유 액세스 권한이 있어야 합니다. 액세스 수준에 대한 자세한 내용은 [새로운 액세스 수준 개요](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) 또는 [액세스 수준 개요](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+만든 개체 또는 사용자와 공유된 개체에 대한 권한을 공유하거나 제거할 수 있습니다. 개체를 만든 사람이 아닌 경우 개체에 대한 공유 권한 외에 액세스 수준에서 공유할 개체에 대한 공유 액세스 권한이 있어야 합니다. 액세스 수준에 대한 자세한 내용은 [새 액세스 수준 개요](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) 또는 [액세스 수준 개요](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)를 참조하십시오.
 
 >[!NOTE]
 >
@@ -34,37 +34,37 @@ ht-degree: 0%
 
 Workfront에서 다음 개체를 다른 사용자와 공유할 수 있습니다.
 
-* **프로젝트**: 자세한 내용은 [Adobe Workfront에서 프로젝트 공유](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+* **프로젝트**: 자세한 내용은 [Adobe Workfront에서 프로젝트 공유](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)를 참조하십시오.
 
-* **템플릿**: 자세한 내용은 [프로젝트 템플릿 공유](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+* **템플릿**: 자세한 내용은 [프로젝트 템플릿 공유](../../manage-work/projects/create-and-manage-templates/share-project-template.md)를 참조하십시오.
 
-* **Portfolio**: 자세한 내용은 [포트폴리오 공유](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
+* **Portfolio**: 자세한 내용은 [포트폴리오 공유](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md)를 참조하세요.
 
-* **프로그램**: 자세한 내용은 [프로그램 공유](../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md) .
+* **프로그램**: 자세한 내용은 [프로그램 공유](../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md) 를 참조하십시오.
 
-* **작업**: 자세한 내용은 [작업 공유](../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md).
+* **작업**: 자세한 내용은 [작업 공유](../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md)를 참조하세요.
 
-* **문제**: 자세한 내용은 [문제 공유](../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md).
+* **문제**: 자세한 내용은 [문제 공유](../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)를 참조하십시오.
 
-* **문서**: 자세한 내용은 [문서 공유](../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md).
+* **문서**: 자세한 내용은 [문서 공유](../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md)를 참조하세요.
 
-* **문서 폴더**: 자세한 내용은 [문서 폴더 공유](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
+* **문서 폴더**: 자세한 내용은 [문서 폴더 공유](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md)를 참조하세요.
 
-* **증명**: 자세한 내용은 [Workfront 내에서 증명 공유](/help/quicksilver/review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
+* **증명**: 자세한 내용은 [Workfront 내에서 증명 공유](/help/quicksilver/review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)를 참조하십시오.
 
-* **보고서, 대시보드 및 캘린더**: 자세한 내용은 [보고서, 대시보드 및 캘린더 공유](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md). 또한 다음 문서를 참조하십시오.
+* **보고서, 대시보드 및 캘린더**: 자세한 내용은 [보고서, 대시보드 및 캘린더 공유](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)를 참조하십시오. 또한 다음 문서를 참조하십시오.
 
    * [Adobe Workfront에서 보고서 공유](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)
    * [대시보드 공유](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
    * [캘린더 보고서 공유](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 
-* **필터, 보기 및 그룹화**: 자세한 내용은 [필터, 보기 또는 그룹화 공유](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+* **필터, 보기 및 그룹화**: 자세한 내용은 [필터, 보기 또는 그룹화 공유](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)를 참조하십시오.
 
-* **플랜**: 자세한 내용은 [시나리오 플래너에서 계획 공유](../../scenario-planner/share-a-plan.md).
+* **계획**: 자세한 내용은 [시나리오 플래너에서 계획 공유](../../scenario-planner/share-a-plan.md)를 참조하십시오.
 
   이를 위해서는 추가 라이센스가 필요합니다.
 
-* **목표**: 자세한 내용은 [Workfront 목표에서 목표 공유](../../workfront-goals/workfront-goals-settings/share-a-goal.md).
+* **목표**: 자세한 내용은 [Workfront 목표에서 목표 공유](../../workfront-goals/workfront-goals-settings/share-a-goal.md)를 참조하십시오.
 
   이를 위해서는 추가 라이센스가 필요합니다.
 
@@ -72,7 +72,7 @@ Workfront에서 다음 개체를 다른 사용자와 공유할 수 있습니다.
 
 * 개체에 대해 가지고 있는 동일한 수준 또는 더 낮은 수준의 권한만 공유할 수 있습니다.
 
-  예를 들어, 객체에 대한 Contribute 권한이 있는 경우 다른 사용자에게 해당 객체에 대한 관리 권한을 부여할 수 없습니다.
+  예를 들어 개체에 대한 Contribute 권한이 있는 경우 다른 사용자에게 해당 개체에 대한 관리 권한을 부여할 수 없습니다.
 
 * 사용자의 액세스 수준보다 높은 권한 수준의 오브젝트는 공유할 수 없습니다.
 
@@ -87,7 +87,7 @@ Workfront에서 다음 개체를 다른 사용자와 공유할 수 있습니다.
   >
   >자세한 내용은 다음을 참조하십시오.
   >
-  >* [시나리오 플래너에서 계획 공유](../../scenario-planner/share-a-plan.md)
+  >* [시나리오 플래너에서 플랜 공유](../../scenario-planner/share-a-plan.md)
   >* [Workfront 목표에서 목표 공유](../../workfront-goals/workfront-goals-settings/share-a-goal.md)
 
 ## 공유 제한 사항
@@ -129,13 +129,13 @@ Workfront에서 다음 개체를 다른 사용자와 공유할 수 있습니다.
    <td role="rowheader"><strong>관리</strong></td> 
    <td> <p>객체에 대해 다음 작업을 수행할 수 있습니다.</p> 
     <ul> 
-     <li>보기 및 기여 권한에 포함된 모든 작업</li> 
+     <li>보기 및 Contribute 권한에 포함된 모든 작업</li> 
      <li>삭제</li> 
      <li>재무 정보 관리</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>외부 사용자에게 공개하기</strong></td> 
+   <td role="rowheader"><strong>외부 사용자에게 공개로 설정</strong></td> 
    <td> <p>Workfront 계정이 없는 사용자는 연결된 링크를 클릭하여 개체를 볼 수 있습니다. 일부 객체에는 사용할 수 없습니다.</p> </td> 
   </tr> 
   <tr> 
@@ -151,15 +151,15 @@ Workfront에서 다음 개체를 다른 사용자와 공유할 수 있습니다.
 
 Workfront의 권한은 계층적으로 상속됩니다. 즉, 상위 객체에 대한 사용자에게 권한을 부여하는 경우 해당 사용자에게는 기본적으로 연관된 하위 객체에 대한 동일한 권한이 부여됩니다.
 
-예를 들어 사용자에게 프로젝트에 대한 Contribute 권한을 부여하는 경우 해당 프로젝트와 관련된 모든 작업 및 문제(하위 개체)에 대한 Contribute 권한이 사용자에게 있습니다.
+예를 들어 사용자에게 프로젝트에 대한 Contribute 권한을 부여하는 경우 해당 프로젝트와 연관된 모든 작업 및 문제(하위 개체)에 대해 Contribute 권한이 사용자에게 부여됩니다.
 
-위의 예를 계속 진행하여 하위 개체에 대한 권한을 제한할 수 없습니다. 사용자가 프로젝트와 연결된 하위 개체에 대한 기여 권한을 보유하지 않도록 하려면 개체에서 상속된 권한을 수동으로 제거한 다음 고급 설정을 포함하여 개별 사용자에 대한 권한을 조정해야 합니다. 
+위의 예를 계속 진행하여 하위 개체에 대한 권한을 제한할 수 없습니다. 사용자가 프로젝트와 연결된 하위 개체에 대해 Contribute 권한을 보유하지 않도록 하려면 개체에서 상속된 권한을 수동으로 제거한 다음 고급 설정을 포함하여 개별 사용자에 대한 권한을 조정해야 합니다. 
 
-Workfront에서 개체의 계층 구조 및 상호 종속성에 대한 자세한 내용은 섹션을 참조하십시오 [객체의 상호 의존성 및 계층](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#interdependency-and-hierarchy-of-objects) 이 문서에서 [Adobe Workfront 개체 개요](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Workfront에 있는 개체의 계층 구조 및 상호 종속성에 대한 자세한 내용은 문서 [Adobe Workfront 개체 개요](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)의 [개체의 상호 종속성 및 계층 구조](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#interdependency-and-hierarchy-of-objects) 섹션을 참조하십시오.
 
 >[!NOTE]
 >
->Workfront 관리자는 액세스 수준의 문서에 대해 상속된 권한을 비활성화할 수 있습니다. 액세스 수준의 문서에 대해 상속된 권한을 비활성화하는 방법에 대한 자세한 내용은 [사용자 정의 액세스 수준 만들기 또는 수정](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>Workfront 관리자는 액세스 수준의 문서에 대해 상속된 권한을 비활성화할 수 있습니다. 액세스 수준의 문서에 대해 상속된 사용 권한을 사용하지 않도록 설정하는 방법에 대한 자세한 내용은 [사용자 지정 액세스 수준 만들기 또는 수정](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)을 참조하십시오.
 
 ### 조직 멤버십을 통해 획득한 권한  {#permissions-acquired-through-organizational-memberships}
 
@@ -221,11 +221,11 @@ You cannot remove individual entities from the Inherited Permissions list. You c
 
 ## 개체 공유
 
-개체 공유 방법에 대한 자세한 내용은 [개체 공유](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+개체 공유 방법에 대한 자세한 내용은 [개체 공유](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)를 참조하십시오.
 
 ## 오브젝트에서 권한 제거
 
-개체에서 권한을 제거하는 방법에 대한 자세한 내용은 [오브젝트에서 권한 제거](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+개체에서 권한을 제거하는 방법에 대한 자세한 내용은 [개체에서 권한 제거](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)를 참조하십시오.
 
 ## 개체에 대한 권한 요청
 
@@ -233,4 +233,4 @@ You cannot remove individual entities from the Inherited Permissions list. You c
 
 객체에 대한 공유 권한이 있는 모든 사람에게 객체에 대한 액세스를 요청할 수 있습니다. 
 
-개체에 대한 권한 요청에 대한 자세한 내용은 [오브젝트에 대한 액세스 요청](../../workfront-basics/grant-and-request-access-to-objects/request-access.md).
+개체에 대한 사용 권한 요청에 대한 자세한 내용은 [개체에 대한 액세스 권한 요청](../../workfront-basics/grant-and-request-access-to-objects/request-access.md)을 참조하세요.

@@ -23,7 +23,7 @@ Adobe Workfront Planning에서 작업할 때 공동 작업을 보장하기 위�
 
 >[!NOTE]
 >
->작업 영역에 권한을 부여해도 다른 사용자에게 레코드 유형 페이지의 보기에 대한 권한이 부여되지 않습니다. 다른 사용자와 공유하려면 레코드 유형 페이지에서 개별 보기에 대한 권한을 부여해야 합니다. 자세한 내용은 [보기 공유](/help/quicksilver/planning/access/share-views.md).
+>작업 영역에 권한을 부여해도 다른 사용자에게 레코드 유형 페이지의 보기에 대한 권한이 부여되지 않습니다. 다른 사용자와 공유하려면 레코드 유형 페이지에서 개별 보기에 대한 권한을 부여해야 합니다. 자세한 내용은 [보기 공유](/help/quicksilver/planning/access/share-views.md)를 참조하십시오.
 
 
 ## 액세스 요구 사항
@@ -77,13 +77,13 @@ Adobe Workfront Planning에서 작업할 때 공동 작업을 보장하기 위�
 
 <tr>
    <td role="rowheader"><p>레이아웃 템플릿</p></td>
-   <td> <p>Workfront 관리자를 포함한 모든 사용자에게 메인 메뉴의 계획 영역을 포함하는 레이아웃 템플릿을 할당해야 합니다. </p> <p>자세한 내용은 <a href="/help/quicksilver/planning/access/access-overview.md">액세스 개요</a>. </p> 
+   <td> <p>Workfront 관리자를 포함한 모든 사용자에게 메인 메뉴의 계획 영역을 포함하는 레이아웃 템플릿을 할당해야 합니다. </p> <p>자세한 내용은 <a href="/help/quicksilver/planning/access/access-overview.md">액세스 개요</a>를 참조하십시오. </p> 
 </td>
   </tr>
  </tbody>
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## 작업 공간에 대한 권한 공유
 
@@ -96,11 +96,11 @@ Adobe Workfront Planning에서 작업할 때 공동 작업을 보장하기 위�
 
 {{step1-to-planning}}
 
-1. 공유할 작업 영역을 연 다음 **공유** 화면의 오른쪽 상단에 있습니다.
+1. 공유할 작업 영역을 연 다음 화면 오른쪽 상단의 **공유**&#x200B;를 클릭합니다.
 
    ![](assets/share-button-on-workspace-top-right.png)
 
-1. 다음에서 **작업 공간 액세스 권한 부여 대상:** 필드에서 사용자 또는 그룹 이름을 입력한 다음 목록에 표시될 때 클릭합니다.
+1. **작업 공간 액세스 권한 부여** 필드에서 사용자 또는 그룹의 이름을 입력한 다음 목록에 표시될 때 클릭합니다.
 
    ![](assets/sharing-ui-with-groups.png)
 
@@ -109,8 +109,8 @@ Adobe Workfront Planning에서 작업할 때 공동 작업을 보장하기 위�
    * 참여
    * 관리
 
-     권한 수준 및 사용자가 각 수준에 대해 수행할 수 있는 작업에 대한 자세한 내용은 [Adobe Workfront Planning의 공유 권한 개요](/help/quicksilver/planning/access/sharing-permissions-overview.md).
-1. 클릭 **링크 복사** 를 클릭하여 작업 영역에 대한 링크를 클립보드에 복사합니다.
+     권한 수준 및 사용자가 각 수준에 대해 수행할 수 있는 작업에 대한 자세한 내용은 [Adobe Workfront Planning의 권한 공유 개요](/help/quicksilver/planning/access/sharing-permissions-overview.md)를 참조하십시오.
+1. 작업 영역에 대한 링크를 클립보드에 복사하려면 **링크 복사**&#x200B;를 클릭하십시오.
 1. 복사한 링크를 다른 사용자와 공유합니다. 링크를 받은 사용자가 활성 사용자여야 하며 작업 영역에 액세스할 수 있도록 Workfront에 로그인해야 합니다.
 1. **저장**&#x200B;을 클릭합니다.
 
@@ -120,8 +120,8 @@ Adobe Workfront Planning에서 작업할 때 공동 작업을 보장하기 위�
 
 {{step1-to-planning}}
 
-1. 권한을 제거할 작업 영역을 연 다음 **공유** 화면의 오른쪽 상단에 있습니다.
-1. 사용자 또는 그룹 이름 오른쪽에 있는 드롭다운 메뉴를 클릭한 다음 을 클릭합니다 **제거**.
+1. 권한을 제거할 작업 영역을 연 다음 화면 오른쪽 상단의 **공유**&#x200B;를 클릭합니다.
+1. 사용자 또는 그룹 이름 오른쪽에 있는 드롭다운 메뉴를 클릭한 다음 **제거**&#x200B;를 클릭합니다.
 1. **저장**&#x200B;을 클릭합니다.
 
    제거된 그룹에 속한 사용자나 사용자는 더 이상 작업공간이나 해당 객체에 액세스할 수 없습니다.

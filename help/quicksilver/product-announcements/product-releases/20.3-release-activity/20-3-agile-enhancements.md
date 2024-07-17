@@ -18,7 +18,7 @@ ht-degree: 0%
 
 이 페이지에서는 프로덕션 환경에 대한 20.3 릴리스의 모든 Agile 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2020년 8월 10일 주에 프로덕션 환경에서 사용할 수 있습니다.
 
-20.3 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [20.3 릴리스 개요](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
+20.3 릴리스에서 사용할 수 있는 모든 변경 사항 목록은 [20.3 릴리스 개요](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md)를 참조하십시오.
 
 ## 카드가 칸반 보드에 남아 있는 기간을 선택하십시오.
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 이전에는 카드가 14일 후 Kanban 보드에서 표시되었습니다.
 
-자세한 내용은 [칸반 구성](../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
+자세한 내용은 [Kanban 구성](../../../agile/get-started-with-agile-in-workfront/configure-kanban.md)을 참조하십시오.
 
 ## 애자일 보드는 한 번에 50개의 작업 항목을 로드합니다
 

@@ -51,7 +51,7 @@ Adobe Workfront 관리자는 미리 알림을 지원하도록 이메일 템플�
  </tbody> 
 </table>
 
-*액세스 요구 사항에 대한 자세한 내용은 다음을 참조하십시오. [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*액세스 요구 사항에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -59,13 +59,13 @@ Adobe Workfront 관리자는 미리 알림을 지원하도록 이메일 템플�
 
 {{step-1-to-setup}}
 
-1. 왼쪽 패널에서 **이메일** > **알림**> **이메일 템플릿**.
+1. 왼쪽 패널에서 **전자 메일** > **알림**> **전자 메일 서식 파일**&#x200B;을 클릭합니다.
 
    ![](assets/email-templates-tab-under-setup-email-notifications-area.png)
 
-1. 클릭 **새 이메일 템플릿**.
+1. **새 전자 메일 서식 파일**&#x200B;을 클릭합니다.
 
-1. 다음에서 **새 이메일 템플릿** 상자에서 다음 정보를 지정합니다.
+1. **새 전자 메일 서식 파일** 상자에서 다음 정보를 지정하십시오.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -97,7 +97,7 @@ Adobe Workfront 관리자는 미리 알림을 지원하도록 이메일 템플�
      </tr> 
      <tr> 
       <td role="rowheader">본문 </td> 
-      <td> <p>이메일 메시지 내용에 대한 텍스트를 추가합니다.</p> <p>섹션에 설명된 대로 전자 메일 콘텐츠에 대해 HTML 형식을 사용할 수 있습니다 <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">이메일 템플릿에 HTML 서식 추가</a> 이 문서에서.</p> </td> 
+      <td> <p>이메일 메시지 내용에 대한 텍스트를 추가합니다.</p> <p>이 문서의 <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">전자 메일 템플릿에 HTML 형식 추가</a> 섹션에 설명된 대로 전자 메일 콘텐츠에 HTML 형식을 사용할 수 있습니다.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -107,17 +107,17 @@ Adobe Workfront 관리자는 미리 알림을 지원하도록 이메일 템플�
 ## 이메일 템플릿에 HTML 서식 추가 {#add-html-formatting-to-an-email-template}
 
 이메일 템플릿에 HTML 태그를 추가하여 사용자 지정 알림을 생성할 수 있습니다.\
-에 설명된 대로 이메일 템플릿 만들기 시작 [새 이메일 템플릿 만들기](#create-a-new-email-template).
+[새 전자 메일 템플릿 만들기](#create-a-new-email-template)에 설명된 대로 전자 메일 템플릿 만들기를 시작합니다.
 
 HTML 서식을 지정하면 다음 섹션에 표시된 대로 이메일 템플릿을 보강할 수 있습니다.
 
-* [Workfront 오브젝트에 대한 링크](#link-to-workfront-objects)
-* [HTML을 사용하여 사용자 정의 필드에 연결](#link-to-custom-fields-with-html)
+* [Workfront 개체에 연결](#link-to-workfront-objects)
+* [HTML이 있는 사용자 지정 필드에 연결](#link-to-custom-fields-with-html)
 * [HTML 이메일 예](#html-email-examples)
 
 ### Workfront 오브젝트에 대한 링크 {#link-to-workfront-objects}
 
-다음을 사용하여 Workfront 필드에 대한 링크를 포함할 수 있습니다. `$$` 와일드카드: 이메일 생성기가 특정 객체와 연관된 데이터베이스에서 값을 찾도록 지시합니다.
+`$$` 와일드카드를 사용하여 전자 메일 생성기가 특정 개체와 연결된 데이터베이스에서 값을 검색하도록 지시하여 Workfront 필드에 대한 링크를 포함할 수 있습니다.
 
 예를 들어 작업을 시작하려는 작업의 피할당자에게 경고를 보내는 알림용 이메일 본문은 다음 구조를 따를 수 있습니다.
 
@@ -143,15 +143,15 @@ HTML 서식을 지정하면 다음 섹션에 표시된 대로 이메일 템플�
 
 객체에 대한 &quot;와일드카드&quot; 값을 가져오려면 다음 중 하나를 수행합니다.
 
-* API 탐색기를 참조하고 개체의 필드 탭에서 개체 이름을 선택합니다. API 탐색기에 대한 자세한 내용은 [API 탐색기](/help/quicksilver/wf-api/general/api-explorer.md).
+* API 탐색기를 참조하고 개체의 필드 탭에서 개체 이름을 선택합니다. API 탐색기에 대한 자세한 내용은 [API 탐색기](/help/quicksilver/wf-api/general/api-explorer.md)를 참조하십시오.
 
-* 사용 `valuefield` 보고서의 텍스트 모드 보기에서 찾을 수 있는 값입니다. 텍스트 모드 값에 대한 자세한 내용은 [텍스트 모드 개요](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+* 보고서의 텍스트 모드 보기에서 찾은 `valuefield` 값을 사용합니다. 텍스트 모드 값에 대한 자세한 내용은 [텍스트 모드 개요](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)를 참조하십시오.
 
-다음 `heading` 값은 이메일 본문에 나타낼 오브젝트의 이름일 수 있습니다.
+`heading` 값은 전자 메일 본문에 표시하려는 개체의 이름일 수 있습니다.
 
 ### HTML을 사용하여 사용자 정의 필드에 연결 {#link-to-custom-fields-with-html}
 
-다음을 사용하여 사용자 링크 및 사용자 정의 필드를 포함할 수 있습니다. `$$` 와일드카드: 이메일 생성기가 객체와 연관된 데이터베이스에서 값을 찾도록 지시합니다. 데이터베이스 속성 참조의 양쪽에 있어야 합니다.
+`$$` 와일드카드를 사용하여 전자 메일 생성기가 개체와 연결된 데이터베이스에서 값을 검색하도록 지시하여 사용자 및 사용자 지정 필드에 대한 링크를 포함할 수 있습니다. 데이터베이스 속성 참조의 양쪽에 있어야 합니다.
 
 예를 들어, 다음 텍스트를 HTML으로 추가하면 할당된 사용자의 이름이 작업과 연결된 미리 알림에 추가됩니다.
 
@@ -163,7 +163,7 @@ HTML 서식을 지정하면 다음 섹션에 표시된 대로 이메일 템플�
 
 예를 들어 게재 날짜라는 사용자 정의 필드에 대한 참조를 포함하는 이메일 템플릿이며 게재 날짜 필드가 작업에 속한다고 가정합니다.
 
-바꾸기 `<your domain>` 대괄호 없이 회사의 Workfront 도메인을 사용하는 경우:
+`<your domain>`을(를) 대괄호 없이 회사의 Workfront 도메인으로 바꿉니다.
 
 ```html
 <html>
@@ -199,14 +199,14 @@ HTML 서식을 지정하면 다음 섹션에 표시된 대로 이메일 템플�
 
 ### HTML 이메일 예 {#html-email-examples}
 
-* [지연 프로젝트 미리 알림(예)](#late-project-reminder-notification-example)
+* [지연 프로젝트 미리 알림 알림(예)](#late-project-reminder-notification-example)
 * [미리 알림을 시작하려고 하는 작업 또는 문제(예)](#task-or-issue-about-to-start-reminder-example)
 
 #### 지연 프로젝트 미리 알림(예) {#late-project-reminder-notification-example}
 
 지연된 프로젝트 미리 알림에 대한 이메일 템플릿을 편집하려면 제목 및 콘텐츠 필드에 대한 이 정보를 고려하십시오.
 
-바꾸기 `<your domain>` 를 중괄호 없이 회사의 Workfront 도메인으로 바꿉니다.
+`<your domain>`을(를) 대괄호 없이 회사의 Workfront 도메인으로 바꾸십시오.
 
 **제목:**
 
@@ -242,9 +242,9 @@ HTML 서식을 지정하면 다음 섹션에 표시된 대로 이메일 템플�
 
 다음 코드는 작업 또는 문제의 계획된 시작 일자 전 며칠 동안 전송되는 작업 및 문제 미리 알림에 사용할 이메일 템플릿에 포함할 수 있습니다.
 
-바꾸기 `<your domain>` 를 중괄호 없이 회사의 Workfront 도메인으로 바꿉니다.
+`<your domain>`을(를) 대괄호 없이 회사의 Workfront 도메인으로 바꾸십시오.
 
-문제 이메일에 사용하려면 `/task/view.` 작업 항목 링크에서 값 `/issue/view`.
+문제 이메일에 사용하려면 작업 항목에 대한 링크의 `/task/view.` 값을 `/issue/view`(으)로 변경하십시오.
 
 **제목:**
 
@@ -289,4 +289,4 @@ HTML 서식을 지정하면 다음 섹션에 표시된 대로 이메일 템플�
 
 ![email_template_delivered.png](assets/email-template-delivered.png)
 
-이메일 템플릿이 생성되면에 설명된 대로 사용자는 이메일 템플릿을 미리 알림 과 연결할 수 있습니다 [미리 알림 설정](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
+전자 메일 템플릿을 만든 후 사용자는 [미리 알림 설정](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md)에 설명된 대로 전자 메일 템플릿을 미리 알림과 연결할 수 있습니다.

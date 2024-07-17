@@ -17,13 +17,13 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Power BI] 모듈
+# [!DNL Power BI]개 모듈
 
-[!DNL Power BI] 는 관련자들에게 데이터를 시각화하고 제시할 수 있는 애플리케이션입니다. 다양한 소스에서 데이터를 가져올 수 있습니다.
+[!DNL Power BI]은(는) 관련자들에게 데이터를 시각화하고 제공할 수 있는 애플리케이션입니다. 다양한 소스에서 데이터를 가져올 수 있습니다.
 
 >[!NOTE]
 >
->[!DNL Workfront Fusion] 은(는) 데이터 소스가 아닙니다. While [!DNL Workfront Fusion] 는 데이터를 저장하지 않으며, 데이터 소스를 만들고 사용할 수 있습니다.
+>[!DNL Workfront Fusion]은(는) 데이터 원본이 아닙니다. [!DNL Workfront Fusion]은(는) 데이터 원본을 만들고 사용할 수 있지만 데이터를 저장하지 않습니다.
 
 
 ## 액세스 요구 사항
@@ -45,37 +45,37 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 라이센스**</td> 
    <td>
-   <p>현재 라이선스 요구 사항: 아니요 [!DNL Workfront Fusion] 라이센스 요구 사항.</p>
+   <p>현재 라이선스 요구 사항: [!DNL Workfront Fusion] 라이선스 요구 사항이 없습니다.</p>
    <p>또는</p>
-   <p>기존 라이선스 요구 사항: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
+   <p>레거시 라이선스 요구 사항: 작업 자동화 및 통합을 위한 [!UICONTROL [!DNL Workfront Fusion]] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">제품</td> 
    <td>
-   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime]이 있는 경우 [!DNL Adobe Workfront] 플랜, 조직은 다음을 구매해야 합니다. [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오. [!DNL Workfront Fusion] [!UICONTROL Ultimate]에 포함되어 있습니다. [!DNL Workfront] 계획.</p>
+   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime] [!DNL Adobe Workfront] 플랜이 있는 경우 조직에서 이 문서에 설명된 기능을 사용하려면 [!DNL Adobe Workfront Fusion]과(와) [!DNL Adobe Workfront]을(를) 구매해야 합니다. [!DNL Workfront Fusion]이(가) [!UICONTROL Ultimate] [!DNL Workfront] 계획에 포함되어 있습니다.</p>
    <p>또는</p>
-   <p>레거시 제품 요구 사항: 조직에서 구매해야 함 [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오.</p>
+   <p>레거시 제품 요구 사항: 이 문서에 설명된 기능을 사용하려면 조직에서 [!DNL Adobe Workfront Fusion]과(와) [!DNL Adobe Workfront]을(를) 구매해야 합니다.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
+&#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
 
-&#42;&#42;다음에 대한 정보: [!DNL Adobe Workfront Fusion] 라이센스, 참조 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;라이선스 [!DNL Adobe Workfront Fusion]에 대한 자세한 내용은 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md)를 참조하세요.
 
-## [!DNL Power BI] 모듈 및 해당 필드
+## [!DNL Power BI]개 모듈 및 해당 필드
 
-를 구성할 때 [!DNL Power BI], [!DNL Workfront Fusion] 아래 나열된 필드를 표시합니다. 이러한 필드와 함께 앱이나 서비스의 액세스 수준과 같은 요소에 따라 추가 필드가 표시될 수 있습니다. 모듈의 굵은 제목은 필수 필드를 나타냅니다.
+[!DNL Power BI]을(를) 구성할 때 [!DNL Workfront Fusion]에 아래 나열된 필드가 표시됩니다. 이러한 필드와 함께 앱이나 서비스의 액세스 수준과 같은 요소에 따라 추가 필드가 표시될 수 있습니다. 모듈의 굵은 제목은 필수 필드를 나타냅니다.
 
-필드나 함수 위에 맵 단추가 표시되면 이 단추를 사용하여 해당 필드에 대한 변수와 함수를 설정할 수 있습니다. 자세한 내용은 [Adobe Workfront Fusion의 한 모듈에서 다른 모듈로 정보 매핑](../../workfront-fusion/mapping/map-information-between-modules.md).
+필드나 함수 위에 맵 단추가 표시되면 이 단추를 사용하여 해당 필드에 대한 변수와 함수를 설정할 수 있습니다. 자세한 내용은 [Adobe Workfront Fusion에서 한 모듈에서 다른 모듈로 정보 매핑](../../workfront-fusion/mapping/map-information-between-modules.md)을 참조하십시오.
 
 ![](assets/map-toggle-350x74.png)
 
 ### 대시보드
 
-#### [!UICONTROL 목록 대시보드]
+#### [!UICONTROL 대시보드 나열]
 
 이 검색 모듈은 대시보드 목록을 검색합니다.
 
@@ -85,7 +85,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>연결에 대한 자세한 내용 [!DNL Power BI] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe에 대한 연결 만들기 [!DNL Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Power BI] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 그룹 ID]  </td>
@@ -102,7 +102,7 @@ ht-degree: 0%
   </tbody>
 </table>
 
-#### [!UICONTROL 목록 대시보드 타일]
+#### [!UICONTROL 대시보드 타일 나열]
 
 이 검색 모듈은 대시보드 타일 목록을 검색합니다.
 
@@ -112,7 +112,7 @@ ht-degree: 0%
 <tbody>
   <tr>
     <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>연결에 대한 자세한 내용 [!DNL Power BI] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe에 대한 연결 만들기 [!DNL Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Power BI] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL 대시보드 ID 입력]</td>
@@ -149,7 +149,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>연결에 대한 자세한 내용 [!DNL Power BI] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe에 대한 연결 만들기 [!DNL Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Power BI] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 대시보드 ID 입력]</td>
@@ -180,7 +180,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>연결에 대한 자세한 내용 [!DNL Power BI] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe에 대한 연결 만들기 [!DNL Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Power BI] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 대시보드 ID 입력]</td>
@@ -196,7 +196,7 @@ ht-degree: 0%
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 타일 ID]</td>
-      <td>의 ID 입력 또는 매핑 [!DNL Power BI] 세부 정보를 검색할 타일입니다.</td>
+      <td>세부 정보를 검색할 [!DNL Power BI] 타일의 ID를 입력하거나 매핑합니다.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 그룹 ID]  </td>
@@ -215,7 +215,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>연결에 대한 자세한 내용 [!DNL Power BI] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe에 대한 연결 만들기 [!DNL Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Power BI] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 이름]</td>
@@ -230,7 +230,7 @@ ht-degree: 0%
 
 ### 보고서
 
-#### [!UICONTROL 목록 보고서]
+#### [!UICONTROL 보고서 나열]
 
 이 검색 모듈은 보고서 목록을 검색합니다.
 
@@ -240,7 +240,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>연결에 대한 자세한 내용 [!DNL Power BI] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe에 대한 연결 만들기 [!DNL Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Power BI] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 그룹 ID]  </td>
@@ -267,7 +267,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>연결에 대한 자세한 내용 [!DNL Power BI] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe에 대한 연결 만들기 [!DNL Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Power BI] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 보고서 ID 입력]</td>
@@ -298,7 +298,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>연결에 대한 자세한 내용 [!DNL Power BI] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe에 대한 연결 만들기 [!DNL Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Power BI] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 보고서 ID 입력]</td>
@@ -333,7 +333,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>연결에 대한 자세한 내용 [!DNL Power BI] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe에 대한 연결 만들기 [!DNL Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Power BI] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 보고서 ID 입력]</td>
@@ -366,7 +366,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>연결에 대한 자세한 내용 [!DNL Power BI] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe에 대한 연결 만들기 [!DNL Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Power BI] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 그룹 ID]  </td>
@@ -391,7 +391,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>연결에 대한 자세한 내용 [!DNL Power BI] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe에 대한 연결 만들기 [!DNL Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Power BI] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 보고서 ID 입력]</td>
@@ -412,7 +412,7 @@ ht-degree: 0%
   </tbody>
 </table>
 
-#### [!UICONTROL 데이터 세트 만들기]
+#### [!UICONTROL 데이터 집합 만들기]
 
 이 작업 모듈은 새 데이터 세트를 만듭니다.
 
@@ -422,7 +422,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>연결에 대한 자세한 내용 [!DNL Power BI] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe에 대한 연결 만들기 [!DNL Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Power BI] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 이름]</td>
@@ -438,10 +438,10 @@ ht-degree: 0%
         <p>데이터 세트에 대한 기본 모드 선택 또는 매핑:</p>
         <ul>
           <li>
-            <p><b>[!UICONTROL As Azure]</b>: 의 라이브 연결이 있는 데이터 세트 [!DNL Azure Analysis Service]</p>
+            <p><b>[!UICONTROL As Azure]</b>: 다음에 대한 실시간 연결이 있는 데이터 집합 [!DNL Azure Analysis Service]</p>
           </li>
           <li>
-            <p><b>[!UICONTROL As On Prem]</b>: 의 라이브 연결이 있는 데이터 세트 [!DNL On-premise Analysis] 서비스</p>
+            <p><b>[!UICONTROL As On Prem]</b>: [!DNL On-premise Analysis] 서비스에 대한 실시간 연결이 있는 데이터 집합입니다.</p>
           </li>
           <li>
             <p><b>[!DNL Push]</b>: 로 데이터를 푸시하기 위해 프로그래밍 방식으로 액세스할 수 있는 데이터 세트 [!DNL Power BI]</p>
@@ -457,11 +457,11 @@ ht-degree: 0%
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 테이블]</td>
-      <td>데이터 세트에 테이블을 추가합니다. 필드의 경우 다음을 참조하십시오. <a href="#Table" class="MCXref_0">테이블 필드</a></td>
+      <td>데이터 세트에 테이블을 추가합니다. 필드의 경우 <a href="#Table" class="MCXref_0">테이블 필드</a>를 참조하십시오.</td>
     </tr>
     <tr>
       <td role="rowheader">[!DNL Data sources]</td>
-      <td>데이터 소스를 추가합니다. 필드의 경우 다음을 참조하십시오. <a href="#Data" class="MCXref_0">데이터 소스 필드</a>.</td>
+      <td>데이터 소스를 추가합니다. 필드의 경우 <a href="#Data" class="MCXref_0">데이터 원본 필드</a>를 참조하세요.</td>
     </tr>
     <tr>
       <td role="rowheader">[!DNL Default Retention Policy]  </td>
@@ -503,7 +503,7 @@ ht-degree: 0%
             <p>열 이름을 입력(매핑)합니다.</p>
           </li>
           <li>
-            <p><b>[!UICONTROL 데이터 유형]</b>
+            <p><b>[!UICONTROL 데이터 형식]</b>
             </p>
             <p>데이터 유형 선택 또는 매핑:</p>
             <ul>
@@ -583,7 +583,7 @@ ht-degree: 0%
   </tbody>
 </table>
 
-#### [!UICONTROL 데이터 세트 테이블에서 행 추가 또는 삭제]
+#### [!UICONTROL 데이터 집합 테이블에서 행 추가 또는 삭제]
 
 이 작업 모듈은 지정된 푸시 데이터 세트 테이블의 행을 추가하거나 삭제합니다.
 
@@ -593,7 +593,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>연결에 대한 자세한 내용 [!DNL Power BI] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe에 대한 연결 만들기 [!DNL Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Power BI] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 테이블 입력]</td>
@@ -638,7 +638,7 @@ ht-degree: 0%
             <p>키 이름을 입력하거나 매핑합니다.</p>
           </li>
           <li>
-            <p><b>[!UICONTROL 필드 유형]</b>
+            <p><b>[!UICONTROL 필드 형식]</b>
             </p>
             <p>필드 유형을 선택하거나 매핑합니다.</p>
             <ul>
@@ -666,7 +666,7 @@ ht-degree: 0%
   </tbody>
 </table>
 
-#### [!UICONTROL 데이터 세트 새로 고침]
+#### [!UICONTROL 데이터 집합 새로 고침]
 
 이 작업 모듈은 지정된 데이터 세트를 새로 고칩니다.
 
@@ -676,7 +676,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>연결에 대한 자세한 내용 [!DNL Power BI] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe에 대한 연결 만들기 [!DNL Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Power BI] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 데이터 세트 입력]</td>
@@ -716,7 +716,7 @@ ht-degree: 0%
   </tbody>
 </table>
 
-#### [!UICONTROL 데이터 세트 삭제]
+#### [!UICONTROL 데이터 집합 삭제]
 
 이 작업 모듈은 데이터 세트를 삭제합니다.
 
@@ -726,7 +726,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>연결에 대한 자세한 내용 [!DNL Power BI] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe에 대한 연결 만들기 [!DNL Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Power BI] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 보고서 ID 입력]</td>
@@ -759,7 +759,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>연결에 대한 자세한 내용 [!DNL Power BI] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe에 대한 연결 만들기 [!DNL Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Power BI] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 제한]  </td>
@@ -770,7 +770,7 @@ ht-degree: 0%
   </tbody>
 </table>
 
-#### [!UICONTROL 목록 앱]
+#### [!UICONTROL 앱 나열]
 
 이 검색 모듈은 설치된 모든 앱 목록을 검색합니다.
 
@@ -780,7 +780,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>연결에 대한 자세한 내용 [!DNL Power BI] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe에 대한 연결 만들기 [!DNL Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Power BI] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 제한]  </td>
@@ -801,7 +801,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>연결에 대한 자세한 내용 [!DNL Power BI] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe에 대한 연결 만들기 [!DNL Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Power BI] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 앱 ID]</td>
@@ -826,7 +826,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>연결에 대한 자세한 내용 [!DNL Power BI] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe에 대한 연결 만들기 [!DNL Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Power BI] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 앱 ID]</td>
@@ -851,7 +851,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>연결에 대한 자세한 내용 [!DNL Power BI] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe에 대한 연결 만들기 [!DNL Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Power BI] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 앱 ID]  </td>
@@ -872,7 +872,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>연결에 대한 자세한 내용 [!DNL Power BI] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe에 대한 연결 만들기 [!DNL Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Power BI] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 앱 ID]  </td>
@@ -899,7 +899,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>연결에 대한 자세한 내용 [!DNL Power BI] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe에 대한 연결 만들기 [!DNL Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Power BI] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 앱 ID]  </td>
@@ -920,7 +920,7 @@ ht-degree: 0%
 
 #### [!UICONTROL API 호출 만들기]
 
-이 작업 모듈은 [!DNL Power BI] API.
+이 작업 모듈은 [!DNL Power BI] API에 대한 API 호출을 수행합니다.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -928,14 +928,14 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>연결에 대한 자세한 내용 [!DNL Power BI] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe에 대한 연결 만들기 [!DNL Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Power BI] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL 경로]</p>
       </td>
       <td>
-        <p>상대 경로 입력 <code>https://api.powerbi.com</code>. 예: <code>/v1.0/myorg/datasets</code>.</p>
+        <p><code>https://api.powerbi.com</code>과(와) 관련된 경로를 입력하십시오. 예: <code>/v1.0/myorg/datasets</code></p>
       </td>
     </tr>
     <tr>
@@ -962,7 +962,7 @@ ht-degree: 0%
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Body]</td>
-   <td> <p>표준 JSON 개체의 형태로 API 호출에 대한 본문 콘텐츠를 추가합니다.</p> <p>참고:  <p>다음과 같은 조건문을 사용할 때 <code>if</code> json에서 따옴표를 조건문 외부에 넣습니다.</p> 
+   <td> <p>표준 JSON 개체의 형태로 API 호출에 대한 본문 콘텐츠를 추가합니다.</p> <p>참고:  <p>JSON에서 <code>if</code>과(와) 같은 조건문을 사용할 때 따옴표를 조건문 외부에 넣으십시오.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>

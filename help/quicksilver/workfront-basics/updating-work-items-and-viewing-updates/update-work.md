@@ -51,13 +51,13 @@ ht-degree: 0%
 ><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. </span>
 -->
 
-Adobe Workfront 개체에 대한 업데이트를 추가하여 해당 개체의 진행 상황에 대해 다른 사용자와 통신할 수 있습니다. Workfront에서 업데이트를 추가할 수 있는 개체에 대한 자세한 내용은 [업데이트 섹션 개요](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+Adobe Workfront 개체에 대한 업데이트를 추가하여 해당 개체의 진행 상황에 대해 다른 사용자와 통신할 수 있습니다. Workfront에서 업데이트를 추가할 수 있는 개체에 대한 자세한 내용은 [업데이트 섹션 개요](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)를 참조하십시오.
 
 이 문서의 정보는 프로젝트, 작업 및 문제에 대한 정보를 댓글로 달거나 업데이트하는 방법에 대해 설명합니다. 개체를 할당받거나 구독 중인 사용자는 업데이트를 볼 수 있습니다. 사용자에 태그를 지정하여 업데이트에 주의를 기울일 수도 있습니다.
 
 다른 오브젝트에 설명을 추가하는 것은 프로젝트, 작업 및 문제를 업데이트하는 것과 비슷합니다. 카드 및 목표에 대한 추가 정보는 다음 문서를 참조하십시오.
 
-* [Adobe Workfront 목표의 목표 주석 관리](../../workfront-goals/goal-management/manage-goal-comments.md).
+* [Adobe Workfront 목표의 목표 댓글을 관리합니다](../../workfront-goals/goal-management/manage-goal-comments.md).
 
   Workfront 목표에 액세스하려면 추가 라이선스가 있어야 합니다.
 
@@ -101,13 +101,13 @@ Adobe Workfront 개체에 대한 업데이트를 추가하여 해당 개체의 �
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
 ## 작업 업데이트에 대한 고려 사항
 
-* 업데이트 섹션에서 Adobe Workfront의 대부분의 오브젝트에 주석을 추가할 수 있습니다. 업데이트 섹션이 표시되는 객체에 대한 자세한 내용은 [업데이트 섹션 개요](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
+* 업데이트 섹션에서 Adobe Workfront의 대부분의 오브젝트에 주석을 추가할 수 있습니다. 업데이트 섹션을 표시하는 개체에 대한 자세한 내용은 [업데이트 섹션 개요](../updating-work-items-and-viewing-updates/updates-tab-overview.md)를 참조하십시오.
 
 * Workfront과 통합된 다른 애플리케이션 또는 Workfront 모바일 앱에서 Workfront 오브젝트에 주석을 추가할 수 있습니다.
 
@@ -121,10 +121,10 @@ Adobe Workfront 개체에 대한 업데이트를 추가하여 해당 개체의 �
 
   >[!TIP]
   >
-  >댓글 소유자에 자동으로 태그가 지정됩니다. 자세한 내용은 [업데이트에 다른 사용자 태그 지정](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+  >댓글 소유자에 자동으로 태그가 지정됩니다. 자세한 내용은 [업데이트에 다른 사용자 태그 지정](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)을 참조하세요.
 
 
-* 볼 수 있는 오브젝트에 댓글을 추가하거나 Workfront 또는 그룹 관리자로 로그인하고 다른 사용자를 대신하여 댓글을 추가할 수 있습니다. 자세한 내용은 [다른 사용자로 로그인](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+* 볼 수 있는 오브젝트에 댓글을 추가하거나 Workfront 또는 그룹 관리자로 로그인하고 다른 사용자를 대신하여 댓글을 추가할 수 있습니다. 자세한 내용은 [다른 사용자로 로그인](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md)을 참조하십시오.
 
 * Workfront의 다음 영역에서 프로젝트, 작업 및 문제에 대한 업데이트를 추가할 수 있습니다.
 
@@ -232,8 +232,8 @@ You can add updates to the following objects:
 이 문서에서는 프로젝트, 작업 또는 문제를 업데이트하는 방법에 대해 설명합니다. 대부분의 다른 객체를 업데이트하는 것도 유사합니다.
 
 1. 업데이트할 개체를 찾은 다음 개체 이름을 클릭하여 개체의 페이지를 엽니다.
-1. 클릭  **업데이트** 왼쪽 패널에서
-다음 **댓글** 기본적으로 탭이 선택되어 있습니다.
+1. 왼쪽 패널에서 **업데이트**를 클릭합니다.
+기본적으로 **댓글** 탭이 선택되어 있습니다.
 
    <!--
    1. (Conditional) If the **New commenting** option is disabled, click to enable it. 
@@ -245,7 +245,7 @@ You can add updates to the following objects:
          ><span class="preview">The New commenting option has been removed in the Preview environment.</span>
    -->
 
-1. 에 주석 입력 시작 **새 댓글** 상자.
+1. **새 댓글** 상자에 댓글을 입력하세요.
 
    ![새 댓글 상자](assets/comment-box-all-tabs.png)
 
@@ -257,8 +257,8 @@ You can add updates to the following objects:
    * 변경 내용을 취소하려면 CTRL+Z(Mac의 경우 ⌘+z)
    * CTRL+Y(Mac의 경우 ⌘+y) 를 눌러 변경 사항을 재실행합니다
 
-1. (선택 사항) **사람 또는 팀에 태그 지정** 영역에 이 댓글에 포함할 사용자 또는 팀의 이름 또는 이메일을 입력한 다음 목록에 표시될 때 선택합니다.
-1. (선택 사항) 리치 텍스트 도구 모음의 옵션을 사용하여 텍스트 서식을 지정하고, 업데이트에 이모지, 링크 또는 이미지를 추가하여 콘텐츠를 개선합니다. 자세한 내용은 [Workfront 업데이트에서 리치 텍스트 사용](#use-rich-text-in-a-workfront-update) 이 문서의 섹션.
+1. (선택 사항) **사람 또는 팀 태그 지정** 영역에서 이 댓글에 포함할 사용자 또는 팀의 이름 또는 전자 메일을 입력한 다음 목록에 표시될 때 선택합니다.
+1. (선택 사항) 리치 텍스트 도구 모음의 옵션을 사용하여 텍스트 서식을 지정하고, 업데이트에 이모지, 링크 또는 이미지를 추가하여 콘텐츠를 개선합니다. 자세한 내용은 이 문서의 [Workfront 업데이트에서 서식 있는 텍스트 사용](#use-rich-text-in-a-workfront-update) 섹션을 참조하십시오.
 
    >[!TIP]
    >
@@ -269,8 +269,8 @@ You can add updates to the following objects:
    >&quot;새로 만들기&quot; 표시기는 새 업데이트를 입력한 사용자와 현재 업데이트를 입력 중인 사용자가 모두 새 댓글 달기 경험을 사용하는 경우에만 표시됩니다.
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
-1. 클릭 **제출** Workfront 개체에 업데이트를 추가합니다.
-1. (선택 사항) 주석을 편집하려면 **자세히** 메뉴 ![](assets/more-menu.png) 주석의 오른쪽 상단 모서리에서 을(를) 클릭한 다음 을(를) 클릭합니다 **편집**.
+1. **제출**&#x200B;을 클릭하여 Workfront 개체에 업데이트를 추가합니다.
+1. (선택 사항) 댓글을 편집하려면 댓글의 오른쪽 상단에 있는 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭한 다음 **편집**&#x200B;을(를) 클릭합니다.
 
    >[!IMPORTANT]
    >
@@ -290,15 +290,15 @@ You can add updates to the following objects:
    >* 주석 옆에 있는 날짜 스탬프는 마지막 편집 날짜가 아닌 원래 주석의 날짜입니다.
    >* 다른 사용자를 대신하여 주석을 추가할 때(Workfront 또는 그룹 관리자로 다른 사용자로 로그인할 때) 다른 사용자로 로그인된 경우 주석을 편집할 수 없습니다. 사용자로 로그아웃한 후 다시 사용자로 로그인한 후에만 주석을 편집할 수 있습니다.
 
-1. (선택 사항) **답변** 또는에서 댓글을 입력해 보십시오. **회신 추가...** 영역에서 기존 댓글에 응답한 다음 위의 3-7단계를 따릅니다. <!--(**************insure this stays accurate***********)--> 업데이트 회신에 대한 자세한 내용은 [업데이트에 대한 회신](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+1. (선택 사항) **답글**&#x200B;을 클릭하거나 **답글 추가...** 영역에서 댓글을 입력하여 기존 댓글에 답글을 단 다음 위의 3-7단계를 따릅니다. <!--(**************insure this stays accurate***********)--> 업데이트에 회신하는 방법에 대한 자세한 내용은 [업데이트에 회신](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md)을 참조하세요.
 
-1. (조건부 및 선택 사항) 다른 사용자가 주석을 추가하는 동안 업데이트 섹션의 표시 영역 외부에 표시되는 주석을 추가한 경우 **보기** 파란색 안쪽에 **새 댓글 배너** 이 설명을 표시하려면 이 단추를 클릭하십시오.
+1. (조건부 및 선택 사항) 댓글을 추가하는 동안 다른 사용자가 업데이트 섹션의 표시 영역 밖에 표시되는 댓글을 추가한 경우 화면 하단의 파란색 **새 댓글 배너** 내부에 있는 **보기**&#x200B;를 클릭하여 해당 댓글을 표시합니다.
 
    ![](assets/blue-new-comments-banner-with-view-button.png)
 
    추가 주석이 화면 하단에 표시됩니다.
 
-1. (선택 사항) **좋아요** 아이콘![](assets/like-icon.png). 아이콘이 좋아요 수로 업데이트됩니다.
+1. (선택 사항) **좋아요** 아이콘![](assets/like-icon.png)을 클릭합니다. 아이콘이 좋아요 수로 업데이트됩니다.
 1. (조건부 및 선택 사항) 댓글에 다른 사람을 포함한 경우 업데이트에 포함된 멤버 수를 클릭하여 입력한 댓글이 공유되는 엔티티 목록을 표시합니다.
 
    ![](assets/members-icons-expanded-unshimmed.png)
@@ -308,42 +308,42 @@ You can add updates to the following objects:
    >태그가 지정된 처음 두 엔티티의 이름이 아바타 옆에 표시됩니다. 두 개 이상의 엔티티에 태그가 지정되면 첫 번째 엔티티 이름과 추가 엔티티 수만 표시됩니다.
 
 1. (선택 사항) commententer의 이름을 클릭하면 정보 상자에 이름, 역할 및 이메일 주소가 표시됩니다. 정보 상자에서 댓글의 이름을 다시 클릭하여 해당 사용자 프로필을 엽니다.
-1. (선택 사항) **시스템 활동** 시스템에 의해 기록된 업데이트를 보려면 탭하십시오. 개체 또는 그 하위 항목이 업데이트되면 Workfront은 해당 업데이트에 대한 메모를 생성하고 시스템 활동 탭에 표시합니다.
+1. (선택 사항) 시스템에서 기록한 업데이트를 보려면 **시스템 활동** 탭을 클릭합니다. 개체 또는 그 하위 항목이 업데이트되면 Workfront은 해당 업데이트에 대한 메모를 생성하고 시스템 활동 탭에 표시합니다.
 
-   자세한 내용은 [업데이트 섹션 개요](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
+   자세한 내용은 [업데이트 섹션 개요](../updating-work-items-and-viewing-updates/updates-tab-overview.md)를 참조하십시오.
 
    >[!TIP]
    >
    >시스템 업데이트에 주석을 추가할 수 없습니다. 그러나 이전 댓글 달기 경험의 시스템 활동 레코드에 대한 모든 답글은 시스템 활동 탭에 읽기 전용으로 추가되었습니다. 기존 댓글 달기 환경은 2024년 4월 11일에 Workfront에서 제거되었습니다.
 
-1. (선택 사항) **모두** 탭에서는 사용자 댓글과 시스템 활동 댓글을 한 곳에서 모두 볼 수 있습니다. 보기 전용 탭입니다.
+1. (선택 사항) **모두** 탭을 클릭하여 사용자 댓글과 시스템 활동 댓글을 한 곳에서 모두 봅니다. 보기 전용 탭입니다.
 
    >[!TIP]
    >
-   >모든 탭에서 기존 댓글에 댓글에 답글을 달거나 다른 사용자를 태그 지정할 수 없습니다. 모두 탭에서 댓글에 회신하려면 **댓글로 회신** 을 클릭하여 [주석] 탭에서 주석을 엽니다.
+   >모든 탭에서 기존 댓글에 댓글에 답글을 달거나 다른 사용자를 태그 지정할 수 없습니다. 모두 탭에서 댓글에 회신하려면 **댓글에 회신**&#x200B;을 클릭하여 댓글 탭에서 댓글을 엽니다.
 
 ## Workfront 업데이트에서 리치 텍스트 사용{#use-rich-text-in-a-workfront-update}
 
 리치 텍스트를 사용하거나 이모지, 링크 또는 이미지와 같은 다양한 항목을 추가하여 업데이트를 향상시킬 수 있습니다.
 
-1. 로 이동 **업데이트** Workfront 개체의 영역이며 댓글을 입력하십시오.
-1. (선택 사항) 리치 텍스트 서식을 업데이트에 추가하려면 **리치 텍스트** 입력할 때 도구 모음
+1. Workfront 개체의 **업데이트** 영역으로 이동하여 댓글을 입력하세요.
+1. (선택 사항) 업데이트에 서식 있는 텍스트 서식을 추가하려면 입력할 때 **서식 있는 텍스트** 도구 모음의 특성을 사용합니다.
 
    ![](assets/rich-text-toolbar.png)
 
-   | **속성** | **도구 모음 단추** | **Mac 단축키** | **Windows 바로 가기 키** |
+   | **특성** | **도구 모음 단추** | **Mac 바로 가기 키** | **Windows 바로 가기 키** |
    |---|---|---|---|
    | 볼드체 | ![](assets/mceclip10.png) | ⌘+b | Ctrl+B |
    | 기울임체 | ![mceclip9.png](assets/mceclip9.png) | ⌘+i | Ctrl+I |
    | 밑줄 | ![mceclip8.png](assets/mceclip8.png) | ⌘+u | Ctrl+U |
-   | 하이퍼링크 | ![mceclip7.png](assets/mceclip7.png) | <br>링크 추가 상자를 열려면: ⌘+K</br> <br>선택한 텍스트 위에 링크를 붙여넣으려면: ⌘+V</br> | <br>링크 추가 상자를 열려면 Ctrl+K</br> <br>선택한 텍스트 위에 링크를 붙여넣으려면: Ctrl+V</br> |
+   | 하이퍼링크 | ![mceclip7.png](assets/mceclip7.png) | <br>링크 추가 상자를 열려면 ⌘+K</br> <br>선택한 텍스트 위에 링크를 붙여넣으려면: ⌘+V</br> | <br>링크 추가 상자를 열려면 Ctrl+K</br> <br>선택한 텍스트 위에 링크를 붙여넣으려면: Ctrl+V</br> |
    | 글머리 기호 목록 | ![mceclip6.png](assets/mceclip6.png) | ⌘+Shift+8 | Ctrl+Shift+8 |
    | 번호 매기기 목록 | ![mceclip5.png](assets/mceclip5.png) | ⌘+Shift+7 | Ctrl+Shift+7 |
    <!--| Block Quote | ![](assets/block-quote-icon-large.png)|⌘+Shift+9 |<br>Ctrl+Shift+9</br> <br>This is not available in the new commenting experience. </br> |-->
 
    <!--remove the last row when we remove legacy from the system-->
 
-   텍스트 서식을 중지하려면 **리치 텍스트** 도구 모음
+   텍스트 서식을 중지하려면 **서식 있는 텍스트** 도구 모음에서 특성을 선택 취소합니다.
 
 
    <!-- in the table above: take "Create Links" verbiage from the hyperlink when the old commenting is removed and the commenting beta is the only way to comment - with October 2023-->
@@ -361,7 +361,7 @@ You can add updates to the following objects:
 
    <!--![](assets/block-quote-marked-350x144.png)-->
 
-1. (선택 사항) **이모지** 아이콘 ![](assets/emoji-icon.png) 를 클릭하여 업데이트에 이모지를 추가합니다.
+1. (선택 사항) 업데이트에 이모지를 추가하려면 **이모지** 아이콘 ![](assets/emoji-icon.png)을(를) 클릭합니다.
 
    >[!NOTE]
    >
@@ -375,27 +375,27 @@ You can add updates to the following objects:
 1. (선택 사항) 추가 정보 소스에 URL 링크를 추가하려면 다음을 수행합니다.
 
    1. 링크를 삽입할 업데이트를 클릭합니다.
-   1. 다음에서 **리치 텍스트** 도구 모음에서 **하이퍼링크** 아이콘 ![](assets/link-icon.png).
+   1. **서식 있는 텍스트** 도구 모음에서 **하이퍼링크** 아이콘 ![](assets/link-icon.png)을(를) 클릭합니다.
 
-   1. 다음에서 **링크 만들기** 아래에 나타나는 상자 **URL**&#x200B;을(를) 클릭하거나 연결할 소스의 URL을 입력하거나 붙여넣습니다.
+   1. **URL**&#x200B;에 나타나는 **링크 만들기** 상자에 연결할 원본 URL을 입력하거나 붙여 넣습니다.
 
-   1. 아래 **표시할 텍스트**, 링크 텍스트를 입력하거나 붙여넣습니다.
+   1. **표시할 텍스트**&#x200B;에서 링크 텍스트를 입력하거나 붙여 넣습니다.
    1. **저장**&#x200B;을 클릭합니다.
 
 1. (선택 사항) 이미지를 업데이트에 첨부하려면 다음 중 하나를 수행합니다.
 
    * 이미지를 컴퓨터에 저장한 다음 새 댓글 영역에 끌어서 놓습니다.
    * 컴퓨터에서 스크린샷을 복사한 다음 주석에 붙여넣습니다.<!-- This is not available in the legacy commenting experience.-->
-   * 다음을 클릭합니다. **이미지 추가** 아이콘 ![](assets/add-image-mountain-with-plus-icon.png) 컴퓨터에서 이미지를 찾습니다.
+   * **이미지 추가** 아이콘 ![](assets/add-image-mountain-with-plus-icon.png)을(를) 클릭하고 컴퓨터에서 이미지를 찾습니다.
 
 
    >[!NOTE]
    >
-   >**중요 사항**
+   >**중요**
    >
    ><!--<span class="preview">You cannot add images to goals or ad-hoc cards on boards.</span> -->
    >
-   >* 이미지 또는 첨부 파일 추가 아이콘을 보려면 Workfront 관리자가 Workfront 인터페이스 영역의 피드 업데이트 환경 설정 섹션에서 이미지 추가를 활성화해야 합니다. 자세한 내용은 [사용자 업데이트에 대한 환경 설정 구성](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
+   >* 이미지 또는 첨부 파일 추가 아이콘을 보려면 Workfront 관리자가 Workfront 인터페이스 영역의 피드 업데이트 환경 설정 섹션에서 이미지 추가를 활성화해야 합니다. 자세한 내용은 [사용자 업데이트에 대한 환경 설정 구성](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md)을 참조하십시오.
    >* 최대 이미지 파일 크기는 7MB입니다. 지원되는 이미지 파일 유형은 .jpg, .gif 및 .png입니다.
    >* 이미지는 개체의 업데이트 섹션에서 액세스할 수 있으며 기본 메뉴 아래의 문서 영역에서도 사용할 수 있습니다.
    >* Mac 새 주석을 마우스 오른쪽 단추로 클릭하거나 키보드에서 Ctrl+V(Windows의 경우 ⌘+V)를 눌러 이미지를 붙여넣을 수 있습니다.
@@ -407,17 +407,17 @@ You can add updates to the following objects:
 
 1. (선택 사항) 기존 업데이트에서 이미지를 보려면 다음 중 하나를 수행하십시오.
 
-   * 다음을 클릭합니다. **미리 보기** 아이콘 ![](assets/previewimageicon-31x31.png) 이미지 축소판을 클릭하여 새 브라우저 탭에서 전체 크기 이미지를 엽니다.
-   * 다음을 클릭합니다. **다운로드** 아이콘 ![](assets/downloadimageicon.png) 이미지를 다운로드하려면 이미지 썸네일에서 을(를) 선택합니다.
+   * 이미지 썸네일에서 **미리 보기** 아이콘 ![](assets/previewimageicon-31x31.png)을(를) 클릭하여 새 브라우저 탭에서 전체 크기 이미지를 엽니다.
+   * 이미지를 다운로드하려면 이미지 썸네일에서 **다운로드** 아이콘 ![](assets/downloadimageicon.png)을(를) 클릭하십시오.
 
-1. 클릭 **제출** 주석을 추가합니다.
+1. 댓글을 추가하려면 **제출**&#x200B;을 클릭하세요.
 
 ## 업데이트 검색
 
 오브젝트의 업데이트 섹션에서 댓글 또는 답글을 검색할 수 있습니다.
 
-1. 로 이동 **업데이트** 섹션에 있는 마지막 항목이 될 필요가 없습니다.
-1. 키워드 입력 시작 <!--or a user's name --> 다음에서 **검색** 의 오른쪽 위 모서리에 있는 상자 **댓글** 탭.
+1. 개체의 **업데이트** 섹션으로 이동합니다.
+1. **댓글** 탭의 오른쪽 위 모서리에 있는 **검색** 상자에 <!--or a user's name --> 키워드를 입력하십시오.
 
    <!--Add this tip or note instead of the note below - when it'll be possible: You can search for users who have been tagged or for comment owners.-->
 
@@ -427,11 +427,11 @@ You can add updates to the following objects:
 
    ![업데이트에서 검색](assets/updates-all-tabs-with-search-field.png)
 
-   키워드 <!--or user--> 을 검색하면 강조 표시되고 이 검색어가 포함된 주석이 업데이트 섹션의 맨 위에 표시됩니다.
+   검색한 키워드 <!--or user-->이(가) 강조 표시되고 이 키워드가 포함된 댓글이 [업데이트] 섹션의 맨 위에 표시됩니다.
 
    Workfront은 화면에 표시되는 주석 외부에서 개체의 전체 업데이트 스트림을 검색합니다.
 
-1. 다음을 클릭합니다. **x** 아이콘을 클릭하여 검색 결과를 지우고 모든 주석으로 돌아갈 수 있습니다.
+1. 검색 필드에서 **x** 아이콘을 클릭하여 검색 결과를 지우고 모든 댓글로 돌아갑니다.
 
 <!-- when we release search to production, check above and make sure you don't have to add that the users tagged/ owners are also searchable-->
 
@@ -445,7 +445,7 @@ You can add updates to the following objects:
 
 <!--info for April 11: take the sentence above out and reword the section title below to: Copy an update-->
 
-### 업데이트 복사 <!--in the new commenting experience-->
+### 업데이트 <!--in the new commenting experience--> 복사
 
 <!--For information about what features are available for the new commenting experience and for what objects, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).-->
 
@@ -463,7 +463,7 @@ You can add updates to the following objects:
 
 1. 링크를 복사할 업데이트로 이동합니다.
 
-1. 다음을 클릭합니다. **자세히** 메뉴를 선택한 다음 **링크 복사**.
+1. **자세히** 메뉴를 클릭한 다음 **링크 복사**&#x200B;를 클릭합니다.
 
 1. 이전 단계에서 복사한 링크를 전자 메일 또는 다른 애플리케이션에 붙여넣어 다른 사용자와 공유합니다. 공유 링크를 클릭하면 링크를 공유한 댓글이 열립니다.
 
@@ -478,21 +478,21 @@ You can add updates to the following objects:
 본문 텍스트 복사 옵션은 특정 업데이트의 텍스트를 클립보드로 복사합니다.
 
 1. 복사하려는 업데이트 또는 회신으로 이동합니다.
-1. 다음을 클릭합니다. **자세히** 메뉴를 선택한 다음 **본문 복사**.
+1. **자세히** 메뉴를 클릭한 다음 **본문 복사**&#x200B;를 클릭합니다.
 
 #### 견적 회신
 
 견적 회신 옵션은 원래 댓글을 새 회신에 블록 견적으로 복사합니다.
 
 1. 복사하려는 업데이트 또는 회신으로 이동합니다.
-1. 다음을 클릭합니다. **자세히** 메뉴를 선택한 다음 **견적 회신**.
+1. **자세히** 메뉴를 클릭한 다음 **회신 견적**&#x200B;을 클릭합니다.
 
    새 댓글 상자가 열리고 인용된 회신이 새 댓글에 포함되어 블록 인용으로 표시됩니다.
 
    ![](assets/block-quote-highlighted-mid-comment-before-submit.png)
 
 
-1. 업데이트 추가를 계속하고 **제출** 주석을 추가합니다.
+1. 업데이트를 계속 추가하고 **제출**&#x200B;을 클릭하여 댓글을 추가합니다.
 
 <!--info for April 11: hide the entire section below - notice that there are several sub-sub sections below this main section - hide them all, all the way up to "Delete an update"-->
 
@@ -556,20 +556,20 @@ The Quote Reply option copies the original comment to a new reply as a block quo
 
 ## 업데이트 또는 답글 삭제
 
-Workfront 관리자가 제공하는 액세스 권한에 따라, 오브젝트의 업데이트 탭에서 추가한 업데이트를 삭제할 수 있습니다. 자세한 내용은 [사용자 정의 액세스 수준 만들기 또는 수정](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) 이 문서에서 [사용자 정의 액세스 수준 만들기 또는 수정](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+Workfront 관리자가 제공하는 액세스 권한에 따라, 오브젝트의 업데이트 탭에서 추가한 업데이트를 삭제할 수 있습니다. 자세한 내용은 문서 [사용자 지정 액세스 수준 만들기 또는 수정](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)에서 [사용자 지정 액세스 수준 만들기 또는 수정](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch)을 참조하십시오.
 
-Workfront 사용자(Workfront 관리자 포함)는 다른 사용자가 업데이트한 내용을 삭제할 수 없습니다. 그러나 사용자의 액세스 수준에서 자체 업데이트를 삭제할 수 있는 경우 Workfront 관리자가 해당 사용자로 로그인하여 수행한 업데이트를 삭제할 수 있습니다. 자세한 내용은 [사용자 정의 액세스 수준 만들기 또는 수정](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) 및 [다른 사용자로 로그인](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+Workfront 사용자(Workfront 관리자 포함)는 다른 사용자가 업데이트한 내용을 삭제할 수 없습니다. 그러나 사용자의 액세스 수준에서 자체 업데이트를 삭제할 수 있는 경우 Workfront 관리자가 해당 사용자로 로그인하여 수행한 업데이트를 삭제할 수 있습니다. 자세한 내용은 [사용자 지정 액세스 수준 만들기 또는 수정](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) 및 [다른 사용자로 로그인](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md)을 참조하십시오.
 
 1. 삭제할 업데이트 또는 회신으로 이동합니다.
-1. 다음을 클릭합니다. **자세히** 삭제할 업데이트 또는 답글 옆에 있는 메뉴를 클릭한 다음 **삭제**.
+1. 삭제하려는 업데이트 또는 답글 옆에 있는 **자세히** 메뉴를 클릭한 다음 **삭제**&#x200B;를 클릭합니다.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. 표시되는 메시지에서 다음을 클릭합니다. **삭제**.
+1. 표시되는 메시지에서 **삭제**&#x200B;를 클릭합니다.
 
    >[!NOTE]
    >
-   >이미지가 첨부된 업데이트를 삭제하면 댓글과 이미지가 모두 삭제됩니다. 자세한 내용은 [Workfront 업데이트에서 리치 텍스트 사용](#use-rich-text-in-a-workfront-update) 이 문서의 섹션.
+   >이미지가 첨부된 업데이트를 삭제하면 댓글과 이미지가 모두 삭제됩니다. 자세한 내용은 이 문서의 [Workfront 업데이트에서 서식 있는 텍스트 사용](#use-rich-text-in-a-workfront-update) 섹션을 참조하십시오.
 
    삭제한 댓글에 연결된 댓글이 있는 경우 댓글을 삭제한 사용자의 이름으로 댓글이 제거되었음을 나타냅니다.
 
@@ -582,15 +582,15 @@ Workfront 사용자(Workfront 관리자 포함)는 다른 사용자가 업데이
 
 Workfront 객체의 업데이트 섹션에는 두 가지 유형의 정보가 표시됩니다.
 
-* **사용자 업데이트:** 사용자 업데이트는 사용자와 시스템의 다른 사용자가 입력하는 주석입니다. 사용자 업데이트는 업데이트 섹션의 설명 및 모든 탭에 표시됩니다.
+* **사용자 업데이트:** 사용자 업데이트는 귀하와 시스템의 다른 사용자가 입력하는 댓글입니다. 사용자 업데이트는 업데이트 섹션의 설명 및 모든 탭에 표시됩니다.
 
   ![](assets/user-update-cl-350x277.png)
 
-* **시스템 업데이트:** 시스템은 작업 또는 문제 제거, 문서 버전 추가 또는 삭제, 승인 요청 첨부 또는 제거, 오브젝트에 대한 편집 또는 변경 사항을 기록합니다. 시스템 업데이트가 시스템 활동 및 업데이트 섹션의 모든 탭에 표시됩니다.
+* **시스템 업데이트:** 시스템은 기록 레코드를 업데이트하여 작업 또는 문제 제거, 문서 버전 추가 또는 삭제, 승인 요청 첨부 또는 제거, 개체에 대한 편집 또는 변경 사항을 모두 기록합니다. 시스템 업데이트가 시스템 활동 및 업데이트 섹션의 모든 탭에 표시됩니다.
 
   ![](assets/system-updates-cl-350x277.png)
 
-  Workfront 관리자는에 설명된 대로 시스템 업데이트에서 추적되는 항목을 결정할 수 있습니다. [시스템 추적 업데이트](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). 모든 객체에 대한 사용자 업데이트만 표시되도록 시스템 업데이트 또는 활동을 필터링할 수도 있습니다.
+  Workfront 관리자는 [시스템 추적 업데이트](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)에 설명된 대로 시스템 업데이트에서 추적되는 항목을 확인할 수 있습니다. 모든 객체에 대한 사용자 업데이트만 표시되도록 시스템 업데이트 또는 활동을 필터링할 수도 있습니다.
 
   다음 개체에는 시스템 생성 업데이트가 없습니다.
 
@@ -599,7 +599,7 @@ Workfront 객체의 업데이트 섹션에는 두 가지 유형의 정보가 표
    * 템플릿 작업
    * 임시 카드
 
-업데이트 섹션에서 시스템 업데이트에 대한 자세한 내용은 [업데이트 섹션 개요](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
+업데이트 섹션의 시스템 업데이트에 대한 자세한 내용은 [업데이트 섹션 개요](../updating-work-items-and-viewing-updates/updates-tab-overview.md)를 참조하십시오.
 
 
 <!--

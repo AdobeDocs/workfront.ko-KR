@@ -25,7 +25,7 @@ Adobe Workfront은 Adobe 제품이므로 Adobe Admin Console을 통해 액세스
 
 모든 Workfront 고객은 결국 Adobe Admin Console으로 이동됩니다. 조직이 Adobe Admin Console으로 이동하면 Workfront 인증이 콘솔에서 관리됩니다. 이러한 조치를 보다 빨리 준비하고 이행하면 향후 보다 빠른 혁신을 위해 작업 관리의 효율성을 높이고 조직을 포지셔닝할 수 있는 토대가 마련됩니다
 
-Adobe Admin Console에 대한 개요는 를 참조하십시오. [Admin Console 개요](https://helpx.adobe.com/enterprise/using/admin-console.html).
+Adobe Admin Console에 대한 개요는 [Admin Console 개요](https://helpx.adobe.com/enterprise/using/admin-console.html)를 참조하십시오.
 
 ## 마이그레이션 검사 목록
 
@@ -45,11 +45,11 @@ Adobe Admin Console에 대한 개요는 를 참조하십시오. [Admin Console �
    >
    >SSO(Single Sign-On) 또는 SSO 이외 인증 환경 설정과 같은 인증 환경 설정에 대해 Workfront 지원 센터 및 IT 팀과 논의할 준비를 하십시오.
 
-   자세한 내용은 의 Identity Management 섹션을 참조하십시오. [Adobe Admin Console용 배포 안내서](https://helpx.adobe.com/enterprise/using/deployment-planning.html).
+   자세한 내용은 Adobe Admin Console용 [배포 안내서](https://helpx.adobe.com/enterprise/using/deployment-planning.html)의 Identity Management 섹션을 참조하십시오.
 
 1. (조건부) SSO(Single Sign-On)를 사용하는 경우, 새 Adobe Admin Console을 기존 SSO 공급자에 연결합니다.
 
-   자세한 내용 및 지침은 [ID 설정](https://helpx.adobe.com/enterprise/using/set-up-identity.html).
+   자세한 내용 및 지침은 [ID 설정](https://helpx.adobe.com/enterprise/using/set-up-identity.html)을 참조하세요.
 
    >[!NOTE]
    >
@@ -59,9 +59,9 @@ Adobe Admin Console에 대한 개요는 를 참조하십시오. [Admin Console �
 
    1. Workfront에서 중복 이메일을 제거합니다.
 
-      자세한 내용은 [Workfront 인스턴스에서 기존 사용자의 이메일 주소 업데이트](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md#update-email-addresses-of-existing-users-in-your-workfront-instance) 위치: [중복 사용자 방지](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md).
+      자세한 내용은 [중복 사용자 방지](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md)에서 [Workfront 인스턴스의 기존 사용자 전자 메일 주소 업데이트](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md#update-email-addresses-of-existing-users-in-your-workfront-instance)를 참조하십시오.
 
-      조직에 중복 이메일 주소가 있는 경우 사용자는 가장 최근의 이메일 주소로 표시됩니다 `lastLoginDate` 은 Adobe Admin Console 조직으로 이동됩니다. 해당 이메일 주소를 사용하는 다른 모든 사용자는 비활성화됩니다.
+      조직에 중복 이메일 주소가 있는 경우 가장 최근 `lastLoginDate`의 이메일 주소로 표시된 사용자가 Adobe Admin Console 조직으로 이동됩니다. 해당 이메일 주소를 사용하는 다른 모든 사용자는 비활성화됩니다.
 
       >[!NOTE]
       >
@@ -77,7 +77,7 @@ Adobe Admin Console에 대한 개요는 를 참조하십시오. [Admin Console �
 
 1. (선택 사항) OAuth2를 사용하도록 모든 사용자 지정 통합을 업데이트합니다.
 
-   OAuth2 통합 설정에 대한 지침은 [Workfront 통합을 위한 OAuth2 애플리케이션 만들기](../../administration-and-setup/configure-integrations/create-oauth-application.md).
+   OAuth2 통합 설정에 대한 지침은 [Workfront 통합을 위한 OAuth2 애플리케이션 만들기](../../administration-and-setup/configure-integrations/create-oauth-application.md)를 참조하십시오.
 
    >[!NOTE]
    >
@@ -85,6 +85,6 @@ Adobe Admin Console에 대한 개요는 를 참조하십시오. [Admin Console �
 
 Adobe Admin Console이 Workfront으로 구성된 후 이를 사용하여 Workfront 시스템 관리자를 만들 수 있습니다.
 
-자세한 내용은 [Adobe Admin Console에서 시스템 관리자 관리](../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+자세한 내용은 [Adobe Admin Console에서 시스템 관리자 관리](../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)를 참조하십시오.
 
-조직이 Adobe Admin Console에 온보딩되었는지 여부에 따라 다른 기타 작업 목록은 을 참조하십시오. [플랫폼 기반 관리의 차이점(Adobe Workfront/Adobe 비즈니스 플랫폼)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+조직이 Adobe Admin Console에 온보딩되었는지 여부에 따라 다른 작업 목록은 [플랫폼 기반 관리 차이점(Adobe Workfront/Adobe 비즈니스 플랫폼)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)을 참조하십시오.

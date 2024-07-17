@@ -19,7 +19,7 @@ ht-degree: 1%
 
 진행 상황을 업데이트하여 목표 달성에 얼마나 근접했는지 추적하려면 목표를 활성화해야 합니다. 상태가 활성으로 변경됩니다.
 
-목표 작성에 대한 자세한 내용은 [Adobe Workfront 목표에서 목표 만들기](../../workfront-goals/goal-management/create-goals.md).
+목표 만들기에 대한 자세한 내용은 [Adobe Workfront 목표에서 목표 만들기](../../workfront-goals/goal-management/create-goals.md)를 참조하십시오.
 
 >[!IMPORTANT]
 >
@@ -53,7 +53,7 @@ ht-degree: 1%
  <td>
  <p>새 라이선스: 기여자 이상</p>
  또는
- <p>현재 라이선스: 요청 이상</p> <p>자세한 내용은 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront 라이선스 개요</a>.</p> </td>
+ <p>현재 라이선스: 요청 이상</p> <p>자세한 내용은 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront 라이선스 개요</a>를 참조하십시오.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">제품*</td>
@@ -63,7 +63,7 @@ ht-degree: 1%
 <li>Select 또는 Prime Adobe Workfront 플랜 및 추가 Adobe Workfront Goals 라이선스.</li>
 <li>기본적으로 Workfront 목표를 포함하는 Ultimate Workfront 계획입니다. </li></ul>
  <p>또는</p>
- <p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표 사용 요구 사항</a>. </p> </td>
+ <p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표를 사용하기 위한 요구 사항</a>을 참조하십시오. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">액세스 수준</td>
@@ -75,7 +75,7 @@ ht-degree: 1%
   <div>
   <p>목표에 대한 또는 그 이상의 권한에 대한 보기</p>
   <p>편집할 목표에 대한 권한 관리</p>
-  <p>목표 공유에 대한 자세한 내용은 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront 목표에서 목표 공유</a>. </p>
+  <p>목표 공유에 대한 자세한 내용은 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront 목표에서 목표 공유</a>를 참조하십시오. </p>
   </div> </td>
  </tr>
 <tr>
@@ -86,7 +86,7 @@ ht-degree: 1%
 </tbody>
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 
 ## 전제 조건
@@ -97,19 +97,19 @@ ht-degree: 1%
 
 * 목표에 결과 추가
 
-  자세한 내용은 [Adobe Workfront 목표의 목표에 결과 추가](../../workfront-goals/results-and-activities/add-results-to-goals.md).
+  자세한 내용은 [Adobe Workfront 목표의 목표에 결과 추가](../../workfront-goals/results-and-activities/add-results-to-goals.md)를 참조하십시오.
 
 * 목표에 활동 추가
 
-  자세한 내용은 [Adobe Workfront 목표의 목표에 활동 추가](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
+  자세한 내용은 [Adobe Workfront 목표의 목표에 활동 추가](../../workfront-goals/results-and-activities/add-activities-to-goals.md)를 참조하십시오.
 
 * 목표에 프로젝트 연결
 
-  자세한 내용은 [Adobe Workfront 목표의 목표에 프로젝트 추가](../results-and-activities/connect-projects-to-goals-overview.md).
+  자세한 내용은 [Adobe Workfront 목표의 목표에 프로젝트 추가](../results-and-activities/connect-projects-to-goals-overview.md)를 참조하십시오.
 
 * 활성화하려는 목표에 다른 목표 정렬
 
-  자세한 내용은 [Adobe Workfront 목표에서 연결하여 목표 정렬](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
+  자세한 내용은 [Adobe Workfront 목표에서 연결하여 목표 정렬](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)을 참조하십시오.
 
 ## 목표 활성화
 
@@ -117,7 +117,7 @@ ht-degree: 1%
 
 1. 활성화하려는 목표로 이동합니다. 목표 페이지가 열립니다.
 
-1. 다음을 클릭합니다. **자세히** 메뉴 ![](../goal-management/assets/more-icon.png) 목표 이름의 오른쪽에 있는 을(를) 클릭합니다. **활성화**.
+1. 목표 이름 오른쪽에 있는 **자세히** 메뉴 ![](../goal-management/assets/more-icon.png)을(를) 클릭한 다음 **활성화**&#x200B;를 클릭합니다.
 
    ![](assets/more-menu-on-goal-expanded-with-activate-unshimmed.png)
 

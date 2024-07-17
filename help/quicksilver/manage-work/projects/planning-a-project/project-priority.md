@@ -67,11 +67,11 @@ ht-degree: 1%
    <td role="rowheader">액세스 수준 구성*</td> 
    <td> <p>프로젝트에 대한 액세스 편집</p> <p><b>메모</b>
 
-여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td>
+여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>프로젝트에 대한 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>프로젝트에 대한 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -82,17 +82,17 @@ ht-degree: 1%
 
 다음은 Adobe Workfront에서 프로젝트의 등급을 매기는 데 사용할 수 있는 우선 순위 유형입니다.
 
-* **프로젝트 우선 순위 필드**: 프로젝트에 우선순위를 수동으로 할당할 수 있습니다. 이 문서에서는 프로젝트에 수동으로 우선 순위를 할당하는 방법을 설명합니다.
+* **프로젝트 우선 순위 필드**: 프로젝트에 우선 순위를 수동으로 할당할 수 있습니다. 이 문서에서는 프로젝트에 수동으로 우선 순위를 할당하는 방법을 설명합니다.
 
-  자세한 내용은 섹션을 참조하십시오 [프로젝트 우선 순위에 대한 고려 사항](#considerations-about-project-priority) 이 문서에서.
+  자세한 내용은 이 문서의 [프로젝트 우선 순위에 대한 고려 사항](#considerations-about-project-priority) 섹션을 참조하십시오.
 
-* **Portfolio 최적화 도구에서 프로젝트의 우선 순위**, 프로젝트가 포트폴리오와 연결된 경우:
+* **Portfolio 최적화 도구에서 프로젝트의 우선 순위**(프로젝트가 포트폴리오와 연결된 경우):
 
-  Portfolio 최적화 도구에서 프로젝트의 우선 순위에 대한 자세한 내용은 문서의 를 참조하십시오 [Portfolio 최적화 도구에서 프로젝트 우선 순위 지정](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
+  Portfolio 최적화 도구에서 프로젝트의 우선 순위에 대한 자세한 내용은 문서 [Portfolio 최적화 도구에서 프로젝트 우선 순위](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)를 참조하십시오.
 
-* **리소스 플래너에 있는 프로젝트의 우선 순위**: 리소스 플래너에서 프로젝트의 우선 순위를 수동으로 지정하여 리소스를 먼저 받아야 하는 프로젝트를 나타낼 수 있습니다.
+* **리소스 플래너에서 프로젝트의 우선 순위**: 리소스 플래너에서 프로젝트의 우선 순위를 수동으로 지정하여 리소스를 먼저 받아야 하는 프로젝트를 표시할 수 있습니다.
 
-  리소스 플래너에서 프로젝트 우선 순위에 대한 자세한 내용은 문서의 &quot;프로젝트 계획 우선 순위&quot; 섹션을 참조하십시오 [리소스 플래너 탐색 개요](../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+  리소스 플래너에서 프로젝트 우선 순위에 대한 자세한 내용은 [리소스 플래너 탐색 개요](../../../resource-mgmt/resource-planning/resource-planner-navigation.md) 문서의 &quot;프로젝트 계획 우선 순위&quot; 섹션을 참조하십시오.
 
 ## 프로젝트 우선 순위에 대한 고려 사항 {#considerations-about-project-priority}
 
@@ -102,7 +102,7 @@ Workfront에서 우선 순위를 프로젝트와 연결할 수 있습니다. 프
 
 * Workfront 관리자는 Workfront에서 사용할 수 있는 우선 순위를 정의합니다. 이를 설정한 후에는 우선순위 필드의 프로젝트와 연결할 수 있습니다.
 
-  Workfront에서 우선 순위 만들기에 대한 자세한 내용은 문서 를 참조하십시오 [우선 순위 만들기 및 사용자 지정](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
+  Workfront에서 우선 순위를 만드는 방법에 대한 자세한 내용은 [우선 순위 만들기 및 사용자 지정](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md) 문서를 참조하십시오.
 
 * 프로젝트의 우선순위 필드를 갱신할 때 이 우선순위는 Portfolio 최적기나 리소스 플래너로 전송되지 않습니다. 프로젝트의 우선 순위 필드는 단순히 다른 사용자에게 중요도를 표시하기 위해 프로젝트에 배치하는 수동 플래그입니다.
 * 프로젝트의 우선 순위 값은 주로 보고 목적으로 사용됩니다.
@@ -111,17 +111,17 @@ Workfront에서 우선 순위를 프로젝트와 연결할 수 있습니다. 프
 * 작업과 문제에는 우선 순위도 있지만 작업, 문제 및 프로젝트 우선 순위는 서로 독립적으로 작동하며 자동으로 서로 영향을 주지 않습니다. 우선순위가 높은 프로젝트나 우선순위가 낮은 프로젝트에서 우선순위가 높은 작업이 있을 수 있습니다.
 * Workfront의 다음 영역에서 프로젝트 우선 순위를 업데이트할 수 있습니다.
 
-   * 다음에서 **프로젝트 편집** 대화 상자.
-   * 다음에서 **프로젝트 세부 정보** 프로젝트의 탭입니다.
+   * **프로젝트 편집** 대화 상자에서
+   * 프로젝트의 **프로젝트 세부 정보** 탭에서.
    * 프로젝트 목록 또는 보고서에서.
 
 ## 프로젝트 우선 순위 필드 업데이트
 
 1. 우선 순위를 업데이트할 프로젝트로 이동합니다.
-1. 클릭 **프로젝트 세부 정보** 왼쪽 패널에서
-1. 다음을 클릭합니다. **편집** 아이콘 ![](assets/qs-edit-icon.png) 프로젝트 세부 정보 영역의 오른쪽 상단 모서리에서 을(를) 클릭합니다. **개요**.
+1. 왼쪽 패널에서 **프로젝트 세부 정보**&#x200B;를 클릭합니다.
+1. 프로젝트 세부 정보 영역의 오른쪽 상단에 있는 **편집** 아이콘 ![](assets/qs-edit-icon.png)을(를) 클릭한 다음 **개요**&#x200B;를 클릭합니다.
 
-1. 다음에서 **우선 순위** 필드에서 다음 옵션 중에서 선택합니다.
+1. **우선 순위** 필드에서 다음 옵션 중 하나를 선택합니다.
 
    * 없음
    * 낮음

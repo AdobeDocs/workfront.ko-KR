@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-system-defaults
 title: 요청 유형 구성
-description: 프로젝트에서 작업하는 동안 예기치 않은 이벤트가 발생할 수 있습니다. 이러한 예기치 않은 이벤트를 특정 프로젝트 또는 작업의 문제로 기록할 수 있습니다. 요청 큐로 지정된 프로젝트의 문제로 기록된 요청을 제출할 수도 있습니다. 문제 및 요청은 Adobe Workfront에서 서로 다른 것으로 간주됩니다.
+description: 프로젝트를 작업하는 동안 예기치 않은 이벤트가 발생할 수 있습니다. 이러한 예기치 않은 이벤트를 특정 프로젝트 또는 작업에 대한 문제로 기록할 수 있습니다. 요청 대기열로 지정된 프로젝트의 문제로 기록되는 요청을 제출할 수도 있습니다. 문제 및 요청은 Adobe Workfront에서 상호 교환 가능한 것으로 간주됩니다.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -17,13 +17,13 @@ ht-degree: 0%
 
 # 요청 유형 구성
 
-프로젝트에서 작업하는 동안 예기치 않은 이벤트가 발생할 수 있습니다. 이러한 예기치 않은 이벤트를 특정 프로젝트 또는 작업의 문제로 기록할 수 있습니다. 요청 큐로 지정된 프로젝트의 문제로 기록된 요청을 제출할 수도 있습니다. 문제 및 요청은 Adobe Workfront에서 서로 다른 것으로 간주됩니다.
+프로젝트를 작업하는 동안 예기치 않은 이벤트가 발생할 수 있습니다. 이러한 예기치 않은 이벤트를 특정 프로젝트 또는 작업에 대한 문제로 기록할 수 있습니다. 요청 대기열로 지정된 프로젝트의 문제로 기록되는 요청을 제출할 수도 있습니다. 문제 및 요청은 Adobe Workfront에서 상호 교환 가능한 것으로 간주됩니다.
 
-의 문제 만들기에 대한 정보 [!DNL Workfront]를 참조하십시오. [문제 만들기](../../../manage-work/issues/manage-issues/create-issues.md). 에서 요청 만들기에 대한 자세한 내용은 [!DNL Workfront]를 참조하십시오. [만들기 및 제출 [!DNL Adobe Workfront] 요청](../../../manage-work/requests/create-requests/create-submit-requests.md). 요청 유형을 프로젝트와 연결하는 방법에 대한 자세한 내용은 [프로젝트에 대한 요청 유형 정의](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md).
+[!DNL Workfront]에서 문제를 만드는 방법에 대한 자세한 내용은 [문제 만들기](../../../manage-work/issues/manage-issues/create-issues.md)를 참조하십시오. [!DNL Workfront]에서 요청을 만드는 방법에 대한 자세한 내용은 [만들기 및 제출 [!DNL Adobe Workfront] 요청](../../../manage-work/requests/create-requests/create-submit-requests.md)을 참조하세요. 요청 유형을 프로젝트와 연결하는 방법에 대한 자세한 내용은 [프로젝트에 대한 요청 유형 정의](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md)를 참조하십시오.
 
 ## 액세스 요구 사항
 
-이 문서의 절차를 수행하려면 다음 액세스 권한이 있어야 합니다.
+이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,15 +31,15 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
-   <td>모든</td> 
+   <td>임의</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이선스</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
    <td>[!UICONTROL 계획]</td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>넌 [!DNL Workfront] 관리자</p> <p><b>참고</b>: 여전히 액세스할 수 없는 경우 [!DNL Workfront] 관리자가 액세스 수준에서 추가 제한을 설정한 경우 자세한 내용은 [!DNL Workfront] 관리자는 액세스 수준을 수정할 수 있습니다. <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td> <p>[!DNL Workfront] 관리자여야 합니다.</p> <p><b>참고</b>: 아직 액세스 권한이 없는 경우 [!DNL Workfront] 관리자에게 액세스 수준에 추가 제한을 설정했는지 문의하세요. [!DNL Workfront] 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,35 +61,35 @@ You must have at least one request type selected. You can select multiple reques
 </div>
 -->
 
-## 요청 유형의 이름 사용자 지정
+## 요청 유형 이름 사용자 지정
 
-로서의 [!DNL Workfront] 관리자는 시스템에서 요청 유형의 이름을 구성할 수 있습니다. 새 이름은 [!DNL Workfront] 여기서 **[!UICONTROL 문제 유형]** 또는 **[!UICONTROL 요청 유형]** 필드 표시:
+[!DNL Workfront] 관리자는 시스템에서 요청 유형의 이름을 구성할 수 있습니다. **[!UICONTROL 문제 유형]** 또는 **[!UICONTROL 요청 유형]** 필드가 표시되는 [!DNL Workfront] 영역에 새 이름이 표시됩니다.
 
-* 에서 **[!UICONTROL 큐 세부 정보]** 문제 또는 요청을 받을 프로젝트의 영역입니다.
-* 요청 큐에 대해 두 개 이상의 요청 유형을 선택한 경우, **[!UICONTROL 새 문제] 양식** 에서 **[!UICONTROL 문제 유형]** 필드를 사용하여 새 문제를 만들거나 새 요청을 제출할 수 있습니다.
+* 문제 또는 요청을 수신할 프로젝트의 **[!UICONTROL 큐 세부 정보]** 영역에 있습니다.
+* 새 문제를 만들거나 새 요청을 제출할 때 **[!UICONTROL 문제 유형]** 필드의 **[!UICONTROL 새 문제] 양식**&#x200B;에서 요청 큐에 대해 요청 유형을 두 개 이상 선택합니다.
 
-   에서 문제를 만드는 방법에 대한 자세한 정보 [!DNL Workfront]를 참조하십시오.  [문제 만들기](../../../manage-work/issues/manage-issues/create-issues.md)
+  [!DNL Workfront]에서 문제를 만드는 방법에 대한 자세한 내용은 [문제 만들기](../../../manage-work/issues/manage-issues/create-issues.md)를 참조하십시오.
 
-   에서 요청 만들기에 대한 자세한 내용은 [!DNL Workfront]를 참조하십시오.  [만들기 및 제출 [!DNL Adobe Workfront] 요청](../../../manage-work/requests/create-requests/create-submit-requests.md).
+  [!DNL Workfront]에서 요청을 만드는 방법에 대한 자세한 내용은 [만들기 및 제출 [!DNL Adobe Workfront] 요청](../../../manage-work/requests/create-requests/create-submit-requests.md)을 참조하세요.
 
-* 설정 **[!UICONTROL 큐 항목 세부 정보]** 폼, 대기열 항목을 구성할 때\
-   큐 항목 만들기에 대한 자세한 내용은 [큐 항목 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+* **[!UICONTROL 대기열 주제 세부 정보]** 양식에서 대기열 주제를 구성할 때.\
+   대기열 주제 만들기에 대한 자세한 내용은 [대기열 주제 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)를 참조하십시오.
 
-요청 유형의 이름을 사용자 지정하는 방법은 다음과 같습니다.
+요청 유형의 이름을 사용자 정의하려면 다음을 수행합니다.
 
-1. 을(를) 클릭합니다. **[!UICONTROL 기본 메뉴]** 아이콘 ![](assets/main-menu-icon.png) 의 오른쪽 위 모서리에서 [!DNL Adobe Workfront]를 클릭한 다음 **[!UICONTROL 설정]** ![](assets/gear-icon-settings.png).
+1. [!DNL Adobe Workfront]의 오른쪽 위 모서리에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 설정]** ![](assets/gear-icon-settings.png)을 클릭합니다.
 
-1. 클릭 **[!UICONTROL 프로젝트 환경 설정]** > **[!UICONTROL 상태]**.
+1. **[!UICONTROL 프로젝트 환경 설정]** > **[!UICONTROL 상태]**&#x200B;를 클릭합니다.
 
-1. 을(를) 클릭합니다. **[!UICONTROL 문제]** 탭.
-1. 맨 위에 **[!UICONTROL 문제]** 탭에서 요청 유형의 이름을 마우스로 가리킨 다음 **[!UICONTROL 편집]** 아이콘이 표시됩니다.
+1. **[!UICONTROL 문제]** 탭을 클릭합니다.
+1. **[!UICONTROL 문제]** 탭의 맨 위에서 요청 유형의 이름을 마우스로 가리킨 다음 표시되는 **[!UICONTROL 편집]** 아이콘을 클릭합니다.
 
    ![](assets/edit-request-type-name-nwe.png)
 
-1. 표시되는 상자에 새 이름을 입력한 다음 키를 누릅니다 **[!UICONTROL Enter 키]**.
+1. 표시되는 상자에 새 이름을 입력한 다음 **[!UICONTROL Enter]**&#x200B;를 누릅니다.
 
 ## 다양한 요청 유형 내에서 문제 상태 구성
 
-각 요청 유형을 다른 문제 상태와 연결할 수 있습니다. 문제의 종류에 따라 문제에 상태가 표시되는 순서를 변경할 수도 있습니다.
+각 요청 유형을 다양한 문제 상태와 연결할 수 있습니다. 문제의 유형에 따라 문제에 대한 상태 표시 순서를 변경할 수도 있습니다.
 
-문제 상태의 기본 순서 변경 및 문제 상태 구성에 대한 자세한 내용은 [상태 만들기 또는 편집](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) 섹션 [상태 만들기 또는 편집](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+문제 상태의 기본 순서 변경 및 문제 상태 구성에 대한 자세한 내용은 [상태 만들기 또는 편집](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)의 [상태 만들기 또는 편집](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) 섹션을 참조하십시오.

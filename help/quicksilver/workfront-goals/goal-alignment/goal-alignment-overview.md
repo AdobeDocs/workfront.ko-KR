@@ -27,7 +27,7 @@ ht-degree: 1%
 >     또는
 >        
 >   * Prime 또는 Select Adobe Workfront 플랜에 대한 Adobe Workfront Goals에 대한 추가 라이센스입니다.
->       자세한 내용은 [Adobe Workfront 가격 및 패키징](https://www.workfront.com/plans).
+>       자세한 내용은 [Adobe Workfront 가격 및 패키징](https://www.workfront.com/plans)을 참조하십시오.
 >      
 >* 현재 플랜 및 라이선스 구조의 경우:
 >    
@@ -36,18 +36,18 @@ ht-degree: 1%
 >    
 >Workfront Goals 라이선스에 대한 자세한 내용은 Workfront 계정 관리자에게 문의하십시오.
 > 
->Workfront 목표 액세스에 대한 자세한 내용은 을 참조하십시오. [Workfront 목표 사용 요구 사항](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>Workfront 목표에 액세스하는 방법에 대한 자세한 내용은 [Workfront 목표 사용 요구 사항](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)을 참조하십시오.
 
 
 목표 정렬은 목표 관리의 중요한 부분입니다. 조직의 모든 구성원이 서로의 목표를 팀, 그룹 및 회사의 조직 목표에 맞춰 전략을 추진하려면 달성해야 하는 목표를 동일한 페이지에 있도록 할 수 있습니다.
 
 최상위 수준의 회사, 팀 또는 그룹 목표가 설정되고 검토된 후 부하 직원 및 팀원은 최상위 수준에서 캐스케이드되는 보다 집중적인 목표를 만들어야 합니다. 이러한 목표의 범위는 더욱 좁아야 하며 목표의 책임자로 지정된 개인과 그 영향력의 범위를 고려해야 한다. 목표는 자신과 팀이 어떤 목표를 달성하기 위해 달성해야 하는가에 대한 질문에 답해야 하며, 이를 위해 정렬되어야 한다.
 
-목표를 조정할 때의 모범 사례에 대한 자세한 내용은 을 참조하십시오. [Adobe Workfront 목표 시작](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
+목표를 조정할 때의 모범 사례에 대한 자세한 내용은 [Adobe Workfront 목표 시작](../../workfront-goals/goal-management/getting-started-with-wf-goals.md)을 참조하세요.
 
 ## 목표 정렬을 위한 고려 사항
 
-* 목표는 두 개 이상의 다른 목표에 동시에 기여할 수 없습니다. 동일한 상위 목표에 여러 개의 하위 목표를 정렬할 수 있지만 하위 목표에는 하나의 상위 목표만 지정할 수 있습니다. 상위 및 하위 목표에 대한 자세한 내용은 [상위 및 하위 목표 이해](#understand-parent-and-children-goals) 이 문서의 섹션.
+* 목표는 두 개 이상의 다른 목표에 동시에 기여할 수 없습니다. 동일한 상위 목표에 여러 개의 하위 목표를 정렬할 수 있지만 하위 목표에는 하나의 상위 목표만 지정할 수 있습니다. 상위 및 하위 목표에 대한 자세한 내용은 이 문서의 [상위 및 하위 목표 이해](#understand-parent-and-children-goals) 섹션을 참조하십시오.
 * 목표는 여러 개의 정렬된(또는 하위) 목표뿐만 아니라 여러 활동 및 결과를 가질 수 있습니다. 또한, 각 아동 목표에는 부모 목표의 진행뿐만 아니라 그 진행에 영향을 미치는 다른 활동과 결과도 있을 수 있다.
 
   >[!TIP]
@@ -63,11 +63,11 @@ ht-degree: 1%
 
 목표를 정렬하는 방법에는 두 가지가 있습니다.
 
-* **상향식 정렬**: 하위 목표를 상위 목표에 직접 연결할 수 있습니다. 상향식 목표 정렬에 대한 자세한 내용은 [Adobe Workfront 목표에서 연결하여 목표 정렬](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
+* **상향 정렬**: 하위 목표를 상위 목표에 직접 연결할 수 있습니다. 상향 목표 정렬에 대한 자세한 내용은 [Adobe Workfront 목표에서 연결하여 목표 정렬](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)을 참조하십시오.
 
-* **하향식 정렬**: 목표의 결과 또는 활동을 다른 목표로 전환할 수 있습니다. 새 목표는 부모가 되는 원래 목표의 하위 목표가 됩니다. 하향식 목표 정렬에 대한 자세한 내용은 [결과 및 활동을 목표로 변환하여 목표 정렬](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
+* **하향식 정렬**: 목표의 결과나 활동을 다른 목표로 변환할 수 있습니다. 새 목표는 부모가 되는 원래 목표의 하위 목표가 됩니다. 하향식 목표 정렬에 대한 자세한 내용은 [결과 및 활동을 목표로 변환하여 목표 정렬](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)을 참조하십시오.
 
-상위 및 하위 목표에 대한 자세한 내용은 [상위 및 하위 목표 이해](#understand-parent-and-children-goals) 이 문서의 섹션.
+상위 및 하위 목표에 대한 자세한 내용은 이 문서의 [상위 및 하위 목표 이해](#understand-parent-and-children-goals) 섹션을 참조하십시오.
 
 ## 상위 및 하위 목표 이해 {#understand-parent-and-children-goals}
 
@@ -80,7 +80,7 @@ ht-degree: 1%
 * 결과와 활동으로 나타난 아동 목표의 진행은 부모 목표의 진행에 영향을 미친다. 상위 목표와 연관된 다른 활동 또는 결과도 상위 목표의 진행에 영향을 줍니다.
 * 상위 목표의 수준에서 하위 목표의 진행률을 업데이트할 수 없습니다. 하위 목표의 활동 및 결과를 업데이트해야 하며, 이렇게 하면 상위 목표뿐만 아니라 하위 목표의 진행률도 자동으로 업데이트됩니다.
 
-  목표에 대한 진행률 업데이트에 대한 자세한 내용은 다음을 참조하십시오. [Adobe Workfront 목표의 목표 진행 상황 업데이트](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
+  목표의 진행 상황 업데이트에 대한 자세한 내용은 [Adobe Workfront 목표의 목표 진행 상황 업데이트](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)를 참조하십시오.
 
 ## 정렬된 목표 찾기
 

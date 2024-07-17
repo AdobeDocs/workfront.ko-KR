@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!--Audited: 2/2024-->
 
-Portfolio은 의 프로젝트 또는 프로그램 컬렉션입니다. [!DNL Adobe Workfront]. 시스템과 관련이 없는 포트폴리오를 삭제하거나 비활성화할 수 있습니다.
+Portfolio은 [!DNL Adobe Workfront]에 있는 프로젝트 또는 프로그램의 컬렉션입니다. 시스템과 관련이 없는 포트폴리오를 삭제하거나 비활성화할 수 있습니다.
 
 포트폴리오를 삭제하는 대신 더 이상 향후 프로젝트와 연결할 필요가 없는 포트폴리오는 비활성화하여 현재 포트폴리오 및 해당 프로그램과 연결된 프로젝트에 대한 내역 정보를 유지하는 것이 좋습니다.
 
@@ -51,7 +51,7 @@ Portfolio은 의 프로젝트 또는 프로그램 컬렉션입니다. [!DNL Adob
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -71,20 +71,20 @@ Portfolio은 의 프로젝트 또는 프로그램 컬렉션입니다. [!DNL Adob
 
 ## 포트폴리오 비활성화
 
-포트폴리오를 비활성화해도 다음에서 액세스할 수 있습니다 [!UICONTROL Portfolio] 영역이지만 사용자가 프로젝트에 추가하려고 할 때 포트폴리오 목록에 더 이상 표시되지 않습니다.
+포트폴리오를 비활성화해도 [!UICONTROL Portfolio] 영역에서 계속 액세스할 수 있지만 사용자가 포트폴리오를 프로젝트에 추가하려고 하면 포트폴리오 목록에 더 이상 표시되지 않습니다.
 
 >[!NOTE]
 >
->다음 방법에 따라 [!DNL Workfront] 또는 그룹 관리자가 레이아웃 템플릿을 구성합니다. [!UICONTROL Portfolio] 영역에 표시되지 않을 수 있음 [!UICONTROL 메인 메뉴]. 자세한 내용은 [레이아웃 템플릿을 사용하여 메인 메뉴 사용자 정의](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+>[!DNL Workfront] 또는 그룹 관리자가 레이아웃 템플릿을 구성하는 방법에 따라 [!UICONTROL Portfolio] 영역이 [!UICONTROL 기본 메뉴]에 표시되지 않을 수 있습니다. 자세한 내용은 [레이아웃 템플릿을 사용하여 기본 메뉴 사용자 지정](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)을 참조하십시오.
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리입니다.
-1. 클릭 **[!UICONTROL Portfolio]** .
+1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭합니다.
+1. **[!UICONTROL Portfolio]** 을 클릭합니다.
 1. 포트폴리오의 이름을 클릭합니다.
-1. 다음을 클릭합니다. **자세히** 메뉴 ![](assets/more-icon.png) 포트폴리오 이름의 오른쪽에 있는 **[!UICONTROL Portfolio 비활성화]**.
+1. 포트폴리오 이름의 오른쪽에 있는 **자세히** 메뉴 ![](assets/more-icon.png)을(를) 클릭한 다음 **[!UICONTROL Portfolio 비활성화]**&#x200B;를 클릭합니다.
 
 ## 포트폴리오 삭제
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리입니다.
-1. 클릭 **[!UICONTROL Portfolio]** .
-1. 포트폴리오를 선택한 다음 **[!UICONTROL 삭제]**&#x200B; [!UICONTROL 삭제] 아이콘 ![](assets/delete.png).
-1. 표시되는 상자에서 **[!UICONTROL 예, 삭제합니다.]** 확인할 수 있습니다.
+1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭합니다.
+1. **[!UICONTROL Portfolio]** 을 클릭합니다.
+1. 포트폴리오를 선택한 다음 **[!UICONTROL 삭제]**&#x200B;[!UICONTROL 삭제] 아이콘 ![](assets/delete.png)을(를) 클릭합니다.
+1. 표시되는 상자에서 **[!UICONTROL 예, 삭제]**&#x200B;를 클릭하여 확인합니다.

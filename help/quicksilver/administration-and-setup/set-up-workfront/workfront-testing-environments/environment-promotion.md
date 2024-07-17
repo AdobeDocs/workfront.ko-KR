@@ -17,7 +17,7 @@ ht-degree: 2%
 
 ---
 
-# 다음 항목 간 개체 이동 [!DNL Workfront] 를 사용하는 환경 [!DNL Workfront] 환경 프로모션 API
+# [!DNL Workfront] 환경 프로모션 API를 사용하여 [!DNL Workfront] 환경 간에 개체 이동
 
 환경 프로모션 기능을 사용하면 구성 관련 객체를 한 환경에서 다른 환경으로 이동할 수 있습니다. 이 문서에 설명된 대로 Workfront API를 사용하여 이러한 개체를 이동할 수 있습니다.
 
@@ -33,13 +33,13 @@ Workfront 애플리케이션을 사용하여 환경 간에 객체를 이동하�
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] 플랜</strong>
+   <td><strong>[!DNL Adobe Workfront] 계획</strong>
    </td>
    <td> Prime 또는 Ultimate(신규 계획만 해당)
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] 라이선스</strong>
+   <td><strong>[!DNL Adobe Workfront]개 라이선스</strong>
    </td>
    <td> [!UICONTROL Standard]
    </td>
@@ -47,22 +47,22 @@ Workfront 애플리케이션을 사용하여 환경 간에 객체를 이동하�
    <tr>
    <td>액세스 수준 구성
    </td>
-   <td>다음이어야 합니다: [!DNL Workfront] 관리자.
+   <td>[!DNL Workfront] 관리자여야 합니다.
    </td>
   </tr>
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## 전제 조건
 
-프로모션 패키지 만들기 엔드포인트는 사용자가 이미 소스 환경을 구성했다고 가정합니다. 이 API 호출을 사용하려면 의 개체 맵을 수동으로 만들어야 합니다. [!DNL Workfront] objCodes 및 개체 GUID입니다. 이 지도의 구체적인 구조는 아래에 설명되어 있습니다.
+프로모션 패키지 만들기 엔드포인트는 사용자가 이미 소스 환경을 구성했다고 가정합니다. 이 API 호출에는 [!DNL Workfront] objCodes 및 개체 GUID의 개체 맵을 수동으로 만들어야 합니다. 이 지도의 구체적인 구조는 아래에 설명되어 있습니다.
 
 ## 환경 프로모션을 위해 지원되는 오브젝트
 
 환경 프로모션 기능은 구성 관련 객체를 한 환경에서 다른 환경으로 이동할 수 있는 기능을 제공하기 위한 것입니다. 트랜잭션 개체를 이동하는 기능은 지원하지 않습니다(제한된 예외 사항 포함).
 
-프로모션 가능한 객체 및 포함된 프로모션 가능한 하위 객체 목록은 을 참조하십시오. [환경 프로모션을 위해 지원되는 오브젝트](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion) 이 문서에서 [Workfront 환경 간 개체 이동 개요](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
+승격 가능한 개체 및 포함된 승격 가능한 하위 개체 목록은 [Workfront 환경 간 개체 이동 개요](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md) 문서의 [환경 승격에 대해 지원되는 개체](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion)를 참조하십시오.
 
 ## 인증
 
@@ -72,7 +72,7 @@ API는 각 요청을 인증하여 클라이언트가 요청된 개체를 보거�
 
 ### 요청 헤더 인증
 
-기본 인증 방법은 세션 토큰이 포함된 SessionID라는 요청 헤더를 전달하는 것입니다. 이는 안전하다는 장점이 있다 [CSRF(크로스 사이트 요청 위조)](https://en.wikipedia.org/wiki/Cross-site_request_forgery) 캐싱을 위해 URI를 공격하고 방해하지 않습니다.
+기본 인증 방법은 세션 토큰이 포함된 SessionID라는 요청 헤더를 전달하는 것입니다. 이를 통해 [CSRF(크로스 사이트 요청 위조)](https://en.wikipedia.org/wiki/Cross-site_request_forgery) 공격으로부터 안전하며 캐싱을 위해 URI를 방해하지 않는 이점이 있습니다.
 
 다음은 요청 헤더의 예입니다.
 
@@ -108,18 +108,18 @@ SessionID: abc1234
 
 첫 번째 단계는 &quot;ASSEMBLING&quot; 상태의 빈 프로모션 패키지를 만드는 결과를 초래합니다.
 
-두 번째 단계에서는 `objectCollections` Workfront에서 요청된 레코드를 어셈블하기 위해 POST 본문에 제공되는 배열입니다. 요청한 레코드 수와 Workfront 구성에 따라 이 단계를 완료하는 데 몇 분이 걸릴 수 있습니다. 이 프로세스가 끝나면 빈 프로모션 패키지가 `packageEntities` 상태가 자동으로 &quot;초안&quot;으로 설정됩니다.
+두 번째 단계에서는 POST 본문에 제공된 `objectCollections` 배열을 사용하여 Workfront에서 요청된 레코드를 조합합니다. 요청한 레코드 수와 Workfront 구성에 따라 이 단계를 완료하는 데 몇 분이 걸릴 수 있습니다. 이 프로세스가 끝나면 빈 프로모션 패키지가 `packageEntities`(으)로 업데이트되고 상태가 자동으로 &quot;초안&quot;으로 설정됩니다.
 
 
 >[!NOTE]
 >
->의 구조를 확인합니다. `objectCollections`  배열입니다.
+>`objectCollections` 배열의 구조를 확인합니다.
 >
->배열의 각 항목에는 `objCode` Workfront API 탐색기에 문서화된 개체 코드에 해당하는 키입니다.
+>배열의 각 항목에는 Workfront API 탐색기에 문서화된 개체 코드에 해당하는 `objCode` 키가 있습니다.
 >
->각 항목에는 `entities` 컬렉션. 이는 다음을 예상합니다. `ID` 필드. 선택 사항도 사용할 수 있습니다 `name` 을(를) 보다 쉽게 알 수 있도록 하는 속성 `ID` 를 나타냅니다.
+>각 항목에는 `entities` 컬렉션도 포함되어 있습니다. `ID` 필드가 필요합니다. 또한 선택적 `name` 특성을 수락하여 `ID`이(가) 나타내는 내용을 더 쉽게 알 수 있습니다.
 >
->에서 요청할 수 있는 개체 코드 목록 `objectCollections` list, see the [환경 프로모션을 위해 지원되는 오브젝트](#supported-objects-for-environment-promotion) 이 문서의 섹션.
+>`objectCollections` 목록에서 요청할 수 있는 개체 코드 목록을 보려면 이 문서의 [환경 프로모션에 대해 지원되는 개체](#supported-objects-for-environment-promotion) 섹션을 참조하십시오.
 
 #### URL
 
@@ -373,7 +373,7 @@ _비어 있음_
 1. 설명(문자열)
 1. 상태(값 유효성 검사가 포함된 문자열)
 
-사용 가능한 상태에 대한 자세한 설명은 을 참조하십시오 [환경 프로모션 상태](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses) 이 문서에서 [Workfront 환경 간 개체 이동 개요](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
+사용 가능한 상태에 대한 자세한 설명은 문서 [Workfront 환경 간 개체 이동 개요](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)의 [환경 프로모션 상태](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses)를 참조하십시오.
 
 
 #### URL
@@ -516,7 +516,7 @@ Deleted
 
 결과는 프로모션 개체가 대상 환경에서 발견되었는지 여부를 식별하는 JSON 본문입니다.
 
-각 프로모션 개체에 대해 다음 중 하나를 수행합니다 `actions`  이(가) 설정됩니다.
+각 프로모션 개체에 대해 다음 `actions` 중 하나가 설정됩니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -524,24 +524,24 @@ Deleted
  <tbody> 
   <tr> 
    <td>만들기</td> 
-   <td><p>대상 환경에서 해당 레코드를 찾을 수 없는 경우 작업이 CREATE로 설정됩니다.</p><p>이 작업을 다음에서 설정하면 <code>translationmap</code> 에 제공됩니다. <code>/install</code> 끝점은 설치 서비스가 레코드를 만듭니다.</p></td> 
+   <td><p>대상 환경에서 해당 레코드를 찾을 수 없는 경우 작업이 CREATE로 설정됩니다.</p><p>이 작업이 <code>/install</code> 끝점에 제공된 <code>translationmap</code>에서 설정되면 설치 서비스가 레코드를 만듭니다.</p></td> 
   </tr> 
   <tr> 
    <td>USEEXISTING</td> 
-   <td><p>대상 환경에서 해당 레코드를 찾으면 작업은 USEEXISTING으로 설정되고 <code>targetId</code> 에도 캡처됩니다. <code>translationmap</code>.</p><p>이 작업을 다음에서 설정하면 <code>translationmap</code> 에 제공됩니다. <code>/install</code> 끝점입니다. 설치 서비스가 레코드를 만들지 않습니다. 그러나 는 <code>targetId</code> 이 레코드에 대한 참조가 있을 수 있는 다른 객체에 대한 맵 항목에 포함됩니다.</p><p>예를 들어 패키지를 배포하는 대상 환경에서 "기본 그룹"을 찾을 수 있습니다. 두 개의 "기본 그룹" 레코드를 가질 수 없으므로 설치 서비스는 프로젝트, 양식 또는 이 그룹과 관련된 다른 엔티티와 같은 "기본 그룹"에 대한 참조를 포함하는 다른 개체 만들기 작업에서 기존 그룹에 대한 GUID를 사용합니다.</p><p><b>참고:</b> <ul><li><p>USEEXISTING 작업이 지정되면 대상 환경의 기존 레코드는 수정되지 않습니다. </p><p>예를 들어 패키지를 빌드한 샌드박스에서 "기본 그룹"에 대한 설명이 변경되고 설명 값이 타겟 환경에서 다른 경우 이 값은 설치 후에도 변경되지 않습니다 <code>translationmap</code>.</li></ul></td> 
+   <td><p>대상 환경에서 해당 레코드가 발견되면 작업이 USEEXISTING으로 설정되고 <code>targetId</code>도 <code>translationmap</code>에서 캡처됩니다.</p><p>이 작업이 <code>/install</code> 끝점에 제공된 <code>translationmap</code>에서 설정되면 설치 서비스가 레코드를 만들지 않습니다. 그러나 이 레코드를 참조할 수 있는 다른 개체에 대해 맵 항목에 포함된 <code>targetId</code>을(를) 사용합니다.</p><p>예를 들어 패키지를 배포하는 대상 환경에서 "기본 그룹"을 찾을 수 있습니다. 두 개의 "기본 그룹" 레코드를 가질 수 없으므로 설치 서비스는 프로젝트, 양식 또는 이 그룹과 관련된 다른 엔티티와 같은 "기본 그룹"에 대한 참조를 포함하는 다른 개체 만들기 작업에서 기존 그룹에 대한 GUID를 사용합니다.</p><p><b>참고:</b> <ul><li><p>USEEXISTING 작업이 지정되면 대상 환경의 기존 레코드는 수정되지 않습니다. </p><p>예를 들어 패키지를 빌드한 샌드박스에서 "기본 그룹"에 대한 설명이 변경되었으며 설명 값이 대상 환경에서 다른 경우 이 <code>translationmap</code>을(를) 사용하여 설치한 후에도 값이 변경되지 않습니다.</li></ul></td> 
   </tr> 
   <tr> 
    <td>덮어쓰기</td> 
-   <td><p>이 작업은 자동으로 설정되지 않습니다.</p><p>이 작업은 대상 환경에 있는 개체를 업데이트하는 기능을 제공합니다. CREATE 또는 USEEXISTING 작업을 실행하기 전에 수동으로 재정의하는 기능을 제공합니다. <code>/install</code> 호출합니다.<ul><li>사용자는 테스트 환경에서 개체를 업데이트한 다음 덮어쓰기 작업을 사용하여 대상 환경에서 해당 개체를 업데이트할 수 있습니다.</p></li><li><p>사용자가 처음에 프로모션 패키지를 한 개 설치한 다음 차후에 새(또는 업데이트된) 패키지에 초기 패키지의 객체에 대한 변경 사항이 포함된 경우 덮어쓰기 를 사용하여 이전에 설치한 객체를 대체(재정의)할 수 있습니다. </p><p>덮어쓰기에 대한 자세한 내용은 이 문서의 [덮어쓰기](#overwriting) 섹션을 참조하십시오.</li><ul></td> 
+   <td><p>이 작업은 자동으로 설정되지 않습니다.</p><p>이 작업은 대상 환경에 있는 개체를 업데이트하는 기능을 제공합니다. <code>/install</code> 호출을 실행하기 전에 할당된 CREATE 또는 USEEXISTING 작업을 수동으로 재정의하는 기능을 제공합니다.<ul><li>사용자는 테스트 환경에서 개체를 업데이트한 다음 덮어쓰기 작업을 사용하여 대상 환경에서 해당 개체를 업데이트할 수 있습니다.</p></li><li><p>사용자가 처음에 프로모션 패키지를 한 개 설치한 다음 차후에 새(또는 업데이트된) 패키지에 초기 패키지의 객체에 대한 변경 사항이 포함된 경우 덮어쓰기 를 사용하여 이전에 설치한 객체를 대체(재정의)할 수 있습니다. </p><p>덮어쓰기에 대한 자세한 내용은 이 문서의 [덮어쓰기](#overwriting) 섹션을 참조하십시오.</li><ul></td> 
   </tr> 
   <tr> 
    <td>무시</td> 
-   <td><p>이 작업은 자동으로 설정되지 않습니다.</p><p>CREATE 또는 USEEXISTING 작업을 실행하기 전에 수동으로 재정의하는 기능을 제공합니다. <code>/install</code> 호출합니다.</p><p><b>참고: </b><ul><li><p>원래 CREATE로 설정되었던 레코드가 IGNORE로 설정된 경우 모든 하위 레코드도 IGNORE로 설정해야 합니다.</p><p>예를 들어 템플릿 레코드가 CREATE 작업과 매핑되었는데 설치 사용자가 이 레코드를 배포에서 제외하려는 경우 템플릿의 작업을 IGNORE로 설정할 수 있습니다.</p><p>이 경우 설치 사용자가 템플릿 작업, 템플릿 작업 할당, 템플릿 작업 전임 작업, 대기열 정의, 대기열 주제, 라우팅 규칙 등도 IGNORE로 설정하지 않으면 배포가 설치 시도에 실패하게 됩니다.</p></li><li><p>원래 USEEXISTING으로 설정된 레코드가 IGNORE로 설정된 경우 설치 과정에서 일부 부작용이 발생할 수 있습니다.</p><p>예를 들어, 그룹 레코드가 USEEXISTING 작업으로 매핑되고 설치 사용자가 작업을 IGNORE로 변경하면 그룹이 필요한 객체(예: 할당된 그룹이 없으면 프로젝트가 존재할 수 없음)에 대해 시스템 기본 그룹이 해당 프로젝트에 할당됩니다.</p></li><li><p>원래 USEEXISTING으로 설정된 레코드가 CREATE로 설정된 경우 많은 Workfront 엔티티에서 고유한 이름 제약 조건이 있으므로 설치 프로세스 중에 몇 가지 부작용이 있을 수 있습니다.</p><p>예를 들어, "기본 그룹" 레코드가 USEEXISTING 작업과 매핑되어 있고, "기본 그룹"이 이미 있으므로 설치 사용자가 작업을 CREATE로 변경하면 설치 시도에서 모든 단계를 완료하지 못합니다. 그룹 이름은 고유해야 합니다.</p><p>일부 엔티티에 고유 이름 제약 조건이 없습니다. 이러한 객체에 대해 이 변경 작업을 수행하면 동일한 이름의 레코드가 두 개 생성됩니다. 예를 들어 템플릿, 프로젝트, 보기, 필터, 그룹화, 보고서 및 대시보드에는 고유한 이름 제약 조건이 필요하지 않습니다. 이러한 레코드에 고유한 이름을 사용하는 것이 가장 좋지만 강제 적용되지는 않습니다.</p></li></ul></p></td> 
+   <td><p>이 작업은 자동으로 설정되지 않습니다.</p><p><code>/install</code> 호출을 실행하기 전에 할당된 CREATE 또는 USEEXISTING 작업을 수동으로 재정의하는 기능을 제공합니다.</p><p><b>참고: </b><ul><li><p>원래 CREATE로 설정되었던 레코드가 IGNORE로 설정된 경우 모든 하위 레코드도 IGNORE로 설정해야 합니다.</p><p>예를 들어 템플릿 레코드가 CREATE 작업과 매핑되었는데 설치 사용자가 이 레코드를 배포에서 제외하려는 경우 템플릿의 작업을 IGNORE로 설정할 수 있습니다.</p><p>이 경우 설치 사용자가 템플릿 작업, 템플릿 작업 할당, 템플릿 작업 전임 작업, 대기열 정의, 대기열 주제, 라우팅 규칙 등도 IGNORE로 설정하지 않으면 배포가 설치 시도에 실패하게 됩니다.</p></li><li><p>원래 USEEXISTING으로 설정된 레코드가 IGNORE로 설정된 경우 설치 과정에서 일부 부작용이 발생할 수 있습니다.</p><p>예를 들어, 그룹 레코드가 USEEXISTING 작업으로 매핑되고 설치 사용자가 작업을 IGNORE로 변경하면 그룹이 필요한 객체(예: 할당된 그룹이 없으면 프로젝트가 존재할 수 없음)에 대해 시스템 기본 그룹이 해당 프로젝트에 할당됩니다.</p></li><li><p>원래 USEEXISTING으로 설정된 레코드가 CREATE로 설정된 경우 많은 Workfront 엔티티에서 고유한 이름 제약 조건이 있으므로 설치 프로세스 중에 몇 가지 부작용이 있을 수 있습니다.</p><p>예를 들어, "기본 그룹" 레코드가 USEEXISTING 작업과 매핑되어 있고, "기본 그룹"이 이미 있으므로 설치 사용자가 작업을 CREATE로 변경하면 설치 시도에서 모든 단계를 완료하지 못합니다. 그룹 이름은 고유해야 합니다.</p><p>일부 엔티티에 고유 이름 제약 조건이 없습니다. 이러한 객체에 대해 이 변경 작업을 수행하면 동일한 이름의 레코드가 두 개 생성됩니다. 예를 들어 템플릿, 프로젝트, 보기, 필터, 그룹화, 보고서 및 대시보드에는 고유한 이름 제약 조건이 필요하지 않습니다. 이러한 레코드에 고유한 이름을 사용하는 것이 가장 좋지만 강제 적용되지는 않습니다.</p></li></ul></p></td> 
   </tr> 
   </tbody> 
 </table>
 
-현재 업데이트를 지원하지 않습니다. `action` 을 참조하십시오. 업데이트를 허용하는 옵션 `action` 우리가 연구하고 있는 거야.
+현재 이 서비스의 알파 기능에서 UPDATE `action`을(를) 지원하지 않습니다. UPDATE `action`을(를) 허용하는 옵션은 조사 중입니다.
 
 #### URL
 
@@ -671,7 +671,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 
 >[!NOTE]
 >
->설치를 실행하는 데 필요한 ID는 `id` 필드. 이 예에서는 `id` 필드는 맨 위에서 세 번째이며 다음 값으로 시작하는 값이 있습니다. `c0bc79bd`.
+>설치를 실행하는 데 필요한 ID는 `id` 필드입니다. 이 예제에서 `id` 필드는 맨 위에서 세 번째이며 `c0bc79bd`(으)로 시작하는 값을 갖습니다.
 
 ### 설치 실행
 
@@ -681,7 +681,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 >
 >사전 실행을 실행한 후 대상 환경(패키지를 배포 중인 환경)이 변경된 경우 사전 실행을 다시 실행하는 것이 좋습니다. 사전 실행을 다시 실행하지 않으면 실행이 정확하게 완료되지 않거나 설치에 실패할 수 있습니다.
 >
->사전 실행 실행에 대한 지침은 다음을 참조하십시오. [사전 실행](#execute-a-pre-run).
+>사전 실행 실행에 대한 지침은 [사전 실행 실행](#execute-a-pre-run)을 참조하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -837,15 +837,15 @@ _비어 있음_
   </tbody> 
 </table>
 
-이 호출은 최종 값을 반환합니다. `translationMap` 특정 설치를 위해 설치 서비스에서 생성합니다.
+이 호출은 특정 설치를 위해 설치 서비스에서 생성한 최종 `translationMap`을(를) 반환합니다.
 
-각 기록에는 처방된 내용이 명시됩니다 `action` 이(가) 및 해당 작업의 성공 여부를 나타냅니다.
+각 레코드에는 지정된 `action`이(가) 무엇인지와 해당 작업의 성공 여부가 표시됩니다.
 
-CREATE가 있는 레코드 `action` 다음 `targetId` 필드는 대상 시스템에서 새로 만든 레코드의 값으로 설정됩니다. 또한 `installationStatus` 필드가 설치됨으로 설정됩니다.
+CREATE가 `action`인 레코드의 경우 `targetId` 필드가 대상 시스템에서 새로 만든 레코드의 값으로 설정됩니다. 또한 `installationStatus` 필드가 INSTALLED로 설정됩니다.
 
-USEEXISTING이 있는 레코드 `action` 다음 `targetId` 필드도 설정되고 `installationStatus` 필드가 등록됨으로 설정됩니다. 이것은 매핑 프로세스가 완료되었으며 설치 서비스가 레코드를 평가했으며 처리할 사항이 없음을 인정함을 의미합니다.
+USEEXISTING `action`이(가) 있는 레코드의 경우 `targetId` 필드도 설정되고 `installationStatus` 필드는 REGISTERED로 설정됩니다. 이것은 매핑 프로세스가 완료되었으며 설치 서비스가 레코드를 평가했으며 처리할 사항이 없음을 인정함을 의미합니다.
 
-레코드에 CREATE가 있는 경우 `action` 그러나 레코드를 성공적으로 만들지 못한 다음 `installationStatus` 이 실패로 설정되고 실패 이유도 제공됩니다.
+레코드에 CREATE `action`이(가) 있지만 레코드를 성공적으로 만들지 못하면 `installationStatus`이(가) FAILED로 설정되고 실패 이유도 제공됩니다.
 
 #### URL
 
@@ -919,7 +919,7 @@ _비어 있음_
 3단계 프로세스입니다.
 
 1. 번역 맵 만들기(&quot;설치 준비&quot; 단계와 유사)
-1. 생성된 번역 맵을 편집하고 `action` 및 `targetId` 덮어쓸 오브젝트의 필드. 작업은 다음과 같아야 합니다. `OVERWRITING`및 `targetId` 은(는) 덮어써야 하는 오브젝트의 uuid여야 합니다
+1. 생성된 번역 맵을 편집하여 덮어쓸 개체에 대해 `action` 및 `targetId` 필드를 설정합니다. 작업은 `OVERWRITING`이어야 하며 `targetId`은(는) 덮어써야 하는 개체의 UUID여야 합니다
 1. 설치를 실행합니다.
 
 * [1단계 - 번역 맵 만들기](#step-1---create-a-translation-map)
@@ -940,7 +940,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 
 #### 응답
 
-가 있는 번역 맵 `202 - OK` 상태
+`202 - OK` 상태의 번역 맵
 
 ```json
 {
@@ -1017,13 +1017,13 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 
 이 단계에 대한 끝점이 없습니다.
 
-1. 에 반환된 번역 맵에서 [1단계 - 번역 맵 만들기](#step-1---create-a-translation-map)를 클릭하여 설치할 개체 목록을 검사합니다.
+1. [1단계 - 번역 맵 만들기](#step-1---create-a-translation-map)에서 반환된 번역 맵에서 설치할 개체 목록을 검사하십시오.
 1. 각 개체의 작업 필드를 원하는 설치 작업으로 업데이트합니다.
-1. 유효성 검사 `targetId` 각 개체에 대해 설명합니다. 설정된 작업이 `USEEXISTING` 또는 `OVERWRITING`, `targetId` 대상 환경에서 대상 개체의 UUID로 설정해야 합니다. 다른 모든 작업의 경우 targetId는 빈 문자열이어야 합니다.
+1. 각 개체에서 `targetId`의 유효성을 검사합니다. 설정 작업이 `USEEXISTING` 또는 `OVERWRITING`인 경우 `targetId`을(를) 대상 환경의 대상 개체의 UUID로 설정해야 합니다. 다른 모든 작업의 경우 targetId는 빈 문자열이어야 합니다.
 
    >[!NOTE]
    >
-   >다음 `targetId` 충돌이 감지된 경우 가 이미 채워집니다.
+   >충돌이 감지된 경우 `targetId`이(가) 이미 채워져 있습니다.
 
 ### **3단계 - 설치**
 
@@ -1035,7 +1035,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 
 #### 본문
 
-단일 필드가 있는 개체입니다. `translationMap`, 이는 수정된 번역 맵과 동일해야 함 [2단계 - 번역 맵 수정](#step-2---modify-the-translation-map).
+단일 필드가 `translationMap`인 개체입니다. [2단계 - 번역 맵 수정](#step-2---modify-the-translation-map)에서 수정된 번역 맵과 같아야 합니다.
 
 ```json
 {
@@ -1114,7 +1114,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 
 #### 응답
 
-응답에는 다음이 포함됩니다. `{uuid of the created installation}` 및 a `202 - ACCEPTED` 상태.
+응답에는 `{uuid of the created installation}` 및 `202 - ACCEPTED` 상태가 포함됩니다.
 
 예: `b6aa0af8-3520-4b25-aca3-86793dff44a6`
 

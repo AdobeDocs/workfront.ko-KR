@@ -20,13 +20,13 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->이 커넥터는 현재 베타 버전입니다.
+>이 커넥터는 현재 Beta에 있습니다.
 
 Adobe Workfront 보드는 열과 카드가 포함된 공유 보드에 대한 액세스를 제공하여 팀 공동 작업을 허용하는 유연한 도구입니다.
 
 Adobe Workfront 보드 모듈을 사용하여 레코드를 읽거나 업데이트하거나, Workfront 보드 API에 대한 API 호출을 수행하거나, 보드에서 작업이 발생할 때 시나리오를 트리거할 수 있습니다.
 
-Workfront 보드에 대한 일반적인 정보는 다음을 참조하십시오. [보드 개요](/help/quicksilver/agile/boards-overview.md).
+Workfront 보드에 대한 일반적인 정보는 [보드 개요](/help/quicksilver/agile/boards-overview.md)를 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -47,25 +47,25 @@ Workfront 보드에 대한 일반적인 정보는 다음을 참조하십시오. 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 라이센스</td> 
    <td>
-   <p>현재 라이선스 요구 사항: 아니요 [!DNL Workfront Fusion] 라이센스 요구 사항.</p>
+   <p>현재 라이선스 요구 사항: [!DNL Workfront Fusion] 라이선스 요구 사항이 없습니다.</p>
    <p>또는</p>
-   <p>기존 라이선스 요구 사항: [!UICONTROL [!DNL Workfront Fusion] 작업 자동화 및 통합용], [!UICONTROL [!DNL Workfront Fusion] 작업 자동화용]</p>
+   <p>레거시 라이선스 요구 사항: 작업 자동화 및 통합의 경우 [!UICONTROL [!DNL Workfront Fusion], 작업 자동화의 경우 [!UICONTROL [!DNL Workfront Fusion]]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">제품</td> 
    <td>
-   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime]이 있는 경우 [!DNL Adobe Workfront] 플랜, 조직은 다음을 구매해야 합니다. [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오. [!DNL Workfront Fusion] [!UICONTROL Ultimate]에 포함되어 있습니다. [!DNL Workfront] 계획.</p>
+   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime] [!DNL Adobe Workfront] 플랜이 있는 경우 조직에서 이 문서에 설명된 기능을 사용하려면 [!DNL Adobe Workfront Fusion]과(와) [!DNL Adobe Workfront]을(를) 구매해야 합니다. [!DNL Workfront Fusion]이(가) [!UICONTROL Ultimate] [!DNL Workfront] 계획에 포함되어 있습니다.</p>
    <p>또는</p>
-   <p>레거시 제품 요구 사항: 조직에서 구매해야 함 [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오.</p>
+   <p>레거시 제품 요구 사항: 이 문서에 설명된 기능을 사용하려면 조직에서 [!DNL Adobe Workfront Fusion]과(와) [!DNL Adobe Workfront]을(를) 구매해야 합니다.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
-다음에 대한 정보: [!DNL Adobe Workfront Fusion] 라이센스, 참조 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+[!DNL Adobe Workfront Fusion] 라이선스에 대한 자세한 내용은 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md)를 참조하세요.
 
 
 ## 전제 조건
@@ -80,7 +80,7 @@ Workfront 보드에 대한 일반적인 정보는 다음을 참조하십시오. 
 
 Workfront 보드 연결을 만들려면 다음 작업을 수행하십시오.
 
-1. 다음 중 하나 [!DNL Adobe Workfront Boards] 모듈, 클릭 **[!UICONTROL 추가]** 연결 상자 옆에 있습니다.
+1. [!DNL Adobe Workfront Boards] 모듈에서 [연결] 상자 옆에 있는 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
 
 1. 다음 필드를 채웁니다.
 
@@ -106,29 +106,29 @@ Workfront 보드 연결을 만들려면 다음 작업을 수행하십시오.
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL 클라이언트 ID]<p>(선택 사항)</p></td>
-          <td>다음을 입력하십시오. [!DNL Adobe] [!UICONTROL 클라이언트 ID]. 이 정보는 의 [!UICONTROL 자격 증명 세부 정보] 섹션에서 찾을 수 있습니다. [!DNL Adobe Developer Console].</td>
+          <td>[!DNL Adobe] [!UICONTROL 클라이언트 ID]를 입력하십시오. 이는 [!DNL Adobe Developer Console]의 [!UICONTROL 자격 증명 세부 정보] 섹션에서 찾을 수 있습니다.</td>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL 클라이언트 암호]<p>(선택 사항)</p></td>
-          <td>다음을 입력하십시오. [!DNL Adobe] [!UICONTROL 클라이언트 암호]. 이 정보는 의 [!UICONTROL 자격 증명 세부 정보] 섹션에서 찾을 수 있습니다. [!DNL Adobe Developer Console].
+          <td>[!DNL Adobe] [!UICONTROL 클라이언트 암호]를 입력하십시오. 이는 [!DNL Adobe Developer Console]의 [!UICONTROL 자격 증명 세부 정보] 섹션에서 찾을 수 있습니다.
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL 인증 URL]<p>(선택 사항)</p></td>
-          <td>Workfront 인스턴스가 이 연결을 인증하는 데 사용할 URL을 입력하십시오. <p>기본값은 입니다. <code>https://oauth.my.workfront.com/integrations/oauth2</code>.</p>
+          <td>Workfront 인스턴스가 이 연결을 인증하는 데 사용할 URL을 입력하십시오. <p>기본값은 <code>https://oauth.my.workfront.com/integrations/oauth2</code>입니다.</p>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL 호스트 접두사]</td>
-          <td>호스트 접두사를 입력합니다.<p>기본값은 입니다. <code>origin-</code>.</p>
+          <td>호스트 접두사를 입력합니다.<p>기본값은 <code>origin-</code>입니다.</p>
         </tr>
       </tbody>
     </table>
-1. 클릭 **[!UICONTROL 계속]** 연결을 저장하고 모듈로 돌아갑니다.
+1. 연결을 저장하고 모듈로 돌아가려면 **[!UICONTROL 계속]**&#x200B;을 클릭하세요.
 
 ## Adobe Workfront 보드 모듈 및 해당 필드
 
-Workfront 보드 모듈을 구성할 때 [!DNL Workfront Fusion] 아래 나열된 필드를 표시합니다. 이러한 필드와 함께 앱이나 서비스의 액세스 수준 등의 요소에 따라 추가 Workfront 보드 필드가 표시될 수 있습니다. 모듈의 굵은 제목은 필수 필드를 나타냅니다.
+Workfront 보드 모듈을 구성할 때 [!DNL Workfront Fusion]에 아래 나열된 필드가 표시됩니다. 이러한 필드와 함께 앱이나 서비스의 액세스 수준 등의 요소에 따라 추가 Workfront 보드 필드가 표시될 수 있습니다. 모듈의 굵은 제목은 필수 필드를 나타냅니다.
 
-필드나 함수 위에 맵 단추가 표시되면 이 단추를 사용하여 해당 필드에 대한 변수와 함수를 설정할 수 있습니다. 자세한 내용은 [의 한 모듈에서 다른 모듈로 정보 매핑 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+필드나 함수 위에 맵 단추가 표시되면 이 단추를 사용하여 해당 필드에 대한 변수와 함수를 설정할 수 있습니다. 자세한 내용은 [한 모듈에서 다른 모듈로 정보를 매핑 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)을 참조하십시오.
 
 ![](assets/map-toggle-350x74.png)
 
@@ -203,7 +203,7 @@ After the webhook is created, you can view the address of the endpoint that even
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>기존 Workfront 연결을 사용하여 Workfront 보드에 연결하거나 특정 Workfront 보드 연결을 사용할 수 있습니다. </p><p>연결에 대한 자세한 내용 [!DNL Workfront] 앱 대상 [!DNL Workfront Fusion], 참조 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront 보드에 대한 연결 만들기</a> 이 문서에서.</p> </td> 
+      <td> <p>기존 Workfront 연결을 사용하여 Workfront 보드에 연결하거나 특정 Workfront 보드 연결을 사용할 수 있습니다. </p><p>[!DNL Workfront] 앱을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront 보드에 연결 만들기</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Card ID]</td> 
@@ -226,7 +226,7 @@ After the webhook is created, you can view the address of the endpoint that even
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>기존 Workfront 연결을 사용하여 Workfront 보드에 연결하거나 특정 Workfront 보드 연결을 사용할 수 있습니다. </p><p>연결에 대한 자세한 내용 [!DNL Workfront] 앱 대상 [!DNL Workfront Fusion], 참조 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront 보드에 대한 연결 만들기</a> 이 문서에서.</p> </td> 
+      <td> <p>기존 Workfront 연결을 사용하여 Workfront 보드에 연결하거나 특정 Workfront 보드 연결을 사용할 수 있습니다. </p><p>[!DNL Workfront] 앱을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront 보드에 연결 만들기</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 상위 카드 ID]</td> 
@@ -253,7 +253,7 @@ After the webhook is created, you can view the address of the endpoint that even
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>기존 Workfront 연결을 사용하여 Workfront 보드에 연결하거나 특정 Workfront 보드 연결을 사용할 수 있습니다. </p><p>연결에 대한 자세한 내용 [!DNL Workfront] 앱 대상 [!DNL Workfront Fusion], 참조 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront 보드에 대한 연결 만들기</a> 이 문서에서.</p> </td> 
+      <td> <p>기존 Workfront 연결을 사용하여 Workfront 보드에 연결하거나 특정 Workfront 보드 연결을 사용할 수 있습니다. </p><p>[!DNL Workfront] 앱을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront 보드에 연결 만들기</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 보드 ID]</td> 
@@ -280,7 +280,7 @@ After the webhook is created, you can view the address of the endpoint that even
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>기존 Workfront 연결을 사용하여 Workfront 보드에 연결하거나 특정 Workfront 보드 연결을 사용할 수 있습니다. </p><p>연결에 대한 자세한 내용 [!DNL Workfront] 앱 대상 [!DNL Workfront Fusion], 참조 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront 보드에 대한 연결 만들기</a> 이 문서에서.</p> </td> 
+      <td> <p>기존 Workfront 연결을 사용하여 Workfront 보드에 연결하거나 특정 Workfront 보드 연결을 사용할 수 있습니다. </p><p>[!DNL Workfront] 앱을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront 보드에 연결 만들기</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Card ID]</td> 
@@ -311,7 +311,7 @@ After the webhook is created, you can view the address of the endpoint that even
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>기존 Workfront 연결을 사용하여 Workfront 보드에 연결하거나 특정 Workfront 보드 연결을 사용할 수 있습니다. </p><p>연결에 대한 자세한 내용 [!DNL Workfront] 앱 대상 [!DNL Workfront Fusion], 참조 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront 보드에 대한 연결 만들기</a> 이 문서에서.</p> </td> 
+      <td> <p>기존 Workfront 연결을 사용하여 Workfront 보드에 연결하거나 특정 Workfront 보드 연결을 사용할 수 있습니다. </p><p>[!DNL Workfront] 앱을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront 보드에 연결 만들기</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Card ID]</td> 
@@ -330,7 +330,7 @@ After the webhook is created, you can view the address of the endpoint that even
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>기존 Workfront 연결을 사용하여 Workfront 보드에 연결하거나 특정 Workfront 보드 연결을 사용할 수 있습니다. </p><p>연결에 대한 자세한 내용 [!DNL Workfront] 앱 대상 [!DNL Workfront Fusion], 참조 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront 보드에 대한 연결 만들기</a> 이 문서에서.</p> </td> 
+      <td> <p>기존 Workfront 연결을 사용하여 Workfront 보드에 연결하거나 특정 Workfront 보드 연결을 사용할 수 있습니다. </p><p>[!DNL Workfront] 앱을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront 보드에 연결 만들기</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Card ID]</td> 
@@ -366,7 +366,7 @@ After the webhook is created, you can view the address of the endpoint that even
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>기존 Workfront 연결을 사용하여 Workfront 보드에 연결하거나 특정 Workfront 보드 연결을 사용할 수 있습니다. </p><p>연결에 대한 자세한 내용 [!DNL Workfront] 앱 대상 [!DNL Workfront Fusion], 참조 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront 보드에 대한 연결 만들기</a> 이 문서에서.</p> </td> 
+      <td> <p>기존 Workfront 연결을 사용하여 Workfront 보드에 연결하거나 특정 Workfront 보드 연결을 사용할 수 있습니다. </p><p>[!DNL Workfront] 앱을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront 보드에 연결 만들기</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 보드 이름]</td> 
@@ -389,7 +389,7 @@ After the webhook is created, you can view the address of the endpoint that even
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>기존 Workfront 연결을 사용하여 Workfront 보드에 연결하거나 특정 Workfront 보드 연결을 사용할 수 있습니다. </p><p>연결에 대한 자세한 내용 [!DNL Workfront] 앱 대상 [!DNL Workfront Fusion], 참조 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront 보드에 대한 연결 만들기</a> 이 문서에서.</p> </td> 
+      <td> <p>기존 Workfront 연결을 사용하여 Workfront 보드에 연결하거나 특정 Workfront 보드 연결을 사용할 수 있습니다. </p><p>[!DNL Workfront] 앱을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront 보드에 연결 만들기</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 보드 ID]</td> 
@@ -414,7 +414,7 @@ After the webhook is created, you can view the address of the endpoint that even
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>기존 Workfront 연결을 사용하여 Workfront 보드에 연결하거나 특정 Workfront 보드 연결을 사용할 수 있습니다. </p><p>연결에 대한 자세한 내용 [!DNL Workfront] 앱 대상 [!DNL Workfront Fusion], 참조 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront 보드에 대한 연결 만들기</a> 이 문서에서.</p> </td> 
+      <td> <p>기존 Workfront 연결을 사용하여 Workfront 보드에 연결하거나 특정 Workfront 보드 연결을 사용할 수 있습니다. </p><p>[!DNL Workfront] 앱을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront 보드에 연결 만들기</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 보드 ID]</td> 
@@ -445,7 +445,7 @@ After the webhook is created, you can view the address of the endpoint that even
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>기존 Workfront 연결을 사용하여 Workfront 보드에 연결하거나 특정 Workfront 보드 연결을 사용할 수 있습니다. </p><p>연결에 대한 자세한 내용 [!DNL Workfront] 앱 대상 [!DNL Workfront Fusion], 참조 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront 보드에 대한 연결 만들기</a> 이 문서에서.</p> </td> 
+      <td> <p>기존 Workfront 연결을 사용하여 Workfront 보드에 연결하거나 특정 Workfront 보드 연결을 사용할 수 있습니다. </p><p>[!DNL Workfront] 앱을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront 보드에 연결 만들기</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 보드 ID]</td> 
@@ -468,7 +468,7 @@ After the webhook is created, you can view the address of the endpoint that even
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>기존 Workfront 연결을 사용하여 Workfront 보드에 연결하거나 특정 Workfront 보드 연결을 사용할 수 있습니다. </p><p>연결에 대한 자세한 내용 [!DNL Workfront] 앱 대상 [!DNL Workfront Fusion], 참조 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront 보드에 대한 연결 만들기</a> 이 문서에서.</p> </td> 
+      <td> <p>기존 Workfront 연결을 사용하여 Workfront 보드에 연결하거나 특정 Workfront 보드 연결을 사용할 수 있습니다. </p><p>[!DNL Workfront] 앱을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront 보드에 연결 만들기</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 보드 ID]</td> 
@@ -496,7 +496,7 @@ After the webhook is created, you can view the address of the endpoint that even
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>기존 Workfront 연결을 사용하여 Workfront 보드에 연결하거나 특정 Workfront 보드 연결을 사용할 수 있습니다. </p><p>연결에 대한 자세한 내용 [!DNL Workfront] 앱 대상 [!DNL Workfront Fusion], 참조 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront 보드에 대한 연결 만들기</a> 이 문서에서.</p> </td> 
+      <td> <p>기존 Workfront 연결을 사용하여 Workfront 보드에 연결하거나 특정 Workfront 보드 연결을 사용할 수 있습니다. </p><p>[!DNL Workfront] 앱을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront 보드에 연결 만들기</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Card ID]</td> 
@@ -523,7 +523,7 @@ After the webhook is created, you can view the address of the endpoint that even
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>기존 Workfront 연결을 사용하여 Workfront 보드에 연결하거나 특정 Workfront 보드 연결을 사용할 수 있습니다. </p><p>연결에 대한 자세한 내용 [!DNL Workfront] 앱 대상 [!DNL Workfront Fusion], 참조 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront 보드에 대한 연결 만들기</a> 이 문서에서.</p> </td> 
+      <td> <p>기존 Workfront 연결을 사용하여 Workfront 보드에 연결하거나 특정 Workfront 보드 연결을 사용할 수 있습니다. </p><p>[!DNL Workfront] 앱을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront 보드에 연결 만들기</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 보드 ID]</td> 
@@ -555,7 +555,7 @@ After the webhook is created, you can view the address of the endpoint that even
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>기존 Workfront 연결을 사용하여 Workfront 보드에 연결하거나 특정 Workfront 보드 연결을 사용할 수 있습니다. </p><p>연결에 대한 자세한 내용 [!DNL Workfront] 앱 대상 [!DNL Workfront Fusion], 참조 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront 보드에 대한 연결 만들기</a> 이 문서에서.</p> </td> 
+      <td> <p>기존 Workfront 연결을 사용하여 Workfront 보드에 연결하거나 특정 Workfront 보드 연결을 사용할 수 있습니다. </p><p>[!DNL Workfront] 앱을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront 보드에 연결 만들기</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Card ID]</td> 
@@ -578,7 +578,7 @@ After the webhook is created, you can view the address of the endpoint that even
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>기존 Workfront 연결을 사용하여 Workfront 보드에 연결하거나 특정 Workfront 보드 연결을 사용할 수 있습니다. </p><p>연결에 대한 자세한 내용 [!DNL Workfront] 앱 대상 [!DNL Workfront Fusion], 참조 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront 보드에 대한 연결 만들기</a> 이 문서에서.</p> </td> 
+      <td> <p>기존 Workfront 연결을 사용하여 Workfront 보드에 연결하거나 특정 Workfront 보드 연결을 사용할 수 있습니다. </p><p>[!DNL Workfront] 앱을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront 보드에 연결 만들기</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Card ID]</td> 
@@ -603,15 +603,15 @@ After the webhook is created, you can view the address of the endpoint that even
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-      <td> <p>기존 Workfront 연결을 사용하여 Workfront 보드에 연결하거나 특정 Workfront 보드 연결을 사용할 수 있습니다. </p><p>연결에 대한 자세한 내용 [!DNL Workfront] 앱 대상 [!DNL Workfront Fusion], 참조 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront 보드에 대한 연결 만들기</a> 이 문서에서.</p> </td> 
+      <td> <p>기존 Workfront 연결을 사용하여 Workfront 보드에 연결하거나 특정 Workfront 보드 연결을 사용할 수 있습니다. </p><p>[!DNL Workfront] 앱을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront 보드에 연결 만들기</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
-   <td> <p>상대 경로 입력<code> https://&lt;WORKFRONT_DOMAIN&gt;/boards-service/graphql?</code>.</p> </td> 
+   <td> <p><code> https://&lt;WORKFRONT_DOMAIN&gt;/boards-service/graphql?</code>에 상대적인 경로를 입력하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 메서드]</td> 
-   <td> <p>API 호출을 구성하는 데 필요한 HTTP 요청 메서드를 선택합니다. 자세한 내용은 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">의 HTTP 요청 메서드 [!DNL Adobe Workfront Fusion]</a>.</p><p>대부분의 보드에서 를 호출하는 방법은 POST입니다. </td> 
+   <td> <p>API 호출을 구성하는 데 필요한 HTTP 요청 메서드를 선택합니다. 자세한 내용은 [!DNL Adobe Workfront Fusion]</a>에서 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP 요청 메서드를 참조하십시오.</p><p>대부분의 보드에서 를 호출하는 방법은 POST입니다. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -623,11 +623,11 @@ After the webhook is created, you can view the address of the endpoint that even
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>JSON 임베드된 Graphql 형식으로 API 호출에 대한 본문 콘텐츠 추가 </p> <p>예:</p><p>이 예에서는 열 이름을 업데이트합니다. 다음을 포함할 수 있습니다. <code>boardId</code> 및 <code>columnId</code> 로, 이전 모듈에서 하드 코딩되거나 매핑됩니다.<p><pre>{
+   <td> <p>JSON 임베드된 Graphql 형식으로 API 호출에 대한 본문 콘텐츠 추가 </p> <p>예:</p><p>이 예에서는 열 이름을 업데이트합니다. 이전 모듈에서 하드 코딩되거나 매핑된 GUID로 <code>boardId</code> 및 <code>columnId</code>을(를) 포함할 수 있습니다.<p><pre>{
 
   &quot;query&quot;: &quot;mutation { updateColumn(boardId: \&quot;\&quot;, columnId: \&quot;\&quot;, updateColumnInput: { name: \&quot;\&quot; }) { id name }}&quot;
 
-}</pre><p>참고:  <p>다음과 같은 조건문을 사용할 때 <code>if</code> json에서 따옴표를 조건문 외부에 넣습니다.</p>
+}</pre><p>참고:  <p>조건문 사용 시(예: <code>if)</code> json에서 따옴표를 조건문 외부에 넣습니다.</p>
 <div class="example" data-mc-autonum="<b>Example: </b>">
 <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p>
 </div> </p> </td>

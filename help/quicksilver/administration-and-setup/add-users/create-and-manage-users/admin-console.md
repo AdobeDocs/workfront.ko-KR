@@ -18,9 +18,9 @@ ht-degree: 0%
 >
 >이 문서의 기능은 조직의 Workfront 인스턴스가 Adobe 비즈니스 플랫폼에 온보딩된 경우에만 사용할 수 있습니다.
 >
->조직이 Adobe 비즈니스 플랫폼에 온보딩되었는지 여부에 따라 다른 절차 목록은 을 참조하십시오. [플랫폼 기반 관리의 차이점(Adobe Workfront/Adobe 비즈니스 플랫폼)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>조직이 Adobe 비즈니스 플랫폼에 온보딩되었는지 여부에 따라 달라지는 프로시저 목록은 [플랫폼 기반 관리 차이점(Adobe Workfront/Adobe 비즈니스 플랫폼)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)을 참조하십시오.
 
-Adobe 관리자는 Adobe Admin Console을 사용하여 Adobe Workfront 시스템 관리자를 만들 수 있습니다. 콘솔은 조직 전체에서 Adobe 권한을 관리하기 위한 중앙 위치입니다. 자세한 내용은 [Admin Console 개요](https://helpx.adobe.com/enterprise/using/admin-console.html).
+Adobe 관리자는 Adobe Admin Console을 사용하여 Adobe Workfront 시스템 관리자를 만들 수 있습니다. 콘솔은 조직 전체에서 Adobe 권한을 관리하기 위한 중앙 위치입니다. 자세한 내용은 [Admin Console 개요](https://helpx.adobe.com/enterprise/using/admin-console.html)를 참조하세요.
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ Workfront용 Admin Console을 사용하기 전에 콘솔로 초대하는 이메�
 
    또는
 
-   이미 Adobe 계정이 있는 경우 [Adobe Admin Console 페이지](https://adminconsole.adobe.com/).
+   이미 Adobe 계정이 있는 경우 [Adobe Admin Console 페이지](https://adminconsole.adobe.com/)(으)로 이동하십시오.
 
 ## Adobe Admin Console에 대한 추가 세부 정보
 
@@ -69,7 +69,7 @@ Workfront용 Admin Console을 사용하기 전에 콘솔로 초대하는 이메�
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about deactivating a user in Workfront, see </p>
   -->
 
-* 사용자 **홈 그룹** 은 폴더를 만든 사용자를 기반으로 결정됩니다. Admin Console 내에서 사용자 지정할 수 없습니다.
+* 사용자 **홈 그룹**&#x200B;은(는) 만든 사용자를 기준으로 결정됩니다. Admin Console 내에서 사용자 지정할 수 없습니다.
 * Workfront 시스템 관리자 액세스 수준은 Adobe Admin Console 내에서만 편집할 수 있습니다.
 
   <!--
@@ -92,7 +92,7 @@ Workfront용 Admin Console을 사용하기 전에 콘솔로 초대하는 이메�
 
 ## Workfront 프로덕션 인스턴스의 사용자 및 관리 영역에 액세스 {#access-the-user-and-admin-area-for-your-production-instance-of-workfront}
 
-1. 다음에서 [Adobe Admin Console 페이지](https://adminconsole.adobe.com/)를 선택하고 **제품** 맨 위 탐색 막대에서 탭을 클릭한 다음 **Workfront**.
+1. [Adobe Admin Console 페이지](https://adminconsole.adobe.com/)에서 위쪽 탐색 막대의 **제품** 탭을 선택한 다음 **Workfront**&#x200B;을 선택합니다.
 
    <!--![](assets/admin-product-1.png)-->
 
@@ -104,12 +104,12 @@ Workfront용 Admin Console을 사용하기 전에 콘솔로 초대하는 이메�
 
    >[!TIP]
    >
-   >목록의 두 번째 링크인 미리보기 인스턴스는 라이브 프로덕션 환경을 복제하는 테스트 환경입니다. 자세한 내용은 [Adobe Workfront 미리보기 샌드박스 환경](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+   >목록의 두 번째 링크인 미리보기 인스턴스는 라이브 프로덕션 환경을 복제하는 테스트 환경입니다. 자세한 내용은 [Adobe Workfront 미리 보기 샌드박스 환경](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)을 참조하십시오.
    >
    >
-   >목록에 샌드박스 환경에 대한 링크가 표시될 수도 있습니다. 자세한 내용은 [Adobe Workfront 미리보기 샌드박스 환경](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+   >목록에 샌드박스 환경에 대한 링크가 표시될 수도 있습니다. 자세한 내용은 [Adobe Workfront 미리 보기 샌드박스 환경](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)을 참조하십시오.
 
-1. 표시되는 목록에서 **제품 프로필** 선택한 탭에서 Workfront 제품 프로필 링크의 이름을 클릭합니다.
+1. **제품 프로필** 탭을 선택한 상태로 표시되는 목록에서 Workfront 제품 프로필 링크의 이름을 클릭합니다.
 
    ![](assets/prod-profile-1.png)
 
@@ -132,10 +132,10 @@ Workfront용 Admin Console을 사용하기 전에 콘솔로 초대하는 이메�
 
 사용자를 Workfront 시스템 관리자로 지정하려면 먼저 Workfront의 프로덕션 인스턴스에 사용자를 추가해야 합니다.
 
-1. 섹션에 설명된 대로 Admin Console의 사용자 및 관리 영역으로 이동합니다. [Workfront 프로덕션 인스턴스의 사용자 및 관리 영역에 액세스](#access-the-user-and-admin-area-for-your-production-instance-of-workfront) 이 문서에서.
-1. 다음 항목 선택 **관리자** 사용자 목록 위에 있는 탭입니다.
-1. 선택 **관리자 추가**.
-1. 다음에서 **제품 프로필 관리자 추가** 상자에서 추가하려는 관리자의 이메일 주소 또는 이름을 입력한 다음 을 선택합니다 **저장**.
+1. 이 문서의 [Workfront 프로덕션 인스턴스의 Admin Console 및 관리 영역 액세스](#access-the-user-and-admin-area-for-your-production-instance-of-workfront) 섹션에 설명된 대로 사용자 및 관리 영역으로 이동합니다.
+1. 사용자 목록 위에 있는 **관리자** 탭을 선택하십시오.
+1. **관리자 추가**&#x200B;를 선택합니다.
+1. **제품 프로필 관리자 추가** 상자에서 추가하려는 관리자의 전자 메일 주소 또는 이름을 입력한 다음 **저장**&#x200B;을 선택합니다.
 
    ![](assets/add-admin-1.png)
 
@@ -157,9 +157,9 @@ Workfront용 Admin Console을 사용하기 전에 콘솔로 초대하는 이메�
 
 ### Adobe Admin Console에서 바로 Workfront에서 사용자 만들기
 
-1. 섹션에 설명된 대로 Admin Console의 사용자 및 관리 영역으로 이동합니다. [Workfront 프로덕션 인스턴스의 사용자 및 관리 영역에 액세스](#access-the-user-and-admin-area-for-your-production-instance-of-workfront) 이 문서에서.
-1. 포함 **사용자** 목록 위에서 선택한 탭을 선택합니다. **사용자 추가**.
-1. 다음에서 **이 제품 프로필에 사용자 추가** 상자에서 추가하려는 사용자의 이메일 주소 또는 이름을 입력한 다음 을 선택합니다 **저장**.
+1. 이 문서의 [Workfront 프로덕션 인스턴스의 Admin Console 및 관리 영역 액세스](#access-the-user-and-admin-area-for-your-production-instance-of-workfront) 섹션에 설명된 대로 사용자 및 관리 영역으로 이동합니다.
+1. 목록 위에 **사용자** 탭을 선택한 상태에서 **사용자 추가**&#x200B;를 선택합니다.
+1. **이 제품 프로필에 사용자 추가** 상자에서 추가하려는 사용자의 이메일 주소 또는 이름을 입력한 다음 **저장**&#x200B;을 선택합니다.
 
    사용자는 Workfront에서 요청자 액세스 수준으로 만들어집니다.
 
@@ -169,7 +169,7 @@ Workfront용 Admin Console을 사용하기 전에 콘솔로 초대하는 이메�
 
 1. Workfront에서 사용자의 액세스 수준을 변경합니다.
 
-   Workfront 관리자가 사용자의 액세스 수준을 변경할 수 있는 방법에 대한 지침은 [사용자 프로필 편집](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+   Workfront 관리자가 사용자의 액세스 수준을 변경하는 방법에 대한 지침은 [사용자 프로필 편집](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)을 참조하십시오.
 
 1. 사용자를 추가하려면 3단계와 4단계를 반복하십시오.
 
@@ -189,7 +189,7 @@ Workfront용 Admin Console을 사용하기 전에 콘솔로 초대하는 이메�
 
 #### Workfront에서 사용자 만들기(그룹 관리자)
 
-Workfront에서 사용자를 만드는 방법에 대한 지침은 [사용자 추가](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md).
+Workfront에서 사용자를 만드는 방법에 대한 지침은 [사용자 추가](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md)를 참조하십시오.
 
 #### 사용자 승인(Workfront 관리자)
 
@@ -197,13 +197,13 @@ Workfront에서 사용자를 만드는 방법에 대한 지침은 [사용자 추
 
 {{step-1-to-users}}
 
-1. 사용자를 선택한 다음 **자세히** 아이콘 ![](assets/more-icon.png).
+1. 사용자를 선택한 다음 **자세히** 아이콘 ![](assets/more-icon.png)을(를) 클릭합니다.
 
-1. 사용자를 승인하려면 **승인**&#x200B;을 클릭한 다음 을 클릭합니다 **제출**.
+1. 사용자를 승인하려면 **승인**&#x200B;을 클릭한 다음 **제출**&#x200B;을 클릭합니다.
 
    또는
 
-   사용자를 거부하고 Workfront에서 삭제하려면 **거부**&#x200B;을 클릭한 다음 을 클릭합니다 **제출**.
+   사용자를 거부하고 Workfront에서 삭제하려면 **거부**&#x200B;를 클릭한 다음 **제출**&#x200B;을 클릭합니다.
 
    승인된 사용자는 Adobe Admin Console에 자동으로 추가됩니다.
 

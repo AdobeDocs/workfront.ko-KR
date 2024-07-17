@@ -5,7 +5,7 @@ product-area: workfront-integrations
 keywords: 커넥터
 navigation-topic: http-modules
 title: HTTP &gt; OAuth 2.0 요청 모듈 만들기
-description: 다음 작업을 수행하기 위해 [!DNL Adobe Workfront Fusion] OAuth 2.0 인증이 필요한 서버에 대한 HTTP(S) 요청입니다. 먼저 OAuth 연결을 만들어야 합니다. [!DNL Adobe Workfront Fusion] 은(는) 이 연결로 수행된 모든 호출에 적절한 인증 헤더가 있는지 확인하고 필요한 경우 관련 토큰을 자동으로 새로 고침합니다.
+description: OAuth 2.0 인증이 필요한 서버에  [!DNL Adobe Workfront Fusion] HTTP(S) 요청을 하려면 먼저 OAuth 연결을 만들어야 합니다. [!DNL Adobe Workfront Fusion] 이 연결을 사용하여 만든 모든 호출에 적절한 인증 헤더가 있는지 확인하고 필요한 경우 관련 토큰을 자동으로 새로 고칩니다.
 author: Becky
 feature: Workfront Fusion
 exl-id: 6c68c9b9-9f74-44a7-94ed-3785081b8331
@@ -16,28 +16,28 @@ ht-degree: 0%
 
 ---
 
-# [!UICONTROL HTTP] > [!UICONTROL OAuth 2.0 요청] 모듈
+# [!UICONTROL HTTP] > [!UICONTROL OAuth 2.0 요청 만들기] 모듈
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] 을(를) 필요로 합니다. [!DNL Adobe Workfront Fusion] 에 더해진 라이센스 [!DNL Adobe Workfront] 라이센스.
+>[!DNL Adobe Workfront Fusion]에는 [!DNL Adobe Workfront] 라이선스 외에 [!DNL Adobe Workfront Fusion] 라이선스가 필요합니다.
 
-다음 작업을 수행하기 위해 [!DNL Adobe Workfront Fusion] OAuth 2.0 인증이 필요한 서버에 대한 HTTP(S) 요청입니다. 먼저 OAuth 연결을 만들어야 합니다. [!DNL Adobe Workfront Fusion] 은(는) 이 연결로 수행된 모든 호출에 적절한 인증 헤더가 있는지 확인하고 필요한 경우 관련 토큰을 자동으로 새로 고침합니다.
+OAuth 2.0 인증이 필요한 서버에 [!DNL Adobe Workfront Fusion] HTTP(S) 요청을 하려면 먼저 OAuth 연결을 만들어야 합니다. [!DNL Adobe Workfront Fusion]은(는) 이 연결을 사용한 모든 호출에 적절한 인증 헤더가 있는지 확인하고 필요한 경우 관련 토큰을 자동으로 새로 고칩니다.
 
-[!DNL Workfront Fusion] 는 다음 OAuth 2.0 인증 흐름을 지원합니다.
+[!DNL Workfront Fusion]은(는) 다음 OAuth 2.0 인증 흐름을 지원합니다.
 
 * 인증 코드 흐름
 * 암시적 흐름
 
 리소스 소유자 암호 자격 증명 흐름 및 클라이언트 자격 증명 흐름과 같은 다른 흐름은 이 모듈을 통해 자동으로 지원되지 않습니다.
 
-OAuth 2.0 인증에 대한 자세한 내용은 [OAuth 2.0 인증 프레임워크](https://tools.ietf.org/html/rfc6749).
+OAuth 2.0 인증에 대한 자세한 내용은 [OAuth 2.0 권한 부여 프레임워크](https://tools.ietf.org/html/rfc6749)를 참조하십시오.
 
 >[!NOTE]
 >
 >현재 전용 커넥터가 없는 Adobe 제품에 연결하는 경우 Adobe Authenticator 모듈을 사용하는 것이 좋습니다.
 >
->자세한 내용은 [Adobe Authenticator 모듈](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md).
+>자세한 내용은 [Adobe Authenticator 모듈](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md)을 참조하세요.
 
 ## 액세스 요구 사항
 
@@ -58,49 +58,49 @@ OAuth 2.0 인증에 대한 자세한 내용은 [OAuth 2.0 인증 프레임워크
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 라이센스**</td> 
    <td>
-   <p>현재 라이선스 요구 사항: 아니요 [!DNL Workfront Fusion] 라이센스 요구 사항.</p>
+   <p>현재 라이선스 요구 사항: [!DNL Workfront Fusion] 라이선스 요구 사항이 없습니다.</p>
    <p>또는</p>
-   <p>기존 라이선스 요구 사항: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
+   <p>레거시 라이선스 요구 사항: 작업 자동화 및 통합을 위한 [!UICONTROL [!DNL Workfront Fusion]] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">제품</td> 
    <td>
-   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime]이 있는 경우 [!DNL Adobe Workfront] 플랜, 조직은 다음을 구매해야 합니다. [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오. [!DNL Workfront Fusion] [!UICONTROL Ultimate]에 포함되어 있습니다. [!DNL Workfront] 계획.</p>
+   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime] [!DNL Adobe Workfront] 플랜이 있는 경우 조직에서 이 문서에 설명된 기능을 사용하려면 [!DNL Adobe Workfront Fusion]과(와) [!DNL Adobe Workfront]을(를) 구매해야 합니다. [!DNL Workfront Fusion]이(가) [!UICONTROL Ultimate] [!DNL Workfront] 계획에 포함되어 있습니다.</p>
    <p>또는</p>
-   <p>레거시 제품 요구 사항: 조직에서 구매해야 함 [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오.</p>
+   <p>레거시 제품 요구 사항: 이 문서에 설명된 기능을 사용하려면 조직에서 [!DNL Adobe Workfront Fusion]과(와) [!DNL Adobe Workfront]을(를) 구매해야 합니다.</p>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
+보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
 
-다음에 대한 정보: [!DNL Adobe Workfront Fusion] 라이센스, 참조 [[!DNL Adobe Workfront Fusion] 라이선스](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
+[!DNL Adobe Workfront Fusion] 라이선스에 대한 자세한 내용은 [[!DNL Adobe Workfront Fusion] 라이선스](../../../workfront-fusion/get-started/license-automation-vs-integration.md)를 참조하세요.
 
-## 에 대한 연결 만들기 [!DNL OAuth] 요청
+## [!DNL OAuth] 요청에 대한 연결을 만드는 중
 
 * [HTTP > OAuth 2.0 요청 모듈 만들기에서 연결을 만드는 일반적인 지침](#general-instructions-for-creating-a-connection-in-the-http--make-an-oauth-20-request-module)
-* [HTTP에서 Google에 대한 연결을 만들기 위한 지침 >[!UICONTROL 만들기] OAuth 2.0 요청 모듈](#instructions-for-creating-a-connection-to-google-in-the-http-make-an-oauth-20-request-module)
+* [HTTP >[!UICONTROL OAuth 2.0 요청 모듈로 만들기]에서 Google에 대한 연결을 만들기 위한 지침](#instructions-for-creating-a-connection-to-google-in-the-http-make-an-oauth-20-request-module)
 * [HTTP > OAuth 2.0 요청 모듈 만들기를 통해 Microsoft Graph API에 연결하기 위한 지침](#instructions-for-connecting-to-microsoft-graph-api-via-the-http--make-an-oauth-20-request-module)
 
-### 에서 연결을 만들기 위한 일반적인 지침 [!UICONTROL HTTP] > [!UICONTROL OAuth 2.0 요청] 모듈
+### [!UICONTROL HTTP] > [!UICONTROL OAuth 2.0 요청 만들기] 모듈에서 연결을 만들기 위한 일반 지침
 
-1. 에서 OAuth 클라이언트 만들기 [!DNL target] 원하는 서비스 [!DNL Adobe Workfront Fusion] 의사소통을 위해. 이 옵션은 다음에서 찾을 수 있습니다. [!UICONTROL 개발자] 섹션에 있는 마지막 항목이 될 필요가 없습니다.
+1. [!DNL Adobe Workfront Fusion]과(와) 통신할 [!DNL target] 서비스에 OAuth 클라이언트를 만듭니다. 이 옵션은 특정 서비스의 [!UICONTROL 개발자] 섹션에서 찾을 수 있습니다.
 
-   1. 클라이언트를 작성할 때에서 적절한 URL을 입력합니다 `[!UICONTROL Redirect URL]` 또는 `[!UICONTROL Callback URL]` 필드:
+   1. 클라이언트를 만들 때 `[!UICONTROL Redirect URL]` 또는 `[!UICONTROL Callback URL]` 필드에 적절한 URL을 입력하십시오.
 
       | 아메리카 / APAC | https://app.workfrontfusion.com/oauth/cb/oauth2 |
       |---|---|
       | EMEA | https://app-eu.workfrontfusion.com/oauth/cb/oauth2 |
 
-   1. 클라이언트를 만들면 해당 서비스에 다음과 같은 2개의 키가 표시됩니다. `[!UICONTROL Client ID]` 및 `[!UICONTROL Client Secret]`. 일부 서비스에서는 다음과 같이 합니다. `[!UICONTROL App Key]` 및 `[!UICONTROL App Secret]` . Workfront Fusion에서 연결을 만들 때 키 및 암호를 제공할 수 있도록 안전한 위치에 저장합니다.
+   1. 클라이언트를 만든 후 해당 서비스에 `[!UICONTROL Client ID]` 및 `[!UICONTROL Client Secret]` 키 2개가 표시됩니다. 일부 서비스에서는 이러한 `[!UICONTROL App Key]` 및 `[!UICONTROL App Secret]`을(를) 호출합니다. Workfront Fusion에서 연결을 만들 때 키 및 암호를 제공할 수 있도록 안전한 위치에 저장합니다.
 
-1. 다음 찾기 `[!UICONTROL Authorize URI]` 및 `[!UICONTROL Token URI]` (제공된 서비스의 API 설명서). URL 주소입니다. [!DNL Workfront Fusion] 와 통신 [!DNL target] 서비스. 주소는 OAuth 권한 부여에 사용됩니다.
+1. 제공된 서비스의 API 설명서에서 `[!UICONTROL Authorize URI]` 및 `[!UICONTROL Token URI]`을(를) 찾으십시오. [!DNL Workfront Fusion]이(가) [!DNL target] 서비스와 통신하는 URL 주소입니다. 주소는 OAuth 권한 부여에 사용됩니다.
 
    >[!NOTE]
    >
-   >서비스에서 암시적 흐름을 사용하는 경우에는 `[!UICONTROL Authorize URI]`.
+   >서비스에서 암시적 흐름을 사용하는 경우 `[!UICONTROL Authorize URI]`만 필요합니다.
 
    >[!INFO]
    >
@@ -114,9 +114,9 @@ OAuth 2.0 인증에 대한 자세한 내용은 [OAuth 2.0 인증 프레임워크
    >
    >`https://api.login.yahoo.com/oauth2/get_token`
 
-1. (조건부) 대상 서비스가 범위(액세스 권한)를 사용하는 경우, 서비스가 개별 범위를 분리하는 방법을 확인하고 고급 설정에서 구분 기호를 적절히 설정했는지 확인하십시오. 구분 기호가 올바르게 설정되지 않은 경우 [!DNL Workfront Fusion] 연결을 만들지 못하며 잘못된 범위 오류가 표시됩니다.
-1. 위의 단계를 완료하고에서 OAuth 연결을 만들 수 있습니다. [!DNL Workfront Fusion]. OAuth 2.0 HTTP(S) 요청 및 응답 처리 모듈을 시나리오에 추가합니다.
-1. 모듈의 Connection 필드에서 **[!UICONTROL 추가]**.
+1. (조건부) 대상 서비스가 범위(액세스 권한)를 사용하는 경우, 서비스가 개별 범위를 분리하는 방법을 확인하고 고급 설정에서 구분 기호를 적절히 설정했는지 확인하십시오. 구분 기호가 올바르게 설정되지 않으면 [!DNL Workfront Fusion]에서 연결을 만들지 못하고 잘못된 범위 오류가 표시됩니다.
+1. 위의 단계를 완료하면 [!DNL Workfront Fusion]에서 OAuth 연결을 만들 수 있습니다. OAuth 2.0 HTTP(S) 요청 및 응답 처리 모듈을 시나리오에 추가합니다.
+1. 모듈의 연결 필드에서 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
 
 1. 다음 필드를 입력하여 연결을 만듭니다.
 
@@ -132,8 +132,8 @@ OAuth 2.0 인증에 대한 자세한 내용은 [OAuth 2.0 인증 프레임워크
       <td role="rowheader"> <p>[!UICONTROL 흐름 유형]</p> </td> 
       <td> <p>토큰을 얻기 위한 플로우를 선택합니다.</p> 
        <ul> 
-        <li><strong>[!UICONTROL Authorization Code]</strong>: 다음을 입력합니다. <code>[!UICONTROL Authorize URI]</code> 및 <code>[!UICONTROL Token URI]</code> 을 참조하십시오.</li> 
-        <li><strong>[!UICONTROL 암시적]</strong>: 다음을 입력합니다. <code>[!UICONTROL Authorize URI]</code> 을 참조하십시오.</li> 
+        <li><strong>[!UICONTROL 인증 코드]</strong>: 서비스의 API 설명서에서 <code>[!UICONTROL Authorize URI]</code> 및 <code>[!UICONTROL Token URI]</code>을(를) 입력합니다.</li> 
+        <li><strong>[!UICONTROL 암시적]</strong>: 서비스의 API 설명서에서 <code>[!UICONTROL Authorize URI]</code>을(를) 입력합니다.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -142,7 +142,7 @@ OAuth 2.0 인증에 대한 자세한 내용은 [OAuth 2.0 인증 프레임워크
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 범위 구분 기호] </td> 
-      <td> <p>위에 입력한 범위를 구분할 기준을 선택하십시오. 해당 서비스의 개발자(API) 설명서에서 이 정보를 찾을 수 있습니다.</p> <p>경고: 구분 기호가 올바르게 설정되지 않으면 [!DNL Workfront Fusion] 연결을 만들지 못하며 잘못된 범위 오류가 표시됩니다.</p> </td> 
+      <td> <p>위에 입력한 범위를 구분할 기준을 선택하십시오. 해당 서비스의 개발자(API) 설명서에서 이 정보를 찾을 수 있습니다.</p> <p>경고: 구분 기호가 올바르게 설정되지 않으면 [!DNL Workfront Fusion]에서 연결을 만들지 못하고 잘못된 범위 오류가 표시됩니다.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 클라이언트 ID] </td> 
@@ -156,7 +156,7 @@ OAuth 2.0 인증에 대한 자세한 내용은 [OAuth 2.0 인증 프레임워크
       <td role="rowheader"> <p>[!UICONTROL Authorize parameters]</p> </td> 
       <td> <p>인증 호출에 포함할 매개 변수를 추가합니다. 다음 표준 매개 변수는 항상 자동으로 포함되며 추가할 필요가 없습니다.</p> <p>표준 매개 변수:</p> 
        <ul> 
-        <li> <p><strong>[!UICONTROL response_type]</strong> </p> <p> <code>code </code>([!UICONTROL Authorization Code flow] 및 <code>token </code>([!UICONTROL 암시적 흐름]용)</p> </li> 
+        <li> <p><strong>[!UICONTROL response_type]</strong> </p> <p> [!UICONTROL 인증 코드 흐름]의 경우 <code>code </code>이고 [!UICONTROL 암시적 흐름]의 경우 <code>token </code>입니다.</p> </li> 
         <li> <p><strong>[!UICONTROL redirect_uri]</strong> </p> 
          <table style="table-layout:auto">  
           <col> 
@@ -196,23 +196,23 @@ OAuth 2.0 인증에 대한 자세한 내용은 [OAuth 2.0 인증 프레임워크
           </tbody> 
          </table> </li> 
         <li><strong>[!UICONTROL client_id]</strong>: 계정을 만들 때 받은 클라이언트 ID가 요청 본문에 자동으로 포함됩니다</li> 
-        <li><strong>클라이언트 암호</strong>: 계정을 만들 때 받은 클라이언트 암호가 요청 본문에 자동으로 포함됩니다</li> 
-        <li><strong>코드</strong>: 인증 요청에서 반환된 코드입니다</li> 
-       </ul> <p>참고:  <p>OAuth 2.0 표준은 이 단계( )에서 최소 2개의 클라이언트 인증 방법을 지원합니다.<code>[!UICONTROL client_secret_basic]</code> 및 <code>[!UICONTROL client_secret_post]</code>). [!DNL Workfront Fusion] 은(는) 을(를) 통해 지정된 클라이언트 ID 및 암호를 자동으로 보냅니다. <code>[!UICONTROL client_secret_post]</code> 메서드를 사용합니다. 따라서 이러한 매개 변수는 토큰 요청 본문의 일부로 자동으로 포함됩니다. </p> <p>OAuth 2.0 인증에 대한 자세한 내용은 <a href="https://tools.ietf.org/html/rfc6749">OAuth 2.0 인증 프레임워크</a>.</p> </p> </td> 
+        <li><strong>client_secret</strong>: 계정을 만들 때 받은 클라이언트 암호가 요청 본문에 자동으로 포함됩니다</li> 
+        <li><strong>code</strong>: 인증 요청에서 반환된 코드입니다.</li> 
+       </ul> <p>참고:  <p>OAuth 2.0 표준은 이 단계(<code>[!UICONTROL client_secret_basic]</code> 및 <code>[!UICONTROL client_secret_post]</code>) 동안 최소 두 가지 이상의 클라이언트 인증 방법을 지원합니다. [!DNL Workfront Fusion]은(는) <code>[!UICONTROL client_secret_post]</code> 메서드를 통해 지정된 클라이언트 ID와 암호를 자동으로 보냅니다. 따라서 이러한 매개 변수는 토큰 요청 본문의 일부로 자동으로 포함됩니다. </p> <p>OAuth 2.0 인증에 대한 자세한 내용은 <a href="https://tools.ietf.org/html/rfc6749">OAuth 2.0 권한 부여 프레임워크</a>를 참조하십시오.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL 토큰 매개 변수 새로 고침]</p> </td> 
       <td> <p>토큰 호출에 포함할 매개 변수를 추가합니다. 다음 표준 매개 변수는 항상 자동으로 포함되며 추가할 필요가 없습니다.</p> <p>표준 매개 변수:</p> 
        <ul> 
         <li> <p><strong>[!UICONTROL grant_type]</strong>: <code>refresh_token</code></p> </li> 
-        <li> <p><strong>[!UICONTROL refresh_token]</strong>: 연결 중인 서비스에서 얻은 가장 최근 새로 고침 토큰</p> </li> 
+        <li> <p><strong>[!UICONTROL refresh_token]</strong>: 연결 중인 서비스에서 얻은 가장 최근 새로 고침 토큰입니다</p> </li> 
         <li> <p><strong>[!UICONTROL client_id]</strong>: 계정을 만들 때 받은 클라이언트 ID가 요청 본문에 자동으로 포함됩니다</p> </li> 
         <li> <p><strong>[!UICONTROL client_secret]</strong>: 계정을 만들 때 받은 클라이언트 암호가 요청 본문에 자동으로 포함됩니다</p> </li> 
-       </ul> <p>참고:  <p>OAuth 2.0 표준은 이 단계( )에서 최소 2개의 클라이언트 인증 방법을 지원합니다.<code>[!UICONTROL client_secret_basic]</code> 및 <code>[!UICONTROL client_secret_post]</code>). [!DNL Workfront Fusion] 은(는) 을(를) 통해 지정된 클라이언트 ID 및 암호를 자동으로 보냅니다. <code>[!UICONTROL client_secret_post]</code> 메서드를 사용합니다. 따라서 이러한 매개 변수는 토큰 요청 본문의 일부로 자동으로 포함됩니다. </p> <p>OAuth 2.0 인증에 대한 자세한 내용은 <a href="https://tools.ietf.org/html/rfc6749">OAuth 2.0 인증 프레임워크</a>.</p> </p> </td> 
+       </ul> <p>참고:  <p>OAuth 2.0 표준은 이 단계(<code>[!UICONTROL client_secret_basic]</code> 및 <code>[!UICONTROL client_secret_post]</code>) 동안 최소 두 가지 이상의 클라이언트 인증 방법을 지원합니다. [!DNL Workfront Fusion]은(는) <code>[!UICONTROL client_secret_post]</code> 메서드를 통해 지정된 클라이언트 ID와 암호를 자동으로 보냅니다. 따라서 이러한 매개 변수는 토큰 요청 본문의 일부로 자동으로 포함됩니다. </p> <p>OAuth 2.0 인증에 대한 자세한 내용은 <a href="https://tools.ietf.org/html/rfc6749">OAuth 2.0 권한 부여 프레임워크</a>를 참조하십시오.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL 사용자 지정 헤더]</p> </td> 
-      <td> <p>[!UICONTROL Token] 및 R[!UICONTROL Refresh Token] 단계의 헤더에 포함할 추가 키 및 값을 지정합니다.</p> <p>참고:  <p>OAuth 2.0 표준은 이 단계( )에서 최소 2개의 클라이언트 인증 방법을 지원합니다.<code>[!UICONTROL client_secret_basic]</code> 및 <code>[!UICONTROL client_secret_post]</code>). [!DNL Workfront Fusion] 은(는) 을(를) 자동으로 지원하지 않습니다 <code>[!UICONTROL client_secret_basic]</code> 메서드를 사용합니다. 연결하는 서비스에서 클라이언트 ID와 클라이언트 암호가 단일 문자열로 결합된 다음 base64가 인증 헤더에 인코딩되어야 하는 경우 해당 헤더와 키 값을 여기에 추가해야 합니다.</p> <p> OAuth 2.0 인증에 대한 자세한 내용은 <a href="https://tools.ietf.org/html/rfc6749">OAuth 2.0 인증 프레임워크</a>.</p> </p> </td> 
+      <td> <p>[!UICONTROL Token] 및 R[!UICONTROL Refresh Token] 단계의 헤더에 포함할 추가 키 및 값을 지정합니다.</p> <p>참고:  <p>OAuth 2.0 표준은 이 단계(<code>[!UICONTROL client_secret_basic]</code> 및 <code>[!UICONTROL client_secret_post]</code>) 동안 최소 두 가지 이상의 클라이언트 인증 방법을 지원합니다. [!DNL Workfront Fusion]은(는) <code>[!UICONTROL client_secret_basic]</code> 메서드를 자동으로 지원하지 않습니다. 연결하는 서비스에서 클라이언트 ID와 클라이언트 암호가 단일 문자열로 결합된 다음 base64가 인증 헤더에 인코딩되어야 하는 경우 해당 헤더와 키 값을 여기에 추가해야 합니다.</p> <p> OAuth 2.0 인증에 대한 자세한 내용은 <a href="https://tools.ietf.org/html/rfc6749">OAuth 2.0 권한 부여 프레임워크</a>를 참조하십시오.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL 토큰 배치]</p> </td> 
@@ -229,16 +229,16 @@ OAuth 2.0 인증에 대한 자세한 내용은 [OAuth 2.0 인증 프레임워크
     </tbody> 
    </table>
 
-1. 클릭 **[!UICONTROL 계속]** 연결 설정을 저장합니다.
-1. 계속 [OAuth 2.0 요청 모듈 설정](#oauth-20-request-module-setup).
+1. 연결 설정을 저장하려면 **[!UICONTROL 계속]**&#x200B;을 클릭하세요.
+1. [OAuth 2.0 요청 모듈 설정](#oauth-20-request-module-setup)을 계속합니다.
 
-### 에 대한 연결 만들기 지침 [!DNL Google] 다음에서 [!UICONTROL HTTP] >[!UICONTROL OAuth 2.0 요청 모듈 만들기]
+### [!UICONTROL HTTP] >[!UICONTROL OAuth 2.0 요청 모듈 만들기]에서 [!DNL Google]에 대한 연결을 만드는 지침
 
-다음 예에서는 를 사용하는 방법을 보여 줍니다. [!UICONTROL HTTP] > [!UICONTROL OAuth 2.0 만들기] 연결할 모듈 요청 [!DNL Google].
+다음 예제에서는 [!UICONTROL HTTP] > [!UICONTROL OAuth 2.0] 요청 모듈을 사용하여 [!DNL Google]에 연결하는 방법을 보여 줍니다.
 
-1. 에 설명된 대로 프로젝트를 만들고, OAuth 설정을 구성하고, 자격 증명을 생성했는지 확인합니다. [연결 [!DNL Adobe Workfront Fusion] 끝 [!DNL Google Services] 사용자 정의 OAuth 클라이언트 사용](../../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md).
-1. 를 엽니다. [!UICONTROL HTTP] >[!UICONTROL OAuth 2.0 요청] 모듈.
-1. 클릭 **[!UICONTROL 추가]** 연결 상자 옆에 있습니다.
+1. [Connect [!DNL Adobe Workfront Fusion] to [!DNL Google Services] 사용자 지정 OAuth 클라이언트 사용](../../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md)에 설명된 대로 프로젝트를 만들고, OAuth 설정을 구성하고, 자격 증명을 생성했는지 확인하십시오.
+1. [!UICONTROL HTTP] >[!UICONTROL OAuth 2.0 요청 만들기] 모듈을 엽니다.
+1. 연결 상자 옆에 있는 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
 1. 다음 값을 입력합니다.
 
    <table style="table-layout:auto">  
@@ -263,7 +263,7 @@ OAuth 2.0 인증에 대한 자세한 내용은 [OAuth 2.0 인증 프레임워크
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 범위] </td> 
-      <td> <p>개별 범위를 추가합니다. 범위에 대한 자세한 내용은 <a href="https://developers.google.com/identity/protocols/oauth2/scopes">다음에 대한 OAuth 2.O 범위: [!DNL Google] API</a> 다음에서 [!DNL Google] 설명서를 참조하십시오.</p> </td> 
+      <td> <p>개별 범위를 추가합니다. 범위에 대한 자세한 내용은 [!DNL Google] 설명서의 [!DNL Google] API</a>에 대한 <a href="https://developers.google.com/identity/protocols/oauth2/scopes">OAuth 2.O 범위를 참조하십시오.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 범위 구분 기호] </td> 
@@ -271,33 +271,33 @@ OAuth 2.0 인증에 대한 자세한 내용은 [OAuth 2.0 인증 프레임워크
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 클라이언트 ID] </td> 
-      <td> <p>다음을 입력하십시오. [!DNL Google] 클라이언트 ID. </p> <p>클라이언트 ID를 만들려면 다음을 참조하십시오 <a href="../../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md#create2" class="MCXref xref">OAuth 자격 증명 만들기</a> 위치: <a href="../../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md" class="MCXref xref">[!DNL Connect Adobe Workfront Fusion] 끝 [!DNL Google Services] 사용자 정의 OAuth 클라이언트 사용</a>.</p> </td> 
+      <td> <p>[!DNL Google] 클라이언트 ID를 입력하십시오. </p> <p>클라이언트 ID를 만들려면 사용자 지정 OAuth 클라이언트를 사용하여 <a href="../../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md" class="MCXref xref">[!DNL Connect Adobe Workfront Fusion]에서 [!DNL Google Services]에 <a href="../../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md#create2" class="MCXref xref">OAuth 자격 증명 만들기</a>를 참조하십시오</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 클라이언트 암호]</td> 
-      <td> <p>다음을 입력하십시오. [!DNL Google] 클라이언트 암호. </p> <p>클라이언트 암호를 만들려면 다음을 참조하십시오 <a href="../../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md#create2" class="MCXref xref">OAuth 자격 증명 만들기</a> 위치: <a href="../../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md" class="MCXref xref">[!DNL Connect Adobe Workfront Fusion] 끝 [!DNL Google] 사용자 지정 OAuth 클라이언트를 사용하는 서비스</a>.</p> </td> 
+      <td> <p>[!DNL Google] 클라이언트 암호를 입력하십시오. </p> <p>클라이언트 암호를 만들려면 사용자 지정 OAuth 클라이언트를 사용하여 [!DNL Google] 서비스에 대해 <a href="../../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md" class="MCXref xref">[!DNL Connect Adobe Workfront Fusion]에서 <a href="../../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md#create2" class="MCXref xref">OAuth 자격 증명 만들기</a>를 참조하십시오</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Authorize parameters]</p> </td> 
-      <td> <p>추가 <code>[!UICONTROL access_type]</code> - <code>[!UICONTROL offline] </code>키-값 쌍입니다.</p> <p> <img src="assets/google-authentication-http.png"> </p> <p>참고: 토큰 새로 고침 등과 같이 인증 문제가 발생하는 경우 <code>[!UICONTROL prompt] </code>- <code>[!UICONTROL consent] </code>키-값 쌍입니다.</p> </td> 
+      <td> <p><code>[!UICONTROL access_type]</code> - <code>[!UICONTROL offline] </code>키-값 쌍을 추가합니다.</p> <p> <img src="assets/google-authentication-http.png"> </p> <p>참고: 토큰 새로 고침 등의 인증 문제가 발생하면 <code>[!UICONTROL prompt] </code>- <code>[!UICONTROL consent] </code>키-값 쌍을 추가해 보십시오.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 클릭 **[!UICONTROL 계속]** 연결 설정을 저장합니다.
-1. 계속 [OAuth 2.0 요청 모듈 설정](#oauth-20-request-module-setup).
+1. 연결 설정을 저장하려면 **[!UICONTROL 계속]**&#x200B;을 클릭하세요.
+1. [OAuth 2.0 요청 모듈 설정](#oauth-20-request-module-setup)을 계속합니다.
 
-### 에 연결하기 위한 지침 [!DNL Microsoft Graph API] 를 통해 [!UICONTROL HTTP] > [!UICONTROL OAuth 2.0 요청] 모듈
+### [!UICONTROL HTTP] > [!UICONTROL OAuth 2.0 요청 만들기] 모듈을 통해 [!DNL Microsoft Graph API]에 연결하는 지침
 
-에 대한 지침은 [!DNL Microsoft Graph API], 참조 [호출 [!DNL MS Graph REST API] 를 통해 [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL OAuth 2.0 요청] 모듈](../../../workfront-fusion/connections/call-the-ms-graph-rest-api.md).
+[!DNL Microsoft Graph API]에 대한 지침은 [HTTP] > [!UICONTROL OAuth 2.0 요청 만들기] 모듈](../../../workfront-fusion/connections/call-the-ms-graph-rest-api.md)을 통해  [!DNL MS Graph REST API] 에 문의하십시오. [!DNL Adobe Workfront Fusion] [!UICONTROL 
 
 ## OAuth 2.0 요청 모듈 설정
 
-을(를) 설정한 경우 [!DNL Oauth 2]에 설명된 대로 .0 연결 [에 대한 연결 만들기 [!DNL OAuth] 요청](#creating-a-connection-for-an-oauth-request)원하는 대로 모듈을 계속 설정합니다. 모든 인증 토큰은 이 요청 및 동일한 연결을 사용하는 다른 모든 요청에 자동으로 포함됩니다.
+[요청에 대한 연결 만들기 [!DNL OAuth] 요청](#creating-a-connection-for-an-oauth-request)에 설명된 대로 [!DNL Oauth 2].0 연결을 설정했으면 원하는 대로 모듈을 계속 설정합니다. 모든 인증 토큰은 이 요청 및 동일한 연결을 사용하는 다른 모든 요청에 자동으로 포함됩니다.
 
-을(를) 구성할 때 [!UICONTROL HTTP] >[!UICONTROL OAuth 2.0 요청] 모듈, [!DNL Workfront Fusion] 아래 나열된 필드를 표시합니다. 모듈의 굵은 제목은 필수 필드를 나타냅니다.
+[!UICONTROL HTTP] >[!UICONTROL OAuth 2.0 요청 만들기] 모듈을 구성할 때 [!DNL Workfront Fusion]에 아래 나열된 필드가 표시됩니다. 모듈의 굵은 제목은 필수 필드를 나타냅니다.
 
-필드나 함수 위에 맵 단추가 표시되면 이 단추를 사용하여 해당 필드에 대한 변수와 함수를 설정할 수 있습니다. 자세한 내용은 [의 한 모듈에서 다른 모듈로 정보 매핑 [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/mapping/map-information-between-modules.md).
+필드나 함수 위에 맵 단추가 표시되면 이 단추를 사용하여 해당 필드에 대한 변수와 함수를 설정할 수 있습니다. 자세한 내용은 [한 모듈에서 다른 모듈로 정보를 매핑 [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/mapping/map-information-between-modules.md)을 참조하십시오.
 
 <!--
 <img src="assets/map-toggle-350x74.png" style="width: 350;height: 74;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -309,11 +309,11 @@ OAuth 2.0 인증에 대한 자세한 내용은 [OAuth 2.0 인증 프레임워크
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>연결 설정에 대한 자세한 내용은 <a href="#creating-a-connection-for-an-oauth-request" class="MCXref xref">OAuth 요청에 대한 연결 만들기</a> 이 문서에서.</p> </td> 
+   <td> <p>연결 설정에 대한 자세한 내용은 이 문서에서 <a href="#creating-a-connection-for-an-oauth-request" class="MCXref xref">OAuth 요청에 대한 연결 만들기</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 모든 상태를 오류로 평가(2xx 및 3xx 제외) </td> 
-   <td> <p>이 옵션을 사용하여 오류 처리를 설정합니다.</p> <p>자세한 내용은 <a href="../../../workfront-fusion/errors/error-handling.md" class="MCXref xref">에서 오류 처리 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>이 옵션을 사용하여 오류 처리를 설정합니다.</p> <p>자세한 내용은 [!DNL Adobe Workfront Fusion]</a>에서 <a href="../../../workfront-fusion/errors/error-handling.md" class="MCXref xref">오류 처리를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL] </td> 
@@ -321,7 +321,7 @@ OAuth 2.0 인증에 대한 자세한 내용은 [OAuth 2.0 인증 프레임워크
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 메서드]</p> </td> 
-   <td> <p>API 호출을 구성하는 데 필요한 HTTP 요청 메서드를 선택합니다. 자세한 내용은 <a href="../../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">의 HTTP 요청 메서드 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>API 호출을 구성하는 데 필요한 HTTP 요청 메서드를 선택합니다. 자세한 내용은 [!DNL Adobe Workfront Fusion]</a>에서 <a href="../../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">HTTP 요청 메서드를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers] </td> 
@@ -336,7 +336,7 @@ OAuth 2.0 인증에 대한 자세한 내용은 [OAuth 2.0 인증 프레임워크
    <td> <p>HTTP Body는 사용할 데이터 바이트가 있는 경우 헤더 바로 다음에 오는 HTTP 트랜잭션 메시지로 전송됩니다.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Raw]</strong> </p> <p>원시 본문 유형은 일반적으로 개발자 설명서에서 전송할 데이터를 지정하지 않는 경우에도 대부분의 HTTP 본문 요청에 적합합니다.</p> <p>[!UICONTROL Content type] 필드에서 데이터를 구문 분석하는 형식을 지정합니다.</p> <p>선택한 콘텐츠 유형에도 불구하고 데이터는 개발자 설명서에서 규정하거나 요구하는 모든 형식으로 입력됩니다.</p> </li> 
-     <li> <p><strong>[!UICONTROL Application/x-www-form-urlencoded]</strong> </p> <p>이 본문 유형은 다음을 사용하여 데이터를 POST 하는 것입니다. <code>[!UICONTROL application/x-www-form-urlencoded]</code>.</p> <p>대상 <code>[!UICONTROL application/x-www-form-urlencoded]</code>로 나열된 상태로 서버에 전송되는 HTTP 메시지의 본문은 기본적으로 하나의 쿼리 문자열입니다. 키 및 값은 다음으로 구분된 키-값 쌍으로 인코딩됩니다. <code>&amp;</code> 및 <code>=</code> 키 및 값 사이. </p> <p>이진 데이터의 경우 <code>use [!UICONTROL multipart/form-data]</code> 대신,</p> 
+     <li> <p><strong>[!UICONTROL Application/x-www-form-urlencoded]</strong> </p> <p>이 본문 형식은 <code>[!UICONTROL application/x-www-form-urlencoded]</code>을(를) 사용하여 데이터를 POST 하는 것입니다.</p> <p><code>[!UICONTROL application/x-www-form-urlencoded]</code>의 경우 서버로 전송된 HTTP 메시지의 본문은 기본적으로 하나의 쿼리 문자열입니다. 키와 값은 키와 값 사이에 <code>=</code>이(가) 있고 <code>&amp;</code>(으)로 구분된 키-값 쌍으로 인코딩됩니다. </p> <p>이진 데이터의 경우 대신 <code>use [!UICONTROL multipart/form-data]</code>을(를) 사용합니다.</p> 
       <div class="example" data-mc-autonum="<b>Example: </b>">
        <span class="autonumber"><span><b>예: </b></span></span> 
        <p>결과 HTTP 요청 형식의 예:</p> 
@@ -379,15 +379,15 @@ OAuth 2.0 인증에 대한 자세한 내용은 [OAuth 2.0 인증 프레임워크
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 배열로 동일한 쿼리 문자열 키를 여러 개 직렬화할 수 없음]</p> </td> 
-   <td> <p>기본적으로, [!DNL Workfront Fusion] 은 배열과 동일한 URL 쿼리 문자열 매개 변수 키에 대해 여러 값을 처리합니다. 예를 들어, <code>www.test.com?foo=bar&amp;foo=baz</code> 이(가) (으)로 전환됩니다. <code>www.test.com?foo[0]=bar&amp;foo[1]=baz</code>. 이 기능을 비활성화하려면 이 옵션을 활성화합니다. </p> </td> 
+   <td> <p>기본적으로 [!DNL Workfront Fusion]은(는) 배열과 동일한 URL 쿼리 문자열 매개 변수 키에 대해 여러 값을 처리합니다. 예를 들어 <code>www.test.com?foo=bar&amp;foo=baz</code>은(는) <code>www.test.com?foo[0]=bar&amp;foo[1]=baz</code>(으)로 변환됩니다. 이 기능을 비활성화하려면 이 옵션을 활성화합니다. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Request compressed content]</td> 
-   <td> <p> 웹 사이트의 압축된 버전을 요청하려면 이 옵션을 활성화하십시오.</p> <p>여기에 이 추가됩니다. <code>[!UICONTROL Accept-Encoding]</code> 압축된 콘텐츠를 요청하는 헤더입니다.</p> </td> 
+   <td> <p> 웹 사이트의 압축된 버전을 요청하려면 이 옵션을 활성화하십시오.</p> <p>압축된 콘텐츠를 요청하기 위해 <code>[!UICONTROL Accept-Encoding]</code> 헤더를 추가합니다.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Use Mutual TLS]</td> 
-   <td> <p>HTTP 요청에서 상호 TLS를 사용하려면 이 옵션을 활성화하십시오.</p> <p>상호 TLS에 대한 자세한 내용은 <a href="../../../workfront-fusion/apps-and-their-modules/http-modules/use-mtls-in-http-modules.md" class="MCXref xref">의 HTTP 모듈에서 상호 TLS 사용 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>HTTP 요청에서 상호 TLS를 사용하려면 이 옵션을 활성화하십시오.</p> <p>상호 TLS에 대한 자세한 내용은 <a href="../../../workfront-fusion/apps-and-their-modules/http-modules/use-mtls-in-http-modules.md" class="MCXref xref">HTTP 모듈에서 상호 TLS 사용([!DNL Adobe Workfront Fusion]</a>)을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>

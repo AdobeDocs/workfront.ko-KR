@@ -6,19 +6,19 @@ description: Document moveToFolder 작업을 사용할 때 422 오류가 반환�
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 86c0517443537ec5af640036c290b3a495825fdc
+exl-id: 811efabc-e101-4de5-a800-a1447654dc3e
+source-git-commit: 53edc378e000e5b36fe0ce5750b8917fb13cfde1
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 0%
 
 ---
 
-
 # 문서 moveToFolder 작업이 작동하지 않음
 
 ## 문제
 
-Document 개체의 `moveToFolder` action, 422 오류가 반환됩니다.
+문서 개체의 `moveToFolder` 작업을 사용하는 경우 422 오류가 반환됩니다.
 
 또는
 

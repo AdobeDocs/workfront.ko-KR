@@ -21,15 +21,15 @@ ht-degree: 0%
 
 이 페이지에서는 2021년 5월 17일이 있는 주에 Adobe Workfront Fusion에서 향상된 기능을 모두 설명합니다.
 
-최근 변경 사항의 목록은 다음을 참조하십시오. [Adobe Workfront Fusion 릴리스 활동](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+최근 모든 변경 사항의 목록은 [Adobe Workfront Fusion 릴리스 활동](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)을 참조하십시오.
 
-Workfront Fusion의 최근 버그 수정 목록은 다음을 참조하십시오. [Workfront 유지 보수 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) Workfront Fusion Maintenance Update로 레이블이 지정된 업데이트를 찾아 확인합니다.
+Workfront Fusion의 최근 버그 수정 목록을 보려면 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 페이지를 참조하고 Workfront Fusion 유지 관리 업데이트 레이블이 지정된 업데이트를 확인하십시오.
 
 ## Workfront Fusion 시나리오에서 모듈 복사
 
 Workfront Fusion 시나리오를 더 쉽게 사용할 수 있도록 모듈을 복사하고 붙여넣을 수 있게 했습니다. 이제 모듈 또는 모듈 그룹을 복사하여 동일하거나 다른 시나리오에 붙여넣을 수 있습니다. 모듈을 복사하면 해당 모듈의 필드 값이 유지됩니다.
 
-자세한 내용은 [Adobe Workfront Fusion의 모듈 또는 시나리오 복사](../../../workfront-fusion/scenarios/copy-modules-or-scenarios.md).
+자세한 내용은 [Adobe Workfront Fusion의 모듈 또는 시나리오 복사](../../../workfront-fusion/scenarios/copy-modules-or-scenarios.md)를 참조하십시오.
 
 ## Workfront Fusion 시나리오에서 여러 모듈 선택
 
@@ -41,7 +41,7 @@ Workfront Fusion 시나리오를 더 쉽게 사용할 수 있도록 모듈을 �
 
 모듈을 복사하고 이동하면 모듈 값과 모듈을 연결하는 모든 줄이 유지됩니다.
 
-시나리오 편집에 대한 자세한 내용은 [Adobe Workfront Fusion에서 시나리오 만들기](../../../workfront-fusion/scenarios/create-a-scenario.md).
+시나리오 편집에 대한 자세한 내용은 [Adobe Workfront Fusion에서 시나리오 만들기](../../../workfront-fusion/scenarios/create-a-scenario.md)를 참조하십시오.
 
 ## 모듈은 이제 저장되지 않은 정보를 유지합니다.
 
@@ -54,4 +54,4 @@ Workfront Fusion 시나리오를 더 쉽게 사용할 수 있도록 모듈을 �
 * 새 레코드를 보려면 레코드 보기 트리거 모듈을 사용할 수 있습니다. 이 모듈은 더 이상 업데이트된 레코드를 감시하지 않습니다.
 * 업데이트된 레코드를 가져오려면 새 사용자/그룹 검색 델타 모듈을 사용할 수 있습니다. 이 모듈은 새 레코드, 업데이트 레코드 및 삭제된 레코드를 반환합니다.
 
-자세한 내용은 [Azure Active Directory 모듈](../../../workfront-fusion/apps-and-their-modules/azure-ad-modules.md).
+자세한 내용은 [Azure Active Directory 모듈](../../../workfront-fusion/apps-and-their-modules/azure-ad-modules.md)을 참조하세요.

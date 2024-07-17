@@ -40,7 +40,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->외부 라이선스는 유료 라이선스가 아닙니다. 주로 Workfront을 사용하지 않는 사람과 문서를 공유하기 위해 설계되었습니다. 자세한 내용은 [액세스 수준 개요](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+>외부 라이선스는 유료 라이선스가 아닙니다. 주로 Workfront을 사용하지 않는 사람과 문서를 공유하기 위해 설계되었습니다. 자세한 내용은 [액세스 수준 개요](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)를 참조하세요.
 
 ## 라이선스에서 액세스 수준을 정의하는 방법
 
@@ -48,7 +48,7 @@ ht-degree: 2%
 
 기본 액세스 수준을 복사하고 필요에 따라 사용자를 위해 복사본을 사용자 지정할 수 있습니다. 복사된 액세스 수준에 대해 라이선스에서 허용하는 기능 범위 내에서 사용자의 요구 사항에 맞게 액세스 설정을 조정할 수 있습니다.
 
-자세한 내용은 [액세스 수준 개요](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) 및 [사용자 정의 액세스 수준 만들기 또는 수정](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+자세한 내용은 [액세스 수준 개요](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) 및 [사용자 지정 액세스 수준 만들기 또는 수정](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)을 참조하세요.
 
 ## 라이선스 수
 
@@ -56,6 +56,6 @@ ht-degree: 2%
 
 예를 들어 사용자에게 표준 액세스 수준을 할당하면 사용 가능한 표준 라이선스의 수가 1개 줄어듭니다.
 
-사용자에게 할당된 라이선스 및 액세스 수준을 볼 수 있습니다. 자세한 내용은 [사용자의 액세스 수준 및 라이선스 나열](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md).
+사용자에게 할당된 라이선스 및 액세스 수준을 볼 수 있습니다. 자세한 내용은 [사용자의 액세스 수준 및 라이선스 나열](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)을 참조하세요.
 
-라이선스 관리에 대한 자세한 내용은 [시스템에서 사용 가능한 라이선스 관리](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+라이선스 관리에 대한 자세한 내용은 [시스템에서 사용 가능한 라이선스 관리](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)를 참조하십시오.

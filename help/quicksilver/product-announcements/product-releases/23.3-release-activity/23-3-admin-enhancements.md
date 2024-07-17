@@ -16,7 +16,7 @@ ht-degree: 0%
 
 이 페이지에서는 23.3 릴리스의 모든 관리자 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2023년 7월 20일과 21일에 23.3 릴리스를 통해 프로덕션 환경에서 사용할 수 있습니다.
 
-23.3 릴리스 주기 동안 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 을 참조하십시오. [23.3 릴리스 개요](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+23.3 릴리스 주기 동안 현재 사용 가능한 모든 변경 사항 목록을 보려면 [23.3 릴리스 개요](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)를 참조하십시오.
 
 ## 더 빠른 Workfront 릴리스 주기 활성화
 
@@ -24,15 +24,15 @@ ht-degree: 0%
 
 이전에는 모든 고객을 위해 기능을 분기별로 릴리스했습니다.
 
-자세한 내용은 [빠른 릴리스 프로세스 활성화 또는 비활성화](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+자세한 내용은 [빠른 릴리스 프로세스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요.
 
 ## &quot;사용자가 시간을 기록할 수 있는 위치&quot; 타임시트 및 시간 환경 설정에 사용할 수 있는 그룹 수준 제어
 
 이제 시스템 관리자는 &quot;사용자가 시간을 기록할 수 있는 위치&quot; 타임시트 및 시간 기본 설정을 잠그고 잠금 해제할 수 있습니다. 이 환경 설정이 잠금 해제되면 그룹 관리자는 각 그룹에 대해 별도로 &quot;사용자가 시간을 기록할 수 있는 위치&quot; 설정을 구성할 수 있습니다.
 
-자세한 내용은 [타임시트 및 시간 환경 설정 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) 및 [그룹에 대한 타임시트 및 시간 환경 설정 구성](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
+자세한 내용은 [타임시트 및 시간 환경 설정 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) 및 [그룹에 대한 타임시트 및 시간 환경 설정 구성](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md)을 참조하십시오.
 
-[이 기능에 대한 비디오 데모 보기](https://video.tv.adobe.com/v/3419111/){target=_blank}
+[이 기능의 비디오 데모 보기](https://video.tv.adobe.com/v/3419111/){target=_blank}
 
 ## 양식 디자이너 베타에 표시되는 논리 표시 및 건너뛰기 논리 표시기 및 규칙
 
@@ -44,4 +44,4 @@ ht-degree: 0%
 
 기존 논리를 편집하고 사용자 정의 양식에 새 논리를 추가하는 작업은 양식 디자이너 Beta에서 아직 사용할 수 없지만 나중에 수행할 예정입니다.
 
-자세한 내용은 [양식 디자이너 개요](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md).
+자세한 내용은 [양식 디자이너 개요](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md)를 참조하세요.

@@ -35,7 +35,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
@@ -46,11 +46,11 @@ ht-degree: 0%
    <td role="rowheader">액세스 수준 구성*</td> 
    <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 권한을 편집하여 보고서 수정</p> <p>필터, 보기, 그룹화에 대한 액세스 권한을 편집하여 필터 수정</p> <p><b>메모</b>
 
-여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td>
+여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>보고서에 대한 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>보고서에 대한 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -60,9 +60,9 @@ ht-degree: 0%
 ## 동일한 필드를 참조하는 여러 필터 규칙 만들기
 
 1. 작업 목록으로 이동합니다.
-1. 다음에서 **필터** 드롭다운 메뉴에서 다음을 선택합니다. **새 필터**.
-1. 클릭 **텍스트 모드로 전환**.
-1. 텍스트 모드 영역 위로 마우스를 가져간 다음 **텍스트를 편집하려면 클릭**.
+1. **필터** 드롭다운 메뉴에서 **새 필터**&#x200B;을(를) 선택합니다.
+1. **텍스트 모드로 전환**&#x200B;을 클릭합니다.
+1. 텍스트 모드 영역 위로 마우스를 가져간 후 **텍스트를 편집하려면 클릭**&#x200B;합니다.
 1. 보고서에 대한 필터 규칙 설정 영역에서 다음 코드를 추가합니다.
 
    ```
@@ -76,19 +76,17 @@ ht-degree: 0%
    >
    >유사한 필터를 빌드하려면 먼저 첫 번째 문을 빌드합니다. For example:
    >
-   >
-   ```
+   >```
    >name=green
    >name_Mod=cicontains
    >```
    >
    >필요한 횟수만큼 명령문을 복사하여 붙여넣습니다. 그런 다음 동일한 필드(여기서는 &quot;name&quot;)를 참조하는 데 필요한 만큼 문을 추가하고 추가 문을 다음과 같이 수정할 수 있습니다.
    >
-   >1. 복사된 두 줄 앞에 &quot;AND&quot;:1:&quot;, &quot;및:2:&quot;, &quot;및:3:&quot;, 각 새 필드에 대해 가능한 값.
+   >1. 복사된 두 줄 앞에 &quot;AND:1:&quot;, &quot;AND:2:&quot;, &quot;AND:3:&quot; 등이 있습니다. 각 새 필드에 대해 가능한 값입니다.
    >1. 필드 줄을 새 필드 값으로 바꿉니다(&quot;=&quot; 기호 뒤).
    >1. 수정자 라인(_Mod)을 새 수정자로 바꿉니다.
-
    >   
    >이 문은 대/소문자를 구분합니다.
 
-1. 클릭 **완료**, 그런 다음 **필터 저장**.
+1. **완료**&#x200B;를 클릭한 다음 **필터 저장**&#x200B;을 클릭합니다.

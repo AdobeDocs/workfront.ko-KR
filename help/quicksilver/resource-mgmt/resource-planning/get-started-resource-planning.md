@@ -23,13 +23,13 @@ ht-degree: 0%
 </div>
 -->
 
-Adobe Workfront 리소스 관리 도구를 사용하여 리소스 할당을 예측하여 프로젝트가 정시에 배달되는지 또는 예산으로 배달되는지를 정확하게 파악할 수 있습니다. Workfront의 리소스 관리에 대한 개요는 를 참조하십시오. [리소스 관리 시작](../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
+Adobe Workfront 리소스 관리 도구를 사용하여 리소스 할당을 예측하여 프로젝트가 정시에 배달되는지 또는 예산으로 배달되는지를 정확하게 파악할 수 있습니다. Workfront의 리소스 관리에 대한 개요는 [리소스 관리 시작](../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)을 참조하세요.
 
 리소스 계획 도구를 사용하여 작업 역할, 해당 가용성 및 이 가용성을 기반으로 프로젝트에 대한 일반 할당을 관리할 수 있습니다.
 
 프로젝트에 대한 사용자의 일반 할당 예산을 책정할 때 실제 작업(작업 및 문제)에는 할당되지 않습니다. 업무 균형자를 사용하여 작업할 리소스를 할당해야 합니다.
 
-업무 균형자 를 사용하여 Workfront에서 리소스를 예약하는 방법에 대한 자세한 내용은 [업무 균형자 개요](../workload-balancer/overview-workload-balancer.md).
+업무 균형자를 사용하여 Workfront에서 리소스를 예약하는 방법에 대한 자세한 내용은 [업무 균형자 개요](../workload-balancer/overview-workload-balancer.md)를 참조하십시오.
 
 ## Workfront의 리소스 계획 도구
 
@@ -39,19 +39,19 @@ Adobe Workfront 리소스 관리 도구를 사용하여 리소스 할당을 예�
 
   리소스 조달 영역의 플래너 섹션으로 이동하여 리소스 플래너에 액세스할 수 있습니다.
 
-  리소스 플래너에 대한 자세한 내용은 [리소스 플래너 개요](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+  리소스 플래너에 대한 자세한 내용은 [리소스 플래너 개요](../../resource-mgmt/resource-planning/get-started-resource-planner.md)를 참조하십시오.
 
-* 단일 프로젝트에 대한 예산 배정: 프로젝트의 비즈니스 사례에서 리소스 예산 책정 영역에 있는 프로젝트 수준 리소스 플래너를 사용합니다. 한 프로젝트의 리소스 예산 편성에 대한 자세한 내용은 문서를 참조하십시오. [비즈니스 사례의 예산 리소스](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+* 단일 프로젝트에 대한 예산 배정: 프로젝트의 비즈니스 사례에서 리소스 예산 책정 영역에 있는 프로젝트 수준 리소스 플래너를 사용합니다. 한 프로젝트의 리소스 예산 편성에 대한 자세한 내용은 [비즈니스 사례의 리소스 예산](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md) 문서를 참조하십시오.
 
-  사용자를 관리하고 공통 기술 또는 부서 구조를 기반으로 풀에 구성한 다음 할당된 프로젝트에 대한 할당을 관리하려면 리소스 풀을 생성해야 합니다. 리소스 풀 만들기에 대한 자세한 내용은 [리소스 풀 만들기](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+  사용자를 관리하고 공통 기술 또는 부서 구조를 기반으로 풀에 구성한 다음 할당된 프로젝트에 대한 할당을 관리하려면 리소스 풀을 생성해야 합니다. 리소스 풀 만들기에 대한 자세한 내용은 [리소스 풀 만들기](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)를 참조하십시오.
 
   >[!TIP]
   >
   >프로젝트의 리소스 예산 영역은 프로젝트 수준의 리소스 플래너입니다. 프로젝트의 비즈니스 사례에서 리소스의 예산을 책정할 때 시스템 수준 리소스 플래너에도 정보가 반영됩니다.
 
-* 여러 이니셔티브에 걸쳐 높은 수준에서 리소스를 관리하고 조직의 전략에 맞게 작업을 조정하려면 Adobe Workfront 시나리오 플래너를 사용하십시오. 시나리오 플래너에는 추가 라이센스가 필요합니다. Workfront 시나리오 플래너에 대한 자세한 내용은 다음을 참조하십시오. [시나리오 플래너 개요](../../scenario-planner/scenario-planner-overview.md).
+* 여러 이니셔티브에 걸쳐 높은 수준에서 리소스를 관리하고 조직의 전략에 맞게 작업을 조정하려면 Adobe Workfront 시나리오 플래너를 사용하십시오. 시나리오 플래너에는 추가 라이센스가 필요합니다. Workfront 시나리오 플래너에 대한 자세한 내용은 [시나리오 플래너 개요](../../scenario-planner/scenario-planner-overview.md)를 참조하십시오.
 
-  시스템 수준에서 여러 프로젝트에 걸쳐 리소스 플래너를 사용할 수 있을 뿐만 아니라 비즈니스 사례의 리소스 예산 책정 영역에서 단일 프로젝트에 대한 리소스 예산을 책정할 수 있습니다. 비즈니스 사례에서 프로젝트의 리소스 예산 편성에 대한 자세한 내용은 [비즈니스 사례의 예산 리소스](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+  시스템 수준에서 여러 프로젝트에 걸쳐 리소스 플래너를 사용할 수 있을 뿐만 아니라 비즈니스 사례의 리소스 예산 책정 영역에서 단일 프로젝트에 대한 리소스 예산을 책정할 수 있습니다. 비즈니스 사례에서 프로젝트의 리소스 예산 책정에 대한 자세한 내용은 [비즈니스 사례의 리소스 예산](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)을 참조하십시오.
 
 ## 리소스 계획 도구의 목적
 
@@ -61,11 +61,11 @@ Adobe Workfront 리소스 관리 도구를 사용하여 리소스 할당을 예�
    * 사용자의 일정에 따라 리소스의 가용성을 이해합니다.
    * 할당된 프로젝트의 리소스(사용자 및 작업 역할)에 대한 예산 시간, FTE 또는 비용 할당.
 
-  리소스 플래너에서의 작업에 대한 자세한 내용은 문서 를 참조하십시오 [리소스 플래너 개요](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+  리소스 플래너에서의 작업에 대한 자세한 내용은 문서 [리소스 플래너 개요](../../resource-mgmt/resource-planning/get-started-resource-planner.md)를 참조하십시오.
 
-* Scenario Planner를 사용하여 회사의 전반적인 전략적 결과를 요약하는 여러 이니셔티브에 걸쳐 엔터프라이즈 수준 계획을 수립할 수 있습니다. 자세한 내용은 [시나리오 플래너 시작](../../scenario-planner/get-started-with-scenario-planning.md).
+* Scenario Planner를 사용하여 회사의 전반적인 전략적 결과를 요약하는 여러 이니셔티브에 걸쳐 엔터프라이즈 수준 계획을 수립할 수 있습니다. 자세한 내용은 [시나리오 플래너 시작](../../scenario-planner/get-started-with-scenario-planning.md)을 참조하세요.
 
-  시나리오 플래너에는 추가 라이센스가 필요합니다. Workfront 시나리오 플래너에 대한 자세한 내용은 다음을 참조하십시오. [시나리오 플래너 개요](../../scenario-planner/scenario-planner-overview.md).
+  시나리오 플래너에는 추가 라이센스가 필요합니다. Workfront 시나리오 플래너에 대한 자세한 내용은 [시나리오 플래너 개요](../../scenario-planner/scenario-planner-overview.md)를 참조하십시오.
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Prerequisites for resource planning</h2>

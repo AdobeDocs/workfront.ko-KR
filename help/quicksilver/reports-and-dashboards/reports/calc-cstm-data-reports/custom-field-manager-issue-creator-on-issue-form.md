@@ -34,7 +34,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td> <p>Adobe Workfront 플랜*</p> </td> 
-   <td>모든</td> 
+   <td>임의</td> 
   </tr> 
   <tr> 
    <td> <p>Adobe Workfront 라이센스*</p> </td> 
@@ -42,11 +42,11 @@ ht-degree: 0%
   </tr> 
   <tr data-mc-conditions=""> 
    <td>액세스 수준 구성*</td> 
-   <td> <p>사용자 정의 양식에 대한 관리 액세스<br>액세스 수준에서 관리 액세스 권한을 부여하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">사용자에게 특정 영역에 대한 관리 액세스 권한 부여</a>.</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td> <p>사용자 정의 양식에 대한 관리 액세스<br>액세스 수준에서 관리 액세스 권한을 부여하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">특정 영역에 대한 사용자 관리 액세스 권한 부여</a>를 참조하십시오.</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>개체 권한</p> </td> 
-   <td> <p>사용자 정의 양식 편집에 대한 액세스 권한을 가지고 양식이 첨부된 오브젝트에 대한 액세스 기여</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>사용자 정의 양식 편집에 대한 액세스 권한이 있는 양식이 첨부된 오브젝트에 대한 Contribute 액세스 권한</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -64,7 +64,7 @@ ht-degree: 0%
    * [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
    * [사용자 정의 양식에 계산된 데이터 추가](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
 
-1. 다음 텍스트 모드 코드를 복사하여 **계산** 사용자 정의 양식의 필드:
+1. 다음 텍스트 모드 코드를 복사하여 사용자 정의 양식의 **계산** 필드에 붙여넣습니다.
 
    ```
    {owner}.{manager}.{name}
@@ -74,6 +74,6 @@ ht-degree: 0%
    >
    >사용자 정의 필드 계산은 대/소문자를 구분합니다.
 
-1. 클릭 **완료**, 그런 다음 **저장 + 닫기**.
+1. **완료**&#x200B;를 클릭한 다음 **저장 + 닫기**&#x200B;를 클릭합니다.
 
    문제를 만든 사용자의 관리자는 필드가 포함된 양식을 문제에 첨부할 때 계산된 필드에 표시됩니다.

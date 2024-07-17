@@ -77,21 +77,21 @@ ht-degree: 1%
   </tr>
 <tr>
    <td role="rowheader"><p>권한</p></td>
-   <td> <p>Workfront에서 프로젝트, 포트폴리오 또는 프로그램에 대한 보기 이상의 권한</a> </p> 
-   <p>Workfront Planning에서 작업 공간에 대한 Contribute 이상 권한</a> </p>  
+   <td> <p>Workfront에서 프로젝트, 포트폴리오 또는 프로그램에 대한 권한 보기 이상</a> </p> 
+   <p>Workfront Planning에서 작업 영역에 대한 Contribute 이상의 권한</a> </p>  
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 Workfront Planning 작업 영역에 대한 권한을 가집니다</p>
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>레이아웃 템플릿</p></td>
-   <td> <p>Workfront 또는 그룹 관리자는 기본 메뉴의 계획 영역을 추가하고 왼쪽 패널의 계획 섹션을 레이아웃 템플릿에 추가해야 합니다. 자세한 내용은 <a href="/help/quicksilver/planning/access/access-overview.md">액세스 개요</a>. </p>  
+   <td> <p>Workfront 또는 그룹 관리자는 기본 메뉴의 계획 영역을 추가하고 왼쪽 패널의 계획 섹션을 레이아웃 템플릿에 추가해야 합니다. 자세한 내용은 <a href="/help/quicksilver/planning/access/access-overview.md">액세스 개요</a>를 참조하십시오. </p>  
 </td>
   </tr>
 
 </tbody>
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## Workfront 객체의 계획 섹션에 대한 고려 사항
 
@@ -113,11 +113,11 @@ ht-degree: 1%
    작업공간이 열리고 레코드 유형이 카드로 표시됩니다.
 
 1. Workfront 프로젝트, 포트폴리오 또는 프로그램에 연결된 레코드 유형의 카드를 클릭합니다.
-1. 테이블 보기 또는 레코드의 세부 사항 페이지에서 Workfront 개체와 연결된 연결된 레코드 필드로 이동합니다. 자세한 내용은 [레코드 연결](/help/quicksilver/planning/records/connect-records.md).
+1. 테이블 보기 또는 레코드의 세부 사항 페이지에서 Workfront 개체와 연결된 연결된 레코드 필드로 이동합니다. 자세한 내용은 [레코드 연결](/help/quicksilver/planning/records/connect-records.md)을 참조하세요.
 1. 연결된 레코드 필드에서 Workfront 개체의 이름을 클릭합니다.
 개체의 페이지가 Workfront에서 열립니다.
 
-1. 클릭 **계획 수립** 왼쪽 패널에서
+1. 왼쪽 패널에서 **계획**&#x200B;을 클릭합니다.
 
    >[!NOTE]
    >
@@ -135,13 +135,13 @@ ht-degree: 1%
 
 1. 레코드에 대한 자세한 내용을 표시하려면 레코드 카드를 클릭합니다. 레코드 미리 보기 상자가 표시됩니다.
 1. (선택 사항) 레코드의 미리 보기 상자에서 필드 수정을 시작합니다. 변경 사항은 자동으로 저장됩니다.
-1. (선택 사항) **새 탭에서 열기** 아이콘 ![](assets/open-details-in-a-new-tab-icon.png) 미리 보기 상자의 오른쪽 상단 모서리에서 레코드의 세부 사항 페이지를 엽니다. 레코드의 세부 사항 페이지가 Workfront Planning에 열립니다.
-1. 레코드 카드 위로 마우스를 가져간 다음 레코드 연결 끊기 아이콘을 클릭합니다 **-**&#x200B;을 클릭한 다음 을 클릭합니다 **연결 해제**.
+1. (선택 사항) 미리 보기 상자의 오른쪽 상단에 있는 **새 탭에서 열기** 아이콘 ![](assets/open-details-in-a-new-tab-icon.png)을(를) 클릭하여 레코드의 세부 정보 페이지를 엽니다. 레코드의 세부 사항 페이지가 Workfront Planning에 열립니다.
+1. 레코드 카드에 마우스를 가져다 대고 레코드 연결 끊기 아이콘 **-**&#x200B;을 클릭한 다음 **연결 끊기**을 클릭합니다.
 다음과 같은 상황이 발생합니다.
    * 레코드가 더 이상 Workfront 개체에 연결되어 있지 않습니다.
    * Workfront 개체는 Workfront Planning에서 레코드의 연결된 필드에서도 제거됩니다.
    * 계획 레코드에 연결된 Workfront 조회 필드의 값도 삭제됩니다.
-1. 클릭 **연결** 더 많은 레코드를 연결합니다.
+1. 더 많은 레코드를 연결하려면 **연결**&#x200B;을 클릭하십시오.
 
    >[!NOTE]
    >

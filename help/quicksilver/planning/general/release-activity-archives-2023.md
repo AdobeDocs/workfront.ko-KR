@@ -26,12 +26,12 @@ ht-degree: 0%
 >
 >이 단계에 속해 있는 경우 계정 담당자에게 알립니다.
 >
->자세한 내용은 [Adobe Workfront Planning 개요](/help/quicksilver/planning/general/planning-overview.md).
+>자세한 내용은 [Adobe Workfront 계획 개요](/help/quicksilver/planning/general/planning-overview.md)를 참조하십시오.
 >
 
 이 문서에서는 2023년 5월 22일, Adobe Workfront Planning 프로그램 시작 이후 2023년 한 해 동안 릴리스된 기능을 나열합니다.
 
-2024년 동안 릴리스된 기능에 대한 자세한 내용은 [Adobe Workfront Planning 현재 릴리스 활동](/help/quicksilver/planning/general/release-activity.md).
+2024년에 릴리스된 기능에 대한 자세한 내용은 [Adobe Workfront Planning 현재 릴리스 활동](/help/quicksilver/planning/general/release-activity.md)을 참조하십시오.
 
 릴리스된 기능은 릴리스 순서대로 나열되며 가장 최근의 기능이 먼저 릴리스됩니다. Workfront Planning 프로그램에 참여하는 고객은 프로덕션 환경의 모든 기능에 액세스할 수 있습니다.
 
@@ -45,7 +45,7 @@ Workfront Planning은 2024년 1월부터 미리보기 및 샌드박스 환경에
 
 미리보기 및 프로덕션: 2023년 12월 27일
 
-이제 키워드를 검색하여 타임라인 보기에서 레코드를 빠르게 찾을 수 있습니다. 화면에 표시되는 모든 필드의 키워드와 특수 문자를 사용하여 레코드를 찾을 수 있습니다. 자세한 내용은 [타임라인 보기 관리](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+이제 키워드를 검색하여 타임라인 보기에서 레코드를 빠르게 찾을 수 있습니다. 화면에 표시되는 모든 필드의 키워드와 특수 문자를 사용하여 레코드를 찾을 수 있습니다. 자세한 내용은 [타임라인 보기 관리](/help/quicksilver/planning/views/manage-the-timeline-view.md)를 참조하십시오.
 
 ## 2023년 12월 18일이 있는 주
 
@@ -63,13 +63,13 @@ Workfront Planning은 2024년 1월부터 미리보기 및 샌드박스 환경에
 >
 >* 이미지 드래그 앤 드롭
 >
->자세한 내용은 [2024년 1분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+>자세한 내용은 [2024년 1분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)를 참조하십시오.
 
 이제 레코드의 페이지를 보는 동안 주석을 추가하거나 다른 사용자에게 회신하여 개별 레코드에 대해 다른 사용자와 공동 작업을 할 수 있습니다.
 
 계획 기능 레코드에 대한 댓글 달기 환경은 Workfront 객체에 대한 새로운 댓글 달기 환경과 일치합니다.
 
-자세한 내용은 [레코드 주석 관리](/help/quicksilver/planning/records/manage-record-comments.md).
+자세한 내용은 [레코드 주석 관리](/help/quicksilver/planning/records/manage-record-comments.md)를 참조하십시오.
 
 ### Adobe Workfront Fusion용 Workfront Planning 커넥터
 
@@ -79,7 +79,7 @@ Workfront Planning은 2024년 1월부터 미리보기 및 샌드박스 환경에
 >
 >Adobe Workfront Planning 기능을 사용하여 연결을 만들려면 조직에서 Adobe Workfront Fusion을 구매해야 합니다.
 >
->자세한 내용은 [Adobe Workfront Fusion 개요](/help/quicksilver/workfront-fusion/get-started/workfront-fusion-overview.md).
+>자세한 내용은 [Adobe Workfront Fusion 개요](/help/quicksilver/workfront-fusion/get-started/workfront-fusion-overview.md)를 참조하십시오.
 
 이제 Adobe Workfront Fusion을 사용하여 계획 기능에 연결할 수 있습니다. 새 Fusion 연결을 사용하여 다음과 같은 작업을 수행할 수 있습니다.
 
@@ -95,7 +95,7 @@ Workfront Planning은 2024년 1월부터 미리보기 및 샌드박스 환경에
 
 * 계획 기능이 변경되면 시나리오를 트리거합니다.
 
-자세한 내용은 [Adobe Workfront Planning 모듈](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md).
+자세한 내용은 [Adobe Workfront 계획 모듈](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)을 참조하세요.
 
 ## 2023년 12월 11일 주
 
@@ -125,7 +125,7 @@ Workfront Planning은 2024년 1월부터 미리보기 및 샌드박스 환경에
 
 * 레코드 유형의 모든 테이블 보기에는 선택하는 기본 필드가 동일합니다.
 
-자세한 내용은 [표 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md).
+자세한 내용은 [테이블 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md)를 참조하십시오.
 
 ### 계획 기능 레코드를 Adobe Experience Manager Assets과 연결
 
@@ -137,7 +137,7 @@ Workfront Planning은 2024년 1월부터 미리보기 및 샌드박스 환경에
 >
 >Workfront 기능 레코드를 Adobe Experience Manager Assets에 연결하려면 조직의 Adobe Workfront 인스턴스가 Adobe 비즈니스 플랫폼 또는 Adobe Admin Console에 온보딩되어야 합니다.
 >
->Adobe Admin Console 온보딩에 대한 질문이 있는 경우 [통합 경험 FAQ Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+>Adobe Admin Console 온보딩에 대한 질문이 있는 경우 [통합 경험 Adobe FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)를 참조하십시오.
 
 이제 Adobe Workfront Planning 기능 레코드 유형과 Adobe Experience Manager Assets 간에 연결을 설정할 수 있습니다.
 
@@ -153,7 +153,7 @@ Workfront Planning은 2024년 1월부터 미리보기 및 샌드박스 환경에
 
 * 연결된 레코드 필드에서 계획 기능 레코드의 테이블 보기에서 에셋 이름을 클릭하고 에셋 썸네일과 여러 키 필드가 있는 팝업 창을 볼 수 있습니다. 팝업 창에서 Experience Manager의 에셋 뷰어로 이동하여 에셋에 대한 모든 세부 정보를 볼 수 있습니다.
 
-자세한 내용은 [레코드 유형 연결](/help/quicksilver/planning/architecture/connect-record-types.md).
+자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
 
 ## 2023년 12월 4일 주
 
@@ -174,9 +174,9 @@ Workfront Planning은 2024년 1월부터 미리보기 및 샌드박스 환경에
 
 * 레코드의 세부 정보 영역에 표시되는 필드의 필드 값을 복사하여 붙여넣을 수 없습니다.
 
-자세한 내용은 [레코드 편집](/help/quicksilver/planning/records/edit-records.md).
+자세한 내용은 [레코드 편집](/help/quicksilver/planning/records/edit-records.md)을 참조하세요.
 
-연결된 필드에 대한 자세한 내용은 [레코드 유형 연결](/help/quicksilver/planning/architecture/connect-record-types.md).
+연결된 필드에 대한 자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
 
 ## 2023년 11월 27일 주
 
@@ -200,7 +200,7 @@ Workfront Planning은 2024년 1월부터 미리보기 및 샌드박스 환경에
 
    * 레코드 연결 결과로 생성된 연결된 필드
 
-자세한 내용은 [레코드 편집](/help/quicksilver/planning/records/edit-records.md).
+자세한 내용은 [레코드 편집](/help/quicksilver/planning/records/edit-records.md)을 참조하세요.
 
 ## 2023년 11월 6일 주
 
@@ -208,9 +208,9 @@ Workfront Planning은 2024년 1월부터 미리보기 및 샌드박스 환경에
 
 미리 보기 및 프로덕션: 2023년 11월 7일
 
-이제 레코드 유형 페이지의 표 보기에서 레코드를 그룹화할 수 있습니다. 계획 능력 인터페이스에서 세 개의 고유 필드별로 그룹화할 수 있습니다<!--checking into this for now: and by four fields when using the API-->.
+이제 레코드 유형 페이지의 표 보기에서 레코드를 그룹화할 수 있습니다. 계획 기능 인터페이스<!--checking into this for now: and by four fields when using the API-->에서 세 개의 고유한 필드를 그룹화할 수 있습니다.
 
-자세한 내용은 [표 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md).
+자세한 내용은 [테이블 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md)를 참조하십시오.
 
 ## 2023년 10월 30일 주
 
@@ -230,7 +230,7 @@ Adobe Workfront Planning 기능 레코드에 대해 다음 필드 유형을 도�
 
 이러한 필드 유형에서 생성된 필드의 필드 값은 읽기 전용이며 레코드를 만들거나 마지막으로 수정한 사용자의 이름 또는 레코드를 만들거나 마지막으로 수정한 날짜를 캡처합니다.
 
-자세한 내용은 [필드 만들기](/help/quicksilver/planning/fields/create-fields.md).
+자세한 내용은 [필드 만들기](/help/quicksilver/planning/fields/create-fields.md)를 참조하십시오.
 
 ### 계획 기능 레코드에서 Workfront 객체로 이동합니다.
 
@@ -242,7 +242,7 @@ Adobe Workfront Planning 기능 레코드에 대해 다음 필드 유형을 도�
 
 * 읽기 전용 Workfront 개체 레코드 페이지
 
-자세한 내용은 [레코드 연결](/help/quicksilver/planning/records/connect-records.md).
+자세한 내용은 [레코드 연결](/help/quicksilver/planning/records/connect-records.md)을 참조하세요.
 
 ### 표 보기에서 탐색 기능이 개선됨
 
@@ -258,7 +258,7 @@ Adobe Workfront Planning 기능 레코드에 대해 다음 필드 유형을 도�
 
 * Shift 키와 Enter 키 조합을 사용하여 표에 새 레코드(또는 행)를 추가합니다.
 
-자세한 내용은 [레코드 연결](/help/quicksilver/planning/records/connect-records.md).
+자세한 내용은 [레코드 연결](/help/quicksilver/planning/records/connect-records.md)을 참조하세요.
 
 ## 2023년 10월 16일 주
 
@@ -266,13 +266,13 @@ Adobe Workfront Planning 기능 레코드에 대해 다음 필드 유형을 도�
 
 미리보기 및 프로덕션: 2023년 10월 16일
 
-이제 계획 기능 레코드 유형에 사람 유형 필드를 추가할 수 있습니다. 사람 유형 필드를 사용하여 기존 사용자를 레코드와 연결할 수 있습니다. 자세한 내용은 [필드 만들기](/help/quicksilver/planning/fields/create-fields.md).
+이제 계획 기능 레코드 유형에 사람 유형 필드를 추가할 수 있습니다. 사람 유형 필드를 사용하여 기존 사용자를 레코드와 연결할 수 있습니다. 자세한 내용은 [필드 만들기](/help/quicksilver/planning/fields/create-fields.md)를 참조하십시오.
 
 ### 단락 필드에 대한 리치 텍스트 형식
 
 미리보기 및 프로덕션: 2023년 10월 16일
 
-단락 유형 필드에 리치 텍스트 형식 컨트롤을 추가했습니다. 레코드 종류의 표 보기 또는 레코드 페이지에서 서식 있는 텍스트를 사용하여 단락 필드의 서식을 지정할 수 있습니다. 자세한 내용은 [레코드 편집](/help/quicksilver/planning/records/edit-records.md).
+단락 유형 필드에 리치 텍스트 형식 컨트롤을 추가했습니다. 레코드 종류의 표 보기 또는 레코드 페이지에서 서식 있는 텍스트를 사용하여 단락 필드의 서식을 지정할 수 있습니다. 자세한 내용은 [레코드 편집](/help/quicksilver/planning/records/edit-records.md)을 참조하세요.
 
 
 ### 타임라인 보기에 대한 색상 코딩 기록 및 그룹화
@@ -301,7 +301,7 @@ Adobe Workfront Planning 기능 레코드에 대해 다음 필드 유형을 도�
 
 특정 필드에 색상을 일치시킬 때는 색상으로 구분된 옵션이 있는 필드만 선택할 수 있습니다.
 
-자세한 내용은 [타임라인 보기 관리](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+자세한 내용은 [타임라인 보기 관리](/help/quicksilver/planning/views/manage-the-timeline-view.md)를 참조하십시오.
 
 ## 2023년 10월 9일 주
 
@@ -309,7 +309,7 @@ Adobe Workfront Planning 기능 레코드에 대해 다음 필드 유형을 도�
 
 미리보기 및 프로덕션: 2023년 10월 9일
 
-이제 키워드를 검색하여 테이블 보기에서 레코드를 빠르게 찾을 수 있습니다. 화면에 표시되는 모든 필드의 키워드와 특수 문자를 사용하여 레코드를 찾을 수 있습니다. 자세한 내용은 [표 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md).
+이제 키워드를 검색하여 테이블 보기에서 레코드를 빠르게 찾을 수 있습니다. 화면에 표시되는 모든 필드의 키워드와 특수 문자를 사용하여 레코드를 찾을 수 있습니다. 자세한 내용은 [테이블 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md)를 참조하십시오.
 
 ## 2023년 9월 18일 주
 
@@ -317,7 +317,7 @@ Adobe Workfront Planning 기능 레코드에 대해 다음 필드 유형을 도�
 
 미리보기 및 프로덕션: 2023년 9월 20일
 
-이제 레코드 유형 페이지의 테이블 보기에서 하나 또는 여러 행(또는 레코드)의 순서를 변경할 수 있습니다. 자세한 내용은 [표 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md).
+이제 레코드 유형 페이지의 테이블 보기에서 하나 또는 여러 행(또는 레코드)의 순서를 변경할 수 있습니다. 자세한 내용은 [테이블 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md)를 참조하십시오.
 
 ## 2023년 9월 4일 주
 
@@ -358,7 +358,7 @@ Adobe Workfront Planning 기능 레코드에 대해 다음 필드 유형을 도�
 
 필드 열의 각 헤더에서 개별 필드를 숨기거나 표시하거나 테이블 보기 도구 모음의 설정에서 레코드 유형의 모든 필드를 관리할 수 있습니다.
 
-자세한 내용은 [표 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md).
+자세한 내용은 [테이블 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md)를 참조하십시오.
 
 ## 2023년 8월 21일 주
 

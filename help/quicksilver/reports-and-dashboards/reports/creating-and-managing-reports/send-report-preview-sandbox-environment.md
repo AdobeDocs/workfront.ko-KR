@@ -27,7 +27,7 @@ ht-degree: 0%
 
 테스트 환경에서 보고서를 예약할 수 있지만 보고서 전달 방식은 프로덕션 환경에서 전달되는 방식과 다릅니다.
 
-프로덕션 환경에서 보고서 배달을 예약하는 방법에 대한 자세한 내용은 [보고서 게재 개요](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+프로덕션 환경에서 보고서 배달 예약에 대한 자세한 내용은 [보고서 배달 개요](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)를 참조하세요.
 
 보고서를 예약하는 위치에 따라 배달 기능이 미리 보기 및 사용자 지정 새로 고침 샌드박스 간에 달라집니다.
 
@@ -41,7 +41,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
@@ -49,11 +49,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 편집</p> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 편집</p> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>보고서에 대한 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>보고서에 대한 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -66,28 +66,28 @@ ht-degree: 0%
 
 ### 미리보기 환경에서 보고서 예약
 
-게재된 보고서가 미리보기 환경에서 생성되는지 여부는 다음에 따라 달라집니다 **이 테스트 환경에서 이메일 수신** 활성화되었는지 여부를 나타냅니다.
+미리 보기 환경에서 배달된 보고서가 생성되는지 여부는 **이 테스트 환경에서 전자 메일 받기**&#x200B;의 사용 여부에 따라 달라집니다.
 
-샌드박스 환경에서 이메일을 활성화하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [미리보기 샌드박스 환경에서 이메일 게재 활성화](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
+샌드박스 환경에서 전자 메일을 사용하는 방법에 대한 자세한 내용은 [미리 보기 샌드박스 환경에서 전자 메일 배달 사용](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md)을 참조하십시오.
 
 ![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
-미리보기 환경에서 보고서 배달을 예약하는 것은 프로덕션 환경에서 보고서를 예약하는 것과 동일합니다. 보고서 배달 예약에 대한 자세한 내용은 [보고서 게재 개요](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+미리보기 환경에서 보고서 배달을 예약하는 것은 프로덕션 환경에서 보고서를 예약하는 것과 동일합니다. 보고서 배달 예약에 대한 자세한 내용은 [보고서 배달 개요](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)를 참조하세요.
 
 미리보기 환경에서 보고서 배달을 예약할 때 다음과 같은 시나리오가 존재합니다.
 
-* 날짜 **이 테스트 환경에서 이메일 수신** 보고서를 받는 사용자가 비활성화되어 있으므로 보고서 배달을 예약할 때 파일이 생성되지 않습니다.
-* 날짜 **이 테스트 환경에서 이메일 수신** 보고서를 받는 사용자에 대해 이 활성화되어 있으면 보고서의 배달 일정을 예약할 때 생성되는 파일이 사용자의 문서 탭에 추가됩니다.
+* 보고서를 받는 사용자에 대해 **이 테스트 환경에서 전자 메일 수신**&#x200B;을 사용하지 않도록 설정하면 보고서 배달을 예약할 때 파일이 생성되지 않습니다.
+* 보고서를 받는 사용자에 대해 **이 테스트 환경에서 전자 메일 수신**&#x200B;을 사용하도록 설정하면 보고서의 배달 일정을 예약할 때 생성되는 파일이 사용자의 문서 탭에 추가됩니다.
 
 ## 사용자 지정 새로 고침 샌드박스 환경에서 보고서 예약
 
 배달된 보고서가 사용자 지정 새로 고침 샌드박스에서 생성되는지 여부는 이 테스트 환경에서 이메일 수신 설정의 활성화 여부에 따라 달라집니다.
 
-미리보기 환경에서 이메일을 활성화하는 방법에 대한 자세한 내용은 섹션을 참조하십시오 [이메일 알림 설정 보기 및 수정](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view) 이 문서에서 [이메일 알림 수정](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+미리 보기 환경에서 전자 메일을 사용하는 방법에 대한 자세한 내용은 문서 [사용자 전자 메일 알림 수정](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)의 [전자 메일 알림 설정 보기 및 수정](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view) 섹션을 참조하십시오.
 
 ![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
-사용자 지정 새로 고침 샌드박스 환경에서 보고서 배달을 예약하는 것은 프로덕션 환경에서 보고서를 예약하는 것과 동일합니다. 보고서 배달 예약에 대한 자세한 내용은 [보고서 게재 개요](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+사용자 지정 새로 고침 샌드박스 환경에서 보고서 배달을 예약하는 것은 프로덕션 환경에서 보고서를 예약하는 것과 동일합니다. 보고서 배달 예약에 대한 자세한 내용은 [보고서 배달 개요](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)를 참조하세요.
 
 사용자 지정 새로 고침 샌드박스 환경에서 보고서 배달을 예약할 때 다음과 같은 시나리오가 존재합니다.
 

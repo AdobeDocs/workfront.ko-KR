@@ -83,13 +83,13 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td><strong>이전 댓글 환경에 있음 </strong>
    </td>
-   <td><strong>새 댓글 달기 환경에 있음 </strong>
+   <td><strong>새 댓글 환경에 있음 </strong>
    </td>
-   <td><strong>새로운 댓글 달기 환경에 도입될 예정입니다. </strong>
+   <td><strong>새 댓글 달기 환경 </strong>에 도입됩니다.
    </td>
-   <td><strong>새로운 댓글 달기 환경에 도입될 시기 </strong>
+   <td><strong>새 댓글 달기 환경에 도입 시기 </strong>
    </td>
-   <td><strong>연구 중 </strong>
+   <td></strong> 조사의 <strong>
    </td>
   </tr>
   <tr>
@@ -514,9 +514,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 
 >[!IMPORTANT]
 >
->Beta 기간 동안 새로운 댓글 달기 경험에 릴리스된 기능에 대한 자세한 내용은 [새로운 댓글 달기 Beta 경험 릴리스 활동](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+>Beta 기간 동안 새로운 댓글 달기 경험에 릴리스된 기능에 대한 자세한 내용은 [새로운 댓글 달기 Beta 경험 릴리스 활동](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)을 참조하십시오.
 >
->Workfront 개체의 업데이트 관리에 대한 자세한 내용은 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+>Workfront 개체의 업데이트 관리에 대한 자세한 내용은 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)를 참조하세요.
 
 
 다음은 프로덕션 환경에 대한 새로운 댓글 달기 환경의 릴리스에 대한 주요 이정표가 포함된 계획된 타임라인입니다. 아래 이정표 외에도, 더 작은 개선 사항으로 주석 달기 환경을 계속 개선해 나갈 것입니다.
@@ -526,21 +526,21 @@ Beta 기간이 종료된 후 새 주석 달기 경험을 위해 릴리스된 기
 다음은 새로운 댓글 달기 환경의 릴리스에 대해 계획된 타임라인입니다.
 
 * 23.2 릴리스(2023년 4월 6일):
-   * 문제에 대한 댓글 달기 경험 베타 시작
+   * 문제에 대한 주석 달기 경험 Beta 시작
    * 목표에 대한 새 댓글 달기 경험 릴리스(유일한 경험으로)
 * 23.3 릴리스(2023년 7월 20일):
-   * 프로젝트, 작업 및 문서에 대한 댓글 달기 경험 Beta를 시작합니다.
+   * 프로젝트, 작업 및 문서에 대한 주석 달기 경험 Beta을 시작합니다.
    * 보드 영역에서 카드에 대한 새 댓글 달기 경험을 해제합니다(유일한 경험으로).
 * 2023년 4분기 릴리스(제한된 릴리스, 빠른 릴리스를 선택하는 고객만 사용 가능) 중:
    * 템플릿, 템플릿 작업, 프로그램, 포트폴리오, 팀, 사용자 및 타임시트에 대한 새로운 댓글 달기 환경(유일한 경험으로) 릴리스
-   * 프로젝트, 작업, 문제 및 문서에 대한 댓글 달기 경험 Beta를 업데이트하여 기본 옵션으로 설정합니다. Beta 레이블이 제거됩니다.
+   * 프로젝트, 작업, 문제 및 문서에 대한 주석 달기 경험 Beta을 업데이트하여 기본 옵션으로 설정합니다. &quot;Beta&quot; 레이블이 제거됩니다.
 * 2023년 4분기(23.10) 릴리스 포함(2023년 10월 26일)
    * 모든 고객에게 템플릿, 템플릿 작업, 프로그램, 포트폴리오, 팀, 사용자 및 타임시트에 대한 새로운 댓글 달기 환경(유일한 경험으로)을 릴리스합니다.
    * 프로젝트, 작업, 문제 및 문서에 대한 새로운 댓글 달기 환경을 기본 옵션으로 설정합니다.
 
   >[!IMPORTANT]
   >
-  >    이렇게 하면 새 댓글 달기 환경의 베타 단계가 종료됩니다.
+  >    이로써 새로운 댓글 달기 환경의 Beta 단계가 마무리됩니다.
 
    * 현재 정기 월별 및 분기별 릴리스의 이 날짜 부분부터 새로운 댓글 달기 경험을 위해 릴리스된 모든 기능을 사용할 수 있습니다.
 * 2023년 말:
@@ -561,7 +561,7 @@ Beta 기간이 종료된 후 새 주석 달기 경험을 위해 릴리스된 기
 
 * 모든 객체의 업데이트 섹션에서 다음을 수행합니다.
 
-  Workfront 개체의 업데이트 섹션에 액세스하는 방법에 대한 자세한 내용은 [업데이트 섹션 개요](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+  Workfront 개체의 업데이트 섹션에 액세스하는 방법에 대한 자세한 내용은 [업데이트 섹션 개요](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)를 참조하십시오.
 
 * 사용 가능한 모든 영역(목록, 타임시트, 업무 균형자 및 홈)의 작업, 문제 및 문서 요약 패널에서 다음을 수행할 수 있습니다.
 * 작업 및 문제에 대한 홈 영역.

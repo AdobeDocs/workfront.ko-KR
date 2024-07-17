@@ -20,7 +20,7 @@ ht-degree: 2%
 
 R1 릴리스는 현재 미리보기에서 테스트할 수 있습니다. R1 릴리스는 2017년 4월 26일에 프로덕션 환경에 배포됩니다.
 
-웨비나에서 다루는 기능에 대한 자세한 정보를 보려면 [R1 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md) 페이지를 가리키도록 업데이트하는 중입니다.
+웨비나에서 다루는 기능에 대한 자세한 정보를 보려면 [R1 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md) 페이지를 참조하십시오.
 
 다음 웨비나 녹화본을 사용할 수 있습니다.
 

@@ -28,8 +28,8 @@ ht-degree: 3%
 
 레코드의 오른쪽 패널에는 다음 섹션이 표시됩니다.
 
-* **댓글**: 사용자가 레코드에 추가하는 댓글 및 답글을 표시합니다. Workfront Planning 레코드에서 주석 관리에 대한 자세한 내용은 [레코드 주석 관리](/help/quicksilver/planning/records/manage-record-comments.md).
-* **기록**: 사용자가 레코드 필드에 적용한 시스템 기록 변경 사항을 표시합니다.
+* **댓글**: 사용자가 레코드에 추가하는 댓글과 답글을 표시합니다. Workfront Planning 레코드의 댓글 관리에 대한 자세한 내용은 [레코드 댓글 관리](/help/quicksilver/planning/records/manage-record-comments.md)를 참조하십시오.
+* **기록**: 사용자가 레코드 필드에 적용한 시스템 기록 변경 내용을 표시합니다.
 
 ## 레코드의 내역 섹션 찾기
 
@@ -42,12 +42,12 @@ ht-degree: 3%
 1. 레코드 유형 카드를 클릭합니다.
 레코드 유형 페이지가 열리고 해당 유형의 모든 레코드가 표시됩니다.
 
-1. 다음에서 표 보기 선택 **보기** 드롭다운 메뉴.
+1. **보기** 드롭다운 메뉴에서 표 보기를 선택하십시오.
 1. 테이블 보기에서 레코드 이름을 클릭합니다.
 
    레코드 페이지가 열립니다. 주석(Comments) 영역은 기본적으로 오른쪽 패널에 열립니다.
-1. 다음을 클릭합니다. **내역 표시** 아이콘 ![](assets/show-history-icon.png). 레코드의 필드에 대한 모든 변경 사항은 가장 최근 것부터 시작하여 오른쪽 패널에 표시됩니다.
-1. (선택 사항) **내역 숨기기** 아이콘 ![](assets/hide-history-icon.png) 오른쪽 패널을 닫습니다.
+1. **내역 표시** 아이콘 ![](assets/show-history-icon.png)을(를) 클릭합니다. 레코드의 필드에 대한 모든 변경 사항은 가장 최근 것부터 시작하여 오른쪽 패널에 표시됩니다.
+1. (선택 사항) **내역 숨기기** 아이콘 ![](assets/hide-history-icon.png)을 클릭하여 오른쪽 패널을 닫습니다.
 
 ## 작업 내역 섹션에 대한 고려 사항
 
@@ -85,7 +85,7 @@ ht-degree: 3%
 
 * 확인란 유형 필드에는 이전 값이 취소선 형식으로 표시되지 않습니다. 필드를 편집하면 변경한 시점의 현재 상태만 표시됩니다.
 
-  Workfront Planning 필드에 대한 자세한 내용은 [필드 만들기](/help/quicksilver/planning/fields/create-fields.md).
+  Workfront Planning 필드에 대한 자세한 내용은 [필드 만들기](/help/quicksilver/planning/fields/create-fields.md)를 참조하십시오.
 
 * 다음 유형의 필드에 대한 변경 사항은 기록 섹션에 표시되지 않습니다.
 

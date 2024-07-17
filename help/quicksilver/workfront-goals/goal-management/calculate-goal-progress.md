@@ -23,7 +23,7 @@ ht-degree: 1%
 
      또는
 
-     Prime 또는 Select Adobe Workfront 플랜에 대한 Adobe Workfront Goals에 대한 추가 라이센스입니다. 자세한 내용은 [Adobe Workfront 플랜](https://www.workfront.com/plans).
+     Prime 또는 Select Adobe Workfront 플랜에 대한 Adobe Workfront Goals에 대한 추가 라이센스입니다. 자세한 내용은 [Adobe Workfront 계획](https://www.workfront.com/plans)을 참조하세요.
 
 * 현재 플랜 및 라이선스 구조의 경우:
 
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 Workfront Goals 라이선스에 대한 자세한 내용은 Workfront 계정 관리자에게 문의하십시오.
 
-Workfront 목표 액세스에 대한 자세한 내용은 을 참조하십시오. [Workfront 목표 사용 요구 사항](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+Workfront 목표에 액세스하는 방법에 대한 자세한 내용은 [Workfront 목표 사용 요구 사항](../../workfront-goals/goal-management/access-needed-for-wf-goals.md)을 참조하십시오.
 
 Adobe Workfront은 진행 표시기의 진행 상황을 기반으로 목표 진행 상황을 자동으로 계산합니다.
 
@@ -68,15 +68,15 @@ Workfront 목표는 목표 진행 표시기의 완료율 평균을 기반으로 
 
 * 결과
 
-  목표에 결과를 추가하는 방법에 대한 자세한 내용은 [Adobe Workfront 목표의 목표에 결과 추가](../../workfront-goals/results-and-activities/add-results-to-goals.md).
+  목표에 결과를 추가하는 방법에 대한 자세한 내용은 [Adobe Workfront 목표의 목표에 결과 추가](../../workfront-goals/results-and-activities/add-results-to-goals.md)를 참조하십시오.
 
 * 활동
 
-  목표에 프로젝트를 포함한 활동을 추가하는 방법에 대한 내용은 [Adobe Workfront 목표의 목표에 활동 추가](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
+  목표에 프로젝트를 포함한 활동을 추가하는 방법에 대한 자세한 내용은 [Adobe Workfront 목표의 목표에 활동 추가](../../workfront-goals/results-and-activities/add-activities-to-goals.md)를 참조하십시오.
 
 * 정렬된 하위 목표
 
-  상위 및 하위 목표에 대한 자세한 내용은 [Adobe Workfront 목표에서 연결하여 목표 정렬](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
+  상위 및 하위 목표에 대한 자세한 내용은 [Adobe Workfront 목표에서 연결하여 목표 정렬](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)을 참조하십시오.
 
   Workfront 목표는 다음 공식을 사용하여 실제 완료율을 계산합니다.
 
@@ -137,7 +137,7 @@ Goal progress percentage = Actual percent complete * 100 / Expected percent comp
   </tr> 
   <tr> 
    <td>신규</td> 
-   <td> <p>목표가 새로 만들어져서 아직 진행률을 기록하지 못하고 있습니다. 목표 진행률은 누군가가 진행률을 처음으로 업데이트할 때까지 새로 고침으로 표시됩니다. </p> <p>목표 진행률 업데이트에 대한 자세한 내용은 <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md" class="MCXref xref">Adobe Workfront 목표의 목표 진행 상황 업데이트</a>.</p> </td> 
+   <td> <p>목표가 새로 만들어져서 아직 진행률을 기록하지 못하고 있습니다. 목표 진행률은 누군가가 진행률을 처음으로 업데이트할 때까지 새로 고침으로 표시됩니다. </p> <p>목표 진행률 업데이트에 대한 자세한 내용은 <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md" class="MCXref xref">Adobe Workfront 목표의 목표 진행률 업데이트</a>를 참조하십시오.</p> </td> 
    <td>백분율 없음</td> 
    <td>막대 없음</td> 
    <td><img src="assets/new-goal-icon-condition.png" alt="new_goal_icon_condition.png"></td>

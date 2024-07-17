@@ -2,7 +2,7 @@
 product-area: documents
 navigation-topic: approvals
 title: Beta 프로그램 - Workfront + Frame.io
-description: Workfront + Frame.io용 베타 프로그램의 출시를 발표하게 되어 기쁘게 생각합니다. 여기에서는 최신 Beta 릴리스와 간단한 비디오 연습에 대한 정보를 찾아 시작할 수 있습니다.
+description: Workfront + Frame.io용 Beta 프로그램의 출시를 발표하게 되어 기쁘게 생각합니다. 여기에서 최신 Beta 릴리스와 간단한 비디오 연습을 통해 시작할 수 있습니다.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -18,14 +18,14 @@ ht-degree: 1%
 
 Workfront + Frame.io 통합 베타 프로그램을 시작합니다! 이 Beta의 일부로 Workfront + Frame.io 기본 통합 경험에 일찍 액세스하고 최종 경험을 더 넓은 고객 기반으로 구체화하는 피드백을 공유할 수 있습니다. 이 통합을 통해 이상적이고 통합된 검토 및 승인 솔루션을 제공하는 데 중점을 두고 Workfront과 Frame.io 간에 마찰 없는 통합 워크플로를 만드는 것을 목표로 합니다.
 
-여기에서는 최신 Beta 릴리스와 간단한 비디오 연습에 대한 정보를 찾아 시작할 수 있습니다.
+여기에서 최신 Beta 릴리스와 간단한 비디오 연습을 통해 시작할 수 있습니다.
 
 >[!IMPORTANT]
 >
 >이 베타 버전은 이제 종료되어 더 이상 새 참가자를 받지 않습니다.
 
 
-## 2024년 5월: Workfront의 베타 릴리스 업데이트
+## 2024년 5월: Workfront의 Beta 릴리스 업데이트
 
 이번 5월 릴리스에는 다음 기능이 포함됩니다.  
 
@@ -48,7 +48,7 @@ Workfront과 Frame.io 간의 프로젝트 동기화를 개선하기 위한 노�
 문서 목록에서 직접 파일의 승인 상태를 쉽게 추적할 수 있습니다. 전체 상태를 간단히 클릭하면 승인 프로세스와 관련된 모든 참가자의 세부 분류 및 개별 상태에 액세스할 수 있습니다. 또한 한 번의 클릭으로 모든 우수 승인자에게 알림 메시지를 보내 신속한 응답과 효율적인 문서 관리를 통해 워크플로를 간소화할 수 있습니다. 
 
 
-## 2024년 3월: Frame.io의 베타 릴리스 업데이트
+## 2024년 3월: Frame.io의 Beta 릴리스 업데이트
 
 +++ 를 확장하여 2024년 3월에 릴리스된 기능을 확인합니다
 
@@ -62,15 +62,15 @@ Workfront과 Frame.io 간의 프로젝트 동기화를 개선하기 위한 노�
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428213/)
 
-## 2024년 3월: Workfront의 베타 릴리스 업데이트
+## 2024년 3월: Workfront의 Beta 릴리스 업데이트
 
-이 Beta 릴리스에는 다음과 같은 항목이 있습니다.
+이 Beta 릴리스에는 다음과 같은 사항이 있습니다.
 
 ### 문서 검토 및 승인에 기한 추가
 
 이제 문서를 검토하거나 승인하도록 할당된 사용자 또는 팀에 대한 기한을 지정할 수 있습니다. 검토자와 승인자는 72시간 후 지정된 기한 24시간 전에 이메일 알림을 수신합니다. 기한은 새 홈 영역의 승인 위젯에도 반영됩니다.
 
-자세한 내용은 [문서 검토 또는 승인 요청 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+자세한 내용은 [문서 검토 또는 승인 요청 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)를 참조하십시오.
 
 ### 승인 템플릿 만들기 및 사용
 
@@ -81,7 +81,7 @@ Workfront과 Frame.io 간의 프로젝트 동기화를 개선하기 위한 노�
 
 문서에 대한 승인 프로세스를 작성할 때 문서 영역에서 승인 템플릿을 적용할 수 있습니다.
 
-자세한 내용은 [승인 템플릿 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+자세한 내용은 [승인 템플릿 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)를 참조하세요.
 
 ### 한 곳에서 모든 승인에 대한 정보 보기
 
@@ -94,7 +94,7 @@ Workfront과 Frame.io 간의 프로젝트 동기화를 개선하기 위한 노�
 
 위에 나열된 카테고리로 드릴다운하여 보다 자세히 볼 수 있습니다. 모든 승인 위젯은 새 홈 및 캔버스 대시보드에서 사용할 수 있습니다.
 
-자세한 내용은 [새 홈 시작](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+자세한 내용은 [새 홈 시작](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)을 참조하세요.
 
 ### 전반적인 결정이 내려지면 검토 및 승인 잠금
 
@@ -112,11 +112,11 @@ Workfront과 Frame.io 간의 프로젝트 동기화를 개선하기 위한 노�
 
 이 통합을 통해 크리에이티브가 원하는 도구(CC 또는 Frame.io)에 머무르며 컨텐츠 생성 및 피어 검토를 수행하는 동시에 프로젝트 관리자가 작업을 조정하고 Workfront 내부에서 공식 검토 프로세스를 초기화 및 모니터링할 수 있도록 하는 것이 목표입니다. 이는 Frame.io에서 제공하는 콘텐츠 검토 기능과 함께 콘텐츠 승인 관리를 위한 Workfront의 새 문서 승인이라는 두 가지 솔루션의 장점을 활용하여 달성할 수 있습니다. 전체적으로 새로운 문서 승인 및 Frame.io는 새로운 컨텐츠 검토 및 승인 환경을 형성합니다. 
 
-Beta 프로그램의 새로운 기능을 쉽게 테스트할 수 있도록 새로운 테스트 Frame.io 계정을 만들고 다음과 같은 새 그룹에 연결했습니다. `Frame.io testing` 기존 Workfront 미리보기 또는 샌드박스 환경에서.
+Beta 프로그램의 새 기능을 쉽게 테스트할 수 있도록 새 테스트 Frame.io 계정을 만들어 기존 Workfront 미리 보기 또는 샌드박스 환경에서 `Frame.io testing`이라는 새 그룹에 연결했습니다.
 
 ### 자세한 테스트 지침
 
-추가 기능을 테스트하려는 참가자를 위해 더 많은 관련 테스트 시나리오를 만들었습니다. 이 세부 테스트 시나리오에 대한 안내서는 여기에서 다운로드할 수 있습니다. [WF + Frame.io 상세 테스트 시나리오 연습](/help/quicksilver/review-and-approve-work/Documents/assets/WF-Frame-Detailed-Walk-Through-May-Release.pdf).
+추가 기능을 테스트하려는 참가자를 위해 더 많은 관련 테스트 시나리오를 만들었습니다. 이 자세한 테스트 시나리오에 대한 안내서는 [WF + Frame.io Detailed Test Scenario 연습](/help/quicksilver/review-and-approve-work/Documents/assets/WF-Frame-Detailed-Walk-Through-May-Release.pdf)에서 다운로드할 수 있습니다.
 
 
 ## 데모 비디오
@@ -127,4 +127,4 @@ Beta 프로그램의 새로운 기능을 쉽게 테스트할 수 있도록 새�
 
 우리는 당신의 의견을 소중히 여기며 당신의 관점은 우리가 가능한 최고의 제품을 만드는 데 매우 중요하다고 믿습니다.
 
-귀사가 프로덕션에서 이 솔루션을 채택하기 위해 필요한 사항에 대한 구체적인 피드백이 있으면으로 보내주십시오. [etienneb@adobe.com](mailto:etienneb@adobe.com).
+회사에서 프로덕션에서 이 솔루션을 채택하기 위해 필요한 사항에 대한 구체적인 피드백이 있으므로 [etienneb@adobe.com](mailto:etienneb@adobe.com)(으)로 보내 주십시오.

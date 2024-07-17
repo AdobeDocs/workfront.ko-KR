@@ -34,7 +34,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 플랜*</strong></td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
@@ -47,13 +47,13 @@ ht-degree: 0%
 
 {{step1-to-boards}}
 
-1. 작업 스트림을 열려면 다음을 클릭합니다. [!UICONTROL **작업 스트림 보기**].
-1. 다음 항목 선택 [!UICONTROL 반복 프로세스] 게시판.
+1. 작업 스트림을 열려면 [!UICONTROL **작업 스트림 보기**]&#x200B;를 클릭합니다.
+1. [!UICONTROL 반복 프로세스] 보드를 선택하십시오.
 1. 오른쪽 상단의 보드 위에 있는 지표 영역을 검토하십시오. 위/아래 화살표를 클릭하여 반복 사이를 이동합니다.
 
    반복에 할당된 총 포인트 수, 반복에서 아직 완료되지 않은 나머지 포인트 수 및 반복에서 완료된 포인트 수가 표시됩니다.
 
-1. (선택 사항) [!UICONTROL **반복 세부 정보**] 아이콘 ![반복 세부 정보](assets/iteration-details-button.png) 선택한 이터레이션에 대한 세부 정보 대화 상자를 엽니다.
+1. (선택 사항) [!UICONTROL **반복 세부 정보**] 아이콘 ![반복 세부 정보](assets/iteration-details-button.png)을 클릭하여 선택한 반복에 대한 세부 정보 대화 상자를 엽니다.
 
 ## 대시보드에서 반복 지표 검토
 

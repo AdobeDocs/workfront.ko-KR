@@ -54,7 +54,7 @@ ht-degree: 1%
 <li>Select 또는 Prime Adobe Workfront 플랜 및 추가 Adobe Workfront Goals 라이선스.</li>
 <li>기본적으로 Workfront 목표를 포함하는 Ultimate Workfront 계획입니다. </li></ul>
 <p>또는</p>
-<p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표 사용 요구 사항</a>. </p> </td>
+<p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표를 사용하기 위한 요구 사항</a>을 참조하십시오. </p> </td>
 </tr>
 <tr>
 <td role="rowheader">액세스 수준</td>
@@ -66,7 +66,7 @@ ht-degree: 1%
 <div>
 <p>목표에 대한 또는 그 이상의 권한에 대한 보기</p>
 <p>편집할 목표에 대한 권한 관리</p>
-<p>목표 공유에 대한 자세한 내용은 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront 목표에서 목표 공유</a>. </p>
+<p>목표 공유에 대한 자세한 내용은 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront 목표에서 목표 공유</a>를 참조하십시오. </p>
 </div> </td>
 </tr>
 <tr>
@@ -77,15 +77,15 @@ ht-degree: 1%
 </tbody>
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## 목표 정렬 섹션 탐색
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![메인 메뉴 아이콘](../goal-alignment/assets/dots-main-menu-icon.png) 화면의 오른쪽 상단에서 을(를) 클릭한 다음 **목표**.
+1. 화면 오른쪽 상단의 **주 메뉴** 아이콘 ![주 메뉴 아이콘](../goal-alignment/assets/dots-main-menu-icon.png)을 클릭한 다음 **목표**&#x200B;를 클릭합니다.
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-alignment/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
-1. 클릭 **목표 정렬** 왼쪽 패널에서
-1. 정렬 차트의 오른쪽 위 모서리에 있는 필터를 사용하여 중요한 목표만 선택합니다. Workfront 목표에서 필터를 사용하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [Adobe Workfront 목표의 정보 필터링](../../workfront-goals/goal-management/filter-information-wf-goals.md).
+1. 왼쪽 패널에서 **목표 정렬**&#x200B;을 클릭합니다.
+1. 정렬 차트의 오른쪽 위 모서리에 있는 필터를 사용하여 중요한 목표만 선택합니다. Workfront 목표에서 필터를 사용하는 방법에 대한 자세한 내용은 [Adobe Workfront 목표의 필터 정보](../../workfront-goals/goal-management/filter-information-wf-goals.md)를 참조하십시오.
 
    필터와 일치하는 목표가 카드의 정렬 차트에 표시됩니다.
 
@@ -112,14 +112,14 @@ ht-degree: 1%
       <td>목표의 이름입니다. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">목표 진행률 표시줄 <span>및 진행</span></td> 
-      <td> <p>목표 진행률은 현재 얼마나 많은 목표를 달성했는지를 나타냅니다. 목표 기간 시작 이후 경과된 시간을 기준으로 목표에 대한 모든 정렬된 목표, 결과 및 활동의 진행 평균을 자동으로 계산합니다. 목표에 대한 진행률 계산에 대한 자세한 내용은 <a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Adobe Workfront 목표의 목표 진행 및 상태 개요</a>. </p> 
+      <td role="rowheader">목표 진행률 표시줄 <span>및 진행률</span></td> 
+      <td> <p>목표 진행률은 현재 얼마나 많은 목표를 달성했는지를 나타냅니다. 목표 기간 시작 이후 경과된 시간을 기준으로 목표에 대한 모든 정렬된 목표, 결과 및 활동의 진행 평균을 자동으로 계산합니다. 목표에 대한 진행률 계산에 대한 자세한 내용은 <a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Adobe Workfront 목표의 목표 진행률 및 조건 개요</a>를 참조하십시오. </p> 
        <div> 
         <p>현재 날짜까지 목표의 실제 진행 상황입니다. 다음 진행률 값과 색상은 목표가 정시에 달성되는 정도를 나타냅니다. </p> 
         <ul> 
-         <li><span>대상</span> (녹색 표시기): 목표는 정시에 달성되며 정시에 달성됩니다.</li> 
-         <li> <span>위험 상태</span> (노란색 지표): 목표가 늦어지고 기한 내에 달성되지 않을 수 있습니다.</li> 
-         <li> <span>문제 발생</span> (빨간색 표시기): 목표가 제때 달성되지 못할 위험이 있습니다. </li> 
+         <li><span>대상</span>(녹색 표시기): 목표가 정시에 달성되며 정시에 달성됩니다.</li> 
+         <li> <span>위험 상태</span>(노란색 표시기): 목표가 늦어지고 기한 내에 달성되지 않을 수 있습니다.</li> 
+         <li> <span>문제 발생</span>(빨간색 표시기): 목표가 제시간에 달성되지 않을 위험이 있습니다. </li> 
         </ul> 
        </div> </td> 
      </tr> <!--
@@ -139,7 +139,7 @@ ht-degree: 1%
 
    ![](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
 
-1. 다음을 클릭합니다. **아래쪽 방향 화살표** 을 클릭하여 하위 목표를 더 확장하고 볼 수 있습니다.
+1. 하위 목표를 더 확장하고 보려면 목표 아래의 **아래쪽 방향 화살표** 아이콘을 클릭합니다.
 
    ![](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
 
@@ -151,7 +151,7 @@ ht-degree: 1%
 
    ![](assets/parent-goal-excluded-by-filter-alignment-section-350x230.png)
 
-1. 클릭 **해당 항목 표시** 현재 필터에서 제거된 목표를 표시합니다.
+1. **목표 표시**&#x200B;를 클릭하여 필터에서 현재 제거된 목표를 표시합니다.
 
    정렬 차트에서 다음 변경 사항을 확인합니다.
 
@@ -162,7 +162,7 @@ ht-degree: 1%
 
      필터 이름 왼쪽에 필터 재적용 링크가 표시됩니다.
 
-1. (선택 사항) **필터 다시 적용** 원래 결과로 돌아가서 목표 계층을 표시합니다.
+1. (선택 사항) 원래 결과로 돌아가서 목표 계층을 표시하려면 **필터 다시 적용**&#x200B;을 클릭합니다.
 1. (선택 사항) 진행 표시기 위로 마우스를 가져가면 현재 날짜의 목표 진행 상황을 파악할 수 있습니다.
 
    ![](assets/progress-mouse-over-alignment-chart-350x163.png)
@@ -188,12 +188,12 @@ ht-degree: 1%
     </tbody> 
    </table>
 
-1. 목표 카드를 클릭하여 목표 페이지를 엽니다. 기존 목표 편집에 대한 자세한 내용은 [Adobe Workfront 목표의 목표 편집](../../workfront-goals/goal-management/edit-goals.md). 목표에 대한 진행률 업데이트에 대한 자세한 내용은 다음을 참조하십시오. [Adobe Workfront 목표의 목표 진행 상황 업데이트](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
+1. 목표 카드를 클릭하여 목표 페이지를 엽니다. 기존 목표 편집에 대한 자세한 내용은 [Adobe Workfront 목표의 목표 편집](../../workfront-goals/goal-management/edit-goals.md)을 참조하십시오. 목표 진행률 업데이트에 대한 자세한 내용은 [Adobe Workfront 목표의 목표 진행률 업데이트](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)를 참조하십시오.
 
 1. 현재 수준 목표의 위쪽 방향 화살표를 클릭하여 차트의 계층에서 이전 수준으로 돌아갑니다.
 
    또는
 
-   (선택 사항) **목표 계층 종료** 서로 간의 연결을 표시하지 않고 현재 필터와 일치하는 모든 목표의 카드를 표시합니다.
+   (선택 사항) **목표 계층 종료**&#x200B;를 클릭하여 서로 연결된 상태를 표시하지 않고 현재 필터와 일치하는 모든 목표의 카드를 표시합니다.
 
 

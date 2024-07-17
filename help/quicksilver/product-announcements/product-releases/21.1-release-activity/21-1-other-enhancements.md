@@ -19,7 +19,7 @@ ht-degree: 0%
 
 이 페이지에서는 미리보기 환경에 대한 21.1 릴리스의 기타 모든 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2021년 2월 15일이 있는 주에 프로덕션 환경에서 사용할 수 있습니다.
 
-21.1 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [21.1 릴리스 개요](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+21.1 릴리스에서 사용할 수 있는 모든 변경 사항 목록은 [21.1 릴리스 개요](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md)를 참조하십시오.
 
 ## 이벤트 구독 실패 요구 사항에 대한 업데이트
 
@@ -27,13 +27,13 @@ ht-degree: 0%
 
 또한 2021년 2월부터 하드 비활성화 요구 사항을 추가할 예정입니다.
 
-새로운 소프트 비활성화 및 하드 비활성화 요구 사항에 대한 자세한 내용은 [FAQ - 이벤트 구독](../../../wf-api/general/event-subs-faq.md).
+새로운 소프트 비활성화 및 하드 비활성화 요구 사항에 대한 자세한 내용은 [FAQ - 이벤트 구독](../../../wf-api/general/event-subs-faq.md)을 참조하십시오.
 
 ## 일별 다이제스트에서 사용할 수 있는 새 팀 필드
 
 필요한 작업 일별 요약 이메일에 팀 승인 및 할당 필드를 추가했습니다.
 
-자세한 내용은 [알림: 조치 필요](../../../workfront-basics/using-notifications/notifications-action-needed.md).
+자세한 내용은 [알림: 조치가 필요함](../../../workfront-basics/using-notifications/notifications-action-needed.md)을 참조하세요.
 
 ## 요청 대기열의 POP 이메일 옵션 바꾸기
 
@@ -41,13 +41,13 @@ ht-degree: 0%
 
 이러한 변경 사항은 미리보기에서 테스트할 수 있습니다.
 
-모든 미리보기 환경에서 이메일이 자동으로 비활성화됩니다. 테스트 목적으로 이메일을 활성화하려면 다음을 참조하십시오 [미리보기 샌드박스 환경에서 이메일 게재 활성화](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
+모든 미리보기 환경에서 이메일이 자동으로 비활성화됩니다. 테스트 목적으로 이메일을 사용하려면 [미리 보기 샌드박스 환경에서 이메일 게재 활성화](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md)를 참조하십시오.
 
-자세한 내용은 [사용자가 문제를 요청 대기열 프로젝트에 이메일로 보낼 수 있도록 설정](/help/quicksilver/manage-work/requests/create-requests/enable-email-issues-into-projects.md).
+자세한 내용은 [사용자가 요청 대기열 프로젝트에 문제를 이메일로 보낼 수 있도록 설정](/help/quicksilver/manage-work/requests/create-requests/enable-email-issues-into-projects.md)을 참조하십시오.
 
-이 변경 작업을 수행하는 이유에 대한 자세한 내용은 [요청 대기열에 대한 POP 이메일을 21.1로 대체하는 새로운 Adobe Workfront 관리 시스템](../../../product-announcements/announcements/announcement-archive/pop-removal-request-queue.md).
+이 변경 내용에 대한 자세한 내용은 [요청 대기열에 대한 POP 전자 메일을 21.1로 바꾸기 위한 새 Adobe Workfront 관리 시스템](../../../product-announcements/announcements/announcement-archive/pop-removal-request-queue.md)을 참조하십시오.
 
-이 기능은 이제 [새로운 Workfront 환경의 대기열 관리](https://one.workfront.com/s/learningpath4/queue-management-MCYCJRWK36QZBP7PGMNDMSPRN3LE) Workfront One의 학습 경로.
+이 기능은 이제 Workfront One의 [새 Workfront 경험의 큐 관리](https://one.workfront.com/s/learningpath4/queue-management-MCYCJRWK36QZBP7PGMNDMSPRN3LE) 학습 경로에 포함되어 있습니다.
 
 ## 타임시트의 시간 편집 제한
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 이전에는 액세스 수준에서 타임시트 및 시간 옵션이 활성화된 사용자는 모든 타임시트의 시간을 편집할 수 있었습니다.
 
-자세한 내용은 [타임시트 및 시간 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+자세한 내용은 [타임시트 및 시간 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)을 참조하십시오.
 
 ## 타임시트 영역의 필터 및 보기 개선
 
@@ -64,14 +64,14 @@ ht-degree: 0%
 * 필터: 프로젝트 및 문제에 대한 필터를 추가했습니다. 이러한 필터를 보려면 기타 옵션을 클릭하십시오. 이전에는 작업만 필터링을 사용할 수 있었습니다.
 * 보기: 검색 페이지에 보기 및 그룹화 옵션을 추가했습니다.
 
-자세한 내용은 [로그 시간](../../../timesheets/create-and-manage-timesheets/log-time.md).
+자세한 내용은 [로그 시간](../../../timesheets/create-and-manage-timesheets/log-time.md)을 참조하세요.
 
 ## 타임시트에서 초과 작업 시간 상자 숨기기
 
 이제 Workfront에서 초과 근무를 추적하지 않는 경우 사용자 혼동을 완화하기 위해 초과 작업 시간 상자를 숨길 수 있습니다. 일회성 타임시트 또는 타임시트 프로필에 대한 초과 작업 시간 상자를 숨길 수 있습니다.
 
-* 단일 사용 타임시트: 개별 타임시트에서 초과 작업 시간 상자를 숨기도록 선택하면 해당 타임시트에만 숨겨집니다. 자세한 내용은 [일회용 타임시트 만들기](../../../timesheets/create-and-manage-timesheets/create-tmshts.md).
-* 타임시트 프로필: 타임시트 프로필에서 초과 작업 시간 상자를 숨기도록 선택하면 해당 프로필에 할당된 사용자에 대해 생성된 모든 향후 타임시트에 초과 작업 시간 상자가 표시되지 않습니다. 자세한 내용은 [타임시트 프로필 만들기, 편집 및 할당](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+* 단일 사용 타임시트: 개별 타임시트에서 초과 작업 시간 상자를 숨기도록 선택하면 해당 타임시트에만 숨겨집니다. 자세한 내용은 [일회용 타임시트 만들기](../../../timesheets/create-and-manage-timesheets/create-tmshts.md)를 참조하십시오.
+* 타임시트 프로필: 타임시트 프로필에서 초과 작업 시간 상자를 숨기도록 선택하면 해당 프로필에 할당된 사용자에 대해 생성된 모든 향후 타임시트에 초과 작업 시간 상자가 표시되지 않습니다. 자세한 내용은 [타임시트 프로필 만들기, 편집 및 할당](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)을 참조하세요.
 
 이전에는 타임시트에서 초과 작업 시간 상자를 숨길 수 없었습니다.
 

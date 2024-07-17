@@ -9,8 +9,8 @@ role: Developer
 exl-id: e671a881-b8c2-4234-a3a0-76b1fbfafd32
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 38%
+source-wordcount: '538'
+ht-degree: 34%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 38%
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
 | ID | 고객 |   |   |   |   | 추가 |
-| customerID | 프로젝트 |   |   |   |   | 수 |
+| customerID | 프로젝트 |   |   |   |   | 개수 |
 | projectID | resourceManager |   |   |   |   | 삭제 |
 | 리소스 관리자 ID | 템플릿 |   |   |   |   | Get |
 | templateID |   |   |   |   |   | 보고서  |
@@ -44,7 +44,7 @@ ht-degree: 38%
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
 | ID |   |   |   | checkDelete | 사용자 정의 레이블 | 추가 |
-|   |   |   |   | inUseByOtherLayoutTemplate | 사용자 정의 레이블 | 수 |
+|   |   |   |   | inUseByOtherLayoutTemplate | 사용자 정의 레이블 | 개수 |
 |   |   |   |   | removeCustomLabel |   | 삭제 |
 |   |   |   |   |   |   | Get |
 |   |   |   |   |   |   | 보고서 |
@@ -66,9 +66,9 @@ ht-degree: 38%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 가능한 값 변경
+가능한 값에 대한 <sup>1</sup> 변경
 
-<sup>2</sup> hasFilters 속성이 true로 변경됨
+<sup>2</sup> hasFilters 특성이 true로 변경됨
 
  
 
@@ -106,11 +106,11 @@ ht-degree: 38%
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| approvalType<sup>1</sup> |   |   |   |   |   |   |
+| 승인 유형<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 가능한 값 변경
+가능한 값에 대한 <sup>1</sup> 변경
 
  
 
@@ -119,7 +119,7 @@ ht-degree: 38%
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
 | approvedStatus |   |   |   |   |   | 추가 |
-| approvedStatusLabel |   |   |   |   |   | 수 |
+| approvedStatusLabel |   |   |   |   |   | 개수 |
 | 댓글 |   |   |   |   |   | 삭제 |
 | 입력자 ID |   |   |   |   |   | 편집 |
 | entryDate |   |   |   |   |   | Get |
@@ -131,9 +131,9 @@ ht-degree: 38%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 보고 가능으로 변경됨
+<sup>1</sup>이(가) 보고 가능으로 변경됨
 
-<sup>2</sup> 최대 길이 유효성 검사기가 추가되었습니다.
+<sup>2</sup>에 최대 길이 유효성 검사기가 추가되었습니다.
 
  
 
@@ -196,7 +196,7 @@ ht-degree: 38%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> no_TIME 필드 플래그가 추가되었습니다.
+<sup>1</sup> 님이 NO_TIME 필드 플래그를 추가했습니다.
 
 ### 번다운 이벤트 
 
@@ -247,11 +247,11 @@ ht-degree: 38%
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| 비율<sup>1</sup> |   |   |   |   |   |   |
+| 속도<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> PRECISION 검사기를 8에서 9로 변경했습니다.
+<sup>1</sup>이(가) PRECISION 유효성 검사기를 8에서 9로 변경했습니다.
 
  
 
@@ -273,7 +273,7 @@ ht-degree: 38%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 가능한 값 변경
+가능한 값에 대한 <sup>1</sup> 변경
 
  
 
@@ -285,7 +285,7 @@ ht-degree: 38%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 복원 가능으로 플래그 지정됨
+<sup>1</sup>이(가) 복원 가능 상태로 표시됨
 
 <sup>2</sup> Not_Filterable 플래그가 추가됨
 
@@ -319,7 +319,7 @@ ht-degree: 38%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 복원 가능으로 플래그 지정됨
+<sup>1</sup>이(가) 복원 가능 상태로 표시됨
 
 <sup>2</sup> AT_DATE_YEAR_BEFORE 유효성 검사기 추가됨
 
@@ -356,7 +356,7 @@ ht-degree: 38%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 복원 가능으로 플래그 지정됨
+<sup>1</sup>이(가) 복원 가능 상태로 표시됨
 
 <sup>2</sup> Not_Filterable 플래그가 추가됨
 
@@ -370,7 +370,7 @@ ht-degree: 38%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> MAX_LENGTH 위반
+<sup>1</sup> MAX_LENGTH 위반자
 
  
 
@@ -378,13 +378,13 @@ ht-degree: 38%
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| eventType<sup>1</sup> |   |   |   |   | 내 알림<sup>2</sup> |   |
+| eventType<sup>1</sup> |   |   |   |   | myNotifications<sup>2</sup> |   |
 
 {style="table-layout:auto"}
 
 <sup>1</sup> 가능한 값이 변경됨
 
-<sup>2</sup> 이(가) 다음으로 필터 변경됨: `[true]`
+<sup>2</sup>에 `[true]`(으)로 변경된 필터가 있습니다.
 
  
 

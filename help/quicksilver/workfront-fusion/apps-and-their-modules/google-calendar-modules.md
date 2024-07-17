@@ -5,24 +5,24 @@ product-area: workfront-integrations;calendars
 keywords: 커넥터
 navigation-topic: apps-and-their-modules
 title: Google 달력 모듈
-description: 다음에서 [!DNL Adobe Workfront Fusion] 시나리오에서는 Google Calendar를 사용하는 워크플로를 자동화할 수 있을 뿐만 아니라 여러 타사 애플리케이션 및 서비스에 연결할 수도 있습니다.
+description: ' [!DNL Adobe Workfront Fusion] 시나리오에서는 Google 캘린더를 사용하는 워크플로를 자동화할 수 있을 뿐만 아니라 여러 타사 응용 프로그램 및 서비스에 연결할 수 있습니다.'
 author: Becky
 feature: Workfront Fusion
 exl-id: 168e8fce-645d-4108-84b7-46a113c83f41
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '3821'
+source-wordcount: '3817'
 ht-degree: 0%
 
 ---
 
-# [!DNL Google Calendar] 모듈
+# [!DNL Google Calendar]개 모듈
 
-다음에서 [!DNL Adobe Workfront Fusion] 시나리오에서는 다음을 사용하는 워크플로를 자동화할 수 있습니다 [!UICONTROL Google 캘린더]을 여러 타사 응용 프로그램 및 서비스에 연결할 수 있습니다.
+[!DNL Adobe Workfront Fusion] 시나리오에서는 [!UICONTROL Google 달력]을 사용하는 워크플로를 자동화할 수 있을 뿐만 아니라 여러 타사 응용 프로그램 및 서비스에 연결할 수 있습니다.
 
-시나리오를 만드는 방법에 대한 지침이 필요한 경우 [에서 시나리오 만들기 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+시나리오를 만드는 방법에 대한 지침이 필요하면 [시나리오 만들기 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md)를 참조하십시오.
 
-모듈에 대한 자세한 내용은 [의 모듈 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+모듈에 대한 자세한 내용은 [의 모듈 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md)을 참조하세요.
 
 ## 액세스 요구 사항
 
@@ -43,35 +43,35 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 라이센스**</td> 
    <td>
-   <p>현재 라이선스 요구 사항: 아니요 [!DNL Workfront Fusion] 라이센스 요구 사항.</p>
+   <p>현재 라이선스 요구 사항: [!DNL Workfront Fusion] 라이선스 요구 사항이 없습니다.</p>
    <p>또는</p>
-   <p>기존 라이선스 요구 사항: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
+   <p>레거시 라이선스 요구 사항: 작업 자동화 및 통합을 위한 [!UICONTROL [!DNL Workfront Fusion]] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">제품</td> 
    <td>
-   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime]이 있는 경우 [!DNL Adobe Workfront] 플랜, 조직은 다음을 구매해야 합니다. [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오. [!DNL Workfront Fusion] [!UICONTROL Ultimate]에 포함되어 있습니다. [!DNL Workfront] 계획.</p>
+   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime] [!DNL Adobe Workfront] 플랜이 있는 경우 조직에서 이 문서에 설명된 기능을 사용하려면 [!DNL Adobe Workfront Fusion]과(와) [!DNL Adobe Workfront]을(를) 구매해야 합니다. [!DNL Workfront Fusion]이(가) [!UICONTROL Ultimate] [!DNL Workfront] 계획에 포함되어 있습니다.</p>
    <p>또는</p>
-   <p>레거시 제품 요구 사항: 조직에서 구매해야 함 [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오.</p>
+   <p>레거시 제품 요구 사항: 이 문서에 설명된 기능을 사용하려면 조직에서 [!DNL Adobe Workfront Fusion]과(와) [!DNL Adobe Workfront]을(를) 구매해야 합니다.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
+보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
 
-다음에 대한 정보: [!DNL Adobe Workfront Fusion] 라이센스, 참조 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+[!DNL Adobe Workfront Fusion] 라이선스에 대한 자세한 내용은 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md)를 참조하세요.
 
 ## 전제 조건
 
-사용 [!DNL Google Calendar] 모듈, 다음이 있어야 합니다. [!DNL Google] 계정입니다.
+[!DNL Google Calendar] 모듈을 사용하려면 [!DNL Google] 계정이 있어야 합니다.
 
-## [!DNL Google Calendar] 모듈 및 해당 필드
+## [!DNL Google Calendar]개 모듈 및 해당 필드
 
-를 구성할 때 [!DNL Google Calendar] 모듈, [!DNL Workfront Fusion] 아래 나열된 필드를 표시합니다. 이와 함께 추가 [!DNL Google Calendar] 앱이나 서비스의 액세스 수준 등에 따라 필드가 표시될 수 있습니다. 모듈의 굵은 제목은 필수 필드를 나타냅니다.
+[!DNL Google Calendar] 모듈을 구성할 때 [!DNL Workfront Fusion]에 아래 나열된 필드가 표시됩니다. 앱 또는 서비스의 액세스 수준과 같은 요소에 따라 이러한 필드와 함께 [!DNL Google Calendar] 필드가 추가로 표시될 수 있습니다. 모듈의 굵은 제목은 필수 필드를 나타냅니다.
 
-필드나 함수 위에 맵 단추가 표시되면 이 단추를 사용하여 해당 필드에 대한 변수와 함수를 설정할 수 있습니다. 자세한 내용은 [의 한 모듈에서 다른 모듈로 정보 매핑 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+필드나 함수 위에 맵 단추가 표시되면 이 단추를 사용하여 해당 필드에 대한 변수와 함수를 설정할 수 있습니다. 자세한 내용은 [한 모듈에서 다른 모듈로 정보를 매핑 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)을 참조하십시오.
 
 ![](assets/map-toggle-350x74.png)
 
@@ -103,7 +103,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Google Calendar] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe에 대한 연결 만들기 [!DNL Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Google Calendar] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Calendar] </td> 
@@ -123,7 +123,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!UICONTROL 제한]</td> 
-   <td> <p> 다음과 같은 최대 이벤트 수 설정 [!DNL Workfront Fusion] 한 주기(시나리오 실행당 반복 횟수) 동안 를 사용하여 작업합니다. 값이 너무 높게 설정되면 지정된 타사 서비스 측에서 연결이 중단될 수 있습니다(시간 초과). [!DNL Workfront Fusion] 에는 영향을 주지 않습니다. 낮은 값을 설정하고 최대 주기 횟수에 대해 높은 값을 정의하거나 시나리오를 더 자주 실행하는 것이 좋습니다.</p> </td> 
+   <td> <p> [!DNL Workfront Fusion]이(가) 한 주기 동안 작동하는 최대 이벤트 수(시나리오 실행당 반복 수)를 설정합니다. 값이 너무 높게 설정되면 지정된 타사 서비스 측에서 연결이 중단될 수 있습니다(시간 초과). [!DNL Workfront Fusion]은(는) 이 작업에 영향을 주지 않습니다. 낮은 값을 설정하고 최대 주기 횟수에 대해 높은 값을 정의하거나 시나리오를 더 자주 실행하는 것이 좋습니다.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -144,7 +144,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td>연결에 대한 자세한 내용 [!DNL Google Calendar] Workfront Fusion에 대한 계정은 다음을 참조하십시오. <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe Workfront Fusion에 대한 연결 만들기 - 기본 지침</a></td> 
+   <td>[!DNL Google Calendar] 계정을 Workfront Fusion에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe Workfront Fusion 연결 만들기 - 기본 지침</a>을 참조하십시오.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 달력 ID]</td> 
@@ -152,11 +152,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!UICONTROL 시작 날짜]</td> 
-   <td> <p> 이벤트가 시작되는 날짜를 입력하거나 매핑합니다. 또한 이 모듈은 이 날짜 이전에 시작된 이벤트로서 입력한 시작 날짜에 여전히 발생하는 이벤트도 검색합니다. </p> <p>지원되는 날짜 및 시간 형식 목록은 다음을 참조하십시오. <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">형식 강제 변환 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p> 이벤트가 시작되는 날짜를 입력하거나 매핑합니다. 또한 이 모듈은 이 날짜 이전에 시작된 이벤트로서 입력한 시작 날짜에 여전히 발생하는 이벤트도 검색합니다. </p> <p>지원되는 날짜 및 시간 형식 목록을 보려면 [!DNL Adobe Workfront Fusion]</a>의 <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">형식 변환을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 종료 날짜]</td> 
-   <td> <p> 이벤트가 종료되는 날짜를 입력하거나 매핑합니다. </p> <p> 지원되는 날짜 및 시간 형식 목록은 다음을 참조하십시오. <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">형식 강제 변환 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p> 이벤트가 종료되는 날짜를 입력하거나 매핑합니다. </p> <p> 지원되는 날짜 및 시간 형식 목록을 보려면 [!DNL Adobe Workfront Fusion]</a>의 <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">형식 변환을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 단일 이벤트]</td> 
@@ -170,13 +170,13 @@ ht-degree: 0%
    <td>[!UICONTROL Order by]</td> 
    <td> <p>결과에서 반환되는 이벤트의 순서를 선택합니다.</p> 
     <ul> 
-     <li><strong>[!UICONTROL 시작 시간]</strong>: 시작 날짜 및 시간별 순서(오름차순). 단일 이벤트를 쿼리할 때만 사용할 수 있습니다.</li> 
-     <li><strong>[!UICONTROL 업데이트 시간]</strong>: 마지막 수정 시간별 정렬(오름차순)</li> 
+     <li><strong>[!UICONTROL 시작 시간]</strong>: 시작 날짜 및 시간(오름차순)별로 정렬합니다. 단일 이벤트를 쿼리할 때만 사용할 수 있습니다.</li> 
+     <li><strong>[!UICONTROL Updated Time]</strong>: 마지막 수정 시간별 순서(오름차순).</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 제한]</td> 
-   <td> <p>최대 이벤트 수 설정 [!DNL Workfront Fusion] 는 한 실행 주기 동안 를 반환합니다.</p> </td> 
+   <td> <p>한 실행 주기 동안 [!DNL Workfront Fusion]에서 반환되는 최대 이벤트 수를 설정하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -197,7 +197,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Google Calendar] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe에 대한 연결 만들기 [!DNL Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Google Calendar] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 달력 ID]</td> 
@@ -205,7 +205,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!UICONTROL 이벤트 ID] </td> 
-   <td> <p>기존 의 이벤트 ID 입력 [!DNL Google Calendar] 가져오려는 이벤트입니다.</p> </td> 
+   <td> <p>가져올 기존 [!DNL Google Calendar] 이벤트의 이벤트 ID를 입력하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -226,14 +226,14 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td>연결에 대한 자세한 내용 [!DNL Google Calendar] Workfront Fusion에 대한 계정은 다음을 참조하십시오. <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe Workfront Fusion에 대한 연결 만들기 - 기본 지침</a></td> 
+   <td>[!DNL Google Calendar] 계정을 Workfront Fusion에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe Workfront Fusion 연결 만들기 - 기본 지침</a>을 참조하십시오.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 이벤트 만들기]</td> 
    <td> <p>이벤트를 만들 방법을 선택하십시오.</p> 
     <ul> 
      <li><b>[!UICONTROL 세부 정보]</b><p>이 옵션을 사용하면 이벤트에 대해 자세히 입력할 수 있습니다.<br></p></li> 
-     <li><b>[!UICONTROL Quick]</b><p>달력을 선택하고 이벤트 이름을 입력하기만 하면 됩니다. 이름에 시간 및 위치 세부 정보를 포함할 수 있습니다. [!DNL Google Calendar] 해당 장소 및 시간에 대해 이벤트를 예약합니다.</p></li> 
+     <li><b>[!UICONTROL Quick]</b><p>달력을 선택하고 이벤트 이름을 입력하기만 하면 됩니다. 이름에 시간과 장소 세부 정보를 포함할 수 있으며 [!DNL Google Calendar]에서 해당 장소와 시간에 대한 이벤트를 예약합니다.</p></li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -246,7 +246,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!UICONTROL 이벤트 이름]</td> 
-   <td> <p> 이벤트의 이름을 입력하거나 매핑합니다. </p> <p>참고: [!UICONTROL 이벤트 만들기] 필드에서 [!UICONTROL 빠른 추가]를 선택한 경우 이벤트의 날짜 및 시간을 포함할 수 있습니다. [!DNL Workfront Fusion] 는 해당 날짜 및 시간에 대한 이벤트를 만듭니다. 예: <code>Appointment at Capitol Hill on June 3rd 10am-10:25am</code>. [!UICONTROL 빠른 추가]를 선택했지만 이벤트 이름에 날짜와 시간을 포함하지 않는 경우 현재 시간부터 이벤트가 만들어지고 1시간 동안 지속됩니다.</p> </td> 
+   <td> <p> 이벤트의 이름을 입력하거나 매핑합니다. </p> <p>참고: [!UICONTROL 이벤트 만들기] 필드에서 [!UICONTROL 빠른 추가]를 선택한 경우 이벤트의 날짜 및 시간을 포함할 수 있으며 [!DNL Workfront Fusion]에서 해당 날짜 및 시간에 대한 이벤트를 만듭니다. 예: <code>Appointment at Capitol Hill on June 3rd 10am-10:25am</code> [!UICONTROL 빠른 추가]를 선택했지만 이벤트 이름에 날짜와 시간을 포함하지 않는 경우 현재 시간부터 이벤트가 만들어지고 1시간 동안 지속됩니다.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 하루 종일 이벤트]</td> 
@@ -254,11 +254,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!UICONTROL 시작 날짜]</td> 
-   <td> <p>종일 이벤트인 경우 이벤트의 시작 날짜를 입력합니다. </p> <p>지원되는 날짜 형식 목록은 다음을 참조하십시오. <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">형식 강제 변환 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>종일 이벤트인 경우 이벤트의 시작 날짜를 입력합니다. </p> <p>지원되는 날짜 형식 목록을 보려면 [!DNL Adobe Workfront Fusion]</a>의 <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">형식 변환을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 종료 날짜]</td> 
-   <td> <p> 종일 이벤트인 경우 이벤트의 종료 날짜를 입력합니다. </p> <p>지원되는 날짜 형식 목록은 다음을 참조하십시오. <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">형식 강제 변환 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p> 종일 이벤트인 경우 이벤트의 종료 날짜를 입력합니다. </p> <p>지원되는 날짜 형식 목록을 보려면 [!DNL Adobe Workfront Fusion]</a>의 <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">형식 변환을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 설명]</td> 
@@ -295,7 +295,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!UICONTROL 이벤트 만들기에 대한 알림 보내기]</td> 
-   <td> <p>새 이벤트 만들기에 대한 알림을 모든 게스트에게 전송할지 여부를 선택합니다.[!DNL Google Calendar] 손님들, 아니면 누구에게도.</p> <p>팁: 마이그레이션 사용 사례에만 [!UICONTROL 없음] 옵션을 사용하는 것이 좋습니다.</p> </td> 
+   <td> <p>새 이벤트 만들기에 대한 알림을 모든 게스트에게 보낼지, [!DNL Google Calendar]명이 아닌 게스트에게 보낼지, 아무도 보내지 않을지 선택합니다.</p> <p>팁: 마이그레이션 사용 사례에만 [!UICONTROL 없음] 옵션을 사용하는 것이 좋습니다.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 게스트는 이벤트를 수정할 수 있음]</td> 
@@ -303,7 +303,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!UICONTROL Recurrence]</td> 
-   <td>이 이벤트에 적용할 되풀이 규칙을 추가합니다. 각 규칙에는 반복 이벤트에 대해 [!UICONTROL RRULE], [!UICONTROL EXRULE], [!UICONTROL RDATE] 및 [!UICONTROL EXDATE] 줄 목록이 필요합니다. [!UICONTROL DTSTART] 및 [!UICONTROL DTEND] 라인은 이 필드에서 허용되지 않습니다. 이벤트 시작 및 종료 시간은 시작 및 종료 필드에 지정됩니다. 이 필드는 단일 이벤트 또는 반복 이벤트의 인스턴스에 대해서는 생략됩니다. 자세한 내용은 <a href="https://tools.ietf.org/html/rfc5545#section-3.8.5">RFC5545</a>.</td> 
+   <td>이 이벤트에 적용할 되풀이 규칙을 추가합니다. 각 규칙에는 반복 이벤트에 대해 [!UICONTROL RRULE], [!UICONTROL EXRULE], [!UICONTROL RDATE] 및 [!UICONTROL EXDATE] 줄 목록이 필요합니다. [!UICONTROL DTSTART] 및 [!UICONTROL DTEND] 라인은 이 필드에서 허용되지 않습니다. 이벤트 시작 및 종료 시간은 시작 및 종료 필드에 지정됩니다. 이 필드는 단일 이벤트 또는 반복 이벤트의 인스턴스에 대해서는 생략됩니다. 자세한 내용은 <a href="https://tools.ietf.org/html/rfc5545#section-3.8.5">RFC5545</a>을(를) 참조하십시오.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -324,7 +324,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Google Calendar] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe에 대한 연결 만들기 [!DNL Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Google Calendar] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Calendar] </td> 
@@ -332,12 +332,12 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!UICONTROL 이벤트 ID] </td> 
-   <td> <p>이전에 만든 이벤트 ID를 입력합니다 [!DNL Google Calendar] 업데이트하려는 이벤트입니다.</p> </td> 
+   <td> <p>이전에 만든 [!DNL Google Calendar] 이벤트에서 업데이트할 이벤트 ID를 입력하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-원하는 필드에 새 값을 입력하여 이벤트 정보를 갱신할 수 있습니다. 개별 필드에 대한 자세한 내용은 [[!UICONTROL 이벤트 만들기]](#create-an-event).
+원하는 필드에 새 값을 입력하여 이벤트 정보를 갱신할 수 있습니다. 개별 필드에 대한 자세한 내용은 [[!UICONTROL 이벤트 만들기]](#create-an-event)를 참조하십시오.
 
 #### [!UICONTROL 이벤트 삭제]
 
@@ -355,7 +355,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Google Calendar] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe에 대한 연결 만들기 [!DNL Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Google Calendar] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 달력 ID]</td> 
@@ -363,25 +363,25 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!UICONTROL 이벤트 ID]</td> 
-   <td> <p> 이전에 만든 의 이벤트 ID를 입력합니다 [!DNL Google Calendar] 삭제할 이벤트입니다.</p> </td> 
+   <td> <p> 삭제하려는 이전에 만든 [!DNL Google Calendar] 이벤트의 이벤트 ID를 입력하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 이벤트 삭제에 대한 알림 보내기]</td> 
-   <td>를 사용하지 않는 모든 게스트, 게스트에게 이벤트 삭제에 대한 알림을 보낼지 여부를 선택합니다 [!DNL Google Calendar]또는 아무도 없습니다.</td> 
+   <td>모든 게스트, [!DNL Google Calendar]을(를) 사용하지 않는 게스트 또는 아무도 없는 게스트에게 이벤트 삭제에 대한 알림을 보낼지 선택합니다.</td> 
   </tr> 
  </tbody> 
 </table>
 
 ### 캘린더
 
-* [[!UICONTROL 목록 캘린더]](#list-calendars)
-* [[!UICONTROL 캘린더 가져오기]](#get-a-calendar)
-* [[!UICONTROL 캘린더 만들기]](#create-a-calendar)
-* [[!UICONTROL 캘린더 업데이트]](#update-a-calendar)
-* [[!UICONTROL 캘린더 삭제]](#delete-a-calendar)
-* [[!UICONTROL 캘린더 지우기]](#clear-a-calendar)
+* [[!UICONTROL 일정 나열]](#list-calendars)
+* [[!UICONTROL 일정 가져오기]](#get-a-calendar)
+* [[!UICONTROL 일정 만들기]](#create-a-calendar)
+* [[!UICONTROL 일정 업데이트]](#update-a-calendar)
+* [[!UICONTROL 일정 삭제]](#delete-a-calendar)
+* [[!UICONTROL 일정 지우기]](#clear-a-calendar)
 
-#### [!UICONTROL 목록 캘린더]
+#### [!UICONTROL 일정 나열]
 
 이 작업 모듈은 사용자의 캘린더 목록에 있는 캘린더를 반환합니다.
 
@@ -395,15 +395,15 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Google Calendar] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe에 대한 연결 만들기 [!DNL Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Google Calendar] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 최소 액세스 역할]</td> 
    <td> <p>사용자의 최소 액세스 역할을 선택합니다. 모듈은 이 최소 액세스 역할에 따라 달력을 반환합니다.</p> 
     <ul> 
      <li><strong>[!UICONTROL 약속 있음/없음 Reader]</strong>: 사용자가 약속 있음/없음 정보를 읽을 수 있습니다. </li> 
-     <li><strong>[!UICONTROL 소유자]</strong>: 사용자가 이벤트를 읽고 수정할 수 있으며 제어 목록에 액세스할 수 있습니다. </li> 
-     <li><strong>[!UICONTROL Reader]</strong>: 사용자가 비공개가 아닌 이벤트를 읽을 수 있습니다. </li> 
+     <li><strong>[!UICONTROL 소유자]</strong>: 사용자는 이벤트를 읽고 수정할 수 있으며 컨트롤 목록에 액세스할 수 있습니다. </li> 
+     <li><strong>[!UICONTROL Reader]</strong>: 사용자는 비공개 이벤트가 아닌 이벤트를 읽을 수 있습니다. </li> 
      <li><strong>[!UICONTROL Writer]</strong>: 사용자가 이벤트를 읽고 수정할 수 있습니다.</li> 
     </ul> </td> 
   </tr> 
@@ -413,12 +413,12 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 제한]</td> 
-   <td>최대 달력 수 설정 [!DNL Workfront Fusion] 는 한 실행 주기 동안 를 반환합니다.</td> 
+   <td>한 실행 주기 동안 [!DNL Workfront Fusion]이(가) 반환하는 최대 일정 수를 설정하십시오.</td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL 캘린더 가져오기]
+#### [!UICONTROL 일정 가져오기]
 
 이 작업 모듈은 캘린더를 검색합니다.
 
@@ -434,7 +434,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Google Calendar] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe에 대한 연결 만들기 [!DNL Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Google Calendar] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 달력 ID]</td> 
@@ -443,7 +443,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-#### [!UICONTROL 캘린더 만들기]
+#### [!UICONTROL 일정 만들기]
 
 이 작업 모듈은 새 캘린더를 만듭니다.
 
@@ -459,7 +459,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Google Calendar] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe에 대한 연결 만들기 [!DNL Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Google Calendar] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Calendar name]</td> 
@@ -468,7 +468,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-#### [!UICONTROL 캘린더 업데이트]
+#### [!UICONTROL 일정 업데이트]
 
 이 작업 모듈은 캘린더를 업데이트합니다.
 
@@ -484,7 +484,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Google Calendar] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe에 대한 연결 만들기 [!DNL Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Google Calendar] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 달력 ID]</td> 
@@ -497,7 +497,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-#### [!UICONTROL 캘린더 삭제]
+#### [!UICONTROL 일정 삭제]
 
 이 작업 모듈은 캘린더를 삭제합니다.
 
@@ -513,7 +513,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Google Calendar] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe에 대한 연결 만들기 [!DNL Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Google Calendar] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 달력 ID]</td> 
@@ -522,7 +522,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-#### [!UICONTROL 캘린더 지우기]
+#### [!UICONTROL 일정 지우기]
 
 이 작업 모듈은 계정의 기본 캘린더에서 모든 이벤트를 제거합니다.
 
@@ -538,20 +538,20 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Google Calendar] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe에 대한 연결 만들기 [!DNL Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Google Calendar] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### 액세스 제어 규칙
 
-* [[!UICONTROL 목록 액세스 제어 규칙]](#list-access-control-rules)
+* [[!UICONTROL 액세스 제어 규칙 나열]](#list-access-control-rules)
 * [[!UICONTROL 액세스 제어 규칙 가져오기]](#get-an-access-control-rule)
 * [[!UICONTROL 액세스 제어 규칙 만들기]](#create-an-access-control-rule)
 * [[!UICONTROL 액세스 제어 규칙 업데이트]](#update-an-access-control-rule)
 * [[!UICONTROL 액세스 제어 규칙 삭제]](#delete-an-access-control-rule)
 
-#### [!UICONTROL 목록 액세스 제어 규칙]
+#### [!UICONTROL 액세스 제어 규칙 나열]
 
 이 작업 모듈은 캘린더의 액세스 제어 목록에 있는 규칙을 반환합니다.
 
@@ -563,7 +563,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Google Calendar] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe에 대한 연결 만들기 [!DNL Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Google Calendar] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 달력 ID]</td> 
@@ -571,7 +571,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 제한]</td> 
-   <td>최대 결과 수 설정 [!DNL Workfront Fusion] 는 한 실행 주기 동안 를 반환합니다.</td> 
+   <td>한 실행 주기 동안 [!DNL Workfront Fusion]개의 결과가 반환되는 최대 수를 설정하십시오.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -588,7 +588,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Google Calendar] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe에 대한 연결 만들기 [!DNL Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Google Calendar] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 달력 ID]</td> 
@@ -617,7 +617,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Google Calendar] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe에 대한 연결 만들기 [!DNL Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Google Calendar] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 달력 ID]</td> 
@@ -628,8 +628,8 @@ ht-degree: 0%
    <td> <p>액세스 규칙에 할당할 역할을 선택합니다. </p> 
     <ul> 
      <li><strong>[!UICONTROL 약속 있음/없음 Reader]</strong>: 사용자가 약속 있음/없음 정보를 읽을 수 있습니다. </li> 
-     <li><strong>[!UICONTROL 소유자]</strong>: 사용자가 이벤트를 읽고 수정할 수 있으며 제어 목록에 액세스할 수 있습니다. </li> 
-     <li><strong>[!UICONTROL Reader]</strong>: 사용자가 비공개가 아닌 이벤트를 읽을 수 있습니다. </li> 
+     <li><strong>[!UICONTROL 소유자]</strong>: 사용자는 이벤트를 읽고 수정할 수 있으며 컨트롤 목록에 액세스할 수 있습니다. </li> 
+     <li><strong>[!UICONTROL Reader]</strong>: 사용자는 비공개 이벤트가 아닌 이벤트를 읽을 수 있습니다. </li> 
      <li><strong>[!UICONTROL Writer]</strong>: 사용자가 이벤트를 읽고 수정할 수 있습니다.</li> 
     </ul> </td> 
   </tr> 
@@ -637,10 +637,10 @@ ht-degree: 0%
    <td>[!UICONTROL 유형]</td> 
    <td> <p>범위 유형을 선택합니다. </p> 
     <ul> 
-     <li><strong>[!UICONTROL 기본값]</strong>: 공개 범위입니다. 이 값은 기본값입니다. </li> 
-     <li><strong>[!UICONTROL User]</strong>: 범위를 단일 사용자로 제한합니다. </li> 
+     <li><strong>[!UICONTROL Default]</strong>: 공용 범위입니다. 이 값은 기본값입니다. </li> 
+     <li><strong>[!UICONTROL 사용자]</strong>: 범위를 단일 사용자로 제한합니다. </li> 
      <li><strong>[!UICONTROL Group]</strong>: 범위를 그룹으로 제한합니다. </li> 
-     <li><strong>[!UICONTROL Domain]</strong>: 범위를 도메인으로 제한. </li> 
+     <li><strong>[!UICONTROL Domain]</strong>: 범위를 도메인으로 제한합니다. </li> 
     </ul> <p>참고: [!UICONTROL Default] 또는 공용 범위에 부여된 권한은 인증 여부에 관계없이 모든 사용자에게 적용됩니다.</p> </td> 
   </tr> 
   <tr> 
@@ -670,7 +670,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Google Calendar] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe에 대한 연결 만들기 [!DNL Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Google Calendar] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 달력 ID]</td> 
@@ -684,10 +684,10 @@ ht-degree: 0%
    <td>[!UICONTROL 역할]</td> 
    <td> <p>액세스 규칙에 할당할 역할을 선택합니다. </p> 
     <ul> 
-     <li><strong>[!UICONTROL 없음]</strong>: 이 역할은 액세스 권한을 제공하지 않습니다.</li> 
+     <li><strong>[!UICONTROL None]</strong>: 이 역할은 액세스 권한을 제공하지 않습니다.</li> 
      <li><strong>[!UICONTROL 약속 있음/없음 Reader]</strong>: 사용자가 약속 있음/없음 정보를 읽을 수 있습니다. </li> 
-     <li><strong>[!UICONTROL 소유자]</strong>: 사용자가 이벤트를 읽고 수정할 수 있으며 제어 목록에 액세스할 수 있습니다. </li> 
-     <li><strong>[!UICONTROL Reader]</strong>: 사용자가 비공개가 아닌 이벤트를 읽을 수 있습니다. </li> 
+     <li><strong>[!UICONTROL 소유자]</strong>: 사용자는 이벤트를 읽고 수정할 수 있으며 컨트롤 목록에 액세스할 수 있습니다. </li> 
+     <li><strong>[!UICONTROL Reader]</strong>: 사용자는 비공개 이벤트가 아닌 이벤트를 읽을 수 있습니다. </li> 
      <li><strong>[!UICONTROL Writer]</strong>: 사용자가 이벤트를 읽고 수정할 수 있습니다.</li> 
     </ul> </td> 
   </tr> 
@@ -714,7 +714,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Google Calendar] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe에 대한 연결 만들기 [!DNL Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Google Calendar] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 달력 ID]</td> 
@@ -729,7 +729,7 @@ ht-degree: 0%
 
 ### 반복기(더 이상 사용되지 않음)
 
-다음 [!UICONTROL 첨부 파일 반복] 및 [!UICONTROL 참석자 반복] 모듈이 더 이상 사용되지 않습니다. 첨부 파일 또는 참석자를 반복하려면 [!UICONTROL 흐름 제어] > [!UICONTROL 반복자] 모듈. 자세한 내용은 [의 반복자 모듈 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/iterator-module.md)
+[!UICONTROL 첨부 파일 반복] 및 [!UICONTROL 참석자 반복] 모듈은 더 이상 사용되지 않습니다. 첨부 파일 또는 참석자를 반복하려면 [!UICONTROL 흐름 제어] > [!UICONTROL 반복자] 모듈을 사용하십시오. 자세한 내용은  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/iterator-module.md)의 [반복자 모듈을 참조하십시오.
 
 ### 기타
 
@@ -746,19 +746,19 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Google Calendar] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe에 대한 연결 만들기 [!DNL Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Google Calendar] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
-   <td>상대 경로 입력 <code>https://www.googleapis.com/calendar</code>. 예: <code>/v3/users/me/calendarList</code></td> 
+   <td><code>https://www.googleapis.com/calendar</code>과(와) 관련된 경로를 입력하십시오. 예: <code>/v3/users/me/calendarList</code></td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 메서드]</p> </td> 
-   td&gt; <p>API 호출을 구성하는 데 필요한 HTTP 요청 메서드를 선택합니다. 자세한 내용은 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">의 HTTP 요청 메서드 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   td&gt; <p>API 호출을 구성하는 데 필요한 HTTP 요청 메서드를 선택합니다. 자세한 내용은 [!DNL Adobe Workfront Fusion]</a>에서 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP 요청 메서드를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p>표준 JSON 개체 형식으로 요청의 헤더를 추가합니다.예: <code>{"Content-type":"application/json"}</code>. [!DNL Workfront Fusion] 인증 헤더를 추가합니다.</p> </td> 
+   <td> <p>표준 JSON 개체 형식으로 요청의 헤더를 추가합니다(예: <code>{"Content-type":"application/json"}</code>). [!DNL Workfront Fusion]이(가) 권한 부여 헤더를 추가합니다.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 쿼리 문자열]</td> 
@@ -766,7 +766,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>표준 JSON 개체의 형태로 API 호출에 대한 본문 콘텐츠를 추가합니다.</p> <p>참고:   <p>다음과 같은 조건문을 사용할 때 <code>if</code> json에서 따옴표를 조건문 외부에 넣습니다.</p> 
+   <td> <p>표준 JSON 개체의 형태로 API 호출에 대한 본문 콘텐츠를 추가합니다.</p> <p>참고:   <p>JSON에서 <code>if</code>과(와) 같은 조건문을 사용할 때 따옴표를 조건문 외부에 넣으십시오.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>">  
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -788,63 +788,63 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td>연결에 대한 자세한 내용 [!DNL Google Calendar] Workfront Fusion에 대한 계정은 다음을 참조하십시오. <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe Workfront Fusion에 대한 연결 만들기 - 기본 지침</a></td> 
+   <td>[!DNL Google Calendar] 계정을 Workfront Fusion에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe Workfront Fusion 연결 만들기 - 기본 지침</a>을 참조하십시오.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 최소 시간]</td> 
-   <td> <p> 정보를 검색할 간격의 시작을 입력합니다.</p> <p> 지원되는 날짜 및 시간 형식 목록은 다음을 참조하십시오. <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">형식 강제 변환 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p> 정보를 검색할 간격의 시작을 입력합니다.</p> <p> 지원되는 날짜 및 시간 형식 목록을 보려면 [!DNL Adobe Workfront Fusion]</a>의 <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">형식 변환을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 최대 시간]</td> 
-   <td> <p> 정보를 검색할 간격의 끝을 입력합니다. </p> <p>지원되는 날짜 및 시간 형식 목록은 다음을 참조하십시오. <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">형식 강제 변환 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p> 정보를 검색할 간격의 끝을 입력합니다. </p> <p>지원되는 날짜 및 시간 형식 목록을 보려면 [!DNL Adobe Workfront Fusion]</a>의 <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">형식 변환을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 캘린더]</td> 
-   <td> <p>정보를 검색할 각 달력에 대해 <strong>추가</strong> 달력 ID를 입력하거나 매핑합니다.</p> </td> 
+   <td> <p>정보를 검색할 각 캘린더에 대해 <strong>추가</strong>를 클릭하고 캘린더 ID를 입력하거나 매핑하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 이벤트 전에 시나리오 트리거
 
-표준을 사용하여 이벤트 전에 지정된 시간 동안 시나리오를 트리거할 수 있습니다 [!DNL Google Calendar] 이메일 알림 및 [!UICONTROL 웹훅] >[!UICONTROL 사용자 지정 메일 후크] 모듈.
+표준 [!DNL Google Calendar] 이메일 미리 알림 및 [!UICONTROL Webhooks] >[!UICONTROL 사용자 지정 메일 후크] 모듈의 도움을 받아 지정한 시간 전에 시나리오를 트리거할 수 있습니다.
 
-1. 사용 [!UICONTROL Google 캘린더] >[!UICONTROL 이벤트 업데이트] 이벤트에 이메일 미리 알림을 추가하는 모듈:
+1. [!UICONTROL Google 일정] >[!UICONTROL 이벤트 업데이트] 모듈을 사용하여 이벤트에 전자 메일 미리 알림을 추가하십시오.
 
    ![](assets/trigger-scen-before-event-350x209.png)
 
-1. 다음으로 시작하는 새 시나리오 만들기 [!UICONTROL 웹훅] >[!UICONTROL 사용자 지정 메일 후크] 모듈.
+1. [!UICONTROL Webhooks] >[!UICONTROL 사용자 지정 메일 후크] 모듈로 시작하는 새 시나리오를 만듭니다.
 
    1. 메일후크의 이메일 주소를 복사합니다.
    1. 시나리오를 저장하고 실행합니다.
 
-1. 위치 [!DNL Gmail], 리디렉션 [!DNL Google Calendar] mailhook의 이메일 주소에 대한 이메일 미리 알림:
+1. [!DNL Gmail]에서 [!DNL Google Calendar] 전자 메일 미리 알림을 메일 후크의 전자 메일 주소로 리디렉션합니다.
 
-   1. 을(를) 엽니다 **[!UICONTROL [!DNL Gmail]설정]**.
-   1. 를 엽니다. **[!UICONTROL 전달 및 POP/IMAP]** 탭.
-   1. 클릭 **[!UICONTROL 전달 주소 추가].**
-   1. 복사한 메일후크의 이메일 주소를 붙여넣은 다음 &#x200B; 클릭&#x200B;**[!UICONTROL 다음]**, 을 눌러 확인 **[!UICONTROL 진행]** 팝업 창에서 을(를) 클릭하고 **[!UICONTROL 확인]**.
+   1. **[!UICONTROL [!DNL Gmail]설정을 엽니다]**.
+   1. **[!UICONTROL 전달 및 POP/IMAP]** 탭을 엽니다.
+   1. **[!UICONTROL 전달 주소 추가]를 클릭합니다.**
+   1. 복사한 메일 후크의 전자 메일 주소를 붙여 넣고 {&#x200B;0}다음&#x200B;]**을 클릭한 다음 팝업 창에서**[!UICONTROL &#x200B;계속&#x200B;]**을 눌러 확인한 다음**[!UICONTROL &#x200B;확인&#x200B;]**을 클릭합니다.**[!UICONTROL 
 
-   1. 위치 [!DNL Workfront Fusion]확인 이메일을 수신하여 실행을 완료해야 하는 새 시나리오로 전환합니다.
+   1. [!DNL Workfront Fusion]에서 확인 이메일을 받아 실행을 완료해야 하는 새 시나리오로 전환합니다.
    1. 모듈 위의 버블을 클릭하여 모듈의 출력을 검사합니다.
-   1. 확장 `Text` 항목을 만들고 확인 코드를 복사합니다.
+   1. `Text` 항목을 확장하고 확인 코드를 복사합니다.
 
       ![](assets/confirmation-code-350x252.png)
 
-   1. Gmail의 편집 상자에 확인 코드를 붙여 넣고 을 클릭합니다&#x200B;.**[!UICONTROL 확인]**:
+   1. Gmail에서 편집 상자에 확인 코드를 붙여 넣고 {&#x200B;0}확인&#x200B;]**을 클릭합니다.**[!UICONTROL 
 
       ![](assets/paste-code-350x46.png)
 
-   1. 를 엽니다. **[!UICONTROL 필터 및 차단된 주소]** 탭.
-   1. 클릭 **[!UICONTROL 새 필터 만들기]**.
-   1. 에서 오는 모든 이메일에 대한 필터 설정 `     calendar-notification@google.com` 및 &#x200B; 클릭&#x200B;**[!UICONTROL 필터 만들기]**:
-   1. 선택 **[!UICONTROL 전달 대상]** 목록에서 메일 후크의 이메일 주소를 선택합니다.
-   1. 클릭 **[!UICONTROL 필터 만들기]** 필터를 만듭니다.
+   1. **[!UICONTROL 필터 및 차단된 주소]** 탭을 엽니다.
+   1. **[!UICONTROL 새 필터 만들기]**&#x200B;를 클릭합니다.
+   1. `     calendar-notification@google.com`에서 보낸 모든 전자 메일에 대한 필터를 설정하고 **[!UICONTROL 필터 만들기&#x200B;]**&#x200B;를 클릭합니다.
+   1. **[!UICONTROL 전달]**&#x200B;을 선택하고 목록에서 메일 후크 전자 메일 주소를 선택합니다.
+   1. **[!UICONTROL 필터 만들기]**&#x200B;를 클릭하여 필터를 만듭니다.
 
-1. (선택 사항) [!DNL Workfront Fusion], 추가 [!UICONTROL 텍스트 구문 분석기] > [!UICONTROL 패턴 일치] 다음 뒤에 있는 모듈 [!UICONTROL 웹훅] >[!UICONTROL 사용자 지정 메일 후크] 필요한 정보를 얻기 위해 이메일의 HTML 코드를 구문 분석하는 모듈입니다.
+1. (선택 사항) [!DNL Workfront Fusion]에서 [!UICONTROL Webhooks] >[!UICONTROL 사용자 지정 메일 후크] 모듈 뒤에 [!UICONTROL 텍스트 구문 분석기] > [!UICONTROL 일치 패턴] 모듈을 추가하여 전자 메일의 HTML 코드를 구문 분석하여 필요한 정보를 얻습니다.
 
    예를 들어 이벤트의 ID를 가져오도록 다음과 같이 모듈을 구성할 수 있습니다.
 
    *패턴*: `<meta itemprop="eventId/googleCalendar" content="(?<evenitID>.*?)"/>`
 
-   *텍스트*: `HTML content` 항목에서 출력됨 [!UICONTROL 웹훅] >[!UICONTROL 사용자 지정 메일 후크] 모듈.
+   *텍스트*: [!UICONTROL Webhooks] >[!UICONTROL 사용자 지정 메일 후크] 모듈에서 출력된 `HTML content` 항목입니다.

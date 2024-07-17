@@ -18,7 +18,7 @@ ht-degree: 1%
 
 이 페이지에서는 R1.3 릴리스의 미리보기 환경에서 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 페이지의 기능은 2017년 2월 1일에 미리보기 환경에서 사용할 수 있습니다.
 
-R1의 모든 변경 사항 목록은 다음을 참조하십시오. [R1 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md). 
+R1의 모든 변경 사항 목록은 [R1 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md)를 참조하십시오. 
 
 ## 외부 파일을 연결하는 개선된 방법
 
@@ -28,13 +28,13 @@ R1의 모든 변경 사항 목록은 다음을 참조하십시오. [R1 릴리스
 
 이러한 변경 이전에는 외부 소스에서 파일을 연결하는 옵션이 문서 영역의 문서 추가 대화 상자에 있었습니다. 외부 소스에서 문서를 처음 연결하기 전에 문서를 연결하는 사용자가 설정 영역에서 해당 문서 공급자에게 권한을 부여해야 했습니다.
 
-자세한 내용은  [외부 애플리케이션에서 문서 연결](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+자세한 내용은  [외부 응용 프로그램에서 문서 연결](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 ## 캘린더에서 처리 중인 팀 업데이트됨
 
 >[!NOTE]
 >
->리소스 예약 도구는 23.1 릴리스에서 더 이상 사용되지 않으며 Workfront에서 제거되었습니다. 업무 균형자 를 사용하여 리소스를 예약하는 방법에 대한 자세한 내용은 [업무 균형자 개요](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>리소스 예약 도구는 23.1 릴리스에서 더 이상 사용되지 않으며 Workfront에서 제거되었습니다. 업무 균형자를 사용하여 리소스를 예약하는 방법에 대한 자세한 내용은 [업무 균형자 개요](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md)를 참조하십시오.
 
 이제 팀에서 사용할 수 있는 작업 달력에 추가 기능과 업데이트된 모양과 느낌이 포함됩니다. 이제 작업 중인 팀이 프로젝트의 리소스 예약 도구와 유사하게 작동합니다.
 
@@ -70,7 +70,7 @@ R1의 모든 변경 사항 목록은 다음을 참조하십시오. [R1 릴리스
 
 >[!NOTE]
 >
->리소스 예약 도구는 23.1 릴리스에서 더 이상 사용되지 않으며 Workfront에서 제거되었습니다. 업무 균형자 를 사용하여 리소스를 예약하는 방법에 대한 자세한 내용은 [업무 균형자 개요](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>리소스 예약 도구는 23.1 릴리스에서 더 이상 사용되지 않으며 Workfront에서 제거되었습니다. 업무 균형자를 사용하여 리소스를 예약하는 방법에 대한 자세한 내용은 [업무 균형자 개요](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md)를 참조하십시오.
 
 이제 필터를 사용하여 미할당 영역에 표시되는 작업 및 문제 외에도 예약 타임라인에 표시되는 사용자를 제어할 수 있습니다. 필터에서 사용자를 선택하면 미할당 영역의 작업 역할 할당과 일치하는 역할 할당이 있는지 여부에 관계없이 선택한 사용자만 표시됩니다. 해당 사용자에게 현재 할당된 모든 작업도 표시됩니다.
 
@@ -91,7 +91,7 @@ R1의 모든 변경 사항 목록은 다음을 참조하십시오. [R1 릴리스
 이제 특정 개체의 이름을 변경하여 Workfront 용어를 사용자 지정할 수 있습니다.\
 이제 레이아웃 템플릿을 사용하여 조직의 요구 사항에 맞게 다음 작업 객체의 이름을 변경할 수 있습니다.
 
-* 포트폴리오
+* Portfolio
 * 프로그램
 * 프로젝트
 * 작업
@@ -120,7 +120,7 @@ R1의 모든 변경 사항 목록은 다음을 참조하십시오. [R1 릴리스
 * 모바일 앱
 * Outlook 추가 기능
 
-레이아웃 템플릿을 사용하여 Workfront 용어를 사용자 정의하는 방법에 대한 자세한 내용은 &quot;레이아웃 템플릿 만들기 및 관리&quot;의 &quot;용어 사용자 정의&quot; 섹션 및 &quot;개체 이름 사용자 정의의 의미 이해&quot; 섹션을 참조하십시오. [Adobe Workfront의 오브젝트 이해](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+레이아웃 템플릿을 사용하여 Workfront 용어를 사용자 정의하는 방법에 대한 자세한 내용은 &quot;레이아웃 템플릿 만들기 및 관리&quot;의 &quot;용어 사용자 정의&quot; 섹션 및 [Adobe Workfront의 개체 이해](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)의 &quot;개체 이름 사용자 정의의 의미 이해&quot; 섹션을 참조하십시오.
 
 ## 보고서에 승인 시작 및 종료 일자 포함
 
@@ -131,9 +131,9 @@ R1의 모든 변경 사항 목록은 다음을 참조하십시오. [R1 릴리스
 
 이러한 필드를 사용하면 현재 또는 가장 최근 승인 경로가 시작된 시기와 완료로 표시된 시기를 파악할 수 있습니다.
 
-이러한 필드에 대한 자세한 내용은 [Adobe Workfront 용어 목록](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+이러한 필드에 대한 자세한 내용은 [Adobe Workfront 용어](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)를 참조하십시오.
 
-승인 경로, 경로를 만들고 트리거하는 방법, 승인 프로세스에서 제공하는 기능에 대한 자세한 내용은 다음을 참조하십시오. [작업 항목에 대한 승인 프로세스 만들기](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+승인 경로, 승인 경로를 만들고 트리거하는 방법, 승인 프로세스에서 제공하는 기능에 대한 자세한 내용은 [작업 항목에 대한 승인 프로세스 만들기](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)를 참조하십시오.
 
 다음 필드는 Workfront에서 제거되어 더 이상 보고서에 포함할 수 없습니다(이러한 필드는 승인 자체에 대한 정보가 아닌 프로젝트 관련 정보를 제공했으며 종종 오용되었습니다).
 
@@ -145,7 +145,7 @@ R1의 모든 변경 사항 목록은 다음을 참조하십시오. [R1 릴리스
 
 일별 다이제스트 게재 옵션이 알림 설정의 &quot;내가 한 요청&quot; 영역에 추가되었습니다.
 
-자세한 내용은 [이메일 알림 수정](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+자세한 내용은 [전자 메일 알림 수정](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)을 참조하세요.
 
 이 기능을 테스트하려면 계정과 연결된 이메일 주소를 업데이트해야 합니다. 이는 미리보기 샌드박스가 모든 사용자의 이메일 주소를 지우므로 필요합니다.
 
@@ -153,7 +153,7 @@ R1의 모든 변경 사항 목록은 다음을 참조하십시오. [R1 릴리스
 
 &quot;문서 승인&quot;에 대한 알림의 모양과 느낌이 새 UI로 업데이트되었습니다.
 
-이메일 알림에 대한 자세한 내용은 [Adobe Workfront 알림](../../../../workfront-basics/using-notifications/wf-notifications.md).
+전자 메일 알림에 대한 자세한 내용은 [Adobe Workfront 알림](../../../../workfront-basics/using-notifications/wf-notifications.md)을 참조하세요.
 
 이 기능을 테스트하려면 계정과 연결된 이메일 주소를 업데이트해야 합니다. 이는 미리보기 샌드박스가 모든 사용자의 이메일 주소를 지우므로 필요합니다.
 
@@ -166,4 +166,4 @@ R1의 모든 변경 사항 목록은 다음을 참조하십시오. [R1 릴리스
 
 이 변경 전에 완료율을 보거나 날짜를 편집하려면 개별 작업으로 이동해야 했습니다.
 
-자세한 내용은 [마일스톤 보기 사용](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+자세한 내용은 [마일스톤 보기 사용](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)을 참조하세요.

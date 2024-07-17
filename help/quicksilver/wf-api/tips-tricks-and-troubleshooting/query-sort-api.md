@@ -23,6 +23,6 @@ ht-degree: 0%
 &entryDate_Sort=asc
 ```
 
-예를 들어, 작업 계획 시작 일자별로 정렬하려면 다음을 제거합니다. `entryDate` 바꿀 내용: `plannedCompletionDate`.
+예를 들어 작업 계획 시작 날짜별로 정렬하려면 `entryDate`을(를) 제거하고 `plannedCompletionDate`(으)로 바꾸십시오.
 
 Adobe Workfront의 대부분의 필드에 적용됩니다.

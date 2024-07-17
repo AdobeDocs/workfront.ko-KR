@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 로그인 필요
 
-로그인 필요 - 계정에서 생성된 증명의 보안을 강화합니다. 계정 수준에서 모든 증명에 필요한 로그인을 활성화하거나 필요에 따라 개별 증명에 대해 활성화할 수 있습니다. 계정 활성화에 대한 자세한 내용은 [기본 증명 설정 구성](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md).
+로그인 필요 - 계정에서 생성된 증명의 보안을 강화합니다. 계정 수준에서 모든 증명에 필요한 로그인을 활성화하거나 필요에 따라 개별 증명에 대해 활성화할 수 있습니다. 계정 사용에 대한 자세한 내용은 [기본 증명 설정 구성](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md)을 참조하세요.
 
 >[!NOTE]
 >
@@ -34,12 +34,12 @@ ht-degree: 0%
 >
 >로그인 프로세스를 간소화하려면 Workfront 및 Workfront 증명에서 SSO를 설정하는 것이 좋습니다. SSO 활성화에 대한 자세한 내용은 >
 >* [Workfront의 SSO(Single Sign-On): 문서 인덱스](../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md)
->* [Workfront Proof 사용자를 위한 단일 사인온 구성](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
+>* [Workfront Proof 사용자에 대한 SSO(Single Sign-On) 구성](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
 >
 
 ## 전자 서명
 
-전자 서명을 사용하면 증명에 대한 보안을 강화하고 ISO와 같은 업계 보안 표준을 준수할 수 있습니다. 계정 수준에서 모든 증명에 대해 전자 서명을 활성화하거나 필요에 따라 개별 증명에 대해 활성화할 수 있습니다. 자세한 내용은 [기본 증명 설정 구성](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md).
+전자 서명을 사용하면 증명에 대한 보안을 강화하고 ISO와 같은 업계 보안 표준을 준수할 수 있습니다. 계정 수준에서 모든 증명에 대해 전자 서명을 활성화하거나 필요에 따라 개별 증명에 대해 활성화할 수 있습니다. 자세한 내용은 [기본 증명 설정 구성](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md)을 참조하십시오.
 
 ## 증명에 전자 방식으로 서명
 
@@ -48,5 +48,5 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >SSO 자격 증명으로 증명에 전자 방식으로 서명하려면 Workfront Proof에서 SSO를 설정해야 합니다. SSO 활성화에 대한 자세한 내용은 >
->* [Workfront Proof 사용자를 위한 단일 사인온 구성](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
+>* [Workfront Proof 사용자에 대한 SSO(Single Sign-On) 구성](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
 >

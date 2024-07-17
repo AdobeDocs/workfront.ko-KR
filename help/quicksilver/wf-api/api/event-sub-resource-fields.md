@@ -9,7 +9,7 @@ role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
 source-git-commit: c08bd3311892d24a9bd40af138169957f5ea2ca4
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '711'
 ht-degree: 10%
 
 ---
@@ -482,7 +482,7 @@ ht-degree: 10%
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>입력자 ID</span> </td> 
+   <td><span>enteredByID</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -497,7 +497,7 @@ ht-degree: 10%
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>외부 스토리지 ID</span> </td> 
+   <td><span>externalStorageID</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -542,7 +542,7 @@ ht-degree: 10%
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>증명 결정</span> </td> 
+   <td><span>proofDecision</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -562,17 +562,17 @@ ht-degree: 10%
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>증명 페이지</span> </td> 
+   <td><span>proofPages</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>증명 진행</span> </td> 
+   <td><span>proofProgress</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>증명 단계 ID</span> </td> 
+   <td><span>proofStageID</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -1395,7 +1395,7 @@ ht-degree: 10%
    <td>userID</td> 
   </tr> 
   <tr> 
-   <td>포트폴리오</td> 
+   <td>Portfolio</td> 
    <td>포트</td> 
    <td>접근자 ID</td> 
   </tr> 
@@ -1787,7 +1787,7 @@ ht-degree: 10%
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>승인자 결정</span> </td> 
+   <td><span>approverDecision</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -1807,7 +1807,7 @@ ht-degree: 10%
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>문서 버전 ID</span> </td> 
+   <td><span>documentVersionID</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -1817,7 +1817,7 @@ ht-degree: 10%
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>isAwaitingDecision</span> </td> 
+   <td><span>isWaitingDecision</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -1827,7 +1827,7 @@ ht-degree: 10%
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>증명 생성 날짜</span> </td> 
+   <td><span>proofCreationDate</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -2717,7 +2717,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>title</td> 
+   <td>제목</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2736,7 +2736,7 @@ ht-degree: 10%
   </tr> 
   <tr> 
    <td>작업 영역</td> 
-   <td>작업 영역</td> 
+   <td>WORKSPACE</td> 
    <td>색상</td> 
   </tr> 
   <tr> 

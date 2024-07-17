@@ -13,9 +13,9 @@ ht-degree: 0%
 
 ---
 
-# 설치  [!DNL Adobe Workfront] 플러그인 [!DNL Creative Cloud] 애플리케이션
+# [!DNL Creative Cloud] 응용 프로그램용 [!DNL Adobe Workfront] 플러그 인 설치
 
-이 섹션에는 다음 문서가 포함되어 있습니다. 설치에 대한 지침은 [!DNL Adobe Workfront] 플러그인은 플러그인을 설치하는 애플리케이션에 대한 문서를 참조하십시오.
+이 섹션에는 다음 문서가 포함되어 있습니다. [!DNL Adobe Workfront] 플러그 인을 설치하는 방법에 대한 지침은 플러그 인을 설치하는 응용 프로그램에 대한 문서를 참조하십시오.
 
 * [설치 및 열기 [!DNL Adobe Workfront for Photoshop]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
 * [설치 및 열기 [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)

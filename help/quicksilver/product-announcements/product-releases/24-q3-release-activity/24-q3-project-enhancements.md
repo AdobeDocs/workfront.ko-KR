@@ -16,7 +16,7 @@ ht-degree: 0%
 
 이 페이지에서는 미리보기 환경에 대한 2024년 3분기 릴리스의 모든 프로젝트 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
-2024년 3분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [2024년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+2024년 3분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2024년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)를 참조하십시오.
 
 
 ## 헤더 또는 세부 정보 섹션에서 작업 및 문제 커밋 일자 및 조건 편집
@@ -56,4 +56,4 @@ Workfront이 작업에 대한 스마트 할당을 계산하고 제안하는 데 
 
 * 문제에 대한 스마트 할당 계산 방식에는 변경 사항이 없습니다. 문제 목록의 스마트 할당 목록 이름은 &quot;다음 몇 가지 권장 사항&quot;입니다.
 
-자세한 내용은 [스마트 할당 개요](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
+자세한 내용은 [스마트 할당 개요](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md)를 참조하십시오.

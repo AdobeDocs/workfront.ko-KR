@@ -1,8 +1,8 @@
 ---
-title: Portfolio 최적기에서 프로젝트 우선 순위 지정
+title: Portfolio 최적화 도구에서 프로젝트 우선 순위 지정
 product-area: portfolios;projects
 navigation-topic: portfolio-optimizer
-description: Portfolio 최적기에서 프로젝트의 우선 순위를 지정하여 프로젝트를 완료해야 하는 순서를 설정할 수 있습니다.
+description: Portfolio 최적화 도구에서 프로젝트의 우선 순위를 지정하여 프로젝트를 완료해야 하는 순서를 설정할 수 있습니다.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 54e33746-5995-49de-8e21-bf973f0694a6
@@ -13,26 +13,26 @@ ht-degree: 0%
 
 ---
 
-# 에서 프로젝트 우선 순위 지정 [!UICONTROL Portfolio 최적화 프로그램]
+# [!UICONTROL Portfolio 최적화 도구]에서 프로젝트 우선 순위 지정
 
-에서는 프로젝트의 우선 순위를 지정할 수 있습니다 [!UICONTROL Portfolio 최적화 프로그램]를 입력하여 이러한 작업이 완료되어야 하는 순서를 설정합니다.
+[!UICONTROL Portfolio 최적화 도구]에서 프로젝트의 우선 순위를 지정하여 프로젝트를 완료해야 하는 순서를 설정할 수 있습니다.
 
-를 사용할 때는 다음 사항을 고려하십시오 [!UICONTROL Portfolio 최적화 프로그램]:
+[!UICONTROL Portfolio 최적화 도구]를 사용할 때는 다음 사항을 고려하십시오.
 
-* 프로젝트 맨 위 [!UICONTROL Portfolio 최적화 프로그램] 는 아래에 나열된 것보다 더 중요한 것으로 간주됩니다. 프로젝트의 우선 순위 [!UICONTROL Portfolio 최적화 프로그램] Portfolio을 최적화하도록 했습니다.
-* 에서 프로젝트의 우선순위 [!UICONTROL Portfolio 최적화 프로그램] 와(과) 관련이 없습니다. [!UICONTROL 우선순위] 에 있는 필드 [!UICONTROL 프로젝트 세부 사항] 탭의 프로젝트에 표시됩니다.
+* [!UICONTROL Portfolio 최적화 도구]의 맨 위에 있는 프로젝트가 맨 아래에 나열된 프로젝트보다 더 중요한 것으로 간주됩니다. Portfolio을 최적화하려면 [!UICONTROL Portfolio 최적화 도구]에서 우선 순위 순서대로 프로젝트를 완료해야 합니다.
+* [!UICONTROL Portfolio 최적화 도구]의 프로젝트 우선 순위는 프로젝트의 [!UICONTROL 프로젝트 세부 정보] 탭에 있는 [!UICONTROL 우선 순위] 필드와 관련이 없습니다.
 
-   다음 [!UICONTROL 우선순위] 필드의 필드 [!UICONTROL 프로젝트 세부 사항] 탭은 프로젝트가 얼마나 중요한지 이해하기 위해 수동으로 지정하는 시각적 플래그입니다.
+  [!UICONTROL 프로젝트 세부 정보] 탭의 [!UICONTROL 우선 순위] 필드는 프로젝트의 중요성을 이해하기 위해 수동으로 지정하는 시각적 플래그입니다.
 
-* Portfolio 최적기에 있는 프로젝트의 우선순위는 [!DNL Resource Planner], 여기에서 활성화되는 경우. 에서 [!DNL Resource Planner], 프로젝트는 순서대로 리소스를 받습니다 [!UICONTROL 리소스 플래너] 우선 순위, 그리고 [!UICONTROL Portfolio 우선순위].
+* Portfolio 최적화 도구에서 프로젝트의 우선 순위가 [!DNL Resource Planner]에 표시됩니다(활성화된 경우). [!DNL Resource Planner]에서 프로젝트는 [!UICONTROL Portfolio 우선 순위]가 아닌 [!UICONTROL 리소스 플래너] 우선 순위 순서로 리소스를 받습니다.
 
-   에서 프로젝트 우선 순위에 대한 정보 [!UICONTROL 리소스 플래너], 문서를 참조하십시오 [에서 프로젝트 우선 순위 지정 [!UICONTROL 리소스 플래너]](../../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
+  [!UICONTROL 리소스 플래너]에서 프로젝트 우선 순위를 지정하는 방법에 대한 자세한 내용은 문서 [리소스 플래너에서 프로젝트 우선 순위 지정[!UICONTROL 을 참조하십시오.]](../../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md)
 
-* 다음 **[!UICONTROL 프로젝트 우선 순위 지정]** 의 영역 [!UICONTROL Portfolio 최적화 프로그램] 다음 순서로 프로젝트를 표시합니다. [!UICONTROL 계획 시작 날짜] 및 [!UICONTROL 순 값]기본적으로 입니다.
+* [!UICONTROL Portfolio 최적화 도구]의 **[!UICONTROL 프로젝트 우선 순위]** 영역에는 기본적으로 [!UICONTROL 계획된 시작 일자] 및 [!UICONTROL 순 값] 순서로 프로젝트가 표시됩니다.
 
 ## 액세스 요구 사항
 
-이 문서의 절차를 수행하려면 다음 액세스 권한이 있어야 합니다.
+이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,45 +40,45 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 플랜*</td> 
-   <td> <p>모든 </p> </td> 
+   <td> <p>임의 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스*</td> 
+   <td role="rowheader">Adobe Workfront 라이센스*</td> 
    <td> <p>[!UICONTROL Business] 이상</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>프로젝트 및 Portfolio에 대한 [!UICONTROL 편집] 액세스</p> <p>참고: 여전히 액세스할 수 없는 경우 [!DNL Workfront] 관리자가 액세스 수준에서 추가 제한을 설정한 경우 자세한 내용은 [!DNL Workfront] 관리자는 액세스 수준을 수정할 수 있습니다. <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td> <p>프로젝트 및 Portfolio에 대한 [!UICONTROL 편집] 액세스</p> <p>참고: 여전히 액세스 권한이 없는 경우 [!DNL Workfront] 관리자에게 액세스 수준에 추가 제한을 설정했는지 문의하십시오. [!DNL Workfront] 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>포트폴리오에 대한 [!UICONTROL Manage] 권한</p> <p>프로젝트에 대한 권한 부여 이상</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>포트폴리오에 대한 [!UICONTROL 관리] 권한</p> <p>프로젝트에 대한 Contribute 이상 권한</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;어떤 계획, 라이센스 유형 또는 액세스 권한을 보유하고 있는지 확인하려면 [!DNL Workfront] 관리자
+&#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
 
-## 에서 프로젝트의 우선순위 변경 [!UICONTROL Portfolio 최적화 프로그램]
+## [!UICONTROL Portfolio 최적화 도구]에서 프로젝트의 우선 순위 변경
 
-1. 을(를) 클릭합니다. **[!UICONTROL 기본 메뉴]** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 상단 모서리에서
+1. Adobe Workfront 오른쪽 상단의 **[!UICONTROL 주 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭합니다.
 
-1. 클릭 **[!UICONTROL Portfolio]**.
-1. (선택 사항)에서 올바른 필터를 선택합니다 **[!UICONTROL 필터]** 드롭다운 메뉴를 클릭하여 포트폴리오 목록을 올바르게 확인합니다.
+1. **[!UICONTROL Portfolio]**&#x200B;을 클릭합니다.
+1. (선택 사항) **[!UICONTROL 필터]** 드롭다운 메뉴에서 올바른 필터를 선택하여 올바른 포트폴리오 목록을 확인합니다.
 1. 포트폴리오의 이름을 클릭하여 엽니다.
-1. 클릭 **[!UICONTROL Portfolio 최적화]** 왼쪽 패널에 표시됩니다.
-1. 에서 [!UICONTROL 프로젝트 수익] 영역, 프로젝트를 우선순위 순서로 드래그한 다음 원하는 표시 위치로 드래그하여 프로젝트의 우선순위를 변경합니다.
+1. 왼쪽 패널에서 **[!UICONTROL Portfolio 최적화]**&#x200B;를 클릭합니다.
+1. [!UICONTROL 프로젝트 최적화] 영역에서 프로젝트를 우선 순위 순서로 드래그한 다음 원하는 표시 위치로 드롭하여 프로젝트의 우선 순위를 변경합니다.
 
    ![](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
 
-   클릭 **[!UICONTROL 우선 순위 설정]** 프로젝트 다시 정렬이 완료되면 프로젝트 최적화 영역에서 을 선택합니다. 새 주문에 따라 새 번호를 받게 됩니다.
+   프로젝트 다시 정렬을 마치면 프로젝트 최적화 영역에서 **[!UICONTROL 우선 순위 설정]**&#x200B;을 클릭합니다. 프로젝트는 새로운 주문에 따라 새로운 번호를 받게 됩니다.
 
-1. 클릭 **[!UICONTROL 저장]** 새 프로젝트 우선 순위를 [!UICONTROL Portfolio 최적화 프로그램]. 우선 순위는 숫자에 숫자로 나열됩니다 **#** 열.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭하여 [!UICONTROL Portfolio 최적화 도구]에 새 프로젝트 우선 순위를 저장합니다. 우선 순위는 **#** 숫자 열에 숫자로 나열됩니다.
 
    >[!TIP]
    >
-   >이는 반드시 [!UICONTROL Portfolio 최적화 프로그램], 프로젝트 목록은 **#** 열. 을(를) 클릭합니다. **#** 열 머리글 : 프로젝트 우선 순위별로 목록을 정렬할 수 있습니다.
+   >프로젝트 목록이 **#** 열 이외의 열을 기준으로 정렬할 수 있으므로 [!UICONTROL Portfolio 최적화 도구]의 프로젝트 순서를 변경할 필요는 없습니다. 프로젝트 우선 순위별로 목록을 정렬하려면 **#** 열 헤더를 클릭하십시오.
 
-   프로젝트에 표시되는 우선 순위를 볼 수 있습니다 [!UICONTROL Portfolio 최적화 프로그램] 리소스 플래너에서 **[!UICONTROL Portfolio 우선순위 표시]** 리소스 계획자에서 설정
+   리소스 플래너에서 **[!UICONTROL Portfolio 우선 순위 표시]** 설정을 활성화하면 리소스 플래너의 [!UICONTROL Portfolio 최적화 도구]에 표시되는 프로젝트의 우선 순위를 볼 수 있습니다.
 
-   에서 프로젝트 우선 순위에 대한 정보 [!UICONTROL 리소스 플래너], 문서를 참조하십시오 [에서 프로젝트 우선 순위 지정 [!UICONTROL 리소스 플래너]](../../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
+   [!UICONTROL 리소스 플래너]에서 프로젝트 우선 순위를 지정하는 방법에 대한 자세한 내용은 문서 [리소스 플래너에서 프로젝트 우선 순위 지정[!UICONTROL 을 참조하십시오.]](../../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md)

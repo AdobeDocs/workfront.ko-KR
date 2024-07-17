@@ -19,5 +19,5 @@ ht-degree: 7%
 
 이 섹션에는 다음 하위 섹션이 포함됩니다.
 
-* [요청 대기열 생성 및 관리](../../manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md)
+* [요청 큐 만들기 및 관리](../../manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md)
 * [요청 만들기](../../manage-work/requests/create-requests/create-requests.md)

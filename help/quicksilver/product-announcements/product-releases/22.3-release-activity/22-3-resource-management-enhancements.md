@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 22.3 향상된 리소스 관리 기능
 
-이 페이지에서는 미리보기 환경에 대한 22.3 릴리스의 모든 리소스 관리 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2022년 7월 11일이 있는 주에 프로덕션 환경에서 사용할 수 있습니다. 22.3 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [22.3 릴리스 개요](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+이 페이지에서는 미리보기 환경에 대한 22.3 릴리스의 모든 리소스 관리 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2022년 7월 11일이 있는 주에 프로덕션 환경에서 사용할 수 있습니다. 22.3 릴리스에서 사용할 수 있는 모든 변경 사항 목록을 보려면 [22.3 릴리스 개요](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)를 참조하십시오.
 
 ## 업무 균형자에서 정렬 환경 설정 및 유용성 개선 사항
 
@@ -32,5 +32,5 @@ ht-degree: 0%
 * 예상 날짜에 대해 업데이트되고 읽기 쉬운 디자인입니다.
 
 
-자세한 내용은 [업무 균형자 탐색](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+자세한 내용은 [업무 균형자 탐색](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)을 참조하십시오.
 

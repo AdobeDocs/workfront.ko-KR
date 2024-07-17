@@ -23,11 +23,11 @@ ht-degree: 1%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
 
-(으)로 [!DNL Adobe Workfront] 관리자:에서 문서를 관리하도록 문서 통합을 구성할 수 있습니다. [!UICONTROL Workfront]. 다음을 구성할 수도 있습니다. [!UICONTROL Workfront] 문서가 document services 응용 프로그램에만 저장되고 에는 저장되지 않도록 [!UICONTROL Workfront] 그 자체. 자세한 내용은 [에서 문서 업데이트 및 연결 [!UICONTROL Workfront] 외부 클라우드 공급자에게](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#update-and-link-a-document-from-workfront-to-an-external-cloud-provider) 위치: [외부 애플리케이션에서 문서 연결](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+[!DNL Adobe Workfront] 관리자는 [!UICONTROL Workfront]에서 문서를 관리하도록 문서 통합을 구성할 수 있습니다. 문서가 문서 서비스 응용 프로그램에만 저장되고 [!UICONTROL Workfront] 자체에는 저장되지 않도록 [!UICONTROL Workfront]을(를) 구성할 수도 있습니다. 자세한 내용은 [외부 애플리케이션에서 문서 연결](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)에서 [[!UICONTROL Workfront]에서 외부 클라우드 공급자로 문서 업데이트 및 연결](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#update-and-link-a-document-from-workfront-to-an-external-cloud-provider)을 참조하십시오.
 
 >[!NOTE]
 >
->간의 열린 통신을 허용하려면 [!DNL Workfront Proof] 및 [!DNL Workfront] 서버에 특정 IP 주소를 허용 목록에 추가하다에 추가해야 할 수 있습니다. 자세한 내용은 [허용 목록에 추가하다 방화벽 구성](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+>[!DNL Workfront Proof]과(와) [!DNL Workfront] 서버 간 통신을 허용하려면 특정 IP 주소를 허용 목록에 추가하다에 추가해야 할 수 있습니다. 허용 목록에 추가하다 자세한 내용은 [방화벽 구성](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)을 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -51,12 +51,12 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>다음이어야 합니다: [!DNL Workfront] 관리자.</p> </td> 
+   <td> <p>[!DNL Workfront] 관리자여야 합니다.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -74,11 +74,11 @@ ht-degree: 1%
 
 * [!DNL Workfront Proof]
 
-  다음에서 증명 연결 [!DNL Workfront Proof] 을 사용하면 원래 내에서 만들어진 증명을 만들 수 있습니다. [!DNL Workfront Proof] 다음 범위 내에서 사용 가능 [!DNL Workfront]. 현재 플랜의 경우 [!UICONTROL Pro] [!DNL Workfront] 이 기능을 사용하려면 계획 이상이 필요합니다. 새 플랜의 경우 이 기능은 모든 플랜에서 사용할 수 있습니다. 사용 가능한 다양한 플랜에 대한 자세한 내용은 [Workfront 플랜](https://www.workfront.com/plans).
+  [!DNL Workfront Proof]에서 증명을 연결하면 원래 [!DNL Workfront Proof] 내에 만들어진 증명을 [!DNL Workfront] 내에서 사용할 수 있습니다. 현재 플랜의 경우 이 기능을 사용하려면 [!UICONTROL Pro] [!DNL Workfront] 플랜 이상이 필요합니다. 새 플랜의 경우 이 기능은 모든 플랜에서 사용할 수 있습니다. 사용 가능한 다양한 플랜에 대한 자세한 내용은 [Workfront 플랜](https://www.workfront.com/plans)을 참조하십시오.
 
 * [!DNL Microsoft SharePoint]
 
-  와 통합에 대한 자세한 내용 [!DNL SharePoint], 참조 [구성 [!DNL SharePoint] 통합](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md).
+  [!DNL SharePoint]과(와) 통합에 대한 자세한 내용은 [통합 구성 [!DNL SharePoint] 을(를) 참조하십시오](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md).
 
 * 타사 클라우드 문서 공급자:
 
@@ -94,26 +94,26 @@ ht-degree: 1%
 
   >[!TIP]
   >
-  >에 바로 업로드된 문서를 증명하고 승인하는 것과 동일한 방식으로 외부 클라우드 공급자에서 연결된 문서를 증명하고 승인할 수 있습니다 [!DNL Workfront].
+  >[!DNL Workfront]에 직접 업로드된 문서를 증명하고 승인하는 것과 같은 방식으로 외부 클라우드 공급자에서 연결된 문서를 증명하고 승인할 수 있습니다.
 
 * 기타 문서 공급자(사용자 지정 문서 통합을 통해).
 
-  현재 플랜의 경우 [!UICONTROL Pro] [!DNL Workfront] 이 기능을 사용하려면 계획 이상이 필요합니다. 새 플랜의 경우 이 기능은 모든 플랜에서 사용할 수 있습니다. 사용 가능한 다양한 플랜에 대한 자세한 내용은 [Workfront 플랜](https://www.workfront.com/plans).
+  현재 플랜의 경우 이 기능을 사용하려면 [!UICONTROL Pro] [!DNL Workfront] 플랜 이상이 필요합니다. 새 플랜의 경우 이 기능은 모든 플랜에서 사용할 수 있습니다. 사용 가능한 다양한 플랜에 대한 자세한 내용은 [Workfront 플랜](https://www.workfront.com/plans)을 참조하십시오.
 
-또한 다음을 향상시킬 수 있습니다 [!DNL Workfront] 기본 DAM(디지털 에셋 관리) 시스템 또는 타사 DAM 통합을 사용하여 경험을 문서화합니다. 사용자가 서비스에 연결하려면 관리자가 이러한 기능을 활성화해야 합니다. [!DNL Workfront] 계정입니다. Workfront DAM에 대한 자세한 내용은 [를 사용하여 문서 관리 [!DNL Adobe Workfront DAM]](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md).
+또한 기본 DAM(디지털 에셋 관리) 시스템 또는 타사 DAM 통합을 사용하여 [!DNL Workfront] 문서 환경을 개선할 수 있습니다. 사용자가 서비스를 [!DNL Workfront] 계정에 연결하려면 관리자가 이러한 기능을 사용하도록 설정해야 합니다. Workfront DAM에 대한 자세한 내용은 [다음을 사용하여 문서 관리 [!DNL Adobe Workfront DAM]](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md)를 참조하십시오.
 
 ## 문서 관리를 위한 통합 구성
 
 {{step-1-to-setup}}
 
-1. 왼쪽 패널에서 **[!UICONTROL 문서]** > **[!UICONTROL 클라우드 공급자].**
+1. 왼쪽 패널에서 **[!UICONTROL 문서]** > **[!UICONTROL 클라우드 공급자]**&#x200B;를 클릭합니다.
 
-1. (선택 사항) 가 아닌 문서 서비스 응용 프로그램에 저장된 문서에 [!DNL Workfront], 선택 **[!UICONTROL 사용자가 문서를 저장할 수 없도록 방지 [!DNL Workfront]].**
+1. (선택 사항) [!DNL Workfront]이(가) 아닌 문서 서비스 응용 프로그램에 문서를 저장하려면 **[!UICONTROL 사용자가 [!DNL Workfront]]에 문서를 저장하지 못하도록 합니다.**
 
 1. 활성화하고자 하는 통합을 선택합니다.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-과의 통합을 설정하는 경우 [!DNL Workfront DAM], 을 활성화할 수 있습니다. [!DNL Workfront] 문서에 메타데이터를 포함합니다. 메타데이터 매핑에 대한 자세한 내용은 [메타데이터 매핑 설정](../../administration-and-setup/configure-integrations/set-up-metadata-mapping.md).
+[!DNL Workfront DAM]과의 통합을 설정하는 경우 [!DNL Workfront]에서 문서에 메타데이터를 포함하도록 설정할 수 있습니다. 메타데이터 매핑에 대한 자세한 내용은 [메타데이터 매핑 설정](../../administration-and-setup/configure-integrations/set-up-metadata-mapping.md)을 참조하십시오.
 
 ## 사용자 정의 문서 통합 구성
 
@@ -121,17 +121,17 @@ ht-degree: 1%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ***DON'T DELETE, DRAFT OR HIDE THIS SECTION IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **)</p>
 -->
 
-사용자 정의 문서 통합은 [!DNL Workfront] 파일을 링크할 사용자 [!DNL Workfront] 실제로 모든 시스템에서 사용됩니다(시스템이 작동하는 경우). [!DNL Workfront].
+사용자 정의 문서 통합을 사용하면 [!DNL Workfront] 사용자가 [!DNL Workfront]과(와) 함께 작동하도록 만들어진 경우 실질적으로 모든 시스템에서 [!DNL Workfront]에 파일을 연결할 수 있습니다.
 
-사용자가 사용자 정의 통합을 사용할 수 있도록 하려면 먼저 통합을 빌드해야 합니다. 사용할 통합을 구축하는 방법에 대한 정보 [!DNL Workfront], 참조 [문서 웹후크 API](../../wf-api/doc-wbhks-api/docu-webhook-api.md).
+사용자가 사용자 정의 통합을 사용할 수 있도록 하려면 먼저 통합을 빌드해야 합니다. [!DNL Workfront]에 사용할 통합을 만드는 방법에 대한 자세한 내용은 [Document Webhooks API](../../wf-api/doc-wbhks-api/docu-webhook-api.md)를 참조하십시오.
 
 사용자 정의 문서 통합이 빌드되면 사이트의 사용자가 사용할 수 있도록 할 수 있습니다.
 
 {{step-1-to-setup}}
 
-1. 왼쪽 패널에서 **[!UICONTROL 문서]** > **[!UICONTROL 사용자 정의 통합]**.
+1. 왼쪽 패널에서 **[!UICONTROL 문서]** > **[!UICONTROL 사용자 지정 통합]**&#x200B;을 클릭합니다.
 
-1. 클릭 **[!UICONTROL 사용자 정의 통합 추가]**.
+1. **[!UICONTROL 사용자 지정 통합 추가]**&#x200B;를 클릭합니다.
 1. 다음 정보를 입력하여 통합을 구성합니다.
 
    <table style="table-layout:auto"> 
@@ -150,14 +150,14 @@ ht-degree: 1%
       <td role="rowheader">[!UICONTROL 인증 유형]</td> 
       <td> <p>사용자 지정 통합에 승인된 API를 호출할 때 사용할 인증 방법입니다.</p> 
        <ul> 
-        <li>다음을 선택하는 경우 <strong>[!UICONTROL OAuth]</strong>을 클릭하고 5단계를 계속 진행합니다.</li> 
-        <li>다음을 선택하는 경우 <strong>[!UICONTROL ApiKey]</strong>를 클릭하고 6단계를 계속합니다.</li> 
+        <li><strong>[!UICONTROL OAuth]</strong>을(를) 선택하는 경우 5단계를 계속합니다.</li> 
+        <li><strong>[!UICONTROL ApiKey]</strong>을(를) 선택하는 경우 6단계를 계속합니다.</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (조건부) (선택한 경우) **[!UICONTROL OAuth]** 인증 **[!UICONTROL 인증 유형]**&#x200B;를 클릭하고 다음 정보를 입력합니다.
+1. (조건부) **[!UICONTROL 인증 유형]**&#x200B;에 대해 **[!UICONTROL OAuth]** 인증을 선택한 경우 다음 정보를 입력하십시오.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -165,7 +165,7 @@ ht-degree: 1%
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL 인증 URL]</td> 
-      <td>사용자 인증에 사용되는 전체 URL. [!DNL Workfront] OAuth 프로비저닝 프로세스의 일부로 이 주소로 사용자를 탐색합니다.</td> 
+      <td>사용자 인증에 사용되는 전체 URL. [!DNL Workfront]은(는) OAuth 프로비저닝 프로세스의 일부로 이 주소로 사용자를 탐색합니다.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 토큰 끝점 URL]</td> 
@@ -181,71 +181,71 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 요청 매개 변수]</td> 
-      <td> <p>모든 API 호출의 쿼리 문자열에 추가할 선택적 값을 입력합니다. 예: access_type=offline.</p> <p>여러 요청 매개 변수를 추가하려면 <strong>+요청 매개 변수 추가</strong>.</p> </td> 
+      <td> <p>모든 API 호출의 쿼리 문자열에 추가할 선택적 값을 입력합니다. 예: access_type=offline.</p> <p>여러 요청 매개 변수를 추가하려면 <strong>+요청 매개 변수 추가</strong>를 클릭하십시오.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
    >[!TIP]
    >
-   >다음 [!DNL Workfront] 맨 아래에 표시되는 리디렉션 URI [!UICONTROL 사용자 정의 통합] 이 통합을 외부 문서 공급자에 등록하는 데 사용되는 URI가 페이지에 나열됩니다.
+   >[!UICONTROL 사용자 지정 통합] 페이지 하단에 표시되는 [!DNL Workfront] 리디렉션 URI에는 외부 문서 공급자에 이 통합을 등록하는 데 사용된 URI가 나열됩니다.
 
-1. (조건부) (선택한 경우) **[!UICONTROL ApiKey]** 인증 **[!UICONTROL 인증 유형]**&#x200B;사용자 정의 문서 공급자가 발급한 API 키를 입력합니다.
+1. (조건부) **[!UICONTROL 인증 유형]**&#x200B;에 대해 **[!UICONTROL ApiKey]** 인증을 선택한 경우 사용자 지정 문서 공급자가 발급한 API 키를 입력하십시오.
 
-   [!DNL Workfront] 은 이 API 키를 사용하여 문서 공급자에 대해 승인된 API를 호출합니다.
+   [!DNL Workfront]은(는) 이 API 키를 사용하여 문서 공급자에 대해 승인된 API를 호출합니다.
 
-1. 클릭 **[!UICONTROL 저장]** 을 클릭하여 통합을 생성합니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭하여 통합을 만듭니다.
 
 ## 문서 통합 사용
 
-를 사용하는 방법에 대한 자세한 내용 [!DNL Workfront DAM], 참조 [를 사용하여 문서 관리 [!DNL Adobe Workfront DAM]](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md).
+사용자가 [!DNL Workfront DAM]을(를) 사용할 수 있는 방법에 대한 자세한 내용은 [을(를) 사용하여 문서 관리 [!DNL Adobe Workfront DAM]](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md)를 참조하십시오.
 
-사용자가 증명을 사용할 수 있는 방법에 대한 자세한 내용은 [증명 만들기](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md).
+사용자가 증명을 사용하는 방법에 대한 자세한 내용은 [증명 만들기](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)를 참조하십시오.
 
-사용자가 서드파티 문서 통합을 구성한 후 이를 사용할 수 있는 방법에 대한 자세한 내용은 [외부 애플리케이션에서 문서 연결](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+사용자가 서드파티 문서 통합을 구성한 후 이를 사용할 수 있는 방법에 대한 자세한 내용은 [외부 응용 프로그램에서 문서 연결](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)을 참조하십시오.
 
-### 구성 [!DNL Workfront] 메타데이터를 보낼 대상 [!UICONTROL [!DNL Workfront] DAM] {#configure-workfront-to-send-metadata-to-workfront-dam}
+### [!UICONTROL [!DNL Workfront] DAM](으)로 메타데이터를 보내도록 [!DNL Workfront] 구성 {#configure-workfront-to-send-metadata-to-workfront-dam}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ***DON'T DELETE, DRAFT OR HIDE THIS SECTION IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **) </p>
 -->
 
-에서 문서를 보낼 때 [!DNL Workfront] 끝 [!DNL Workfront DAM]를 사용하여 해당 문서와 관련된 정보를 보낼 수도 있습니다. 문서에 대한 정보가 매핑됩니다. [!DNL Workfront DAM] 메타데이터로.
+[!DNL Workfront]에서 [!DNL Workfront DAM](으)로 문서를 보낼 때 해당 문서와 관련된 정보를 보낼 수도 있습니다. 문서에 대한 정보가 [!DNL Workfront DAM]에 메타데이터로 매핑되어 있습니다.
 
-정보는 다음 위치에서 한 방향으로만 매핑됩니다. [!DNL Workfront] 끝 [!DNL Workfront DAM] 그리고 문서를 (으)로 업로드할 때만 전송됩니다 [!DNL Workfront DAM]. Workfront 필드를 변경해도 의 메타데이터 필드는 업데이트되지 않습니다. [!DNL Workfront DAM] 문서가 이미 업로드된 후.\
-동일한 항목을 매핑할 수 있습니다 [!DNL Workfront] 다양한 분야 [!DNL Workfront DAM] 필드이지만 동일한 필드는 사용할 수 없습니다. [!DNL Workfront DAM] 다중 필드 [!DNL Workfront] 필드.
+정보는 [!DNL Workfront]에서 [!DNL Workfront DAM](으)로 단방향 매핑되며 문서가 [!DNL Workfront DAM](으)로 업로드될 때만 전송됩니다. 문서가 이미 업로드된 후에는 Workfront 필드를 변경해도 [!DNL Workfront DAM]의 메타데이터 필드가 업데이트되지 않습니다.\
+동일한 [!DNL Workfront] 필드를 다양한 [!DNL Workfront DAM] 필드에 매핑할 수 있지만 여러 [!DNL Workfront] 필드에 동일한 [!DNL Workfront DAM] 필드를 사용할 수는 없습니다.
 
-여러 을(를) 구성해야 하는 경우 [!DNL Workfront] 1로 내보낼 필드 [!DNL Workfront DAM] 필드, 먼저 계산된 사용자 정의 필드를 [!DNL Workfront] 을 눌러 객체의 모든 개별 사용자 정의 필드를 표시합니다. 그런 다음 계산된 지표를 매핑합니다 [!DNL Workfront] 필드 대 1 [!DNL Workfront DAM] 필드.\
-계산된 사용자 정의 필드에 대한 자세한 내용은 [사용자 정의 양식에 계산된 데이터 추가](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+여러 [!DNL Workfront] 필드를 구성하여 하나의 [!DNL Workfront DAM] 필드로 내보내야 하는 경우 먼저 [!DNL Workfront]에서 계산된 사용자 지정 필드를 만들어 개체의 모든 개별 사용자 지정 필드를 표시하십시오. 그런 다음 계산된 [!DNL Workfront] 필드를 하나의 [!DNL Workfront DAM] 필드에 매핑합니다.\
+계산된 사용자 정의 필드에 대한 자세한 내용은 [사용자 정의 양식에 계산된 데이터 추가](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)를 참조하십시오.
 
-매핑은 모든 사용자가 업로드한 모든 문서에 영향을 줍니다 [!DNL Workfront] 끝 [!UICONTROL Workfront] DAM.
+매핑은 [!DNL Workfront]에서 [!UICONTROL Workfront] DAM으로 사용자가 업로드한 모든 문서에 영향을 줍니다.
 
-로서의 [!DNL Workfront] 관리자, 다음을 활성화해야 합니다. [!DNL Workfront DAM] Workfront에서 메타데이터 매핑 프로세스에 대한 필드를 매핑할 수 있습니다.
+[!DNL Workfront] 관리자는 메타데이터 매핑 프로세스에 대한 필드를 매핑하려면 먼저 Workfront에서 [!DNL Workfront DAM]을(를) 활성화해야 합니다.
 
-구성하려면 [!DNL Workfront] 메타데이터를 보낼 대상 [!DNL Workfront DAM]:
+메타데이터를 [!DNL Workfront DAM](으)로 보내도록 [!DNL Workfront]을(를) 구성하려면:
 
 {{step-1-to-setup}}
 
-1. 클릭 **[!UICONTROL 문서]** > **[!UICONTROL 메타데이터 매핑]**.
+1. **[!UICONTROL 문서]** > **[!UICONTROL 메타데이터 매핑]**&#x200B;을 클릭합니다.
 
-1. 다음에서 **[!UICONTROL 매핑을 위한 소스 필드 선택]** 필드에서 매핑할 Workfront 필드의 이름을 입력하십시오. [!DNL Workfront DAM]를 클릭한 다음 목록에 표시되면 선택합니다.
-1. 다음에서 **[!UICONTROL 매핑할 대상 필드 선택]**&#x200B;를 선택하고 [!DNL Workfront DAM] 선택한 항목의 정보로 채울 필드 [!DNL Workfront] 필드.
+1. **[!UICONTROL 매핑을 위한 Source 필드 선택]** 필드에서 [!DNL Workfront DAM]에 매핑할 Workfront 필드의 이름을 입력한 다음 목록에 표시되면 선택합니다.
+1. **[!UICONTROL 매핑할 대상 필드 선택]**&#x200B;에서 선택한 [!DNL Workfront] 필드의 정보로 채울 [!DNL Workfront DAM] 필드를 선택합니다.
 
    >[!NOTE]
    >
-   > 모든 문서가 (으)로 전송됨 [!DNL Workfront DAM] 권한이 있는 사용자가 메타데이터가 [!DNL Workfront] 여기에 매핑된 필드, 업로드할 때 [!DNL Workfront DAM].
+   > 권한이 있는 사용자가 [!DNL Workfront DAM]에게 보낸 모든 문서는 [!DNL Workfront DAM]에 업로드할 때 여기에 매핑된 [!DNL Workfront] 필드로 메타데이터를 업데이트했습니다.
 
-1. 클릭 **[!UICONTROL 매핑 추가]**.
+1. **[!UICONTROL 매핑 추가]**&#x200B;를 클릭합니다.
 
-1. 계속 추가 [!UICONTROL Workfront] 필드 및 해당 [!DNL Workfront DAM] 필드.
+1. [!UICONTROL Workfront] 필드 및 해당 [!DNL Workfront DAM] 필드를 계속 추가합니다.
 
 ### 매핑된 필드 삭제
 
 {{step-1-to-setup}}
 
-1. 확장 **[!UICONTROL 문서]**&#x200B;을 클릭한 다음 을 클릭합니다 **[!UICONTROL 메타데이터 매핑]**.
+1. **[!UICONTROL 문서]**&#x200B;를 확장한 다음 **[!UICONTROL 메타데이터 매핑]**&#x200B;을 클릭합니다.
 
 1. 필드 목록에서 메타데이터 매핑에서 제거할 필드를 선택합니다.
-1. 클릭 **[!UICONTROL 삭제]**.
+1. **[!UICONTROL 삭제]**&#x200B;를 클릭합니다.
 
-   필드는 메타데이터 매핑에서 제거되고 필드에 포함된 정보는에 전송되지 않습니다. [!DNL Workfront DAM] 업로드한 문서를 사용합니다.
+   메타데이터 매핑에서 필드가 제거되며 이 필드에 포함된 정보는 업로드된 문서와 함께 [!DNL Workfront DAM](으)로 전송되지 않습니다.

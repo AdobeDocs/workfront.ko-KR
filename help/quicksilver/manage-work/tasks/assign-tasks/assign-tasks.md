@@ -18,11 +18,11 @@ ht-degree: 1%
 
 <!--remove the span class preview from everywhere but the Rate Card roles referencs must stay in yellow; replace the intro with preview and fast track only but not sure if with the link to third quarter release?!-->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리보기 환경 또는 빠른 릴리스를 활성화한 고객의 프로덕션 환경에서만 사용할 수 있습니다.</span>
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리 보기 환경이나 빠른 릴리스를 활성화한 고객의 프로덕션 환경에서만 사용할 수 있습니다.</span>
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 활성화 또는 비활성화](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>을 참조하세요.
 
-<span class="preview">현재 릴리스에 대한 자세한 내용은 [2024년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">현재 릴리스에 대한 자세한 내용은 [2024년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)를 참조하십시오.</span>
 
 작업을 사용자, 작업 역할 또는 팀에 할당하여 작업 완료를 담당하는 사람을 표시할 수 있습니다. 한 번에 두 개 이상의 리소스에 작업을 할당할 수 있습니다.
 
@@ -36,7 +36,7 @@ ht-degree: 1%
 >* 비활성화된 팀의 사용자를 활성 팀과 연결하고 작업 항목을 활성 팀에 재할당합니다.
 >
 
-작업에 할당된 사용자 수와 작업 소유자의 일정은 작업의 계획된 일자를 수정하여 프로젝트의 타임라인을 변경할 수 있습니다. 작업에 여러 사용자를 할당하면 어떤 영향이 있는지 알려면 다음을 참조하십시오. [작업 할당 수정 개요](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
+작업에 할당된 사용자 수와 작업 소유자의 일정은 작업의 계획된 일자를 수정하여 프로젝트의 타임라인을 변경할 수 있습니다. 작업에 여러 사용자를 할당하면 영향을 받는 방법에 대한 자세한 내용은 [작업 할당 수정 개요](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)를 참조하십시오.
 
 이 문서 외에도 작업 할당에 대한 자세한 내용은 다음 문서를 읽는 것이 좋습니다.
 
@@ -46,9 +46,9 @@ ht-degree: 1%
 * [고급 할당 만들기](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
 * [작업 목록에서 여러 사용자 할당 수정](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
 * [작업 편집](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
-* [프로젝트 계획 개요](../../../manage-work/projects/planning-a-project/plan-project.md)
+* [프로젝트 개요 계획](../../../manage-work/projects/planning-a-project/plan-project.md)
 * [작업 계획 완료 일자 개요](../../../manage-work/tasks/task-information/task-planned-completion-date.md)
-* [프로젝트 계획된 완료 일자 설정](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)
+* [프로젝트 계획 완료 일자 설정](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)
 * [시스템 전체 프로젝트 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)
 * [업무 균형자에서 작업 할당 개요](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 
@@ -106,11 +106,11 @@ ht-degree: 1%
    <td role="rowheader">액세스 수준 구성*</td> 
    <td> <p>프로젝트 및 작업에 대한 액세스 편집</p> <p>사용자에 대한 보기 또는 상위 액세스 권한</p> <p><b>메모</b>
 
-여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td>
+여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>작업에 대한 기여 또는 더 높은 권한</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>작업에 대한 Contribute 이상 권한</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -123,10 +123,10 @@ ht-degree: 1%
 
 작업 항목에 여러 리소스를 할당할 때 다음 사항을 고려하십시오.
 
-* 사용자는 프로필과 연결된 작업 역할을 두 개 이상 가질 수 있습니다. 사용자를 작업 역할과 연결하는 방법에 대한 자세한 내용은 [사용자 프로필 편집](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+* 사용자는 프로필과 연결된 작업 역할을 두 개 이상 가질 수 있습니다. 사용자를 작업 역할과 연결하는 방법에 대한 자세한 내용은 [사용자 프로필 편집](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)을 참조하십시오.
 
 * 작업 또는 문제에 두 명 이상의 사용자를 할당하면 선택한 첫 번째 사용자가 자동으로 작업 또는 문제의 소유자로 지정됩니다.
-이를 변경하는 방법에 대한 지침은 문서에서 기본 옵션으로 설정에 대한 정보를 참조하십시오 [고급 할당 만들기](create-advanced-assignments.md).
+이 변경 방법에 대한 지침은 [고급 할당 만들기](create-advanced-assignments.md) 문서에서 기본 만들기 옵션에 대한 정보를 참조하십시오.
 
 * 팀은 작업 또는 문제의 기본 피할당자가 될 수 없습니다. 사용자 또는 작업 역할만 작업 또는 문제에 대한 기본으로 지정할 수 있습니다.
 
@@ -151,7 +151,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
       <li>여러 개의 역할이 할당되고 이 중 하나 이상이 사용자의 다른 역할 중 하나와 일치하는 경우, 작업 또는 문제가 사용자에게 할당됩니다(일치하는 역할이 여러 개인 경우 임의로 역할 선택). 할당된 추가 역할도 함께 할당됩니다</li>
       <li>하나 이상의 작업 역할이 할당되고 사용자의 작업 역할과 일치하는 항목이 없으면 작업 또는 문제가 역할 또는 역할 및 사용자 모두에 할당됩니다.</li>
      </ul>
-   <p>사용자의 기본 역할 및 기타 역할에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">사용자 프로필 편집</a>.</p>
+   <p>사용자의 기본 역할 및 기타 역할에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">사용자 프로필 편집</a>을 참조하십시오.</p>
    </td> 
      </tr>
   </tbody>
@@ -174,7 +174,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 ## 단일 작업 할당
 
 1. 할당할 작업으로 이동합니다.
-1. 클릭 **할당 대상** 다음에서 **할당** 작업 헤더의 필드
+1. 작업 헤더의 **할당** 필드에서 **할당 대상**&#x200B;을 클릭합니다
 
    또는
 
@@ -183,7 +183,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
    프로덕션 환경에서:
    ![](../assign-tasks/assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
 
-   <span class="preview">미리보기 환경에서:</span>
+   <span class="preview">미리 보기 환경에서:</span>
    ![할당](assets/assignments-box-in-task-header.png)
 
 1. 다음 중 하나를 수행하십시오.
@@ -195,25 +195,25 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      >
      >사용자 할당을 추가할 때 아바타, 사용자의 기본 역할 또는 이메일 주소에 따라 이름이 동일한 사용자가 구분되는지 확인합니다. 사용자를 추가할 때 이를 보려면 사용자를 하나 이상의 작업 역할과 연결해야 합니다.
      >
-     >사용자의 이메일을 보려면 사용자의 액세스 수준에서 연락처 정보 보기 설정을 활성화해야 합니다. 자세한 내용은 [사용자에게 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+     >사용자의 이메일을 보려면 사용자의 액세스 수준에서 연락처 정보 보기 설정을 활성화해야 합니다. 자세한 내용은 [사용자에게 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)를 참조하십시오.
      >
-     ><span class="preview">작업 역할 할당을 추가할 때 작업 역할이나 위치를 검색할 수 있습니다. 발령에 대한 기본 청구 요율을 사용하려면 작업 역할 목록에서 역할을 선택하고, 요율 카드에서 청구 요율을 사용하려면 요율 카드 작업 역할을 선택합니다. 등급 카드에 대한 자세한 내용은 [등급 카드 관리](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
+     ><span class="preview">작업 역할 할당을 추가할 때 작업 역할이나 위치를 검색할 수 있습니다. 발령에 대한 기본 청구 요율을 사용하려면 작업 역할 목록에서 역할을 선택하고, 요율 카드에서 청구 요율을 사용하려면 요율 카드 작업 역할을 선택합니다. 등급 카드에 대한 자세한 내용은 [등급 카드 관리](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>를 참조하십시오.
 
 
-   * (조건부) <span class="preview">**제안된 할당**, **사용자 및 팀**, 또는 **작업 역할**, 또는 **카드 역할 평가**</span> 표시할 때 나열합니다. 자세한 내용은 [스마트 할당 개요](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+   * (조건부) 표시될 때 <span class="preview">**제안된 할당**, **사용자 및 팀**, **작업 역할** 또는 **카드 역할 비율**</span> 목록에 있는 이름 중 하나를 클릭합니다. 자세한 내용은 [스마트 할당 개요](../../../manage-work/tasks/assign-tasks/smart-assignments.md)를 참조하십시오.
 
      작업에 할당할 사용자, 팀 또는 작업 역할의 이름을 입력한 다음 목록에 표시될 때 선택할 수 있습니다.
 
-   * 클릭 **고급**
+   * **고급** 클릭
 
-     고급 할당 방법에 대한 자세한 내용은 다음을 참조하십시오. [고급 할당 만들기](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+     고급 할당 방법에 대한 자세한 내용은 [고급 할당 만들기](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)를 참조하십시오.
 
 1. **저장**&#x200B;을 클릭합니다.
-1. (선택 사항 및 조건부) **X 아이콘** 을 클릭한 경우 할당을 제거할 작업의 오른쪽 패널에 있는 할당 이름 옆에 있습니다 **고급**.
+1. (선택 사항 및 조건부) **고급**&#x200B;을 클릭한 경우 할당을 제거하려면 작업의 오른쪽 패널에서 할당 이름 옆에 있는 **X 아이콘**&#x200B;을 클릭합니다.
 
 ## 목록에서 작업 할당
 
-목록 보기에 할당 필드가 표시되면 목록이나 보고서에서 작업을 할당할 수 있습니다. 작업을 더 빠르게 할당할 수 있는 방법입니다. 이 문서에서는 목록의 한 작업에 대한 할당을 수정하는 방법에 대해 설명합니다. 목록의 복수 태스크에 대한 복수 지정을 수정하는 방법에 대한 자세한 내용은 [작업 목록에서 여러 사용자 할당 수정](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
+목록 보기에 할당 필드가 표시되면 목록이나 보고서에서 작업을 할당할 수 있습니다. 작업을 더 빠르게 할당할 수 있는 방법입니다. 이 문서에서는 목록의 한 작업에 대한 할당을 수정하는 방법에 대해 설명합니다. 목록의 여러 작업에 대한 여러 할당을 수정하는 방법에 대한 자세한 내용은 [작업 목록의 여러 사용자 할당 수정](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)을 참조하십시오.
 
 보기에 표시되는 필드에 따라 다음 엔티티를 작업에 할당할 수 있습니다.
 
@@ -234,78 +234,78 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
    | 수동 저장 | 변경 사항을 수동으로 저장해야 합니다. 저장하기 전에 변경 사항을 되돌릴 수 있습니다. |
    | 타임라인 계획 수립 | 변경 사항을 수동으로 저장해야 합니다. 저장하기 전에 변경 사항을 되돌릴 수 있습니다. 변경 사항 및 모든 프로젝트 종속성을 저장하는 것은 수동 저장을 선택하는 것보다 빠릅니다. |
 
-   목록에서 작업을 편집할 때 저장하는 방법에 대한 자세한 내용은 [목록에서 작업 편집](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
+   목록에서 작업을 편집할 때 저장하는 방법에 대한 자세한 내용은 [목록에서 작업 편집](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md)을 참조하십시오.
 
 1. 작업을 할당하려면 다음 중 하나를 수행합니다.
 
-   * 내부를 클릭합니다. **할당 대상** 또는 **할당됨** 필드에 작업에 지정할 활성 사용자의 이름을 입력한 다음 목록에 표시될 때 클릭합니다.
-   * 내부를 클릭합니다. **할당** 필드에 작업을 할당할 활성 사용자, 작업 역할 또는 팀의 이름을 입력한 다음 목록에 표시될 때 클릭합니다.
+   * **할당 대상** 또는 **할당 대상** 필드 내부를 클릭하고 작업에 할당할 활성 사용자 이름을 입력한 다음 목록에 표시될 때 클릭합니다.
+   * **할당** 필드 내부를 클릭하고 작업에 할당할 활성 사용자, 작업 역할 또는 팀의 이름을 입력한 다음 목록에 표시될 때 클릭합니다.
 
      >[!TIP]
      >
      >사용자 할당을 추가할 때 아바타, 사용자의 기본 역할 또는 이메일 주소에 따라 이름이 동일한 사용자가 구분되는지 확인합니다. 사용자를 추가할 때 이를 보려면 사용자를 하나 이상의 작업 역할과 연결해야 합니다.
      >
-     >사용자의 이메일을 보려면 사용자의 액세스 수준에서 연락처 정보 보기 설정을 활성화해야 합니다. 자세한 내용은 [사용자에게 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
+     >사용자의 이메일을 보려면 사용자의 액세스 수준에서 연락처 정보 보기 설정을 활성화해야 합니다. 자세한 내용은 [사용자에게 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)를 참조하십시오.
      >
-     ><span class="preview">작업 역할 할당을 추가할 때 작업 역할이나 위치를 검색할 수 있습니다. 발령에 대한 기본 청구 요율을 사용하려면 시스템/기본 작업 역할을 선택하고, 요율 카드에서 청구 요율을 사용하려면 요율 카드 작업 역할을 선택합니다. 등급 카드에 대한 자세한 내용은 [등급 카드 관리](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
+     ><span class="preview">작업 역할 할당을 추가할 때 작업 역할이나 위치를 검색할 수 있습니다. 발령에 대한 기본 청구 요율을 사용하려면 시스템/기본 작업 역할을 선택하고, 요율 카드에서 청구 요율을 사용하려면 요율 카드 작업 역할을 선택합니다. 등급 카드에 대한 자세한 내용은 [등급 카드 관리](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>를 참조하십시오.
 
 
-1. (조건부) 다음 위치에 표시될 때 **할당** 필드를 클릭하고 **사람** 아이콘 을 클릭하여 할당 상자의 오른쪽 위 모서리에 있는 **고급 할당** 상자를 표시하고 고급 할당을 만듭니다.
+1. (조건부) **할당** 필드에 표시되면 할당 상자의 오른쪽 위에 있는 **사람** 아이콘을 클릭하여 **고급 할당** 상자를 열고 고급 할당을 만듭니다.
 
    <!--
    there is a People icon in NWE but it's hard to see - you need to assign the task to at least 2 users, not roles, or teams, before it shows up</p>
    -->
 
-   자세한 내용은 [고급 할당 만들기](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+   자세한 내용은 [고급 할당 만들기](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)를 참조하십시오.
 
    >[!TIP]
    >
    >할당 대상 또는 할당 대상 필드에서 고급 할당을 수행할 수 없습니다.
 
-1. 자동 저장을 선택한 경우 작업에 피할당자를 추가한 후 Enter 키를 누르거나 페이지의 아무 곳이나 클릭하여 변경 사항을 저장합니다. 그렇지 않으면 **저장**.
+1. 자동 저장을 선택한 경우 작업에 피할당자를 추가한 후 Enter 키를 누르거나 페이지의 아무 곳이나 클릭하여 변경 사항을 저장합니다. 그렇지 않으면 **저장**&#x200B;을 클릭하세요.
 
 ## 사용자에게 여러 작업 할당
 
 1. 일괄 할당할 작업 목록으로 이동합니다.
-1. (조건부) 다음을 확인합니다. **자동 저장** 프로젝트 아래 작업 목록에 있는 경우 옵션이 선택됩니다.
+1. (조건부) 프로젝트 아래 작업 목록에 있는 경우 **자동 저장** 옵션이 선택되어 있는지 확인하십시오.
 
    >[!IMPORTANT]
    >
    >프로젝트에 작업을 수동으로 저장할 때 작업을 일괄적으로 편집할 수 없습니다.
 
 1. 작업 목록에서 여러 작업을 선택합니다.
-1. 클릭 **편집**.
+1. **편집**&#x200B;을 클릭합니다.
 
-   다음 **작업 편집** 대화 상자가 열립니다.
+   **작업 편집** 대화 상자가 열립니다.
 
-1. 다음에서 **할당** 영역을 선택하고 **할당자** 그런 다음 모든 작업에 지정할 사용자, 작업 역할 또는 팀의 이름을 입력하십시오.
+1. **할당** 영역에서 **할당자** 상자를 선택한 다음 모든 작업에 할당할 사용자, 작업 역할 또는 팀의 이름을 입력하세요.
 
    >[!IMPORTANT]
    >
    >작업이 이미 할당된 경우 여기에 표시하는 리소스는 작업에 있는 기존 리소스를 대체하는 대신 작업에 추가됩니다.
 
-1. (선택 사항) **작업 소유자** 열에 하나 이상의 자원을 작업에 지정할 때 기본 담당자 또는 작업 소유자인 자원을 나타냅니다. 이 기능은 팀에 사용할 수 없습니다.
-1. (조건부) **할당 %** 선택한 모든 태스크에 기간 유형이 투입 고정 또는 계산된 지정인 경우 태스크에 지정된 각 자원에 대해. 이는 이러한 리소스가 작업 완료에 소비해야 하는 시간을 나타냅니다. 사용자 및 작업 역할에만 사용할 수 있습니다.
+1. (선택 사항) 작업에 둘 이상의 리소스를 할당할 때 기본 피할당자 또는 작업 소유자인 리소스를 나타내려면 **작업 소유자** 열에서 라디오 단추를 선택합니다. 이 기능은 팀에 사용할 수 없습니다.
+1. (조건부) 선택한 모든 작업에 작업량 고정 또는 계산된 할당의 기간 유형이 있는 경우 작업에 할당된 각 리소스에 대해 **할당 %**&#x200B;을(를) 지정합니다. 이는 이러한 리소스가 작업 완료에 소비해야 하는 시간을 나타냅니다. 사용자 및 작업 역할에만 사용할 수 있습니다.
 
    또는
 
-   금액 지정 **시간** 선택한 모든 작업의 기간 유형이 단순인 경우 작업에 할당된 각 리소스에 대해. 모든 리소스에 대한 총 시간 은 작업에 대한 계획된 시간 수와 같아야 합니다.
+   선택한 모든 작업의 기간 유형이 단순인 경우 작업에 할당된 각 리소스에 대해 **시간**&#x200B;을(를) 지정하십시오. 모든 리소스에 대한 총 시간 은 작업에 대한 계획된 시간 수와 같아야 합니다.
 
    >[!IMPORTANT]
    >
    >선택한 작업에 다른 기간 유형이 있거나 선택한 작업에 다른 기간 유형이 있는 경우 자원당 할당 백분율 또는 시간 수를 지정할 수 없습니다.
 
-   작업의 기간 유형에 대한 자세한 내용은 을 참조하십시오 [작업 기간 및 기간 유형 개요](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+   작업의 기간 유형에 대한 자세한 내용은 [작업 기간 및 기간 유형 개요](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)를 참조하십시오.
 
-1. (선택 사항)에서 사용자가 작업에 대해 이행해야 하는 역할을 선택합니다. **역할 선택** 드롭다운 메뉴 **피할당자의 역할** 열을 사용하십시오. 역할을 선택하지 않으면 Workfront에서 자동으로 사용자의 기본 역할을 선택합니다.
+1. (선택 사항) 사용자를 작업에 할당할 때 **피할당자의 역할** 열의 **역할 선택** 드롭다운 메뉴에서 사용자가 작업에 대해 이행해야 하는 역할을 선택합니다. 역할을 선택하지 않으면 Workfront에서 자동으로 사용자의 기본 역할을 선택합니다.
 
 1. (선택 사항) 모든 작업에서 기존 피할당자를 제거하려면 다음 중 하나를 수행합니다.
 
-   1. 작업에서 제거할 사용자, 역할 또는 팀의 이름을 입력한 다음 목록에 표시될 때 선택하고 **피할당자 제거** 추가 피할당자를 제거합니다.
-   1. 클릭 **기존 할당자 모두 제거** 을 눌러 선택한 모든 작업에서 모든 피할당자를 제거합니다.
+   1. 작업에서 제거할 사용자, 역할 또는 팀의 이름을 입력한 다음 목록에 표시될 때 선택하고 **피할당자 제거**&#x200B;를 클릭하여 피할당자를 더 제거합니다.
+   1. 선택한 모든 작업에서 할당자를 모두 제거하려면 **기존 할당자 모두 제거**&#x200B;를 클릭하십시오.
 
 1. **변경 내용 저장**&#x200B;을 클릭합니다.
-1. (선택 사항 및 조건부) 할당 대상 또는 할당 필드가 작업 목록에 표시되면 작업에 대해 이러한 열 중 하나를 클릭한 다음 **X 아이콘** 피할당자 이름 옆에 있는 을 클릭하여 작업에서 제거합니다.
+1. (선택 사항 및 조건부) 할당 대상 또는 할당 필드가 작업 목록에 표시되면 작업에 대해 이러한 열 중 하나를 클릭한 다음 할당자의 이름 옆에 있는 **X 아이콘**&#x200B;을 클릭하여 작업에서 제거합니다.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

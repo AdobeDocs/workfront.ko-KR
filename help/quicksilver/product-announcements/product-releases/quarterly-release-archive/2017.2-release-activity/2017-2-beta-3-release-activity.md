@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: 2017.2 베타 3 릴리스 활동
-description: 이 페이지에서는 2017.2 베타 2 릴리스의 미리보기 환경에서 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 페이지의 기능은 2017년 5월 24일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2017년 7월 말에서 8월 초에 제공될 예정입니다.
+title: 2017.2 Beta 3 릴리스 활동
+description: 이 페이지에서는 2017.2 Beta 2 릴리스의 미리보기 환경에서 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 페이지의 기능은 2017년 5월 24일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2017년 7월 말에서 8월 초에 제공될 예정입니다.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,19 +14,19 @@ ht-degree: 0%
 
 ---
 
-# 2017.2 베타 3 릴리스 활동
+# 2017.2 Beta 3 릴리스 활동
 
-이 페이지에서는 2017.2 베타 2 릴리스의 미리보기 환경에서 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 페이지의 기능은 2017년 5월 24일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2017년 7월 말에서 8월 초에 제공될 예정입니다.
+이 페이지에서는 2017.2 Beta 2 릴리스의 미리보기 환경에서 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 페이지의 기능은 2017년 5월 24일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2017년 7월 말에서 8월 초에 제공될 예정입니다.
 
 >[!IMPORTANT]
 >
 >이 페이지에 설명된 기능은 프로덕션 환경에서 사용하기 전에 변경될 수 있습니다.
 
-2017.2의 모든 변경 사항 목록은 다음을 참조하십시오. [2017.2 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md).
+2017.2의 모든 변경 사항 목록은 [2017.2 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md)를 참조하십시오.
 
-2017.2 베타 2 릴리스에는 Workfront 관리자와 기타 사용자 모두를 위한 개선 사항이 포함되어 있습니다.
+2017.2 Beta 2 릴리스에는 Workfront 관리자와 기타 사용자를 위한 개선 사항이 포함되어 있습니다.
 
-**관리자의 경우:**
+**관리자용:**
 
 * [휴지통에서 항목을 대량으로 복원](#restoring-items-in-bulk-from-the-recycle-bin)
 * [사용자 정보가 Workfront에서 ProofHQ(ProofHQ 및 Workfront)로 동기화됨](#user-information-is-synchronized-from-workfront-to-proofhq-proofhq-and-workfront)
@@ -36,11 +36,11 @@ ht-degree: 0%
 * [구독한 사용자 보기](#view-subscribed-users)
 * [간트 차트에 마일스톤을 표시하는 방법 구성](#configure-how-milestones-are-displayed-on-the-gantt-chart)
 * [PDF으로 내보낼 때 간트 차트 범례 포함](#include-the-gantt-chart-legend-when-exporting-to-pdf)
-* [내 작업 영역에서 증명 승인 보기(Workfront)](#view-proof-approvals-in-the-my-work-area-workfront)
+* [내 작업 영역(Workfront)에서 증명 승인 보기](#view-proof-approvals-in-the-my-work-area-workfront)
 * [내 작업 영역(Workfront)에서 증명 승인 요청의 주소를 지정할 때 사용자 이름 보기](#view-user-names-when-addressing-proofing-approval-requests-from-the-my-work-area-workfront)
 * [비디오 증명에 대한 증명 뷰어 개선(ProofHQ 및 Workfront)](#improved-proofing-viewer-for-video-proofs-proofhq-and-workfront)
 * [대체 해상도로 리치 미디어 증명 보기(ProofHQ 및 Workfront)](#view-rich-media-proofs-in-alternate-resolutions-proofhq-and-workfront)
-* [문서 버전 보고서의 새 &#39;증명 작성자&#39; 개체(Workfront)](#new-proof-creator-object-in-document-version-report-workfront)
+* [문서 버전 보고서(Workfront)의 새 &#39;증명 작성자&#39; 개체](#new-proof-creator-object-in-document-version-report-workfront)
 * [새 리소스 풀 기능이 미리 보기에서 일시적으로 제거됨](#new-resource-pool-functionality-temporarily-removed-from-preview)
 
 ## 휴지통에서 항목을 대량으로 복원 {#restoring-items-in-bulk-from-the-recycle-bin}
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 이 변경 이전에는 한 번에 하나의 삭제된 항목만 복원할 수 있었습니다.
 
-항목 복원에 대한 자세한 내용은 [삭제된 항목 복원](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+항목 복원에 대한 자세한 내용은 [삭제된 항목 복원](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)을 참조하세요.
 
 ## 구독한 사용자 보기 {#view-subscribed-users}
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 이 개선 이전에는 항목을 구독하는 사용자를 볼 수 없었습니다.
 
-항목 구독에 대한 자세한 내용은 [Adobe Workfront에서 항목 구독](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md). 
+항목 구독에 대한 자세한 내용은 [Adobe Workfront에서 항목 구독](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)을 참조하세요. 
 
 ## 간트 차트에 마일스톤을 표시하는 방법 구성 {#configure-how-milestones-are-displayed-on-the-gantt-chart}
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 이 변경 이전에는 간트 차트에 &quot;마일스톤&quot;이라는 마일스톤을 표시할 수 있는 옵션이 하나만 있었습니다. 이 옵션을 사용하면 마일스톤 다이아몬드 아이콘과 마일스톤 라인이 모두 활성화됩니다. 이러한 지표는 분리할 수 없습니다.
 
-간트 차트에 정보가 표시되는 방식을 구성하는 방법에 대한 자세한 내용은 [간트 차트에 정보가 표시되는 방식 구성](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
+간트 차트에 정보가 표시되는 방식을 구성하는 방법에 대한 자세한 내용은 [간트 차트에 정보가 표시되는 방식 구성](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md)을 참조하십시오.
 
 ## PDF으로 내보낼 때 간트 차트 범례 포함 {#include-the-gantt-chart-legend-when-exporting-to-pdf}
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 이 변경 이전에는 내보낸 PDF에서 범례를 제외할 수 없었고, 범례에는 간트의 사용 여부와 관계없이 가능한 모든 옵션과 마커가 포함되어 있었습니다.
 
-간트 차트 내보내기에 대한 자세한 내용은 [간트 차트를 PDF으로 내보내기](../../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md).
+간트 차트 내보내기에 대한 자세한 내용은 [PDF으로 간트 차트 내보내기](../../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)를 참조하십시오.
 
 ## 사용자 정보가 Workfront에서 ProofHQ(ProofHQ 및 Workfront)로 동기화됨 {#user-information-is-synchronized-from-workfront-to-proofhq-proofhq-and-workfront}
 
@@ -101,13 +101,13 @@ Workfront에서 ProofHQ로의 사용자 동기화에 대한 자세한 내용은 
 >
 > 이 정보는 이 기능이 각 미리보기 또는 프로덕션 환경에 처음 도입된 시점부터 보고서에서만 사용할 수 있습니다. 이 기능이 도입되기 전의 요청자 오브젝트와 관련된 보고서에 있는 정보는 사용할 수 없습니다.
 
-에 설명된 대로 문서 버전 보고서를 만들 때 증명 작성자 개체에 액세스합니다 [사용자 지정 보고서 만들기](../../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+[사용자 지정 보고서 만들기](../../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)에 설명된 대로 문서 버전 보고서를 만들 때 증명 작성자 개체에 액세스합니다.
 
-Document Version 개체 보고서에 대한 자세한 내용은 [Adobe Workfront의 오브젝트 이해](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) 의 섹션 [Adobe Workfront의 오브젝트 이해](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+문서 버전 개체 보고서에 대한 자세한 내용은 [Adobe Workfront의 개체 이해](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)의 [Adobe Workfront의 개체 이해](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) 섹션을 참조하십시오.
 
 ## 내 작업 영역에서 증명 승인 보기(Workfront) {#view-proof-approvals-in-the-my-work-area-workfront}
 
-승인을 위해 제출한 모든 증명 승인이 이제 내 작업 영역의 **승인을 위해 제출한 작업** 탭.
+승인을 위해 제출한 모든 증명 승인이 이제 내 작업 영역의 **승인을 위해 제출한 작업** 탭에 표시됩니다.
 
 이 변경 이전에는 **승인을 위해 제출한 작업** 탭에 증명 승인이 포함되지 않았습니다.
 
@@ -117,13 +117,13 @@ Document Version 개체 보고서에 대한 자세한 내용은 [Adobe Workfront
 * 승인 프로세스는 허가된 Workfront 사용자인 사용자에게 할당됩니다(허가된 Workfront 사용자가 아닌 사용자에게 할당된 승인 프로세스는 표시되지 않음)
 * 이 기능이 릴리스된 후 승인 프로세스가 시작되었습니다(이 기능이 릴리스되기 전에 조정된 승인 프로세스는 표시되지 않음).
 
-자세한 내용은 [승인 보기](../../../../review-and-approve-work/manage-approvals/view-approvals.md) 위치: [승인 보기](../../../../review-and-approve-work/manage-approvals/view-approvals.md).
+자세한 내용은 [승인 보기](../../../../review-and-approve-work/manage-approvals/view-approvals.md)에서 [승인 보기](../../../../review-and-approve-work/manage-approvals/view-approvals.md)를 참조하십시오.
 
 ## 내 작업 영역(Workfront)에서 증명 승인 요청의 주소를 지정할 때 사용자 이름 보기 {#view-user-names-when-addressing-proofing-approval-requests-from-the-my-work-area-workfront}
 
 이제 내 작업 영역에서 증명 승인을 승인할 때 승인을 요청한 사용자의 이름이 표시됩니다.
 
-자세한 내용은 [작업 승인](../../../../review-and-approve-work/manage-approvals/approving-work.md) 위치: [작업 승인](../../../../review-and-approve-work/manage-approvals/approving-work.md). 
+자세한 내용은 [작업 승인](../../../../review-and-approve-work/manage-approvals/approving-work.md)에서 [작업 승인](../../../../review-and-approve-work/manage-approvals/approving-work.md)을 참조하세요. 
 
 ## 비디오 증명에 대한 증명 뷰어 개선(ProofHQ 및 Workfront) {#improved-proofing-viewer-for-video-proofs-proofhq-and-workfront}
 
@@ -145,11 +145,11 @@ Workfront 및 ProofHQ의 증명 뷰어가 새로운 모양과 느낌, 향상된 
 
 * ProofHQ 미리보기 환경
 
-  ProofHQ 미리보기 환경에 대한 자세한 내용은 [샌드박스 테스트 환경 미리보기 - Workfront Proof](../../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md).
+  ProofHQ 미리 보기 환경에 대한 자세한 내용은 [미리 보기 샌드박스 테스트 환경- Workfront Proof](../../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md)을 참조하십시오.
 
 * Workfront 미리보기 환경(계정이 교정을 통해 활성화된 경우)
 
-  Workfront 미리보기 환경에 대한 자세한 내용은  [Adobe Workfront 미리보기 샌드박스 환경](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+  Workfront 미리보기 환경에 대한 자세한 내용은  [Adobe Workfront 미리 보기 샌드박스 환경](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
 이 릴리스에서는 새 증명 뷰어가 비디오 증명만 지원합니다. 즉, 모든 비디오 증명은 새 증명 뷰어를 활용하는 반면, 모든 정적 및 리치 미디어 증명은 기존 증명 뷰어를 계속 활용합니다.
 
@@ -167,7 +167,7 @@ Workfront 및 ProofHQ의 증명 뷰어가 새로운 모양과 느낌, 향상된 
 
 비교 모드를 사용하여 다양한 증명 해상도를 비교할 수 있습니다.
 
-자세한 내용은 [Desktop Proofing Viewer에서 증명 열기](../../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/open-proofs-in-dpv.md). 
+자세한 내용은 [데스크톱 증명 뷰어에서 증명 열기](../../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/open-proofs-in-dpv.md)를 참조하십시오. 
 
 ## 새 리소스 풀 기능이 미리 보기에서 일시적으로 제거됨 {#new-resource-pool-functionality-temporarily-removed-from-preview}
 

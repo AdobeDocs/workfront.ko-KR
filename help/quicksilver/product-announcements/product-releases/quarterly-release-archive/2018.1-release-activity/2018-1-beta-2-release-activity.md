@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: 2018.1 베타 2 릴리스 활동
-description: 이 페이지에서는 2018.1 베타 2 릴리스의 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 페이지의 기능은 2017년 12월 14일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2018년 3월에 사용할 수 있습니다.
+title: 2018.1 Beta 2 릴리스 활동
+description: 이 페이지에서는 2018.1 Beta 2 릴리스의 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 페이지의 기능은 2017년 12월 14일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2018년 3월에 사용할 수 있습니다.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,9 +14,9 @@ ht-degree: 2%
 
 ---
 
-# 2018.1 베타 2 릴리스 활동
+# 2018.1 Beta 2 릴리스 활동
 
-이 페이지에서는 2018.1 베타 2 릴리스의 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 페이지의 기능은 2017년 12월 14일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2018년 3월에 사용할 수 있습니다.
+이 페이지에서는 2018.1 Beta 2 릴리스의 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 페이지의 기능은 2017년 12월 14일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2018년 3월에 사용할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -24,18 +24,18 @@ ht-degree: 2%
 
 2018.1의 모든 변경 사항 목록은 다음을 참조하십시오.  [2018.1 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
 
-2018.1 베타 2 릴리스에는 Workfront 관리자와 기타 사용자 모두를 위한 개선 사항이 포함되어 있습니다.
+2018.1 Beta 2 릴리스에는 Workfront 관리자와 기타 사용자 모두를 위한 개선 사항이 포함되어 있습니다.
 
-**관리자용**
+관리자용 **1}**
 
 * [사용자 및 레이아웃 템플릿을 위한 그룹 관리](#group-administration-for-users-and-layout-templates)
 
 **모든 사용자용**
 
-* [시스템 와이드스크린 디스플레이](#system-wide-widescreen-display)
-* [간트 차트에서 타임라인 스냅샷 크기 조정](#resize-timeline-snapshot-on-the-gantt-chart)
-* [비즈니스 사례의 대화형 리소스 플래너](#interactive-resource-planner-in-the-business-case)
-* [리소스 플래너 - 사용자 할당 차트의 시각화](#visualization-in-the-resource-planner-user-allocation-chart)
+* [시스템 전체 와이드스크린 디스플레이](#system-wide-widescreen-display)
+* [간트 차트에서 타임라인 스냅숏 크기 조정](#resize-timeline-snapshot-on-the-gantt-chart)
+* 비즈니스 사례의 [대화형 리소스 플래너](#interactive-resource-planner-in-the-business-case)
+* [리소스 플래너의 시각화 - 사용자 할당 차트](#visualization-in-the-resource-planner-user-allocation-chart)
 * [홈 영역의 개선 사항](#improvements-in-the-home-area)
 * [새 증명 뷰어 개선 사항](#new-proofing-viewer-improvements) 
 
@@ -43,12 +43,12 @@ ht-degree: 2%
 
 이제 Workfront에서 그룹 관리자를 지정할 수 있습니다. 그룹 소유자 필드의 이름이 그룹 관리자로 변경되었으며 그룹 관리자로 지정된 사용자에게는 자신이 관리하는 그룹의 사용자 및 레이아웃 템플릿을 관리할 수 있는 추가 권한이 있습니다.
 
-* [그룹 관리자별 사용자 관리](#user-management-by-group-administrator)
+* [그룹 관리자의 사용자 관리](#user-management-by-group-administrator)
 * [그룹 관리자별 레이아웃 템플릿 관리](#layout-template-management-by-group-administrators)
 
 ### 그룹 관리자별 사용자 관리 {#user-management-by-group-administrator}
 
-다음의 새로운 개념을 소개합니다. **그룹 관리자**. 이를 지원하려면 **그룹 소유자** 필드 이름이 (으)로 바뀌었습니다. **그룹 관리자** 그룹 관리자로 지정된 사용자는 사용자와 그룹을 관리할 수 있는 추가 권한이 있습니다.
+**그룹 관리자**&#x200B;의 새로운 개념을 소개합니다. 이를 지원하기 위해 **그룹 소유자** 필드의 이름이 **그룹 관리자**(으)로 변경되었으며 그룹 관리자로 지정된 사용자에게는 사용자 및 그룹을 관리할 수 있는 추가 권한이 있습니다.
 
 그룹 관리자는 그룹 소유자가 이전에 사용자를 관리해야 했던 권한 외에도 그룹 관리자로 설정된 그룹 내에서 사용자를 관리할 때 다음과 같은 추가 액세스 권한을 갖습니다.
 
@@ -58,11 +58,11 @@ ht-degree: 2%
 
 이 변경 이전에는 Workfront 관리자만 이러한 기능을 수행할 수 있었습니다.
 
-그룹 관리자에 대한 자세한 내용은 의 &quot;그룹 관리자 이해&quot; 섹션을 참조하십시오. [그룹 만들기](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+그룹 관리자에 대한 자세한 내용은 [그룹 만들기](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)의 &quot;그룹 관리자 이해&quot; 섹션을 참조하십시오.
 
 ### 그룹 관리자별 레이아웃 템플릿 관리 {#layout-template-management-by-group-administrators}
 
-다음의 새로운 개념을 소개합니다. **관리 액세스 권한이 있는 그룹** 레이아웃 템플릿과 연결할 수 있습니다.
+레이아웃 템플릿과 연결할 수 있는 **관리 액세스 권한이 있는 그룹**&#x200B;의 새로운 개념을 소개합니다.
 
 이 그룹에서 그룹 관리자로 지정된 사용자는 해당 레이아웃 템플릿을 관리하고 새 레이아웃 템플릿을 만들 수 있는 액세스 권한을 가집니다. 여기서 관리하는 그룹은 템플릿의 관리 그룹입니다. 
 
@@ -89,7 +89,7 @@ ht-degree: 2%
 
 이 기능이 향상되기 전에는 타임라인 스냅샷에서 특정 지점을 선택하여 간트 차트에서 해당 지점으로 이동할 수 있었습니다.
 
-간트 차트에 정보가 표시되는 방식을 구성하는 방법에 대한 자세한 내용은 [간트 차트에 정보가 표시되는 방식 구성](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
+간트 차트에 정보가 표시되는 방식을 구성하는 방법에 대한 자세한 내용은 [간트 차트에 정보가 표시되는 방식 구성](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md)을 참조하십시오.
 
 ## 비즈니스 사례의 대화형 리소스 플래너 {#interactive-resource-planner-in-the-business-case}
 
@@ -97,11 +97,11 @@ ht-degree: 2%
 
 이 변경 이전에는 프로젝트가 글로벌 리소스 플래너의 리소스에 대해 예산이 책정된 경우 비즈니스 사례에서 리소스 예산 책정 정보를 볼 수 있었습니다.
 
-비즈니스 사례에서 프로젝트 리소스 예산 책정을 완료하는 방법에 대한 자세한 내용은 [비즈니스 사례의 예산 리소스](../../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+비즈니스 사례에서 프로젝트 리소스 예산 책정을 완료하는 방법에 대한 자세한 내용은 [비즈니스 사례의 리소스 예산](../../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)을 참조하십시오.
 
 ## 리소스 플래너 - 사용자 할당 차트의 시각화 {#visualization-in-the-resource-planner-user-allocation-chart}
 
-이제 리소스 플래너의 차트에 가용성에 대한 모든 사용자의 전체 계획된 할당을 표시할 수 있습니다. 이 차트는 다음을 선택하면 사용할 수 있습니다. **사용자별 보기** 리소스 플래너에서.
+이제 리소스 플래너의 차트에 가용성에 대한 모든 사용자의 전체 계획된 할당을 표시할 수 있습니다. 리소스 플래너에서 **사용자별 보기**&#x200B;를 선택하면 차트를 사용할 수 있습니다.
 
 이 차트에는 다음 정보가 표시됩니다.
 
@@ -112,7 +112,7 @@ ht-degree: 2%
 
 이 변경 이전에는 테이블 형식으로만 개별 사용자의 할당 및 가용성을 볼 수 있었습니다.
 
-리소스 플래너의 사용자 할당 차트에 대한 자세한 내용은 [리소스 플래너 개요](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+리소스 플래너의 사용자 할당 차트에 대한 자세한 내용은 [리소스 플래너 개요](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md)를 참조하십시오.
 
 ## 홈 영역의 개선 사항 {#improvements-in-the-home-area}
 
@@ -130,26 +130,26 @@ ht-degree: 2%
 
 * 요청에 대해 &quot;처리 중&quot;을 클릭하면 문제와 관련된 필드가 오른쪽 패널에 표시됩니다.
 
-  홈 영역의 요청 작업에 대한 자세한 내용은 [홈 영역에서 작업 및 팀 요청 관리](../../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md) 위치: [홈 영역에서 작업 및 팀 요청 관리](../../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md).
+  홈 영역의 요청에 대한 작업에 대한 자세한 내용은 [홈 영역의 작업 및 팀 요청 관리](../../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)에서 [홈 영역의 작업 및 팀 요청 관리](../../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)를 참조하십시오.
 
 * 왼쪽 패널의 작업 항목에서 사용자 아바타를 가리켜 사용자의 이름을 봅니다.
 * 왼쪽 패널의 &quot;지연&quot; 영역을 확장하여 모든 지연 항목을 표시합니다(이 영역이 축소되면 처음 5개 항목만 표시됨).
 * 항목을 완료로 표시하면 다른 항목을 선택할 때까지 항목이 왼쪽 패널에 유지됩니다.\
-  완료된 항목 표시에 대한 자세한 내용은 [홈 영역의 작업 목록에 항목 표시](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md) 위치: [홈 영역의 작업 목록에 항목 표시](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+  완료된 항목을 표시하는 방법에 대한 자세한 내용은 [홈 영역의 작업 목록에 항목 표시](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)의 [홈 영역의 작업 목록에 항목 표시](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)를 참조하십시오.
 
-새 홈 영역 사용에 대한 자세한 내용과 내 작업과 홈 간의 기능 차이를 설명하는 정보는 을 참조하십시오. [홈 영역 사용](../../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+새 홈 영역 사용에 대한 자세한 정보와 내 작업과 홈 간의 기능 차이를 설명하는 정보는 [홈 영역 사용](../../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)을 참조하십시오.
 
 ## 새 증명 뷰어 개선 사항  {#new-proofing-viewer-improvements}
 
 * [향상된 레이아웃 및 디자인](#improved-layout-and-design)
 * [댓글 번호로 댓글 검색](#search-comments-by-comment-number)
-* [마크업 표시기 옆에 있는 주석 편집 옵션](#option-to-edit-comment-next-to-the-markup-indicator)
-* [모든 주석을 읽은 상태로 표시](#mark-all-comments-as-read)
+* [태그 표시기 옆에 있는 주석을 편집하는 옵션](#option-to-edit-comment-next-to-the-markup-indicator)
+* [모든 댓글을 읽은 상태로 표시](#mark-all-comments-as-read)
 * [왼쪽 메뉴 개선 사항](#left-menu-improvements)
 
 ### 향상된 레이아웃 및 디자인 {#improved-layout-and-design}
 
-증명 뷰어의 모양과 느낌이 업데이트되었습니다. 증명 뷰어의 다음 영역이 업데이트되었습니다.
+증명 뷰어의 모양과 느낌이 업데이트되었습니다. 다음  증명 뷰어의 다음 영역이 업데이트되었습니다.
 
 * 썸네일 영역
 

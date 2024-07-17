@@ -31,13 +31,13 @@ ht-degree: 0%
 * 프로젝트 상태 수동 업데이트: 프로젝트의 완료 모드가 수동으로 설정되어 있고 프로젝트의 상태를 완료로 수동으로 변경하면 프로젝트의 실제 완료 일자가 마지막으로 완료된 작업의 날짜 및 시간으로 업데이트됩니다.
 * 자동으로, 프로젝트의 마지막 작업이 완료될 때: 프로젝트의 완료 모드가 자동으로 설정되어 있고 마지막 작업을 완료로 표시하거나 마지막 작업의 실제 완료 일자를 갱신할 경우 프로젝트의 실제 완료 일자도 해당 일자로 업데이트됩니다.
 
-  프로젝트의 완료 모드 설정에 대한 자세한 내용은 문서를 참조하십시오 [프로젝트 편집](../../../manage-work/projects/manage-projects/edit-projects.md).
+  프로젝트의 완료 모드 설정에 대한 자세한 내용은 문서 [프로젝트 편집](../../../manage-work/projects/manage-projects/edit-projects.md)을 참조하세요.
 
   >[!NOTE]
   >
   >Workfront은 마지막으로 완료된 프로젝트 작업의 실제 완료 일자를 전체 프로젝트의 실제 완료 일자로 사용합니다.
 
-Workfront 또는 그룹 관리자는 작업 또는 문제가 완료 또는 마감으로 설정된 경우 Workfront에서 오늘 일자를 사용할지 또는 계획된 완료 일자를 사용할지 여부를 결정합니다. 작업 및 문제 환경 설정 지정에 대한 자세한 내용은 [시스템 전체 작업 및 문제 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Workfront 또는 그룹 관리자는 작업 또는 문제가 완료 또는 마감으로 설정된 경우 Workfront에서 오늘 일자를 사용할지 또는 계획된 완료 일자를 사용할지 여부를 결정합니다. 작업 및 문제 환경 설정 지정에 대한 자세한 내용은 [시스템 전체 작업 및 문제 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)을 참조하십시오.
 
 <!--this statement is confusing, not sure what it is referring to, so I am drafting this for now: The value for the Actual Completion Date is always what is considered the current date and time.-->
 
@@ -52,4 +52,4 @@ Workfront 또는 그룹 관리자는 작업 또는 문제가 완료 또는 마�
 * 시스템 업데이트로 프로젝트, 작업 및 문제 업데이트 영역.
 * 프로젝트, 작업 또는 문제 목록이나 보고서.
 
-보고서 만들기에 대한 자세한 내용은 문서 를 참조하십시오 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+보고서 만들기에 대한 자세한 내용은 문서 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)를 참조하세요.

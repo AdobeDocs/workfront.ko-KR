@@ -22,7 +22,7 @@ ht-degree: 3%
 
 * [Adobe Workfront의 사용자 지정 브랜딩](../../administration-and-setup/customize-workfront/brand-workfront/brand-workfront.md)
 * [레이아웃 템플릿](../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md)
-* [사용자 정의 양식: 문서 색인](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
+* [사용자 정의 양식: 문서 인덱스](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
 * [상태 및 우선 순위 레이블](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-custom-status-and-priority-labels.md)
 * [승인 프로세스 및 마일스톤 경로](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/config-approval-milestone-paths.md)
 * [사용자 지정 조건](../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)

@@ -9,7 +9,7 @@ feature: Reports and Dashboards
 exl-id: 6d053968-1578-4c20-b2a7-43634481696f
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,8 @@ ht-degree: 0%
 
 브라우저의 확대/축소 수준 변경은 사용 중인 브라우저에 따라 다릅니다.
 
-Google Chrome에서 확대/축소 수준을 변경하려면:
+Google Chrome에서 확대/축소 레벨을 변경하려면:
 
-1. 브라우저 창에서 다음 위치로 이동합니다. **보기**.
-1. 클릭 **확대** 를 클릭하여 현재 브라우저 창의 확대/축소 레벨을 줄입니다.\
+1. 브라우저 창에서 **보기**(으)로 이동합니다.
+1. 현재 브라우저 창의 확대/축소 수준을 줄이려면 **확대**&#x200B;를 클릭하십시오.\
    브라우저의 표시 영역이 줄어듭니다.

@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: 타임시트 및 시간 환경 설정 구성
-description: (으)로 [!DNL Adobe Workfront] 관리자는에서 타임시트 및 시간에 대한 환경 설정을 지정할 수 있습니다. [!DNL Workfront] 타임시트가 미리 채울 수 있는 항목과 사용자가 시간을 기록할 수 있는 항목을 정의하기 위한 것입니다.
+description: ' [!DNL Adobe Workfront] 관리자는  [!DNL Workfront] 에서 타임시트 및 시간에 대한 환경 설정을 지정하여 타임시트가 미리 채울 수 있는 항목과 사용자가 시간을 기록할 수 있는 항목을 정의할 수 있습니다.'
 author: Alina and Lisa
 feature: System Setup and Administration
 role: Admin
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-(으)로 [!DNL Adobe Workfront] 관리자는에서 타임시트 및 시간에 대한 환경 설정을 지정할 수 있습니다. [!DNL Workfront] 타임시트가 미리 채울 수 있는 항목과 사용자가 시간을 기록할 수 있는 항목을 정의하기 위한 것입니다.
+[!DNL Adobe Workfront] 관리자는 타임시트가 미리 채울 수 있는 항목과 사용자가 시간을 기록할 수 있는 항목을 정의하기 위해 [!DNL Workfront]에서 타임시트 및 시간에 대한 환경 설정을 지정할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -31,7 +31,7 @@ ht-degree: 0%
 >* 타임시트에 고정된 항목
 >* 검색하고 타임시트에 수동으로 추가하는 항목입니다. 수동으로 추가된 항목은 기본적으로 고정됩니다.
 >
->자세한 내용은 [로그 시간](../../../timesheets/create-and-manage-timesheets/log-time.md) 및 [타임시트 개요](/help/quicksilver/timesheets/timesheets/timesheets-overview.md).
+>자세한 내용은 [로그 시간](../../../timesheets/create-and-manage-timesheets/log-time.md) 및 [타임시트 개요](/help/quicksilver/timesheets/timesheets/timesheets-overview.md)를 참조하십시오.
 
 
 
@@ -58,18 +58,18 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>다음이어야 합니다: [!DNL Workfront] 관리자.</p>  </td>
+   <td> <p>[!DNL Workfront] 관리자여야 합니다.</p>  </td>
 </tr> 
  </tbody> 
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## 타임시트 및 시간 환경 설정 지정
 
 {{step-1-to-setup}}
 
-1. 클릭 **[!UICONTROL 타임시트 및 시간]** > **[!UICONTROL 환경 설정]**.
+1. **[!UICONTROL 타임시트 및 시간]** > **[!UICONTROL 환경 설정]**&#x200B;을 클릭합니다.
 
    [타임시트 및 시간 환경설정] 페이지가 표시됩니다.
 
@@ -77,9 +77,9 @@ ht-degree: 0%
 
    ![](assets/search-for-group-box-in-timesheets-preferences-page.png)
 
-   타임시트 및 시간 환경 설정 페이지가 선택한 그룹에 대한 환경 설정으로 업데이트됩니다. 그룹 수준 환경 설정을 수정하려면 시스템 수준 환경 설정 잠금을 해제해야 합니다. 자세한 내용은 섹션을 참조하십시오 [그룹에 대한 타임시트 및 시간 환경 설정 잠금 해제](#unlock-timesheet-and-hour-preferences-for-groups) 이 문서에서.
+   타임시트 및 시간 환경 설정 페이지가 선택한 그룹에 대한 환경 설정으로 업데이트됩니다. 그룹 수준 환경 설정을 수정하려면 시스템 수준 환경 설정 잠금을 해제해야 합니다. 자세한 내용은 이 문서의 [그룹에 대한 타임시트 및 시간 환경 설정 잠금 해제](#unlock-timesheet-and-hour-preferences-for-groups) 섹션을 참조하십시오.
 
-1. 다음에서 **[!UICONTROL 일반 환경 설정]** 섹션에서 다음 옵션 중 하나를 구성합니다.
+1. **[!UICONTROL 일반 환경 설정]** 섹션에서 다음 옵션을 구성합니다.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -97,7 +97,7 @@ ht-degree: 0%
 
    <tr> 
       <td role="rowheader">[!UICONTROL 시간 항목에 수동으로 작업 역할 할당]</td> 
-      <td> <p>사용자가 사용자 프로필에 할당되거나 객체에 할당된 작업 역할을 수동으로 선택할 수 있습니다.</p> <p><b>중요 사항</b>:  
+      <td> <p>사용자가 사용자 프로필에 할당되거나 객체에 할당된 작업 역할을 수동으로 선택할 수 있습니다.</p> <p><b>중요</b>:  
         <ul> 
          <li>작업 역할을 시간 항목에 할당한 후 이 설정을 사용하지 않으면 사용자는 프로젝트, 작업 또는 문제의 [!UICONTROL 시간] 탭에서 다양한 역할에 기록된 시간을 조정해야 합니다.</li> 
          <li>사용자에게 프로필에 할당된 작업 역할이 없고 [!UICONTROL Advanced Assignments] 대화 상자에 [!UICONTROL Task Owner](으)로 할당된 작업이 있는 경우 사용자가 작업에 시간을 기록할 때 해당 작업 역할이 표시됩니다.</li> 
@@ -105,7 +105,7 @@ ht-degree: 0%
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL 타임시트 편집을 소유자 및 관리자로 제한]</td> 
-      <td> <p>타임시트 소유자로 편집 제한 및 [!DNL Workfront] 관리자. 이 옵션이 비활성화되면 타임시트는 다음 작업으로도 편집할 수 있습니다.</p> 
+      <td> <p>타임시트 소유자 및 [!DNL Workfront] 관리자로 편집을 제한합니다. 이 옵션이 비활성화되면 타임시트는 다음 작업으로도 편집할 수 있습니다.</p> 
        <ul> 
         <li> <p>타임시트에 대한 관리 액세스 권한과 액세스 수준의 시간이 있는 사용자</p> </li> 
         <li> <p>타임시트에서 "시간 편집 가능"이 활성화된 경우 타임시트 승인자</p> </li> 
@@ -114,12 +114,12 @@ ht-degree: 0%
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL 시간 편집을 소유자 및 관리자로 제한]</td> 
-      <td>시간 및 시간을 입력하는 사용자로 편집 제한 [!DNL Workfront] 관리자. 이 설정은 프로젝트 또는 시간 보고서의 [!UICONTROL 시간] 탭에 적용됩니다.</td> 
+      <td>시간을 입력한 사용자 및 [!DNL Workfront] 관리자로 편집을 제한합니다. 이 설정은 프로젝트 또는 시간 보고서의 [!UICONTROL 시간] 탭에 적용됩니다.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 다음에서 **[!UICONTROL 사용자가 시간을 기록할 수 있는 위치]** 섹션에서 다음 옵션 중 하나를 구성합니다.
+1. **[!UICONTROL 사용자가 시간을 기록할 수 있는 위치]** 섹션에서 다음 옵션을 구성합니다.
 
    <table style="table-layout:auto">
     <tr>
@@ -136,14 +136,14 @@ ht-degree: 0%
     </tr>
    </table>
 
-1. 다음에서 **[!UICONTROL 타임시트 미리 채우기]** 섹션에서 다음 옵션 중 하나를 구성합니다.
+1. **[!UICONTROL 타임시트 미리 채우기]** 섹션에서 다음 옵션을 구성합니다.
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">내에 있는 [!UICONTROL 작업] &lt;number of="" weeks=""&gt; 타임시트의 작업 범위에 대한 [!UICONTROL]</td> 
+      <td role="rowheader">[!UICONTROL 내에 있는 작업] &lt;주 수&gt; [!UICONTROL 타임시트의 작업 범위]</td> 
       <td> <p>사용자에게 할당된 작업 및 문제의 날짜가 포함된 타임시트의 날짜 범위 전후 주 수를 정의합니다.</p> 
       <p>기본 설정은 1주이며 이 범위를 4주로 확장할 수 있습니다.</p> 
       <p>즉, 범위에 대해 4주를 선택하는 경우, 타임시트의 일자 범위 전 4주부터 타임시트의 일자 범위 후 4주까지의 일자 범위가 있는 작업 및 문제로 타임시트가 미리 채워집니다. </p> </td> 
@@ -163,7 +163,7 @@ ht-degree: 0%
     </tbody> 
    </table>
 
-1. 다음에서 **[!UICONTROL 프로젝트, 작업 및 문제 삭제됨]** 섹션에서 다음을 지정합니다.
+1. **[!UICONTROL 삭제된 프로젝트, 작업 및 문제]** 섹션에서 다음을 지정하십시오.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -181,8 +181,8 @@ ht-degree: 0%
       <td role="rowheader">작업 또는 문제 삭제 시</td> 
       <td> 
        <ul> 
-        <li><strong>[!UICONTROL 기록된 시간을 프로젝트로 이동]</strong> 작업 또는 문제가 있는 위치: 이 작업 또는 문제가 나중에 복원되면 프로젝트에 시간이 유지됩니다.<br></li> 
-        <li> <p><strong>[!UICONTROL 기록된 시간을 모두 삭제]</strong>: 이 작업 또는 문제가 나중에 복원되면 기록된 시간이 작업 또는 문제에 복원됩니다.</p> <p>이러한 옵션에 대한 자세한 내용은 <a href="../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md" class="MCXref xref">[!UICONTROL Configure impact]을(를) 개체가 삭제되고 복원되는 시간에 설정</a>.</p> </li> 
+        <li><strong>[!UICONTROL 기록된 모든 시간을 작업 또는 문제가 있는 프로젝트로 이동]</strong>: 이 작업 또는 문제가 나중에 복원되면 프로젝트에 시간이 유지됩니다.<br></li> 
+        <li> <p><strong>[!UICONTROL 기록된 시간을 모두 삭제]</strong>: 이 작업 또는 문제가 나중에 복원되면 기록된 시간이 작업 또는 문제에 복원됩니다.</p> <p>이러한 옵션에 대한 자세한 내용은 개체가 삭제되고 복원되는 시간에 대한 <a href="../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md" class="MCXref xref">[!UICONTROL Configure inffect]를 참조하십시오</a>.</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -196,22 +196,22 @@ ht-degree: 0%
 
 환경 설정이 잠금 해제되고 그룹 관리자가 수정할 때 그룹이 홈 그룹인 경우 타임시트 소유자에게 영향을 줍니다.
 
-그룹 관리자가 그룹에 대한 타임시트 및 시간 환경 설정을 구성하는 방법에 대한 자세한 내용은 [그룹에 대한 타임시트 및 시간 환경 설정 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
+그룹 관리자가 그룹에 대한 타임시트 및 시간 환경 설정을 구성하는 방법에 대한 자세한 내용은 [그룹에 대한 타임시트 및 시간 환경 설정 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md)을 참조하십시오.
 
 >[!NOTE]
 >
->다음 이후 [!DNL Workfront] 관리자는 시스템 수준에서 환경 설정을 잠금 해제하고, 모든 그룹 관리자가 이를 구성한 다음 잠가서 그룹의 모든 사람과 아래의 하위 그룹이 동일한 구성을 사용하도록 할 수 있습니다. 이는 다음과 같은 기능과 병행됩니다. [!DNL Workfront] 관리자는 시스템 내의 모든 사용자에 대한 기본 설정을 구성하고 잠가야 합니다. 자세한 내용은 [그룹 타임시트 및 시간 환경 설정 잠금 또는 잠금 해제](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md).
+>[!DNL Workfront] 관리자가 시스템 수준에서 환경 설정을 잠금 해제하면 모든 그룹 관리자가 이를 구성한 다음 잠가 그룹의 모든 사용자와 아래의 하위 그룹이 동일한 구성을 사용하도록 할 수 있습니다. 이는 [!DNL Workfront] 관리자가 시스템 내의 모든 사용자에 대한 환경 설정을 구성하고 잠그는 기능과 비슷합니다. 자세한 내용은 [그룹 타임시트 및 시간 환경 설정 잠금 또는 잠금 해제](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md)를 참조하십시오.
 
 그룹이 구성할 수 있도록 프로젝트 환경 설정을 잠금 해제하려면 다음 작업을 수행하십시오.
 
 {{step-1-to-setup}}
 
-1. 왼쪽 패널에서 **[!UICONTROL 타임시트 및 시간]**&#x200B;을 클릭한 다음 을 클릭합니다 **[!UICONTROL 환경 설정]**.
+1. 왼쪽 패널에서 **[!UICONTROL 타임시트 및 시간]**&#x200B;을 클릭한 다음 **[!UICONTROL 환경 설정]**&#x200B;을 클릭합니다.
 
 1. 다음 중 하나를 수행합니다.
 
-   * 그룹 관리자가 그룹에 대한 기본 설정을 구성할 수 있도록 하려면 **잠금 해제** 전환 ![](assets/unlock-toggle-button.png) 을 클릭하여 잠금을 해제합니다.
-   * 모든 그룹이 환경 설정에 대한 구성을 사용하도록 하려면 전환이 잠겨 있는지 확인합니다 ![](assets/locked-preference-toggle.png) (기본값).
+   * 그룹 관리자가 그룹에 대한 환경 설정을 구성할 수 있도록 하려면 **잠금 해제** 토글 ![](assets/unlock-toggle-button.png)을(를) 클릭하여 잠금 해제합니다.
+   * 모든 그룹에서 환경 설정에 대한 구성을 사용하도록 하려면 토글이 ![](assets/locked-preference-toggle.png)(기본값)으로 잠겨 있는지 확인하십시오.
 
      >[!IMPORTANT]
      >

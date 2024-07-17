@@ -9,7 +9,7 @@ role: Developer
 exl-id: a6120939-5d76-4f46-a304-125de6b22502
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 ## 이벤트 페이로드 내의 특정 기준을 기반으로 엔드포인트에 전송되는 이벤트를 선택할 수 있습니까?
 
-이벤트 구독 필터는 이벤트 하위 항목을 지정된 기준에 따라 정렬할 수 있는 방법입니다. 끝점에서 사용해야 하는 메시지 수를 크게 줄일 수 있으므로 필터를 이벤트 구독에 적용하는 것이 좋습니다. 자세한 내용은 [이벤트 구독 필터링](../../wf-api/general/event-subs-api.md#event).
+이벤트 구독 필터는 이벤트 하위 항목을 지정된 기준에 따라 정렬할 수 있는 방법입니다. 끝점에서 사용해야 하는 메시지 수를 크게 줄일 수 있으므로 필터를 이벤트 구독에 적용하는 것이 좋습니다. 자세한 내용은 [이벤트 구독 필터링](../../wf-api/general/event-subs-api.md#event)을 참조하세요.
 
 ## API가 409 충돌 응답 코드를 반환하는 이유는 무엇입니까?
 
@@ -45,9 +45,9 @@ ht-degree: 0%
 
 다음 시나리오를 찾아 권장 솔루션을 사용하십시오.
 
-* 구독 끝점(에 의해 정의됨)이 **url** 필드 - 2XX HTTP 응답 코드를 반환합니다. 그렇지 않은 경우 Workfront 지원에 문의하거나 다음을 참조하십시오. [이벤트 구독 게재 요구 사항](../../wf-api/general/setup-event-sub-endpoint.md).
+* **url** 필드로 정의된 구독 끝점이 2XX HTTP 응답 코드를 반환하는지 확인하십시오. 그렇지 않은 경우 Workfront 지원에 문의하거나 [이벤트 구독 배달 요구 사항](../../wf-api/general/setup-event-sub-endpoint.md)을 참조하세요.
 
-* 이벤트 게재 요청이 완료되기 전에 시간 초과될 수 있습니다. 엔드포인트가 5초 이내에 일관되게 응답하는지 확인합니다. 이벤트 구독 메시지를 전달하기 위해 HTTP 요청에 설정된 기본 시간 제한입니다. 엔드포인트가 5초 이내에 응답하지 않는 경우 Workfront 지원에 문의하거나 를 참조하십시오. [이벤트 구독 게재 요구 사항](../../wf-api/general/setup-event-sub-endpoint.md).
+* 이벤트 게재 요청이 완료되기 전에 시간 초과될 수 있습니다. 엔드포인트가 5초 이내에 일관되게 응답하는지 확인합니다. 이벤트 구독 메시지를 전달하기 위해 HTTP 요청에 설정된 기본 시간 제한입니다. 끝점이 5초 이내에 응답하지 않으면 Workfront 지원에 문의하거나 [이벤트 구독 배달 요구 사항](../../wf-api/general/setup-event-sub-endpoint.md)을 참조하십시오.
 * 이벤트가 사용자가 생각하는 방식을 생성하지 않을 수 있습니다. 이벤트가 실행되는 방법 또는 시기에 대한 가정을 하지 않도록 하십시오. 예를 들어, 작업에서 문서를 업데이트하면 작업 업데이트 이벤트가 생성되지만 대신 문서 만들기 또는 문서 업데이트 이벤트가 생성된다고 생각할 수 있습니다.
 * 구독이 예상대로 구성되지 않았을 수 있습니다. 다른 환경에서 이벤트 구독을 만들고 다른 Workfront 데이터처럼 전송할 것으로 예상할 수 있습니다. 그러나 이벤트 구독 데이터는 다른 환경으로 복사하거나 홍보하도록 구성되지 않습니다. 올바른 환경에 API 요청을 발행하고 있으며 해당 환경의 구독이 예상대로 구성되어 있는지 확인하십시오.
 * 필요한 Workfront IP 주소가 방화벽의 허용 목록에 추가하다에 추가되지 않았기 때문에 페이로드가 수신되지 않았습니다. 이벤트 구독 이벤트는 일부 IP 주소에서만 전송됩니다. 대상 네트워크에 Workfront 이벤트 구독에서 페이로드를 받는 데 필요한 모든 IP 예외가 있는지 확인합니다.
@@ -73,11 +73,11 @@ ht-degree: 0%
 
 ## 이벤트 구독 API를 호출하려고 할 때 500 응답 상태가 표시되면 어떻게 해야 합니까?
 
-Workfront 지원 센터에 문의하십시오. 지원 센터에 문의하는 방법을 알아보려면 다음을 참조하십시오. [고객 지원 문의](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+Workfront 지원 센터에 문의하십시오. 지원 센터에 문의하는 방법은 [고객 지원 센터에 문의](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)를 참조하세요.
 
 ## Workfront 이벤트 구독에는 어떤 유형의 인증을 사용할 수 있습니까?
 
-전달자 토큰을 사용하는 모든 인증을 사용할 수 있습니다. 다음 **authToken** 구독의 필드는 에 지정된 URL로 인증하는 데 사용되는 OAuth2 전달자 토큰을 나타내는 문자열입니다. **url** 필드. 이론적으로 이 토큰 값은 대상 끝점이 인코딩을 처리하는 방법을 알고 있는 한 어떤 것이든 될 수 있습니다. **utf-8**.
+전달자 토큰을 사용하는 모든 인증을 사용할 수 있습니다. 구독의 **authToken** 필드는 **url** 필드에 지정된 URL로 인증하는 데 사용되는 OAuth2 전달자 토큰을 나타내는 문자열입니다. 이론적으로 대상 끝점이 인코딩을 처리하는 방법을 알고 있는 한 이 토큰 값은 무엇이든 될 수 있습니다(**utf-8**).
 
 ## Workfront 이벤트 구독에서 이벤트 페이로드를 받으려면 얼마나 기다려야 합니까?
 
@@ -87,10 +87,10 @@ Workfront 지원 센터에 문의하십시오. 지원 센터에 문의하는 방
 
 * **API 설명서**: [이벤트 구독 API](../../wf-api/general/event-subs-api.md)
 
-* **우수 사례**: [이벤트 구독 모범 사례](../../wf-api/general/event-sub-best-practice.md)
+* **모범 사례**: [이벤트 구독 모범 사례](../../wf-api/general/event-sub-best-practice.md)
 
 * **이벤트 구독 페이로드를 트리거하는 필드**: [이벤트 구독 리소스 필드](../../wf-api/api/event-sub-resource-fields.md)
 
 * **이벤트 구독 다시 시도 이해**: [이벤트 구독 다시 시도](../../wf-api/api/event-sub-retries.md)
 
-* **Workfront용 방화벽 구성**: [허용 목록에 추가하다 방화벽 구성](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)
+* **Workfront허용 목록에 추가하다 에 대한 방화벽 구성**: [방화벽 구성](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)

@@ -11,7 +11,7 @@ exl-id: 64fd0473-b29e-4b6f-a847-20a8d29997ee
 source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '76'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 1%
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [Configure [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)
-* [액세스 [!DNL Adobe Workfront] 출처: [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)
-* [에서 작업 및 승인 관리 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md)
-* [에서 작업 및 문제 만들기 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/create-tasks-and-issues-from-slack.md)
-* [검색 대상 [!DNL Adobe Workfront] 다음에서 항목: [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md)
-* [액세스 [!DNL Adobe Workfront] 의 공유 링크에 있는 오브젝트 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-wf-objects-from-shared-linked-in-slack.md)
-* [에서 즐겨찾기 및 최근 항목에 액세스 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md)
-* [게시물 a [!DNL Slack] 업데이트로 주석 달기](../../workfront-integrations-and-apps/using-workfront-with-slack/post-a-slack-comment-as-an-update.md)
-* [수신 [!DNL Adobe Workfront] 의 알림 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md)
+* [ [!DNL Adobe Workfront for Slack] 구성](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)
+* [ [!DNL Slack]에서  [!DNL Adobe Workfront] 액세스](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)
+* [ [!DNL Slack]에서 작업 및 승인 관리](../../workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md)
+* [ [!DNL Slack]에서 작업 및 문제 만들기](../../workfront-integrations-and-apps/using-workfront-with-slack/create-tasks-and-issues-from-slack.md)
+* [ [!DNL Slack]에서  [!DNL Adobe Workfront] 개 항목 검색](../../workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md)
+* [ [!DNL Slack]의 공유 링크에서  [!DNL Adobe Workfront] 개체에 액세스](../../workfront-integrations-and-apps/using-workfront-with-slack/access-wf-objects-from-shared-linked-in-slack.md)
+* [ [!DNL Slack]에서 즐겨찾기 및 최근 항목에 액세스](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md)
+* [업데이트로 Post a [!DNL Slack] 댓글](../../workfront-integrations-and-apps/using-workfront-with-slack/post-a-slack-comment-as-an-update.md)
+* [ [!DNL Slack]에서  [!DNL Adobe Workfront] 알림 수신](../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md)

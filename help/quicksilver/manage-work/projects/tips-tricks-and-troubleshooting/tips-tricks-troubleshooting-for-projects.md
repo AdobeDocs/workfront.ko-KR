@@ -18,7 +18,7 @@ ht-degree: 0%
 이 섹션에는 다음 문서가 포함됩니다.
 
 * [프로젝트 FAQ](../../../manage-work/projects/tips-tricks-and-troubleshooting/projects-faqs.md)
-* [프로젝트 상태가 완료에서 현재로 변경되지 않음](../../../manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md)
+* [프로젝트 상태가 완료에서 현재로 변경되지 않습니다](../../../manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md)
 * [계산 예 - 프로젝트 수준에서 EAC 계산](../../../manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-at-project-level-example.md)
 * [계산 예 - EAC를 작업에서 롤업으로 계산](../../../manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-by-rolling-up-from-tasks-example.md)
 

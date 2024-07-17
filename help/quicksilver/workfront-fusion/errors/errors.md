@@ -20,13 +20,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] 을(를) 필요로 합니다. [!DNL Adobe Workfront Fusion] 에 더해진 라이센스 [!DNL Adobe Workfront license].
+>[!DNL Adobe Workfront Fusion]에는 [!DNL Adobe Workfront license] 외에 [!DNL Adobe Workfront Fusion] 라이선스가 필요합니다.
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [에서 처리하는 동안 오류 발생 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/error-processing.md)
-* [에서 오류 처리 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/error-handling.md)
-* [에서 오류 처리를 위한 지시문 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/directives-for-error-handling.md)
-* [에서 오류 처리 다시 시도 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/retry.md)
-* [에서 오류 처리 실행 [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/errors/throw.md)
-* [의 고급 오류 처리 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/advanced-error-handling.md)
+* [ [!DNL Adobe Workfront Fusion]에서 처리하는 동안 오류 발생](../../workfront-fusion/errors/error-processing.md)
+* [ [!DNL Adobe Workfront Fusion]에서 오류 처리](../../workfront-fusion/errors/error-handling.md)
+* [ [!DNL Adobe Workfront Fusion]의 오류 처리에 대한 지시문](../../workfront-fusion/errors/directives-for-error-handling.md)
+* [ [!DNL Adobe Workfront Fusion]에서 오류 처리 다시 시도](../../workfront-fusion/errors/retry.md)
+* [[!UICONTROL Adobe Workfront Fusion]에서 Throw 오류 처리](../../workfront-fusion/errors/throw.md)
+* [ [!DNL Adobe Workfront Fusion]의 고급 오류 처리](../../workfront-fusion/errors/advanced-error-handling.md)

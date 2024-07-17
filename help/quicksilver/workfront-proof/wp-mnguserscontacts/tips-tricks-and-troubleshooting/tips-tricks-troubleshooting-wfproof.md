@@ -3,8 +3,8 @@ content-type: tips-tricks-troubleshooting;reference
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: manage-your-users-and-contacts
-title: 에 대한 팁, 요령 및 문제 해결 [!DNL Workfront Proof] 사용자 및 연락처
-description: Workfront 증명 문제를 해결하는 방법에 대해 알아봅니다.
+title: ' [!DNL Workfront Proof] 사용자 및 연락처에 대한 팁, 요령 및 문제 해결'
+description: Workfront Proof 문제 해결 방법을 알아봅니다.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 ---
 
-# 에 대한 팁, 요령 및 문제 해결 [!DNL Workfront Proof] 사용자 및 연락처
+# [!DNL Workfront Proof]명의 사용자 및 연락처에 대한 팁, 요령 및 문제 해결
 
 >[!IMPORTANT]
 >
->이 문서는 독립 실행형 제품의 기능에 대해 설명합니다 [!DNL Workfront Proof]. 내부 교정에 대한 정보 [!DNL Adobe Workfront], 참조 [증명](../../../review-and-approve-work/proofing/proofing.md).
+>이 문서는 독립 실행형 제품 [!DNL Workfront Proof]의 기능을 참조합니다. [!DNL Adobe Workfront] 내부의 증명에 대한 자세한 내용은 [증명](../../../review-and-approve-work/proofing/proofing.md)을 참조하십시오.
 
 이 섹션에는 다음 문서가 포함됩니다.
 

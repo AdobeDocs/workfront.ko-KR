@@ -9,7 +9,7 @@ role: Developer
 exl-id: ab7c76a9-16ce-41f9-b7af-5943eb2dfdff
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
@@ -31,4 +31,4 @@ API를 사용하여 사용자 정의 필드를 문제로 가져오는 도중 다
 
 대기열 주제에 올바른 사용자 정의 양식을 추가합니다.
 
-대기열 주제에 대한 자세한 내용은 [대기열 주제 만들기](../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+대기열 주제에 대한 자세한 내용은 [대기열 주제 만들기](../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)를 참조하십시오.

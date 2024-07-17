@@ -21,8 +21,8 @@ ht-degree: 0%
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [작업 항목에 대한 승인 프로세스 만들기](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
+* [작업 항목에 대한 승인 프로세스를 만듭니다](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
 * [승인 프로세스 편집](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md)
 * [전역 승인 설정 구성](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md)
-* [그룹 및 승인 프로세스 변경이 할당된 승인 프로세스에 미치는 영향](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md)
+* [그룹 및 승인 프로세스 변경 내용이 할당된 승인 프로세스에 미치는 영향](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md)
 * [마일스톤 경로 만들기](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)

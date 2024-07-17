@@ -17,13 +17,13 @@ ht-degree: 0%
 
 이 페이지에서는 미리보기 환경에 대한 23.2 릴리스의 모든 애자일 개선 사항에 대해 설명합니다. 이러한 개선 사항은 프로덕션 환경에서 23.2 릴리스를 통해 제공될 예정입니다.
 
-23.2 릴리스 주기 내에서 이 시점에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [23.2 릴리스 개요](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+23.2 릴리스 주기 동안 현재 사용 가능한 모든 변경 사항 목록을 보려면 [23.2 릴리스 개요](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)를 참조하십시오.
 
 ## 오브젝트 세부 정보에서 Workfront 보드 또는 워크스트림에 작업 및 문제 추가
 
 이제 오브젝트 세부 정보에서 직접 Workfront 보드 또는 작업 스트림 카드 목록에 기존 작업 또는 문제를 추가할 수 있습니다. 보드에 추가한 모든 항목은 연결된 카드가 되며 워크스트림에 추가된 모든 항목은 계획되지 않은 카드로 카드 목록에 추가됩니다.
 
-자세한 내용은 [보드에 기존 작업 또는 문제 추가](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
+자세한 내용은 [보드에 기존 작업 또는 문제 추가](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md)를 참조하십시오.
 
 ## Adobe Workfront 보드에서 사용할 수 있는 반복 기능
 
@@ -35,15 +35,15 @@ Workfront 보드에서 사용할 수 있는 몇 가지 새로운 기능을 통�
 
 컬렉션 이름이 작업 스트림으로 변경되었습니다. 워크스트림을 통해 다양한 방식으로 데이터를 시각화할 수 있습니다. 목록, 보드 또는 반복의 카드에 항목을 표시할 수 있습니다. 작업 스트림의 카드를 여러 보드 간에 공유할 수도 있습니다. 워크플로우에서 카드 및 보드를 사용하여 워크플로우를 쉽게 용이하게 할 수 있습니다.
 
-자세한 내용은 [작업 스트림 관리](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [작업 스트림에 반복 만들기](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md), 및 [카드 목록 사용](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
+자세한 내용은 [작업 스트림 관리](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [작업 스트림에서 반복 만들기](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md) 및 [카드 목록 사용](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)을 참조하십시오.
 
-[이 기능에 대한 비디오 데모 보기](https://video.tv.adobe.com/v/3417059/){target=_blank}
+[이 기능의 비디오 데모 보기](https://video.tv.adobe.com/v/3417059/){target=_blank}
 
 ## 목록 및 보고서의 작업 및 문제를 작업 스트림 카드 목록에 추가
 
 이제 목록 또는 보고서 보기에서 Workfront 보드의 작업 스트림에 기존 작업 또는 문제를 추가할 수 있습니다. 워크스트림에 추가하는 모든 항목은 카드 목록에 계획되지 않은 카드로 추가됩니다.
 
-자세한 내용은 [보드에 기존 작업 또는 문제 추가](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
+자세한 내용은 [보드에 기존 작업 또는 문제 추가](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md)를 참조하십시오.
 
 ## 보드의 카드에 사용자 정의 필드 추가
 
@@ -53,7 +53,7 @@ Workfront 보드에서 사용할 수 있는 몇 가지 새로운 기능을 통�
 
 카드의 사용자 정의 필드에 있는 모든 데이터는 읽기 전용입니다.
 
-자세한 내용은 [카드에 표시할 필드 사용자 지정](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
+자세한 내용은 [카드에 표시할 필드 사용자 지정](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)을 참조하십시오.
 
 ## 목록 및 보고서의 작업 및 문제를 Workfront 보드에 추가
 
@@ -61,7 +61,7 @@ Workfront 보드에서 사용할 수 있는 몇 가지 새로운 기능을 통�
 
 또한 이제 게시판 필드를 사용하여 작업 또는 문제에 대한 목록 및 보고서에 추가할 수 있습니다. 이 필드에는 작업 또는 문제가 추가된 모든 게시판이 표시됩니다.
 
-자세한 내용은 [보드에 기존 작업 또는 문제 추가](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
+자세한 내용은 [보드에 기존 작업 또는 문제 추가](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md)를 참조하십시오.
 
 
 ## 보드에 연결된 카드에 시간 기록
@@ -72,9 +72,9 @@ Workfront 보드에서 사용할 수 있는 몇 가지 새로운 기능을 통�
 
 이제 작업 또는 문제와 같은 방식으로 연결된 카드에 시간을 기록할 수 있습니다. 시간을 기록하려면 작업 또는 문제에 대한 올바른 권한이 있어야 합니다.
 
-시간 로깅 필드는 기본적으로 연결된 카드에 표시되지 않습니다. 다음을 활성화해야 합니다. **시간** 카드 아래의 구성 영역에서 확인할 수 있습니다.
+시간 로깅 필드는 기본적으로 연결된 카드에 표시되지 않습니다. 카드 아래의 구성 영역에서 **시간**&#x200B;을(를) 사용하도록 설정해야 합니다.
 
-자세한 내용은 [보드에서 연결된 카드 사용](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+자세한 내용은 [보드에 연결된 카드 사용](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)을 참조하세요.
 
 
 ## 카드의 필드 표시 사용자 지정
@@ -86,9 +86,9 @@ Workfront 보드에서 사용할 수 있는 몇 가지 새로운 기능을 통�
 
 이제 카드를 열 때의 전체 보기와 보드의 압축된 카드 보기 모두에서 카드에 표시할 필드를 사용자 정의할 수 있습니다. 필드를 비활성화하면 두 보기 중 하나에 필드가 표시되지 않습니다. 전체 보기에서 필드를 활성화하고 압축된 보기에서 숨길 수도 있습니다.
 
-자세한 내용은 [카드에 표시할 필드 사용자 지정](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
+자세한 내용은 [카드에 표시할 필드 사용자 지정](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)을 참조하십시오.
 
-[이 기능에 대한 비디오 데모 보기](https://video.tv.adobe.com/v/3415710/){target=_blank}
+[이 기능의 비디오 데모 보기](https://video.tv.adobe.com/v/3415710/){target=_blank}
 
 ## 보드 열로 이동된 카드의 기본 상태 정의
 
@@ -100,9 +100,9 @@ Workfront 보드에서 사용할 수 있는 몇 가지 새로운 기능을 통�
 
 이전에는 여러 상태를 사용할 수 있는 경우 열로 이동된 모든 카드에 대한 상태를 선택하라는 메시지가 표시되었습니다.
 
-자세한 내용은 [열 관리](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
+자세한 내용은 [열 관리](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)를 참조하십시오.
 
-[이 기능에 대한 비디오 데모 보기](https://video.tv.adobe.com/v/3415711/){target=_blank}
+[이 기능의 비디오 데모 보기](https://video.tv.adobe.com/v/3415711/){target=_blank}
 
 ## 이제 Adobe Workfront 보드에서 컬렉션을 사용할 수 있습니다.
 
@@ -114,9 +114,9 @@ Workfront 보드에서 사용할 수 있는 몇 가지 새로운 기능을 통�
 
 컬렉션에 구성원을 추가하는 것은 보드에 구성원을 추가하는 것과 같은 방식으로 작동합니다. 개인 또는 팀이 컬렉션의 구성원으로 추가되려면 먼저 개인 또는 팀이 해당 컬렉션의 구성원이어야 합니다.
 
-자세한 내용은 [컬렉션 관리](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
+자세한 내용은 [컬렉션 관리](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)를 참조하세요.
 
-[이 기능에 대한 비디오 데모 보기](https://video.tv.adobe.com/v/3415609/){target=_blank}
+[이 기능의 비디오 데모 보기](https://video.tv.adobe.com/v/3415609/){target=_blank}
 
 ## 연결된 카드의 예상 필드가 Workfront 오브젝트의 스토리 포인트 필드에 매핑됨
 
@@ -132,7 +132,7 @@ Workfront 보드에서 사용할 수 있는 몇 가지 새로운 기능을 통�
 
 또한 Ad Hoc 및 연결된 카드의 예상 필드에는 문자 제한이 더 이상 없습니다. 이전에는 최대 글자 수가 99자였습니다.
 
-자세한 내용은 [보드에서 연결된 카드 사용](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+자세한 내용은 [보드에 연결된 카드 사용](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)을 참조하세요.
 
 ## 접수 열의 카드 미리 보기
 

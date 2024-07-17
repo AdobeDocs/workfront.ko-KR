@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Workfront Fusion 릴리스 활동: 2022년 11월 14일이 있는 주
 
-**이제 Microsoft Power BI 커넥터 및 모듈을 사용할 수 있습니다**
+**Microsoft Power BI 커넥터 및 모듈을 사용할 수 있습니다**
 
 이제 Adobe Workfront Fusion을 Microsoft Power BI 계정에 연결할 수 있습니다.
 
@@ -31,4 +31,4 @@ Microsoft Power BI 모듈을 사용하여 다음과 같은 작업을 수행할 �
 * 데이터 세트 테이블에서 행 추가 또는 삭제
 * Microsoft Power BI API에 대한 사용자 지정 API 호출 만들기
 
-자세한 내용은 [Microsoft Power BI 모듈](../../../workfront-fusion/apps-and-their-modules/powerbi-modules.md).
+자세한 내용은 [Microsoft Power BI 모듈](../../../workfront-fusion/apps-and-their-modules/powerbi-modules.md)을 참조하세요.

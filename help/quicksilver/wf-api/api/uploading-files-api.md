@@ -18,11 +18,11 @@ ht-degree: 0%
 
 Postman과 같은 API 도구 또는 간단한 cURL 명령을 사용하여 Workfront API를 사용하여 파일을 업로드할 수 있습니다.
 
-문서를 업로드하려면 다음 지침을 참조하십시오. **문서 업로드** Workfront에서 [게시물 비헤이비어](/help/quicksilver/wf-api/general/api-basics.md#post-behavior). cURL 요청에 대해서도 동일한 지침을 사용할 수 있습니다.
+문서를 업로드하려면 Workfront [Post 동작](/help/quicksilver/wf-api/general/api-basics.md#post-behavior)에서 **문서 업로드**&#x200B;에 대한 지침을 참조하십시오. cURL 요청에 대해서도 동일한 지침을 사용할 수 있습니다.
 
 **API 도구를 사용하여 파일을 업로드할 때 다음 지침을 따르십시오.**
 
-* API 도구 옵션을 사용하여 파일을 업로드하십시오. 이는 종종 다음과 같습니다. **파일 선택** 요청 화면의 버튼입니다.
+* API 도구 옵션을 사용하여 파일을 업로드하십시오. 대개 요청 화면의 **파일 선택** 단추입니다.
 
 * POST HTTP 메서드를 사용하여 파일 업로드를 요청합니다.
 

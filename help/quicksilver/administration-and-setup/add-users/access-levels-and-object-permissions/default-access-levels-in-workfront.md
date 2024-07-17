@@ -23,7 +23,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->이 문서에서는 Adobe Workfront의 현재 기본 제공 액세스 수준에 대해 설명합니다. 새로운 기본 제공 액세스 수준에 대한 자세한 내용은 [새로운 액세스 수준 개요](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+>이 문서에서는 Adobe Workfront의 현재 기본 제공 액세스 수준에 대해 설명합니다. 새로운 기본 제공 액세스 수준에 대한 자세한 내용은 [새로운 액세스 수준 개요](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)를 참조하십시오.
 
 
 현재 내장된 6개의 액세스 수준 각각은 특정 유형의 사용자를 위해 설계되었습니다. 이러한 액세스 수준을 사용하면 시스템에서 편집하고 볼 수 있는 사용자를 제어할 수 있습니다.
@@ -60,13 +60,13 @@ ht-degree: 5%
 >
 >시스템 관리자 또는 외부 사용자 액세스 수준은 수정할 수 없습니다.
 
-사용자 지정 액세스 수준을 만들거나 기본 제공 액세스 수준 중 하나를 수정하는 방법에 대한 자세한 내용은 [사용자 정의 액세스 수준 만들기 및 수정](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+사용자 지정 액세스 수준을 만들거나 기본 제공 액세스 수준 중 하나를 수정하는 방법에 대한 자세한 내용은 [사용자 지정 액세스 수준 만들기 및 수정](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)을 참조하십시오.
 
 >[!IMPORTANT]
 >
 >사용자를 설정한 후에 참조할 수 있도록 기본 제공 액세스 수준을 변경하지 않는 것이 좋습니다.
 
-이러한 액세스 수준에 대한 일반적인 정보는 다음을 참조하십시오. [액세스 수준 개요](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+이러한 액세스 수준에 대한 일반적인 정보는 [액세스 수준 개요](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)를 참조하십시오.
 
 ## 시스템 관리자 액세스 수준
 
@@ -74,9 +74,9 @@ ht-degree: 5%
 
 시스템 관리자 액세스 수준이 있는 사용자는 Workfront에서 모든 작업을 수행할 수 있습니다. 다른 모든 사용자가 Workfront에 입력한 모든 Workfront 개체 및 정보를 보고 편집할 수 있습니다.
 
-또한 시스템 수준에서 설정을 변경할 수 있는 설정 영역에 대한 모든 액세스 권한을 갖습니다. 메인 메뉴의 모든 영역에 액세스할 수 있습니다. ![](assets/main-menu-icon.png) 또는 메인 메뉴 ![](assets/lines-main-menu.png), 사용 가능한 경우
+또한 시스템 수준에서 설정을 변경할 수 있는 설정 영역에 대한 모든 액세스 권한을 갖습니다. 그리고 가능한 경우 기본 메뉴 ![](assets/main-menu-icon.png) 또는 기본 메뉴 ![](assets/lines-main-menu.png)의 모든 영역에 액세스할 수 있습니다.
 
-자세한 내용은 [사용자에게 전체 관리 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+자세한 내용은 [사용자에게 전체 관리 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)를 참조하십시오.
 
 ## 플래너 액세스 수준
 
@@ -86,9 +86,9 @@ ht-degree: 5%
 * 작업, 프로젝트, 포트폴리오 및 프로그램의 계획, 생성 및 관리를 담당하는 사람
 * 다른 사용자에게 작업(작업 및 문제)을 할당할 책임이 있는 모든 사람
 * 보고서를 작성하고 타임시트, 작업 항목 및 문서를 승인하는 사용자
-* 메인 메뉴의 모든 영역에 액세스해야 하는 사용자 ![](assets/main-menu-icon.png) 또는 메인 메뉴 ![](assets/lines-main-menu.png), 사용 가능한 경우
+* 사용 가능한 경우 기본 메뉴 ![](assets/main-menu-icon.png) 또는 기본 메뉴 ![](assets/lines-main-menu.png)의 모든 영역에 액세스해야 하는 사용자
 
-플래너 기본 제공 액세스 수준의 사용자 지정 버전을 만들고 다양한 Workfront 개체 유형에 사용할 수 있는 액세스 양을 결정할 수 있습니다. 자세한 내용은 [사용자 정의 액세스 수준 만들기 및 수정](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+플래너 기본 제공 액세스 수준의 사용자 지정 버전을 만들고 다양한 Workfront 개체 유형에 사용할 수 있는 액세스 양을 결정할 수 있습니다. 자세한 내용은 [사용자 지정 액세스 수준 만들기 및 수정](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)을 참조하세요.
 
 다음은 플래너 액세스 수준의 객체에 사용할 수 있는 가장 높은 액세스 설정입니다.
 
@@ -122,10 +122,10 @@ ht-degree: 5%
 * 작업 및 문서를 승인할 수 있지만 타임시트는 승인할 수 없음
 * 보고서 액세스 및 공유 가능
 * 시스템의 다른 사용자와 통신할 수 있음
-* 메인 메뉴의 모든 영역에 액세스할 수 없음 ![](assets/main-menu-icon.png) 또는 메인 메뉴 ![](assets/lines-main-menu.png), 사용 가능한 경우 및 해당 &quot;사용자&quot; 영역의 이름은 팀으로 지정됩니다. 팀 영역에서 이 액세스 수준을 가진 사용자는 해당 팀에 할당된 작업과 함께 자신이 속한 팀만 볼 수 있습니다.
+* 사용 가능한 경우 기본 메뉴 ![](assets/main-menu-icon.png) 또는 기본 메뉴 ![](assets/lines-main-menu.png)의 모든 영역에 액세스할 수 없으며 &quot;사용자&quot; 영역의 이름이 Teams로 지정됩니다. 팀 영역에서 이 액세스 수준을 가진 사용자는 해당 팀에 할당된 작업과 함께 자신이 속한 팀만 볼 수 있습니다.
 * 객체 생성 기능이 제한되어 있어 프로젝트, 포트폴리오, 프로그램 또는 보고서를 생성할 수 없습니다.
 
-작업자 기본 제공 액세스 수준의 사용자 지정 버전을 만들고 다양한 Workfront 개체 유형에 사용할 수 있는 액세스 양을 결정할 수 있습니다. 자세한 내용은 [사용자 정의 액세스 수준 만들기 및 수정](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+작업자 기본 제공 액세스 수준의 사용자 지정 버전을 만들고 다양한 Workfront 개체 유형에 사용할 수 있는 액세스 양을 결정할 수 있습니다. 자세한 내용은 [사용자 지정 액세스 수준 만들기 및 수정](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)을 참조하세요.
 
 다음은 작업자 액세스 수준의 객체에 사용할 수 있는 가장 높은 액세스 설정입니다.
 
@@ -142,7 +142,7 @@ ht-degree: 5%
 | 사용자 |   |   | ✓ 덧신 |
 | 팀 |   |   | ✓ 제한 액세스 |
 | 템플릿 | ✓ 덧신 |   |   |
-| 재무 데이터 |   | ✓ (기본 설정은 액세스 없음) 보기 설정을 사용하면 프로젝트 세부 정보에서 재무 영역만 볼 수 있습니다.) |   |
+| 재무 데이터 |   | ✓ (기본 설정은 액세스 없음) 보기 설정을 사용하면 재무 영역만 볼 수 있습니다   ( 프로젝트 세부 정보 참조) |   |
 | 리소스 관리 |   | ✓ 덧신 |   |
 | 시나리오 플래너 |   |   | ✓ (기본 설정은 액세스 권한 없음) |
 | Workfront Goals |   |   | ✓ (기본 설정은 액세스 권한 없음) |
@@ -158,10 +158,10 @@ ht-degree: 5%
 검토자 액세스 수준이 있는 사용자:
 
 * 작업 항목을 할당하거나 타임시트를 승인할 수 없음
-* 메인 메뉴의 요청 및 문서 영역에 액세스할 수 있습니다. ![](assets/main-menu-icon.png) 또는 메인 메뉴 ![](assets/lines-main-menu.png), 사용 가능한 경우
+* 가능한 경우 주 메뉴 ![](assets/main-menu-icon.png) 또는 주 메뉴 ![](assets/lines-main-menu.png)의 요청 및 문서 영역에 액세스할 수 있습니다.
 * 객체 생성 기능이 제한되어 있어 프로젝트, 포트폴리오, 프로그램 또는 보고서를 생성할 수 없습니다.
 
-검토자 기본 제공 액세스 수준의 사용자 지정 버전을 만들고 다양한 Workfront 개체 유형에 사용할 수 있는 액세스 양을 결정할 수 있습니다. 자세한 내용은 [사용자 정의 액세스 수준 만들기 및 수정](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+검토자 기본 제공 액세스 수준의 사용자 지정 버전을 만들고 다양한 Workfront 개체 유형에 사용할 수 있는 액세스 양을 결정할 수 있습니다. 자세한 내용은 [사용자 지정 액세스 수준 만들기 및 수정](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)을 참조하세요.
 
 작업자 액세스 수준보다 프로젝트 및 작업에 대해 더 제한된 항목: 검토자 액세스 수준의 개체에 사용할 수 있는 가장 높은 액세스 설정은 다음과 같습니다.
 
@@ -249,7 +249,7 @@ ht-degree: 5%
   <tr> 
    <td>재무 데이터</td> 
    <td> </td> 
-   <td> <p>✓ (기본 설정은 액세스 없음) 보기 설정을 사용하면 프로젝트 세부 정보에서 재무 영역만 볼 수 있습니다.)</p> </td> 
+   <td> <p>✓ (기본 설정은 액세스 없음) 보기 설정을 사용하면 재무 영역만 볼 수 있습니다   ( 프로젝트 세부 정보 참조)</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -285,9 +285,9 @@ ht-degree: 5%
 * 문서를 업로드하고 승인할 수 있음
 * 제출한 문제의 상태를 검토할 수 있습니다.
 * 작업 항목에 할당할 수 없음
-* 메인 메뉴의 요청 영역에서만 요청에 액세스할 수 있습니다. ![](assets/main-menu-icon.png) 또는 메인 메뉴 ![](assets/lines-main-menu.png), 사용 가능한 경우 요청 대기열에 대한 자세한 내용은 [요청 대기열 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+* 가능한 경우 기본 메뉴 ![](assets/main-menu-icon.png) 또는 기본 메뉴 ![](assets/lines-main-menu.png)의 요청 영역에서만 요청에 액세스할 수 있습니다. 요청 대기열에 대한 자세한 내용은 [요청 대기열 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)를 참조하십시오.
 
-요청자의 기본 제공 액세스 수준의 사용자 지정 버전을 만들고 다양한 Workfront 개체 유형에 사용할 수 있는 액세스 양을 결정할 수 있습니다. 자세한 내용은 [사용자 정의 액세스 수준 만들기 및 수정](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+요청자의 기본 제공 액세스 수준의 사용자 지정 버전을 만들고 다양한 Workfront 개체 유형에 사용할 수 있는 액세스 양을 결정할 수 있습니다. 자세한 내용은 [사용자 지정 액세스 수준 만들기 및 수정](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)을 참조하세요.
 
 다음은 요청자 액세스 수준의 객체에 사용할 수 있는 가장 높은 액세스 설정입니다.
 
@@ -327,7 +327,7 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->외부 사용자는 설정의 시스템 환경 설정 영역에서 &quot;이메일 주소를 사용하여 Workfront 계정이 없는 사용자와 공동 작업&quot; 옵션이 활성화된 경우에만 사용할 수 있습니다. 자세한 내용은 [시스템 보안 환경 설정 구성](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+>외부 사용자는 설정의 시스템 환경 설정 영역에서 &quot;이메일 주소를 사용하여 Workfront 계정이 없는 사용자와 공동 작업&quot; 옵션이 활성화된 경우에만 사용할 수 있습니다. 자세한 내용은 [시스템 보안 환경 설정 구성](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)을 참조하십시오.
 
 이러한 설정은 외부 사용자 액세스 수준의 액세스 수준 영역에 표시되지 않지만 이 액세스 권한을 가진 사용자는 Workfront 개체 유형에 대해 다음과 같이 높은 액세스 권한을 가집니다.
 

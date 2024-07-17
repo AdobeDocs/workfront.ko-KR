@@ -18,7 +18,7 @@ ht-degree: 0%
 
 이 페이지에서는 2019.3 릴리스의 홈 개선 사항에 대한 모든 변경 사항에 대해 설명합니다. 2019년 8월 19일이 있는 주에 프로덕션 환경에서 사용할 수 있게 되었습니다.
 
-2019.3의 모든 변경 사항 목록은 을 참조하십시오. [2019.3 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
+2019.3의 모든 변경 사항 목록은 [2019.3 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md)를 참조하십시오.
 
 ## 홈의 모양과 느낌에 대한 업데이트
 

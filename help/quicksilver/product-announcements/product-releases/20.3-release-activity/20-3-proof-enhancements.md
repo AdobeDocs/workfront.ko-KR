@@ -18,7 +18,7 @@ ht-degree: 0%
 
 이 페이지에서는 프로덕션 환경에 대한 20.3 릴리스의 모든 증명 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2020년 8월 10일 주에 프로덕션 환경에서 사용할 수 있습니다.
 
-20.3 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [20.3 릴리스 개요](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
+20.3 릴리스에서 사용할 수 있는 모든 변경 사항 목록은 [20.3 릴리스 개요](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md)를 참조하십시오.
 
 ## 업데이트 탭과 증명 주석 간의 가시성 개선
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 * 업데이트 탭에 증명 댓글이 표시되면 증명 뷰어로 이동하여 답글을 달 수 있는 새로운 증명 내 답글 버튼이 표시됩니다.
 * 증명 댓글에 증명 뷰어 내의 작업에 태그가 지정되면 해당 작업이 업데이트 탭에 표시됩니다.
 
-자세한 내용은 [문서에 업데이트 추가](../../../documents/managing-documents/add-update-documents.md).
+자세한 내용은 [문서에 업데이트 추가](../../../documents/managing-documents/add-update-documents.md)를 참조하십시오.
 
 ## 문서 세부 정보에서 증명 사용자 정의 필드 업데이트
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 이전에는 증명 뷰어에서만 사용자 정의 필드를 볼 수 있었습니다.
 
-자세한 내용은 [문서 세부 정보 개요](../../../documents/managing-documents/document-details-overview.md).
+자세한 내용은 [문서 세부 정보 개요](../../../documents/managing-documents/document-details-overview.md)를 참조하십시오.
 
 ## 문서 도구 모음의 새로운 모양
 
@@ -61,5 +61,5 @@ ht-degree: 0%
 
 이전에는 증명을 생성한 다음 증명 워크플로 영역으로 이동하여 워크플로를 설정해야 했습니다.
 
-자세한 내용은 [문서에 대한 증명 만들기](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md).
+자세한 내용은 [문서에 대한 증명 만들기](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md)를 참조하십시오.
 

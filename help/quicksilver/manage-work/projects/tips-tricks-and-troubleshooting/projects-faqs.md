@@ -20,13 +20,13 @@ ht-degree: 1%
 
 ### 답변
 
-삽입 옵션을 사용하려면 작업 목록을 번호별로 정렬해야 합니다. 열을 숫자로 정렬하려면 **#** 의 왼쪽에 있는 열 머리글 **작업 이름** 번호순으로 작업을 처리하십시오.
+삽입 옵션을 사용하려면 작업 목록을 번호별로 정렬해야 합니다. 열을 번호별로 정렬하려면 **작업 이름**&#x200B;의 왼쪽에 있는 열 머리글에서 **#**&#x200B;을(를) 클릭하여 번호별로 작업을 예약합니다.
 
 ## 실제 완료 일자는 어떻게 됩니까?
 
 ### 답변
 
-실제 완료 일자는 작업이 완료된 일자와 시간을 나타냅니다. 자세한 내용은 [프로젝트 실제 완료 일자 개요](../../../manage-work/projects/planning-a-project/project-actual-completion-date.md).
+실제 완료 일자는 작업이 완료된 일자와 시간을 나타냅니다. 자세한 내용은 [프로젝트 실제 완료 일자 개요](../../../manage-work/projects/planning-a-project/project-actual-completion-date.md)를 참조하십시오.
 
 ## 들여쓰기/내어쓰기 단추가 없는 이유는 무엇입니까?
 
@@ -51,7 +51,7 @@ ht-degree: 1%
 
 ### 답변
 
-프로젝트의 완료 모드가 자동으로 설정된 경우 모든 작업과 문제가 완료되면 프로젝트의 상태가 자동으로 완료로 변경되며 다른 상태로 수정할 수 없습니다. 전체 프로젝트를 현재 상태로 전환하려면 프로젝트의 완료 모드 를 수동으로 설정해야 합니다. 자세한 내용은 [프로젝트 상태가 완료에서 현재로 변경되지 않음](../../../manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md).
+프로젝트의 완료 모드가 자동으로 설정된 경우 모든 작업과 문제가 완료되면 프로젝트의 상태가 자동으로 완료로 변경되며 다른 상태로 수정할 수 없습니다. 전체 프로젝트를 현재 상태로 전환하려면 프로젝트의 완료 모드 를 수동으로 설정해야 합니다. 자세한 내용은 [프로젝트 상태가 완료에서 현재 상태로 변경되지 않습니다](../../../manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md)을(를) 참조하십시오.
 
 ## 올바른 권한이 있어도 Portfolio에 프로젝트를 추가할 수 없는 이유는 무엇입니까?
 
@@ -61,11 +61,11 @@ ht-degree: 1%
 
 이는 Portfolio 상태가 비활성 상태이기 때문에 발생합니다. Portfolio 상태를 변경하려면:
 
-1. 클릭 **Portfolio 세부 정보 > 개요**.
-1. 변경 **상태** 끝 **활성.**
+1. **Portfolio 세부 정보 > 개요**&#x200B;를 클릭합니다.
+1. **Status**&#x200B;을(를) **Active.**(으)로 변경합니다.
 
 1. **저장**&#x200B;을 클릭합니다.\
-   다음 **프로젝트 추가** 이제 단추가 **프로젝트** 탭.
+   이제 **프로젝트 추가** 단추가 **프로젝트** 탭에 표시됩니다.
 
 ## 리소스 관리자가 프로젝트에 추가될 때 받을 액세스 권한은 무엇입니까?
 
@@ -79,7 +79,7 @@ ht-degree: 1%
 
 그룹의 기본 상태 때문에 프로젝트 상태가 변경됩니다. 프로젝트에 그룹을 추가하면 상태 목록이 그룹에 설정된 기본 상태로 변경됩니다.
 
-자세한 내용은 이 문서 를 참조하십시오. [상태 만들기 또는 편집](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+자세한 내용은 문서 [상태 만들기 또는 편집](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)을 참조하세요.
 
 ## 예산 상태란 무엇입니까?
 
@@ -101,4 +101,4 @@ Adobe Workfront 관리자가 의 액세스 수준에서 귀하가 속한 회사,
 
 ![](assets/view-only-team-groups-companies-they-belong-to-350x141.png)
 
-사용자가 시스템의 모든 팀을 볼 수 있도록 하는 방법에 대한 자세한 내용은 [사용자 정의 액세스 수준 만들기 또는 수정](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+사용자가 시스템의 모든 팀을 볼 수 있도록 하는 방법에 대한 자세한 내용은 [사용자 지정 액세스 수준 만들기 또는 수정](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)을 참조하십시오.

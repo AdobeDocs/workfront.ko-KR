@@ -34,7 +34,7 @@ Adobe Workfront Classic에서 모든 Flash 기반 도구를 제거했습니다.
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about contacting our support team, see <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md" class="MCXref xref">Contact Customer Support</a>. </p>
   -->
 
-* **2020년 11월 19일**: 모든 Flash 기반 도구가 모든 Workfront 제품에서 제거되었습니다.
+* **2020년 11월 19일**: 모든 Workfront 제품에서 모든 Flash 기반 도구가 제거되었습니다.
 
   <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -47,7 +47,7 @@ Adobe Workfront Classic에서 모든 Flash 기반 도구를 제거했습니다.
 
 다음 섹션에 나열된 도구는 Workfront 시스템에서 제거되고 새 솔루션으로 대체되었습니다.
 
-교체 도구에 대한 자세한 내용은 [기존 Flash 기반 도구 및 그 대체 요소](#legacy-flash-based-tools-and-their-replacements) 이 문서에서.
+대체 도구에 대한 자세한 내용은 이 문서에서 [기존 Flash 기반 도구 및 해당 대체 도구](#legacy-flash-based-tools-and-their-replacements)를 참조하십시오.
 
 ### 리소스 관리
 
@@ -57,7 +57,7 @@ Adobe Workfront Classic에서 모든 Flash 기반 도구를 제거했습니다.
    * 수용작업량 플래너
    * 리소스 추정치
    * 리소스 그리드\
-     자세한 내용은 [리소스 계획: 문서 색인](../../../resource-mgmt/resource-planning/resource-planning-overview.md).
+     자세한 내용은 [리소스 계획: 문서 인덱스](../../../resource-mgmt/resource-planning/resource-planning-overview.md)를 참조하십시오.
 
 * 프로젝트의 비즈니스 사례에서 레거시 리소스 견적 영역
 
@@ -88,7 +88,7 @@ Adobe Workfront Classic에서 모든 Flash 기반 도구를 제거했습니다.
 
    * 사용자 보고서의 리소스 그리드 옵션
    * 프로젝트 또는 작업 보고서의 레거시 간트 옵션\
-     자세한 내용은 [간트 차트에서 정보 보기](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
+     자세한 내용은 [간트 차트에서 정보 보기](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md)를 참조하세요.
 
 * 제거된 보고서:
 
@@ -105,7 +105,7 @@ Adobe Workfront Classic에서 모든 Flash 기반 도구를 제거했습니다.
 * Portfolio 및 프로그램의 기존 간트 하위 탭
 * 템플릿의 템플릿 작업 목록에 있는 레거시 간트 하위 탭, 템플릿 작업의 하위 작업 탭에 있는 레거시 간트 보기 및 템플릿 작업 보고서에 있는 레거시 간트 보기
 
-### 증명
+### 교정
 
 기존 증명 뷰어는 대부분의 고객을 위한 새로운 웹 증명 뷰어 및 데스크탑 증명 뷰어로 교체되었으며 2020년 11월에 모든 고객에 대해 제거되었습니다.
 
@@ -146,7 +146,7 @@ Adobe Workfront Classic에서 모든 Flash 기반 도구를 제거했습니다.
  <col> 
  <thead> 
   <tr> 
-   <th> <p><strong>레거시 도구</strong> </p> </th> 
+   <th> <p><strong>이전 도구</strong> </p> </th> 
    <th> <p><strong>새 도구</strong> </p> </th> 
   </tr> 
  </thead> 
@@ -163,14 +163,14 @@ Adobe Workfront Classic에서 모든 Flash 기반 도구를 제거했습니다.
     <ul>
      <li>리소스 풀은 사용자를 기반으로 하므로 해당 사용자의 휴무와 일정 예외는 사용자 및 역할 가용성 계산에 이미 고려됩니다. 이를 통해 정확한 최신 데이터를 얻을 수 있으므로 올바른 예산 결정을 가능하게 하고 프로젝트가 진행 중일 때 변경 가능성을 최소화할 수 있습니다.</li>
      <li>이제 리소스의 가용성과 데이터의 정확성에 대해 보다 세밀하게 제어할 수 있으므로 Workfront에서 여러 리소스 풀을 프로젝트와 연결할 수 있습니다. 한 사용자가 여러 프로젝트에서 동시에 사용할 수 있는 여러 기술을 보유한 경우 두 명 이상의 리소스 풀에 속할 수도 있습니다. </li>
-    </ul><p>이러한 데이터 제어를 통해 사용 가능한 예산을 분배하기 위해 모든 리소스를 포함하는 리소스 풀을 더 이상 보유할 필요가 없습니다. 사실, 우리는 이것을 추천하지 않습니다. 대신, 리소스 풀을 다양화하고 관련 리소스 풀을 프로젝트와 연결하는 것이 좋습니다.</p><p> 리소스 풀에 대한 자세한 내용은 <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> 리소스 풀 개요 </a></p></td> 
+    </ul><p>이러한 데이터 제어를 통해 사용 가능한 예산을 분배하기 위해 모든 리소스를 포함하는 리소스 풀을 더 이상 보유할 필요가 없습니다. 사실, 우리는 이것을 추천하지 않습니다. 대신, 리소스 풀을 다양화하고 관련 리소스 풀을 프로젝트와 연결하는 것이 좋습니다.</p><p> 리소스 풀에 대한 자세한 내용은 <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> 리소스 풀 개요 </a>을(를) 참조하십시오.</p></td> 
   </tr> 
   <tr> 
    <td> <p><strong>리소스 예산 관리자</strong> </p> <p>리소스 예산 관리자를 사용하여 여러 리소스 풀에서 작업 역할 리소스의 가용성을 지정할 수 있습니다. 그러나 레거시 리소스 풀의 단점으로 인해 이 기능은 거의 사용되지 않았습니다. 이를 사용할 때는 사용자가 작업 역할의 가용성을 수동으로 입력하여 예산을 보다 정확하게 책정하도록 했습니다. 일정 예외 및 사용자의 휴무 등은 고려하지 않았다.</p> </td> 
    <td> <p>리소스 풀의 사용자를 기준으로 가용성을 자동으로 계산하므로 리소스 예산 관리자는 더 이상 필요하지 않습니다. 가용성 계산을 위한 모든 수동 작업과 함께 도구가 제거되었습니다.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>리소스 추정치</strong> </p> <p>각 레거시 리소스 풀 아래의 리소스 예상 탭은 하나의 레거시 리소스 풀 컨텍스트에서만 리소스 예산 관리자와 동일한 용도로 사용됩니다. 이 툴은 리소스 예산 관리자 및 레거시 리소스 풀과 동일한 제한 사항을 제시했습니다. 부정확한 데이터 및 가용성의 수동 입력입니다. </p> </td> 
+   <td> <p><strong>리소스 예상</strong> </p> <p>각 레거시 리소스 풀 아래의 리소스 예상 탭은 하나의 레거시 리소스 풀 컨텍스트에서만 리소스 예산 관리자와 동일한 용도로 사용됩니다. 이 툴은 리소스 예산 관리자 및 레거시 리소스 풀과 동일한 제한 사항을 제시했습니다. 부정확한 데이터 및 가용성의 수동 입력입니다. </p> </td> 
    <td> <p>사용자 가용성이 자동으로 계산됨에 따라 리소스 예측이 더 이상 사용되지 않으며 제거되었습니다.</p> <p>프로젝트의 비즈니스 사례에서 레거시 리소스 풀 및 레거시 리소스 추정치를 사용하는 경우 도구가 제거됩니다. <!--
       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
        The Legacy Resource Estimates area on the Business Case of the project remains there in View-only mode at this time. 
@@ -178,22 +178,22 @@ Adobe Workfront Classic에서 모든 Flash 기반 도구를 제거했습니다.
      --></p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>수용작업량 플래너</strong> </p> <p>용량 플래너는 리소스 예산을 책정하고 리소스의 가용성에 따라 레거시 리소스 풀 내에서 프로젝트의 우선 순위를 지정하는 Workfront 도구입니다. 리소스 추정치 및 용량 플래너에 대한 정보를 제공하는 리소스 예산 관리자의 데이터가 불완전할 경우, 프로젝트 우선 순위를 사용자의 가용성과 비교하여 두 번 확인해야 했습니다.</p> <p>시스템의 모든 작업 역할을 포함하는 단일 레거시 리소스 풀을 사용하는 것이 가장 일반적인 시나리오였으며, 이로 인해 용량 플래너가 많은 수의 프로젝트를 로드하려고 할 때 성능 문제가 발생했습니다.</p> </td> 
-   <td> <p><strong>리소스 플래너의 프로젝트 보기</strong> </p> <p>리소스 플래너의 프로젝트 기반 보기에서 레거시 용량 플래너에서 리소스 예산을 책정하고 프로젝트 우선 순위를 정했던 방식과 유사하게 지정할 수 있습니다. 기존 도구와 달리 이제 더 많은 데이터가 지원되며, 사용자의 휴무 및 예약 예외를 모두 고려하여 사용 가능한 정보를 더 정확하게 지정할 수 있습니다.</p> <p>사용 가능, 계획 및 예산 정보가 한눈에 표시되므로 리소스 관리자는 작업을 수행할 수 있는 충분한 인력이 있는지 여부와 프로젝트 계획이 초기 예산 추정치를 초과하는지 여부를 모두 확인할 수 있습니다.</p> <p> 리소스 플래너에서 프로젝트 보기 사용에 대한 자세한 내용은 <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">리소스 플래너 개요</a></p> <p><strong>시나리오 플래너</strong> </p> <p>장기 용량 계획, 가정 시나리오 모델링 및 우선 순위 지정의 경우 Workfront 시나리오 플래너 도 도입했습니다. </p> <p>시나리오 플래너는 새 Adobe Workfront 경험에서만 사용할 수 있으며 추가 라이선스가 필요합니다. Workfront 시나리오 플래너에 대한 자세한 내용은 다음을 참조하십시오. <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">시나리오 플래너 개요</a>. </p> </td> 
+   <td> <p><strong>용량 플래너</strong> </p> <p>용량 플래너는 리소스 예산을 책정하고 리소스의 가용성에 따라 레거시 리소스 풀 내에서 프로젝트의 우선 순위를 지정하는 Workfront 도구입니다. 리소스 추정치 및 용량 플래너에 대한 정보를 제공하는 리소스 예산 관리자의 데이터가 불완전할 경우, 프로젝트 우선 순위를 사용자의 가용성과 비교하여 두 번 확인해야 했습니다.</p> <p>시스템의 모든 작업 역할을 포함하는 단일 레거시 리소스 풀을 사용하는 것이 가장 일반적인 시나리오였으며, 이로 인해 용량 플래너가 많은 수의 프로젝트를 로드하려고 할 때 성능 문제가 발생했습니다.</p> </td> 
+   <td> <p><strong>리소스 플래너의 프로젝트 보기</strong> </p> <p>리소스 플래너의 프로젝트 기반 보기에서 레거시 용량 플래너에서 리소스 예산을 책정하고 프로젝트 우선 순위를 정했던 방식과 유사하게 지정할 수 있습니다. 기존 도구와 달리 이제 더 많은 데이터가 지원되며, 사용자의 휴무 및 예약 예외를 모두 고려하여 사용 가능한 정보를 더 정확하게 지정할 수 있습니다.</p> <p>사용 가능, 계획 및 예산 정보가 한눈에 표시되므로 리소스 관리자는 작업을 수행할 수 있는 충분한 인력이 있는지 여부와 프로젝트 계획이 초기 예산 추정치를 초과하는지 여부를 모두 확인할 수 있습니다.</p> <p> 리소스 플래너에서 프로젝트 보기를 사용하는 방법에 대한 자세한 내용은 <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">리소스 플래너 개요</a>를 참조하십시오.</p> <p><strong>시나리오 플래너</strong> </p> <p>장기 용량 계획, 가정 시나리오 모델링 및 우선 순위 지정의 경우 Workfront 시나리오 플래너 도 도입했습니다. </p> <p>시나리오 플래너는 새 Adobe Workfront 경험에서만 사용할 수 있으며 추가 라이선스가 필요합니다. Workfront 시나리오 플래너에 대한 자세한 내용은 <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">시나리오 플래너 개요</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>레거시 리소스 추정치(비즈니스 사례)</strong> </p> <p>비즈니스 사례의 레거시 리소스 견적 영역을 사용하여 프로젝트 계획 및 리소스 요청의 일부로 특정 노동 시간 및 비용을 예산할 수 있습니다. 이 보기는 리소스의 가용성에 대한 가시성을 제공하지 않았으므로 리소스에 대한 대략적인 요청과 거부된 프로젝트 작업의 가능성이 증가했습니다.</p> </td> 
-   <td> <p><strong>리소스 예산 책정(비즈니스 사례)</strong> </p> <p>비즈니스 사례 아래의 리소스 예산 편성 섹션은 비즈니스 사례에 리소스 플래너 기능을 가져와서 사용자 및 역할 가용성에 대한 가시성을 제공하며 사용자 수준에서 예산을 편성할 수 있습니다. </p> <p> 비즈니스 사례의 리소스 예산 편성 영역에 대한 자세한 내용은 <a href="../../../manage-work/projects/define-a-business-case/areas-of-business-case.md" class="MCXref xref">비즈니스 사례 영역 개요</a>. </p> </td> 
+   <td> <p><strong>리소스 예산 책정(비즈니스 사례)</strong> </p> <p>비즈니스 사례 아래의 리소스 예산 편성 섹션은 비즈니스 사례에 리소스 플래너 기능을 가져와서 사용자 및 역할 가용성에 대한 가시성을 제공하며 사용자 수준에서 예산을 편성할 수 있습니다. </p> <p> 비즈니스 사례의 리소스 예산 편성 영역에 대한 자세한 내용은 <a href="../../../manage-work/projects/define-a-business-case/areas-of-business-case.md" class="MCXref xref">비즈니스 사례 영역 개요</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>리소스 견적 보고서</strong> </p> <p>리소스 관리를 위한 레거시 도구를 사용하는 경우 비즈니스 사례에서 예산 및 계획된 시간을 보고할 수 있습니다. 이를 통해 특정 시간대의 각 작업 역할에 대한 총 예산 및 계획된 작업을 표시하는 매트릭스 보고서를 작성할 수 있습니다. 이 보고서는 편집할 수 없으며 보고서 결과를 기반으로 리소스 예산을 변경할 수 없습니다. </p> </td> 
-   <td> <p><strong>활용성 보고서</strong> </p> <p>기본 제공 활용성 보고서에는 계획, 예산 및 실제 시간, 비용 및 수익이 나란히 표시됩니다. </p> <p>활용률 보고서 사용에 대한 자세한 내용은 다음을 참조하십시오. <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">자원 가동률 정보 보기 </a>. </p> 
+   <td> <p><strong>리소스 예상 보고서</strong> </p> <p>리소스 관리를 위한 레거시 도구를 사용하는 경우 비즈니스 사례에서 예산 및 계획된 시간을 보고할 수 있습니다. 이를 통해 특정 시간대의 각 작업 역할에 대한 총 예산 및 계획된 작업을 표시하는 매트릭스 보고서를 작성할 수 있습니다. 이 보고서는 편집할 수 없으며 보고서 결과를 기반으로 리소스 예산을 변경할 수 없습니다. </p> </td> 
+   <td> <p><strong>사용률 보고서</strong> </p> <p>기본 제공 활용성 보고서에는 계획, 예산 및 실제 시간, 비용 및 수익이 나란히 표시됩니다. </p> <p>사용률 보고서 사용에 대한 자세한 내용은 <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">리소스 사용률 정보 보기 </a>를 참조하십시오. </p> 
     <div> 
      <p><strong>보고 가능한 예산 시간</strong> </p> 
      <p>예산 시간에 대한 보고서를 생성하여 보고서 양식의 리소스 플래너에서 예산 책정된 시간을 검토합니다. </p> 
-     <p>예산 시간에 대한 자세한 내용은 다음을 참조하십시오. <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md" class="MCXref xref">Adobe Workfront 용어 목록</a>.</p> 
-     <p>보고서 만들기에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">사용자 지정 보고서 만들기</a>.</p> 
-    </div> <p><strong>리소스 플래너의 역할 보기</strong> </p> <p>레거시 리소스 관리 도구의 비즈니스 사례에서 예산 및 계획된 시간을 이제 리소스 플래너의 역할 기반 보기인 새로운 기본 보기에서 사용할 수 있습니다. 이 보기는 사용 가능 시간, 계획 시간 및 예산 시간 정보를 한눈에 제공하며, 이를 통해 동일한 위치에서 예산 책정을 제어하고 변경할 수 있습니다. 이를 통해 고위직 역할 계획 시 더 나은 의사 결정을 할 수 있다. </p> <p> 리소스 플래너의 역할 보기에서 리소스 예산 책정에 대한 자세한 내용은 다음을 참조하십시오. <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md#using2" class="MCXref xref">프로젝트 및 역할 보기를 사용하여 리소스 예산 책정 </a> 의 섹션 <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">리소스 플래너 개요</a></p> </td> 
+     <p>예산 시간에 대한 자세한 내용은 <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md" class="MCXref xref">Adobe Workfront 용어 설명</a>을 참조하세요.</p> 
+     <p>보고서 만들기에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">사용자 지정 보고서 만들기</a>를 참조하십시오.</p> 
+    </div> <p><strong>리소스 플래너의 역할 보기</strong> </p> <p>레거시 리소스 관리 도구의 비즈니스 사례에서 예산 및 계획된 시간을 이제 리소스 플래너의 역할 기반 보기인 새로운 기본 보기에서 사용할 수 있습니다. 이 보기는 사용 가능 시간, 계획 시간 및 예산 시간 정보를 한눈에 제공하며, 이를 통해 동일한 위치에서 예산 책정을 제어하고 변경할 수 있습니다. 이를 통해 고위직 역할 계획 시 더 나은 의사 결정을 할 수 있다. </p> <p> 리소스 플래너의 역할 보기에서 리소스 예산 책정에 대한 자세한 내용은 <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md#using2" class="MCXref xref">프로젝트 및 역할 보기를 사용하여 리소스 예산 책정 </a> 섹션(<a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">리소스 플래너 개요</a>)을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>리소스 그리드</strong> </p> <p>리소스 그리드는 프로젝트가 완료로 진행될 때 특정 사용자의 할당을 볼 수 있도록 해줍니다. </p> <p>예를 들어 프로젝트 팀의 누군가가 작업을 일찍 완료하고 누군가가 뒤처진 경우를 비롯하여 특정 기간에 초과 할당되었는지 또는 과소 할당되었는지 등을 쉽게 확인할 수 있습니다. </p> <p>안타깝게도, 당신은 같은 견해로 그 정보에 대해 조치를 취할 수 없었습니다. 초과 할당 문제를 해결하려면 프로젝트로 이동하여 작업의 결과를 표시하지 않고 정보를 수동으로 조정해야 했습니다.</p> </td> 
@@ -201,17 +201,17 @@ Adobe Workfront Classic에서 모든 Flash 기반 도구를 제거했습니다.
     <ul> 
      <li> <p><strong>분석 단계의 경우:</strong> </p> 
       <ul> 
-       <li> <p><strong>업무 균형자</strong>: 업무 균형자 를 사용하여 사용자의 업무를 보다 세분화된 수준에서 볼 수 있습니다. 업무 균형자 를 사용할 때 어느 사용자가 업무 균형자에서 제 시간에 작업을 완료할 수 있는지 확인할 수 있습니다. 여기에는 휴무와 일정 예외 세부 사항이 포함됩니다. </p> <p>업무 균형자에 대한 자세한 내용은 <a href="../../../resource-mgmt/workload-balancer/overview-workload-balancer.md" class="MCXref xref">업무 균형자 개요</a>.</p> </li> 
-       <li> <p><strong>리소스 플래너의 사용자 보기</strong><strong>:</strong> 사용자가 할당되는 프로젝트를 더 높은 수준에서 이해하려고 할 때 리소스 플래너의 사용자 보기를 사용합니다. 이를 통해 작업 중인 사용자와 특정 시간대에 초과 및 과소 할당을 확인할 수 있습니다. 리소스 플래너는 또한 전체적으로 사용자의 전체 할당에 대한 시각화를 제공하고, 기록된 실제 시간에 대한 가시성을 제공하므로 수행된 작업의 진행 상황을 분석하는 데 도움이 됩니다. </p> <p>리소스 플래너에서 사용자 보기 사용에 대한 자세한 내용은 <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md#using" class="MCXref xref">사용자 보기를 사용하여 가용, 계획 및 실제 근로시간 또는 FTE 보기 </a> 의 섹션 <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">리소스 플래너 개요</a></p> </li> 
+       <li> <p><strong>업무 균형자</strong>: 업무 균형자를 사용하여 사용자의 업무 부하를 더 세분화된 수준으로 봅니다. 업무 균형자 를 사용할 때 어느 사용자가 업무 균형자에서 제 시간에 작업을 완료할 수 있는지 확인할 수 있습니다. 여기에는 휴무와 일정 예외 세부 사항이 포함됩니다. </p> <p>업무 균형자에 대한 자세한 내용은 <a href="../../../resource-mgmt/workload-balancer/overview-workload-balancer.md" class="MCXref xref">업무 균형자 개요</a>를 참조하십시오.</p> </li> 
+       <li> <p><strong>리소스 플래너의 사용자 보기</strong><strong>:</strong> 사용자가 할당된 프로젝트를 더 높은 수준에서 이해하려 할 때 리소스 플래너의 사용자 보기를 사용하십시오. 이를 통해 작업 중인 사용자와 특정 시간대에 초과 및 과소 할당을 확인할 수 있습니다. 리소스 플래너는 또한 전체적으로 사용자의 전체 할당에 대한 시각화를 제공하고, 기록된 실제 시간에 대한 가시성을 제공하므로 수행된 작업의 진행 상황을 분석하는 데 도움이 됩니다. </p> <p>리소스 플래너에서 사용자 보기를 사용하는 방법에 대한 자세한 내용은 <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md#using" class="MCXref xref">사용자 보기를 사용하여 <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">리소스 플래너 개요</a>에서 사용 가능한 시간, 계획된 시간 및 실제 시간 또는 FTE </a> 섹션을 참조하십시오.</p> </li> 
       </ul> </li> 
-     <li><strong>전략 단계:</strong> 
+     <li><strong>전술 단계:</strong>의 경우 
       <ul> 
-       <li><strong>업무 균형자</strong> 업무 균형자 를 사용하여 다음과 같은 작업을 수행할 수 있습니다. 
+       <li><strong>업무 균형자</strong> 업무 균형자를 사용하여 다음을 수행할 수 있습니다. 
         <ul>
          <li>사용자에게 작업을 할당합니다.</li>
          <li>작업 항목에 대한 사용자의 할당을 관리합니다. </li>
          <li>사용자 영역에 대한 가시성이 없을 수 있는 다른 사용자와 업무 균형자 를 공유합니다. 공유 가능한 링크 기능을 사용하여 업무 균형자에 대한 링크를 공유하고 사용자 정의 대시보드에 포함합니다. 사용자 보기 액세스 권한이 있는 모든 사용자는 이러한 대시보드를 공유할 때 볼 수 있습니다.</li>
-        </ul><p>업무 균형자 는 사람 영역에서 사용할 수 있습니다. </p><p>업무 균형자에 대한 자세한 내용은 <a href="../../../resource-mgmt/workload-balancer/overview-workload-balancer.md" class="MCXref xref">업무 균형자 개요</a>.</p></li> 
+        </ul><p>업무 균형자 는 사람 영역에서 사용할 수 있습니다. </p><p>업무 균형자에 대한 자세한 내용은 <a href="../../../resource-mgmt/workload-balancer/overview-workload-balancer.md" class="MCXref xref">업무 균형자 개요</a>를 참조하십시오.</p></li> 
       </ul> <!--
        <ul data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
         <li><strong>The Resource Scheduling Areas</strong><strong>:</strong> When assigning your resources to the actual work that must be completed, use the Resource Scheduling areas in the People or Team areas, or at the project level. These areas allow you to visualize and manage the users' workload by day and rectify any problems from one view using the following actions: 
@@ -233,19 +233,19 @@ Adobe Workfront Classic에서 모든 Flash 기반 도구를 제거했습니다.
   </tr> 
   <tr> 
    <td> <p><strong>레거시 간트 차트, 작업 목록</strong> </p> <p> 작업 목록의 레거시 간트 차트는 프로젝트의 타임라인을 시각적으로 보고 데이터베이스에 변경 사항을 커밋하지 않고 가정 시나리오 계획을 수행할 수 있는 기능을 제공합니다. 레거시 간트 차트는 보안 위험을 나타내는 Flash 기술을 기반으로 했습니다. </p> </td> 
-   <td> <p><strong>간트 차트,</strong> <strong>작업 목록</strong></p> <p> 새 HTML 기반 간트 차트는 기존 간트와 동일한 용도로 사용됩니다. 사용자는 작업 목록 도구 모음에서 수동 저장 옵션을 변경하여 데이터베이스에 변경 사항을 적용하지 않고 프로젝트의 타임라인을 시각화하고 가정 시나리오 계획을 수행할 수 있습니다. </p> <p>변경 사항이 발생할 때 자동으로 저장할 때 사용할 수 있는 자동 저장 옵션을 사용할 때 새로운 간트 차트는 대화형입니다. </p> <p>새로운 작업 목록 간트 차트 는 최신 기술을 기반으로 구축되었으며 신뢰할 수 있습니다. 이 새로운 간트 차트는 작업 목록에 바로 표시되며, 탭을 전환하거나 보기를 변경하지 않고도 작업 목록에서 작업할 때 쉽게 액세스할 수 있습니다. </p> <p>새 간트 차트는 이전 차트와 동일한 기능을 제공하지만 기존 간트와 비교하여 기능에는 몇 가지 차이점이 있습니다. </p> <p> 템플릿의 템플릿 작업 목록에 있는 레거시 간트 하위 탭, 템플릿 작업의 하위 작업 탭에 있는 레거시 간트 보기 및 템플릿 작업 보고서에 있는 레거시 간트 차트가 HTML 기반 간트 차트로 대체되었습니다. </p> <p>단순한 보기와 빠른 편집 위주로 이전 간트 차트를 사용하고 실제 차트를 사용하지 않는 경우, 새로운 타임라인 계획 수립 옵션을 사용하면 주요 계획 수립 필드를 빠르게 변경할 수 있습니다. 작업 목록 도구 모음에서 자동 저장 대신 타임라인 계획 수립을 선택할 수 있습니다.</p> <p>타임라인 계획 수립 옵션을 사용하여 작업 목록을 저장하는 방법에 대한 자세한 내용은 문서의 "타임라인 계획 수립 옵션을 선택할 때 수동으로 작업 목록에 변경 사항 저장" 섹션을 참조하십시오 <a href="../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md" class="MCXref xref">목록에서 작업 편집</a>. </p> </td> 
+   <td> <p><strong>간트 차트,</strong> <strong>작업 목록</strong></p> <p> 새 HTML 기반 간트 차트는 기존 간트와 동일한 용도로 사용됩니다. 사용자는 작업 목록 도구 모음에서 수동 저장 옵션을 변경하여 데이터베이스에 변경 사항을 적용하지 않고 프로젝트의 타임라인을 시각화하고 가정 시나리오 계획을 수행할 수 있습니다. </p> <p>변경 사항이 발생할 때 자동으로 저장할 때 사용할 수 있는 자동 저장 옵션을 사용할 때 새로운 간트 차트는 대화형입니다. </p> <p>새로운 작업 목록 간트 차트 는 최신 기술을 기반으로 구축되었으며 신뢰할 수 있습니다. 이 새로운 간트 차트는 작업 목록에 바로 표시되며, 탭을 전환하거나 보기를 변경하지 않고도 작업 목록에서 작업할 때 쉽게 액세스할 수 있습니다. </p> <p>새 간트 차트는 이전 차트와 동일한 기능을 제공하지만 기존 간트와 비교하여 기능에는 몇 가지 차이점이 있습니다. </p> <p> 템플릿의 템플릿 작업 목록에 있는 레거시 간트 하위 탭, 템플릿 작업의 하위 작업 탭에 있는 레거시 간트 보기 및 템플릿 작업 보고서에 있는 레거시 간트 차트가 HTML 기반 간트 차트로 대체되었습니다. </p> <p>단순한 보기와 빠른 편집 위주로 이전 간트 차트를 사용하고 실제 차트를 사용하지 않는 경우, 새로운 타임라인 계획 수립 옵션을 사용하면 주요 계획 수립 필드를 빠르게 변경할 수 있습니다. 작업 목록 도구 모음에서 자동 저장 대신 타임라인 계획 수립을 선택할 수 있습니다.</p> <p>타임라인 계획 수립 옵션을 사용하여 작업 목록을 저장하는 방법에 대한 자세한 내용은 문서 <a href="../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md" class="MCXref xref">목록에서 작업 편집</a>의 "타임라인 계획 수립 옵션을 선택할 때 수동으로 작업 목록에 변경 사항 저장" 섹션을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>프로젝트 목록에 대한 레거시 간트 차트</strong> </p> <p>프로젝트 목록의 레거시 간트 차트는 프로젝트와 해당 작업을 하나의 보기에서 볼 수 있는 기능을 사용자에게 제공합니다. 프로젝트 목록의 컨텍스트를 종료하지 않으면 프로젝트의 작업에 대한 세부 정보와 프로젝트 간의 종속성을 볼 수 있습니다. 프로젝트 목록의 레거시 간트 차트는 보안 위험을 나타내는 Flash 기술을 기반으로 했습니다. </p> </td> 
-   <td> <p><strong>간트 차트, 프로젝트 목록</strong> </p> <p>HTML 기반 간트 차트는 기존 간트 차트와 동일한 용도로 사용됩니다. 사용자는 프로젝트와 작업을 하나의 보기에서 보고 프로젝트뿐만 아니라 작업 간의 종속성을 시각적으로 식별할 수 있습니다. 프로젝트 목록 간트 차트는 프로젝트 목록에 바로 있습니다. 새로운 간트 차트는 최신 인터페이스를 갖추고 있으며 최신 기술을 기반으로 구축되었습니다.</p> <p>프로젝트 목록 간트 차트에 대한 자세한 내용은 <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md" class="MCXref xref">간트 차트에서 정보 보기 </a>.</p> </td> 
+   <td> <p><strong>간트 차트, 프로젝트 목록</strong> </p> <p>HTML 기반 간트 차트는 기존 간트 차트와 동일한 용도로 사용됩니다. 사용자는 프로젝트와 작업을 하나의 보기에서 보고 프로젝트뿐만 아니라 작업 간의 종속성을 시각적으로 식별할 수 있습니다. 프로젝트 목록 간트 차트는 프로젝트 목록에 바로 있습니다. 새로운 간트 차트는 최신 인터페이스를 갖추고 있으며 최신 기술을 기반으로 구축되었습니다.</p> <p>프로젝트 목록 간트 차트에 대한 자세한 내용은 <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md" class="MCXref xref">간트 차트에서 정보 보기 </a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>보고서, 캘린더 및 문서의 공유 대화 상자</strong> </p> <p>보고서, 캘린더 및 문서를 공유할 때 사용된 대화 상자는 Flash 기술을 기반으로 했습니다.</p> </td> 
-   <td> <p>Workfront에서 보고서, 캘린더 및 문서를 공유할 때의 환경이 변경되지 않았습니다. 그러나 경험은 더 이상 Flash에 의존하지 않습니다.</p> <p>이러한 항목 공유에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">오브젝트에 대한 공유 권한 개요</a>.</p> </td> 
+   <td> <p><strong>보고서, 일정 및 문서에 대한 대화 상자 공유</strong> </p> <p>보고서, 캘린더 및 문서를 공유할 때 사용된 대화 상자는 Flash 기술을 기반으로 했습니다.</p> </td> 
+   <td> <p>Workfront에서 보고서, 캘린더 및 문서를 공유할 때의 환경이 변경되지 않았습니다. 그러나 경험은 더 이상 Flash에 의존하지 않습니다.</p> <p>이러한 항목 공유에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">개체에 대한 공유 권한 개요</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>기존 증명 뷰어</strong> </p> <p>기존 증명 뷰어는 정적, 비디오 및 대화형 증명에 대한 증명 기능을 제공하는 웹 기반 증명 뷰어였습니다.</p> </td> 
-   <td> <p><strong>웹 증명 뷰어 및 데스크탑 증명 뷰어</strong> </p> <p>웹 증명 뷰어는 정적 증명 및 비디오 증명에 대한 증명 기능을 제공합니다.</p> <p>Desktop Proofing Viewer는 정적 증명 및 비디오 증명에 대한 모든 지원을 제공할 뿐만 아니라 대화형 증명에 대한 증명 기능을 제공합니다.</p> <p>SWF 파일 형식은 더 이상 주요 공급자에서 지원되지 않으며 증명을 위해 HTML 5 배너로 대체되었습니다. </p> <p>사용 가능한 증명 뷰어 간의 차이에 대한 자세한 내용은 <a href="../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md" class="MCXref xref">웹 증명 뷰어와 데스크탑 증명 뷰어의 차이점 개요</a>.</p> </td> 
+   <td> <p><strong>웹 증명 뷰어 및 데스크톱 증명 뷰어</strong> </p> <p>웹 증명 뷰어는 정적 증명 및 비디오 증명에 대한 증명 기능을 제공합니다.</p> <p>Desktop Proofing Viewer는 정적 증명 및 비디오 증명에 대한 모든 지원을 제공할 뿐만 아니라 대화형 증명에 대한 증명 기능을 제공합니다.</p> <p>SWF 파일 형식은 더 이상 주요 공급자에서 지원되지 않으며 증명을 위해 HTML 5 배너로 대체되었습니다. </p> <p>사용 가능한 증명 뷰어 간의 차이에 대한 자세한 내용은 <a href="../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md" class="MCXref xref">웹 증명 뷰어와 데스크톱 증명 뷰어 간의 차이점</a>을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>

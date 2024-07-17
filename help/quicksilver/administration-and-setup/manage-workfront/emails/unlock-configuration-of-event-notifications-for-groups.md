@@ -21,7 +21,7 @@ Adobe Workfront 관리자인 경우 그룹 관리자가 관리하는 최상위 �
 
 관리하는 그룹 위에 그룹이 있는 경우 해당 관리자는 해당 그룹에 대해 이 작업을 수행할 수도 있습니다. Workfront 관리자(모든 그룹)의 경우도 마찬가지입니다.
 
-관리자가 그룹에 대한 이벤트 알림을 구성할 때 이 구성은 해당 그룹 또는 하위 그룹 중 하나가 홈 그룹인 사용자에게 영향을 줍니다. 이러한 사용자는 사용자 프로필에서 시스템 전체에서 활성화된 이벤트 알림 대신 홈 그룹에 대해 활성화된 이벤트 알림을 보게 됩니다. 자세한 내용은 [그룹에 대한 이벤트 알림 보기 및 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
+관리자가 그룹에 대한 이벤트 알림을 구성할 때 이 구성은 해당 그룹 또는 하위 그룹 중 하나가 홈 그룹인 사용자에게 영향을 줍니다. 이러한 사용자는 사용자 프로필에서 시스템 전체에서 활성화된 이벤트 알림 대신 홈 그룹에 대해 활성화된 이벤트 알림을 보게 됩니다. 자세한 내용은 [그룹에 대한 이벤트 알림 보기 및 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)을 참조하세요.
 
 >[!NOTE]
 >
@@ -58,19 +58,19 @@ Adobe Workfront 관리자인 경우 그룹 관리자가 관리하는 최상위 �
 >
 >알림을 다시 잠그면 시스템의 모든 그룹은 사용자가 설정한 대로 알림을 상속합니다. 이는 그룹 관리자가 그룹에 대해 수행한 모든 변경 사항을 무시하므로 먼저 그룹과 협의하는 것이 좋습니다.
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 상단에서 을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png).
+1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
 
-1. 클릭 **이메일** > **알림**.
+1. **전자 메일** > **알림**&#x200B;을 클릭합니다.
 
-1. 다음을 확인합니다. **이벤트 알림** 탭이 열려 있습니다.
-1. 알림 오른쪽에 있는 아이콘을 클릭하여 잠금으로 전환합니다. ![잠금 아이콘](assets/lock-toggle-button.png) 또는 잠금 해제됨 ![잠금 해제 아이콘](assets/unlock-toggle-button.png) 위치.
+1. **이벤트 알림** 탭이 열려 있는지 확인하십시오.
+1. 알림 오른쪽에 있는 아이콘을 클릭하여 잠긴 ![잠금 아이콘](assets/lock-toggle-button.png) 또는 잠금 해제된 ![잠금 해제 아이콘](assets/unlock-toggle-button.png) 위치로 전환하십시오.
 
    또는
 
-   여러 알림을 한 번에 잠금 해제하거나 잠그려면 선택한 다음 잠금 해제를 클릭합니다 ![잠금 해제 아이콘](assets/unlock-icon-toolbar.png) 또는 잠금 ![잠금 아이콘](assets/lock-icon-locked-qs.png) 목록 위의 도구 모음에 표시되는 단추입니다.
+   여러 알림을 한 번에 잠금 해제하거나 잠그려면 해당 알림을 선택한 다음 목록 위의 도구 모음에 표시되는 ![잠금 해제 아이콘](assets/unlock-icon-toolbar.png) 또는 ![잠금 아이콘](assets/lock-icon-locked-qs.png) 잠금 버튼을 클릭합니다.
 
 1. **저장**&#x200B;을 클릭합니다.
 1. (선택 사항) 이 작업을 그룹 관리자에게 맡기는 대신 최상위 그룹에 대한 이벤트 알림을 구성하려면 다음 중 하나를 수행할 수 있습니다.
 
-   * 삭제 **시스템 이벤트 알림** 알림 목록 위의 검색 상자에서 알림을 나열할 최상위 그룹 이름을 검색하여 선택한 다음 표시되는 목록에서 잠금 해제된 알림을 활성화하거나 비활성화합니다.
-   * 클릭 **그룹** 왼쪽 메뉴에서 최상위 그룹 이름을 클릭합니다. 클릭 **이벤트 알림** 에 설명된 대로 왼쪽 패널에서 잠금 해제된 이벤트 알림을 구성합니다 [그룹에 대한 이벤트 알림 보기 및 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
+   * 알림 목록 위의 검색 상자에서 **시스템 이벤트 알림**&#x200B;을 삭제하고, 알림을 나열할 최상위 그룹의 이름을 검색하여 선택한 다음 표시되는 목록에서 잠금 해제된 알림을 활성화하거나 비활성화합니다.
+   * 왼쪽 메뉴에서 **그룹**&#x200B;을 클릭한 다음 최상위 그룹의 이름을 클릭합니다. [그룹에 대한 이벤트 알림 보기 및 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)에 설명된 대로 왼쪽 패널에서 **이벤트 알림**&#x200B;을 클릭한 다음 잠금 해제된 이벤트 알림을 구성하십시오.

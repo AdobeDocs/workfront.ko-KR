@@ -49,7 +49,7 @@ ht-degree: 0%
 >
 >시스템 활동 탭에서 시스템 업데이트에 회신할 수 없습니다. 2024년 4월 11일 이전의 기존 댓글 달기 환경에서 수행된 시스템 업데이트에 대한 모든 답글은 읽기 전용으로 표시됩니다.
 
-이 문서에서는 Workfront에 있는 대부분의 개체에서 댓글에 응답하는 방법에 대해 설명합니다. 다양한 객체의 업데이트 섹션 간의 차이점에 대해서는 다음을 참조하십시오. [업데이트 섹션 개요](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+이 문서에서는 Workfront에 있는 대부분의 개체에서 댓글에 응답하는 방법에 대해 설명합니다. 다양한 개체의 업데이트 섹션 간의 차이점을 보려면 [업데이트 섹션 개요](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)를 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -79,39 +79,39 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오. 자세한 내용은 [Workfront 설명서에 대한 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오. 자세한 내용은 [Workfront 설명서에 대한 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## Workfront에서 업데이트 또는 회신에 회신
 
-볼 수 있는 오브젝트의 스레드에서 댓글에 답글을 달 수 있습니다. 또는 Workfront 또는 그룹 관리자로 로그인하여 다른 사용자를 대신하여 댓글에 답글을 달 수 있습니다. 자세한 내용은 [다른 사용자로 로그인](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+볼 수 있는 오브젝트의 스레드에서 댓글에 답글을 달 수 있습니다. 또는 Workfront 또는 그룹 관리자로 로그인하여 다른 사용자를 대신하여 댓글에 답글을 달 수 있습니다. 자세한 내용은 [다른 사용자로 로그인](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md)을 참조하십시오.
 
 ### 댓글에 회신
 
 오브젝트의 업데이트 섹션에 있는 댓글에 대한 회신은 Workfront에 있는 대부분의 오브젝트에서 유사합니다.
 
 1. 회신을 추가할 객체로 이동합니다.
-1. 클릭 **업데이트**&#x200B;을(를) 클릭하고 **댓글** 개체 탭과 회신할 댓글 또는 회신을 찾습니다.
+1. **업데이트**&#x200B;를 클릭한 다음 개체에 대한 **댓글** 탭을 클릭하고 회신할 댓글 또는 회신을 찾습니다
 
    또는
 
-   다음을 클릭합니다. **모두** 탭을 클릭한 다음 를 클릭합니다 **댓글로 회신** 를 클릭하여 댓글 탭에서 댓글을 열고 회신합니다. 모두 탭에서 회신할 수 없습니다.
+   **모두** 탭을 클릭한 다음 **댓글에서 답글 작성**&#x200B;을 클릭하여 댓글 탭에서 댓글을 열고 회신합니다. 모두 탭에서 회신할 수 없습니다.
 
-1. (선택 사항) 회신에 이전 업데이트의 텍스트를 포함하려면 **자세히** 회신할 댓글의 오른쪽 위 모서리에 있는 메뉴를 클릭한 다음 **견적 회신**. 이전 업데이트의 텍스트가 입력 영역에 세로로 회색 선으로 표시됩니다.
-1. 클릭 **답변**.
+1. (선택 사항) 회신에 이전 업데이트의 텍스트를 포함하려면 회신할 댓글의 오른쪽 상단에 있는 **자세히** 메뉴를 클릭한 다음 **회신 견적**&#x200B;을 클릭합니다. 이전 업데이트의 텍스트가 입력 영역에 세로로 회색 선으로 표시됩니다.
+1. **회신**&#x200B;을 클릭합니다.
 
    ![](assets/reply-to-update-empty-box.png)
 
-   대화에 적극적으로 참여하는 사용자를 아래 부분에서 확인할 수 있습니다 **회신 추가...** 상자를 선택하면 더 이상 관련이 없는 항목을 추가하거나 제거할 수 있습니다. 이러한 사용자는 오브젝트에 가입된 사용자와 함께 오브젝트에 대한 업데이트 또는 회신이 이루어질 때마다 알림을 받습니다. 더 많은 사용자에 태그를 지정하여 회신에 추가할 수도 있습니다.  더 많은 사용자에 태그를 지정하려면 다음을 참조하십시오. [업데이트에 다른 사용자 태그 지정](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   **회신 추가...** 상자 아래쪽에 대화에 적극적으로 참여한 사용자가 표시되어 더 이상 관련이 없는 사용자를 추가하거나 제거할 수 있습니다. 이러한 사용자는 오브젝트에 가입된 사용자와 함께 오브젝트에 대한 업데이트 또는 회신이 이루어질 때마다 알림을 받습니다. 더 많은 사용자에 태그를 지정하여 회신에 추가할 수도 있습니다.  더 많은 사용자를 태그 지정하려면 [업데이트에 다른 사용자 태그 지정](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)을 참조하세요.
 
    >[!TIP]
    >
-   >   기존 회신에 추가 회신을 추가하려면 **회신 추가...** 상자 또는 클릭 **답변** 원래 주석에. 답변은 스레드 끝에 추가됩니다.
+   >   기존 회신에 회신을 추가하려면 **회신 추가...** 상자에 입력을 시작하거나 원래 댓글에서 **회신**&#x200B;을 클릭할 수 있습니다. 답변은 스레드 끝에 추가됩니다.
 
-1. 답글 입력을 시작하고 리치 텍스트 도구 모음에서 추가 옵션을 사용하십시오. 리치 텍스트 또는 기타 업데이트 기능 사용에 대한 자세한 내용은 [작업 업데이트](../updating-work-items-and-viewing-updates/update-work.md).
+1. 답글 입력을 시작하고 리치 텍스트 도구 모음에서 추가 옵션을 사용하십시오. 서식 있는 텍스트나 기타 업데이트 기능에 대한 자세한 내용은 [작업 업데이트](../updating-work-items-and-viewing-updates/update-work.md)를 참조하세요.
 
-1. 클릭 **제출** 회신을 저장합니다.
+1. 회신을 저장하려면 **제출**&#x200B;을 클릭하세요.
 
-1. (선택 사항) **자세히** 메뉴 ![](assets/more-menu.png) 답글을 관리할 추가 옵션을 보려면 답글을 달려는 댓글의 오른쪽 상단 모서리에서 을(를) 참조하십시오. 자세한 내용은 [작업 업데이트](../updating-work-items-and-viewing-updates/update-work.md).
+1. (선택 사항) 회신을 관리할 추가 옵션을 보려면 회신할 댓글의 오른쪽 상단에 있는 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭합니다. 자세한 내용은 [작업 업데이트](../updating-work-items-and-viewing-updates/update-work.md)를 참조하세요.
 
 <!--
 ### Reply to an update or reply in the legacy Updates section
@@ -149,7 +149,7 @@ ht-degree: 0%
 
 ![email.png](assets/email-350x202.png)
 
-자세한 내용은 [이메일 알림에 회신](../updating-work-items-and-viewing-updates/reply-to-email-notifications.md).
+자세한 내용은 [전자 메일 알림에 회신](../updating-work-items-and-viewing-updates/reply-to-email-notifications.md)을 참조하세요.
 
 
 

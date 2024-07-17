@@ -46,19 +46,19 @@ External은 주로 Workfront을 사용하지 않는 공동 작업자와 문서�
  <tbody> 
   <tr> 
    <td><p><strong>라이선스</strong></p></td> 
-   <td> <p>액세스 수준에 첨부된 라이선스는 액세스 수준을 구성하는 방법을 결정합니다.</p> <p>자세한 내용은 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">라이선스 개요</a>.</p> <p><strong>팁</strong>: 사용자 목록 또는 보고서를 보면 각 사용자에게 할당된 액세스 수준 및 라이선스를 볼 수 있습니다. 자세한 내용은 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md" class="MCXref xref">사용자의 액세스 수준 및 라이선스 나열</a>.</p> </td> 
+   <td> <p>액세스 수준에 첨부된 라이선스는 액세스 수준을 구성하는 방법을 결정합니다.</p> <p>자세한 내용은 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">라이선스 개요</a>를 참조하십시오.</p> <p><strong>팁</strong>: 사용자 목록 또는 보고서를 보면 각 사용자에게 할당된 액세스 수준 및 라이선스를 확인할 수 있습니다. 지침은 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md" class="MCXref xref">사용자의 액세스 수준 및 라이선스 나열</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>기본 제공 액세스 수준</strong></td> 
-   <td> <p>위의 이미지에 표시된 6개의 기본 제공 액세스 수준에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">기본 제공 액세스 수준</a>.</p> </td> 
+   <td> <p>위의 이미지에 표시된 6개의 기본 제공 액세스 수준에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">기본 제공 액세스 수준</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>액세스 수준 할당</strong></td> 
-   <td> <p>사용자에게 액세스 수준을 할당하는 방법에 대한 지침은 을 참조하십시오. <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">사용자 프로필 편집</a>.</p> </td> 
+   <td> <p>사용자에게 액세스 수준을 할당하는 방법에 대한 지침은 <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">사용자 프로필 편집</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td>액세스 수준 표준, 라이트, 기여자</td> 
-   <td> <p>계획, 작업, 검토 또는 요청 대신 환경에 이러한 액세스 수준이 표시되면 조직에서 새로운 액세스 수준 모델을 사용합니다. 새 모델에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">새로운 액세스 수준 개요</a>.</p> </td> 
+   <td> <p>계획, 작업, 검토 또는 요청 대신 환경에 이러한 액세스 수준이 표시되면 조직에서 새로운 액세스 수준 모델을 사용합니다. 새 모델에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">새 액세스 수준 개요</a>를 참조하십시오.</p> </td> 
   </tr> 
   <!--
   <tr> 

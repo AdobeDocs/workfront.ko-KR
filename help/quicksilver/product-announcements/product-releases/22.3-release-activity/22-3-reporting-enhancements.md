@@ -15,7 +15,7 @@ ht-degree: 3%
 
 # 22.3 보고 개선 사항
 
-이 페이지에서는 미리보기 환경에 대한 22.3 릴리스의 모든 보고 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2022년 7월 11일이 있는 주에 프로덕션 환경에서 사용할 수 있습니다. 22.3 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [22.3 릴리스 개요](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+이 페이지에서는 미리보기 환경에 대한 22.3 릴리스의 모든 보고 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2022년 7월 11일이 있는 주에 프로덕션 환경에서 사용할 수 있습니다. 22.3 릴리스에서 사용할 수 있는 모든 변경 사항 목록을 보려면 [22.3 릴리스 개요](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)를 참조하십시오.
 
 ## 목록 및 보고서의 리소스 예산 필드 제거 및 추가
 
@@ -35,5 +35,5 @@ ht-degree: 3%
 * 예산 비용
 
 
-자세한 내용은 [프로젝트의 예산 인건비 및 예산 시간 이해](/help/quicksilver/manage-work/projects/project-finances/budgeted-labor-cost.md).
+자세한 내용은 [프로젝트 예산 인건비 및 예산 시간 이해](/help/quicksilver/manage-work/projects/project-finances/budgeted-labor-cost.md)를 참조하십시오.
 

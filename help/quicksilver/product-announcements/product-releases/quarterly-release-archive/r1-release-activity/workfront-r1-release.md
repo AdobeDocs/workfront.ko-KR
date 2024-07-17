@@ -29,10 +29,10 @@ Workfront은 매년 3회 모든 제품 라인에 새 제품 기능을 출시합�
 ## WORKFRONT 개선 사항 {#workfront-enhancements}
 
 ![Outlook_365_Integration_1.png](assets/outlook-365-integration-1-350x212.png)\
-**이메일에서 바로 작업 관리**
+**전자 메일에서 바로 작업 관리**
 Outlook 365에 직접 통합하면 Outlook 365에서 직접 Workfront을 업데이트할 때 중복 작업을 제거할 수 있습니다. Outlook을 종료하지 않고도 이메일을 작업으로 전환하고, 이메일 대화 및 첨부 파일을 업데이트로 보내고, 댓글에 응답합니다.
 
-자세한 내용은 다음을 참조하십시오.  [2016년 미리보기에서 사용할 수 있는 기능](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md)
+자세한 내용은 다음을 참조하십시오.  [2016년에 미리 보기에서 사용할 수 있는 기능](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md)
 
 ![](assets/mceclip0-350x218.png)\
 **프로젝트 추적 및 예산 유지**
@@ -56,7 +56,7 @@ Outlook 365에 직접 통합하면 Outlook 365에서 직접 Workfront을 업데�
 **Workfront 휴지통**
 새로운 Workfront 휴지통을 사용하면 삭제 후 30일 이내에 프로젝트, 작업, 문제 및 모든 관련 문서, 양식 및 업데이트를 복원할 수 있습니다.
 
-자세한 내용은 다음을 참조하십시오.  [R1 미리보기 1 및 2](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-peview-1-and-2.md)
+자세한 내용은 다음을 참조하십시오.  [R1 미리 보기 1 및 2](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-peview-1-and-2.md)
 
 ### PROOFHQ 개선 사항 {#proofhq-enhancements}
 
@@ -72,19 +72,19 @@ ProofHQ의 새 보고 지표를 사용하면 반환 시간, 지연 백분율, �
 
 자세한 내용은 다음을 참조하십시오.  [R1 최종](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md)
 
-**ProofHQ 미리보기**
+**ProofHQ 미리 보기**
 이제 ProofHQ를 사용하여 모든 사용자에게 릴리스하기 전에 미리보기 환경에서 새로운 기능을 테스트할 수 있습니다.
 
 ## WORKFRONT DAM 개선 사항 {#workfront-dam-enhancements}
 
 ![](assets/mceclip6-350x195.png)\
-**DAM 임베드된 링크**
+**DAM 포함된 링크**
 외부 플랫폼에 대한 디지털 에셋의 사용을 관리, 게시 및 추적하는 더 나은 방법이 필요한 마케팅 팀을 위해 임베드된 링크 기능은 적절한 시간에 적절한 콘텐츠를 공유하는 프로세스를 관리하는 데 필요한 제어 기능을 제공합니다.
 
 **DAM 필수 메타데이터 필드**
 에셋 공유를 보다 강력하게 제어할 수 있는 필수 메타데이터 필드를 사용하여 디지털 에셋 분류를 개선합니다.
 
-**Workfront에 대한 모든 사용자의 참여와 효율성을 유지하십시오.**
+**Workfront에 대한 모든 사용자의 참여와 효율성을 유지합니다.**
 Workfront은 최신 지식 근로자와 경영진이 다음과 같은 작업을 수행할 수 있는 엔터프라이즈 작업 관리 솔루션입니다.
 
 * 개인 및 조직의 선호도에 맞게 작업을 조정하고 채택률을 높입니다.
@@ -94,6 +94,6 @@ Workfront은 최신 지식 근로자와 경영진이 다음과 같은 작업을 
 
 **자세히 알아보기**
 
-* R1에서 사용할 수 있는 개선 사항의 전체 목록은 다음과 같습니다. [R1 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md)
+* R1에서 사용할 수 있는 전체 개선 사항 목록: [R1 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md)
 
 Workfront. 일이 중요하니까

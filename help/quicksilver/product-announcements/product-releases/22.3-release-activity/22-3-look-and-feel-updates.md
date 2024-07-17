@@ -17,7 +17,7 @@ ht-degree: 14%
 
 이 페이지에서는 22.3 릴리스 기간 내에 이루어진 Adobe Workfront 애플리케이션의 다양한 영역의 모양 및 느낌에 대한 작은 업데이트를 설명합니다. 이러한 개선 사항은 미리보기에 릴리스한 후 최소 2주 동안 프로덕션 환경에서 사용할 수 있었습니다.
 
-22.3 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [22.3 릴리스 개요](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+22.3 릴리스에서 사용할 수 있는 모든 변경 사항 목록을 보려면 [22.3 릴리스 개요](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)를 참조하십시오.
 
 ## 글로벌 룩앤필 업데이트
 
@@ -43,6 +43,6 @@ Adobe 제품의 정렬을 개선하고 Workfront 애플리케이션 전체의 �
 
 >[!NOTE]
 >
->이 변경 사항은 2022년 5월 23일 프로덕션에서 업데이트되었습니다. 다음을 참조하십시오. [자세한 내용은 2022년 5월 26일 유지 보수 업데이트](https://one.workfront.com/s/article/Maintenance-Update-on-May-26-2022).
+>이 변경 사항은 2022년 5월 23일 프로덕션에서 업데이트되었습니다. 자세한 내용은 [2022년 5월 26일 유지 보수 업데이트](https://one.workfront.com/s/article/Maintenance-Update-on-May-26-2022)를 참조하십시오.
 
 이동 경로를 사용할 수 있는 모든 영역에서 이동 경로 구분 기호를 업데이트했습니다. 이제 이동 경로의 오브젝트가 파이프(|)로 구분됩니다. 이 업데이트 이전에는 슬래시(/)로 구분되었습니다.

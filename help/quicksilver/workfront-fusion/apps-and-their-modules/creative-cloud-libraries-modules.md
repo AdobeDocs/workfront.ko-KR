@@ -5,24 +5,24 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Adobe Creative Cloud 라이브러리 모듈
-description: 포함 [!DNL Adobe Workfront Fusion Adobe Creative Cloud] 라이브러리 모듈에서는 요소나 라이브러리를 만들거나 업데이트할 때 시나리오를 시작할 수 있습니다. 요소를 업로드, 검색, 보관 또는 나열하거나 [!DNL Adobe Creative Cloud Libraries] API.
+description: ' [!DNL Adobe Workfront Fusion Adobe Creative Cloud] 라이브러리 모듈을 사용하면 요소 또는 라이브러리를 만들거나 업데이트할 때 시나리오를 시작할 수 있습니다. 요소를 업로드, 검색, 보관 또는 나열하거나  [!DNL Adobe Creative Cloud Libraries] API를 호출할 수도 있습니다.'
 author: Becky
 feature: Workfront Fusion
 exl-id: 8affa34b-803d-48a5-a986-9fbe0cb8c8f5
 source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1241'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
 # Adobe Creative Cloud 라이브러리 모듈
 
-포함 [!DNL Adobe Workfront Fusion] [!DNL Adobe Creative Cloud Libraries] 모듈에서는 요소나 라이브러리를 만들거나 업데이트할 때 시나리오를 시작할 수 있습니다. 요소를 업로드, 검색, 보관 또는 나열하거나 [!DNL Adobe Creative Cloud Libraries] API.
+[!DNL Adobe Workfront Fusion] [!DNL Adobe Creative Cloud Libraries] 모듈을 사용하면 요소 또는 라이브러리를 만들거나 업데이트할 때 시나리오를 시작할 수 있습니다. 요소를 업로드, 검색, 보관 또는 나열하거나 [!DNL Adobe Creative Cloud Libraries] API를 호출할 수도 있습니다.
 
-시나리오를 만드는 방법에 대한 지침이 필요한 경우 [시나리오 만들기](../../workfront-fusion/scenarios/create-a-scenario.md).
+시나리오를 만드는 방법에 대한 지침은 [시나리오 만들기](../../workfront-fusion/scenarios/create-a-scenario.md)를 참조하십시오.
 
-모듈에 대한 자세한 내용은 [의 모듈 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+모듈에 대한 자세한 내용은 [의 모듈 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md)을 참조하세요.
 
 ## 액세스 요구 사항
 
@@ -47,36 +47,36 @@ ht-degree: 1%
     <tr>
       <td role="rowheader">[!DNL Adobe Workfront Fusion] 라이센스**</td>
       <td>
-   <p>현재 라이선스 요구 사항: 아니요 [!DNL Workfront Fusion] 라이센스 요구 사항.</p>
+   <p>현재 라이선스 요구 사항: [!DNL Workfront Fusion] 라이선스 요구 사항이 없습니다.</p>
    <p>또는</p>
-   <p>기존 라이선스 요구 사항: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
+   <p>레거시 라이선스 요구 사항: 작업 자동화 및 통합을 위한 [!UICONTROL [!DNL Workfront Fusion]] </p>
    </td>
     </tr>
     <tr>
       <td role="rowheader">제품</td>
       <td>
-   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime]이 있는 경우 [!DNL Adobe Workfront] 플랜, 조직은 다음을 구매해야 합니다. [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오. [!DNL Workfront Fusion] [!UICONTROL Ultimate]에 포함되어 있습니다. [!DNL Workfront] 계획.</p>
+   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime] [!DNL Adobe Workfront] 플랜이 있는 경우 조직에서 이 문서에 설명된 기능을 사용하려면 [!DNL Adobe Workfront Fusion]과(와) [!DNL Adobe Workfront]을(를) 구매해야 합니다. [!DNL Workfront Fusion]이(가) [!UICONTROL Ultimate] [!DNL Workfront] 계획에 포함되어 있습니다.</p>
    <p>또는</p>
-   <p>레거시 제품 요구 사항: 조직에서 구매해야 함 [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오.</p>
+   <p>레거시 제품 요구 사항: 이 문서에 설명된 기능을 사용하려면 조직에서 [!DNL Adobe Workfront Fusion]과(와) [!DNL Adobe Workfront]을(를) 구매해야 합니다.</p>
    </td>
     </tr>
   </tbody>
 </table>
 
 
-보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
+보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
 
-다음에 대한 정보: [!DNL Adobe Workfront Fusion] 라이센스, 참조 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+[!DNL Adobe Workfront Fusion] 라이선스에 대한 자세한 내용은 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md)를 참조하세요.
 
 ## 전제 조건
 
-사용 [!DNL Adobe Creative Cloud Libraries] 모듈, 다음 항목이 있어야 합니다. [!UICONTROL Adobe Creative Cloud] 계정입니다.
+[!DNL Adobe Creative Cloud Libraries] 모듈을 사용하려면 [!UICONTROL Adobe Creative Cloud] 계정이 있어야 합니다.
 
 ## [!UICONTROL Adobe Creative Cloud 라이브러리] 모듈 및 해당 필드
 
-를 구성할 때 [!UICONTROL Adobe Creative Cloud 라이브러리] 모듈, [!DNL Workfront Fusion] 아래 나열된 필드를 표시합니다. 이와 함께 추가 [!DNL Adobe Creative Cloud Libraries] 앱이나 서비스의 액세스 수준 등에 따라 필드가 표시될 수 있습니다. 모듈의 굵은 제목은 필수 필드를 나타냅니다.
+[!UICONTROL Adobe Creative Cloud 라이브러리] 모듈을 구성할 때 [!DNL Workfront Fusion]에 아래 나열된 필드가 표시됩니다. 앱 또는 서비스의 액세스 수준과 같은 요소에 따라 이러한 필드와 함께 [!DNL Adobe Creative Cloud Libraries] 필드가 추가로 표시될 수 있습니다. 모듈의 굵은 제목은 필수 필드를 나타냅니다.
 
-필드나 함수 위에 맵 단추가 표시되면 이 단추를 사용하여 해당 필드에 대한 변수와 함수를 설정할 수 있습니다. 자세한 내용은 [의 한 모듈에서 다른 모듈로 정보 매핑 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+필드나 함수 위에 맵 단추가 표시되면 이 단추를 사용하여 해당 필드에 대한 변수와 함수를 설정할 수 있습니다. 자세한 내용은 [한 모듈에서 다른 모듈로 정보를 매핑 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)을 참조하십시오.
 
 ![](assets/map-toggle-350x74.png)
 
@@ -94,7 +94,7 @@ ht-degree: 1%
 
 * [[!UICONTROL 요소 가져오기]](#get-an-element)
 
-* [[!UICONTROL 목록 요소]](#list-elements)
+* [[!UICONTROL 요소 나열]](#list-elements)
 
 * [[!UICONTROL 요소 업로드]](#upload-an-element)
 
@@ -113,7 +113,7 @@ ht-degree: 1%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>연결에 대한 자세한 내용 [!DNL Adobe Creative Cloud] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</td>
+      <td>[!DNL Adobe Creative Cloud] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침을 참조하십시오.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 라이브러리 ID]</td>
@@ -136,7 +136,7 @@ ht-degree: 1%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>연결에 대한 자세한 내용 [!DNL Adobe Creative Cloud] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</td>
+      <td>[!DNL Adobe Creative Cloud] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침을 참조하십시오.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 라이브러리 ID]</td>
@@ -172,7 +172,7 @@ ht-degree: 1%
   </tbody>
 </table>
 
-#### [!UICONTROL 목록 요소]
+#### [!UICONTROL 요소 나열]
 
 이 작업 모듈은 라이브러리의 요소 목록을 검색합니다.
 
@@ -182,7 +182,7 @@ ht-degree: 1%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>연결에 대한 자세한 내용 [!DNL Adobe Creative Cloud] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</td>
+      <td>[!DNL Adobe Creative Cloud] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침을 참조하십시오.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 라이브러리 ID]</td>
@@ -194,7 +194,7 @@ ht-degree: 1%
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 유형]</td>
-      <td >지정된 MIME 유형으로 식별된 요소로 결과를 제한하려면 MIME 유형을 입력합니다. 예: <code>string</code>.</td>
+      <td >지정된 MIME 유형으로 식별된 요소로 결과를 제한하려면 MIME 유형을 입력합니다. 예: <code>string</code></td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Selector]</td>
@@ -236,7 +236,7 @@ ht-degree: 1%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>연결에 대한 자세한 내용 [!DNL Adobe Creative Cloud] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</td>
+      <td>[!DNL Adobe Creative Cloud] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침을 참조하십시오.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 라이브러리 ID]</td>
@@ -258,7 +258,7 @@ ht-degree: 1%
             <p>비동기 모니터 응답이 즉시 반환되고 요청 처리가 비동기적으로 발생합니다. 호출은 완료될 때까지 끝점을 폴링합니다.</p>
           </li>
           <li>
-            <p><b>[!UICONTROL sync,async]</b> (기본값)</p>
+            <p><b>[!UICONTROL sync,async]</b>(기본값)</p>
             <p>요청의 동기 처리를 시도했습니다. 처리가 5000ms를 초과할 경우 비동기 모니터 응답이 반환됩니다. 요청이 완료될 때까지 모니터 URL을 폴링해야 합니다.</p>
           </li>
         </ul>
@@ -269,7 +269,7 @@ ht-degree: 1%
       <td >업로드한 파일의 MIME 유형을 입력하거나 매핑합니다.</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 소스 파일]</td>
+      <td role="rowheader">[!UICONTROL Source 파일]</td>
       <td>
         <p>이전 모듈에서 소스 파일을 선택하거나 소스 파일의 이름과 데이터를 매핑합니다.</p>
       </td>
@@ -277,7 +277,7 @@ ht-degree: 1%
   </tbody>
 </table>
 
-#### [!UICONTROL 라이브러리에서 새 요소 보기]
+#### [!UICONTROL 라이브러리의 새 요소 보기]
 
 이 트리거 모듈은 요소가 라이브러리에 추가되면 시나리오를 시작합니다.
 
@@ -287,7 +287,7 @@ ht-degree: 1%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>연결에 대한 자세한 내용 [!DNL Adobe Creative Cloud] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</td>
+      <td>[!DNL Adobe Creative Cloud] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침을 참조하십시오.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 라이브러리 ID]</td>
@@ -311,7 +311,7 @@ ht-degree: 1%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>연결에 대한 자세한 내용 [!DNL Adobe Creative Cloud] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</td>
+      <td>[!DNL Adobe Creative Cloud] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침을 참조하십시오.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 라이브러리 ID]</td>
@@ -341,7 +341,7 @@ ht-degree: 1%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>연결에 대한 자세한 내용 [!DNL Adobe Creative Cloud] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</td>
+      <td>[!DNL Adobe Creative Cloud] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침을 참조하십시오.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 제한]</td>
@@ -360,7 +360,7 @@ ht-degree: 1%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>연결에 대한 자세한 내용 [!DNL Adobe Creative Cloud] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</td>
+      <td>[!DNL Adobe Creative Cloud] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침을 참조하십시오.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 제한]</td>
@@ -373,7 +373,7 @@ ht-degree: 1%
 
 #### [!UICONTROL API 호출 만들기]
 
-이 모듈에서는에 대한 사용자 지정 API 호출을 만듭니다. [!DNL Adobe Creative Cloud Libraries] API.
+이 모듈은 [!DNL Adobe Creative Cloud Libraries] API에 대한 사용자 지정 API 호출을 만듭니다.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -381,23 +381,23 @@ ht-degree: 1%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td> <p>Adobe Creative Cloud 계정을 Workfront Fusion에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe Workfront Fusion에 대한 연결 만들기 - 기본 지침</a></p>
+      <td> <p>Adobe Creative Cloud 계정을 Workfront Fusion에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe Workfront Fusion 연결 만들기 - 기본 지침</a>을 참조하십시오.</p>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL URL]</td>
       <td>
-        <p>상대 경로 입력 <code>https://cc-libraries.adobe.io/api</code>.</p>
-    <p>For example <code>/v1/libraries</code>.</p>
+        <p><code>https://cc-libraries.adobe.io/api</code>과(와) 관련된 경로를 입력하십시오.</p>
+    <p>예: <code>/v1/libraries</code>.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL API version]</td>
       <td>
-        <p>버전 선택 [!DNL Adobe Analytics] 연결할 API입니다.</p>
+        <p>연결할 [!DNL Adobe Analytics] API의 버전을 선택하십시오.</p>
       </td>
     </tr>    <tr>
       <td role="rowheader">[!UICONTROL 메서드]</td>
-      <td> <p>API 호출을 구성하는 데 필요한 HTTP 요청 메서드를 선택합니다. 자세한 내용은 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">의 HTTP 요청 메서드 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+      <td> <p>API 호출을 구성하는 데 필요한 HTTP 요청 메서드를 선택합니다. 자세한 내용은 [!DNL Adobe Workfront Fusion]</a>에서 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">HTTP 요청 메서드를 참조하십시오.</p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Headers]</td>
@@ -416,7 +416,7 @@ ht-degree: 1%
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Body]</td>
-   <td> <p>표준 JSON 개체의 형태로 API 호출에 대한 본문 콘텐츠를 추가합니다.</p> <p>참고:  <p>다음과 같은 조건문을 사용할 때 <code>if</code> json에서 따옴표를 조건문 외부에 넣습니다.</p> 
+   <td> <p>표준 JSON 개체의 형태로 API 호출에 대한 본문 콘텐츠를 추가합니다.</p> <p>참고:  <p>JSON에서 <code>if</code>과(와) 같은 조건문을 사용할 때 따옴표를 조건문 외부에 넣으십시오.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>

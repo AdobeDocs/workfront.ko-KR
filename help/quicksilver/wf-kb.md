@@ -27,7 +27,7 @@ ht-degree: 13%
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Enhanced analytics</li>
   -->
 
-* [타임시트: 문서 색인](timesheets/timesheets-all.md)
+* [타임시트: 문서 인덱스](timesheets/timesheets-all.md)
 * [Adobe Workfront 통합](workfront-integrations-and-apps/workfront-integrations.md)
 <!--* [Adobe Workfront API](wf-api/workfront-api.md) -->
 * [Workfront Proof](workfront-proof/workfront-proof.md)

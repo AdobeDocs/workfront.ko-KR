@@ -17,7 +17,7 @@ ht-degree: 0%
 
 이 페이지에서는 미리보기 환경에 대한 20.4 릴리스의 모든 분석 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2020년 11월 9일이 있는 주에 프로덕션 환경에서 사용할 수 있습니다.
 
-20.4 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [20.4 릴리스 개요](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
+20.4 릴리스에서 사용할 수 있는 모든 변경 사항 목록은 [20.4 릴리스 개요](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md)를 참조하십시오.
 
 ## 고급 분석에 추가된 페이지 매김 및 정렬
 
@@ -29,4 +29,4 @@ ht-degree: 0%
 
 이전에는 향상된 분석 영역에서 볼 수 있는 프로젝트의 양을 50개로 제한했습니다.
 
-이 기능은 이제 [향상된 Analytics, 1부 학습 경로](https://one.workfront.com/s/learningpath2/enhanced-analytics-part-1-overview-20Y0z000000bmgOEAQ) Workfront One.
+이 기능은 이제 Workfront One의 [향상된 Analytics, 1부 학습 경로](https://one.workfront.com/s/learningpath2/enhanced-analytics-part-1-overview-20Y0z000000bmgOEAQ)에 포함되어 있습니다.

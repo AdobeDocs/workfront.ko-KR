@@ -51,14 +51,14 @@ ht-degree: 2%
    <td role="rowheader">개체 권한</td> 
    <td> 
     <ul> 
-     <li> <p>템플릿 세부 정보 탭에서 템플릿을 편집할 수 있는 권한을 템플릿에 제공</p> </li> 
+     <li> <p>템플릿 세부 정보 탭에서 편집할 수 있는 템플릿에 대한 Contribute 권한</p> </li> 
      <li> <p>템플릿 편집 상자에서 편집할 템플릿에 대한 권한을 관리합니다.</p> </li> 
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -564,8 +564,8 @@ By editing issue settings, you can prevent users from adding issues inline in th
 -->
 
 1. 편집할 템플릿으로 이동합니다.
-1. (조건부) 템플릿에 대한 제한된 정보를 편집하려면 **템플릿 세부 정보** 왼쪽 패널에서 왼쪽 패널에 나열된 영역으로 이동하여 각 영역에 대한 정보를 편집합니다.
-1. 세부 정보 섹션에서 정보를 편집하려면 **편집** 아이콘 ![](assets/edit-icon.png)을(를) 클릭한 다음 아래 영역 중에서 선택하거나 을(를) 클릭합니다. **모두 편집** 모든 영역의 정보를 편집하려면:
+1. (조건부) 템플릿에 대한 제한된 정보를 편집하려면 왼쪽 패널에서 **템플릿 세부 정보**&#x200B;를 클릭한 다음 왼쪽 패널에 나열된 영역으로 이동하여 각 영역에 대한 정보를 편집합니다.
+1. 세부 정보 섹션의 정보를 편집하려면 **편집** 아이콘 ![](assets/edit-icon.png)을(를) 클릭한 다음 아래 영역 중 하나를 선택하거나 **모두 편집**&#x200B;을(를) 클릭하여 모든 영역의 정보를 편집합니다.
 
    * 개요
    * 사용자 정의 양식
@@ -578,9 +578,9 @@ By editing issue settings, you can prevent users from adding issues inline in th
    >
    >세부 정보 영역에 표시되는 모든 필드에 대한 자세한 내용은 아래의 템플릿 편집 상자를 사용하여 모든 필드 편집을 계속하십시오.
 
-1. (조건부) 템플릿에 대한 모든 정보를 편집하려면 **자세히** 메뉴 ![](assets/qs-more-icon-on-an-object.png) 템플릿 이름 옆에 있는 을(를) 클릭한 다음 을(를) 클릭합니다 **편집**.
+1. (조건부) 템플릿에 대한 모든 정보를 편집하려면 템플릿 이름 옆에 있는 **자세히** 메뉴 ![](assets/qs-more-icon-on-an-object.png)을(를) 클릭한 다음 **편집**&#x200B;을(를) 클릭합니다.
 
-   다음 **템플릿 편집** 상자가 열립니다. 이 상자의 섹션에는 템플릿 세부 정보 섹션에서 사용할 수 있는 것과 동일한 필드가 포함되어 있습니다.
+   **템플릿 편집** 상자가 열립니다. 이 상자의 섹션에는 템플릿 세부 정보 섹션에서 사용할 수 있는 것과 동일한 필드가 포함되어 있습니다.
 
 1. 다음 섹션에서 정보 편집을 고려하십시오.
 
@@ -597,7 +597,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 ### 템플릿 이름{#template-name}
 
 1. 위에서 설명한 대로 템플릿 편집을 시작합니다.
-1. 다음에서 **템플릿 편집** 상자, 클릭 **템플릿 이름**.
+1. **템플릿 편집** 상자에서 **템플릿 이름**&#x200B;을 클릭합니다.
 1. (선택 사항) 수정할 정보에 따라 다음 섹션을 계속 편집합니다
 
    또는
@@ -609,7 +609,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 ### 개요 {#overview-preview}
 
 1. 위에서 설명한 대로 템플릿 편집을 시작합니다.
-1. 다음에서 **템플릿 편집** 상자, 클릭 **개요**.
+1. **템플릿 편집** 상자에서 **개요**&#x200B;를 클릭합니다.
 
    ![](assets/edit-template-box-overview-section.png)
 
@@ -632,7 +632,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
          <li><p><strong>기본</strong></p></li> 
          <li><p><strong>높음</strong></p></li> 
          <li><p><strong>긴급</strong></p></li> 
-         </ul><p><p>Workfront 관리자가 선택한 프로젝트 환경 설정에 따라 우선순위 이름이 다를 수 있습니다. 우선 순위 편집에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">우선 순위 만들기 및 사용자 지정</a>.</p></p></td> 
+         </ul><p><p>Workfront 관리자가 선택한 프로젝트 환경 설정에 따라 우선순위 이름이 다를 수 있습니다. 우선 순위 편집에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">우선 순위 만들기 및 사용자 지정</a>을 참조하십시오.</p></p></td> 
        </tr> 
        <tr> 
        <td role="rowheader"><strong>URL</strong></td> 
@@ -642,31 +642,31 @@ By editing issue settings, you can prevent users from adding issues inline in th
        <td role="rowheader"><strong>상태 유형</strong></td> 
        <td><p>다음 조건 유형 중에서 선택합니다.</p> 
          <ul> 
-         <li><strong>수동:</strong> 프로젝트 소유자는 프로젝트의 상태를 수동으로 설정합니다. <strong></strong></li> 
-         <li><strong>진행 상태:</strong> Workfront은 중요 경로에서 작업의 진행 상태를 기반으로 향후 프로젝트의 상태를 자동으로 설정합니다. 진행 상태 파악에 대한 자세한 내용은 <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">작업 진행 상태 개요</a>.</li> 
+         <li><strong>수동:</strong> 프로젝트 소유자가 프로젝트의 상태를 수동으로 설정합니다. <strong></strong></li> 
+         <li><strong>진행 상태:</strong> Workfront은 중요 경로에 있는 작업의 진행 상태를 기반으로 향후 프로젝트의 상태를 자동으로 설정합니다. 진행 상태를 이해하는 방법에 대한 자세한 내용은 <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">작업 진행 상태 개요</a>를 참조하십시오.</li> 
        </ul>
          </td> 
          </tr> 
        <tr> 
          <td role="rowheader"><strong>일정 모드</strong></td> 
-         <td><p>이 템플릿을 사용하는 프로젝트를 다음에서 예약할지 여부를 지정합니다. <strong>시작일</strong>또는 <strong>완료 일자</strong>. 이 옵션을 선택하면 이 템플릿을 사용하여 프로젝트에 대한 향후 작업의 계획된 일자가 결정됩니다. </p><p>다음 중에서 선택합니다. </p> 
+         <td><p>이 템플릿을 사용하는 프로젝트를 <strong>시작 날짜</strong>부터 예약할지 또는 <strong>완료 날짜</strong>부터 예약할지 여부를 지정하십시오. 이 옵션을 선택하면 이 템플릿을 사용하여 프로젝트에 대한 향후 작업의 계획된 일자가 결정됩니다. </p><p>다음 중에서 선택합니다. </p> 
        <ul> 
        <li><p><strong>시작 날짜부터 예약</strong>: 템플릿의 시작 날짜가 실제로 시작 날짜입니다. 시작 날짜부터 템플릿을 예약하면 Adobe Workfront은 모든 템플릿 작업의 기간을 기반으로 템플릿의 완료 날짜를 계산합니다. 템플릿의 시작 날짜가 미래 프로젝트의 계획된 시작 날짜가 됩니다.</p></li> 
-       <li><p><strong>완료 일자부터 예약</strong>: 템플릿의 완료 날짜는 실제로 완료 날짜입니다. 완료 날짜부터 템플릿을 예약하면 Workfront은 모든 템플릿 작업의 기간을 기반으로 템플릿의 시작 날짜를 계산합니다. 템플릿의 완료 일자가 미래 프로젝트의 계획된 완료 일자가 됩니다. </p></li> 
-       </ul><p>템플릿 작업의 시작 및 완료 일수에 대한 자세한 내용은 <a href="../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md" class="MCXref xref">템플릿의 시작 및 완료 일수 개요</a>. </p><p>템플릿에 대한 일정 시작 설정은 프로젝트의 일정과 유사합니다. Workfront 관리자는 시스템의 프로젝트에 대해 기본 일정 출처 설정을 선택합니다. 프로젝트 기본값 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">시스템 전체 프로젝트 환경 설정 구성</a>.</p></td> 
+       <li><p><strong>완료 날짜부터 일정</strong>: 템플릿의 완료 날짜는 실제로 완료 날짜입니다. 완료 날짜부터 템플릿을 예약하면 Workfront은 모든 템플릿 작업의 기간을 기반으로 템플릿의 시작 날짜를 계산합니다. 템플릿의 완료 일자가 미래 프로젝트의 계획된 완료 일자가 됩니다. </p></li> 
+       </ul><p>템플릿 작업의 시작 및 완료 일수에 대한 자세한 내용은 <a href="../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md" class="MCXref xref">템플릿의 시작 및 완료 일수 개요</a>를 참조하십시오. </p><p>템플릿에 대한 일정 시작 설정은 프로젝트의 일정과 유사합니다. Workfront 관리자는 시스템의 프로젝트에 대해 기본 일정 출처 설정을 선택합니다. 프로젝트 기본값 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">시스템 차원의 프로젝트 환경 설정 구성</a>을 참조하십시오.</p></td> 
        </tr>
 
    <tr> 
          <td role="rowheader"><strong>Portfolio</strong></td> 
-         <td><p>이 템플릿에서 만든 프로젝트에 대한 Portfolio을 지정하십시오. 드롭다운 목록에 표시되기 전에 먼저 Portfolio을 만들어야 합니다. </p><p>활성 포트폴리오만 목록에 표시됩니다. 포트폴리오 만들기에 대한 자세한 내용은 <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">포트폴리오 만들기 </a>.</p></td> 
+         <td><p>이 템플릿에서 만든 프로젝트에 대한 Portfolio을 지정하십시오. 드롭다운 목록에 표시되기 전에 먼저 Portfolio을 만들어야 합니다. </p><p>활성 포트폴리오만 목록에 표시됩니다. 포트폴리오 만들기에 대한 자세한 내용은 <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">포트폴리오 만들기 </a>를 참조하십시오.</p></td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>프로그램</strong></td> 
-         <td><p>템플릿에 대한 Portfolio을 선택한 경우 <strong>프로그램</strong> 향후 프로젝트를 위해. 일부 Portfolio은 프로그램이 없을 수 있습니다. 이 드롭다운 목록에 표시되기 전에 먼저 프로그램을 만들어야 합니다. 활성 프로그램만 목록에 표시됩니다.</p><p>프로그램 만들기에 대한 자세한 내용은 <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">프로그램 만들기</a>.</p></td> 
+         <td><p>템플릿에 대한 Portfolio을 선택한 경우 향후 프로젝트에 대해 <strong>프로그램</strong>을(를) 지정하십시오. 일부 Portfolio은 프로그램이 없을 수 있습니다. 이 드롭다운 목록에 표시되기 전에 먼저 프로그램을 만들어야 합니다. 활성 프로그램만 목록에 표시됩니다.</p><p>프로그램 만들기에 대한 자세한 내용은 <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">프로그램 만들기</a>를 참조하십시오.</p></td> 
        </tr>  
        <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
          <td role="rowheader"><strong>그룹</strong></td> 
-         <td><p>드롭다운 목록에서 템플릿에서 만든 프로젝트와 연결할 그룹을 선택합니다. 모든 수준의 그룹일 수 있습니다. </p><p>마우스로 가리키고 정보 아이콘을 클릭하여 올바른 그룹을 선택하는지 확인할 수 있습니다 <img src="assets/info-icon.png"> 옆에 표시됩니다. 그룹 및 해당 관리자의 상위 그룹 계층과 같은 그룹에 대한 정보를 나열하는 도구 설명이 표시됩니다.</p> <p><b>참고</b>
+         <td><p>드롭다운 목록에서 템플릿에서 만든 프로젝트와 연결할 그룹을 선택합니다. 모든 수준의 그룹일 수 있습니다. </p><p>마우스로 가리키고 그 옆에 표시되는 정보 아이콘 <img src="assets/info-icon.png">을(를) 클릭하여 올바른 그룹을 선택하고 있는지 확인할 수 있습니다. 그룹 및 해당 관리자의 상위 그룹 계층과 같은 그룹에 대한 정보를 나열하는 도구 설명이 표시됩니다.</p> <p><b>참고</b>
 
    <ul> 
        <li><p>그룹의 페이지에 있는 프로젝트 영역에서, 그룹이 선택되지 않은 템플릿을 사용하여 프로젝트를 만들 경우, 시스템은 현재 열려 있는 그룹을 프로젝트와 연결합니다.</p><p>이는 사용자가 그룹을 선택하지 않은 템플릿을 사용하여 프로젝트를 만들 때 사용자의 홈 그룹을 프로젝트와 연결하는 다른 영역과는 다릅니다.</p></li> 
@@ -707,7 +707,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 ### 재무 {#finance-preview}
 
 1. 위에서 설명한 대로 템플릿 편집을 시작합니다.
-1. 다음에서 **템플릿 편집** 상자, 클릭 **재무**.
+1. **템플릿 편집** 상자에서 **재무**&#x200B;을 클릭합니다.
 
    ![](assets/edit-template-box-finance-section.png)
 
@@ -719,7 +719,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
        <tbody>
        <tr> 
          <td role="rowheader"><strong> 통화</strong></td> 
-         <td><p>향후 프로젝트의 통화가 시스템의 기본 통화와 다른 경우 통화를 지정합니다. 시스템에 기본 통화만 있는 경우에는 이 필드가 표시되지 않습니다.<br>통화에 대한 자세한 내용은 <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">환율 설정</a>.</p></td> 
+         <td><p>향후 프로젝트의 통화가 시스템의 기본 통화와 다른 경우 통화를 지정합니다. 시스템에 기본 통화만 있는 경우에는 이 필드가 표시되지 않습니다.<br>통화에 대한 자세한 내용은 <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">환율 설정</a>을 참조하세요.</p></td> 
        </tr>
        <tr> 
        <td role="rowheader"><strong>예산</strong></td> 
@@ -733,11 +733,11 @@ By editing issue settings, you can prevent users from adding issues inline in th
          <li>비용 기반</li>
          </ul>
 
-   성과 지수 방법에 대한 자세한 내용은 <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">PIM(성과 지표 메서드) 설정</a>. </p></td>
+   성능 인덱스 메서드에 대한 자세한 내용은 <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">PIM(성능 인덱스 메서드) 설정</a>을 참조하십시오. </p></td>
    </tr> 
          <tr> 
          <td role="rowheader"><strong>계획된 이익</strong></td> 
-         <td><p>이 템플릿에서 만든 프로젝트의 계획된 이점을 지정하십시오. 계획된 혜택은 프로젝트 및 Portfolio 최적기의 비즈니스 사례에 사용됩니다. </p><p>프로젝트의 계획된 편익에 대한 자세한 내용은 <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">프로젝트 계획 이익 개요</a>. 프로젝트의 순 가치 계산 시 프로젝트의 계획된 이익이 고려됩니다. </p><p>Portfolio 최적화 도구 사용에 대한 자세한 내용은 <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Portfolio 최적화 도구에서 프로젝트 관리</a> </p></td> 
+         <td><p>이 템플릿에서 만든 프로젝트의 계획된 이점을 지정하십시오. 계획된 혜택은 프로젝트 및 Portfolio 최적기의 비즈니스 사례에 사용됩니다. </p><p>프로젝트의 계획된 편익에 대한 자세한 내용은 <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">프로젝트 계획된 편익 개요</a>를 참조하십시오. 프로젝트의 순 가치 계산 시 프로젝트의 계획된 이익이 고려됩니다. </p><p>Portfolio 최적화 도구 사용에 대한 자세한 내용은 <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Portfolio 최적화 도구에서 프로젝트 관리</a>를 참조하십시오. </p></td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>고정 비용</strong></td> 
@@ -749,7 +749,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
        </tr> 
        <tr> 
        <td role="rowheader"><strong>이 프로젝트를 승인할 시간 필요</strong></td> 
-       <td><p>이 템플릿에서 만든 향후 프로젝트의 프로젝트 소유자가 프로젝트에 로그온한 시간을 승인하도록 하려면 이 옵션을 선택하십시오. 청구 기록을 사용하고 이 옵션을 선택하는 경우 프로젝트의 승인된 시간만 청구 기록의 사용 가능한 청구 가능 시간으로 표시됩니다. 프로젝트 시간 승인은 타임시트 승인과 독립적입니다. 프로젝트 승인 시간 요구에 대한 자세한 내용은 <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">프로젝트 승인 시간 필요</a>.</p></td> 
+       <td><p>이 템플릿에서 만든 향후 프로젝트의 프로젝트 소유자가 프로젝트에 로그온한 시간을 승인하도록 하려면 이 옵션을 선택하십시오. 청구 기록을 사용하고 이 옵션을 선택하는 경우 프로젝트의 승인된 시간만 청구 기록의 사용 가능한 청구 가능 시간으로 표시됩니다. 프로젝트 시간 승인은 타임시트 승인과 독립적입니다. 프로젝트 승인 시간 요구에 대한 자세한 내용은 <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">프로젝트 승인 시간 필요</a>를 참조하십시오.</p></td> 
        </tr> 
        </tbody> 
       </table>
@@ -763,15 +763,15 @@ By editing issue settings, you can prevent users from adding issues inline in th
 ### 사용자 정의 양식 {#custom-forms-preview}
 
 1. 위에서 설명한 대로 템플릿 편집을 시작합니다.
-1. 다음에서 **템플릿 편집** 상자, 클릭 **사용자 지정 Forms**.
+1. **템플릿 편집** 상자에서 **사용자 지정 Forms**&#x200B;을 클릭합니다.
 
    ![](assets/edit-template-box-custom-forms-section.png)
 
    템플릿에 이미 첨부된 사용자 정의 양식의 이름이 왼쪽 패널에 표시됩니다.
 
-1. 내부를 클릭합니다. **사용자 정의 양식 추가** 사용자 정의 양식을 선택하고 템플릿과 연결하고자 합니다. 이 필드에서 사용자 정의 양식을 선택하려면 먼저 사용자 정의 양식을 작성해야 합니다.
+1. **사용자 정의 양식 추가** 필드 내부를 클릭하고 템플릿과 연결할 사용자 정의 양식을 선택합니다. 이 필드에서 사용자 정의 양식을 선택하려면 먼저 사용자 정의 양식을 작성해야 합니다.
 
-   활성 사용자 정의 양식만 목록에 표시됩니다. 사용자 정의 양식 작성에 대한 자세한 내용은 [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+   활성 사용자 정의 양식만 목록에 표시됩니다. 사용자 정의 양식 작성에 대한 자세한 내용은 [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)을 참조하십시오.
 
    템플릿에 최대 10개의 사용자 정의 양식을 추가할 수 있습니다.
 
@@ -779,7 +779,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 1. (선택 사항) 사용자 정의 양식의 모든 필드에서 정보를 업데이트합니다. 정보는 템플릿에서 만들 프로젝트로 전송됩니다.
 
-1. (선택 사항) **x** 사용자 정의 양식 이름 오른쪽에 있는 아이콘을 클릭하고 **제거** 템플릿에서 제거합니다.
+1. (선택 사항) 사용자 정의 양식 이름의 오른쪽에 있는 **x** 아이콘을 클릭한 다음 **제거**&#x200B;를 클릭하여 템플릿에서 제거합니다.
 
 1. (선택 사항) 수정할 정보에 따라 다음 섹션을 계속 편집합니다.
 
@@ -790,7 +790,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 ### 프로젝트 설정 {#project-settings}
 
 1. 위에서 설명한 대로 템플릿 편집을 시작합니다.
-1. 다음에서 **템플릿 편집** 상자, 클릭 **프로젝트 설정**.
+1. **템플릿 편집** 상자에서 **프로젝트 설정**&#x200B;을 클릭합니다.
 
    ![](assets/edit-template-box-project-settings-section.png)
 
@@ -802,26 +802,26 @@ By editing issue settings, you can prevent users from adding issues inline in th
        <tbody> 
        <tr> 
        <td role="rowheader"><strong>마일스톤 경로</strong> </td> 
-       <td> <p>템플릿에 대한 마일스톤 경로를 선택합니다. 활성 마일스톤 경로만 목록에 표시됩니다.<br>마일스톤 경로에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">마일스톤 경로 만들기</a>.</p> </td> 
+       <td> <p>템플릿에 대한 마일스톤 경로를 선택합니다. 활성 마일스톤 경로만 목록에 표시됩니다.<br>마일스톤 경로에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">마일스톤 경로 만들기</a>를 참조하세요.</p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>완료 모드</strong> </td> 
          <td> <p>향후 프로젝트가 완료로 표시되는 방식을 제어합니다. <br>다음 옵션 중에서 선택합니다.</p> 
          <ul> 
-         <li> <p><strong>자동</strong>: 모든 작업 및 문제가 완료되면 프로젝트가 완료 로 표시됩니다.</p> </li> 
-         <li> <p><strong>수동</strong>: 모든 작업 및 문제가 완료되면 프로젝트에 대한 완료 상태를 수동으로 선택해야 합니다. </p> </li> 
+         <li> <p><strong>자동</strong>: 모든 작업 및 문제가 완료되면 프로젝트가 완료됨으로 표시됩니다.</p> </li> 
+         <li> <p><strong>수동</strong>: 모든 작업 및 문제가 완료되면 프로젝트의 완료 상태를 수동으로 선택해야 합니다. </p> </li> 
          </ul> </td> 
        </tr> 
        <tr> 
        <td role="rowheader"><strong>요약 완료 모드</strong> </td> 
        <td> <p>향후 프로젝트의 상위 작업이 완료로 표시되는 방식을 제어합니다. <br>다음 옵션 중에서 선택합니다.</p> 
        <ul> 
-       <li> <p><strong>자동</strong>: 하위 작업이 완료되고 하위 작업의 완료율이 업데이트됨에 따라 상위 작업이 완료로 표시되고 완료율이 자동으로 업데이트됩니다. </p> </li> 
-       <li> <p><strong>수동</strong>: 하위 작업의 변경 사항과 관계없이 완료율 및 상위 작업의 상태를 수동으로 업데이트해야 합니다. </p> </li> 
+       <li> <p><strong>자동</strong>: 하위 작업이 완료되고 하위 작업의 완료율이 업데이트됨에 따라 상위 작업이 완료됨으로 표시되고 완료율이 자동으로 업데이트됩니다. </p> </li> 
+       <li> <p><strong>수동</strong>: 하위 작업의 변경 내용과 관계없이 완료율 및 상위 작업의 상태를 수동으로 업데이트해야 합니다. </p> </li> 
        </ul> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>업데이트 유형</strong> </td> 
+         <td role="rowheader"><strong>업데이트 형식</strong> </td> 
          <td> <p>향후 프로젝트의 타임라인에 대한 변경 사항이 프로젝트에 저장되는 시점을 제어합니다. </p> 
          <b>예 </b> 
          <p>프로젝트에 대한 다음 변경 사항은 프로젝트의 타임라인에 대한 업데이트를 트리거합니다.</p> 
@@ -833,36 +833,36 @@ By editing issue settings, you can prevent users from adding issues inline in th
          </ul> 
          </div> <p>다음 옵션 중에서 선택합니다.<br></p> 
          <ul> 
-         <li> <p><strong>자동 및 변경 시</strong> (기본 설정): 프로젝트 또는 타임라인이 종속되어 있는 다른 프로젝트에서 변경 사항이 발생할 때마다(변경 시) 향후 프로젝트 타임라인이 업데이트됩니다. 프로젝트 타임라인은 매일 밤 자동 업데이트됩니다.<br>이 설정은 프로젝트 타임라인이 항상 최신 상태인지 확인하므로 이 필드에 대해 권장되는 설정입니다.<br>타임라인 재계산을 트리거하는 작업 또는 프로젝트에 작업을 수행하면 사용 가능한 모든 날짜가 즉시 표시되어 작업을 계속할 수 있습니다. 작업이 100개를 초과하는 프로젝트의 경우 더 긴 재계산이 필요한 날짜가 물음표로 짧게 표시됩니다(1초에서 5초 사이 또는 큰 프로젝트의 경우 최대 1분). 이는 재계산이 아직 완료되지 않았으며, 날짜가 변경될 수 있음을 나타냅니다.<br></p> </li> 
+         <li> <p><strong>자동 및 변경 시</strong>(기본 설정): 프로젝트 또는 타임라인이 종속된 다른 프로젝트에서 변경(변경 시)이 발생할 때마다 향후 프로젝트 타임라인이 업데이트됩니다. 프로젝트 타임라인은 매일 밤 자동 업데이트됩니다.<br>이 설정은 프로젝트 타임라인이 항상 최신 상태이므로 이 필드에 권장되는 설정입니다.<br>타임라인 재계산을 트리거하는 작업 또는 프로젝트에 작업을 수행하면 사용 가능한 모든 날짜가 즉시 표시되어 작업을 계속할 수 있습니다. 작업이 100개를 초과하는 프로젝트의 경우 더 긴 재계산이 필요한 날짜가 물음표로 짧게 표시됩니다(1초에서 5초 사이 또는 큰 프로젝트의 경우 최대 1분). 이는 재계산이 아직 완료되지 않았으며, 날짜가 변경될 수 있음을 나타냅니다.<br></p> </li> 
          </ul> 
          <ul> 
-         <li> <p><strong>변경만</strong>: 프로젝트 또는 타임라인이 종속된 다른 프로젝트에서 변경 사항이 발생할 때마다 프로젝트 타임라인이 업데이트됩니다. 프로젝트 또는 타임라인이 종속된 다른 프로젝트에서 변경 사항이 거의 발생하지 않는 경우 이 옵션을 선택할 수 있습니다.<br></p> </li> 
+         <li> <p><strong>변경 전용</strong>: 프로젝트 또는 타임라인이 종속된 다른 프로젝트에서 변경 사항이 발생할 때마다 프로젝트 타임라인이 업데이트됩니다. 프로젝트 또는 타임라인이 종속된 다른 프로젝트에서 변경 사항이 거의 발생하지 않는 경우 이 옵션을 선택할 수 있습니다.<br></p> </li> 
          </ul> 
          <ul> 
-         <li> <p><strong>자동만</strong>: 프로젝트 타임라인은 매일 밤 업데이트되며, 변경 후 바로 업데이트되지 않습니다.<br>프로젝트 또는 타임라인이 종속된 다른 프로젝트에서 매일 많은 변경 사항이 발생하는 경우 이 옵션을 선택할 수 있습니다. 그러나 프로젝트가 변경과 동시에 업데이트되지 않으므로 이 설정을 선택했다는 점에 유의하십시오.<br></p> </li> 
+         <li> <p><strong>자동만</strong>: 프로젝트 타임라인은 매일 밤 업데이트되며 변경 후 바로 업데이트되지 않습니다.<br>프로젝트 또는 타임라인이 종속되어 있는 다른 프로젝트에서 매일 많은 변경 내용이 발생하는 경우 이 옵션을 선택할 수 있습니다. 그러나 프로젝트가 변경과 동시에 업데이트되지 않으므로 이 설정을 선택했다는 점에 유의하십시오.<br></p> </li> 
          </ul> 
          <ul> 
-         <li> <p><strong>수동만</strong>: 프로젝트 타임라인은에 설명된 대로 타임라인을 다시 계산하는 옵션을 선택할 때만 업데이트됩니다. <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">프로젝트 타임라인 다시 계산</a>.<br></p> </li> 
+         <li> <p><strong>수동 전용</strong>: <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">프로젝트 타임라인 다시 계산</a>에 설명된 대로 타임라인을 다시 계산하는 옵션을 선택하는 경우에만 프로젝트 타임라인이 업데이트됩니다.<br></p> </li> 
          </ul> <p>한 번에 프로젝트를 여러 번 변경하고, 각 개별 변경 내용이 아닌 모든 변경 내용이 적용된 후에 타임라인 재계산을 수행하려는 경우 이 옵션을 선택할 수 있습니다.</p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>예약</strong> </td> 
-         <td> <p>템플릿에 대한 일정을 선택합니다. 이 일정이 이 템플릿에서 만드는 프로젝트의 일정이 됩니다. 프로젝트에서 작업 중인 대부분의 사람에게 할당된 일정과 동일해야 합니다. 일정을 템플릿에 할당하려면 먼저 일정을 만들어야 합니다.<br>일정 만들기에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">일정 만들기</a>. <br>시스템에서 사용자 정의 일정을 작성하지 않은 경우 기본 일정이 선택됩니다. </p> </td> 
+         <td> <p>템플릿에 대한 일정을 선택합니다. 이 일정이 이 템플릿에서 만드는 프로젝트의 일정이 됩니다. 프로젝트에서 작업 중인 대부분의 사람에게 할당된 일정과 동일해야 합니다. 일정을 템플릿에 할당하려면 먼저 일정을 만들어야 합니다.<br>일정 만들기에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">일정 만들기</a>를 참조하세요. <br>시스템에서 사용자 지정 일정을 만들지 않은 경우 [기본 일정]이 선택됩니다. </p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>사용자 휴무</strong> </td> 
-         <td> <p>작업의 기본 피할당자의 휴무 시간이 작업 계획 날짜를 조정하는지 여부를 결정합니다. 기존 프로젝트에 템플릿을 첨부할 때 템플릿에 프로젝트와 다른 이 필드 설정이 있는 경우 프로젝트의 설정이 변경되지 않습니다. 새 템플릿에 대한 이 설정의 기본 옵션은 시스템 수준 프로젝트 환경 설정과 동일합니다. </p> <p>시스템 수준의 프로젝트 환경 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">시스템 전체 프로젝트 환경 설정 구성</a>. </p> <p>이 설정이 프로젝트의 작업 날짜에 미치는 영향에 대한 자세한 내용은 <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">프로젝트 편집</a>.<br>다음 옵션 중에서 선택합니다.<br></p> 
+         <td> <p>작업의 기본 피할당자의 휴무 시간이 작업 계획 날짜를 조정하는지 여부를 결정합니다. 기존 프로젝트에 템플릿을 첨부할 때 템플릿에 프로젝트와 다른 이 필드 설정이 있는 경우 프로젝트의 설정이 변경되지 않습니다. 새 템플릿에 대한 이 설정의 기본 옵션은 시스템 수준 프로젝트 환경 설정과 동일합니다. </p> <p>시스템 수준의 프로젝트 환경 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">시스템 차원의 프로젝트 환경 설정 구성</a>을 참조하십시오. </p> <p>이 설정이 프로젝트의 작업 날짜에 미치는 영향에 대한 자세한 내용은 <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">프로젝트 편집</a>을 참조하세요.<br>다음 옵션 중에서 선택합니다.<br></p> 
          <ul> 
-         <li> <p><strong>작업 기간에서 사용자 휴가 고려</strong>: 이 옵션을 선택하면 작업 기간 동안 휴무가 발생하는 경우 이 템플릿으로 만든 프로젝트에 대한 작업의 계획 날짜가 작업의 기본 할당자의 휴무 시간에 따라 조정됩니다. </p> </li> 
-         <li> <p><strong>작업 기간에서 사용자 휴무 무시</strong>: 이 옵션을 선택하면 작업 기간 동안 작업의 기본 할당자가 휴가를 갖는 경우에도 이 템플릿으로 생성된 프로젝트에 대한 작업의 계획 날짜가 원래 계획대로 유지됩니다. </p> </li> 
+         <li> <p><strong>작업 기간에서 사용자 휴무를 고려하십시오</strong>: 이 옵션을 선택할 때 작업 기간 동안 휴무가 발생할 경우 이 템플릿에서 만든 프로젝트의 작업의 계획된 날짜가 작업의 기본 피할당자의 휴무에 따라 조정됩니다. </p> </li> 
+         <li> <p><strong>작업 기간에서 사용자 휴무 무시</strong>: 이 옵션을 선택하면 작업의 기본 피할당자가 작업 기간 동안 휴무하더라도 이 템플릿에서 만든 프로젝트의 작업의 계획된 날짜가 원래 계획대로 유지됩니다. </p> </li> 
          </ul> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>리소스 레벨링 모드</strong> </td> 
          <td> <p>다음 옵션 중에서 선택합니다.<br></p> 
          <ul> 
-         <li> <p><strong>수동</strong>: 이 템플릿으로 만든 프로젝트에 대한 리소스를 수동으로 레벨링해야 합니다(기본 설정)</p> </li> 
-         <li> <p><strong>자동:</strong> Workfront은 향후 프로젝트에서 리소스를 레벨링합니다. <br>리소스 레벨링에 대한 자세한 내용은 <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">간트 차트에서 리소스 레벨링 </a>. </p> </li> 
+         <li> <p><strong>수동</strong>: 이 템플릿으로 만든 프로젝트에서 리소스를 수동으로 레벨링해야 합니다(기본 설정임).</p> </li> 
+         <li> <p><strong>자동:</strong> Workfront은 향후 프로젝트에서 리소스를 레벨링합니다. <br>리소스 레벨링에 대한 자세한 내용은 간트 차트 </a>에서 <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">리소스 레벨링을 참조하십시오. </p> </li> 
          </ul> </td> 
        </tr> 
        <tr> 
@@ -878,23 +878,23 @@ By editing issue settings, you can prevent users from adding issues inline in th
        </tr> 
        <tr> 
          <td role="rowheader"><strong>리소스 풀</strong> </td> 
-         <td> <p>템플릿과 연결된 리소스 풀을 지정합니다. 리소스 풀은 프로젝트 완료에 동시에 필요한 사용자 컬렉션입니다. 리소스 풀에 대한 자세한 내용은 <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> 리소스 풀 개요 </a>.</p> <p> <p><b>메모</b>
+         <td> <p>템플릿과 연결된 리소스 풀을 지정합니다. 리소스 풀은 프로젝트 완료에 동시에 필요한 사용자 컬렉션입니다. 리소스 풀에 대한 자세한 내용은 <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> 리소스 풀 개요 </a>을(를) 참조하십시오.</p> <p> <p><b>메모</b>
 
    템플릿을 일괄 편집할 때 선택한 모든 템플릿에 공통되는 리소스 풀만 이 필드에 나타납니다. 선택한 템플릿에 공유 리소스 풀이 없는 경우 이 필드는 비어 있습니다. 여기에서 지정한 리소스 풀은 템플릿의 개별 리소스 풀을 덮어씁니다.</p> </p> </td>
    </tr>
        <tr> 
          <td role="rowheader"><strong>시간 유형 필터링</strong> </td> 
-         <td> <p>다음 사항을 고려하십시오.</p> <p>선택 <strong>아니요</strong> 모든 프로젝트별 시간 유형을 향후 프로젝트에서 사용할 수 있도록 합니다. (기본 선택 사항입니다.)</p> <p>또는</p> <p>선택 <strong>예</strong> 차후 프로젝트에서 프로젝트별 시간 유형의 하위 집합만 사용할 수 있도록 하려면 사용할 시간 유형을 선택합니다. (Shift 키를 누른 상태로 여러 시간 유형을 선택합니다.)</p> <p>이 옵션을 선택하면 프로젝트(또는 프로젝트 내의 작업 및 문제)에 시간을 기록할 때 선택한 시간 유형만 선택할 수 있습니다. 최소 1개의 시간 유형을 선택해야 합니다. 이 옵션을 선택하고 시간 유형을 선택하지 않으면 프로젝트에서 모든 시간 유형을 사용할 수 있습니다.</p> <p>사용자가 프로젝트에서 이러한 시간 유형 옵션을 보려면 개별 사용자 수준에서 동일한 시간 유형을 선택해야 합니다. </p> <p>사용자 수준에서 시간 유형을 정의하는 방법에 대한 자세한 내용은 섹션을 참조하십시오 <a href="../../../timesheets/create-and-manage-timesheets/log-time.md#understa" class="MCXref xref">로그 시간</a> 위치: <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">로그 시간</a>.</p> </td> 
+         <td> <p>다음 사항을 고려하십시오.</p> <p>향후 프로젝트에서 모든 프로젝트별 시간 유형을 사용할 수 있도록 하려면 <strong>아니요</strong>를 선택하십시오. (기본 선택 사항입니다.)</p> <p>또는</p> <p><strong>예</strong>를 선택하여 향후 프로젝트에서 프로젝트별 시간 형식의 하위 집합만 사용할 수 있도록 한 다음 사용할 시간 형식을 선택하십시오. (Shift 키를 누른 상태로 여러 시간 유형을 선택합니다.)</p> <p>이 옵션을 선택하면 프로젝트(또는 프로젝트 내의 작업 및 문제)에 시간을 기록할 때 선택한 시간 유형만 선택할 수 있습니다. 최소 1개의 시간 유형을 선택해야 합니다. 이 옵션을 선택하고 시간 유형을 선택하지 않으면 프로젝트에서 모든 시간 유형을 사용할 수 있습니다.</p> <p>사용자가 프로젝트에서 이러한 시간 유형 옵션을 보려면 개별 사용자 수준에서 동일한 시간 유형을 선택해야 합니다. </p> <p>사용자 수준에서 시간 유형을 정의하는 방법에 대한 자세한 내용은 <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">로그 시간</a>의 <a href="../../../timesheets/create-and-manage-timesheets/log-time.md#understa" class="MCXref xref">로그 시간</a> 섹션을 참조하십시오.</p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>승인 프로세스</strong> </td> 
-         <td> <p>템플릿에 연결할 승인 프로세스를 선택합니다. Workfront 관리자 또는 승인 프로세스에 대한 관리 액세스 권한이 있는 사용자는 시스템 수준 또는 그룹 수준 프로젝트 승인 프로세스를 정의해야 템플릿과 연결할 수 있습니다. 승인 프로세스 만들기에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">작업 항목에 대한 승인 프로세스 만들기</a>.</p> <p>승인 프로세스를 추가할 때는 다음 사항을 고려하십시오. </p> 
+         <td> <p>템플릿에 연결할 승인 프로세스를 선택합니다. Workfront 관리자 또는 승인 프로세스에 대한 관리 액세스 권한이 있는 사용자는 시스템 수준 또는 그룹 수준 프로젝트 승인 프로세스를 정의해야 템플릿과 연결할 수 있습니다. 승인 프로세스 만들기에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">작업 항목에 대한 승인 프로세스 만들기</a>를 참조하십시오.</p> <p>승인 프로세스를 추가할 때는 다음 사항을 고려하십시오. </p> 
          <ul> 
          <li>활성 승인 프로세스만 목록에 표시됩니다. </li> 
          <li> <p>시스템 전체 및 그룹별 승인 프로세스가 목록에 표시됩니다. 템플릿 그룹 이외의 그룹과 연결된 승인 프로세스가 목록에 표시되지 않습니다.</p> <p><b>중요 사항</b>
 
-   템플릿에 연결된 그룹이 변경되면 그룹별 승인 프로세스가 일회용 승인 프로세스가 됩니다. 프로젝트 그룹 또는 승인 프로세스 변경 사항이 승인 설정에 미치는 영향에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">그룹 및 승인 프로세스 변경이 할당된 승인 프로세스에 미치는 영향</a>. </p> </li>
-   <li> <p>일회용 승인 프로세스를 추가한 경우 이 필드에 "사용자 지정"으로 표시됩니다. 자세한 내용은 <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">신규 또는 기존 승인 프로세스를 작업과 연결</a>. </p> 
+   템플릿에 연결된 그룹이 변경되면 그룹별 승인 프로세스가 일회용 승인 프로세스가 됩니다. 프로젝트 그룹 변경 또는 승인 프로세스 변경 내용이 승인 설정에 미치는 영향에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">그룹 및 승인 프로세스 변경 내용이 할당된 승인 프로세스에 미치는 영향</a>을 참조하십시오. </p> </li>
+   <li> <p>일회용 승인 프로세스를 추가한 경우 이 필드에 "사용자 지정"으로 표시됩니다. 자세한 내용은 <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">새 승인 프로세스나 기존 승인 프로세스를 작업과 연결</a>을 참조하십시오. </p> 
          </li> 
          <li> <p>템플릿을 벌크 편집할 때 다음과 같은 시나리오가 있습니다.</p> 
          <ul> 
@@ -906,7 +906,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
        </tr> 
        <tr> 
          <td role="rowheader"><strong>미리 알림</strong> </td> 
-         <td>향후 프로젝트와 연계해야 하는 미리 알림 을 선택합니다. 템플릿을 편집하는 동안 이 필드에 대한 프로젝트가 표시되도록 미리 알림을 구성해야 합니다. <br>미리 알림 구성에 대한 자세한 내용은 <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">미리 알림 설정</a>.</td> 
+         <td>향후 프로젝트와 연계해야 하는 미리 알림 을 선택합니다. 템플릿을 편집하는 동안 이 필드에 대한 프로젝트가 표시되도록 미리 알림을 구성해야 합니다. <br>미리 알림 구성에 대한 자세한 내용은 <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">미리 알림 설정</a>을 참조하세요.</td> 
        </tr> 
        </tbody> 
       </table>
@@ -919,16 +919,16 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 템플릿에서 만든 프로젝트에 새 작업을 추가할 때 모든 새 작업과 연결할 기본값을 정의할 수 있습니다.
 
-이러한 설정이 새 작업 만들기에 미치는 영향에 대한 자세한 내용은 [작업 만들기 개요](../../../manage-work/tasks/create-tasks/create-tasks-overview.md).
+이러한 설정이 새 작업 만들기에 미치는 영향에 대한 자세한 내용은 [작업 만들기 개요](../../../manage-work/tasks/create-tasks/create-tasks-overview.md)를 참조하십시오.
 
 1. 위에서 설명한 대로 템플릿 편집을 시작합니다.
-1. 다음에서 **템플릿 편집** 상자, 클릭 **작업 설정**.
+1. **템플릿 편집** 상자에서 **작업 설정**&#x200B;을 클릭합니다.
 
    ![](assets/edit-template-box-tax-settings-section.png)
 
-1. 다음에서 **작업 기본 승인 프로세스** 이 템플릿으로 생성된 프로젝트에 신규 작업을 추가할 때 모든 신규 작업과 연결할 승인 프로세스를 선택합니다. 작업과 연결하려면 먼저 작업에 대한 승인 프로세스를 만들어야 합니다. 활성 승인 프로세스만 목록에 표시됩니다. 승인 프로세스 만들기에 대한 자세한 내용은 [승인 프로세스 만들기](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
-1. 다음에서 **작업 기본 사용자 지정 Forms** 이 템플릿으로 만든 프로젝트에 새 작업을 추가할 때 모든 새 작업과 연결할 사용자 정의 양식을 선택합니다. 이 필드에서 사용자 정의 양식을 선택하려면 먼저 사용자 정의 양식을 작성해야 합니다. 활성 사용자 정의 양식만 목록에 표시됩니다. 사용자 정의 양식 작성에 대한 자세한 내용은 [사용자 지정 Forms 만들기](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). 작업에 최대 10개의 사용자 정의 양식을 연결할 수 있습니다.
-1. (선택 사항) 선택 **작업 노력을 사용하여 작업 계획 시간을 자동으로 계산** 템플릿에서 만든 프로젝트에서 계획된 시간 대신 작업 노력을 사용하여 작업 노력 관리를 활성화하려는 경우.
+1. **작업 기본 승인 프로세스** 상자에서 이 템플릿으로 만든 프로젝트에 새 작업을 추가할 때 모든 새 작업과 연결할 승인 프로세스를 선택합니다. 작업과 연결하려면 먼저 작업에 대한 승인 프로세스를 만들어야 합니다. 활성 승인 프로세스만 목록에 표시됩니다. 승인 프로세스 만들기에 대한 자세한 내용은 [승인 프로세스 만들기](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)를 참조하십시오.
+1. **작업 기본 사용자 지정 Forms** 상자에서 이 템플릿으로 만든 프로젝트에 새 작업을 추가할 때 모든 새 작업과 연결할 사용자 지정 양식을 선택합니다. 이 필드에서 사용자 정의 양식을 선택하려면 먼저 사용자 정의 양식을 작성해야 합니다. 활성 사용자 정의 양식만 목록에 표시됩니다. 사용자 정의 양식 작성에 대한 자세한 내용은 [사용자 정의 Forms 만들기](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)를 참조하십시오. 작업에 최대 10개의 사용자 정의 양식을 연결할 수 있습니다.
+1. (선택 사항) 템플릿에서 만든 프로젝트에서 계획된 시간 대신 작업 노력을 사용하여 작업 노력을 관리하려면 **작업 노력 사용을 선택하여 작업 계획된 시간을 자동으로 계산합니다**.
 1. (조건부 및 선택 사항) 작업 노력 사용을 선택하여 작업 계획 시간을 자동으로 계산하는 경우 드롭다운 메뉴를 눌러 각 작업 노력 레벨에 대한 백분율을 갱신합니다. 다음 백분율 값이 기본값입니다.
 
    | 작업 노력 수준 | 백분율 값 |
@@ -937,7 +937,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
    | 중간 | 50% |
    | 대형 | 75% |
 
-   작업 노력을 사용하여 프로젝트의 작업 노력을 관리하는 방법에 대한 자세한 내용은 [작업 노력 개요](../../../manage-work/tasks/task-information/work-effort.md).
+   프로젝트에서 작업 노력을 관리하는 데 작업 노력을 사용하는 방법에 대한 자세한 내용은 [작업 노력 개요](../../../manage-work/tasks/task-information/work-effort.md)를 참조하십시오.
 
 1. (선택 사항) 수정할 정보에 따라 다음 섹션을 계속 편집합니다.
 
@@ -950,11 +950,11 @@ By editing issue settings, you can prevent users from adding issues inline in th
 문제 설정을 편집하면 사용자가 템플릿으로 만든 향후 프로젝트에서 인라인으로 문제를 추가하지 못하도록 할 수 있습니다.
 
 1. 위에서 설명한 대로 템플릿 편집을 시작합니다.
-1. 다음에서 **템플릿 편집** 상자, 클릭 **문제 설정**.
+1. **템플릿 편집** 상자에서 **문제 설정**&#x200B;을 클릭합니다.
 
    ![](assets/edit-template-box-issue-settings-section.png)
 
-1. (선택 사항) **사용자가 문제를 인라인으로 추가하도록 허용** 옵션을 선택합니다. 기본적으로 활성화되어 있습니다.
+1. (선택 사항) **사용자가 문제를 인라인으로 추가할 수 있도록 허용** 옵션을 선택 취소합니다. 기본적으로 활성화되어 있습니다.
 
    이 옵션을 비활성화하면 프로젝트를 템플릿에서 만들 때 사용자가 프로젝트 또는 문제 섹션의 작업에 인라인으로 문제를 추가할 수 없습니다.
 
@@ -964,9 +964,9 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
    이 옵션을 비활성화하면 템플릿에서 만든 프로젝트에 문제를 추가할 수 있는 권한이 있는 사용자는 프로젝트와 연결된 새 문제 버튼 또는 요청 대기열을 사용하여 추가할 수 있습니다.
 
-   프로젝트에 대한 문제 설정 구성에 대한 자세한 내용은 [문제 설정](../../../manage-work/projects/manage-projects/edit-projects.md#issue) 이 문서의 섹션 [프로젝트 편집](../../../manage-work/projects/manage-projects/edit-projects.md).
+   프로젝트에서 문제 설정을 구성하는 방법에 대한 자세한 내용은 [프로젝트 편집](../../../manage-work/projects/manage-projects/edit-projects.md) 문서의 [문제 설정](../../../manage-work/projects/manage-projects/edit-projects.md#issue) 섹션을 참조하십시오.
 
-   프로젝트의 문제 만들기에 대한 자세한 내용은 [문제 만들기](../../../manage-work/issues/manage-issues/create-issues.md).
+   프로젝트에서 문제를 만드는 방법에 대한 자세한 내용은 [문제 만들기](../../../manage-work/issues/manage-issues/create-issues.md)를 참조하십시오.
 
 1. (선택 사항) 수정할 정보에 따라 다음 섹션을 계속 편집합니다.
 
@@ -977,13 +977,13 @@ By editing issue settings, you can prevent users from adding issues inline in th
 ### 액세스 {#access-preview}
 
 1. 위에서 설명한 대로 템플릿 편집을 시작합니다.
-1. 다음에서 **템플릿 편집** 상자, 클릭 **액세스**.
+1. **템플릿 편집** 상자에서 **액세스**&#x200B;를 클릭합니다.
 
    ![](assets/edit-template-box-access-section.png)
 
    템플릿에 지정한 액세스 권한은 템플릿을 사용하여 프로젝트를 만들 때 프로젝트와 연결된 사용자의 액세스 권한이 됩니다.
 
-   다음을 지정하십시오. **액세스** 템플릿에 대한 정보:
+   템플릿에 대해 다음 **액세스** 정보를 지정하십시오.
 
    <table style="table-layout:auto"> 
        <col> 
@@ -991,31 +991,31 @@ By editing issue settings, you can prevent users from adding issues inline in th
        <tbody> 
        <tr> 
          <td role="rowheader"><strong>누군가가 작업에 할당되었을 때</strong> </td> 
-         <td> <p>다음에서 선택 <strong>보기</strong>, <strong>참여,</strong> 또는 <strong>관리</strong> 작업에 대한 액세스 권한. 작업에 할당된 사용자에게는 작업에 대한 이 액세스 권한이 자동으로 부여됩니다. </p> </td> 
+         <td> <p>작업에 대한 <strong>보기</strong>, <strong>Contribute,</strong> 또는 <strong>관리</strong> 액세스에서 선택하십시오. 작업에 할당된 사용자에게는 작업에 대한 이 액세스 권한이 자동으로 부여됩니다. </p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>프로젝트에 대한 액세스 권한 부여</strong> </td> 
-         <td> <p> 다음에서 선택 <strong>보기</strong>, <strong>참여</strong>, 또는 <strong>관리</strong> 프로젝트에 대한 액세스 권한. 작업에 할당된 사용자에게는 프로젝트에 대한 이 액세스 권한도 자동으로 부여됩니다. </p> </td> 
+         <td role="rowheader"><strong>프로젝트에 대한 액세스 권한도 부여</strong> </td> 
+         <td> <p> 프로젝트에 대한 <strong>보기</strong>, <strong>Contribute</strong> 또는 <strong>관리</strong> 액세스 권한 중에서 선택하십시오. 작업에 할당된 사용자에게는 프로젝트에 대한 이 액세스 권한도 자동으로 부여됩니다. </p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>누군가가 문제에 할당되었을 때</strong> </td> 
-         <td> <p>다음에서 선택 <strong>보기</strong>, <strong>참여,</strong> 또는 <strong>관리</strong> 문제에 대한 액세스. 문제에 할당된 사용자에게 문제에 대한 이 액세스 권한이 자동으로 부여됩니다. </p> </td> 
+         <td role="rowheader"><strong>누군가 문제에 할당되었을 때</strong> </td> 
+         <td> <p>문제에 대한 <strong>보기</strong>, <strong>Contribute,</strong> 또는 <strong>관리</strong> 액세스에서 선택하십시오. 문제에 할당된 사용자에게 문제에 대한 이 액세스 권한이 자동으로 부여됩니다. </p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>프로젝트에 대한 액세스 권한 부여</strong> </td> 
-         <td> <p> 다음에서 선택 <strong>보기</strong>, <strong>참여</strong>, 또는 <strong>관리</strong> 프로젝트에 대한 액세스 권한. 문제에 할당된 사용자에게는 프로젝트에 대한 이 액세스 권한도 자동으로 부여됩니다. </p> </td> 
+         <td role="rowheader"><strong>프로젝트에 대한 액세스 권한도 부여</strong> </td> 
+         <td> <p> 프로젝트에 대한 <strong>보기</strong>, <strong>Contribute</strong> 또는 <strong>관리</strong> 액세스 권한 중에서 선택하십시오. 문제에 할당된 사용자에게는 프로젝트에 대한 이 액세스 권한도 자동으로 부여됩니다. </p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>누군가가 요청을 제출했을 때: 액세스 권한 부여</strong> </td> 
-         <td> <p> 다음에서 선택 <strong>보기</strong>, <strong>참여</strong>, 또는 <strong>관리</strong> 요청에 대한 액세스 권한. 프로젝트에 요청을 제출하면 제출한 요청에 대한 이 액세스 권한이 부여됩니다. 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">문제 공유 </a>.</p> </td> 
+         <td role="rowheader"><strong>누군가 요청을 제출하면 액세스 권한 부여</strong> </td> 
+         <td> <p> 요청에 대한 <strong>보기</strong>, <strong>Contribute</strong> 또는 <strong>관리</strong> 액세스 권한 중에서 선택하십시오. 프로젝트에 요청을 제출하면 제출한 요청에 대한 이 액세스 권한이 부여됩니다. 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">문제 공유 </a>를 참조하십시오.</p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>같은 회사의 직원들은 모든 요청에 대해 동일한 권한을 상속합니다.</strong> </td> 
+         <td role="rowheader"><strong>같은 회사의 직원들이 모든 요청에 대해 동일한 권한을 상속합니다</strong> </td> 
          <td> <p>제출했는지에 관계없이 동일한 회사의 직원들이 프로젝트의 모든 요청에 대해 동일한 액세스 권한을 갖도록 하려면 이 필드를 선택합니다.</p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>누군가 이 프로젝트에 대한 액세스 권한을 부여 받은 경우: 액세스 권한 부여...</strong> </td> 
-         <td> <p>프로젝트가 사용자와 공유되는 경우 사용자가 프로젝트에 보유할 액세스 옵션을 선택합니다. 액세스가 다음과 같이 지정된 경우 해당 액세스에 대한 특정 옵션을 선택합니다. <strong>뷰어</strong>, <strong>참가자</strong>, 또는 <strong>관리자</strong> 프로젝트를 해당 사용자와 공유할 때. </p> </td> 
+         <td role="rowheader"><strong>이 프로젝트에 대한 액세스 권한을 다른 사용자에게 부여한 경우: 액세스 권한 부여..</strong> </td> 
+         <td> <p>프로젝트가 사용자와 공유되는 경우 사용자가 프로젝트에 보유할 액세스 옵션을 선택합니다. 프로젝트를 공유할 때 <strong>뷰어</strong>, <strong>기여자</strong> 또는 <strong>관리자</strong>(으)로 지정된 경우 액세스 옵션을 선택하십시오. </p> </td> 
        </tr> 
        </tbody> 
       </table>
@@ -1037,19 +1037,19 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 템플릿을 일괄적으로 편집하려면 다음을 수행합니다.
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront 오른쪽 상단에 있습니다.
+1. Adobe Workfront 오른쪽 상단의 **주 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭합니다.
 
-1. 클릭 **템플릿**.
+1. **템플릿**&#x200B;을 클릭합니다.
 1. 목록에서 템플릿을 여러 개 선택합니다.
-1. 클릭 **편집**.
+1. **편집**&#x200B;을 클릭합니다.
 
-   다음 **템플릿 편집** 대화 상자가 열립니다.
+   **템플릿 편집** 대화 상자가 열립니다.
 
    ![](assets/edit-templates-in-bulk-box-nwe-350x327.png)
 
 1. 선택한 모든 템플릿을 편집하려면 왼쪽의 섹션을 클릭합니다.
 
-   템플릿에 대한 정보를 편집하는 방법에 대한 자세한 내용은 [템플릿 편집](#edit-a-template) 이 문서의 섹션.
+   템플릿에 대한 정보를 편집하는 방법에 대한 자세한 내용은 이 문서의 [템플릿 편집](#edit-a-template) 섹션을 참조하십시오.
 
 1. **변경 내용 저장**&#x200B;을 클릭합니다.
 
@@ -1061,9 +1061,9 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 템플릿에 작업을 추가하는 것은 프로젝트에 작업을 추가하는 것과 비슷합니다.
 
-프로젝트에 작업을 추가하는 방법에 대한 자세한 내용은 [프로젝트에서 작업 만들기](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+프로젝트에 작업을 추가하는 방법에 대한 자세한 내용은 [프로젝트에서 작업 만들기](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)를 참조하십시오.
 
-템플릿에 작업을 추가하면 템플릿 기간, 템플릿의 시작 및 완료 일수가 그에 따라 변경됩니다. 템플릿 작업 및 템플릿 작업의 시작 및 완료 일수에 대한 자세한 내용은 [템플릿의 시작 및 완료 일수 개요](../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md).
+템플릿에 작업을 추가하면 템플릿 기간, 템플릿의 시작 및 완료 일수가 그에 따라 변경됩니다. 템플릿 작업의 시작 및 완료 일수에 대한 자세한 내용은 [템플릿의 시작 및 완료 일수 개요](../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md)를 참조하십시오.
 
 ## 템플릿에 추가 항목 추가
 
@@ -1074,34 +1074,34 @@ By editing issue settings, you can prevent users from adding issues inline in th
 * 문서
 * 위험
 
-  위험 만들기에 대한 자세한 내용은 [프로젝트에 대한 위험 만들기 및 편집](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md#create)  이 문서의 섹션 [프로젝트에 대한 위험 만들기 및 편집](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
+  위험 만들기에 대한 자세한 내용은 문서 [프로젝트 위험 만들기 및 편집](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)의 [프로젝트 위험 만들기 및 편집](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md#create) 섹션을 참조하십시오.
 
 * 승인 프로세스
 
-  승인 프로세스를 작업과 연관시키는 방법에 대한 자세한 내용은 [신규 또는 기존 승인 프로세스를 작업과 연결](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+  승인 프로세스를 작업과 연결하는 방법에 대한 자세한 내용은 [새 승인 프로세스 또는 기존 승인 프로세스를 작업과 연결](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)을 참조하십시오.
 
 * 청구 요금
 
-  프로젝트의 청구 요율 재정의에 대한 자세한 내용은 [작업 역할 청구 요금 재정의 및 프로젝트의 수익 계산에 대한 개요](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+  프로젝트의 청구 요율 재정의에 대한 자세한 내용은 [작업 역할 청구 요율 재정의 개요 및 프로젝트의 수익 계산](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)을 참조하십시오.
 
 * 경비
 
-  경비 추가에 대한 자세한 내용은 [프로젝트 경비 관리](../../../manage-work/projects/project-finances/manage-project-expenses.md).
+  경비 추가에 대한 자세한 내용은 [프로젝트 경비 관리](../../../manage-work/projects/project-finances/manage-project-expenses.md)를 참조하십시오.
 
 * 주제 그룹 및 대기열 주제
 
-  프로젝트 또는 템플릿에 주제 그룹 및 대기열 주제를 추가하는 방법에 대한 자세한 내용은 [요청 대기열 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+  프로젝트 또는 템플릿에 주제 그룹 및 대기열 주제를 추가하는 방법에 대한 자세한 내용은 [요청 대기열 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)를 참조하십시오.
 
 템플릿의 작업에 다음 항목을 추가할 수 있습니다.
 
 * 문서
 * 경비
 
-  경비 추가에 대한 자세한 내용은 [프로젝트 경비 관리](../../../manage-work/projects/project-finances/manage-project-expenses.md).
+  경비 추가에 대한 자세한 내용은 [프로젝트 경비 관리](../../../manage-work/projects/project-finances/manage-project-expenses.md)를 참조하십시오.
 
 * 승인
 
-  승인을 작업과 연관시키는 방법에 대한 자세한 내용은 [신규 또는 기존 승인 프로세스를 작업과 연결](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+  승인을 작업과 연결하는 방법에 대한 자세한 내용은 [새 승인 프로세스나 기존 승인 프로세스를 작업과 연결](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)을 참조하십시오.
 
 
 ## 템플릿 활성화 또는 비활성화
@@ -1112,12 +1112,12 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 템플릿을 비활성화하려면 다음 작업을 수행하십시오.
 
-1. 활성 템플릿으로 이동한 다음 **자세히** ![](assets/qs-more-icon-on-an-object.png) 템플릿 이름 옆에 있는 메뉴를 클릭한 다음 **비활성화**.
+1. 활성 템플릿으로 이동한 다음 템플릿 이름 옆에 있는 **자세히** ![](assets/qs-more-icon-on-an-object.png) 메뉴를 클릭한 다음 **비활성화**&#x200B;를 클릭합니다.
 
    ![](assets/deactivate-template-link-in-more-menu.png)
 
    템플릿이 더 이상 활성 상태가 아니며 사용자는 더 이상 템플릿을 찾아 템플릿에서 프로젝트를 만들 수 없습니다.
-1. (선택 사항) 템플릿을 활성화하려면 **자세히** ![](assets/qs-more-icon-on-an-object.png) 템플릿 이름 옆에 있는 메뉴를 클릭한 다음 **활성화**.
+1. (선택 사항) 템플릿을 활성화하려면 템플릿 이름 옆에 있는 **자세히** ![](assets/qs-more-icon-on-an-object.png) 메뉴를 클릭한 다음 **활성화**&#x200B;를 클릭합니다.
 
    이제 템플릿이 활성화되었으며 프로젝트에 첨부하거나 프로젝트를 만드는 데 사용할 수 있습니다.
 

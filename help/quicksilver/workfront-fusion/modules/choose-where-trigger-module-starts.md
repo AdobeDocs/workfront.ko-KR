@@ -14,13 +14,13 @@ ht-degree: 1%
 
 ---
 
-# 트리거 모듈의 시작 위치 선택 [!DNL Adobe Workfront Fusion]
+# [!DNL Adobe Workfront Fusion]에서 트리거 모듈이 시작되는 위치를 선택하십시오.
 
 일부 트리거 모듈을 사용하면 번들 검색을 시작할 첫 번째 번들을 선택할 수 있습니다.
 
 특정 날짜 이후에 모든 번들을 검색할지 아니면 번들만 검색할지 지정할 수도 있습니다.
 
-트리거 모듈에 대한 자세한 내용은 섹션을 참조하십시오 [트리거 모듈](../../workfront-fusion/modules/module-types.md#triggers) 이 문서에서 [모듈 유형](../../workfront-fusion/modules/module-types.md).
+트리거 모듈에 대한 자세한 내용은 문서 [모듈 유형](../../workfront-fusion/modules/module-types.md)의 [트리거 모듈](../../workfront-fusion/modules/module-types.md#triggers) 섹션을 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -41,25 +41,25 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] 라이선스**</td> 
    <td>
-   <p>현재 라이선스 요구 사항: 아니요 [!DNL Workfront Fusion] 라이센스 요구 사항.</p>
+   <p>현재 라이선스 요구 사항: [!DNL Workfront Fusion] 라이선스 요구 사항이 없습니다.</p>
    <p>또는</p>
-   <p>기존 라이선스 요구 사항: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
+   <p>레거시 라이선스 요구 사항: 작업 자동화 및 통합을 위한 [!UICONTROL [!DNL Workfront Fusion]] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">제품</td> 
    <td>
-   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime]이 있는 경우 [!DNL Adobe Workfront] 플랜, 조직은 다음을 구매해야 합니다. [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오. [!DNL Workfront Fusion] [!UICONTROL Ultimate]에 포함되어 있습니다. [!DNL Workfront] 계획.</p>
+   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime] [!DNL Adobe Workfront] 플랜이 있는 경우 조직에서 이 문서에 설명된 기능을 사용하려면 [!DNL Adobe Workfront Fusion]과(와) [!DNL Adobe Workfront]을(를) 구매해야 합니다. [!DNL Workfront Fusion]이(가) [!UICONTROL Ultimate] [!DNL Workfront] 계획에 포함되어 있습니다.</p>
    <p>또는</p>
-   <p>레거시 제품 요구 사항: 조직에서 구매해야 함 [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오.</p>
+   <p>레거시 제품 요구 사항: 이 문서에 설명된 기능을 사용하려면 조직에서 [!DNL Adobe Workfront Fusion]과(와) [!DNL Adobe Workfront]을(를) 구매해야 합니다.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
+보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
 
-다음에 대한 정보: [!DNL Adobe Workfront Fusion] 라이센스, 참조 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+[!DNL Adobe Workfront Fusion] 라이선스에 대한 자세한 내용은 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md)를 참조하세요.
 
 ## 트리거 모듈의 시작 위치 선택
 
@@ -67,13 +67,13 @@ ht-degree: 1%
 
    또는
 
-   에 설명된 대로 트리거 모듈의 설정을 변경합니다. [에서 모듈 설정 구성 [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/modules/configure-a-modules-settings.md).
+   [[!UICONTROL Adobe Workfront Fusion에서 모듈 설정 구성]](../../workfront-fusion/modules/configure-a-modules-settings.md)에 설명된 대로 트리거 모듈의 설정을 변경합니다.
 
    또는
 
-   에서 트리거 모듈의 아이콘을 마우스 오른쪽 단추로 클릭합니다. [!UICONTROL 시나리오 편집기]에 설명된 대로 [에서 시나리오 만들기 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+   [시나리오 만들기 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md)에 설명된 대로 [!UICONTROL 시나리오 편집기]에서 트리거 모듈의 아이콘을 마우스 오른쪽 단추로 클릭합니다.
 
-1. 에서 옵션 선택 **[!UICONTROL 시작할 위치 선택]** 상자가 나타납니다.
+1. 표시되는 **[!UICONTROL 시작 위치 선택]** 상자에서 옵션을 선택합니다.
 
    ![](assets/choose-where-to-start-350x346.jpg)
 

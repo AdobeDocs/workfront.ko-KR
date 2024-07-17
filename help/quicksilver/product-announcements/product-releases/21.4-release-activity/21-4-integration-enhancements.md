@@ -17,7 +17,7 @@ ht-degree: 0%
 
 이 페이지에서는 미리보기 환경에 대한 21.4 릴리스의 모든 통합 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2021년 10월 4일이 있는 주에 프로덕션 환경에서 사용할 수 있습니다.
 
-21.4 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [21.4 릴리스 개요](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+21.4 릴리스에서 사용할 수 있는 모든 변경 사항 목록을 보려면 [21.4 릴리스 개요](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md)를 참조하십시오.
 
 ## Dropbox 비즈니스에서 문서 연결
 
@@ -27,9 +27,9 @@ Dropbox 비즈니스를 사용하면 공유 문서를 연결하고 문서를 공
 
 Workfront 관리자가 조직에 대해 이 통합을 활성화할 수 있습니다.
 
-자세한 내용은 [외부 애플리케이션에서 문서 연결](../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+자세한 내용은 [외부 응용 프로그램에서 문서 연결](../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)을 참조하세요.
 
-Workfront 관리자가 이 옵션을 활성화할 수 있는 방법에 대한 자세한 내용은 [문서 통합 구성](../../../administration-and-setup/configure-integrations/configure-document-integrations.md).
+Workfront 관리자가 이 옵션을 활성화할 수 있는 방법에 대한 자세한 내용은 [문서 통합 구성](../../../administration-and-setup/configure-integrations/configure-document-integrations.md)을 참조하십시오.
 
 ## Slack을 위한 Workfront 업데이트
 
@@ -40,9 +40,9 @@ Workfront 관리자가 이 옵션을 활성화할 수 있는 방법에 대한 �
 
   예를 들어 작업에 할당되면 할당되자마자 해당 알림을 받습니다. 이전에는 Slack에 알림이 표시되기 전에 지연이 있을 수 있었습니다.
 
-이 업데이트를 사용하려면 Slack 통합을 위해 Workfront을 재승인해야 합니다. 통합 인증에 대한 자세한 내용은 다음을 참조하십시오. [Slack을 위한 Adobe Workfront 구성](../../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
+이 업데이트를 사용하려면 Slack 통합을 위해 Workfront을 재승인해야 합니다. 통합 인증에 대한 자세한 내용은 [Slack을 위한 Adobe Workfront 구성](../../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)을 참조하십시오.
 
-Slack 알림용 Workfront에 대한 자세한 내용은 [Slack에서 Adobe Workfront 알림 수신](../../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md).
+Slack 알림을 위한 Workfront에 대한 자세한 내용은 [Slack에서 Adobe Workfront 알림 받기](../../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md)를 참조하십시오.
 
 ## Adobe Workfront 통합에 동의할 때 계정 액세스에 대한 세부 사항을 보다 명확하게 볼 수 있습니다
 

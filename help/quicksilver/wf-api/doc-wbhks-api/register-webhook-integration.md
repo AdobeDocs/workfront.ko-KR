@@ -10,7 +10,7 @@ role: Developer
 exl-id: 9a4f8dbe-967f-4a41-a42c-8e3acb604972
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '336'
 ht-degree: 11%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 11%
 
 Adobe Workfront 관리자는 Workfront 내의 설정 > 문서 > 사용자 정의 통합으로 이동하여 회사에 대해 사용자 정의 웹후크 통합을 추가할 수 있습니다. 관리자는 설정 내의 사용자 정의 통합 페이지에서 기존 문서 Webhook 통합 목록을 볼 수 있습니다. 이 페이지에서 통합을 추가, 편집, 활성화 및 비활성화할 수 있습니다.
 
-통합을 추가하려면 다음을 클릭합니다. **사용자 정의 통합 추가**.
+통합을 추가하려면 **사용자 지정 통합 추가**&#x200B;를 클릭합니다.
 
 ![](assets/webhooks-integration-350x230.png)
 

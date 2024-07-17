@@ -9,8 +9,8 @@ feature: Agile
 exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
 source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 1%
+source-wordcount: '380'
+ht-degree: 0%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 플랜*</strong></td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
@@ -47,12 +47,12 @@ ht-degree: 1%
 
 {{step1-to-boards}}
 
-1. 반복을 추가할 워크스트림을 엽니다. 작업 스트림을 열려면 다음을 클릭합니다. [!UICONTROL **작업 스트림 보기**].
+1. 반복을 추가할 워크스트림을 엽니다. 작업 스트림을 열려면 [!UICONTROL **작업 스트림 보기**]&#x200B;를 클릭합니다.
 1. 다음 방법 중 하나를 사용하여 반복을 만듭니다.
 
-   * 카드 목록 탭의 반복 보기에서 [!UICONTROL **반복 만들기**].
-   * 카드 목록 탭의 목록 보기에서 [!UICONTROL **반복 만들기**].
-   * 보드 탭에서 [!UICONTROL **보드 추가**] 및 선택 [!UICONTROL **반복 프로세스**] 게시판 템플릿으로 사용됩니다. 그런 다음 반복 보드를 열고 를 클릭합니다. [!UICONTROL **반복 구성**].
+   * 카드 목록 탭의 반복 보기에서 [!UICONTROL **반복 만들기**]&#x200B;를 클릭합니다.
+   * 카드 목록 탭의 목록 보기에서 [!UICONTROL **반복 만들기**]&#x200B;를 클릭합니다.
+   * 보드 탭에서 [!UICONTROL **보드 추가**]&#x200B;를 클릭하고 [!UICONTROL **반복 프로세스**]&#x200B;를 보드 템플릿으로 선택합니다. 그런 다음 반복 보드를 열고 [!UICONTROL **반복 구성**]&#x200B;을 클릭합니다.
 
 1. 반복 세부 정보 대화 상자에서 다음 정보를 추가합니다.
 
@@ -77,18 +77,18 @@ ht-degree: 1%
 
    이제 카드 목록의 반복 보기와 반복 보드의 지표 영역에 반복이 표시됩니다.
 
-   카드를 반복에 추가하려면 다음을 참조하십시오. [카드 목록 사용](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
+   카드를 반복에 추가하려면 [카드 목록 사용](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)을 참조하세요.
 
 ## 기존 반복 편집
 
-1. 작업 스트림을 열려면 다음을 클릭합니다. [!UICONTROL **작업 스트림 보기**].
+1. 작업 스트림을 열려면 [!UICONTROL **작업 스트림 보기**]&#x200B;를 클릭합니다.
 1. 다음 방법 중 하나를 사용하여 반복을 엽니다.
 
-   * 카드 목록 탭의 반복 보기에서 [!UICONTROL **반복 세부 정보**] 아이콘 ![반복 세부 정보](assets/iteration-details-button.png).
-   * 반복 보드에서 [!UICONTROL **반복 세부 정보**] 아이콘 ![반복 세부 정보](assets/iteration-details-button.png) 오른쪽 상단의 지표 영역에서 을 참조하십시오.
+   * 카드 목록 탭의 반복 보기에서 [!UICONTROL **반복 세부 정보**] 아이콘 ![반복 세부 정보](assets/iteration-details-button.png)을 클릭합니다.
+   * 반복 보드에서 오른쪽 상단의 지표 영역에서 [!UICONTROL **반복 세부 정보**] 아이콘 ![반복 세부 정보](assets/iteration-details-button.png)을 클릭합니다.
 
-1. 다음에서 [!UICONTROL 반복 구성] 패널을 열고 필요에 따라 이터레이션을 편집합니다.
-1. 반복 이름을 변경하려면 를 확장합니다. [!UICONTROL **반복 세부 정보**].
+1. [!UICONTROL 반복 구성] 패널에서 필요에 따라 반복을 편집합니다.
+1. 반복 이름을 변경하려면 [!UICONTROL **반복 세부 정보**]&#x200B;를 확장하세요.
 
    반복이 시작되면 일자 또는 반복 길이가 아닌 반복 이름만 변경할 수 있습니다.
 
@@ -115,6 +115,6 @@ Use the [!UICONTROL Next Iteration] column to move cards from the current iterat
 
 ## 반복 삭제
 
-1. 다음을 클릭합니다. [!UICONTROL **카드 목록**] 을(를) 작업 스트림에서 탭하고 반복 보기를 엽니다.
-1. 다음을 클릭합니다. **삭제** 아이콘 ![삭제 아이콘](assets/delete.png) 를 클릭합니다.
-1. 클릭 [!UICONTROL **반복 삭제**] 확인 메시지 표시.
+1. 작업 스트림에서 [!UICONTROL **카드 목록**] 탭을 클릭하고 반복 보기를 엽니다.
+1. 반복 옆에 있는 **삭제** 아이콘 ![삭제 아이콘](assets/delete.png)을 클릭합니다.
+1. 확인 메시지에서 [!UICONTROL **반복 삭제**]&#x200B;를 클릭합니다.

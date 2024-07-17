@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: 2018.3 베타 최종
-description: 이 페이지에서는 2018.3 베타 최종 릴리스의 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 기능은 2018년 10월 10일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2018년 11월에 사용할 수 있습니다.
+title: 2018.3 Beta 결승전
+description: 이 페이지에서는 2018.3 Beta 최종 릴리스의 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 기능은 2018년 10월 10일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2018년 11월에 사용할 수 있습니다.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 ---
 
-# 2018.3 베타 최종
+# 2018.3 Beta 결승전
 
-이 페이지에서는 2018.3 베타 최종 릴리스의 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 기능은 2018년 10월 10일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2018년 11월에 사용할 수 있습니다.
+이 페이지에서는 2018.3 Beta 최종 릴리스의 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 기능은 2018년 10월 10일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2018년 11월에 사용할 수 있습니다.
 
 >[!NOTE]
 >
@@ -24,14 +24,14 @@ ht-degree: 0%
 
 2018.3의 모든 변경 사항 목록은 다음을 참조하십시오.  [2018.3 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
 
-2018.3 베타 최종 릴리스에는 다음과 같은 개선 사항이 포함됩니다.
+2018.3 Beta 최종 릴리스에는 다음과 같은 개선 사항이 포함되어 있습니다.
 
 * [홈 일정과 Outlook 일정 간의 양방향 동기화](#two-way-sync-between-home-calendar-and-outlook-calendar)
-* [홈의 새 작업 추가를 위한 업데이트](#updates-for-adding-new-tasks-in-home)
-* [증명 마크업 도구가 이제 기본적으로 확장됨](#proofing-markup-tools-now-expanded-by-default)
+* [홈에 새 작업을 추가하기 위한 업데이트](#updates-for-adding-new-tasks-in-home)
+* [증명 마크업 도구가 기본적으로 확장됨](#proofing-markup-tools-now-expanded-by-default)
 * [Microsoft OneDrive 문서 통합](#microsoft-onedrive-document-integration)
-* [Workfront for Microsoft Teams 통합](#workfront-for-microsoft-teams-integration)
-* [Adobe Creative Cloud 통합을 위한 Workfront 업데이트됨](#updated-workfront-for-adobe-creative-cloud-integration)
+* [Microsoft Teams 통합을 위한 Workfront](#workfront-for-microsoft-teams-integration)
+* [Adobe Creative Cloud 통합을 위해 Workfront 업데이트됨](#updated-workfront-for-adobe-creative-cloud-integration)
 * [Workfront 모바일 앱 개선 사항](#workfront-mobile-app-improvements)
 
 ## 홈 일정과 Outlook 일정 간의 양방향 동기화 {#two-way-sync-between-home-calendar-and-outlook-calendar}
@@ -40,7 +40,7 @@ Outlook 일정과 동기화하도록 홈 일정을 구성하면 이제 홈 일�
 
 이전에는 Outlook 일정에서 홈 일정으로만 항목을 동기화할 수 있었습니다.
 
-Outlook과 동기화하도록 홈 일정을 구성하는 방법에 대한 자세한 내용은 [홈 캘린더 보기 설정 구성](../../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).
+Outlook과 동기화하도록 홈 일정을 구성하는 방법에 대한 자세한 내용은 [홈 일정 보기 설정 구성](../../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md)을 참조하십시오.
 
 ## 홈의 새 작업 추가를 위한 업데이트 {#updates-for-adding-new-tasks-in-home}
 
@@ -55,7 +55,7 @@ Outlook과 동기화하도록 홈 일정을 구성하는 방법에 대한 자세
 
 이전에는 을 클릭하여 세로 메뉴에서 이러한 도구를 확장해야 했습니다.
 
-자세한 내용은  [증명 뷰어 설정 구성](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
+자세한 내용은  [증명 뷰어 설정을 구성합니다](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
 
 ## Microsoft OneDrive 문서 통합 {#microsoft-onedrive-document-integration}
 
@@ -68,7 +68,7 @@ Outlook과 동기화하도록 홈 일정을 구성하는 방법에 대한 자세
 * Dropbox
 * WebDAM
 
-문서 통합에 대한 자세한 내용은 [문서 통합 구성](../../../../administration-and-setup/configure-integrations/configure-document-integrations.md).
+문서 통합에 대한 자세한 내용은 [문서 통합 구성](../../../../administration-and-setup/configure-integrations/configure-document-integrations.md)을 참조하십시오.
 
 ## Workfront for Microsoft Teams 통합 {#workfront-for-microsoft-teams-integration}
 
@@ -86,7 +86,7 @@ Outlook과 동기화하도록 홈 일정을 구성하는 방법에 대한 자세
 
 >[!NOTE]
 >
-> 다음 비디오에 설명된 통합 중 일부 영역이 수정되었습니다. Microsoft Teams을 위한 Workfront에 대한 최신 정보는 [[!DNL Adobe Workfront for Microsoft Teams]: 문서 색인](../../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md) 섹션.
+> 다음 비디오에 설명된 통합 중 일부 영역이 수정되었습니다. Microsoft Teams을 위한 Workfront에 대한 최신 정보는 [[!DNL Adobe Workfront for Microsoft Teams]: 문서 인덱스](../../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md) 섹션을 참조하십시오.
 
 ## Adobe Creative Cloud 통합을 위한 Workfront 업데이트됨 {#updated-workfront-for-adobe-creative-cloud-integration}
 
@@ -104,7 +104,7 @@ Workfront for Adobe Creative Cloud 통합은 새롭게 디자인되고 향상된
 
 ## Workfront 모바일 앱 개선 사항 {#workfront-mobile-app-improvements}
 
-2018.3 프로덕션 릴리스 당시 다음과 같은 새로운 기능이 iOS 및 Android 앱 스토어에 릴리스됩니다.
+2018.3 프로덕션 릴리스 당시 다음과 같은 새로운 기능이 iOS 및 Android 앱스토어에 릴리스됩니다.
 
 * 최초 사용자 경험
 
@@ -137,7 +137,7 @@ Workfront for Adobe Creative Cloud 통합은 새롭게 디자인되고 향상된
 
 * iOS 디바이스를 위한 가로 방향 지원
 
-  이제 다음 iPhone 크기를 제외하고, iOS 및 Android 모바일 앱 모두에 대해 가로 및 세로 방향을 모두 완전히 지원합니다.
+  이제 다음 iPhone 크기를 제외하고, iOS 및 Android 모바일 앱 모두에 대해 가로 및 세로 방향을 모두 지원합니다.
 
    * IPHONE 5
    * iPhone

@@ -50,7 +50,7 @@ Adobe Workfront 관리자는 Workfront 시스템의 모든 사용자에 대한 �
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -90,7 +90,7 @@ Adobe Workfront 관리자는 Workfront 시스템의 모든 사용자에 대한 �
   </tr> 
   <tr> 
    <td>사용자 환경 설정</td> 
-   <td> <p>시스템 기본값으로 되돌림</p> <p>이메일 알림은 시스템 기본값으로 되돌아갑니다. 기본 알림은에 나열됩니다. <a href="/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md">Adobe Workfront에서 사용할 수 있는 이벤트 알림</a>.</p> </td> 
+   <td> <p>시스템 기본값으로 되돌림</p> <p>이메일 알림은 시스템 기본값으로 되돌아갑니다. 기본 알림은 Adobe Workfront에서 사용할 수 있는 <a href="/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md">이벤트 알림</a>에 나열됩니다.</p> </td> 
   </tr> 
   <tr> 
    <td>사용자 정의 탭</td> 
@@ -107,10 +107,10 @@ Adobe Workfront 관리자는 Workfront 시스템의 모든 사용자에 대한 �
 
 {{step-1-to-setup}}
 
-1. 선택 **다음으로 로그인**.
+1. **다음으로 로그인**&#x200B;을 선택합니다.
 1. 기본 설정을 재설정할 사용자의 이름을 입력한 다음 드롭다운 목록에 표시될 때 이름을 클릭합니다.
-1. 선택  **로그인**.
-1. 웹 브라우저 상단의 URL 필드에서 을 추가합니다 `/resetUser` 이후 `workfront.com`.
+1. **로그인**&#x200B;을 선택합니다.
+1. 웹 브라우저 상단의 URL 필드에서 `workfront.com` 뒤에 `/resetUser`을(를) 추가합니다.
 
    >[!NOTE]
    >
@@ -118,9 +118,9 @@ Adobe Workfront 관리자는 Workfront 시스템의 모든 사용자에 대한 �
    >
    >`https://company_domain.my.workfront.com/resetUser`
 
-1. 누르기 **입력**.
-1. 모든 사용자 환경 설정을 재설정하려면 다음을 선택합니다. **재설정**.
+1. **Enter**&#x200B;를 누릅니다.
+1. 모든 사용자 환경 설정을 재설정하려면 **재설정**&#x200B;을 선택하세요.
 
    또는
 
-   사용자 정의 탭만 재설정하려면 **탭 재설정**.
+   사용자 지정 탭만 재설정하려면 **탭 재설정**&#x200B;을 선택하세요.

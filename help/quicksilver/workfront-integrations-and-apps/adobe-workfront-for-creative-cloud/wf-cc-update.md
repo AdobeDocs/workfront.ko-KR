@@ -13,9 +13,9 @@ ht-degree: 2%
 
 ---
 
-# 다음을 사용하여 작업 업데이트 [!DNL Adobe Workfront] 플러그인
+# [!DNL Adobe Workfront] 플러그인을 사용하여 작업 업데이트
 
-다음 중 하나에서 작업을 업데이트할 수 있습니다 [!DNL Adobe Creative Cloud] 애플리케이션:
+다음 [!DNL Adobe Creative Cloud]개의 응용 프로그램에서 작업을 업데이트할 수 있습니다.
 
 {{cc-app-list}}
 
@@ -40,22 +40,22 @@ ht-degree: 2%
   </tr> -->
   <tr> 
    <td role="rowheader">제품</td> 
-   <td>다음 항목이 있어야 합니다. [!DNL Adobe Creative Cloud] 에 더해진 라이센스 [!DNL Workfront] 라이센스.</td> 
+   <td>[!DNL Workfront] 라이선스 외에 [!DNL Adobe Creative Cloud] 라이선스가 있어야 합니다.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>업데이트할 개체에 대한 [!UICONTROL 보기] 액세스입니다. </p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>업데이트할 개체에 대한 [!UICONTROL 보기] 액세스입니다. </p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
+&#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
 
 ## 전제 조건
 
 {{cc-install-prereq}}
 
-## 업데이트 게시
+## Post 업데이트
 
 플러그인의 다음 영역 중 하나에서 작업을 업데이트할 수 있습니다.
 
@@ -81,15 +81,15 @@ ht-degree: 2%
 
 업데이트를 게시하려면:
 
-1. 다음을 클릭합니다. **[!UICONTROL 메뉴]** 아이콘을 클릭한 다음 을(를) 선택합니다 **[!UICONTROL 작업 목록]**. 메뉴를 사용하여 상위 객체로 이동할 수도 있습니다.
+1. 오른쪽 상단의 **[!UICONTROL 메뉴]** 아이콘을 클릭한 다음 **[!UICONTROL 작업 목록]**&#x200B;을 선택합니다. 메뉴를 사용하여 상위 객체로 이동할 수도 있습니다.
 
    ![](assets/go-back-to-work-list-350x314.png)
 
-1. 다음에서 **[!UICONTROL 작업 목록]**&#x200B;업데이트를 게시해야 하는 작업 항목을 선택합니다.
-1. 클릭 **[!UICONTROL 업데이트]** 탐색 모음에서 를 클릭합니다.\
+1. **[!UICONTROL 작업 목록]**&#x200B;에서 업데이트를 게시해야 하는 작업 항목을 선택합니다.
+1. 탐색 모음에서 **[!UICONTROL 업데이트]**&#x200B;를 클릭합니다.\
    ![](assets/photoshop-update-350x295.png)
 
-1. 클릭 **[!UICONTROL 새 업데이트]**.
+1. **[!UICONTROL 새 업데이트]**&#x200B;를 클릭합니다.
 1. 업데이트를 입력합니다.
 1. (선택 사항) 사용자에 태그를 지정하려면 @ 기호와 사용자 이름을 입력한 다음 드롭다운 메뉴에서 해당 이름을 선택합니다.
-1. 클릭 **[!UICONTROL 제출]**. 업데이트는 Adobe Workfront 웹 애플리케이션과 실시간으로 동기화됩니다.
+1. **[!UICONTROL 제출]**&#x200B;을 클릭합니다. 업데이트는 Adobe Workfront 웹 애플리케이션과 실시간으로 동기화됩니다.

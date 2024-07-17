@@ -1,8 +1,8 @@
 ---
 product-area: calendars
 navigation-topic: use-the-home-area
-title: 홈 달력 보기
-description: 에서 달력 보기를 사용할 수 있습니다 [!DNL Adobe Workfront Home] 할당된 모든 작업 항목을 한 위치에 관리합니다. 홈 달력 보기는 사용자만 볼 수 있고 홈 달력 관리만 할 수 있습니다.
+title: 홈 캘린더 보기
+description: ' [!DNL Adobe Workfront Home] 의 일정 보기를 사용하여 할당된 모든 작업 항목을 한 곳에서 관리할 수 있습니다. 홈 캘린더 보기는 귀하에게만 표시되며 귀하만 홈 캘린더를 관리할 수 있습니다.'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c8801cb4-0485-44a1-9a7d-a17a96bca419
@@ -13,15 +13,15 @@ ht-degree: 0%
 
 ---
 
-# 보기 [!UICONTROL 홈 달력]
+# [!UICONTROL 홈 캘린더] 보기
 
-를 사용할 수 있습니다 [!UICONTROL 달력] 에서 보기 [!DNL Adobe Workfront Home] 할당된 모든 작업 항목을 한 위치에 관리합니다. 사용자 [!UICONTROL 홈 달력] 보기는 사용자만 볼 수 있고 사용자만 [!UICONTROL 홈 달력].
+[!DNL Adobe Workfront Home]의 [!UICONTROL 일정] 보기를 사용하여 할당된 모든 작업 항목을 한 곳에서 관리할 수 있습니다. [!UICONTROL 홈 일정] 보기는 귀하에게만 표시되며 귀하만 [!UICONTROL 홈 일정]을 관리할 수 있습니다.
 
-홈 일정에 대해 자세히 알아보려면 [홈 달력 보기](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
+홈 캘린더에 대한 자세한 내용은 [홈 캘린더 보기](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md)를 참조하세요.
 
 ## 액세스 요구 사항
 
-이 문서의 절차를 수행하려면 다음 액세스 권한이 있어야 합니다.
+이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,7 +31,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
@@ -39,38 +39,37 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>액세스 수준 구성*</strong></td> 
-   <td> <p>작업 및 문제에 대한 [!UICONTROL 편집] 액세스</p> <p>참고: 여전히 액세스할 수 없는 경우 [!DNL Workfront] 관리자가 액세스 수준에서 추가 제한을 설정한 경우 자세한 내용은 [!DNL Workfront] 관리자는 액세스 수준을 수정할 수 있습니다. <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td> <p>작업 및 문제에 대한 [!UICONTROL 편집] 액세스</p> <p>참고: 여전히 액세스 권한이 없는 경우 [!DNL Workfront] 관리자에게 액세스 수준에 추가 제한을 설정했는지 문의하십시오. [!DNL Workfront] 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>개체 권한</strong></td> 
-   <td> <p>달력에 추가할 작업 및 문제에 대한 [!UICONTROL Contribute] 권한 이상</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>캘린더에 추가할 작업 및 문제에 대한 [!UICONTROL Contribute] 권한 이상</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;어떤 계획, 라이센스 유형 또는 액세스 권한을 보유하고 있는지 확인하려면 [!DNL Workfront] 관리자
+&#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
 
-## 보기 [!DNL Workfront] [!UICONTROL 홈 달력]
+## [!DNL Workfront] [!UICONTROL 홈 캘린더] 보기
 
-1. 을(를) 클릭합니다. **[!UICONTROL 홈]** 아이콘 ![](assets/home-icon-30x29.png) Adobe Workfront의 왼쪽 위 모서리에서
+1. Adobe Workfront의 왼쪽 위 모서리에 있는 **[!UICONTROL Home]** 아이콘 ![](assets/home-icon-30x29.png)을(를) 클릭합니다.
 
    >[!NOTE]
    >
-   >사용자 [!DNL Workfront] 관리자는 [!UICONTROL 홈] 아이콘 사용:
+   >[!DNL Workfront] 관리자가 사용자 환경의 [!UICONTROL Home] 아이콘을 다음과 같이 변경할 수 있습니다.
    >
-   >* 조직을 보여주기 위해 사용자 지정된 이미지로 바꿉니다. 이 경우 이 문서에 표시된 아이콘의 모양이 다릅니다.
-   >* 연결된 페이지를 다른 페이지로 바꿉니다. 이 경우 **[!UICONTROL 기본 메뉴]** ![](assets/main-menu-icon.png) 페이지의 오른쪽 위 모서리에서 을(를) 클릭하고 **[!UICONTROL 홈]**.
+   >* 조직 설명을 위해 사용자 지정된 이미지로 대체합니다. 이 경우 아이콘은 이 문서에 표시된 것과 다르게 표시됩니다.
+   >* 연결된 페이지를 다른 페이지로 바꿉니다. 이 경우 페이지의 오른쪽 상단에 있는 **[!UICONTROL 기본 메뉴]** ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을(를) 클릭합니다.
 
 
-
-1. 클릭 **[!UICONTROL 작업 목록]** 홈 왼쪽 위 모서리에서 을(를) 클릭하고 **[!UICONTROL 달력]** 를 클릭합니다.
+1. 홈의 왼쪽 상단 모서리에서 **[!UICONTROL 작업 목록]**&#x200B;을 클릭한 다음 드롭다운 메뉴에서 **[!UICONTROL 달력]**&#x200B;을 클릭합니다.
 
    ![](assets/work-list-calendar-drop-down-expanded-home-nwe.png)
 
-   다음 [!UICONTROL 홈 달력] 보기 가 표시됩니다.
+   [!UICONTROL 홈 일정] 보기가 표시됩니다.
 
    ![](assets/calendar-group-by-drop-down-home-nwe-350x135.png)
 
-   자신에게 할당되거나 그룹, 팀 또는 역할에 할당된 모든 작업 항목이 왼쪽 패널에 표시됩니다.
+   사용자에게 할당되거나 그룹, 팀 또는 역할에 할당된 모든 작업 항목이 왼쪽 패널에 표시됩니다.
 
-   왼쪽 패널에서 달력에 작업을 끌어다 놓아 작업 시간을 관리할 수 있습니다. 를 채우는 방법을 알아보려면 [!UICONTROL 홈 달력]를 참조하십시오. [를 사용하십시오 [!UICONTROL 홈 달력] 보기](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md).
+   왼쪽 패널에서 달력으로 작업을 끌어다 놓아 작업일을 관리할 수 있습니다. [!UICONTROL 홈 캘린더]를 채우는 방법에 대한 자세한 내용은 [[!UICONTROL 홈 캘린더 사용] 보기](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md)을 참조하세요.

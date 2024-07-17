@@ -72,7 +72,7 @@ Adobe Workfront Planning을 사용하려면 다음 설정이 있어야 합니다
 <tr>
    <td role="rowheader"><p>개체 권한</p></td>
    <td>
-   <p>작업 공간 및 보기를 편집, 삭제 및 공유하고, 레코드 유형 및 레코드를 생성, 편집 또는 삭제하기 위해 작성하지 않은 작업 공간 및 보기에 대해 또는 그 이상의 권한을 제공하십시오.</p>
+   <p>작업 영역 및 보기를 편집, 삭제 및 공유하고, 레코드 유형 및 레코드를 생성, 편집 또는 삭제하기 위해 만들지 않은 작업 영역 및 보기에 대한 Contribute 이상의 권한입니다.</p>
     <p>시스템 관리자는 자신이 만들지 않은 작업 공간을 관리할 수 있습니다. </p>
     <p>시스템 관리자는 자신이 만들지 않은 보기를 관리할 수 없습니다. </p>
    <p>Workfront Planning 객체의 권한 공유에 대한 자세한 내용은  
@@ -81,13 +81,13 @@ Adobe Workfront Planning을 사용하려면 다음 설정이 있어야 합니다
   </tr>
 <tr>
    <td role="rowheader"><p>레이아웃 템플릿</p></td>
-   <td> <p>Workfront 관리자를 포함한 모든 사용자에게 메인 메뉴의 계획 영역을 포함하는 레이아웃 템플릿을 할당해야 합니다. </p> <p>자세한 내용은 <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">레이아웃 템플릿을 사용하여 메인 메뉴 사용자 정의</a> 및 <a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md">레이아웃 템플릿에 사용자 할당</a>. </p>  
+   <td> <p>Workfront 관리자를 포함한 모든 사용자에게 메인 메뉴의 계획 영역을 포함하는 레이아웃 템플릿을 할당해야 합니다. </p> <p>자세한 내용은 <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">레이아웃 템플릿을 사용하여 기본 메뉴 사용자 지정</a> 및 <a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md">레이아웃 템플릿에 사용자 할당</a>을 참조하십시오. </p>  
 </td>
   </tr>
  </tbody>
 </table>
 
-*Workfront 액세스 요구 사항에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서의 [액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 
 ## 다른 사용자와 메인 메뉴의 계획 영역 공유
@@ -96,15 +96,15 @@ Adobe Workfront Planning을 사용하려면 다음 설정이 있어야 합니다
 
 조직이 Workfront Planning 프로그램에 등록되면 레이아웃 템플릿을 사용하여 모든 사용자의 기본 메뉴에 계획 영역을 추가할 수 있습니다.
 
-1. 에 로그인 **Workfront** Workfront 관리자입니다.
+1. **Workfront**&#x200B;에 Workfront 관리자로 로그인합니다.
 
-1. 추가 **계획 수립** 아이콘 ![](assets/planning-icon.png) (으)로 **메인 메뉴** 사용 **레이아웃 템플릿**.
+1. **레이아웃 템플릿**&#x200B;을(를) 사용하여 **계획** 아이콘 ![](assets/planning-icon.png)을(를) **주 메뉴**&#x200B;에 추가하십시오.
 
-   자세한 내용은 [레이아웃 템플릿을 사용하여 메인 메뉴 사용자 정의](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+   자세한 내용은 [레이아웃 템플릿을 사용하여 기본 메뉴 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)을 참조하십시오.
 
 1. Workfront Planning에 액세스할 수 있는 사용자에게 레이아웃 템플릿을 할당합니다.
 
-   자세한 내용은 [레이아웃 템플릿에 사용자 할당](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
+   자세한 내용은 [레이아웃 템플릿에 사용자 할당](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)을 참조하십시오.
 
    이제 템플릿에 할당된 모든 사용자가 주 메뉴에서 Workfront Planning에 액세스할 수 있습니다.
 
@@ -116,16 +116,16 @@ Workfront Planning에 대한 액세스 제어가 없습니다.
 
 모든 유형의 라이선스가 있는 사용자는 Workfront Planning에 액세스할 수 있습니다.
 
-Workfront에서의 액세스 권한 부여에 대한 자세한 내용은 [사용자 정의 액세스 수준 만들기 및 수정](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+Workfront에서 액세스 권한을 부여하는 방법에 대한 자세한 내용은 [사용자 지정 액세스 수준 만들기 및 수정](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)을 참조하십시오.
 
 ## 권한 부여
 
 사용자가 액세스할 수 있도록 사용자가 만드는 작업 공간 및 보기에 대한 사용 권한을 사용자에게 부여해야 합니다.
 
-자세한 내용은 [Adobe Workfront Planning의 공유 권한 개요](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+자세한 내용은 [Adobe Workfront Planning의 공유 권한 개요](/help/quicksilver/planning/access/sharing-permissions-overview.md)를 참조하십시오.
 
 Adobe Workfront 라이선스 유형은 Workfront Planning 권한과 함께 작동하여 Workfront Planning 개체를 보거나, 기여하거나, 관리할 수 있는 액세스 권한을 부여합니다.
 
-라이선스 유형이 Workfront Planning 객체의 권한 수준에 영향을 주는 방법에 대한 자세한 내용은 다음을 참조하십시오. [Adobe Workfront Planning 사용 시 라이선스 유형 개요](/help/quicksilver/planning/access/license-type-overview.md).
+라이선스 유형이 Workfront Planning 개체의 사용 권한 수준에 영향을 주는 방법에 대한 자세한 내용은 [Adobe Workfront Planning 사용 시 라이선스 유형 개요](/help/quicksilver/planning/access/license-type-overview.md)를 참조하십시오.
 
 

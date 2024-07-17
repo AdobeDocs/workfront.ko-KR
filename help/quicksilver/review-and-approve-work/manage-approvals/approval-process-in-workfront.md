@@ -24,32 +24,32 @@ Adobe Workfront의 다음 오브젝트 유형에 사용할 수 있습니다.
 
 * 작업 항목(프로젝트, 작업 또는 문제, 템플릿, 템플릿 작업)
 * 문서
-* 증명
+* 교정쇄
 
 이 문서에는 작업 항목과 연결된 승인 프로세스에 대한 일반 정보가 포함되어 있습니다.
-승인 프로세스를 만드는 방법에 대한 지침은 [작업 항목에 대한 승인 프로세스 만들기](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+승인 프로세스를 만드는 방법에 대한 지침은 [작업 항목에 대한 승인 프로세스 만들기](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)를 참조하십시오.
 
 ## 작업 항목에 대한 승인 프로세스 유형
 
 Adobe Workfront 관리자 또는 승인 프로세스에 대한 관리 액세스 권한이 있는 사용자의 경우 프로젝트, 작업 및 문제에 대해 다음과 같은 승인 프로세스를 만들 수 있습니다.
 
-* **시스템 수준 글로벌 승인 프로세스**: 사용자는 다음 중 하나에 첨부할 수 있습니다.
+* **시스템 수준 전역 승인 프로세스**: 사용자가 다음 중 하나에 연결할 수 있습니다.
 
    * 승인 섹션의 프로젝트, 작업 또는 문제
    * 작업 기본 승인 프로세스 영역의 프로젝트 편집 상자
    * 기본 승인 프로세스 영역에서 프로젝트의 대기열 세부 정보 또는 대기열 주제 섹션. 프로젝트를 요청 대기열로 활성화해야 합니다.
 
-* **그룹 수준의 글로벌 승인 프로세스**: 사용자가 다음 위치에 첨부할 수 있습니다.
+* **그룹 수준 전역 승인 프로세스**: 사용자는 이러한 프로세스를 다음에 첨부할 수 있습니다.
 
    * 승인 섹션의 승인 프로세스와 연결된 그룹에 속하는 프로젝트, 작업 또는 문제
    * 승인 프로세스와 연결된 그룹에 속한 프로젝트의 작업 기본 승인 프로세스 영역의 프로젝트 편집 상자
    * 기본 승인 프로세스 영역에서 프로젝트의 대기열 세부 정보 또는 대기열 주제 섹션. 프로젝트는 요청 대기열로 활성화되어야 하며 승인 프로세스와 연결된 그룹에 속해 있어야 합니다.
 
-  시스템 레벨 또는 그룹 레벨 승인 프로세스 생성에 대한 자세한 내용은 [작업 항목에 대한 승인 프로세스 만들기](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+  시스템 수준 또는 그룹 수준 승인 프로세스를 만드는 방법에 대한 자세한 내용은 [작업 항목에 대한 승인 프로세스 만들기](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)를 참조하십시오.
 
-* **일회용 승인 프로세스**: 단일 프로젝트, 작업, 문제, 템플릿 또는 템플릿 작업에 사용됩니다. 이 유형의 승인 프로세스는 연결된 개체에만 영향을 미치며 다른 개체에는 연결할 수 없습니다.
+* **단일 사용 승인 프로세스**: 단일 프로젝트, 작업, 문제, 템플릿 또는 템플릿 작업에 사용됩니다. 이 유형의 승인 프로세스는 연결된 개체에만 영향을 미치며 다른 개체에는 연결할 수 없습니다.
 
-  일회용 승인 프로세스 만들기에 대한 자세한 내용은 [신규 또는 기존 승인 프로세스를 작업과 연결](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+  일회용 승인 프로세스를 만드는 방법에 대한 자세한 내용은 [새 승인 프로세스 또는 기존 승인 프로세스를 작업과 연결](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)을 참조하십시오.
 
 >[!NOTE]
 >
@@ -57,7 +57,7 @@ Adobe Workfront 관리자 또는 승인 프로세스에 대한 관리 액세스 
 >
 >&quot;그룹 수준 글로벌 승인 프로세스&quot;란 특정 그룹에만 연관된 상태 및 항목에 대해 반복적으로 사용할 수 있는 승인 프로세스를 말합니다.
 
-시스템 레벨 승인 프로세스 또는 그룹 레벨 승인 프로세스 생성에 대한 자세한 내용은 [작업 항목에 대한 승인 프로세스 만들기](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+시스템 수준 승인 프로세스 또는 그룹 수준 승인 프로세스를 만드는 방법에 대한 자세한 내용은 [작업 항목에 대한 승인 프로세스 만들기](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)를 참조하십시오.
 
 ## 승인 프로세스에 대한 고려 사항
 
@@ -80,27 +80,27 @@ Adobe Workfront 관리자 또는 승인 프로세스에 대한 관리 액세스 
      >   
      >
 
-   * 승인 프로세스와 연결된 엔티티는 사용자, 작업 역할 또는 팀일 수 있습니다. 사용자는 승인을 수락하거나 거부할 책임이 있습니다. 프로젝트에서 특정 역할을 수행하는 사용자에게 승인을 할당할 수 있습니다. 예를 들어 프로젝트 소유자 또는 스폰서에게 승인을 할당할 수 있습니다. 자세한 내용은 [작업 항목에 대한 승인 프로세스 만들기](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+   * 승인 프로세스와 연결된 엔티티는 사용자, 작업 역할 또는 팀일 수 있습니다. 사용자는 승인을 수락하거나 거부할 책임이 있습니다. 프로젝트에서 특정 역할을 수행하는 사용자에게 승인을 할당할 수 있습니다. 예를 들어 프로젝트 소유자 또는 스폰서에게 승인을 할당할 수 있습니다. 자세한 내용은 [작업 항목에 대한 승인 프로세스 만들기](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)를 참조하십시오.
 
      다음과 같은 시나리오가 있습니다.
 
       * 작업 역할에 승인을 할당하면 작업 역할과 연결된 프로젝트 팀의 모든 사용자가 승인에 대해 의사 결정을 내릴 수 있습니다. 승인과 연관된 역할은 기본 역할 또는 다른 역할일 수 있습니다.
 
-        프로젝트 팀에 대한 자세한 내용은 [프로젝트 팀 개요](../../manage-work/projects/planning-a-project/project-team-overview.md).
+        프로젝트 팀에 대한 자세한 내용은 [프로젝트 팀 개요](../../manage-work/projects/planning-a-project/project-team-overview.md)를 참조하십시오.
 
       * 팀에 승인을 할당하면 해당 팀의 모든 구성원이 승인에 대해 결정할 수 있습니다. 승인과 연관된 팀은 홈 팀이거나 다른 팀일 수 있습니다.
 
-        사용자의 역할 및 팀에 대한 자세한 내용은 [사용자 프로필 편집](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+        사용자의 역할 및 팀에 대한 자세한 내용은 [사용자 프로필 편집](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)을 참조하세요.
 
-* 작업 항목을 만들 때 승인 프로세스가 자동으로 첨부되지 않습니다. 이를 사용하려면 수동으로 첨부해야 합니다. 항목에 승인 프로세스를 첨부하는 방법에 대한 자세한 내용은 [신규 또는 기존 승인 프로세스를 작업과 연결](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+* 작업 항목을 만들 때 승인 프로세스가 자동으로 첨부되지 않습니다. 이를 사용하려면 수동으로 첨부해야 합니다. 항목에 승인 프로세스를 첨부하는 방법에 대한 자세한 내용은 [새 승인 프로세스 또는 기존 승인 프로세스를 작업과 연결](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)을 참조하십시오.
 * Workfront 관리자 또는 승인 프로세스에 대한 관리 액세스 권한이 있는 사용자는 시스템 전체에서 사용할 시스템 수준의 글로벌 승인 프로세스를 만들 수 있습니다. 승인 프로세스에 대한 관리 액세스 권한이 있는 그룹 관리자는 자신이 관리하는 특정 그룹에서만 사용할 수 있도록 그룹 수준의 전역 승인 프로세스를 만들 수 있습니다.
 * 작업 항목에 대해 사전 정의된 시스템 수준 또는 그룹 수준의 글로벌 승인 프로세스를 사용하지 않으려면 승인 프로세스를 첨부할 객체에 대한 관리 권한이 있는 경우 단일 사용 승인 프로세스를 만들어 첨부할 수 있습니다.
 
   >[!NOTE]
   >
-  생성된 특정 항목에 대해 일회성 승인 프로세스를 한 번만 사용할 수 있습니다. 프로젝트, 작업, 문제, 템플릿 및 템플릿 작업에 대한 단일 사용 승인 프로세스에 대해 그룹 수준 상태뿐만 아니라 글로벌 상태를 연결할 수 있습니다.
+  >생성된 특정 항목에 대해 일회성 승인 프로세스를 한 번만 사용할 수 있습니다. 프로젝트, 작업, 문제, 템플릿 및 템플릿 작업에 대한 단일 사용 승인 프로세스에 대해 그룹 수준 상태뿐만 아니라 글로벌 상태를 연결할 수 있습니다.
 
-* 그룹 수준 사용자 지정 상태를 사용하여 그룹 수준 승인 프로세스를 항목에 연결할 때 프로젝트 그룹을 변경하면 이전 그룹의 승인 상태와 시스템 수준에 있는 승인 상태 간에 충돌이 발생할 수 있습니다. 그룹을 업데이트하기 전에 프로젝트에서 그룹 수준 승인 프로세스, 작업 또는 문제를 제거하는 것이 좋습니다. 그룹 수준 승인 프로세스를 만드는 방법에 대한 자세한 내용은 [그룹 수준 승인 프로세스](../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md). 사용자 지정 그룹 상태 만들기에 대한 자세한 내용은 [그룹 상태 만들기 또는 편집](../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md). 프로젝트 그룹 업데이트에 대한 자세한 내용은 [프로젝트 편집](../../manage-work/projects/manage-projects/edit-projects.md).
+* 그룹 수준 사용자 지정 상태를 사용하여 그룹 수준 승인 프로세스를 항목에 연결할 때 프로젝트 그룹을 변경하면 이전 그룹의 승인 상태와 시스템 수준에 있는 승인 상태 간에 충돌이 발생할 수 있습니다. 그룹을 업데이트하기 전에 프로젝트에서 그룹 수준 승인 프로세스, 작업 또는 문제를 제거하는 것이 좋습니다. 그룹 수준 승인 프로세스를 만드는 방법에 대한 자세한 내용은 [그룹 수준 승인 프로세스](../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md)를 참조하십시오. 사용자 지정 그룹 상태 만들기에 대한 자세한 내용은 [그룹 상태 만들기 또는 편집](../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md)을 참조하세요. 프로젝트 그룹 업데이트에 대한 자세한 내용은 [프로젝트 편집](../../manage-work/projects/manage-projects/edit-projects.md)을 참조하세요.
 
 ## 승인 프로세스 워크플로
 
@@ -117,8 +117,8 @@ Adobe Workfront 관리자 또는 승인 프로세스에 대한 관리 액세스 
 
 작업 항목의 상태에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
-* [시스템 프로젝트 상태 목록 액세스](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)
-* [시스템 작업 상태 목록 액세스](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)
+* [시스템 프로젝트 상태 목록에 액세스](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)
+* [시스템 작업 상태 목록에 액세스](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)
 * [시스템 문제 상태 목록 액세스](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md)
 
 ### 일반적인 워크플로우에서 승인 프로세스를 사용하는 방법 {#how-a-typical-workflow-uses-an-approval-process}
@@ -129,19 +129,19 @@ Adobe Workfront 관리자 또는 승인 프로세스에 대한 관리 액세스 
 
    >[!NOTE]
    >
-   템플릿에 프로젝트 승인 프로세스를 첨부하고 템플릿 작업에 작업 승인 프로세스를 첨부할 수 있습니다. 이렇게 하면 누군가가 템플릿을 사용하여 프로젝트를 만들 때 승인 프로세스가 프로젝트 또는 작업 승인 프로세스가 됩니다. 템플릿 또는 템플릿 작업에 연결된 일회성 승인 프로세스는 프로젝트 및 작업에 대한 일회성 승인 프로세스로 유지됩니다.
+   >템플릿에 프로젝트 승인 프로세스를 첨부하고 템플릿 작업에 작업 승인 프로세스를 첨부할 수 있습니다. 이렇게 하면 누군가가 템플릿을 사용하여 프로젝트를 만들 때 승인 프로세스가 프로젝트 또는 작업 승인 프로세스가 됩니다. 템플릿 또는 템플릿 작업에 연결된 일회성 승인 프로세스는 프로젝트 및 작업에 대한 일회성 승인 프로세스로 유지됩니다.
 
 1. 프로젝트, 작업 또는 문제에 대한 관리 권한이 있는 사용자가 승인 프로세스를 항목에 첨부하거나 항목에 대한 일회성 승인을 만듭니다.
 1. 작업 항목에 할당된 사용자가 상태를 승인 프로세스를 시작하는 상태로 변경하고 승인 프로세스가 시작됩니다. (승인 프로세스 작성자는 상태와 승인 프로세스 간의 관계를 정의했습니다.)
 1. 지정된 승인자는 승인 보류 프로세스에 대한 통지를 받고 작업 항목을 검토합니다.
 1. 승인 프로세스는 지정된 승인자가 프로세스의 모든 단계를 승인한 후에 종료됩니다. 또는 단계가 거부되면 상태가 사전 정의된 상태로 재설정되거나 문제가 생성됩니다. (승인 프로세스를 만든 사람은 이러한 자동화된 단계 중 거부 후에 발생하는 단계를 정의했습니다.)
 
-**예:** 광고 팀이 인쇄 준비됨 상태와 이 상태와 연계된 디자이너/카피라이터 사인오프라는 승인 프로세스를 만들었습니다. 이 승인 프로세스는 다음으로 구성되었습니다.
+**예:** 광고 팀이 인쇄 준비됨 상태와 이 상태와 연결된 승인 프로세스 Designer/Copywriter 사인오프라는 상태를 만들었습니다. 이 승인 프로세스는 다음으로 구성되었습니다.
 
 * 팀의 디자이너 및 카피라이터의 승인 필요
 * 다른 사용자가 작업 항목의 상태를 인쇄 준비로 변경할 때마다 시작
 
-브로셔 프로젝트 소유자는 디자이너/카피라이터 사인오프 승인 프로세스를 브로셔 프로젝트에 연결합니다.
+브로셔 프로젝트 소유자는 Designer/카피라이터 사인오프 승인 프로세스를 브로셔 프로젝트에 연결합니다.
 
 프로젝트의 누군가가 상태를 인쇄 준비됨으로 변경하면 카피라이터와 디자이너는 승인 또는 거부를 요청하는 알림을 받게 됩니다. 승인 프로세스 중에 승인 여부를 심의할 때 프로젝트의 상태가 인쇄 준비됨 - 승인 보류 중으로 표시됩니다.
 
@@ -151,14 +151,14 @@ Adobe Workfront 관리자 또는 승인 프로세스에 대한 관리 액세스 
 
 문서 승인은 보다 일반적인 승인에 사용됩니다. 피드백은 업데이트 탭에 채팅 형식으로 캡처됩니다. 승인 버튼을 사용하여 변경 사항을 승인, 거부 또는 승인할 수 있습니다.
 
-Workfront에 업로드한 후 문서에 승인자를 추가하려면 다음을 참조하십시오. [문서 승인 요청](../../review-and-approve-work/manage-approvals/request-document-approvals.md).
+Workfront에 업로드한 후 문서에 승인자를 추가하려면 [문서 승인 요청](../../review-and-approve-work/manage-approvals/request-document-approvals.md)을 참조하십시오.
 
 ## 증명 승인 프로세스
 
 증명 승인은 보다 심층적인 검토를 위해 사용되며 일반적으로 보다 복잡한 워크플로를 포함합니다. 피드백은 증명 뷰어에서 마크업 도구를 사용하여 캡처됩니다. 승인 버튼을 사용하여 변경 사항을 승인, 거부 또는 승인할 수 있습니다.
 
-자동화된 워크플로를 문서 증명에 추가하고 워크플로의 특정 사용자를 증명 승인자로 지정하려면 을 참조하십시오. [자동화된 워크플로를 사용하여 고급 증명 만들기](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md).
+문서 증명에 자동화된 워크플로를 추가하고 워크플로의 특정 사용자를 증명 승인자로 지정하려면 [자동화된 워크플로를 사용하여 고급 증명 만들기](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)를 참조하십시오.
 
 ## 작업 항목 승인 프로세스에 대한 설정 구성
 
-Workfront 관리자는 시스템의 작업 항목 승인 프로세스에 대한 전역 설정을 구성할 수 있습니다. 이러한 설정은 승인 결정을 열어 둘 수 있는 기간 또는 시스템에서 승인 위임을 관리하는 방법과 같은 승인 프로세스에 대한 다양한 규칙을 결정합니다. 승인 프로세스 설정에 대한 자세한 내용은 [전역 승인 설정 구성](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md).
+Workfront 관리자는 시스템의 작업 항목 승인 프로세스에 대한 전역 설정을 구성할 수 있습니다. 이러한 설정은 승인 결정을 열어 둘 수 있는 기간 또는 시스템에서 승인 위임을 관리하는 방법과 같은 승인 프로세스에 대한 다양한 규칙을 결정합니다. 승인 프로세스 설정에 대한 자세한 내용은 [전역 승인 설정 구성](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md)을 참조하십시오.

@@ -20,6 +20,6 @@ ht-degree: 0%
 이 섹션에는 다음 문서가 포함됩니다.
 
 * [타임시트의 작업 주 시작일 수정](../../timesheets/tips-tricks-and-troubleshooting/correct-start-day-of-work-week.md)
-* [재무 다시 계산 작업이 요금이 변경될 때 기록 시간에 영향을 주지 않도록 합니다.](../../timesheets/tips-tricks-and-troubleshooting/prevent-recalculate-finance-action.md)
-* [Adobe Workfront API를 사용하여 시간 레코드 추적](../../timesheets/tips-tricks-and-troubleshooting/track-hour-records-with-wfapi.md)
+* [재무 다시 계산 작업이 요금이 변경될 때 이전 시간에 영향을 주지 않도록 합니다](../../timesheets/tips-tricks-and-troubleshooting/prevent-recalculate-finance-action.md)
+* [Adobe Workfront API로 시간 레코드 추적](../../timesheets/tips-tricks-and-troubleshooting/track-hour-records-with-wfapi.md)
 * [미래 날짜에 대한 시간을 기록할 수 없음](../../timesheets/tips-tricks-and-troubleshooting/unable-to-log-time-future-dates.md)

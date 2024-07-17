@@ -53,8 +53,8 @@ ht-degree: 0%
    <td role="rowheader">액세스 수준 구성</td> 
    <td> <p>다음 중 하나가 있어야 합니다.</p> 
     <ul> 
-     <li> <p>시스템 관리자 액세스 수준입니다. 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">사용자에게 전체 관리 액세스 권한 부여</a>. </p> </li> 
-     <li> <p><b>사용자</b> 액세스 수준의 설정이 다음으로 구성됨 <b>편집</b> 액세스, 사용 <b>만들기</b> 그리고 둘 중 하나 이상은 <b>사용자 관리자</b> 아래에 옵션 활성화됨 <b>설정 미세 조정</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>다음 두 옵션 중 사용자 <b>관리자(그룹 사용자)</b> 이(가) 활성화되어 있으면 사용자가 멤버인 그룹의 그룹 관리자여야 합니다.</p> <p>에 대한 자세한 내용은 <b>사용자</b> 액세스 수준에서 을(를) 설정합니다. <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">사용자에게 액세스 권한 부여</a>.</p> </li> 
+     <li> <p>시스템 관리자 액세스 수준입니다. 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">사용자에게 전체 관리 액세스 권한 부여</a>를 참조하십시오. </p> </li> 
+     <li> <p>액세스 수준의 <b>사용자</b> 설정이 <b>편집</b> 액세스로 구성되었으며, <b>만들기</b>와 <b>설정을 미세 조정</b> <img src="assets/gear-icon-in-access-levels.png">에서 두 개의 <b>사용자 관리</b> 옵션 중 하나 이상을 사용할 수 있습니다. </p> <p>이 두 옵션 중 사용자 <b>관리자(그룹 사용자)</b>이(가) 활성화된 경우 사용자가 멤버인 그룹의 그룹 관리자여야 합니다.</p> <p>액세스 수준의 <b>사용자</b> 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">사용자에게 액세스 권한 부여</a>를 참조하십시오.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -62,17 +62,17 @@ ht-degree: 0%
 
 ## 스프레드시트 가져오기 파일을 사용하여 사용자 가져오기
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 상단에서 을(를) 클릭한 다음 **사용자** ![](assets/users-icon-in-main-menu.png).
+1. Adobe Workfront의 오른쪽 상단에 있는 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **사용자** ![](assets/users-icon-in-main-menu.png)를 클릭합니다.
 
-1. 다음을 클릭합니다. **새 사용자** 드롭다운 화살표를 클릭한 다음 **사용자 가져오기**.
+1. **새 사용자** 드롭다운 화살표를 클릭한 다음 **사용자 가져오기**&#x200B;를 클릭합니다.
 
-1. 다음에서 **사용자 가져오기** 표시되는 상자에서 샘플 파일을 다운로드한 다음 사용자의 개인 정보를 포함하도록 샘플 파일을 업데이트합니다.
+1. 표시되는 **사용자 가져오기** 상자에서 샘플 파일을 다운로드한 다음 사용자의 개인 정보를 포함하도록 샘플 파일을 업데이트합니다.
 
    각 행에는 다음 필드가 포함되어 있습니다.
 
    * **이름**
    * **성**
-   * **이메일 주소**
+   * **전자 메일 주소**
 
      이메일 주소는 고유해야 합니다.
 
@@ -88,16 +88,16 @@ ht-degree: 0%
 
    행을 완료하면 다음과 같이 표시됩니다.
 
-   ![import-new-users.png](assets/importing-new-users.png)
+   ![new-users.png 가져오기](assets/importing-new-users.png)
 
 1. 파일을 워크스테이션의 위치에 저장합니다.
-1. 클릭 **파일 선택** 다음에서 **사용자 가져오기** 상자.
+1. **사용자 가져오기** 상자에서 **파일 선택**&#x200B;을 클릭합니다.
 
 1. 저장한 파일로 이동하여 선택합니다.
-1. (선택 사항) **이 사용자에게 초대 이메일 보내기** 사용자에게 Workfront 계정이 생성되었음을 알리고 암호를 설정하도록 요청하는 전자 메일 초대를 보내는 옵션.
+1. (선택 사항) **이 사용자에게 초대 전자 메일 보내기** 옵션을 선택하여 사용자에게 전자 메일 초대를 보내고 사용자에게 Workfront 계정이 생성되었음을 알리고 암호를 설정하도록 요청합니다.
 
    사용자의 암호를 설정하려면 이 옵션을 선택 취소합니다.
 
-1. 클릭 **가져오기**.
+1. **가져오기**&#x200B;를 클릭합니다.
 
    화면 맨 위에 사용자를 성공적으로 가져왔다는 확인 메시지가 표시됩니다.

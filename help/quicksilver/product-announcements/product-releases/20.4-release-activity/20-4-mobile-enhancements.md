@@ -17,7 +17,7 @@ ht-degree: 0%
 
 이 페이지에서는 미리보기 환경에 대한 20.4 릴리스의 모든 모바일 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2020년 11월 9일이 있는 주에 프로덕션 환경에서 사용할 수 있습니다.
 
-20.4 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [20.4 릴리스 개요](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
+20.4 릴리스에서 사용할 수 있는 모든 변경 사항 목록은 [20.4 릴리스 개요](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md)를 참조하십시오.
 
 ## Microsoft Teams 알림에 기능이 추가되었습니다.
 
@@ -32,15 +32,15 @@ Microsoft Teams을 통해 Workfront을 더 쉽게 사용할 수 있도록 Workfr
 * 알림에서 작업 항목의 사용자 정의 양식을 보고 사용자 정의 양식을 확장하여 해당 필드를 볼 수 있도록 했습니다.
 * 이제 프로젝트, 작업 또는 문제에 대한 알림을 받으면 알림에서 직접 작업 항목의 상태를 변경할 수 있습니다.
 
-자세한 내용은 [Microsoft Teams에서 Adobe Workfront 알림 관리](../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md).
+자세한 내용은 [Microsoft Teams에서 Adobe Workfront 알림 관리](../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md)를 참조하십시오.
 
 ## MobileIron용 Workfront 소개
 
 Workfront은 MDM(모바일 장치 관리) 플랫폼인 MobileIron과 협력하여 조직의 보안 및 제어 모바일 경험을 제공합니다.
 
-Workfront for MobileIron을 사용하면 관리자는 복사/붙여넣기 기능 및 화면 캡처와 같은 기능을 제한할 수 있습니다. 다음 위치에서 MobileIron용 Workfront 앱을 다운로드할 수 있습니다. [https://marketplace.mobileiron.com/listing/workfront](https://marketplace.mobileiron.com/listing/workfront).
+Workfront for MobileIron을 사용하면 관리자는 복사/붙여넣기 기능 및 화면 캡처와 같은 기능을 제한할 수 있습니다. [https://marketplace.mobileiron.com/listing/workfront](https://marketplace.mobileiron.com/listing/workfront)에서 MobileIron용 Workfront 앱을 다운로드할 수 있습니다.
 
-앱 구성에 대한 자세한 내용은 [MobileIron용 Adobe Workfront 구성](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md).
+앱 구성에 대한 자세한 내용은 [MobileIron용 Adobe Workfront 구성](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)을 참조하십시오.
 
 ## Workfront 모바일 앱에서 작업을 빠르게 만들기
 
@@ -62,4 +62,4 @@ Workfront 모바일 앱의 새로운 빠른 작업 옵션을 사용하여 작업
 
 이 명령은 도우미에게 요청할 수 있는 다양한 항목의 목록을 표시합니다.
 
-**참고: Mobile Virtual Assistant는 2024년 4월부터 더 이상 사용되지 않습니다.**
+**참고: Mobile Virtual Assistant는 2024년 4월부터 사용되지 않습니다.**

@@ -17,7 +17,7 @@ ht-degree: 0%
 
 이 페이지에서는 미리보기 환경에 대한 21.3 릴리스의 모든 리소스 관리 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2021년 7월 21일이 있는 주에 프로덕션 환경에서 사용할 수 있습니다.
 
-21.3 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [21.3 릴리스 개요](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+21.3 릴리스에서 사용할 수 있는 모든 변경 사항 목록을 보려면 [21.3 릴리스 개요](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md)를 참조하십시오.
 
 ## 더 이상 사용되지 않는 역할 비활성화
 
@@ -29,5 +29,5 @@ ht-degree: 0%
 
 비활성화된 역할과 승인 프로세스 또는 라우팅 규칙에 할당된 작업 및 문제는 계속 이러한 역할에 할당됩니다. 아직 완료되지 않은 경우 이러한 객체를 업데이트하여 비활성 역할을 활성 역할로 교체해야 합니다.
 
-자세한 내용은 [작업 역할 비활성화](../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md).
+자세한 내용은 [작업 역할 비활성화](../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md)를 참조하십시오.
 

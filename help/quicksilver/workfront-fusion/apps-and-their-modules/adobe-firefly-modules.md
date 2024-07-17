@@ -5,7 +5,7 @@ product-area: workfront-integrations
 keywords: 커넥터
 navigation-topic: apps-and-their-modules
 title: Adobe Firefly 모듈
-description: 다음에서 [!DNL Adobe Workfront Fusion] 시나리오에서는 다음을 사용하는 워크플로를 자동화할 수 있습니다 [!DNL Adobe Firefly]을 여러 타사 응용 프로그램 및 서비스에 연결할 수 있습니다.
+description: ' [!DNL Adobe Workfront Fusion] 시나리오에서는  [!DNL Adobe Firefly]을(를) 사용하는 워크플로를 자동화할 수 있을 뿐만 아니라 여러 타사 응용 프로그램 및 서비스에 연결할 수 있습니다.'
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 1e131c27-571d-4099-9243-69572bdb3f5a
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Firefly] 모듈
+# [!DNL Adobe Firefly]개 모듈
 
-다음에서 [!DNL Adobe Workfront Fusion] 시나리오에서는 다음을 사용하는 워크플로를 자동화할 수 있습니다 [!DNL Adobe Firefly]을 여러 타사 응용 프로그램 및 서비스에 연결할 수 있습니다.
+[!DNL Adobe Workfront Fusion] 시나리오에서는 [!DNL Adobe Firefly]을(를) 사용하는 워크플로를 자동화하고 여러 타사 응용 프로그램 및 서비스에 연결할 수 있습니다.
 
-시나리오를 만드는 방법에 대한 지침이 필요한 경우 [시나리오 만들기](../../workfront-fusion/scenarios/create-a-scenario.md).
+시나리오를 만드는 방법에 대한 지침은 [시나리오 만들기](../../workfront-fusion/scenarios/create-a-scenario.md)를 참조하십시오.
 
-모듈에 대한 자세한 내용은 [의 모듈 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+모듈에 대한 자세한 내용은 [의 모듈 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md)을 참조하세요.
 
 ## 액세스 요구 사항
 
@@ -43,7 +43,7 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 라이센스**</td> 
    <td>
-   <p>현재: 아니요 [!DNL Workfront Fusion] 라이센스 요구 사항.</p>
+   <p>현재: [!DNL Workfront Fusion] 라이선스 요구 사항이 없습니다.</p>
    <p>또는</p>
    <p>레거시: 모두 </p>
    </td> 
@@ -51,29 +51,29 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">제품</td> 
    <td>
-   <p>신규:</p> <ul><li>[!UICONTROL Select] 또는 [!UICONTROL Prime] [!DNL Workfront] 플랜: 조직에서 구매해야 합니다. [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] 플랜: [!DNL Workfront Fusion] 포함됩니다.</li></ul>
+   <p>신규:</p> <ul><li>[!UICONTROL Select] 또는 [!UICONTROL Prime] [!DNL Workfront] 플랜: 조직에서 [!DNL Adobe Workfront Fusion]을(를) 구매해야 합니다.</li><li>[!UICONTROL Ultimate] [!DNL Workfront] 계획: [!DNL Workfront Fusion]이(가) 포함되어 있습니다.</li></ul>
    <p>또는</p>
-   <p>현재: 조직에서 구매해야 합니다. [!DNL Adobe Workfront Fusion].</p>
+   <p>현재: 조직에서 [!DNL Adobe Workfront Fusion]을(를) 구매해야 합니다.</p>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
-다음에 대한 정보: [!DNL Adobe Workfront Fusion] 라이센스, 참조 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+[!DNL Adobe Workfront Fusion] 라이선스에 대한 자세한 내용은 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md)를 참조하세요.
 
 ## 전제 조건
 
-을(를) 사용하기 전에 [!DNL Adobe Firefly] connector에서 다음 전제 조건이 충족되는지 확인해야 합니다.
+[!DNL Adobe Firefly] 커넥터를 사용하려면 먼저 다음 전제 조건을 충족하는지 확인해야 합니다.
 
-* 활성 상태가 있어야 합니다. [!DNL Adobe Firefly] 계정입니다.
+* 활성 [!DNL Adobe Firefly] 계정이 있어야 합니다.
 
-## 에 대한 연결 만들기 [!DNL Adobe Firefly]
+## [!DNL Adobe Firefly]에 연결 만들기
 
-에 대한 연결을 만들려면 [!DNL Adobe Firefly] 모듈:
+[!DNL Adobe Firefly] 모듈에 대한 연결을 만들려면:
 
-1. 클릭 **[!UICONTROL 추가]** 연결 상자 옆에 있습니다.
+1. 연결 상자 옆에 있는 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
 
 1. 다음 필드를 채웁니다.
 
@@ -103,18 +103,18 @@ ht-degree: 0%
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL 클라이언트 암호]</td>
-        <td>다음을 입력하십시오. [!DNL Adobe] [!UICONTROL 클라이언트 암호]. 이 로그는 의 [!UICONTROL 자격 증명] 세부 정보 섹션에서 찾을 수 있습니다. [!DNL Adobe Developer Console]</td>
+        <td>[!DNL Adobe] [!UICONTROL 클라이언트 암호]를 입력하십시오. 이 로그는 의 [!UICONTROL 자격 증명] 세부 정보 섹션에서 찾을 수 있습니다. [!DNL Adobe Developer Console]</td>
         </tr>
       </tbody>
     </table>
 
-1. 클릭 **[!UICONTROL 계속]** 연결을 저장하고 모듈로 돌아갑니다.
+1. 연결을 저장하고 모듈로 돌아가려면 **[!UICONTROL 계속]**&#x200B;을 클릭하세요.
 
-## [!DNL Adobe Firefly] 모듈 및 해당 필드
+## [!DNL Adobe Firefly]개 모듈 및 해당 필드
 
-를 구성할 때 [!DNL Adobe Firefly] 모듈, [!DNL Workfront Fusion] 아래 나열된 필드를 표시합니다. 이와 함께 추가 [!DNL Adobe Firefly] 앱이나 서비스의 액세스 수준 등에 따라 필드가 표시될 수 있습니다. 모듈의 굵은 제목은 필수 필드를 나타냅니다.
+[!DNL Adobe Firefly] 모듈을 구성할 때 [!DNL Workfront Fusion]에 아래 나열된 필드가 표시됩니다. 앱 또는 서비스의 액세스 수준과 같은 요소에 따라 이러한 필드와 함께 [!DNL Adobe Firefly] 필드가 추가로 표시될 수 있습니다. 모듈의 굵은 제목은 필수 필드를 나타냅니다.
 
-필드나 함수 위에 맵 단추가 표시되면 이 단추를 사용하여 해당 필드에 대한 변수와 함수를 설정할 수 있습니다. 자세한 내용은 [의 한 모듈에서 다른 모듈로 정보 매핑 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+필드나 함수 위에 맵 단추가 표시되면 이 단추를 사용하여 해당 필드에 대한 변수와 함수를 설정할 수 있습니다. 자세한 내용은 [한 모듈에서 다른 모듈로 정보를 매핑 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)을 참조하십시오.
 
 ![](assets/map-toggle-350x74.png)
 
@@ -122,7 +122,7 @@ ht-degree: 0%
 
 이 작업 모듈은 Firefly API에 대한 사용자 지정 호출을 만듭니다.
 
-사용 가능한 특정 API에 대한 내용은 [ADOBE FIREFLY API](https://developer.adobe.com/firefly-services/docs/firefly-api/) Adobe Developer 설명서에서 확인할 수 있습니다.
+사용 가능한 특정 API에 대해서는 Adobe Developer 설명서에서 [Adobe Firefly API](https://developer.adobe.com/firefly-services/docs/firefly-api/)를 참조하십시오.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -130,19 +130,19 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Firefly], 참조 <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Firefly]</a> 이 문서에서.</td>
+      <td>[!DNL Adobe Firefly]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" >[!DNL Adobe Firefly]</a>에 대한 연결 만들기 를 참조하십시오.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL URL]</td>
       <td>
-        <p>상대 경로 입력 <code>https://firefly-api-enterprise-stage.adobe.io/</code>.</p>
+        <p><code>https://firefly-api-enterprise-stage.adobe.io/</code>과(와) 관련된 경로를 입력하십시오.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL 메서드]</p>
       </td>
-   <td> <p>API 호출을 구성하는 데 필요한 HTTP 요청 메서드를 선택합니다. 자세한 내용은 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">의 HTTP 요청 메서드 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>API 호출을 구성하는 데 필요한 HTTP 요청 메서드를 선택합니다. 자세한 내용은 [!DNL Adobe Workfront Fusion]</a>에서 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP 요청 메서드를 참조하십시오.</p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Headers]</td>
@@ -154,7 +154,7 @@ ht-degree: 0%
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Body]</td>
-   <td> <p>표준 JSON 개체의 형태로 API 호출에 대한 본문 콘텐츠를 추가합니다.</p> <p>참고:  <p>다음과 같은 조건문을 사용할 때 <code>if</code> json에서 따옴표를 조건문 외부에 넣습니다.</p> 
+   <td> <p>표준 JSON 개체의 형태로 API 호출에 대한 본문 콘텐츠를 추가합니다.</p> <p>참고:  <p>JSON에서 <code>if</code>과(와) 같은 조건문을 사용할 때 따옴표를 조건문 외부에 넣으십시오.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>
@@ -171,7 +171,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Campaign], 참조 <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Firefly]</a> 이 문서에서.</td> 
+   <td>[!DNL Adobe Campaign]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" >[!DNL Adobe Firefly]</a>에 대한 연결 만들기 를 참조하십시오.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 프롬프트]</td> 
@@ -186,7 +186,7 @@ ht-degree: 0%
    <td>확장된 이미지를 저장할 파일 형식을 선택합니다.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 소스 파일]</td> 
+   <td role="rowheader">[!UICONTROL Source 파일]</td> 
    <td>  <p>이전 모듈에서 소스 파일을 선택하거나 소스 파일의 이미지 파일 이름과 이미지 파일(데이터)을 매핑합니다.</p> </td> 
 </td> 
   </tr> 
@@ -212,7 +212,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Campaign], 참조 <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Firefly]</a> 이 문서에서.</td> 
+   <td>[!DNL Adobe Campaign]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" >[!DNL Adobe Firefly]</a>에 대한 연결 만들기 를 참조하십시오.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 프롬프트]</td> 
@@ -228,12 +228,12 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Image]</td> 
-   <td>  <p> 클릭 <b>이미지 추가</b>. 이전 모듈에서 소스 파일을 선택하거나 소스 파일의 이미지 파일 이름과 이미지 데이터를 매핑합니다.</p> </td> 
+   <td>  <p> <b>이미지 추가</b>를 클릭합니다. 이전 모듈에서 소스 파일을 선택하거나 소스 파일의 이미지 파일 이름과 이미지 데이터를 매핑합니다.</p> </td> 
 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Mask]</td> 
-   <td>  <p> 클릭 <b>마스크 추가</b>. 이전 모듈에서 소스 파일을 선택하거나 소스 파일의 마스크 파일 이름과 마스크 데이터를 매핑합니다. 마스크 파일은 생성된 콘텐츠로 채워질 사용자 지정 마스크를 나타냅니다.</p> </td> 
+   <td>  <p> <b>마스크 추가</b>를 클릭합니다. 이전 모듈에서 소스 파일을 선택하거나 소스 파일의 마스크 파일 이름과 마스크 데이터를 매핑합니다. 마스크 파일은 생성된 콘텐츠로 채워질 사용자 지정 마스크를 나타냅니다.</p> </td> 
 </td> 
   </tr> 
   <tr> 
@@ -242,7 +242,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Seeds]</td> 
-   <td>모듈에서 생성할 각 이미지에 대해 <b>항목 추가<b> 정수 입력 또는 매핑 다른 이미지 모듈 확장에서 이와 동일한 시드를 사용하여 스타일이 다른 유사한 이미지를 생성할 수 있습니다. 추가하는 시드 수는 변형 수 필드와 같아야 합니다.</td> 
+   <td>모듈에서 생성할 각 이미지에 대해 <b>항목 추가<b>를 클릭하고 정수를 입력하거나 매핑합니다. 다른 이미지 모듈 확장에서 이와 동일한 시드를 사용하여 스타일이 다른 유사한 이미지를 생성할 수 있습니다. 추가하는 시드 수는 변형 수 필드와 같아야 합니다.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -257,7 +257,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe Campaign], 참조 <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe Firefly]</a> 이 문서에서.</td> 
+   <td>[!DNL Adobe Campaign]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" >[!DNL Adobe Firefly]</a>에 대한 연결 만들기 를 참조하십시오.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 프롬프트]</td> 
@@ -272,13 +272,13 @@ ht-degree: 0%
    <td>확장된 이미지를 저장할 파일 형식을 선택합니다. 기본값을 선택하면 참조 이미지가 제공되지 않으면 파일 형식이 JPEG이 됩니다. 기준 이미지가 제공된 경우, 생성된 이미지의 파일 포맷은 기준 이미지와 동일할 것이다.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 소스 파일]</td> 
+   <td role="rowheader">[!UICONTROL Source 파일]</td> 
    <td>  <p>이전 모듈에서 소스 파일을 선택하거나 소스 파일의 참조 이미지 파일 이름과 참조 이미지 파일(데이터)을 매핑합니다. 생성된 이미지는 참조 이미지의 스타일과 일치하도록 만들어집니다.</p> </td> 
 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 사전 설정]</td> 
-   <td>사전 설정 스타일을 사용하려면 항목 추가 를 클릭하고 사용할 스타일을 입력하거나 매핑합니다.<p>사전 설정 스타일 목록은 다음을 참조하십시오. <a href="https://developer.adobe.com/firefly-services/docs/firefly-api/guides/concepts/styles/" >이미지 모델 스타일</a> Adobe 개발자 설명서에서 참조하십시오.</td> 
+   <td>사전 설정 스타일을 사용하려면 항목 추가 를 클릭하고 사용할 스타일을 입력하거나 매핑합니다.<p>사전 설정된 스타일 목록을 보려면 Adobe 개발자 설명서에서 <a href="https://developer.adobe.com/firefly-services/docs/firefly-api/guides/concepts/styles/" >이미지 모델 스타일</a>을 참조하십시오.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 음성 프롬프트]</td> 

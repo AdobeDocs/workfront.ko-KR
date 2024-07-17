@@ -19,11 +19,11 @@ ht-degree: 0%
 
 전임 작업은 다른 작업이 완료에 종속되는 작업입니다. 전임 작업 관계는 작업의 시작 및 완료 날짜에 영향을 주며 최종적으로 프로젝트의 타임라인에 영향을 줍니다.
 
-전임 작업에 대한 자세한 내용은 [작업 전임 작업 개요](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+전임 작업에 대한 자세한 내용은 [작업 전임 작업 개요](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md)를 참조하십시오.
 
 작업 간의 전임 작업 관계를 설정하여 종속 작업의 시작 또는 완료가 전임 작업의 시작 또는 완료에 따라 달라지는 방식을 정의합니다. 이 작업은 다양한 종속성 유형을 사용하여 수행됩니다.
 
-종속성 유형에 대한 자세한 내용은 [작업 종속성 유형 개요](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+종속성 유형에 대한 자세한 내용은 [작업 종속성 유형 개요](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)를 참조하십시오.
 
 ## 강제 전임 작업 개요
 
@@ -68,31 +68,31 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
 ## 작업 수준에서 전임 작업 적용
 
 1. 전임 작업을 적용할 후임 작업으로 이동합니다.
-1. 클릭 **전임 작업** 왼쪽 패널에서 를 클릭한 다음 **전임 작업 추가**. 다음을 클릭해야 할 수 있습니다. **더 보기**, 그런 다음 **전임 작업**.
-1. (조건부) 프로젝트 간 전임 작업을 추가하려면 **상위 프로젝트** 을(를) 필드에 추가하고 다른 프로젝트로 대체합니다.
-1. 에서 전임 작업 또는 작업의 이름을 지정합니다. **작업** 필드.
-1. 다음을 지정합니다. **종속성 유형** 이 두 작업 사이에 있어야 합니다.
+1. 왼쪽 패널에서 **전임 작업**&#x200B;을 클릭한 다음 **전임 작업 추가**&#x200B;를 클릭합니다. **자세히 표시**&#x200B;를 클릭한 다음 **전임 작업**&#x200B;을 클릭해야 할 수 있습니다.
+1. (조건부) 프로젝트 간 전임 작업을 추가하려면 **상위 프로젝트** 필드에서 프로젝트 이름을 제거하고 다른 프로젝트로 바꾸십시오.
+1. **작업** 필드에 전임 작업 이름을 지정하십시오.
+1. 이 두 작업 사이에 **종속성 유형**&#x200B;을(를) 지정하십시오.
 
-   기본값 **종속성 유형** 은(는) **마침-시작**.
+   기본 **종속성 유형**&#x200B;은(는) **마침-시작**&#x200B;입니다.
 
-1. 다음 항목 선택 **적용됨** 전임 작업을 적용할 필드입니다.
+1. 전임 작업을 적용하려면 **적용됨** 필드를 선택하십시오.
 1. **저장**&#x200B;을 클릭합니다.
 
 ## 작업 목록에 전임 작업 적용
 
 1. 프로젝트의 작업 목록으로 이동합니다.
-1. 다음에서 **보기** 드롭다운 메뉴에서 **표준 보기**.
+1. **보기** 드롭다운 메뉴에서 **표준 보기**&#x200B;를 선택합니다.
 
 1. 전임 작업으로 지정할 작업의 수를 기록해 둡니다.
 1. 전임 작업을 적용할 후임 작업을 찾습니다.
-1. 다음에서 **전임 작업** 열에서 전임 작업 번호 입력을 시작하고 그 뒤에 &quot;e&quot;를 입력합니다. 예를 들어 작업 번호 1을 선택한 작업에 전임 작업으로 추가하려면 &quot;1e&quot;를 입력합니다.
+1. **전임 작업** 열에서 전임 작업의 수를 입력하고 그 뒤에 &quot;e&quot;를 입력합니다. 예를 들어 작업 번호 1을 선택한 작업에 전임 작업으로 추가하려면 &quot;1e&quot;를 입력합니다.
 1. Enter 를 클릭하여 작업에 대한 전임 작업 정보를 저장합니다.
 
-   ![precedent_enforced_in_list.png](assets/predecessor-enforced-in-list-350x308.png)
+   ![전임 작업_enforced_in_list.png](assets/predecessor-enforced-in-list-350x308.png)

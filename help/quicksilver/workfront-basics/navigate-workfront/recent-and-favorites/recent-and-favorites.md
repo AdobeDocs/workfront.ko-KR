@@ -2,7 +2,7 @@
 content-type: reference
 product-area: projects
 navigation-topic: navigate-workfront
-title: 에서 최근 항목 및 즐겨찾기 [!DNL Adobe Workfront]
+title: ' [!DNL Adobe Workfront]의 최근 항목 및 즐겨찾기'
 description: Workfront에서 즐겨찾기 및 최근 항목 사용에 대해 알아보려면 다음 문서를 검토하십시오.
 feature: Get Started with Workfront
 author: Lisa
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ---
 
-# 에서 최근 항목 및 즐겨찾기 [!DNL Adobe Workfront]
+# [!DNL Adobe Workfront]의 최근 항목 및 즐겨찾기
 
 이 섹션에는 다음 문서가 포함됩니다.
 

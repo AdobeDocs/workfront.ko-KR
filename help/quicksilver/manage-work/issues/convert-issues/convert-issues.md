@@ -19,14 +19,14 @@ ht-degree: 2%
 
 문제가 제출된 후 문제를 완료하기 위해 추가 작업을 수행해야 하는 경우 문제를 프로젝트 또는 작업으로 변환할 수 있습니다.
 
-문제를 작업으로 변환하는 방법에 대한 자세한 내용은 [Adobe Workfront에서 문제를 작업으로 전환](../../../manage-work/issues/convert-issues/convert-issue-to-task.md).
+문제를 작업으로 변환하는 방법에 대한 자세한 내용은 [Adobe Workfront에서 문제를 작업으로 변환](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)을 참조하십시오.
 
-문제를 프로젝트로 변환하는 방법에 대한 자세한 내용은 [Adobe Workfront에서 문제를 프로젝트로 전환](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+문제를 프로젝트로 변환하는 방법에 대한 자세한 내용은 [Adobe Workfront에서 문제를 프로젝트로 변환](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)을 참조하십시오.
 
 ## 문제 전환 시 고려 사항
 
 * 문제를 작업 또는 프로젝트로 전환할 때 이 문서에 별도로 명시되지 않는 한 문제의 대부분의 정보가 작업 또는 프로젝트로 전달됩니다.
-* Workfront 관리자 또는 그룹 관리자는에 설명된 대로 프로젝트 또는 작업으로 변환될 때 문제가 발생하는 상황, 해결 방법 및 기본 담당자의 액세스 권한에 대한 환경 설정을 이미 설정했습니다. [시스템 전체 작업 및 문제 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+* [시스템 전체 작업 및 문제 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)에 설명된 대로 Workfront 관리자 또는 그룹 관리자가 이미 문제, 해결 방법, 프로젝트 또는 작업으로 전환될 때 기본 연락처의 액세스 권한에 대한 환경 설정을 설정했습니다.
 * Workfront은 전환 중에 문제와 관련된 모든 승인을 제거합니다.
 * Workfront은 작업 또는 프로젝트로 전환할 때 문제의 해결 중 오브젝트를 덮어씁니다. 새 작업 또는 문제는 전환 후 문제의 새 해결 오브젝트가 됩니다.
 * 다음 사항을 고려하십시오.
@@ -38,26 +38,26 @@ ht-degree: 2%
 
 * 문제를 전환할 때 원래 문제에 대한 권한이 전환된 개체(작업 또는 프로젝트)로 전송되지 않습니다.
 
-* 템플릿을 사용하여 문제를 프로젝트로 전환할 때 템플릿의 대부분의 정보가 새 프로젝트로 전송됩니다. 그러나 문제의 일부 정보가 새 프로젝트로 이전될 수도 있습니다. 자세한 내용은 [템플릿을 사용하여 문제를 프로젝트로 전환할 때의 프로젝트 필드 개요](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) 이 문서의 섹션.
+* 템플릿을 사용하여 문제를 프로젝트로 전환할 때 템플릿의 대부분의 정보가 새 프로젝트로 전송됩니다. 그러나 문제의 일부 정보가 새 프로젝트로 이전될 수도 있습니다. 자세한 내용은 이 문서의 [템플릿을 사용하여 문제를 프로젝트로 전환할 때의 프로젝트 필드 개요](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) 섹션을 참조하십시오.
 * 문제를 전환하는 동안 일부 문서 또는 해당 정보가 문제가 전환된 새 객체로 이동하지는 않습니다. 문서 또는 문서 링크가 첨부된 문제를 변환할 때 다음 항목이 포함됩니다.
 
    * 문서
    * Google Drive 또는 SharePoint과 같은 서드파티 서비스에 대한 링크를 문서화합니다.
    * 버전
-   * 증명은 옵션이 **원래 문제를 유지하고 해결 방법을 이 작업에 연결** 은(는) 선택 해제되어 있습니다.
+   * **원래 문제를 유지하고 해결 방법을 이 작업에 연결** 옵션을 선택하지 않은 경우에만 증명이 포함됩니다.
    * 문서 및 문서 링크가 첨부된 문제를 변환할 때 문서 승인이 포함되지 않습니다.
 
 * 문제를 전환에 유지하기로 결정했으며 해당 전환에 문서가 첨부된 경우 문서 및 해당 버전이 프로젝트 또는 작업에 복사됩니다. 증명 및 문서 승인은 프로젝트 또는 작업에 복사되지 않습니다.
 * 전환에 문제를 유지하지 않기로 결정했으며 해당 전환에 문서가 첨부된 경우 문서, 문서 버전 및 증명이 프로젝트 또는 작업으로 전송됩니다. 문서 승인은 프로젝트 또는 작업으로 이전되지 않습니다.
 * 전환 중에 문제를 보관하는지 여부에 관계없이 Google 드라이브와 같은 타사 서비스의 원래 문제와 연결된 문서 및 폴더가 있는 경우 해당 링크가 새 개체에 복사됩니다.
 * 문제 주석은 문제에서 전환된 작업 또는 프로젝트에도 복사되지만, 태그가 지정된 사용자는 전송되지 않습니다.
-* 문제의 사용자 정의 양식 정보를 전환 중인 프로젝트 또는 작업으로 전송하려면 문제에서 전송할 동일한 필드가 포함된 프로젝트 또는 작업 사용자 정의 양식이 있어야 합니다. 자세한 내용은 [개체를 변환할 때 사용자 정의 양식 데이터 전송](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
+* 문제의 사용자 정의 양식 정보를 전환 중인 프로젝트 또는 작업으로 전송하려면 문제에서 전송할 동일한 필드가 포함된 프로젝트 또는 작업 사용자 정의 양식이 있어야 합니다. 자세한 내용은 [개체를 변환할 때 사용자 정의 양식 데이터 전송](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md)을 참조하십시오.
 
 ## 템플릿을 사용하여 문제를 프로젝트로 전환할 때의 프로젝트 필드 개요 {#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template}
 
 문제를 프로젝트로 전환할 때 빈 프로젝트로 전환하거나 템플릿을 사용할 수 있습니다.
 
-자세한 내용은 [Adobe Workfront에서 문제를 프로젝트로 전환](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+자세한 내용은 [문제를 Adobe Workfront의 프로젝트로 변환](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)을 참조하십시오.
 
 템플릿을 사용할 때 템플릿에서 채워지는 일부 필드는 전환된 문제에서 생성된 프로젝트로 전송됩니다. 다른 필드는 전환된 문제에서 프로젝트로 전송됩니다.
 
@@ -73,7 +73,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>상태</td> 
-   <td>템플릿의 그룹에 대해 선택된 기본 상태입니다. 템플릿이 그룹과 연결되어 있지 않으면 프로젝트 상태는 [설정]의 [프로젝트 환경 설정] 영역에서 Workfront 관리자가 설정한 기본 상태로 설정됩니다. 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">시스템 전체 프로젝트 환경 설정 구성</a>.</td> 
+   <td>템플릿의 그룹에 대해 선택된 기본 상태입니다. 템플릿이 그룹과 연결되어 있지 않으면 프로젝트 상태는 [설정]의 [프로젝트 환경 설정] 영역에서 Workfront 관리자가 설정한 기본 상태로 설정됩니다. 자세한 내용은 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">시스템 전체 프로젝트 환경 설정 구성</a>을 참조하십시오.</td> 
   </tr> 
   <tr> 
    <td>우선 순위</td> 
@@ -91,7 +91,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>프로젝트 상태</td> 
-   <td>Workfront 관리자가 설정 영역에서 결정한 시스템 수준 기본 설정과 일치합니다. 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md" class="MCXref xref">사용자 지정 조건을 프로젝트의 기본값으로 설정</a></td> 
+   <td>Workfront 관리자가 설정 영역에서 결정한 시스템 수준 기본 설정과 일치합니다. 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md" class="MCXref xref">프로젝트 기본값으로 사용자 지정 조건 설정</a>을 참조하십시오.</td> 
   </tr> 
   <tr> 
    <td>일정 출처:</td> 
@@ -101,8 +101,8 @@ ht-degree: 2%
    <td>프로젝트 일자</td> 
    <td> 
     <ul> 
-     <li> <p><b>계획된 시작 일자</b>: 템플릿 일정의 작업 시간을 기반으로 가장 가까운 작업 시간을 템플릿 일정의 시간대에 따라 미리 선택해야 합니다. 일정: 부터 필드가 완료: 부터로 설정된 경우 이 필드가 비활성화됩니다. </p> </li> 
-     <li> <p><b>계획된 완료 일자</b>: 템플릿 일정의 작업 시간을 기반으로 가장 가까운 작업 시간을 템플릿 일정의 시간대에 따라 미리 선택해야 합니다. 일정 시작 일자 필드가 시작 일자로 설정된 경우 이 필드가 비활성화됩니다. </p> </li> 
+     <li> <p><b>계획된 시작 일자</b>: 템플릿 일정의 시간대에 따라 템플릿 일정의 작업 시간을 기준으로 가장 가까운 작업 시간을 미리 선택해야 합니다. 일정: 부터 필드가 완료: 부터로 설정된 경우 이 필드가 비활성화됩니다. </p> </li> 
+     <li> <p><b>계획된 완료 일자</b>: 템플릿 일정의 시간대에 따라 템플릿 일정의 작업 시간을 기준으로 가장 가까운 작업 시간을 미리 선택해야 합니다. 일정 시작 일자 필드가 시작 일자로 설정된 경우 이 필드가 비활성화됩니다. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -235,7 +235,7 @@ ht-degree: 2%
 
 ## 프로젝트 및 작업에 대한 원래 문제 정보 보기 {#view-original-issue-information-on-projects-and-tasks}
 
-프로젝트 및 작업 목록과 보고서 또는 프로젝트 세부 정보 영역에서 원래 문제 정보를 볼 수 있습니다. 보고서 빌드에 대한 자세한 내용은 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+프로젝트 및 작업 목록과 보고서 또는 프로젝트 세부 정보 영역에서 원래 문제 정보를 볼 수 있습니다. 보고서 작성에 대한 자세한 내용은 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)를 참조하세요.
 
 다음 표는 변환된 프로젝트 및 작업에서 표시되는 문제 필드를 보여 줍니다.
 

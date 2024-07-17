@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: 2018.3 베타 5 릴리스 활동
-description: 이 페이지에서는 2018.3 베타 5 릴리스의 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 기능은 2018년 9월 21일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2018년 11월에 사용할 수 있습니다.
+title: 2018.3 Beta 5 릴리스 활동
+description: 이 페이지에서는 2018.3 Beta 5 릴리스의 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 기능은 2018년 9월 21일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2018년 11월에 사용할 수 있습니다.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,34 +14,34 @@ ht-degree: 0%
 
 ---
 
-# 2018.3 베타 5 릴리스 활동
+# 2018.3 Beta 5 릴리스 활동
 
-이 페이지에서는 2018.3 베타 5 릴리스의 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 기능은 2018년 9월 21일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2018년 11월에 사용할 수 있습니다.
+이 페이지에서는 2018.3 Beta 5 릴리스의 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 기능은 2018년 9월 21일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2018년 11월에 사용할 수 있습니다.
 
 2018.3의 모든 변경 사항 목록은 다음을 참조하십시오.  [2018.3 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
 
-2018.3 베타 5 릴리스에는 모든 사용자를 위한 개선 사항이 포함되어 있습니다.
+2018.3 Beta 5 릴리스에는 모든 사용자를 위한 향상된 기능이 포함되어 있습니다.
 
 * [홈 영역에서 제출한 승인 추적](#track-approvals-you-ve-submitted-in-the-home-area)
 * [Workfront에서 Flash 기반 도구 교체](#replacement-of-flash-based-tools-in-workfront)
-* [작업 라이선스 사용자가 프로젝트의 일정 조정 하위 탭에 액세스할 수 있도록 허용](#allowing-work-license-users-to-access-the-scheduling-subtab-of-a-project)
-* [리소스 플래너의 필터 개선](#improved-filters-in-the-resource-planner)
-* [리소스 플래너에서 실제 시간 보기](#view-actual-hours-in-the-resource-planner)
+* [작업 라이선스 사용자가 프로젝트의 예약 하위 탭에 액세스할 수 있도록 허용](#allowing-work-license-users-to-access-the-scheduling-subtab-of-a-project)
+* [리소스 플래너에서 향상된 필터](#improved-filters-in-the-resource-planner)
+* [리소스 플래너의 실제 근로시간 보기](#view-actual-hours-in-the-resource-planner)
 * [비즈니스 사례 내보내기의 리소스 플래너 데이터](#resource-planner-data-in-the-business-case-export)
-* [회사 수준 청구 요금 재정의 활성화](#enable-company-level-billing-rate-override)
+* [회사 수준 청구 요금 재정의 사용](#enable-company-level-billing-rate-override)
 * [간소화된 역할 기반 승인](#simplified-role-based-approvals)
-* [활용성 보고서: 신규 자원 예산 책정에서 예산 시간을 채웁니다.](#utilization-report-populates-budgeted-hours-from-new-resource-budgeting-area)
-* [활용성 보고서: 프로젝트에 대한 사용자별 예산 시간 보기](#utilization-report-view-budgeted-hours-by-user-on-a-project)
-* [SWF 파일이 증명 뷰어에서 더 이상 지원되지 않음](#swf-files-no-longer-supported-in-the-proofing-viewer)
-* [증명 뷰어의 주석 목록에서 작업에 보다 빠르게 액세스할 수 있음](#actions-more-quickly-accessible-in-the-comment-list-in-the-proofing-viewer)
+* [사용률 보고서: 새 리소스 예산 지역에서 예산 시간을 채웁니다](#utilization-report-populates-budgeted-hours-from-new-resource-budgeting-area)
+* [사용률 보고서: 프로젝트에 대한 사용자별 예산 시간 보기](#utilization-report-view-budgeted-hours-by-user-on-a-project)
+* [증명 뷰어에서 더 이상 SWF 파일이 지원되지 않음](#swf-files-no-longer-supported-in-the-proofing-viewer)
+* 증명 뷰어의 댓글 목록에서 [작업에 더 빨리 액세스할 수 있습니다](#actions-more-quickly-accessible-in-the-comment-list-in-the-proofing-viewer)
 * [증명 뷰어의 증명 공유 개선 사항](#proof-sharing-improvement-in-the-proofing-viewer)
-* [증명 뷰어의 주석 목록 개선 사항](#comments-list-enhancements-in-the-proofing-viewer)
+* 증명 뷰어의 [댓글 목록 개선 사항](#comments-list-enhancements-in-the-proofing-viewer)
 * [증명 뷰어에서 비디오 증명 확대/축소 및 패닝](#zoom-and-pan-video-proofs-in-the-proofing-viewer)
 * [증명 뷰어의 밝은 배경](#lighter-background-in-the-proofing-viewer)
-* [증명 뷰어에서 댓글이 편집되었을 때 가시성 향상](#better-visibility-when-a-comment-has-been-edited-in-the-proofing-viewer)
-* [증명 뷰어의 댓글 목록에서 작업과 연결된 댓글 수 보기](#view-the-number-of-comments-associated-with-an-action-in-the-comment-list-in-the-proofing-viewer)
+* [증명 뷰어에서 댓글을 편집했을 때의 가시성 향상](#better-visibility-when-a-comment-has-been-edited-in-the-proofing-viewer)
+* [증명 뷰어의 댓글 목록에 있는 작업과 연결된 댓글 수를 봅니다](#view-the-number-of-comments-associated-with-an-action-in-the-comment-list-in-the-proofing-viewer)
 * [증명 뷰어에서 증명에 사용자를 추가할 때 단계 지정](#specify-the-stage-when-adding-users-to-a-proof-in-the-proofing-viewer)
-* [대화형 또는 정적 웹 사이트 증명에서 관련 웹 사이트 열기](#opening-the-associated-website-from-an-interactive-or-static-website-proof)
+* [대화형 또는 정적 웹 사이트 증명에서 연결된 웹 사이트 열기](#opening-the-associated-website-from-an-interactive-or-static-website-proof)
 * [인쇄 요약 개선 사항](#print-summary-enhancements)
 * [증명 로드 시간 개선](#improved-proof-loading-time)
 * [Workfront 모바일 앱의 업데이트 탭에 대한 새로운 모양과 느낌](#new-look-and-feel-of-the-updates-tab-in-the-workfront-mobile-app)
@@ -59,13 +59,13 @@ ht-degree: 0%
 
   이전에는 내 작업 영역에서만 제출된 승인과 상호 작용할 수 있었습니다. 
 
-자세한 내용은 [승인 관리](../../../../review-and-approve-work/manage-approvals/manage-approvals.md). 
+자세한 내용은 [승인 관리](../../../../review-and-approve-work/manage-approvals/manage-approvals.md)를 참조하십시오. 
 
 ## Workfront에서 Flash 기반 도구 교체 {#replacement-of-flash-based-tools-in-workfront}
 
 Flash 기술에 의존하는 모든 기능은 2018.3 릴리스를 통해 Workfront에서 제거될 예정이며, 새로운 솔루션으로 대체될 것입니다.
 
-이러한 기능을 제거하면 영향을 받는 모든 영역에 대한 자세한 내용과 이러한 기능을 대체할 도구를 이해하려면 다음을 참조하십시오. [Adobe Workfront에서 Flash 기반 도구 교체](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
+이러한 기능의 제거로 영향을 받는 모든 영역에 대한 자세한 정보와 이를 대체할 도구를 이해하려면 [Adobe Workfront에서 Flash 기반 도구 교체](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)를 참조하십시오.
 
 ## 작업 라이선스 사용자가 프로젝트의 일정 조정 하위 탭에 액세스할 수 있도록 허용 {#allowing-work-license-users-to-access-the-scheduling-subtab-of-a-project}
 
@@ -77,7 +77,7 @@ Flash 기술에 의존하는 모든 기능은 2018.3 릴리스를 통해 Workfro
 
 >[!NOTE]
 >
->리소스 예약 도구는 23.1 릴리스에서 더 이상 사용되지 않으며 Workfront에서 제거되었습니다. 업무 균형자 를 사용하여 리소스를 예약하는 방법에 대한 자세한 내용은 [업무 균형자 개요](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>리소스 예약 도구는 23.1 릴리스에서 더 이상 사용되지 않으며 Workfront에서 제거되었습니다. 업무 균형자를 사용하여 리소스를 예약하는 방법에 대한 자세한 내용은 [업무 균형자 개요](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md)를 참조하십시오.
 
 ## 리소스 플래너의 필터 개선 {#improved-filters-in-the-resource-planner}
 
@@ -85,7 +85,7 @@ Flash 기술에 의존하는 모든 기능은 2018.3 릴리스를 통해 Workfro
 
 이 개선 이전에는 리소스 플래너에서 제한된 수의 기본 제공 필드 및 기준에 대해서만 필터링할 수 있었습니다.
 
-리소스 플래너의 필터링 정보에 대한 자세한 내용은 [리소스 플래너에서 정보 필터링](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
+리소스 플래너의 필터링 정보에 대한 자세한 내용은 [리소스 플래너의 필터링 정보](../../../../resource-mgmt/resource-planning/filter-resource-planner.md)를 참조하십시오.
 
 ## 리소스 플래너에서 실제 시간 보기 {#view-actual-hours-in-the-resource-planner}
 
@@ -93,7 +93,7 @@ Flash 기술에 의존하는 모든 기능은 2018.3 릴리스를 통해 Workfro
 
 이 개선 이전에는 리소스 플래너에 실제 시간이 표시되지 않았습니다.
 
-리소스 플래너에서 시간 정보를 보는 방법에 대한 자세한 내용은 [리소스 플래너 개요](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+리소스 플래너에서 시간 정보를 보는 방법에 대한 자세한 내용은 [리소스 플래너 개요](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md)를 참조하십시오.
 
 ## 비즈니스 사례 내보내기의 리소스 플래너 데이터 {#resource-planner-data-in-the-business-case-export}
 
@@ -101,7 +101,7 @@ Flash 기술에 의존하는 모든 기능은 2018.3 릴리스를 통해 Workfro
 
 이전에는 내보낸 파일에 레거시 리소스 견적 영역 및 용량 플래너의 정보가 반영되었습니다. 
 
-비즈니스 사례 내보내기에 대한 자세한 내용은 [프로젝트에 대한 비즈니스 사례 만들기](../../../../manage-work/projects/define-a-business-case/create-business-case.md) 의 섹션 [프로젝트에 대한 비즈니스 사례 만들기](../../../../manage-work/projects/define-a-business-case/create-business-case.md).
+비즈니스 사례 내보내기에 대한 자세한 내용은 [프로젝트의 비즈니스 사례 만들기](../../../../manage-work/projects/define-a-business-case/create-business-case.md)에서 [프로젝트의 비즈니스 사례 만들기](../../../../manage-work/projects/define-a-business-case/create-business-case.md) 섹션을 참조하십시오.
 
 ## 회사 수준 청구 요금 재정의 활성화 {#enable-company-level-billing-rate-override}
 
@@ -111,7 +111,7 @@ Flash 기술에 의존하는 모든 기능은 2018.3 릴리스를 통해 Workfro
 
 이전에는 프로젝트에서 회사를 제거한 다음 다시 첨부하지 않으면 회사 수준의 청구 요금 변경 사항을 프로젝트에 적용할 수 없었습니다.
 
-자세한 내용은 [프로젝트 수준 청구 요율을 회사 수준 청구 요율로 재정의](../../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md). 
+자세한 내용은 [회사 수준의 청구 요율로 프로젝트 수준의 청구 요율 재정의](../../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md)를 참조하십시오. 
 
 ## 간소화된 역할 기반 승인 {#simplified-role-based-approvals}
 
@@ -119,7 +119,7 @@ Flash 기술에 의존하는 모든 기능은 2018.3 릴리스를 통해 Workfro
 
 이전에는 프로젝트 팀에 사용자를 할당하고, 사용자 프로필에 올바른 역할이 있는지 확인한 다음 레거시 팀 빌더에서 해당 역할을 선택해야 했습니다.
 
-자세한 내용은 섹션을 참조하십시오 [프로젝트 팀 개요](../../../../manage-work/projects/planning-a-project/project-team-overview.md) 이 문서에서 [프로젝트 팀 개요](../../../../manage-work/projects/planning-a-project/project-team-overview.md).
+자세한 내용은 [프로젝트 팀 개요](../../../../manage-work/projects/planning-a-project/project-team-overview.md) 문서의 [프로젝트 팀 개요](../../../../manage-work/projects/planning-a-project/project-team-overview.md) 섹션을 참조하십시오.
 
 ## 활용성 보고서: 신규 자원 예산 책정에서 예산 시간을 채웁니다. {#utilization-report-populates-budgeted-hours-from-new-resource-budgeting-area}
 
@@ -131,7 +131,7 @@ Flash 기술에 의존하는 모든 기능은 2018.3 릴리스를 통해 Workfro
 
 이 변경 이전에는 기존 리소스 견적 영역의 정보가 사용되었습니다.
 
-자세한 내용은  [자원 가동률 보고서 개요](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) 이 문서에서  [자원 가동률 보고서 개요](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+자세한 내용은  문서의 [리소스 사용률 보고서 개요](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)  [리소스 사용률 보고서 개요](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## 활용성 보고서: 프로젝트에 대한 사용자별 예산 시간 보기 {#utilization-report-view-budgeted-hours-by-user-on-a-project}
 
@@ -143,13 +143,13 @@ Flash 기술에 의존하는 모든 기능은 2018.3 릴리스를 통해 Workfro
 
 이 변경 이전의 활용성 보고서에는 작업 역할별 예산 시간만 표시됩니다. 
 
-자세한 내용은  [자원 가동률 보고서 개요](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) 이 문서에서  [자원 가동률 보고서 개요](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+자세한 내용은  문서의 [리소스 사용률 보고서 개요](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)  [리소스 사용률 보고서 개요](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## SWF 파일이 증명 뷰어에서 더 이상 지원되지 않음 {#swf-files-no-longer-supported-in-the-proofing-viewer}
 
 Adobe Flash과 관련된 보안 문제로 인해 증명 뷰어는 더 이상 SWF 파일에서 생성된 증명을 지원하지 않습니다. SWF 파일에 대해 이전에 만든 증명을 여는 경우 증명 뷰어에서 증명 콘텐츠가 이전에 표시되던 위치에 메시지가 표시됩니다. 증명에서 댓글을 볼 수 있습니다. 댓글을 다운로드하고 원본 SWF 파일을 다운로드할 수도 있습니다.
 
-자세한 내용은 [지원되는 증명 파일 유형 및 크기 제한 개요](../../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md) 이 문서에서 [지원되는 증명 파일 유형 및 크기 제한 개요](../../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md). 
+자세한 내용은 문서 [지원되는 증명 파일 형식 및 크기 제한 개요](../../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md)에서 [지원되는 증명 파일 형식 및 크기 제한 개요](../../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md)를 참조하십시오. 
 
 ## 증명 뷰어의 주석 목록에서 작업에 보다 빠르게 액세스할 수 있음 {#actions-more-quickly-accessible-in-the-comment-list-in-the-proofing-viewer}
 
@@ -157,7 +157,7 @@ Adobe Flash과 관련된 보안 문제로 인해 증명 뷰어는 더 이상 SWF
 
 이전에는 주석을 열고 드롭다운 메뉴를 열고 하위 메뉴를 연 다음 원하는 작업을 클릭해야 했습니다.
 
-자세한 내용은 [증명 댓글에 작업 사용](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md).
+자세한 내용은 [증명 댓글에 작업 사용](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md)을 참조하세요.
 
 ## 증명 뷰어의 증명 공유 개선 사항 {#proof-sharing-improvement-in-the-proofing-viewer}
 
@@ -165,7 +165,7 @@ Adobe Flash과 관련된 보안 문제로 인해 증명 뷰어는 더 이상 SWF
 
 이전에는 이러한 옵션이 현재 기능과 동일한 기능을 제공했지만 문서 목록의 해당 옵션과 구성이 일치하지 않았습니다.
 
-자세한 내용은 섹션 을 참조하십시오.  [URL 공유](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-the-url) 이 문서에서  [증명 뷰어에서 증명 공유](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md).
+자세한 내용은 섹션 을 참조하십시오.  문서에서 [URL 공유](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-the-url)  [증명 뷰어에서 증명 공유](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md).
 
 ## 증명 뷰어의 주석 목록 개선 사항 {#comments-list-enhancements-in-the-proofing-viewer}
 
@@ -215,7 +215,7 @@ Adobe Flash과 관련된 보안 문제로 인해 증명 뷰어는 더 이상 SWF
 
 이전에는 증명 뷰어에서 증명에 검토자를 추가하면 Workfront이 현재 활성 상태인 단계에 검토자를 배치했습니다.
 
-자세한 내용은 [사용자를 추가하여 증명 공유](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-with-individual-users) 위치: [증명 뷰어에서 증명 공유](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md).
+자세한 내용은 [증명 뷰어에서 증명 공유](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md)에서 [사용자를 추가하여 증명 공유](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-with-individual-users)를 참조하십시오.
 
 ## 대화형 또는 정적 웹 사이트 증명에서 관련 웹 사이트 열기 {#opening-the-associated-website-from-an-interactive-or-static-website-proof}
 
@@ -242,7 +242,7 @@ Adobe Flash과 관련된 보안 문제로 인해 증명 뷰어는 더 이상 SWF
 * 증명이 웹 캡처인 경우 댓글이 포함된 모든 페이지에 웹 페이지가 캡처된 해상도가 표시됩니다. 이 기능은 예를 들어 증명에 모바일 디바이스용으로 캡처된 페이지와 랩톱 및 데스크톱 컴퓨터용으로 캡처된 동일한 페이지가 포함되어 있는 경우 유용합니다.
 * 이제 작업, 작성자 또는 해결되지 않음 상태별로 인쇄 요약 페이지의 주석을 필터링하면 필터가 인쇄된 증명뿐만 아니라 PDF 또는 Excel 파일로 내보내는 증명에 적용됩니다.
 
-자세한 내용은 [Adobe Workfront 내에서 증명 요약 인쇄](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md).
+자세한 내용은 [Adobe Workfront 내에서 증명 요약 인쇄](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md)를 참조하십시오.
 
 ## 증명 로드 시간 개선 {#improved-proof-loading-time}
 
@@ -254,4 +254,4 @@ Adobe Flash과 관련된 보안 문제로 인해 증명 뷰어는 더 이상 SWF
 
 이제 모바일 앱에서 업데이트 탭의 모양과 느낌이 업데이트됩니다. 이 개선 사항은 현재 Android용 Workfront 베타 앱에서만 사용할 수 있습니다.
 
-Workfront 모바일 앱의 업데이트 및 댓글 관리에 대한 자세한 내용은 의 섹션을 참조하십시오.
+Workfront 모바일 앱의 업데이트 및 주석 관리에 대한 자세한 내용은 섹션을 참조하십시오  에 있습니다.

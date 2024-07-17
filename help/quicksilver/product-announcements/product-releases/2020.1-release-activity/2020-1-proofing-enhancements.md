@@ -18,7 +18,7 @@ ht-degree: 0%
 
 이 페이지에서는 2020.1 릴리스의 모든 증명 개선 사항에 대해 설명합니다. 이러한 개선 사항은 현재 미리보기 환경에서 사용할 수 있으며 2020년 3월 말 또는 4월 초에 프로덕션 환경에서 사용할 수 있습니다.
 
-2020.1 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [2020.1 릴리스 개요](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
+2020.1 릴리스에서 사용할 수 있는 모든 변경 사항 목록은 [2020.1 릴리스 개요](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md)를 참조하십시오.
 
 ## 증명 뷰어의 측정 도구 업데이트
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 또한 이제 스테이지 설정의 이름이 자동화된 워크플로우 활동 간에 일관됩니다. 이전에는 새 증명을 구성하는 일부 자동화된 워크플로 단계 설정이 기존 증명에 대한 해당 설정과 달랐습니다.
 
-자세한 내용은 및 를 참조하십시오. [기존 증명에 대한 자동화된 워크플로 만들기 또는 편집](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-edit-automated-workflow-existing-proof.md)
+자세한 내용은 및 [기존 증명에 대한 자동화된 워크플로 만들기 또는 편집](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-edit-automated-workflow-existing-proof.md)을 참조하십시오.
 
 ## 자동화된 워크플로 템플릿에 시간대 추가
 

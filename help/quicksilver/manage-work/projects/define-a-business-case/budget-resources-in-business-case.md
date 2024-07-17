@@ -1,7 +1,7 @@
 ---
 navigation-topic: business-case-and-scorecards
-title: 비즈니스 사례의 예산 자원
-description: 자원 계획의 일부로, 비즈니스 사례를 작성할 때 프로젝트에서 작업을 완료하는 데 필요한 작업 역할을 예산을 책정할 수 있습니다. 비즈니스 사례 만들기에 대한 자세한 내용은 프로젝트에 대한 비즈니스 사례 만들기 를 참조하십시오.
+title: 비즈니스 사례의 예산 리소스
+description: 리소스 계획의 일부로, 비즈니스 사례를 작성할 때 프로젝트에서 작업을 완료하는 데 필요한 작업 역할의 예산을 책정할 수 있습니다. 비즈니스 사례 만들기에 대한 자세한 내용은 프로젝트에 대한 비즈니스 사례 만들기 를 참조하십시오.
 author: Alina
 feature: Work Management
 exl-id: 85aa13c7-e48d-4b8c-89f7-1ba7f66670b0
@@ -12,25 +12,25 @@ ht-degree: 0%
 
 ---
 
-# 비즈니스 사례의 예산 자원
+# 비즈니스 사례의 예산 리소스
 
-자원 계획의 일부로, 비즈니스 사례를 작성할 때 프로젝트에서 작업을 완료하는 데 필요한 작업 역할을 예산을 책정할 수 있습니다. 비즈니스 사례 생성에 대한 자세한 내용은 [프로젝트에 대한 비즈니스 사례 생성](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+리소스 계획의 일부로, 비즈니스 사례를 작성할 때 프로젝트에서 작업을 완료하는 데 필요한 작업 역할의 예산을 책정할 수 있습니다. 비즈니스 사례 만들기에 대한 자세한 내용은 [프로젝트에 대한 비즈니스 사례 만들기](../../../manage-work/projects/define-a-business-case/create-business-case.md)를 참조하세요.
 
 >[!NOTE]
 >
->예산 책정 자원은 프로젝트에 대한 스케줄링 자원과 다릅니다. 리소스를 예약할 때 프로젝트에서 작업을 완료하는 데 필요한 역할을 예상합니다. 실제로 프로젝트 작업에 사용자를 예약하거나 할당하는 방법은 [작업 로드 밸런서에서 사용자 할당 관리](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
+>리소스 예산 책정은 프로젝트 예약 리소스와 다릅니다. 리소스 예산을 책정할 때 프로젝트에서 작업을 완료하는 데 필요할 수 있는 역할을 예상합니다. 실제로 프로젝트 작업을 예약하거나 사용자를 할당하려면 [업무 균형자에서 사용자 할당 관리](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)를 참조하십시오.
 
-작업 역할에 대한 리소스를 예산을 편성하려면 먼저 프로젝트에 작업 역할을 연결해야 합니다. 다음은 프로젝트에 작업 역할을 할당하는 방법입니다.
+자원에 대한 예산을 책정하려면 먼저 작업 역할을 프로젝트와 연관시켜야 합니다. 다음은 프로젝트에 작업 역할을 할당하는 방법입니다.
 
-* 자원 계획자를 사용하여 프로젝트 및 예산 작업 역할에 자원 풀을 적용합니다.
+* 리소스 플래너를 사용하여 리소스 풀을 프로젝트 및 예산 작업 역할에 적용합니다.
 
-   자세한 내용은 [자원 계획자를 사용하여 업무 사례의 예산 자원](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md).
+  자세한 내용은 [리소스 플래너를 사용한 비즈니스 사례의 리소스 예산](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md)을 참조하세요.
 
-* 시나리오 계획자를 사용하여 필요한 작업 역할이 있는 이니셔티브를 생성하고 프로젝트에 연결합니다. 자세한 내용은 [시나리오 계획자를 사용하여 비즈니스 사례의 예산 자원](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md) .
+* 시나리오 플래너를 사용하여 필요한 작업 역할이 있는 이니셔티브를 만들고 프로젝트에 연결합니다. 자세한 내용은 [시나리오 플래너를 사용한 비즈니스 사례의 예산 리소스](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md) 을 참조하십시오.
 
-   >[!NOTE]
-   >
-   >시나리오 플래너는 새 Adobe Workfront 경험에서만 사용할 수 있으며 추가 라이센스가 필요합니다. Workfront 시나리오 플래너에 대한 자세한 내용은 [시나리오 계획자 개요](../../../scenario-planner/scenario-planner-overview.md).
+  >[!NOTE]
+  >
+  >시나리오 플래너는 새 Adobe Workfront 경험에서만 사용할 수 있으며 추가 라이선스가 필요합니다. Workfront 시나리오 플래너에 대한 자세한 내용은 [시나리오 플래너 개요](../../../scenario-planner/scenario-planner-overview.md)를 참조하십시오.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:ALL content below has been moved to another article - we now have two "how to" budget in the business case: one for the resource planner and one of the scenario planner)</p>

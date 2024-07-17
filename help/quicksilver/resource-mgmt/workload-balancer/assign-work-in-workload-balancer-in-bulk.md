@@ -2,26 +2,28 @@
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: 업무 균형자 를 사용하여 일괄 작업 할당
-description: Adobe Workfront 업무 균형자 를 사용하여 사용자에게 작업 항목을 수동으로 할당할 수 있습니다.
+description: Adobe Workfront 업무 균형자 를 사용하여 여러 작업 및 문제에 리소스를 일괄 할당할 수 있습니다.
 author: Lisa
 feature: Resource Management
 exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: f2b6f0fb8a24723fec60c6fc1a99e1b8f9cf39c7
 workflow-type: tm+mt
-source-wordcount: '1548'
-ht-degree: 1%
+source-wordcount: '1501'
+ht-degree: 2%
 
 ---
 
 # 업무 균형자 를 사용하여 일괄 작업 할당
 
+<!--Audited: 07/2024-->
+
 <!--drafted
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
 -->
 
-Adobe Workfront 업무 균형자 를 사용하여 사용자에게 작업 항목을 수동으로 할당할 수 있습니다.
+Adobe Workfront 업무 균형자 를 사용하여 여러 작업 및 문제에 리소스를 일괄 할당할 수 있습니다.
 
-업무 균형자를 사용하여 사용자에게 작업을 할당하는 방법에 대한 일반 정보는 [업무 균형자에서 작업 할당 개요](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+업무 균형자를 사용하여 사용자에게 작업을 할당하는 방법에 대한 일반 정보는 [업무 균형자에서 작업 할당 개요](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)를 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -32,36 +34,40 @@ Adobe Workfront 업무 균형자 를 사용하여 사용자에게 작업 항목�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
    <td> <p>임의 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>리소스 조달 영역에서 업무 균형자 를 사용할 때 계획</p>
-   <p>팀 또는 프로젝트의 업무 균형자 를 사용할 때 작업</p>
+   <td> 
+   <p>새로운 기능: 표준</p>
+   <p>현재:</p>
+   <ul>
+   <li><p>리소스 조달 영역에서 업무 균형자 를 사용할 때 계획</p></li>
+   <li><p>팀 또는 프로젝트의 업무 균형자 를 사용할 때 작업</p></li></ul>
 
 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준*</td> 
+   <td role="rowheader">액세스 수준</td> 
    <td> <p>다음에 대한 액세스 권한 편집:</p> 
     <ul> 
      <li> <p>리소스 관리</p> </li> 
      <li> <p>프로젝트</p> </li> 
      <li> <p>작업</p> </li> 
      <li> <p>문제</p> </li> 
-    </ul> <p><b>메모</b>
+    </ul>
 
-여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td>
-</tr> 
+</td> 
+  </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>할당이 포함된 프로젝트, 작업 및 문제에 권한 이상 기여</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>할당이 포함된 프로젝트, 작업 및 문제에 대한 Contribute 권한 이상</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## 업무 균형자에서 일괄 할당할 때 고려 사항
 
@@ -77,22 +83,22 @@ Adobe Workfront 업무 균형자 를 사용하여 사용자에게 작업 항목�
 
 * 여러 개의 새 프로젝트에서 사용자를 할당할 책임이 있습니다. 프로젝트는 원래 템플릿에서 만들어졌으며 작업 역할은 이미 프로젝트 내의 다양한 작업에 할당되었습니다. 현재 작업 역할에 할당된 모든 작업에 특정 사용자 Jackie Simms를 할당하려고 합니다. Assign 함수를 사용하여 이러한 작업을 Jackie Simm에게 할당할 수 있습니다.
 * 3개의 다른 프로젝트에서 45개의 작업이 Jackie Simm에게 할당됩니다. Jackie는 조직을 떠나며 이제 다른 사용자에게 Jackie의 작업을 다시 할당해야 합니다. 바꾸기 기능을 사용하여 이러한 작업을 새 사용자에게 할당할 수 있습니다.
-* 두 개의 다른 프로젝트에서 10개의 작업이 다른 사용자인 Rick Kuvec에게 할당됩니다. Rick이 이 작업에 잘못 할당되었음을 알지만 현재 이 작업을 할당해야 할 사용자를 알 수 없습니다. 동시에 Rick을 모든 작업에 할당 해제해야 합니다. 할당 해제 기능을 사용하여 이러한 작업에서 Rick을 제거할 수 있습니다.
+* 두 개의 다른 프로젝트에서 10개의 작업이 다른 사용자인 Rick Kuvec에게 할당됩니다. Rick이 이러한 작업에 잘못 할당되었음을 알 수 있지만 현재 해당 작업을 누구에게 할당해야 하는지 알 수 없습니다. 동시에 Rick을 모든 작업에 할당 해제해야 합니다. 할당 해제 기능을 사용하여 이러한 작업에서 Rick을 제거할 수 있습니다.
 
 ## 업무 균형자에서 일괄 작업 할당
 
 1. 작업을 할당할 업무 균형자로 이동합니다.
 
-   리소스 영역, 프로젝트 또는 팀 수준에서 업무 균형자 를 사용하여 사용자에게 작업을 할당할 수 있습니다. Workfront에서 업무 균형자 위치에 대한 자세한 내용은 [업무 균형자 찾기](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+   리소스 영역, 프로젝트 또는 팀 수준에서 업무 균형자 를 사용하여 사용자에게 작업을 할당할 수 있습니다. Workfront에서 업무 균형자 위치에 대한 자세한 내용은 [업무 균형자 찾기](../../resource-mgmt/workload-balancer/locate-workload-balancer.md)를 참조하십시오.
 
 
-1. 클릭 **일괄 할당** ![](assets/bulk-assignments-wb.png) 업무 균형자 의 맨 위에 있습니다.
+1. 업무 균형자 상단에서 **일괄 할당** ![](assets/bulk-assignments-wb.png)을(를) 클릭합니다.
 
    일괄 할당 패널이 업무 균형자 오른쪽에 열립니다.
 
-1. (조건부) 리소스 영역 또는 팀에서 업무 균형자에 액세스하는 경우 **프로젝트: 이름** 드롭다운 메뉴를 클릭하고 필터 수정자를 사용하여 할당할 프로젝트를 선택합니다. 이름(기본 옵션) 또는 상태별로 프로젝트를 선택할 수 있습니다.
+1. (조건부) 리소스 영역 또는 팀에서 업무 균형자에 액세스하는 경우 **프로젝트: 이름** 드롭다운 메뉴를 확장하고 필터 수정자를 사용하여 할당할 프로젝트를 선택합니다. 이름(기본 옵션) 또는 상태별로 프로젝트를 선택할 수 있습니다.
 
-Workfront 필터 수정자에 대한 자세한 내용은 [필터 및 조건 수정자](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+Workfront 필터 수정자에 대한 자세한 내용은 [필터 및 조건 수정자](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)를 참조하십시오.
 
 >[!NOTE]
 >
@@ -100,9 +106,9 @@ Workfront 필터 수정자에 대한 자세한 내용은 [필터 및 조건 수�
 
 ![](assets/project-name-status-dropdown-bulk-assignments-wb-nwe-350x133.png)
 
-1. (선택 사항) **프로젝트 작업 선택** 할당하려는 작업을 선택한 다음 **작업: 이름** 드롭다운 메뉴에서 이름(기본 옵션) 또는 상태별로 작업을 선택하고 필터 수정자를 사용하여 특정 작업을 검색합니다.
+1. (선택 사항) **프로젝트 작업 선택**&#x200B;을 클릭하여 할당하려는 작업을 선택한 다음 **작업: 이름** 드롭다운 메뉴에서 이름(기본 옵션) 또는 상태별로 작업을 선택하고 필터 수정자를 사용하여 특정 작업을 검색합니다.
 
-Workfront 필터 수정자에 대한 자세한 내용은 [필터 및 조건 수정자](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+Workfront 필터 수정자에 대한 자세한 내용은 [필터 및 조건 수정자](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)를 참조하십시오.
 
 >[!NOTE]
 >
@@ -114,11 +120,11 @@ Workfront 필터 수정자에 대한 자세한 내용은 [필터 및 조건 수�
 >
 >문제와 작업에 일괄 할당하려면 이 선택을 비워 두십시오.
 
-1. (선택 사항) **삭제** 아이콘 ![](assets/delete.png) 선택한 기준 중 하나 옆
+1. (선택 사항) 선택한 기준 중 하나 옆에 있는 **삭제** 아이콘 ![](assets/delete.png)을(를) 클릭합니다
 
    또는
 
-   클릭 **모두 지우기** 일괄 할당 패널의 오른쪽 상단 모서리에서 모든 선택 항목을 제거합니다.
+   일괄 할당 패널의 오른쪽 상단 모서리에서 **모두 지우기**&#x200B;를 클릭하여 모든 선택 항목을 제거합니다.
 
 1. 다음 옵션 중 하나를 선택하고 아래에 설명된 단계를 계속합니다.
 
@@ -144,17 +150,17 @@ Workfront 필터 수정자에 대한 자세한 내용은 [필터 및 조건 수�
 
 이전에 작업 역할에 할당된 작업 항목에 사용자를 할당하려면 다음을 수행합니다.
 
-1. 위에서 설명한 대로 업무 균형자에서 일괄 할당을 사용하여 작업 항목 할당을 시작하고 을 선택합니다. **할당**.
+1. 위에서 설명한 대로 업무 균형자에서 일괄 할당을 사용하여 작업 항목 할당을 시작하고 **할당**&#x200B;을 선택합니다.
 
-1. 다음에서 **역할 할당** 필드에서 드롭다운 화살표를 클릭하여 역할 목록에서 선택합니다. 지정된 프로젝트 내에서 현재 할당된 역할만 표시됩니다. 필수 필드입니다.
+1. **역할 할당** 필드에서 드롭다운 화살표를 클릭하여 역할 목록에서 선택합니다. 지정된 프로젝트 내에서 현재 할당된 역할만 표시됩니다. 필수 필드입니다.
 
    ![](assets/bulk-assignments-workload-balancer-assign-selected.png)
 
-1. 다음에서 **할당할 사용자** 필드에서 드롭다운 화살표를 클릭하여 제안된 사용자 목록에서 선택하거나 다른 사용자의 이름을 입력합니다.
+1. **할당할 사용자** 필드에서 드롭다운 화살표를 클릭하여 제안된 사용자 목록에서 선택하거나 다른 사용자의 이름을 입력합니다.
 
    다음 영역에서 사용자를 선택합니다.
 
-   * **제안된 할당**: 선택한 역할을 수행할 수 있고 스마트 할당 기준과 일치하는 사용자. 자세한 내용은 [스마트 할당 개요](../../manage-work/tasks/assign-tasks/smart-assignments.md).
+   * **제안된 할당**: 선택한 역할을 수행할 수 있고 스마트 할당 기준과 일치하는 사용자. 자세한 내용은 [스마트 할당 개요](../../manage-work/tasks/assign-tasks/smart-assignments.md)를 참조하십시오.
    * **기타 할당**: 선택한 역할을 수행할 수 있는 시스템의 모든 사용자.
 
      >[!TIP]
@@ -169,7 +175,7 @@ Workfront 필터 수정자에 대한 자세한 내용은 [필터 및 조건 수�
    >사용자의 모든 역할이 목록에 사용자 이름 아래에 표시됩니다.
 
 
-1. 클릭 **할당**.
+1. **할당**&#x200B;을 클릭합니다.
 
    지정한 역할이 선택한 사용자로 대체됩니다.
 
@@ -190,18 +196,18 @@ Workfront 필터 수정자에 대한 자세한 내용은 [필터 및 조건 수�
 
 사용자를 다른 사용자로 바꾸려면 다음을 수행합니다.
 
-1. 위에서 설명한 대로 업무 균형자에서 작업 항목 할당을 시작하고 을(를) 선택합니다 **바꾸기**.
-1. 다음에서 **현재 할당된 사용자** 필드에서 드롭다운 화살표를 클릭하여 사용자 목록에서 선택합니다. 지정된 프로젝트 내의 미완료 작업 항목에 현재 할당된 사용자만 표시됩니다. 필수 필드입니다.
+1. 위에서 설명한 대로 업무 균형자에서 작업 항목 할당을 시작하고 **바꾸기**&#x200B;를 선택합니다.
+1. **현재 할당된 사용자** 필드에서 드롭다운 화살표를 클릭하여 사용자 목록에서 선택합니다. 지정된 프로젝트 내의 미완료 작업 항목에 현재 할당된 사용자만 표시됩니다. 필수 필드입니다.
 
    ![](assets/bulk-assignments-workload-balancer-replace-selected-350x345.png)
 
-1. 다음에서 **할당할 사용자** 필드에 드롭다운 화살표를 클릭하여 제안된 사용자 목록에서 선택하거나 다른 사용자 이름을 입력합니다. 목록에 기본적으로 나열된 사용자는 스마트 할당 기준과 일치합니다. 자세한 내용은 [스마트 할당 개요](../../manage-work/tasks/assign-tasks/smart-assignments.md).
+1. **할당할 사용자** 필드에서 드롭다운 화살표를 클릭하여 제안된 사용자 목록에서 선택하거나 다른 사용자 이름을 입력합니다. 목록에 기본적으로 나열된 사용자는 스마트 할당 기준과 일치합니다. 자세한 내용은 [스마트 할당 개요](../../manage-work/tasks/assign-tasks/smart-assignments.md)를 참조하십시오.
 
    Workfront은 현재 할당된 사용자가 두 번째 사용자를 대체할 항목의 수와 대체할 역할에 대한 메모를 표시합니다.
 
    ![](assets/bulk-replace-user-confirmation-before-replacing-nwe-350x49.png)
 
-1. 클릭 **바꾸기**.
+1. **바꾸기**&#x200B;를 클릭합니다.
 
    선택한 프로젝트의 모든 작업 항목에서 첫 번째 사용자가 두 번째 사용자로 대체됩니다.
 
@@ -218,13 +224,13 @@ Workfront 필터 수정자에 대한 자세한 내용은 [필터 및 조건 수�
 
 * 지정된 사용자가 완료된 작업 항목에 할당되면 해당 사용자는 해당 작업 항목에 할당된 상태로 유지됩니다.
 
-사용자 및 작업 역할 할당에 대한 자세한 내용은 [업무 균형자에서 작업 할당 개요](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+사용자 및 작업 역할 할당에 대한 자세한 내용은 [업무 균형자에서 작업 할당 개요](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)를 참조하십시오.
 
 선택한 프로젝트 또는 할당된 작업 또는 문제에 대해 사용자를 작업 항목에서 할당 해제하려면 다음을 수행합니다.
 
-1. 위에서 설명한 대로 업무 균형자에서 작업 항목 할당을 시작하고 을(를) 선택합니다 **할당 해제**.
+1. 위에서 설명한 대로 업무 균형자에서 작업 항목 할당을 시작하고 **할당 취소**&#x200B;를 선택합니다.
 
-1. 다음에서 **할당 해제할 사용자** 필드에서 드롭다운 화살표를 클릭하여 사용자 목록에서 선택합니다. 지정된 프로젝트 내의 미완료 작업 항목에 현재 할당된 사용자만 표시됩니다. 필수 필드입니다.
+1. **할당 해제할 사용자** 필드에서 드롭다운 화살표를 클릭하여 사용자 목록에서 선택합니다. 지정된 프로젝트 내의 미완료 작업 항목에 현재 할당된 사용자만 표시됩니다. 필수 필드입니다.
 
    ![](assets/bulk-assignments-workload-balancer-unassign-selected-350x318.png)
 
@@ -232,7 +238,7 @@ Workfront 필터 수정자에 대한 자세한 내용은 [필터 및 조건 수�
 
    ![](assets/bulk-unassign-user-confirmation-before-assigning-nwe-350x45.png)
 
-1. 클릭 **할당 해제**.\
+1. **할당 해제**&#x200B;를 클릭합니다.\
    지정된 사용자가 제거된 작업 항목 수에 대한 확인을 받습니다.
 
- 
+

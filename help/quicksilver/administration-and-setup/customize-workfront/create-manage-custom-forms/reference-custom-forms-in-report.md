@@ -17,4 +17,4 @@ ht-degree: 0%
 
 # 보고서에서 사용자 정의 양식 참조
 
-보고서에서 사용자 정의 양식을 참조하는 방법에 대한 자세한 내용은 [보고서에서 사용자 정의 양식 참조](../../../reports-and-dashboards/reports/creating-and-managing-reports/reference-custom-form-report.md).
+보고서에서 사용자 정의 양식을 참조하는 방법에 대한 자세한 내용은 [보고서에서 사용자 정의 양식 참조](../../../reports-and-dashboards/reports/creating-and-managing-reports/reference-custom-form-report.md)를 참조하십시오.

@@ -20,10 +20,10 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->이 문서는 독립 실행형 제품의 기능에 대해 설명합니다 [!DNL Workfront Proof]. 내부 교정에 대한 정보 [!DNL Adobe Workfront], 참조 [증명](../../../review-and-approve-work/proofing/proofing.md).
+>이 문서는 독립 실행형 제품 [!DNL Workfront Proof]의 기능을 참조합니다. [!DNL Adobe Workfront] 내부의 증명에 대한 자세한 내용은 [증명](../../../review-and-approve-work/proofing/proofing.md)을 참조하십시오.
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [에 증명 추가 [!DNL Basecamp Classic] 프로젝트](../../../workfront-proof/wp-integrations/basecamp-classic/add-proof-basecamp-classic.md)
-* [통합 [!DNL Workfront Proof] 포함 [!DNL Basecamp Classic]](../../../workfront-proof/wp-integrations/basecamp-classic/integrate-workfront-proof-basecamp-classic.md)
-* [에서 증명 검토 [!DNL Basecamp Classic]](../../../workfront-proof/wp-integrations/basecamp-classic/review-proof-basecamp-classic.md)
+* [ [!DNL Basecamp Classic] 프로젝트에 증명 추가](../../../workfront-proof/wp-integrations/basecamp-classic/add-proof-basecamp-classic.md)
+* [ [!DNL Basecamp Classic]과(와)  [!DNL Workfront Proof]  통합](../../../workfront-proof/wp-integrations/basecamp-classic/integrate-workfront-proof-basecamp-classic.md)
+* [ [!DNL Basecamp Classic]에서 증명 검토](../../../workfront-proof/wp-integrations/basecamp-classic/review-proof-basecamp-classic.md)

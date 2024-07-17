@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Adobe Workfront 목표에는 계정에 대해 활성화할 수 있는 이벤트 알림 세트가 포함되어 있습니다. 이러한 이벤트 알림은 이벤트에 의해 정의된 조건이 충족될 때마다 이메일 통신을 트리거합니다.
 
-Workfront 목표에 대해 활성화할 수 있는 알림에 대한 자세한 내용은 을 참조하십시오. [알림: 목표](../../workfront-basics/using-notifications/notifications-goals.md).
+Workfront 목표에 대해 활성화할 수 있는 알림에 대한 자세한 내용은 [알림: 목표](../../workfront-basics/using-notifications/notifications-goals.md)를 참조하십시오.
 
-Adobe Workfront에서의 알림 관리에 대한 자세한 내용은 [이메일 알림 수정](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Adobe Workfront에서 알림을 관리하는 방법에 대한 자세한 내용은 [이메일 알림 수정](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)을 참조하세요.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

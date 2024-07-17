@@ -1,8 +1,8 @@
 ---
 product-area: resource-management;reporting
 navigation-topic: resource-planning
-title: 자원 계획자 예산책정 시간 보고서
-description: 자원 계획자를 사용하여 프로젝트에 대한 자원 예산을 책정할 수 있습니다. Adobe Workfront Resource Planner를 사용하여 자원 예산을 지정하는 방법에 대한 자세한 내용은 프로젝트 및 역할 보기를 사용하여 Resource Planner의 예산 자원 문서를 참조하십시오.
+title: 리소스 플래너 예산 시간에 대한 보고서
+description: 리소스 플래너를 사용하여 프로젝트에 대한 리소스의 예산을 책정할 수 있습니다. Adobe Workfront 리소스 플래너를 사용하여 리소스 예산을 편성하는 방법에 대한 자세한 내용은 프로젝트 및 역할 보기를 사용하여 리소스 플래너의 리소스 예산 문서를 참조하십시오.
 author: Alina
 feature: Resource Management
 exl-id: 6adf11a4-3c33-484f-80cc-c5d96a7c7112
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 ---
 
-# 자원 계획자 예산책정 시간 보고서
+# 리소스 플래너 예산 시간에 대한 보고서
 
-자원 계획자를 사용하여 프로젝트에 대한 자원 예산을 책정할 수 있습니다. Adobe Workfront Resource Planner를 사용하여 리소스 예산 편성에 대한 자세한 내용은 문서를 참조하십시오 [프로젝트 및 역할 보기를 사용하는 자원 계획자의 예산 자원](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+리소스 플래너를 사용하여 프로젝트에 대한 리소스의 예산을 책정할 수 있습니다. Adobe Workfront 리소스 플래너를 사용하여 리소스 예산을 책정하는 방법에 대한 자세한 내용은 문서 [프로젝트 및 역할 보기를 사용하여 리소스 플래너에서 리소스 예산](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)을 참조하십시오.
 
-예산 책정 자원은 프로젝트에 있는 자원이 프로젝트에서 작업을 완료해야 하는 특정 시간(또는 예산)을 정의합니다. Resource Planner에 입력한 예산책정된 시간 정보를 Resource Planner에 액세스할 수 없는 다른 사용자와 공유하려면 예산책정된 시간 보고서를 작성할 수 있습니다. 자세한 내용은 [보고서: 예산책정 시간](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md).
+자원 예산책정은 프로젝트의 자원이 프로젝트에서 작업을 완료하는 데 필요한 특정 시간을 정의(또는 예산)하는 것을 의미합니다. 리소스 플래너에 입력한 예산 시간 정보를 리소스 플래너에 대한 액세스 권한이 없을 수 있는 다른 사용자와 공유하려면 예산 시간 보고서를 작성할 수 있습니다. 자세한 내용은 [보고서: 예산 시간](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md)을 참조하세요.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this is all drafted - below - same content as the one in the standalone Report: Budgeted Hour article - consider deleting that and just keeping the infomation here?!)</p>

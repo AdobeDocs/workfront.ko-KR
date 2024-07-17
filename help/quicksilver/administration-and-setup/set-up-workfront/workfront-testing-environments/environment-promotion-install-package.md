@@ -21,7 +21,7 @@ ht-degree: 0%
 
 패키지를 만든 후에는 다른 환경에 설치할 수 있습니다.
 
-개체를 복사할 환경에 패키지를 설치해야 합니다 **끝**. 예를 들어 사용자 정의 샌드박스 새로 고침 환경에서 프로젝트를 구성하고 프로덕션 환경으로 승격하는 경우 프로덕션 환경에 패키지를 설치해야 합니다.
+개체 **to**&#x200B;을(를) 복사할 환경에 패키지를 설치해야 합니다. 예를 들어 사용자 정의 샌드박스 새로 고침 환경에서 프로젝트를 구성하고 프로덕션 환경으로 승격하는 경우 프로덕션 환경에 패키지를 설치해야 합니다.
 
 >[!IMPORTANT]
 >
@@ -33,13 +33,13 @@ ht-degree: 0%
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] 플랜</strong>
+   <td><strong>[!DNL Adobe Workfront] 계획</strong>
    </td>
    <td> Prime 또는 Ultimate(신규 계획만 해당)
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] 라이선스</strong>
+   <td><strong>[!DNL Adobe Workfront]개 라이선스</strong>
    </td>
    <td> [!UICONTROL Standard]
    </td>
@@ -47,18 +47,18 @@ ht-degree: 0%
    <tr>
    <td>액세스 수준 구성
    </td>
-   <td>다음이어야 합니다: [!DNL Workfront] 관리자.
+   <td>[!DNL Workfront] 관리자여야 합니다.
    </td>
   </tr>
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## 전제 조건
 
 환경 프로모션 패키지를 설치하려면 먼저 만들어야 합니다.
 
-자세한 내용은 [환경 프로모션 패키지 만들기 또는 편집](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md).
+지침은 [환경 프로모션 패키지 만들기 또는 편집](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)을 참조하십시오.
 
 ## 설치를 위한 패키지 상태
 
@@ -68,29 +68,29 @@ ht-degree: 0%
 
 패키지 상태를 편집하려면:
 
-1. 에 설명된 대로 패키지를 선택합니다  [기존 패키지 편집 또는 결합](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md#create-or-edit-an-environment-promotion-package) 문서 환경 프로모션 패키지 만들기 및 편집
-1. 클릭 **패키지 편집**.
-1. 클릭 **상태**.
+1. [환경 프로모션 패키지 만들기 및 편집 문서의 기존 패키지 편집 또는 결합](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md#create-or-edit-an-environment-promotion-package)에 설명된 대로 패키지를 선택하십시오.
+1. **패키지 편집**&#x200B;을 클릭합니다.
+1. **상태**&#x200B;를 클릭합니다.
 1. 드롭다운 메뉴에서 원하는 상태를 선택합니다.
 
-상태에 대한 자세한 내용은 [환경 프로모션 상태](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses) 문서 Workfront 환경 간 객체 이동에 대한 개요
+상태에 대한 자세한 내용은 Workfront 환경 간 개체 이동 개요 문서에서 [환경 상태 승격 상태](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses)를 참조하십시오.
 
 ## 패키지 설치
 
 >[!NOTE]
 >
->* 패키지를 설치하려면 패키지를 설치할 환경에 로그인해야 합니다. 객체를 복사하는 환경입니다 **끝**.
+>* 패키지를 설치하려면 패키지를 설치할 환경에 로그인해야 합니다. **to** 개체를 복사하는 환경입니다.
 
 1. 패키지를 설치할 환경으로 이동합니다.
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리에서 을(를) 클릭하고 **[!UICONTROL 설정]** ![설정 아이콘](/help/_includes/assets/gear-icon-setup.png).
-1. 선택 **시스템** 왼쪽 탐색에서 을(를) 선택합니다. **환경 프로모션**.
+1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **[!UICONTROL 설정]** ![설정 아이콘](/help/_includes/assets/gear-icon-setup.png)을 클릭합니다.
+1. 왼쪽 탐색에서 **시스템**&#x200B;을 선택한 다음 **환경 홍보**&#x200B;를 선택합니다.
 1. 표시된 목록에서 패키지를 선택합니다.
 1. 충돌이 있는 각 개체에 대해 충돌 해결 방법을 선택합니다.
 
    충돌을 해결하려면 객체 유형 옆에 있는 드롭다운 화살표를 클릭하고 수행할 작업을 선택합니다.
 
-   자세한 내용은 [충돌](#collisions) 이 문서에서
-1. 패키지를 새 환경에 배포하려면 **배포** 화면 오른쪽 상단에 있습니다.
+   자세한 내용은 이 문서에서 [충돌](#collisions)을 참조하십시오
+1. 패키지를 새 환경에 배포하려면 화면 오른쪽 상단의 **배포**&#x200B;를 클릭하십시오.
 
 ## 충돌
 
@@ -106,18 +106,18 @@ ht-degree: 0%
 
 충돌을 해결하려면 배포 작업 열에서 작업을 선택하거나 이미 표시된 기본 작업을 사용합니다.
 
-* **새 이름으로 만들기**: 대상 환경에서 새 개체를 만듭니다. 객체가 대상 환경에 존재하면 새 이름으로 새 객체를 작성할 수 있습니다. 대상 환경에 없는 경우 새 이름으로 개체를 만들거나 개체가 패키지에 있는 이름으로 개체를 만들 수 있습니다.
-* **기존 항목 사용**: 패키지의 개체가 설치되지 않았으며 대상 환경에 이미 있던 개체가 변경되지 않았습니다.
+* **새 이름으로 만들기**: 대상 환경에 새 개체를 만듭니다. 객체가 대상 환경에 존재하면 새 이름으로 새 객체를 작성할 수 있습니다. 대상 환경에 없는 경우 새 이름으로 개체를 만들거나 개체가 패키지에 있는 이름으로 개체를 만들 수 있습니다.
+* **기존 개체 사용**: 패키지의 개체가 설치되어 있지 않으며 대상 환경에 이미 있는 개체가 변경되지 않았습니다.
 * **덮어쓰기**: 패키지의 개체가 대상 환경의 기존 개체를 대체합니다.
 
   충돌이 감지되지 않더라도 덮어쓸 오브젝트를 선택할 수도 있습니다.
 
-  덮어쓰기가 상위 및 하위 객체에 미치는 영향에 대한 자세한 내용은 [상위 및 하위 개체 덮어쓰기](#overwriting-parent-and-child-objects) 이 문서에서.
+  덮어쓰기가 상위 및 하위 개체에 미치는 영향에 대한 자세한 내용은 이 문서에서 [상위 및 하위 개체 덮어쓰기](#overwriting-parent-and-child-objects)를 참조하십시오.
 <!--
 * Do not use: The object in the package is not installed in the target environment. If you select Do not use, an error message will appear detailing how this choice will affect other objects or fields.
 -->
 
-기본값은 입니다. `Create new` 객체가 대상 환경에 없는 경우 `Use existing` 객체가 대상 환경에 있는 경우 을 클릭하여 기본 매핑으로 되돌릴 수 있습니다. **기본 매핑으로 재설정**.
+대상 환경에 개체가 없는 경우 기본값은 `Create new`이고 대상 환경에 개체가 있는 경우 기본값은 `Use existing`입니다. **기본 매핑으로 재설정**&#x200B;을 클릭하여 기본 매핑으로 되돌릴 수 있습니다.
 
 ## 상위 및 하위 개체 덮어쓰기
 
@@ -131,8 +131,8 @@ ht-degree: 0%
 
 | 상위 오브젝트 | 하위 개체 |
 |---|---|
-| 프로젝트 | 작업<br>QueueDef(대기열 정의)<br>라우팅 규칙 |
-| 템플릿 | TemplateTask<br>QueueDef(대기열 정의)<br>라우팅 규칙 |
+| 프로젝트 | 작업<br>QueueDef(큐 정의)<br>라우팅 규칙 |
+| 템플릿 | TemplateTask<br>QueueDef(큐 정의)<br>라우팅 규칙 |
 | 매개 변수(사용자 정의 양식 필드) | ParameterOption(사용자 정의 양식 필드 옵션) |
 | 캘린더 정보 | CalendarSection |
 | QueueDef(대기열 정의) | 대기열 주제 그룹<br>대기열 주제 |

@@ -20,7 +20,7 @@ ht-degree: 0%
 
 이 문서에는 Adobe Workfront Planning에 대해 가장 일반적으로 묻는 질문 목록이 포함되어 있습니다.
 
-Workfront Planning에 대한 자세한 내용은 [Adobe Workfront Planning 개요](/help/quicksilver/planning/general/planning-overview.md).
+Workfront Planning에 대한 자세한 내용은 [Adobe Workfront Planning 개요](/help/quicksilver/planning/general/planning-overview.md)를 참조하십시오.
 
 ## Workfront 계획이란?
 
@@ -30,15 +30,15 @@ Workfront Planning에 대한 자세한 내용은 [Adobe Workfront Planning 개�
 
 Workfront Planning 모듈은 서로 다르지만 연결되어 있는 세 가지 Workfront 기능 중 하나로, 함께 기록 마케팅 시스템을 만듭니다. 세 가지 기능은 다음과 같습니다.
 
-* **계획 수립**: Workfront Planning에 포함된 새로운 고급 기능.
+* **계획**: Workfront 계획에 포함된 새로운 고급 기능입니다.
 
 * **워크플로**: 현재 Workfront에서 사용하는 공동 작업 관리 기능(프로젝트 관리, 리소스 관리 등)
 
-* **자동화 및 통합**: Workfront Fusion에서 제공하는 포괄적인 통합 및 자동화 기능
+* **자동화 및 통합**: Workfront Fusion에서 제공하는 포괄적인 통합 및 자동화 기능입니다.
 
 ## Workfront Planning은 언제 출시됩니까?
 
-일반 출시까지의 최신 Workfront Planning 릴리스는 2024년 8월 28일에 예정되어 있습니다. 현재 출시되는 기능에 대한 최신 정보는 를 참조하십시오. [Adobe Workfront Planning 현재 릴리스 활동](/help/quicksilver/planning/general/release-activity.md).
+일반 출시까지의 최신 Workfront Planning 릴리스는 2024년 8월 28일에 예정되어 있습니다. 현재 출시되는 기능에 대한 최신 정보는 [Adobe Workfront Planning 현재 릴리스 활동](/help/quicksilver/planning/general/release-activity.md)을 참조하십시오.
 
 ## Workfront Planning의 초기 단계가 끝난 후 발생하는 일은 무엇입니까?
 
@@ -50,7 +50,7 @@ Workfront Planning 베타 단계 및 초기 단계에 참여한 고객은 2024�
 
 ## IMS로 마이그레이션해야 합니까?
 
-예. Workfront Planning을 구매하려는 고객은 Adobe 통합 경험/Adobe 비즈니스 플랫폼으로 마이그레이션해야 합니다. 자세한 내용은 [Workfront용 통합 경험 Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+예. Workfront Planning을 구매하려는 고객은 Adobe 통합 경험/Adobe 비즈니스 플랫폼으로 마이그레이션해야 합니다. 자세한 내용은 [Workfront용 통합 경험 Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)를 참조하십시오.
 
 ## 다른 작업 영역의 예를 제공할 수 있습니까?
 
@@ -68,7 +68,7 @@ Workfront Planning 베타 단계 및 초기 단계에 참여한 고객은 2024�
 
 ## 한 조직에서 허용되는 작업 공간 수에 대한 소프트 또는 하드 제한이 있습니까?
 
-조직의 Workfront 인스턴스에는 최대 1,000개의 작업 공간이 있을 수 있습니다. 제한에 대한 자세한 내용은 다음을 참조하십시오. [Adobe Workfront Planning 개요](/help/quicksilver/planning/general/planning-overview.md).
+조직의 Workfront 인스턴스에는 최대 1,000개의 작업 공간이 있을 수 있습니다. 제한에 대한 자세한 내용은 [Adobe Workfront 계획 개요](/help/quicksilver/planning/general/planning-overview.md)를 참조하십시오.
 
 ## Workfront 시스템의 현재 개체를 Planning에서 사용할 수 있습니까, 아니면 수동으로 빌드해야 합니까?
 
@@ -125,7 +125,7 @@ Workfront Planning 사용자는 Workfront 사용자입니다.
 
 ## Planning 모델 및 레코드 유형에 대해 문서화되고 공유할 수 있는 ERD가 있습니까?
 
-현재 ERD는 없지만 Workfront Planning과 관련된 모든 세부 사항을 안내하는 심층적인 설명서가 있습니다. 자세한 내용은 [Adobe Workfront Planning: 문서 색인](/help/quicksilver/planning/planning-information.md).
+현재 ERD는 없지만 Workfront Planning과 관련된 모든 세부 사항을 안내하는 심층적인 설명서가 있습니다. 자세한 내용은 [Adobe Workfront 계획: 문서 색인](/help/quicksilver/planning/planning-information.md)을 참조하세요.
 
 ## Workfront Planning의 가격은 어떻게 구성되어 있습니까? 1회 연회비입니까? 아니면 사용자당 요금이 부과되나요?
 
@@ -145,7 +145,7 @@ AI Assistant는 현재 Beta 버전으로 제공되며, 계정 관리자에게 �
 
 ## API를 사용하여 Planning 데이터도 가져올 수 있습니까?
 
-예. Fusion 커넥터와 함께 Planning API를 이미 사용할 수 있습니다. 자세한 내용은 [Adobe Workfront Planning 모듈](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md). Workfront Planning API에 대한 설명서가 곧 제공됩니다.
+예. Fusion 커넥터와 함께 Planning API를 이미 사용할 수 있습니다. 자세한 내용은 [Adobe Workfront 계획 모듈](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)을 참조하세요. Workfront Planning API에 대한 설명서가 곧 제공됩니다.
 
 <!--From a Marketing Workspace - is it best to have one master Workspace to use for a Global Marketing team OR is it best to have individual Workspaces for each Business Line, Country, Brand, etc. i saw that we're able to have up to 1000 Workspaces and potentially connect Workspaces. is it possible to link records btwn workspaces? Use case would be - allow each product their own workspace, but with shared record types. And then would want to see a shared view that combines everything. -->
 
@@ -175,7 +175,7 @@ Public views that are shared are visible  -->
 
 ## 내부적으로 보기를 어떻게 공유합니까?
 
-보기 공유에 대한 자세한 내용은 [보기 공유](/help/quicksilver/planning/access/share-views.md).
+보기 공유에 대한 자세한 내용은 [보기 공유](/help/quicksilver/planning/access/share-views.md)를 참조하세요.
 
 ## 작업 영역을 만들 때마다 보기를 다시 공유해야 합니까?
 
@@ -187,7 +187,7 @@ Public views that are shared are visible  -->
 
 ## 기본이 되는 것 이상의 권한을 사용자 지정할 수 있습니까? 현재 다른 Workfront 개체와 함께 Contribute/관리/보기 권한으로 수행할 수 있는 작업을 사용자 지정할 수 있습니다.
 
-현재는 지원되지 않습니다. 각 권한이 허용하는 사항에 대한 자세한 내용은 [Adobe Workfront Planning의 공유 권한 개요](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+현재는 지원되지 않습니다. 각 사용 권한에 대한 자세한 내용은 [Adobe Workfront Planning의 공유 권한 개요](/help/quicksilver/planning/access/sharing-permissions-overview.md)를 참조하십시오.
 
 현재 작업 공간 및 보기 수준 권한만 있으며 레코드 유형 또는 개별 레코드 수준 권한은 없습니다. 레코드 종류 및 레코드는 해당 레코드 종류 및 레코드가 속한 작업 영역에서 권한을 상속합니다.
 
@@ -197,4 +197,4 @@ Public views that are shared are visible  -->
 
 ## Adobe의 DAM 대신 자체 DAM을 사용하기 위한 사용자 지정 가능한 API가 있습니까?
 
-Fusion 커넥터와 함께 Planning API를 이미 사용할 수 있습니다. 자세한 내용은 [Adobe Workfront Planning 모듈](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md). Workfront Planning API에 대한 설명서가 곧 제공됩니다. API를 사용하여 사용자 정의 통합을 구축할 수 있습니다.
+Fusion 커넥터와 함께 Planning API를 이미 사용할 수 있습니다. 자세한 내용은 [Adobe Workfront 계획 모듈](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)을 참조하세요. Workfront Planning API에 대한 설명서가 곧 제공됩니다. API를 사용하여 사용자 정의 통합을 구축할 수 있습니다.

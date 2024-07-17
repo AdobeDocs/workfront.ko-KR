@@ -9,7 +9,7 @@ feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
 source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '887'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 예를 들어, 특정 작업이 돌아가기 전에 기한이지만 떠나기 전에 완료할 시간이 없을 경우, 다른 사용자에게 작업을 위임하여 제 시간에 완료할 수 있도록 하고, 돌아올 때까지 프로젝트 완료를 지연시키지 않을 수 있습니다.
 
-다음 개체를에서 위임할 수 있습니다. [!DNL Adobe Workfront]:
+[!DNL Adobe Workfront]에서 다음 개체를 위임할 수 있습니다.
 
 <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Projects where you are designated as the Project Owner (not yet, not for the MVP)</p> </li>
@@ -32,36 +32,36 @@ ht-degree: 1%
 
 이 문서에는 작업 및 문제 위임에 대한 일반적인 정보가 포함되어 있습니다.
 
-프로젝트, 작업, 문제 및 문서 승인 위임에 대한 자세한 내용은 [승인 요청 위임](../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
+프로젝트, 작업, 문제 및 문서 승인 위임에 대한 자세한 내용은 [승인 요청 위임](../../review-and-approve-work/manage-approvals/delegate-approval-requests.md)을 참조하세요.
 
-작업 및 문제를 위임하는 방법에 대한 자세한 내용은 [작업 및 문제 위임](../../manage-work/delegate-work/how-to-delegate-work.md).
+작업 및 문제를 위임하는 방법에 대한 자세한 내용은 [작업 및 문제 위임](../../manage-work/delegate-work/how-to-delegate-work.md)을 참조하세요.
 
 ## 작업 위임 개요
 
 작업 및 문제를 위임할 때는 다음 사항을 고려하십시오.
 
-* 사용자 [!DNL Workfront] 또는 그룹 관리자가 [!UICONTROL 설정] 영역을 설정한 후 다른 사람에게 작업을 위임할 수 있습니다.
+* [!DNL Workfront] 또는 그룹 관리자가 [!UICONTROL 설정] 영역에서 위임 환경 설정을 활성화해야 다른 사용자에게 작업을 위임할 수 있습니다.
 
-  자세한 내용은 [시스템 전체 작업 및 문제 환경 설정 구성](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
-* 작업 및 문제는 다음 대상에서만 위임할 수 있습니다. [!UICONTROL 홈] 영역입니다.
+  자세한 내용은 [시스템 전체 작업 및 문제 환경 설정 구성](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)을 참조하십시오.
+* [!UICONTROL Home] 영역에서만 작업 및 문제를 위임할 수 있습니다.
 * 다음 라이선스 유형에 대한 예외가 있습니다.
 
-   * 작업을 검토자 또는 요청자에게 위임할 수 있지만 [!DNL Workfront] 추천하지 않습니다.
-   * 검토자는 다른 사람에게 작업을 위임할 수 있습니다. 에서 작업 항목을 볼 수 없습니다. [!UICONTROL 홈] 영역입니다. 승인만 볼 수 있습니다.
-   * 요청자는 다른 사람에게 작업을 위임할 수 없습니다. 에서 작업 항목을 볼 수 없습니다. [!UICONTROL 홈] 영역
+   * [!DNL Workfront]이(가) 작업을 추천하지 않지만 검토자 또는 요청자에게 작업을 위임할 수 있습니다.
+   * 검토자는 다른 사람에게 작업을 위임할 수 있습니다. [!UICONTROL Home] 영역에서 작업 항목을 볼 수 없습니다. 승인만 볼 수 있습니다.
+   * 요청자는 다른 사람에게 작업을 위임할 수 없습니다. [!UICONTROL Home] 영역에서 작업 항목을 볼 수 없습니다.
 * 할당된 작업 및 문제만 위임할 수 있습니다. 다른 사용자, 팀 또는 작업 역할에 할당된 작업 및 문제를 위임할 수 없습니다.
 * 위임 시작일 이전에 완료되지 않은 작업 및 문제만 위임할 수 있습니다.
-* 위임 시간대 중에 작업 항목이 완료되면 해당 항목은 2주 동안 피위임자와 피할당자의 홈 영역에 남아 있습니다 [!DNL Workfront] 자동으로 제거됩니다.
+* 작업 항목이 위임 기간 동안 완료되는 경우 해당 항목은 피위임자와 피할당자의 [홈] 영역에 2주 동안 유지되었다가 [!DNL Workfront]에서 자동으로 제거됩니다.
 * 위임자로 선택한 사용자는 위임한 작업 및 문제에 대한 권한과 동일한 권한을 받습니다. 권한은 자신의 액세스 수준 내에서 작동해야 하며 경우에 따라 액세스 수준이 본인의 액세스 수준보다 낮을 수 있습니다.
 
 >[!NOTE]
 >
->  위임이 이미 시작된 후 할당된 항목의 경우 항목이 할당된 후 최대 1시간이 걸릴 수 있습니다. [!DNL Workfront] 을 클릭하여 새로 할당된 항목을 대리인과 공유할 수 있습니다.
+>  위임이 이미 시작된 후 할당된 항목의 경우 [!DNL Workfront]에 대해 항목이 할당된 후 최대 1시간이 지난 후에 새로 할당된 항목을 피위임자와 공유할 수 있습니다.
 
 * 작업을 다른 사용자에게 위임하도록 선택한 기간 동안 추가 작업 및 문제가 사용자에게 할당된 경우 작업 또는 문제 날짜가 해당 기간 내에 있는 경우 선택한 기간에 대해 새로 할당된 작업이 자동으로 동일한 사람에게 위임됩니다.
 * 여러 사용자가 동일한 사용자를 위임자로 선택할 수 있습니다.
-* 위임된 작업 및 문제는 다음과 같은 리소스 관리 도구에 표시되지 않습니다. [!UICONTROL 업무 균형자] 또는 [!UICONTROL 리소스 플래너] (위임된 사용자용)
-* 의 여러 영역에서 위임된 작업 및 위임자 이름을 볼 수 있습니다. [!DNL Workfront]. 자세한 내용은 문서의 &quot;위임된 작업 및 위임 정보 찾기&quot; 섹션을 참조하십시오 [작업 및 문제 위임 관리](../delegate-work/how-to-delegate-work.md).
+* 위임된 작업 및 문제는 위임된 사용자의 [!UICONTROL 업무 균형자] 또는 [!UICONTROL 리소스 플래너]와 같은 리소스 관리 도구에 표시되지 않습니다.
+* [!DNL Workfront]의 여러 영역에서 위임된 작업 및 대리인 이름을 볼 수 있습니다. 자세한 내용은 문서 [작업 및 문제 위임 관리](../delegate-work/how-to-delegate-work.md)에서 &quot;위임된 작업 및 위임 정보 찾기&quot; 섹션을 참조하십시오.
 
 
   >[!IMPORTANT]
@@ -69,7 +69,7 @@ ht-degree: 1%
   >  사용자에게 액세스 수준의 작업에 대한 보기 액세스만 있고 사용자에게 위임한 작업에 대한 관리 권한이 있는 경우 사용자에게 위임한 작업에 대한 관리 권한이 제공됩니다. 그러나 위임된 작업에 대해 사용자와 동일한 작업을 수행할 수 없습니다. 부재 중 작업을 업데이트할 수 있도록 시스템 관리자에게 작업에 대한 편집 액세스 권한을 요청해야 합니다.
 
 * 위임을 중지해도 위임된 작업 및 문제에 대해 위임된 사용자에게 부여된 권한이 제거되지 않습니다.
-* 시스템이 또는 를 비활성화하는 경우 [!UICONTROL 사용자가 작업 및 문제를 위임하도록 허용] 에서 설정 [!UICONTROL 설정] 영역에서 현재 위임된 사용자는 이전에 위임된 작업 및 문제에서 제거됩니다. 작업 또는 문제에 대한 권한은 제거되지 않습니다.
+* 시스템에서 또는 [!UICONTROL 설정] 영역에서 [!UICONTROL 사용자가 자신의 작업 및 문제를 위임하도록 허용] 설정을 사용하지 않도록 설정하는 경우 현재 위임된 사용자는 이전에 위임된 작업 및 문제에서 제거됩니다. 작업 또는 문제에 대한 권한은 제거되지 않습니다.
 
 ## 할당과 위임의 차이점 및 유사점
 

@@ -58,11 +58,11 @@ Adobe Workfront 관리자는 모든 작업 또는 문제가 기한이 지났거�
 
 ## 자동 알림 설정
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 상단에서 을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png).
+1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
 
-1. 클릭 **이메일** >**자동 미리 알림**.
+1. **전자 메일** >**자동 미리 알림**&#x200B;을 클릭합니다.
 
-1. 다음에서 **늦은 알림 보내기 대상** 영역에서 다음 옵션 중 하나를 선택합니다.
+1. **지연 알림 보내기** 영역에서 다음 옵션 중 하나를 선택하십시오.
 
    <table>
     <tr>
@@ -82,7 +82,7 @@ Adobe Workfront 관리자는 모든 작업 또는 문제가 기한이 지났거�
     </tr>
     <tr>
         <td>"할당 대상" 사용자</td>
-        <td>(다음 위치: <b>마감 알림 보내기 대상</b> area.) 작업 또는 문제에 할당된 사용자가 기한이 임박한 작업 항목에 대한 알림을 받으려면 이 옵션을 선택합니다.</td>
+        <td>(<b>기한 알림 보내기</b> 영역에서) 작업 또는 문제에 할당된 사용자가 기한이 임박한 작업 항목에 대한 알림을 받으려면 이 옵션을 선택합니다.</td>
         <td></td>
     </tr>
 </table>
@@ -91,7 +91,7 @@ Adobe Workfront 관리자는 모든 작업 또는 문제가 기한이 지났거�
 
    시간은 작업 또는 문제의 계획된 완료 일자부터 계산됩니다.
 
-   작업 또는 문제의 계획된 완료 일자에 시간을 추가하려면 분, 시간, 일, 주 또는 개월 수를 지정합니다. 선택 **경과 시간(분)**, **경과 시간**, **경과 일수**, 또는 **경과 주 수** 일정에 표시된 대로 주말, 공휴일 및 휴무 시간을 포함하는 시간을 추가합니다.
+   작업 또는 문제의 계획된 완료 일자에 시간을 추가하려면 분, 시간, 일, 주 또는 개월 수를 지정합니다. **경과 시간**, **경과 시간**, **경과 일수** 또는 **경과 주**&#x200B;를 선택하여 일정에 지정된 주말, 휴일 및 휴무 시간을 포함하는 시간을 추가합니다.
 
    예를 들어 작업이 금요일에 할당되고 기간이 3일인 경우, 작업 완료 날짜가 월요일로 설정됩니다(토요일과 일요일이 주말이라고 가정). 작업의 기간이 3일(경과되지 않음)인 경우 작업 완료 날짜가 수요일로 설정됩니다.
 
@@ -105,10 +105,10 @@ Adobe Workfront 관리자는 모든 작업 또는 문제가 기한이 지났거�
 
 기한이 지났더라도 특정 종속성 유형이 있는 작업은 지정된 시작 날짜 이후에 게재될 수 있습니다. 예를 들어 작업에 fs(완료-시작) 종속성이 있는 전임 작업이 있는 경우 전임 작업이 완료될 때까지 작업을 시작할 수 없으므로 지정된 시작 날짜가 지나도 작업이 이메일에 포함되지 않습니다.
 
-자동 미리 알림 전자 메일 수신에 대한 자세한 내용은 [자동 미리 알림](../../../workfront-basics/using-notifications/wf-notifications.md#automatic-reminders) 의 섹션 [Adobe Workfront 알림](../../../workfront-basics/using-notifications/wf-notifications.md).
+자동 미리 알림 전자 메일 수신에 대한 자세한 내용은 [Adobe Workfront 알림](../../../workfront-basics/using-notifications/wf-notifications.md)의 [자동 미리 알림](../../../workfront-basics/using-notifications/wf-notifications.md#automatic-reminders) 섹션을 참조하십시오.
 
 ## 자동 미리 알림 보내기
 
 Workfront 관리자가 선택한 시간이 충족되는 즉시 자동 미리 알림이 전송됩니다.
 
-자동 미리 알림 이메일 전송을 수동으로 트리거하려면 진단을 사용하여 트리거할 수 있습니다. Workfront에서 진단 기능에 액세스하고 사용하는 방법에 대한 자세한 내용은 [진단을 사용하여 자동화된 프로세스 트리거](../../../administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md).
+자동 미리 알림 이메일 전송을 수동으로 트리거하려면 진단을 사용하여 트리거할 수 있습니다. Workfront의 진단에 액세스하고 사용하는 방법에 대한 자세한 내용은 [진단을 사용하여 자동화된 프로세스를 트리거합니다](../../../administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md)를 참조하십시오.

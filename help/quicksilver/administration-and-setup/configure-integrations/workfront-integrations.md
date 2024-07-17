@@ -21,17 +21,17 @@ ht-degree: 4%
 이 섹션에는 다음 문서가 포함됩니다.
 
 * [[!DNL Adobe Workfront] 통합](../../administration-and-setup/configure-integrations/workfront-integrations-1.md)
-* [구성 [!DNL Workfront] 및 [!DNL Frame.io] 통합](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md)
-* [구성 [!DNL Experience Manager Assets as a Cloud Service] 통합](../../administration-and-setup/configure-integrations/configure-aacs-integration.md)
-* [구성 [!DNL Experience Manager Assets Essentials] 통합](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
+* [ [!DNL Workfront] 및 [!DNL Frame.io] 통합 구성](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md)
+* [ [!DNL Experience Manager Assets as a Cloud Service] 통합 구성](../../administration-and-setup/configure-integrations/configure-aacs-integration.md)
+* [ [!DNL Experience Manager Assets Essentials] 통합 구성](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
 * [[!DNL Workfront] 및 [!DNL Experience Manager Assets] 통합](../../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
-* [구성 [!DNL Workfront] 포함 [!DNL Adobe Experience Manager] 레거시 커넥터](../../administration-and-setup/configure-integrations/configure-workfront-aem.md)
-* [사용 [!UICONTROL Outlook용 Adobe Workfront]](../../administration-and-setup/configure-integrations/enable-workfront-for-outlook.md)
+* [기존 커넥터로 구성 [!DNL Workfront] 사용 [!DNL Adobe Experience Manager] 구성](../../administration-and-setup/configure-integrations/configure-workfront-aem.md)
+* [Outlook용 [!UICONTROL Adobe Workfront 사용]](../../administration-and-setup/configure-integrations/enable-workfront-for-outlook.md)
 * [문서 통합 구성](../../administration-and-setup/configure-integrations/configure-document-integrations.md)
-* [문서 통합 비활성화](../../administration-and-setup/configure-integrations/disable-document-integrations.md)
-* [구성 [!DNL SharePoint] 통합](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md)
+* [문서 통합 사용 안 함](../../administration-and-setup/configure-integrations/disable-document-integrations.md)
+* [통합 구성 [!DNL SharePoint] 2}](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md)
 * [메타데이터 매핑 설정](../../administration-and-setup/configure-integrations/set-up-metadata-mapping.md)
-* [[!UICONTROL 만들기 [!DNL Adobe Workfront] 대상 [!DNL Creative Cloud]] 에서 사용자를 위한 패키지 [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
+* [ [!DNL Adobe Admin Console]에서 사용자를 위한 [!UICONTROL [!DNL Adobe Workfront] for [!DNL Creative Cloud]] 패키지 만들기](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../administration-and-setup/configure-integrations/create-oauth-application.md" class="MCXref xref" xrefformat="{para}">Create OAuth2 applications for Workfront integrations</a> </li>
@@ -41,4 +41,4 @@ ht-degree: 4%
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../administration-and-setup/configure-integrations/manage-custom-oauth2-apps.md" class="MCXref xref" xrefformat="{para}">View and manage custom OAuth2 applications</a> </li>
   -->
 
-* [구성 [!DNL JumpSeat] 통합](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)
+* [ [!DNL JumpSeat] 통합 구성](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)

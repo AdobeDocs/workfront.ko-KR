@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 22.3 프로젝트 개선 사항
 
-이 페이지에서는 미리보기 환경에 대한 22.3 릴리스의 모든 프로젝트 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2022년 7월 11일이 있는 주에 프로덕션 환경에서 사용할 수 있습니다. 22.3 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [22.3 릴리스 개요](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+이 페이지에서는 미리보기 환경에 대한 22.3 릴리스의 모든 프로젝트 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2022년 7월 11일이 있는 주에 프로덕션 환경에서 사용할 수 있습니다. 22.3 릴리스에서 사용할 수 있는 모든 변경 사항 목록을 보려면 [22.3 릴리스 개요](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)를 참조하십시오.
 
 ## 부재 중 작업 위임
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 >검토 또는 그 이상의 라이선스가 있는 사용자만 자신의 작업을 다른 사람에게 위임할 수 있습니다. 작업은 액세스 수준에 관계없이 모든 사용자에게 위임할 수 있습니다. 위임된 사용자는 위임된 항목에 대한 할당자와 동일한 권한을 받습니다. 이러한 권한이 사용자의 액세스 수준 구성보다 낮은 경우 위임된 사용자가 위임된 작업 및 문제에 대한 일부 활동을 수행할 수 없습니다.
 
 
-자세한 내용은 [작업 및 문제 개요 위임](/help/quicksilver/manage-work/delegate-work/delegate-work-overview.md).
+자세한 내용은 [작업 및 문제 위임 개요](/help/quicksilver/manage-work/delegate-work/delegate-work-overview.md)를 참조하십시오.
 
 ## 문제를 작업으로 전환할 때의 새로운 경험
 
@@ -54,7 +54,7 @@ Workfront을 새로운 Workfront 환경과 일관되게 사용하기 위해 문�
 * 대상 프로젝트의 작업 설정 영역에 정의된 기본 사용자 정의 양식이 새 작업에 추가되었습니다.
 
 
-자세한 내용은 [Adobe Workfront에서 문제를 작업으로 전환](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-task.md).
+자세한 내용은 [문제를 Adobe Workfront의 작업으로 변환](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-task.md)을 참조하십시오.
 
 ## 템플릿 없이 문제를 프로젝트로 전환할 때의 새로운 경험
 
@@ -62,19 +62,19 @@ Workfront을 새 Workfront 환경과 일관되게 사용하기 위해 템플릿�
 
 새 Workfront 경험의 나머지 부분과 일치하는 업데이트된 사용자 인터페이스 외에, 문제를 목록 또는 보고서에서 빈 프로젝트로 변환하는 기능도 추가했습니다.
 
-자세한 내용은 [Adobe Workfront에서 문제를 프로젝트로 전환](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-project.md).
+자세한 내용은 [문제를 Adobe Workfront의 프로젝트로 변환](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-project.md)을 참조하십시오.
 
 ## 업데이트 스트림의 스마트 태깅
 
 새 업데이트를 만들거나 기존 업데이트에 회신할 때 업데이트 스트림에서 사용자 태깅을 개선했습니다. 이제, 이름과 아바타 외에도 업데이트에 포함할 사용자를 태그 지정할 때 기본 역할과 이메일도 표시됩니다. 이러한 수정은 유사하거나 동일한 이름을 가진 여러 사용자를 구별하는 데 도움이 됩니다.
 
-자세한 내용은 [업데이트에 다른 사용자 태그 지정](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+자세한 내용은 [업데이트에 다른 사용자 태그 지정](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)을 참조하세요.
 
 ## 사용자 정의 필드의 계산을 위한 새로운 구문
 
 사용자 정의 양식에 계산을 추가하는 데 도움이 되는 향후 개선 사항에 대비하기 위해 계산에 추가하는 참조된 필드에 대한 구문을 표준화했습니다. 필드 이름을 입력한 다음 선택하면 시스템에서 이 구문을 입력하므로 이 새 구문을 쉽게 사용할 수 있습니다.
 
-자세한 내용은 의 &quot;계산된 사용자 정의 필드에 대한 계산 빌드&quot; 섹션을 참조하십시오. [문서 사용자 정의 양식에 계산된 데이터 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+자세한 내용은 [문서 사용자 정의 양식에 계산된 데이터 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)의 &quot;계산된 사용자 정의 필드에 대한 계산 작성&quot; 섹션을 참조하십시오.
 
 ## 공통 역할을 가진 두 명의 사용자가 승인 프로세스에 참여할 때 정확한 정보를 유지합니다.
 
@@ -84,7 +84,7 @@ Workfront을 새 Workfront 환경과 일관되게 사용하기 위해 템플릿�
 
 이 변경 이전에는 두 사용자가 첫 번째 승인자와 승인 역할 중 하나를 공유했으므로 두 번째 사용자에 대해 두 승인이 모두 기록되었습니다. 이 경우 두 번째 승인자가 첫 번째 승인자의 정보를 덮어쓰고 있었습니다.
 
-Workfront의 승인 프로세스에 대한 자세한 내용은 [승인 프로세스 개요](/help/quicksilver/review-and-approve-work/manage-approvals/approval-process-in-workfront.md).
+Workfront의 승인 프로세스에 대한 자세한 내용은 [승인 프로세스 개요](/help/quicksilver/review-and-approve-work/manage-approvals/approval-process-in-workfront.md)를 참조하십시오.
 
 ## 할당을 변경할 때 할당 시간이 더 이상 제거되지 않음
 
@@ -104,7 +104,7 @@ Workfront의 승인 프로세스에 대한 자세한 내용은 [승인 프로세
 * 개별 할당 할당은 사용자를 제거할 때 역할에 유지됩니다. (릴리스에서 제거됨. 이제 모든 할당자를 제거한 후 계획된 시간이 0으로 설정됩니다.)
 
 
-계획된 시간에 대한 자세한 내용은 다음을 참조하십시오. [계획된 시간 개요](/help/quicksilver/manage-work/tasks/task-information/planned-hours.md).
+계획된 시간에 대한 자세한 내용은 [계획된 시간 개요](/help/quicksilver/manage-work/tasks/task-information/planned-hours.md)를 참조하십시오.
 
 ## 보드 개선 사항
 
@@ -131,7 +131,7 @@ Adobe Workfront 보드에 다음과 같은 개선 사항이 추가되었습니�
 * 필드 업데이트 표시기 - 이제 카드를 저장할 때 업데이트가 저장되었는지 확인하는 표시기가 표시됩니다.
 
 
-자세한 내용은 [Adobe Workfront에서 보드 시작](/help/quicksilver/agile/get-started-with-boards/get-started-with-boards.md).
+자세한 내용은 [Adobe Workfront에서 보드 시작](/help/quicksilver/agile/get-started-with-boards/get-started-with-boards.md)을 참조하세요.
 
 ## 폴더 계층의 상위 5개 수준에서만 폴더 공유
 
@@ -139,13 +139,13 @@ Adobe Workfront 보드에 다음과 같은 개선 사항이 추가되었습니�
 
 여섯 번째 수준 또는 그 이하의 각 폴더는 바로 위의 폴더에서 공유 구성을 상속합니다.
 
-폴더 공유에 대한 자세한 내용은 [최상위 문서 폴더 공유](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
+폴더 공유에 대한 자세한 내용은 [최상위 문서 폴더 공유](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md)를 참조하십시오.
 
-## Workfront 캠페인(베타) - 작업을 관리하는 새로운 방법
+## Workfront 캠페인(Beta) - 작업을 관리하는 새로운 방법
 
 >[!NOTE]
 >
->이 기능은 2023년 1월 9일 미리보기에서 제거될 예정입니다. 자세한 내용은 [23.1 릴리스 개요 페이지](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+>이 기능은 2023년 1월 9일 미리보기에서 제거될 예정입니다. 자세한 내용은 [23.1 릴리스 개요 페이지](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md)를 참조하십시오.
 
 >[!NOTE]
 >
@@ -164,7 +164,7 @@ Workfront Campaign을 사용하면 새로운 작업 컨테이너에서 다양한
 
 * Campaign이라는 새 Workfront 개체
 
-* 메인 메뉴의 새 캠페인(베타) 영역
+* 메인 메뉴의 새 캠페인(Beta) 영역
 
 * 캠페인 영역의 캠페인 목록
 
@@ -176,7 +176,7 @@ Workfront Campaign을 사용하면 새로운 작업 컨테이너에서 다양한
 
 * 레이아웃 템플릿에서 Campaign 개체의 이름을 바꾸는 기능
 
-  Workfront 시스템 및 그룹 관리자는 레이아웃 템플릿의 기본 메뉴에서 캠페인(베타) 영역을 추가할 수 있습니다. 이렇게 하면 템플릿에 할당된 모든 사용자가 사용할 수 있습니다. 사용 가능한 상태가 되면 Workfront의 모든 사용자가 캠페인을 만들 수 있습니다.
+  Workfront 시스템 및 그룹 관리자는 레이아웃 템플릿의 기본 메뉴에서 캠페인(Beta) 영역을 추가할 수 있습니다. 이렇게 하면 템플릿에 할당된 모든 사용자가 사용할 수 있습니다. 사용 가능한 상태가 되면 Workfront의 모든 사용자가 캠페인을 만들 수 있습니다.
 
 
 

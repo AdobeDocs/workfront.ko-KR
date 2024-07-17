@@ -11,7 +11,7 @@ exl-id: 8a3bf0c4-4a20-4311-8c05-15f4ef3a1d42
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '154'
-ht-degree: 5%
+ht-degree: 3%
 
 ---
 
@@ -62,7 +62,7 @@ GET /search
 
 **예:**
 
-예:  `https://www.acme.com/api/search?query=test-query`
+예: `https://www.acme.com/api/search?query=test-query`
 
 ```
 [ 

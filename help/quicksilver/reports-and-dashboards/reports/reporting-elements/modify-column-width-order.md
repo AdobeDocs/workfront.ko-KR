@@ -18,21 +18,21 @@ ht-degree: 0%
 다음은 Adobe Workfront에서 열 너비가 작동하는 방식에 대한 지침입니다.
 
 * Workfront은 기본적으로 목록 및 보고서의 열 너비를 정의합니다.
-* Workfront은 열에 따라 열 너비를 자동으로 조정합니다. `valueformat`열의 텍스트 모드에서 별도로 지정하지 않는 한 모든 목록 및 보고서의 정보입니다.
+* 열의 텍스트 모드에서 별도로 지정하지 않는 한 Workfront은 모든 목록 및 보고서의 `valueformat` 정보에 따라 열의 너비를 자동으로 조정합니다.
 
   >[!NOTE]
   >
-  >Workfront은 열에 따라 열 너비를 조정하지 않습니다. `valueformat` 설정 및 보고서 영역에서 사용할 수 있는 목록에 있는 정보입니다.
+  >Workfront에서는 설정 및 보고서 영역에서 사용할 수 있는 목록의 `valueformat` 정보에 따라 열의 너비를 조정하지 않습니다.
 
-  다음 `valueformat` 값은 열에 표시되는 정보의 종류를 정의합니다. 예를 들어, 숫자를 표시하는 열이 설명 필드를 표시하는 열보다 좁습니다.
+  `valueformat` 값은 열에 표시되는 정보의 종류를 정의합니다. 예를 들어, 숫자를 표시하는 열이 설명 필드를 표시하는 열보다 좁습니다.
 
 * 열에 표시할 정보 유형에 따라 Workfront 목록 및 보고서의 열 너비를 필요에 맞게 사용자 지정할 수 있습니다.
 
-  목록 또는 보고서를 볼 때 일시적으로 또는 뷰 빌더에서 열의 너비를 조정하여 영구적으로 열의 너비를 수정할 수 있습니다. 열의 너비를 임시로 수정하는 방법에 대한 자세한 내용은 [열의 너비 및 순서를 일시적으로 수정할 때 고려 사항](#considerations-when-temporarily-modifying-the-width-and-order-of-columns) 이 문서의 섹션.
+  목록 또는 보고서를 볼 때 일시적으로 또는 뷰 빌더에서 열의 너비를 조정하여 영구적으로 열의 너비를 수정할 수 있습니다. 임시 열 너비 수정에 대한 자세한 내용은 이 문서에서 [임시 열 너비 및 순서 수정 시 고려 사항](#considerations-when-temporarily-modifying-the-width-and-order-of-columns) 섹션을 참조하십시오.
 
 * 기본 제공 보기에 표시되는 열에는 이전에 Workfront으로 하드 코딩된 너비가 있습니다. 이러한 폭을 수정하려면 뷰 빌더에서 텍스트 모드를 사용하여 이러한 열의 폭을 수동으로 업데이트해야 합니다.
 
-  텍스트 모드에서 열을 수정하는 방법에 대한 내용은 [보기: 열의 너비를 영구적으로 편집](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-edit-column-width-permanently.md).
+  텍스트 모드에서 열을 수정하는 방법에 대한 자세한 내용은 [보기: 열 너비를 영구적으로 편집](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-edit-column-width-permanently.md)을 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -52,11 +52,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>액세스 수준 구성*</strong></td> 
-   <td> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> <p>보고서, 대시보드, 캘린더에 대한 액세스 권한을 편집하여 보고서에서 보기 편집</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> <p>보고서, 대시보드, 캘린더에 대한 액세스 권한을 편집하여 보고서에서 보기 편집</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>개체 권한</strong></td> 
-   <td> <p>보고서에서 보기를 편집하려면 보고서에 대한 권한 관리</p> <p>보기에 대한 편집 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>보고서에서 보기를 편집하려면 보고서에 대한 권한 관리</p> <p>보기에 대한 편집 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -67,16 +67,16 @@ ht-degree: 0%
 
 다음과 같은 방법으로 보고서에 있는 열의 너비와 순서를 수정할 수 있습니다.
 
-* [임시로 열 너비 및 순서 수정](#modify-width-and-order-of-columns-temporarily)
+* [일시적으로 열 너비와 순서 수정](#modify-width-and-order-of-columns-temporarily)
 * [열 너비와 순서를 영구적으로 수정](#modify-width-and-order-of-columns-permanently)
 
 ### 임시로 열 너비 및 순서 수정 {#modify-width-and-order-of-columns-temporarily}
 
 열 테두리를 드래그하여 열의 크기를 조정하고, 열을 드래그 앤 드롭하여 Workfront 사이트 전체 대부분의 목록에서 열의 순서를 일시적으로 변경할 수 있습니다. 여기에는 보고서, 보기, 대시보드의 보고서 및 간트 보기가 포함됩니다.
 
-Workfront 목록에 대한 자세한 내용은 문서를 참조하십시오 [Adobe Workfront에서 목록 시작](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+Workfront 목록에 대한 자세한 내용은 문서 [Adobe Workfront 목록 시작](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)을 참조하십시오.
 
-* [열의 너비 및 순서를 일시적으로 수정할 때 고려 사항](#considerations-when-temporarily-modifying-the-width-and-order-of-columns)
+* [열의 너비와 순서를 일시적으로 수정할 때 고려 사항](#considerations-when-temporarily-modifying-the-width-and-order-of-columns)
 * [일시적으로 열 크기 조정](#resize-columns-temporarily)
 * [일시적으로 열 순서 바꾸기](#reorder-columns-temporarily)
 
@@ -90,7 +90,7 @@ Workfront 목록에 대한 자세한 내용은 문서를 참조하십시오 [Ado
 
 >[!NOTE]
 > 
->열 너비는 브라우저 창의 크기로 제한됩니다. 페이지를 새로 고치면 모든 열이 수평 스크롤하지 않고 창에 들어갈 수 있을 때까지 열의 너비가 줄어듭니다. 열을 브라우저에 맞는 너비보다 넓게 유지하려면 의 설명에 따라 텍스트 모드에서 열의 너비를 설정해야 합니다 [열 너비와 순서를 영구적으로 수정](#modify-width-and-order-of-columns-permanently) 테두리를 끌어 열 너비를 수동으로 조정하지 마십시오.
+>열 너비는 브라우저 창의 크기로 제한됩니다. 페이지를 새로 고치면 모든 열이 수평 스크롤하지 않고 창에 들어갈 수 있을 때까지 열의 너비가 줄어듭니다. 열을 브라우저에 맞는 너비보다 넓게 유지하려면 [열 너비와 순서 영구적으로 수정](#modify-width-and-order-of-columns-permanently)에 설명된 대로 텍스트 모드에서 열 너비를 설정하고 테두리를 드래그하여 열 너비를 수동으로 조정하지 않아야 합니다.
 >
 
 * 열을 재정렬할 때 선택한 순서는 목록에서 나가거나 브라우저 페이지를 새로 고칠 때까지만 유지됩니다. 목록에서 다른 위치로 이동하거나 브라우저 페이지를 새로 고치면 열이 기본 순서로 돌아갑니다.
@@ -108,7 +108,7 @@ Workfront 목록에 대한 자세한 내용은 문서를 참조하십시오 [Ado
 
 * 목록을 파일로 내보내면 열의 임시 순서가 내보낸 파일로 전송되지 않습니다. 내보낸 파일은 원래 목록에 있는 열의 순서를 재정렬하기 전에 표시합니다.
 
-목록 및 보고서에서 데이터를 내보내는 방법에 대한 자세한 내용은 문서를 참조하십시오 [데이터 내보내기](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+목록 및 보고서에서 데이터를 내보내는 방법에 대한 자세한 내용은 문서 [데이터 내보내기](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md)를 참조하십시오.
 
 #### 일시적으로 열 크기 조정 {#resize-columns-temporarily}
 
@@ -131,8 +131,8 @@ Workfront 목록에 대한 자세한 내용은 문서를 참조하십시오 [Ado
 
 ### 열 너비와 순서를 영구적으로 수정 {#modify-width-and-order-of-columns-permanently}
 
-열의 순서를 영구적으로 바꾸려면 섹션을 참조하십시오 [표준 보기 만들기 또는 사용자 지정](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-a-standard-view) 이 문서에서 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+열의 순서를 영구적으로 조정하려면 문서 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)에서 [표준 보기 만들기 또는 사용자 지정](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-a-standard-view) 섹션을 참조하십시오.
 
 텍스트 모드를 사용해야만 열의 너비를 영구적으로 수정할 수 있습니다.
 
-텍스트 모드 사용 및 열 너비 영구적으로 수정에 대한 자세한 내용은 이 문서 를 참조하십시오 [텍스트 모드의 일반적인 사용 개요](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+텍스트 모드를 사용하고 열의 너비를 영구적으로 수정하는 방법에 대한 자세한 내용은 문서 [텍스트 모드의 일반적인 사용 개요](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)를 참조하십시오.

@@ -34,7 +34,7 @@ ht-degree: 0%
    </td>
   </tr>
   <tr>
-   <td><strong>Adobe Workfront 라이센스*</strong>
+   <td><strong>Adobe Workfront 라이선스*</strong>
    </td>
    <td>요청 이상
    </td>
@@ -42,7 +42,7 @@ ht-degree: 0%
   <tr>
    <td><strong>제품</strong>
    </td>
-   <td><p>Experience Manager Assets as a Cloud Service 또는 Assets Essentials이 있어야 하며, Admin Console에서 사용자로 제품에 추가되어야 합니다.</p><p>Adobe Experience Manager의 저장소에 대한 쓰기 액세스 권한이 있어야 합니다.</p>
+   <td><p>Experience Manager Assets as a Cloud Service 또는 Assets Essentials이 있어야 하며 Admin Console에서 사용자로 제품에 추가되어야 합니다.</p><p>Adobe Experience Manager의 저장소에 대한 쓰기 액세스 권한이 있어야 합니다.</p>
    </td>
   </tr>
   <tr>
@@ -50,7 +50,7 @@ ht-degree: 0%
    </td>
    <td>문서에 대한 액세스 편집
 <p>
-<strong>참고: </strong>여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <strong>사용자 정의 액세스 수준 만들기 또는 수정</strong>.
+<strong>참고: </strong>아직 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정했는지 문의하세요. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <strong>사용자 지정 액세스 수준 만들기 또는 수정</strong>을 참조하십시오.
    </td>
   </tr>
   <tr>
@@ -58,7 +58,7 @@ ht-degree: 0%
    </td>
    <td>프로젝트에서 액세스 권한 이상 관리 
 <p>
-추가 액세스 요청에 대한 자세한 내용은 <strong>오브젝트에 대한 액세스 요청 </strong>.
+추가 액세스 요청에 대한 자세한 내용은 <strong>개체 </strong>에 대한 액세스 요청 을 참조하십시오.
    </td>
   </tr>
 </table>
@@ -67,23 +67,23 @@ ht-degree: 0%
 
 시작하기 전에,
 
-* Workfront 관리자는 Adobe Experience Manager 통합에서 워크플로우를 구성해야 합니다. 자세한 내용은 [Experience Manager Assets as a Cloud Service 통합 구성](../../administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-workflows-optional).
+* Workfront 관리자는 Adobe Experience Manager 통합에서 워크플로우를 구성해야 합니다. 자세한 내용은 [Experience Manager Assets as a Cloud Service 통합 구성](../../administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-workflows-optional)을 참조하십시오.
 
 ## 템플릿에 워크플로 추가
 
 프로젝트 템플릿에 워크플로우를 추가할 수 있습니다. 워크플로우는 템플릿에서 만든 모든 프로젝트에 적용됩니다.
 
-1. 을 클릭하여 템플릿을 엽니다. **템플릿** 메인 메뉴에서 템플릿을 선택합니다.
-1. 클릭 **Experience Manager Assets** 을 클릭합니다.
+1. 메인 메뉴에서 **템플릿**&#x200B;을 클릭한 다음 목록에서 템플릿을 선택하여 템플릿을 엽니다.
+1. 왼쪽 탐색 패널에서 **Experience Manager Assets**&#x200B;을(를) 클릭합니다.
 
    >[!NOTE]
    >
    >Experience Manager Assets 섹션이 왼쪽 탐색에 표시되지 않으면 Workfront 관리자가 조직에 대한 워크플로우를 활성화하지 않은 것입니다. <!--Is this right?-->
 
-1. 다음에서 **자동화된 워크플로에 대한 통합 선택 필드**&#x200B;을(를) 통해 이 템플릿에서 만든 프로젝트에 사용할 워크플로우와의 통합을 선택합니다.
+1. **자동화된 워크플로에 대한 통합 선택 필드**&#x200B;에서 이 템플릿으로 만든 프로젝트에 사용할 워크플로와의 통합을 선택합니다.
 1. (선택 사항) 이 템플릿에서 만든 프로젝트에 적용할 모든 워크플로 값을 편집합니다.
 
-   특정 워크플로우에 대한 지침은 [프로젝트에서 워크플로 값 편집](#edit-workflow-values-in-a-project) 이 문서에서.
+   특정 워크플로에 대한 지침은 이 문서의 [프로젝트의 워크플로 값 편집](#edit-workflow-values-in-a-project)을 참조하십시오.
 
    설정의 Experience Manager 영역에서 활성화된 워크플로우만 템플릿 또는 프로젝트에서 사용할 수 있습니다.
 
@@ -97,10 +97,10 @@ ht-degree: 0%
 
 1. 프로젝트 만들기를 시작합니다.
 
-   자세한 내용은 [템플릿을 사용하여 프로젝트 만들기](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md).
+   지침은 [템플릿을 사용하여 프로젝트 만들기](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md)를 참조하십시오.
 
 1. 프로젝트의 템플릿을 선택할 때 이 프로젝트에 사용할 워크플로가 포함된 템플릿을 선택합니다.
-1. (선택 사항)에 설명된 대로 프로젝트에 대한 워크플로 값을 편집합니다 [프로젝트에서 워크플로 값 편집](#edit-workflow-values-in-a-project).
+1. (선택 사항) [프로젝트의 워크플로 값 편집](#edit-workflow-values-in-a-project)에 설명된 대로 프로젝트의 워크플로 값을 편집합니다.
 
    설정의 Experience Manager 영역에서 활성화된 워크플로우만 템플릿 또는 프로젝트에서 사용할 수 있습니다.
 
@@ -113,10 +113,10 @@ ht-degree: 0%
 
 1. 프로젝트에 템플릿 추가를 시작합니다.
 
-   자세한 내용은 [프로젝트에 템플릿 첨부](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
+   자세한 내용은 [프로젝트에 템플릿 첨부](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-template-to-project.md)를 참조하십시오.
 
 1. 프로젝트의 템플릿을 선택할 때 이 프로젝트에 사용할 워크플로가 포함된 템플릿을 선택합니다.
-1. (선택 사항)에 설명된 대로 프로젝트에 대한 워크플로 값을 편집합니다 [프로젝트에서 워크플로 값 편집](#edit-workflow-values-in-a-project).
+1. (선택 사항) [프로젝트의 워크플로 값 편집](#edit-workflow-values-in-a-project)에 설명된 대로 프로젝트의 워크플로 값을 편집합니다.
 
    설정의 Experience Manager 영역에서 활성화된 워크플로우만 템플릿 또는 프로젝트에서 사용할 수 있습니다.
 
@@ -147,16 +147,16 @@ ht-degree: 0%
 링크된 폴더의 워크플로를 편집하려면:
 
 
-1. 전환 **[!UICONTROL 연결된 폴더 만들기]** 원하는 대로 켜거나 끕니다. 이 기능을 켜면 연결된 폴더 구성을 편집할 수 있습니다.
+1. 원하는 대로 **[!UICONTROL 연결된 폴더 만들기]**&#x200B;를 켜거나 끕니다. 이 기능을 켜면 연결된 폴더 구성을 편집할 수 있습니다.
 
-   연결된 폴더 구성에 대한 자세한 내용은 [Adobe Experience Manager 연결 폴더 만들기](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#create-adobe-experience-manager-linked-folders) 이 문서에서 [구성 [!UICONTROL Experience Manager Assets as a Cloud Service] 통합](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+   연결된 폴더 구성에 대한 자세한 내용은 문서 [Adobe Experience Manager 연결 폴더 구성[!UICONTROL Experience Manager Assets4} 통합 구성](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)에서 [as a Cloud Service 연결 폴더 만들기](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#create-adobe-experience-manager-linked-folders)를 참조하십시오.]
 
-1. (선택 사항) 프로젝트에 첨부된 사용자 정의 양식에 특정 값이 있는 경우에만 폴더 트리를 작성하려면 **필터 적용** 해당 폴더 트리에 대해 필드, 필드 및 필드 값을 포함하는 사용자 정의 양식을 선택합니다. 새 프로젝트에 첨부된 사용자 정의 양식의 필드에 선택한 값이 포함되어 있으면 폴더 트리가 만들어집니다.
+1. (선택 사항) 프로젝트에 첨부된 사용자 정의 양식에 특정 값이 있는 경우에만 폴더 트리를 작성하려면 해당 폴더 트리의 **필터 적용**&#x200B;을 클릭한 다음, 필드, 필드 값을 포함하는 사용자 정의 양식을 선택하십시오. 새 프로젝트에 첨부된 사용자 정의 양식의 필드에 선택한 값이 포함되어 있으면 폴더 트리가 만들어집니다.
 1. (선택 사항) 폴더 이름을 구성할 때 다음 옵션 중에서 선택할 수 있습니다.
 
-   * **이름**: 폴더 이름을 입력합니다.
+   * **이름**: 폴더 이름을 입력하십시오.
 
-   * **개체 데이터**: 폴더 이름의 소스(예: 프로젝트 이름)를 선택합니다.
+   * **개체 데이터**: 폴더 이름에 대한 원본(예: 프로젝트 이름)을 선택하십시오.
 
    * **사용자 정의 양식 데이터**: 폴더 이름으로 사용할 사용자 정의 양식 데이터를 선택합니다.
 
@@ -164,13 +164,13 @@ ht-degree: 0%
 
      폴더 이름이 프로젝트에 첨부된 의 사용자 정의에 존재하지 않는 사용자 정의 데이터로 설정된 경우, 임의의 ID가 폴더 이름으로 할당됩니다.
 
-1. 폴더 트리를 보려면 **미리 보기** ![미리 보기 아이콘](assets/preview-icon.png) 아이콘
+1. 폴더 트리를 보려면 **미리 보기** ![미리 보기 아이콘](assets/preview-icon.png) 아이콘을 클릭하세요.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 #### 자산 게시
 
 자산 게시를 위한 워크플로우를 편집하려면:
 
-1. 전환 **에셋 자동 게시** 원하는 대로 켜거나 끕니다.
+1. 원하는 대로 **Publish 자산을 자동으로** 켜거나 끕니다.
 1. (조건부) 게시를 활성화하는 경우 게시 서비스에 게시할지, Brand Portal에 게시할지 또는 둘 다에 게시할지 선택합니다.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.

@@ -25,7 +25,7 @@ Workfront을 기존의 기업 SSO(Single Sign-On) 솔루션과 통합할 수 있
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [Adobe Workfront의 Single Sign-On 개요](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
+* [Adobe Workfront의 SSO(Single Sign-On) 개요](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
 * [SSO(Single Sign-On)를 위해 사용자 업데이트](../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md)
 * [SAML 2.0으로 Adobe Workfront 구성](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
 * [ID 공급자에서 SAML 2.0 메타데이터 업데이트](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)

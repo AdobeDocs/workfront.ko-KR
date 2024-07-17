@@ -25,7 +25,7 @@ ht-degree: 0%
 </div>
 -->
 
-프로젝트의 계획된 시작 및 계획된 완료 일자는 프로젝트에 대한 작업 일자에 따라 달라집니다. 이 문서에서는 프로젝트의 계획된 시작 일자에 대해 설명합니다. 작업 계획 시작 일자에 대한 자세한 내용은 [작업 계획 시작 일자 개요](../../../manage-work/tasks/task-information/task-planned-start-date.md).
+프로젝트의 계획된 시작 및 계획된 완료 일자는 프로젝트에 대한 작업 일자에 따라 달라집니다. 이 문서에서는 프로젝트의 계획된 시작 일자에 대해 설명합니다. 작업 계획 시작 날짜에 대한 자세한 내용은 [작업 계획 시작 날짜의 개요](../../../manage-work/tasks/task-information/task-planned-start-date.md)를 참조하십시오.
 
 프로젝트의 계획된 시작 일자는 프로젝트를 시작 일자부터 예약하는지, 완료 일자부터 예약하는지에 따라 수동 또는 자동으로 설정할 수 있습니다.
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 >
 >프로젝트의 계획된 시작 일자를 수동으로 설정하면 Workfront은 모든 작업의 기간을 기반으로 프로젝트의 계획된 완료 일자를 자동으로 계산합니다.
 
-프로젝트의 계획된 시작 일자 설정에 대한 자세한 내용은 [프로젝트 편집](../../../manage-work/projects/manage-projects/edit-projects.md).
+프로젝트의 계획된 시작 일자 설정에 대한 자세한 내용은 [프로젝트 편집](../../../manage-work/projects/manage-projects/edit-projects.md)을 참조하십시오.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted below, to keep this as an overview article)</p>
@@ -62,21 +62,21 @@ ht-degree: 0%
 
   계획된 시작 일자는 사용자가 완료 일자에 대해 선택한 일자와 프로젝트에 대한 모든 작업의 기간을 기반으로 Adobe Workfront에서 자동으로 계산됩니다.
 
-  처음부터 프로젝트를 만드는 방법에 대한 자세한 내용은 [프로젝트 만들기](../../../manage-work/projects/create-projects/create-project.md).
+  처음부터 프로젝트를 만드는 방법에 대한 자세한 내용은 [프로젝트 만들기](../../../manage-work/projects/create-projects/create-project.md)를 참조하십시오.
 
 * Microsoft 프로젝트에서 가져옵니다.
 
   계획된 시작 일자는 Microsoft 프로젝트에 있는 프로젝트의 시작 일자입니다.
 
-  Microsoft 프로젝트에서 프로젝트를 가져오는 방법에 대한 자세한 내용은 [Microsoft 프로젝트에서 프로젝트 가져오기](../../../manage-work/projects/create-projects/import-project-from-ms-project.md).
+  Microsoft 프로젝트에서 프로젝트를 가져오는 방법에 대한 자세한 내용은 [Microsoft 프로젝트에서 프로젝트 가져오기](../../../manage-work/projects/create-projects/import-project-from-ms-project.md)를 참조하십시오.
 
 * Workfront 관리자인 경우 Workfront 킥스타트를 사용하여 가져옵니다.
 
   계획된 시작 일자는 킥스타트 파일의 프로젝트 시트의 setPlannedStartDate 필드에 별도로 지정하지 않는 한 항상 컴퓨터의 시간과 날짜와 일치합니다.
 
-  킥스타트를 사용하여 데이터를 가져오는 방법에 대한 자세한 내용은 [킥스타트 템플릿을 사용하여 Adobe Workfront으로 데이터 가져오기](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  킥스타트를 사용하여 데이터를 가져오는 방법에 대한 자세한 내용은 [킥스타트 템플릿을 사용하여 Adobe Workfront으로 데이터 가져오기](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)를 참조하십시오.
 
-  킥스타트를 사용하여 프로젝트를 가져오는 방법에 대한 자세한 내용은 [킥스타트 시나리오: 간단한 프로젝트 및 작업 가져오기 준비](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
+  킥스타트를 사용하여 프로젝트를 가져오는 방법에 대한 자세한 내용은 [킥스타트 시나리오: 간단한 프로젝트 및 작업 가져오기 준비](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md)를 참조하십시오.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -97,7 +97,7 @@ ht-degree: 0%
 
 작업의 계획된 시작 일자를 지정하거나 특정 기준에 따라 작업을 Workfront에 맡겨 계산할 수 있습니다.
 
-작업의 계획된 시작 일자에 대한 자세한 내용은 다음을 참조하십시오. [작업 계획 시작 일자 개요](../../../manage-work/tasks/task-information/task-planned-start-date.md).
+작업의 계획된 시작 날짜에 대한 자세한 내용은 [작업 계획된 시작 날짜의 개요](../../../manage-work/tasks/task-information/task-planned-start-date.md)를 참조하십시오.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

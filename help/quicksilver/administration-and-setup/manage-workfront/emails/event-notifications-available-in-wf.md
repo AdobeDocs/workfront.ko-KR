@@ -19,14 +19,14 @@ ht-degree: 7%
 
 <!-- Audited: 1/2024 -->
 
-이벤트 알림은에 설명된 대로 프로젝트, 작업 및 문제와 같은 객체에 대한 다양한 유형의 이벤트에 의해 트리거되는 이메일입니다 [이벤트 알림](../../../workfront-basics/using-notifications/event-notifications.md).
+이벤트 알림은 [이벤트 알림](../../../workfront-basics/using-notifications/event-notifications.md)에 설명된 대로 프로젝트, 작업 및 문제와 같은 개체에 대해 다양한 유형의 이벤트에 의해 트리거되는 전자 메일입니다.
 
 이러한 알림은 시스템 및 그룹 수준에서 구성할 수 있습니다.
 
-* 시스템 수준에서 이벤트 알림을 구성하는 방법에 대한 자세한 내용은 [시스템의 모든 사용자를 위한 이벤트 알림 구성](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
-* 그룹 수준에서 이벤트 알림을 구성하는 방법에 대한 자세한 내용은 [그룹에 대한 이벤트 알림 보기 및 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
+* 시스템 수준에서 이벤트 알림을 구성하는 방법에 대한 자세한 내용은 [시스템의 모든 사용자를 위한 이벤트 알림 구성](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)을 참조하십시오.
+* 그룹 수준에서 이벤트 알림을 구성하는 방법에 대한 자세한 내용은 [그룹에 대한 이벤트 알림 보기 및 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)을 참조하십시오.
 
-개별 사용자는 개별 프로필에서 개별 이벤트 알림을 활성화하고 비활성화할 수도 있습니다. 자세한 내용은 [이메일 알림 수정](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+개별 사용자는 개별 프로필에서 개별 이벤트 알림을 활성화하고 비활성화할 수도 있습니다. 자세한 내용은 [전자 메일 알림 수정](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)을 참조하세요.
 
 다음 표에는 모든 Adobe Workfront 이벤트 알림, 이벤트에 대한 간략한 설명 및 이벤트가 기본적으로 활성 상태인지 비활성 상태인지에 대한 목록이 있습니다.
 
@@ -36,7 +36,7 @@ ht-degree: 7%
 
 ## 조치 필요
 
-참조: [알림: 조치 필요](../../../workfront-basics/using-notifications/notifications-action-needed.md).
+[알림: 필요한 조치](../../../workfront-basics/using-notifications/notifications-action-needed.md)도 참조하세요.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -86,7 +86,7 @@ ht-degree: 7%
    <td> <p>문제</p> </td> 
    <td> <p>승인 보류 중인 문제</p> </td> 
    <td> <p>승인자</p> </td> 
-   <td> <p>문제를 승인해야 합니다.</p> <p>이 이벤트에 대한 이메일 알림을 받을 사용자는에 설명된 대로 "프로젝트 팀에 속해 있지 않아도 되는 승인자(역할을 포함하는 승인 프로세스의 경우)" 설정이 활성화되었는지 여부에 따라 달라집니다 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">전역 승인 설정 구성</a>). </p> <p>이 옵션이 활성화된 경우</strong>, "승인자" 작업 역할이 있는 시스템의 모든 사용자에게 이메일 알림이 전송됩니다.</p> <p>이 옵션이 비활성화된 경우</strong>, "승인자" 작업 역할이 있는 프로젝트 팀원만 이메일 알림을 받습니다.</p> <p>프로젝트가 계획 중 또는 현재 상태인 경우 알림이 전송됩니다. </p> </td> 
+   <td> <p>문제를 승인해야 합니다.</p> <p>이 이벤트에 대한 전자 메일 알림을 받을 사용자는 "<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">전역 승인 설정 구성</a>에 설명된 대로 역할을 포함하는 승인 프로세스의 경우 승인자가 프로젝트 팀에 속해 있지 않아도 됩니다" 설정을 사용할지 여부에 따라 달라집니다. </p> <p>이 옵션을 사용하도록 설정하면 </strong> "승인자" 작업 역할이 있는 시스템의 모든 사용자에게 전자 메일 알림이 전송됩니다.</p> <p>이 옵션이 비활성화되어 있으면</strong> "승인자" 작업 역할이 있는 프로젝트 팀원만 이메일 알림을 받습니다.</p> <p>프로젝트가 계획 중 또는 현재 상태인 경우 알림이 전송됩니다. </p> </td> 
    <td> <p>비활성</p> </td> 
   </tr> 
   <tr> 
@@ -100,7 +100,7 @@ ht-degree: 7%
    <td> <p>프로젝트</p> </td> 
    <td> <p>승인 보류 중인 프로젝트</p> </td> 
    <td> <p>승인자</p> </td> 
-   <td> <p>프로젝트를 승인해야 합니다.</p> <p>이 이벤트에 대한 이메일 알림을 받을 사용자는에 설명된 대로 "프로젝트 팀에 속해 있지 않아도 되는 승인자(작업 역할을 포함하는 승인 프로세스의 경우)" 설정이 활성화되었는지 여부에 따라 달라집니다 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">전역 승인 설정 구성</a>).</p> <p>이 옵션이 활성화된 경우</strong>, "승인자" 작업 역할이 있는 시스템의 모든 사용자에게 이메일 알림이 전송됩니다.</p> <p>이 옵션이 비활성화된 경우</strong>, "승인자" 작업 역할이 있는 프로젝트 팀원만 이메일 알림을 받습니다.</p> </td> 
+   <td> <p>프로젝트를 승인해야 합니다.</p> <p>이 이벤트에 대한 전자 메일 알림을 받을 사용자는 "<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">전역 승인 설정 구성</a>에 설명된 대로 프로젝트 팀에 속해 있지 않아도 되는 승인자(작업 역할이 포함된 승인 프로세스의 경우)" 설정을 사용할지 여부에 따라 달라집니다.</p> <p>이 옵션을 사용하도록 설정하면 </strong> "승인자" 작업 역할이 있는 시스템의 모든 사용자에게 전자 메일 알림이 전송됩니다.</p> <p>이 옵션이 비활성화되어 있으면</strong> "승인자" 작업 역할이 있는 프로젝트 팀원만 이메일 알림을 받습니다.</p> </td> 
    <td> <p>비활성</p> </td> 
   </tr> 
   <tr> 
@@ -121,7 +121,7 @@ ht-degree: 7%
    <td> <p>작업</p> </td> 
    <td> <p>승인 보류 중인 작업</p> </td> 
    <td> <p>승인자</p> </td> 
-   <td> <p>작업을 승인해야 합니다.</p> <p>이 이벤트에 대한 이메일 알림을 받을 사용자는에 설명된 대로 "프로젝트 팀에 속해 있지 않아도 되는 승인자(역할을 포함하는 승인 프로세스의 경우)" 설정이 활성화되었는지 여부에 따라 달라집니다 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">전역 승인 설정 구성</a>). </p> <p>이 옵션이 활성화된 경우</strong>, "승인자" 작업 역할이 있는 시스템의 모든 사용자에게 이메일 알림이 전송됩니다.</p> <p>이 옵션이 비활성화된 경우</strong>, "승인자" 작업 역할이 있는 프로젝트 팀원만 이메일 알림을 받습니다.</p> <p>요청 시 프로젝트 상태가 현재인 경우에만 알림이 전송됩니다.</p> </td> 
+   <td> <p>작업을 승인해야 합니다.</p> <p>이 이벤트에 대한 전자 메일 알림을 받을 사용자는 "<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">전역 승인 설정 구성</a>에 설명된 대로 역할을 포함하는 승인 프로세스의 경우 승인자가 프로젝트 팀에 속해 있지 않아도 됩니다" 설정을 사용할지 여부에 따라 달라집니다. </p> <p>이 옵션을 사용하도록 설정하면 </strong> "승인자" 작업 역할이 있는 시스템의 모든 사용자에게 전자 메일 알림이 전송됩니다.</p> <p>이 옵션이 비활성화되어 있으면</strong> "승인자" 작업 역할이 있는 프로젝트 팀원만 이메일 알림을 받습니다.</p> <p>요청 시 프로젝트 상태가 현재인 경우에만 알림이 전송됩니다.</p> </td> 
    <td> <p>비활성</p> </td> 
   </tr> 
   <tr> 
@@ -171,7 +171,7 @@ ht-degree: 7%
 
 ## 내가 한 요청
 
-참조: [알림: 내가 한 요청](../../../workfront-basics/using-notifications/notifications-requests-i-have-made.md).
+[알림: 내가 한 요청](../../../workfront-basics/using-notifications/notifications-requests-i-have-made.md)도 참조하세요.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -256,7 +256,7 @@ ht-degree: 7%
    <td> <p>문서</p> </td> 
    <td> <p>요청 문서 추가</p> </td> 
    <td> <p>문제 기본 담당자</p> </td> 
-   <td> <p>내가 기본 담당자인 문제에 대한 문서가 변경되거나 업로드되었습니다.</p> <p>문서를 업로드하거나 변경한 사용자가 기본 연락처가 아닌 경우 문제의 기본 연락처는 문서가 문제에 대해 업로드되거나 변경될 때 이메일 알림을 받습니다.</p> <p>프로젝트 상태가 현재이고 프로젝트에 대기열 설정 탭에서 "도움말 요청 대기열로 게시"가 활성화된 경우에만 알림이 전송됩니다.</p> </td> 
+   <td> <p>내가 기본 담당자인 문제에 대한 문서가 변경되거나 업로드되었습니다.</p> <p>문서를 업로드하거나 변경한 사용자가 기본 연락처가 아닌 경우 문제의 기본 연락처는 문서가 문제에 대해 업로드되거나 변경될 때 이메일 알림을 받습니다.</p> <p>프로젝트 상태가 현재이고 프로젝트에 대기열 설정 탭에서 "도움말 요청 대기열로 Publish"가 활성화된 경우에만 알림이 전송됩니다.</p> </td> 
    <td> <p>활성(일별 전용)</p> </td> 
   </tr> 
   <tr> 
@@ -276,7 +276,7 @@ ht-degree: 7%
 
 ## 커뮤니케이션
 
-참조: [알림: 커뮤니케이션](../../../workfront-basics/using-notifications/notifications-communication.md).
+[알림: 통신](../../../workfront-basics/using-notifications/notifications-communication.md)도 참조하세요.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -297,7 +297,7 @@ ht-degree: 7%
    <td> <p>문서</p> </td> 
    <td> <p>문서에 주석 달기</p> </td> 
    <td> <p>문서 소유자</p> </td> 
-   <td> <p>내 문서에 댓글이 추가되었습니다.</p> <p>Workfront의 문서 소유자는 댓글을 게시한 사용자가 문서 소유자가 아닌 경우 문서에 댓글이 게시되면 이메일 알림을 받습니다.</p> <p>댓글에 직접 포함된 모든 사용자에게는 이메일 알림도 전송됩니다.</p> <p>알림은 프로젝트 상태가 현재인 경우에만 전송됩니다. </p> <p>인스턴트 알림 이메일의 제목은 다음과 같습니다. <em>다음에 대한 댓글: &lt;request name=""&gt; 날짜 &lt;project name=""&gt; (ref# &lt;request reference="" number=""&gt;)</em></p> <p> 일별 요약 알림의 주제는 다음과 같습니다.<em> 커뮤니케이션의 요약 &lt;date of="" daily="" digest=""&gt;</em></p> </td> 
+   <td> <p>내 문서에 댓글이 추가되었습니다.</p> <p>Workfront의 문서 소유자는 댓글을 게시한 사용자가 문서 소유자가 아닌 경우 문서에 댓글이 게시되면 이메일 알림을 받습니다.</p> <p>댓글에 직접 포함된 모든 사용자에게는 이메일 알림도 전송됩니다.</p> <p>알림은 프로젝트 상태가 현재인 경우에만 전송됩니다. </p> <p>인스턴트 알림 전자 메일의 제목은 다음과 같습니다. <em>&lt;프로젝트 이름&gt;(ref# &lt;요청 참조 번호&gt;)의 &lt;요청 이름&gt;에 대한 댓글</em></p> <p> 일별 요약 알림의 제목은 <em> 커뮤니케이션 요약 &lt;일별 요약 날짜&gt;</em>입니다.</p> </td> 
    <td> <p>활성</p> </td> 
   </tr> 
   <tr> 
@@ -311,14 +311,14 @@ ht-degree: 7%
    <td> <p>사용자</p> </td> 
    <td>방향성 업데이트</td> 
    <td>사용자</td> 
-   <td> <p>누군가가 지시된 업데이트에 나를 포함시킵니다.</p> <p>지시된 대로, 사용자가 업데이트에 다른 사용자를 구체적으로 포함하는 것입니다. <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">업데이트에 다른 사용자 태그 지정</a>.</p> <p>이 경우, 지시된 업데이트에 포함된 사용자는 업데이트에 대한 이메일 알림을 수신한다.</p> <p>이메일 알림은 사용자에게 오브젝트에 대한 액세스 권한이 있고 프로필에서 활성화된 상태로 유지하는 경우에만 전송됩니다.  </p> <p>이 이벤트 알림은 기본적으로 활성화되며 비활성화할 수 없습니다.</p> </td> 
+   <td> <p>누군가가 지시된 업데이트에 나를 포함시킵니다.</p> <p><a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">업데이트에 다른 사용자 태그 지정</a>에 설명된 대로 사용자가 특별히 업데이트에 다른 사용자를 포함하는 경우 지정 업데이트가 수행됩니다.</p> <p>이 경우, 지시된 업데이트에 포함된 사용자는 업데이트에 대한 이메일 알림을 수신한다.</p> <p>이메일 알림은 사용자에게 오브젝트에 대한 액세스 권한이 있고 프로필에서 활성화된 상태로 유지하는 경우에만 전송됩니다.  </p> <p>이 이벤트 알림은 기본적으로 활성화되며 비활성화할 수 없습니다.</p> </td> 
    <td> <p>활성</p> </td> 
   </tr> 
   <tr> 
    <td> <p>팀</p> </td> 
    <td> <p>방향성 업데이트</p> </td> 
    <td> <p>팀원</p> </td> 
-   <td> <p>누군가가 지시된 업데이트에 내 팀을 포함시킵니다.</p> <p>지시된 대로, 사용자가 업데이트에 다른 사용자를 구체적으로 포함하는 것입니다. <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">업데이트에 다른 사용자 태그 지정</a>.</p> <p>이 경우 지시된 업데이트에 포함된 팀의 모든 멤버는 업데이트에 대한 이메일 알림을 받습니다.</p> <p>이메일 알림은 업데이트 개체에 대한 액세스 권한이 있는 사용자에게만 전송됩니다.</p> <p>지시된 업데이트를 전송하는 사용자가 포함된 팀의 멤버인 경우 업데이트를 전송하는 사용자가 이메일 알림을 받지 못합니다.</p> </td> 
+   <td> <p>누군가가 지시된 업데이트에 내 팀을 포함시킵니다.</p> <p><a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">업데이트에 다른 사용자 태그 지정</a>에 설명된 대로 사용자가 특별히 업데이트에 다른 사용자를 포함하는 경우 지정 업데이트가 수행됩니다.</p> <p>이 경우 지시된 업데이트에 포함된 팀의 모든 멤버는 업데이트에 대한 이메일 알림을 받습니다.</p> <p>이메일 알림은 업데이트 개체에 대한 액세스 권한이 있는 사용자에게만 전송됩니다.</p> <p>지시된 업데이트를 전송하는 사용자가 포함된 팀의 멤버인 경우 업데이트를 전송하는 사용자가 이메일 알림을 받지 못합니다.</p> </td> 
    <td> <p>활성(일별 전용)</p> </td> 
   </tr> 
   <tr> 
@@ -360,7 +360,7 @@ ht-degree: 7%
 
 ## 승인 정보
 
-참조: [알림: 승인 정보](../../../workfront-basics/using-notifications/notifications-approval-information.md).
+[알림: 승인 정보](../../../workfront-basics/using-notifications/notifications-approval-information.md)도 참조하세요.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -424,7 +424,7 @@ ht-degree: 7%
 
 ## 나에게 할당된 작업 정보
 
-참조: [알림: 나에게 할당된 작업 정보](../../../workfront-basics/using-notifications/notifications-information-about-work-assigned-to-me.md).
+[알림: 나에게 할당된 작업에 대한 정보](../../../workfront-basics/using-notifications/notifications-information-about-work-assigned-to-me.md)도 참조하세요.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -494,7 +494,7 @@ ht-degree: 7%
    <td> <p>문서</p> </td> 
    <td> <p>요청 문서 추가</p> </td> 
    <td> <p>문제가 할당된 사용자</p> </td> 
-   <td> <p>내가 할당된 요청에 따라 문서가 업로드되거나 변경됩니다.</p> <p>문제 피할당자는 추가한 문제에 대해 문서가 업로드되거나 변경되면 이메일 알림을 받습니다.</p> <p>문제를 입력한 사용자가 문제 피할당자인 경우 이메일 알림이 전송되지 않습니다.</p> <p>프로젝트 상태가 현재이고 프로젝트에 대기열 설정 탭에서 "도움말 요청 대기열로 게시"가 활성화된 경우에만 알림이 전송됩니다.</p> </td> 
+   <td> <p>내가 할당된 요청에 따라 문서가 업로드되거나 변경됩니다.</p> <p>문제 피할당자는 추가한 문제에 대해 문서가 업로드되거나 변경되면 이메일 알림을 받습니다.</p> <p>문제를 입력한 사용자가 문제 피할당자인 경우 이메일 알림이 전송되지 않습니다.</p> <p>프로젝트 상태가 현재이고 프로젝트에 대기열 설정 탭에서 "도움말 요청 대기열로 Publish"가 활성화된 경우에만 알림이 전송됩니다.</p> </td> 
    <td> <p>활성(일별 전용)</p> </td> 
   </tr> 
   <tr> 
@@ -535,7 +535,7 @@ ht-degree: 7%
 
 ## 내가 진행 중인 프로젝트 정보
 
-참조: [알림: 내가 진행 중인 프로젝트 정보](../../../workfront-basics/using-notifications/notifications-information-about-projects-im-on.md).
+[알림: 내가 진행 중인 프로젝트 정보](../../../workfront-basics/using-notifications/notifications-information-about-projects-im-on.md)도 참조하세요.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -627,7 +627,7 @@ ht-degree: 7%
 
 ## 내가 소유한 프로젝트 정보
 
-참조: [알림: 내가 소유한 프로젝트에 대한 정보](../../../workfront-basics/using-notifications/notifications-information-about-projects-i-own.md).
+[알림: 내가 소유한 프로젝트에 대한 정보](../../../workfront-basics/using-notifications/notifications-information-about-projects-i-own.md)도 참조하세요.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -726,7 +726,7 @@ ht-degree: 7%
 
 ## 내가 후원하는 프로젝트 정보
 
-참조: [알림: 내가 후원하는 프로젝트에 대한 정보](../../../workfront-basics/using-notifications/notifications-information-about-projects-i-sponsor.md).
+[알림: 내가 후원하는 프로젝트에 대한 정보](../../../workfront-basics/using-notifications/notifications-information-about-projects-i-sponsor.md)도 참조하세요.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -811,7 +811,7 @@ ht-degree: 7%
 
 ## 기타 정보
 
-참조: [알림: 기타 정보](../../../workfront-basics/using-notifications/notifications-misc-information.md).
+[알림: 기타 정보](../../../workfront-basics/using-notifications/notifications-misc-information.md)도 참조하세요.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -861,7 +861,7 @@ ht-degree: 7%
    <td> <p>사용자</p> </td> 
    <td> <p>신규 사용자</p> </td> 
    <td> <p>사용자</p> </td> 
-   <td> <p>Workfront에서 새 사용자가 생성되면 사용자에게 이메일을 보냅니다.</p> <p>새 사용자가 만들어지면 사용자는 이메일 초대를 받아 Workfront 계정이 만들어졌음을 알리고 암호를 설정하라는 메시지를 표시합니다.</p> <p>새 사용자를 만들 때에서 설명한 대로 사용자는 "이 사용자에게 초대 이메일 보내기" 옵션을 선택할 수 있습니다. <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">사용자 추가</a><span style="font-weight: 400;">). 그러나 "사용자로 새 사용자" 옵션이 전역적으로 활성화되면 "이 사용자에게 초대 이메일 보내기" 옵션의 선택 여부와 관계없이 모든 새 사용자가 이메일 초대를 받습니다.</span></p> </td> 
+   <td> <p>Workfront에서 새 사용자가 생성되면 사용자에게 이메일을 보냅니다.</p> <p>새 사용자가 만들어지면 사용자는 이메일 초대를 받아 Workfront 계정이 만들어졌음을 알리고 암호를 설정하라는 메시지를 표시합니다.</p> <p>새 사용자를 만들 때 사용자는 "<a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">사용자 추가</a><span style="font-weight: 400;">에 설명된 대로 이 사용자에게 초대 이메일 보내기" 옵션을 선택할 수 있습니다. 그러나 "새 사용자를 사용자로" 옵션이 전역적으로 활성화되면 "이 사용자에게 초대 이메일 보내기" 옵션이 선택되었는지 여부와 관계없이 모든 새 사용자가 초대 이메일을 받습니다.</span></p> </td> 
    <td> 비활성 </td> 
   </tr> 
   <tr> 
@@ -903,7 +903,7 @@ ht-degree: 7%
    <td> 프로젝트 <br>작업 <br>문제</td> 
    <td>새로운 업데이트</td> 
    <td>구독자 </td> 
-   <td> <p class="p1"><span class="s1 wysiwyg-font-size-medium">내가 구독 중인 작업, 문제 또는 프로젝트에 업데이트가 있을 때 이메일이 전송됩니다.</span> </p> </td> 
+   <td> <p class="p1"><span class="s1 wysiwyg-font-size-medium">구독 중인 작업, 문제 또는 프로젝트를 업데이트하면 전자 메일이 전송됩니다.</span> </p> </td> 
    <td>활성(인스턴트 전용)</td> 
   </tr> 
  </tbody> 
@@ -919,7 +919,7 @@ ht-degree: 7%
 
 ## 위임
 
-참조: [알림: 위임](../../../workfront-basics/using-notifications/notifications-delegation.md).
+[알림: 위임](../../../workfront-basics/using-notifications/notifications-delegation.md)도 참조하세요.
 
 | 오브젝트 유형 | 이벤트 | 수신자 | 설명 | 기본 상태 |
 |------------------|--------------------------------------------|-----------|--------------------------------------------------------------|-----------------------|

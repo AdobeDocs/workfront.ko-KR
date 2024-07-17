@@ -17,7 +17,7 @@ ht-degree: 0%
 
 이 페이지에서는 미리보기 환경에 대한 22.4 릴리스의 모든 관리자 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2022년 10월 3일이 있는 주에 사용할 수 있습니다.
 
-22.4 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [22.4 릴리스 개요](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+22.4 릴리스에서 사용할 수 있는 모든 변경 사항 목록을 보려면 [22.4 릴리스 개요](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md)를 참조하십시오.
 
 ## 승인 프로세스에서 잠금 해제된 상태 사용
 
@@ -41,9 +41,9 @@ ht-degree: 0%
 
 기존 레이아웃 템플릿에는 자동으로 블루프린트 아이콘이 포함되며, 관리자는 레이아웃 템플릿에서 아이콘을 제거하여 블루프린트 카탈로그의 가시성을 제한할 수 있습니다. 22.4 릴리스 이후에 생성된 새 레이아웃 템플릿에는 활성 항목 목록에 블루프린트 아이콘이 포함됩니다.
 
-자세한 내용은 [블루프린트에 대한 액세스 구성](/help/quicksilver/administration-and-setup/blueprints/configure-access-to-blueprints.md).
+자세한 내용은 [블루프린트에 대한 액세스 구성](/help/quicksilver/administration-and-setup/blueprints/configure-access-to-blueprints.md)을 참조하십시오.
 
-[이 기능에 대한 비디오 데모 보기](https://video.tv.adobe.com/v/3412382/){target=_blank}
+[이 기능의 비디오 데모 보기](https://video.tv.adobe.com/v/3412382/){target=_blank}
 
 ## 문제 헤더 사용자 정의
 
@@ -63,9 +63,9 @@ ht-degree: 0%
 
 
 
-자세한 내용은 [레이아웃 템플릿을 사용하여 개체 머리글 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+자세한 내용은 [레이아웃 템플릿을 사용하여 개체 머리글 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)을 참조하십시오.
 
-[이 기능에 대한 비디오 데모 보기](https://video.tv.adobe.com/v/3412383/){target=_blank}
+[이 기능의 비디오 데모 보기](https://video.tv.adobe.com/v/3412383/){target=_blank}
 
 ## 작업 헤더 사용자 정의
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 이 릴리스 이전에는 프로젝트 헤더만 사용자 지정할 수 있었습니다.
 
-자세한 내용은 [레이아웃 템플릿을 사용하여 개체 헤더 사용자 정의](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+자세한 내용은 [레이아웃 템플릿을 사용하여 개체 머리글 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)을 참조하십시오.
 
 [이 기능에 대한 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3412384/){target=_blank}
 
@@ -91,7 +91,7 @@ ht-degree: 0%
 
 Workfront 관리자만 초기 기능을 선택할 수 있습니다. 관리자가 초기 기능을 선택하면 조직의 모든 사용자가 옵트인되고 프로덕션 Workfront 환경에서 추가 기능이 활성화됩니다.
 
-자세한 내용은 [Adobe Workfront 보드에 대한 초기 기능 옵트인](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
+자세한 내용은 [Adobe Workfront 보드에 대한 초기 기능 옵트인](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md)을 참조하십시오.
 
 [이 기능에 대한 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3412386/){target=_blank}
 
@@ -103,7 +103,7 @@ Workfront 관리자만 초기 기능을 선택할 수 있습니다. 관리자가
 
 이제 계산에 직접 표시된 유용한 오류 정보를 사용하여 사용자 정의 필드에 대한 계산을 보다 쉽게 편집할 수 있습니다. 사용자 정의 양식에서 계산된 필드를 만드는 동안 오류가 분홍색으로 강조 표시됩니다. 강조 표시된 부분을 마우스로 가리키면 문제가 무엇인지 설명하는 도구 설명이 표시됩니다.
 
-자세한 내용은 [사용자 정의 양식에 계산된 데이터 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+자세한 내용은 [사용자 정의 양식에 계산된 데이터 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)를 참조하십시오.
 
 [이 기능에 대한 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3412387/){target=_blank}
 
@@ -121,6 +121,6 @@ Workfront 관리자만 초기 기능을 선택할 수 있습니다. 관리자가
 
 * Workfront 페이지, Adobe Experience Cloud 환경 설정 및 Workfront 프로필에 대한 옵션을 사용하여 탐색
 
-자세한 내용은 [Workfront용 통합 경험 Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+자세한 내용은 [Workfront용 통합 경험 Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)를 참조하십시오.
 
 [이 기능에 대한 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3412388/){target=_blank}

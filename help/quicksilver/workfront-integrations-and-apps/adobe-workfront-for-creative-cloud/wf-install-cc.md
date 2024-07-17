@@ -2,7 +2,7 @@
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
 title: 설치 및 열기 [!DNL Adobe Workfront for design and video]
-description: 다음을 설치할 수 있습니다. [!DNL Adobe Workfront for design and video] Adobe 마켓플레이스에서.
+description: Adobe 마켓플레이스에서  [!DNL Adobe Workfront for design and video] 을(를) 설치할 수 있습니다.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
@@ -13,13 +13,13 @@ ht-degree: 1%
 
 ---
 
-# 설치 및 열기 [!DNL Adobe Workfront for design and video]
+# [!DNL Adobe Workfront for design and video] 설치 및 열기
 
-다음을 설치할 수 있습니다. [!DNL Adobe Workfront for design and video] 다음에서 [!DNL Adobe Marketplace]. 이 플러그인은 다음 Creative Cloud 애플리케이션을 지원합니다.
+[!DNL Adobe Marketplace]에서 [!DNL Adobe Workfront for design and video]을(를) 설치할 수 있습니다. 이 플러그인은 다음 Creative Cloud 애플리케이션을 지원합니다.
 
 {{cc-plugin-app-list}}
 
-[!DNL Adobe Workfront for design and video] 는 다음 언어를 지원합니다.
+[!DNL Adobe Workfront for design and video]은(는) 다음 언어를 지원합니다.
 
 * 영어
 * 프랑스어
@@ -34,7 +34,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->다음에 대한 별도의 설치 지침이 있습니다. [!DNL Photoshop] 및 [!DNL XD]. 자세한 내용은 [설치 [!DNL Adobe Workfront for Photoshop]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md) 및 [설치 [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md).
+>[!DNL Photoshop]과(와) [!DNL XD]에 대한 별도의 설치 지침이 있습니다. 자세한 내용은 [설치 [!DNL Adobe Workfront for Photoshop]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md) 및 [설치 [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)를 참조하십시오.
 
 
 ## 액세스 요구 사항
@@ -57,46 +57,46 @@ ht-degree: 1%
   </tr> -->
   <tr> 
    <td role="rowheader">제품</td> 
-   <td><p>다음 항목이 있어야 합니다. [!DNL Adobe Creative Cloud] 에 더해진 라이센스 [!DNL Workfront] 라이센스.</p><p>자세한 내용은 <a href="https://helpx.adobe.com/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Creative Cloud 지원 정책</a>.</p></td> 
+   <td><p>[!DNL Workfront] 라이선스 외에 [!DNL Adobe Creative Cloud] 라이선스가 있어야 합니다.</p><p>자세한 내용은 <a href="https://helpx.adobe.com/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Creative Cloud 지원 정책</a>을 참조하세요.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
+보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
 
 +++
 
 ## 전제 조건
 
-* 다음을 설치해야 합니다. [!DNL Creative Cloud] 해당 앱에 대한 Workfront 플러그인을 설치하기 전에 사용할 앱입니다.
+* 해당 앱에 대한 Workfront 플러그인을 설치하기 전에 사용할 [!DNL Creative Cloud] 앱을 설치해야 합니다.
 
-## 설치 [!DNL Workfront for design and video] (조직)
+## 조직에 대해 [!DNL Workfront for design and video] 설치
 
-다음과 같은 경우 [!DNL Adobe Admin Console] 관리자, 다음을 포함할 수 있습니다. [!DNL Adobe Workfront for design and video] 위치: [!DNL Creative Cloud] 배포 패키지. 자세한 내용은 [패키지에 플러그인 포함](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
+[!DNL Adobe Admin Console] 관리자인 경우 [!DNL Creative Cloud]개의 배포 패키지에 [!DNL Adobe Workfront for design and video]을(를) 포함할 수 있습니다. 자세한 내용은 [패키지에 플러그인 포함](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html)을 참조하십시오.
 
-[여기서 비디오 튜토리얼 보기](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
+[비디오 튜토리얼은 여기에서 봅니다](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
 
-[!DNL Adobe Admin Console] 관리자는 사용자에게 배포할 플러그인 전용 패키지를 만들 수도 있습니다. 자세한 내용은 [[!UICONTROL 만들기 [!DNL Adobe Workfront] 대상 [!DNL Creative Cloud]] 에서 사용자를 위한 패키지 [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
+[!DNL Adobe Admin Console] 관리자는 사용자에게 배포할 플러그 인 전용 패키지를 만들 수도 있습니다. 자세한 내용은  [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)에서 사용자의 [[!UICONTROL [!DNL Adobe Workfront] for [!DNL Creative Cloud]] 패키지 만들기를 참조하십시오.
 
-## 설치 [!DNL Workfront for design and video] 개별적으로
+## 개별적으로 [!DNL Workfront for design and video] 설치
 
-다음을 설치할 수 있습니다. [!DNL Adobe Workfront for design and video] 에서 직접 [!DNL Adobe Exchange].
+[!DNL Adobe Exchange]에서 직접 [!DNL Adobe Workfront for design and video]을(를) 설치할 수 있습니다.
 
-1. 로 이동 [디자인 및 비디오용 Adobe Workfront 설치 페이지](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=108938&amp;workflow=share) Adobe Exchange.
-1. 표시되는 대화 상자에서 **열기 [!DNL Adobe Creative Cloud] 데스크탑 앱**.
-1. 한 번 [!DNL Adobe Creative Cloud] plugin manager가 열리고 **[!UICONTROL 설치]**.
-1. 대화 상자에서 정보를 읽은 다음 **[!UICONTROL 확인]**.
-1. 한 번 [!DNL Workfront for design and video] 설치됨에서 [!DNL Creative Cloud] 필요한 앱을 찾은 다음 [!DNL Workfront] 플러그인 패널에서 플러그인을 대체합니다.
+1. Adobe Exchange에서 [디자인 및 비디오용 Adobe Workfront 설치 페이지](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=108938&amp;workflow=share)(으)로 이동합니다.
+1. 표시되는 대화 상자에서 **데스크톱 앱 [!DNL Adobe Creative Cloud] 열기**&#x200B;를 클릭합니다.
+1. [!DNL Adobe Creative Cloud] 플러그 인 관리자가 열리면 **[!UICONTROL 설치]**&#x200B;를 클릭합니다.
+1. 대화 상자에서 정보를 읽은 다음 **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
+1. [!DNL Workfront for design and video]이(가) 설치되면 필요한 [!DNL Creative Cloud] 앱을 열고 플러그인 패널에서 [!DNL Workfront] 플러그인을 찾습니다.
 
-1. 열기 방법에 대한 자세한 내용은 다음 섹션을 참조하십시오 [!DNL Workfront for design and video].
+1. [!DNL Workfront for design and video]을(를) 여는 방법에 대한 자세한 내용은 다음 섹션을 계속하십시오.
 
-## 열기 [!DNL Adobe Workfront for design and video]
+## [!DNL Adobe Workfront for design and video] 열기
 
 1. 사용하려는 Creative Cloud 플러그인을 엽니다.
 
 1. 새 프로젝트를 만들거나 기존 프로젝트를 엽니다.
 
-1. 상단 메뉴에서 **Windows** > **확장** > **Adobe Workfront 메뉴**.
+1. 상단 메뉴에서 **Windows** > **확장** > **Adobe Workfront 메뉴**&#x200B;를 클릭합니다.
 
    >[!NOTE]
    >
@@ -107,37 +107,37 @@ ht-degree: 1%
 
    >[!TIP]
    >
-   >표시되지 않으면 [!DNL Adobe Workfront for design and video] 확장 메뉴에서 열면 Creative Cloud 앱 뒤에 있을 수 있습니다. 앱을 최소화하여 플러그인을 찾으십시오.
+   >확장 메뉴에서 [!DNL Adobe Workfront for design and video]을(를) 연 후 표시되지 않으면 Creative Cloud 앱 뒤에 있을 수 있습니다. 앱을 최소화하여 플러그인을 찾으십시오.
 
-1. 로그인 방법에 대한 자세한 내용은 다음 섹션을 계속하십시오. [!DNL Adobe Workfront for design and video].
+1. [!DNL Adobe Workfront for design and video]에 로그인하는 방법에 대한 자세한 내용은 다음 섹션을 계속하십시오.
 
 
-## 에 로그인 [!DNL Adobe Workfront for design and video]
+## [!DNL Adobe Workfront for design and video]에 로그인
 
-1. 다음에서 **[!UICONTROL 플러그인]** 화면 상단의 메뉴 아래에서 **[!UICONTROL 플러그인 패널]**.
-1. 선택 **[!DNL Adobe Workfront for design and video]**.
-1. 도메인을 입력한 다음 **[!UICONTROL 로그인]**. 브라우저 페이지가 열립니다.
+1. 화면 상단의 **[!UICONTROL 플러그인]** 메뉴에서 **[!UICONTROL 플러그인 패널]**&#x200B;을 선택합니다.
+1. **[!DNL Adobe Workfront for design and video]**&#x200B;을(를) 선택합니다.
+1. 도메인을 입력한 다음 **[!UICONTROL 로그인]**&#x200B;을 클릭합니다. 브라우저 페이지가 열립니다.
 
    >[!TIP]
    >
-   >* 도메인을 찾으려면 브라우저를 열고 다음으로 이동합니다. [!DNL Workfront] 을 클릭하고 URL의 첫 번째 부분을 복사합니다.\
+   >* 도메인을 찾으려면 브라우저를 열고 [!DNL Workfront] 인스턴스로 이동한 다음 URL의 첫 부분을 복사합니다.\
    >![](assets/domain-350x50.png)
    >
    > * Workfront 인스턴스가 Experience Cloud과 통합된 경우 관리자에게 Admin Console의 제품 > Workfront 아래에 있는 Workfront 도메인을 제공하도록 요청하십시오.
 
-1. 브라우저에서 [!DNL Workfront] 자격 증명을 클릭한 다음 **[!UICONTROL 로그인]**. 회사에서 SSO(Single Sign-On)를 사용하는 경우, 로그인할 SSO 공급자의 페이지로 이동합니다.
+1. 브라우저에서 [!DNL Workfront] 자격 증명을 입력한 다음 **[!UICONTROL 로그인]**&#x200B;을 클릭합니다. 회사에서 SSO(Single Sign-On)를 사용하는 경우, 로그인할 SSO 공급자의 페이지로 이동합니다.
 
    >[!NOTE]
    >
-   >을 입력하라는 메시지가 표시되지 않을 수 있습니다. [!DNL Workfront] 최근에 로그인한 경우 자격 증명을 제공합니다.
+   >최근에 로그인한 경우 [!DNL Workfront] 자격 증명을 입력하라는 메시지가 표시되지 않을 수 있습니다.
 
-1. 프롬프트의 안내에 따라 다음으로 로그인합니다. [!DNL Workfront].
+1. 메시지에 따라 [!DNL Workfront]에 로그인합니다.
 
    >[!NOTE]
    >
-   >* [!DNL Workfront] 에 연결 [!DNL Adobe Creative Cloud] 사용자의 인증 및 권한 부여를 위해 대부분의 웹 기반 통합에서 사용하는 보안 표준인 OAuth 2.0을 사용합니다.
-   >* 을 입력하라는 메시지가 표시되면 [도메인 또는 호스트] / [!DNL Workfront] 계정, 다음 형식을 사용하여 입력: *yourCompany&#39;sDomain.my.workfront.com*. 회사의 도메인은 일반적으로 회사의 이름입니다.
+   >* [!DNL Workfront]은(는) 사용자의 인증 및 권한 부여를 위해 대부분의 웹 기반 통합에서 사용하는 보안 표준인 OAuth 2.0을 사용하여 [!DNL Adobe Creative Cloud]에 연결합니다.
+   >* [!DNL Workfront] 계정의 [도메인 또는 호스트]를 입력하라는 메시지가 표시되면 *yourCompany&#39;sDomain.my.workfront.com* 형식을 사용하여 입력하세요. 회사의 도메인은 일반적으로 회사의 이름입니다.
 
-1. 클릭 **[!UICONTROL 액세스 허용]** 로그인을 마칩니다.
-1. 다음으로 돌아가기: [!DNL Adobe Photoshop] 작업을 봅니다.
+1. 로그인을 완료하려면 **[!UICONTROL 액세스 허용]**&#x200B;을 클릭하세요.
+1. 작업을 보려면 [!DNL Adobe Photoshop](으)로 돌아가십시오.
 

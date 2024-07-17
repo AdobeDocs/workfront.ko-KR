@@ -14,11 +14,11 @@ ht-degree: 1%
 
 ---
 
-# 의 그룹과 팀 비교 [!DNL Adobe Workfront]
+# [!DNL Adobe Workfront]의 그룹과 팀 비교
 
 <!-- Audited: 12/2023 -->
 
-그룹 및 팀은 의 사용자 컬렉션입니다. [!DNL Adobe Workfront].
+그룹 및 팀은 [!DNL Adobe Workfront]의 사용자 컬렉션입니다.
 
 사용자당 홈 그룹 하나와 홈 팀 하나만 지정할 수 있지만 각 사용자는 팀이나 그룹의 수에 제한이 없습니다. 그러나 혼동을 피하기 위해 각 사용자는 제한된 수의 팀 및 그룹에 속하는 것이 좋습니다.
 
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 예를 들어, 재무 부서의 사용자가 포함된 재무 그룹이 있을 수 있습니다. 재무 부서 내에서 사람들은 서로 독립적으로 일하는 팀으로 구성될 수 있습니다.
 
-그룹 만들기 및 관리에 대한 자세한 내용은 [그룹 만들기](../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) 및 [그룹 관리](../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md).
+그룹 만들기 및 관리에 대한 자세한 내용은 [그룹 만들기](../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) 및 [그룹 관리](../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md)를 참조하세요.
 
 ## 팀을 사용하여 부서 내의 작업 구조를 나타냅니다.
 
@@ -38,7 +38,7 @@ ht-degree: 1%
 
 예를 들어 급여 팀, AP 및 AR 팀이 있을 수 있습니다. 일반적으로 이러한 각 팀의 직원들은 해당 팀과 유사한 프로젝트, 작업 또는 문제에 대해 작업합니다.
 
-팀 만들기 및 관리에 대한 자세한 내용은 [팀 만들기 및 관리](../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md).
+팀을 만들고 관리하는 방법에 대한 자세한 내용은 [팀 만들기 및 관리](../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md)를 참조하세요.
 
 ## 그룹 및 팀 기능 비교
 
@@ -67,5 +67,5 @@ ht-degree: 1%
 | 레이아웃 템플릿 할당 | ✓ 덧신 | ✓ 덧신 |
 | 플랜 라이선스가 있는 모든 사용자는 플랜을 다른 사용자에게 할당할 수 있습니다. |  | ✓ 덧신 |
 | 상태 사용자 지정 | ✓ 덧신 |  |
-| 사용자 지정 [!UICONTROL 완료] 단추 |  | ✓ 덧신 |
+| [!UICONTROL 완료] 단추 사용자 지정 |  | ✓ 덧신 |
 | 라이선스 추적 | ✓ 덧신 |  |

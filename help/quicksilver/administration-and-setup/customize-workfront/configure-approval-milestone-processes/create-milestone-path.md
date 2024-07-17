@@ -43,7 +43,7 @@ Adobe Workfront 관리자는 시스템의 모든 프로젝트에 적용할 수 �
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>Workfront 관리자여야 합니다.</p> <p><b>참고</b>: 아직 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가적인 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td> <p>Workfront 관리자여야 합니다.</p> <p><b>참고</b>: 아직 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정했는지 문의하세요. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,15 +58,15 @@ Adobe Workfront 관리자는 시스템의 모든 프로젝트에 적용할 수 �
 
 이정표 경로를 구축하는 첫 번째 단계는 이정표 단계가 무엇인지 식별하고 이정표를 설정하는 것입니다. 마일스톤 경로를 여러 프로젝트에 연결할 수 있으므로 마일스톤 단계는 프로젝트의 일반 단계 또는 단계여야 합니다.
 
-마일스톤 경로를 프로젝트와 연결하고 마일스톤을 작업에 연결하는 방법에 대한 자세한 내용은 [작업과 마일스톤 연결](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
+마일스톤 경로를 프로젝트와 연결하고 마일스톤을 작업에 연결하는 방법에 대한 자세한 내용은 [마일스톤과 작업 연결](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)을 참조하십시오.
 
 ## 마일스톤 경로 만들기
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 상단에서 을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png).
+1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
 
-1. 클릭 **프로세스** > **마일스톤 경로**.
-1. 클릭 **새 마일스톤 경로.**
-1. 에서 다음 정보를 지정합니다. **기본 정보** 영역:
+1. **프로세스** > **마일스톤 경로**&#x200B;를 클릭합니다.
+1. **새 마일스톤 경로**&#x200B;를 클릭합니다.
+1. **기본 정보** 영역에서 다음 정보를 지정하십시오.
 
    <table style="table-layout:auto">
     <tr>
@@ -87,7 +87,7 @@ Adobe Workfront 관리자는 시스템의 모든 프로젝트에 적용할 수 �
     </tr>
    </table>
 
-1. 에서 다음 정보를 지정합니다. **마일스톤** 영역:
+1. **마일스톤** 영역에서 다음 정보를 지정하십시오.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -108,9 +108,9 @@ Adobe Workfront 관리자는 시스템의 모든 프로젝트에 적용할 수 �
     </tbody> 
    </table>
 
-1. 클릭 **마일스톤 추가** 경로가 완료될 때까지 필요에 따라 이정표를 계속 추가합니다.
-1. 클릭 **마일스톤 경로 만들기** 변경 사항을 저장합니다.
+1. **마일스톤 추가**&#x200B;를 클릭하고 경로가 완료될 때까지 필요에 따라 마일스톤을 계속 추가합니다.
+1. 변경 내용을 저장하려면 **마일스톤 경로 만들기**&#x200B;를 클릭하세요.
 
    마일스톤 경로를 프로젝트와 연결할 준비가 되었습니다.
 
-   마일스톤 경로를 프로젝트에 연결하고 마일스톤을 작업에 연결하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [작업과 마일스톤 연결](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
+   마일스톤 경로를 프로젝트에 연결하고 마일스톤을 작업에 연결하는 방법에 대한 자세한 내용은 [마일스톤과 작업 연결](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)을 참조하세요.

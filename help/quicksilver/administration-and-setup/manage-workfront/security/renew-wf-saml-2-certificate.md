@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >이 페이지에 설명된 절차는 아직 Admin Console에 온보딩되지 않은 조직에만 적용됩니다. 조직이 Adobe Admin Console에 온보딩된 경우 조치가 필요하지 않습니다.
 >
->조직이 Adobe Admin Console에 온보딩되었는지 여부에 따라 달라지는 절차 목록은 을 참조하십시오. [플랫폼 기반 관리의 차이점(Adobe Workfront/Adobe 비즈니스 플랫폼)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>조직이 Adobe Admin Console에 온보딩되었는지 여부에 따라 달라지는 프로시저 목록은 [플랫폼 기반 관리 차이점(Adobe Workfront/Adobe 비즈니스 플랫폼)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)을 참조하십시오.
 
 Adobe Workfront 서버는 인증 및 권한 부여에 SAML 2.0 프로토콜을 사용합니다. 업데이트되면 새 인증서는 1년 동안 유효합니다. ID 공급자에서 인증서를 갱신할 때가 되면 Workfront에서 이 변경이 발생해야 한다는 경고 메시지가 표시됩니다. Workfront 관리자는 시스템 수준에서 이 변경 사항을 관리할 수 있습니다.
 
@@ -64,7 +64,7 @@ You must take action to update the metadata in your identity provider with the i
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -72,13 +72,13 @@ You must take action to update the metadata in your identity provider with the i
 
 경고 메시지를 검토하고 ID 공급자에서 SAML 2.0 메타데이터의 업데이트를 확인하려면 다음을 수행하십시오.
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 상단에서 을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png).
+1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
 
-1. 클릭 **시스템** > **단일 사인온**.
+1. **시스템** > **Single Sign-On**&#x200B;을 클릭합니다.
 
-1. 다음에서 **유형** 드롭다운 메뉴에서 다음을 선택합니다. **SAML 2.0**.
+1. **유형** 드롭다운 메뉴에서 **SAML 2.0**&#x200B;을(를) 선택합니다.
 
-1. 클릭 **SAML 2.0 메타데이터 다운로드**.
+1. **SAML 2.0 메타데이터 다운로드**&#x200B;를 클릭합니다.
 
    이렇게 하면 서버에 대한 올바른 메타데이터가 포함된 SAML 2.0에 대해 갱신된 Workfront 인증서가 다운로드됩니다.
 
@@ -93,7 +93,7 @@ You must take action to update the metadata in your identity provider with the i
 
 1. ID 공급자 서버에서 다운로드한 새 인증서를 업데이트합니다.
 1. (조건부) ACS(어설션 소비자 서비스) URL 또는 회신 URL이 ID 공급자에서 변경된 경우 5단계에서 복사한 URL로 다시 변경합니다.
-1. Workfront에서 **SSO(단일 인증) 페이지**, 이 옵션이 선택되어 있는지 확인합니다. **새 Workfront 인증서가 이미 ID 공급자에 업로드되었습니다.**.
+1. Workfront의 **SSO(Single Sign-On) 페이지**&#x200B;에서 이 옵션이 선택되어 있는지 확인하십시오. **새 Workfront 인증서가 이미 ID 공급자에 업로드되어 있는지**.
 
    >[!NOTE]
    >
@@ -107,8 +107,8 @@ You must take action to update the metadata in your identity provider with the i
 
    ID 공급자 서버에서 SAML 2.0 인증서 갱신을 확인했으므로 경고 메시지가 더 이상 표시되지 않습니다.
 
-1. 클릭 **연결 테스트** 구성을 테스트합니다.
+1. 구성을 테스트하려면 **연결 테스트**&#x200B;를 클릭하십시오.
 
    연결이 성공했음을 확인하는 메시지가 표시됩니다.
 
-자세한 내용을 확인하거나 메타데이터의 수동 구성에 대한 지원이 필요한 경우 의 설명에 따라 지원 팀에 문의하십시오. [고객 지원 문의](../../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+자세한 내용을 보거나 메타데이터의 수동 구성에 대한 지원이 필요한 경우 [고객 지원 센터에 문의](../../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)하여 지원 팀에 문의하십시오.

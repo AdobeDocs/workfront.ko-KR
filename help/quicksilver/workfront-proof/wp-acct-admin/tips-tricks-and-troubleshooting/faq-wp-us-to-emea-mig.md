@@ -3,27 +3,27 @@ content-type: tips-tricks-troubleshooting
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: tips-tricks-and-troubleshooting-account-administration-workfront-proof
-title: 'FAQ: Workfront 증명 - 미국-EMEA 마이그레이션'
-description: Workfront은 Workfront Proof US에서 EMEA로 마이그레이션한 경우 영향을 받는 모든 조직에 직접 문의하고 있습니다.
+title: 'FAQ: Workfront Proof - 미국 - EMEA로 마이그레이션'
+description: Workfront은 Workfront Proof 미국 대 EMEA 마이그레이션의 영향을 받는 모든 조직에 직접 연락하고 있습니다.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d1aa69e5-f7e5-46d5-814e-e11a999e36db
 source-git-commit: 20fcf4dd07c1058559533501f7e297d78c43a70b
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
 
-# FAQ: [!UICONTROL Workfront 증명] - 미국-EMEA 마이그레이션
+# FAQ: [!UICONTROL Workfront Proof] - 미국-EMEA 마이그레이션
 
 >[!IMPORTANT]
 >
->이 문서는 독립 실행형 제품의 기능에 대해 설명합니다 [!DNL Workfront Proof]. 내부 교정에 대한 정보 [!DNL Adobe Workfront], 참조 [증명](../../../review-and-approve-work/proofing/proofing.md).
+>이 문서는 독립 실행형 제품 [!DNL Workfront Proof]의 기능을 참조합니다. [!DNL Adobe Workfront] 내부의 증명에 대한 자세한 내용은 [증명](../../../review-and-approve-work/proofing/proofing.md)을 참조하십시오.
 
 ## 이 변경 사항이 조직에 영향을 주는지 어떻게 알 수 있습니까?
 
-[!DNL Workfront] 은(는) 의 영향을 받는 모든 조직에 직접 연락하고 있습니다. [!DNL Workfront Proof] 미국-EMEA 마이그레이션.
+[!DNL Workfront]님이 [!DNL Workfront Proof] 미국-EMEA 마이그레이션의 영향을 받는 모든 조직에 직접 연락하고 있습니다.
 
 ## 이주를 준비하기 위해 제가 해야 할 일이 있나요?
 
@@ -39,13 +39,13 @@ EMEA 데이터 센터의 새로운 위치로 마이그레이션하는 동안 짧
 
 마이그레이션이 완료되면 사용자와 사용자는 EMEA 데이터 센터에서 파일과 증명에 액세스할 수 있습니다.
 
-## 액세스하는 데 사용하는 URL은 어떻게 됩니까? [!DNL Workfront Proof]?
+## [!DNL Workfront Proof]에 액세스하는 데 사용하는 URL은 어떻게 됩니까?
 
-이 URL은 변경되지 않습니다. 다음에 액세스할 수 있습니다. [!DNL Workfront] 시스템 은 과거에 그렇게 한 것과 똑같습니다.
+이 URL은 변경되지 않습니다. 이전에 수행한 것과 동일한 방법으로 [!DNL Workfront] 시스템에 액세스할 수 있습니다.
 
 ## 이전 증명 링크와 책갈피를 계속 사용할 수 있습니까?
 
-증명 관련 책갈피는 마이그레이션 후 더 이상 작동하지 않습니다. 이를 사용하는 모든 사용자는 를 통해 증명에 대한 액세스 권한을 제공하는 메시지를 받게 됩니다. [!UICONTROL 증명으로 이동] 단추:
+증명 관련 책갈피는 마이그레이션 후 더 이상 작동하지 않습니다. 이를 사용하는 모든 사용자는 [!UICONTROL 증명으로 이동] 단추를 통해 증명에 대한 액세스 권한을 제공하는 메시지를 받게 됩니다.
 
 ![This_proof_has_migrated.png](assets/this-proof-has-been-migrated-350x361.png)
 
@@ -61,4 +61,4 @@ EMEA 데이터 센터의 새로운 위치로 마이그레이션하는 동안 짧
 
 ## 내 계정에서 SSO를 사용하는 경우 어떻게 합니까?
 
-증명 계정에서 SSO를 사용하는 경우 새 계정을 사용하도록 계정을 다시 구성해야 합니다 [!DNL proofhq.eu] 도메인.
+증명 계정에서 SSO를 사용하는 경우 새 [!DNL proofhq.eu] 도메인을 사용하도록 계정을 다시 구성해야 합니다.

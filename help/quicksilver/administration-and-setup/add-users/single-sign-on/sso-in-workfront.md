@@ -36,7 +36,7 @@ Federated Solutions는 사용자가 중앙 집중식 로그인 포털에 사용�
 
 SSO 솔루션을 사용하는 경우 Workfront은 지정된 포트에서 서버에 연결을 시작합니다.
 
-방화벽 메일 서버가 특정 공급업체에 대한 액세스만 허용하도록 구성된 경우 방화벽 IP에 특정 Workfront 허용 목록에 추가하다 IP 주소를 추가해야 합니다. 자세한 내용은 [허용 목록에 추가하다 방화벽 구성](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+방화벽 메일 서버가 특정 공급업체에 대한 액세스만 허용하도록 구성된 경우 방화벽 IP에 특정 Workfront 허용 목록에 추가하다 IP 주소를 추가해야 합니다. 허용 목록에 추가하다 자세한 내용은 [방화벽 구성](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)을 참조하십시오.
 
 ## 단일 사인온 구성
 
@@ -44,8 +44,8 @@ Workfront은 다음 SSO 솔루션과 통합됩니다.
 
 * SAML 2.0을 지원하는 Federated 솔루션
 
-  Workfront과 SAML 2.0의 통합에 대한 자세한 내용은 [SAML 2.0으로 Adobe Workfront 구성](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md).
+  SAML 2.0과 Workfront 통합에 대한 자세한 내용은 [SAML 2.0과 Adobe Workfront 구성](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)을 참조하십시오.
 
 * ADFS를 사용하여 SAML 2.0을 지원하는 페더레이션 솔루션
 
-  ADFS를 사용하여 Workfront을 SAML 2.0과 통합하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [ADFS를 사용하여 SAML 2.0으로 Adobe Workfront 구성](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md).
+  ADFS를 사용하여 Workfront을 SAML 2.0과 통합하는 방법에 대한 자세한 내용은 [ADFS를 사용하여 Adobe Workfront을 SAML 2.0과 구성](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)을 참조하십시오.

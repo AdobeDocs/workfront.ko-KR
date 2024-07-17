@@ -24,7 +24,7 @@ ht-degree: 0%
 
 문제에서 작업 또는 프로젝트로 사용자 정의 양식 데이터를 전송하려면 이 문서의 두 작업을 아래 순서로 완료해야 합니다.
 
-자세한 내용은 [Adobe Workfront의 문제 전환 개요](../../../manage-work/issues/convert-issues/convert-issues.md) 또는 [Adobe Workfront의 문제 전환 개요](../../../manage-work/issues/convert-issues/convert-issues.md).
+자세한 내용은 [Adobe Workfront의 문제 전환 개요](../../../manage-work/issues/convert-issues/convert-issues.md) 또는 [Adobe Workfront의 문제 전환 개요](../../../manage-work/issues/convert-issues/convert-issues.md)를 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -52,34 +52,34 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## 첫 번째: 사용자 정의 양식에 추가 오브젝트 추가
 
 {{step-1-to-setup}}
 
-1. 클릭 **사용자 지정 Forms**.
-1. 필요한 양식을 찾은 다음 을 클릭합니다. ![편집 아이콘](assets/edit-icon.png).
+1. **사용자 지정 Forms**&#x200B;을 클릭합니다.
+1. 필요한 양식을 찾은 다음 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.
 1. 양식 맨 위에서 작업 또는 문제를 전환하려는 개체를 추가합니다.
 
    >[!INFO]
    >
-   >**예**: 사용자 정의 양식 데이터를 프로젝트로 전송하려면 프로젝트를 선택합니다.
+   >**예**: 사용자 지정 양식 데이터를 프로젝트로 전송하려면 [프로젝트]를 선택하십시오.
 
-1. 클릭 **적용** 양식의 맨 아래에 있습니다.
+1. 양식 맨 아래에 있는 **적용**&#x200B;을 클릭합니다.
 
-1. 계속 진행 [두 번째: 문제 또는 작업을 전환하고 사용자 정의 양식 데이터를 전송합니다](#second-convert-the-issue-or-task-and-transfer-the-custom-form-data).
+1. [초로 계속 진행: 문제 또는 작업을 전환하고 사용자 지정 양식 데이터를 전송](#second-convert-the-issue-or-task-and-transfer-the-custom-form-data)합니다.
 
 ## 두 번째: 문제 또는 작업을 전환하고 사용자 정의 양식 데이터를 전송합니다 {#second-convert-the-issue-or-task-and-transfer-the-custom-form-data}
 
-1. 섹션에서 설명한 대로 전환 중인 문제 또는 작업에 대한 사용자 정의 양식에 개체를 더 추가합니다. [첫 번째: 사용자 정의 양식에 추가 오브젝트 추가](#first-add-additonal-objects-to-the-custom-form) 이 문서에서.
-1. 다음을 사용하여 문제 또는 작업 전환 **사용자 지정 Forms** 필요한 사용자 정의 양식을 선택하기 위해 표시되는 상자의 옵션. 자세한 내용은 다음 문서를 참조하십시오.
+1. 변환 중인 문제 또는 작업에 대한 사용자 정의 양식에 개체를 추가합니다. 자세한 내용은 [먼저 이 문서의 사용자 정의 양식에 개체를 추가](#first-add-additonal-objects-to-the-custom-form)합니다.
+1. 표시되는 상자에서 **사용자 지정 Forms** 옵션을 사용하여 문제 또는 작업을 전환하여 필요한 사용자 지정 양식을 선택하십시오. 자세한 내용은 다음 문서를 참조하십시오.
 
    * [Adobe Workfront에서 문제를 프로젝트로 전환](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)
    * [Adobe Workfront에서 문제를 작업으로 전환](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)
    * [작업을 프로젝트로 전환](../../../manage-work/tasks/manage-tasks/convert-task-to-project.md)
 
-1. 다음에서 **변환 대상(오브젝트 유형)** 표시되는 대화 상자에서 **Forms 추가** 드롭다운 메뉴를 사용하여 이전 섹션에서 복사한 양식을 선택합니다.
+1. 표시되는 **변환 대상(개체 유형)** 대화 상자에서 **Forms 추가** 드롭다운 메뉴를 클릭하고 이전 섹션에서 복사한 양식을 선택합니다.
 
    문제의 사용자 정의 필드에 캡처된 정보가 이제 작업의 사용자 정의 양식으로 전송됩니다.
 

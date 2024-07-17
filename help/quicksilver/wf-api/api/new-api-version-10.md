@@ -9,8 +9,8 @@ role: Developer
 exl-id: 8ac384ae-5d65-4c0e-98c1-cf38cfbff460
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 41%
+source-wordcount: '487'
+ht-degree: 39%
 
 ---
 
@@ -113,7 +113,7 @@ ht-degree: 41%
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| kanbanbflag |  |  | pendingApproval `<sup>1</sup>`   |   |   |   |
+| kanbanbflag |  |  | 승인 보류 중 `<sup>1</sup>`   |   |   |   |
 | `masterTaskID` |   |   |   |   |   |   |
 | priorityColor  |   |   |   |   |   |   |
 | projectBudgetCost  |   |   |   |   |   |   |
@@ -154,7 +154,7 @@ ht-degree: 41%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 가능한 값 변경
+possibleValues에 대한 <sup>1</sup> 변경 사항
 
 ### 문서 메타데이터 링크 그룹
 
@@ -184,14 +184,14 @@ DocumentVersion
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| externalIntegrationType <sup>1</sup> |   |   |   |   |   |   |
+| 외부 통합 유형 <sup>1</sup> |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 가능한 값 변경
+possibleValues에 대한 <sup>1</sup> 변경 사항
 
 경비
 
@@ -214,11 +214,11 @@ DocumentVersion
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| externalIntegrationType<sup>1</sup> |  |  |  |  |   |   |
+| 외부 통합 유형<sup>1</sup> |  |  |  |  |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 가능한 값 변경
+possibleValues에 대한 <sup>1</sup> 변경 사항
 
 ### OpTask
 
@@ -228,7 +228,7 @@ DocumentVersion
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 유형이 null에서 부울로 변경됨
+<sup>1</sup> 형식이 null에서 부울로 변경됨
 
 ### PortalSection
 
@@ -238,7 +238,7 @@ DocumentVersion
 
 {style="table-layout:auto"}
 
-### 포트폴리오
+### Portfolio
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
@@ -292,11 +292,11 @@ DocumentVersion
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| hoursPerPoint <sup>1</sup> |   |   |   |   |   |   |
+| hoursPerPoint <sup></sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 유효성 검사기 LESS_THAN 추가됨
+<sup>1</sup> 검사기 LESS_THAN 추가됨
 
 ### 팀 할당
 
@@ -330,7 +330,7 @@ DocumentVersion
 
 {style="table-layout:auto"}
 
-<sup>1</sup> possibleValues 변경
+possibleValues에 대한 <sup>1</sup> 변경 사항
 
 ### 사용자
 
@@ -348,19 +348,19 @@ DocumentVersion
 
 {style="table-layout:auto"}
 
-<sup>1</sup> possibleValues 변경
+possibleValues에 대한 <sup>1</sup> 변경 사항
 
 ### 작업
 
 | 필드 | 참조 | 컬렉션 | 검색 | 액션 | 쿼리 | 작업 |
 |---|---|---|---|---|---|---|
-| kanbanbflag |  |  | pendingApproval <sup>1</sup>  |   |   |   |
+| kanbanbflag |  |  | 승인 보류 중 <sup>1</sup>  |   |   |   |
 | `masterTaskID` |   |   |   |   |   |   |
 | priorityColor  |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 유형이 null에서 부울로 변경됨
+<sup>1</sup> 형식이 null에서 부울로 변경됨
 
 ## 제거된 리소스 {#removed-resources}
 

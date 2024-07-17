@@ -9,7 +9,7 @@ role: Developer
 exl-id: 2971749d-1d34-42a4-9eda-411aa8c3a2ab
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -26,15 +26,15 @@ ht-degree: 0%
 
 API의 새 버전은 정기적으로(보통 1년에 두 번) 릴리스됩니다. 각 버전은 릴리스 날짜 이후 3년 동안 지원되며, 버전을 사용할 수 있지만 지원되지 않는 더 이상 사용되지 않는 상태에서 연도가 추가됩니다.
 
-Workfront API의 릴리스 케이던스 및 사용 중단 일정에 대한 자세한 내용은 다음을 참조하십시오. [API 버전 관리 및 지원 일정](../../wf-api/api/api-version-support-schedule.md).
+Workfront API의 릴리스 케이던스 및 사용 중단 일정에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](../../wf-api/api/api-version-support-schedule.md)을 참조하십시오.
 
 >[!IMPORTANT]
 >
->* API의 기본 버전은 최신 버전으로 설정됩니다. 지정된 버전이 없는 모든 API 호출은 기본 버전을 사용합니다. Workfront이 새 버전의 API를 릴리스할 때마다 기본 버전이 최신 버전으로 업데이트됩니다. **따라서 새 버전의 Workfront API가 릴리스된 후 기본 버전을 사용하는 모든 API 호출은 기능이 계속 지원되는지 확인해야 합니다.**
+>* API의 기본 버전은 최신 버전으로 설정됩니다. 지정된 버전이 없는 모든 API 호출은 기본 버전을 사용합니다. Workfront이 새 버전의 API를 릴리스할 때마다 기본 버전이 최신 버전으로 업데이트됩니다. **따라서 새 버전의 Workfront API가 출시된 후에는 기본 버전을 사용하는 모든 API 호출이 기능이 계속 지원되는지 확인해야 합니다.**
 >
 >* 조직에서 현재 기본 API를 사용 중인 경우 Workfront 관리자가 기본 API에 대한 추가 지침이 포함된 공지 센터 메시지를 받았습니다.
 >
->최신 버전의 API를 보려면 를 참조하십시오. [API 버전 관리 및 지원 일정](../../wf-api/api/api-version-support-schedule.md).
+>최신 버전의 API를 보려면 [API 버전 관리 및 지원 일정](../../wf-api/api/api-version-support-schedule.md)을 참조하십시오.
 
 
 ## 사용 중인 API 버전 확인

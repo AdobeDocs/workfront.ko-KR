@@ -11,7 +11,7 @@ exl-id: 996398c5-de92-445e-8e86-36b2efdcf6b5
 source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
 source-wordcount: '558'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 프로젝트의 계획된 완료 일자는 프로젝트가 완료되도록 설정된 일자입니다.
 
-프로젝트의 계획된 시작 및 계획된 완료 일자는 프로젝트에 대한 작업 일자에 따라 달라집니다. 이 문서에서는 프로젝트의 계획된 완료 일자를 수동 또는 자동으로 설정하는 방법에 대해 설명합니다. 작업의 계획된 완료 일자에 대한 자세한 내용은 [작업 계획 완료 일자 개요](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
+프로젝트의 계획된 시작 및 계획된 완료 일자는 프로젝트에 대한 작업 일자에 따라 달라집니다. 이 문서에서는 프로젝트의 계획된 완료 일자를 수동 또는 자동으로 설정하는 방법에 대해 설명합니다. 작업의 계획된 완료 날짜에 대한 자세한 내용은 [작업의 계획된 완료 일자 개요](../../../manage-work/tasks/task-information/task-planned-completion-date.md)를 참조하십시오.
 
 프로젝트의 계획된 완료 일자는 시작 일자부터 또는 완료 일자부터 프로젝트를 스케줄링하는지에 따라 수동 또는 자동으로 설정할 수 있습니다.
 
@@ -64,7 +64,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
@@ -74,11 +74,11 @@ ht-degree: 0%
    <td role="rowheader">액세스 수준 구성*</td> 
    <td> <p>프로젝트에 대한 액세스 편집</p> <p><b>메모</b>
 
-여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td>
+여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>프로젝트에 대한 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>프로젝트에 대한 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -96,20 +96,20 @@ ht-degree: 0%
 
 완료 일자부터 프로젝트를 스케줄링하려면
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) 오른쪽 상단에서 을(를) 클릭한 다음 **프로젝트**.
+1. 오른쪽 상단의 **주 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **프로젝트**&#x200B;를 클릭합니다.
 
-1. 클릭 **새 프로젝트** 그러면&#x200B;**새 프로젝트**.
+1. **새 프로젝트**&#x200B;를 클릭한 다음&#x200B;**새 프로젝트**&#x200B;를 클릭합니다.
 
-   프로젝트 만들기에 대한 자세한 내용은 문서 를 참조하십시오 [프로젝트 만들기](../../../manage-work/projects/create-projects/create-project.md).
+   프로젝트 만들기에 대한 자세한 내용은 문서 [프로젝트 만들기](../../../manage-work/projects/create-projects/create-project.md)를 참조하십시오.
 
-1. 선택 **프로젝트 세부 정보** 왼쪽 패널에서 를 클릭한 다음 **프로젝트 편집** 오른쪽 위 모서리에 있는 아이콘
+1. 왼쪽 패널에서 **프로젝트 세부 정보**&#x200B;를 선택한 다음 오른쪽 상단의 **프로젝트 편집** 아이콘을 클릭합니다.
 
-1. 다음에서 **일정 모드** 필드, 선택 **완료 일자**.
+1. **일정 모드** 필드에서 **완료 날짜**&#x200B;를 선택합니다.
 
-1. 다음을 지정합니다. **계획된 완료 일자** 을 참조하십시오.
-1. 클릭 **변경 내용 저장**.
+1. 프로젝트의 **계획된 완료 일자**&#x200B;를 지정하십시오.
+1. **변경 내용 저장**&#x200B;을 클릭합니다.
 
-   프로젝트에 작업을 추가하면 **계획된 시작 일자** 모든 작업의 총 지속 시간을 기반으로 계산됩니다. 
+   프로젝트에 작업을 추가할 때 프로젝트의 **계획된 시작 일자**&#x200B;는 모든 작업의 총 기간을 기반으로 계산됩니다. 
 
 ## 프로젝트의 계획된 완료 일자 자동 설정
 
@@ -117,22 +117,22 @@ ht-degree: 0%
 
 시작 일자부터 프로젝트를 스케줄링하려면
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) 오른쪽 상단에서 을(를) 클릭한 다음 **프로젝트**.
+1. 오른쪽 상단의 **주 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **프로젝트**&#x200B;를 클릭합니다.
 
-1. 클릭 **새 프로젝트** 그러면&#x200B;**새 프로젝트**.
+1. **새 프로젝트**&#x200B;를 클릭한 다음&#x200B;**새 프로젝트**&#x200B;를 클릭합니다.
 
-   프로젝트 만들기에 대한 자세한 내용은 문서 를 참조하십시오 [프로젝트 만들기](../../../manage-work/projects/create-projects/create-project.md).
+   프로젝트 만들기에 대한 자세한 내용은 문서 [프로젝트 만들기](../../../manage-work/projects/create-projects/create-project.md)를 참조하십시오.
 
-1. 선택 **프로젝트 세부 정보** 왼쪽 패널에서 를 클릭한 다음 **프로젝트 편집** 오른쪽 위 모서리에 있는 아이콘
+1. 왼쪽 패널에서 **프로젝트 세부 정보**&#x200B;를 선택한 다음 오른쪽 상단의 **프로젝트 편집** 아이콘을 클릭합니다.
 
-1. 다음에서 **일정 모드** 필드, 선택 **시작일**.
+1. **일정 모드** 필드에서 **시작 날짜**&#x200B;를 선택합니다.
 
-1. 다음을 지정합니다. **계획된 시작 일자** 을 참조하십시오.
-1. 클릭 **변경 내용 저장**.
+1. 프로젝트의 **계획된 시작 일자**&#x200B;를 지정하십시오.
+1. **변경 내용 저장**&#x200B;을 클릭합니다.
 
-   프로젝트에 작업을 추가하면 **계획된 완료 일자** 모든 작업의 총 지속 시간을 기반으로 계산됩니다. 
+   프로젝트에 작업을 추가하면 프로젝트의 **계획된 완료 일자**&#x200B;가 모든 작업의 총 기간을 기반으로 계산됩니다. 
 
-   작업 기간에 대한 자세한 내용은 문서 를 참조하십시오 [작업 기간 및 기간 유형 개요](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+   작업 기간에 대한 자세한 내용은 문서 [작업 기간 및 기간 유형 개요](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)를 참조하십시오.
 
    이 경우 프로젝트의 계획된 완료 일자와 프로젝트의 마지막 작업의 계획된 완료 일자가 일치합니다.
 

@@ -26,11 +26,11 @@ ht-degree: 0%
 
 먼저 모든 사용자가 Workfront 인스턴스의 설정 영역에서 수신할 알림을 지정해야 합니다. 설정 영역에서 알림을 활성화하면 각 사용자의 프로필 페이지에서 해당 알림이 활성화된 상태로 표시됩니다.
 
-설정 영역에서 알림이 활성화되고 알림이 사용자의 프로필 페이지에 표시되면 개별 사용자 또는 플랜 라이선스가 있는 다른 사용자는 사용자 프로필에서 활성화된 알림을 구성하여 특정 사용자가 수신하는 알림과 그 빈도를 제어할 수도 있습니다. 자세한 내용은 [이메일 알림 수정](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+설정 영역에서 알림이 활성화되고 알림이 사용자의 프로필 페이지에 표시되면 개별 사용자 또는 플랜 라이선스가 있는 다른 사용자는 사용자 프로필에서 활성화된 알림을 구성하여 특정 사용자가 수신하는 알림과 그 빈도를 제어할 수도 있습니다. 자세한 내용은 [전자 메일 알림 수정](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)을 참조하세요.
 
-활성화 및 비활성화할 수 있는 모든 이벤트 알림의 목록은 을 참조하십시오. [이벤트 알림 유형](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+활성화하거나 비활성화할 수 있는 모든 이벤트 알림 목록을 보려면 [이벤트 알림 유형](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)을 참조하세요.
 
-그룹 관리자가 그룹에 대해 구성할 수 있도록 이벤트 알림을 잠금 해제하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [모든 그룹에 대한 이벤트 알림 구성 잠금 해제 또는 잠금](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md) 및 [그룹에 대한 이벤트 알림 보기 및 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
+그룹 관리자가 그룹에 대해 구성할 수 있도록 이벤트 알림 잠금 해제에 대한 자세한 내용은 [모든 그룹에 대한 이벤트 알림 잠금 해제 또는 잠금](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md) 및 [그룹에 대한 이벤트 알림 보기 및 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)을 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -60,7 +60,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -70,28 +70,28 @@ ht-degree: 0%
 
 >[!TIP]
 >
->설정 영역에서 Workfront 목표에 대한 알림을 활성화할 수 없습니다. 사용자는 프로필에서만 이러한 알림을 활성화할 수 있습니다. 플랜 라이선스가 있는 사용자는 다른 사용자를 위해 활성화할 수 있습니다. 사용자를 위한 Workfront 목표 알림 활성화에 대한 자세한 내용은 을 참조하십시오. [알림: 목표](../../../workfront-basics/using-notifications/notifications-goals.md).
+>설정 영역에서 Workfront 목표에 대한 알림을 활성화할 수 없습니다. 사용자는 프로필에서만 이러한 알림을 활성화할 수 있습니다. 플랜 라이선스가 있는 사용자는 다른 사용자를 위해 활성화할 수 있습니다. 사용자를 위한 Workfront 목표 알림을 사용하는 방법에 대한 자세한 내용은 [알림: 목표](../../../workfront-basics/using-notifications/notifications-goals.md)를 참조하십시오.
 
 {{step-1-to-setup}}
 
-1. 클릭 **이메일** > **알림**.
+1. **전자 메일** > **알림**&#x200B;을 클릭합니다.
 
    ![](assets/notifications-area-under-setup-emails.png)
 
 
-1. 다음을 확인합니다. **이벤트 알림** 탭이 열려 있습니다.
+1. **이벤트 알림** 탭이 열려 있는지 확인하십시오.
 1. 이벤트 이름의 왼쪽으로 스위치를 전환하여 켜거나 끕니다.
 
-   이벤트에 대한 기본 알림 상태를 보려면 [이벤트 알림](../../../workfront-basics/using-notifications/event-notifications.md).
+   이벤트의 기본 알림 상태를 보려면 [이벤트 알림](../../../workfront-basics/using-notifications/event-notifications.md)을 참조하세요.
 
 1. (선택 사항) 이벤트 알림의 이름을 클릭하여 이메일 알림의 제목 줄을 사용자 지정합니다.
 
-   이메일 알림의 제목 줄 사용자 지정에 대한 자세한 내용은 [이벤트 알림에 대한 이메일 제목 사용자 지정](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md).
+   전자 메일 알림의 제목 줄을 사용자 지정하는 방법에 대한 자세한 내용은 [이벤트 알림에 대한 전자 메일 제목 사용자 지정](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)을 참조하십시오.
 
-1. (선택 사항) 그룹 관리자가 그룹에 대해 별도로 구성할 수 있도록 이메일 알림에 대한 구성을 잠금 해제하려면 버튼을 클릭합니다 ![](assets/lock-toggle-button.png) 알림 오른쪽에 잠금 해제 위치로 전환하십시오. ![](assets/unlock-toggle-button.png).
+1. (선택 사항) 그룹 관리자가 그룹에 대해 별도로 구성할 수 있도록 전자 메일 알림에 대한 구성을 잠금 해제하려면 알림 오른쪽에 있는 ![](assets/lock-toggle-button.png) 단추를 클릭하여 잠금 해제된 위치 ![](assets/unlock-toggle-button.png)(으)로 전환하십시오.
 
    >[!NOTE]
    >
    >이 기능은 처음에는 단계적 롤아웃의 일부로 클러스터 4의 고객만 사용할 수 있습니다. 곧 다른 클러스터에서 사용할 수 있게 됩니다. 이 문서는 이에 따라 업데이트됩니다.
 
-   자세한 내용은 [모든 그룹에 대한 이벤트 알림 구성 잠금 해제 또는 잠금](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
+   자세한 내용은 [모든 그룹에 대한 이벤트 알림 구성 잠금 해제 또는 잠금](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)을 참조하세요.

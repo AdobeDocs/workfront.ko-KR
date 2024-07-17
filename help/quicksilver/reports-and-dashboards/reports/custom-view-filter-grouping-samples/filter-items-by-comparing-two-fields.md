@@ -28,7 +28,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
@@ -39,11 +39,11 @@ ht-degree: 0%
    <td role="rowheader">액세스 수준 구성*</td> 
    <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 권한을 편집하여 보고서 수정</p> <p>필터, 보기, 그룹화에 대한 액세스 권한을 편집하여 필터 수정</p> <p><b>메모</b>
 
-여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td>
+여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td>
 </tr>
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>보고서에 대한 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>보고서에 대한 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,19 +53,19 @@ ht-degree: 0%
 ## 두 필드를 비교하여 항목 필터링
 
 1. 작업 목록으로 이동합니다.
-1. 다음에서 **필터** 드롭다운 메뉴에서 다음을 선택합니다. **새 필터**.
+1. **필터** 드롭다운 메뉴에서 **새 필터**&#x200B;을(를) 선택합니다.
 
-1. 클릭 **필터 규칙 추가** 및 추가 **실제 완료 일자** >**보다 큼** > **날짜 선택**.
+1. **필터 규칙 추가**&#x200B;를 클릭하고 **실제 완료 날짜** >**보다 큼** > **날짜 선택**&#x200B;을(를) 추가합니다.
 
    >[!TIP]
    >
    >사용 가능한 경우 선택한 필드에 사용할 필터 수정자를 선택합니다.
 
-1. 클릭 **텍스트 모드로 전환**.
-1. 다음에서 **보고서에 대한 필터 규칙 설정** 영역에 다음 코드를 추가합니다.
+1. **텍스트 모드로 전환**&#x200B;을 클릭합니다.
+1. **보고서에 대한 필터 규칙 설정** 영역에 다음 코드를 추가합니다.
 
    ```
    actualCompletionDate=FIELD:plannedCompletionDate<br>actualCompletionDate_Mod=gt
    ```
 
-1. 클릭 **완료**, 그런 다음 **필터 저장**.
+1. **완료**&#x200B;를 클릭한 다음 **필터 저장**&#x200B;을 클릭합니다.

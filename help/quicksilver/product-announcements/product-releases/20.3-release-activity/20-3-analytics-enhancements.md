@@ -18,7 +18,7 @@ ht-degree: 0%
 
 이 페이지에서는 프로덕션 환경에 대한 20.3 릴리스의 모든 분석 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2020년 8월 10일 주에 프로덕션 환경에서 사용할 수 있습니다.
 
-20.3 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [20.3 릴리스 개요](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
+20.3 릴리스에서 사용할 수 있는 모든 변경 사항 목록은 [20.3 릴리스 개요](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md)를 참조하십시오.
 
 ## 향상된 분석이 제공됩니다!
 
@@ -34,5 +34,5 @@ ht-degree: 0%
 
 얻을 수 있는 통찰력 외에도 상태 업데이트, 업데이트 요청, 누군가에게 작업 할당 등과 같은 작업에 대한 작업을 완료할 수 있습니다.- 고급 분석 영역에서 바로 액세스
 
-자세한 내용은 [향상된 분석 개요](../../../enhanced-analytics/enhanced-analytics-overview.md).
+자세한 내용은 [향상된 분석 개요](../../../enhanced-analytics/enhanced-analytics-overview.md)를 참조하십시오.
 

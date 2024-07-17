@@ -21,6 +21,6 @@ ht-degree: 0%
 
 문제 보고서 또는 문제 목록 보기에서 문제의 기간을 표시할 수 있습니다.
 
-보고서 빌드에 대한 자세한 내용은 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+보고서 작성에 대한 자세한 내용은 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)를 참조하십시오.
 
 ![](assets/nwe-issue-duration-view-highlighted-350x73.png)

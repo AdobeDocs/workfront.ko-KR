@@ -25,7 +25,7 @@ in January 2022
 
 2022년 4월 4일이 있는 주
 
-22.2 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [22.2 릴리스 개요](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+22.2 릴리스에서 사용할 수 있는 모든 변경 사항 목록을 보려면 [22.2 릴리스 개요](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md)를 참조하십시오.
 
 ## 상단 탐색 모음 개선 사항
 
@@ -35,7 +35,7 @@ Adobe Workfront 상단 탐색 막대를 몇 가지 개선했습니다.
 * 핀과 메인 메뉴의 모양과 느낌이 모두 색상 및 글꼴을 포함한 Adobe 디자인 기준으로 업데이트되었습니다. 주 메뉴에서 액세스 권한이 있는 영역 및 핀을 추가하거나 제거하는 방법은 변경되지 않았습니다.
 * 상단 탐색 막대 오른쪽에 있는 아이콘은 보다 직관적으로 순서가 변경되었습니다. 아이콘 순서는 다음과 같습니다. 도움말 링크, 알림, 즐겨찾기, 최근 항목, 검색, 기본 메뉴.
 
-자세한 내용은 [상단 탐색 막대 개요](../../../workfront-basics/the-new-workfront-experience/global-navigation-overview.md).
+자세한 내용은 [위쪽 탐색 모음 개요](../../../workfront-basics/the-new-workfront-experience/global-navigation-overview.md)를 참조하십시오.
 
 ## 다시 디자인된 타임시트 목록
 
@@ -46,5 +46,5 @@ Workfront을 새 Adobe Workfront 경험과 일관되게 사용하기 위해 타�
 * 이제 타임시트 목록이 Workfront의 다른 모든 목록에 있는 경험과 일치합니다.
 * 이제 필터 경험이 다른 모든 목록의 필터와 일치합니다. 사용자에게 가장 적합한 필드 및 속성으로 필터를 직접 만들고 다른 사용자와 공유할 수 있는 유연성이 향상됩니다.
 
-새 목록을 사용하여 타임시트를 만드는 방법에 대한 자세한 내용은 [일회용 타임시트 만들기](../../../timesheets/create-and-manage-timesheets/create-tmshts.md).
+새 목록을 사용하여 타임시트를 만드는 방법에 대한 자세한 내용은 [일회용 타임시트 만들기](../../../timesheets/create-and-manage-timesheets/create-tmshts.md)를 참조하십시오.
 

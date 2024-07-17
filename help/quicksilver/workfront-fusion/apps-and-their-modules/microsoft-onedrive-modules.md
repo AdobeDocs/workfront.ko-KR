@@ -5,7 +5,7 @@ product-area: workfront-integrations;documents
 keywords: 커넥터
 navigation-topic: apps-and-their-modules
 title: Microsoft OneDrive 모듈
-description: 다음에서 [!DNL Adobe Workfront Fusion] 시나리오에서는 OneDrive를 사용하는 워크플로를 자동화할 수 있을 뿐만 아니라 여러 타사 응용 프로그램 및 서비스에 연결할 수 있습니다.
+description: ' [!DNL Adobe Workfront Fusion] 시나리오에서는 OneDrive를 사용하는 워크플로를 자동화하고 여러 타사 응용 프로그램 및 서비스에 연결할 수 있습니다.'
 author: Becky
 feature: Workfront Fusion
 exl-id: 13a25c6c-bdf1-467d-bd90-ebd763c59235
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft OneDrive] 모듈
+# [!DNL Microsoft OneDrive]개 모듈
 
-다음에서 [!DNL Adobe Workfront Fusion] 시나리오에서는 다음을 사용하는 워크플로를 자동화할 수 있습니다 [!DNL OneDrive]을 여러 타사 응용 프로그램 및 서비스에 연결할 수 있습니다.
+[!DNL Adobe Workfront Fusion] 시나리오에서는 [!DNL OneDrive]을(를) 사용하는 워크플로를 자동화하고 여러 타사 응용 프로그램 및 서비스에 연결할 수 있습니다.
 
-시나리오를 만드는 방법에 대한 지침이 필요한 경우 [에서 시나리오 만들기 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+시나리오를 만드는 방법에 대한 지침이 필요하면 [시나리오 만들기 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md)를 참조하십시오.
 
-모듈에 대한 자세한 내용은 [의 모듈 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+모듈에 대한 자세한 내용은 [의 모듈 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md)을 참조하세요.
 
 ## 액세스 요구 사항
 
@@ -43,36 +43,36 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 라이센스**</td> 
    <td>
-   <p>현재 라이선스 요구 사항: 아니요 [!DNL Workfront Fusion] 라이센스 요구 사항.</p>
+   <p>현재 라이선스 요구 사항: [!DNL Workfront Fusion] 라이선스 요구 사항이 없습니다.</p>
    <p>또는</p>
-   <p>기존 라이선스 요구 사항: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
+   <p>레거시 라이선스 요구 사항: 작업 자동화 및 통합을 위한 [!UICONTROL [!DNL Workfront Fusion]] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">제품</td> 
    <td>
-   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime]이 있는 경우 [!DNL Adobe Workfront] 플랜, 조직은 다음을 구매해야 합니다. [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오. [!DNL Workfront Fusion] [!UICONTROL Ultimate]에 포함되어 있습니다. [!DNL Workfront] 계획.</p>
+   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime] [!DNL Adobe Workfront] 플랜이 있는 경우 조직에서 이 문서에 설명된 기능을 사용하려면 [!DNL Adobe Workfront Fusion]과(와) [!DNL Adobe Workfront]을(를) 구매해야 합니다. [!DNL Workfront Fusion]이(가) [!UICONTROL Ultimate] [!DNL Workfront] 계획에 포함되어 있습니다.</p>
    <p>또는</p>
-   <p>레거시 제품 요구 사항: 조직에서 구매해야 함 [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오.</p>
+   <p>레거시 제품 요구 사항: 이 문서에 설명된 기능을 사용하려면 조직에서 [!DNL Adobe Workfront Fusion]과(와) [!DNL Adobe Workfront]을(를) 구매해야 합니다.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
+보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
 
-다음에 대한 정보: [!DNL Adobe Workfront Fusion] 라이센스, 참조 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+[!DNL Adobe Workfront Fusion] 라이선스에 대한 자세한 내용은 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md)를 참조하세요.
 
 ## 전제 조건
 
-사용 [!DNL OneDrive] 모듈, 다음이 있어야 합니다. [!DNL Microsoft OneDrive] 계정입니다.
+[!DNL OneDrive] 모듈을 사용하려면 [!DNL Microsoft OneDrive] 계정이 있어야 합니다.
 
 
 
 
-## 연결 중 [!DNL OneDrive] 서비스 대상 [!DNL Workfront Fusion]
+## [!DNL Workfront Fusion]에 [!DNL OneDrive] 서비스를 연결하는 중
 
-연결에 대한 자세한 내용 [!DNL OneDrive] 계정 위치: [!UICONTROL Workfront Fusion], 참조 [에 대한 연결 만들기 [!UICONTROL Adobe Workfront Fusion] - 기본 지침](../../workfront-fusion/connections/connect-to-fusion-general.md)
+[!DNL OneDrive] 계정을 [!UICONTROL Workfront Fusion]에 연결하는 방법에 대한 지침은 [[!UICONTROL Adobe Workfront Fusion에 연결 만들기] - 기본 지침](../../workfront-fusion/connections/connect-to-fusion-general.md)을 참조하십시오.
 
 >[!NOTE]
 >
@@ -80,11 +80,11 @@ ht-degree: 0%
 >
 >예를 들어 사용자가 Excel 커넥터를 통해 부여된 &quot;테이블 읽기&quot; 권한을 가지고 있는 다음 Outlook 커넥터에서 연결을 만들어 이메일을 읽은 경우 권한 동의 화면에 이미 부여된 &quot;테이블 읽기&quot; 권한과 새로 필요한 &quot;이메일 쓰기&quot; 권한이 모두 표시됩니다.
 
-## [!DNL Microsoft OneDrive] 모듈 및 해당 필드
+## [!DNL Microsoft OneDrive]개 모듈 및 해당 필드
 
-를 구성할 때 [!DNL OneDrive] 모듈, [!DNL Workfront Fusion] 아래 나열된 필드를 표시합니다. 이와 함께 추가 [!DNL OneDrive] 앱이나 서비스의 액세스 수준 등에 따라 필드가 표시될 수 있습니다. 모듈의 굵은 제목은 필수 필드를 나타냅니다.
+[!DNL OneDrive] 모듈을 구성할 때 [!DNL Workfront Fusion]에 아래 나열된 필드가 표시됩니다. 앱 또는 서비스의 액세스 수준과 같은 요소에 따라 이러한 필드와 함께 [!DNL OneDrive] 필드가 추가로 표시될 수 있습니다. 모듈의 굵은 제목은 필수 필드를 나타냅니다.
 
-필드나 함수 위에 맵 단추가 표시되면 이 단추를 사용하여 해당 필드에 대한 변수와 함수를 설정할 수 있습니다. 자세한 내용은 [의 한 모듈에서 다른 모듈로 정보 매핑 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+필드나 함수 위에 맵 단추가 표시되면 이 단추를 사용하여 해당 필드에 대한 변수와 함수를 설정할 수 있습니다. 자세한 내용은 [한 모듈에서 다른 모듈로 정보를 매핑 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)을 참조하십시오.
 
 ![](assets/map-toggle-350x74.png)
 
@@ -114,27 +114,27 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>연결에 대한 자세한 내용 [!DNL OneDrive] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></td> 
+   <td>[!DNL OneDrive] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 감시 파일/폴더]</td> 
    <td> <p>파일 또는 폴더를 볼 방법을 선택하십시오.</p> 
     <ul> 
-     <li> <p><b>만든 시간별 [!UICONTROL]</b> </p> <p>새 파일 또는 폴더를 확인하십시오.</p> </li> 
-     <li> <p><b>업데이트된 시간별 [!UICONTROL]</b> </p> <p>업데이트된 기존 파일 또는 폴더를 확인하십시오.</p> </li> 
+     <li> <p><b>[!UICONTROL 작성일 기준]</b> </p> <p>새 파일 또는 폴더를 확인하십시오.</p> </li> 
+     <li> <p>업데이트된 시간까지 <b>[!UICONTROL]</b> </p> <p>업데이트된 기존 파일 또는 폴더를 확인하십시오.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 다음을 선택합니다. [!DNL OneDrive] location]</td> 
+   <td role="rowheader">[!UICONTROL [!DNL OneDrive] 위치 선택]</td> 
    <td> <p>감시할 위치 선택:</p> 
     <ul> 
      <li> <p><b>[!UICONTROL 내 드라이브]</b> </p> <p>모듈에서 드라이브 ID를 입력하도록 할지 여부를 선택합니다.</p> 
       <ul> 
-       <li> <p><b>[!UICONTROL 예]</b> </p> <p>모듈에서 볼 드라이브의 ID를 입력합니다.</p> </li> 
-       <li> <p><b>[!UICONTROL No]</b> </p> <p>모듈에서 감시할 폴더로 이동합니다. 쿼리를 입력하여 반환된 결과를 필터링할 수도 있습니다.</p> </li> 
+       <li> <p><b>[!UICONTROL Yes]</b> </p> <p>모듈에서 볼 드라이브의 ID를 입력합니다.</p> </li> 
+       <li> <p><b>[!UICONTROL 번호]</b> </p> <p>모듈에서 감시할 폴더로 이동합니다. 쿼리를 입력하여 반환된 결과를 필터링할 수도 있습니다.</p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL 나와 공유됨]</b> </p> <p>모듈은 드라이브 소유자와 공유된 파일을 감시합니다.</p> </li> 
-     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>모듈에서 볼 SharePoint 사이트를 선택합니다. 사용 가능한 사이트는 사이트 다음에 로그인한 사용자가 표시됩니다.</p> </li> 
+     <li> <p><b>[!UICONTROL이 나와 공유됨]</b> </p> <p>모듈은 드라이브 소유자와 공유된 파일을 감시합니다.</p> </li> 
+     <li> <p><b>[!UICONTROL 사이트의 드라이브]</b> </p> <p>모듈에서 볼 SharePoint 사이트를 선택합니다. 사용 가능한 사이트는 사이트 다음에 로그인한 사용자가 표시됩니다.</p> </li> 
      <li> <p><b>[!UICONTROL 그룹의 드라이브]</b> </p> <p>모듈에서 조사할 드라이브의 그룹을 선택합니다.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -161,19 +161,19 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>연결에 대한 자세한 내용 [!DNL OneDrive] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></td> 
+   <td>[!DNL OneDrive] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 다음을 선택합니다. [!DNL OneDrive] location]</td> 
+   <td role="rowheader">[!UICONTROL [!DNL OneDrive] 위치 선택]</td> 
    <td> <p>검색할 위치를 선택합니다.</p> 
     <ul> 
      <li> <p><b>[!UICONTROL 내 드라이브]</b> </p> <p>모듈에서 드라이브 ID를 입력하도록 할지 여부를 선택합니다.</p> 
       <ul> 
-       <li> <p><b>[!UICONTROL 예]</b> </p> <p>모듈이 검색할 드라이브의 ID를 입력합니다.</p> </li> 
-       <li> <p><b>[!UICONTROL No]</b> </p> <p>모듈이 검색할 폴더로 이동합니다. 쿼리를 입력하여 반환된 결과를 필터링할 수도 있습니다.</p> </li> 
+       <li> <p><b>[!UICONTROL Yes]</b> </p> <p>모듈이 검색할 드라이브의 ID를 입력합니다.</p> </li> 
+       <li> <p><b>[!UICONTROL 번호]</b> </p> <p>모듈이 검색할 폴더로 이동합니다. 쿼리를 입력하여 반환된 결과를 필터링할 수도 있습니다.</p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL 나와 공유됨]</b> </p> <p>모듈은 드라이브 소유자와 공유된 파일을 검색합니다.</p> </li> 
-     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>다음 항목 선택 [!DNL SharePoint] 모듈이 검색할 사이트입니다. 사용 가능한 사이트는 사이트 다음에 로그인한 사용자가 표시됩니다.</p> </li> 
+     <li> <p><b>[!UICONTROL이 나와 공유됨]</b> </p> <p>모듈은 드라이브 소유자와 공유된 파일을 검색합니다.</p> </li> 
+     <li> <p><b>[!UICONTROL 사이트의 드라이브]</b> </p> <p>모듈이 검색할 [!DNL SharePoint] 사이트를 선택하십시오. 사용 가능한 사이트는 사이트 다음에 로그인한 사용자가 표시됩니다.</p> </li> 
      <li> <p><b>[!UICONTROL 그룹의 드라이브]</b> </p> <p>모듈에서 검색할 드라이브의 그룹을 선택합니다.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -198,7 +198,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>연결에 대한 자세한 내용 [!DNL OneDrive] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></td> 
+   <td>[!DNL OneDrive] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enter (File ID &amp; File Path)]</td> 
@@ -213,15 +213,15 @@ ht-degree: 0%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 다음을 선택합니다. [!DNL OneDrive] location]</td> 
+   <td role="rowheader">[!UICONTROL [!DNL OneDrive] 위치 선택]</td> 
    <td> <p>검색할 위치를 선택합니다.</p> 
     <ul> 
      <li> <p><b>[!UICONTROL 내 드라이브]</b> </p> <p>모듈에서 드라이브 ID를 입력하도록 할지 여부를 선택합니다.</p> 
       <ul> 
-       <li> <p><b>[!UICONTROL 예]</b> </p> <p>가져올 파일이 포함된 드라이브의 ID를 입력합니다.</p> </li> 
-       <li> <p><b>[!UICONTROL No]</b> </p> </li> 
+       <li> <p><b>[!UICONTROL Yes]</b> </p> <p>가져올 파일이 포함된 드라이브의 ID를 입력합니다.</p> </li> 
+       <li> <p><b>[!UICONTROL 번호]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>가져올 파일이 포함된 SharePoint 사이트를 선택합니다. 사용 가능한 사이트는 사이트 다음에 로그인한 사용자가 표시됩니다.</p> </li> 
+     <li> <p><b>[!UICONTROL 사이트의 드라이브]</b> </p> <p>가져올 파일이 포함된 SharePoint 사이트를 선택합니다. 사용 가능한 사이트는 사이트 다음에 로그인한 사용자가 표시됩니다.</p> </li> 
      <li> <p><b>[!UICONTROL 그룹의 드라이브]</b> </p> <p>드라이브에 가져올 파일이 들어 있는 그룹을 선택합니다.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -246,7 +246,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>연결에 대한 자세한 내용 [!DNL OneDrive] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></td> 
+   <td>[!DNL OneDrive] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enter (File ID &amp; File Path)]</td> 
@@ -261,15 +261,15 @@ ht-degree: 0%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 다음을 선택합니다. [!DNL OneDrive] location]</td> 
+   <td role="rowheader">[!UICONTROL [!DNL OneDrive] 위치 선택]</td> 
    <td> <p>다운로드할 파일을 포함할 위치를 선택하십시오.</p> 
     <ul> 
      <li> <p><b>[!UICONTROL 내 드라이브]</b> </p> <p>모듈에서 드라이브 ID를 입력하도록 할지 여부를 선택합니다.</p> 
       <ul> 
-       <li> <p><b>[!UICONTROL 예]</b> </p> <p>다운로드할 파일이 포함된 드라이브의 ID를 입력합니다.</p> </li> 
-       <li> <p><b>[!UICONTROL No]</b> </p> </li> 
+       <li> <p><b>[!UICONTROL Yes]</b> </p> <p>다운로드할 파일이 포함된 드라이브의 ID를 입력합니다.</p> </li> 
+       <li> <p><b>[!UICONTROL 번호]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>다운로드할 파일이 포함된 SharePoint 사이트를 선택합니다. 사용 가능한 사이트는 사이트 다음에 로그인한 사용자가 표시됩니다.</p> </li> 
+     <li> <p><b>[!UICONTROL 사이트의 드라이브]</b> </p> <p>다운로드할 파일이 포함된 SharePoint 사이트를 선택합니다. 사용 가능한 사이트는 사이트 다음에 로그인한 사용자가 표시됩니다.</p> </li> 
      <li> <p><b>[!UICONTROL 그룹의 드라이브]</b> </p> <p>다운로드하려는 파일이 드라이브에 들어 있는 그룹을 선택합니다.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -334,22 +334,22 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>연결에 대한 자세한 내용 [!DNL OneDrive] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></td> 
+   <td>[!DNL OneDrive] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">(폴더 위치 ID 및 경로) 입력</td> 
    <td>ID로 대상 폴더를 식별할지 아니면 경로로 대상 폴더를 식별할지 선택합니다.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 다음을 선택합니다. [!DNL OneDrive] location]</td> 
+   <td role="rowheader">[!UICONTROL [!DNL OneDrive] 위치 선택]</td> 
    <td> <p>파일을 업로드할 위치를 선택하십시오.</p> 
     <ul> 
      <li> <p><b>[!UICONTROL 내 드라이브]</b> </p> <p>모듈에서 드라이브 ID를 입력하도록 할지 여부를 선택합니다.</p> 
       <ul> 
-       <li> <p><b>[!UICONTROL 예]</b> </p> <p>가져올 파일이 포함된 드라이브를 선택합니다.</p> </li> 
-       <li> <p><b>[!UICONTROL No]</b> </p> </li> 
+       <li> <p><b>[!UICONTROL Yes]</b> </p> <p>가져올 파일이 포함된 드라이브를 선택합니다.</p> </li> 
+       <li> <p><b>[!UICONTROL 번호]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>다음 항목 선택 [!DNL SharePoint] 파일을 업로드할 폴더가 포함된 사이트입니다. 사용 가능한 사이트는 사이트 다음에 로그인한 사용자가 표시됩니다.</p> </li> 
+     <li> <p><b>[!UICONTROL 사이트의 드라이브]</b> </p> <p>파일을 업로드할 폴더가 포함된 [!DNL SharePoint] 사이트를 선택하십시오. 사용 가능한 사이트는 사이트 다음에 로그인한 사용자가 표시됩니다.</p> </li> 
      <li> <p><b>[!UICONTROL 그룹의 드라이브]</b> </p> <p>드라이브에 파일을 업로드할 폴더가 포함된 그룹을 선택합니다.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -358,7 +358,7 @@ ht-degree: 0%
    <td> <p>파일을 업로드할 폴더가 포함된 드라이브를 선택합니다. [!UICONTROL Enable to Enter a Drive ID] 필드에서 [!UICONTROL No]를 선택한 경우에는 이 필드를 사용할 수 없습니다.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 소스 파일]</td> 
+   <td role="rowheader">[!UICONTROL Source 파일]</td> 
    <td> <p>이전 모듈에서 소스 파일을 선택하거나 소스 파일의 이름과 데이터를 매핑합니다.</p> </td> 
   </tr> 
   <tr> 
@@ -382,18 +382,18 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>연결에 대한 자세한 내용 [!DNL OneDrive] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></td> 
+   <td>[!DNL OneDrive] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 다음을 선택합니다. [!DNL OneDrive] location]</td> 
+   <td role="rowheader">[!UICONTROL [!DNL OneDrive] 위치 선택]</td> 
    <td> <p>폴더를 만들 위치를 선택하십시오.</p> 
     <ul> 
      <li> <p><b>[!UICONTROL 내 드라이브]</b> </p> <p>모듈에서 드라이브 ID를 입력하도록 할지 여부를 선택합니다.</p> 
       <ul> 
-       <li> <p><b>[!UICONTROL 예]</b> </p> <p>폴더를 만들 드라이브를 선택합니다.</p> </li> 
-       <li> <p><b>[!UICONTROL No]</b> </p> </li> 
+       <li> <p><b>[!UICONTROL Yes]</b> </p> <p>폴더를 만들 드라이브를 선택합니다.</p> </li> 
+       <li> <p><b>[!UICONTROL 번호]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>다음 항목 선택 [!DNL SharePoint] 폴더를 만들 사이트입니다. 사용 가능한 사이트는 사이트 다음에 로그인한 사용자가 표시됩니다.</p> </li> 
+     <li> <p><b>[!UICONTROL 사이트의 드라이브]</b> </p> <p>폴더를 만들 [!DNL SharePoint] 사이트를 선택하십시오. 사용 가능한 사이트는 사이트 다음에 로그인한 사용자가 표시됩니다.</p> </li> 
      <li> <p><b>[!UICONTROL 그룹의 드라이브]</b> </p> <p>폴더를 만들 드라이브를 소유한 그룹을 선택합니다.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -426,7 +426,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>연결에 대한 자세한 내용 [!DNL OneDrive] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></td> 
+   <td>[!DNL OneDrive] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enter (File ID &amp; File Path)]</td> 
@@ -441,15 +441,15 @@ ht-degree: 0%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 다음을 선택합니다. [!DNL OneDrive] location]</td> 
+   <td role="rowheader">[!UICONTROL [!DNL OneDrive] 위치 선택]</td> 
    <td> <p>공유 링크를 검색할 위치 선택:</p> 
     <ul> 
      <li> <p><b>[!UICONTROL 내 드라이브]</b> </p> <p>모듈에서 드라이브 ID를 입력하도록 할지 여부를 선택합니다.</p> 
       <ul> 
-       <li> <p><b>[!UICONTROL 예]</b> </p> <p>공유 링크를 검색할 파일이 포함된 드라이브의 ID를 입력합니다.</p> </li> 
-       <li> <p><b>[!UICONTROL No]</b> </p> </li> 
+       <li> <p><b>[!UICONTROL Yes]</b> </p> <p>공유 링크를 검색할 파일이 포함된 드라이브의 ID를 입력합니다.</p> </li> 
+       <li> <p><b>[!UICONTROL 번호]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>공유 링크를 검색할 파일이 포함된 SharePoint 사이트를 선택합니다. 사용 가능한 사이트는 사이트 다음에 로그인한 사용자가 표시됩니다.</p> </li> 
+     <li> <p><b>[!UICONTROL 사이트의 드라이브]</b> </p> <p>공유 링크를 검색할 파일이 포함된 SharePoint 사이트를 선택합니다. 사용 가능한 사이트는 사이트 다음에 로그인한 사용자가 표시됩니다.</p> </li> 
      <li> <p><b>[!UICONTROL 그룹의 드라이브]</b> </p> <p>공유 링크를 검색할 파일이 드라이브에 들어 있는 그룹을 선택합니다.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -482,7 +482,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>연결에 대한 자세한 내용 [!DNL OneDrive] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></td> 
+   <td>[!DNL OneDrive] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enter (File ID &amp; File Path)]</td> 
@@ -497,15 +497,15 @@ ht-degree: 0%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 다음을 선택합니다. [!DNL OneDrive] location]</td> 
+   <td role="rowheader">[!UICONTROL [!DNL OneDrive] 위치 선택]</td> 
    <td> <p>이동할 파일 또는 폴더가 포함된 위치를 선택합니다.</p> 
     <ul> 
      <li> <p><b>[!UICONTROL 내 드라이브]</b> </p> <p>모듈에서 드라이브 ID를 입력하도록 할지 여부를 선택합니다.</p> 
       <ul> 
-       <li> <p><b>[!UICONTROL 예]</b> </p> <p>이동할 파일 또는 폴더가 포함된 드라이브의 ID를 입력합니다.</p> </li> 
-       <li> <p><b>[!UICONTROL No]</b> </p> </li> 
+       <li> <p><b>[!UICONTROL Yes]</b> </p> <p>이동할 파일 또는 폴더가 포함된 드라이브의 ID를 입력합니다.</p> </li> 
+       <li> <p><b>[!UICONTROL 번호]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>다음 항목 선택 [!DNL SharePoint] 이동할 파일 또는 폴더가 포함된 사이트입니다. 사용 가능한 사이트는 사이트 다음에 로그인한 사용자가 표시됩니다.</p> </li> 
+     <li> <p><b>[!UICONTROL 사이트의 드라이브]</b> </p> <p>이동할 파일 또는 폴더가 포함된 [!DNL SharePoint] 사이트를 선택하십시오. 사용 가능한 사이트는 사이트 다음에 로그인한 사용자가 표시됩니다.</p> </li> 
      <li> <p><b>[!UICONTROL 그룹의 드라이브]</b> </p> <p>드라이브에 이동할 파일 또는 폴더가 포함된 그룹을 선택합니다.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -530,21 +530,21 @@ ht-degree: 0%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 다음을 선택합니다. [!DNL OneDrive] location]</td> 
+   <td role="rowheader">[!UICONTROL [!DNL OneDrive] 위치 선택]</td> 
    <td> <p>파일 또는 폴더를 이동할 위치를 선택합니다.</p> 
     <ul> 
      <li> <p><b>[!UICONTROL 내 드라이브]</b> </p> <p>모듈에서 드라이브 ID를 입력하도록 할지 여부를 선택합니다.</p> 
       <ul> 
-       <li> <p><b>[!UICONTROL 예]</b> </p> <p>파일이나 폴더를 이동할 드라이브의 ID를 입력합니다.</p> </li> 
-       <li> <p><b>[!UICONTROL No]</b> </p> </li> 
+       <li> <p><b>[!UICONTROL Yes]</b> </p> <p>파일이나 폴더를 이동할 드라이브의 ID를 입력합니다.</p> </li> 
+       <li> <p><b>[!UICONTROL 번호]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>다음 항목 선택 [!DNL SharePoint] 파일 또는 폴더를 이동할 사이트입니다. 사용 가능한 사이트는 사이트 다음에 로그인한 사용자가 표시됩니다.</p> </li> 
+     <li> <p><b>[!UICONTROL 사이트의 드라이브]</b> </p> <p>파일 또는 폴더를 이동할 [!DNL SharePoint] 사이트를 선택하십시오. 사용 가능한 사이트는 사이트 다음에 로그인한 사용자가 표시됩니다.</p> </li> 
      <li> <p><b>[!UICONTROL 그룹의 드라이브]</b> </p> <p>파일이나 폴더를 이동할 드라이브를 선택한 그룹을 선택합니다.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 드라이브 ID]</td> 
-   <td> <p>파일이나 폴더를 이동할 폴더가 포함된 드라이브를 선택하거나 매핑합니다. [!UICONTROL Enable to Enter a Drive ID] 필드에서 [!UICONTROL No]를 선택한 경우에는 이 필드를 사용할 수 없습니다.</p> <p>이 항목을 비워 두면 파일 또는 폴더는 동일한 폴더 내에서만 이동할 수 있습니다 [!DNL OneDrive].</p> <p>파일 및 폴더를 [!UICONTROL 내 드라이브]에서 [!UICONTROL 사이트의 드라이브] 또는 [!UICONTROL 그룹의 드라이브]로 이동할 수 있습니다. </p> <p>파일을 [!UICONTROL 사이트의 드라이브]에서만 동일한 사이트의 동일한 드라이브로 이동할 수 있습니다.</p> <p>[!UICONTROL 그룹의 드라이브]에서만 동일한 그룹의 동일한 드라이브로 파일을 이동할 수 있습니다.</p> </td> 
+   <td> <p>파일이나 폴더를 이동할 폴더가 포함된 드라이브를 선택하거나 매핑합니다. [!UICONTROL Enable to Enter a Drive ID] 필드에서 [!UICONTROL No]를 선택한 경우에는 이 필드를 사용할 수 없습니다.</p> <p>이 항목을 비워 두면 파일 또는 폴더는 동일한 [!DNL OneDrive] 내에서만 이동할 수 있습니다.</p> <p>파일 및 폴더를 [!UICONTROL 내 드라이브]에서 [!UICONTROL 사이트의 드라이브] 또는 [!UICONTROL 그룹의 드라이브]로 이동할 수 있습니다. </p> <p>파일을 [!UICONTROL 사이트의 드라이브]에서만 동일한 사이트의 동일한 드라이브로 이동할 수 있습니다.</p> <p>[!UICONTROL 그룹의 드라이브]에서만 동일한 그룹의 동일한 드라이브로 파일을 이동할 수 있습니다.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 폴더]</td> 
@@ -563,7 +563,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>연결에 대한 자세한 내용 [!DNL OneDrive] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></td> 
+   <td>[!DNL OneDrive] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enter (File ID &amp; File Path)]</td> 
@@ -578,15 +578,15 @@ ht-degree: 0%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 다음을 선택합니다. [!DNL OneDrive] location]</td> 
+   <td role="rowheader">[!UICONTROL [!DNL OneDrive] 위치 선택]</td> 
    <td> <p>복사할 파일이 포함된 위치를 선택합니다.</p> 
     <ul> 
      <li> <p><b>[!UICONTROL 내 드라이브]</b> </p> <p>모듈에서 드라이브 ID를 입력하도록 할지 여부를 선택합니다.</p> 
       <ul> 
-       <li> <p><b>[!UICONTROL 예]</b> </p> <p>복사할 파일 또는 폴더가 포함된 드라이브의 ID를 입력합니다.</p> </li> 
-       <li> <p><b>[!UICONTROL No]</b> </p> </li> 
+       <li> <p><b>[!UICONTROL Yes]</b> </p> <p>복사할 파일 또는 폴더가 포함된 드라이브의 ID를 입력합니다.</p> </li> 
+       <li> <p><b>[!UICONTROL 번호]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>이동할 파일이 포함된 SharePoint 사이트를 선택합니다. 사용 가능한 사이트는 사이트 다음에 로그인한 사용자가 표시됩니다.</p> </li> 
+     <li> <p><b>[!UICONTROL 사이트의 드라이브]</b> </p> <p>이동할 파일이 포함된 SharePoint 사이트를 선택합니다. 사용 가능한 사이트는 사이트 다음에 로그인한 사용자가 표시됩니다.</p> </li> 
      <li> <p><b>[!UICONTROL 그룹의 드라이브]</b> </p> <p>드라이브에 복사할 파일이 들어 있는 그룹을 선택합니다.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -612,10 +612,10 @@ ht-degree: 0%
     <ul> 
      <li> <p><b>[!UICONTROL 내 드라이브]</b> </p> <p>모듈에서 드라이브 ID를 입력하도록 할지 여부를 선택합니다.</p> 
       <ul> 
-       <li> <p><b>[!UICONTROL 예]</b> </p> <p>파일을 복사할 드라이브의 ID를 입력합니다.</p> </li> 
-       <li> <p><b>[!UICONTROL No]</b> </p> </li> 
+       <li> <p><b>[!UICONTROL Yes]</b> </p> <p>파일을 복사할 드라이브의 ID를 입력합니다.</p> </li> 
+       <li> <p><b>[!UICONTROL 번호]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>다음 항목 선택 [!DNL SharePoint] 파일을 복사할 사이트. 사용 가능한 사이트는 사이트 다음에 로그인한 사용자가 표시됩니다.</p> </li> 
+     <li> <p><b>[!UICONTROL 사이트의 드라이브]</b> </p> <p>파일을 복사할 [!DNL SharePoint] 사이트를 선택하십시오. 사용 가능한 사이트는 사이트 다음에 로그인한 사용자가 표시됩니다.</p> </li> 
      <li> <p><b>[!UICONTROL 그룹의 드라이브]</b> </p> <p>파일을 복사할 드라이브의 그룹을 선택합니다.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -644,7 +644,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>연결에 대한 자세한 내용 [!DNL OneDrive] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></td> 
+   <td>[!DNL OneDrive] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enter (파일/폴더 ID 및 경로)]</td> 
@@ -659,15 +659,15 @@ ht-degree: 0%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 다음을 선택합니다. [!DNL OneDrive] location]</td> 
+   <td role="rowheader">[!UICONTROL [!DNL OneDrive] 위치 선택]</td> 
    <td> <p>검색할 위치를 선택합니다.</p> 
     <ul> 
      <li> <p><b>[!UICONTROL 내 드라이브]</b> </p> <p>모듈에서 드라이브 ID를 입력하도록 할지 여부를 선택합니다.</p> 
       <ul> 
-       <li> <p><b>[!UICONTROL 예]</b> </p> <p>삭제할 파일 또는 폴더가 포함된 드라이브의 ID를 입력합니다.</p> </li> 
-       <li> <p><b>[!UICONTROL No]</b> </p> </li> 
+       <li> <p><b>[!UICONTROL Yes]</b> </p> <p>삭제할 파일 또는 폴더가 포함된 드라이브의 ID를 입력합니다.</p> </li> 
+       <li> <p><b>[!UICONTROL 번호]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>다음 항목 선택 [!DNL SharePoint] 삭제하려는 파일 또는 폴더가 포함된 사이트입니다. 사용 가능한 사이트는 사이트 다음에 로그인한 사용자가 표시됩니다.</p> </li> 
+     <li> <p><b>[!UICONTROL 사이트의 드라이브]</b> </p> <p>삭제할 파일 또는 폴더가 포함된 [!DNL SharePoint] 사이트를 선택하십시오. 사용 가능한 사이트는 사이트 다음에 로그인한 사용자가 표시됩니다.</p> </li> 
      <li> <p><b>[!UICONTROL 그룹의 드라이브]</b> </p> <p>드라이브에 삭제할 파일 또는 폴더가 포함된 그룹을 선택합니다.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -698,15 +698,15 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>연결에 대한 자세한 내용 [!DNL OneDrive] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></td> 
+   <td>[!DNL OneDrive] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
-   <td>상대 경로 입력 <code>https://graph.microsoft.com</code>. 예:<code> /v1.0/me/drive/root/children</code></td> 
+   <td><code>https://graph.microsoft.com</code>과(와) 관련된 경로를 입력하십시오. 예:<code> /v1.0/me/drive/root/children</code></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 메서드]</td> 
-   td&gt; <p>API 호출을 구성하는 데 필요한 HTTP 요청 메서드를 선택합니다. 자세한 내용은 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">의 HTTP 요청 메서드 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   td&gt; <p>API 호출을 구성하는 데 필요한 HTTP 요청 메서드를 선택합니다. 자세한 내용은 [!DNL Adobe Workfront Fusion]</a>에서 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP 요청 메서드를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -718,7 +718,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>표준 JSON 개체의 형태로 API 호출에 대한 본문 콘텐츠를 추가합니다.</p> <p>참고:  <p>다음과 같은 조건문을 사용할 때 <code>if</code> json에서 따옴표를 조건문 외부에 넣습니다.</p> 
+   <td> <p>표준 JSON 개체의 형태로 API 호출에 대한 본문 콘텐츠를 추가합니다.</p> <p>참고:  <p>JSON에서 <code>if</code>과(와) 같은 조건문을 사용할 때 따옴표를 조건문 외부에 넣으십시오.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -732,6 +732,6 @@ ht-degree: 0%
 
 파일 업로드 또는 업데이트가 실패할 때 발생할 수 있는 몇 가지 문제가 있습니다.
 
-* 업로드된 파일이 너무 커서 의 최대 파일 크기 제한을 초과합니다. [!DNL OneDrive] 플랜 또는 다음을 모두 사용했거나 [!DNL OneDrive] 계정의 저장소 할당량입니다. 저장소 공간을 늘리려면 기존 파일을에서 삭제합니다. [!DNL OneDrive] 또는 업그레이드 [!DNL OneDrive] 계정입니다.
-* OneDrive에서는 이름이 같은 두 파일을 하나의 폴더에 업로드할 수 없습니다. 대상 폴더에 업로드되는 파일과 같은 이름의 파일이 포함되어 있으면 오류가 발생하여 시나리오 실행이 종료됩니다. 해결 방법은 업로드되는 파일의 이름을 바꾸는 것입니다. 파일을 업데이트하는 것이 목표라면 [!UICONTROL 파일 업데이트] 작업.
+* 업로드한 파일이 너무 커서 [!DNL OneDrive] 계획에 대한 최대 파일 크기 제한을 초과하거나 [!DNL OneDrive] 계정의 저장소 할당량을 모두 사용했습니다. 저장소 공간을 늘리려면 [!DNL OneDrive]에서 기존 파일을 삭제하거나 [!DNL OneDrive] 계정을 업그레이드하세요.
+* OneDrive에서는 이름이 같은 두 파일을 하나의 폴더에 업로드할 수 없습니다. 대상 폴더에 업로드되는 파일과 같은 이름의 파일이 포함되어 있으면 오류가 발생하여 시나리오 실행이 종료됩니다. 해결 방법은 업로드되는 파일의 이름을 바꾸는 것입니다. 파일을 업데이트하는 것이 목표라면 [!UICONTROL 파일 업데이트] 액션을 사용하십시오.
 * 이전에 선택한 파일 업로드 폴더가 더 이상 존재하지 않습니다. 시나리오가 중지되며 대상 폴더를 다시 선택해야 합니다.

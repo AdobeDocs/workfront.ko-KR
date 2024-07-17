@@ -18,7 +18,7 @@ ht-degree: 0%
 
 이 페이지에서는 2019.1 릴리스에 포함된 모든 증명 개선 사항에 대해 설명합니다. 이제 프로덕션 환경에서 기능을 사용할 수 있습니다.
 
-2019.1의 모든 변경 사항 목록은 을 참조하십시오. [2019.1 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity-overview.md).
+2019.1의 모든 변경 사항 목록은 [2019.1 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity-overview.md)를 참조하십시오.
 
 ## 관리자용
 
@@ -26,11 +26,11 @@ ht-degree: 0%
 
 ## 모든 사용자의 경우
 
-* [웹 증명 뷰어의 증명 대화형 콘텐츠](#proof-interactive-content-in-the-web-proofing-viewer)
+* [웹 증명 뷰어에서 대화형 콘텐츠 증명](#proof-interactive-content-in-the-web-proofing-viewer)
 * [증명 뷰어의 주석에 대한 기본 정렬 순서는 이제 가장 오래된 항목에서 가장 늦은 항목입니다.](#default-sorting-order-for-comments-in-the-proofing-viewer-is-now-oldest-to-latest)
-* [비디오 범위에 연결된 증명 뷰어의 댓글에 대한 검토 개선](#enhanced-reviewing-for-comments-in-the-proofing-viewer-associated-with-a-range-of-video)
+* [증명 뷰어에서 비디오 범위와 관련된 댓글에 대한 검토 기능이 향상되었습니다](#enhanced-reviewing-for-comments-in-the-proofing-viewer-associated-with-a-range-of-video)
 * [증명 알림 또는 증명 뷰어에서 문서 세부 정보에 연결](#link-to-document-details-from-a-proof-notification-or-the-proofing-viewer)
-* [증명 뷰어에서 이메일 알림 변경](#change-your-email-notifications-in-the-proofing-viewer)
+* [증명 뷰어에서 전자 메일 알림 변경](#change-your-email-notifications-in-the-proofing-viewer)
 * [Desktop Proofing Viewer에서 배경색 변경](#change-the-background-color-in-the-desktop-proofing-viewer)
 * [Desktop Proofing Viewer의 증명에서 캐시된 브라우저 데이터 지우기](#clear-cached-browser-data-from-a-proof-in-the-desktop-proofing-viewer)
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 이전에는 워크플로에 추가되지 않고 증명에 액세스할 수 있었던 사용자와 게스트의 기본 증명 역할이 검토자였습니다.
 
-이 기능은 Workfront Proof가 아닌 Workfront에서 생성된 증명에만 적용됩니다.
+이 기능은 Workfront Proof이 아닌 Workfront에서 생성된 증명에만 적용됩니다.
 
 ## 웹 증명 뷰어의 증명 대화형 콘텐츠 {#proof-interactive-content-in-the-web-proofing-viewer}
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 이러한 설정은 Workfront에서 구성할 수 있는 이메일 경고 설정과 별개입니다.
 
-자세한 내용은 [증명 댓글 및 결정에 대한 알림 관리](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md)
+자세한 내용은 [증명 댓글 및 결정에 대한 알림 관리](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md)를 참조하세요.
 
 비디오
 
@@ -96,7 +96,7 @@ ht-degree: 0%
 
 이제 Desktop Proofing Viewer의 배경색을 기본색에 가까운 검정색에서 흰색으로 변경할 수 있습니다. 이렇게 하면 배경이 투명한 증명 콘텐츠를 더 쉽게 볼 수 있습니다.
 
-자세한 내용은 [증명 뷰어 설정 구성](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
+자세한 내용은 [증명 뷰어 설정 구성](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)을 참조하십시오.
 
 비디오
 
@@ -106,6 +106,6 @@ ht-degree: 0%
 
 이제 모든 콘텐츠가 Desktop Proofing Viewer에 나타나고 검토자가 이를 보고 댓글을 달 수 있도록 증명과 함께 저장할 수 있는 브라우저 캐시 데이터를 지울 수 있습니다.
 
-자세한 내용은 [증명 뷰어 설정 구성](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
+자세한 내용은 [증명 뷰어 설정 구성](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)을 참조하십시오.
 
 비디오

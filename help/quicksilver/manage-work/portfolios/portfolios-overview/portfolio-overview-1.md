@@ -20,7 +20,7 @@ ht-degree: 7%
 이 섹션에는 다음 문서가 포함됩니다.
 
 * [Portfolio 관리 개요](../../../manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md)
-* [의 Portfolio 개요 [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)
+* [ [!DNL Adobe Workfront]의 Portfolio 개요](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)
 * [포트폴리오 내에서 탐색](../../../manage-work/portfolios/portfolios-overview/navigate-within-portfolio.md)
 
 

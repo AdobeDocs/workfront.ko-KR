@@ -30,7 +30,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
@@ -38,11 +38,11 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>프로젝트, 작업, 문제, 템플릿, Portfolio, 프로그램, 보고서, 대시보드 및 캘린더, 문서에 대한 보기 또는 상위 액세스 권한</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td> <p>프로젝트, 작업, 문제, 템플릿, Portfolio, 프로그램, 보고서, 대시보드 및 캘린더, 문서에 대한 보기 또는 상위 액세스 권한</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>요청 액세스 또는 승인과 연관된 객체에 대한 액세스 권한 이상 보기 </p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>요청 액세스 또는 승인과 연관된 객체에 대한 액세스 권한 이상 보기 </p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -66,43 +66,43 @@ ht-degree: 3%
 
 다른 사용자에게 객체에 대한 액세스 요청을 승인하도록 알리려면 다음을 수행합니다.
 
-1. 다음을 클릭합니다. **홈** 아이콘 ![](assets/home-icon-30x29.png) Adobe Workfront의 왼쪽 상단 모서리입니다.
+1. Adobe Workfront의 왼쪽 위 모서리에 있는 **Home** 아이콘 ![](assets/home-icon-30x29.png)을(를) 클릭합니다.
 
    >[!NOTE]
    >
    >Workfront 관리자는 사용자 환경의 홈 아이콘을 다음과 같이 변경할 수 있습니다.
    >
    >* 조직 설명을 위해 사용자 지정된 이미지로 대체합니다. 이 경우 아이콘은 이 문서에 표시된 것과 다르게 표시됩니다.
-   >* 연결된 페이지를 다른 페이지로 바꿉니다. 이 경우 **메인 메뉴** ![](assets/main-menu-icon.png) 페이지의 오른쪽 상단에서 을(를) 클릭한 다음 을(를) 클릭합니다 **홈**.
+   >* 연결된 페이지를 다른 페이지로 바꿉니다. 이 경우 페이지의 오른쪽 상단에 있는 **기본 메뉴** ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **홈**&#x200B;을(를) 클릭합니다.
 
-1. 다음에서 **작업 목록** 영역으로 이동합니다. **내가 제출한 승인** 그룹화.
+1. **작업 목록** 영역에서 **내가 제출한 승인** 그룹화로 이동합니다.
 
-1. 선택 **액세스 요청** 작업 목록에서 승인.
+1. 작업 목록에서 **액세스 요청** 승인을 선택하십시오.
 
    그러면 작업 목록 오른쪽에 액세스 요청이 열립니다.
 
    ![](assets/access-request-pending-approval-nwe-350x104.png)
 
-1. 클릭 **알림** 오른쪽 패널의 오른쪽 상단 모서리에서 승인자에게 알림을 전송할 수 있습니다.
+1. 오른쪽 패널의 오른쪽 상단에 있는 **미리 알림**&#x200B;을 클릭하여 승인자에게 알림을 보냅니다.
 
 ## 문서
 
-1. 다음을 클릭합니다. **홈** 아이콘 ![](assets/home-icon-30x29.png) Adobe Workfront의 왼쪽 상단 모서리입니다.
+1. Adobe Workfront의 왼쪽 위 모서리에 있는 **Home** 아이콘 ![](assets/home-icon-30x29.png)을(를) 클릭합니다.
 
    >[!NOTE]
    >
    >Workfront 관리자는 사용자 환경의 홈 아이콘을 다음과 같이 변경할 수 있습니다.
    >
    >* 조직 설명을 위해 사용자 지정된 이미지로 대체합니다. 이 경우 아이콘은 이 문서에 표시된 것과 다르게 표시됩니다.
-   >* 연결된 페이지를 다른 페이지로 바꿉니다. 이 경우 **메인 메뉴** ![](assets/main-menu-icon.png) 페이지의 오른쪽 상단에서 을(를) 클릭한 다음 을(를) 클릭합니다 **홈**.
+   >* 연결된 페이지를 다른 페이지로 바꿉니다. 이 경우 페이지의 오른쪽 상단에 있는 **기본 메뉴** ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **홈**&#x200B;을(를) 클릭합니다.
 
-1. 다음에서 **작업 목록** 영역으로 이동합니다. **내가 제출한 승인** 그룹화.
+1. **작업 목록** 영역에서 **내가 제출한 승인** 그룹화로 이동합니다.
 
-1. 클릭: **문서** 작업 목록에서 승인.
+1. 작업 목록에서 **문서** 승인을 클릭합니다.
 
    그러면 작업 목록 오른쪽에 문서 승인이 열립니다.\
    ![](assets/document-350x232.png)
 
-1. 클릭 **승인 관리** 오른쪽 패널의 오른쪽 상단 모서리에서 을 참조하십시오.
-1. 다음을 클릭합니다. **알림** 승인자에게 알림 보내기 아이콘.\
+1. 오른쪽 패널의 오른쪽 상단에서 **승인 관리**&#x200B;를 클릭합니다.
+1. 승인자에게 알림을 보내려면 **미리 알림** 아이콘을 클릭하십시오.\
    ![remind.png](assets/remind-350x41.png)

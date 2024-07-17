@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # 21.2 모바일 개선 사항
 
-이 페이지에서는 미리보기 환경에 대한 21.2 릴리스의 모든 모바일 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2021년 5월 10일이 있는 주에 프로덕션 환경에서 사용할 수 있습니다. 21.2 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [21.2 릴리스 개요](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+이 페이지에서는 미리보기 환경에 대한 21.2 릴리스의 모든 모바일 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2021년 5월 10일이 있는 주에 프로덕션 환경에서 사용할 수 있습니다. 21.2 릴리스에서 사용할 수 있는 모든 변경 사항 목록을 보려면 [21.2 릴리스 개요](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md)를 참조하십시오.
 
 ## 타임시트 주석
 
@@ -27,7 +27,7 @@ ht-degree: 3%
 
 이제 모바일 앱에서 타임시트에 댓글을 입력할 수 있습니다.
 
-자세한 내용은 [iOS용 Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md) 및 [Android용 Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md).
+자세한 내용은 [iOS용 Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md) 및 [Android용 Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)을 참조하십시오.
 
 ## 타이프 어헤드로 지원되는 추가 개체 - iOS 사용자만 해당
 
@@ -40,13 +40,13 @@ ht-degree: 3%
 * 회사
 * 그룹
 * 작업 역할
-* 포트폴리오
+* Portfolio
 * 프로그램
 * 프로젝트
 * 팀
 * 템플릿
 
-자세한 내용은 [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+자세한 내용은 [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)을 참조하세요.
 
 ## Workfront 모바일 앱에서 요청을 초안으로 저장
 
@@ -56,4 +56,4 @@ ht-degree: 3%
 
 이제 부분적으로 채워진 요청을 모바일 앱의 초안으로 저장할 수 있습니다. 모든 초안을 쉽게 찾을 수 있도록 요청 영역에 새 초안 섹션이 추가되었습니다.
 
-자세한 내용은 [Android용 Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) 또는 [iOS용 Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md).
+자세한 내용은 [Android용 Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) 또는 [iOS용 Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)을 참조하십시오.

@@ -19,7 +19,7 @@ ht-degree: 0%
 
 작업 항목을 올바른 사용자에게 끌어다 놓아 Adobe Workfront 업무 균형자를 사용하여 작업 항목을 할당할 수 있습니다.
 
-업무 균형자를 사용하여 사용자에게 작업을 할당하는 방법에 대한 일반 정보는 [업무 균형자에서 작업 할당 개요](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+업무 균형자를 사용하여 사용자에게 작업을 할당하는 방법에 대한 일반 정보는 [업무 균형자에서 작업 할당 개요](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)를 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -49,11 +49,11 @@ ht-degree: 0%
      <li> <p>문제</p> </li> 
     </ul> <p><b>메모</b>
 
-여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td>
+여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>할당이 포함된 프로젝트, 작업 및 문제에 권한 이상 기여</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>할당이 포함된 프로젝트, 작업 및 문제에 대한 Contribute 권한 이상</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -66,15 +66,15 @@ ht-degree: 0%
 
 1. 작업을 할당할 업무 균형자로 이동합니다.
 
-   리소스 영역, 프로젝트 또는 팀 수준에서 업무 균형자 를 사용하여 사용자에게 작업을 할당할 수 있습니다. Workfront에서 업무 균형자 위치에 대한 자세한 내용은 [업무 균형자 찾기](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+   리소스 영역, 프로젝트 또는 팀 수준에서 업무 균형자 를 사용하여 사용자에게 작업을 할당할 수 있습니다. Workfront에서 업무 균형자 위치에 대한 자세한 내용은 [업무 균형자 찾기](../../resource-mgmt/workload-balancer/locate-workload-balancer.md)를 참조하십시오.
 
-1. (선택 사항) **할당 해제된 작업** 영역에 필터를 적용하여 사용자에게 할당되지 않은 작업 및 문제를 봅니다
+1. (선택 사항) **할당 해제된 작업** 영역으로 이동하여 필터를 적용하여 사용자에게 할당되지 않은 작업 및 문제를 봅니다
 
    또는
 
-   로 이동 **할당된 작업** 해당 항목을 재할당하려면 사용자 이름을 영역에 배치하고 확장하여 할당된 작업 항목을 봅니다.
+   해당 항목을 다시 할당하려면 **할당된 작업** 영역으로 이동하여 할당된 작업 항목을 볼 사용자 이름을 확장하세요.
 
-1. (조건부) 프로젝트의 업무 균형자에서 **모든 사용자 표시** 아이콘 ![](assets/show-all-users-icon-project-workload-balancer.png) 모든 Workfront 사용자를 표시합니다.
+1. (조건부) 프로젝트의 업무 균형자에서 **모든 사용자 표시** 아이콘 ![](assets/show-all-users-icon-project-workload-balancer.png)을 클릭하여 모든 Workfront 사용자를 표시합니다.
 
    보기 액세스 권한이 있는 모든 사용자가 표시됩니다.
 
@@ -90,7 +90,7 @@ ht-degree: 0%
 
 
 
-1. 계획 또는 예상 타임라인을 나타내는 작업 항목의 막대를 클릭하고 의 사용자 이름으로 끌어서 놓습니다. **할당됨** 영역입니다.
+1. 계획된 또는 예상 타임라인을 나타내는 작업 항목의 막대를 클릭하고 **할당됨** 영역에서 사용자 이름으로 끌어서 놓습니다.
 
    작업 항목을 놓기 위해 마우스를 가져다 대는 사용자가 강조 표시됩니다.
 
@@ -109,14 +109,14 @@ ht-degree: 0%
    >* 설정 영역에서 프로젝트별 그룹을 활성화한 경우 할당된 작업이 해당 프로젝트 아래에 표시됩니다. 이 설정을 사용하지 않으면 할당된 작업이 사용자 영역에 표시됩니다.
    >
    >
-   >     작업 항목을 정렬하기 위한 업무 균형자 기준에 따라 항목이 표시됩니다. 자세한 내용은 [업무 균형자 탐색](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+   >     작업 항목을 정렬하기 위한 업무 균형자 기준에 따라 항목이 표시됩니다. 자세한 내용은 [업무 균형자 탐색](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)을 참조하십시오.
    >
    >
-   >* 프로젝트의 업무 균형자에 모든 사용자 표시를 활성화하고 프로젝트의 항목에 이전에 할당되지 않은 사용자에게 항목을 할당한 경우 사용자는 프로젝트 팀에 추가됩니다. 자세한 내용은 [프로젝트 팀 관리](../../manage-work/projects/planning-a-project/manage-project-team.md).
+   >* 프로젝트의 업무 균형자에 모든 사용자 표시를 활성화하고 프로젝트의 항목에 이전에 할당되지 않은 사용자에게 항목을 할당한 경우 사용자는 프로젝트 팀에 추가됩니다. 자세한 내용은 [프로젝트 팀 관리](../../manage-work/projects/planning-a-project/manage-project-team.md)를 참조하십시오.
 
 
 1. (선택 사항) 할당된 작업 영역에서 사용자 이름 아래에 있는 작업 항목의 막대를 클릭하고 드래그한 다음 미할당 작업 영역에 놓아 할당을 취소합니다. 사용자에게서 항목의 할당이 해제되었지만, 여전히 작업 역할에 할당될 수 있으며, 이 경우 할당 해제된 작업 영역에 표시됩니다. 항목이 다른 사용자에게 할당된 경우 여전히 할당된 사용자의 이름으로 할당된 작업 영역에 유지됩니다.
-1. (선택 사항) **할당 표시 아이콘** ![](assets/show-allocations-icon-small.png)을(를) 클릭하고 **기타 메뉴** ![](assets/qs-more-menu.png) > **할당 편집**.
+1. (선택 사항) **할당 표시 아이콘** ![](assets/show-allocations-icon-small.png)을 클릭한 다음 **추가 메뉴** ![](assets/qs-more-menu.png) > **할당 편집**&#x200B;을 클릭합니다.
 
    <!--
    (make sure these are still called this, and that the icon has not changed)
@@ -125,7 +125,7 @@ ht-degree: 0%
 
    일별 또는 주별 할당을 두 번 클릭하여 사용자가 작업 항목에 할당된 시간을 수정합니다.
 
-   업무 균형자에서 사용자 할당을 수정하는 방법에 대한 자세한 내용은 문서의 &quot;사용자 할당 수정&quot; 섹션을 참조하십시오 [업무 균형자에서 사용자 할당 관리](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+   업무 균형자에서 사용자 할당을 수정하는 방법에 대한 자세한 내용은 문서 [업무 균형자에서 사용자 할당 관리](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)의 &quot;사용자 할당 수정&quot; 섹션을 참조하십시오.
 
-   업무 균형자 를 사용하여 작업 항목에서 할당을 제거하는 방법에 대한 자세한 내용은 [업무 균형자에서 작업 할당 해제](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
+   업무 균형자를 사용하여 작업 항목에서 할당을 제거하는 방법에 대한 자세한 내용은 [업무 균형자에서 작업 할당 해제](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md)를 참조하십시오.
 

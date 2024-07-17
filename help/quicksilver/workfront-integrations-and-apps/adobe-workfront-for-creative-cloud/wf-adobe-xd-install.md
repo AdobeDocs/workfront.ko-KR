@@ -8,14 +8,14 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
 source-git-commit: 78a6cee213887c72aedc14bbb4552f28fc27625d
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '458'
 ht-degree: 1%
 
 ---
 
-# 설치 및 열기 [!DNL Adobe Workfront for XD]
+# [!DNL Adobe Workfront for XD] 설치 및 열기
 
-다음을 설치할 수 있습니다. [!DNL Adobe Workfront for XD] Adobe 마켓플레이스에서 가져온 플러그인입니다. 플러그인은 다음 언어를 지원합니다.
+Adobe 마켓플레이스에서 [!DNL Adobe Workfront for XD] 플러그인을 설치할 수 있습니다. 플러그인은 다음 언어를 지원합니다.
 
 * 영어
 * 프랑스어
@@ -48,74 +48,74 @@ ht-degree: 1%
   </tr> -->
   <tr> 
    <td role="rowheader">제품</td> 
-   <td><p>다음 항목이 있어야 합니다. [!DNL Adobe Creative Cloud] 에 더해진 라이센스 [!DNL Workfront] 라이센스.</p><p>자세한 내용은 <a href="https://helpx.adobe.com/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Creative Cloud 지원 정책</a>.</p></td> 
+   <td><p>[!DNL Workfront] 라이선스 외에 [!DNL Adobe Creative Cloud] 라이선스가 있어야 합니다.</p><p>자세한 내용은 <a href="https://helpx.adobe.com/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Creative Cloud 지원 정책</a>을 참조하세요.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
+&#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
 
 ## 전제 조건
 
-* 다음을 설치해야 합니다. [!DNL Adobe XD] Workfront 플러그인을 설치하기 전의 앱입니다.
+* Workfront 플러그인을 설치하기 전에 [!DNL Adobe XD] 앱을 설치해야 합니다.
 
-## 설치 [!DNL Adobe Workfront for XD] 조직용 플러그인
+## 조직에 대한 [!DNL Adobe Workfront for XD] 플러그 인 설치
 
-다음과 같은 경우 [!DNL Adobe Admin Console] 관리자:에서 플러그인을 포함할 수 있습니다. [!DNL Creative Cloud] 배포 패키지. 자세한 내용은 [패키지에 플러그인 포함](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
+[!DNL Adobe Admin Console] 관리자인 경우 [!DNL Creative Cloud] 배포 패키지에 플러그인을 포함할 수 있습니다. 자세한 내용은 [패키지에 플러그인 포함](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html)을 참조하십시오.
 
-[여기서 비디오 튜토리얼 보기](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
+[비디오 튜토리얼은 여기에서 봅니다](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
 
-[!DNL Adobe Admin Console] 관리자는 사용자에게 배포할 플러그인 전용 패키지를 만들 수도 있습니다. 자세한 내용은 [[!UICONTROL 만들기 [!DNL Adobe Workfront] 대상 [!DNL Creative Cloud]] 에서 사용자를 위한 패키지 [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
+[!DNL Adobe Admin Console] 관리자는 사용자에게 배포할 플러그 인 전용 패키지를 만들 수도 있습니다. 자세한 내용은  [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)에서 사용자의 [[!UICONTROL [!DNL Adobe Workfront] for [!DNL Creative Cloud]] 패키지 만들기를 참조하십시오.
 
-## 설치 [!DNL Adobe Workfront for XD] 개별 플러그인
+## 개별적으로 [!DNL Adobe Workfront for XD] 플러그 인을 설치하십시오.
 
-다음을 설치할 수 있습니다. [!DNL Adobe Workfront for XD] 에서 직접 플러그인 [!DNL Adobe Exchange].
+[!DNL Adobe Exchange]에서 직접 [!DNL Adobe Workfront for XD] 플러그인을 설치할 수 있습니다.
 
-1. 로 이동 [Adobe Workfront for XD 설치 페이지](https://exchange.adobe.com/apps/cc/4c3566f9?pluginId=4c3566f9&amp;workflow=share) Adobe 교환.
-1. 표시되는 대화 상자에서 **열기 [!DNL Adobe Creative Cloud] 데스크탑 앱**.
-1. 한 번 [!DNL Adobe XD] plugin manager가 열리고 **[!UICONTROL 설치]**.
-1. 대화 상자에서 정보를 읽은 다음 **[!UICONTROL 확인]**.
+1. Adobe Exchange에서 [XD용 Adobe Workfront 설치 페이지](https://exchange.adobe.com/apps/cc/4c3566f9?pluginId=4c3566f9&amp;workflow=share)(으)로 이동합니다.
+1. 표시되는 대화 상자에서 **데스크톱 앱 [!DNL Adobe Creative Cloud] 열기**&#x200B;를 클릭합니다.
+1. [!DNL Adobe XD] 플러그 인 관리자가 열리면 **[!UICONTROL 설치]**&#x200B;를 클릭합니다.
+1. 대화 상자에서 정보를 읽은 다음 **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
 1. 플러그인을 여는 방법에 대한 자세한 내용은 다음 섹션을 계속하십시오.
 
-## 를 엽니다. [!DNL Adobe Workfront for XD] 플러그인
+## [!DNL Adobe Workfront for XD] 플러그 인을 엽니다.
 
-1. 열기 [!DNL Adobe XD].
+1. [!DNL Adobe XD] 열기
 
 1. 새 파일을 만들거나 기존 파일을 엽니다.
 
-1. 왼쪽 아래 모서리에서 **플러그인** 아이콘.
+1. 왼쪽 하단 모서리에서 **Plugins** 아이콘을 클릭합니다.
 
 ![](assets/xd-plugin-window-350x620.png)
 
-1. 다음에서 **[!UICONTROL 플러그인 패널]**, 찾기 **[!UICONTROL Adobe Workfront for XD]**.
+1. **[!UICONTROL 플러그인 패널]**&#x200B;에서 **[!UICONTROL XD용 Adobe Workfront]**&#x200B;를 찾으십시오.
 
 1. 플러그인에 로그인하는 방법에 대한 자세한 내용은 다음 섹션을 계속하십시오.
 
-## 에 로그인 [!DNL Adobe Workfront for XD]
+## [!DNL Adobe Workfront for XD]에 로그인
 
-1. 플러그인 패널이 열려 있는지 확인한 다음 **[!DNL Adobe Workfront for XD]**.
-1. 도메인을 입력한 다음 **[!UICONTROL 로그인]**. 브라우저 페이지가 열립니다.
+1. 플러그 인 패널이 열려 있는지 확인한 다음 **[!DNL Adobe Workfront for XD]**&#x200B;을(를) 클릭합니다.
+1. 도메인을 입력한 다음 **[!UICONTROL 로그인]**&#x200B;을 클릭합니다. 브라우저 페이지가 열립니다.
 
    >[!TIP]
    >
-   >* 도메인을 찾으려면 브라우저를 열고 다음으로 이동합니다. [!DNL Workfront] 을 클릭하고 URL의 첫 번째 부분을 복사합니다.\
+   >* 도메인을 찾으려면 브라우저를 열고 [!DNL Workfront] 인스턴스로 이동한 다음 URL의 첫 부분을 복사합니다.\
    >![](assets/domain-350x50.png)
    >
    > * Workfront 인스턴스가 Experience Cloud과 통합된 경우 관리자에게 Admin Console의 제품 > Workfront 아래에 있는 Workfront 도메인을 제공하도록 요청하십시오.
 
-1. 브라우저에서 [!DNL Workfront] 자격 증명을 클릭한 다음 **[!DNL Log in]**. 회사에서 SSO(Single Sign-On)를 사용하는 경우, 로그인할 SSO 공급자의 페이지로 이동합니다.
+1. 브라우저에서 [!DNL Workfront] 자격 증명을 입력한 다음 **[!DNL Log in]**&#x200B;을(를) 클릭합니다. 회사에서 SSO(Single Sign-On)를 사용하는 경우, 로그인할 SSO 공급자의 페이지로 이동합니다.
 
    >[!NOTE]
    >
-   >을 입력하라는 메시지가 표시되지 않을 수 있습니다. [!DNL Workfront] 최근에 로그인한 경우 자격 증명을 제공합니다.
+   >최근에 로그인한 경우 [!DNL Workfront] 자격 증명을 입력하라는 메시지가 표시되지 않을 수 있습니다.
 
-   프롬프트의 안내에 따라 다음으로 로그인합니다. [!DNL Workfront].
+   메시지에 따라 [!DNL Workfront]에 로그인합니다.
 
    >[!NOTE]
    >
-   >* [!DNL Workfront] 에 연결 [!DNL Adobe Creative Cloud] 사용자의 인증 및 권한 부여를 위해 대부분의 웹 기반 통합에서 사용하는 보안 표준인 OAuth 2.0을 사용합니다.
-   >* 을 입력하라는 메시지가 표시되면 [도메인 또는 호스트] / [!DNL Workfront] 계정, 다음 형식을 사용하여 입력: *yourCompany&#39;sDomain.my.workfront.com*. 회사의 도메인은 일반적으로 회사의 이름입니다.
+   >* [!DNL Workfront]은(는) 사용자의 인증 및 권한 부여를 위해 대부분의 웹 기반 통합에서 사용하는 보안 표준인 OAuth 2.0을 사용하여 [!DNL Adobe Creative Cloud]에 연결합니다.
+   >* [!DNL Workfront] 계정의 [도메인 또는 호스트]를 입력하라는 메시지가 표시되면 *yourCompany&#39;sDomain.my.workfront.com* 형식을 사용하여 입력하세요. 회사의 도메인은 일반적으로 회사의 이름입니다.
 
-1. 클릭 **[!UICONTROL 액세스 허용]** 로그인을 완료하고 다음으로 돌아가기 [!DNL Adobe XD] 작업을 봅니다.
+1. 로그인을 완료하려면 **[!UICONTROL 액세스 허용]**&#x200B;을 클릭하고 작업을 보려면 [!DNL Adobe XD](으)로 돌아가세요.
 
  

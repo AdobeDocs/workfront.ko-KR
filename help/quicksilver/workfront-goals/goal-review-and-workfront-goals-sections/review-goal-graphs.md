@@ -50,7 +50,7 @@ Adobe Workfront 목표의 그래프 섹션에서 목표의 전반적인 상태�
  <td>
  <p>새 라이선스: 기여자 이상</p>
  또는
- <p>현재 라이선스: 요청 이상</p> <p>자세한 내용은 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront 라이선스 개요</a>.</p> </td>
+ <p>현재 라이선스: 요청 이상</p> <p>자세한 내용은 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront 라이선스 개요</a>를 참조하십시오.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">제품*</td>
@@ -60,7 +60,7 @@ Adobe Workfront 목표의 그래프 섹션에서 목표의 전반적인 상태�
 <li>Select 또는 Prime Adobe Workfront 플랜 및 추가 Adobe Workfront Goals 라이선스.</li>
 <li>기본적으로 Workfront 목표를 포함하는 Ultimate Workfront 계획입니다. </li></ul>
  <p>또는</p>
- <p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표 사용 요구 사항</a>. </p> </td>
+ <p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표를 사용하기 위한 요구 사항</a>을 참조하십시오. </p> </td>
  </tr>
  <tr>
  <td role="rowheader"><p>액세스 수준</p></td>
@@ -72,7 +72,7 @@ Adobe Workfront 목표의 그래프 섹션에서 목표의 전반적인 상태�
   <div>
   <p>목표에 대한 또는 그 이상의 권한에 대한 보기</p>
   <p>편집할 목표에 대한 권한 관리</p>
-  <p>목표 공유에 대한 자세한 내용은 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront 목표에서 목표 공유</a>. </p>
+  <p>목표 공유에 대한 자세한 내용은 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront 목표에서 목표 공유</a>를 참조하십시오. </p>
   </div> </td>
  </tr>
  <tr>
@@ -83,7 +83,7 @@ Adobe Workfront 목표의 그래프 섹션에서 목표의 전반적인 상태�
 </tbody>
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## Workfront 목표의 그래프 유형
 
@@ -99,7 +99,7 @@ Adobe Workfront 목표의 그래프 섹션에서 목표의 전반적인 상태�
     <ul> 
      <li>선택한 기간 동안의 총 목표 수입니다. 모든 상태의 목표를 고려합니다. </li> 
      <li>활성 및 마감됨 상태의 목표 진행 상태입니다.</li> 
-    </ul> <p>Workfront Goals가 진행 상태를 계산하는 방법에 대한 자세한 내용은 <a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Adobe Workfront 목표의 목표 진행 및 상태 개요</a>.</p> </td> 
+    </ul> <p>Workfront Goals가 진행 상태를 계산하는 방법에 대한 자세한 내용은 <a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Adobe Workfront Goals의 목표 진행 및 상태 개요</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">목표 진행률 차트</td> 
@@ -114,14 +114,14 @@ Adobe Workfront 목표의 그래프 섹션에서 목표의 전반적인 상태�
 
 ## 그래프로 목표 진행 상황 검토
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) > **목표** 오른쪽 상단 모서리입니다.
+1. 오른쪽 상단의 **주 메뉴** 아이콘 ![](assets/main-menu-icon.png) > **목표**&#x200B;를 클릭합니다.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 
    그러면 Workfront 목표 영역이 열립니다.
 
-1. 클릭 **그래프** 왼쪽 패널에서
+1. 왼쪽 패널에서 **그래프**&#x200B;를 클릭합니다.
 
    ![](assets/graphs-in-left-panel.png)
 
@@ -134,7 +134,7 @@ Adobe Workfront 목표의 그래프 섹션에서 목표의 전반적인 상태�
 
 1. (선택 사항) 그래프 섹션의 오른쪽 상단에 있는 필터를 업데이트하여 표시할 정보 유형을 선택합니다.
 
-   필터링 목표에 대한 자세한 내용은 [Adobe Workfront 목표의 정보 필터링](../../workfront-goals/goal-management/filter-information-wf-goals.md).
+   필터링 목표에 대한 자세한 내용은 [Adobe Workfront 목표의 정보 필터링](../../workfront-goals/goal-management/filter-information-wf-goals.md)을 참조하십시오.
 
    >[!TIP]
    >
@@ -171,14 +171,14 @@ Adobe Workfront 목표의 그래프 섹션에서 목표의 전반적인 상태�
 
 1. 목표 진행률 차트에서 주 노드를 마우스로 가리키고 다음을 검토합니다.
 
-   * **주별 일자**: 선택한 주의 월, 일 및 년입니다.
-   * **진행률**: 선택한 주에 대한 모든 목표의 실제 완료율 평균입니다.
-   * **기준선**: 선택한 주의 모든 목표에 대한 예상 완료율의 평균.
+   * **주 날짜**: 선택한 주의 월, 일, 년입니다.
+   * **진행**: 선택한 주에 대한 모든 목표의 실제 완료율 평균입니다.
+   * **기준선**: 선택한 주에 대한 모든 목표의 예상 완료율의 평균입니다.
 
-1. (선택 사항) **진행률** 진행률 차트 하단에서 실제 전체 진행률 라인을 제거합니다.
+1. (선택 사항) 진행률 차트의 맨 아래에 있는 **진행률**&#x200B;을 클릭하여 실제 전체 진행률을 제거합니다.
 
    또는
 
-   클릭 **기준선** 진행률 차트 하단에서 예상 진행률을 차트에서 제거합니다.
+   진행률 차트의 맨 아래에 있는 **기준선**&#x200B;을 클릭하여 차트에서 예상되는 진행률을 제거합니다.
 
  

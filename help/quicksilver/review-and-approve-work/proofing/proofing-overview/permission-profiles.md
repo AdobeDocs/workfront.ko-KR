@@ -21,11 +21,11 @@ ht-degree: 2%
 
 증명 권한 프로필은 사용자가 계정의 모든 증명에 대해 갖는 전체 권한을 결정합니다. 증명 권한 프로필은 사용자 프로필의 사용자에게 할당됩니다.
 
-증명 권한 프로필이 증명 역할과 다릅니다. 증명 역할에 대한 자세한 내용은 [증명 역할 개요](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).
+증명 권한 프로필이 증명 역할과 다릅니다. 증명 역할에 대한 자세한 내용은 [증명 역할 개요](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md)를 참조하십시오.
 
 >[!NOTE]
 >
->관리자는 조직의 사용자를 위해 사용자 정의 프로필을 만들 수 있습니다. 자세한 내용은 [Workfront Proof에서 사용자 정의 프로필 구성](../../../workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md).
+>관리자는 조직의 사용자를 위해 사용자 정의 프로필을 만들 수 있습니다. 자세한 내용은 [Workfront Proof에서 사용자 지정 프로필 구성](../../../workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md)을 참조하십시오.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Consider the following about roles and permissions:</p>
@@ -50,7 +50,7 @@ ht-degree: 2%
    </td>
    <td colspan="4" ><strong>고유 항목</strong>
    </td>
-   <td colspan="3" ><strong>기타 사용자 항목</strong>
+   <td colspan="3" ><strong>다른 사용자의 항목</strong>
    </td>
    <td><strong>관리자</strong>
    </td>
@@ -139,7 +139,7 @@ ht-degree: 2%
 
 ### 관리자
 
-관리자가에 대한 액세스 권한 부여 [계정 설정](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings) 및 에는 다음 권한이 있습니다.
+관리자는 [계정 설정](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)에 액세스할 수 있으며 다음 권한이 있습니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -175,7 +175,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-&#42;Workfront Proof 독립 실행형 제품에서만 사용할 수 있습니다.
+&#42;Workfront Proof 표준 제품에서만 사용할 수 있습니다.
 
 ### 감독자
 

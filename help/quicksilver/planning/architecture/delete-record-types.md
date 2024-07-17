@@ -31,9 +31,9 @@ hide: yes
 
 더 이상 관련이 없는 레코드 유형은 삭제할 수 있습니다.
 
-그러나 레코드 유형을 삭제하면 레코드 유형과 관련된 모든 정보도 삭제됩니다. 자세한 내용은 [레코드 유형 삭제 시 고려 사항](#considerations-when-deleting-record-types) 이 문서의 섹션.
+그러나 레코드 유형을 삭제하면 레코드 유형과 관련된 모든 정보도 삭제됩니다. 자세한 내용은 이 문서의 [레코드 종류 삭제 시 고려 사항](#considerations-when-deleting-record-types) 섹션을 참조하십시오.
 
-레코드 유형에 대한 자세한 내용은 [레코드 유형 개요](/help/quicksilver/planning/architecture/overview-of-record-types.md).
+레코드 형식에 대한 자세한 내용은 [레코드 형식 개요](/help/quicksilver/planning/architecture/overview-of-record-types.md)를 참조하십시오.
 
 <!-- last sentence might need to be deleted when we can recover or replace deleted record types-->
 
@@ -80,13 +80,13 @@ hide: yes
 
 <tr>
    <td role="rowheader"><p>권한</p></td>
-   <td> <p>작업 공간에 대한 권한 관리</a> </p>  
+   <td> <p>작업 영역</a>에 대한 권한 관리 </p>  
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>레이아웃 템플릿</p></td>
-   <td> <p>Workfront 또는 그룹 관리자는 레이아웃 템플릿에 계획 영역을 추가해야 합니다. 자세한 내용은 <a href="/help/quicksilver/planning/access/access-overview.md">액세스 개요</a>. </p>  
+   <td> <p>Workfront 또는 그룹 관리자는 레이아웃 템플릿에 계획 영역을 추가해야 합니다. 자세한 내용은 <a href="/help/quicksilver/planning/access/access-overview.md">액세스 개요</a>를 참조하십시오. </p>  
 </td>
   </tr>
 
@@ -131,11 +131,11 @@ hide: yes
    작업공간이 열리고 레코드 유형이 표시됩니다.
 1. 다음 중 하나를 수행하십시오.
 
-   * 레코드 유형 카드에 마우스를 가져다 대고 자세히 메뉴를 클릭한 다음 **삭제**.
-   * 삭제할 레코드 유형의 카드를 클릭하고 레코드 유형 페이지에서 **자세히** 메뉴 ![](assets/more-menu.png) 레코드 유형 이름의 오른쪽에 있는 **삭제**.
+   * 레코드 종류 카드 위에 마우스를 올려 놓고 기타 메뉴를 클릭한 다음 **삭제**&#x200B;를 클릭합니다.
+   * 삭제할 레코드 종류의 카드를 클릭하고 레코드 종류 페이지에서 레코드 종류 이름의 오른쪽에 있는 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭한 다음 **삭제**&#x200B;를 클릭합니다.
 
    ![](assets/permanently-delete-record-type-confirmation.png)
 
-1. 유형 **삭제** 확인 상자에서 을(를) 클릭한 다음 **영구적으로 삭제**. 대/소문자를 구분하지 않습니다.
+1. 확인 상자에 **delete**&#x200B;을(를) 입력한 다음 **영구적으로 삭제**&#x200B;을(를) 클릭합니다. 대/소문자를 구분하지 않습니다.
 
    선택한 레코드 종류, 해당 필드, 연결된 레코드 및 보기가 삭제됩니다.

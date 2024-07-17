@@ -97,7 +97,7 @@ Workfront 관리자인 경우 지난 30일 동안 프로젝트, 작업, 문제, 
 
 * 시간(및 시간 ID)
 
-  삭제된 항목에 시간을 복원할지 여부는 타임시트 및 시간에 대한 환경 설정을 구성할 때 선택한 설정에 따라 다릅니다. 자세한 내용은 [오브젝트가 삭제되고 복원될 때 시간에 대한 영향 구성](../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md).
+  삭제된 항목에 시간을 복원할지 여부는 타임시트 및 시간에 대한 환경 설정을 구성할 때 선택한 설정에 따라 다릅니다. 자세한 내용은 [개체가 삭제되고 복원될 때 시간에 대한 영향 구성](../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md)을 참조하십시오.
 
 * 항목의 URL
 
@@ -131,20 +131,20 @@ Workfront 관리자인 경우 지난 30일 동안 프로젝트, 작업, 문제, 
 
 * 오브젝트 해결 중
 
-  해결 중 오브젝트는 옵션으로 구성된 전환된 문제입니다. **원래 문제를 유지하고 해결 방법을 이 와(과) 연결** &lt;**프로젝트** 또는 **작업)**>. 상위 프로젝트 또는 작업을 삭제하면 더 이상 해당 문제를 프로젝트 또는 작업에 연결하는 링크가 없으므로 이 문제는 해결 중인 개체로 식별되지 않습니다. 상위 항목을 복원하면 링크가 복원되지 않습니다.
+  해결 중인 개체는 **원래 문제를 유지하고 해결 방법을 이** &lt;**프로젝트** 또는 **작업)**> 옵션과 함께 구성된 전환된 문제입니다. 상위 프로젝트 또는 작업을 삭제하면 더 이상 해당 문제를 프로젝트 또는 작업에 연결하는 링크가 없으므로 이 문제는 해결 중인 개체로 식별되지 않습니다. 상위 항목을 복원하면 링크가 복원되지 않습니다.
 
-  Workfront 관리자 또는 그룹 관리자가 전환할 때 해결 중인 오브젝트와 일치하도록 문제를 구성하는 방법에 대한 자세한 내용은 을 참조하십시오. [시스템 전체 작업 및 문제 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) 및 [그룹에 대한 작업 및 문제 환경 설정 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+  Workfront 관리자 또는 그룹 관리자가 전환할 때 해결 오브젝트와 일치하도록 문제를 구성하는 방법에 대한 자세한 내용은 [시스템 전체 작업 및 문제 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) 및 [그룹에 대한 작업 및 문제 환경 설정 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)을 참조하십시오.
 
-  문제 변환에 대한 자세한 내용은 [Adobe Workfront의 문제 전환 개요](../../../manage-work/issues/convert-issues/convert-issues.md).
+  문제 변환에 대한 자세한 내용은 [Adobe Workfront의 문제 변환 개요](../../../manage-work/issues/convert-issues/convert-issues.md)를 참조하십시오.
 
 ## 항목 복원
 
 {{step-1-to-setup}}
 
-1. 클릭 **휴지통** > **최근에 삭제됨**.
-1. 다음을 클릭합니다. **프로젝트**, **작업**, **문제**, **템플릿**, 또는 **문서** 복원할 항목 유형에 따라 탭을 선택합니다.
+1. **휴지통** > **최근에 삭제됨**&#x200B;을 클릭합니다.
+1. 복원할 항목 유형에 따라 **프로젝트**, **작업**, **문제**, **템플릿** 또는 **문서** 탭을 클릭합니다.
 
-   항목은 다음을 기준으로 정렬됩니다 **삭제 날짜** 기본적으로 열입니다.
+   항목은 기본적으로 **삭제 날짜** 열을 기준으로 정렬됩니다.
 
 1. 복원할 항목을 최대 10개까지 선택합니다.
 
@@ -152,10 +152,10 @@ Workfront 관리자인 경우 지난 30일 동안 프로젝트, 작업, 문제, 
 
    상위 작업을 삭제하면 상위 작업만 목록에 표시됩니다. 그러나 상위 작업을 복원하면 모든 하위 작업이 복원됩니다.
 
-1. 클릭 **복원** 선택한 항목을 원래 위치로 복원합니다.
-1. (선택 사항) 복원된 항목을 빠르게 보려면 의 단계를 수행합니다 [복원된 항목 보기](../../../administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
+1. 선택한 항목을 원래 위치로 복원하려면 **복원**&#x200B;을 클릭하세요.
+1. (선택 사항) 복원된 항목을 빠르게 보려면 [복원된 항목 보기](../../../administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)의 단계를 따릅니다.
 
-   항목을 복원한 후 수행되는 작업에 대한 자세한 내용은 섹션을 참조하십시오 [항목을 복원하면 어떻게 됩니까?](#what-happens-after-you-restore-items) 이 문서에서.
+   항목을 복원한 후 수행되는 작업에 대한 자세한 내용은 이 문서의 [항목을 복원한 후 수행되는 작업](#what-happens-after-you-restore-items) 섹션을 참조하십시오.
 
 ## 항목을 복원하면 어떻게 됩니까? {#what-happens-after-you-restore-items}
 

@@ -66,11 +66,11 @@ ht-degree: 0%
      <li> <p>문제</p> </li> 
     </ul> <p><b> 메모</b>
 
-여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td>
+여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>프로젝트, 작업 및 문제에 대한 권한 이상 보기 </p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>프로젝트, 작업 및 문제에 대한 권한 이상 보기 </p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -83,8 +83,8 @@ ht-degree: 0%
 
 ### 리소스 조달 영역의 여러 프로젝트에 대한 업무 균형자 액세스
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png)을 클릭한 다음 을 클릭합니다 **리소스 조달**.
-1. 클릭 **업무 균형자** 왼쪽 패널에서
+1. **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을 클릭한 다음 **리소스 조달**&#x200B;을 클릭합니다.
+1. 왼쪽 패널에서 **업무 균형자**&#x200B;를 클릭합니다.
 
    ![](assets/nwe-balancer-global.png)
 
@@ -93,11 +93,11 @@ ht-degree: 0%
    * **할당 해제된 작업**: 할당 해제된 작업 항목이 없습니다.
    * **할당된 작업**: 시스템의 모든 활성 사용자.
 
-     할당된 작업 영역에 사용자를 표시할 때는 필터를 사용하는 것이 좋습니다. 자세한 내용은 [업무 균형자에서 정보 필터링](../workload-balancer/filter-information-workload-balancer.md).
+     할당된 작업 영역에 사용자를 표시할 때는 필터를 사용하는 것이 좋습니다. 자세한 내용은 [업무 균형자에서 정보 필터링](../workload-balancer/filter-information-workload-balancer.md)을 참조하십시오.
 
 ### 팀의 업무 균형자 액세스
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png)을 클릭한 다음 팀을 클릭합니다.
+1. **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 팀을 클릭합니다.
 홈 팀의 페이지가 표시됩니다.
 
    팀에 대한 업무 균형자 가 기본적으로 표시됩니다.
@@ -106,8 +106,8 @@ ht-degree: 0%
 
    팀의 업무 균형자 에는 기본적으로 다음 정보가 표시됩니다.
 
-   * **할당 해제된 작업**: 팀에 할당되고 사용자에게는 할당되지 않은 항목.
-   * **할당된 작업**: 모든 할당이 있는 팀의 모든 구성원입니다.
+   * **할당 해제된 작업**: 팀에 할당되고 사용자에게 할당되지 않은 항목입니다.
+   * **할당된 작업**: 모든 할당이 있는 모든 팀원
 
      >[!TIP]
      >
@@ -117,9 +117,9 @@ ht-degree: 0%
 
 ### 프로젝트의 업무 균형자 액세스
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png)을 클릭한 다음 을 클릭합니다 **프로젝트**.
+1. **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **프로젝트**&#x200B;를 클릭합니다.
 1. 프로젝트 이름을 클릭하여 프로젝트 페이지를 엽니다.
-1. 클릭 **업무 균형자** 왼쪽 패널에서 다음을 클릭해야 할 수 있습니다. **더 보기**, 그런 다음 **업무 균형자**.
+1. 왼쪽 패널에서 **업무 균형자**&#x200B;를 클릭합니다. **자세히 표시**&#x200B;를 클릭한 다음 **업무 균형자**&#x200B;를 클릭해야 할 수 있습니다.
 
    프로젝트에 대한 업무 균형자 가 표시됩니다.
 
@@ -132,7 +132,7 @@ ht-degree: 0%
 
      >[!TIP]
      >
-     >모든 사용자 표시 옵션을 활성화하면 프로젝트(할당된 작업 영역)의 사용자만 표시하지 않고 시스템의 모든 사용자를 표시할 수 있습니다. 자세한 내용은 [업무 균형자 탐색](../workload-balancer/navigate-the-workload-balancer.md).
+     >모든 사용자 표시 옵션을 활성화하면 프로젝트(할당된 작업 영역)의 사용자만 표시하지 않고 시스템의 모든 사용자를 표시할 수 있습니다. 자세한 내용은 [업무 균형자 탐색](../workload-balancer/navigate-the-workload-balancer.md)을 참조하십시오.
 
 
 ## 사용자 정의 섹션에 업무 균형자 추가
@@ -147,14 +147,14 @@ ht-degree: 0%
    * 팀
    * 프로젝트
 
-1. 에 설명된 대로 공유 가능한 링크를 가져와서 클립보드에 복사합니다. [링크를 사용하여 업무 균형자 공유](../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md).
-1. 에 설명된 대로 외부 페이지로 대시보드를 만듭니다. [외부 웹 페이지를 대시보드에 포함](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). 2단계에서 얻은 공유 가능한 링크를 외부 페이지에 사용합니다.
+1. [링크와 업무 균형자 공유](../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md)에 설명된 대로 공유 가능한 링크를 가져와 클립보드에 복사합니다.
+1. [외부 웹 페이지를 대시보드에 포함](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md)에 설명된 대로 외부 페이지를 사용하여 대시보드를 만듭니다. 2단계에서 얻은 공유 가능한 링크를 외부 페이지에 사용합니다.
 
    <!--
       (NOTE: ensure this stays correct)
       -->
 
-1. 에 설명된 대로 사용자 정의 섹션을 만듭니다. [사용자 정의 탭 또는 섹션 만들기](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) 을 클릭하여 사용자 지정 탭에 대시보드를 배치합니다.
+1. [사용자 지정 탭 또는 섹션 만들기](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)에 설명된 대로 사용자 지정 섹션을 만들어 대시보드를 사용자 지정 탭에 배치합니다.
 
    사용자 정의 섹션에서 업무 균형자에 액세스할 때 1단계에 나열된 원래 영역 중 하나에서 직접 액세스하는 것처럼 볼 수 있습니다.
 
@@ -162,7 +162,7 @@ ht-degree: 0%
       (NOTE: ensure this stays correct)
      -->
 
-1. (선택 사항) 의 설명에 따라 레이아웃 템플릿에서 사용자 정의 탭을 공유합니다.  [레이아웃 템플릿을 사용하여 왼쪽 패널 사용자 정의](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md) .
+1. (선택 사항) [레이아웃 템플릿을 사용하여 왼쪽 패널 사용자 지정](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)에 설명된 대로 레이아웃 템플릿에서 사용자 지정 탭을 공유합니다.
 
 
 <!--

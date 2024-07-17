@@ -5,7 +5,7 @@ product-area: workfront-integrations;documents
 keywords: 커넥터
 navigation-topic: apps-and-their-modules
 title: 이벤트 모듈
-description: 다음에서 [!DNL Adobe Workfront Fusion] 시나리오에서는 Cvent를 사용하는 워크플로를 자동화할 수 있을 뿐만 아니라 여러 타사 애플리케이션 및 서비스에 연결할 수 있습니다.
+description: ' [!DNL Adobe Workfront Fusion] 시나리오에서는 Cvent를 사용하는 워크플로를 자동화하고 여러 타사 응용 프로그램 및 서비스에 연결할 수 있습니다.'
 author: Becky
 feature: Workfront Fusion
 exl-id: c95b9764-29a5-4d8c-8e6d-68a3969129e0
@@ -16,13 +16,13 @@ ht-degree: 1%
 
 ---
 
-# [!DNL Cvent] 모듈
+# [!DNL Cvent]개 모듈
 
-다음에서 [!DNL Adobe Workfront Fusion] 시나리오에서는 다음을 사용하는 워크플로를 자동화할 수 있습니다 [!DNL Cvent]을 여러 타사 응용 프로그램 및 서비스에 연결할 수 있습니다.
+[!DNL Adobe Workfront Fusion] 시나리오에서는 [!DNL Cvent]을(를) 사용하는 워크플로를 자동화하고 여러 타사 응용 프로그램 및 서비스에 연결할 수 있습니다.
 
-시나리오를 만드는 방법에 대한 지침이 필요한 경우 [에서 시나리오 만들기 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+시나리오를 만드는 방법에 대한 지침이 필요하면 [시나리오 만들기 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md)를 참조하십시오.
 
-모듈에 대한 자세한 내용은 [의 모듈 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+모듈에 대한 자세한 내용은 [의 모듈 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md)을 참조하세요.
 
 ## 액세스 요구 사항
 
@@ -43,58 +43,58 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 라이센스**</td> 
    <td>
-   <p>현재 라이선스 요구 사항: 아니요 [!DNL Workfront Fusion] 라이센스 요구 사항.</p>
+   <p>현재 라이선스 요구 사항: [!DNL Workfront Fusion] 라이선스 요구 사항이 없습니다.</p>
    <p>또는</p>
-   <p>기존 라이선스 요구 사항: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
+   <p>레거시 라이선스 요구 사항: 작업 자동화 및 통합을 위한 [!UICONTROL [!DNL Workfront Fusion]] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">제품</td> 
    <td>
-   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime]이 있는 경우 [!DNL Adobe Workfront] 플랜, 조직은 다음을 구매해야 합니다. [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오. [!DNL Workfront Fusion] [!UICONTROL Ultimate]에 포함되어 있습니다. [!DNL Workfront] 계획.</p>
+   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime] [!DNL Adobe Workfront] 플랜이 있는 경우 조직에서 이 문서에 설명된 기능을 사용하려면 [!DNL Adobe Workfront Fusion]과(와) [!DNL Adobe Workfront]을(를) 구매해야 합니다. [!DNL Workfront Fusion]이(가) [!UICONTROL Ultimate] [!DNL Workfront] 계획에 포함되어 있습니다.</p>
    <p>또는</p>
-   <p>레거시 제품 요구 사항: 조직에서 구매해야 함 [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오.</p>
+   <p>레거시 제품 요구 사항: 이 문서에 설명된 기능을 사용하려면 조직에서 [!DNL Adobe Workfront Fusion]과(와) [!DNL Adobe Workfront]을(를) 구매해야 합니다.</p>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
+보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
 
-다음에 대한 정보: [!DNL Adobe Workfront Fusion] 라이센스, 참조 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+[!DNL Adobe Workfront Fusion] 라이선스에 대한 자세한 내용은 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md)를 참조하세요.
 
 ## 전제 조건
 
-사용 [!DNL Cvent] 모듈, 다음이 있어야 합니다. [!DNL Cvent] 계정입니다.
+[!DNL Cvent] 모듈을 사용하려면 [!DNL Cvent] 계정이 있어야 합니다.
 
-## 연결 [!DNL Cvent] 끝 [!DNL Adobe Workfront Fusion] {#connect-cvent-to-adobe-workfront-fusion}
+## [!DNL Cvent]을(를) [!DNL Adobe Workfront Fusion]에 연결 {#connect-cvent-to-adobe-workfront-fusion}
 
 >[!NOTE]
 >
->다음 [!DNL Cvent] 모듈은 다음을 통해 작동합니다. [!UICONTROL SOAP] API. 에 대한 연결을 만들려면 [!DNL Cvent], 다음을 확인해야 합니다.
+>[!DNL Cvent] 모듈은 [!UICONTROL SOAP] API를 통해 작동합니다. [!DNL Cvent]에 대한 연결을 만들려면 다음을 확인해야 합니다.
 >
->* 다음을 보유하고 있습니다. [!UICONTROL SOAP] 액세스 권한: [!DNL Cvent] API.
->* 다음 [!DNL Workfront Fusion] 조직의 IP 주소가 허용 목록에 추가되었습니다.
+>* [!DNL Cvent] API에 대한 [!UICONTROL SOAP] 액세스 권한이 있습니다.
+>* 조직의 [!DNL Workfront Fusion] IP 주소가 허용 목록에 추가하다에 추가되었습니다.
 >
->  의 목록 [!DNL Workfront Fusion] IP 주소, 참조 [액세스하기 위한 IP 주소 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/ip-addresses-for-fusion.md)
+>  [!DNL Workfront Fusion] IP 주소 목록을 보려면 [액세스할 IP 주소 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/ip-addresses-for-fusion.md)를 참조하십시오.
 
 
-에 대한 연결을 만들 수 있습니다. [!DNL Cvent] 내에서 직접 계정 [!DNL Cvent] 모듈.
+[!DNL Cvent] 모듈 내에서 직접 [!DNL Cvent] 계정에 연결할 수 있습니다.
 
-1. 다음 중 하나 [!DNL Cvent] 모듈, 클릭 **[!UICONTROL 추가]** 다음 옆에 [!UICONTROL 연결] 필드.
+1. [!DNL Cvent] 모듈에서 [!UICONTROL 연결] 필드 옆에 있는 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
 1. 연결할 지역을 선택합니다.
 
-   * [!UICONTROL 북아메리카]
+   * [!UICONTROL 북미]
    * [!UICONTROL 유럽]
    * [!UICONTROL 샌드박스]
 
-1. 클릭 **[!UICONTROL 계속]** 를 클릭하여 연결을 만들고 모듈로 돌아갑니다.
+1. 연결을 만들고 모듈로 돌아가려면 **[!UICONTROL 계속]**&#x200B;을 클릭하세요.
 
-## [!DNL Cvent] 모듈 및 해당 필드
+## [!DNL Cvent]개 모듈 및 해당 필드
 
-를 구성할 때 [!DNL Cvent] 모듈, [!DNL Workfront Fusion] 아래 나열된 필드를 표시합니다. 이와 함께 추가 [!DNL Cvent] 앱이나 서비스의 액세스 수준 등에 따라 필드가 표시될 수 있습니다. 모듈의 굵은 제목은 필수 필드를 나타냅니다.
+[!DNL Cvent] 모듈을 구성할 때 [!DNL Workfront Fusion]에 아래 나열된 필드가 표시됩니다. 앱 또는 서비스의 액세스 수준과 같은 요소에 따라 이러한 필드와 함께 [!DNL Cvent] 필드가 추가로 표시될 수 있습니다. 모듈의 굵은 제목은 필수 필드를 나타냅니다.
 
-필드나 함수 위에 맵 단추가 표시되면 이 단추를 사용하여 해당 필드에 대한 변수와 함수를 설정할 수 있습니다. 자세한 내용은 [의 한 모듈에서 다른 모듈로 정보 매핑 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+필드나 함수 위에 맵 단추가 표시되면 이 단추를 사용하여 해당 필드에 대한 변수와 함수를 설정할 수 있습니다. 자세한 내용은 [한 모듈에서 다른 모듈로 정보를 매핑 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)을 참조하십시오.
 
 ![](assets/map-toggle-350x74.png)
 
@@ -103,7 +103,7 @@ ht-degree: 1%
 
 ### 액션
 
-* [[!UICONTROL 사용자 정의 API 호출]](#create-meeting-request)
+* [[!UICONTROL 사용자 지정 API 호출]](#create-meeting-request)
 * [[!UICONTROL 레코드 읽기]](#read-a-record)
 * [[!UICONTROL 초대 대상자 등록]](#register-invitee)
 * [[!UICONTROL 초대 대상자 추가]](#add-invitee)
@@ -111,9 +111,9 @@ ht-degree: 1%
 * [[!UICONTROL 연락처 업데이트]](#update-contact)
 * [[!UICONTROL 모임 요청 만들기]](#create-meeting-request)
 
-#### [!UICONTROL 사용자 정의 API 호출]
+#### [!UICONTROL 사용자 지정 API 호출]
 
-이 작업 모듈에서는 다음을 위한 사용자 지정 인증 호출을 만들 수 있습니다. [!DNL Cvent] API. 이렇게 하면 다른 사용자가 수행할 수 없는 데이터 흐름 자동화를 만들 수 있습니다 [!DNL Cvent] 모듈.
+이 작업 모듈을 사용하면 [!DNL Cvent] API에 대해 사용자 지정 인증된 호출을 수행할 수 있습니다. 이렇게 하면 다른 [!DNL Cvent] 모듈에서 수행할 수 없는 데이터 흐름 자동화를 만들 수 있습니다.
 
 이 모듈을 구성할 때 다음 필드가 표시됩니다.
 
@@ -125,11 +125,11 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Cvent] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">연결 [!DNL Cvent] 끝 [!DNL Adobe Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL Cvent] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">[!DNL Cvent]을(를) [!DNL Adobe Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">작업</td> 
-   td&gt; <p>API 호출을 구성하는 데 필요한 HTTP 요청 메서드를 선택합니다. 자세한 내용은 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">의 HTTP 요청 메서드 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   td&gt; <p>API 호출을 구성하는 데 필요한 HTTP 요청 메서드를 선택합니다. 자세한 내용은 [!DNL Adobe Workfront Fusion]</a>에서 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP 요청 메서드를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">본문(XML)</td> 
@@ -148,7 +148,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Cvent] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">연결 [!DNL Cvent] 끝 [!DNL Adobe Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL Cvent] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">[!DNL Cvent]을(를) [!DNL Adobe Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 레코드 유형]</p> </td> 
@@ -175,7 +175,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Cvent] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">연결 [!DNL Cvent] 끝 [!DNL Adobe Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL Cvent] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">[!DNL Cvent]을(를) [!DNL Adobe Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>초대 ID</p> </td> 
@@ -198,7 +198,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Cvent] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">연결 [!DNL Cvent] 끝 [!DNL Adobe Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL Cvent] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">[!DNL Cvent]을(를) [!DNL Adobe Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 연락처 ID]</p> </td> 
@@ -221,7 +221,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Cvent] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">연결 [!DNL Cvent] 끝 [!DNL Adobe Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL Cvent] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">[!DNL Cvent]을(를) [!DNL Adobe Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 연락처 ID]</td> 
@@ -240,7 +240,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Cvent] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">연결 [!DNL Cvent] 끝 [!DNL Adobe Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL Cvent] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">[!DNL Cvent]을(를) [!DNL Adobe Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 연락처 ID]</p> </td> 
@@ -267,7 +267,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Cvent] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">연결 [!DNL Cvent] 끝 [!DNL Adobe Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL Cvent] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">[!DNL Cvent]을(를) [!DNL Adobe Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 양식 ID]</p> </td> 
@@ -290,7 +290,7 @@ ht-degree: 1%
 
 ### 검색 결과
 
-#### [!UICONTROL 목록 레코드]
+#### [!UICONTROL 레코드 나열]
 
 이 검색 모듈은 특정 유형의 모든 레코드에 대한 정보를 검색합니다.
 
@@ -300,13 +300,13 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Cvent] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">연결 [!DNL Cvent] 끝 [!DNL Adobe Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL Cvent] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">[!DNL Cvent]을(를) [!DNL Adobe Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 레코드 유형]</p> </td> 
    <td> <p>나열할 레코드 유형을 선택합니다.</p> 
     <ul> 
-     <li> <p>의 모든 이벤트 [!DNL Cvent] account</p> </li> 
+     <li> <p>[!DNL Cvent] 계정의 모든 이벤트</p> </li> 
      <li> <p>이벤트에 대한 모든 세션</p> </li> 
      <li> <p>이벤트에 대한 모든 초대됨</p> </li> 
     </ul> </td> 

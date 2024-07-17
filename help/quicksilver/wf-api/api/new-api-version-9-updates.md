@@ -9,8 +9,8 @@ role: Developer
 exl-id: 51892846-d93f-4363-8416-4118fb2ef84d
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 43%
+source-wordcount: '257'
+ht-degree: 39%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 43%
 
 ## 업데이트된 리소스
 
-다음 기존 리소스가 Adobe Workfront API의 이번 릴리스로 업데이트되었습니다. 버전 9의 새로운 리소스를 보려면 다음을 방문하십시오. [API 버전 9의 새로운 기능](../../wf-api/api/new-api-version-9.md) 및 [API 버전 9의 새로운 기능(계속)](../../wf-api/api/new-api-version-9-continue.md). 리소스에 대한 변경 사항은 다음 방법으로 표시됩니다.
+다음 기존 리소스가 Adobe Workfront API의 이번 릴리스로 업데이트되었습니다. 버전 9의 새로운 리소스를 보려면 [API 버전 9의 새로운 기능](../../wf-api/api/new-api-version-9.md) 및 [API 버전 9의 새로운 기능(계속)](../../wf-api/api/new-api-version-9-continue.md)을 방문하세요. 리소스에 대한 변경 사항은 다음 방법으로 표시됩니다.
 
 * 추가 사항은 간단히 나열되어 있습니다
 * 제거는 취소선 텍스트로 표시됩니다
@@ -65,7 +65,7 @@ ht-degree: 43%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 가능한 값 변경
+possibleValues에 대한 <sup>1</sup> 변경 사항
 
 ### 시간
 

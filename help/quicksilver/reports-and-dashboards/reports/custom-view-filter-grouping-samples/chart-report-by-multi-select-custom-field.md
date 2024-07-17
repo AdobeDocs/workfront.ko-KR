@@ -9,7 +9,7 @@ feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
 source-git-commit: a2f0ef565b0f0dbcfec7f3f5b5fece4c7b4b1ec6
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1022'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 * 확인란
 * 드롭다운 메뉴 다중 선택
 
-텍스트 모드 사용에 대한 자세한 내용은 문서 를 참조하십시오 [텍스트 모드 개요](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+텍스트 모드 사용에 대한 자세한 내용은 문서 [텍스트 모드 개요](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)를 참조하십시오.
 
 그러나 다중 선택 필드의 각 옵션에 대해 별도의 필드를 사용할 수 없는 경우 계산된 사용자 정의 필드를 사용하여 다중 선택 필드의 선택 항목을 먼저 그룹화하여 다중 선택 사용자 정의 필드별로 보고서를 차트로 작성할 수 있습니다. 그런 다음 계산된 필드를 기준으로 보고서를 차트로 작성할 수 있습니다.
 
@@ -47,7 +47,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
@@ -55,11 +55,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 편집</p> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 편집</p> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>보고서에 대한 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>보고서에 대한 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 ## 전제 조건
 
-시작하기 전에 다중 선택 사용자 정의 필드에서 선택한 값을 표시하는 계산된 사용자 정의 필드를 만들어야 합니다. 자세한 내용은 [다중 선택 사용자 지정 필드를 참조하는 계산된 사용자 지정 필드를 작성합니다](#build-a-calculated-custom-field-that-references-a-multi-select-custom-field) 이 문서의 섹션.
+시작하기 전에 다중 선택 사용자 정의 필드에서 선택한 값을 표시하는 계산된 사용자 정의 필드를 만들어야 합니다. 자세한 내용은 이 문서의 [다중 선택 사용자 지정 필드를 참조하는 계산된 사용자 지정 필드 작성](#build-a-calculated-custom-field-that-references-a-multi-select-custom-field) 섹션을 참조하십시오.
 
 ## 다중 선택 사용자 정의 필드로 보고서 차트 작성
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 다중 선택 사용자 지정 필드를 참조하여 보고서에서 차트를 작성할 수 없습니다. 대신 계산된 필드를 사용하여 특정 오브젝트 및 그룹에 대한 다중 선택 사용자 정의 필드의 값을 기록하는 계산된 필드를 만들 수 있습니다. 
 
-* [다중 선택 사용자 지정 필드를 참조하는 계산된 사용자 지정 필드를 작성합니다](#build-a-calculated-custom-field-that-references-a-multi-select-custom-field)
+* [다중 선택 사용자 지정 필드를 참조하는 계산된 사용자 지정 필드를 빌드합니다](#build-a-calculated-custom-field-that-references-a-multi-select-custom-field)
 * [계산된 사용자 정의 필드를 참조하는 차트 작성](#build-a-chart-that-references-a-calculated-custom-field)
 
 ### 다중 선택 사용자 지정 필드를 참조하는 계산된 사용자 지정 필드를 작성합니다 {#build-a-calculated-custom-field-that-references-a-multi-select-custom-field}
@@ -86,7 +86,7 @@ ht-degree: 0%
 다중 선택 사용자 지정 필드를 참조하는 계산된 필드를 작성하려면 다음 사전 요구 사항이 있어야 합니다.
 
 * 사용자 정의 양식의 다중 선택 사용자 정의 필드.\
-  사용자 정의 양식을 작성하고 사용자 정의 필드를 추가하는 방법에 대한 자세한 내용은 문서 를 참조하십시오 [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+  사용자 정의 양식을 작성하고 사용자 정의 필드를 추가하는 방법에 대한 자세한 내용은 문서 [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)을 참조하십시오.
 
 * 다중 선택 사용자 정의 필드가 오브젝트에 첨부된 사용자 정의 양식입니다.
 * 각 개체에 대한 다중 선택 사용자 정의 필드 값.
@@ -95,16 +95,16 @@ ht-degree: 0%
 
 1. 사용자 정의 양식을 만들거나 기존 양식을 편집합니다.
 
-   사용자 정의 양식 만들기에 대한 자세한 내용은 [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+   사용자 정의 양식 만들기에 대한 자세한 내용은 [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)을 참조하십시오.
 
 1. 사용자 정의 양식과 함께 사용할 개체를 선택합니다.
-1. 클릭 **필드 추가**, 그런 다음 **계산됨** 다중 선택 사용자 정의 필드를 양식에 추가합니다.
+1. **필드 추가**&#x200B;를 클릭한 다음 **계산됨**&#x200B;을 클릭하여 다중 선택 사용자 지정 필드를 양식에 추가합니다.
 
-1. 다음에서 **레이블** 상자에서 새 계산된 필드 이름을 지정하여 다중 선택 사용자 지정 필드를 참조함을 나타냅니다.
+1. **레이블** 상자에서 다중 선택 사용자 지정 필드를 참조하도록 새 계산된 필드의 이름을 지정합니다.
 
    예: &quot;계산된 다중 선택 필드&quot;
 
-1. 다음에서 **계산** 상자에 다음 코드를 입력합니다.
+1. **계산** 상자에 다음 코드를 입력합니다.
 
    `{DE:Multi-select Custom Field}`
 
@@ -114,36 +114,36 @@ ht-degree: 0%
 
    ![](assets/calculated-multi-select-custom-field-nwe-350x223.png)
 
-1. (선택 사항) 다중 선택 사용자 정의 필드가 이미 이 양식에 있고 이 양식이 이미 오브젝트에 첨부되어 있는 경우 **이전 계산 업데이트(백그라운드)** 옵션을 선택합니다.
+1. (선택 사항) 다중 선택 사용자 지정 필드가 이미 이 양식에 있고 이 양식이 이미 오브젝트에 연결되어 있는 경우 **이전 계산 업데이트(백그라운드)** 옵션을 활성화합니다.
 
    이렇게 하면 다중 선택 사용자 정의 필드의 값이 객체에 이미 첨부된 양식에 추가될 때 새 계산된 필드가 자동으로 채워집니다.
 
-1. 클릭 **완료**.
-1. 클릭 **저장 + 닫기**.
+1. **완료**&#x200B;를 클릭합니다.
+1. **저장 및 닫기**&#x200B;를 클릭합니다.
 
    계산된 사용자 정의 필드가 사용자 정의 양식에 추가되고 양식이 현재 오브젝트에 첨부된 경우 필드는 다중 선택 사용자 정의 필드의 정보로 채워집니다.
 
 ### 계산된 사용자 정의 필드를 참조하는 차트 작성 {#build-a-chart-that-references-a-calculated-custom-field}
 
-1. (선택 사항) 차트로 작성할 모든 계산된 필드가 값으로 채워지도록 하려면 보고서의 세부 정보 탭에서 다중 선택 사용자 정의 필드와 계산된 사용자 정의 필드를 모두 포함하는 사용자 정의 양식을 포함하는 모든 개체를 선택한 다음 을 클릭합니다 **편집**.
-1. (선택 사항 및 조건부) **사용자 정의 표현식 다시 계산** 필드를 클릭한 다음 **변경 내용 저장**.\
+1. (선택 사항) 차트로 작성할 모든 계산된 필드가 값으로 채워지도록 하려면 보고서의 세부 정보 탭에서 다중 선택 사용자 지정 필드와 계산된 사용자 지정 필드가 모두 있는 사용자 지정 양식을 포함하는 모든 개체를 선택한 다음 **편집**&#x200B;을 클릭합니다.
+1. (선택 사항 및 조건부) **사용자 지정 표현식 다시 계산** 필드를 선택한 다음 **변경 내용 저장**&#x200B;을 클릭합니다.\
    ![](assets/recalculate-custom-expressions-350x259.png)
 
    >[!NOTE]
    >
-   >이 옵션은 프로젝트 일괄 편집에서 제거되었습니다.  을 클릭하여 프로젝트에 대한 표현식을 일괄적으로 다시 계산할 수 있습니다. **자세히** 아이콘 ![](assets/more-icon-45x33.png) 프로젝트 목록 맨 위에 **표현식 다시 계산**.
+   >이 옵션은 프로젝트 일괄 편집에서 제거되었습니다.  프로젝트 목록 맨 위에 있는 **자세히** 아이콘 ![](assets/more-icon-45x33.png)을 클릭한 다음 **식을 다시 계산**&#x200B;하여 프로젝트에 대한 식을 일괄적으로 다시 계산할 수 있습니다.
 
 1. 다중 선택 사용자 정의 필드를 참조하는 계산된 필드에 대한 차트를 추가하려는 보고서로 이동합니다.
-1. 클릭 **보고서 작업**, 그런 다음 **편집**.
+1. **보고서 동작**&#x200B;을 클릭한 다음 **편집**&#x200B;을 클릭합니다.
 
-1. 다음 항목 선택 <strong>그룹화</strong> 탭을 클릭한 다음 를 클릭합니다 <strong>그룹화 추가</strong>.
-1. 추가 <strong>계산된 다중 선택 필드</strong> 을(를) 그룹화로 만들었습니다.
-1. 다음 항목 선택 <strong>차트</strong> 을 탭하고 보고서에 차트를 추가합니다.
+1. <strong>그룹화</strong> 탭을 선택한 다음 <strong>그룹화 추가</strong>를 클릭합니다.
+1. 그룹화로 생성한 <strong>계산된 다중 선택 필드</strong>를 추가합니다.
+1. <strong>차트</strong> 탭을 선택하고 보고서에 차트를 추가합니다.
 
-   예를 들어 **열** 차트.
-   <br>보고서에 차트를 추가하는 방법은 섹션을 참조하십시오 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md#add-a-chart" class="MCXref xref">보고서에 차트 추가</a> 이 문서에서 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">사용자 지정 보고서 만들기</a>.
-1. 다음에서 **하단(X) 축** 필드에서 <strong>계산된 다중 선택 필드</strong> 을 클릭하여 차트에 표시합니다.
-1. 클릭 <strong>저장 + 닫기</strong>.
+   예를들어 **열** 차트를 선택하세요.
+   <br>보고서에 차트를 추가하는 방법에 대한 자세한 내용은 문서 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">사용자 지정 보고서 만들기</a>에서 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md#add-a-chart" class="MCXref xref">보고서에 차트 추가</a> 섹션을 참조하십시오.
+1. **아래쪽(X) 축** 필드에서 차트에 표시할 <strong>계산된 다중 선택 필드</strong>를 선택합니다.
+1. <strong>저장 및 닫기</strong>를 클릭합니다.
 
    이 보고서는 차트에 계산된 다중 선택 필드로 그룹화된 결과를 표시합니다.
 

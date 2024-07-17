@@ -22,4 +22,4 @@ ht-degree: 14%
 * [포트폴리오](../../manage-work/portfolios/portfolios-overview/portfolio-overview-1.md)
 * [포트폴리오 만들기 및 관리](../../manage-work/portfolios/create-and-manage-portfolios/create-and-manage-portfolios.md)
 * [프로그램 제작 및 관리](../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)
-* [에서 프로젝트 관리 [!UICONTROL Portfolio 최적화 도구]](../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)
+* [[!UICONTROL Portfolio 최적화 도구]에서 프로젝트 관리](../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)

@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: f44e191c-edce-4387-8ab0-7a014d094a29
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '856'
 ht-degree: 0%
 
 ---
@@ -25,31 +25,31 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>현재 플랜: Pro 이상</p> <p>또는</p> <p>기존 플랜: Select 또는 Premium</p> <p>다른 플랜의 증명 액세스에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfront의 증명 기능에 액세스</a>.</p> </td> 
+   <td> <p>현재 플랜: Pro 이상</p> <p>또는</p> <p>기존 플랜: Select 또는 Premium</p> <p>다른 플랜의 증명 액세스에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfront의 증명 기능에 액세스</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
    <td> <p>현재 계획: 작업 또는 계획</p> <p>기존 계획: 모두(사용자에 대해 증명이 활성화되어 있어야 함)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">증명 권한 프로필 </td> 
+   <td role="rowheader">교정쇄 권한 프로필 </td> 
    <td>관리자 이상</td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>문서에 대한 액세스 편집</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>문서에 대한 액세스 편집</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 역할 또는 증명 권한 프로필을 알아보려면 Workfront 또는 Workfront Proof 관리자에게 문의하십시오.
+&#42;보유 중인 플랜, 역할 또는 증명 권한 프로필을 확인하려면 Workfront 또는 Workfront Proof 관리자에게 문의하십시오.
 
 ## 증명 보기 변경
 
 단일 보기, 연속 보기 또는 매거진 보기에서 여러 페이지가 들어 있는 정적 증명을 볼 수 있습니다.
 
-1. 문서가 포함된 프로젝트, 작업 또는 문제로 이동한 다음 선택 **문서**.
-1. 필요한 증명을 찾은 다음 를 클릭합니다. **증명 열기**.
+1. 문서가 포함된 프로젝트, 작업 또는 문제로 이동한 다음 **문서**&#x200B;을(를) 선택합니다.
+1. 필요한 증명을 찾은 다음 **증명 열기**&#x200B;를 클릭합니다.
 
 1. 증명 뷰어의 왼쪽 상단 영역에서 보기 옵션을 찾습니다.\
    ![changing_the_view.png](assets/changing-the-view-350x213.png)
@@ -86,10 +86,10 @@ ht-degree: 0%
 
 기본적으로 축소판 패널이 표시됩니다. 패널 크기를 숨기거나 조정할 수 있습니다.
 
-1. 문서가 포함된 프로젝트, 작업 또는 문제로 이동한 다음 선택 **문서**.
-1. 필요한 증명을 찾은 다음 를 클릭합니다. **증명 열기**.
+1. 문서가 포함된 프로젝트, 작업 또는 문제로 이동한 다음 **문서**&#x200B;을(를) 선택합니다.
+1. 필요한 증명을 찾은 다음 **증명 열기**&#x200B;를 클릭합니다.
 
-1. 다음을 클릭합니다. **축소판** 아이콘을 클릭하여 교정 뷰어를 완성합니다.\
+1. 증명 뷰어의 왼쪽 위 모서리에 있는 **축소판** 아이콘을 클릭합니다.\
    ![hide_thumbnails_panel.png](assets/hide-thumbnails-panel-350x213.png)
 
 1. (선택 사항) 축소판 아이콘을 다시 클릭하여 축소판 패널을 표시합니다.
@@ -104,8 +104,8 @@ ht-degree: 0%
 
 축소판 보기에서 확대/축소하고 패닝하려면 다음을 수행합니다.
 
-1. 문서가 포함된 프로젝트, 작업 또는 문제로 이동한 다음 선택 **문서**.
-1. 필요한 증명을 찾은 다음 를 클릭합니다. **증명 열기**.
+1. 문서가 포함된 프로젝트, 작업 또는 문제로 이동한 다음 **문서**&#x200B;을(를) 선택합니다.
+1. 필요한 증명을 찾은 다음 **증명 열기**&#x200B;를 클릭합니다.
 
 1. 축소판 패널에서 현재 확대/축소 영역을 찾습니다.\
    확대/축소 영역이 축소판 가장자리 주위에 파란색 프레임으로 표시됩니다.
@@ -119,33 +119,33 @@ ht-degree: 0%
 
 증명 뷰어 내에서 증명을 회전할 수 있습니다. 여러 페이지가 들어 있는 증명을 회전하면 모든 페이지가 동시에 회전됩니다.
 
-1. 문서가 포함된 프로젝트, 작업 또는 문제로 이동한 다음 선택 **문서**.
-1. 필요한 증명을 찾은 다음 를 클릭합니다. **증명 열기**.
+1. 문서가 포함된 프로젝트, 작업 또는 문제로 이동한 다음 **문서**&#x200B;을(를) 선택합니다.
+1. 필요한 증명을 찾은 다음 **증명 열기**&#x200B;를 클릭합니다.
 
-1. 다음을 클릭합니다. **회전** 아이콘을 클릭하여 언어 교정 뷰어를 완성합니다.
+1. 증명 뷰어 하단에 있는 **회전** 아이콘을 클릭합니다.
 
    ![proof_viewer_static_rotate.png](assets/proof-viewer-static-rotate-350x36.png)
 
-   증명을 클릭할 때마다 증명이 90도 회전됩니다. **회전** 아이콘.
+   **회전** 아이콘을 클릭할 때마다 증명이 90도 회전됩니다.
 
 ## 증명 확대/축소 및 패닝
 
 증명을 볼 때 확대/축소 비율을 조정할 수 있습니다. 더 큰 확대/축소 비율로 증명을 볼 때 패닝 옵션을 사용하면 커서를 사용하여 증명의 다른 영역으로 이동할 수 있습니다.
 
-1. 문서가 포함된 프로젝트, 작업 또는 문제로 이동한 다음 선택 **문서**.
-1. 필요한 증명을 찾은 다음 를 클릭합니다. **증명 열기**.
+1. 문서가 포함된 프로젝트, 작업 또는 문제로 이동한 다음 **문서**&#x200B;을(를) 선택합니다.
+1. 필요한 증명을 찾은 다음 **증명 열기**&#x200B;를 클릭합니다.
 
 1. 증명의 확대/축소 비율을 조정하려면 다음 중 하나를 수행합니다.
 
-   * 다음을 클릭합니다. **확대/축소** 아이콘을 클릭한 다음 증명을 클릭하여 더 높은 확대/축소 수준으로 증명을 보거나, 증명의 영역을 드래그하여 해당 영역만 봅니다.
+   * **확대/축소** 아이콘을 클릭한 다음 증명을 클릭하여 더 높은 확대/축소 수준으로 증명을 보거나, 증명 영역을 가로질러 드래그하여 해당 영역만 봅니다.
 
      ![change_zoom_percentage.png](assets/change-zoom-percentage-350x36.png)
 
-   * 현재 확대/축소 비율을 클릭하거나, 새 확대/축소 비율을 클릭하거나, **너비에 맞추기**, **높이에 맞춤**, 또는 **페이지에 맞추기**.
+   * 현재 확대/축소 비율을 클릭하거나 새 확대/축소 비율을 클릭하거나 **너비에 맞추기**, **높이에 맞추기** 또는 **페이지에 맞추기**&#x200B;를 클릭합니다.
 
      ![zoom_percentage_menu.png](assets/zoom-percentage-menu-350x245.png)
 
-   * 다음을 클릭합니다. **플러스** 또는 **빼기** 아이콘을 사용하여 확대/축소 비율을 늘리거나 줄일 수 있습니다.
+   * 확대/축소 비율을 늘리거나 줄이려면 **더하기** 또는 **빼기** 아이콘을 클릭하십시오.
 
      ![change_zoom_percentage_-_plus_minus.png](assets/change-zoom-percentage---plus-minus-350x36.png)
 

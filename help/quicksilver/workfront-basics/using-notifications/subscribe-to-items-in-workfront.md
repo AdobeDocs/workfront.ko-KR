@@ -7,16 +7,16 @@ feature: Get Started with Workfront
 exl-id: 5eee62b8-d72e-4263-a0c5-749047bc6812
 source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '1572'
+source-wordcount: '1574'
 ht-degree: 0%
 
 ---
 
-# 의 항목 구독 [!DNL Adobe Workfront]
+# [!DNL Adobe Workfront]의 항목 구독
 
-[!UICONTROL Adobe Workfront] 은(는) 귀하에게 할당되거나 귀하가 소유한 항목에 대한 알림을 보냅니다. 귀하에게 할당되지 않았지만 작업에 영향을 줄 수 있는 항목에 대한 커뮤니케이션을 따르려면 해당 항목에 가입할 수 있습니다.
+[!UICONTROL Adobe Workfront]에서 귀하에게 할당되거나 귀하가 소유한 항목에 대한 알림을 보냅니다. 귀하에게 할당되지 않았지만 작업에 영향을 줄 수 있는 항목에 대한 커뮤니케이션을 따르려면 해당 항목에 가입할 수 있습니다.
 
-보유한 항목의 업데이트 상태에 관리자 및 피어를 구독하여 작업에 대한 업데이트 상태를 유지할 수도 있습니다. [!UICONTROL 관리] 및 [!UICONTROL 공유] 사용 권한.
+또한 관리자와 피어를 [!UICONTROL 관리] 및 [!UICONTROL 공유] 권한이 있는 항목의 업데이트 상태에 구독하여 작업에 대한 관리자 및 피어의 업데이트 상태를 유지할 수 있습니다.
 
 현재 다음 항목을 구독할 수 있습니다.
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 >
 >가입한 항목에서 발생하는 다른 이벤트에 대한 알림이 전송되지 않습니다. 누군가 항목에 댓글을 달 때만 알림이 전송됩니다.
 
-구독 작업에 대한 자세한 내용은 [구독 작업 기본 정보](#about-working-with-subscriptions).
+구독 작업에 대한 자세한 내용은 [구독 작업 정보](#about-working-with-subscriptions)를 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -44,7 +44,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Adobe Workfront] 계획*</strong></td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
@@ -52,7 +52,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>액세스 수준 구성*</strong></td> 
-   <td> <p>다음의 경우 [!DNL Workfront] 관리자가 활성화했습니다. <strong>[!UICONTROL 대화에 포함된 업데이트만 보기]</strong> 액세스 수준에서는 의 항목을 구독할 수 없습니다. [!DNL Workfront].</p> <p>참고: 여전히 액세스 권한이 없는 경우 [!UICONTROL Workfront] 관리자에게 문의하여 액세스 수준에서 추가적인 제한을 설정하는지 확인하십시오. [!UICONTROL Workfront] 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 다음을 참조하십시오. <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td> <p>[!DNL Workfront] 관리자가 액세스 수준에서 <strong>[!UICONTROL 보기]</strong>에 포함된 업데이트만 활성화한 경우 [!DNL Workfront]의 항목을 구독할 수 없습니다.</p> <p>참고: 여전히 액세스 권한이 없는 경우 [!UICONTROL Workfront] 관리자에게 문의하여 액세스 수준에서 추가적인 제한을 설정하는지 확인하십시오. [!UICONTROL Workfront] 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>개체 권한</strong></td> 
@@ -61,7 +61,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
+보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
 
 ## 항목 구독
 
@@ -75,10 +75,10 @@ ht-degree: 0%
    >
    >프로젝트를 구독하려면 다음 중 하나를 수행할 수 있습니다.
    >
-   >* 구독하려는 프로젝트로 이동하여 **[!UICONTROL 자세히]** 아이콘 ![](assets/qs-more-menu.png) 프로젝트 이름의 오른쪽에 있는 다음 **[!UICONTROL 구독]**.
-   >* 프로젝트 목록 또는 보고서로 이동하여 프로젝트를 선택하고 **[!UICONTROL 자세히]** 아이콘 ![](assets/qs-more-menu.png) 목록의 맨 위에서 을(를) 클릭한 다음 **[!UICONTROL 구독]**. 이 기능은 프로젝트 목록에서만 사용할 수 있습니다.
+   >* 구독하려는 프로젝트로 이동하여 프로젝트 이름 오른쪽에 있는 **[!UICONTROL 자세히]** 아이콘 ![](assets/qs-more-menu.png)을 클릭한 다음 **[!UICONTROL 구독]**&#x200B;을 클릭합니다.
+   >* 프로젝트 목록 또는 보고서로 이동하여 프로젝트를 선택하고 목록 맨 위에 있는 **[!UICONTROL 자세히]** 아이콘 ![](assets/qs-more-menu.png)을(를) 클릭한 다음 **[!UICONTROL 구독]**&#x200B;을(를) 클릭합니다. 이 기능은 프로젝트 목록에서만 사용할 수 있습니다.
 
-1. 클릭 **[!UICONTROL 자세히]** ![](assets/more-icon.png)을 클릭한 다음 을 클릭합니다 **[!UICONTROL 구독]**.
+1. **[!UICONTROL 자세히]** ![](assets/more-icon.png)를 클릭한 다음 **[!UICONTROL 구독]**&#x200B;을 클릭합니다.
 
    ![](assets/subscribe-to-a-work-item-350x258.png)
 
@@ -88,11 +88,11 @@ ht-degree: 0%
 
    누군가 문제에 대해 댓글을 달 때마다 인앱 알림을 받게 됩니다. 활성화한 기능에 따라 이메일 알림 및 모바일 앱 푸시 알림을 받을 수도 있습니다.
 
-   구독 이메일에 대한 자세한 내용은 다음을 참조하십시오. [이메일 알림 수정](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+   구독 전자 메일에 대한 자세한 내용은 [전자 메일 알림 수정](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)을 참조하세요.
 
 ## 항목에서 구독 취소
 
-의 항목에서 가입을 쉽게 해지할 수 있습니다. [!DNL Workfront]. 의 항목에서 구독 취소 프로세스 [!DNL Workfront] 는 모든 항목에 대해 동일합니다.
+[!DNL Workfront]의 항목에서 쉽게 구독을 취소할 수 있습니다. [!DNL Workfront]의 항목에 대한 구독 취소 프로세스가 모든 항목에 대해 동일합니다.
 
 예를 들어, 문제에서 구독을 취소하려면 다음 작업을 수행하십시오.
 
@@ -102,14 +102,14 @@ ht-degree: 0%
    >
    >프로젝트 구독을 취소하려면 다음 중 하나를 수행할 수 있습니다.
    >
-   >* 구독을 취소할 프로젝트로 이동하여 **[!UICONTROL 자세히]** 아이콘 ![](assets/qs-more-menu.png) 프로젝트 이름의 오른쪽에 있는 다음 **[!UICONTROL 구독 취소]**.
-   >* 프로젝트 목록 또는 보고서로 이동하여 프로젝트를 선택하고 **[!UICONTROL 자세히]** 아이콘 ![](assets/qs-more-menu.png) 목록의 맨 위에서 을(를) 클릭한 다음 **[!UICONTROL 구독 취소]**. 이 기능은 프로젝트 목록에서만 사용할 수 있습니다.
+   >* 구독을 취소할 프로젝트로 이동하여 프로젝트 이름 오른쪽에 있는 **[!UICONTROL 자세히]** 아이콘 ![](assets/qs-more-menu.png)을 클릭한 다음 **[!UICONTROL 구독 취소]**&#x200B;를 클릭합니다.
+   >* 프로젝트 목록 또는 보고서로 이동하여 프로젝트를 선택하고 목록 맨 위에 있는 **[!UICONTROL 자세히]** 아이콘 ![](assets/qs-more-menu.png)을(를) 클릭한 다음 **[!UICONTROL 구독 취소]**&#x200B;를 클릭합니다. 이 기능은 프로젝트 목록에서만 사용할 수 있습니다.
 
-1. 클릭 **[!UICONTROL 자세히]** ![](assets/more-icon.png)을 클릭한 다음 을 클릭합니다 **[!UICONTROL 구독 취소]**.
+1. **[!UICONTROL 자세히]** ![](assets/more-icon.png)를 클릭한 다음 **[!UICONTROL 구독 취소]**&#x200B;를 클릭합니다.
 
    ![](assets/unsubscribe-to-a-work-item-350x258.png)
 
-1. 을 클릭하여 구독 중인 항목에서 구독을 취소할 수도 있습니다. [!UICONTROL 구독 취소] 구독 이메일의 링크.
+1. 구독 이메일에서 [!UICONTROL 구독 취소] 링크를 클릭하여 구독 중인 항목에서 구독을 취소할 수도 있습니다.
 
    항목에 대한 구독을 취소하면 누군가 문제에 대해 댓글을 남길 때 더 이상 알림을 받지 않습니다.
 
@@ -119,10 +119,10 @@ ht-degree: 0%
 
 관리 및 공유 권한이 있는 프로젝트, 작업 및 문제를 구독하는 사용자를 관리할 수 있습니다.
 
-* [항목에 다른 사용자 구독](#subscribe-another-user-to-an-item)
+* [다른 사용자를 항목에 가입](#subscribe-another-user-to-an-item)
 * [항목에서 다른 사용자 구독 취소](#unsubscribe-another-person-from-an-item)
 
-모든 구독자가 제공됩니다. [!UICONTROL 보기] 구독 항목에 대한 권한. 새 구독자에게 항목에 대한 권한이 이미 있는 경우 해당 권한은 그대로 유지됩니다.
+모든 구독자에게 구독 중인 항목에 대한 [!UICONTROL 보기] 권한이 부여됩니다. 새 구독자에게 항목에 대한 권한이 이미 있는 경우 해당 권한은 그대로 유지됩니다.
 
 ### 항목에 다른 사용자 구독
 
@@ -136,16 +136,16 @@ ht-degree: 0%
    >   
    >* 프로젝트 목록 또는 보고서로 이동하여 프로젝트를 선택합니다.
 
-1. 클릭 **[!UICONTROL 자세히]** ![](assets/more-icon.png).
-1. 다음 옆에 있는 숫자 버블을 클릭합니다. **[!UICONTROL 구독]** 링크를 클릭합니다.
-1. 표시되는 상자에서 사용자 이름을 **[!UICONTROL 다른 사용자 구독]** 상자를 선택한 다음 표시된 옵션에서 사용자를 선택합니다.
+1. **[!UICONTROL 자세히]** ![](assets/more-icon.png)을(를) 클릭합니다.
+1. **[!UICONTROL 구독]** 링크 옆에 있는 숫자 버블을 클릭합니다.
+1. 표시되는 상자에서 **[!UICONTROL 다른 사용자 구독]** 상자에 사용자 이름을 입력한 다음 표시되는 옵션에서 사용자를 선택합니다.
 
 1. (선택 사항) 구독자를 더 추가하려면 4단계를 반복합니다.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 구독자에게 구독에 대한 알림이 전송되지 않지만 해당 항목에 대한 시스템 업데이트에 구독에 대한 항목이 추가됩니다.
 
-다른 사용자가 댓글을 추가할 때 [!UICONTROL 업데이트] 항목의 탭에서 구독자는 인앱 알림을 받습니다. Workfront 관리자가 활성화한 기능에 따라 구독자가 항목에 대한 이메일 및 모바일 알림을 받을 수도 있습니다.
+누군가 항목의 [!UICONTROL 업데이트] 탭에 댓글을 추가하면 구독자는 인앱 알림을 받습니다. Workfront 관리자가 활성화한 기능에 따라 구독자가 항목에 대한 이메일 및 모바일 알림을 받을 수도 있습니다.
 
 ### 항목에서 다른 사용자 구독 취소
 
@@ -159,13 +159,13 @@ ht-degree: 0%
    >   
    >* 프로젝트 목록 또는 보고서로 이동하여 프로젝트를 선택합니다.
 
-1. 클릭 **[!UICONTROL 자세히]** ![](assets/more-icon.png).
-1. 다음 옆에 있는 숫자 버블을 클릭합니다. **[!UICONTROL 구독]** 또는 **[!UICONTROL 구독 취소]** 링크를 클릭합니다.
-1. 다음에서 **[!UICONTROL 구독자]** 표시되는 페이지에서 구독을 취소하려는 사용자 이름 옆에 있는 &quot;X&quot;를 클릭합니다.
+1. **[!UICONTROL 자세히]** ![](assets/more-icon.png)을(를) 클릭합니다.
+1. **[!UICONTROL 구독]** 또는 **[!UICONTROL 구독 취소]** 링크 옆에 있는 숫자 버블을 클릭합니다.
+1. 표시되는 **[!UICONTROL 구독자]** 페이지에서 구독을 취소하려는 사용자 이름 옆에 있는 &quot;X&quot;를 클릭합니다.
 
    또는
 
-   에 사용자 이름을 입력하십시오. **[!UICONTROL 목록에서 사람 검색]** 상자를 클릭한 다음 사용자 이름 오른쪽에 있는 &quot;X&quot;를 클릭합니다.
+   **[!UICONTROL 목록에서 사람 검색]** 상자에 사용자 이름을 입력한 다음 사용자 이름 오른쪽에 있는 &quot;X&quot;를 클릭합니다.
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
@@ -177,13 +177,13 @@ ht-degree: 0%
 
 ![](assets/in-app-not---cmmnt-sbscibd-to-350x164.png)
 
-자세한 내용은 [인앱 알림 보기 및 관리](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
+자세한 내용은 [인앱 알림 보기 및 관리](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)를 참조하세요.
 
 ## 구독 이메일 수신
 
-의 기능에 따라 [!UICONTROL Workfront] 관리자가 을 활성화하면 구독하는 항목에 대해 누군가 댓글을 달 때마다 인앱 알림 외에 구독 이메일을 받을 수 있습니다.
+[!UICONTROL Workfront] 관리자가 활성화한 기능에 따라 구독하는 항목에 다른 사용자가 댓글을 달 때마다 인앱 알림과 함께 구독 이메일을 받을 수 있습니다.
 
-이메일 설정 또는 비활성화에 대한 자세한 내용은 [시스템의 모든 사용자를 위한 이벤트 알림 구성](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+전자 메일 설정 또는 비활성화에 대한 자세한 내용은 [시스템의 모든 사용자를 위한 이벤트 알림 구성](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)을 참조하십시오.
 
 >[!NOTE]
 >
@@ -199,23 +199,23 @@ ht-degree: 0%
 
    ![구독자 보기](assets/bell-hover-for-list-qs-350x90.png)
 
-   을(를) 추가하여 구독자 목록을 볼 수도 있습니다 [!UICONTROL 구독자] 필드를 구독한 항목에 대한 보고서 또는 보기의 열로 사용합니다. 자세한 내용은 [용어집 [!DNL Adobe Workfront] 용어](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+   [!UICONTROL 구독자] 필드를 보고서의 열로 추가하거나 구독된 항목에 대한 보기로 추가하여 구독자 목록을 볼 수도 있습니다. 자세한 내용은 [용어집  [!DNL Adobe Workfront] 용어](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)를 참조하십시오.
 
 ## 구독 작업 기본 정보
 
 구독을 사용하여 작업할 때 다음 사항을 고려하십시오.
 
-* 다음 [!DNL Workfront] 관리자는 사용자가 가입하거나 가입할 수 없는 항목을 제어할 수 없습니다.
+* [!DNL Workfront] 관리자는 가입할 수 있는 사용자 또는 가입할 수 없는 사용자를 제어할 수 없습니다.
 
-  다음 대상이 있는 모든 사용자 [!UICONTROL 보기] 작업, 문제 또는 프로젝트에 대한 이상의 권한이 구독될 수 있습니다.
+  작업, 문제 또는 프로젝트에 대한 [!UICONTROL 보기] 이상의 권한이 있는 사용자는 누구나 가입할 수 있습니다.
 
 * 일별 다이제스트 전자 메일에 대해서는 구독을 구성할 수 없습니다.
 * 작업, 문제 또는 프로젝트를 구독하고 피할당자, 기본 담당자 또는 프로젝트 소유자인 경우 구독하는 항목에 대해 누군가 의견을 남길 때만 구독 전자 메일이 전송됩니다.
 
-  항목 중 하나에 댓글이 있을 때 트리거되는 이메일 알림에 대한 자세한 내용은 [Adobe Workfront 알림](../../workfront-basics/using-notifications/wf-notifications.md).
+  항목 중 하나에 댓글이 달릴 때 트리거되는 전자 메일 알림에 대한 자세한 내용은 [Adobe Workfront 알림](../../workfront-basics/using-notifications/wf-notifications.md)을 참조하세요.
 
 * 항목을 구독하고 댓글을 달면 댓글에 사용자 이름을 포함하지 않는 한 해당 댓글에 대한 구독 이메일을 받지 못합니다.
-* 항목에 댓글을 다는 사용자가 댓글을 잠궈 댓글을 비공개로 만들고, 사용자가 해당 사용자와 같은 회사에 속하지 않으면 해당 댓글에 대한 알림을 받지 않습니다. 귀하의 회사에 대한 댓글을 비공개로 만드는 방법에 대한 자세한 내용은 [작업 항목에 업데이트 추가](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) 의 섹션 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+* 항목에 댓글을 다는 사용자가 댓글을 잠궈 댓글을 비공개로 만들고, 사용자가 해당 사용자와 같은 회사에 속하지 않으면 해당 댓글에 대한 알림을 받지 않습니다. 댓글을 회사 전용으로 만드는 방법에 대한 자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)의 [작업 항목에 업데이트 추가](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) 섹션을 참조하십시오.
 
 * 구독에 대한 보고서를 작성할 수 없습니다. 다른 사용자가 항목을 구독하거나 구독 취소하면 모든 항목의 업데이트 상태에 감사가 기록됩니다.
-* 하위 객체에 대한 댓글은 상위 객체에 대한 가입 통지를 트리거하지 않습니다. 프로젝트를 구독하면 해당 프로젝트에 대한 댓글 알림만 수신됩니다. 각 하위 항목을 구독하지 않으면 프로젝트와 관련된 하위 항목(예: 작업 또는 문제)에 대한 의견 알림을 받지 못합니다. 개체 관계에 대한 자세한 내용은 [객체의 상호 의존성 및 계층](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) 의 섹션 [의 오브젝트 이해 [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+* 하위 객체에 대한 댓글은 상위 객체에 대한 가입 통지를 트리거하지 않습니다. 프로젝트를 구독하면 해당 프로젝트에 대한 댓글 알림만 수신됩니다. 각 하위 항목을 구독하지 않으면 프로젝트와 관련된 하위 항목(예: 작업 또는 문제)에 대한 의견 알림을 받지 못합니다. 개체 관계에 대한 자세한 내용은 [개체 이해 [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)의 [개체의 상호 종속성과 계층 구조](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) 섹션을 참조하십시오.

@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 22.3 통합 개선 사항
 
-이 페이지에서는 미리보기 환경에 대한 22.3 릴리스의 모든 통합 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2022년 7월 11일이 있는 주에 2022년 1월에 프로덕션 환경에서 사용할 수 있습니다. 22.3 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [22.3 릴리스 개요](/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+이 페이지에서는 미리보기 환경에 대한 22.3 릴리스의 모든 통합 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2022년 7월 11일이 있는 주에 2022년 1월에 프로덕션 환경에서 사용할 수 있습니다. 22.3 릴리스에서 사용할 수 있는 모든 변경 사항 목록을 보려면 [22.3 릴리스 개요](/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)를 참조하십시오.
 
 ## Adobe Workfront for Experience Manager Assets 통합
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 Workfront 관리자는 조직의 요구 사항에 따라 SharePoint 및 레거시 SharePoint 통합을 별도로 활성화하고 비활성화할 수 있습니다.
 
-자세한 내용은 [기존 SharePoint 통합 구성](/help/quicksilver/administration-and-setup/configure-integrations/configure-sharepoint-integration.md).
+자세한 내용은 [기존 SharePoint 통합 구성](/help/quicksilver/administration-and-setup/configure-integrations/configure-sharepoint-integration.md)을 참조하십시오.
 
 ## Creative Cloud 플러그인의 단일 증명에 여러 파일 결합
 

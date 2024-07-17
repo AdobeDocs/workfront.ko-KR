@@ -8,7 +8,7 @@ feature: Reports and Dashboards
 exl-id: 7831d5c1-e982-4780-a5a8-54dc6decb3a1
 source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: '1253'
 ht-degree: 3%
 
 ---
@@ -36,9 +36,9 @@ ht-degree: 3%
 
   ![task_status_icons.png](assets/task-status-icons.png)
 
-  자세한 내용은 [상태 아이콘 및 플래그 개요](#overview-of-status-icons-and-flags) 이 문서의 섹션.
+  자세한 내용은 이 문서의 [상태 아이콘 및 플래그 개요](#overview-of-status-icons-and-flags) 섹션을 참조하십시오.
 
-* 일부 보기에서는 **상태 아이콘** 필드 이름이 지정됨 **플래그** 또는 **보기 아이콘**.\
+* 일부 보기에서 **상태 아이콘** 필드 이름은 **플래그** 또는 **아이콘 보기**&#x200B;입니다.\
   상태 아이콘 필드에 포함된 아이콘의 모양과 느낌은 사용자 정의할 수 없습니다.
 
 * 상태 아이콘 필드의 아이콘 수는 편집할 수 없습니다.
@@ -53,7 +53,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
@@ -65,11 +65,11 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> <p>보고서, 대시보드, 캘린더에 대한 액세스 권한을 편집하여 보고서에 열 추가</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> <p>보고서, 대시보드, 캘린더에 대한 액세스 권한을 편집하여 보고서에 열 추가</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>기존 보기에 대한 권한 관리</p> <p>보고서에 열을 추가할 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>기존 보기에 대한 권한 관리</p> <p>보고서에 열을 추가할 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -94,29 +94,29 @@ ht-degree: 3%
    * 경비
    * 문서
    * 사용자\
-     이 개체에는 **상태 아이콘** 필드를 사용할 수 있습니다.\
-     개체 목록에 대한 자세한 내용은 [Adobe Workfront에서 목록 시작](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+     이 개체만 **상태 아이콘** 필드를 사용할 수 있습니다.\
+     개체 목록에 대한 자세한 내용은 [Adobe Workfront 목록 시작](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)을 참조하세요.
 
-1. 다음에서 **보기** 드롭다운 메뉴에서 다음을 선택합니다. **새 보기**.
+1. **보기** 드롭다운 메뉴에서 **새 보기**&#x200B;를 선택합니다.
 
-1. 클릭 **열 추가**.
-1. 다음에서 **이 열에 표시** 상자에서 다음 필드 이름 중 하나를 입력한 다음 목록에 나타나면 선택합니다.
+1. **열 추가**&#x200B;를 클릭합니다.
+1. **이 열에 표시** 상자에서 다음 필드 이름을 입력한 다음 목록에 표시될 때 선택합니다.
 
    * *상태 아이콘*
    * *플래그*
    * *보기 아이콘 *(문서 보기에만 해당).
 
    기본 제공 아이콘은 다음 이름 아래에 나열됩니다.\
-   템플릿 보기에는 **상태 아이콘** 및 **플래그** 필드. 이 경우 두 열에는 동일한 아이콘이 포함됩니다.\
-   문서 보기에는 **보기 아이콘** 필드.
+   템플릿 보기에는 **상태 아이콘** 및 **플래그** 필드가 모두 있습니다. 이 경우 두 열에는 동일한 아이콘이 포함됩니다.\
+   문서 보기에 **보기 아이콘** 필드가 있습니다.
 
-1. 클릭 **보기 저장**.
-1. (선택 사항) 보기의 새 이름을 지정한 다음 **보기 저장**.\
-   여기에 이 추가됩니다. **상태 아이콘** 열을 뷰에 추가합니다.
+1. **보기 저장**&#x200B;을 클릭합니다.
+1. (선택 사항) 보기의 새 이름을 지정한 다음 **보기 저장**&#x200B;을 클릭합니다.\
+   **상태 아이콘** 열이 보기에 추가됩니다.
 1. (선택 사항) 아이콘 위에 마우스를 올려 놓으면 그 아이콘이 무엇을 나타내는지 알 수 있습니다.
 1. (선택 사항) 아이콘을 클릭하면 표시되는 객체 영역으로 이동합니다.\
    모든 아이콘이 오브젝트에 연결된 링크인 것은 아닙니다.\
-   각 아이콘의 전체 속성 목록은 다음을 참조하십시오. [상태 아이콘 및 플래그 개요](#overview-of-status-icons-and-flags) 섹션.
+   각 아이콘의 전체 특성 목록을 보려면 [상태 아이콘 및 플래그 개요](#overview-of-status-icons-and-flags) 섹션을 참조하십시오.
 
 ## 상태 아이콘 및 플래그 개요 {#overview-of-status-icons-and-flags}
 
@@ -134,7 +134,7 @@ ht-degree: 3%
   <tr> 
    <th><strong>상태 아이콘 또는 플래그</strong> </th> 
    <th><strong>설명</strong> </th> 
-   <th><strong>오브젝트</strong> </th> 
+   <th><strong>개체</strong> </th> 
    <th>클릭 시</th> 
    <th> </th> 
   </tr> 
@@ -142,7 +142,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td> <img src="assets/condition-update-icon-on-target-29x34.png" alt="condition_update_icon_on_target.png" style="width: 29;height: 34;">또는 <img src="assets/screen-shot-2018-08-17-at-9.49.36-am-29x37.png" alt="Screen_Shot_2018-08-17_at_9.49.36_AM.png" style="width: 29;height: 37;"><br><img src="assets/condition-update-icon--in-trouble-29x26.png" alt="condition_update_icon__in_trouble.png" style="width: 29;height: 26;"> 또는 <img src="assets/screen-shot-2018-08-17-at-9.49.23-am-29x26.png" style="width: 29;height: 26;"><br><img src="assets/condition-update-at-risk-27x28.png" alt="condition_update_at_risk.png" style="width: 27;height: 28;"> 또는 <img src="assets/screen-shot-2018-08-17-at-9.49.23-am-33x34.png" alt="Screen_Shot_2018-08-17_at_9.49.23_AM.png" style="width: 33;height: 34;"></td> 
-   <td>프로젝트의 상태가 Target 중(녹색), 문제 발생(빨간색) 또는 위험(노란색)임을 나타냅니다.<br>프로젝트 상태에 대한 자세한 내용은 <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">프로젝트 상태 및 상태 유형 개요</a>.</td> 
+   <td>프로젝트의 상태가 [대상](녹색), [문제 발생](빨간색) 또는 [위험 발생](노란색)임을 나타냅니다.<br>프로젝트 상태에 대한 자세한 내용은 <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">프로젝트 상태 및 상태 형식 개요</a>를 참조하십시오.</td> 
    <td>프로젝트</td> 
    <td>을(를) 클릭하여 프로젝트의 작업 목록을 엽니다. </td> 
    <td> </td> 
@@ -190,21 +190,21 @@ ht-degree: 3%
      <li>지연(빨간색 원)</li> 
      <li>위험 상태(파란색 다이아몬드)</li> 
      <li>뒤(노란색 삼각형)</li> 
-    </ul> <p>작업의 진행 상태에 대한 자세한 내용은 을 참조하십시오. <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">작업 진행 상태 개요</a>.</p> </td> 
+    </ul> <p>작업의 진행 상태에 대한 자세한 내용은 <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">작업 진행 상태 개요</a>를 참조하세요.</p> </td> 
    <td>작업</td> 
    <td>을(를) 클릭하여 작업을 엽니다. </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/task-critical-path-icon-36x35.png" alt="task_critical_path_icon.png" style="width: 36;height: 35;"> 또는 <img src="assets/new-critical-path-icon-34x34.png" alt="new_critical_path_icon.png" style="width: 34;height: 34;"></td> 
-   <td>작업이 현재 중요 경로에 있음을 나타냅니다. <br>프로젝트의 중요 경로에 있는 작업에 대한 자세한 내용은 <a href="../../../manage-work/tasks/manage-tasks/critical-path.md" class="MCXref xref">프로젝트 중요 경로 개요</a>.</td> 
+   <td>작업이 현재 중요 경로에 있음을 나타냅니다. <br>프로젝트의 중요 경로에 있는 작업에 대한 자세한 내용은 <a href="../../../manage-work/tasks/manage-tasks/critical-path.md" class="MCXref xref">중요 경로 개요</a>를 참조하십시오.</td> 
    <td>작업</td> 
    <td>을(를) 클릭하여 작업을 엽니다.</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/milestone-icon-50x43.png" alt="milestone_icon.png" style="width: 50;height: 43;"> </td> 
-   <td>작업이 마일스톤과 연결되어 있음을 나타냅니다. 시스템 관리자는 사용자 환경에서 다이아몬드의 색상을 사용자 정의할 수 있습니다.<br>이정표에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">마일스톤 경로 만들기</a>.</td> 
+   <td>작업이 마일스톤과 연결되어 있음을 나타냅니다. 시스템 관리자는 사용자 환경에서 다이아몬드의 색상을 사용자 정의할 수 있습니다.<br>마일스톤에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">마일스톤 경로 만들기</a>를 참조하세요.</td> 
    <td>작업</td> 
    <td>을(를) 클릭하여 작업을 엽니다. </td> 
    <td> </td> 
@@ -218,7 +218,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> <img src="assets/resolving-object-icon-43x45.png" alt="resolving_object_icon.png" style="width: 43;height: 45;"> </td> 
-   <td>궁극적으로 문제를 해결하는 해결 중인 오브젝트가 있음을 나타냅니다. 이 경우 문제를 완료할 수 없습니다. 해결 중인 오브젝트가 완료되면 완료됩니다. <br>객체 해결에 대한 자세한 내용은 <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">해결 및 해결 가능한 객체 개요 </a>.</td> 
+   <td>궁극적으로 문제를 해결하는 해결 중인 오브젝트가 있음을 나타냅니다. 이 경우 문제를 완료할 수 없습니다. 해결 중인 오브젝트가 완료되면 완료됩니다. <br>개체 확인에 대한 자세한 내용은 <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">해결 및 해결 가능한 개체 개요 </a>를 참조하십시오.</td> 
    <td>문제</td> 
    <td>을(를) 클릭하여 문제의 해결 중 오브젝트를 엽니다. </td> 
    <td> </td> 
@@ -274,21 +274,21 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> <img src="assets/billable-expense-icon-44x45.png" alt="billable_expense_icon.png" style="width: 44;height: 45;"> </td> 
-   <td>경비를 청구할 수 있음을 나타냅니다.<br>경비에 대한 자세한 내용은 <a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref">프로젝트 경비 관리 </a>.</td> 
+   <td>경비를 청구할 수 있음을 나타냅니다.<br>비용에 대한 자세한 내용은 <a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref">프로젝트 비용 관리 </a>를 참조하십시오.</td> 
    <td>경비</td> 
    <td>사용할 수 없음</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/expense-reimbursable-icon-44x45.png" alt="expense_deprecable_icon.png" style="width: 44;height: 45;"> </td> 
-   <td> 경비가 정산 가능함을 나타냅니다.<br>경비에 대한 자세한 내용은 <a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref">프로젝트 경비 관리 </a>.</td> 
+   <td> 경비가 정산 가능함을 나타냅니다.<br>비용에 대한 자세한 내용은 <a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref">프로젝트 비용 관리 </a>를 참조하십시오.</td> 
    <td>경비</td> 
    <td>사용할 수 없음</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/reimbursed-expense-icon-44x43.png" alt="revised_expense_icon.png" style="width: 44;height: 43;"></td> 
-   <td> 경비가 상환되었음을 나타냅니다.<br>경비에 대한 자세한 내용은 <a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref">프로젝트 경비 관리 </a>.</td> 
+   <td> 경비가 상환되었음을 나타냅니다.<br>비용에 대한 자세한 내용은 <a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref">프로젝트 비용 관리 </a>를 참조하십시오.</td> 
    <td>경비</td> 
    <td>사용할 수 없음</td> 
    <td> </td> 

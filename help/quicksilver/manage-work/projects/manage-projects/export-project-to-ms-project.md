@@ -19,11 +19,10 @@ Adobe Workfront 프로젝트를 Microsoft 프로젝트로 내보낼 수 있습�
 
 >[!IMPORTANT]
 >
->* 일부 Workfront 필드가 Microsoft 프로젝트 파일에 전송되지 않습니다.\
-   >  Workfront과 Microsoft 프로젝트 간의 필드 호환성에 대한 자세한 내용은 문서를 참조하십시오 [Microsoft 프로젝트 필드를 Adobe Workfront 프로젝트에 매핑](../../../manage-work/projects/manage-projects/map-ms-project-fields-to-workfront.md).
+>* 일부 Workfront 필드는 Microsoft 프로젝트 파일에서 전송되지 않습니다.\
+>  Workfront과 Microsoft 프로젝트 간의 필드 호환성에 대한 자세한 내용은 문서 [Microsoft 프로젝트 필드를 Adobe Workfront 프로젝트에 매핑](../../../manage-work/projects/manage-projects/map-ms-project-fields-to-workfront.md)을 참조하십시오.
 >* 한 애플리케이션에서 다른 애플리케이션으로 프로젝트를 전송하는 횟수를 제한하는 것이 좋습니다. 
 >
-
 
 ## 액세스 요구 사항
 
@@ -56,7 +55,7 @@ Adobe Workfront 프로젝트를 Microsoft 프로젝트로 내보낼 수 있습�
  </tbody> 
 </table>
 -->
-이 문서의 절차를 수행하려면 다음 액세스 권한이 있어야 합니다.
+이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -64,41 +63,41 @@ Adobe Workfront 프로젝트를 Microsoft 프로젝트로 내보낼 수 있습�
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스*</td> 
+   <td role="rowheader">Adobe Workfront 라이센스*</td> 
    <td> <p>검토 이상</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>프로젝트에 대한 보기 이상의 액세스 권한</p> <p><b>메모</b>
+   <td> <p>프로젝트에 대한 보기 또는 상위 액세스 권한</p> <p><b>메모</b>
 
-여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한 사항을 설정하는지 문의하십시오. 프로젝트 액세스에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">프로젝트에 대한 액세스 권한 부여</a>. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>. </p> </td>
+여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. 프로젝트에 대한 액세스 정보는 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">프로젝트에 대한 액세스 권한 부여</a>를 참조하십시오. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오. </p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p> 프로젝트에 대한 권한 보기 이상</p> <p>프로젝트 권한에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Adobe Workfront에서 프로젝트 공유</a>.</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p> 프로젝트에 대한 이상의 권한 보기</p> <p>프로젝트 권한에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Adobe Workfront에서 프로젝트 공유</a>를 참조하십시오.</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;어떤 계획, 라이선스 유형 또는 액세스 권한을 보유하고 있는지 알아보려면 Workfront 관리자에게 문의하십시오.
+&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
 
 ## Workfront에서 Microsoft 프로젝트로 프로젝트 내보내기
 
-프로젝트 페이지 또는 프로젝트 목록 또는 보고서에서 Workfront에서 프로젝트를 내보낼 수 있습니다.
+프로젝트 페이지나 프로젝트 목록 또는 보고서에서 Workfront에서 프로젝트를 내보낼 수 있습니다.
 
-1. 내보낼 프로젝트로 이동하고 **자세히** 아이콘 ![](assets/qs-more-menu.png) 프로젝트 이름의 오른쪽에 있습니다.
+1. 내보낼 프로젝트로 이동한 다음 프로젝트 이름 오른쪽에 있는 **자세히** 아이콘 ![](assets/qs-more-menu.png)을(를) 클릭합니다
 
    ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    또는
 
-   프로젝트 목록 또는 보고서로 이동하고 프로젝트를 선택한 다음 자세히 아이콘을 클릭합니다 ![](assets/qs-more-menu.png) 를 클릭합니다.
+   프로젝트 목록 또는 보고서로 이동하여 프로젝트를 선택한 다음 목록 맨 위에 있는 자세히 아이콘 ![](assets/qs-more-menu.png)을(를) 클릭합니다.
 
    ![](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
 
-1. 클릭 **MS 프로젝트 내보내기**.
+1. **MS 프로젝트 내보내기**&#x200B;를 클릭합니다.
 
-   프로젝트는 컴퓨터에 XML 파일로 다운로드되므로 Microsoft Project로 가져올 수 있습니다. 
+   프로젝트가 XML 파일로 컴퓨터에 다운로드되어 Microsoft 프로젝트로 가져올 수 있습니다. 

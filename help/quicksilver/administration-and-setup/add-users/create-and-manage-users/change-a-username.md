@@ -4,7 +4,7 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 title: 사용자 이름 변경
-description: 사용자 프로필을 편집하여 사용자 이름(이메일 주소)을 편집할 수 있습니다.
+description: 사용자 프로필을 편집하여 사용자의 사용자 이름(이메일 주소)을 편집할 수 있습니다.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -18,4 +18,4 @@ ht-degree: 0%
 
 # 사용자 이름 변경
 
-사용자 프로필을 편집하여 사용자 이름(이메일 주소)을 편집할 수 있습니다. 지침은 [사용자 프로필 편집](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+사용자 프로필을 편집하여 사용자의 사용자 이름(이메일 주소)을 편집할 수 있습니다. 지침은 [사용자 프로필 편집](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)의 전자 메일 주소 필드에 대한 정보를 참조하세요.

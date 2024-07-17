@@ -92,7 +92,7 @@ Designating Resource Managers for a project is a prerequisite for using the Sche
    <td role="rowheader">액세스 수준 구성*</td> 
    <td> <p>프로젝트 및 템플릿에 대한 액세스 편집</p> <p><b>메모</b>
 
-여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td>
+여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
@@ -100,7 +100,7 @@ Designating Resource Managers for a project is a prerequisite for using the Sche
 
 <p><b>메모</b>
 
-프로젝트 또는 템플릿에 리소스 관리자로 추가된 사용자는 프로젝트 또는 템플릿에 대한 관리 권한을 즉시 얻을 수 있습니다</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td>
+프로젝트 또는 템플릿에 리소스 관리자로 추가된 사용자는 프로젝트 또는 템플릿에 대한 관리 권한을 즉시 얻을 수 있습니다</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td>
 </tr> 
  </tbody> 
 </table>
@@ -132,15 +132,15 @@ Designating Resource Managers for a project is a prerequisite for using the Sche
 
 * 프로젝트 또는 템플릿에서 리소스 관리자로 지정한 사용자는 자동으로 프로젝트 팀에 포함되지 않습니다.
 
-  프로젝트 팀에 대한 자세한 내용은 [프로젝트 팀 관리](../../../manage-work/projects/planning-a-project/manage-project-team.md).
+  프로젝트 팀에 대한 자세한 내용은 [프로젝트 팀 관리](../../../manage-work/projects/planning-a-project/manage-project-team.md)를 참조하십시오.
 
 * 프로젝트 또는 프로젝트 템플릿에 대해 리소스 관리자를 지정할 수 있습니다. 프로젝트 템플리트에서 자원 관리자를 지정하면, 템플리트에서 자원 관리자로 지정한 모든 사용자는 해당 템플리트를 사용하여 생성된 모든 프로젝트에서 자원 관리자가 됩니다.
 * 다음 영역에서 리소스 관리자 필드를 볼 수 있습니다.
 
    * 이 문서에 설명된 대로 프로젝트를 편집할 때
    * 템플릿을 편집할 때 이 문서에 설명된 대로 수행합니다.
-   * 프로젝트 또는 템플릿 보고서를 작성할 때 보고서 빌드에 대한 자세한 내용은 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-   * 목록에 대한 프로젝트 또는 템플릿 보기를 만들거나 사용자 지정할 때. 자세한 내용은 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   * 프로젝트 또는 템플릿 보고서를 작성할 때 보고서 작성에 대한 자세한 내용은 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)를 참조하세요.
+   * 목록에 대한 프로젝트 또는 템플릿 보기를 만들거나 사용자 지정할 때. 자세한 내용은 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)를 참조하십시오.
 
 * 목록 또는 프로젝트의 보기에 리소스 관리자 필드를 추가하고 인라인 편집을 사용하여 이 필드를 편집하여 여러 프로젝트 또는 템플릿에서 리소스 관리자를 빠르게 추가하거나 제거할 수 있습니다.
 
@@ -148,17 +148,17 @@ Designating Resource Managers for a project is a prerequisite for using the Sche
 
 1. 다음 중 하나를 수행합니다.
 
-   * 단일 프로젝트에 리소스 관리자를 추가하려면 하나 이상의 리소스 관리자를 지정할 프로젝트로 이동한 다음 **기타 메뉴** 프로젝트 이름 옆에 있는 다음 **편집 .**
+   * 단일 프로젝트에 리소스 관리자를 추가하려면 하나 이상의 리소스 관리자를 지정할 프로젝트로 이동한 다음 프로젝트 이름 옆에 있는 **추가 메뉴**&#x200B;를 클릭한 다음 **편집 .**&#x200B;을 클릭합니다
 
-   * 여러 프로젝트에 동시에 리소스 관리자를 추가하려면 프로젝트 목록으로 이동하여 하나 이상의 리소스 관리자를 지정할 프로젝트를 선택한 다음 를 클릭합니다 **편집**.
+   * 여러 프로젝트에 동시에 리소스 관리자를 추가하려면 프로젝트 목록으로 이동하여 하나 이상의 리소스 관리자를 지정할 프로젝트를 선택한 다음 **편집**&#x200B;을 클릭합니다.
 
      기존 Resource Manager는 편집 중인 프로젝트에서 제거되지 않습니다. 이러한 방식으로 추가하는 사용자는 기존 Resource Manager 외에 프로젝트에 Resource Manager로 추가됩니다.
 
    * 새 프로젝트에 리소스 관리자를 추가하려면 새 프로젝트 만들기를 시작합니다.
 
-     프로젝트 만들기에 대한 자세한 내용은 [프로젝트 만들기](../../../manage-work/projects/create-projects/create-project.md).
+     프로젝트 만들기에 대한 자세한 내용은 [프로젝트 만들기](../../../manage-work/projects/create-projects/create-project.md)를 참조하십시오.
 
-1. 다음에서 **개요** 섹션에서 프로젝트 편집 대화 상자를 클릭하고 **리소스 관리자** 필드.
+1. 프로젝트 편집 대화 상자의 **개요** 섹션에서 **리소스 관리자** 필드를 클릭합니다.
 1. 프로젝트의 리소스 관리자로 추가할 사용자의 이름을 입력한 다음 목록에 표시될 때 이름을 클릭합니다.
 
    이 단계를 반복하여 프로젝트에 대해 여러 리소스 관리자를 추가합니다.
@@ -167,21 +167,21 @@ Designating Resource Managers for a project is a prerequisite for using the Sche
 
 ## 템플릿에 대한 리소스 관리자 지정
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront 오른쪽 상단에 있습니다.
+1. Adobe Workfront 오른쪽 상단의 **주 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭합니다.
 
-1. 클릭 **템플릿**.
+1. **템플릿**&#x200B;을 클릭합니다.
 
 1. 다음 중 하나를 수행합니다.
 
-   * 단일 템플릿에 리소스 관리자를 추가하려면 하나 이상의 리소스 관리자를 지정할 템플릿으로 이동한 다음 **기타 메뉴** 템플릿 이름 옆에 있는 다음 **편집 .**
+   * 단일 템플릿에 리소스 관리자를 추가하려면 하나 이상의 리소스 관리자를 지정할 템플릿으로 이동한 다음 템플릿 이름 옆에 있는 **추가 메뉴**&#x200B;를 클릭한 다음 **편집 .**&#x200B;을 클릭합니다
 
-   * 여러 템플릿에 리소스 관리자를 동시에 추가하려면 템플릿 목록으로 이동하여 하나 이상의 리소스 관리자를 지정할 템플릿을 선택한 다음 를 클릭합니다 **편집**.
+   * 여러 템플릿에 리소스 관리자를 동시에 추가하려면 템플릿 목록으로 이동하여 하나 이상의 리소스 관리자를 지정할 템플릿을 선택한 다음 **편집**&#x200B;을 클릭합니다.
 
      기존 Resource Manager는 편집 중인 템플릿에서 제거되지 않습니다. 이러한 방식으로 추가하는 모든 사용자는 기존 Resource Manager 외에도 템플릿에 Resource Manager로 추가됩니다.
 
-   * 새 템플릿에 리소스 관리자를 추가하려면 **새 템플릿**&#x200B;을(를) 클릭하고 **기타 메뉴** 템플릿 이름 옆에 있는 다음 **편집 .**
+   * 새 템플릿에 리소스 관리자를 추가하려면 **새 템플릿**&#x200B;을 클릭한 다음 템플릿 이름 옆에 있는 **추가 메뉴**&#x200B;를 클릭한 다음 **편집 .**&#x200B;을 클릭합니다.
 
-1. 다음에서 **개요** 섹션에서 **리소스 관리자** 필드.
+1. **개요** 섹션에서 **리소스 관리자** 필드를 클릭합니다.
 1. 템플릿에 리소스 관리자로 추가할 사용자의 이름을 입력한 다음 목록에 표시될 때 이름을 클릭합니다.
 
    이 단계를 반복하여 템플릿에 여러 리소스 관리자를 추가합니다.

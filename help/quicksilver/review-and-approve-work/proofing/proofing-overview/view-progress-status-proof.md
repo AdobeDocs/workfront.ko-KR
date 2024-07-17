@@ -1,25 +1,25 @@
 ---
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
-title: 증명 진행 및 상태 개요
-description: Documents 영역에서 Proof Proof이 검토 프로세스를 진행하는 방식에 대한 정보를 확인하고 Documents 영역에서 Proof Decision Status의 전체 요약을 볼 수 있습니다.
+title: 증명 진행 상황 및 상태 개요
+description: 검토 프로세스를 통해 증명이 진행되는 방식에 대한 정보를 확인하고 문서 영역에서 증명 결정 상태에 대한 전반적인 요약을 볼 수 있습니다.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 78e81070-ff82-4d82-90a3-6e0cd176b290
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 2%
+source-wordcount: '368'
+ht-degree: 1%
 
 ---
 
-# 증명 진행 및 상태 개요
+# 증명 진행 상황 및 상태 개요
 
-Documents 영역에서 Proof Proof이 검토 프로세스를 진행하는 방식에 대한 정보를 확인하고 Documents 영역에서 Proof Decision Status의 전체 요약을 볼 수 있습니다.
+검토 프로세스를 통해 증명이 진행되는 방식에 대한 정보를 확인하고 문서 영역에서 증명 결정 상태에 대한 전반적인 요약을 볼 수 있습니다.
 
-## 증명 진행률 개요
+## 증명 진행 개요
 
-증명 진행 상태는 수신자에게 증명을 보낼 때부터 증명에 대한 결정을 내릴 때까지 증표에 대해 수행된 작업을 나타냅니다. 진행률 아이콘 S, O, C 및 D는 증명 이름 옆에 표시되며 증명의 진행 상태에 대한 정보를 제공합니다.
+증명 진행률은 수신자에게 증명을 보낸 시점부터 증명에 대한 결정을 내릴 때까지 증명에 대한 작업이 완료됨을 나타냅니다. 진행률 아이콘 S, O, C 및 D가 증명 이름 옆에 나타나고 증명 진행률에 대한 정보를 제공합니다.
 
 ![](assets/proof-edit-existing-progress-350x62.png)
 
@@ -35,29 +35,29 @@ Documents 영역에서 Proof Proof이 검토 프로세스를 진행하는 방식
  <tbody> 
   <tr> 
    <td> <p> <img src="assets/proof-progress-sent-icon.png" alt=""> </p> <p><strong>전송됨</strong> </p> </td> 
-   <td> <p>지정된 수신자에게 증명을 보냈습니다.</p> </td> 
+   <td> <p>지정된 수신자에게 증명이 전송되었습니다.</p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong></strong> </p> <p><strong>열림</strong> </p> </td> 
-   <td> <p>할당된 모든 수신자는 증명 또는 증명 세부 정보 페이지를 엽니다.</p> </td> 
+   <td> <p>할당된 모든 수신자가 증명 또는 증명 세부 정보 페이지를 엽니다.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong></strong> </p> <p><strong>설명 작성</strong> </p> </td> 
-   <td> <p>할당된 모든 수신자는 증표에 적어도 한 개의 주석을 답니다.</p> <p>증명에 지정된 검토자가 없으면 <strong>C</strong> 진행률 표시줄에 아이콘이 표시되지 않습니다.</p> </td> 
+   <td> <p><strong></strong> </p> <p><strong>댓글 작성</strong> </p> </td> 
+   <td> <p>할당된 모든 수신자가 증명에 대해 하나 이상의 댓글을 남깁니다.</p> <p>증명에 할당된 검토자가 없으면 <strong>C</strong> 아이콘이 진행률 표시줄에 나타나지 않습니다.</p> </td> 
   </tr> 
   <tr> 
    <td> <p> <img src="assets/proof-progress-decision-icon.png" alt=""> </p> <p><strong>결정</strong> </p> </td> 
-   <td> <p>지정된 모든 승인자는 증명의 결정을 내리고, 증명 생성자가 한 가지 결정만 요구하도록 지정하지 않는 한 지정된 모든 승인자는 증명의 결정을 합니다.</p> <p>증명을 위해 지정된 승인자(의사 결정권자)가 없는 경우 <strong>D</strong> 진행률 표시줄에 아이콘이 표시되지 않습니다. </p> </td> 
+   <td> <p>모든 할당된 승인자는 증명에 대해 결정을 내리고, 증명 작성자가 하나의 결정만 필요하다고 지정하지 않는 한 모든 할당된 승인자는 증명에 대해 결정을 내립니다.</p> <p>증명에 대해 지정된 승인자(결정자)가 없는 경우 <strong>D</strong> 아이콘이 진행률 표시줄에 표시되지 않습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-진행 아이콘은 증명의 진행 상태에 대한 특정 정보를 나타내기 위해 다음 색상으로 표시될 수 있습니다.
+진행률 아이콘은 다음 색상으로 표시되어 증명의 진행률에 대한 특정 정보를 나타낼 수 있습니다.
 
-* **녹색**: 완료.
+* **녹색**: 완료되었습니다.
 * **흰색**: 완료되지 않았습니다.
-* **주황**: 완료되지 않고 마감일이 24시간 미만입니다.
-* **빨간색**: 마감일이 지나도 완전하지 않습니다.
+* **주황**: 완료되지 않았으며 기한은 24시간 이내입니다.
+* **빨강**: 완료되지 않았고 기한을 넘겼습니다.
 
 <!--
 <h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">Levels of proof progress</h3>
@@ -93,7 +93,7 @@ Documents 영역에서 Proof Proof이 검토 프로세스를 진행하는 방식
 
 ## 증명 상태 개요
 
-증명 상태는 증명에 필요한 의사 결정 상태를 표시합니다. 증명의 상태는 &quot;최악의 사례&quot; 참가자에 의해 결정됩니다. 예를 들어, 증명에 세 가지 결정이 있다고 가정합니다. 두 사람은 상태 **수락됨** 그리고 한 사람은 **거부됨**. &quot;최악의 사건&quot; 결정 **거부됨** 과규칙 및 증명의 전체 상태가 **거부됨**. 
+증명 상태는 증명에 필요한 결정의 상태를 표시합니다. 증명의 상태는 &quot;최악의 경우&quot; 참가자에 의해 결정됩니다. 예를 들어 증명에 대한 세 가지 결정이 있다고 가정해 보겠습니다. 두 개의 상태는 **수락됨**&#x200B;이고 한 개의 상태는 **거부됨**&#x200B;입니다. **Rejected**&#x200B;의 &quot;최악의 경우&quot; 결정은 다른 결정 및 증명의 전체 상태를 **Rejected**&#x200B;로 표시합니다. 
 
 ![](assets/proof-edit-existing-progress-350x62.png)
 
@@ -102,10 +102,10 @@ Documents 영역에서 Proof Proof이 검토 프로세스를 진행하는 방식
 * 보류 중
 * 승인됨
 * 변경 사항과 함께 승인됨
-* 필요한 변경 사항
+* 변경 필요
 * 관련 없음
 
-계정에 사용자 지정 의사 결정이 구성된 경우 상태 옵션은 사용자 지정 의사 결정 설정을 반영합니다.
+사용자 지정 결정이 계정에 구성된 경우 상태 옵션이 사용자 지정 결정 설정을 반영합니다.
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Viewing proof progress and status</h2>

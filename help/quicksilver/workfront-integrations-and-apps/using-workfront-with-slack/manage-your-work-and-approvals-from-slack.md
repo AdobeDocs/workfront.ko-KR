@@ -2,26 +2,26 @@
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-slack
 title: Slack에서 작업 및 승인 관리
-description: 홈 작업 목록에 액세스하여 작업 및 문제에 대해 검토하고 동의하고 Slack에서 직접 승인을 검토하거나 결정할 수 있습니다.
+description: 홈 작업 목록에 액세스하고 작업 및 문제에 대한 작업을 검토 및 동의하고 Slack에서 바로 승인을 검토하거나 결정할 수 있습니다.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 802a2f16-d827-455e-9e49-f58f4c5fc482
 source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '906'
 ht-degree: 1%
 
 ---
 
-# 다음 위치에서 작업 및 승인 관리 [!DNL Slack]
+# [!DNL Slack]에서 작업 및 승인 관리
 
-설치한 후 [!DNL Adobe Workfront for Slack]로 지정하는 경우 다음을 수행할 수 있습니다.
+[!DNL Adobe Workfront for Slack]을(를) 설치한 후 다음을 수행할 수 있습니다.
 
-* 사용자 목록 액세스 [!UICONTROL 홈] 항목 [!DNL Slack]
-* 작업 및 문제 해결 [!DNL Slack]
-* 승인을 검토하고 결정하려면 [!DNL Slack]
+* [!DNL Slack]에서 [!UICONTROL 홈] 항목의 액세스 목록
+* [!DNL Slack]의 작업 및 문제를 검토하고 수락합니다.
+* [!DNL Slack]의 승인 검토 및 결정
 
-구성에 대한 자세한 정보 [!DNL Workfront] with [!DNL Slack]를 참조하십시오. [구성 [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
+[!DNL Slack]을(를) 사용하여 [!DNL Workfront]을(를) 구성하는 방법에 대한 자세한 내용은 [구성 [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)을(를) 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -32,57 +32,56 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL Adobe Workfront] 플랜</a>*</td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL Adobe Workfront] 계획</a>*</td> 
    <td> <p>[!UICONTROL Pro] 이상</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;어떤 계획, 라이선스 유형 또는 액세스 권한을 보유하고 있는지 알아보려면 Workfront 관리자에게 문의하십시오.
+&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
 
 ## 전제 조건
 
-작업 및 승인을 관리하려면 먼저 [!DNL Slack]:
+[!DNL Slack]에서 작업 및 승인을 관리하려면 먼저 다음을 수행해야 합니다.
 
-* Configure [!DNL Workfront for Slack]\
-   구성에 대한 지침 [!DNL Workfront for Slack]를 참조하십시오. [구성 [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
+* [!DNL Workfront for Slack] 구성\
+  [!DNL Workfront for Slack] 구성에 대한 지침은 [구성 [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)을 참조하십시오.
 
-## 다음 위치에서 작업 관리 [!DNL Slack]
+## [!DNL Slack]에서 작업 관리
 
-1. 에 로그인합니다. [!DNL Slack] 인스턴스 및 로그인 [!DNL Workfront] 변환 전: [!DNL Slack].\
-   로그인하는 방법에 대한 자세한 정보 [!DNL Workfront] 변환 전: [!DNL Slack]에 로그인하는 것은 [!DNL Workfront] 변환 전: [!DNL Slack]&quot; 섹션 [액세스 [!DNL Adobe Workfront] 변환 전: [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
+1. [!DNL Slack] 인스턴스에 로그인하고 [!DNL Slack]에서 [!DNL Workfront]에 로그인합니다.\
+   [!DNL Slack]에서 [!DNL Workfront]에 로그인하는 방법에 대한 자세한 내용은 [Access [!DNL Adobe Workfront] from [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)의 &quot;[!DNL Slack]에서 [!DNL Workfront]에 로그인&quot; 섹션을 참조하십시오.
 
-1. 채널에서 메시지 필드에 다음 명령을 입력합니다.
+1. 모든 채널에서 메시지 필드에 다음 명령을 입력합니다.
 
    `/workfront home`
 
    >[!NOTE]
    >
    >* 명령은 대/소문자를 구분합니다.
-   >* 명령을 `/wf` 대신 `/workfront`.
+   >* `/workfront` 대신 `/wf`(으)로 명령을 시작할 수 있습니다.
 
+   작업, 문제 및 승인 목록에 액세스할 수 있는 버튼이 표시됩니다. 단추 중 하나를 클릭하면 [!DNL Slack]에서 각 목록의 처음 20개 항목이 표시됩니다.
 
-   작업, 문제 및 승인 목록에 액세스할 수 있는 단추가 표시됩니다. 버튼 중 하나를 클릭하면 각 목록에 있는 처음 20개 항목이 표시됩니다. [!DNL Slack].
+1. (선택 사항) 모든 작업을 표시하려면 **[!UICONTROL 작업]**&#x200B;을 클릭합니다.
 
-1. (선택 사항) **[!UICONTROL 작업]** 모든 작업을 표시합니다.
+   [!DNL Slack]의 작업 관리에 대한 자세한 내용은 [다음 항목에서 작업 관리 [!DNL Slack]](#manage-your-tasks-from-slack-manage-your-tasks-from-slack)를 참조하십시오.
 
-   의 작업 관리에 대한 자세한 내용은 [!DNL Slack]를 참조하십시오. [작업 관리 [!DNL Slack]](#manage-your-tasks-from-slack-manage-your-tasks-from-slack).
+1. (선택 사항) **[!UICONTROL 문제]**&#x200B;를 클릭하여 모든 문제를 표시합니다.
 
-1. (선택 사항) **[!UICONTROL 문제]** 모든 문제를 표시합니다.
+   [!DNL Slack]의 문제 관리에 대한 자세한 내용은 [다음 항목에서 문제 관리 [!DNL Slack]](#manage-your-issues-from-slack-manage-your-issues-from-slack)를 참조하십시오.
 
-   의 문제 관리에 대한 자세한 정보 [!DNL Slack]를 참조하십시오. [문제 관리 [!DNL Slack]](#manage-your-issues-from-slack-manage-your-issues-from-slack).
+1. (선택 사항) **[!UICONTROL 승인]**&#x200B;을 클릭하여 결정을 기다리는 모든 승인을 표시합니다.\
+   [!DNL Slack]에서 승인을 관리하는 방법에 대한 자세한 내용은 [승인 관리 [!DNL Slack]](#manage-your-approvals-from-slack-manage-your-approvals-from-slack)를 참조하십시오.
 
-1. (선택 사항) **[!UICONTROL 승인]** 결정을 기다리는 모든 승인을 표시합니다.\
-   에서 승인 관리에 대한 자세한 정보 [!DNL Slack]를 참조하십시오. [다음 위치에서 승인 관리 [!DNL Slack]](#manage-your-approvals-from-slack-manage-your-approvals-from-slack).
+## [!DNL Slack]에서 작업 관리 {#manage-your-tasks-from-slack}
 
-## 다음 위치에서 작업 관리 [!DNL Slack] {#manage-your-tasks-from-slack}
+1. [!DNL Slack] 인스턴스에 로그인하고 [!DNL Slack]에서 [!DNL Workfront]에 로그인합니다.\
+   [!DNL Slack]에서 [!DNL Workfront]에 로그인하는 방법에 대한 자세한 내용은 [Access [!DNL Adobe Workfront] from [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)의 &quot;[!DNL Slack]에서 [!DNL Workfront]에 로그인&quot; 섹션을 참조하십시오.
 
-1. 에 로그인합니다. [!DNL Slack] 인스턴스 및 로그인 [!DNL Workfront] 변환 전: [!DNL Slack].\
-   로그인하는 방법에 대한 자세한 내용 [!DNL Workfront] 변환 전: [!DNL Slack]에 로그인하는 것은 [!DNL Workfront] 변환 전: [!DNL Slack]&quot; 섹션 [액세스 [!DNL Adobe Workfront] 변환 전: [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
+1. 채널에서 메시지 필드에 다음 명령 중 하나를 입력하십시오.
 
-1. 채널에서 메시지 필드에 다음 명령 중 하나를 입력합니다.
-
-   `/workfront home`를 클릭한 다음 **[!UICONTROL 작업]**
+   `/workfront home`을(를) 클릭한 다음 **[!UICONTROL 작업]**&#x200B;을(를) 클릭합니다.
 
    또는
 
@@ -91,43 +90,41 @@ ht-degree: 1%
    >[!NOTE]
    >
    >* 명령은 대/소문자를 구분합니다.
-   >* 명령을 `/wf` 대신 `/workfront`.
+   >* `/workfront` 대신 `/wf`(으)로 명령을 시작할 수 있습니다.
 
+   목록의 처음 20개 작업이 표시됩니다.
 
-   목록에 있는 처음 20개의 작업이 표시됩니다.
-
-1. 클릭 **[!UICONTROL +`<remaining number>` 자세히]** 추가 작업을 표시합니다.
-1. 작업 항목에 대한 다음 정보를 검토하십시오.
+1. 추가 작업을 표시하려면 **[!UICONTROL +`<remaining number>` 자세히]**&#x200B;를 클릭하십시오.
+1. 작업 항목에 대한 다음 정보를 검토하는 것이 좋습니다.
 
    * **[!UICONTROL 이름]**
    * **[!UICONTROL 프로젝트 이름]** 또는 **[!DNL Parent Object Name]**
 
-   * **[!DNL Planned Completion Date]** 작업 항목.
-   * **[!DNL Assigned By Name]**: 작업을 자신에게 할당한 사용자의 이름입니다.
+   * 작업 항목의 **[!DNL Planned Completion Date]**&#x200B;입니다.
+   * **[!DNL Assigned By Name]**: 작업을 귀하에게 할당한 사용자의 이름입니다.
    * **[!UICONTROL 상태]**
 
-1. (선택 사항) 항목의 이름을 클릭하여 별도의 브라우저 탭에서 Workfront에서 엽니다.
-1. (선택 사항)에서 **[!UICONTROL 상태]** 필드에서 새 상태를 선택합니다.
-1. (선택 사항) **[!UICONTROL 로그 시간]**&#x200B;를 선택한 다음 을 선택합니다 **[!UICONTROL 시간 유형]** 및 한 시간은 항목에 대한 로그 시간입니다.
+1. (선택 사항) 항목 이름을 클릭하여 별도의 브라우저 탭에서 Workfront으로 엽니다.
+1. (선택 사항) **[!UICONTROL 상태]** 필드에서 새 상태를 선택합니다.
+1. (선택 사항) **[!UICONTROL 로그 시간]**&#x200B;을 클릭한 다음 **[!UICONTROL 시간 유형]** 및 시간을 선택하여 항목에 시간을 기록합니다.
 
    >[!NOTE]
    >
-   >* 최대 12시간 30분 동안 전체 또는 30분 단위로 시간만 로그인할 수 있습니다.
-   >* 로그하는 시간(오늘 시작 날짜)이 있습니다. 다음부터는 과거 또는 미래 날짜에 대한 시간을 기록할 수 없습니다 [!DNL Slack].
+   >* 최대 12시간 30분까지 전체 또는 30분 단위로 시간만 기록할 수 있습니다.
+   >* 기록된 시간은 오늘로 입력됩니다. [!DNL Slack]의 과거 또는 미래 날짜에 대한 시간을 기록할 수 없습니다.
 
+   시간이 기록되었다는 확인 메시지가 표시됩니다.
 
-   시간이 기록되었다는 확인 메시지가 나타납니다.
+1. (선택 사항) 작업을 수락하려면 **[!UICONTROL 작업]**&#x200B;을 클릭하세요. [!UICONTROL 작업] 단추가 사라집니다.
 
-1. (선택 사항) **[!UICONTROL 작업]** 일을 맡도록 수락하다. 다음 [!UICONTROL 작업] 단추가 사라집니다.
+## [!DNL Slack]에서 문제 관리 {#manage-your-issues-from-slack}
 
-## 다음에서 문제 관리 [!DNL Slack] {#manage-your-issues-from-slack}
+1. [!DNL Slack] 인스턴스에 로그인하고 [!DNL Slack]에서 [!DNL Workfront]에 로그인합니다.\
+   [!DNL Slack]에서 [!DNL Workfront]에 로그인하는 방법에 대한 자세한 내용은 [다음에 로그인 [!DNL Workfront] 부터 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md#logging-in-to-workfront) section in [Access [!DNL Adobe Workfront] 부터 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)을 참조하십시오.
 
-1. 에 로그인합니다. [!DNL Slack] 인스턴스 및 로그인 [!DNL Workfront] 변환 전: [!DNL Slack].\
-   로그인하는 방법에 대한 자세한 정보 [!DNL Workfront] 변환 전: [!DNL Slack]를 참조하고 [에 로그인 [!DNL Workfront] 변환 전: [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md#logging-in-to-workfront) section in [Access [!DNL Adobe Workfront] 변환 전: [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
+1. 채널에서 메시지 필드에 다음 명령 중 하나를 입력하십시오.
 
-1. 채널에서 메시지 필드에 다음 명령 중 하나를 입력합니다.
-
-   `/workfront home`를 클릭한 다음 **[!UICONTROL 문제]**
+   `/workfront home`을(를) 클릭한 다음 **[!UICONTROL 문제]**&#x200B;를 클릭합니다.
 
    또는
 
@@ -136,32 +133,31 @@ ht-degree: 1%
    >[!NOTE]
    >
    >* 명령은 대/소문자를 구분합니다.
-   >* 명령을 `/wf` 대신 `/workfront`.
+   >* `/workfront` 대신 `/wf`(으)로 명령을 시작할 수 있습니다.
 
+   목록의 처음 20개 문제가 표시됩니다.
 
-   목록의 처음 20개의 문제가 표시됩니다.
-
-1. 클릭 **[!UICONTROL + 남음 `<number>` 자세히]** 추가 항목을 표시하려면 다음을 수행하십시오.
-1. 작업 항목에 대한 다음 정보를 검토하십시오.
+1. 추가 항목을 표시하려면 **[!UICONTROL + 나머지 `<number>` 추가]**&#x200B;을(를) 클릭합니다.
+1. 작업 항목에 대한 다음 정보를 검토하는 것이 좋습니다.
 
    * **[!UICONTROL 이름]**
    * **[!UICONTROL 프로젝트]** 이름 또는 상위 개체 이름
-   * **[!UICONTROL 기한]** 날짜: 작업 항목의 계획 완료 일자입니다.
-   * **[!DNL Requested by]** 이름: 기본 연락처(문제) 또는 할당을 수행한 사용자(작업)
+   * **[!UICONTROL 기한:]** 일자: 작업 항목의 계획된 완료 일자입니다.
+   * **[!DNL Requested by]** 이름: 기본 담당자(문제) 또는 할당한 사용자(작업)입니다.
 
-1. (선택 사항) 문제 이름을 클릭하여 별도의 브라우저 탭에서 Workfront에서 엽니다.
-1. (선택 사항) **[!DNL Work on it]** 아직 수락하지 않은 문제에 대해 작업을 시작하기 위해
+1. (선택 사항) 문제 이름을 클릭하여 별도의 브라우저 탭에서 Workfront으로 엽니다.
+1. (선택 사항) 아직 수락하지 않은 문제에 대한 작업을 시작하려면 **[!DNL Work on it]**&#x200B;을(를) 클릭하십시오.
 
-   다음 [!UICONTROL 작업] 단추가 사라집니다.
+   [!UICONTROL 작업] 단추가 사라집니다.
 
-## 다음 위치에서 승인 관리 [!DNL Slack] {#manage-your-approvals-from-slack}
+## [!DNL Slack]에서 승인 관리 {#manage-your-approvals-from-slack}
 
-1. 에 로그인합니다. [!DNL Slack] 인스턴스 및 로그인 [!DNL Workfront] 변환 전: [!DNL Slack].\
-   로그인하는 방법에 대한 자세한 정보 [!DNL Workfront] 변환 전: [!DNL Slack]에 로그인하는 것은 [!DNL Workfront] 변환 전: [!DNL Slack]&quot; 섹션 [액세스 [!DNL Adobe Workfront] 변환 전: [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
+1. [!DNL Slack] 인스턴스에 로그인하고 [!DNL Slack]에서 [!DNL Workfront]에 로그인합니다.\
+   [!DNL Slack]에서 [!DNL Workfront]에 로그인하는 방법에 대한 자세한 내용은 [Access [!DNL Adobe Workfront] from [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)의 &quot;[!DNL Slack]에서 [!DNL Workfront]에 로그인&quot; 섹션을 참조하십시오.
 
-1. 채널에서 메시지 필드에 다음 명령 중 하나를 입력합니다.
+1. 채널에서 메시지 필드에 다음 명령 중 하나를 입력하십시오.
 
-   `/workfront home`를 클릭한 다음 **[!UICONTROL 승인]**
+   `/workfront home`을(를) 클릭한 다음 **[!UICONTROL 승인]**&#x200B;을 클릭합니다.
 
    또는
 
@@ -170,35 +166,34 @@ ht-degree: 1%
    >[!NOTE]
    >
    >* 명령은 대/소문자를 구분합니다.
-   >* 명령을 `/wf` 대신 `/workfront`.
+   >* `/workfront` 대신 `/wf`(으)로 명령을 시작할 수 있습니다.
 
+   **[!UICONTROL 승인]** 목록의 처음 20개 항목이 표시됩니다. 항목을 요청한 사용자의 이름이나 항목이 속한 프로젝트의 이름과 같은 항목에 대한 추가 정보도 표시됩니다.
 
-   처음 20개 항목이 **[!UICONTROL 승인]** 목록 표시. 항목을 요청한 사용자 이름 또는 항목이 속한 프로젝트의 이름과 같은 항목에 대한 추가 정보도 표시됩니다.
+1. 추가 항목을 표시하려면 **[!UICONTROL + 나머지 `<number>` 추가]**&#x200B;을(를) 클릭합니다.
 
-1. 클릭 **[!UICONTROL + 남음 `<number>` 자세히]** 추가 항목을 표시하려면 다음을 수행하십시오.
-
-1. 다음 객체에 대한 승인 관리를 고려해 보십시오.
+1. 다음 객체에 대한 승인 관리를 고려하십시오.
 
    * **프로젝트**
 
-      클릭 **[!UICONTROL 승인]** 또는 **[!UICONTROL 거부]** 프로젝트의 상태 변경을 수락하거나 거부하려면
+     프로젝트의 상태 변경을 수락하거나 거부하려면 **[!UICONTROL 승인]** 또는 **[!UICONTROL 거부]**&#x200B;을 클릭하세요.
 
    * **작업**
 
-      클릭 **[!UICONTROL 승인]** 또는 **[!UICONTROL 거부]** 작업의 상태 변경을 수락하거나 거부합니다.
+     작업의 상태 변경을 수락하거나 거부하려면 **[!UICONTROL 승인]** 또는 **[!UICONTROL 거부]**&#x200B;를 클릭하십시오.
 
    * **문제**
 
-      클릭 **[!UICONTROL 승인]** 또는 **[!DNL Reject]** 문제 상태 변경을 수락하거나 거부합니다.
+     문제의 상태 변경을 수락하거나 거부하려면 **[!UICONTROL 승인]** 또는 **[!DNL Reject]**&#x200B;을(를) 클릭하십시오.
 
    * **문서**
 
-      클릭 **[!UICONTROL 승인]** 문서를 승인하려면 **[!UICONTROL 거부]** 거부하거나 **[!UICONTROL 변경 사항]** 승인하지만 문서에 추가 변경 사항이 필요함을 나타냅니다.\
-      (선택 사항) 문서 축소판 위로 마우스를 가져가면 돋보기를 클릭하고 문서를 미리 볼 수 있습니다.
+     문서를 승인하려면 **[!UICONTROL 승인]**, 거부하려면 **[!UICONTROL 거부]**, 승인하지만 문서에 추가 변경이 필요함을 나타내려면 **[!UICONTROL 변경]**&#x200B;을 클릭합니다.\
+     (선택 사항) 문서 축소판 위로 마우스를 가져가면 돋보기를 클릭하고 문서를 미리 볼 수 있습니다.
 
-   * **증명**&#x200B;증명 &#x200B; 이름을 클릭하여 엽니다. [!DNL Workfront] 별도의 탭에서 승인을 관리합니다.
-   * **액세스 권한 요청**
+   * **증명**&#x200B;증명 이름을 클릭하여 [!DNL Workfront]에서 별도의 탭에서 열고 승인을 관리합니다.
+   * **액세스 요청**
 
-      클릭 **[!UICONTROL 액세스 권한 부여]** 요청된 개체에 향상된 권한을 부여하거나 **[!UICONTROL 무시]** 추가 액세스 요청을 무시합니다.
+     요청된 개체에 향상된 권한을 부여하려면 **[!UICONTROL 액세스 권한 부여]**&#x200B;를 클릭하고, 추가 액세스 요청을 무시하려면 **[!UICONTROL 무시]**&#x200B;를 클릭하십시오.
 
-1. (선택 사항) 승인을 위해 제출된 객체의 이름을 클릭하여 엽니다. [!DNL Workfront] 새 브라우저 탭에서 을 클릭합니다.
+1. (선택 사항) 승인을 위해 제출한 개체의 이름을 클릭하여 [!DNL Workfront]에서 새 브라우저 탭에서 엽니다.

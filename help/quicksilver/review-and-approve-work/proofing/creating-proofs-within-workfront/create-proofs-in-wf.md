@@ -24,10 +24,10 @@ Adobe Workfront에서 문서의 증명을 만들 수 있습니다. 문서, 대�
 다음 문서에서 증명을 만드는 방법을 알아봅니다.
 
 * [기본 워크플로를 사용하여 고급 증명 만들기](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
-* [자동화된 워크플로를 사용하여 고급 증명 만들기](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
+* [자동화된 워크플로로 고급 증명 만들기](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
 * [개인 증명 기본값 구성](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/set-proof-defaults.md)
-* [여러 페이지로 된 증명 만들기](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)
+* [다중 페이지 증명 만들기](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)
 * [웹 사이트 또는 기타 웹 콘텐츠에 대한 대화형 증명 만들기](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md)
-* [ZIP 파일에 대화형 컨텐츠에 대한 증명 만들기](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md)
-* [웹 사이트 또는 기타 웹 컨텐츠에 대한 정적 증명 만들기](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md)
+* [ZIP 파일에 대화형 콘텐츠에 대한 증명 만들기](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md)
+* [웹 사이트 또는 기타 웹 콘텐츠에 대한 정적 증명 만들기](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md)
 * [문서에 대한 증명 만들기](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md)

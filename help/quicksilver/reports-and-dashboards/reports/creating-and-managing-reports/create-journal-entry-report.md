@@ -19,7 +19,7 @@ ht-degree: 4%
 >[!TIP]
 >
 >분개 기입 보고서에는 객체의 갱신 영역에 있는 시스템 갱신만 포함됩니다. 업데이트 영역에 남아 있는 댓글에 대해 보고하려면 메모 보고서를 사용해야 합니다.\
->Note 보고서에 대한 자세한 내용은 [메모 보고서의 모든 업데이트 보기](../../../workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md). ‍
+>메모 보고서에 대한 자세한 내용은 [메모 보고서의 모든 업데이트 보기](../../../workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)를 참조하십시오‍.
 
 분개 입력 보고서에는 다음이 표시됩니다.
 
@@ -58,7 +58,7 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -68,17 +68,17 @@ ht-degree: 4%
 
 * 보고할 모든 필드는 Workfront에서 추적됩니다. 추적되는 업데이트 영역의 데이터만 보고할 수 있습니다.
 
-  Workfront에서 추적할 필드를 추가하는 방법에 대해 알아보려면 다음을 참조하십시오. [시스템 업데이트 구성](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+  Workfront에서 추적할 필드를 추가하는 방법에 대한 자세한 내용은 [시스템 업데이트 구성](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)을 참조하십시오.
 
-* 보고할 모든 사용자 지정 필드에는 설정이 있습니다. **업데이트 피드의 필드 변경 사항 표시** 활성화되었습니다.
+* 보고하려는 모든 사용자 정의 필드에 **업데이트 피드의 필드 변경 사항 표시** 설정이 활성화되어 있습니다.
 
-  사용자 정의 필드에 대해 이 설정을 활성화하는 방법을 알아보려면 다음을 참조하십시오. [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#).
+  사용자 정의 필드에 대해 이 설정을 활성화하는 방법에 대해 알아보려면 [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#)을 참조하세요.
 
 ## 분개 기입 보고서 개요
 
 분개 기입 보고서는 시스템 업데이트를 쿼리하므로 상당한 수의 결과를 반환할 수 있습니다. 따라서 보고서를 생성할 때 프로젝트, 프로그램, 포트폴리오, 그룹 등과 같은 특정 개체를 필터링하는 것이 좋습니다.
 
-Workfront의 다양한 오브젝트 유형에 대해 자세히 알아보려면 다음을 참조하십시오. [Adobe Workfront의 오브젝트 이해](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Workfront의 다양한 개체 유형에 대해 자세히 알아보려면 [Adobe Workfront의 개체 이해](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)를 참조하십시오.
 
 >[!NOTE]
 >
@@ -98,7 +98,7 @@ Workfront의 다양한 오브젝트 유형에 대해 자세히 알아보려면 �
  <tbody> 
   <tr> 
    <td><strong>필드 이름</strong> </td> 
-   <td> <p><span style="font-weight: normal;">영향을 받는 필드의 이름. 보고서 설정 방법에 따라 이 열에는 상태, 소유자 ID, 작업 이름, 계획된 완료 일자 또는 기타 필드가 포함될 수 있습니다.</span> </p> <p><span style="font-weight: normal;">날짜</span> <strong>DE</strong>:<span style="font-weight: normal;"> 은 이 열에 표시되며, 나열된 필드가 사용자 정의 필드임을 나타냅니다.</span></p> </td> 
+   <td> <p><span style="font-weight: normal;">영향을 받는 필드의 이름입니다. 보고서 설정 방법에 따라 이 열에는 상태, 소유자 ID, 작업 이름, 계획된 완료 날짜 또는 기타 필드가 포함될 수 있습니다.</span> </p> <p><span style="font-weight: normal;">When</span> <strong>DE</strong>:<span style="font-weight: normal;">이(가) 이 열에 표시되면 나열된 필드가 사용자 지정 필드임을 나타냅니다.</span></p> </td> 
   </tr> 
   <tr> 
    <td><strong>유형 변경</strong> </td> 
@@ -121,11 +121,11 @@ Workfront의 다양한 오브젝트 유형에 대해 자세히 알아보려면 �
    <td> <p>변경된 객체의 유형입니다.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>입력 일자</strong> </td> 
+   <td><strong>시작 날짜</strong> </td> 
    <td> <p>필드가 변경된 날짜입니다.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>이름으로 편집됨</strong> </td> 
+   <td><strong>이름이 편집함</strong> </td> 
    <td> <p>필드를 변경한 사용자입니다.</p> </td> 
   </tr> 
  </tbody> 
@@ -142,10 +142,10 @@ Workfront의 다양한 오브젝트 유형에 대해 자세히 알아보려면 �
 </div>
 -->
 
-* [발생한 상태 변경 사항 확인](#see-what-status-changes-occurred)
-* [작업 또는 문제가 삭제된 시간 확인](#see-when-a-task-or-issue-was-deleted)
-* [프로젝트의 수명 주기 과정에서 사용자 정의 필드가 어떻게 변경되었는지 확인합니다](#see-how-custom-fields-changed-over-the-course-of-a-project-s-life-cycle)
-* [프로젝트의 수명 주기 과정에서 계획된 완료 일자가 어떻게 변경되었는지 확인합니다.](#see-how-the-planned-completion-date-changed-over-the-course-of-a-project-s-life-cycle)
+* [상태 변경 내용 보기](#see-what-status-changes-occurred)
+* [작업 또는 문제가 삭제된 경우 확인](#see-when-a-task-or-issue-was-deleted)
+* [프로젝트 수명 주기 동안 사용자 정의 필드가 어떻게 변경되었는지 확인](#see-how-custom-fields-changed-over-the-course-of-a-project-s-life-cycle)
+* [프로젝트 수명 주기 과정에서 계획된 완료 날짜가 어떻게 변경되었는지 확인](#see-how-the-planned-completion-date-changed-over-the-course-of-a-project-s-life-cycle)
 * [프로젝트 소유자가 변경되었는지 확인](#see-if-the-owner-of-a-project-changed)
 
 ## 발생한 상태 변경 사항 확인 {#see-what-status-changes-occurred}
@@ -158,7 +158,7 @@ Workfront의 다양한 오브젝트 유형에 대해 자세히 알아보려면 �
 * 상태를 변경한 사람
 * 상태 변경 발생 시기
 
-프로젝트의 상태를 보려면 프로젝트를 사용하여 동일한 정보를 표시하도록 보고서를 설정할 수도 있습니다 **조건** 필드.
+프로젝트의 상태를 보려면 프로젝트 **상태** 필드를 사용하여 동일한 정보를 표시하도록 보고서를 설정할 수도 있습니다.
 
 이 정보는 감사에 도움이 되고 사용자와 조직이 얼마나 계획을 잘 세우고 있는지를 나타내는 데 사용될 수 있습니다.
 
@@ -169,16 +169,16 @@ Workfront의 다양한 오브젝트 유형에 대해 자세히 알아보려면 �
 >[!TIP]
 >
 >조건 변경 사항 간의 일 차이를 비교하려면 고급 분석을 사용할 수 있습니다.\
->향상된 분석에 대한 자세한 내용은 다음을 참조하십시오. [향상된 분석 개요](../../../enhanced-analytics/enhanced-analytics-overview.md).
+>향상된 분석에 대한 자세한 내용은 [향상된 분석 개요](../../../enhanced-analytics/enhanced-analytics-overview.md)를 참조하세요.
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리에서 을(를) 클릭하고 **보고서**.
-1. 클릭 **새 보고서**&#x200B;을 선택한 다음 을 선택합니다. **저널 게시물**.
+1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **보고서**&#x200B;를 클릭합니다.
+1. **새 보고서**&#x200B;를 클릭한 다음 **저널 게시물**&#x200B;을 선택합니다.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
 
    Report Builder가 로드됩니다.
 
-1. 다음에서 **열(보기)** 탭에서 다음 열을 추가합니다.
+1. **열(보기)** 탭에서 다음 열을 추가합니다.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -192,11 +192,11 @@ Workfront의 다양한 오브젝트 유형에 대해 자세히 알아보려면 �
     <tbody> 
      <tr> 
       <td> <p style="font-weight: bold;">필드 이름</p> </td> 
-      <td> <p>영향을 받는 필드의 이름. 이 경우, <strong>상태</strong> 이 열에 이 표시됩니다.</p> </td> 
+      <td> <p>영향을 받는 필드의 이름. 이 경우 <strong>status</strong>이(가) 이 열에 표시됩니다.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">유형 변경</p> </td> 
-      <td> <p>영향을 받는 필드의 변경 유형(예: ) <strong>추가</strong>, <strong>삭제</strong>, 또는 <strong>편집</strong>.</p> </td> 
+      <td> <p>영향을 받는 필드의 변경 유형(예: <strong>추가</strong>, <strong>삭제</strong> 또는 <strong>편집</strong>).</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">이름으로 편집됨</p> </td> 
@@ -212,13 +212,13 @@ Workfront의 다양한 오브젝트 유형에 대해 자세히 알아보려면 �
        <ul> 
         <li> <p> <strong>현재</strong>: 현재</p> </li> 
         <li> <p><strong>DED</strong>: 중단</p> </li> 
-        <li> <p><strong>한 번</strong>: 보류 중</p> </li> 
-        <li> <p><strong>계획됨</strong>: 계획</p> </li> 
+        <li> <p><strong>ONH</strong>: 보류 중</p> </li> 
+        <li> <p><strong>계획</strong>: 계획 중</p> </li> 
         <li> <p><strong>CPL</strong>: 완료</p> </li> 
-        <li> <p><strong>REQ</strong>: 요청됨</p> </li> 
+        <li> <p><strong>요청</strong>: 요청됨</p> </li> 
         <li> <p><strong>4월</strong>: 승인됨</p> </li> 
-        <li> <p><strong>레즈</strong>: 거부됨</p> </li> 
-        <li> <p><strong>이다</strong>: 아이디어</p> </li> 
+        <li> <p><strong>REJ</strong>: 거부됨</p> </li> 
+        <li> <p><strong>아이디어</strong>:</p> </li> 
        </ul> <p>조직에서 사용자 정의 상태를 설정한 경우 다른 상태 키가 이 열에 표시될 수 있습니다. 상태 키와 관련된 사용자 지정 상태에 대해 알아보려면 Workfront 관리자 또는 그룹 관리자에게 문의하십시오.</p> </td> 
      </tr> 
      <tr> 
@@ -244,17 +244,17 @@ Workfront의 다양한 오브젝트 유형에 대해 자세히 알아보려면 �
     </tbody> 
    </table>
 
-   열 추가에 대한 자세한 내용은 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   열 추가에 대한 자세한 내용은 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)를 참조하십시오.
 
-1. 다음에서 **필터** 탭을 클릭하고 **필터 규칙 추가**&#x200B;를 클릭한 다음 필터 규칙을 추가합니다 **필드 이름** > **같음** > **상태**.
+1. **필터** 탭에서 **필터 규칙 추가**&#x200B;를 클릭한 다음 **필드 이름** > **같음** > **상태**&#x200B;를 추가합니다.
 
    ![](assets/nwe-journal-entry-status-filter-rules-350x90.png)
 
    >[!TIP]
    >
-   >조건 변경 사항을 보고하려면 필터 규칙을 대신 추가할 수 있습니다 **필드 이름** > **같음** > **조건**.
+   >조건 변경 사항을 보고하려면 대신 필터 규칙 **필드 이름** > **같음** > **조건**&#x200B;을 추가할 수 있습니다.
 
-   필터 추가에 대한 자세한 내용은 [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   필터 추가에 대한 자세한 내용은 [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)를 참조하세요.
 
 1. (선택 사항) 보고서 포커스를 좁히고 로드 시간을 줄이려면 프롬프트를 추가합니다.
 
@@ -264,13 +264,13 @@ Workfront의 다양한 오브젝트 유형에 대해 자세히 알아보려면 �
 
    >[!IMPORTANT]
    >
-   >수정자를 사용하는 필터 규칙 생성 **다음 포함** 은 실제로 로드 시간을 늘릴 수 있습니다. 이러한 이유로 다음과 같은 다른 수정자를 사용하는 것이 좋습니다 **같음** 특정 프로젝트 또는 상위 수준 개체 ID에 대해 필터링할 수 있는 경우.
+   >**포함** 한정자를 사용하는 필터 규칙을 만들면 실제로 로드 시간이 늘어날 수 있습니다. 따라서 가능하면 **Equal**&#x200B;과 같은 다른 한정자를 사용하여 특정 프로젝트 또는 더 높은 수준의 개체 ID를 필터링하는 것이 좋습니다.
 
-   프롬프트를 추가하는 방법은 다음을 참조하십시오. [보고서에 프롬프트 추가](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+   프롬프트를 추가하는 방법은 [보고서에 프롬프트 추가](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)를 참조하십시오.
 
-1. 다음에서 **그룹화** 탭을 클릭하고 **기존 그룹화 적용**&#x200B;을 선택한 다음 을 선택합니다. **프로젝트**.
+1. **그룹화** 탭에서 **기존 그룹화 적용**&#x200B;을 클릭한 다음 **프로젝트**&#x200B;을 선택합니다.
 
-   그룹화 추가에 대한 자세한 내용은 [Adobe Workfront의 그룹화 개요](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   그룹화 추가에 대한 자세한 내용은 Adobe Workfront의 [그룹화 개요](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)를 참조하십시오.
 
 1. **저장 및 닫기**&#x200B;를 클릭합니다.
 
@@ -285,14 +285,14 @@ Workfront의 다양한 오브젝트 유형에 대해 자세히 알아보려면 �
 
 작업 또는 문제가 삭제된 시간을 보려면 다음 작업을 수행하십시오.
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리에서 을(를) 클릭하고 **보고서**.
-1. 클릭 **새 보고서**&#x200B;을 선택한 다음 을 선택합니다. **저널 게시물**.
+1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **보고서**&#x200B;를 클릭합니다.
+1. **새 보고서**&#x200B;를 클릭한 다음 **저널 게시물**&#x200B;을 선택합니다.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
 
    Report Builder가 로드됩니다.
 
-1. 다음에서 **열(보기)** 탭에서 다음 열을 추가합니다.
+1. **열(보기)** 탭에서 다음 열을 추가합니다.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -310,7 +310,7 @@ Workfront의 다양한 오브젝트 유형에 대해 자세히 알아보려면 �
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">유형 변경</p> </td> 
-      <td> <p>발생한 변경 유형. 다음 <strong>삭제</strong> 변경 사항이 이 열에 표시됩니다.</p> </td> 
+      <td> <p>발생한 변경 유형. <strong>Delete</strong> 변경 내용이 이 열에 표시됩니다.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">입력 일자</p> </td> 
@@ -327,9 +327,9 @@ Workfront의 다양한 오브젝트 유형에 대해 자세히 알아보려면 �
     </tbody> 
    </table>
 
-   열 추가에 대한 자세한 내용은 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   열 추가에 대한 자세한 내용은 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)를 참조하십시오.
 
-1. 다음에서 **필터** 탭을 클릭하고 **필터 규칙 추가**&#x200B;을(를) 클릭한 후 다음 필터를 추가합니다.
+1. **필터** 탭에서 **필터 규칙 추가**&#x200B;를 클릭한 후 다음 필터를 추가합니다.
 
    * **유형 변경** > **같음** > **삭제**
    * **프로젝트 ID** > **같음** > **`<project>`**
@@ -337,7 +337,7 @@ Workfront의 다양한 오브젝트 유형에 대해 자세히 알아보려면 �
      <!--WRITER check link; this png file has spaces
      [![](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)-->
 
-   필터 추가에 대한 자세한 내용은 [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   필터 추가에 대한 자세한 내용은 [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)를 참조하세요.
 
 1. (선택 사항) 보고서 포커스를 좁히고 로드 시간을 줄이려면 프롬프트를 추가합니다.
 
@@ -347,13 +347,13 @@ Workfront의 다양한 오브젝트 유형에 대해 자세히 알아보려면 �
 
    >[!IMPORTANT]
    >
-   >수정자를 사용하는 필터 규칙 생성 **다음 포함** 은 실제로 로드 시간을 늘릴 수 있습니다. 이러한 이유로 다음과 같은 다른 수정자를 사용하는 것이 좋습니다 **같음** 특정 프로젝트 또는 상위 수준 개체 ID에 대해 필터링할 수 있는 경우.
+   >**포함** 한정자를 사용하는 필터 규칙을 만들면 실제로 로드 시간이 늘어날 수 있습니다. 따라서 가능하면 **Equal**&#x200B;과 같은 다른 한정자를 사용하여 특정 프로젝트 또는 더 높은 수준의 개체 ID를 필터링하는 것이 좋습니다.
 
-   프롬프트를 추가하는 방법은 다음을 참조하십시오. [보고서에 프롬프트 추가](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+   프롬프트를 추가하는 방법은 [보고서에 프롬프트 추가](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)를 참조하십시오.
 
-1. (선택 사항) **그룹화** 탭을 클릭하고 **기존 그룹화 적용**&#x200B;을 선택한 다음 을 선택합니다. **프로젝트**.
+1. (선택 사항) **그룹화** 탭에서 **기존 그룹화 적용**&#x200B;을 클릭한 다음 **프로젝트**&#x200B;을 선택합니다.
 
-   그룹화 추가에 대한 자세한 내용은 [Adobe Workfront의 그룹화 개요](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   그룹화 추가에 대한 자세한 내용은 Adobe Workfront의 [그룹화 개요](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)를 참조하십시오.
 
 1. **저장 및 닫기**&#x200B;를 클릭합니다.
 
@@ -369,14 +369,14 @@ Workfront의 다양한 오브젝트 유형에 대해 자세히 알아보려면 �
 
 프로젝트의 라이프 사이클 과정에서 사용자 정의 필드가 어떻게 변경되었는지 확인하려면 다음을 수행하십시오.
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리에서 을(를) 클릭하고 **보고서**.
-1. 클릭 **새 보고서**&#x200B;을 선택한 다음 을 선택합니다. **저널 게시물**.
+1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **보고서**&#x200B;를 클릭합니다.
+1. **새 보고서**&#x200B;를 클릭한 다음 **저널 게시물**&#x200B;을 선택합니다.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
 
    Report Builder가 로드됩니다.
 
-1. 다음에서 **열(보기)** 탭에서 다음 열을 추가합니다.
+1. **열(보기)** 탭에서 다음 열을 추가합니다.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -390,11 +390,11 @@ Workfront의 다양한 오브젝트 유형에 대해 자세히 알아보려면 �
     <tbody> 
      <tr> 
       <td> <p style="font-weight: bold;">필드 이름</p> </td> 
-      <td> <p>영향을 받는 사용자 지정 필드의 이름입니다.</p> <p><span style="font-weight: normal;">날짜</span> <strong>DE</strong>:<span style="font-weight: normal;"> 은 이 열에 표시되며, 나열된 필드가 사용자 정의 필드임을 나타냅니다.</span></p> </td> 
+      <td> <p>영향을 받는 사용자 지정 필드의 이름입니다.</p> <p><span style="font-weight: normal;">When</span> <strong>DE</strong>:<span style="font-weight: normal;">이(가) 이 열에 표시되면 나열된 필드가 사용자 지정 필드임을 나타냅니다.</span></p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">유형 변경</p> </td> 
-      <td> <p>영향을 받는 필드의 변경 유형(예: ) <strong>추가</strong>, <strong>삭제</strong>, 또는 <strong>편집</strong>.</p> </td> 
+      <td> <p>영향을 받는 필드의 변경 유형(예: <strong>추가</strong>, <strong>삭제</strong> 또는 <strong>편집</strong>).</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">이름으로 편집됨</p> </td> 
@@ -426,26 +426,26 @@ Workfront의 다양한 오브젝트 유형에 대해 자세히 알아보려면 �
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">새 텍스트 값</p> </td> 
-      <td> <p>사용자 정의 필드의 현재 텍스트 값입니다.</p> <p>사용자 정의 필드가 자동 완성 필드인 경우 <strong>새 텍스트 값</strong> 열에는 개체 ID가 표시됩니다.</p> </td> 
+      <td> <p>사용자 정의 필드의 현재 텍스트 값입니다.</p> <p>사용자 지정 필드가 자동 완성 필드인 경우 <strong>새 텍스트 값</strong> 열에 개체 ID가 표시됩니다.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-   열 추가에 대한 자세한 내용은 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   열 추가에 대한 자세한 내용은 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)를 참조하십시오.
 
-1. 다음에서 **필터** 탭을 클릭하고 **필터 규칙 추가**&#x200B;을(를) 클릭한 후 다음 필터를 추가합니다.
+1. **필터** 탭에서 **필터 규칙 추가**&#x200B;를 클릭한 후 다음 필터를 추가합니다.
 
-   * **저널 게시물 필드 이름** > **다음 포함** > **DE**
+   * **저널 게시물 필드 이름** > **포함** > **DE**
 
      >[!TIP]
      >
-     >이 보고서를 특정 사용자 정의 필드로 제한하려면 필터 규칙을 추가합니다 **저널 게시물 필드 이름** > **같음** > **`<custom field>`**.
+     >이 보고서를 특정 사용자 지정 필드로 제한하려면 필터 규칙 **저널 게시물 필드 이름** > **같음** > **`<custom field>`**&#x200B;을(를) 추가하십시오.
 
    * **프로젝트 ID** > **같음** > **`<project>`**
 
      ![](assets/qs-custom-form-changes-filter-350x92.png)
 
-   필터 추가에 대한 자세한 내용은 [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   필터 추가에 대한 자세한 내용은 [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)를 참조하세요.
 
 1. (선택 사항) 보고서 포커스를 좁히고 로드 시간을 줄이려면 프롬프트를 추가합니다.
 
@@ -455,13 +455,13 @@ Workfront의 다양한 오브젝트 유형에 대해 자세히 알아보려면 �
 
    >[!IMPORTANT]
    >
-   >수정자를 사용하는 필터 규칙 생성 **다음 포함** 은 실제로 로드 시간을 늘릴 수 있습니다. 이러한 이유로 다음과 같은 다른 수정자를 사용하는 것이 좋습니다 **같음** 특정 프로젝트 또는 상위 수준 개체 ID에 대해 필터링할 수 있는 경우.
+   >**포함** 한정자를 사용하는 필터 규칙을 만들면 실제로 로드 시간이 늘어날 수 있습니다. 따라서 가능하면 **Equal**&#x200B;과 같은 다른 한정자를 사용하여 특정 프로젝트 또는 더 높은 수준의 개체 ID를 필터링하는 것이 좋습니다.
 
-   프롬프트를 추가하는 방법은 다음을 참조하십시오. [보고서에 프롬프트 추가](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+   프롬프트를 추가하는 방법은 [보고서에 프롬프트 추가](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)를 참조하십시오.
 
-1. 다음에서 **그룹화** 탭을 클릭하고 **기존 그룹화 적용**&#x200B;을 선택한 다음 을 선택합니다. **프로젝트**.
+1. **그룹화** 탭에서 **기존 그룹화 적용**&#x200B;을 클릭한 다음 **프로젝트**&#x200B;을 선택합니다.
 
-   그룹화 추가에 대한 자세한 내용은 [Adobe Workfront의 그룹화 개요](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   그룹화 추가에 대한 자세한 내용은 Adobe Workfront의 [그룹화 개요](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)를 참조하십시오.
 
 1. **저장 및 닫기**&#x200B;를 클릭합니다.
 
@@ -471,14 +471,14 @@ Workfront의 다양한 오브젝트 유형에 대해 자세히 알아보려면 �
 
 분개 입력 보고서를 설정하여 프로젝트 수명 경과에 따라 계획된 완료 일자가 변경되는 빈도를 표시할 수 있습니다.
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리에서 을(를) 클릭하고 **보고서**.
-1. 클릭 **새 보고서**&#x200B;을 선택한 다음 을 선택합니다. **저널 게시물**.
+1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **보고서**&#x200B;를 클릭합니다.
+1. **새 보고서**&#x200B;를 클릭한 다음 **저널 게시물**&#x200B;을 선택합니다.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
 
    Report Builder가 로드됩니다.
 
-1. 다음에서 **열(보기)** 탭에서 다음 열을 추가합니다.
+1. **열(보기)** 탭에서 다음 열을 추가합니다.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -492,11 +492,11 @@ Workfront의 다양한 오브젝트 유형에 대해 자세히 알아보려면 �
     <tbody> 
      <tr> 
       <td> <p style="font-weight: bold;">필드 이름</p> </td> 
-      <td> <p>영향을 받는 필드의 이름.</p> <p><span style="font-weight: normal;">날짜</span> <strong>DE</strong>:<span style="font-weight: normal;"> 은 이 열에 표시되며, 나열된 필드가 사용자 정의 필드임을 나타냅니다.</span></p> </td> 
+      <td> <p>영향을 받는 필드의 이름.</p> <p><span style="font-weight: normal;">When</span> <strong>DE</strong>:<span style="font-weight: normal;">이(가) 이 열에 표시되면 나열된 필드가 사용자 지정 필드임을 나타냅니다.</span></p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">유형 변경</p> </td> 
-      <td>발생한 변경 유형: <strong>추가</strong>, <strong>삭제</strong>, 또는 <strong>편집</strong>.</td> 
+      <td>발생한 변경 유형(예: <strong>추가</strong>, <strong>삭제</strong> 또는 <strong>편집</strong>).</td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">이름으로 편집됨</p> </td> 
@@ -537,16 +537,16 @@ Workfront의 다양한 오브젝트 유형에 대해 자세히 알아보려면 �
     </tbody> 
    </table>
 
-   열 추가에 대한 자세한 내용은 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   열 추가에 대한 자세한 내용은 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)를 참조하십시오.
 
-1. 다음에서 **필터** 탭을 클릭하고 **필터 규칙 추가**&#x200B;을(를) 클릭한 후 다음을 추가합니다.
+1. **필터** 탭에서 **필터 규칙 추가**&#x200B;를 클릭한 후 다음을 추가하십시오.
 
    * **필드 이름** > **같음** > **날짜**
    * **프로젝트 ID** > **같음** > **`<project>`**
 
    ![](assets/qs-planned-completion-date-change-filter-350x91.png)
 
-   필터 추가에 대한 자세한 내용은 [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   필터 추가에 대한 자세한 내용은 [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)를 참조하세요.
 
 1. (선택 사항) 보고서 포커스를 좁히고 로드 시간을 줄이려면 프롬프트를 추가합니다.
 
@@ -556,13 +556,13 @@ Workfront의 다양한 오브젝트 유형에 대해 자세히 알아보려면 �
 
    >[!IMPORTANT]
    >
-   >수정자를 사용하는 필터 규칙 생성 **다음 포함** 은 실제로 로드 시간을 늘릴 수 있습니다. 이러한 이유로 다음과 같은 다른 수정자를 사용하는 것이 좋습니다 **같음** 특정 프로젝트 또는 상위 수준 개체 ID에 대해 필터링할 수 있는 경우.
+   >**포함** 한정자를 사용하는 필터 규칙을 만들면 실제로 로드 시간이 늘어날 수 있습니다. 따라서 가능하면 **Equal**&#x200B;과 같은 다른 한정자를 사용하여 특정 프로젝트 또는 더 높은 수준의 개체 ID를 필터링하는 것이 좋습니다.
 
-   프롬프트를 추가하는 방법은 다음을 참조하십시오. [보고서에 프롬프트 추가](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+   프롬프트를 추가하는 방법은 [보고서에 프롬프트 추가](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)를 참조하십시오.
 
-1. 다음에서 **그룹화** 탭을 클릭하고 **기존 그룹화 적용**&#x200B;을 선택한 다음 을 선택합니다. **프로젝트**.
+1. **그룹화** 탭에서 **기존 그룹화 적용**&#x200B;을 클릭한 다음 **프로젝트**&#x200B;을 선택합니다.
 
-   그룹화 추가에 대한 자세한 내용은 [Adobe Workfront의 그룹화 개요](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   그룹화 추가에 대한 자세한 내용은 Adobe Workfront의 [그룹화 개요](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)를 참조하십시오.
 
 1. **저장 및 닫기**&#x200B;를 클릭합니다.
 
@@ -572,14 +572,14 @@ Workfront의 다양한 오브젝트 유형에 대해 자세히 알아보려면 �
 
 분개 기입 보고서를 설정하여 프로젝트 수명 경과에 따라 프로젝트 소유자(또는 프로젝트 관리자)가 변경되는 횟수를 표시할 수 있습니다.
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리에서 을(를) 클릭하고 **보고서**.
-1. 클릭 **새 보고서**&#x200B;을 선택한 다음 을 선택합니다. **저널 게시물**.
+1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **보고서**&#x200B;를 클릭합니다.
+1. **새 보고서**&#x200B;를 클릭한 다음 **저널 게시물**&#x200B;을 선택합니다.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
 
    Report Builder가 로드됩니다.
 
-1. 다음에서 **열(보기)** 탭에서 다음 열을 추가합니다.
+1. **열(보기)** 탭에서 다음 열을 추가합니다.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -593,11 +593,11 @@ Workfront의 다양한 오브젝트 유형에 대해 자세히 알아보려면 �
     <tbody> 
      <tr> 
       <td> <p style="font-weight: bold;">필드 이름</p> </td> 
-      <td>영향을 받는 필드의 이름. 다음 <strong>소유자 ID</strong> 이 열에 표시됩니다.</td> 
+      <td>영향을 받는 필드의 이름. <strong>ownerID</strong>이(가) 이 열에 표시됩니다.</td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">유형 변경</p> </td> 
-      <td> <p>발생한 변경 유형: <strong>추가</strong>, <strong>삭제</strong>, 또는 <strong>편집</strong>.</p> </td> 
+      <td> <p>발생한 변경 유형(예: <strong>추가</strong>, <strong>삭제</strong> 또는 <strong>편집</strong>).</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">상위 ObjCode</p> </td> 
@@ -605,7 +605,7 @@ Workfront의 다양한 오브젝트 유형에 대해 자세히 알아보려면 �
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">입력 일자</p> </td> 
-      <td>프로젝트 소유자가 변경된 날짜입니다.<br>이 필드별로 내림차순으로 정렬해야 합니다.</td> 
+      <td>프로젝트 소유자가 변경된 날짜입니다.<br>내림차순으로 이 필드를 정렬해야 합니다.</td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">이름으로 편집됨</p> </td> 
@@ -626,16 +626,16 @@ Workfront의 다양한 오브젝트 유형에 대해 자세히 알아보려면 �
     </tbody> 
    </table>
 
-   열 추가에 대한 자세한 내용은 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   열 추가에 대한 자세한 내용은 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)를 참조하십시오.
 
-1. 다음에서 **필터** 탭을 클릭하고 **필터 규칙 추가**&#x200B;을(를) 클릭한 후 다음을 추가합니다.
+1. **필터** 탭에서 **필터 규칙 추가**&#x200B;를 클릭한 후 다음을 추가하십시오.
 
    * **필드 이름** > **같음** > **소유자 ID**
    * **프로젝트 ID** > **같음** > **`<project name>`**
 
      ![](assets/qs-owner-changes-filter-350x94.png)
 
-   필터 추가에 대한 자세한 내용은 [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   필터 추가에 대한 자세한 내용은 [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)를 참조하세요.
 
 1. (선택 사항) 보고서 포커스를 좁히고 로드 시간을 줄이려면 프롬프트를 추가합니다.
 
@@ -645,13 +645,13 @@ Workfront의 다양한 오브젝트 유형에 대해 자세히 알아보려면 �
 
    >[!IMPORTANT]
    >
-   >수정자를 사용하는 필터 규칙 생성 **다음 포함** 은 실제로 로드 시간을 늘릴 수 있습니다. 이러한 이유로 다음과 같은 다른 수정자를 사용하는 것이 좋습니다 **같음** 특정 프로젝트 또는 상위 수준 개체 ID에 대해 필터링할 수 있는 경우.
+   >**포함** 한정자를 사용하는 필터 규칙을 만들면 실제로 로드 시간이 늘어날 수 있습니다. 따라서 가능하면 **Equal**&#x200B;과 같은 다른 한정자를 사용하여 특정 프로젝트 또는 더 높은 수준의 개체 ID를 필터링하는 것이 좋습니다.
 
-   프롬프트를 추가하는 방법은 다음을 참조하십시오. [보고서에 프롬프트 추가](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+   프롬프트를 추가하는 방법은 [보고서에 프롬프트 추가](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)를 참조하십시오.
 
-1. (선택 사항) **그룹화** 탭을 클릭하고 **기존 그룹화 적용**&#x200B;을 선택한 다음 을 선택합니다. **프로젝트**.
+1. (선택 사항) **그룹화** 탭에서 **기존 그룹화 적용**&#x200B;을 클릭한 다음 **프로젝트**&#x200B;을 선택합니다.
 
-   그룹화 추가에 대한 자세한 내용은 [Adobe Workfront의 그룹화 개요](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   그룹화 추가에 대한 자세한 내용은 Adobe Workfront의 [그룹화 개요](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)를 참조하십시오.
 
 1. **저장 및 닫기**&#x200B;를 클릭합니다.
 

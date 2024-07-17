@@ -21,9 +21,9 @@ ht-degree: 0%
 
 이 페이지에서는 2021년 4월 19일이 있는 주에 Adobe Workfront Fusion에서 향상된 기능을 모두 설명합니다.
 
-최근 변경 사항의 목록은 다음을 참조하십시오. [Adobe Workfront Fusion 릴리스 활동](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+최근 모든 변경 사항의 목록은 [Adobe Workfront Fusion 릴리스 활동](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)을 참조하십시오.
 
-Workfront Fusion의 최근 버그 수정 목록은 다음을 참조하십시오. [Workfront 유지 보수 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) Workfront Fusion Maintenance Update로 레이블이 지정된 업데이트를 찾아 확인합니다.
+Workfront Fusion의 최근 버그 수정 목록을 보려면 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 페이지를 참조하고 Workfront Fusion 유지 관리 업데이트 레이블이 지정된 업데이트를 확인하십시오.
 
 ## Workfront Fusion Slack 커넥터 업데이트
 
@@ -40,4 +40,4 @@ Workfront Fusion의 Slack 커넥터에 더 많은 모듈을 추가했습니다. 
 
 기존 모듈은 계속 사용할 수 있습니다.
 
-자세한 내용은 [Slack 모듈](../../../workfront-fusion/apps-and-their-modules/slack-modules.md).
+자세한 내용은 [Slack 모듈](../../../workfront-fusion/apps-and-their-modules/slack-modules.md)을 참조하세요.

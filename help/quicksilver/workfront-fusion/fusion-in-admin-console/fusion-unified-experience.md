@@ -16,11 +16,11 @@ ht-degree: 0%
 
 # [!DNL Workfront Fusion]에 대한 [!DNL Adobe Unified Experience]
 
-액세스 [!DNL Workfront Fusion] 에서 [!DNL Adobe Experience Cloud] 는 모든 환경을 완벽하게 관리할 수 있는 통합 환경을 제공합니다. [!DNL Adobe] 응용 프로그램. 단일 ID 관리를 사용하면 여러 URL이나 로그인 ID 없이 한 곳에서 로그인할 수 있습니다.
+[!DNL Adobe Experience Cloud]을(를) 통해 [!DNL Workfront Fusion]에 액세스하면 모든 [!DNL Adobe] 응용 프로그램을 관리할 수 있는 원활하고 통합된 환경을 얻을 수 있습니다. 단일 ID 관리를 사용하면 여러 URL이나 로그인 ID 없이 한 곳에서 로그인할 수 있습니다.
 
-의 탐색을 설명하는 비디오용 [!DNL Fusion] 다음에서 [!DNL Adobe Experience Cloud]를 참조하십시오.
+[!DNL Adobe Experience Cloud]의 [!DNL Fusion]에서 탐색을 설명하는 비디오가 필요하면 다음을 참조하십시오.
 
-[[!DNL Fusion] 다음에 있음 [!DNL Unified Shell]](https://video.tv.adobe.com/v/3412392/){target=_blank}
+ [!DNL Unified Shell]](https://video.tv.adobe.com/v/3412392/){target=_blank}의 [[!DNL Fusion] 
 
 ## 액세스 요구 사항
 
@@ -46,45 +46,45 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">제품</td> 
    <td>
-   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime]이 있는 경우 [!DNL Adobe Workfront] 플랜, 조직은 다음을 구매해야 합니다. [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오. [!DNL Workfront Fusion] [!UICONTROL Ultimate]에 포함되어 있습니다. [!DNL Workfront] 계획.</p>
+   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime] [!DNL Adobe Workfront] 플랜이 있는 경우 조직에서 이 문서에 설명된 기능을 사용하려면 [!DNL Adobe Workfront Fusion]과(와) [!DNL Adobe Workfront]을(를) 구매해야 합니다. [!DNL Workfront Fusion]이(가) [!UICONTROL Ultimate] [!DNL Workfront] 계획에 포함되어 있습니다.</p>
    <p>또는</p>
-   <p>레거시 제품 요구 사항: 조직에서 구매해야 함 [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오.</p>
+   <p>레거시 제품 요구 사항: 이 문서에 설명된 기능을 사용하려면 조직에서 [!DNL Adobe Workfront Fusion]과(와) [!DNL Adobe Workfront]을(를) 구매해야 합니다.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
-*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront Fusion] 관리자.
+*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront Fusion] 관리자에게 문의하십시오.
 
 ## 전제 조건
 
-조직의 Workfront Fusion 인스턴스는 [!DNL Adobe Business Platform] / [!DNL Adobe Admin Console].
+조직의 Workfront Fusion 인스턴스는 [!DNL Adobe Business Platform]/[!DNL Adobe Admin Console]에 온보딩되어야 합니다.
 
-## 에 로그인 [!DNL Adobe Experience Cloud]
+## [!DNL Adobe Experience Cloud]에 로그인
 
-1. 브라우저 창을 열고 다음으로 이동 <https://experience.adobe.com>.
-1. 로그인 화면에서 이메일 주소를 입력하고 을(를) 클릭합니다 **[!UICONTROL 계속]**.
+1. 브라우저 창을 열고 <https://experience.adobe.com>(으)로 이동합니다.
+1. 로그인 화면에서 전자 메일 주소를 입력하고 **[!UICONTROL 계속]**&#x200B;을 클릭합니다.
 
-   ![로그인 대상 [!DNL Adobe Experience Cloud]](assets/aec-login-page.png)
+   [!DNL Adobe Experience Cloud]](assets/aec-login-page.png)에 ![로그인
 
-## 액세스 [!DNL Workfront Fusion]
+## [!DNL Workfront Fusion] 액세스
 
-에 로그인하면 [!DNL Adobe Experience Cloud], 다음을 모두 볼 수 있습니다. [!DNL Workfront Fusion] 상단 탐색 영역에서 조직 전환기 를 클릭하여 액세스할 수 있는 조직 및 환경 입니다. 다음 항목 선택 [!DNL Workfront Fusion] 작업할 조직 또는 환경입니다.
+[!DNL Adobe Experience Cloud]에 로그인하면 상단 탐색 영역에서 조직 전환기를 클릭하여 액세스할 수 있는 [!DNL Workfront Fusion] 조직 및 환경을 모두 볼 수 있습니다. 작업할 [!DNL Workfront Fusion] 조직 또는 환경을 선택하십시오.
 
-![보기 [!DNL Workfront Fusion] 조직 및 환경](assets/aec-view-all-orgs.png)
+![조직 및 환경 [!DNL Workfront Fusion]개 보기](assets/aec-view-all-orgs.png)
 
 >[!NOTE]
 >
->에 처음 로그인할 때 [!DNL Adobe Experience Cloud]조직의 기본값은 알파벳 목록의 첫 번째 값으로 설정됩니다. 다음에 로그인할 때 조직은 기본적으로 사용자가 마지막으로 방문한 조직으로 설정됩니다.
+>[!DNL Adobe Experience Cloud]에 처음 로그인하면 조직의 기본값이 알파벳 목록의 첫 번째로 설정됩니다. 다음에 로그인할 때 조직은 기본적으로 사용자가 마지막으로 방문한 조직으로 설정됩니다.
 
-[!DNL Workfront Fusion] 다음 목록에 표시: [!DNL Adobe Experience Cloud] 액세스 권한이 있는 제품입니다. 다음을 선택할 수 있습니다. [!DNL Workfront Fusion] 의 빠른 액세스 메뉴에서 [!DNL Experience Cloud] 홈 페이지 또는 제품 전환기 사용 ![제품 전환기](assets/main-menu-icon.png) 언제든지 애플리케이션을 변경할 수 있습니다.
+액세스 권한이 있는 [!DNL Adobe Experience Cloud] 제품 목록에 [!DNL Workfront Fusion]이(가) 나타납니다. [!DNL Experience Cloud] 홈 페이지의 빠른 액세스 메뉴에서 [!DNL Workfront Fusion]을(를) 선택하거나 제품 전환기 ![제품 전환기](assets/main-menu-icon.png)를 사용하여 언제든지 응용 프로그램을 변경할 수 있습니다.
 
-![선택 [!DNL Workfront Fusion] 애플리케이션에 액세스](assets/aec-product-switcher.png)
+![응용 프로그램에 액세스하려면 [!DNL Workfront Fusion]을(를) 선택하십시오](assets/aec-product-switcher.png)
 
-## 탐색 [!DNL Workfront Fusion]
+## [!DNL Workfront Fusion] 탐색
 
-사용 [!UICONTROL 메인 메뉴] 아이콘 ![](assets/main-menu-icon-left-nav.png) 의 왼쪽에 [!DNL Adobe] 탐색 모음을 사용하여 [!UICONTROL 조직] 및 [!UICONTROL 팀] 메뉴 아래의 제품에서 사용할 수 있습니다. 다음과 같은 경우 [!DNL Workfront Fusion] 관리자, [!UICONTROL 관리] 메뉴도 여기에 표시됩니다.
+[!DNL Adobe] 탐색 모음 왼쪽의 [!UICONTROL 기본 메뉴] 아이콘 ![](assets/main-menu-icon-left-nav.png)을(를) 사용하여 [!UICONTROL 조직] 및 [!UICONTROL 팀] 메뉴를 엽니다. [!DNL Workfront Fusion] 관리자인 경우 [!UICONTROL 관리] 메뉴도 여기에 표시됩니다.
 
-팀을 전환하려면 페이지 상단의 팀 이름을 클릭한 다음 팀을 선택합니다. 팀 선택기는 시나리오 빌더나 [!UICONTROL 연결] 페이지를 가리키도록 업데이트하는 중입니다.
+팀을 전환하려면 페이지 상단의 팀 이름을 클릭한 다음 팀을 선택합니다. 팀 선택기는 시나리오 빌더 또는 [!UICONTROL 연결] 페이지와 같이 팀과 관련된 페이지에만 나타납니다.
 
 조직을 전환하려면 화면 오른쪽 상단의 조직 이름을 클릭한 다음 조직을 선택합니다.
 
@@ -96,22 +96,22 @@ ht-degree: 0%
 
 이 메뉴를 사용하여 다음을 수행할 수 있습니다.
 
-* 선택 **[!UICONTROL 어두운 테마]** 서식 [!DNL Adobe Experience Cloud].
-* 설정 **[!UICONTROL 환경 설정]** 대상 [!DNL Adobe Experience Cloud], 기본 및 보조 언어 환경 설정 포함.
-* 액세스 권한 **[!UICONTROL [!DNL Workfront Fusion]프로필]**. 프로필에 있는 경우 **[!UICONTROL 자세히]** 메뉴 ![](assets/more-icon.png) 및 선택 **[!UICONTROL 편집]**. 프로필에 대한 자세한 내용은 [내 설정 구성](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
-* **[!UICONTROL 로그아웃]** Adobe Experience Cloud.
+* [!DNL Adobe Experience Cloud]에 대해 **[!UICONTROL 어두운 테마]** 서식을 선택하세요.
+* 기본 및 보조 언어 기본 설정을 포함하여 [!DNL Adobe Experience Cloud]에 대해 **[!UICONTROL 기본 설정]**&#x200B;을 설정합니다.
+* **[!UICONTROL [!DNL Workfront Fusion]프로필에 액세스]**. 프로필에 등록된 후에는 **[!UICONTROL 자세히]** 메뉴 ![](assets/more-icon.png)을(를) 클릭하고 **[!UICONTROL 편집]**&#x200B;을(를) 선택합니다. 프로필에 대한 자세한 내용은 [내 설정 구성](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)을 참조하십시오.
+* Adobe Experience Cloud **[!UICONTROL 로그아웃]**
 
 
 ## 알림 액세스
 
 통합 쉘의 알림 영역에서 알림 및 공지를 찾을 수 있습니다.
 
-알림을 보려면 알림 아이콘을 클릭합니다 ![알림 아이콘](assets/notifications-icon.png) 화면 오른쪽 상단 모서리 근처. 알림 아이콘에 빨간색 점이 있으면 읽지 않은 알림 또는 공지가 있음을 나타냅니다.
+알림을 보려면 화면 오른쪽 상단 근처에 있는 알림 아이콘 ![알림 아이콘](assets/notifications-icon.png)을 클릭하세요. 알림 아이콘에 빨간색 점이 있으면 읽지 않은 알림 또는 공지가 있음을 나타냅니다.
 
-Adobe Experience Cloud에서 알림을 구성하는 방법은 을 참조하십시오. [알림 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/notifications.html?lang=en#:~:text=You%20can%20customize%20how%20you,how%20you%20receive%20your%20notifications.) Adobe 설명서에서 확인할 수 있습니다.
+Adobe Experience Cloud에서 알림을 구성하는 방법에 대한 지침은 Adobe 설명서의 [알림 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/notifications.html?lang=en#:~:text=You%20can%20customize%20how%20you,how%20you%20receive%20your%20notifications.)을 참조하십시오.
 
 구성할 때는 다음을 참고하십시오.
 
-* **경고** 중단 시나리오를 참조하십시오.
-* **콘텐츠 업데이트** 시나리오 실행의 오류 및 경고를 참조하십시오.
+* **경고**&#x200B;는 중단된 시나리오를 참조합니다.
+* **콘텐츠 업데이트**&#x200B;는 시나리오 실행에서 오류 및 경고를 참조합니다.
 

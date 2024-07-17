@@ -11,15 +11,15 @@ exl-id: 9fbdf8a3-eebc-4ad3-9ad9-7d8ad782b929
 source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '86'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
 # 증명 검토
 
-* [증명에서 컨텐츠 보기](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-a-proof.md)
-* [증명 내 영역 측정](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/measure-an-area-proof.md)
-* [비디오 증명에서 타임라인 측정 단위 변경](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/change-unit-of-measurement-video.md)
+* [증명에서 콘텐츠 보기](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-a-proof.md)
+* [증명 내의 영역 측정](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/measure-an-area-proof.md)
+* [비디오 증명에서 타임라인의 측정 단위 변경](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/change-unit-of-measurement-video.md)
 * [비디오 증명에서 재생 제어](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/control-playback-video.md)
 * [비디오 증명에서 루프 활성화](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/enable-loop-video.md)
 * [증명 잠금 또는 잠금 해제](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/lock-or-unlock-proof.md)

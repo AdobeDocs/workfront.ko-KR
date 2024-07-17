@@ -22,5 +22,5 @@ ht-degree: 3%
 <!-- * [Limited document and proof decision for non-paid users overview](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md) -->
 * [작업 승인](../review-and-approve-work/manage-approvals/manage-approvals.md)
 * [문서 승인](../review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
-* [증명](../review-and-approve-work/proofing/proofing.md)
+* [교정](../review-and-approve-work/proofing/proofing.md)
 

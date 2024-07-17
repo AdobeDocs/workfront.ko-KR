@@ -18,7 +18,7 @@ ht-degree: 0%
 # Experience Manager Assets 및 Assets Essentials용 Adobe Workfront: 문서 색인
 
 * [Adobe Experience Manager Assets 통합 개요](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
-* [Experience Manager Assets 또는 Assets Essentials에서 에셋 및 폴더 연결](../../documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
+* [Experience Manager Assets 또는 Assets Essentials에서 자산 및 폴더 연결](../../documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
 * [Experience Manager Assets 또는 Assets Essentials에 대해 매핑된 메타데이터 보기](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/view-asset-metadata.md)
 * [Experience Manager Assets 또는 Assets Essentials에게 문서 보내기](../../documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
 * [Experience Manager Assets 또는 Assets Essentials에 대해 연결된 자산 증명](../../documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)

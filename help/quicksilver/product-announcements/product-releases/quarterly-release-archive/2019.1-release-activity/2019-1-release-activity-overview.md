@@ -90,7 +90,7 @@ ht-degree: 0%
 
   추가적인 영역에서 프로젝트 및 작업 목록의 성능을 개선하고 모양과 느낌을 개선했습니다.
 
-* [XLSX 형식으로 게재된 보고서 보내기](https://support.workfront.com/hc/en-us/articles/360016246394#send-a-delivered-report)
+* [배달된 보고서를 XLSX 형식으로 보내기](https://support.workfront.com/hc/en-us/articles/360016246394#send-a-delivered-report)
 
   이제 다른 모든 현재 형식 외에도 MS Excel(.xlsx) 형식으로 보고서가 배달되도록 예약할 수 있습니다.
 
@@ -98,13 +98,13 @@ ht-degree: 0%
 
   이제 감사 로그 항목을 CSV 파일로 내보낼 수 있습니다. 한 번에 최대 50,000개의 감사 로그 항목을 CSV 파일로 내보낼 수 있습니다.
 
-* [작업 번호 열을 마우스 오른쪽 단추로 클릭하여 작업 목록에서 WBS 보기를 더 이상 사용할 수 없습니다.](https://support.workfront.com/hc/en-us/articles/360016246394#wbs-view-from-the-task-list)
+* [작업 번호 열을 마우스 오른쪽 단추로 클릭하여 작업 목록에서 WBS 보기를 더 이상 사용할 수 없습니다](https://support.workfront.com/hc/en-us/articles/360016246394#wbs-view-from-the-task-list)
 
   더 이상 작업 목록에서 작업 번호 열을 마우스 오른쪽 단추로 클릭하여 프로젝트의 WBS(작업 분류 구조)를 표시할 수 없습니다.
 
 ### 향상된 리소스 관리 기능
 
-* [리소스 플래너의 기본 필터가 업데이트되었습니다.](https://support.workfront.com/hc/en-us/articles/360016247594#updated-default-filter)
+* [리소스 플래너의 기본 필터를 업데이트했습니다](https://support.workfront.com/hc/en-us/articles/360016247594#updated-default-filter)
 
   리소스 플래너의 기본 필터가 더 이상 프로젝트 그룹별로 필터링되지 않습니다.
 
@@ -124,7 +124,7 @@ ht-degree: 0%
 
   이제 리소스 플래너에서 내보낼 때 Excel 파일에 정보를 표시하는 방법을 선택할 수 있습니다.
 
-* [지속 예약 타임라인](https://support.workfront.com/hc/en-us/articles/360016247594#persistent-scheduling-timeline)
+* [지속적인 예약 타임라인](https://support.workfront.com/hc/en-us/articles/360016247594#persistent-scheduling-timeline)
 
   이제 타임라인을 예약하면 타임라인을 새로 고치거나 페이지에서 멀리 이동할 때 타임프레임과 필터가 유지됩니다.
 
@@ -132,21 +132,21 @@ ht-degree: 0%
 
   이제 리소스 플래너에서 내보낼 정보 수준을 선택할 수 있습니다.
 
-* [리소스 플래너에서 사용자 보기 업데이트](https://support.workfront.com/hc/en-us/articles/360016247594#update-to-the-user-view-in-the-resource-planner)
+* [리소스 플래너의 사용자 보기로 업데이트](https://support.workfront.com/hc/en-us/articles/360016247594#update-to-the-user-view-in-the-resource-planner)
 
   리소스 플래너에 사용자 기반 필터를 적용하지 않으면 이제 시스템의 모든 사용자가 리소스 플래너의 사용자 보기에 표시됩니다.
 
 ### 증명 개선 사항
 
-* [웹 증명 뷰어의 증명 대화형 콘텐츠](https://support.workfront.com/hc/en-us/articles/360016372633#proof-interactive-content-in-the-web-proofing-viewer)
+* [웹 증명 뷰어에서 대화형 콘텐츠 증명](https://support.workfront.com/hc/en-us/articles/360016372633#proof-interactive-content-in-the-web-proofing-viewer)
 
   조직의 보안 정책에서 독립형 Desktop Proofing Viewer 앱 사용을 허용하지 않는 경우 Workfront 관리자는 이제 웹 증명 뷰어에서 대화형 콘텐츠를 활성화할 수 있습니다.
 
-* [증명 뷰어의 주석에 대한 기본 정렬 순서는 이제 가장 오래된 항목에서 가장 늦은 항목입니다.](https://support.workfront.com/hc/en-us/articles/360016372633#default-sorting-order-for-comments)
+* [증명 뷰어의 댓글에 대한 기본 정렬 순서가 이제 가장 오래된 항목부터 가장 늦은 항목까지](https://support.workfront.com/hc/en-us/articles/360016372633#default-sorting-order-for-comments)
 
   언어 대화에서처럼 증명 뷰어에서 증명에 대한 댓글의 기본 정렬 순서는 이제 가장 오래된 항목에서 가장 늦은 항목입니다.
 
-* [비디오 범위에 연결된 증명 뷰어의 댓글에 대한 검토 개선](https://support.workfront.com/hc/en-us/articles/360016372633#enhanced-reviewing-for-comments)
+* [비디오 범위와 연결된 증명 뷰어의 댓글에 대한 검토 개선](https://support.workfront.com/hc/en-us/articles/360016372633#enhanced-reviewing-for-comments)
 
   이제 증명 뷰어에서 비디오 푸티지 범위와 연관된 주석을 검토할 때 재생 을 클릭하여 푸티지의 전체 범위를 볼 수 있습니다.
 
@@ -154,11 +154,11 @@ ht-degree: 0%
 
   이제 증명을 검토하도록 초대하는 이메일을 받거나 증명 뷰어에서 증명을 검토하고 있을 때 증명에 대한 문서 세부 정보 페이지에 빠르게 액세스할 수 있습니다.
 
-* [증명 뷰어에서 이메일 알림 변경](https://support.workfront.com/hc/en-us/articles/360016372633#change-your-email-notifications)
+* [증명 뷰어에서 전자 메일 알림 변경](https://support.workfront.com/hc/en-us/articles/360016372633#change-your-email-notifications)
 
   이제 모든 증명 검토자가 증명에 대해 수신할 증명 알림을 지정할 수 있습니다. 이는 외부 이해 관계자와 협업할 때 특히 중요하다.
 
-* [Desktop Proofing Viewer에서 배경색 변경](https://support.workfront.com/hc/en-us/articles/360016372633#change-the-background-color-in-the-desktop-proofing-viewer)
+* [데스크톱 증명 뷰어에서 배경색 변경](https://support.workfront.com/hc/en-us/articles/360016372633#change-the-background-color-in-the-desktop-proofing-viewer)
 
   이제 Desktop Proofing Viewer의 배경색을 기본색에 가까운 검정색에서 흰색으로 변경할 수 있습니다.
 
@@ -168,43 +168,43 @@ ht-degree: 0%
 
 ### 모바일 개선 사항
 
-* [새로운 모바일 검색 환경](https://support.workfront.com/hc/en-us/articles/360016374093#new-mobile-search-experience)
+* [새 모바일 검색 환경](https://support.workfront.com/hc/en-us/articles/360016374093#new-mobile-search-experience)
 
   이제 Workfront 모바일 앱에서 항목을 검색하면 보다 사용자 친화적이고 직관적입니다.
 
-* [홈은 Workfront 모바일 앱의 새로운 기본 랜딩 페이지입니다](https://support.workfront.com/hc/en-us/articles/360016374093#home-is-the-new-default)
+* [홈은 Workfront 모바일 앱의 새로운 기본 랜딩 페이지임](https://support.workfront.com/hc/en-us/articles/360016374093#home-is-the-new-default)
 
   홈 영역은 이제 Workfront 모바일 앱의 새로운 기본 랜딩 페이지입니다. iOS 및 Android 장치 모두에서 지원됩니다.
 
-* [Workfront 모바일 앱의 목록 구성을 위한 새로운 옵션](https://support.workfront.com/hc/en-us/articles/360016374093#new-options-for-organizing)
+* [Workfront Mobile 앱에서 목록을 구성하는 새로운 옵션](https://support.workfront.com/hc/en-us/articles/360016374093#new-options-for-organizing)
 
   이제 Workfront 모바일 앱에서 목록을 필터링, 정렬 및 정렬할 수 있습니다.
 
-* [iOS 디바이스용 Workfront 베타 앱 지원](https://support.workfront.com/hc/en-us/articles/360016374093#support-for-workfront-beta-app-for-ios)
+* [iOS 장치용 Workfront Beta 앱 지원](https://support.workfront.com/hc/en-us/articles/360016374093#support-for-workfront-beta-app-for-ios)
 
   이제 iOS 장치에서 Workfront 모바일 앱의 베타 테스터가 되도록 등록할 수 있습니다.
 
-* [Android 베타를 위한 간단한 작업 생성](https://support.workfront.com/hc/en-us/articles/360016374093#simple-task-creation-for-android-beta)
+* [Android Beta을 위한 간단한 작업 만들기](https://support.workfront.com/hc/en-us/articles/360016374093#simple-task-creation-for-android-beta)
 
-  이제 프로젝트, 작업 또는 Android 모바일 앱의 Beta 버전에 대한 홈 영역에서 작업을 바로 만들 수 있습니다.
+  이제 프로젝트, 작업 또는 홈 영역에서 Android 모바일 앱의 Beta 버전에 대한 작업을 직접 만들 수 있습니다.
 
-* [Android 디바이스용 Workfront 모바일 앱에 대한 새로운 최초 튜토리얼](https://support.workfront.com/hc/en-us/articles/360016374093#new-first-time-tutorial)
+* [Android 장치용 Workfront Mobile 앱에 대한 새로운 첫 번째 자습서](https://support.workfront.com/hc/en-us/articles/360016374093#new-first-time-tutorial)
 
   Android 장치에서 Workfront 모바일 앱에 처음 액세스할 때 표시되는 자습서의 모양과 느낌이 업데이트되었습니다.
 
 ### 타사 앱 통합 개선 사항
 
-* [Slack 개선을 위한 Workfront](https://support.workfront.com/hc/en-us/articles/360016374093#workfront-for-slack-improvements)
+* Slack 개선을 위한 [Workfront](https://support.workfront.com/hc/en-us/articles/360016374093#workfront-for-slack-improvements)
 
   이제 Workfront에서 Slack을 위해 귀하가 Slack에서 작성한 댓글을 Workfront의 오브젝트에 대한 댓글로 게시하는 기능, 누군가 귀하의 요청 중 하나에 댓글을 달면 Slack에서 알림을 받도록 구독하는 기능 등 다양한 업데이트를 에서 사용할 수 있습니다.
 
-* [Workfront for Jira 개선 사항](https://support.workfront.com/hc/en-us/articles/360016374093#workfront-for-jira-enhancements)
+* [Jira용 Workfront 개선 사항](https://support.workfront.com/hc/en-us/articles/360016374093#workfront-for-jira-enhancements)
 
   이제 Workfront for Jira 통합에는 통합에서 Jira에 사용자를 자동으로 만드는 시기, 자동 Workfront 사용자 생성을 비활성화하는 옵션 등을 포함하여 다양한 개선 사항이 포함되어 있습니다.
 
 ## 공지
 
-* [이제 미리보기에서 API 버전 10 사용 가능](#api-version-10-now-available-in-preview)
+* 이제 미리 보기에서 [API 버전 10을 사용할 수 있습니다](#api-version-10-now-available-in-preview)
 * [제거할 다양한 Single Sign-On 옵션](#various-single-sign-on-options-to-be-removed)
 
 ### API 버전 4는 더 이상 지원되지 않습니다.
@@ -220,20 +220,20 @@ API 버전 4에 대한 지원은 2019.1 릴리스와 함께 종료됩니다. Wor
 
 ### 이제 미리보기에서 API 버전 10 사용 가능 {#api-version-10-now-available-in-preview}
 
-이제 미리보기 환경에서 API 버전 10을 사용할 수 있습니다. 프로덕션 환경에서는 18.3 릴리스에서 사용할 수 있습니다. 자세한 내용은 [API 버전 10의 새로운 기능](https://support.workfront.com/hc/en-us/articles/360010455333) 
+이제 미리보기 환경에서 API 버전 10을 사용할 수 있습니다. 프로덕션 환경에서는 18.3 릴리스에서 사용할 수 있습니다. 자세한 내용은 [API 버전 10의 새로운 기능](https://support.workfront.com/hc/en-us/articles/360010455333)을 참조하세요. 
 
 ### 제거할 다양한 Single Sign-On 옵션 {#various-single-sign-on-options-to-be-removed}
 
 다음 SSO(Single Sign-On) 옵션은 이제 제한된 용량에서만 지원됩니다. 2019년 하반기에 제품에서 제거될 예정입니다.
 
 * LDAP\
-  Workfront에서 LDAP를 사용하는 방법에 대한 자세한 내용은 [LDAP를 사용하여 Workfront 구성](https://support.workfront.com/hc/en-us/articles/217223517)
+  Workfront에서 LDAP를 사용하는 방법에 대한 자세한 내용은 [LDAP를 사용하여 Workfront 구성](https://support.workfront.com/hc/en-us/articles/217223517)을 참조하십시오.
 
 * Active Directory\
-  Workfront에서 Active Directory 사용에 대한 자세한 내용은 [Active Directory를 사용하여 Workfront을 구성하는 중입니다.](https://support.workfront.com/hc/en-us/articles/217223547)
+  Active Directory를 Workfront과 함께 사용하는 방법에 대한 자세한 내용은 [Active Directory와 함께 Workfront 구성](https://support.workfront.com/hc/en-us/articles/217223547)을 참조하십시오.
 
 * SAML 1.1\
-  Workfront에서 SAML 1.1을 사용하는 방법에 대한 자세한 내용은 [SAML 1.1로 Workfront 구성.](https://support.workfront.com/hc/en-us/articles/217194887)
+  Workfront에서 SAML 1.1을 사용하는 방법에 대한 자세한 내용은 [SAML 1.1을 사용하여 Workfront 구성](https://support.workfront.com/hc/en-us/articles/217194887)을 참조하십시오.
 
 다음은 이러한 SSO 옵션의 제거 타임라인입니다.
 
@@ -245,4 +245,4 @@ API 버전 4에 대한 지원은 2019.1 릴리스와 함께 종료됩니다. Wor
 
 * **Workfront에서 더 이상 사용할 수 없음:** 2019년 8월
 
-이러한 변경 사항은 현재 제한된 수의 고객만 사용할 수 있는 향상된 인증 환경에 대비하여 수행됩니다. 예정된 변경 내용에 대한 자세한 내용은 [향상된 인증 환경 시작.](https://support.workfront.com/hc/en-us/articles/360008329033)
+이러한 변경 사항은 현재 제한된 수의 고객만 사용할 수 있는 향상된 인증 환경에 대비하여 수행됩니다. 예정된 변경 내용에 대한 자세한 내용은 [향상된 인증 환경 시작](https://support.workfront.com/hc/en-us/articles/360008329033)을 참조하세요.

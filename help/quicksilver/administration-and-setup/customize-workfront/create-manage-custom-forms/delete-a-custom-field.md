@@ -23,9 +23,9 @@ ht-degree: 0%
 >
 >사용자 정의 필드를 삭제하면 오브젝트에 첨부된 사용자 정의 양식을 작성할 때 사용자가 필드에 입력한 모든 사용자 정의 데이터도 삭제됩니다. 삭제된 데이터는 복구할 수 없습니다.
 >
->삭제하려는 사용자 정의 필드를 사용하는 모든 사용자 정의 양식 및 보고서를 보고 영향을 평가할 수 있습니다. 자세한 내용은 [특정 사용자 정의 필드 또는 위젯을 사용하는 모든 사용자 정의 양식 보기](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md) 및 [특정 사용자 정의 필드 또는 위젯을 사용하는 모든 보고서 보기](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md).
+>삭제하려는 사용자 정의 필드를 사용하는 모든 사용자 정의 양식 및 보고서를 보고 영향을 평가할 수 있습니다. 자세한 내용은 [특정 사용자 정의 필드 또는 위젯을 사용하는 모든 사용자 정의 양식 보기](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md) 및 [특정 사용자 정의 필드 또는 위젯을 사용하는 모든 보고서 보기](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md)를 참조하십시오.
 >
->또는 더 이상 사용되지 않는 필드에서 데이터가 손실되지 않도록 하는 데 사용할 수 있는 해결 방법에 대해서는 [사용자가 입력한 데이터를 손실하지 않고 사용자 정의 필드 제거](#remove-a-custom-field-without-losing-data-that-users-have-entered) 이 문서에서.
+>또는 더 이상 사용되지 않는 필드의 데이터가 손실되지 않도록 하는 데 사용할 수 있는 해결 방법은 이 문서에서 [사용자가 입력한 데이터를 손실하지 않고 사용자 정의 필드 제거](#remove-a-custom-field-without-losing-data-that-users-have-entered)를 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -53,16 +53,16 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## 시스템에서 사용자 정의 필드 또는 위젯 삭제
 
 {{step-1-to-setup}}
 
-1. 클릭 **사용자 지정 Forms.**
-1. 클릭 **필드** 필드 영역을 엽니다.
-1. 사용자 정의 필드 또는 위젯을 선택한 다음 **삭제**.
-1. 항목과 (사용자 지정 필드의 경우) 항목이 첨부된 오브젝트의 모든 관련 데이터를 영구적으로 삭제하려면 **예, 삭제합니다.**.
+1. **사용자 지정 Forms을 클릭합니다.**
+1. 필드 영역을 열려면 **필드**&#x200B;를 클릭하세요.
+1. 사용자 지정 필드 또는 위젯을 선택한 다음 **삭제**&#x200B;를 클릭합니다.
+1. 항목을 영구적으로 삭제하려면(사용자 지정 필드의 경우) 항목이 첨부된 개체에 연결된 모든 데이터를 클릭합니다. **예, 삭제**&#x200B;를 클릭합니다.
 
 ## 사용자가 입력한 데이터를 손실하지 않고 사용자 정의 필드 제거 {#remove-a-custom-field-without-losing-data-that-users-have-entered}
 
@@ -75,13 +75,13 @@ ht-degree: 0%
 
    1. 원래 사용자 정의 양식에서 제거할 새 양식에 사용자 정의 필드를 추가합니다.
 
-      * 사용자 정의 양식 빌더를 사용하는 경우 [사용자 정의 양식에서 사용자 정의 필드 또는 위젯 재사용](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
-      * 양식 디자이너를 사용하는 경우 [사용자 정의 양식에 새 필드 또는 기존 필드 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-new-or-existing-fields-to-your-custom-form).
+      * 사용자 정의 양식 빌더를 사용하는 경우 [사용자 정의 양식에서 사용자 정의 필드 또는 위젯 재사용](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md)을 참조하십시오.
+      * 양식 디자이너를 사용하는 경우 [사용자 정의 양식에 새 필드 또는 기존 필드 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-new-or-existing-fields-to-your-custom-form)를 참조하십시오.
 
    1. 새 사용자 정의 양식을 저장합니다.
 
-1. 에 설명된 대로 관리 액세스 권한이 있는 사용자만 사용자 정의 양식에 액세스할 수 있도록 제한합니다. [사용자 정의 양식 공유](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md).
-1. 에 설명된 대로 원래 사용자 정의 양식이 이미 적용된 객체에 새 사용자 정의 양식을 적용합니다. [오브젝트에 사용자 정의 양식 추가](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+1. [사용자 정의 양식 공유](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)에 설명된 대로 관리 액세스 권한이 있는 사용자만 사용자 정의 양식에 액세스하도록 제한합니다.
+1. [개체에 사용자 정의 양식 추가](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)에 설명된 대로 원본 사용자 정의 양식이 이미 적용된 개체에 새 사용자 정의 양식을 적용하십시오.
 
    이러한 오브젝트에 새 사용자 정의 양식을 적용하면 이전 보고 데이터에 영향을 주지 않습니다.
 

@@ -42,7 +42,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 플랜*</strong></td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
@@ -51,21 +51,21 @@ ht-degree: 0%
    </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
+&#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
 
 ## 카드 구성 {#configure-cards}
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![](assets/main-menu-icon.png) 의 오른쪽 위 모서리 [!DNL Adobe Workfront]을 클릭한 다음 을 클릭합니다 **[!UICONTROL 게시판]**.
-1. 보드에 액세스합니다. 자세한 내용은 [보드 만들기 또는 편집](../../agile/get-started-with-boards/create-edit-board.md).
-1. 클릭 [!UICONTROL **구성**] 보드 오른쪽에서 Configure 패널을 엽니다.
-1. 확장 [!UICONTROL **카드**].
+1. [!DNL Adobe Workfront]의 오른쪽 위 모서리에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 게시판]**&#x200B;을 클릭합니다.
+1. 보드에 액세스합니다. 자세한 내용은 [게시판 만들기 또는 편집](../../agile/get-started-with-boards/create-edit-board.md)을 참조하세요.
+1. 보드 오른쪽의 [!UICONTROL **구성**]&#x200B;을 클릭하여 구성 패널을 엽니다.
+1. [!UICONTROL **카드**]&#x200B;를 확장합니다.
 
    대부분의 필드와 섹션은 기본적으로 활성화되어 있습니다.
 
 1. 필드 또는 섹션을 해제하여 두 카드 보기에서 모두 비활성화합니다.
-1. Hide 아이콘을 클릭합니다. ![아이콘 숨기기](assets/eye-hide-icon.png) 필드 또는 섹션 옆에 있는 경우 요약된 보기에서 숨길 수 있습니다.
-1. 두 보기의 모든 필드와 섹션을 표시하려면 [!UICONTROL **모든 필드를 기본값으로 복원**].
-1. 클릭 [!UICONTROL **구성 숨기기**] 을 클릭하여 구성 패널을 닫습니다.
+1. 필드 또는 섹션 옆에 있는 숨기기 아이콘 ![숨기기 아이콘](assets/eye-hide-icon.png)을 클릭하여 압축된 보기에서 숨깁니다.
+1. 두 보기의 모든 필드와 섹션을 표시하려면 [!UICONTROL **모든 필드를 기본값으로 복원**]&#x200B;을 클릭합니다.
+1. 구성 패널을 닫으려면 [!UICONTROL **구성 숨기기**]&#x200B;를 클릭하십시오.
 
 ## 카드에 사용자 정의 필드 추가
 
@@ -73,27 +73,27 @@ ht-degree: 0%
 
 사용자 정의 필드의 데이터는 카드에서 편집할 수 있지만 특정 사용자 정의 요소는 카드가 아닌 원래 필드에서만 편집할 수 있습니다.
 
-1. 보드에 액세스하여 클릭 [!UICONTROL **구성**] 구성 패널을 엽니다.
-1. 확장 [!UICONTROL **카드**].
-1. 아래 [!UICONTROL 카드 필드], 클릭 [!UICONTROL **사용자 정의 필드 추가**].
-1. 선택 [!UICONTROL **작업**] 또는 [!UICONTROL **문제**].
+1. 보드에 액세스하고 [!UICONTROL **구성**]&#x200B;을 클릭하여 구성 패널을 엽니다.
+1. [!UICONTROL **카드**]&#x200B;를 확장합니다.
+1. [!UICONTROL 카드 필드]에서 [!UICONTROL **사용자 지정 필드 추가**]&#x200B;를 클릭합니다.
+1. [!UICONTROL **작업**] 또는 [!UICONTROL **문제**]&#x200B;를 선택하십시오.
 
    작업 또는 문제에 사용 가능한 필드의 범주가 나타납니다. 카테고리를 확장하여 모든 필드를 표시합니다. 필드를 검색할 수도 있습니다.
 
-   ![사용자 정의 필드 검색](assets/boards-search-for-custom-field.png)
+   ![사용자 지정 필드 검색](assets/boards-search-for-custom-field.png)
 
    >[!NOTE]
    >
    >Adobe XD, 이미지, PDF, 비디오 필드 유형을 카드에 추가할 수 없습니다.
 
 1. 필드 이름을 선택합니다.
-1. (선택 사항) **[!UICONTROL 필드 값]** 필드 : 이 사용자 정의 필드를 다른 사용자 정의 필드로 변경합니다.
-1. (선택 사항) **[!UICONTROL 필드 레이블]** 카드에 표시할 필드 이름을 입력합니다.
-1. 변경을 마쳤으면 [!UICONTROL **필드 저장**].
+1. (선택 사항) **[!UICONTROL 필드 값]** 필드를 클릭하여 이 사용자 지정 필드를 다른 값으로 변경합니다.
+1. (선택 사항) **[!UICONTROL 필드 레이블]**&#x200B;을 카드에 표시할 필드 이름으로 변경합니다.
+1. 변경을 마치면 [!UICONTROL **필드 저장**]&#x200B;을 클릭합니다.
 
-   ![사용자 정의 필드 값 및 레이블](assets/save-custom-field-value-label.png)
+   ![사용자 지정 필드 값 및 레이블](assets/save-custom-field-value-label.png)
 
-   사용자 지정 필드는 사용 가능한 필드 목록에 추가되며 기본적으로 활성화됩니다. 의 단계에 따라 사용자 정의 필드를 비활성화할 수 있습니다. [카드 구성](customize-fields-on-card.md#configure-cards) 위의 섹션에서 필드를 편집하거나 모든 카드에서 삭제하십시오.
+   사용자 지정 필드는 사용 가능한 필드 목록에 추가되며 기본적으로 활성화됩니다. 위의 [카드 구성](customize-fields-on-card.md#configure-cards) 섹션의 단계에 따라 사용자 지정 필드를 비활성화하거나 필드를 편집하거나 모든 카드에서 삭제할 수 있습니다.
 
 >[!NOTE]
 >
@@ -103,14 +103,14 @@ ht-degree: 0%
 
 보드에 보관된 카드를 표시하려면 구성 설정을 켜야 합니다.
 
-1. 보드에 액세스하여 클릭 [!UICONTROL **구성**] 구성 패널을 엽니다.
-1. 확장 [!UICONTROL **카드**].
-1. 켜기 [!UICONTROL **보드에 보관된 카드 표시**].
+1. 보드에 액세스하고 [!UICONTROL **구성**]&#x200B;을 클릭하여 구성 패널을 엽니다.
+1. [!UICONTROL **카드**]&#x200B;를 확장합니다.
+1. [!UICONTROL **보드에 보관된 카드 표시**]&#x200B;를 켭니다.
 
-   이제 보드를 필터링하여 보관된 카드를 표시할 수 있습니다. 자세한 내용은 [보드에서 필터링 및 검색](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+   이제 보드를 필터링하여 보관된 카드를 표시할 수 있습니다. 자세한 내용은 [게시판에서 필터링 및 검색](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md)을 참조하세요.
 
-1. 클릭 [!UICONTROL **구성 숨기기**] 을 클릭하여 구성 패널을 닫습니다.
+1. 구성 패널을 닫으려면 [!UICONTROL **구성 숨기기**]&#x200B;를 클릭하십시오.
 
 ## 카드 폴오프 구성
 
-일정 시간이 지난 후 보드에서 카드를 자동으로 제거하려면 [카드 폴오프 구성](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
+일정 시간이 지난 후 보드에서 카드를 자동으로 제거하려면 [카드 폴오프 구성](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md)을 참조하십시오.

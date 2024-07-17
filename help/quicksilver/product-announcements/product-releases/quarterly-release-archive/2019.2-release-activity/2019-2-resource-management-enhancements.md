@@ -18,7 +18,7 @@ ht-degree: 0%
 
 이 페이지에서는 2019.2 릴리스에 포함된 모든 리소스 관리 개선 사항에 대해 설명합니다. 이 기능은 2019년 5월 20일이 있는 주에 프로덕션 환경에서 사용할 수 있습니다.
 
-2019.2의 모든 변경 사항 목록은 을 참조하십시오. [2019.2 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
+2019.2의 모든 변경 사항 목록은 [2019.2 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md)를 참조하십시오.
 
 ## 리소스 플래너에 Portfolio 우선 순위 표시
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 이 개선 이전에는 리소스 플래너에서 프로젝트의 포트폴리오 우선 순위를 볼 수 없었습니다.
 
-이 설정을 활성화하는 방법에 대한 자세한 내용은 [설정](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md#settings) 의 섹션 [리소스 플래너의 영역 이해](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+이 설정을 사용하는 방법에 대한 자세한 내용은 [리소스 플래너의 영역 이해](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md)의 [설정](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md#settings) 섹션을 참조하십시오.
 
 ## 리소스 플래너에서 필터 공유
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 이 개선 이전에는 만든 필터가 리소스 플래너에 액세스할 수 있는 모든 사용자에게 표시되었습니다.
 
-리소스 플래너에서의 필터링에 대한 자세한 내용은 [리소스 플래너의 콘텐츠 필터링](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
+리소스 플래너에서 필터링에 대한 자세한 내용은 [리소스 플래너에서 콘텐츠 필터링](../../../../resource-mgmt/resource-planning/filter-resource-planner.md)을 참조하십시오.
 
 ## 새 리소스 관리 액세스 수준
 
@@ -50,9 +50,9 @@ ht-degree: 0%
 
 또한 이 변경으로 인해 더 이상 프로젝트에서 리소스 관리자로 지정될 필요가 없습니다. 그러나 리소스를 관리하려면 리소스 관리에 대한 올바른 액세스 권한이 필요합니다.
 
-리소스 예산 편성에 필요한 새 액세스 권한에 대한 자세한 내용은 [리소스 예산에 필요한 액세스](../../../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
+리소스 예산 책정에 필요한 새 액세스에 대한 자세한 내용은 [리소스 예산 책정에 필요한 액세스](../../../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md)를 참조하십시오.
 
-새 리소스 관리 액세스 수준에 대한 자세한 내용은 [리소스 관리 액세스 이해](../../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+새 리소스 관리 액세스 수준에 대한 자세한 내용은 [리소스 관리 액세스 이해](../../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)를 참조하십시오.
 
 ## 리소스 플래너의 Portfolio 우선 순위별 프로젝트 주문
 
@@ -60,11 +60,11 @@ ht-degree: 0%
 
 이 개선 이전에는 리소스 플래너에서 포트폴리오 우선 순위만 보고 해당 플래너 우선 순위로만 프로젝트를 주문할 수 있었습니다.
 
-리소스 플래너의 포트폴리오 우선 순위별 프로젝트 주문에 대한 자세한 내용은 다음을 참조하십시오. [리소스 플래너에서 프로젝트 우선 순위 지정](../../../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
+리소스 플래너에서 포트폴리오 우선 순위별로 프로젝트를 주문하는 방법에 대한 자세한 내용은 [리소스 플래너에서 프로젝트 우선 순위 지정](../../../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md)을 참조하십시오.
 
 ## 리소스 플래너 필터 개선 사항
 
 이제 기본 제공 필터 기준에 새 필드(그룹)를 추가할 때 리소스 플래너의 필터링 경험이 더 간단해집니다. 이제 기본 제공 옵션에서 가장 많이 사용되는 필터를 찾을 수 있습니다.
 
-리소스 플래너의 필터에 대한 자세한 내용은 [리소스 플래너의 콘텐츠 필터링](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
+리소스 플래너의 필터에 대한 자세한 내용은 [리소스 플래너의 콘텐츠 필터링](../../../../resource-mgmt/resource-planning/filter-resource-planner.md)을 참조하십시오.
 

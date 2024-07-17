@@ -17,7 +17,7 @@ ht-degree: 0%
 
 이 페이지에서는 미리보기 환경에 대한 20.4 릴리스의 모든 증명 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2020년 11월 9일이 있는 주에 프로덕션 환경에서 사용할 수 있습니다.
 
-20.4 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [20.4 릴리스 개요](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
+20.4 릴리스에서 사용할 수 있는 모든 변경 사항 목록은 [20.4 릴리스 개요](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md)를 참조하십시오.
 
 ## 새 버전을 생성할 때 기존 증명 워크플로 이월
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 이전에는 Workfront에서 증명 워크플로를 생성한 위치에 따라 증명 워크플로가 이월되는 방식에 약간의 차이가 있었습니다.
 
-자세한 내용은 [증명의 새 버전 만들기](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md).
+자세한 내용은 [새 증명 버전 만들기](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md)를 참조하십시오.
 
 ## 증명 뷰어에서 사용할 수 있는 문서 승인 버튼
 
@@ -37,7 +37,7 @@ Classic에서 증명 경험에 맞추기 위해 이제 새 Adobe Workfront 경�
 
 이전에는 문서 세부 정보 영역에서만 문서를 승인할 수 있었습니다.
 
-자세한 내용은 [증명 뷰어에서 증명 결정](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
+자세한 내용은 [증명 뷰어에서 증명 결정](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)을 참조하십시오.
 
 ## 문서 업로드 시 자동으로 증명 생성 설정이 기본적으로 비활성화됨
 
@@ -45,4 +45,4 @@ Classic에서 증명 경험에 맞추기 위해 이제 새 Adobe Workfront 경�
 
 이전에는 이 설정이 기본적으로 새 사용자에 대해 활성화되었습니다.
 
-이 설정의 작동 방식에 대한 자세한 내용은 [내 설정 구성](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+이 설정이 작동하는 방식에 대한 자세한 내용은 [내 설정 구성](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)을 참조하십시오.

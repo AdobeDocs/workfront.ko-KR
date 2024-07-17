@@ -18,7 +18,7 @@ ht-degree: 0%
 
 이 페이지에서는 프로덕션 환경에 대한 2020.2 릴리스의 모든 프로젝트 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2020년 5월 11일이 있는 주에 프로덕션 환경에서 사용할 수 있습니다.
 
-2020.2 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [2020.2 릴리스 개요](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
+2020.2 릴리스에서 사용할 수 있는 모든 변경 사항 목록은 [2020.2 릴리스 개요](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md)를 참조하십시오.
 
 ## Workfront 관리자의 경우: 새 프로젝트에 대한 프로젝트 상태가 숨겨지거나 잠금 해제된 경우 새 안전 장치
 
@@ -26,9 +26,9 @@ ht-degree: 0%
 
 관리자가 새 프로젝트에 대해 구성된 상태를 숨기거나 잠금 해제하더라도 새 프로젝트가 항상 상태를 유지하도록 하기 위해, 새 프로젝트에 대한 새 상태를 다시 구성할 때까지 이제 시스템은 상태 목록의 첫 번째 상태를 모든 새 프로젝트에 할당합니다.
 
-모든 새 프로젝트의 상태에 대한 기본 설정을 지정하는 방법에 대한 자세한 내용은 [시스템 전체 프로젝트 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (또는 Adobe Workfront Classic을 사용하는 경우 다음을 참조하십시오.) [프로젝트 환경 설정 지정](https://one.workfront.com/s/article/Setting-Project-Preferences-1883392298)).
+모든 새 프로젝트의 상태에 대한 환경 설정 지정에 대한 자세한 내용은 [시스템 전체 프로젝트 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)을 참조하십시오(또는 Adobe Workfront Classic을 사용하는 경우 [프로젝트 환경 설정 지정](https://one.workfront.com/s/article/Setting-Project-Preferences-1883392298)을 참조하십시오).
 
-**다음 환경에서 사용할 수 있습니다.**
+**다음 환경에서 사용 가능:**
 
 * Adobe Workfront 클래식
 * 새로운 Adobe Workfront 환경
@@ -42,9 +42,9 @@ ht-degree: 0%
 * &quot;근무일당 일반 시간&quot;과 같은 옵션에 대해 잘못된 숫자를 입력하면 저장을 클릭한 후 경고 메시지가 표시되지 않고 바로 나타납니다.
 * 옵션 레이블은 세부 정보 영역 및 보고서와 같은 Workfront의 다른 곳에서도 해당 인터페이스 텍스트와 일치합니다.
 
-프로젝트 환경 설정 영역에 대한 자세한 내용은 [시스템 전체 프로젝트 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (또는 Adobe Workfront Classic을 사용하는 경우 다음을 참조하십시오.) [프로젝트 환경 설정 지정](https://one.workfront.com/s/article/Setting-Project-Preferences-1883392298)).
+프로젝트 환경 설정 영역에 대한 자세한 내용은 [시스템 전체 프로젝트 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)을 참조하십시오(또는 Adobe Workfront Classic을 사용하는 경우 [프로젝트 환경 설정 지정](https://one.workfront.com/s/article/Setting-Project-Preferences-1883392298)을 참조하십시오).
 
-**다음 환경에서 사용할 수 있습니다.**
+**다음 환경에서 사용 가능:**
 
 * Adobe Workfront 클래식
 * 새로운 Adobe Workfront 환경
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 이전에는, 사용자가 보고서 목록에 필터, 보기 또는 그룹화를 적용한 다음 해당 페이지에서 나가면 다음에 사용자가 동일한 보고서로 이동할 때 기본 필터, 보기 또는 그룹화가 표시됩니다.
 
-**다음 환경에서 사용할 수 있습니다.**
+**다음 환경에서 사용 가능:**
 
 * 새로운 Adobe Workfront 환경
 * Adobe Workfront 클래식
@@ -68,13 +68,13 @@ ht-degree: 0%
 
 이 변경 전에 작업 제한 사항은 항상 가능한 한 빨리 로 변경됩니다.
 
-작업 이동에 대한 자세한 내용은 [작업 이동](../../../manage-work/tasks/manage-tasks/move-tasks.md) (또는 Adobe Workfront Classic을 사용하는 경우 다음을 참조하십시오.) [작업 이동](https://one.workfront.com/s/article/Moving-Tasks-2081996259)).
+작업 이동에 대한 자세한 내용은 [작업 이동](../../../manage-work/tasks/manage-tasks/move-tasks.md)(또는 Adobe Workfront Classic을 사용하는 경우 [작업 이동](https://one.workfront.com/s/article/Moving-Tasks-2081996259))을 참조하십시오.
 
-작업 복사에 대한 자세한 내용은 [작업 복사 및 복제](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (또는 Adobe Workfront Classic을 사용하는 경우 다음을 참조하십시오.) [작업 복사 및 복제](https://one.workfront.com/s/article/Copy-and-Duplicate-Tasks-218695605)).
+작업 복사에 대한 자세한 내용은 [작업 복사 및 복제](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)를 참조하십시오(또는 Adobe Workfront Classic을 사용하는 경우 [작업 복사 및 복제](https://one.workfront.com/s/article/Copy-and-Duplicate-Tasks-218695605)를 참조하십시오).
 
-모든 Task Constraints에 대한 개요는 [작업 제한 개요](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (또는 Adobe Workfront Classic을 사용하는 경우 다음을 참조하십시오.) [작업 제한 개요](https://one.workfront.com/s/article/Task-Constraint-Overview-453396848)).
+모든 작업 제한에 대한 개요는 [작업 제한 개요](../../../manage-work/tasks/task-constraints/task-constraint-overview.md)를 참조하십시오(또는 Adobe Workfront Classic을 사용하는 경우 [작업 제한 개요](https://one.workfront.com/s/article/Task-Constraint-Overview-453396848)를 참조하십시오).
 
-**다음 환경에서 사용할 수 있습니다.**
+**다음 환경에서 사용 가능:**
 
 * Adobe Workfront 클래식
 * 새로운 Adobe Workfront 환경
@@ -83,9 +83,9 @@ ht-degree: 0%
 
 변경 사항을 수동으로 저장할 때 프로젝트 수준의 작업 목록에 있는 객체 또는 작업에 대한 세부 정보 페이지의 정보를 업데이트할 때 데이터 손실을 방지하기 위해 이제 헤더의 정보를 편집하기 전에 저장하지 않은 변경 사항이 있음을 알리는 경고 메시지가 표시됩니다. 변경 사항을 저장하기 전에 허용되는 유일한 작업은 즐겨찾기에 개체를 구독하거나 추가하는 것입니다.
 
-목록에서 작업을 편집하는 방법에 대한 자세한 내용은 [목록에서 작업 편집](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md)
+목록에서 작업을 편집하는 방법에 대한 자세한 내용은 [목록에서 작업 편집](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md)을 참조하십시오.
 
-**다음 환경에서 사용할 수 있습니다.**
+**다음 환경에서 사용 가능:**
 
 * 새로운 Adobe Workfront 환경
 

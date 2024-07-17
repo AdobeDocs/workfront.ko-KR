@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 21.2 증명 개선 사항
 
-이 페이지에서는 미리보기 환경에 대한 21.2 릴리스의 모든 증명 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2021년 5월 10일이 있는 주에 프로덕션 환경에서 사용할 수 있습니다. 21.2 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [21.2 릴리스 개요](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+이 페이지에서는 미리보기 환경에 대한 21.2 릴리스의 모든 증명 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2021년 5월 10일이 있는 주에 프로덕션 환경에서 사용할 수 있습니다. 21.2 릴리스에서 사용할 수 있는 모든 변경 사항 목록을 보려면 [21.2 릴리스 개요](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md)를 참조하십시오.
 
 ## 이제 증명 결정이 문서 목록에 표시됨
 
@@ -31,21 +31,21 @@ ht-degree: 0%
 
 이전에는 여러 번 클릭해야 하는 전체 증명 결정을 보려면 문서 세부 정보 및 증명 워크플로로 이동해야 했습니다.
 
-증명 결정에 대한 자세한 내용은 [문서 영역](../../../documents/managing-documents/documents-area.md).
+증명 결정에 대한 자세한 내용은 [문서 영역](../../../documents/managing-documents/documents-area.md)을 참조하세요.
 
-이 기능은 이제 [새로운 Workfront 환경에서 증명 및 버전 관리](https://one.workfront.com/s/learningpath3/manage-proofs-and-versions-in-the-new-workfront-experience-MCPBYNLTQSS5H4NG7C27IPCVR5YA) Workfront One의 학습 경로.
+이 기능은 이제 Workfront One의 [새 Workfront 경험에서 증명 및 버전 관리](https://one.workfront.com/s/learningpath3/manage-proofs-and-versions-in-the-new-workfront-experience-MCPBYNLTQSS5H4NG7C27IPCVR5YA)에 포함되어 있습니다.
 
 ## 증명 승인 보고서의 새 필드
 
 유용한 증명 정보를 노출하기 위해 증명 승인 보고서에 다음 필드를 추가했습니다.
 
-* **결정 날짜:** 증명에 대한 승인자의 결정 날짜를 표시합니다. 증명의 인쇄 요약에서도 이 날짜를 확인할 수 있습니다.
-* **승인자 단계:** 현재 단계 정보를 표시합니다.
-* **워크플로 템플릿:** 증명에 첨부된 모든 워크플로 템플릿을 표시합니다. 첨부된 템플릿이 없으면 열이 비어 있습니다.
+* **결정 날짜:** 승인자가 증명에 대한 결정을 내리는 날짜를 표시합니다. 증명의 인쇄 요약에서도 이 날짜를 확인할 수 있습니다.
+* **승인자 단계:**&#x200B;에 현재 단계 정보가 표시됩니다.
+* **워크플로 템플릿:** 증명에 첨부된 모든 워크플로 템플릿을 표시합니다. 첨부된 템플릿이 없으면 열이 비어 있습니다.
 
 이러한 필드는 기본 보고서의 일부가 아닙니다. 이를 보려면 추가해야 합니다.
 
-이 기능은 이제 [증명 시스템 설정, 2부: 워크플로 관리](https://one.workfront.com/s/learningpath3/proof-system-setups-part-2-workflow-management-MCKUF6NTIJ6BGMXHBCXXX6NN53EA) Workfront One의 학습 경로.
+이 기능은 이제 Workfront One의 [증명 시스템 설정, 2부: 워크플로 관리](https://one.workfront.com/s/learningpath3/proof-system-setups-part-2-workflow-management-MCKUF6NTIJ6BGMXHBCXXX6NN53EA) 학습 경로에 포함되어 있습니다.
 
 ## 새 버전을 생성할 때 기존 증명 워크플로 이월
 
@@ -57,4 +57,4 @@ ht-degree: 0%
 
 이전에는 Workfront에서 증명 워크플로를 생성한 위치에 따라 증명 워크플로가 이월되는 방식에 약간의 차이가 있었습니다.
 
-자세한 내용은 [증명의 새 버전 만들기](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md).
+자세한 내용은 [새 증명 버전 만들기](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md)를 참조하십시오.

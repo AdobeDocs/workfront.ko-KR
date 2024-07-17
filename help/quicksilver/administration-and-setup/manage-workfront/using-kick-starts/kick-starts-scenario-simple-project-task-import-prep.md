@@ -40,7 +40,7 @@ ht-degree: 9%
    | 프로젝트 관리자 | 제니퍼 캠벨 |
    | 프로젝트 스폰서 | 마크 루이스 |
    | 그룹 | 마케팅 |
-   | 회사 | *귀사* |
+   | 회사 | *회사* |
 
    {style="table-layout:auto"}
 
@@ -51,7 +51,7 @@ ht-degree: 9%
    | 프로젝트 관리자 | 팸 레이놀즈 |
    | 프로젝트 스폰서 | 마크 루이스 |
    | 그룹 | 마케팅 |
-   | 회사 | *귀사* |
+   | 회사 | *회사* |
 
    {style="table-layout:auto"}
 
@@ -62,7 +62,7 @@ ht-degree: 9%
    | 프로젝트 관리자 | 제니퍼 캠벨 |
    | 프로젝트 스폰서 | 레이 앤드루스 |
    | 그룹 | IT |
-   | 회사 | *귀사* |
+   | 회사 | *회사* |
 
    {style="table-layout:auto"}
 
@@ -73,7 +73,7 @@ ht-degree: 9%
    | 프로젝트 관리자 | 팸 레이놀즈 |
    | 프로젝트 스폰서 | 레이 앤드루스 |
    | 그룹 | IT |
-   | 회사 | *귀사* |
+   | 회사 | *회사* |
 
    {style="table-layout:auto"}
 
@@ -85,7 +85,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->이 시나리오에 제공된 명령은에 제공된 단계별 지침만큼 명시적이지는 않습니다. [킥스타트 시나리오: 회사, 그룹, 역할 및 사용자 킥스타트 준비](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-company-group-role-user-prep.md). 회사 및 그룹 시트에서 값을 조회하고 복사하는 방법을 이미 학습했다고 가정합니다. 따라서 이러한 단계는 언급되지만 구체적인 설명은 제공되지 않습니다.
+>이 시나리오에 제공된 지침은 [킥스타트 시나리오(회사, 그룹, 역할 및 사용자 킥스타트 준비)에 제공된 단계별 지침만큼 명확하지 않습니다](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-company-group-role-user-prep.md). 회사 및 그룹 시트에서 값을 조회하고 복사하는 방법을 이미 학습했다고 가정합니다. 따라서 이러한 단계는 언급되지만 구체적인 설명은 제공되지 않습니다.
 
 1. 구성.
 1. 사용자를 가져옵니다.
@@ -315,7 +315,7 @@ setPlannedStartDate 열에 각 프로젝트의 계획된 시작 일자를 입력
 
 킥스타트를 사용하여 프로젝트를 가져올 때 프로젝트의 작업에 대한 정보를 추가할 수 있습니다.
 
-방금 다운로드한 Workfront.xlsx 파일을 엽니다. **TASK Task 시트로 이동합니다.**
+방금 다운로드한 Workfront.xlsx 파일을 엽니다. **작업 작업 시트로 이동합니다.**
 
 Workfront에서 작업을 이미 만들지 않은 경우 이 시트는 비어 있어야 합니다.
 
@@ -378,4 +378,4 @@ setDuration 필드에 작업의 시간, 일, 주 또는 월 수를 입력하여 
 
 * **Excel 파일 가져오기**
 
-  에 제공된 지시 사항을 따르십시오. [킥스타트 템플릿을 사용하여 Adobe Workfront으로 데이터 가져오기](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  [킥스타트 템플릿을 사용하여 Adobe Workfront으로 데이터 가져오기](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)에 제공된 지침을 따르십시오.

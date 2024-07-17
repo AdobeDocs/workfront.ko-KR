@@ -31,7 +31,7 @@ Adobe Workfront 관리자는 조직이 Adobe 비즈니스 플랫폼에 온보딩
 >
 >Workfront에서 직접 시스템 관리자가 아닌 사용자를 추가하는 것이 좋습니다. Adobe Admin Console에서는 사용자를 추가할 수 있지만 Workfront에서 사용자를 추가하면 생성 중에 액세스 수준을 설정할 수 있으므로 시간을 절약할 수 있습니다.
 
-Workfront 시스템 관리자 만들기에 대한 지침은 [Adobe Admin Console에서 시스템 관리자 관리](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+Workfront 시스템 관리자를 만드는 방법에 대한 지침은 [Adobe Admin Console에서 시스템 관리자 관리](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)를 참조하십시오.
 
 <!--
 <table style="table-layout:auto"> 
@@ -161,7 +161,7 @@ Workfront 시스템 관리자 만들기에 대한 지침은 [Adobe Admin Console
 
 ## SAML 인증서 갱신
 
-Adobe Admin Console에서 SAML 인증서를 갱신하는 방법에 대한 지침은 의 &quot;SAML 응답의 디지털 서명이 확인되지 않았습니다...&quot; 섹션을 참조하십시오. [문제 해결 Federated ID](https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html)
+Adobe Admin Console에서 SAML 인증서를 갱신하는 방법에 대한 지침은 [문제 해결 Federated ID](https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html)의 &quot;SAML 응답의 디지털 서명이 확인되지 않았습니다...&quot; 섹션을 참조하십시오.
 
 <!--
 

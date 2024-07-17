@@ -9,7 +9,7 @@ role: Developer
 exl-id: 5fcdf07e-d077-4d6a-bc3f-973983877c7c
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Workfront API에서 증명을 만들 때 고급 증명 옵션을 추가할 수 �
 
 ProofHQ API에는 Workfront API의 증명에서 사용할 수 없는 다양한 작업이 포함되어 있습니다. 이러한 작업을 사용하여 Workfront API에서 사용할 수 있는 것보다 더 정밀하게 증명을 수정하거나 구성할 수 있습니다.
 
-ProofHQ API에 대한 개요는 다음을 참조하십시오. [PoofHQ 개요](../../proofhq-api/general/overview.md). 다음을 참조할 수도 있습니다. [ProofHQ 설명서](https://api.proofhq.com/home.html).
+ProofHQ API에 대한 개요는 [PoofHQ 개요](../../proofhq-api/general/overview.md)를 참조하십시오. [ProofHQ 설명서](https://api.proofhq.com/home.html)를 참조할 수도 있습니다.
 
 >[!NOTE]
 >
@@ -41,11 +41,11 @@ ProofHQ API에 대한 개요는 다음을 참조하십시오. [PoofHQ 개요](..
 
 ### 고급 증명 옵션을 사용하여 증명 만들기
 
-1. 를 사용하여 증명 만들기 `Document createProof` Workfront API의 작업.
+1. Workfront API의 `Document createProof` 작업을 사용하여 증명을 만듭니다.
 
    >[!NOTE]
    >
-   증명을 만들 때 다음을 설정합니다. `{}` 을 위한 값으로 `advancedProofingOptions` 매개 변수.
+   >증명을 만들 때 `{}`을(를) `advancedProofingOptions` 매개 변수의 값으로 설정하십시오.
 
 1. 증명이 생성된 후 ProofHQ API를 사용하여 고급 옵션을 추가합니다.
 
@@ -53,15 +53,15 @@ ProofHQ API에 대한 개요는 다음을 참조하십시오. [PoofHQ 개요](..
 
 이 섹션에서는 ProofHQ API를 사용하여 업데이트할 수 있는 몇 가지 샘플 업데이트를 보여줍니다.
 
-**예시:**
+**예:**
 
-* [증명을 다운로드하고, 메시지를 남기고, 공개적으로 공유할 수 있습니다](#proof-can-be-downloaded-has-a-message-and-is-shared-publicly)
-* [단계가 비공개가 아니고 필수가 아니며 하나의 승인만 필요하도록 업데이트합니다](#update-a-stage-so-that-it-is-not-private-not-mandatory-and-requires-only-one-approval)
+* [증명을 다운로드하고 메시지를 사용하며 공개적으로 공유할 수 있습니다](#proof-can-be-downloaded-has-a-message-and-is-shared-publicly)
+* [단계가 비공개가 아니고 필수 단계가 아니며 하나의 승인만 필요하도록 업데이트하십시오](#update-a-stage-so-that-it-is-not-private-not-mandatory-and-requires-only-one-approval)
 * [기본 결정자가 없는 증명에 수신자 두 명 추가](#add-two-recipients-to-a-proof-with-no-primary-decision-maker)
 
-**증명을 다운로드하고, 메시지를 남기고, 공개적으로 공유할 수 있습니다**
+**증명을 다운로드하고 메시지를 사용하며 공개적으로 공유할 수 있습니다**
 
-이 끝점에 대한 설명서는 [ProofHQ API updateProof](https://api.proofhq.com/home/proofs/updateproof.html) 페이지를 가리키도록 업데이트하는 중입니다.
+이 끝점에 대한 설명서는 [ProofHQ API updateProof](https://api.proofhq.com/home/proofs/updateproof.html) 페이지에서 찾을 수 있습니다.
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -83,9 +83,9 @@ ProofHQ API에 대한 개요는 다음을 참조하십시오. [PoofHQ 개요](..
 </soapenv:Envelope>
 ```
 
-**단계가 비공개가 아니고 필수가 아니며 하나의 승인만 필요하도록 업데이트합니다**
+**단계가 비공개가 아니고 필수 단계가 아니며 하나의 승인만 필요하도록 업데이트하십시오**
 
-이 끝점에 대한 설명서는 [ProofHQ API updateWorkflowProofStage](https://api.proofhq.com/updateworkflowproofstage.html) 페이지를 가리키도록 업데이트하는 중입니다.
+이 끝점에 대한 설명서는 [ProofHQ API updateWorkflowProofStage](https://api.proofhq.com/updateworkflowproofstage.html) 페이지에서 찾을 수 있습니다.
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -108,9 +108,9 @@ ProofHQ API에 대한 개요는 다음을 참조하십시오. [PoofHQ 개요](..
 </soapenv:Envelope>
 ```
 
-**기본 결정자가 없는 증명에 수신자 두 명 추가**
+**기본 결정자가 없는 증명에 두 명의 받는 사람을 추가**
 
-이 끝점에 대한 설명서는 [ProofHQ API addWorkflowProofReviewers](https://api.proofhq.com/addworkflowproofreviewers.html) 페이지를 가리키도록 업데이트하는 중입니다.
+이 끝점에 대한 설명서는 [ProofHQ API addWorkflowProofReviewers](https://api.proofhq.com/addworkflowproofreviewers.html) 페이지에서 찾을 수 있습니다.
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -149,17 +149,17 @@ ProofHQ API에 대한 개요는 다음을 참조하십시오. [PoofHQ 개요](..
 
 ### 고급 증명 옵션을 사용하여 증명 만들기
 
-다음을 사용하여 Workfront API를 통해 증명을 만들 수 있습니다. `Document createProof` 작업. 이 작업은 `advancedProofingOptions` 매개 변수, 값 유형이 인 `string`. 고급 증명 옵션을 포함하려면 `createProof` 매크로 함수에서 옵션을 입력해야 합니다. `advancedProofingOptions` json 형식의 매개 변수.
+`Document createProof` 작업을 사용하여 Workfront API를 통해 증명을 만들 수 있습니다. 이 작업은 값 유형이 `string`인 `advancedProofingOptions` 매개 변수를 허용합니다. `createProof` 작업에 고급 증명 옵션을 포함하려면 `advancedProofingOptions` 매개 변수에 옵션을 JSON 형식으로 입력해야 합니다.
 
 >[!NOTE]
 >
-advancedProofingOptions JSON에 포함할 필드를 예측하기 어려울 수 있습니다. Workfront에서 고급 증명을 사용하는 동안 조직의 네트워크 데이터를 검사하고 조직에서 일반적으로 사용하는 필드 및 값을 기준으로 JSON을 작성할 수 있습니다.
+>advancedProofingOptions JSON에 포함할 필드를 예측하기 어려울 수 있습니다. Workfront에서 고급 증명을 사용하는 동안 조직의 네트워크 데이터를 검사하고 조직에서 일반적으로 사용하는 필드 및 값을 기준으로 JSON을 작성할 수 있습니다.
 >
-이러한 필드는 예측하기 어려울 수 있으므로 Workfront API를 사용하여 증명을 만든 다음 ProofHQ API를 사용하여 업데이트하는 것이 좋습니다. 자세한 내용은 [Workfront 및 ProofHQ API를 사용하여 증명 만들기(권장)](#create-a-proof-using-the-workfront-and-proofhq-apis-recommended) 이 문서에서
+>이러한 필드는 예측하기 어려울 수 있으므로 Workfront API를 사용하여 증명을 만든 다음 ProofHQ API를 사용하여 업데이트하는 것이 좋습니다. 자세한 내용은 이 문서의 [Workfront 및 ProofHQ API를 사용하여 증명 만들기(권장)](#create-a-proof-using-the-workfront-and-proofhq-apis-recommended)를 참조하십시오.
 
 ### 예
 
-이 예는 용 JSON을 작성할 때 사용할 수 있는 필드 및 형식을 보여 줍니다. `advancedProofingOptions` 매개 변수. 사용자 `advancedProofingOptions` JSON 파일에는 여기에 표시된 것보다 더 많거나 더 적은 필드가 있을 수 있습니다.
+이 예제에서는 `advancedProofingOptions` 매개 변수에 대한 JSON을 만들 때 사용할 수 있는 필드 및 형식을 보여 줍니다. `advancedProofingOptions` JSON 파일에는 여기에 표시된 것보다 많거나 적은 필드가 있을 수 있습니다.
 
 **예:**
 

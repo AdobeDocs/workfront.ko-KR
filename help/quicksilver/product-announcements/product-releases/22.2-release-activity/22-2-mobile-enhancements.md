@@ -25,7 +25,7 @@ in January 2022
 
 2022년 4월 4일이 있는 주
 
-22.2 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [22.2 릴리스 개요](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+22.2 릴리스에서 사용할 수 있는 모든 변경 사항 목록을 보려면 [22.2 릴리스 개요](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md)를 참조하십시오.
 
 ## 모바일 앱의 증명 문서에 대한 드로잉 및 주석
 

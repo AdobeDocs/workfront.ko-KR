@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: a28adc22-825f-401e-9ed2-efddaa297b8d
 source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1046'
 ht-degree: 1%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
@@ -46,11 +46,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준*</td> 
-   <td> <p>문제에 대한 액세스 편집</p> <p>프로젝트 및 작업에 대한 보기 또는 상위 액세스 권한</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. 액세스 수준의 문제에 대한 액세스와 관련된 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">문제에 대한 액세스 권한 부여</a>. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>. </p> </td> 
+   <td> <p>문제에 대한 액세스 편집</p> <p>프로젝트 및 작업에 대한 보기 또는 상위 액세스 권한</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. 액세스 수준의 문제에 액세스하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">문제에 액세스 권한 부여</a>를 참조하십시오. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>문제에 대한 권한 관리</p> <p>문제를 추가할 수 있는 권한으로 문제를 복사할 항목에 권한을 부여합니다.</p> <p> 문제에 대한 권한 부여에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">문제 공유 </a></p> <p>추가 권한 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>문제에 대한 권한 관리</p> <p>문제를 추가할 수 있는 권한으로 문제를 복사할 항목에 대한 Contribute 권한을 부여합니다.</p> <p> 문제에 대한 권한 부여에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">문제 공유 </a>를 참조하십시오.</p> <p>추가 권한 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 권한 요청을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -78,9 +78,9 @@ ht-degree: 1%
 
 문서가 포함되어 있거나 요청 대기열과 연관된 문제를 복사할 때에는 다음 사항을 고려하십시오.
 
-* **문제가 요청 대기열과 관련된 경우:** 문제를 다른 오브젝트에 복사하고 이 문제가 요청 대기열과 연결되면 첫 번째 문제가 발생한 원래 대기열과 복사된 문제가 더 이상 연결되지 않습니다.
-* **문서가 문제에 첨부될 때:** 문제를 다른 오브젝트에 복사하고 문제에 문서가 첨부된 경우 문서와 해당 버전도 새 문제로 이동합니다. 문서와 연결된 모든 증명 또는 승인은 이동하지 않습니다.
-* **문제가 문서 또는 폴더에 연결된 경우:** Google Drive와 같은 서드파티 서비스에 연결된 문서 또는 폴더가 있는 문제를 복사하면 문서에 대한 링크가 복사된 문제로 전송됩니다.
+* **문제가 요청 대기열과 연결되어 있는 경우:** 문제를 다른 개체로 복사하고 이 문제가 요청 대기열과 연결되어 있으면 복사된 문제가 첫 번째 문제가 발생한 원래 대기열과 더 이상 연결되지 않습니다.
+* **문서가 문제에 첨부되어 있을 때:** 문제를 다른 개체에 복사하고 문제에 문서가 첨부되어 있을 때 문서와 해당 버전이 새 문제로 이동합니다. 문서와 연결된 모든 증명 또는 승인은 이동하지 않습니다.
+* **문제가 문서 또는 폴더에 연결되어 있는 경우:** Google Drive와 같은 서드파티 서비스에 연결된 문서 또는 폴더가 있는 문제를 복사하면 문서에 연결된 링크가 복사된 문제로 이동합니다.
 
 ## 목록의 문제 복사
 
@@ -92,12 +92,12 @@ ht-degree: 1%
 
    문제 보고서로 이동합니다.
 
-1. 프로젝트로 이동하기로 선택한 경우 **문제** 왼쪽 패널에서
-1. 복사할 문제를 선택하고 **기타 메뉴** 문제 목록의 맨 위에서 을(를) 클릭한 다음 **복사 위치:**.
+1. 프로젝트로 이동하기로 선택한 경우 왼쪽 패널에서 **문제**&#x200B;를 클릭합니다.
+1. 복사할 문제를 선택하고 문제 목록의 맨 위에서 **추가 메뉴**&#x200B;를 클릭한 다음 **복사 위치**&#x200B;를 클릭합니다.
 
    ![](assets/copy-issue-in-list-nwe-350x169.png)
 
-1. 섹션에 설명된 대로 문제 복사를 계속합니다 [단일 문제 복사](#copy-a-single-issue) 2단계부터 시작합니다.
+1. 2단계부터 [단일 문제 복사](#copy-a-single-issue) 섹션에 설명된 대로 문제 복사를 계속하십시오.
 
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -109,30 +109,30 @@ ht-degree: 1%
 
 볼 때 하나의 문제를 복사할 수 있습니다.
 
-1. 복사할 문제로 이동한 다음 **자세히** 메뉴 ![](assets/more-icon.png) 문제 이름 오른쪽에 있는 다음 **복사** 받는 사람.
+1. 복사할 문제로 이동한 다음 문제 이름 오른쪽에 있는 **자세히** 메뉴 ![](assets/more-icon.png)을 클릭한 다음 **복사**&#x200B;를 클릭합니다.
 
    ![](assets/nwe-copy-at-issue-level-highlighted-350x580.png)
 
-   다음 **문제 복사** 상자가 표시됩니다.
+   **문제 복사** 상자가 표시됩니다.
 
    ![](assets/copy-issue-box-nwe-350x285.png)
 
-1. 다음에서 **대상 프로젝트 선택** 섹션에서 문제를 복사할 프로젝트의 이름을 지정합니다. 현재 프로젝트의 이름이 기본적으로 표시됩니다.
+1. **대상 프로젝트 선택** 섹션에서 문제를 복사할 프로젝트의 이름을 지정합니다. 현재 프로젝트의 이름이 기본적으로 표시됩니다.
 
    >[!TIP]
    >
    >100개의 프로젝트만 목록에 표시됩니다.
 
-1. (조건부) 클릭 **액세스 권한 요청** 프로젝트에 문제를 복사할 수 있는 액세스 권한이 없는 경우
+1. (조건부) 프로젝트에 문제를 복사할 수 있는 액세스 권한이 없는 경우 **액세스 권한 요청**&#x200B;을 클릭합니다.
 1. (조건부) 대상 프로젝트의 작업 중 하나에 문제를 추가할 수 있는 액세스 권한이 있는 경우 액세스 요청 없이 선택한 대상 프로젝트에 문제를 계속 복사합니다.
 
    ![](assets/copy-issue-request-access-from-project-nwe-350x125.png)
 
    >[!TIP]
    >
-   >Workfront 관리자가 이러한 프로젝트에 문제를 추가할 수 없도록 방지하면 선택한 프로젝트가 승인 보류 중, 완료 또는 정지된 경우에도 유사한 메시지가 표시됩니다. 자세한 내용은 [시스템 전체 프로젝트 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+   >Workfront 관리자가 이러한 프로젝트에 문제를 추가할 수 없도록 방지하면 선택한 프로젝트가 승인 보류 중, 완료 또는 정지된 경우에도 유사한 메시지가 표시됩니다. 자세한 내용은 [시스템 전체 프로젝트 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)을 참조하십시오.
 
-1. (선택 사항) **옵션** 섹션 아래 표에 나열된 항목 중 하나를 선택 해제하여 새 문제에서 제거하십시오. 기본적으로 모든 옵션이 선택되어 있습니다.
+1. (선택 사항) **옵션** 섹션에서 아래 표에 나열된 항목을 선택 해제하여 새 문제에서 제거하십시오. 기본적으로 모든 옵션이 선택되어 있습니다.
 
    >[!NOTE]
    >
@@ -152,7 +152,7 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader">문서</td> 
-      <td><span style="line-height: 1.5;">문서 버전, 연결된 문서 및 폴더를 포함하여 문서 탭의 모든 항목을 제거합니다.</span> <br>기본적으로 문서 증명 및 승인은 다른 문제로 복사할 수 없습니다.</td> 
+      <td><span style="line-height: 1.5;">문서 탭에서 문서 버전, 연결된 문서 및 폴더를 포함하여 모든 항목을 제거합니다.</span> <br>기본적으로 문서 증명 및 승인은 다른 문제로 복사할 수 없습니다.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">권한</td> 
@@ -170,7 +170,7 @@ ht-degree: 1%
    </table>
 
 1. (선택 사항) **작업 선택** 섹션에서 문제를 이동할 작업을 선택합니다.
-1. 클릭 **문제 복사** 또는 **문제 복사** 목록에서 여러 문제를 선택한 경우.
+1. 목록에서 문제를 여러 개 선택한 경우 **문제 복사** 또는 **문제 복사**&#x200B;를 클릭합니다.
 
    복사된 문제가 지정된 프로젝트에 추가됩니다.
 

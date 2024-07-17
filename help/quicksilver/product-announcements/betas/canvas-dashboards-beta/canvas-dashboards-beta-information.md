@@ -16,12 +16,12 @@ ht-degree: 0%
 
 # 캔버스 대시보드 베타 정보
 
-캔버스 대시보드 는 다양한 보고서 유형을 사용자 정의 가능한 캔버스에 추가하여 Adobe Workfront 데이터를 쉽게 시각화할 수 있는 현재 개발 중인 기능입니다. 베타 테스트 단계 동안 참여해 주신 데 대해 감사하지만, 일부 기능이 제대로 완료되지 않거나 제대로 작동하지 않을 수 있습니다. 의 지침에 따라 경험과 관련된 피드백을 제출하십시오. [피드백 제공](#provide-feedback) 아래 섹션.
+캔버스 대시보드 는 다양한 보고서 유형을 사용자 정의 가능한 캔버스에 추가하여 Adobe Workfront 데이터를 쉽게 시각화할 수 있는 현재 개발 중인 기능입니다. 베타 테스트 단계 동안 참여해 주신 데 대해 감사하지만, 일부 기능이 제대로 완료되지 않거나 제대로 작동하지 않을 수 있습니다. 아래 [피드백 제공](#provide-feedback) 섹션의 지침에 따라 경험에 대한 피드백을 제출하십시오.
 
-캔버스 대시보드 사용에 대한 기본 정보는 을 참조하십시오. [캔버스 대시보드 시작](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
-모든 캔버스 대시보드 설명서의 목록은 을 참조하십시오. [캔버스 대시보드 개요](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
+캔버스 대시보드 사용에 대한 기본 정보는 [캔버스 대시보드 시작](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)을 참조하십시오.
+모든 캔버스 대시보드 설명서의 목록은 [캔버스 대시보드 개요](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)를 참조하십시오.
 
-**베타 일정:**
+**Beta 일정:**
 
 * 마감된 Beta 시작 일자 - TBA
 * Beta 시작 날짜 열기 - TBA
@@ -33,25 +33,25 @@ ht-degree: 0%
 
 Beta에 등록하려면:
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리에서 을(를) 클릭하고 **대시보드**.
+1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![기본 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![기본 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **대시보드**&#x200B;를 클릭합니다.
 
-1. 다음을 클릭합니다. **캔버스 대시보드 Beta 가입** 페이지의 오른쪽 상단 모서리에 있는 Beta 버튼입니다.
+1. 페이지의 오른쪽 상단에 있는 **캔버스 대시보드 베타 가입** 베타 단추를 클릭합니다.
 
    >[!NOTE]
    >
    >이 버튼은 조직이 비공개 베타로 승인된 경우에만 사용할 수 있습니다. 공개 베타가 시작되면 모든 조직에서 사용할 수 있습니다.
 
-1. 용어를 읽은 다음 **Accept**. 이제 Beta에 등록되었습니다. 하지만 Canvas Dashboards에서 Workfront 데이터에 완전히 액세스할 수 있으려면 몇 분이 소요됩니다.
+1. 약관을 읽은 다음 **승인**&#x200B;을 클릭합니다. 이제 Beta에 등록되었습니다. 하지만 Canvas Dashboards에서 Workfront 데이터에 완전히 액세스할 수 있으려면 몇 분이 소요됩니다.
 
 ### 피드백 제공
 
 베타 과정에서 이 도구를 개발함에 따라 피드백을 받을 수 있습니다. 귀하의 경험을 당사와 공유하려면 아래 지침을 따르십시오.
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리에서 을(를) 클릭하고 **대시보드**.
+1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![기본 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![기본 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **대시보드**&#x200B;를 클릭합니다.
 
-1. 왼쪽 패널에서 **캔버스 대시보드**.
+1. 왼쪽 패널에서 **캔버스 대시보드**&#x200B;를 클릭합니다.
 
-1. 다음을 클릭합니다. **피드백 보내기** 페이지의 오른쪽 하단 모서리에 있는 버튼을 클릭한 다음 표시되는 양식에 피드백을 입력하고 을 클릭합니다 **제출**.
+1. 페이지의 오른쪽 하단에 있는 **피드백 보내기** 단추를 클릭한 다음 표시되는 양식에 피드백을 입력하고 **제출**&#x200B;을 클릭합니다.
 
 ## 계획된 기능
 

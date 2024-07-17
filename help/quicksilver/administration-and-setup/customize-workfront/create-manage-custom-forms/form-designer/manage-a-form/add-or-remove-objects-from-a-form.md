@@ -45,7 +45,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## 기존 사용자 정의 양식에 개체 유형 추가
 
@@ -55,26 +55,26 @@ ht-degree: 0%
 >
 >섹션 구분 권한은 객체 유형에 의해 영향을 받을 수 있습니다. 사용자 정의 양식 섹션 구분에 대한 제한된 편집 권한은 프로젝트, 작업, 문제 및 사용자 객체 유형에 대해서만 사용할 수 있습니다.
 >
->자세한 내용은 [여러 객체 유형이 섹션 구분 권한에 미치는 영향](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md#how-multiple-object-types-can-affect-section-break-permissions).
+>자세한 내용은 [여러 개체 유형이 섹션 구분 권한에 미치는 영향](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md#how-multiple-object-types-can-affect-section-break-permissions)을 참조하십시오.
 
 
 {{step-1-to-setup}}
 
-1. 클릭 **사용자 지정 Forms** 왼쪽 패널에서
+1. 왼쪽 패널에서 **사용자 지정 Forms**&#x200B;을 클릭합니다.
 
    표시되는 보기에서 조직에 대해 만들어진 모든 사용자 정의 양식을 검토할 수 있습니다. 각 양식을 만든 사용자, 양식 작성자가 작동하는 객체 유형 및 양식 활성화 여부도 확인할 수 있습니다.
 
-1. 추가 개체 유형을 추가할 사용자 정의 양식을 선택하고 ![편집 아이콘](assets/edit-icon2.png).
+1. 추가 개체 유형을 추가할 사용자 정의 양식을 선택한 다음 ![편집 아이콘](assets/edit-icon2.png)을 클릭합니다.
 
-1. 양식 맨 위에서 다음 더하기 기호 + 를 클릭합니다. **오브젝트 유형**&#x200B;을 클릭한 다음 표시되는 메뉴에서 원하는 유형을 선택합니다. 이 단계를 반복하여 원하는 만큼 객체 유형을 추가할 수 있습니다.
+1. 양식의 맨 위에서 **개체 유형** 뒤에 있는 더하기 기호 + 를 클릭한 다음 표시되는 메뉴에서 원하는 유형을 선택합니다. 이 단계를 반복하여 원하는 만큼 객체 유형을 추가할 수 있습니다.
 
    ![](assets/add-new-object.png)
 
-1. 클릭 **저장 및 닫기**.
+1. **저장 후 닫기**&#x200B;를 클릭합니다.
 
    >[!TIP]
    >
-   >다음을 클릭할 수 있습니다. **적용** 언제든지 사용자 정의 양식을 만들어 변경 사항을 저장하고 양식을 열어 둡니다.
+   >사용자 정의 양식을 만드는 동안 언제든지 **적용**&#x200B;을 클릭하여 변경 내용을 저장하고 양식을 열어 둘 수 있습니다.
 
 ## 사용자 정의 양식의 오브젝트 유형 삭제
 
@@ -90,11 +90,11 @@ ht-degree: 0%
 
 {{step-1-to-setup}}
 
-1. 클릭 **사용자 지정 Forms** 왼쪽 패널에서
-1. 편집할 사용자 정의 양식을 선택한 다음 ![편집 아이콘](assets/edit-icon2.png).
-1. 다음 중 하나에서 X를 클릭합니다. **오브젝트 유형** 양식에서 을(를) 삭제할 수 있습니다.
+1. 왼쪽 패널에서 **사용자 지정 Forms**&#x200B;을 클릭합니다.
+1. 편집할 사용자 정의 양식을 선택한 다음 ![편집 아이콘](assets/edit-icon2.png)을 클릭합니다.
+1. 양식에서 삭제할 **개체 형식**&#x200B;의 X를 클릭합니다.
 
    ![](assets/delete-object-types.png)
 
 1. (선택 사항) 양식에서 제거할 다른 객체 유형에 대해 이전 단계를 반복합니다.
-1. 클릭 **적용**&#x200B;을 클릭한 다음 을 클릭합니다 **저장 및 닫기**.
+1. **적용**&#x200B;을 클릭한 다음 **저장 및 닫기**&#x200B;를 클릭합니다.

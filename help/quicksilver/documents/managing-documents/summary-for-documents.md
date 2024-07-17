@@ -51,12 +51,12 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오. 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오. 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## 요약 보기 열기
 
-1. 로 이동 **문서** 영역을 지정하고 목록에서 항목을 선택합니다.
-1. 다음을 클릭합니다. **요약 열기 아이콘** ![](assets/qs-summary-in-new-toolbar-small.png).
+1. **문서** 영역으로 이동하여 목록에서 항목을 선택하십시오.
+1. **요약 열기 아이콘** ![](assets/qs-summary-in-new-toolbar-small.png)을 클릭합니다.
 
    요약은 다른 문서를 클릭할 때 열려 있는 상태로 유지되며 수동으로 닫을 때까지 열려 있습니다.
 
@@ -64,7 +64,7 @@ ht-degree: 3%
 
 ## 세부 정보
 
-세부 정보 섹션을 사용하여 높은 수준의 개요 정보를 보고 사용자 정의 양식과 상호 작용할 수 있습니다. 클릭 **세부 사항** 을 눌러 전체 문서 세부 정보 페이지로 이동합니다.
+세부 정보 섹션을 사용하여 높은 수준의 개요 정보를 보고 사용자 정의 양식과 상호 작용할 수 있습니다. 전체 문서 세부 정보 페이지로 이동하려면 섹션 상단의 **세부 정보**&#x200B;를 클릭합니다.
 
 * [개요](#overview)
 * [사용자 정의 양식](#custom-forms)
@@ -79,15 +79,15 @@ ht-degree: 3%
 
 ### 사용자 정의 양식 {#custom-forms}
 
-사용자 정의 Forms 섹션을 사용하여 문서와 연결된 모든 사용자 정의 양식을 추가, 편집 또는 볼 수 있습니다. 사용자 정의 양식의 이름을 입력하여 문서에 추가하십시오. 자세한 내용은 [문서에 사용자 정의 양식 추가 또는 편집](../../documents/managing-documents/add-custom-form-documents.md).
+사용자 정의 Forms 섹션을 사용하여 문서와 연결된 모든 사용자 정의 양식을 추가, 편집 또는 볼 수 있습니다. 사용자 정의 양식의 이름을 입력하여 문서에 추가하십시오. 자세한 내용은 [문서에 사용자 정의 양식 추가 또는 편집](../../documents/managing-documents/add-custom-form-documents.md)을 참조하십시오.
 
 ![](assets/add-custom-form-doc-summary-350x265.png)
 
 ## 업데이트
 
-업데이트 섹션을 사용하여 문서 또는 증명에 대한 업데이트를 읽습니다. 요약에는 처음 두 개의 주석이 표시됩니다. 업데이트에 대한 자세한 내용은 [증명에 주석 달기](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
+업데이트 섹션을 사용하여 문서 또는 증명에 대한 업데이트를 읽습니다. 요약에는 처음 두 개의 주석이 표시됩니다. 업데이트에 대한 자세한 내용은 [증명에 대한 댓글](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)을 참조하세요.
 
-![요약 패널의 업데이트 섹션](assets/summary-updates-section-new-comments.png)
+요약 패널의 ![업데이트 섹션](assets/summary-updates-section-new-comments.png)
 
 ## 승인
 
@@ -102,7 +102,7 @@ ht-degree: 3%
 
 ## 버전
 
-버전 섹션을 사용하여 특정 문서에 대해 작성된 버전 수를 볼 수 있습니다. 다음을 클릭합니다. **기타 메뉴** 끝
+버전 섹션을 사용하여 특정 문서에 대해 작성된 버전 수를 볼 수 있습니다. **추가 메뉴**&#x200B;를 클릭하여
 
 * 증명 열기
 * 증명 또는 문서 다운로드

@@ -26,21 +26,21 @@ ht-degree: 0%
 * Workfront 데이터의 외부 백업을 만들려고 합니다.
 * Workfront 웹 애플리케이션 내의 한 페이지에 2,000개의 결과만 표시하는 데는 제한이 있습니다. 보고서가 2,000개를 초과하는 경우 보고서를 사용 가능한 형식 중 하나로 내보내고 보고서의 모든 결과를 하나의 목록으로 볼 수 있습니다.
 
-Workfront 인터페이스에서 보고서를 수동으로 내보내거나 보고서 게재를 예약할 수 있으며 해당 보고서는 나중에 전송됩니다. 게재된 보고서 예약에 대한 자세한 내용은 [보고서 게재 개요](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+Workfront 인터페이스에서 보고서를 수동으로 내보내거나 보고서 게재를 예약할 수 있으며 해당 보고서는 나중에 전송됩니다. 배달된 보고서 예약에 대한 자세한 내용은 [보고서 배달 개요](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)를 참조하세요.
 
 이 문서의 정보는 다음 내보내기에는 적용되지 않습니다.
 
 * 차트 보고서에서 정보를 내보내는 중입니다.
 
-  차트 보고서 내보내기에 대한 자세한 내용은 [보고서에 차트 추가](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+  차트 보고서 내보내기에 대한 자세한 내용은 [보고서에 차트 추가](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md)를 참조하십시오.
 
 * 간트 차트에서 정보 내보내기
 
-  간트 차트 내보내기에 대한 자세한 내용은 [간트 차트를 PDF으로 내보내기](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md).
+  간트 차트 내보내기에 대한 자세한 내용은 [PDF으로 간트 차트 내보내기](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)를 참조하십시오.
 
 * 리소스 플래너에서 정보 내보내기.
 
-  리소스 플래너에서 정보를 내보내는 방법에 대한 자세한 내용은 의 &quot;내보내기 옵션&quot;을 참조하십시오 [리소스 플래너 탐색 개요](../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+  리소스 플래너에서 정보를 내보내는 방법에 대한 자세한 내용은 [리소스 플래너 탐색 개요](../../../resource-mgmt/resource-planning/resource-planner-navigation.md)의 &quot;내보내기 옵션&quot;을 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -76,7 +76,7 @@ Workfront 인터페이스에서 보고서를 수동으로 내보내거나 보고
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -84,7 +84,7 @@ Workfront 인터페이스에서 보고서를 수동으로 내보내거나 보고
 
 데이터를 내보내려면 먼저 보고서를 만들어야 합니다.
 
-보고서 만들기에 대한 자세한 내용은 [사용자 지정 보고서 만들기](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) 또는 [보고서 사본 만들기](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+보고서 만들기에 대한 자세한 내용은 [사용자 지정 보고서 만들기](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) 또는 [보고서 복사본 만들기](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md)를 참조하세요.
 
 ## 내보내기 형식 및 제한
 
@@ -110,10 +110,10 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 Workfront에 보고서가 표시되는 방식과 수동 내보내기, 배달된 보고서 또는 API를 통해 내보내는 방식에 따라 몇 가지 제한 사항이 있습니다.
 
 * **50,000개 셀:** Excel 파일에 대한 보고서 내보내기에 허용되는 최대 셀 수입니다.
-* **50,000행:** .pdf 및 탭으로 구분된 파일에 대한 보고서 내보내기에 허용되는 데이터 행 수입니다.
+* **50,000개 행:** .pdf 및 탭으로 구분된 파일에 대한 보고서 내보내기에 허용되는 데이터 행 수입니다.
 
-   * Excel .xls 파일의 경우 이 제한은 **65,000행**.
-   * Excel .xlsx 파일의 경우 이 제한은 다음과 같습니다 **100,000행**.
+   * Excel .xls 파일의 경우 이 제한은 **65,000행**&#x200B;입니다.
+   * Excel .xlsx 파일의 경우 이 제한은 **100,000행**&#x200B;입니다.
    * 이러한 제한은 열 머리글과 보고서에서 그룹화를 위한 행을 제외합니다. 예를 들어 보고서에 6개의 그룹화가 있고 50,000개의 데이터 행이 있는 경우 내보낸 파일의 행은 50,000개가 됩니다.
 
   >[!IMPORTANT]
@@ -127,9 +127,9 @@ Workfront에 보고서가 표시되는 방식과 수동 내보내기, 배달된 
 
   보고서에 50,000/ 65,000/ 100,000개 이상의 행이 있고 모든 데이터를 내보내려는 경우 필터 또는 프롬프트를 사용하여 데이터 로드를 줄이고 여러 내보내기를 수행하는 것이 좋습니다.
 
-  필터 사용에 대한 자세한 내용은 [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  필터 사용에 대한 자세한 내용은 [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)를 참조하세요.
 
-  프롬프트 사용에 대한 자세한 내용은 [보고서에 프롬프트 추가](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+  프롬프트 사용에 대한 자세한 내용은 [보고서에 프롬프트 추가](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)를 참조하십시오.
 
 * 이러한 제한은 다음 경우에 적용됩니다.
 
@@ -138,7 +138,7 @@ Workfront에 보고서가 표시되는 방식과 수동 내보내기, 배달된 
    * API 통합을 통한 내보내기.
    * 킥스타트를 통해 내보낸 데이터.
 
-     킥스타트를 통해 데이터를 내보내는 방법에 대한 자세한 내용은 [킥스타트를 통해 Adobe Workfront에서 데이터 내보내기](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
+     킥스타트를 통해 데이터를 내보내는 방법에 대한 자세한 내용은 [킥스타트를 통해 Adobe Workfront에서 데이터 내보내기](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)를 참조하십시오.
 
      >[!NOTE]
      >
@@ -146,11 +146,11 @@ Workfront에 보고서가 표시되는 방식과 수동 내보내기, 배달된 
 
    * 프로젝트에 대한 활용성 정보를 내보내는 중입니다.
 
-     프로젝트의 활용성 정보 내보내기에 대한 자세한 내용은 [자원 가동률 보고서 개요](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md#exporting-utilization-information-for-a-project).
+     프로젝트의 사용률 정보를 내보내는 방법에 대한 자세한 내용은 [리소스 사용률 보고서 개요](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md#exporting-utilization-information-for-a-project)를 참조하십시오.
 
-* **10MB 파일 크기:** 내보내기로 예약된 보고서의 파일 크기 제한. 이메일에 첨부된 내보낸 파일이 5MB보다 큰 경우 첨부된 내보낸 보고서 대신 파일을 다운로드할 수 있는 링크가 이메일로 전송됩니다.
-* **65,530개의 하이퍼링크:** Excel에서 65,530개 이상의 하이퍼링크가 포함된 문서에 적용하는 제한입니다. 이러한 문서는 수동으로 내보내거나 게재된 보고서에서 전송할 때 열 수 없습니다. Excel 문서에는 200개의 데이터 행만 있을 수 있지만 문서 내에 65,530개가 넘는 링크가 있으면 문서가 열리지 않습니다. 이 제한은 지원되는 다른 형식이 아닌 Excel 파일에만 적용됩니다. 
-* **256열**: 열이 256개를 초과하는 문서에 대해 Excel에서 지정한 제한입니다. 이러한 문서는 수동으로 내보내거나 게재된 보고서에서 전송할 수 없습니다. 이 제한은 지원되는 다른 형식이 아닌 Excel 파일에만 적용됩니다.
+* **10MB 파일 크기:** 배달 예약된 내보낸 보고서에 대한 파일 크기 제한입니다. 이메일에 첨부된 내보낸 파일이 5MB보다 큰 경우 첨부된 내보낸 보고서 대신 파일을 다운로드할 수 있는 링크가 이메일로 전송됩니다.
+* **65,530개의 하이퍼링크:** Excel에서 65,530개가 넘는 하이퍼링크가 포함된 문서에 적용한 제한입니다. 이러한 문서는 수동으로 내보내거나 게재된 보고서에서 전송할 때 열 수 없습니다. Excel 문서에는 200개의 데이터 행만 있을 수 있지만 문서 내에 65,530개가 넘는 링크가 있으면 문서가 열리지 않습니다. 이 제한은 지원되는 다른 형식이 아닌 Excel 파일에만 적용됩니다. 
+* **256열**: 열이 256개를 초과하는 문서에 Excel에서 지정한 제한입니다. 이러한 문서는 수동으로 내보내거나 게재된 보고서에서 전송할 수 없습니다. 이 제한은 지원되는 다른 형식이 아닌 Excel 파일에만 적용됩니다.
 
 한도를 초과하여 데이터를 내보내려고 하면 내보내기에서 예상되는 모든 데이터를 받지 못할 수 있습니다. 대신 수정된 보고서가 한도 내에서 생성됩니다.
 
@@ -171,7 +171,7 @@ Workfront에 보고서가 표시되는 방식과 수동 내보내기, 배달된 
 
    전체 목록을 내보내려면 모든 항목을 선택 해제한 상태로 둡니다.
 
-1. 클릭 **내보내기**&#x200B;을 클릭한 다음 형식을 선택합니다.
+1. **내보내기**&#x200B;를 클릭한 다음 형식을 선택합니다.
 
    <!--
    This note doesn't seem to be true (I tested with e reviewer and they could export the dashboard and its reports), and there's another article all about exporting dashboards. Lisa 12/23
@@ -183,7 +183,7 @@ Workfront에 보고서가 표시되는 방식과 수동 내보내기, 배달된 
 
    또는
 
-   다음을 클릭합니다. **내보내기** 아이콘 ![내보내기 아이콘](assets/export-icon-nwe.png)을 클릭한 다음 형식을 선택합니다.
+   **내보내기** 아이콘 ![내보내기 아이콘](assets/export-icon-nwe.png)을 클릭한 다음 형식을 선택합니다.
 
    PDF 내보내기에 사용할 수 있는 옵션은 Workfront 사용자 설정의 로케일 설정에 따라 다릅니다.
 
@@ -200,20 +200,20 @@ Workfront에 보고서가 표시되는 방식과 수동 내보내기, 배달된 
      -->
 
 1. (조건부) 사용하는 운영 체제에 따라 파일을 열거나 저장하는 옵션이 있을 수 있습니다. 연결된 응용 프로그램과 함께 파일을 열거나 하드 드라이브에 저장하십시오.
-1. 계속 [내보낸 문서 사용](#use-the-exported-document).
+1. [내보낸 문서 사용](#use-the-exported-document)을 계속합니다.
 
 ### 대시보드에서 데이터 내보내기 {#export-data-from-a-dashboard}
 
 대시보드에서 정보를 인쇄하거나 .pdf 파일로 내보낼 수 있습니다.
 
-대시보드에서 데이터를 내보내는 방법에 대한 자세한 내용은 [대시보드 내보내기](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
+대시보드에서 데이터를 내보내는 방법에 대한 자세한 내용은 [대시보드 내보내기](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md)를 참조하십시오.
 
 ## 내보낸 문서 사용 {#use-the-exported-document}
 
 * [파일 이름](#file-names)
 * [제목](#titles)
 * [타임스탬프](#timestamps)
-* [서식](#formatting)
+* [서식 지정](#formatting)
 * [링크](#links)
 * [브랜딩](#branding)
 
@@ -225,7 +225,7 @@ Workfront에 보고서가 표시되는 방식과 수동 내보내기, 배달된 
 
 객체 목록을 내보내면 객체 유형이 내보낸 파일에 파일 이름과 목록 제목으로 표시됩니다.
 
-작업 또는 문제 목록을 내보낼 때 **파일 이름** 은 다음 중 하나일 수 있습니다.
+작업 또는 문제 목록을 내보낼 때 **파일 이름**&#x200B;은(는) 다음 중 하나가 될 수 있습니다.
 
 * 프로젝트에서 작업 및 문제 목록을 내보낼 때:
 
@@ -234,14 +234,14 @@ Workfront에 보고서가 표시되는 방식과 수동 내보내기, 배달된 
 
 * 작업(하위 작업)에서 작업 및 문제 목록을 내보낼 때:
 
-   * **_project_name_the_task_name_Exported_Tasks**(*PDF, Excel, Excel(.xlsx) 또는 탭으로 구분된 형식)*
+   * **The_project_name_the_task_name_Exported_Tasks**(*PDF, Excel, Excel(.xlsx) 또는 탭으로 구분된 형식)*
    * **The_project_name_the_task_name_Exported_Issues**(*PDF, Excel, Excel(.xlsx) 또는 탭으로 구분된 형식)*
 
 프로젝트의 다른 객체 목록을 PDF 파일로 내보낼 때 내보낸 문서의 파일 이름은 내보낸 객체의 유형을 나타냅니다.\
 예를 들어 파일 이름은 다음과 같을 수 있습니다.
 
-* *내보낸 사용자*&#x200B;프로젝트에서 사람 탭을 내보낼 때(*PDF, Excel, Excel(.xlsx) 또는 탭으로 구분된 형식)*
-* *Exported_Risk*&#x200B;프로젝트에서 위험 목록을 내보낼 때(*PDF, Excel, Excel(.xlsx) 또는 탭으로 구분된 형식)*
+* *Exported_Users*, 프로젝트에서 사람 탭을 내보낼 때(*PDF, Excel, Excel(.xlsx) 또는 탭으로 구분된 형식)*
+* *Exported_Risk*, 프로젝트에서 위험 목록을 내보낼 때(*PDF, Excel, Excel(.xlsx) 또는 탭으로 구분된 형식)*
 
 #### 내보낸 보고서의 파일 이름 {#file-names-for-exported-reports}
 
@@ -268,8 +268,8 @@ Workfront에 보고서가 표시되는 방식과 수동 내보내기, 배달된 
 프로젝트의 다른 객체 목록을 PDF 파일로 내보낼 때 내보낸 문서의 제목은 내보낸 객체의 유형을 나타냅니다.\
 예를 들어 제목은 다음과 같을 수 있습니다.
 
-* *내보낸 사용자*&#x200B;프로젝트에서 사람 탭을 내보낼 때 다음을 수행하십시오.
-* *내보낸 위험*&#x200B;프로젝트에서 위험 목록을 내보낼 경우
+* 프로젝트에서 사람 탭을 내보낼 때 *내보낸 사용자*
+* 프로젝트에서 위험 목록을 내보낼 때 *내보낸 위험*
 
 #### 내보낸 보고서 제목 {#titles-for-exported-reports}
 
@@ -291,8 +291,8 @@ PDF 파일로 내보낸 보고서에는 제목이 있습니다.
 
 내보내는 문서 유형에 따라 다양한 위치에 타임스탬프가 표시됩니다.
 
-* **PDF:** 타임스탬프는 각 페이지의 바닥글과 파일 이름에 표시됩니다.
-* **Excel:** 타임스탬프는 파일 이름에 표시됩니다.
+* **PDF:** 타임스탬프가 각 페이지의 바닥글과 파일 이름에 표시됩니다.
+* **Excel:** 타임스탬프가 파일 이름에 표시됩니다.
 
 ### 서식 {#formatting}
 
@@ -306,7 +306,7 @@ PDF 파일로 내보낸 보고서에는 제목이 있습니다.
 >
 >내보내려는 데이터에 공유 열이 포함되어 있고 Excel 또는 탭으로 구분된 형식으로 내보내는 경우 이러한 열은 내보낸 파일로 구분됩니다.
 
-보고서에서 서식을 사용자 지정하는 방법에 대한 자세한 내용은 [보기에서 조건부 서식 사용](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+보고서에서 서식을 사용자 지정하는 방법에 대한 자세한 내용은 [보기에서 조건부 서식 사용](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)을 참조하십시오.
 
 ### 링크 {#links}
 
@@ -314,7 +314,7 @@ PDF 파일로 내보낸 보고서에는 제목이 있습니다.
 
 >[!TIP]
 >
->줄이 있는 경우 `valueformat=HTML` 사용자 정의 필드 열의 텍스트 모드에 나타나며 링크 값이 내보낸 .pdf 파일에 표시되지 않습니다. 텍스트 모드에서 열에 추가 코드 행을 입력해야 합니다.
+>줄 `valueformat=HTML`이(가) 사용자 지정 필드 열의 텍스트 모드로 표시되고 링크 값이 내보낸 .pdf 파일에 표시되지 않는 경우 텍스트 모드로 열에 추가 코드 줄을 입력해야 합니다.
 >
 >예를 들어 링크가 포함된 Q1 프로젝트 열기 라는 사용자 정의 필드가 있는 경우 다음 코드를 추가합니다.
 >
@@ -335,4 +335,4 @@ Workfront 관리자가 전역 탐색 막대에 대한 Workfront 인스턴스에 
 
 다른 형식으로 내보낸 데이터는 로고로 개인화할 수 없습니다.
 
-Workfront 인스턴스 및 전역 탐색 막대 브랜딩에 대한 자세한 내용은 [Adobe Workfront 인스턴스 브랜딩](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+Workfront 인스턴스 및 전역 탐색 표시줄을 브랜딩하는 방법에 대한 자세한 내용은 [Adobe Workfront 인스턴스 브랜딩](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)을 참조하십시오.

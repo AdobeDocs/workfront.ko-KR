@@ -21,7 +21,7 @@ Adobe Workfront DAM은 Adobe Workfront 내의 기본 DAM(디지털 에셋 관리
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [Adobe Workfront DAM 활성화](../../documents/workfront-dam-within-workfront/enable-wf-dam.md)
+* [Adobe Workfront DAM 사용](../../documents/workfront-dam-within-workfront/enable-wf-dam.md)
 * [Adobe Workfront DAM을 사용하여 문서 관리](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md)
-* [Adobe Workfront 라이센싱 역할 유형과 Adobe Workfront DAM 역할 유형 비교](../../documents/workfront-dam-within-workfront/difference-between-wf-dam-role-types.md)
+* [Adobe Workfront 라이선스 역할 유형과 Adobe Workfront DAM 역할 유형 비교](../../documents/workfront-dam-within-workfront/difference-between-wf-dam-role-types.md)
 * [Adobe Workfront DAM에 대한 도움말 액세스](../../documents/workfront-dam-within-workfront/access-help-workfront-dam.md)

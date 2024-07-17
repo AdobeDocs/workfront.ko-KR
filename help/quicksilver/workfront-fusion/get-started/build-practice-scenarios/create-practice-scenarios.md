@@ -14,12 +14,12 @@ ht-degree: 0%
 
 ---
 
-# 에서 연습 시나리오 만들기 [!DNL Adobe Workfront Fusion]
+# [!DNL Adobe Workfront Fusion]에서 연습 시나리오 만들기
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [에서 기본 시나리오 만들기 [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md)
-* [의 기본 시나리오에 트리거 모듈 추가 [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-trigger-to-simple-scenario.md)
-* [함수를 사용하여 의 간단한 시나리오로 프로젝트 업데이트 [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/update-a-project-simple-scenario.md)
-* [의 기본 시나리오에 필터 추가 [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-filter-simple-scenario.md)
-* [의 기본 시나리오에 웹후크 추가 [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-a-webhook.md)
+* [ [!DNL Adobe Workfront Fusion]에서 기본 시나리오 만들기](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md)
+* [ [!DNL Adobe Workfront Fusion]의 기본 시나리오에 트리거 모듈 추가](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-trigger-to-simple-scenario.md)
+* [함수를 사용하여  [!DNL Adobe Workfront Fusion]의 간단한 시나리오로 프로젝트를 업데이트하십시오.](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/update-a-project-simple-scenario.md)
+* [ [!DNL Adobe Workfront Fusion]의 기본 시나리오에 필터 추가](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-filter-simple-scenario.md)
+* [ [!DNL Adobe Workfront Fusion]의 기본 시나리오에 웹후크 추가](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-a-webhook.md)

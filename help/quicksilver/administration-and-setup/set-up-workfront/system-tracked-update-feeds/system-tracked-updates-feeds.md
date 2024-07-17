@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration
 navigation-topic: set-up-workfront
 title: 시스템 추적 업데이트 피드
-description: Adobe Workfront은 의 특정 오브젝트에서 발생하는 활동을 기록합니다. [!UICONTROL 업데이트] 영역입니다. 시스템 업데이트에는 객체에 발생한 변경 사항을 설명하는 간단한 메모가 포함되어 있습니다. [!DNL Workfront] 관리자는 시스템에서 추적해야 하는 변경 유형을 [!UICONTROL 업데이트] 섹션.
+description: Adobe Workfront은 [!UICONTROL 업데이트] 영역의 특정 개체에 대해 수행되는 활동을 기록합니다. 시스템 업데이트에는 객체에 발생한 변경 사항을 설명하는 간단한 메모가 포함되어 있습니다. [!DNL Workfront] 관리자는 [!UICONTROL 업데이트] 섹션에서 시스템이 추적할 변경 유형을 정의할 수 있습니다.
 author: Alina
 feature: System Setup and Administration
 role: Admin
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 <!--Audited: April, 2024-->
 
-Adobe Workfront은 의 특정 오브젝트에서 발생하는 활동을 자동으로 기록합니다. [!UICONTROL 업데이트] 섹션을 시스템 업데이트로 추가했습니다. 시스템 업데이트에는 객체에 발생한 변경 사항을 설명하는 간단한 메모가 포함되어 있습니다. [!DNL Workfront] 관리자는 시스템에서 추적해야 하는 변경 유형을 [!UICONTROL 업데이트] 섹션.
+Adobe Workfront은 [!UICONTROL 업데이트] 섹션의 특정 개체에 대해 수행되는 활동을 시스템 업데이트로 자동으로 기록합니다. 시스템 업데이트에는 객체에 발생한 변경 사항을 설명하는 간단한 메모가 포함되어 있습니다. [!DNL Workfront] 관리자는 [!UICONTROL 업데이트] 섹션에서 시스템이 추적할 변경 유형을 정의할 수 있습니다.
 
 이 섹션에는 다음 문서가 포함됩니다.
 

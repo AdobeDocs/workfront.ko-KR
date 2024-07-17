@@ -37,7 +37,7 @@ recommendations: noDisplay, noCatalog
 
 공식 필드는 레코드 유형의 다른 필드에 있는 기존 값과 기존 값을 계산하는 방법을 나타내는 함수를 사용하여 새 값을 생성합니다.
 
-자세한 내용은 이 문서의 &quot;수식&quot; 섹션을 참조하십시오 [필드 만들기](/help/quicksilver/planning/fields/create-fields.md).
+자세한 내용은 문서 [필드 만들기](/help/quicksilver/planning/fields/create-fields.md)의 &quot;수식&quot; 섹션을 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -81,13 +81,13 @@ recommendations: noDisplay, noCatalog
   </tr>
 <tr>
    <td role="rowheader"><p>권한</p></td>
-   <td> <p>작업 공간에 대한 권한 관리</a> </p>  
+   <td> <p>작업 영역</a>에 대한 권한 관리 </p>  
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p>
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>레이아웃 템플릿</p></td>
-   <td> <p>Workfront 또는 그룹 관리자는 레이아웃 템플릿에 계획 영역을 추가해야 합니다. 자세한 내용은 <a href="/help/quicksilver/planning/access/access-overview.md">액세스 개요</a>. </p>  
+   <td> <p>Workfront 또는 그룹 관리자는 레이아웃 템플릿에 계획 영역을 추가해야 합니다. 자세한 내용은 <a href="/help/quicksilver/planning/access/access-overview.md">액세스 개요</a>를 참조하십시오. </p>  
 </td>
   </tr>
 
@@ -108,7 +108,7 @@ recommendations: noDisplay, noCatalog
 
 ## 지원되는 공식
 
-Adobe Workfront Planning 공식 필드는 Workfront 계산된 필드의 모든 표현식을 지원합니다. 자세한 내용은 [계산된 데이터 표현식 개요](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Adobe Workfront Planning 공식 필드는 Workfront 계산된 필드의 모든 표현식을 지원합니다. 자세한 내용은 [계산된 데이터 식의 개요](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)를 참조하십시오.
 
 또한 Workfront Planning 공식 필드에 대해 다음 표현식을 지원합니다.
 
@@ -150,7 +150,7 @@ Adobe Workfront Planning 공식 필드는 Workfront 계산된 필드의 모든 �
    <td><strong>SETTIMEZONE</strong> </td> 
    <td> <p>날짜 및 시간의 시간대를 특정 시간대로 설정합니다.</p> <p>표현식의 형식은 다음과 같습니다.
 
-<code>SETTIMEZONE(일자,&#39;아메리카/로스앤젤레스&#39;)</code>
+<code>SETTIMEZONE(date,&#39;America/Los_Angeles&#39;)</code>
 </p>
    </td></tr>
 
@@ -158,7 +158,7 @@ Adobe Workfront Planning 공식 필드는 Workfront 계산된 필드의 모든 �
    <td><strong>WEEKOFYEAR</strong> </td> 
    <td> <p>1년의 주 수를 반환합니다. 선택적으로 주가 시작되는 요일을 지정할 수 있습니다(일요일은 1, 월요일은 2 사용). 생략하면 기본적으로 주가 일요일에 시작됩니다.</p> <p>표현식의 형식은 다음과 같습니다.
 
-<code>WEEKOFYEAR(일자,2)</code>
+<code>WEEKOFYEAR(date,2)</code>
 또는
 <code>WEEKOFYEAR(일자)</code>
 </p>

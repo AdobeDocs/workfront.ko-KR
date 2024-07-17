@@ -5,24 +5,24 @@ product-area: workfront-integrations;documents
 keywords: 커넥터
 navigation-topic: apps-and-their-modules
 title: Datadog 모듈
-description: 다음에서 [!DNL Adobe Workfront Fusion] 시나리오에서는 Datadog를 사용하는 워크플로를 자동화할 수 있을 뿐만 아니라 여러 타사 애플리케이션 및 서비스에 연결할 수도 있습니다.
+description: ' [!DNL Adobe Workfront Fusion] 시나리오에서는 Datadog를 사용하는 워크플로를 자동화하고 여러 타사 응용 프로그램 및 서비스에 연결할 수 있습니다.'
 author: Becky
 feature: Workfront Fusion
 exl-id: a0b4352d-a1ce-4459-a58e-71de860b8a90
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 1%
+source-wordcount: '851'
+ht-degree: 0%
 
 ---
 
-# [!DNL Datadog] 모듈
+# [!DNL Datadog]개 모듈
 
-다음에서 [!DNL Adobe Workfront Fusion] 시나리오에서는 다음을 사용하는 워크플로를 자동화할 수 있습니다 [!DNL Datadog]을 여러 타사 응용 프로그램 및 서비스에 연결할 수 있습니다.
+[!DNL Adobe Workfront Fusion] 시나리오에서는 [!DNL Datadog]을(를) 사용하는 워크플로를 자동화하고 여러 타사 응용 프로그램 및 서비스에 연결할 수 있습니다.
 
-시나리오를 만드는 방법에 대한 지침이 필요한 경우 [에서 시나리오 만들기 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+시나리오를 만드는 방법에 대한 지침이 필요하면 [시나리오 만들기 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md)를 참조하십시오.
 
-모듈에 대한 자세한 내용은 [의 모듈 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+모듈에 대한 자세한 내용은 [의 모듈 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md)을 참조하세요.
 
 ## 액세스 요구 사항
 
@@ -43,50 +43,50 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 라이센스**</td> 
    <td>
-   <p>현재 라이선스 요구 사항: 아니요 [!DNL Workfront Fusion] 라이센스 요구 사항.</p>
+   <p>현재 라이선스 요구 사항: [!DNL Workfront Fusion] 라이선스 요구 사항이 없습니다.</p>
    <p>또는</p>
-   <p>기존 라이선스 요구 사항: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
+   <p>레거시 라이선스 요구 사항: 작업 자동화 및 통합을 위한 [!UICONTROL [!DNL Workfront Fusion]] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">제품</td> 
    <td>
-   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime]이 있는 경우 [!DNL Adobe Workfront] 플랜, 조직은 다음을 구매해야 합니다. [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오. [!DNL Workfront Fusion] [!UICONTROL Ultimate]에 포함되어 있습니다. [!DNL Workfront] 계획.</p>
+   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime] [!DNL Adobe Workfront] 플랜이 있는 경우 조직에서 이 문서에 설명된 기능을 사용하려면 [!DNL Adobe Workfront Fusion]과(와) [!DNL Adobe Workfront]을(를) 구매해야 합니다. [!DNL Workfront Fusion]이(가) [!UICONTROL Ultimate] [!DNL Workfront] 계획에 포함되어 있습니다.</p>
    <p>또는</p>
-   <p>레거시 제품 요구 사항: 조직에서 구매해야 함 [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오.</p>
+   <p>레거시 제품 요구 사항: 이 문서에 설명된 기능을 사용하려면 조직에서 [!DNL Adobe Workfront Fusion]과(와) [!DNL Adobe Workfront]을(를) 구매해야 합니다.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
+보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
 
-다음에 대한 정보: [!DNL Adobe Workfront Fusion] 라이센스, 참조 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+[!DNL Adobe Workfront Fusion] 라이선스에 대한 자세한 내용은 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md)를 참조하세요.
 
 ## 전제 조건
 
-사용 [!DNL Datadog] 모듈, 다음이 있어야 합니다. [!DNL Datadog] 계정입니다.
+[!DNL Datadog] 모듈을 사용하려면 [!DNL Datadog] 계정이 있어야 합니다.
 
-## 연결 [!DNL Datadog] 끝 [!DNL Workfront Fusion] {#connect-datadog-to-workfront-fusion}
+## [!DNL Datadog]을(를) [!DNL Workfront Fusion]에 연결 {#connect-datadog-to-workfront-fusion}
 
 ### API 키 및 애플리케이션 키 검색 {#retrieve-your-api-key-and-application-key}
 
-을(를) 연결하려면 [!DNL Datadog] 계정 위치: [!DNL Workfront Fusion] 에서 API 키 및 애플리케이션 키를 검색해야 합니다. [!DNL Datadog] 계정입니다.
+[!DNL Datadog] 계정을 [!DNL Workfront Fusion]에 연결하려면 [!DNL Datadog] 계정에서 API 키와 응용 프로그램 키를 검색해야 합니다.
 
-1. 에 로그인 [!DNL Datadog] 계정입니다.
-1. 왼쪽 탐색 패널에서 을 클릭합니다. **[!UICONTROL 통합]**&#x200B;을 클릭한 다음 을 클릭합니다 **[!UICONTROL API]**.
-1. 기본 화면에서 다음을 클릭합니다. **[!UICONTROL API 키]**.
+1. [!DNL Datadog] 계정에 로그인합니다.
+1. 왼쪽 탐색 패널에서 **[!UICONTROL 통합]**&#x200B;을 클릭한 다음 **[!UICONTROL API]**&#x200B;를 클릭합니다.
+1. 기본 화면에서 **[!UICONTROL API 키]**&#x200B;를 클릭합니다.
 1. 보라색 막대 위로 마우스를 가져가 API 키를 표시합니다.
 1. API 키를 보안 위치에 복사합니다.
-1. 기본 화면에서 다음을 클릭합니다. **[!UICONTROL 애플리케이션 키]**.
+1. 기본 화면에서 **[!UICONTROL 응용 프로그램 키]**&#x200B;를 클릭합니다.
 1. 보라색 막대 위로 마우스를 가져가면 애플리케이션 키가 표시됩니다.
 1. 응용 프로그램 키를 보안 위치에 복사합니다.
 
-### 에 대한 연결 만들기 [!DNL Datadog] 위치: [!DNL Workfront Fusion]
+### [!DNL Workfront Fusion]의 [!DNL Datadog]에 연결 만들기
 
-에 대한 연결을 만들 수 있습니다. [!DNL Datadog] 내에서 직접 계정 [!UICONTROL Datadog] 모듈.
+[!UICONTROL Datadog] 모듈 내에서 직접 [!DNL Datadog] 계정에 연결할 수 있습니다.
 
-1. 다음 중 하나 [!UICONTROL Datadog] 모듈, 클릭 **[!UICONTROL 추가]** 다음 옆에 [!UICONTROL 연결] 필드.
+1. [!UICONTROL Datadog] 모듈에서 [!UICONTROL 연결] 필드 옆에 있는 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
 1. 다음과 같이 모듈의 필드를 채웁니다.
 
 <table style="table-layout:auto">
@@ -95,7 +95,7 @@ ht-degree: 1%
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL 연결 유형]</td> 
-      <td> <p> [!UICONTROL] 선택 [!DNL Datadog] 에 대한 전체 액세스 권한을 얻기 위한 Application] 옵션 [!DNL Datadog] API.</p> </td> 
+      <td> <p> [!DNL Datadog] API에 대한 전체 액세스 권한을 얻으려면 [!UICONTROL [!DNL Datadog] Application] 옵션을 선택하십시오.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 연결 이름]</td> 
@@ -107,33 +107,33 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL API 키]</td> 
-      <td> <p> 다음을 입력하십시오. [!DNL Datadog] API 키. </p> <p>API 키 검색에 대한 지침은 <a href="#retrieve-your-api-key-and-application-key" class="MCXref xref">API 키 및 애플리케이션 키 검색</a> 이 문서에서.</p> </td> 
+      <td> <p> [!DNL Datadog] API 키를 입력하십시오. </p> <p>API 키 검색에 대한 지침은 이 문서에서 <a href="#retrieve-your-api-key-and-application-key" class="MCXref xref">API 키 및 응용 프로그램 키 검색</a>을 참조하십시오.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 응용 프로그램 키]</td> 
-      <td> <p> 다음을 입력하십시오. [!DNL Datadog] 애플리케이션 키. </p> <p>응용 프로그램 키 검색에 대한 지침은 <a href="#retrieve-your-api-key-and-application-key" class="MCXref xref">API 키 및 애플리케이션 키 검색</a> 이 문서에서.</p> </td> 
+      <td> <p> [!DNL Datadog] 응용 프로그램 키를 입력하십시오. </p> <p>응용 프로그램 키 검색에 대한 지침은 이 문서에서 <a href="#retrieve-your-api-key-and-application-key" class="MCXref xref">API 키 및 응용 프로그램 키 검색</a>을 참조하십시오.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 클릭 **[!UICONTROL 계속]** 를 클릭하여 연결을 만들고 모듈로 돌아갑니다.
+1. 연결을 만들고 모듈로 돌아가려면 **[!UICONTROL 계속]**&#x200B;을 클릭하세요.
 
-## [!DNL Datadog] 모듈 및 해당 필드
+## [!DNL Datadog]개 모듈 및 해당 필드
 
-를 구성할 때 [!DNL Datadog] 모듈, [!DNL Workfront Fusion] 아래 나열된 필드를 표시합니다. 이와 함께 추가 [!DNL Datadog] 앱이나 서비스의 액세스 수준 등에 따라 필드가 표시될 수 있습니다. 모듈의 굵은 제목은 필수 필드를 나타냅니다.
+[!DNL Datadog] 모듈을 구성할 때 [!DNL Workfront Fusion]에 아래 나열된 필드가 표시됩니다. 앱 또는 서비스의 액세스 수준과 같은 요소에 따라 이러한 필드와 함께 [!DNL Datadog] 필드가 추가로 표시될 수 있습니다. 모듈의 굵은 제목은 필수 필드를 나타냅니다.
 
-필드나 함수 위에 맵 단추가 표시되면 이 단추를 사용하여 해당 필드에 대한 변수와 함수를 설정할 수 있습니다. 자세한 내용은 [의 한 모듈에서 다른 모듈로 정보 매핑 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+필드나 함수 위에 맵 단추가 표시되면 이 단추를 사용하여 해당 필드에 대한 변수와 함수를 설정할 수 있습니다. 자세한 내용은 [한 모듈에서 다른 모듈로 정보를 매핑 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)을 참조하십시오.
 
 ![](assets/map-toggle-350x74.png)
 
 ### 액션
 
-* [[!UICONTROL 시계열 점수 게시]](#post-timeseries-points)
+* [[!UICONTROL Post 시계열 지점]](#post-timeseries-points)
 * [[!UICONTROL API 호출 만들기]](#make-an-api-call)
 
-#### [!UICONTROL 시계열 점수 게시]
+#### [!UICONTROL Post 시계열 지점]
 
-모듈을 사용하면 그래프로 표시할 수 있는 시계열 데이터를 게시할 수 있습니다 [!DNL Datadog]의 대시보드.
+모듈을 사용하면 [!DNL Datadog]의 대시보드에 그래프로 표시할 수 있는 시계열 데이터를 게시할 수 있습니다.
 
 압축 페이로드의 제한은 압축 해제된 페이로드의 경우 3.2메가바이트(3200000) 및 62메가바이트(62914560)입니다.
 
@@ -143,11 +143,11 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Datadog] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-datadog-to-workfront-fusion" class="MCXref xref">연결 [!DNL Datadog] 끝 [!DNL Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL Datadog] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-datadog-to-workfront-fusion" class="MCXref xref">[!DNL Datadog]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Series]</td> 
-   <td> <p>제출하려는 시계열 추가 [!DNL Datadog].</p> 
+   <td> <p>[!DNL Datadog]에 제출할 시계열을 추가합니다.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL 지표]</strong> </p> <p>시계열의 이름을 입력합니다.</p> </li> 
      <li> <p><strong>[!UICONTROL 유형]</strong> </p> <p>지표 유형을 선택합니다.</p> </li> 
@@ -169,15 +169,15 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Datadog] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-datadog-to-workfront-fusion" class="MCXref xref">연결 [!DNL Datadog] 끝 [!DNL Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL Datadog] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-datadog-to-workfront-fusion" class="MCXref xref">[!DNL Datadog]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
-   <td>상대 경로 입력 <code>https://api.datadoghq.com/api/</code>. 예:<code> /v1/org</code>.</td> 
+   <td><code>https://api.datadoghq.com/api/</code>과(와) 관련된 경로를 입력하십시오. 예: <code> /v1/org</code>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 메서드]</td> 
-   <td> <p>API 호출을 구성하는 데 필요한 HTTP 요청 메서드를 선택합니다. 자세한 내용은 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">의 HTTP 요청 메서드 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>API 호출을 구성하는 데 필요한 HTTP 요청 메서드를 선택합니다. 자세한 내용은 [!DNL Adobe Workfront Fusion]</a>에서 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">HTTP 요청 메서드를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -189,7 +189,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>표준 JSON 개체의 형태로 API 호출에 대한 본문 콘텐츠를 추가합니다.</p> <p>참고:  <p>다음과 같은 조건문을 사용할 때 <code>if</code> json에서 따옴표를 조건문 외부에 넣습니다.</p> 
+   <td> <p>표준 JSON 개체의 형태로 API 호출에 대한 본문 콘텐츠를 추가합니다.</p> <p>참고:  <p>JSON에서 <code>if</code>과(와) 같은 조건문을 사용할 때 따옴표를 조건문 외부에 넣으십시오.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -197,7 +197,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-**예:** 다음 API 호출은 [!DNL Datadog] 계정:
+**예:** 다음 API 호출은 [!DNL Datadog] 계정의 모든 대시보드를 반환합니다.
 
 URL: `/v1/dashboard`
 

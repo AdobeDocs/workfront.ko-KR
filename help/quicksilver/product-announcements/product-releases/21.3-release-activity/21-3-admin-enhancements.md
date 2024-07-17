@@ -17,7 +17,7 @@ ht-degree: 0%
 
 이 페이지에서는 미리보기 환경에 대한 21.3 릴리스의 모든 관리자 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2021년 7월 21일이 있는 주에 프로덕션 환경에서 사용할 수 있습니다.
 
-21.3 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [21.3 릴리스 개요](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+21.3 릴리스에서 사용할 수 있는 모든 변경 사항 목록을 보려면 [21.3 릴리스 개요](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md)를 참조하십시오.
 
 ## 프로덕션 환경에서 21.3 릴리스와 함께 사용 가능한 블루프린트
 
@@ -25,9 +25,9 @@ ht-degree: 0%
 
 블루프린트는 사용자와 함께 성장하는 작업 관리 시스템을 만드는 데 도움이 되는 기본 구성 요소를 제공합니다. 시스템 관리자는 블루프린트 카탈로그를 검색하고 바로 사용할 수 있는 프로젝트 템플릿을 설치할 수 있습니다.
 
-자세한 내용은 [블루프린트 개요](../../../administration-and-setup/blueprints/blueprints-overview.md).
+자세한 내용은 [블루프린트 개요](../../../administration-and-setup/blueprints/blueprints-overview.md)를 참조하십시오.
 
-이 기능은 이제 [새로운 Workfront 환경의 프로젝트 템플릿](https://one.workfront.com/s/learningpath4/project-templates-in-the-new-workfront-experience-MCGLS7GRNLDZDFPF6AEOGIDZFDG4) Workfront One의 학습 경로.
+이 기능은 이제 Workfront One의 [새 Workfront 경험의 프로젝트 템플릿](https://one.workfront.com/s/learningpath4/project-templates-in-the-new-workfront-experience-MCGLS7GRNLDZDFPF6AEOGIDZFDG4) 학습 경로에 포함되어 있습니다.
 
 ## 그룹 관리자를 위한 새로운 기능: 모든 수준에서 그룹에 대한 상태를 만들고 관리합니다.
 
@@ -43,13 +43,13 @@ Workfront 관리자는 (모든 그룹에 대해) 이러한 작업을 수행할 �
 
 이전에는 이 기능을 최상위 그룹에만 사용할 수 있었습니다.
 
-자세한 내용은 [그룹 상태 관리](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md).
+자세한 내용은 [그룹 상태 관리](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md)를 참조하십시오.
 
 ## 관리자용 새로운 기능: 청구 기록 사용자 정의 양식 만들기
 
 이제 청구 기록 사용자 정의 양식을 만들어 사용자가 청구 정보를 캡처하는 방법을 개선할 수 있습니다. 사용자는 사용자 정의 양식을 청구 기록에 첨부하고, 작성하고, 양식에 정보가 포함된 보고서를 실행할 수 있습니다.
 
-사용자 정의 양식 만들기에 대한 자세한 내용은 [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+사용자 정의 양식 만들기에 대한 자세한 내용은 [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)을 참조하십시오.
 
-청구 기록 사용자 정의 양식을 프로젝트에 첨부하는 방법에 대한 자세한 내용은 [오브젝트에 사용자 정의 양식 추가](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+청구 기록 사용자 정의 양식을 프로젝트에 첨부하는 방법에 대한 자세한 내용은 [개체에 사용자 정의 양식 추가](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)를 참조하십시오.
 

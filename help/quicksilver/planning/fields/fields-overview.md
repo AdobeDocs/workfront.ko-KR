@@ -35,7 +35,7 @@ hide: yes
 
 * 레코드 유형 페이지의 테이블 보기에서만 필드를 만들 수 있습니다. 필드는 표 보기에서 열로 표시됩니다. 레코드 유형과 연관된 모든 필드도 레코드 페이지에 표시됩니다.
 
-  테이블 열(또는 레코드 필드) 관리에 대한 자세한 내용은 [표 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md).
+  테이블 열 또는 레코드 필드 관리에 대한 자세한 내용은 [테이블 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md)를 참조하십시오.
 
   필드 관리에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
@@ -58,9 +58,9 @@ hide: yes
 
         <!--* Importing record types with fields using a CSV or an Excel file. - this is not available yet-->
 
-        레코드 종류 연결에 대한 자세한 내용은 [레코드 유형 연결](/help/quicksilver/planning/architecture/connect-record-types.md).
+        레코드 종류 연결에 대한 자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
 
-      * Excel 또는 CSV 파일을 사용하여 레코드 유형을 가져옵니다. 자세한 내용은 [레코드 유형 만들기](/help/quicksilver/planning/architecture/create-record-types.md).
+      * Excel 또는 CSV 파일을 사용하여 레코드 유형을 가져옵니다. 자세한 내용은 [레코드 종류 만들기](/help/quicksilver/planning/architecture/create-record-types.md)를 참조하세요.
 
    * 자동:
 
@@ -79,11 +79,11 @@ hide: yes
 
         값을 더 추가하거나 기존 값의 이름을 변경할 수 있습니다.
 
-     템플릿에서 작업 영역을 만들 때 Workfront Planning은 레코드 유형에 대한 필드를 만듭니다. 자세한 내용은 [작업 공간 만들기](/help/quicksilver/planning/architecture/create-workspaces.md).
+     템플릿에서 작업 영역을 만들 때 Workfront Planning은 레코드 유형에 대한 필드를 만듭니다. 자세한 내용은 [작업 영역 만들기](/help/quicksilver/planning/architecture/create-workspaces.md)를 참조하십시오.
 
 * Workfront Planning 필드는 Workfront에서 액세스할 수 없습니다.
 
-* Workfront 필드는 레코드 유형을 Workfront 개체 유형과 연결하고 Workfront 개체에서 연결 또는 조회 필드를 추가하는 경우에만 Workfront Planning에서 액세스할 수 있습니다. 자세한 내용은 [레코드 유형 연결](/help/quicksilver/planning/architecture/connect-record-types.md).
+* Workfront 필드는 레코드 유형을 Workfront 개체 유형과 연결하고 Workfront 개체에서 연결 또는 조회 필드를 추가하는 경우에만 Workfront Planning에서 액세스할 수 있습니다. 자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
 
 * 필드가 속한 작업 영역에 대한 관리 권한이 있는 경우 사용자 또는 다른 사용자가 만든 필드의 설정을 보고 업데이트할 수 있습니다.
 

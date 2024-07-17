@@ -10,7 +10,7 @@ role: Admin
 exl-id: 7832986b-a5e8-4f14-8802-d3b8e32b14bc
 source-git-commit: 970cc86b00dc1afe0473ac3a387e7ce47e4a2433
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '724'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ Workfront 구현 중에 인증 환경 설정을 구성하고 이후에 가끔씩
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td>모든</td> 
+   <td>임의</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -43,20 +43,20 @@ Workfront 구현 중에 인증 환경 설정을 구성하고 이후에 가끔씩
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>Workfront 관리자여야 합니다.</p> <p><b>참고</b>: 아직 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가적인 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td> <p>Workfront 관리자여야 합니다.</p> <p><b>참고</b>: 아직 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정했는지 문의하세요. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 인증 구성(모든 고객이 사용 가능) {#configure-authentication-available-for-all-customers}
 
-모든 고객에 대해 인증 옵션이 표시됩니다. 향상된 암호 관리 기능이 곧 제공될 예정이거나 섹션에 설명된 대로 조직에서 이미 사용할 수 있습니다 [향상된 인증 구성)](#configure-enhanced-authentication-coming-soon) 이 문서에서.
+모든 고객에 대해 인증 옵션이 표시됩니다. 이 문서의 [향상된 인증 구성)](#configure-enhanced-authentication-coming-soon) 섹션에 설명된 대로 암호 관리 기능이 개선되어 곧 출시되거나 조직에서 이미 사용할 수 있습니다.
 
 인증 기본 설정을 구성하려면 다음을 수행합니다.
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 상단에서 을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png).
+1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
 
-1. 클릭 **시스템** > **인증**.
+1. **시스템** > **인증**&#x200B;을 클릭합니다.
 
 1. 다음 필드 중 하나를 선택하여 조직에 대한 인증 설정을 설정합니다.
 
@@ -65,20 +65,20 @@ Workfront 구현 중에 인증 환경 설정을 구성하고 이후에 가끔씩
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">사용자가 다음 간격마다 암호를 재설정하도록 강제 <em>&lt;value&gt;</em> 일</td> 
+      <td role="rowheader">사용자가 <em>&lt;값&gt;</em>일마다 암호를 재설정하도록 강제 설정</td> 
       <td>이렇게 하면 사용자가 Workfront 암호를 재설정할 수 있는 시간대가 설정됩니다. 기본적으로 이 옵션은 비활성화되어 있습니다. 활성화하면 30일, 60일, 90일, 120일, 180일 중에서 선택할 수 있습니다. 기본값은 30일입니다.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">사용자가 이전 암호와 동일한 암호를 설정하지 못하도록 합니다. <em>&lt;value&gt;</em> 암호</td> 
+      <td role="rowheader">사용자가 이전 <em>&lt;값&gt;</em> 암호와 동일한 암호를 설정하지 못하도록 합니다.</td> 
       <td> <p>이 필드에서는 사용자가 설정된 재설정 횟수에 대해 암호를 재사용할 수 없습니다. 기본적으로 이 필드는 비활성화되어 있습니다. 이 값을 활성화하면 암호를 재사용하기 전에 이 값을 5, 10 또는 15 재설정으로 설정할 수 있습니다.</p> <p>이 옵션을 선택하면 사용자는 하루에 두 번 이상 암호를 재설정할 수 없습니다</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">잘못된 암호를 연속 5회 입력하면 다음 계정을 잠급니다. <em>&lt;value&gt;</em> 분: </td> 
-      <td> <p>잘못된 암호를 연속 5회 입력한 후 사용자가 Workfront에서 얼마나 오래 잠길지 선택합니다. 기본적으로 이 옵션이 활성화되어 있으며 대기 시간은 10분입니다. 계정을 10분, 30분, 1시간, 8시간 또는 24시간 동안 잠글 수 있습니다. </p> <p>사용자의 암호를 수동으로 재설정하면 이 기본 대기 값이 무시됩니다. <br>사용자는 로그인 화면을 통해 잠겨 있을 때 암호를 재설정할 수 있습니다. 암호를 잊어버린 경우 암호를 재설정하는 방법에 대한 자세한 내용은 <a href="../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md" class="MCXref xref">암호 재설정</a>.</p> </td> 
+      <td role="rowheader">잘못된 암호를 연속 5회 입력하면 <em>&lt;값&gt;</em>분 동안 계정을 잠급니다. </td> 
+      <td> <p>잘못된 암호를 연속 5회 입력한 후 사용자가 Workfront에서 얼마나 오래 잠길지 선택합니다. 기본적으로 이 옵션이 활성화되어 있으며 대기 시간은 10분입니다. 계정을 10분, 30분, 1시간, 8시간 또는 24시간 동안 잠글 수 있습니다. </p> <p>사용자의 암호를 수동으로 재설정하면 이 기본 대기 값이 무시됩니다. <br>사용자가 로그인 화면을 통해 잠겨 있을 때 암호를 재설정할 수 있습니다. 암호를 잊어버린 경우 암호를 재설정하는 방법에 대한 자세한 내용은 <a href="../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md" class="MCXref xref">암호 재설정</a>을 참조하십시오.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">암호에는 최소한 다음이 포함되어야 합니다. <em>&lt;value&gt;</em> 다른 문자 유형:</td> 
-      <td> <p>암호에 필요한 여러 유형의 문자 수를 선택할 수 있도록 하여 사용자 암호가 얼마나 강력해야 하는지 결정합니다.</p> <p>인식할 수 있는 사전의 단어는 암호로 사용할 수 없습니다.<br>기본적으로 Workfront에서는 다음 중 최소 2개가 암호에 있어야 합니다(올바른 암호를 위해 이러한 문자 중 3개가 있어야 할 수도 있음). </p> 
+      <td role="rowheader">암호에는 <em>&lt;값&gt;</em>개 이상의 다른 문자 유형이 포함되어야 합니다.</td> 
+      <td> <p>암호에 필요한 여러 유형의 문자 수를 선택할 수 있도록 하여 사용자 암호가 얼마나 강력해야 하는지 결정합니다.</p> <p>인식할 수 있는 사전의 단어는 암호로 사용할 수 없습니다.<br>기본적으로 Workfront의 암호에는 다음 문자 중 최소 2개가 있어야 합니다(올바른 암호를 위해 이 문자 중 3개가 있어야 할 수도 있음). </p> 
        <ul> 
         <li>대문자</li> 
         <li>소문자</li> 
@@ -93,14 +93,14 @@ Workfront 구현 중에 인증 환경 설정을 구성하고 이후에 가끔씩
 
 ## 향상된 인증 구성{#configure-enhanced-authentication-coming-soon}
 
-이 섹션에서는 조직에서 아직 사용할 수 없는 향상된 인증 환경에 대해 설명합니다. 조직이 새 인증 환경으로 마이그레이션되지 않은 경우에 설명된 대로 인증 설정을 구성해야 합니다 [인증 구성(모든 고객이 사용 가능)](#configure-authentication-available-for-all-customers).
+이 섹션에서는 조직에서 아직 사용할 수 없는 향상된 인증 환경에 대해 설명합니다. 조직이 새 인증 환경으로 마이그레이션되지 않은 경우 [인증 구성(모든 고객이 사용 가능)](#configure-authentication-available-for-all-customers)에 설명된 대로 인증 설정을 구성해야 합니다.
 
 향상된 인증 기본 설정을 구성하려면 다음을 수행하십시오.
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 상단에서 을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png).
+1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
 
-1. 클릭 **시스템** > **향상된 인증**.
-1. 다음에서 **암호 길이** 상자에 유효한 암호에 필요한 최소 문자 수를 입력합니다.
+1. **시스템** > **향상된 인증**&#x200B;을 클릭합니다.
+1. **암호 길이** 상자에 올바른 암호에 필요한 최소 문자 수를 입력합니다.
 
    Workfront에는 최소 6자가 필요합니다.
 

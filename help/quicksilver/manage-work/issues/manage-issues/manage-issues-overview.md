@@ -24,7 +24,7 @@ ht-degree: 0%
 * [문제 할당](../../../manage-work/issues/manage-issues/assign-issues.md)
 * [문제 보기](../../../manage-work/issues/manage-issues/view-issues.md)
 * [문제 편집](../../../manage-work/issues/manage-issues/edit-issues.md)
-* [목록에서 문제 편집](../../../manage-work/issues/manage-issues/edit-issues-in-a-list.md)
+* [목록의 문제 편집](../../../manage-work/issues/manage-issues/edit-issues-in-a-list.md)
 * [문제 복사](../../../manage-work/issues/manage-issues/copy-issues.md)
 * [문제 이동](../../../manage-work/issues/manage-issues/move-issues.md)
 * [문제 삭제](../../../manage-work/issues/manage-issues/delete-issues.md)

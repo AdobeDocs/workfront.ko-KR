@@ -17,21 +17,21 @@ ht-degree: 2%
 
 <!-- Audited: 1/2024 -->
 
-Adobe Workfront 관리자는 액세스 수준을 할당할 때 프로젝트를 보거나 편집할 수 있는 액세스 권한을 부여할 수 있습니다. 자세한 내용은 [프로젝트에 대한 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
+Adobe Workfront 관리자는 액세스 수준을 할당할 때 프로젝트를 보거나 편집할 수 있는 액세스 권한을 부여할 수 있습니다. 자세한 내용은 [프로젝트에 대한 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)를 참조하십시오.
 
-사용자에게 부여된 액세스 수준과 함께 공유할 액세스 권한이 있는 특정 프로젝트를 보거나, 기여하거나, 관리할 수 있는 권한을 부여할 수도 있습니다.
+사용자에게 부여된 액세스 수준과 함께 공유할 액세스 권한이 있는 특정 프로젝트를 보기, Contribute 또는 관리할 수 있는 권한을 부여할 수도 있습니다.
 
 권한은 Workfront의 한 항목에 한정되며, 해당 항목에 대해 수행할 수 있는 작업을 정의합니다.
 
 ## 프로젝트 공유에 대한 고려 사항
 
-아래의 고려 사항 외에 을 참조하십시오. [오브젝트에 대한 공유 권한 개요](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+아래 고려 사항 외에 [개체에 대한 공유 권한 개요](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)를 참조하십시오.
 
 * 기본적으로 프로젝트 작성자는 프로젝트를 관리할 수 있는 권한이 있으며 프로젝트 소유자로도 지정됩니다. 프로젝트가 다른 소유자에게 할당된 경우 해당 사용자도 프로젝트를 관리할 수 있는 권한이 있습니다. 프로젝트 작성자(또는 소유자)가 프로젝트를 다른 사용자와 공유할 때 사용자는 프로젝트에서 작업하면서 수행할 수 있는 작업을 제어할 수 있는 특정 권한을 해당 사용자에게 부여합니다.
 
-  그러나 프로젝트 소유자에게 플래너 라이선스가 없는 경우 프로젝트를 관리할 수 있는 전체 액세스 권한이 없습니다. 플랜 라이선스가 있는 사용자만 프로젝트를 관리할 수 있는 권한을 가질 수 있습니다. 자세한 내용은 [액세스 수준 및 권한이 함께 작동하는 방식](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+  그러나 프로젝트 소유자에게 플래너 라이선스가 없는 경우 프로젝트를 관리할 수 있는 전체 액세스 권한이 없습니다. 플랜 라이선스가 있는 사용자만 프로젝트를 관리할 수 있는 권한을 가질 수 있습니다. 자세한 내용은 [액세스 수준과 사용 권한이 함께 작동하는 방법](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)을 참조하세요.
 
-* 프로젝트를 개별적으로 공유하거나 여러 개의 프로젝트를 한 번에 공유할 수 있습니다. 프로젝트 공유는 다른 오브젝트 공유와 동일합니다. Workfront에서의 항목 공유에 대한 자세한 내용은 [개체 공유](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+* 프로젝트를 개별적으로 공유하거나 여러 개의 프로젝트를 한 번에 공유할 수 있습니다. 프로젝트 공유는 다른 오브젝트 공유와 동일합니다. Workfront에서 항목을 공유하는 방법에 대한 자세한 내용은 [개체 공유](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)를 참조하십시오.
 * 프로젝트에 다음 권한을 부여할 수 있습니다.
 
    * 보기
@@ -42,11 +42,11 @@ Adobe Workfront 관리자는 액세스 수준을 할당할 때 프로젝트를 �
 
 * 프로젝트를 공유할 때는 별도로 지정하지 않는 한 모든 작업, 문제 및 문서가 동일한 권한을 상속합니다.
 
-  프로젝트에 대한 사용자의 권한에 따라 프로젝트의 작업 및 문제에 대한 액세스 권한을 관리하는 방법에 대한 자세한 내용은 [](../../manage-work/projects/manage-projects/edit-projects.md#access) 이 문서의 섹션 [프로젝트 편집](../../manage-work/projects/manage-projects/edit-projects.md).
+  프로젝트에 대한 사용자의 권한을 기반으로 프로젝트의 작업 및 문제에 대한 액세스 관리에 대한 자세한 내용은 [프로젝트 편집](../../manage-work/projects/manage-projects/edit-projects.md) 문서의 [](../../manage-work/projects/manage-projects/edit-projects.md#access) 섹션을 참조하십시오.
 
-  Workfront 관리자는 문서가 사용자 액세스 수준의 상위 개체에서 권한을 상속해야 하는지 여부를 지정할 수 있습니다. 문서에 대해 상속된 권한을 제한하는 방법에 대한 자세한 내용은 [사용자 정의 액세스 수준 만들기 또는 수정](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  Workfront 관리자는 문서가 사용자 액세스 수준의 상위 개체에서 권한을 상속해야 하는지 여부를 지정할 수 있습니다. 문서에 대해 상속된 사용 권한을 제한하는 방법에 대한 자세한 내용은 [사용자 지정 액세스 수준 만들기 또는 수정](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)을 참조하십시오.
 
-* 하위 개체가 상속되지 않도록 프로젝트에서 상속된 권한을 제거할 수 있습니다. 오브젝트에서 상속된 권한을 제거하는 방법에 대한 자세한 내용은 [오브젝트에서 권한 제거](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+* 하위 개체가 상속되지 않도록 프로젝트에서 상속된 권한을 제거할 수 있습니다. 개체에서 상속된 사용 권한을 제거하는 방법에 대한 자세한 내용은 [개체에서 사용 권한 제거](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)를 참조하십시오.
 
 ## 프로젝트를 공유하는 방법 {#ways-to-share-a-project}
 
@@ -55,31 +55,31 @@ Adobe Workfront 관리자는 액세스 수준을 할당할 때 프로젝트를 �
 * 다음 중 하나를 수행하여 수동으로 수행합니다.
 
    * 프로젝트 팀에 사용자 추가 프로젝트 팀에 사용자를 추가하면 해당 사용자는 프로젝트에 대한 보기 권한을 자동으로 부여받습니다.\
-     프로젝트 팀에 사용자 추가에 대한 자세한 내용은 의 &quot;프로젝트 팀에 사용자 추가&quot; 섹션을 참조하십시오. [프로젝트 팀 개요](../../manage-work/projects/planning-a-project/project-team-overview.md).
-   * 을(를) 사용할 때 개별적으로 또는 일괄 공유 **공유** 옵션을 선택합니다.
+     프로젝트 팀에 사용자를 추가하는 방법에 대한 자세한 내용은 [프로젝트 팀 개요](../../manage-work/projects/planning-a-project/project-team-overview.md)의 &quot;프로젝트 팀에 사용자 추가&quot; 섹션을 참조하십시오.
+   * **공유** 옵션을 사용할 때 프로젝트를 개별적으로 또는 대량으로 공유합니다.
 
      프로젝트를 공유하는 것은 Adobe Workfront의 다른 모든 개체를 공유하는 것과 비슷합니다.
 
-     Workfront에서의 오브젝트 공유에 대한 자세한 내용은 [개체 공유](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+     Workfront에서 개체를 공유하는 방법에 대한 자세한 내용은 [개체 공유](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)를 참조하십시오.
 
 * 다음 중 하나를 수행하여 자동으로
 
-   * 에 프로젝트 배치 **Portfolio** 또는 **프로그램** 다른 사용자와 이미 공유되었습니다. 사용자는 포트폴리오 또는 프로그램에 대해 가지고 있는 것과 동일한 권한을 프로젝트에 부여받습니다.\
-     에 프로젝트 추가에 대한 자세한 내용 **Portfolio**, 참조 [포트폴리오에 프로젝트 추가](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).\
-     에 프로젝트 추가에 대한 자세한 내용 **프로그램**, 참조 [프로그램에 프로젝트 추가](../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
+   * 이미 다른 사용자와 공유된 **Portfolio** 또는 **프로그램**&#x200B;에 프로젝트를 배치하십시오. 사용자는 포트폴리오 또는 프로그램에 대해 가지고 있는 것과 동일한 권한을 프로젝트에 부여받습니다.\
+     **Portfolio**&#x200B;에 프로젝트를 추가하는 방법에 대한 자세한 내용은 [포트폴리오에 프로젝트 추가](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)를 참조하십시오.\
+     **Program**&#x200B;에 프로젝트를 추가하는 방법에 대한 자세한 내용은 [프로그램에 프로젝트 추가](../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)를 참조하십시오.
 
-     개체에 대해 상속된 사용 권한을 보는 방법에 대한 자세한 내용은 [오브젝트에 대한 상속된 권한 보기](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
+     개체에 상속된 사용 권한을 보는 방법에 대한 자세한 내용은 [개체에 상속된 사용 권한 보기](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)를 참조하십시오.
 
-   * 프로젝트를 만드는 데 사용된 템플릿의 프로젝트 공유에 엔티티를 추가합니다. 템플릿에서 프로젝트를 공유하는 방법에 대한 자세한 내용은 [템플릿 공유](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+   * 프로젝트를 만드는 데 사용된 템플릿의 프로젝트 공유에 엔티티를 추가합니다. 템플릿에서 프로젝트를 공유하는 방법에 대한 자세한 내용은 [템플릿 공유](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)를 참조하십시오.
    * 프로젝트 액세스 템플릿을 정의합니다.
 
-     프로젝트 액세스 템플릿을 정의하려면 다음을 참조하십시오. [개체 공유](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+     프로젝트 액세스 템플릿을 정의하려면 [개체 공유](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)를 참조하십시오.
 
      >[!TIP]
      >
      >템플릿을 첨부하거나 저장할 때 템플릿 프로젝트 공유 규칙을 지울 수 있습니다.
 
-   * 프로젝트 편집 및 정의 **누군가 이 프로젝트에 대한 액세스 권한을 부여 받은 경우** 설정. 자세한 내용은 [프로젝트 편집](../../manage-work/projects/manage-projects/edit-projects.md).
+   * 프로젝트를 편집하고 **누군가 이 프로젝트에 대한 액세스 권한을 받았을 때** 설정을 정의합니다. 자세한 내용은 [프로젝트 편집](../../manage-work/projects/manage-projects/edit-projects.md)을 참조하세요.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -106,7 +106,7 @@ Adobe Workfront 관리자는 액세스 수준을 할당할 때 프로젝트를 �
 
 * 작업자 라이선스가 있는 사용자는 프로젝트를 관리할 수 있는 권한이 없습니다. 작업자의 경우 가장 높은 공유 권한은 Contribute입니다.
 * 요청 라이선스가 있는 사용자는 프로젝트 정보를 볼 수 있지만 프로젝트 액세스 권한은 제한됩니다.
-* 보기 또는 기여 권한이 있는 사용자도 승인 프로세스에 포함된 경우 프로젝트 상태 변경의 예외가 발생합니다. 프로젝트를 승인하여 프로젝트의 상태를 변경할 수 있지만 상태는 승인 또는 거절에 대해 사전 정의된 상태입니다.
+* 보기 또는 Contribute 권한이 있는 사용자도 승인 프로세스에 포함된 경우 프로젝트 상태 변경에 대한 예외가 발생합니다. 프로젝트를 승인하여 프로젝트의 상태를 변경할 수 있지만 상태는 승인 또는 거절에 대해 사전 정의된 상태입니다.
 * 프로젝트를 복사할 수 있으려면 사용자는 액세스 수준에서도 프로젝트를 만들 수 있는 액세스 권한이 있어야 합니다.
 
 <!--
@@ -133,7 +133,7 @@ The
 
 ## 프로젝트 권한 옵션
 
-다음 표에는 사용자가 프로젝트를 공유할 때 부여할 수 있는 권한이 나열되어 있습니다. 사용자가 라이센스를 기반으로 하는 액세스 권한에 대한 자세한 내용은 [프로젝트에 대한 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
+다음 표에는 사용자가 프로젝트를 공유할 때 부여할 수 있는 권한이 나열되어 있습니다. 사용자가 라이선스에 따라 얻을 수 있는 액세스 권한에 대한 자세한 내용은 [프로젝트에 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)를 참조하십시오.
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
@@ -144,7 +144,7 @@ The
   <tr> 
    <th> <p><strong>작업</strong> </p> </th> 
    <th> <p><strong>관리</strong> </p> </th> 
-   <th> <p><strong>참여</strong> </p> </th> 
+   <th> <p><strong>Contribute</strong> </p> </th> 
    <th> <p><strong>보기</strong> </p> </th> 
   </tr> 
  </thead> 
@@ -350,4 +350,4 @@ The
  </tbody> 
 </table>
 
-&#42;재무 데이터에 대한 액세스 권한이 없는 사용자는 프로젝트에 대한 편집 액세스 권한이 있어도 프로젝트에 대한 위험 및 재무를 관리할 수 없습니다. 재무 데이터 액세스에 대한 자세한 내용은 [재무 데이터에 대한 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+&#42;재무 데이터에 대한 액세스 권한이 없는 사용자는 프로젝트에 대한 편집 액세스 권한이 있어도 프로젝트의 위험 및 재무 정보를 관리할 수 없습니다. 재무 데이터에 대한 액세스 정보는 [재무 데이터에 대한 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)를 참조하십시오.

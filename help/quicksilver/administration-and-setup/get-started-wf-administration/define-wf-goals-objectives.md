@@ -37,11 +37,11 @@ Adobe Workfront을 구현할 때에는 성공 기준의 원칙을 식별하는 �
 
 * 조직 내의 특정 요청을 관리하려면 Workfront 요청 큐를 만드십시오.
 
-  요청 대기열에 대한 자세한 내용은 [요청 대기열 만들기](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+  요청 대기열에 대한 자세한 내용은 [요청 대기열 만들기](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)를 참조하십시오.
 
 * 5일 이내에 마감되지 않은 미해결 문제를 표시하는 보고서를 만듭니다.
 
-  보고서 만들기에 대한 자세한 내용은 [사용자 지정 보고서 만들기](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  보고서 만들기에 대한 자세한 내용은 [사용자 지정 보고서 만들기](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)를 참조하십시오.
 
 ## 프로젝트 소요 시간 개선 및 내년도 예산 지출 개선
 
@@ -49,22 +49,22 @@ Adobe Workfront을 구현할 때에는 성공 기준의 원칙을 식별하는 �
 
 * 조직을 위한 표준 프로젝트 방법론을 개발합니다. 여기에는 프로젝트 생성 및 관리를 담당하는 사용자를 식별하고 승인을 부여하는 작업이 포함됩니다.
 
-  프로젝트 만들기에 대한 자세한 내용은 [프로젝트 만들기](../../manage-work/projects/create-projects/create-project.md).
+  프로젝트 만들기에 대한 자세한 내용은 [프로젝트 만들기](../../manage-work/projects/create-projects/create-project.md)를 참조하십시오.
 
-  승인 프로세스 만들기에 대한 자세한 내용은 [작업 항목에 대한 승인 프로세스 만들기](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+  승인 프로세스 만들기에 대한 자세한 내용은 [작업 항목에 대한 승인 프로세스 만들기](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)를 참조하십시오.
 
 * 보다 심층적인 예산 및 리소스 관리를 위해 프로젝트를 포트폴리오 및 프로그램으로 구성해야 하는지 여부를 결정합니다.
 
-  포트폴리오 만들기에 대한 자세한 내용은 [포트폴리오 만들기](../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
+  포트폴리오 만들기에 대한 자세한 내용은 [포트폴리오 만들기](../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)를 참조하십시오.
 
 * 모든 프로젝트에서 품질을 제공하는 모범 사례 접근 방식을 포함하십시오.
 * 템플릿을 만드는 데 사용할 수 있는 반복 가능한 프로젝트를 식별합니다.
 
-  템플릿 만들기에 대한 자세한 내용은 [프로젝트 템플릿 만들기](../../manage-work/projects/create-and-manage-templates/create-template.md).
+  템플릿 만들기에 대한 자세한 내용은 [프로젝트 템플릿 만들기](../../manage-work/projects/create-and-manage-templates/create-template.md)를 참조하십시오.
 
 * 올해 프로젝트 포트폴리오의 진행 상황을 표시하는 대시보드를 만듭니다.
 
-  대시보드 만들기에 대한 자세한 내용은 [대시보드 만들기](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+  대시보드를 만드는 방법에 대한 자세한 내용은 [대시보드 만들기](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)를 참조하세요.
 
 ## 내부 프로세스 관리를 개선하여 서비스 품질 향상
 
@@ -72,7 +72,7 @@ Adobe Workfront을 구현할 때에는 성공 기준의 원칙을 식별하는 �
 
 * 서비스 제공 프로세스를 개발하고 Workfront을 사용하여 일별 또는 주별 책임과 관련된 작업을 관리합니다.
 * 리소스 관리 도구를 사용하여 작업에 대한 리소스 할당을 조회하여 생산성 및 게재 품질을 개선하는 방법을 더 잘 이해할 수 있습니다.\
-  리소스 계획에 대한 자세한 내용은 [리소스 계획 : 문서 색인](../../resource-mgmt/resource-planning/resource-planning-overview.md)
+  리소스 계획에 대한 자세한 내용은 [리소스 계획 : 문서 인덱스](../../resource-mgmt/resource-planning/resource-planning-overview.md)을 참조하세요.
 
 ## 성공 기준 정의
 

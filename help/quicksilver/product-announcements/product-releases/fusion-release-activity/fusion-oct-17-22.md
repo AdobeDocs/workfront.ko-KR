@@ -25,6 +25,6 @@ Adobe Creative Cloud 라이브러리의 에셋은 종종 상세하고 복잡하�
 
 이전에는 이 모듈에서 파일 업로드가 5MB로 제한되었습니다.
 
-Adobe Creative Cloud Libraries 모듈에 대한 자세한 내용은 [Adobe Creative Cloud 라이브러리 모듈](/help/quicksilver/workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md).
+Adobe Creative Cloud 라이브러리 모듈에 대한 자세한 내용은 [Adobe Creative Cloud 라이브러리 모듈](/help/quicksilver/workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md)을 참조하십시오.
 
-파일 크기 제한을 포함한 다른 Workfront Fusion 성능 가드레일에 대한 자세한 내용은 다음을 참조하십시오. [Adobe Workfront Fusion 성능 보호 기능](/help/quicksilver/workfront-fusion/get-started/fusion-performance-guardrails.md).
+파일 크기 제한을 포함하여 다른 Workfront Fusion 성능 가드레일에 대한 자세한 내용은 [Adobe Workfront Fusion 성능 가드레일](/help/quicksilver/workfront-fusion/get-started/fusion-performance-guardrails.md)을 참조하십시오.

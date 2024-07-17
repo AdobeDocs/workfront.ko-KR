@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 3993cd67-90a9-4d7e-bbc0-7b9bd1057f54
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '1408'
+source-wordcount: '1406'
 ht-degree: 0%
 
 ---
@@ -50,24 +50,24 @@ Desktop Proofing Viewer에 대해 다음 설정을 구성할 수 있습니다.
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>현재 플랜: Pro 이상</p> <p>또는</p> <p>기존 플랜: Select 또는 Premium</p> <p>다른 플랜의 증명 액세스에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfront의 증명 기능에 액세스</a>.</p> </td> 
+   <td> <p>현재 플랜: Pro 이상</p> <p>또는</p> <p>기존 플랜: Select 또는 Premium</p> <p>다른 플랜의 증명 액세스에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfront의 증명 기능에 액세스</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
    <td> <p>현재 계획: 작업 또는 계획</p> <p>기존 계획: 모두(사용자에 대해 증명이 활성화되어 있어야 함)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">증명 권한 프로필 </td> 
+   <td role="rowheader">교정쇄 권한 프로필 </td> 
    <td>관리자 이상</td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>문서에 대한 액세스 편집</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>문서에 대한 액세스 편집</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 역할 또는 증명 권한 프로필을 알아보려면 Workfront 또는 Workfront Proof 관리자에게 문의하십시오.
+&#42;보유 중인 플랜, 역할 또는 증명 권한 프로필을 확인하려면 Workfront 또는 Workfront Proof 관리자에게 문의하십시오.
 
 ## 증명 뷰어 설정 구성
 
@@ -75,32 +75,32 @@ Desktop Proofing Viewer에 대해 다음 설정을 구성할 수 있습니다.
 
 1. 다음 방법 중 하나로 웹 증명 뷰어 또는 데스크탑 증명 뷰어를 엽니다.
 
-   * Adobe Workfront 내에서 증명을 하는 경우 보려는 증명이 포함된 문서 목록으로 이동한 후 문서를 마우스로 가리킨 다음 을 클릭합니다 **증명 열기**.
-   * Workfront 증명을 사용하는 경우 **증명으로 이동** 대시보드 또는 보기 목록의 증명에 대한 아이콘 ![](assets/go-to-proof-blue-icon.png).
+   * Adobe Workfront 내에서 증명을 사용하는 경우 보려는 증명이 포함된 문서 목록으로 이동한 후 문서 위로 마우스를 가져간 다음 **증명 열기**&#x200B;를 클릭합니다.
+   * Workfront Proof을 사용하는 경우 대시보드 또는 보기 목록 ![](assets/go-to-proof-blue-icon.png)에서 증명에 대한 **증명으로 이동** 아이콘을 클릭합니다.
 
-1. 왼쪽 도구 모음이 표시되지 않으면 **메뉴** 아이콘: 웹 증명 뷰어의 왼쪽 위 모서리에 있습니다.
+1. 왼쪽 도구 모음이 표시되지 않으면 [웹 증명 뷰어]의 왼쪽 위 모서리에 있는 **메뉴** 아이콘을 클릭하십시오.
 
    ![](assets/menu-icon-in-proofing-viewer-350x228.png)
 
-1. 왼쪽 도구 모음에서 **설정** 아이콘 ![](assets/settings-icon-in-pv.png).
+1. 왼쪽 도구 모음에서 **설정** 아이콘 ![](assets/settings-icon-in-pv.png)을 클릭합니다.
 
-1. 다음 중 하나를 구성합니다 **설정** 그 디스플레이.
+1. 표시되는 다음 **설정**&#x200B;을 구성하십시오.
 
    사용 가능한 설정은 열려 있는 증명 유형에 따라 달라질 수 있습니다.
 
-   * **마크업 표시** (항상 웹 증명 뷰어 및 데스크탑 증명 뷰어에서 사용 가능): 검토자가 마크업 도구를 사용할 때 증명에 추가하는 주석 표시입니다. 비활성화해도 주석 목록에서 주석을 클릭해도 볼 수 있습니다.
+   * **마크업 표시**(항상 웹 증명 뷰어와 데스크톱 증명 뷰어에서 사용 가능): 검토자가 마크업 도구를 사용할 때 증명에 추가하는 주석 표시입니다. 비활성화해도 주석 목록에서 주석을 클릭해도 볼 수 있습니다.
 
      이 설정은 사용자가 여는 모든 증명에 영향을 줍니다.
 
-   * **고정 항목 표시** (항상 웹 증명 뷰어 및 데스크탑 증명 뷰어에서 사용 가능): 검토자가 마크업 도구를 사용할 때 증명에 추가하는 번호가 매겨진 핀입니다. 검토자가 주석을 추가하는 위치와 순서를 나타냅니다. 비활성화해도 주석 목록에서 주석을 클릭해도 볼 수 있습니다.
+   * **고정 항목 표시**(항상 웹 증명 뷰어와 데스크톱 증명 뷰어에서 사용 가능): 검토자가 마크업 도구를 사용할 때 증명에 추가하는 번호가 매겨진 고정입니다. 검토자가 주석을 추가하는 위치와 순서를 나타냅니다. 비활성화해도 주석 목록에서 주석을 클릭해도 볼 수 있습니다.
 
      이 설정은 사용자가 여는 모든 증명에 영향을 줍니다.
 
-   * **확장된 마크업 도구 사용** (항상 웹 증명 뷰어와 데스크탑 증명 뷰어에서 사용 가능): 기본적으로 마크업 도구 옵션이 증명 뷰어의 맨 위에 표시됩니다. 클릭하면 열리는 세로 메뉴에 표시되도록 구성할 수 있습니다.
+   * **확장된 태그 도구를 사용**(항상 웹 증명 뷰어와 데스크톱 증명 뷰어에서 사용 가능): 기본적으로 태그 도구 옵션이 증명 뷰어 위에 표시됩니다. 클릭하면 열리는 세로 메뉴에 표시되도록 구성할 수 있습니다.
 
      이 설정은 사용자가 여는 모든 증명에 적용됩니다.
 
-   * **다음에 대한 이메일 알림 보내기:** (항상 웹 증명 뷰어와 데스크탑 증명 뷰어에서 사용 가능): 아래 옵션 중 하나를 클릭합니다. 이 설정은 사용자가 연 증명에만 영향을 줍니다. 자세한 내용은 [증명 주석 및 의사 결정에 대한 알림 개요](../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md).
+   * **전자 메일 알림 보내기**(항상 웹 증명 뷰어와 데스크톱 증명 뷰어에서 사용 가능): 아래 옵션 중 하나를 클릭하십시오. 이 설정은 사용자가 연 증명에만 영향을 줍니다. 자세한 내용은 [증명 댓글과 의사 결정에 대한 알림 개요](../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md)를 참조하세요.
 
      <table style="table-layout:auto"> 
       <col> 
@@ -112,7 +112,7 @@ Desktop Proofing Viewer에 대해 다음 설정을 구성할 수 있습니다.
        </tr> 
        <tr> 
         <td role="rowheader">내 댓글에 대한 답글</td> 
-        <td>누군가 자신의 의견에 명시적으로 답글을 달 경우에만 검토자에게 이메일이 전송됩니다(자신의 의견에 대한 자신의 답글은 제외). 즉, 증명에 있는 사람이 새 댓글을 달면 검토자에게 알림이 전송되지 않습니다.<p>이 설정은 증명의 클라이언트가 증명의 다른 댓글에 대한 알림을 받지 않고 자신의 댓글에 대한 답글에만 알림을 받도록 하는 데 권장됩니다.</p><p>이 이메일 경고 설정을 사용하는 검토자는 다른 새 댓글에 대해 알림을 받지 못하지만 증명 뷰어에서 증명에 대한 모든 댓글을 볼 수 있습니다.</p><p>주석에 대한 자세한 내용은 <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">증명 댓글 보기 및 회신</a>.</p></td> 
+        <td>누군가 자신의 의견에 명시적으로 답글을 달 경우에만 검토자에게 이메일이 전송됩니다(자신의 의견에 대한 자신의 답글은 제외). 즉, 증명에 있는 사람이 새 댓글을 달면 검토자에게 알림이 전송되지 않습니다.<p>이 설정은 증명의 클라이언트가 증명의 다른 댓글에 대한 알림을 받지 않고 자신의 댓글에 대한 답글에만 알림을 받도록 하는 데 권장됩니다.</p><p>이 이메일 경고 설정을 사용하는 검토자는 다른 새 댓글에 대해 알림을 받지 못하지만 증명 뷰어에서 증명에 대한 모든 댓글을 볼 수 있습니다.</p><p>댓글에 대한 자세한 내용은 <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">증명 댓글 보기 및 회신</a>을 참조하세요.</p></td> 
        </tr> 
        <tr> 
         <td role="rowheader">결정</td> 
@@ -128,11 +128,11 @@ Desktop Proofing Viewer에 대해 다음 설정을 구성할 수 있습니다.
        </tr> 
        <tr> 
         <td role="rowheader">일일 요약</td> 
-        <td>Workfront은 자신 이외의 활동이 있는 날에만 나열된 모든 댓글, 답글 및 결정을 포함하는 하나의 이메일을 보냅니다.<p>이 경고는 하루 종일 여러 업데이트가 쏟아지지 않고 프로젝트 요약을 볼 수 있는 좋은 방법입니다.</p><p>이 요약의 사용 사례는 프로젝트의 전체 진행 상황을 모니터링하려는 부서 리더입니다.</p><p>자세한 내용은 <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">증명 댓글 및 결정에 대한 알림 관리</a>.</p></td> 
+        <td>Workfront은 자신 이외의 활동이 있는 날에만 나열된 모든 댓글, 답글 및 결정을 포함하는 하나의 이메일을 보냅니다.<p>이 경고는 하루 종일 여러 업데이트가 쏟아지지 않고 프로젝트 요약을 볼 수 있는 좋은 방법입니다.</p><p>이 요약의 사용 사례는 프로젝트의 전체 진행 상황을 모니터링하려는 부서 리더입니다.</p><p>자세한 내용은 <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">증명 댓글 및 결정에 대한 알림 관리</a>를 참조하십시오.</p></td> 
        </tr> 
        <tr data-mc-conditions=""> 
         <td role="rowheader">이메일 없음</td> 
-        <td>Workfront은 이메일 경고를 전송하지 않습니다.<br>이 기능은 참조용으로만 증명에 추가되고 변경 사항에 대한 알림이 필요하지 않은 사용자에게 유용합니다.<p>시스템 기본값은 일별 요약(설정되지 않은 것으로도 표시됨)입니다. 사용자 또는 검토자가 다른 변경 내용을 적용하지 않으면 모든 증명에 이 설정이 적용됩니다.</p></td> 
+        <td>Workfront은 이메일 경고를 전송하지 않습니다.<br>참조용으로만 증명에 추가되고 변경 내용에 대한 알림을 받을 필요가 없는 사용자에게 유용합니다.<p>시스템 기본값은 일별 요약(설정되지 않은 것으로도 표시됨)입니다. 사용자 또는 검토자가 다른 변경 내용을 적용하지 않으면 모든 증명에 이 설정이 적용됩니다.</p></td> 
        </tr> 
       </tbody> 
      </table>
@@ -141,7 +141,7 @@ Desktop Proofing Viewer에 대해 다음 설정을 구성할 수 있습니다.
      <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p><strong>Use desktop app as default</strong>: By default, static and video proofs open in the Web Proofing Viewer in your web browser, and interactive proofs open in the Desktop Proofing Viewer app. This setting lets you configure the Desktop Proofing Viewer as the default viewer for all types of proofs (static and video, as well as interactive). For more information about this setting, see in the article . For comparative information about the two viewers, see <a href="../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md" class="MCXref xref">Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview</a>.</p> </li>   
      -->
 
-   * **증명에서 하이퍼링크를 클릭할 때** (데스크탑 증명 뷰어에서만 사용 가능): 새 브라우저 탭이나 창에서 열도록 설정된 링크를 클릭할 때 데스크탑 증명 뷰어에서 수행되는 작업을 지정하는 옵션을 선택합니다.
+   * **증명에서 하이퍼링크를 클릭할 때**(Desktop Proof Viewer에서만 사용 가능): 새 브라우저 탭이나 창에서 열도록 설정된 링크를 클릭할 때 Desktop Proof Viewer에서 수행되는 작업을 지정하는 옵션을 선택합니다.
 
      이 설정은 사용자가 여는 모든 대화형 증명에 적용됩니다.
 
@@ -168,7 +168,7 @@ Desktop Proofing Viewer에 대해 다음 설정을 구성할 수 있습니다.
      <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Background color</strong> (available when you open interactive content in the Desktop Proofing Viewer or Web Proofing Viewer): Change the background color of the Desktop Proofing Viewer from the default near-black color to white. This can make it easier to see interactive content that has a transparent background instead of a white background.</li>   
      -->
 
-   * **캐시 지우기**: 보고 있는 대화형 증명과 함께 저장할 수 있는 브라우저 캐시 데이터를 지웁니다. 이렇게 하면 팝업(브라우저 캐시 데이터로 차단할 수 있음)과 같은 콘텐츠가 Desktop Proofing Viewer에 표시됩니다.
+   * **캐시 지우기**: 보고 있는 대화형 증명과 함께 저장될 수 있는 브라우저 캐시 데이터를 지웁니다. 이렇게 하면 팝업(브라우저 캐시 데이터로 차단할 수 있음)과 같은 콘텐츠가 Desktop Proofing Viewer에 표시됩니다.
 
      지워진 데이터에는 HTTP 캐시(예: 다음 페이지 새로 고침 후 재사용할 이미지)와 웹 스토리지 데이터 캐시(예: 쿠키 및 사용자를 식별하는 데이터)가 포함됩니다.
 

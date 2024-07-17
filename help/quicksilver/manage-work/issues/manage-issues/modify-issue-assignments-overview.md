@@ -29,11 +29,11 @@ ht-degree: 0%
 
 이 문서에는 문제 할당 수정으로 인한 영향에 대한 일반적인 정보가 포함되어 있습니다. 문제를 할당하는 방법에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
-* 문제 지정에 대한 자세한 내용은 [문제 할당](../../../manage-work/issues/manage-issues/assign-issues.md) 및 [목록의 여러 문제에 대한 사용자 할당 수정](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md).
+* 문제 할당에 대한 자세한 내용은 [문제 할당](../../../manage-work/issues/manage-issues/assign-issues.md) 및 [목록의 여러 문제에 대한 사용자 할당 수정](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)을 참조하십시오.
 
-* 업무 균형자 를 사용하여 문제를 할당하는 방법에 대한 자세한 내용은 [업무 균형자에서 작업 할당 개요](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+* 업무 균형자 사용 시 문제를 할당하는 방법에 대한 자세한 내용은 [업무 균형자에서 작업 할당 개요](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)를 참조하십시오.
 
-이 문서의 일부 정보는 작업에 대한 할당에도 적용됩니다. 작업 할당 및 추가 고려 사항에 대한 자세한 내용은 [작업 할당 수정 개요](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
+이 문서의 일부 정보는 작업에 대한 할당에도 적용됩니다. 작업 할당 및 추가 고려 사항에 대한 자세한 내용은 [작업 할당 수정 개요](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)를 참조하십시오.
 
 ## 문제에 대한 사용자 할당을 수정해야 하는 경우
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 한 번에 하나의 문제에서 할당을 제거하거나 여러 문제에서 할당을 일괄적으로 제거할 수 있습니다.
 
-일괄 문제에서 할당 제거에 대한 자세한 내용은 [목록의 여러 문제에 대한 사용자 할당 수정](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md).
+문제의 일괄 할당을 제거하는 방법에 대한 자세한 내용은 [목록의 여러 문제에 대한 사용자 할당 수정](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)을 참조하십시오.
 
 문제에서 할당을 제거할 때 다음 사항을 고려하십시오.
 

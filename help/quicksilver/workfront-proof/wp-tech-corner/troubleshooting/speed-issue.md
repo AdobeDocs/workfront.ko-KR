@@ -3,8 +3,8 @@ content-type: tips-tricks-troubleshooting
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-tech-corner
-title: 에서 속도 문제 [!DNL Workfront Proof]
-description: 이 도움말 페이지에서는 사용 시 발생할 수 있는 속도 문제가 있는지 확인하는 데 도움이 됩니다 [!DNL Workfront Proof] 는 ISP와 관련되어 있거나 [!DNL Workfront Proof]의 콘텐츠 전달 네트워크입니다.
+title: ' [!DNL Workfront Proof]의 속도 문제'
+description: 이 도움말 페이지에서는  [!DNL Workfront Proof] 을(를) 사용할 때 발생할 수 있는 속도 문제가 ISP 또는  [!DNL Workfront Proof]의 콘텐츠 전달 네트워크와 관련이 있는지 확인하는 데 도움이 됩니다.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 42e999a6-5b27-482d-a7cf-b8030272da32
@@ -15,15 +15,15 @@ ht-degree: 0%
 
 ---
 
-# 에서 속도 문제 [!DNL Workfront Proof]
+# [!DNL Workfront Proof]의 속도 문제
 
 >[!IMPORTANT]
 >
->이 문서는 독립 실행형 제품의 기능에 대해 설명합니다 [!DNL Workfront Proof]. 내부 교정에 대한 정보 [!DNL Adobe Workfront], 참조 [증명](../../../review-and-approve-work/proofing/proofing.md).
+>이 문서는 독립 실행형 제품 [!DNL Workfront Proof]의 기능을 참조합니다. [!DNL Adobe Workfront] 내부의 증명에 대한 자세한 내용은 [증명](../../../review-and-approve-work/proofing/proofing.md)을 참조하십시오.
 
-이 도움말 페이지에서는 사용 시 발생할 수 있는 속도 문제가 있는지 확인하는 데 도움이 됩니다 [!DNL Workfront Proof] 는 ISP와 관련되어 있거나 [!DNL Workfront Proof]의 콘텐츠 전달 네트워크입니다.
+이 도움말 페이지에서는 [!DNL Workfront Proof]을(를) 사용할 때 발생할 수 있는 속도 문제가 ISP 또는 [!DNL Workfront Proof]의 콘텐츠 전달 네트워크와 관련이 있는지 확인하는 데 도움이 됩니다.
 
-속도 문제는 일반적으로 로컬 ISP 연결 또는 로컬 인터넷 액세스 설정(예: 프록시 서버가 사용되는 경우)으로 인한 것이므로 의 제어 범위를 벗어납니다. [!DNL Workfront Proof].
+속도 문제는 일반적으로 로컬 ISP 연결 또는 로컬 인터넷 액세스 설정(예: 프록시 서버가 사용되는 경우)으로 인해 발생하며 [!DNL Workfront Proof]의 제어 범위를 벗어납니다.
 
 즉, 연결 속도를 확인하는 몇 가지 단계를 수행할 수 있으므로 발생하는 문제의 근본 원인을 확인할 수 있습니다. 이러한 모든 단계는 문제 해결 프로세스에서도 동일하게 중요하며, 문제를 가장 정확하게 진단할 수 있도록 나열된 모든 단계에 대한 정보를 수집하는 시간을 가질 것을 권장합니다.
 
@@ -31,13 +31,13 @@ ht-degree: 0%
 
 ## 시스템의 어느 부분이 느리는지 확인합니다.
 
-를 사용할 때 [!DNL Workfront Proof], 대시보드(예: 폴더 컨텐츠 및 사용자 관리) 또는 를 사용하여 작업할 수 있습니다. [!DNL Workfront Proof] 뷰어: 증명 검토 수행, 이미 작성된 댓글 확인 등.
+[!DNL Workfront Proof]을(를) 사용하는 경우, 폴더 컨텐츠 및 사용자 관리와 같은 대시보드 작업이나 [!DNL Workfront Proof] 뷰어를 사용하여 증명 검토 수행, 이미 작성된 댓글 확인 등의 작업을 수행할 수 있습니다.
 
-시스템의 어느 부분이 느리는지 확인하는 것은 속도 문제 해결의 첫 번째 단계입니다. 보고할 때 [!DNL Workfront Proof] 속도가 느려지면 다음을 설명하십시오.
+시스템의 어느 부분이 느리는지 확인하는 것은 속도 문제 해결의 첫 번째 단계입니다. [!DNL Workfront Proof]이(가) 느려졌다고 보고할 때 다음을 설명하십시오.
 
 * 다른 웹페이지에서 속도가 느려지고 있습니까?
-* 대시보드에서 문제가 발생합니까? 또는 [!DNL Workfront Proof] 뷰어?
-* 시스템의 어떤 부분이 느립니까? (예:에서 새 증명 처리 또는 주석 열기) [!DNL Workfront Proof] Viewer)
+* 대시보드 또는 [!DNL Workfront Proof] 뷰어에서 문제가 발생합니까?
+* 시스템의 어떤 부분이 느립니까? (예: [!DNL Workfront Proof] 뷰어에서 새 증명 처리 또는 댓글 열기)
 
 ## traceroute 및 ping 테스트 실행
 
@@ -48,7 +48,7 @@ ht-degree: 0%
    * Windows: **tracert app.proofhq.com**
    * Mac/Linux: **traceroute app.proofhq.com**
 
-1. (Windows 전용) 유형 **ping app.proofhq.com**.
+1. (Windows만 해당) **app.proofhq.com**&#x200B;을(를) 입력합니다.
 1. ping이 완료되면 명령 프롬프트에서 마우스 오른쪽 버튼을 클릭하고 모두 선택 을 클릭합니다.
 1. 결과를 복사하여 이메일에 대한 회신에 붙여넣습니다.
 결과를 지원 팀에 보내기 전에 traceroute 및 ping이 완료되도록 허용해야 합니다.

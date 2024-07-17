@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration;setup
 navigation-topic: set-up-workfront
 title: 조직 설정
-description: 에서 사용자 구성의 일부로 [!DNL Adobe Workfront], 작업 역할 또는 회사와 연결할 수 있습니다.
+description: ' [!DNL Adobe Workfront]에서 사용자를 구성하는 과정의 일부로 작업 역할 또는 회사와 연결할 수 있습니다.'
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -13,13 +13,13 @@ exl-id: 82204f86-be52-49df-b070-66003c528dd4
 source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
 source-wordcount: '79'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 # 조직 설정
 
-에서 사용자 구성의 일부로 [!DNL Adobe Workfront], 작업 역할 또는 회사와 연결할 수 있습니다.
+[!DNL Adobe Workfront]에서 사용자를 구성하는 과정의 일부로 작업 역할 또는 회사와 연결할 수 있습니다.
 
 이 섹션에는 다음 문서가 포함됩니다.
 

@@ -21,9 +21,9 @@ ht-degree: 0%
 
 이 페이지에서는 2020년 8월 17일이 있는 주에 Adobe Workfront Fusion에서 향상된 모든 기능에 대해 설명합니다.
 
-최근 변경 사항의 목록은 다음을 참조하십시오. [Adobe Workfront Fusion 릴리스 활동](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+최근 모든 변경 사항의 목록은 [Adobe Workfront Fusion 릴리스 활동](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)을 참조하십시오.
 
-Workfront Fusion의 최근 버그 수정 목록은 다음을 참조하십시오. [Workfront 유지 보수 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) Workfront Fusion Maintenance Update로 레이블이 지정된 업데이트를 찾아 확인합니다.
+Workfront Fusion의 최근 버그 수정 목록을 보려면 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 페이지를 참조하고 Workfront Fusion 유지 관리 업데이트 레이블이 지정된 업데이트를 확인하십시오.
 
 ## Workfront &quot;기타 작업&quot; 모듈에서 사용자 정의 데이터로 개체를 보다 쉽게 변환
 
@@ -32,7 +32,7 @@ convertToProject 매크로 함수나 convertToTask 매크로 함수를 선택하
 * 새 객체에 대해 입력하거나 매핑할 수 있는 프로젝트(또는 작업) 표준 필드의 새 목록이 없습니다. 이전에는 이 모듈에 고급 설정이 필요했습니다. 이전에 이 모듈을 사용한 적이 있는 경우 고급 설정에서는 고급 구성을 계속 사용할 수 있습니다.
 * 새 매개 변수: 사용자 지정 데이터 복사. 활성화된 경우 원래 객체에 값이 있고 새 객체에 존재하는 모든 사용자 정의 필드가 자동으로 새 객체에 복사됩니다.
 
-자세한 내용은 [Adobe Workfront 모듈](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+자세한 내용은 [Adobe Workfront 모듈](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md)을 참조하세요.
 
 ## Workfront 업로드 문서 모듈의 특정 폴더에 문서를 업로드합니다.
 
@@ -40,7 +40,7 @@ convertToProject 매크로 함수나 convertToTask 매크로 함수를 선택하
 
 이전에는 폴더에 직접 업로드할 수 없었습니다.
 
-자세한 내용은 [Adobe Workfront 모듈](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+자세한 내용은 [Adobe Workfront 모듈](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md)을 참조하세요.
 
 ## 이제 Hubspot CRM 및 모듈을 사용할 수 있습니다
 

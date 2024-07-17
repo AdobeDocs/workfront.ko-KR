@@ -19,7 +19,7 @@ ht-degree: 0%
 
 이 페이지에는 매주 Canvas Dashboards Beta에 대해 릴리스된 개발 업데이트가 나열됩니다.
 
-Canvas 대시보드 베타에 대한 일반 정보는 다음을 참조하십시오. [캔버스 대시보드 개요](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).
+Canvas 대시보드 베타에 대한 일반 정보는 [Canvas 대시보드 개요](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)를 참조하십시오.
 
 ## 8월 14일 주
 
@@ -31,4 +31,4 @@ Canvas 대시보드 베타에 대한 일반 정보는 다음을 참조하십시�
 
 * **차트 보고서**
 
-  이제 목록 보고서 외에 차트 보고서를 캔버스에 추가할 수 있습니다. 차트 보고서를 캔버스 대시보드에 추가하는 방법에 대한 자세한 내용은 [캔버스 대시보드 개요](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).
+  이제 목록 보고서 외에 차트 보고서를 캔버스에 추가할 수 있습니다. 차트 보고서를 캔버스 대시보드에 추가하는 방법에 대한 자세한 내용은 [캔버스 대시보드 개요](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)를 참조하십시오.

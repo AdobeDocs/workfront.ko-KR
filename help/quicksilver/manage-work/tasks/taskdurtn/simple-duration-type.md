@@ -16,17 +16,17 @@ ht-degree: 0%
 
 # 기간 유형 개요: 단순
 
-단순 기간 유형은 Adobe Workfront에서 작업에 대해 설정할 수 있는 기간 유형입니다. Workfront의 기간 유형에 대한 일반 정보는 다음을 참조하십시오. [작업 기간 및 기간 유형 개요](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+단순 기간 유형은 Adobe Workfront에서 작업에 대해 설정할 수 있는 기간 유형입니다. Workfront의 기간 유형에 대한 일반적인 정보는 [작업 기간 및 기간 유형 개요](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)를 참조하십시오.
 
 ## 단순 기간 유형 개요
 
-Workfront 또는 그룹 관리자는 시스템 또는 그룹의 기본 기간 유형을 단순으로 설정할 수 있습니다. 이 경우 모든 새 작업은 이 기간 유형으로 만들어집니다. 시스템 수준 또는 그룹 수준 프로젝트 환경 설정의 일부로 작업 및 문제 환경 설정 변경에 대한 자세한 내용은 [시스템 전체 작업 및 문제 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Workfront 또는 그룹 관리자는 시스템 또는 그룹의 기본 기간 유형을 단순으로 설정할 수 있습니다. 이 경우 모든 새 작업은 이 기간 유형으로 만들어집니다. 시스템 수준 또는 그룹 수준 프로젝트 환경 설정의 일부로 작업 및 문제 환경 설정을 변경하는 방법에 대한 자세한 내용은 [시스템 전체 작업 및 문제 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)을 참조하십시오.
 
 작업의 기간 유형이 단순인 경우 다음과 같은 문제가 발생합니다.
 
 * 프로젝트 관리자는 할당자 간에 해당 시간을 배포하는 방법을 수정할 때 작업의 기간 및 계획된 시간을 모두 수정할 수 있습니다.
 
-  자세한 내용은 [간단한 기간 유형으로 작업의 계획된 시간 및 기간 업데이트](../../../manage-work/tasks/taskdurtn/update-planned-hours-duration-for-simple-duration-task.md).
+  자세한 내용은 [간단한 기간 유형으로 작업의 계획된 시간 및 기간 업데이트](../../../manage-work/tasks/taskdurtn/update-planned-hours-duration-for-simple-duration-task.md)를 참조하십시오.
 
   >[!IMPORTANT]
   >
@@ -36,14 +36,14 @@ Workfront 또는 그룹 관리자는 시스템 또는 그룹의 기본 기간 �
   >
   > `Task Duration = Task Planned Hours / Typical hours per work day`
   >
-  >Workfront 관리자는 `Typical hours per work day` 인스턴스 설정의 프로젝트 환경 설정 영역에서 을 참조하십시오.
+  >Workfront 관리자는 인스턴스 설정의 프로젝트 환경 설정 영역에서 `Typical hours per work day`을(를) 정의합니다.
 
 * 할당 비율은 숨겨지고 할당 시간은 대신 편집할 수 있습니다.
 * 모든 신규 고객은 시스템 수준 기간 유형이 단순으로 설정되어 있습니다.
 
 ## 작업의 기간 유형을 단순으로 변경
 
-작업의 기간 유형 변경에 대한 자세한 내용은 [작업의 기간 유형 업데이트](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md).
+작업의 기간 유형 변경에 대한 자세한 내용은 [작업의 기간 유형 업데이트](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md)를 참조하십시오.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: replaced with new article linked above)</p>

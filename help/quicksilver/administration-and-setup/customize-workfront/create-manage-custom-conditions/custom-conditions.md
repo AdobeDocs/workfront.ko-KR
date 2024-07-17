@@ -29,4 +29,4 @@ ht-degree: 0%
 * [작업 및 문제에 대한 기본값으로 사용자 지정 조건 설정](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md)
 * [사용자 지정 조건 삭제](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/delete-custom-conditions.md)
 
-조건 및 이러한 조건을 프로젝트, 작업 및 문제에 적용하는 방법에 대한 자세한 내용은 [프로젝트 상태 및 상태 유형 개요](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md) 및 [작업 및 문제에 대한 상태 업데이트](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
+조건 및 이를 프로젝트, 작업 및 문제에 적용하는 방법에 대한 자세한 내용은 [프로젝트 조건 및 조건 유형 개요](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md) 및 [작업 및 문제에 대한 조건 업데이트](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md)를 참조하십시오.

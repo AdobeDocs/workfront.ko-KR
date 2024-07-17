@@ -25,7 +25,7 @@ in January 2022
 
 2022년 1월 17일이 있는 주.
 
-22.1 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [22.1 릴리스 개요](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+22.1 릴리스에서 사용할 수 있는 모든 변경 사항 목록을 보려면 [22.1 릴리스 개요](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md)를 참조하십시오.
 
 ## 작업을 복사하거나 이동할 때 전임 작업에 대한 기본 옵션 변경
 
@@ -49,7 +49,7 @@ in January 2022
 * 내 대시보드 목록
 * 공유 대시보드 목록
 
-자세한 내용은 [대시보드 만들기 및 관리](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md).
+자세한 내용은 [대시보드 만들기 및 관리](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md)를 참조하십시오.
 
 ## 문서에 대한 사용자 정의 양식 요약 패널 추가 및 편집
 
@@ -59,7 +59,7 @@ in January 2022
 
 이전에는 문서 세부 정보에서 사용자 정의 양식 탭으로 이동하여 사용자 정의 양식을 편집하거나 추가해야 했습니다.
 
-자세한 내용은 [문서에 대한 요약 개요](../../../documents/managing-documents/summary-for-documents.md).
+자세한 내용은 [문서에 대한 요약 개요](../../../documents/managing-documents/summary-for-documents.md)를 참조하십시오.
 
 ## 하나 이상의 작업을 복사할 때의 새로운 경험
 
@@ -71,13 +71,13 @@ Workfront을 새로운 Adobe Workfront 환경과 일관되게 사용하기 위�
 * Workfront은 프로젝트를 선택한 후 즉시 대상 프로젝트에 액세스할 수 있는지 확인합니다. 이 개선 전에는 복사를 확인한 후 올바른 액세스 권한이 없음을 나타내는 경고 메시지가 표시되어 추가 단계를 수행하고 복사가 허용되지 않습니다.
 * 작업 복사 상자를 종료하지 않고 작업을 복사할 프로젝트에 대한 액세스 권한을 요청할 수 있습니다.
 
-자세한 내용은 [작업 복사 및 복제](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+자세한 내용은 [작업 복사 및 복제](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)를 참조하십시오.
 
 ## 목록에서 하나 이상의 작업을 이동할 때의 새로운 경험
 
 동일한 작업을 수행할 때 일관된 경험을 제공하기 위해 이제 작업 수준에서 작업을 이동할 때 경험과 일치하도록 목록에서 하나 이상의 작업을 이동하는 인터페이스를 업데이트했습니다. (이전 미리보기 릴리스의 작업 수준에서 작업을 이동하는 환경을 업데이트했습니다.)
 
-자세한 내용은 [작업 이동](../../../manage-work/tasks/manage-tasks/move-tasks.md).
+자세한 내용은 [작업 이동](../../../manage-work/tasks/manage-tasks/move-tasks.md)을 참조하세요.
 
 ## 작업 수준에서 작업을 이동할 때의 새로운 경험
 
@@ -89,13 +89,13 @@ Workfront을 새로운 Workfront 환경과 일관되게 사용하기 위해 작�
 * Workfront은 프로젝트를 선택한 후 즉시 대상 프로젝트에 액세스할 수 있는지 여부를 확인합니다. 이 개선 이전에 Workfront은 추가 단계를 수행하고 이동이 허용되지 않는 이동을 확인한 후 올바른 액세스 권한이 없다고 경고했습니다.
 * 작업 이동 상자를 종료하지 않고 작업을 이동할 프로젝트에 대한 액세스 권한을 요청할 수 있습니다.
 
-자세한 내용은 [작업 이동](../../../manage-work/tasks/manage-tasks/move-tasks.md).
+자세한 내용은 [작업 이동](../../../manage-work/tasks/manage-tasks/move-tasks.md)을 참조하세요.
 
 ## 문제 수준에서 템플릿을 사용하여 문제를 프로젝트로 전환할 때의 새로운 경험
 
 >[!NOTE]
 >
->이 기능은 2022년 3월 4일에 프로덕션 환경에서 일시적으로 제거되었습니다. 2022년 4월 28일부터 단계적으로 출시되었습니다. 롤아웃은 2022년 5월 5일에 완료되었습니다. 이제 모든 고객을 위한 미리보기 및 프로덕션에서 사용할 수 있습니다. (이 기능이 프로덕션에 릴리스되는 상태에 대한 최신 업데이트는 다음을 참조하십시오. [22.3 릴리스 개요](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).)
+>이 기능은 2022년 3월 4일에 프로덕션 환경에서 일시적으로 제거되었습니다. 2022년 4월 28일부터 단계적으로 출시되었습니다. 롤아웃은 2022년 5월 5일에 완료되었습니다. 이제 모든 고객을 위한 미리보기 및 프로덕션에서 사용할 수 있습니다. (이 기능이 프로덕션에 릴리스되는 상태에 대한 최신 업데이트는 [22.3 릴리스 개요](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)를 참조하십시오.)
 
 Workfront을 새 Workfront 경험과 일관되게 사용하기 위해 문제 페이지에서 템플릿을 변환할 때 템플릿을 사용할 때 문제를 프로젝트로 변환하기 위한 인터페이스를 다시 설계했습니다.
 
@@ -103,19 +103,19 @@ Workfront을 새 Workfront 경험과 일관되게 사용하기 위해 문제 페
 
 다시 설계된 인터페이스는 최근에 업데이트한 템플릿에서 프로젝트를 만들 때의 경험과 일치합니다.
 
-자세한 내용은 [Adobe Workfront에서 문제를 프로젝트로 전환](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+자세한 내용은 [문제를 Adobe Workfront의 프로젝트로 변환](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)을 참조하십시오.
 
 ## 목록, 보고서 및 대시보드의 템플릿을 사용하여 문제를 프로젝트로 전환
 
 >[!NOTE]
 >
->이 기능은 2022년 3월 4일에 프로덕션 환경에서 일시적으로 제거되었습니다. 2022년 4월 28일부터 단계적으로 출시되었습니다. 롤아웃은 2022년 5월 5일에 완료되었습니다. 이제 모든 고객을 위한 미리보기 및 프로덕션에서 사용할 수 있습니다. (이 기능이 프로덕션에 릴리스되는 상태에 대한 최신 업데이트는 다음을 참조하십시오. [22.3 릴리스 개요](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).)
+>이 기능은 2022년 3월 4일에 프로덕션 환경에서 일시적으로 제거되었습니다. 2022년 4월 28일부터 단계적으로 출시되었습니다. 롤아웃은 2022년 5월 5일에 완료되었습니다. 이제 모든 고객을 위한 미리보기 및 프로덕션에서 사용할 수 있습니다. (이 기능이 프로덕션에 릴리스되는 상태에 대한 최신 업데이트는 [22.3 릴리스 개요](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)를 참조하십시오.)
 
 작업의 효율성을 높이고 빠른 환경에서 문제를 더 쉽게 변환할 수 있도록 목록, 보고서 또는 대시보드의 템플릿을 사용하여 문제를 프로젝트로 변환하는 기능이 추가되었습니다.
 
 이 기능이 향상되기 전에는 문제 페이지에서 문제를 전환한 경우에만 이 기능이 존재했습니다.
 
-자세한 내용은 [Adobe Workfront에서 문제를 프로젝트로 전환](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+자세한 내용은 [문제를 Adobe Workfront의 프로젝트로 변환](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)을 참조하십시오.
 
 ## 애자일 보드에서 사용자 목록으로 필터링하면 할당량이 가장 많은 사용자가 먼저 표시됩니다
 
@@ -136,13 +136,13 @@ Workfront을 새 Workfront 경험과 일관되게 사용하기 위해 문제 페
 
 프로젝트에 문서를 추가하는 것으로 생각하고 프로젝트 템플릿에 문서를 추가하는 경우가 있습니다. 이제 보기 액세스 권한이 있는 템플릿을 공유할 때 문서 추가 의 새로운 고급 설정을 비활성화하여 이 문제를 방지할 수 있습니다. 수신자가 템플릿에 문서를 추가할 수 없게 됩니다.
 
-템플릿 공유에 대한 지침은 [프로젝트 템플릿 공유](../../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+템플릿 공유에 대한 지침은 [프로젝트 템플릿 공유](../../../manage-work/projects/create-and-manage-templates/share-project-template.md)를 참조하십시오.
 
-새 고급 설정 문서 추가에 대한 자세한 내용은 문서의 섹션을 참조하십시오 [템플릿 공유](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+새로운 고급 설정 문서 추가에 대한 자세한 내용은 문서 [템플릿 공유](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)의 섹션을 참조하십시오.
 
 ## 문서 폴더 공유
 
 이제 문서 영역에서 문서 폴더와 해당 컨텐츠를 공유할 수 있습니다. 이전에는 이 작업을 수행할 수 없었습니다. 각 문서를 폴더에 별도로 공유해야 했습니다.
 
-자세한 내용은 [문서 폴더 공유](../../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
+자세한 내용은 [문서 폴더 공유](../../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md)를 참조하세요.
 

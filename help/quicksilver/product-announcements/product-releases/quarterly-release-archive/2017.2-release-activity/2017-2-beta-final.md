@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: 2017.2 베타 최종
+title: 2017.2 Beta 결승전
 description: 이 페이지에서는 2017.2 릴리스의 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 페이지의 기능은 2017년 6월 28일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2017년 7월 26일에 사용할 수 있습니다.
 author: Luke
 feature: Product Announcements
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# 2017.2 베타 최종
+# 2017.2 Beta 결승전
 
 이 페이지에서는 2017.2 릴리스의 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 페이지의 기능은 2017년 6월 28일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2017년 7월 26일에 사용할 수 있습니다.
 
@@ -22,15 +22,15 @@ ht-degree: 0%
 >
 >이 페이지에 설명된 기능은 프로덕션 환경에서 사용하기 전에 변경될 수 있습니다.
 
-2017.2의 모든 변경 사항 목록은 다음을 참조하십시오. [2017.2 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md).
+2017.2의 모든 변경 사항 목록은 [2017.2 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md)를 참조하십시오.
 
-2017.2 베타 최종 릴리스에는 Workfront 관리자와 기타 사용자 모두를 위한 개선 사항이 포함되어 있습니다.
+2017.2 Beta 최종 릴리스에는 Workfront 관리자와 기타 사용자를 위한 개선 사항이 포함되어 있습니다.
 
-**관리자의 경우:**
+**관리자용:**
 
-* [HTML5 비디오 증명 뷰어(ProofHQ 및 Workfront)의 가용성 확인](#determine-the-availability-of-the-html5-video-proofing-viewer-proofhq-and-workfront)
-* [SAML 2.0용 SHA-256 인증서 지원](#support-sha-256-certificates-for-saml-2-0)
-* [속성 매핑을 위해 미리 입력](#type-ahead-for-mapping-attributes)
+* [HTML5 비디오 증명 뷰어(ProofHQ 및 Workfront)의 사용 가능 여부 확인](#determine-the-availability-of-the-html5-video-proofing-viewer-proofhq-and-workfront)
+* [SAML 2.0에 대한 SHA-256 인증서 지원](#support-sha-256-certificates-for-saml-2-0)
+* [특성 매핑에 대해 미리 입력](#type-ahead-for-mapping-attributes)
 * [API 개선 사항: 사용자 할당에 액세스](#api-enhancement-access-user-allocations)
 
 **모든 사용자의 경우:**
@@ -39,26 +39,26 @@ ht-degree: 0%
 * [프로젝트의 새 일정 영역(팀 빌더)](#new-scheduling-area-in-a-project-team-builder)
 * [리소스 예약: 기본적으로 더 적은 항목 표시](#resource-scheduling-show-fewer-items-by-default)
 * [리소스 예약: 작업 및 문제를 드래그할 때 드롭 표시기 및 초과 할당 표시](#resource-scheduling-display-drop-indicator-and-over-allocation-when-dragging-tasks-and-issues)
-* [리소스 예약: 사용자 할당이 더 이상 가장 가까운 30분으로 반올림되지 않음](#resource-scheduling-user-allocations-are-no-longer-rounded-to-the-nearest-half-hour)
-* [TSV 및 PDF 형식으로 활용성 보고서 내보내기](#export-the-utilization-report-in-tsv-and-pdf-formats)
-* [2017.2 베타 최종](#user-calendar-enhancements-in-the-my-work-area%22)
-* [2017.2 베타 최종](#layout-template-determines-whether-the-new-or-legacy-calendar-displays-in-the-my-work-area)
+* [리소스 예약: 사용자 할당이 더 이상 가장 가까운 30분으로 반올림되지 않습니다](#resource-scheduling-user-allocations-are-no-longer-rounded-to-the-nearest-half-hour)
+* [TSV 및 PDF 형식으로 사용률 보고서 내보내기](#export-the-utilization-report-in-tsv-and-pdf-formats)
+* [2017.2 Beta Final](#user-calendar-enhancements-in-the-my-work-area%22)
+* [2017.2 Beta Final](#layout-template-determines-whether-the-new-or-legacy-calendar-displays-in-the-my-work-area)
 * [증명 결정이 내 작업 영역(Workfront)에 표시됨](#proof-decision-displays-in-the-my-work-area-workfront)
-* [사전 설정 해상도로 리치 미디어 증명 보기(ProofHQ 및 Workfront)](#view-rich-media-proofs-in-preset-resolutions-proofhq-and-workfront)
+* [사전 설정 해상도(ProofHQ 및 Workfront)에서 리치 미디어 증명 보기](#view-rich-media-proofs-in-preset-resolutions-proofhq-and-workfront)
 * [리치 미디어 증명(ProofHQ 및 Workfront)에 대한 댓글에서 하위 페이지에 대한 URL 보기](#view-url-to-sub-pages-in-comments-on-rich-media-proofs-proofhq-and-workfront)
-* [기존 표준 보기(ProofHQ)를 기반으로 맞춤형 보기 생성](#create-custom-views-based-on-existing-standard-views-proofhq)
-* [보고 영역 필터링(ProofHQ)](#filter-the-reporting-area-proofhq)
+* [기존 표준 보기(ProofHQ)를 기반으로 사용자 지정 보기 만들기](#create-custom-views-based-on-existing-standard-views-proofhq)
+* [보고 영역(ProofHQ) 필터링](#filter-the-reporting-area-proofhq)
 * [보고서에 최소값 및 최대값 표시(ProofHQ)](#display-minimum-and-maximum-values-in-reports-proofhq)
 * [증명 승인을 위한 인앱 알림](#in-app-notification-for-proof-approval)
 * [모바일 개선 사항](#mobile-improvements)
-* [쉼표를 포함하는 필드 값의 필터 문에 슬래시가 추가됨](#slash-added-to-filter-statements-for-field-values-that-contain-commas)
+* 쉼표를 포함하는 필드 값의 필터 문에 [슬래시가 추가됨](#slash-added-to-filter-statements-for-field-values-that-contain-commas)
 * [여러 청구 요금](#multiple-billing-rates)
 * [새 리소스 예산 시간 필드](#new-resource-budgeted-hour-field)
 * [작업 및 문제에 대한 세부 정보 페이지의 &#39;할당 대상&#39; 영역에 사용자 작업 역할 표시](#show-user-job-role-in-assigned-to-area-on-the-details-page-for-tasks-and-issues)
 
 >[!NOTE]
 >
->리소스 예약 도구는 23.1 릴리스에서 더 이상 사용되지 않으며 Workfront에서 제거되었습니다. 업무 균형자 를 사용하여 리소스를 예약하는 방법에 대한 자세한 내용은 [업무 균형자 개요](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>리소스 예약 도구는 23.1 릴리스에서 더 이상 사용되지 않으며 Workfront에서 제거되었습니다. 업무 균형자를 사용하여 리소스를 예약하는 방법에 대한 자세한 내용은 [업무 균형자 개요](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md)를 참조하십시오.
 
 ## 프로젝트의 새 일정 영역(팀 빌더) {#new-scheduling-area-in-a-project-team-builder}
 
@@ -123,7 +123,7 @@ ht-degree: 0%
 
 이 변경 이전에는 활용성 보고서를 XLSX 형식으로만 내보낼 수 있었습니다.
 
-활용성 보고서 내보내기에 대한 자세한 내용은 다음을 참조하십시오. [자원 가동률 보고서 개요](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) 위치: [자원 가동률 보고서 개요](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+사용률 보고서 내보내기에 대한 자세한 내용은 [리소스 사용률 보고서 개요](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)의 [리소스 사용률 보고서 개요](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)를 참조하십시오.
 
 ## 증명 결정이 내 작업 영역(Workfront)에 표시됨 {#proof-decision-displays-in-the-my-work-area-workfront}
 
@@ -131,7 +131,7 @@ ht-degree: 0%
 
 이 변경 이전에는 증명에 대한 결정이 이미 결정되었음을 나타내는 표시가 없었고, 증명이 브라우저를 새로 고칠 때까지 내 승인 탭에 남아 있었습니다.
 
-자세한 내용은 [작업 승인](../../../../review-and-approve-work/manage-approvals/approving-work.md) 위치: [작업 승인](../../../../review-and-approve-work/manage-approvals/approving-work.md).
+자세한 내용은 [작업 승인](../../../../review-and-approve-work/manage-approvals/approving-work.md)에서 [작업 승인](../../../../review-and-approve-work/manage-approvals/approving-work.md)을 참조하세요.
 
 ## 사전 설정 해상도로 리치 미디어 증명 보기(ProofHQ 및 Workfront) {#view-rich-media-proofs-in-preset-resolutions-proofhq-and-workfront}
 
@@ -139,7 +139,7 @@ ht-degree: 0%
 
 이제 다양한 휴대폰, 태블릿, 노트북 및 데스크탑의 사전 설정된 해상도 옵션 중에서 선택할 수 있습니다.
 
-자세한 내용은 의 &quot;사전 설정 해상도 보기&quot;를 참조하십시오. [증명 뷰어에서 대화형 증명 해상도 변경](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md).
+자세한 내용은 [증명 뷰어에서 대화형 증명 해상도 변경](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md)의 &quot;사전 설정 해상도 보기&quot;를 참조하십시오.
 
 ## 리치 미디어 증명(ProofHQ 및 Workfront)에 대한 댓글에서 하위 페이지에 대한 URL 보기 {#view-url-to-sub-pages-in-comments-on-rich-media-proofs-proofhq-and-workfront}
 
@@ -165,25 +165,25 @@ Workfront에서 이 옵션을 구성하는 방법에 대한 자세한 내용은�
 
 이 변경 전에 사용자 지정 보기를 만들려면 처음부터 보기를 만들어야 했습니다. 
 
-자세한 내용은 [사용자 정의 보기 만들기](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md#creating) 위치: [Workfront Proof에서 사용자 정의 보기 만들기 및 관리](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+자세한 내용은 [Workfront Proof Proof에서 사용자 지정 보기 만들기 및 관리](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md)에서 [사용자 지정 보기 만들기](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md#creating)를 참조하십시오.
 
 ## 보고 영역 필터링(ProofHQ) {#filter-the-reporting-area-proofhq}
 
 기본적으로 보고서 탭에 표시되는 데이터에는 ProofHQ 시스템의 모든 정보가 포함됩니다. 이제 필터를 사용하여 요구 사항과 관련된 정보만 표시할 수 있습니다. 
 
-자세한 내용은 [보고서 필터링](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#filtering-reports) 위치:  [Workfront 증명에서 보고서 실행](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md).
+자세한 내용은 [보고서 필터링](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#filtering-reports)을 참조하세요.  [Workfront Proof에서 보고서 실행](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md).
 
 ## 보고서에 최소값 및 최대값 표시(ProofHQ) {#display-minimum-and-maximum-values-in-reports-proofhq}
 
 이제 보고서를 볼 때 그래프에 최소값과 최대값을 표시할지 여부를 구성할 수 있습니다.
 
-자세한 내용은 [보고서 보기](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#viewing-reports) 위치:  [Workfront 증명에서 보고서 실행](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md).
+자세한 내용은 [보고서 보기](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#viewing-reports)를 참조하세요.  [Workfront Proof에서 보고서 실행](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md).
 
 ## SAML 2.0용 SHA-256 인증서 지원 {#support-sha-256-certificates-for-saml-2-0}
 
 이제 SAML 2.0으로 SSO용 Workfront을 구성할 때 보안 해시 알고리즘 256(SHA-256)을 지원합니다. 이 릴리스 이전에는 SHA-1(Secure Hash Algorithm 1)만 지원했습니다.
 
-SAML 2.0을 사용하여 Workfront을 구성하는 방법에 대한 자세한 내용은 [SAML 2.0으로 Adobe Workfront 구성](../../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
+SAML 2.0을 사용하여 Workfront을 구성하는 방법에 대한 자세한 내용은 [SAML 2.0을 사용하여 Adobe Workfront 구성](../../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)을 참조하십시오.
 
 ## 속성 매핑을 위해 미리 입력 {#type-ahead-for-mapping-attributes}
 
@@ -203,16 +203,16 @@ SAML 1.1은 속성 매핑을 지원하지 않습니다.
 >
 > 모바일 애플리케이션은 기본 Workfront 애플리케이션과 별도로 릴리스됩니다. 이 섹션에 설명된 기능은 8월 초에 릴리스됩니다.
 
-모바일 앱에서 Android 및 iOS 플랫폼 모두에 대해 다음과 같은 추가된 기능이 표시됩니다.
+모바일 앱에서 Android 및 iOS 플랫폼 모두에 대해 다음과 같은 추가 기능이 표시됩니다.
 
 * 모바일 앱에서 요청 제출
 * 모바일 앱의 타임시트 새 항목
 * 모바일 앱에서 사용자 정의 양식 편집
 * 모바일 앱의 증명 승인 요청
 
-Android 플랫폼에 대한 이러한 기능 중 일부에 대한 공개 베타 프로그램이 있습니다.
+Android 플랫폼용 이러한 기능 중 일부에 대한 공개 베타 프로그램이 있을 예정입니다.
 
-모바일용 베타 프로그램에 대한 자세한 내용은  [&quot;베타&quot;](https://support.workfront.com/hc/en-us/sections/115000743248) 페이지를 가리키도록 업데이트하는 중입니다.
+모바일용 베타 프로그램에 대한 자세한 내용은  [&quot;베타&quot;](https://support.workfront.com/hc/en-us/sections/115000743248) 페이지입니다.
 
 Workfront 모바일 앱 사용에 대한 자세한 내용은 을 참조하십시오.  
 
@@ -226,7 +226,7 @@ Workfront 모바일 앱 사용에 대한 자세한 내용은 을 참조하십시
 
 이 변경 이전에는 쉼표가 포함된 옵션이 있는 필드를 필터링할 수 없었습니다.
 
-이 변경 사항에 대한 자세한 내용은 [필터 개요](../../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+이 변경 내용에 대한 자세한 내용은 [필터 개요](../../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)를 참조하십시오.
 
 ## 여러 청구 요금 {#multiple-billing-rates}
 
@@ -234,9 +234,9 @@ Workfront 모바일 앱 사용에 대한 자세한 내용은 을 참조하십시
 
 이 변경 이전에는 작업 역할의 청구 요금을 한 번만 재정의할 수 있었으며, 청구 요금이 변경되기 전에 기록된 모든 시간에 대한 현재 청구 요금을 반영하도록 실제 수익 이 다시 계산됩니다.
 
-청구 요금 및 매출에 대한 자세한 내용은 [청구 및 수익 개요](../../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+청구 요금 및 매출에 대한 자세한 내용은 [청구 및 매출 개요](../../../../manage-work/projects/project-finances/billing-and-revenue-overview.md)를 참조하십시오.
 
-프로젝트 수준에서 작업 역할에 대한 청구 요율 재정의에 대한 자세한 내용은 다음을 참조하십시오. [작업 역할 청구 요금 재정의 및 프로젝트의 수익 계산에 대한 개요](../../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+프로젝트 수준의 작업 역할에 대한 청구 요율 재정의에 대한 자세한 내용은 [작업 역할 청구 요율 재정의 개요 및 프로젝트의 수익 계산](../../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)을 참조하십시오.
 
 ## 리소스 플래너 {#resource-planner}
 
@@ -248,21 +248,21 @@ Workfront 모바일 앱 사용에 대한 자세한 내용은 을 참조하십시
 * 시간 차이(예산 시간과 계획 시간 사이)
 * 순 시간 차이(가용 시간과 예산 시간 간)
 
-리소스 플래너 사용에 대한 자세한 내용은 [리소스 플래너 개요](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+리소스 플래너 사용에 대한 자세한 내용은 [리소스 플래너 개요](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md)를 참조하십시오.
 
 ## 새 리소스 예산 시간 필드 {#new-resource-budgeted-hour-field}
 
 새 계획 기능 및 리소스 플래너를 지원하기 위해 리소스 예산 시간에 대해 보고할 수 있는 새 필드가 Report Builder에 추가되었습니다. 이 필드는 프로젝트의 리소스 예산 시간을 캡처합니다. 레거시 리소스 계획 기능을 사용하여 리소스 예산을 책정하는 경우에는 이 필드를 사용할 수 없습니다.
 
-리소스 플래너에서 예산 시간을 사용하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [리소스 플래너 개요](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+리소스 플래너에서 예산 시간을 사용하는 방법에 대한 자세한 내용은 [리소스 플래너 개요](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md)를 참조하십시오.
 
 ## 증명 승인을 위한 인앱 알림 {#in-app-notification-for-proof-approval}
 
-증명에 대한 승인자로 지정되면 결정을 기다리는 증명 승인에 대한 인앱 알림을 받게 됩니다. 알림에는 다음 텍스트가 표시됩니다. `<User name>` 귀하가 이 증명을 승인하기를 원합니다.&quot; 사용자 정보를 사용할 수 없는 경우 알림이 &quot;이 증명은 귀하의 승인이 필요합니다.&quot;로 변경됩니다.
+증명에 대한 승인자로 지정되면 결정을 기다리는 증명 승인에 대한 인앱 알림을 받게 됩니다. 알림에 다음과 같은 텍스트가 표시됩니다. `<User name>`님이 이 증명을 승인하기를 원합니다.&quot; 사용자 정보를 사용할 수 없는 경우 알림이 &quot;이 증명은 귀하의 승인이 필요합니다.&quot;로 변경됩니다.
 
 이 개선 이전에는 증명에서 승인자로 지정되었음을 시각적으로 표시한 것은 내 작업 영역에서 새 증명 요청뿐입니다.
 
-인앱 알림에 대한 자세한 내용은 [인앱 알림 보기 및 관리](../../../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
+인앱 알림에 대한 자세한 내용은 [인앱 알림 보기 및 관리](../../../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)를 참조하십시오.
 
 ## 작업 및 문제에 대한 세부 정보 페이지의 &#39;할당 대상&#39; 영역에 사용자 작업 역할 표시 {#show-user-job-role-in-assigned-to-area-on-the-details-page-for-tasks-and-issues}
 

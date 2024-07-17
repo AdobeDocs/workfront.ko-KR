@@ -51,7 +51,7 @@ Workfront에는 5개의 새로운 기본 제공 액세스 수준이 있습니다
     </tr>
 </table>
 
-사용자 지정 액세스 수준이 필요한 경우 기본 제공 액세스 수준을 복사하고 다양한 Workfront 개체 유형에 사용할 수 있도록 하려는 액세스 양을 조정할 수 있습니다. 사용자 지정 액세스 수준을 만드는 방법에 대한 자세한 내용은 [사용자 정의 액세스 수준 만들기 또는 수정](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+사용자 지정 액세스 수준이 필요한 경우 기본 제공 액세스 수준을 복사하고 다양한 Workfront 개체 유형에 사용할 수 있도록 하려는 액세스 양을 조정할 수 있습니다. 사용자 지정 액세스 수준을 만드는 방법에 대한 자세한 내용은 [사용자 지정 액세스 수준 만들기 또는 수정](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)을 참조하십시오.
 
 >[!IMPORTANT]
 >
@@ -65,7 +65,7 @@ Standard 라이선스에 첨부된 이 기본 제공 액세스 수준은 Adobe W
 
 또한 시스템 수준에서 설정을 변경할 수 있는 전체 설정 영역에 액세스할 수 있으며 메인 메뉴의 모든 영역에 액세스할 수 있습니다.
 
-자세한 내용은 [사용자에게 전체 관리 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+자세한 내용은 [사용자에게 전체 관리 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)를 참조하십시오.
 
 ### 표준 액세스 수준
 
@@ -81,7 +81,7 @@ Standard 라이선스에 첨부된 이 기본 제공 액세스 수준은 Adobe W
 
 >[!NOTE]
 >
->표준 기본 제공 액세스 수준의 사용자 지정 버전을 만들고 다양한 Workfront 개체 유형에 사용할 수 있는 액세스 양을 조정할 수 있습니다. 사용자 지정 액세스 수준을 만드는 방법에 대한 자세한 내용은 [사용자 정의 액세스 수준 만들기 또는 수정](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>표준 기본 제공 액세스 수준의 사용자 지정 버전을 만들고 다양한 Workfront 개체 유형에 사용할 수 있는 액세스 양을 조정할 수 있습니다. 사용자 지정 액세스 수준을 만드는 방법에 대한 자세한 내용은 [사용자 지정 액세스 수준 만들기 또는 수정](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)을 참조하십시오.
 
 #### **액세스 세부 정보**
 
@@ -127,7 +127,7 @@ Standard 라이선스에 첨부된 이 기본 제공 액세스 수준은 Adobe W
 
 >[!NOTE]
 >
->Light 기본 제공 액세스 수준의 사용자 지정 버전을 만들고 다양한 Workfront 개체 유형에 사용할 수 있는 액세스 양을 조정할 수 있습니다. 사용자 지정 액세스 수준을 만드는 방법에 대한 자세한 내용은 [사용자 정의 액세스 수준 만들기 또는 수정](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>Light 기본 제공 액세스 수준의 사용자 지정 버전을 만들고 다양한 Workfront 개체 유형에 사용할 수 있는 액세스 양을 조정할 수 있습니다. 사용자 지정 액세스 수준을 만드는 방법에 대한 자세한 내용은 [사용자 지정 액세스 수준 만들기 또는 수정](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)을 참조하십시오.
 
 #### **액세스 세부 정보**
 
@@ -266,11 +266,11 @@ Standard 라이선스에 첨부된 이 기본 제공 액세스 수준은 Adobe W
 * 프로젝트, 작업 및 문제를 승인할 수 있음
 * 제출한 문제의 상태를 검토할 수 있습니다.
 * 작업 항목에 할당할 수 있지만 완료할 수 없습니다.
-* 메인 메뉴에서만 요청에 액세스할 수 있습니다. 요청 대기열에 대한 자세한 내용은 [요청 대기열 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+* 메인 메뉴에서만 요청에 액세스할 수 있습니다. 요청 대기열에 대한 자세한 내용은 [요청 대기열 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)를 참조하십시오.
 
 >[!NOTE]
 >
->기여자 기본 제공 액세스 수준의 사용자 지정 버전을 만들고 다양한 Workfront 개체 유형에 사용할 수 있는 액세스 양을 조정할 수 있습니다. 사용자 지정 액세스 수준을 만드는 방법에 대한 자세한 내용은 [사용자 정의 액세스 수준 만들기 또는 수정](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>기여자 기본 제공 액세스 수준의 사용자 지정 버전을 만들고 다양한 Workfront 개체 유형에 사용할 수 있는 액세스 양을 조정할 수 있습니다. 사용자 지정 액세스 수준을 만드는 방법에 대한 자세한 내용은 [사용자 지정 액세스 수준 만들기 또는 수정](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)을 참조하십시오.
 
 #### **액세스 세부 정보**
 
@@ -314,7 +314,7 @@ Standard 라이선스에 첨부된 이 기본 제공 액세스 수준은 Adobe W
 
 >[!IMPORTANT]
 >
->외부 사용자는 설정의 시스템 환경 설정 영역에서 &quot;이메일 주소를 사용하여 Workfront 계정이 없는 사용자와 공동 작업&quot; 옵션이 활성화된 경우에만 사용할 수 있습니다. 자세한 내용은 [시스템 보안 환경 설정 구성](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+>외부 사용자는 설정의 시스템 환경 설정 영역에서 &quot;이메일 주소를 사용하여 Workfront 계정이 없는 사용자와 공동 작업&quot; 옵션이 활성화된 경우에만 사용할 수 있습니다. 자세한 내용은 [시스템 보안 환경 설정 구성](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)을 참조하십시오.
 
 #### **액세스 세부 정보**
 
@@ -393,14 +393,14 @@ Standard 라이선스에 첨부된 이 기본 제공 액세스 수준은 Adobe W
 
 사용자는 개별 객체에 대해 수신자에게 다음 권한 중 하나를 부여할 수 있습니다.
 
-* **보기**: 이 권한 수준을 사용하면 수신자가 다음 방법 중 하나로 개체를 공유할 수 있습니다.
+* **보기**: 이 권한 수준을 사용하면 받는 사람이 다음 방법 중 하나로 개체를 공유할 수 있습니다.
 
    * 모든 사용자가 볼 수 있도록 시스템 전체(모든 오브젝트에 사용할 수 없음)
    * Workfront 라이선스가 없는 외부 사용자 사용(모든 오브젝트에 사용할 수 없음)
    * 이메일 주소 포함(문서 및 캘린더에만 사용 가능)
 
-* **참여**: (일부 객체에는 사용할 수 없음)
-* **관리**: 누군가 오브젝트를 공유할 때 오브젝트에 대한 수신자의 권한은 수신자의 액세스 수준과 공유자가 부여한 오브젝트 권한의 조합에 의해 결정됩니다. 해당 조합에서 사용할 수 있는 가장 낮은 액세스 정도는 수신자가 오브젝트로 수행할 수 있는 작업을 결정하는 것입니다.
+* **Contribute**: (모든 개체에 사용할 수 없음)
+* **관리**: 다른 사용자가 개체를 공유할 때 받는 사람의 개체에 대한 권한은 받는 사람의 액세스 수준과 공유자가 부여한 개체에 대한 권한의 조합으로 결정됩니다. 해당 조합에서 사용할 수 있는 가장 낮은 액세스 정도는 수신자가 오브젝트로 수행할 수 있는 작업을 결정하는 것입니다.
 
 ### 예제 시나리오
 

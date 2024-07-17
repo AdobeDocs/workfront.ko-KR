@@ -9,10 +9,10 @@ title: 에어테이블 모듈
 description: Adobe Workfront Fusion에는 Adobe Workfront 라이센스 외에 Adobe Workfront Fusion 라이센스가 필요합니다.
 author: Becky
 feature: Workfront Fusion
-exl-id: 5d061b23-0a39-44e6-ac9b-0ef5ac7e9ab4
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+exl-id: 1d78e0db-9a77-437d-a72f-88fb256981c0
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: tm+mt
-source-wordcount: '1863'
+source-wordcount: '1862'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 # 에어테이블 모듈
 
 
-포함 [!DNL Airtable] 커넥터 [!DNL Adobe Workfront Fusion], 의 이벤트를 기반으로 시나리오를 시작할 수 있습니다. [!DNL Airtable] 계정, 레코드 만들기, 업로드 및 업데이트, 레코드 검색 및 Airtable API에 대한 사용자 지정 API 호출 수행.
+[!DNL Adobe Workfront Fusion]에 대한 [!DNL Airtable] 커넥터를 사용하면 [!DNL Airtable] 계정의 이벤트를 기반으로 시나리오를 시작하고, 레코드, 검색 레코드를 만들고, 업로드 및 업데이트하고, Airtable API에 대한 사용자 지정 API를 호출할 수 있습니다.
 
 ## 액세스 요구 사항
 
@@ -40,18 +40,18 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 라이센스**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p> </td> 
+   <td> <p>작업 자동화 및 통합을 위한 [!UICONTROL [!DNL Workfront Fusion]] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">제품</td> 
-   <td>조직은 다음을 구매해야 합니다. [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오.</td> 
+   <td>조직에서 이 문서에 설명된 기능을 사용하려면 [!DNL Adobe Workfront Fusion]과(와) [!DNL Adobe Workfront]을(를) 구입해야 합니다.</td> 
   </tr> 
  </tbody> 
 </table>
 
-보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
+보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
 
-다음에 대한 정보: [!DNL Adobe Workfront Fusion] 라이센스, 참조 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+[!DNL Adobe Workfront Fusion] 라이선스에 대한 자세한 내용은 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md)를 참조하세요.
 
 ## 전제 조건
 
@@ -68,10 +68,10 @@ ht-degree: 2%
 1. Log in to your Airtable account.
 1. Open your account overview and generate the API key.
 -->
-1. Workfront Fusion 및 **연결 만들기** 원하는 모듈의 대화 상자.
+1. Workfront Fusion을 열고 원하는 모듈의 **연결 만들기** 대화 상자를 엽니다.
 1. 연결의 이름을 입력합니다.
 1. (선택 사항) 고급 설정 표시 를 클릭하고 Airtable 클라이언트 ID 및 클라이언트 암호를 입력합니다.
-1. 다음을 클릭합니다. **계속** 단추를 클릭하여 연결을 만들고 모듈로 돌아갑니다.
+1. 연결을 만들고 모듈로 돌아가려면 **계속** 단추를 클릭하십시오.
 
 ## Airtable 모듈 및 해당 필드
 
@@ -103,7 +103,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td>연결 </td> 
-   <td> <p>Airtable 계정을 Workfront Fusion에 연결하는 방법에 대한 지침은 다음을 참조하십시오. <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Airtable을 Workfront Fusion에 연결</a> 이 문서에서.</p> </td> 
+   <td> <p>Airtable 계정을 Workfront Fusion에 연결하는 방법에 대한 지침은 이 문서의 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Airtable을 Workfront Fusion에 연결</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>기본 </td> 
@@ -163,7 +163,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td>연결 </td> 
-   <td> <p>Airtable 계정을 Workfront Fusion에 연결하는 방법에 대한 지침은 다음을 참조하십시오. <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Airtable을 Workfront Fusion에 연결</a> 이 문서에서.</p> </td> 
+   <td> <p>Airtable 계정을 Workfront Fusion에 연결하는 방법에 대한 지침은 이 문서의 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Airtable을 Workfront Fusion에 연결</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>기본 </td> 
@@ -190,7 +190,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td>연결 </td> 
-   <td> <p>Airtable 계정을 Workfront Fusion에 연결하는 방법에 대한 지침은 다음을 참조하십시오. <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Airtable을 Workfront Fusion에 연결</a> 이 문서에서.</p> </td> 
+   <td> <p>Airtable 계정을 Workfront Fusion에 연결하는 방법에 대한 지침은 이 문서의 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Airtable을 Workfront Fusion에 연결</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>기본 </td> 
@@ -221,7 +221,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td>연결 </td> 
-   <td> <p>Airtable 계정을 Workfront Fusion에 연결하는 방법에 대한 지침은 다음을 참조하십시오. <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Airtable을 Workfront Fusion에 연결</a> 이 문서에서.</p> </td> 
+   <td> <p>Airtable 계정을 Workfront Fusion에 연결하는 방법에 대한 지침은 이 문서의 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Airtable을 Workfront Fusion에 연결</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>기본 </td> 
@@ -233,7 +233,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td> <p>공식</p> </td> 
-   <td> <p>레코드를 필터링하는 데 사용되는 수식입니다. 공식은 각 레코드에 대해 평가되며 결과가 다음과 같지 않은 경우 <code>0</code>, <code>false</code>, <code>""</code>, <code>NaN</code>, <code>[]</code>, 또는 <code>#Error!</code> 레코드는 응답에 포함됩니다.</p> <p>와 결합된 경우 <code>view</code>를 입력하면 해당 보기에서 공식을 충족하는 레코드만 반환됩니다.</p> <p>예를 들어, 이름이 비어 있지 않은 레코드만 포함하려면 다음을 전달합니다.<code> NOT({Name} = '')</code></p> <p>자세한 내용을 보려면 Airtable 지원 설명서에서 공식 필드 참조에 대한 정보를 검색하십시오.</p> </td> 
+   <td> <p>레코드를 필터링하는 데 사용되는 수식입니다. 수식은 각 레코드에 대해 평가되며 결과가 <code>0</code>, <code>false</code>, <code>""</code>, <code>NaN</code>, <code>[]</code> 또는 <code>#Error!</code>이(가) 아닌 경우 레코드가 응답에 포함됩니다.</p> <p><code>view</code>과(와) 결합되면 해당 보기의 수식을 만족하는 레코드만 반환됩니다.</p> <p>예를 들어, 이름이 비어 있지 않은 레코드만 포함하려면 다음을 전달합니다.<code> NOT({Name} = '')</code></p> <p>자세한 내용을 보려면 Airtable 지원 설명서에서 공식 필드 참조에 대한 정보를 검색하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>정렬 </td> 
@@ -266,7 +266,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td>연결 </td> 
-   <td> <p>Airtable 계정을 Workfront Fusion에 연결하는 방법에 대한 지침은 다음을 참조하십시오. <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Airtable을 Workfront Fusion에 연결</a> 이 문서에서.</p> </td> 
+   <td> <p>Airtable 계정을 Workfront Fusion에 연결하는 방법에 대한 지침은 이 문서의 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Airtable을 Workfront Fusion에 연결</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>기본 </td> 
@@ -330,7 +330,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td>연결 </td> 
-   <td> <p>Airtable 계정을 Workfront Fusion에 연결하는 방법에 대한 지침은 다음을 참조하십시오. <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Airtable을 Workfront Fusion에 연결</a> 이 문서에서.</p> </td> 
+   <td> <p>Airtable 계정을 Workfront Fusion에 연결하는 방법에 대한 지침은 이 문서의 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Airtable을 Workfront Fusion에 연결</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>기본 </td> 
@@ -392,7 +392,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td>연결 </td> 
-   <td> <p>Airtable 계정을 Workfront Fusion에 연결하는 방법에 대한 지침은 다음을 참조하십시오. <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Airtable을 Workfront Fusion에 연결</a> 이 문서에서.</p> </td> 
+   <td> <p>Airtable 계정을 Workfront Fusion에 연결하는 방법에 대한 지침은 이 문서의 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Airtable을 Workfront Fusion에 연결</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>기본 </td> 
@@ -404,7 +404,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td> <p>트리거 구성</p> </td> 
-   <td> <p>트리거 필드</p> <p>A <code>Created Time</code> 또는 <code>Last Modified Time</code> 레코드를 정렬하는 데 사용되는 필드입니다. 이(가) 없는 경우 <code>Created Time</code> 또는 <code>Last Modified Time</code> 스키마에 필드를 만들면 됩니다. </p> <p>레이블 필드</p> <p>레코드 레이블로 사용되는 필드(예: 시작 위치 선택 대화 상자).</p> </td> 
+   <td> <p>트리거 필드</p> <p>레코드를 정렬하는 데 사용되는 <code>Created Time</code> 또는 <code>Last Modified Time</code> 필드입니다. 스키마에 <code>Created Time</code> 또는 <code>Last Modified Time</code> 필드가 없는 경우 필드를 만들어야 합니다. </p> <p>레이블 필드</p> <p>레코드 레이블로 사용되는 필드(예: 시작 위치 선택 대화 상자).</p> </td> 
   </tr> 
   <tr> 
    <td>제한</td> 
@@ -416,7 +416,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td> <p>공식</p> </td> 
-   <td> <p>레코드를 필터링하는 데 사용되는 수식입니다. 공식은 각 레코드에 대해 평가되며 결과가 다음과 같지 않은 경우 <code>0</code>, <code>false</code>, <code>""</code>, <code>NaN</code>, <code>[]</code>, 또는 <code>#Error!</code> 레코드는 응답에 포함됩니다.</p> <p>와 결합된 경우 <code>view</code>를 입력하면 해당 보기에서 공식을 충족하는 레코드만 반환됩니다.</p> <p>예를 들어, 이름이 비어 있지 않은 레코드만 포함하려면 다음을 전달합니다.<code> NOT({Name} = '')</code></p> <p>자세한 내용은 Airtable 지원 설명서에서 공식 필드 참조에 대한 정보를 참조하십시오.</p> </td> 
+   <td> <p>레코드를 필터링하는 데 사용되는 수식입니다. 수식은 각 레코드에 대해 평가되며 결과가 <code>0</code>, <code>false</code>, <code>""</code>, <code>NaN</code>, <code>[]</code> 또는 <code>#Error!</code>이(가) 아닌 경우 레코드가 응답에 포함됩니다.</p> <p><code>view</code>과(와) 결합되면 해당 보기의 수식을 만족하는 레코드만 반환됩니다.</p> <p>예를 들어, 이름이 비어 있지 않은 레코드만 포함하려면 다음을 전달합니다.<code> NOT({Name} = '')</code></p> <p>자세한 내용은 Airtable 지원 설명서에서 공식 필드 참조에 대한 정보를 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -434,12 +434,12 @@ ht-degree: 2%
 1. Workfront Fusion 시나리오에 새 응답 보기 모듈을 추가합니다.
 1. 웹후크 URL을 생성하고 복사합니다.
 
-   자세한 내용은 [Adobe Workfront Fusion의 즉각적인 트리거(웹후크)](../../workfront-fusion/webhooks/instant-triggers-webhooks.md).
+   자세한 내용은 Adobe Workfront Fusion의 [인스턴트 트리거(웹후크)](../../workfront-fusion/webhooks/instant-triggers-webhooks.md)를 참조하십시오.
 
 1. Airtable 계정에 로그인합니다.
 1. 폼에 사용할 기본 및 표를 열고 폼 보기를 만듭니다.
 1. 필요에 따라 양식을 설정하고 양식을 아래로 스크롤한 다음 양식이 제출된 후 URL로 리디렉션 옵션을 활성화합니다.
-1. 2단계에서 생성된 웹후크 URL을 표시된 대화 상자에 입력하고 ?record_id=를 추가합니다.{record_id} webhook URL 바로 뒤에 레코드 ID를 모듈 출력에 포함시킨 다음 저장을 클릭합니다. 결과 URL의 예는 다음과 같습니다.
+1. 2단계에서 생성된 웹후크 URL을 표시된 대화 상자에 입력하고 웹후크 URL 바로 뒤에 ?record_id={record_id}을(를) 추가하여 모듈의 출력에 레코드 ID를 포함시킨 다음 저장을 클릭합니다. 결과 URL의 예는 다음과 같습니다.
 1. Workfront Fusion 시나리오로 돌아가서 응답 보기 모듈만 실행하여 Airtable에서 필드를 로드하고 해당 필드를 다른 모듈에 매핑합니다.
 1. 양식 제출 후 URL로 리디렉션 옵션이 활성화되고 웹후크 URL이 추가된(위의 6단계) Airtable에서 양식을 제출하십시오.
 
@@ -453,7 +453,7 @@ ht-degree: 2%
 
 #### 사용자 정의 API 호출
 
-이 작업 모듈에서는 다음을 위한 사용자 지정 인증 호출을 만들 수 있습니다. [!DNL Airtable] API. 이렇게 하면 다른 사용자가 수행할 수 없는 데이터 흐름 자동화를 만들 수 있습니다 [!DNL Airtable] 모듈.
+이 작업 모듈을 사용하면 [!DNL Airtable] API에 대해 사용자 지정 인증된 호출을 수행할 수 있습니다. 이렇게 하면 다른 [!DNL Airtable] 모듈에서 수행할 수 없는 데이터 흐름 자동화를 만들 수 있습니다.
 
 작업은 지정한 엔티티 유형(Allocadia 객체 유형)을 기반으로 합니다.
 
@@ -465,15 +465,15 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>연결</p> </td> 
-   <td> <p>Airtable 계정을 Workfront Fusion에 연결하는 방법에 대한 지침은 다음을 참조하십시오. <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Airtable을 Workfront Fusion에 연결</a> 이 문서에서.</p> </td> 
+   <td> <p>Airtable 계정을 Workfront Fusion에 연결하는 방법에 대한 지침은 이 문서의 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Airtable을 Workfront Fusion에 연결</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
-   <td>상대 경로 입력 <code>https://api.airtable.com/}</code>. 예: <code>v0/{base}/{table}</code> </td> 
+   <td><code>https://api.airtable.com/}</code>과(와) 관련된 경로를 입력하십시오. 예: <code>v0/{base}/{table}</code> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">메서드</td> 
-   <td> <p>API 호출을 구성하는 데 필요한 HTTP 요청 메서드를 선택합니다. 자세한 내용은 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">의 HTTP 요청 메서드 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>API 호출을 구성하는 데 필요한 HTTP 요청 메서드를 선택합니다. 자세한 내용은 [!DNL Adobe Workfront Fusion]</a>에서 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP 요청 메서드를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">헤더</td> 
@@ -485,7 +485,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">본문</td> 
-   <td> <p>표준 JSON 개체의 형태로 API 호출에 대한 본문 콘텐츠를 추가합니다.</p> <p>참고:  <p>다음과 같은 조건문을 사용할 때 <code>if</code> json에서 따옴표를 조건문 외부에 넣습니다.</p> 
+   <td> <p>표준 JSON 개체의 형태로 API 호출에 대한 본문 콘텐츠를 추가합니다.</p> <p>참고:  <p>JSON에서 <code>if</code>과(와) 같은 조건문을 사용할 때 따옴표를 조건문 외부에 넣으십시오.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 

@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >Workfront Planning에서 알림을 받으려면 귀사가 Adobe 통합 경험 고객이어야 합니다.
 >
->자세한 내용은 [Workfront용 통합 경험 Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+>자세한 내용은 [Workfront용 통합 경험 Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)를 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -40,7 +40,7 @@ ht-degree: 0%
    <p> 제품</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>Workfront Planning에서 인앱 알림을 수신하고 알림 환경 설정을 관리하려면 조직의 Workfront 인스턴스가 통합 경험 Adobe에 온보딩되어야 합니다. 자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 통합 경험 Adobe</a>.</p>
+   <p>Workfront Planning에서 인앱 알림을 수신하고 알림 환경 설정을 관리하려면 조직의 Workfront 인스턴스가 통합 경험 Adobe에 온보딩되어야 합니다. 자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 통합 경험 Adobe</a>를 참조하십시오.</p>
    </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront 계약</p></td>
@@ -68,14 +68,14 @@ ht-degree: 0%
   </tr>
 <tr>
    <td role="rowheader"><p>권한</p></td>
-   <td> <p>작업 공간에 대한 이상의 권한 보기</a> </p>  
+   <td> <p>작업 영역 </a>에 대한 이상의 권한 보기 </p>  
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p>
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>레이아웃 템플릿</p></td>
-   <td> <p>Workfront 또는 그룹 관리자는 레이아웃 템플릿에 계획 영역을 추가해야 합니다. 자세한 내용은 <a href="/help/quicksilver/planning/access/access-overview.md">액세스 개요</a>. </p>  
+   <td> <p>Workfront 또는 그룹 관리자는 레이아웃 템플릿에 계획 영역을 추가해야 합니다. 자세한 내용은 <a href="/help/quicksilver/planning/access/access-overview.md">액세스 개요</a>를 참조하십시오. </p>  
 </td>
   </tr>
  </tbody>
@@ -84,15 +84,15 @@ ht-degree: 0%
 ## 알림 환경 설정 관리
 
 1. Adobe Experience Cloud 자격 증명으로 Workfront에 로그인합니다.
-1. 다음을 클릭합니다. **계정 메뉴** 아이콘 ![](assets/account-menu-icon-on-experience-cloud.png) 화면 오른쪽 상단에서 을(를) 클릭한 다음 **환경 설정**.
-1. 아래 **알림** 섹션, 클릭 **Workfront**를 클릭한 다음 다음 문서의 단계에 따라 Workfront Planning에 대한 알림 환경 설정을 관리합니다.
+1. 화면 오른쪽 상단의 **계정 메뉴** 아이콘 ![](assets/account-menu-icon-on-experience-cloud.png)을(를) 클릭한 다음 **기본 설정**&#x200B;을(를) 클릭합니다.
+1. **알림** 섹션에서 **Workfront**을(를) 클릭한 다음 다음 다음 문서의 단계에 따라 Workfront Planning에 대한 알림 환경 설정을 관리합니다.
    [계정 환경 설정 및 알림](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
 Workfront Planning 알림에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
-* 레코드의 주석에 대한 자세한 내용은 [레코드 주석 관리](/help/quicksilver/planning/records/manage-record-comments.md).
-* Workfront Planning의 인앱 알림에 대한 자세한 내용은 [Adobe Workfront Planning용 인앱 알림 관리](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md).
-* Workfront Planning의 이메일 알림에 대한 자세한 내용은 [Adobe Workfront Planning에 대한 이메일 알림 관리](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md).
+* 레코드에 대한 댓글에 대한 자세한 내용은 [레코드 댓글 관리](/help/quicksilver/planning/records/manage-record-comments.md)를 참조하십시오.
+* Workfront Planning의 인앱 알림에 대한 자세한 내용은 [Adobe Workfront Planning의 인앱 알림 관리](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md)를 참조하십시오.
+* Workfront Planning의 전자 메일 알림에 대한 자세한 내용은 [Adobe Workfront Planning의 전자 메일 알림 관리](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md)를 참조하십시오.
 
 
 

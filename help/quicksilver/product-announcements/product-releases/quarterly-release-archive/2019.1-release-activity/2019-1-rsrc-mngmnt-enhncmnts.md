@@ -18,7 +18,7 @@ ht-degree: 0%
 
 이 페이지에서는 2019.1 릴리스에 포함된 모든 리소스 관리 개선 사항에 대해 설명합니다. 이제 프로덕션 환경에서 기능을 사용할 수 있습니다.
 
-2019.1의 모든 변경 사항 목록은 을 참조하십시오. [2019.1 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity-overview.md).
+2019.1의 모든 변경 사항 목록은 [2019.1 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity-overview.md)를 참조하십시오.
 
 ## 리소스 플래너의 기본 필터가 업데이트되었습니다.
 
@@ -37,15 +37,15 @@ ht-degree: 0%
 * 현재 또는 계획 상태
 * 로그인한 사용자의 홈 그룹과 일치하는 그룹 포함.
 
-리소스 플래너에 필터를 적용하는 방법에 대한 자세한 내용은 [리소스 플래너에서 정보 필터링](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
+리소스 플래너에 필터를 적용하는 방법에 대한 자세한 내용은 [리소스 플래너의 필터 정보](../../../../resource-mgmt/resource-planning/filter-resource-planner.md)를 참조하십시오.
 
 ## 리소스 플래너 필터에 와일드카드 사용
 
-이제 리소스 플래너에서 필터를 작성할 때 와일드카드를 사용할 수 있습니다. 예를 들어 $$USER.ID를 사용하여 로그인한 사용자에 대한 정보를 필터링하거나 $$USER.companyID를 사용하여 로그인한 사용자와 동일한 회사에 속하는 모든 사용자에 대한 정보를 필터링할 수 있습니다. 사용자 기반 변수의 전체 목록을 보려면 [사용자 기반 와일드카드 필터 변수](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md#user-based-variables) 의 섹션 [와일드카드 필터 변수](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+이제 리소스 플래너에서 필터를 작성할 때 와일드카드를 사용할 수 있습니다. 예를 들어 $$USER.ID를 사용하여 로그인한 사용자에 대한 정보를 필터링하거나 $$USER.companyID를 사용하여 로그인한 사용자와 동일한 회사에 속하는 모든 사용자에 대한 정보를 필터링할 수 있습니다. 사용자 기반 변수의 전체 목록을 보려면 [와일드카드 필터 변수](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)의 [사용자 기반 와일드카드 필터 변수](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md#user-based-variables) 섹션을 참조하십시오.
 
 이전에는 리소스 플래너 필터에 와일드카드를 사용할 수 없었습니다.
 
-리소스 플래너에서의 필터링에 대한 자세한 내용은 [리소스 플래너에서 정보 필터링](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
+리소스 플래너에서 필터링하는 방법에 대한 자세한 내용은 [리소스 플래너에서 필터링 정보](../../../../resource-mgmt/resource-planning/filter-resource-planner.md)을 참조하십시오.
 
 <!--
 <iframe class="mt-media" src="assets/290697527?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
@@ -57,9 +57,9 @@ ht-degree: 0%
 
 이 개선 이전에는 사용자 기반 와일드카드 필터 변수만 사용할 수 있었습니다.
 
-리소스 플래너에서의 필터링에 대한 자세한 내용은 [리소스 플래너에서 정보 필터링](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
+리소스 플래너에서 필터링하는 방법에 대한 자세한 내용은 [리소스 플래너에서 필터링 정보](../../../../resource-mgmt/resource-planning/filter-resource-planner.md)을 참조하십시오.
 
-와일드카드 필터 변수에 대한 자세한 내용은 [와일드카드 필터 변수](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+와일드카드 필터 변수에 대한 자세한 내용은 [와일드카드 필터 변수](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)를 참조하십시오.
 
 ## 리소스 플래너의 역할 보기에 대한 내보내기 옵션
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 이 개선 이전에는 역할 보기에서 모든 수준의 정보를 내보냈습니다. 이러한 옵션은 이전 릴리스의 프로젝트 및 사용자 보기에 도입되었습니다.
 
-리소스 플래너에서 정보를 내보내는 방법에 대한 자세한 내용은 [리소스 플래너에서 정보 내보내기](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
+리소스 플래너에서 정보를 내보내는 방법에 대한 자세한 내용은 [리소스 플래너에서 정보 내보내기](../../../../resource-mgmt/resource-planning/export-resource-planner.md)를 참조하십시오.
 
 ## 리소스 플래너 내보내기를 위한 데이터 서식 옵션
 
@@ -84,13 +84,13 @@ ht-degree: 0%
 
 이 기능이 향상되기 전에는 내보낸 파일의 정보가 Workfront에 나타나는 것처럼 표시되었습니다.
 
-리소스 플래너에서 정보를 내보내는 방법에 대한 자세한 내용은 [리소스 플래너에서 정보 내보내기](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
+리소스 플래너에서 정보를 내보내는 방법에 대한 자세한 내용은 [리소스 플래너에서 정보 내보내기](../../../../resource-mgmt/resource-planning/export-resource-planner.md)를 참조하십시오.
 
 ## 지속 예약 타임라인
 
 >[!NOTE]
 >
->리소스 예약 도구는 23.1 릴리스에서 더 이상 사용되지 않으며 Workfront에서 제거되었습니다. 업무 균형자 를 사용하여 리소스를 예약하는 방법에 대한 자세한 내용은 [업무 균형자 개요](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>리소스 예약 도구는 23.1 릴리스에서 더 이상 사용되지 않으며 Workfront에서 제거되었습니다. 업무 균형자를 사용하여 리소스를 예약하는 방법에 대한 자세한 내용은 [업무 균형자 개요](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md)를 참조하십시오.
 
 이제 타임라인을 예약하면 타임라인을 새로 고치거나 페이지에서 멀리 이동할 때 선택한 타임프레임이 유지됩니다.
 
@@ -120,7 +120,7 @@ ht-degree: 0%
 
 이 개선 이전에는 기본적으로 리소스 플래너의 모든 보기에서 모든 수준의 정보를 내보냈습니다.
 
-리소스 플래너에서 정보를 내보내는 방법에 대한 자세한 내용은 [리소스 플래너에서 정보 내보내기](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
+리소스 플래너에서 정보를 내보내는 방법에 대한 자세한 내용은 [리소스 플래너에서 정보 내보내기](../../../../resource-mgmt/resource-planning/export-resource-planner.md)를 참조하십시오.
 
 ## 리소스 플래너에서 사용자 보기 업데이트
 
@@ -130,4 +130,4 @@ ht-degree: 0%
 
 사용자 기반 필터를 사용하여 사용자 보기에 표시되는 사용자 수를 표시하려는 프로젝트에 할당된 사용자만 줄일 수 있습니다.
 
-리소스 플래너의 필터에 대한 자세한 내용은 [리소스 플래너에서 정보 필터링](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
+리소스 플래너의 필터에 대한 자세한 내용은 [리소스 플래너의 필터 정보](../../../../resource-mgmt/resource-planning/filter-resource-planner.md)를 참조하십시오.

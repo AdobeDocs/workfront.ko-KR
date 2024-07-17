@@ -30,12 +30,12 @@ ht-degree: 0%
 
 이 문서에는 작업 할당 수정으로 인한 영향에 대한 일반적인 정보가 포함되어 있습니다. 작업을 할당하는 방법에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
-* 작업 할당에 대한 자세한 내용은 [작업 할당](../../../manage-work/tasks/assign-tasks/assign-tasks.md) 및 [작업 목록에서 여러 사용자 할당 수정](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
+* 작업 할당에 대한 자세한 내용은 [작업 할당](../../../manage-work/tasks/assign-tasks/assign-tasks.md) 및 [작업 목록에서 여러 사용자 할당 수정](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)을 참조하십시오.
 
 * 예약 영역의 여러 작업에 대한 할당을 수정하는 방법에 대한 자세한 내용은 &quot;예약 영역의 작업에 대한 여러 사용자 할당 수정&quot;을 참조하십시오.
-* 업무 균형자 를 사용하여 작업을 지정하는 방법에 대한 자세한 내용은 [업무 균형자에서 작업 할당 개요](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+* 업무 균형자를 사용하여 작업을 할당하는 방법에 대한 자세한 내용은 [업무 균형자에서 작업 할당 개요](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)를 참조하십시오.
 
-이 문서의 일부 정보는 문제에 대한 할당에도 적용됩니다. 문제 할당 및 추가 고려 사항에 대한 자세한 내용은 [문제 할당 수정 개요](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
+이 문서의 일부 정보는 문제에 대한 할당에도 적용됩니다. 문제 할당 및 추가 고려 사항에 대한 자세한 내용은 [문제 할당 수정 개요](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)를 참조하십시오.
 
 ## 작업에 대한 사용자 할당을 수정해야 하는 경우
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >작업에 사용자를 할당할 때 예약에 따른 가용성은 작업의 계획 및 예상 일자에 영향을 줍니다. 일정에 대한 자세한 내용은 [일정 만들기](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+  >작업에 사용자를 할당할 때 예약에 따른 가용성은 작업의 계획 및 예상 일자에 영향을 줍니다. 일정에 대한 자세한 내용은 [일정 만들기](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)를 참조하십시오.
 
 * 특정 역할이나 사용자가 여러 작업의 피할당자로 설정되어 있으므로 다른 사용자나 역할에 할당할 모든 항목을 빠르게 수정해야 합니다
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 작업 항목에 여러 리소스를 할당할 때 다음 사항을 고려하십시오.
 
-* 사용자는 프로필과 연결된 작업 역할을 두 개 이상 가질 수 있습니다. 사용자를 작업 역할과 연결하는 방법에 대한 자세한 내용은 [사용자 프로필 편집](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+* 사용자는 프로필과 연결된 작업 역할을 두 개 이상 가질 수 있습니다. 사용자를 작업 역할과 연결하는 방법에 대한 자세한 내용은 [사용자 프로필 편집](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)을 참조하십시오.
 
 * 작업 또는 문제는 일반적으로 하나 이상의 작업 역할이나 팀에 먼저 할당됩니다. 프로젝트를 시작할 준비가 되면 사용자에게 할당해야 할 수도 있습니다.\
   작업 또는 문제가 하나 이상의 역할에 할당된 다음 사용자도 할당하는 경우, Adobe Workfront은 다음 규칙에 따라 추가 사용자와 연결할 작업 역할(있는 경우)을 결정합니다.
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 ## 피할당자 제거가 작업 시간 및 할당 비율에 미치는 영향
 
-사용자를 제거하면 작업 시간 및 할당 비율에 영향을 줄 수 있습니다. 사용자 제거가 작업에 미치는 영향은 작업에 대해 선택한 기간 유형에 따라 달라집니다. 기간 유형에 대한 자세한 내용은 [작업 기간 및 기간 유형 개요](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+사용자를 제거하면 작업 시간 및 할당 비율에 영향을 줄 수 있습니다. 사용자 제거가 작업에 미치는 영향은 작업에 대해 선택한 기간 유형에 따라 달라집니다. 기간 유형에 대한 자세한 내용은 [작업 기간 및 기간 유형 개요](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)를 참조하십시오.
 
 다음 기간 유형의 작업에서 사용자를 삭제할 경우:
 
@@ -77,15 +77,15 @@ ht-degree: 0%
   >
   >이 경우 작업 및 프로젝트에 대한 총 계획된 시간이 변경되므로 프로젝트 계획에 부정적인 영향을 줄 수 있습니다.
 
-* **작업량 고정:** 할당 비율은 다른 사용자에 대해 변경되지 않습니다.
-* **계산된 할당:** 다른 사용자의 할당 백분율은 합계가 100%가 되도록 조정됩니다.
-* **계산된 작업:** 할당 비율은 다른 사용자에 대해 변경되지 않습니다.
+* **작업량 고정:** 할당 비율이 다른 사용자에 대해 변경되지 않습니다.
+* **계산된 할당:** 다른 사용자의 할당 백분율이 조정되어 합계가 100%가 됩니다.
+* **계산된 작업:** 다른 사용자의 할당 비율이 변경되지 않습니다.
 
 ## 작업 할당 해제에 대한 고려 사항
 
 한 번에 하나의 작업에서 할당을 제거할 수도 있고 여러 작업에서 할당을 일괄 제거할 수도 있습니다.
 
-작업에서 일괄 할당을 제거하는 방법에 대한 자세한 내용은 을 참조하십시오. [작업 목록에서 여러 사용자 할당 수정](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
+작업에서 일괄 할당을 제거하는 방법에 대한 자세한 내용은 [작업 목록에서 여러 사용자 할당 수정](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)을 참조하십시오.
 
 작업에서 할당을 제거할 때 다음 사항을 고려하십시오.
 

@@ -27,7 +27,7 @@ Workfront과 통합하고 클라이언트 앱이 사용자를 대신하여 Workf
 
 ## OAuth2 애플리케이션 만들기
 
-OAuth2 애플리케이션 만들기에 대한 지침은 [사용자 자격 증명을 사용하여 OAuth2 애플리케이션 만들기(인증 코드 흐름)](../../administration-and-setup/configure-integrations/create-oauth-application.md#create3) 위치: [Workfront 통합을 위한 OAuth2 애플리케이션 만들기](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+OAuth2 애플리케이션 만들기에 대한 지침은 [Workfront 통합을 위한 OAuth2 애플리케이션 만들기](../../administration-and-setup/configure-integrations/create-oauth-application.md)에서 [사용자 자격 증명(인증 코드 흐름)을 사용하여 OAuth2 애플리케이션 만들기](../../administration-and-setup/configure-integrations/create-oauth-application.md#create3)를 참조하십시오.
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ OAuth2 애플리케이션 만들기에 대한 지침은 [사용자 자격 증명
 
 * `redirect_uri`: 앱을 만들 때 입력한 리디렉션 URL입니다. 사용자가 계정에 대한 앱을 승인하면 이 페이지로 이동합니다.
 
-* `response_type`: 값이 있어야 합니다. `code`.
+* `response_type`: 이 값에는 `code` 값이 있어야 합니다.
 
 따라서 인증 페이지의 URL은 다음과 같습니다.
 
@@ -95,17 +95,17 @@ OAuth2로 사용자를 로그인하려면 다음 프로세스를 사용하십시
 
    ![](assets/consent-screen-350x227.png)
 
-1. 사용자가 액세스를 허용하면 페이지가 `redirect_url`. 리디렉션에는 다음 쿼리 매개 변수가 포함되어야 합니다.
+1. 사용자가 액세스를 허용하면 페이지가 `redirect_url`(으)로 리디렉션됩니다. 리디렉션에는 다음 쿼리 매개 변수가 포함되어야 합니다.
 
 * `code`: 액세스/새로 고침 토큰을 가져오는 데 필요한 인증 코드입니다.
-* `domain`: 조직의 도메인. 예: in `myorganization.my.workfront.com`, 도메인 `myorganization`.
-* `lane`: 요청의 레인. 예: in `myorganization.preview.workfront.com`, 레인은 `preview`.
+* `domain`: 조직의 도메인입니다. 예: `myorganization.my.workfront.com`에서 도메인은 `myorganization`입니다.
+* `lane`: 요청의 레인. 예: `myorganization.preview.workfront.com`에서 차선은 `preview`입니다.
 
   >[!IMPORTANT]
   >
-  >다음 `code` 은(는) 2분 동안만 유효합니다. 따라서 해당 시간 내에 새로 고침 및 액세스 토큰을 받아야 합니다.
+  >`code`은(는) 2분 동안만 유효합니다. 따라서 해당 시간 내에 새로 고침 및 액세스 토큰을 받아야 합니다.
 
-1. 코드가 있으면에서 클라이언트 앱 자격 증명과 함께 코드를 보냄으로써 새로 고침을 요청하고 토큰에 액세스할 수 있습니다. `/integrations/oauth2/api/v1/token` 엔드포인트.
+1. 코드가 있으면 클라이언트 앱 자격 증명과 함께 코드를 `/integrations/oauth2/api/v1/token` 끝점으로 보내 새로 고침을 요청하고 토큰에 액세스할 수 있습니다.
 
    전체 토큰 요청 URL은
 
@@ -113,7 +113,7 @@ OAuth2로 사용자를 로그인하려면 다음 프로세스를 사용하십시
    https://<URL of your organization's domain></span>/integrations/oauth2/api/v1/token
    ```
 
-   **예:**  토큰 엔드포인트에 대한 CURL 호출의 예:
+   토큰 끝점에 대한 CURL 호출의 **예:** 예:
 
    예 1
 
@@ -157,7 +157,7 @@ OAuth2로 사용자를 로그인하려면 다음 프로세스를 사용하십시
    }
    ```
 
-   액세스 토큰은 와 동일합니다. ```sessionID```, 및 는 일반과 동일한 방식으로 만료됩니다 ```sessionID```
+   액세스 토큰은 ```sessionID```과(와) 동일하며 일반 ```sessionID```과(와) 같은 방식으로 만료됩니다.
 
    >[!IMPORTANT]
    >
@@ -208,4 +208,4 @@ curl --location --request POST '<workfront host>/integrations/oauth2/api/v1/toke
 }
 ```
 
-그리고 액세스 토큰은 `sessionID` Workfront에 API 요청을 하는 데 사용할 수 있습니다.
+또한 액세스 토큰은 Workfront에 대한 API 요청을 만드는 데 사용할 수 있는 `sessionID`입니다.

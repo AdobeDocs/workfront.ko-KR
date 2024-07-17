@@ -49,7 +49,7 @@ Adobe I/O 이벤트 모듈을 사용하면 전용 Adobe Workfront Fusion 커넥�
 
 &#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
 
-&#42;&#42;Adobe Workfront Fusion 라이선스에 대한 자세한 내용은 [Adobe Workfront Fusion 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;Adobe Workfront Fusion 라이선스에 대한 자세한 내용은 [Adobe Workfront Fusion 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md)를 참조하십시오.
 
 ## 전제 조건
 
@@ -85,15 +85,15 @@ Adobe I/O 이벤트 모듈에 대한 연결을 만들려면 다음 작업을 수
       </tr>
       <tr>
         <td role="rowheader">추가 범위</td>
-        <td>범위를 추가하려면 <b>항목 추가</b> 범위를 입력합니다.</td>
+        <td>범위를 추가하려면 <b>항목 추가</b>를 클릭하고 범위를 입력하십시오.</td>
       </tr>
       <tr>
         <td role="rowheader">클라이언트 ID</td>
-        <td>Adobe 클라이언트 ID를 입력합니다. Adobe Developer 콘솔의 자격 증명 세부 정보 섹션에서 찾을 수 있습니다</td>
+        <td>Adobe 클라이언트 ID를 입력합니다. Adobe Developer Console의 자격 증명 세부 정보 섹션에서 찾을 수 있습니다</td>
       </tr>
       <tr>
         <td role="rowheader">클라이언트 암호</td>
-        <td>Adobe 클라이언트 암호를 입력합니다. Adobe Developer 콘솔의 자격 증명 세부 정보 섹션에서 찾을 수 있습니다</td>
+        <td>Adobe 클라이언트 암호를 입력합니다. Adobe Developer Console의 자격 증명 세부 정보 섹션에서 찾을 수 있습니다</td>
       </tr>
       </tr>
         <tr>
@@ -106,26 +106,26 @@ Adobe I/O 이벤트 모듈에 대한 연결을 만들려면 다음 작업을 수
       </tr>
       <tr>
         <td role="rowheader">IMS 조직 ID</td>
-        <td>Adobe 조직 ID를 입력합니다. Adobe Developer 콘솔의 자격 증명 세부 정보 섹션에서 찾을 수 있습니다</td>
+        <td>Adobe 조직 ID를 입력합니다. Adobe Developer Console의 자격 증명 세부 정보 섹션에서 찾을 수 있습니다</td>
       </tr>
         <tr>
         <td role="rowheader">프로젝트 ID</td>
         <td>프로젝트 ID를 입력합니다. 프로젝트의 자격 증명 URL에서 찾을 수 있습니다. <code>https://developer.adobe.com/console/projects/{consumer org ID}/ {project ID}/credentials/{credential ID}/details</code></td>
       </tr>
       <tr>
-        <td role="rowheader">작업 공간 ID</td>
-        <td>프로젝트의 작업 공간 ID를 보려면 Adobe Developer 콘솔의 프로젝트 개요 페이지에서 프로젝트 세부 정보를 다운로드하십시오. </td>
+        <td role="rowheader">WORKSPACE ID</td>
+        <td>프로젝트의 Workspace ID를 보려면 Adobe Developer Console의 프로젝트 개요 페이지에서 프로젝트 세부 정보를 다운로드하십시오. </td>
       </tr>
     </tbody>
     </table>
 
-1. 클릭 **계속** 연결을 저장하고 모듈로 돌아갑니다.
+1. 연결을 저장하고 모듈로 돌아가려면 **계속**&#x200B;을 클릭하세요.
 
 ## Adobe I/O 이벤트 모듈 및 해당 필드
 
-를 구성할 때 [!DNL Adobe I/O Events] 모듈, [!DNL Workfront Fusion] 아래 나열된 필드를 표시합니다. 이와 함께 추가 [!DNL Adobe I/O Events] 앱이나 서비스의 액세스 수준 등에 따라 필드가 표시될 수 있습니다. 모듈의 굵은 제목은 필수 필드를 나타냅니다.
+[!DNL Adobe I/O Events] 모듈을 구성할 때 [!DNL Workfront Fusion]에 아래 나열된 필드가 표시됩니다. 앱 또는 서비스의 액세스 수준과 같은 요소에 따라 이러한 필드와 함께 [!DNL Adobe I/O Events] 필드가 추가로 표시될 수 있습니다. 모듈의 굵은 제목은 필수 필드를 나타냅니다.
 
-필드나 함수 위에 맵 단추가 표시되면 이 단추를 사용하여 해당 필드에 대한 변수와 함수를 설정할 수 있습니다. 자세한 내용은 [의 한 모듈에서 다른 모듈로 정보 매핑 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+필드나 함수 위에 맵 단추가 표시되면 이 단추를 사용하여 해당 필드에 대한 변수와 함수를 설정할 수 있습니다. 자세한 내용은 [한 모듈에서 다른 모듈로 정보를 매핑 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)을 참조하십시오.
 
 ![](assets/map-toggle-350x74.png)
 
@@ -141,7 +141,7 @@ Adobe I/O 이벤트 모듈에 대한 연결을 만들려면 다음 작업을 수
 
 웹후크를 생성하려면 다음을 수행합니다.
 
-1. 클릭 **추가** webhook 필드 옆에 있습니다.
+1. Webhook 필드 옆에 있는 **추가**&#x200B;를 클릭합니다.
 1. 다음 필드를 채웁니다.
 
    <table>
@@ -154,7 +154,7 @@ Adobe I/O 이벤트 모듈에 대한 연결을 만들려면 다음 작업을 수
        </tr>
        <tr>
          <td role="rowheader">[!UICONTROL Connection]</td>
-        <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe I/O Events], 참조 <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe I/O Events]</a> 이 문서에서.</td>
+        <td>[!DNL Adobe I/O Events]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >[!DNL Adobe I/O Events]</a>에 대한 연결 만들기 를 참조하십시오.</td>
        </tr>
        <tr>
          <td role="rowheader">
@@ -197,7 +197,7 @@ Adobe I/O 이벤트 모듈에 대한 연결을 만들려면 다음 작업을 수
      <tbody>
        <tr>
          <td role="rowheader">[!UICONTROL Connection]</td>
-        <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe I/O Events], 참조 <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe I/O Events]</a> 이 문서에서.</td>
+        <td>[!DNL Adobe I/O Events]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >[!DNL Adobe I/O Events]</a>에 대한 연결 만들기 를 참조하십시오.</td>
        </tr>
        <tr>
          <td role="rowheader">
@@ -242,7 +242,7 @@ Adobe I/O 이벤트 모듈에 대한 연결을 만들려면 다음 작업을 수
 
 #### 사용자 지정 API 호출 만들기
 
-이 작업 모듈은에 대한 사용자 지정 API 호출을 만듭니다. [!DNL Adobe I/O Events] API
+이 작업 모듈은 [!DNL Adobe I/O Events] API에 대한 사용자 지정 API 호출을 만듭니다.
 
 <table>
   <col/>
@@ -250,7 +250,7 @@ Adobe I/O 이벤트 모듈에 대한 연결을 만들려면 다음 작업을 수
   <tbody>
     <tr>
      <td role="rowheader">[!UICONTROL Connection]</td>
-        <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe I/O Events], 참조 <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe I/O Events]</a> 이 문서에서.</td>
+        <td>[!DNL Adobe I/O Events]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >[!DNL Adobe I/O Events]</a>에 대한 연결 만들기 를 참조하십시오.</td>
     </tr>
     <tr>
       <td role="rowheader">
@@ -265,7 +265,7 @@ Adobe I/O 이벤트 모듈에 대한 연결을 만들려면 다음 작업을 수
         <p>[!UICONTROL 메서드]</p>
       </td>
       <td>
-  <p>API 호출을 구성하는 데 필요한 HTTP 요청 메서드를 선택합니다. 자세한 내용은 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">의 HTTP 요청 메서드 [!DNL Adobe Workfront Fusion]</a>.</p>  
+  <p>API 호출을 구성하는 데 필요한 HTTP 요청 메서드를 선택합니다. 자세한 내용은 [!DNL Adobe Workfront Fusion]</a>에서 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP 요청 메서드를 참조하십시오.</p>  
       </td>
     </tr>
     <tr>
@@ -284,7 +284,7 @@ Adobe I/O 이벤트 모듈에 대한 연결을 만들려면 다음 작업을 수
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Body]</td>
-   <td> <p>표준 JSON 개체의 형태로 API 호출에 대한 본문 콘텐츠를 추가합니다.</p> <p>참고:  <p>다음과 같은 조건문을 사용할 때 <code>if</code> json에서 따옴표를 조건문 외부에 넣습니다.</p> 
+   <td> <p>표준 JSON 개체의 형태로 API 호출에 대한 본문 콘텐츠를 추가합니다.</p> <p>참고:  <p>JSON에서 <code>if</code>과(와) 같은 조건문을 사용할 때 따옴표를 조건문 외부에 넣으십시오.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>
@@ -303,7 +303,7 @@ Adobe I/O 이벤트 모듈에 대한 연결을 만들려면 다음 작업을 수
      <tbody>
        <tr>
          <td role="rowheader">[!UICONTROL Connection]</td>
-        <td>에 대한 연결 만들기에 대한 지침: [!DNL Adobe I/O Events], 참조 <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe I/O Events]</a> 이 문서에서.</td>
+        <td>[!DNL Adobe I/O Events]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >[!DNL Adobe I/O Events]</a>에 대한 연결 만들기 를 참조하십시오.</td>
        </tr>
        <tr>
          <td role="rowheader">

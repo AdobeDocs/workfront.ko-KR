@@ -1,7 +1,7 @@
 ---
 content-type: overview
 title: 요약 개요
-description: 요약 패널을 사용하여 작업 문제 목록, 문서 또는 의 다른 영역에서 직접 작업 항목 정보를 검토하고 업데이트할 수 있습니다 [!DNL Adobe Workfront] 작업 및 문제를 표시합니다.
+description: 요약 패널을 사용하여 작업 문제 목록, 문서 또는 작업 및 문제를 표시하는  [!DNL Adobe Workfront] 의 다른 영역에서 작업 항목 정보를 직접 검토하고 업데이트할 수 있습니다.
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 <span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span> -->
 
-다음을 사용할 수 있습니다. [!UICONTROL 요약] 작업, 문제, 문서 목록 또는 의 다른 영역에서 작업 항목 정보를 직접 검토하고 업데이트하는 패널 [!DNL Adobe Workfront] 작업 및 문제를 표시합니다.
+[!UICONTROL 요약] 패널을 사용하여 작업, 문제, 문서 목록 또는 작업 및 문제를 표시하는 [!DNL Adobe Workfront]의 다른 영역에서 작업 항목 정보를 직접 검토하고 업데이트할 수 있습니다.
 
 Workfront 또는 그룹 관리자는 요약 패널에 표시되는 영역과 필드를 수정할 수 있습니다. 요약 패널에 최대 16개의 필드를 추가할 수 있습니다.
 
@@ -38,7 +38,7 @@ Workfront 또는 그룹 관리자는 요약 패널에 표시되는 영역과 필
 
 
 
-다음 표에는 를 찾아 사용할 수 있는 영역이 나와 있습니다. [!UICONTROL 요약] 패널:
+다음 표에는 [!UICONTROL 요약] 패널을 찾아 사용할 수 있는 영역이 표시됩니다.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -97,11 +97,11 @@ Workfront 또는 그룹 관리자는 요약 패널에 표시되는 영역과 필
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Workfront administrators can customize the Summary in the Layout Template. For more information, see <a href="../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Create and manage layout templates</a>.</p>
 -->
 
-이 문서에서는 [!UICONTROL 요약] 목록의 작업 및 문제에 대한 패널.
+이 문서에서는 목록의 작업 및 문제에 대해 [!UICONTROL 요약] 패널에 액세스하고 사용하는 방법에 대해 설명합니다.
 
-에 액세스하는 방법에 대한 자세한 내용은 [!UICONTROL 요약] 다음에서 [!UICONTROL 업무 균형자], 참조 [에서 작업 항목 업데이트 [!UICONTROL 업무 균형자] 사용 [!UICONTROL 요약]](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
+[!UICONTROL 업무 균형자]에서 [!UICONTROL 요약]에 액세스하는 방법에 대한 자세한 내용은 [[!UICONTROL 요약]](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)을(를) 사용하여 [!UICONTROL 업무 균형자]에서 작업 항목 업데이트를 참조하십시오.
 
-에 액세스하는 방법에 대한 자세한 내용은 [!UICONTROL 요약] 문서의 경우 다음을 참조하십시오 [[!UICONTROL 요약] 문서 개요](../../documents/managing-documents/summary-for-documents.md).
+문서의 [!UICONTROL 요약]에 액세스하는 방법에 대한 자세한 내용은 문서 개요](../../documents/managing-documents/summary-for-documents.md)의 [[!UICONTROL 요약]을 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -132,89 +132,89 @@ Workfront 또는 그룹 관리자는 요약 패널에 표시되는 영역과 필
  </tbody> 
 </table>
 
-*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자. 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하십시오. 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
-## 보기 [!UICONTROL 요약] 작업 또는 문제 목록의 패널
+## 작업 또는 문제 목록에서 [!UICONTROL 요약] 패널 보기
 
 1. 작업 또는 문제로 이동하여 목록에서 항목을 선택합니다.
-1. 다음을 클릭합니다. **[!UICONTROL 요약]** 아이콘 ![](assets/qs-summary-in-new-toolbar-small.png)
+1. **[!UICONTROL 요약]** 아이콘 ![](assets/qs-summary-in-new-toolbar-small.png)을(를) 클릭합니다
 
    또는
 
-   다음을 클릭합니다. **[!UICONTROL 요약 열기]** 아이콘 ![](assets/open-summary-with-text-nwe.png) 다음에서 [!UICONTROL 제출됨] 의 섹션 [!UICONTROL 요청] 영역입니다.
+   [!UICONTROL 요청] 영역의 [!UICONTROL 제출됨] 섹션에서 **[!UICONTROL 요약 열기]** 아이콘 ![](assets/open-summary-with-text-nwe.png)을(를) 클릭합니다.
 
    요약은 다른 작업 또는 문제를 클릭하거나 선택할 때 열려 있으며 수동으로 닫을 때까지 열려 있습니다.
 
    >[!TIP]
    >
-   >한 번에 하나의 작업 또는 문제만 선택하여 다음에서 해당 세부 사항을 볼 수 있습니다. [!UICONTROL 요약] 패널.
+   >작업 또는 문제를 한 번에 하나만 선택하여 [!UICONTROL 요약] 패널에서 세부 정보를 볼 수 있습니다.
 
    ![요약 패널](assets/summary-panel-for-task-new-comments.png)
 
-1. (선택 사항) [!UICONTROL 요약] 패널, 다음 중 하나를 수행합니다.
+1. (선택 사항) [!UICONTROL 요약] 패널을 닫으려면 다음 중 하나를 실행하십시오.
 
-   * 작업 또는 문제 목록에서 **[!UICONTROL 요약 열기]** 아이콘 ![](assets/summary-panel-icon.png)
-
-     또는
-
-     다음을 클릭합니다. **X** 의 오른쪽 위 모서리에 있는 아이콘 [!UICONTROL 요약] 패널.
-
-   * 다음에서 [!UICONTROL 제출됨] 의 섹션 [!UICONTROL 요청] 영역을 클릭하고 **[!UICONTROL 요약 닫기]** 아이콘 ![](assets/close-summary-with-text-nwe.png)
+   * 작업 또는 문제 목록에서 **[!UICONTROL 요약 열기]** 아이콘 ![](assets/summary-panel-icon.png)을(를) 클릭합니다
 
      또는
 
-     다음을 클릭합니다. **X** 아이콘: 요약 패널의 오른쪽 위 모서리
+     [!UICONTROL 요약] 패널의 오른쪽 위 모서리에 있는 **X** 아이콘을 클릭합니다.
+
+   * [!UICONTROL 요청] 영역의 [!UICONTROL 제출됨] 섹션에서 **[!UICONTROL 요약 닫기]** 아이콘 ![](assets/close-summary-with-text-nwe.png)을 클릭합니다
+
+     또는
+
+     요약 패널의 오른쪽 위 모서리에 있는 **X** 아이콘을 클릭합니다.
 
 ## [!UICONTROL 완료율]
 
-진행률 표시줄 사용 [!UICONTROL 요약] 을(를) 클릭하여 선택한 작업 또는 문제에 대한 완료율을 업데이트합니다. 숫자를 입력하거나 막대를 올바른 백분율로 끕니다.
+[!UICONTROL 요약] 맨 위에 있는 진행률 표시줄을 사용하여 선택한 작업 또는 문제에 대한 완료율을 업데이트하세요. 숫자를 입력하거나 막대를 올바른 백분율로 끕니다.
 
-![요약 패널의 완료율](assets/summary-overview-percent-complete.png)
+요약 패널에서 ![완료율](assets/summary-overview-percent-complete.png)
 
 ## [!UICONTROL 업데이트]
 
-사용 [!UICONTROL 업데이트] 의 섹션 [!UICONTROL 요약] 선택한 작업 또는 문제에 대한 최근 업데이트를 보고 업데이트하기 위해 클릭 **[!UICONTROL 모두 보기]** 로 직접 이동 [!UICONTROL 업데이트] 탭에서 액세스할 수 있습니다.
+[!UICONTROL 요약]의 [!UICONTROL 업데이트] 섹션을 사용하여 선택한 작업 또는 문제에 대한 최근 업데이트를 보고 업데이트하십시오. 작업의 [!UICONTROL 업데이트] 탭으로 직접 이동하려면 **[!UICONTROL 모두 보기]**&#x200B;를 클릭합니다.
 
-![요약 패널의 업데이트 섹션](assets/summary-updates-section.png)
+요약 패널의 ![업데이트 섹션](assets/summary-updates-section.png)
 
 ## [!UICONTROL 문서]
 
-사용 [!UICONTROL 문서] 의 섹션 [!UICONTROL 요약] 을 눌러 선택한 작업 또는 문제에 첨부된 문서를 확인합니다. 문서 미리보기를 열려면 썸네일을 클릭합니다. 로 직접 이동 [!UICONTROL 문서] 작업 또는 문제의 탭에서 **[!UICONTROL 문서]** 제목.
+선택한 작업 또는 문제에 첨부된 문서를 보려면 [!UICONTROL 요약]의 [!UICONTROL 문서] 섹션을 사용하십시오. 문서 미리보기를 열려면 썸네일을 클릭합니다. 작업 또는 문제의 [!UICONTROL 문서] 탭으로 바로 이동하려면 **[!UICONTROL 문서]** 제목을 클릭합니다.
 
-![요약 패널의 문서 섹션](assets/summary-documents-section.png)
+요약 패널의 ![문서 섹션](assets/summary-documents-section.png)
 
-## [!UICONTROL 세부 사항]
+## [!UICONTROL 세부 정보]
 
-사용 [!UICONTROL 세부 사항] 의 섹션 [!UICONTROL 요약] 상위 레벨 작업 항목 세부 정보를 보거나, 할당하거나, 시작 일자를 추가하려면. 클릭 **[!UICONTROL 모두 보기]** 로 직접 이동 [!UICONTROL 세부 사항] 작업 또는 문제의 탭
+[!UICONTROL 요약]의 [!UICONTROL 세부 정보] 섹션을 사용하여 높은 수준의 작업 항목 세부 정보를 보거나 할당하거나 시작 날짜를 추가하십시오. 작업 또는 문제의 [!UICONTROL 세부 정보] 탭으로 직접 이동하려면 **[!UICONTROL 모두 보기]**&#x200B;를 클릭하십시오.
 
 >[!NOTE]
 >
->이 섹션에 나타나는 필드는 홈의 오른쪽 패널에 나타나는 필드와 동일합니다. 이러한 필드는 사용자 지정할 수 있습니다 [사용자 지정 [!UICONTROL 홈] 및 [!UICONTROL 요약] 레이아웃 템플릿 사용](../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+>이 섹션에 나타나는 필드는 홈의 오른쪽 패널에 나타나는 필드와 동일합니다. 레이아웃 템플릿을 사용하여 [[!UICONTROL Home] 및 [!UICONTROL 요약]을(를) 사용자 지정할 수 있습니다](../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
-![요약 패널의 세부 정보 섹션](assets/summary-details-section.png)
+요약 패널의 ![세부 정보 섹션](assets/summary-details-section.png)
 
 ## [!UICONTROL 하위 작업]
 
-이 섹션은 작업에만 사용할 수 있습니다. 사용 [!UICONTROL 하위 작업] 의 섹션 [!UICONTROL 요약] 보기 [!UICONTROL 신규], [!UICONTROL 진행 중], 및 [!UICONTROL 종료됨] 선택한 작업의 하위 작업. 다음을 클릭합니다. **[!UICONTROL 상태]** 드롭다운 메뉴를 사용하여 상태 간 전환 로 직접 이동 [!UICONTROL 하위 작업] 작업에서 탭을 클릭하고 **[!UICONTROL 하위 작업]**&#x200B;제목&#x200B;.
+이 섹션은 작업에만 사용할 수 있습니다. [!UICONTROL 요약]의 [!UICONTROL 하위 작업] 섹션을 사용하여 선택한 작업에서 [!UICONTROL 새로 만들기], [!UICONTROL 진행 중] 및 [!UICONTROL 닫힘] 하위 작업을 봅니다. **[!UICONTROL 상태]** 드롭다운 메뉴를 클릭하여 상태 간에 전환합니다. 작업의 [!UICONTROL 하위 작업] 탭으로 직접 이동하려면 **[!UICONTROL 하위 작업]** 제목을 &#x200B; 클릭합니다.
 
-작업에 하위 작업을 추가하지 않은 경우 **[!UICONTROL 여기에 하나 추가]** 로 직접 이동 [!UICONTROL 하위 작업] 탭에서 액세스할 수 있습니다.
+작업에 하위 작업을 추가하지 않은 경우 **[!UICONTROL 여기에 추가]**&#x200B;를 클릭하여 작업의 [!UICONTROL 하위 작업] 탭으로 바로 이동합니다.
 
-![요약 패널의 하위 작업 섹션](assets/summary-subtasks-section.png)
+요약 패널의 ![하위 작업 섹션](assets/summary-subtasks-section.png)
 
 ## [!UICONTROL 시간]
 
-사용 [!UICONTROL 시간] 의 섹션 [!UICONTROL 요약] 선택한 작업 또는 문제에 시간을 기록합니다. 클릭 **[!UICONTROL 로그 시간]** 시간을 입력합니다. 작업 또는 문제의 시간 탭으로 직접 이동하려면 **[!UICONTROL 시간]** 제목.
+[!UICONTROL 요약]의 [!UICONTROL 시간] 섹션을 사용하여 선택한 작업 또는 문제에 시간을 기록합니다. **[!UICONTROL 시간 기록]**&#x200B;을 클릭하고 시간을 입력하십시오. 작업 또는 문제의 시간 탭으로 바로 이동하려면 **[!UICONTROL 시간]** 제목을 클릭합니다.
 
-의 시간 계산 [!UICONTROL 요약] 사용자가 기록한 시간을 표시합니다. 다른 사용자는에서 다른 시간 합계를 갖게 됩니다. [!UICONTROL 요약] 작업에 로그온하는 시간에 따라 다릅니다.
+[!UICONTROL 요약]의 시간 수에 사용자가 기록한 시간이 표시됩니다. 다른 사용자는 작업에 로그온하는 시간에 따라 [!UICONTROL 요약]에서 시간 합계가 달라집니다.
 
-계획이 없는 경우 [!UICONTROL 시간] 작업 또는 문제에서 시간을 기록하면 시간 표시줄에 빨간색으로 표시됩니다.
+작업 또는 문제에 계획된 [!UICONTROL 시간]이 없고 시간을 기록한 경우 시간 표시줄이 빨간색으로 표시됩니다.
 
-![요약 패널의 시간 섹션](assets/summary-hours-section.png)
+요약 패널의 ![시간 섹션](assets/summary-hours-section.png)
 
 ## 승인
 
-사용 [!UICONTROL 승인] 의 섹션 [!UICONTROL 요약] 선택한 작업 또는 문제에 첨부된 승인을 봅니다. 승인을 추가하지 않은 경우 드롭다운 메뉴에서 기존 승인을 선택하거나 을(를) 클릭합니다 **[!UICONTROL 일회용 승인 프로세스 만들기]** 로 직접 이동 [!UICONTROL 승인] 작업 또는 문제의 탭
+선택한 작업 또는 문제에 첨부된 승인을 보려면 [!UICONTROL 요약]의 [!UICONTROL 승인] 섹션을 사용하십시오. 승인을 추가하지 않은 경우 드롭다운 메뉴에서 기존 승인을 선택하거나 **[!UICONTROL 일회용 승인 프로세스 만들기]**&#x200B;를 클릭하여 작업 또는 문제의 [!UICONTROL 승인] 탭으로 바로 이동합니다.
 
-로 직접 이동 [!UICONTROL 승인] 작업 또는 문제의 탭에서 **[!UICONTROL 승인]** 제목.
+작업 또는 문제의 [!UICONTROL 승인] 탭으로 직접 이동하려면 **[!UICONTROL 승인]** 제목을 클릭합니다.
 
-![요약 패널의 승인 섹션](assets/summary-approvals-section.png)
+요약 패널의 ![승인 섹션](assets/summary-approvals-section.png)

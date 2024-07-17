@@ -32,4 +32,4 @@ Workfront > 이벤트 보기 모듈에서 이벤트 필터를 생성할 때 유�
 
 필드의 이전 상태에 필터를 적용할지 또는 새 상태에 필터를 적용할지 여부를 선택하는 기능도 추가되었습니다. 예를 들어 필드의 이전 상태를 확인하도록 선택하고 진행 중 상태를 확인하도록 필터를 설정한 경우 상태가 진행 중에서 새 상태로 변경되면 모듈이 트리거됩니다.
 
-Adobe Workfront 모듈에 대한 자세한 내용은 [Adobe Workfront 모듈](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Adobe Workfront 모듈에 대한 자세한 내용은 [Adobe Workfront 모듈](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md)을 참조하십시오.

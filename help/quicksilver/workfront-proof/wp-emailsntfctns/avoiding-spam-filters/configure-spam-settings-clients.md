@@ -3,13 +3,13 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: avoiding-spam-filters
 title: 일반 이메일 클라이언트에 대한 스팸 설정 구성
-description: 이메일 클라이언트를 구성하여 [!DNL Workfront Proof] 이메일은 스팸 폴더로 보내지지 않습니다.
+description: ' [!DNL Workfront Proof] 이메일이 스팸 폴더로 전송되지 않도록 이메일 클라이언트를 구성할 수 있습니다.'
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 41517540-c5a8-4bf5-997b-e7a605337e73
 source-git-commit: c989687e9adaf12a31a920921bf8fb69425ca1c5
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1480'
 ht-degree: 0%
 
 ---
@@ -18,211 +18,211 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->이 문서는 독립형 제품의 기능을 참조합니다 [!DNL Workfront Proof]. 내부 교정에 대한 자세한 정보 [!DNL Adobe Workfront]를 참조하십시오. [교정](../../../review-and-approve-work/proofing/proofing.md).
+>이 문서는 독립 실행형 제품 [!DNL Workfront Proof]의 기능을 참조합니다. [!DNL Adobe Workfront] 내부의 증명에 대한 자세한 내용은 [증명](../../../review-and-approve-work/proofing/proofing.md)을 참조하십시오.
 
-이메일 클라이언트를 구성하여 [!DNL Workfront Proof] 이메일은 스팸 폴더로 보내지지 않습니다.
+[!DNL Workfront Proof]개의 이메일이 스팸 폴더로 전송되지 않도록 이메일 클라이언트를 구성할 수 있습니다.
 
-다음 섹션에서는 다양한 이메일 클라이언트에 대한 이 프로세스에 대해 설명합니다.
+다음 섹션에서는 다양한 이메일 클라이언트에 대한 이 프로세스를 설명합니다.
 
 ## [!DNL Gmail]
 
 이 섹션에서 다음을 수행합니다.
 
-* 두 개 추가 [!DNL Workfront Proof] &quot;[!UICONTROL 변환 전:]주소 [!UICONTROL 연락처] 목록 [!DNL Gmail] 또는 필터를 만들어 다음을 수행할 수 없음 [!UICONTROL Gmail] 이메일 라우팅 [!UICONTROL 스팸] 폴더
-* 기존 항목 제거 [!DNL Workfront Proof] 이메일 보내기 [!UICONTROL 스팸] 폴더를 만들고 경로를 지정하는 모든 필터를 변경합니다. [!DNL Workfront Proof] 휴지통으로 보내는 메시지
+* [!DNL Gmail]의 [!UICONTROL 연락처] 목록에 두 개의 [!DNL Workfront Proof] &quot;[!UICONTROL 보낸 사람]&quot; 주소를 추가하거나 [!UICONTROL Gmail]이(가) 해당 주소에서 [!UICONTROL 스팸] 폴더로 전자 메일을 라우팅하지 못하도록 필터를 만듭니다
+* [!UICONTROL 스팸] 폴더에서 기존 [!DNL Workfront Proof]개의 전자 메일을 제거하고 [!DNL Workfront Proof]개의 메시지를 휴지통으로 라우팅하는 필터를 변경하십시오
 
-### 신규 [!DNL Workfront Proof] 이메일
+### 새 [!DNL Workfront Proof]개 전자 메일
 
-둘 중 하나를 추가합니다 [!DNL Workfront Proof] &quot;[!UICONTROL 변환 전:]주소 [!UICONTROL 연락처] 목록 [!DNL Gmail] 유지하거나 이메일 필터를 만들 수 있습니다. [!DNL Workfront Proof] 이메일에서 [!UICONTROL 스팸] 폴더 기준 [!DNL Gmail]. 두 개를 추가하려면 [!DNL Workfront Proof] &quot;[!UICONTROL 변환 전:]주소 [!UICONTROL 연락처] 목록:
+[!DNL Gmail]의 [!UICONTROL 연락처] 목록에 두 개의 [!DNL Workfront Proof] &quot;[!UICONTROL 보낸 사람]&quot; 주소를 추가하거나 [!DNL Gmail]에서 [!DNL Workfront Proof] 전자 메일이 [!UICONTROL 스팸] 폴더로 라우팅되지 않도록 전자 메일 필터를 만드십시오. [!UICONTROL 연락처] 목록에 두 개의 [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot; 주소를 추가하려면:
 
-1. 클릭 **[!UICONTROL 연락처]** 아래 **[!UICONTROL 메일]** Gmail 페이지의 왼쪽 위 모서리에 있습니다.
+1. Gmail 페이지의 왼쪽 상단 모서리에서 **[!UICONTROL 메일]** 아래의 **[!UICONTROL 연락처]**&#x200B;를 클릭합니다.
 
-1. 뒤에 더하기(+) 기호를 클릭해야 할 수 있습니다 [!UICONTROL 메일] 표시 [!UICONTROL 연락처] 및 [!UICONTROL 작업]. 더하기 기호가 표시되지 않으면 커서를 로 이동합니다. [!UICONTROL 메일], 더하기 기호가 나타납니다.
-1. 을(를) 클릭합니다. **[!UICONTROL &quot;내 연락처&quot;에 추가]** 연락처 및 전자 메일 주소 목록 위에 있는 단추입니다.
-1. 첫 번째 &quot;[!UICONTROL 변환 전:]&quot; 주소를 레이블이 지정되지 않은 이메일 주소 대화 상자에 추가합니다.
-1. 클릭 **[!UICONTROL 추가]** 대화 상자 아래에 표시됩니다. 연락처 목록에 주소가 추가됩니다.
-1. 두 번째 &quot;[!UICONTROL 변환 전:]&quot; 주소, 2-4단계를 반복합니다.
+1. [!UICONTROL 연락처] 및 [!UICONTROL 작업]을 표시하려면 [!UICONTROL 메일] 다음에 더하기(+) 기호를 클릭해야 할 수 있습니다. 더하기 기호가 나타나지 않으면 커서를 [!UICONTROL 메일](으)로 이동하면 더하기 기호가 나타납니다.
+1. 연락처 목록 및 연락처 메일 주소 위에 있는 **[!UICONTROL 내 연락처에 추가]** 단추를 클릭합니다.
+1. 첫 번째 &quot;[!UICONTROL from]&quot; 주소를 복사하여 레이블이 지정되지 않은 전자 메일 주소 대화 상자에 붙여넣습니다.
+1. 대화 상자 아래의 **[!UICONTROL 추가]**&#x200B;를 클릭합니다. 주소가 연락처 목록에 추가됩니다.
+1. 두 번째 &quot;[!UICONTROL from]&quot; 주소에 대해 2-4단계를 반복합니다.
 
-또는 두 개 각각에 대한 이메일 필터를 만듭니다 [!DNL Workfront Proof] &quot;[!UICONTROL 변환 전:]&quot; 주소:
+또는 두 [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot; 주소 각각에 대한 전자 메일 필터를 만들려면:
 
-1. 클릭 **[!UICONTROL 필터 만들기]** 다음 **[!UICONTROL 검색]** Gmail 페이지 상단의 단추.
+1. Gmail 페이지 상단의 **[!UICONTROL 검색]** 단추 옆에 있는 **[!UICONTROL 필터 만들기]**&#x200B;를 클릭합니다.
 
-1. 첫 번째 &quot;[!UICONTROL 변환 전:]&quot; 주소 **[!UICONTROL From]** 의 필드 **[!UICONTROL 필터 만들기]** 상자.
+1. 첫 번째 &quot;[!UICONTROL from]&quot; 주소를 복사하여 **[!UICONTROL 필터 만들기]** 상자의 **[!UICONTROL From]** 필드에 붙여넣습니다.
 
-1. 을(를) 클릭합니다. **[!UICONTROL 다음 단계]** 버튼을 클릭합니다.
-1. 에서 **[!UICONTROL 작업 선택]** 목록, 선택 **[!UICONTROL 스팸으로 보내지 않음]**.
+1. **[!UICONTROL 다음 단계]** 단추를 클릭합니다.
+1. **[!UICONTROL 작업 선택]** 목록에서 **[!UICONTROL 스팸으로 보내지 않음]**&#x200B;을 선택합니다.
 
-1. 을(를) 클릭합니다. **[!UICONTROL 필터 만들기]** 버튼을 클릭합니다. 필터가 [!UICONTROL 설정] 페이지.
-1. 두 번째 &quot;[!UICONTROL 변환 전:]주소, **[!UICONTROL 필터 만들기]** 설정 페이지 하단에서 2-5단계를 반복합니다.
+1. **[!UICONTROL 필터 만들기]** 단추를 클릭합니다. 필터가 [!UICONTROL 설정] 페이지의 필터 목록에 추가됩니다.
+1. 두 번째 &quot;[!UICONTROL from]&quot; 주소에 대해 설정 페이지 하단의 **[!UICONTROL 필터 만들기]**&#x200B;를 클릭하고 2~5단계를 반복합니다.
 
-### 기존 [!DNL Workfront Proof] 이메일
+### 기존 [!DNL Workfront Proof]개 전자 메일
 
-제거하려면 [!DNL Workfront Proof] 이메일 [!DNL Gmail] 이(가) [!UICONTROL 스팸] 마지막 삭제 이후 폴더:
+[!DNL Gmail]이(가) 마지막으로 지운 이후 [!UICONTROL 스팸] 폴더에 저장한 [!DNL Workfront Proof]개의 전자 메일을 제거하려면:
 
-1. 클릭 **[!UICONTROL 스팸]** Gmail 페이지 왼쪽에 있는 폴더 목록에서 을 선택합니다.
-1. 선택 [!DNL Workfront Proof] 이메일 [!UICONTROL 스팸] 폴더를 입력합니다.
-1. 을(를) 클릭합니다. **[!UICONTROL 스팸 아님]** 단추 위에 있음 [!UICONTROL 스팸] 목록.\
-   이제 찾을 수 있습니다 [!DNL Workfront Proof] 받은 편지함에 이메일 보내기.
+1. Gmail 페이지 왼쪽의 폴더 목록에서 **[!UICONTROL 스팸]**&#x200B;을 클릭합니다.
+1. [!UICONTROL 스팸] 폴더에서 [!DNL Workfront Proof]개의 전자 메일을 선택합니다.
+1. [!UICONTROL 스팸] 목록 위에 있는 **[!UICONTROL 스팸 아님]** 단추를 클릭합니다.\
+   이제 받은 편지함에서 [!DNL Workfront Proof]개의 전자 메일을 찾을 수 있습니다.
 
-보내는 필터를 변경하려면 [!DNL Workfront Proof] 휴지통으로 전자 메일 보내기:
+[!DNL Workfront Proof]개의 전자 메일을 휴지통으로 보내는 필터를 변경하려면:
 
-1. 클릭 **[!UICONTROL 필터 만들기]** 다음 [!UICONTROL 검색] Gmail 페이지 상단의 단추.
-1. 클릭 **[!UICONTROL 현재 필터 표시]** 맨 아래 [!UICONTROL 필터 만들기] 대화 상자 기존 필터는 설정 페이지에 필드(보낸 사람) 및 이름 또는 주소별로 나열됩니다.
-1. 만약 [!UICONTROL 기존 [!DNL Workfront Proof] 주소] 필터 [!UICONTROL 삭제]를 클릭합니다. **[!UICONTROL 편집]**.
-1. 을(를) 클릭합니다. **[!UICONTROL 다음 단계]** 버튼을 클릭합니다.
-1. 선택 취소 **[!UICONTROL 삭제]** 옵션을 선택하고 **[!UICONTROL 스팸으로 보내지 않음]**.
+1. Gmail 페이지 상단의 [!UICONTROL 검색] 단추 옆에 있는 **[!UICONTROL 필터 만들기]**&#x200B;를 클릭합니다.
+1. [!UICONTROL 필터 만들기] 대화 상자 아래쪽에 있는 **[!UICONTROL 현재 필터 표시]**&#x200B;를 클릭합니다. 기존 필터는 설정 페이지에 필드(보낸 사람), 이름 또는 주소로 나열됩니다.
+1. [!UICONTROL 기존 [!DNL Workfront Proof] 주소에 대해 이 작업 수행] 필터가 [!UICONTROL 삭제]인 경우 **[!UICONTROL 편집]**&#x200B;을 클릭하세요.
+1. **[!UICONTROL 다음 단계]** 단추를 클릭합니다.
+1. **[!UICONTROL 삭제]** 옵션을 선택 취소하고 **[!UICONTROL 스팸으로 보내지 않음]**&#x200B;을 선택합니다.
 
-1. 을(를) 클릭합니다. **[!UICONTROL 필터 업데이트]** 버튼을 클릭합니다.\
-   다음 [!UICONTROL 설정] 페이지가 다시 표시됩니다.
+1. **[!UICONTROL 필터 업데이트]** 단추를 클릭합니다.\
+   [!UICONTROL 설정] 페이지가 다시 표시됩니다.
 
-1. 추가 [!DNL Workfront Proof] 주소 필터가 나열되며, 각각 3~6단계를 반복합니다.
+1. 추가 [!DNL Workfront Proof] 주소 필터가 나열되면 각 필터에 대해 3-6단계를 반복합니다.
 
 ## [!DNL Microsoft Outlook] 2003 - 2007
 
 이 섹션에서 다음을 수행합니다.
 
-* 두 개 추가 [!DNL Workfront Proof] &quot;[!UICONTROL 변환 전:]&quot; [!UICONTROL 수신 허용 - 보낸 사람] 목록 [!DNL Outlook]
-* 기존 항목 제거 [!DNL Workfront Proof] 이메일 보내기 [!UICONTROL 정크 메일] 폴더 및 모든 &quot;[!UICONTROL 변환 전:]의 주소 [!UICONTROL 수신 거부] list
+* 두 [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot; 주소를 [!DNL Outlook]의 [!UICONTROL 수신 허용 - 보낸 사람] 목록에 추가합니다.
+* [!UICONTROL 정크 메일] 폴더에서 기존 [!DNL Workfront Proof]개의 전자 메일을 제거하고 [!UICONTROL 수신 거부] 목록에서 &quot;[!UICONTROL 발신]&quot;개의 주소를 제거합니다.
 
-### 신규 [!DNL Workfront Proof] 이메일
+### 새 [!DNL Workfront Proof]개 전자 메일
 
-두 개를 추가하려면 [!DNL Workfront Proof] &quot;[!UICONTROL 변환 전:]&quot; Outlook의 수신 허용 - 보낸 사람 목록에 주소:
+Outlook의 수신 허용 - 보낸 사람 목록에 두 개의 [!DNL Workfront Proof] &quot;[!UICONTROL 보낸 사람]&quot; 주소를 추가하려면:
 
-1. 클릭 **[!UICONTROL 옵션]** on **[!UICONTROL 도구]** 메뉴 아래의 제품에서 사용할 수 있습니다.
+1. **[!UICONTROL 도구]** 메뉴에서 **[!UICONTROL 옵션]**&#x200B;을 클릭합니다.
 
-1. 클릭 **[!UICONTROL 정크 메일]** 아래에 **[!UICONTROL 이메일]** on **[!UICONTROL 기본 설정]** 탭.
+1. **[!UICONTROL 기본 설정]** 탭의 **[!UICONTROL 메일]**&#x200B;에서 **[!UICONTROL 정크 메일]**&#x200B;을 클릭합니다.
 
-1. 클릭 **[!UICONTROL 추가]** on **[!UICONTROL 수신 허용 - 보낸 사람]** 탭.
+1. **[!UICONTROL 수신 허용 - 보낸 사람]** 탭에서 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
 
-1. 첫 번째 &quot;[!UICONTROL 변환 전:]&quot; 주소 또는 도메인 이름( @ 기호 뒤에 있는 나머지 이름)에 **[!UICONTROL 주소 또는 도메인 추가]** 상자.
-1. 클릭 **[!UICONTROL 확인]**. 주소가 목록에 추가됩니다.
-1. 두 번째 &quot;[!UICONTROL 변환 전:]&quot; 주소, 3-5단계를 반복합니다.
+1. **[!UICONTROL 주소 또는 도메인 추가]** 상자에서 첫 번째 &quot;[!UICONTROL from]&quot; 주소 또는 도메인 이름(@ 기호 뒤에 있는 나머지 이름)만 복사하여 붙여 넣으십시오.
+1. **[!UICONTROL 확인]**&#x200B;을 클릭합니다. 주소가 목록에 추가됩니다.
+1. 두 번째 &quot;[!UICONTROL from]&quot; 주소에 대해 3-5단계를 반복합니다.
 
-### 기존 [!DNL Workfront Proof] 이메일
+### 기존 [!DNL Workfront Proof]개 전자 메일
 
-제거하려면 [!DNL Workfront Proof] 이메일 [!DNL Outlook] 이(가) [!UICONTROL 정크 메일] 마지막 삭제 이후 폴더:
+[!DNL Outlook]이(가) 마지막으로 지운 이후 [!UICONTROL 정크 메일] 폴더에 저장한 [!DNL Workfront Proof]개의 전자 메일을 제거하려면:
 
-1. 을(를) 클릭합니다. **[!UICONTROL 정크 메일]** 탐색 창의 폴더.
-1. 있을 경우 [!DNL Workfront Proof] 폴더에서 이메일을 열고 각 이메일을 마우스 오른쪽 단추로 클릭하고 [!UICONTROL 정크 메일]를 클릭한 다음 **[!UICONTROL 정크 메일로 표시]**.
-1. 이제 찾을 수 있습니다 [!DNL Workfront Proof] 받은 편지함에 이메일 보내기.
+1. 탐색 창에서 **[!UICONTROL 정크 메일]** 폴더를 클릭합니다.
+1. 폴더에 [!DNL Workfront Proof]개의 전자 메일이 있는 경우 각 전자 메일을 마우스 오른쪽 단추로 클릭하고 [!UICONTROL 정크 메일]을 선택한 다음 **[!UICONTROL 정크 메일이 아닌 것으로 표시]**&#x200B;를 클릭합니다.
+1. 이제 받은 편지함에서 [!DNL Workfront Proof]개의 전자 메일을 찾을 수 있습니다.
 
-다음을 확인하십시오. [!DNL Workfront Proof] &quot;[!UICONTROL 변환 전:]&quot; 주소는 수신 거부 목록에 있습니다.
+[!DNL Workfront Proof] &quot;[!UICONTROL from]&quot; 주소가 수신 거부 목록에 있는지 확인하려면:
 
-1. 클릭 **[!UICONTROL 옵션]** on **[!UICONTROL 도구]** 메뉴
+1. **[!UICONTROL 도구]** 메뉴에서 **[!UICONTROL 옵션]**&#x200B;을 클릭합니다
 
-1. 클릭 **[!UICONTROL 정크 메일]** 아래에 **[!UICONTROL 이메일]** on **[!UICONTROL 기본 설정]** 탭.
+1. **[!UICONTROL 기본 설정]** 탭의 **[!UICONTROL 메일]**&#x200B;에서 **[!UICONTROL 정크 메일]**&#x200B;을 클릭합니다.
 
-1. 을(를) 클릭합니다. **[!UICONTROL 수신 거부]** 탭.
-1. 있는 경우 [!DNL Workfront Proof] 주소는 목록에 있고, 각 주소를 클릭한 다음 **[!UICONTROL 제거]**.
+1. **[!UICONTROL 수신 거부]** 탭을 클릭합니다.
+1. 목록에 [!DNL Workfront Proof]개의 주소가 있으면 각 주소를 클릭한 다음 **[!UICONTROL 제거]**&#x200B;를 클릭합니다.
 
 ## [!DNL Windows Live Hotmail]
 
 이 섹션에서 다음을 수행합니다.
 
-* 두 개 추가 [!DNL Workfront Proof] &quot;[!UICONTROL 변환 전:]주소: [!UICONTROL 수신 허용 - 보낸 사람] 목록 [!DNL Windows Live Hotmail]
-* 기존 항목 제거 [!DNL Workfront Proof] 정크 메일 폴더 및 &quot;[!UICONTROL 변환 전:]의 주소 [!UICONTROL 수신 거부] list
+* [!DNL Windows Live Hotmail]의 [!UICONTROL 수신 허용 - 보낸 사람] 목록에 두 개의 [!DNL Workfront Proof] &quot;[!UICONTROL 보낸 사람]&quot; 주소를 추가하십시오.
+* 정크 메일 폴더에서 기존 [!DNL Workfront Proof]개의 전자 메일을 제거하고 [!UICONTROL 수신 거부] 목록에서 &quot;[!UICONTROL 보낸 사람]&quot;개의 주소를 제거합니다.
 
-### 신규 [!DNL Workfront Proof] 이메일
+### 새 [!DNL Workfront Proof]개 전자 메일
 
-두 개를 추가하려면 [!DNL Workfront Proof] &quot;[!UICONTROL 변환 전:]주소 [!UICONTROL 수신 허용 - 보낸 사람] 목록 [!DNL Windows Live Hotmail]:
+[!DNL Windows Live Hotmail]의 [!UICONTROL 수신 허용 - 보낸 사람] 목록에 두 [!DNL Workfront Proof] &quot;[!UICONTROL 보낸 사람]&quot; 주소를 추가하려면:
 
-1. 클릭 **[!UICONTROL 옵션]** 사서함 페이지의 오른쪽 상단 모서리에서 을(를) 클릭합니다.
-1. 클릭 **[!UICONTROL 더 많은 옵션]**.
-1. 클릭 **[!UICONTROL 수신 허용 및 수신 거부]** 아래에 **[!UICONTROL 정크 메일]**.
+1. 사서함 페이지의 오른쪽 상단에 있는 **[!UICONTROL 옵션]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 추가 옵션]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 정크 메일]**&#x200B;에서 **[!UICONTROL 수신 허용 및 수신 거부]**&#x200B;을 클릭하세요.
 
-1. 클릭 **[!UICONTROL 수신 허용 - 보낸 사람]**.
-1. 첫 번째 &quot;[!UICONTROL 변환 전:]&quot; 주소 또는 도메인 이름(@ 기호 뒤에 있는 나머지 이름)만 [!UICONTROL 보낸 사람] 또는 안전한 필드로 표시할 도메인입니다.
-1. 을(를) 클릭합니다. **[!UICONTROL 목록에 추가]** 버튼을 클릭합니다. 주소가 목록에 나타납니다.
-1. 두 번째 &quot;[!UICONTROL 변환 전:]&quot; 주소, 4-6단계를 반복합니다.
+1. **[!UICONTROL 수신 허용 - 보낸 사람]**&#x200B;을 클릭하세요.
+1. 처음 &quot;[!UICONTROL from]&quot; 주소나 도메인 이름(@ 기호 뒤에 있는 나머지 이름)만 복사하여 [!UICONTROL Sender] 또는 도메인에 복사하여 안전한 필드로 표시합니다.
+1. **[!UICONTROL 목록에 추가]** 단추를 클릭합니다. 주소가 목록에 나타납니다.
+1. 두 번째 &quot;[!UICONTROL from]&quot; 주소에 대해 4-6단계를 반복합니다.
 
-### 기존 [!DNL Workfront Proof] 이메일
+### 기존 [!DNL Workfront Proof]개 전자 메일
 
-제거하려면 [!DNL Workfront Proof] 이메일 [!DNL Windows Live Hotmail] 이(가) [!UICONTROL 정크] 마지막으로 지워진 이후 메일 폴더:
+[!DNL Windows Live Hotmail]이(가) 마지막으로 지운 이후 [!UICONTROL 정크] 전자 메일 폴더에 저장한 [!DNL Workfront Proof]개의 전자 메일을 제거하려면:
 
-1. 클릭 **[!UICONTROL 정크]** 아래에 **[!UICONTROL 폴더]** 를 클릭합니다.
+1. 페이지 왼쪽의 **[!UICONTROL 폴더]**&#x200B;에서 **[!UICONTROL 정크]**&#x200B;를 클릭합니다.
 
-1. 있을 경우 [!DNL Workfront Proof] 이 폴더의 이메일을 열고 각 이메일을 열고 **[!UICONTROL 정크 메일 아님]** 링크를 클릭합니다.
-1. 이제 찾을 수 있습니다 [!DNL Workfront Proof] 받은 편지함에 이메일 보내기.
+1. 이 폴더에 [!DNL Workfront Proof]개의 전자 메일이 있는 경우 각 전자 메일을 열고 **[!UICONTROL 정크 메일 아님]** 링크를 클릭하세요.
+1. 이제 받은 편지함에서 [!DNL Workfront Proof]개의 전자 메일을 찾을 수 있습니다.
 
-다음을 확인하십시오. [!DNL Workfront Proof] &quot;[!UICONTROL 변환 전:]&quot; 주소는 [!UICONTROL 수신 거부] 목록:
+[!DNL Workfront Proof] &quot;[!UICONTROL 보낸 사람]&quot; 주소가 [!UICONTROL 수신 거부] 목록에 있는지 확인하려면:
 
-1. 클릭 **[!UICONTROL 옵션]** 사서함 페이지의 오른쪽 상단 모서리에서 을(를) 클릭합니다.
-1. 클릭 **[!UICONTROL 더 많은 옵션]**.
-1. 클릭 **[!UICONTROL 수신 허용 및 수신 거부]** 아래에 **[!UICONTROL 정크 메일]**.
+1. 사서함 페이지의 오른쪽 상단에 있는 **[!UICONTROL 옵션]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 추가 옵션]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 정크 메일]**&#x200B;에서 **[!UICONTROL 수신 허용 및 수신 거부]**&#x200B;을 클릭하세요.
 
-1. 클릭 **[!UICONTROL 수신 거부]**.
-1. 있는 경우 [!DNL Workfront Proof] 주소는 목록에 있고, 각 주소를 선택하고 **[!UICONTROL 목록에서 제거]** 버튼을 클릭합니다.
+1. **[!UICONTROL 수신 거부]**&#x200B;를 클릭합니다.
+1. 목록에 [!DNL Workfront Proof]개의 주소가 있는 경우 각 주소를 선택하고 **[!UICONTROL 목록에서 제거]** 단추를 클릭합니다.
 
 ## [!DNL Yahoo Mail]
 
 이 섹션에서 다음을 수행합니다.
 
-* 두 개 추가 [!DNL Workfront Proof] &quot;[!UICONTROL 변환 전:]&quot; 필터에 사용할 주소 [!DNL Yahoo Mail] 보내기 [!DNL Workfront Proof] 받은 편지함으로 전자 메일 보내기
-* 기존 제거 [!DNL Workfront Proof] 이메일: [!UICONTROL 스팸] 폴더
+* [!DNL Yahoo Mail]에서 받은 편지함으로 [!DNL Workfront Proof] 전자 메일을 보내도록 [!DNL Workfront Proof] &quot;[!UICONTROL 부터]&quot; 주소 두 개를 필터에 추가합니다.
+* [!UICONTROL 스팸] 폴더에서 기존 [!DNL Workfront Proof]개 전자 메일 제거
 
-### 신규 [!DNL Workfront Proof] 이메일
+### 새 [!DNL Workfront Proof]개 전자 메일
 
-에서 새 필터를 만드는 방법 [!DNL Yahoo Mail] 각 [!DNL Workfront Proof] &quot;[!UICONTROL 변환 전:]&quot; 주소:
+[!DNL Yahoo Mail]에서 각 [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot; 주소의 새 필터를 만들려면:
 
-1. 클릭 **[!UICONTROL 옵션]** 메일 페이지의 오른쪽 위 모서리에서 을(를) 클릭합니다.
-1. 클릭 **[!UICONTROL 더 많은 옵션]**.
-1. 클릭 **[!UICONTROL 필터]** 를 클릭합니다.
-1. 클릭 **[!UICONTROL 필터 만들기 또는 편집]**.
-1. 클릭 **[!UICONTROL 추가]** 필터 페이지에서 확인하십시오.
+1. 메일 페이지의 오른쪽 상단에 있는 **[!UICONTROL 옵션]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 추가 옵션]**&#x200B;을 클릭합니다.
+1. 페이지 왼쪽의 **[!UICONTROL 필터]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 필터 만들기 또는 편집]**&#x200B;을 클릭합니다.
+1. 필터 페이지에서 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
 1. 필터에 이름을 지정합니다.
-1. 대상 [!UICONTROL 헤더에서] 규칙을 선택하고 **[!UICONTROL 다음 포함]** 옵션을 선택하고 첫 번째 &quot;[!UICONTROL 변환 전:]&quot; 주소 또는 도메인 이름(@ 기호 뒤에 있는 나머지 이름)입니다.
-1. 클릭 **[!UICONTROL 폴더 선택]** 을(를) 선택합니다. **[!UICONTROL 받은 편지함]**.
+1. [!UICONTROL From header] 규칙의 경우 **[!UICONTROL contains]** 옵션을 선택하고 첫 번째 &quot;[!UICONTROL from]&quot; 주소나 도메인 이름(@ 기호 뒤의 나머지 이름)만 복사하여 붙여 넣으십시오.
+1. **[!UICONTROL 폴더 선택]**&#x200B;을 클릭하고 **[!UICONTROL 받은 편지함]**&#x200B;을 선택합니다.
 
-1. 을(를) 클릭합니다. *[!UICONTROL *필터 추가]** 단추. 필터가 필터 목록에 나타납니다.
-1. 두 번째 &quot;[!UICONTROL 변환 전:]&quot; 주소, 5-9단계를 반복합니다.
+1. *[!UICONTROL *필터 추가]** 단추를 클릭합니다. 필터가 필터 목록에 나타납니다.
+1. 두 번째 &quot;[!UICONTROL from]&quot; 주소의 경우 5-9단계를 반복합니다.
 
-### 기존 [!DNL Workfront Proof] 이메일
+### 기존 [!DNL Workfront Proof]개 전자 메일
 
-제거하려면 [!DNL Workfront Proof] 이메일 [!DNL Yahoo Mail] 는 [!UICONTROL 스팸] 마지막 삭제 이후 폴더:
+[!DNL Yahoo Mail]이(가) 마지막으로 지운 이후 [!UICONTROL 스팸] 폴더로 라우팅한 [!DNL Workfront Proof]개의 전자 메일을 제거하려면:
 
-1. 을(를) 선택합니다 **[!UICONTROL 스팸]** 폴더의 왼쪽에 있는 폴더 [!UICONTROL 메일] 페이지.
-1. 있을 경우 [!DNL Workfront Proof] 이메일에서 각 이메일을 선택하고 **[!UICONTROL 스팸 아님]** 버튼을 클릭합니다.
+1. [!UICONTROL 메일] 페이지 왼쪽에서 **[!UICONTROL 스팸]** 폴더를 선택하십시오.
+1. 폴더에 [!DNL Workfront Proof]개의 전자 메일이 있는 경우 각 전자 메일을 선택하고 **[!UICONTROL 스팸 아님]** 단추를 클릭합니다.
 1. 이제 받은 편지함에서 해당 이메일을 찾을 수 있습니다.
 
-제거하려면 [!DNL Workfront Proof] &quot;[!UICONTROL 변환 전:]&quot; 차단된 주소 목록의 주소:
+차단된 주소 목록에서 [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot; 주소를 제거하려면:
 
-1. 클릭 **[!UICONTROL 옵션]** 메일 페이지의 오른쪽 위 모서리에서 을(를) 클릭합니다.
-1. 클릭 **[!UICONTROL 더 많은 옵션]**.
-1. 클릭 **[!UICONTROL 스팸]** 를 클릭합니다.
-1. 있는 경우 [!DNL Workfront Proof] 주소 또는 도메인 이름은 **[!UICONTROL 차단된 전자 메일 주소]** 스팸 페이지의 섹션에서 각 항목을 선택하고 **[!UICONTROL 제거]** 버튼을 클릭합니다.
+1. 메일 페이지의 오른쪽 상단에 있는 **[!UICONTROL 옵션]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 추가 옵션]**&#x200B;을 클릭합니다.
+1. 페이지 왼쪽에서 **[!UICONTROL 스팸]**&#x200B;을 클릭합니다.
+1. [!DNL Workfront Proof] 주소 또는 도메인 이름이 스팸 페이지의 **[!UICONTROL 차단된 전자 메일 주소]** 섹션에 나타나면 각 항목을 선택하고 **[!UICONTROL 제거]** 단추를 클릭하십시오.
 
 ## [!DNL Aol]
 
 이 섹션에서 다음을 수행합니다.
 
-* 두 개 추가 [!DNL Workfront Proof] &quot;[!UICONTROL 변환 전:]주소 [!DNL Aol] [!UICONTROL 주소록]
-* 기존 항목 제거 [!DNL Workfront Proof] 이메일: [!DNL Aol] [!UICONTROL 스팸] 폴더 및 임의 [!DNL Workfront Proof] &quot;[!UICONTROL 변환 전:]&quot; [!DNL Aol] [!UICONTROL 스팸] 필터
+* 두 [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot; 주소를 [!DNL Aol] [!UICONTROL 주소록]에 추가합니다.
+* [!DNL Aol] [!UICONTROL 스팸] 폴더에서 기존 [!DNL Workfront Proof] 전자 메일을 제거하고 [!DNL Aol] [!UICONTROL 스팸] 필터의 차단된 주소 목록에서 [!DNL Workfront Proof] &quot;[!UICONTROL 보낸 사람]&quot; 주소를 제거합니다.
 
-### 신규 [!DNL Workfront Proof] 이메일
+### 새 [!DNL Workfront Proof]개 전자 메일
 
-두 개를 추가하려면 [!DNL Workfront Proof] &quot;[!UICONTROL 변환 전:]주소 [!DNL Aol] [!UICONTROL 주소록]:
+두 [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot; 주소를 [!DNL Aol] [!UICONTROL 주소록]에 추가하려면:
 
-1. 을(를) 클릭합니다. **[!UICONTROL 메일]** 메뉴 아래의 제품에서 사용할 수 있습니다.
-1. 선택 **[!UICONTROL 주소록]**.
-1. 을(를) 클릭합니다. [!UICONTROL 추가] 단추 [!UICONTROL 주소록] 창을 엽니다.
-1. 에서 **[!UICONTROL 새 연락처의 주소 카드]** 창에서 첫 번째 &quot;[!UICONTROL 변환 전:]&quot; 주소 [!UICONTROL 기타 이메일] 필드를 확인하고 [!UICONTROL 기본 이메일] 해당 필드 옆에 있는 라디오 단추입니다.
+1. **[!UICONTROL 메일]** 메뉴를 클릭합니다.
+1. **[!UICONTROL 주소록]**&#x200B;을(를) 선택하십시오.
+1. [!UICONTROL 주소록] 창 아래쪽에 있는 [!UICONTROL 추가] 단추를 클릭합니다.
+1. **[!UICONTROL 새 연락처의 주소 카드]** 창에서 첫 번째 &quot;[!UICONTROL 보낸 사람]&quot; 주소를 복사하여 [!UICONTROL 기타 전자 메일] 필드에 붙여 넣고 해당 필드 옆에 있는 [!UICONTROL 기본 전자 메일] 라디오 단추를 확인하세요.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
-1. 두 번째 &quot;[!UICONTROL 변환 전:]&quot; 주소, 3-5단계를 반복합니다.
+1. 두 번째 &quot;[!UICONTROL from]&quot; 주소에 대해 3-5단계를 반복합니다.
 
-### 기존 [!DNL Workfront Proof] 이메일
+### 기존 [!DNL Workfront Proof]개 전자 메일
 
-제거하려면 [!DNL Workfront Proof] 이메일 [!DNL Aol] 는 [!UICONTROL 스팸] 마지막 삭제 이후 폴더:
+[!DNL Aol]이(가) 마지막으로 지운 이후 [!UICONTROL 스팸] 폴더로 라우팅한 [!DNL Workfront Proof]개의 전자 메일을 제거하려면:
 
-1. 을(를) 클릭합니다. [!UICONTROL 메일] 메뉴 아래의 제품에서 사용할 수 있습니다.
-1. 을(를) 선택합니다 **[!UICONTROL 스팸]** 폴더.
-1. 있을 경우 [!DNL Workfront Proof] 이메일은 폴더에서 한 번에 하나씩 열고 **[!UICONTROL 스팸이 아닙니다.]** 버튼을 클릭합니다.
-1. 이제 찾을 수 있습니다 [!DNL Workfront Proof] 받은 편지함에 이메일 보내기.
+1. [!UICONTROL 메일] 메뉴를 클릭합니다.
+1. **[!UICONTROL 스팸]** 폴더를 선택하십시오.
+1. 폴더에 [!DNL Workfront Proof]개의 전자 메일이 있는 경우 한 번에 하나씩 각 전자 메일을 열고 **[!UICONTROL 스팸이 아님]** 단추를 클릭합니다.
+1. 이제 받은 편지함에서 [!DNL Workfront Proof]개의 전자 메일을 찾을 수 있습니다.
 
-다음을 확인하십시오. [!DNL Workfront Proof] &quot;[!UICONTROL 변환 전:]&quot; 주소는 [!DNL Aol] [!UICONTROL 스팸] 필터:
+[!DNL Workfront Proof] &quot;[!UICONTROL from]&quot; 주소가 [!DNL Aol] [!UICONTROL 스팸] 필터에서 차단되었는지 확인하려면:
 
-1. 이동 **[!UICONTROL [!DNL Aol]키워드: 메일 컨트롤]** 를 [!UICONTROL 스팸 설정] 페이지.
+1. **[!UICONTROL [!DNL Aol]키워드: 메일 컨트롤]**(으)로 이동하여 [!UICONTROL 스팸 설정] 페이지를 표시합니다.
 
-1. 다음 [!DNL Aol] [!UICONTROL 키워드] 는 다음 중 한 가지 기능만 [!DNL Aol] 소프트웨어. 에 액세스하기 위한 지침이 필요한 경우 [!UICONTROL 스팸 설정] 페이지 위치 [!DNL Aol] [!UICONTROL 웹 메일] 또는 [!DNL Aol] [!UICONTROL 데스크탑]를 참조하고 [!DNL Aol] 도움말.
-1. If **[!UICONTROL 지정한 주소에서 메일 차단]** 에서 선택됨 **[!UICONTROL 보낸 사람 필터]** 필드 및 임의 [!DNL Workfront Proof] 주소 또는 도메인 이름은 차단된 주소 목록에 포함되어 있으며 목록에서 각 주소를 삭제합니다.
+1. [!DNL Aol] [!UICONTROL 키워드]은(는) [!DNL Aol] 소프트웨어만의 기능입니다. [!DNL Aol] [!UICONTROL Webmail] 또는 [!DNL Aol] [!UICONTROL 데스크톱]에서 [!UICONTROL 스팸 설정] 페이지에 액세스하는 데 필요한 지침이 필요한 경우 [!DNL Aol] 도움말을 참조하세요.
+1. **[!UICONTROL 보낸 사람 필터]** 필드에서 **[!UICONTROL 지정한 주소에서 메일 차단]**&#x200B;을 선택하고 차단된 주소 목록에 [!DNL Workfront Proof] 주소 또는 도메인 이름이 포함된 경우 목록에서 해당 주소를 각각 삭제하십시오.
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.

@@ -33,11 +33,11 @@ this article has mostly information that is repeated from the articles linked fr
  <tbody> 
   <tr> 
    <td role="rowheader">커밋 일자</td> 
-   <td> <p>커밋 일자는 작업 또는 문제에 할당된 사용자가 작업 또는 문제를 완료할 것으로 수동으로 예상하는 일자입니다.</p> <p>커밋 일자에 대한 자세한 내용은 다음을 참조하십시오. <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">커밋 일자 개요</a>.</p> </td> 
+   <td> <p>커밋 일자는 작업 또는 문제에 할당된 사용자가 작업 또는 문제를 완료할 것으로 수동으로 예상하는 일자입니다.</p> <p>커밋 날짜에 대한 자세한 내용은 <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">커밋 날짜 개요</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">계획된 완료 일자 기준</td> 
-   <td> <p>계획된 완료 일자는 프로젝트 소유자가 작업 또는 문제가 완료될 것으로 예상하는 때입니다. 프로젝트 소유자 또는 작업 또는 문제에 대한 관리 권한이 있는 모든 사람이 수동으로 설정하거나 Adobe Workfront에서 자동으로 계산할 수 있습니다.</p> <p>계획된 완료 일자에 대한 자세한 내용은 <a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">작업 계획 완료 일자 개요</a></p> </td> 
+   <td> <p>계획된 완료 일자는 프로젝트 소유자가 작업 또는 문제가 완료될 것으로 예상하는 때입니다. 프로젝트 소유자 또는 작업 또는 문제에 대한 관리 권한이 있는 모든 사람이 수동으로 설정하거나 Adobe Workfront에서 자동으로 계산할 수 있습니다.</p> <p>계획된 완료 일자에 대한 자세한 내용은 <a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">작업 계획된 완료 일자 개요</a>를 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>

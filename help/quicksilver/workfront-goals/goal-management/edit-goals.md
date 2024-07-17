@@ -44,7 +44,7 @@ ht-degree: 1%
  <td>
  <p>새 라이선스: 기여자 이상</p>
  또는
- <p>현재 라이선스: 요청 이상</p> <p>자세한 내용은 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront 라이선스 개요</a>.</p> </td>
+ <p>현재 라이선스: 요청 이상</p> <p>자세한 내용은 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront 라이선스 개요</a>를 참조하십시오.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">제품*</td>
@@ -54,7 +54,7 @@ ht-degree: 1%
 <li>Select 또는 Prime Adobe Workfront 플랜 및 추가 Adobe Workfront Goals 라이선스.</li>
 <li>기본적으로 Workfront 목표를 포함하는 Ultimate Workfront 계획입니다. </li></ul>
  <p>또는</p>
- <p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표 사용 요구 사항</a>. </p> </td>
+ <p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표를 사용하기 위한 요구 사항</a>을 참조하십시오. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">액세스 수준</td>
@@ -66,7 +66,7 @@ ht-degree: 1%
   <div>
   <p>목표에 대한 또는 그 이상의 권한에 대한 보기</p>
   <p>편집할 목표에 대한 권한 관리</p>
-  <p>목표 공유에 대한 자세한 내용은 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront 목표에서 목표 공유</a>. </p>
+  <p>목표 공유에 대한 자세한 내용은 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront 목표에서 목표 공유</a>를 참조하십시오. </p>
   </div> </td>
  </tr>
  <tr>
@@ -77,7 +77,7 @@ ht-degree: 1%
 </tbody>
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## 목표 편집에 대한 고려 사항
 
@@ -145,7 +145,7 @@ Editing goals differs depending on what environment you use.
 
 -->
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png)을 클릭한 다음 을 클릭합니다 **목표**.\
+1. **주 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **목표**&#x200B;를 클릭합니다.\
    목표 목록이 표시됩니다.
 1. 목표를 클릭합니다.\
    목표 페이지가 표시됩니다.
@@ -154,8 +154,8 @@ Editing goals differs depending on what environment you use.
 
 1. 다음 중 하나를 수행하여 목표에 대한 정보를 편집합니다.
    * 목표 헤더에 표시되는 필드를 클릭하여 업데이트합니다. 헤더의 일부 필드를 편집할 수 있는 것은 아닙니다.
-   * 다음을 클릭합니다. **기타 아이콘** ![](assets/more-icon.png) 목표 이름의 오른쪽에 있는 을(를) 클릭합니다. **편집**.
-   * 클릭 **목표 세부 정보** 왼쪽 패널에서 를 클릭하고 **편집 아이콘** ![](assets/edit-icon.png) 오른쪽 상단에서 을(를) 클릭한 다음 **모두 편집**. 목표 세부 사항 섹션의 필드 업데이트를 시작합니다.
+   * 목표 이름의 오른쪽에 있는 **자세히 아이콘** ![](assets/more-icon.png)을 클릭한 다음 **편집**&#x200B;을 클릭합니다.
+   * 왼쪽 패널에서 **목표 세부 사항**&#x200B;을 클릭하고 오른쪽 상단에서 **편집 아이콘** ![](assets/edit-icon.png)을 클릭한 다음 **모두 편집**&#x200B;을 클릭합니다. 목표 세부 사항 섹션의 필드 업데이트를 시작합니다.
 
      >[!IMPORTANT]
      >
@@ -164,25 +164,25 @@ Editing goals differs depending on what environment you use.
 1. (조건부) 이전 단계에서 선택한 항목에 따라 목표에 대한 다음 정보를 업데이트합니다.
 
    * 목표 헤더에서 다음 정보를 업데이트한 다음 Enter 키를 눌러 변경 사항을 저장합니다.
-      * **목표 이름**: 목표 이름을 클릭하고 새 이름을 입력합니다.
+      * **목표 이름**: 목표 이름을 클릭하고 새 이름을 입력하세요.
       * **소유자**: 소유자 이름을 클릭하고 사용자, 팀, 그룹 또는 회사의 이름을 입력한 다음 목록에 표시될 때 선택합니다. 목표에 대해 소유자는 한 명만 있을 수 있습니다.
-   * 목표 편집 상자에서 다음 정보를 업데이트한 다음 **저장**:
+   * 목표 편집 상자에서 다음 정보를 업데이트한 다음 **저장**&#x200B;을 클릭합니다.
       * **목표 이름**
-      * **기간**: 목표에 대한 기간을 업데이트하려면 클릭합니다\
+      * **기간**: 목표의 기간을 업데이트하려면 클릭하십시오.\
         또는\
-        선택 **사용자 지정 날짜 활성화** 목표 일자를 지정하려면 **시작** 및 **종료 날짜**.
+        목표의 **시작** 및 **종료 날짜**&#x200B;에 대한 날짜를 지정하려면 **사용자 지정 날짜 사용**&#x200B;을 선택하세요.
 
         >[!TIP]
         >
-        >선택 취소 **사용자 지정 날짜 활성화** 을 눌러 원래 목표 기간으로 돌아갑니다.
+        >목표의 원래 기간으로 돌아가려면 **사용자 지정 날짜 사용**&#x200B;을 선택 취소하십시오.
 
       * **목표 소유자**
       * **설명**: 목표에 대한 정보를 추가하거나 업데이트합니다.
-   * 목표 세부 사항 섹션에서 정보를 업데이트하거나 검토합니다. 자세한 내용은 [Adobe Workfront 목표의 목표 세부 사항 섹션에서 목표 업데이트](../goal-management/update-goals-in-goal-details-panel.md).
+   * 목표 세부 사항 섹션에서 정보를 업데이트하거나 검토합니다. 자세한 내용은 [Adobe Workfront 목표의 목표 세부 정보 섹션에서 목표 업데이트](../goal-management/update-goals-in-goal-details-panel.md)를 참조하십시오.
 
    <!-- (should you update the title here after changing it at production??? - change it to Update goals in the goal Details section)-->
 
-1. (선택 사항) **진행 표시기** 왼쪽 패널에서 결과, 활동 또는 프로젝트를 목표에 추가합니다. 진행 표시기를 추가하면 목표의 진행 상황을 추적할 수 있습니다.
+1. (선택 사항) 목표에 결과, 활동 또는 프로젝트를 추가하려면 왼쪽 패널의 **진행 표시기**를 클릭합니다. 진행 표시기를 추가하면 목표의 진행 상황을 추적할 수 있습니다.
 자세한 내용은 다음 문서를 참조하십시오.
    * [Adobe Workfront 목표의 목표에 활동 추가](../results-and-activities/add-activities-to-goals.md)
    * [Adobe Workfront 목표의 목표에 결과 추가](../results-and-activities/add-results-to-goals.md).

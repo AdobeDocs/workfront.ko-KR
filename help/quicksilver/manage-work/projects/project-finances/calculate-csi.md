@@ -9,7 +9,7 @@ feature: Work Management
 exl-id: 38a8c5e0-b812-499d-8fe7-a71ddccb3aad
 source-git-commit: 1cf679376517293f0e0f28b461bd9ecab9283035
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
@@ -42,9 +42,9 @@ Workfront은 다음 공식을 사용하여 프로젝트 또는 작업의 비용 
 
 `CSI = CPI x SPI`
 
-CPI에 대한 자세한 내용은 문서 를 참조하십시오. [원가 성과 지수(CPI) 계산](../../../manage-work/projects/project-finances/calculate-cpi.md).
+CPI에 대한 자세한 내용은 [CPI(비용 성과 지표) 계산](../../../manage-work/projects/project-finances/calculate-cpi.md) 문서를 참조하십시오.
 
-SPI에 대한 자세한 내용은 문서 를 참조하십시오 [SPI(일정 성과 지수) 계산](../../../manage-work/projects/project-finances/calculate-spi.md).
+SPI에 대한 자세한 내용은 [SPI(일정 성과 지수) 계산](../../../manage-work/projects/project-finances/calculate-spi.md) 문서를 참조하십시오.
 
 CSI에는 다음과 같은 세 가지 가능한 값이 있습니다.
 

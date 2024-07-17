@@ -20,12 +20,12 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->이 문서는 독립 실행형 제품의 기능에 대해 설명합니다 [!DNL Workfront Proof]. 내부 교정에 대한 정보 [!DNL Adobe Workfront], 참조 [증명](../../../review-and-approve-work/proofing/proofing.md).
+>이 문서는 독립 실행형 제품 [!DNL Workfront Proof]의 기능을 참조합니다. [!DNL Adobe Workfront] 내부의 증명에 대한 자세한 내용은 [증명](../../../review-and-approve-work/proofing/proofing.md)을 참조하십시오.
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [다음 [!DNL Workfront Proof] 과금 페이지](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
+* [ [!DNL Workfront Proof] 청구 페이지](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
 <!--* [Account Payment in Workfront Proof](../../../workfront-proof/wp-billingsettings/manage-your-billing/acct-payment-in-wp.md) -->
-* [에서 결제 방법 선택 [!DNL Workfront Proof]](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md)
-* [다운로드 중 [!DNL Workfront Proof] 인보이스](../../../workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md)
-* [닫기 [!DNL Workfront Proof] account](../../../workfront-proof/wp-billingsettings/manage-your-billing/close-wp-acct.md)
+* [ [!DNL Workfront Proof]에서 결제 방법 선택](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md)
+* [ [!DNL Workfront Proof] 인보이스 다운로드 중](../../../workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md)
+* [ [!DNL Workfront Proof] 계정 닫기](../../../workfront-proof/wp-billingsettings/manage-your-billing/close-wp-acct.md)

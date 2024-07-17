@@ -28,13 +28,13 @@ ht-degree: 1%
 계획된 작업은 Adobe Workfront에서 프로젝트 및 작업으로 표시됩니다. 그러나 요청 형태로 계획되지 않은 작업이 언제든지 들어올 수 있는 환경에서 작업할 수 있습니다. Workfront은 요청 대기열 을 사용하여 이러한 유형의 환경을 수용하는 워크플로를 제공합니다.
 
 요청 대기열에서 요청을 만든 후 완료할 요청을 할당하거나 작업 또는 프로젝트로 전환할 수 있습니다.\
-문제를 작업 또는 프로젝트로 전환하는 방법에 대한 자세한 내용은 문서 를 참조하십시오 [Adobe Workfront의 문제 전환 개요](../../../manage-work/issues/convert-issues/convert-issues.md).
+문제를 작업 또는 프로젝트로 전환하는 방법에 대한 자세한 내용은 문서 [Adobe Workfront의 문제 전환 개요](../../../manage-work/issues/convert-issues/convert-issues.md)를 참조하십시오.
 
 다음과 같은 방법으로 요청을 만들 수 있습니다.
 
 * 이 문서에 설명된 대로 처음부터.
-* 초안에서. 자세한 내용은 [초안에서 요청 만들기](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
-* 기존 요청에서 복사본을 복사하고 제출합니다. 자세한 내용은 [요청 복사 및 제출](../../../manage-work/requests/create-requests/copy-and-submit-requests.md).
+* 초안에서. 자세한 내용은 [초안에서 요청 만들기](../../../manage-work/requests/create-requests/create-requests-from-drafts.md)를 참조하십시오.
+* 기존 요청에서 복사본을 복사하고 제출합니다. 자세한 내용은 [요청 복사 및 제출](../../../manage-work/requests/create-requests/copy-and-submit-requests.md)을 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -64,7 +64,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -72,25 +72,25 @@ ht-degree: 1%
 
 Workfront 관리자는 이 기능을 사용하려면 먼저 요청 대기열을 만들어 사용자가 사용할 수 있도록 해야 합니다. 플래너 라이선스를 가지고 있고 프로젝트에 대한 편집 액세스 권한 및 특정 프로젝트에 대한 관리 권한을 가진 사용자는 요청 대기열을 만들 수도 있습니다.
 
-요청 대기열을 만드는 방법에 대한 자세한 내용은 문서를 참조하십시오 [요청 대기열 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+요청 대기열을 만드는 방법에 대한 자세한 내용은 문서 [요청 대기열 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)를 참조하십시오.
 
 Workfront 관리자는 요청 대기열의 다음 구성 요소를 만들어야 합니다.
 
 * 도움말 요청 대기열로 게시된 현재 상태의 프로젝트.
 * 대기열 주제.\
-  자세한 내용은 이 문서 를 참조하십시오. [대기열 주제 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+  자세한 내용은 문서 [대기열 주제 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)를 참조하십시오.
 
 * 라우팅 규칙.\
-  자세한 내용은 이 문서 를 참조하십시오. [라우팅 규칙 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
+  자세한 내용은 문서 [라우팅 규칙 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)를 참조하십시오.
 
 * (선택 사항) 주제 그룹.\
-  자세한 내용은 이 문서 를 참조하십시오. [주제 그룹 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
+  자세한 내용은 문서 [주제 그룹 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)를 참조하십시오.
 
 * (선택 사항) 사용자 정의 양식을 요청합니다.\
-  자세한 내용은 이 문서 를 참조하십시오. [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+  자세한 내용은 문서 [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)을 참조하세요.
 
 * (선택 사항) 승인 프로세스를 요청합니다.\
-  자세한 내용은 이 문서 를 참조하십시오. [작업 항목에 대한 승인 프로세스 만들기](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+  자세한 내용은 문서 [작업 항목에 대한 승인 프로세스 만들기](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)를 참조하십시오.
 
 ## Workfront 웹 앱에서 요청 만들기 및 초안 생성
 
@@ -106,27 +106,27 @@ Workfront 웹 앱에서 요청을 만들면 Workfront은 요청을 제출하기 
 >* 요청 대기열의 구조가 변경되면 더 이상 기존 초안에 액세스할 수 없습니다. 예를 들어 대기열 주제를 제거하거나 주제 그룹을 추가하는 경우 저장된 초안에 더 이상 액세스할 수 없습니다.
 >
 
-기존 초안에서 요청을 만드는 방법에 대한 자세한 내용은 [초안에서 요청 만들기](../../../manage-work/requests/create-requests/create-requests-from-drafts.md). 요청 초안 삭제에 대한 자세한 내용은 [요청 초안 삭제](../../../manage-work/requests/create-requests/delete-request-draft.md).
+기존 초안에서 요청을 만드는 방법에 대한 자세한 내용은 [초안에서 요청 만들기](../../../manage-work/requests/create-requests/create-requests-from-drafts.md)를 참조하십시오. 요청 초안 삭제에 대한 자세한 내용은 [요청 초안 삭제](../../../manage-work/requests/create-requests/delete-request-draft.md)도 참조하십시오.
 
 Workfront 웹 앱에서 요청을 만들려면 다음 작업을 수행하십시오.
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리입니다.
+1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭합니다.
 
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
    </MadCap:conditionalText>
    -->
 
-1. 클릭  **요청**&#x200B;을 클릭한 다음 을 클릭합니다 **새 요청** 페이지의 오른쪽 상단 모서리에서 을 참조하십시오.
+1. **요청**&#x200B;을 클릭한 다음 페이지의 오른쪽 상단에 있는 **새 요청**&#x200B;을 클릭합니다.
 
    >[!TIP]
    >
    >* 요청 영역의 섹션에서 새 요청 옵션에 액세스할 수 있습니다.
    >* 문제를 만들 수 있는 액세스 권한이 없는 경우 새 요청 옵션이 흐리게 표시됩니다.
 
-1. (조건부) **요청 유형** 필드를 작성하고 다음 중 하나를 수행합니다.
+1. (조건부) **요청 유형** 필드 내부를 클릭하고 다음 중 하나를 수행합니다.
 
-   * 다음에서 **최근 경로** 섹션에서 요청 대기열을 여는 데 최근에 사용한 경로를 선택합니다. 경로에는 요청 대기열, 주제 그룹 및 최근에 제출한 대기열 주제가 포함됩니다. 기본적으로 마지막 세 개의 경로가 표시됩니다.
+   * **최근 경로** 섹션에서 요청 대기열을 여는 데 최근에 사용한 경로를 선택합니다. 경로에는 요청 대기열, 주제 그룹 및 최근에 제출한 대기열 주제가 포함됩니다. 기본적으로 마지막 세 개의 경로가 표시됩니다.
 
      >[!NOTE]
      >
@@ -134,7 +134,7 @@ Workfront 웹 앱에서 요청을 만들려면 다음 작업을 수행하십시�
 
      ![](assets/list-of-recent-paths-and-request-queues-when-entering-new-request-nwe-350x295.png)
 
-   * 다음에서 **요청 대기열** 섹션에서 요청 대기열을 선택합니다.
+   * **요청 큐** 섹션에서 요청 큐를 선택하십시오.
    * 이전에 액세스한 경로에 속하는 키워드를 입력하여 요청 대기열을 검색합니다.
 
      예를 들어 &quot;Location&quot;이라는 주제 그룹과 &quot;Remote&quot;라는 대기열 주제가 있는 &quot;Help Desk&quot;라는 요청 대기열이 있는 경우 &quot;remote&quot;를 입력하면 경로의 모든 요소에 &quot;remote&quot;가 포함된 모든 요청 대기열이 표시됩니다.
@@ -170,9 +170,9 @@ Workfront 웹 앱에서 요청을 만들려면 다음 작업을 수행하십시�
    >* 요청 대기열의 이름은 도움말 요청 대기열로 게시된 프로젝트의 이름입니다.
    >* 선택한 요청 대기열로 구성된 프로젝트에 대한 설명이 요청 대기열 이름의 오른쪽에 표시됩니다.
    >   
-   >프로젝트를 도움말 요청 대기열로 게시하는 방법에 대한 자세한 내용은 문서 를 참조하십시오 [요청 대기열 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   >프로젝트를 도움말 요청 대기열로 게시하는 방법에 대한 자세한 내용은 문서 [요청 대기열 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)를 참조하십시오.
 
-1. 다음에서 **새 요청** 양식에서 다음 중 하나를 수행합니다.
+1. **새 요청** 양식에서 다음 중 하나를 수행합니다.
 
    * (조건부) 요청 유형 필드 아래에 표시되는 통지 메시지에서 사용 가능한 초안을 선택합니다.
 
@@ -197,13 +197,13 @@ Workfront 웹 앱에서 요청을 만들려면 다음 작업을 수행하십시�
    >
 
    요청 대기열에 최대 10개의 주제 그룹 계층을 구축할 수 있습니다.\
-   주제 그룹을 만드는 방법에 대한 자세한 내용은 문서를 참조하십시오 [주제 그룹 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). 대기열 주제 생성에 대한 자세한 내용은 문서를 참조하십시오 [대기열 주제 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+   주제 그룹을 만드는 방법에 대한 자세한 내용은 문서 [주제 그룹 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)를 참조하십시오. 대기열 주제 만들기에 대한 자세한 내용은 문서 [대기열 주제 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)를 참조하십시오.
 
    >[!TIP]
    >
    >초안 또는 이전 경로를 선택한 경우 주제 그룹 및 대기열 주제가 이미 선택되어 있습니다. 필요한 경우 다른 항목을 선택할 수 있습니다.
 
-1. Workfront 관리자가 에서 활성화한 필드에 따라 **새 문제 필드** 의 섹션 **대기열 세부 정보** 프로젝트의 하위 탭에서 새 요청을 실행할 때 다음 필드 중 하나를 찾을 수 있습니다.
+1. Workfront 관리자가 프로젝트의 **큐 세부 정보** 하위 탭의 **새 문제 필드** 섹션에서 활성화한 필드에 따라 새 요청을 제출할 때 다음 필드 중 하나를 찾을 수 있습니다.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -244,12 +244,12 @@ Workfront 웹 앱에서 요청을 만들려면 다음 작업을 수행하십시�
        </ul> <p>시스템 관리자는 심각도 이름을 수정할 수 있습니다.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>기본 담당자</strong> </td> 
+      <td role="rowheader"><strong>기본 연락처</strong> </td> 
       <td>사용자가 요청과 관련된 모든 질문을 처리할 수 있으므로 요청의 기본 연락처는 기본적으로 귀하에게 제공됩니다. 그러나 다른 Workfront 사용자로 변경할 수 있습니다.</td> 
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader"><strong>할당</strong> </td> 
-      <td> <p><span>요청을 할당해야 하는 활성 사용자, 작업 역할 또는 팀의 이름을 지정합니다.</span> </p> <p>한 팀만 지정할 수 있습니다.</p>
+      <td> <p><span>요청을 할당할 활성 사용자, 작업 역할 또는 팀의 이름을 지정하십시오.</span> </p> <p>한 팀만 지정할 수 있습니다.</p>
 
    <p> 요청 대기열이 설정된 방법에 따라 세 가지 리소스 모두 대신 하나 또는 두 가지 유형의 리소스만 요청에 할당할 수 있습니다(예: 사용자에게 요청을 할당할 수 있을 수도 있음).</p>
 
@@ -257,11 +257,11 @@ Workfront 웹 앱에서 요청을 만들려면 다음 작업을 수행하십시�
 
    <p> 자세한 내용은 다음 문서를 참조하십시오.</p> 
       <ul> 
-      <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">요청 대기열 만들기</a> </p> </li> 
+      <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">요청 큐 만들기</a> </p> </li> 
       <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">라우팅 규칙 만들기</a> <br> </p> </li> 
       </ul> </p>
 
-   <p><span>요청 대기열을 적절한 리소스로 자동으로 라우팅할 수 있도록 라우팅 규칙을 사용하는 것이 좋습니다.</span> </p> </td> 
+   <p><span>요청 대기열을 자동으로 적절한 리소스로 라우팅할 수 있도록 라우팅 규칙을 사용하는 것이 좋습니다.</span> </p> </td> 
      </tr>
 
    <tr> 
@@ -289,29 +289,29 @@ Workfront 웹 앱에서 요청을 만들려면 다음 작업을 수행하십시�
 
 1. (선택 사항) Workfront 관리자가 사용자 정의 양식을 요청 대기열 또는 대기열 주제와 연결한 경우 사용자 정의 양식 내에 필드를 지정합니다.\
    사용자 정의 양식은 모든 Workfront 인스턴스에 대해 다릅니다.
-1. (선택 사항 및 조건부) 요청을 입력하는 동안 언제든지 을 클릭합니다. [!UICONTROL **초안 삭제**] 자동으로 생성된 초안을 삭제하려면 이렇게 하면 복구할 수 없는 초안이 삭제됩니다. 초안을 삭제하고 있음을 확인하는 확인 메시지가 표시됩니다.
+1. (선택 사항 및 조건부) 자동으로 만들어진 초안을 삭제하려면 요청을 입력하는 동안 언제든지 [!UICONTROL **초안 삭제**]&#x200B;를 클릭합니다. 이렇게 하면 복구할 수 없는 초안이 삭제됩니다. 초안을 삭제하고 있음을 확인하는 확인 메시지가 표시됩니다.
 
-1. (선택 사항) [!UICONTROL **실행 취소**] 작업을 되돌리고 초안을 유지하려면 확인 메시지에서 을(를) 클릭합니다.
+1. (선택 사항) 작업을 되돌리고 초안을 유지하려면 확인 메시지에서 [!UICONTROL **실행 취소**]&#x200B;를 클릭합니다.
 
 1. 다음 중 하나를 수행하십시오.
 
-   * 클릭 **제출** 요청을 제출할 준비가 되면 요청은 제출됨 섹션에 저장됩니다. 요청 대기열의 라우팅 규칙에 따라 이 요청은 요청 대기열로 지정된 프로젝트가 아닌 다른 프로젝트로 라우팅될 수 있습니다. 라우팅 규칙에 대한 자세한 내용은 [라우팅 규칙 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
+   * 요청을 제출할 준비가 되면 **제출**&#x200B;을 클릭합니다. 요청은 제출됨 섹션에 저장됩니다. 요청 대기열의 라우팅 규칙에 따라 이 요청은 요청 대기열로 지정된 프로젝트가 아닌 다른 프로젝트로 라우팅될 수 있습니다. 라우팅 규칙에 대한 자세한 내용은 [라우팅 규칙 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)를 참조하세요.
 
      또는
 
-     클릭 **닫기** 제출할 준비가 되지 않았다면 나중에 다시 와서 완료할 수 있습니다. 요청이 초안 섹션에 저장되었으며, 다음에 이 요청 대기열에 대한 요청을 제출할 때 사용할 수 있습니다.
+     아직 제출할 준비가 되지 않았으며 나중에 다시 돌아와서 완료할 수 있는 경우 **닫기**&#x200B;를 클릭합니다. 요청이 초안 섹션에 저장되었으며, 다음에 이 요청 대기열에 대한 요청을 제출할 때 사용할 수 있습니다.
 
      ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 
    요청을 제출하면 초안이 자동으로 삭제되고 복원할 수 없습니다.
 
-   수신 요청 주소 지정에 대한 자세한 내용은 문서 를 참조하십시오. [작업 및 팀 요청 관리](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
+   수신 요청 처리에 대한 자세한 내용은 [작업 및 팀 요청 관리](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md) 문서를 참조하십시오.
 
-   제출된 요청 또는 초안 요청 찾기에 대한 자세한 내용은 [제출된 요청 찾기](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
+   제출된 요청 또는 초안 요청을 찾는 방법에 대한 자세한 내용은 [제출된 요청 찾기](../../../manage-work/requests/create-requests/locate-submitted-requests.md)를 참조하십시오.
 
 ## Workfront 외부에서 요청 만들기
 
-새 요청을 제출할 때 요청 대기열에 대한 직접 링크를 공유하고 다른 애플리케이션에 포함할 수 있습니다. 웹 또는 다른 애플리케이션에서 이 링크에 액세스하는 사용자는 활성 Workfront 계정으로 로그인하여 이 큐에 액세스하고 요청을 제출해야 합니다. 자세한 내용은 [요청 대기열에 대한 링크 공유](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
+새 요청을 제출할 때 요청 대기열에 대한 직접 링크를 공유하고 다른 애플리케이션에 포함할 수 있습니다. 웹 또는 다른 애플리케이션에서 이 링크에 액세스하는 사용자는 활성 Workfront 계정으로 로그인하여 이 큐에 액세스하고 요청을 제출해야 합니다. 자세한 내용은 [요청 대기열에 대한 링크 공유](../../../manage-work/requests/create-requests/share-link-to-request-queue.md)를 참조하십시오.
 
 ## Workfront으로 이메일로 요청 만들기
 
@@ -323,13 +323,13 @@ Workfront 웹 앱에서 요청을 만들려면 다음 작업을 수행하십시�
 >
 >HTML이 Workfront을 입력하면 요청 서식이 제거되지만 서명 및 기존 회신 스레드 컨텐츠는 제거되지 않고 요청 설명에 표시됩니다.
 
-요청 대기열이 이메일을 통해 요청을 수신하도록 하는 방법에 대한 자세한 내용은 을 참조하십시오. [사용자가 문제를 요청 대기열 프로젝트에 이메일로 보낼 수 있도록 설정](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md).
+요청 대기열에서 전자 메일을 통해 요청을 받는 방법에 대한 자세한 내용은 [사용자가 문제를 요청 대기열 프로젝트에 전자 메일로 보낼 수 있도록 설정](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md)을 참조하십시오.
 
 ## Outlook 클라이언트를 사용하여 요청 만들기
 
 Outlook 클라이언트를 사용하여 요청을 제출할 수 있습니다. 새 요청을 만들거나 이메일을 요청으로 변환할 수 있습니다.
 
-Outlook 클라이언트를 사용하여 요청을 제출하는 방법에 대한 자세한 내용은 문서 를 참조하십시오 [Outlook 이메일에서 Adobe Workfront 요청 만들기](../../../workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md).
+Outlook 클라이언트를 사용하여 요청을 제출하는 방법에 대한 자세한 내용은 문서 [Outlook 전자 메일에서 Adobe Workfront 요청 만들기](../../../workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md)를 참조하십시오.
 
 ## Workfront 모바일 앱을 사용하여 요청 만들기
 
@@ -345,11 +345,11 @@ Outlook 클라이언트를 사용하여 요청을 제출하는 방법에 대한 
 Workfront과 통합된 애플리케이션을 사용하여 요청을 제출할 수 있습니다.
 
 * Workfront과 다른 애플리케이션 간에 사용자 정의 통합을 구축하여 다른 애플리케이션에서 Workfront에 요청을 제출할 수 있습니다.\
-  사용자 지정 Workfront 통합에 대한 자세한 내용은 문서 를 참조하십시오 [Adobe Workfront 통합](../../../administration-and-setup/configure-integrations/workfront-integrations-1.md).
+  사용자 지정 Workfront 통합에 대한 자세한 내용은 문서 [Adobe Workfront 통합](../../../administration-and-setup/configure-integrations/workfront-integrations-1.md)을 참조하십시오.
 
 * Salesforce용 Workfront 앱을 설치한 경우 Salesforce에서 요청을 제출할 수 있습니다.\
-  Salesforce용 Workfront 앱을 사용하여 Salesforce에서 요청을 제출하는 방법에 대한 자세한 내용은 문서를 참조하십시오. [Salesforce 오브젝트에서 Adobe Workfront 요청 제출](../../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md).
+  Salesforce용 Workfront 앱을 사용하여 Salesforce에서 요청을 제출하는 방법에 대한 자세한 내용은 문서 [Salesforce 개체에서 Adobe Workfront 요청 제출](../../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md)을 참조하십시오.
 
 ## 제출된 요청 찾기
 
-제출된 요청 또는 초안 요청 찾기에 대한 자세한 내용은 [제출된 요청 찾기](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
+제출된 요청 또는 초안 요청을 찾는 방법에 대한 자세한 내용은 [제출된 요청 찾기](../../../manage-work/requests/create-requests/locate-submitted-requests.md)를 참조하십시오.

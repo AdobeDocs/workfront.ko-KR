@@ -9,7 +9,7 @@ role: Developer
 exl-id: ac394b41-63cb-481a-a858-30d8d7f840bb
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '640'
 ht-degree: 0%
 
 ---
@@ -24,16 +24,16 @@ URI에 API 버전을 지정하지 않는 통합은 자동으로 기본값으로 
 >
 >조직에서 현재 기본 API를 사용 중인 경우 Workfront 관리자가 기본 API에 대한 추가 지침이 포함된 공지 센터 메시지를 받았습니다.
 
-API 요청에서 버전을 지정하는 방법에 대한 자세한 내용은 [통합에서 API 버전 지정](../../wf-api/api/specify-api-version-integrations.md).
+API 요청에 버전을 지정하는 방법에 대한 자세한 내용은 [통합에서 API 버전 지정](../../wf-api/api/specify-api-version-integrations.md)을 참조하십시오.
 
 ## 기본 API 사용 시 고려 사항
 
 Workfront 기본 API로 작업할 때 다음 사항을 고려하십시오.
 
-* API의 기본 버전 및 최신 버전입니다. 지정된 버전이 없는 모든 API 호출은 기본 버전을 사용합니다. Workfront이 새 버전의 API를 릴리스할 때마다 기본 버전이 최신 버전으로 업데이트됩니다. **따라서 새 버전의 Workfront API가 릴리스된 후 기본 버전을 사용하는 모든 API 호출은 기능이 계속 지원되는지 확인해야 합니다**.
+* API의 기본 버전 및 최신 버전입니다. 지정된 버전이 없는 모든 API 호출은 기본 버전을 사용합니다. Workfront이 새 버전의 API를 릴리스할 때마다 기본 버전이 최신 버전으로 업데이트됩니다. **따라서 새 버전의 Workfront API가 출시된 후에는 기본 버전을 사용하는 모든 API 호출이 기능이 계속 지원되는지 확인해야 합니다**.
 * 조직에서 현재 더 이상 사용되지 않는 이전 기본 API를 사용하는 경우 Workfront 관리자가 기본 API에 대한 추가 지침과 함께 공지 센터 메시지를 받았습니다.
 
-최신 버전의 API를 보려면 를 참조하십시오. [API 버전 관리 및 지원 일정](../../wf-api/api/api-version-support-schedule.md).
+최신 버전의 API를 보려면 [API 버전 관리 및 지원 일정](../../wf-api/api/api-version-support-schedule.md)을 참조하십시오.
 
 ## 지원되는 API 버전에 대한 통합 업데이트
 
@@ -49,9 +49,9 @@ Workfront API 요청에 버전이 지정되지 않은 경우 기본값 을 사�
 
 `https://davidwhite.my.workfront.com/attask/api/`**v15.0**`/project/metadata`
 
-Workfront API 요청을 업데이트할 때 지원되는 모든 API 버전을 지정할 수 있습니다. 특정 API 참조에 대한 자세한 내용은 [통합에서 API 버전 지정](../../wf-api/api/specify-api-version-integrations.md).
+Workfront API 요청을 업데이트할 때 지원되는 모든 API 버전을 지정할 수 있습니다. 특정 API 참조에 대한 자세한 내용은 [통합에서 API 버전 지정](../../wf-api/api/specify-api-version-integrations.md)을 참조하십시오.
 
-최대 지원 기간을 보장하려면 최신 버전을 호출해야 합니다. 에서 지원되는 API 목록을 찾을 수 있습니다. [API 버전 관리 및 지원 일정](../../wf-api/api/api-version-support-schedule.md).
+최대 지원 기간을 보장하려면 최신 버전을 호출해야 합니다. [API 버전 관리 및 지원 일정](../../wf-api/api/api-version-support-schedule.md)에서 지원되는 API 목록을 찾을 수 있습니다.
 
 ## API 기본 버전 내역
 

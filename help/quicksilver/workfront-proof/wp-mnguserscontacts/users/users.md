@@ -19,11 +19,11 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->이 문서는 독립 실행형 제품의 기능에 대해 설명합니다 [!DNL Workfront Proof]. 내부 교정에 대한 정보 [!DNL Adobe Workfront], 참조 [증명](../../../review-and-approve-work/proofing/proofing.md).
+>이 문서는 독립 실행형 제품 [!DNL Workfront Proof]의 기능을 참조합니다. [!DNL Adobe Workfront] 내부의 증명에 대한 자세한 내용은 [증명](../../../review-and-approve-work/proofing/proofing.md)을 참조하십시오.
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [다음을 사용하여 사용자 만들기 [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-users.md)
-* [다음을 사용하여 사용자 정보 구성 [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/configure-user-info.md)
-* [다음을 사용하여 사용자 정의 프로필 만들기 및 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md)
-* [다음을 사용하여 계정 간 사용자 이동 [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/move-users-between-accounts.md)
+* [ [!DNL Workfront Proof]을(를) 사용하여 사용자 만들기](../../../workfront-proof/wp-mnguserscontacts/users/create-users.md)
+* [ [!DNL Workfront Proof]을(를) 사용하여 사용자 정보 구성](../../../workfront-proof/wp-mnguserscontacts/users/configure-user-info.md)
+* [ [!DNL Workfront Proof]을(를) 사용하여 사용자 지정 프로필 만들기 및 관리](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md)
+* [ [!DNL Workfront Proof]을(를) 사용하여 계정 간에 사용자 이동](../../../workfront-proof/wp-mnguserscontacts/users/move-users-between-accounts.md)

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-원하는 너비와 일치하도록 여백을 드래그 앤 드롭하여 열의 너비로 일시적으로 수정할 수 있습니다. 자세한 내용은 [열 너비 및 순서 수정](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
+원하는 너비와 일치하도록 여백을 드래그 앤 드롭하여 열의 너비로 일시적으로 수정할 수 있습니다. 자세한 내용은 [열 너비 및 순서 수정](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)을 참조하십시오.
 
 뷰의 열 너비를 영구적으로 변경하려면 뷰를 편집할 때 열에서 텍스트 모드를 사용해야 합니다.
 
@@ -51,7 +51,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -59,21 +59,21 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->섹션에 설명된 대로 열의 너비를 수동으로 수정하는 경우 [임시로 열 너비 및 순서 수정](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md#modify-width-and-order-of-columns-temporarily) 이 문서에서 [열 너비 및 순서 수정](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md) 열 너비를 영구적으로 수정한 후에는 수동 크기 조정에 따라 열 너비가 유지됩니다. 이 경우 다음 단계에 따라 업데이트된 열의 너비를 덮어씁니다. 캐시를 지우거나 다른 브라우저에서 로그인한 후 다음 단계에 정의된 너비에 따라 열을 볼 수 있습니다.
+>열 너비를 영구적으로 수정한 후에 문서 [열 너비 및 순서 수정](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)의 [열 너비 및 순서 임시 수정](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md#modify-width-and-order-of-columns-temporarily) 섹션에 설명된 대로 열 너비를 수동으로 수정한 경우 수동 크기 조정에 따라 열 너비가 유지됩니다. 이 경우 다음 단계에 따라 업데이트된 열의 너비를 덮어씁니다. 캐시를 지우거나 다른 브라우저에서 로그인한 후 다음 단계에 정의된 너비에 따라 열을 볼 수 있습니다.
 >
->텍스트 모드 인터페이스를 사용할 때 열의 너비를 사용자 정의하는 방법에 대한 자세한 내용은 [Adobe Workfront 용어 목록](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+>텍스트 모드 인터페이스를 사용할 때 열 너비를 사용자 지정하는 방법에 대한 자세한 내용은 [Adobe Workfront 용어](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)의 &quot;width&quot; 및 &quot;stretch&quot; 정의를 참조하십시오.
 
 1. 개체 목록으로 이동합니다.
-1. 다음에서 **보기** 드롭다운 메뉴, 클릭 **새 보기**.
+1. **보기** 드롭다운 메뉴에서 **새 보기**&#x200B;를 클릭합니다.
 
-1. 클릭 **열 추가** 새 열을 추가합니다.
+1. 새 열을 추가하려면 **열 추가**&#x200B;를 클릭하세요.
 
    또는
 
    기존 열의 열 헤더를 클릭합니다.
 
-1. 클릭 **텍스트 모드로 전환**.
-1. 텍스트 모드 영역 위로 마우스를 가져간 다음 **텍스트를 편집하려면 클릭**.
+1. **텍스트 모드로 전환**&#x200B;을 클릭합니다.
+1. 텍스트 모드 영역 위로 마우스를 가져간 후 **텍스트를 편집하려면 클릭**&#x200B;합니다.
 1. 열의 텍스트 모드에 다음 코드를 추가합니다.
 
    ```
@@ -81,8 +81,8 @@ ht-degree: 0%
    usewidths=true
    ```
 
-   의 경우 **폭** 행에서 열에 표시할 너비를 나타내는 숫자(픽셀 단위)를 지정합니다.
+   **width** 줄의 경우 열에 표시할 너비를 나타내는 숫자(픽셀 단위)를 지정합니다.
 
-1. 클릭 **저장**, 그런 다음 **보기 저장**.
+1. **저장**&#x200B;을 클릭한 다음 **보기 저장**&#x200B;을 클릭합니다.
 
 

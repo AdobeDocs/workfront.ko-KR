@@ -1,6 +1,6 @@
 ---
-title: Workfront Fusion 릴리스 활동:&nbsp;2021년 7월 26일 주
-description: Workfront Fusion 릴리스 활동:&nbsp;2021년 7월 26일 주
+title: Workfront Fusion 릴리스 활동:&2021년 7월 26일 주
+description: Workfront Fusion 릴리스 활동:&2021년 7월 26일 주
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 이 페이지에서는 2021년 7월 26일이 있는 주에 Adobe Workfront Fusion에서 향상된 모든 기능에 대해 설명합니다.
 
-최근 변경 사항의 목록은 다음을 참조하십시오. [Adobe Workfront Fusion 릴리스 활동](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+최근 모든 변경 사항의 목록은 [Adobe Workfront Fusion 릴리스 활동](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)을 참조하십시오.
 
-Workfront Fusion의 최근 버그 수정 목록은 다음을 참조하십시오. [Workfront 유지 보수 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) Workfront Fusion Maintenance Update로 레이블이 지정된 업데이트를 찾아 확인합니다.
+Workfront Fusion의 최근 버그 수정 목록을 보려면 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 페이지를 참조하고 Workfront Fusion 유지 관리 업데이트 레이블이 지정된 업데이트를 확인하십시오.
 
 ## Salesforce 커넥터의 간소화된 모듈
 
@@ -30,11 +30,11 @@ Workfront Fusion의 최근 버그 수정 목록은 다음을 참조하십시오.
 
 이전에 사용 가능한 모듈을 사용하는 기존 시나리오의 기능은 변경되지 않지만 해당 모듈은 새 시나리오에서 사용할 수 없습니다.
 
-자세한 내용은 [Salesforce 모듈](../../../workfront-fusion/apps-and-their-modules/salesforce-modules.md).
+자세한 내용은 [Salesforce 모듈](../../../workfront-fusion/apps-and-their-modules/salesforce-modules.md)을 참조하세요.
 
 ## Adobe Workfront Fusion 커넥터에 동의할 때 계정 액세스에 대한 세부 사항을 보다 명확하게 볼 수 있습니다
 
 이제 Adobe Workfront Fusion 연결에 대한 동의 화면이 업데이트되었습니다. 이제 연결에서 액세스할 수 있는 특정 작업과 영역을 볼 수 있으므로 애플리케이션에서 액세스를 허용하는 내용을 더 잘 이해할 수 있습니다.
 
-자세한 내용은 [모듈의 앱 또는 웹 서비스를 Workfront Fusion에 연결](../../../workfront-fusion/scenarios/create-a-scenario.md#connect) 의 섹션 [Adobe Workfront Fusion에서 시나리오 만들기](../../../workfront-fusion/scenarios/create-a-scenario.md).
+자세한 내용은 [Workfront Fusion에서 시나리오 만들기](../../../workfront-fusion/scenarios/create-a-scenario.md)에서 [모듈의 앱 또는 웹 서비스를 Adobe Workfront Fusion에 연결](../../../workfront-fusion/scenarios/create-a-scenario.md#connect) 섹션을 참조하십시오.
 

@@ -47,9 +47,9 @@ ht-degree: 0%
 
 ## 업데이트의 사용자 태그 지정에 대한 고려 사항
 
-* 업데이트를 태그 지정한 사용자가 이메일 알림을 받으려면 프로필에서 개인 알림을 활성화해야 합니다. 자세한 내용은 [이메일 알림 수정](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+* 업데이트를 태그 지정한 사용자가 이메일 알림을 받으려면 프로필에서 개인 알림을 활성화해야 합니다. 자세한 내용은 [전자 메일 알림 수정](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)을 참조하세요.
 
-  Workfront 개체에 업데이트를 추가하는 방법에 대한 자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+  Workfront 개체에 업데이트를 추가하는 방법에 대한 자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)를 참조하십시오.
 
 * 문제가 프로젝트 또는 작업으로 전환되면 업데이트가 새 프로젝트 또는 작업에 복사되지만 태그가 지정된 사용자는 복사되지 않습니다. 대화를 계속하려면 참가자를 다시 태그 지정해야 합니다.
 
@@ -81,28 +81,28 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오. 자세한 내용은 [Workfront 설명서에 대한 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오. 자세한 내용은 [Workfront 설명서에 대한 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## 업데이트에 다른 사용자 태그 지정
 
 다음과 같은 방법으로 업데이트에 다른 사용자를 태그 지정할 수 있습니다.
 
-* **자동**: 사용자가 스레드를 시작하거나, 댓글을 추가하거나, 답글을 추가하면 자동으로 태그가 지정되고 댓글 달기 상자의 사람 또는 팀 태그 영역에 추가됩니다.
-* **수동**: 댓글 달기 상자의 인물 태그 영역에 사용자를 수동으로 추가하는 경우.
+* **자동으로**: 사용자가 스레드를 시작하거나 댓글을 추가하거나 답글을 추가하면 댓글 달기 상자의 사람 또는 팀 태그 지정 영역에 자동으로 태그 지정되고 추가됩니다.
+* **수동으로**: 댓글 달기 상자의 인물 태그 영역에 사용자를 수동으로 추가하는 경우.
 
 댓글을 편집하거나 답글을 달 때 실수로 태그가 지정된 사용자를 제거할 수도 있습니다.
 
-1. 에 설명된 대로 작업 항목 업데이트를 시작합니다. [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 댓글 소유자는 자동으로 태그를 지정하고 댓글 달기 상자의 사람 또는 팀 태그 영역에 추가됩니다.
+1. [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)에 설명된 대로 작업 항목 업데이트를 시작합니다. 댓글 소유자는 자동으로 태그를 지정하고 댓글 달기 상자의 사람 또는 팀 태그 영역에 추가됩니다.
 
    >[!TIP]
    >
    >댓글 소유자는 댓글 상자의 태그 사용자 또는 팀 영역에서 자신의 이름을 볼 수 없습니다.
 
-1. 다음에서 **사람 또는 팀에 태그 지정** 필드에 포함할 사용자 또는 팀의 이름을 입력한 다음 드롭다운 목록에 나타나면 이름을 클릭합니다.
+1. **사람 또는 팀 태그 지정** 필드에서 포함할 사용자 또는 팀의 이름을 입력한 다음 드롭다운 목록에 표시될 때 이름을 클릭합니다.
 
    또는
 
-   다음에 @ 기호를 입력합니다. **댓글 작성** 영역에 업데이트에 포함할 사용자 또는 팀의 이름을 입력한 다음 드롭다운 목록에 나타나면 이름을 클릭합니다.
+   **댓글 쓰기** 영역에 @ 기호를 입력하고 업데이트에 포함할 사용자 또는 팀의 이름을 입력한 다음 드롭다운 목록에 나타나면 이름을 클릭합니다.
 
    >[!TIP]
    > 
@@ -110,11 +110,11 @@ ht-degree: 0%
    > 
    >업데이트에서 태그 지정할 때 사용자를 보려면 최소 하나 이상의 작업 역할과 연결되어 있어야 합니다.
    > 
-   >사용자의 이메일을 보려면 사용자의 액세스 수준에서 연락처 정보 보기 설정을 활성화해야 합니다. 자세한 내용은 [사용자에게 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >사용자의 이메일을 보려면 사용자의 액세스 수준에서 연락처 정보 보기 설정을 활성화해야 합니다. 자세한 내용은 [사용자에게 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)를 참조하십시오.
 
    ![사용자 태그 지정](assets/tag-others-unified-commenting-with-all-tab.png)
 
-1. (선택 사항) 업데이트를 비공개로 설정하려면 을 활성화합니다 **내 회사에 비공개** 업데이트 상자의 오른쪽 아래 모서리에 있습니다. 이렇게 하면 회사의 사용자에게만 업데이트가 표시됩니다. 다음 **내 회사에 비공개** 옵션은 회사가 Workfront 프로필에 지정된 경우에만 사용할 수 있습니다.
+1. (선택 사항) 업데이트를 비공개로 설정하려면 업데이트 상자의 오른쪽 아래 모서리에서 내 회사에 대해 **Private**&#x200B;을(를) 사용하도록 설정하십시오. 이렇게 하면 회사의 사용자에게만 업데이트가 표시됩니다. **내 회사에 비공개** 옵션은 회사가 Workfront 프로필에 지정된 경우에만 사용할 수 있습니다.
 
    >[!NOTE]
    >
@@ -125,9 +125,9 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >&quot;직원 또는 팀 태그&quot; 필드에 나열된 모든 사용자 및 팀 구성원은 업데이트에 대한 인앱 알림을 받으며 이메일 알림 설정의 구성에 따라 이메일을 받을 수 있습니다. 댓글 또는 회신에 태그를 지정한 사용자는 해당 댓글 또는 회신에 대한 알림을 받고, 나머지 스레드 동안 스레드 멤버로 이름이 나열된 상태로 볼 수 있지만 자신을 다시 태그 지정하지 않는 한 다른 알림을 받지 않습니다. 자세한 내용은 [이메일 알림 수정](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) 및 [시스템의 모든 사용자를 위한 이벤트 알림 구성](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+   >&quot;직원 또는 팀 태그&quot; 필드에 나열된 모든 사용자 및 팀 구성원은 업데이트에 대한 인앱 알림을 받으며 이메일 알림 설정의 구성에 따라 이메일을 받을 수 있습니다. 댓글 또는 회신에 태그를 지정한 사용자는 해당 댓글 또는 회신에 대한 알림을 받고, 나머지 스레드 동안 스레드 멤버로 이름이 나열된 상태로 볼 수 있지만 자신을 다시 태그 지정하지 않는 한 다른 알림을 받지 않습니다. 자세한 내용은 [전자 메일 알림 수정](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) 및 [시스템의 모든 사용자를 위한 이벤트 알림 구성](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)을 참조하십시오.
 
-1. 클릭 **제출**.\
+1. **제출**&#x200B;을 클릭합니다.\
    업데이트에 포함된 사용자에게는 객체에 대한 보기 권한이 자동으로 부여되고 객체에 대한 업데이트를 보고 응답할 수 있습니다.
 
    태그가 지정된 엔티티의 이름이 해당 아바타 옆에 최대 2개의 엔티티로 표시됩니다. 두 개 이상의 엔티티에 태그가 지정되어 있으면 태그가 지정된 추가 엔티티 수와 함께 첫 번째 엔티티의 이름이 표시됩니다.
@@ -136,9 +136,9 @@ ht-degree: 0%
 
    주석 텍스트에서 태그가 지정되면 해당 주석에서 이름이 강조 표시됩니다.
 
-   작업 항목을 업데이트할 때 사용할 수 있는 추가 기능에 대한 자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   작업 항목을 업데이트할 때 사용할 수 있는 추가 기능에 대한 자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)를 참조하십시오.
 
-1. (선택 사항) **자세히** 메뉴 ![](assets/more-menu.png) 주석의 오른쪽 상단 모서리에서 을(를) 클릭한 다음 을(를) 클릭합니다 **편집**. 태그된 사용자를 제거한 다음 **제출**.
+1. (선택 사항) 댓글의 오른쪽 상단에 있는 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭한 다음 **편집**&#x200B;을(를) 클릭합니다. 태그 지정된 사용자를 제거한 다음 **제출**&#x200B;을 클릭합니다.
 
    >[!IMPORTANT]
    >
@@ -193,7 +193,7 @@ You can manually tag users in the legacy Updates section.
    ![](assets/tagging-transparency-350x192.png)
 -->
 
-작업 항목을 업데이트할 때 사용할 수 있는 추가 기능에 대한 자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+작업 항목을 업데이트할 때 사용할 수 있는 추가 기능에 대한 자세한 내용은 [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)를 참조하십시오.
 
 
 

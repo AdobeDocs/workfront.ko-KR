@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->리소스 예약 도구는 23.1 릴리스에서 더 이상 사용되지 않으며 Workfront에서 제거되었습니다. 업무 균형자 를 사용하여 리소스를 예약하는 방법에 대한 자세한 내용은 [업무 균형자 개요](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>리소스 예약 도구는 23.1 릴리스에서 더 이상 사용되지 않으며 Workfront에서 제거되었습니다. 업무 균형자를 사용하여 리소스를 예약하는 방법에 대한 자세한 내용은 [업무 균형자 개요](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md)를 참조하십시오.
 
 이제 리소스 관리자인 프로젝트의 모든 작업을 볼 수 있으므로 스케줄링 결정을 내릴 때 더 많은 정보를 알 수 있습니다.
 
@@ -44,11 +44,12 @@ ht-degree: 0%
 
 이전에는 할당 음영이 기본적으로 표시되었으며 비활성화할 수 없었습니다.
 
-사용자 할당 옵션을 활성화하는 방법에 대한 자세한 내용은 &quot;예약 영역의 사용자 할당 관리&quot;를 참조하십시오.
+사용자 할당 옵션을 활성화하는 방법에 대한 자세한 내용은
+&quot;예약 영역에서 사용자 할당 관리&quot;
 
 ## 레이아웃 템플릿은 새 캘린더와 레거시 캘린더가 내 작업 영역에 표시되는지 여부를 결정합니다.
 
-**미리 보기 샌드박스: 2016년 12월 7일, 조기 액세스: 2016년 12월 14일** 
+**샌드박스 미리 보기: 2016년 12월 7일, 조기 액세스: 2016년 12월 14일** 
 
 레이아웃 템플릿이 적용되지 않은 경우 기본적으로 새 캘린더가 내 작업 영역에 표시됩니다.
 
@@ -58,11 +59,11 @@ ht-degree: 0%
 
 레이아웃 템플릿이 적용될 때 Workfront이 내 작업 영역에 새 캘린더를 표시하도록 구성하려면, 작업 및 문제에 대한 계획된 완료 일자를 표시하도록 레이아웃 템플릿을 구성한 다음 해당 레이아웃 템플릿을 적절한 사용자에게 할당합니다.
 
-레이아웃 템플릿 구성에 대한 자세한 내용은 [레이아웃 템플릿 만들기 및 관리](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md#customizing-my-work) 위치: [레이아웃 템플릿 만들기 및 관리](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+레이아웃 템플릿 구성에 대한 자세한 내용은 [레이아웃 템플릿 만들기 및 관리](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)에서 [레이아웃 템플릿 만들기 및 관리](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md#customizing-my-work)를 참조하십시오.
 
-## Outlook 365 베타
+## Outlook 365 Beta
 
-**Beta: TBD, 공개 출시: TBD**
+**Beta: TBD; 공개 가용성: TBD**
 
 다음 섹션에 설명된 대로 Outlook for Office 365에서 Workfront을 사용할 수 있습니다.
 
@@ -77,13 +78,13 @@ ht-degree: 0%
 
 간트 차트와 목록 보기를 동시에 보고 보려는 열이 페이지 왼쪽에 표시되지 않는 경우 특히 유용합니다. 
 
-자세한 내용은 [열 너비 및 순서 수정](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)
+자세한 내용은 [열 너비 및 순서 수정](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)을 참조하세요.
 
 ## 대시보드 목록에서 모양과 느낌이 업데이트됨
 
 이제 대시보드 목록을 볼 때 모양과 느낌이 보다 현대적이고 확장 가능합니다.
 
-대시보드에 대한 자세한 내용은 [대시보드 만들기](../../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)
+대시보드에 대한 자세한 내용은 [대시보드 만들기](../../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)를 참조하세요.
 
 ## 사용자 지정 Forms에 대한 액세스 제어
 
@@ -93,7 +94,7 @@ ht-degree: 0%
 
 이 변경 이전에는 그룹에만 액세스 권한을 부여할 수 있었습니다.
 
-자세한 내용은 [사용자 정의 양식 만들기 또는 편집](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+자세한 내용은 [사용자 정의 양식 만들기 또는 편집](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)을 참조하세요.
 
 ## Adobe Creative Cloud과 통합
 

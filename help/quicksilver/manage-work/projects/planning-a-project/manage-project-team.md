@@ -68,11 +68,11 @@ ht-degree: 0%
    <td role="rowheader">액세스 수준 구성*</td> 
    <td> <p>프로젝트에 대한 액세스 편집</p> <p>사용자에 대한 보기 또는 상위 액세스 권한</p> <p><b>메모</b>
 
-여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td>
+여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>프로젝트에 대한 이상의 권한 보기</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>프로젝트에 대한 이상의 권한 보기</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 ## 프로젝트 팀에 사용자 추가
 
-프로젝트 팀에 사용자를 추가하면 해당 사용자는 프로젝트와 프로젝트의 작업, 문제 및 문서에 대한 보기 권한을 갖게 됩니다. 자세한 내용은 이 문서 를 참조하십시오. [프로젝트 팀 개요](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+프로젝트 팀에 사용자를 추가하면 해당 사용자는 프로젝트와 프로젝트의 작업, 문제 및 문서에 대한 보기 권한을 갖게 됩니다. 자세한 내용은 문서 [프로젝트 팀 개요](../../../manage-work/projects/planning-a-project/project-team-overview.md)를 참조하십시오.
 
 >[!TIP]
 >
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 다음과 같은 방법으로 프로젝트 팀에 사용자를 추가할 수 있습니다.
 
-* [프로젝트 팀에 사용자 자동 추가](#automatically-add-users-to-a-project-team)
+* [사용자를 프로젝트 팀에 자동으로 추가](#automatically-add-users-to-a-project-team)
 * [수동으로 프로젝트 팀에 사용자 추가](#manually-add-users-to-a-project-team)
 
 ### 프로젝트 팀에 사용자 자동 추가 {#automatically-add-users-to-a-project-team}
@@ -109,7 +109,7 @@ ht-degree: 0%
 
 프로젝트에서 어떤 역할도 수행하지 않는 사용자가 프로젝트 기간 동안 특정 업데이트 또는 변경 사항에 대한 알림을 받으려면 해당 사용자를 프로젝트 팀에 수동으로 추가할 수 있습니다.
 
-프로젝트 팀의 사용자에 대해 활성화할 수 있는 알림에 대한 자세한 내용은 을 참조하십시오. [이벤트 알림 유형](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+프로젝트 팀의 사용자에 대해 활성화할 수 있는 알림에 대한 자세한 내용은 [이벤트 알림 유형](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)을 참조하세요.
 
 <!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
 
@@ -121,15 +121,15 @@ ht-degree: 0%
 
 1. 사용자를 추가할 프로젝트로 이동합니다.
 
-1. 클릭 **사람** 왼쪽 패널에서 다음을 클릭해야 할 수 있습니다. **더 보기** 첫 번째.
+1. 왼쪽 패널에서 **사람**&#x200B;을 클릭합니다. 먼저 **자세히 표시**&#x200B;를 클릭해야 할 수 있습니다.
 
-1. 클릭 **사용자 추가**.
+1. **사용자 추가**&#x200B;를 클릭합니다.
 
    프로젝트 팀에 사용자 추가 대화 상자가 표시됩니다.
 
    ![add_users_dialog.png](assets/add-users-dialog-350x217.png)
 
-1. 다음에서 **사용자 추가** 상자에서 프로젝트 팀에 추가할 활성 Workfront 사용자의 이름을 입력한 다음 드롭다운 목록에 표시될 때 이름을 클릭합니다.
+1. **사용자 추가** 상자에서 프로젝트 팀에 추가할 활성 Workfront 사용자의 이름을 입력한 다음 드롭다운 목록에 표시될 때 이름을 클릭합니다.
 
    이 단계를 반복하여 프로젝트 팀에 여러 사용자를 추가합니다. 사용자는 프로젝트와 연계된 그룹에 속해야 합니다.
 
@@ -138,10 +138,10 @@ ht-degree: 0%
    >* 팀, 그룹, 회사 또는 작업 역할을 추가하여 사용자를 추가할 수 없습니다.
    >* 사용자를 추가할 때 아바타, 사용자의 기본 역할 및 이메일 주소에 따라 동일한 이름을 가진 사용자가 구별됩니다. 사용자를 추가할 때 이를 보려면 사용자를 하나 이상의 작업 역할과 연결해야 합니다.
    >
-   >  사용자의 이메일을 보려면 사용자의 액세스 수준에서 연락처 정보 보기 설정을 활성화해야 합니다. 자세한 내용은 [사용자에게 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >  사용자의 이메일을 보려면 사용자의 액세스 수준에서 연락처 정보 보기 설정을 활성화해야 합니다. 자세한 내용은 [사용자에게 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)를 참조하십시오.
 
 
-1. 클릭 **추가**.
+1. **추가**&#x200B;를 클릭합니다.
 
    사용자는 프로젝트에 대한 보기 권한을 얻고 프로젝트 팀의 일부로 프로젝트에 대한 알림을 받게 됩니다.
 
@@ -153,4 +153,4 @@ ht-degree: 0%
 
 완료된 작업 및 문제에 할당된 사용자는 프로젝트 팀에서 제거한 후에도 할당된 상태로 유지됩니다.
 
-프로젝트 팀에서 사용자를 제거하는 방법에 대한 자세한 내용은 [프로젝트에서 사용자 제거](../../../manage-work/projects/manage-projects/remove-users-from-projects.md).
+프로젝트 팀에서 사용자를 제거하는 방법에 대한 자세한 내용은 [프로젝트에서 사용자 제거](../../../manage-work/projects/manage-projects/remove-users-from-projects.md)를 참조하십시오.

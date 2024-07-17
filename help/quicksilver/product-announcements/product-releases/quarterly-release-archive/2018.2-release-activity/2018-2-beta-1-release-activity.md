@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: 2018.2 베타 1 릴리스 활동
-description: 이 페이지에서는 2018.2 베타 1 릴리스의 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 기능은 2018년 3월 22일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2018년 6월에 사용할 수 있습니다.
+title: 2018.2 Beta 1 릴리스 활동
+description: 이 페이지에서는 2018.2 Beta 1 릴리스의 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 기능은 2018년 3월 22일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2018년 6월에 사용할 수 있습니다.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,22 +14,22 @@ ht-degree: 0%
 
 ---
 
-# 2018.2 베타 1 릴리스 활동
+# 2018.2 Beta 1 릴리스 활동
 
-이 페이지에서는 2018.2 베타 1 릴리스의 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 기능은 2018년 3월 22일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2018년 6월에 사용할 수 있습니다.
+이 페이지에서는 2018.2 Beta 1 릴리스의 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 기능은 2018년 3월 22일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2018년 6월에 사용할 수 있습니다.
 
 >[!IMPORTANT]
 >
 >이 페이지에 설명된 기능은 프로덕션 환경에서 사용하기 전에 변경될 수 있습니다.
 
-2018.2의 모든 변경 사항 목록은 다음을 참조하십시오. [2018.2 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+2018.2의 모든 변경 사항 목록은 [2018.2 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md)를 참조하십시오.
 
-2018.2 베타 1 릴리스에는 다음과 같은 개선 사항이 포함됩니다.
+2018.2 Beta 1 릴리스에는 다음과 같은 개선 사항이 포함되어 있습니다.
 
 * [간트 차트에서 작업 날짜 수정](#modify-task-dates-in-the-gantt-chart)
-* [업데이트 탭에서 프로젝트 간트 차트 액세스](#access-the-project-gantt-chart-from-the-updates-tab) (일시적으로 제거됨)
+* [업데이트 탭에서 프로젝트 간트 차트에 액세스](#access-the-project-gantt-chart-from-the-updates-tab)(일시적으로 제거됨)
 
-* [문서 목록의 문서에 다시 도입된 다양한 링크](#various-links-re-introduced-to-documents-on-the-document-list)
+* [문서 목록의 문서에 다시 연결되는 다양한 링크](#various-links-re-introduced-to-documents-on-the-document-list)
 * [리소스 플래너의 사용자 보기 개선 사항](#user-view-improvements-in-the-resource-planner)
 * [새 프로젝트 목록 환경](#new-project-list-experience)
 * [새 업데이트 찾기 탭](#new-look-for-updates-tab)
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 이 변경 이전에는 작업 목록 또는 작업 수준에서 작업 날짜만 변경할 수 있었습니다.
 
-자세한 내용은 [작업 목록 간트 차트에서 정보 업데이트](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
+자세한 내용은 [작업 목록 간트 차트에서 정보 업데이트](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)를 참조하세요.
 
 ## 업데이트 탭에서 프로젝트 간트 차트 액세스 {#access-the-project-gantt-chart-from-the-updates-tab}
 
@@ -53,9 +53,9 @@ ht-degree: 0%
 
 이 변경 전에 프로젝트 타임라인 링크가 레거시 간트 차트를 열었습니다.
 
-자세한 내용은 [커밋 일자 개요](../../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+자세한 내용은 [커밋 일자 개요](../../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)를 참조하십시오.
 
-자세한 내용은 [Portfolio 최적화 프로그램 개요](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+자세한 내용은 [Portfolio 최적화 도구 개요](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)를 참조하십시오.
 
 ## 문서 목록의 문서에 다시 도입된 다양한 링크 {#various-links-re-introduced-to-documents-on-the-document-list}
 
@@ -95,7 +95,7 @@ ht-degree: 0%
 
 이러한 개선 사항에 앞서 리소스 플래너의 로드 속도가 느리고 표시된 데이터에서 부조화를 발견했다고 보고했습니다. 이러한 개선 사항을 통해 이제 이러한 문제를 제거해야 합니다.
 
-리소스 플래너 영역에 대한 자세한 내용은 [리소스 플래너 탐색 개요](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+리소스 플래너의 영역에 대한 자세한 내용은 [리소스 플래너 탐색 개요](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md)를 참조하십시오.
 
 <!--
 <p dir="ltr" data-mc-conditions="QuicksilverOrClassic.Draft mode">To participate in our current beta program and give us feedback on the functionality of the Resource Planner, see <a href="../../../../product-announcements/betas/resource-planner-performance-beta.md" class="MCXref xref">Resource Planner performance beta </a></p>
@@ -121,10 +121,10 @@ ht-degree: 0%
 
 * 열 크기 조정(이 기능은 2018.2 Beta 5 릴리스에 다시 도입됨)
 * 열 재정렬
-* 상태 아이콘 필드는 공백으로 표시됩니다(이 기능은 2018.2 베타 5 릴리스에 다시 도입됨)
-* 간트 차트는 액세스할 수 없습니다(이 기능은 2018.2 베타 3 릴리스에 다시 도입됨).
+* 상태 아이콘 필드는 공백으로 표시됩니다(이 기능은 2018.2 Beta 5 릴리스에 다시 도입됨)
+* 간트 차트에 액세스할 수 없습니다(이 기능은 2018.2 Beta 3 릴리스에 다시 도입됨).
 
-목록에서 작업하는 방법에 대한 자세한 내용은 [Adobe Workfront에서 목록 시작](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+목록에서 작업하는 방법에 대한 자세한 내용은 [Adobe Workfront에서 목록 시작](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)을 참조하세요.
 
 ## 새 업데이트 찾기 탭 {#new-look-for-updates-tab}
 
@@ -146,7 +146,7 @@ ht-degree: 0%
    <th> <p><strong>작업</strong> </p> </th> 
    <th> <p><strong>이전 사용자 작업</strong> </p> </th> 
    <th> <p><strong>새 사용자 작업</strong> </p> </th> 
-   <th> <p><strong>자세한 내용은 다음을 참조하십시오.</strong> </p> </th> 
+   <th> <p><strong>자세한 내용은..</strong>을 참조하세요. </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -203,7 +203,7 @@ ht-degree: 0%
 
   링크 공유에 대한 자세한 내용은 를 참조하십시오.
 
-  이 업데이트는 이번주 중에 iOS에 릴리스되며 Android 업데이트는 그 직후에 따라야 합니다.
+  이 업데이트는 이번주 중에 iOS에 릴리스되며 Android 업데이트는 이후 릴리스될 예정입니다.
 
 * iPhone X를 지원하도록 iOS 플랫폼에 대한 지원 요구 사항이 업데이트되었습니다.
 

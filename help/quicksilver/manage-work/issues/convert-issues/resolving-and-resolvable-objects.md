@@ -20,7 +20,7 @@ ht-degree: 1%
 
 문제를 작업 또는 프로젝트로 전환하면 문제가 작업 또는 프로젝트의 해결 가능한 오브젝트가 됩니다.
 
-문제를 해결 중 오브젝트에 수동으로 연결할 수도 있습니다. 해결 중 오브젝트는 작업, 프로젝트 또는 문제일 수 있습니다. 자세한 내용은 [문제 해결을 다른 문제, 작업 또는 프로젝트에 수동으로 연결](../../../manage-work/issues/convert-issues/manually-tie-resolution-of-issue-to-ptis.md).
+문제를 해결 중 오브젝트에 수동으로 연결할 수도 있습니다. 해결 중 오브젝트는 작업, 프로젝트 또는 문제일 수 있습니다. 자세한 내용은 [문제 해결을 다른 문제, 작업 또는 프로젝트에 수동으로 연결](../../../manage-work/issues/convert-issues/manually-tie-resolution-of-issue-to-ptis.md)을 참조하십시오.
 
 원래 문제는 이 시나리오에서 작업, 프로젝트 또는 문제의 해결 가능한 개체가 됩니다.
 
@@ -34,7 +34,7 @@ Workfront 관리자 또는 그룹 관리자는 시스템 또는 그룹에서 해
 >
 >해결 가능한 객체는 항상 해결 방법 및 상태가 연관된 해결 중인 객체의 해결 방법 및 상태에 따라 달라질 수 있는 문제입니다. 해결 중인 오브젝트는 문제, 작업 또는 프로젝트일 수 있습니다.
 
-해결 가능한 객체 처리에 대한 기본설정 설정에 대한 자세한 내용은 [시스템 전체 작업 및 문제 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+해결 가능한 개체 처리에 대한 환경 설정 설정에 대한 자세한 내용은 [시스템 전체 작업 및 문제 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)을 참조하십시오.
 
 <!--WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -78,13 +78,13 @@ Workfront 또는 그룹 관리자가 시스템 또는 그룹 수준 문제 환�
 
 다음과 같은 시나리오가 있습니다.
 
-* Workfront 또는 그룹 관리자가 **원래 문제를 유지하고 해결 방법을 작업에 연결** 및 **원래 문제를 유지하고 해결 방법을 프로젝트에 연결** 선택 및 **전환 중에 이러한 설정을 변경할 수 있도록 허용** 선택하지 않은 경우 문제를 작업 또는 프로젝트로 전환할 때 이러한 설정을 변경할 수 없습니다.\
+* Workfront 또는 그룹 관리자가 **원래 문제를 유지하고 해결 방법을 작업에 연결** 및 **원래 문제를 유지하고 해결 방법을 프로젝트에 연결**&#x200B;을 선택하고 **전환 중에 이러한 설정을 변경할 수 있도록 허용**&#x200B;을 선택하지 않은 경우 문제를 작업 또는 프로젝트로 전환할 때 이러한 설정을 변경할 수 없습니다.\
   ![](assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png)
 
-* Workfront 또는 그룹 관리자가 **원래 문제를 유지하고 해결 방법을 작업에 연결** 및 **원래 문제를 유지하고 해결 방법을 프로젝트에 연결** 선택 또는 선택 취소한 후 **전환 중에 이러한 설정을 변경할 수 있도록 허용** 이 옵션을 선택하면 문제를 작업 또는 프로젝트로 전환할 때 이러한 설정을 변경할 수 있습니다.\
+* Workfront 또는 그룹 관리자가 **원래 문제를 유지하고 해결 방법을 작업에 연결** 및 **원래 문제를 유지하고 해결 방법을 프로젝트에 연결**&#x200B;을 선택 또는 선택 취소하고 **전환 중에 이러한 설정을 변경할 수 있도록 허용**&#x200B;을 선택한 경우 문제를 작업 또는 프로젝트로 전환할 때 이러한 설정을 변경할 수 있습니다.\
   ![](assets/qs-options-to-keep-issue-when-coverting-it-inside-the-issue-350x113.png)
 
-문제를 작업 및 프로젝트로 변환하는 방법에 대한 자세한 내용은 [Adobe Workfront의 문제 전환 개요](../../../manage-work/issues/convert-issues/convert-issues.md).
+문제를 작업 및 프로젝트로 변환하는 방법에 대한 자세한 내용은 [Adobe Workfront의 문제 변환 개요](../../../manage-work/issues/convert-issues/convert-issues.md)를 참조하십시오.
 
 <!--WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -115,7 +115,7 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 
 ## 해결 가능한 객체의 상태를 해결 중인 객체의 상태와 동기화 {#synchronize-the-status-of-the-resolvable-object-with-that-of-the-resolving-object}
 
-* [해결 중 오브젝트가 문제일 때 상태 동기화](#synchronize-statuses-when-the-resolving-object-is-an-issue)
+* [해결 중인 개체가 문제인 경우 상태를 동기화합니다](#synchronize-statuses-when-the-resolving-object-is-an-issue)
 * [해결 중 오브젝트가 작업 또는 프로젝트인 경우 상태 동기화](#synchronize-statuses-when-the-resolving-object-is-a-task-or-a-project)
 
 ### 해결 중 오브젝트가 문제일 때 상태 동기화 {#synchronize-statuses-when-the-resolving-object-is-an-issue}
@@ -126,7 +126,7 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 
 문제가 작업 또는 프로젝트의 해결 가능한 오브젝트인 경우 작업 및 프로젝트의 상태 변경이 문제 상태의 변경을 트리거합니다. 이 경우 기본 상태는 사용자 지정 상태와 다르게 트리거됩니다.
 
-* [해결 중 오브젝트의 기본 상태를 해결 중 오브젝트의 기본 상태와 동기화](#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object)
+* [해결 중인 개체의 기본 상태를 해결 가능한 개체의 기본 상태와 동기화](#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object)
 * [해결 중 오브젝트의 사용자 지정 상태를 해결 중 오브젝트의 사용자 지정 상태와 동기화](#synchronize-the-custom-status-of-the-resolving-object-with-the-custom-status-of-the-resolvable-object)
 
 #### 해결 중 오브젝트의 기본 상태를 해결 중 오브젝트의 기본 상태와 동기화 {#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object}
@@ -148,7 +148,7 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 | 계획 수립 | 신규 |
 | 현재 | 진행 중 |
 | 보류 중 | 보류 중 |
-| 요청 일자 | 문제 상태 변경을 트리거하지 않음 |
+| 요청됨 | 문제 상태 변경을 트리거하지 않음 |
 | 승인됨 | 문제 상태 변경을 트리거하지 않음 |
 | 거부됨 | 문제 상태 변경을 트리거하지 않음 |
 | 아이디어 | 문제 상태 변경을 트리거하지 않음 |
@@ -163,15 +163,16 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 
 작업 또는 프로젝트의 상태를 사용자 정의 상태로 변경하면 다음 두 가지 조건이 충족되는 경우에만 문제의 상태가 사용자 정의 문제 상태로 변경됩니다.
 
-* &quot;해결 중 오브젝트의 상태가 변경되면 해결 가능한 문제 상태를 자동으로 업데이트&quot; 옵션이 선택되어 있습니다. 이 설정을 활성화하는 방법에 대한 자세한 내용은 [해결 가능한 오브젝트를 처리하도록 Adobe Workfront 설정](#set-up-adobe-workfront-to-handle-resolvable-objects).
+* &quot;해결 중 오브젝트의 상태가 변경되면 해결 가능한 문제 상태를 자동으로 업데이트&quot; 옵션이 선택되어 있습니다. 이 설정을 사용하는 방법에 대한 자세한 내용은 [해결 가능한 개체를 처리하도록 Adobe Workfront 설정](#set-up-adobe-workfront-to-handle-resolvable-objects)을 참조하십시오.
 
 * 프로젝트 또는 작업의 사용자 지정 상태에 문제의 사용자 지정 상태와 동일한 3자 코드가 있습니다.
 
 문제와 프로젝트 또는 작업 모두에 대해 동일한 키로 사용자 정의 상태를 생성할 수 있습니다. 프로젝트 또는 작업(해결 중 오브젝트)이 사용자 지정 상태로 변경되면 변경 사항도 문제의 상태에 반영됩니다. 상태 키는 문제 및 프로젝트 또는 작업 상태에 대해 동일해야 합니다.
 
-예를 들어 &quot;현재&quot;와 동일한 3자 코드 &quot;LCD&quot;를 사용하여 &quot;시작됨&quot;이라는 프로젝트 사용자 지정 상태를 만듭니다. 또한, &quot;진행 중&quot;과 동일한 문자 코드 &quot;LCD&quot;가 있는 &quot;프로젝트 시작됨&quot; 문제 사용자 지정 상태를 만듭니다. 프로젝트를 &quot;시작됨&quot;으로 표시하면 문제가 자동으로 상태를 &quot;프로젝트 시작됨&quot;으로 변경합니다. 해결 중 오브젝트의 상태가 변경되면 해결 가능한 문제 상태를 자동으로 업데이트&quot; 설정이 활성화되지 않으면 문제 상태가 대신 &quot;진행 중&quot;(기본 상태)으로 변경됩니다.
+예를 들어 &quot;현재&quot;와 동일한 3자 코드 &quot;LCD&quot;를 사용하여 &quot;시작됨&quot;이라는 프로젝트 사용자 지정 상태를 만듭니다. 또한, &quot;진행 중&quot;과 동일한 문자 코드 &quot;LCD&quot;가 있는 &quot;프로젝트 시작됨&quot; 문제 사용자 지정 상태를 만듭니다. 프로젝트를 &quot;시작됨&quot;으로 표시하면 문제가 자동으로 상태를 &quot;프로젝트 시작됨&quot;으로 변경합니다. 인 경우
+해결 중 오브젝트 변경 사항 상태 설정이 활성화되지 않은 경우 해결 중 문제 상태가 대신 &quot;진행 중&quot;(기본 상태)으로 변경되는 경우 자동으로 업데이트됩니다.
 
-사용자 지정 상태 만들기에 대한 자세한 내용은 [상태 만들기 또는 편집](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+사용자 지정 상태 만들기에 대한 자세한 내용은 [상태 만들기 또는 편집](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)을 참조하세요.
 
 ## 해결 중 오브젝트의 완료율을 해결 중 오브젝트의 완료율과 동기화
 
@@ -187,9 +188,9 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 해결 중 오브젝트의 위치는 작업 및 프로젝트에 대해 동일합니다.
 
 1. 문제를 프로젝트 또는 작업으로 전환하여 생성한 프로젝트 또는 작업으로 이동합니다.
-1. 다음을 클릭합니다. **프로젝트 세부 정보** 또는 **작업 세부 정보** 아이콘을 클릭하고 클릭하여 확장합니다.
-1. 클릭 **개요**.
-1. 탭 아래쪽에서 다음 위치를 찾습니다. **해결됩니다.** 필드: 프로젝트 또는 작업의 해결 가능한 오브젝트인 문제가 이 필드에 나열됩니다.
+1. **프로젝트 세부 정보** 또는 **작업 세부 정보** 아이콘을 클릭하고 확장하려면 클릭하십시오.
+1. **개요**&#x200B;를 클릭합니다.
+1. 탭 하단에서 **해결 중** 필드: 프로젝트 또는 작업의 해결 가능한 개체인 문제가 이 필드에 나열됩니다.
 
    >[!NOTE]
    >
@@ -197,7 +198,7 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 
 ## 목록에서 해결 중인 오브젝트에 대한 문제 식별
 
-문제 목록에서 상태 아이콘을 통해 해결 중 오브젝트로 레이블이 지정된 문제를 다음 위치에서 확인할 수 있습니다. **상태 아이콘** 또는 **플래그** 열:
+문제 목록에서 **상태 아이콘** 또는 **플래그** 열에서 상태 아이콘을 통해 해결 중 개체로 레이블이 지정된 문제를 확인할 수 있습니다.
 
 ![](assets/ro1.png)
 
@@ -221,19 +222,19 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
  </thead> 
  <tbody> 
   <tr> 
-   <td><strong>해결 가능한 항목 있음</strong>: 를 표시합니다. <strong>True</strong> 프로젝트 또는 작업에 문제 해결이 연결된 경우 값 및 <strong>False</strong> 그렇지 않은 경우 값을 지정합니다.</td> 
+   <td><strong>해결 가능한 항목이 있습니다</strong>: 프로젝트 또는 작업에 해결 가능한 문제가 있는 경우 <strong>True</strong> 값을 표시하고 그렇지 않은 경우 <strong>False</strong> 값을 표시합니다.</td> 
    <td>✓ 덧신</td> 
    <td>✓ 덧신</td> 
    <td>✓ 덧신</td> 
   </tr> 
   <tr> 
-   <td><strong>원래 문제 이름, 원래 문제 입력 일자, 작성자 이름</strong>: 텍스트 모드 사용자 정의 보기에서 원래 문제의 이름 및 시작 날짜와 문제를 만든 사용자의 이름을 표시합니다.<br>원래 문제에 대한 정보를 표시하기 위해 프로젝트나 작업 보고서 또는 목록에 대한 텍스트 모드 사용자 지정 보기를 작성하는 방법에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">보기: 작업 및 프로젝트 목록에 원래 문제 정보 표시</a>.<br></td> 
+   <td><strong>원래 문제 이름, 원래 문제 입력 날짜, 작성자 이름</strong>: 텍스트 모드 사용자 지정 보기에서 원래 문제의 이름, 입력 날짜 및 문제를 만든 사용자의 이름을 표시합니다.<br>원래 문제에 대한 정보를 표시하는 프로젝트나 작업 보고서 또는 목록의 텍스트 모드 사용자 지정 보기를 만드는 방법에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">보기: 작업 및 프로젝트 목록에 원래 문제 정보 표시</a>를 참조하십시오.<br></td> 
    <td> </td> 
    <td> ✓ 덧신</td> 
    <td> ✓ 덧신</td> 
   </tr> 
   <tr> 
-   <td> <p><strong>해결 방법:</strong> 프로젝트, 작업 보고서 또는 목록에 대해 텍스트 모드 사용자 지정 보기에 모든 해결 가능한 개체 목록을 표시합니다.</p> <p>이 보기 빌드에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resolvable-objects-task-project-report.md" class="MCXref xref">보기: 작업 또는 프로젝트 보고서의 해결 가능한 객체</a></p> </td> 
+   <td> <p><strong>해결 가능한 개체:</strong> 프로젝트, 작업 보고서 또는 목록에 대한 텍스트 모드 사용자 지정 보기에 모든 해결 가능한 개체 목록을 표시합니다.</p> <p>이 보기를 만드는 방법에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resolvable-objects-task-project-report.md" class="MCXref xref">보기: 작업 또는 프로젝트 보고서의 해결 가능한 개체</a>를 참조하십시오.</p> </td> 
    <td> </td> 
    <td>✓ 덧신</td> 
    <td> ✓ 덧신</td> 
@@ -245,19 +246,19 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>프로젝트 확인</strong>: 원래 문제에서 변환되었거나 문제의 해결 중 오브젝트로 수동으로 지정된 해결 중 프로젝트에 대한 정보를 표시합니다.</td> 
+   <td><strong>해결 프로젝트</strong>: 원래 문제에서 변환되었거나 문제의 해결 개체로 수동으로 지정된 해결 중인 프로젝트에 대한 정보를 표시합니다.</td> 
    <td>✓ 덧신</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>해결 작업</strong>: 원래 문제에서 변환되었거나 문제의 해결 중 오브젝트로 수동으로 지정된 해결 중 작업에 대한 정보를 표시합니다.</td> 
+   <td><strong>해결 작업</strong>: 원래 문제에서 변환되었거나 문제의 해결 개체로 수동으로 지정된 해결 작업에 대한 정보를 표시합니다.</td> 
    <td>✓ 덧신 </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>문제 해결</strong>: 문제의 해결 중 오브젝트로 수동으로 지정된 해결 중 문제에 대한 정보를 표시합니다.</td> 
+   <td><strong>문제 해결</strong>: 문제의 해결 개체로 수동으로 지정된 해결 중 문제에 대한 정보를 표시합니다.</td> 
    <td> ✓ 덧신</td> 
    <td> </td> 
    <td> </td> 

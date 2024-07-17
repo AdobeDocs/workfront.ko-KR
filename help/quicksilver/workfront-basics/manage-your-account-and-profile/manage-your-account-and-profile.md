@@ -3,7 +3,7 @@ content-type: reference
 product-area: user-management
 navigation-topic: get-started-with-workfront
 title: 계정 및 프로필 관리
-description: 이 섹션의 문서를 검토하여 을(를) 관리하는 방법에 대해 알아보십시오. [!DNL Workfront] 계정 및 사용자 프로필.
+description: 이 섹션의 문서를 검토하여  [!DNL Workfront] 계정 및 사용자 프로필을 관리하는 방법을 알아보십시오.
 author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
@@ -20,4 +20,4 @@ ht-degree: 0%
 이 섹션에는 다음 하위 섹션이 포함됩니다.
 
 * [사용자 프로필 구성](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-user-profile.md)
-* [관리 [!DNL Adobe Workfront] account](../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/manage-workfront-account.md)
+* [ [!DNL Adobe Workfront] 계정 관리](../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/manage-workfront-account.md)

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 이 페이지에서는 미리보기 환경에 대한 2023년 4분기 릴리스의 모든 프로젝트 개선 사항에 대해 설명합니다. 이러한 개선 사항은 프로덕션 환경에서 23.10 릴리스를 통해 사용할 수 있습니다.
 
-2023년 4분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [2023년 4분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+2023년 4분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2023년 4분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)를 참조하십시오.
 
 ## 새 문서 승인
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 * 외부 승인자 또는 검토자를 추가하는 프로세스 개선
 * 외부 승인자 및 검토자에 대한 승인 및 검토 경험이 개선되었습니다
 
-새 문서 승인 사용에 대한 자세한 내용은 [새 문서 승인 개요](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
+새 문서 승인 사용에 대한 자세한 내용은 [새 문서 승인 개요](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)를 참조하십시오.
 
 [이 기능에 대한 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3424867){target=_blank}
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 프로젝트에 새 문제를 제출할 때 표시되는 새 문제 상자를 업데이트했습니다. 이제 인터페이스는 요청 대기열에 새 요청을 제출할 때 표시되는 새 요청 상자와 일치합니다.
 
-자세한 내용은 [문제 만들기](/help/quicksilver/manage-work/issues/manage-issues/create-issues.md).
+자세한 내용은 [문제 만들기](/help/quicksilver/manage-work/issues/manage-issues/create-issues.md)를 참조하십시오.
 
 ## 양식의 계산된 필드 동적 재계산
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 현대화되지 않은 페이지에서 적은 수의 양식 필드에 동적 재계산이 적용되지 않습니다.
 
-자세한 내용은 [사용자 정의 양식 필드의 정보 편집](/help/quicksilver/workfront-basics/work-with-custom-forms/edit-custom-forms.md).
+자세한 내용은 [사용자 정의 양식 필드에서 정보 편집](/help/quicksilver/workfront-basics/work-with-custom-forms/edit-custom-forms.md)을 참조하십시오.
 
 [이 기능에 대한 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3422678/){target=_blank}
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 할당이 없고 간단한 기간 유형이 있는 반복 작업에 계획된 시간이 할당되는 방식을 변경했습니다. 이제, 단순 기간 유형이 있고 할당이 없는 새 반복 작업에 대해 계획된 시간을 설정하면 해당 시간이 개별 반복에도 할당됩니다. 이 변경 이전에는 상위 작업이 할당 해제된 경우 개별 반복에 대한 시간이 저장되지 않았습니다.
 
-반복 작업 만들기에 대한 자세한 내용은 [반복 작업 만들기](/help/quicksilver/manage-work/tasks/create-tasks/create-recurring-tasks.md).
+반복 작업 만들기에 대한 자세한 내용은 [반복 작업 만들기](/help/quicksilver/manage-work/tasks/create-tasks/create-recurring-tasks.md)를 참조하십시오.
 
 ## 작업 목록의 실시간 업데이트
 

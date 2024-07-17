@@ -24,7 +24,7 @@ ht-degree: 0%
 
 리소스 플래너를 사용하여 배정된 프로젝트에 대한 리소스 할당을 예측하고 예산을 책정하며 향후 작업에 대한 가용성을 예측할 수 있습니다.
 
-Adobe Workfront의 리소스 계획에 대한 일반적인 개요는 문서 를 참조하십시오. [리소스 계획 시작](../../resource-mgmt/resource-planning/get-started-resource-planning.md).
+Adobe Workfront의 리소스 계획에 대한 일반적인 개요는 [리소스 계획 시작](../../resource-mgmt/resource-planning/get-started-resource-planning.md) 문서를 참조하십시오.
 
 ## 리소스 플래너 개요
 
@@ -33,12 +33,12 @@ Adobe Workfront의 리소스 계획에 대한 일반적인 개요는 문서 를 
 >[!IMPORTANT]
 >
 >리소스 플래너를 사용하여 실제 작업(작업 및 문제)을 사용자에게 할당할 수 없습니다. 할당된 작업 및 문제에 관계없이 사용자 또는 작업 역할이 프로젝트를 완료하는 데 필요한 시간만 예상할 수 있습니다.\
->사용자에게 실제 작업을 할당하려면 업무 균형자 를 사용해야 합니다. 업무 균형자에 대한 자세한 내용은 [업무 균형자 개요](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>사용자에게 실제 작업을 할당하려면 업무 균형자 를 사용해야 합니다. 업무 균형자에 대한 자세한 내용은 [업무 균형자 개요](../../resource-mgmt/workload-balancer/overview-workload-balancer.md)를 참조하십시오.
 
 리소스 플래너에서 세 개의 개별 보기를 사용하여 정보를 볼 수 있습니다. 각 뷰를 사용하여 다음 목적 중 하나를 수행할 수 있습니다.
 
 * 프로젝트 및 역할 보기를 사용하여 완료해야 하는 작업에 대한 리소스의 시간 또는 비용을 책정하기 위해. 이는 리소스 플래너의 주요 목적입니다.\
-  리소스 플래너의 예산 편성에 대한 자세한 내용은 문서 를 참조하십시오 [프로젝트 및 역할 보기를 사용하여 리소스 플래너의 예산 리소스](../resource-planning/budget-resources-project-role-views-resource-planner.md).
+  리소스 플래너의 예산 편성에 대한 자세한 내용은 문서 [프로젝트 및 역할 보기를 사용하여 리소스 플래너의 리소스 예산](../resource-planning/budget-resources-project-role-views-resource-planner.md)을 참조하십시오.
 
 * 사용자 보기를 사용하여 다음 정보를 보려면 다음과 같이 하십시오.
 
@@ -46,13 +46,13 @@ Adobe Workfront의 리소스 계획에 대한 일반적인 개요는 문서 를 
    * 프로젝트 계획에 따라 작업을 완료하는 데 필요한 계획된 시간입니다.
    * 사용자가 이미 실제 작업 항목에 로그온한 시간입니다.
 
-  리소스 플래너에서 사용자의 사용 가능 시간, 계획된 시간 및 실제 시간 또는 FTE 보기에 대한 자세한 내용은 문서를 참조하십시오 [사용자 보기를 사용할 때 리소스 플래너에서 가용, 계획 및 실제 시간 또는 FTE 보기](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md#using).
+  리소스 플래너의 사용자에 대한 사용 가능 시간, 계획된 시간 및 실제 시간 또는 FTE 보기에 대한 자세한 내용은 문서 [사용자 보기를 사용할 때 리소스 플래너의 사용 가능 시간, 계획된 시간 및 실제 시간 또는 FTE 보기](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md#using)를 참조하십시오.
 
 ## 리소스 플래너 고려 사항
 
 * 작업 중인 프로젝트의 우선 순위를 지정하고 우선 순위에 따라 리소스 할당의 예산을 책정하여 가장 중요한 프로젝트에 우선적으로 배정된 리소스를 확보할 수 있습니다.
 
-  리소스 플래너에서 프로젝트 우선 순위 지정에 대한 자세한 내용은 [리소스 플래너에서 프로젝트 우선 순위 지정](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
+  리소스 플래너에서 프로젝트 우선 순위를 지정하는 방법에 대한 자세한 내용은 [리소스 플래너에서 프로젝트 우선 순위 지정](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md)을 참조하십시오.
 
 * 프로젝트의 작업 및 문제에서 시간, FTE 및 비용 정보를 표시할 수 있습니다.
 
@@ -74,9 +74,9 @@ Adobe Workfront의 리소스 계획에 대한 일반적인 개요는 문서 를 
 * 리소스 플래너에 작업 또는 문제가 있는 프로젝트의 팀 할당을 관리할 수 없습니다.
 * 리소스 플래너를 사용하여 한 번에 여러 프로젝트에 대한 리소스의 예산을 책정하거나 비즈니스 사례의 리소스 예산 책정 영역을 사용하여 단일 프로젝트에 대한 리소스의 예산을 책정할 수 있습니다. 한 프로젝트에 대해 예산을 책정하는 정보는 리소스 플래너에도 표시됩니다.
 
-  단일 프로젝트에 대한 리소스 예산을 책정하는 방법에 대한 자세한 내용은 문서 를 참조하십시오 [비즈니스 사례의 예산 리소스](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+  단일 프로젝트에 대한 리소스 예산을 책정하는 방법에 대한 자세한 내용은 문서 [비즈니스 사례의 리소스 예산](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)을 참조하세요.
 
-  리소스 플래너에서 한 번에 여러 프로젝트에 대한 리소스 예산을 책정하는 방법에 대한 자세한 내용은 문서의 &quot;리소스 플래너의 리소스 예산&quot; 섹션을 참조하십시오 [프로젝트 및 역할 보기를 사용하여 리소스 플래너의 예산 리소스](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+  리소스 플래너에서 한 번에 여러 프로젝트에 대한 리소스 예산을 책정하는 방법에 대한 자세한 내용은 문서 [프로젝트 및 역할 보기를 사용하여 리소스 플래너의 리소스 예산](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)의 &quot;리소스 플래너의 리소스 예산&quot; 섹션을 참조하십시오.
 
 ## 리소스 플래너에서 작업하기 위한 사전 요구 사항 {#prerequisites-for-working-in-the-resource-planner}
 
@@ -99,8 +99,8 @@ Adobe Workfront의 리소스 계획에 대한 일반적인 개요는 문서 를 
 
 프로젝트별 또는 역할별로 리소스 플래너를 볼 때 리소스 플래너의 올바른 기능을 사용하려면 다음 유형의 사전 요구 사항이 필요합니다.
 
-* [사용자 사전 요구 사항](#user-prerequisites)
-* [프로젝트 사전 요구 사항](#project-prerequisites)
+* [사용자 필수 구성 요소](#user-prerequisites)
+* [프로젝트 필수 구성 요소](#project-prerequisites)
 * [작업 및 문제 사전 요구 사항](#tasks-and-issues-prerequisites)
 * [시스템 수준 사전 요구 사항](#system-level-prerequisites)
 
@@ -110,11 +110,11 @@ Adobe Workfront의 리소스 계획에 대한 일반적인 개요는 문서 를 
 
 * 예산 리소스에 대한 올바른 액세스 권한이 있습니다.
 
-  리소스 예산을 책정하는 데 필요한 액세스에 대한 자세한 내용은 문서 를 참조하십시오 [Adobe Workfront에서 리소스 예산을 책정하는 데 필요한 액세스 권한](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
+  리소스 예산 책정에 필요한 액세스에 대한 자세한 내용은 문서 [Adobe Workfront의 리소스 예산 책정에 필요한 액세스](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md)를 참조하십시오.
 
 * 작업에 할당된 사용자가 프로젝트와 연결된 리소스 풀에 추가됩니다.
 
-  리소스 풀에 사용자 추가에 대한 자세한 내용은 [사용자와 리소스 풀 연결](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md).
+  리소스 풀에 사용자를 추가하는 방법에 대한 자세한 내용은 [사용자와 리소스 풀 연결](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)을 참조하십시오.
 
   >[!NOTE]
   >
@@ -130,7 +130,7 @@ Adobe Workfront의 리소스 계획에 대한 일반적인 개요는 문서 를 
 
 * 작업 및 리소스 풀에 할당된 사용자는 프로필과 연결된 일정 및 작업 역할이 있어야 합니다.
 
-  일정 및 작업 역할을 사용자와 연관시키는 방법에 대한 자세한 내용은 [사용자 프로필 편집](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  일정 및 작업 역할을 사용자와 연결하는 방법에 대한 자세한 내용은 [사용자 프로필 편집](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)을 참조하세요.
 
   >[!NOTE]
   >
@@ -142,19 +142,19 @@ Adobe Workfront의 리소스 계획에 대한 일반적인 개요는 문서 를 
   >
   >사용자가 일정과 연결되어 있지 않으면 리소스 플래너의 목적으로 Workfront 시스템의 기본 일정이 기본적으로 사용자와 연결되어 있습니다.
 
-  일정 만들기에 대한 자세한 내용은 문서 를 참조하십시오 [일정 만들기](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+  일정 만들기에 대한 자세한 내용은 문서 [일정 만들기](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)를 참조하세요.
 
 * 비용별로 자원을 책정하려면 작업 역할을 비용/시간과 연관시켜야 합니다. 비율입니다. 리소스 풀의 사용자에게 할당된 작업 역할과 관련된 비용은 프로젝트의 예산 인건비 및 예산 비용을 계산하는 데 사용됩니다.\
-  작업 역할과 비율 연관에 대한 자세한 내용은 문서를 참조하십시오 [작업 역할 만들기 및 관리](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).\
-  예산 인건비 계산에 대한 자세한 내용은 문서를 참조하십시오. [프로젝트의 예산 인건비 및 예산 시간 이해](../../manage-work/projects/project-finances/budgeted-labor-cost.md).\
-  예산 비용 계산에 대한 자세한 내용은 문서를 참조하십시오. [예산 비용 계산](../../manage-work/projects/project-finances/budgeted-cost.md).
+  작업 역할과 비율을 연결하는 방법에 대한 자세한 내용은 문서 [작업 역할 만들기 및 관리](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)를 참조하십시오.\
+  예산 인건비 계산에 대한 자세한 내용은 문서 [프로젝트 예산 인건비 및 예산 시간 이해](../../manage-work/projects/project-finances/budgeted-labor-cost.md)를 참조하십시오.\
+  예산 비용 계산에 대한 자세한 내용은 문서 [예산 비용 계산](../../manage-work/projects/project-finances/budgeted-cost.md)을 참조하세요.
 
 ### 프로젝트 사전 요구 사항 {#project-prerequisites}
 
 리소스 플래너 사용을 시작하기 전에 다음 프로젝트 설정이 있는지 확인하십시오.
 
 * 프로젝트가 리소스 풀과 연결되어 있습니다.\
-  프로젝트에 리소스 풀을 추가하는 방법에 대한 자세한 내용은 [리소스 풀을 프로젝트 및 템플릿과 연결](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md).
+  프로젝트에 리소스 풀을 추가하는 방법에 대한 자세한 내용은 [리소스 풀을 프로젝트 및 템플릿과 연결](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md)을 참조하십시오.
 
   >[!IMPORTANT]
   >
@@ -191,7 +191,7 @@ Adobe Workfront의 리소스 계획에 대한 일반적인 개요는 문서 를 
 
 Workfront 관리자가 리소스 관리 환경 설정을 구성합니다.
 
-자세한 내용은 [리소스 관리 환경 설정 구성](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+자세한 내용은 [리소스 관리 환경 설정 구성](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)을 참조하십시오.
 
 ## 리소스 플래너 찾기
 
@@ -201,7 +201,7 @@ Workfront 관리자가 리소스 관리 환경 설정을 구성합니다.
 
 여러 프로젝트에 대한 리소스 예산을 책정할 것인지 아니면 하나의 프로젝트에 대한 리소스 예산을 책정할 것인지에 따라 Workfront의 두 영역에서 리소스 플래너를 찾을 수 있습니다.
 
-리소스 플래너 찾기에 대한 자세한 내용은 [리소스 플래너 찾기](../../resource-mgmt/resource-planning/locate-resource-planner.md).
+리소스 플래너를 찾는 방법에 대한 자세한 내용은 [리소스 플래너 찾기](../../resource-mgmt/resource-planning/locate-resource-planner.md)를 참조하십시오.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -241,21 +241,21 @@ You can only add a resource pool in the Resource Budgeting area of the Business 
 * 리소스 플래너에서 리소스의 초과 할당 또는 과소 활용입니다.
 * 작업에 대한 자원의 예산을 수동 또는 자동으로 책정합니다.
 
-리소스 플래너에 표시되는 영역과 이러한 영역에 표시되는 정보를 구성하는 방법에 대한 자세한 내용은 문서를 참조하십시오 [리소스 플래너 탐색 개요](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+리소스 플래너에 표시되는 영역과 이러한 영역에 표시되는 정보를 구성하는 방법에 대한 자세한 내용은 문서 [리소스 플래너 탐색 개요](../../resource-mgmt/resource-planning/resource-planner-navigation.md)를 참조하십시오.
 
 ## 리소스 플래너에 정보를 표시할 때의 제한 사항
 
 성능을 향상시키기 위해 Workfront에서는 리소스 플래너에 표시할 수 있는 항목 수를 제한합니다.
 
-이러한 제한 사항에 대한 자세한 내용은 문서 를 참조하십시오 [리소스 플래너 표시 제한](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md) .
+이러한 제한 사항에 대한 자세한 내용은 문서 [리소스 플래너 표시 제한 사항](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)을 참조하십시오.
 
 ## 리소스 플래너에서 FTE 계산
 
 리소스 플래너의 가용성, 할당 및 계획된 값을 시간, FTE 또는 비용으로 표시할 수 있습니다.
 
-리소스 플래너에 표시하는 정보를 변경하는 방법에 대한 자세한 내용은 섹션을 참조하십시오 [시간, FTE 또는 비용별 정보 보기](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md#display-by-hour-or-fte-menu) 이 문서에서 [Adobe Workfront 리소스 플래너를 사용하여 리소스 가용성 및 할당 검토](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md).
+리소스 플래너에 표시되는 정보를 변경하는 방법에 대한 자세한 내용은 문서 [Adobe Workfront 리소스 플래너를 사용하여 리소스 가용성 및 할당 검토](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md)의 [시간, FTE 또는 비용별 정보 보기](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md#display-by-hour-or-fte-menu) 섹션을 참조하십시오.
 
-Workfront에서 사용자 및 역할에 대한 시간 및 FTE를 계산하는 방법에 대한 자세한 내용은 문서를 참조하십시오 [리소스 플래너에서 사용자 및 역할에 대한 시간 및 FTE 계산 개요](../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md).
+Workfront에서 사용자 및 역할에 대한 시간 및 FTE를 계산하는 방법에 대한 자세한 내용은 문서 [리소스 플래너에서 사용자 및 역할에 대한 시간 및 FTE 계산 개요](../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md)를 참조하십시오.
 
 ## 리소스 플래너에서 비용 계산
 
@@ -267,8 +267,8 @@ Workfront에서 사용자 및 역할에 대한 시간 및 FTE를 계산하는 �
 >
 >리소스 플래너에서 비용별 정보를 표시하려면 사용자 및 작업 역할을 시간당 비용 요금에 연결해야 합니다.
 
-시간당 비용 비율을 작업 역할과 연관시키는 방법에 대한 자세한 내용은 문서를 참조하십시오 [작업 역할 만들기 및 관리](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).\
-시간당 비용 요금과 사용자 연관에 대한 자세한 내용은 이 문서 를 참조하십시오 [사용자 프로필 편집](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+시간당 비용을 작업 역할과 연결하는 방법에 대한 자세한 내용은 문서 [작업 역할 만들기 및 관리](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)를 참조하십시오.\
+시간당 비용을 사용자와 연결하는 방법에 대한 자세한 내용은 [사용자 프로필 편집](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) 문서를 참조하십시오.
 
 리소스 플래너에서 비용별로 정보를 조회할 때 다음 사항을 고려하십시오.
 
@@ -276,7 +276,7 @@ Workfront에서 사용자 및 역할에 대한 시간 및 FTE를 계산하는 �
 * 계획된 비용은 프로젝트의 작업에 대한 비용 유형의 영향을 받습니다.
 * 리소스 플래너에 사용자 보기를 적용할 때 비용별 할당 및 가용성 정보를 표시할 수 없습니다.
 
-리소스 플래너에서 사용자 및 역할에 대해 비용을 계산하는 방법에 대한 자세한 내용은 문서 를 참조하십시오 [리소스 플래너에서 비용 계산](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
+리소스 플래너에서 사용자 및 역할에 대한 비용을 계산하는 방법에 대한 자세한 내용은 문서 [리소스 플래너에서 비용 계산](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md)을 참조하십시오.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -294,4 +294,4 @@ Workfront에서 사용자 및 역할에 대한 시간 및 FTE를 계산하는 �
 ## 리소스 플래너에서 정보 필터링
 
 필터를 만들어 리소스 플래너에 표시되는 프로젝트, 역할 또는 사용자의 수를 줄일 수 있습니다.\
-자세한 내용은 이 문서 를 참조하십시오. [리소스 플래너에서 정보 필터링](../../resource-mgmt/resource-planning/filter-resource-planner.md).
+자세한 내용은 문서 [리소스 플래너의 필터 정보](../../resource-mgmt/resource-planning/filter-resource-planner.md)를 참조하십시오.

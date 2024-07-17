@@ -2,8 +2,8 @@
 filename: boards-early-feature-opt-in
 content-type: reference
 navigation-topic: boards
-title: 의 초기 기능 옵트인 [!DNL Adobe Workfront] 게시판
-description: 에 대해 알아보려면 이 문서 를 참조하십시오. [!DNL Workfront Boards] 초기 기능 옵트인.
+title: ' [!DNL Adobe Workfront] 보드에 대한 초기 기능 옵트인'
+description: 이 문서를 읽고  [!DNL Workfront Boards] 초기 기능 옵트인에 대해 알아보십시오.
 author: Lisa
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 ---
 
-# 의 초기 기능 옵트인 [!DNL Adobe Workfront] [!UICONTROL 게시판]
+# [!DNL Adobe Workfront] [!UICONTROL 보드]에 대한 초기 기능 옵트인
 
-의 초기 기능 옵트인 [!DNL Adobe Workfront] [!UICONTROL 게시판] 은 2022년 7월에 출시되었습니다.
+[!DNL Adobe Workfront] [!UICONTROL 보드]에 대한 초기 기능 옵트인이 2022년 7월에 시작되었습니다.
 
-[!DNL Adobe Workfront] [!UICONTROL 게시판] 열과 카드가 포함된 공유 보드에 대한 액세스 권한을 제공하여 팀 공동 작업을 허용하는 유연한 도구입니다.
+[!DNL Adobe Workfront] [!UICONTROL 보드]는 열과 카드가 포함된 공유 보드에 대한 액세스를 제공하여 팀 공동 작업을 허용하는 유연한 도구입니다.
 
-보드에 대한 일반적인 정보는 다음을 참조하십시오. [[!UICONTROL 게시판] 개요](/help/quicksilver/agile/boards-overview.md).
+보드에 대한 일반적인 정보는 [[!UICONTROL 보드] 개요](/help/quicksilver/agile/boards-overview.md)를 참조하십시오.
 
 ## 기능
 
@@ -49,7 +49,7 @@ ht-degree: 0%
    <td>릴리스됨</td>
   </tr>
   <tr>
-   <td>연결된 카드 만들기 [!DNL Workfront] 오브젝트</td>
+   <td>[!DNL Workfront] 개체에 연결된 카드 만들기</td>
    <td>릴리스됨</td>
   </tr>
   <tr>
@@ -191,40 +191,40 @@ ht-degree: 0%
 
 ### 옵트인
 
-전용 [!DNL Workfront] 관리자는 보드에 대한 초기 기능을 선택할 수 있습니다. 다음과 같은 경우 [!DNL Workfront] 관리자가 초기 기능을 활성화하면 조직의 모든 사용자가 옵트인됩니다.
+[!DNL Workfront]명의 관리자만 보드에 대한 초기 기능을 선택할 수 있습니다. [!DNL Workfront] 관리자가 초기 기능을 사용하도록 설정하면 조직의 모든 사용자가 옵트인됩니다.
 
 {{step1-to-boards}}
 
-1. 클릭 ![초기 기능 옵트인](assets/early-feature-opt-in-not-enabled.png) ([!UICONTROL 초기 기능 옵트인])을 클릭하여 제품에서 사용할 수 있습니다.
-1. 클릭 **[!UICONTROL 사용]**.
+1. 대시보드 화면 상단의 ![초기 기능 옵트인](assets/early-feature-opt-in-not-enabled.png)([!UICONTROL 초기 기능 옵트인])을 클릭합니다.
+1. **[!UICONTROL 사용]**&#x200B;을 클릭합니다.
 1. 보드의 초기 기능 사용을 시작합니다.
 
 ## 피드백 제출
 
-1. 보드에 있는 동안 **[!UICONTROL 피드백]** 단추를 클릭합니다.
-1. 양식을 작성한 다음 **[!UICONTROL 제출]**.
+1. 게시판에 있는 동안 **[!UICONTROL 피드백]** 단추를 클릭하세요.
+1. 양식을 작성한 다음 **[!UICONTROL 제출]**&#x200B;을 클릭합니다.
 
 ## 초기 기능 옵트인 FAQ
 
 ### 조직에서 초기 기능을 옵트인했는지 어떻게 알 수 있습니까?
 
-다음으로 연락 [!DNL Workfront] 관리자가 보드에 대한 초기 기능을 활성화했는지 확인합니다.
+보드에 대한 초기 기능을 활성화했는지 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
 
 ### 특정 사용자에게만 초기 기능을 활성화할 수 있습니까?
 
-다음의 경우 [!DNL Workfront] 관리자가 보드에 대한 초기 기능을 활성화하면 조직의 모든 사용자가 옵트인됩니다.
+[!DNL Workfront] 관리자가 보드에 대한 초기 기능을 사용하도록 설정하면 조직의 모든 사용자가 옵트인됩니다.
 
-그러나 [!DNL Workfront] 관리자는 다음에서 보드 옵션을 숨길 수 있습니다. [!UICONTROL 메인 메뉴] 레이아웃 템플릿을 사용하는 개별 사용자 또는 사용자 그룹용. 자세한 내용은 [사용자 지정 [!UICONTROL 메인 메뉴] 레이아웃 템플릿 사용](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+그러나 [!DNL Workfront] 관리자는 레이아웃 템플릿이 있는 개별 사용자 또는 사용자 그룹의 [!UICONTROL 기본 메뉴]에서 보드 옵션을 숨길 수 있습니다. 자세한 내용은 [레이아웃 템플릿을 사용하여 [!UICONTROL 주 메뉴 사용자 지정]](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)을 참조하세요.
 
 >[!NOTE]
 >
->사용자가 URL을 사용하여 보드에 액세스하는 것은 중지되지 않습니다. 방문자가 다음을 볼 수 없도록 합니다. [!DNL Boards] 의 옵션 [!UICONTROL 메인 메뉴].
+>사용자가 URL을 사용하여 보드에 액세스하는 것은 중지되지 않습니다. [!UICONTROL 기본 메뉴]에서 [!DNL Boards] 옵션을 볼 수 없도록 합니다.
 
 ### 가입한 후 초기 기능을 옵트아웃할 수 있습니까?
 
-전용 [!DNL Workfront] 관리자는 초기 기능 수신을 거부할 수 있습니다. 다음과 같은 경우 [!DNL Workfront] 관리자가 초기 기능을 비활성화하면 조직의 모든 사용자가 옵트아웃됩니다.
+[!DNL Workfront]명의 관리자만 초기 기능 수신을 거부할 수 있습니다. [!DNL Workfront] 관리자가 초기 기능을 사용하지 않도록 설정하면 조직의 모든 사용자가 옵트아웃됩니다.
 
 {{step1-to-boards}}
 
-1. 클릭 ![초기 기능 옵트인 활성화됨](assets/early-feature-opt-in-enabled.png) ([!UICONTROL 초기 기능 옵트인 활성화됨])을 클릭하여 제품에서 사용할 수 있습니다.
-1. 클릭 **[!UICONTROL 사용 안 함]**.
+1. 대시보드 화면 상단에서 ![초기 기능 옵트인 활성화됨](assets/early-feature-opt-in-enabled.png)([!UICONTROL 초기 기능 옵트인 활성화됨])을 클릭합니다.
+1. **[!UICONTROL 사용 안 함]**&#x200B;을 클릭합니다.

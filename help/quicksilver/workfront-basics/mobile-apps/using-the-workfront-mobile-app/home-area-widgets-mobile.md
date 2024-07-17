@@ -2,7 +2,7 @@
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: 홈 영역 위젯
-description: iOS 및 Android의 홈 영역 위젯을 사용하여 작업 항목을 빠르게 찾을 수 있습니다.
+description: iOS 및 Android 모두에 대한 홈 영역 위젯을 사용하여 작업 항목을 빠르게 찾을 수 있습니다.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 36af1b05-4c95-4b8e-9b96-03b30fa9852c
@@ -15,14 +15,14 @@ ht-degree: 0%
 
 # [!UICONTROL 홈] 영역 위젯
 
-두 가지 모두에 대한 홈 영역 위젯 [!DNL iOS] 및 [!DNL Android] 작업 항목을 빠르게 찾을 수 있도록 지원합니다.
+[!DNL iOS]과(와) [!DNL Android]의 홈 영역 위젯을 통해 작업 항목을 빠르게 찾을 수 있습니다.
 
 ![홈 영역 위젯](assets/mobile-home-area-widgets.png)
 
-**[!UICONTROL 기한: 오늘]:** 오늘 예정된 작업 항목의 수를 표시합니다. 항목 목록을 보려면 위젯을 선택합니다.
+**[!UICONTROL 기한:]:** 오늘 기한이 지정된 작업 항목 수를 표시합니다. 항목 목록을 보려면 위젯을 선택합니다.
 
-**[!UICONTROL 주간 작업]:** 이번 주에 기한이 있는 작업 항목의 수를 표시합니다. 항목 목록을 보려면 위젯을 선택합니다.
+**[!UICONTROL 주별 작업]:** 이번 주에 만료되는 작업 항목 수를 표시합니다. 항목 목록을 보려면 위젯을 선택합니다.
 
-**[!UICONTROL 지연 작업]:** 계획된 완료 일자가 지나 지연된 작업 항목의 수를 표시합니다. 항목 목록을 보려면 위젯을 선택합니다.
+**[!UICONTROL 지연 작업]:** 지연된 작업 항목 수를 표시합니다(계획된 완료 일자 초과). 항목 목록을 보려면 위젯을 선택합니다.
 
-**[!UICONTROL 언급]:** 읽지 않은 언급 수를 표시합니다. 언급은 태그나 알림을 받은 알림입니다. [!UICONTROL 업데이트] 의 개체에 대한 탭 [!DNL Adobe Workfront]. 언급 목록을 보려면 위젯을 선택합니다.
+**[!UICONTROL 멘션]:**&#x200B;은(는) 읽지 않은 멘션 수를 표시합니다. 언급은 [!DNL Adobe Workfront]의 개체에 대해 [!UICONTROL 업데이트] 탭에서 태그 지정 또는 알림을 받는 알림입니다. 언급 목록을 보려면 위젯을 선택합니다.

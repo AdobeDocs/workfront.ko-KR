@@ -10,8 +10,8 @@ role: Developer
 exl-id: 7b594df5-c87f-45d4-b84a-cae17171e906
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 7%
+source-wordcount: '268'
+ht-degree: 2%
 
 ---
 
@@ -61,7 +61,7 @@ GET /metadata?id=[문서 또는 폴더 ID]
  </thead> 
  <tbody> 
   <tr> 
-   <td>title </td> 
+   <td>제목 </td> 
    <td>문자열 </td> 
    <td>문서 또는 폴더의 이름</td> 
   </tr> 
@@ -109,7 +109,7 @@ GET /metadata?id=[문서 또는 폴더 ID]
 </table>
 
 **예:** https://www.acme.com/api/metadata?id=12345
-<pre>{<br>제목:"내 문서",<br>종류:"file"<br>id":"12345",<br>viewLink:"https://www.acme.com/viewDocument?id=12345",<br>downloadLink:"https://www.acme.com/downloadDocument?id=12345",<br>mimeType:"image/png",<br>dateModified:"20140605T17:39:45.251Z",<br>크기: "32554694"<br>}</pre>
+<pre>{<br>title:"내 문서",<br>종류:"파일"<br>id":"12345",<br>viewLink:"https://www.acme.com/viewDocument?id=12345",<br>downloadLink:"https://www.acme.com/downloadDocument?id=12345",<br>mimeType:"image/png",<br>dateModified:"20140605T17:39:45.251Z",<br>크기: "32554694"<br>}</pre>
 
 >[!NOTE]
 >

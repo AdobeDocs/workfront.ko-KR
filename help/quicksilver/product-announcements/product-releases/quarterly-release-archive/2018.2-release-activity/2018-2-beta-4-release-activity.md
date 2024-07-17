@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: 2018.2 베타 4 릴리스 활동
-description: 이 페이지에서는 2018.2 베타 4 릴리스의 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 기능은 2018년 5월 17일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2018년 7월에 사용할 수 있습니다.
+title: 2018.2 Beta 4 릴리스 활동
+description: 이 페이지에서는 2018.2 Beta 4 릴리스의 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 기능은 2018년 5월 17일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2018년 7월에 사용할 수 있습니다.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 ---
 
-# 2018.2 베타 4 릴리스 활동
+# 2018.2 Beta 4 릴리스 활동
 
-이 페이지에서는 2018.2 베타 4 릴리스의 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 기능은 2018년 5월 17일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2018년 7월에 사용할 수 있습니다.
+이 페이지에서는 2018.2 Beta 4 릴리스의 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 기능은 2018년 5월 17일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2018년 7월에 사용할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -24,23 +24,23 @@ ht-degree: 0%
 
 2018.2의 모든 변경 사항 목록은 다음을 참조하십시오.  [2018.2 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
-2018.2 베타 4 릴리스에는 Workfront 관리자 및 기타 사용자를 위한 개선 사항이 포함되어 있습니다.
+2018.2 Beta 4 릴리스에는 Workfront 관리자 및 기타 사용자를 위한 개선 사항이 포함되어 있습니다.
 
-**관리자용**
+관리자용 **1}**
 
 * [시스템 설정: 외부 페이지의 세션 정보](#system-setting-session-information-in-external-pages)
 
 **모든 사용자용**
 
-* [Kanban 보드에서 WIP(Work in Progress) 제한 개선 사항](#work-in-progress-wip-limit-enhancements-on-the-kanban-board)
+* [Kanban 보드에서 WIP(작업 진행 중) 제한 개선 사항](#work-in-progress-wip-limit-enhancements-on-the-kanban-board)
 * [애자일 팀의 상태를 구성하기 위한 인터페이스 개선](#improved-interface-for-configuring-statuses-for-an-agile-team)
 * [홈 영역의 업데이트된 작업 목록(왼쪽 패널)](#updated-work-list-left-panel-in-the-home-area)
-* [대화형(리치 미디어) 컨텐츠 증명을 위한 새로운 데스크탑 증명 뷰어](#new-desktop-proofing-viewer-for-proofing-interactive-rich-media-content) 
+* [대화형(리치 미디어) 콘텐츠 증명을 위한 새 데스크톱 증명 뷰어](#new-desktop-proofing-viewer-for-proofing-interactive-rich-media-content) 
 * [리소스 플래너에서 사용자 보기 내보내기](#export-the-user-view-in-the-resource-planner)
 * [Google 팀 드라이브 지원](#support-for-google-team-drives)
-* [간트 차트의 새로운 내보내기 제한](#new-export-limit-for-the-gantt-chart)
-* [이제 Internet Explorer 또는 Safari를 사용할 때 클립보드에서 붙여넣기 옵션이 흐리게 표시됩니다.](#paste-from-clipboard-option-now-displays-as-dimmed-when-using-internet-explorer-or-safari)
-* [새로운 기능과 함께 Android용 새로운 Beta 환경](#new-beta-environment-for-android-along-with-new-features)
+* [간트 차트의 새 내보내기 제한](#new-export-limit-for-the-gantt-chart)
+* [Internet Explorer 또는 Safari를 사용할 때 클립보드에서 붙여넣기 옵션이 흐리게 표시됩니다](#paste-from-clipboard-option-now-displays-as-dimmed-when-using-internet-explorer-or-safari)
+* [새로운 기능과 함께 Android의 새로운 Beta 환경](#new-beta-environment-for-android-along-with-new-features)
 * [이벤트 구독 메시지 필터 예](#examples-of-filters-for-event-subscriptions-messages)
 
 ## Kanban 보드에서 WIP(Work in Progress) 제한 개선 사항 {#work-in-progress-wip-limit-enhancements-on-the-kanban-board}
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 이 변경 이전에는 Kanban 보드의 모든 열에 적용되는 WIP 제한을 하나만 구성할 수 있었습니다. 
 
-자세한 내용은 섹션을 참조하십시오  [WIP(Work In Progress) 한도 구성](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur4) 이 문서에서  [칸반 구성](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
+자세한 내용은 섹션을 참조하십시오  문서에서 [WIP(작업 진행 중) 제한 구성](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur4)  [Kanban 구성](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
 ### 칸반 보드에서 직접 WIP(Work In Progress) 한도 갱신
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 이 변경 이전에는 팀 설정 영역에서만 WIP 제한을 업데이트할 수 있었습니다.
 
-자세한 내용은 이 문서에서 를 참조하십시오.
+자세한 내용은  (문서 내).
 
 ## 애자일 팀의 상태를 구성하기 위한 인터페이스 개선 {#improved-interface-for-configuring-statuses-for-an-agile-team}
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 자세한 내용은 다음 문서를 참조하십시오.
 
-* [칸반 구성](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md)
+* [Kanban 구성](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md)
 * [스크럼 구성](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)
 
 ## 홈 영역의 업데이트된 작업 목록(왼쪽 패널) {#updated-work-list-left-panel-in-the-home-area}
@@ -81,7 +81,7 @@ ht-degree: 0%
 
   홈 영역 외부에서 본 항목은 여전히 홈 영역에서 읽지 않음으로 표시됩니다.
 
-  자세한 내용은 [홈 영역의 작업 목록에 항목 표시](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+  자세한 내용은 [홈 영역의 작업 목록에 항목 표시](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)를 참조하십시오.
 
 * 이제 문제가 문제 옆에 표시되는 문제 아이콘과 구별됩니다.
 * 이제 승인이 승인 유형별로 구분되며 승인 유형이 표시됩니다. 가능한 승인 유형은 작업, 프로젝트, 문제, 액세스, 문서, 타임시트 및 증명입니다.
@@ -102,20 +102,20 @@ ht-degree: 0%
 
   이 번호는 완료된 그룹화에는 사용할 수 없습니다.
 
-  자세한 내용은 [홈 영역의 작업 목록에 항목 표시](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+  자세한 내용은 [홈 영역의 작업 목록에 항목 표시](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)를 참조하십시오.
 
 * 드래그 앤 드롭으로 작업 목록 크기를 조정합니다. 작업 목록 크기를 조정하여 화면의 절반까지 사용할 수 있습니다. 설정한 크기는 다음에 홈에 액세스할 때 유지됩니다.
 
   이 변경 이전에는 작업 목록 크기를 변경할 수 없었습니다.
 
-* 요청의 경우 이제 요청을 한 사용자의 사용자 아바타가 텍스트 와 함께 표시됩니다. &quot;[Approver_name] 이(가) 귀하의 승인을 원합니다.&quot;
+* 요청의 경우 이제 요청을 한 사용자의 사용자 아바타가 표시되며 &quot;[Approver_name]이(가) 승인을 원합니다.&quot;라는 텍스트가 표시됩니다.
 * 이제 새 개인 작업을 만들 때 &quot;할 일&quot; 단추에 &quot;개인&quot;이라는 레이블이 지정됩니다.
 
-  자세한 내용은 [홈 영역에서 작업 항목 만들기](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md) 이 문서에서 [홈 영역에서 작업 항목 만들기](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+  자세한 내용은 [홈 영역에서 작업 항목 만들기](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md) 문서에서 [홈 영역에서 작업 항목 만들기](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)를 참조하십시오.
 
 * 지연 항목은 계획된 완료 일자가 1시간 지난 후에만 지연으로 표시됩니다.
 
-홈 영역에 대한 자세한 내용은 [홈 영역 사용](../../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+홈 영역에 대한 자세한 내용은 [홈 영역 사용](../../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)을 참조하세요.
 
 ## 대화형(리치 미디어) 컨텐츠 증명을 위한 새로운 데스크탑 증명 뷰어 {#new-desktop-proofing-viewer-for-proofing-interactive-rich-media-content}
 
@@ -137,15 +137,15 @@ Desktop Proofing Viewer에는 대화형 콘텐츠의 증명을 위해 레거시 
 
 Desktop Proofing Viewer 다운로드, 설치 및 사용에 대한 자세한 내용은 를 참조하십시오.
 
-Desktop Proofing Viewer와 브라우저 기반 증명 뷰어 간의 기능 차이에 대한 자세한 내용은 [웹 증명 뷰어와 데스크탑 증명 뷰어의 차이점 개요](../../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
+Desktop Proofing Viewer와 브라우저 기반 증명 뷰어의 기능 차이에 대한 자세한 내용은 [웹 증명 뷰어와 Desktop Proofing Viewer의 차이점](../../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)을 참조하십시오.
 
 ## 리소스 플래너에서 사용자 보기 내보내기 {#export-the-user-view-in-the-resource-planner}
 
 성능 문제를 해결하기 위해 사용자 보기에 표시할 때 리소스 플래너에서 데이터 내보내기를 일시적으로 비활성화했습니다. 이번 릴리스에서는 사용자 보기에서 리소스 플래너를 표시할 때 데이터 내보내기를 다시 활성화합니다.
 
-리소스 플래너 데이터를 Excel로 내보내기에 대한 자세한 내용은 의 &quot;내보내기 옵션&quot; 섹션을 참조하십시오. [리소스 플래너 탐색 개요](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+리소스 플래너 데이터를 Excel로 내보내는 방법에 대한 자세한 내용은 [리소스 플래너 탐색 개요](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md)의 &quot;내보내기 옵션&quot; 섹션을 참조하십시오.
 
-리소스 플래너를 위한 현재 베타 프로그램에 참여하려면 다음을 참조하십시오. [리소스 플래너 성능 베타.](http://community.workfront.com/discussions/community-home/digestviewer/viewthread?GroupId=457&amp;MessageKey=8b018ed9-97a2-4f9d-a93b-01a7b09b6350&amp;CommunityKey=0425cafc-f0ec-47fc-be20-a21dc073d520&amp;tab=digestviewer&amp;ReturnUrl=%2fdiscussions%2fcommunity-home%2fdigestviewer%3fCommunityKey%3d0425cafc-f0ec-47fc-be20-a21dc073d520)
+리소스 플래너의 현재 Beta 프로그램에 참여하려면 [리소스 플래너 성능 Beta](http://community.workfront.com/discussions/community-home/digestviewer/viewthread?GroupId=457&amp;MessageKey=8b018ed9-97a2-4f9d-a93b-01a7b09b6350&amp;CommunityKey=0425cafc-f0ec-47fc-be20-a21dc073d520&amp;tab=digestviewer&amp;ReturnUrl=%2fdiscussions%2fcommunity-home%2fdigestviewer%3fCommunityKey%3d0425cafc-f0ec-47fc-be20-a21dc073d520)를 참조하세요.
 
 ## 시스템 설정: 외부 페이지의 세션 정보 {#system-setting-session-information-in-external-pages}
 
@@ -153,7 +153,7 @@ Desktop Proofing Viewer와 브라우저 기반 증명 뷰어 간의 기능 차�
 
 이 변경 이전에는 외부 페이지를 만들 수 있었던 사용자가 다른 사이트를 Workfront 대시보드에 포함할 때 모든 세션 정보를 사용할 수 있었습니다. 
 
-Workfront에서 시스템 환경 설정 구성에 대한 자세한 내용은 [시스템 보안 환경 설정 구성](../../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+Workfront에서 시스템 환경 설정을 구성하는 방법에 대한 자세한 내용은 [시스템 보안 환경 설정 구성](../../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)을 참조하십시오.
 
 ## Google 팀 드라이브 지원 {#support-for-google-team-drives}
 
@@ -161,7 +161,7 @@ Workfront에서 시스템 환경 설정 구성에 대한 자세한 내용은 [�
 
 이 개선 사항 이전에는 Google 내 드라이브에만 있는 문서 또는 폴더를 연결할 수 있었습니다.
 
-다양한 애플리케이션의 문서 및 폴더를 Workfront에 연결하는 방법에 대한 자세한 내용은 [외부 애플리케이션에서 문서 연결](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+다양한 응용 프로그램의 문서와 폴더를 Workfront에 연결하는 방법에 대한 자세한 내용은 [외부 응용 프로그램에서 문서 연결](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)을 참조하십시오.
 
 ## 간트 차트의 새로운 내보내기 제한 {#new-export-limit-for-the-gantt-chart}
 
@@ -169,7 +169,7 @@ Workfront에서 시스템 환경 설정 구성에 대한 자세한 내용은 [�
 
 이전에는 최대 250개의 작업만 내보낼 수 있었습니다.
 
-자세한 내용은 [간트 차트를 PDF으로 내보내기](../../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md).
+자세한 내용은 [간트 차트를 PDF으로 내보내기](../../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)를 참조하십시오.
 
 ## 이제 Internet Explorer 또는 Safari를 사용할 때 클립보드에서 붙여넣기 옵션이 흐리게 표시됩니다. {#paste-from-clipboard-option-now-displays-as-dimmed-when-using-internet-explorer-or-safari}
 
@@ -177,11 +177,11 @@ Workfront에서 시스템 환경 설정 구성에 대한 자세한 내용은 [�
 
 이 변경 이전에는 Internet Explorer 또는 Safari를 사용할 때 이 옵션이 표시되지 않았습니다. 
 
-클립보드에서 이미지를 붙여넣는 방법에 대한 자세한 내용은 [클립보드에서 이미지 붙여넣기](../../../../documents/managing-documents/paste-image-clipboard.md).
+클립보드에서 이미지를 붙여넣는 방법에 대한 자세한 내용은 [클립보드에서 이미지 붙여넣기](../../../../documents/managing-documents/paste-image-clipboard.md)를 참조하십시오.
 
-## 새로운 기능과 함께 Android용 새로운 Beta 환경 {#new-beta-environment-for-android-along-with-new-features}
+## 새로운 기능과 함께 Android을 위한 새로운 Beta 환경 {#new-beta-environment-for-android-along-with-new-features}
 
-이제 Beta 테스터에 등록하여 일반 대중에게 출시되기 전에 팀에서 모바일 앱에 대해 작업 중인 최신 기능을 체험할 수 있습니다. 이 환경은 현재 Android 휴대폰에 대해서만 Workfront 모바일 앱에서 지원됩니다.
+이제 Beta 테스터에 등록하여 일반 대중에게 출시되기 전에 팀에서 모바일 앱에 대해 작업 중인 최신 기능을 체험할 수 있습니다. 이 환경은 현재 Android 휴대폰에 대해서만 Workfront 모바일 앱에 대해 지원됩니다.
 
 Workfront 모바일 앱의 Beta 테스터가 되기 위해 등록하는 방법에 대한 자세한 내용은 을 참조하십시오.
 
@@ -215,4 +215,4 @@ Workfront 모바일 앱의 Beta 테스터가 되기 위해 등록하는 방법�
 
 ## 이벤트 구독 메시지 필터 예 {#examples-of-filters-for-event-subscriptions-messages}
 
-조직 관련 메시지만 수신하도록 이벤트 구독을 필터링하는 방법을 보여주기 위해, 이제 코드 조각 예제를 사용하여 엔드포인트로 들어오는 이벤트 흐름을 필터링할 수 있습니다. 필터링 예를 보는 방법에 대한 자세한 내용은 [이벤트 구독 메시지 필터링](../../../../wf-api/api/filter-event-sub-messages.md).
+조직 관련 메시지만 수신하도록 이벤트 구독을 필터링하는 방법을 보여주기 위해, 이제 코드 조각 예제를 사용하여 엔드포인트로 들어오는 이벤트 흐름을 필터링할 수 있습니다. 필터링 예제를 보는 방법에 대한 자세한 내용은 [이벤트 구독 메시지 필터링](../../../../wf-api/api/filter-event-sub-messages.md)을 참조하세요.

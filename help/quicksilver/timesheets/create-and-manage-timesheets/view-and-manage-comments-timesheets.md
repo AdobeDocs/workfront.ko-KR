@@ -51,21 +51,21 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오. 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오. 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## 타임시트의 시간 입력 주석 보기 {#view-hour-entry-comments-on-a-timesheet}
 
-타임시트에 표시할 개별 시간 항목에 대한 설명을 구성할 수 있습니다. 댓글 표시 및 숨기기 옵션은 전체 타임시트에 작성한 댓글이나 개별 항목에 작성된 댓글에는 영향을 주지 않습니다. 자세한 내용은  [타임시트에 주석 달기](#make-comments-on-a-timesheet).
+타임시트에 표시할 개별 시간 항목에 대한 설명을 구성할 수 있습니다. 댓글 표시 및 숨기기 옵션은 전체 타임시트에 작성한 댓글이나 개별 항목에 작성된 댓글에는 영향을 주지 않습니다. 자세한 내용은  [타임시트에 댓글을 달기](#make-comments-on-a-timesheet).
 
 타임시트에 처음 액세스할 때 기본적으로 댓글은 숨겨집니다.
 
 타임시트에 주석을 표시하려면:
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront 오른쪽 상단에 있습니다.
+1. Adobe Workfront 오른쪽 상단의 **주 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭합니다.
 
-1. 클릭 **타임시트**.
+1. **타임시트**&#x200B;를 클릭합니다.
 1. 주석을 표시할 타임시트를 엽니다.
-1. 클릭 **댓글 표시** 타임시트의 오른쪽 상단 모서리에서 을 참조하십시오.
+1. 타임시트의 오른쪽 상단에서 **댓글 표시**를 클릭합니다.
 시간 항목과 댓글이 기록된 항목 아래에 댓글이 표시됩니다.
 
    ![](assets/comments-expanded-under-tasks-redesigned-timesheet.png)
@@ -73,46 +73,46 @@ ht-degree: 0%
 
 ## 타임시트에 주석 달기 {#make-comments-on-a-timesheet}
 
-* [전체 타임시트에 주석 달기](#comment-on-the-overall-timesheet)
-* [타임시트의 개별 시간 항목에 주석 달기](#comment-on-an-individual-hour-entry-in-a-timesheet)
+* [전체 타임시트에 댓글](#comment-on-the-overall-timesheet)
+* [타임시트의 개별 시간 항목에 대한 댓글](#comment-on-an-individual-hour-entry-in-a-timesheet)
 * [타임시트의 작업 항목에 주석 달기](#comment-on-a-work-item-in-a-timesheet)
 
 ### 전체 타임시트에 주석 달기 {#comment-on-the-overall-timesheet}
 
 타임시트에 대한 일반적인 설명을 할 수 있습니다. 전체 타임시트에 댓글을 다는 것은 다른 오브젝트에 댓글을 다는 것과 비슷합니다.
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) 오른쪽 상단 또는 **메인 메뉴** 아이콘 ![](assets/lines-main-menu.png) 사용 가능한 경우 왼쪽 상단 모서리 또는 Workfront에 있습니다.
+1. Workfront 오른쪽 상단의 **주 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭하거나 사용 가능한 경우 왼쪽 상단의 **주 메뉴** 아이콘 ![](assets/lines-main-menu.png)을(를) 클릭합니다.
 
-1. 클릭 **타임시트**.
+1. **타임시트**&#x200B;를 클릭합니다.
 1. 댓글을 달려는 타임시트로 이동합니다.
-1. 클릭 **업데이트** 왼쪽 패널에서 를 클릭한 다음 **댓글** 탭.
-1. 에 설명된 대로 새 의견 또는 기존 의견에 대한 답변을 추가합니다. [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. (선택 사항) **사람 또는 팀에 태그 지정** 업데이트에 다른 사용자를 포함하는 필드입니다. 자세한 내용은 [업데이트에 다른 사용자 태그 지정](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-1. (선택 사항) **내 회사에 비공개** 회사 직원만 업데이트를 볼 수 있도록 하려면 옵션을 선택합니다.
-1. 댓글을 입력한 다음 **제출**.
+1. 왼쪽 패널에서 **업데이트**&#x200B;를 클릭한 다음 **댓글** 탭을 클릭합니다.
+1. [작업 업데이트](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)에 설명된 대로 새 댓글을 추가하거나 기존 댓글에 회신합니다.
+1. (선택 사항) **사람 또는 팀에 태그 지정** 필드에 사람 또는 팀을 추가하여 업데이트에 다른 사람을 포함하십시오. 자세한 내용은 [업데이트에 다른 사용자 태그 지정](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)을 참조하세요.
+1. (선택 사항) 회사 직원만 업데이트를 보려면 **내 회사에 비공개** 옵션을 선택하십시오.
+1. 댓글을 입력한 다음 **제출**&#x200B;을 클릭합니다.
 
-   댓글이에 표시됩니다. [!UICONTROL 업데이트] 구성 요소 탭의 타임시트 섹션.
+   댓글은 타임시트의 [!UICONTROL 업데이트] 섹션에 댓글 탭에 표시됩니다.
 
-1. (선택 사항) **시스템 활동** 시스템이 생성한 업데이트를 검토하는 탭
+1. (선택 사항) **시스템 활동** 탭을 클릭하여 시스템 생성 업데이트를 검토합니다
 
    또는
 
-   다음을 클릭합니다. **모두** 시간 순서대로 시스템 활동 및 사용자 주석을 볼 수 있는 탭입니다.
+   시스템 활동 및 사용자 의견을 시간순으로 보려면 **모두** 탭을 클릭하십시오.
 
    >[!TIP]
    >
    >   모두 탭은 읽기 전용 탭이며 여기에서 댓글에 답글을 달 수 없습니다.
 
 
-   자세한 내용은 [작업 업데이트](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   자세한 내용은 [작업 업데이트](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)를 참조하세요.
 
 ### 타임시트의 개별 시간 항목에 주석 달기 {#comment-on-an-individual-hour-entry-in-a-timesheet}
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront 오른쪽 상단에 있습니다.
+1. Adobe Workfront 오른쪽 상단의 **주 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭합니다.
 
-1. 클릭 **타임시트**.
-1. 댓글을 달려는 타임시트로 이동하여 **타임시트** 왼쪽 패널에서
-1. 댓글을 달려는 시간 입력 필드를 클릭하고 을(를) 클릭합니다. **댓글** 시간 항목에 대한 댓글을 추가합니다.
+1. **타임시트**&#x200B;를 클릭합니다.
+1. 댓글을 달 타임시트로 이동하여 왼쪽 패널에서 **타임시트**&#x200B;를 클릭합니다.
+1. 댓글을 달 시간 입력 필드를 클릭하고 **댓글**&#x200B;을 클릭하여 시간 입력에 대한 댓글을 추가합니다.
 
    >[!TIP]
    >
@@ -121,9 +121,9 @@ ht-degree: 0%
 
    다음 중 하나를 수행하십시오.
 
-   * 새 댓글 입력 및 클릭 **완료**.
-   * 기존 댓글을 편집하고 **완료**&#x200B;또는 클릭 **취소** 변경 내용을 취소합니다.
-   * 다음을 클릭합니다. **삭제** 아이콘 ![](assets/delete.png) 저장된 주석을 삭제하려면 다음 작업을 수행하십시오.
+   * 새 댓글을 입력하고 **완료**&#x200B;를 클릭하세요.
+   * 기존 댓글을 편집하고 **완료**&#x200B;를 클릭하거나 **취소**&#x200B;를 클릭하여 변경 내용을 취소합니다.
+   * 저장된 댓글을 삭제하려면 **삭제** 아이콘 ![](assets/delete.png)을(를) 클릭하십시오.
 
      시간 항목 상자의 오른쪽 위 모서리에 파란색 마커가 표시되어 시간 항목과 함께 기록된 댓글이 있음을 나타냅니다.
 
@@ -136,7 +136,7 @@ ht-degree: 0%
    >   * Cmd + Mac 컴퓨터용 Return
 
 
-1. (선택 사항) 타임시트에 표시할 시간 입력 설명을 구성하려면 섹션을 참조하십시오 [타임시트의 시간 입력 댓글 보기](#view-hour-entry-comments-on-a-timesheet) 이 문서에서.
+1. (선택 사항) 타임시트에 표시할 시간 입력 설명을 구성하려면 이 문서의 [타임시트에 시간 입력 설명 보기](#view-hour-entry-comments-on-a-timesheet) 섹션을 참조하십시오.
 
 ### 타임시트의 작업 항목에 주석 달기 {#comment-on-a-work-item-in-a-timesheet}
 
@@ -147,12 +147,12 @@ ht-degree: 0%
 
 타임시트의 작업 및 문제에만 댓글을 달 수 있습니다. 프로젝트 또는 일반 시간에 대해 댓글을 달 수 없습니다.
 
-1. 다음을 클릭합니다. [!UICONTROL **메인 메뉴**] 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront 오른쪽 상단에 있습니다.
-1. 클릭 [!UICONTROL **타임시트**].
-1. 댓글을 달려는 타임시트로 이동하여 [!UICONTROL **타임시트**] 왼쪽 패널에서
-1. 작업 또는 문제의 행을 클릭한 다음 [!UICONTROL **요약 열기**].
-1. 에서 업데이트를 입력하십시오. [!UICONTROL **업데이트**] 요약 패널의 영역을 클릭한 다음 [!UICONTROL **제출**].
+1. Adobe Workfront 오른쪽 상단의 [!UICONTROL **주 메뉴**] 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭합니다.
+1. [!UICONTROL **타임시트**]&#x200B;를 클릭합니다.
+1. 댓글을 달려는 타임시트로 이동하여 왼쪽 패널에서 [!UICONTROL **타임시트**]&#x200B;를 클릭합니다.
+1. 작업 또는 문제의 행을 클릭한 다음 [!UICONTROL **요약 열기**]&#x200B;를 클릭합니다.
+1. 요약 패널의 [!UICONTROL **업데이트**] 영역에서 업데이트를 입력한 다음 [!UICONTROL **제출**]을 클릭합니다.
 작업 및 문제의 업데이트 섹션에 업데이트가 표시됩니다.
-1. (선택 사항) [!UICONTROL **요약 닫기**] 요약 패널을 닫습니다.
+1. (선택 사항) [!UICONTROL **요약 닫기**]&#x200B;를 클릭하여 요약 패널을 닫습니다.
 
-   요약 패널에서 작업 및 문제를 업데이트하는 방법에 대한 자세한 내용은 [요약 개요](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+   요약 패널에서 작업 및 문제를 업데이트하는 방법에 대한 자세한 내용은 [요약 개요](../../workfront-basics/the-new-workfront-experience/summary-overview.md)를 참조하십시오.

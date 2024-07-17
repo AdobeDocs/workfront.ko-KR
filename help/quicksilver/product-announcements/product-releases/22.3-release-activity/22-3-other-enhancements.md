@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 22.3 기타 개선 사항
 
-이 페이지에서는 미리보기 환경에 대한 22.3 릴리스의 기타 모든 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2022년 7월 11일이 있는 주에 프로덕션 환경에서 사용할 수 있습니다. 22.3 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [22.3 릴리스 개요](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+이 페이지에서는 미리보기 환경에 대한 22.3 릴리스의 기타 모든 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2022년 7월 11일이 있는 주에 프로덕션 환경에서 사용할 수 있습니다. 22.3 릴리스에서 사용할 수 있는 모든 변경 사항 목록을 보려면 [22.3 릴리스 개요](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)를 참조하십시오.
 
 ## 업데이트된 타임시트
 
@@ -62,7 +62,7 @@ Adobe Workfront의 왼쪽 탐색 패널에 몇 가지 개선 사항이 있습니
 
 이전에는 새로 고침 토큰이 사용자 지정 OAuth2 애플리케이션 설정에 구성된 시간 설정 후 만료되었습니다.
 
-자세한 내용은 [Workfront 통합을 위한 OAuth2 애플리케이션 만들기](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md).
+자세한 내용은 [Workfront 통합을 위한 OAuth2 애플리케이션 만들기](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md)를 참조하십시오.
 
 ## 단일 페이지 웹 애플리케이션에 대한 사용자 정의 OAuth2 통합에서 PKCE 사용
 
@@ -70,4 +70,4 @@ Adobe Workfront의 왼쪽 탐색 패널에 몇 가지 개선 사항이 있습니
 
 이전에는 사용자 정의 OAuth2 애플리케이션에 사용 가능한 옵션이 사용자 이름 및 암호 또는 클라이언트 암호를 사용했습니다.
 
-자세한 내용은 [Workfront 통합을 위한 OAuth2 애플리케이션 만들기](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md).
+자세한 내용은 [Workfront 통합을 위한 OAuth2 애플리케이션 만들기](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md)를 참조하십시오.

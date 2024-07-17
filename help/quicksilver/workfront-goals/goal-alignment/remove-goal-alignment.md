@@ -54,7 +54,7 @@ ht-degree: 1%
 <li>Select 또는 Prime Adobe Workfront 플랜 및 추가 Adobe Workfront Goals 라이선스.</li>
 <li>기본적으로 Workfront 목표를 포함하는 Ultimate Workfront 계획입니다. </li></ul>
  <p>또는</p>
- <p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표 사용 요구 사항</a>. </p> </td>
+ <p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표를 사용하기 위한 요구 사항</a>을 참조하십시오. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">액세스 수준</td>
@@ -65,7 +65,7 @@ ht-degree: 1%
  <td>
   <p>목표에 대한 또는 그 이상의 권한에 대한 보기</p>
   <p>편집할 목표에 대한 권한 관리</p>
-  <p>목표 공유에 대한 자세한 내용은 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront 목표에서 목표 공유</a>. </p>
+  <p>목표 공유에 대한 자세한 내용은 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront 목표에서 목표 공유</a>를 참조하십시오. </p>
   </td>
  </tr>
    <td role="rowheader"><p>레이아웃 템플릿</p></td>
@@ -75,7 +75,7 @@ ht-degree: 1%
 </tbody>
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## 전제 조건
 
@@ -114,16 +114,16 @@ Removing goal alignment differs depending on which environment you use.
    * [Add results to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md)
 -->
 
-1. 액세스 **목표** Workfront의 영역을 클릭하고 목표의 이름을 클릭하여 목표의 페이지를 엽니다.
-1. 상위 목표의 목표 페이지에서 을(를) 클릭합니다. **진행 표시기** 왼쪽 패널에서
+1. Workfront의 **목표** 영역에 액세스하고 목표의 이름을 클릭하여 목표의 페이지를 엽니다.
+1. 상위 목표의 목표 페이지에서 왼쪽 패널의 **진행 표시기**&#x200B;를 클릭합니다.
 
    ![](assets/remove-goal-alignment-from-list-unshimmed.png)
 
-1. 다음에서 **유형: 목표** 그룹화하고 목표를 선택한 다음 **연결 해제** 아이콘 ![](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png) 목록의 맨 위에 있습니다.
+1. **유형: 목표** 그룹화에서 목표를 선택한 다음 목록 맨 위에 있는 **연결 끊기** 아이콘 ![](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png)을(를) 클릭합니다.
 
    연결 해제 상자가 표시됩니다.
 
-1. 클릭 **연결 해제** 을 눌러 상위 목표에서 선택한 목표의 연결을 해제합니다.
+1. **연결 끊기**&#x200B;를 클릭하여 선택한 목표를 부모와 연결 끊습니다.
 
    목표가 독립형 목표가 되고 더 이상 원래 목표의 진행 표시기로 나열되지 않습니다. 단절된 목표의 진행은 더 이상 원래 목표의 진행에 영향을 주지 않는다.
 

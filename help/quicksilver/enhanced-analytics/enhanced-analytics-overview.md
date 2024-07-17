@@ -29,7 +29,7 @@ ht-degree: 3%
 
 ![](assets/nwe-full-screen-analytics-350x222.png)
 
-사용 사례를 확인하거나 Enhanced Analytics를 사용하여 현재 작업 관리 및 향후 작업 계획에 대해 자세히 알아보려면 다음을 참조하십시오. [향상된 분석 학습 경로](https://one.workfront.com/s/enhanced-analytics-program).
+사용 사례를 확인하거나 향상된 분석을 사용하여 현재 작업 관리 및 향후 작업 계획에 대해 자세히 알아보려면 [향상된 분석 학습 경로](https://one.workfront.com/s/enhanced-analytics-program)를 참조하십시오.
 
 ## 전제 조건
 
@@ -37,21 +37,21 @@ ht-degree: 3%
 
 * 비즈니스 또는 엔터프라이즈 플랜이 있습니다.
 
-  자세한 내용은 [Workfront 플랜](https://www.workfront.com/plans).
+  자세한 내용은 [Workfront 계획](https://www.workfront.com/plans)을 참조하세요.
 
 * Workfront 관리자가 레이아웃 템플릿에 향상된 분석을 추가하도록 합니다.
 
-  자세한 내용은 [향상된 Analytics: 레이아웃 템플릿에 분석 추가](https://one.workfront.com/s/managed-content-videos/enhanced-analytics-adding-analytics-to-layout-templates-MCH7URDSIXRREHHHF7TRTYYP2LTE).
+  자세한 내용은 [향상된 분석: 레이아웃 템플릿에 분석 추가](https://one.workfront.com/s/managed-content-videos/enhanced-analytics-adding-analytics-to-layout-templates-MCH7URDSIXRREHHHF7TRTYYP2LTE)를 참조하십시오.
 
 프로젝트 및 작업에 대한 정보를 보려면 다음을 수행해야 합니다.
 
 * 액세스 수준의 프로젝트 및 작업 영역에 대한 보기 권한이 있습니다.
 
-  Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 [사용자 정의 액세스 수준 만들기 또는 수정](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 [사용자 지정 액세스 수준 만들기 또는 수정](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)을 참조하십시오.
 
 * 특정 작업 및/또는 프로젝트에 대한 보기 권한이 있습니다.
 
-  추가 액세스 요청에 대한 자세한 내용은 [오브젝트에 대한 액세스 요청](../workfront-basics/grant-and-request-access-to-objects/request-access.md).
+  추가 액세스 요청에 대한 자세한 내용은 [개체에 대한 액세스 요청](../workfront-basics/grant-and-request-access-to-objects/request-access.md)을 참조하십시오.
 
 ## 향상된 분석을 위한 우수 사례
 
@@ -68,7 +68,7 @@ ht-degree: 3%
   >[!NOTE]
   >
   >팀에서 계획된 시간을 사용하지 않는 경우에도 프로젝트 기간을 기준으로 일부 데이터를 볼 수 있습니다.\
-  >자세한 내용은 섹션을 참조하십시오 [기간 보기](#duration-view) 이 문서에서.
+  >자세한 내용은 이 문서의 [기간 보기](#duration-view) 섹션을 참조하십시오.
 
 * 프로젝트 이름
 
@@ -112,10 +112,10 @@ ht-degree: 3%
 
   >[!NOTE]
   >
-  >8시간은 의 기본 번호입니다. **근무일당 일반 근로시간**. Adobe Workfront 관리자는 다음을 업데이트할 수 있습니다. **근무일당 일반 근로시간** 아래에 설정 **설정** > **프로젝트 환경 설정** > **프로젝트** > **타임라인**.\
-  >자세한 내용은 다음을 참조하십시오. [시스템 전체 프로젝트 환경 설정 구성](../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  >8시간은 **근무일당 일반 시간**&#x200B;의 기본 횟수입니다. Adobe Workfront 관리자는 **설정** > **프로젝트 환경 설정** > **프로젝트** > **타임라인**&#x200B;에서 **근무일당 일반 시간** 설정을 업데이트할 수 있습니다.\
+  >자세한 내용은 [시스템 전체 프로젝트 환경 설정 구성](../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)을 참조하세요.
 
-계획된 기간에 대한 자세한 내용은 [프로젝트 기간 개요](../manage-work/projects/planning-a-project/project-duration.md).
+계획된 기간에 대한 자세한 내용은 [프로젝트 기간 개요](../manage-work/projects/planning-a-project/project-duration.md)를 참조하십시오.
 
 ## 키보드 단축키
 
@@ -156,27 +156,27 @@ Enhanced Analytics의 특정 기능에 대한 세부 정보, 추가 통찰력을
   </tr> 
   <tr> 
    <td> <p><a href="../enhanced-analytics/flight-plan-overview.md" class="MCXref xref">향상된 분석에서 플라이트 플랜 시각화 보기</a> </p> </td> 
-   <td> <p>다음 <b>플라이트 플랜</b> 시각화는 프로젝트 기간 동안 상태가 변경되었음을 보여 줍니다. 시각화와 상호 작용하면 특정 날짜에 대한 세부 정보를 얻을 수 있습니다. 프로젝트를 선택하면 번다운 및 진행 중인 작업 시각화가 열립니다.</p> </td> 
+   <td> <p><b>플라이트 계획</b> 시각화는 프로젝트 기간 동안 상태가 변경되었음을 보여 줍니다. 시각화와 상호 작용하면 특정 날짜에 대한 세부 정보를 얻을 수 있습니다. 프로젝트를 선택하면 번다운 및 진행 중인 작업 시각화가 열립니다.</p> </td> 
   </tr> 
   <tr> 
    <td><a href="../enhanced-analytics/burndown-overview.md" class="MCXref xref">향상된 분석에서 번다운 시각화 보기</a> </td> 
-   <td> <p>다음 <b>번다운</b> 시각화는 프로젝트에 소요된 실제 시간과 비교하여 프로젝트의 계획된 속도를 보여 줍니다. 시각화와 상호 작용하면 특정 날짜의 프로젝트 상태에 대한 자세한 내용을 볼 수 있습니다.</p> </td> 
+   <td> <p><b>번다운</b> 시각화는 프로젝트에 소요된 실제 시간과 비교하여 프로젝트의 계획된 속도를 보여줍니다. 시각화와 상호 작용하면 특정 날짜의 프로젝트 상태에 대한 자세한 내용을 볼 수 있습니다.</p> </td> 
   </tr> 
   <tr> 
    <td><a href="../enhanced-analytics/tasks-in-flight-overview.md" class="MCXref xref">향상된 분석에서 진행 중인 작업 시각화 보기</a> </td> 
-   <td> <p>다음 <b>진행 중인 작업</b> 시각화는 프로젝트 내의 각 작업의 상태를 보여 줍니다. 시각화와 상호 작용하면 작업을 빠르고 쉽게 변경할 수 있습니다.</p> </td> 
+   <td> <p>진행 중인 <b>작업</b> 시각화는 프로젝트 내의 각 작업의 상태를 보여 줍니다. 시각화와 상호 작용하면 작업을 빠르고 쉽게 변경할 수 있습니다.</p> </td> 
   </tr> 
   <tr> 
    <td><a href="../enhanced-analytics/project-activity-overview.md" class="MCXref xref">향상된 분석에서 프로젝트 활동 시각화 보기</a> </td> 
-   <td> <p>다음 <b>프로젝트 활동</b> 시각화는 프로젝트에 할당된 사용자가 Workfront에 로그인하고, 해당 프로젝트의 작업 상태를 변경하고, 해당 프로젝트에서 작업을 완료한 시점의 히트맵을 보여 줍니다. 시각화와 상호 작용하면 각 사용자에 대한 이러한 세부 사항을 볼 수 있습니다. 각 작업이 완료된 횟수와 이러한 작업에 대한 특정 날짜도 볼 수 있습니다.</p> </td> 
+   <td> <p><b>프로젝트 활동</b> 시각화는 프로젝트에 할당된 사용자가 Workfront에 로그인하고, 해당 프로젝트의 작업 상태를 변경하고, 해당 프로젝트에서 작업을 완료했을 때의 히트맵을 보여 줍니다. 시각화와 상호 작용하면 각 사용자에 대한 이러한 세부 사항을 볼 수 있습니다. 각 작업이 완료된 횟수와 이러한 작업에 대한 특정 날짜도 볼 수 있습니다.</p> </td> 
   </tr> 
   <tr> 
    <td><a href="../enhanced-analytics/project-treemap-overview.md" class="MCXref xref">향상된 분석에서 프로젝트 트리맵 시각화 보기</a> </td> 
-   <td> <p>다음 <b>프로젝트 트리맵</b> 시각화는 다른 프로젝트에 비해 일부 프로젝트에서 얼마나 많은 시간이 소요되었는지를 보여 줍니다. 시각화와 상호 작용하면 프로젝트의 상태, 계획된 프로젝트 완료 및 실제 프로젝트 완료에 대한 세부 정보를 확인할 수 있습니다.</p> </td> 
+   <td> <p><b>프로젝트 트리맵</b> 시각화는 다른 프로젝트에 비해 일부 프로젝트에 소요된 시간을 보여 줍니다. 시각화와 상호 작용하면 프로젝트의 상태, 계획된 프로젝트 완료 및 실제 프로젝트 완료에 대한 세부 정보를 확인할 수 있습니다.</p> </td> 
   </tr> 
   <tr> 
    <td><a href="../enhanced-analytics/activity-by-team-overview.md" class="MCXref xref">향상된 분석에서 팀별 활동 시각화 보기</a> </td> 
-   <td> <p>다음 <b>팀별 활동</b> 시각화는 홈 팀의 사용자가 Workfront에 로그인하여 작업 상태를 변경하고 작업을 완료한 시점의 히트맵을 보여 줍니다. 시각화와 상호 작용하면 각 개별 사용자에 대한 이러한 세부 사항을 볼 수 있습니다. 각 작업이 완료된 횟수와 이러한 작업에 대한 특정 날짜도 볼 수 있습니다.</p> </td> 
+   <td> <p><b>팀별 활동</b> 시각화는 홈 팀의 사용자가 Workfront에 로그인하여 작업 상태를 변경하고 작업을 완료한 시점의 히트맵을 보여 줍니다. 시각화와 상호 작용하면 각 개별 사용자에 대한 이러한 세부 사항을 볼 수 있습니다. 각 작업이 완료된 횟수와 이러한 작업에 대한 특정 날짜도 볼 수 있습니다.</p> </td> 
   </tr> 
   <!-- Features permanently removed from Workfront
   <tr> 

@@ -37,7 +37,7 @@ GET /attask/api-internal/project/{{projectID}}?fields=currency
 }
 ```
 
-프로젝트에 대해 통화가 설정되지 않은 경우 이 응답에는 값이 있는 통화가 포함됩니다 `null`:
+프로젝트에 대해 통화가 설정되지 않은 경우 이 응답에는 값이 `null`인 통화가 포함됩니다.
 
 ```
 {

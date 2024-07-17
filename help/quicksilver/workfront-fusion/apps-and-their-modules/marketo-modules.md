@@ -5,7 +5,7 @@ product-area: workfront-integrations
 keywords: 커넥터
 navigation-topic: apps-and-their-modules
 title: Marketo 모듈
-description: 다음에서 [!DNL Adobe Workfront Fusion] 시나리오에서는 다음을 사용하는 워크플로를 자동화할 수 있습니다 [!DNL Marketo]을 여러 타사 응용 프로그램 및 서비스에 연결할 수 있습니다.
+description: ' [!DNL Adobe Workfront Fusion] 시나리오에서는  [!DNL Marketo]을(를) 사용하는 워크플로를 자동화할 수 있을 뿐만 아니라 여러 타사 응용 프로그램 및 서비스에 연결할 수 있습니다.'
 author: Becky
 feature: Workfront Fusion
 exl-id: 7f6dace5-ab50-45da-a926-1a8919057f7b
@@ -16,17 +16,17 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Marketo] 모듈
+# [!DNL Marketo]개 모듈
 
-다음에서 [!DNL Adobe Workfront Fusion] 시나리오에서는 다음을 사용하는 워크플로를 자동화할 수 있습니다 [!DNL Marketo]을 여러 타사 응용 프로그램 및 서비스에 연결할 수 있습니다.
+[!DNL Adobe Workfront Fusion] 시나리오에서는 [!DNL Marketo]을(를) 사용하는 워크플로를 자동화하고 여러 타사 응용 프로그램 및 서비스에 연결할 수 있습니다.
 
 Marketo 커넥터에 대한 비디오 소개는 다음을 참조하십시오.
 
 * [Marketo](https://video.tv.adobe.com/v/3427026/){target=_blank}
 
-시나리오를 만드는 방법에 대한 지침이 필요한 경우 [에서 시나리오 만들기 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+시나리오를 만드는 방법에 대한 지침이 필요하면 [시나리오 만들기 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md)를 참조하십시오.
 
-모듈에 대한 자세한 내용은 [의 모듈 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+모듈에 대한 자세한 내용은 [의 모듈 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md)을 참조하세요.
 
 ## 액세스 요구 사항
 
@@ -47,44 +47,44 @@ Marketo 커넥터에 대한 비디오 소개는 다음을 참조하십시오.
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 라이센스**</td> 
    <td>
-   <p>현재 라이선스 요구 사항: 아니요 [!DNL Workfront Fusion] 라이센스 요구 사항.</p>
+   <p>현재 라이선스 요구 사항: [!DNL Workfront Fusion] 라이선스 요구 사항이 없습니다.</p>
    <p>또는</p>
-   <p>기존 라이선스 요구 사항: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
+   <p>레거시 라이선스 요구 사항: 작업 자동화 및 통합을 위한 [!UICONTROL [!DNL Workfront Fusion]] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">제품</td> 
    <td>
-   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime]이 있는 경우 [!DNL Adobe Workfront] 플랜, 조직은 다음을 구매해야 합니다. [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오. [!DNL Workfront Fusion] [!UICONTROL Ultimate]에 포함되어 있습니다. [!DNL Workfront] 계획.</p>
+   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime] [!DNL Adobe Workfront] 플랜이 있는 경우 조직에서 이 문서에 설명된 기능을 사용하려면 [!DNL Adobe Workfront Fusion]과(와) [!DNL Adobe Workfront]을(를) 구매해야 합니다. [!DNL Workfront Fusion]이(가) [!UICONTROL Ultimate] [!DNL Workfront] 계획에 포함되어 있습니다.</p>
    <p>또는</p>
-   <p>레거시 제품 요구 사항: 조직에서 구매해야 함 [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오.</p>
+   <p>레거시 제품 요구 사항: 이 문서에 설명된 기능을 사용하려면 조직에서 [!DNL Adobe Workfront Fusion]과(와) [!DNL Adobe Workfront]을(를) 구매해야 합니다.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
+보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
 
-다음에 대한 정보: [!DNL Adobe Workfront Fusion] 라이센스, 참조 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+[!DNL Adobe Workfront Fusion] 라이선스에 대한 자세한 내용은 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md)를 참조하세요.
 
 ## 전제 조건
 
-사용 [!DNL Marketo] 모듈, 다음이 있어야 합니다. [!DNL Marketo] 계정입니다.
+[!DNL Marketo] 모듈을 사용하려면 [!DNL Marketo] 계정이 있어야 합니다.
 
-## 연결 [!DNL Marketo] Workfront Fusion으로 {#connect-marketo-to-workfront-fusion}
+## Workfront Fusion에 [!DNL Marketo] 연결 {#connect-marketo-to-workfront-fusion}
 
-에 대한 연결을 만들 수 있습니다. [!DNL Marketo] 내부에서 직접 계정 생성 [!DNL Marketo] 모듈.
+[!DNL Marketo] 모듈 내에서 직접 [!DNL Marketo] 계정에 연결할 수 있습니다.
 
-1. 다음 중 하나 [!DNL Marketo] 모듈, 클릭 **[!UICONTROL 추가]** 다음 옆에 [!UICONTROL 연결] 필드.
-1. 다음을 입력하십시오. [!DNL Marketo] 계정 또는 [!DNL Marketo] [!UICONTROL 먼치킨] ID 계정에 할당된 기본 URL 또는 끝점의 고유한 부분으로, 액세스하는 데 사용합니다. [!DNL Marketo] 를 통해 [!UICONTROL 나머지] API. 이 위치를 찾는 방법에 대한 지침은 [기본 URL](https://developers.marketo.com/rest-api/base-url/) 다음에서 [!DNL Marketo] 설명서를 참조하십시오.
-1. 다음을 입력하십시오. [!UICONTROL 클라이언트 ID] 및 [!UICONTROL 클라이언트 암호]. 위치를 찾는 방법에 대한 자세한 내용은 [인증](https://developers.marketo.com/rest-api/authentication/) 다음에서 [!DNL Marketo] 설명서를 참조하십시오.
-1. 클릭 **[!UICONTROL 계속]** 를 클릭하여 연결을 만들고 모듈로 돌아갑니다.
+1. [!DNL Marketo] 모듈에서 [!UICONTROL 연결] 필드 옆에 있는 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
+1. [!DNL Marketo] 계정 또는 [!DNL Marketo] [!UICONTROL Munchkin] ID를 입력하십시오. 계정에 할당된 기본 URL 또는 끝점의 고유한 부분이며, 해당 [!UICONTROL REST] API를 통해 [!DNL Marketo]에 액세스하는 데 사용합니다. 찾는 방법에 대한 지침은 [!DNL Marketo] 설명서의 [기본 URL](https://developers.marketo.com/rest-api/base-url/)을 참조하십시오.
+1. [!UICONTROL 클라이언트 ID] 및 [!UICONTROL 클라이언트 암호]를 입력하십시오. 찾는 방법에 대한 지침은 [!DNL Marketo] 설명서의 [인증](https://developers.marketo.com/rest-api/authentication/)을 참조하십시오.
+1. 연결을 만들고 모듈로 돌아가려면 **[!UICONTROL 계속]**&#x200B;을 클릭하세요.
 
 ## [!DNL Marketo] 모듈 및 해당 필드
 
-를 구성할 때 [!DNL Marketo] 모듈, [!DNL Workfront Fusion] 아래 나열된 필드를 표시합니다. 이와 함께 추가 [!DNL Marketo] 앱이나 서비스의 액세스 수준 등에 따라 필드가 표시될 수 있습니다. 모듈의 굵은 제목은 필수 필드를 나타냅니다.
+[!DNL Marketo] 모듈을 구성할 때 [!DNL Workfront Fusion]에 아래 나열된 필드가 표시됩니다. 앱 또는 서비스의 액세스 수준과 같은 요소에 따라 이러한 필드와 함께 [!DNL Marketo] 필드가 추가로 표시될 수 있습니다. 모듈의 굵은 제목은 필수 필드를 나타냅니다.
 
-필드나 함수 위에 맵 단추가 표시되면 이 단추를 사용하여 해당 필드에 대한 변수와 함수를 설정할 수 있습니다. 자세한 내용은 [의 한 모듈에서 다른 모듈로 정보 매핑 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+필드나 함수 위에 맵 단추가 표시되면 이 단추를 사용하여 해당 필드에 대한 변수와 함수를 설정할 수 있습니다. 자세한 내용은 [한 모듈에서 다른 모듈로 정보를 매핑 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)을 참조하십시오.
 
 ![](assets/map-toggle-350x74.png)
 
@@ -107,13 +107,13 @@ Marketo 커넥터에 대한 비디오 소개는 다음을 참조하십시오.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Marketo] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">연결 [!DNL Marketo] 끝 [!DNL Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL Marketo] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">[!DNL Marketo]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 레코드 유형]</td> 
    <td> <p>만들려는 레코드 유형을 선택합니다.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Activity]</strong> </p> <p>보려는 활동 유형을 선택합니다. </p> <p>모듈은 새 활동만 감시합니다.<br></p> </li> 
+     <li> <p><strong>[!UICONTROL 활동]</strong> </p> <p>보려는 활동 유형을 선택합니다. </p> <p>모듈은 새 활동만 감시합니다.<br></p> </li> 
      <li> <p><strong>[!UICONTROL 리드]</strong> </p> <p>새 레코드, 업데이트된 레코드, 새 레코드와 업데이트된 레코드 모두 또는 특정 필드 업데이트를 감시할지 여부를 선택합니다. 특정 필드 업데이트를 시청하도록 선택하는 경우 모듈에서 시청하려는 필드를 선택합니다.</p> </li> 
      <li> <p><strong>[!UICONTROL 프로그램]</strong> </p> <p>새 레코드, 업데이트된 레코드 또는 새 레코드와 업데이트된 레코드를 모두 감시할지 여부를 선택합니다.</p> </li> 
     </ul> </td> 
@@ -139,7 +139,7 @@ Marketo 커넥터에 대한 비디오 소개는 다음을 참조하십시오.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Webhook]</p> </td> 
-   <td> <p>모듈에서 사용할 웹후크를 입력합니다.</p> <p>웹후크에 대한 자세한 내용은 <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref">의 인스턴트 트리거(웹후크) [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>모듈에서 사용할 웹후크를 입력합니다.</p> <p>웹후크에 대한 자세한 내용은 [!DNL Adobe Workfront Fusion]</a>의 <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref">인스턴트 트리거(웹후크)를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 제한]</td> 
@@ -150,7 +150,7 @@ Marketo 커넥터에 대한 비디오 소개는 다음을 참조하십시오.
 
 ### 액션
 
-* [[!UICONTROL 사용자 정의 API 호출]](#custom-api-call)
+* [[!UICONTROL 사용자 지정 API 호출]](#custom-api-call)
 * [[!UICONTROL 레코드 만들기]](#create-a-record)
 * [[!UICONTROL 레코드 업데이트]](#update-a-record)
 * [[!UICONTROL 파일 다운로드]](#download-a-file)
@@ -161,9 +161,9 @@ Marketo 커넥터에 대한 비디오 소개는 다음을 참조하십시오.
 * [[!UICONTROL 캠페인 예약]](#schedule-a-campaign)
 * [[!UICONTROL 프로그램 복사]](#copy-a-program)
 
-#### [!UICONTROL 사용자 정의 API 호출]
+#### [!UICONTROL 사용자 지정 API 호출]
 
-이 작업 모듈에서는 다음을 위한 사용자 지정 인증 호출을 만들 수 있습니다. [!DNL Marketo] API. 이렇게 하면 다른 사용자가 수행할 수 없는 데이터 흐름 자동화를 만들 수 있습니다 [!DNL Marketo] 모듈.
+이 작업 모듈을 사용하면 [!DNL Marketo] API에 대해 사용자 지정 인증된 호출을 수행할 수 있습니다. 이렇게 하면 다른 [!DNL Marketo] 모듈에서 수행할 수 없는 데이터 흐름 자동화를 만들 수 있습니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -171,15 +171,15 @@ Marketo 커넥터에 대한 비디오 소개는 다음을 참조하십시오.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Marketo] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">연결 [!DNL Marketo] 끝 [!DNL Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL Marketo] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">[!DNL Marketo]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
-   <td>상대 경로 입력 <code>https://{your-base-url}.mktorest.com/</code>.</td> 
+   <td><code>https://{your-base-url}.mktorest.com/</code>과(와) 관련된 경로를 입력하십시오.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 메서드]</td> 
-   <td> <p>API 호출을 구성하는 데 필요한 HTTP 요청 메서드를 선택합니다. 자세한 내용은 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">의 HTTP 요청 메서드 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>API 호출을 구성하는 데 필요한 HTTP 요청 메서드를 선택합니다. 자세한 내용은 [!DNL Adobe Workfront Fusion]</a>에서 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">HTTP 요청 메서드를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -191,7 +191,7 @@ Marketo 커넥터에 대한 비디오 소개는 다음을 참조하십시오.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>표준 JSON 개체의 형태로 API 호출에 대한 본문 콘텐츠를 추가합니다.</p> <p>참고:  <p>다음과 같은 조건문을 사용할 때 <code>if</code> json에서 따옴표를 조건문 외부에 넣습니다.</p> 
+   <td> <p>표준 JSON 개체의 형태로 API 호출에 대한 본문 콘텐츠를 추가합니다.</p> <p>참고:  <p>JSON에서 <code>if</code>과(와) 같은 조건문을 사용할 때 따옴표를 조건문 외부에 넣으십시오.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -205,7 +205,7 @@ Marketo 커넥터에 대한 비디오 소개는 다음을 참조하십시오.
 
 #### [!UICONTROL 레코드 만들기]
 
-이 작업 모듈은에 새 레코드를 만듭니다. [!DNL Marketo]
+이 작업 모듈은 [!DNL Marketo]에 새 레코드를 만듭니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -213,7 +213,7 @@ Marketo 커넥터에 대한 비디오 소개는 다음을 참조하십시오.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Marketo] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">연결 [!DNL Marketo] 끝 [!DNL Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL Marketo] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">[!DNL Marketo]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 레코드 유형]</td> 
@@ -270,7 +270,7 @@ Marketo 커넥터에 대한 비디오 소개는 다음을 참조하십시오.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Marketo] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">연결 [!DNL Marketo] 끝 [!DNL Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL Marketo] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">[!DNL Marketo]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 레코드 유형]</td> 
@@ -326,7 +326,7 @@ Marketo 커넥터에 대한 비디오 소개는 다음을 참조하십시오.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Marketo] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">연결 [!DNL Marketo] 끝 [!DNL Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL Marketo] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">[!DNL Marketo]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 파일 ID]</td> 
@@ -337,7 +337,7 @@ Marketo 커넥터에 대한 비디오 소개는 다음을 참조하십시오.
 
 #### [!UICONTROL 파일 업로드]
 
-이 작업 모듈은에 새 파일을 업로드합니다 [!UICONTROL Marketo].
+이 작업 모듈은 새 파일을 [!UICONTROL Marketo]에 업로드합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -345,10 +345,10 @@ Marketo 커넥터에 대한 비디오 소개는 다음을 참조하십시오.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Marketo] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">연결 [!DNL Marketo] 끝 [!DNL Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL Marketo] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">[!DNL Marketo]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 소스 파일]</td> 
+   <td role="rowheader">[!UICONTROL Source 파일]</td> 
    <td>이전 모듈에서 소스 파일을 선택하거나 소스 파일의 이름과 데이터를 매핑합니다.</td> 
   </tr> 
   <tr> 
@@ -372,7 +372,7 @@ Marketo 커넥터에 대한 비디오 소개는 다음을 참조하십시오.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Marketo] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">연결 [!DNL Marketo] 끝 [!DNL Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL Marketo] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">[!DNL Marketo]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 레코드 유형]</td> 
@@ -390,7 +390,7 @@ Marketo 커넥터에 대한 비디오 소개는 다음을 참조하십시오.
    <td>이 모듈에 대한 출력 번들에 포함할 정보를 선택합니다. 필드는 선택한 [!UICONTROL 레코드 종류]에 따라 사용할 수 있습니다.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL &lt;object&gt; ID]</td> 
+   <td role="rowheader">[!UICONTROL &lt;개체&gt; ID]</td> 
    <td>정보를 검색할 개체의 ID를 입력하거나 매핑합니다.</td> 
   </tr> 
  </tbody> 
@@ -406,7 +406,7 @@ Marketo 커넥터에 대한 비디오 소개는 다음을 참조하십시오.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Marketo] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">연결 [!DNL Marketo] 끝 [!DNL Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL Marketo] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">[!DNL Marketo]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 목록 ID]</td> 
@@ -414,7 +414,7 @@ Marketo 커넥터에 대한 비디오 소개는 다음을 참조하십시오.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 리드 ID]</td> 
-   <td> <p>목록에 추가할 각 리드에 대해 다음을 클릭합니다. <b>[!UICONTROL 추가]</b>을 클릭한 후 추가할 잠재 고객의 ID를 입력하거나 매핑합니다. 목록에 추가할 모듈에 대해 최대 300개의 리드를 추가할 수 있습니다.</p> <p>맵 토글을 클릭하여 목록에 추가하려는 기존 리드 컬렉션을 매핑합니다.</p> </td> 
+   <td> <p>목록에 추가할 각 리드에 대해 <b>[!UICONTROL 추가]</b>를 클릭한 다음 추가할 리드의 ID를 입력하거나 매핑합니다. 목록에 추가할 모듈에 대해 최대 300개의 리드를 추가할 수 있습니다.</p> <p>맵 토글을 클릭하여 목록에 추가하려는 기존 리드 컬렉션을 매핑합니다.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -429,7 +429,7 @@ Marketo 커넥터에 대한 비디오 소개는 다음을 참조하십시오.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Marketo] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">연결 [!DNL Marketo] 끝 [!DNL Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL Marketo] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">[!DNL Marketo]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 목록 ID]</td> 
@@ -437,7 +437,7 @@ Marketo 커넥터에 대한 비디오 소개는 다음을 참조하십시오.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 리드 ID]</td> 
-   <td> <p>목록에서 제거할 각 리드에 대해 다음을 클릭합니다. <b>[!UICONTROL 추가]</b>그런 다음 제거할 잠재 고객의 ID를 입력하거나 매핑합니다. 목록에서 제거할 모듈에 대해 최대 300개의 리드를 추가할 수 있습니다. </p> <p>맵 토글을 클릭하여 목록에서 제거할 기존 리드 컬렉션을 매핑합니다.</p> </td> 
+   <td> <p>목록에서 제거할 각 리드에 대해 <b>[!UICONTROL 추가]</b>를 클릭한 다음 제거할 리드의 ID를 입력하거나 매핑하십시오. 목록에서 제거할 모듈에 대해 최대 300개의 리드를 추가할 수 있습니다. </p> <p>맵 토글을 클릭하여 목록에서 제거할 기존 리드 컬렉션을 매핑합니다.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -452,7 +452,7 @@ Marketo 커넥터에 대한 비디오 소개는 다음을 참조하십시오.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Marketo] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">연결 [!DNL Marketo] 끝 [!DNL Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL Marketo] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">[!DNL Marketo]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 캠페인 ID]</td> 
@@ -475,7 +475,7 @@ Marketo 커넥터에 대한 비디오 소개는 다음을 참조하십시오.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Marketo] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">연결 [!DNL Marketo] 끝 [!DNL Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL Marketo] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">[!DNL Marketo]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 기존 프로그램 ID]</td> 
@@ -494,10 +494,10 @@ Marketo 커넥터에 대한 비디오 소개는 다음을 참조하십시오.
 
 ### 검색 결과
 
-* [[!UICONTROL 목록 레코드]](#list-records)
+* [[!UICONTROL 레코드 나열]](#list-records)
 * [[!UICONTROL 레코드 검색]](#update-a-record)
 
-#### [!UICONTROL 목록 레코드]
+#### [!UICONTROL 레코드 나열]
 
 이 작업 모듈은 특정 유형의 모든 레코드를 검색합니다.
 
@@ -507,7 +507,7 @@ Marketo 커넥터에 대한 비디오 소개는 다음을 참조하십시오.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Marketo] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">연결 [!DNL Marketo] 끝 [!DNL Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL Marketo] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">[!DNL Marketo]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 레코드 유형]</td> 
@@ -543,7 +543,7 @@ Marketo 커넥터에 대한 비디오 소개는 다음을 참조하십시오.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Marketo] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">연결 [!DNL Marketo] 끝 [!DNL Workfront Fusion]</a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL Marketo] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">[!DNL Marketo]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 레코드 유형]</td> 
@@ -560,7 +560,7 @@ Marketo 커넥터에 대한 비디오 소개는 다음을 참조하십시오.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 값]</td> 
-   <td>검색할 각 값에 대해 <b>[!UICONTROL 항목 추가]</b> 값을 입력합니다.</td> 
+   <td>검색할 각 값에 대해 <b>[!UICONTROL 항목 추가]</b>를 클릭하고 값을 입력합니다.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Output]</td> 

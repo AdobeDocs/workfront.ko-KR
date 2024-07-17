@@ -15,17 +15,17 @@ ht-degree: 1%
 
 # 작업 및 문제에 대한 상태 업데이트
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리보기 환경 또는 빠른 릴리스를 활성화한 고객의 프로덕션 환경에서만 사용할 수 있습니다.</span>
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리 보기 환경이나 빠른 릴리스를 활성화한 고객의 프로덕션 환경에서만 사용할 수 있습니다.</span>
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 활성화 또는 비활성화](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>을 참조하세요.
 
-<span class="preview">현재 릴리스에 대한 자세한 내용은 [2024년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">현재 릴리스에 대한 자세한 내용은 [2024년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)를 참조하십시오.</span>
 
 작업 또는 문제의 상태는 작업 또는 문제의 진행 상황을 나타내는 플래그입니다. 이는 항목의 현재 개발 단계를 나타내는 작업 항목의 상태와 다릅니다.
 
 작업 또는 문제의 상태를 자동 또는 수동으로 설정할 수 있습니다.
 
-이 문서에서 참조하는 조건 값은 기본적으로 Workfront에서 사용할 수 있습니다. Adobe Workfront 관리자는에 설명된 대로 환경에 대한 사용자 지정 조건을 만들 수 있습니다. [사용자 지정 조건 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
+이 문서에서 참조하는 조건 값은 기본적으로 Workfront에서 사용할 수 있습니다. [사용자 지정 조건 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md)에 설명된 대로 Adobe Workfront 관리자가 환경에 대한 사용자 지정 조건을 만들 수 있습니다.
 
 ## 액세스 요구 사항 {#access-requirements}
 
@@ -66,7 +66,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오. 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오. 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## 전제 조건
 
@@ -74,15 +74,15 @@ ht-degree: 1%
 
 ## 작업 및 문제의 상태 찾기
 
-조건이 작업 또는 문제와 관련된 플래그로 표시됩니다. 레이블 대신 보고서에 표시할 수 있는 숫자와 연결할 수도 있습니다. 조건을 숫자와 연관시키는 방법에 대한 자세한 내용은 [사용자 지정 조건 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
+조건이 작업 또는 문제와 관련된 플래그로 표시됩니다. 레이블 대신 보고서에 표시할 수 있는 숫자와 연결할 수도 있습니다. 조건을 숫자와 연결하는 방법에 대한 자세한 내용은 [사용자 지정 조건 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md)을 참조하세요.
 
 Workfront의 다음 영역에서 작업 및 문제의 상태를 찾을 수 있습니다.
 
-* <span class="preview">Workfront 또는 그룹 관리자가 레이아웃 템플릿에 추가하면 세부 정보 페이지가 표시됩니다. 자세한 내용은 [레이아웃 템플릿을 사용하여 세부 정보 보기 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md). </span>
+* <span class="preview">Workfront 또는 그룹 관리자가 레이아웃 템플릿에 추가한 후 세부 정보 페이지입니다. 자세한 내용은 [레이아웃 템플릿을 사용하여 세부 정보 보기 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)을 참조하십시오. </span>
 
-* <span class="preview">Workfront 또는 그룹 관리자가 작업 또는 문제를 레이아웃 템플릿에 추가한 후의 헤더. 자세한 내용은 [레이아웃 템플릿을 사용하여 개체 머리글 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span>
+* <span class="preview">Workfront 또는 그룹 관리자가 작업 또는 문제를 레이아웃 템플릿에 추가한 후 작업 또는 문제의 헤더입니다. 자세한 내용은 [레이아웃 템플릿을 사용하여 개체 머리글 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)을 참조하십시오. </span>
 
-* 요약 패널은 Workfront 또는 그룹 관리자가 레이아웃 템플릿에 추가하면 됩니다. 자세한 내용은 [레이아웃 템플릿을 사용하여 홈 및 요약 맞춤화](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+* 요약 패널은 Workfront 또는 그룹 관리자가 레이아웃 템플릿에 추가하면 됩니다. 자세한 내용은 [레이아웃 템플릿을 사용하여 홈 및 요약 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)을 참조하십시오.
 
 * 보기 또는 그룹화에 조건 필드를 표시할 때의 보고서 및 목록입니다.
 
@@ -92,15 +92,15 @@ Workfront의 다음 영역에서 작업 및 문제의 상태를 찾을 수 있�
 
 ## 상태를 업데이트하여 상태 자동 업데이트
 
-작업 또는 문제가 할당되고 **처리 중** , 작업 또는 문제 시작 또는 상태 업데이트. 작업 또는 문제의 상태가 과 연결된 기본 상태로 자동 변경됩니다. **매끄럽게 진행 중**.
+작업 또는 문제가 할당되어 **작업**, 작업 또는 문제 시작 또는 상태 업데이트를 클릭하면 작업 또는 문제의 상태가 **원활하게 진행**&#x200B;과(와) 관련된 기본 상태로 자동 변경됩니다.
 
-사용자 지정 조건을 기본 조건으로 사용하는 방법에 대한 자세한 내용은 문서 를 참조하십시오  [작업 및 문제에 대한 기본값으로 사용자 지정 조건 설정](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md) 및 [사용자 지정 조건을 프로젝트의 기본값으로 설정](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md).
+사용자 지정 조건을 기본 조건으로 사용하는 방법에 대한 자세한 내용은 문서 [작업 및 문제에 대한 기본값으로 사용자 지정 조건 설정](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md) 및 [프로젝트의 기본값으로 사용자 지정 조건 설정](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md)을 참조하십시오.
 
-작업 상태 변경에 대한 자세한 내용은 [작업 상태 업데이트](../../../manage-work/projects/updating-work-in-a-project/update-task-status.md).
+작업 상태 변경에 대한 자세한 내용은 [작업 상태 업데이트](../../../manage-work/projects/updating-work-in-a-project/update-task-status.md)를 참조하십시오.
 
-문제 상태 변경에 대한 자세한 내용은 [문제 상태 업데이트](../../../manage-work/projects/updating-work-in-a-project/update-issue-status.md).
+문제 상태 변경에 대한 자세한 내용은 [문제 상태 업데이트](../../../manage-work/projects/updating-work-in-a-project/update-issue-status.md)를 참조하십시오.
 
-처리 중(Work On It) 단추를 작업 시작 또는 문제 시작 단추로 설정하는 방법에 대한 자세한 내용은 [처리 중 단추를 시작 단추로 바꾸기](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
+[처리 중] 단추를 [작업 시작] 또는 [문제 시작] 단추로 설정하는 방법에 대한 자세한 내용은 [처리 중 단추를 [시작] 단추로 바꾸기](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)를 참조하십시오.
 
 ## 수동으로 조건 업데이트
 
@@ -115,7 +115,7 @@ Workfront의 다음 영역에서 작업 및 문제의 상태를 찾을 수 있�
 >자세한 내용은 다음 문서를 참조하십시오.
 >
 >* [요약 개요](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
->* [레이아웃 템플릿을 사용하여 홈 및 요약 맞춤화](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+>* [레이아웃 템플릿을 사용하여 홈 및 요약을 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 
 <!--old Condition update - in the commenting stream: 
@@ -130,7 +130,7 @@ Updating the Condition of a task or issue differs depending on whether you are a
 
 1. 작업 또는 문제 헤더에서 작업 또는 문제의 상태를 업데이트하려면 다음을 수행하십시오.
 
-   1. (조건부) Workfront 또는 그룹 관리자가 레이아웃 템플릿의 작업 또는 문제 헤더에 조건 필드를 추가한 경우 **조건** 헤더에 있는 필드를 입력하고 다음 옵션 중에서 선택합니다.
+   1. (조건부) Workfront 또는 그룹 관리자가 레이아웃 템플릿의 작업 또는 문제 헤더에 조건 필드를 추가한 경우 헤더에서 **조건** 필드를 클릭하고 다음 옵션 중에서 선택합니다.
       * 매끄럽게 진행 중
       * 일부 우려 사항
       * 주요 장애물
@@ -140,28 +140,28 @@ Updating the Condition of a task or issue differs depending on whether you are a
 
 1. 작업 또는 문제 세부 정보 섹션에서 작업 또는 문제의 상태를 업데이트하려면 다음을 수행하십시오.
 
-   1. (조건부) Workfront 또는 그룹 관리자가 레이아웃 템플릿에서 작업 또는 문제의 세부 정보 섹션에 조건 필드를 추가한 경우 다음을 클릭하십시오. **세부 사항** 왼쪽 패널에서 를 클릭한 다음 **작업 상태** 또는 **문제 상태** 을 클릭하고 다음 옵션 중에서 선택합니다.
+   1. (조건부) Workfront 또는 그룹 관리자가 레이아웃 템플릿에 있는 작업 또는 문제의 세부 정보 섹션에 조건 필드를 추가한 경우 왼쪽 패널에서 **세부 정보**&#x200B;를 클릭한 다음 **작업 조건** 또는 **문제 조건**&#x200B;을 클릭하고 다음 옵션 중에서 선택하십시오.
       * 매끄럽게 진행 중
       * 일부 우려 사항
       * 주요 장애물
-1. 클릭 **변경 내용 저장**. 작업 또는 문제의 상태가 업데이트됩니다.
+1. **변경 내용 저장**&#x200B;을 클릭합니다. 작업 또는 문제의 상태가 업데이트됩니다.
 
 </div>
 
 보고서 또는 목록의 작업 또는 문제의 상태를 업데이트하려면 다음을 수행합니다.
 
-1. 관리 권한이 있는 작업 또는 문제 목록으로 이동합니다. 다음을 확인합니다. **조건** 필드는 목록의 보기에 표시됩니다.
+1. 관리 권한이 있는 작업 또는 문제 목록으로 이동합니다. **Condition** 필드가 목록의 보기에 표시되는지 확인합니다.
 
-1. 업데이트 **조건** 기존 조건을 두 번 클릭하고 드롭다운 메뉴에서 새 값을 선택하여 문제 또는 작업 인라인입니다.
+1. 기존 조건을 두 번 클릭하고 드롭다운 메뉴에서 새 값을 선택하여 문제 또는 작업 인라인의 **조건**&#x200B;을(를) 업데이트합니다.
 
    ![](assets/condition-drop-down-values-in-task-list.png)
 
    >[!NOTE]
    >
-   >사용자 환경에 맞게 조건을 사용자 정의할 수 있으므로 사용자 환경에서 조건에 대한 세 가지 이상의 옵션을 찾을 수 있습니다. 조건의 이름은 위에 나열된 조건과 다를 수 있습니다. Workfront에서 조건 사용자 지정에 대한 자세한 내용은 [사용자 지정 조건 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
+   >사용자 환경에 맞게 조건을 사용자 정의할 수 있으므로 사용자 환경에서 조건에 대한 세 가지 이상의 옵션을 찾을 수 있습니다. 조건의 이름은 위에 나열된 조건과 다를 수 있습니다. Workfront에서 조건을 사용자 지정하는 방법에 대한 자세한 내용은 [사용자 지정 조건 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md)을 참조하십시오.
 
 
-1. 누르기 **입력** 키보드에서 을(를) 클릭하거나 조건 필드 외부를 클릭하여 새 작업 또는 문제 조건을 저장합니다.
+1. 키보드에서 **Enter**&#x200B;를 누르거나 Condition 필드 외부를 클릭하여 새 작업 또는 문제 Condition을 저장합니다.
 
 <!--   
 <li><p>(NOTE: drafted because I can't do this anymore)</p><p>If you have Manage permissions to the task or issue but are not assigned to it, perhaps as a project manager, add the <strong>Condition</strong> column to any view you use in a task or issue list, then set the <strong>Condition</strong> in inline edit and press Enter.</p><p><img src="assets/change-condition-in-list-view-350x142.png" style="width: 350;height: 142;"></p><p>For information about adding a column to a view, see <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md">Views overview in Adobe Workfront</a>.</p></li>   

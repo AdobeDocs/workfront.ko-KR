@@ -16,7 +16,7 @@ ht-degree: 0%
 
 이 페이지에서는 23.3 릴리스의 기타 모든 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2023년 7월 20일과 21일에 23.3 릴리스를 통해 프로덕션 환경에서 사용할 수 있습니다.
 
-23.3 릴리스 주기 동안 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 을 참조하십시오. [23.3 릴리스 개요](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+23.3 릴리스 주기 동안 현재 사용 가능한 모든 변경 사항 목록을 보려면 [23.3 릴리스 개요](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)를 참조하십시오.
 
 ## 새로운 홈 경험
 
@@ -30,9 +30,9 @@ New Home은 우리가 계속 발전하고 발전할 것으로 기대되는 주�
 
 새 홈은 릴리스 시 모든 사용자의 기본 환경이 됩니다. 그러나 기능을 계속 개발할 때 기존 홈 환경으로 되돌릴 수 있습니다.
 
-자세한 내용은 [Adobe Workfront의 새 홈 시작](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+자세한 내용은 [Adobe Workfront에서 새 홈 시작](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)을 참조하세요.
 
-[이 기능에 대한 비디오 데모 보기](https://video.tv.adobe.com/v/3420969/){target=_blank}
+[이 기능의 비디오 데모 보기](https://video.tv.adobe.com/v/3420969/){target=_blank}
 
 ## 추가 오브젝트에 대한 새로운 댓글 달기 환경
 
@@ -40,16 +40,16 @@ New Home은 우리가 계속 발전하고 발전할 것으로 기대되는 주�
 
 기존 댓글 달기 경험이 제거되므로 이 작업은 이러한 오브젝트에 대한 유일한 댓글 달기 경험이 됩니다.
 
-자세한 내용은 [새로운 댓글 달기 경험 릴리스 활동](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+자세한 내용은 [새 댓글 달기 경험 릴리스 활동](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)을 참조하세요.
 
 ## 프로젝트, 작업 및 문제에 대한 새로운 댓글 달기 Beta 경험
 
-이제 프로젝트, 작업 및 문서에 새 댓글 달기 Beta 환경을 사용할 수 있습니다. 이 업데이트 이전에는 댓글 달기 Beta 경험을 문제 및 목표에 대해서만 사용할 수 있었습니다.
+이제 프로젝트, 작업 및 문서에 새 Beta 댓글 달기 환경을 사용할 수 있습니다. 이 업데이트 이전에는 Beta 댓글 달기 경험을 문제 및 목표에만 사용할 수 있었습니다.
 
-현재 댓글 달기 Beta 경험에서 사용할 수 있는 기능에 대한 자세한 내용은 [새로운 댓글 달기 Beta 경험 릴리스 활동](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+현재 댓글 달기 Beta 경험에서 사용할 수 있는 기능에 대한 자세한 내용은 [새 댓글 달기 Beta 경험 릴리스 활동](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)을 참조하십시오.
 
 ## 이제 아바타가 없는 프로필에 사용자 이니셜이 표시됨
 
 큰 목록 내에서 특정 사용자를 더 쉽게 찾을 수 있도록 사용자 지정된 아바타가 없는 프로필은 이제 목록 및 레거시 보고서의 색상 배경에 사용자 이니셜을 표시합니다. 이는 사소한 외관 변경이며 아바타 사진을 이미 사용 중이거나 사용자가 비활성화된 경우에는 적용되지 않습니다.
 
-사용자 프로필 편집에 대한 자세한 내용은 [사용자 프로필 편집](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+사용자 프로필 편집에 대한 자세한 내용은 [사용자 프로필 편집](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)을 참조하십시오.

@@ -10,8 +10,8 @@ role: Developer
 exl-id: 7ac2c6c8-1cb8-49df-8d63-a6b47ad02a13
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '3646'
-ht-degree: 4%
+source-wordcount: '3620'
+ht-degree: 2%
 
 ---
 
@@ -30,7 +30,7 @@ Webhook 기반 통합을 위한 사용자 경험은 Google Drive, Box 및 Dropbo
 
 ## 참조 구현
 
-새 웹후크 구현의 개발을 바로 시작할 수 있도록 Workfront에서는 참조 구현을 제공합니다. 이에 대한 코드는에서 찾을 수 있습니다. [https://github.com/Workfront/webhooks-app](https://github.com/Workfront/webhooks-app). 이 구현은 Java 기반이며 Workfront에서 네트워크 파일 시스템의 문서를 연결할 수 있도록 해 줍니다.
+새 웹후크 구현의 개발을 바로 시작할 수 있도록 Workfront에서는 참조 구현을 제공합니다. 이에 대한 코드는 [https://github.com/Workfront/webhooks-app](https://github.com/Workfront/webhooks-app)에서 찾을 수 있습니다. 이 구현은 Java 기반이며 Workfront에서 네트워크 파일 시스템의 문서를 연결할 수 있도록 해 줍니다.
 
 ## Webhook 통합 등록
 
@@ -108,7 +108,7 @@ OAuth2를 통해 Workfront은 사용자를 대신하여 웹후크 공급자에 �
 1. 사용자가 Webhook 통합을 해당 계정에 연결하기 시작합니다. 현재 이 작업은 &quot;문서 추가&quot; 드롭다운 > &quot;서비스 추가&quot; > 사용자 정의 통합 이름을 클릭하여 수행됩니다.
 1. Workfront은 사용자에게 인증 URL을 탐색합니다. 이 URL은 사용자가 외부 문서 공급자에 로그인하라는 메시지를 표시할 수 있습니다. 이 페이지는 웹후크 공급자 또는 외부 문서 관리 시스템에 의해 호스팅됩니다. 이렇게 하면 Workfront이 인증 URL에 &quot;state&quot; 매개 변수를 추가합니다. 아래 단계에서 동일한 값을 Workfront 반환 URI에 추가하여 이 값을 Workfront에 다시 전달해야 합니다.
 1. 외부 시스템에 로그인한 후(또는 사용자가 이미 로그인한 경우) 사용자는 &quot;인증&quot; 페이지로 이동됩니다. 이 페이지는 Workfront이 사용자를 대신하여 일련의 작업을 수행하기 위해 액세스 권한을 요청하고 있음을 설명합니다.
-1. 사용자가 &quot;허용&quot; 단추를 클릭하면 브라우저가 Workfront 리디렉션 URI 로 리디렉션되고 &quot;code=&quot;가 추가됩니다.`<code>`&quot;쿼리 문자열. OAuth2 사양에 따라 이 토큰은 수명이 짧습니다. 쿼리 문자열에는 &quot;state=&quot;도 있어야 합니다.`<sent_by_workfront>`&quot;.
+1. 사용자가 &quot;허용&quot; 단추를 클릭하면 브라우저가 Workfront 리디렉션 URI 로 리디렉션되고 쿼리 문자열에 &quot;code=`<code>`&quot;이(가) 추가됩니다. OAuth2 사양에 따라 이 토큰은 수명이 짧습니다. 쿼리 문자열에는 &quot;state=`<sent_by_workfront>`&quot;도 있어야 합니다.
 1. Workfront은 이 요청을 처리하고 인증 코드를 사용하여 토큰 끝점 URL에 대한 API를 호출합니다.
 1. 토큰 끝점 URL은 새로 고침 토큰 및 액세스 토큰을 반환합니다.
 1. Workfront은 이러한 토큰을 저장하고 이 사용자를 위한 webhook 통합을 완전히 프로비저닝합니다.
@@ -172,7 +172,7 @@ HTTP 요청 POST /any/url
 
 URL은 구성이 가능하며 사용자 지정 통합 설정 페이지의 토큰 끝점 URL 값에 해당합니다.
 
-**쿼리 매개변수**
+**쿼리 매개 변수**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -279,7 +279,7 @@ client_secret=6asdf7a7a9a4af
 
 GET /metadata?id=[문서 또는 폴더 ID]
 
-**쿼리 매개변수**
+**쿼리 매개 변수**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -315,7 +315,7 @@ GET /metadata?id=[문서 또는 폴더 ID]
  </thead> 
  <tbody> 
   <tr> 
-   <td>title </td> 
+   <td>제목 </td> 
    <td>문자열 </td> 
    <td>문서 또는 폴더의 이름</td> 
   </tr> 
@@ -391,7 +391,7 @@ GET /metadata?id=[문서 또는 폴더 ID]
 
 GET /files
 
-**쿼리 매개변수**
+**쿼리 매개 변수**
 
 | 이름  | 설명 |
 |---|---|
@@ -442,7 +442,7 @@ Document Webhooks API는 현재 페이지 매김을 지원하지 않습니다.
 
 GET /search
 
-**쿼리 매개변수**
+**쿼리 매개 변수**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -492,7 +492,7 @@ Document Webhooks API는 현재 페이지 매김을 지원하지 않습니다.
 
 GET /다운로드
 
-**쿼리 매개변수**
+**쿼리 매개 변수**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -527,7 +527,7 @@ GET /다운로드
 
 GET /thumbnail
 
-**쿼리 매개변수**
+**쿼리 매개 변수**
 
 | 이름  | 설명 |
 |---|---|
@@ -554,7 +554,7 @@ GET /thumbnail
 
 POST /uploadInit
 
-**쿼리 매개변수**
+**쿼리 매개 변수**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -595,7 +595,7 @@ POST /uploadInit
 
 **응답**
 
-`[file_metadata]` 문서 공급자가 사용하는 새 문서 ID를 포함합니다.
+`[file_metadata]`에 문서 공급자가 사용하는 새 문서 ID가 포함되어 있습니다.
 
 ### 파일 업로드 - 2부
 
@@ -605,7 +605,7 @@ POST /uploadInit
 
 PUT /업로드
 
-**쿼리 매개변수**
+**쿼리 매개 변수**
 
 | 이름  | 설명 |
 |---|---|
@@ -722,7 +722,7 @@ URL
 
 POST /createFolder
 
-**쿼리 매개변수**
+**쿼리 매개 변수**
 
 | 이름  | 설명 |
 |---|---|
@@ -770,7 +770,7 @@ URL
 
 PUT /삭제
 
-**쿼리 매개변수**
+**쿼리 매개 변수**
 
 | 이름  | 설명 |
 |---|---|
@@ -808,7 +808,7 @@ URL
 
 PUT /rename
 
-**쿼리 매개변수**
+**쿼리 매개 변수**
 
 | 이름  | 설명 |
 |---|---|
@@ -860,7 +860,7 @@ name=Folder B ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­
 
 GET /customAction
 
-**쿼리 매개변수**
+**쿼리 매개 변수**
 
 <table style="table-layout:auto">
  <col>

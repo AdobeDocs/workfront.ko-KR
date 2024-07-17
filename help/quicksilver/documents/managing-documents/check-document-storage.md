@@ -31,7 +31,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">기존 라이선스 개요</a>*</td> 
-   <td> <p>Workfront 관리자여야 합니다. Workfront 관리자에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">사용자에게 전체 관리 액세스 권한 부여</a>.</p> </td> 
+   <td> <p>Workfront 관리자여야 합니다. Workfront 관리자에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">사용자에게 전체 관리 액세스 권한 부여</a>를 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -40,9 +40,9 @@ ht-degree: 0%
 
 ## 문서 스토리지 확인
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 상단에서 을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png).
-1. 왼쪽 패널에서 **시스템** > **고객 정보**.
-1. 다음에서 **기본 정보** 섹션, 찾기 **저장소 할당량**. 여기에서 현재 사용 중인 스토리지 용량과 Workfront 플랜에 포함된 총 스토리지 용량을 확인할 수 있습니다.
+1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+1. 왼쪽 패널에서 **시스템** > **고객 정보**&#x200B;를 클릭합니다.
+1. **기본 정보** 섹션에서 **저장소 할당량**&#x200B;을(를) 찾으십시오. 여기에서 현재 사용 중인 스토리지 용량과 Workfront 플랜에 포함된 총 스토리지 용량을 확인할 수 있습니다.
 
 스토리지 할당량은 최신 개수를 표시하기 위해 매일 새로 고쳐집니다.
 

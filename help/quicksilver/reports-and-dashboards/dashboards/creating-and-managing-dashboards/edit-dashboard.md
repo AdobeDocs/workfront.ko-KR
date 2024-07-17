@@ -19,15 +19,15 @@ ht-degree: 1%
 
 * 보고서
 
-  보고서 만들기에 대한 자세한 내용은 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  보고서 만들기에 대한 자세한 내용은 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)를 참조하십시오.
 
 * 캘린더
 
-  달력 만들기에 대한 자세한 내용은 [캘린더: 기사 색인](../../../reports-and-dashboards/reports/calendars/calendars.md).
+  캘린더 만들기에 대한 자세한 내용은 [캘린더: 기사 색인](../../../reports-and-dashboards/reports/calendars/calendars.md)을 참조하십시오.
 
 * 외부 페이지
 
-  외부 페이지 만들기에 대한 자세한 내용은 [외부 웹 페이지를 대시보드에 포함](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
+  외부 페이지 만들기에 대한 자세한 내용은 [외부 웹 페이지를 대시보드에 포함](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md)을 참조하십시오.
 
 이러한 항목을 만들어 대시보드에 추가한 후 대시보드를 편집하여 항목을 더 추가하거나, 기존 항목을 제거하거나, 대시보드 정보를 편집할 수 있습니다.
 
@@ -53,11 +53,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>액세스 수준 구성*</strong></td> 
-   <td> <p>보고서, 대시보드 및 캘린더에 대한 액세스 편집</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td> <p>보고서, 대시보드 및 캘린더에 대한 액세스 편집</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>개체 권한</strong></td> 
-   <td> <p>대시보드에 대한 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>대시보드에 대한 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -68,25 +68,25 @@ ht-degree: 1%
 
 대시보드를 편집하려면 먼저 대시보드를 만들어야 합니다.
 
-대시보드 만들기에 대한 자세한 내용은 [대시보드 만들기](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+대시보드를 만드는 방법에 대한 자세한 내용은 [대시보드 만들기](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)를 참조하십시오.
 
 ## 대시보드 편집
 
 1. 편집할 대시보드로 이동합니다.
-1. 클릭 **대시보드 작업**&#x200B;을 클릭한 다음 을 클릭합니다 **편집**.
+1. **대시보드 작업**&#x200B;을 클릭한 다음 **편집**&#x200B;을 클릭합니다.
 
    ![](assets/qs-dashboard-actions-menu-350x318.png)
 
    >[!TIP]
    >
-   >대시보드를 삭제하는 방법에 대해 알아보려면 를 참조하십시오. [대시보드 삭제](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/delete-dashboard.md).
+   >대시보드를 삭제하는 방법에 대해 알아보려면 [대시보드 삭제](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/delete-dashboard.md)를 참조하세요.
 
 1. 다음 필드를 편집하는 것이 좋습니다.
 
    * **이름**: 대시보드 이름을 편집합니다.
-   * **설명**: 대시보드에 대한 설명을 지정합니다.
+   * **설명**: 대시보드에 대한 설명을 지정하십시오.
 
-1. 다음에서 **사용 가능한 보고서 및 캘린더** 섹션에서 보고서, 달력 또는 외부 페이지의 이름을 **이름 또는 유형별로 검색...** 필드를 만든 다음 레이아웃 창에서 오른쪽의 보고서나 달력을 끌어서 놓습니다.
+1. **사용 가능한 보고서 및 캘린더** 섹션에서 **이름 또는 유형별 검색 ...** 필드에 보고서, 캘린더 또는 외부 페이지의 이름을 입력한 다음 레이아웃 창에서 오른쪽의 보고서 또는 캘린더를 끌어서 놓습니다.
 
    >[!NOTE]
    >
@@ -95,9 +95,9 @@ ht-degree: 1%
 1. (선택 사항) 원하는 레이아웃에 해당하는 라디오 단추를 클릭하여 대시보드에 대한 새 레이아웃을 선택합니다.
 1. (선택 사항) 기존 보고서의 이름 위로 마우스를 가져간 후 휴지통 아이콘을 클릭하여 대시보드에서 제거합니다.
 1. (선택 사항) 보고서 이름을 클릭하고 드래그하여 레이아웃 창의 원하는 위치에 놓아 대시보드에서 보고서 순서를 변경합니다.
-1. (선택 사항) **외부 페이지 추가** 외부 페이지를 대시보드에 추가합니다.\
+1. (선택 사항) 대시보드에 외부 페이지를 추가하려면 **외부 페이지 추가**&#x200B;를 클릭합니다.\
    또는\
-   대시보드에서 기존 외부 페이지를 찾은 다음 마우스로 가리키고 **편집** 외부 페이지 편집 아이콘\
-   대시보드에서 외부 페이지를 추가하거나 편집하는 방법에 대한 자세한 내용은 [외부 웹 페이지를 대시보드에 포함](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
+   대시보드에서 기존 외부 페이지를 찾은 다음 그 위로 마우스를 가져간 다음 **편집** 아이콘을 클릭하여 외부 페이지를 편집합니다.\
+   대시보드에서 외부 페이지를 추가하거나 편집하는 방법에 대한 자세한 내용은 [외부 웹 페이지를 대시보드에 포함](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md)을 참조하십시오.
 
 1. **저장 및 닫기**&#x200B;를 클릭합니다.

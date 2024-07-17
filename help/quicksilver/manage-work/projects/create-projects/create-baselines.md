@@ -84,7 +84,7 @@ drafted for P&P:
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -97,34 +97,34 @@ drafted for P&P:
 
 >[!IMPORTANT]
 >
->기준선은 프로젝트의 이름, 날짜 및 재무 정보에 대한 스냅샷을 만듭니다. 기준선에는 프로젝트의 사용자 정의 필드 값이 포함되지 않습니다. 기준선에 포함된 재무 정보에 대한 자세한 내용은 다음을 참조하십시오. [프로젝트 기준선에 포함된 프로젝트 재무](../../../manage-work/projects/project-finances/project-finances-included-in-project-baselines.md).
+>기준선은 프로젝트의 이름, 날짜 및 재무 정보에 대한 스냅샷을 만듭니다. 기준선에는 프로젝트의 사용자 정의 필드 값이 포함되지 않습니다. 기준선에 포함된 재무 정보에 대한 자세한 내용은 [프로젝트 기준선에 포함된 프로젝트 재무](../../../manage-work/projects/project-finances/project-finances-included-in-project-baselines.md)을 참조하십시오.
 
 ## 기준선 만들기
 
 다음과 같은 방법으로 베이스라인을 생성할 수 있습니다.
 
-* **자동**: Workfront 관리자 또는 그룹 관리자는 프로젝트가 현재 상태가 되면 자동으로 기준선을 만들도록 Workfront에 대한 프로젝트 환경 설정을 지정합니다. 이 설정을 사용하면 프로젝트 상태가 현재가 되면 베이스라인이 만들어집니다. 이 설정이 활성화되지 않은 경우 기준선을 수동으로 만들어야 합니다.
+* **자동으로**: Workfront 관리자 또는 그룹 관리자는 프로젝트가 현재 상태가 되면 자동으로 기준선을 만들 수 있도록 Workfront에 대한 프로젝트 환경 설정을 설정합니다. 이 설정을 사용하면 프로젝트 상태가 현재가 되면 베이스라인이 만들어집니다. 이 설정이 활성화되지 않은 경우 기준선을 수동으로 만들어야 합니다.
 
-  프로젝트 환경 설정 구성 및 자동 기준 요소 생성 설정에 대한 자세한 내용은 [시스템 전체 프로젝트 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  프로젝트 환경 설정 구성 및 자동 기준선 만들기 설정에 대한 자세한 내용은 [시스템 차원의 프로젝트 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)을 참조하십시오.
 
   >[!CAUTION]
   >
   >이 설정을 사용하면 프로젝트의 상태가 현재로 변경될 때마다 프로젝트에 대한 기준선이 자동으로 만들어집니다. 처음 생성된 베이스라인이 기본 베이스라인입니다. 프로젝트 기간 동안 다른 모든 기준선을 수동으로 만들어야 합니다.
 
-* **수동**: 프로젝트 진행 시 필요에 따라 프로젝트에 대한 새 기준선을 만들 수 있습니다. 그런 다음 기준선을 비교하여 시간이 지남에 따라 프로젝트가 어떻게 진행되었는지 확인할 수 있습니다.
+* **수동으로**: 프로젝트가 진행될 때 필요에 따라 프로젝트에 대한 새 기준선을 만들 수 있습니다. 그런 다음 기준선을 비교하여 시간이 지남에 따라 프로젝트가 어떻게 진행되었는지 확인할 수 있습니다.
 
 베이스라인을 생성하려면 다음을 수행합니다.
 
 1. 프로젝트로 이동합니다.
-1. 왼쪽 패널에서 **기준선**.
+1. 왼쪽 패널에서 **기준선**&#x200B;을 클릭합니다.
 
    또는
 
-   클릭 **더 보기**&#x200B;을 클릭한 다음 을 클릭합니다 **기준선**.
+   **자세히 표시**&#x200B;를 클릭한 다음 **기준선**&#x200B;을 클릭합니다.
 
-   ![프로젝트의 기준선 섹션](assets/baselines-section-on-project-with-header.png)
+   프로젝트의 ![기준선 섹션](assets/baselines-section-on-project-with-header.png)
 
-1. 클릭 **새 기준선.**
+1. **새 기준선을 클릭합니다.**
 1. 베이스라인의 이름을 지정합니다.
 1. (선택 사항) 첫 번째 기준선인 경우 이를 기본값으로 선택할 수 있습니다.
 1. **저장**&#x200B;을 클릭합니다.
@@ -143,7 +143,7 @@ drafted for P&P:
      >
      >동일한 보기 또는 보고서에서 두 베이스라인의 정보를 동시에 볼 수 없습니다. 동일한 보고서에서 지정된 기준 요소 및 기본 기준 요소의 정보만 볼 수 있습니다. 프로젝트 기간 동안 언제든지 기본 베이스라인으로 간주되는 베이스라인을 수정할 수 있습니다.
 
-1. (선택 사항) **보기** 버튼을 클릭한 다음 새 보기를 만들거나 현재 보기를 편집하여 보기에 필드를 추가하고 기준선 간의 추가 정보를 비교합니다. 자세한 내용은 [Adobe Workfront에서 보기 만들기 또는 편집](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
+1. (선택 사항) **보기** 단추를 클릭한 다음 새 보기를 만들거나 현재 보기를 편집하여 보기에 필드를 추가하고 기준선 간의 추가 정보를 비교합니다. 자세한 내용은 [Adobe Workfront에서 보기 만들기 또는 편집](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md)을 참조하세요.
 
 ## 기준선 또는 기준선 작업 보고서 만들기
 
@@ -153,8 +153,8 @@ drafted for P&P:
 >
 >베이스라인 또는 베이스라인 작업 보고서를 생성하려면 먼저 베이스라인을 생성해야 합니다.
 
-보고서 만들기에 대한 자세한 내용은 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+보고서 만들기에 대한 자세한 내용은 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)를 참조하십시오.
 
 보다 쉽게 읽을 수 있도록 기준선 또는 기준선 작업 보고서에 프로젝트 이름 그룹화를 추가하는 것이 좋습니다.
 
-그룹화 만들기에 대한 내용은 [Adobe Workfront에서 그룹화 만들기](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md).
+그룹화 만들기에 대한 자세한 내용은 [Adobe Workfront에서 그룹화 만들기](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)를 참조하십시오.

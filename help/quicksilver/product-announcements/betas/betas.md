@@ -1,6 +1,6 @@
 ---
 navigation-topic: betas
-title: 베타 프로그램
+title: Beta 프로그램
 description: Adobe Workfront의 최신 베타 릴리스에 대해 알아봅니다.
 author: Alina
 feature: Product Announcements
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ---
 
-# 베타 프로그램
+# Beta 프로그램
 
 이 페이지에서 연결된 문서에서는 Adobe Workfront에서 사용 가능한 현재 Beta 프로그램에 대해 설명합니다. Beta에서 사용할 수 있는 기능은 일부 고객에게는 제공되지 않을 수 있습니다.
 

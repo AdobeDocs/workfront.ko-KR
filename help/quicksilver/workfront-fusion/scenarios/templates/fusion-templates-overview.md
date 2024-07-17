@@ -3,21 +3,22 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Adobe Workfront Fusion 템플릿 개요
-description: Workfront Fusion 템플릿 기능을 통해 기존 템플릿을 만들고 시작점으로 사용할 수 있습니다. [!DNL Workfront Fusion] 시나리오.
+description: Workfront Fusion 템플릿 기능을 사용하면 기존 템플릿을 만들어  [!DNL Workfront Fusion] 시나리오의 시작점으로 사용할 수 있습니다.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: ebc1853906e56b95601c1fe202ddc19d147fa7c2
+exl-id: 02c10997-28bd-46b4-bbcc-0c907cdaeb7b
+source-git-commit: 6dd2fd4d688514540265fa3b0d2634194fb6a7ab
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 1%
 
 ---
 
-# [!DNL Adobe Workfront Fusion] 템플릿 개요
+# [!DNL Adobe Workfront Fusion]개 템플릿 개요
 
-[!DNL Workfront Fusion] 템플릿 기능을 사용하면 기존 템플릿을 만들고 시작점으로 사용할 수 있습니다. [!DNL Workfront Fusion] 시나리오. 템플릿은 조직의 요구 사항과 특정 사용 사례를 충족하도록 구성하고 수정할 수 있는 일반적인 사용 사례를 나타냅니다.
+[!DNL Workfront Fusion] 템플릿 기능을 사용하면 기존 템플릿을 만들어 [!DNL Workfront Fusion] 시나리오의 시작점으로 사용할 수 있습니다. 템플릿은 조직의 요구 사항과 특정 사용 사례를 충족하도록 구성하고 수정할 수 있는 일반적인 사용 사례를 나타냅니다.
 
-현재 사용 가능한 Fusion 템플릿 목록은 [현재 사용 가능한 Adobe Workfront Fusion 템플릿](/help/quicksilver/workfront-fusion/scenarios/templates/currently-available-fusion-templates.md).
+현재 사용 가능한 Fusion 템플릿 목록은 [현재 사용 가능한 Adobe Workfront Fusion 템플릿](/help/quicksilver/workfront-fusion/scenarios/templates/currently-available-fusion-templates.md)을 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -38,7 +39,7 @@ ht-degree: 1%
   <tr>  
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 라이센스**</td>  
    <td> 
-   <p>현재: 아니요 [!DNL Workfront Fusion] 라이센스 요구 사항.</p> 
+   <p>현재: [!DNL Workfront Fusion] 라이선스 요구 사항이 없습니다.</p> 
    <p>또는</p> 
    <p>레거시: 모두 </p> 
    </td>  
@@ -46,23 +47,23 @@ ht-degree: 1%
   <tr>  
    <td role="rowheader">제품</td>  
    <td> 
-   <p>신규:</p> <ul><li>[!UICONTROL Select] 또는 [!UICONTROL Prime] [!DNL Workfront] 플랜: 조직에서 구매해야 합니다. [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] 플랜: [!DNL Workfront Fusion] 포함됩니다.</li></ul> 
+   <p>신규:</p> <ul><li>[!UICONTROL Select] 또는 [!UICONTROL Prime] [!DNL Workfront] 플랜: 조직에서 [!DNL Adobe Workfront Fusion]을(를) 구매해야 합니다.</li><li>[!UICONTROL Ultimate] [!DNL Workfront] 계획: [!DNL Workfront Fusion]이(가) 포함되어 있습니다.</li></ul> 
    <p>또는</p> 
-   <p>현재: 조직에서 구매해야 합니다. [!DNL Adobe Workfront Fusion].</p> 
+   <p>현재: 조직에서 [!DNL Adobe Workfront Fusion]을(를) 구매해야 합니다.</p> 
    </td>  
   </tr> 
  </tbody>  
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
-다음에 대한 정보: [!DNL Adobe Workfront Fusion] 라이센스, 참조 [[!DNL Adobe Workfront Fusion] 라이선스](/help/quicksilver/workfront-fusion/get-started/license-automation-vs-integration.md).
+[!DNL Adobe Workfront Fusion] 라이선스에 대한 자세한 내용은 [[!DNL Adobe Workfront Fusion] 라이선스](/help/quicksilver/workfront-fusion/get-started/license-automation-vs-integration.md)를 참조하세요.
 
 ## Fusion 템플릿 보기 및 선택
 
 템플릿 영역에서 사용 가능한 템플릿, 템플릿에 포함된 애플리케이션 및 구조를 볼 수 있습니다. 특정 앱 또는 이름을 검색하고 사용 사례를 필터링할 수도 있습니다.
 
-1. 클릭 **템플릿** ![템플릿 아이콘](assets/fusion-template-icon.png) 왼쪽 탐색.
+1. 왼쪽 탐색에서 **템플릿** ![템플릿 아이콘](assets/fusion-template-icon.png)을 클릭합니다.
 1. 공개적으로 사용 가능한 템플릿을 보려면 공개 템플릿 탭을 클릭합니다.
 
    또는
@@ -79,6 +80,6 @@ ht-degree: 1%
 
    템플릿의 다이어그램이 표시됩니다.
 
-1. 템플릿에서 시나리오 작성을 시작하려면 다음을 클릭하십시오. **템플릿에서 새 시나리오 만들기** 왼쪽 아래에 있습니다.
+1. 템플릿에서 시나리오를 만들려면 왼쪽 하단의 **템플릿에서 새 시나리오 만들기**&#x200B;를 클릭합니다.
 
-템플릿에서 시나리오를 만드는 방법에 대한 지침은 [다음을 사용하여 시나리오 만들기 [!DNL Adobe Workfront Fusion] 템플릿](/help/quicksilver/workfront-fusion/scenarios/templates/create-scenarios-with-fusion-templates.md).
+템플릿에서 시나리오를 만드는 방법에 대한 지침은 [템플릿을 사용하여 시나리오 만들기 [!DNL Adobe Workfront Fusion] 를 참조하십시오](/help/quicksilver/workfront-fusion/scenarios/templates/create-scenarios-with-fusion-templates.md).

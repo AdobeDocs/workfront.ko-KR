@@ -2,68 +2,68 @@
 content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
-title: 에서 문서 및 증명을 업로드합니다. [!DNL Adobe Workfront plugin] 변환 후 [!DNL Creative Cloud]
-description: 에서 문서 및 증명을 업로드합니다. [!DNL Adobe Workfront plugin] 변환 후 [!DNL Creative Cloud]
+title: ' [!DNL Adobe Workfront plugin] 에서  [!DNL Creative Cloud](으)로 문서 및 증명 업로드'
+description: ' [!DNL Adobe Workfront plugin] 에서  [!DNL Creative Cloud](으)로 문서 및 증명 업로드'
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 hide: true
 hidefromtoc: true
-source-git-commit: 67952bf88a782595e13e559bfbc14ce1c622d432
+exl-id: 88870441-8895-477c-9409-f2c33654545a
+source-git-commit: 0ca335bf0db934d23f607d3f8ce7cfb67e629053
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 0%
 
 ---
 
+# [!DNL Adobe Workfront plugin]에서 [!DNL Creative Cloud](으)로 문서 및 증명 업로드
 
-# 에서 문서 및 증명을 업로드합니다. [!DNL Adobe Workfront plugin] 변환 후 [!DNL Creative Cloud]
-
-프로젝트를 문서로 업로드하여 빠른 검토 및 승인을 얻거나 간단히 저장할 수 있습니다 [!DNL Adobe Workfront].
+프로젝트를 빠른 검토 및 승인을 위한 문서로 업로드하거나 간단히 [!DNL Adobe Workfront]에 저장할 수 있습니다.
 
 >[!NOTE]
 >
->문서 및 증명을 업로드하는 것은 현재 Premiere Pro 및 After Effects에서 지원되지 않습니다.
+>Premiere Pro 및 After Effects에서는 문서 및 증명 업로드가 현재 지원되지 않습니다.
 
 
 ## 문서 제한
 
-이 섹션에서는 [!DNL Workfront for Adobe Creative Cloud plugins].
+이 섹션에서는 [!DNL Workfront for Adobe Creative Cloud plugins]의 알려진 문서 제한 사항에 대해 간략히 설명합니다.
 
-### 새 문서 버전은 업로드할 파일을 하나만 허용합니다
+### 새 문서 버전에서는 업로드할 파일이 하나만 허용됩니다.
 
-왜냐면 [!DNL Workfront] 문서에 여러 파일을 포함할 수 없습니다. 새 문서 버전을 Workfront에 업로드하려면 특정 설정을 비활성화해야 합니다.
+[!DNL Workfront] 문서에는 여러 파일이 포함될 수 없으므로 새 문서 버전을 Workfront에 업로드하려면 특정 설정을 사용하지 않도록 설정해야 합니다.
 
 >[!NOTE]
 >
->여러 파일을 생성해야 하는 경우 증명을 대신 만들 수 있습니다. 새 증명은 원본 문서와 연관되지 않습니다.
+>여러 파일을 생성해야 하는 경우 대신 증명을 만들 수 있습니다. 새 증명은 원본 문서와 연결되지 않습니다.
 
 
 
-스위치를 의 단일 파일로 다시 변경하려면 [!DNL InDesign]:
+스위치를 [!DNL InDesign]의 단일 파일로 다시 변경하려면:
 
-1. 를 엽니다. **내보내기 파일 설정 설정** 대화 상자
+1. **내보내기 파일 설정 설정** 대화 상자를 엽니다.
 
    ![](assets/file-export-settings.png)
 
-1. 내보낼 자산 유형을 찾아 아래 설명된 대로 설정을 조정합니다.
+1. 내보낼 자산 유형을 찾고 아래에 설명된 대로 설정을 조정합니다.
 
    <table>
     <tr>
     <td><strong>PDF 및 PDF 인쇄</strong>
     </td>
-    <td>선택 취소 <strong>별도의 PDF 파일 만들기</strong>.
+    <td><strong>별도의 PDF 파일 만들기</strong>를 선택 취소합니다.
     </td>
     </tr>
     <tr>
     <td><strong>EPS</strong>
     </td>
-    <td>선택 <strong>범위</strong> 단일 페이지 번호를 입력합니다. 
+    <td><strong>범위</strong>를 선택하고 단일 페이지 번호를 입력하세요. 
     <p>
     <strong>참고</strong>: 전체 문서를 업로드하려면 증명을 만들어야 합니다. 
     </td>
     </tr>
     <tr>
-    <td><strong>ePub 및 EPUB 고정</strong>
+    <td><strong>EPUB 및 EPUB 고정</strong>
     </td>
     <td>조정이 필요하지 않습니다.
     </td>
@@ -77,7 +77,7 @@ ht-degree: 0%
     <tr>
     <td><strong>JPG</strong>
     </td>
-    <td>선택 <strong>범위</strong> 단일 페이지 번호를 입력합니다. 
+    <td><strong>범위</strong>를 선택하고 단일 페이지 번호를 입력하세요. 
     <p>
     <strong>참고</strong>: 전체 문서를 업로드하려면 증명을 만들어야 합니다. 
     </td>
@@ -85,7 +85,7 @@ ht-degree: 0%
     <tr>
     <td><strong>PNG</strong>
     </td>
-    <td>선택 <strong>범위</strong> 단일 페이지 번호를 입력합니다. 
+    <td><strong>범위</strong>를 선택하고 단일 페이지 번호를 입력하세요. 
     <p>
     <strong>참고</strong>: 전체 문서를 업로드하려면 증명을 만들어야 합니다. 
     </td>

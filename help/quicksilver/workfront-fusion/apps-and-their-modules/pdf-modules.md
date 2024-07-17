@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # [!DNL Adobe PDF Services]
 
-포함 [!DNL Adobe Workfront Fusion] [!DNL Adobe PDF Services]를 사용하여 PDF 파일에서 데이터를 추출하거나 제공한 데이터에서 새 PDF 파일을 생성할 수 있습니다. 또한 다양한 파일 유형을 PDF으로 변환하거나 PDF을 다른 파일 유형으로 변환할 수 있습니다. 또한 PDF 서비스를 사용하여 PDF 파일에 대한 메타데이터를 결합, 압축 또는 읽거나 파일에 대한 암호 보호를 제어할 수 있습니다.
+[!DNL Adobe Workfront Fusion] [!DNL Adobe PDF Services]을(를) 사용하면 PDF 파일에서 데이터를 추출하거나 제공한 데이터에서 새 PDF 파일을 생성할 수 있습니다. 또한 다양한 파일 유형을 PDF으로 변환하거나 PDF을 다른 파일 유형으로 변환할 수 있습니다. 또한 PDF 서비스를 사용하여 PDF 파일에 대한 메타데이터를 결합, 압축 또는 읽거나 파일에 대한 암호 보호를 제어할 수 있습니다.
 
-시나리오를 만드는 방법에 대한 지침이 필요한 경우 [에서 시나리오 만들기 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+시나리오를 만드는 방법에 대한 지침이 필요하면 [시나리오 만들기 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md)를 참조하십시오.
 
-모듈에 대한 자세한 내용은 [의 모듈 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+모듈에 대한 자세한 내용은 [의 모듈 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md)을 참조하세요.
 
-PDF 서비스에 사용되는 API에 대한 자세한 내용은 [Adobe 문서 생성 API](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html).
+PDF 서비스에 사용되는 API에 대한 자세한 내용은 [Adobe 문서 생성 API](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html)를 참조하십시오.
 
-## 사용 시 보안 고려 사항 [!DNL Adobe PDF Services]
+## [!DNL Adobe PDF Services]을(를) 사용할 때의 보안 고려 사항
 
 <!--
 
@@ -39,10 +39,10 @@ Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use
 
 -->
 
-다음 [!DNL Adobe PDF Services] 는 파일을 읽거나, 변환하거나, 수정할 수 있지만 둘 다 할 수는 없습니다 [!DNL Adobe] nor [!DNL Workfront Fusion] 파일 또는 데이터를 저장합니다. 이것은 다음을 의미합니다.
+[!DNL Adobe PDF Services]은(는) 파일을 읽거나 변환하거나 수정할 수 있지만 [!DNL Adobe]과(와) [!DNL Workfront Fusion]은(는) 파일이나 데이터를 저장하지 않습니다. 이것은 다음을 의미합니다.
 
 * 보안을 포함하여 파일에 대한 제어 유지
-* 다음 작업을 수행하지 않아도 됩니다. [!UICONTROL Adobe] PDF 서비스를 사용할 저장소 또는 클라우드 저장소 계정입니다.
+* PDF 서비스를 사용하기 위해 [!UICONTROL Adobe] 저장소 또는 클라우드 저장소 계정이 필요하지 않습니다.
 
 ## 액세스 요구 사항
 
@@ -63,37 +63,37 @@ Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 라이센스**</td> 
    <td>
-   <p>현재 라이선스 요구 사항: 아니요 [!DNL Workfront Fusion] 라이센스 요구 사항.</p>
+   <p>현재 라이선스 요구 사항: [!DNL Workfront Fusion] 라이선스 요구 사항이 없습니다.</p>
    <p>또는</p>
-   <p>기존 라이선스 요구 사항: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
+   <p>레거시 라이선스 요구 사항: 작업 자동화 및 통합을 위한 [!UICONTROL [!DNL Workfront Fusion]] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">제품</td> 
    <td>
-   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime]이 있는 경우 [!DNL Adobe Workfront] 플랜, 조직은 다음을 구매해야 합니다. [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오. [!DNL Workfront Fusion] [!UICONTROL Ultimate]에 포함되어 있습니다. [!DNL Workfront] 계획.</p>
+   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime] [!DNL Adobe Workfront] 플랜이 있는 경우 조직에서 이 문서에 설명된 기능을 사용하려면 [!DNL Adobe Workfront Fusion]과(와) [!DNL Adobe Workfront]을(를) 구매해야 합니다. [!DNL Workfront Fusion]이(가) [!UICONTROL Ultimate] [!DNL Workfront] 계획에 포함되어 있습니다.</p>
    <p>또는</p>
-   <p>레거시 제품 요구 사항: 조직에서 구매해야 함 [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오.</p>
+   <p>레거시 제품 요구 사항: 이 문서에 설명된 기능을 사용하려면 조직에서 [!DNL Adobe Workfront Fusion]과(와) [!DNL Adobe Workfront]을(를) 구매해야 합니다.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
+보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
 
-다음에 대한 정보: [!DNL Adobe Workfront Fusion] 라이센스, 참조 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+[!DNL Adobe Workfront Fusion] 라이선스에 대한 자세한 내용은 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md)를 참조하세요.
 
 ## 전제 조건
 
 OAuth 서버 간 연결을 만들려면 Adobe 개발자 콘솔에서 Adobe PDF 서비스 API를 추가해야 합니다. API를 추가할 때 OAuth 서버 간 옵션을 선택합니다.
 
-자세한 내용은 [OAuth를 사용하여 프로젝트에 API 추가](https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/) Adobe 개발자 설명서에서 참조하십시오.
+지침은 Adobe 개발자 설명서에서 [OAuth를 사용하여 프로젝트에 API 추가](https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/)를 참조하십시오.
 
-## 에 대한 연결 만들기 [!DNL Adobe PDF Services]
+## [!DNL Adobe PDF Services]에 연결 만들기
 
-에 대한 연결을 만들려면 [!DNL Adobe PDF Services] 모듈:
+[!DNL Adobe PDF Services] 모듈에 대한 연결을 만들려면:
 
-1. 다음 중 하나 [!DNL Adobe PDF Services] 모듈, 클릭 **[!UICONTROL 추가]** 연결 상자 옆에 있습니다.
+1. [!DNL Adobe PDF Services] 모듈에서 [연결] 상자 옆에 있는 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
 
 1. 다음 필드를 채웁니다.
 
@@ -117,19 +117,19 @@ OAuth 서버 간 연결을 만들려면 Adobe 개발자 콘솔에서 Adobe PDF �
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL 클라이언트 ID]</td>
-          <td>다음을 입력하십시오. [!DNL Adobe] [!UICONTROL 클라이언트 ID]. 이 정보는 의 [!UICONTROL 자격 증명 세부 정보] 섹션에서 찾을 수 있습니다. [!DNL Adobe Developer Console].<p>자격 증명을 찾는 방법에 대한 지침은 <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" >자격 증명</a> Adobe 개발자 설명서에서 참조하십시오.</p></td>
+          <td>[!DNL Adobe] [!UICONTROL 클라이언트 ID]를 입력하십시오. 이는 [!DNL Adobe Developer Console]의 [!UICONTROL 자격 증명 세부 정보] 섹션에서 찾을 수 있습니다.<p>자격 증명을 찾는 방법에 대한 지침은 Adobe 개발자 설명서에서 <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" >자격 증명</a>을 참조하십시오.</p></td>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL 클라이언트 암호]</td>
-          <td>다음을 입력하십시오. [!DNL Adobe] [!UICONTROL 클라이언트 암호]. 이 정보는 의 [!UICONTROL 자격 증명 세부 정보] 섹션에서 찾을 수 있습니다. [!DNL Adobe Developer Console].<p>자격 증명을 찾는 방법에 대한 지침은 <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" >자격 증명</a> Adobe 개발자 설명서에서 참조하십시오.</p>
+          <td>[!DNL Adobe] [!UICONTROL 클라이언트 암호]를 입력하십시오. 이는 [!DNL Adobe Developer Console]의 [!UICONTROL 자격 증명 세부 정보] 섹션에서 찾을 수 있습니다.<p>자격 증명을 찾는 방법에 대한 지침은 Adobe 개발자 설명서에서 <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" >자격 증명</a>을 참조하십시오.</p>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL 기술 계정 ID](JWT만 해당)</td>
-          <td>다음을 입력하십시오. [!DNL Adobe] [!UICONTROL 기술 계정 ID]. 이 정보는 의 [!UICONTROL 자격 증명 세부 정보] 섹션에서 찾을 수 있습니다. [!DNL Adobe Developer Console].<p>자격 증명을 찾는 방법에 대한 지침은 <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" >자격 증명</a> Adobe 개발자 설명서에서 참조하십시오.</p>
+          <td>[!DNL Adobe] [!UICONTROL 기술 계정 ID]를 입력하십시오. 이는 [!DNL Adobe Developer Console]의 [!UICONTROL 자격 증명 세부 정보] 섹션에서 찾을 수 있습니다.<p>자격 증명을 찾는 방법에 대한 지침은 Adobe 개발자 설명서에서 <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" >자격 증명</a>을 참조하십시오.</p>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL 조직 ID](JWT만 해당)</td>
-          <td>다음을 입력하십시오. [!DNL Adobe] [!UICONTROL 조직 ID]. 이 정보는 의 [!UICONTROL 자격 증명 세부 정보] 섹션에서 찾을 수 있습니다. [!DNL Adobe Developer Console].<p>자격 증명을 찾는 방법에 대한 지침은 <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" >자격 증명</a> Adobe 개발자 설명서에서 참조하십시오.</p>
+          <td>[!DNL Adobe] [!UICONTROL 조직 ID]를 입력하십시오. 이는 [!DNL Adobe Developer Console]의 [!UICONTROL 자격 증명 세부 정보] 섹션에서 찾을 수 있습니다.<p>자격 증명을 찾는 방법에 대한 지침은 Adobe 개발자 설명서에서 <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" >자격 증명</a>을 참조하십시오.</p>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL 메타 범위](JWT만 해당)</td>
@@ -139,19 +139,19 @@ OAuth 서버 간 연결을 만들려면 Adobe 개발자 콘솔에서 Adobe PDF �
         </tr>
        </tbody>
     </table>
-1. 클릭 **[!UICONTROL 계속]** 연결을 저장하고 모듈로 돌아갑니다.
+1. 연결을 저장하고 모듈로 돌아가려면 **[!UICONTROL 계속]**&#x200B;을 클릭하세요.
 
 
-## [!DNL Adobe PDF Services] 모듈 및 해당 필드
+## [!DNL Adobe PDF Services]개 모듈 및 해당 필드
 
-를 구성할 때 [!DNL PDF Services], [!DNL Workfront Fusion] 아래 나열된 필드를 표시합니다. 이러한 필드와 함께 앱이나 서비스의 액세스 수준과 같은 요소에 따라 추가 필드가 표시될 수 있습니다. 모듈의 굵은 제목은 필수 필드를 나타냅니다.
+[!DNL PDF Services]을(를) 구성할 때 [!DNL Workfront Fusion]에 아래 나열된 필드가 표시됩니다. 이러한 필드와 함께 앱이나 서비스의 액세스 수준과 같은 요소에 따라 추가 필드가 표시될 수 있습니다. 모듈의 굵은 제목은 필수 필드를 나타냅니다.
 
-필드나 함수 위에 맵 단추가 표시되면 이 단추를 사용하여 해당 필드에 대한 변수와 함수를 설정할 수 있습니다. 자세한 내용은 [의 한 모듈에서 다른 모듈로 정보 매핑 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+필드나 함수 위에 맵 단추가 표시되면 이 단추를 사용하여 해당 필드에 대한 변수와 함수를 설정할 수 있습니다. 자세한 내용은 [한 모듈에서 다른 모듈로 정보를 매핑 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)을 참조하십시오.
 
 ![](assets/map-toggle-350x74.png)
 
 * [[!UICONTROL 문서 생성]](#generate-document)
-* [[!UICONTROL 텍스트/테이블 추출]](#extract-text--table)
+* [[!UICONTROL 텍스트/표 추출]](#extract-text--table)
 * [[!UICONTROL PDF 파일 결합]](#combine-pdf-files)
 * [[!UICONTROL PDF 파일 압축]](#compress-pdf-files)
 * [[!UICONTROL 문서를 PDF 파일로 변환]](#convert-document-to-pdf-file)
@@ -160,7 +160,7 @@ OAuth 서버 간 연결을 만들려면 Adobe 개발자 콘솔에서 Adobe PDF �
 * [[!UICONTROL PDF을 문서로 변환]](#convert-pdf-to-document)
 * [[!UICONTROL PDF을 이미지로 변환]](#convert-pdf-to-image)
 * [[!UICONTROL PDF 파일 선형화]](#linearize-a-pdf-file)
-* [[!UICONTROL PDF 파일용 OCR]](#ocr-for-pdf-file)
+* [[!UICONTROL PDF 파일에 대한 OCR]](#ocr-for-pdf-file)
 * [[!UICONTROL 페이지 조작]](#page-manipulation)
 * [[!UICONTROL PDF 접근성 자동 태그 지정]](#pdf-accessibility-auto-tag)
 * [[!UICONTROL PDF 파일 속성]](#pdf-file-properties)
@@ -170,14 +170,14 @@ OAuth 서버 간 연결을 만들려면 Adobe 개발자 콘솔에서 Adobe PDF �
 
 ### [!UICONTROL 문서 생성]
 
-다음 [!UICONTROL 문서 생성] 모듈은 선택한 데이터가 포함된 PDF을 만드는 강력한 방법입니다. 다음을 사용하여 형식을 지정할 수 있습니다. [!DNL Microsoft Word] 템플릿 또는 JSON 형식으로 데이터를 제공하는 방법으로 만들 수 있습니다.
+[!UICONTROL 문서 생성] 모듈은 선택한 데이터가 포함된 PDF을 만드는 강력한 방법입니다. [!DNL Microsoft Word] 템플릿을 사용하거나 JSON 형식의 데이터를 제공하여 형식을 지정할 수 있습니다.
 
-에 대한 자세한 내용은 [!UICONTROL [!DNL Adobe PDF Services] 문서 생성] 기능을 참조하려면 [문서 생성 개요](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html) 다음에서 [!DNL Adobe Document Services] 설명서를 참조하십시오.
+[!UICONTROL [!DNL Adobe PDF Services] 문서 생성] 기능에 대한 자세한 내용은 [!DNL Adobe Document Services] 설명서의 [문서 생성 개요](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html)를 참조하십시오.
 
-* [사용 [!UICONTROL 문서 생성] 이 포함된 모듈 [!DNL Microsoft Word] 템플릿](#use-the-generate-document-module-with-a-microsoft-word-template)
-* [사용 [!UICONTROL 문서 생성] json이 있는 모듈](#use-the-generate-document-module-with-json)
+* [ [!DNL Microsoft Word] 템플릿](#use-the-generate-document-module-with-a-microsoft-word-template)을(를) 사용하여 [!UICONTROL 문서 생성] 모듈 사용
+* [JSON이 있는 [!UICONTROL 문서 생성] 모듈 사용](#use-the-generate-document-module-with-json)
 
-#### 사용 [!UICONTROL 문서 생성] 이 포함된 모듈 [!DNL Microsoft Word] 템플릿
+#### [!DNL Microsoft Word] 템플릿으로 [!UICONTROL 문서 생성] 모듈 사용
 
 <!--
 >[!NOTE]
@@ -187,9 +187,9 @@ OAuth 서버 간 연결을 만들려면 Adobe 개발자 콘솔에서 Adobe PDF �
 >You do not need to use Microsoft Word template modules to use a Microsoft Word template with the PDF Services Generate document module.
 -->
 
-을(를) 사용하려면 [!UICONTROL 문서 생성] 이 포함된 모듈 [!UICONTROL Microsoft Word] 템플릿을 사용하려면 먼저 템플릿을 만들어야 합니다. 지침이에서 &quot;템플릿 만들기&quot;를 검색합니다. [!DNL Microsoft Office] 설명서를 참조하십시오.
+[!UICONTROL Microsoft Word] 템플릿으로 [!UICONTROL 문서 생성] 모듈을 사용하려면 먼저 템플릿을 만들어야 합니다. 지침은 [!DNL Microsoft Office] 설명서에서 &quot;템플릿 만들기&quot;를 검색하십시오.
 
-다음을 입력합니다. [!UICONTROL 문서 생성] 다음과 같은 모듈 필드:
+다음과 같이 [!UICONTROL 문서 생성] 모듈 필드를 채웁니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -197,11 +197,11 @@ OAuth 서버 간 연결을 만들려면 Adobe 개발자 콘솔에서 Adobe PDF �
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> 에 대한 연결 만들기에 대한 지침: [!DNL Adobe PDF Services], 참조 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe PDF Services]</a> 이 문서에서. </td> 
+   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> [!DNL Adobe PDF Services]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >[!DNL Adobe PDF Services]</a>에 대한 연결 만들기 를 참조하십시오. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 소스 파일]</td> 
-   <td> <p>이전 모듈에서 소스 파일을 선택하거나 소스 파일의 이름과 데이터를 매핑합니다.</p> <p>이 소스 파일은 [!DNL Microsoft Word ]모듈이 새 PDF을 생성하는 데 사용하는 템플릿입니다.</p> <p>에서 프로젝트를 만드는 것이 좋습니다. [!DNL Workfront] 대상: [!DNL Microsoft Word] 에서 사용하는 템플릿 [!DNL Workfront Fusion]. 그런 다음 를 사용할 수 있습니다. [!DNL Workfront] &gt; [!UICONTROL 문서 다운로드] 모듈을 클릭하여 적절한 템플릿을 시나리오로 가져옵니다.</p> </td> 
+   <td role="rowheader">[!UICONTROL Source 파일]</td> 
+   <td> <p>이전 모듈에서 소스 파일을 선택하거나 소스 파일의 이름과 데이터를 매핑합니다.</p> <p>이 원본 파일은 모듈이 새 PDF을 생성하는 데 사용하는 [!DNL Microsoft Word ] 템플릿입니다.</p> <p>[!DNL Workfront Fusion]에서 사용하는 [!DNL Microsoft Word] 템플릿에 대해 [!DNL Workfront]에서 프로젝트를 만드는 것이 좋습니다. 그런 다음 [!DNL Workfront] &gt; [!UICONTROL 문서 다운로드] 모듈을 사용하여 적절한 템플릿을 시나리오로 가져올 수 있습니다.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 출력 형식]</td> 
@@ -215,7 +215,7 @@ OAuth 서버 간 연결을 만들려면 Adobe 개발자 콘솔에서 Adobe PDF �
    <td role="rowheader">[!UICONTROL Data for merge]</td> 
    <td> <p>텍스트로 바꿀 템플릿의 각 값 태그에 대해 다음을 입력합니다.</p> 
     <ul> 
-     <li> <p>[!UICONTROL 키]</p> <p>키를 입력합니다. 템플릿에서 키는 값 태그에 표시되는 텍스트입니다. 예를 들어 값 태그에 텍스트를 배치하려는 경우 <code>&#123;&#123;name&#125;&#125;</code>, 입력 <code>name </code>키 필드에서 참조할 수 있습니다.</p> </li> 
+     <li> <p>[!UICONTROL 키]</p> <p>키를 입력합니다. 템플릿에서 키는 값 태그에 표시되는 텍스트입니다. 예를 들어 값 태그 <code>&#123;&#123;name&#125;&#125;</code>에 텍스트를 삽입하려면 키 필드에 <code>name </code>을(를) 입력합니다.</p> </li> 
      <li> <p>값 유형</p> <p>값 필드의 데이터가 값, 개체 또는 개체 배열인지 선택합니다.</p> </li> 
      <li> <p>[!UICONTROL 값]</p> <p>값 태그 대신 생성된 문서에 표시할 텍스트를 입력하거나 매핑합니다.</p> </li> 
     </ul> <p> <img src="assets/generate-with-template-350x241.png" style="width: 350;height: 241;"> </p> </td> 
@@ -223,9 +223,9 @@ OAuth 서버 간 연결을 만들려면 Adobe 개발자 콘솔에서 Adobe PDF �
  </tbody> 
 </table>
 
-#### 사용 [!UICONTROL 문서 생성] json이 있는 모듈
+#### JSON이 있는 [!UICONTROL 문서 생성] 모듈 사용
 
-을(를) 사용하려면 [!UICONTROL 문서 생성] json이 있는 모듈에서 필드를 다음과 같이 채웁니다.
+JSON이 있는 [!UICONTROL 문서 생성] 모듈을 사용하려면 다음과 같이 필드를 채우십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -233,10 +233,10 @@ OAuth 서버 간 연결을 만들려면 Adobe 개발자 콘솔에서 Adobe PDF �
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> 에 대한 연결 만들기에 대한 지침: [!DNL Adobe PDF Services], 참조 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe PDF Services]</a> 이 문서에서. </td> 
+   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> [!DNL Adobe PDF Services]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >[!DNL Adobe PDF Services]</a>에 대한 연결 만들기 를 참조하십시오. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 소스 파일]</td> 
+   <td role="rowheader">[!UICONTROL Source 파일]</td> 
    <td> <p>이전 모듈에서 소스 파일을 선택하거나 소스 파일의 이름과 데이터를 매핑합니다.</p> </td> 
   </tr> 
   <tr> 
@@ -254,7 +254,7 @@ OAuth 서버 간 연결을 만들려면 Adobe 개발자 콘솔에서 Adobe PDF �
  </tbody> 
 </table>
 
-### [!UICONTROL 텍스트/테이블 추출]
+### [!UICONTROL 텍스트/표 추출]
 
 이 작업 모듈에서는 PDF 파일에서 데이터를 추출할 수 있습니다. 모듈은 단락 또는 표의 단일 셀에 있는 텍스트와 같은 개별 텍스트 요소를 출력합니다.
 
@@ -264,10 +264,10 @@ OAuth 서버 간 연결을 만들려면 Adobe 개발자 콘솔에서 Adobe PDF �
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> 에 대한 연결 만들기에 대한 지침: [!DNL Adobe PDF Services], 참조 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe PDF Services]</a> 이 문서에서. </td> 
+   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> [!DNL Adobe PDF Services]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >[!DNL Adobe PDF Services]</a>에 대한 연결 만들기 를 참조하십시오. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 소스 파일]</td> 
+   <td role="rowheader">[!UICONTROL Source 파일]</td> 
    <td>이전 모듈에서 소스 파일을 선택하거나 소스 파일의 이름과 데이터를 매핑합니다.</td> 
   </tr> 
   <tr> 
@@ -291,7 +291,7 @@ OAuth 서버 간 연결을 만들려면 Adobe 개발자 콘솔에서 Adobe PDF �
 
 ### [!UICONTROL PDF 파일 결합]
 
-이 작업 모듈은 여러 PDF 파일을 가져와 단일 PDF 파일로 결합합니다. 예를 들어 이 모듈은 의 모든 문서를 [!UICONTROL Workfront] 프로젝트가 완료되면 단일 PDF으로 빌드합니다.
+이 작업 모듈은 여러 PDF 파일을 가져와 단일 PDF 파일로 결합합니다. 예를 들어 이 모듈은 프로젝트가 완료되면 [!UICONTROL Workfront] 프로젝트의 모든 문서를 단일 PDF으로 결합할 수 있습니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -299,16 +299,16 @@ OAuth 서버 간 연결을 만들려면 Adobe 개발자 콘솔에서 Adobe PDF �
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> 에 대한 연결 만들기에 대한 지침: [!DNL Adobe PDF Services], 참조 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe PDF Services]</a> 이 문서에서. </td> 
+   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> [!DNL Adobe PDF Services]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >[!DNL Adobe PDF Services]</a>에 대한 연결 만들기 를 참조하십시오. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 문서]</td> 
    <td> <p>집계 모듈을 사용하여 문서를 수집하여 PDF에 결합하거나 문서를 수동으로 추가할 수 있습니다. </p> <p>[!UICONTROL Array Aggregator] 모듈을 사용하여 이전 모듈의 출력을 집계하는 것이 좋습니다. 취합기를 사용하면 결합할 파일의 이름, 위치 또는 번호를 알 필요가 없습니다. 따라서 취합자를 사용하면 결합할 문서를 수동으로 입력하는 것보다 훨씬 유연하고 확장 가능합니다.</p> <p>[!UICONTROL Combine PDF] 파일 모듈을 집계기와 함께 사용하려면 [!UICONTROL Documents] 필드에서 매핑을 활성화해야 합니다. </p> <p>이 예에서 [!UICONTROL 관련 레코드 읽기] 모듈은 프로젝트와 관련된 문서를 식별하고 [!UICONTROL 문서 다운로드] 모듈은 각 문서를 다운로드합니다. 모든 PDF은 배열로 집계되어 [!UICONTROL Combine PDF] 파일 모듈로 전달됩니다.</p> <p> <img src="assets/combine-example-350x104.png" style="width: 350;height: 104;"> </p> <p>문서를 수동으로 입력할 수도 있습니다.</p> <p>결합된 PDF에 포함할 각 문서의 경우:</p> 
     <ol> 
      <li value="1"> <p>[!UICONTROL Add a Document] 클릭</p> </li> 
-     <li value="2"> <p>[!UICONTROL 소스 파일] 필드에서 포함할 문서를 출력하는 모듈을 선택하거나 소스 파일의 이름과 데이터를 매핑합니다. </p> </li> 
-     <li value="3"> <p>(선택 사항) 소스 파일의 특정 페이지만 포함하려면 추가할 각 페이지 범위에 대해 <strong>[!UICONTROL 항목 추가]</strong> [!UICONTROL Pages] 필드에 포함할 페이지 범위의 첫 번째 페이지와 마지막 페이지를 입력하고 을(를) 클릭합니다 <strong>[!UICONTROL 추가]</strong>. 단일 문서에서 두 개 이상의 페이지 범위를 포함할 수 있습니다.</p> </li> 
-     <li value="4"> <p>클릭 <strong>[!UICONTROL 추가]</strong>. </p> </li> 
+     <li value="2"> <p>[!UICONTROL Source 파일] 필드에서 포함할 문서를 출력하는 모듈을 선택하거나 소스 파일의 이름과 데이터를 매핑합니다. </p> </li> 
+     <li value="3"> <p>(선택 사항) 소스 파일의 특정 페이지만 포함하려면 추가할 각 페이지 범위에 대해 [!UICONTROL Pages] 필드에서 <strong>[!UICONTROL 항목 추가]</strong>를 클릭한 다음 포함할 페이지 범위의 첫 번째 페이지와 마지막 페이지를 입력하고 <strong>[!UICONTROL 추가]</strong>를 클릭합니다. 단일 문서에서 두 개 이상의 페이지 범위를 포함할 수 있습니다.</p> </li> 
+     <li value="4"> <p><strong>[!UICONTROL 추가]</strong>를 클릭합니다. </p> </li> 
     </ol> </td> 
   </tr> 
  </tbody> 
@@ -326,10 +326,10 @@ OAuth 서버 간 연결을 만들려면 Adobe 개발자 콘솔에서 Adobe PDF �
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> 에 대한 연결 만들기에 대한 지침: [!DNL Adobe PDF Services], 참조 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe PDF Services]</a> 이 문서에서. </td> 
+   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> [!DNL Adobe PDF Services]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >[!DNL Adobe PDF Services]</a>에 대한 연결 만들기 를 참조하십시오. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 소스 파일]</td> 
+   <td role="rowheader">[!UICONTROL Source 파일]</td> 
    <td> <p>이전 모듈에서 소스 파일을 선택하거나 소스 파일의 이름과 데이터를 매핑합니다.</p> <p>소스 파일은 PDF 형식이어야 합니다. </p> </td> 
   </tr> 
   <tr> 
@@ -357,10 +357,10 @@ OAuth 서버 간 연결을 만들려면 Adobe 개발자 콘솔에서 Adobe PDF �
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> 에 대한 연결 만들기에 대한 지침: [!DNL Adobe PDF Services], 참조 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe PDF Services]</a> 이 문서에서. </td> 
+   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> [!DNL Adobe PDF Services]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >[!DNL Adobe PDF Services]</a>에 대한 연결 만들기 를 참조하십시오. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 소스 파일]</td> 
+   <td role="rowheader">[!UICONTROL Source 파일]</td> 
    <td> <p>이전 모듈에서 소스 파일을 선택하거나 소스 파일의 이름과 데이터를 매핑합니다.</p> <p>소스 파일은 다음 형식 중 하나여야 합니다.</p> 
     <ul> 
      <li> <p>DOC</p> </li> 
@@ -426,17 +426,17 @@ OAuth 서버 간 연결을 만들려면 Adobe 개발자 콘솔에서 Adobe PDF �
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> 에 대한 연결 만들기에 대한 지침: [!DNL Adobe PDF Services], 참조 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe PDF Services]</a> 이 문서에서. </td> 
+   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> [!DNL Adobe PDF Services]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >[!DNL Adobe PDF Services]</a>에 대한 연결 만들기 를 참조하십시오. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 소스 파일]</td> 
-   <td> <p>이전 모듈에서 소스 파일을 선택하거나 소스 파일의 이름과 데이터를 매핑합니다.</p> <p>중요: 소스 파일은 HTML 또는 ZIP 형식이어야 합니다. </p> </td> 
+   <td role="rowheader">[!UICONTROL Source 파일]</td> 
+   <td> <p>이전 모듈에서 소스 파일을 선택하거나 소스 파일의 이름과 데이터를 매핑합니다.</p> <p>중요: Source 파일은 HTML 또는 ZIP 형식이어야 합니다. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL JSON]</td> 
-   <td> <p>HTML이 JavaScript 변수를 참조하는 경우 여기에 해당 변수를 포함할 수 있습니다. </p> <p>각 변수에 대해 <strong>[!UICONTROL 항목 추가]</strong> 및 에는 변수의 키 및 값이 포함됩니다.</p> <p>참고:   
+   <td> <p>HTML이 JavaScript 변수를 참조하는 경우 여기에 해당 변수를 포함할 수 있습니다. </p> <p>각 변수에 대해 <strong>[!UICONTROL 항목 추가]</strong>를 클릭하고 변수의 키와 값을 포함합니다.</p> <p>참고:   
      <ul> 
-      <li> <p>ZIP 파일에서 PDF을 생성할 때 소스 자료에 다음과 같은 스크립트 요소가 포함되어야 합니다. <code> &lt;script src='./json.js' type='text/javascript'&gt;&lt;/script&gt;</code> </p> </li> 
+      <li> <p>ZIP 파일에서 PDF을 만들 때 원본 자료에 <code> &lt;script src='./json.js' type='text/javascript'&gt;&lt;/script&gt;</code>과(와) 같은 스크립트 요소가 포함되어야 합니다. </p> </li> 
       <li> <p>URL에서 PDF을 만들 때 페이지가 렌더링되기 전에 이 JSON 개체의 콘텐츠가 브라우저 VM에 삽입됩니다. </p> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -471,10 +471,10 @@ OAuth 서버 간 연결을 만들려면 Adobe 개발자 콘솔에서 Adobe PDF �
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> 에 대한 연결 만들기에 대한 지침: [!DNL Adobe PDF Services], 참조 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe PDF Services]</a> 이 문서에서. </td> 
+   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> [!DNL Adobe PDF Services]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >[!DNL Adobe PDF Services]</a>에 대한 연결 만들기 를 참조하십시오. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 소스 파일]</td> 
+   <td role="rowheader">[!UICONTROL Source 파일]</td> 
    <td> <p>이전 모듈에서 소스 파일을 선택하거나 소스 파일의 이름과 이미지 파일을 매핑합니다.</p> </td> 
   </tr> 
  </tbody> 
@@ -498,10 +498,10 @@ OAuth 서버 간 연결을 만들려면 Adobe 개발자 콘솔에서 Adobe PDF �
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> 에 대한 연결 만들기에 대한 지침: [!DNL Adobe PDF Services], 참조 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe PDF Services]</a> 이 문서에서. </td> 
+   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> [!DNL Adobe PDF Services]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >[!DNL Adobe PDF Services]</a>에 대한 연결 만들기 를 참조하십시오. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 소스 파일]</td> 
+   <td role="rowheader">[!UICONTROL Source 파일]</td> 
    <td> <p>이전 모듈에서 소스 파일을 선택하거나 소스 파일의 이름과 데이터를 매핑합니다.</p> <p>소스 파일은 PDF 형식이어야 합니다. </p> </td> 
   </tr> 
   <tr> 
@@ -532,10 +532,10 @@ OAuth 서버 간 연결을 만들려면 Adobe 개발자 콘솔에서 Adobe PDF �
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> 에 대한 연결 만들기에 대한 지침: [!DNL Adobe PDF Services], 참조 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe PDF Services]</a> 이 문서에서. </td> 
+   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> [!DNL Adobe PDF Services]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >[!DNL Adobe PDF Services]</a>에 대한 연결 만들기 를 참조하십시오. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 소스 파일]</td> 
+   <td role="rowheader">[!UICONTROL Source 파일]</td> 
    <td> <p>이전 모듈에서 소스 파일을 선택하거나 소스 파일의 이름과 데이터를 매핑합니다.</p> <p>소스 파일은 PDF 형식이어야 합니다. </p> </td> 
   </tr> 
   <tr> 
@@ -561,16 +561,16 @@ OAuth 서버 간 연결을 만들려면 Adobe 개발자 콘솔에서 Adobe PDF �
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> 에 대한 연결 만들기에 대한 지침: [!DNL Adobe PDF Services], 참조 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe PDF Services]</a> 이 문서에서. </td> 
+   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> [!DNL Adobe PDF Services]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >[!DNL Adobe PDF Services]</a>에 대한 연결 만들기 를 참조하십시오. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 소스 파일]</td> 
+   <td role="rowheader">[!UICONTROL Source 파일]</td> 
    <td> <p>이전 모듈에서 소스 파일을 선택하거나 소스 파일의 이름과 데이터를 매핑합니다.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### [!UICONTROL PDF 파일용 OCR]
+### [!UICONTROL PDF 파일에 대한 OCR]
 
 이 도구는 파일에서 OCR(광학 문자 인식)을 수행하고 PDF을 생성합니다.
 
@@ -582,10 +582,10 @@ OAuth 서버 간 연결을 만들려면 Adobe 개발자 콘솔에서 Adobe PDF �
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> 에 대한 연결 만들기에 대한 지침: [!DNL Adobe PDF Services], 참조 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe PDF Services]</a> 이 문서에서. </td> 
+   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> [!DNL Adobe PDF Services]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >[!DNL Adobe PDF Services]</a>에 대한 연결 만들기 를 참조하십시오. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 소스 파일]</td> 
+   <td role="rowheader">[!UICONTROL Source 파일]</td> 
    <td> <p>이전 모듈에서 소스 파일을 선택하거나 소스 파일의 이름과 데이터를 매핑합니다.</p> </td> 
   </tr> 
   <tr> 
@@ -615,10 +615,10 @@ OAuth 서버 간 연결을 만들려면 Adobe 개발자 콘솔에서 Adobe PDF �
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> 에 대한 연결 만들기에 대한 지침: [!DNL Adobe PDF Services], 참조 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe PDF Services]</a> 이 문서에서. </td> 
+   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> [!DNL Adobe PDF Services]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >[!DNL Adobe PDF Services]</a>에 대한 연결 만들기 를 참조하십시오. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 소스 파일]</td> 
+   <td role="rowheader">[!UICONTROL Source 파일]</td> 
    <td> <p>이전 모듈에서 소스 파일을 선택하거나 소스 파일의 이름과 데이터를 매핑합니다.</p> </td> 
   </tr> 
   <tr> 
@@ -631,7 +631,7 @@ OAuth 서버 간 연결을 만들려면 Adobe 개발자 콘솔에서 Adobe PDF �
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Pages]</td> 
-   <td> <p>삭제할 각 페이지 범위에 대해 <strong>[!UICONTROL 추가]</strong> 그런 다음 페이지 범위의 첫 번째 페이지와 마지막 페이지를 입력합니다. </p> <p>참고:   
+   <td> <p>삭제할 각 페이지 범위에 대해 <strong>[!UICONTROL 추가]</strong>를 클릭한 다음 페이지 범위의 첫 번째 페이지와 마지막 페이지를 입력합니다. </p> <p>참고:   
      <ul> 
       <li> <p>음수를 사용하여 문서 끝 부분부터 다시 계산할 수 있습니다. 문서의 마지막 페이지는 -1이고, 두 번째 페이지에서 마지막 페이지까지 -2입니다.</p> </li> 
       <li> <p>단일 페이지를 삭제하려면 동일한 페이지 번호를 범위의 시작 및 끝 둘 다로 설정합니다.</p> </li> 
@@ -656,10 +656,10 @@ OAuth 서버 간 연결을 만들려면 Adobe 개발자 콘솔에서 Adobe PDF �
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> 에 대한 연결 만들기에 대한 지침: [!DNL Adobe PDF Services], 참조 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe PDF Services]</a> 이 문서에서. </td> 
+   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> [!DNL Adobe PDF Services]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >[!DNL Adobe PDF Services]</a>에 대한 연결 만들기 를 참조하십시오. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 소스 파일]</td> 
+   <td role="rowheader">[!UICONTROL Source 파일]</td> 
    <td> <p>이전 모듈에서 소스 파일을 선택하거나 소스 파일의 이름과 데이터를 매핑합니다.</p> </td> 
   </tr> 
   <tr> 
@@ -690,10 +690,10 @@ OAuth 서버 간 연결을 만들려면 Adobe 개발자 콘솔에서 Adobe PDF �
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> 에 대한 연결 만들기에 대한 지침: [!DNL Adobe PDF Services], 참조 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe PDF Services]</a> 이 문서에서. </td> 
+   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> [!DNL Adobe PDF Services]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >[!DNL Adobe PDF Services]</a>에 대한 연결 만들기 를 참조하십시오. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 소스 파일]</td> 
+   <td role="rowheader">[!UICONTROL Source 파일]</td> 
    <td> <p>이전 모듈에서 소스 파일을 선택하거나 소스 파일의 이름과 데이터를 매핑합니다.</p> </td> 
   </tr> 
  </tbody> 
@@ -711,10 +711,10 @@ OAuth 서버 간 연결을 만들려면 Adobe 개발자 콘솔에서 Adobe PDF �
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> 에 대한 연결 만들기에 대한 지침: [!DNL Adobe PDF Services], 참조 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe PDF Services]</a> 이 문서에서. </td> 
+   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> [!DNL Adobe PDF Services]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >[!DNL Adobe PDF Services]</a>에 대한 연결 만들기 를 참조하십시오. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 소스 파일]</td> 
+   <td role="rowheader">[!UICONTROL Source 파일]</td> 
    <td> <p>이전 모듈에서 소스 파일을 선택하거나 소스 파일의 이름과 데이터를 매핑합니다.</p> <p>소스 파일은 PDF 형식이어야 합니다. </p> </td> 
   </tr> 
   <tr> 
@@ -761,10 +761,10 @@ OAuth 서버 간 연결을 만들려면 Adobe 개발자 콘솔에서 Adobe PDF �
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> 에 대한 연결 만들기에 대한 지침: [!DNL Adobe PDF Services], 참조 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe PDF Services]</a> 이 문서에서. </td> 
+   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> [!DNL Adobe PDF Services]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >[!DNL Adobe PDF Services]</a>에 대한 연결 만들기 를 참조하십시오. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 소스 파일]</td> 
+   <td role="rowheader">[!UICONTROL Source 파일]</td> 
    <td> <p>이전 모듈에서 소스 파일을 선택하거나 소스 파일의 이름과 데이터를 매핑합니다.</p> <p>소스 파일은 PDF 형식이어야 합니다.</p> </td> 
   </tr> 
   <tr> 
@@ -786,17 +786,17 @@ OAuth 서버 간 연결을 만들려면 Adobe 개발자 콘솔에서 Adobe PDF �
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> 에 대한 연결 만들기에 대한 지침: [!DNL Adobe PDF Services], 참조 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe PDF Services]</a> 이 문서에서. </td> 
+   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> [!DNL Adobe PDF Services]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >[!DNL Adobe PDF Services]</a>에 대한 연결 만들기 를 참조하십시오. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 소스 파일]</td> 
+   <td role="rowheader">[!UICONTROL Source 파일]</td> 
    <td> <p>이전 모듈에서 소스 파일을 선택하거나 소스 파일의 이름과 데이터를 매핑합니다.</p> <p>소스 파일은 PDF 형식이어야 합니다.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 분할 옵션]</td> 
    <td>파일을 분할할 방법을 선택합니다. 
    <ul>
-   <li><p><b>페이지 범위</b></p><p>별도의 문서로 분할할 각 페이지 범위에 대해 <b>추가</b> 시작할 페이지와 종료할 페이지를 입력합니다.</p></li>
+   <li><p><b>페이지 범위</b></p><p>별도의 문서로 분할하려는 각 페이지 범위에 대해 <b>추가</b>를 클릭하고 시작할 페이지와 끝낼 페이지를 입력합니다.</p></li>
    <li><p><b>페이지 수</b></p><p>새 문서에 포함할 페이지 수를 입력합니다.</p></li>
    <li><p><b>파일 수</b></p><p>문서를 분할할 파일 크기를 동일하게 입력합니다.</p></li>
    </ul>
@@ -815,7 +815,7 @@ OAuth 서버 간 연결을 만들려면 Adobe 개발자 콘솔에서 Adobe PDF �
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> 에 대한 연결 만들기에 대한 지침: [!DNL Adobe PDF Services], 참조 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >에 대한 연결 만들기 [!DNL Adobe PDF Services]</a> 이 문서에서. </td> 
+   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> [!DNL Adobe PDF Services]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >[!DNL Adobe PDF Services]</a>에 대한 연결 만들기 를 참조하십시오. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
@@ -823,7 +823,7 @@ OAuth 서버 간 연결을 만들려면 Adobe 개발자 콘솔에서 Adobe PDF �
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 메서드]</td> 
-   <td> <p>API 호출을 구성하는 데 필요한 HTTP 요청 메서드를 선택합니다. 자세한 내용은 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">의 HTTP 요청 메서드 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>API 호출을 구성하는 데 필요한 HTTP 요청 메서드를 선택합니다. 자세한 내용은 [!DNL Adobe Workfront Fusion]</a>에서 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP 요청 메서드를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -835,7 +835,7 @@ OAuth 서버 간 연결을 만들려면 Adobe 개발자 콘솔에서 Adobe PDF �
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 필드]</td> 
-   <td> <p>API 호출에 추가할 각 필드에 대해 <b>항목 추가</b> 필드의 키와 선택적 값을 입력합니다.</p> <p>참고:  <p>다음과 같은 조건문을 사용할 때 <code>if</code> json에서 따옴표를 조건문 외부에 넣습니다.</p> 
+   <td> <p>API 호출에 추가할 각 필드에 대해 <b>항목 추가</b>를 클릭하고 필드의 키와 선택적 값을 입력하십시오.</p> <p>참고:  <p>JSON에서 <code>if</code>과(와) 같은 조건문을 사용할 때 따옴표를 조건문 외부에 넣으십시오.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 

@@ -9,7 +9,7 @@ role: Developer
 exl-id: afbc986e-8b5c-40bc-9120-e8d34e0f7004
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1072'
 ht-degree: 2%
 
 ---
@@ -37,14 +37,14 @@ API 버전 13에 대해 다음 리소스가 수정되었습니다.
   <tr> 
    <td> 
     <ul> 
-     <li> <p><a href="#accesslevel" class="MCXref xref">AccessLevel</a> </p> </li> 
+     <li> <p><a href="#accesslevel" class="MCXref xref">액세스 수준</a> </p> </li> 
      <li> <p><a href="#breadcrumb" class="MCXref xref">빵 부스러기</a> </p> </li> 
      <li> <p><a href="#burndownevent" class="MCXref xref">번다운 이벤트</a> </p> </li> 
-     <li> <p><a href="#customerpreferences" class="MCXref xref">고객 환경 설정</a> </p> </li> 
+     <li> <p><a href="#customerpreferences" class="MCXref xref">CustomerPreferences</a> </p> </li> 
      <li> <p><a href="#documentversion" class="MCXref xref">DocumentVersion</a> </p> </li> 
      <li> <p><a href="#group" class="MCXref xref">그룹 </a> </p> </li> 
-     <li> <p><a href="#journalentry" class="MCXref xref">저널 게시물</a> </p> </li> 
-     <li> <p><a href="#layouttemplate" class="MCXref xref">레이아웃 템플릿</a> </p> </li> 
+     <li> <p><a href="#journalentry" class="MCXref xref">JournalEntry</a> </p> </li> 
+     <li> <p><a href="#layouttemplate" class="MCXref xref">LayoutTemplate</a> </p> </li> 
      <li> <p><a href="#linkedfolder" class="MCXref xref">LinkedFolder</a> </p> </li> 
      <li> <p><a href="#optask" class="MCXref xref">OpTask</a> </p> </li> 
     </ul> </td> 
@@ -69,7 +69,7 @@ API 버전 13에 대해 다음 리소스가 수정되었습니다.
 
 AccessLevel 개체는 사용자와 연결되어 있으며 사용자가 액세스할 수 있는 항목을 결정하는 AccessLevelPermissions 집합에 대해 설명합니다.
 
-액세스 수준에 대한 자세한 내용은 [액세스 수준 작동 방식](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
+액세스 수준에 대한 자세한 내용은 [액세스 수준 작동 방식](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)을 참조하세요.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -89,7 +89,7 @@ AccessLevel 개체는 사용자와 연결되어 있으며 사용자가 액세스
 
 BreadCrumb 개체는 Workfront 작업 항목의 상위/하위 계층 구조에 있는 요소를 나타냅니다. 이동 경로는 작업 항목이 더 큰 구조의 Portfolio, 프로젝트, 프로젝트 및 작업에 어떻게 적합한지 나타냅니다.
 
-이동 경로에 대한 자세한 내용은 [새로운 Adobe Workfront 경험의 탐색 표시 개요](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
+이동 경로에 대한 자세한 내용은 새 Adobe Workfront 환경의 [이동 경로 개요](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)를 참조하십시오.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -99,7 +99,7 @@ BreadCrumb 개체는 Workfront 작업 항목의 상위/하위 계층 구조에 �
    <td> <p>직접 필드</p> </td> 
    <td> 
     <ul> 
-     <li> <p><b>objCode</b> </p> <p>개체 코드는 다음에서 찾을 수 있습니다. <a href="../../wf-api/general/api-explorer.md" class="MCXref xref">API 탐색기</a>.</p> </li> 
+     <li> <p><b>objCode</b> </p> <p>개체 코드는 <a href="../../wf-api/general/api-explorer.md" class="MCXref xref">API 탐색기</a>에서 찾을 수 있습니다.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -109,7 +109,7 @@ BreadCrumb 개체는 Workfront 작업 항목의 상위/하위 계층 구조에 �
 
 BurndownEvent 객체는 이터레이션의 번다운을 변경하는 객체를 나타냅니다.
 
-번다운에 대한 자세한 내용은 [번다운](../../agile/use-scrum-in-an-agile-team/burndown/burndown.md).
+번다운에 대한 자세한 내용은 [번다운](../../agile/use-scrum-in-an-agile-team/burndown/burndown.md)을 참조하세요.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -153,7 +153,7 @@ CustomerPreferences 객체는 고객이 Workfront 인스턴스에 대해 설정�
    <td> <p>다음 작업이 CustomerPreferences 리소스에 추가되었습니다.</p> 
     <ul> 
      <li> <p><b>getTimesheetPreferences</b> </p> </li> 
-     <li> <p><b>타임시트 환경 설정 지정</b> </p> <p>인수를 사용합니다.</p> 
+     <li> <p><b>setTimesheetPreferences</b> </p> <p>인수를 사용합니다.</p> 
       <ul> 
        <li> <p>환경 설정(맵)</p> </li> 
       </ul> </li> 
@@ -166,7 +166,7 @@ CustomerPreferences 객체는 고객이 Workfront 인스턴스에 대해 설정�
 
 DocumentVersion 개체는 작성된 자료, 이미지 또는 다른 형태의 정보 등 파일의 특정 버전을 나타냅니다.
 
-문서 버전에 대한 자세한 내용은 [새 문서 버전 업로드](../../documents/managing-documents/upload-new-document-version.md).
+문서 버전에 대한 자세한 내용은 [새 문서 버전 업로드](../../documents/managing-documents/upload-new-document-version.md)를 참조하십시오.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -192,7 +192,7 @@ DocumentVersion 개체는 작성된 자료, 이미지 또는 다른 형태의 �
 
 Group 객체는 사용자 및 팀 집합을 나타냅니다. 그룹은 종종 부서 구조를 나타냅니다.
 
-그룹에 대한 자세한 내용은 [Adobe Workfront의 그룹과 팀 비교](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md).
+그룹에 대한 자세한 내용은 [Adobe Workfront의 그룹과 팀](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md)을 참조하세요.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -229,9 +229,9 @@ JournalEntry 리소스가 REPORTABLE 플래그를 추가했습니다.
     </ul> <p>다음 필드에 NOT_FILTERABLE 플래그가 추가되었습니다.</p> 
     <ul> 
      <li> <p><b>subObjCode</b> </p> </li> 
-     <li> <p><b>subObjId</b> </p> </li> 
+     <li> <p><b>subObjID</b> </p> </li> 
      <li> <p><b>topObjCode</b> </p> </li> 
-     <li> <p><b>topObjID</b> </p> </li> 
+     <li> <p><b>topObjId</b> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -241,7 +241,7 @@ JournalEntry 리소스가 REPORTABLE 플래그를 추가했습니다.
 
 Adobe Workfront 관리자 또는 그룹 관리자는 템플릿을 만들어 Adobe Workfront의 레이아웃 요소를 사용자 정의할 수 있습니다. LayoutTemplate 개체는 Adobe Workfront Classic에 따라 다릅니다.
 
-새 Adobe Workfront 경험에서 레이아웃 템플릿을 나타내는 오브젝트에 대해서는 다음을 참조하십시오. [UITemplate](#uitemplate)
+새 Adobe Workfront 경험에서 레이아웃 템플릿을 나타내는 개체에 대해서는 [UITemplate](#uitemplate)을 참조하십시오.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -261,7 +261,7 @@ Adobe Workfront 관리자 또는 그룹 관리자는 템플릿을 만들어 Adob
 
 LinkedFolder 개체는 Google 드라이브 또는 Dropbox과 같은 외부 문서 공급자로부터 연결된 폴더를 나타냅니다.
 
-연결된 폴더에 대한 자세한 내용은 [외부 애플리케이션에서 문서 연결](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+연결된 폴더에 대한 자세한 내용은 [외부 응용 프로그램에서 문서 연결](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)을 참조하세요.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -342,7 +342,7 @@ ProofApproval 객체는 증명에 직접 연결된 승인을 나타냅니다.
 
 QueueDef 개체는 사용자가 문제를 제출할 수 있도록 헬프 데스크 영역에 게시된 프로젝트인 Queue를 나타냅니다.
 
-요청 대기열에 대한 자세한 내용은 [요청 대기열 만들기](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+요청 대기열에 대한 자세한 내용은 [요청 대기열 만들기](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)를 참조하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -459,7 +459,7 @@ QueueDef 개체는 사용자가 문제를 제출할 수 있도록 헬프 데스�
 
 Adobe Workfront 관리자 또는 그룹 관리자는 템플릿을 만들어 Adobe Workfront의 레이아웃 요소를 사용자 정의할 수 있습니다. UITemplate 개체는 새로운 Adobe Workfront 환경에 따라 다릅니다.
 
-Adobe Workfront Classic의 레이아웃 템플릿을 나타내는 오브젝트에 대해서는 다음을 참조하십시오. [레이아웃 템플릿](#layouttemplate).
+Adobe Workfront Classic의 레이아웃 템플릿을 나타내는 개체에 대해서는 [LayoutTemplate](#layouttemplate)을 참조하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -473,7 +473,7 @@ Adobe Workfront Classic의 레이아웃 템플릿을 나타내는 오브젝트�
       <ul> 
        <li> <p>overrideIfExists (부울)</p> </li> 
       </ul> </li> 
-     <li> <p><b>migrateLayoutTemplates</b> </p> <p>인수를 사용합니다.</p> 
+     <li> <p><b>migrateLayoutTemplate</b> </p> <p>인수를 사용합니다.</p> 
       <ul> 
        <li> <p>layoutTemplateIDs (string[])</p> </li> 
        <li> <p>overrideIfExists (부울)</p> </li> 

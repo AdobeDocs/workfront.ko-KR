@@ -22,9 +22,9 @@ ht-degree: 1%
 </div>
 -->
 
-Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 개체를 보거나 편집할 수 있는 액세스 권한을 사용자에게 부여합니다. 객체에 대한 액세스 권한을 부여하는 방법에 대한 자세한 내용은 [사용자 정의 액세스 수준 만들기 또는 수정](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 개체를 보거나 편집할 수 있는 액세스 권한을 사용자에게 부여합니다. 개체에 대한 액세스 권한을 부여하는 방법에 대한 자세한 내용은 [사용자 지정 액세스 수준 만들기 또는 수정](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)을 참조하십시오.
 
-사용자에게 부여되는 액세스 수준과 함께 작성했거나 공유할 수 있는 액세스 권한이 있는 특정 개체를 보거나 편집할 수 있는 권한을 부여할 수도 있습니다. 액세스 수준 및 권한에 대한 자세한 내용은 [액세스 수준 및 권한이 함께 작동하는 방식](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+사용자에게 부여되는 액세스 수준과 함께 작성했거나 공유할 수 있는 액세스 권한이 있는 특정 개체를 보거나 편집할 수 있는 권한을 부여할 수도 있습니다. 액세스 수준 및 사용 권한에 대한 자세한 내용은 [액세스 수준 및 사용 권한이 함께 작동하는 방법](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)을 참조하세요.
 
 보기 액세스 권한이 있는 필터, 보기 및 그룹화를 다른 사용자와 공유할 수 있습니다.
 
@@ -54,11 +54,11 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 개�
   </tr> 
   <tr> 
    <td role="rowheader"><strong>액세스 수준 구성*</strong></td> 
-   <td> <p>필터, 보기, 그룹화에 대한 보기 또는 상위 액세스</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td> <p>필터, 보기, 그룹화에 대한 보기 또는 상위 액세스</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>개체 권한</strong></td> 
-   <td> <p>보기, 필터 또는 그룹화에 대한 공유 액세스 권한이 있는 보기 이상의 권한</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>보기, 필터 또는 그룹화에 대한 공유 액세스 권한이 있는 보기 이상의 권한</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -71,7 +71,7 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 개�
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: when the beta filters/ groupings come out either consider splitting this in different kinds of FVGs or splitting this article in FVGs for showing sharing on each one of them??)</p>
 -->
 
-선택 목록의 필터 공유는 필터를 공유하는 데 사용하는 인터페이스(표준 또는 레거시)에 따라 다릅니다. 필터 빌드 인터페이스 유형에 대한 자세한 내용은 [Adobe Workfront에서 필터 만들기 또는 편집](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+선택 목록의 필터 공유는 필터를 공유하는 데 사용하는 인터페이스(표준 또는 레거시)에 따라 다릅니다. 필터 빌드 인터페이스 유형에 대한 자세한 내용은 [Adobe Workfront에서 필터 만들기 또는 편집](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md)을 참조하십시오.
 
 이전 인터페이스에서만 보기와 그룹화를 공유할 수 있습니다.
 
@@ -82,7 +82,7 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 개�
 표준 빌더 인터페이스를 사용하여 필터 공유:
 
 1. 프로젝트, 작업 또는 문제 목록으로 이동합니다.
-1. 다음을 클릭합니다. **필터** 아이콘 ![필터 아이콘](assets/filter-nwepng.png).
+1. **필터** 아이콘 ![필터 아이콘](assets/filter-nwepng.png)을 클릭합니다.
 
    ![표준 필터 빌더](assets/new-filters-all-filter-types.png)
 
@@ -111,24 +111,24 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 개�
    </tbody>
    </table>
 
-1. 적어도 보고 공유할 수 있는 액세스 권한이 있는 필터 위로 마우스를 가져간 다음 **자세히** 메뉴 ![기타 메뉴](assets/more-icon-spectrum.png)을 클릭한 다음 을 클릭합니다 **공유**.
+1. 최소한 보고 공유할 수 있는 액세스 권한이 있는 필터 위로 마우스를 가져간 후 **자세히** 메뉴 ![추가 메뉴](assets/more-icon-spectrum.png)를 클릭한 다음 **공유**&#x200B;를 클릭합니다.
 
    ![기타 메뉴 옵션](assets/new-filters-more-menu-options-with-delete.png)
 
    필터 공유 상자가 표시됩니다.
 
-1. 에서 공유할 사용자, 팀, 역할, 그룹 또는 회사의 이름을 입력하십시오. **액세스 권한 부여 대상** 필드.
+1. **액세스 권한 부여** 필드에 공유할 사용자, 팀, 역할, 그룹 또는 회사의 이름을 입력하십시오.
 
-   ![필터 공유 상자](assets/new-filters-share-filter.png)
+   ![공유 상자 필터링](assets/new-filters-share-filter.png)
 
-1. (선택 사항) 엔티티 이름 옆의 오른쪽 화살표를 클릭하여 필터에 대한 권한을 편집한 다음, **보기** 또는 **관리** 옵션을 선택합니다. **보기** 는 기본값입니다.
+1. (선택 사항) 엔터티 이름 옆에 있는 오른쪽 화살표를 클릭하여 필터에 대한 권한을 편집한 다음 **보기** 또는 **관리** 옵션을 활성화합니다. **보기**&#x200B;가 기본값입니다.
 
    ![권한 공유](assets/new-filters-sharing-permissions.png)
 
 1. (선택 사항) 다음 중 하나를 수행하여 엔티티에 대한 추가 권한을 활성화하거나 비활성화합니다.
 
-   1. 클릭 **보기** 및 비활성화 **공유** 옵션을 선택합니다. 기본적으로 활성화되어 있습니다.
-   1. 클릭 **관리** 다음 중 하나를 비활성화합니다. **공유** 또는 **삭제** 옵션을 선택합니다. 기본적으로 활성화되어 있습니다.
+   1. **보기**&#x200B;를 클릭하고 **공유** 옵션을 비활성화합니다. 기본적으로 활성화되어 있습니다.
+   1. **관리**&#x200B;를 클릭하고 **공유** 또는 **삭제** 옵션을 사용하지 않도록 설정합니다. 기본적으로 활성화되어 있습니다.
 
       >[!NOTE]
       >
@@ -144,7 +144,7 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 개�
    >
    >그룹과 공유하면 그룹 및 모든 하위 그룹의 구성원에게 필터에 대한 권한을 부여합니다.
 
-   공유한 필터는에 표시됩니다. **나와 공유됨** 필터 패널의 해당 엔티티에 대한 섹션입니다.
+   공유한 필터가 해당 엔터티에 대한 필터 패널의 **나와 공유** 섹션에 표시됩니다.
 
    ![나와 공유된 필터](assets/new-filters-shared-with-me.png)
 
@@ -153,26 +153,26 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 개�
 레거시 인터페이스에서 필터, 보기 및 그룹화를 공유하는 것은 동일합니다.
 
 1. 객체 목록 또는 보고서로 이동합니다.
-1. (조건부) 목록에서 **필터**, **보기**, 또는 **그룹화** 아이콘을 클릭한 다음 공유할 필터, 보기 또는 그룹화 위로 마우스를 가져가면 **자세히** 아이콘 ![기타 아이콘](assets/more-icon.png), 그런 다음 **공유**.
+1. (조건부) 목록에서 **필터**, **보기** 또는 **그룹화** 아이콘을 클릭한 다음 공유할 필터, 보기 또는 그룹화를 마우스로 가리키고 **자세히** 아이콘 ![자세히](assets/more-icon.png), **공유**&#x200B;를 클릭합니다.
 
-   보고서에서 **필터**, **보기**, 또는 **그룹화** 드롭다운 메뉴를 선택한 다음 공유할 필터, 보기 또는 그룹화를 선택합니다.
+   보고서에서 **필터**, **보기** 또는 **그룹화** 드롭다운 메뉴를 클릭한 다음 공유할 필터, 보기 또는 그룹화를 선택하십시오.
 
-1. (조건부) 보고서에서 공유하는 경우 **필터**, **보기**, 또는 **그룹화** 드롭다운 메뉴를 다시 클릭한 다음 을 클릭합니다. **필터 공유**, **보기 공유**, 또는 **그룹화 공유**.\
-   다음 **필터 액세스**, **액세스 권한 보기**, 또는 **그룹화 액세스** 대화 상자가 표시됩니다.
+1. (조건부) 보고서에서 공유하는 경우 **필터**, **보기** 또는 **그룹화** 드롭다운 메뉴를 다시 클릭한 다음 **필터 공유**, **보기 공유** 또는 **그룹화 공유**&#x200B;를 클릭합니다.\
+   **액세스 필터링**, **액세스 보기** 또는 **액세스 그룹화** 대화 상자가 표시됩니다.
 
    ![필터 공유](assets/share-filter-people-box-nwe-350x458.png)
 
 1. 공유할 사용자에 따라 다음 중 하나를 완료합니다.
 
-   **개별 사용자, 팀, 역할, 그룹 또는 회사와 공유하려면 다음을 수행합니다.** 제공된 필드에서 공유할 사용자, 팀, 역할, 그룹 또는 회사의 이름을 입력한 다음 드롭다운 목록에 표시될 때 이름을 클릭합니다.\
+   **개별 사용자, 팀, 역할, 그룹 또는 회사와 공유하려면:** 제공된 필드에 공유할 사용자, 팀, 역할, 그룹 또는 회사의 이름을 입력한 다음 드롭다운 목록에 표시될 때 이름을 클릭합니다.\
    이 프로세스를 반복하여 여러 사용자, 팀, 역할, 그룹 또는 회사와 액세스 권한을 공유합니다.
 
    >[!TIP]
    >
    >그룹과 공유하면 그룹 및 모든 하위 그룹의 구성원에게 필터, 보기 또는 그룹화에 대한 권한이 제공됩니다.
 
-   **시스템의 모든 사용자와 공유하려면 다음 작업을 수행하십시오.** 다음을 클릭합니다. **설정** 아이콘을 클릭한 다음 **시스템 전체에 표시**.\
-   이 옵션을 사용하려면 관리자가 시스템 전체 공유 옵션을 선택해야 합니다. 자세한 내용은 문서 를 참조하십시오 [사용자 정의 액세스 수준 만들기 또는 수정](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) 및 [보고서, 대시보드 및 캘린더 공유](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
+   **시스템의 모든 사용자와 공유하려면:** **설정** 아이콘을 클릭한 다음 **시스템 전체에 표시**&#x200B;를 클릭합니다.\
+   이 옵션을 사용하려면 관리자가 시스템 전체 공유 옵션을 선택해야 합니다. 자세한 내용은 문서 [사용자 지정 액세스 수준 만들기 또는 수정](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) 및 [보고서, 대시보드 및 일정 공유](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)를 참조하십시오.
 
 1. (조건부) 개별 사용자, 팀, 역할, 그룹 또는 회사와 공유하는 경우 드롭다운 메뉴를 클릭하여 부여할 액세스 수준을 정의합니다.
 
@@ -192,13 +192,13 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 개�
      </tr> 
      <tr> 
       <td role="rowheader"><strong>공유</strong></td> 
-      <td> <p>클릭 <strong>고급 설정</strong>을 선택한 다음 를 선택하거나 선택을 취소합니다. <strong>공유</strong> 선택 사항: 수신자가 다른 사용자와 공유할 수 있게 할지 여부에 따라 다릅니다.</p> </td> 
+      <td> <p><strong>고급 설정</strong>을 클릭한 다음 받는 사람이 다른 사람과 공유할 수 있게 할지 여부에 따라 <strong>공유</strong> 옵션을 선택하거나 선택을 취소합니다.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
 1. **저장**&#x200B;을 클릭합니다.
 
-   필터, 보기 또는 그룹화를 공유한 사용자는 **필터**, **보기**, 또는 **그룹화** 드롭다운 메뉴 또는 아이콘 및 **나와 공유됨** 섹션.
+   필터, 보기 또는 그룹화를 공유한 사용자는 **필터**, **보기** 또는 **그룹화** 드롭다운 메뉴 또는 아이콘을 클릭하고 **나와 공유** 섹션으로 스크롤하여 액세스할 수 있습니다.
 
 

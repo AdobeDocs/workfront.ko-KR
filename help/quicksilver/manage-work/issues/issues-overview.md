@@ -19,6 +19,6 @@ ht-degree: 7%
 
 이 섹션에는 다음 하위 섹션이 포함됩니다.
 
-* [문제 전환](../../manage-work/issues/convert-issues/convert-issues-overview.md)
+* [문제 변환](../../manage-work/issues/convert-issues/convert-issues-overview.md)
 * [문제 정보](../../manage-work/issues/issue-information/issue-info-overview.md)
 * [문제 관리](../../manage-work/issues/manage-issues/manage-issues-overview.md)

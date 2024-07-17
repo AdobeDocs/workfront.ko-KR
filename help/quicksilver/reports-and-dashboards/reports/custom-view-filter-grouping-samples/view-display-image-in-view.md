@@ -34,7 +34,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
@@ -45,11 +45,11 @@ ht-degree: 0%
    <td role="rowheader">액세스 수준 구성*</td> 
    <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 권한을 편집하여 보고서 수정</p> <p>필터, 보기, 그룹화에 대한 액세스 권한을 편집하여 보기 수정</p> <p><b>메모</b>
 
-여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td>
+여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>보고서에 대한 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>보고서에 대한 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -66,7 +66,6 @@ ht-degree: 0%
    >* Workfront에 업로드된 이미지를 사용하지 마십시오. Workfront에 저장된 이미지는 공개적으로 사용할 수 없으며 일정 시간이 지나면 만료되는 액세스 키가 있으므로 시간이 지남에 따라 보기에서 이미지가 표시되지 않습니다.
    >* 컴퓨터에 저장된 이미지에 고유한 URL이 없습니다. 이미지 호스팅을 제공하는 사이트를 찾아 해당 사이트에서 이미지를 호스팅합니다. 조직에 이미 이러한 사이트가 있을 수 있습니다.
 
-
 1. 웹 브라우저를 사용하여 저장한 이미지로 이동합니다.
 1. 다음을 수행하여 이미지의 URL을 얻습니다.
 
@@ -74,14 +73,14 @@ ht-degree: 0%
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: I used this blog post to document what kind of image we need for this: https://www.canto.com/blog/image-url/ (consulting uses this)) </p>
    -->
 
-   1. 마우스 오른쪽 단추를 클릭하고 선택 **이미지 위치 복사**, 또는 **링크 가져오기**&#x200B;브라우저에 따라 다릅니다. 이제 해당 특정 이미지에 대한 URL이 있으며 클립보드에서 붙여넣을 수 있습니다.
+   1. 마우스 오른쪽 단추를 클릭하고 브라우저에 따라 **이미지 위치 복사** 또는 **링크 가져오기**&#x200B;를 선택합니다. 이제 해당 특정 이미지에 대한 URL이 있으며 클립보드에서 붙여넣을 수 있습니다.
    1. 해당 링크를 가진 모든 사람이 링크로 이동하여 이미지를 볼 수 있는 권한이 있고, 링크에 액세스하기 위해 로그인하지 않아도 되는지 확인하십시오.
 
-1. 프로젝트로 이동하여 **자세히** 메뉴 ![](assets/more-icon-45x33.png) 프로젝트 이름 옆에 있는 을(를) 클릭한 다음 **편집**.
+1. 프로젝트로 이동하여 프로젝트 이름 옆에 있는 **자세히** 메뉴 ![](assets/more-icon-45x33.png)을(를) 클릭한 다음 **편집**&#x200B;을(를) 클릭합니다.
 
-1. 다음에서 **URL** 필드에서 이미지에 링크를 추가합니다.
+1. **URL** 필드에서 이미지에 링크를 추가합니다.
 1. 목록 또는 보고서에서 프로젝트 보기로 이동하고 보기를 사용자 정의합니다.
-1. 열 머리글을 클릭합니다. **프로젝트 이름**&#x200B;을 클릭한 다음 을 클릭합니다 **텍스트 모드로 전환**.
+1. **프로젝트 이름**&#x200B;에 대한 열의 헤더를 클릭한 다음 **텍스트 모드로 전환**&#x200B;을 클릭합니다.
 
 1. 열에 다음 코드를 기존 코드에 추가합니다.
 
@@ -135,4 +134,4 @@ ht-degree: 0%
 
    선택한 이미지는 프로젝트 보기에서 프로젝트 이름을 대체하며 이미지는 프로젝트에 대한 링크입니다.
 
-1. 클릭 **보기 저장**.
+1. **보기 저장**&#x200B;을 클릭합니다.

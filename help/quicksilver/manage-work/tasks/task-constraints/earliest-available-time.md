@@ -18,7 +18,7 @@ ht-degree: 0%
 
 가장 빠른 가용 시간은 전임 작업 관계를 고려한 후 가장 빠른 가용 시간에 작업을 시작하도록 스케줄링하는 작업 제한입니다.
 
-작업에 대한 작업 제한 사항을 업데이트하는 방법에 대한 자세한 내용은 [작업의 작업 제한 업데이트](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+작업에 대한 작업 제한을 업데이트하는 방법에 대한 자세한 내용은 [작업의 작업 제한 업데이트](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md)를 참조하십시오.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: replaced with new article linked above) </p>
@@ -66,18 +66,18 @@ ht-degree: 0%
 
 이 경우:
 
-* **가장 빠른 가용 시간:** 후속 작업에 가장 빠른 가용 시간 제한을 사용하면 이전 작업의 유연한 제한 사항에 우선 순위를 둘 수 있습니다.
+* **가장 빠른 사용 가능한 시간:** 후속 작업에 가장 빠른 사용 가능한 시간 제한을 사용하면 전임 작업의 유연한 제한 사항에 우선 순위를 둘 수 있습니다.
 
-   **예**
+  **예**
 
-   작업 A는 작업 B의 전임자입니다. 작업 B는 가장 빠른 가용 시간 제한을 가지며 작업 A는 가능한 한 늦게 제한을 갖습니다. 이러한 상황에서 작업 B는 최대한 프로젝트 완료에 가깝게 일정이 잡혀 있다.
+  작업 A는 작업 B의 전임자입니다. 작업 B는 가장 빠른 가용 시간 제한을 가지며 작업 A는 가능한 한 늦게 제한을 갖습니다. 이러한 상황에서 작업 B는 최대한 프로젝트 완료에 가깝게 일정이 잡혀 있다.
 
-   ![작업의 일자가 프로젝트 완료 일자에 근접한 경우 가장 빠른 가용 시간 제한](assets/earliest-available-constraint-dates-closer-to-project-completion-350x137.png)
+  ![작업의 완료 날짜가 프로젝트 완료 날짜에 가까운 경우 가능한 가장 빠른 시간 제한](assets/earliest-available-constraint-dates-closer-to-project-completion-350x137.png)
 
-* **빠른 시일 내에** 이 시나리오에서는 후임 작업에 대해 가능한 한 빨리 제한 조건을 사용하면 후임 작업에 우선 순위가 부여됩니다.
+* **가능한 한 빨리:** 이 시나리오에서는 후임 작업에 대해 가능한 한 빨리 제한을 사용하면 후임 작업에 우선 순위가 지정됩니다.
 
-   **예**
+  **예**
 
-   작업 A는 작업 B의 전임자입니다. 작업 B에는 가능한 한 빨리 제한이 있고 작업 A에는 가능한 한 늦게 제한이 있습니다. 이러한 상황에서 작업 B는 가능한 프로젝트 시작에 가깝게 일정이 잡혀 있다.
+  작업 A는 작업 B의 전임자입니다. 작업 B에는 가능한 한 빨리 제한이 있고 작업 A에는 가능한 한 늦게 제한이 있습니다. 이러한 상황에서 작업 B는 가능한 프로젝트 시작에 가깝게 일정이 잡혀 있다.
 
-   ![작업의 제한 사항이 프로젝트의 시작 날짜에 가까운 경우 가능한 한 빨리](assets/as-soon-as-possible-dates-closer-to-project-start-350x126.png)
+  ![작업의 시작 날짜가 프로젝트 시작 날짜와 가까운 경우 가능한 한 빨리 제한](assets/as-soon-as-possible-dates-closer-to-project-start-350x126.png)

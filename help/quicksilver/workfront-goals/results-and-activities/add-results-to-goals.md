@@ -45,7 +45,7 @@ ht-degree: 3%
  <td>
  <p>새 라이선스: 기여자 이상</p>
  또는
- <p>현재 라이선스: 요청 이상</p> <p>자세한 내용은 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront 라이선스 개요</a>.</p> </td>
+ <p>현재 라이선스: 요청 이상</p> <p>자세한 내용은 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront 라이선스 개요</a>를 참조하십시오.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">제품*</td>
@@ -55,7 +55,7 @@ ht-degree: 3%
 <li>Select 또는 Prime Adobe Workfront 플랜 및 추가 Adobe Workfront Goals 라이선스.</li>
 <li>기본적으로 Workfront 목표를 포함하는 Ultimate Workfront 계획입니다. </li></ul>
  <p>또는</p>
- <p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표 사용 요구 사항</a>. </p> </td>
+ <p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표를 사용하기 위한 요구 사항</a>을 참조하십시오. </p> </td>
  </tr>
  <tr>
  <td role="rowheader"><p>액세스 수준</p></td>
@@ -67,7 +67,7 @@ ht-degree: 3%
   <div>
   <p>목표에 대한 또는 그 이상의 권한에 대한 보기</p>
   <p>편집할 목표에 대한 권한 관리</p>
-  <p>목표 공유에 대한 자세한 내용은 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront 목표에서 목표 공유</a>. </p>
+  <p>목표 공유에 대한 자세한 내용은 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront 목표에서 목표 공유</a>를 참조하십시오. </p>
   </div> </td>
  </tr>
  <tr>
@@ -78,7 +78,7 @@ ht-degree: 3%
 </tbody>
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## 전제 조건
 
@@ -87,7 +87,7 @@ ht-degree: 3%
 * 메인 메뉴에 목표 영역을 포함하는 레이아웃 템플릿입니다.
 * 기존 목표입니다.
 
-  목표 작성에 대한 자세한 내용은 [Adobe Workfront 목표에서 목표 만들기](../../workfront-goals/goal-management/create-goals.md).
+  목표 만들기에 대한 자세한 내용은 [Adobe Workfront 목표에서 목표 만들기](../../workfront-goals/goal-management/create-goals.md)를 참조하십시오.
 
 >[!IMPORTANT]
 >목표는 총 1000개를 초과하는 활동, 결과, 프로젝트 또는 정렬된 목표를 가질 수 없습니다.
@@ -138,25 +138,25 @@ Adding results to goals differs depending on which environment you use.
 
 -->
 
-1. 메인 메뉴 클릭 ![](assets/main-menu-icon.png), 그런 다음 **목표**.
+1. 기본 메뉴 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **목표**&#x200B;를 클릭합니다.
 
-1. 다음에서 **목표 목록**&#x200B;을 클릭하고 목표의 이름을 클릭하여 목표 페이지를 엽니다.
-1. 클릭 **진행 표시기** 왼쪽 패널에서
-1. 확장 **새로운 진행 표시기** 드롭다운 메뉴를 클릭한 다음 **결과 만들기**.
+1. **목표 목록**&#x200B;에서 목표 페이지를 열 목표 이름을 클릭합니다.
+1. 왼쪽 패널에서 **진행률 표시기**&#x200B;를 클릭합니다.
+1. **새 진행률 표시기** 드롭다운 메뉴를 확장한 다음 **결과 만들기**&#x200B;를 클릭합니다.
 
    새 결과(New result) 상자가 열립니다.
 
    ![](assets/new-result-box-unshimmed.png)
 
-1. 결과에 대한 이름을 입력하십시오. **결과 이름** 필드. 필수 필드입니다.
-1. (선택 사항) **결과 소유자** 다른 사용자에게 결과를 할당하려면 필드를 선택합니다. 기본적으로 사용자가 만드는 활동의 소유자입니다.
+1. **결과 이름** 필드에 결과 이름을 입력하십시오. 필수 필드입니다.
+1. (선택 사항) 다른 사용자에게 결과를 할당하려면 **결과 소유자** 필드에서 이름을 제거합니다. 기본적으로 사용자가 만드는 활동의 소유자입니다.
 
    >[!NOTE]
    >
    >팀, 그룹 또는 회사를 결과 소유자로 할당할 수 없습니다.
 
-1. 다음에서 **결과를 어떻게 측정하시겠습니까?** 영역에서 다음 정보를 지정합니다.
-   * **값 유형**: 결과에 대한 진행 상황을 측정하는 방법을 나타냅니다. 진행률을 백분율로 측정하거나 통화 금액을 사용하여 수치로 측정할 수 있습니다.
+1. **에서 결과를 어떻게 측정하시겠습니까?** 영역에서 다음 정보를 지정하십시오.
+   * **값 형식**: 결과의 진행률을 측정하는 방법을 나타냅니다. 진행률을 백분율로 측정하거나 통화 금액을 사용하여 수치로 측정할 수 있습니다.
 
      다음 표에 나열된 옵션에서 값 유형을 선택합니다.
 
@@ -166,10 +166,10 @@ Adding results to goals differs depending on which environment you use.
      | % | 백분율 값 |
      | CN, DKK,KR,Mex$, R, R$, ze우, 파운드 , € , ₹, ฿, MYR, ₪, $ | 통화 값 |
 
-   * **초기 값**: 진행 상황이 기록되기 전의 결과가 시작 부분에 있는 값입니다.
-   * **대상 값**: 완료된 것으로 간주될 때 결과가 달성하려고 하는 값입니다.
-1. 클릭 **결과 만들기**.
+   * **초기 값**: 결과가 진행률이 기록되기 전에 시작 부분에 있는 값입니다.
+   * **목표 값**: 완료된 것으로 간주될 때 결과의 목표 값입니다.
+1. **결과 만들기**&#x200B;를 클릭합니다.
 
    결과는 목표 페이지의 진행 표시기 섹션(결과 그룹화 아래)에 표시됩니다.
 
-   목표를 활성화하면 결과의 진행 상황을 업데이트할 때 목표의 진행 상황이 자동으로 업데이트됩니다. 목표 활성화에 대한 자세한 내용은 [Adobe Workfront 목표에서 목표 활성화](../goal-management/activate-goals.md).
+   목표를 활성화하면 결과의 진행 상황을 업데이트할 때 목표의 진행 상황이 자동으로 업데이트됩니다. 목표 활성화에 대한 자세한 내용은 [Adobe Workfront 목표에서 목표 활성화](../goal-management/activate-goals.md)를 참조하십시오.

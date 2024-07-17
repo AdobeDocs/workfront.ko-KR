@@ -17,7 +17,7 @@ ht-degree: 0%
 
 이 페이지에서는 미리보기 환경에 대한 20.4 릴리스의 모든 리소스 관리 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2020년 11월 9일이 있는 주에 프로덕션 환경에서 사용할 수 있습니다.
 
-20.4 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [20.4 릴리스 개요](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
+20.4 릴리스에서 사용할 수 있는 모든 변경 사항 목록은 [20.4 릴리스 개요](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md)를 참조하십시오.
 
 ## 계획된 시간 대신 작업 노력을 사용하여 작업 계획
 
@@ -30,21 +30,21 @@ ht-degree: 0%
 * 계획된 시간을 계속 사용하려는 사용자에게 레이아웃 템플릿을 사용하여 이 설정을 비활성화하십시오.
 * 작업 목록 또는 보고서에 이 새 필드의 값을 표시합니다.
 
-작업 노력에 대한 자세한 내용은 [작업 노력 개요](../../../manage-work/tasks/task-information/work-effort.md).
+작업 노력에 대한 자세한 내용은 [작업 노력 개요](../../../manage-work/tasks/task-information/work-effort.md)를 참조하세요.
 
-이 기능은 이제 [플래너 기본 사항, 2부 학습 경로](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-20Y0z000000bm79EAA) Workfront One.
+이 기능은 이제 Workfront One의 [Planner 기본 사항, 2부 학습 경로](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-20Y0z000000bm79EAA)에 포함되어 있습니다.
 
 ## 업무 균형자의 작업 항목에 대한 프로젝트 상태 기반 색상
 
 이제 업무 균형자에서 경험을 더 잘 가시화하고 사용자 정의하기 위해 프로젝트의 상태와 일치하도록 프로젝트 및 해당 작업 항목의 색상을 변경할 수 있습니다. 색상은 그룹 수준 또는 시스템 수준 프로젝트 상태에 해당합니다. 표시되는 색상은 시스템 및 사용자 정의 프로젝트 상태 모두에 해당될 수 있습니다.
 
-업무 균형자에서 보기 사용자 정의에 대한 자세한 내용은 [업무 균형자 탐색](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+업무 균형자에서 보기를 사용자 지정하는 방법에 대한 자세한 내용은 [업무 균형자 이동](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)을 참조하십시오.
 
 ## 업무 균형자에서 백분율 값을 사용하여 사용자 할당 조정
 
 이제 시간 대신 백분율을 사용하여 업무 균형자에서 사용자의 할당을 관리할 수 있습니다.
 
-업무 균형자에서 할당을 관리하는 방법에 대한 자세한 내용은 [업무 균형자에서 사용자 할당 관리](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+업무 균형자에서 할당 관리에 대한 자세한 내용은 [업무 균형자에서 사용자 할당 관리](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)를 참조하십시오.
 
 ## 업무 균형자에서 완료된 작업 표시 또는 숨기기
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 이 개선 이전에는 완료된 작업 항목이 항상 업무 균형자에 표시되었습니다.
 
-업무 균형자에서 설정을 조정하는 방법에 대한 자세한 내용은 [업무 균형자 탐색](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+업무 균형자에서 설정을 조정하는 방법에 대한 자세한 내용은 [업무 균형자 이동](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)을 참조하십시오.
 
 ## 업무 균형자의 유용성 개선
 
@@ -68,19 +68,19 @@ ht-degree: 0%
 * 키보드 단축키를 사용하여 할당 기능에 액세스할 수 있습니다. 이전에는 기타 메뉴에서만 사용할 수 있었습니다.
 * [추가 로드]를 클릭하여 다음 20개 항목 대신 사용자 이름으로 나머지 모든 항목을 로드할 수 있습니다.
 
-업무 균형자 탐색에 대한 자세한 내용은 [업무 균형자 탐색](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+업무 균형자 탐색에 대한 자세한 내용은 [업무 균형자 탐색](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)을 참조하십시오.
 
 ## 업무 균형자의 사용자 할당 차트
 
 지정된 기간 내에 사용자의 할당을 높은 수준으로 시각적으로 표시할 수 있도록 새 설정을 사용하여 이제 업무 균형자에 할당이 표시되는 방식을 차트 보기로 표시할 수 있습니다. 이 설정을 활성화하면 사용자의 할당이 빨간색 블록의 초과 할당과 파란색의 미달 할당을 나타내는 선 차트에 표시됩니다.
 
-업무 균형자에서 설정을 구성하는 방법에 대한 자세한 내용은 [업무 균형자 탐색](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+업무 균형자에서 설정을 구성하는 방법에 대한 자세한 내용은 [업무 균형자 탐색](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)을 참조하십시오.
 
 ## 업무 균형자에서 완료된 작업 시각화
 
 사용자 할당을 올바르게 관리할 수 있도록 이미 완료된 작업을 쉽게 식별할 수 있도록 업무 균형자에서 선택한 일정의 항목이 완료된 시기를 보여 주는 시각적 표시기를 활성화했습니다. 이제 작업, 문제가 완료되면 녹색 확인 표시를 볼 수 있습니다. 화면에 표시된 기간 동안 완료된 작업 항목이 있는 경우 프로젝트에도 녹색 확인 표시가 나타납니다.
 
-업무 균형자에서 정보를 보는 방법에 대한 자세한 내용은 [업무 균형자 탐색](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+업무 균형자에서 정보를 보는 방법에 대한 자세한 내용은 [업무 균형자 탐색](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)을 참조하십시오.
 
 ## 업무 균형자 의 할당된 작업 영역에 대한 새 기본 필터
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 이 개선 이전에는 볼 수 있는 액세스 권한이 있는 모든 사용자가 이 영역에 표시되었습니다.
 
-업무 균형자에서 필터를 사용하는 방법에 대한 자세한 내용은 [업무 균형자에서 필터 관리](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+업무 균형자에서 필터를 사용하는 방법에 대한 자세한 내용은 [업무 균형자에서 필터 관리](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)를 참조하십시오.
 
 ## 시간과 백분율 값 또는 업무 균형자에서 할당된 시간과 남은 시간 간을 전환하는 새 아이콘
 
@@ -96,11 +96,11 @@ ht-degree: 0%
 
 이 개선 작업으로 클릭 수를 줄이고 업무 균형자를 보다 쉽고 효율적으로 탐색할 수 있습니다.
 
-업무 균형자 설정 관리에 대한 자세한 내용은 [업무 균형자 탐색](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+업무 균형자 설정 관리에 대한 자세한 내용은 [업무 균형자 이동](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)을 참조하십시오.
 
 ## 업무 균형자에 대한 새로운 내장 필터: 프로젝트의 사용자
 
 업무 균형자에서 필터링 경험을 보다 효율적으로 만들기 위해, 할당된 작업 영역에 새로운 내장 필터를 추가했습니다. 이제 지정한 프로젝트의 작업 및 문제에 할당된 사용자를 표시하는 프로젝트의 사용자 필터를 적용할 수 있습니다.
 
-업무 균형자에서 필터를 사용하는 방법에 대한 자세한 내용은 [업무 균형자에서 정보 필터링](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+업무 균형자에서 필터를 사용하는 방법에 대한 자세한 내용은 [업무 균형자에서 필터 정보](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)를 참조하십시오.
 

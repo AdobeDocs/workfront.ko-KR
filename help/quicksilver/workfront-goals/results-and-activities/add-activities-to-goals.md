@@ -45,7 +45,7 @@ ht-degree: 1%
  <td>
  <p>새 라이선스: 기여자 이상</p>
  또는
- <p>현재 라이선스: 요청 이상</p> <p>자세한 내용은 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront 라이선스 개요</a>.</p> </td>
+ <p>현재 라이선스: 요청 이상</p> <p>자세한 내용은 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront 라이선스 개요</a>를 참조하십시오.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">제품*</td>
@@ -55,7 +55,7 @@ ht-degree: 1%
 <li>Select 또는 Prime Adobe Workfront 플랜 및 추가 Adobe Workfront Goals 라이선스.</li>
 <li>기본적으로 Workfront 목표를 포함하는 Ultimate Workfront 계획입니다. </li></ul>
  <p>또는</p>
- <p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표 사용 요구 사항</a>. </p> </td>
+ <p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표를 사용하기 위한 요구 사항</a>을 참조하십시오. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">액세스 수준*</td>
@@ -67,7 +67,7 @@ ht-degree: 1%
   <div>
   <p>목표에 대한 또는 그 이상의 권한에 대한 보기</p>
   <p>편집할 목표에 대한 권한 관리</p>
-  <p>목표 공유에 대한 자세한 내용은 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront 목표에서 목표 공유</a>. </p>
+  <p>목표 공유에 대한 자세한 내용은 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront 목표에서 목표 공유</a>를 참조하십시오. </p>
   </div> </td>
  </tr>
  <tr>
@@ -78,19 +78,19 @@ ht-degree: 1%
 </tbody>
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## 전제 조건
 
 활동을 추가하려면 기존 목표가 있어야 합니다.
 
-목표 작성에 대한 자세한 내용은 [Adobe Workfront 목표에서 목표 만들기](../../workfront-goals/goal-management/create-goals.md).
+목표 만들기에 대한 자세한 내용은 [Adobe Workfront 목표에서 목표 만들기](../../workfront-goals/goal-management/create-goals.md)를 참조하십시오.
 
 >[!IMPORTANT]
 >
 >목표는 총 1000개를 초과하는 활동, 결과 또는 정렬된 목표를 가질 수 없습니다.
 
-활동에 대한 자세한 내용은 [Adobe Workfront 목표에서 결과 및 활동 시작](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md).
+활동에 대한 자세한 내용은 [Adobe Workfront 목표에서 결과 및 활동 시작](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md)을 참조하세요.
 
 ## 목표에 활동 추가
 
@@ -145,23 +145,23 @@ Adding activities to goals differs depending on which environment you use.
 -->
 
 
-1. 다음을 클릭합니다. **메인 메뉴** ![](assets/main-menu-icon.png), 그런 다음 **목표**.
+1. **주 메뉴** ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **목표**&#x200B;를 클릭합니다.
 1. 목표 목록에서 목표 이름을 클릭하여 목표의 페이지를 엽니다.
-1. 클릭 **진행 표시기** 왼쪽 패널에서
-1. 새 진행률 표시기 드롭다운 메뉴에서 **활동 만들기**.
+1. 왼쪽 패널에서 **진행률 표시기**&#x200B;를 클릭합니다.
+1. 새 진행 표시기 드롭다운 메뉴에서 **활동 만들기**&#x200B;를 클릭합니다.
 
    새 활동 상자가 열립니다.
 
    ![](assets/new-activity-box-unshimmed.png)
 
 1. 활동 이름 필드에 활동의 이름을 입력합니다. 필수 필드입니다.
-1. (선택 사항) **활동 소유자** 다른 사용자에게 활동을 할당하려면 필드를 선택합니다. 기본적으로 사용자가 만드는 활동의 소유자입니다.
+1. (선택 사항) 다른 사용자에게 활동을 할당하려면 **활동 소유자** 필드에서 이름을 제거합니다. 기본적으로 사용자가 만드는 활동의 소유자입니다.
 
    >[!NOTE]
    >
    >팀, 그룹 또는 회사를 활동 소유자로 할당할 수 없습니다.
 
-1. 클릭 **활동 만들기** 을 클릭하여 저장하고 선택한 목표에 추가합니다.
+1. **활동 만들기**&#x200B;를 클릭하여 저장하고 선택한 목표에 추가합니다.
 
    활동은 활동 그룹화 아래 목표 페이지의 진행 표시기 섹션에 표시됩니다.
 

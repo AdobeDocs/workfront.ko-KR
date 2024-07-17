@@ -6,10 +6,10 @@ title: Adobe Workfront Goals 23.3 릴리스 활동 2023년 5월 1일 주
 description: 이 페이지에서는 미리보기 환경에 대한 Adobe Workfront 목표의 23.3 릴리스에 대해 향상된 모든 기능을 설명합니다. 이러한 개선 사항은 2023년 5월 1일이 있는 주에 프로덕션 환경에서 사용할 수 있습니다.
 author: Courtney
 feature: Product Announcements, Workfront Goals
-exl-id: 5fd2e141-af8d-4934-a5f6-a4cdf5820082
-source-git-commit: 3e6f4b8c8bfb9cb6106dbb9522d77f5133a886e3
+exl-id: 1e85b9d2-f9a5-4cdd-b805-78ab35230817
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
@@ -26,4 +26,4 @@ ht-degree: 0%
 
 목표에 사용할 수 있는 댓글 달기 개선 사항은 다른 Workfront 개체에 대한 새 댓글 달기 베타 경험과 함께 릴리스된 개선 사항과 동일합니다.
 
-자세한 내용은 [새로운 댓글 달기 경험 릴리스 활동](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+자세한 내용은 [새 댓글 달기 경험 릴리스 활동](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)을 참조하세요.

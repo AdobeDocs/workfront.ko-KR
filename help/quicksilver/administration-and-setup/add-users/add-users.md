@@ -25,9 +25,9 @@ Workfront에서 사용자를 만들고 관리할 수 있습니다.
 
 이 색인에는 사용자 관리에 대한 다음 하위 섹션으로 연결되는 링크가 포함되어 있습니다.
 
-* [사용자 만들기 및 관리: 문서 색인](../../administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
+* [사용자 만들기 및 관리: 문서 인덱스](../../administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
 * [새로운 액세스 수준 작동 방식](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
 * [액세스 수준 작동 방식](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
-* [Adobe Workfront 액세스 구성](../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)
+* [Adobe Workfront에 대한 액세스 구성](../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)
 * [Workfront의 SSO(Single Sign-On): 문서 인덱스](../../administration-and-setup/add-users/single-sign-on/single-sign-on.md)
 * [팀 만들기 및 관리](../../administration-and-setup/add-users/create-and-manage-teams/create-and-manage-teams.md)

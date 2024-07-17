@@ -46,7 +46,7 @@ ht-degree: 0%
  <td>
  <p>새 라이선스: 기여자 이상</p>
  또는
- <p>현재 라이선스: 요청 이상</p> <p>자세한 내용은 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront 라이선스 개요</a>.</p> </td>
+ <p>현재 라이선스: 요청 이상</p> <p>자세한 내용은 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront 라이선스 개요</a>를 참조하십시오.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">제품*</td>
@@ -56,7 +56,7 @@ ht-degree: 0%
 <li>Select 또는 Prime Adobe Workfront 플랜 및 추가 Adobe Workfront Goals 라이선스.</li>
 <li>기본적으로 Workfront 목표를 포함하는 Ultimate Workfront 계획입니다. </li></ul>
  <p>또는</p>
- <p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표 사용 요구 사항</a>. </p> </td>
+ <p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표를 사용하기 위한 요구 사항</a>을 참조하십시오. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">액세스 수준</td>
@@ -68,7 +68,7 @@ ht-degree: 0%
   <div>
   <p>목표에 대한 또는 그 이상의 권한에 대한 보기</p>
   <p>편집할 목표에 대한 권한 관리</p>
-  <p>목표 공유에 대한 자세한 내용은 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront 목표에서 목표 공유</a>. </p>
+  <p>목표 공유에 대한 자세한 내용은 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront 목표에서 목표 공유</a>를 참조하십시오. </p>
   </div> </td>
  </tr>
 <tr>
@@ -79,7 +79,7 @@ ht-degree: 0%
 </tbody>
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## 전제 조건
 
@@ -99,16 +99,16 @@ ht-degree: 0%
 
   다음 문서를 참조하십시오.
 
-   * 목표에 활동을 추가하는 방법에 대한 자세한 내용은 [Adobe Workfront 목표의 목표에 활동 추가](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
-   * 목표에 결과를 추가하는 방법에 대한 자세한 내용은 [Adobe Workfront 목표의 목표에 결과 추가](../../workfront-goals/results-and-activities/add-results-to-goals.md).
-   * Workfront 목표가 목표에 대한 진행률을 계산하는 방법에 대한 자세한 내용은 을 참조하십시오. [Adobe Workfront 목표의 목표 진행 및 상태 개요](../../workfront-goals/goal-management/calculate-goal-progress.md).
+   * 목표에 활동을 추가하는 방법에 대한 자세한 내용은 [Adobe Workfront 목표의 목표에 활동 추가](../../workfront-goals/results-and-activities/add-activities-to-goals.md)를 참조하십시오.
+   * 목표에 결과를 추가하는 방법에 대한 자세한 내용은 [Adobe Workfront 목표의 목표에 결과 추가](../../workfront-goals/results-and-activities/add-results-to-goals.md)를 참조하십시오.
+   * Workfront 목표에서 목표의 진행률을 계산하는 방법에 대한 자세한 내용은 [Adobe Workfront 목표의 목표 진행률 및 조건 개요](../../workfront-goals/goal-management/calculate-goal-progress.md)를 참조하십시오.
 
 * 목표를 만들고 활성화해야 진행 상황을 업데이트할 수 있습니다.
 
   다음 문서를 참조하십시오.
 
-   * 목표 작성에 대한 자세한 내용은 [Adobe Workfront 목표에서 목표 만들기](../../workfront-goals/goal-management/create-goals.md).
-   * 목표 활성화에 대한 자세한 내용은 [Adobe Workfront 목표에서 목표 활성화](../../workfront-goals/goal-management/activate-goals.md).
+   * 목표 만들기에 대한 자세한 내용은 [Adobe Workfront 목표에서 목표 만들기](../../workfront-goals/goal-management/create-goals.md)를 참조하십시오.
+   * 목표 활성화에 대한 자세한 내용은 [Adobe Workfront 목표에서 목표 활성화](../../workfront-goals/goal-management/activate-goals.md)를 참조하십시오.
 
   >[!IMPORTANT]
   >
@@ -245,7 +245,7 @@ When you check in on a goal in the Check-in section, you can update the progress
 
 목표에 대한 진행률을 업데이트하려면
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) > **목표** 오른쪽 상단 모서리입니다.
+1. 오른쪽 상단의 **주 메뉴** 아이콘 ![](assets/main-menu-icon.png) > **목표**&#x200B;를 클릭합니다.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -255,7 +255,7 @@ When you check in on a goal in the Check-in section, you can update the progress
    또는 왼쪽 패널에서 목표 정렬(Goal Alignment)을 클릭할 수 있습니다.
 
 1. 목표 목록에서 목표 이름을 클릭하여 목표 페이지를 엽니다.
-1. 클릭 **진행 표시기** 왼쪽 패널에서
+1. 왼쪽 패널에서 **진행률 표시기**&#x200B;를 클릭합니다.
 
    진행 표시기 목록에는 선택한 목표에 대한 모든 진행 표시기가 표시됩니다.
 
@@ -268,7 +268,7 @@ When you check in on a goal in the Check-in section, you can update the progress
    >    차례로, 하위 목표의 진행률과 프로젝트의 진행률이 선택된 목표의 진행률을 견인한다.
 
 
-1. 결과나 활동의 진행 상황을 업데이트하려면 **실제 진행 상황** 결과 또는 활동의 열을 입력하고 숫자를 입력하여 해당 값을 업데이트한 다음 Enter 키를 누릅니다.
+1. 결과 또는 활동의 진행 상황을 업데이트하려면 결과 또는 활동의 **실제 진행 상황** 열 내의 값을 클릭하고 값을 업데이트할 숫자를 입력한 다음 Enter 키를 누릅니다.
 
    ![](assets/actual-progress-result-updating-highlighted-unshimmed.png)
 

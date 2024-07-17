@@ -62,7 +62,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -73,16 +73,16 @@ ht-degree: 0%
 ![](assets/view-planned-actual-completion-dates-datediff-column-new.png)
 
 1. 작업 목록으로 이동합니다.
-1. 다음에서 **보기** 드롭다운 메뉴, 클릭 **새 보기**.
+1. **보기** 드롭다운 메뉴에서 **새 보기**&#x200B;를 클릭합니다.
 
-1. 클릭 **열 추가** 및 을(를) 시작하고 &quot;계획된 완료 일자&quot;를 **이 열에 표시** 필드에 입력한 후 목록에 표시되면 선택합니다.
+1. **열 추가**&#x200B;를 클릭하고 **이 열에 표시** 필드에 &quot;계획된 완료 일자&quot;를 입력한 다음 목록에 표시될 때 선택합니다.
 
-1. 클릭 **열 추가** 및 을(를) 시작하고 &quot;실제 완료 일자&quot;를 **이 열에 표시** 필드에 입력한 후 목록에 표시되면 선택합니다.
+1. **열 추가**&#x200B;를 클릭하고 **이 열에 표시** 필드에 &quot;실제 완료 날짜&quot;를 입력한 다음 목록에 표시될 때 선택합니다.
 
-1. 클릭 **열 추가**&#x200B;을 클릭한 다음 을 클릭합니다 **텍스트 모드로 전환**.
+1. **열 추가**&#x200B;를 클릭한 다음 **텍스트 모드로 전환**&#x200B;을 클릭합니다.
 
-1. 텍스트 모드 영역 위로 마우스를 가져간 다음 **텍스트를 편집하려면 클릭**.
-1. 에서 찾은 텍스트 제거 **텍스트 모드** 확인란을 선택하고 다음 코드로 바꿉니다.
+1. 텍스트 모드 영역 위로 마우스를 가져간 후 **텍스트를 편집하려면 클릭**&#x200B;합니다.
+1. **텍스트 모드** 상자에서 찾은 텍스트를 제거하고 다음 코드로 바꿉니다.
 
    ```
     displayname=Planned-Actual Completion Date
@@ -93,26 +93,26 @@ ht-degree: 0%
     valueformat=HTML
    ```
 
-1. 클릭 **저장**, 그런 다음 **보기 저장**.
+1. **저장**&#x200B;을 클릭한 다음 **보기 저장**&#x200B;을 클릭합니다.
 
 ## 개체의 필드와 부모 개체의 다른 필드 간의 시간 및 날짜 차이를 계산합니다.
 
-객체 및 상위 객체 목록에 대해서는 의 &quot;상호 종속성 및 객체 계층 이해&quot; 섹션을 참조하십시오. [Adobe Workfront의 오브젝트 이해](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).\
+개체 및 상위 개체의 목록을 보려면 [Adobe Workfront의 개체 이해](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)에서 &quot;개체의 상호 종속성 및 계층 구조 이해&quot; 섹션을 참조하십시오.\
 예를 들어 작업의 계획된 완료 일자와 상위 작업 또는 작업이 진행 중인 프로젝트의 계획된 완료 일자 간의 차이를 계산할 수 있습니다.
 
 ![](assets/view-project-planned-task-planned-completion-dates-datediff-column-new.png)
 
 1. 작업 목록으로 이동합니다.
-1. 다음에서 **보기** 드롭다운 메뉴, 클릭 **새 보기**.
+1. **보기** 드롭다운 메뉴에서 **새 보기**&#x200B;를 클릭합니다.
 
-1. 클릭 **열 추가** 다음에 &quot;프로젝트 계획 완료 일자&quot; 또는 &quot;상위 완료 일자&quot;를 입력하십시오. **이 열에 표시** 필드에 입력한 후 목록에 표시되면 선택합니다.
+1. **열 추가**&#x200B;를 클릭하고 **이 열에 표시** 필드에 &quot; 프로젝트 계획 완료 날짜&quot; 또는 &quot;상위 완료 날짜&quot;를 입력한 다음 목록에 표시될 때 선택합니다.
 
-1. 클릭 **열 추가** 및 을(를) 시작하고 &quot;계획된 완료 일자&quot;를 **이 열에 표시** 필드에 입력한 후 목록에 표시되면 선택합니다.
+1. **열 추가**&#x200B;를 클릭하고 **이 열에 표시** 필드에 &quot;계획된 완료 일자&quot;를 입력한 다음 목록에 표시될 때 선택합니다.
 
-1. 클릭 **열 추가**&#x200B;을 클릭한 다음 을 클릭합니다 **텍스트 모드로 전환**.
+1. **열 추가**&#x200B;를 클릭한 다음 **텍스트 모드로 전환**&#x200B;을 클릭합니다.
 
-1. 텍스트 모드 영역 위로 마우스를 가져간 다음 **텍스트를 편집하려면 클릭**.
-1. 에서 찾은 텍스트 제거 **텍스트 모드** 상자를 표시하고 다음 코드 중 하나로 바꿉니다.
+1. 텍스트 모드 영역 위로 마우스를 가져간 후 **텍스트를 편집하려면 클릭**&#x200B;합니다.
+1. **텍스트 모드** 상자에서 찾은 텍스트를 제거하고 다음 코드 중 하나로 바꿉니다.
 
    * 프로젝트의 계획된 완료 일자와 태스크의 계획된 완료 일자 간의 차이를 표시하려면
 
@@ -131,4 +131,4 @@ ht-degree: 0%
       displayname=Parent Planned Completion - Planned Completion (Days)
      ```
 
-1. 클릭 **저장**, 그런 다음 **보기 저장**.
+1. **저장**&#x200B;을 클릭한 다음 **보기 저장**&#x200B;을 클릭합니다.

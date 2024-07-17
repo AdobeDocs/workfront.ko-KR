@@ -41,7 +41,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->사용자 정의 필드에 대한 텍스트 모드 버전을 사용하여 계산된 사용자 정의 필드의 기능을 확장할 수도 있습니다. 계산된 사용자 정의 필드를 만들기 위한 구문 및 규칙은 보고서 및 목록에서 사용하는 구문 및 규칙과 다릅니다. 계산된 사용자 정의 필드 추가에 대한 자세한 내용은 [사용자 정의 양식에 계산된 데이터 추가](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+>사용자 정의 필드에 대한 텍스트 모드 버전을 사용하여 계산된 사용자 정의 필드의 기능을 확장할 수도 있습니다. 계산된 사용자 정의 필드를 만들기 위한 구문 및 규칙은 보고서 및 목록에서 사용하는 구문 및 규칙과 다릅니다. 계산된 사용자 정의 필드를 추가하는 방법에 대한 자세한 내용은 [사용자 정의 양식에 계산된 데이터 추가](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)를 참조하십시오.
 
 * 보고서에서 텍스트 모드를 사용하기 전에 텍스트 모드 언어를 더 깊이 있게 이해할 수 있도록 고급 보고에 대한 강의를 수강하는 것이 좋습니다. <!--outdated: For training materials on reporting see [Workfront Reports and Dashboards Learning Paths](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).-->
 * Workfront 소프트웨어가 업데이트될 때 만드는 보고서가 그대로 유지되도록 표준 모드를 사용하는 것이 좋습니다. 텍스트 모드를 사용하면 더 복잡한 보기, 필터 및 그룹화를 만들 수 있지만, 유지 관리가 더 복잡하고 Workfront 소프트웨어가 업데이트될 때 보장되지 않습니다.
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 * 텍스트 모드에서 보고서와 목록을 성공적으로 작성하기 위해 사용해야 하는 규칙 세트와 고유한 구문이 있습니다. 시작하기 전에 텍스트 모드의 Workfront 구문을 잘 알고 있는지 확인합니다.
 
-  텍스트 모드 사용을 위한 구문 및 규칙에 대한 자세한 내용은 [텍스트 모드 구문 개요](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
+  텍스트 모드 사용 구문 및 규칙에 대한 자세한 내용은 [텍스트 모드 구문 개요](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)를 참조하십시오.
 
 * 텍스트 모드에서 보고 요소를 사용자 지정한 후 보기에서 표준 모드로 다시 전환하지 못하거나 만든 요소의 코드가 필터 및 그룹화에서 삭제될 수 있습니다. 텍스트 모드에서 지원되는 모든 필드가 표준 모드에서 지원되는 것은 아니기 때문입니다.
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 표준 모드 인터페이스에 대한 자세한 내용과 보고서나 목록을 만드는 방법에 대한 자세한 내용은 다음을 참조하십시오.
 
-* [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+* [사용자 지정 보고서를 만듭니다](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 * [보고 요소: 필터, 보기 및 그룹화](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
 
 ## 텍스트 모드 인터페이스
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 텍스트 모드를 사용하면 표준 모드 인터페이스에서 사용할 수 없는 필드를 사용할 수 있으므로 더 복잡한 보기, 필터, 그룹화 및 프롬프트를 만들 수 있습니다. Workfront 텍스트 모드는 보고서나 목록에 표시할 객체를 나타내는 코딩된 명령문 모음입니다.
 
-보고 가능한 모든 필드의 전체 목록은 다음을 참조하십시오. [API 탐색기](../../../wf-api/general/api-explorer.md).
+보고 가능한 모든 필드의 전체 목록을 보려면 [API 탐색기](../../../wf-api/general/api-explorer.md)를 참조하십시오.
 
 >[!NOTE]
 >
@@ -96,13 +96,13 @@ ht-degree: 0%
 
 사용자 지정 프롬프트는 텍스트 모드에서만 편집할 수 있습니다. 보고서에서 프롬프트에 대해서만 액세스할 수 있습니다.
 
-사용자 지정 프롬프트의 텍스트 모드 인터페이스에 액세스하는 방법에 대한 자세한 내용은 [보고서에 프롬프트 추가](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+사용자 지정 프롬프트의 텍스트 모드 인터페이스에 액세스하는 방법에 대한 자세한 내용은 [보고서에 프롬프트 추가](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)를 참조하십시오.
 
 ## 텍스트 모드를 사용하는 일반적인 이유 {#common-reasons-to-use-text-mode}
 
 텍스트 모드를 사용해서만 구성할 수 있는 사용자 지정 프롬프트를 만드는 것 외에 Report Builder를 사용하여 보기, 필터 및 그룹화를 빌드하는 것이 좋습니다. 그러나 텍스트 모드를 사용하여 보고서와 목록을 개선할 수 있는 인스턴스가 있습니다.
 
-텍스트 모드의 일반적인 사용에 대한 자세한 내용은 [텍스트 모드의 일반적인 사용 개요](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+텍스트 모드의 일반적인 사용에 대한 자세한 내용은 [텍스트 모드의 일반적인 사용 개요](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)를 참조하십시오.
 
 
 <!--

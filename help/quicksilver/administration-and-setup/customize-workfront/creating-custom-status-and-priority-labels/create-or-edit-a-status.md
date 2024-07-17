@@ -21,11 +21,11 @@ ht-degree: 2%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH CONTEXT SENSITIVE HELP LINKS.-->
 
-Adobe Workfront 관리자는 프로젝트, 작업 및 문제에 대한 사용자 정의 상태를 만들 수 있습니다. 전체 Workfront 시스템 또는 특정 그룹이나 하위 그룹의 사용자용일 수 있습니다. 상태에 대한 자세한 내용은 [상태 개요](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+Adobe Workfront 관리자는 프로젝트, 작업 및 문제에 대한 사용자 정의 상태를 만들 수 있습니다. 전체 Workfront 시스템 또는 특정 그룹이나 하위 그룹의 사용자용일 수 있습니다. 상태에 대한 자세한 내용은 [상태 개요](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md)를 참조하십시오.
 
 >[!NOTE]
 >
->그룹 관리자는 자신의 그룹에서만 사용할 수 있도록 자신의 그룹 상태를 만들 수도 있습니다. 자세한 내용은 [그룹 상태 만들기 또는 편집](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
+>그룹 관리자는 자신의 그룹에서만 사용할 수 있도록 자신의 그룹 상태를 만들 수도 있습니다. 자세한 내용은 [그룹 상태 만들기 또는 편집](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md)을 참조하세요.
 
 ## 액세스 요구 사항
 
@@ -56,7 +56,7 @@ Adobe Workfront 관리자는 프로젝트, 작업 및 문제에 대한 사용자
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -64,13 +64,13 @@ Adobe Workfront 관리자는 프로젝트, 작업 및 문제에 대한 사용자
 
 전체 조직 또는 단일 그룹에서 사용할 사용자 지정 상태를 추가할 수 있습니다.
 
-전체 조직에 대한 사용자 지정 상태를 만들 때 시스템의 모든 그룹이 편집하지 않고 사용할 수 있도록 구성할 수 있습니다. 또는에서 설명한 대로 그룹 관리자가 그룹에 대해 수정할 수 있도록 구성할 수 있습니다 [그룹 상태 만들기 또는 편집](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
+전체 조직에 대한 사용자 지정 상태를 만들 때 시스템의 모든 그룹이 편집하지 않고 사용할 수 있도록 구성할 수 있습니다. 또는 [그룹 상태 만들기 또는 편집](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md)에 설명된 대로 그룹 관리자가 그룹의 상태를 수정할 수 있도록 구성할 수 있습니다.
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리에서 을(를) 클릭하고 **[!UICONTROL 설정]** ![설정 아이콘](/help/_includes/assets/gear-icon-setup.png).
+1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **[!UICONTROL 설정]** ![설정 아이콘](/help/_includes/assets/gear-icon-setup.png)을 클릭합니다.
 
-1. 왼쪽 패널에서 **프로젝트 환경 설정** > **상태**.
+1. 왼쪽 패널에서 **프로젝트 환경 설정** > **상태**&#x200B;를 클릭합니다.
 
-1. (조건부) 시스템 전체에서 사용할 상태를 만들거나 편집하는 경우 **시스템 상태** 오른쪽 위 모서리에 있는 상자에서 이 선택됩니다.
+1. (조건부) 시스템 전체에서 사용할 상태를 만들거나 편집하는 경우 오른쪽 상단의 상자에서 **시스템 상태**&#x200B;가 선택되어 있는지 확인하십시오.
 
    ![](assets/system-statuses-in-upper-rt-corner-new.jpg)
 
@@ -80,13 +80,13 @@ Adobe Workfront 관리자는 프로젝트, 작업 및 문제에 대한 사용자
 
    ![](assets/system-statuses-in-upper-rt-corner-group.jpg)
 
-1. 오브젝트 유형의 탭 선택(**프로젝트**, **작업**, 또는 **문제**)을 입력하여 상태와 연결할 수 있습니다.
+1. 상태와 연결할 개체 유형(**프로젝트**, **작업** 또는 **문제**)의 탭을 선택하십시오.
 
-1. 새 상태를 만드는 경우 **새 상태 추가**.
+1. 새 상태를 만드는 경우 **새 상태 추가**&#x200B;를 클릭하세요.
 
    또는
 
-   기존 상태를 편집하는 경우 마우스를 위에 올린 다음 **편집** 맨 오른쪽에 표시되는 아이콘.
+   기존 상태를 편집하는 경우 해당 상태를 마우스로 가리킨 다음 맨 오른쪽에 표시되는 **편집** 아이콘을 클릭합니다.
 
    ![](assets/custom-status-edit.png)
 
@@ -134,7 +134,7 @@ Adobe Workfront 관리자는 프로젝트, 작업 및 문제에 대한 사용자
        <li>사용자가 잠금 해제 상태를 사용하는 승인 프로세스 편집을 시작합니다. 잠금 해제된 상태에 대해 경고하는 메시지가 표시되어 다시 잠그거나 바꾸는 것이 좋은지 평가할 수 있습니다.</li>
        <li>잠금 해제 상태의 시스템 수준 승인 프로세스가 오브젝트에 첨부되고 해당 오브젝트에 할당된 그룹에 대한 상태가 삭제되었습니다. 그룹 멤버가 객체의 승인 섹션으로 이동하면 객체에 대해 승인 프로세스를 시작할 수 없다는 메시지가 표시됩니다.</li>
        </ul>
-       <p>잠금 상태에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md" class="MCXref xref">잠김 및 잠금 해제된 시스템 수준 상태</a>.</p>
+       <p>잠금 상태에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md" class="MCXref xref">잠김 및 잠금 해제된 시스템 수준 상태</a>를 참조하십시오.</p>
        </div>
       </td>
      </tr> 
@@ -143,6 +143,6 @@ Adobe Workfront 관리자는 프로젝트, 작업 및 문제에 대한 사용자
 
 1. **저장**&#x200B;을 클릭합니다.
 
-   이 상태를 기본 상태로 만드는 방법에 대한 지침은 [사용자 지정 상태를 기본 상태로 사용](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md).
+   이 상태를 기본 상태로 만드는 방법에 대한 지침은 [사용자 지정 상태를 기본 상태로 사용](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md)을 참조하세요.
 
-그룹 상태 재정렬에 대한 자세한 내용은 [시스템 수준 및 그룹 상태 순서 바꾸기](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md).
+그룹 상태 순서 조정에 대한 자세한 내용은 [시스템 수준 및 그룹 상태 순서 조정](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md)을 참조하십시오.

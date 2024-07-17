@@ -21,6 +21,6 @@ ht-degree: 0%
 * [Adobe Workfront 내에서 증명 요약 인쇄](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md)
 * [증명 삭제](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/remove-archiveg-proof.md)
 * [보관된 증명 복원](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/restore-archived-proof.md)
-* [Adobe Workfront 내의 증명에 대한 활동 보기](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-activity-on-proof-in-wf.md)
+* [Adobe Workfront 내의 증명에서 활동 보기](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-activity-on-proof-in-wf.md)
 * [증명 승인 보고서 사용](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md)
-* [Adobe Workfront에서 Workfront 증명 액세스](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)
+* [Adobe Workfront에서 Workfront Proof 액세스](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)

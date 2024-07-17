@@ -25,4 +25,4 @@ ht-degree: 4%
 
 
 
-이전 공지 사항에 대해서는 [공지 아카이브](announcement-archive/announcement-archive.md).
+이전 공지 사항에 대해서는 [공지 아카이브](announcement-archive/announcement-archive.md)를 참조하십시오.

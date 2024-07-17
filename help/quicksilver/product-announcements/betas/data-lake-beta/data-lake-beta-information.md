@@ -17,9 +17,9 @@ ht-degree: 12%
 
 Workfront data lake는 복잡한 API 또는 Fusion 솔루션 없이도 조직에서 널리 사용되는 비즈니스 분석가 도구에서 사용하거나 외부 데이터 웨어하우스에 저장할 수 있도록 전용 인터페이스를 제공하는 현재 개발 중인 새로운 도구입니다. 이 페이지에는 진행 중인 베타 버전 동안 이 도구를 테스트하고 피드백을 제공하여 도움을 줄 수 있는 방법에 대한 정보가 포함되어 있습니다.
 
-Workfront 데이터 레이크 사용에 대한 자세한 내용은 다음을 참조하십시오. [Workfront 데이터 레이크 개요](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
+Workfront 데이터 레이크 사용에 대한 자세한 내용은 [Workfront 데이터 레이크 개요](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md)를 참조하십시오.
 
-**베타 일정:**
+**Beta 일정:**
 
 * Beta 시작 날짜 - 2024년 4월 15일
 * 계획된 릴리스 일자 - TBA
@@ -40,11 +40,11 @@ Beta에 조직을 등록하려면 다음 링크에서 양식을 작성하여 제
 
 베타 과정에서 이 도구를 개발함에 따라 피드백을 받을 수 있습니다. 귀하의 경험을 당사와 공유하려면 아래 지침을 따르십시오.
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리에서 을(를) 클릭하고 **설정**.
+1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **설정**&#x200B;을 클릭합니다.
 
-1. 왼쪽 패널에서 **시스템** > **데이터 액세스**.
+1. 왼쪽 패널에서 **시스템** > **데이터 액세스**&#x200B;를 클릭합니다.
 
-1. 다음을 클릭합니다. **피드백 보내기** 페이지 하단에 있는 단추를 클릭한 다음 피드백을 통해 양식을 작성합니다.
+1. 페이지 하단의 **피드백 보내기** 단추를 클릭한 다음 피드백을 포함하여 양식을 작성하십시오.
 
 ## 계획된 기능
 

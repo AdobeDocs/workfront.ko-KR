@@ -18,7 +18,7 @@ ht-degree: 0%
 
 이 페이지에서는 프로덕션 환경에 대한 20.3 릴리스의 기타 모든 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2020년 8월 10일 주에 프로덕션 환경에서 사용할 수 있습니다.
 
-20.3 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [20.3 릴리스 개요](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
+20.3 릴리스에서 사용할 수 있는 모든 변경 사항 목록은 [20.3 릴리스 개요](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md)를 참조하십시오.
 
 ## 비공개 링크와 캘린더 공유
 
@@ -26,13 +26,13 @@ Workfront에서 캘린더를 공유하는 부담을 덜기 위해 사용자를 �
 
 이전에는 보기 위해 로그인이 필요하지 않은 공개 URL을 공유할 수 있었습니다.
 
-자세한 내용은 [캘린더 보고서 공유](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
+자세한 내용은 [일정 보고서 공유](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)를 참조하세요.
 
 ## 요청을 만들 때 새 초안 영역
 
 요청 작업을 보다 유연하게 수행할 수 있도록 이제 Workfront에서 생성한 모든 요청을 새 초안 영역에 초안으로 자동 저장합니다. 새 요청을 완료하는 데 필요한 모든 정보가 없는 경우 초안으로 남겨두고 돌아가서 나중에 완료할 수 있습니다. Workfront은 대기열 주제당 하나의 요청을 새 초안 영역에 저장합니다. 초안 요청은 작성 및 제출할 준비가 될 때까지 필요한 기간 동안 저장할 수 있습니다. 레이아웃 템플릿을 사용하여 왼쪽 패널에서 초안 영역을 제거하거나 위치를 변경할 수도 있습니다.
 
-요청 만들기에 대한 자세한 내용은 [Workfront 요청 만들기 및 제출](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+요청 만들기에 대한 자세한 내용은 [Workfront 요청 만들기 및 제출](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)을 참조하십시오.
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ Workfront에서 캘린더를 공유하는 부담을 덜기 위해 사용자를 �
 
 이전에는 각 항목을 개별적으로 클릭해야 했습니다.
 
-자세한 내용은 [로그 시간](../../../timesheets/create-and-manage-timesheets/log-time.md).
+자세한 내용은 [로그 시간](../../../timesheets/create-and-manage-timesheets/log-time.md)을 참조하세요.
 
 ## Workfront 캘린더의 실제 일자 무시
 
@@ -60,7 +60,7 @@ Workfront에서 캘린더를 공유하는 부담을 덜기 위해 사용자를 �
 
 이전에는 실제 날짜가 있으면 캘린더에 자동으로 사용되었습니다.
 
-자세한 내용은 [달력 보고서 개요](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+자세한 내용은 [일정 보고서 개요](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md)를 참조하세요.
 
 ## 캘린더 보고서에서 사용자 정의 날짜 필드 사용
 
@@ -72,17 +72,17 @@ Workfront에서 캘린더를 공유하는 부담을 덜기 위해 사용자를 �
 
 이전에는 실제 날짜를 사용할 수 없을 때 예상 및 계획으로만 달력을 관리할 수 있었습니다.
 
-자세한 내용은 [달력 보고서에서 사용자 정의 날짜 필드 사용](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md) (또는 Workfront Classic을 사용하는 경우 다음을 참조하십시오.) [달력 보고서에서 사용자 정의 날짜 필드 사용](https://one.workfront.com/s/article/Use-custom-date-fields-in-a-calendar-report-432597950?language=en_US)).
+자세한 내용은 [캘린더 보고서에서 사용자 지정 날짜 필드 사용](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)을 참조하십시오(또는 Workfront Classic을 사용하는 경우 [캘린더 보고서에서 사용자 지정 날짜 필드 사용](https://one.workfront.com/s/article/Use-custom-date-fields-in-a-calendar-report-432597950?language=en_US)을 참조하십시오).
 
 ## 이메일 변경 사항
 
-**아웃바운드 이메일 변경 사항:** Workfront의 모든 이메일은 notifications@my.workfront.com에서 제공됩니다. 여기에는 자동화된 경고 및 사용자 간 통신이 포함됩니다.
+**아웃바운드 전자 메일 변경 내용:** Workfront의 모든 전자 메일은 notifications@my.workfront.com에서 가져옵니다. 여기에는 자동화된 경고 및 사용자 간 통신이 포함됩니다.
 
 이전에는 시스템 관리자가 전자 메일 설정 영역에서 사용자 지정 전자 메일 주소를 추가할 수 있었습니다.
 
-**인바운드 이메일 POP 회신 변경 사항:** 시스템 관리자는 더 이상 알림에 대한 수신 이메일 회신을 위해 사용자 지정 POP 이메일 서버를 구성할 수 없습니다.
+**인바운드 전자 메일 POP 회신 변경 사항:** 시스템 관리자는 더 이상 알림에 대한 수신 전자 메일 회신을 위한 사용자 지정 POP 전자 메일 서버를 구성할 수 없습니다.
 
-자세한 내용은 [이메일 스푸핑 및 POP 회신 이메일 변경 사항](https://one.workfront.com/s/article/Email-spoofing-and-POP-reply-email-changes?language=en_US).
+자세한 내용은 [전자 메일 스푸핑 및 POP 회신 전자 메일 변경 내용](https://one.workfront.com/s/article/Email-spoofing-and-POP-reply-email-changes?language=en_US)을 참조하세요.
 
 ## 이제 발신 Workfront 이메일에 DKIM(DomainKeys Identified Mail)이 포함됨
 
@@ -107,7 +107,7 @@ Workfront에서 캘린더를 공유하는 부담을 덜기 위해 사용자를 �
 
 이제 레이아웃 템플릿을 사용하여 특정 그룹, 팀, 작업 역할 및 고유한 브랜딩이 있는 사용자에 대해 상단 탐색 영역 및 메인 메뉴에서 로고를 변경할 수 있습니다.
 
-자세한 내용은 [Adobe Workfront 인스턴스 브랜딩](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+자세한 내용은 [Adobe Workfront 인스턴스 브랜딩](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)을 참조하세요.
 
 ## 그룹 관리자는 승인 프로세스를 만들고 관리할 수 있습니다.
 
@@ -115,7 +115,7 @@ Workfront에서 캘린더를 공유하는 부담을 덜기 위해 사용자를 �
 
 그룹 관리자는 시스템 전체에서 사용되거나 다른 그룹에서 만든 승인 프로세스를 실수로 편집하지 않도록 자신이 관리하는 그룹과 관련된 승인 프로세스에만 액세스할 수 있습니다.
 
-자세한 내용은 [작업 항목에 대한 승인 프로세스 만들기](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+자세한 내용은 [작업 항목에 대한 승인 프로세스 만들기](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)를 참조하십시오.
 
 ## 관리자의 경우: 새 그룹 페이지를 통해 그룹을 더 쉽게 만들고 관리할 수 있습니다
 
@@ -129,13 +129,13 @@ Workfront에서 캘린더를 공유하는 부담을 덜기 위해 사용자를 �
 * 하위 그룹 목록: 관리하는 그룹의 하위 그룹을 보고, 편집하고, 복사하고, 내보내고, 삭제합니다.
 * 상태 목록: 그룹의 상태를 보고 관리합니다.
 
-자세한 내용은 [그룹 만들기](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+자세한 내용은 [그룹 만들기](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)를 참조하세요.
 
 ## 관리자를 위한 새로운 기능: 최대 14개 수준의 하위 그룹 만들기
 
 조직 계층 구조에 맞게 Workfront 그룹을 더 쉽게 구성할 수 있도록 그룹 내에서 만들 수 있는 하위 그룹 수준을 3에서 14로 늘렸습니다.
 
-자세한 내용은 [그룹 개요](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
+자세한 내용은 [그룹 개요](../../../administration-and-setup/manage-groups/groups-overview/groups.md)를 참조하세요.
 
 ## 관리자를 위한 새로운 기능: 새로운 설정 사이드바
 
@@ -152,22 +152,22 @@ Workfront에서 캘린더를 공유하는 부담을 덜기 위해 사용자를 �
 * 사이드바가 축소되는 동안 각 피쳐의 아이콘만 표시됩니다. 기본 사이드바 항목 아래의 하위 항목을 보려면 해당 아이콘 위로 마우스를 가져가 플라이아웃 메뉴에 표시합니다. 예를 들어 프로세스 아이콘 위로 마우스를 가져가면 승인 및 마일스톤 경로가 포함된 메뉴가 표시됩니다.
 * 두 개의 킥스타트 옵션(데이터 가져오기 및 데이터 내보내기)에 한 번 더 빠르게 액세스할 수 있습니다. 사이드바의 주 레벨에 표시하기 위해 시스템 아래에서 이동했습니다.
 
-설정 영역을 사용하는 방법에 대한 자세한 내용은 [관리 및 설정](../../../administration-and-setup/administration-and-setup.md).
+설정 영역을 사용하는 방법에 대한 자세한 내용은 [관리 및 설정](../../../administration-and-setup/administration-and-setup.md)을 참조하세요.
 
 ## 고객 정보 영역에 클러스터 번호 포함
 
 이제 Workfront 관리자는 지원 팀에서 클러스터 번호를 얻기 위해 추가 시간과 노력을 들이지 않고도 Workfront 내에서 클러스터 번호를 쉽게 찾을 수 있습니다. 설정의 고객 정보 영역에 클러스터 설정 필드를 추가했습니다.
 
-고객 정보 영역에 대한 자세한 내용은 [시스템에 대한 기본 정보 구성](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+고객 정보 영역에 대한 자세한 내용은 [시스템에 대한 기본 정보 구성](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md)을 참조하십시오.
 
 ## 이벤트 구독용 Base64 인코딩
 
 Base64Encoding 필드는 이벤트 구독 페이로드의 Base64 인코딩을 활성화하는 데 사용되는 선택적 필드입니다. true로 설정된 base64Encoding 필드를 사용하여 요청하면 페이로드의 newState 및 oldState 개체가 Base64 인코딩 문자열로 전달됩니다. 이 기능은 이벤트 구독에 특수 문자를 허용하지 않도록 네트워크가 구성된 경우 유용할 수 있습니다.
 
-자세한 내용은 을 참조하십시오. [이벤트 구독 API](../../../wf-api/general/event-subs-api.md).
+자세한 내용은 [이벤트 구독 API](../../../wf-api/general/event-subs-api.md)를 참조하세요.
 
 ## 중복 이벤트 구독을 만드는 기능이 제거됨
 
 중복 메시지 게재를 방지하기 위해 더 이상 중복 구독을 만들 수 없습니다. 또한 이전에 만든 중복 구독은 제거되었습니다.
 
-자세한 내용은 [FAQ - 이벤트 구독](../../../wf-api/general/event-subs-faq.md).
+자세한 내용은 [FAQ - 이벤트 구독](../../../wf-api/general/event-subs-faq.md)을 참조하십시오.

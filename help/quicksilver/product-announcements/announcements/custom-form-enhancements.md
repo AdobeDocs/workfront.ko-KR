@@ -38,7 +38,7 @@ ht-degree: 0%
 * 새로운 Adobe Workfront 경험 룩앤필이 없는 객체의 편집 상자(예: 경비 편집 상자)입니다
 * &#x200B; Workfront 모바일 앱
 
-사용자 정의 양식에 위젯을 추가하는 방법에 대한 자세한 내용은 [사용자 정의 양식에서 이미지 또는 기타 에셋 위젯 추가 또는 편집](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+사용자 정의 양식에 위젯을 추가하는 방법에 대한 자세한 내용은 [사용자 정의 양식의 이미지 또는 기타 자산 위젯 추가 또는 편집](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)을 참조하십시오.
 
 ## 사용자 정의 양식을 여러 객체 유형과 연결
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 >
 >변환이 수행되면 사용자 정의 양식이 변환 중인 오브젝트 유형과 이미 연결되어 있어야 합니다.
 
-사용자 정의 양식에 자산 위젯을 추가하는 방법에 대한 지침은 [사용자 정의 양식에서 이미지 또는 기타 에셋 위젯 추가 또는 편집](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+사용자 정의 양식에 자산 위젯을 추가하는 방법에 대한 지침은 [사용자 정의 양식의 이미지 또는 기타 자산 위젯 추가 또는 편집](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)을 참조하십시오.
 
 다중 개체 사용자 정의 양식을 만들거나 편집할 때 다음 사항을 고려하십시오.
 
@@ -90,19 +90,19 @@ ht-degree: 0%
 
 사용자 정의 양식에 이미 있는 다른 객체 유형과 다른 사용 권한 옵션을 사용하는 객체 유형을 연결하면, 해당 양식에 사용될 공통 사용 권한 옵션 집합으로 전환할 수 있는 메시지가 표시됩니다. 이 변경 사항은 섹션 구분 아래에 없는 경우에도 모든 필드에 적용됩니다.
 
-자세한 내용은 [사용자 정의 양식에 섹션 구분 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md).
+자세한 내용은 [사용자 정의 양식에 섹션 구분 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)를 참조하십시오.
 
 ### 계산된 사용자 정의 필드 호환성
 
-다중 객체 사용자 정의 양식에서 계산된 필드가 양식의 모든 관련 객체 유형(예: )에 사용할 수 있는 필드를 참조하는 경우 {name}, {description}, 및 {entryDate}: (여러 객체 유형에 사용 가능) 데이터를 첨부하는 객체에 관계없이 데이터가 올바르게 계산됩니다.
+다중 개체 사용자 지정 양식에서 계산된 필드가 양식의 모든 연결된 개체 유형(예: 여러 개체 유형에 사용할 수 있는 {name}, {description} 및 {entryDate})에서 사용할 수 있는 필드를 참조하는 경우 데이터를 첨부한 개체에 관계없이 데이터가 올바르게 계산됩니다.
 
-예를 들어 프로젝트 및 문제에 대한 다중 오브젝트 양식이 있고 {name} 표현식, 필드에 양식을 프로젝트에 추가할 때의 프로젝트 이름이 표시되고, 작업 이름에 양식을 작업에 추가합니다.
+예를 들어 프로젝트 및 문제에 대한 다중 개체 양식이 있고 {name} 식을 포함하는 계산된 필드를 추가하는 경우 양식을 프로젝트에 추가할 때 필드에 프로젝트 이름이 표시되고 양식을 작업에 추가하는 작업 이름이 표시됩니다.
 
 그러나 양식의 계산된 필드가 양식의 모든 오브젝트 유형과 호환되지 않는 필드를 참조하는 경우, 조정을 실시하라는 메시지가 표시됩니다.
 
 >[!INFO]
 >
->**예:** Task 객체 유형과 연관된 사용자 정의 양식에서 Assigned To: Name 기본 제공 필드를 참조하는 계산된 사용자 정의 필드를 만들어 양식이 작업에 첨부될 때마다 담당 주 할당자의 이름을 표시할 수 있도록 합니다.
+>**예:** Task 개체 형식과 연결된 사용자 정의 양식에서 기본 제공 필드 Assigned To: Name을 참조하는 계산된 사용자 정의 필드를 만들어 양식을 작업에 첨부할 때마다 담당 주 할당자의 이름을 표시할 수 있도록 합니다.
 >
 >```
 >Assigned To: Name{assignedTo}.{name}
@@ -113,9 +113,9 @@ ht-degree: 0%
 이 경우 다음 중 하나를 수행할 수 있습니다.
 
 * 사용자 정의 양식에서 호환되지 않는 두 항목 중 하나(오브젝트 유형 또는 참조된 필드)를 제거합니다.
-* 두 항목을 모두 유지하고 와일드카드 필터 변수 사용 `$$OBJCODE` IF 표현식에서 두 가지 서로 다른 버전의 담당 필드를 만드는 조건으로 사용됩니다. 이렇게 하면 양식이 첨부된 오브젝트 유형에 관계없이 필드가 정상적으로 작동할 수 있습니다.
+* 두 항목을 모두 유지하고 와일드카드 필터 변수 `$$OBJCODE`을(를) IF 식의 조건으로 사용하여 [충전 중] 필드의 두 가지 다른 버전을 만듭니다. 이렇게 하면 양식이 첨부된 오브젝트 유형에 관계없이 필드가 정상적으로 작동할 수 있습니다.
 
-  위의 예를 사용하면 프로젝트에 대한 기본 제공 할당 대상: 이름 필드가 없지만 기본 제공 소유자 필드가 있습니다(누군가 수동으로 변경하지 않는 한 프로젝트를 만든 사람의 이름으로 자동으로 채워짐). 따라서 사용자 정의 담당 필드에서 `$$OBJCODE` 아래 표시된 대로 사용자 정의 양식을 프로젝트에 첨부할 때 소유자 필드를 참조하고, 양식을 작업에 첨부할 때 할당 대상: 이름 필드를 참조합니다.
+  위의 예를 사용하면 프로젝트에 대한 기본 제공 할당 대상: 이름 필드가 없지만 기본 제공 소유자 필드가 있습니다(누군가 수동으로 변경하지 않는 한 프로젝트를 만든 사람의 이름으로 자동으로 채워짐). 따라서 사용자 정의 담당 필드에서 아래와 같이 사용자 정의 양식을 프로젝트에 첨부할 때 `$$OBJCODE`을(를) 사용하여 소유자 필드를 참조하고, 양식을 작업에 첨부할 때 할당 대상: 이름 필드를 참조할 수 있습니다.
 
   ```
   IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})
@@ -123,11 +123,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->  필드 이름 앞에 개체 유형을 추가하면 해당 개체의 상위 개체를 참조하므로 `{project}.{name}` 프로젝트에서 사용할 수 있지만 작업에 사용할 수도 있습니다.
+>  필드 이름 앞에 개체 형식을 추가하면 해당 개체가 개체의 부모 개체를 참조하므로 프로젝트에 `{project}.{name}`을(를) 사용할 수는 없지만 작업에 사용할 수는 있습니다.
 
-사용자 정의 양식에 계산된 사용자 정의 필드를 추가하는 방법에 대한 지침은 [사용자 정의 양식에 계산된 데이터 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+사용자 정의 양식에 계산된 사용자 정의 필드를 추가하는 방법에 대한 지침은 [사용자 정의 양식에 계산된 데이터 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)를 참조하십시오.
 
-변수에 대한 자세한 내용은 다음을 참조하십시오 `$$OBJCODE`, 참조 [와일드카드 필터 변수 개요](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+`$$OBJCODE`과(와) 같은 변수에 대한 자세한 내용은 [와일드카드 필터 변수 개요](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)를 참조하십시오.
 
 ### 사용자 정의 양식에서 오브젝트 유형 삭제에 대한 주의
 
@@ -135,4 +135,4 @@ ht-degree: 0%
 
 또한 사용자 정의 양식을 사용하는 사람에게 삭제된 것을 경고하기 위한 알림 시스템이 없습니다.
 
-자세한 내용은 [시스템에서 사용자 정의 필드 또는 위젯 삭제](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md).
+자세한 내용은 [시스템에서 사용자 지정 필드 또는 위젯 삭제](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)를 참조하십시오.

@@ -27,7 +27,7 @@ ht-degree: 7%
 
 Adobe Workfront 관리자는 SSO(Single Sign-On)를 위해 SAML(Security Assertion Markup Language) 2.0 솔루션과 통합되도록 Workfront 웹 및 모바일 애플리케이션을 구성할 수 있습니다.
 
-다음 섹션에 설명된 대로 Workfront에서 SAML 2.0을 구성하면에 설명된 대로 구성을 유지 관리할 수 있습니다 [ID 공급자에서 SAML 2.0 메타데이터 업데이트](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md).
+다음 섹션에 설명된 대로 Workfront에서 SAML 2.0을 구성한 후에는 [ID 공급자에서 SAML 2.0 메타데이터 업데이트](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)에 설명된 대로 구성을 유지할 수 있습니다.
 
 ## 액세스 요구 사항
 
@@ -57,7 +57,7 @@ Adobe Workfront 관리자는 SSO(Single Sign-On)를 위해 SAML(Security Asserti
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -65,11 +65,11 @@ Adobe Workfront 관리자는 SSO(Single Sign-On)를 위해 SAML(Security Asserti
 
 {{step-1-to-setup}}
 
-1. 클릭 **시스템** > **SSO(Single Sign-On)**
+1. **시스템** > **SSO(Single Sign-On)를 클릭합니다.**
 
-1. 다음에서 **유형** 드롭다운 목록에서 다음을 선택합니다. **SAML 2.0.**
+1. **유형** 드롭다운 목록에서 **SAML 2.0.**&#x200B;을(를) 선택합니다.
 
-1. 표시되는 옵션 상단 근처에서 을 클릭합니다. **SAML 2.0 메타데이터 다운로드** 를 클릭하여 컴퓨터에 있는 파일을 다운로드합니다.
+1. 표시되는 옵션 상단 근처에서 **SAML 2.0 메타데이터 다운로드**&#x200B;를 클릭하여 컴퓨터에 있는 파일을 다운로드합니다.
 
    SAML 2.0 ID 공급자에는 Workfront 인스턴스에서 생성된 정보가 있는 XML 파일이 필요합니다. 파일을 다운로드한 후 SAML 2.0 ID 공급자 서버에 액세스하고 Workfront SAML 2.0 메타데이터 XML 파일을 업로드해야 합니다.
 
@@ -84,7 +84,7 @@ Adobe Workfront 관리자는 SSO(Single Sign-On)를 위해 SAML(Security Asserti
       <td> 이 URL은 이미 채워져 있으며 ID 공급자의 Workfront을 식별합니다. 예: <code>&lt;yourcompany&gt;.com/SAML2</code>.</td>
      </tr>
      <tr>
-      <td role="rowheader">바인딩 유형</span> </td>
+      <td role="rowheader">바인딩 형식</span> </td>
       <td> <p>IDP 서버에서 지원하는 인증 정보 전송 방법을 선택하십시오.</p>
        <ul>
        <li>POST</li>
@@ -93,7 +93,7 @@ Adobe Workfront 관리자는 SSO(Single Sign-On)를 위해 SAML(Security Asserti
      </tr>
      <tr>
       <td role="rowheader">ID 공급자 메타데이터에서 필드 채우기 </td> 
-      <td>SAML 2.0 ID 공급자 솔루션에서 서비스 공급자 메타데이터 XML 파일을 내보내고 컴퓨터의 임시 위치에 저장합니다. 선택 <strong>파일 선택</strong>를 클릭한 다음 저장한 파일을 찾아 선택하여 Workfront 구성에 추가합니다.</td> 
+      <td>SAML 2.0 ID 공급자 솔루션에서 서비스 공급자 메타데이터 XML 파일을 내보내고 컴퓨터의 임시 위치에 저장합니다. <strong>파일 선택</strong>을 선택한 다음 저장한 파일을 찾아 선택하여 Workfront 구성에 추가합니다.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">로그인 포털 URL</span> </td> 
@@ -101,7 +101,7 @@ Adobe Workfront 관리자는 SSO(Single Sign-On)를 위해 SAML(Security Asserti
      </tr>
      <tr>
       <td role="rowheader">로그아웃 URL</span> </td> 
-      <td> <p>IDP 서버의 로그아웃 URL을 입력합니다. Workfront은 Workfront에서 로그아웃하기 전에 이 URL에 HTTP 요청을 보냅니다. Workfront 세션이 닫히면 원격 서버에서 사용자의 세션이 닫힙니다.</p> <p><b>참고</b>: 옵션이 있는 경우에만 로그아웃 URL로 리디렉션됩니다 <strong>SAML 2.0 인증만 허용</strong> 이(가) 사용자 프로필에서 활성화되었습니다.</p> </td>
+      <td> <p>IDP 서버의 로그아웃 URL을 입력합니다. Workfront은 Workfront에서 로그아웃하기 전에 이 URL에 HTTP 요청을 보냅니다. Workfront 세션이 닫히면 원격 서버에서 사용자의 세션이 닫힙니다.</p> <p><b>참고</b>: 사용자 프로필에 <strong>SAML 2.0 인증만 허용</strong> 옵션이 활성화된 경우에만 로그아웃 URL로 리디렉션됩니다.</p> </td>
      </tr>
      <tr>
       <td role="rowheader">암호 변경 URL </td> 
@@ -126,9 +126,9 @@ Adobe Workfront 관리자는 SSO(Single Sign-On)를 위해 SAML(Security Asserti
        <p>확인란을 선택하면 다음 옵션이 표시됩니다.</p> 
        <p> <img src="assets/saml-2.0-auto-provision-users-ui.png"> </p> 
        <p>드롭다운 목록에서 매핑할 Workfront 사용자 속성을 선택한 다음 사용자 디렉토리에서 해당 디렉토리 속성을 지정합니다.</p> 
-       <p>다음 <strong>디렉터리 속성</strong> 필드에는 SAML 2.0 구성을 성공적으로 테스트할 때 저장한 사용자 속성 테이블의 디렉토리 속성 이름이 포함되어야 합니다.</p> 
-       <p>에서 기본 Workfront 값을 설정할 수 있습니다. <strong>기본값</strong> 필드. SAML 2.0 ID 공급자의 값을 기반으로 규칙을 설정할 수도 있습니다.</p> 
-       <p><b>경고</b>: Workfront은 사용자가 시스템에 로그인할 때마다 아래 나열된 속성을 매핑합니다. 이러한 이유로 매핑 액세스 수준을 권장하지 않습니다. 속성이 잘못 매핑된 경우 관리 액세스 권한을 쉽게 제거할 수 있습니다. 클릭 <strong>매핑 추가</strong> 을 클릭하여 추가 규칙을 추가합니다.
+       <p><strong>디렉터리 특성</strong> 필드에는 SAML 2.0 구성을 성공적으로 테스트할 때 저장한 사용자 특성 테이블의 디렉터리 특성 이름이 포함되어야 합니다.</p> 
+       <p><strong>기본 값</strong> 필드에서 기본 Workfront 값을 설정할 수 있습니다. SAML 2.0 ID 공급자의 값을 기반으로 규칙을 설정할 수도 있습니다.</p> 
+       <p><b>경고</b>: Workfront은 사용자가 시스템에 로그인할 때마다 아래 나열된 특성을 매핑하려고 합니다. 이러한 이유로 매핑 액세스 수준을 권장하지 않습니다. 속성이 잘못 매핑된 경우 관리 액세스 권한을 쉽게 제거할 수 있습니다. 규칙을 추가하려면 <strong>매핑 추가</strong>를 클릭하십시오.
        </p> 
        <p>다음 Workfront 속성을 매핑할 수 있습니다.</p> 
       <ul> 
@@ -156,7 +156,7 @@ Adobe Workfront 관리자는 SSO(Single Sign-On)를 위해 SAML(Security Asserti
       <li> <p>타임시트 프로필</p> </li> 
       <li> <p>제목</p> </li> 
       </ul>
-      <p>클릭 <strong>저장</strong> 사용자 속성 매핑을 마치면</p> </td> 
+      <p>사용자 특성 매핑을 마치면 <strong>저장</strong>을 클릭합니다.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">인증서 </td> 
@@ -170,19 +170,19 @@ Adobe Workfront 관리자는 SSO(Single Sign-On)를 위해 SAML(Security Asserti
      </tr> 
      <tr> 
       <td role="rowheader">활성화 </td> 
-      <td> <p>Workfront 시스템에서 SSO 활성화. 로그인 지침을 사용자에게 전달했는지 확인합니다.</p> <p>Workfront에서 SSO 구성을 활성화한 후에는 <strong>SAML 2.0 인증만 허용</strong> 모든 사용자가 SSO를 사용할 수 있도록 을 설정합니다.</p> <p>SSO용 사용자 업데이트에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">SSO(Single Sign-On)를 위해 사용자 업데이트</a>.</p> <p>사용자 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">사용자 프로필 편집</a>.</p> </td> 
+      <td> <p>Workfront 시스템에서 SSO 활성화. 로그인 지침을 사용자에게 전달했는지 확인합니다.</p> <p>Workfront에서 SSO 구성을 사용하도록 설정한 후에는 모든 사용자가 SSO를 사용할 수 있도록 <strong>SAML 2.0 인증만 허용</strong> 설정을 사용하도록 설정해야 합니다.</p> <p>SSO용 사용자 업데이트에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">SSO(Single Sign-On)용 사용자 업데이트</a>를 참조하십시오.</p> <p>사용자 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">사용자 프로필 편집</a>을 참조하세요.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">구성 확인 </td> 
       <td> 
-      <p>클릭 <strong>연결 테스트</strong> Workfront과 SAML 2.0 ID 공급자가 서로 통신할 수 있는지 확인합니다. 이 연결은 XML 파일을 교환한 경우에만 성공한 것입니다.
+      <p><strong>연결 테스트</strong>를 클릭하여 Workfront과 SAML 2.0 ID 공급자가 서로 통신할 수 있는지 확인합니다. 이 연결은 XML 파일을 교환한 경우에만 성공한 것입니다.
       </p> 
       <p>SAML 2.0 ID 공급자와 Workfront 간 링크를 성공적으로 테스트하면 아래 이미지와 유사한 화면이 표시됩니다.</p>
-      <p><b>참고</b>: 이 화면은 브라우저 팝업에 표시되므로 브라우저에서 팝업 차단기를 비활성화해야 합니다.</p>
+      <p><b>참고</b>: 이 화면은 브라우저 팝업에 표시되므로 브라우저에서 팝업 차단기를 사용하지 않도록 설정하십시오.</p>
       <p>나중에 사용할 수 있도록 표에 표시된 정보를 저장합니다.</p>
       <p><img src="assets/success-table-saml-2.png"></p></td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 클릭 **저장** saml 2.0 구성을 저장합니다.
+1. SAML 2.0 구성을 저장하려면 **저장**&#x200B;을 클릭합니다.

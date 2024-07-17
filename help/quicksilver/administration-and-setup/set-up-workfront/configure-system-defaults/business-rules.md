@@ -57,7 +57,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -65,20 +65,20 @@ ht-degree: 0%
 
 비즈니스 규칙의 형식은 &quot;정의된 조건이 충족되는 경우 사용자가 오브젝트에 대한 작업을 수행할 수 없게 되며 메시지가 표시됩니다.&quot;입니다.
 
-비즈니스 규칙의 속성 및 기타 함수 구문은 사용자 정의 양식의 계산된 필드 구문과 동일합니다. 구문에 대한 자세한 내용은 [양식 디자이너를 사용하여 계산된 필드 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+비즈니스 규칙의 속성 및 기타 함수 구문은 사용자 정의 양식의 계산된 필드 구문과 동일합니다. 구문에 대한 자세한 내용은 [양식 디자이너를 사용하여 계산된 필드 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)를 참조하십시오.
 
-IF 문에 대한 자세한 내용은 [&quot;IF&quot; 문 개요](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) 및 [계산된 사용자 정의 필드의 조건 연산자](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
+IF 문에 대한 자세한 내용은 계산된 사용자 지정 필드의 [&quot;IF&quot; 문 개요](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) 및 [조건 연산자](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md)를 참조하십시오.
 
-사용자 기반 와일드카드에 대한 자세한 내용은 [사용자 기반 와일드카드를 사용하여 보고서 일반화](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
+사용자 기반 와일드카드에 대한 자세한 내용은 [사용자 기반 와일드카드를 사용하여 보고서 일반화](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md)를 참조하십시오.
 
-날짜 기반 와일드카드에 대한 자세한 내용은 [날짜 기반 와일드카드를 사용하여 보고서를 일반화합니다.](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
+날짜 기반 와일드카드에 대한 자세한 내용은 [날짜 기반 와일드카드를 사용하여 보고서 일반화](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md)를 참조하십시오.
 
-API 와일드카드는 비즈니스 규칙에서도 사용할 수 있습니다. 다음을 사용할 수 있습니다. `$$ISAPI` UI 또는 API에서만 규칙을 트리거합니다.
+API 와일드카드는 비즈니스 규칙에서도 사용할 수 있습니다. `$$ISAPI`을(를) 사용하여 UI에서만 또는 API에서만 규칙을 트리거할 수 있습니다.
 
 몇 가지 간단한 비즈니스 규칙 시나리오는 다음과 같습니다.
 
-* 2월 마지막 주 중에는 새 경비를 추가할 수 없습니다. 이 공식은 다음과 같이 명시될 수 있습니다. `IF(AND(MONTH($$TODAY) = 2, DAYOFMONTH($$TODAY) >= 22), "You cannot add new expenses during the last week of February.")`
-* 완료 상태의 프로젝트는 사용자가 편집할 수 없습니다. 이 공식은 다음과 같이 명시될 수 있습니다. `IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
+* 2월 마지막 주 중에는 새 경비를 추가할 수 없습니다. 이 수식은 다음과 같이 지정할 수 있습니다. `IF(AND(MONTH($$TODAY) = 2, DAYOFMONTH($$TODAY) >= 22), "You cannot add new expenses during the last week of February.")`
+* 완료 상태의 프로젝트는 사용자가 편집할 수 없습니다. 이 수식은 다음과 같이 지정할 수 있습니다. `IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
 
 중첩된 IF 문이 있는 시나리오는 다음과 같습니다.
 
@@ -98,24 +98,24 @@ IF(
 
 {{step-1-to-setup}}
 
-1. 클릭 **비즈니스 규칙** 왼쪽 패널에서
-1. 클릭 **새 비즈니스 규칙**.
-1. 비즈니스 규칙을 지정할 객체 유형을 선택한 다음 을 클릭합니다. **계속**.
+1. 왼쪽 패널에서 **비즈니스 규칙**&#x200B;을 클릭합니다.
+1. **새 비즈니스 규칙**&#x200B;을 클릭합니다.
+1. 비즈니스 규칙을 할당할 개체 유형을 선택한 다음 **계속**&#x200B;을 클릭합니다.
 
    ![개체 선택](assets/object-for-business-rule2.png)
 
-1. 을(를) 입력합니다 **이름** 비즈니스 규칙.
-1. 다음에서 **활성화됨** 필드를 저장할 때 규칙이 활성화되어야 하는지 여부를 선택합니다.
+1. 비즈니스 규칙의 **이름**&#x200B;을(를) 입력하십시오.
+1. **활성 상태임** 필드에서 규칙을 저장할 때 규칙을 활성화해야 하는지 여부를 선택합니다.
 
-   다음을 선택하는 경우 **아니요**, 규칙은 비활성 상태로 저장되며 나중에 활성화할 수 있습니다.
+   **아니요**&#x200B;를 선택하면 규칙이 비활성 상태로 저장되며 나중에 활성화할 수 있습니다.
 
-1. 선택 **트리거** 비즈니스 규칙. 옵션은 다음과 같습니다.
+1. 비즈니스 규칙에 대한 **트리거**&#x200B;를 선택하십시오. 옵션은 다음과 같습니다.
 
-   * **개체 작성 시:** 사용자가 오브젝트를 만들려고 할 때 규칙이 적용됩니다.
-   * **개체 편집 시:** 사용자가 오브젝트를 편집하려고 할 때 규칙이 적용됩니다.
-   * **오브젝트 삭제 시:** 사용자가 오브젝트를 삭제하려고 할 때 규칙이 적용됩니다.
+   * **개체를 만들 때:** 사용자가 개체를 만들려고 할 때 규칙이 적용됩니다.
+   * **개체 편집 시:** 사용자가 개체를 편집하려고 하면 규칙이 적용됩니다.
+   * **개체 삭제 시:** 사용자가 개체를 삭제하려고 할 때 규칙이 적용됩니다.
 
-1. (선택 사항) **설명** 비즈니스 규칙 및 이를 적용할 때 발생하는 작업
+1. (선택 사항) 비즈니스 규칙의 **설명**&#x200B;과(와) 비즈니스 규칙을 적용할 때 수행할 작업을 입력합니다.
 1. 비즈니스 규칙 대화 상자의 중앙에 있는 공식 편집기에서 공식을 작성합니다.
 
    비즈니스 규칙의 형식은 &quot;정의된 조건이 충족되는 경우 사용자가 오브젝트에 대한 작업을 수행할 수 없게 되며 메시지가 표시됩니다.&quot;입니다.
@@ -131,15 +131,15 @@ IF(
 
    이 예는 비용에 대한 비즈니스 규칙입니다. 현재 월이 6월인 경우 사용자가 새 경비를 만들 수 없으며 메시지에 이에 대한 설명이 나와 있습니다.
 
-   비즈니스 규칙의 자세한 예는 를 참조하십시오. [비즈니스 규칙 시나리오](#scenarios-for-business-rules) 이 문서에서.
+   비즈니스 규칙의 자세한 예는 이 문서에서 [비즈니스 규칙에 대한 시나리오](#scenarios-for-business-rules)를 참조하십시오.
 
-1. (선택 사항) 공식 사용 **표현식** 및 **필드** 을 클릭하여 규칙 빌드를 지원합니다.
+1. (선택 사항) 규칙 작성을 지원하려면 오른쪽 패널의 **식** 및 **필드** 수식을 사용합니다.
 
    사용 가능한 항목 목록의 범위를 좁히려면 표현식 또는 필드를 검색합니다.
 
    사용 가능한 필드 목록은 비즈니스 규칙의 개체 유형과 관련된 필드로 제한됩니다.
 
-1. 클릭 **저장** 비즈니스 규칙 빌드를 마치면
+1. 비즈니스 규칙 작성을 마치면 **저장**&#x200B;을 클릭합니다.
 
 >[!NOTE]
 >
@@ -152,5 +152,5 @@ IF(
 비즈니스 규칙을 활성화하려면 다음을 수행합니다.
 
 1. 규칙 목록에서 비즈니스 규칙을 선택하고 편집 아이콘을 클릭합니다.
-1. 선택 **예** 대상 **활성화됨** 비즈니스 규칙 대화 상자에서 참조할 수 있습니다.
+1. 비즈니스 규칙 대화 상자에서 **활성 상태임**&#x200B;에 대해 **예**&#x200B;를 선택합니다.
 1. **저장**&#x200B;을 클릭합니다.

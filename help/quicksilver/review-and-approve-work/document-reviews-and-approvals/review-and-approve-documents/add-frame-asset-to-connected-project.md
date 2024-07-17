@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->이 문서의 내용은 특정 계정에만 사용할 수 있는 업데이트된 문서 승인 기능에 적용됩니다. 표준 승인 프로세스에 대한 정보는 다음 목록에 있는 문서를 참조하십시오. [작업 승인](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>이 문서의 내용은 특정 계정에만 사용할 수 있는 업데이트된 문서 승인 기능에 적용됩니다. 표준 승인 프로세스에 대한 자세한 내용은 [작업 승인](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md)에 나열된 문서를 참조하십시오.
 
 광고 팀은 검토해야 하는 에셋을 Frame.io에 추가하고 공식 검토 및 승인을 위해 Workfront으로 전송할 수 있습니다.
 
@@ -39,7 +39,7 @@ ht-degree: 0%
   </tr> -->
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>Frame.io에서 프로젝트 공동 작업자여야 합니다. 자세한 내용은 <a href="https://support.frame.io/en/articles/11125-i-ve-been-invited-to-collaborate-on-a-project">프로젝트에 공동 작업자로 초대되었습니다.</a>
+   <td> <p>Frame.io에서 프로젝트 공동 작업자여야 합니다. 자세한 내용은 <a href="https://support.frame.io/en/articles/11125-i-ve-been-invited-to-collaborate-on-a-project">프로젝트에 공동 작업자로 초대되었습니다</a>를 참조하세요.
  Frame.io 도움말 사이트에서 참조할 수 있습니다.</p> </td> 
   </tr> 
    <tr>
@@ -51,11 +51,11 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## 전제 조건
 
-* Workfront 및 Frame.io 통합을 구성해야 합니다. 자세한 내용은 [Workfront 및 Frame.io 통합 구성](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md).
+* Workfront 및 Frame.io 통합을 구성해야 합니다. 자세한 내용은 [Workfront 및 Frame.io 통합 구성](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md)을 참조하십시오.
 
 ## 연결된 Workfront 프로젝트에 Frame.io 자산 추가
 
@@ -69,14 +69,14 @@ ht-degree: 0%
    >
    >Frame.io에서 검토하려면 팀원 라이선스가 있어야 합니다.
 
-1. 에셋에서 점 3개 메뉴를 클릭한 다음 **Workfront에 추가**.
+1. 에셋에서 점 3개 메뉴를 클릭한 다음 **Workfront에 추가**&#x200B;를 클릭합니다.
 
 1. 연결된 Workfront 프로젝트에서 에셋을 업로드할 위치를 선택하십시오.
 
 1. (선택 사항) 작업 상태를 설정합니다.
 
-1. 클릭 **제출**.
+1. **제출**&#x200B;을 클릭합니다.
 
 자산이 선택한 위치에 나타나고 그에 따라 작업 상태가 업데이트됩니다.
 
-문서에 설명된 단계에 따라 검토 및 승인 프로세스를 시작할 수 있습니다 [문서 검토 또는 승인 요청 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+문서 [문서 검토 또는 승인 요청 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)에 설명된 단계에 따라 검토 및 승인 프로세스를 시작할 수 있습니다.

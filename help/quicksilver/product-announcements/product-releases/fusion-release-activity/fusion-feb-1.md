@@ -21,9 +21,9 @@ ht-degree: 0%
 
 이 페이지에서는 2021년 2월 1일이 있는 주에 Adobe Workfront Fusion에서 향상된 모든 기능에 대해 설명합니다.
 
-최근 변경 사항의 목록은 다음을 참조하십시오. [Adobe Workfront Fusion 릴리스 활동](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+최근 모든 변경 사항의 목록은 [Adobe Workfront Fusion 릴리스 활동](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)을 참조하십시오.
 
-Workfront Fusion의 최근 버그 수정 목록은 다음을 참조하십시오. [Workfront 유지 보수 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) Workfront Fusion Maintenance Update로 레이블이 지정된 업데이트를 찾아 확인합니다.
+Workfront Fusion의 최근 버그 수정 목록을 보려면 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 페이지를 참조하고 Workfront Fusion 유지 관리 업데이트 레이블이 지정된 업데이트를 확인하십시오.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -42,7 +42,7 @@ MariaDB 모듈을 사용하여 다음과 같은 작업을 수행할 수 있습�
 * 쿼리 실행
 * 테이블에서 행 선택
 
-자세한 내용은 [MariaDB 모듈](../../../workfront-fusion/apps-and-their-modules/mariadb-modules.md).
+자세한 내용은 [MariaDB 모듈](../../../workfront-fusion/apps-and-their-modules/mariadb-modules.md)을 참조하세요.
 
 ## 이제 Marketo 커넥터 및 모듈을 사용할 수 있습니다
 
@@ -56,7 +56,7 @@ MariaDB 모듈을 사용하여 다음과 같은 작업을 수행할 수 있습�
 * 프로그램 복사
 * 사용자 지정 API 호출 만들기
 
-자세한 내용은 [Marketo 모듈](../../../workfront-fusion/apps-and-their-modules/marketo-modules.md).
+자세한 내용은 [Marketo 모듈](../../../workfront-fusion/apps-and-their-modules/marketo-modules.md)을 참조하세요.
 
 <!--
 

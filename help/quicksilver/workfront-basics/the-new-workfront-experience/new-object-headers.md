@@ -2,7 +2,7 @@
 content-type: overview
 navigation-topic: the-new-workfront-experience
 title: 개체 헤더 개요
-description: 의 객체에 대한 정보를 한눈에 볼 수 있습니다. [!DNL Adobe Workfront] 헤더 를 검토할 때. 헤더의 정보에는 오브젝트의 소유자, 상태 또는 완료율이 포함될 수 있습니다.
+description: 머리글을 검토할 때  [!DNL Adobe Workfront] 의 개체에 대한 정보를 한눈에 볼 수 있습니다. 헤더의 정보에는 오브젝트의 소유자, 상태 또는 완료율이 포함될 수 있습니다.
 feature: Get Started with Workfront
 exl-id: 76e21df0-9272-4bfb-8a97-c16ae5f4b5dc
 source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # 개체 헤더 개요
 
-의 객체에 대한 정보를 한눈에 볼 수 있습니다. [!DNL Adobe Workfront] 헤더 를 검토할 때.
+[!DNL Adobe Workfront]의 개체 머리글을 검토할 때 개체에 대한 정보를 한눈에 볼 수 있습니다.
 
 오브젝트의 이름 외에도 헤더에는 오브젝트의 소유자, 상태 또는 완료율이 포함될 수 있습니다.
 
-[!DNL Workfront] 는 오브젝트의 이름에 우선 순위를 두며 가능한 한 헤더에 공간을 할당합니다. 개체 이름이 너무 길면 잘립니다. 개체의 전체 이름을 표시하려면 개체 위로 마우스를 가져가면 됩니다.
+[!DNL Workfront]은(는) 개체 이름에 우선 순위를 부여하여 헤더에서 가능한 한 많은 공간을 할당합니다. 개체 이름이 너무 길면 잘립니다. 개체의 전체 이름을 표시하려면 개체 위로 마우스를 가져가면 됩니다.
 
 ## 오브젝트의 헤더 액세스
 
-의 개체에 대한 헤더에 액세스 [!DNL Workfront] 가 있는 모든 개체에 대해 동일합니다.
+[!DNL Workfront]의 개체에 대한 헤더에 액세스하는 것은 이 개체가 있는 모든 개체에 대해 동일합니다.
 
 예를 들어 프로젝트의 헤더에 액세스하려면 다음을 수행합니다.
 
@@ -35,16 +35,16 @@ ht-degree: 0%
 
 홈에서 다음 헤더를 사용할 수 있습니다.
 
-* 작업: 이 헤더를 사용하는 방법에 대한 자세한 내용은 [작업 헤더 개요](#task-header-overview) 이 문서에서.
-* 문제: 이 헤더를 사용하는 방법에 대한 자세한 내용은 [문제 헤더 개요](#issue-header-overview) 이 문서에서.
+* 작업: 이 헤더를 사용하는 방법에 대한 자세한 내용은 이 문서의 [작업 헤더 개요](#task-header-overview)를 참조하십시오.
+* 문제: 이 헤더를 사용하는 방법에 대한 자세한 내용은 이 문서의 [문제 헤더 개요](#issue-header-overview)를 참조하십시오.
 
 ## 사용자 지정 가능한 헤더
 
-사용자 [!DNL Workfront]  또는 그룹 관리자가 레이아웃 템플릿을 사용하여 프로젝트, 작업 및 문제의 헤더를 맞춤화할 수 있습니다.
+[!DNL Workfront] 또는 그룹 관리자는 레이아웃 템플릿을 사용하여 프로젝트, 작업 및 문제의 헤더를 사용자 지정할 수 있습니다.
 
 이 문서에서는 프로젝트 및 작업과 문제를 포함한 모든 개체의 기본 헤더에 대해 설명합니다.
 
-개체 헤더의 정보를 사용자 지정하는 방법에 대한 자세한 내용은 [레이아웃 템플릿을 사용하여 개체 머리글 사용자 지정](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+개체 헤더의 정보를 사용자 지정하는 방법에 대한 자세한 내용은 [레이아웃 템플릿을 사용하여 개체 헤더 사용자 지정](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)을 참조하십시오.
 
 
 ## 프로젝트 헤더 개요
@@ -69,7 +69,7 @@ ht-degree: 0%
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">개체 아이콘 </td> 
-   <td> <p>자주색 [!UICONTROL Project] 아이콘 <img src="assets/nwe-projects-icon.png"> 프로젝트 이름의 왼쪽에 가 표시됩니다.</p> </td> 
+   <td> <p>프로젝트 이름 왼쪽에 자주색 [!UICONTROL Project] 아이콘 <img src="assets/nwe-projects-icon.png">이(가) 표시됩니다.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">프로젝트 이름</td> 
@@ -105,7 +105,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Approvals] 영역</td> 
-   <td> <p>승인자 중 한 명인 경우 다음 아이콘을 사용하여 프로젝트에 대한 승인을 관리합니다.</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> </img> [!UICONTROL Approve]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> </img> [!UICONTROL 거부]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> </img> [!UICONTROL 회수]</p> <p>승인자가 아닌 경우 [!UICONTROL More] 아이콘을 클릭합니다 <img src="assets/more-icon-for-approvals-area.png"> 현재 승인 단계에 대한 정보를 봅니다.</p> <p>승인에 대한 자세한 내용은 <a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">승인 프로세스 개요</a>.</p> </td> 
+   <td> <p>승인자 중 한 명인 경우 다음 아이콘을 사용하여 프로젝트에 대한 승인을 관리합니다.</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> </img> [!UICONTROL 승인]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> </img> [!UICONTROL 거부]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> </img> [!UICONTROL 회수]</p> <p>승인자가 아닌 경우 [!UICONTROL More] 아이콘 <img src="assets/more-icon-for-approvals-area.png">을(를) 클릭하여 현재 승인 단계에 대한 정보를 봅니다.</p> <p>승인에 대한 자세한 내용은 <a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">승인 프로세스 개요</a>를 참조하세요.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -128,11 +128,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">상위 개체가 있는 탐색 표시</td> 
-   <td> <p>작업의 상위 개체가 이동 경로에 표시됩니다. 상위 이름을 클릭하면 해당 상위 개체가 열립니다.</p> <p>자세한 내용은 <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">탐색 표시 개요</a>.</p> </td> 
+   <td> <p>작업의 상위 개체가 이동 경로에 표시됩니다. 상위 이름을 클릭하면 해당 상위 개체가 열립니다.</p> <p>자세한 내용은 <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">탐색 표시 개요</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">개체 아이콘 </td> 
-   <td> <p>녹색 [!UICONTROL Task] 아이콘 <img src="assets/nwe-tasks-icon.png"> 은 작업 이름의 왼쪽에 표시됩니다.</p> </td> 
+   <td> <p>작업 이름 왼쪽에 녹색 [!UICONTROL Task] 아이콘 <img src="assets/nwe-tasks-icon.png">이(가) 표시됩니다.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">작업 이름</td> 
@@ -156,11 +156,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 작업 대상], [!UICONTROL 완료] 또는 [!UICONTROL 작업 시작] 단추</p> </td> 
-   <td> <p>작업이 할당된 경우 [!UICONTROL Work on It]을(를) 클릭할 수 있습니다. <span>또는 [!UICONTROL 시작 작업]</span> 작업을 진행 중임을 나타내는 단추 또는 작업을 완료했음을 나타내는 [!UICONTROL 완료] 단추</p> <p><span>[!UICONTROL Work On It] 단추를 [!UICONTROL Start Task] 단추로 바꾸는 방법에 대한 자세한 내용은 다음을 참조하십시오. <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">[!UICONTROL Work On It] 단추를 [!UICONTROL Start] 단추로 바꿉니다.</a></span>.</p> </td> 
+   <td> <p>작업이 사용자에게 할당된 경우 [!UICONTROL 해당 작업에 대한 작업] <span>이나 [!UICONTROL 작업 시작]</span> 단추를 클릭하여 현재 작업을 수행하고 있음을 나타내거나 [!UICONTROL 완료] 단추를 클릭하여 작업을 완료했음을 나타낼 수 있습니다.</p> <p><span>[!UICONTROL Work On It] 단추를 [!UICONTROL Start Task] 단추로 바꾸는 방법에 대한 자세한 내용은 <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">[!UICONTROL Work On It] 단추를 [!UICONTROL Start] 단추로 바꾸기</a></span>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 계획된 완료 일자]</td> 
-   <td> <p>[!UICONTROL 계획된 완료 일자] 작업을 편집할 수 있습니다. <span>및 시간</span> 헤더에서.</p> <p>팁: [!UICONTROL Commit Date] 헤더가 표시되지 않습니다. [!UICONTROL 세부 정보] 페이지에서 볼 수 있습니다.</p> </td> 
+   <td> <p>헤더에서 [!UICONTROL 계획된 완료 일자] <span> 및 시간</span> 작업을 편집할 수 있습니다.</p> <p>팁: [!UICONTROL Commit Date] 헤더가 표시되지 않습니다. [!UICONTROL 세부 정보] 페이지에서 볼 수 있습니다.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 상태]</td> 
@@ -168,7 +168,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Approvals] 영역</td> 
-   <td> <p>승인자 중 한 명인 경우 다음 아이콘을 사용하여 작업에 대한 승인을 관리합니다.</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> </img> [!UICONTROL Approve]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> </img> [!UICONTROL 거부]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> </img> [!UICONTROL 회수]</p> <p>승인자가 아닌 경우 [!UICONTROL More] 아이콘을 클릭합니다 <img src="assets/more-icon-for-approvals-area.png"> 현재 승인 단계에 대한 정보를 봅니다.</p> <p>승인에 대한 자세한 내용은 <a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">승인 프로세스 개요</a>.</p> </td> 
+   <td> <p>승인자 중 한 명인 경우 다음 아이콘을 사용하여 작업에 대한 승인을 관리합니다.</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> </img> [!UICONTROL 승인]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> </img> [!UICONTROL 거부]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> </img> [!UICONTROL 회수]</p> <p>승인자가 아닌 경우 [!UICONTROL More] 아이콘 <img src="assets/more-icon-for-approvals-area.png">을(를) 클릭하여 현재 승인 단계에 대한 정보를 봅니다.</p> <p>승인에 대한 자세한 내용은 <a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">승인 프로세스 개요</a>를 참조하세요.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -191,11 +191,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">상위 개체가 있는 탐색 표시</td> 
-   <td> <p>문제의 상위 개체가 이동 경로에 표시됩니다. 상위 이름을 클릭하면 해당 상위 개체가 열립니다.</p> <p>자세한 내용은 <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">탐색 표시 개요</a>.</p> </td> 
+   <td> <p>문제의 상위 개체가 이동 경로에 표시됩니다. 상위 이름을 클릭하면 해당 상위 개체가 열립니다.</p> <p>자세한 내용은 <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">탐색 표시 개요</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 아이콘 </td> 
-   <td> <p>분홍색 [!UICONTROL Issue] 아이콘 <img src="assets/nwe-issues-icon.png"> 은 문제 이름 왼쪽에 을 표시합니다.</p> </td> 
+   <td> <p>문제 이름 왼쪽에 분홍색 [!UICONTROL Issue] 아이콘 <img src="assets/nwe-issues-icon.png">이(가) 표시됩니다.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">문제 이름</td> 
@@ -218,12 +218,12 @@ ht-degree: 0%
    <td>헤더에서 문제의 피할당자를 편집할 수 있습니다.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 처리 중], [!UICONTROL 완료], <span>또는 [!UICONTROL 시작 문제] 단추</span></td> 
-   <td>문제가 할당된 경우 [!UICONTROL Work on It]을(를) 클릭할 수 있습니다. <span>또는 [!UICONTROL 시작 문제]</span> 문제를 처리 중임을 나타내는 단추 또는 문제를 완료했음을 나타내는 [!UICONTROL 완료] 단추<span>[!UICONTROL Work On It] 단추를 [!UICONTROL Start Task] 단추로 바꾸는 방법에 대한 자세한 내용은 다음을 참조하십시오.</span> <span href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">[!UICONTROL Work On It] 단추를 [!UICONTROL Start] 단추로 바꿉니다.</a></span><span>.</span></td> 
+   <td role="rowheader">[!UICONTROL Work on It], [!UICONTROL Done], <span> 또는 [!UICONTROL Start Issue] 단추</span></td> 
+   <td>문제가 할당된 경우 [!UICONTROL Work on It] <span> 또는 [!UICONTROL Start Issue]</span> 단추를 클릭하여 현재 문제를 처리 중임을 나타내거나 [!UICONTROL Done] 단추를 클릭하여 문제를 완료했음을 나타낼 수 있습니다.<span>[!UICONTROL Work On It] 단추를 [!UICONTROL Start Task] 단추로 바꾸는 방법에 대한 자세한 내용은</span> <span href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">[!UICONTROL Work On It] 단추를 [!UICONTROL Start] 단추로 바꾸기</a></span><span>를 참조하십시오.</span></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 계획된 완료 일자]</td> 
-   <td> <p>[!UICONTROL 계획된 완료 일자] 문제를 편집할 수 있습니다. <span>및 시간</span> 헤더에서.</p> <p>팁: [!UICONTROL Commit Date] 헤더가 표시되지 않습니다. [!UICONTROL 세부 정보] 페이지에서 볼 수 있습니다.</p> </td> 
+   <td> <p>헤더에서 [!UICONTROL 계획된 완료 일자] <span> 및 시간</span> 문제를 편집할 수 있습니다.</p> <p>팁: [!UICONTROL Commit Date] 헤더가 표시되지 않습니다. [!UICONTROL 세부 정보] 페이지에서 볼 수 있습니다.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 상태]</td> 
@@ -231,7 +231,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Approvals] 영역</td> 
-   <td> <p>승인자 중 한 명인 경우 다음 아이콘을 사용하여 문제에 대한 승인을 관리합니다.</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL Approve]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL 거부]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL 회수]</p> <p>승인자가 아닌 경우 [!UICONTROL More] 아이콘을 클릭합니다 <img src="assets/more-icon-for-approvals-area.png"> 현재 승인 단계에 대한 정보를 봅니다.</p> <p>승인에 대한 자세한 내용은 <a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">승인 프로세스 개요</a>.</p> </td> 
+   <td> <p>승인자 중 한 명인 경우 다음 아이콘을 사용하여 문제에 대한 승인을 관리합니다.</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL Approve]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL 거부]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL 회수]</p> <p>승인자가 아닌 경우 [!UICONTROL More] 아이콘 <img src="assets/more-icon-for-approvals-area.png">을(를) 클릭하여 현재 승인 단계에 대한 정보를 봅니다.</p> <p>승인에 대한 자세한 내용은 <a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">승인 프로세스 개요</a>를 참조하세요.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -254,11 +254,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Portfolio 이름이 있는 이동 경로</td> 
-   <td> <p>[!UICONTROL 프로그램]의 헤더에서 [!UICONTROL Portfolio]에 액세스할 수 있습니다. 상위 이름을 클릭하면 해당 상위 개체가 열립니다.</p> <p>자세한 내용은 <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">탐색 표시 개요</a>.</p> </td> 
+   <td> <p>[!UICONTROL 프로그램]의 헤더에서 [!UICONTROL Portfolio]에 액세스할 수 있습니다. 상위 이름을 클릭하면 해당 상위 개체가 열립니다.</p> <p>자세한 내용은 <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">탐색 표시 개요</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 아이콘 </td> 
-   <td> <p>주황색 [!UICONTROL Program] 아이콘 <img src="assets/nwe-programs-icon.png"> 프로그램 이름 왼쪽에 를 표시합니다.</p> </td> 
+   <td> <p>주황색 [!UICONTROL Program] 아이콘 <img src="assets/nwe-programs-icon.png">이(가) 프로그램 이름 왼쪽에 표시됩니다.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">프로그램 이름</td> 
@@ -313,7 +313,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">개체 아이콘 </td> 
-   <td> <p>파란색 [!UICONTROL Portfolio] 아이콘 <img src="assets/nwe-portfolios-icon.png">포트폴리오 이름의 왼쪽에 표시됩니다.</p> </td> 
+   <td> <p>포트폴리오 이름의 왼쪽에 파란색 [!UICONTROL Portfolio] 아이콘 <img src="assets/nwe-portfolios-icon.png">이(가) 표시됩니다.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">포트폴리오 이름</td> 
@@ -376,7 +376,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">개체 아이콘 </td> 
-   <td> <p>녹색 [!UICONTROL Template] 아이콘 <img src="assets/nwe-templates-icon.png">템플릿 이름의 왼쪽에 를 표시합니다.</p> </td> 
+   <td> <p>템플릿 이름 왼쪽에 녹색 [!UICONTROL Template] 아이콘 <img src="assets/nwe-templates-icon.png">이(가) 표시됩니다.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">템플릿 이름</td> 
@@ -423,11 +423,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">상위 오브젝트에 대한 탐색 표시</td> 
-   <td> <p>템플릿 작업의 상위 개체가 이동 경로에 표시됩니다. 상위 개체의 이름을 클릭하면 해당 상위 개체가 열립니다.</p> <p>자세한 내용은 <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">탐색 표시 개요</a>.</p> </td> 
+   <td> <p>템플릿 작업의 상위 개체가 이동 경로에 표시됩니다. 상위 개체의 이름을 클릭하면 해당 상위 개체가 열립니다.</p> <p>자세한 내용은 <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">탐색 표시 개요</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 아이콘 </td> 
-   <td> <p>녹색 [!UICONTROL Task] 아이콘 <img src="assets/nwe-tasks-icon.png">템플릿 작업 이름의 왼쪽에 표시됩니다.</p> </td> 
+   <td> <p>템플릿 작업 이름 왼쪽에 녹색 [!UICONTROL 작업] 아이콘 <img src="assets/nwe-tasks-icon.png">이(가) 표시됩니다.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">템플릿 작업 이름</td> 
@@ -470,11 +470,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">상위 오브젝트에 대한 탐색 표시</td> 
-   <td> <p>청구 기록의 상위 개체가 이동 경로에 표시됩니다. 상위 개체의 이름을 클릭하면 해당 상위 개체가 열립니다.</p> <p>자세한 내용은 <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">탐색 표시 개요</a>.</p> </td> 
+   <td> <p>청구 기록의 상위 개체가 이동 경로에 표시됩니다. 상위 개체의 이름을 클릭하면 해당 상위 개체가 열립니다.</p> <p>자세한 내용은 <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">탐색 표시 개요</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 아이콘 </td> 
-   <td> <p>파란색 [!UICONTROL Billing Record] 아이콘 <img src="assets/nwe-billing-record-icon-57x55.png" style="width: 57;height: 55;"> 청구 기록 이름 왼쪽에 를 표시합니다.</p> </td> 
+   <td> <p>청구 기록 이름 왼쪽에 파란색 [!UICONTROL 청구 기록] 아이콘 <img src="assets/nwe-billing-record-icon-57x55.png" style="width: 57;height: 55;">이(가) 표시됩니다.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">청구 기록 이름</td> 
@@ -486,7 +486,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">청구 기록의 작업 영역</td> 
-   <td> <p>청구 기록 이름 옆에 있는 [!UICONTROL More] 메뉴 <img src="assets/more-menu.png"> 다음 옵션을 선택할 수 있는 가 표시됩니다.</p> 
+   <td> <p>청구 기록 이름 옆에 다음 옵션을 선택할 수 있는 [!UICONTROL 기타] 메뉴 <img src="assets/more-menu.png">이(가) 표시됩니다.</p> 
     <ul> 
      <li> <p>[!UICONTROL 편집]</p> </li> 
      <li> <p> </p> </li> 
@@ -577,7 +577,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">개체 아이콘 </td> 
-   <td> <p>자주색 [!UICONTROL Team] 아이콘 <img src="assets/nwe-teams-icon.png"> 팀 이름 왼쪽에 을 표시합니다.</p> </td> 
+   <td> <p>팀 이름의 왼쪽에 자주색 [!UICONTROL Team] 아이콘 <img src="assets/nwe-teams-icon.png">이(가) 표시됩니다.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">팀 이름</td> 
@@ -620,7 +620,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">개체 아이콘 </td> 
-   <td> <p>주황색 [!UICONTROL Iteration] 아이콘 <img src="assets/nwe-iteration-icon-58x58.png" style="width: 58;height: 58;"> 이터레이션 이름의 왼쪽에 표시됩니다.</p> </td> 
+   <td> <p>주황색 [!UICONTROL Iteration] 아이콘 <img src="assets/nwe-iteration-icon-58x58.png" style="width: 58;height: 58;">이(가) 반복 이름의 왼쪽에 표시됩니다.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">반복 이름</td> 
@@ -667,7 +667,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">개체 아이콘 </td> 
-   <td> <p>주황색 [!UICONTROL Group] 아이콘 <img src="assets/nwe-group-icon.png"> 그룹 이름 왼쪽에 을 표시합니다.</p> </td> 
+   <td> <p>주황색 [!UICONTROL Group] 아이콘 <img src="assets/nwe-group-icon.png">이(가) 그룹 이름 왼쪽에 표시됩니다.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">그룹 이름</td> 
@@ -679,7 +679,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">그룹의 [!UICONTROL actions] 영역</td> 
-   <td> <p>그룹 이름 옆에 있는 [!UICONTROL More] 메뉴 <img src="assets/more-menu.png"> 다음 옵션을 선택할 수 있는 가 표시됩니다.</p> 
+   <td> <p>그룹 이름 옆에 다음 옵션을 선택할 수 있는 [!UICONTROL 추가 정보] 메뉴 <img src="assets/more-menu.png">이(가) 표시됩니다.</p> 
     <ul> 
      <li> <p>[!UICONTROL 편집]</p> </li> 
      <li> <p>[!UICONTROL Copy]</p> </li> 
@@ -692,7 +692,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 라이선스 사용 중] </td> 
-   <td> <p>[!UICONTROL Licenses in use] 상자는 그룹 및 해당 하위 그룹에 있는 [!UICONTROL Plan] 및 [!UICONTROL Work] 라이선스 사용자 수를 표시합니다. 숫자를 클릭하면 5개의 모든 라이선스 유형에 대한 이 정보를 볼 수 있습니다.</p> <p>자세한 내용은 <a href="../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md" class="MCXref xref">새 그룹의 할당된 라이선스 수와 사용된 라이선스 수 보기 [!DNL Adobe Workfront] 경험</a>.</p> </td> 
+   <td> <p>[!UICONTROL Licenses in use] 상자는 그룹 및 해당 하위 그룹에 있는 [!UICONTROL Plan] 및 [!UICONTROL Work] 라이선스 사용자 수를 표시합니다. 숫자를 클릭하면 5개의 모든 라이선스 유형에 대한 이 정보를 볼 수 있습니다.</p> <p>자세한 내용은 <a href="../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md" class="MCXref xref">새 [!DNL Adobe Workfront] 경험에서 그룹에 할당되어 사용되는 라이선스 수를 확인</a>하세요.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 그룹 관리자]</td> 
@@ -719,11 +719,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">상위 개체가 있는 탐색 표시</td> 
-   <td> <p>문서의 상위 객체가 이동 경로에 표시됩니다. 상위 개체의 이름을 클릭하면 해당 상위 개체가 열립니다.</p> <p>자세한 내용은 <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">탐색 표시 개요</a>.</p> </td> 
+   <td> <p>문서의 상위 객체가 이동 경로에 표시됩니다. 상위 개체의 이름을 클릭하면 해당 상위 개체가 열립니다.</p> <p>자세한 내용은 <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">탐색 표시 개요</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 아이콘 </td> 
-   <td> <p>파란색 [!UICONTROL Document] 아이콘 <img src="assets/nwe-documents-icon-53x50.png" style="width: 53;height: 50;"> 는 문서 이름의 왼쪽에 표시됩니다.</p> </td> 
+   <td> <p>문서 이름 왼쪽에 파란색 [!UICONTROL Document] 아이콘 <img src="assets/nwe-documents-icon-53x50.png" style="width: 53;height: 50;">이(가) 표시됩니다.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">문서 이름</td> 
@@ -739,7 +739,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">승인 [!UICONTROL 결정] 영역</td> 
-   <td> [!UICONTROL Decisions] 영역은 문서 헤더의 오른쪽 위 모서리에 표시됩니다. 이 영역은 승인 단계와 승인자 또는 검토자 여부에 따라 다릅니다. <ul><li> <p>승인자인 경우 다음 아이콘을 사용하여 문서에 대한 승인을 관리할 수 있습니다.</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL Approve]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL 회수]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL 거부]</p> <p>승인 결정에 대한 자세한 내용은 <a href="../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">작업 승인</a>.</li><li><p>검토자인 경우 내 검토 완료 버튼을 클릭하여 문서를 검토했음을 나타낼 수 있습니다.</p><p>문서 검토에 대한 자세한 내용은 <a href="../../review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md" class="MCXref xref">문서 검토</a>.</p></li><li>그렇지 않은 경우 이 영역에는 문서에 대한 현재 검토 및 승인 상태가 표시됩니다.</li><ul></p> </td> 
+   <td> [!UICONTROL Decisions] 영역은 문서 헤더의 오른쪽 위 모서리에 표시됩니다. 이 영역은 승인 단계와 승인자 또는 검토자 여부에 따라 다릅니다. <ul><li> <p>승인자인 경우 다음 아이콘을 사용하여 문서에 대한 승인을 관리할 수 있습니다.</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL Approve]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL 회수]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL 거부]</p> <p>승인 결정에 대한 자세한 내용은 <a href="../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">작업 승인</a>을 참조하세요.</li><li><p>검토자인 경우 내 검토 완료 버튼을 클릭하여 문서를 검토했음을 나타낼 수 있습니다.</p><p>문서 검토에 대한 자세한 내용은 <a href="../../review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md" class="MCXref xref">문서 검토</a>를 참조하십시오.</p></li><li>그렇지 않은 경우 이 영역에는 문서에 대한 현재 검토 및 승인 상태가 표시됩니다.</li><ul></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -762,7 +762,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">개체 아이콘 </td> 
-   <td> <p>파란색 [!UICONTROL Company] 아이콘 <img src="assets/nwe-company-icon.png"> 회사 이름의 왼쪽에 를 표시합니다.</p> </td> 
+   <td> <p>회사 이름 왼쪽에 파란색 [!UICONTROL Company] 아이콘 <img src="assets/nwe-company-icon.png">이(가) 표시됩니다.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">회사 이름</td> 
@@ -774,7 +774,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">회사의 작업 영역</td> 
-   <td> <p>회사 이름 옆에 있는 [!UICONTROL More] 메뉴 <img src="assets/more-menu.png"> 다음 옵션을 선택할 수 있는 가 표시됩니다.</p> 
+   <td> <p>회사 이름 옆에 다음 옵션을 선택할 수 있는 [!UICONTROL 기타] 메뉴 <img src="assets/more-menu.png">이(가) 표시됩니다.</p> 
     <ul> 
      <li> <p>[!UICONTROL 편집]</p> </li> 
      <li> <p>[!UICONTROL Delete Company]</p> </li> 
@@ -787,7 +787,7 @@ ht-degree: 0%
 
 ![](assets/nwe-plan-header-350x34.png)
 
-플랜은 다음과 같은 항목의 대상입니다. [!DNL Workfront Scenario Planner]. 에 대한 자세한 내용은 [!DNL Scenario Planner], 참조 [다음 [!DNL Scenario Planner] 개요](../../scenario-planner/scenario-planner-overview.md).
+플랜은 [!DNL Workfront Scenario Planner]의 개체입니다. [!DNL Scenario Planner]에 대한 자세한 내용은 [개요 [!DNL Scenario Planner] 개요](../../scenario-planner/scenario-planner-overview.md)를 참조하세요.
 
 계획 헤더에는 다음 정보가 표시됩니다.
 
@@ -807,7 +807,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">개체 아이콘 </td> 
-   <td> <p>파란색 [!UICONTROL Plan] 아이콘 <img src="assets/nwe-plan-icon-65x62.png" style="width: 65;height: 62;">계획 이름의 왼쪽에 를 표시합니다.</p> </td> 
+   <td> <p>계획 이름 왼쪽에 파란색 [!UICONTROL 계획] 아이콘 <img src="assets/nwe-plan-icon-65x62.png" style="width: 65;height: 62;">이(가) 표시됩니다.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">플랜 이름</td> 
@@ -825,7 +825,7 @@ ht-degree: 0%
    <td role="rowheader">추가 플랜 작업</td> 
    <td> <p>계획 이름 및 조치 영역 아래에서 다음 조치를 완료할 수 있습니다.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL 충돌 표시]</strong>: 이 토글을 클릭하면 이니셔티브의 충돌이 표시되거나 숨겨집니다.</p> </li> 
+     <li> <p><strong>[!UICONTROL 충돌 표시]</strong>: 이 토글을 클릭하면 이니셔티브의 충돌을 표시하거나 숨깁니다.</p> </li> 
      <li> <p><strong>[!UICONTROL 시나리오 비교]</strong>: 이 링크를 클릭하면 사용자가 만든 시나리오의 병렬 비교가 표시됩니다.</p> </li> 
      <li> <p><strong>[!UICONTROL 시나리오 선택]</strong>: 이 드롭다운 메뉴에서 시나리오를 복사하거나 선택하여 다른 시나리오를 볼 수 있습니다.</p> </li> 
     </ul> </td> 
@@ -847,8 +847,8 @@ ht-degree: 0%
    <td>계획을 보거나 관리할 수 있는 액세스 권한이 있는 사용자는 헤더의 오른쪽 상단에 표시됩니다. 프로필 사진 위로 마우스를 가져가면 이름이 표시됩니다.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Go to Publish]</td> 
-   <td>[!UICONTROL 게시로 이동]을 클릭하면 보고 있는 시나리오에서 이니셔티브에 연결된 프로젝트를 만들거나 업데이트할 수 있습니다.</td> 
+   <td role="rowheader">[!UICONTROL Publish으로 이동]</td> 
+   <td>[!UICONTROL Publish으로 이동]을 클릭하면 보고 있는 시나리오에서 이니셔티브에 연결된 프로젝트를 만들거나 업데이트할 수 있습니다.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -858,7 +858,7 @@ ht-degree: 0%
 
 ![](assets/goal-header.png)
 
-회사에서 Workfront 목표에 액세스할 때 전략적 목표를 생성할 수 있습니다. 에 대한 자세한 내용 [!DNL Workfront Goals], 참조 [시작 [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
+회사에서 Workfront 목표에 액세스할 때 전략적 목표를 생성할 수 있습니다. [!DNL Workfront Goals]에 대한 자세한 내용은 [시작하기 [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md)를 참조하십시오.
 
 목표 헤더에는 다음 정보가 표시됩니다.
 
@@ -874,7 +874,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">개체 아이콘 </td> 
-   <td> <p>자주색 [!UICONTROL Goal] 아이콘 <img src="assets/goal-icon.png" > 은 목표 이름의 왼쪽에 표시됩니다.</p> </td> 
+   <td> <p>자주색 [!UICONTROL Goal] 아이콘 <img src="assets/goal-icon.png" >이(가) 목표 이름 왼쪽에 표시됩니다.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">목표 이름</td> 
@@ -914,7 +914,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 상태]</td> 
-   <td>목표가 활성 상태인지, 새 상태인지, 아니면 닫혀 있는지 여부를 나타냅니다. 목표 상태를 수동으로 업데이트할 수 없습니다. 자세한 내용은 <a href="../../workfront-goals/goal-management/goal-status-overview.md" class="MCXref xref">의 목표 상태 개요 [!DNL Adobe Workfront Goals]</a></td> 
+   <td>목표가 활성 상태인지, 새 상태인지, 아니면 닫혀 있는지 여부를 나타냅니다. 목표 상태를 수동으로 업데이트할 수 없습니다. 자세한 내용은 [!DNL Adobe Workfront Goals]</a>의 <a href="../../workfront-goals/goal-management/goal-status-overview.md" class="MCXref xref">목표 상태 개요를 참조하십시오.</td> 
   </tr> 
  </tbody> 
 </table>

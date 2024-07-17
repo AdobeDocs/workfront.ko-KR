@@ -37,7 +37,7 @@ Experience Manager Assets Essentials의 콘텐츠와 작업 연결&#x200B;:
    </td>
   </tr>
   <tr>
-   <td><strong>Adobe Workfront 라이센스*</strong>
+   <td><strong>Adobe Workfront 라이선스*</strong>
    </td>
    <td>플랜
    </td>
@@ -57,7 +57,7 @@ Experience Manager Assets Essentials의 콘텐츠와 작업 연결&#x200B;:
   <tr>
    <td><strong>액세스 수준 구성</strong>
    </td>
-   <td>Workfront 관리자여야 합니다. Workfront 관리자에 대한 자세한 내용은 <strong>사용자에게 전체 관리 액세스 권한 부여</strong>.
+   <td>Workfront 관리자여야 합니다. Workfront 관리자에 대한 자세한 내용은 <strong>사용자에게 전체 관리 액세스 권한 부여</strong>를 참조하십시오.
    </td>
   </tr>
 </table>
@@ -68,9 +68,9 @@ Experience Manager Assets Essentials의 콘텐츠와 작업 연결&#x200B;:
 
 ## 통합 설정
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘을 클릭한 다음 Adobe Workfront 오른쪽 위 모서리에 있는 **설정**.
-1. 선택  **문서** ![문서 아이콘](assets/document-icon.png) 왼쪽 패널에서 을 선택합니다. **Experience Manager 통합**.
-1. 선택 **Experience Manager 통합 추가**.
+1. Adobe Workfront의 오른쪽 상단에 있는 **기본 메뉴** 아이콘을 클릭한 다음 **설정**&#x200B;을 클릭합니다.
+1. 왼쪽 패널에서 **문서** ![문서 아이콘](assets/document-icon.png)을 선택한 다음 **Experience Manager 통합**&#x200B;을 선택합니다.
+1. **Experience Manager 통합 추가**&#x200B;를 선택합니다.
 1. 다음을 지정합니다.
 
    <table>
@@ -96,7 +96,7 @@ Experience Manager Assets Essentials의 콘텐츠와 작업 연결&#x200B;:
    </tr>
    </table>
 
-1. 클릭 **저장** 또는 로 이동합니다. [메타데이터 설정(선택 사항)](#set-up-metadata-optional) 이 문서의 섹션.
+1. **저장**&#x200B;을 클릭하거나 이 문서의 [메타데이터 설정(선택 사항)](#set-up-metadata-optional) 섹션으로 이동하십시오.
 
 
 ## 메타데이터 설정(선택 사항)
@@ -108,8 +108,8 @@ Workfront 개체 데이터를 Experience Manager Assets의 에셋 미디어 필�
 
 시작하기 전에 다음을 수행해야 합니다
 
-* 에 설명된 대로 Experience Manager Assets Essentials에서 메타데이터 스키마 구성 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
-* (선택 사항) Workfront에서 사용자 정의 양식 필드를 구성합니다. Workfront에는 사용할 수 있는 많은 내장 사용자 정의 필드가 있습니다. 하지만 자신만의 사용자 지정 필드를 만들 수도 있습니다. 자세한 내용은 [사용자 정의 양식 만들기 또는 편집](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+* [Experience Manager Assets과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en)에 설명된 대로 Adobe Workfront Essentials에서 메타데이터 스키마를 구성합니다.
+* (선택 사항) Workfront에서 사용자 정의 양식 필드를 구성합니다. Workfront에는 사용할 수 있는 많은 내장 사용자 정의 필드가 있습니다. 하지만 자신만의 사용자 지정 필드를 만들 수도 있습니다. 자세한 내용은 [사용자 정의 양식 만들기 또는 편집](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)을 참조하세요.
 
 ## 지원되는 Workfront 및 Experience Manager Assets 필드
 
@@ -117,9 +117,9 @@ Workfront 개체 데이터를 Experience Manager Assets의 에셋 미디어 필�
 
 Workfront 지원 필드를 Experience Manager Assets Essentials의 키워드에 매핑할 수 있습니다.
 
-필드를 키워드에 연결하려면 다음을 선택합니다. `xcm:keywords` 메타데이터 매핑 영역의 Experience Manager Assets 필드 드롭다운.
+필드를 키워드에 연결하려면 메타데이터 매핑 영역의 Experience Manager Assets 필드 드롭다운에서 `xcm:keywords`을(를) 선택합니다.
 
-여러 한 줄 텍스트 필드를 키워드에 매핑하려면 메타데이터 매핑의 Workfront 쪽에 쉼표로 구분된 키워드 값 목록을 입력하고 `xcm:keywords` Experience Manager Assets 쪽입니다. 각 필드 값은 별도의 키워드에 매핑됩니다. 계산된 필드를 사용하여 여러 Workfront 필드를 쉼표로 구분된 단일 텍스트 필드로 결합할 수 있습니다.
+여러 한 줄 텍스트 필드를 키워드에 매핑하려면 메타데이터 매핑의 Workfront 쪽에 쉼표로 구분된 키워드 값 목록을 입력하고 Experience Manager Assets 쪽에 `xcm:keywords`을(를) 입력하십시오. 각 필드 값은 별도의 키워드에 매핑됩니다. 계산된 필드를 사용하여 여러 Workfront 필드를 쉼표로 구분된 단일 텍스트 필드로 결합할 수 있습니다.
 
 <!--
 Look for essentials article
@@ -133,16 +133,16 @@ For more information on keywords in Experience Manager Assets, including how to 
 
 메타데이터는 에셋이 Workfront에서 처음으로 전달될 때 매핑됩니다. 기본 제공 필드 또는 사용자 지정 필드가 있는 문서는 에셋을 Experience Manager Assets Essentials로 처음 전송할 때 지정된 필드에 자동으로 매핑됩니다.
 
-1. 다음에서 **Workfront 필드** 열에서 기본 제공 또는 사용자 지정 Workfront 필드를 선택합니다.
+1. **Workfront 필드** 열에서 기본 제공 또는 사용자 지정 Workfront 필드를 선택합니다.
    >[!NOTE]
    >
    >단일 Workfront 필드를 여러 Experience Manager Assets 필드에 매핑할 수 있습니다. 여러 Workfront 필드를 단일 Experience Manager Assets 필드에 매핑할 수 없습니다.
-1. 다음에서 **Experience Manager** 필드에서 Experience Manager Assets 필드를 선택합니다.
+1. **Experience Manager** 필드에서 Experience Manager Assets 필드를 선택합니다.
 
-   Workfront 필드를 Experience Manager Assets 태그에 매핑하려면 `xcm:keywords`.
+   Workfront 필드를 Experience Manager Assets 태그에 매핑하려면 `xcm:keywords`을(를) 선택합니다.
 1. 필요에 따라 1단계와 2단계를 반복합니다.
-   ![메타데이터 활성화](assets/metadata-assets-essentials.png)
-1. 클릭 **저장** 또는 로 이동합니다. [연결된 폴더 설정(선택 사항)](#set-up-linked-folders-optional) 이 문서의 섹션.
+   ![메타데이터 사용](assets/metadata-assets-essentials.png)
+1. **저장**&#x200B;을 클릭하거나 이 문서의 [연결된 폴더 설정(선택 사항)](#set-up-linked-folders-optional) 섹션으로 이동하십시오.
 
 
 ## 연결된 폴더 설정(선택 사항)

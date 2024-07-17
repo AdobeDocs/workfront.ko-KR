@@ -21,9 +21,9 @@ ht-degree: 0%
 
 이 페이지에서는 2021년 1월 11일이 있는 주에 Adobe Workfront Fusion에서 향상된 모든 기능에 대해 설명합니다.
 
-최근 변경 사항의 목록은 다음을 참조하십시오. [Adobe Workfront Fusion 릴리스 활동](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+최근 모든 변경 사항의 목록은 [Adobe Workfront Fusion 릴리스 활동](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)을 참조하십시오.
 
-Workfront Fusion의 최근 버그 수정 목록은 다음을 참조하십시오. [Workfront 유지 보수 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) Workfront Fusion Maintenance Update로 레이블이 지정된 업데이트를 찾아 확인합니다.
+Workfront Fusion의 최근 버그 수정 목록을 보려면 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 페이지를 참조하고 Workfront Fusion 유지 관리 업데이트 레이블이 지정된 업데이트를 확인하십시오.
 
 ## 이제 커넥터 및 모듈 확장 사용 가능
 
@@ -36,7 +36,7 @@ Workfront Fusion의 최근 버그 수정 목록은 다음을 참조하십시오.
 * 컬렉션에서 에셋 목록 검색
 * 사용자 지정 API 호출을 수행합니다.
 
-자세한 내용은 [모듈 확장](../../../workfront-fusion/apps-and-their-modules/widen-modules.md).
+자세한 내용은 [모듈 확장](../../../workfront-fusion/apps-and-their-modules/widen-modules.md)을 참조하세요.
 
 ## 이제 Datadog 커넥터 및 모듈을 사용할 수 있습니다
 
@@ -44,10 +44,10 @@ Workfront Fusion의 최근 버그 수정 목록은 다음을 참조하십시오.
 
 Datadog 모듈을 사용하여 다음과 같은 작업을 수행할 수 있습니다.
 
-* 시계열 점수 게시
+* Post timeseries 포인트
 * 사용자 지정 API 호출 수행
 
-Datadog 모듈에 대한 자세한 내용은 [Datadog 모듈](../../../workfront-fusion/apps-and-their-modules/datadog-modules.md).
+Datadog 모듈에 대한 자세한 내용은 [Datadog 모듈](../../../workfront-fusion/apps-and-their-modules/datadog-modules.md)을 참조하십시오.
 
 ## 이제 Cvent 커넥터 및 모듈을 사용할 수 있습니다
 
@@ -62,7 +62,7 @@ Cvent 모듈을 사용하여 다음과 같은 작업을 수행할 수 있습니�
 * 연락처 업데이트 또는 삭제
 * 사용자 지정 API 호출 만들기
 
-사용 가능한 Cvent 모듈에 대한 내용은 [이벤트 모듈](../../../workfront-fusion/apps-and-their-modules/cvent-modules.md).
+사용 가능한 Cvent 모듈에 대한 자세한 내용은 [Cvent 모듈](../../../workfront-fusion/apps-and-their-modules/cvent-modules.md)을 참조하십시오.
 
 ## 이제 Microsoft Dynamics 365 커넥터 및 모듈을 사용할 수 있습니다
 
@@ -72,7 +72,7 @@ Cvent 모듈을 사용하여 다음과 같은 작업을 수행할 수 있습니�
 * Microsoft Dynamics 365 레코드 만들기, 읽기, 업데이트 또는 삭제
 * 사용자 지정 API 호출 수행
 
-사용 가능한 Microsoft Dynamics 365 모듈에 대한 자세한 내용은 [Microsoft Dynamics 365 모듈](../../../workfront-fusion/apps-and-their-modules/microsoft-dynamics-365-modules.md).
+사용 가능한 Microsoft Dynamics 365 모듈에 대한 자세한 내용은 [Microsoft Dynamics 365 모듈](../../../workfront-fusion/apps-and-their-modules/microsoft-dynamics-365-modules.md)을 참조하십시오.
 
 ## 이제 DocuSign 커넥터 및 모듈을 사용할 수 있습니다
 
@@ -86,7 +86,7 @@ Cvent 모듈을 사용하여 다음과 같은 작업을 수행할 수 있습니�
 * 파일을 봉투에 업로드
 * 사용자 지정 API 호출 수행
 
-자세한 내용은 [DocuSign 모듈](../../../workfront-fusion/apps-and-their-modules/docusign-modules.md).
+자세한 내용은 [DocuSign 모듈](../../../workfront-fusion/apps-and-their-modules/docusign-modules.md)을 참조하세요.
 
 ## 시나리오 실행 내역 검색
 
@@ -94,7 +94,7 @@ Cvent 모듈을 사용하여 다음과 같은 작업을 수행할 수 있습니�
 
 이전에는 각 실행을 개별적으로 보는 데 필요한 특정 실행 정보를 찾았습니다.
 
-자세한 내용은 [Adobe Workfront Fusion에서 시나리오의 실행 내역 보기](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
+자세한 내용은 [Adobe Workfront Fusion에서 시나리오 실행 내역 보기](../../../workfront-fusion/scenarios/view-scenario-execution-history.md)를 참조하십시오.
 
 ## Fusion 2.0 데이터 저장소 업데이트
 
@@ -104,13 +104,13 @@ Cvent 모듈을 사용하여 다음과 같은 작업을 수행할 수 있습니�
 * 단일 셀 편집
 * 여러 행 추가
 
-데이터 저장소에 대한 자세한 내용은 [데이터 저장소 모듈](../../../workfront-fusion/apps-and-their-modules/data-store-modules.md).
+데이터 저장소에 대한 자세한 내용은 [데이터 저장소 모듈](../../../workfront-fusion/apps-and-their-modules/data-store-modules.md)을 참조하세요.
 
 ## HTTP 커넥터를 통해 API 키 인증 요청 만들기
 
 API에 액세스할 수 있는 방법의 유연성을 높이기 위해 HTTP 커넥터에 새 모듈을 추가했습니다. 이제 액세스 중인 웹 서비스에 API 키 사용이 필요한 경우 HTTP 커넥터를 사용하여 요청을 수행할 수 있습니다.
 
-자세한 내용은 [HTTP 모듈](../../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md).
+자세한 내용은 [HTTP 모듈](../../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md)을 참조하세요.
 
 ## 매핑 패널에서 사용할 수 있는 새로운 기능
 
@@ -138,6 +138,6 @@ API에 액세스할 수 있는 방법의 유연성을 높이기 위해 HTTP 커�
 
   function은 텍스트에 있는 모든 Markdown 태그를 이스케이프하는 문자열 함수입니다.
 
-생략 및 선택 함수에 대한 자세한 내용은 [Adobe Workfront Fusion의 일반 함수](../../../workfront-fusion/functions/general-functions.md).
+생략 및 선택 함수에 대한 자세한 내용은 [Adobe Workfront Fusion의 일반 함수](../../../workfront-fusion/functions/general-functions.md)를 참조하십시오.
 
-escapeMarkdown 함수에 대한 자세한 내용은 [Adobe Workfront Fusion의 문자열 함수](../../../workfront-fusion/functions/string-functions.md).
+escapeMarkdown 함수에 대한 자세한 내용은 [Adobe Workfront Fusion의 문자열 함수](../../../workfront-fusion/functions/string-functions.md)를 참조하십시오.

@@ -17,7 +17,7 @@ ht-degree: 2%
 
 # 애자일
 
-[!DNL Adobe Workfront] 는 애자일 워크플로우를 정의하는 데 도움이 되는 몇 가지 도구를 제공합니다. 보드는 팀 공동 작업을 위한 간단하면서도 유연한 도구입니다. 레거시 애자일 계획 도구에는 Kanban 또는 Scrum 팀을 위한 백로그와 스토리 보드가 포함되어 있습니다.
+[!DNL Adobe Workfront]은(는) 애자일 워크플로우를 정의하는 데 도움이 되는 몇 가지 도구를 제공합니다. 보드는 팀 공동 작업을 위한 간단하면서도 유연한 도구입니다. 레거시 애자일 계획 도구에는 Kanban 또는 Scrum 팀을 위한 백로그와 스토리 보드가 포함되어 있습니다.
 
 이 섹션에는 다음 하위 섹션이 포함됩니다.
 
@@ -25,7 +25,7 @@ ht-degree: 2%
 * [보드 시작: 문서 색인](../agile/get-started-with-boards/get-started-with-boards.md)
 * [보드에서 애자일 계획 도구 사용](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
 * [애자일 개요](../agile/agile-overview.md)
-* [에서 애자일 시작 [!DNL Adobe Workfront]](../agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
+* [ [!DNL Adobe Workfront]에서 애자일 시작](../agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
 * [애자일 팀의 칸반](../agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
 * [애자일 팀의 스크럼](../agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md)
 * [애자일 환경에서 작업](../agile/work-in-an-agile-environment/work-in-an-agile-environment.md)

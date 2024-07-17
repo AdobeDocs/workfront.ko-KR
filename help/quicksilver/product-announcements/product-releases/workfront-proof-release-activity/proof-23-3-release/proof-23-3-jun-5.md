@@ -25,10 +25,12 @@ ht-degree: 0%
 
 강력하고 확장 가능한 증명 처리 솔루션을 유지하기 위해 지원되는 Microsoft Office 파일 형식 및 파일 크기 제한을 변경하고 있습니다.
 
-XLT, XLTX, DOT, DOTX, POT, POTX, PPS, PPSX 등의 Office 파일 형식은 더 이상 증명으로 지원되지 않습니다.
+다음 Office 파일 형식은 더 이상 증명으로 지원되지 않습니다.
+XLT, XLTX, DOT, DOTX, POT, POTX, PPS, PPSX
 
-사용자는 DOC, DOCX, PPT, PPTX, XLS, XLSX 등의 Office 파일 유형에 대한 증명을 계속 만들 수 있습니다.
+사용자는 다음 Office 파일 형식에 대한 증명을 계속 만들 수 있습니다.
+DOC, DOCX, PPT, PPTX, XLS, XLSX
 
 PowerPoint 및 Word 파일 크기 제한은 이제 512MB입니다.
 
-자세한 내용은 [지원되는 증명 파일 유형 및 크기 제한 개요](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md).
+자세한 내용은 [지원되는 증명 파일 형식 및 크기 제한 개요](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md)를 참조하십시오.

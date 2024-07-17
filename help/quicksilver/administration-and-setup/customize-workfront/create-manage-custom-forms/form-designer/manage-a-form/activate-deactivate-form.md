@@ -49,7 +49,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## 사용자 정의 양식 비활성화
 
@@ -61,9 +61,9 @@ ht-degree: 0%
 
 {{step-1-to-setup}}
 
-1. 왼쪽 패널에서 을 선택합니다 **사용자 지정 Forms**.
-1. 다음에서 **Forms** 영역에서 비활성화할 사용자 정의 양식을 선택합니다.
-1. 활성 열에서 **False** 을 클릭하고 열에서 를 클릭합니다. 양식이 더 이상 활성화되지 않습니다.
+1. 왼쪽 패널에서 **사용자 지정 Forms**&#x200B;을(를) 선택합니다.
+1. **Forms** 영역에서 비활성화할 사용자 정의 양식을 선택합니다.
+1. 활성 열에서 **False**&#x200B;를 선택하고 열을 클릭합니다. 양식이 더 이상 활성화되지 않습니다.
 
 ## 사용자 정의 양식 다시 활성화
 
@@ -71,6 +71,6 @@ ht-degree: 0%
 
 {{step-1-to-setup}}
 
-1. 왼쪽 패널에서 을 선택합니다 **사용자 지정 Forms**.
-1. 다음에서 **Forms** 영역에서 다시 활성화할 사용자 정의 양식을 선택합니다.
-1. 활성 열에서 **True** 을 클릭하고 열에서 를 클릭합니다. 이제 양식이 활성화됩니다.
+1. 왼쪽 패널에서 **사용자 지정 Forms**&#x200B;을(를) 선택합니다.
+1. **Forms** 영역에서 다시 활성화할 사용자 정의 양식을 선택합니다.
+1. 활성 열에서 **True**&#x200B;를 선택하고 열을 클릭합니다. 이제 양식이 활성화됩니다.

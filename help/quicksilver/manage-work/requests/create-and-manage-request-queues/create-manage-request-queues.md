@@ -21,7 +21,7 @@ ht-degree: 0%
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [요청 대기열 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
+* [요청 큐 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
 * [프로젝트에 대한 요청 유형 정의](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md)
 * [요청 대기열에 대한 액세스 권한 제공](../../../manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md)
 * [주제 그룹 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)

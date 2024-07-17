@@ -18,13 +18,13 @@ ht-degree: 6%
 
 # 기본 Adobe Workfront 레이아웃 정보
 
-기본 레이아웃은 기본 메뉴의 배열입니다 ![](assets/main-menu-icon.png), 왼쪽 패널, Adobe Workfront 관리자가 레이아웃 템플릿을 사용하여 변경하기 전의 보기, 그룹화 및 필터 등이 포함됩니다.
+기본 레이아웃은 Adobe Workfront 관리자가 레이아웃 템플릿을 사용하여 변경하기 전에 기본 메뉴 ![](assets/main-menu-icon.png), 왼쪽 패널, 보기, 그룹화 및 필터의 배열입니다.
 
-Workfront 관리자가 사용자에게 레이아웃 템플릿을 할당하여 사용자의 기본 레이아웃을 수정하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [레이아웃 템플릿에 사용자 할당](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
+Workfront 관리자가 사용자에게 레이아웃 템플릿을 할당하여 사용자의 기본 레이아웃을 수정하는 방법에 대한 자세한 내용은 [사용자를 레이아웃 템플릿에 할당](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)을 참조하십시오.
 
 >[!NOTE]
 >
->사용자는 사용자 프로필 환경 설정을 편집하여 자신의 레이아웃을 변경할 수 있습니다. 자세한 내용은 [환경 설정](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md#preferences) 의 섹션 [내 설정 구성](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+>사용자는 사용자 프로필 환경 설정을 편집하여 자신의 레이아웃을 변경할 수 있습니다. 자세한 내용은 [내 설정 구성](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)의 [환경 설정](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md#preferences) 섹션을 참조하십시오.
 
 ## 각 액세스 수준에 대한 기본 레이아웃
 
@@ -102,7 +102,7 @@ Workfront 관리자가 사용자에게 레이아웃 템플릿을 할당하여 �
    <td> </td> 
   </tr> 
   <tr> 
-   <td rowspan="5"><strong>사람</strong> (이름이 변경됨) <strong>팀</strong> 작업 라이선스가 있는 사용자의 경우)</td> 
+   <td rowspan="5"><strong>사람</strong>(작업 라이선스가 있는 사용자의 경우 <strong>팀</strong>(으)로 이름이 변경됨)</td> 
    <td><strong>팀</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
@@ -131,7 +131,7 @@ Workfront 관리자가 사용자에게 레이아웃 템플릿을 할당하여 �
    </tr>
   --> 
   <tr> 
-   <td><strong>계획 수립</strong> </td> 
+   <td><strong>계획</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td> </td> 

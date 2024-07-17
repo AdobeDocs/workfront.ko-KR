@@ -27,7 +27,7 @@ THIS MIGHT NEED TO BE RENAMED BECAUSE THERE WILL BE OTHER OBJECTS CONNECTED TO G
 
 >[!IMPORTANT]
 >
->프로젝트의 비즈니스 사례 영역에서 생성된 프로젝트 수준 목표는 Workfront 목표에서 생성된 전략적 목표와 연결되지 않습니다. 비즈니스 사례 프로젝트 목표에 대한 자세한 내용은 [비즈니스 사례 목표 만들기](../../manage-work/projects/define-a-business-case/create-business-case-goals.md).
+>프로젝트의 비즈니스 사례 영역에서 생성된 프로젝트 수준 목표는 Workfront 목표에서 생성된 전략적 목표와 연결되지 않습니다. 비즈니스 사례 프로젝트 목표에 대한 자세한 내용은 [비즈니스 사례 목표 만들기](../../manage-work/projects/define-a-business-case/create-business-case-goals.md)를 참조하십시오.
 
 
 ## 액세스 요구 사항
@@ -57,7 +57,7 @@ THIS MIGHT NEED TO BE RENAMED BECAUSE THERE WILL BE OTHER OBJECTS CONNECTED TO G
  <td>
  <p>새 라이선스: 기여자 이상</p>
  또는
- <p>현재 라이선스: 요청 이상</p> <p>자세한 내용은 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront 라이선스 개요</a>.</p> </td>
+ <p>현재 라이선스: 요청 이상</p> <p>자세한 내용은 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront 라이선스 개요</a>를 참조하십시오.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">제품*</td>
@@ -67,7 +67,7 @@ THIS MIGHT NEED TO BE RENAMED BECAUSE THERE WILL BE OTHER OBJECTS CONNECTED TO G
 <li>Select 또는 Prime Adobe Workfront 플랜 및 추가 Adobe Workfront Goals 라이선스.</li>
 <li>기본적으로 Workfront 목표를 포함하는 Ultimate Workfront 계획입니다. </li></ul>
  <p>또는</p>
- <p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표 사용 요구 사항</a>. </p> </td>
+ <p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표를 사용하기 위한 요구 사항</a>을 참조하십시오. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">액세스 수준</td>
@@ -79,7 +79,7 @@ THIS MIGHT NEED TO BE RENAMED BECAUSE THERE WILL BE OTHER OBJECTS CONNECTED TO G
   <div>
   <p>목표에 대한 또는 그 이상의 권한에 대한 보기</p>
   <p>편집할 목표에 대한 권한 관리</p>
-  <p>목표 공유에 대한 자세한 내용은 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront 목표에서 목표 공유</a>. </p>
+  <p>목표 공유에 대한 자세한 내용은 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront 목표에서 목표 공유</a>를 참조하십시오. </p>
   </div> </td>
  </tr>
  <tr>
@@ -90,7 +90,7 @@ THIS MIGHT NEED TO BE RENAMED BECAUSE THERE WILL BE OTHER OBJECTS CONNECTED TO G
 </tbody>
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## 프로젝트를 목표에 연결하는 것에 대한 고려 사항
 
@@ -125,19 +125,19 @@ There is an indication on the goal list that the project no longer updates progr
 
 ## 목표에 프로젝트 추가
 
-1. 다음을 클릭합니다. **메인 메뉴** ![](assets/main-menu-icon.png) (셸에 대해 이 초안 작성: 또는 **메인 메뉴** ![](assets/three-line-main-menu-icon.png) 왼쪽 상단 모서리에서 을(를) 사용할 수 있는 경우) 다음을 수행합니다. **목표**.
+1. **주 메뉴** ![](assets/main-menu-icon.png)을(를) 클릭합니다(셸에 대해 이 초안 작성: 또는 사용 가능한 경우 왼쪽 상단 모서리에서 **주 메뉴** ![](assets/three-line-main-menu-icon.png)을(를) 클릭합니다.) 그런 다음 **목표**&#x200B;를 클릭합니다.
 1. 목표 목록에서 목표 이름을 클릭하여 목표 페이지를 엽니다.
-1. 클릭 **진행 표시기** 왼쪽 패널에서
-1. 다음에서 **새로운 진행 표시기** 드롭다운 메뉴, 클릭 **기존 프로젝트 추가**.
+1. 왼쪽 패널에서 **진행률 표시기**&#x200B;를 클릭합니다.
+1. **새 진행률 표시기** 드롭다운 메뉴에서 **기존 프로젝트 추가**&#x200B;를 클릭합니다.
 
    목표에 프로젝트 추가 상자가 표시됩니다.
-1. (선택 사항) **보기**, **필터**, 또는 **그룹화** 목록의 오른쪽 상단에 있는 각 아이콘을 클릭하여 프로젝트 목록이 표시되는 방식을 수정합니다.
-1. (선택 사항) **검색** 아이콘 ![](assets/search-icon.png) 목록에서 빠르게 찾을 수 있도록 프로젝트 이름을 입력하십시오.
-1. 목표에 추가할 프로젝트를 선택한 다음 **추가**.
+1. (선택 사항) 프로젝트 목록이 표시되는 방식을 수정하려면 목록의 오른쪽 상단에 있는 각 아이콘을 클릭하여 **보기**, **필터** 또는 **그룹화**&#x200B;를 업데이트합니다.
+1. (선택 사항) **검색** 아이콘 ![](assets/search-icon.png)을(를) 클릭하고 프로젝트 이름을 입력하여 목록에서 빠르게 찾을 수 있습니다.
+1. 목표에 추가할 프로젝트를 선택한 다음 **추가**&#x200B;를 클릭합니다.
 
-   선택한 프로젝트가 목표에 추가되고 목표 페이지의 아래 진행 표시기 섹션에 표시됩니다. **프로젝트** 그룹화.
+   선택한 프로젝트가 목표에 추가되고 **프로젝트** 그룹화 아래 목표 페이지의 진행 표시기 섹션에 표시됩니다.
 
-   목표를 활성화하면 프로젝트 진행 상황이 업데이트될 때 목표의 진행 상황이 자동으로 업데이트됩니다. 목표 활성화에 대한 자세한 내용은 [Adobe Workfront 목표에서 목표 활성화](../goal-management/activate-goals.md).
+   목표를 활성화하면 프로젝트 진행 상황이 업데이트될 때 목표의 진행 상황이 자동으로 업데이트됩니다. 목표 활성화에 대한 자세한 내용은 [Adobe Workfront 목표에서 목표 활성화](../goal-management/activate-goals.md)를 참조하십시오.
 
 ## 목표에 대한 프로젝트 정보 찾기
 

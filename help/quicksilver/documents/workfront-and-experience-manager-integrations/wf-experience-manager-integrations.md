@@ -15,6 +15,6 @@ ht-degree: 0%
 
 # Workfront 및 Experience Manager Assets 통합
 
-* [Workfront for Experience Manager 강화 커넥터](../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md)
+* [Experience Manager 강화 커넥터용 Workfront](../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md)
 * [Experience Manager Assets 및 Asset Essentials용 Adobe Workfront](../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
 * [레거시 또는 향상된 커넥터에서 마이그레이션](/help/quicksilver/documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)

@@ -48,11 +48,11 @@ ht-degree: 1%
    <td role="rowheader">액세스 수준 구성*</td> 
    <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 편집</p> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> <p><b>메모</b>
 
-여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td>
+여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>보고서에 대한 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>보고서에 대한 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,13 +61,13 @@ ht-degree: 1%
 
 ## 예산 시간 보고서 작성
 
-1. 다음을 클릭합니다. **메인 메뉴** ![](assets/main-menu-icon.png) 오른쪽 상단에서 을(를) 클릭한 다음 **보고서**.
+1. 오른쪽 상단의 **주 메뉴** ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **보고서**&#x200B;를 클릭합니다.
 
-1. 클릭 **새 보고서 > 예산 시간**.
+1. **새 보고서 > 예산 시간**&#x200B;을 클릭합니다.
 
    기본 보기가 보고서에 적용됩니다.
 
-1. (선택 사항) 보고서를 더 쉽게 읽으려면 **예산 시간** 열, 그런 다음 **텍스트 모드로 전환**&#x200B;을 클릭한 다음 을 변경합니다.
+1. (선택 사항) 보고서를 더 쉽게 읽으려면 **예산 시간** 열을 클릭한 다음 **텍스트 모드로 전환**&#x200B;한 다음
 
    ```
    valuefield
@@ -83,20 +83,20 @@ ht-degree: 1%
 
    이렇게 하면 예산 시간이 지정한 소수 자릿수로 반올림됩니다.
 
-   Workfront에서 숫자를 반올림하는 방법에 대한 자세한 내용은 문서를 참조하십시오 [계산된 데이터 표현식 개요](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   Workfront에서 숫자를 반올림하는 방법에 대한 자세한 내용은 문서 [계산된 데이터 식의 개요](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)를 참조하십시오.
 
-1. (선택 사항) **열 추가** 추가 열을 추가합니다.
+1. (선택 사항) 열을 추가하려면 **열 추가**&#x200B;를 클릭합니다.
 1. (선택 사항) 보고서를 더 쉽게 읽을 수 있도록 보고서 세트에 그룹화를 추가하는 것이 좋습니다. 다음 그룹화를 제안합니다.
 
-   다음을 클릭합니다. **그룹화** 탭을 누른 후 다음 중 하나 또는 일부를 수행합니다.
+   **그룹화** 탭을 클릭한 다음 다음 다음 중 하나 또는 여러 작업을 수행합니다.
 
-   1. 클릭 **그룹화 추가** &quot;프로젝트 이름&quot;을 입력한 다음 목록에 나타나면 선택하십시오.
-   1. 클릭 **그룹화 추가** &quot;작업 역할 이름&quot;을 입력한 다음 목록에 표시될 때 선택합니다.
-   1. 클릭 **그룹화 추가** 입력을 시작합니다. **할당 일자**&#x200B;목록에 나타나면 선택한 다음 그룹화할 시간대를 선택합니다 **일자 그룹화 기준** 필드.
+   1. **그룹화 추가**&#x200B;를 클릭하고 &quot;프로젝트 이름&quot;을 입력한 다음 목록에 나타나면 선택하십시오.
+   1. **그룹화 추가**&#x200B;를 클릭하고 &quot;작업 역할 이름&quot;을 입력한 다음 목록에 나타나면 선택하십시오.
+   1. **그룹화 추가**&#x200B;를 클릭하고 **할당 날짜**&#x200B;를 입력한 다음 목록에 표시될 때 선택한 다음 **그룹화 날짜** 필드에서 그룹화할 시간대를 선택합니다.
 
-1. (선택 사항) **필터** 필터를 보고서에 추가합니다.
-1. (선택 사항) **차트** 보고서에 차트를 추가합니다.
-1. 클릭 **저장 + 닫기**.
+1. (선택 사항) 보고서에 필터를 추가하려면 **필터**&#x200B;를 클릭합니다.
+1. (선택 사항) 보고서에 차트를 추가하려면 **차트**&#x200B;를 클릭하십시오.
+1. **저장 + 닫기**&#x200B;를 클릭합니다.
 
 ## 예산 시간 보고서 검토
 

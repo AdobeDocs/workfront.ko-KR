@@ -16,7 +16,7 @@ ht-degree: 0%
 
 이 페이지에서는 23.3 릴리스의 모든 Financial Management 개선 사항에 대해 설명합니다.
 
-23.3 릴리스 주기 동안 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 을 참조하십시오. [23.3 릴리스 개요](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+23.3 릴리스 주기 동안 현재 사용 가능한 모든 변경 사항 목록을 보려면 [23.3 릴리스 개요](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)를 참조하십시오.
 
 ## 일자 유효 비용 및 청구 요금
 
@@ -40,4 +40,4 @@ ht-degree: 0%
 
 새로운 기능인 요금 카드를 사용하면 위치에 따라 작업 역할당 여러 청구 요금을 정의할 수 있습니다. 작업 역할 및 위치에 대한 청구 요금에 유효 일자가 포함될 수도 있습니다. 프로젝트에 비율 카드를 부착하여 특정 작업 역할 및 위치에 대한 모든 비율 정보를 한 번에 적용할 수 있습니다. 또한 위치 기반 역할은 할당 수준에서 비율을 대체할 수 있는 가능성이 있는 작업에 할당할 수 있습니다.
 
-자세한 내용은 [사용자 프로필 편집](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md), [작업 역할 만들기 및 관리](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md), [등급 카드 관리](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md), 및 [청구 및 수익 개요](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+자세한 내용은 [사용자 프로필 편집](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md), [작업 역할 만들기 및 관리](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md), [요금 카드 관리](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md) 및 [청구 및 수익 개요](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md)를 참조하십시오.

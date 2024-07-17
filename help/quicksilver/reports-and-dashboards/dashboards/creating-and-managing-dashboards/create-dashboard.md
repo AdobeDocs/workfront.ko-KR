@@ -19,7 +19,7 @@ ht-degree: 1%
 
 대시보드를 만들어 Adobe Workfront의 정보에 빠르게 액세스할 수 있습니다. 최적의 공동 작업을 위해 다른 사용자와 공유할 수 있는 보고서, 캘린더 및 외부 페이지를 대시보드에 추가할 수 있습니다.
 
-대시보드에 대한 자세한 내용은 다음을 참조하십시오. [대시보드 시작](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md).
+대시보드에 대한 자세한 내용은 [대시보드 시작](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md)을 참조하세요.
 
 ## 액세스 요구 사항
 
@@ -54,7 +54,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오. 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오. 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -62,17 +62,17 @@ ht-degree: 1%
 
 대시보드에 추가하려면 먼저 다음 개체를 만들어야 합니다.
 
-* **보고서**: 보고서 만들기에 대한 자세한 내용은 다음을 참조하십시오. [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+* **보고서**: 보고서 만들기에 대한 자세한 내용은 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)를 참조하세요.
 
-* **캘린더**: 캘린더 만들기에 대한 자세한 내용은 다음을 참조하십시오. [달력 보고서 개요](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+* **캘린더**: 캘린더 만들기에 대한 자세한 내용은 [캘린더 보고서 개요](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md)를 참조하십시오.
 
-기존 외부 페이지를 대시보드에 추가하거나 새 대시보드에서 만들 수 있습니다. 외부 페이지 만들기에 대한 자세한 내용은 [외부 웹 페이지를 대시보드에 포함](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
+기존 외부 페이지를 대시보드에 추가하거나 새 대시보드에서 만들 수 있습니다. 외부 페이지 만들기에 대한 자세한 내용은 [외부 웹 페이지를 대시보드에 포함](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md)을 참조하십시오.
 
 ## 대시보드 만들기
 
 {{step1-to-dashboards}}
 
-1. 클릭 **새 대시보드**.\
+1. **새 대시보드**&#x200B;를 클릭합니다.\
    새 대시보드 대화 상자가 표시됩니다.
 
 1. 다음을 지정합니다.
@@ -92,17 +92,17 @@ ht-degree: 1%
     </tbody>
    </table>
 
-1. 레이아웃 상단에 있는 해당 라디오 단추를 클릭하여 레이아웃을 선택합니다. **레이아웃 선택/ 보고서 추가/ 캘린더 추가** 섹션. 보고서, 캘린더 또는 외부 페이지가 대시보드에 표시되는 레이아웃입니다.
+1. **레이아웃/보고서 추가/캘린더 추가** 섹션 맨 위에서 해당 라디오 단추를 클릭하여 레이아웃을 선택합니다. 보고서, 캘린더 또는 외부 페이지가 대시보드에 표시되는 레이아웃입니다.
 
    단일 열 레이아웃이 기본값입니다.
 
-   대시보드의 보고서 레이아웃에 대한 자세한 내용은 [보고서가 대시보드에 표시되는 방식 이해](../../../reports-and-dashboards/dashboards/understanding-dashboards/understand-how-reports-display-dashboard.md).
+   대시보드의 보고서 레이아웃에 대한 자세한 내용은 [보고서가 대시보드에 표시되는 방식 이해](../../../reports-and-dashboards/dashboards/understanding-dashboards/understand-how-reports-display-dashboard.md)를 참조하십시오.
 
    <!--
    Consider adding the information from this article above here, at some point, instead of linking to it.)
    -->
 
-1. 에서 보고서, 캘린더 또는 외부 페이지 검색 **이름 또는 유형별로 검색...** 필드를 클릭한 다음 목록에 나타나면 레이아웃 창으로 끕니다.
+1. **이름 또는 유형별 검색..** 필드에서 보고서, 캘린더 또는 외부 페이지를 검색한 다음 목록에 표시될 때 레이아웃 창으로 드래그합니다.
 
    >[!NOTE]
    >
@@ -110,9 +110,9 @@ ht-degree: 1%
 
    ![보고서 검색](assets/qs-new-dashboard-ui-0722.png)
 
-1. (선택 사항) **외부 페이지 추가** 새 외부 페이지를 대시보드에 추가합니다.
+1. (선택 사항) 대시보드에 새 외부 페이지를 추가하려면 **외부 페이지 추가**&#x200B;를 클릭합니다.
 
-   외부 페이지를 만들고 대시보드에 포함하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [외부 웹 페이지를 대시보드에 포함](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
+   외부 페이지를 만들고 대시보드에 포함하는 방법에 대한 자세한 내용은 [외부 웹 페이지를 대시보드에 포함](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md)을 참조하십시오.
 
 1. **저장 및 닫기**&#x200B;를 클릭합니다.
 

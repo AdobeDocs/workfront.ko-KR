@@ -25,7 +25,7 @@ Adobe Workfront 인스턴스에서 SSO(Single Sign-On)를 활성화하면 사용
 
 SSO 자격 증명과 연결된 사용자로 이미 채워진 기존 시스템이 있는 경우 쉼표로 구분된 값(CSV) 파일을 Workfront으로 가져와서 사용자의 ID를 Workfront으로 가져올 수 있습니다.
 
-Workfront과 SSO 시스템 통합에 대한 자세한 내용은 다음을 참조하십시오. [Adobe Workfront의 Single Sign-On 개요](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+Workfront과 SSO 시스템을 통합하는 방법에 대한 자세한 내용은 [Adobe Workfront의 Single Sign-On 개요](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)를 참조하십시오.
 
 
 ## 액세스 요구 사항
@@ -53,7 +53,7 @@ Workfront과 SSO 시스템 통합에 대한 자세한 내용은 다음을 참조
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -82,7 +82,7 @@ SSO 사용자 이름 필드를 업데이트해야 하는 Workfront의 모든 사
 
 1. Workfront에서 사용자 보고서를 작성합니다.
 
-   Workfront에서 사용자 보고서를 작성하는 방법에 대한 지침은 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   Workfront에서 사용자 보고서를 작성하는 방법에 대한 지침은 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)를 참조하십시오.
 
 1. 보고서에서 다음 필드를 선택합니다.
 
@@ -95,18 +95,18 @@ SSO 사용자 이름 필드를 업데이트해야 하는 Workfront의 모든 사
    ![](assets/users-with-sso-username-and-no-sso-access-only-field.png)
 
 1. 보고서를 저장합니다.
-1. 클릭 **내보내기** 를 클릭하고 보고서를 Excel로 내보냅니다.
+1. 보고서 상단의 **내보내기**&#x200B;를 클릭하고 보고서를 Excel로 내보냅니다.
 1. 내보낸 Excel 파일을 열고 SSO 사용자 이름 열의 보고서에 각 사용자에 대한 SSO 사용자 이름을 추가합니다.
 
    >[!IMPORTANT]
    >
    >SSO 사용자 이름은 대소문자를 구분합니다.
 
-1. Excel 파일에서 다음을 제외한 모든 열 삭제 **ID** 및 **SSO 사용자 이름** 열.
+1. Excel 파일에서 **ID** 및 **SSO 사용자 이름** 열을 제외한 모든 열을 삭제합니다.
 
 1. 열 헤더를 삭제하고 보고서 상단에 빈 행이 없는지 확인합니다.
 
-   SSO 사용자 이름을 사용하여 Workfront 사용자를 업데이트하는 데 사용 중인 파일입니다. **필수** 다음 순서로 단 2개의 열을 포함합니다.
+   SSO 사용자 이름 **must**&#x200B;을(를) 사용하여 Workfront 사용자를 업데이트하는 데 사용 중인 파일에는 다음 순서로 단 2개의 열이 포함되어 있습니다.
 
    * 첫 번째 열에는 Workfront 사용자 ID(Workfront에 있는 사용자 GUID)가 표시되어야 합니다.
    * 두 번째 열에는 SSO 시스템에 표시되는 SSO 사용자 이름이 있어야 합니다.
@@ -120,23 +120,23 @@ SSO 사용자 이름 필드를 업데이트해야 하는 Workfront의 모든 사
 
 SSO에 대해 사용자를 업데이트하는 프로세스에서는 SSO 사용자 이름 필드가 없는 경우 이 필드를 Workfront 사용자에게 추가하거나 사용자와 이미 연결된 값이 있는 경우 이 필드의 값을 업데이트합니다.
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리에서 을(를) 클릭하고 **설정** ![](assets/gear-icon-settings.png).
+1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을 클릭합니다.
 
-1. 클릭, **시스템** 그런 다음 선택 **SSO를 위해 사용자 업데이트**.
+1. **시스템**&#x200B;을 클릭한 다음 **SSO에 대한 사용자 업데이트**&#x200B;를 선택하십시오.
 
-1. 클릭 **파일 선택** 를 클릭하여 준비한 파일을 찾습니다.
+1. **파일 선택**&#x200B;을 클릭하여 준비한 파일을 찾습니다.
 
-   이 파일을 준비하는 방법에 대한 자세한 내용은 [가져오기 파일 준비](#prepare-the-import-file).
+   이 파일을 준비하는 방법에 대한 자세한 내용은 [가져오기 파일 준비](#prepare-the-import-file)를 참조하십시오.
 
-1. 컴퓨터에서 파일을 선택한 다음 **열기**.
+1. 컴퓨터에서 파일을 선택한 다음 **열기**&#x200B;를 클릭합니다.
 
    이렇게 하면 Workfront에 SSO 자격 증명이 삽입되므로 모든 사용자가 SSO 자격 증명을 사용하여 Workfront에 로그인할 수 있습니다.
 
-   다음 **허용만 `<SSO Configuration>` 인증** 설정은 CSV에 포함된 모든 사용자에 대해 활성화됩니다. 이렇게 하면 사용자가 SSO를 통해 로그인해야 합니다.
+   CSV에 포함된 모든 사용자에 대해 **`<SSO Configuration>` 인증만 허용** 설정을 사용할 수 있습니다. 이렇게 하면 사용자가 SSO를 통해 로그인해야 합니다.
 
 ## 사용자의 Workfront 사용자 이름에 대해 SSO 확인
 
-SSO 사용자 이름 정보가 포함된 사용자 보고서를 작성하는 방법에 대한 지침은 [가져오기 파일 준비](#prepare-the-import-file).
+SSO 사용자 이름 정보가 포함된 사용자 보고서를 작성하는 방법에 대한 지침은 [가져오기 파일 준비](#prepare-the-import-file)를 참조하십시오.
 
 1. SSO 사용자 이름 정보가 포함된 사용자 보고서를 실행합니다.
 
@@ -147,4 +147,4 @@ SSO 사용자 이름 정보가 포함된 사용자 보고서를 작성하는 방
 
    ![](assets/users-with-sso-field-updated.png)
 
-   SSO를 위해 사용자를 업데이트하는 방법에 대한 지침은 [SSO를 위해 사용자 업데이트](#update-your-users-for-sso).
+   SSO에 대한 사용자 업데이트에 대한 지침은 [SSO에 대한 사용자 업데이트](#update-your-users-for-sso)를 참조하십시오.

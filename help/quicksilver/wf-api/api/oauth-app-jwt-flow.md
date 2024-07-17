@@ -24,7 +24,7 @@ Workfront과 통합하고 클라이언트 앱이 사용자를 대신하여 Workf
 
 ## OAuth2 애플리케이션 만들기
 
-OAuth2 애플리케이션 만들기에 대한 지침은 [서버 인증을 사용하여 OAuth2 애플리케이션 만들기(JWT 흐름)](../../administration-and-setup/configure-integrations/create-oauth-application.md#create2) 위치: [Workfront 통합을 위한 OAuth2 애플리케이션 만들기](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+OAuth2 애플리케이션 만들기에 대한 지침은 [Workfront 통합을 위한 OAuth2 애플리케이션 만들기](../../administration-and-setup/configure-integrations/create-oauth-application.md)에서 [서버 인증을 사용하여 OAuth2 애플리케이션 만들기(JWT 흐름)](../../administration-and-setup/configure-integrations/create-oauth-application.md#create2)를 참조하십시오.
 
 >[!NOTE]
 >
@@ -38,14 +38,14 @@ OAuth2 애플리케이션 만들기에 대한 지침은 [서버 인증을 사용
 
 사용된 알고리즘은 RS256(SHA-256을 사용한 RSA 서명)입니다. 이 알고리즘은 비대칭 알고리즘이며 공개/개인 키 쌍을 사용합니다. ID 공급자는 서명을 생성하는 데 사용되는 개인(비밀) 키를 가지며 JWT의 소비자는 서명의 유효성을 검사하는 공개 키를 받습니다.
 
-공개 키를 생성하려면 다음을 수행합니다 **1** 다음 중 하나를 선택하십시오.
+공개 키를 생성하려면 다음 중 **하나**&#x200B;를 실행하십시오.
 
-* macOS/Linux 터미널을 열고 다음 명령을 실행한 다음 업로드합니다 `certificate_pub.crt` 사용 **공개 키 추가** Workfront의 OAuth2 애플리케이션 설정에서 버튼을 클릭합니다.
+* macOS/Linux 터미널을 열고 다음 명령을 실행한 다음 Workfront의 OAuth2 애플리케이션 설정에서 **공개 키 추가** 단추를 사용하여 `certificate_pub.crt`을(를) 업로드합니다.
 
   <!-- [Copy](javascript:void(0);) -->
   <pre><code>openssl req -x509 -sha256 -nodes -newkey rsa:2048 -keyout private.key -out certificate_pub.crt</code></pre>
 
-* 사용 **공개/비공개 키 쌍 생성** Workfront의 OAuth2 애플리케이션 설정에서 버튼을 클릭하여 RSA를 생성합니다.
+* Workfront의 OAuth2 애플리케이션 설정에서 **공개/비공개 키 쌍 생성** 버튼을 사용하여 RSA를 생성합니다.
 
 ## JSON 웹 토큰 만들기
 

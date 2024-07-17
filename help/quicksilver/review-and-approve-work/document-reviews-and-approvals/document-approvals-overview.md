@@ -21,13 +21,13 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->이 문서의 내용은 특정 계정에만 사용할 수 있는 업데이트된 문서 승인 기능에 적용됩니다. 표준 승인 프로세스에 대한 정보는 다음 목록에 있는 문서를 참조하십시오. [작업 승인](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>이 문서의 내용은 특정 계정에만 사용할 수 있는 업데이트된 문서 승인 기능에 적용됩니다. 표준 승인 프로세스에 대한 자세한 내용은 [작업 승인](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md)에 나열된 문서를 참조하십시오.
 
 ## 새로운 기능 및 디자인 목표
 
 >[!VIDEO](https://video.tv.adobe.com/v/3420544/)
 
-* **이해 당사자 참여 포함**\
+* **이해 당사자 참가 포함**\
     새 문서 승인을 사용하면 승인 프로세스에 개별 기여자와 전체 팀을 모두 포함할 수 있습니다. 이러한 광범위한 참여를 촉진하면 이해 당사자의 포괄적인 참여가 보장되며 보다 정보에 입각하고 협력적인 의사 결정 환경이 구축됩니다.
 
 * **차별화된 검토 및 승인 역할**\
@@ -47,9 +47,9 @@ ht-degree: 2%
 
 ## 새 문서 승인 사용
 
-문서 승인을 만들거나 관리하려는 사용자의 경우 다음 목록에 있는 문서를 참조하십시오 [자산 및 문서 승인 설정 및 관리: 문서 색인](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
+문서 승인을 만들거나 관리하려는 사용자의 경우 [자산 및 문서 승인 설정 및 관리: 문서 색인](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)에 나열된 문서를 참조하십시오.
 
-요청을 받은 문서를 검토하거나 승인하려는 사용자의 경우 다음 목록에 있는 문서를 참조하십시오. [문서 승인 및 검토: 문서 색인](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
+요청을 받은 문서를 검토하거나 승인하려는 사용자의 경우 [문서 승인 및 검토: 문서 색인](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)에 나열된 문서를 참조하십시오.
 
 >[!IMPORTANT]
 >

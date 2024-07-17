@@ -24,7 +24,7 @@ ht-degree: 1%
 
 2019.1의 모든 변경 사항 목록은 &quot;2019.1 릴리스 활동 개요&quot;를 참조하십시오.
 
-**관리자용**
+관리자용 **1}**
 
 * [휴지통에서 템플릿 복원](#restore-templates-from-the-recycle-bin)
 * [홈의 날짜 필드에 대한 타임스탬프 표시](#show-timestamps-for-date-fields-in-home)
@@ -35,15 +35,15 @@ ht-degree: 1%
 * [애자일 개선 사항](#agile-improvements)
 * [목록에서 반복에 작업 및 문제 추가](#add-tasks-and-issues-from-a-list-to-an-iteration)
 * [간트 차트 내보내기를 위한 새로운 용지 크기](#new-paper-sizes-for-gantt-chart-export)
-* [편집 모드에서 간트 차트의 대화 상자에 대한 액세스 권한 제거됨](#removed-access-to-dialog-boxes-in-the-gantt-chart-while-in-edit-mode)
+* [편집 모드에 있는 동안 간트 차트에서 대화 상자에 대한 액세스 제거됨](#removed-access-to-dialog-boxes-in-the-gantt-chart-while-in-edit-mode)
 * [프로그램 또는 Portfolio의 프로젝트 목록 간트 차트에서 작업 정보 보기](#view-task-information-in-the-project-list-gantt-chart-in-a-program-or-portfolio)
-* [템플릿의 작업 목록 간트 차트 액세스](#access-the-task-list-gantt-chart-on-templates)
+* [템플릿의 작업 목록 간트 차트에 액세스](#access-the-task-list-gantt-chart-on-templates)
 * [간트 차트에서 프로젝트 보기 이름이 변경됨](#renamed-the-project-view-on-the-gantt-chart)
 * [작업 목록 간트 차트의 가상 시나리오](#what-if-scenarios-in-the-task-list-gantt-chart)
 * [작업 목록 개선 사항](#task-list-improvements)
-* [전체 화면으로 목록 표시](#display-lists-in-full-screen)
+* [전체 화면에 목록 표시](#display-lists-in-full-screen)
 * [추가 영역의 새 목록](#new-lists-in-additional-areas)
-* [XLSX 형식으로 게재된 보고서 보내기](#send-a-delivered-report-in-xlsx-format)
+* [배달된 보고서를 XLSX 형식으로 보내기](#send-a-delivered-report-in-xlsx-format)
 * [감사 로그 내보내기](#export-audit-logs)
 
 ## 휴지통에서 템플릿 복원 {#restore-templates-from-the-recycle-bin}
@@ -128,7 +128,7 @@ TSV
 
 ## 작업 목록 개선 사항 {#task-list-improvements}
 
-[에서 제거된 18.3 베타 4 업데이트]
+[이 항목이 제거된 18.3 Beta 4 업데이트]
 
 18.3 베타 4 릴리스 동안 잠시 제거한 후 새로 다시 디자인된 작업 목록이 다시 활성화되었습니다. 또한 원래 릴리스에 포함되지 않은 작업 목록에 다음과 같은 추가 기능을 도입했습니다.
 

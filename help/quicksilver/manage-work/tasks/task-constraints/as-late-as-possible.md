@@ -2,8 +2,8 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: '작업 제한 개요: 가능한 한 늦다'
-description: ALAP(Late As Fluid As Possible)는 작업이 완료되는 시간을 가능한 한 프로젝트 끝에 가깝게 설정하는 Adobe Workfront 작업 제한입니다.
+title: '작업 제한 개요: 가능한 한 늦게'
+description: 가능한 한 늦게(ALAP)는 작업의 완료 시간을 가능한 한 프로젝트 종료 시점에 가깝게 배치하는 Adobe Workfront 작업 제한 사항입니다.
 author: Alina
 feature: Work Management
 exl-id: 475427d0-020b-4851-a614-c9931659e07d
@@ -14,19 +14,19 @@ ht-degree: 0%
 
 ---
 
-# 작업 제한 개요: 가능한 늦게
+# 작업 제한 개요: 가능한 한 늦게
 
-ALAP(Late As Fluid As Possible)는 작업이 완료되는 시간을 가능한 한 프로젝트 끝에 가깝게 설정하는 Adobe Workfront 작업 제한입니다.
+가능한 한 늦게(ALAP)는 작업의 완료 시간을 가능한 한 프로젝트 종료 시점에 가깝게 배치하는 Adobe Workfront 작업 제한 사항입니다.
 
-이 제약 조건을 사용하면 선행 작업 또는 종속 작업의 일정이 조정될 수 있습니다.
+이 제한 사항을 사용하면 전임 작업 또는 종속 작업의 일정이 조정될 수 있습니다.
 
-이전 관계에 대한 자세한 내용은 [작업 선행 작업 사용](../../../manage-work/tasks/use-prdcssrs/use-task-predecessors.md).
+전임 작업 관계에 대한 자세한 내용은 [작업 전임 작업 사용](../../../manage-work/tasks/use-prdcssrs/use-task-predecessors.md)을 참조하세요.
 
-프로젝트가 완료 날짜로부터 스케줄 모드의 스케줄 모드를 사용하고 작업의 시작 날짜에 대한 시스템 또는 그룹 기본값을 프로젝트 계획 날짜에 따라 사용하는 경우 가능한 지연 이 기본 제한입니다.
+프로젝트가 완료 일자부터 스케줄 모드를 사용하고 작업의 시작 일자에 대한 시스템 또는 그룹 기본값이 프로젝트 계획 일자를 기준으로 하는 경우 가능한 한 늦게 한다는 것이 기본 제한입니다.
 
-새 작업에 대한 기본 제약 조건을 설정할 위치에 대한 자세한 내용은 [시스템 전체 작업 및 문제 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+새 작업의 기본 제한 사항을 설정할 위치에 대한 자세한 내용은 [시스템 전체 작업 및 문제 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)을 참조하세요.
 
-작업에 대한 작업 제약 조건을 업데이트하는 방법에 대한 자세한 내용은 [작업의 작업 제약 조건 업데이트](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+작업에 대한 작업 제한을 업데이트하는 방법에 대한 자세한 내용은 [작업의 작업 제한 업데이트](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md)를 참조하십시오.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -43,31 +43,31 @@ ALAP(Late As Fluid As Possible)는 작업이 완료되는 시간을 가능한 �
 </div>
 -->
 
-## 가능한 최신 사용 가능 시간과 지연 시간 간의 차이점
+## 최근 사용 가능한 시간과 가능한 한 늦게 사용 가능한 시간의 차이
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;[! This section is duplicated in "Latest Available Time"] - inserted a snippet for both articles (Alina)) </p>
 -->
 
-다음 기준이 있는 경우 사용 가능한 최신 시간 제약 조건은 가능한 한 늦게까지 제한과 다릅니다.
+다음 기준이 있는 경우 최근 가용 시간 제약조건이 가능한 한 늦게 제약조건과 다릅니다.
 
-* 프로젝트가 시작 날짜부터 예약되었습니다.
-* 프로젝트의 작업은 이전 관계가 있습니다
-* 후속 작업에 유연한 작업 제약 조건이 있습니다
+* 프로젝트가 시작 날짜부터 예약됩니다.
+* 프로젝트의 작업에 전임 작업 관계가 있습니다.
+* 후속 작업의 작업 제한 사항이 유연합니다.
 
 이 경우:
 
-* **최신 사용 시간:** 이전 작업에 대해 사용 가능한 최신 시간 제약 조건을 사용하면 후임자의 유연한 제약 조건이 우선합니다.
+* **최근 사용 가능한 시간:** 전임 작업에 대해 최근 사용 가능한 시간 제한을 사용하면 후임 작업의 유연한 제한에 우선 순위를 둘 수 있습니다.
 
-   **예:** 예를 들어, 작업 A는 작업 B의 전임자입니다. 작업 A에는 사용 가능한 최신 시간 제한이 있고 작업 B에는 가능한 한 빨리 제약 조건이 있습니다. 이 경우 작업 A는 가능한 한 프로젝트 시작에 가깝게 예약됩니다.
+  **예:** 예를 들어 작업 A는 작업 B의 전임자입니다. 작업 A는 사용 가능한 최신 시간 제약 조건을 가지며 작업 B는 가능한 한 빨리 제한 조건을 갖습니다. 이러한 상황에서 작업 A는 가능한 프로젝트 시작에 가깝게 일정이 잡힌다.
 
-   ![](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
+  ![](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
 
-* **가능한 늦게:** 이 시나리오에서는 선행 작업에 대해 가능한 한 늦게까지 제약 조건을 사용하면 선행 작업에 우선 순위가 지정됩니다.
+* **가능한 한 늦게:** 이 시나리오에서는 전임 작업에 가능한 한 늦게 제한을 사용하면 전임 작업에 우선 순위가 부여됩니다.
 
-   **예:** 예를 들어, 작업 A는 작업 B의 전임자입니다. 작업 A는 가능한 한 늦으며 작업 B는 가능한 한 빨리 제약 조건을 가집니다. 이 경우 작업 A는 최대한 프로젝트 끝에 가깝게 예약됩니다.
+  **예:** 예를 들어 작업 A는 작업 B의 전임자입니다. 작업 A에는 가능한 한 늦게 제한이 있고 작업 B에는 가능한 한 빨리 제한이 있습니다. 이러한 상황에서 작업 A는 가능한 프로젝트 종료에 임박하여 예정되어 있다.
 
-   ![](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
+  ![](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
 
  
 

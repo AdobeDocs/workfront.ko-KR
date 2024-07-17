@@ -25,9 +25,9 @@ ht-degree: 2%
 
 선택적으로, 보고서에 프롬프트 및 차트를 추가할 수도 있습니다.
 
-프롬프트 만들기에 대한 자세한 내용은 [보고서에 프롬프트 추가](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+프롬프트 만들기에 대한 자세한 내용은 [보고서에 프롬프트 추가](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)를 참조하십시오.
 
-보고서에서 차트를 만드는 방법에 대한 자세한 내용은 [보고서에 차트 추가](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+보고서에서 차트를 만드는 방법에 대한 자세한 내용은 [보고서에 차트 추가](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md)를 참조하세요.
 
 이 섹션에는 다음 문서가 포함됩니다.
 
@@ -40,12 +40,12 @@ ht-degree: 2%
 * [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
 * [Adobe Workfront에서 보기 만들기 또는 편집](../../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
 * [보기에서 조건부 서식 사용](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)
-* [Adobe Workfront의 그룹화 개요](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
+* Adobe Workfront의 [그룹화 개요](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 * [Adobe Workfront에서 그룹화 만들기](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 * [기존 그룹화 편집](../../../reports-and-dashboards/reports/reporting-elements/edit-existing-groupings.md)
 * [Adobe Workfront에서 보기 만들기 또는 편집](../../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
-* [날짜 기반 와일드카드를 사용하여 보고서를 일반화합니다.](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md)
-* [사용자 기반 와일드카드를 사용하여 보고서 일반화](../../../reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md)
+* [날짜 기반 와일드카드를 사용하여 보고서를 일반화하십시오](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md)
+* [사용자 기반 와일드카드를 사용하여 보고서를 일반화하십시오](../../../reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md)
 * [필터, 보기 또는 그룹화 공유](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
 * [필터, 보기 및 그룹화 제거](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)
 * [마일스톤 보기 사용](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)

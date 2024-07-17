@@ -43,7 +43,7 @@ ht-degree: 0%
 >
 >Workfront에서 사용자를 비활성화하면 Workfront과 디지털 증명 모두에 대한 사용자 라이선스가 제거됩니다. 또한 사용자에게 더 이상 작업을 할당할 수 없습니다. 사용자가 비활성화되면 다른 사용자가 해당 사용자의 Workfront 라이선스 및 증명 라이선스를 사용할 수 있습니다. 비활성화된 사용자 프로필의 다른 모든 정보는 변경되지 않습니다.
 >
->삭제 및 사용자 비활성화의 영향에 대한 자세한 내용은 [사용자 삭제](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
+>삭제의 영향 및 사용자 비활성화의 영향에 대한 자세한 내용은 [사용자 삭제](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)를 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -65,8 +65,8 @@ ht-degree: 0%
    <td role="rowheader">액세스 수준 구성</td> 
    <td> <p>다음 중 하나가 있어야 합니다.</p> 
     <ul> 
-     <li> <p>시스템 관리자 액세스 수준입니다. 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">사용자에게 전체 관리 액세스 권한 부여</a>. </p> </li> 
-     <li> <p><b>사용자</b> 액세스 수준의 설정이 다음으로 구성됨 <b>편집</b> 액세스, 사용 <b>만들기</b> 그리고 둘 중 하나 이상은 <b>사용자 관리자</b> 아래에 옵션 활성화됨 <b>설정 미세 조정</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>다음 두 옵션 중 사용자 <b>관리자(그룹 사용자)</b> 이(가) 활성화되어 있으면 사용자가 멤버인 그룹의 그룹 관리자여야 합니다.</p> <p>에 대한 자세한 내용은 <b>사용자</b> 액세스 수준에서 을(를) 설정합니다. <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">사용자에게 액세스 권한 부여</a>.</p> </li> 
+     <li> <p>시스템 관리자 액세스 수준입니다. 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">사용자에게 전체 관리 액세스 권한 부여</a>를 참조하십시오. </p> </li> 
+     <li> <p>액세스 수준의 <b>사용자</b> 설정이 <b>편집</b> 액세스로 구성되었으며, <b>만들기</b>와 <b>설정을 미세 조정</b> <img src="assets/gear-icon-in-access-levels.png">에서 두 개의 <b>사용자 관리</b> 옵션 중 하나 이상을 사용할 수 있습니다. </p> <p>이 두 옵션 중 사용자 <b>관리자(그룹 사용자)</b>이(가) 활성화된 경우 사용자가 멤버인 그룹의 그룹 관리자여야 합니다.</p> <p>액세스 수준의 <b>사용자</b> 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">사용자에게 액세스 권한 부여</a>를 참조하십시오.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 Workfront 관리자 또는 Standard 또는 Plan 라이선스 사용자를 비활성화하려면 먼저 해당 개체 및 활동을 다른 사용자와 연결해야 합니다.
 
-자세한 내용은 [Workfront 관리자 및 플랜 라이선스 사용자 비활성화 정보](#about-deactivating-workfront-administrators-and-plan-license-users) 이 문서에서.
+자세한 내용은 이 문서에서 [Workfront 관리자 및 플랜 라이선스 사용자 비활성화 정보](#about-deactivating-workfront-administrators-and-plan-license-users)를 참조하십시오.
 
 ## 사용자 비활성화
 
@@ -90,11 +90,11 @@ Workfront 관리자 또는 Standard 또는 Plan 라이선스 사용자를 비활
 
 사용자를 비활성화하려면:
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리에서 을(를) 클릭하고 **사용자** ![](assets/users-icon-in-main-menu.png).
+1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)를 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **사용자** ![](assets/users-icon-in-main-menu.png)를 클릭합니다.
 
-1. 사용자를 선택하고 **자세히** 아이콘 ![](assets/more-icon.png)을 클릭한 다음 을 클릭합니다 **비활성화**.
+1. 사용자를 선택하고 **자세히** 아이콘 ![](assets/more-icon.png)을(를) 클릭한 다음 **비활성화**&#x200B;를 클릭합니다.
 
-1. 클릭 **비활성화** 을 클릭합니다.
+1. 표시되는 상자에서 **비활성화**&#x200B;를 클릭합니다.
 
 ## 비활성화 예약
 
@@ -104,7 +104,7 @@ Workfront 관리자 및 플랜 라이선스 사용자는 사용자 프로필에�
 
 사용자의 비활성화를 예약하려면 다음을 수행합니다.
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리에서 을(를) 클릭하고 **사용자** ![](assets/users-icon-in-main-menu.png).
+1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)를 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **사용자** ![](assets/users-icon-in-main-menu.png)를 클릭합니다.
 
 1. 사용자 이름을 선택합니다.
 
@@ -112,11 +112,11 @@ Workfront 관리자 및 플랜 라이선스 사용자는 사용자 프로필에�
 
    (선택 사항) 여러 사용자를 선택하여 일괄 비활성화 일정을 예약합니다.
 
-1. 편집 아이콘 클릭 ![](assets/edit-icon.png).
-1. 표시되는 사용자 편집 상자에서 **리소스 계획 수립** 저쪽 지역으로 가셔야 합니다
-1. 활성화 **일정 비활성화** 옵션을 선택합니다.
+1. 편집 아이콘 ![](assets/edit-icon.png)을(를) 클릭합니다.
+1. 표시되는 사용자 편집 상자에서 해당 영역으로 이동하려면 **리소스 계획**&#x200B;을 클릭합니다.
+1. **비활성화 예약** 옵션을 사용하도록 설정합니다.
 
-1. 표시되는 달력에서 의 날짜 및 시간을 지정합니다. **예약된 비활성화 일자**.
+1. 표시되는 달력에서 **예약된 비활성화 날짜**&#x200B;의 날짜와 시간을 지정합니다.
 
    >[!NOTE]
    >
@@ -131,11 +131,11 @@ Workfront 관리자 및 플랜 라이선스 사용자는 사용자 프로필에�
 
 ## 사용자 다시 활성화
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리에서 을(를) 클릭하고 **사용자** ![](assets/users-icon-in-main-menu.png).
+1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)를 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **사용자** ![](assets/users-icon-in-main-menu.png)를 클릭합니다.
 
-1. 사용자를 선택하고 기타 아이콘을 클릭합니다 ![](assets/more-icon.png)을 클릭한 다음 을 클릭합니다 **활성화**.
+1. 사용자를 선택하고 기타 아이콘 ![](assets/more-icon.png)을(를) 클릭한 다음 **활성화**&#x200B;를 클릭합니다.
 
-1. 새 항목 할당 **액세스 수준**&#x200B;드롭다운 메뉴에서 다음을 클릭합니다. **다시 활성화**.
+1. 드롭다운 메뉴에서 새 **액세스 수준**&#x200B;을 지정한 다음 **다시 활성화**&#x200B;를 클릭합니다.
 <!--
 ### Asset review and approval impact when you reactivate a user
 
@@ -145,8 +145,8 @@ Deactivated users lose access to their assigned Frame.io accounts as well as ass
 
 비활성화된 사용자는 할당된 기본 증명 역할과 증명 라이선스를 잃게 됩니다(Workfront Premium 레거시 플랜을 사용하는 경우). 사용자를 다시 활성화하도록 선택하는 경우 다음을 수행해야 합니다.
 
-* 라이센스를 재할당합니다(Workfront Premium 레거시 플랜을 사용하는 경우). Workfront 증명 계획에 대한 자세한 내용은 [Workfront의 증명 기능에 액세스](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
-* 올바른 증명 역할이 있는지 확인합니다. 재활성화된 증명 사용자에게는 새 사용자에 대한 기본 증명 역할로 지정된 모든 항목이 할당됩니다. 다음을 참조하십시오 [기본 증명 역할 구성](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md) 추가 정보.
+* 라이센스를 재할당합니다(Workfront Premium 레거시 플랜을 사용하는 경우). Workfront 증명 계획에 대한 자세한 내용은 [Workfront의 증명 기능에 액세스](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md)를 참조하십시오.
+* 올바른 증명 역할이 있는지 확인합니다. 재활성화된 증명 사용자에게는 새 사용자에 대한 기본 증명 역할로 지정된 모든 항목이 할당됩니다. 자세한 내용은 [기본 증명 역할 구성](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md)을 참조하십시오.
 
 ## Workfront 관리자 및 Standard 또는 Plan 라이선스 사용자 비활성화 정보
 
@@ -171,4 +171,4 @@ Workfront 관리자 또는 플랜 라이선스가 있는 사용자를 비활성�
 
 리소스 플래너는 사용자의 모든 작업 역할과 작업의 계획된 완료 일자를 고려하고 그에 따라 리소스를 계산합니다.
 
-리소스 플래너에 대한 자세한 내용은 [리소스 플래너 개요](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+리소스 플래너에 대한 자세한 내용은 [리소스 플래너 개요](../../../resource-mgmt/resource-planning/get-started-resource-planner.md)를 참조하십시오.

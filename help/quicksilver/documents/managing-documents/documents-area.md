@@ -22,11 +22,11 @@ ht-degree: 0%
 
 문서 영역에는 두 가지 유형이 있습니다. 기능 및 기능은 다음 두 항목에 대해 동일합니다.
 
-* **프로그램, 포트폴리오, 프로젝트, 작업 또는 문제의 문서 영역:** 특정 프로젝트, 작업 또는 문제에 대해 액세스할 수 있는 모든 문서를 나열합니다. 이 영역에 액세스하려면 다음을 클릭하십시오. **문서** ![](assets/document-icon-12x14.png) 왼쪽 패널에서 프로젝트, 작업 또는 문제를 볼 수 있습니다.
+* **프로그램, 포트폴리오, 프로젝트, 작업 또는 문제의 문서 영역:** 특정 프로젝트, 작업 또는 문제에 대해 액세스할 수 있는 모든 문서를 나열합니다. 이 영역에 액세스하려면 프로젝트, 작업 또는 문제를 볼 때 왼쪽 패널의 **문서** ![](assets/document-icon-12x14.png)을(를) 클릭하십시오.
 
-* **전역 문서 영역:** Workfront에서 액세스할 수 있는 모든 문서를 나열합니다. 이 영역에 액세스하려면 다음을 클릭하십시오. **문서** ![](assets/document-icon.png) 메인 메뉴에서 ![](assets/main-menu-icon.png).
+* **전역 문서 영역:** Workfront에서 액세스할 수 있는 모든 문서를 나열합니다. 이 영역에 액세스하려면 주 메뉴 ![](assets/main-menu-icon.png)에서 **문서** ![](assets/document-icon.png)을(를) 클릭하십시오.
 
-Workfront에 문서를 업로드하는 방법에 대한 자세한 내용은 [파일 시스템에서 Adobe Workfront에 문서 추가](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+Workfront에 문서를 업로드하는 방법에 대한 자세한 내용은 [파일 시스템에서 Adobe Workfront에 문서 추가](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)를 참조하십시오.
 
 
 문서 영역에는 다음 항목의 수가 기록됩니다.
@@ -46,7 +46,7 @@ Workfront에 문서를 업로드하는 방법에 대한 자세한 내용은 [파
 
 ![](assets/documents-area-v2-350x199.png)
 
-요약에 대한 자세한 내용은 [문서에 대한 요약 개요](../../documents/managing-documents/summary-for-documents.md).
+요약에 대한 자세한 내용은 [문서에 대한 요약 개요](../../documents/managing-documents/summary-for-documents.md)를 참조하십시오.
 
 ## 증명 결정
 
@@ -56,13 +56,13 @@ Workfront에 문서를 업로드하는 방법에 대한 자세한 내용은 [파
 
 ## 폴더
 
-문서가 업로드되는 프로젝트, 작업 또는 문제에서 폴더를 설정하여 문서를 구성할 수 있습니다. 자세한 내용은 [문서 폴더 만들기](../../documents/organizing-documents/create-documents-folder.md).
+문서가 업로드되는 프로젝트, 작업 또는 문제에서 폴더를 설정하여 문서를 구성할 수 있습니다. 자세한 내용은 [문서 폴더 만들기](../../documents/organizing-documents/create-documents-folder.md)를 참조하십시오.
 
 전역 문서 영역에서 액세스 권한이 있는 문서를 구성할 수 있도록 두 가지 유형의 폴더를 설정할 수 있습니다.
 
-* **스마트 폴더:** 보려는 문서만 표시합니다. 자세한 내용은 [스마트 폴더 만들기 및 관리](../../documents/organizing-documents/create-manage-smart-folders.md).
+* **스마트 폴더:** 보려는 문서만 표시합니다. 자세한 내용은 [스마트 폴더 만들기 및 관리](../../documents/organizing-documents/create-manage-smart-folders.md)를 참조하십시오.
 
-* **내 폴더:** 원하는 방식으로 문서를 구성합니다. 자세한 내용은 [문서 폴더 만들기](../../documents/organizing-documents/create-documents-folder.md).
+* **내 폴더:** 원하는 방식으로 문서를 구성합니다. 자세한 내용은 [문서 폴더 만들기](../../documents/organizing-documents/create-documents-folder.md)를 참조하십시오.
 
 ## 확장된 문서 세부 정보
 

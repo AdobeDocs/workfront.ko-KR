@@ -2,8 +2,8 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: 의 시나리오 세부 정보 [!DNL Adobe Workfront Fusion]
-description: 의 시나리오 세부 정보 [!DNL Adobe Workfront Fusion]
+title: ' [!DNL Adobe Workfront Fusion]의 시나리오 세부 정보'
+description: ' [!DNL Adobe Workfront Fusion]의 시나리오 세부 정보'
 author: Becky
 feature: Workfront Fusion
 exl-id: 1d8a3492-d609-43c8-a486-a401a597f160
@@ -14,11 +14,11 @@ ht-degree: 1%
 
 ---
 
-# 의 시나리오 세부 정보 [!DNL Adobe Workfront Fusion]
+# [!DNL Adobe Workfront Fusion]의 시나리오 세부 정보
 
 시나리오 세부 정보 페이지는 특정 시나리오의 홈 페이지입니다. 페이지에 표시되는 시나리오의 특정 정보에 액세스할 수 있습니다.
 
-또한 다음에 대한 액세스를 제공합니다. [의 시나리오 편집기 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md)시나리오를 편집할 수 있는 위치입니다.
+또한 시나리오를 편집할 수 있는 [의 시나리오 편집기 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md)에 액세스할 수 있습니다.
 
 ## 액세스 요구 사항
 
@@ -38,30 +38,30 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] 라이선스**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p><p>[!UICONTROL [!DNL Workfront Fusion] 작업 자동화용] </p><p>[!UICONTROL [!DNL Workfront Fusion] 작업 자동화용]</p>   </td> 
+   <td> <p>작업 자동화 및 통합을 위한 [!UICONTROL [!DNL Workfront Fusion]] </p><p>작업 자동화용 [!UICONTROL [!DNL Workfront Fusion]] </p><p>작업 자동화용 [!UICONTROL [!DNL Workfront Fusion]]</p>   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">제품</td> 
    <td>
-   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime]이 있는 경우 [!DNL Adobe Workfront] 플랜, 조직은 다음을 구매해야 합니다. [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오. [!DNL Workfront Fusion] [!UICONTROL Ultimate]에 포함되어 있습니다. [!DNL Workfront] 계획.</p>
+   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime] [!DNL Adobe Workfront] 플랜이 있는 경우 조직에서 이 문서에 설명된 기능을 사용하려면 [!DNL Adobe Workfront Fusion]과(와) [!DNL Adobe Workfront]을(를) 구매해야 합니다. [!DNL Workfront Fusion]이(가) [!UICONTROL Ultimate] [!DNL Workfront] 계획에 포함되어 있습니다.</p>
    <p>또는</p>
-   <p>레거시 제품 요구 사항: 조직에서 구매해야 함 [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오.</p>
+   <p>레거시 제품 요구 사항: 이 문서에 설명된 기능을 사용하려면 조직에서 [!DNL Adobe Workfront Fusion]과(와) [!DNL Adobe Workfront]을(를) 구매해야 합니다.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
+보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
 
-다음에 대한 정보: [!DNL Adobe Workfront Fusion] 라이센스, 참조 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+[!DNL Adobe Workfront Fusion] 라이선스에 대한 자세한 내용은 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md)를 참조하세요.
 
-## 를 엽니다. [!UICONTROL 시나리오 세부 사항] 페이지:
+## [!UICONTROL 시나리오 세부 정보] 페이지를 엽니다.
 
-1. 다음을 클릭합니다. **[!UICONTROL 시나리오]** 왼쪽 패널에서 을 탭한 다음 세부 정보를 보려는 시나리오를 클릭합니다.
+1. 왼쪽 패널의 **[!UICONTROL 시나리오]** 탭을 클릭한 다음 자세히 설명하려는 시나리오를 클릭합니다.
 
    또는
 
-   에서 시나리오를 작업 중인 경우 [의 시나리오 편집기 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md)왼쪽 화살표 클릭 ![](assets/exit-editing-arrow.png) 창의 왼쪽 상단 모서리 근처.
+   [의 시나리오 편집기 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md)에서 시나리오를 작업하는 경우 창의 왼쪽 위 모서리 근처에 있는 왼쪽 화살표 ![](assets/exit-editing-arrow.png)을(를) 클릭합니다.
 
 1. 표시되는 페이지에서 아래 표에 나열된 요소를 검토할 수 있습니다.
 

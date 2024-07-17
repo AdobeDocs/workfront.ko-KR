@@ -49,42 +49,42 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
 ## 프로그램 만들기
 
-1. 다음을 클릭합니다. **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon.png) Adobe Workfront의 오른쪽 위 모서리에서 또는 (사용 가능한 경우) **[!UICONTROL 메인 메뉴]** 아이콘 ![메인 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png) 왼쪽 상단 모서리입니다.
+1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭합니다.
 
 1. 다음 중 하나를 수행합니다.
 
-   * 에서 프로그램 만들기 [!UICONTROL 프로그램] 영역:
+   * [!UICONTROL 프로그램] 영역에서 프로그램을 만듭니다.
 
-      1. 클릭 **[!UICONTROL 프로그램]** 기본 메뉴 아래의 제품에서 사용할 수 있습니다.
-      1. 클릭 **[!UICONTROL 새 프로그램]**.
-      1. 표시되는 상자에서 기존 Portfolio 이름을 **[!UICONTROL Portfolio 선택]** 필드.
-      1. 새 프로그램의 이름을 **[!UICONTROL 이름]** 필드.
+      1. 기본 메뉴에서 **[!UICONTROL 프로그램]**&#x200B;을 클릭합니다.
+      1. **[!UICONTROL 새 프로그램]**&#x200B;을 클릭합니다.
+      1. 표시되는 상자에서 **[!UICONTROL Portfolio 선택]** 필드에 기존 Portfolio의 이름을 입력합니다.
+      1. **[!UICONTROL 이름]** 필드에 새 프로그램의 이름을 입력하십시오.
       1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
-   * 에서 프로그램 만들기 [!UICONTROL Portfolio] 영역:
+   * [!UICONTROL Portfolio] 영역에서 프로그램을 만듭니다.
 
-      1. 클릭 **[!UICONTROL Portfolio]** 다음에서 [!UICONTROL 메인 메뉴]을 클릭한 다음 포트폴리오를 엽니다.
-      1. 왼쪽 패널에서 **[!UICONTROL 프로그램]**.
-      1. 다음을 클릭합니다. **[!UICONTROL 새 프로그램]** 드롭다운 메뉴, **[!UICONTROL 새 프로그램]**.
+      1. [!UICONTROL 기본 메뉴]에서 **[!UICONTROL Portfolio]**&#x200B;을 클릭한 다음 포트폴리오를 엽니다.
+      1. 왼쪽 패널에서 **[!UICONTROL 프로그램]**&#x200B;을 클릭합니다.
+      1. **[!UICONTROL 새 프로그램]** 드롭다운 메뉴를 클릭한 다음 **[!UICONTROL 새 프로그램]**&#x200B;을 클릭합니다.
 
 
-1. (조건부) 포트폴리오에서 프로그램을 만든 경우 **[!UICONTROL 제목 없는 프로그램]** 필드.
+1. (조건부) 포트폴리오에서 프로그램을 만든 경우 **[!UICONTROL 제목 없는 프로그램]** 필드에 프로그램 이름을 지정하십시오.
 
    이름에는 최대 255자를 사용할 수 있습니다.
 
-1. (선택 사항) **[!UICONTROL 프로그램 관리자]** 을 클릭하여 업데이트합니다.
+1. (선택 사항) 프로그램 헤더에서 **[!UICONTROL 프로그램 관리자]**&#x200B;를 클릭하여 업데이트합니다.
 
    >[!TIP]
    >
    >프로그램 작성자는 기본적으로 프로그램 관리자로 설정되어 있습니다.
 
-1. 클릭 **[!UICONTROL 프로그램 세부 정보]** 왼쪽 패널에서
-1. 필드를 두 번 클릭하여 **[!UICONTROL 개요]** 영역입니다.
+1. 왼쪽 패널에서 **[!UICONTROL 프로그램 세부 정보]**&#x200B;를 클릭합니다.
+1. 필드를 두 번 클릭하여 **[!UICONTROL 개요]** 영역의 정보를 업데이트합니다.
 
 다음 정보를 지정할 수 있습니다.
 
@@ -108,7 +108,7 @@ ht-degree: 1%
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Group] </td> 
-      <td> <p>그룹이 프로그램을 소유하고 있거나 프로그램 완료를 위한 권한이 있는 경우 단일 그룹의 이름을 추가합니다. </p> <p>마우스로 가리키고 [!UICONTROL 정보] 아이콘을 클릭하여 올바른 그룹을 선택하는지 확인할 수 있습니다 <img src="assets/info-icon.png"> 옆에 표시됩니다. 그룹 및 해당 관리자의 상위 그룹 계층과 같은 그룹에 대한 정보를 나열하는 도구 설명이 표시됩니다.</p> 
+      <td> <p>그룹이 프로그램을 소유하고 있거나 프로그램 완료를 위한 권한이 있는 경우 단일 그룹의 이름을 추가합니다. </p> <p>마우스로 가리키고 그 옆에 표시되는 [!UICONTROL 정보] 아이콘 <img src="assets/info-icon.png">을(를) 클릭하여 올바른 그룹을 선택하는지 확인할 수 있습니다. 그룹 및 해당 관리자의 상위 그룹 계층과 같은 그룹에 대한 정보를 나열하는 도구 설명이 표시됩니다.</p> 
        <div data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
         <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> 
        </div> </td> 
@@ -116,7 +116,7 @@ ht-degree: 1%
     </tbody> 
    </table>
 
-1. (선택 사항 및 조건부) **[!UICONTROL 사용자 정의 양식 추가]** 포트폴리오의 사용자 정의 양식을 선택하고 사용자 정의 필드를 업데이트하는 상자입니다.
+1. (선택 사항 및 조건부) **[!UICONTROL 사용자 정의 양식 추가]** 상자 내부를 클릭하여 포트폴리오의 사용자 정의 양식을 선택하고 사용자 정의 필드를 업데이트합니다.
 
    >[!TIP]
    >
@@ -124,14 +124,14 @@ ht-degree: 1%
 
 1. (선택 사항 및 조건부) 사용자 정의 양식을 추가하는 경우 사용자 정의 양식의 필드를 클릭하여 해당 필드의 정보를 업데이트합니다.
 1. **[!UICONTROL 변경 내용 저장]**&#x200B;을 클릭합니다.
-1. 클릭 **[!UICONTROL 프로젝트]** 왼쪽 패널에서 **[!UICONTROL 프로젝트 추가]** 을 클릭하여 프로그램에 프로젝트를 추가합니다.
+1. 왼쪽 패널에서 **[!UICONTROL 프로젝트]**&#x200B;를 클릭한 다음 **[!UICONTROL 프로젝트 추가]**&#x200B;를 클릭하여 프로그램에 프로젝트를 추가합니다.
 
-   프로그램에 프로젝트를 추가하는 방법에 대한 자세한 내용은 [프로그램에 프로젝트 추가](../../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
+   프로그램에 프로젝트를 추가하는 방법에 대한 자세한 내용은 [프로그램에 프로젝트 추가](../../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)를 참조하십시오.
 
 1. **[!UICONTROL 변경 내용 저장]**&#x200B;을 클릭합니다.
-1. (선택 사항) **[!UICONTROL 기타 메뉴]** ![](assets/more-icon.png) 프로그램 이름 옆에 있는 **[!UICONTROL 프로그램 비활성화]**.
+1. (선택 사항) 프로그램 이름 옆에 있는 **[!UICONTROL 추가 메뉴]** ![](assets/more-icon.png)를 클릭하고 **[!UICONTROL 프로그램 비활성화]**&#x200B;를 클릭합니다.
 
-   프로그램을 비활성화하면 사용자가 프로그램을 프로젝트에 추가하려고 할 때 프로그램이 더 이상 프로그램 목록에 표시되지 않습니다. 다음에서 프로그램에 액세스할 수 있습니다. [!UICONTROL 프로그램] 영역입니다.
+   프로그램을 비활성화하면 사용자가 프로그램을 프로젝트에 추가하려고 할 때 프로그램이 더 이상 프로그램 목록에 표시되지 않습니다. [!UICONTROL 프로그램] 영역에서 프로그램에 계속 액세스할 수 있습니다.
 
 ## 프로그램 헤더 개요
 
@@ -164,7 +164,7 @@ ht-degree: 1%
    <td> <p>프로그램에 대한 추가 정보 또는 편집 옵션에 액세스하려면 다음 중 하나를 클릭합니다.</p> 
     <ul> 
      <li>즐겨찾기 목록에 프로그램을 추가하는 별 아이콘</li> 
-     <li> <p>[!UICONTROL More] 메뉴 <img src="assets/qs-more-menu.png"> 다음 중 하나를 수행합니다. </p> 
+     <li> <p>다음 중 하나를 수행하려면 [!UICONTROL More] 메뉴 <img src="assets/qs-more-menu.png">을(를) 사용하십시오. </p> 
       <ul> 
        <li>프로그램 편집</li> 
        <li>비활성화합니다. 프로그램이 비활성화되면 더 이상 프로젝트 수준의 프로젝트와 연결할 수 없습니다. </li> 
@@ -196,4 +196,4 @@ ht-degree: 1%
 
 포트폴리오에 기존 프로그램을 추가할 수 있습니다. 프로그램은 서로 다른 두 포트폴리오에 존재할 수 없으므로 기존 프로그램을 추가하면 한 포트폴리오에서 다른 포트폴리오로 영구적으로 이동합니다.
 
-자세한 내용은 [포트폴리오에 기존 프로그램 추가](../../../manage-work/portfolios/create-and-manage-programs/move-program.md).
+자세한 내용은 [포트폴리오에 기존 프로그램 추가](../../../manage-work/portfolios/create-and-manage-programs/move-program.md)를 참조하십시오.

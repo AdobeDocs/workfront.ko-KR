@@ -18,7 +18,7 @@ ht-degree: 0%
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [오브젝트에 사용자 정의 양식 추가](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)
-* [사용자 정의 양식 필드의 정보 편집](../../workfront-basics/work-with-custom-forms/edit-custom-forms.md)
+* [개체에 사용자 정의 양식 추가](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)
+* [사용자 정의 양식 필드에서 정보 편집](../../workfront-basics/work-with-custom-forms/edit-custom-forms.md)
 * [사용자 정의 양식 및 개체 세부 정보 내보내기](../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md)
 * [오브젝트에 첨부된 사용자 정의 양식 관리](../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)

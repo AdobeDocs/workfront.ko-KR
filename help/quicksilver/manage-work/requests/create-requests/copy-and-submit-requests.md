@@ -8,8 +8,8 @@ topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
 source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
 workflow-type: tm+mt
-source-wordcount: '1380'
-ht-degree: 2%
+source-wordcount: '1381'
+ht-degree: 1%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든</p> </td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
@@ -68,11 +68,11 @@ ht-degree: 2%
    <td role="rowheader">액세스 수준 구성*</td> 
    <td> <p>문제에 대한 액세스 편집</p> <p><b>메모</b>
 
-액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td>
+액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>요청 대기열에 요청을 추가하는 액세스 권한</p> <p>기존 요청에 대한 이상의 권한 보기</p> <p>요청 대기열 설정에 대한 자세한 내용은 <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">요청 대기열 만들기</a>. </p> </td> 
+   <td> <p>요청 대기열에 요청을 추가하는 액세스 권한</p> <p>기존 요청에 대한 이상의 권한 보기</p> <p>요청 대기열 설정에 대한 자세한 내용은 <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">요청 대기열 만들기</a>를 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -88,11 +88,11 @@ ht-degree: 2%
 * 제출된 요청만 복사하고 제출할 수 있습니다. 초안 요청은 복사할 수 없습니다.
 * 처음에 제출한 요청이나 다른 사람이 제출한 요청을 복사하여 제출할 수 있으며 최소한 [보기]에 액세스할 수 있습니다.
 * 다른 사용자가 자신의 요청에 대한 권한을 제거하지 않은 한 해당 요청을 복사하여 제출할 수 있는 액세스 권한이 항상 있습니다.
-* 원래 다른 사람이 제출한 요청을 복사하고 제출하는 액세스 권한은 요청 대기열의 작성자가 **같은 회사의 직원들은 모든 요청에 대해 동일한 권한을 상속합니다.** 대기열 세부 정보 또는 프로젝트 편집 영역. 이 설정을 비활성화하면 원래 요청자만 자신의 요청을 볼 수 있습니다.
+* 요청 대기열의 작성자가 **같은 회사의 직원들이 대기열 세부 정보 또는 프로젝트 편집 영역에서 모든 요청에 대해 동일한 권한을 상속**&#x200B;할 경우 다른 사람이 원래 제출한 요청을 복사하고 제출하는 액세스 권한이 같은 회사의 직원들에게 자동으로 부여될 수 있습니다. 이 설정을 비활성화하면 원래 요청자만 자신의 요청을 볼 수 있습니다.
 
   자세한 내용은 다음 문서를 참조하십시오.
 
-   * [요청 대기열 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
+   * [요청 큐 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
    * [프로젝트 편집](../../../manage-work/projects/manage-projects/edit-projects.md)
 
 * 새 요청으로 다시 제출하기 전에 원래 요청의 사본을 업데이트할 수 있습니다.
@@ -105,12 +105,12 @@ ht-degree: 2%
      >
      >대기열 주제가 요청 대기열에 있는 유일한 항목인 경우에도 요청을 복사하고 제출할 수 있으며 요청 대기열 자체 아래에 저장됩니다.
 
-   * 요청 대기열이 더 이상 도움말 요청 대기열로 게시되지 않습니다. 자세한 내용은 [요청 대기열 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   * 요청 대기열이 더 이상 도움말 요청 대기열로 게시되지 않습니다. 자세한 내용은 [요청 큐 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)를 참조하세요.
    * 요청 대기열에 대기열 주제가 없고 원래 요청이 2022년 1월 이전에 제출된 경우.
 
    * 요청 대기열과 연결된 프로젝트의 상태가 더 이상 현재가 아닙니다.
 
-* 요청이 변환 프로세스에서 유지된 경우 변환된 요청의 사본을 복사하여 제출할 수 있습니다. 자세한 내용은 [Adobe Workfront의 문제 전환 개요](../../../manage-work/issues/convert-issues/convert-issues.md).
+* 요청이 변환 프로세스에서 유지된 경우 변환된 요청의 사본을 복사하여 제출할 수 있습니다. 자세한 내용은 [Adobe Workfront의 문제 전환 개요](../../../manage-work/issues/convert-issues/convert-issues.md)를 참조하십시오.
 
   >[!TIP]
   >
@@ -118,8 +118,8 @@ ht-degree: 2%
 
 ## 요청 복사 및 제출
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 상단에서 을(를) 클릭한 다음 **요청**.
-1. (조건부) 제출됨 섹션이 기본적으로 표시되지 않으면 **제출됨** 왼쪽 패널에서
+1. Adobe Workfront의 오른쪽 상단에 있는 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **요청**&#x200B;을(를) 클릭합니다.
+1. (조건부) 제출 섹션이 기본적으로 표시되지 않으면 왼쪽 패널에서 **제출됨**&#x200B;을(를) 클릭합니다.
 
    >[!TIP]
    >
@@ -127,17 +127,17 @@ ht-degree: 2%
 
 1. 새로 복사하여 제출할 요청을 찾은 후 다음 중 하나를 수행합니다.
 
-   * 선택한 다음 를 클릭합니다. **복사** ![](assets/copy-and-submit-as-new-requests-area-nwe.png) 을 클릭합니다.
+   * 선택한 다음 제출된 요청 목록의 왼쪽 상단 모서리에서 **복사** ![](assets/copy-and-submit-as-new-requests-area-nwe.png)를 클릭합니다.
 
    >[!TIP]
    >
    > 요청을 먼저 선택하지 않은 경우 복사 아이콘이 흐리게 표시됩니다.
 
-   * 다음을 클릭합니다. **자세히** 메뉴 ![](assets/more-icon.png) 요청 이름 오른쪽에 있는 을 클릭합니다. **새 항목으로 복사 및 제출**
+   * 요청 이름 오른쪽의 **자세히** 메뉴 ![](assets/more-icon.png)을(를) 클릭한 다음 **새 이름으로 복사 및 제출**&#x200B;을 클릭합니다
 
      또는
 
-     선택한 요청을 마우스 오른쪽 단추로 클릭한 다음 **새 항목으로 복사 및 제출**.
+     선택한 요청을 마우스 오른쪽 단추로 클릭한 다음 **새 요청으로 복사 및 제출**&#x200B;을 클릭합니다.
 
      ![](assets/request-selected-more-menu-options-nwe-350x191.png)
 
@@ -147,14 +147,14 @@ ht-degree: 2%
 
 1. (선택 사항) 필요한 경우 다음 정보를 갱신합니다.
 
-   * **요청 유형**: 복사된 요청이 저장되는 요청 대기열입니다. 기본적으로 복사된 요청은 원래 요청의 요청 대기열에 저장됩니다.
-   * **주제 그룹** 및 **대기열 주제**&#x200B;을 선택합니다. 사용자 환경에 맞게 이름 또는 주제 그룹 및 대기열 주제를 사용자 정의합니다. 기본적으로 복사된 요청은 원래 요청의 주제 그룹 및 대기열 주제에 저장됩니다.
+   * **요청 유형**: 복사된 요청이 저장되는 요청 큐입니다. 기본적으로 복사된 요청은 원래 요청의 요청 대기열에 저장됩니다.
+   * **주제 그룹** 및 **주제 대기열**(선택한 경우). 사용자 환경에 맞게 이름 또는 주제 그룹 및 대기열 주제를 사용자 정의합니다. 기본적으로 복사된 요청은 원래 요청의 주제 그룹 및 대기열 주제에 저장됩니다.
 
      >[!TIP]
      >
      >원래 요청의 경로에서 경로가 변경되면 요청 대기열 생성자가 대기열을 수정했습니다.
 
-1. (선택 사항) 복사된 요청에서 모든 정보를 업데이트합니다. 에서 요청 대기열 생성자가 활성화한 필드에 따라 **새 문제 필드** 의 섹션 **대기열 세부 정보** 프로젝트의 하위 탭에서 다음 필드 중 하나를 찾을 수 있습니다.
+1. (선택 사항) 복사된 요청에서 모든 정보를 업데이트합니다. 요청 대기열 생성자가 프로젝트의 **대기열 세부 정보** 하위 탭의 **새 문제 필드** 섹션에서 활성화한 필드에 따라 다음 필드를 찾을 수 있습니다.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -162,7 +162,7 @@ ht-degree: 2%
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>제목</strong> </td> 
-      <td>원래 요청의 이름을 표시합니다. 필요한 경우 업데이트합니다. 그렇지 않으면 Workfront에서 복사된 요청의 이름을 지정합니다 <b>다음의 사본 &lt;name of="" original="" request=""&gt;</b>. 필수 필드입니다.</td> 
+      <td>원래 요청의 이름을 표시합니다. 필요한 경우 업데이트합니다. 그렇지 않으면 Workfront에서 복사된 요청의 이름을 <b>복사본 &lt;원본 요청 이름&gt;</b>으로 지정합니다. 필수 필드입니다.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>설명</strong> </td> 
@@ -195,7 +195,7 @@ ht-degree: 2%
        </ul> <p>Workfront 관리자는 심각도 이름을 수정할 수 있습니다.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>기본 담당자</strong> </td> 
+      <td role="rowheader"><strong>기본 연락처</strong> </td> 
       <td>사용자가 요청과 관련된 모든 질문을 처리할 수 있으므로 요청의 기본 연락처는 기본적으로 귀하에게 제공됩니다. 그러나 다른 Workfront 사용자로 변경할 수 있습니다.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
@@ -205,7 +205,7 @@ ht-degree: 2%
      <tr> 
       <td role="rowheader" colspan="2"> <p><p style="font-weight: normal;">요청 대기열이 설정된 방법에 따라 한 가지 유형의 리소스만 요청에 할당할 수 있습니다(예: 사용자). 라우팅 규칙도 요청 대기열에 연결되어 있으며 자동으로 요청을 다른 유형의 리소스(예: 팀)로 라우팅하는 경우 요청을 제출할 때 수동으로 지정하는 엔티티(사용자)와 라우팅 규칙에 지정된 리소스(팀) 모두에 요청이 할당됩니다.</p> <p style="font-weight: normal;">자세한 내용은 다음 문서를 참조하십시오.</p> 
         <ul> 
-         <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">요청 대기열 만들기</a> </p> </li> 
+         <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">요청 큐 만들기</a> </p> </li> 
          <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">라우팅 규칙 만들기</a> <br> </p> </li> 
         </ul> </p> </td> 
      </tr> 
@@ -214,11 +214,11 @@ ht-degree: 2%
       <td> <p>이 요청을 완료하는 데 걸리는 시간을 예상합니다.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>계획된 시작 일자 기준</strong> </td> 
+      <td role="rowheader"><strong>계획된 시작 일자</strong> </td> 
       <td> <p>이 요청에 대한 작업이 시작되어야 하는 날짜입니다.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>계획된 완료 일자 기준</strong> </td> 
+      <td role="rowheader"><strong>계획된 완료 일자</strong> </td> 
       <td>이 요청을 해결하고자 하는 날짜.</td> 
      </tr> 
      <tr> 
@@ -241,6 +241,6 @@ ht-degree: 2%
    >* 원래 요청에 첨부된 모든 사용자 정의 양식과 사용자 정의 필드에 포함된 값은 복사된 요청으로 전송됩니다. 여기에는 논리가 포함된 필드가 포함됩니다.
    >* 복사된 요청에서 사용자 정의 양식을 제거할 수 없습니다.
 
-1. 클릭 **제출**.
+1. **제출**&#x200B;을 클릭합니다.
 
    복사된 요청이 지정한 요청 대기열에 새 요청으로 제출됩니다.

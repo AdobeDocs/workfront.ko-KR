@@ -17,7 +17,7 @@ ht-degree: 1%
 
 ## 전제 조건
 
-시작하기 전에 보고 캔버스 베타에 등록해야 합니다. 자세한 내용은 [보고 캔버스 Beta: 개요](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+시작하기 전에 보고 캔버스 베타에 등록해야 합니다. 자세한 내용은 [보고 캔버스 베타: 개요](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)를 참조하십시오.
 
 ## 파이 시각화 구성
 
@@ -25,11 +25,11 @@ ht-degree: 1%
 >
 >보고서에서 블록을 빌드하고 편집할 때 모든 변경 사항이 자동으로 저장됩니다.
 
-1. 를 사용하여 시각화 블록을 추가하는 것부터 시작하십시오. **파이** 에 설명된 대로 보고서에 대한 시각화 유형 [보고 캔버스에서 시각화 블록 추가 또는 편집](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md).
+1. [보고 캔버스에서 시각화 블록 추가 또는 편집](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md)에 설명된 대로 보고서에 **원형** 시각화 유형의 시각화 블록을 추가하는 것부터 시작합니다.
 
-1. 시각화 편집 아이콘 을 클릭합니다 ![](assets/edit-icon.png) 시각화의 오른쪽 상단 모서리에서 다음 중 하나를 수행합니다.
+1. 시각화의 오른쪽 상단에 있는 시각화 편집 아이콘 ![](assets/edit-icon.png)을(를) 클릭한 후 다음 중 하나를 수행합니다.
 
-   1. 다음에서 **설정** 탭:
+   1. **설정** 탭에서:
 
       <table style="table-layout:auto">
        <col>
@@ -47,21 +47,21 @@ ht-degree: 1%
          <td role="rowheader">값</td>
          <td><p>왼쪽 드롭다운 메뉴에서 각 쐐기에 표시할 값을 선택합니다.</p><p>오른쪽 드롭다운 메뉴에서 표시에서 해당 값을 계산하는 방법을 선택합니다.</p>
           <ul>
-           <li><p><b>카운트</b>: 값의 수</p></li>
+           <li><p><b>Count</b>: 값의 수</p></li>
            <li><p><b>합계</b>: 모든 값의 합계 </p></li>
            <li><p><b>평균</b>: 모든 값의 평균</p></li>
            <li><p><b>최소</b>: 가장 낮은 값만</p></li>
-           <li><p><b>최대</b>: 가장 높은 값만</p></li>
+           <li><p><b>최대값</b>: 가장 높은 값만</p></li>
           </ul></td>
         </tr>
        </tbody>
       </table>
 
-   1. 다음에서 **데이터** 탭:
+   1. **데이터** 탭에서:
 
       | 데이터 소스(드롭다운 메뉴) | 시각화의 데이터 소스를 보고서 캔버스의 다른 테이블로 변경합니다. |
       |---|---|
-      | 데이터 소스 표시 | 보고서 캔버스에 시각화에 대한 소스 테이블을 표시하려면 이 옵션을 활성화하고, 숨기는 옵션을 비활성화합니다. |
+      | 데이터 Source 표시 | 보고서 캔버스에 시각화에 대한 소스 테이블을 표시하려면 이 옵션을 활성화하고, 숨기는 옵션을 비활성화합니다. |
 
       {style="table-layout:auto"}
 

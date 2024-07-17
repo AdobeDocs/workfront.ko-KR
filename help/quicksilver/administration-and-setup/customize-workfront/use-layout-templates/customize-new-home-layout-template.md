@@ -31,13 +31,13 @@ ht-degree: 1%
 >
 >레이아웃 템플릿에 대한 변경 사항이 저장되면 해당 레이아웃 템플릿의 사용자는 레이아웃 템플릿과 일치하도록 새 홈 페이지를 변경하고 기존 위젯 선택 사항을 페이지 맨 아래로 푸시합니다. 관리자가 선택한 위젯은 사용자가 위치를 변경하고 크기를 조정할 수 있지만 제거할 수 없습니다.
 
-새 홈에 대한 자세한 내용은 [새 홈 시작](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+새 홈에 대한 자세한 내용은 [새 홈 시작](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)을 참조하세요.
 
-레이아웃 템플릿 만들기에 대한 자세한 내용은 [레이아웃 템플릿 만들기 및 관리](../use-layout-templates/create-and-manage-layout-templates.md).
+레이아웃 템플릿 만들기에 대한 자세한 내용은 [레이아웃 템플릿 만들기 및 관리](../use-layout-templates/create-and-manage-layout-templates.md)를 참조하십시오.
 
-그룹의 레이아웃 템플릿에 대한 자세한 내용은 [그룹의 레이아웃 템플릿 만들기 및 수정](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+그룹의 레이아웃 템플릿에 대한 자세한 내용은 [그룹의 레이아웃 템플릿 만들기 및 수정](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)을 참조하십시오.
 
-레이아웃 템플릿을 구성한 후에는 다른 사용자가 변경 내용을 볼 수 있도록 사용자에게 할당해야 합니다. 사용자에게 레이아웃 템플릿을 할당하는 방법에 대한 자세한 내용은 [레이아웃 템플릿에 사용자 할당](../use-layout-templates/assign-users-to-layout-template.md).
+레이아웃 템플릿을 구성한 후에는 다른 사용자가 변경 내용을 볼 수 있도록 사용자에게 할당해야 합니다. 사용자에게 레이아웃 템플릿을 할당하는 방법에 대한 자세한 내용은 [레이아웃 템플릿에 사용자 할당](../use-layout-templates/assign-users-to-layout-template.md)을 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -58,18 +58,18 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
    <td> <p>시스템 수준에서 이러한 단계를 수행하려면 시스템 관리자 액세스 수준이 필요합니다.
-그룹에 대해 이러한 작업을 수행하려면 해당 그룹의 관리자여야 합니다.</p> <p><b>참고</b>: 아직 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가적인 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+그룹에 대해 이러한 작업을 수행하려면 해당 그룹의 관리자여야 합니다.</p> <p><b>참고</b>: 아직 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정했는지 문의하세요. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 레이아웃 템플릿을 사용하여 새 홈 맞춤화
 
-1. 에 설명된 대로 레이아웃 템플릿에서 작업 시작 [레이아웃 템플릿 만들기 및 관리](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. [레이아웃 템플릿 만들기 및 관리](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)에 설명된 대로 레이아웃 템플릿 작업을 시작합니다.
 
-1. 아래쪽 화살표 클릭 ![](assets/dropdown-arrow.png) 아래에 **사용자에게 표시되는 항목 맞춤화**&#x200B;을 클릭한 다음 을 클릭합니다 **홈 Workspace**.
+1. **사용자에게 표시되는 항목 사용자 지정**&#x200B;에서 아래쪽 화살표 ![](assets/dropdown-arrow.png)을(를) 클릭한 다음 **홈 Workspace**&#x200B;을(를) 클릭합니다.
 
-1. 오른쪽에 나타나는 탭에서 다음 중 하나를 클릭합니다. **디자인 및 레이아웃** 위젯과 배경을 선택하고 정렬하려면 또는 **위젯 설정** 사용 가능한 필터 및 그룹과 같은 개별 위젯에 대한 설정을 관리합니다.
+1. 오른쪽에 나타나는 탭에서 **디자인 및 레이아웃**&#x200B;을 클릭하여 위젯과 배경을 선택하고 정렬하거나 **위젯 설정**&#x200B;을 클릭하여 사용 가능한 필터 및 그룹과 같은 개별 위젯에 대한 설정을 관리합니다.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -79,8 +79,8 @@ ht-degree: 1%
       <td role="rowheader">디자인 및 레이아웃</td> 
       <td>
       <p>사용자의 작업 영역에 표시될 위젯과 해당 위치를 선택하고 배경을 선택합니다. 사용자는 선택한 위젯을 제거할 수 없지만 자유롭게 이동하고 크기를 조정할 수 있으며 위젯을 추가할 수도 있습니다.</p>
-      <p>이 탭은 기본적으로 작은 새 홈 작업 영역으로 작동합니다. 이에 설명된 단계에 따라 사용자 정의할 수 있습니다 <a href="/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">새 홈에서 위젯 추가, 편집 또는 제거</a>. 위젯을 선택하고 사용자에게 표시하려는 대로 작업 영역을 정렬합니다.</p>
-      <p>배경을 변경하려면 다음 단계를 수행합니다 <b>백그라운드 사용자 정의</b> 위치: <a href="/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md" class="MCXref xref">새 홈 시작</a>.</p>
+      <p>이 탭은 기본적으로 작은 새 홈 작업 영역으로 작동합니다. 따라서 <a href="/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">새 홈에서 위젯을 추가, 편집 또는 제거</a>하는 단계에 따라 사용자 지정할 수 있습니다. 위젯을 선택하고 사용자에게 표시하려는 대로 작업 영역을 정렬합니다.</p>
+      <p>배경을 변경하려면 <a href="/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md" class="MCXref xref">새 홈 시작</a>에서 <b>배경 사용자 지정</b>의 단계를 따르십시오.</p>
       <p>
 
 >[!NOTE]
@@ -99,7 +99,7 @@ ht-degree: 1%
         <li>내 작업</li>
         <li>내 문제</li>
       </ul>
-      <p>편집할 위젯을 선택하면 사용 가능한 옵션이 오른쪽에 표시됩니다. 이러한 옵션은 다음과 같습니다 <b>필터</b>, <b>열</b>, 및 <b>그룹</b>. 다음을 수행할 수 있습니다.</p>
+      <p>편집할 위젯을 선택하면 사용 가능한 옵션이 오른쪽에 표시됩니다. 이러한 옵션에는 <b>필터</b>, <b>열</b> 및 <b>그룹</b>이 포함됩니다. 다음을 수행할 수 있습니다.</p>
       <ul>
       <li><p><b>사용자가 사용할 수 있는 필터, 열 또는 그룹을 선택하고 순서를 지정합니다.</b></p>
       <p>목록에서 사용자가 사용할 수 있게 하려는 모든 옵션 옆에 있는 상자를 선택합니다. 선택하지 않은 옵션은 사용자에게 표시되지 않습니다. 목록에서 옵션을 끌어다 놓아 순서를 설정합니다.</li></p>
@@ -131,7 +131,7 @@ ht-degree: 1%
 
    또는
 
-   사용자 지정을 마쳤으면 **저장** 왼쪽 아래에 있습니다.
+   사용자 지정을 마쳤으면 왼쪽 하단의 **저장**&#x200B;을 클릭합니다.
 
 
 >[!NOTE]

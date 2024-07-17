@@ -22,9 +22,9 @@ ht-degree: 0%
 
 이 페이지에서는 2021년 6월 28일이 있는 주에 Adobe Workfront Fusion에서 향상된 모든 기능에 대해 설명합니다.
 
-최근 변경 사항의 목록은 다음을 참조하십시오. [Adobe Workfront Fusion 릴리스 활동](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+최근 모든 변경 사항의 목록은 [Adobe Workfront Fusion 릴리스 활동](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)을 참조하십시오.
 
-Workfront Fusion의 최근 버그 수정 목록은 다음을 참조하십시오. [Workfront 유지 보수 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) Workfront Fusion Maintenance Update로 레이블이 지정된 업데이트를 찾아 확인합니다.
+Workfront Fusion의 최근 버그 수정 목록을 보려면 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 페이지를 참조하고 Workfront Fusion 유지 관리 업데이트 레이블이 지정된 업데이트를 확인하십시오.
 
 ## Salesforce 커넥터의 새 검색 모듈
 
@@ -32,7 +32,7 @@ Salesforce 개체를 더 쉽게 검색할 수 있도록 Salesforce 커넥터에 
 
 직접 질의를 입력하고자 하는 경우 질의 검색 모듈에서 기존 기능을 사용할 수 있습니다.
 
-자세한 내용은 [Salesforce 모듈](../../../workfront-fusion/apps-and-their-modules/salesforce-modules.md).
+자세한 내용은 [Salesforce 모듈](../../../workfront-fusion/apps-and-their-modules/salesforce-modules.md)을 참조하세요.
 
 ## Workfront > 레코드 보기 모듈에서 사용할 수 있는 이벤트 구독 필터링
 
@@ -40,4 +40,4 @@ Workfront의 새로운 이벤트 구독 필터링 기능과 함께, 이벤트 �
 
 이전에는 레코드 보기 모듈에서 모든 레코드를 검색했습니다. 사용자는 이후 시나리오 모듈에서 필터를 설정해야만 필터링할 수 있습니다.
 
-자세한 내용은 [Adobe Workfront 모듈](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+자세한 내용은 [Adobe Workfront 모듈](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md)을 참조하세요.

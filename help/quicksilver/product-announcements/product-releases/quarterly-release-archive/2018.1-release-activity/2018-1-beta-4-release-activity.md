@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: 2018.1 베타 4 릴리스 활동
-description: 이 페이지에서는 2018.1 베타 4 릴리스의 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 기능은 2018년 1월 24일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2018년 3월에 사용할 수 있습니다.
+title: 2018.1 Beta 4 릴리스 활동
+description: 이 페이지에서는 2018.1 Beta 4 릴리스의 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 기능은 2018년 1월 24일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2018년 3월에 사용할 수 있습니다.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 ---
 
-# 2018.1 베타 4 릴리스 활동
+# 2018.1 Beta 4 릴리스 활동
 
-이 페이지에서는 2018.1 베타 4 릴리스의 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 기능은 2018년 1월 24일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2018년 3월에 사용할 수 있습니다.
+이 페이지에서는 2018.1 Beta 4 릴리스의 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 기능은 2018년 1월 24일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2018년 3월에 사용할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -24,37 +24,37 @@ ht-degree: 0%
 
 2018.1의 모든 변경 사항 목록은 다음을 참조하십시오.  [2018.1 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
 
-2018.1 베타 4 릴리스에는 Workfront 관리자와 기타 사용자 모두를 위한 개선 사항이 포함되어 있습니다.
+2018.1 Beta 4 릴리스에는 Workfront 관리자와 기타 사용자 모두를 위한 개선 사항이 포함되어 있습니다.
 
-**관리자용**
+관리자용 **1}**
 
 * [그룹 관리자가 관리하는 일정](#schedules-managed-by-group-administrators)
 
 **모든 사용자용**
 
 * [Workfront의 증명 개선 사항](#proofing-improvements-within-workfront)
-* [Workfront Proof의 증명 만들기 - 향상된 사용자 경험 및 추가 기능](#proof-creation-in-workfront-proof-improved-user-experience-and-additional-functionality)
+* [Workfront Proof에서 증명 만들기 - 향상된 사용자 환경 및 추가 기능](#proof-creation-in-workfront-proof-improved-user-experience-and-additional-functionality)
 * [Workfront 및 Workfront Proof의 증명 개선 사항](#proofing-improvements-within-workfront-and-workfront-proof)
-* [Workfront Proof의 Basecamp 통합으로 룩앤필 업데이트](#updated-look-and-feel-with-basecamp-integration-in-workfront-proof)
-* [클립보드에서 Workfront으로 이미지 붙여넣기](#paste-images-to-workfront-from-the-clipboard)
-* [활용성 보고서 개선 사항](#utilization-report-improvements)
-* [Workfront에서 리소스 예산 시간 오브젝트 제거](#remove-the-resource-budgeted-hour-object-from-workfront)
+* [Workfront Proof에서 Basecamp 통합을 사용하여 모양과 느낌을 업데이트했습니다](#updated-look-and-feel-with-basecamp-integration-in-workfront-proof)
+* [클립보드에서 Workfront에 이미지 붙여넣기](#paste-images-to-workfront-from-the-clipboard)
+* [사용률 보고서 개선 사항](#utilization-report-improvements)
+* [Workfront에서 리소스 예산 시간 개체를 제거합니다](#remove-the-resource-budgeted-hour-object-from-workfront)
 * [보고서 사용 통계](#report-usage-statistics)
 * [간트 차트 업데이트](#gantt-chart-updates)
 * [새 Portfolio 최적화 도구](#new-portfolio-optimizer)
-* [리소스 플래너의 예산 일자 조정 옵션](#budget-date-adjustment-option-in-the-resource-planner)
-* [리소스 일정 조정: 그룹 멤버십을 기준으로 사용자에게 할당 제한](#resource-scheduling-restrict-assignments-to-users-based-on-group-membership)
-* [리소스 일정 조정: 역할에 관계없이 사용자에게 할당 허용](#resource-scheduling-allow-assignments-to-users-regardless-of-role)
+* [리소스 플래너의 예산 날짜 조정 옵션](#budget-date-adjustment-option-in-the-resource-planner)
+* [리소스 예약: 그룹 구성원을 기준으로 사용자에 대한 할당을 제한합니다](#resource-scheduling-restrict-assignments-to-users-based-on-group-membership)
+* [리소스 예약: 역할에 관계없이 사용자에게 할당할 수 있음](#resource-scheduling-allow-assignments-to-users-regardless-of-role)
 * [이모지 지원](#emoji-support)
 
 ## Workfront의 증명 개선 사항 {#proofing-improvements-within-workfront}
 
 Workfront의 문서 목록은 다음과 같이 개선되었습니다. 
 
-* [문서 목록에서 증명 진행 상황 보기](#view-proof-progress-from-the-document-list)
+* [문서 목록에서 증명 진행률 보기](#view-proof-progress-from-the-document-list)
 * [문서 목록에서 인쇄 요약을 보는 새로운 옵션](#new-option-to-view-the-print-summary-from-the-document-list)
 * [문서 목록에서 증명을 생성하거나 열기 위한 모양과 느낌이 업데이트됨](#updated-look-and-feel-for-generating-or-opening-the-proof-from-the-document-list)
-* [문서 목록의 문서에서 제거된 다양한 링크](#various-links-removed-from-documents-on-the-document-list)
+* [문서 목록의 문서에서 다양한 링크가 제거됨](#various-links-removed-from-documents-on-the-document-list)
 * [결합된 증명에서 파일 이름 보기](#view-file-names-on-combined-proofs)
 * [문서 목록에서 증명의 현재 활성 단계 보기](#view-the-current-active-stage-of-a-proof-from-the-document-list)
 
@@ -64,7 +64,7 @@ Workfront의 문서 목록은 다음과 같이 개선되었습니다. 
 
 이 변경 이전에는 오른쪽 패널에서 증명 진행률을 보려면 문서 목록에서 증명을 선택해야 했습니다. 
 
-자세한 내용은 [증명 진행 상황 및 상태 개요](../../../../review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md).
+자세한 내용은 [증명 진행 상황 및 상태 개요](../../../../review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md)를 참조하세요.
 
 ### 문서 목록에서 인쇄 요약을 보는 새로운 옵션 {#new-option-to-view-the-print-summary-from-the-document-list}
 
@@ -72,7 +72,7 @@ Workfront의 문서 목록은 다음과 같이 개선되었습니다. 
 
 이 변경 이전에는 증명 뷰어에서만 인쇄 요약을 볼 수 있었습니다. 
 
-문서 목록에서 인쇄 요약을 보는 방법에 대한 자세한 내용은 [Adobe Workfront 내에서 증명 요약 인쇄](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md).
+문서 목록에서 인쇄 요약을 보는 방법에 대한 자세한 내용은 [Adobe Workfront 내에서 증명 요약 인쇄](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md)를 참조하십시오.
 
 ### 문서 목록에서 증명을 생성하거나 열기 위한 모양과 느낌이 업데이트됨 {#updated-look-and-feel-for-generating-or-opening-the-proof-from-the-document-list}
 
@@ -89,8 +89,8 @@ Workfront의 문서 목록은 다음과 같이 개선되었습니다. 
 
 다음 작업은 문서 목록 내의 개별 문서에 대한 링크로 더 이상 사용할 수 없습니다.
 
-* 증명 생성
-* 증명
+* 교정쇄 생성
+* 교정쇄
 * 세부 정보
 * 공유
 * 체크아웃 / 체크인
@@ -102,7 +102,7 @@ Workfront의 문서 목록은 다음과 같이 개선되었습니다. 
 
 이제 증명 열기 또는 증명 생성 버튼 옆에 있는 드롭다운 메뉴에서 다음 작업을 사용할 수 있습니다.
 
-* 증명 세부 정보
+* 교정쇄 세부 정보
 * 문서 세부 정보
 * 인쇄 요약
 
@@ -121,9 +121,9 @@ Workfront의 문서 목록은 다음과 같이 개선되었습니다. 
 
 이제 문서 목록에서 증명을 선택할 때 현재 활성 단계가 세부 정보 탭의 오른쪽 열에 표시됩니다. 
 
-자세한 내용은 [증명에서 활성 단계 보기](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-active-stages-proof.md).  
+자세한 내용은 [증명에서 활성 단계 보기](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-active-stages-proof.md)를 참조하십시오.  
 
-## Workfront Proof의 증명 만들기 - 향상된 사용자 경험 및 추가 기능 {#proof-creation-in-workfront-proof-improved-user-experience-and-additional-functionality}
+## Workfront Proof에서의 증명 생성 - 향상된 사용자 경험 및 추가 기능 {#proof-creation-in-workfront-proof-improved-user-experience-and-additional-functionality}
 
 이제 Workfront Proof에서 증명을 만들 때 개선된 사용자 경험 외에도 다음과 같은 추가 기능을 사용할 수 있습니다.
 
@@ -146,7 +146,7 @@ Workfront의 문서 목록은 다음과 같이 개선되었습니다. 
 Workfront 및 Workfront Proof에 문서를 추가할 때 다음 변경 사항이 적용됩니다.
 
 * [증명을 검토할 때 주석 목록 크기 조정](#resize-the-comment-list-when-reviewing-proofs)
-* [정적 증명을 검토할 때 하이퍼링크가 활성화됩니다.](#hyperlinks-are-active-when-reviewing-static-proofs)
+* 정적 증명을 검토할 때 [하이퍼링크가 활성화됩니다](#hyperlinks-are-active-when-reviewing-static-proofs)
 * [증명 추가 시 개선 사항](#improvements-when-adding-proofs)
 
 ### 증명을 검토할 때 주석 목록 크기 조정 {#resize-the-comment-list-when-reviewing-proofs}
@@ -190,7 +190,7 @@ Workfront 및 Workfront Proof에 문서를 추가할 때 다음 변경 사항이
 
 ## Workfront Proof의 Basecamp 통합으로 룩앤필 업데이트 {#updated-look-and-feel-with-basecamp-integration-in-workfront-proof}
 
-이제 Workfront Proof와의 Basecamp 통합의 모양과 느낌이 업데이트되었습니다. 기능은 그대로 유지됩니다.
+이제 Workfront Proof과의 Basecamp 통합의 모양과 느낌이 업데이트되었습니다. 기능은 그대로 유지됩니다.
 
 ## 클립보드에서 Workfront으로 이미지 붙여넣기 {#paste-images-to-workfront-from-the-clipboard}
 
@@ -198,7 +198,7 @@ Workfront 및 Workfront Proof에 문서를 추가할 때 다음 변경 사항이
 
 클립보드에서 붙여넣는 기능이 이전 릴리스의 Workfront에서 제거되었습니다. 이 릴리스와 함께 다시 도입됩니다. 새로운 방법은 더 능률적이고 직관적이다.
 
-자세한 내용은 [클립보드에서 이미지 붙여넣기](../../../../documents/managing-documents/paste-image-clipboard.md). 
+자세한 내용은 [클립보드에서 이미지 붙여넣기](../../../../documents/managing-documents/paste-image-clipboard.md)를 참조하십시오. 
 
 ## 활용성 보고서 개선 사항 {#utilization-report-improvements}
 
@@ -227,7 +227,7 @@ Workfront 및 Workfront Proof에 문서를 추가할 때 다음 변경 사항이
 
 * 향상된 성능
 
-활용률 보고서에 대한 자세한 내용은 다음을 참조하십시오. [자원 가동률 보고서 개요](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+사용률 보고서에 대한 자세한 내용은 [리소스 사용률 보고서 개요](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)를 참조하십시오.
 
 ## Workfront에서 리소스 예산 시간 오브젝트 제거 {#remove-the-resource-budgeted-hour-object-from-workfront}
 
@@ -235,7 +235,7 @@ Workfront 및 Workfront Proof에 문서를 추가할 때 다음 변경 사항이
 
 다시 말해서, 리소스 예산 시간은 리소스 플래너에서 리소스 또는 프로젝트에 예산을 책정하는 시간입니다. 당분간은 웹 애플리케이션이나 API를 통해 이 필드에 대해 더 이상 보고할 수 없습니다. 성능 문제가 해결되면 이후 릴리스에서 필드가 복원됩니다.
 
-리소스 플래너의 예산 시간에 대한 자세한 내용은 다음을 참조하십시오. [리소스 플래너 개요](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md). 
+리소스 플래너의 예산 편성 시간에 대한 자세한 내용은 [리소스 플래너 개요](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md)를 참조하십시오. 
 
 ## 보고서 사용 통계 {#report-usage-statistics}
 
@@ -250,13 +250,13 @@ Workfront 및 Workfront Proof에 문서를 추가할 때 다음 변경 사항이
 
 이 업데이트 이전에는 보고서에서 볼 수 있는 사용 정보가 제한되었습니다.
 
-보고서 사용에 대한 자세한 내용은 [보고서 사용 보기](../../../../reports-and-dashboards/reports/report-usage/view-report-usage.md)
+보고서 사용량에 대한 자세한 내용은 [보고서 사용량 보기](../../../../reports-and-dashboards/reports/report-usage/view-report-usage.md)를 참조하세요.
 
 ## 그룹 관리자가 관리하는 일정 {#schedules-managed-by-group-administrators}
 
 그룹 관리자는 관리하는 그룹 및 해당 하위 그룹과 관련된 일정을 만들고 편집할 수 있습니다. 이 변경 이전에는 Workfront 관리자만 일정을 만들고 편집할 수 있었습니다.
 
-일정 관리에 대한 자세한 내용은 [일정 만들기](../../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
+일정 관리에 대한 자세한 내용은 [일정 만들기](../../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)를 참조하세요.
 
 ## 간트 차트 업데이트 {#gantt-chart-updates}
 
@@ -269,25 +269,25 @@ Workfront 및 Workfront Proof에 문서를 추가할 때 다음 변경 사항이
 
 이 변경 이전에는 간트 차트에서 전임 작업 관계만 제거할 수 있었고 작업 목록에서만 작업을 편집할 수 있었습니다.
 
-간트 차트에 대한 자세한 내용은 [작업 목록 간트 차트에서 정보 업데이트](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)
+간트 차트에 대한 자세한 내용은 [작업 목록 간트 차트에서 정보 업데이트](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)를 참조하십시오.
 
 ## 새 Portfolio 최적화 도구 {#new-portfolio-optimizer}
 
 이제 Workfront의 Portfolio 최적화 도구 영역이 새로운 모양과 느낌으로 업데이트되었습니다. 기능은 변경되지 않았습니다.
 
-Portfolio 최적기에 대한 자세한 내용은 [Portfolio 최적화 프로그램 개요](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
+Portfolio 최적화 프로그램에 대한 자세한 내용은 [Portfolio 최적화 프로그램 개요](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)를 참조하십시오.
 
 ## 리소스 플래너의 예산 일자 조정 옵션 {#budget-date-adjustment-option-in-the-resource-planner}
 
 예산 충돌 없이 시간대를 빠르게 파악할 수 있는 옵션이 추가되었습니다. 예산 충돌이 발생하지 않은 시간대가 발생하는 시점을 보고 나면 예산 시간을 해당 시간으로 수동으로 이동할 수 있습니다. 이렇게 하면 시간의 예산 일자 또한 조정됩니다. 이 업데이트 이전에는 프로젝트에 대한 예산 충돌을 한눈에 볼 수 없었습니다.
 
-리소스 플래너의 예산 일자 조정에 대한 자세한 내용은 [리소스 플래너 개요](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md)
+리소스 플래너의 예산 날짜 조정에 대한 자세한 내용은 [리소스 플래너 개요](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md)의 &quot;예산 조정 날짜&quot; 섹션을 참조하십시오
 
 ## 리소스 일정 조정: 그룹 멤버십을 기준으로 사용자에게 할당 제한 {#resource-scheduling-restrict-assignments-to-users-based-on-group-membership}
 
 >[!NOTE]
 >
->리소스 예약 도구는 23.1 릴리스에서 더 이상 사용되지 않으며 Workfront에서 제거되었습니다. 업무 균형자 를 사용하여 리소스를 예약하는 방법에 대한 자세한 내용은 [업무 균형자 개요](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>리소스 예약 도구는 23.1 릴리스에서 더 이상 사용되지 않으며 Workfront에서 제거되었습니다. 업무 균형자를 사용하여 리소스를 예약하는 방법에 대한 자세한 내용은 [업무 균형자 개요](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md)를 참조하십시오.
 
 이제 &quot;예약 영역에서 미할당 작업 및 문제 수동 할당&quot;에 설명된 대로 예약 영역에서 사용자를 할당할 때 작업 또는 문제가 발생하는 프로젝트에 정의된 그룹의 구성원인 사용자만 작업 및 문제 할당을 제한하도록 Workfront을 구성할 수 있습니다. 
 
@@ -339,4 +339,4 @@ Portfolio 최적기에 대한 자세한 내용은 [Portfolio 최적화 프로그
 
 이제 이모지를 삽입하여 Workfront에서 댓글 및 업데이트에 대한 톤을 설정할 수 있습니다. 업데이트 탭에서 작성한 댓글에 추가된 모든 이모지는 업데이트 이메일 알림에도 표시됩니다. 
 
-자세한 내용은, [작업 업데이트](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+자세한 내용은 [작업 업데이트](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)를 참조하세요.

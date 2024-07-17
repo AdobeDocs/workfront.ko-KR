@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # Adobe Workfront 목표의 정보 필터링
 
-본인 또는 다른 사람이 Adobe Workfront 목표에 추가한 목표를 볼 수 있습니다. 목표 작성에 대한 자세한 내용은 [Adobe Workfront 목표에서 목표 만들기](../../workfront-goals/goal-management/create-goals.md). 목표를 볼 때 Workfront 목표에서 정보를 필터링하여 자신에게 중요한 목표만 볼 수 있습니다.
+본인 또는 다른 사람이 Adobe Workfront 목표에 추가한 목표를 볼 수 있습니다. 목표 만들기에 대한 자세한 내용은 [Adobe Workfront 목표에서 목표 만들기](../../workfront-goals/goal-management/create-goals.md)를 참조하십시오. 목표를 볼 때 Workfront 목표에서 정보를 필터링하여 자신에게 중요한 목표만 볼 수 있습니다.
 
 ## 액세스 요구 사항
 
@@ -44,7 +44,7 @@ ht-degree: 2%
  <td>
  <p>새 라이선스: 기여자 이상</p>
  또는
- <p>현재 라이선스: 요청 이상</p> <p>자세한 내용은 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront 라이선스 개요</a>.</p> </td>
+ <p>현재 라이선스: 요청 이상</p> <p>자세한 내용은 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront 라이선스 개요</a>를 참조하십시오.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">제품*</td>
@@ -54,7 +54,7 @@ ht-degree: 2%
 <li>Select 또는 Prime Adobe Workfront 플랜 및 추가 Adobe Workfront Goals 라이선스.</li>
 <li>기본적으로 Workfront 목표를 포함하는 Ultimate Workfront 계획입니다. </li></ul>
  <p>또는</p>
- <p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표 사용 요구 사항</a>. </p> </td>
+ <p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표를 사용하기 위한 요구 사항</a>을 참조하십시오. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">액세스 수준</td>
@@ -66,7 +66,7 @@ ht-degree: 2%
   <div>
   <p>목표에 대한 또는 그 이상의 권한에 대한 보기</p>
   <p>편집할 목표에 대한 권한 관리</p>
-  <p>목표 공유에 대한 자세한 내용은 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront 목표에서 목표 공유</a>. </p>
+  <p>목표 공유에 대한 자세한 내용은 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront 목표에서 목표 공유</a>를 참조하십시오. </p>
   </div> </td>
  </tr>
  <tr>
@@ -77,7 +77,7 @@ ht-degree: 2%
 </tbody>
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## Workfront 목표의 필터 개요
 
@@ -91,7 +91,7 @@ Workfront의 목표 영역의 다음 섹션에서 목표를 찾고 필터링할 
 * 그래프
 * 목표 정렬
 
-목표 영역의 섹션에 대한 자세한 내용은 [Adobe Workfront 목표 섹션 개요](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
+목표 영역의 섹션에 대한 자세한 내용은 [Adobe Workfront 목표 섹션 개요](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md)를 참조하십시오.
 
 >[!IMPORTANT]
 >
@@ -113,7 +113,7 @@ Workfront 목표에서 필터를 사용할 때는 다음 사항을 고려하십�
 
 목표 목록에서 빠른 필터를 사용하여 자신에게 중요한 항목만 찾을 수 있습니다. 빠른 필터는 저장할 수 없으며 영구적이지 않습니다. Workfront은 페이지를 새로 고칠 때 빠른 필터의 결과를 지웁니다.
 
-자세한 내용은 [목록에 빠른 필터 적용](../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
+자세한 내용은 [목록에 빠른 필터 적용](../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md)을 참조하십시오.
 
 ## Workfront 목표에서 필터 만들기 및 적용
 
@@ -123,15 +123,15 @@ Workfront 목표에서 필터를 사용할 때는 다음 사항을 고려하십�
 
 1. Workfront 목표로 이동합니다.
 
-   Workfront 목표 액세스에 대한 자세한 내용은 [Adobe Workfront 목표의 목표 액세스 및 열기](../../workfront-goals/goal-management/access-goals-in-wf-goals.md)
+   Workfront 목표에 액세스하는 방법에 대한 자세한 내용은 [Adobe Workfront 목표에서 목표 액세스 및 열기](../../workfront-goals/goal-management/access-goals-in-wf-goals.md)를 참조하십시오.
 
    기본적으로 목표 목록 섹션이 표시됩니다.
 
-1. 클릭 **필터** 목록의 오른쪽 상단에 있습니다.
+1. 목록의 오른쪽 상단 모서리에서 **필터**&#x200B;를 클릭합니다.
 
    ![](assets/filter-icon-and-label.png)
 
-   기본적으로 Workfront은 **모두** 시스템의 모든 목표를 표시하는 을 필터링합니다.
+   기본적으로 Workfront은 시스템의 모든 목표를 표시하는 **모두** 필터를 적용합니다.
 
    >[!TIP]
    >
@@ -173,9 +173,9 @@ Workfront 목표에서 필터를 사용할 때는 다음 사항을 고려하십�
       </tbody> 
      </table>
 
-   * 필터 이름을 마우스로 가리킨 다음, **편집** 아이콘 ![](assets/edit-icon.png) 이름 옆에 사용자 정의하고 특정 사용자, 팀, 그룹 또는 조직 이름을 추가한 다음 목록에 표시될 때 선택합니다.
+   * 필터 이름을 마우스로 가리킨 다음, 필터 이름 옆에 있는 **편집** 아이콘 ![](assets/edit-icon.png)을(를) 클릭하여 사용자 지정하고 사용자, 팀, 그룹 또는 조직의 이름을 추가한 다음 목록에 표시될 때 선택합니다.
 
-   * 클릭 **새 필터** 새 필터를 만들려면 다음 옵션 중에서 선택하여 새 필터를 사용자 지정합니다.
+   * **새 필터**&#x200B;를 클릭하여 새 필터를 만든 다음 다음 다음 옵션 중에서 선택하여 새 필터를 사용자 지정합니다.
 
      <table style="table-layout:auto"> 
       <col> 
@@ -208,18 +208,18 @@ Workfront 목표에서 필터를 사용할 때는 다음 사항을 고려하십�
         <td role="rowheader">소유자</td> 
         <td> <p>소유자 이름을 입력한 다음 목록에 나타나면 이름을 선택합니다. </p> <p>사용자, 팀, 그룹 또는 조직 이름을 입력하거나 미리 정의된 선택 사항에서 선택할 수 있습니다. </p> <p>다음과 같이 사전 정의된 필터 옵션은 항상 현재 로그인한 사용자를 참조합니다. </p> 
          <ul> 
-          <li> <p><strong>나</strong>: 자신이 소유자인 목표를 표시합니다.</p> </li> 
+          <li> <p><strong>내</strong>: 사용자가 소유자인 목표를 표시합니다.</p> </li> 
           <li> <p><strong>내 홈 팀</strong> 및 <strong>모든 내 팀</strong>: 홈 팀이나 팀이 소유자로 지정된 목표를 표시합니다. </p> <p>팁: 팀에 할당되지 않은 경우 목표가 표시되지 않습니다. </p> </li> 
-          <li> <p><strong>내 홈 그룹</strong> 및 <strong>모든 내 그룹</strong>: 홈 그룹 또는 그룹 중 하나가 소유자로 지정된 목표를 표시합니다.</p> </li> 
+          <li> <p><strong>내 홈 그룹</strong> 및 <strong>모든 내 그룹</strong>: 홈 그룹 또는 그룹이 소유자로 지정된 목표를 표시합니다.</p> </li> 
          </ul> </td> 
        </tr> 
       </tbody> 
      </table>
 
-1. (선택 사항) **재설정** 필터 상자의 오른쪽 아래 모서리에서 선택한 모든 필드를 지우고 필터를 처음부터 빌드합니다.
-1. (선택 사항) **적용** 필터를 저장하지 않고 적용합니다.
+1. (선택 사항) 필터 상자의 오른쪽 아래 모서리에 있는 **재설정**&#x200B;을 클릭하여 선택한 모든 필드를 지우고 처음부터 필터 빌드를 시작합니다.
+1. (선택 사항) 저장하지 않고 필터를 적용하려면 **적용**&#x200B;을 클릭하십시오.
 
-   다음에 필터가 표시됩니다. **저장되지 않음** 필터 빌더 영역 **새 필터**.
+   필터가 필터 빌더의 **저장되지 않음** 영역에 **새 필터**(으)로 표시됩니다.
 
    저장하지 않은 필터의 이름은 변경할 수 없습니다.
 
@@ -229,26 +229,26 @@ Workfront 목표에서 필터를 사용할 때는 다음 사항을 고려하십�
    >
    >한 번에 하나의 저장되지 않은 새 필터만 가질 수 있습니다.
 
-1. 클릭 **저장** 필터를 저장하여 나중에 사용하도록 한 다음 **필터 이름 추가** 필드 및 클릭 **완료**.
+1. 나중에 사용하기 위해 필터를 저장하려면 **저장**&#x200B;을 클릭한 다음 **필터 이름 추가** 필드에 필터 이름을 추가하고 **완료**&#x200B;를 클릭합니다.
 
-   이렇게 하면 필터가 **저장됨** 필터 빌더의 섹션입니다. 나중에 이 필터를 사용할 수 있습니다.
+   필터 빌더의 **저장됨** 섹션에 필터가 저장됩니다. 나중에 이 필터를 사용할 수 있습니다.
 
    다음에 Workfront에 다시 로그인할 때 마지막으로 저장되고 적용된 필터가 기본적으로 표시됩니다
 
-1. (선택 사항) **왼쪽 방향 화살표** 다음에 **새 필터** 필터 빌더를 종료하고 필터 목록으로 돌아갑니다.
-1. (선택 사항) 사용자 지정 필터의 이름 위로 마우스를 가져간 후 **자세히** 메뉴를 선택한 다음 **삭제**, 그런 다음 **삭제**. 이렇게 하면 필터가 삭제되며 복구할 수 없습니다.
+1. (선택 사항) **새 필터** 옆에 있는 **왼쪽 방향 화살표**&#x200B;를 클릭하여 필터 빌더를 종료하고 필터 목록으로 돌아갑니다.
+1. (선택 사항) 사용자 지정 필터의 이름 위로 마우스를 가져간 후 **자세히** 메뉴를 클릭한 다음 **삭제**, **삭제**&#x200B;를 클릭합니다. 이렇게 하면 필터가 삭제되며 복구할 수 없습니다.
 
    >[!TIP]
    >
    >사전 정의된 필터는 삭제할 수 없습니다.
 
-1. 다음을 클릭합니다. **X 아이콘** 필터 빌더의 오른쪽 상단 모서리에서 필터 빌더를 닫습니다.
+1. 필터 빌더의 오른쪽 위 모서리에 있는 **X 아이콘**&#x200B;을 클릭하여 필터 빌더를 닫습니다.
 
    현재 적용된 필터의 이름은 목표 목록의 오른쪽 상단 모서리에 있는 필터 아이콘 오른쪽에 표시됩니다.
 
    목표 목록은 필터 기준으로 필터링됩니다.
 
-1. (선택 사항 및 조건부) 목표 정렬 섹션에서 목표를 볼 때 **해당 항목 표시** 필터링된 목표를 보려는 경우.
+1. (선택 사항 및 조건부) 목표 정렬 섹션에서 목표를 볼 때 필터링된 목표를 보려면 **목표 표시**&#x200B;를 클릭합니다.
 
    ![](assets/show-them-link-on-filtered-items-goal-list-350x109.png)
 
@@ -257,6 +257,6 @@ Workfront 목표에서 필터를 사용할 때는 다음 사항을 고려하십�
    ![](assets/filter-yellow-outline-next-to-reapply-filter-link-350x118.png)
 
 
-1. (선택 사항 및 조건부) 클릭 **필터 다시 적용** 필터를 적용하고 이전 단계에서 표시한 항목을 생략합니다.
+1. (선택 사항 및 조건부) **필터 다시 적용**&#x200B;을 클릭하여 필터를 적용하고 이전 단계에서 표시한 항목을 생략합니다.
 
 

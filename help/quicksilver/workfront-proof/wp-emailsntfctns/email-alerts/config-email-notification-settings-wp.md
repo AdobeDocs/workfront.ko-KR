@@ -2,7 +2,7 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: email-alerts-workfront-proof
-title: 에서 이메일 알림 설정 구성 [!DNL Workfront Proof]
+title: ' [!DNL Workfront Proof]에서 전자 메일 알림 설정 구성'
 description: Workfront Proof에서 생성된 이메일 알림은 공동 작업자에게 댓글, 답글 또는 의사 결정과 같은 증명에 대한 최근 활동에 대해 알립니다.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -14,30 +14,30 @@ ht-degree: 0%
 
 ---
 
-# 에서 이메일 알림 설정 구성 [!DNL Workfront Proof]
+# [!DNL Workfront Proof]에서 전자 메일 알림 설정 구성
 
 <!--Audited: 01/2024-->
 
 >[!IMPORTANT]
 >
->이 문서는 독립 실행형 제품의 기능에 대해 설명합니다 [!DNL Workfront Proof]. 내부 교정에 대한 정보 [!DNL Adobe Workfront], 참조 [증명](../../../review-and-approve-work/proofing/proofing.md).
+>이 문서는 독립 실행형 제품 [!DNL Workfront Proof]의 기능을 참조합니다. [!DNL Adobe Workfront] 내부의 증명에 대한 자세한 내용은 [증명](../../../review-and-approve-work/proofing/proofing.md)을 참조하십시오.
 
 이메일 알림은 공동 작업자에게 댓글, 답글 또는 의사 결정과 같은 증명에 대한 최근 활동에 대해 알립니다.
 
 다음 영역의 검토자에 대한 이메일 알림을 설정할 수 있습니다.
 
-새 증명 페이지에서 검토자에 대한 이메일 알림을 설정할 수 있습니다. [!UICONTROL 새 버전] 페이지 및 관리 [!UICONTROL 워크플로] 의 섹션 [!UICONTROL 증명 세부 정보] 페이지를 가리키도록 업데이트하는 중입니다. 자세한 내용은 [에서 증명 생성 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
+검토자를 위한 전자 메일 알림은 새 증명 페이지, [!UICONTROL 새 버전] 페이지에서 설정할 수 있으며 [!UICONTROL 증명 세부 정보] 페이지의 [!UICONTROL 워크플로] 섹션에서 관리할 수 있습니다. 자세한 내용은 [증명 생성 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)을 참조하세요.
 
 * 새 증명 페이지
-* 다음 [!UICONTROL 새 버전] 페이지
-* 다음 [!UICONTROL 워크플로] 의 섹션 [!UICONTROL 증명 세부 정보] 페이지를 가리키도록 업데이트하는 중입니다.
+* [!UICONTROL 새 버전] 페이지
+* [!UICONTROL 증명 정보] 페이지의 [!UICONTROL 워크플로] 섹션.
 
-자세한 내용은 [에서 증명 생성 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
+자세한 내용은 [증명 생성 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)을 참조하세요.
 
 
-* [에서 증명 생성 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) [에서 증명 생성 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
+* [증명 생성 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) [증명 생성 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
-* [에서 증명 세부 정보 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+* [증명 세부 정보 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
 
 모든 사용자는 공동 작업자가 자신의 환경 설정을 가지고 있거나 계정 관리자에게 경고 빈도에 대한 권장 사항이 있는 경우 증명을 공유할 때 자동으로 적용되는 자신의 이메일 경고 설정을 지정할 수도 있습니다. 사용자 세부 정보 페이지에서 증명 기본값으로 설정할 수 있습니다.
@@ -48,9 +48,9 @@ ht-degree: 0%
 >
 >이러한 설정은 사용자가 증명을 만들고 이러한 공동 작업자를 추가할 때 제안됩니다. 하지만 이는 제안일 뿐이므로 검토 프로세스 중에 언제든지 조정할 수 있으며 변경 사항은 변경 후에 수행된 모든 활동에 적용됩니다. 증명 기본 설정은 증명 수준의 설정에 의해 재정의됩니다.
 
-을 사용하는 사용자 [!UICONTROL 관리자] 또는 [!UICONTROL 청구 관리자] 프로필은 계정 설정 내에서 계정의 다른 사용자에 대한 증명 기본값을 설정할 수도 있습니다.
+[!UICONTROL 관리자] 또는 [!UICONTROL 청구 관리자] 프로필을 가진 사용자는 계정 설정 내에서 계정의 다른 사용자에 대한 증명 기본값을 설정할 수도 있습니다.
 
-프로필에 대한 자세한 내용은 [에서 증명 권한 프로필 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+프로필에 대한 자세한 내용은 [증명 권한 프로필 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)을 참조하세요.
 
 ## 액세스 요구 사항
 
@@ -67,24 +67,24 @@ ht-degree: 0%
 
 +++
 
-## 개인 설정에서 증명 기본값 구성([!DNL Workfront Proof] 사용자만)
+## 개인 설정에서 증명 기본값 구성([!DNL Workfront Proof]명의 사용자만 해당)
 
 생성한 증명에 대한 증명 설정을 구성할 수 있습니다.
 
 <!--For information about proof settings the [!DNL Workfront] administrator or [!DNL Workfront Proof] administrator can configure, see .-->
 
-1. 클릭 **[!UICONTROL 설정]** > **[!UICONTROL 개인 설정]**.
+1. **[!UICONTROL 설정]** > **[!UICONTROL 개인 설정]**&#x200B;을 클릭합니다.
 
-1. 다음을 클릭합니다. **[!UICONTROL 증명 기본값]** 탭.
-1. 클릭 **[!UICONTROL 기본 이메일 알림 설정]** 확장하기 위해
+1. **[!UICONTROL 증명 기본값]** 탭을 클릭합니다.
+1. 확장하려면 **[!UICONTROL 기본 전자 메일 알림 설정]**&#x200B;을 클릭하세요.
 1. 다음 두 설정 오른쪽에 있는 드롭다운 목록에서 아래 표에 설명된 옵션 중 하나를 선택합니다.
 
-   * **[!UICONTROL 기본 이메일 경고]**: 나와 공유된 모든 증명에 영향을 줍니다. 증명 수준에서 이 설정을 재정의할 수 있습니다.
-   * **[!UICONTROL 새 게스트 검토자에 대한 기본 이메일 경고]**: 이전에 계정에 연락처로 존재하지 않았던 검토자에게 영향을 줍니다.
+   * **[!UICONTROL 기본 전자 메일 경고]**: 사용자와 공유하는 모든 증명에 영향을 줍니다. 증명 수준에서 이 설정을 재정의할 수 있습니다.
+   * **[!UICONTROL 새 게스트 검토자에 대한 기본 전자 메일 경고]**: 이전에 계정에 연락처로 존재하지 않았던 검토자에게 영향을 줍니다.
 
    >[!NOTE]
    >
-   >다음 옵션 중 하나를 선택하지 않으면 [!DNL Workfront Proof] 은(는) 교정본 활동에 대한 일별 요약을 보냅니다.
+   >다음 옵션 중 하나를 선택하지 않으면 [!DNL Workfront Proof]에서 증명에 대한 활동에 대한 일일 요약을 보냅니다.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -96,7 +96,7 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 내 댓글에 답글 작성]</td> 
-      <td>누군가 자신의 의견에 명시적으로 답글을 달 경우에만 검토자에게 이메일이 전송됩니다(자신의 의견에 대한 자신의 답글은 제외). 즉, 증명에 있는 사람이 새 댓글을 달면 검토자에게 알림이 전송되지 않습니다.<p>이 설정은 증명의 클라이언트가 증명의 다른 댓글에 대한 알림을 받지 않고 자신의 댓글에 대한 답글에만 알림을 받도록 하는 데 권장됩니다.</p><p>이 이메일 경고 설정을 사용하는 검토자는 다른 새 댓글에 대해 알림을 받지 못하지만 증명 뷰어에서 증명에 대한 모든 댓글을 볼 수 있습니다.</p><p>주석에 대한 자세한 내용은 <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">증명 댓글 보기 및 회신</a>.</p></td> 
+      <td>누군가 자신의 의견에 명시적으로 답글을 달 경우에만 검토자에게 이메일이 전송됩니다(자신의 의견에 대한 자신의 답글은 제외). 즉, 증명에 있는 사람이 새 댓글을 달면 검토자에게 알림이 전송되지 않습니다.<p>이 설정은 증명의 클라이언트가 증명의 다른 댓글에 대한 알림을 받지 않고 자신의 댓글에 대한 답글에만 알림을 받도록 하는 데 권장됩니다.</p><p>이 이메일 경고 설정을 사용하는 검토자는 다른 새 댓글에 대해 알림을 받지 못하지만 증명 뷰어에서 증명에 대한 모든 댓글을 볼 수 있습니다.</p><p>댓글에 대한 자세한 내용은 <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">증명 댓글 보기 및 회신</a>을 참조하세요.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Decisions]</td> 
@@ -112,11 +112,11 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 일일 요약]</td> 
-      <td>[!DNL Workfront] 은(는) 자신의 활동 이외의 활동이 있는 날에만 나열된 모든 댓글, 답글 및 결정을 포함하는 하나의 이메일을 보냅니다.<p>이 경고는 하루 종일 여러 업데이트가 쏟아지지 않고 프로젝트 요약을 볼 수 있는 좋은 방법입니다.</p><p>이 요약의 사용 사례는 프로젝트의 전체 진행 상황을 모니터링하려는 부서 리더입니다.</p><p>자세한 내용은 <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">증명 댓글 및 결정에 대한 알림 관리</a>.</p></td> 
+      <td>[!DNL Workfront] 은(는) 자신의 활동 이외의 활동이 있는 날에만 나열된 모든 댓글, 답글 및 결정을 포함하는 하나의 이메일을 보냅니다.<p>이 경고는 하루 종일 여러 업데이트가 쏟아지지 않고 프로젝트 요약을 볼 수 있는 좋은 방법입니다.</p><p>이 요약의 사용 사례는 프로젝트의 전체 진행 상황을 모니터링하려는 부서 리더입니다.</p><p>자세한 내용은 <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">증명 댓글 및 결정에 대한 알림 관리</a>를 참조하십시오.</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL 이메일 없음]</td> 
-      <td>[!DNL Workfront] 은 이메일 경고를 전송하지 않습니다.<br>이 기능은 참조용으로만 증명에 추가되고 변경 사항에 대한 알림이 필요하지 않은 사용자에게 유용합니다.<p>시스템 기본값은 [!UICONTROL Daily summary]([!UICONTROL Not Set]으로도 표시됨)입니다. 사용자 또는 검토자가 다른 변경 내용을 적용하지 않으면 모든 증명에 이 설정이 적용됩니다.</p></td> 
+      <td>[!DNL Workfront] 은 이메일 경고를 전송하지 않습니다.<br>참조용으로만 증명에 추가되고 변경 내용에 대한 알림을 받을 필요가 없는 사용자에게 유용합니다.<p>시스템 기본값은 [!UICONTROL Daily summary]([!UICONTROL Not Set]으로도 표시됨)입니다. 사용자 또는 검토자가 다른 변경 내용을 적용하지 않으면 모든 증명에 이 설정이 적용됩니다.</p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -129,7 +129,7 @@ ht-degree: 0%
     <tbody> 
      <tr> 
       <td role="rowheader">증명이 준비되면 [!UICONTROL 이메일 확인]</td> 
-      <td>증명을 만들 때 [!UICONTROL Proof made] 이메일을 수신할지 여부를 지정합니다. 자세한 내용은 <a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md" class="MCXref xref">[!UICONTROL Proof Made] 이메일</a></td> 
+      <td>증명을 만들 때 [!UICONTROL Proof made] 이메일을 수신할지 여부를 지정합니다. 자세한 내용은 <a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md" class="MCXref xref">증명된 [!UICONTROL] 메일</a>을 참조하세요.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 나에게 보낸 이메일 형식] </td> 
@@ -139,7 +139,7 @@ ht-degree: 0%
     </tbody> 
    </table>
 
-1. 아래 **[!UICONTROL 메시지 설정]**, 다음 중 하나를 변경합니다.
+1. **[!UICONTROL 메시지 설정]**&#x200B;에서 다음 중 하나를 변경하십시오.
 
    | 증명 템플릿 | 설명 |
    |---|---|
@@ -150,35 +150,35 @@ ht-degree: 0%
 
 일괄 처리 작업에서 특정 수신자에 대한 이메일 경고를 변경할 수 있습니다.
 
-1. 클릭 **[!UICONTROL 연락처]** 을 클릭합니다.
-1. 다음을 클릭합니다. **[!UICONTROL 자세히]** 메뉴 ![](assets/more-button-small.png) 수신자에 대해 를 클릭한 다음 **[!UICONTROL 멤버 세부 정보 보기]** 드롭다운 메뉴에서 을(를) 선택합니다.
+1. 왼쪽 탐색 패널에서 **[!UICONTROL 연락처]**&#x200B;를 클릭합니다.
+1. 받는 사람의 **[!UICONTROL 자세히]** 메뉴 ![](assets/more-button-small.png)을(를) 클릭한 다음 드롭다운 메뉴에서 **[!UICONTROL 구성원 세부 정보 보기]**&#x200B;를 클릭합니다.
 
-1. 를 엽니다. **[!UICONTROL 공유 항목]** 섹션.
+1. **[!UICONTROL 공유 항목]** 섹션을 엽니다.
 1. 이메일 경고를 변경할 각 항목의 왼쪽에 있는 확인란을 선택합니다.
-1. 클릭 **[!UICONTROL 자세히]** 공유 항목 목록 위에서 **[!UICONTROL 이메일 경고 변경]** 드롭다운 메뉴에서 을(를) 선택합니다.
+1. 공유 항목 목록 위에 있는 **[!UICONTROL 자세히]**&#x200B;를 클릭한 다음 드롭다운 메뉴에서 **[!UICONTROL 전자 메일 경고 변경]**&#x200B;을 클릭합니다.
 
-1. 이메일 경고를 변경한 다음 를 클릭합니다. **[!UICONTROL 제출]**.
+1. 전자 메일 경고를 변경한 다음 **[!UICONTROL 제출]**&#x200B;을 클릭합니다.
 
 ## 사용자에 대한 증명 기본값 구성
 
-다음과 같은 경우 [!DNL Workfront Proof] 관리자, 계정의 사용자에 대한 증명 기본값을 설정할 수 있습니다.
+[!DNL Workfront Proof] 관리자인 경우 계정의 사용자에 대한 증명 기본값을 설정할 수 있습니다.
 
-1. 클릭 **[!UICONTROL 설정]** > **[!UICONTROL 계정 설정]**.
+1. **[!UICONTROL 설정]** > **[!UICONTROL 계정 설정]**&#x200B;을 클릭합니다.
 
-1. 를 엽니다. **[!UICONTROL 사용자]** 탭.
-1. 를 엽니다. **[!UICONTROL 자세히]** 메뉴 ![More_button_small.png](assets/more-button-small.png) 사용자 이름 오른쪽에 있습니다.
+1. **[!UICONTROL 사용자]** 탭을 엽니다.
+1. 사용자 이름 오른쪽에 있는 **[!UICONTROL 자세히]** 메뉴 ![자세히_button_small.png](assets/more-button-small.png)를 엽니다.
 
-1. 클릭 **[!UICONTROL 사용자 세부 정보 보기]** 드롭다운 메뉴에서 을(를) 선택합니다.
-1. 아래 **[!UICONTROL 설정]**, 클릭 **[!UICONTROL 기본 이메일 경고 설정]** 확장하기 위해
+1. 드롭다운 메뉴에서 **[!UICONTROL 사용자 세부 정보 보기]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 설정]**&#x200B;에서 **[!UICONTROL 기본 전자 메일 경고 설정]**&#x200B;을 클릭하여 확장하세요.
 
 1. 다음 두 가지 설정의 오른쪽에 있는 드롭다운 목록에서 아래 표에 설명된 옵션 중 하나를 선택합니다.
 
-   * **[!UICONTROL 기본 이메일 경고]**: 나와 공유된 모든 증명에 영향을 줍니다. 증명 수준에서 이 설정을 재정의할 수 있습니다.
-   * **[!UICONTROL 새 게스트 검토자에 대한 기본 이메일 경고]**: 이전에 계정에 연락처로 존재하지 않았던 검토자에게 영향을 줍니다.
+   * **[!UICONTROL 기본 전자 메일 경고]**: 사용자와 공유하는 모든 증명에 영향을 줍니다. 증명 수준에서 이 설정을 재정의할 수 있습니다.
+   * **[!UICONTROL 새 게스트 검토자에 대한 기본 전자 메일 경고]**: 이전에 계정에 연락처로 존재하지 않았던 검토자에게 영향을 줍니다.
 
    >[!NOTE]
    >
-   >사용자에 대해 다음 옵션 중 하나를 선택하지 않으면 [!DNL Workfront Proof] 은 사용자에게 증명에 대한 활동에 대한 일별 요약을 보냅니다.
+   >사용자에 대해 다음 옵션 중 하나를 선택하지 않으면 [!DNL Workfront Proof]에서 증명에 대한 활동에 대한 일일 요약을 사용자에게 보냅니다.
 
    <table style="table-layout:auto">
     <col>
@@ -190,7 +190,7 @@ ht-degree: 0%
      </tr>
      <tr>
       <td role="rowheader">[!UICONTROL 내 댓글에 답글 작성]</td>
-      <td>누군가 자신의 의견에 명시적으로 답글을 달 경우에만 검토자에게 이메일이 전송됩니다(자신의 의견에 대한 자신의 답글은 제외). 즉, 증명에 있는 사람이 새 댓글을 달면 검토자에게 알림이 전송되지 않습니다.<p>이 설정은 증명의 클라이언트가 증명의 다른 댓글에 대한 알림을 받지 않고 자신의 댓글에 대한 답글에만 알림을 받도록 하는 데 권장됩니다.</p><p>이 이메일 경고 설정을 사용하는 검토자는 다른 새 댓글에 대해 알림을 받지 못하지만 증명 뷰어에서 증명에 대한 모든 댓글을 볼 수 있습니다.</p><p>주석에 대한 자세한 내용은 <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">증명 댓글 보기 및 회신</a>.</p></td>
+      <td>누군가 자신의 의견에 명시적으로 답글을 달 경우에만 검토자에게 이메일이 전송됩니다(자신의 의견에 대한 자신의 답글은 제외). 즉, 증명에 있는 사람이 새 댓글을 달면 검토자에게 알림이 전송되지 않습니다.<p>이 설정은 증명의 클라이언트가 증명의 다른 댓글에 대한 알림을 받지 않고 자신의 댓글에 대한 답글에만 알림을 받도록 하는 데 권장됩니다.</p><p>이 이메일 경고 설정을 사용하는 검토자는 다른 새 댓글에 대해 알림을 받지 못하지만 증명 뷰어에서 증명에 대한 모든 댓글을 볼 수 있습니다.</p><p>댓글에 대한 자세한 내용은 <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">증명 댓글 보기 및 회신</a>을 참조하세요.</p></td>
      </tr>
      <tr>
       <td role="rowheader">[!UICONTROL Decisions]</td>
@@ -206,16 +206,16 @@ ht-degree: 0%
      </tr>
      <tr>
       <td role="rowheader">[!UICONTROL 일일 요약]</td>
-      <td>[!DNL Workfront] 은(는) 자신의 활동 이외의 활동이 있는 날에만 나열된 모든 댓글, 답글 및 결정을 포함하는 하나의 이메일을 보냅니다.<p>이 경고는 하루 종일 여러 업데이트가 쏟아지지 않고 프로젝트 요약을 볼 수 있는 좋은 방법입니다.</p><p>이 요약의 사용 사례는 프로젝트의 전체 진행 상황을 모니터링하려는 부서 리더입니다.</p><p>자세한 내용은 <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">증명 댓글 및 결정에 대한 알림 관리</a>.</p></td>
+      <td>[!DNL Workfront] 은(는) 자신의 활동 이외의 활동이 있는 날에만 나열된 모든 댓글, 답글 및 결정을 포함하는 하나의 이메일을 보냅니다.<p>이 경고는 하루 종일 여러 업데이트가 쏟아지지 않고 프로젝트 요약을 볼 수 있는 좋은 방법입니다.</p><p>이 요약의 사용 사례는 프로젝트의 전체 진행 상황을 모니터링하려는 부서 리더입니다.</p><p>자세한 내용은 <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">증명 댓글 및 결정에 대한 알림 관리</a>를 참조하십시오.</p></td>
      </tr>
      <tr data-mc-conditions="">
       <td role="rowheader">[!UICONTROL 이메일 없음]</td>
-      <td>[!DNL Workfront] 은 이메일 경고를 전송하지 않습니다.<br>이 기능은 참조용으로만 증명에 추가되고 변경 사항에 대한 알림이 필요하지 않은 사용자에게 유용합니다.<p>시스템 기본값은 [!UICONTROL Daily summary]([!UICONTROL Not Set]으로도 표시됨)입니다. 사용자 또는 검토자가 다른 변경 내용을 적용하지 않으면 모든 증명에 이 설정이 적용됩니다.</p></td>
+      <td>[!DNL Workfront] 은 이메일 경고를 전송하지 않습니다.<br>참조용으로만 증명에 추가되고 변경 내용에 대한 알림을 받을 필요가 없는 사용자에게 유용합니다.<p>시스템 기본값은 [!UICONTROL Daily summary]([!UICONTROL Not Set]으로도 표시됨)입니다. 사용자 또는 검토자가 다른 변경 내용을 적용하지 않으면 모든 증명에 이 설정이 적용됩니다.</p></td>
      </tr>
     </tbody>
    </table>
 
-1. 남은 시간 **[!UICONTROL 기본 이메일 경고 설정]**, 다음 중 하나를 변경합니다.
+1. 나머지 **[!UICONTROL 기본 전자 메일 경고 설정]**&#x200B;에서 다음 중 하나를 변경하십시오.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -223,7 +223,7 @@ ht-degree: 0%
     <tbody> 
      <tr> 
       <td role="rowheader">증명이 준비되면 [!UICONTROL 이메일 확인]</td> 
-      <td>증명을 만들 때 [!UICONTROL Proof made] 이메일을 수신할지 여부를 지정합니다. 자세한 내용은 <a href="https://support.workfront.com/hc/en-us/article">[!UICONTROL Proof Made] 이메일.</a></td> 
+      <td>증명을 만들 때 [!UICONTROL Proof made] 이메일을 수신할지 여부를 지정합니다. 자세한 내용은 <a href="https://support.workfront.com/hc/en-us/article">증명된 [!UICONTROL] 이메일을 참조하십시오.</a></td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 나에게 보낸 이메일 형식] </td> 

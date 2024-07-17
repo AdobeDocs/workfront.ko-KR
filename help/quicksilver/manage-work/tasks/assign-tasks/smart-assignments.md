@@ -18,19 +18,19 @@ ht-degree: 0%
 
 <!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리보기 환경 또는 빠른 릴리스를 활성화한 고객의 프로덕션 환경에서만 사용할 수 있습니다.</span>
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리 보기 환경이나 빠른 릴리스를 활성화한 고객의 프로덕션 환경에서만 사용할 수 있습니다.</span>
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 활성화 또는 비활성화](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>을 참조하세요.
 
-<span class="preview">현재 릴리스에 대한 자세한 내용은 [2024년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">현재 릴리스에 대한 자세한 내용은 [2024년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)를 참조하십시오.</span>
 
 작업 및 문제 할당을 관리할 때 스마트 할당을 사용하여 작업을 완료하는 데 가장 적합한 리소스를 식별할 수 있습니다. 스마트 할당은 작업에 가장 적합한 리소스를 결정하는 알고리즘을 기반으로 리소스에 작업 항목을 할당할 때 Adobe Workfront이 제공하는 제안입니다. 스마트 할당은 사용자, 작업 역할 또는 팀이 될 수 있습니다.
 
 >[!NOTE]
 >
->사용자를 제안할 때 스마트 할당은 사용자의 가용성을 고려하지 않습니다. 하지만 일정에 따른 가용성은 작업 및 문제의 계획 및 예상 일자에 영향을 미칩니다. 일정에 대한 자세한 내용은 문서 를 참조하십시오. [일정 만들기](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+>사용자를 제안할 때 스마트 할당은 사용자의 가용성을 고려하지 않습니다. 하지만 일정에 따른 가용성은 작업 및 문제의 계획 및 예상 일자에 영향을 미칩니다. 일정에 대한 자세한 내용은 문서 [일정 만들기](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)를 참조하십시오.
 
-이 문서에는 스마트 할당에 대한 일반 정보가 포함되어 있습니다. 스마트 할당을 사용하여 사용자에게 작업 및 문제를 할당하는 방법에 대한 자세한 내용은 [스마트 할당 만들기](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md).
+이 문서에는 스마트 할당에 대한 일반 정보가 포함되어 있습니다. 스마트 할당을 사용하여 사용자에게 작업 및 문제를 할당하는 방법에 대한 자세한 내용은 [스마트 할당 만들기](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md)를 참조하십시오.
 
 ## 스마트 할당 개요
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
   ![](assets/smart-assignments-issue-list.png)
 
-* <span class="preview">할당 열의 작업 목록 또는 보고서 </span>
+* <span class="preview">할당 열 </span>의 작업 목록 또는 보고서
 
   <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 작업 스마트 할당 계산은 두 가지 다른 알고리즘을 사용하는 두 단계에서 작동합니다.
 
-스마트 할당을 찾는 알고리즘에 따라 할당은 할당 필드의 두 개의 별도 섹션 아래에 나열됩니다. 자세한 내용은 [스마트 할당 만들기](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md).
+스마트 할당을 찾는 알고리즘에 따라 할당은 할당 필드의 두 개의 별도 섹션 아래에 나열됩니다. 자세한 내용은 [스마트 할당 만들기](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md)를 참조하십시오.
 
 ![](assets/smart-assignments-task-list.png)
 
@@ -124,7 +124,7 @@ ht-degree: 0%
 
   예를 들어 릭이 오늘 일찍 유사한 작업에 할당되었고 제니퍼가 이틀 전에 유사한 작업에 할당되었다면 릭이 먼저 표시됩니다.
 
-* 이 단계에서 식별된 할당은    **제안된 할당**  임무를 위한 지정 필드의 섹션.
+* 이 단계에서 식별된 할당은    작업에 대한 할당 필드의 **제안된 할당** 섹션.
 
 * 이 계산을 사용하여 일치하는 항목이 없으면 스마트 할당의 두 번째 단계가 시작되고 다른 알고리즘을 사용하여 계산됩니다.
 
@@ -132,9 +132,9 @@ ht-degree: 0%
 
 작업 스마트 할당의 첫 번째 단계에서 일치하는 항목을 찾지 못한 경우 Workfront은 문제에 대한 스마트 할당을 계산하는 것과 동일한 방식으로 작업에 대한 스마트 할당을 계산합니다.
 
-자세한 내용은 섹션을 참조하십시오 [작업 및 문제에 대한 스마트 할당 기준](#smart-assignments-criteria-for-tasks-and-issues) 이 문서에서.
+자세한 내용은 이 문서의 [작업 및 문제에 대한 스마트 할당 기준](#smart-assignments-criteria-for-tasks-and-issues) 섹션을 참조하십시오.
 
-이 단계에서 식별된 할당은 **사용자 및 팀**, **작업 역할 할당**, 및 **카드 역할 평가**  할당 필드의 섹션. 등급 카드에 대한 자세한 내용은 [등급 카드 관리](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md). <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
+이 단계에서 식별된 할당은 할당 필드의 **사용자 및 팀**, **작업 역할 할당** 및 **등급 카드 역할** 섹션에 나열됩니다. 요율 카드에 대한 자세한 내용은 [요율 카드 관리](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)를 참조하십시오. <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
 
 ### 작업 및 문제에 대한 스마트 할당 기준
 
@@ -142,7 +142,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-><span class="preview">다음 기준은 작업 스마트 할당 계산의 첫 번째 단계에서 일치하는 항목을 찾지 못한 경우에만 작업에 적용됩니다. 자세한 내용은 섹션을 참조하십시오 [작업에 대한 스마트 할당 계산의 첫 번째 단계](#first-phase-of-smart-assignment-calculation-for-tasks) 이 문서에서. 기본적으로 다음 기준은 항상 문제에 적용됩니다. </span>
+><span class="preview">다음 기준은 작업 스마트 할당 계산의 첫 번째 단계에서 일치하는 항목을 찾지 못한 경우에만 작업에 적용됩니다. 자세한 내용은 이 문서에서 [작업에 대한 스마트 할당 계산의 첫 번째 단계](#first-phase-of-smart-assignment-calculation-for-tasks) 섹션을 참조하십시오. 기본적으로 다음 기준은 항상 문제에 적용됩니다. </span>
 
 <span class="preview">![](assets/smart-assignments-issue-header.png)</span>
 

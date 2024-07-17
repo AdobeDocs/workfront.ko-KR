@@ -18,13 +18,13 @@ ht-degree: 0%
 
 <!--keep the rate card job role information always in yellow till it releases to production - check with Lisa - this might not apply to issues?! -->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리보기 환경 또는 빠른 릴리스를 활성화한 고객의 프로덕션 환경에서만 사용할 수 있습니다.</span>
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리 보기 환경이나 빠른 릴리스를 활성화한 고객의 프로덕션 환경에서만 사용할 수 있습니다.</span>
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 활성화 또는 비활성화](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>을 참조하세요.
 
-<span class="preview">현재 릴리스에 대한 자세한 내용은 [2024년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">현재 릴리스에 대한 자세한 내용은 [2024년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)를 참조하십시오.</span>
 
-사용자, 역할 및 팀에 문제를 할당하여 문제 완료에 대한 책임 주체를 나타낼 수 있습니다. 문제 지정에 대한 일반적인 내용은 [문제 할당 수정 개요](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
+사용자, 역할 및 팀에 문제를 할당하여 문제 완료에 대한 책임 주체를 나타낼 수 있습니다. 문제 할당에 대한 일반적인 정보는 [문제 할당 수정 개요](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)를 참조하십시오.
 
 >[!TIP]
 >
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 개별 문제 수준에서 하나 또는 여러 리소스에 문제를 할당하거나, 여러 리소스를 여러 문제에 한 번에 할당할 수 있습니다.
 
-문제 및 작업 할당은 Adobe Workfront에서 유사합니다. 작업 할당에 대한 일반적인 내용은 [작업 할당 수정 개요](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
+문제 및 작업 할당은 Adobe Workfront에서 유사합니다. 작업 할당에 대한 일반적인 정보는 [작업 할당 수정 개요](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)를 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -69,11 +69,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준*</td> 
-   <td> <p>문제에 대한 액세스 편집</p> <p>프로젝트 및 작업에 대한 보기 또는 상위 액세스 권한</p> <p>여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. 액세스 수준의 문제에 대한 액세스와 관련된 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">문제에 대한 액세스 권한 부여</a>. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>. </p> </td> 
+   <td> <p>문제에 대한 액세스 편집</p> <p>프로젝트 및 작업에 대한 보기 또는 상위 액세스 권한</p> <p>여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. 액세스 수준의 문제에 액세스하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">문제에 액세스 권한 부여</a>를 참조하십시오. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>문제에 대한 권한 관리</p> <p>문제를 복사하는 항목에 문제를 추가할 수 있는 권한과 함께 권한을 제공하십시오.</p> <p> 문제에 대한 권한 부여에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">문제 공유 </a></p> <p>추가 권한 요청에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md">사용자에게 액세스 권한 부여</a>.</p> </td> 
+   <td> <p>문제에 대한 권한 관리</p> <p>문제를 추가할 수 있는 기능과 함께 문제를 복사하는 항목에 대한 Contribute 권한입니다.</p> <p> 문제에 대한 권한 부여에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">문제 공유 </a>를 참조하십시오.</p> <p>추가 권한 요청에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md">사용자에게 액세스 권한 부여</a>를 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 작업 항목에 여러 리소스를 할당할 때 다음 사항을 고려하십시오.
 
-* 사용자는 프로필과 연결된 작업 역할을 두 개 이상 가질 수 있습니다. 사용자를 작업 역할과 연결하는 방법에 대한 자세한 내용은 [사용자 프로필 편집](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+* 사용자는 프로필과 연결된 작업 역할을 두 개 이상 가질 수 있습니다. 사용자를 작업 역할과 연결하는 방법에 대한 자세한 내용은 [사용자 프로필 편집](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)을 참조하십시오.
 
 * 작업 또는 문제는 일반적으로 하나 이상의 작업 역할 또는 팀에 먼저 할당됩니다. 프로젝트를 시작할 준비가 되면 사용자에게 할당해야 할 수도 있습니다.
 
@@ -114,7 +114,7 @@ ht-degree: 0%
 ## 단일 문제 할당
 
 1. 할당할 문제로 이동합니다.
-1. 클릭 **할당 대상** 문제 헤더의 오른쪽 상단 모서리에서 **할당** 영역
+1. 문제 헤더의 오른쪽 위, **할당** 영역에서 **할당 대상**&#x200B;을 클릭합니다
 
    또는
 
@@ -129,14 +129,14 @@ ht-degree: 0%
      프로덕션 환경의 샘플 이미지:
      ![](assets/nwe-assignments-expanded-in-task-header-350x259.png)
 
-     <span class="preview">미리보기 환경의 샘플 이미지:</span>
+     <span class="preview">미리 보기 환경의 샘플 이미지:</span>
      <span class="preview">![할당 검색](assets/smart-assignments-issue-header.png)</span>
 
    * (조건부) 사용 가능한 목록에서 이름, 역할 또는 팀 중 하나를 클릭합니다
-   * 클릭 **나에게 할당** 자신에게 할당하기
-   * 클릭 **고급**.
+   * 자신에게 할당하려면 **나에게 할당**&#x200B;을 클릭하세요.
+   * **고급**&#x200B;을 클릭합니다.
 
-     고급 할당 생성은 작업 및 문제와 유사합니다. 고급 할당 방법에 대한 자세한 내용은 다음을 참조하십시오. [고급 할당 만들기](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+     고급 할당 생성은 작업 및 문제와 유사합니다. 고급 할당 방법에 대한 자세한 내용은 [고급 할당 만들기](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)를 참조하십시오.
 
      >[!TIP]
      >
@@ -144,15 +144,15 @@ ht-degree: 0%
      >
      >사용자를 추가할 때 이를 보려면 사용자를 하나 이상의 작업 역할과 연결해야 합니다.
      >
-     >사용자의 이메일을 보려면 사용자의 액세스 수준에서 연락처 정보 보기 설정을 활성화해야 합니다. 자세한 내용은 [사용자에게 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
+     >사용자의 이메일을 보려면 사용자의 액세스 수준에서 연락처 정보 보기 설정을 활성화해야 합니다. 자세한 내용은 [사용자에게 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)를 참조하십시오.
      >
 
      <!-- not sure if this applies to issues; if it does, add this to the TIP above: 
       ><span class="preview">When adding a job role assignment, you can search for the job role or location. Select a role from the Job roles list to use the default billing rate for the assignment, or select a Rate card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>-->
 
 
-1. 클릭 **저장** 을 눌러 문제 할당을 완료합니다.
-1. (선택 사항) **X 아이콘** 문제 머리글의 할당 영역에 있는 할당 이름 옆에 있는 할당을 제거합니다.
+1. 문제 할당을 완료하려면 **저장**&#x200B;을 클릭하세요.
+1. (선택 사항) 문제 헤더의 할당 영역에서 할당 이름 옆에 있는 **X 아이콘**&#x200B;을 클릭하여 할당을 제거합니다.
 
 ## 목록에서 문제 할당
 
@@ -171,16 +171,16 @@ ht-degree: 0%
 1. 보기에 할당 대상, 할당 또는 할당 필드가 있는 문제 목록으로 이동합니다.
 1. 문제를 할당하려면 다음 중 하나를 수행하십시오.
 
-   * 내부를 클릭합니다. **할당 대상** 또는 **할당됨** 필드에 문제에 할당할 활성 사용자의 이름을 입력한 다음 목록에 표시될 때 클릭합니다.
+   * **할당 대상** 또는 **할당 대상** 필드 내부를 클릭하고 문제에 할당할 활성 사용자의 이름을 입력한 다음 목록에 표시되면 클릭합니다.
 
      ![](assets/assigned-to-field-task-list-nwe.png)
 
-   * 내부를 클릭합니다. **할당** 필드에 문제에 할당할 활성 사용자, 작업 역할 또는 활성 팀의 이름을 입력한 다음 목록에 표시될 때 클릭합니다.
+   * **할당** 필드 내부를 클릭하고 문제에 할당할 활성 사용자, 작업 역할 또는 활성 팀의 이름을 입력한 다음 목록에 표시될 때 클릭합니다.
 
      프로덕션 환경의 샘플 이미지:
      ![](assets/assignments-field-task-list-nwe.png)
 
-     <span class="preview">미리보기 환경의 샘플 이미지:</span>
+     <span class="preview">미리 보기 환경의 샘플 이미지:</span>
      ![할당 필드](assets/assignments-field-task-list-0424.png)
 
    >[!TIP]
@@ -189,10 +189,10 @@ ht-degree: 0%
    >
    >사용자를 추가할 때 이를 보려면 사용자를 하나 이상의 작업 역할과 연결해야 합니다.
    >
-   >사용자의 이메일을 보려면 사용자의 액세스 수준에서 연락처 정보 보기 설정을 활성화해야 합니다. 자세한 내용은 [사용자에게 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >사용자의 이메일을 보려면 사용자의 액세스 수준에서 연락처 정보 보기 설정을 활성화해야 합니다. 자세한 내용은 [사용자에게 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)를 참조하십시오.
 
 
-1. (조건부) 지정 필드에 표시되면 **사람 아이콘** ![](assets/teams.png) 지정(assignments) 상자의 오른쪽 상단 모서리에서 고급 지정(Advanced Assignments) 상자를 열고 고급 지정을 생성합니다. 자세한 내용은 [고급 할당 만들기](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+1. (조건부) 할당 필드에 표시되면 할당 상자의 오른쪽 위에 있는 **사람 아이콘** ![](assets/teams.png)을 클릭하여 고급 할당 상자를 열고 고급 할당을 만듭니다. 자세한 내용은 [고급 할당 만들기](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)를 참조하십시오.
 
    >[!TIP]
    >
@@ -204,23 +204,23 @@ ht-degree: 0%
 
 1. 일괄 할당할 문제 목록으로 이동합니다.
 1. 목록에서 몇 가지 문제를 선택하십시오.
-1. 다음을 클릭합니다. **편집 아이콘** ![](assets/qs-edit-icon.png).
+1. **편집 아이콘** ![](assets/qs-edit-icon.png)을 클릭합니다.
 
-   다음 **문제 편집** 대화 상자가 열립니다.
+   **문제 편집** 대화 상자가 열립니다.
 
-1. 다음에서 **할당** 영역을 선택하고 **할당자** 그런 다음 모든 문제에 지정할 사용자, 작업 역할 또는 팀의 이름을 입력하십시오.
+1. **할당** 영역에서 **할당자** 상자를 선택한 다음 모든 문제에 할당할 사용자, 작업 역할 또는 팀의 이름을 입력하세요.
 
    >[!IMPORTANT]
    >
    >문제가 이미 할당된 경우 문제에 대한 기존 리소스를 대체하는 대신 여기에 표시하는 리소스가 문제에 추가됩니다.
 
-1. (선택 사항) **문제 소유자** 문제에 둘 이상의 리소스를 할당할 때 문제가 발생하는 기본 담당자 또는 소유자인 리소스를 나타내는 열입니다. 이 기능은 팀에 사용할 수 없습니다.
-1. (선택 사항) 사용자가에서 문제에 대해 충족해야 하는 역할을 선택합니다 **역할 선택** 드롭다운 메뉴 **피할당자의 역할** 문제에 사용자를 할당할 때 열을 표시합니다. 역할을 선택하지 않으면 Workfront에서 자동으로 사용자의 기본 역할을 선택합니다.
+1. (선택 사항) 문제에 둘 이상의 리소스를 할당할 때 기본 피할당자 또는 문제의 소유자인 리소스를 나타내려면 **문제 소유자** 열에서 라디오 단추를 선택합니다. 이 기능은 팀에 사용할 수 없습니다.
+1. (선택 사항) 문제에 사용자를 할당할 때 **피할당자의 역할** 열의 **역할 선택** 드롭다운 메뉴에서 사용자가 문제에 대해 이행해야 하는 역할을 선택합니다. 역할을 선택하지 않으면 Workfront에서 자동으로 사용자의 기본 역할을 선택합니다.
 
 1. (선택 사항) 모든 문제에서 기존 피할당자를 제거하려면 다음 중 하나를 수행하십시오.
 
-   1. 문제에서 제거할 사용자, 역할 또는 팀의 이름을 입력한 다음 목록에 표시될 때 선택하고 **피할당자 제거** 제거할 추가 피할당자를 추가합니다.
-   1. 클릭 **기존 할당자 모두 제거** 을 눌러 선택한 모든 문제에서 모든 피할당자를 제거합니다.
+   1. 문제에서 제거할 사용자, 역할 또는 팀의 이름을 입력한 다음 목록에 표시될 때 선택하고 **피할당자 제거**&#x200B;를 클릭하여 제거할 피할당자를 더 추가합니다.
+   1. 선택한 모든 문제에서 모든 피할당자를 제거하려면 **기존 피할당자 모두 제거**&#x200B;를 클릭하십시오.
 
-1. 클릭 **변경 내용 저장**.
-1. (선택 사항 및 조건부) 할당 대상 또는 할당 필드가 문제 목록에 표시되면 문제에 대해 이러한 열 중 하나를 클릭한 다음 **X 아이콘** 을(를) 피할당자의 이름 옆에 배치하여 문제에서 제거합니다.
+1. **변경 내용 저장**&#x200B;을 클릭합니다.
+1. (선택 사항 및 조건부) 할당 대상 또는 할당 필드가 문제 목록에 표시되면 문제에 대해 이러한 열 중 하나를 클릭한 다음 피할당자 이름 옆에 있는 **X 아이콘**&#x200B;을 클릭하여 문제에서 제거합니다.

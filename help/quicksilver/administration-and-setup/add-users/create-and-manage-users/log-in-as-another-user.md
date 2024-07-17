@@ -29,7 +29,7 @@ ht-degree: 1%
 >
 >이 페이지에 설명된 절차는 Adobe Admin Console에 아직 온보딩되지 않은 조직에만 적용됩니다. 조직이 Adobe Admin Console에 온보딩된 경우 이 작업을 사용할 수 없습니다.
 >
->조직이 Adobe Admin Console에 온보딩되었는지 여부에 따라 달라지는 절차 목록은 을 참조하십시오. [플랫폼 기반 관리의 차이점(Adobe Workfront/Adobe 비즈니스 플랫폼)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>조직이 Adobe Admin Console에 온보딩되었는지 여부에 따라 달라지는 프로시저 목록은 [플랫폼 기반 관리 차이점(Adobe Workfront/Adobe 비즈니스 플랫폼)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)을 참조하십시오.
 
 Adobe Workfront 관리자는 경우에 따라 다른 사용자를 대신하여 Workfront에 액세스해야 할 수 있습니다.
 
@@ -50,7 +50,7 @@ Some users, such as executives, need to be able to control which administrators 
 >
 >문서 통합은 개인 개인 파일에 연결할 수 있으므로 관리자는 다른 사용자로 로그인하는 동안 문서 통합에 액세스할 수 없습니다.
 >
->문서 통합에 대한 자세한 내용은 [문서 통합 구성](../../../administration-and-setup/configure-integrations/configure-document-integrations.md)
+>문서 통합에 대한 자세한 내용은 [문서 통합 구성](../../../administration-and-setup/configure-integrations/configure-document-integrations.md)을 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -71,14 +71,14 @@ Some users, such as executives, need to be able to control which administrators 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>시스템 관리자 액세스 수준을 사용하면 다른 사용자로 로그인할 수 있습니다. 이 액세스 수준에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">사용자에게 전체 관리 액세스 권한 부여</a>. </p> <p>다음과 같은 경우 플래너 액세스 수준에서 더 낮은 라이선스 수준의 사용자로 로그인할 수 있습니다. <b>사용자</b> 액세스 수준의 설정이 다음으로 구성됨 <b>편집</b> 액세스, 사용 <b>만들기</b> 그리고 둘 중 하나 이상은 <b>사용자 관리자</b> 아래에 옵션 활성화됨 <b>설정 미세 조정</b> <img src="assets/gear-icon-in-access-levels.png">. </p> 
-   <p><b>참고</b>: 다음 두 옵션 중 하나를 사용할 수 있습니다(사용자 <b>관리자(그룹 사용자)</b> 이(가) 활성화되어 있으면 사용자가 멤버인 그룹의 그룹 관리자여야 합니다.</p> 
-   <p>에 대한 자세한 내용은 <b>사용자</b> 액세스 수준에서 을(를) 설정합니다. <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">사용자에게 액세스 권한 부여</a>.</p> </td> 
+   <td> <p>시스템 관리자 액세스 수준을 사용하면 다른 사용자로 로그인할 수 있습니다. 이 액세스 수준에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">사용자에게 전체 관리 액세스 권한 부여</a>를 참조하십시오. </p> <p>Planner 액세스 수준을 사용하면 액세스 수준의 <b>사용자</b> 설정이 <b>편집</b> 액세스로 구성된 경우 <b>만들기</b> 및 <b>설정 세부 조정</b> <img src="assets/gear-icon-in-access-levels.png">에서 두 <b>사용자 관리</b> 옵션 중 하나 이상을 사용할 수 있으므로 라이선스 수준이 낮은 사용자로 로그인할 수 있습니다. </p> 
+   <p><b>참고</b>: 이 두 옵션 중 사용자 <b>관리자(그룹 사용자)</b>를 사용하도록 설정한 경우 사용자가 구성원인 그룹의 그룹 관리자여야 합니다.</p> 
+   <p>액세스 수준의 <b>사용자</b> 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">사용자에게 액세스 권한 부여</a>를 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## 다른 사용자로 로그인 및 작업 수행
 
@@ -90,15 +90,15 @@ Some users, such as executives, need to be able to control which administrators 
    >   
    >  ![](assets/group-admin-user.png)
    >   
-   >  이 설정은 기본적으로 비활성화되어 있습니다. 자세한 내용은 [사용자 정의 액세스 수준 만들기 또는 수정](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+   >  이 설정은 기본적으로 비활성화되어 있습니다. 자세한 내용은 [사용자 지정 액세스 수준 만들기 또는 수정](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)을 참조하세요.
    >   
    >* Workfront 관리자의 암호를 재설정할 수 없습니다.
 
 {{step-1-to-setup}}
 
-1. 왼쪽 패널에서 **다음으로 로그인**.
+1. 왼쪽 패널에서 **다음으로 로그인**&#x200B;을 클릭합니다.
 
-1. 다음에서 **사용자** 상자의 상자 **다음으로 로그인** 탭에서 사용자 이름을 입력한 다음 드롭다운 목록에 나타나면 이름을 클릭합니다.
+1. **다음으로 로그인** 탭의 **사용자** 상자에서 사용자 이름을 입력한 다음 드롭다운 목록에 나타나면 이름을 클릭합니다.
 
    사용자에게 Workfront에 정의된 액세스 수준이 있어야 합니다. 로그인 권한이 없는 사용자로 Workfront 시스템에 로그인할 수 없습니다.
 
@@ -106,7 +106,7 @@ Some users, such as executives, need to be able to control which administrators 
    >
    >그룹 관리자는 자신이 관리하는 그룹의 구성원인 사용자로만 로그인할 수 있습니다. Workfront 관리자로 로그인할 수 없습니다.
 
-1. 클릭 **로그인합니다.**
+1. **로그인**&#x200B;을 클릭합니다.
 
    <!--
    <p> Might come in a future story:</p>
@@ -135,7 +135,7 @@ Some users, such as executives, need to be able to control which administrators 
 
    다른 사용자로 로그인하면 화면 상단에 이를 나타내는 알림이 표시됩니다.
 
-1. 사용자로 필요한 작업을 수행한 후 **로그아웃.**
+1. 사용자로 필요한 작업을 수행한 후 **로그아웃**&#x200B;을 클릭합니다.
 
 ## 관리자가 다른 사용자로 로그인하는 동안의 활동 추적 및 감사
 
@@ -155,9 +155,9 @@ Workfront은 관리자가 다른 사용자로 로그인하는 동안 발생하�
 ### 감사 정보 보기 {#view-audit-information}
 
 1. Workfront에 Workfront 관리자 또는 그룹 관리자로 로그인합니다.
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 상단에서 을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png).
+1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
 
-1. 클릭 **다음으로 로그인,** 그런 다음 **액세스 로그** 탭.
+1. **다음으로 로그인,**&#x200B;을 클릭한 다음 **액세스 로그** 탭을 클릭합니다.
 
    시스템 또는 그룹 관리자가 Workfront에 다른 사용자로 로그인할 때마다 감사 추적에 이벤트가 기록됩니다. 또한 관리자가 다른 사용자로 로그인된 상태에서 발생하는 감사 가능한 작업은 감사 추적에 기록됩니다.
 

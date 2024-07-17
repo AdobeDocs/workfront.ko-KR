@@ -26,7 +26,7 @@ ht-degree: 0%
 * [예제에서 프로젝트 템플릿 만들기](../../../manage-work/projects/create-and-manage-templates/create-templates-from-examples.md)
 * [블루프린트 카탈로그 검색 및 블루프린트 설치 요청](../../../administration-and-setup/blueprints/browse-catalog.md)
 * [프로젝트 템플릿 복사](../../../manage-work/projects/create-and-manage-templates/copy-template.md)
-* [프로젝트에 템플릿 첨부 개요](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md)
+* [프로젝트에 템플릿을 첨부하는 개요](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md)
 * [프로젝트에 템플릿 첨부](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md)
 * [프로젝트 템플릿 편집](../../../manage-work/projects/create-and-manage-templates/edit-templates.md)
 * [템플릿 작업 편집](../../../manage-work/projects/create-and-manage-templates/edit-template-task.md)

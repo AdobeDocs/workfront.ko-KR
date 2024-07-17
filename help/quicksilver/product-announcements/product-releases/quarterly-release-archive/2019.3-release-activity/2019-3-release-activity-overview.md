@@ -22,7 +22,7 @@ ht-degree: 1%
 <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.OnlineOnly">  To download this page in PDF&nbsp;format, go  <a href="https://documentation.my.workfront.com/library/a/1c7547fc-9d72-400e-84ed-3382bca498f4" target="_blank">here</a>. </MadCap:conditionalText>
 -->
 
-2019.3 릴리스 이후에 릴리스된 개선 사항 목록을 보려면 를 참조하십시오. [제품 릴리스](../../../../product-announcements/product-releases/product-releases.md).
+2019.3 릴리스 이후에 릴리스된 개선 사항 목록을 보려면 [제품 릴리스](../../../../product-announcements/product-releases/product-releases.md)를 참조하십시오.
 
 ## 모든 사용자에 대한 개선 사항
 
@@ -152,11 +152,11 @@ ht-degree: 1%
 
   귀하와 귀사에서 Workfront 모바일 앱을 보다 안전하게 사용할 수 있도록 하기 위해 사용자는 8분 동안 활동이 없으면 자동으로 로그아웃됩니다.
 
-* [모바일 앱에서 중단 프로젝트로 필터링](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#filter) [모바일 앱에서 중단 프로젝트로 필터링](https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880)
+* [모바일 앱에서 중단 프로젝트별로 필터링](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#filter) [모바일 앱에서 중단 프로젝트별로 필터링](https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880)
 
   모바일 앱의 프로젝트 탭에 중단 프로젝트를 필터 옵션으로 추가했습니다.
 
-* [iOS에서 모바일 앱을 사용하여 오브젝트 삭제](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#delete)
+* [iOS에서 모바일 앱을 사용하여 개체 삭제](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#delete)
 
   <!-- <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly">  <a href="https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880" target="_blank" data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete objects using the Mobile app on iOS</a> </MadCap:conditionalText>
    -->
@@ -198,7 +198,7 @@ Workfront 모바일 앱에서의 경험을 개선하기 위해 몇 가지 새로
 
 이 섹션에서는 2019.3 릴리스 기간 동안 일반 2019.3 릴리스 전에 프로덕션 환경에 릴리스되는 변경 사항에 대해 설명합니다.
 
-* [사용자 정의 양식에서 필드의 표시 유형 변경](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-project-enhancements.md#change)
+* [사용자 지정 양식에서 필드의 표시 형식을 변경합니다](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-project-enhancements.md#change)
 
   <!--
   <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -357,12 +357,12 @@ Workfront 모바일 앱에서의 경험을 개선하기 위해 몇 가지 새로
 
 ## 공지
 
-* [이제 새로운 Workfront experience Beta를 미리보기에서 사용할 수 있습니다](#the-new-workfront-experience-beta-now-available-in-preview)
+* [이제 새로운 Workfront Experience Beta를 미리 보기에서 사용할 수 있습니다](#the-new-workfront-experience-beta-now-available-in-preview)
 * [이제 Workfront 라이브러리를 사용할 수 있습니다](#workfront-library-now-available)
-* [API 버전 3은 더 이상 지원되지 않습니다.](#api-version-3-no-longer-supported)
+* [API 버전 3은 더 이상 지원되지 않습니다](#api-version-3-no-longer-supported)
 * [TLS 1.0 및 1.1 지원이 종료됨](#tls-1-0-and-1-1-support-is-ending)
 * [Flash 응용 프로그램 제거](#flash-application-removal)
-* [제거할 다양한 단일 사인온 옵션](#various-single-sign-on-options-to-be-removed)
+* [제거할 다양한 SSO(Single Sign-On) 옵션](#various-single-sign-on-options-to-be-removed)
 * [3분기 제품 로드맵 웨비나](#q3-product-roadmap-webinar)
 
 ### 이제 새로운 Workfront experience Beta를 미리보기에서 사용할 수 있습니다 {#the-new-workfront-experience-beta-now-available-in-preview}
@@ -375,7 +375,7 @@ Workfront 라이브러리는 조직의 디지털 에셋에 대한 전체 라이�
 
 ### API 버전 3은 더 이상 지원되지 않습니다. {#api-version-3-no-longer-supported}
 
-API 버전 3에 대한 지원은 2018년 11월에 종료되었습니다. Workfront API 버전에 대한 지원 일정에 대한 자세한 내용은 다음을 참조하십시오. [API 버전 관리 및 지원 일정](../../../../wf-api/api/api-version-support-schedule.md)
+API 버전 3에 대한 지원은 2018년 11월에 종료되었습니다. Workfront API 버전에 대한 지원 일정에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](../../../../wf-api/api/api-version-support-schedule.md)을 참조하십시오.
 
 <!--
 <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -403,7 +403,7 @@ TLS 1.2 to be required in Workfront
 
 Flash 기술에 의존하는 모든 기능은 2018.3 릴리스부터 Workfront에서 제거되었으며 새 솔루션으로 대체되었습니다.
 
-기존 Flash 도구 및 대체 요소에 대한 자세한 내용은 [Adobe Workfront에서 Flash 기반 도구 교체](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)
+기존 Flash 도구 및 대체 요소에 대한 자세한 내용은 [Adobe Workfront에서 Flash 기반 도구 교체](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)를 참조하십시오.
 
 <!--
 <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -419,7 +419,7 @@ Replacement of Flash-based tools in Workfront
 
 * LDAP
 
-  Workfront에서 LDAP를 사용하는 방법에 대한 자세한 내용은 [LDAP를 사용하여 Adobe Workfront 구성](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
+  Workfront에서 LDAP를 사용하는 방법에 대한 자세한 내용은 [LDAP로 Adobe Workfront 구성](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)을 참조하십시오.
 
   <!--
   <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -431,7 +431,7 @@ Replacement of Flash-based tools in Workfront
 
 * Active Directory
 
-  Workfront에서 Active Directory 사용에 대한 자세한 내용은 [Active Directory를 사용하여 Adobe Workfront 구성](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
+  Active Directory를 Workfront과 함께 사용하는 방법에 대한 자세한 내용은 [Active Directory와 함께 Adobe Workfront 구성](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)을 참조하십시오
 
   <!--
   <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -443,7 +443,7 @@ Replacement of Flash-based tools in Workfront
 
 * SAML 1.1
 
-  Workfront에서 SAML 1.1을 사용하는 방법에 대한 자세한 내용은 [SAML 1.1을 사용하여 Adobe Workfront 구성](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
+  Workfront에서 SAML 1.1을 사용하는 방법에 대한 자세한 내용은 [SAML 1.1을 사용하여 Adobe Workfront 구성](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)을 참조하십시오.
 
   <!--
   <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -467,4 +467,4 @@ Replacement of Flash-based tools in Workfront
 
 ### 3분기 제품 로드맵 웨비나 {#q3-product-roadmap-webinar}
 
-다음 기간 동안 제공될 작업에 대해 자세히 알아보기 [3분기 로드맵 웨비나](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&amp;partnerref=Product&amp;eventid=2040896&amp;sessionid=1&amp;key=EFBB434E2FDF446E010DA62D1C27E9E5&amp;regTag=&amp;sourcepage=register) 8월 1일 오전 9시. MST.
+8월 1일 오전 9시에 열리는 [Q3 로드맵 웨비나](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&amp;partnerref=Product&amp;eventid=2040896&amp;sessionid=1&amp;key=EFBB434E2FDF446E010DA62D1C27E9E5&amp;regTag=&amp;sourcepage=register)에서 제공될 작업에 대해 자세히 알아보십시오. MST.

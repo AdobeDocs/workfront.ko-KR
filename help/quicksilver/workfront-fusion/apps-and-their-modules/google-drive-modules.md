@@ -5,26 +5,26 @@ product-area: workfront-integrations;documents
 keywords: 커넥터
 navigation-topic: apps-and-their-modules
 title: Google 드라이브 모듈
-description: 다음 [!DNL Adobe Workfront Fusion Google Drive] 모듈을 사용하면 의 파일, 폴더 또는 공유 드라이브를 모니터링, 검색, 만들기, 업데이트, 삭제 및 관리할 수 있습니다. [!DNL Google Drive].
+description: ' [!DNL Adobe Workfront Fusion Google Drive] 모듈을 사용하면  [!DNL Google Drive]에서 파일, 폴더 또는 공유 드라이브를 모니터링, 검색, 만들기, 업데이트, 삭제 및 관리할 수 있습니다.'
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 7d620c93-d1bf-4451-9f76-1d6fd850cec9
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '2956'
+source-wordcount: '2941'
 ht-degree: 0%
 
 ---
 
-# [!DNL Google Drive] 모듈
+# [!DNL Google Drive]개 모듈
 
-다음 [!DNL Adobe Workfront Fusion] [!DNL Google Drive] 모듈을 사용하면 의 파일, 폴더 또는 공유 드라이브를 모니터링, 검색, 만들기, 업데이트, 삭제 및 관리할 수 있습니다. [!DNL Google Drive].
+[!DNL Adobe Workfront Fusion] [!DNL Google Drive] 모듈을 사용하면 [!DNL Google Drive]에서 파일, 폴더 또는 공유 드라이브를 모니터링, 검색, 만들기, 업데이트, 삭제 및 관리할 수 있습니다.
 
-다음 기간 [!DNL Adobe Workfront Fusion] 시나리오, 다음을 연결할 수 있습니다 [!DNL Google Drive] 여러 타사 애플리케이션 및 서비스에 대한 계정.
+[!DNL Adobe Workfront Fusion] 시나리오에서는 [!DNL Google Drive] 계정을 여러 타사 응용 프로그램 및 서비스에 연결할 수 있습니다.
 
-시나리오를 만드는 방법에 대한 지침이 필요한 경우 [에서 시나리오 만들기 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+시나리오를 만드는 방법에 대한 지침이 필요하면 [시나리오 만들기 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md)를 참조하십시오.
 
-모듈에 대한 자세한 내용은 [의 모듈 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+모듈에 대한 자세한 내용은 [의 모듈 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md)을 참조하세요.
 
 ## 액세스 요구 사항
 
@@ -45,41 +45,41 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 라이센스**</td> 
    <td>
-   <p>현재 라이선스 요구 사항: 아니요 [!DNL Workfront Fusion] 라이센스 요구 사항.</p>
+   <p>현재 라이선스 요구 사항: [!DNL Workfront Fusion] 라이선스 요구 사항이 없습니다.</p>
    <p>또는</p>
-   <p>기존 라이선스 요구 사항: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
+   <p>레거시 라이선스 요구 사항: 작업 자동화 및 통합을 위한 [!UICONTROL [!DNL Workfront Fusion]] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">제품</td> 
    <td>
-   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime]이 있는 경우 [!DNL Adobe Workfront] 플랜, 조직은 다음을 구매해야 합니다. [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오. [!DNL Workfront Fusion] [!UICONTROL Ultimate]에 포함되어 있습니다. [!DNL Workfront] 계획.</p>
+   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime] [!DNL Adobe Workfront] 플랜이 있는 경우 조직에서 이 문서에 설명된 기능을 사용하려면 [!DNL Adobe Workfront Fusion]과(와) [!DNL Adobe Workfront]을(를) 구매해야 합니다. [!DNL Workfront Fusion]이(가) [!UICONTROL Ultimate] [!DNL Workfront] 계획에 포함되어 있습니다.</p>
    <p>또는</p>
-   <p>레거시 제품 요구 사항: 조직에서 구매해야 함 [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오.</p>
+   <p>레거시 제품 요구 사항: 이 문서에 설명된 기능을 사용하려면 조직에서 [!DNL Adobe Workfront Fusion]과(와) [!DNL Adobe Workfront]을(를) 구매해야 합니다.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
+보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
 
-다음에 대한 정보: [!DNL Adobe Workfront Fusion] 라이센스, 참조 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+[!DNL Adobe Workfront Fusion] 라이선스에 대한 자세한 내용은 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md)를 참조하세요.
 
 
 
-## 연결 중 [!DNL Google Drive] 끝 [!DNL Workfront Fusion]
+## [!DNL Workfront Fusion]에 [!DNL Google Drive] 연결 중
 
-다음과 같은 경우 [!DNL @gmail.com] 또는 [!DNL @googlemail.com] 에 OAuth 클라이언트를 만들어야 하는 사용자 [다음 [!DNL Google Cloud Platform]](https://console.developers.google.com/projectselector2/apis/dashboard?supportedpurview=project) 얻기 위하여 [!UICONTROL 클라이언트 ID] 및 [!UICONTROL 클라이언트 암호].
+[!DNL @gmail.com] 또는 [!DNL @googlemail.com] 사용자인 경우 [!UICONTROL 클라이언트 ID] 및 [!UICONTROL 클라이언트 암호]를 가져오려면 [the [!DNL Google Cloud Platform]](https://console.developers.google.com/projectselector2/apis/dashboard?supportedpurview=project)에 OAuth 클라이언트를 만들어야 합니다.
 
-OAuth 클라이언트를 만들고 를 얻는 방법에 대한 단계별 지침 [!UICONTROL 클라이언트 ID] 및 [!UICONTROL 클라이언트 암호]), 다음을 참조하십시오. [연결 [!DNL Adobe Workfront Fusion] 끝 [!DNL Google Services] 사용자 정의 OAuth 클라이언트 사용](../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md).
+OAuth 클라이언트를 만들고 [!UICONTROL 클라이언트 ID] 및 [!UICONTROL 클라이언트 암호]를 얻는 방법에 대한 단계별 지침은 [연결 [!DNL Adobe Workfront Fusion] to [!DNL Google Services] 사용자 지정 OAuth 클라이언트 사용](../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md)을 참조하십시오.
 
-연결에 대한 자세한 내용 [!DNL Google Drive] 계정 위치: [!UICONTROL Workfront Fusion], 참조 [에 대한 연결 만들기 [!UICONTROL Adobe Workfront Fusion] - 기본 지침](../../workfront-fusion/connections/connect-to-fusion-general.md)
+[!DNL Google Drive] 계정을 [!UICONTROL Workfront Fusion]에 연결하는 방법에 대한 지침은 [[!UICONTROL Adobe Workfront Fusion에 연결 만들기] - 기본 지침](../../workfront-fusion/connections/connect-to-fusion-general.md)을 참조하십시오.
 
-## [!DNL Google Drive] 모듈 및 해당 필드
+## [!DNL Google Drive]개 모듈 및 해당 필드
 
-를 구성할 때 [!DNL Google Drive] 모듈, [!DNL Workfront Fusion] 아래 나열된 필드를 표시합니다. 이와 함께 추가 [!DNL Google Drive] 앱이나 서비스의 액세스 수준 등에 따라 필드가 표시될 수 있습니다. 모듈의 굵은 제목은 필수 필드를 나타냅니다.
+[!DNL Google Drive] 모듈을 구성할 때 [!DNL Workfront Fusion]에 아래 나열된 필드가 표시됩니다. 앱 또는 서비스의 액세스 수준과 같은 요소에 따라 이러한 필드와 함께 [!DNL Google Drive] 필드가 추가로 표시될 수 있습니다. 모듈의 굵은 제목은 필수 필드를 나타냅니다.
 
-필드나 함수 위에 맵 단추가 표시되면 이 단추를 사용하여 해당 필드에 대한 변수와 함수를 설정할 수 있습니다. 자세한 내용은 [의 한 모듈에서 다른 모듈로 정보 매핑 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+필드나 함수 위에 맵 단추가 표시되면 이 단추를 사용하여 해당 필드에 대한 변수와 함수를 설정할 수 있습니다. 자세한 내용은 [한 모듈에서 다른 모듈로 정보를 매핑 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)을 참조하십시오.
 
 ![](assets/map-toggle-350x74.png)
 
@@ -105,7 +105,7 @@ OAuth 클라이언트를 만들고 를 얻는 방법에 대한 단계별 지침 
  <tbody> 
   <tr> 
     <td>[!UICONTROL Connection] </td>
-   <td> <p>연결에 대한 자세한 내용 [!DNL Google Drive] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">연결 중 [!DNL Google Drive] [!UICONTROL Workfront Fusion]으로</a></p> </td> 
+   <td> <p>[!DNL Google Drive] 계정을 [!DNL Workfront Fusion]에 연결하는 방법은 <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">[!UICONTROL Workfront Fusion]에 [!DNL Google Drive] 연결</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr>
     <td>[!UICONTROL 감시할 폴더 선택]</td>
@@ -123,20 +123,20 @@ OAuth 클라이언트를 만들고 를 얻는 방법에 대한 단계별 지침 
     </ul> </td> 
   </tr> 
   <tr> 
-    <td >[!UICONTROL 변환 [!DNL Google Documents] 형식을 지정할 파일]</td>
-    <td>변환할 파일 형식을 선택합니다 [!DNL Google Documents] 받는 사람.</td>
+    <td >[!UICONTROL [!DNL Google Documents]개 파일을 형식으로 변환]</td>
+    <td>[!DNL Google Documents]을(를) 변환할 파일 형식을 선택하십시오.</td>
   </tr> 
   <tr>
-    <td>[!UICONTROL 변환 [!DNL Google Spreadsheets] 형식을 지정할 파일]</td>
-    <td>변환할 파일 형식을 선택합니다 [!DNL Google Spreadsheets] 받는 사람.</td>
+    <td>[!UICONTROL [!DNL Google Spreadsheets]개 파일을 형식으로 변환]</td>
+    <td>[!DNL Google Spreadsheets]을(를) 변환할 파일 형식을 선택하십시오.</td>
   </tr> 
   <tr>
-    <td>[!UICONTROL 변환 [!DNL Google Slides] 형식을 지정할 파일]</td>
-    <td>변환할 파일 형식을 선택합니다 [!DNL Google Slides] 받는 사람.</td>
+    <td>[!UICONTROL [!DNL Google Slides]개 파일을 형식으로 변환]</td>
+    <td>[!DNL Google Slides]을(를) 변환할 파일 형식을 선택하십시오.</td>
   </tr> 
   <tr>
-    <td>[!UICONTROL 변환 [!DNL Google Drawings] 형식을 지정할 파일]</td>
-    <td>변환할 파일 형식을 선택합니다 [!DNL Google Drawings] 받는 사람.</td>
+    <td>[!UICONTROL [!DNL Google Drawings]개 파일을 형식으로 변환]</td>
+    <td>[!DNL Google Drawings]을(를) 변환할 파일 형식을 선택하십시오.</td>
   </tr> 
   <tr>
     <td>[!UICONTROL Watch]</td>
@@ -144,14 +144,14 @@ OAuth 클라이언트를 만들고 를 얻는 방법에 대한 단계별 지침 
   </tr> 
   <tr> 
     <td>[!UICONTROL 다운로드한 최대 파일 수]</td>
-    <td>다음에 대한 최대 결과 수 설정 [!DNL Workfront Fusion] 는 한 주기(시나리오 실행당 반복 횟수) 동안 다운로드됩니다.</td>
+    <td>[!DNL Workfront Fusion]이(가) 한 주기 동안 다운로드할 최대 결과 수(시나리오 실행당 반복 횟수)를 설정합니다.</td>
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL 모든 파일 보기]
 
-에 파일이 있을 때 파일 세부 정보를 검색합니다. [!DNL Google Drive] 이 추가되거나 수정됩니다.
+[!DNL Google Drive]의 파일을 추가하거나 수정할 때 파일 세부 정보를 검색합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -159,7 +159,7 @@ OAuth 클라이언트를 만들고 를 얻는 방법에 대한 단계별 지침 
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Google Drive] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">연결 중 [!DNL Google Drive] [!UICONTROL Workfront Fusion]으로</a></p> </td> 
+   <td> <p>[!DNL Google Drive] 계정을 [!DNL Workfront Fusion]에 연결하는 방법은 <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">[!UICONTROL Workfront Fusion]에 [!DNL Google Drive] 연결</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 조사할 파일]</td> 
@@ -173,20 +173,20 @@ OAuth 클라이언트를 만들고 를 얻는 방법에 대한 단계별 지침 
     </ul> </td> 
   </tr> 
   <tr> 
-    <td >[!UICONTROL 변환 [!DNL Google Documents] 형식을 지정할 파일]</td>
-    <td>변환할 파일 형식을 선택합니다 [!DNL Google Documents] 받는 사람.</td>
+    <td >[!UICONTROL [!DNL Google Documents]개 파일을 형식으로 변환]</td>
+    <td>[!DNL Google Documents]을(를) 변환할 파일 형식을 선택하십시오.</td>
   </tr> 
   <tr>
-    <td>[!UICONTROL 변환 [!DNL Google Spreadsheets] 형식을 지정할 파일]</td>
-    <td>변환할 파일 형식을 선택합니다 [!DNL Google Spreadsheets] 받는 사람.</td>
+    <td>[!UICONTROL [!DNL Google Spreadsheets]개 파일을 형식으로 변환]</td>
+    <td>[!DNL Google Spreadsheets]을(를) 변환할 파일 형식을 선택하십시오.</td>
   </tr> 
   <tr>
-    <td>[!UICONTROL 변환 [!DNL Google Slides] 형식을 지정할 파일]</td>
-    <td>변환할 파일 형식을 선택합니다 [!DNL Google Slides] 받는 사람.</td>
+    <td>[!UICONTROL [!DNL Google Slides]개 파일을 형식으로 변환]</td>
+    <td>[!DNL Google Slides]을(를) 변환할 파일 형식을 선택하십시오.</td>
   </tr> 
   <tr>
-    <td>[!UICONTROL 변환 [!DNL Google Drawings] 형식을 지정할 파일]</td>
-    <td>변환할 파일 형식을 선택합니다 [!DNL Google Drawings] 받는 사람.</td>
+    <td>[!UICONTROL [!DNL Google Drawings]개 파일을 형식으로 변환]</td>
+    <td>[!DNL Google Drawings]을(를) 변환할 파일 형식을 선택하십시오.</td>
   </tr>  
   <tr> 
    <td>[!UICONTROL Watch]</td> 
@@ -194,7 +194,7 @@ OAuth 클라이언트를 만들고 를 얻는 방법에 대한 단계별 지침 
   </tr> 
   <tr> 
    <td>[!UICONTROL 다운로드한 최대 파일 수]</td> 
-   <td>다음에 대한 최대 결과 수 설정 [!DNL Workfront Fusion] 는 한 주기(시나리오 실행당 반복 횟수) 동안 다운로드됩니다.</td> 
+   <td>[!DNL Workfront Fusion]이(가) 한 주기 동안 다운로드할 최대 결과 수(시나리오 실행당 반복 횟수)를 설정합니다.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -209,7 +209,7 @@ OAuth 클라이언트를 만들고 를 얻는 방법에 대한 단계별 지침 
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Google Drive] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">연결 중 [!DNL Google Drive] [!UICONTROL Workfront Fusion]으로</a></p> </td> 
+   <td> <p>[!DNL Google Drive] 계정을 [!DNL Workfront Fusion]에 연결하는 방법은 <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">[!UICONTROL Workfront Fusion]에 [!DNL Google Drive] 연결</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 감시할 폴더 선택]</td> 
@@ -227,20 +227,20 @@ OAuth 클라이언트를 만들고 를 얻는 방법에 대한 단계별 지침 
     </ul> </td> 
   </tr> 
   <tr> 
-    <td >[!UICONTROL 변환 [!DNL Google Documents] 형식을 지정할 파일]</td>
-    <td>변환할 파일 형식을 선택합니다 [!DNL Google Documents] 받는 사람.</td>
+    <td >[!UICONTROL [!DNL Google Documents]개 파일을 형식으로 변환]</td>
+    <td>[!DNL Google Documents]을(를) 변환할 파일 형식을 선택하십시오.</td>
   </tr> 
   <tr>
-    <td>[!UICONTROL 변환 [!DNL Google Spreadsheets] 형식을 지정할 파일]</td>
-    <td>변환할 파일 형식을 선택합니다 [!DNL Google Spreadsheets] 받는 사람.</td>
+    <td>[!UICONTROL [!DNL Google Spreadsheets]개 파일을 형식으로 변환]</td>
+    <td>[!DNL Google Spreadsheets]을(를) 변환할 파일 형식을 선택하십시오.</td>
   </tr> 
   <tr>
-    <td>[!UICONTROL 변환 [!DNL Google Slides] 형식을 지정할 파일]</td>
-    <td>변환할 파일 형식을 선택합니다 [!DNL Google Slides] 받는 사람.</td>
+    <td>[!UICONTROL [!DNL Google Slides]개 파일을 형식으로 변환]</td>
+    <td>[!DNL Google Slides]을(를) 변환할 파일 형식을 선택하십시오.</td>
   </tr> 
   <tr>
-    <td>[!UICONTROL 변환 [!DNL Google Drawings] 형식을 지정할 파일]</td>
-    <td>변환할 파일 형식을 선택합니다 [!DNL Google Drawings] 받는 사람.</td>
+    <td>[!UICONTROL [!DNL Google Drawings]개 파일을 형식으로 변환]</td>
+    <td>[!DNL Google Drawings]을(를) 변환할 파일 형식을 선택하십시오.</td>
   </tr> 
   <tr> 
    <td>[!UICONTROL Watch]</td> 
@@ -248,7 +248,7 @@ OAuth 클라이언트를 만들고 를 얻는 방법에 대한 단계별 지침 
   </tr> 
   <tr> 
    <td>[!UICONTROL 다운로드한 최대 파일 수]</td> 
-   <td>다음에 대한 최대 결과 수 설정 [!DNL Workfront Fusion] 는 한 주기(시나리오 실행당 반복 횟수) 동안 다운로드됩니다.</td> 
+   <td>[!DNL Workfront Fusion]이(가) 한 주기 동안 다운로드할 최대 결과 수(시나리오 실행당 반복 횟수)를 설정합니다.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -263,7 +263,7 @@ OAuth 클라이언트를 만들고 를 얻는 방법에 대한 단계별 지침 
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Google Drive] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">연결 중 [!DNL Google Drive] [!UICONTROL Workfront Fusion]으로</a></p> </td> 
+   <td> <p>[!DNL Google Drive] 계정을 [!DNL Workfront Fusion]에 연결하는 방법은 <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">[!UICONTROL Workfront Fusion]에 [!DNL Google Drive] 연결</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 파일]</td> 
@@ -275,7 +275,7 @@ OAuth 클라이언트를 만들고 를 얻는 방법에 대한 단계별 지침 
   </tr> 
   <tr> 
    <td>[!UICONTROL 반환되는 최대 주석 수]</td> 
-   <td>댓글의 최대 수를 설정합니다. [!DNL Workfront Fusion] 는 한 주기(시나리오 실행당 반복 횟수) 동안 를 반환합니다.</td> 
+   <td>[!DNL Workfront Fusion]이(가) 한 주기 동안 반환할 최대 댓글 수(시나리오 실행당 반복 횟수)를 설정하십시오.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -294,7 +294,7 @@ OAuth 클라이언트를 만들고 를 얻는 방법에 대한 단계별 지침 
 
 #### [!UICONTROL 파일 업로드]
 
-에 파일 업로드 [!DNL Google Drive].
+파일을 [!DNL Google Drive]에 업로드합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -302,7 +302,7 @@ OAuth 클라이언트를 만들고 를 얻는 방법에 대한 단계별 지침 
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Google Drive] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">연결 중 [!DNL Google Drive] [!UICONTROL Workfront Fusion]으로</a></p> </td> 
+   <td> <p>[!DNL Google Drive] 계정을 [!DNL Workfront Fusion]에 연결하는 방법은 <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">[!UICONTROL Workfront Fusion]에 [!DNL Google Drive] 연결</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>[!DNL Destination]</td> 
@@ -313,11 +313,11 @@ OAuth 클라이언트를 만들고 를 얻는 방법에 대한 단계별 지침 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Target 폴더]</td> 
+   <td>[!UICONTROL 대상 폴더]</td> 
    <td>파일을 업로드할 폴더를 선택합니다. </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 소스 파일]</td> 
+   <td>[!UICONTROL Source 파일]</td> 
    <td>이전 모듈에서 전달된 파일을 사용할지 또는 파일을 수동으로 매핑할지 여부를 선택합니다.</td> 
   </tr> 
   <tr> 
@@ -334,7 +334,7 @@ OAuth 클라이언트를 만들고 를 얻는 방법에 대한 단계별 지침 
   </tr> 
   <tr> 
    <td>[!UICONTROL 파일 변환]</td> 
-   <td>이 옵션을 활성화하면 모듈이 파일을 해당 파일로 변환할 수 있습니다 [!DNL Google] 포맷.</td> 
+   <td>이 옵션을 활성화하면 모듈이 파일을 해당 [!DNL Google] 형식으로 변환할 수 있습니다.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -349,7 +349,7 @@ OAuth 클라이언트를 만들고 를 얻는 방법에 대한 단계별 지침 
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Google Drive] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">연결 중 [!DNL Google Drive] [!UICONTROL Workfront Fusion]으로</a></p> </td> 
+   <td> <p>[!DNL Google Drive] 계정을 [!DNL Workfront Fusion]에 연결하는 방법은 <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">[!UICONTROL Workfront Fusion]에 [!DNL Google Drive] 연결</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 대상]</td> 
@@ -376,7 +376,7 @@ OAuth 클라이언트를 만들고 를 얻는 방법에 대한 단계별 지침 
    <td>파일 내용을 바꿀 것인지 선택합니다.</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 소스 파일]</td> 
+   <td>[!UICONTROL Source 파일]</td> 
    <td>이전 모듈에서 전달된 파일을 사용할지 또는 파일을 수동으로 매핑할지 여부를 선택합니다. 이전 필드에서 파일의 내용을 변경하도록 선택한 경우 이 필드를 사용할 수 있습니다.</td> 
   </tr> 
   <tr> 
@@ -400,7 +400,7 @@ OAuth 클라이언트를 만들고 를 얻는 방법에 대한 단계별 지침 
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Google Drive] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">연결 중 [!DNL Google Drive] [!UICONTROL Workfront Fusion]으로</a></p> </td> 
+   <td> <p>[!DNL Google Drive] 계정을 [!DNL Workfront Fusion]에 연결하는 방법은 <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">[!UICONTROL Workfront Fusion]에 [!DNL Google Drive] 연결</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 대상]</td> 
@@ -411,7 +411,7 @@ OAuth 클라이언트를 만들고 를 얻는 방법에 대한 단계별 지침 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Target 폴더]</td> 
+   <td>[!UICONTROL 대상 폴더]</td> 
    <td>복사할 파일이 있는 폴더 선택/</td> 
   </tr> 
   <tr> 
@@ -435,7 +435,7 @@ OAuth 클라이언트를 만들고 를 얻는 방법에 대한 단계별 지침 
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Google Drive] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">연결 중 [!DNL Google Drive] [!UICONTROL Workfront Fusion]으로</a></p> </td> 
+   <td> <p>[!DNL Google Drive] 계정을 [!DNL Workfront Fusion]에 연결하는 방법은 <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">[!UICONTROL Workfront Fusion]에 [!DNL Google Drive] 연결</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 파일 ID]</td> 
@@ -454,7 +454,7 @@ OAuth 클라이언트를 만들고 를 얻는 방법에 대한 단계별 지침 
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Google Drive] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">연결 중 [!DNL Google Drive] [!UICONTROL Workfront Fusion]으로</a></p> </td> 
+   <td> <p>[!DNL Google Drive] 계정을 [!DNL Workfront Fusion]에 연결하는 방법은 <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">[!UICONTROL Workfront Fusion]에 [!DNL Google Drive] 연결</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 파일 ID]</td> 
@@ -473,23 +473,23 @@ OAuth 클라이언트를 만들고 를 얻는 방법에 대한 단계별 지침 
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Google Drive] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">연결 중 [!DNL Google Drive] [!UICONTROL Workfront Fusion]으로</a></p> </td> 
+   <td> <p>[!DNL Google Drive] 계정을 [!DNL Workfront Fusion]에 연결하는 방법은 <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">[!UICONTROL Workfront Fusion]에 [!DNL Google Drive] 연결</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 변환 [!DNL Google Documents] 형식을 지정할 파일]</td> 
-   <td>변환할 파일 형식을 선택합니다 [!DNL Google Documents] 받는 사람.</td> 
+   <td>[!UICONTROL [!DNL Google Documents]개 파일을 형식으로 변환]</td> 
+   <td>[!DNL Google Documents]을(를) 변환할 파일 형식을 선택하십시오.</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 변환 [!DNL Google Spreadsheets] 형식을 지정할 파일]</td> 
-   <td>변환할 파일 형식을 선택합니다 [!DNL Google Spreadsheets] 받는 사람.</td> 
+   <td>[!UICONTROL [!DNL Google Spreadsheets]개 파일을 형식으로 변환]</td> 
+   <td>[!DNL Google Spreadsheets]을(를) 변환할 파일 형식을 선택하십시오.</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 변환 [!DNL Google Slides] 형식을 지정할 파일]</td> 
-   <td>변환할 파일 형식을 선택합니다 [!DNL Google Slides] 받는 사람.</td> 
+   <td>[!UICONTROL [!DNL Google Slides]개 파일을 형식으로 변환]</td> 
+   <td>[!DNL Google Slides]을(를) 변환할 파일 형식을 선택하십시오.</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 변환 [!DNL Google Drawings] 형식을 지정할 파일]</td> 
-   <td>변환할 파일 형식을 선택합니다 [!DNL Google Drawings] 받는 사람.</td> 
+   <td>[!UICONTROL [!DNL Google Drawings]개 파일을 형식으로 변환]</td> 
+   <td>[!DNL Google Drawings]을(를) 변환할 파일 형식을 선택하십시오.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 파일 ID]</td> 
@@ -508,7 +508,7 @@ OAuth 클라이언트를 만들고 를 얻는 방법에 대한 단계별 지침 
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Google Drive] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">연결 중 [!DNL Google Drive] [!UICONTROL Workfront Fusion]으로</a></p> </td> 
+   <td> <p>[!DNL Google Drive] 계정을 [!DNL Workfront Fusion]에 연결하는 방법은 <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">[!UICONTROL Workfront Fusion]에 [!DNL Google Drive] 연결</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 대상]</td> 
@@ -530,25 +530,25 @@ OAuth 클라이언트를 만들고 를 얻는 방법에 대한 단계별 지침 
    <td> <p>[!UICONTROL Search]</p> </td> 
    <td> <p>수행할 검색 유형을 선택합니다.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL 파일/폴더 이름 내 검색]</strong> </p> 
+     <li> <p><strong>[!UICONTROL Search within file/folder names]</strong> </p> 
       <ul> 
-       <li> <p><strong>[!UICONTROL Query]</strong> </p> <p>검색할 파일 이름 또는 전체 파일 이름(접미사 포함)의 일부를 입력합니다.</p> </li> 
+       <li> <p><strong>[!UICONTROL 쿼리]</strong> </p> <p>검색할 파일 이름 또는 전체 파일 이름(접미사 포함)의 일부를 입력합니다.</p> </li> 
        <li> <p><strong>[!UICONTROL 검색 옵션]</strong> </p> <p>정확한 용어를 검색할지 또는 검색어가 포함된 이름을 검색할지 여부를 선택합니다.</p> </li> 
       </ul> </li> 
-     <li> <p><strong>[!UICONTROL Fulltext] 검색</strong> </p> 
+     <li> <p><strong>[!UICONTROL 전체 텍스트] 검색</strong> </p> 
       <ul> 
-       <li> <p><strong>[!UICONTROL Query]</strong> </p> <p>검색할 검색어를 입력하십시오. [!DNL Google Drive].</p> </li> 
+       <li> <p><strong>[!UICONTROL 쿼리]</strong> </p> <p>[!DNL Google Drive]에서 검색할 검색어를 입력하십시오.</p> </li> 
       </ul> </li> 
-     <li> <p><strong>사용자 정의 검색 쿼리 입력</strong> </p> 
+     <li> <p><strong>사용자 지정 검색 쿼리 입력</strong> </p> 
       <ul> 
-       <li> <p><strong>[!UICONTROL Query]</strong> </p> <p>사용자 지정 검색 쿼리를 입력합니다. 자세한 내용은 이 문서의 [!UICONTROL Search for Files] 섹션을 참조하십시오.</p> </li> 
-       <li> <p><strong>위에서 선택한 폴더를 쿼리에 추가합니다.</strong> </p> <p>상위 컬렉션에서 폴더를 검색합니다. 이렇게 하면 위에서 선택한 폴더에 직접 있는 모든 파일과 폴더를 찾습니다.</p> </li> 
+       <li> <p><strong>[!UICONTROL 쿼리]</strong> </p> <p>사용자 지정 검색 쿼리를 입력합니다. 자세한 내용은 이 문서의 [!UICONTROL Search for Files] 섹션을 참조하십시오.</p> </li> 
+       <li> <p><strong>위에서 선택한 폴더를 쿼리에 추가</strong> </p> <p>상위 컬렉션에서 폴더를 검색합니다. 이렇게 하면 위에서 선택한 폴더에 직접 있는 모든 파일과 폴더를 찾습니다.</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 반환되는 최대 결과 수]</td> 
-   <td>최대 파일 또는 폴더 수 설정 [!DNL Workfront Fusion] 는 한 실행 주기 동안 를 반환합니다.</td> 
+   <td>한 실행 주기 동안 [!DNL Workfront Fusion]이(가) 반환할 최대 파일 또는 폴더 수를 설정하십시오.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 모듈이 결과를 반환하지 않더라도 라우트 실행을 계속합니다.]</td> 
@@ -567,7 +567,7 @@ OAuth 클라이언트를 만들고 를 얻는 방법에 대한 단계별 지침 
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Google Drive] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">연결 중 [!DNL Google Drive] [!UICONTROL Workfront Fusion]으로</a></p> </td> 
+   <td> <p>[!DNL Google Drive] 계정을 [!DNL Workfront Fusion]에 연결하는 방법은 <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">[!UICONTROL Workfront Fusion]에 [!DNL Google Drive] 연결</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 대상]</td> 
@@ -602,7 +602,7 @@ Google 드라이브의 파일에 대한 공유 링크를 검색합니다.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Google Drive] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">연결 중 [!DNL Google Drive] [!UICONTROL Workfront Fusion]으로</a></p> </td> 
+   <td> <p>[!DNL Google Drive] 계정을 [!DNL Workfront Fusion]에 연결하는 방법은 <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">[!UICONTROL Workfront Fusion]에 [!DNL Google Drive] 연결</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 파일 ID]</td> 
@@ -617,25 +617,25 @@ Google 드라이브의 파일에 대한 공유 링크를 검색합니다.
 
 파일 업로드 또는 업데이트가 실패할 경우 다음과 같은 몇 가지 상황이 발생합니다.
 
-* 업로드된 파일이 너무 커서 다음에 대해 허용되는 최대 파일 크기 제한을 초과합니다. [!DNL Google Drive] 플랜 또는 을(를) 초과했습니다. [!DNL Google Drive] 스토리지 제한. 스토리지 계획을 업그레이드하거나 [!DNL Google Drive] 서비스.
+* 업로드한 파일이 너무 커서 [!DNL Google Drive] 계획에 허용된 최대 파일 크기 제한을 초과하거나 [!DNL Google Drive] 저장소 제한을 초과했습니다. 저장소 계획을 업그레이드하거나 [!DNL Google Drive] 서비스에서 기존 파일을 삭제할 수 있습니다.
 * 파일을 업로드할 선택한 폴더가 더 이상 존재하지 않습니다. 시나리오가 중지되고 대상 폴더를 다시 선택해야 합니다.
 
 ## 파일 검색
 
 폴더의 목록 파일 모듈에서 다음 부분으로 구성된 자체 쿼리를 사용할 수 있습니다.
 
-* **[!UICONTROL 필드]** - 검색 중인 파일의 속성(예: 속성) `name` 을 선택합니다.
+* **[!UICONTROL 필드]** - 검색 중인 파일의 특성(예: 파일의 특성 `name`).
 
-* **[!UICONTROL 연산자]** - 일치 항목을 제공하기 위해 데이터에 대해 수행되는 테스트(예: ) `contains`.
+* **[!UICONTROL 연산자]** - 일치 항목(예: `contains`)을 제공하기 위해 데이터에 대해 수행되는 테스트입니다.
 
-* **[!UICONTROL 값]** - 테스트되는 속성의 콘텐츠(예: 파일 이름) `My cool document`.
+* **[!UICONTROL 값]** - 테스트된 특성의 콘텐츠(예: `My cool document` 파일의 이름).
 
-절을 연결점과 결합 `and` 또는 `or`및 을 사용하여 쿼리 부정 `not`.
+절을 연결 `and` 또는 `or`과(와) 결합하고 쿼리를 `not`(으)로 무효화합니다.
 
 * [필드](#fields)
 * [값 유형](#value-types)
 * [연산자](#operators)
-* [예](#examples)
+* [예시](#examples)
 
 ### 필드
 
@@ -736,21 +736,21 @@ Google 드라이브의 파일에 대한 공유 링크를 검색합니다.
 
 이러한 필드의 연산자에 대해 다음 사항을 고려하십시오.
 
-* 다음 `contains` 연산자는 접두사 일치만 수행합니다. `title`.
+* `contains` 연산자는 `title`에 대해서만 접두사 일치를 수행합니다.
 
-  예를 들어 &quot;HelloWorld&quot;라는 제목은 `title contains 'Hello'` 하지만 다음에 대해서는 해당되지 않음 `title contains 'World'`.
+  예를 들어 &quot;HelloWorld&quot; 제목은 `title contains 'Hello'`에 대해 일치하지만 `title contains 'World'`에는 일치하지 않습니다.
 
-* 다음 `contains` 연산자는 전체 문자열 토큰에 대해서만 일치를 수행합니다. `fullText`.
+* `contains` 연산자는 `fullText`에 대한 전체 문자열 토큰에 대해서만 일치를 수행합니다.
 
-  예를 들어, 문서의 전체 텍스트에 문자열 &quot;HelloWorld&quot;가 포함되어 있으면 쿼리만 `fullText contains 'HelloWorld'` 결과를 반환합니다. 쿼리: `fullText contains 'Hello'` 이 시나리오에서는 결과가 반환되지 않습니다.
+  예를 들어, 문서의 전체 텍스트에 문자열 &quot;HelloWorld&quot;가 포함되어 있으면 `fullText contains 'HelloWorld'` 쿼리만 결과를 반환합니다. `fullText contains 'Hello'`과(와) 같은 쿼리는 이 시나리오에서 결과를 반환하지 않습니다.
 
-* 다음 `contains` 연산자가 큰따옴표로 묶인 경우 정확한 영숫자 구문에서 일치합니다.
+* `contains` 연산자는 큰따옴표로 묶인 경우 정확한 영숫자 구문에서 일치합니다.
 
-  예를 들어 `fullText` Hello there world 문자열이 포함된 다음 쿼리가 `fullText contains '"Hello there"'` 결과를 반환하지만 쿼리는 `fullText contains '"Hello world"'` 그렇지 않습니다.
+  예를 들어, 문서의 `fullText`에 문자열 &quot;Hello there world&quot;가 포함되어 있으면 `fullText contains '"Hello there"'` 쿼리는 결과를 반환하지만 `fullText contains '"Hello world"'` 쿼리는 결과를 반환하지 않습니다.
 
-  또한 검색이 영숫자이기 때문에 `fullText` 의 문서에 문자열 &quot;Hello_world&quot;가 포함된 후 쿼리 `fullText contains '"Hello world"'` 결과를 반환합니다.
+  또한 검색은 영숫자이므로 문서의 `fullText`에 문자열 &quot;Hello_world&quot;가 포함되어 있으면 `fullText contains '"Hello world"'` 쿼리가 결과를 반환합니다.
 
-* 필드 `type` 날짜는 현재 서로 비교할 수 없으며 상수 날짜에만 해당됩니다.
+* `type` 날짜 필드는 현재 서로 비교할 수 없으며 상수 날짜에만 해당됩니다.
 
 ### 값 유형
 
@@ -766,15 +766,15 @@ Google 드라이브의 파일에 대한 공유 링크를 검색합니다.
  <tbody> 
   <tr> 
    <td>문자열 </td> 
-   <td> <p>작은 따옴표 '(으)로 묶습니다. 쿼리에서 작은 따옴표 이스케이프 처리 <code>\'</code>, 예:<code> 'Valentine\'s Day'</code>.</p> </td> 
+   <td> <p>작은 따옴표 '(으)로 묶습니다. 쿼리에서 <code>\'</code>(예: <code> 'Valentine\'s Day'</code>)을(를) 사용하여 작은 따옴표를 이스케이프 처리합니다.</p> </td> 
   </tr> 
   <tr> 
    <td>부울 </td> 
-   <td> <p><code>true </code>또는 <code>false</code>.</p> </td> 
+   <td> <p><code>true </code>또는 <code>false</code>입니다.</p> </td> 
   </tr> 
   <tr> 
    <td>일자 </td> 
-   <td> <p>RFC 3339 형식, 기본 시간대는 UTC입니다(예: ). <code>2012-06-04T12:00:00-08:00</code>.</p> </td> 
+   <td> <p>RFC 3339 형식입니다. 기본 시간대는 UTC입니다(예: <code>2012-06-04T12:00:00-08:00</code>).</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -843,11 +843,11 @@ Google 드라이브의 파일에 대한 공유 링크를 검색합니다.
 </table>
 
 복합 절의 경우 괄호를 사용하여 절을 함께 그룹화할 수 있습니다. 예:
-`modifiedDate > '2012-06-04T12:00:00' and (mimeType contains 'image/' or mimeType contains 'video/')` 이 검색은 이미지 또는 비디오 MIME 유형이 있는 모든 파일을 반환하며, 마지막 수정은 2012년 6월 4일 이후입니다. 이유 `and` 및 `or` 연산자는 괄호를 사용하지 않고 왼쪽에서 오른쪽으로 평가됩니다. 위의 예제는 2012년 6월 4일 이후에 수정된 이미지만 반환하지만 2012년 6월 4일 이전의 모든 비디오를 반환합니다.
+`modifiedDate > '2012-06-04T12:00:00' and (mimeType contains 'image/' or mimeType contains 'video/')` 이 검색은 2012년 6월 4일 이후에 마지막으로 수정한 이미지 또는 비디오 MIME 형식의 모든 파일을 반환합니다. `and` 및 `or` 연산자는 괄호를 사용하지 않고 왼쪽에서 오른쪽으로 평가되므로 위의 예에서는 2012년 6월 4일 이후에 수정된 이미지만 반환하지만 2012년 6월 4일 이전의 모든 비디오를 반환합니다.
 
-### 예
+### 예시
 
-이 페이지의 모든 예제에서는 인코딩이 해제된 을 보여 줍니다 `<q>q</q>` 매개 변수, 여기서 `title = 'hello'` 다음과 같이 인코딩됨 `title+%3d+%27hello%27`. 클라이언트 라이브러리는 이 인코딩을 자동으로 처리합니다.
+이 페이지의 모든 예제에서는 인코딩되지 않은 `<q>q</q>` 매개 변수를 보여 줍니다. 여기서 `title = 'hello'`은(는) `title+%3d+%27hello%27`(으)로 인코딩됩니다. 클라이언트 라이브러리는 이 인코딩을 자동으로 처리합니다.
 
 * 이름이 &quot;hello&quot;인 파일 검색
   <pre>title = 'hello'</pre>
@@ -869,9 +869,9 @@ Google 드라이브의 파일에 대한 공유 링크를 검색합니다.
   <pre>전체 텍스트에 '\\authors'가 포함되어 있음</pre>
 * &quot;test@example.org&quot; 사용자가 쓸 수 있는 파일 검색
   <pre>의 'test@example.org' [!DNL writers]</pre>
-* ID 검색 `1234567` 다음에서 `parents` 컬렉션. 그러면 ID가 인 폴더에 직접 있는 모든 파일과 폴더가 검색됩니다 `1234567`.
+* `parents` 컬렉션에서 ID `1234567`을(를) 검색합니다. ID가 `1234567`인 폴더에서 직접 있는 모든 파일과 폴더를 찾습니다.
   <pre>[!UICONTROL 상위]의 '1234567'</pre>
-* 별칭 ID 검색 `appDataFolder` 다음에서 `parents` 컬렉션. 이렇게 하면 바로 아래에 있는 모든 파일과 폴더가 [응용 프로그램 데이터 폴더](https://developers.google.com/drive/api/v2/appdata).
+* `parents` 컬렉션에서 별칭 ID `appDataFolder`을(를) 검색합니다. [응용 프로그램 데이터 폴더](https://developers.google.com/drive/api/v2/appdata) 바로 아래에 있는 모든 파일과 폴더를 찾습니다.
   <pre>상위 항목의 'appDataFolder'</pre>
 * &quot;test@example.org&quot; 및 &quot;test2@example.org&quot; 사용자가 쓸 수 있는 파일 검색
   <pre>writers의 'test@example.org' 및 writers의 'test2@example.org'</pre>
@@ -879,9 +879,9 @@ Google 드라이브의 파일에 대한 공유 링크를 검색합니다.
   <pre>fullText에 'important'가 포함되어 있고 휴지통으로 이동된 = true</pre>
 * 2012년 6월 4일 이후에 수정된 파일 검색
   <pre>modifiedDate &gt; '2012-06-04T12:00:00' // 기본 시간대는 UTC입니다.</pre><pre>modifiedDate &gt; '2012-06-04T12:00:00-08:00'</pre>
-* 이름에 &quot;hello&quot;가 있는 인증된 사용자와 공유된 파일 검색
+* 이름에 &quot;hello&quot;가 있는 인증된 사용자와 공유된 파일을 검색합니다.
   <pre>sharedWithMe 및 제목에 'hello'가 포함됨</pre>
-* 을(를) 사용하여 파일 검색 [사용자 정의 파일 속성](https://developers.google.com/drive/api/v2/properties) 명명된 `additionalID` 값 포함 `8e8aceg2af2ge72e78`.
+* 값이 `8e8aceg2af2ge72e78`인 이름이 `additionalID`인 [사용자 지정 파일 속성](https://developers.google.com/drive/api/v2/properties)이 있는 파일을 검색합니다.
   <pre>속성에는 { key='additionalID' 및 value='8e8aceg2af2ge72e78' 및 visibility='PRIVATE' }이(가) 있습니다.</pre>
 
-이 안내서의 소스는 다음과 같습니다 [[!DNL Google Drive] 설명서](https://developers.google.com/drive/api/v2/search-shareddrives).
+이 안내서의 Source은 [[!DNL Google Drive] 설명서](https://developers.google.com/drive/api/v2/search-shareddrives)입니다.

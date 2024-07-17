@@ -22,4 +22,4 @@ ht-degree: 0%
 
 사용자 피드백을 기반으로 Desktop Proofing Viewer에 대한 업데이트를 연기하는 옵션을 추가하고 있습니다. 이제 사용자는 업데이트를 지연하고 작업을 계속할 수 있지만 Desktop Proofing Viewer를 열 때마다 업데이트를 사용할 수 있다는 메시지가 표시됩니다.
 
-Desktop Proofing Viewer 업데이트에 대한 자세한 내용은 [Desktop Proofing 뷰어 업데이트](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).
+Desktop Proofing Viewer 업데이트에 대한 자세한 내용은 [Desktop Proofing Viewer 업데이트](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)를 참조하십시오.

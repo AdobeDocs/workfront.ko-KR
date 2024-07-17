@@ -42,4 +42,4 @@ Workfront 목표를 사용하면 단일 플랫폼에서 목표를 원활하게 �
 * 목표와 비교하여 내 KPI의 진행 상황은 무엇입니까?
 * 어떤 일이 위험에 처해 있거나, 뒤쳐져 있거나, 제 목표를 달성하기 위한 적절한 과정에 있습니까?
 
-Workfront 목표에 대한 자세한 내용은 다음을 참조하십시오. [Adobe Workfront 목표 개요](../../../workfront-goals/goal-management/wf-goals-overview.md).
+Workfront 목표에 대한 자세한 내용은 [Adobe Workfront 목표 개요](../../../workfront-goals/goal-management/wf-goals-overview.md)를 참조하십시오.

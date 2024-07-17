@@ -4,7 +4,8 @@ description: Adobe Workfront Planning에 있는 레코드 유형의 테이블 �
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 406cd3f929d3955d196f883bf1830fd0fffe9251
+exl-id: fe3127ab-3f59-46a0-a747-9e9e1582265b
+source-git-commit: 9a9a756e2b7e30ce3c0139e5e166b65c7e64bffd
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 1%
@@ -27,7 +28,7 @@ ht-degree: 1%
 
 ![](assets/another-text-field-as-a-primary-field-highlighted.png)
 
-필드를 기본 필드로 지정하는 방법에 대한 자세한 내용은 [표 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md).
+필드를 기본 필드로 지정하는 방법에 대한 자세한 내용은 [테이블 보기 관리](/help/quicksilver/planning/views/manage-the-table-view.md)를 참조하십시오.
 
 ## 기본 필드 개요
 

@@ -25,7 +25,7 @@ in January 2022
 
 2022년 1월 17일이 있는 주.
 
-22.1 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [22.1 릴리스 개요](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+22.1 릴리스에서 사용할 수 있는 모든 변경 사항 목록을 보려면 [22.1 릴리스 개요](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md)를 참조하십시오.
 
 ## 검토자 및 요청자를 위한 증명 기능 개선
 
@@ -56,18 +56,18 @@ Workfront과 Proof 간의 통합 경험을 제공하기 위해 검토자 및 요
 
 >[!IMPORTANT]
 >
->SSO 자격 증명으로 증명에 전자 방식으로 서명하려면 Workfront 증명에서 SSO를 설정해야 합니다. SSO 활성화에 대한 자세한 내용은 을 참조하십시오. [Workfront Proof 사용자를 위한 단일 사인온 구성](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md).
+>SSO 자격 증명으로 증명에 전자 방식으로 서명하려면 Workfront Proof에서 SSO를 설정해야 합니다. SSO 활성화에 대한 자세한 내용은 [Workfront Proof 사용자를 위한 Single Sign-On 구성](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)을 참조하십시오.
 
-이전에는 사용자가 Workfront 자격 증명과 다른 Workfront 증명 자격 증명을 사용해야 했습니다.
+이전에는 사용자가 Workfront 자격 증명과 다른 Workfront Proof 자격 증명을 사용해야 했습니다.
 
-자세한 내용은 [증명 보안 개요](../../../review-and-approve-work/proofing/proofing-overview/proof-security-overview.md).
+자세한 내용은 [증명 보안 개요](../../../review-and-approve-work/proofing/proofing-overview/proof-security-overview.md)를 참조하세요.
 
 ## Desktop Viewer 업그레이드
 
-대화형 증명과의 호환성을 높이기 위해 Chrome 버전 91까지 지원하도록 Desktop Proofing Viewer를 업그레이드했습니다.
+대화형 증명과의 호환성을 높이기 위해 최대 Chrome 버전 91을 지원하도록 Desktop Proofing Viewer를 업그레이드했습니다.
 
 >[!IMPORTANT]
 >
->Windows 사용자가 최신 버전으로 업그레이드하려면 데스크톱 뷰어를 수동으로 다시 설치해야 합니다. 이후 Desktop Proofing Viewer에 대한 향후 업데이트는 자동으로 수행됩니다. 재설치에 대한 도움말을 보려면 [Desktop Proof Viewer 설치](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
+>Windows 사용자가 최신 버전으로 업그레이드하려면 데스크톱 뷰어를 수동으로 다시 설치해야 합니다. 이후 Desktop Proofing Viewer에 대한 향후 업데이트는 자동으로 수행됩니다. 다시 설치하는 데 도움이 필요하면 [데스크톱 증명 뷰어 설치](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)를 참조하십시오.
 
 Mac 사용자는 자동으로 최신 버전으로 업그레이드됩니다.

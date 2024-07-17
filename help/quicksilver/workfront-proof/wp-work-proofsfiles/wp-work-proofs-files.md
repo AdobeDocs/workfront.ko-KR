@@ -3,8 +3,8 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: workfront-proof-navigation-topic
-title: 에서 증명 및 파일 작업 [!DNL Workfront Proof]
-description: 에서 증명 및 파일 작업 [!DNL Workfront Proof].
+title: ' [!DNL Workfront Proof]에서 증명 및 파일 작업'
+description: ' [!DNL Workfront Proof]에서 증명 및 파일을 사용하여 작업합니다.'
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -16,16 +16,16 @@ ht-degree: 0%
 
 ---
 
-# 에서 증명 및 파일 작업 [!DNL Workfront Proof]
+# [!DNL Workfront Proof]에서 증명 및 파일 작업
 
 >[!IMPORTANT]
 >
->이 문서는 독립 실행형 제품의 기능에 대해 설명합니다 [!DNL Workfront Proof]. 내부 교정에 대한 정보 [!DNL Adobe Workfront], 참조 [증명](../../review-and-approve-work/proofing/proofing.md).
+>이 문서는 독립 실행형 제품 [!DNL Workfront Proof]의 기능을 참조합니다. [!DNL Adobe Workfront] 내부의 증명에 대한 자세한 내용은 [증명](../../review-and-approve-work/proofing/proofing.md)을 참조하십시오.
 
 이 섹션에는 다음 하위 섹션이 포함됩니다.
 
-* [의 자동화된 워크플로 [!DNL Workfront Proof]](../../workfront-proof/wp-work-proofsfiles/automated-workflow/automated-workflow.md)
-* [의 기본 기능 [!DNL Workfront Proof]](../../workfront-proof/wp-work-proofsfiles/basic-features/basic-features.md)
+* [ [!DNL Workfront Proof]의 자동화된 워크플로](../../workfront-proof/wp-work-proofsfiles/automated-workflow/automated-workflow.md)
+* [ [!DNL Workfront Proof]의 기본 기능](../../workfront-proof/wp-work-proofsfiles/basic-features/basic-features.md)
 * [증명 및 파일 만들기](../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/create-proofs-and-files.md)
 * [작업 관리](../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-your-work.md)
 * [작업 구성](../../workfront-proof/wp-work-proofsfiles/organize-your-work/organize-your-work.md)

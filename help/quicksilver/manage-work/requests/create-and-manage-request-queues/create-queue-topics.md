@@ -82,7 +82,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -96,7 +96,7 @@ ht-degree: 2%
    * [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
 
 1. 도움말 요청 대기열로 사용하기 위해 선택한 프로젝트와 새 대기열 주제를 만들 위치로 이동합니다.\
-   프로젝트를 도움말 요청 대기열로 지정하는 방법에 대한 자세한 내용은 [요청 대기열 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   프로젝트를 도움말 요청 대기열로 지정하는 방법에 대한 자세한 내용은 [요청 대기열 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)를 참조하십시오.
 
    주제 그룹 아래에서 관련 대기열 주제를 구성할 수 있습니다. 이렇게 하면 요청을 할 때 요청자에게 일련의 드롭다운 메뉴를 제공합니다.
 
@@ -104,11 +104,11 @@ ht-degree: 2%
 
    주제 그룹 없이 도움말 요청 대기열로 지정된 프로젝트 아래에 대기열 주제를 직접 중첩할 수 있습니다.
 
-   주제 그룹 생성에 대한 자세한 내용은 [주제 그룹 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
+   주제 그룹 만들기에 대한 자세한 내용은 [주제 그룹 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)를 참조하십시오.
 
-1. 클릭 **대기열 주제** 왼쪽 패널에서 다음을 클릭해야 할 수 있습니다. **더 보기**, 그런 다음 **대기열 주제**.
-1. 클릭 **새 대기열 주제**.
-1. 다음에서 **새 대기열 주제** 양식에 다음을 입력합니다.
+1. 왼쪽 패널에서 **주제 큐**&#x200B;를 클릭합니다. **자세히 표시**&#x200B;를 클릭한 다음 **주제 큐**&#x200B;를 클릭해야 할 수 있습니다.
+1. **새 대기열 주제**&#x200B;를 클릭합니다.
+1. **새 대기열 주제** 양식에서 다음을 입력합니다.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -124,17 +124,17 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>주제 그룹에 추가</strong> </td> 
-      <td> 프로젝트에 주제 그룹이 없는 경우 프로젝트 이름은 기본적으로 주제 그룹으로 설정됩니다.<br>여기에서 추가 주제 그룹을 생성하려면 다음을 선택합니다. <strong>새 주제 그룹 만들기</strong> 드롭다운 메뉴에서 을(를) 선택합니다.<br><img src="assets/create-new-topic-group-within-queue-topic-350x203.png" alt="create_new_topic_group_within_queue_topic.png" style="width: 350;height: 203;"></td> 
+      <td> 프로젝트에 주제 그룹이 없는 경우 프로젝트 이름은 기본적으로 주제 그룹으로 설정됩니다.<br>여기에서 추가 주제 그룹을 만들려면 드롭다운 메뉴에서 <strong>새 주제 그룹 만들기</strong>를 선택하십시오.<br><img src="assets/create-new-topic-group-within-queue-topic-350x203.png" alt="create_new_topic_group_within_queue_topic.png" style="width: 350;height: 203;"></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>사용자 정의 양식</strong> </td> 
-      <td>대기열 주제와 연결할 사용자 정의 양식을 선택합니다. 대기열 주제에 연결하려면 먼저 문제에 대한 사용자 정의 양식을 만들어야 합니다. 사용자 정의 양식 만들기에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">사용자 정의 양식 만들기 또는 편집</a>.</td> 
+      <td>대기열 주제와 연결할 사용자 정의 양식을 선택합니다. 대기열 주제에 연결하려면 먼저 문제에 대한 사용자 정의 양식을 만들어야 합니다. 사용자 정의 양식 만들기에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">사용자 정의 양식 만들기 또는 편집</a>을 참조하십시오.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>기본 승인</strong></td> 
-      <td> <p>승인 프로세스를 이 대기열 주제와 연결합니다. 문제 승인 프로세스만 이 드롭다운 메뉴에 표시됩니다. 이 대기열에 제출된 모든 문제는 이 승인 프로세스와 연결됩니다. 대기열 주제에 연결하려면 먼저 Adobe Workfront 관리자가 시스템 수준 승인 프로세스를 정의해야 합니다. <span>승인 프로세스에 대한 관리 액세스 권한이 있는 사용자는 그룹별 승인 프로세스를 만들 수도 있습니다.</span> 승인 프로세스 만들기에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">작업 항목에 대한 승인 프로세스 만들기</a>.<br></p> 
+      <td> <p>승인 프로세스를 이 대기열 주제와 연결합니다. 문제 승인 프로세스만 이 드롭다운 메뉴에 표시됩니다. 이 대기열에 제출된 모든 문제는 이 승인 프로세스와 연결됩니다. 대기열 주제에 연결하려면 먼저 Adobe Workfront 관리자가 시스템 수준 승인 프로세스를 정의해야 합니다. <span>승인 프로세스에 대한 관리자 액세스 권한이 있는 사용자는 그룹별 승인 프로세스를 만들 수도 있습니다.</span> 승인 프로세스 만들기에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">작업 항목에 대한 승인 프로세스 만들기</a>를 참조하십시오.<br></p> 
        <div> 
-        <p>중요: 프로젝트 그룹이 변경되면 기존 문제에 첨부된 그룹별 승인 프로세스가 일회용 승인 프로세스가 됩니다. 프로젝트 그룹 또는 승인 프로세스 변경 사항이 승인 설정에 미치는 영향에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">그룹 및 승인 프로세스 변경이 할당된 승인 프로세스에 미치는 영향</a>.</p> 
+        <p>중요: 프로젝트 그룹이 변경되면 기존 문제에 첨부된 그룹별 승인 프로세스가 일회용 승인 프로세스가 됩니다. 프로젝트 그룹 변경 또는 승인 프로세스 변경 내용이 승인 설정에 미치는 영향에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">그룹 및 승인 프로세스 변경 내용이 할당된 승인 프로세스에 미치는 영향</a>을 참조하십시오.</p> 
         <p>대기열 주제에 승인 프로세스를 추가할 때는 다음 사항을 고려하십시오. </p> 
         <ul style="list-style-type: circle;"> 
          <li>활성 승인 프로세스만 목록에 표시됩니다. </li> 
@@ -148,15 +148,15 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>기본 경로</strong> </td> 
-      <td>대기열 주제와 연결할 라우팅 규칙을 지정합니다. 라우팅 규칙을 만들어 대기열 주제에 첨부해야 합니다. 자세한 내용은 <a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md">라우팅 규칙 만들기</a>. </td> 
+      <td>대기열 주제와 연결할 라우팅 규칙을 지정합니다. 라우팅 규칙을 만들어 대기열 주제에 첨부해야 합니다. 자세한 내용은 <a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md">라우팅 규칙 만들기</a>를 참조하십시오. </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>요청 유형</strong> </td> 
-      <td> <p>이 대기열 주제가 저장할 요청 종류를 선택합니다. 표시되는 옵션은에서 설정됩니다. <strong>대기열 세부 정보</strong> 프로젝트의 탭. 필수 필드입니다. </p>
+      <td> <p>이 대기열 주제가 저장할 요청 종류를 선택합니다. 프로젝트의 <strong>큐 세부 정보</strong> 탭에서 표시되는 옵션이 설정됩니다. 필수 필드입니다. </p>
 
    <p><b>참고</b>:
 
-   유형은 [대기열 세부 정보] 및 [대기열 주제] 페이지에서 [요청 유형]이 선택된 경우에만 [요청] 영역에 선택 항목으로 표시됩니다. 프로젝트의 대기열 세부 정보 영역 설정에 대한 자세한 내용은 <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">요청 대기열 만들기</a>. </p> <p>다음 유형 중에서 선택합니다.</p>
+   유형은 [대기열 세부 정보] 및 [대기열 주제] 페이지에서 [요청 유형]이 선택된 경우에만 [요청] 영역에 선택 항목으로 표시됩니다. 프로젝트의 대기열 세부 정보 영역 설정에 대한 자세한 내용은 <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">요청 대기열 만들기</a>를 참조하십시오. </p> <p>다음 유형 중에서 선택합니다.</p>
    <ul>
    <li>버그 신고</li>
    <li>순서 변경</li>

@@ -45,22 +45,22 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## 양식 디자이너를 사용하여 사용자 정의 양식 이름 바꾸기
 
 {{step-1-to-setup}}
 
-1. 클릭 **사용자 지정 Forms** 왼쪽 패널에서
+1. 왼쪽 패널에서 **사용자 지정 Forms**&#x200B;을 클릭합니다.
 
    표시되는 보기에서 조직에 대해 만들어진 모든 사용자 정의 양식을 검토할 수 있습니다. 각 양식을 만든 사용자, 양식 작성자가 작동하는 객체 유형 및 양식 활성화 여부도 확인할 수 있습니다.
 
-1. 이름을 바꿀 사용자 정의 양식을 선택한 다음 ![편집 아이콘](assets/edit-icon2.png).
+1. 이름을 바꿀 사용자 정의 양식을 선택한 다음 ![편집 아이콘](assets/edit-icon2.png)을 클릭합니다.
 1. 제목을 변경하려면 양식 이름을 클릭합니다.
 1. 설명을 변경하려면 설명 텍스트 상자를 클릭합니다.
 
-1. 클릭 **저장 및 닫기**.
+1. **저장 후 닫기**&#x200B;를 클릭합니다.
 
    >[!TIP]
    >
-   >다음을 클릭할 수 있습니다. **적용** 언제든지 사용자 정의 양식을 만들어 변경 사항을 저장하고 양식을 열어 둡니다.
+   >사용자 정의 양식을 만드는 동안 언제든지 **적용**&#x200B;을 클릭하여 변경 내용을 저장하고 양식을 열어 둘 수 있습니다.

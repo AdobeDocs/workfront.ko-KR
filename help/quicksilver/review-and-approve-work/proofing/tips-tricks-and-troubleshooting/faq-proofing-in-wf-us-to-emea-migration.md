@@ -3,7 +3,7 @@ content-type: tips-tricks-troubleshooting
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-proofing-within-workfront
 title: 'FAQ: Adobe Workfront 내의 증명 - 미국 - EMEA로 마이그레이션'
-description: Adobe Workfront은 Workfront Proof US에서 EMEA로 마이그레이션한 경우 영향을 받는 모든 조직에 직접 문의하고 있습니다.
+description: Adobe Workfront은 Workfront Proof 미국 대 EMEA 마이그레이션의 영향을 받는 모든 조직에 직접 연락하고 있습니다.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a6ac5738-8572-4d75-8212-5a2215ca8a8c
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## 이 변경 사항이 조직에 영향을 주는지 어떻게 알 수 있습니까? 
 
-Adobe Workfront은 Workfront Proof US에서 EMEA로 마이그레이션한 경우 영향을 받는 모든 조직에 직접 문의하고 있습니다.
+Adobe Workfront은 Workfront Proof 미국 대 EMEA 마이그레이션의 영향을 받는 모든 조직에 직접 연락하고 있습니다.
 
 ## 이주를 준비하기 위해 필요한 것이 있나요?
 
@@ -33,7 +33,7 @@ EMEA 데이터 센터의 새로운 위치로 마이그레이션하는 동안 짧
 
 마이그레이션이 완료되면 사용자와 사용자는 EMEA 데이터 센터에서 파일과 증명에 액세스할 수 있습니다. 
 
-## Workfront 증명에 액세스하는 데 사용 중인 URL은 어떻게 됩니까?
+## Workfront Proof에 액세스하는 데 사용 중인 URL은 어떻게 됩니까?
 
 마이그레이션을 가능하게 하려면 시스템에 액세스하는 데 사용하는 URL을 proofhq.com에서 proofhq.eu로 변경해야 합니다. 마이그레이션 후 이전 proofhq.com URL을 사용하는 모든 사용자는 새 로그인 링크를 제공하는 메시지를 받게 됩니다.
 

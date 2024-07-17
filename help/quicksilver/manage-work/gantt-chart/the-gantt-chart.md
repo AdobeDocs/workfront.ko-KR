@@ -2,7 +2,7 @@
 content-type: reference
 navigation-topic: projects-navigation-topic
 title: 간트 차트
-description: 다음에 대한 정보 찾기 [!UICONTROL 간트] 다음 하위 섹션의 차트입니다.
+description: 다음 하위 섹션에서 [!UICONTROL 간트] 차트에 대한 정보를 찾으십시오.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# 다음 [!UICONTROL 간트 차트]
+# [!UICONTROL 간트 차트]
 
 이 섹션에는 다음 하위 섹션이 포함됩니다.
 

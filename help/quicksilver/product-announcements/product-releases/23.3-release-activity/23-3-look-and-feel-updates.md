@@ -16,7 +16,7 @@ ht-degree: 0%
 
 이 페이지에서는 23.3 릴리스 기간 내에 이루어진 Adobe Workfront 애플리케이션의 다양한 영역의 모양 및 느낌에 대한 작은 업데이트를 설명합니다. 이러한 개선 사항은 미리보기에 릴리스한 후 최소 2주 후에 프로덕션 환경에서 사용할 수 있습니다.
 
-23.3 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [23.3 릴리스 개요](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+23.3 릴리스에서 사용할 수 있는 모든 변경 사항 목록을 보려면 [23.3 릴리스 개요](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)를 참조하십시오.
 
 ## 요청 목록에 대한 인터페이스 개선 사항
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 * 이제 페이지를 업로드할 때 로딩 표시기가 있습니다.
 * 복사 아이콘은 영구적이며 텍스트가 동반되며 요청을 선택하지 않으면 비활성화됩니다.
 
-자세한 내용은 [요청 복사 및 제출](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md). 기능 릴리스 이후에 설명서가 업데이트됩니다.
+자세한 내용은 [요청 복사 및 제출](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md)을 참조하십시오. 기능 릴리스 이후에 설명서가 업데이트됩니다.
 
 ## 프로젝트에 새 문제를 추가할 때 디자인이 업데이트됨
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 프로젝트에 새 문제를 제출할 때 표시되는 새 문제 상자를 업데이트했습니다. 이제 인터페이스는 요청 대기열에 새 요청을 제출할 때 표시되는 새 요청 상자와 일치합니다.
 
-자세한 내용은 [문제 만들기](../../../manage-work/issues/manage-issues/create-issues.md). 기능 릴리스 이후에 설명서가 업데이트됩니다.
+자세한 내용은 [문제 만들기](../../../manage-work/issues/manage-issues/create-issues.md)를 참조하십시오. 기능 릴리스 이후에 설명서가 업데이트됩니다.
 
 ## 업데이트된 청구 요금 목록
 

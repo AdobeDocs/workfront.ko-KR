@@ -16,7 +16,7 @@ ht-degree: 0%
 
 이 페이지에서는 23.3 릴리스의 모든 프로젝트 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2023년 7월 20일과 21일에 23.3 릴리스를 통해 프로덕션 환경에서 사용할 수 있습니다.
 
-23.3 릴리스 주기 동안 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 을 참조하십시오. [23.3 릴리스 개요](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+23.3 릴리스 주기 동안 현재 사용 가능한 모든 변경 사항 목록을 보려면 [23.3 릴리스 개요](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)를 참조하십시오.
 
 ## 새 문서 승인
 
@@ -29,10 +29,10 @@ ht-degree: 0%
 * 내 업데이트 및 홈에서 직접 승인 결정
 * 특정 문서 버전에 대한 승인 만들기
 
-새 문서 승인 사용에 대한 자세한 내용은 [새 문서 승인 개요](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.html).
+새 문서 승인 사용에 대한 자세한 내용은 [새 문서 승인 개요](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.html)를 참조하십시오.
 
 ## 새 공유 단추
 
 공유 옵션을 더 직관적으로 공유하기 위해 프로젝트, 작업 및 문제에 대한 더 보기 메뉴에서 제거했습니다. 이제 [추가] 메뉴 바로 앞에 개체의 이름 옆에 새 공유 단추가 표시됩니다. 문서, 포트폴리오 및 프로그램 공유는 변경되지 않습니다.
 
-개체 공유에 대한 자세한 내용은 [개체 공유](https://experienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/share-an-object.html).
+개체 공유에 대한 자세한 내용은 [개체 공유](https://experienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/share-an-object.html)를 참조하십시오.

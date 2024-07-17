@@ -27,15 +27,15 @@ Workfront의 이메일(내부 및 외부 모두)은 다양하고 동적입니다
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [이메일 알림 페이지](../../../administration-and-setup/manage-workfront/emails/email-notifications-page.md)
+* [전자 메일 알림 페이지](../../../administration-and-setup/manage-workfront/emails/email-notifications-page.md)
 * [시스템의 모든 사용자를 위한 이벤트 알림 구성](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
 * [이벤트 알림 유형](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
-* [모든 그룹에 대한 이벤트 알림 구성 잠금 해제 또는 잠금](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
-* [이벤트 알림에 대한 이메일 제목 사용자 지정](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)
-* [여러 사용자의 이메일 알림 설정 수정](../../../administration-and-setup/manage-workfront/emails/modify-email-notification-settings-user-profiles.md)
+* [모든 그룹에 대한 이벤트 알림의 구성 잠금 해제 또는 잠금](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
+* [이벤트 알림에 대한 전자 메일 제목 사용자 지정](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)
+* [여러 사용자의 전자 메일 알림 설정 수정](../../../administration-and-setup/manage-workfront/emails/modify-email-notification-settings-user-profiles.md)
 * [미리 알림 설정](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md)
-* [객체에 미리 알림 첨부](../../../workfront-basics/using-notifications/attach-reminder-notification-object.md)
+* [미리 알림을 개체에 첨부](../../../workfront-basics/using-notifications/attach-reminder-notification-object.md)
 * [자동 미리 알림 설정](../../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md)
-* [이메일 템플릿 구성](../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md)
-* [Adobe Workfront 애플리케이션에서 이메일 허용](../../../administration-and-setup/manage-workfront/emails/allow-emails-from-wf-app.md)
+* [전자 메일 템플릿 구성](../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md)
+* [Adobe Workfront 응용 프로그램에서 전자 메일 허용](../../../administration-and-setup/manage-workfront/emails/allow-emails-from-wf-app.md)
 * [새 사용자에 대한 이메일 초대 관리](../../../administration-and-setup/manage-workfront/emails/manage-email-invitations.md)

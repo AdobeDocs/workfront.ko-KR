@@ -51,7 +51,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>미리 알림에 대한 관리 액세스 권한이 있는 플래너 이상</p> <p>플랜 사용자에게 관리 액세스 권한을 제공하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">사용자에게 특정 영역에 대한 관리 액세스 권한 부여</a>.</p> </td> 
+   <td> <p>미리 알림에 대한 관리 액세스 권한이 있는 플래너 이상</p> <p>플랜 사용자 관리 액세스 권한에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">특정 영역에 대한 사용자 관리 액세스 권한 부여</a>를 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -60,17 +60,17 @@ ht-degree: 4%
 
 ## 이벤트 알림에 대한 이메일 제목 줄 사용자 지정 {#customize-email-subject-lines-for-event-notifications}
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 상단에서 을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png).
+1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
 
-1. 왼쪽 패널에서 **이메일** > **알림**.
+1. 왼쪽 패널에서 **전자 메일** > **알림**&#x200B;을 클릭합니다.
 
-1. 다음을 클릭합니다. **이벤트 알림** 탭.
-1. 사용자 지정할 이벤트 알림의 이름을 클릭하여 **이벤트 알림** 상자.
-1. 다음에서 **이메일 제목 줄** 상자에서 전자 메일 제목의 사용자 정의 필드를 포함한 텍스트 및 필드를 변경합니다.
+1. **이벤트 알림** 탭을 클릭합니다.
+1. 사용자 지정할 이벤트 알림의 이름을 클릭하여 **이벤트 알림** 상자를 엽니다.
+1. **전자 메일 제목 줄** 상자에서 전자 메일 제목의 사용자 지정 필드를 포함한 텍스트 및 필드를 변경합니다.
 
    추가된 필드 이름은 데이터베이스 구조의 카멜 대/소문자 구문과 일치해야 합니다. <!--For more information about how our objects and their fields are named in the Workfront database, see the [Adobe Workfront API](../../../wf-api/workfront-api.md).-->
 
-1. 클릭 **업데이트** 이메일의 새 제목 줄을 저장하려면 을 클릭합니다.
+1. **업데이트**&#x200B;를 클릭하여 전자 메일의 새 제목 줄을 저장합니다.
 
 ## 다중 오브젝트 이메일에 대한 이메일 제목 줄 사용자 지정
 
@@ -84,7 +84,7 @@ ht-degree: 4%
 
 프로젝트 대화에 추가되면 두 번째 주체가 포함된 이메일이 생성됩니다. 여기에 제목 줄에는 &quot;topReferenceObject:name&quot;이 포함되며, 다시 Workfront은 참조된 개체를 식별하고 제목의 &quot;topReferenceObject:name&quot; 대신 해당 개체 이름을 반환합니다. 이메일 제목 줄은 &quot;Project ABC에 대한 댓글&quot;과 유사합니다.
 
-전자 메일 제목 줄을 편집하고 두 제목 줄에 필드를 추가하려면 다음을 참조하십시오. [이벤트 알림에 대한 이메일 제목 줄 사용자 지정](#customize-email-subject-lines-for-event-notifications) 이 문서에서.
+전자 메일 제목 줄을 편집하고 제목 줄에 필드를 추가하려면 이 문서의 [이벤트 알림에 대한 전자 메일 제목 줄 사용자 지정](#customize-email-subject-lines-for-event-notifications)을 참조하세요.
 
 ## 여러 작업 이메일에 대한 이메일 제목 줄 사용자 지정
 
@@ -94,4 +94,4 @@ ht-degree: 4%
 
 ![](assets/ev-not-mult-subj-lines-diff-actions.png)
 
-전자 메일 제목 줄을 편집하고 두 제목 줄에 필드를 추가하려면 다음을 참조하십시오. [이벤트 알림에 대한 이메일 제목 줄 사용자 지정](#customize-email-subject-lines-for-event-notifications) 이 문서에서.
+전자 메일 제목 줄을 편집하고 제목 줄에 필드를 추가하려면 이 문서의 [이벤트 알림에 대한 전자 메일 제목 줄 사용자 지정](#customize-email-subject-lines-for-event-notifications)을 참조하세요.

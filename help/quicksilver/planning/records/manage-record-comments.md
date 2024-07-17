@@ -28,8 +28,8 @@ ht-degree: 0%
 
 레코드의 오른쪽 패널에는 다음 섹션이 표시됩니다.
 
-* **댓글**: 사용자가 레코드에 추가하는 댓글 및 답글을 표시합니다.
-* **기록**: 사용자가 레코드 필드에 적용한 시스템 기록 변경 사항을 표시합니다. 자세한 내용은 [내역 섹션 개요](/help/quicksilver/planning/records/history-section-overview.md).
+* **댓글**: 사용자가 레코드에 추가하는 댓글과 답글을 표시합니다.
+* **기록**: 사용자가 레코드 필드에 적용한 시스템 기록 변경 내용을 표시합니다. 자세한 내용은 [기록 섹션 개요](/help/quicksilver/planning/records/history-section-overview.md)를 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -73,14 +73,14 @@ ht-degree: 0%
   </tr>
 <tr>
    <td role="rowheader"><p>권한</p></td>
-   <td> <p>작업 공간에 대한 이상의 권한 보기</a> </p>  
+   <td> <p>작업 영역 </a>에 대한 이상의 권한 보기 </p>  
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p>
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>레이아웃 템플릿</p></td>
-   <td> <p>Workfront 또는 그룹 관리자는 레이아웃 템플릿에 계획 영역을 추가해야 합니다. 자세한 내용은 <a href="/help/quicksilver/planning/access/access-overview.md">액세스 개요</a>. </p>  
+   <td> <p>Workfront 또는 그룹 관리자는 레이아웃 템플릿에 계획 영역을 추가해야 합니다. 자세한 내용은 <a href="/help/quicksilver/planning/access/access-overview.md">액세스 개요</a>를 참조하십시오. </p>  
 </td>
   </tr>
  </tbody>
@@ -95,7 +95,7 @@ ht-degree: 0%
 
 * 레코드와 다른 응용 프로그램의 개체 간의 연결로 생성된 Workfront Planning 레코드에 주석을 추가할 수 있습니다.
 
-  예를 들어 Workfront 프로젝트를 Workfront Planning 레코드와 연결한 후 프로젝트 Workfront Planning 레코드에 주석을 달 수 있습니다. 자세한 내용은 [레코드 연결](/help/quicksilver/planning/records/connect-records.md).
+  예를 들어 Workfront 프로젝트를 Workfront Planning 레코드와 연결한 후 프로젝트 Workfront Planning 레코드에 주석을 달 수 있습니다. 자세한 내용은 [레코드 연결](/help/quicksilver/planning/records/connect-records.md)을 참조하세요.
 
 * 다른 응용 프로그램의 연결된 객체에 추가된 주석은 Workfront Planning에서 표시되지 않으며 Workfront Planning의 연결된 객체에 추가된 주석은 다른 응용 프로그램에서 표시되지 않습니다.
 
@@ -130,14 +130,14 @@ ht-degree: 0%
 1. 레코드 유형 카드를 클릭합니다.
 레코드 유형 페이지가 열리고 해당 유형의 모든 레코드가 표시됩니다.
 
-1. 다음에서 표 보기 선택 **보기** 드롭다운 메뉴.
+1. **보기** 드롭다운 메뉴에서 표 보기를 선택하십시오.
 1. 테이블 보기에서 레코드 이름을 클릭합니다.
 
-   레코드는 **세부 사항** 페이지가 열립니다. 주석(Comments) 영역은 기본적으로 오른쪽 패널에 열립니다.
+   레코드의 **세부 정보** 페이지가 열립니다. 주석(Comments) 영역은 기본적으로 오른쪽 패널에 열립니다.
 
-1. (조건부) 기본적으로 오른쪽 패널이 열리지 않으면 **댓글 표시** ![](assets/show-comments-icon.png) 오른쪽 위 모서리에 있는 아이콘을 클릭하여 주석 섹션을 엽니다.
+1. (조건부) 기본적으로 오른쪽 패널이 열리지 않으면 오른쪽 상단의 **댓글 표시** ![](assets/show-comments-icon.png) 아이콘을 클릭하여 [댓글] 섹션을 엽니다.
 
-1. 에 주석 입력 시작 **새 댓글** 상자.
+1. **새 댓글** 상자에 댓글을 입력하세요.
 
    ![](assets/empty-comment-box-on-record.png)
 
@@ -148,11 +148,11 @@ ht-degree: 0%
 1. (선택 사항) 변경을 실행 취소하거나 재실행하려면 다음 단축키를 사용합니다.
    * 변경 내용을 취소하려면 CTRL+Z(Mac의 경우 ⌘+z)
    * CTRL+Y(Mac의 경우 ⌘+y) 를 눌러 변경 사항을 재실행합니다
-1. (선택 사항) 추가 **@** 뒤에 업데이트의 사용자를 태깅할 사용자 이름이 옵니다.
+1. (선택 사항) **@**&#x200B;을(를) 추가한 다음 사용자 이름을 추가하여 업데이트에서 다른 사용자를 태그 지정합니다.
 
    <!--Adobe Unified Experience users can receive an in-app and an email notification when they are tagged. All other users receive an email when they are tagged. For more information, see the section [Considerations about commenting on a record](#considerations-about-commenting-on-a-record) in this article. -->
 
-1. (선택 사항) 리치 텍스트 도구 모음의 옵션을 사용하여 텍스트 서식을 지정하고, 업데이트에 이모지, 링크 또는 이미지를 추가하여 콘텐츠를 개선합니다. 자세한 내용은 이 문서의 &quot;Workfront 업데이트에서 리치 텍스트 사용&quot; 섹션을 참조하십시오 [작업 업데이트](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (선택 사항) 리치 텍스트 도구 모음의 옵션을 사용하여 텍스트 서식을 지정하고, 업데이트에 이모지, 링크 또는 이미지를 추가하여 콘텐츠를 개선합니다. 자세한 내용은 문서 [작업 업데이트](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)의 &quot;Workfront 업데이트에서 서식 있는 텍스트 사용&quot; 섹션을 참조하십시오.
 
    >[!TIP]
    >
@@ -162,8 +162,8 @@ ht-degree: 0%
    >
    >![](assets/new-line-indicator-comments.png)
 
-1. 클릭 **제출** 를 클릭하여 레코드에 업데이트를 추가합니다.
-1. (선택 사항) 주석을 편집하려면 **자세히** 메뉴 ![](assets/more-menu.png) 주석의 오른쪽 상단 모서리에서 을(를) 클릭한 다음 을(를) 클릭합니다 **편집**.
+1. 레코드에 업데이트를 추가하려면 **제출**&#x200B;을 클릭합니다.
+1. (선택 사항) 댓글을 편집하려면 댓글의 오른쪽 상단에 있는 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭한 다음 **편집**&#x200B;을(를) 클릭합니다.
 
    >[!IMPORTANT]
    >
@@ -175,13 +175,13 @@ ht-degree: 0%
    >
    >현재 연도의 주석은 날짜 스탬프에 연도를 표시하지 않습니다. 타임스탬프를 마우스로 가리키면 연도를 포함한 전체 날짜가 표시됩니다.
 
-1. (선택 사항 및 조건부) 기존 댓글을 검색하려면 의 오른쪽 위 모서리에 있는 검색 상자에 키워드를 입력하십시오. **댓글** 영역입니다.
+1. (선택 사항 및 조건부) 기존 댓글을 검색하려면 **댓글** 영역의 오른쪽 위 모서리에 있는 검색 상자에 키워드를 입력하십시오.
 
    ![](assets/search-box-for-comments-area.png)
 
-1. (선택 사항) **답변** 또는에서 댓글을 입력해 보십시오. **회신 추가...** 영역을 클릭하여 기존 댓글에 응답한 다음 위의 4-8단계를 수행합니다. <!--(**************accurate??***********)-->
+1. (선택 사항) **답글**&#x200B;을 클릭하거나 **답글 추가...** 영역에서 댓글을 입력하여 기존 댓글에 답글을 단 다음 위의 4-8단계를 수행합니다. <!--(**************accurate??***********)-->
 
-1. (조건부 및 선택 사항) 다른 사용자가 주석을 추가하는 동안 주석 섹션의 표시 영역 외부에 표시되는 주석을 추가한 경우 **보기** 의 내부 **새 댓글 배너** 이 설명을 표시하려면 이 단추를 클릭하십시오.
+1. (조건부 및 선택 사항) 댓글을 추가하는 동안 다른 사용자가 댓글 섹션의 표시 영역 밖에 표시되는 댓글을 추가한 경우 화면 하단의 **새 댓글 배너** 내에서 **보기**&#x200B;를 클릭하여 해당 댓글을 표시합니다.
 
    ![](assets/new-comments-banner-on-record.png)
 
@@ -189,18 +189,18 @@ ht-degree: 0%
 
 1. (선택 사항) **좋아요** 아이콘을 클릭하여 업데이트를 좋아하거나 읽은 것을 확인합니다. 아이콘이 좋아요 수로 업데이트됩니다.
 1. (조건부 및 선택 사항) 댓글에 다른 사람을 포함한 경우 업데이트에 포함된 사용자의 아바타를 클릭하여 댓글이 공유된 사용자 목록을 표시합니다.
-1. (선택 사항) **자세히** 아이콘 ![](assets/more-menu.png) 주석의 오른쪽 상단 모서리에서 다음 옵션 중 하나를 클릭하여 주석의 정보를 복사합니다.
+1. (선택 사항) 댓글의 오른쪽 상단에 있는 **자세히** 아이콘 ![](assets/more-menu.png)을(를) 클릭하고 다음 옵션 중 하나를 클릭하여 댓글에서 정보를 복사합니다.
 
    * **링크 복사**: 댓글에 대한 링크를 클립보드에 복사합니다.
-   * **본문 복사**: 주석 텍스트가 클립보드에 복사됩니다.
-   * **견적 회신**: 댓글의 콘텐츠를 새 회신에 복사합니다. 이미지는 복사된 응답에 포함되지 않습니다.
+   * **본문 복사**: 댓글의 텍스트를 클립보드에 복사합니다.
+   * **회신 견적**: 댓글의 내용을 새 회신에 복사합니다. 이미지는 복사된 응답에 포함되지 않습니다.
 
-   자세한 내용은 [작업 업데이트](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. (선택 사항) **자세히** 아이콘 ![](assets/more-menu.png) 주석의 오른쪽 상단 모서리에서 을(를) 클릭한 다음 을(를) 클릭합니다 **삭제** 주석을 삭제하려면 다음 작업을 수행하십시오.
-1. (선택 사항) **댓글 숨기기** 아이콘 ![](assets/hide-comments-icon.png) 오른쪽 패널을 닫습니다.
+   자세한 내용은 [작업 업데이트](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)를 참조하세요.
+1. (선택 사항) 댓글의 오른쪽 상단에 있는 **자세히** 아이콘 ![](assets/more-menu.png)을(를) 클릭한 다음 **삭제**&#x200B;를 클릭하여 댓글을 삭제합니다.
+1. (선택 사항) **댓글 숨기기** 아이콘 ![](assets/hide-comments-icon.png)을 클릭하여 오른쪽 패널을 닫습니다.
 
 ## 내역 섹션 개요
 
 레코드의 오른쪽 패널에 있는 [작업 내역] 섹션에서 레코드에 대한 변경 사항을 검토할 수 있습니다.
 
-자세한 내용은 [내역 섹션 개요](/help/quicksilver/planning/records/history-section-overview.md).
+자세한 내용은 [기록 섹션 개요](/help/quicksilver/planning/records/history-section-overview.md)를 참조하십시오.

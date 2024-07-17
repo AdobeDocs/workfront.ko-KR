@@ -17,7 +17,7 @@ ht-degree: 0%
 
 이 페이지에서는 미리보기 환경에 대한 21.3 릴리스의 모든 프로젝트 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2021년 7월 21일이 있는 주에 프로덕션 환경에서 사용할 수 있습니다.
 
-21.3 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [21.3 릴리스 개요](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+21.3 릴리스에서 사용할 수 있는 모든 변경 사항 목록을 보려면 [21.3 릴리스 개요](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md)를 참조하십시오.
 
 ## 그룹과 템플릿 연결
 
@@ -27,9 +27,9 @@ ht-degree: 0%
 
 프로젝트 생성 프로세스를 간소화할 수 있고 프로젝트 템플릿을 소유한 그룹을 보다 쉽게 식별하고 보고할 수 있도록 프로젝트 템플릿에 그룹을 할당하는 기능을 추가했습니다.
 
-프로젝트 템플릿에 그룹을 할당하면 템플릿에서 만든 모든 프로젝트가 템플릿의 그룹에 자동으로 연결됩니다. 자세한 내용은 [프로젝트 템플릿 편집](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+프로젝트 템플릿에 그룹을 할당하면 템플릿에서 만든 모든 프로젝트가 템플릿의 그룹에 자동으로 연결됩니다. 자세한 내용은 [프로젝트 템플릿 편집](../../../manage-work/projects/create-and-manage-templates/edit-templates.md)을 참조하세요.
 
-또한 템플릿이 그룹과 연결되어 있는 경우 그룹 승인 프로세스를 템플릿과 해당 템플릿 작업에 첨부할 수 있습니다. 자세한 내용은 [신규 또는 기존 승인 프로세스를 작업과 연결](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+또한 템플릿이 그룹과 연결되어 있는 경우 그룹 승인 프로세스를 템플릿과 해당 템플릿 작업에 첨부할 수 있습니다. 자세한 내용은 [새 승인 프로세스 또는 기존 승인 프로세스와 작업 연결](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)을 참조하십시오.
 
 ## 세부 정보 섹션의 필드를 보다 쉽게 편집할 수 있습니다.
 
@@ -52,7 +52,7 @@ Adobe Workfront이 작업에 대한 전달 날짜를 계산하는 방식을 새�
 
 이제 프로젝트 간 전임 작업이 있는 작업에 대해 정확한 전달 날짜를 항상 확보하려면 후속 작업의 프로젝트 타임라인을 다시 계산해야 합니다. 타임라인을 다시 계산한 후 작업의 전달 날짜는 작업의 프로젝트 간 종속성을 고려하여 계산됩니다.
 
-전달 날짜에 대한 자세한 내용은 [작업 전달 일자 개요](../../../manage-work/tasks/task-information/handoff-task-date.md).
+전달 날짜에 대한 자세한 내용은 [작업 전달 날짜 개요](../../../manage-work/tasks/task-information/handoff-task-date.md)를 참조하십시오.
 
 ## 스크럼 보드에서 기존 스토리 및 문제 추가
 
@@ -62,7 +62,7 @@ Adobe Workfront이 작업에 대한 전달 날짜를 계산하는 방식을 새�
 
 이제 스크럼 보드에서 직접 기존 스토리 또는 문제를 추가할 수 있습니다. 이렇게 하면 백로그 페이지로 이동할 필요 없이 기존 스토리를 현재 반복에 더 쉽게 추가할 수 있습니다.
 
-자세한 내용은 [스크럼 보드에서 스토리 및 문제 추가](../../../agile/use-scrum-in-an-agile-team/scrum-board/add-story-from-scrum-board.md).
+자세한 내용은 [스크럼 보드에서 스토리 및 문제 추가](../../../agile/use-scrum-in-an-agile-team/scrum-board/add-story-from-scrum-board.md)를 참조하십시오.
 
 ## 스크럼 보드에서 새 스토리 및 문제 추가
 
@@ -72,7 +72,7 @@ Adobe Workfront이 작업에 대한 전달 날짜를 계산하는 방식을 새�
 
 이제 스크럼 보드에서 직접 새 스토리 또는 문제를 만들 수 있습니다. 이렇게 하면 현재 반복에 새 스토리를 더 쉽게 추가할 수 있습니다.
 
-자세한 내용은 [스크럼 보드에서 스토리 및 문제 추가](../../../agile/use-scrum-in-an-agile-team/scrum-board/add-story-from-scrum-board.md).
+자세한 내용은 [스크럼 보드에서 스토리 및 문제 추가](../../../agile/use-scrum-in-an-agile-team/scrum-board/add-story-from-scrum-board.md)를 참조하십시오.
 
 ## 칸반 보드에서 스토리 또는 문제 삭제
 
@@ -82,7 +82,7 @@ Adobe Workfront이 작업에 대한 전달 날짜를 계산하는 방식을 새�
 
 이제 스토리 또는 문제 카드에서 자세히 아이콘을 클릭하고 삭제를 선택하여 Kanban 보드에서 직접 스토리 또는 문제를 삭제할 수 있습니다. 스토리나 문제를 삭제하면 30일 동안 휴지통으로 이동되며 시스템 관리자만 복구할 수 있습니다.
 
-자세한 내용은 [Kanban 보드에서 스토리 또는 문제 삭제](../../../agile/use-kanban-in-an-agile-team/delete-story-from-kanban-board.md).
+자세한 내용은 [Kanban 보드에서 스토리 또는 문제 삭제](../../../agile/use-kanban-in-an-agile-team/delete-story-from-kanban-board.md)를 참조하십시오.
 
 ## 애자일 카드 헤더 및 스토리 보드 업데이트
 
@@ -97,7 +97,7 @@ Adobe Workfront이 작업에 대한 전달 날짜를 계산하는 방식을 새�
 * 각 카드에는 상위 스토리, 하위 작업(상위 스토리와 연계됨), 스토리(상위 스토리와 연계되지 않음) 또는 문제로 식별할 수 있는 레이블이 맨 위에 있습니다.
 * 배경 음영은 열을 시각적으로 구분합니다.
 
-자세한 내용은 [반복 개요](../../../agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md).
+자세한 내용은 [반복 개요](../../../agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md)를 참조하십시오.
 
 ## 그룹 프로젝트, 작업 및 문제 환경 설정
 
@@ -118,7 +118,7 @@ Adobe Workfront이 작업에 대한 전달 날짜를 계산하는 방식을 새�
 
 이전에는 Workfront Classic에서만 이메일 주소로 외부 사용자를 추가할 수 있었습니다.
 
-자세한 내용은 [문서 승인 요청](../../../review-and-approve-work/manage-approvals/request-document-approvals.md).
+자세한 내용은 [문서 승인 요청](../../../review-and-approve-work/manage-approvals/request-document-approvals.md)을 참조하세요.
 
 ## 포트폴리오 또는 프로그램의 세부 정보 섹션에서 정보 내보내기
 
@@ -132,7 +132,7 @@ Adobe Workfront이 작업에 대한 전달 날짜를 계산하는 방식을 새�
 
 이제 포트폴리오 및 프로그램의 세부 정보 섹션에서 .pdf 파일 정보를 내보낼 수 있습니다. 이 개선 이전에는 프로젝트, 작업 및 문제에서만 세부 정보 섹션의 정보를 내보낼 수 있었습니다.
 
-개체에서 사용자 정의 양식을 내보내는 방법에 대한 자세한 내용은 [사용자 정의 양식 및 개체 세부 정보 내보내기](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
+개체에서 사용자 정의 양식을 내보내는 방법에 대한 자세한 내용은 [사용자 정의 양식 및 개체 세부 정보 내보내기](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md)를 참조하십시오.
 
 ## 개체 헤더에 계획된 완료 일자 타임스탬프가 추가되었습니다.
 
@@ -144,7 +144,7 @@ Adobe Workfront이 작업에 대한 전달 날짜를 계산하는 방식을 새�
 
 이 개선 이전에는 개체의 계획된 완료 일자 를 업데이트할 때 Workfront에서 자정을 기본 시간으로 선택했습니다. 이제 완료 날짜와 시간을 사용자 지정할 수 있습니다.
 
-새 Workfront 경험의 개체 헤더에 대한 자세한 내용은 [새 개체 헤더](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
+새 Workfront 경험의 개체 헤더에 대한 자세한 내용은 [새 개체 헤더](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md)를 참조하십시오.
 
 ## 사용자 정의 양식을 편집하지 않고 오브젝트에 추가
 
@@ -156,5 +156,5 @@ Adobe Workfront이 작업에 대한 전달 날짜를 계산하는 방식을 새�
 
 이전에는, 사용자 정의 양식을 오브젝트에 추가할 때 페이지가 편집 모드로 전환되어 해당 오브젝트에 저장하기 전에 양식의 필수 필드를 작성해야 했습니다. 이는 다른 사용자가 양식을 작성해야 할 때 또는 양식의 필수 필드에 무엇을 입력해야 하는지 아직 알 수 없는 경우 불편했습니다.
 
-오브젝트에 사용자 정의 양식을 추가하는 방법에 대한 자세한 내용은 [오브젝트에 사용자 정의 양식 추가](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+개체에 사용자 정의 양식을 추가하는 방법에 대한 자세한 내용은 [개체에 사용자 정의 양식 추가](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)를 참조하십시오.
 

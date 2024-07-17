@@ -27,5 +27,5 @@ ht-degree: 0%
 * [제출된 문서 승인에 추가 승인자 추가](../../review-and-approve-work/manage-approvals/add-approver-submitted-doc-approvals.md)
 * [제출된 증명 승인 보기](../../review-and-approve-work/manage-approvals/viewsubmitted-proof-approvals.md)
 * [승인 요청 위임](../../review-and-approve-work/manage-approvals/delegate-approval-requests.md)
-* [신규 또는 기존 승인 프로세스를 작업과 연결](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)
+* [새 승인 프로세스 또는 기존 승인 프로세스를 작업과 연결](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)
 * [제출된 승인 회수](../../review-and-approve-work/manage-approvals/recall-submitted-approvals.md)

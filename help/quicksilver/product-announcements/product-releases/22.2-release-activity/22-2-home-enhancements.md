@@ -25,7 +25,7 @@ in January 2022
 
 2022년 4월 4일이 있는 주
 
-22.2 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [22.2 릴리스 개요](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+22.2 릴리스에서 사용할 수 있는 모든 변경 사항 목록을 보려면 [22.2 릴리스 개요](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md)를 참조하십시오.
 
 ## 홈 작업 목록의 필터 개선 사항
 
@@ -33,5 +33,5 @@ in January 2022
 
 이 경험 이전에는, 하나 이상의 필터를 선택했을 때 홈 영역의 필터가 목록의 작업 항목 수를 정확하게 카운트하지 않았으므로 작업 항목의 상태에 대해 혼동이 있었습니다.
 
-자세한 내용은 [홈 영역의 작업 목록에 항목 표시](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+자세한 내용은 [홈 영역의 작업 목록에 항목 표시](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)를 참조하십시오.
 

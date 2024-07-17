@@ -20,13 +20,13 @@ ht-degree: 0%
 
 팀이나 조직에 다른 팀에서 만든 템플릿을 사용할 수 있습니다.
 
-사용 가능한 템플릿을 보려면 **템플릿** 아이콘 ![](assets/fusion-template-icon.png) Fusion의 측면 탐색 메뉴에서 을 클릭합니다.
+사용 가능한 템플릿을 보려면 Fusion의 측면 탐색 메뉴에서 **템플릿** 아이콘 ![](assets/fusion-template-icon.png)을(를) 클릭하십시오.
 
 ## Workfront 템플릿
 
 이러한 템플릿은 Workfront 프로세스 및 워크플로를 자동화합니다.
 
-### [!BADGE 신규!]{type=Informative}
+### [!BADGE 새로 만들기!]{type=Informative}
 
 이 Fusion 템플릿은 특정 보드에 특정 열을 시간 기준으로 입력하는 모든 카드에 대한 표준 검사 목록을 만듭니다.
 
@@ -155,7 +155,7 @@ ht-degree: 0%
 
 이러한 템플릿은 Workfront-Anaplan 통합을 지원하며 Workfront의 두 Anaplan 모두에서 특정 구성을 예상합니다. 이러한 템플릿 및 필수 구성에 대한 자세한 내용은 개별 템플릿 문서를 참조하십시오.
 
-Workfront-Anaplan 통합에 대한 자세한 내용은 [Adobe Workfront과 Anaplan](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md).
+Workfront-Anaplan 통합에 대한 자세한 내용은 [Anaplan이 있는 Adobe Workfront](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md)을(를) 참조하십시오.
 
 >[!NOTE]
 >
@@ -163,19 +163,19 @@ Workfront-Anaplan 통합에 대한 자세한 내용은 [Adobe Workfront과 Anapl
 
 ### 지출 최적화 워크플로우
 
-* [보내기 [!DNL Adobe Workfront] 프로젝트 업데이트: [!DNL Anaplan] 목록 항목](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
-* [보내기 [!DNL Adobe Workfront] 에 대한 경비 [!DNL Anaplan] 목록 항목](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)
-* [보내기 [!DNL Adobe Workfront] 에 대한 실제 시간 업데이트 [!DNL Anaplan] 목록 항목](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
+* [ [!DNL Anaplan] 목록 항목에  [!DNL Adobe Workfront] 프로젝트 업데이트 보내기](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
+* [ [!DNL Anaplan] 목록 항목으로  [!DNL Adobe Workfront] 경비 보내기](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)
+* [ [!DNL Anaplan] 목록 항목에  [!DNL Adobe Workfront] 실제 시간 업데이트 보내기](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
 
 ### 예산 요청 연결을 위한 워크플로
 
-* [만들기 [!DNL Anaplan] 의 목록 항목 [!DNL Adobe Workfront] 예산 요청](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
-* [적용 [!DNL Anaplan] 에 대한 예산 할당 [!DNL Adobe Workfront] 프로젝트](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
+* [ [!DNL Adobe Workfront] 예산 요청에서  [!DNL Anaplan] 목록 항목 만들기](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
+* [ [!DNL Adobe Workfront] 프로젝트에  [!DNL Anaplan] 예산 할당 적용](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
 
 ### 캠페인 요청 연결을 위한 워크플로우
 
-* [만들기 [!DNL Anaplan] 의 목록 항목 [!DNL Adobe Workfront] 캠페인 요청](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
-* [적용 [!DNL Anaplan] 에 대한 예산 할당 [!DNL Adobe Workfront] 캠페인 요청 또는 캠페인 프로젝트](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
+* [ [!DNL Adobe Workfront] campaign 요청에서  [!DNL Anaplan] 목록 항목 만들기](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
+* [ [!DNL Adobe Workfront] 캠페인 요청 또는 캠페인 프로젝트에  [!DNL Anaplan] 예산 할당 적용](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
 
 
 <!--[!BADGE New!]{type=Informative} -->

@@ -1,24 +1,24 @@
 ---
 title: 모듈 확장
-description: 다음에서 [!DNL Adobe Workfront Fusion] 시나리오에서는 다음을 사용하는 워크플로를 자동화할 수 있습니다 [!UICONTROL 확장]을 여러 타사 응용 프로그램 및 서비스에 연결할 수 있습니다.
+description: ' [!DNL Adobe Workfront Fusion] 시나리오에서는 [!UICONTROL 확장]을 사용하는 워크플로를 자동화하고 여러 타사 응용 프로그램 및 서비스에 연결할 수 있습니다.'
 author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: d46935bc-4f6c-4502-bd2f-3927f33241e1
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1582'
 ht-degree: 1%
 
 ---
 
-# [!DNL Widen] 모듈
+# [!DNL Widen]개 모듈
 
-다음에서 [!DNL Adobe Workfront Fusion] 시나리오에서는 다음을 사용하는 워크플로를 자동화할 수 있습니다 [!UICONTROL 확장]을 여러 타사 응용 프로그램 및 서비스에 연결할 수 있습니다.
+[!DNL Adobe Workfront Fusion] 시나리오에서는 [!UICONTROL 확장]을 사용하는 워크플로를 자동화하고 여러 타사 응용 프로그램 및 서비스에 연결할 수 있습니다.
 
-시나리오를 만드는 방법에 대한 지침이 필요한 경우 [에서 시나리오 만들기 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+시나리오를 만드는 방법에 대한 지침이 필요하면 [시나리오 만들기 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md)를 참조하십시오.
 
-모듈에 대한 자세한 내용은 [의 모듈 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+모듈에 대한 자세한 내용은 [의 모듈 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md)을 참조하세요.
 
 ## 액세스 요구 사항
 
@@ -39,44 +39,44 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 라이센스**</td> 
    <td>
-   <p>현재 라이선스 요구 사항: 아니요 [!DNL Workfront Fusion] 라이센스 요구 사항.</p>
+   <p>현재 라이선스 요구 사항: [!DNL Workfront Fusion] 라이선스 요구 사항이 없습니다.</p>
    <p>또는</p>
-   <p>기존 라이선스 요구 사항: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
+   <p>레거시 라이선스 요구 사항: 작업 자동화 및 통합을 위한 [!UICONTROL [!DNL Workfront Fusion]] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">제품</td> 
    <td>
-   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime]이 있는 경우 [!DNL Adobe Workfront] 플랜, 조직은 다음을 구매해야 합니다. [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오. [!DNL Workfront Fusion] [!UICONTROL Ultimate]에 포함되어 있습니다. [!DNL Workfront] 계획.</p>
+   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime] [!DNL Adobe Workfront] 플랜이 있는 경우 조직에서 이 문서에 설명된 기능을 사용하려면 [!DNL Adobe Workfront Fusion]과(와) [!DNL Adobe Workfront]을(를) 구매해야 합니다. [!DNL Workfront Fusion]이(가) [!UICONTROL Ultimate] [!DNL Workfront] 계획에 포함되어 있습니다.</p>
    <p>또는</p>
-   <p>레거시 제품 요구 사항: 조직에서 구매해야 함 [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오.</p>
+   <p>레거시 제품 요구 사항: 이 문서에 설명된 기능을 사용하려면 조직에서 [!DNL Adobe Workfront Fusion]과(와) [!DNL Adobe Workfront]을(를) 구매해야 합니다.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
+보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
 
-다음에 대한 정보: [!DNL Adobe Workfront Fusion] 라이센스, 참조 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+[!DNL Adobe Workfront Fusion] 라이선스에 대한 자세한 내용은 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md)를 참조하세요.
 
 ## 전제 조건
 
-사용 [!UICONTROL 확장] 모듈, 다음이 있어야 합니다. [!UICONTROL 확장] 계정입니다.
+[!UICONTROL 확장] 모듈을 사용하려면 [!UICONTROL 확장] 계정이 있어야 합니다.
 
-## 연결 [!DNL Widen] 끝 [!DNL Workfront Fusion] {#connect-widen-to-workfront-fusion}
+## [!DNL Widen]을(를) [!DNL Workfront Fusion]에 연결 {#connect-widen-to-workfront-fusion}
 
-에 대한 연결을 만들 수 있습니다. [!DNL Widen] 내에서 직접 계정 [!DNL Widen] 모듈.
+[!DNL Widen] 모듈 내에서 직접 [!DNL Widen] 계정에 연결할 수 있습니다.
 
-1. 다음 중 하나 [!DNL Widen] 모듈, 클릭 **[!UICONTROL 추가]** 다음 옆에 [!UICONTROL 연결] 필드.
-1. 다음 항목 선택 [!DNL Widen] 연결할 도메인입니다.
-1. 에 대한 토큰 입력 [!DNL Widen] 계정입니다. 이 토큰을 찾는 방법에 대한 지침은 [[!DNL Widen] API FAQ](https://community.widen.com/collective/s/article/API-FAQs).
-1. 클릭 **[!UICONTROL 계속]** 를 클릭하여 연결을 만들고 모듈로 돌아갑니다.
+1. [!DNL Widen] 모듈에서 [!UICONTROL 연결] 필드 옆에 있는 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
+1. 연결할 [!DNL Widen] 도메인을 선택하십시오.
+1. [!DNL Widen] 계정에 대한 토큰을 입력하십시오. 이 토큰을 찾는 방법에 대한 지침은 [[!DNL Widen] API FAQ](https://community.widen.com/collective/s/article/API-FAQs)를 참조하십시오.
+1. 연결을 만들고 모듈로 돌아가려면 **[!UICONTROL 계속]**&#x200B;을 클릭하세요.
 
-## [!DNL Widen] 모듈 및 해당 필드
+## [!DNL Widen]개 모듈 및 해당 필드
 
-를 구성할 때 [!DNL Widen] 모듈, [!DNL Workfront Fusion] 아래 나열된 필드를 표시합니다. 이와 함께 추가 [!DNL Widen] 앱이나 서비스의 액세스 수준 등에 따라 필드가 표시될 수 있습니다. 모듈의 굵은 제목은 필수 필드를 나타냅니다.
+[!DNL Widen] 모듈을 구성할 때 [!DNL Workfront Fusion]에 아래 나열된 필드가 표시됩니다. 앱 또는 서비스의 액세스 수준과 같은 요소에 따라 이러한 필드와 함께 [!DNL Widen] 필드가 추가로 표시될 수 있습니다. 모듈의 굵은 제목은 필수 필드를 나타냅니다.
 
-필드나 함수 위에 맵 단추가 표시되면 이 단추를 사용하여 해당 필드에 대한 변수와 함수를 설정할 수 있습니다. 자세한 내용은 [의 한 모듈에서 다른 모듈로 정보 매핑 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+필드나 함수 위에 맵 단추가 표시되면 이 단추를 사용하여 해당 필드에 대한 변수와 함수를 설정할 수 있습니다. 자세한 내용은 [한 모듈에서 다른 모듈로 정보를 매핑 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)을 참조하십시오.
 
 ![](assets/map-toggle-350x74.png)
 
@@ -96,7 +96,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-  <td> <p>연결에 대한 자세한 내용 [!DNL Widen] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">연결 [!DNL Widen] 끝 [!DNL Workfront Fusion] </a> 이 문서에서.</p> </td> 
+  <td> <p>[!DNL Widen] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">[!DNL Widen]을(를) [!DNL Workfront Fusion] </a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 이벤트 유형]</td> 
@@ -119,17 +119,17 @@ ht-degree: 1%
 
 ### 작업 모듈
 
-* [[!UICONTROL 사용자 정의 API 호출]](#custom-api-call)
-* [[!UICONTROL 에셋 정보 읽기]](#read-asset-info)
+* [[!UICONTROL 사용자 지정 API 호출]](#custom-api-call)
+* [[!UICONTROL 자산 정보 읽기]](#read-asset-info)
 * [[!UICONTROL 컬렉션에 자산 추가]](#add-assets-to-collections)
 * [[!UICONTROL 컬렉션에서 에셋 제거]](#remove-assets-from-collection)
 * [[!UICONTROL 자산 메타데이터 업데이트]](#update-asset-metadata)
 * [[!UICONTROL 파일 다운로드]](#download-file)
-* [[!UICONTROL 업로드] 파일](#upload-a-file)
+* [파일 [!UICONTROL 업로드]](#upload-a-file)
 
-#### [!UICONTROL 사용자 정의 API 호출]
+#### [!UICONTROL 사용자 지정 API 호출]
 
-이 작업 모듈에서는 다음을 위한 사용자 지정 인증 호출을 만들 수 있습니다. [!DNL Widen] API. 이렇게 하면 다른 사용자가 수행할 수 없는 데이터 흐름 자동화를 만들 수 있습니다 [!DNL Widen] 모듈.
+이 작업 모듈을 사용하면 [!DNL Widen] API에 대해 사용자 지정 인증된 호출을 수행할 수 있습니다. 이렇게 하면 다른 [!DNL Widen] 모듈에서 수행할 수 없는 데이터 흐름 자동화를 만들 수 있습니다.
 
 이 모듈을 구성할 때 다음 필드가 표시됩니다.
 
@@ -139,11 +139,11 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Widen] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">연결 [!DNL Widen] 끝 [!DNL Workfront Fusion] </a> 이 문서에서.</p> </td> 
+   <td> <p>[!DNL Widen] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">[!DNL Widen]을(를) [!DNL Workfront Fusion] </a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL API Version]</td> 
-   <td>최신 버전의 를 사용할지 여부를 선택합니다. [!DNL Widen] API 또는 버전 1.0</td> 
+   <td>최신 버전의 [!DNL Widen] API를 사용할지 또는 버전 1.0을 사용할지 선택합니다.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
@@ -151,7 +151,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 메서드]</td> 
-   <td> <p>API 호출을 구성하는 데 필요한 HTTP 요청 메서드를 선택합니다. 자세한 내용은 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">의 HTTP 요청 메서드 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>API 호출을 구성하는 데 필요한 HTTP 요청 메서드를 선택합니다. 자세한 내용은 [!DNL Adobe Workfront Fusion]</a>에서 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">HTTP 요청 메서드를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -163,7 +163,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>표준 JSON 개체의 형태로 API 호출에 대한 본문 콘텐츠를 추가합니다.</p> <p>참고:  <p>다음과 같은 조건문을 사용할 때 <code>if</code> json에서 따옴표를 조건문 외부에 넣습니다.</p> 
+   <td> <p>표준 JSON 개체의 형태로 API 호출에 대한 본문 콘텐츠를 추가합니다.</p> <p>참고:  <p>JSON에서 <code>if</code>과(와) 같은 조건문을 사용할 때 따옴표를 조건문 외부에 넣으십시오.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -171,7 +171,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-#### [!UICONTROL 에셋 정보 읽기]
+#### [!UICONTROL 자산 정보 읽기]
 
 이 작업 모듈은 고유 ID로 개별 자산을 검색합니다.
 
@@ -181,7 +181,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-  <td> <p>연결에 대한 자세한 내용 [!DNL Widen] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">연결 [!DNL Widen] 끝 [!DNL Workfront Fusion] </a> 이 문서에서.</p> </td> 
+  <td> <p>[!DNL Widen] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">[!DNL Widen]을(를) [!DNL Workfront Fusion] </a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 자산 ID]</td> 
@@ -208,24 +208,24 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-  <td> <p>연결에 대한 자세한 내용 [!DNL Widen] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">연결 [!DNL Widen] 끝 [!DNL Workfront Fusion] </a> 이 문서에서.</p> </td> 
+  <td> <p>[!DNL Widen] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">[!DNL Widen]을(를) [!DNL Workfront Fusion] </a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 컬렉션 ID]</td> 
    <td> <p>에셋을 추가할 각 컬렉션에 대해:</p> 
     <ol> 
-     <li value="1"> <p> 클릭 <strong>[!UICONTROL 추가]</strong>.</p> </li> 
+     <li value="1"> <p> <strong>[!UICONTROL 추가]</strong>를 클릭합니다.</p> </li> 
      <li value="2"> <p>[!UICONTROL 컬렉션 ID]를 입력하거나 매핑합니다.</p> </li> 
-     <li value="3"> <p>클릭 <strong>[!UICONTROL 항목 추가]</strong>.</p> </li> 
+     <li value="3"> <p><strong>[!UICONTROL 항목 추가]</strong>를 클릭합니다.</p> </li> 
     </ol> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 자산 ID]</td> 
+   <td role="rowheader">[!UICONTROL Assets ID]</td> 
    <td> <p>컬렉션에 추가할 각 에셋에 대해 다음 작업을 수행하십시오.</p> 
     <ol> 
-     <li value="1"> <p> 클릭 <strong>[!UICONTROL 추가]</strong>.</p> </li> 
+     <li value="1"> <p> <strong>[!UICONTROL 추가]</strong>를 클릭합니다.</p> </li> 
      <li value="2"> <p>자산 ID를 입력하거나 매핑합니다.</p> </li> 
-     <li value="3"> <p>클릭 <strong>[!UICONTROL 항목 추가]</strong>.</p> </li> 
+     <li value="3"> <p><strong>[!UICONTROL 항목 추가]</strong>를 클릭합니다.</p> </li> 
     </ol> </td> 
   </tr> 
   <tr> 
@@ -245,24 +245,24 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-  <td> <p>연결에 대한 자세한 내용 [!DNL Widen] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">연결 [!DNL Widen] 끝 [!DNL Workfront Fusion] </a> 이 문서에서.</p> </td> 
+  <td> <p>[!DNL Widen] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">[!DNL Widen]을(를) [!DNL Workfront Fusion] </a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 컬렉션 ID]</td> 
    <td> <p>에서 에셋을 제거할 각 컬렉션에 대해:</p> 
     <ol> 
-     <li value="1"> <p> 클릭 <strong>[!UICONTROL 추가]</strong>.</p> </li> 
+     <li value="1"> <p> <strong>[!UICONTROL 추가]</strong>를 클릭합니다.</p> </li> 
      <li value="2"> <p>컬렉션 ID를 입력하거나 매핑합니다.</p> </li> 
-     <li value="3"> <p>클릭 <strong>[!UICONTROL 항목 추가]</strong>.</p> </li> 
+     <li value="3"> <p><strong>[!UICONTROL 항목 추가]</strong>를 클릭합니다.</p> </li> 
     </ol> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">자산 ID</td> 
+   <td role="rowheader">ASSETS ID</td> 
    <td> <p>컬렉션에서 제거할 각 에셋에 대해 다음 작업을 수행하십시오.</p> 
     <ol> 
-     <li value="1"> <p> 클릭 <strong>[!UICONTROL 추가]</strong>.</p> </li> 
+     <li value="1"> <p> <strong>[!UICONTROL 추가]</strong>를 클릭합니다.</p> </li> 
      <li value="2"> <p>자산 ID를 입력하거나 매핑합니다.</p> </li> 
-     <li value="3"> <p>클릭 <strong>[!UICONTROL 항목 추가]</strong>.</p> </li> 
+     <li value="3"> <p><strong>[!UICONTROL 항목 추가]</strong>를 클릭합니다.</p> </li> 
     </ol> </td> 
   </tr> 
   <tr> 
@@ -282,7 +282,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-  <td> <p>연결에 대한 자세한 내용 [!DNL Widen] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">연결 [!DNL Widen] 끝 [!DNL Workfront Fusion] </a> 이 문서에서.</p> </td> 
+  <td> <p>[!DNL Widen] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">[!DNL Widen]을(를) [!DNL Workfront Fusion] </a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 자산 ID]</td> 
@@ -305,7 +305,7 @@ ht-degree: 1%
 
 #### [!UICONTROL 파일 다운로드]
 
-이 작업 모듈은 에서 자산을 다운로드합니다. [!DNL Widen] 계정입니다.
+이 작업 모듈은 [!DNL Widen] 계정에서 자산을 다운로드합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -313,7 +313,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-  <td> <p>연결에 대한 자세한 내용 [!DNL Widen] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">연결 [!DNL Widen] 끝 [!DNL Workfront Fusion] </a> 이 문서에서.</p> </td> 
+  <td> <p>[!DNL Widen] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">[!DNL Widen]을(를) [!DNL Workfront Fusion] </a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 자산 ID]</td> 
@@ -324,7 +324,7 @@ ht-degree: 1%
 
 #### [!UICONTROL 파일 업로드]
 
-이 작업 모듈은 파일을 [!DNL Widen] 계정입니다.
+이 작업 모듈은 파일을 [!DNL Widen] 계정으로 업로드합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -332,7 +332,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-  <td> <p>연결에 대한 자세한 내용 [!DNL Widen] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">연결 [!DNL Widen] 끝 [!DNL Workfront Fusion] </a> 이 문서에서.</p> </td> 
+  <td> <p>[!DNL Widen] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">[!DNL Widen]을(를) [!DNL Workfront Fusion] </a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 업로드 프로필]</td> 
@@ -343,7 +343,7 @@ ht-degree: 1%
    <td> <p>파일 업로드 방법을 선택합니다.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL From File]</strong> </p> <p>이전 모듈에서 소스 파일을 선택하거나 매핑합니다.</p> </li> 
-     <li> <p><strong>URL별 [!UICONTROL]</strong> </p> <p>업로드할 파일의 URL을 입력하거나 매핑합니다.</p> </li> 
+     <li> <p>URL별 <strong>[!UICONTROL]</strong> </p> <p>업로드할 파일의 URL을 입력하거나 매핑합니다.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -364,7 +364,7 @@ ht-degree: 1%
 ### 모듈 검색
 
 * [[!UICONTROL 컬렉션 자산 읽기]](#read-collection-assets)
-* [[!UICONTROL 에셋 검색]](#search-assets)
+* [[!UICONTROL 자산 검색]](#search-assets)
 
 #### [!UICONTROL 컬렉션 자산 읽기]
 
@@ -376,7 +376,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-  <td> <p>연결에 대한 자세한 내용 [!DNL Widen] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">연결 [!DNL Widen] 끝 [!DNL Workfront Fusion] </a> 이 문서에서.</p> </td> 
+  <td> <p>[!DNL Widen] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">[!DNL Widen]을(를) [!DNL Workfront Fusion] </a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 컬렉션 ID]</td> 
@@ -405,7 +405,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-#### [!UICONTROL 에셋 검색]
+#### [!UICONTROL 자산 검색]
 
 이 검색 모듈은 특정 검색 기준과 일치하는 에셋 목록을 검색합니다.
 
@@ -415,7 +415,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-  <td> <p>연결에 대한 자세한 내용 [!DNL Widen] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">연결 [!DNL Widen] 끝 [!DNL Workfront Fusion] </a> 이 문서에서.</p> </td> 
+  <td> <p>[!DNL Widen] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">[!DNL Widen]을(를) [!DNL Workfront Fusion] </a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 검색 쿼리]</td> 

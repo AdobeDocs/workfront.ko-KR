@@ -18,7 +18,7 @@ ht-degree: 0%
 
 이 페이지에서는 2020.1 릴리스의 목록에 대한 모든 개선 사항에 대해 설명합니다. 이러한 개선 사항은 현재 미리보기 환경에서 사용할 수 있으며 2020년 3월 말 또는 4월 초에 프로덕션 환경에서 사용할 수 있습니다.
 
-2020.1 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [2020.1 릴리스 개요](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
+2020.1 릴리스에서 사용할 수 있는 모든 변경 사항 목록은 [2020.1 릴리스 개요](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md)를 참조하십시오.
 
 ## 작업 목록에서 변경할 때의 새로운 저장 모드: 타임라인 계획 수립 모드
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 * 자동 또는 수동 저장 모드를 사용할 때보다 각 변경 사항을 제출하는 것이 더 빠릅니다.
 * 저장하기 전에 변경 내용을 되돌릴 수 있습니다.
 
-작업 목록 변경 사항 저장에 대한 자세한 내용은 문서의 &quot;타임라인 계획 설정을 사용하여 작업 편집&quot; 섹션을 참조하십시오 [목록에서 작업 편집](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
+작업 목록 변경 내용을 저장하는 방법에 대한 자세한 내용은 문서 [목록에서 작업 편집](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md)의 &quot;타임라인 계획 설정을 사용하여 작업 편집&quot; 섹션을 참조하십시오.
 
 ## 새 목록의 모양 및 느낌 업데이트됨
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 이제 프로젝트, 작업 및 시간 목록의 모양과 느낌이 업데이트되었습니다.
 
-목록에서 항목을 보는 방법에 대한 자세한 내용은 [Adobe Workfront에서 목록 시작](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+목록에서 항목을 보는 방법에 대한 자세한 내용은 [Adobe Workfront 목록 시작](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)을 참조하세요.
 
 일부 업데이트에는 다음이 포함됩니다.
 
@@ -54,19 +54,19 @@ ht-degree: 0%
 
 이제 새로운 색상 구성표가 있는 목록에서 여러 레이어 그룹화의 차이점을 보다 명확하게 볼 수 있습니다. 그룹화 결과는 별도의 프레임에서 보다 명확하게 요약됩니다. 이 변경 사항은 모든 새 목록에 적용되었습니다.
 
-그룹화 만들기 및 사용자 지정에 대한 자세한 내용은 [Adobe Workfront의 그룹화 개요](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+그룹화 만들기 및 사용자 지정에 대한 자세한 내용은 Adobe Workfront의 [그룹화 개요](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)를 참조하십시오.
 
 ## 빠른 필터를 사용할 때 목록에서 일치하는 항목 강조 표시
 
 이제 목록에서 항목을 찾는 작업이 더 빨라졌습니다. 빠른 필터를 사용하여 항목을 검색하면 검색 결과에서 일치하는 필드가 노란색으로 강조 표시되어 키워드와 일치하는 필드 값을 명확하게 볼 수 있습니다. 필드는 공유 열 및 복합 필드뿐만 아니라 독립 실행형 필드에서는 노란색으로 강조 표시됩니다. 복잡한 필드의 일부 예로는 할당, 할당 및 상태, 완료율, 전임 작업, 승인자 및 상태, 리소스 관리자, 범주, 상태, 상태 업데이트 등이 있습니다.
 
-빠른 필터 사용에 대한 자세한 내용은 [Adobe Workfront에서 목록 시작](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+빠른 필터 사용에 대한 자세한 내용은 [Adobe Workfront 목록 시작](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)을 참조하세요.
 
 ## 목록 및 보고서에서 필터, 보기 및 그룹화 컨트롤을 편집하는 사용자 기능을 제한합니다.
 
 이제 액세스 수준을 사용하여 목록 및 보고서에서 필터, 보기 및 그룹화 컨트롤을 편집하는 기능을 제한할 수 있습니다. 이 기능은 특정 액세스 수준의 사용자만 볼 수 있도록 하려는 사용자 정의 필드가 있는 경우 유용합니다.
 
-자세한 내용은 [필터, 보기 및 그룹화에 대한 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+자세한 내용은 [필터, 보기 및 그룹화에 대한 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)를 참조하십시오.
 
 ## 업데이트 영역의 추가 메뉴 새로 만들기
 
@@ -76,13 +76,13 @@ ht-degree: 0%
 * 직접 링크를 업데이트 스레드 또는 단일 업데이트에 복사
 * 업데이트 삭제
 
-자세한 내용은 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+자세한 내용은 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)를 참조하세요.
 
 ## 업데이트 영역의 새 진행률 표시줄
 
 업데이트 영역의 완료율 진행률 표시줄에 새로운 모양이 표시됩니다. 을(를) 클릭하고 드래그하여 백분율을 업데이트하거나, 두 번 클릭하여 숫자를 수동으로 입력합니다.
 
-자세한 내용은 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+자세한 내용은 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)를 참조하세요.
 
 ## 목록 및 보고서의 열 머리글을 대소문자에 표시
 
@@ -100,4 +100,4 @@ ht-degree: 0%
 
 이 변경 이전에는 항상 축소된 목록에 결과가 표시됩니다.
 
-그룹화 만들기에 대한 내용은 [Adobe Workfront의 그룹화 개요](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+그룹화를 만드는 방법에 대한 자세한 내용은 Adobe Workfront의 [그룹화 개요](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)를 참조하십시오.

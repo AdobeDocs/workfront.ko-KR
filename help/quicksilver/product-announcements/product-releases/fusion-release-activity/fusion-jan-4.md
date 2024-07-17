@@ -21,9 +21,9 @@ ht-degree: 0%
 
 이 페이지에서는 2021년 1월 4일이 있는 주에 Adobe Workfront Fusion에서 향상된 모든 기능에 대해 설명합니다.
 
-최근 변경 사항의 목록은 다음을 참조하십시오. [Adobe Workfront Fusion 릴리스 활동](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+최근 모든 변경 사항의 목록은 [Adobe Workfront Fusion 릴리스 활동](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)을 참조하십시오.
 
-Workfront Fusion의 최근 버그 수정 목록은 다음을 참조하십시오. [Workfront 유지 보수 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) Workfront Fusion Maintenance Update로 레이블이 지정된 업데이트를 찾아 확인합니다.
+Workfront Fusion의 최근 버그 수정 목록을 보려면 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 페이지를 참조하고 Workfront Fusion 유지 관리 업데이트 레이블이 지정된 업데이트를 확인하십시오.
 
 ## Microsoft 365 이메일 커넥터 업데이트
 
@@ -40,4 +40,4 @@ Microsoft 365 이메일 커넥터를 사용할 수 있는 방법을 확장하기
 
 첨부 파일 반복 모듈도 제거했습니다. 첨부 목록 모듈과 반복자 모듈을 결합하여 첨부 파일을 반복할 수 있습니다.
 
-자세한 내용은 [Microsoft Office 365 전자 메일](../../../workfront-fusion/apps-and-their-modules/microsoft-365-email-modules.md).
+자세한 내용은 [Microsoft Office 365 전자 메일](../../../workfront-fusion/apps-and-their-modules/microsoft-365-email-modules.md)을 참조하세요.

@@ -17,7 +17,7 @@ ht-degree: 0%
 
 이 페이지에서는 미리보기 환경에 대한 21.4 릴리스의 모든 리소스 관리 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2021년 10월 4일이 있는 주에 프로덕션 환경에서 사용할 수 있습니다.
 
-21.4 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [21.4 릴리스 개요](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+21.4 릴리스에서 사용할 수 있는 모든 변경 사항 목록을 보려면 [21.4 릴리스 개요](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md)를 참조하십시오.
 
 ## 업무 균형자에서 빠르게 할당
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 이 개선 이전에는 작업 또는 문제의 추가 메뉴를 클릭한 다음 할당 옵션을 사용하여 항목만 할당할 수 있었습니다. 이제 작업을 드래그하는 동안 사용자에게 할당된 계획된 시간이 실시간으로 업데이트됩니다.
 
-업무 균형자에서 작업 항목 지정에 대한 자세한 내용은 [업무 균형자에서 작업 할당 개요](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+업무 균형자에서 작업 항목을 할당하는 방법에 대한 자세한 내용은 [업무 균형자에서 작업 할당 개요](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)를 참조하십시오.
 
 ## 업무 균형자에 대한 새로운 기본 옵션
 
@@ -44,9 +44,9 @@ ht-degree: 0%
 * 필터 복제 기능
 * 다른 사용자와 필터 공유
 
-자세한 내용은 [업무 균형자에서 필터 관리](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+자세한 내용은 [업무 균형자에서 필터 관리](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)를 참조하십시오.
 
 >[!NOTE]
 >
->필터 업데이트로 다음을 제거했습니다. **모든 작업 항목** 및 **이 프로젝트의 작업 항목** 프로젝트의 업무 균형자에 내장된 필터
+>필터 업데이트를 통해 프로젝트의 업무 균형자에서 **모든 작업 항목** 및 **이 프로젝트의 작업 항목**&#x200B;에 내장된 필터를 제거했습니다.
 

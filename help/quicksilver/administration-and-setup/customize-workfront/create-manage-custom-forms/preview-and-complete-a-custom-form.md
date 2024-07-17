@@ -39,30 +39,30 @@ ht-degree: 0%
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>사용자 정의 양식에 대한 관리 액세스</p> <p>Workfront 관리자가 이 액세스 권한을 부여하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">사용자에게 특정 영역에 대한 관리 액세스 권한 부여</a>.</p> </td> 
+   <td> <p>사용자 정의 양식에 대한 관리 액세스</p> <p>Workfront 관리자가 이 액세스 권한을 부여하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">특정 영역에 대한 관리자 액세스 권한 부여</a>를 참조하십시오.</p> </td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 수준 구성을 알아보려면 Workfront 관리자에게 문의하십시오.
+&#42;플랜, 라이선스 유형 또는 액세스 수준 구성을 알아보려면 Workfront 관리자에게 문의하세요.
 
 ## 사용자 정의 양식 미리 보기 및 작성 완료
 
-1. 문서에 설명된 대로 사용자 정의 양식을 만들고 구성하기 시작합니다 [기존 양식 빌더로 사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md), [기존 양식 빌더로 사용자 정의 양식에 사용자 정의 필드 추가](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md), [기존 양식 빌더를 사용하여 사용자 정의 양식의 자산 위젯 추가 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)및 기타
+1. 문서에 설명된 대로 사용자 정의 양식을 만들고 구성하기 시작합니다. [기존 양식 빌더로 사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md), [기존 양식 빌더로 사용자 정의 양식에 사용자 정의 필드 추가](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md), [기존 양식 빌더로 사용자 정의 양식의 자산 위젯 추가 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md) 등.
 
-1. (선택 사항) **미리 보기** 양식 사용 시 표시되는 모양을 보려면 **미리보기 종료** 을 눌러 양식 편집으로 돌아갑니다.
+1. (선택 사항) **미리 보기**&#x200B;를 클릭하여 사용 시 양식이 어떻게 표시되는지 확인한 다음 **미리 보기 종료**&#x200B;를 클릭하여 양식 편집으로 돌아갑니다.
 
-1. 클릭 **저장+닫기** 변경 사항을 저장합니다.
+1. 변경 내용을 저장하려면 **저장+닫기**&#x200B;를 클릭하십시오.
 
    또는
 
-   폼에 변경 내용을 유지하지 않으려면 **취소**&#x200B;을 클릭한 다음 을 클릭합니다 **계속하고 닫기**.
+   양식에 변경 내용을 유지하지 않으려면 **취소**&#x200B;를 클릭한 다음 **계속 진행 및 닫기**&#x200B;를 클릭합니다.
 
    >[!NOTE]
    >
    >양식이 이미 많은 오브젝트에 첨부된 경우 변경 사항이 모든 오브젝트에 적용되기까지 몇 분이 걸릴 수 있습니다. 이 작업은 백그라운드에서 수행되므로 기다리는 동안 Workfront에서 다른 작업을 수행할 수 있습니다.
 
-1. (선택 사항) 의 설명에 따라 양식을 사용하려는 Workfront 개체에 추가합니다 [오브젝트에 사용자 정의 양식 추가](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+1. (선택 사항) [개체에 사용자 정의 양식 추가](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)에 설명된 대로 양식을 사용할 Workfront 개체에 추가하십시오.
 
    일반 사용자도 개체에 대한 관리 권한이 있는 경우 이 작업을 수행할 수 있습니다.
 

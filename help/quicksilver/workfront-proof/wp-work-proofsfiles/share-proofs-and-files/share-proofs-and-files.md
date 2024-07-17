@@ -20,16 +20,16 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->이 문서는 독립 실행형 제품의 기능에 대해 설명합니다 [!DNL Workfront Proof]. 내부 교정에 대한 정보 [!DNL Adobe Workfront], 참조 [증명](../../../review-and-approve-work/proofing/proofing.md).
+>이 문서는 독립 실행형 제품 [!DNL Workfront Proof]의 기능을 참조합니다. [!DNL Adobe Workfront] 내부의 증명에 대한 자세한 내용은 [증명](../../../review-and-approve-work/proofing/proofing.md)을 참조하십시오.
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [에서 증명 공유 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md)
-* [에서 증명 링크 공유 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof-links.md)
-* [에서 공개 URL 공유 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-public-url.md)
-* [에서 파일 공유 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md)
+* [ [!DNL Workfront Proof]에서 증명 공유](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md)
+* [ [!DNL Workfront Proof]에서 증명 링크 공유](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof-links.md)
+* [ [!DNL Workfront Proof]에서 공개 URL 공유](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-public-url.md)
+* [ [!DNL Workfront Proof]에서 파일 공유](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md)
 * [나와 공유된 증명 액세스](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/access-proofs-shared-with-you.md)
-* [에서 증명 구독 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md)
-* [에서 Mini 증명 만들기 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/create-mini-proof.md)
+* [ [!DNL Workfront Proof]에서 증명 구독](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md)
+* [ [!DNL Workfront Proof]에서 미니 증명 만들기](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/create-mini-proof.md)
 * [미니 증명 포함](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/embed-mini-proof.md)
-* [에서 증명 역할 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)
+* [ [!DNL Workfront Proof]에서 증명 역할 관리](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)

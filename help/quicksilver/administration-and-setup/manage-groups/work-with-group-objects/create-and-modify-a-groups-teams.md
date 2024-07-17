@@ -21,9 +21,9 @@ ht-degree: 3%
 
 그룹 위에 그룹이 있는 경우 해당 관리자는 그룹을 위해 이러한 작업을 수행할 수도 있습니다. Workfront 관리자(모든 그룹)의 경우도 마찬가지입니다.
 
-플랜 라이선스가 있는 사용자가 팀을 만드는 방법에 대한 자세한 내용은 [팀 만들기](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md).
+플랜 라이선스가 있는 사용자가 팀을 만드는 방법에 대한 자세한 내용은 [팀 만들기](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md)를 참조하세요.
 
-Workfront 관리자가 팀을 만드는 방법에 대한 자세한 내용은 [설정 영역에서 팀 만들기](../../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md).
+Workfront 관리자가 팀을 만드는 방법에 대한 자세한 내용은 [설정 영역에서 팀 만들기](../../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md)를 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -35,11 +35,11 @@ Workfront 관리자가 팀을 만드는 방법에 대한 자세한 내용은 [�
  <tbody> 
   <tr> 
    <td role="rowheader">Workfront 플랜*</td> 
-   <td>모든</td> 
+   <td>임의</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>플랜 </p> <p>그룹의 그룹 관리자 또는 Workfront 관리자여야 합니다. 자세한 내용은 <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref" data-mc-variable-override="">그룹 관리자</a> 및 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref" data-mc-variable-override="">사용자에게 전체 관리 액세스 권한 부여</a>.</p> </td> 
+   <td> <p>플랜 </p> <p>그룹의 그룹 관리자 또는 Workfront 관리자여야 합니다. 자세한 내용은 <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref" data-mc-variable-override="">그룹 관리자</a> 및 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref" data-mc-variable-override="">사용자에게 전체 관리 액세스 권한 부여</a>를 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -48,16 +48,16 @@ Workfront 관리자가 팀을 만드는 방법에 대한 자세한 내용은 [�
 
 ## 그룹 영역에서 그룹을 위한 팀 보기, 작업 및 만들기
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 상단에서 을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png).
+1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
 
-1. 왼쪽 패널에서 **그룹** ![](assets/groups-icon.png).
+1. 왼쪽 패널에서 **그룹** ![](assets/groups-icon.png)을(를) 클릭합니다.
 
 1. 팀을 만들거나 수정할 그룹의 이름을 클릭합니다.
-1. 왼쪽 패널에서 **팀** ![](assets/teams.png) 을(를) 사용하여 그룹 및 해당 그룹에 속한 하위 그룹과 연결된 팀을 나열할 수 있습니다.
+1. 왼쪽 패널에서 **팀** ![](assets/teams.png)을(를) 클릭하여 그룹 및 해당 그룹에 속한 하위 그룹과 관련된 팀을 나열합니다.
 
 1. 다음 중 하나를 수행합니다.
 
-   * **팀 추가**: 클릭 **새 팀**&#x200B;를 클릭한 다음 다음 옵션을 사용하여 구성합니다.
+   * **팀 추가**: **새 팀**&#x200B;을 클릭한 후 다음 옵션을 사용하여 구성하십시오.
 
    <!-- WRITER please check table below. I stripped out wonky conditions-->
 
@@ -71,7 +71,7 @@ Workfront 관리자가 팀을 만드는 방법에 대한 자세한 내용은 [�
        </tr> 
        <tr> 
        <td role="rowheader">그룹</td> 
-       <td> <p> 시스템이 새 팀의 그룹 필드에 사용자가 보고 있는 그룹을 채웁니다. 팀을 다른 그룹과 연결하려면 그룹 이름을 입력한 다음 표시될 때 이름을 선택합니다.</p> <p>마우스로 가리키고 정보 아이콘을 클릭하여 올바른 그룹을 팀과 연결하는지 확인할 수 있습니다 <img src="assets/info-icon.png"> 옆에 표시됩니다. 그룹 및 해당 관리자의 상위 그룹 계층과 같은 그룹에 대한 정보를 나열하는 도구 설명이 표시됩니다.</p> <p><b>참고</b>: 팀이 그룹 또는 하위 그룹에 할당되면 해당 그룹 또는 하위 그룹의 모든 그룹 관리자는 해당 그룹의 구성원이 되지 않고도 팀을 관리할 수 있습니다. 그룹 관리자는 메인 메뉴에서 팀 영역으로 이동하여 팀 전환 화살표를 클릭할 수 있습니다 <img src="assets/switch-team-icon.png" alt="팀 전환 아이콘"> 자신이 관리하는 그룹에 할당된 모든 팀을 나열합니다.</p> </td> 
+       <td> <p> 시스템이 새 팀의 그룹 필드에 사용자가 보고 있는 그룹을 채웁니다. 팀을 다른 그룹과 연결하려면 그룹 이름을 입력한 다음 표시될 때 이름을 선택합니다.</p> <p>마우스로 팀을 가리키고 그 옆에 표시되는 정보 아이콘 <img src="assets/info-icon.png">을(를) 클릭하여 올바른 그룹을 팀과 연결하는지 확인할 수 있습니다. 그룹 및 해당 관리자의 상위 그룹 계층과 같은 그룹에 대한 정보를 나열하는 도구 설명이 표시됩니다.</p> <p><b>참고</b>: 팀이 그룹 또는 하위 그룹에 할당되면 해당 그룹 또는 하위 그룹의 모든 그룹 관리자는 해당 그룹의 구성원이 되지 않고도 팀을 관리할 수 있습니다. 그룹 관리자는 주 메뉴에서 팀 영역으로 이동하여 팀 전환 화살표 <img src="assets/switch-team-icon.png" alt="팀 전환 아이콘">을(를) 클릭하여 자신이 관리하는 그룹에 할당된 모든 팀을 나열할 수 있습니다.</p> </td> 
        </tr> 
        <tr> 
        <td role="rowheader">팀원</td> 
@@ -96,7 +96,7 @@ Workfront 관리자가 팀을 만드는 방법에 대한 자세한 내용은 [�
       </tbody> 
      </table>
 
-   * **팀 편집**: 하나 이상의 팀을 선택하고 클릭 **다음** 편집 아이콘 ![](assets/edit-icon.png)를 클릭한 다음 다음 옵션을 사용하여 구성합니다.
+   * **팀 편집**: 하나 이상의 팀을 선택하고 **편집** 아이콘 ![](assets/edit-icon.png)을(를) 클릭한 다음, 다음 옵션을 사용하여 구성하십시오.
 
      <table style="table-layout:auto"> 
       <col> 
@@ -108,7 +108,7 @@ Workfront 관리자가 팀을 만드는 방법에 대한 자세한 내용은 [�
        </tr> 
        <tr> 
        <td role="rowheader">그룹</td> 
-       <td> <p>팀과 그룹을 연결합니다. 그룹 이름을 입력한 다음 표시될 때 이름을 선택합니다.</p> <p>마우스로 가리키고 정보 아이콘을 클릭하여 올바른 그룹을 팀과 연결하는지 확인할 수 있습니다 <img src="assets/info-icon.png"> 옆에 표시됩니다. 그룹 및 해당 관리자의 상위 그룹 계층과 같은 그룹에 대한 정보를 나열하는 도구 설명이 표시됩니다.</p> <p><b>참고</b>: 팀이 그룹 또는 하위 그룹에 할당되면 해당 그룹 또는 하위 그룹의 모든 그룹 관리자는 해당 그룹의 구성원이 되지 않고도 팀을 관리할 수 있습니다. 그룹 관리자는 메인 메뉴에서 팀 영역으로 이동하여 팀 전환 화살표를 클릭할 수 있습니다 <img src="assets/switch-team-icon.png" alt="팀 전환 아이콘"> 자신이 관리하는 그룹에 할당된 모든 팀을 나열합니다.</p> </td> 
+       <td> <p>팀과 그룹을 연결합니다. 그룹 이름을 입력한 다음 표시될 때 이름을 선택합니다.</p> <p>마우스로 팀을 가리키고 그 옆에 표시되는 정보 아이콘 <img src="assets/info-icon.png">을(를) 클릭하여 올바른 그룹을 팀과 연결하는지 확인할 수 있습니다. 그룹 및 해당 관리자의 상위 그룹 계층과 같은 그룹에 대한 정보를 나열하는 도구 설명이 표시됩니다.</p> <p><b>참고</b>: 팀이 그룹 또는 하위 그룹에 할당되면 해당 그룹 또는 하위 그룹의 모든 그룹 관리자는 해당 그룹의 구성원이 되지 않고도 팀을 관리할 수 있습니다. 그룹 관리자는 주 메뉴에서 팀 영역으로 이동하여 팀 전환 화살표 <img src="assets/switch-team-icon.png" alt="팀 전환 아이콘">을(를) 클릭하여 자신이 관리하는 그룹에 할당된 모든 팀을 나열할 수 있습니다.</p> </td> 
        </tr> 
        <tr> 
        <td role="rowheader">소유자</td> 
@@ -128,22 +128,22 @@ Workfront 관리자가 팀을 만드는 방법에 대한 자세한 내용은 [�
        </tr> 
        <tr> 
        <td role="rowheader">애자일</td> 
-       <td>애자일 팀인지 여부를 지정합니다. 애자일 팀 및 팀 작업 관리 방법에 대한 자세한 내용은 <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">애자일 팀 만들기</a>.</td> 
+       <td>애자일 팀인지 여부를 지정합니다. 애자일 팀 및 작업 관리 방법에 대한 자세한 내용은 <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">애자일 팀 만들기</a>를 참조하십시오.</td> 
        </tr> 
        <tr> 
        <td role="rowheader">처리 중</td> 
-       <td> <p>처리 중(Work On It) 단추를 시작(Start) 단추로 변경합니다. 사용자가 시작을 클릭하면 항목의 상태가 자동으로 업데이트됩니다.</p> <p>시작 단추를 구성하는 방법에 대한 자세한 내용은 <a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">처리 중 단추를 시작 단추로 바꾸기</a>.</p> </td> 
+       <td> <p>처리 중(Work On It) 단추를 시작(Start) 단추로 변경합니다. 사용자가 시작을 클릭하면 항목의 상태가 자동으로 업데이트됩니다.</p> <p>시작 단추를 구성하는 방법에 대한 자세한 내용은 <a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">처리 중 단추를 시작 단추로 바꾸기</a>를 참조하십시오.</p> </td> 
        </tr> 
        <tr> 
        <td role="rowheader">완료 버튼</td> 
        <td> <p>완료 단추를 사용자 지정합니다. 자세한 내용은 다음을 참조하십시오.</p> 
        <ul> 
-       <li><a href="../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md" class="MCXref xref">작업에 대한 완료 버튼 구성</a> </li> 
-       <li><a href="../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md" class="MCXref xref">문제에 대한 완료 버튼 구성</a> </li> 
+       <li><a href="../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md" class="MCXref xref">작업에 대한 완료 단추 구성</a> </li> 
+       <li><a href="../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md" class="MCXref xref">문제에 대한 완료 단추 구성</a> </li> 
        </ul> </td> 
        </tr> 
       </tbody> 
      </table>
 
-   * **팀 삭제**: 하나 이상의 팀을 선택한 다음 삭제 아이콘을 클릭합니다 ![](assets/delete.png).
-   * **팀 목록 내보내기**: 클릭 **내보내기** ![](assets/export.png)을(를) 클릭한 다음 내보낸 목록에 사용할 파일 형식을 선택합니다.
+   * **팀 삭제**: 하나 이상의 팀을 선택한 다음 삭제 아이콘 ![](assets/delete.png)을(를) 클릭합니다.
+   * **팀 목록 내보내기**: **내보내기** ![](assets/export.png)를 클릭한 다음 내보낸 목록에 사용할 파일 형식을 선택합니다.

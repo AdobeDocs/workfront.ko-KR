@@ -7,9 +7,10 @@ title: Adobe Workfront Fusion의 연결 메타데이터
 description: Adobe Workfront Fusion에는 Adobe Workfront 라이센스 외에 Adobe Workfront Fusion 라이센스가 필요합니다.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 3a7983279a38c30cb58078d129ea22dee137d9a5
+exl-id: af260c63-3385-4d5c-abc2-d5c23175be40
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] 을(를) 필요로 합니다. [!DNL Adobe Workfront Fusion] 에 더해진 라이센스 [!DNL Adobe Workfront] 라이센스.
+>[!DNL Adobe Workfront Fusion]에는 [!DNL Adobe Workfront] 라이선스 외에 [!DNL Adobe Workfront Fusion] 라이선스가 필요합니다.
 
 모든 연결이 동일한 것은 아닙니다. 연결의 차이점을 이해하는 것은 비즈니스 컨텍스트를 아는 데 매우 중요합니다. Fusion은 메타데이터를 사용하여 연결의 중요한 속성을 식별합니다.
 
@@ -40,7 +41,4 @@ Fusion 연결은 서비스 계정과 개인 계정 모두에 사용할 수 있�
 
 다른 연결 메타데이터와 마찬가지로 유형은 정보 제공 목적으로만 사용됩니다. 사용자는 여전히 이 속성을 수동으로 정확하게 설정할 책임이 있습니다.
 
-인증 유형에 대한 자세한 내용은 다음을 참조하십시오. [인증](https://developer.adobe.com/developer-console/docs/guides/authentication/) Adobe 인증 안내서에서 확인할 수 있습니다.
-
-
-
+인증 유형에 대한 자세한 내용은 Adobe 인증 가이드의 [인증](https://developer.adobe.com/developer-console/docs/guides/authentication/)을 참조하십시오.

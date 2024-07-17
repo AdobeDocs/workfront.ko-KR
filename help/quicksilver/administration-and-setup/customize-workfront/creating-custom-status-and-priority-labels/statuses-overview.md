@@ -41,14 +41,14 @@ ht-degree: 0%
 
 Adobe Workfront에는 9개의 프로젝트 상태, 3개의 작업 상태 및 10개의 문제 상태가 있습니다. 이에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
-* [시스템 프로젝트 상태 목록 액세스](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)
-* [시스템 작업 상태 목록 액세스](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)
+* [시스템 프로젝트 상태 목록에 액세스](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)
+* [시스템 작업 상태 목록에 액세스](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)
 * [시스템 문제 상태 목록 액세스](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md)
 
 ## 사용자 정의 상태
 
-Workfront 관리자는 Workfront과 함께 제공되는 기본 상태 외에도 조직의 요구 사항에 맞게 사용자 정의 프로젝트, 작업 및 문제 상태를 추가할 수 있습니다. Workfront 인스턴스의 모든 사용자가 사용하는 시스템 수준 상태나 특정 그룹만 사용하는 그룹 수준 상태를 만들 수 있습니다. 자세한 내용은 [상태 만들기 또는 편집](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+Workfront 관리자는 Workfront과 함께 제공되는 기본 상태 외에도 조직의 요구 사항에 맞게 사용자 정의 프로젝트, 작업 및 문제 상태를 추가할 수 있습니다. Workfront 인스턴스의 모든 사용자가 사용하는 시스템 수준 상태나 특정 그룹만 사용하는 그룹 수준 상태를 만들 수 있습니다. 자세한 내용은 [상태 만들기 또는 편집](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)을 참조하세요.
 
 ## 그룹 상태
 
-그룹 관리자는 그룹의 요구 사항에 맞게 그룹 수준의 사용자 지정 상태를 만들 수 있습니다. 자세한 내용은 [그룹 상태 관리](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md).
+그룹 관리자는 그룹의 요구 사항에 맞게 그룹 수준의 사용자 지정 상태를 만들 수 있습니다. 자세한 내용은 [그룹 상태 관리](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md)를 참조하십시오.

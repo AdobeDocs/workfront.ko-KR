@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 1c0511f6-c60b-4a81-bfff-55b6f866add6
 source-git-commit: 35d76d3cb06c9e9b449844f304f1443e24a221d4
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -29,24 +29,24 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>현재 플랜: Pro 이상</p> <p>또는</p> <p>기존 플랜: Select 또는 Premium</p> <p>다른 플랜의 증명 액세스에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfront의 증명 기능에 액세스</a>.</p> </td> 
+   <td> <p>현재 플랜: Pro 이상</p> <p>또는</p> <p>기존 플랜: Select 또는 Premium</p> <p>다른 플랜의 증명 액세스에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfront의 증명 기능에 액세스</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
    <td> <p>현재 계획: 작업 또는 계획</p> <p>기존 계획: 모두(사용자에 대해 증명이 활성화되어 있어야 함)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">증명 권한 프로필 </td> 
+   <td role="rowheader">교정쇄 권한 프로필 </td> 
    <td>관리자 이상</td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>문서에 대한 액세스 편집</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td> <p>문서에 대한 액세스 편집</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 역할 또는 증명 권한 프로필을 알아보려면 Workfront 또는 Workfront Proof 관리자에게 문의하십시오.
+&#42;보유 중인 플랜, 역할 또는 증명 권한 프로필을 확인하려면 Workfront 또는 Workfront Proof 관리자에게 문의하십시오.
 
 ## 웹 사이트 또는 기타 웹 컨텐츠에 대한 정적 증명 만들기
 
@@ -54,20 +54,20 @@ ht-degree: 0%
 
 >[!TIP]
 >
->인증이 필요한 내부 페이지 및 암호로 보호된 페이지에는 정적 증명보다 대화형 증명이 좋습니다. 자세한 내용은 [대화형 콘텐츠 증명 개요](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
+>인증이 필요한 내부 페이지 및 암호로 보호된 페이지에는 정적 증명보다 대화형 증명이 좋습니다. 자세한 내용은 [대화형 콘텐츠 증명 개요](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md)를 참조하십시오.
 
 1. 새 웹 사이트 증명 또는 기존 웹 사이트의 새 버전을 만들 프로젝트, 작업 또는 문제로 이동합니다.
-1. 클릭 **문서** 왼쪽 패널에서 .
-1. (조건부) 새 증명을 만드는 경우 **새로 추가**&#x200B;을 클릭한 다음 을 클릭합니다 **증명** 표시되는 메뉴에서 을 선택합니다.
+1. 왼쪽 패널에서 **문서**&#x200B;를 클릭합니다.
+1. (조건부) 새 증명을 만드는 경우 표시되는 메뉴에서 **새로 추가**&#x200B;를 클릭한 다음 **증명**&#x200B;을 클릭합니다.
 1. (조건부) 기존 증명의 새 버전을 만드는 경우:
 
    1. 새 버전을 만들 URL 증명을 마우스로 가리킨 다음, 해당 버전을 둘러싼 연한 파란색 배경을 클릭하여 선택합니다.
 
       ![Select_proof_by_selecting_light_blue_background.png](assets/select-proof-by-selecting-light-blue-background-350x52.png)
 
-   1. 클릭 **새로 추가** > **버전** > **증명**.
+   1. **새로 추가** > **버전** > **증명**&#x200B;을 클릭합니다.
 
-1. 에서 증명하려는 웹 사이트의 URL을 입력하십시오. **파일 추가** 영역을 선택한 다음 키를 누릅니다. **입력**.
+1. **파일 추가** 영역에 증명하려는 웹 사이트의 URL을 입력한 다음 **Enter**&#x200B;를 누릅니다.
 
    >[!NOTE]
    >
@@ -79,8 +79,8 @@ ht-degree: 0%
 
    ![](assets/interactive-proof-radio-btn-area-350x199.png)
 
-1. (선택 사항) 웹 사이트 URL에서 증명 이름을 다른 이름으로 변경하려면 **증명 이름.**
-1. 다음을 확인하십시오. **스크린샷 캡처** 을(를) 선택하고 다음 옵션 중 하나를 사용합니다.
+1. (선택 사항) 웹 사이트 URL에서 증명 이름을 다른 이름으로 변경하려면 **증명 이름을 입력하십시오.**
+1. **스크린샷 캡처**&#x200B;를 선택하고 다음 옵션을 사용하십시오.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -101,15 +101,15 @@ ht-degree: 0%
    >
    >생성한 증명의 후속 버전에 대해 캡처 스크린샷 설정을 변경할 수 없습니다.
 
-1. 클릭 **완료**.
+1. **완료**&#x200B;를 클릭합니다.
 
-   8단계에서 여러 스크린샷 해상도를 선택한 경우 각 해상도에 대한 스크린샷 세트가 목록에 포함됩니다. 이러한 스크린샷을 별도의 증명으로 생성하거나 하나의 증명으로 결합할 수 있습니다( 참조). 특히 정적 웹 사이트 증명을 만드는 경우 이러한 증명을 결합하는 것이 좋습니다.
+   8단계에서 여러 스크린샷 해상도를 선택한 경우 각 해상도에 대한 스크린샷 세트가 목록에 포함됩니다. 이러한 스크린샷을 별도의 증명으로 생성하거나 하나의 증명으로 결합할 수 있습니다(참조)  .). 특히 정적 웹 사이트 증명을 만드는 경우 이러한 증명을 결합하는 것이 좋습니다.
 
    >[!NOTE]
    >
    >기존 URL 증명에 새 버전을 추가하는 경우 원래 증명 또는 이전 버전에 구성된 모든 옵션이 이 버전에서 유지됩니다.
 
-1. 클릭 **증명 만들기** 검토 프로세스 없이 간단한 증명을 만들 수 있습니다.\
+1. 검토 프로세스가 없는 간단한 증명을 만들려면 **증명 만들기**&#x200B;를 클릭하십시오.\
    또는\
    고급 증명을 구성하여 계속합니다.
 

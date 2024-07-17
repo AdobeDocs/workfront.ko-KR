@@ -30,12 +30,12 @@ Adobe Workfront 관리자에게 문의하십시오.
 
 시스템 관리자는 다음 작업을 수행합니다.
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 상단에서 을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png).
+1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
 
-1. 확장 **타임시트 및 시간**&#x200B;을 클릭한 다음 을 클릭합니다 **환경 설정**.
+1. **타임시트 및 시간**&#x200B;을 확장한 다음 **환경 설정**&#x200B;을 클릭합니다.
 
-1. 다음에서 **일반 환경 설정** 섹션에서 **미래 날짜에 대한 시간 기록**.
+1. **일반 환경 설정** 섹션에서 **이후 날짜에 대한 로그 시간**&#x200B;을(를) 선택합니다.
 
 1. **저장**&#x200B;을 클릭합니다.
 
-이 옵션 및 타임시트 및 시간과 관련된 기타 옵션에 대한 자세한 내용은 [타임시트 및 시간 환경 설정 구성](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+타임시트 및 시간과 관련된 이 옵션 및 기타 옵션에 대한 자세한 내용은 [타임시트 및 시간 환경 설정 구성](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)을 참조하십시오.

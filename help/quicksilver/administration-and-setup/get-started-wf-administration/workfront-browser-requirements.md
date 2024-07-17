@@ -1,8 +1,8 @@
 ---
 content-type: reference
 navigation-topic: get-started-with-workfront
-title: Workfront을 위한 브라우저 요구 사항
-description: 이 문서의 정보가 이동되었습니다. Adobe Workfront 브라우저 요구 사항을 참조하십시오.
+title: Workfront에 대한 브라우저 요구 사항
+description: 이 문서의 정보가 이동되었습니다. Adobe Workfront 브라우저 요구 사항 을 참조하십시오.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -14,8 +14,8 @@ ht-degree: 0%
 
 ---
 
-# Workfront을 위한 브라우저 요구 사항
+# Workfront에 대한 브라우저 요구 사항
 
 >[!NOTE]
 >
->이 문서의 정보가 이동되었습니다. 자세한 내용은 [Adobe Workfront 브라우저 요구 사항](../../workfront-basics/workfront-browser-requirements.md).
+>이 문서의 정보가 이동되었습니다. [Adobe Workfront 브라우저 요구 사항](../../workfront-basics/workfront-browser-requirements.md)을 참조하세요.

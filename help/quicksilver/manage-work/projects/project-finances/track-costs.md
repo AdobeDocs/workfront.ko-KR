@@ -30,13 +30,13 @@ Adobe Workfront에서 프로젝트, 작업 및 문제에 대한 비용을 추적
 
 * 작업의 비용 유형이 시간별 사용자인 경우 사용자 시간당 비율은 작업 및 프로젝트 비용을 계산합니다.
 
-  사용자를 원가율과 연관시키는 방법에 대한 자세한 내용은 다음을 참조하십시오. [사용자 프로필 편집](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  사용자를 비용률과 연결하는 방법에 대한 자세한 내용은 [사용자 프로필 편집](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)을 참조하세요.
 
 * 작업의 비용 유형이 시간별 역할인 경우 작업 역할 시간당 비율은 작업 및 프로젝트 비용을 계산합니다.
 
-  작업 역할과 원가율 연관에 대한 자세한 내용은 다음을 참조하십시오. [작업 역할 만들기 및 관리](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+  작업 역할과 비용 요율을 연결하는 방법에 대한 자세한 내용은 [작업 역할 만들기 및 관리](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)를 참조하십시오.
 
-* Workfront은 문제에 대한 실제 비용만 계산하며, 문제에는 비용 유형이 없습니다. 자세한 내용은 섹션을 참조하십시오 [Workfront에서 문제 비용을 추적하는 방법](#how-workfront-tracks-costs-for-issues) 이 문서에서.
+* Workfront은 문제에 대한 실제 비용만 계산하며, 문제에는 비용 유형이 없습니다. 자세한 내용은 이 문서의 [Workfront에서 문제 비용을 추적하는 방법](#how-workfront-tracks-costs-for-issues) 섹션을 참조하십시오.
 
 >[!TIP]
 >
@@ -47,8 +47,8 @@ Adobe Workfront에서 프로젝트, 작업 및 문제에 대한 비용을 추적
 Workfront은 비용 효율성을 위해 프로젝트를 추적할 수 있도록 프로젝트에 대한 여러 비용 성과 지수를 계산합니다.\
 비용 성과 지표 계산에 대한 자세한 내용은 다음을 참조하십시오.
 
-* [원가 성과 지수(CPI) 계산](../../../manage-work/projects/project-finances/calculate-cpi.md)
-* [CSI(원가 일정 성과 지표) 계산](../../../manage-work/projects/project-finances/calculate-csi.md)
+* [CPI(비용 성과 지표) 계산](../../../manage-work/projects/project-finances/calculate-cpi.md)
+* [CSI(비용 일정 성과 지표) 계산](../../../manage-work/projects/project-finances/calculate-csi.md)
 * [SPI(일정 성과 지수) 계산](../../../manage-work/projects/project-finances/calculate-spi.md)
 
 ## Workfront에서 작업 및 프로젝트 비용을 추적하는 방법
@@ -61,7 +61,7 @@ Workfront에서 작업 및 프로젝트에 대한 여러 유형의 비용을 추
 
 `Costs = Labor Costs + Expense Costs`
 
-* **인건비** 은 작업 및 프로젝트의 시간 및 작업과 연결된 리소스의 시간당 비용 비율과 연결됩니다. 일반적으로 Workfront은 다음과 같은 인건비를 계산합니다.
+* **인건비**&#x200B;는 작업 및 프로젝트의 시간 및 작업과 연결된 리소스의 시간당 비용 비율과 연결됩니다. 일반적으로 Workfront은 다음과 같은 인건비를 계산합니다.
 
   <table style="table-layout:auto"> 
    <col> 
@@ -82,16 +82,16 @@ Workfront에서 작업 및 프로젝트에 대한 여러 유형의 비용을 추
    </tbody> 
   </table>
 
-  자세한 내용은 [Workfront에서 계획, 예산 및 실제 비용을 계산하는 방법](#how-workfront-calculates-planned-budgeted-and-actual-costs) 이 문서의 섹션.
+  자세한 내용은 이 문서의 [Workfront에서 계획된 비용, 예산 비용 및 실제 비용을 계산하는 방법](#how-workfront-calculates-planned-budgeted-and-actual-costs) 섹션을 참조하십시오.
 
-* **경비** 프로젝트 및 작업의 경비와 연결됩니다.\
-  프로젝트를 만들 때 전체 프로젝트에 대해 계획된 비용을 설정할 수 있습니다. 또한 경비를 새 작업이나 기존 작업과 연결할 수 있습니다. 자세한 내용은 [프로젝트 경비 관리](../../../manage-work/projects/project-finances/manage-project-expenses.md).
+* **경비**&#x200B;은(는) 프로젝트 및 작업의 경비와 연결되어 있습니다.\
+  프로젝트를 만들 때 전체 프로젝트에 대해 계획된 비용을 설정할 수 있습니다. 또한 경비를 새 작업이나 기존 작업과 연결할 수 있습니다. 자세한 내용은 [프로젝트 경비 관리](../../../manage-work/projects/project-finances/manage-project-expenses.md)를 참조하십시오.
 
-* **고정 비용** 는 프로젝트에 대한 고정 비용으로 정의됩니다. 이는 프로젝트 계획된 비용의 일부로, 프로젝트를 완료하는 데 필요한 금액을 나타냅니다.
+* **고정 비용**&#x200B;은(는) 프로젝트의 고정 비용으로 정의됩니다. 이는 프로젝트 계획된 비용의 일부로, 프로젝트를 완료하는 데 필요한 금액을 나타냅니다.
 
   >[!TIP]
   >
-  >템플릿을 프로젝트에 첨부할 때 템플릿의 고정 비용이 프로젝트의 고정 비용에 추가됩니다. 자세한 내용은 [프로젝트에 템플릿 첨부 개요](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md).
+  >템플릿을 프로젝트에 첨부할 때 템플릿의 고정 비용이 프로젝트의 고정 비용에 추가됩니다. 자세한 내용은 [프로젝트에 템플릿을 첨부하는 개요](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md)를 참조하십시오.
 
 ### Workfront에서 계획, 예산 및 실제 비용을 계산하는 방법 {#how-workfront-calculates-planned-budgeted-and-actual-costs}
 
@@ -160,7 +160,7 @@ Workfront은 프로젝트의 각 개별 작업에 대한 계획된 비용과 실
 >
 >* 기본적으로 Workfront은 사용자의 시간당 비용 비율을 사용하여 실제 인건비를 계산합니다.
 >* 시간을 기록하는 사용자가 비용과 관련이 없는 경우 Workfront은 사용자의 기본 역할의 시간당 비용 비율을 사용합니다.
->* Workfront 관리자가 **시간 항목에 수동으로 작업 역할 할당** 설정의 타임시트 및 시간 환경 설정 영역에서 을 설정하고 프로젝트의 사용자 로깅 시간이 이 시간과 연결할 다른 역할을 선택하면 프로젝트의 실제 비용은 시간이 기록되었을 때 지정된 역할을 기반으로 계산됩니다. 특정 작업 역할에 대한 로깅 시간 활성화에 대한 자세한 내용은 문서 를 참조하십시오 [타임시트 및 시간 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+>* Workfront 관리자가 설정의 타임시트 및 시간 환경 설정 영역에서 **시간 항목에 수동으로 작업 역할 할당** 설정을 활성화한 경우 프로젝트의 사용자 로깅 시간이 이 시간과 연결할 다른 역할을 선택하면 시간이 기록되었을 때 지정된 역할을 기준으로 프로젝트의 실제 비용이 계산됩니다. 특정 작업 역할에 대한 로깅 시간 활성화에 대한 자세한 내용은 문서 [타임시트 및 시간 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)을 참조하십시오.
 
 ### Workfront에서 작업에 대한 비용 유형을 계산하는 방법 {#how-workfront-calculates-cost-types-for-tasks}
 
@@ -168,7 +168,7 @@ Workfront은 프로젝트의 각 개별 작업에 대한 계획된 비용과 실
 
 프로젝트 내의 개별 작업에 대한 비용 유형을 구성할 수 있습니다. 각 원가 유형은 계획된 원가 및 실제 원가 값에 영향을 줍니다.
 
-작업의 비용 유형을 수정하는 방법에 대한 자세한 내용은 [작업 비용 유형 업데이트](../../../manage-work/tasks/task-information/update-task-cost-type.md).
+작업의 비용 유형을 수정하는 방법에 대한 자세한 내용은 [작업 비용 유형 업데이트](../../../manage-work/tasks/task-information/update-task-cost-type.md)를 참조하십시오.
 
 다음 표에서는 Workfront에서 사용 가능한 작업 비용 유형을 설명합니다.
 
@@ -182,24 +182,24 @@ Workfront은 프로젝트의 각 개별 작업에 대한 계획된 비용과 실
   </tr>
   <tr> 
    <td> <p>시간별 사용자</p> </td> 
-   <td> <p>작업을 생성할 때 기본 원가 유형이 됩니다.</p> <p><strong>계획된 비용</strong> 는 다음 공식으로 계산됩니다. </p> <p><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost + Task Planned Expense Cost</code> </p> <p>계획된 인건비 계산 방법:<br><code>Planned Labor Cost = Planned Hours * Cost per Hour Rate of the User assigned to the task</code></p> <p>참고: <p>사용자 시간당 비용 유형 사용 및 계획된 비용 계산의 영향을 고려하십시오.</p> 
+   <td> <p>작업을 생성할 때 기본 원가 유형이 됩니다.</p> <p><strong>계획된 비용</strong>은(는) 다음 수식으로 계산됩니다. </p> <p><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost + Task Planned Expense Cost</code> </p> <p>계획된 인건비 계산 방법:<br><code>Planned Labor Cost = Planned Hours * Cost per Hour Rate of the User assigned to the task</code></p> <p>참고: <p>사용자 시간당 비용 유형 사용 및 계획된 비용 계산의 영향을 고려하십시오.</p> 
      <ul> 
       <li>작업에 여러 리소스를 할당하면 Workfront은 각 리소스에 할당된 작업의 백분율을 기준으로 계획된 비용에 대한 계산을 조정합니다.</li>
       <li>일자 유효 원가율의 경우, 계획된 인건비는 태스크에 포함된 각 기간의 계획된 원가의 합계입니다.</li>
-      <li>계획된 비용 필드의 값은 계획된 비용을 태스크 자체에서 조회하는지 아니면 활용률 보고서에서 조회하는지에 따라 다를 수 있습니다.<br><strong>작업 자체에서 계획된 비용을 볼 때:</strong> 계획된 비용 필드는 작업 역할 레벨에서 설정된 비용/Hr 필드를 고려합니다(비용/Hr 필드가 사용자 레벨에서 설정되지 않은 경우).<br><strong>프로젝트에 대한 활용성 보고서에서 계획된 원가를 조회할 때</strong> 계획된 비용 필드는 작업 역할 레벨에서 설정된 비용/시간 필드를 고려하지 않습니다. 대신 활용성 보고서에서 작업 역할 레벨에 설정된 비용/시간 필드를 고려하려면 태스크에 대한 비용 유형을 시간별 역할로 설정해야 합니다. </li> 
-     </ul> </p> <p><strong>실제 비용</strong> 는 다음 공식으로 계산됩니다. </p> <p><code style="font-style: normal;">Task Actual Cost = Actual Labor Cost + Task Actual Expense Cost</code> </p> <p>실제 인건비를 계산하는 방법:</p> <p><code>Actual Labor Cost = Actual Hours * Cost per Hour Rate of the User logging the hours</code> </p> <p>예를 들어 사용자의 프로필에서 시간당 비용 비율이 $20입니다. 작업에 대해 5시간을 기록할 때 실제 인건비는 해당 작업에 대해 $100입니다. 사용자에게 시간당 비용 비율이 연결되어 있지 않으면 실제 비용은 기본 작업 역할의 시간당 비용 비율을 기반으로 계산됩니다. 작업 역할이 없거나 작업 역할의 시간당 비용 비율이 정의되지 않은 경우 작업의 실제 비용은 0입니다. </p> <p>주: 실제 비용은 작업에 할당된 사용자에 관계없이 시간을 기록하는 사용자의 시간당 비용을 기준으로 계산됩니다. 또한 공식의 청구 시간당 요금은 요금의 모든 일자 유효 변경 사항을 고려합니다.</p> </td> 
+      <li>계획된 비용 필드의 값은 계획된 비용을 태스크 자체에서 조회하는지 아니면 활용률 보고서에서 조회하는지에 따라 다를 수 있습니다.<br><strong>작업 자체에서 계획된 비용을 볼 때:</strong> 계획된 비용 필드는 작업 역할 수준에서 설정된 비용/시간 필드를 고려합니다(비용/시간 필드가 사용자 수준에서 설정되지 않은 경우).<br><strong>프로젝트의 사용률 보고서에서 계획된 비용을 볼 때:</strong> 계획된 비용 필드는 작업 역할 수준에서 설정된 비용/시간 필드를 고려하지 않습니다. 대신 활용성 보고서에서 작업 역할 레벨에 설정된 비용/시간 필드를 고려하려면 태스크에 대한 비용 유형을 시간별 역할로 설정해야 합니다. </li> 
+     </ul> </p> <p><strong>실제 비용</strong>은(는) 다음 수식으로 계산됩니다. </p> <p><code style="font-style: normal;">Task Actual Cost = Actual Labor Cost + Task Actual Expense Cost</code> </p> <p>실제 인건비를 계산하는 방법:</p> <p><code>Actual Labor Cost = Actual Hours * Cost per Hour Rate of the User logging the hours</code> </p> <p>예를 들어 사용자의 프로필에서 시간당 비용 비율이 $20입니다. 작업에 대해 5시간을 기록할 때 실제 인건비는 해당 작업에 대해 $100입니다. 사용자에게 시간당 비용 비율이 연결되어 있지 않으면 실제 비용은 기본 작업 역할의 시간당 비용 비율을 기반으로 계산됩니다. 작업 역할이 없거나 작업 역할의 시간당 비용 비율이 정의되지 않은 경우 작업의 실제 비용은 0입니다. </p> <p>주: 실제 비용은 작업에 할당된 사용자에 관계없이 시간을 기록하는 사용자의 시간당 비용을 기준으로 계산됩니다. 또한 공식의 청구 시간당 요금은 요금의 모든 일자 유효 변경 사항을 고려합니다.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>시간별 역할</p> </td>
-   <td> <p><strong>계획된 비용</strong> 는 다음 공식으로 계산됩니다. </p> <p><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost+ Task Planned Expense Cost</code> </p> <p>태스크 계획 노무비 계산 방법:</p> <p><code>Task Planned Labor Cost = Planned Hours * Cost per Hour Rate of the Job Role assigned to the task</code> </p> <p>참고: 작업에 여러 리소스를 할당하면 Workfront은 각 리소스에 할당된 작업의 백분율을 기준으로 계획된 시간에 대한 계산을 조정합니다. 또한 공식의 시간별 비율은 비율의 모든 날짜 유효 변경 사항을 고려합니다.</p> <p><strong>실제 비용</strong> 는 다음 공식으로 계산됩니다. </p> <p><code style="font-style: normal;">Task Actual Cost = Task Actual Labor Cost + Task Actual Expense Cost</code> </p> <p>태스크 실제 노무비 계산 기준:</p> <p><code>Task Actual Labor Cost = Actual Hours * Cost per Hour Rate of the Job Role assigned to the task</code> </p> <p>예를 들어 작업 역할이나 시간당 비용 비율이 $20인 작업 역할이 있는 사용자에게 작업이 할당됩니다. 사용자가 작업에 대해 5시간을 기록할 때 실제 인건비는 해당 작업에 대해 $100입니다. 작업에 할당된 사용자에게 작업에 연결된 작업 역할이 없는 경우 실제 비용은 기본 작업 역할의 시간당 비용을 기반으로 계산됩니다. 작업 역할이 없거나 작업 역할의 시간당 비용 비율이 정의되지 않은 경우 작업의 실제 비용은 0입니다. </p> <p>주: 시간별 역할 작업의 실제 시간은 시간을 기록하는 사용자와 연관된 역할이 아니라 작업과 연관된 사용자의 작업 역할을 기준으로 계산됩니다. 또한 공식의 청구 시간당 요금은 요금의 모든 일자 유효 변경 사항을 고려합니다.</p> <p>Workfront 관리자가 <strong>시간 항목에 수동으로 작업 역할 할당</strong> 설정의 [타임시트 및 시간 환경 설정] 영역에서 을 설정하고 작업에 대한 사용자 로깅 시간이 이 시간과 연결할 다른 역할을 선택하면 시간별 역할의 실제 비용은 시간이 기록되었을 때 지정된 역할을 기반으로 계산됩니다. 특정 작업 역할에 대한 로깅 시간 활성화에 대한 자세한 내용은 문서 를 참조하십시오 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref">타임시트 및 시간 환경 설정 구성</a>.</p> </p> </td> 
+   <td> <p><strong>계획된 비용</strong>은(는) 다음 수식으로 계산됩니다. </p> <p><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost+ Task Planned Expense Cost</code> </p> <p>태스크 계획 노무비 계산 방법:</p> <p><code>Task Planned Labor Cost = Planned Hours * Cost per Hour Rate of the Job Role assigned to the task</code> </p> <p>참고: 작업에 여러 리소스를 할당하면 Workfront은 각 리소스에 할당된 작업의 백분율을 기준으로 계획된 시간에 대한 계산을 조정합니다. 또한 공식의 시간별 비율은 비율의 모든 날짜 유효 변경 사항을 고려합니다.</p> <p><strong>실제 비용</strong>은(는) 다음 수식으로 계산됩니다. </p> <p><code style="font-style: normal;">Task Actual Cost = Task Actual Labor Cost + Task Actual Expense Cost</code> </p> <p>태스크 실제 노무비 계산 기준:</p> <p><code>Task Actual Labor Cost = Actual Hours * Cost per Hour Rate of the Job Role assigned to the task</code> </p> <p>예를 들어 작업 역할이나 시간당 비용 비율이 $20인 작업 역할이 있는 사용자에게 작업이 할당됩니다. 사용자가 작업에 대해 5시간을 기록할 때 실제 인건비는 해당 작업에 대해 $100입니다. 작업에 할당된 사용자에게 작업에 연결된 작업 역할이 없는 경우 실제 비용은 기본 작업 역할의 시간당 비용을 기반으로 계산됩니다. 작업 역할이 없거나 작업 역할의 시간당 비용 비율이 정의되지 않은 경우 작업의 실제 비용은 0입니다. </p> <p>주: 시간별 역할 작업의 실제 시간은 시간을 기록하는 사용자와 연관된 역할이 아니라 작업과 연관된 사용자의 작업 역할을 기준으로 계산됩니다. 또한 공식의 청구 시간당 요금은 요금의 모든 일자 유효 변경 사항을 고려합니다.</p> <p>Workfront 관리자가 설정의 타임시트 및 시간 환경 설정 영역에서 <strong>시간 항목에 수동으로 작업 역할 할당</strong> 설정을 사용하도록 설정한 경우 작업에 대한 사용자 로깅 시간이 이 시간과 연결할 다른 역할을 선택하면 시간별 역할 작업의 실제 비용이 시간이 기록될 때 지정된 역할을 기반으로 계산됩니다. 특정 작업 역할에 대한 로깅 시간 활성화에 대한 자세한 내용은 문서 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref">타임시트 및 시간 환경 설정 구성</a>을 참조하십시오.</p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>고정 시간별</p> </td> 
-   <td> <p><strong>계획된 비용</strong> 는 다음 공식으로 계산됩니다.</p> <p><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost + Task Planned Expense Cost</code> </p> <p>태스크 노무비 계산 방법:</p> <p><code>Task Planned Labor Cost = Planned Hours * Fixed Hourly Cost of the Task</code> </p> <p><strong>실제 비용</strong> 는 다음 공식으로 계산됩니다. </p> <p><code style="font-style: normal;">Task Actual Cost = Actual Task Labor Cost + Task Planned Expense Cost</code> </p> <p>실제 태스크 노무비를 계산하는 방법:</p> <p><code>Task Actual Labor Cost = Actual Hours * Fixed Hourly Cost of the Task</code> </p> <p>이 비용 유형은 개별 사용자 또는 작업 역할을 고려하지 않습니다.</p> </td> 
+   <td> <p><strong>계획된 비용</strong>은(는) 다음 수식으로 계산됩니다.</p> <p><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost + Task Planned Expense Cost</code> </p> <p>태스크 노무비 계산 방법:</p> <p><code>Task Planned Labor Cost = Planned Hours * Fixed Hourly Cost of the Task</code> </p> <p><strong>실제 비용</strong>은(는) 다음 수식으로 계산됩니다. </p> <p><code style="font-style: normal;">Task Actual Cost = Actual Task Labor Cost + Task Planned Expense Cost</code> </p> <p>실제 태스크 노무비를 계산하는 방법:</p> <p><code>Task Actual Labor Cost = Actual Hours * Fixed Hourly Cost of the Task</code> </p> <p>이 비용 유형은 개별 사용자 또는 작업 역할을 고려하지 않습니다.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>비용 없음</p> </td> 
-   <td> <p>이 원가 유형은 원가에 영향을 주지 않습니다. 상위 태스크에 이 원가 유형이 있는 경우 다른 원가 유형이 있는 하위 태스크는 개별 원가 유형에 따라 계산되며 상위 태스크의 원가가 그에 따라 영향을 받습니다. </p> <p>재무 데이터에 대한 액세스 권한이 없는 사용자 또는 템플릿에 대한 재무 권한이 없는 사용자가 해당 템플릿에서 프로젝트를 만들 때 프로젝트의 작업에 대한 기본 비용 유형이 됩니다.</p> <p>재무 데이터 액세스에 대한 자세한 내용은 문서 를 참조하십시오 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">재무 데이터에 대한 액세스 권한 부여</a>.</p> <p>개체에 대한 재무 권한에 대한 자세한 내용은 문서 를 참조하십시오 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">개체에 대한 재무 권한 공유</a>.</p> <p>템플릿으로 프로젝트를 만드는 방법에 대한 자세한 내용은 문서 를 참조하십시오 <a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">템플릿을 사용하여 프로젝트 만들기</a>.</p> </td> 
+   <td> <p>이 원가 유형은 원가에 영향을 주지 않습니다. 상위 태스크에 이 원가 유형이 있는 경우 다른 원가 유형이 있는 하위 태스크는 개별 원가 유형에 따라 계산되며 상위 태스크의 원가가 그에 따라 영향을 받습니다. </p> <p>재무 데이터에 대한 액세스 권한이 없는 사용자 또는 템플릿에 대한 재무 권한이 없는 사용자가 해당 템플릿에서 프로젝트를 만들 때 프로젝트의 작업에 대한 기본 비용 유형이 됩니다.</p> <p>재무 데이터에 대한 액세스 정보는 문서 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">재무 데이터에 대한 액세스 권한 부여</a>를 참조하십시오.</p> <p>개체에 대한 재무 사용 권한에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">개체에 대한 재무 사용 권한 공유</a> 문서를 참조하십시오.</p> <p>템플릿으로 프로젝트를 만드는 방법에 대한 자세한 내용은 문서 <a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">템플릿을 사용하여 프로젝트 만들기</a>를 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -211,7 +211,7 @@ Workfront은 프로젝트의 각 개별 작업에 대한 계획된 비용과 실
 * 계획된 비용
 * 예산 비용
 
-그러나 문제에는 **실제 비용**: 프로젝트의 실제 비용에도 영향을 줍니다.
+그러나 문제에는 **실제 비용**&#x200B;이 있을 수 있으며, 이는 프로젝트의 실제 비용에도 영향을 줍니다.
 
 다음 표에서는 문제에 대한 할당 유형에 따라 문제에 대한 실제 비용이 계산되는 방식을 설명합니다.
 
@@ -221,15 +221,15 @@ Workfront은 프로젝트의 각 개별 작업에 대한 계획된 비용과 실
  <tbody> 
   <tr> 
    <td> <p>사용자 할당</p> <p> </p> </td> 
-   <td colspan="3"> <p><strong>실제 비용</strong> 는 다음 공식으로 계산됩니다.</p> <p><code style="font-style: normal;">Issue Actual Cost = Actual Hours * Cost per Hour rate of the user logging the hours</code> </p> <p>문제에 할당된 사용자와 관계없이 시간을 기록하는 사용자의 시간당 비용 요금 이 여기에서 고려됩니다. </p> <p>시간을 기록하는 사용자가 프로필에 시간당 비용 비율이 없는 경우 기본 작업 역할의 시간당 비용 비율은 문제의 실제 비용을 계산합니다.</p> <p>시간을 기록 중인 사용자가 프로필에 역할이 없거나 연결된 요금이 없는 경우 문제에 대한 기본 피할당자의 기본 작업 역할의 시간당 비용 요금을 사용하여 실제 시간이 계산됩니다. 해당 역할에 정의된 비율이 없으면 문제의 실제 비용은 0입니다. </p> </td> 
+   <td colspan="3"> <p><strong>실제 비용</strong>은(는) 다음 수식으로 계산됩니다.</p> <p><code style="font-style: normal;">Issue Actual Cost = Actual Hours * Cost per Hour rate of the user logging the hours</code> </p> <p>문제에 할당된 사용자와 관계없이 시간을 기록하는 사용자의 시간당 비용 요금 이 여기에서 고려됩니다. </p> <p>시간을 기록하는 사용자가 프로필에 시간당 비용 비율이 없는 경우 기본 작업 역할의 시간당 비용 비율은 문제의 실제 비용을 계산합니다.</p> <p>시간을 기록 중인 사용자가 프로필에 역할이 없거나 연결된 요금이 없는 경우 문제에 대한 기본 피할당자의 기본 작업 역할의 시간당 비용 요금을 사용하여 실제 시간이 계산됩니다. 해당 역할에 정의된 비율이 없으면 문제의 실제 비용은 0입니다. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>역할 할당</p> <p> </p> </td> 
-   <td colspan="3"> <p><strong>실제 비용</strong> 는 다음 공식으로 계산됩니다.</p><code>Issue Actual Cost = Actual Hours * Cost per Hour Rate of user logging the hours</code> <p>문제에 할당된 역할에 관계없이 문제에 시간을 기록하는 사용자의 시간당 비용 비율이 여기에서 고려됩니다. </p> <p>시간을 기록하는 사용자에게 시간당 비용 비율이 연결되어 있지 않으면 기본 역할의 시간당 비용 비율은 문제의 실제 비용을 계산합니다.</p><p>시간을 기록하는 사용자가 프로필에 역할이 없거나 연결된 요금이 없는 경우 문제의 실제 비용은 0입니다. </p> </td> 
+   <td colspan="3"> <p><strong>실제 비용</strong>은(는) 다음 수식으로 계산됩니다.</p><code>Issue Actual Cost = Actual Hours * Cost per Hour Rate of user logging the hours</code> <p>문제에 할당된 역할에 관계없이 문제에 시간을 기록하는 사용자의 시간당 비용 비율이 여기에서 고려됩니다. </p> <p>시간을 기록하는 사용자에게 시간당 비용 비율이 연결되어 있지 않으면 기본 역할의 시간당 비용 비율은 문제의 실제 비용을 계산합니다.</p><p>시간을 기록하는 사용자가 프로필에 역할이 없거나 연결된 요금이 없는 경우 문제의 실제 비용은 0입니다. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>할당 없음</p> <p> </p> </td> 
-   <td colspan="3"> <p><strong>실제 비용</strong> 는 다음 공식으로 계산됩니다.</p> <p><code>Issue Actual Cost = Actual Hours * Cost per Hour rate of the user logging the hours</code> </p> <p>시간을 기록하는 사용자에게 프로필과 연계된 시간당 비용 비율이 없는 경우 기본 작업 역할의 시간당 비용 비율은 문제의 실제 비용을 계산합니다. </p> <p>시간을 기록하는 사용자에게 프로필과 연결된 작업 역할이 없거나 기본 작업 역할에 시간당 비용이 정의되어 있지 않으면 문제의 실제 비용은 0입니다. </p> </td> 
+   <td colspan="3"> <p><strong>실제 비용</strong>은(는) 다음 수식으로 계산됩니다.</p> <p><code>Issue Actual Cost = Actual Hours * Cost per Hour rate of the user logging the hours</code> </p> <p>시간을 기록하는 사용자에게 프로필과 연계된 시간당 비용 비율이 없는 경우 기본 작업 역할의 시간당 비용 비율은 문제의 실제 비용을 계산합니다. </p> <p>시간을 기록하는 사용자에게 프로필과 연결된 작업 역할이 없거나 기본 작업 역할에 시간당 비용이 정의되어 있지 않으면 문제의 실제 비용은 0입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

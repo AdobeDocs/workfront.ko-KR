@@ -31,4 +31,4 @@ Desktop Proofing Viewer가 버전 2.1.24로 업데이트되었습니다. 이 업
 * 선택하면 이제 주석에 연결된 마크업이 올바르게 표시됩니다.
 * 이제 증명 역할 및 이메일 경고에 대한 드롭다운이 예상대로 작동합니다.
 
-업데이트 다운로드에 대한 자세한 내용은 [Desktop Proofing 뷰어 업데이트](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).
+업데이트 다운로드에 대한 자세한 내용은 [Desktop Proofing Viewer 업데이트](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)를 참조하십시오.

@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: 2018.2 베타 최종 릴리스 활동
-description: 이 페이지에서는 2018.2 Beta 최종 릴리스가 포함된 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 기능은 2018년 6월 20일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2018년 7월에 사용할 수 있습니다.
+title: 2018.2 Beta 최종 릴리스 활동
+description: 이 페이지에서는 2018.2 Beta 최종 릴리스의 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 기능은 2018년 6월 20일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2018년 7월에 사용할 수 있습니다.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 ---
 
-# 2018.2 베타 최종 릴리스 활동
+# 2018.2 Beta 최종 릴리스 활동
 
-이 페이지에서는 2018.2 Beta 최종 릴리스가 포함된 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 기능은 2018년 6월 20일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2018년 7월에 사용할 수 있습니다.
+이 페이지에서는 2018.2 Beta 최종 릴리스의 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 기능은 2018년 6월 20일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2018년 7월에 사용할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -26,12 +26,12 @@ ht-degree: 0%
 
 18.2 프로덕션 릴리스 당시 다음과 같은 새로운 기능이 릴리스됩니다.
 
-* [Workfront 이메일 알림에 회신할 메일 게재 서비스 지정](#specify-mail-delivery-services-for-replying-to-workfront-email-notifications)
-* [문서에 대한 댓글에 대한 이메일 알림 수신](#receive-email-notifications-for-comments-on-documents)
-* [시스템 추적 업데이트에 더 이상 아이콘이 없음](#system-tracked-updates-no-longer-contain-an-icon)
+* [Workfront 이메일 알림에 회신할 메일 배달 서비스 지정](#specify-mail-delivery-services-for-replying-to-workfront-email-notifications)
+* [문서에 대한 댓글에 대한 전자 메일 알림 받기](#receive-email-notifications-for-comments-on-documents)
+* [시스템 추적 업데이트에 더 이상 아이콘이 없습니다](#system-tracked-updates-no-longer-contain-an-icon)
 * [댓글을 작업으로 변환하는 옵션이 제거되었습니다.](#option-to-convert-a-comment-to-a-task-was-removed)
-* [Salesforce용 Workfront](#workfront-for-salesforce)
-* [Slack 개선을 위한 Workfront](#workfront-for-slack-improvements)
+* Salesforce용 [Workfront](#workfront-for-salesforce)
+* Slack 개선을 위한 [Workfront](#workfront-for-slack-improvements)
 * [모바일 개선 사항](#mobile-improvements)
 
 ## Workfront 이메일 알림에 회신할 메일 게재 서비스 지정 {#specify-mail-delivery-services-for-replying-to-workfront-email-notifications}
@@ -50,7 +50,7 @@ POP 이메일 계정 구성에 대한 자세한 내용은 을 참조하십시오
 
 이 변경 이전에는 다른 사용자가 내가 소유한 문서에 주석을 남겼을 때 알림이 수신되지 않았습니다. 
 
-자세한 내용은 [이메일 알림 수정](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+자세한 내용은 [전자 메일 알림 수정](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)을 참조하세요.
 
 >[!NOTE]
 >
@@ -62,7 +62,7 @@ Workfront 시스템에서 오브젝트(예: 프로젝트 내)의 업데이트 �
 
 이 변경 전에 수행된 업데이트를 나타내는 아이콘도 모든 시스템 업데이트에 포함되었습니다.
 
-시스템 업데이트에 대한 자세한 내용은 [시스템 추적 업데이트](../../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+시스템 업데이트에 대한 자세한 내용은 [시스템 추적 업데이트](../../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)를 참조하십시오.
 
 ## 댓글을 작업으로 변환하는 옵션이 제거되었습니다. {#option-to-convert-a-comment-to-a-task-was-removed}
 
@@ -93,7 +93,7 @@ Slack에서 게재되도록 다음 Workfront 알림을 구성할 수도 있습�
 
 이 개선 이전에는 Slack에서 Workfront 알림을 받을 수 없었습니다.
 
-Slack의 Workfront 알림에 대한 자세한 내용은 [Slack에서 Adobe Workfront 알림 수신](../../../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md).
+Slack의 Workfront 알림에 대한 자세한 내용은 [Slack에서 Adobe Workfront 알림 받기](../../../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md)를 참조하십시오.
 
 ## 모바일 개선 사항 {#mobile-improvements}
 
@@ -113,10 +113,10 @@ Slack의 Workfront 알림에 대한 자세한 내용은 [Slack에서 Adobe Workf
 
   이 기능은 iOS 모바일 앱에서만 사용할 수 있습니다.
 
-다음 기능은 Workfront 모바일 앱의 Android 베타 버전에 이미 출시되었으며, 공개 Android 및 iOS 모바일 앱에도 출시되고 있습니다. iOS 플랫폼용 경험에는 이미 릴리스된 Android 경험과 다음과 같은 차이점이 포함되어 있습니다.
+다음 기능은 Workfront 모바일 앱의 Android Beta 버전에 이미 출시되었으며, 공개 Android 및 iOS 모바일 앱에도 출시되고 있습니다. iOS 플랫폼에 대한 경험에는 이미 릴리스된 Android 경험과 다음과 같은 차이점이 포함되어 있습니다.
 
 * iOS의 새로운 하단 탐색 모음 
 
 * iOS용 새로운 튜토리얼 환경 
 
-이러한 기능에 대한 자세한 내용과 이를 보여 주는 비디오를 보려면 다음을 참조하십시오. [2018.2 베타 4 릴리스 활동](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md) 및 [2018.2 베타 5 릴리스 활동](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md).
+이러한 기능에 대한 자세한 정보와 이를 보여 주는 비디오를 보려면 [2018.2 Beta 4 릴리스 활동](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md) 및 [2018.2 Beta 5 릴리스 활동](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md)을 참조하십시오.

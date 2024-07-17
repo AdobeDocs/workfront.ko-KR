@@ -26,7 +26,7 @@ ht-degree: 0%
 
      또는
 
-     Prime 또는 Select Adobe Workfront 플랜에 대한 Adobe Workfront Goals에 대한 추가 라이센스입니다. 자세한 내용은 [Adobe Workfront 플랜](https://www.workfront.com/plans).
+     Prime 또는 Select Adobe Workfront 플랜에 대한 Adobe Workfront Goals에 대한 추가 라이센스입니다. 자세한 내용은 [Adobe Workfront 계획](https://www.workfront.com/plans)을 참조하세요.
 
 * 현재 플랜 및 라이선스 구조의 경우:
 
@@ -43,5 +43,5 @@ Workfront 목표에 대한 진행률을 기록하려면 진행 표시기를 목�
 * [Adobe Workfront 목표의 목표에 활동 추가](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
 * [Adobe Workfront 목표의 목표에 결과 추가](../../workfront-goals/results-and-activities/add-results-to-goals.md)
 * [Adobe Workfront 목표의 목표에 프로젝트 추가](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)
-* [Adobe Workfront 목표에서 결과 및 활동 편집](../../workfront-goals/results-and-activities/edit-results-and-activities.md)
+* [Adobe Workfront 목표의 결과 및 활동 편집](../../workfront-goals/results-and-activities/edit-results-and-activities.md)
 * [Adobe Workfront 목표의 목표에서 결과, 활동 및 프로젝트 제거](../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md)

@@ -10,7 +10,7 @@ recommendations: noDisplay, noCatalog
 exl-id: c374416e-9680-4725-ab2d-256dff6f03b1
 source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
@@ -19,12 +19,12 @@ ht-degree: 0%
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [설정 [!DNL Adobe Workfront for Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
-* [다음에 대한 권한 수준: [!DNL Workfront for Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/permissions-in-workfront-for-outlook.md)
-* [의 댓글에 회신 [!DNL Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/reply-to-a-comment-from-outlook.md)
-* [에서 기존 개체 업데이트 [!DNL Outlook] 이메일](../../workfront-integrations-and-apps/using-workfront-with-outlook/update-an-existing-object-from-an-outlook-email.md)
-* [추가 [!DNL Outlook] 작업 또는 문제로 프로젝트에 이메일 보내기](../../workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-to-project-as-task-or-issue.md)
-* [만들기 [!DNL Adobe Workfront] 의 요청 [!DNL Outlook] 이메일](../../workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md)
-* [추가 [!DNL Outlook] 작업 목록에 작업으로 전자 메일 보내기](../../workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-as-task-to-your-work-list.md)
-* [에 대한 추가 정보 보기 [!DNL Adobe Workfront for Outlook] 및 로그아웃](../../workfront-integrations-and-apps/using-workfront-with-outlook/view-additional-infor-wf-outlook-and-log-out.md)
-* [사용 [!DNL Outlook for Office] (와 함께 사용) [!DNL Adobe Workfront] 및 SAML 2.0](../../workfront-integrations-and-apps/using-workfront-with-outlook/enable-outlook-for-office-for-use-with-wf-and-saml-2.md)
+* [ [!DNL Adobe Workfront for Outlook] 설정](../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
+* [ [!DNL Workfront for Outlook]에 대한 권한 수준](../../workfront-integrations-and-apps/using-workfront-with-outlook/permissions-in-workfront-for-outlook.md)
+* [ [!DNL Outlook]의 댓글에 회신](../../workfront-integrations-and-apps/using-workfront-with-outlook/reply-to-a-comment-from-outlook.md)
+* [ [!DNL Outlook] 전자 메일에서 기존 개체 업데이트](../../workfront-integrations-and-apps/using-workfront-with-outlook/update-an-existing-object-from-an-outlook-email.md)
+* [프로젝트에 작업 또는 문제로  [!DNL Outlook] 이메일 추가](../../workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-to-project-as-task-or-issue.md)
+* [ [!DNL Outlook] 전자 메일에서  [!DNL Adobe Workfront] 요청 만들기](../../workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md)
+* [ [!DNL Outlook] 전자 메일을 작업 목록에 작업으로 추가](../../workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-as-task-to-your-work-list.md)
+* [ [!DNL Adobe Workfront for Outlook] 에 대한 추가 정보 보기 및 로그아웃](../../workfront-integrations-and-apps/using-workfront-with-outlook/view-additional-infor-wf-outlook-and-log-out.md)
+* [ [!DNL Adobe Workfront]  및 SAML 2.0과 함께 사용하려면  [!DNL Outlook for Office] 을(를) 활성화하십시오.](../../workfront-integrations-and-apps/using-workfront-with-outlook/enable-outlook-for-office-for-use-with-wf-and-saml-2.md)

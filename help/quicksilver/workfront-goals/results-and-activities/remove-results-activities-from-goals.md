@@ -30,7 +30,7 @@ ht-degree: 0%
 
 목표는 또한 부모 목표와 일치하여 자식 목표가 될 수 있습니다. 하위 목표도 상위 목표의 진행 지표이다.
 
-목표 사이의 연결을 제거하여 목표 사이의 정렬을 제거할 수 있습니다. 자세한 내용은 [Adobe Workfront 목표에서 목표 정렬 제거](../goal-alignment/remove-goal-alignment.md).
+목표 사이의 연결을 제거하여 목표 사이의 정렬을 제거할 수 있습니다. 자세한 내용은 [Adobe Workfront 목표에서 목표 정렬 제거](../goal-alignment/remove-goal-alignment.md)를 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -59,7 +59,7 @@ ht-degree: 0%
  <td>
  <p>새 라이선스: 기여자 이상</p>
  또는
- <p>현재 라이선스: 요청 이상</p> <p>자세한 내용은 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront 라이선스 개요</a>.</p> </td>
+ <p>현재 라이선스: 요청 이상</p> <p>자세한 내용은 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront 라이선스 개요</a>를 참조하십시오.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">제품*</td>
@@ -69,7 +69,7 @@ ht-degree: 0%
 <li>Select 또는 Prime Adobe Workfront 플랜 및 추가 Adobe Workfront Goals 라이선스.</li>
 <li>기본적으로 Workfront 목표를 포함하는 Ultimate Workfront 계획입니다. </li></ul>
  <p>또는</p>
- <p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표 사용 요구 사항</a>. </p> </td>
+ <p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표를 사용하기 위한 요구 사항</a>을 참조하십시오. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">액세스 수준</td>
@@ -81,7 +81,7 @@ ht-degree: 0%
   <div>
   <p>목표에 대한 또는 그 이상의 권한에 대한 보기</p>
   <p>편집할 목표에 대한 권한 관리</p>
-  <p>목표 공유에 대한 자세한 내용은 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront 목표에서 목표 공유</a>. </p>
+  <p>목표 공유에 대한 자세한 내용은 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront 목표에서 목표 공유</a>를 참조하십시오. </p>
   </div> </td>
  </tr>
  <tr>
@@ -92,7 +92,7 @@ ht-degree: 0%
 </tbody>
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## 전제 조건
 
@@ -105,7 +105,7 @@ ht-degree: 0%
 * 목표에서 결과나 활동을 제거하면 제거된 결과나 활동의 진행 상황이 목표의 전체 진행 상황에 영향을 줍니다.
 * 목표에서 프로젝트를 삭제할 수는 없지만 목표에서 연결을 끊을 수는 있습니다. 목표에서 프로젝트의 연결을 해제하면 프로젝트의 완료율이 더 이상 목표의 진행에 영향을 주지 않습니다.
 
-  프로젝트가 목표 진행에 미치는 영향에 대한 자세한 내용은 [Adobe Workfront 목표의 목표에 프로젝트 추가](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+  프로젝트가 목표 진행에 미치는 영향에 대한 자세한 내용은 [Adobe Workfront 목표의 목표에 프로젝트 추가](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)를 참조하십시오.
 
 * 목표에서 결과나 활동을 제거할 수 없으며, 목표에 대한 마지막 진행 표시자인 경우 하위 목표나 프로젝트의 연결을 끊을 수 없습니다.
 * 프로젝트가 프로젝트 영역에서 삭제되고 목표의 마지막 진행 표시기이면 목표가 비활성 상태가 됩니다.
@@ -141,7 +141,7 @@ How you delete results and activities differs depending on the environment you u
 
 -->
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) 오른쪽 상단에서 을(를) 클릭한 다음 **목표**.
+1. 오른쪽 상단의 **주 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **목표**&#x200B;를 클릭합니다.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -151,11 +151,11 @@ How you delete results and activities differs depending on the environment you u
 
    목표 페이지가 열립니다.
 
-1. 클릭 **진행 표시기** 왼쪽 패널에서
+1. 왼쪽 패널에서 **진행률 표시기**&#x200B;를 클릭합니다.
 
-1. 결과 또는 활동을 선택한 다음 **삭제** 아이콘 ![](assets/delete-icon.png) 목록의 맨 위에 있습니다.
+1. 결과 또는 활동을 선택한 다음 목록 맨 위에 있는 **삭제** 아이콘 ![](assets/delete-icon.png)을(를) 클릭합니다.
 
-1. 클릭 **삭제** 삭제 확인. 결과 또는 활동이 삭제되며 복구할 수 없습니다. 목표 완료율이 업데이트되어 삭제된 활동 또는 결과가 제외됩니다.
+1. **삭제**&#x200B;를 클릭하여 삭제를 확인합니다. 결과 또는 활동이 삭제되며 복구할 수 없습니다. 목표 완료율이 업데이트되어 삭제된 활동 또는 결과가 제외됩니다.
 
 
 ## 목표에서 프로젝트 제거
@@ -186,7 +186,7 @@ Dsconnecting projects from goals differs depending on the environment you use.
 -->
 
 
-1. 다음을 클릭합니다. **메인 메뉴** 오른쪽 위 모서리에서 아이콘을 클릭한 다음 **목표**.
+1. 오른쪽 상단의 **주 메뉴** 아이콘을 클릭한 다음 **목표**&#x200B;를 클릭합니다.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -196,9 +196,9 @@ Dsconnecting projects from goals differs depending on the environment you use.
 1. 결과 및 활동을 제거할 목표의 이름을 클릭합니다.
 
    목표 페이지가 열립니다.
-1. 클릭 **진행 표시기** 왼쪽 패널에서
-1. 프로젝트를 선택한 다음 **연결 해제** 아이콘 ![](assets/disconnect-icon.png) 목록의 맨 위에 있습니다.
-1. 클릭 **연결 해제** 확인할 수 있습니다.
+1. 왼쪽 패널에서 **진행률 표시기**&#x200B;를 클릭합니다.
+1. 프로젝트를 선택한 다음 목록 맨 위에 있는 **연결 끊기** 아이콘 ![](assets/disconnect-icon.png)을(를) 클릭합니다.
+1. 확인하려면 **연결 끊기**&#x200B;를 클릭하세요.
 
    프로젝트가 더 이상 목표에 연결되지 않습니다. 연결이 끊어진 프로젝트를 제외하기 위한 목표 업데이트의 완료율입니다.
 

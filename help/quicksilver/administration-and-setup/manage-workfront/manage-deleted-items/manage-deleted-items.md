@@ -11,7 +11,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 6b76ff52-2809-4d11-aeb0-a328e1efc489
 source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '72'
 ht-degree: 0%
 
 ---
@@ -22,5 +22,5 @@ ht-degree: 0%
 
 * [삭제된 항목 복원](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)
 * [복원된 항목 보기](../../../administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)
-* [오브젝트가 삭제되고 복원될 때 시간에 대한 영향 구성](../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md)
+* [개체가 삭제되고 복원될 때 시간에 영향을 미치도록 구성](../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md)
 * [개별 하위 객체 복원](../../../administration-and-setup/manage-workfront/manage-deleted-items/restoring-individual-child-objects.md)

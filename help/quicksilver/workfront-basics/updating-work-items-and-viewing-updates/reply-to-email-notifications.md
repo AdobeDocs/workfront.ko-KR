@@ -70,7 +70,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오. 자세한 내용은 [Workfront 설명서에 대한 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오. 자세한 내용은 [Workfront 설명서에 대한 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## 이메일 알림에서 업데이트에 회신
 
@@ -79,15 +79,15 @@ ht-degree: 1%
 1. Workfront의 업데이트로 생성된 이메일 알림을 엽니다.
 
    ![email.png](assets/email-350x202.png)
-1. 클릭 **댓글** 이메일 알림에서.
+1. 전자 메일 알림에서 **댓글**&#x200B;을 클릭합니다.
 
    개체에 대한 세부 정보 페이지가 Workfront에서 열립니다.
 
 1. 회신을 추가할 업데이트로 이동합니다.
 
-   대화에 적극적으로 참여하는 사용자를 보는 것 외에도 해당 업데이트 스레드의 맨 위에서 각 회신에서 누가 태그 지정되었는지 확인할 수 있습니다. 이러한 사용자는 오브젝트에 가입된 사용자와 함께 오브젝트에 대한 업데이트나 회신이 있을 때마다 알림을 받습니다. 더 많은 사용자에 태그를 지정하려면 다음을 참조하십시오. [업데이트에 다른 사용자 태그 지정](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   대화에 적극적으로 참여하는 사용자를 보는 것 외에도 해당 업데이트 스레드의 맨 위에서 각 회신에서 누가 태그 지정되었는지 확인할 수 있습니다. 이러한 사용자는 오브젝트에 가입된 사용자와 함께 오브젝트에 대한 업데이트나 회신이 있을 때마다 알림을 받습니다. 더 많은 사용자를 태그 지정하려면 [업데이트에 다른 사용자 태그 지정](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)을 참조하세요.
 
-1. 클릭 **회신,** 답글을 입력한 다음 **답변**.
+1. **회신,**&#x200B;을 클릭하고 회신을 입력한 다음 **회신**&#x200B;을 클릭합니다.
 
    답글이 댓글 달기 스레드에 새 댓글로 추가됩니다.
 

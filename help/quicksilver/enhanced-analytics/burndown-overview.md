@@ -56,11 +56,11 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## 전제 조건
 
-Enhanced Analytics를 사용하기 위한 사전 요구 사항은 의 &quot;사전 요구 사항&quot; 섹션을 참조하십시오. [향상된 분석 개요](../enhanced-analytics/enhanced-analytics-overview.md).
+향상된 Analytics를 사용하기 위한 전제 조건은 [향상된 Analytics 개요](../enhanced-analytics/enhanced-analytics-overview.md)의 &quot;전제 조건&quot; 섹션을 참조하십시오.
 
 ## 번다운 시각화 이해
 
@@ -74,7 +74,7 @@ Enhanced Analytics를 사용하기 위한 사전 요구 사항은 의 &quot;사�
 
   ![대상](assets/burndown-green.png)
 
-* **주황**: 프로젝트가 위험에 처했습니다.
+* **주황**: 프로젝트가 위험합니다.
 
   ![위험 상태](assets/burndown-orange.png)
 
@@ -82,7 +82,7 @@ Enhanced Analytics를 사용하기 위한 사전 요구 사항은 의 &quot;사�
 
   ![문제 발생](assets/burndown-red.png)
 
-이러한 프로젝트 조건에 대한 자세한 내용은 [프로젝트 상태 및 상태 유형 개요](../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
+이러한 프로젝트 상태에 대한 자세한 내용은 [프로젝트 상태 및 상태 형식 개요](../manage-work/projects/manage-projects/project-condition-and-condition-type.md)를 참조하십시오.
 
 실제 선이 수직으로 위로 이동하면 프로젝트에 작업이 추가되었습니다. 선이 수직으로 아래로 이동하면 프로젝트에 대한 작업이 제거되거나 완료된 것입니다.
 
@@ -94,7 +94,7 @@ Enhanced Analytics를 사용하기 위한 사전 요구 사항은 의 &quot;사�
 * 문제 발생(또는 계획되지 않은 작업)이 계획된 작업에 미치는 영향
 * 원래 완료 일자 이후에 프로젝트를 연장한 이벤트는 무엇입니까?
 
-이 시각화에 대한 최상의 데이터를 얻는 방법에 대해 알아보려면 다음을 참조하십시오. [향상된 분석 개요](../enhanced-analytics/enhanced-analytics-overview.md).
+이 시각화에 가장 적합한 데이터를 얻는 방법에 대해 알아보려면 [향상된 분석 개요](../enhanced-analytics/enhanced-analytics-overview.md)를 참조하십시오.
 
 ## 번다운 시각화 보기
 
@@ -104,11 +104,11 @@ Enhanced Analytics를 사용하기 위한 사전 요구 사항은 의 &quot;사�
 
    ![날짜 선택](assets/filters-select-date-range-350x344.png)
 
-   날짜 범위 필터 사용에 대한 자세한 내용은 [향상된 분석에서 필터 적용](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   날짜 범위 필터 사용에 대한 자세한 내용은 [향상된 분석에서 필터 적용](../enhanced-analytics/use-enhanced-analytics-filters.md)을 참조하십시오.
 
 1. (조건부) 프로젝트 데이터 세트를 제한해야 하는 경우 사용할 필터를 선택하고 적용합니다.
 
-   향상된 분석에서 필터를 추가하는 방법에 대한 자세한 내용은 [향상된 분석에서 필터 적용](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   향상된 분석에서 필터를 추가하는 방법에 대한 자세한 내용은 [향상된 분석에서 필터 적용](../enhanced-analytics/use-enhanced-analytics-filters.md)을 참조하십시오.
 
    필터를 추가하면 최대 50개의 프로젝트에 대한 데이터가 표시되고 페이지를 떠나거나 Workfront에서 로그아웃한 후에도 필터가 활성 상태로 유지됩니다.
 
@@ -131,15 +131,15 @@ Enhanced Analytics를 사용하기 위한 사전 요구 사항은 의 &quot;사�
    >   * [향상된 분석에서 진행 중인 작업 시각화 보기](../enhanced-analytics/tasks-in-flight-overview.md)
    >
 
-1. (선택 사항) 보기를 계획된 시간에서 (으)로 변경 **지속 시간**.
+1. (선택 사항) 보기를 계획된 시간에서 **지속 시간**(으)로 변경합니다.
 
    계획된 시간이 기본적으로 선택됩니다.
 
    >[!NOTE]
    >
-   >선택 **지속 시간** 모든 시간 정보를 일로 변경합니다.\
+   >**지속 시간**&#x200B;을 선택하면 모든 시간 정보가 일로 변경됩니다.\
    >![기간 번다운](assets/duration-burndown-350x112.png)\
-   >Enhanced Analytics 영역의 기간에 대한 자세한 내용은 의 &quot;기간 보기&quot; 섹션을 참조하십시오 [향상된 분석 개요](../enhanced-analytics/enhanced-analytics-overview.md#duration-view).
+   >향상된 분석 영역의 기간에 대한 자세한 내용은 [향상된 분석 개요](../enhanced-analytics/enhanced-analytics-overview.md#duration-view)의 &quot;기간 보기&quot; 섹션을 참조하십시오.
 
 1. 선 그래프의 임의의 점을 클릭합니다.
 
@@ -152,9 +152,9 @@ Enhanced Analytics를 사용하기 위한 사전 요구 사항은 의 &quot;사�
    >실제 속도가 시각화의 x축(0시간 또는 0일로 인라인)을 따라 실행되는 플랫 라인인 경우 프로젝트에 계획된 시간(또는 일)이 추가되지 않았음을 의미합니다.\
    >실제 속도가 x축(시간 또는 일 수로 인라인됨) 위에 절대 내려가지 않는 플랫 라인인 경우 이는 필터링된 기간 내에 작업이 완료되지 않았음을 의미합니다.
 
-1. (선택 사항) 시각화 데이터를 내보내려면 **내보내기** 아이콘 ![내보내기 아이콘](assets/export.png) 시각화의 오른쪽 상단 모서리에서 내보내기 형식을 선택합니다.
+1. (선택 사항) 시각화 데이터를 내보내려면 시각화의 오른쪽 상단에 있는 **내보내기** 아이콘 ![내보내기 아이콘](assets/export.png)을 클릭하고 내보내기 형식을 선택합니다.
 
    * 차트(PNG)
    * 데이터 테이블(XSLX)
 
-1. (선택 사항) 선택한 프로젝트에서 작업의 진행 상황에 대한 세부 정보를 보려면 번다운 시각화 아래에 표시되는 진행 중인 작업 시각화를 참조하십시오. 자세한 내용은 [향상된 분석에서 진행 중인 작업 시각화 보기](/help/quicksilver/enhanced-analytics/tasks-in-flight-overview.md).
+1. (선택 사항) 선택한 프로젝트에서 작업의 진행 상황에 대한 세부 정보를 보려면 번다운 시각화 아래에 표시되는 진행 중인 작업 시각화를 참조하십시오. 자세한 내용은 [향상된 분석에서 진행 중인 작업 시각화 보기](/help/quicksilver/enhanced-analytics/tasks-in-flight-overview.md)를 참조하십시오.

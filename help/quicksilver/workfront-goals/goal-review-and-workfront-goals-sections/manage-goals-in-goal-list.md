@@ -17,7 +17,7 @@ ht-degree: 2%
 
 <!-- printing or exporting goals is no longer possible, but see if they add it later-->
 
-귀하 또는 다른 사용자가 목표를 만든 후 목표 목록에서 진행 상황과 정보를 검토할 수 있습니다. 목표 작성에 대한 자세한 내용은 [Adobe Workfront 목표에서 목표 만들기](../../workfront-goals/goal-management/create-goals.md).
+귀하 또는 다른 사용자가 목표를 만든 후 목표 목록에서 진행 상황과 정보를 검토할 수 있습니다. 목표 만들기에 대한 자세한 내용은 [Adobe Workfront 목표에서 목표 만들기](../../workfront-goals/goal-management/create-goals.md)를 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -46,7 +46,7 @@ ht-degree: 2%
  <td>
  <p>새 라이선스: 기여자 이상</p>
  또는
- <p>현재 라이선스: 요청 이상</p> <p>자세한 내용은 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront 라이선스 개요</a>.</p> </td>
+ <p>현재 라이선스: 요청 이상</p> <p>자세한 내용은 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront 라이선스 개요</a>를 참조하십시오.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">제품*</td>
@@ -56,7 +56,7 @@ ht-degree: 2%
 <li>Select 또는 Prime Adobe Workfront 플랜 및 추가 Adobe Workfront Goals 라이선스.</li>
 <li>기본적으로 Workfront 목표를 포함하는 Ultimate Workfront 계획입니다. </li></ul>
  <p>또는</p>
- <p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표 사용 요구 사항</a>. </p> </td>
+ <p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표를 사용하기 위한 요구 사항</a>을 참조하십시오. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">액세스 수준</td>
@@ -68,7 +68,7 @@ ht-degree: 2%
   <div>
   <p>목표에 대한 또는 그 이상의 권한에 대한 보기</p>
   <p>편집할 목표에 대한 권한 관리</p>
-  <p>목표 공유에 대한 자세한 내용은 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront 목표에서 목표 공유</a>. </p>
+  <p>목표 공유에 대한 자세한 내용은 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront 목표에서 목표 공유</a>를 참조하십시오. </p>
   </div> </td>
  </tr>
  <tr>
@@ -79,7 +79,7 @@ ht-degree: 2%
 </tbody>
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## 목표 목록의 목표 관리
 
@@ -90,7 +90,7 @@ Workfront 목표의 다음 섹션에서 목표를 보고 관리할 수 있습니
 
 각 섹션에는 목표가 약간 다른 형식으로 표시됩니다. 사용할 섹션은 목표 작업을 수행할 때 달성하고자 하는 목적에 따라 다릅니다.
 
-자세한 내용은 [Adobe Workfront 목표 섹션 개요](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
+자세한 내용은 [Adobe Workfront 목표 섹션 개요](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md)를 참조하십시오.
 
 이 문서에서는 목표 목록에서 목표를 검토하는 방법을 설명합니다.
 
@@ -196,7 +196,7 @@ Workfront 목표의 다음 섹션에서 목표를 보고 관리할 수 있습니
 
 목표 목록에서 목표를 관리하려면 다음을 수행하십시오.
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png)  오른쪽 상단에서 을(를) 클릭한 다음 **목표**.
+1. 오른쪽 상단의 **주 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **목표**&#x200B;를 클릭합니다.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -208,17 +208,17 @@ Workfront 목표의 다음 섹션에서 목표를 보고 관리할 수 있습니
    * **이름**: 목표의 이름입니다.
    * **소유자**: 목표 소유자의 이름입니다.
    * **기간**: 목표가 예약되는 기간입니다.
-   * **상태**: 목표 상태는 다음 중 하나일 수 있습니다.
+   * **상태**: 목표의 상태는 다음 중 하나일 수 있습니다.
       * 활성
       * 초안
       * 비활성
       * 마감됨
 
-     목표 상태에 대한 자세한 내용은 [Adobe Workfront 목표의 목표 상태 개요](../goal-management/goal-status-overview.md).
+     목표 상태에 대한 자세한 내용은 [Adobe Workfront 목표의 목표 상태 개요](../goal-management/goal-status-overview.md)를 참조하십시오.
 
-     정렬 아이콘은 다른 목표에 정렬된 목표에 표시됩니다. 목표 정렬에 대한 자세한 내용은 [Adobe Workfront 목표에서 연결하여 목표 정렬](../goal-alignment/align-goals-by-connecting-them.md).
+     정렬 아이콘은 다른 목표에 정렬된 목표에 표시됩니다. 목표 정렬에 대한 자세한 내용은 [Adobe Workfront 목표에서 연결하여 목표 정렬](../goal-alignment/align-goals-by-connecting-them.md)을 참조하십시오.
 
-   * **조건**: 목표에 할당된 기간 내에 목표가 어떻게 진행되는지 시각적으로 표시합니다.
+   * **조건**: 목표를 완료하는 데 할당된 기간 내에 목표가 어떻게 진행되고 있는지 시각적으로 표시합니다.
 
      목표의 조건은 다음 중 하나일 수 있습니다.
 
@@ -227,15 +227,15 @@ Workfront 목표의 다음 섹션에서 목표를 보고 관리할 수 있습니
       * 위험 상태
       * 문제 발생
 
-     목표 조건에 대한 자세한 내용은 [Adobe Workfront 목표의 목표 진행 및 상태 개요](../goal-management/calculate-goal-progress.md).
+     목표 조건에 대한 자세한 내용은 [Adobe Workfront 목표의 목표 진행 상황 및 상태 개요](../goal-management/calculate-goal-progress.md)를 참조하십시오.
 
-   * **진행률**: 목표에 대한 진행률 표시기(백분율 값). 진행 표시기의 색상이 목표 조건의 색상과 일치합니다.
+   * **진행**: 목표의 진행 표시기를 백분율 값으로 사용합니다. 진행 표시기의 색상이 목표 조건의 색상과 일치합니다.
 
-     자세한 내용은 [Adobe Workfront 목표의 목표 진행 상황 계산](../goal-management/calculate-goal-progress.md).
+     자세한 내용은 [Adobe Workfront 목표의 목표 진행률 계산](../goal-management/calculate-goal-progress.md)을 참조하십시오.
 
-1. 필터 아이콘 클릭 ![](assets/filter-icon.png) 목표 목록의 오른쪽 상단 모서리에서 필터를 적용하여 중요한 목표만 표시합니다.
+1. 목표 목록의 오른쪽 상단에 있는 필터 아이콘 ![](assets/filter-icon.png)을(를) 클릭하고 필터를 적용하여 중요한 목표만 표시합니다.
 
-   Workfront 목표에서 필터를 사용하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [Adobe Workfront 목표의 정보 필터링](../goal-management/filter-information-wf-goals.md).
+   Workfront 목표에서 필터를 사용하는 방법에 대한 자세한 내용은 [Adobe Workfront 목표의 필터 정보](../goal-management/filter-information-wf-goals.md)를 참조하십시오.
 
 1. 해당 필드를 기준으로 목록을 정렬하려면 열 머리글에 있는 필드를 클릭하십시오.
 목록이 정렬되는 기준 필드 오른쪽에 화살표가 표시됩니다.
@@ -243,10 +243,10 @@ Workfront 목표의 다음 섹션에서 목표를 보고 관리할 수 있습니
 1. (선택 사항) 동일한 열을 내림차순으로 정렬하려면 열의 필드를 다시 클릭합니다.
 1. 목표의 이름을 클릭하여 목표의 페이지를 엽니다.
 1. 목록에서 목표를 한 개 선택한 다음 목록 맨 위에서 다음 옵션 중 하나를 클릭합니다.
-   * **편집** 아이콘 ![](assets/edit-icon.png) 을 클릭하여 목표에 대한 정보를 편집합니다. 자세한 내용은 [Adobe Workfront 목표의 목표 편집](../goal-management/edit-goals.md).
-   * **공유** 아이콘 ![](assets/share-icon.png) 다른 사람과 목표를 공유합니다. 자세한 내용은 [Adobe Workfront 목표에서 목표 공유](../workfront-goals-settings/share-a-goal.md).
-   * **정렬 열기** 아이콘 ![](assets/align-icon-unshimmed.png) 을 클릭하여 목표 정렬 영역을 엽니다. 이 옵션은 선택한 목표가 다른 목표에 맞춰진 경우에만 표시됩니다.
-   * **삭제** 아이콘 ![](assets/delete-icon.png) 목표를 삭제하려면 **삭제** 확인할 수 있습니다.  자세한 내용은 [Adobe Workfront 목표에서 목표 삭제 및 비활성화](../goal-management/delete-and-deactivate-goals.md).
+   * 목표에 대한 정보를 편집하려면 **편집** 아이콘 ![](assets/edit-icon.png)을(를) 사용하십시오. 자세한 내용은 [Adobe Workfront 목표의 목표 편집](../goal-management/edit-goals.md)을 참조하십시오.
+   * **공유** 아이콘 ![](assets/share-icon.png)을(를) 통해 다른 사람과 목표를 공유할 수 있습니다. 자세한 내용은 [Adobe Workfront 목표에서 목표 공유](../workfront-goals-settings/share-a-goal.md)를 참조하십시오.
+   * **정렬 열기** 아이콘 ![](assets/align-icon-unshimmed.png)을 클릭하여 목표 정렬 영역을 엽니다. 이 옵션은 선택한 목표가 다른 목표에 맞춰진 경우에만 표시됩니다.
+   * **삭제** 아이콘 ![](assets/delete-icon.png)을(를) 클릭하여 목표를 삭제한 다음 **삭제**&#x200B;를 클릭하여 확인합니다.  자세한 내용은 [Adobe Workfront 목표에서 목표 삭제 및 비활성화](../goal-management/delete-and-deactivate-goals.md)를 참조하십시오.
 
 
 

@@ -17,7 +17,7 @@ ht-degree: 0%
 
 이 페이지에서는 22.2 릴리스 기간 내에 이루어진 Adobe Workfront 애플리케이션의 다양한 영역에 대한 룩앤필에 대한 작은 업데이트를 설명합니다. 이러한 개선 사항은 미리보기에 릴리스한 후 최소 2주 후에 프로덕션 환경에서 사용할 수 있습니다.
 
-22.2 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [22.2 릴리스 개요](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+22.2 릴리스에서 사용할 수 있는 모든 변경 사항 목록을 보려면 [22.2 릴리스 개요](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md)를 참조하십시오.
 
 ## 업데이트된 승인 페이지
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-미리보기 릴리스: 2022년 2월 24일, 예상 프로덕션 릴리스: 3월 9일부터 단계적으로 롤아웃되며, 모든 고객은 2022년 3월 18일까지 사용할 수 있습니다.
+>미리보기 릴리스: 2022년 2월 24일, 예상 프로덕션 릴리스: 3월 9일부터 단계적으로 롤아웃되며, 모든 고객은 2022년 3월 18일까지 사용할 수 있습니다.
 
 Workfront의 문서 영역 성능을 개선했습니다. 이제 문서 페이지가 훨씬 더 빠르게 로드됩니다.
 
@@ -55,7 +55,7 @@ Workfront의 문서 영역 성능을 개선했습니다. 이제 문서 페이지
 
 >[!NOTE]
 >
-프로덕션 환경에서는 대시보드 내의 이러한 동일한 보고서에 대한 도구 모음이 주별로 업데이트되었습니다 [유지 보수 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 2022년 3월 3일에
+>2022년 3월 3일에 주간 [유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)로 프로덕션에서 대시보드 내의 동일한 보고서에 대한 도구 모음도 업데이트되었습니다.
 
 * 프로젝트 보고서
 * 작업 보고서

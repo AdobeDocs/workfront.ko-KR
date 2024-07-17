@@ -42,7 +42,7 @@ Though this might not seem that helpful because it is more of a catalog/TOC, it'
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>플랜 </p> <p>그룹의 그룹 관리자 또는 Workfront 관리자여야 합니다. 자세한 내용은 <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">그룹 관리자</a> 및 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">사용자에게 전체 관리 액세스 권한 부여</a>.</p> </td> 
+   <td> <p>플랜 </p> <p>그룹의 그룹 관리자 또는 Workfront 관리자여야 합니다. 자세한 내용은 <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">그룹 관리자</a> 및 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">사용자에게 전체 관리 액세스 권한 부여</a>를 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,7 +53,7 @@ Though this might not seem that helpful because it is more of a catalog/TOC, it'
 
 관리하는 그룹에 사용자와 다른 그룹을 추가하거나 제거할 수 있습니다. 그룹 구성원을 그룹의 관리자로 지정하고 그룹 구성원의 사용자 프로필 정보를 관리할 수도 있습니다.
 
-자세한 내용은 [그룹 멤버십 보기 및 관리](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md).
+지침은 [그룹 멤버십 보기 및 관리](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md)를 참조하세요.
 
 ## 그룹 세부 정보 관리
 
@@ -65,25 +65,25 @@ Though this might not seem that helpful because it is more of a catalog/TOC, it'
 Add this at end of 2nd-to-last sentence in this^ paragraph when they add the **Is active** option to the Details page!
 -->
 
-자세한 내용은 [그룹 세부 정보 보기 및 관리](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md).
+자세한 지침은 [그룹 세부 정보 보기 및 관리](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md)를 참조하세요.
 
 ## 그룹 편집, 복사 또는 삭제
 
 보고 있는 그룹의 기본 페이지를 벗어나지 않고도 그룹을 빠르게 편집, 복사 또는 삭제할 수 있습니다.
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 상단에서 을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png).
+1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
 
-1. 클릭 **그룹**.
+1. **그룹**&#x200B;을 클릭합니다.
 
    표시되는 목록에서 관리하는 그룹과 포함된 하위 그룹을 볼 수 있습니다. Adobe Workfront 관리자는 모든 그룹을 볼 수 있습니다.
 
-1. 그룹을 선택한 다음 편집 을 클릭합니다 ![](assets/edit-icon.png), 복사 ![](assets/copy-icon.png), 또는 삭제 ![](assets/delete.png) 아이콘.
+1. 그룹을 선택한 다음 ![](assets/edit-icon.png) 편집, ![](assets/copy-icon.png) 복사 또는 ![](assets/delete.png) 삭제 아이콘을 클릭합니다.
 
    표시되는 상자 사용에 대한 정보가 필요한 경우 다음 중 하나를 참조하십시오.
 
    * **편집**: [그룹 세부 정보 보기 및 관리](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md)
 
-   * **복사**: [기존 그룹 또는 하위 그룹을 복사하여 최상위 그룹 생성](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group) 이 문서에서 [그룹 만들기](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)
+   * **복사**: [문서 [그룹 만들기](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)에서 기존 그룹 또는 하위 그룹을 복사하여 최상위 그룹을 만듭니다](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group)
 
    * **삭제**: [그룹 삭제](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md)
 
@@ -91,7 +91,7 @@ Add this at end of 2nd-to-last sentence in this^ paragraph when they add the **I
 
 그룹 관리자인 경우 그룹에 시스템 수준에서 설정된 설정과 다른 프로젝트, 작업 및 문제 환경 설정이 필요한 경우 Workfront 관리자에게 조직 전체의 모든 그룹에 대한 환경 설정의 잠금을 해제하도록 요청할 수 있습니다. 잠금 해제되면 사용자(및 다른 모든 그룹의 그룹 관리자)는 관리하는 그룹에 대해 구성할 수 있습니다.
 
-자세한 내용은 [그룹에 대한 프로젝트 환경 설정 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) 및  [그룹에 대한 작업 및 문제 환경 설정 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+지침은 [그룹에 대한 프로젝트 환경 설정 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) 및 [그룹에 대한 작업 및 문제 환경 설정 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)을 참조하십시오.
 
 ## 하위 그룹 나열, 추가 및 구성
 
@@ -99,7 +99,7 @@ Add this at end of 2nd-to-last sentence in this^ paragraph when they add the **I
 
 ## 그룹에 대한 이벤트 알림 구성
 
-Workfront 관리자가 조직의 그룹에 대한 이벤트 알림 구성 기능의 잠금을 해제하면 관리하는 그룹에 대해 이벤트 알림을 구성할 수 있습니다. 자세한 내용은 [그룹에 대한 이벤트 알림 보기 및 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
+Workfront 관리자가 조직의 그룹에 대한 이벤트 알림 구성 기능의 잠금을 해제하면 관리하는 그룹에 대해 이벤트 알림을 구성할 수 있습니다. 지침은 [그룹에 대한 이벤트 알림 보기 및 구성](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)을 참조하세요.
 
 ## 그룹에 대한 상태 만들기 및 사용자 지정
 
@@ -107,7 +107,7 @@ Workfront 관리자가 조직의 그룹에 대한 이벤트 알림 구성 기능
 
 Workfront 관리자가 시스템 상태를 사용자 지정할 수 있도록 구성한 경우 최상위 그룹에 대한 시스템 상태를 사용자 지정할 수도 있습니다.
 
-자세한 내용은 [그룹 상태 만들기 또는 편집](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
+지침은 [그룹 상태 만들기 또는 편집](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md)을 참조하세요.
 
 ## 그룹의 프로젝트를 사용하여 작업
 
@@ -116,19 +116,19 @@ Workfront 관리자가 시스템 상태를 사용자 지정할 수 있도록 구
 * 그룹 및 해당 하위 그룹과 연결되어 사용자와 공유된 프로젝트를 나열 및 작업(편집, 복사, 삭제 및 내보내기)합니다
 * 그룹에 대한 새 프로젝트 만들기
 
-자세한 내용은 [그룹의 프로젝트 만들기 및 수정](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
+지침은 [그룹의 프로젝트 만들기 및 수정](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md)을 참조하세요.
 
 ## 그룹의 승인 프로세스 보기 및 관리
 
 그룹 영역에서 관리하는 그룹을 볼 때 그룹의 관리자 또는 해당 하위 그룹 중 하나에 관리 액세스 권한이 있는 승인 프로세스를 보고 작업할 수 있습니다.
 
-자세한 내용은 [그룹 수준 승인 프로세스](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md).
+지침은 [그룹 수준 승인 프로세스](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md)를 참조하십시오.
 
 ## 그룹의 레이아웃 템플릿 보기 및 관리
 
 그룹 영역에서 관리하는 그룹을 볼 때 그룹의 관리자 또는 해당 하위 그룹 중 하나에 관리 액세스 권한이 있는 레이아웃 템플릿을 보고 작업할 수 있습니다.
 
-자세한 내용은 [그룹의 레이아웃 템플릿 만들기 및 수정](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+자세한 지침은 [그룹의 레이아웃 템플릿 만들기 및 수정](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)을 참조하세요.
 
 ## 그룹 구성원의 일정 보기 및 관리
 
@@ -136,25 +136,25 @@ Workfront 관리자가 시스템 상태를 사용자 지정할 수 있도록 구
 
 관리하는 그룹의 기본 페이지를 볼 때, 그룹이 관리자가 일정을 편집할 수 있는 그룹으로 지정된 경우, 그룹의 페이지에서 일정을 보고 관리할 수 있습니다.
 
-자세한 내용은 [그룹의 일정 만들기 및 수정](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-schedules.md).
+지침은 [그룹 일정 만들기 및 수정](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-schedules.md)을 참조하세요.
 
 ## 그룹 구성원의 타임시트 프로필 보기 및 관리
 
-관리하는 그룹의 기본 페이지를 볼 때 사용자와 그룹의 다른 관리자(또는 해당 하위 그룹 중 하나)가 편집 권한을 가진 타임시트 프로필을 관리할 수 있습니다. 자세한 내용은 [그룹의 타임시트 프로필 만들기 및 관리](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-timesheet-profiles.md).
+관리하는 그룹의 기본 페이지를 볼 때 사용자와 그룹의 다른 관리자(또는 해당 하위 그룹 중 하나)가 편집 권한을 가진 타임시트 프로필을 관리할 수 있습니다. 지침은 [그룹의 타임시트 프로필 만들기 및 관리](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-timesheet-profiles.md)를 참조하세요.
 
 ## 그룹의 하위 그룹 구성원 보기 및 관리
 
-관리하는 그룹의 기본 페이지를 볼 때 그룹의 하위 그룹에 있는 모든 사용자를 보고 관리할 수 있습니다. 자세한 내용은 [하위 그룹 멤버 보기 및 관리](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md).
+관리하는 그룹의 기본 페이지를 볼 때 그룹의 하위 그룹에 있는 모든 사용자를 보고 관리할 수 있습니다. 지침은 [하위 그룹 구성원 보기 및 관리](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md)를 참조하세요.
 
 ## 그룹의 팀 보기 및 관리
 
 그룹 영역에서 관리하는 그룹을 볼 때 그룹 또는 해당 하위 그룹과 관련된 팀을 보고 작업할 수 있습니다.
 
-자세한 내용은 [그룹의 팀 만들기 및 수정](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md).
+지침은 [그룹 팀 만들기 및 수정](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md)을 참조하세요.
 
 ## 그룹의 회사 보기 및 관리
 
-그룹 영역에서 관리하는 그룹을 볼 때 그룹 또는 해당 하위 그룹과 관련된 회사를 보고 작업할 수 있습니다. 자세한 내용은 [그룹의 회사 만들기 및 수정](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-companies.md).
+그룹 영역에서 관리하는 그룹을 볼 때 그룹 또는 해당 하위 그룹과 관련된 회사를 보고 작업할 수 있습니다. 지침은 [그룹 회사 만들기 및 수정](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-companies.md)을 참조하세요.
 
 ## 그룹의 포트폴리오 및 프로그램 보기 및 관리
 
@@ -163,7 +163,7 @@ Workfront 관리자가 시스템 상태를 사용자 지정할 수 있도록 구
 * 보고 있는 그룹 또는 해당 하위 그룹과 연결되어 있습니다
 * 사용자가 만들었거나 사용자와 공유되었기 때문에 이를 볼 수 있는 권한이 있습니다.
 
-자세한 내용은 [그룹의 프로젝트 만들기 및 수정](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-portfolios.md) 및 [그룹의 프로그램 만들기, 수정 및 보기](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-programs.md).
+지침은 [그룹의 프로젝트 만들기 및 수정](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-portfolios.md) 및 [그룹의 프로그램 만들기, 수정 및 보기](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-programs.md)를 참조하십시오.
 
 ## 그룹 비활성화 또는 재활성화
 
@@ -179,4 +179,4 @@ Delete this section when they add the </span>
 
 그룹을 비활성화하는 것은 사용자가 다른 오브젝트와 연결할 그룹을 검색할 때 미리 입력 필드에서 더 이상 그룹을 볼 수 없기 때문에 현재 사용 중이 아닐 때 유용할 수 있습니다.
 
-그룹을 비활성 상태나 활성 상태로 만드는 방법에 대한 지침은 [그룹 비활성화 또는 재활성화](../../../administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
+그룹을 비활성화하거나 활성화하는 방법에 대한 지침은 [그룹 비활성화 또는 다시 활성화](../../../administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md)를 참조하십시오.

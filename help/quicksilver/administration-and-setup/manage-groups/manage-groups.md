@@ -25,5 +25,5 @@ ht-degree: 0%
 * [그룹 만들기 및 관리](../../administration-and-setup/manage-groups/create-and-manage-groups/create-and-manage-groups.md)
 * [하위 그룹 만들기 및 관리](../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-and-manage-subgroups.md)
 * [그룹 역할](../../administration-and-setup/manage-groups/group-roles/group-roles.md)
-* [그룹의 오브젝트 작업](../../administration-and-setup/manage-groups/work-with-group-objects/work-with-a-groups-objects.md)
+* [그룹의 개체로 작업](../../administration-and-setup/manage-groups/work-with-group-objects/work-with-a-groups-objects.md)
 * [그룹 상태 관리](../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md)

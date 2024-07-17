@@ -46,7 +46,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>다음이어야 합니다: [!DNL Workfront] 관리자. 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">사용자에게 전체 관리 액세스 권한 부여</a>.</p> <p><b>참고</b>: 아직 액세스 권한이 없는 경우 [!DNL Workfront] 관리자가 액세스 수준에 추가 제한을 설정하는 경우. 자세한 내용: [!DNL Workfront] 관리자가 액세스 수준을 수정할 수 있습니다. 다음을 참조하십시오. <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td> 
+   <td> <p>[!DNL Workfront] 관리자여야 합니다. 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">사용자에게 전체 관리 액세스 권한 부여</a>를 참조하십시오.</p> <p><b>참고</b>: 아직 액세스 권한이 없는 경우 [!DNL Workfront] 관리자에게 액세스 수준에 추가 제한을 설정했는지 문의하세요. [!DNL Workfront] 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -55,11 +55,11 @@ ht-degree: 1%
 
 요청 라이선스를 사용하여 기본 액세스 수준 만들기:
 
-1. 다음으로 이동 **[!UICONTROL 설정]** > **[!UICONTROL 액세스 수준]**.
+1. **[!UICONTROL 설정]** > **[!UICONTROL 액세스 수준]**(으)로 이동합니다.
 
-1. 클릭 **[!UICONTROL 새 액세스 수준]**.
-1. 입력 **[!UICONTROL 이름]**.
-1. 다음에서 **[!UICONTROL 라이선스 유형]** 드롭다운 메뉴에서 요청을 선택합니다.
+1. **[!UICONTROL 새 액세스 수준]**&#x200B;을 클릭하세요.
+1. **[!UICONTROL 이름]**&#x200B;을(를) 입력하십시오.
+1. **[!UICONTROL 라이선스 유형]** 드롭다운 메뉴에서 요청을 선택합니다.
 1. **[!UICONTROL 변경 내용 저장]**&#x200B;을 클릭합니다.
 
 요청 라이선스를 사용하여 액세스 수준을 만든 후 사용자에게 SSO 자격 증명으로 로그인하도록 합니다.

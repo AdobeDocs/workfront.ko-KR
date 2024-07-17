@@ -19,7 +19,7 @@ ht-degree: 0%
 <p>(NOTE: the status of goals in "red" used to be called At Risk. Now, it is "in trouble") </p>
 -->
 
-문제가 진행 중인 목표는 달성되지 못할 위험이 있으며 Adobe Workfront 목표의 빨간색 진행률 표시줄이 표시됩니다. 목표를 자주 검토하고 진행 상황이 느린 이유를 이해해야 합니다. 목표 진행률에 대한 자세한 내용은 [Adobe Workfront 목표의 목표 진행 및 상태 개요](../../workfront-goals/goal-management/calculate-goal-progress.md).
+문제가 진행 중인 목표는 달성되지 못할 위험이 있으며 Adobe Workfront 목표의 빨간색 진행률 표시줄이 표시됩니다. 목표를 자주 검토하고 진행 상황이 느린 이유를 이해해야 합니다. 목표 진행 상황에 대한 자세한 내용은 [Adobe Workfront 목표의 목표 진행 상황 및 상태 개요](../../workfront-goals/goal-management/calculate-goal-progress.md)를 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -48,7 +48,7 @@ ht-degree: 0%
  <td>
  <p>새 라이선스: 기여자 이상</p>
  또는
- <p>현재 라이선스: 요청 이상</p> <p>자세한 내용은 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront 라이선스 개요</a>.</p> </td>
+ <p>현재 라이선스: 요청 이상</p> <p>자세한 내용은 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront 라이선스 개요</a>를 참조하십시오.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">제품*</td>
@@ -58,7 +58,7 @@ ht-degree: 0%
 <li>Select 또는 Prime Adobe Workfront 플랜 및 추가 Adobe Workfront Goals 라이선스.</li>
 <li>기본적으로 Workfront 목표를 포함하는 Ultimate Workfront 계획입니다. </li></ul>
  <p>또는</p>
- <p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표 사용 요구 사항</a>. </p> </td>
+ <p>현재 제품 요구 사항: Workfront 플랜 및 Adobe Workfront 목표에 대한 추가 라이선스. </p> <p>자세한 내용은 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront 목표를 사용하기 위한 요구 사항</a>을 참조하십시오. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">액세스 수준</td>
@@ -70,7 +70,7 @@ ht-degree: 0%
   <div>
   <p>목표에 대한 또는 그 이상의 권한에 대한 보기</p>
   <p>편집할 목표에 대한 권한 관리</p>
-  <p>목표 공유에 대한 자세한 내용은 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront 목표에서 목표 공유</a>. </p>
+  <p>목표 공유에 대한 자세한 내용은 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront 목표에서 목표 공유</a>를 참조하십시오. </p>
   </div> </td>
  </tr>
  <tr>
@@ -81,11 +81,11 @@ ht-degree: 0%
 </tbody>
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## Recommendations을 통해 목표 달성 시 문제 진행 상황 도달 방지
 
-목표 진행 상황에 도달하기 전에 목표 진행 상황을 자주 모니터링하고 목표 진행 상황에 도달할 때 진행 상황을 조정할 수 있습니다. 위험에 처한 목표는 곤경에 빠질 위험이 있다. 목표 진행률에 대한 자세한 내용은 [Adobe Workfront 목표의 목표 진행 및 상태 개요](../../workfront-goals/goal-management/calculate-goal-progress.md)
+목표 진행 상황에 도달하기 전에 목표 진행 상황을 자주 모니터링하고 목표 진행 상황에 도달할 때 진행 상황을 조정할 수 있습니다. 위험에 처한 목표는 곤경에 빠질 위험이 있다. 목표 진행 상황에 대한 자세한 내용은 [Adobe Workfront 목표의 목표 진행 상황 및 상태 개요](../../workfront-goals/goal-management/calculate-goal-progress.md)를 참조하십시오.
 
 목표 달성이 문제 상황으로 진행되기 전에 다음 사항을 권장합니다.
 
@@ -94,11 +94,11 @@ ht-degree: 0%
 
 ## 목표 목록에서 문제 발생 목표 검토
 
-Workfront 목표의 모든 섹션에서 목표를 검토할 수 있습니다. Workfront 목표 섹션에 대한 자세한 내용은 다음을 참조하십시오. [Adobe Workfront 목표 섹션 개요](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
+Workfront 목표의 모든 섹션에서 목표를 검토할 수 있습니다. Workfront 목표 섹션에 대한 자세한 내용은 [Adobe Workfront 목표 섹션 개요](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md)를 참조하십시오.
 
 이 문서에서는 목표 목록에서 목표를 검토하는 방법을 설명합니다.
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) > **목표** 오른쪽 상단 모서리입니다.
+1. 오른쪽 상단의 **주 메뉴** 아이콘 ![](assets/main-menu-icon.png) > **목표**&#x200B;를 클릭합니다.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -107,7 +107,7 @@ Workfront 목표의 모든 섹션에서 목표를 검토할 수 있습니다. W
 
 1. (권장) 위험 상태의 목표를 검토하려면 목표 목록 영역에 대해 다음 필터를 조정합니다.
 
-   * 클릭 **회사**, 그런 다음 **내 팀**, 그런 다음 **내 그룹**, 그런 다음 **개인** 조직, 팀, 그룹 및 고유한 목표에 속하는 목표를 보려면 이 순서로 목표를 지정합니다.
+   * 조직, 팀, 그룹, 자신의 목표를 보려면 **회사**, **내 팀**, **내 그룹**, **개인** 목표를 클릭하십시오.
 
      >[!TIP]
      >
@@ -116,12 +116,12 @@ Workfront 목표의 모든 섹션에서 목표를 검토할 수 있습니다. W
      >
      >이 필드를 사용하여 회사를 검색할 수 없습니다. Workfront 인스턴스의 소유자인 조직만 기본적으로 선택됩니다.
 
-   * 위에서 선택한 각 조직 단위에 대해 다음을 클릭하십시오. **새 필터** > **진행률** > **문제 발생** >**적용.**
+   * 위에서 선택한 각 조직 단위에 대해 **새 필터** > **진행** > **문제 발생** >**적용**&#x200B;을 클릭합니다.
    * (선택 사항) 목표를 보려는 기간을 선택합니다.
 
      진행률 표시줄 표시기는 목표 목록의 각 목표에 대해 빨간색으로 표시됩니다.
 
-     오른쪽 패널의 다른 모든 기준을 사용한 목표 필터링에 대한 자세한 내용은 [Adobe Workfront 목표의 정보 필터링](../../workfront-goals/goal-management/filter-information-wf-goals.md).
+     오른쪽 패널의 다른 모든 기준을 사용하여 목표를 필터링하는 방법에 대한 자세한 내용은 [Adobe Workfront 목표의 정보 필터링](../../workfront-goals/goal-management/filter-information-wf-goals.md)을 참조하십시오.
 
 1. 진행률 표시줄 표시기 위로 마우스를 가져가 실제 진행률 및 현재 날짜의 예상 값을 확인합니다.
 
@@ -131,9 +131,9 @@ Workfront 목표의 모든 섹션에서 목표를 검토할 수 있습니다. W
 
    선택한 사용자의 문제 해결 목표가 목표 목록에 표시됩니다.
 
-1. 목표 이름을 클릭하여 목표 페이지를 연 다음 를 클릭합니다 **진행 표시기** 왼쪽 패널에서 목표가 지연되는 진행 표시기를 확인하고 다음에서 표시기의 진행 상황을 인라인으로 업데이트합니다. **실제 진행 상황** 진행 표시기 목록의 열입니다.
+1. 목표 이름을 클릭하여 목표 페이지를 연 다음 왼쪽 패널에서 **진행 표시기**&#x200B;를 클릭합니다. 진행 표시기 목록의 **실제 진행** 열에서 목표가 지연되는 진행 표시기를 보고 표시기의 진행 상황을 인라인으로 업데이트합니다.
 
-   결과 및 활동 업데이트에 대한 자세한 내용은 [Adobe Workfront 목표의 목표 진행 상황 업데이트](../goal-review-and-workfront-goals-sections/check-in-goals.md)
+   결과 및 활동 업데이트에 대한 자세한 내용은 [Adobe Workfront 목표의 목표 진행률 업데이트](../goal-review-and-workfront-goals-sections/check-in-goals.md)를 참조하세요.
 
    ![](assets/actual-progress-editable-column-in-indicator-list-unshimmed.png)
 

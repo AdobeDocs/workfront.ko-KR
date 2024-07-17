@@ -28,7 +28,7 @@ Adobe Journey Optimizer 모듈을 사용하여 다음과 같은 작업을 수행
 * 지정한 기준을 사용하여 Adobe Journey Optimizer 레코드 검색
 * Adobe Journey Optimizer API에 대한 사용자 지정 API 호출 만들기
 
-자세한 내용은 [Adobe Journey Optimizer 모듈](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md).
+자세한 내용은 [Adobe Journey Optimizer 모듈](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)을 참조하세요.
 
 ## 이제 Adobe Campaign Classic 커넥터 및 모듈을 사용할 수 있습니다
 
@@ -40,4 +40,4 @@ Adobe Campaign Classic 모듈을 사용하여 다음과 같은 작업을 수행�
 * Adobe Campaign API에서 작업 수행
 * Adobe Campaign Classic API에 대한 사용자 지정 API 호출 만들기
 
-자세한 내용은 [Adobe Campaign Classic 모듈](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md).
+자세한 내용은 [Adobe Campaign Classic 모듈](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md)을 참조하세요.

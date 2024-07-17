@@ -10,7 +10,7 @@ exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
 source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
 source-wordcount: '764'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 5%
 >* 프로젝트 간 전임 작업
 >* 예산 시간
 >
->다음 항목은 항상 기존 프로젝트에서 새 프로젝트로 복사됩니다.
+>다음 항목은 항상 기존 프로젝트에서 새 프로젝트에 복사됩니다.
 >
 >* 작업
 >* 템플릿
@@ -85,7 +85,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td> <p>Adobe Workfront 플랜*</p> </td> 
-   <td>모든</td> 
+   <td>임의</td> 
   </tr> 
   <tr> 
    <td> <p>Adobe Workfront 라이센스*</p> </td> 
@@ -93,13 +93,13 @@ ht-degree: 5%
   </tr> 
   <tr data-mc-conditions=""> 
    <td><strong>액세스 수준 구성*</strong> </td> 
-   <td> <p>생성 기능이 있는 프로젝트에 대한 액세스 편집 <span>및 복사</span> 프로젝트</p> <p><b>메모</b>
+   <td> <p><span>개의 프로젝트를 만들고</span>개 복사하는 기능을 가진 프로젝트에 대한 액세스 편집</p> <p><b>메모</b>
 
-여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 정의 액세스 수준 만들기 또는 수정</a>.</p> </td>
+여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td>
 </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><strong>개체 권한</strong> </p> </td> 
-   <td> <p>프로젝트에 대한 권한 이상 보기</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">오브젝트에 대한 액세스 요청 </a>.</p> </td> 
+   <td> <p>프로젝트에 대한 권한 이상 보기</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -112,27 +112,27 @@ ht-degree: 5%
 
 프로젝트를 복사하려면 다음 작업을 수행하십시오.
 
-1. 복사할 프로젝트로 이동한 다음 **자세히** 아이콘 ![](assets/qs-more-menu.png) 프로젝트 이름의 오른쪽에
+1. 복사할 프로젝트로 이동한 다음 프로젝트 이름 오른쪽에 있는 **자세히** 아이콘 ![](assets/qs-more-menu.png)을 클릭합니다
 
    ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    또는
 
-   프로젝트 목록 또는 보고서로 이동하여 프로젝트를 선택한 다음 **자세히** 아이콘 ![](assets/qs-more-menu.png) 목록의 맨 위에 있습니다.
+   프로젝트 목록 또는 보고서로 이동하여 프로젝트를 선택한 다음 목록 맨 위에 있는 **자세히** 아이콘 ![](assets/qs-more-menu.png)을(를) 클릭합니다.
 
    ![](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
 
-1. 클릭 **복사**.
+1. **복사**&#x200B;를 클릭합니다.
 
 1. 새 프로젝트의 이름을 업데이트합니다.
 
-   기본적으로 새 이름은 입니다. **다음의 사본 `<Original project name>`.**
+   기본적으로 새 이름은 **`<Original project name>`의 복사본**&#x200B;입니다.
 
    ![](assets/copy-project-box-nwe-350x276.png)
 
-1. 다음 항목 선택 **상태** 새 프로젝트용입니다.
+1. 새 프로젝트에 대한 **상태**&#x200B;를 선택하십시오.
 
-   기본적으로 **상태** 는 원본 프로젝트의 값과 일치합니다.
+   기본적으로 **Status**&#x200B;은(는) 원본 프로젝트의 상태와 일치합니다.
 
 1. (선택 사항) 새 프로젝트로 복사하지 않으려는 항목의 선택을 취소합니다. 다음 표에서는 항목을 선택 해제할 때 발생하는 상황을 설명합니다.
 
@@ -145,7 +145,7 @@ ht-degree: 5%
       <td role="rowheader">모두 선택</td> 
       <td> <p>모든 옵션을 선택하고 새 프로젝트에서 나열된 모든 필드와 개체를 지웁니다.</p> <p><b>팁</b>
 
-   선택 해제 <strong>모두 선택</strong> 모든 항목을 선택 취소합니다. </p> </td>
+   <strong>모두 선택</strong>을 선택 해제하면 모든 항목이 선택 해제됩니다. </p> </td>
    </tr> 
      <tr> 
       <td role="rowheader">할당</td> 
@@ -181,9 +181,9 @@ ht-degree: 5%
       <td role="rowheader">예산 시간</td> 
       <td> <p>복사된 프로젝트에서 프로젝트 비즈니스 사례의 리소스 계획 영역에 예산 책정된 시간을 제거합니다.</p>
 
-<b>메모</b>
+<b>참고</b>
 
-새 프로젝트가 시나리오 플래너의 이니셔티브에 연결되어 있지 않으므로 시나리오 플래너를 사용하여 예산 책정된 시간은 새 프로젝트에 복사되지 않습니다. 자세한 내용은 <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">시나리오 플래너를 사용하는 비즈니스 사례의 예산 리소스</a>
+새 프로젝트가 시나리오 플래너의 이니셔티브에 연결되어 있지 않으므로 시나리오 플래너를 사용하여 예산 책정된 시간은 새 프로젝트에 복사되지 않습니다. 자세한 내용은 <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">시나리오 플래너를 사용하여 비즈니스 사례에서 리소스 예산</a>을 참조하세요.
 </tr></td>
     <tr> 
       <td role="rowheader">재무 정보</td> 
@@ -192,7 +192,7 @@ ht-degree: 5%
         <li>프로젝트의 재무 하위 탭</li> 
         <li> 비즈니스 사례의 계획된 이익</li> 
         <li>모든 작업의 재무 정보<br></li> 
-       </ul> <p>프로젝트 재무 하위 탭에 대한 자세한 내용은 <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">프로젝트 재무 영역에서 정보 관리</a>.</p> </td> 
+       </ul> <p>프로젝트 재무 하위 탭에 대한 자세한 내용은 <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">프로젝트 재무 영역의 정보 관리</a>를 참조하십시오.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">승인 진행</td> 
@@ -213,7 +213,7 @@ ht-degree: 5%
     </tbody> 
    </table>
 
-1. 클릭 **복사** 를 클릭하여 프로젝트의 복사본을 만듭니다.
+1. 프로젝트의 복사본을 만들려면 **복사**&#x200B;를 클릭하십시오.
 
    이렇게 하면 복사한 프로젝트와 유사한 새 프로젝트가 만들어집니다.
 

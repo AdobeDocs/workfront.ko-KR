@@ -21,7 +21,7 @@ ht-degree: 0%
 이 섹션에는 다음 문서가 포함됩니다.
 
 * [API를 통해 파일 업로드](../../wf-api/api/uploading-files-api.md)
-* [JSONP에 대한 지원 종료](../../wf-api/api/ending-support-jsonp.md)
+* [JSONP에 대한 지원을 종료합니다](../../wf-api/api/ending-support-jsonp.md)
 * [이벤트 구독 메시지 필터링](../../wf-api/api/filter-event-sub-messages.md)
 * [이벤트 구독 다시 시도](../../wf-api/api/event-sub-retries.md)
 * [이벤트 구독 인증서](../../wf-api/api/event-sub-certs.md)

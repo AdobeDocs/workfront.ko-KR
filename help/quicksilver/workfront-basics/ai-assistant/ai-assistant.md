@@ -1,12 +1,13 @@
 ---
-title: "AI Assistant: 기사 색인"
+title: 'AI Assistant: 문서 인덱스'
 content-type: reference
 description: Workfront의 AI Assistant에 대해 사용할 수 있는 문서 목록 보기
 author: Becky
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: 9948943f802e249a25e81ffc6b5b96ab70f8f930
+exl-id: 3f83dd91-d7de-4050-89b7-f53cbc4389a0
+source-git-commit: 6dd2fd4d688514540265fa3b0d2634194fb6a7ab
 workflow-type: tm+mt
 source-wordcount: '46'
 ht-degree: 0%

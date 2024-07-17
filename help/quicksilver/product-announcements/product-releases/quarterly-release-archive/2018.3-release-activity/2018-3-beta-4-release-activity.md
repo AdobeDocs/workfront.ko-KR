@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: 2018.3 베타 4 릴리스 활동
-description: 이 페이지에서는 2018.3 베타 4 릴리스의 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 기능은 2018년 8월 30일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2018년 11월에 사용할 수 있습니다.
+title: 2018.3 Beta 4 릴리스 활동
+description: 이 페이지에서는 2018.3 Beta 4 릴리스의 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 기능은 2018년 8월 30일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2018년 11월에 사용할 수 있습니다.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,26 +14,26 @@ ht-degree: 0%
 
 ---
 
-# 2018.3 베타 4 릴리스 활동
+# 2018.3 Beta 4 릴리스 활동
 
-이 페이지에서는 2018.3 베타 4 릴리스의 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 기능은 2018년 8월 30일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2018년 11월에 사용할 수 있습니다.
+이 페이지에서는 2018.3 Beta 4 릴리스의 미리보기 환경에서 가장 최근에 사용할 수 있는 모든 변경 사항에 대해 설명합니다. 이 기능은 2018년 8월 30일에 미리보기 환경에서 사용할 수 있습니다. 프로덕션 환경에서는 2018년 11월에 사용할 수 있습니다.
 
 2018.3의 모든 변경 사항 목록은 다음을 참조하십시오.  [2018.3 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
 
-2018.3 베타 4 릴리스에는 Workfront 관리자와 기타 사용자 모두를 위한 개선 사항이 포함되어 있습니다.
+2018.3 Beta 4 릴리스에는 Workfront 관리자와 기타 사용자를 위한 개선 사항이 포함되어 있습니다.
 
-**관리자용**
+관리자용 **1}**
 
 * [그룹 관리자로서 사용자 프로필의 보고 구조 업데이트](#update-reporting-structure-in-the-user-profile-as-a-group-administrator) 
 
 **모든 사용자용**
 
 * [리소스 플래너에서 추가 정보 내보내기](#export-more-information-from-the-resource-planner)
-* [작업 목록 개선 사항](#task-list-improvements) 릴리스에서 제거됨
+* 릴리스에서 [작업 목록 개선 사항](#task-list-improvements) 제거됨
 * [프로젝트 목록 개선 사항](#project-list-improvements)
-* [간트 차트 편집 모드에서 작업 목록 편집](#editing-the-task-list-in-gantt-chart-edit-mode) 릴리스에서 제거됨
+* [간트 차트 편집 모드에서 작업 목록 편집](#editing-the-task-list-in-gantt-chart-edit-mode) 릴리스에서 제거됨
 * [측정 도구 색상](#measurement-tool-colors)
-* [새 탭에서 증명 열기](#proofs-open-in-a-new-tab)  릴리스에서 제거됨
+* [새 탭에서 증명 열림](#proofs-open-in-a-new-tab) 릴리스에서 제거됨
 
 * [인쇄 요약 개선 사항](#print-summary-enhancements)
 * [Workfront 모바일 앱에 기간(일) 기록](#log-time-in-days-in-the-workfront-mobile-app)
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 이전에는 Workfront 관리자와 사용자에게 관리자 권한이 있는 사용자만 이 기능을 사용할 수 있었습니다.
 
-그룹 관리자에 대한 자세한 내용은 [그룹 관리자](../../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
+그룹 관리자에 대한 자세한 내용은 [그룹 관리자](../../../../administration-and-setup/manage-groups/group-roles/group-administrators.md)를 참조하십시오.
 
 ## 리소스 플래너에서 추가 정보 내보내기 {#export-more-information-from-the-resource-planner}
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 이전에는 한 번에 최대 4주, 월 또는 분기까지만 내보낼 수 있었습니다.
 
-자세한 내용은 [리소스 플래너에서 정보 내보내기](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
+자세한 내용은 [리소스 플래너에서 정보 내보내기](../../../../resource-mgmt/resource-planning/export-resource-planner.md)를 참조하십시오.
 
 ## 작업 목록 개선 사항 {#task-list-improvements}
 
@@ -80,9 +80,9 @@ ht-degree: 0%
 
      모든 변경 사항은 프로젝트 내의 작업 목록과 작업 아래의 하위 작업 탭에 표시됩니다.
 
-목록에서 작업하는 방법에 대한 자세한 내용은 [Adobe Workfront에서 목록 시작](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+목록에서 작업하는 방법에 대한 자세한 내용은 [Adobe Workfront에서 목록 시작](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)을 참조하세요.
 
-간트 차트의 체인 작업에 대한 자세한 내용은 [작업을 연결하여 전임 작업 관계 만들기](../../../../manage-work/tasks/use-prdcssrs/create-predecessors-by-chaining-tasks.md).
+간트 차트의 체인 작업에 대한 자세한 내용은 [작업을 연결하여 전임 작업 관계 만들기](../../../../manage-work/tasks/use-prdcssrs/create-predecessors-by-chaining-tasks.md)를 참조하십시오.
 
 ## 프로젝트 목록 개선 사항 {#project-list-improvements}
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 이 기능은 2018.2 릴리스에서 제거되었습니다.
 
-목록에서 작업하는 방법에 대한 자세한 내용은 [Adobe Workfront에서 목록 시작](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+목록에서 작업하는 방법에 대한 자세한 내용은 [Adobe Workfront에서 목록 시작](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)을 참조하세요.
 
 ## 간트 차트 편집 모드에서 작업 목록 편집 {#editing-the-task-list-in-gantt-chart-edit-mode}
 
@@ -112,7 +112,7 @@ ht-degree: 0%
 
 이전에는 작업이 간트 차트의 편집 모드로 표시될 때 이 작업을 수행할 수 없었습니다. 간트 차트에 표시되지 않은 작업 목록에서 이러한 변경 작업을 수행할 수 있지만 곧바로 수행되었습니다.
 
-간트 차트에서 작업 편집에 대한 자세한 내용은 [작업 목록 간트 차트에서 정보 업데이트](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
+간트 차트에서 작업을 편집하는 방법에 대한 자세한 내용은 [작업 목록 간트 차트에서 정보 업데이트](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)를 참조하십시오.
 
 ## 측정 도구 색상 {#measurement-tool-colors}
 
@@ -128,9 +128,9 @@ ht-degree: 0%
 >
 >* 이 기능은 미리보기 환경에서 제거되었으며 2018.3 릴리스에는 포함되지 않습니다.
 
-이제 Workfront 또는 Workfront Proof의 아무 곳에서나 증명을 열 때 증명 뷰어가 새 브라우저 탭에서 실행되고 포커스가 해당 탭으로 전환됩니다. 여러 브라우저 탭에서 증명을 검토하고 Workfront 또는 Workfront Proof에서 프로젝트, 작업 및 문제에 대한 작업을 계속할 수 있습니다.
+이제 Workfront 또는 Workfront Proof의 아무 곳에서나 증명을 열 때 증명 뷰어가 새 브라우저 탭에서 시작되고 포커스가 해당 탭으로 전환됩니다. 여러 브라우저 탭에서 작업하며 증명을 검토하고 Workfront 또는 Workfront Proof에서 프로젝트, 작업 및 문제에 대한 작업을 계속할 수 있습니다.
 
-이전에는 증명 뷰어가 현재 Workfront 또는 Workfront 증명 브라우저 탭 위의 프레임에 실행되어 증명 뷰어를 닫을 때까지 해당 탭에 액세스할 수 없었습니다.
+이전에는 증명 뷰어가 현재 Workfront 또는 Workfront Proof 브라우저 탭 위의 프레임에 실행되어 증명 뷰어를 닫을 때까지 해당 탭에 액세스할 수 없었습니다.
 
 자세한 내용은 를 참조하십시오.
 
@@ -150,7 +150,7 @@ ht-degree: 0%
 
   이전에는 단계가 포함되지 않았습니다.
 
-자세한 내용은 [Adobe Workfront 내에서 증명 요약 인쇄](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md).
+자세한 내용은 [Adobe Workfront 내에서 증명 요약 인쇄](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md)를 참조하십시오.
 
 ## Workfront 모바일 앱에 기간(일) 기록 {#log-time-in-days-in-the-workfront-mobile-app}
 

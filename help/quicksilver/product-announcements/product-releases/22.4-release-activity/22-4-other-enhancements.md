@@ -17,17 +17,17 @@ ht-degree: 0%
 
 이 페이지에서는 미리보기 환경에 대한 22.4 릴리스의 기타 모든 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2022년 10월 3일이 있는 주에 사용할 수 있습니다.
 
-22.4 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [22.4 릴리스 개요](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+22.4 릴리스에서 사용할 수 있는 모든 변경 사항 목록을 보려면 [22.4 릴리스 개요](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md)를 참조하십시오.
 
 ## InDesign을 위한 Adobe Workfront
 
 이 플러그인은 이제 InDesign에서 설치할 수 있습니다. XD을 종료하지 않고도 작업 항목 세부 정보에 액세스하고, 업데이트 영역에서 동료와 공동 작업하고, 검토를 위해 증명을 제출할 수 있습니다. 지금 Adobe Creative Cloud 마켓플레이스로 이동하여 플러그인을 다운로드하십시오.
 
-플러그인에 대한 자세한 내용은 [[!DNL Adobe Workfront] 플러그인 [!DNL Creative Cloud] 애플리케이션](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md).
+플러그인에 대한 자세한 내용은 [[!DNL Adobe Workfront] 응용 프로그램 [!DNL Creative Cloud] 용 플러그인](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)을 참조하십시오.
 
-[현재 마켓플레이스에서 InDesign을 위해 Adobe Workfront 다운로드](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-indesign).
+[오늘 마켓플레이스에서 InDesign을 위해 Adobe Workfront을 다운로드하세요](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-indesign).
 
-관리자는 [플러그인을 사용하여 패키지 만들기](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) 관리되거나 자체 관리되는 방식으로 Admin Console 및 를 사용자에게 배포할 수 있습니다.
+또한 관리자는 Admin Console에서 [플러그인을 사용하여 패키지를 만들고](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html)관리 또는 자체 관리 방식으로 사용자에게 배포할 수 있습니다.
 
 ## 기본 Experience Manager Assets 통합으로 개체 메타데이터 동기화
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 이전에는 프로젝트 필드만 자동으로 업데이트되었습니다.
 
-자세한 내용은 [Experience Manager Assets as a Cloud Service 통합 구성](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+자세한 내용은 [Experience Manager Assets as a Cloud Service 통합 구성](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)을 참조하십시오.
 
 ## 메타데이터가 프로그램 및 포트폴리오 상위 개체를 푸시합니다.
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 이전에는 상위 프로젝트 데이터만 전송되었습니다.
 
-자세한 내용은 [Experience Manager Assets 또는 Assets Essentials에게 문서 보내기](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md).
+자세한 내용은 [Experience Manager Assets 또는 Assets Essentials에게 문서 보내기](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)를 참조하십시오.
 
 ## 팀 설명 확장됨
 
@@ -55,9 +55,9 @@ ht-degree: 0%
 
 설명에 대한 이 개선 사항은 애자일 팀과 애자일이 아닌 팀 모두에 적용됩니다.
 
-자세한 내용은 [팀 만들기](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/create-a-team.md).
+자세한 내용은 [팀 만들기](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/create-a-team.md)를 참조하세요.
 
-## Workfront 캠페인(베타) - 작업을 관리하는 새로운 방법
+## Workfront 캠페인(Beta) - 작업을 관리하는 새로운 방법
 
 >[!NOTE]
 >
@@ -75,7 +75,7 @@ Workfront Campaign을 사용하면 새로운 작업 컨테이너에서 다양한
 
 * Campaign이라는 새 Workfront 개체
 
-* 메인 메뉴의 새 캠페인(베타) 영역
+* 메인 메뉴의 새 캠페인(Beta) 영역
 
 * 캠페인 영역의 캠페인 목록
 
@@ -87,6 +87,6 @@ Workfront Campaign을 사용하면 새로운 작업 컨테이너에서 다양한
 
 * 레이아웃 템플릿에서 Campaign 개체의 이름을 바꾸는 기능
 
-  Workfront 시스템 및 그룹 관리자는 레이아웃 템플릿의 기본 메뉴에서 캠페인(베타) 영역을 추가할 수 있습니다. 이렇게 하면 템플릿에 할당된 모든 사용자가 사용할 수 있습니다. 사용 가능한 상태가 되면 Workfront의 모든 사용자가 캠페인을 만들 수 있습니다.
+  Workfront 시스템 및 그룹 관리자는 레이아웃 템플릿의 기본 메뉴에서 캠페인(Beta) 영역을 추가할 수 있습니다. 이렇게 하면 템플릿에 할당된 모든 사용자가 사용할 수 있습니다. 사용 가능한 상태가 되면 Workfront의 모든 사용자가 캠페인을 만들 수 있습니다.
 
 

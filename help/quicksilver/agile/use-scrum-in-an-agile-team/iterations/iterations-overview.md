@@ -2,7 +2,7 @@
 product-area: agile-and-teams
 navigation-topic: iterations
 title: 반복 개요
-description: 빠른 반복은 완료 상태, 번다운 및 스토리 보드의 세 영역으로 구성됩니다.
+description: 애자일 반복은 완료 상태, 번다운 및 스토리 보드의 세 가지 영역으로 구성됩니다.
 author: Lisa
 feature: Agile
 exl-id: db32d3b9-f573-43e3-b4fb-49b75162057b
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 반복 개요
 
-애자일 반복은 다음 세 가지 영역으로 구성됩니다. 완료 상태, 번다운 및 스토리 보드
+애자일 반복은 완료 상태, 번다운 및 스토리 보드의 세 가지 영역으로 구성됩니다.
 
 ![](assets/agile-iteration-with-callouts.png)
 

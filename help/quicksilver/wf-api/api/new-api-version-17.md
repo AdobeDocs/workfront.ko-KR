@@ -9,8 +9,8 @@ role: Developer
 exl-id: 08e90754-5505-424c-ae67-015cc987b5df
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '1351'
-ht-degree: 4%
+source-wordcount: '1353'
+ht-degree: 1%
 
 ---
 
@@ -205,13 +205,13 @@ An AccessRule object represents a rule set in custom access levels that determin
 
 기준선은 특정 시점의 프로젝트 성능에 대한 스냅샷입니다. 여기에는 주요 날짜, 진행 상황, 비용 및 수익 값과 같은 프로젝트에 대한 주요 정보가 저장됩니다.
 
-Baseline 개체가 플래그를 제거했습니다. **INLINE_EDIT**.
+기준 개체가 **INLINE_EDITABLE** 플래그를 제거했습니다.
 
 ### BillingRecord(BILL)
 
 BillingRecord 개체는 청구할 수 있는 수익, 시간 또는 비용을 기록합니다. 이 정보는 외부 회계 시스템에서 송장을 생성하는 데 사용할 수 있습니다.
 
-BillingRecord 개체가 플래그를 제거했습니다. **INLINE_EDIT**.
+BillingRecord 개체가 **INLINE_EDITABLE** 플래그를 제거했습니다.
 
 <!--
 
@@ -328,7 +328,7 @@ ExchangeRate 개체는 Workfront에서 설정된 통화 환율을 나타냅니�
 
 경비는 프로젝트 수명 동안 발생할 수 있는 비인적 비용을 나타냅니다.
 
-경비 개체가 플래그를 제거했습니다. **INLINE_EDIT**.
+경비 개체가 **INLINE_EDITABLE** 플래그를 제거했습니다.
 
 ### 그룹(그룹)
 
@@ -357,13 +357,13 @@ Group 객체는 사용자 및 팀 집합을 나타냅니다. 그룹은 종종 �
 
 Hour 개체는 타임시트에 사용자가 기록한 시간을 나타냅니다.
 
-Hour 개체에서 플래그를 제거했습니다. **INLINE_EDIT**.
+Hour 개체가 **INLINE_EDITABLE** 플래그를 제거했습니다.
 
 ### 반복(ITRN)
 
 Iteration 객체는 단일 애자일 반복을 나타냅니다. 반복은 애자일 스토리를 계획하고 완료하는 데 사용되는 이산 기간입니다.
 
-Iteration 개체에서 플래그를 제거했습니다. **INLINE_EDIT**.
+반복 개체가 **INLINE_EDITABLE** 플래그를 제거했습니다.
 
 
 ### 저널 게시물(JRNL)
@@ -395,7 +395,7 @@ JournalEntry 개체는 특정 개체 필드에 대한 정보를 해당 필드가
               <li>검토자 변경됨(ARC)</li>
               <li>검토 완료(RDC)</li>
               <li>리뷰가 취소되었습니다(RDR).</li>
-              <li>게시(PUB)</li>
+              <li>Publish (PUB)</li>
             </ul>
           </li>
         </ul>
@@ -408,7 +408,7 @@ JournalEntry 개체는 특정 개체 필드에 대한 정보를 해당 필드가
 
 Kanban 보드는 애자일 환경에서 작업을 추적하는 데 사용됩니다.
 
-Kanban 보드 개체에서 플래그를 제거했습니다. **INLINE_EDIT**.
+Kanban 보드 개체가 **INLINE_EDITABLE** 플래그를 제거했습니다.
 
 
 ### LinkedFolder(LNKFDR)
@@ -438,13 +438,13 @@ LinkedFolder 개체는 Google 드라이브 또는 Dropbox과 같은 외부 문�
 
 OpTask 객체를 일반적으로 문제라고 합니다. 문제는 일반적으로 작업 또는 프로젝트의 완료를 방해하는 문제가 있음을 나타내는 작업 항목입니다. 문제는 헬프 데스크 요청일 수도 있습니다. 변경 주문, 요청 및 버그도 문제가 됩니다.
 
-Issue 개체에서 플래그를 제거했습니다. **INLINE_EDIT**.
+Issue 개체가 **INLINE_EDITABLE** 플래그를 제거했습니다.
 
 ### 프로젝트(프로젝트)
 
 프로젝트는 Workfront 내의 작업 항목이며 Workfront이 작업을 수행하는 데 도움을 주는 방식의 주요 빌딩 블록입니다. Project 개체는 일반적인 특정 목표를 가진 작업 그룹을 나타냅니다.
 
-프로젝트 개체에서 플래그를 제거했습니다. **INLINE_EDIT**.
+프로젝트 개체가 **INLINE_EDITABLE** 플래그를 제거했습니다.
 
 ### 프로젝트 사용자(PRTU)
 
@@ -493,7 +493,7 @@ A QueueDef object represents a Queue, which is a project that has been published
 
 요금 오브젝트는 Workfront에서의 청구 요금을 나타냅니다.
 
-Rate 개체에서 플래그를 제거했습니다. **INLINE_EDIT**.
+Rate 개체가 **INLINE_EDITABLE** 플래그를 제거했습니다.
 
 <table>
   <col/>
@@ -508,7 +508,7 @@ Rate 개체에서 플래그를 제거했습니다. **INLINE_EDIT**.
           <li><p><b>getUsedClassifierIds</b></p></li>
           <li><p><b>setRatesFromRateCard</b></p></li>
         </ul>
-        <p>다음 <b>setRatesForRole</b> 다음 필드를 추가하도록 작업이 수정되었습니다.
+        <p><b>setRatesForRole</b> 작업이 다음 필드를 추가하도록 수정되었습니다.
         <ul>
         <li>분류자 ID</li>
         <li>currencyCode</li>
@@ -523,11 +523,11 @@ Rate 개체에서 플래그를 제거했습니다. **INLINE_EDIT**.
 
 위험 개체는 프로젝트가 정시 또는 예산 내에서 완료되지 않을 수 있는 가능한 이벤트를 나타냅니다. 작업 승인 전에 잠재적인 장애 요소를 식별하기 위해 계획 단계에서 프로젝트에 위험이 추가됩니다.
 
-위험 개체에서 플래그를 제거했습니다. **INLINE_EDIT**.
+위험 개체가 **INLINE_EDITABLE** 플래그를 제거했습니다.
 
 ### 역할/작업 역할(역할)
 
-역할 객체(작업 역할)는 사용자가 채울 수 있는 기능 역량 또는 기술 세트(예: 디자이너 또는 제품 관리자)를 나타냅니다.
+역할 객체(작업 역할)는 Designer 또는 제품 관리자와 같이 사용자가 채울 수 있는 기능 역량 또는 스킬 세트를 나타냅니다.
 
 <table>
   <col/>
@@ -552,7 +552,7 @@ Rate 개체에서 플래그를 제거했습니다. **INLINE_EDIT**.
 
 작업 객체는 최종 목표 달성(프로젝트 완료)을 위한 단계로 수행해야 하는 작업 항목을 나타냅니다.
 
-작업 개체에서 플래그를 제거했습니다. **INLINE_EDIT**.
+작업 개체가 **INLINE_EDITABLE** 플래그를 제거했습니다.
 
 ### 팀(TEAOB)
 
@@ -712,7 +712,7 @@ Workfront의 작업 항목을 업데이트하여 사용자에게 현재 상태�
 
 사용자 개체는 로그인하여 시스템과 상호 작용할 수 있는 Workfront의 계정을 가진 사용자를 나타냅니다.
 
-사용자 개체가 플래그를 제거했습니다. **INLINE_EDIT**.
+사용자 개체가 **INLINE_EDITABLE** 플래그를 제거했습니다.
 
 <table>
   <col/>
@@ -723,7 +723,7 @@ Workfront의 작업 항목을 업데이트하여 사용자에게 현재 상태�
       <td>
         <ul>
           <li>
-            <p><b>workTime</b>
+            <p><b>작업 시간</b>
             </p>
             <p>이 필드가 추가되었으며, 0에서 1 사이의 숫자로, 사용자가 매일 프로젝트 작업(오버헤드가 아닌 작업)에 소비할 수 있는 시간의 백분율을 나타냅니다. 값 1은 사용자가 프로젝트 작업에 시간을 100% 사용할 수 있음을 의미합니다.</p>
           </li>
@@ -735,7 +735,7 @@ Workfront의 작업 항목을 업데이트하여 사용자에게 현재 상태�
       <td>
         <ul>
           <li>
-            <p><b>사용자 위치</b>
+            <p><b>userLocations</b>
             </p>
           </li>
         </ul>
@@ -812,7 +812,7 @@ UserNote 객체는 알림입니다.
               <li>문서에 검토(AND)가 아닌 지금 사용자의 승인이 필요합니다.</li>
               <li>검토된 문서(RDC)</li>
               <li>검토된 문서(TRC)</li>
-              <li>(사용자)가 (문서)를 완료된 것으로 검토했습니다. 더 이상 검토가 필요하지 않습니다. (TRN)</li>
+              <li>(사용자)가 (문서)를 완료된 것으로 검토했습니다. 더 이상 검토할 필요가 없습니다. (TRN)</li>
             </ul>
           </li>
         </ul>

@@ -18,9 +18,9 @@ ht-degree: 11%
 
 다음은 현재 및 이전 릴리스의 릴리스 정보에 대한 링크입니다.
 
-Adobe Workfront 릴리스 일정에 대한 자세한 내용은 다음을 참조하십시오. [Adobe Workfront 릴리스 일정 및 프로세스](../../product-announcements/product-releases/workfront-release-schedule.md).
+Adobe Workfront 릴리스 일정에 대한 자세한 내용은 [Adobe Workfront 릴리스 일정 및 프로세스](../../product-announcements/product-releases/workfront-release-schedule.md)를 참조하십시오.
 
-조직이 새로운 릴리스에 원활하게 적응하는 데 도움이 되는 정보는 다음을 참조하십시오. [릴리스 준비](../../product-announcements/product-releases/release-readiness.md).
+조직이 새로운 릴리스에 원활하게 적응하는 데 도움이 되는 정보는 [릴리스 준비](../../product-announcements/product-releases/release-readiness.md)를 참조하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -46,7 +46,7 @@ Adobe Workfront 릴리스 일정에 대한 자세한 내용은 다음을 참조�
     <li> <p><a href="../../product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md" class="MCXref xref" xrefformat="{para}">23.1 릴리스 개요</a> </p> </li>
     </ul> </td> 
    <td>    <ul> 
-     <li> <p><a href="../../product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-release.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront 목표 및 23.3 릴리스</a> </p> </li> 
+     <li> <p><a href="../../product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-release.md" class="MCXref xref" xrefformat="{para}">23.3 릴리스의 Adobe Workfront 목표</a> </p> </li> 
      <li> <p><a href="../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion 릴리스 활동</a> </p> </li> 
     </ul></td> 
   </tr>

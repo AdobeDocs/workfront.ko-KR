@@ -20,11 +20,11 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->이 문서는 독립 실행형 제품의 기능에 대해 설명합니다 [!DNL Workfront Proof]. 내부 교정에 대한 정보 [!DNL Adobe Workfront], 참조 [증명](../../../review-and-approve-work/proofing/proofing.md).
+>이 문서는 독립 실행형 제품 [!DNL Workfront Proof]의 기능을 참조합니다. [!DNL Adobe Workfront] 내부의 증명에 대한 자세한 내용은 [증명](../../../review-and-approve-work/proofing/proofing.md)을 참조하십시오.
 
 이 섹션에는 다음 문서가 포함됩니다.
 
 * [증명에 그룹 추가](../../../workfront-proof/wp-mnguserscontacts/groups/add-groups.md)
-* [다음을 사용하여 증명 그룹 만들기 [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md)
-* [다음을 사용하여 그룹을 비공개로 설정 [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/make-groups-private.md)
-* [다음을 사용하여 그룹 관리 [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/manage-groups.md)
+* [ [!DNL Workfront Proof]을(를) 사용하여 증명 그룹 만들기](../../../workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md)
+* [ [!DNL Workfront Proof]을(를) 사용하여 그룹을 비공개로 설정](../../../workfront-proof/wp-mnguserscontacts/groups/make-groups-private.md)
+* [ [!DNL Workfront Proof]을(를) 사용하여 그룹 관리](../../../workfront-proof/wp-mnguserscontacts/groups/manage-groups.md)

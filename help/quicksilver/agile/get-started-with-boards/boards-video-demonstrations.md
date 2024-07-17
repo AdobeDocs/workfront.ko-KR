@@ -26,7 +26,7 @@ ht-degree: 1%
 
 기본 또는 간단한 보드를 사용하면 보드를 사용하여 작업을 빠르게 추적할 수 있습니다. 기본 열은 템플릿에 포함되어 있으며 카드를 추가하고 작업을 할당할 수 있습니다.
 
-[기본 보드의 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3416382/){target=_blank}
+[기본 게시판의 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3416382/){target=_blank}
 
 ### 칸반 보드
 
@@ -38,7 +38,7 @@ Kanban 보드에는 Workfront에서 작업 및 문제를 보드로 가져오기 
 
 동적 보드를 사용하면 Workfront 프로젝트에 따라 보드를 카드로 자동으로 채울 수 있습니다. 필터를 사용하면 카드를 상태에 따라 열에 추가합니다.
 
-[다이내믹 보드의 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3422404/){target=_blank}
+[동적 보드의 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3422404/){target=_blank}
 
 ### 모바일 보드
 
@@ -64,4 +64,4 @@ Kanban 보드에는 Workfront에서 작업 및 문제를 보드로 가져오기 
 
 일부 팀은 보드 작업을 선호하지만 다른 팀은 Workfront 프로젝트 보기를 선호할 수 있습니다. 보드에 연결된 카드는 Workfront 작업 및 문제에 동기화되므로 사용하는 보기에 관계없이 최신 세부 정보를 항상 볼 수 있습니다.
 
-[하이브리드 작업 관리에 대한 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3416381/){target=_blank}
+[하이브리드 작업 관리의 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3416381/){target=_blank}

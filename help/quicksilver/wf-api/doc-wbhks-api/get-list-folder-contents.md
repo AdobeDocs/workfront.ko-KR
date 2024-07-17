@@ -10,8 +10,8 @@ role: Developer
 exl-id: 9c9f9222-59ac-4643-8297-d4939bec7e64
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 7%
+source-wordcount: '96'
+ht-degree: 3%
 
 ---
 
@@ -29,7 +29,7 @@ GET /files
 | 이름  | 설명 |
 |---|---|
 | parentId  | 폴더 ID입니다. 루트 디렉토리의 메타데이터를 가져오려면 값 &#39;/&#39;를 사용합니다. |
-| 최대  | 반환할 최대 항목 수입니다. 페이지 매김에 사용됩니다. |
+| max  | 반환할 최대 항목 수입니다. 페이지 매김에 사용됩니다. |
 | offset  |  &#39;max&#39;와 함께 사용되는 페이지 오프셋입니다. |
 
 

@@ -18,7 +18,7 @@ ht-degree: 1%
 
 이 페이지에서는 2019.2 릴리스에 포함된 모든 프로젝트 개선 사항에 대해 설명합니다. 이 기능은 2019년 5월 20일이 있는 주에 프로덕션 환경에서 사용할 수 있습니다.
 
-2019.2의 모든 변경 사항 목록은 을 참조하십시오. [2019.2 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
+2019.2의 모든 변경 사항 목록은 [2019.2 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md)를 참조하십시오.
 
 ## 상태를 사용자 지정할 때 더 빠르게 그룹 찾기
 
@@ -26,13 +26,13 @@ ht-degree: 1%
 
 이전에는 드롭다운 메뉴에 제한된 수의 그룹이 표시되었습니다. 원하는 그룹이 표시되지 않으면 설정 > 그룹으로 이동하여 특정 그룹을 찾아 그룹의 상태를 사용자 정의해야 합니다.
 
-자세한 내용은 [상태 만들기 또는 편집](../../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+자세한 내용은 [상태 만들기 또는 편집](../../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)을 참조하세요.
 
 ## 작업에 기본 사용자 지정 Forms 및 승인 프로세스 첨부
 
 이제 프로젝트에 작업을 추가할 때 작업에 첨부할 기본 사용자 정의 양식 및 승인 프로세스를 구성할 수 있습니다. 프로젝트 수준에서 기본 설정을 구성할 수 있습니다.
 
-프로젝트 수준의 작업에 대한 기본 사용자 정의 양식 및 승인 프로세스 구성에 대한 자세한 내용은 [프로젝트 편집](../../../../manage-work/projects/manage-projects/edit-projects.md) 기사.
+프로젝트 수준의 작업에 대한 기본 사용자 정의 양식 및 승인 프로세스를 구성하는 방법에 대한 자세한 내용은 [프로젝트 편집](../../../../manage-work/projects/manage-projects/edit-projects.md) 문서의 &quot;작업&quot; 섹션을 참조하십시오.
 
 ## 작업 목록에 상위 작업의 전체 행을 굵게 표시
 
@@ -44,9 +44,9 @@ ht-degree: 1%
 
 이 개선 이전에는 모든 변경 사항이 항상 자동으로 저장되었습니다.
 
-작업 목록에서 작업을 편집하는 방법에 대한 자세한 내용은 [작업 편집](../../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+작업 목록에서 작업을 편집하는 방법에 대한 자세한 내용은 [작업 편집](../../../../manage-work/tasks/manage-tasks/edit-tasks.md)을 참조하십시오.
 
-간트 차트에서 작업 편집에 대한 자세한 내용은 [작업 목록 간트 차트에서 정보 업데이트](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
+간트 차트에서 작업을 편집하는 방법에 대한 자세한 내용은 [작업 목록 간트 차트에서 정보 업데이트](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)를 참조하십시오.
 
 ## 새 목록의 새 열 너비 기본값
 
@@ -54,7 +54,7 @@ ht-degree: 1%
 
 이 개선 이전에는 별도로 지정하지 않는 한 새 프로젝트 및 작업 보기의 열 너비가 100픽셀로 설정되었습니다.
 
-열 너비에 대한 자세한 내용은 [열 너비 및 순서 수정](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
+열 너비에 대한 자세한 내용은 [열 너비 및 순서 수정](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)을 참조하십시오.
 
 ## 사용하지 않는 개체 비활성화
 
@@ -86,7 +86,7 @@ ht-degree: 1%
 
 이러한 프로젝트 성능 지표는 이전에 Workfront의 재무 계산에 사용되었지만, 이 개선 이전에는 시스템에 표시되지 않았습니다.
 
-BCWS 계산에 대한 자세한 내용은 [예약된 작업의 예산 비용 계산(BCWS)](../../../../manage-work/projects/project-finances/calculate-bcws.md).
+BCWS 계산에 대한 자세한 내용은 [BCWS(예약된 작업의 예산 비용) 계산](../../../../manage-work/projects/project-finances/calculate-bcws.md)을 참조하십시오.
 
-BCWP 계산에 대한 자세한 내용은 [수행된 작업의 예산 비용 계산(BCWP)](../../../../manage-work/projects/project-finances/calculate-bcwp.md).
+BCWP 계산에 대한 자세한 내용은 [BCWP(수행된 작업의 예산 비용 계산)](../../../../manage-work/projects/project-finances/calculate-bcwp.md)을 참조하세요.
 

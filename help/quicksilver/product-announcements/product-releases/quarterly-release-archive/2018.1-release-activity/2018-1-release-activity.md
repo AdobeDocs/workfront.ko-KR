@@ -17,8 +17,8 @@ ht-degree: 0%
 # 2018.1 릴리스 활동
 
 * [2018.1 릴리스 활동 개요](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md)
-* [2018.1 베타 최종 릴리스 활동](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-final-release-activity.md)
-* [2018.1 베타 4 릴리스 활동](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-4-release-activity.md)
-* [2018.1 베타 3 릴리스 활동](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-3-release-activity.md)
-* [2018.1 베타 2 릴리스 활동](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-2-release-activity.md)
-* [2018.1 베타 1 릴리스 활동](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-1-release-activity.md)
+* [2018.1 Beta 최종 릴리스 활동](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-final-release-activity.md)
+* [2018.1 Beta 4 릴리스 활동](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-4-release-activity.md)
+* [2018.1 Beta 3 릴리스 활동](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-3-release-activity.md)
+* [2018.1 Beta 2 릴리스 활동](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-2-release-activity.md)
+* [2018.1 Beta 1 릴리스 활동](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-1-release-activity.md)

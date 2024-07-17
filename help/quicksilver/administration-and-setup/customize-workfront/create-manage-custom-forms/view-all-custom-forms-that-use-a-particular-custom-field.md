@@ -19,7 +19,7 @@ ht-degree: 0%
 
 변경하거나 삭제하려는 사용자 정의 필드 또는 위젯을 사용하는 사용자 정의 양식을 확인할 수 있습니다. 이러한 사용자 정의 양식이 제대로 작동하도록 조정해야 하는지 또는 필드 또는 위젯을 변경하거나 삭제한 후 계속 유용하게 사용되도록 조정해야 하는지 여부를 평가하는 것이 중요합니다.
 
-사용자 정의 양식의 사용자 정의 필드 및 위젯에 대한 자세한 내용은 [사용자 정의 양식에 사용자 정의 필드 추가](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) 및 [사용자 정의 양식에서 에셋 위젯 추가 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+사용자 정의 양식의 사용자 정의 필드 및 위젯에 대한 자세한 내용은 [사용자 정의 양식에 사용자 정의 필드 추가](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) 및 [사용자 정의 양식의 에셋 위젯 추가 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)을 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -47,12 +47,12 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## 특정 사용자 정의 필드 또는 위젯을 사용하는 사용자 정의 양식 확인
 
 {{step-1-to-setup}}
 
-1. 왼쪽 패널에서 **사용자 지정 Forms**.
-1. 클릭 **필드**&#x200B;에서 필드 또는 위젯을 찾습니다. **이름** 열을 선택한 다음 **Forms** 열에는 필드 또는 위젯을 사용하는 사용자 정의 양식을 볼 수 있습니다.
+1. 왼쪽 패널에서 **사용자 지정 Forms**&#x200B;을 클릭합니다.
+1. **필드**&#x200B;를 클릭하고 **이름** 열에서 필드 또는 위젯을 찾은 다음 **Forms** 열을 보고 필드 또는 위젯을 사용하는 사용자 정의 양식을 확인합니다.
 1. (선택 사항) 이러한 사용자 정의 양식의 이름을 클릭하여 양식으로 이동한 후 필드 또는 위젯을 수정하는 경우 변경할 내용을 고려합니다.

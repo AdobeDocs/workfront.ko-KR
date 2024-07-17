@@ -11,18 +11,18 @@ feature: Workfront Fusion, Digital Content and Documents
 exl-id: 680a5328-1d50-4434-beda-7a4670a6e458
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1623'
+source-wordcount: '1618'
 ht-degree: 0%
 
 ---
 
-# [!DNL Google Slides] 모듈
+# [!DNL Google Slides]개 모듈
 
-다음 [!DNL Adobe Workfront Fusion] [!DNL Google Slides] 모듈을 사용하면 프레젠테이션을 생성, 업데이트, 나열 및/또는 삭제하고 이미지를 의 프레젠테이션에 업로드할 수 있습니다. [!DNL Google Slides] 계정입니다.
+[!DNL Adobe Workfront Fusion] [!DNL Google Slides] 모듈을 사용하면 프레젠테이션을 만들기, 업데이트, 나열 및/또는 삭제하고 [!DNL Google Slides] 계정의 프레젠테이션에 이미지를 업로드할 수 있습니다.
 
-를 사용하려면 [!DNL Google Slides] 포함 [!DNL Workfront Fusion], 다음을 보유해야 합니다. [!DNL Google] 계정입니다. A가 없다면 [!DNL Google] 아직 다음 위치에서 계정을 만들 수 있습니다. [!DNL Google] 계정 도움말 페이지
+[!DNL Workfront Fusion]에 [!DNL Google Slides]을(를) 사용하려면 [!DNL Google] 계정이 있어야 합니다. 아직 [!DNL Google] 계정이 없는 경우 [!DNL Google] 계정 도움말 페이지에서 계정을 만들 수 있습니다.
 
-필요한 사항 [!DNL Google Slides] (으)로 [!DNL Google Drive].
+[!DNL Google Drive]에도 [!DNL Google Slides]이(가) 필요합니다.
 
 ## 액세스 요구 사항
 
@@ -43,35 +43,35 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 라이센스**</td> 
    <td>
-   <p>현재 라이선스 요구 사항: 아니요 [!DNL Workfront Fusion] 라이센스 요구 사항.</p>
+   <p>현재 라이선스 요구 사항: [!DNL Workfront Fusion] 라이선스 요구 사항이 없습니다.</p>
    <p>또는</p>
-   <p>기존 라이선스 요구 사항: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
+   <p>레거시 라이선스 요구 사항: 작업 자동화 및 통합을 위한 [!UICONTROL [!DNL Workfront Fusion]] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">제품</td> 
    <td>
-   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime]이 있는 경우 [!DNL Adobe Workfront] 플랜, 조직은 다음을 구매해야 합니다. [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오. [!DNL Workfront Fusion] [!UICONTROL Ultimate]에 포함되어 있습니다. [!DNL Workfront] 계획.</p>
+   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime] [!DNL Adobe Workfront] 플랜이 있는 경우 조직에서 이 문서에 설명된 기능을 사용하려면 [!DNL Adobe Workfront Fusion]과(와) [!DNL Adobe Workfront]을(를) 구매해야 합니다. [!DNL Workfront Fusion]이(가) [!UICONTROL Ultimate] [!DNL Workfront] 계획에 포함되어 있습니다.</p>
    <p>또는</p>
-   <p>레거시 제품 요구 사항: 조직에서 구매해야 함 [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오.</p>
+   <p>레거시 제품 요구 사항: 이 문서에 설명된 기능을 사용하려면 조직에서 [!DNL Adobe Workfront Fusion]과(와) [!DNL Adobe Workfront]을(를) 구매해야 합니다.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
+보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
 
-다음에 대한 정보: [!DNL Adobe Workfront Fusion] 라이센스, 참조 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+[!DNL Adobe Workfront Fusion] 라이선스에 대한 자세한 내용은 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md)를 참조하세요.
 
 ## 전제 조건
 
-사용 [!DNL Google Slides] 모듈, 다음이 있어야 합니다. [!DNL Google] 계정입니다.
+[!DNL Google Slides] 모듈을 사용하려면 [!DNL Google] 계정이 있어야 합니다.
 
-## [!DNL Google Slides] 모듈 및 해당 필드
+## [!DNL Google Slides]개 모듈 및 해당 필드
 
-를 구성할 때 [!DNL Google Slides] 모듈 Workfront Fusion에는 아래 나열된 필드가 표시됩니다. 이와 함께 추가 [!DNL Google Slides] 앱이나 서비스의 액세스 수준 등에 따라 필드가 표시될 수 있습니다. 모듈의 굵은 제목은 필수 필드를 나타냅니다.
+[!DNL Google Slides] 모듈을 구성하면 Workfront Fusion에 아래 나열된 필드가 표시됩니다. 앱 또는 서비스의 액세스 수준과 같은 요소에 따라 이러한 필드와 함께 [!DNL Google Slides] 필드가 추가로 표시될 수 있습니다. 모듈의 굵은 제목은 필수 필드를 나타냅니다.
 
-필드나 함수 위에 맵 단추가 표시되면 이 단추를 사용하여 해당 필드에 대한 변수와 함수를 설정할 수 있습니다. 자세한 내용은 [의 한 모듈에서 다른 모듈로 정보 매핑 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+필드나 함수 위에 맵 단추가 표시되면 이 단추를 사용하여 해당 필드에 대한 변수와 함수를 설정할 수 있습니다. 자세한 내용은 [한 모듈에서 다른 모듈로 정보를 매핑 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)을 참조하십시오.
 
 ![](assets/map-toggle-350x74.png)
 
@@ -81,8 +81,8 @@ ht-degree: 0%
 ### 프레젠테이션
 
 * [[!UICONTROL Presentations 시청]](#watch-presentations)
-* [[!UICONTROL 목록 Presentations]](#list-presentations)
-* [[!UICONTROL 프레젠테이션 받기]](#get-a-presentation)
+* [[!UICONTROL Presentations 나열]](#list-presentations)
+* [[!UICONTROL 프레젠테이션 가져오기]](#get-a-presentation)
 * [[!UICONTROL 페이지/썸네일 가져오기]](#get-a-pagethumbnail)
 * [[!UICONTROL 템플릿에서 프레젠테이션 만들기]](#create-a-presentation-from-a-template)
 * [[!UICONTROL 프레젠테이션에 이미지 업로드]](#upload-an-image-to-a-presentation)
@@ -99,7 +99,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Google Slides] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Google Slides] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Watch] </td> 
@@ -116,7 +116,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-#### [!UICONTROL 목록 Presentations]
+#### [!UICONTROL Presentations 나열]
 
 모든 프레젠테이션 목록을 검색합니다.
 
@@ -126,11 +126,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Google Slides] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Google Slides] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 드라이브 위치 선택]</td> 
-   <td> <p>다음 항목 선택 [!DNL Google Drive] 나열할 프레젠테이션이 있는 위치:</p> 
+   <td> <p>나열할 프레젠테이션이 있는 [!DNL Google Drive]을(를) 선택하십시오.</p> 
     <ul> 
      <li>[!UICONTROL 내 드라이브]</li> 
      <li>[!UICONTROL 나와 공유됨]</li> 
@@ -143,12 +143,12 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 제한]</td> 
-   <td> <p>최대 프레젠테이션 수 [!DNL Workfront Fusion] 한 시나리오 실행 주기 중에 를 반환해야 합니다.</p> </td> 
+   <td> <p>한 시나리오 실행 주기 동안 최대 프레젠테이션 수 [!DNL Workfront Fusion]이(가) 반환되어야 합니다.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL 프레젠테이션 받기]
+#### [!UICONTROL 프레젠테이션 가져오기]
 
 지정된 프레젠테이션의 최신 버전을 가져옵니다.
 
@@ -158,11 +158,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Google Slides] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Google Slides] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 드라이브 선택]</td> 
-   <td> <p>다음 항목 선택 [!DNL Google Drive] 나열할 프레젠테이션이 있는 위치:</p> 
+   <td> <p>나열할 프레젠테이션이 있는 [!DNL Google Drive]을(를) 선택하십시오.</p> 
     <ul> 
      <li>[!UICONTROL 내 드라이브]</li> 
      <li>[!UICONTROL 나와 공유됨]</li> 
@@ -186,7 +186,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Google Slides] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Google Slides] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 프레젠테이션 ID]</td> 
@@ -205,7 +205,7 @@ ht-degree: 0%
 
 #### [!UICONTROL 템플릿에서 프레젠테이션 만들기]
 
-다음과 같은 태그를 모두 교체하여 새 프레젠테이션을 만듭니다. `{{Name}}`, `{{Email}}` 제공된 데이터가 있는 템플릿에서
+템플릿의 `{{Name}}`, `{{Email}}`과(와) 같은 모든 태그를 제공된 데이터로 바꾸어 새 프레젠테이션을 만듭니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -213,7 +213,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Google Slides] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Google Slides] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Title] </td> 
@@ -233,7 +233,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 드라이브 선택]</td> 
-   <td> <p>다음 항목 선택 [!DNL Google Drive] 나열할 프레젠테이션이 있는 위치:</p> 
+   <td> <p>나열할 프레젠테이션이 있는 [!DNL Google Drive]을(를) 선택하십시오.</p> 
     <ul> 
      <li>[!UICONTROL 내 드라이브]</li> 
      <li>[!UICONTROL 나와 공유됨]</li> 
@@ -248,8 +248,8 @@ ht-degree: 0%
    <td role="rowheader">[!UICONTROL 값] </td> 
    <td> <p>값을 추가합니다.</p> 
     <ul> 
-     <li><strong>[!UICONTROL 태그]</strong>: 프레젠테이션에서 바꿀 태그를 입력합니다. For example, <code>&#123;&#123;Name&#125;&#125;</code></li> 
-     <li><strong>[!UICONTROL Replaced Value]</strong>: 기존 태그를 대체할 값을 입력합니다. 예를 들어 문자열을 나타내는 경우 <tr><ul><tr><tr><tr><code>&#123;&#123;Name&#125;&#125;/code> in the presentation and the replaced value is Sample, then the <code>&#123;&#123;Name}}</code> will be replaced by <code>Sample</code>.</li> 
+     <li><strong>[!UICONTROL 태그]</strong>: 프레젠테이션에서 바꿀 태그를 입력하십시오. For example, <code>&#123;&#123;Name&#125;&#125;</code></li> 
+     <li><strong>[!UICONTROL Replaced Value]</strong>: 기존 태그를 대체할 값을 입력하십시오. 예를 들어 문자열을 나타내는 경우 <tr><ul><tr><tr><tr><code>&#123;&#123;Name&#125;&#125;/code> in the presentation and the replaced value is Sample, then the <code>&#123;&#123;Name}}</code> will be replaced by <code>Sample</code>.</li> 
     </ul> </td> 
   </tr> 
    
@@ -286,7 +286,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Google Slides] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Google Slides] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 프레젠테이션 선택]</td> 
@@ -298,7 +298,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 드라이브 선택]</td> 
-   <td> <p>다음 항목 선택 [!DNL Google Drive] 나열할 프레젠테이션이 있는 위치:</p> 
+   <td> <p>나열할 프레젠테이션이 있는 [!DNL Google Drive]을(를) 선택하십시오.</p> 
     <ul> 
      <li>[!UICONTROL 내 드라이브]</li> 
      <li>[!UICONTROL 나와 공유됨]</li> 
@@ -330,11 +330,11 @@ ID로 지정된 프레젠테이션에 저장된 차트 데이터를 새로 고�
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Google Slides] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Google Slides] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 드라이브 선택]</td> 
-   <td> <p>다음 항목 선택 [!DNL Google Drive] 나열할 프레젠테이션이 있는 위치:</p> 
+   <td> <p>나열할 프레젠테이션이 있는 [!DNL Google Drive]을(를) 선택하십시오.</p> 
     <ul> 
      <li>[!UICONTROL 내 드라이브]</li> 
      <li>[!UICONTROL 나와 공유됨]</li> 
@@ -362,7 +362,7 @@ ID로 지정된 프레젠테이션에 저장된 차트 데이터를 새로 고�
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Google Slides] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Google Slides] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 메서드 선택]</td> 
@@ -407,15 +407,15 @@ ID로 지정된 프레젠테이션에 저장된 차트 데이터를 새로 고�
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Google Slides] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Google Slides] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
-   <td> <p>https://developers.google.com/slides/에 상대적인 경로를 입력합니다. 예: 프레젠테이션</p> <p>사용 가능한 엔드포인트 목록은 <a href="https://developers.google.com/slides/reference/rest">[!DNL Google Slides] API 설명서</a>.</p> </td> 
+   <td> <p>https://developers.google.com/slides/에 상대적인 경로를 입력합니다. 예: 프레젠테이션</p> <p>사용 가능한 끝점 목록은 <a href="https://developers.google.com/slides/reference/rest">[!DNL Google Slides] API 설명서</a>를 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 메서드]</td> 
-   <td> <p>API 호출을 구성하는 데 필요한 HTTP 요청 메서드를 선택합니다. 자세한 내용은 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">의 HTTP 요청 메서드 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>API 호출을 구성하는 데 필요한 HTTP 요청 메서드를 선택합니다. 자세한 내용은 [!DNL Adobe Workfront Fusion]</a>에서 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">HTTP 요청 메서드를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -427,7 +427,7 @@ ID로 지정된 프레젠테이션에 저장된 차트 데이터를 새로 고�
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>표준 JSON 개체의 형태로 API 호출에 대한 본문 콘텐츠를 추가합니다.</p> <p>참고:  <p>다음과 같은 조건문을 사용할 때 <code>if</code> json에서 따옴표를 조건문 외부에 넣습니다.</p> 
+   <td> <p>표준 JSON 개체의 형태로 API 호출에 대한 본문 콘텐츠를 추가합니다.</p> <p>참고:  <p>JSON에서 <code>if</code>과(와) 같은 조건문을 사용할 때 따옴표를 조건문 외부에 넣으십시오.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -437,7 +437,7 @@ ID로 지정된 프레젠테이션에 저장된 차트 데이터를 새로 고�
 
 >[!INFO]
 >
->**예:** API 호출을 사용하여 입력한 프레젠테이션 ID에 대한 프레젠테이션 세부 사항을 가져올 수 있습니다. 에서 프레젠테이션을 열면 URL에서 프레젠테이션 ID를 찾을 수 있습니다 [!DNL Google Slides].
+>**예:** API 호출을 사용하면 입력한 프레젠테이션 ID에 대한 프레젠테이션 세부 정보를 가져올 수 있습니다. [!DNL Google Slides]에서 프레젠테이션을 열면 URL에서 프레젠테이션 ID를 찾을 수 있습니다.
 >
 >![](assets/api-call-350x13.png)
 >
@@ -445,7 +445,7 @@ ID로 지정된 프레젠테이션에 저장된 차트 데이터를 새로 고�
 >
 >![](assets/presentation-details.png)
 >
->검색 일치 항목은 아래의 모듈 출력에서 찾을 수 있습니다. [!UICONTROL 번들] > [!UICONTROL 본문] > [!UICONTROL presentationId].
+>검색 일치 항목은 [!UICONTROL 번들] > [!UICONTROL 본문] > [!UICONTROL presentationId]의 모듈 출력에서 찾을 수 있습니다.
 >
 >이 예제에서 요청된 프레젠테이션 세부 사항이 반환되었습니다.
 >
@@ -461,7 +461,7 @@ ID로 지정된 프레젠테이션에 저장된 차트 데이터를 새로 고�
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Google Slides] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Google Slides] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 프레젠테이션 선택]</td> 
@@ -473,7 +473,7 @@ ID로 지정된 프레젠테이션에 저장된 차트 데이터를 새로 고�
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 드라이브 선택]</td> 
-   <td> <p>다음 항목 선택 [!DNL Google Drive] 나열할 프레젠테이션이 있는 위치:</p> 
+   <td> <p>나열할 프레젠테이션이 있는 [!DNL Google Drive]을(를) 선택하십시오.</p> 
     <ul> 
      <li>[!UICONTROL 내 드라이브]</li> 
      <li>[!UICONTROL 나와 공유됨]</li> 

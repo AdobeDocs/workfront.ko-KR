@@ -21,7 +21,7 @@ ht-degree: 0%
 레코드를 Adobe Workfront Planning에서 고유한 썸네일과 연결하여 쉽게 인식할 수 있습니다.
 
 레코드 만들기 및 편집을 시작하려면 먼저 레코드 유형을 만들어야 합니다.
-자세한 내용은 [레코드 유형 만들기](/help/quicksilver/planning/architecture/create-record-types.md).
+자세한 내용은 [레코드 종류 만들기](/help/quicksilver/planning/architecture/create-record-types.md)를 참조하세요.
 
 ## 액세스 요구 사항
 
@@ -75,14 +75,14 @@ ht-degree: 0%
   </tr>
 <tr>
    <td role="rowheader"><p>레이아웃 템플릿</p></td>
-   <td>  <p>Workfront 관리자를 포함한 모든 사용자에게 메인 메뉴의 계획 영역을 포함하는 레이아웃 템플릿을 할당해야 합니다. </p> <p>자세한 내용은 <a href="/help/quicksilver/planning/access/access-overview.md">액세스 개요</a>. </p>  
+   <td>  <p>Workfront 관리자를 포함한 모든 사용자에게 메인 메뉴의 계획 영역을 포함하는 레이아웃 템플릿을 할당해야 합니다. </p> <p>자세한 내용은 <a href="/help/quicksilver/planning/access/access-overview.md">액세스 개요</a>를 참조하십시오. </p>  
 </td>
   </tr>
 
 </tbody>
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*자세한 내용은 Workfront 설명서의 [액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## 레코드 썸네일에 대한 고려 사항
 
@@ -115,8 +115,8 @@ ht-degree: 0%
 1. 썸네일을 추가할 레코드가 있는 작업 영역을 클릭한 다음 레코드 유형 카드를 클릭합니다.
 
    그러면 레코드 유형 페이지가 열립니다.
-1. 다음에서 표 보기 선택 **보기** 드롭다운 메뉴. 선택한 유형의 모든 레코드가 테이블에 표시됩니다.
-1. 기본 필드 정보를 마우스로 가리킨 다음 **자세히** 메뉴 ![](assets/more-menu.png)을 클릭한 다음 을 클릭합니다 **축소판**.
+1. **보기** 드롭다운 메뉴에서 표 보기를 선택하십시오. 선택한 유형의 모든 레코드가 테이블에 표시됩니다.
+1. 기본 필드 정보를 마우스로 가리키고 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭한 다음 **썸네일**&#x200B;을(를) 클릭합니다.
 
    ![](assets/record-more-menu-expanded.png)
 
@@ -124,9 +124,9 @@ ht-degree: 0%
    >
    >   기본 필드는 테이블 뷰의 첫 번째 열에 표시되는 필드입니다. 기본 필드는 항상 고정되어 있으므로 숨기거나 재배치할 수 없습니다. 기본 필드가 공식 필드인 경우 기타 메뉴에서 썸네일 옵션을 사용할 수 없습니다.
 
-   다음 **업로드** 탭에서 기본적으로 열림 **레코드 썸네일** 상자.
+   **업로드** 탭은 기본적으로 **레코드 썸네일** 상자에서 열립니다.
 
-   썸네일 업로드에 대한 자세한 내용은 섹션 을 참조하십시오 [세부 정보 페이지에서 레코드에 썸네일 추가](#add-a-thumbnail-to-a-record-from-the-details-page) 이 문서에서는 6단계부터 시작합니다. <!--see if this is accurate-->
+   축소판 업로드에 대한 자세한 내용은 이 문서의 섹션 [세부 정보 페이지에서 레코드에 축소판 추가](#add-a-thumbnail-to-a-record-from-the-details-page)를 6단계부터 참조하십시오. <!--see if this is accurate-->
 
 <!--
    ![](assets/record-thumbnail-box-for-upload.png) 
@@ -164,12 +164,12 @@ ht-degree: 0%
 1. 보기에서 레코드를 클릭하여 엽니다.
 
    세부 사항 미리 보기 상자가 표시됩니다.
-1. (선택 사항) **새 탭에서 열기** 아이콘 ![](assets/open-details-in-a-new-tab-icon.png) 오른쪽 상단 모서리입니다.
+1. (선택 사항) 오른쪽 상단의 **새 탭에서 열기** 아이콘 ![](assets/open-details-in-a-new-tab-icon.png)을 클릭합니다.
 
    레코드의 세부 정보 페이지가 열립니다.
-1. 썸네일 이미지 또는 아이콘 위로 마우스 오버 ![](assets/record-thumbnail-icon-on-details-page.png)을(를) 클릭하고 **자세히** 메뉴 ![](assets/more-menu.png) > **썸네일 편집**.
+1. 썸네일 이미지 또는 아이콘 ![](assets/record-thumbnail-icon-on-details-page.png) 위로 마우스를 가져간 다음 **자세히** 메뉴 ![](assets/more-menu.png) > **썸네일 편집**&#x200B;을 클릭합니다.
 
-   다음 **업로드** 탭에서 기본적으로 열림 **레코드 썸네일** 상자.
+   **업로드** 탭은 기본적으로 **레코드 썸네일** 상자에서 열립니다.
 
    ![](assets/record-thumbnail-box-for-upload.png)
 
@@ -177,25 +177,25 @@ ht-degree: 0%
 
    또는
 
-   클릭 **이미지 찾아보기**&#x200B;을 클릭한 다음 추가할 이미지 파일을 찾습니다. 파일을 컴퓨터에 저장해야 합니다.
+   **이미지 찾아보기**&#x200B;를 클릭한 다음 추가할 이미지 파일을 찾습니다. 파일을 컴퓨터에 저장해야 합니다.
 
-1. (선택 사항)에서 이미지를 업로드한 후 **레코드 썸네일** 상자, 크기 조정 도구를 사용하여 이미지를 자르고 크기를 조정합니다.
-1. (선택 사항) **새 이미지 업로드** 아이콘 ![](assets/upload-new-image-icon.png) 다른 이미지를 업로드합니다.
+1. (선택 사항) 이미지가 **썸네일 기록** 상자에 업로드되면 크기 조정 도구를 사용하여 이미지를 자르고 크기를 조정합니다.
+1. (선택 사항) 다른 이미지를 업로드하려면 **새 이미지 업로드** 아이콘 ![](assets/upload-new-image-icon.png)을(를) 클릭합니다.
 1. (선택 사항) **갤러리** 탭을 클릭한 다음 이미지를 클릭합니다. 이미지 갤러리는 수정할 수 없습니다.
 
    ![](assets/record-thumbnail-box-for-gallery.png)
 
-1. (선택 사항) 썸네일을 저장하기 전에 제거하려면 **제거** 아이콘 ![](assets/remove-image-icon.png) 이미지 오른쪽에 있습니다.
+1. (선택 사항) 썸네일을 저장하기 전에 제거하려면 이미지 오른쪽에 있는 **제거** 아이콘 ![](assets/remove-image-icon.png)을(를) 클릭합니다.
 
-1. 클릭 **이미지 사용** 이미지를 썸네일로 추가합니다.
-이 옵션을 닫으면 **레코드 썸네일** 상자.
+1. **이미지 사용**을 클릭하여 이미지를 축소판으로 추가합니다.
+**Record thumbnail** 상자를 닫습니다.
 썸네일은 레코드가 표시되는 Workfront Planning 영역에 표시됩니다.
 
    >[!TIP]
    >
    >   이 보기에서 썸네일을 표시하려면 표 보기에서 썸네일 필드를 활성화해야 합니다. 기본적으로 비활성화되어 있습니다.
 
-1. (선택 사항) 썸네일을 저장한 후 제거하려면 보기에서 레코드를 클릭하여 세부 정보 페이지를 연 다음 썸네일 이미지 위로 마우스를 이동하고 **자세히** 메뉴 ![](assets/more-menu.png)> **제거** 아이콘 ![](assets/remove-image-icon.png). 썸네일 이미지가 제거됩니다.
+1. (선택 사항) 썸네일 저장 후 썸네일을 제거하려면 보기에서 레코드를 클릭하여 세부 정보 페이지를 연 다음 썸네일 이미지 위로 마우스를 가져간 후 **추가** 메뉴 ![](assets/more-menu.png)> **제거** 아이콘 ![](assets/remove-image-icon.png)을(를) 클릭합니다. 썸네일 이미지가 제거됩니다.
 
 
 

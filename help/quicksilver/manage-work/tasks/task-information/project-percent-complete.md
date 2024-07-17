@@ -20,7 +20,7 @@ ht-degree: 0%
 
 프로젝트의 완료율 값은 프로젝트의 작업 기간 또는 계획된 시간을 기반으로 계산됩니다. Adobe Workfront 관리자 또는 그룹 관리자는 프로젝트 환경 설정 영역에서 정보를 구성할 때 시스템에서 완료율을 계산할 때 고려되는 값을 정의합니다.
 
-프로젝트 환경 설정 구성에 대한 자세한 내용은 [시스템 전체 프로젝트 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+프로젝트 환경 설정 구성에 대한 자세한 내용은 [시스템 전체 프로젝트 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)을 참조하십시오.
 
 상위 작업의 완료율은 각 하위 작업의 기간 또는 계획된 시간을 기반으로 합니다.
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 Workfront은 개별 작업의 완료율을 사용하여 상위 작업의 완료율 또는 프로젝트의 완료율을 계산합니다.
 
-작업의 완료율 업데이트에 대한 자세한 내용은 다음을 참조하십시오. [작업에 대한 완료율 보기 및 업데이트](../../../manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md).
+작업의 완료율 업데이트에 대한 자세한 내용은 [작업의 완료율 보기 및 업데이트](../../../manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md)를 참조하십시오.
 
 ### Workfront이 상위 작업에서 완료율을 계산하는 방법 {#how-workfront-calculates-percent-complete-on-a-parent-task}
 

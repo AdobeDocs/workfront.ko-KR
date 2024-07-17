@@ -21,15 +21,15 @@ ht-degree: 0%
 
 이 페이지에서는 2021년 5월 3일이 있는 주에 Adobe Workfront Fusion에서 향상된 기능을 모두 설명합니다.
 
-최근 변경 사항의 목록은 다음을 참조하십시오. [Adobe Workfront Fusion 릴리스 활동](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+최근 모든 변경 사항의 목록은 [Adobe Workfront Fusion 릴리스 활동](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)을 참조하십시오.
 
-Workfront Fusion의 최근 버그 수정 목록은 다음을 참조하십시오. [Workfront 유지 보수 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) Workfront Fusion Maintenance Update로 레이블이 지정된 업데이트를 찾아 확인합니다.
+Workfront Fusion의 최근 버그 수정 목록을 보려면 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 페이지를 참조하고 Workfront Fusion 유지 관리 업데이트 레이블이 지정된 업데이트를 확인하십시오.
 
 ## Salesforce 커넥터는 이제 SOQL을 사용하여 검색할 수 있습니다
 
 이제 Salesforce > 레코드 검색 모듈에 SOQL(Salesforce 개체 쿼리 언어)을 사용하여 검색할 수 있는 옵션이 있습니다. 이전에 사용 가능한 옵션(SOSL 및 단순 검색)을 사용하여 검색할 수도 있습니다.
 
-자세한 내용은 [Salesforce 모듈](../../../workfront-fusion/apps-and-their-modules/salesforce-modules.md).
+자세한 내용은 [Salesforce 모듈](../../../workfront-fusion/apps-and-their-modules/salesforce-modules.md)을 참조하세요.
 
 ## Azure DevOps 커넥터의 새 연결 유형에는 더 적은 범위가 필요합니다.
 
@@ -45,4 +45,4 @@ Workfront Fusion의 최근 버그 수정 목록은 다음을 참조하십시오.
 
 Azure DevOps를 사용하는 모든 새 시나리오에서 Azure DevOps 연결 유형을 사용하는 것이 좋습니다. 또한 새 연결 유형을 사용하려면 기존 시나리오에서 Azure DevOps 모듈을 변경하는 것이 좋습니다. 레거시 Azure DevOps(모든 범위 요청) 연결 유형은 가까운 시일 내에 더 이상 사용되지 않습니다.
 
-자세한 내용은 [Azure DevOps 모듈](../../../workfront-fusion/apps-and-their-modules/azure-dev-ops.md).
+자세한 내용은 [Azure DevOps 모듈](../../../workfront-fusion/apps-and-their-modules/azure-dev-ops.md)을 참조하세요.

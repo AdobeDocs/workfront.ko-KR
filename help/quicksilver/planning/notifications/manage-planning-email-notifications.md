@@ -22,9 +22,9 @@ ht-degree: 0%
 >
 >Workfront Planning에서 알림을 받으려면 귀사가 Adobe 통합 경험 고객이어야 합니다.
 >
->자세한 내용은 [Workfront용 통합 경험 Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+>자세한 내용은 [Workfront용 통합 경험 Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)를 참조하십시오.
 
-레코드 댓글에 다른 사용자를 태그 지정하는 방법에 대한 자세한 내용은 [레코드 주석 관리](/help/quicksilver/planning/records/manage-record-comments.md).
+레코드 댓글에 다른 사용자를 태그 지정하는 방법에 대한 자세한 내용은 [레코드 댓글 관리](/help/quicksilver/planning/records/manage-record-comments.md)를 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -42,7 +42,7 @@ ht-degree: 0%
    <p> 제품</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>Workfront Planning에서 알림을 수신하고 알림 환경 설정을 관리하려면 조직의 Workfront 인스턴스가 통합 경험 Adobe에 온보딩되어야 합니다. 자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 통합 경험 Adobe</a>.</p></td>
+   <p>Workfront Planning에서 알림을 수신하고 알림 환경 설정을 관리하려면 조직의 Workfront 인스턴스가 통합 경험 Adobe에 온보딩되어야 합니다. 자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 통합 경험 Adobe</a>를 참조하십시오.</p></td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront 계약</p></td>
    <td>
@@ -69,14 +69,14 @@ ht-degree: 0%
   </tr>
 <tr>
    <td role="rowheader"><p>권한</p></td>
-   <td> <p>작업 공간에 대한 이상의 권한 보기</a> </p>  
+   <td> <p>작업 영역 </a>에 대한 이상의 권한 보기 </p>  
    <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p>
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>레이아웃 템플릿</p></td>
-   <td> <p>Workfront 또는 그룹 관리자는 레이아웃 템플릿에 계획 영역을 추가해야 합니다. 자세한 내용은 <a href="/help/quicksilver/planning/access/access-overview.md">액세스 개요</a>. </p>  
+   <td> <p>Workfront 또는 그룹 관리자는 레이아웃 템플릿에 계획 영역을 추가해야 합니다. 자세한 내용은 <a href="/help/quicksilver/planning/access/access-overview.md">액세스 개요</a>를 참조하십시오. </p>  
 </td>
   </tr>
  </tbody>
@@ -89,9 +89,9 @@ ht-degree: 0%
 
    ![](assets/email-notification-example.png)
 
-1. 에서 메시지를 클릭합니다. **Workfront** 상자.
+1. **Workfront** 상자에서 메시지를 클릭합니다.
 
    Workfront에 레코드 세부 정보 페이지가 열립니다. 레코드를 업데이트하거나 댓글에 답글을 달 수 있습니다.
 
-1. (조건부) 사용 가능한 경우 **모든 알림 보기**. <!--check with Lilit - do non-IMS users have this button??-->
-다음 **알림** 페이지가 Adobe Experience Cloud에서 열립니다. 모든 Adobe Experience Cloud 애플리케이션의 모든 알림이 표시됩니다.
+1. (조건부) 사용 가능한 경우 **모든 알림 보기**&#x200B;를 클릭합니다. <!--check with Lilit - do non-IMS users have this button??-->
+Adobe Experience Cloud에서 **알림** 페이지가 열립니다. 모든 Adobe Experience Cloud 애플리케이션의 모든 알림이 표시됩니다.

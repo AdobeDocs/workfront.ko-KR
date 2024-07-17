@@ -9,7 +9,7 @@ role: Developer
 exl-id: addcf5bc-a101-4bb0-93a6-46b4af67c848
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Adobe Workfront 2017.3 릴리스에서는 이벤트 구독에 대한 아웃바�
 
 현재 Workfront 이벤트 구독을 사용하는 경우 이러한 변경 사항을 적용하려면 2017.3 릴리스 전에 Workfront 통합을 업데이트해야 합니다.
 
-이벤트 구독에 대한 자세한 내용은 [이벤트 구독 API](../../wf-api/general/event-subs-api.md).
+이벤트 구독에 대한 자세한 내용은 [이벤트 구독 API](../../wf-api/general/event-subs-api.md)를 참조하세요.
 
 ## 이전 및 새 메시지 형식 샘플
 

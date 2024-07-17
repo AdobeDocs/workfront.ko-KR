@@ -2,20 +2,20 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Workfront for Adobe Experience Manager 강화 커넥터 제거
-description: Workfront 및 Adobe Experience Manager Assets as a Cloud Service을 연결하는 최신 기본 통합으로 Workfront with Adobe Experience Manager 강화 커넥터를 제거해야 합니다.
+description: Workfront Workfront과 Adobe Experience Manager Assetsas a Cloud Service 를 연결하는 최신 기본 통합에 대한 Adobe Experience Manager 강화 커넥터를 제거해야 합니다.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: c6203c71-a4c4-41ee-ac4e-57137661e5b3
 source-git-commit: 9673009f12509b5e7051ee91e142d311f333f215
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
 
 # Workfront with Adobe Experience Manager 강화 커넥터 제거
 
-Workfront 및 Adobe Experience Manager Assets as a Cloud Service을 연결하는 최신 기본 통합으로 Workfront with Adobe Experience Manager 강화 커넥터를 제거해야 합니다.
+Workfront Workfront과 Adobe Experience Manager Assetsas a Cloud Service 를 연결하는 최신 기본 통합에 대한 Adobe Experience Manager 강화 커넥터를 제거해야 합니다.
 
 ## 전제 조건
 
@@ -23,7 +23,7 @@ Workfront 및 Adobe Experience Manager Assets as a Cloud Service을 연결하는
 
 ## 향상된 커넥터 제거
 
-1. AEM Cloud Manager에서 as a Cloud Service 저장소에 액세스하고 복제합니다.
+1. Cloud Manager에서 AEM as a Cloud Service 저장소에 액세스하고 복제합니다.
 
 1. 복제된 git 저장소를 선택한 IDE에서 엽니다.
 
@@ -51,7 +51,7 @@ Workfront 및 Adobe Experience Manager Assets as a Cloud Service을 연결하는
    >
    >위의 코드 블록에서 참조된 버전(예: 1.8.0)이 코드에서 제거 중인 버전을 반영하는지 확인하십시오.
 
-1. 이름이 인 프로젝트의 하위 모듈에 있는 pom.xml 파일에서 다음 종속성을 제거합니다. **모두**.
+1. **all**(이)라는 프로젝트 하위 모듈의 pom.xml 파일에서 다음 종속성을 제거합니다.
 
    ```
    <!-- Workfront Tools -->
@@ -104,4 +104,4 @@ Workfront 및 Adobe Experience Manager Assets as a Cloud Service을 연결하는
 
 1. 변경 사항을 커밋하고 코드를 Cloud Manager 저장소에 푸시합니다.
 
-1. Cloud Manager 파이프라인을 실행하여 Cloud Services 인스턴스에 변경 사항 배포
+1. Cloud Manager 파이프라인을 실행하여 Cloud Service 인스턴스에 변경 사항을 배포합니다

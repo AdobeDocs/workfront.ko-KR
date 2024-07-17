@@ -30,7 +30,7 @@ hide: yes
 
 Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테이블 보기에 레코드와 해당 필드를 표시할 수 있습니다.
 
-레코드 보기 및 관리 방법에 대한 자세한 내용은 [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md).
+레코드 보기 및 관리 방법에 대한 자세한 내용은 [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md)를 참조하세요.
 
 ## 액세스 요구 사항
 
@@ -86,13 +86,13 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
 
 <tr>
    <td role="rowheader"><p>레이아웃 템플릿</p></td>
-   <td> <p>Workfront 관리자를 포함한 모든 사용자에게 메인 메뉴의 계획 영역을 포함하는 레이아웃 템플릿을 할당해야 합니다. </p> <p>자세한 내용은 <a href="/help/quicksilver/planning/access/access-overview.md">액세스 개요</a>. </p> 
+   <td> <p>Workfront 관리자를 포함한 모든 사용자에게 메인 메뉴의 계획 영역을 포함하는 레이아웃 템플릿을 할당해야 합니다. </p> <p>자세한 내용은 <a href="/help/quicksilver/planning/access/access-overview.md">액세스 개요</a>를 참조하십시오. </p> 
 </td>
   </tr>
  </tbody>
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## 표 보기 관리 {#manage-a-table-view}
 
@@ -102,11 +102,11 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
 
 테이블 뷰를 관리하려면 다음을 수행합니다.
 
-1. 문서에 설명된 대로 표 보기 만들기 [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md).
+1. [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md) 문서에 설명된 대로 테이블 보기를 만듭니다.
 
    ![](assets/table-view-example.png)
 
-1. (선택 사항) **행 높이**&#x200B;를 선택한 다음 다음 옵션 중에서 선택하여 테이블 행의 높이를 수정합니다.
+1. (선택 사항) **행 높이**&#x200B;를 클릭한 후 다음 옵션 중에서 선택하여 테이블 행의 높이를 수정합니다.
    * 짧음
    * 중간
    * 높음
@@ -121,7 +121,7 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
 
 ### 열(또는 필드) 추가 {#add-columns}
 
-테이블 보기의 열 머리글에는 보기의 레코드와 관련된 필드가 표시됩니다. 표 보기에 표시된 동일한 필드가 레코드의 세부 정보 섹션에도 표시됩니다. 자세한 내용은 [레코드 편집](/help/quicksilver/planning/records/edit-records.md).
+테이블 보기의 열 머리글에는 보기의 레코드와 관련된 필드가 표시됩니다. 표 보기에 표시된 동일한 필드가 레코드의 세부 정보 섹션에도 표시됩니다. 자세한 내용은 [레코드 편집](/help/quicksilver/planning/records/edit-records.md)을 참조하세요.
 
 <!--this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default.-->
 
@@ -129,10 +129,10 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
 
 테이블 보기에서 최대 500개의 필드(또는 열)를 추가할 수 있습니다.
 
-1. 레코드 유형 페이지로 이동하여 **표** 보기 드롭다운 메뉴에서 보기
+1. 레코드 유형 페이지로 이동하여 보기 드롭다운 메뉴에서 **테이블** 보기를 선택합니다.
 
    <!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
-1. 문서에 설명된 대로 필드(또는 열) 추가 시작 [필드 만들기](/help/quicksilver/planning/fields/create-fields.md).
+1. [필드 만들기](/help/quicksilver/planning/fields/create-fields.md) 문서에 설명된 대로 필드(또는 열)를 추가하기 시작합니다.
 
    추가하는 열은 레코드 유형에 액세스하고 레코드 페이지에서 새 필드로 추가되는 모든 사용자에게 표시됩니다.
 
@@ -140,7 +140,7 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
 
    * 열 머리글을 잡고 원하는 위치에 끌어서 놓습니다. 테이블을 다시 조정할 때까지 이동한 열이 파란색 배경에 잠시 표시됩니다.
 
-   * 클릭 **필드** 테이블의 도구 모음에서 필드를 원하는 순서로 드래그 앤 드롭한 다음, **필드 가시성 및 순서** 상자를 닫으십시오.
+   * 표의 도구 모음에서 **필드**&#x200B;를 클릭한 다음 원하는 순서로 필드를 끌어다 놓은 다음 **필드 표시 및 순서** 상자 외부를 클릭하여 닫습니다.
 
      ![](assets/fields-setting-table-view-toolbar-expanded.png)
 
@@ -149,21 +149,21 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
      >
      >* 이름 필드는 기본적으로 항상 테이블 보기의 첫 번째 필드입니다. 이는 기본 필드로 간주됩니다.
      >
-     >* 다른 필드를 기본 필드로 지정하지 않는 한 이름 필드를 다른 위치로 이동할 수 없습니다. 자세한 내용을 보려면 4단계를 계속 진행하십시오. <!--accurate?-->
+     >* 다른 필드를 기본 필드로 지정하지 않는 한 이름 필드를 다른 위치로 이동할 수 없습니다. 자세한 내용을 보려면 4단계를 계속하십시오. <!--accurate?-->
      >
      >
 
-   * 기본 필드를 변경하여 첫 번째 열의 필드를 다른 필드로 바꿉니다. 자세한 내용을 보려면 4단계를 계속 진행하십시오. <!--accurate?-->
+   * 기본 필드를 변경하여 첫 번째 열의 필드를 다른 필드로 바꿉니다. 자세한 내용은 4단계를 계속하십시오. <!--accurate?-->
 
-1. (선택 사항) 테이블의 첫 번째 열에 표시되지 않는 필드의 열 헤더에 있는 필드 이름을 마우스로 가리키고 필드 이름의 오른쪽에 있는 아래쪽 방향 화살표를 클릭한 다음 를 클릭합니다 **기본 필드로 설정**.
+1. (선택 사항) 테이블의 첫 번째 열에 표시되지 않는 필드의 열 머리글에 있는 필드 이름을 마우스로 가리키고 필드 이름의 오른쪽에 있는 아래쪽 화살표를 클릭한 다음 **기본 필드로 설정**&#x200B;을 클릭합니다.
 
    ![](assets/set-as-primary-field-option-table-view.png)
 
-1. 클릭 **필드 설정** 확인할 수 있습니다.
+1. 확인하려면 **필드 설정**&#x200B;을 클릭하세요.
 
    필드는 기본 필드가 되어 테이블 보기의 첫 번째 열로 표시됩니다. 이전 기본 필드가 두 번째 열로 이동합니다.
 
-   기본 필드는 레코드의 제목이 되어 레코드 페이지의 헤더 영역에 표시되고 레코드가 표시되는 모든 곳에 표시됩니다. 예를 들어 레코드 제목은 연결된 필드 및 모든 보기에 표시됩니다. 기본 필드에 대한 자세한 내용은 [기본 필드 개요](/help/quicksilver/planning/fields/primary-field-overview.md).
+   기본 필드는 레코드의 제목이 되어 레코드 페이지의 헤더 영역에 표시되고 레코드가 표시되는 모든 곳에 표시됩니다. 예를 들어 레코드 제목은 연결된 필드 및 모든 보기에 표시됩니다. 기본 필드에 대한 자세한 내용은 [기본 필드 개요](/help/quicksilver/planning/fields/primary-field-overview.md)를 참조하십시오.
 
 1. 열 구분선을 클릭하고 드래그하여 원하는 위치에 놓아 열의 너비를 늘립니다.
 
@@ -171,22 +171,22 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
    >
    >열 너비 및 순서에 대한 변경 사항은 영구적이며 레코드 유형에 액세스하는 모든 사용자에게 표시됩니다.
 
-1. 열 머리글 위로 마우스를 가져간 다음 아래쪽을 가리키는 화살표를 클릭하고 **필드 숨기기**
+1. 열 머리글 위로 마우스를 가져간 다음 아래쪽을 가리키는 화살표를 클릭한 다음 **필드 숨기기**&#x200B;를 클릭합니다
 
    또는
 
-   클릭 **필드** 테이블 도구 모음에서 를 클릭하고 숨길 필드(또는 열)와 관련된 토글을 비활성화합니다. 다음 **필드 가시성 및 순서** 상자가 표시됩니다.
+   표 도구 모음에서 **필드**&#x200B;를 클릭하고 숨길 필드와 연결된 토글을 비활성화합니다. **필드 표시 및 순서** 상자가 표시됩니다.
 
    >[!TIP]
    >
    >도구 모음의 필드 아이콘 왼쪽에 숨겨진 필드 수가 표시됩니다.
 
 
-1. 다음을 클릭합니다. **필드** 아이콘을 클릭하고 테이블의 열에 표시할 필드와 관련된 토글을 활성화합니다. 기본적으로 모든 필드가 표시됩니다.
+1. **필드** 아이콘을 클릭하고 테이블의 열에 표시할 필드와 관련된 토글을 활성화합니다. 기본적으로 모든 필드가 표시됩니다.
 
 1. 키워드와 일치하는 레코드를 빠르게 찾으려면 다음을 수행하십시오.
 
-   1. 다음을 클릭합니다. **검색** 아이콘 ![](assets/search-icon.png) 화면에 표시되는 레코드의 필드와 연결된 키워드를 입력하십시오. 검색 항목 옆에 올바른 일치 항목 수가 표시되고 올바른 일치 항목이 있는 필드가 강조 표시됩니다.
+   1. **검색** 아이콘 ![](assets/search-icon.png)을(를) 클릭하고 화면에 표시되는 레코드의 필드와 관련된 키워드를 입력하십시오. 검색 항목 옆에 올바른 일치 항목 수가 표시되고 올바른 일치 항목이 있는 필드가 강조 표시됩니다.
 
       ![](assets/search-box-with-results-blue-outline-table-view.png)
 
@@ -194,11 +194,11 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
 
       테이블 보기에서 숨겨진 필드와 연결된 키워드는 사용할 수 없습니다.
 
-   1. 누르기 **입력** 키보드에서 다음 찾은 필드로 이동합니다.
+   1. 키보드에서 **Enter**&#x200B;를 눌러 다음 찾은 필드로 이동합니다.
 
    1. (선택 사항) 일치 항목이 두 개 이상 있는 경우 검색 키워드 오른쪽에 있는 위쪽 및 아래쪽 화살표를 클릭하여 테이블에서 모든 일치 항목을 찾습니다.
 
-   1. 다음을 클릭합니다. **x** 아이콘을 클릭하여 검색 키워드를 지웁니다.
+   1. 검색 키워드를 지우려면 검색 상자에서 **x** 아이콘을 클릭합니다.
 
 
 ### 행(또는 레코드) 추가 {#add-rows}
@@ -207,18 +207,18 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
 
 레코드 유형에 대해 최대 50,000개의 레코드(또는 행)를 가질 수 있습니다.
 
-1. 레코드 유형 페이지로 이동하여 **표** 보기 드롭다운 메뉴에서 보기
+1. 레코드 유형 페이지로 이동하여 보기 드롭다운 메뉴에서 **테이블** 보기를 선택합니다.
 
 <!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
-1. 문서에 설명된 대로 레코드(또는 행) 추가를 시작합니다 [레코드 만들기](/help/quicksilver/planning/records/create-records.md).
+1. [레코드 만들기](/help/quicksilver/planning/records/create-records.md) 문서에 설명된 대로 레코드(또는 행)를 추가하기 시작합니다.
 
    테이블 보기에서 추가하는 레코드는 즉시 저장되며 작업 공간에 대한 보기 이상의 권한이 있는 모든 사용자에게 표시됩니다.
 
-1. (선택 사항) 각 레코드에 썸네일을 추가하고 **필드** 표의 오른쪽 위 모서리에서 다음에 대한 토글을 선택합니다. **축소판** 기본 필드 왼쪽에 표시할 필드입니다. 기본적으로 선택되어 있지 않습니다.
+1. (선택 사항) 각 레코드에 썸네일을 추가하고 표의 오른쪽 상단 모서리에서 **필드**&#x200B;를 클릭한 다음, **썸네일** 필드에 대한 토글을 선택하여 기본 필드의 왼쪽에 표시합니다. 기본적으로 선택되어 있지 않습니다.
 
-   자세한 내용은 [레코드에 썸네일 추가](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+   자세한 내용은 [레코드에 썸네일 추가](/help/quicksilver/planning/records/add-thumbnails-to-records.md)를 참조하십시오.
 
-1. (선택 사항) 한 행에서 하나 이상의 레코드를 선택한 다음 **핸들** 아이콘 ![](assets/handle-icon.png) 레코드 왼쪽에 행 순서를 변경합니다.
+1. (선택 사항) 한 행에서 하나 이상의 레코드를 선택한 다음 레코드 왼쪽에 **handle** 아이콘 ![](assets/handle-icon.png)을(를) 끌어다 놓아 행 순서를 변경합니다.
 
    >[!NOTE]
    >
@@ -258,13 +258,13 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
 
 테이블 보기에 필터를 추가하려면 다음 작업을 수행하십시오.
 
-1. 문서에 설명된 대로 레코드 유형 페이지에 대한 테이블 보기를 만듭니다 [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md).
-1. 테이블 뷰를 선택한 다음 **필터** 테이블 오른쪽 위 모서리에서 참조할 수 있습니다.
-1. 클릭 **조건 추가** 다음 정보를 추가합니다.
+1. [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md) 문서에 설명된 대로 레코드 유형 페이지에 대한 테이블 보기를 만듭니다.
+1. 표 보기를 선택한 다음 표의 오른쪽 상단 모서리에서 **필터**&#x200B;를 클릭합니다.
+1. **조건 추가**&#x200B;를 클릭하고 다음 정보를 추가하십시오.
 
-   * **필드 선택** 필터링 기준: <!-- the tip below might change-->
+   * <!-- the tip below might change-->(으)로 필터링할 **필드 선택**
 
-   * **옵션 선택** (또는 필터 수정자) : 필드가 충족해야 하는 조건 종류를 정의합니다.
+   * **옵션**(또는 필터 수정자)을 선택하여 필드가 충족해야 하는 조건 종류를 정의합니다.
 
      아래 표에는 각 필드 유형에 사용할 수 있는 수정자가 표시됩니다.
 
@@ -336,16 +336,16 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
 
    추가할 수 있는 필터링 조건 수에는 제한이 없습니다.
 
-1. (선택 사항) **조건 추가** 다른 필터링 옵션을 추가하고 위의 단계를 반복합니다. 적용된 필터 수는 필터 아이콘 왼쪽에 표시됩니다.
+1. (선택 사항) 다른 필터링 옵션을 추가하고 위의 단계를 반복하려면 **조건 추가**&#x200B;를 클릭하십시오. 적용된 필터 수는 필터 아이콘 왼쪽에 표시됩니다.
 1. 다음 연산자를 클릭하여 필터 조건이 조인되고 적용되어야 하는 방식을 나타냅니다.
 
-   * **및**: 지정된 모든 조건이 충족되어야 합니다.
-   * **또는**: 지정된 조건을 모두 충족해야 합니다. 기본 옵션입니다.
+   * **And**: 지정한 조건을 모두 충족해야 합니다.
+   * **Or**: 지정한 조건을 모두 충족해야 합니다. 기본 옵션입니다.
 
    레코드 목록은 자동으로 필터링됩니다.  <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
-1. (선택 사항) **필터**&#x200B;을(를) 클릭하고 **x** 아이콘을 클릭하여 필터를 제거합니다. <!--right now you cannot "clear all" for filters, but this might come later-->
+1. (선택 사항) **필터**&#x200B;를 클릭한 다음 **x** 아이콘을 클릭하여 필터를 제거합니다. <!--right now you cannot "clear all" for filters, but this might come later-->
 
 ### 그룹화 추가 {#add-groupings}
 
@@ -372,29 +372,29 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
 
 그룹화를 추가하려면:
 
-1. 문서에 설명된 대로 레코드 유형에 대한 타임라인 보기를 만듭니다 [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md).
-1. 클릭 **그룹화** 테이블 보기의 오른쪽 위 모서리에서 참조할 수 있습니다.
+1. [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md) 문서에 설명된 대로 레코드 유형에 대한 타임라인 보기를 만듭니다.
+1. 테이블 보기의 오른쪽 위 모서리에서 **그룹화**&#x200B;을 클릭합니다.
 
    ![](assets/grouping-ui-table-view-with-linked-fields.png)
 
-1. 제안된 필드 중 하나를 클릭하거나 **다른 필드 선택**&#x200B;에서 다른 필드를 검색한 다음 목록에 표시되면 해당 필드를 클릭합니다.
+1. 제안된 필드 중 하나를 클릭하거나 **다른 필드 선택**&#x200B;을 클릭하고 다른 필드를 검색한 다음 목록에 표시될 때 해당 필드를 클릭합니다.
 
    그룹화가 테이블에 자동으로 적용되며 그룹화 구분선 아래에 레코드가 표시됩니다.
 
-1. (선택 사항) **조건 추가** 및 위의 단계를 반복하여 최대 3개의 그룹화를 추가합니다.
+1. (선택 사항) **조건 추가**&#x200B;를 클릭하고 위의 단계를 반복하여 최대 3개의 그룹화를 추가합니다.
 
    그룹화를 위해 선택한 필드 수가 그룹화 아이콘 옆에 표시됩니다.
 
    ![](assets/grouping-applied-in-table-view.png)
 
-1. (선택 사항) **레코드 그룹화 기준** 상자를 클릭하고 **x** 그룹화를 제거하기 위해 선택한 필드 오른쪽의 아이콘
+1. (선택 사항) **레코드 그룹화 기준** 상자 내에서 그룹화를 위해 선택한 필드 오른쪽에 있는 **x** 아이콘을 클릭하여 그룹화를 제거합니다
 
    또는
 
-   클릭 **모두 지우기** 모든 필드를 제거합니다.
+   모든 필드를 제거하려면 **모두 지우기**&#x200B;를 클릭하십시오.
 
-1. 바깥쪽을 클릭합니다. **레코드 그룹화 기준** 상자를 닫으십시오.
-1. (선택 사항) **+ 새 레코드** 그룹화가 끝날 때 새 레코드를 추가한 다음 페이지를 새로 고쳐 새 레코드를 적절한 그룹화에 추가합니다. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
+1. **레코드 그룹화 기준** 상자 바깥쪽을 클릭하여 닫습니다.
+1. (선택 사항) 그룹화 끝에 있는 **+ 새 레코드**&#x200B;을 클릭하여 새 레코드를 추가한 다음 페이지를 새로 고쳐 새 레코드를 적절한 그룹화에 추가합니다. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
 ### 정렬 추가 {#sort-information}
 
@@ -425,32 +425,32 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
 
 * 현재 레코드 유형에서 최대 4개 수준까지 떨어진 필드를 참조할 수 있습니다. 예를 들어 활동 레코드 유형에 대한 정렬을 생성하고 활동이 Workfront 프로젝트에 연결된 캠페인 레코드 유형에 연결된 제품 레코드 유형에 연결된 경우 활동 레코드 유형에 대해 생성 중인 정렬에서 프로젝트의 상태를 참조할 수 있습니다.
 
-정렬하려면 <!--ungrouped (add this when sorting for groupings will be available--> 레코드, 다음을 수행합니다.
+<!--ungrouped (add this when sorting for groupings will be available-->개의 레코드를 정렬하려면 다음을 수행하십시오.
 
-1. 문서에 설명된 대로 표 보기 만들기 [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md).
-1. 다음을 클릭합니다. **정렬** 아이콘 ![](assets/sort-icon.png) 표의 오른쪽 위 모서리
+1. [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md) 문서에 설명된 대로 테이블 보기를 만듭니다.
+1. 표의 오른쪽 위 모서리에 있는 **정렬** 아이콘 ![](assets/sort-icon.png)을(를) 클릭합니다
 
    또는
 
-   테이블 보기에서 열 이름 위로 마우스를 가져간 후 열 헤더 이름 오른쪽에 있는 아래쪽 화살표를 클릭한 다음 을 클릭합니다 **이 필드별로 정렬**. 필드는 표 보기의 오른쪽 위 모서리에 있는 정렬 아이콘에서 정렬 선택 항목으로 추가됩니다.
+   테이블 보기의 열 이름 위에 마우스를 놓고 열 머리글 이름 오른쪽에 있는 아래쪽 화살표를 클릭한 다음 **이 필드별로 정렬**&#x200B;을 클릭합니다. 필드는 표 보기의 오른쪽 위 모서리에 있는 정렬 아이콘에서 정렬 선택 항목으로 추가됩니다.
 
-1. (조건부) **레코드 정렬 기준** 상자를 클릭하고 추천 필드 중 하나를 클릭하거나 **다른 필드 선택** 다른 필드를 검색하여 목록에 표시되면 클릭합니다.
+1. (조건부) **레코드 정렬 기준** 상자에서 제안된 필드 중 하나를 클릭하거나 **다른 필드를 선택하고**&#x200B;다른 필드를 검색하여 찾은 다음 목록에 표시될 때 클릭합니다.
 
    정렬은 테이블 보기에 자동으로 적용되며 선택한 기준에 따라 정렬된 레코드가 표시됩니다.
 
    <!-- add a step that you can rearrange the sorting fields here, when this will be possible-->
 
-1. (선택 사항) **조건 추가**&#x200B;을 누르고 위의 단계를 반복하여 추가 필드를 기준으로 정렬합니다.
+1. (선택 사항) **조건 추가**&#x200B;를 클릭하고 위의 단계를 반복하여 추가 필드를 기준으로 정렬합니다.
 
    정렬하려는 필드 수는 도구 모음의 오른쪽 위 모서리에 있는 정렬 아이콘 왼쪽에 표시됩니다. 테이블 뷰의 열에 표시되는 필드만 선택할 수 있습니다.
 
-1. (선택 사항) **레코드 정렬 기준** 상자를 클릭하고 **x** 정렬을 제거할 정렬 필드 오른쪽의 아이콘
+1. (선택 사항) **레코드 정렬 기준** 상자에서 정렬 필드 오른쪽의 **x** 아이콘을 클릭하여 정렬을 제거합니다
 
    또는
 
-   클릭 **모두 지우기** 정렬에서 모든 필드를 제거합니다.
+   정렬에서 모든 필드를 제거하려면 **모두 지우기**&#x200B;를 클릭하십시오.
 
-1. 바깥쪽을 클릭합니다. **레코드 정렬 기준** 상자를 닫으십시오.
+1. 닫으려면 **레코드 정렬 기준** 상자 외부를 클릭합니다.
 
    ![](assets/sorting-in-table-view.png)
 

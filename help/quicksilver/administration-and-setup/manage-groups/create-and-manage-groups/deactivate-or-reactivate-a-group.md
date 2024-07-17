@@ -37,7 +37,7 @@ If Callisto adds the <b>Is active</b> checkbox to the Details page for groups yo
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>플랜 </p> <p>그룹의 그룹 관리자 또는 Workfront 관리자여야 합니다. 자세한 내용은 <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">그룹 관리자</a> 및 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">사용자에게 전체 관리 액세스 권한 부여</a>.</p> </td> 
+   <td> <p>플랜 </p> <p>그룹의 그룹 관리자 또는 Workfront 관리자여야 합니다. 자세한 내용은 <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">그룹 관리자</a> 및 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">사용자에게 전체 관리 액세스 권한 부여</a>를 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,38 +52,38 @@ If Callisto adds the <b>Is active</b> checkbox to the Details page for groups yo
 >
 >이 중 하나를 다시 활성화해야 하는 경우 다음 중 하나를 수행한 후 다시 활성화할 수 있습니다.
 >
->* 상위 그룹에서 제거합니다. 자세한 내용은 섹션을 참조하십시오 [상위 그룹에서 하위 그룹을 제거하고 최상위 그룹으로 만들기](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make) 이 문서에서 [하위 그룹 관리](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
+>* 상위 그룹에서 제거합니다. 자세한 내용은 문서 [하위 그룹 관리](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)에서 [상위 그룹에서 하위 그룹을 제거하고 최상위 그룹으로 만들기](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make) 섹션을 참조하십시오.
 >
->* 활성 그룹으로 이동합니다. 자세한 내용은 섹션을 참조하십시오 [하위 그룹 만들기, 이동, 보기, 편집, 복사, 이름 변경, 내보내기 또는 삭제](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#create) 이 문서에서 [하위 그룹 관리](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
+>* 활성 그룹으로 이동합니다. 자세한 내용은 문서 [하위 그룹 관리](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)에서 [하위 그룹을 만들기, 이동, 보기, 편집, 복사, 이름 변경, 내보내기 또는 삭제](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#create) 섹션을 참조하십시오.
 >
 
-1. 다음을 클릭합니다. **메인 메뉴** 아이콘 ![](assets/main-menu-icon.png) Adobe Workfront의 오른쪽 상단에서 을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png).
+1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
 
-1. 왼쪽 패널에서 을 선택합니다 **그룹**.
+1. 왼쪽 패널에서 **그룹**&#x200B;을 선택합니다.
 
    표시되는 목록에서 관리하는 그룹과 포함된 하위 그룹을 볼 수 있습니다. Adobe Workfront 관리자는 모든 그룹을 볼 수 있습니다.
 
 1. 그룹 이름을 클릭하여 해당 페이지를 엽니다.
 
-1. 기타 메뉴 클릭 ![](assets/more-icon.png) 그룹 이름 옆에 있는 을(를) 클릭한 다음 **비활성화** 또는 **다시 활성화**.
+1. 그룹 이름 옆에 있는 기타 메뉴 ![](assets/more-icon.png)을(를) 클릭한 다음 **비활성화** 또는 **다시 활성화**&#x200B;를 클릭합니다.
 
    >[!NOTE]
    >
    >활성화됨 옵션(미리보기의 재활성화 옵션)은 그룹이 비활성화된 그룹의 하위 그룹인 경우 사용할 수 없습니다. 다시 활성화하려면 먼저 위의 중요 참고 사항에 설명된 대로 상위 그룹에서 제거하거나 활성 상태인 그룹으로 이동해야 합니다.
 
-1. (조건부) 그룹을 비활성화하는 경우 **비활성화** 다음에서 **그룹 비활성화** 상자가 표시됩니다.
+1. (조건부) 그룹을 비활성화하는 경우 표시되는 **그룹 비활성화** 상자에서 **비활성화**&#x200B;를 클릭합니다.
 
 ## 비활성 그룹에 대한 고려 사항
 
-섹션에서 설명한 활성 옵션을 비활성화하여 비활성화하는 그룹에 대해서는 다음 사항을 고려하십시오 [그룹 비활성화 또는 재활성화](#View) 이 문서에서.
+이 문서의 [그룹 비활성화 또는 다시 활성화](#View) 섹션에 설명된 활성 상태 옵션을 비활성화하여 비활성화하는 그룹에 대한 다음 사항을 고려하십시오.
 
 * 그룹을 비활성화하면 그 아래의 모든 하위 그룹도 비활성화됩니다. 여기에는 비활성화한 후 추가하는 하위 그룹이 포함됩니다.
 
-  이 상황에서 하위 그룹을 다시 활성화하는 방법에 대한 자세한 내용은 [비활성 상위 그룹 아래의 하위 그룹 다시 활성화 정보](#about-reactivating-a-subgroup-below-an-inactive-parent-group) 이 문서에서.
+  이 상황에서 하위 그룹을 다시 활성화하는 방법에 대한 자세한 내용은 이 문서에서 [비활성 상위 그룹 아래의 하위 그룹 다시 활성화 정보](#about-reactivating-a-subgroup-below-an-inactive-parent-group)를 참조하십시오.
 
-* [설정]에서 [그룹] 영역으로 이동하면 [활성]이 기본 필터이므로 활성 그룹만 목록에 표시됩니다 ![](assets/filter-nwepng.png) 그러게요 비활성 그룹을 포함하여 관리하는 모든 그룹을 보려면 모두 필터를 사용할 수 있습니다. 또는 비활성 필터를 사용하여 비활성 필터만 나열합니다.
+* [설정]의 [그룹] 영역으로 이동하면 [활성]이 기본 필터 ![](assets/filter-nwepng.png)이므로 목록에 활성 그룹만 표시됩니다. 비활성 그룹을 포함하여 관리하는 모든 그룹을 보려면 모두 필터를 사용할 수 있습니다. 또는 비활성 필터를 사용하여 비활성 필터만 나열합니다.
 
-  목록의 필터에 대한 자세한 내용은 [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  목록의 필터에 대한 자세한 내용은 [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)를 참조하십시오.
 
 * 그룹을 비활성화해도 다음 사항이 변경되지 않습니다.
 
@@ -102,10 +102,10 @@ If Callisto adds the <b>Is active</b> checkbox to the Details page for groups yo
 
 그룹을 비활성화하면 그 아래의 모든 하위 그룹도 비활성화됩니다. 비활성 그룹 아래의 하위 그룹 중 하나를 다시 활성화해야 하는 경우 다음 두 가지 중 하나를 수행할 수 있습니다.
 
-* 활성 그룹 아래로 하위 그룹을 이동합니다. 그런 다음 섹션에 설명된 대로 이동된 그룹에 대해 활성화됨 옵션을 활성화합니다 [그룹 비활성화 또는 재활성화](#View) 이 문서에서.
+* 활성 그룹 아래로 하위 그룹을 이동합니다. 이 문서의 [그룹 비활성화 또는 다시 활성화](#View) 섹션에 설명된 대로 이동한 그룹에 대해 활성 옵션을 활성화합니다.
 
-  그룹 이동에 대한 지침은 [그룹 이동](../../../administration-and-setup/manage-groups/create-and-manage-groups/move-a-group.md).
+  그룹 이동에 대한 지침은 [그룹 이동](../../../administration-and-setup/manage-groups/create-and-manage-groups/move-a-group.md)을 참조하세요.
 
-* 상위 그룹에서 하위 그룹을 제거합니다(하위 그룹을 최상위 그룹으로 만들기). 그런 다음 섹션에 설명된 대로 이동된 그룹에 대해 활성화됨 옵션을 활성화합니다 [그룹 비활성화 또는 재활성화](#View) 이 문서에서.
+* 상위 그룹에서 하위 그룹을 제거합니다(하위 그룹을 최상위 그룹으로 만들기). 이 문서의 [그룹 비활성화 또는 다시 활성화](#View) 섹션에 설명된 대로 이동한 그룹에 대해 활성 옵션을 활성화합니다.
 
-  상위 그룹에서 하위 그룹을 제거하는 방법에 대한 지침은 섹션을 참조하십시오 [상위 그룹에서 하위 그룹을 제거하고 최상위 그룹으로 만들기](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make) 이 문서에서 [하위 그룹 관리](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
+  상위 그룹에서 하위 그룹을 제거하는 방법에 대한 지침은 문서 [하위 그룹 관리](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)에서 [상위 그룹에서 하위 그룹 제거 및 최상위 그룹으로 만들기](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make) 섹션을 참조하십시오.

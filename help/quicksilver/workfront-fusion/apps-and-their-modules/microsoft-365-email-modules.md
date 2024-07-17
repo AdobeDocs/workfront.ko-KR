@@ -5,7 +5,7 @@ product-area: workfront-integrations
 keywords: 커넥터
 navigation-topic: apps-and-their-modules
 title: Microsoft Office 365 전자 메일
-description: 다음에서 [!DNL Adobe Workfront Fusion] 시나리오에서는 Microsoft Office 365 이메일을 사용하는 워크플로를 자동화할 수 있을 뿐만 아니라 여러 타사 애플리케이션 및 서비스에 연결할 수 있습니다.
+description: ' [!DNL Adobe Workfront Fusion] 시나리오에서는 Microsoft Office 365 전자 메일을 사용하는 워크플로를 자동화할 수 있을 뿐만 아니라 여러 타사 응용 프로그램 및 서비스에 연결할 수 있습니다.'
 author: Becky
 feature: Workfront Fusion
 exl-id: 29b69e8c-a889-441e-a052-287f1db2052d
@@ -16,15 +16,15 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft Office 365 Email] 모듈
+# [!DNL Microsoft Office 365 Email]개 모듈
 
-다음에서 [!DNL Adobe Workfront Fusion] 시나리오에서는 다음을 사용하는 워크플로를 자동화할 수 있습니다 [!UICONTROL Microsoft Office 365 전자 메일]을 여러 타사 응용 프로그램 및 서비스에 연결할 수 있습니다.
+[!DNL Adobe Workfront Fusion] 시나리오에서는 [!UICONTROL Microsoft Office 365 전자 메일]을 사용하는 워크플로를 자동화하고 여러 타사 응용 프로그램 및 서비스에 연결할 수 있습니다.
 
-를 사용하려면 [!UICONTROL Office 365 전자 메일] 포함 [!DNL Adobe Workfront Fusion], 다음을 수행해야 합니다. [!UICONTROL Office 365 계정]. www.office.com에서 만들 수 있습니다.
+[!DNL Adobe Workfront Fusion]에서 [!UICONTROL Office 365 전자 메일]을 사용하려면 [!UICONTROL Office 365 계정]이 있어야 합니다. www.office.com에서 만들 수 있습니다.
 
-연결에 대한 자세한 내용 [!UICONTROL 오피스 365] 계정 위치: [!DNL Workfront Fusion], 참조 [에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침](../../workfront-fusion/connections/connect-to-fusion-general.md)
+[!UICONTROL Office 365] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 [연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침](../../workfront-fusion/connections/connect-to-fusion-general.md)을 참조하세요.
 
-동의를 부여하면 다시 로 리디렉션됩니다. [!UICONTROL Workfront Fusion] 시나리오를 계속 만들 수 있는 관리 페이지
+동의를 부여하면 시나리오를 계속 만들 수 있는 [!UICONTROL Workfront Fusion] 관리 페이지로 다시 리디렉션됩니다.
 
 ## 액세스 요구 사항
 
@@ -45,35 +45,35 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 라이센스**</td> 
    <td>
-   <p>현재 라이선스 요구 사항: 아니요 [!DNL Workfront Fusion] 라이센스 요구 사항.</p>
+   <p>현재 라이선스 요구 사항: [!DNL Workfront Fusion] 라이선스 요구 사항이 없습니다.</p>
    <p>또는</p>
-   <p>기존 라이선스 요구 사항: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
+   <p>레거시 라이선스 요구 사항: 작업 자동화 및 통합을 위한 [!UICONTROL [!DNL Workfront Fusion]] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">제품</td> 
    <td>
-   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime]이 있는 경우 [!DNL Adobe Workfront] 플랜, 조직은 다음을 구매해야 합니다. [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오. [!DNL Workfront Fusion] [!UICONTROL Ultimate]에 포함되어 있습니다. [!DNL Workfront] 계획.</p>
+   <p>현재 제품 요구 사항: [!UICONTROL Select] 또는 [!UICONTROL Prime] [!DNL Adobe Workfront] 플랜이 있는 경우 조직에서 이 문서에 설명된 기능을 사용하려면 [!DNL Adobe Workfront Fusion]과(와) [!DNL Adobe Workfront]을(를) 구매해야 합니다. [!DNL Workfront Fusion]이(가) [!UICONTROL Ultimate] [!DNL Workfront] 계획에 포함되어 있습니다.</p>
    <p>또는</p>
-   <p>레거시 제품 요구 사항: 조직에서 구매해야 함 [!DNL Adobe Workfront Fusion] 뿐만 아니라 [!DNL Adobe Workfront] 이 문서에 설명된 기능을 사용하십시오.</p>
+   <p>레거시 제품 요구 사항: 이 문서에 설명된 기능을 사용하려면 조직에서 [!DNL Adobe Workfront Fusion]과(와) [!DNL Adobe Workfront]을(를) 구매해야 합니다.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 알아보려면 [!DNL Workfront] 관리자.
+보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
 
-다음에 대한 정보: [!DNL Adobe Workfront Fusion] 라이센스, 참조 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+[!DNL Adobe Workfront Fusion] 라이선스에 대한 자세한 내용은 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md)를 참조하세요.
 
 ## 전제 조건
 
-사용 [!DNL Microsoft Office 365 Email] 모듈, 다음이 있어야 합니다. [!DNL Microsoft Office 365 Email] 계정입니다.
+[!DNL Microsoft Office 365 Email] 모듈을 사용하려면 [!DNL Microsoft Office 365 Email] 계정이 있어야 합니다.
 
 
 
-## 연결 중 [!DNL Office 365 Email] 서비스 대상 [!DNL Workfront Fusion]
+## [!DNL Workfront Fusion]에 [!DNL Office 365 Email] 서비스를 연결하는 중
 
-연결에 대한 자세한 내용 [!DNL Office 365 Email] 계정 위치: [!UICONTROL Workfront Fusion], 참조 [에 대한 연결 만들기 [!UICONTROL Adobe Workfront Fusion] - 기본 지침](../../workfront-fusion/connections/connect-to-fusion-general.md)
+[!DNL Office 365 Email] 계정을 [!UICONTROL Workfront Fusion]에 연결하는 방법에 대한 지침은 [[!UICONTROL Adobe Workfront Fusion에 연결 만들기] - 기본 지침](../../workfront-fusion/connections/connect-to-fusion-general.md)을 참조하십시오.
 
 >[!NOTE]
 >
@@ -81,11 +81,11 @@ ht-degree: 0%
 >
 >예를 들어 사용자가 Excel 커넥터를 통해 부여된 &quot;테이블 읽기&quot; 권한을 가지고 있는 다음 Outlook 커넥터에서 연결을 만들어 이메일을 읽은 경우 권한 동의 화면에 이미 부여된 &quot;테이블 읽기&quot; 권한과 새로 필요한 &quot;이메일 쓰기&quot; 권한이 모두 표시됩니다.
 
-## [!DNL Microsoft Office 365 Email] 모듈 및 해당 필드
+## [!DNL Microsoft Office 365 Email]개 모듈 및 해당 필드
 
-를 구성할 때 [!DNL Microsoft Office 365 Email] 모듈, [!DNL Workfront Fusion] 아래 나열된 필드를 표시합니다. 이와 함께 추가 [!DNL Microsoft Office 365 Email] 앱이나 서비스의 액세스 수준 등에 따라 필드가 표시될 수 있습니다. 모듈의 굵은 제목은 필수 필드를 나타냅니다.
+[!DNL Microsoft Office 365 Email] 모듈을 구성할 때 [!DNL Workfront Fusion]에 아래 나열된 필드가 표시됩니다. 앱 또는 서비스의 액세스 수준과 같은 요소에 따라 이러한 필드와 함께 [!DNL Microsoft Office 365 Email] 필드가 추가로 표시될 수 있습니다. 모듈의 굵은 제목은 필수 필드를 나타냅니다.
 
-필드나 함수 위에 맵 단추가 표시되면 이 단추를 사용하여 해당 필드에 대한 변수와 함수를 설정할 수 있습니다. 자세한 내용은 [의 한 모듈에서 다른 모듈로 정보 매핑 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+필드나 함수 위에 맵 단추가 표시되면 이 단추를 사용하여 해당 필드에 대한 변수와 함수를 설정할 수 있습니다. 자세한 내용은 [한 모듈에서 다른 모듈로 정보를 매핑 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)을 참조하십시오.
 
 ![](assets/map-toggle-350x74.png)
 
@@ -96,16 +96,16 @@ ht-degree: 0%
 
 ### 메시지
 
-* [[!UICONTROL 메시지 만들기 및 보내기(이전)]](#create-and-send-a-message)
+* [[!UICONTROL 메시지 만들기 및 보내기(레거시)]](#create-and-send-a-message)
 * [[!UICONTROL 메시지 삭제]](#delete-a-message)
-* [[!UICONTROL 메시지 받기]](#get-a-message)
+* [[!UICONTROL 메시지 가져오기]](#get-a-message)
 * [[!UICONTROL 메시지 이동]](#move-a-message)
 * [[!UICONTROL 메시지 검색]](#search-messages)
 * [[!UICONTROL 메시지 보기]](#watch-messages)
 
 
 
-#### [!UICONTROL 메시지 만들기 및 보내기(이전)]
+#### [!UICONTROL 메시지 만들기 및 보내기(레거시)]
 
 이메일 메시지를 만들고 보냅니다.
 
@@ -115,7 +115,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Office 365] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Office 365] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Subject]</td> 
@@ -143,7 +143,7 @@ ht-degree: 0%
    <td> <p>메시지를 보낼 이메일 주소를 추가합니다.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL 이름]</strong> </p> <p>연락처의 이름을 입력하십시오.</p> </li> 
-     <li> <p><strong>[!UICONTROL 이메일 주소]</strong> </p> <p>연락처의 이메일 주소를 입력합니다.</p> </li> 
+     <li> <p><strong>[!UICONTROL 전자 메일 주소]</strong> </p> <p>연락처의 이메일 주소를 입력합니다.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -151,7 +151,7 @@ ht-degree: 0%
    <td> <p>메시지 복사본을 받을 수신자를 추가합니다.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL 이름]</strong> </p> <p>연락처의 이름을 입력하십시오.</p> </li> 
-     <li> <p><strong>[!UICONTROL 이메일 주소]</strong> </p> <p>연락처의 이메일 주소를 입력합니다.</p> </li> 
+     <li> <p><strong>[!UICONTROL 전자 메일 주소]</strong> </p> <p>연락처의 이메일 주소를 입력합니다.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -159,7 +159,7 @@ ht-degree: 0%
    <td> <p>다른 수신자가 자신의 이름이나 이메일 주소를 볼 수 없도록 하면서 메시지에 복사할 수신자를 추가합니다.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL 이름]</strong> </p> <p>연락처의 이름을 입력하십시오.</p> </li> 
-     <li> <p><strong>[!UICONTROL 이메일 주소]</strong> </p> <p>연락처의 이메일 주소를 입력합니다.</p> </li> 
+     <li> <p><strong>[!UICONTROL 전자 메일 주소]</strong> </p> <p>연락처의 이메일 주소를 입력합니다.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -175,7 +175,7 @@ ht-degree: 0%
    <td> <p>이메일에 대한 메시지 헤더를 추가합니다.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL 이름]</strong> </p> <p>헤더 이름 입력</p> </li> 
-     <li> <p><strong>[!UICONTROL 이메일 주소]</strong> </p> <p>헤더 값을 입력합니다.</p> </li> 
+     <li> <p><strong>[!UICONTROL 전자 메일 주소]</strong> </p> <p>헤더 값을 입력합니다.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -191,7 +191,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Office 365] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Office 365] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Subject]</td> 
@@ -219,7 +219,7 @@ ht-degree: 0%
    <td> <p>메시지를 보낼 이메일 주소를 추가합니다.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL 이름]</strong> </p> <p>연락처의 이름을 입력하십시오.</p> </li> 
-     <li> <p><strong>[!UICONTROL 이메일 주소]</strong> </p> <p>연락처의 이메일 주소를 입력합니다.</p> </li> 
+     <li> <p><strong>[!UICONTROL 전자 메일 주소]</strong> </p> <p>연락처의 이메일 주소를 입력합니다.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -227,7 +227,7 @@ ht-degree: 0%
    <td> <p>메시지 복사본을 받을 수신자를 추가합니다.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL 이름]</strong> </p> <p>연락처의 이름을 입력하십시오.</p> </li> 
-     <li> <p><strong>[!UICONTROL 이메일 주소]</strong> </p> <p>연락처의 이메일 주소를 입력합니다.</p> </li> 
+     <li> <p><strong>[!UICONTROL 전자 메일 주소]</strong> </p> <p>연락처의 이메일 주소를 입력합니다.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -235,7 +235,7 @@ ht-degree: 0%
    <td> <p>다른 수신자가 자신의 이름이나 이메일 주소를 볼 수 없도록 하면서 메시지에 복사할 수신자를 추가합니다.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL 이름]</strong> </p> <p>연락처의 이름을 입력하십시오.</p> </li> 
-     <li> <p><strong>[!UICONTROL 이메일 주소]</strong> </p> <p>연락처의 이메일 주소를 입력합니다.</p> </li> 
+     <li> <p><strong>[!UICONTROL 전자 메일 주소]</strong> </p> <p>연락처의 이메일 주소를 입력합니다.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -251,7 +251,7 @@ ht-degree: 0%
    <td> <p>이메일에 대한 메시지 헤더를 추가합니다.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL 이름]</strong> </p> <p>헤더 이름 입력</p> </li> 
-     <li> <p><strong>[!UICONTROL 이메일 주소]</strong> </p> <p>헤더 값을 입력합니다.</p> </li> 
+     <li> <p><strong>[!UICONTROL 전자 메일 주소]</strong> </p> <p>헤더 값을 입력합니다.</p> </li> 
     </ul> </td> 
   </tr> 
    <td role="rowheader">[!UICONTROL 보내는 사람 이메일 주소]</td> 
@@ -273,7 +273,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Office 365] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Office 365] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 보내는 사람 이메일 주소]</td> 
@@ -286,7 +286,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-#### [!UICONTROL 메시지 받기]
+#### [!UICONTROL 메시지 가져오기]
 
 특정 메시지의 메타데이터를 가져옵니다.
 
@@ -296,7 +296,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Office 365] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Office 365] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 보내는 사람 이메일 주소]</td> 
@@ -323,7 +323,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Office 365] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Office 365] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 메시지 ID]</td> 
@@ -346,7 +346,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Office 365] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Office 365] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
   </tr> 
     <tr> 
    <td role="rowheader">[!UICONTROL 보내는 사람 이메일 주소]</td> 
@@ -358,7 +358,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Search]</td> 
-   <td>검색 쿼리를 입력합니다. 검색 쿼리를 작성하는 방법에 대한 자세한 내용은 [!DNL Microsoft] 지원 문서 <a href="https://support.microsoft.com/en-us/office/search-mail-and-people-in-outlook-com-88108edf-028e-4306-b87e-7400bbb40aa7?ui=en-us&amp;rs=en-us&amp;ad=us">에서 메일 및 사람 검색 [!DNL Outlook.com]</a>.</td> 
+   <td>검색 쿼리를 입력합니다. 검색 쿼리를 작성하는 방법에 대한 자세한 내용은 [!DNL Microsoft] 지원 문서 <a href="https://support.microsoft.com/en-us/office/search-mail-and-people-in-outlook-com-88108edf-028e-4306-b87e-7400bbb40aa7?ui=en-us&amp;rs=en-us&amp;ad=us">메일 및 사람 검색 [!DNL Outlook.com]</a>을(를) 참조하십시오.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Order by]</td> 
@@ -372,7 +372,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 제한]</td> 
-   <td> <p>최대 메시지 수 입력 [!DNL Workfront Fusion] 한 시나리오 실행 주기 중에 를 반환해야 합니다.</p> </td> 
+   <td> <p>시나리오 실행 주기 동안 [!DNL Workfront Fusion]이(가) 반환해야 하는 최대 메시지 수를 입력하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -387,7 +387,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Office 365] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Office 365] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 시청 메시지]</p> </td> 
@@ -404,11 +404,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Search]</td> 
-   <td>검색 쿼리를 입력합니다. 검색 쿼리를 작성하는 방법에 대한 자세한 내용은 [!DNL Microsoft] 지원 문서 <a href="https://support.microsoft.com/en-us/office/search-mail-and-people-in-outlook-com-88108edf-028e-4306-b87e-7400bbb40aa7?ui=en-us&amp;rs=en-us&amp;ad=us">에서 메일 및 사람 검색 [!DNL Outlook.com]</a>.</td> 
+   <td>검색 쿼리를 입력합니다. 검색 쿼리를 작성하는 방법에 대한 자세한 내용은 [!DNL Microsoft] 지원 문서 <a href="https://support.microsoft.com/en-us/office/search-mail-and-people-in-outlook-com-88108edf-028e-4306-b87e-7400bbb40aa7?ui=en-us&amp;rs=en-us&amp;ad=us">메일 및 사람 검색 [!DNL Outlook.com]</a>을(를) 참조하십시오.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 제한] </td> 
-   <td> <p>최대 메시지 수 입력 [!DNL Workfront Fusion] 한 시나리오 실행 주기 중에 를 반환해야 합니다.</p> </td> 
+   <td> <p>시나리오 실행 주기 동안 [!DNL Workfront Fusion]이(가) 반환해야 하는 최대 메시지 수를 입력하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -429,7 +429,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Office 365] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Office 365] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Subject]</td> 
@@ -457,7 +457,7 @@ ht-degree: 0%
    <td> <p>메시지를 보낼 수신자를 추가합니다.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL 이름]</strong> </p> <p>연락처의 이름을 입력하십시오.</p> </li> 
-     <li> <p><strong>[!UICONTROL 이메일 주소]</strong> </p> <p>연락처의 이메일 주소를 입력합니다.</p> </li> 
+     <li> <p><strong>[!UICONTROL 전자 메일 주소]</strong> </p> <p>연락처의 이메일 주소를 입력합니다.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -465,7 +465,7 @@ ht-degree: 0%
    <td> <p>메시지 사본을 받을 수신자 추가:</p> 
     <ul> 
      <li> <p><strong>이름</strong> </p> <p>연락처의 이름을 입력하십시오.</p> </li> 
-     <li> <p><strong>이메일 주소</strong> </p> <p>연락처의 이메일 주소를 입력합니다.</p> </li> 
+     <li> <p><strong>전자 메일 주소</strong> </p> <p>연락처의 이메일 주소를 입력합니다.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -473,7 +473,7 @@ ht-degree: 0%
    <td> <p>다른 수신자가 자신의 이름이나 이메일 주소를 볼 수 없도록 하면서 메시지에 복사할 수신자를 추가합니다.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL 이름]</strong> </p> <p>연락처의 이름을 입력하십시오.</p> </li> 
-     <li> <p><strong>[!UICONTROL 이메일 주소]</strong> </p> <p>연락처의 이메일 주소를 입력합니다.</p> </li> 
+     <li> <p><strong>[!UICONTROL 전자 메일 주소]</strong> </p> <p>연락처의 이메일 주소를 입력합니다.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -501,7 +501,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Office 365] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Office 365] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 보내는 사람 이메일 주소]</td> 
@@ -524,7 +524,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Office 365] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Office 365] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 보내는 사람 이메일 주소]</td> 
@@ -560,7 +560,7 @@ ht-degree: 0%
    <td> <p>메시지를 보낼 이메일 주소를 추가합니다.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL 이름]</strong> </p> <p>연락처의 이름을 입력하십시오.</p> </li> 
-     <li> <p><strong>[!UICONTROL 이메일 주소]</strong> </p> <p>연락처의 이메일 주소를 입력합니다.</p> </li> 
+     <li> <p><strong>[!UICONTROL 전자 메일 주소]</strong> </p> <p>연락처의 이메일 주소를 입력합니다.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -568,7 +568,7 @@ ht-degree: 0%
    <td> <p>메시지 사본을 받을 수신자 추가:</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL 이름]</strong> </p> <p>연락처의 이름을 입력하십시오.</p> </li> 
-     <li> <p><strong>[!UICONTROL 이메일 주소]</strong> </p> <p>연락처의 이메일 주소를 입력합니다.</p> </li> 
+     <li> <p><strong>[!UICONTROL 전자 메일 주소]</strong> </p> <p>연락처의 이메일 주소를 입력합니다.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -576,7 +576,7 @@ ht-degree: 0%
    <td> <p>다른 수신자가 자신의 이름이나 이메일 주소를 볼 수 없도록 하면서 메시지에 복사할 수신자를 추가합니다.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL 이름]</strong> </p> <p>연락처의 이름을 입력하십시오.</p> </li> 
-     <li> <p><strong>[!UICONTROL 이메일 주소]</strong> </p> <p>연락처의 이메일 주소를 입력합니다.</p> </li> 
+     <li> <p><strong>[!UICONTROL 전자 메일 주소]</strong> </p> <p>연락처의 이메일 주소를 입력합니다.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -609,7 +609,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Office 365] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Office 365] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
   <tr> 
@@ -636,7 +636,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Office 365] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Office 365] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 보내는 사람 이메일 주소]</td> 
@@ -668,7 +668,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Office 365] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Office 365] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 보내는 사람 이메일 주소]</td> 
@@ -695,19 +695,19 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>연결에 대한 자세한 내용 [!DNL Office 365] 계정 위치: [!DNL Workfront Fusion], 참조 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">에 대한 연결 만들기 [!DNL Adobe Workfront Fusion] - 기본 지침</a></p> </td> 
+   <td> <p>[!DNL Office 365] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
-   <td> <p>상대 경로 입력 <code>https://graph.microsoft.com</code>. 예:<code> /v1.0/me/messages</code></p> </td> 
+   <td> <p><code>https://graph.microsoft.com</code>과(와) 관련된 경로를 입력하십시오. 예:<code> /v1.0/me/messages</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 메서드]</p> </td> 
-   td&gt; <p>API 호출을 구성하는 데 필요한 HTTP 요청 메서드를 선택합니다. 자세한 내용은 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">의 HTTP 요청 메서드 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   td&gt; <p>API 호출을 구성하는 데 필요한 HTTP 요청 메서드를 선택합니다. 자세한 내용은 [!DNL Adobe Workfront Fusion]</a>에서 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP 요청 메서드를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p>표준 JSON 개체 형식으로 요청의 헤더를 추가합니다.예: <code>{"Content-type":"application/json"}</code>. [!DNL Workfront Fusion] 인증 헤더를 추가합니다.</p> </td> 
+   <td> <p>표준 JSON 개체 형식으로 요청의 헤더를 추가합니다(예: <code>{"Content-type":"application/json"}</code>). [!DNL Workfront Fusion]이(가) 권한 부여 헤더를 추가합니다.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 쿼리 문자열]</td> 
@@ -715,7 +715,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>표준 JSON 개체의 형태로 API 호출에 대한 본문 콘텐츠를 추가합니다.</p> <p>참고:  <p>다음과 같은 조건문을 사용할 때 <code>if</code> json에서 따옴표를 조건문 외부에 넣습니다.</p> 
+   <td> <p>표준 JSON 개체의 형태로 API 호출에 대한 본문 콘텐츠를 추가합니다.</p> <p>참고:  <p>JSON에서 <code>if</code>과(와) 같은 조건문을 사용할 때 따옴표를 조건문 외부에 넣으십시오.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 

@@ -9,8 +9,8 @@ feature: Reports and Dashboards
 exl-id: 235156b6-a9b6-484e-b126-54874da705c8
 source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 4%
+source-wordcount: '134'
+ht-degree: 5%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 4%
 * 전환된 문제 입력 일자
 * 전환된 문제 작성자 이름
 
-표준 Report Builder를 사용하여 보기를 만드는 방법에 대한 자세한 내용은 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+표준 Report Builder를 사용하여 보기를 만드는 방법에 대한 자세한 내용은 [Adobe Workfront의 보기 개요](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)를 참조하십시오.
 
 ![task_and_project_list_with_original_issue_info.png](assets/task-and-project-list-with-original-issue-info-350x59.png)
 
-프로젝트 및 작업 목록에 추가 문제 정보를 포함하는 방법에 대한 자세한 내용은 [보기: 작업 및 프로젝트에 대한 시작 문제 세부 정보](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md).
+프로젝트 및 작업 목록에 추가 문제 정보를 포함하는 방법에 대한 자세한 내용은 [보기: 작업 및 프로젝트에 대한 시작 문제 세부 정보](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md)를 참조하십시오.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

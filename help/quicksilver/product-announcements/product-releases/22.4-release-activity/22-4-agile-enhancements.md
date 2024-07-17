@@ -17,7 +17,7 @@ ht-degree: 0%
 
 이 페이지에서는 미리보기 환경에 대한 22.4 릴리스의 모든 애자일 개선 사항에 대해 설명합니다. 이러한 개선 사항은 2022년 10월 3일이 있는 주에 사용할 수 있습니다.
 
-22.4 릴리스에서 사용할 수 있는 모든 변경 사항의 목록은 을 참조하십시오. [22.4 릴리스 개요](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+22.4 릴리스에서 사용할 수 있는 모든 변경 사항 목록을 보려면 [22.4 릴리스 개요](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md)를 참조하십시오.
 
 ## 보드에서 사용할 수 있는 접수 열
 
@@ -29,9 +29,9 @@ ht-degree: 0%
 
 하나의 접수 열만 보드에 허용됩니다.
 
-자세한 내용은 [보드에 접수 열 추가](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
+자세한 내용은 [보드에 접수 열 추가](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)를 참조하십시오.
 
-[이 기능에 대한 비디오 데모 보기](https://video.tv.adobe.com/v/3412867/){target=_blank}
+[이 기능의 비디오 데모 보기](https://video.tv.adobe.com/v/3412867/){target=_blank}
 
 ## 보드에서 업데이트된 필터 패널
 
@@ -39,9 +39,9 @@ ht-degree: 0%
 
 보드의 필터 및 검색 아이콘이 화면 왼쪽으로 이동되었습니다. 필터 아이콘을 클릭하면 왼쪽에 패널이 열려 모든 필터 옵션이 표시됩니다. 이전에는 필터가 보드 오른쪽의 드롭다운에 표시되었습니다.
 
-자세한 내용은 [보드에서 필터링 및 검색](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+자세한 내용은 [보드에서 필터링 및 검색](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md)을 참조하십시오.
 
-[이 기능에 대한 비디오 데모 보기](https://video.tv.adobe.com/v/3412868/){target=_blank}
+[이 기능의 비디오 데모 보기](https://video.tv.adobe.com/v/3412868/){target=_blank}
 
 ## 보드에서 그룹을 사용하여 수영선을 만듭니다.
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 접수 열의 모든 카드는 그룹에 포함되지 않습니다.
 
-자세한 내용은 [보드에서 그룹 사용](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md).
+자세한 내용은 [보드에 그룹 사용](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md)을 참조하세요.
 
 [이 기능에 대한 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3412869/){target=_blank}
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 이제 카드에서 체크리스트 항목을 열면 설명, 기한, 피할당자 및 예상치를 포함하여 항목에 대한 자세한 정보를 추가할 수 있습니다. 이전에 사용할 수 없었던 체크리스트 항목을 복사할 수도 있습니다.
 
-자세한 내용은 [카드의 체크리스트 항목 관리](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md).
+자세한 내용은 [카드의 체크리스트 항목 관리](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md)를 참조하십시오.
 
 ## 보드 또는 카드에 팀 추가
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 보드에 팀을 추가한 후 팀에 카드를 할당할 수 있습니다. 연결된 카드에서는 하나의 팀 할당만 허용됩니다. Ad Hoc 카드에서 두 개 이상의 팀을 할당할 수 있습니다.
 
-자세한 내용은 [보드에서 구성원 추가 또는 제거](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
+자세한 내용은 [보드에서 구성원 추가 또는 제거](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md)를 참조하십시오.
 
 [이 기능에 대한 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3412870/){target=_blank}
 
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 이제 보드의 열에 대해 WIP(Work In Progress) 제한을 설정할 수 있습니다. WIP 제한을 활성화하면 현재 카드 수와 제한이 있는 카운터가 열에 나타납니다. 열에 제한보다 많은 카드가 들어 있으면 카운터가 빨간색으로 바뀝니다. 이는 단순한 시각적 경고이며 제한보다 더 많은 카드를 추가하는 것이 중지되지 않습니다.
 
-자세한 내용은 [보드 열 관리](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
+자세한 내용은 [보드 열 관리](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)를 참조하십시오.
 
 [이 기능에 대한 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3412871/){target=_blank}
 

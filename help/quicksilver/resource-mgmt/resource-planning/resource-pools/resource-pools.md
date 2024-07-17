@@ -23,7 +23,7 @@ ht-degree: 5%
 * [리소스 풀 개요](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
 * [리소스 풀 만들기](../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)
 * [리소스 풀을 프로젝트 및 템플릿과 연결](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md)
-* [사용자와 리소스 풀 연결](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)
+* [리소스 풀을 사용자와 연결](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)
 * [리소스 풀에서 사용자 제거](../../../resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md)
 
  
