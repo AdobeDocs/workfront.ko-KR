@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 5f8df2cc919b2e2d8f2a4b9373a63ccf3cbec506
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '759'
 ht-degree: 0%
 
 ---
@@ -109,6 +109,6 @@ Workfront에 대한 방화벽을 구성하려면 네트워크 관리자가 추�
 
 1. Workfront 플랜을 보려면 **라이선스**&#x200B;를 선택하세요.
 
-   플랜이 페이지 하단 근처에 표시됩니다.
+   플랜이 페이지의 오른쪽 상단 근처에 표시됩니다.
 
    ![](assets/locate-plan.png)

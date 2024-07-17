@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 65c7c11762ab82445e6f99a6ddb2c5e995b95380
+source-git-commit: dff543fcd657ba5208e1ef1110502175155d2040
 workflow-type: tm+mt
-source-wordcount: '14439'
+source-wordcount: '14438'
 ht-degree: 1%
 
 ---
@@ -490,6 +490,9 @@ ht-degree: 1%
          * [환경 프로모션 패키지 만들기 또는 편집](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
          * [환경 프로모션 패키지 설치](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
          * [API를 사용한 환경 프로모션](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
+         * [환경 프로모션 FAQ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md)
+         * [환경 프로모션 문제 해결](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)
+
    * 사용자 관리 {#add-users}
       * [사용자 관리: 문서 색인](administration-and-setup/add-users/add-users.md)
       * 사용자 만들기 및 관리 {#create-manage-users}
@@ -2207,7 +2210,6 @@ ht-degree: 1%
       * [Adobe Workfront Fusion 시나리오 개요](workfront-fusion/scenarios/scenario-overview.md)
       * [Adobe Workfront Fusion에서 시나리오 만들기](workfront-fusion/scenarios/create-a-scenario.md)
       * [Adobe Workfront Fusion의 시나리오 편집기](workfront-fusion/scenarios/scenario-editor.md)
-      * [Adobe Workfront Fusion의 기본 시나리오 설정](workfront-fusion/scenarios/basic-scenario-settings.md)
       * [Adobe Workfront Fusion의 시나리오 설정 패널](workfront-fusion/scenarios/scenario-settings-panel.md)
       * [Adobe Workfront Fusion의 시나리오 세부 정보](workfront-fusion/scenarios/scenario-detail.md)
       * [Adobe Workfront Fusion의 시나리오 실행 흐름](workfront-fusion/scenarios/scenario-execution-flow.md)
