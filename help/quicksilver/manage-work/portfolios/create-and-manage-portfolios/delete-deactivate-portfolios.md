@@ -6,9 +6,9 @@ description: Portfolio은 Adobe Workfront의 프로젝트 또는 프로그램 �
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '358'
 ht-degree: 0%
 
 ---
@@ -77,14 +77,16 @@ Portfolio은 [!DNL Adobe Workfront]에 있는 프로젝트 또는 프로그램�
 >
 >[!DNL Workfront] 또는 그룹 관리자가 레이아웃 템플릿을 구성하는 방법에 따라 [!UICONTROL Portfolio] 영역이 [!UICONTROL 기본 메뉴]에 표시되지 않을 수 있습니다. 자세한 내용은 [레이아웃 템플릿을 사용하여 기본 메뉴 사용자 지정](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)을 참조하십시오.
 
-1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭합니다.
+{{step1-click-main-menu}}
+
 1. **[!UICONTROL Portfolio]** 을 클릭합니다.
 1. 포트폴리오의 이름을 클릭합니다.
 1. 포트폴리오 이름의 오른쪽에 있는 **자세히** 메뉴 ![](assets/more-icon.png)을(를) 클릭한 다음 **[!UICONTROL Portfolio 비활성화]**&#x200B;를 클릭합니다.
 
 ## 포트폴리오 삭제
 
-1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭합니다.
+{{step1-click-main-menu}}
+
 1. **[!UICONTROL Portfolio]** 을 클릭합니다.
 1. 포트폴리오를 선택한 다음 **[!UICONTROL 삭제]**&#x200B;[!UICONTROL 삭제] 아이콘 ![](assets/delete.png)을(를) 클릭합니다.
-1. 표시되는 상자에서 **[!UICONTROL 예, 삭제]**&#x200B;를 클릭하여 확인합니다.
+1. 확인하려면 **[!UICONTROL 예, 삭제]**&#x200B;를 클릭하세요.

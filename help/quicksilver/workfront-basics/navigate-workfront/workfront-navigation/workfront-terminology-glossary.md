@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] 용어집에는  [!DNL Adobe Workfront]. Y
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '20304'
+source-wordcount: '20310'
 ht-degree: 0%
 
 ---
@@ -1531,7 +1531,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL 계획된 완료 일자]</td> 
-   <td> <p>선택한 날짜로 [!UICONTROL 계획된 완료 일자]를 수동으로 설정할 수 있습니다. [!UICONTROL 계획된 완료 일자]를 설정하지 않으면 [!DNL Workfront]에서 자동으로 설정합니다. 자동으로 설정된 경우 [!UICONTROL 계획된 완료 일자]는 [!UICONTROL 계획된 시작 일자] + [!UICONTROL 기간]입니다.</p> <p>자세한 내용은 다음 문서를 참조하십시오.</p> 
+   <td> <p>작업, 프로젝트 또는 문제의 [!UICONTROL 계획된 완료 일자]를 선택한 일자로 수동으로 설정할 수 있습니다. [!UICONTROL 계획된 완료 일자]를 설정하지 않으면 [!DNL Workfront]에서 자동으로 설정합니다. 자동으로 설정된 경우 [!UICONTROL 계획된 완료 일자]는 [!UICONTROL 계획된 시작 일자] + [!UICONTROL 기간]입니다.</p> <p>자세한 내용은 다음 문서를 참조하십시오.</p> 
     <ul> 
      <li> <p><a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">작업 [!UICONTROL 계획된 완료 일자] 개요</a> </p> </li> 
      <li> <p><a href="../../../manage-work/projects/planning-a-project/project-planned-completion-date.md" class="MCXref xref">프로젝트 [!UICONTROL 계획된 완료 일자] 설정</a> </p> </li> 

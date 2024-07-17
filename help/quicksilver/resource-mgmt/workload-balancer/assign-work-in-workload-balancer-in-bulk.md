@@ -6,9 +6,9 @@ description: Adobe Workfront 업무 균형자 를 사용하여 여러 작업 및
 author: Lisa
 feature: Resource Management
 exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
-source-git-commit: f2b6f0fb8a24723fec60c6fc1a99e1b8f9cf39c7
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '1501'
+source-wordcount: '1499'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ Adobe Workfront 업무 균형자 를 사용하여 여러 작업 및 문제에 �
 
 ## 액세스 요구 사항
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -68,6 +68,8 @@ Adobe Workfront 업무 균형자 를 사용하여 여러 작업 및 문제에 �
 </table>
 
 *자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 업무 균형자에서 일괄 할당할 때 고려 사항
 

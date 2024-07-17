@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '1967'
+source-wordcount: '1989'
 ht-degree: 2%
 
 ---
@@ -287,13 +287,18 @@ Workfront Planning을 찾으려면 다음을 수행합니다.
 
 1. Adobe Workfront에 로그인.
 
-1. 오른쪽 상단의 **주 메뉴** ![](assets/main-menu-workfront.png)을(를) 클릭하거나 왼쪽 상단의 **주 메뉴** ![](assets/main-menu-shell.png)을(를) 클릭합니다(사용 가능한 경우).
+{{step1-click-main-menu}}
 
 1. **계획** ![](assets/planning-icon.png)을 클릭합니다.
 
    Workfront Planning 랜딩 페이지가 열립니다.
 
    ![](assets/planning-landing-page-admin.png)
+
+   >[!TIP]
+   >
+   >    Workfront 관리자는 레이아웃 템플릿의 랜딩 페이지 선택 옵션에 계획 영역을 추가할 수 있으므로 Workfront에 로그인하는 즉시 Planning을 열 수 있습니다. 자세한 내용은 [레이아웃 템플릿을 사용하여 랜딩 페이지 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)을 참조하세요.
+
 
 1. (조건부 및 선택 사항) Workfront 관리자인 경우 다음 탭 중 하나를 클릭합니다.
    * **내 작업 영역**: 사용자가 만든 작업 영역을 표시합니다.

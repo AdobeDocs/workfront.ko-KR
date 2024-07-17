@@ -6,14 +6,16 @@ description: 프로젝트를 시작할 때 포트폴리오에 프로젝트를 �
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
-source-git-commit: cf3466759a7263c446525b97dd2748ad17d0f7a6
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
 
 # 포트폴리오에 프로젝트 추가
+
+<!--Audited: 7/2024-->
 
 프로젝트를 시작할 때 포트폴리오에 프로젝트를 추가하는 것이 좋습니다. 그러나 라이프타임 동안 언제든지 포트폴리오에 추가할 수 있습니다.
 
@@ -24,32 +26,35 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜*</td> 
-   <td> <p>[!UICONTROL Business] 이상</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
-   <td> <p>[!UICONTROL 계획] </p> </td> 
+   <td><p>새로운 기능: 표준</p> 
+   <p>현재:[!UICONTROL 계획] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>Portfolio 이상에 대한 [!UICONTROL 보기] 액세스</p> <p>프로젝트에 대한 [!UICONTROL 편집] 액세스 권한</p> <p>참고: 여전히 액세스 권한이 없는 경우 [!DNL Workfront] 관리자에게 액세스 수준에 추가 제한을 설정했는지 문의하십시오. [!DNL Workfront] 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>Portfolio 이상에 대한 [!UICONTROL 보기] 액세스</p> <p>프로젝트에 대한 [!UICONTROL 편집] 액세스 권한</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>포트폴리오에 대한 [!UICONTROL 보기] 권한</p> <p>프로젝트에 대한 [!UICONTROL 관리] 권한</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
+   <td> <p>포트폴리오에 대한 [!UICONTROL 보기] 권한</p> <p>프로젝트에 대한 [!UICONTROL 관리] 권한</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 포트폴리오에 프로젝트 추가
 
