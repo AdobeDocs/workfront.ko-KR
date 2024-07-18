@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '1997'
+source-wordcount: '1985'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 <!--Audited: 07/2024-->
 
-<!--remove the span class preview from everywhere but the Rate Card roles referencs must stay in yellow; replace the intro with preview and fast track only but not sure if with the link to third quarter release?!-->
+<!--remove the span class preview from everywhere but the Rate Card roles references must stay in yellow; replace the intro with preview and fast track only but not sure if with the link to third quarter release?!-->
 
 <span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리 보기 환경이나 빠른 릴리스를 활성화한 고객의 프로덕션 환경에서만 사용할 수 있습니다.</span>
 
@@ -146,12 +146,8 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
    또는
 
-   작업 또는 문제가 이미 할당된 경우 할당명을 클릭합니다.
+   작업이 이미 할당된 경우 할당명을 누릅니다.
 
-   프로덕션 환경에서:
-   ![](../assign-tasks/assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
-
-   <span class="preview">미리 보기 환경에서:</span>
    ![할당](assets/assignments-box-in-task-header.png)
 
 1. 다음 중 하나를 수행하십시오.
@@ -168,7 +164,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      ><span class="preview">작업 역할 할당을 추가할 때 작업 역할이나 위치를 검색할 수 있습니다. 발령에 대한 기본 청구 요율을 사용하려면 작업 역할 목록에서 역할을 선택하고, 요율 카드에서 청구 요율을 사용하려면 요율 카드 작업 역할을 선택합니다. 등급 카드에 대한 자세한 내용은 [등급 카드 관리](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>를 참조하십시오.
 
 
-   * (조건부) 표시될 때 <span class="preview">**제안된 할당**, **사용자 및 팀**, **작업 역할** 또는 **카드 역할 비율**</span> 목록에 있는 이름 중 하나를 클릭합니다. 자세한 내용은 [스마트 할당 개요](../../../manage-work/tasks/assign-tasks/smart-assignments.md)를 참조하십시오.
+   * (조건부) 표시될 때 **제안된 할당**, **사용자 및 팀**, **작업 역할** 또는 <span class="preview">**카드 역할 비율**</span> 목록에 있는 이름 중 하나를 클릭합니다. 자세한 내용은 [스마트 할당 개요](../../../manage-work/tasks/assign-tasks/smart-assignments.md)를 참조하십시오.
 
      작업에 할당할 사용자, 팀 또는 작업 역할의 이름을 입력한 다음 목록에 표시될 때 선택할 수 있습니다.
 
@@ -215,7 +211,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      >
      >사용자의 이메일을 보려면 사용자의 액세스 수준에서 연락처 정보 보기 설정을 활성화해야 합니다. 자세한 내용은 [사용자에게 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)를 참조하십시오.
      >
-     ><span class="preview">작업 역할 할당을 추가할 때 작업 역할이나 위치를 검색할 수 있습니다. 발령에 대한 기본 청구 요율을 사용하려면 시스템/기본 작업 역할을 선택하고, 요율 카드에서 청구 요율을 사용하려면 요율 카드 작업 역할을 선택합니다. 등급 카드에 대한 자세한 내용은 [등급 카드 관리](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>를 참조하십시오.
+     ><span class="preview">작업 역할 할당을 추가할 때 작업 역할이나 위치를 검색할 수 있습니다. 발령에 대한 기본 청구 요율을 사용하려면 작업 역할을 선택하고, 요율 카드에서 청구 요율을 사용하려면 요율 카드 작업 역할을 선택합니다. 등급 카드에 대한 자세한 내용은 [등급 카드 관리](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>를 참조하십시오.
 
 
 1. (조건부) **할당** 필드에 표시되면 할당 상자의 오른쪽 위에 있는 **사람** 아이콘을 클릭하여 **고급 할당** 상자를 열고 고급 할당을 만듭니다.

@@ -6,20 +6,22 @@ description: 작업 또는 문제의 상태는 작업 또는 문제의 진행 �
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1020'
 ht-degree: 1%
 
 ---
 
 # 작업 및 문제에 대한 상태 업데이트
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리 보기 환경이나 빠른 릴리스를 활성화한 고객의 프로덕션 환경에서만 사용할 수 있습니다.</span>
+<!--Audited: 07/2024-->
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>을 참조하세요.
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview">현재 릴리스에 대한 자세한 내용은 [2024년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)를 참조하십시오.</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">For information about the current release, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>-->
 
 작업 또는 문제의 상태는 작업 또는 문제의 진행 상황을 나타내는 플래그입니다. 이는 항목의 현재 개발 단계를 나타내는 작업 항목의 상태와 다릅니다.
 
@@ -29,7 +31,7 @@ ht-degree: 1%
 
 ## 액세스 요구 사항 {#access-requirements}
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,15 +43,12 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td>
-
-새 라이센스의 경우:
-<ul><li><p>작업 표준</p></li>
+   <td> 
+   신규:
+   <ul><li><p>작업 표준</p></li>
    <li><p>문제에 대한 기여자 이상</p></li></ul>
-
-
-현재 라이센스의 경우:
-<ul><li><p>작업 이상</p></li>
+   현재:
+   <ul><li><p>작업 이상</p></li>
    <li><p>문제에 대한 요청 이상</p></li></ul>
     </td> 
   </tr> 
@@ -66,7 +65,9 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오. 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 전제 조건
 
@@ -78,9 +79,9 @@ ht-degree: 1%
 
 Workfront의 다음 영역에서 작업 및 문제의 상태를 찾을 수 있습니다.
 
-* <span class="preview">Workfront 또는 그룹 관리자가 레이아웃 템플릿에 추가한 후 세부 정보 페이지입니다. 자세한 내용은 [레이아웃 템플릿을 사용하여 세부 정보 보기 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)을 참조하십시오. </span>
+* Workfront 또는 그룹 관리자가 레이아웃 템플릿에 추가하면 세부 정보 페이지가 표시됩니다. 자세한 내용은 [레이아웃 템플릿을 사용하여 세부 정보 보기 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)을 참조하십시오.
 
-* <span class="preview">Workfront 또는 그룹 관리자가 작업 또는 문제를 레이아웃 템플릿에 추가한 후 작업 또는 문제의 헤더입니다. 자세한 내용은 [레이아웃 템플릿을 사용하여 개체 머리글 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)을 참조하십시오. </span>
+* Workfront 또는 그룹 관리자가 작업 또는 문제를 레이아웃 템플릿에 추가한 후의 헤더. 자세한 내용은 [레이아웃 템플릿을 사용하여 개체 머리글 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)을 참조하십시오.
 
 * 요약 패널은 Workfront 또는 그룹 관리자가 레이아웃 템플릿에 추가하면 됩니다. 자세한 내용은 [레이아웃 템플릿을 사용하여 홈 및 요약 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)을 참조하십시오.
 
@@ -110,7 +111,7 @@ Workfront의 다음 영역에서 작업 및 문제의 상태를 찾을 수 있�
 
 >[!NOTE]
 >
->Workfront의 다양한 영역에서 쉽게 업데이트할 수 있도록 시스템 또는 그룹 관리자에게 요약 패널에 조건 필드를 추가하도록 요청할 수 있습니다.
+>시스템 또는 그룹 관리자에게 요약 패널, 작업 또는 문제 헤더 또는 세부 정보 페이지에 조건 필드를 추가하도록 요청할 수 있습니다.
 >
 >자세한 내용은 다음 문서를 참조하십시오.
 >
@@ -124,31 +125,27 @@ Updating the Condition of a task or issue differs depending on whether you are a
 * If you are using the legacy commenting experience, you can update the Condition in the Updates tab or in a list of tasks or issues if you are assigned to them. This is not supported in the new commenting experience. For information, see [New commenting experience](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 * You can update the Condition in a list of tasks or issues if you are not assigned to them, only if you have Manage permissions to them. In this case, you cannot update the Condition in the Update tab of the task or issue. -->
 
-작업 또는 문제의 상태를 수동으로 업데이트하려면 다음 중 하나를 수행하십시오.
+Workfront의 다양한 영역에서 작업 및 문제의 상태를 수동으로 업데이트할 수 있습니다. 다음 섹션에서는 작업 및 문제의 상태를 수동으로 업데이트하는 방법에 대해 설명합니다.
 
-<div class="preview">
+### 작업 또는 문제 헤더에서 작업 또는 문제의 상태 업데이트
 
-1. 작업 또는 문제 헤더에서 작업 또는 문제의 상태를 업데이트하려면 다음을 수행하십시오.
+1. (조건부) Workfront 또는 그룹 관리자가 레이아웃 템플릿의 작업 또는 문제 헤더에 조건 필드를 추가한 경우 헤더에서 **조건** 필드를 클릭하고 다음 옵션 중에서 선택합니다.
+   * 매끄럽게 진행 중
+   * 일부 우려 사항
+   * 주요 장애물
 
-   1. (조건부) Workfront 또는 그룹 관리자가 레이아웃 템플릿의 작업 또는 문제 헤더에 조건 필드를 추가한 경우 헤더에서 **조건** 필드를 클릭하고 다음 옵션 중에서 선택합니다.
-      * 매끄럽게 진행 중
-      * 일부 우려 사항
-      * 주요 장애물
+   ![](assets/condition-in-task-header.png)
+1. Enter 를 클릭하여 조건을 저장합니다.
 
-      ![](assets/condition-in-task-header.png)
-   1. Enter 를 클릭하여 조건을 저장합니다.
+### 작업 또는 문제 세부 정보 섹션에서 작업 또는 문제의 상태 업데이트
 
-1. 작업 또는 문제 세부 정보 섹션에서 작업 또는 문제의 상태를 업데이트하려면 다음을 수행하십시오.
-
-   1. (조건부) Workfront 또는 그룹 관리자가 레이아웃 템플릿에 있는 작업 또는 문제의 세부 정보 섹션에 조건 필드를 추가한 경우 왼쪽 패널에서 **세부 정보**&#x200B;를 클릭한 다음 **작업 조건** 또는 **문제 조건**&#x200B;을 클릭하고 다음 옵션 중에서 선택하십시오.
-      * 매끄럽게 진행 중
-      * 일부 우려 사항
-      * 주요 장애물
+1. (조건부) Workfront 또는 그룹 관리자가 레이아웃 템플릿에 있는 작업 또는 문제의 세부 정보 섹션에 조건 필드를 추가한 경우 왼쪽 패널에서 **세부 정보**&#x200B;를 클릭한 다음 **작업 조건** 또는 **문제 조건**&#x200B;을 클릭하고 다음 옵션 중에서 선택하십시오.
+   * 매끄럽게 진행 중
+   * 일부 우려 사항
+   * 주요 장애물
 1. **변경 내용 저장**&#x200B;을 클릭합니다. 작업 또는 문제의 상태가 업데이트됩니다.
 
-</div>
-
-보고서 또는 목록의 작업 또는 문제의 상태를 업데이트하려면 다음을 수행합니다.
+### 보고서 또는 목록에서 작업 또는 문제의 상태 업데이트
 
 1. 관리 권한이 있는 작업 또는 문제 목록으로 이동합니다. **Condition** 필드가 목록의 보기에 표시되는지 확인합니다.
 

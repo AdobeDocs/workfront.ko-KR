@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '1674'
+source-wordcount: '1716'
 ht-degree: 0%
 
 ---
@@ -162,6 +162,9 @@ ht-degree: 0%
    * 열의 열 헤더를 클릭하여 선택하고 복사한 다음 다른 열의 열 헤더를 클릭하고 복사한 열의 내용을 붙여넣습니다. 열에는 유사한 필드 유형이 포함되어야 합니다.
    * Shift 키를 누른 상태에서 을 클릭하여 테이블의 여러 행을 선택하고 선택한 행의 정보를 복사한 다음 다른 행을 클릭하고 선택한 정보를 새 행 및 그 다음 행에 붙여넣습니다.
    * 한 셀에서 정보를 복사한 다음 여러 셀을 선택하고 동일한 정보를 여러 셀에 붙여넣습니다. 여러 셀을 선택하고 인접한 행과 열의 여러 셀에 동일한 정보를 붙여 넣을 수 있습니다.
+   * 복사할 정보가 들어 있는 기존 셀의 오른쪽 아래 모서리를 선택한 다음 동일한 정보를 붙여넣을 인접한 셀에 끌어서 놓습니다. 모든 셀에는 동일한 유형의 정보가 포함되어야 합니다.
+
+     ![](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
 
    >[!NOTE]
    >

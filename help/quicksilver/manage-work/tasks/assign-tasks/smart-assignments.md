@@ -7,9 +7,9 @@ description: 작업 및 문제 할당을 관리할 때 스마트 할당을 사�
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1269'
 ht-degree: 0%
 
 ---
@@ -49,13 +49,13 @@ ht-degree: 0%
 
   ![](assets/smart-assignments-issue-list.png)
 
-* <span class="preview">할당 열 </span>의 작업 목록 또는 보고서
+* 할당 열의 작업 목록 또는 보고서
 
-  <span class="preview">![](assets/smart-assignments-task-list.png)</span>
+  ![](assets/smart-assignments-task-list.png)
 
-* <span class="preview">할당 필드의 작업 헤더</span>
+* 할당 필드의 작업 헤더
 
-  <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
+  ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
 * 할당 필드의 문제 헤더
 
@@ -63,24 +63,24 @@ ht-degree: 0%
 
 * 할당 영역의 작업 또는 문제 요약 패널
 
-  ![](assets/smart-assignments-summary-panel-nwe-350x332.png)
+  ![](assets/issue-assignments-summary-panel.png)
 
-* <span class="preview">프로젝트에 작업을 추가할 때 새 작업 상자의 할당 필드</span>
+* 프로젝트에 작업을 추가할 때 새 작업 상자의 할당 필드
 
-  <span class="preview">![](assets/smart-assignments-new-task-modal.png)</span>
+  ![](assets/smart-assignments-new-task-modal.png)
 
-* 작업 또는 문제를 열 때 홈 영역에 나열된 항목에 대한 할당 필드
+<!--this is not possible in the new home  - we have Summary there: 
+* The Assignments field for an item listed in the Home area, when you open a task or issue
 
-  <span class="preview">![](assets/smart-assignments-in-home-nwe-350x216.png)</span>
+  ![](assets/smart-assignments-in-home-nwe-350x216.png)
+-->
 
 * 작업 또는 문제를 할당할 때 할당 대상 영역의 업무 균형자
 
-  <span class="preview">![](assets/smart-assignments-workload-balancer-bulk-assignments.png)</span>
+  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 
 ## 스마트 할당 기준
-
-<div class="preview">
 
 스마트 할당은 작업에 대해 문제와 다르게 작동합니다.
 
@@ -134,17 +134,16 @@ ht-degree: 0%
 
 자세한 내용은 이 문서의 [작업 및 문제에 대한 스마트 할당 기준](#smart-assignments-criteria-for-tasks-and-issues) 섹션을 참조하십시오.
 
-이 단계에서 식별된 할당은 할당 필드의 **사용자 및 팀**, **작업 역할 할당** 및 **등급 카드 역할** 섹션에 나열됩니다. 요율 카드에 대한 자세한 내용은 [요율 카드 관리](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)를 참조하십시오. <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
+이 단계에서 식별된 할당은 할당 필드의 **사용자 및 팀**, **작업 역할 할당** 및 <span class="preview">**등급 카드 역할**</span> 섹션에 나열됩니다. <span class="preview">등급 카드에 대한 자세한 내용은 [등급 카드 관리](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)</span>를 참조하십시오. <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
 
 ### 작업 및 문제에 대한 스마트 할당 기준
 
-</div>
 
 >[!NOTE]
 >
-><span class="preview">다음 기준은 작업 스마트 할당 계산의 첫 번째 단계에서 일치하는 항목을 찾지 못한 경우에만 작업에 적용됩니다. 자세한 내용은 이 문서에서 [작업에 대한 스마트 할당 계산의 첫 번째 단계](#first-phase-of-smart-assignment-calculation-for-tasks) 섹션을 참조하십시오. 기본적으로 다음 기준은 항상 문제에 적용됩니다. </span>
+>다음 기준은 작업 스마트 할당 계산의 첫 번째 단계에서 일치하는 항목을 찾지 못한 경우에만 작업에 적용됩니다. 자세한 내용은 이 문서에서 [작업에 대한 스마트 할당 계산의 첫 번째 단계](#first-phase-of-smart-assignment-calculation-for-tasks) 섹션을 참조하십시오. 기본적으로 다음 기준은 항상 문제에 적용됩니다.
 
-<span class="preview">![](assets/smart-assignments-issue-header.png)</span>
+![](assets/smart-assignments-issue-header.png)
 
 다음 기준의 조합(가장 중요한 것에서 가장 중요하지 않은 것의 순서로 나열됨)을 기반으로 스마트 할당 드롭다운 목록에서 사용자를 권장합니다.
 

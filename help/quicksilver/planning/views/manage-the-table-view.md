@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '2569'
+source-wordcount: '2598'
 ht-degree: 3%
 
 ---
@@ -93,6 +93,12 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
 </table>
 
 *자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
+## 표 보기를 사용하여 레코드 편집
+
+표 보기에서만 레코드 정보를 편집할 수 있습니다.
+
+표 보기에서 레코드를 편집하는 방법에 대한 자세한 내용은 [레코드 편집](/help/quicksilver/planning/records/edit-records.md)을 참조하십시오.
 
 ## 표 보기 관리 {#manage-a-table-view}
 
