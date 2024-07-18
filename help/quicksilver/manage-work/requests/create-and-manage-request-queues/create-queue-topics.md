@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '848'
 ht-degree: 2%
 
 ---
@@ -93,7 +93,7 @@ ht-degree: 2%
 
    * [라우팅 규칙 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
    * [주제 그룹 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
-   * [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+   * [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
 
 1. 도움말 요청 대기열로 사용하기 위해 선택한 프로젝트와 새 대기열 주제를 만들 위치로 이동합니다.\
    프로젝트를 도움말 요청 대기열로 지정하는 방법에 대한 자세한 내용은 [요청 대기열 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)를 참조하십시오.
@@ -128,7 +128,7 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>사용자 정의 양식</strong> </td> 
-      <td>대기열 주제와 연결할 사용자 정의 양식을 선택합니다. 대기열 주제에 연결하려면 먼저 문제에 대한 사용자 정의 양식을 만들어야 합니다. 사용자 정의 양식 만들기에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">사용자 정의 양식 만들기 또는 편집</a>을 참조하십시오.</td> 
+      <td>대기열 주제와 연결할 사용자 정의 양식을 선택합니다. 대기열 주제에 연결하려면 먼저 문제에 대한 사용자 정의 양식을 만들어야 합니다. 사용자 정의 양식을 만드는 방법에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">양식 디자이너를 사용하여 양식 디자인</a>을 참조하십시오.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>기본 승인</strong></td> 

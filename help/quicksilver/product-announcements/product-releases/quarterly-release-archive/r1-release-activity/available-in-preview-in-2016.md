@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 08e0bd72-5979-449e-9fb2-c4d45f51119e
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
@@ -93,8 +93,6 @@ ht-degree: 0%
 이제 개별 사용자, 팀, 역할, 그룹 또는 회사에 대한 액세스 권한을 부여하여 사용자 정의 양식에 액세스할 수 있는 사용자를 제어할 수 있습니다. 
 
 이 변경 이전에는 그룹에만 액세스 권한을 부여할 수 있었습니다.
-
-자세한 내용은 [사용자 정의 양식 만들기 또는 편집](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)을 참조하세요.
 
 ## Adobe Creative Cloud과 통합
 

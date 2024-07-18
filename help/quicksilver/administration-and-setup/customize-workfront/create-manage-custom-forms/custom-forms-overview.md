@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 286a5b40baced3bfd3e06a2b3f1c143839808018
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 7%
+source-wordcount: '366'
+ht-degree: 11%
 
 ---
 
@@ -29,10 +29,11 @@ ht-degree: 7%
 
 ## 사용자 정의 양식을 만드는 방법
 
-[!DNL Workfront]에 사용자 정의 양식을 만드는 두 가지 옵션이 있습니다. 기존 사용자 정의 양식 빌더 또는 새 양식 디자이너를 사용할 수 있습니다.
+양식 디자이너에는 필드, 캔버스 및 필드 설정을 모두 동시에 볼 수 있는 캔버스 스타일 작업 영역이 있습니다. 양식을 디자인하는 동안 섹션 내에 필드를 끌어다 놓을 수도 있습니다.
 
-* [기존 사용자 정의 양식 빌더](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
-* [양식 디자이너](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-toc.md)
+자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
+
+![샘플 양식 디자이너](assets/form-designer-example.png)
 
 ## 사용자 정의 필드 및 위젯
 
@@ -42,15 +43,17 @@ Workfront은 각 오브젝트 유형에 대해 많은 기본 제공 필드를 �
 
 Workfront에서 다음 유형의 사용자 정의 필드를 사용자 정의 양식에 추가할 수 있습니다.
 
-* 양식 디자이너의 한 줄 텍스트 필드 또는 한 줄 텍스트
-* 양식 디자이너의 단락 텍스트 필드 또는 단락 텍스트
-* 서식이 있는 텍스트 필드 또는 양식 디자이너의 서식이 있는 텍스트
+* 한 줄 텍스트
+* 단락 텍스트
+* 서식 포함 텍스트
 * 드롭다운
-* 외부 조회 - 양식 디자이너에서만 사용 가능
+* 다중 선택 드롭다운
+* 외부 조회
+* 기본 필드
 * 타이프 어헤드
 * 계산됨
-* 양식 디자이너의 날짜 또는 날짜 필드
-* 확인란
+* 일자 필드
+* 확인란 그룹
 * 라디오 버튼
 * 설명 텍스트
 * 섹션 구분
@@ -58,6 +61,10 @@ Workfront에서 다음 유형의 사용자 정의 필드를 사용자 정의 양
 * 이미지
 * PDF
 * 비디오
+
+>[!NOTE]
+>
+>업데이트 피드의 필드 변경 사항을 추적하려면 설정 > 인터페이스 > 피드 업데이트로 이동합니다. 자세한 내용은 [시스템 업데이트 구성](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)을 참조하세요.
 
 ## 사용자가 사용자 정의 양식을 첨부할 수 있는 객체
 
@@ -81,5 +88,4 @@ Workfront에서 다음 유형의 사용자 정의 필드를 사용자 정의 양
 개체에 사용자 정의 양식을 첨부하는 방법에 대한 자세한 내용은 [개체에 사용자 정의 양식 추가](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)를 참조하십시오.
 
 개체를 변환할 때 사용자 정의 양식이 어떻게 되는지에 대한 자세한 내용은 [개체를 변환할 때 사용자 정의 양식 데이터 전송](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md)을 참조하십시오.
-
 

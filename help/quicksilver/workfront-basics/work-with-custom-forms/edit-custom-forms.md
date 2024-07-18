@@ -7,9 +7,9 @@ description: 양식을 오브젝트에 첨부한 후 사용자 정의 양식에 
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 456310e460bae44183de390efc4be919fda3f36d
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1036'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 0%
    <td> 
     <ul> 
      <li> <p>사용자 정의 양식을 편집할 객체에 대한 Contribute 이상의 권한</p> </li> 
-     <li>편집할 필드에 대한 권한을 봅니다. 사용자 정의 필드에 대한 공유 권한에 대한 자세한 내용은 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">사용자 정의 필드 및 위젯에 대한 공유 구성</a>을 참조하십시오.</li> 
+     <li>편집할 필드에 대한 권한을 봅니다. 사용자 정의 필드에 대한 공유 권한에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md" class="MCXref xref">사용자 정의 필드 및 위젯에 대한 공유 구성</a>을 참조하십시오.</li> 
      <li> <p>편집할 필드가 있는 양식의 섹션에 대한 권한 편집</p> </li> 
     </ul> <p>개체에 대한 추가 액세스 요청에 대한 자세한 내용은 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체에 대한 액세스 요청 </a>을(를) 참조하십시오.</p> </td> 
   </tr> 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 ## 전제 조건
 
-* Workfront 관리자 또는 사용자 정의 양식에 대한 관리 액세스 권한이 있는 계획 사용자는 사용자 환경에서 사용자 정의 양식을 만들어야 합니다. 자세한 내용은 [사용자 정의 양식 만들기 또는 편집](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)을 참조하세요.
+* Workfront 관리자 또는 사용자 정의 양식에 대한 관리 액세스 권한이 있는 계획 사용자는 사용자 환경에서 사용자 정의 양식을 만들어야 합니다. 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
 * 오브젝트에 사용자 정의 양식을 첨부해야 합니다.
 
   개체에 사용자 정의 양식을 적용하는 방법에 대한 자세한 내용은 [개체에 사용자 정의 양식 추가](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)를 참조하십시오.
@@ -91,7 +91,7 @@ ht-degree: 0%
    * 양식을 만든 사용자가 텍스트 필드를 서식 필드 유형이 있는 텍스트 필드로 설정한 경우에만 텍스트 필드에 서식을 지정(굵게, 기울임꼴 또는 밑줄)할 수 있습니다. 한 줄 텍스트 필드와 단락 텍스트 필드의 서식을 지정할 수 없습니다.
    * 필드를 만들 때 양식을 만든 사용자가 포함시킨 경우에만 날짜 필드 유형에서 하루 중 시간을 업데이트할 수 있습니다.
 
-   모든 필드 형식에 대한 자세한 내용은 [사용자 지정 양식 만들기 또는 편집](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)을 참조하세요.
+   모든 필드 형식에 대한 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
 
 1. **변경 내용 저장**&#x200B;을 클릭합니다.
 

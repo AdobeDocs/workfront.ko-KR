@@ -5,7 +5,7 @@ author: Alina
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 4dc32da0-9680-4b7f-a959-d4a0652618c5
-source-git-commit: 1670edf153e57152e51adcfbda052eb74541d931
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
 source-wordcount: '598'
 ht-degree: 1%
@@ -72,7 +72,7 @@ ht-degree: 1%
 
    올바른 액세스 권한을 가지고 사용자 정의 양식을 첨부하고 양식의 정보를 편집할 수 있습니다.
 
-사용자 정의 양식 만들기에 대한 자세한 내용은 [사용자 정의 양식 만들기 또는 편집](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)을 참조하십시오.
+사용자 정의 양식을 만드는 방법에 대한 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
 
 개체에 양식을 첨부하는 방법에 대한 자세한 내용은 [개체에 사용자 정의 양식 추가](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)를 참조하십시오.
 
@@ -102,7 +102,7 @@ ht-degree: 1%
    >   * 그룹 또는 Workfront 관리자가 개요 영역에서 모든 필드를 선택 취소하고 오브젝트에 사용자 정의 양식이 첨부되어 있는 경우 개요 섹션이 표시되지 않습니다.
    >   * 그룹 또는 Workfront 관리자가 개요 영역에서 모든 필드를 선택 취소하고 오브젝트에 사용자 정의 양식이 첨부되어 있지 않은 경우 내보내기 드롭다운 메뉴가 표시되지 않습니다.
    >   * 오브젝트에 사용자 정의 양식이 첨부되어 있지 않은 경우 개요 영역만 내보낼 수 있습니다.
-   >   * 논리보다 뒤처져 양식에 표시되지 않는 사용자 정의 필드는 내보낼 수 없습니다. 사용자 정의 양식에 논리를 추가하는 방법에 대한 자세한 내용은 [표시 논리 추가 및 사용자 정의 양식에 논리 건너뛰기](../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)를 참조하십시오.
+   >   * 논리보다 뒤처져 양식에 표시되지 않는 사용자 정의 필드는 내보낼 수 없습니다. 사용자 정의 양식에 논리를 추가하는 방법에 대한 자세한 내용은 [양식에 표시 논리 추가 및 논리 건너뛰기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)를 참조하십시오.
    >   
    >
 

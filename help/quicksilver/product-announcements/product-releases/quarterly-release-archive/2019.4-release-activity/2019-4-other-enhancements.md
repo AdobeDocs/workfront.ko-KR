@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ed7488f1-2076-4160-97f3-a3da25cccd0f
-source-git-commit: e1bf5fbc7dc25bf8ce472b21b9a0906530f82cf0
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,6 @@ ht-degree: 0%
      <strong>사용자 지정 양식의 자동 완성 필드에 사용할 수 있는 추가 개체 형식</strong> 
      <p>이제 자동 완성 사용자 정의 필드를 만들 때 사용자, 회사, 그룹, 작업 역할, Portfolio, 프로그램, 프로젝트 및 템플릿과 같은 오브젝트 유형을 필드에 연결할 수 있습니다.</p> 
      <p>이전에는 사용자 오브젝트 유형만 자동 완성 사용자 정의 필드에 연결할 수 있었습니다.</p> 
-     <p>자세한 내용은 문서 <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" xrefformat="{para}">사용자 정의 양식 만들기 또는 편집</a>에서 <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create" class="MCXref xref" xrefformat="{para}">사용자 정의 양식 만들기 또는 편집</a> 섹션을 참조하십시오.</p> 
     </div> </td> 
   </tr> 
   <tr> 
@@ -75,7 +74,6 @@ ht-degree: 0%
      <p>예를 들어 확인란 필드를 만든 경우 드롭다운 필드 또는 라디오 단추 필드로 변경할 수 있습니다. 이 세 가지 필드 표시 유형은 서로 바뀔 수 있습니다.</p> 
      <p>또는 한 줄 텍스트 필드를 만든 경우 단락 텍스트 필드로 변경할 수 있습니다. 이 두 가지 필드 표시 유형은 서로 바뀔 수 있습니다.</p> 
      <p>이전에는 사용자 정의 필드의 표시 유형을 변경하려면 새 필드를 만들고 이전 필드를 삭제해야 했습니다. 이를 위해서는 데이터 전송이 필요했는데, 이는 종종 시간이 오래 걸립니다.</p> 
-     <p>자세한 내용은 문서 <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" xrefformat="{para}">사용자 정의 양식 만들기 또는 편집</a>에서 <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create" class="MCXref xref" xrefformat="{para}">사용자 정의 양식 만들기 또는 편집</a>을 참조하십시오.</p> 
     </div> </td> 
   </tr> 
   <tr> 

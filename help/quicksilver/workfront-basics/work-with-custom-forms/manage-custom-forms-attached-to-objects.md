@@ -6,7 +6,7 @@ description: 한 오브젝트에 첨부된 사용자 정의 양식의 표시 순
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: 78878fa3578e4f3a33baec3806298282d3909d8d
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
 source-wordcount: '1109'
 ht-degree: 0%
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 ## 전제 조건
 
-* Workfront 관리자 또는 사용자 정의 양식에 대한 관리 액세스 권한이 있는 계획 사용자는 사용자 환경에서 사용자 정의 양식을 만들어야 합니다. 자세한 내용은 [사용자 정의 양식 만들기 또는 편집](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)을 참조하세요.
+* Workfront 관리자 또는 사용자 정의 양식에 대한 관리 액세스 권한이 있는 계획 사용자는 사용자 환경에서 사용자 정의 양식을 만들어야 합니다. 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
 * 오브젝트에 사용자 정의 양식을 첨부해야 합니다.
 
   개체에 사용자 정의 양식을 적용하는 방법에 대한 자세한 내용은 [개체에 사용자 정의 양식 추가](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)를 참조하십시오.
@@ -92,7 +92,7 @@ ht-degree: 0%
 
   동일한 오브젝트에 첨부된 다른 양식의 동일한 필드에 대해 다른 값을 가질 수 없습니다.
 
-* 서로 다른 두 객체에 동일한 계산된 필드가 있는 경우, 오류를 방지하기 위해 계산이 동일해야 합니다. 여러 양식을 포함한 사용자 정의 양식에 계산된 필드를 추가하는 방법에 대한 자세한 내용은 [사용자 정의 양식에 계산된 데이터 추가](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) 를 참조하십시오.
+* 서로 다른 두 객체에 동일한 계산된 필드가 있는 경우, 오류를 방지하기 위해 계산이 동일해야 합니다. 여러 양식을 포함한 사용자 정의 양식에 계산된 필드를 추가하는 방법에 대한 자세한 내용은 [양식에 계산된 필드 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)를 참조하십시오.
 
 ## 오브젝트를 벌크 편집할 때 여러 사용자 정의 양식 관리
 

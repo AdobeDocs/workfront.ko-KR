@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 127d695c-74e4-45f9-b5f6-55c1d05935cf
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1369'
+source-wordcount: '1340'
 ht-degree: 0%
 
 ---
@@ -29,8 +29,6 @@ ht-degree: 0%
 또는 한 줄 텍스트 필드를 만든 경우 단락 텍스트 필드로 변경할 수 있습니다. 이 두 가지 필드 표시 유형은 서로 바뀔 수 있습니다.
 
 이전에는 사용자 정의 필드의 표시 유형을 변경하려면 새 필드를 만들고 이전 필드를 삭제해야 했습니다. 이를 위해서는 데이터 전송이 필요했는데, 이는 종종 시간이 오래 걸립니다.
-
-자세한 내용은 문서 [사용자 정의 양식 만들기 또는 편집](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)에서 [사용자 정의 양식 만들기 또는 편집](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create)을 참조하십시오.
 
 >[!NOTE]
 >
@@ -186,8 +184,6 @@ Workfront의 다음 영역에서 새 목록을 찾을 수 있습니다.
 사용자 정의 양식 빌더에서 Typeahead라는 새 필드 유형을 만들었습니다. 이 필드를 사용하면 개체를 나타내는 필드를 사용자 정의 양식에 추가할 수 있습니다. 현재 User 객체는 Typeahead로 활성화되며, 다른 객체는 향후 제공될 예정입니다.
 
 이전에는 관리자가 사용자 정의 양식 드롭다운 메뉴에서 개별 옵션으로 사용자를 수동으로 유지 관리해야 했습니다.
-
-자세한 내용은 [사용자 정의 양식 만들기 또는 편집](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)을 참조하세요.
 
 >[!NOTE]
 >

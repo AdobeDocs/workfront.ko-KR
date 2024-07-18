@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 46da311a-0e22-4def-9df8-e30b142c815d
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Experience Manager Assets Essentials의 이 기능에 대한 자세한 내용은
 
 * **설명 텍스트 크기 변경**: 이제 설명 텍스트 필드에 작은 크기, 중간 크기 또는 큰 크기를 할당할 수 있습니다. 같은 행에서 다른 필드와 함께 사용할 수도 있습니다. <span style="color: #ff0000;"> 설명 텍스트의 크기를 변경하는 작업이 일시적으로 지연되었지만 곧 제공될 예정입니다.</span></li>
 
-자세한 내용은 [양식 디자이너 개요](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md)를 참조하세요.
+자세한 내용은 [사용자 정의 양식 개요](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)를 참조하십시오.
 
 [이 기능의 비디오 데모 보기](https://video.tv.adobe.com/v/3416586/){target=_blank}
 

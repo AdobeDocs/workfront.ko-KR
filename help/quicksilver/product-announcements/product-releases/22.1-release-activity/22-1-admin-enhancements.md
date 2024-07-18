@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 63ff1334-aebe-4df4-a855-10011707808b
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1505'
+source-wordcount: '1452'
 ht-degree: 0%
 
 ---
@@ -57,8 +57,6 @@ For more information, see [Grant access to teams](../../../administration-and-se
 
 사용자 지정 Forms 영역에는 새 Workfront 경험의 다른 많은 영역과 일치하는 새로운 모양과 느낌이 있습니다.
 
-사용자 정의 양식 만들기에 대한 자세한 내용은 [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)을 참조하십시오.
-
 ## 계산된 사용자 정의 필드를 만들기 위한 많은 개선 사항
 
 이제 새 계산 편집기에서 다음과 같은 추가 기능을 사용하여 계산된 사용자 정의 필드를 훨씬 쉽게 만들 수 있습니다.
@@ -70,8 +68,6 @@ For more information, see [Grant access to teams](../../../administration-and-se
 * 계산 편집기를 종료하지 않고 기존 객체를 사용하여 계산 결과를 미리 볼 수 있습니다.
 
 또한 계산된 사용자 정의 필드에 대한 사용자 정의 가능한 &quot;지침&quot; 가리키기 텍스트에서 필드의 수식을 표시하거나 숨길 수 있습니다. 이 기능은 사용자 정의 양식을 작성할 사용자에게 해당 정보가 필요하지 않다고 생각되는 경우 유용합니다.
-
-계산된 사용자 정의 필드를 만드는 방법에 대한 자세한 내용은 [사용자 정의 양식에 계산된 데이터 추가](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)를 참조하십시오.
 
 ## 상태 및 회사에 대한 감사 로그 정보 보기
 
@@ -108,8 +104,6 @@ For example:
 
 사용자 정의 양식에서 계산된 필드를 더 쉽게 만들 수 있도록 계속 노력하고 있습니다. 이제 최대화 를 클릭하여 새 계산 편집기를 열면 필요한 표현식과 필드를 찾아 선택할 수 있습니다.
 
-자세한 내용은 [사용자 정의 양식에 계산된 데이터 추가](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)를 참조하십시오.
-
 ## 그룹은 자신의 타임시트 및 시간 환경 설정을 구성할 수 있습니다.
 
 >[!NOTE]
@@ -144,8 +138,6 @@ Workfront 관리자가 타임시트 및 시간 환경 설정을 잠금 해제하
 ## 계산된 필드를 생성할 더 큰 영역
 
 이제 사용자 정의 양식에서 복잡한 계산된 필드를 더 쉽게 작성할 수 있습니다. 계산을 빌드하기 위한 큰 편집 창을 열려면 새로 만든 최대화 단추를 누릅니다. 작업을 마쳤으면 최소화를 클릭하여 사용자 정의 양식에서 작업을 계속합니다.
-
-자세한 내용은 [사용자 정의 양식에 계산된 데이터 추가](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)를 참조하십시오.
 
 ## 그룹에 사용자 정의 양식 추가
 

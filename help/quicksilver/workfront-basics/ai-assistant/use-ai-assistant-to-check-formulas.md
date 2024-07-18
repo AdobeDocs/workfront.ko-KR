@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: 5f144a6f-5c2a-42fc-a961-ab9066432d93
-source-git-commit: 6dd2fd4d688514540265fa3b0d2634194fb6a7ab
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
@@ -42,4 +42,4 @@ AI 도우미는 공식을 유효한 계산된 필드 표현식으로 수정하�
 >
 >예상 결과를 검색하는지 확인하려면 계산된 필드를 테스트하는 것이 좋습니다.
 
-Workfront의 계산된 필드에 대한 자세한 내용은 [기존 양식 빌더를 사용하여 사용자 정의 양식에 계산된 데이터 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)를 참조하십시오.
+Workfront의 계산된 필드에 대한 자세한 내용은 [양식에 계산된 필드 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)를 참조하십시오.

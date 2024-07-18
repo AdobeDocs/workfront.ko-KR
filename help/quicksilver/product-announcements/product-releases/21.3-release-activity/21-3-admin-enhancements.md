@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 18f8f5ac-48a3-45fe-9bf0-12b4b402f85f
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -48,8 +48,3 @@ Workfront 관리자는 (모든 그룹에 대해) 이러한 작업을 수행할 �
 ## 관리자용 새로운 기능: 청구 기록 사용자 정의 양식 만들기
 
 이제 청구 기록 사용자 정의 양식을 만들어 사용자가 청구 정보를 캡처하는 방법을 개선할 수 있습니다. 사용자는 사용자 정의 양식을 청구 기록에 첨부하고, 작성하고, 양식에 정보가 포함된 보고서를 실행할 수 있습니다.
-
-사용자 정의 양식 만들기에 대한 자세한 내용은 [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)을 참조하십시오.
-
-청구 기록 사용자 정의 양식을 프로젝트에 첨부하는 방법에 대한 자세한 내용은 [개체에 사용자 정의 양식 추가](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)를 참조하십시오.
-

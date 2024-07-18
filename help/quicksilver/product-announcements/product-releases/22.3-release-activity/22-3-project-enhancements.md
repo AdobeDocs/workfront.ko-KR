@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1235ad4a-72dd-45c5-8513-d073b3e9a2da
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 0876d4d47aad701d5ffadc88868217ebae7e4790
 workflow-type: tm+mt
-source-wordcount: '1562'
+source-wordcount: '1538'
 ht-degree: 0%
 
 ---
@@ -73,8 +73,6 @@ Workfront을 새 Workfront 환경과 일관되게 사용하기 위해 템플릿�
 ## 사용자 정의 필드의 계산을 위한 새로운 구문
 
 사용자 정의 양식에 계산을 추가하는 데 도움이 되는 향후 개선 사항에 대비하기 위해 계산에 추가하는 참조된 필드에 대한 구문을 표준화했습니다. 필드 이름을 입력한 다음 선택하면 시스템에서 이 구문을 입력하므로 이 새 구문을 쉽게 사용할 수 있습니다.
-
-자세한 내용은 [문서 사용자 정의 양식에 계산된 데이터 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)의 &quot;계산된 사용자 정의 필드에 대한 계산 작성&quot; 섹션을 참조하십시오.
 
 ## 공통 역할을 가진 두 명의 사용자가 승인 프로세스에 참여할 때 정확한 정보를 유지합니다.
 

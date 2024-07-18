@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 7ae5a04a-a9bc-4a85-8651-2b912f7fd7e4
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1521'
 ht-degree: 0%
 
 ---
@@ -173,6 +173,4 @@ Workfront의 현대화된 목록에 대한 자세한 내용은 [목록 표시 �
 ## 관리자용 새로운 기능: 사용자 정의 양식 필드에서 더 많은 텍스트 서식 옵션을 사용할 수 있음
 
 사용자가 서식을 지정할 수 있는 사용자 정의 양식 필드를 입력할 때 이제 굵게, 기울임체 및 밑줄 외에도 글머리 기호, 번호 매기기, 하이퍼링크 및 블록 따옴표를 사용하여 텍스트를 구성할 수 있습니다.
-
-자세한 내용은 [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)을 참조하세요.
 

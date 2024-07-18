@@ -2,9 +2,9 @@
 title: 사용자 정의 양식에 표시 논리 및 건너뛰기 논리 추가
 description: 사용자 정의 양식에 표시 논리 및 건너뛰기 논리 추가
 draft: Probably
-source-git-commit: c0722924d6621b382050a10e9aac549fc1204d72
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1505'
+source-wordcount: '1475'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,6 @@ ht-degree: 0%
   이 기능은 이 사용자가 볼 필요가 없는 로고, 웹 사이트 업데이트 및 브로셔에 대한 다른 필드를 많이 추가하는 경우 특히 유용합니다.
 건너뛰기 논리 규칙은 위젯 또는 섹션이 아닌 사용자 정의 필드에만 적용할 수 있습니다.
 
-사용자 정의 양식의 사용자 정의 필드 및 위젯에 대한 자세한 내용은 [사용자 정의 양식에 사용자 정의 필드 추가](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) 및 [사용자 정의 양식의 에셋 위젯 추가 또는 편집](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)을 참조하십시오.
 
 ## 액세스 요구 사항
 

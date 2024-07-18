@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 70750dbd382ac1207c3aca1d34694e3adc695393
 workflow-type: tm+mt
-source-wordcount: '7474'
+source-wordcount: '7473'
 ht-degree: 1%
 
 ---
@@ -321,7 +321,7 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
 사용자 정의 양식 액세스에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
 * [사용자 정의 양식 공유](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
-* [사용자 정의 양식에 섹션 나누기 추가](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
+* [양식 구성 및 미리 보기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)
 
 프로젝트를 편집할 때 사용자 정의 양식에 대한 정보를 편집하려면 다음 작업을 수행하십시오.
 
@@ -334,7 +334,7 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
 
    >[!NOTE]
    >
-   >이 필드에서 사용자 정의 양식을 선택하려면 먼저 사용자 정의 양식을 작성해야 합니다. 활성 사용자 정의 양식만 목록에 표시됩니다. 사용자 정의 양식 작성에 대한 자세한 내용은 [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)을 참조하십시오. 프로젝트에 최대 10개의 사용자 정의 양식을 추가할 수 있습니다.
+   >이 필드에서 사용자 정의 양식을 선택하려면 먼저 사용자 정의 양식을 작성해야 합니다. 활성 사용자 정의 양식만 목록에 표시됩니다. 사용자 정의 양식 작성에 대한 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오. 프로젝트에 최대 10개의 사용자 정의 양식을 추가할 수 있습니다.
 
 
 1. (조건부) 사용자 정의 양식을 프로젝트에 첨부한 경우 양식의 모든 필드를 편집합니다. 프로젝트를 저장하려면 모든 필수 필드를 지정해야 합니다.
@@ -556,7 +556,7 @@ Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있�
    * 동일한 그룹에서 여러 프로젝트를 선택하면 시스템 수준 및 그룹별 작업 승인 프로세스가 모두 이 필드에 표시됩니다.
    * 다른 그룹에서 여러 프로젝트를 선택하면 이 필드에는 시스템 수준 작업 승인 프로세스만 표시됩니다.
 
-1. **작업 기본 사용자 지정 Forms** 상자에서 프로젝트에 새 작업을 추가할 때 모든 새 작업과 연결할 사용자 지정 양식을 선택합니다. 이 필드에서 사용자 정의 양식을 선택하려면 먼저 사용자 정의 양식을 작성해야 합니다. 활성 사용자 정의 양식만 목록에 표시됩니다. 사용자 정의 양식 작성에 대한 자세한 내용은 [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)을 참조하십시오. 작업에 최대 10개의 사용자 정의 양식을 연결할 수 있습니다.
+1. **작업 기본 사용자 지정 Forms** 상자에서 프로젝트에 새 작업을 추가할 때 모든 새 작업과 연결할 사용자 지정 양식을 선택합니다. 이 필드에서 사용자 정의 양식을 선택하려면 먼저 사용자 정의 양식을 작성해야 합니다. 활성 사용자 정의 양식만 목록에 표시됩니다. 사용자 정의 양식 작성에 대한 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오. 작업에 최대 10개의 사용자 정의 양식을 연결할 수 있습니다.
 1. (선택 사항) 계획된 시간 대신 작업 노력을 사용하여 작업 노력을 관리하려면 **작업 노력 사용을 선택하여 작업 계획된 시간을 자동으로 계산합니다**.
 
    ![](assets/nwe-work-effort-on-projects-350x182.png)

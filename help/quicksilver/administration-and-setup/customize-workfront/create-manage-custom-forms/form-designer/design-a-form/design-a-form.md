@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 96653b1375afd49c09ea91cf3816107a302640d2
+source-git-commit: e52881a03f69d7c4d6a62dcdc9c6044f6f5dd016
 workflow-type: tm+mt
-source-wordcount: '6091'
+source-wordcount: '6101'
 ht-degree: 4%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 4%
    >
    >사용자 정의 양식을 삭제하면 해당 양식과 관련된 오브젝트의 모든 사용자 정의 데이터도 삭제됩니다. 삭제된 데이터는 복구할 수 없습니다. 대신 사용자 정의 양식 비활성화를 고려하십시오. 더 이상 사용하지 않는 사용자 정의 양식을 비활성화하면 연결된 모든 내역 데이터가 유지됩니다.
    >
-   >자세한 내용은 [사용자 지정 양식의 개체 유형 삭제](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md)를 참조하십시오.
+   >자세한 내용은 [기존 사용자 정의 양식에서 개체 형식 추가 또는 삭제](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/add-or-remove-objects-from-a-form.md) 및 [사용자 정의 양식 비활성화 또는 다시 활성화](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md)를 참조하십시오.
 
 
 1. 그런 다음 사용자 정의 양식에 필드를 추가할 수 있습니다. 다음 섹션을 참조하십시오.

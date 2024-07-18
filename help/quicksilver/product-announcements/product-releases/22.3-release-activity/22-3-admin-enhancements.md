@@ -6,9 +6,9 @@ draft: false
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4607703a-d70e-432c-9fa2-bd43af5a870e
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -54,8 +54,6 @@ ht-degree: 0%
 
 이미지 및 비디오와 같은 추가할 수 있는 새로운 에셋 위젯을 통해 사용자 정의 양식을 보다 시각적이고 유익하게 만들 수 있도록 지속적으로 지원하고 있습니다. 이제 사용자 정의 양식에 PDF 파일에 대한 링크를 추가할 수 있습니다. 양식이 오브젝트에 첨부되어 있으면 오브젝트와 함께 작업하는 사용자는 양식 내에서 PDF을 보고 상호 작용할 수 있습니다.
 
-자세한 내용은 [사용자 지정 양식에서 이미지 또는 기타 에셋 위젯 추가 또는 편집](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)을 참조하세요.
-
 ## 사용자 정의 양식 필드 계산 편집기에 오류 정보 표시
 
 >[!NOTE]
@@ -63,8 +61,6 @@ ht-degree: 0%
 >이 기능은 일시적으로 사용할 수 없습니다. 이 기능을 사용할 수 있으면 이 페이지가 업데이트됩니다.
 
 이제 계산에 직접 표시된 유용한 오류 정보를 사용하여 사용자 정의 필드에 대한 계산을 보다 쉽게 편집할 수 있습니다. 사용자 정의 양식에서 계산된 필드를 만드는 동안 오류가 분홍색으로 강조 표시됩니다. 강조 표시된 부분을 마우스로 가리키면 문제가 무엇인지 설명하는 도구 설명이 표시됩니다.
-
-자세한 내용은 [사용자 정의 양식에 계산된 데이터 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)를 참조하십시오.
 
 ## 프로젝트 헤더 사용자 정의
 
@@ -111,6 +107,4 @@ ht-degree: 0%
 이제 비디오를 추가하여 사용자 정의 양식에 새로운 정보, 시각적 관심사 및 창의성 모드를 제공할 수 있습니다. 양식이 오브젝트에 첨부되면 해당 오브젝트로 작업하는 사용자는 언제든지 비디오를 재생할 수 있습니다.
 
 이전에는 사용자 정의 양식에 텍스트 기반 필드 및 이미지만 추가할 수 있었습니다.
-
-자세한 내용은 [사용자 지정 양식에서 이미지 또는 비디오 자산 위젯 추가 또는 편집](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)을 참조하세요.
 

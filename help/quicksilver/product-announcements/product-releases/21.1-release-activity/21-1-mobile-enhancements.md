@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9232e204-6813-40ec-b1ad-ae2c0b9e8cdc
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,6 @@ Workfront 모바일 앱에 이동 경로 탐색을 추가했습니다. 이제 �
 ## Workfront 앱의 사용자 정의 양식에서 지원되는 서식 있는 텍스트
 
 이제 Workfront 모바일 앱의 사용자 정의 양식 텍스트 필드에 서식 있는 텍스트 서식을 사용할 수 있습니다.
-
-텍스트 필드가 있는 사용자 정의 양식을 만드는 방법에 대한 자세한 내용은 [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)을 참조하십시오.
 
 ## 이제 SSO 사용자는 Face ID 또는 Fingerprint 기술을 사용하여 Workfront 앱에 다시 로그인할 수 있습니다
 

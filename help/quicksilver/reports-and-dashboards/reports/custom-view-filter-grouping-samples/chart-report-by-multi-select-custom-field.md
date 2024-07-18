@@ -7,9 +7,9 @@ description: 다중 선택 사용자 지정 필드에서 선택한 선택 사항
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: a2f0ef565b0f0dbcfec7f3f5b5fece4c7b4b1ec6
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1024'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ ht-degree: 0%
 다중 선택 사용자 지정 필드를 참조하는 계산된 필드를 작성하려면 다음 사전 요구 사항이 있어야 합니다.
 
 * 사용자 정의 양식의 다중 선택 사용자 정의 필드.\
-  사용자 정의 양식을 작성하고 사용자 정의 필드를 추가하는 방법에 대한 자세한 내용은 문서 [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)을 참조하십시오.
+  사용자 정의 양식을 작성하고 사용자 정의 필드를 추가하는 방법에 대한 자세한 내용은 문서 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
 
 * 다중 선택 사용자 정의 필드가 오브젝트에 첨부된 사용자 정의 양식입니다.
 * 각 개체에 대한 다중 선택 사용자 정의 필드 값.
@@ -95,7 +95,7 @@ ht-degree: 0%
 
 1. 사용자 정의 양식을 만들거나 기존 양식을 편집합니다.
 
-   사용자 정의 양식 만들기에 대한 자세한 내용은 [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)을 참조하십시오.
+   사용자 정의 양식을 만드는 방법에 대한 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
 
 1. 사용자 정의 양식과 함께 사용할 개체를 선택합니다.
 1. **필드 추가**&#x200B;를 클릭한 다음 **계산됨**&#x200B;을 클릭하여 다중 선택 사용자 지정 필드를 양식에 추가합니다.

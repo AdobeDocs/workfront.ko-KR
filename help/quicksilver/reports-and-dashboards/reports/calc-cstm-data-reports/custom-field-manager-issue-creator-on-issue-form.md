@@ -7,7 +7,7 @@ description: 계산된 사용자 정의 필드를 사용하면 문제에 첨부�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f501ce1a-7a80-458b-9b30-2292426c9262
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 0%
@@ -61,8 +61,8 @@ ht-degree: 0%
 
    사용자 정의 양식을 만들고 계산된 필드를 추가하는 방법에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
-   * [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
-   * [사용자 정의 양식에 계산된 데이터 추가](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
+   * [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
+   * [양식에 계산된 필드 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
 
 1. 다음 텍스트 모드 코드를 복사하여 사용자 정의 양식의 **계산** 필드에 붙여넣습니다.
 

@@ -3,24 +3,24 @@ user-type: administrator
 product-area: system-administration
 keywords: 액세스,공유,사용자 지정,양식
 navigation-topic: create-and-manage-custom-forms
-title: 사용할 공유 사용자 정의 필드에 대한 액세스
+title: 공유 사용자 정의 필드에 대한 액세스
 description: 다른 사용자가 보기 또는 관리 액세스 권한과 사용자 정의 필드를 공유할 때 해당 액세스를 추가로 정의하기 위해 여러 다른 설정을 구성할 수 있습니다. 필드의 수신자인 경우 이러한 설정은 필드로 수행할 수 있는 작업에 영향을 줍니다. 필드를 볼 때 다음과 같은 메시지가 표시될 수 있습니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 36172f4c-fe10-49d2-b10b-abb0cfce62c1
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '395'
 ht-degree: 1%
 
 ---
 
-# 사용할 공유 사용자 정의 필드에 대한 액세스
+# 공유 사용자 정의 필드에 대한 액세스
 
 다른 사용자가 보기 또는 관리 액세스 권한과 사용자 정의 필드를 공유할 때 해당 액세스를 추가로 정의하기 위해 여러 다른 설정을 구성할 수 있습니다. 필드의 수신자인 경우 이러한 설정은 필드로 수행할 수 있는 작업에 영향을 줍니다. 필드를 볼 때 다음과 같은 메시지가 표시될 수 있습니다.
 
-사용자가 사용자 정의 양식을 공유할 때 공유 설정을 구성하는 방법에 대한 자세한 내용은 [사용자 정의 필드 및 위젯에 대한 공유 구성](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)을 참조하십시오.
+사용자 정의 양식을 공유할 때 사용자가 공유 설정을 구성하는 방법에 대한 자세한 내용은 [양식의 사용자 정의 필드 및 위젯에 대한 공유 구성](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md)을 참조하십시오.
 
 <table style="table-layout:auto"> 
  <col> 

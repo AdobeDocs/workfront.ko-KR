@@ -6,7 +6,7 @@ description: 텍스트 모드의 일반적인 사용 개요
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 81512837-1ec4-4dbc-ace4-bdf08fe667ce
-source-git-commit: 111c776af19fbc2982c14cc9d3b3778d37bc0be3
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 0%
@@ -58,9 +58,9 @@ Workfront에서 다음을 달성하고자 할 때 텍스트 모드를 사용할 
 
 텍스트 모드를 사용하여 계산된 사용자 정의 필드를 사용자 정의 양식에 추가할 수 있습니다.
 
-사용자 정의 양식에 계산된 사용자 정의 필드를 추가하는 방법에 대한 자세한 내용은 [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)을 참조하십시오.
+사용자 지정 양식에 계산된 사용자 지정 필드를 추가하는 방법에 대한 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
 
-텍스트 모드에서 계산된 사용자 정의 필드를 만드는 방법에 대한 자세한 내용은 [사용자 정의 양식에 계산된 데이터 추가](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)를 참조하십시오.
+텍스트 모드에서 계산된 사용자 지정 필드를 만드는 방법에 대한 자세한 내용은 [양식에 계산된 필드 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)를 참조하십시오.
 
 예를 들어, 항목이 [진행 중]으로 표시된 순간의 시간 및 날짜 스탬프를 표시하는 계산된 사용자 정의 필드를 추가할 수 있습니다. 다른 상태에 대해 이 계산을 사용할 수 있습니다.
 

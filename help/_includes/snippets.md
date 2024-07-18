@@ -1,7 +1,7 @@
 ---
-source-git-commit: d0940962d0e64079dadc8c93f5503a01afd9fb8b
+source-git-commit: 56fdec48612520012e606e0906cf3ac05fa27e37
 workflow-type: tm+mt
-source-wordcount: '2510'
+source-wordcount: '2457'
 ht-degree: 1%
 
 ---
@@ -65,11 +65,9 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->7월 15일 주(24.7 릴리스)에 예정된 릴리스를 통해 양식 디자이너는 일반적으로 사용할 수 있으며 Adobe Workfront에서 사용자 정의 양식을 만들고 편집하는 기본 환경이 됩니다. 기존 양식 빌더는 더 이상 사용할 수 없습니다. 지금 양식 디자이너로 전환하여 해당 기능을 활용하는 것이 좋습니다.
+>레거시 양식 빌더는 2024년 7월 18일 24.7 릴리스부터 더 이상 사용할 수 없습니다. 이제 양식 디자이너가 Adobe Workfront에서 사용자 정의 양식을 만들고 편집할 수 있는 기본 환경이 되었습니다.
 >
 >자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
->
->레거시 양식 빌더는 2024년 6월 19일에 미리보기 환경에서 제거되었으며 7월에 24.7 릴리스를 통해 프로덕션 환경에서 제거될 예정입니다.
 
 ## 오른쪽 그룹을 팀과 연결 {#right-group-team}
 

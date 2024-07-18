@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1e62e7b3-14b6-4669-b3e1-ac6507343479
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 0876d4d47aad701d5ffadc88868217ebae7e4790
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '869'
 ht-degree: 0%
 
 ---
@@ -102,8 +102,6 @@ Workfront 관리자만 초기 기능을 선택할 수 있습니다. 관리자가
 >이 기능은 22.3 릴리스 기간 동안 미리보기 환경에 처음 도입되었습니다. 프로덕션 환경에는 22.4 릴리스와 함께 릴리스됩니다.
 
 이제 계산에 직접 표시된 유용한 오류 정보를 사용하여 사용자 정의 필드에 대한 계산을 보다 쉽게 편집할 수 있습니다. 사용자 정의 양식에서 계산된 필드를 만드는 동안 오류가 분홍색으로 강조 표시됩니다. 강조 표시된 부분을 마우스로 가리키면 문제가 무엇인지 설명하는 도구 설명이 표시됩니다.
-
-자세한 내용은 [사용자 정의 양식에 계산된 데이터 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)를 참조하십시오.
 
 [이 기능에 대한 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3412387/){target=_blank}
 

@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1ffba3b5-ab24-4ca2-a1ef-f7e5b77e776c
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '2475'
+source-wordcount: '2422'
 ht-degree: 1%
 
 ---
@@ -176,8 +176,8 @@ AccessLevelPermissions 개체는 Workfront 개체에 액세스, 만들기 또는
      <li> <p><strong>coreAction</strong> </p> <p>다음 possibleValues가 추가되었습니다.</p> 
       <ul> 
        <li> <p>PLANNED_HOURS_CONTOURING </p> <p>이 권한을 포함하는 액세스 수준이 있는 사용자는 업무 균형자에서 계획된 시간을 업데이트할 수 있습니다.</p> <p>자세한 내용은 <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">사용자 할당을 관리할 때 작업 계획 시간 업데이트</a>(<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">업무 균형자에서 사용자 할당 관리</a>)를 참조하십시오.</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>이 권한을 포함하는 액세스 수준이 있는 사용자는 사용자 정의 양식에 필드를 추가할 수 있습니다.</p> <p>자세한 내용은 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">사용자 정의 양식 만들기 또는 편집</a>의 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a>을(를) 참조하십시오.</p> </li> 
-       <li> <p>시스템 전체 편집 </p> <p>이 권한을 포함하는 액세스 수준이 있는 사용자는 삭제 액세스로 시스템 전체에 사용자 정의 필드를 공유할 수 있습니다.</p> <p>자세한 내용은 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">사용자 정의 필드 및 위젯에 대한 공유 구성</a>을 참조하십시오.</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>이 권한을 포함하는 액세스 수준이 있는 사용자는 사용자 정의 양식에 필드를 추가할 수 있습니다.</p> <p>자세한 내용은 <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">사용자 정의 양식 만들기 또는 편집</a>을 참조하세요.</p> </li> 
+       <li> <p>시스템 전체 편집 </p> <p>이 권한을 포함하는 액세스 수준이 있는 사용자는 삭제 액세스로 시스템 전체에 사용자 정의 필드를 공유할 수 있습니다.</p> </li> 
       </ul> </li> 
      <li> <p><strong>forbiddenActions</strong> </p> <p>다음 possibleValues가 추가되었습니다.</p> 
       <ul> 
@@ -247,8 +247,8 @@ AccessLevelPermissions 개체는 Workfront 개체에 액세스, 만들기 또는
      <li> <p style="font-weight: bold;">작업</p> <p>다음 possibleValues가 추가되었습니다.</p> 
       <ul> 
        <li> <p>PLANNED_HOURS_CONTOURING </p> <p>이 권한을 포함하는 액세스 수준이 있는 사용자는 업무 균형자에서 계획된 시간을 업데이트할 수 있습니다.</p> <p>자세한 내용은 <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">사용자 할당을 관리할 때 작업 계획 시간 업데이트</a>(<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">업무 균형자에서 사용자 할당 관리</a>)를 참조하십시오.</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>이 권한을 포함하는 액세스 수준이 있는 사용자는 사용자 정의 양식에 필드를 추가할 수 있습니다.</p> <p>자세한 내용은 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">사용자 정의 양식 만들기 또는 편집</a>의 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a>을(를) 참조하십시오.</p> </li> 
-       <li> <p>시스템 전체 편집 </p> <p>이 권한을 포함하는 액세스 수준이 있는 사용자는 삭제 액세스로 시스템 전체에 사용자 정의 필드를 공유할 수 있습니다.</p> <p>자세한 내용은 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">사용자 정의 필드 및 위젯에 대한 공유 구성</a>을 참조하십시오.</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>이 권한을 포함하는 액세스 수준이 있는 사용자는 사용자 정의 양식에 필드를 추가할 수 있습니다.</p> <p>자세한 내용은 <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">사용자 정의 양식 만들기 또는 편집</a>을 참조하세요.</p> </li> 
+       <li> <p>시스템 전체 편집 </p> <p>이 권한을 포함하는 액세스 수준이 있는 사용자는 삭제 액세스로 시스템 전체에 사용자 정의 필드를 공유할 수 있습니다.</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
@@ -270,8 +270,8 @@ AccessRule 개체는 사용자가 만드는 프로젝트를 공유할 수 있는
      <li><strong>coreAction</strong> <p>다음 possibleValues가 추가되었습니다.</p> 
       <ul> 
        <li> <p>PLANNED_HOURS_CONTOURING </p> <p>이 권한을 포함하는 액세스 수준이 있는 사용자는 업무 균형자에서 계획된 시간을 업데이트할 수 있습니다.</p> <p>자세한 내용은 <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">사용자 할당을 관리할 때 작업 계획 시간 업데이트</a>(<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">업무 균형자에서 사용자 할당 관리</a>)를 참조하십시오.</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>이 권한을 포함하는 액세스 수준이 있는 사용자는 사용자 정의 양식에 필드를 추가할 수 있습니다.</p> <p>자세한 내용은 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">사용자 정의 양식 만들기 또는 편집</a>의 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a>을(를) 참조하십시오.</p> </li> 
-       <li> <p>시스템 전체 편집 </p> <p>이 권한을 포함하는 액세스 수준이 있는 사용자는 삭제 액세스로 시스템 전체에 사용자 정의 필드를 공유할 수 있습니다.</p> <p>자세한 내용은 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">사용자 정의 필드 및 위젯에 대한 공유 구성</a>을 참조하십시오.</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>이 권한을 포함하는 액세스 수준이 있는 사용자는 사용자 정의 양식에 필드를 추가할 수 있습니다.</p> <p>자세한 내용은 <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">사용자 정의 양식 만들기 또는 편집</a>을 참조하세요.</p> </li> 
+       <li> <p>시스템 전체 편집 </p> <p>이 권한을 포함하는 액세스 수준이 있는 사용자는 삭제 액세스로 시스템 전체에 사용자 정의 필드를 공유할 수 있습니다.</p> </li> 
       </ul> </li> 
      <li> <p><strong>forbiddenActions</strong> </p> <p>다음 possibleValues가 추가되었습니다.</p> 
       <ul> 
@@ -618,7 +618,7 @@ Parameter 개체는 사용자 지정 필드입니다.
 
 매개 변수 리소스가 SHARABLE 플래그를 추가했습니다.
 
-사용자 정의 필드에 대한 자세한 내용은 [사용자 정의 양식 만들기 또는 편집](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)에서 [사용자 정의 양식 만들기 또는 편집](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create)을 참조하십시오.
+사용자 정의 필드에 대한 자세한 내용은 [사용자 정의 양식 만들기 또는 편집](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)에서 [사용자 정의 양식 만들기 또는 편집](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)을 참조하십시오.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -725,9 +725,8 @@ QueueDef 개체는 사용자가 문제를 제출할 수 있도록 헬프 데스�
      <li><strong>requestorCoreAction</strong> <p>다음 possibleValues가 추가되었습니다.</p> 
       <ul> 
        <li> <p>PLANNED_HOURS_CONTOURING </p> <p>이 권한을 포함하는 액세스 수준이 있는 사용자는 업무 균형자에서 계획된 시간을 업데이트할 수 있습니다.</p> <p>자세한 내용은 <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">사용자 할당을 관리할 때 작업 계획 시간 업데이트</a>(<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">업무 균형자에서 사용자 할당 관리</a>)를 참조하십시오.</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>이 권한을 포함하는 액세스 수준이 있는 사용자는 사용자 정의 양식에 필드를 추가할 수 있습니다.</p> <p>자세한 내용은 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">사용자 정의 양식 만들기 또는 편집</a>의 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a>을(를) 참조하십시오.</p> </li> 
-       <li> <p>시스템 전체 편집 </p> <p>이 권한을 포함하는 액세스 수준이 있는 사용자는 삭제 액세스로 시스템 전체에 사용자 정의 필드를 공유할 수 있습니다.</p> <p>자세한 내용은 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">사용자 정의 필드 및 위젯에 대한 공유 구성</a>을 참조하십시오.</p> </li> 
-      </ul> <li> <p><strong>requestorForbiddenActions</strong> </p> <p>다음 possibleValues가 추가되었습니다.</p> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>이 권한을 포함하는 액세스 수준이 있는 사용자는 사용자 정의 양식에 필드를 추가할 수 있습니다.</p> <p>자세한 내용은 <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">사용자 정의 양식 만들기 또는 편집</a>을 참조하세요.</p> </li> 
+       <li> <p>시스템 전체 편집 </p> <p>이 권한을 포함하는 액세스 수준이 있는 사용자는 삭제 액세스로 시스템 전체에 사용자 정의 필드를 공유할 수 있습니다.</p> </li>
        <ul> 
         <li> <p>PLANNED_HOURS_CONTOURING </p> </li> 
         <li> <p>ADD_TO_CUSTOM_FORMS </p> </li> 

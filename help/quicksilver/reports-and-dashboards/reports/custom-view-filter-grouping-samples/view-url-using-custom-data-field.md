@@ -7,9 +7,9 @@ description: 작업 보기에서 "사용자 지정 URL"이라는 계산된 사�
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 5e402fed-71ce-438a-8da9-8f8d37550ea8
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 ## &quot;사용자 정의 URL&quot; 계산된 사용자 정의 필드 만들기
 
-계산된 사용자 정의 필드를 만드는 방법에 대한 자세한 내용은 문서 [사용자 정의 양식에 계산된 데이터 추가](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)를 참조하십시오.
+계산된 사용자 지정 필드를 만드는 방법에 대한 자세한 내용은 [양식에 계산된 필드 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)를 참조하십시오.
 
 사용자 정의 양식을 만들 수 있는 액세스 권한이 있는 경우 &quot;사용자 정의 URL&quot;이라는 작업에 대해 계산된 사용자 정의 필드를 만들 수 있습니다. 이 필드는 **작업 세부 정보** 탭의 **개요** 하위 탭으로 바로 연결됩니다.
 

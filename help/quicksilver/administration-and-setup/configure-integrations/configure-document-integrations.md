@@ -8,9 +8,9 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1116'
 ht-degree: 1%
 
 ---
@@ -216,7 +216,7 @@ ht-degree: 1%
 동일한 [!DNL Workfront] 필드를 다양한 [!DNL Workfront DAM] 필드에 매핑할 수 있지만 여러 [!DNL Workfront] 필드에 동일한 [!DNL Workfront DAM] 필드를 사용할 수는 없습니다.
 
 여러 [!DNL Workfront] 필드를 구성하여 하나의 [!DNL Workfront DAM] 필드로 내보내야 하는 경우 먼저 [!DNL Workfront]에서 계산된 사용자 지정 필드를 만들어 개체의 모든 개별 사용자 지정 필드를 표시하십시오. 그런 다음 계산된 [!DNL Workfront] 필드를 하나의 [!DNL Workfront DAM] 필드에 매핑합니다.\
-계산된 사용자 정의 필드에 대한 자세한 내용은 [사용자 정의 양식에 계산된 데이터 추가](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)를 참조하십시오.
+계산된 사용자 지정 필드에 대한 자세한 내용은 [양식에 계산된 필드 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)를 참조하십시오.
 
 매핑은 [!DNL Workfront]에서 [!UICONTROL Workfront] DAM으로 사용자가 업로드한 모든 문서에 영향을 줍니다.
 
