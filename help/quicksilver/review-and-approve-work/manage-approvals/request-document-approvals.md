@@ -6,9 +6,9 @@ description: Adobe Workfront에서 문서에 대한 관리자 또는 다른 사�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f54a221b-4bf0-414e-b2f3-ace861d85496
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 9a32fcc876efd5d5250b515c1c285f5375615510
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '580'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 1%
 Adobe Workfront에서 문서에 대한 관리자 또는 다른 사용자의 승인을 요청할 수 있습니다. [시스템 보안 환경 설정 구성](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)에 설명된 대로 Workfront 관리자가 이 기능을 활성화한 경우 Workfront 계정이 없는 사람에게 문서 승인을 요청할 수도 있습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -44,7 +46,9 @@ Adobe Workfront에서 문서에 대한 관리자 또는 다른 사용자의 승�
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+
++++
 
 ## 문서 승인 요청
 

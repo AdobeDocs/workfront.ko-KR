@@ -6,9 +6,9 @@ description: 증명 승인은 Adobe Workfront 환경이 Workfront Proof Premium 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 3f012b1d-69a8-4426-8894-3dafb1e6b837
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 증명 승인은 Adobe Workfront 환경이 Workfront Proof Premium 계정과 통합된 경우에만 홈 영역에 표시됩니다. 여기에 설명된 대로 증명을 사용할 수 없는 경우 Workfront 관리자에게 문의하십시오.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -44,7 +46,9 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+
++++
 
 ## 제출된 증명 승인 보기
 

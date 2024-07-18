@@ -7,9 +7,9 @@ description: 문서 세부 정보 페이지에서는 Adobe Workfront 객체에 �
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 69f0560f-8612-431d-9765-0216bf47d8b0
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '203'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 ## 문서 세부 정보 페이지를 엽니다.
 
-1. Adobe Workfront의 오른쪽 상단에 있는 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **문서**&#x200B;를 클릭합니다.
+{{step1-to-documents}}
 
 1. 문서를 마우스로 가리킨 다음 **문서 세부 정보**&#x200B;를 클릭합니다.
 

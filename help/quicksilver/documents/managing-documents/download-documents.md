@@ -6,9 +6,9 @@ description: Adobe Workfront에서 문서를 개별적으로 또는 대량으로
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 083c604a-b2ca-4279-a90d-b103e3575dad
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '286'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 1%
 Adobe Workfront에서 문서를 개별적으로 또는 대량으로 다운로드할 수 있습니다. Workfront의 문서가 포함된 모든 영역에서 문서를 다운로드할 수 있습니다. 
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -45,6 +47,8 @@ Adobe Workfront에서 문서를 개별적으로 또는 대량으로 다운로드
 </table>
 
 &#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+
++++
 
 ## 개별 문서 다운로드
 

@@ -6,9 +6,9 @@ description: Experience Manager Assets Essentials 통합에서 워크플로우 �
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 821e31b8c6023a9ec4e017cc5548bb9fd930983c
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 0%
 
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 다음 항목이 있어야 합니다.
 
@@ -62,6 +64,8 @@ ht-degree: 0%
    </td>
   </tr>
 </table>
+
++++
 
 ## 전제 조건
 
@@ -145,7 +149,6 @@ ht-degree: 0%
 >연결된 폴더는 프로젝트를 만들 때 만들어지므로 기존 프로젝트에서 연결된 폴더 워크플로를 편집하면 효과가 없습니다. 프로젝트를 만들 때 이러한 값을 편집하면 예상대로 작동합니다.
 
 링크된 폴더의 워크플로를 편집하려면:
-
 
 1. 원하는 대로 **[!UICONTROL 연결된 폴더 만들기]**&#x200B;를 켜거나 끕니다. 이 기능을 켜면 연결된 폴더 구성을 편집할 수 있습니다.
 

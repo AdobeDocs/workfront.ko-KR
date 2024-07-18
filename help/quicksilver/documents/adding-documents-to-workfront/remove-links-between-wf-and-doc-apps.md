@@ -6,9 +6,9 @@ description: Adobe Workfront은 서비스에서 문서를 처음 업로드할 �
 author: Courtney
 feature: Digital Content and Documents
 exl-id: fce8e8aa-fc48-49e1-a71d-c3933a179cf5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Adobe Workfront은 서비스에서 문서를 처음 업로드할 때 문서 서�
 문서 서비스는 Workfront에 연결할 수 있는 권한을 허용하는 서비스이므로 Workfront에서 문서 서비스에서 부여한 권한을 제거할 수 없습니다. 문서 서비스 응용 프로그램 내에서 권한을 제거하거나 지원 팀에 문의하여 서버에서 이 링크를 제거해야 합니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 다음 항목이 있어야 합니다.
 
@@ -45,6 +47,8 @@ Adobe Workfront은 서비스에서 문서를 처음 업로드할 때 문서 서�
 </table>
 
 &#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+
++++
 
 ## Workfront과 Dropbox 간 링크 제거
 

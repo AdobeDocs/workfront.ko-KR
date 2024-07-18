@@ -6,9 +6,9 @@ description: '승인 요청을 위임하면 다른 사용자에게 일정 기간
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: 45c0af640daa7bf0c4cb342e55a88a98a745cfc3
+source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1262'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,8 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -54,7 +56,9 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜 또는 라이선스 유형을 확인하려면 Workfront 관리자에게 문의하십시오.
+보유 중인 플랜 또는 라이선스 유형을 확인하려면 Workfront 관리자에게 문의하십시오.
+
++++
 
 ## 위임된 승인에 대한 사용자 액세스 이해
 
@@ -79,9 +83,7 @@ ht-degree: 0%
 
 ## 홈 영역에서 승인 요청 위임
 
-* [다른 사용자에게 승인 위임](#delegate-your-approvals-to-another-user)
-* [승인 위임 업데이트 또는 중지](#update-or-stop-an-approval-delegation)
-* [위임된 승인 보기](#view-delegated-approvals)
+홈 영역에서 승인 요청을 위임할 수 있습니다.
 
 ### 다른 사용자에게 승인 위임 {#delegate-your-approvals-to-another-user}
 

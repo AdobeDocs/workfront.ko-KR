@@ -7,9 +7,9 @@ description: 매핑된 메타데이터의 실시간 보기는 [문서의 세부 
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: cfad5855-033c-4a15-b5a2-7ff32ed65fe9
-source-git-commit: 8ecbca4d5d09b1f696f489148e960e0eeba2119e
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 매핑된 메타데이터의 실시간 보기는 [문서의 세부 정보 및 요약] 패널에서 확인할 수 있습니다. 메타데이터 필드는 에셋을 Workfront에서 Experience Manager Assets 또는 Assets Essentials으로 보낼 때 먼저 매핑됩니다. Workfront 관리자가 오브젝트 메타데이터 동기화를 활성화한 경우 두 애플리케이션에서 변경된 필드가 최신 상태로 유지됩니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 다음 항목이 있어야 합니다.
 
@@ -62,6 +64,7 @@ ht-degree: 0%
 
 *보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
 
++++
 
 ## 전제 조건
 
@@ -77,6 +80,7 @@ ht-degree: 0%
 1. 문서가 포함된 프로젝트, 작업 또는 문제로 이동한 다음 **문서**&#x200B;을(를) 선택합니다.
 1. 필요한 문서를 마우스로 가리킨 다음 **문서 세부 정보**&#x200B;를 선택합니다.
 1. **메타데이터** 섹션을 찾아 확장합니다.
+
    >[!NOTE]
    >
    >이 섹션에서 필드를 편집할 수 없습니다. 보기 전용입니다.
@@ -91,6 +95,7 @@ ht-degree: 0%
 1. 문서가 포함된 프로젝트, 작업 또는 문제로 이동한 다음 **문서**&#x200B;을(를) 선택합니다.
 1. 필요한 문서를 찾습니다.
 1. **요약 아이콘** ![요약 아이콘](assets/summary-panel-icon.png)을 클릭한 다음 **메타데이터** 섹션을 확장합니다.
+
    >[!NOTE]
    >
    >이 섹션에서 필드를 편집할 수 없습니다. 보기 전용입니다.

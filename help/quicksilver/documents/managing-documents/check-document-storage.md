@@ -6,9 +6,9 @@ description: 사용자가 Workfront 인스턴스에 업로드할 수 있는 개�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f5d1963e-b205-44b9-b2b6-b7de465c6977
-source-git-commit: 75c490ca4a85197f79ff59024725a51b19238496
+source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 사용자가 Workfront 인스턴스에 업로드할 수 있는 개별 파일의 유형과 크기에는 제한이 없지만 Workfront 인스턴스에서 사용하는 총 스토리지 크기에는 Workfront 플랜에 제한이 있습니다. Adobe Workfront 관리자는 설정 영역에서 인스턴스의 문서 스토리지를 모니터링합니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 다음 항목이 있어야 합니다.
 
@@ -38,9 +40,12 @@ ht-degree: 0%
 
 &#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
 
++++
+
 ## 문서 스토리지 확인
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
+
 1. 왼쪽 패널에서 **시스템** > **고객 정보**&#x200B;를 클릭합니다.
 1. **기본 정보** 섹션에서 **저장소 할당량**&#x200B;을(를) 찾으십시오. 여기에서 현재 사용 중인 스토리지 용량과 Workfront 플랜에 포함된 총 스토리지 용량을 확인할 수 있습니다.
 

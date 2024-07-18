@@ -7,9 +7,9 @@ description: Workfront에 있는 동안 Experience Manager Assets 또는 Assets 
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: 1744e6f2b78c64ba2fa4856d9c6a0611404e4458
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ Workfront에 있는 동안 Experience Manager Assets 또는 Assets Essentials과
 
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 다음 항목이 있어야 합니다.
 
@@ -59,6 +61,7 @@ Workfront에 있는 동안 Experience Manager Assets 또는 Assets Essentials과
 
 *보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
 
++++
 
 ## 전제 조건
 
@@ -74,8 +77,6 @@ Workfront에 있는 동안 Experience Manager Assets 또는 Assets Essentials과
 연결된 폴더의 이름은 연결된 Portfolio, 프로그램, 프로젝트를 기반으로 자동으로 생성되며 변경할 수 없습니다. 프로젝트가 Portfolio 또는 프로그램과 연결되어 있지 않으면 연결된 폴더에 프로젝트 이름과 생성 날짜가 표시됩니다.
 
 연결된 폴더를 만들려면 다음 작업을 수행하십시오.
-
-
 
 1. 폴더를 원하는 프로젝트로 이동합니다.
 1. **새로 추가**&#x200B;를 선택한 다음 관리자가 설정한 Experience Manager 통합으로 이동합니다.

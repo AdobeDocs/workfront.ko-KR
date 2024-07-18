@@ -6,9 +6,9 @@ description: Workfront 객체에 포함된 모든 문서 폴더에 대한 링크
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f8f83f44-7001-4774-9a35-359cd21124d9
-source-git-commit: 3a1bc4a56cba2fe224a1f0a21c8882c2d9d030de
+source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 [!UICONTROL 프로그램], [!UICONTROL Portfolio], [!UICONTROL 프로젝트], [!UICONTROL 작업] 또는 [!UICONTROL 문제] 개체에 포함된 문서 폴더에 대한 직접 링크를 복사할 수 있습니다. [!DNL Workfront] [!UICONTROL 문서] 영역에 포함된 폴더는 사용자 프로필에 직접 연결되어 다른 사용자와 공유할 수 없으므로 기본 메뉴에서 해당 폴더에 대한 링크를 복사할 수 없습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -42,6 +44,8 @@ ht-degree: 0%
 </table>
 
 &#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+
++++
 
 ## 문서 폴더에 링크 복사 및 공유
 
