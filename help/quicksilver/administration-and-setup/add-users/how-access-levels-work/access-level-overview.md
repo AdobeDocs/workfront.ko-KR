@@ -10,9 +10,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 2da3c687b33d808ec4bf19d380bc82759d19bf99
+source-git-commit: 528c264f613c0deb88c1cf52adb885ad4ead098b
 workflow-type: tm+mt
-source-wordcount: '1702'
+source-wordcount: '1745'
 ht-degree: 5%
 
 ---
@@ -281,8 +281,8 @@ Standard 라이선스에 첨부된 이 기본 제공 액세스 수준은 Adobe W
 | 프로젝트 |   | ✓ 덧신 |   |
 | 작업 |   | ✓ 덧신 |   |
 | 문제 |   |   | ✓ 덧신 |
-| 포트폴리오 | ✓ 덧신 |   |   |
-| 프로그램 | ✓ 덧신 |   |   |
+| 포트폴리오 |   | ✓ 덧신 |   |
+| 프로그램 |   | ✓ 덧신 |   |
 | 보고서(대시보드 및 달력 보고서 포함) |   | ✓ (세부 정보 탭만) |   |
 | 필터, 보기 및 그룹화 |   |   | ✓ 덧신 |
 | 문서 |   |   | ✓ 덧신 |
@@ -297,6 +297,13 @@ Standard 라이선스에 첨부된 이 기본 제공 액세스 수준은 Adobe W
 | 목표 |   |   | ✓ 덧신 |
 
 {style="table-layout:auto"}
+
+>[!IMPORTANT]
+>
+>24.7 릴리스부터 기여자는 기본적으로 프로그램 및 Portfolio에 대한 보기 액세스 권한을 갖습니다.
+>
+> 
+>24.7 릴리스 전에 온보딩된 기여자는 기본적으로 프로그램 및 Portfolio에 액세스할 수 없습니다. 필요한 경우 액세스 권한을 업데이트하여 수동으로 볼 수 있습니다.
 
 ### 외부 사용자 액세스 수준
 
