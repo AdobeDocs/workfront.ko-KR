@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
+source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1468'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,6 @@ ht-degree: 0%
 # 문제 할당
 
 <!--keep the rate card job role information always in yellow till it releases to production - check with Lisa - this might not apply to issues?! -->
-
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리 보기 환경이나 빠른 릴리스를 활성화한 고객의 프로덕션 환경에서만 사용할 수 있습니다.</span>
-
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>을 참조하세요.
-
-<span class="preview">현재 릴리스에 대한 자세한 내용은 [2024년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)를 참조하십시오.</span>
 
 사용자, 역할 및 팀에 문제를 할당하여 문제 완료에 대한 책임 주체를 나타낼 수 있습니다. 문제 할당에 대한 일반적인 정보는 [문제 할당 수정 개요](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)를 참조하십시오.
 
@@ -126,11 +120,7 @@ ht-degree: 0%
 
    * 할당하려는 사용자, 역할 또는 팀의 이름을 입력한 다음 목록에 나타나면 클릭합니다.
 
-     프로덕션 환경의 샘플 이미지:
-     ![](assets/nwe-assignments-expanded-in-task-header-350x259.png)
-
-     <span class="preview">미리 보기 환경의 샘플 이미지:</span>
-     <span class="preview">![할당 검색](assets/smart-assignments-issue-header.png)</span>
+     ![할당 검색](assets/smart-assignments-issue-header.png)
 
    * (조건부) 사용 가능한 목록에서 이름, 역할 또는 팀 중 하나를 클릭합니다
    * 자신에게 할당하려면 **나에게 할당**&#x200B;을 클릭하세요.
@@ -177,10 +167,6 @@ ht-degree: 0%
 
    * **할당** 필드 내부를 클릭하고 문제에 할당할 활성 사용자, 작업 역할 또는 활성 팀의 이름을 입력한 다음 목록에 표시될 때 클릭합니다.
 
-     프로덕션 환경의 샘플 이미지:
-     ![](assets/assignments-field-task-list-nwe.png)
-
-     <span class="preview">미리 보기 환경의 샘플 이미지:</span>
      ![할당 필드](assets/assignments-field-task-list-0424.png)
 
    >[!TIP]

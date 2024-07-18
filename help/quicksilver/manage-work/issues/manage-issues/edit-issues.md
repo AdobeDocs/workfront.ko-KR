@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '2506'
+source-wordcount: '2508'
 ht-degree: 2%
 
 ---
@@ -324,13 +324,13 @@ ht-degree: 2%
 
    ![](assets/custom-forms-section-edit-issue-box-nwe-350x132.png)
 
-1. **사용자 정의 양식 추가** 필드에서 문제와 연결할 사용자 정의 양식을 선택합니다. 이 필드에서 사용자 정의 양식을 선택하려면 먼저 사용자 정의 양식을 작성해야 합니다. 활성 사용자 정의 양식만 목록에 표시됩니다. 사용자 정의 양식 작성에 대한 자세한 내용은 [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)을 참조하십시오. 문제에 최대 10개의 사용자 정의 양식을 추가할 수 있습니다.
+1. **사용자 정의 양식 추가** 필드에서 문제와 연결할 사용자 정의 양식을 선택합니다. 이 필드에서 사용자 정의 양식을 선택하려면 먼저 사용자 정의 양식을 작성해야 합니다. 활성 사용자 정의 양식만 목록에 표시됩니다. 사용자 정의 양식 작성에 대한 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오. 문제에 최대 10개의 사용자 정의 양식을 추가할 수 있습니다.
 
 1. (조건부) 사용자 정의 양식을 문제에 첨부한 경우 양식의 모든 필드를 편집합니다. 문제를 저장하려면 모든 필수 필드를 지정해야 합니다.
 
    >[!NOTE]
    >
-   >Workfront 관리자가 사용자 정의 양식의 섹션에 대한 권한을 설정하는 방법에 따라 모든 사용자가 지정된 사용자 정의 양식에서 동일한 필드를 보거나 편집할 수 있는 것은 아닙니다. 사용자 정의 양식의 섹션 내에서 필드를 편집할 수 있는 권한은 문제 자체에 대한 권한에 따라 다릅니다. 사용자 정의 양식의 섹션에 대한 권한 설정에 대한 자세한 내용은 [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)을 참조하십시오. 문제 권한 설정에 대한 자세한 내용은 [문제 공유](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)를 참조하십시오.
+   >Workfront 관리자가 사용자 정의 양식의 섹션에 대한 권한을 설정하는 방법에 따라 모든 사용자가 지정된 사용자 정의 양식에서 동일한 필드를 보거나 편집할 수 있는 것은 아닙니다. 사용자 정의 양식의 섹션 내에서 필드를 편집할 수 있는 권한은 문제 자체에 대한 권한에 따라 다릅니다. 사용자 지정 양식의 섹션에 대한 사용 권한 설정에 대한 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오. 문제 권한 설정에 대한 자세한 내용은 [문제 공유](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)를 참조하십시오.
 
 1. **저장**&#x200B;을 클릭하거나 다음 섹션을 계속 편집하십시오.
 

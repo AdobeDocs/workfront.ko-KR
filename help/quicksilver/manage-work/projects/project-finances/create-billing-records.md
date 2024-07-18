@@ -5,9 +5,9 @@ description: 수익 및 추적 경비를 설정하는 것 외에도 청구해야
 author: Alina
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1933'
+source-wordcount: '1934'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ ht-degree: 0%
 
 1. (선택 사항) **사용자 지정 Forms**&#x200B;에서 청구 기록에 추가할 청구 기록 사용자 지정 양식을 선택합니다.
 
-   사용자(또는 사용자 정의 양식에 대한 액세스 권한이 있는 다른 사용자)는 여기에서 청구 기록 사용자 정의 양식을 선택하기 전에 만들어야 합니다. 활성 사용자 정의 양식만 목록에 표시됩니다. 사용자 정의 양식 만들기에 대한 자세한 내용은 [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)을 참조하십시오.
+   사용자(또는 사용자 정의 양식에 대한 액세스 권한이 있는 다른 사용자)는 여기에서 청구 기록 사용자 정의 양식을 선택하기 전에 만들어야 합니다. 활성 사용자 정의 양식만 목록에 표시됩니다. 사용자 정의 양식을 만드는 방법에 대한 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
 
    이 단계를 반복하여 청구 기록에 필요한 다른 사용자 정의 양식을 추가할 수 있습니다.
 

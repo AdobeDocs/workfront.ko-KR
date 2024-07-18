@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 41372dd8-5002-4f8b-a5ac-a577c8b05d11
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '948'
 ht-degree: 2%
 
 ---
@@ -73,7 +73,6 @@ ht-degree: 2%
 
 * Adobe XD 파일을 추가하여 사용자 정의 양식을 보다 시각적으로 유익하게 만듭니다. 양식이 오브젝트에 첨부되어 있으면 오브젝트와 함께 작업하는 사용자는 양식 내에서 XD 파일을 보고 상호 작용할 수 있습니다.
 
-  자세한 내용은 [사용자 지정 양식에서 이미지 또는 기타 에셋 위젯 추가 또는 편집](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)을 참조하세요.
 
 * 빠른 필터를 사용하여 현대화된 사용자 정의 양식 및 필드 목록에서 항목을 쉽게 찾을 수 있습니다. 또한 양식 및 필드를 관리하면서 향상된 모양과 느낌을 즐겨보십시오.
 

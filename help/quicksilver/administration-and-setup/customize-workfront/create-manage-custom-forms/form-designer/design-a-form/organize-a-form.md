@@ -1,5 +1,5 @@
 ---
-title: 양식 Designer으로 양식 구성 및 미리 보기
+title: 양식 구성 및 미리 보기
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,14 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 28961cda48ce4eec84ed272e660be6ba938be370
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1277'
 ht-degree: 0%
 
 ---
 
-# 양식 디자이너를 사용하여 양식 구성 및 미리 보기
+# 양식 구성 및 미리 보기
 
 양식 디자이너를 사용하여 사용자 정의 양식을 구성하고 미리 보기하여 제대로 설정되었는지 확인할 수 있습니다.
 
@@ -79,10 +79,6 @@ ht-degree: 0%
       <td role="rowheader">설명</td> 
       <td>섹션의 용도를 사용자에게 설명하려면 텍스트를 입력합니다. 사용자 정의 양식에서 섹션의 레이블 아래에 표시됩니다.</td> 
      </tr> 
-     <!--<tr> 
-      <td role="rowheader">Add Logic</td> 
-      <td>Use display logic to specify whether the section should display on the form, based on selections users make in multi-choice custom fields when they fill out the form. For more information, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Add display logic and skip logic to a custom form</a>.</td> 
-     </tr> -->
      <tr> 
       <td role="rowheader"> <p>액세스 권한 부여</p> </td> 
       <td> <p> 이 섹션을 보고 해당 필드 값을 편집하려면 사용자 정의 양식이 첨부된 오브젝트에서 사용자에게 필요한 권한을 선택하십시오. 
@@ -149,19 +145,10 @@ ht-degree: 0%
 
 1. 사용자 정의 필드와 위젯을 동일한 행에 배치하려면 사이에 선이 나타날 때까지 한 필드를 다른 행 옆에 드래그합니다.
 
-<!--
-Courtney, this is a story that got postponed after I did the work. Slated for some time in 22.4 (https://hub.workfront.adobe.com/task/6220d425000140d7f7d3ea68cc9529c8/documents)
-   You can drag multiple items. Press the following keys while you select the items, then drag the items together to the new row:
-   * Mac: Command+Shift [Courtney, double-check these commands]
-   * Windows: Ctrl+Shift
-
-   When you drop the custom field or widget, a gray box displays around the two items to indicate that they share a row.
--->
-
->[!NOTE]
->
->* 오른쪽 상단의 **미리 보기** 단추를 사용하여 사용자 정의 필드 및 위젯이 양식에 표시되는 방식을 파악할 수 있습니다.
->* 사용자 정의 필드 및 위젯은 사용자가 볼 때 사용할 수 있는 화면 공간의 크기에 따라 양식에서 항상 동일한 방식으로 표시되지 않을 수 있습니다. 예를 들어, 수평 공간이 제한되는 경우 필드 행의 세 번째 필드는 다음 필드 행으로 래핑될 수 있다.
+   >[!NOTE]
+   >
+   >* 오른쪽 상단의 **미리 보기** 단추를 사용하여 사용자 정의 필드 및 위젯이 양식에 표시되는 방식을 파악할 수 있습니다.
+   >* 사용자 정의 필드 및 위젯은 사용자가 볼 때 사용할 수 있는 화면 공간의 크기에 따라 양식에서 항상 동일한 방식으로 표시되지 않을 수 있습니다. 예를 들어, 수평 공간이 제한되는 경우 필드 행의 세 번째 필드는 다음 필드 행으로 래핑될 수 있다.
 
 1. (선택 사항) 사용자 정의 필드 또는 위젯을 다른 필드 위 또는 아래에 배치하려면 항목 사이에 가로 파란색 선이 나타날 때까지 위 또는 아래로 드래그합니다.
 

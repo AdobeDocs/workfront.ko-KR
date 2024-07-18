@@ -1,5 +1,5 @@
 ---
-title: 양식 디자이너를 사용하여 계산된 필드 추가
+title: 양식에 계산된 필드 추가
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,14 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: ca453e45dfe32d9545e95139ae7e41d0106e30ff
+source-git-commit: 420c26c22cb1e6c0eab0f4cb0e211922d9ed2350
 workflow-type: tm+mt
-source-wordcount: '2355'
+source-wordcount: '2353'
 ht-degree: 0%
 
 ---
 
-# 양식 디자이너를 사용하여 계산된 필드 추가
+# 양식에 계산된 필드 추가
 
 사용자 정의 양식을 오브젝트에 첨부할 때 기존 데이터를 사용하여 새 데이터를 생성하는 계산된 사용자 정의 필드를 추가할 수 있습니다.
 

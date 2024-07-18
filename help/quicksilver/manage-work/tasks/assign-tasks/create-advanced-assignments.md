@@ -7,20 +7,14 @@ author: Alina
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 0d525df9beacc989ec3c1c695a7757dff0ad77b3
+source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
 workflow-type: tm+mt
-source-wordcount: '1265'
+source-wordcount: '1168'
 ht-degree: 0%
 
 ---
 
 # 고급 할당 만들기
-
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리 보기 환경이나 빠른 릴리스를 활성화한 고객의 프로덕션 환경에서만 사용할 수 있습니다.</span>
-
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>을 참조하세요.
-
-<span class="preview">현재 릴리스에 대한 자세한 내용은 [2024년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)를 참조하십시오.</span>
 
 고급 할당을 사용하여 작업 또는 문제 할당을 관리할 수 있습니다.
 
@@ -97,10 +91,6 @@ ht-degree: 0%
 
 1. **고급**&#x200B;을 클릭합니다.
 
-   프로덕션 환경의 샘플 이미지:
-   ![](assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
-
-   <span class="preview">미리 보기 환경의 샘플 이미지:</span>
    ![고급 클릭](assets/assignments-box-in-task-header.png)
 
 1. **사람, 역할 및 팀 검색** 필드에서 사용자, 역할 또는 팀의 이름을 입력한 다음 드롭다운 목록에 나타나면 이름을 클릭합니다.
@@ -159,10 +149,6 @@ ht-degree: 0%
 
    * **피할당자의 역할:** 이 할당을 수행할 때 사용자가 사용해야 하는 역할을 선택합니다.  사용자의 기본 역할 이 기본적으로 표시됩니다. 피할당자의 역할 상자를 클릭하여 다른 역할을 선택합니다.  먼저 작업 또는 문제를 역할에 할당한 다음 해당 역할을 수행할 수 있는 사용자를 두 번째 할당으로 추가하면 제안된 사용자 목록이 작업 및 문제에 이미 할당된 역할을 수행할 수 있는 사용자에 대해 필터링됩니다.
 
-     프로덕션 환경의 샘플 이미지:
-     ![](assets/advanced-assignments-box-select-a-role-350x243.png)
-
-     <span class="preview">미리 보기 환경의 샘플 이미지:</span>
      ![피할당자의 역할](assets/advanced-assignments-select-role.png)
 
    <!--<div class="preview">
@@ -181,14 +167,6 @@ ht-degree: 0%
 
    * **계획된 시간**: 기간 유형이 계산된 할당이거나 단순이면 계획된 시간 수를 업데이트하십시오. 결과적으로 각 리소스에 대한 할당 백분율 또는 시간이 균등하게 분배됩니다. Workfront은 기간 유형이 계산된 작업 또는 작업량 고정 시 계획된 시간을 계산합니다. 자세한 내용은 [작업 기간 및 기간 유형 개요](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)를 참조하십시오.
 
-     프로덕션 환경의 샘플 이미지:
-     ![](assets/qs-advanced-assignments-box-with-duration-type-and-duration-350x251.png)
-
-     <div class="preview">
-
-     미리보기 환경의 샘플 이미지:
      ![고급 할당](assets/advanced-assignments-duration-type-allocations.png)
-
-     </div>
 
 1. **저장**&#x200B;을 클릭합니다.

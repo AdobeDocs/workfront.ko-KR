@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f21f33b3-5e49-4bb0-9eda-7cf4c016361c
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1485'
+source-wordcount: '1474'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,6 @@ ht-degree: 0%
 지금까지 사용자 정의 필드를 만들 때 시스템의 모든 사용자가 편집할 수 있었습니다. 여전히 사용자 정의 필드의 기본 상태이지만, 이제 사용자 정의 필드를 특정 사용자, 역할, 팀, 그룹 및 회사로 공유하는 것을 제한할 수 있습니다. 또한 수신자가 사용자 정의 필드를 관리할 수 있는지 또는 볼 수만 있는지 여부를 결정할 수 있습니다.
 
 또한 사용자에게 친숙한 이 경험을 제공하기 위해 이 기능이 Workfront 전체에서 공유하는 다른 오브젝트 영역과 유사하도록 사용자 인터페이스를 설계했습니다.
-
-자세한 내용은 [사용자 정의 필드 및 위젯에 대한 공유 구성](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)을 참조하십시오.
 
 ## 관리자를 위한 새로운 기능: 표준화된 사용자 정의 양식 공유
 

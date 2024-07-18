@@ -7,9 +7,9 @@ description: 데이터 표현식을 사용하여 Adobe Workfront에서 계산된
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '2166'
+source-wordcount: '2165'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 * 사용자 정의 양식의 계산된 사용자 정의 필드
 
-  Workfront의 사용자 정의 양식에서 계산된 사용자 정의 필드를 만드는 방법에 대한 자세한 내용은 [사용자 정의 양식에 계산된 데이터 추가](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)를 참조하십시오.
+  Workfront의 사용자 정의 양식에서 계산된 사용자 정의 필드를 만드는 방법에 대한 자세한 내용은 [양식에 계산된 필드 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)를 참조하십시오.
 
 * 텍스트 모드를 사용할 때 보고서 또는 목록의 계산된 사용자 지정 열
 

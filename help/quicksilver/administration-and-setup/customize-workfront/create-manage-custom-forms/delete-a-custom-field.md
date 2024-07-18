@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c22a7ced-da81-40b5-bb4d-69d59b855add
-source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
@@ -75,8 +75,7 @@ ht-degree: 0%
 
    1. 원래 사용자 정의 양식에서 제거할 새 양식에 사용자 정의 필드를 추가합니다.
 
-      * 사용자 정의 양식 빌더를 사용하는 경우 [사용자 정의 양식에서 사용자 정의 필드 또는 위젯 재사용](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md)을 참조하십시오.
-      * 양식 디자이너를 사용하는 경우 [사용자 정의 양식에 새 필드 또는 기존 필드 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-new-or-existing-fields-to-your-custom-form)를 참조하십시오.
+      자세한 내용은 [양식 디자이너를 사용한 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)에서 [사용자 정의 양식에 새 필드 또는 기존 필드 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-new-or-existing-fields-to-your-custom-form) 섹션을 참조하십시오.
 
    1. 새 사용자 정의 양식을 저장합니다.
 

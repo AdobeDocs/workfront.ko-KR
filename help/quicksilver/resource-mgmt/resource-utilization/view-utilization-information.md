@@ -6,9 +6,9 @@ description: 활용률 보고서에서 자원의 활용률을 조회할 수 있�
 author: Alina, Lisa
 feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '7254'
+source-wordcount: '7255'
 ht-degree: 0%
 
 ---
@@ -546,7 +546,7 @@ Workfront의 다른 영역과는 달리 계획된 수익이 상한을 초과하�
 
      >[!IMPORTANT]
      >
-     >필드 레이블이 아니라 필드 이름을 입력해야 합니다. 필드 레이블은 오브젝트에 첨부된 사용자 정의 양식에 표시됩니다. 레이블과 사용자 정의 필드의 이름 간의 차이에 대한 자세한 내용은 [사용자 정의 양식 만들기 또는 편집](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)을 참조하십시오.
+     >필드 레이블이 아니라 필드 이름을 입력해야 합니다. 필드 레이블은 오브젝트에 첨부된 사용자 정의 양식에 표시됩니다. 사용자 지정 필드의 레이블과 이름 간의 차이에 대한 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
 
      열에 표시되는 필드에 대한 자세한 내용은 [Adobe Workfront 용어](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)를 참조하십시오.\
      필터에 대한 필터 및 조건 수정자를 선택합니다. 사용 가능한 수정자는 [필터 및 조건 수정자](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)에 설명되어 있습니다.

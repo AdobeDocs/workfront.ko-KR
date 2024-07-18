@@ -6,20 +6,14 @@ description: 작업에 사용자 또는 역할을 할당할 때 작업을 완료
 author: Alina
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: 0d525df9beacc989ec3c1c695a7757dff0ad77b3
+source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
 
 # 작업에 대한 사용자 및 역할 할당 시간 관리
-
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리 보기 환경이나 빠른 릴리스를 활성화한 고객의 프로덕션 환경에서만 사용할 수 있습니다.</span>
-
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>을 참조하세요.
-
-<span class="preview">현재 릴리스에 대한 자세한 내용은 [2024년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)를 참조하십시오.</span>
 
 작업에 사용자 또는 역할을 할당할 때 작업을 완료하기 위해 일정 시간 동안 작업에 할당됩니다. 작업 기간 유형이 단순인 경우 각 사용자 또는 작업 역할이 작업에 할당될 때 할당되는 시간을 수동으로 수정할 수 있습니다.
 
@@ -82,10 +76,6 @@ ht-degree: 0%
 1. 작업의 **기간 유형**&#x200B;이(가) **단순**&#x200B;인지 확인하십시오.
 1. 각 작업 할당자에 대한 **할당**&#x200B;을(를) 수정합니다. 작업의 전체 기간 동안 이 작업에 대한 각 할당에 대한 전체 할당입니다. 작업의 전체 계획된 시간도 업데이트할 수 있습니다.
 
-   프로덕션 환경의 샘플 이미지:
-   ![](assets/advanced-assignments-simple-duration-multiple-resources-nwe-350x198.png)
-
-   <span class="preview">미리 보기 환경의 샘플 이미지:</span>
    ![할당 수정](assets/advanced-assignments-duration-type-allocations.png)
 
 1. **저장**&#x200B;을 클릭합니다.

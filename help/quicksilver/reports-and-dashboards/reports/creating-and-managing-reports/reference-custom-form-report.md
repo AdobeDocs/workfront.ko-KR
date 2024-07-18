@@ -6,9 +6,9 @@ description: 해당 오브젝트에 대한 보고서의 보기, 필터 및 그�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8b0d2e7f-cc92-4f43-a91c-ab2b2d8a1c01
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '1000'
 ht-degree: 2%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 2%
 
 보고서에서 사용자 정의 양식을 참조하려면 먼저 사용자 정의 양식이 있어야 합니다.
 
-사용자 정의 양식 만들기에 대한 자세한 내용은 [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)을 참조하십시오.
+사용자 정의 양식을 만드는 방법에 대한 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
 
 ## 사용자 정의 양식의 콘텐츠 참조
 
@@ -61,7 +61,7 @@ ht-degree: 2%
 >[!NOTE]
 >
 >여러 옵션이 있는 필드의 경우, 숨겨진 옵션을 포함하여 보고서의 필터 및 프롬프트에서 모든 옵션을 사용할 수 있습니다.\
->여러 옵션이 있는 사용자 정의 필드에서 선택 항목을 숨기는 방법에 대한 자세한 내용은 문서 [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)을 참조하십시오.
+>여러 옵션이 있는 사용자 지정 필드에서 선택 항목을 숨기는 방법에 대한 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) 문서를 참조하십시오.
 
 보고서를 만들 때 양식의 개체 유형을 필드 소스로 사용하고 사용자 정의 필드의 이름을 필드 이름으로 사용하면 됩니다.
 

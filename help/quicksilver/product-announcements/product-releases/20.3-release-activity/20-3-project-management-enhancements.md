@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: acde4cf2-a755-4e77-9469-f5152991dd34
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '924'
 ht-degree: 0%
 
 ---
@@ -29,8 +29,6 @@ ht-degree: 0%
 이제 시스템 관리자가 서식을 지정하도록 구성된 사용자 정의 양식 필드를 만들 때 해당 필드를 가장 많이 사용하는 필드(Workfront 전체의 목록)의 텍스트에 서식을 지정할 수 있습니다. 세부 정보 영역으로 이동하여 사용자 정의 양식의 텍스트 서식을 지정하는 대신 목록의 필드를 클릭하고 텍스트에 볼드체, 이탤릭체 및 밑줄을 적용할 수 있습니다.
 
 이 기능은 업데이트된 목록에서만 사용할 수 있습니다. 업데이트된 목록에 대한 자세한 내용은 [Adobe Workfront 목록 시작](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)을 참조하세요.
-
-Workfront 관리자가 서식을 지정하여 텍스트 필드를 만드는 방법에 대한 자세한 내용은 [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)을 참조하십시오.
 
 ## 여러 글로벌 헤더의 모양과 느낌이 업데이트됨
 
@@ -113,5 +111,4 @@ Workfront 관리자가 서식을 지정하여 텍스트 필드를 만드는 방�
 
 이전에는 레이블이 사용자용 필드 위에 표시되고 시스템에서 필드를 식별하는 데 사용되었습니다. 따라서 시스템에서 더 이상 식별할 수 없기 때문에 사용자가 사용할 수 있는 레이블을 변경하면 필드가 제대로 작동하지 않습니다.
 
-자세한 내용은 [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)을 참조하세요.
 

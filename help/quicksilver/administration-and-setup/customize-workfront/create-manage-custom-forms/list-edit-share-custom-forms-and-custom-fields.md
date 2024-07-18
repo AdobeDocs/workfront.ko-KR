@@ -4,9 +4,11 @@ description: 조직의 사용자 정의 양식 목록과 여기에 추가된 사
 author: Caroline
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 55b659dc4d24856d835f901b22b937e5bcbfe657
+hidefromtoc: true
+hide: true
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
@@ -16,7 +18,7 @@ ht-degree: 0%
 
 조직의 사용자 정의 양식 목록과 여기에 추가된 사용자 정의 필드 및 위젯을 볼 때 도구 모음의 옵션을 사용하여 속성을 편집하고 공유 대상을 제한하며 복사하고 삭제할 수 있습니다. 각 사용자 정의 양식과 관련된 객체 유형과 같은 다른 정보도 표시할 열에서 볼 수 있습니다.
 
-사용자 정의 양식의 사용자 정의 필드 및 위젯에 대한 자세한 내용은 [사용자 정의 양식에 사용자 정의 필드 추가](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) 및 [사용자 정의 양식의 에셋 위젯 추가 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)을 참조하십시오.
+사용자 정의 양식의 사용자 정의 필드 및 위젯에 대한 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -53,9 +55,9 @@ ht-degree: 0%
 
    목록에서 사용자 정의 양식을 선택할 때 수행할 수 있는 작업에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
-   * [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+   * [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
    * [사용자 정의 양식 공유](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
-   * [사용자 정의 양식을 복사하여 새로 만들기](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md)
+   * [사용자 정의 양식을 복사하여 새로 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/list-edit-share-custom-forms-and-custom-fields.md)
    * [사용자 정의 양식 삭제 또는 비활성화](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
 
 1. **필드** 탭을 클릭합니다.
@@ -76,12 +78,12 @@ ht-degree: 0%
    목록에서 항목을 선택할 때 수행할 수 있는 작업에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
    * [사용자 지정 필드, 섹션 구분 또는 위젯 추가 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
-   * [사용자 정의 필드 및 위젯에 대한 공유 구성](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)
+   * [양식의 사용자 정의 필드 및 위젯에 대한 공유 구성](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md)
    * [시스템에서 사용자 정의 필드 또는 위젯 삭제](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
 
 1. **섹션** 탭을 선택한 다음 **매개 변수 그룹**&#x200B;이(가) 목록의 **보기**(으)로 선택되었는지 확인하십시오.
 
    모든 섹션 구분이 각 섹션 구분을 포함하는 사용자 정의 양식 목록과 함께 이 보기에 표시됩니다.
 
-   목록에서 선택한 사용자 정의 섹션을 편집하는 방법에 대한 자세한 내용은 [사용자 정의 양식에 섹션 구분 추가](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)를 참조하십시오.
+   목록에서 선택한 사용자 지정 섹션 편집에 대한 자세한 내용은 [양식 구성 및 미리 보기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)를 참조하십시오.
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1464'
+source-wordcount: '1465'
 ht-degree: 3%
 
 ---
@@ -192,7 +192,7 @@ Adobe Workfront 관리자는 아래에 설명된 감사 로그를 사용하여 �
 * 사용자 정의 섹션의 이름 또는 설명을 변경합니다.
 * 사용자 정의 섹션을 삭제합니다.
 
-사용자 정의 양식의 사용자 정의 섹션에 대한 자세한 내용은 [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)을 참조하십시오.
+사용자 지정 양식의 사용자 지정 섹션에 대한 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
 
 ### 환율 {#exchange-rate}
 

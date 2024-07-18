@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 407f6631-ecc1-4ed8-bfec-6d726ae87a3d
-source-git-commit: ab7877c048ea87180dd518c978b258d266e0f95c
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 0%
      </tr>
      <tr> 
       <td role="rowheader">사용자 지정 Forms 섹션</td> 
-      <td> <p>Workfront에서 사용할 수 없는 필드를 회사에 추가하려는 경우 사용자 정의 양식을 작성하여 회사에 연결할 수 있습니다. 드롭다운 메뉴에서 이 양식을 선택하여 회사에 첨부할 수 있습니다. 활성 회사만 드롭다운 메뉴에 나열됩니다. 사용자 지정 Forms 만들기에 대한 자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" data-mc-variable-override="">사용자 지정 양식 만들기 또는 편집</a>을 참조하세요. </p> </td> 
+      <td> <p>Workfront에서 사용할 수 없는 필드를 회사에 추가하려는 경우 사용자 정의 양식을 작성하여 회사에 연결할 수 있습니다. 드롭다운 메뉴에서 이 양식을 선택하여 회사에 첨부할 수 있습니다. 활성 회사만 드롭다운 메뉴에 나열됩니다. 사용자 정의 양식을 만드는 방법에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">양식 디자이너를 사용하여 양식 디자인</a>을 참조하십시오. </p> </td> 
      </tr> 
     </tbody> 
    </table>

@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '2776'
+source-wordcount: '2758'
 ht-degree: 4%
 
 ---
@@ -71,8 +71,6 @@ ht-degree: 4%
   Workfront에서 추적할 필드를 추가하는 방법에 대한 자세한 내용은 [시스템 업데이트 구성](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)을 참조하십시오.
 
 * 보고하려는 모든 사용자 정의 필드에 **업데이트 피드의 필드 변경 사항 표시** 설정이 활성화되어 있습니다.
-
-  사용자 정의 필드에 대해 이 설정을 활성화하는 방법에 대해 알아보려면 [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#)을 참조하세요.
 
 ## 분개 기입 보고서 개요
 

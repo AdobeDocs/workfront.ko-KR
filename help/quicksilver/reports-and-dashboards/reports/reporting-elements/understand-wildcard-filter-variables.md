@@ -7,9 +7,9 @@ description: 필터에서 와일드카드를 사용하면 특정 사용자 또�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: d6094d944b7955db8a97b5e1ce0af8cb85f82a9e
+source-git-commit: 0876d4d47aad701d5ffadc88868217ebae7e4790
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1440'
 ht-degree: 1%
 
 ---
@@ -222,7 +222,6 @@ ht-degree: 1%
      <p>$$OBJCODE 변수는 개체의 유형을 참조합니다. </p> 
      <p>사용자 정의 양식에서, 양식의 선택된 객체 유형이 계산된 사용자 정의 필드에서 참조된 필드와 호환되지 않을 경우, 이 와일드카드를 사용하여 해당 객체 유형에 대한 중복 양식을 생성하는 문제를 방지할 수 있습니다.</p> 
      <p>계산된 사용자 정의 필드에서는 IF 표현식에 와일드카드를 포함하여 계산에서 양식의 각 객체 유형에 대해 서로 다른 값을 출력할 수 있도록 이 작업을 수행합니다. </p> 
-     <p>자세한 내용과 예제는 문서 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md" class="MCXref xref">사용자 정의 양식에 계산된 데이터 추가</a>의 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#calculat" class="MCXref xref">다중 개체 사용자 정의 양식의 계산된 사용자 정의 필드</a> 섹션을 참조하십시오.</p> 
     </div> </td> 
   </tr> 
  </tbody> 

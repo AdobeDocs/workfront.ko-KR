@@ -7,9 +7,9 @@ description: 보고서는 사용자 및 작업에 발생한 상황을 파악할 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '3294'
+source-wordcount: '3295'
 ht-degree: 0%
 
 ---
@@ -323,7 +323,7 @@ Workfront 보고서와 관련하여 다음과 같은 용어가 사용됩니다.
   </tr> 
   <tr> 
    <td>필드</td> 
-   <td> <p>는 객체의 속성을 나타냅니다. 예를 들어 "상태"는 프로젝트, 작업 또는 문제에 대한 필드입니다. "Portfolio 관리자"는 Portfolio 개체에 대한 필드입니다.</p> <p>직접 만들고 사용자 정의 양식에 추가하는 사용자 정의 필드도 가질 수 있습니다.<br>사용자 정의 양식 만들기에 대한 자세한 내용은 문서 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">사용자 정의 양식 만들기 또는 편집</a>을 참조하세요.</p> </td> 
+   <td> <p>는 객체의 속성을 나타냅니다. 예를 들어 "상태"는 프로젝트, 작업 또는 문제에 대한 필드입니다. "Portfolio 관리자"는 Portfolio 개체에 대한 필드입니다.</p> <p>직접 만들고 사용자 정의 양식에 추가하는 사용자 정의 필드도 가질 수 있습니다.<br>사용자 지정 양식을 만드는 방법에 대한 자세한 내용은 문서 <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">양식 디자이너를 사용한 양식 디자인</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>필드 이름 </td> 

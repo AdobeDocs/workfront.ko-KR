@@ -1,5 +1,5 @@
 ---
-title: 양식 디자이너를 사용하여 표시 논리 및 건너뛰기 논리 추가
+title: 양식에 표시 논리 및 건너뛰기 논리 추가
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,14 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1270'
+source-wordcount: '1268'
 ht-degree: 0%
 
 ---
 
-# 양식 디자이너를 사용하여 표시 논리 및 건너뛰기 논리 추가
+# 양식에 표시 논리 및 건너뛰기 논리 추가
 
 사용자가 양식을 작성할 때 선택한 사항에 따라 사용자 정의 양식의 표시 또는 생략 섹션을 결정할 수 있습니다.
 

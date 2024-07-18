@@ -5,7 +5,7 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5d8a0858-aa4a-4b5f-bbc4-7215e145b59a
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
@@ -44,4 +44,4 @@ ht-degree: 0%
 
 기존 논리를 편집하고 사용자 정의 양식에 새 논리를 추가하는 작업은 양식 디자이너 Beta에서 아직 사용할 수 없지만 나중에 수행할 예정입니다.
 
-자세한 내용은 [양식 디자이너 개요](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md)를 참조하세요.
+자세한 내용은 [사용자 정의 양식 개요](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)를 참조하십시오.

@@ -6,9 +6,9 @@ description: Experience Manager Assets Essentials의 콘텐츠와 작업을 연�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: a729c134ce3d9c565fac18fea80ea7c49471182b
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '635'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,7 @@ Workfront 개체 데이터를 Experience Manager Assets의 에셋 미디어 필�
 시작하기 전에 다음을 수행해야 합니다
 
 * [Experience Manager Assets과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en)에 설명된 대로 Adobe Workfront Essentials에서 메타데이터 스키마를 구성합니다.
-* (선택 사항) Workfront에서 사용자 정의 양식 필드를 구성합니다. Workfront에는 사용할 수 있는 많은 내장 사용자 정의 필드가 있습니다. 하지만 자신만의 사용자 지정 필드를 만들 수도 있습니다. 자세한 내용은 [사용자 정의 양식 만들기 또는 편집](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)을 참조하세요.
+* (선택 사항) Workfront에서 사용자 정의 양식 필드를 구성합니다. Workfront에는 사용할 수 있는 많은 내장 사용자 정의 필드가 있습니다. 하지만 자신만의 사용자 지정 필드를 만들 수도 있습니다. 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
 
 ## 지원되는 Workfront 및 Experience Manager Assets 필드
 

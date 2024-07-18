@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] 프로필에 사용자 자신에 대한 �
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 157ab840d63388b342db624824db9538d43b70b1
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '3275'
+source-wordcount: '3276'
 ht-degree: 1%
 
 ---
@@ -523,7 +523,7 @@ ht-degree: 1%
 
 모든 사용자는 프로필과 연결된 사용자 정의 양식을 볼 수 있습니다.
 
-사용자 프로필에 사용자 정의 양식을 첨부하려면 [!DNL Workfront] 관리자가 사용자 개체에 대한 사용자 정의 양식을 구성해야 합니다. 사용자 정의 양식 만들기에 대한 자세한 내용은 [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)을 참조하십시오.
+사용자 프로필에 사용자 정의 양식을 첨부하려면 [!DNL Workfront] 관리자가 사용자 개체에 대한 사용자 정의 양식을 구성해야 합니다. 사용자 정의 양식을 만드는 방법에 대한 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
 
 ### [!UICONTROL 댓글]
 

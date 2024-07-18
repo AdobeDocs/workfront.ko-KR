@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: be398d7f-7bc3-4a27-bc17-ffa4054d81ac
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
@@ -34,4 +34,4 @@ ht-degree: 0%
 
 설정 > 사용자 지정 Forms 영역의 Forms, 필드 및 섹션에 대한 탭을 Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 업데이트했습니다. 이제 왼쪽 탐색 메뉴에서 세 영역에 액세스할 수 있습니다. 목록에 대해 필터, 보기 및 그룹화를 계속 사용할 수 있습니다. 업데이트된 디자인은 새 양식 디자이너와 레거시 양식 빌더에서 만든 사용자 정의 양식, 필드 및 섹션에 적용됩니다.
 
-자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) 및 [기존 양식 빌더를 사용하여 사용자 지정 양식을 만들거나 편집](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)을 참조하십시오.
+자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.

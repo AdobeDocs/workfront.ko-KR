@@ -6,9 +6,9 @@ description: 사용자가 만든 프로그램이나 다른 사용자가 사용�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: 93c36a87667097729e89a61f68cc17e9c861d547
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1052'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -163,7 +163,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >[!DNL Workfront] 관리자가 사용자 정의 양식의 섹션에 대한 권한을 설정하는 방법에 따라 모든 사용자가 지정된 사용자 정의 양식의 동일한 필드를 보거나 편집할 수 있는 것은 아닙니다. 사용자 정의 양식의 섹션 내에서 필드를 편집할 수 있는 권한은 프로그램 자체에 대한 권한에 따라 다릅니다. 사용자 정의 양식의 섹션에 대한 권한 설정에 대한 자세한 내용은 [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)을 참조하십시오.
+   >[!DNL Workfront] 관리자가 사용자 정의 양식의 섹션에 대한 권한을 설정하는 방법에 따라 모든 사용자가 지정된 사용자 정의 양식의 동일한 필드를 보거나 편집할 수 있는 것은 아닙니다. 사용자 정의 양식의 섹션 내에서 필드를 편집할 수 있는 권한은 프로그램 자체에 대한 권한에 따라 다릅니다. 사용자 지정 양식의 섹션에 대한 사용 권한 설정에 대한 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
 
 1. 사용자 정의 양식의 모든 필드를 업데이트한 다음 **[!UICONTROL 변경 내용 저장]**&#x200B;을 클릭하거나 다음 섹션을 계속하십시오.
 

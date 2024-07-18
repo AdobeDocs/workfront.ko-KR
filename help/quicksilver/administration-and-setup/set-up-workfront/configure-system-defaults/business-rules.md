@@ -7,7 +7,7 @@ description: 새 Workfront 기능을 월별 또는 분기별로 수신할지 선
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: ff192113a73e19bf21a3e459cd793f82179dff3d
+source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
 workflow-type: tm+mt
 source-wordcount: '1051'
 ht-degree: 0%
@@ -15,8 +15,6 @@ ht-degree: 0%
 ---
 
 # 비즈니스 규칙 만들기 및 편집
-
-{{highlighted-preview-article-level}}
 
 비즈니스 규칙을 사용하면 Workfront 객체에 검증을 적용하고 특정 조건이 충족될 때 사용자가 객체를 생성, 편집 또는 삭제하지 못하도록 할 수 있습니다. 비즈니스 규칙을 사용하면 데이터 무결성을 손상시킬 수 있는 작업을 방지하여 데이터 품질과 운영 효율성을 향상시킬 수 있습니다.
 

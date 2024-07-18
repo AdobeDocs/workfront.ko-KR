@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6bcd332e-bd4e-4a74-bae9-9ba507299a51
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '911'
 ht-degree: 0%
 
 ---
@@ -96,6 +96,4 @@ Workfront을 새 Workfront 환경과 일관되게 사용하기 위해 프로젝�
 이는 사용자 정의 양식에서 필드를 배치하는 방법에 따라 다릅니다. 확인란 또는 라디오 버튼 필드가 있는 동일한 행에 다른 필드를 배치하는 경우 옵션에는 단일 열에 표시할 수 있는 충분한 수평 공간만 있을 수 있습니다.
 
 사용자 정의 양식 작성에 대한 자세한 내용은 [사용자 정의 양식 필드에서 정보 편집](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md)을 참조하십시오.
-
-사용자 정의 양식에서 확인란 또는 라디오 단추 필드를 만드는 방법에 대한 자세한 내용은 문서 [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)의 [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) 및 [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#configur) 섹션을 참조하십시오.
 

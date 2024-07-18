@@ -1,25 +1,30 @@
 ---
-title: 사용자 정의 양식 및 필드 관리
+title: "사용자 정의 양식 및 필드 관리: 문서 인덱스"
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: 설정 영역에서 사용자 정의 양식을 관리할 수 있습니다.
-author: Courtney
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b15e5a75-1675-48d2-9c88-e7def24ac550
-source-git-commit: 55b659dc4d24856d835f901b22b937e5bcbfe657
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
 
-# 사용자 정의 양식 및 필드 관리
+# 사용자 정의 양식 및 필드 관리: 문서 인덱스
 
+이 섹션에는 다음 문서가 포함됩니다.
+
+* [기존 사용자 정의 양식에서 오브젝트 유형 추가 또는 삭제](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/add-or-remove-objects-from-a-form.md)
+* [사용자 정의 양식 이름 바꾸기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/rename-a-custom-form.md)
+* [양식의 사용자 정의 필드 및 위젯에 대한 공유 구성](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md)
 * [사용자 정의 양식 공유](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
-* [사용할 공유 사용자 정의 필드에 대한 액세스](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/access-for-a-shared-custom-form-you-want-to-use.md)
-* [사용자 정의 양식 재활성화 또는 비활성화](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md)
+* [공유 사용자 지정 필드에 액세스](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/access-for-a-shared-custom-form-you-want-to-use.md)
+* [사용자 정의 양식 비활성화 또는 재활성화](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md)
 * [보고서에서 사용자 정의 양식 참조](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/reference-custom-forms-in-report.md)
 * [사용자 정의 필드 또는 위젯을 사용하는 보고서 보기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md)
 * [사용자 정의 필드 또는 위젯을 사용하는 사용자 정의 양식 보기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md)
@@ -28,3 +33,4 @@ ht-degree: 0%
 * [시스템에서 사용자 정의 필드 또는 위젯 삭제](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
 * [사용자 정의 양식 삭제](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
 * [API의 리치 텍스트 필드 스토리지](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)
+

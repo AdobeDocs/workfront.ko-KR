@@ -6,9 +6,9 @@ description: 텍스트 모드에서 조건부 서식 사용
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1698'
 ht-degree: 1%
 
 ---
@@ -510,7 +510,7 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
 
 `valueexpression` 코드 줄이 포함된 열의 형식을 조건부로 지정할 수 없습니다. 대신 계산된 사용자 정의 필드를 사용자 정의 양식에 추가하고 보고서에 표시하는 객체와 연결할 수 있습니다. 그런 다음 이 필드를 표시하는 열의 서식을 조건부로 지정할 수 있습니다.
 
-계산된 사용자 정의 필드에 대한 자세한 내용은 [사용자 정의 양식에 계산된 데이터 추가](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)를 참조하십시오.
+계산된 사용자 지정 필드에 대한 자세한 내용은 [양식에 계산된 필드 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)를 참조하십시오.
 
 ## 텍스트 모드 열에 집계 값 추가
 

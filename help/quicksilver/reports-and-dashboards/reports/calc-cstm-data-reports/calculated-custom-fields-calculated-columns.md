@@ -7,9 +7,9 @@ description: Adobe Workfront의 여러 필드를 집계하여 해당 집계 값�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 Adobe Workfront의 여러 필드를 집계하고 해당 집계 값을 새 필드에 표시하려면 다음을 만들 수 있습니다.
 
 * 사용자 정의 양식의 계산된 사용자 정의 필드\
-  사용자 정의 양식에 계산된 사용자 정의 필드를 추가하는 방법에 대한 자세한 내용은 문서 [사용자 정의 양식에 계산된 데이터 추가](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)에서 [사용자 정의 양식에 계산된 필드 추가](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#add-a-calculated-field-to-a-custom-form) 섹션을 참조하십시오.
+  사용자 지정 양식에 계산된 사용자 지정 필드를 추가하는 방법에 대한 자세한 내용은 [양식에 계산된 필드 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)를 참조하십시오.
 
 * 보기의 계산된 열\
   보기에서 계산을 사용하는 방법에 대한 자세한 내용은 문서 [텍스트 모드의 일반적인 사용 개요](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)의 [보기에서 텍스트 모드 사용](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#use-text-mode-in-views) 섹션을 참조하십시오.

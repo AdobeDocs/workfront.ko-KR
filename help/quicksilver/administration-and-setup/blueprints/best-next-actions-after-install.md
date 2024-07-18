@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e5da58f-105a-4edf-8fc1-65e8762d43c6
-source-git-commit: d46eb98c443a421f340b1021972ddb89eda1966b
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1139'
+source-wordcount: '1138'
 ht-degree: 0%
 
 ---
@@ -97,4 +97,4 @@ ht-degree: 0%
 
 ### 관련 양식에 사용자 정의 데이터 배포
 
-대시보드 블루프린트에 포함된 일부 보고서에는 보고서의 보기, 필터 또는 그룹화에 사용자 정의 데이터 필드가 있습니다. 경우에 따라 블루프린트는 이러한 필드와 연결된 양식도 갖습니다. 하지만 대부분의 경우 사용자 정의 필드는 사용자 정의 양식에 적용되지 않습니다. 열, 필터 또는 그룹화가 올바르게 작동하려면 이러한 필드를 사용자, 프로젝트, 작업 또는 기타 개체 레코드에 연결된 양식과 연결해야 합니다. 자세한 내용은 [사용자 정의 양식에 사용자 정의 필드 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)를 참조하십시오.
+대시보드 블루프린트에 포함된 일부 보고서에는 보고서의 보기, 필터 또는 그룹화에 사용자 정의 데이터 필드가 있습니다. 경우에 따라 블루프린트는 이러한 필드와 연결된 양식도 갖습니다. 하지만 대부분의 경우 사용자 정의 필드는 사용자 정의 양식에 적용되지 않습니다. 열, 필터 또는 그룹화가 올바르게 작동하려면 이러한 필드를 사용자, 프로젝트, 작업 또는 기타 개체 레코드에 연결된 양식과 연결해야 합니다. 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.

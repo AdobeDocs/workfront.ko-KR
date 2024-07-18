@@ -6,9 +6,9 @@ description: 이 통합 시나리오는  [!DNL Adobe Workfront] 프로젝트를 
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: daf6a18d-a3df-497d-a612-8a4645b1a8c9
-source-git-commit: 4ab731b14dc5435386fd0d887501788fa37223a2
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '732'
 ht-degree: 1%
 
 ---
@@ -112,7 +112,7 @@ ht-degree: 1%
    </tbody> 
   </table>
 
-  사용자 정의 양식 만들기에 대한 자세한 내용은 [사용자 정의 양식 만들기 또는 편집](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)을 참조하세요.
+  사용자 정의 양식을 만드는 방법에 대한 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
 
 * 새 캠페인 요청을 캡처하기 위한 요청 대기열로 설정된 프로젝트. [!UICONTROL 캠페인 개요] 양식을 이러한 요청에 첨부해야 합니다.
 

@@ -6,9 +6,9 @@ description: 문제가 제출된 후 문제를 완료하기 위해 추가 작업
 author: Alina
 feature: Work Management
 exl-id: 9d8e50ab-9fed-4ded-83e1-29dc92c37171
-source-git-commit: 44f01128ef4e6581dc8eaca318a999f2e7274f2a
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1041'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,7 @@ ht-degree: 0%
    >[!TIP]
    >
    >* 문제에 첨부된 다중 오브젝트 사용자 정의 양식이 문제와 작업 모두에서 사용하도록 구성된 경우, 해당 문제와 작업의 사용자 정의 양식 모두에 필드가 있는 경우 전환을 수행할 때 양식에 저장된 모든 정보가 유지됩니다.
-   >* 계산된 필드가 있는 다중 오브젝트 사용자 정의 양식이 문제뿐 아니라 작업에도 첨부되는 경우 문제 및 작업은 양식의 계산된 사용자 정의 필드에서 참조되는 모든 필드와 호환되어야 합니다. 비호환성이 있는 경우 조정할 것을 알리는 메시지가 표시됩니다. 자세한 내용은 [기존 양식 빌더를 사용하여 사용자 정의 양식에 계산된 데이터를 추가](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)의 &quot;다중 개체 사용자 정의 양식의 계산된 사용자 정의 필드&quot; 섹션을 참조하십시오.
+   >* 계산된 필드가 있는 다중 오브젝트 사용자 정의 양식이 문제뿐 아니라 작업에도 첨부되는 경우 문제 및 작업은 양식의 계산된 사용자 정의 필드에서 참조되는 모든 필드와 호환되어야 합니다. 비호환성이 있는 경우 조정할 것을 알리는 메시지가 표시됩니다. 자세한 내용은 [양식에 계산된 필드 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)를 참조하십시오.
    >* 프로젝트를 편집할 때 대상 프로젝트에 작업 기본 사용자 정의 Forms 필드에 정의된 기본 양식이 있는 경우 해당 작업 양식이 새 작업에도 추가됩니다. 원래 문제와 기본 작업 양식의 필드 간에 공통되는 모든 사용자 정의 필드는 문제 필드의 정보로 미리 채워집니다.
 
 

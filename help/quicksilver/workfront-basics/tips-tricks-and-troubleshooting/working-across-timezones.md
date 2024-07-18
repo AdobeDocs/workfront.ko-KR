@@ -5,9 +5,9 @@ title: 시간대 간 작업
 description: ' [!DNL Adobe Workfront] 이(가) 시간대를 사용하여 오브젝트와 이메일과 같은 다른 영역의 시간을 계산하는 방법을 이해하는 것이 도움이 될 수 있습니다.'
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1152'
+source-wordcount: '1150'
 ht-degree: 0%
 
 ---
@@ -111,10 +111,10 @@ ht-degree: 0%
 
 여러 도시의 시간을 표시하는 공항 시계 행과 같이, 사용자 정의 양식에서 일련의 계산된 사용자 정의 필드를 사용하여 조직의 사용자에 대한 현재 시간을 표시할 수 있습니다. 사용자가 근무하는 각 시간대에 대해 시간대의 시간을 계산하는 필드를 만들 수 있습니다.
 
-자세한 내용은 [계산된 데이터 표현식 개요](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md) 문서의 [날짜 및 시간 계산된 사용자 정의 필드](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md#date) 섹션과 [사용자 정의 양식에 계산된 데이터 추가](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)를 참조하십시오.
+자세한 내용은 [계산된 데이터 표현식 개요](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md) 문서의 [양식에 계산된 필드 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) 및 [날짜 및 시간 계산된 사용자 정의 필드](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md#date) 섹션을 참조하십시오.
 
 ### 사용자 정의 양식의 날짜 필드 대신 텍스트 필드 사용 {#use-text-fields-instead-of-date-fields-in-a-custom-form}
 
 다른 시간대의 사용자를 위해 개체에서 구성한 시간을 [!DNL Workfront]에서 변환하지 않도록 하려면 날짜 필드 대신 개체에 첨부하는 사용자 지정 양식의 텍스트 필드를 사용할 수 있습니다. 이렇게 하면 프로젝트의 모든 사용자에 대해 입력한 시간이 시간에 표시됩니다.
 
-이 작업을 수행하는 경우 작업의 시작 및 종료 시점을 사용자가 결정할 수 있도록 양식의 사용자에게 표준 시간대와 사용자의 시간대의 차이를 계산하도록 알리는 것이 좋습니다. 사용자 정의 양식에 입력하는 지침이나 해당 필드의 도구 설명에 이를 포함할 수 있습니다. 자세한 내용은 [사용자 정의 양식에 사용자 정의 필드 추가](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)를 참조하십시오.
+이 작업을 수행하는 경우 작업의 시작 및 종료 시점을 사용자가 결정할 수 있도록 양식의 사용자에게 표준 시간대와 사용자의 시간대의 차이를 계산하도록 알리는 것이 좋습니다. 사용자 정의 양식에 입력하는 지침이나 해당 필드의 도구 설명에 이를 포함할 수 있습니다. 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.

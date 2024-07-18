@@ -6,9 +6,9 @@ description: '(AL:*이 문서에 대해 반복합니다. 사용자 정의 데이
 author: Alina
 feature: Resource Management
 exl-id: 7186cae5-1e16-421e-b26d-afb50aa7f6eb
-source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '2415'
+source-wordcount: '2416'
 ht-degree: 0%
 
 ---
@@ -146,7 +146,7 @@ ht-degree: 0%
 
    >[!IMPORTANT]
    >
-   >사용자 정의 필드를 참조할 때는 필드 레이블이 아니라 필드 이름을 입력해야 합니다. 필드 레이블은 오브젝트에 첨부된 사용자 정의 양식에 표시됩니다. 레이블과 사용자 정의 필드의 이름 간의 차이에 대한 자세한 내용은 [사용자 정의 양식 만들기 또는 편집](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) 을 참조하십시오.
+   >사용자 정의 필드를 참조할 때는 필드 레이블이 아니라 필드 이름을 입력해야 합니다. 필드 레이블은 오브젝트에 첨부된 사용자 정의 양식에 표시됩니다. 사용자 지정 필드의 레이블과 이름 간의 차이에 대한 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
 
 1. 목록에 나타날 때 필드 이름을 클릭하여 필터에 추가합니다.\
    목록에 표시되는 필드에 대한 자세한 내용은 [Adobe Workfront 용어](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)를 참조하십시오.

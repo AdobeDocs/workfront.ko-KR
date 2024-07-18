@@ -6,9 +6,9 @@ description: Adobe Workfront에서 문제를 프로젝트로 전환
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1980'
+source-wordcount: '1957'
 ht-degree: 1%
 
 ---
@@ -129,7 +129,7 @@ ht-degree: 1%
      >[!TIP]
      >
      >* 문제에 첨부된 다중 오브젝트 사용자 정의 양식이 문제와 프로젝트 모두에서 사용하도록 구성된 경우 해당 문제의 필드와 프로젝트의 사용자 정의 양식 둘 다에 필드가 있는 경우 전환할 때 양식에 저장된 모든 정보가 유지됩니다.
-     >* 계산된 필드가 있는 다중 오브젝트 사용자 정의 양식이 문제 및 프로젝트에 첨부된 경우 문제 및 프로젝트는 양식의 계산된 사용자 정의 필드에서 참조되는 모든 필드와 호환되어야 합니다. 비호환성이 있는 경우 조정할 것을 알리는 메시지가 표시됩니다. 자세한 내용은 [기존 양식 빌더를 사용하여 사용자 정의 양식에 계산된 데이터를 추가](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)의 &quot;다중 개체 사용자 정의 양식의 계산된 사용자 정의 필드&quot; 섹션을 참조하십시오.
+     >* 계산된 필드가 있는 다중 오브젝트 사용자 정의 양식이 문제 및 프로젝트에 첨부된 경우 문제 및 프로젝트는 양식의 계산된 사용자 정의 필드에서 참조되는 모든 필드와 호환되어야 합니다. 비호환성이 있는 경우 조정할 것을 알리는 메시지가 표시됩니다. 자세한 내용은 [양식에 계산된 필드 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)의 &quot;다중 개체 사용자 정의 양식의 계산된 사용자 정의 필드&quot; 섹션을 참조하십시오.
 
 1. [!UICONTROL **프로젝트로 전환**]&#x200B;을 클릭합니다.
 
@@ -237,7 +237,7 @@ ht-degree: 1%
         >[!TIP]
         >
         >* 문제에 첨부된 다중 오브젝트 사용자 정의 양식이 문제와 프로젝트 모두에서 사용하도록 구성된 경우 해당 문제의 필드와 프로젝트의 사용자 정의 양식 둘 다에 필드가 있는 경우 전환할 때 양식에 저장된 모든 정보가 유지됩니다.
-        >* 계산된 필드가 있는 다중 오브젝트 사용자 정의 양식이 문제 및 프로젝트에 첨부된 경우 문제 및 프로젝트는 양식의 계산된 사용자 정의 필드에서 참조되는 모든 필드와 호환되어야 합니다. 비호환성이 있는 경우 조정할 것을 알리는 메시지가 표시됩니다. 자세한 내용은 [기존 양식 빌더를 사용하여 사용자 정의 양식에 계산된 데이터를 추가](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)의 &quot;다중 개체 사용자 정의 양식의 계산된 사용자 정의 필드&quot; 섹션을 참조하십시오.
+        >* 계산된 필드가 있는 다중 오브젝트 사용자 정의 양식이 문제 및 프로젝트에 첨부된 경우 문제 및 프로젝트는 양식의 계산된 사용자 정의 필드에서 참조되는 모든 필드와 호환되어야 합니다. 비호환성이 있는 경우 조정할 것을 알리는 메시지가 표시됩니다. 자세한 내용은 [양식에 계산된 필드 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)를 참조하십시오.
         >* 템플릿에 첨부된 사용자 정의 양식에 문제에 첨부된 사용자 정의 양식에서도 사용자 정의 필드가 포함된 경우 문제의 필드 값이 새 프로젝트에 사용됩니다. 하지만, 해당 문제에 대한 사용자 정의 필드가 비어 있는 경우, 템플릿의 값이 사용됩니다.
 
 1. (선택 사항) 필요에 따라 추가 프로젝트 세부 &#x200B; 정보(프로젝트 소유자, 프로젝트 날짜) 및 작업을 설정합니다.

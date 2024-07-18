@@ -1,5 +1,5 @@
 ---
-title: 양식 디자이너를 사용하여 사본에서 양식 디자인
+title: 복사본으로 양식 디자인
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,14 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 578a8bd5-d93f-4327-bb4f-2c17b91b170a
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
 
-# 양식 디자이너를 사용하여 사본에서 양식 디자인
+# 복사본으로 양식 디자인
 
 기존 양식을 기반으로 하는 새 사용자 정의 양식을 디자인할 수 있습니다. 다른 Workfront 개체에 사용자 정의 양식을 첨부하여 해당 개체에 대한 데이터를 캡처할 수 있습니다.
 

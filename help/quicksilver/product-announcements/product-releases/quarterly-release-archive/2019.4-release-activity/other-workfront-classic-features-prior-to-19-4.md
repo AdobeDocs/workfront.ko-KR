@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 497214d1-fc31-498c-93f6-ac56d8742c1f
-source-git-commit: e1bf5fbc7dc25bf8ce472b21b9a0906530f82cf0
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '354'
 ht-degree: 4%
 
 ---
@@ -45,7 +45,6 @@ ht-degree: 4%
      <p>예를 들어 확인란 필드를 만든 경우 드롭다운 필드 또는 라디오 단추 필드로 변경할 수 있습니다. 이 세 가지 필드 표시 유형은 서로 바뀔 수 있습니다.</p> 
      <p>또는 한 줄 텍스트 필드를 만든 경우 단락 텍스트 필드로 변경할 수 있습니다. 이 두 가지 필드 표시 유형은 서로 바뀔 수 있습니다.</p> 
      <p>이전에는 사용자 정의 필드의 표시 유형을 변경하려면 새 필드를 만들고 이전 필드를 삭제해야 했습니다. 이를 위해서는 데이터 전송이 필요했는데, 이는 종종 시간이 오래 걸립니다.</p> 
-     <p>자세한 내용은 문서 <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" xrefformat="{para}">사용자 정의 양식 만들기 또는 편집</a>에서 <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create" class="MCXref xref" xrefformat="{para}">사용자 정의 양식 만들기 또는 편집</a>을 참조하십시오.</p> 
      <div class="workfront_plans"> 
       <p><strong>다음 환경에서 사용 가능:</strong> </p> 
       <ul> 

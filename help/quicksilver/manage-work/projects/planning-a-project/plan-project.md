@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '1397'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ ht-degree: 0%
   Workfront에서 추적할 업데이트를 정의하는 방법에 대한 자세한 내용은 문서 [시스템 추적 업데이트](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)를 참조하십시오.
 
 * Workfront에 저장할 필드가 없어서 추적해야 하는 정보가 있습니까? [예]인 경우 이 정보를 저장할 수 있는 프로젝트 또는 작업에 대한 사용자 지정 Forms을 만듭니다.\
-  사용자 정의 양식 만들기에 대한 자세한 내용은 문서 [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)을 참조하십시오.
+  사용자 정의 양식을 만드는 방법에 대한 자세한 내용은 문서 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
 
 * 프로젝트에 대한 작업을 계속하기 전에 부여해야 하는 승인 확인 지점이 있습니까? 승인 진행을 선택하면 프로젝트를 만들 때 사용할 수 있는 프로젝트 또는 작업에 대한 승인 진행을 만듭니다.\
   승인 프로세스에 대한 자세한 내용은 문서 [작업 항목에 대한 승인 프로세스 만들기](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)를 참조하십시오.

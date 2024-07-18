@@ -5,9 +5,9 @@ description: ' [!DNL Adobe Workfront] 에서 개체 목록을 보고 해당 개�
 feature: Get Started with Workfront
 author: Lisa
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '2397'
+source-wordcount: '2398'
 ht-degree: 0%
 
 ---
@@ -628,7 +628,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>서식 있는 텍스트 서식을 사용하여 사용자 지정 필드를 인라인 편집할 수 없습니다.</td> 
-   <td> <p>서식 있는 사용자 정의 필드의 텍스트를 굵게, 기울임체, 밑줄, 글머리 기호, 번호 매기기, 하이퍼링크 및 블록 따옴표를 허용하도록 구성할 수 있습니다.</p> <p>자세한 내용은 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">사용자 정의 양식 만들기 또는 편집</a>을 참조하세요.</p> </td> 
+   <td> <p>서식 있는 사용자 정의 필드의 텍스트를 굵게, 기울임체, 밑줄, 글머리 기호, 번호 매기기, 하이퍼링크 및 블록 따옴표를 허용하도록 구성할 수 있습니다.</p> <p>자세한 내용은 <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">양식 디자이너를 사용하여 양식 디자인</a>을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td>조건부 서식은 목록에 있는 링크의 텍스트 색상을 변경할 수 있습니다</td> 

@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 7cf4787d-7cff-489e-bd5b-69db3ff09f6e
-source-git-commit: ceda437684f565b91dbb8b02f6b03cbe8d27a70a
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '615'
 ht-degree: 1%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 1%
 
 동일한 [!DNL Workfront] 필드를 [!DNL Workfront DAM]의 다양한 메타데이터 필드에 매핑할 수 있지만 여러 [!DNL Workfront] 메타데이터 필드에 대해 이들 응용 프로그램에서 메타데이터 필드를 사용할 수는 없습니다.
 
-[!DNL Workfront] 응용 프로그램의 한 메타데이터 필드로 내보내도록 여러 [!DNL Workfront] 필드를 구성하려면 먼저 [!DNL Workfront]에서 계산된 사용자 정의 필드를 만들어 개체의 모든 개별 사용자 정의 필드를 표시합니다. 그런 다음 계산된 [!DNL Workfront] 필드를 [!DNL Workfront] 응용 프로그램의 메타데이터 필드에 매핑합니다. 계산된 사용자 정의 필드에 대한 자세한 내용은 [사용자 정의 양식에 계산된 데이터 추가](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)를 참조하십시오.
+[!DNL Workfront] 응용 프로그램의 한 메타데이터 필드로 내보내도록 여러 [!DNL Workfront] 필드를 구성하려면 먼저 [!DNL Workfront]에서 계산된 사용자 정의 필드를 만들어 개체의 모든 개별 사용자 정의 필드를 표시합니다. 그런 다음 계산된 [!DNL Workfront] 필드를 [!DNL Workfront] 응용 프로그램의 메타데이터 필드에 매핑합니다. 계산된 사용자 지정 필드에 대한 자세한 내용은 [양식에 계산된 필드 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)를 참조하십시오.
 
 메타데이터 매핑 프로세스에 대한 필드를 매핑하려면 먼저 [!DNL Workfront]에서 응용 프로그램을 활성화해야 합니다. 자세한 내용은 [문서 통합 구성](../../administration-and-setup/configure-integrations/configure-document-integrations.md)을 참조하십시오.
 

@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 55fb0b85-937d-4903-8a64-6f627dd4291f
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '927'
 ht-degree: 0%
 
 ---
@@ -33,13 +33,11 @@ in January 2022
 
 이 기능은 이전에 Workfront 시스템에서 만든 모든 사용자 정의 양식에서 작동합니다. 예를 들어 Task 객체 유형에 대해 작성된 사용자 정의 양식이 이미 있는 경우 이제 Project 및 Issue와 같은 다른 객체 유형에서도 작동하도록 양식을 구성할 수 있습니다.
 
-자세한 내용은 문서 [사용자 정의 양식 만들기 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)에서 [사용자 정의 양식 만들기 시작](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#start) 섹션을 참조하십시오.
-
 >[!NOTE]
 >
->* 이 기능의 초기 미리보기 릴리스 당시 다중 오브젝트 사용자 정의 양식을 복사하는 기능이 일시적으로 비활성화되었습니다. 이 기능은 3월 24일에 활성화되었습니다. 사용자 정의 양식을 복사하는 방법에 대한 자세한 내용은 [사용자 정의 양식을 복사하여 새 양식을 만들기](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md)를 참조하십시오.
->* 계산된 사용자 지정 필드에서 참조하는 일부 필드가 양식에 대해 구성된 개체 유형과 호환되지 않을 수 있습니다. 이 해결 방법은 양식에 첨부된 개체에 따라 계산에서 다른 값을 출력할 수 있는 와일드카드입니다. 우리는 3월 24일에 와일드 카드를 추가했어요. 사용 방법에 대한 자세한 내용은 문서 [사용자 정의 양식에 계산된 데이터 추가](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)의 [다중 개체 사용자 정의 양식의 계산된 사용자 정의 필드](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#calculat) 섹션을 참조하십시오.
->* 사용자 정의 양식의 섹션 구분의 경우 양식에 대해 구성할 수 있는 모든 객체 유형에 대해 작동하는 공통 보기 및 편집 권한 집합을 만들었습니다. 한 가지 시나리오에서 이러한 권한 중 하나인 제한된 편집으로 인해 양식에 오류가 발생할 수 있음을 발견했습니다. 이 문제는 3월 24일에 수정되었습니다. 섹션 구분에 대한 자세한 내용은 [사용자 정의 양식에 섹션 구분 추가](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)를 참조하십시오.
+>* 이 기능의 초기 미리보기 릴리스 당시 다중 오브젝트 사용자 정의 양식을 복사하는 기능이 일시적으로 비활성화되었습니다. 이 기능은 3월 24일에 활성화되었습니다.
+>* 계산된 사용자 지정 필드에서 참조하는 일부 필드가 양식에 대해 구성된 개체 유형과 호환되지 않을 수 있습니다. 이 해결 방법은 양식에 첨부된 개체에 따라 계산에서 다른 값을 출력할 수 있는 와일드카드입니다. 우리는 3월 24일에 와일드 카드를 추가했어요.
+>* 사용자 정의 양식의 섹션 구분의 경우 양식에 대해 구성할 수 있는 모든 객체 유형에 대해 작동하는 공통 보기 및 편집 권한 집합을 만들었습니다. 한 가지 시나리오에서 이러한 권한 중 하나인 제한된 편집으로 인해 양식에 오류가 발생할 수 있음을 발견했습니다. 이 문제는 3월 24일에 수정되었습니다.
 >
 
 ## 블루프린트 카탈로그는 모든 사용자가 사용할 수 있으며 관리자는 요청을 허용할 수 있습니다.
@@ -60,7 +58,6 @@ in January 2022
 >
 >항목을 대량 편집할 때 표시되는 상자와 같이 아직 현대화되지 않은 새로운 Adobe Workfront 경험 영역에서는 사용자 정의 양식 이미지가 표시되지 않습니다. 해당 영역을 계속 업데이트하면 표시됩니다.
 
-자세한 내용은 [사용자 정의 양식에서 자산 위젯 추가 또는 편집](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)을 참조하세요.
 
 ## 새로운 기본 액세스 수준 구성
 
