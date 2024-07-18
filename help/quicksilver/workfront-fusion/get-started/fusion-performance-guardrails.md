@@ -8,10 +8,10 @@ description: Adobe Workfront Fusion에는 Adobe Workfront 라이센스 외에 Ad
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: 8c25835525cc58db0dbe9b22d4f286330e3cb001
+source-git-commit: ec5ed146456c2f75926820f5421bf4feee121399
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 1%
+source-wordcount: '601'
+ht-degree: 0%
 
 ---
 
@@ -72,6 +72,7 @@ ht-degree: 1%
 ## 실행 기록
 
 * 실행 기록 로그의 크기는 **100MB**&#x200B;로 제한됩니다. 실행 기록이 이 크기를 초과하면 처음 100MB만 표시됩니다.
+* 시나리오에 동시 실행이 여러 개 있는 경우. 시나리오 세부 정보 페이지의 실행 영역에는 5개의 실행만 표시됩니다. 5개 이상의 실행이 진행 중인 경우에도 마찬가지입니다.
 
 ## 불완전한 실행
 
