@@ -6,7 +6,7 @@ title: "Frame.io 자산에 대한 검토 또는 승인 요청 만들기"
 description: Frame.io 연결된 자산에 대한 검토 또는 승인 요청을 만들 수 있습니다.
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: d01a26eaa43b264d11faa88c750f48f0ef1272c4
+source-git-commit: 796955fb073905337755fc04e9fb43dbc85b6450
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
@@ -65,7 +65,7 @@ You must have the following access to perform the steps in this article:
 
 1. **승인** 섹션까지 아래로 스크롤한 다음 **추가**&#x200B;를 클릭합니다.
 
-![](assets/doc-summary-add-approvers.png)
+   ![](assets/doc-summary-add-approvers.png)
 
 1. (선택 사항) 승인 기한을 설정합니다. 사용자와 팀은 지정된 기한 24시간 전에 이메일로 72시간 전에 알림을 받습니다.
 

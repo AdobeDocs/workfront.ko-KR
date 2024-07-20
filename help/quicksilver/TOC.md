@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: e52881a03f69d7c4d6a62dcdc9c6044f6f5dd016
+source-git-commit: ed708a98662c198e52b417ae53e165f3d5e9a524
 workflow-type: tm+mt
-source-wordcount: '14266'
+source-wordcount: '14298'
 ht-degree: 1%
 
 ---
@@ -1823,7 +1823,7 @@ ht-degree: 1%
    * 증명 {#proofing}
       * [증명: 문서 색인](review-and-approve-work/proofing/proofing.md)
       * 증명 개요 {#proofing-overview}
-         * [증명 개요](review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
+         * [증명 개요: 문서 색인](review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
          * [증명 권한 프로필 개요](review-and-approve-work/proofing/proofing-overview/permission-profiles.md)
          * [증명 역할 개요](review-and-approve-work/proofing/proofing-overview/proof-roles.md)
          * [자동화된 워크플로우 개요](review-and-approve-work/proofing/proofing-overview/automated-workflow.md)
@@ -1836,7 +1836,7 @@ ht-degree: 1%
          * [증명 진행 상황 및 상태 개요](review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md)
          * [웹 증명 뷰어와 데스크탑 증명 뷰어의 차이점 개요](review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)
       * 증명 {#create-proofs} 만들기
-         * [증명 만들기](review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)
+         * [증명 만들기: 문서 인덱스](review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)
          * [개인 증명 기본값 구성](review-and-approve-work/proofing/creating-proofs-within-workfront/set-proof-defaults.md)
          * [여러 페이지로 된 증명 만들기](review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)
          * [웹 사이트 또는 기타 웹 콘텐츠에 대한 대화형 증명 만들기](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md)
@@ -1846,9 +1846,9 @@ ht-degree: 1%
          * [기본 워크플로를 사용하여 고급 증명 만들기](review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
          * [자동화된 워크플로를 사용하여 고급 증명 만들기](review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
       * Adobe Workfront {#manage-proofs-in-workfront}에서 증명 관리
-         * [Adobe Workfront 내에서 증명 관리](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md)
+         * [Adobe Workfront 내에서 증명 관리: 문서 색인](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md)
          * 증명 {#manage-proofs} 관리
-            * [증명 관리](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs/manage-proofs.md)
+            * [증명 관리: 문서 색인](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs/manage-proofs.md)
             * [증명 설정 편집](review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md)
             * [Adobe Workfront 내에서 증명 요약 인쇄](review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md)
             * [증명 삭제](review-and-approve-work/proofing/managing-proofs-within-workfront/remove-archiveg-proof.md)
@@ -1857,27 +1857,27 @@ ht-degree: 1%
             * [증명 승인 보고서 사용](review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md)
             * [Adobe Workfront에서 Workfront Proof 액세스](review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)
          * 증명 버전 {#manage-proof-versions} 관리
-            * [증명 버전 관리](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/manage-proof-versions.md)
+            * [증명 버전 관리: 문서 색인](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/manage-proof-versions.md)
             * [증명의 새 버전 만들기](review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md)
             * [증명 버전 보기](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-proof-versions.md)
             * [증명 버전 세부 정보 보기 및 관리](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-version-details.md)
             * [증명 버전 다운로드](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/download-versions.md)
          * 증명 검토자 {#manage-proof-reviewers} 관리
-            * [증명 검토자 관리](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-reviewers/manage-proof-reviewers.md)
+            * [증명 검토자 관리: 문서 색인](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-reviewers/manage-proof-reviewers.md)
             * [증명에 대한 액세스 및 구독 설정 구성](review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
             * [Adobe Workfront 내에서 증명 공유](review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
             * [증명에서 검토자에게 이메일 메시지 보내기](review-and-approve-work/proofing/managing-proofs-within-workfront/send-email-messages-to-users-proof.md)
          * 증명 알림 관리 {#manage-proof-notifications}
-            * [증명 알림 관리](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-notifications/manage-proof-notifications.md)
+            * [증명 알림 관리: 문서 색인](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-notifications/manage-proof-notifications.md)
             * [증명 댓글 및 결정에 대한 알림 관리](review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md)
          * 증명 기한 {#manage-proof-deadlines} 관리
-            * [증명 기한 관리](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/manage-proof-deadlines.md)
+            * [증명 기한 관리: 문서 색인](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/manage-proof-deadlines.md)
             * [기존 기본 증명의 기한 설정](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-deadline-basic-proof.md)
             * [단계에 대한 기한 추가, 편집 또는 삭제](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/add-edit-delete-deadline.md)
             * [개별 검토자 기한 설정](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-individual-deadlines.md)
             * [개별 검토자 기한 제거](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/remove-individual-deadlines.md)
          * 자동화된 증명 {#manage-automated-proofs} 관리
-            * [자동화된 증명 관리](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-automated-proofs/manage-automated-proofs.md)
+            * [자동화된 증명 관리: 문서 인덱스](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-automated-proofs/manage-automated-proofs.md)
             * [증명에서 자동화된 워크플로 단계 보기](review-and-approve-work/proofing/managing-proofs-within-workfront/view-aw-stages-proof.md)
             * [증명에서 활성 단계 보기](review-and-approve-work/proofing/managing-proofs-within-workfront/view-active-stages-proof.md)
             * [기존 증명에 대한 자동화된 워크플로 만들기 또는 편집](review-and-approve-work/proofing/managing-proofs-within-workfront/create-edit-automated-workflow-existing-proof.md)
@@ -1885,16 +1885,16 @@ ht-degree: 1%
             * [증명에서 기본 워크플로를 자동화된 워크플로로 변환](review-and-approve-work/proofing/managing-proofs-within-workfront/convert-basic-automatic-workflow.md)
             * [증명에서 자동화된 워크플로에 단계 및 사용자 추가](review-and-approve-work/proofing/managing-proofs-within-workfront/add-stages-users-to-automated-workflow-proof.md)
       * 데스크톱 증명 뷰어 {#use-the-desktop-proofing-viewer} 사용
-         * [Desktop Proof Viewer 사용](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/use-desktop-proofing-viewer.md)
+         * [Desktop Proofing Viewer 사용: 문서 색인](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/use-desktop-proofing-viewer.md)
          * [Desktop Proof Viewer 설치](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)
          * [Desktop Proofing 뷰어 업데이트](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)
          * [Desktop Proofing Viewer에서 증명 열기](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/open-proofs-in-dpv.md)
          * [Desktop Proofing Viewer에서 비대화형 콘텐츠 검토](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/review-non-interactive-content-in-desktop-proofing-viewer.md)
          * [FAQ - 데스크탑 증명 뷰어](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/faq-desktop-proofing-viewer.md)
       * Adobe Workfront {#review-proofs-in-workfront}에서 증명 검토
-         * [Adobe Workfront 내에서 증명 검토](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)
+         * [Adobe Workfront에서 증명 검토: 문서 인덱스](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)
          * 증명 {#review-a-proof} 검토
-            * [증명 검토](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md)
+            * [증명 검토: 문서 색인](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md)
             * [증명에서 컨텐츠 보기](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-a-proof.md)
             * [증명 내 영역 측정](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/measure-an-area-proof.md)
             * [비디오 증명에서 타임라인 측정 단위 변경](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/change-unit-of-measurement-video.md)
@@ -1911,7 +1911,7 @@ ht-degree: 1%
             * [증명 뷰어에서 대화형 증명 해상도 변경](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md)
             * [증명 뷰어 설정 구성](review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)
          * 증명 {#comment-on-a-proof}에 주석 달기
-            * [증명에 대한 댓글](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)
+            * [증명에 대한 주석: 문서 색인](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)
             * [증명에 주석 달기](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md)
             * [증명 댓글 보기 및 회신](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md)
             * [증명 주석 검색, 필터링 및 정렬](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/search-filter-sort-comments.md)
@@ -1921,12 +1921,12 @@ ht-degree: 1%
             * [증명 댓글에 작업 사용](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md)
             * [사용자를 태그로 지정하여 증명 공유](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md)
          * 증명 {#make-decision-on-proof}에 대해 결정
-            * [증명에 대한 결정](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decision-on-proof.md)
+            * [증명에 대한 결정: 문서 색인](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decision-on-proof.md)
             * [증명 승인](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/approve-proof.md)
             * [증명 뷰어에서 증명 결정](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)
             * [증명에서 기존 결정 변경](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/change-existing-decision.md)
       * Adobe Workfront {#ttt-proofing-in-workfront}에서 증명을 위한 팁, 요령 및 문제 해결
-         * [Adobe Workfront 내의 증명에 대한 팁, 요령 및 문제 해결](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-proofing.md)
+         * [Adobe Workfront 내의 증명을 위한 팁, 요령 및 문제 해결: 문서 색인](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-proofing.md)
          * [Adobe Workfront에서 증명 라이선스가 있는 사용자 나열](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/report-which-users-have-proofing-license-in-wf.md)
          * [증명 권한 프로필 필드를 일괄적으로 편집](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/edit-proof-profile-bulk.md)
          * [공개 URL 또는 포함 코드를 통한 증명 공유 비활성화](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/disable-public-proofs.md)
@@ -1934,7 +1934,7 @@ ht-degree: 1%
          * [업로드 후 문서 이름이 변경되었으며 잘못된 문자가 포함되어 있습니다.](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
          * [포함된 비디오로 PowerPoint 증명](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
    * 승인 {#ttt-approvals}에 대한 팁, 요령 및 문제 해결
-      * [승인을 위한 팁, 요령 및 문제 해결](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
+      * [승인을 위한 팁, 요령 및 문제 해결: 문서 색인](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [모든 사용자에 대한 증명 및 문서 결정 수 보기](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
 * 타임시트 {#timesheets}
    * [타임시트: 문서 색인](timesheets/timesheets-all.md)

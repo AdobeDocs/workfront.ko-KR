@@ -1,19 +1,19 @@
 ---
-title: Adobe Workfront 내의 증명에 대한 팁, 요령 및 문제 해결
+title: "Adobe Workfront 내의 증명을 위한 팁, 요령 및 문제 해결: 문서 색인"
 description: Adobe Workfront 내의 증명에 대한 팁, 요령 및 문제 해결
 author: Courtney
 draft: Probably
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 83e2f884-b396-444e-9533-864fd78880f2
-source-git-commit: 8dd5e13b479bb46c982b58321d6838d7c0e64410
+source-git-commit: ed708a98662c198e52b417ae53e165f3d5e9a524
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
 
-# Adobe Workfront 내의 증명에 대한 팁, 요령 및 문제 해결
+# Adobe Workfront 내의 증명을 위한 팁, 요령 및 문제 해결: 문서 색인
 
 이 섹션에는 다음 문서가 포함됩니다.
 
