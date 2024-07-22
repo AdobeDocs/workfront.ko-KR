@@ -6,10 +6,10 @@ description: ' [!DNL Salesforce] AppExchange에서 앱을 사용하기 전에 �
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4fea9d8f-7729-4fee-86d3-1a986be29f74
-source-git-commit: c0e7340e2bf650b6f9931ae12aee07c5f7d5292b
+source-git-commit: b088c305cbd16aea1b6b79a9f3a9c5ac326cd0b8
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 0%
+source-wordcount: '1026'
+ht-degree: 1%
 
 ---
 
@@ -197,3 +197,39 @@ ht-degree: 0%
 
    [!UICONTROL 기회] 또는 [!UICONTROL 계정] 페이지 레이아웃에 [!DNL Workfront] 섹션을 추가하면 [!UICONTROL Salesforce] 사용자가 [!DNL Workfront] 앱을 사용할 수 있습니다.\
    사용자의 [!DNL Workfront] 섹션 구성에 대한 자세한 내용은 [사용자 [!DNL Salesforce] 의  [!DNL Adobe Workfront] 섹션 구성](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md)을 참조하십시오.
+
+## Salesforce용 Workfront 통합에 대한 권한 구성
+
+### `workfront_business`에 대한 권한
+
+1. **설정** > **보안** > **신뢰할 수 있는 URL**&#x200B;로 이동합니다.
+1. 목록에서 `workfront_business`을(를) 선택합니다.
+1. **편집**&#x200B;을 클릭합니다.
+1. CSP 지시문에서 다음 옵션을 확인합니다.
+
+   * connect-src(스크립트)
+   * font-src(글꼴)
+   * frame-src (iframe 콘텐츠)
+   * img-src (이미지)
+   * media-src(오디오 및 비디오)
+   * style-src(스타일시트)
+
+1. **저장**&#x200B;을 클릭합니다.
+
+
+### workfront_session 권한
+
+1. **설정** > **보안** > **신뢰할 수 있는 URL**&#x200B;로 이동합니다.
+1. 목록에서 `workfront_session`을(를) 선택합니다.
+1. **편집**&#x200B;을 클릭합니다.
+1. CSP 지시문에서 다음 옵션을 확인합니다.
+
+   * connect-src(스크립트)
+   * font-src(글꼴)
+   * frame-src (iframe 콘텐츠)
+   * img-src (이미지)
+   * media-src(오디오 및 비디오)
+   * style-src(스타일시트)
+
+1. **저장**&#x200B;을 클릭합니다.
+
