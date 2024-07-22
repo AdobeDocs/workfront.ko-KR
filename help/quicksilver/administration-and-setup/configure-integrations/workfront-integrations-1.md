@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: d07ccec3a11fbbee49fc55a86d44fa88e252700f
+source-git-commit: 5691d6253871efc8e61fa06fe904edc4a5953d62
 workflow-type: tm+mt
-source-wordcount: '1139'
+source-wordcount: '1154'
 ht-degree: 0%
 
 ---
@@ -260,7 +260,7 @@ ht-degree: 0%
      <li>[!DNL Slack]에서 [!DNL Workfront]개의 알림 수신 </li> 
      <li>[!DNL Slack]에서 승인 관리 </li> 
      <li>[!DNL Slack]에서 [!DNL Workfront]개의 작업 및 문제 만들기 </li> 
-     <li>에서 프로젝트 또는 작업에 대한 Post 주석 [!DNL Slack]</li> 
+     <li>의 프로젝트 또는 작업에 대한 댓글 게시 [!DNL Slack]</li> 
     </ul> <p>자세한 내용은 <a href="../../workfront-integrations-and-apps/using-workfront-with-slack/use-workfront-for-slack.md" class="MCXref xref">[!DNL Adobe Workfront for Slack]</a>을(를) 참조하십시오.</p> </td> 
    <td> 
     <ul> 
@@ -306,9 +306,9 @@ Workfront과 Experience Manager Assets 또는 Assets Essentials 간의 통합을
 
 [!DNL Workfront]에는 많은 파트너 통합이 있어 [!DNL Workfront] 경험이 풍성해집니다.
 
-기존 파트너 서비스의 예로는 [!DNL Salesforce.com], [!DNL Oracle Responsys] 및 [!DNL Microsoft Visual Studio]과의 통합이 있습니다.
+Workfront에는 Workfront 환경을 향상시키는 많은 파트너 통합이 있습니다. 기존 파트너 오퍼링의 예로는 Claravine, RWS Group 과의 통합 등이 있습니다.
 
-이러한 파트너 통합과 기타 파트너 통합에 대한 자세한 내용은 [[!DNL Workfront] Marketplace](https://www.workfront.com/enterprise/marketplace/apps/)를 참조하십시오.
+이러한 파트너 통합 및 기타 파트너 통합에 대한 자세한 내용은 [Exchange Marketplace](https://exchange.adobe.com/apps/browse/ec?page=1&amp;partnerLevel=All&amp;product=WRKFRNT&amp;sort=RELEVANCE)를 참조하십시오.
 
 ## [!DNL Workfront] API
 
