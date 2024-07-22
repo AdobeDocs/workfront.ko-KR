@@ -6,9 +6,9 @@ description: 자신이 생성한 계획이나 다른 사람이 나와 공유한 
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 799ca02e-c513-4409-b327-1ce7d8eb19ae
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: ed179058cfec1332384ef76cb04598278109291b
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '505'
 ht-degree: 1%
 
 ---
@@ -96,9 +96,9 @@ ht-degree: 1%
 
 ### 일괄 이니셔티브 삭제 {#delete-initiatives-in-bulk}
 
-1. **[!UICONTROL 주 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 [!UICONTROL 시나리오]를 클릭합니다.
+{{step1-to-scenario-planner}}
 
-   계획 목록이 표시됩니다.
+계획 목록이 표시됩니다.
 
 1. 계획명을 눌러 계획을 연 다음 삭제할 이니셔티브를 찾습니다.
 1. 삭제할 이니셔티브의 왼쪽에 있는 상자를 선택한 다음, 플랜 하단에 나타나는 메뉴에서 **[!UICONTROL 삭제]**&#x200B;를 클릭한 다음, **[!UICONTROL 예, 삭제]**&#x200B;를 클릭합니다.

@@ -5,18 +5,20 @@ product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: 시간 유형 관리
 description: 시간 유형과 시간 항목을 연결할 수 있습니다. 시간 유형은 시간 항목을 정의하는 데 사용하는 레이블입니다.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
+source-git-commit: ed179058cfec1332384ef76cb04598278109291b
 workflow-type: tm+mt
-source-wordcount: '808'
-ht-degree: 0%
+source-wordcount: '754'
+ht-degree: 1%
 
 ---
 
 # 시간 유형 관리
+
+<!--Audited: 07/2024-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
 **Linked to Creating Billing Record-->
@@ -45,7 +47,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -56,15 +58,20 @@ ht-degree: 0%
    <td>임의</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
-   <td>[!UICONTROL 계획]</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
+   <td> <p>새로운 기능: [!UICONTROL Standard]</p>
+   <p>현재: [!UICONTROL Plan]</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>[!DNL Workfront] 관리자여야 합니다.</p> <p><b>참고</b>: 아직 액세스 권한이 없는 경우 [!DNL Workfront] 관리자에게 액세스 수준에 추가 제한을 설정했는지 문의하세요. [!DNL Workfront] 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+   <td role="rowheader">액세스 수준</td> 
+   <td> <p>[!DNL Workfront] 관리자여야 합니다.</p> <p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 기본 시간 유형
 
@@ -85,7 +92,7 @@ Workfront에는 기본 제공 시간 유형이 포함되어 있습니다. 이러
 
 새 시간 유형을 만들려면:
 
-1. [!DNL Adobe] Workfront의 오른쪽 위 모서리에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **[!UICONTROL 설정]** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. **[!UICONTROL 타임시트 및 시간]** > **[!UICONTROL 시간 유형]**&#x200B;을 클릭합니다.
 
@@ -131,7 +138,7 @@ Workfront에는 기본 제공 시간 유형이 포함되어 있습니다. 이러
 
 시간 유형을 비활성화하려면
 
-1. 전역 탐색 모음에서 [!DNL Adobe Workfront]의 오른쪽 상단 근처에 있는 **[!UICONTROL 설치]**&#x200B;를 클릭합니다.
+{{step-1-to-setup}}
 
 1. **[!UICONTROL 타임시트 및 시간 환경 설정]**&#x200B;을 확장한 다음 **[!UICONTROL 시간 유형]**&#x200B;을 클릭합니다.
 

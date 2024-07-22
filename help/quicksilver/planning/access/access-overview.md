@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: c0ef343e30dd87c0638f7f34161975b46de445b1
+source-git-commit: ed179058cfec1332384ef76cb04598278109291b
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,9 @@ Adobe Workfront Planning을 사용하려면 라이선스 및 공유 권한 제�
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+<!--update the Workfront plan below at GA to Ultimate and it is not available in the current plans-->
+
++++ 를 확장하여 Workfront Planning에 대한 액세스 요구 사항을 봅니다.
 
 <table style="table-layout:auto">
  <col>
@@ -52,14 +54,14 @@ Adobe Workfront Planning을 사용하려면 라이선스 및 공유 권한 제�
   <tr>
    <td role="rowheader"><p>Adobe Workfront 라이센스*</p></td>
    <td>
-   <p>임의</p>
+   <p>임의, Workfront 계획 정보 보기</p>
    <p>작업 공간을 만들려면 다음 라이센스가 있어야 합니다.</p>
    <ul>
    <li>
    새로운 기능: 표준
    </li>
    <li>
-   현재: 작업자 이상
+   현재: 플랜
    </li>
    </ul>
   </td>
@@ -118,7 +120,7 @@ Workfront Planning에 대한 액세스 제어가 없습니다.
 
 모든 유형의 라이선스가 있는 사용자는 Workfront Planning에 액세스할 수 있습니다.
 
-Workfront에서 액세스 권한을 부여하는 방법에 대한 자세한 내용은 [사용자 지정 액세스 수준 만들기 및 수정](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)을 참조하십시오.
+<!--For information about granting access in Workfront, see [Create and modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
 ## 권한 부여
 
