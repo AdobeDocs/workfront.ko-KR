@@ -7,9 +7,9 @@ description: 기존 이니셔티브에서 프로젝트를 만들고, Adobe Workf
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 46d3666a-4454-4a84-8c02-a79f3947a18f
-source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '1722'
+source-wordcount: '1663'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-다음 항목이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,40 +31,38 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 플랜*</p> </td> 
-   <td>[!UICONTROL Business] 이상</td> 
+   <td> <p>현재: [!UICONTROL Business] 이상</p>
+   <p>새로운 기능: Ultimate </p>
+   </td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 라이센스*</p> </td> 
-   <td> <p>[!UICONTROL Review] 이상</p> </td> 
+   <td> <p>새로운 기능: 밝게 또는 높음</p> 
+   <p>현재: [!UICONTROL Review] 이상</p> </td> 
   </tr> 
   <tr> 
-   <td>제품 </td> 
-   <td> <p>이 문서에 설명된 기능에 액세스하려면 [!DNL Adobe Workfront Scenario Planner]에 대한 추가 라이선스를 구입해야 합니다.</p> <p>[!DNL Workfront Scenario Planner]을(를) 얻는 방법에 대한 자세한 내용은 [!DNL Scenario Planner]</a>을(를) 사용하는 데 필요한 <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">액세스를 참조하십시오. </p> </td> 
+   <td>제품* </td> 
+   <td> 
+   <p>현재 Workfront 플랜의 경우: </p>
+   <p>이 문서에 설명된 기능에 액세스하려면 [!DNL Adobe Workfront Scenario Planner]에 대한 추가 라이선스를 구입해야 합니다.</p> <p>[!DNL Workfront Scenario Planner]에 대한 액세스 및 사용 권한에 대한 자세한 내용은 [!DNL Scenario Planner]</a>을(를) 사용하는 데 필요한 <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">액세스를 참조하십시오. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p></p> <p>액세스 수준*</p> </td> 
-   <td> 
-    <ul> 
-    <li>[!DNL Scenario Planner] 및 프로젝트에 대한 [!UICONTROL 편집] 액세스 권한</li></ul>
-
-<p><b>메모</b>
-
-아직 액세스 권한이 없는 경우 [!DNL Workfront] 관리자에게 액세스 수준에 추가 제한을 설정했는지 문의하십시오. [!DNL Workfront] 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td>
-</tr> 
+   <td>액세스 수준 </td> 
+   <td> <p>[!DNL Scenario Planner] 및 [!UICONTROL 프로젝트]에 대한 [!UICONTROL 편집] 액세스 권한</p> </td> 
+  </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>개체 권한</p> </td> 
-   <td> 
-    <ul> 
+   <td> <p>개체 권한 </p> </td> 
+   <td> <ul> 
      <li>플랜에 대한 [!UICONTROL 관리] 권한 </li> 
      <li>게시된 프로젝트에 대한 [!UICONTROL 관리] 권한</li> 
-    </ul> <p>프로젝트에 대한 추가 액세스 요청에 대한 자세한 내용은 <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> <p>플랜에 대한 추가 액세스 요청에 대한 자세한 내용은 <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">플랜에 대한 액세스 요청 [!DNL Scenario Planner]</a>을(를) 참조하십시오.</p> </td> 
+    </ul> <p>플랜에 대한 추가 액세스 요청에 대한 자세한 내용은 <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">플랜에 대한 액세스 요청 [!DNL Scenario Planner]</a>을(를) 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
+*자세한 내용은 [Workfront 설명서에 대한 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
-[!DNL Workfront Scenario Planner]에 대한 액세스에 대한 자세한 내용은 [을(를) 사용하는 데 필요한 액세스 [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md)을(를) 참조하십시오.
++++
 
 ## 전제 조건
 
@@ -101,7 +99,8 @@ ht-degree: 0%
 >
 >충돌 해결을 포함하여 계획에 대한 이니셔티브를 변경하는 경우 프로젝트에 새 정보를 표시하려면 이니셔티브를 다시 게시해야 합니다. 이 정보는 해당 이니셔티브를 게시하는 경우에만 이니셔티브에 연결된 프로젝트에 표시됩니다. 이니셔티브 간 충돌 해결에 대한 자세한 내용은 [이니셔티브 충돌 해결 [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md)을 참조하십시오.
 
-1. Workfront 오른쪽 상단의 **[!UICONTROL 기본 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **[!UICONTROL 시나리오]**&#x200B;를 클릭합니다
+{{step1-to-scenario-planner}}
+
 1. (선택 사항 및 조건부) 기존 플랜에서 게시하려면 플랜의 오른쪽 상단에 있는 **[!UICONTROL 필터]** 아이콘 ![](assets/filter-nwepng.png)을(를) 클릭하고 다음 옵션 중 하나를 선택하십시오.
 
    <table style="table-layout:auto"> 

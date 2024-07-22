@@ -7,33 +7,24 @@ description: 시나리오 플래너에는 Adobe Workfront과 별도의 라이센
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d7f3c7fa-81aa-40c9-b506-fe1fe346e9ea
-source-git-commit: f0f6c2bee98c6cebf8ea9e18bf34262f3c1d6e3a
+source-git-commit: 99711cef67750a04f7a971538a978eff3656ff85
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '895'
 ht-degree: 0%
 
 ---
 
 # [!DNL Scenario Planner]을(를) 사용하기 위해 필요한 액세스 권한
 
-[!DNL Scenario Planner]에는 추가 라이선스가 필요합니다. [!DNL Workfront Scenario Planner]에 대한 자세한 내용은 [개요 [!DNL Scenario Planner] 개요](../scenario-planner/scenario-planner-overview.md)를 참조하세요.
+<!--Audited: 04/2024-->
+
+[!DNL Scenario Planner]에 추가 라이선스 요구 사항이 있습니다. [!DNL Workfront Scenario Planner]에 대한 자세한 내용은 [개요 [!DNL Scenario Planner] 개요](../scenario-planner/scenario-planner-overview.md)를 참조하세요.
 
 <!--
 might need to add information about the permissions to plans/ initiatives if those will be coming later?
 -->
 
 올바른 액세스 또는 권한이 없으면 [!DNL  Adobe Workfront]의 [!UICONTROL 시나리오] 영역을 보거나 조직의 계획 또는 이니셔티브를 관리하지 못할 수 있습니다. 계획 및 이니셔티브의 관리에는 계획 및 이니셔티브 생성, 편집 및 삭제가 포함됩니다.
-
->[!IMPORTANT]
->
->[!UICONTROL 시나리오]에 액세스할 때는 사용자가 만든 계획만 보고 관리할 수 있습니다. 사용자가 생성한 계획을 다른 사용자가 보거나 관리할 수 있도록 하려면 다음을 수행해야 합니다.
->
->* 플랜에 대한 링크를 다른 사용자에게 보내기
->* 다른 사용자와 플랜 공유
->
->  플랜 공유에 대한 자세한 내용은 [다음에서 플랜 공유 [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md)를 참조하십시오.
->
->사용자가 비활성화되면 플랜에는 소유자가 없으며 이전에 링크와 공유하지 않는 한 액세스할 수 없습니다.
 
 ## [!DNL Adobe Workfront Scenario Planner]을(를) 보고 사용하는 데 필요한 액세스 권한
 
@@ -43,15 +34,9 @@ might need to add information about the permissions to plans/ initiatives if tho
 
    새 Workfront 플랜을 사용하는지 아니면 현재 플랜을 사용하는지에 따라 조직에 다음 중 하나가 있어야 합니다.
 
-   * 새 플랜의 경우, 조직에 다음 중 하나가 있어야 합니다.
+   * 새 플랜의 경우 조직에 [!UICONTROL Ultimate] [!DNL Workfront] 플랜이 있어야 합니다. 시나리오 플래너는 [!UICONTROL Ultimate] 계획에만 포함되어 있습니다.
 
-      * [!UICONTROL Ultimate] [!DNL Workfront] 계획입니다. 시나리오 플래너는 최종 계획에 포함됩니다.
-
-        또는
-
-      * [!UICONTROL Select] 또는 [!UICONTROL Prime] [!DNL Workfront] 플랜과 별도의 [!DNL Scenario Planner] 라이선스를 구입합니다.
-
-   * 현재 Workfront 플랜의 경우 조직은 다음 두 가지 조건을 모두 충족해야 합니다.
+   * 현재 Workfront 플랜의 경우 귀사는 다음 두 가지 플랜을 모두 보유해야 합니다.
 
       * 조직은 [!DNL Workfront] [!UICONTROL 비즈니스] 또는 [!DNL Workfront] 이상의 플랜을 구매해야 합니다. [!DNL Workfront] 플랜에 대한 자세한 내용은 [Workfront 플랜](https://workfront.com/plans)을 참조하십시오.
 
@@ -133,7 +118,20 @@ might need to add information about the permissions to plans/ initiatives if tho
 
 액세스 수준은 [!DNL Workfront]의 권한과 함께 작동하여 사용자가 만들지 않은 계획 및 이니셔티브를 볼 수 있도록 합니다. [!DNL Scenario Planner]에 액세스할 수 있는 올바른 액세스 수준을 보유할 뿐만 아니라 해당 계획을 만든 사람이 아니라면 보거나 관리할 계획에 대한 올바른 사용 권한도 보유해야 합니다.
 
-기본적으로 생성한 계획에만 액세스할 수 있습니다. 다른 사용자가 만든 플랜을 보려면 해당 사용자가 플랜을 귀하와 공유해야 합니다. 공유 계획에 대한 자세한 내용은 [다음에서 계획 공유 [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md)를 참조하십시오.
+시스템 관리자를 포함한 모든 사용자는 자신이 생성한 플랜에만 액세스할 수 있습니다.
 
-사용자가 플랜도 공유하지 않고 플랜에 대한 링크를 공유하는 경우 플랜에 대한 권한을 요청할 수 있습니다. 플랜에 대한 권한 요청에 대한 자세한 내용은 [의 플랜에 대한 액세스 요청 [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md)을 참조하십시오.
+다른 사용자가 만든 플랜을 보려면 다음과 같은 방법으로 해당 플랜을 사용자와 공유해야 합니다.
+
+* 플랜을 공유합니다.
+
+  공유 계획에 대한 자세한 내용은 [다음에서 계획 공유 [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md)를 참조하십시오.
+
+* 자신이 만든 플랜에 대한 링크 보내기
+
+  사용자가 플랜도 공유하지 않고 플랜에 대한 링크를 공유하는 경우 플랜에 대한 권한을 요청할 수 있습니다. 플랜에 대한 권한 요청에 대한 자세한 내용은 [의 플랜에 대한 액세스 요청 [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md)을 참조하십시오.
+
+>[!NOTE]
+>
+>사용자가 비활성화되면 플랜에는 소유자가 없으며 이전에 링크와 공유하지 않는 한 액세스할 수 없습니다.
+
 

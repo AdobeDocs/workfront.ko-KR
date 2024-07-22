@@ -6,10 +6,10 @@ description: 자신이 생성한 계획이나 다른 사람이 나와 공유한 
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 799ca02e-c513-4409-b327-1ce7d8eb19ae
-source-git-commit: 6c5be4dccff46abbed104f1f1b3c958aaf74d629
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 0%
+source-wordcount: '513'
+ht-degree: 1%
 
 ---
 
@@ -19,32 +19,43 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> 계획*</b> </p> </td> 
-   <td>[!UICONTROL Business] 이상</td> 
+   <td> <p>[!DNL Adobe Workfront] 플랜*</p> </td> 
+   <td> <p>현재: [!UICONTROL Business] 이상</p>
+   <p>새로운 기능: Ultimate </p>
+   </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> 라이선스*</b> </p> </td> 
-   <td> <p>[!UICONTROL Review] 이상</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] 라이센스*</p> </td> 
+   <td> <p>새로운 기능: 밝게 또는 높음</p> 
+   <p>현재: [!UICONTROL Review] 이상</p> </td> 
   </tr> 
   <tr> 
-   <td><b>제품</b> </td> 
-   <td> <p>이 문서에 설명된 기능에 액세스하려면 [!DNL Adobe Workfront Scenario Planner]에 대한 추가 라이선스를 구입해야 합니다. </p> <p>[!DNL Workfront Scenario Planner]을(를) 얻는 방법에 대한 자세한 내용은 <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">[!UICONTROL Scenario Planner]</a>을(를) 사용하는 데 필요한 액세스 권한을 참조하십시오. </p> </td> 
+   <td>제품* </td> 
+   <td> 
+   <p>현재 Workfront 플랜의 경우: </p>
+   <p>이 문서에 설명된 기능에 액세스하려면 [!DNL Adobe Workfront Scenario Planner]에 대한 추가 라이선스를 구입해야 합니다.</p> <p>[!DNL Workfront Scenario Planner]에 대한 액세스 및 사용 권한에 대한 자세한 내용은 [!DNL Scenario Planner]</a>을(를) 사용하는 데 필요한 <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">액세스를 참조하십시오. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>액세스 수준 구성*</strong> </td> 
-   <td> <p>다음에 대한 [!UICONTROL 편집] 액세스 이상: [!DNL Scenario Planner]</p> <p>참고: 여전히 액세스 권한이 없는 경우 [!DNL Workfront] 관리자에게 액세스 수준에 추가 제한을 설정했는지 문의하십시오. [!DNL Workfront] 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+   <td>액세스 수준 </td> 
+   <td> <p>다음에 대한 [!UICONTROL 편집] 액세스 권한: [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>개체 권한</strong> </p> </td> 
+   <td> <p>개체 권한 </p> </td> 
    <td> <p>플랜에 대한 [!UICONTROL 관리] 권한</p> <p>플랜에 대한 추가 액세스 요청에 대한 자세한 내용은 <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">플랜에 대한 액세스 요청 [!DNL Scenario Planner]</a>을(를) 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+*자세한 내용은 [Workfront 설명서에 대한 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 이니셔티브 삭제
 
@@ -68,9 +79,9 @@ ht-degree: 0%
 
 ### 1개의 이니셔티브 삭제 {#delete-one-initiative}
 
-1. **[!UICONTROL 주 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 [!UICONTROL 시나리오]를 클릭합니다.
+{{step1-to-scenario-planner}}
 
-   계획 목록이 표시됩니다.
+계획 목록이 표시됩니다.
 
 1. 계획명을 눌러 계획을 연 다음 삭제할 이니셔티브를 찾습니다.
 1. 다음 중 하나를 수행하십시오.

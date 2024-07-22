@@ -7,16 +7,15 @@ description: 시나리오 플래너는 새 Adobe Workfront 경험에서만 사�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d67f51e5-7c5c-436b-b0c3-e5afbd7cebca
-source-git-commit: e152c20e7b987f4bef7ffd6ee534c059f7b9bf45
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
 
 # [!DNL Scenario Planner]의 이니셔티브 개요
 
-[!DNL Scenario Planner]은(는) 새 [!DNL Adobe Workfront] 경험에서만 사용할 수 있으며 추가 라이선스가 필요합니다. [!DNL Workfront Scenario Planner]에 대한 자세한 내용은 [개요 [!DNL Scenario Planner] 개요](../scenario-planner/scenario-planner-overview.md)를 참조하세요.
 비즈니스 관리자는 [!DNL Adobe Workfront Scenario Planner]의 계획에 대한 이니셔티브를 만들 수 있습니다. 플랜 만들기에 대한 자세한 내용은 문서 [Create and edit in the [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md)을(를) 참조하십시오.
 
 ## 이니셔티브 개요

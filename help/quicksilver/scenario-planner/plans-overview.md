@@ -7,55 +7,55 @@ description: 비즈니스 관리자는 Adobe Workfront Scenario Planner를 사�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: df2b895b-8bc1-4a55-b0d7-8a06db420315
-source-git-commit: 6c5be4dccff46abbed104f1f1b3c958aaf74d629
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '1292'
+source-wordcount: '1150'
 ht-degree: 0%
 
 ---
 
 # [!DNL Scenario Planner]의 계획 개요
 
-[!DNL Scenario Planner]에는 [!DNL Adobe Workfront] 라이선스 외에 별도의 라이선스가 필요합니다. [!DNL Workfront Scenario Planner]에 대한 자세한 내용은 [개요 [!DNL Scenario Planner] 개요](../scenario-planner/scenario-planner-overview.md)를 참조하세요.
-
 비즈니스 관리자는 [!DNL Adobe Workfront Scenario Planner]을(를) 사용하여 1년, 3년 또는 5년 계획을 요약하여 조직의 가까운 미래와 장기적인 미래에 대한 전략을 요약할 수 있습니다.
 
 ## 액세스 요구 사항
 
-[!DNL Adobe Workfront Scenario Planner]을(를) 사용하려면 다음 액세스 권한이 있어야 합니다.
+시나리오 플래너에 액세스하기 위한 액세스 요구 사항에 대한 자세한 내용은 [시나리오 플래너를 사용하는 데 필요한 액세스](/help/quicksilver/scenario-planner/access-needed-to-use-sp.md)를 참조하십시오.
+
+<!--To use the [!DNL Adobe Workfront Scenario Planner] you must have the following access:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p><a href="https://www.workfront.com/plans" target="_blank">[!DNL Adobe Workfront] 계획</a>*</p> </td> 
-   <td>[!UICONTROL Business] 이상</td> 
+   <td role="rowheader"> <p><a href="https://www.workfront.com/plans" target="_blank">[!DNL Adobe Workfront] plan</a>*</p> </td> 
+   <td>[!UICONTROL Business] or higher</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>라이센스 유형*</p> </td> 
-   <td> <p>[!UICONTROL 검토] 이상 자세한 내용은 <a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">[!DNL Adobe Workfront]개 라이선스 개요</a>를 참조하십시오.</p> </td> 
+   <td role="rowheader"> <p>License type*</p> </td> 
+   <td> <p>[!UICONTROL Review] or higher. For more information, see <a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">[!DNL Adobe Workfront] licenses overview</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">제품</td> 
-   <td> <p>이 문서에 설명된 기능에 액세스하려면 [!DNL Adobe Workfront Scenario Planner]에 대한 추가 라이선스를 구입해야 합니다.</p> <p>[!DNL Workfront Scenario Planner]을(를) 얻는 방법에 대한 자세한 내용은 [!DNL Scenario Planner]</a>을(를) 사용하는 데 필요한 <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">액세스를 참조하십시오. </p> </td> 
+   <td role="rowheader">Product</td> 
+   <td> <p>You must purchase an additional license for the [!DNL Adobe Workfront Scenario Planner] to access functionality described in this article.</p> <p>For information about obtaining the [!DNL Workfront Scenario Planner], see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">액세스 수준*</td> 
-   <td> <p>다음에 대한 [!UICONTROL 보기] 액세스 이상: [!DNL Scenario Planner]</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+   <td role="rowheader">Access level*</td> 
+   <td> <p>[!UICONTROL View] access or higher to the [!DNL Scenario Planner]</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>개체 권한</p> </td> 
-   <td> <p>플랜에 대한 [!UICONTROL 보기] 권한 이상<!--
+   <td role="rowheader"> <p>Object permissions</p> </td> 
+   <td> <p>[!UICONTROL View] permissions or higher for a plan***************
       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
         (NOTE: this might change if they have permissions for initiatives/ scenarios, etc) 
       </MadCap:conditionalText>
-     --></p> <p>플랜에 대한 추가 액세스 요청에 대한 자세한 내용은 <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">플랜에 대한 액세스 요청 [!DNL Scenario Planner]</a>을(를) 참조하십시오.</p> </td> 
+     ***************</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
-
-*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하십시오.
+*To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+-->
 
 ## 플랜 개요
 

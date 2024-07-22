@@ -5,9 +5,9 @@ author: Alina
 draft: Probably
 feature: Workfront Scenario Planner
 exl-id: a6afe39f-1663-493d-a582-0a396ce138c2
-source-git-commit: 6c5be4dccff46abbed104f1f1b3c958aaf74d629
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '790'
 ht-degree: 0%
 
 ---
@@ -43,15 +43,15 @@ ht-degree: 0%
 
 ## Workfront에서 [!DNL Workfront Scenario Planner] 찾기
 
-1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **[!UICONTROL 시나리오]**&#x200B;를 클릭합니다.
+{{step1-to-scenario-planner}}
 
-   <!--drafted for Shell: or click the **Main Menu** <insert icon> in the upper-left corner, if it's available.-->
+<!--drafted for Shell: or click the **Main Menu** <insert icon> in the upper-left corner, if it's available.-->
 
-   [!DNL Workfront Scenario Planner]이(가) 표시됩니다.
+[!DNL Workfront Scenario Planner]이(가) 표시됩니다.
 
-   >[!IMPORTANT]
-   >
-   >[!DNL Workfront Scenario Planner]에 사용자가 만든 계획이 포함되어 있습니다. 다른 사용자의 플랜을 확인해야 하는 경우 해당 플랜의 URL을 사용자와 공유해야 합니다.
+>[!IMPORTANT]
+>
+>[!DNL Workfront Scenario Planner]에 사용자가 만든 계획이 포함되어 있습니다. 다른 사용자의 플랜을 확인해야 하는 경우 해당 플랜의 URL을 사용자와 공유해야 합니다.
 
 1. (선택 사항) 계획명을 눌러 계획을 열고 세부 정보를 확인합니다.
 

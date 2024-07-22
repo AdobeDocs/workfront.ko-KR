@@ -6,18 +6,16 @@ description: 프로젝트와 이니셔티브를 연결한 후 리소스 할당�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 77152e46-0b7b-4937-9d16-1a20c2a7fdf1
-source-git-commit: 82a5102d28700368a094502dcd6026462c149eb1
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '663'
 ht-degree: 0%
 
 ---
 
 # 작업 목록에 프로젝트 및 이니셔티브에 대한 역할 할당 표시
 
->[!IMPORTANT]
->
->프로젝트에 대한 이니셔티브 정보를 볼 수 있도록 [!DNL Adobe Workfront Scenario Planner]에 대한 추가 라이선스를 구입해야 합니다. [!DNL Workfront Scenario Planner]을(를) 얻는 방법에 대한 자세한 내용은 [을(를) 사용하는 데 필요한 액세스 [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md)를 참조하십시오.
+<!--Audited: 07/2024-->
 
 프로젝트와 이니셔티브를 연결한 후 리소스 할당을 나란히 관리하여 프로젝트 및 이니셔티브가 일치하는지 확인할 수 있습니다. 이를 통해 이를 과다 할당하거나 과소 활용하는 것을 방지할 수 있습니다.
 
@@ -27,36 +25,43 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-다음을 수행해야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> 계획*</b> </p> </td> 
-   <td>[!UICONTROL Business] 이상</td> 
+   <td> <p>[!DNL Adobe Workfront] 플랜*</p> </td> 
+   <td> <p>현재: [!UICONTROL Business] 이상</p>
+   <p>새로운 기능: Ultimate </p>
+   </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> 라이선스*</b> </p> </td> 
-   <td> <p>[!UICONTROL Review] 이상</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] 라이센스*</p> </td> 
+   <td> <p>새로운 기능: 밝게 또는 높음</p> 
+   <p>현재: [!UICONTROL Review] 이상</p> </td> 
   </tr> 
   <tr> 
-   <td><b>제품</b> </td> 
-   <td> <p>이 문서에 설명된 기능에 액세스하려면 [!DNL Adobe Workfront Scenario Planner]에 대한 추가 라이선스를 구입해야 합니다.</p> <p>[!DNL Workfront Scenario Planner]을(를) 얻는 방법에 대한 자세한 내용은 [!DNL Scenario Planner]</a>을(를) 사용하는 데 필요한 <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">액세스를 참조하십시오. </p> </td> 
+   <td>제품* </td> 
+   <td> 
+   <p>현재 Workfront 플랜의 경우: </p>
+   <p>이 문서에 설명된 기능에 액세스하려면 [!DNL Adobe Workfront Scenario Planner]에 대한 추가 라이선스를 구입해야 합니다.</p> <p>[!DNL Workfront Scenario Planner]에 대한 액세스 및 사용 권한에 대한 자세한 내용은 [!DNL Scenario Planner]</a>을(를) 사용하는 데 필요한 <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">액세스를 참조하십시오. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>액세스 수준 구성*</strong> </td> 
-   <td> <p>프로젝트에 대한 [!UICONTROL 보기] 이상 액세스 </p> <p>참고: 여전히 액세스 권한이 없는 경우 [!UICONTROL Workfront] 관리자에게 문의하여 액세스 수준에서 추가적인 제한을 설정하는지 확인하십시오. [!UICONTROL Workfront] 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+   <td>액세스 수준 </td> 
+   <td> <p>[!UICONTROL Projects]에 대한 [!UICONTROL 보기] 이상 액세스</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>개체 권한</strong> </p> </td> 
-   <td> <p>프로젝트에 대한 [!UICONTROL 보기] 이상 권한</p> <p>플랜에 대한 추가 액세스 요청에 대한 자세한 내용은 <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">플랜에 대한 액세스 요청 [!DNL Scenario Planner]</a>을(를) 참조하십시오.</p> <p>프로젝트에 대한 추가 액세스 요청에 대한 자세한 내용은 <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오. </p> </td> 
+   <td> <p>개체 권한 </p> </td> 
+   <td> <p>프로젝트에 대한 [!UICONTROL 보기] 권한</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
+*자세한 내용은 [Workfront 설명서에 대한 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 작업 목록에 프로젝트 및 이니셔티브에 대한 역할 할당 표시
 

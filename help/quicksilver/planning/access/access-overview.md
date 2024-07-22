@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c0ef343e30dd87c0638f7f34161975b46de445b1
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Adobe Workfront Planning을 사용하려면 라이선스 및 공유 권한 제�
 
 ## 액세스 요구 사항
 
-Adobe Workfront Planning을 사용하려면 다음 설정이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 <table style="table-layout:auto">
  <col>
@@ -88,6 +88,8 @@ Adobe Workfront Planning을 사용하려면 다음 설정이 있어야 합니다
 </table>
 
 *Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서의 [액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 
 ## 다른 사용자와 메인 메뉴의 계획 영역 공유

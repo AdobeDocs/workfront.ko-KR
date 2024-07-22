@@ -6,9 +6,9 @@ description: 프로젝트 간 전임 작업은 다른 프로젝트의 다른 작
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -48,14 +48,14 @@ Adobe Workfront을 사용하면 단일 프로젝트 내에서 전임 작업을 �
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td role="rowheader">Adobe Workfront 라이센스*</td> 
    <td> <p>새로운 기능: 표준 </p> 
    또는
    <p>현재: 플랜 </p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
+   <td role="rowheader">액세스 수준</td> 
    <td> <p>작업 및 프로젝트에 대한 액세스 편집</p> </td> 
   </tr> 
   <tr> 
@@ -65,10 +65,9 @@ Adobe Workfront을 사용하면 단일 프로젝트 내에서 전임 작업을 �
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+*이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
-
 
 ## 프로젝트 간 전임 작업 만들기
 

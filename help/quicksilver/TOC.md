@@ -3,7 +3,7 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: ed708a98662c198e52b417ae53e165f3d5e9a524
+source-git-commit: 18cda76ad78f07e5349d90421ea55e88084459b2
 workflow-type: tm+mt
 source-wordcount: '14298'
 ht-degree: 1%
@@ -1316,7 +1316,7 @@ ht-degree: 1%
          * [작업에 대한 추적 모드 설정](manage-work/tasks/task-information/set-tracking-mode-for-tasks.md)
          * [작업 레벨링 지연 업데이트](manage-work/tasks/task-information/task-leveling-delay.md)
          * [작업 비용 유형 업데이트](manage-work/tasks/task-information/update-task-cost-type.md)
-         * [예상 일자와 예상 일자 차이](manage-work/tasks/task-information/differentiate-projected-estimated-dates.md)
+         * [예상 및 예상 일자 개요](manage-work/tasks/task-information/differentiate-projected-estimated-dates.md)
          * [원래 작업 기간 및 원래 계획된 시간 개요](manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md)
          * [작업의 계획된 기간 및 기간 차이](manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md)
       * 작업 {#create-tasks} 만들기

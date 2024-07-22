@@ -7,9 +7,9 @@ description: Adobe Workfront 관리자는 Adobe Workfront 목표에 액세스하
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -48,10 +48,7 @@ Adobe Workfront 목표에 액세스하려면 Adobe Workfront 관리자가 다음
 
 귀사가 현재 계획 중인 Workfront에 따라 다음과 같은 시나리오가 존재합니다.
 
-* 회사에 새 Workfront 플랜이 있는 경우 다음 중 하나가 있어야 합니다.
-
-   * 궁극적인 Workfront 플랜. Workfront 목표가 이 계획에 포함되어 있습니다.
-   * 선택 이상의 Workfront 플랜 및 별도의 Workfront Goals 라이선스.
+* 회사에 새로운 Workfront 플랜이 있는 경우 Ultimate Workfront 플랜이 있어야 합니다. Workfront 목표는 이 계획에만 포함됩니다.
 
 * 회사에 현재 Workfront 플랜이 있는 경우, 조직은 사용자가 Workfront 목표에 액세스할 수 있도록 Workfront 라이선스 외에 추가 라이선스를 구입해야 합니다.
 

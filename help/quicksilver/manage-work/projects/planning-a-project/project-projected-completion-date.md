@@ -7,9 +7,9 @@ description: 예상 완료 일자는 프로젝트, 작업 또는 문제가 완�
 author: Alina
 feature: Work Management
 exl-id: dde400e6-189f-4431-8f2f-7142ce424826
-source-git-commit: d71ee30378c39975366f4f257e3f7b17aba0c0ae
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 
 <table style="table-layout:auto"> 
@@ -36,7 +36,7 @@ ht-degree: 0%
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td role="rowheader">Adobe Workfront 라이센스*</td> 
    <td> 
    <p>신규: 
    <ul><li><p>기여자 이상: 보고서에서 예상 완료 일자 보기</p></li> <li><p>보고서를 만들 수 있는 표준 라이선스</p></li> </ul>
@@ -47,7 +47,7 @@ ht-degree: 0%
       </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
+   <td role="rowheader">액세스 수준</td> 
    <td> <p>프로젝트에 대한 보기 또는 상위 액세스 권한</p> <p>보고서를 만들려면 보고서, 대시보드, 캘린더에 대해 편집 액세스 권한이 있어야 합니다.</p> <p>보고서를 만들거나 목록 보기를 수정하려면 필터, 보기, 그룹화에 대한 편집 액세스 권한이 있어야 합니다</p>  </td> 
   </tr> 
   <tr> 
@@ -57,7 +57,9 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+*이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## Adobe Workfront에서 예상 완료 일자를 결정하는 방법
 
@@ -85,7 +87,7 @@ ht-degree: 0%
   >작업의 전임 작업에 실제 완료 일자가 있는 경우 종속 작업은 다음 시나리오에 설명된 대로 예상 완료 일자를 받습니다.
   >
   >
-  >프로젝트에 작업 A, 작업 B 및 작업 C가 있고 작업 B가 작업 A의 후속 작업이고 작업 C가 작업 B의 후속 작업이며 실제 완료 일자가 작업 A에 추가된 경우 작업 B에 대해 예상 완료 일자가 자동으로 다시 계산되지만(프로젝트의 **업데이트 유형**&#x200B;이 자동 및 변경 시 설정된 경우) 작업 C에 대해서는 다시 계산되지 않습니다. 현재 Workfront에서는 성능상의 이유로 업데이트된 작업에서 한 수준 위 또는 아래의 작업에 대해 예상 완료 일자를 계산합니다. 
+  >프로젝트에 작업 A, 작업 B 및 작업 C가 있고 작업 B가 작업 A의 후속 작업이고 작업 C가 작업 B의 후속 작업이며 실제 완료 일자가 작업 A에 추가된 경우 작업 B에 대해 예상 완료 일자가 자동으로 다시 계산되지만(프로젝트의 **업데이트 유형**&#x200B;이 자동 및 변경 시 설정된 경우) 작업 C에 대해서는 다시 계산되지 않습니다. 현재 Workfront에서는 성능상의 이유로 업데이트된 작업에서 한 수준 위 또는 아래의 작업에 대해 예상 완료 일자를 계산합니다.
 
 * **문제:** 문제 예상 완료 날짜가 문제 계획 완료 날짜와 일치하도록 초기에 설정되었습니다.
 
@@ -119,9 +121,9 @@ ht-degree: 0%
 1. **열(보기)** 탭을 선택합니다.
 1. **열 추가**&#x200B;를 클릭하고 **이 열에 표시:** 필드에 **예상 완료 날짜**&#x200B;을(를) 입력하세요.
 
-1. **문제** 개체 아래의 목록에 나타나면 선택하십시오. 
+1. **문제** 개체 아래의 목록에 나타나면 선택하십시오.
 1. **저장 및 닫기**&#x200B;를 클릭합니다.
 
-   보고서의 **예상 완료 날짜** 열이 채워집니다. 
+   보고서의 **예상 완료 날짜** 열이 채워집니다.
 
    ![](assets/issue-projected-completion-date-in-view-nwe-350x148.png)

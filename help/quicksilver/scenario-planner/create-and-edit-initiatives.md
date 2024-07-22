@@ -6,20 +6,22 @@ description: Adobe Workfront Scenario Planner를 사용할 때 생성했거나 �
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: a811bad0-d3c0-4cba-8b78-d9a14ffc8482
-source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '1649'
+source-wordcount: '1618'
 ht-degree: 0%
 
 ---
 
 # [!DNL Scenario Planner]에서 이니셔티브 만들기 및 편집
 
+<!--Audited: 07/2024-->
+
 [!UICONTROL Adobe Workfront Scenario Planner]를 사용하는 경우 만들었거나 사용자와 공유된 플랜에서 이니셔티브를 만들 수 있습니다. 이니셔티브를 생성하면 더 작은 조직 단위가 계획 완료에 기여하는 정도를 알 수 있습니다. 예를 들어, 조직에서 새로운 시장으로 확장하기 위한 향후 3년간의 계획을 가지고 있는 경우, 각 부서에 대해 이 계획 내에 이니셔티브를 생성하여 이 계획을 달성하기 위한 인력 및 예산에 대한 각 부서의 필요성을 추정할 수 있습니다.
 
 ## 액세스 요구 사항
 
-다음 항목이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -27,19 +29,24 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 플랜*</p> </td> 
-   <td>[!UICONTROL Business] 이상</td> 
+   <td> <p>현재: [!UICONTROL Business] 이상</p>
+   <p>새로운 기능: Ultimate </p>
+   </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] 라이센스* </p> </td> 
-   <td> <p>[!UICONTROL Review] 이상</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] 라이센스*</p> </td> 
+   <td> <p>새로운 기능: 밝게 또는 높음</p> 
+   <p>현재: [!UICONTROL Review] 이상</p> </td> 
   </tr> 
   <tr> 
-   <td>제품 </td> 
-   <td> <p>이 문서에 설명된 기능에 액세스하려면 [!DNL Adobe Workfront Scenario Planner]에 대한 추가 라이선스를 구입해야 합니다. </p> <p>[!DNL Workfront Scenario Planner]을(를) 얻는 방법에 대한 자세한 내용은 [!DNL Scenario Planner]</a>을(를) 사용하는 데 필요한 <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">액세스를 참조하십시오. </p> </td> 
+   <td>제품*</td> 
+   <td> 
+   <p>현재 Workfront 플랜의 경우: </p>
+   <p>이 문서에 설명된 기능에 액세스하려면 [!DNL Adobe Workfront Scenario Planner]에 대한 추가 라이선스를 구입해야 합니다.</p> <p>[!DNL Workfront Scenario Planner]에 대한 액세스 및 사용 권한에 대한 자세한 내용은 [!DNL Scenario Planner]</a>을(를) 사용하는 데 필요한 <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">액세스를 참조하십시오. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>액세스 수준 구성* </td> 
-   <td> <p>다음에 대한 [!UICONTROL 편집] 액세스 이상: [!DNL Scenario Planner]</p> <p>아직 액세스 권한이 없는 경우 [!DNL Workfront] 관리자에게 액세스 수준에 추가 제한을 설정했는지 문의하십시오. [!DNL Workfront] 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+   <td>액세스 수준 </td> 
+   <td> <p>다음에 대한 [!UICONTROL 편집] 액세스 권한: [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>개체 권한 </p> </td> 
@@ -48,7 +55,9 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하십시오.
+*자세한 내용은 [Workfront 설명서에 대한 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 전제 조건
 
@@ -71,7 +80,7 @@ ht-degree: 0%
 
 이니셔티브를 처음부터 생성하려면:
 
-1. **[!UICONTROL 주 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 [!UICONTROL 시나리오]를 클릭합니다.
+{{step1-to-scenario-planner}}
 
 1. 이니셔티브를 생성할 계획의 이름을 누릅니다.
 1. **[!UICONTROL 새 이니셔티브]**&#x200B;의 왼쪽에 있는 **+ 아이콘**&#x200B;을 클릭합니다.
