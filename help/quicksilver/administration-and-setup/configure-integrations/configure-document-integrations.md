@@ -8,9 +8,9 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: e2aef53f0ab8e76fb2c33aa91281fae0c4fece75
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1087'
 ht-degree: 1%
 
 ---
@@ -100,7 +100,7 @@ ht-degree: 1%
 
   현재 플랜의 경우 이 기능을 사용하려면 [!UICONTROL Pro] [!DNL Workfront] 플랜 이상이 필요합니다. 새 플랜의 경우 이 기능은 모든 플랜에서 사용할 수 있습니다. 사용 가능한 다양한 플랜에 대한 자세한 내용은 [Workfront 플랜](https://www.workfront.com/plans)을 참조하십시오.
 
-또한 기본 DAM(디지털 에셋 관리) 시스템 또는 타사 DAM 통합을 사용하여 [!DNL Workfront] 문서 환경을 개선할 수 있습니다. 사용자가 서비스를 [!DNL Workfront] 계정에 연결하려면 관리자가 이러한 기능을 사용하도록 설정해야 합니다. Workfront DAM에 대한 자세한 내용은 [다음을 사용하여 문서 관리 [!DNL Adobe Workfront DAM]](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md)를 참조하십시오.
+또한 타사 DAM 통합을 통해 [!DNL Workfront] 문서 환경을 개선할 수 있습니다. 사용자가 서비스를 [!DNL Workfront] 계정에 연결하려면 관리자가 이러한 기능을 사용하도록 설정해야 합니다.
 
 ## 문서 관리를 위한 통합 구성
 
@@ -197,8 +197,6 @@ ht-degree: 1%
 1. **[!UICONTROL 저장]**&#x200B;을 클릭하여 통합을 만듭니다.
 
 ## 문서 통합 사용
-
-사용자가 [!DNL Workfront DAM]을(를) 사용할 수 있는 방법에 대한 자세한 내용은 [을(를) 사용하여 문서 관리 [!DNL Adobe Workfront DAM]](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md)를 참조하십시오.
 
 사용자가 증명을 사용하는 방법에 대한 자세한 내용은 [증명 만들기](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)를 참조하십시오.
 

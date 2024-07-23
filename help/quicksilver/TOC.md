@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 238a1d8e7e1dd80f74a60b2b31301f082e377332
+source-git-commit: e2aef53f0ab8e76fb2c33aa91281fae0c4fece75
 workflow-type: tm+mt
-source-wordcount: '14320'
+source-wordcount: '14277'
 ht-degree: 1%
 
 ---
@@ -792,7 +792,6 @@ ht-degree: 1%
       * [Workfront 통합을 위한 OAuth2 애플리케이션 만들기](administration-and-setup/configure-integrations/create-oauth-application.md)
       * [사용자 정의 OAuth2 애플리케이션 보기 및 관리](administration-and-setup/configure-integrations/manage-custom-oauth2-apps.md)
       * [JumpSeat 통합 구성](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)
-      * [Adobe Workfront DAM에 대한 도움말 액세스](administration-and-setup/configure-integrations/access-help-workfront-dam.md)
    * 블루프린트 {#blueprints}
       * [블루프린트](administration-and-setup/blueprints/blueprints.md)
       * [블루프린트 개요](administration-and-setup/blueprints/blueprints-overview.md)
@@ -1132,12 +1131,6 @@ ht-degree: 1%
       * [문서 구성](documents/organizing-documents/organize-documents.md)
       * [문서 폴더 만들기](documents/organizing-documents/create-documents-folder.md)
       * [스마트 폴더 만들기 및 관리](documents/organizing-documents/create-manage-smart-folders.md)
-   * Adobe Workfront {#wf-dam-within-workfront} 내의 Workfront DAM
-      * [Adobe Workfront 내의 Workfront DAM](documents/workfront-dam-within-workfront/workfront-dam-in-workfrontt.md)
-      * [Adobe Workfront DAM 활성화](documents/workfront-dam-within-workfront/enable-wf-dam.md)
-      * [Adobe Workfront DAM을 사용하여 문서 관리](documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md)
-      * [Adobe Workfront 라이센싱 역할 유형과 Adobe Workfront DAM 역할 유형 비교](documents/workfront-dam-within-workfront/difference-between-wf-dam-role-types.md)
-      * [Adobe Workfront DAM에 대한 도움말 액세스](documents/workfront-dam-within-workfront/access-help-workfront-dam.md)
    * Workfront 및 Experience Manager Assets 통합 {#wf-aem-integrations}
       * [Workfront 및 Experience Manager Assets 통합](documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
       * Workfront for Experience Manager 강화 커넥터 {#wf-aem-enhanced-connector}
