@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: f9ef12c5a91391dea4d25ceaa1cf648ae4baebf6
+source-git-commit: 76b44f3d5ff7d7747da801a051a457157e08ea4a
 workflow-type: tm+mt
-source-wordcount: '1813'
+source-wordcount: '1849'
 ht-degree: 0%
 
 ---
@@ -278,6 +278,7 @@ ht-degree: 0%
                                 <p>모든 고객을 위한 프로덕션 릴리스: 24.7 릴리스 포함(2024년 7월 18일)</p>
                             </li>
                         </ul>
+                        <p><span class="preview">빠른 릴리스 일정을 준수하지 않는 고객의 경우 이 기능이 프로덕션에서 일시적으로 제거되었습니다.</span></p>
                     </td>
                  </tr>
                    <tr>
@@ -298,6 +299,7 @@ ht-degree: 0%
                                 <p>모든 고객을 위한 프로덕션 릴리스: 24.7 릴리스 포함(2024년 7월 18일)</p>
                             </li>
                         </ul>
+                        <p><span class="preview">빠른 릴리스 일정에 없는 고객의 경우 이 기능이 프로덕션에서 일시적으로 제거되었습니다.</span>&lt;/
                     </td>
                  </tr>
                  <tr>
