@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 27d479d1-338a-429c-9703-8e72ed8d5c95
-source-git-commit: 3326173517762a62630d6b7285cc8a22873a6712
+source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
@@ -34,11 +34,25 @@ ht-degree: 0%
 
 [이 기능에 대한 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3429471/){target=_blank}
 
+## 새 작업 워크플로우에 더 많은 관련 할당이 추가됨
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2024년 2월 13일, 빠른 릴리스를 위한 프로덕션: 24.5 릴리스(2024년 5월 16일), 모든 고객을 위한 프로덕션 릴리스: 24.10 릴리스(2024년 10월).
+
+다음 영역의 할당 필드에 보다 관련성이 높은 스마트 할당에 대해 동일한 기능을 추가했습니다.
+
+* 프로젝트에 작업을 추가할 때의 새 작업 상자
+
+* 프로젝트 작업 목록에서
+
+자세한 내용은 [스마트 할당 개요](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md)를 참조하십시오.
+
 ## 더 관련성 있는 스마트 할당
 
 >[!NOTE]
 >
->미리보기 릴리스: 2023년 12월 21일, 빠른 릴리스를 위한 프로덕션: 24.5 릴리스(2024년 5월 16일), 모든 고객을 위한 프로덕션 릴리스: 24.7 릴리스(2024년 7월 18일).
+>미리보기 릴리스: 2023년 12월 21일, 빠른 릴리스를 위한 프로덕션: 24.5 릴리스(2024년 5월 16일), 모든 고객을 위한 프로덕션 릴리스: 24.10 릴리스(2024년 10월).
 
 Workfront이 작업에 대한 스마트 할당을 계산하고 제안하는 데 사용하는 알고리즘을 변경했습니다. 새 알고리즘은 작업을 지정하는 Workfront의 작업 목록, 작업 헤더의 지정 영역, 홈 및 요약 패널에서 적용됩니다.
 

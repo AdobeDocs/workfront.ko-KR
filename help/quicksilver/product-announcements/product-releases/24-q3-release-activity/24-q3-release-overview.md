@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 76b44f3d5ff7d7747da801a051a457157e08ea4a
+source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
 workflow-type: tm+mt
-source-wordcount: '1849'
+source-wordcount: '1830'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 0%
                         </p>
                     </td>
                 </tr>
-                                <tr>
+                <tr>
                     <td>
                         이제 <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">비즈니스 규칙을 사용할 수 있습니다</a></p>
                         [!BADGE In production ]{type=Informative}
@@ -74,6 +74,7 @@ ht-degree: 0%
                                 <p>모든 고객을 위한 프로덕션 릴리스: 24.7 릴리스 포함(2024년 7월 18일)</p>
                             </li>
                         </ul>
+                        <p><i>새로운 Ultimate 플랜의 조직에서만 사용할 수 있습니다.</i></p>
                     </td>
                 </tr>
                 <tr>
@@ -278,13 +279,12 @@ ht-degree: 0%
                                 <p>모든 고객을 위한 프로덕션 릴리스: 24.7 릴리스 포함(2024년 7월 18일)</p>
                             </li>
                         </ul>
-                        <p><span class="preview">빠른 릴리스 일정을 준수하지 않는 고객의 경우 이 기능이 프로덕션에서 일시적으로 제거되었습니다.</span></p>
                     </td>
                  </tr>
                    <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">새 작업 워크플로에 관련 할당이 더 추가됨</a></p>
-                        [!BADGE In production ]{type=Informative}
+                        [!BADGE In Production for Fast Release ]{type=Positive}
                         <p>프로젝트 및 프로젝트 작업 목록에 작업을 추가할 때 새 작업 상자의 할당 필드에 더 적절한 스마트 할당에 대해 동일한 기능을 추가했습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -296,16 +296,15 @@ ht-degree: 0%
                                 <p>빠른 릴리스를 위한 프로덕션: 24.5 릴리스 포함(2024년 5월 16일)</p>
                             </li>
                             <li>
-                                <p>모든 고객을 위한 프로덕션 릴리스: 24.7 릴리스 포함(2024년 7월 18일)</p>
+                                <p>모든 고객을 위한 프로덕션 릴리스: 24.10 릴리스 포함(2024년 10월)</p>
                             </li>
                         </ul>
-                        <p><span class="preview">빠른 릴리스 일정에 없는 고객의 경우 이 기능이 프로덕션에서 일시적으로 제거되었습니다.</span>&lt;/
                     </td>
                  </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">더 적절한 스마트 할당</a></p>
-                        [!BADGE In production ]{type=Informative}
+                        [!BADGE In Production for Fast Release ]{type=Positive}
                         <p>Workfront이 작업에 대한 스마트 할당을 계산하고 제안하는 데 사용하는 알고리즘을 변경했습니다. 새 알고리즘은 작업을 지정하는 Workfront의 작업 목록, 작업 헤더의 지정 영역, 홈 및 요약 패널에서 적용됩니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -317,7 +316,7 @@ ht-degree: 0%
                                 <p>빠른 릴리스를 위한 프로덕션: 24.5 릴리스 포함(2024년 5월 16일)</p>
                             </li>
                             <li>
-                                <p>모든 고객을 위한 프로덕션 릴리스: 24.7 릴리스 포함(2024년 7월 18일)</p>
+                                <p>모든 고객을 위한 프로덕션 릴리스: 24.10 릴리스 포함(2024년 10월)</p>
                             </li>
                         </ul>
                     </td>

@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
 workflow-type: tm+mt
-source-wordcount: '2758'
+source-wordcount: '2742'
 ht-degree: 4%
 
 ---
@@ -66,11 +66,9 @@ ht-degree: 4%
 
 이 문서에 설명된 작업을 수행하려면 먼저 다음 사항을 확인해야 합니다.
 
-* 보고할 모든 필드는 Workfront에서 추적됩니다. 추적되는 업데이트 영역의 데이터만 보고할 수 있습니다.
+* 보고할 모든 필드(사용자 지정 필드 포함)는 Workfront에서 추적됩니다. 추적되는 업데이트 영역의 데이터만 보고할 수 있습니다.
 
   Workfront에서 추적할 필드를 추가하는 방법에 대한 자세한 내용은 [시스템 업데이트 구성](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)을 참조하십시오.
-
-* 보고하려는 모든 사용자 정의 필드에 **업데이트 피드의 필드 변경 사항 표시** 설정이 활성화되어 있습니다.
 
 ## 분개 기입 보고서 개요
 
