@@ -7,7 +7,8 @@ description: 새 Workfront 기능을 월별 또는 분기별로 수신할지 선
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
+exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
+source-git-commit: 7f747a61c22a8927b0cd58c3c85e79143e432b98
 workflow-type: tm+mt
 source-wordcount: '1051'
 ht-degree: 0%
@@ -75,7 +76,7 @@ API 와일드카드는 비즈니스 규칙에서도 사용할 수 있습니다. 
 
 몇 가지 간단한 비즈니스 규칙 시나리오는 다음과 같습니다.
 
-* 2월 마지막 주 중에는 새 경비를 추가할 수 없습니다. 이 수식은 다음과 같이 지정할 수 있습니다. `IF(AND(MONTH($$TODAY) = 2, DAYOFMONTH($$TODAY) >= 22), "You cannot add new expenses during the last week of February.")`
+* 2월 마지막 주 중에는 새 경비를 추가할 수 없습니다. 이 수식은 다음과 같이 지정할 수 있습니다. `IF(MONTH($$TODAY) = 2 && DAYOFMONTH($$TODAY) >= 22, "You cannot add new expenses during the last week of February.")`
 * 완료 상태의 프로젝트는 사용자가 편집할 수 없습니다. 이 수식은 다음과 같이 지정할 수 있습니다. `IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
 
 중첩된 IF 문이 있는 시나리오는 다음과 같습니다.
