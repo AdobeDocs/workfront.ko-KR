@@ -6,9 +6,9 @@ description: 한 작업의 여러 버전 또는 수정 버전에서 피드백을
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee0c859e-349b-4e7a-ac80-164740b950f0
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
 workflow-type: tm+mt
-source-wordcount: '1723'
+source-wordcount: '1734'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,8 @@ ht-degree: 0%
 >증명이 Adobe Workfront 내에서 생성된 경우 해당 증명에 대해 생성된 모든 새 버전은 Workfront 내에서도 생성되어야 합니다. Workfront 내에서 증명을 만든 경우 해당 증명은 Workfront Proof 내에서 새 버전을 만들 수 없습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -58,6 +60,8 @@ ht-degree: 0%
 </table>
 
 &#42;보유 중인 플랜, 역할 또는 증명 권한 프로필을 확인하려면 Workfront 또는 Workfront Proof 관리자에게 문의하십시오.
+
++++
 
 ## Workfront에서 증명의 새 버전 만들기
 
@@ -228,7 +232,7 @@ If the creator or owner of&nbsp;&nbsp;the proof has
 
   >[!NOTE]
   >
-  > 개인 설정에 저장된 기본 사용자 정의 제목/메시지의 영향을 받지 않습니다.
+  >개인 설정에 저장된 기본 사용자 정의 제목/메시지의 영향을 받지 않습니다.
 
 기본 제목과 메시지가 개인 설정에 저장된 경우 새 버전 페이지에 기본적으로 표시되는 메시지에 영향을 줍니다.
 

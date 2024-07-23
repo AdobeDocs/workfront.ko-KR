@@ -6,9 +6,9 @@ description: 증명 승인 보고서를 사용하여 환경에서 증명에 대�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f8c924e-7c33-43f3-a9d6-75c56af28527
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 8a388ffa2d30683c08637a4273f628c553e55fdb
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '296'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 1%
 증명 승인 보고서를 사용하여 환경에서 증명에 대한 정보를 볼 수 있습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 다음 항목이 있어야 합니다.
 
@@ -46,9 +48,12 @@ ht-degree: 1%
 
 &#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
 
++++
+
 ## 증명 승인 보고서 사용
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **보고서**&#x200B;를 클릭합니다.
+{{step1-to-reports}}
+
 1. **새 보고서**&#x200B;를 클릭한 다음 스크롤하여 **증명 승인**&#x200B;을 선택합니다.
 
    ![](assets/proof-approval-report.png)

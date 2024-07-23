@@ -6,9 +6,9 @@ description: 증명에서 발생한 활동을 볼 수 있습니다. 활동에는
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 74907330-4507-4ea6-ac28-8a760723f46b
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 1b85267e811f5832480316be5322ee819abaf190
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '233'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 1%
 증명에서 발생한 활동을 볼 수 있습니다. 활동에는 활동에 대한 날짜 및 설명과 작업을 수행한 사용자를 포함하여 증명에 대한 최근 변경 사항이 포함됩니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -45,6 +47,8 @@ ht-degree: 1%
 </table>
 
 &#42;보유 중인 플랜, 역할 또는 증명 권한 프로필을 확인하려면 Workfront 또는 Workfront Proof 관리자에게 문의하십시오.
+
++++
 
 ## Adobe Workfront 내의 증명에 대한 활동 보기
 

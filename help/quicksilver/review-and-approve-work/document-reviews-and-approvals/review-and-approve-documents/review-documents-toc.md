@@ -2,20 +2,20 @@
 content-type: reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: "문서 승인 및 검토: 문서 인덱스"
+title: "문서 검토 및 승인: 문서 색인"
 description: 이 섹션에는 Adobe Workfront의 문서 검토에 대한 문서가 포함되어 있습니다.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: cb4c2496-4219-4e37-9785-a8d224bc3936
-source-git-commit: 8949e61a92aa5899d6ed118c4dbe27d84a1d1e6d
+source-git-commit: b55e06fb9734d7abe203a139ed34ba7ec77f5f4c
 workflow-type: tm+mt
 source-wordcount: '67'
 ht-degree: 0%
 
 ---
 
-# 문서 승인 및 검토: 문서 색인
+# 문서 검토 및 승인: 문서 색인
 
 >[!IMPORTANT]
 >

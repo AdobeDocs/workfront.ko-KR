@@ -7,9 +7,9 @@ description: Workfront Proof에 로그인하지 않고도 Adobe Workfront 인터
 author: Courtney
 feature: Digital Content and Documents
 exl-id: b4e07f8d-fa68-4c55-85d0-ca84163cbf15
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: 8a388ffa2d30683c08637a4273f628c553e55fdb
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -34,11 +34,11 @@ ht-degree: 0%
 
 ## Workfront에서 Workfront Proof 액세스 {#access-workfront-proof-from-workfront}
 
-기본적으로 Workfront 내에 관리 권한이 있는 사용자만 이 섹션에 설명된 대로 Workfront Proof에 액세스할 수 있습니다. 
+기본적으로 Workfront 내에 관리 권한이 있는 사용자만 이 섹션에 설명된 대로 Workfront Proof에 액세스할 수 있습니다.
 
-1. 주 메뉴 ![](assets/main-menu-icon.png)에서 증명 ![](assets/proofing-main-menu.png)을(를) 클릭합니다.
+{{step1-to-proofing}}
 
-   Workfront Proof Premium 계정에 자동으로 로그인됩니다.
+Workfront Proof Premium 계정에 자동으로 로그인됩니다.
 
 Workfront Proof Premium 계정에 로그인한 후 사용할 수 있는 기능에 대한 자세한 내용은 [Workfront 도움말 사이트](https://support.workfront.com)를 참조하십시오.
 

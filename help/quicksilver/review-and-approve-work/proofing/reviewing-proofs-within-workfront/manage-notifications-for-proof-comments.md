@@ -6,9 +6,9 @@ description: Adobe Workfront 사용자이든 외부 공동 작업자이든 증�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: c38e005c-8984-4e99-9527-94a0a6b1071d
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '989'
 ht-degree: 1%
 
 ---
@@ -22,6 +22,8 @@ Adobe Workfront 사용자이든 외부 공동 작업자이든 증명 작업을 �
 >이러한 알림은 검토자 간 증명 흐름에 대해 수신할 수 있는 이메일 경고와 다릅니다. 또한 Workfront에서 구성할 수 있는 이메일 경고 설정과도 다릅니다. 
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -49,6 +51,8 @@ Adobe Workfront 사용자이든 외부 공동 작업자이든 증명 작업을 �
 </table>
 
 &#42;보유 중인 플랜, 역할 또는 증명 권한 프로필을 확인하려면 Workfront 또는 Workfront Proof 관리자에게 문의하십시오.
+
++++
 
 ## 증명 댓글 및 결정에 대한 알림 관리
 

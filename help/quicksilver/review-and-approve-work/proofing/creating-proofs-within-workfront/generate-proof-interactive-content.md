@@ -6,9 +6,9 @@ description: ZIP 파일에 저장된 비 웹 사이트 대화형 컨텐츠에 �
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ab00d17-a3a3-4417-a958-ac3d95cb8fc8
-source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
+source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '486'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 1%
 ZIP 파일에 저장된 비 웹 사이트 대화형 컨텐츠에 대한 증명을 생성할 수 있습니다. 이러한 유형의 웹 콘텐츠의 예로는 스트리밍 비디오 또는 오디오, HTML 애니메이션, 대화형 배너 등이 있습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -45,6 +47,8 @@ ZIP 파일에 저장된 비 웹 사이트 대화형 컨텐츠에 대한 증명�
 </table>
 
 &#42;보유 중인 플랜, 역할 또는 증명 권한 프로필을 확인하려면 Workfront 또는 Workfront Proof 관리자에게 문의하십시오.
+
++++
 
 ## ZIP 파일에 대화형 컨텐츠에 대한 증명 만들기
 

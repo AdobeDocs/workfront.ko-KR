@@ -6,9 +6,9 @@ description: 웹 콘텐츠에 대한 새 정적 증명 또는 기존 정적 증�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1c0511f6-c60b-4a81-bfff-55b6f866add6
-source-git-commit: 35d76d3cb06c9e9b449844f304f1443e24a221d4
+source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 웹 사이트 또는 기타 웹 컨텐츠에 대한 정적 증명을 만들 때 다음 사항을 고려하십시오.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -47,6 +49,8 @@ ht-degree: 0%
 </table>
 
 &#42;보유 중인 플랜, 역할 또는 증명 권한 프로필을 확인하려면 Workfront 또는 Workfront Proof 관리자에게 문의하십시오.
+
++++
 
 ## 웹 사이트 또는 기타 웹 컨텐츠에 대한 정적 증명 만들기
 

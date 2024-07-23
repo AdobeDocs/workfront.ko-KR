@@ -3,7 +3,7 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 99299e2717b0603d53b394c123a86f4e56c4c1c5
+source-git-commit: 238a1d8e7e1dd80f74a60b2b31301f082e377332
 workflow-type: tm+mt
 source-wordcount: '14320'
 ht-degree: 1%
@@ -1820,8 +1820,8 @@ ht-degree: 1%
          * [에셋 또는 문서에서 승인자 또는 검토자 제거](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
          * [자산 및 문서에 대한 승인 템플릿 만들기](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
          * [연결된 Workfront 프로젝트에 Frame.io 자산 추가](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/add-frame-asset-to-connected-project.md)
-      * 자산 및 문서 {#review-and-approve-documents} 승인 및 검토
-         * [문서 승인 및 검토: 문서 색인](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
+      * 자산 및 문서 {#review-and-approve-documents} 검토 및 승인
+         * [문서 검토 및 승인: 문서 색인](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
          * [문서 검토](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
          * [문서 승인](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
    * 증명 {#proofing}

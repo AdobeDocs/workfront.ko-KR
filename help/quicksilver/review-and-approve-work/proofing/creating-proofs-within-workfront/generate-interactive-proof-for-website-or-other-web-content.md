@@ -6,9 +6,9 @@ description: 웹 콘텐츠에 대한 새 대화형 증명 또는 기존 대화�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 56e5eeea-1ab9-43c8-bc84-d10638171871
-source-git-commit: 35d76d3cb06c9e9b449844f304f1443e24a221d4
+source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 0%
 >검토하려는 사람이 웹 사이트 또는 대화형 콘텐츠에 액세스할 수 있는지 확인하십시오. 인터넷으로도 접근이 가능한 경우에 한하여 증명 과정에서 접근할 수 있다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -51,6 +53,8 @@ ht-degree: 0%
 </table>
 
 &#42;보유 중인 플랜, 역할 또는 증명 권한 프로필을 확인하려면 Workfront 또는 Workfront Proof 관리자에게 문의하십시오.
+
++++
 
 ## 웹 사이트 또는 기타 웹 콘텐츠에 대한 대화형 증명 만들기
 
