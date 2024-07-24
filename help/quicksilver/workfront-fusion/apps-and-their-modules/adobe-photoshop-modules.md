@@ -9,7 +9,7 @@ description: Adobe Photoshop 모듈을 사용하면 Adobe Photoshop 계정의 �
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: f20192ea-e363-4fba-8bd2-b1d50443918d
-source-git-commit: 1de5018a13f1fbe4383ce9655bc3fe29612b1411
+source-git-commit: 5b2de063836c2cf668e14edfbc5a12f9321d26ca
 workflow-type: tm+mt
 source-wordcount: '3966'
 ht-degree: 0%
@@ -25,9 +25,9 @@ ht-degree: 0%
 
 모듈에 대한 자세한 내용은 [의 모듈 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md)을 참조하세요.
 
-+++**이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.**
-
 ## 액세스 요구 사항
+
++++**이 문서의 기능에 대한 액세스 요구 사항을 보려면 확장하십시오.**
 
 이 문서의 기능을 사용하려면 다음 액세스 권한이 있어야 합니다.
 
