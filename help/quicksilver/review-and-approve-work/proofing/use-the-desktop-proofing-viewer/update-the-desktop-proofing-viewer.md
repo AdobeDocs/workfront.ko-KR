@@ -6,9 +6,9 @@ description: 경우에 따라 Desktop Proofing Viewer에서 개선 사항 및 �
 author: Courtney
 feature: Digital Content and Documents
 exl-id: b29ce9d0-9203-49aa-aa4c-70dee121cd17
-source-git-commit: d058009af82c201cc5584cf4a1e8d3a5ec0a0cc9
+source-git-commit: 21d4fb3bd2a6c08b390338d28e357a80f4befeae
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 0%
 >Windows users must manually reinstall the Desktop Proofing Viewer to support Chrome version 91. After manually reinstalling, the Desktop Proofing Viewer upgrades to the latest version (2.0.15). Future updates to the Desktop Proofing Viewer will be automatic. For information in reinstalling, see [Install the Desktop Proofing Viewer](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md). -->
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -40,6 +42,8 @@ ht-degree: 0%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 {{latest-version}}
 

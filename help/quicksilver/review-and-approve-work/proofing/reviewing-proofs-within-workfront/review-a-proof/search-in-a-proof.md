@@ -6,9 +6,9 @@ description: 증명에서 텍스트를 빠르게 찾는 방법에 대해 알아�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 03f07011-b17b-41ea-b99e-4535f2d143ff
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '230'
 ht-degree: 2%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 2%
 >2017년 4월 26일 이전에 생성된 증명은 검색할 수 없습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -53,6 +55,8 @@ ht-degree: 2%
 </table>
 
 &#42;보유 중인 플랜, 역할 또는 증명 권한 프로필을 확인하려면 Workfront 또는 Workfront Proof 관리자에게 문의하십시오.
+
++++
 
 ## 증명 내 콘텐츠 검색
 

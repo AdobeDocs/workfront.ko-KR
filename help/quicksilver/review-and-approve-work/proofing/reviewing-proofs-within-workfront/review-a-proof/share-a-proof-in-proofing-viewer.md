@@ -6,9 +6,9 @@ description: 증명 소유자 또는 작성자가 공유를 활성화한 경우 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 20bd2d94-1401-4a38-9042-335d0cb32a3d
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '1501'
+source-wordcount: '1512'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 >공개 URL 또는 포함 코드를 통한 증명 공유 허용 설정을 활성화해야 합니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -49,6 +51,8 @@ ht-degree: 0%
 </table>
 
 &#42;보유 중인 플랜, 역할 또는 증명 권한 프로필을 확인하려면 Workfront 또는 Workfront Proof 관리자에게 문의하십시오.
+
++++
 
 ## URL 공유
 

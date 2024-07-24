@@ -6,9 +6,9 @@ description: 비디오 타임라인에서 사용되는 측정 단위를 조정�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 553c7cea-6d92-438e-a76e-639daa020ac5
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '321'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 1%
 비디오 타임라인에서 사용되는 측정 단위를 조정할 수 있습니다. 시간, 프레임 또는 타임코드로 타임라인을 볼 수 있습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -45,6 +47,8 @@ ht-degree: 1%
 </table>
 
 &#42;보유 중인 플랜, 역할 또는 증명 권한 프로필을 확인하려면 Workfront 또는 Workfront Proof 관리자에게 문의하십시오.
+
++++
 
 ## 타임라인의 측정 단위 변경
 

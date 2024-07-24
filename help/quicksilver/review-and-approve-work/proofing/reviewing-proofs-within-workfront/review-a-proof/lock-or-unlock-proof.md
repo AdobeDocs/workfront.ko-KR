@@ -6,9 +6,9 @@ description: 검토 프로세스에서 언제든지 증명을 수동으로 잠�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 39dc8c17-b087-4c7c-be19-3bbe93577966
-source-git-commit: a90c11699a8c057248ec226a4b25fb7d526ab16a
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '382'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 1%
 검토 프로세스에서 언제든지 증명을 수동으로 잠그고 잠금 해제할 수 있습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -45,6 +47,8 @@ ht-degree: 1%
 </table>
 
 &#42;보유 중인 플랜, 역할 또는 증명 권한 프로필을 확인하려면 Workfront 또는 Workfront Proof 관리자에게 문의하십시오.
+
++++
 
 ## 증명 잠금
 

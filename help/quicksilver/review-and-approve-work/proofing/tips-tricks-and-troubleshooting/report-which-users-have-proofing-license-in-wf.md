@@ -7,9 +7,9 @@ description: 다음 방법 중 하나로 현재 Adobe Workfront에서 "사용자
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4d45ecd9-4348-43a4-9fa7-090b996b4695
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '380'
 ht-degree: 1%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 1%
 다음 방법 중 하나로 현재 Adobe Workfront에서 &quot;사용자가 증명을 생성할 수 있음&quot; 옵션이 활성화된 사용자를 확인할 수 있습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -46,6 +48,8 @@ ht-degree: 1%
 </table>
 
 &#42;보유 중인 플랜, 역할 또는 증명 권한 프로필을 확인하려면 Workfront 또는 Workfront Proof 관리자에게 문의하십시오.
+
++++
 
 ## 사용자 보고서 만들기
 

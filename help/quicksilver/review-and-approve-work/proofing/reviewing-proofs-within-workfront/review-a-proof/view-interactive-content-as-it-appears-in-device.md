@@ -6,9 +6,9 @@ description: 다양한 장치에서 대화형 증명이 어떻게 보이는지 �
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 99165790-0c34-4540-92d9-956ae178a874
-source-git-commit: d4fa663e22daf25fec77be79a452eb207857bdda
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '587'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 1%
 다양한 장치에서 대화형 증명이 어떻게 보이는지 미리 볼 수 있으므로 다양한 해상도에 따라 콘텐츠가 어떻게 표시되고 응답하는지 확인할 수 있습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -45,6 +47,8 @@ ht-degree: 1%
 </table>
 
 &#42;보유 중인 플랜, 역할 또는 증명 권한 프로필을 확인하려면 Workfront 또는 Workfront Proof 관리자에게 문의하십시오.
+
++++
 
 ## 데스크탑 증명 뷰어와 웹 증명 뷰어의 장치 및 해상도 보기
 

@@ -6,9 +6,9 @@ description: 증명 내에서 영역을 측정할 수 있습니다.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: c44de4f0-654e-4b1e-b3d6-2bd8f1ee9d8a
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '331'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 1%
 증명 내에서 영역을 측정할 수 있습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -45,6 +47,8 @@ ht-degree: 1%
 </table>
 
 &#42;보유 중인 플랜, 역할 또는 증명 권한 프로필을 확인하려면 Workfront 또는 Workfront Proof 관리자에게 문의하십시오.
+
++++
 
 ## 증명 내 영역 측정
 

@@ -6,9 +6,9 @@ description: 증명 뷰어에서 증명에 댓글을 달 때 다른 사용자를
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4efbfdeb-3834-48dd-aa5b-515891bac519
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 0%
 * 증명에 외부 사용자로 추가되었으며 다른 증명 계정을 가진 다른 환경의 멤버인 경우 원래 환경의 해당 사용자만 태그를 지정할 수 있습니다. <!--For more information, see [Proofing collaboration limitations with people outside of your organization](../../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/collaboration-with-members-outside-of-your-organization.md)-->
 
 ## 액세스 요구 사항 {#access-requirements}
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -55,6 +57,8 @@ ht-degree: 0%
 
 &#42;보유 중인 플랜, 역할 또는 증명 권한 프로필을 확인하려면 Workfront 또는 Workfront Proof 관리자에게 문의하십시오.
 
++++
+
 ## 사용자를 태그로 지정하여 증명 공유
 
 위의 [액세스 요구 사항](#access-requirements) 섹션에 설명된 증명 권한 프로필 또는 증명 역할을 가진 사용자는 기본적으로 증명을 공유하도록 사용자를 태그 지정할 수 있습니다. 증명 소유자 또는 작성자인 경우 증명 권한 프로필 또는 증명 역할에 관계없이 증명 공유를 위해 사용자에 태그를 지정할 수도 있습니다. 낮은 증명 권한 프로필 또는 증명 역할을 가진 사용자가 증명을 만들 때 증명에 태그를 지정하여 공유할 수 있도록 설정할 수 있습니다. 자세한 내용은 [기본 워크플로를 사용하여 고급 증명 만들기](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md) 문서의 [워크플로 구성 및 검토자 추가](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md#configur) 섹션을 참조하십시오.
@@ -76,7 +80,7 @@ ht-degree: 0%
    >아무도 선택하지 않고 드롭다운 목록을 닫으려면 **Esc** 키를 누르거나 목록 바깥쪽을 클릭하면 됩니다.
 
 1. 댓글에 태깅할 다른 모든 사용자에 대해 1~2단계를 반복합니다.
-1. 댓글을 작성한 다음 **Post**&#x200B;을(를) 클릭합니다.
+1. 댓글을 작성한 후 **게시물**&#x200B;을 클릭하세요.
 1. (조건부) 증명에 아직 추가되지 않은 사용자를 태그 지정한 경우 표시되는 상자에 나열된 각 사용자에 대해 **증명 역할** 및 **알림 메일** 설정을 지정한 다음 **사람 추가 및 댓글 게시**&#x200B;를 클릭합니다.
 
    ![](assets/add-people-to-proof-350x220.png)

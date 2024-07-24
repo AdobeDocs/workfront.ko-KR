@@ -6,9 +6,9 @@ description: 아래 설명된 대로 증명을 열 수 없는 경우 Adobe Workf
 author: Courtney
 feature: Digital Content and Documents
 exl-id: bff8bf09-fca7-41cb-b6bc-813f08d3e18f
-source-git-commit: 69b1677835ea783aa9baf5026e782440395013f0
+source-git-commit: 21d4fb3bd2a6c08b390338d28e357a80f4befeae
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '252'
 ht-degree: 5%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 5%
 아래 설명된 대로 증명을 열 수 없는 경우 Adobe Workfront 관리자 또는 Workfront Proof 관리자에게 문의하십시오.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -43,6 +45,8 @@ ht-degree: 5%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 {{latest-version}}
 

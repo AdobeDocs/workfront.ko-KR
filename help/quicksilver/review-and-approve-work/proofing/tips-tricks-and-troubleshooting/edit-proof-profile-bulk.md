@@ -7,9 +7,9 @@ description: 증명 권한 프로필을 일괄적으로 편집하는 방법을 �
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a804a007-7c9f-471e-ad07-8adca6672575
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '256'
 ht-degree: 3%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 3%
 # 증명 권한 프로필 필드를 일괄적으로 편집
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -45,9 +47,11 @@ ht-degree: 3%
 
 &#42;보유 중인 플랜, 역할 또는 증명 권한 프로필을 확인하려면 Workfront 또는 Workfront Proof 관리자에게 문의하십시오.
 
++++
+
 ## 증명 권한 프로필 필드를 일괄적으로 편집
 
-1. Adobe Workfront의 오른쪽 상단에 있는 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **사용자** ![](assets/users-icon-in-main-menu.png)를 클릭합니다.
+{{step-1-to-users}}
 
 1. **액세스 수준**&#x200B;별로 사용자를 정렬하십시오. **증명 권한 프로필** 필드가 표시되도록 하려면 액세스 수준별로 일괄 편집하는 것이 좋습니다.
 

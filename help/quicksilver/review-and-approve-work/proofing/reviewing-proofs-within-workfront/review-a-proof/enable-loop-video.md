@@ -6,10 +6,10 @@ description: 비디오가 계속 반복되도록 구성할 수 있습니다(비�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 944c4d15-e868-4481-9d35-318a319dc375
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 2%
+source-wordcount: '209'
+ht-degree: 1%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 2%
 비디오가 계속 반복되도록 구성할 수 있습니다(비디오가 끝난 후 다시 재생되기 시작). 
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -45,6 +47,8 @@ ht-degree: 2%
 </table>
 
 &#42;보유 중인 플랜, 역할 또는 증명 권한 프로필을 확인하려면 Workfront 또는 Workfront Proof 관리자에게 문의하십시오.
+
++++
 
 ## 비디오 증명에서 루프 활성화
 
