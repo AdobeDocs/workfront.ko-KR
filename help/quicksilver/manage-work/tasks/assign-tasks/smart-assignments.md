@@ -7,7 +7,7 @@ description: 작업 및 문제 할당을 관리할 때 스마트 할당을 사�
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
+source-git-commit: 758dae749d324326857a330c8a23954764e68fd1
 workflow-type: tm+mt
 source-wordcount: '1247'
 ht-degree: 0%
@@ -51,13 +51,13 @@ ht-degree: 0%
 
   ![](assets/smart-assignments-issue-list.png)
 
-* 할당 열의 작업 목록 또는 보고서
+* <span class="preview">할당 열의 작업 목록 또는 보고서</span>
 
-  <span class="preview">![](assets/smart-assignments-task-list.png)</span>
+  ![](assets/smart-assignments-task-list.png)
 
-* 할당 필드의 작업 헤더
+* <span class="preview">할당 필드의 작업 헤더</span>
 
-  <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
+  ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
 * 할당 필드의 문제 헤더
 
@@ -67,9 +67,9 @@ ht-degree: 0%
 
   ![](assets/issue-assignments-summary-panel.png)
 
-* 프로젝트에 작업을 추가할 때 새 작업 상자의 할당 필드
+* <span class="preview">프로젝트에 작업을 추가할 때 새 작업 상자의 할당 필드</span>
 
-  <span class="preview">![](assets/smart-assignments-new-task-modal.png)</span>
+  ![](assets/smart-assignments-new-task-modal.png)
 
 <!--this is not possible in the new home  - we have Summary there: 
 * The Assignments field for an item listed in the Home area, when you open a task or issue
@@ -77,9 +77,9 @@ ht-degree: 0%
   ![](assets/smart-assignments-in-home-nwe-350x216.png)
 -->
 
-* 작업 또는 문제를 할당할 때 할당 대상 영역의 업무 균형자
+* <span class="preview">작업 또는 문제를 할당할 때 할당된 대상 영역의 업무 균형자</span>
 
-  <span class="preview">![](assets/smart-assignments-workload-balancer-bulk-assignments.png)</span>
+  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 
 ## 스마트 할당 기준
