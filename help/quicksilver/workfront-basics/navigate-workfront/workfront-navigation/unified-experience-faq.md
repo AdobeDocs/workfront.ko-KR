@@ -6,9 +6,9 @@ description: ' [!DNL Workfront] 과(와) Adobe Experience Cloud 간에 몇 가�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: 019a1b61cd97d5d61f9a4fbf3f98eccab50809a8
+source-git-commit: 0cdd29a0fd58427197f1b9a4b4907089d3d86115
 workflow-type: tm+mt
-source-wordcount: '1288'
+source-wordcount: '1302'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,7 @@ ht-degree: 0%
 | 조직 전환기를 사용하면 [!DNL Workfront]개의 조직과 환경 간에 이동할 수 있습니다. | 조직 전환기를 사용할 수 없습니다. |
 | 탐색에는 [!DNL Workfront] 탐색 모음 외에 [!DNL Adobe]개 제품, [!DNL Adobe]개 알림, 도움말 및 사용자 프로필에 대한 최상위 탐색 영역이 포함되어 있습니다. | 탐색에는 [!DNL Workfront] 탐색 모음만 포함됩니다. |
 | [!UICONTROL 기본 메뉴] 및 위쪽 탐색 영역을 통해 도움말에 액세스할 수 있습니다. | [!UICONTROL 기본 메뉴] 및 [!DNL Workfront] 탐색 모음을 통해 도움말에 액세스할 수 있습니다. |
+| 증명 뷰어가 새 탭에서 열립니다 | 증명 뷰어가 Workfront 내에서 열립니다 |
 
 {style="table-layout:auto"}
 
