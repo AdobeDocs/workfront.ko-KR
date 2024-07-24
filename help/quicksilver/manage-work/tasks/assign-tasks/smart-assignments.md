@@ -7,14 +7,16 @@ description: 작업 및 문제 할당을 관리할 때 스마트 할당을 사�
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
-source-wordcount: '1269'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
 
 # 스마트 할당 개요
+
+<!--Audited: 07/2024-->
 
 <!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
@@ -22,7 +24,7 @@ ht-degree: 0%
 
 <span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>을 참조하세요.
 
-<span class="preview">현재 릴리스에 대한 자세한 내용은 [2024년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)를 참조하십시오.</span>
+<span class="preview">현재 릴리스에 대한 자세한 내용은 [2024년 4분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)를 참조하십시오.</span>
 
 작업 및 문제 할당을 관리할 때 스마트 할당을 사용하여 작업을 완료하는 데 가장 적합한 리소스를 식별할 수 있습니다. 스마트 할당은 작업에 가장 적합한 리소스를 결정하는 알고리즘을 기반으로 리소스에 작업 항목을 할당할 때 Adobe Workfront이 제공하는 제안입니다. 스마트 할당은 사용자, 작업 역할 또는 팀이 될 수 있습니다.
 
@@ -36,10 +38,10 @@ ht-degree: 0%
 
 스마트 할당으로 작업할 때 다음 사항을 고려하십시오.
 
-* 알고리즘은 작업과 문제에 대해 독립적으로 작동합니다. 즉, Workfront은 문제 및 작업과 관련된 기준에 따라 목록을 빌드하므로 문제에 대한 제안 사용자 목록은 작업에 대한 제안 사용자 목록과 다를 수 있습니다.
-* 스마트 할당은 작업 역할이나 팀을 추천하지 않습니다. 대신 작업 또는 문제를 완료하는 데 가장 적합한 사용자의 제안입니다.
-* 제안된 할당은 항상 활성 사용자입니다.
-* 먼저 나열된 사용자가 작업에 가장 잘 맞습니다.
+* <span class="preview">알고리즘이 작업 및 문제에 대해 독립적으로 작동합니다. 즉, Workfront은 문제 및 작업과 관련된 기준에 따라 목록을 빌드하므로 문제에 대한 제안 사용자 목록은 작업에 대한 제안 사용자 목록과 다를 수 있습니다. </span>
+<!--not sure this is accurate: * Smart assignments do not recommend job roles or teams. Instead, they are suggestions of users who are best fit to complete a task or an issue. -->
+* 제안된 할당은 항상 활성 사용자, 작업 역할 또는 팀입니다.
+* 먼저 나열된 리소스는 작업에 가장 적합한 리소스여야 합니다.
 
 ## 스마트 할당 제안 찾기
 
@@ -51,11 +53,11 @@ ht-degree: 0%
 
 * 할당 열의 작업 목록 또는 보고서
 
-  ![](assets/smart-assignments-task-list.png)
+  <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 
 * 할당 필드의 작업 헤더
 
-  ![](assets/smart-assignments-task-header-nwe-350x302.png)
+  <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
 
 * 할당 필드의 문제 헤더
 
@@ -67,7 +69,7 @@ ht-degree: 0%
 
 * 프로젝트에 작업을 추가할 때 새 작업 상자의 할당 필드
 
-  ![](assets/smart-assignments-new-task-modal.png)
+  <span class="preview">![](assets/smart-assignments-new-task-modal.png)</span>
 
 <!--this is not possible in the new home  - we have Summary there: 
 * The Assignments field for an item listed in the Home area, when you open a task or issue
@@ -77,7 +79,7 @@ ht-degree: 0%
 
 * 작업 또는 문제를 할당할 때 할당 대상 영역의 업무 균형자
 
-  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
+  <span class="preview">![](assets/smart-assignments-workload-balancer-bulk-assignments.png)</span>
 
 
 ## 스마트 할당 기준
@@ -86,11 +88,13 @@ ht-degree: 0%
 
 ### 작업에 대한 스마트 할당 기준
 
-작업 스마트 할당 계산은 두 가지 다른 알고리즘을 사용하는 두 단계에서 작동합니다.
+작업 스마트 할당 계산은 <span class="preview">두 개의 다른 알고리즘을 사용하는 두 단계에서 작동합니다.</span>
 
-스마트 할당을 찾는 알고리즘에 따라 할당은 할당 필드의 두 개의 별도 섹션 아래에 나열됩니다. 자세한 내용은 [스마트 할당 만들기](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md)를 참조하십시오.
+<span class="preview">스마트 할당을 찾는 알고리즘에 따라 할당은 [할당] 필드의 두 개의 별도 섹션 아래에 나열됩니다.</span> 자세한 내용은 [스마트 할당 만들기](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md)를 참조하십시오.
 
 ![](assets/smart-assignments-task-list.png)
+
+<div class="preview">
 
 #### 작업에 대한 스마트 할당 계산의 첫 번째 단계
 
@@ -127,6 +131,8 @@ ht-degree: 0%
 * 이 단계에서 식별된 할당은    작업에 대한 할당 필드의 **제안된 할당** 섹션.
 
 * 이 계산을 사용하여 일치하는 항목이 없으면 스마트 할당의 두 번째 단계가 시작되고 다른 알고리즘을 사용하여 계산됩니다.
+
+</div>
 
 #### 작업에 대한 스마트 할당 계산의 두 번째 단계
 

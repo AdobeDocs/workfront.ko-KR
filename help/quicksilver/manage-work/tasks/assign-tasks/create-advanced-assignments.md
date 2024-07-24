@@ -7,14 +7,22 @@ author: Alina
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 830ad0411084844ace1e1e543c3ebefcb558af80
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1171'
 ht-degree: 0%
 
 ---
 
 # 고급 할당 만들기
+
+<!-- Audited: 07/2024-->
+
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리 보기 환경이나 빠른 릴리스를 활성화한 고객의 프로덕션 환경에서만 사용할 수 있습니다.</span>
+
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>을 참조하세요.
+
+<span class="preview">현재 릴리스에 대한 자세한 내용은 [2024년 4분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)를 참조하십시오.</span>
 
 고급 할당을 사용하여 작업 또는 문제 할당을 관리할 수 있습니다.
 
@@ -92,7 +100,7 @@ ht-degree: 0%
 
 1. **고급**&#x200B;을 클릭합니다.
 
-   ![고급 클릭](assets/assignments-box-in-task-header.png)
+   <span class="preview">![고급 클릭](assets/assignments-box-in-task-header.png)</span>
 
 1. **사람, 역할 및 팀 검색** 필드에서 사용자, 역할 또는 팀의 이름을 입력한 다음 드롭다운 목록에 나타나면 이름을 클릭합니다.
 
@@ -138,15 +146,10 @@ ht-degree: 0%
      -->
 
      >[!TIP]
-     >
-     >
-     >   
      >   
      >   * 작업에 대한 할당 할당을 수동으로 수정한 후 작업의 계획된 시간이 그에 따라 업데이트될 수 있습니다. 자세한 내용은 문서 [계획된 시간 개요](../../../manage-work/tasks/task-information/planned-hours.md)의 &quot;사용자 할당을 관리할 때 작업 계획된 시간 업데이트&quot; 섹션을 참조하십시오.
      >   * 문제에 대한 할당 할당을 수동으로 수정할 수 없습니다.
      >   * 작업에 할당된 팀의 할당은 수동으로 수정할 수 없습니다.
-     >   
-     >
 
    * **피할당자의 역할:** 이 할당을 수행할 때 사용자가 사용해야 하는 역할을 선택합니다.  사용자의 기본 역할 이 기본적으로 표시됩니다. 피할당자의 역할 상자를 클릭하여 다른 역할을 선택합니다.  먼저 작업 또는 문제를 역할에 할당한 다음 해당 역할을 수행할 수 있는 사용자를 두 번째 할당으로 추가하면 제안된 사용자 목록이 작업 및 문제에 이미 할당된 역할을 수행할 수 있는 사용자에 대해 필터링됩니다.
 

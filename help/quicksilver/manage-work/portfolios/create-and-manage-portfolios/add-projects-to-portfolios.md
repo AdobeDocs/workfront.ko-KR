@@ -6,9 +6,9 @@ description: 프로젝트를 시작할 때 포트폴리오에 프로젝트를 �
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -33,8 +33,9 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
-   <td> <p>임의</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 플랜*</td> 
+   <td> <p>새로 만들기: 모두</p>
+   <p>현재:[!UICONTROL Business] 이상</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
@@ -42,12 +43,12 @@ ht-degree: 0%
    <p>현재:[!UICONTROL 계획] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>Portfolio 이상에 대한 [!UICONTROL 보기] 액세스</p> <p>프로젝트에 대한 [!UICONTROL 편집] 액세스 권한</p> </td> 
+   <td role="rowheader">액세스 수준</td> 
+   <td> <p>[!UICONTROL Edit] 액세스 Portfolio</p> <p>프로젝트에 대한 [!UICONTROL 편집] 액세스 권한</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>포트폴리오에 대한 [!UICONTROL 보기] 권한</p> <p>프로젝트에 대한 [!UICONTROL 관리] 권한</p>  </td> 
+   <td> <p>포트폴리오에 대한 [!UICONTROL 관리] 권한</p> <p>프로젝트에 대한 [!UICONTROL 관리] 권한</p>  </td> 
   </tr> 
  </tbody> 
 </table>

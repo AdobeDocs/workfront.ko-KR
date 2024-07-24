@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 212dda4289e4d29dbfbff0dbdc55315215b5ad91
 workflow-type: tm+mt
-source-wordcount: '3553'
+source-wordcount: '3775'
 ht-degree: 0%
 
 ---
@@ -473,3 +473,36 @@ Workfront 보드의 연결된 카드에 시간을 기록할 수 있습니다. �
 
 Workfront 모바일 앱에서 시간을 기록할 수 있습니다.
 자세한 내용은 [Android용 Adobe Workfront](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) 또는 [iOS용 Adobe Workfront](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)을 참조하십시오.
+
+## 목록 및 보고서에서 기록된 시간 편집
+
+다음 영역에서 기록된 시간을 편집할 수 있습니다.
+
+* 미종료 타임시트를 포함하여 시간을 추가한 모든 영역
+* 시간 목록 및 보고서.
+
+목록 또는 보고서에서 시간 항목을 편집할 때 시간 항목의 다음 요소를 편집할 수 있습니다.
+
+* 시간 수
+* 시간 유형
+* 시간 항목과 연결된 작업 역할
+
+편집하는 시간 항목 유형에 따라 다음 필드를 편집할 수 있습니다.
+
+* 프로젝트별 시간을 편집할 때:
+
+   * 시간 수를 편집할 수 있습니다.
+   * 시간 유형 을 프로젝트별 유형으로만 변경할 수 있습니다.
+   * 시간 작업 역할 할당이 설정에서 활성화된 경우에만 변경할 수 있습니다. 자세한 내용은 [타임시트 및 시간 환경 설정 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)을 참조하세요.
+
+* 일반 시간을 편집할 때:
+
+   * 시간 수를 편집할 수 있습니다.
+   * 시간 유형은 일반 유형으로만 변경할 수 있습니다.
+   * 일반 시간은 역할과 연결할 수 없으므로 시간 작업 역할 할당을 변경할 수 없습니다.
+
+* 일반 시간과 프로젝트별 시간의 혼합을 일괄 편집할 때:
+
+   * 시간 수를 편집할 수 있습니다.
+   * 일반 시간 유형은 프로젝트별 유형으로 변경할 수 없으며 프로젝트별 시간 유형은 일반 유형으로 변경할 수 없으므로 시간 유형을 변경할 수 없습니다.
+   * 일반 시간은 역할과 연결할 수 없으므로 작업 역할 할당을 변경할 수 없습니다.

@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
 source-wordcount: '1985'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 <span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>을 참조하세요.
 
-<span class="preview">현재 릴리스에 대한 자세한 내용은 [2024년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)를 참조하십시오.</span>
+<span class="preview">현재 릴리스에 대한 자세한 내용은 [2024년 4분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)를 참조하십시오.</span>
 
 작업을 사용자, 작업 역할 또는 팀에 할당하여 작업 완료를 담당하는 사람을 표시할 수 있습니다. 한 번에 두 개 이상의 리소스에 작업을 할당할 수 있습니다.
 
@@ -55,6 +55,8 @@ ht-degree: 1%
 * [업무 균형자에서 작업 할당 개요](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 
 ## 액세스 요구 사항
+
+<!-- Audited: 07/2024-->
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
@@ -164,7 +166,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      ><span class="preview">작업 역할 할당을 추가할 때 작업 역할이나 위치를 검색할 수 있습니다. 발령에 대한 기본 청구 요율을 사용하려면 작업 역할 목록에서 역할을 선택하고, 요율 카드에서 청구 요율을 사용하려면 요율 카드 작업 역할을 선택합니다. 등급 카드에 대한 자세한 내용은 [등급 카드 관리](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>를 참조하십시오.
 
 
-   * (조건부) 표시될 때 **제안된 할당**, **사용자 및 팀**, **작업 역할** 또는 <span class="preview">**카드 역할 비율**</span> 목록에 있는 이름 중 하나를 클릭합니다. 자세한 내용은 [스마트 할당 개요](../../../manage-work/tasks/assign-tasks/smart-assignments.md)를 참조하십시오.
+   * (조건부) 표시될 때 <span class="preview">**제안된 할당**</span>, **사용자 및 팀**, **작업 역할** 또는 <span class="preview">**카드 역할 비율**</span> 목록에 있는 이름 중 하나를 클릭합니다. 자세한 내용은 [스마트 할당 개요](../../../manage-work/tasks/assign-tasks/smart-assignments.md)를 참조하십시오.
 
      작업에 할당할 사용자, 팀 또는 작업 역할의 이름을 입력한 다음 목록에 표시될 때 선택할 수 있습니다.
 
