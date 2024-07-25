@@ -6,22 +6,47 @@ description: 이미 보류 중인 승인이 있는 문서에 승인자 또는 �
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 3fc398c4ce2283964982ac0dd00b9533f62c11c0
+source-git-commit: 3eb17c355f78e14924c8ef36570b76d5719e322e
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 2%
+source-wordcount: '574'
+ht-degree: 1%
 
 ---
 
 # 새 문서 승인 개요
 
-새 문서 승인은 현재 Adobe Workfront용으로 개발 중인 기존 승인 프로세스를 전체적으로 재설계한 것입니다. 현재 제한된 릴리스에서 제공되고 있는 이 솔루션은 포괄적인 이해 관계자 참여 및 버전별 문서 승인이 필요한 비즈니스에 실용적이고 효과적인 솔루션이 되도록 설계되었습니다. 사려 깊은 디자인과 목적적인 새로운 기능을 통해 승인 프로세스에서 공동 작업, 역할 명확성 및 버전 제어를 용이하게 하여 효율성과 책임성을 높일 수 있습니다.
-
-새 문서 승인에 대해 계획된 기능 및 릴리스에 대한 자세한 내용은 아래를 계속 읽어 보십시오.
-
 >[!IMPORTANT]
 >
 >이 문서의 내용은 특정 계정에만 사용할 수 있는 업데이트된 문서 승인 기능에 적용됩니다. 표준 승인 프로세스에 대한 자세한 내용은 [작업 승인](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md)에 나열된 문서를 참조하십시오.
+
+새 문서 승인은 현재 Adobe Workfront용으로 개발 중인 기존 승인 프로세스를 전체적으로 재설계한 것입니다. 현재 제한된 릴리스에서 제공되고 있는 이 솔루션은 포괄적인 이해 관계자 참여 및 버전별 문서 승인이 필요한 비즈니스에 실용적이고 효과적인 솔루션이 되도록 설계되었습니다. 사려 깊은 디자인과 목적적인 새로운 기능을 통해 승인 프로세스에서 공동 작업, 역할 명확성 및 버전 제어를 용이하게 하여 효율성과 책임성을 높일 수 있습니다.
+
+## 증명 및 기존 문서 승인과의 주요 차이점
+
+**증명**
+
+* 증명 뷰어에서 문서 승인 결정 버튼을 사용할 수 없습니다. 문서 요약, Workfront 홈 위젯 또는 문서 세부 정보 페이지에서 결정을 내릴 수 있습니다.
+* 문서 승인 참여자는 증명 워크플로 탭이 아니라 문서 요약에 표시됩니다.
+* 새 문서 승인은 현재 보고 도구에서 지원되지 않습니다. 새 홈 및 캔버스 대시보드에서 사용할 수 있는 모든 승인 위젯은 새 문서 승인에 대한 다음 세부 정보를 제공합니다.
+
+   * 결정에 의한 승인
+   * 평균 승인 시간
+   * 보류 중인 승인
+   * 기한이 경과된 승인
+
+**기존 문서 승인**
+
+* 승인자 외에 검토자를 추가할 수 있습니다.
+* 전체 Workfront 팀을 검토자 또는 승인자로 지정할 수 있습니다.
+* 검토 또는 승인 기한을 설정할 수 있습니다.
+* 승인 템플릿을 만들고 재사용할 수 있습니다.
+* Workfront 홈 위젯에서 승인에 대한 여러 주요 성능 지표를 볼 수 있습니다.
+
+## 새 문서 승인 사용
+
+문서 승인을 만들거나 관리하려는 사용자의 경우 [자산 및 문서 승인 설정 및 관리: 문서 색인](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)에 나열된 문서를 참조하십시오.
+
+요청을 받은 문서를 검토하거나 승인하려는 사용자의 경우 [문서 승인 및 검토: 문서 색인](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)에 나열된 문서를 참조하십시오.
 
 ## 새로운 기능 및 디자인 목표
 
@@ -45,17 +70,4 @@ ht-degree: 2%
 
 프로덕션 환경에서 새 문서 승인을 활성화하려면 고객 성공 또는 전략 계정 관리자에게 문의하십시오.
 
-## 새 문서 승인 사용
 
-문서 승인을 만들거나 관리하려는 사용자의 경우 [자산 및 문서 승인 설정 및 관리: 문서 색인](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)에 나열된 문서를 참조하십시오.
-
-요청을 받은 문서를 검토하거나 승인하려는 사용자의 경우 [문서 승인 및 검토: 문서 색인](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)에 나열된 문서를 참조하십시오.
-
->[!IMPORTANT]
->
->새 문서 승인은 현재 보고 도구에서 지원되지 않습니다. 새 홈 및 캔버스 대시보드에서 사용할 수 있는 모든 승인 위젯은 새 문서 승인에 대한 다음 세부 정보를 제공합니다.
->
->* 결정에 의한 승인
->* 평균 승인 시간
->* 보류 중인 승인
->* 기한이 경과된 승인
