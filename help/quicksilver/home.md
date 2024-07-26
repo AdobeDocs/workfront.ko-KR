@@ -3,9 +3,9 @@ title: '[!DNL Adobe Workfront] 설명서'
 description: ' [!DNL Adobe Workfront]에 대한 설명서.'
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: 988dd7b089ac9bf3c372bb04813c8848309216b6
+source-git-commit: a29cd19d6b261aa7709966c68cd821cdddf17ccc
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '345'
 ht-degree: 1%
 
 ---
@@ -29,6 +29,7 @@ Adobe Workfront 제품 및 기술 설명서 홈 페이지를 시작합니다. �
 * [2024년 1분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)
 * [2024년 2분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
 * [2024년 3분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
+* [2024년 4분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
 * [Adobe Workfront Fusion 릴리스 활동](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
 
 >[!TAB 베타]
