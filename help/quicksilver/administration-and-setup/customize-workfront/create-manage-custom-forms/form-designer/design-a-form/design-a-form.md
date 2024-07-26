@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: e52881a03f69d7c4d6a62dcdc9c6044f6f5dd016
+source-git-commit: 969231d27e1ef2f3f3cd2847664c22f1f21f1911
 workflow-type: tm+mt
-source-wordcount: '6101'
+source-wordcount: '6090'
 ht-degree: 4%
 
 ---
@@ -538,7 +538,6 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->* 외부 조회 기능은 현재 문서 사용자 정의 양식에서 지원되지 않습니다.
 >* 사용자 정의 양식의 외부 조회 필드는 현재 대시보드에서 지원되지 않습니다. 필드 값을 인라인으로 편집할 수 없으며 대시보드에 제대로 표시되지 않을 수 있습니다. (외부 조회 필드는 캔버스 대시보드에서 지원됩니다.)
 >* 외부 조회 필드는 Outlook 플러그인에서 지원되지 않습니다.
 >* 외부 조회 필드는 다른 필드에 종속되지 않는 한 목록에서 사용할 수 있습니다.
