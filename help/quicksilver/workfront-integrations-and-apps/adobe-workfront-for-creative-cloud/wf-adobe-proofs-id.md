@@ -6,9 +6,9 @@ description: 미술 게시판을 빠른 검토 및 승인을 위한 문서로 �
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: ee3dc446-6886-4285-a942-4f44f5c0ac31
-source-git-commit: 68dae619348c3359ea8a7ae3ff84543d5e4171ec
+source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '667'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 미술 게시판을 [!DNL Adobe Workfront]에 직접 증명으로 업로드하여 검토 및 승인할 수 있습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -49,6 +51,8 @@ ht-degree: 0%
 </table>
 
 &#42;플랜, 역할 또는 증명 권한 프로필이 있는지 확인하려면 [!DNL Workfront] 또는 [!DNL Workfront Proof] 관리자에게 문의하세요.
+
++++
 
 ## 전제 조건
 

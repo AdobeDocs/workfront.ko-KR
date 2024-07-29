@@ -6,9 +6,9 @@ description: 아트보드를 교정으로 Adobe Workfront에 직접 업로드하
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
-source-git-commit: d5255968a96452d9501a285408f67be7da10d933
+source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1018'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 대지를 증명으로 [!DNL Adobe Workfront]에 직접 업로드하여 검토 및 승인을 철저히 할 수 있습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -49,6 +51,8 @@ ht-degree: 0%
 </table>
 
 &#42;플랜, 역할 또는 증명 권한 프로필이 있는지 확인하려면 [!DNL Workfront] 또는 [!DNL Workfront Proof] 관리자에게 문의하세요.
+
++++
 
 ## 전제 조건
 
