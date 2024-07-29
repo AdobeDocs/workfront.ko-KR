@@ -6,9 +6,9 @@ description: ' [!DNL Jira] 문제를  [!DNL Adobe Workfront] 작업 또는 문�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
-source-git-commit: f22a67cd3235a3111f7b874637ec05f8299de271
+source-git-commit: f2169acfbcbf6a1497bd35de01821a09c7b3d59c
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1229'
 ht-degree: 0%
 
 ---
@@ -136,18 +136,24 @@ Jira 문제를 자동으로 만들기 위한 트리거를 정의하는 방법에
 [!DNL Jira] 문제를 [!DNL Workfront] 항목에 수동으로 연결하려면:
 
 1. (조건부) [!DNL Workfront]에 로그인하고 [!DNL Jira] 문제에 연결할 문제 또는 작업을 찾습니다.
-1. (조건부) 항목의 주소 표시줄에서 Workfront에 있는 항목의 **URL**&#x200B;을(를) 복사합니다.
+1. (조건부) [!UICONTROL 세부 정보] 영역에서 Workfront 항목의 **[!UICONTROL 참조 번호]**&#x200B;를 복사합니다.
 
    또는
 
-   [!UICONTROL 세부 정보] 영역에서 Workfront 항목의 **[!UICONTROL 참조 번호]**&#x200B;을(를) 복사합니다.
+   항목의 주소 표시줄에서 Workfront에 있는 항목의 **URL**&#x200B;을(를) 복사합니다.
+
+   >[!IMPORTANT]
+   >
+   >조직이 Adobe 통합 경험에 온보딩된 경우 Workfront 항목을 Jira에 연결하려면 **참조 번호**&#x200B;를 사용해야 합니다. (URL 옵션을 사용할 수 있지만 이 옵션을 사용하면 오류가 반환됩니다.) 통합 경험에 대한 자세한 내용은 [Workfront용 통합 경험 Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)를 참조하십시오.
+   >
+   >통합 경험 Adobe에 없는 조직의 경우 URL이 변경될 수 있으므로 URL 옵션을 사용하지 않는 것이 좋습니다.
 
    >[!NOTE]
    >
    >[!DNL Workfront]에 로그인하려면 [!DNL Workfront] 라이선스가 있어야 합니다. 그렇지 않으면 [!DNL Workfront] 사용자가 이 정보를 제공해야 합니다.
 
 1. [!DNL Jira]에서 [!DNL Workfront] 항목에 수동으로 연결할 문제로 이동합니다.
-1. [!DNL Workfront] 오른쪽 패널에 연결할 [!DNL Workfront] 항목의 **URL** 또는 **[!UICONTROL 참조 번호]**&#x200B;를 붙여 넣습니다.
+1. [!DNL Workfront] 오른쪽 패널에 연결할 [!DNL Workfront] 항목의 **[!UICONTROL 참조 번호]** 또는 **URL**&#x200B;을(를) 붙여 넣습니다.
 
 1. **[!UICONTROL 링크]**&#x200B;를 클릭합니다.
 
