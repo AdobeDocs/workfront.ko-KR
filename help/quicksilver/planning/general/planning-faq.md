@@ -4,9 +4,9 @@ description: 마케팅 운영 리더로서 Adobe Workfront Planning을 사용하
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
+source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
 workflow-type: tm+mt
-source-wordcount: '1675'
+source-wordcount: '1672'
 ht-degree: 0%
 
 ---
@@ -145,7 +145,12 @@ AI Assistant는 현재 Beta 버전으로 제공되며, 계정 관리자에게 �
 
 ## API를 사용하여 Planning 데이터도 가져올 수 있습니까?
 
-예. Fusion 커넥터와 함께 Planning API를 이미 사용할 수 있습니다. 자세한 내용은 [Adobe Workfront 계획 모듈](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)을 참조하세요. Workfront Planning API에 대한 설명서가 곧 제공됩니다.
+예. Fusion 커넥터와 함께 Planning API를 이미 사용할 수 있습니다.
+
+자세한 내용은 다음 문서를 참조하십시오.
+
+* [Adobe Workfront Planning 모듈](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)
+* [Adobe Workfront Planning API 기본 사항](/help/quicksilver/planning/general/planning-api-basics.md)
 
 <!--From a Marketing Workspace - is it best to have one master Workspace to use for a Global Marketing team OR is it best to have individual Workspaces for each Business Line, Country, Brand, etc. i saw that we're able to have up to 1000 Workspaces and potentially connect Workspaces. is it possible to link records btwn workspaces? Use case would be - allow each product their own workspace, but with shared record types. And then would want to see a shared view that combines everything. -->
 
@@ -197,4 +202,9 @@ Public views that are shared are visible  -->
 
 ## Adobe의 DAM 대신 자체 DAM을 사용하기 위한 사용자 지정 가능한 API가 있습니까?
 
-Fusion 커넥터와 함께 Planning API를 이미 사용할 수 있습니다. 자세한 내용은 [Adobe Workfront 계획 모듈](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)을 참조하세요. Workfront Planning API에 대한 설명서가 곧 제공됩니다. API를 사용하여 사용자 정의 통합을 구축할 수 있습니다.
+예. Workfront Planning 공용 API 및 Fusion 커넥터를 사용할 수 있습니다. API를 사용하여 사용자 정의 통합을 구축할 수 있습니다.
+
+자세한 내용은 다음 문서를 참조하십시오.
+
+* [Adobe Workfront Planning 모듈](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)
+* [Adobe Workfront Planning API 기본 사항](/help/quicksilver/planning/general/planning-api-basics.md)

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
+source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
 workflow-type: tm+mt
-source-wordcount: '2515'
+source-wordcount: '2510'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Workfront Planning 레코드를 다른 응용 프로그램의 개체에 연결�
 
 ## 액세스 요구 사항
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
++++ 를 확장하여 Workfront Planning에 대한 액세스 요구 사항을 봅니다.
 
 <table style="table-layout:auto">
  <col>
@@ -102,6 +102,8 @@ Workfront Planning 레코드를 다른 응용 프로그램의 개체에 연결�
 
 *자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
++++
+
 <!--Maybe enable this at GA - but planing is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
@@ -115,6 +117,8 @@ Workfront Planning 레코드를 다른 응용 프로그램의 개체에 연결�
 
 
 ## 레코드 유형 연결에 대한 고려 사항
+
+<!--move this to the Connect record types overview article (new)-->
 
 * Adobe Workfront Planning에서 다음 엔티티를 연결할 수 있습니다.
 

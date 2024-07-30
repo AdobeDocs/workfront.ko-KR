@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] 용어집에는  [!DNL Adobe Workfront]. Y
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
 workflow-type: tm+mt
-source-wordcount: '20310'
+source-wordcount: '20384'
 ht-degree: 0%
 
 ---
@@ -303,7 +303,7 @@ ht-degree: 0%
   <tr> 
    <td>[!UICONTROL 예산 완료 일자]</td> 
    <td> <p>사용되지 않는 필드입니다. 이 필드에 표시될 수 있는 모든 정보는 [!DNL Workfront]이(가) 제거한 기능과 관련되어 있습니다. 이 필드는 업데이트할 수 없습니다. </p>
-   <p> 이 필드는 [!UICONTROL project] 및 [!UICONTROL tasks] 보고서와 목록에 계속 표시됩니다.</p>  </td> 
+   <p> 이 필드는 [!UICONTROL 프로젝트] 보고서 및 목록에 계속 표시됩니다.</p>  </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 예산 비용]</td>
@@ -443,7 +443,7 @@ ht-degree: 0%
    <td>[!UICONTROL 예산 시작 일자]</td> 
   <td> <p>사용되지 않는 필드입니다. 이 필드에 표시될 수 있는 모든 정보는 [!DNL Workfront]이(가) 제거한 기능과 관련되어 있습니다. 이 필드는 업데이트할 수 없습니다.</p>
   <p>이 영역은 [!DNL Workfront]에서 제거되었습니다. </p> 
-  <p>필드는 여전히 [!UICONTROL project] 및 [!UICONTROL task] 보고서와 목록에 표시됩니다.</p>
+  <p>필드는 [!UICONTROL 프로젝트] 보고서 및 목록에 계속 표시됩니다.</p>
    <!--
    <p>This field shows the date when the budgeting of resources starts, as defined in the Legacy Resource Estimates area of the Business Case of a project, or the Capacity Planner.</p>
    -->   
@@ -1540,6 +1540,19 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr> 
    <td>[!UICONTROL 계획된 비용]</td> 
    <td> <p>프로젝트의 [!UICONTROL 계획된 인건비]와 [!UICONTROL 계획된 경비]의 합계입니다. 프로젝트에 대한 [!UICONTROL 계획된 위험 비용]은 포함되지 않습니다.  </p> </td> 
+  </tr>
+
+
+
+<tr> 
+   <td>[!UICONTROL 계획된 일자 정렬]</td> 
+   <td> <p>Workfront에서 항목이 계획된 완료 일자와 관련하여 완료될 때 표시할 프로젝트, 작업 및 문제를 지정하는 자동 표시기입니다. </p>
+   <p>다음은 계획된 일자 정렬 표시기에 가능한 값입니다. </p>
+<ul>
+<li>계획된 완료 일자에 완료될 예정입니다.</li>
+<li>계획된 완료 일자 이전에 완료될 예정입니다.</li>
+<li>계획된 완료 일자 이후에 완료될 예정입니다.</li></ul>
+<p>계획된 일자 정렬은 프로젝트, 작업, 문제 목록 및 보고서에 표시됩니다. </p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 계획된 기간]</td> 

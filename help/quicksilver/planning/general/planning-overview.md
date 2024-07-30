@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: eac37369a79303c1477d95aeb9f560aa0089da75
 workflow-type: tm+mt
-source-wordcount: '1989'
+source-wordcount: '1994'
 ht-degree: 2%
 
 ---
@@ -101,6 +101,7 @@ Adobe Workfront Planning은 Adobe Workfront의 새로운 제품입니다. Workfr
 | 한 필드에서 다른 필드로 정보 복사 및 붙여넣기 | ✓ 덧신 |                                  |                 |
 | Workfront 객체에서 Planning 레코드에 액세스 | ✓ 덧신 |                                  |                 |
 | Workfront 객체에서 Planning 레코드 연결 | ✓ 덧신 |                                  |                 |
+| Workfront Planning 공용 API | ✓ 덧신 |                                  |                 |
 
 ## Workfront 인스턴스의 사용자에 대해 Adobe Workfront Planning 활성화
 
