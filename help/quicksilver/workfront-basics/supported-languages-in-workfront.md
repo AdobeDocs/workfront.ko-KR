@@ -6,9 +6,9 @@ description: 브라우저의 언어 환경 설정과 Workfront 내의 기본 이
 feature: Get Started with Workfront
 author: Caroline
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 3d2e1dd5121b2495f984bed1ec1b9939de89f175
+source-git-commit: 02e1160cc56d92053c36d2aa19a8fc290467dd71
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '1022'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ Workfront은 다음 언어를 지원합니다.
 * 중국어 - 간체(zh-CN)
 * 중국어 - 번체(zh-TW)
 
-브라우저에서 Workfront을 보는 데 사용되는 언어는 브라우저 언어 설정에 의해 제어됩니다. 지원되는 언어 목록에 나열된 브라우저 언어를 선택해야 합니다.
+브라우저에서 Workfront을 보는 데 사용되는 언어는 조직이 IMS를 사용하고 있지 않은 경우 브라우저 언어 설정에 의해 제어되거나 조직이 IMS를 사용하고 있지 않은 경우 Adobe Experience Cloud 프로필 언어에 의해 제어됩니다. 두 경우 모두 지원되는 언어 목록에 나열된 언어를 선택해야 합니다.
 
 지원되는 언어 중 하나로 발신 이메일을 표시하려면 Workfront에서 사용자 이메일 로케일 또는 고객 정보 설정을 수정합니다.\
 고객 정보 설정을 수정하려면 Workfront 관리자여야 합니다.\
@@ -97,22 +97,34 @@ Workfront Fusion에 대한 자세한 내용은 [Adobe Workfront Fusion 개요](.
 
 다음 설정을 수정하여 Workfront을 보는 언어 및 발신 이메일의 언어를 변경할 수 있습니다.
 
-* 브라우저의 언어
+* 브라우저의 언어(IMS가 아닌 사용자의 경우)
+* AEM 프로필의 기본 및 보조 언어(IMS 사용자용)
 * Workfront 계정의 고객 정보 및 사용자 이메일 로케일 설정.
 
 선택한 언어에 대해 사용 가능한 모든 번역을 보려면 Workfront 로케일과 브라우저 로케일을 모두 동일한 언어로 설정해야 합니다.
 
 * [브라우저 언어 변경](#change-the-browser-language)
+* [Adobe Experience Cloud 언어 변경](#change-the-adobe-experience-cloud-language)
 * [Workfront 및 사용자 이메일 로케일 변경](#change-the-workfront-and-user-locales)
 
 ### 브라우저 언어 변경 {#change-the-browser-language}
 
-브라우저 언어를 변경하면 Workfront 인터페이스가 해당 언어로 표시됩니다.\
+조직이 IMS를 사용하고 있지 않은 경우 브라우저 언어를 변경하면 Workfront 인터페이스가 해당 언어로 표시됩니다.\
 Workfront에서 지원하는 언어에 대한 자세한 내용은 [Adobe Workfront에서 지원되는 언어](#supported-languages)를 참조하십시오.
 
 브라우저 언어는 개별 사용자 단위로 변경해야 합니다.
 
 브라우저 언어를 변경하는 방법에 대한 특정 정보는 브라우저의 &quot;도움말&quot; 메뉴를 참조하십시오.
+
+## Adobe Experience Cloud 언어 변경
+
+조직이 IMS에 있는 경우 Adobe Experience Cloud 프로필 언어에 따라 Workfront에 표시되는 언어가 결정됩니다.
+
+1. Adobe Experience Cloud 도구 모음의 오른쪽 끝에 있는 프로필 사진을 클릭한 다음 **환경 설정**&#x200B;을 클릭합니다. Adobe Experience Cloud 도구 모음은 기본 Workfront 도구 모음 바로 위에 있습니다.
+
+1. 이름과 전자 메일 주소 아래의 **프로필**&#x200B;에서 현재 선택한 언어의 이름을 클릭합니다.
+
+1. 드롭다운 **첫 번째 언어** 및 **두 번째 언어**&#x200B;에서 원하는 언어를 선택하십시오. 첫 번째 언어는 기본 언어 선택이지만 두 번째 언어는 특정 애플리케이션에서 첫 번째 언어를 지원하지 않는 경우에만 표시됩니다.
 
 ### Workfront 및 사용자 이메일 로케일 변경 {#change-the-workfront-and-user-locales}
 
