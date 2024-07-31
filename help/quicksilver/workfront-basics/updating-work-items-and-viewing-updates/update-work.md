@@ -6,7 +6,7 @@ description: Adobe Workfront 개체(프로젝트, 작업 또는 문제)에 업�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
+source-git-commit: 67deb48ebc90dd4a93c2af1cb89442ee2486cb16
 workflow-type: tm+mt
 source-wordcount: '2984'
 ht-degree: 0%
@@ -339,6 +339,7 @@ You can add updates to the following objects:
    | 하이퍼링크 | ![mceclip7.png](assets/mceclip7.png) | <br>링크 추가 상자를 열려면 ⌘+K</br> <br>선택한 텍스트 위에 링크를 붙여넣으려면: ⌘+V</br> | <br>링크 추가 상자를 열려면 Ctrl+K</br> <br>선택한 텍스트 위에 링크를 붙여넣으려면: Ctrl+V</br> |
    | 글머리 기호 목록 | ![mceclip6.png](assets/mceclip6.png) | ⌘+Shift+8 | Ctrl+Shift+8 |
    | 번호 매기기 목록 | ![mceclip5.png](assets/mceclip5.png) | ⌘+Shift+7 | Ctrl+Shift+7 |
+
    <!--| Block Quote | ![](assets/block-quote-icon-large.png)|⌘+Shift+9 |<br>Ctrl+Shift+9</br> <br>This is not available in the new commenting experience. </br> |-->
 
    <!--remove the last row when we remove legacy from the system-->
