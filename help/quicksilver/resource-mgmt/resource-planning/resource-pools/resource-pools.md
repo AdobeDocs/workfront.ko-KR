@@ -3,11 +3,11 @@ product-area: resource-management
 navigation-topic: resource-planning
 title: 리소스 풀
 description: 리소스 풀은 Adobe Workfront에서 리소스를 관리하는 데 도움이 되는 사용자의 컬렉션입니다.
-author: Alina
+author: Lisa
 feature: Resource Management
 recommendations: noDisplay, noCatalog
 exl-id: aaf8e6ab-2958-44ad-96ca-0f3d842dd800
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 36599722aafadcbbc630650a94005fd73b3e517e
 workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 5%

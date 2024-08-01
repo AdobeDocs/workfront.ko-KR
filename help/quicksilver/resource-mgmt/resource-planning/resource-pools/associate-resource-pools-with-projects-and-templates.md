@@ -3,10 +3,10 @@ product-area: resource-management
 navigation-topic: resource-pools
 title: 리소스 풀을 프로젝트 및 템플릿과 연결
 description: 리소스 풀은 Adobe Workfront에서 리소스를 관리하는 데 도움이 되는 사용자의 컬렉션입니다.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
-source-git-commit: 171ccfe5d2bc9825c9cdb195df1a97a32e515646
+source-git-commit: 36599722aafadcbbc630650a94005fd73b3e517e
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 0%

@@ -3,10 +3,10 @@ product-area: resource-management
 navigation-topic: resource-planning
 title: 리소스 풀 개요
 description: 리소스 관리자는 리소스 풀에 사용자를 추가하여 리소스를 관리할 수 있습니다.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: f3fc65c8-e436-44a4-9e9d-5b4b138a9f21
-source-git-commit: a55041ad5a6cd41cd11ec3ade27bf5227ae0ac47
+source-git-commit: 36599722aafadcbbc630650a94005fd73b3e517e
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 0%
