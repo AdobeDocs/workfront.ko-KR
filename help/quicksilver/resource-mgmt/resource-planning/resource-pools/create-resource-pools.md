@@ -6,9 +6,9 @@ description: 리소스 풀은 Adobe Workfront에서 리소스를 보다 쉽게 �
 author: Lisa
 feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
-source-git-commit: ca882fbb8b29fc728d9c688c6c671cfdf677c2cb
+source-git-commit: beec2ea4cdfcb89bf8f786a7ab2edeb804a6fbad
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '602'
 ht-degree: 1%
 
 ---
@@ -93,14 +93,14 @@ ht-degree: 1%
     </tbody>
    </table>
 
-1. (선택 사항) **실행 취소** 링크를 사용하여 그룹, 팀, 회사 또는 작업 역할을 통해 추가된 사용자를 제거합니다. <span class="preview">(미리 보기 환경에서 실행 취소 기능을 일시적으로 사용할 수 없습니다.)</span>
+1. (선택 사항) **실행 취소** 링크를 사용하여 그룹, 팀, 회사 또는 작업 역할을 통해 추가된 사용자를 제거합니다.
 
    >[!NOTE]
    >
    >리소스 풀에 보유할 수 있는 사용자 수에는 제한이 없습니다. 그러나 그렇지 않으면 리소스 관리가 문제가 될 수 있으므로 리소스 풀에 사용자를 너무 많이 추가하지 않는 것이 좋습니다. 사용자 목록에는 리소스 풀의 처음 2,000명의 사용자만 표시되며 알파벳순으로 표시됩니다.
 
    <span class="preview">미리 보기 환경의 샘플 이미지:</span>
-   <span class="preview">![사용자가 리소스 풀에 추가됨](assets/users-in-resource-pool.png)</span>
+   <span class="preview">![사용자가 리소스 풀에 추가됨](assets/users-in-resource-pool2.png)</span>
 
    프로덕션 환경의 샘플 이미지:
    ![사용자가 리소스 풀에 추가됨](assets/resource-pools-new---undo-button-for-teams-groups-etc-350x113.png)
