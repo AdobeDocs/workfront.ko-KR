@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: bda3dc43828032fd5a8862b12d851c56cf9b6cbd
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '930'
 ht-degree: 0%
 
 ---
@@ -22,8 +22,9 @@ Adobe Workfront Planning에서 레코드는 레코드 유형의 인스턴스입�
 
 다음 중 하나를 수행하여 레코드를 만들 수 있습니다.
 
-* 레코드 유형에 대해 수동으로 만들기
-* 외부 목록에서 정보를 복사하여 붙여 넣어 레코드를 만듭니다.
+* 레코드 유형 페이지에서 레코드 추가
+* 외부 목록에서 레코드 목록 복사 및 붙여넣기
+* 복제
 
 이 문서에서는 레코드를 만드는 방법을 설명합니다. 테이블 또는 타임라인 보기에서 레코드 관리에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
@@ -95,7 +96,7 @@ Adobe Workfront Planning에서 레코드는 레코드 유형의 인스턴스입�
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/planning/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-## 레코드 형식 <!--in a record type table (I don't think you can create them elsewhere right now)-->에 레코드를 수동으로 추가하여 만듭니다.
+## 레코드 형식 <!--in a record type table (I don't think you can create them elsewhere right now)-->에 추가하여 레코드를 만듭니다.
 
 레코드 유형 페이지의 표 보기에서 레코드를 만들 수 있습니다.
 
@@ -118,7 +119,8 @@ Adobe Workfront Planning에서 레코드는 레코드 유형의 인스턴스입�
 
       * 테이블의 마지막 행에서 **새 레코드**&#x200B;을(를) 클릭합니다.
 
-      * 표의 열 또는 행에서 키보드에서 **Shift + Enter**&#x200B;를 클릭합니다. 빈 행이 표시됩니다.
+      * 표의 열 또는 행에서 키보드에서 **Shift + Enter**&#x200B;를 클릭합니다. 이렇게 하면 시작한 레코드 아래에 빈 행이 추가됩니다.
+      * 레코드의 기본 필드 위에 마우스를 가져다 대고 필드 오른쪽에 있는 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭한 다음 **위에 레코드 삽입** 또는 **아래에 레코드 삽입**&#x200B;을(를) 클릭합니다.
 
      ![](assets/adding-a-new-campaign-in-table-row.png)
 
@@ -179,7 +181,7 @@ You can import records from other applications by linking them to existing recor
    
 -->
 
-## 외부 목록에서 정보를 복사하여 붙여 넣어 레코드 만들기
+## 외부 목록에서 복사하여 붙여 넣어 레코드 만들기
 
 1. 이 문서의 [레코드 형식에 수동으로 추가하여 레코드 만들기](#create-records-by-manually-adding-them-to-a-record-type) 섹션에 설명된 대로 테이블 보기에서 레코드 만들기를 시작합니다.
 
@@ -207,3 +209,8 @@ You can import records from other applications by linking them to existing recor
 
    * 행에는 새 레코드가 포함됩니다
    * 열은 레코드의 필드에 대한 정보를 채웁니다.
+
+
+## 복제하여 레코드 만들기
+
+레코드 복제에 대한 자세한 내용은 [레코드 복제](/help/quicksilver/planning/records/copy-or-duplicate-records.md)를 참조하십시오.

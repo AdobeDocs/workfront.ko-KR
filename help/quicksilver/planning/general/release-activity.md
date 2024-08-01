@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
+source-git-commit: bda3dc43828032fd5a8862b12d851c56cf9b6cbd
 workflow-type: tm+mt
-source-wordcount: '5528'
+source-wordcount: '5654'
 ht-degree: 0%
 
 ---
@@ -39,24 +39,12 @@ Workfront 계획 프로그램은 2023년 5월 22일부터 시작되었습니다.
 
 Workfront Planning은 2024년 1월부터 미리보기 및 샌드박스 환경에서 일시적으로 제거되었습니다. 이 문서에 설명된 모든 기능은 현재 프로덕션에서 사용할 수 있습니다.
 
-## 2024년 7월 29일 주
-
-### 이제 Adobe Workfront Planning 공용 API를 사용할 수 있습니다
-
-프로덕션: 2024년 7월 30일
-
-미리보기: 결정 예정
-
-이제 Adobe Workfront Planning 공용 API를 사용할 수 있습니다.
-
-자세한 내용은 [Adobe Workfront Planning API 기본 사항](/help/quicksilver/planning/general/planning-api-basics.md)을 참조하십시오.
-
 <!--
 ### Share Workfront Planning views publicly
 
 (***************ensure this is available for *********ALL************** the views and not just the table---***********)
 
-Production: July 31, 2024 
+Production: <date>
 
 Preview: To be determined 
 
@@ -71,6 +59,38 @@ The following capabilities are included with this update:
 * People that access the view from the public link cannot create other views, edit the shared view, or add, delete, or edit record information.  
 
 For more information, see [Share views](/help/quicksilver/planning/access/share-views.md). -->
+
+## 2024년 7월 29일 주
+
+### 이제 Adobe Workfront Planning 공용 API를 사용할 수 있습니다
+
+프로덕션: 2024년 7월 30일
+
+미리보기: 결정 예정
+
+이제 Adobe Workfront Planning 공용 API를 사용할 수 있습니다.
+
+자세한 내용은 [Adobe Workfront Planning API 기본 사항](/help/quicksilver/planning/general/planning-api-basics.md)을 참조하십시오.
+
+### 표 보기에서 레코드 삽입 및 복제
+
+프로덕션: 2024년 8월 1일
+미리보기: 결정 예정
+
+테이블 보기의 레코드로 작업할 때 다음과 같은 기능을 도입했습니다.
+
+* 중복 레코드: 기존 레코드를 복제하여 신속하게 레코드를 만들 수 있습니다.  동일한 레코드가 생성됩니다. 이 기능은 표 보기에서만 사용할 수 있습니다.
+
+* 표 보기에서 기존 레코드의 위나 아래에 새 레코드를 삽입할 수 있습니다. 이 기능이 향상되기 전에는 표 보기 하단에 레코드만 추가합니다.
+
+다음 영역에서 새 기능을 수행할 수 있습니다.
+
+* 레코드의 더 보기 메뉴
+
+* 테이블 보기에서 레코드 페이지의 아래쪽에 추가된 새 도구 모음
+
+자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)를 참조하세요.
+
 
 ## 2024년 7월 8일 주
 

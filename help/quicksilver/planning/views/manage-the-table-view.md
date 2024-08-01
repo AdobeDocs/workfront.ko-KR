@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: bda3dc43828032fd5a8862b12d851c56cf9b6cbd
 workflow-type: tm+mt
-source-wordcount: '2598'
+source-wordcount: '2630'
 ht-degree: 3%
 
 ---
@@ -135,9 +135,8 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
 
 테이블 보기에서 최대 500개의 필드(또는 열)를 추가할 수 있습니다.
 
-1. 레코드 유형 페이지로 이동하여 보기 드롭다운 메뉴에서 **테이블** 보기를 선택합니다.
+1. 레코드 유형 페이지로 이동하여 테이블 보기 탭을 클릭하거나 **+ 보기**&#x200B;를 클릭하여 새 보기를 추가한 다음 **테이블**&#x200B;을 선택합니다.
 
-   <!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. [필드 만들기](/help/quicksilver/planning/fields/create-fields.md) 문서에 설명된 대로 필드(또는 열)를 추가하기 시작합니다.
 
    추가하는 열은 레코드 유형에 액세스하고 레코드 페이지에서 새 필드로 추가되는 모든 사용자에게 표시됩니다.
@@ -213,9 +212,8 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
 
 레코드 유형에 대해 최대 50,000개의 레코드(또는 행)를 가질 수 있습니다.
 
-1. 레코드 유형 페이지로 이동하여 보기 드롭다운 메뉴에서 **테이블** 보기를 선택합니다.
+1. 레코드 유형 페이지로 이동하여 테이블 보기 탭을 클릭하거나 **+ 보기**&#x200B;를 클릭하여 새 보기를 추가한 다음 **테이블**&#x200B;을 선택합니다.
 
-<!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. [레코드 만들기](/help/quicksilver/planning/records/create-records.md) 문서에 설명된 대로 레코드(또는 행)를 추가하기 시작합니다.
 
    테이블 보기에서 추가하는 레코드는 즉시 저장되며 작업 공간에 대한 보기 이상의 권한이 있는 모든 사용자에게 표시됩니다.
@@ -229,13 +227,8 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
    >[!NOTE]
    >
    >테이블 뷰에 정렬을 하나 이상 적용하면 행 순서를 재정렬할 수 없습니다.
-
-   <!-- this is not possible right now:
-
-    1. To reorder the rows, click the row header, drag and drop it in the desired location. 
-
-        The changes you make to the row order are permanent and visible to all users who access the record type
-    -->
+   >
+   >행 순서에 대한 변경 내용은 레코드 유형에 액세스하는 모든 사용자에게 표시됩니다
 
 <!-- this section below links from the timeline view; consider splitting them if they become different-->
 
@@ -244,6 +237,7 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테�
 필터는 화면에 표시되는 정보의 양을 줄이는 데 도움이 됩니다.
 
 표 보기에서 필터를 사용하여 작업할 때는 다음 사항을 고려하십시오.
+
 <!-- this list is almost identical to the one for the table view - update both-->
 
 * 테이블 보기에 대해 만든 필터는 동일한 레코드 유형에 적용될 때 타임라인 보기의 필터와는 독립적으로 작동합니다.

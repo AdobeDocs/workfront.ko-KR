@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: bda3dc43828032fd5a8862b12d851c56cf9b6cbd
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '112'
 ht-degree: 1%
 
 ---
@@ -37,6 +37,7 @@ Adobe Workfront Planning에서 레코드 유형을 만든 후 해당 유형의 �
 * [레코드 삭제](/help/quicksilver/planning/records/delete-records.md)
 * [레코드 공유](/help/quicksilver/planning/records/share-records.md)
 * [기록 연결](/help/quicksilver/planning/records/connect-records.md)
+* [중복 레코드](/help/quicksilver/planning/records/copy-or-duplicate-records.md)
 * [레코드 주석 관리](/help/quicksilver/planning/records/manage-record-comments.md)
 * [내역 섹션 개요](/help/quicksilver/planning/records/history-section-overview.md)
 * [레코드에 썸네일 추가](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
