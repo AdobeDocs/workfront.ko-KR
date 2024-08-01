@@ -6,16 +6,16 @@ description: 브라우저의 언어 환경 설정과 Workfront 내의 기본 이
 feature: Get Started with Workfront
 author: Caroline
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 02e1160cc56d92053c36d2aa19a8fc290467dd71
+source-git-commit: 2d2eac23d08b5dddfd1a3620f20f5a70b5c2821b
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1037'
 ht-degree: 1%
 
 ---
 
 # Adobe Workfront에서 지원되는 언어
 
-브라우저의 언어 환경 설정과 Workfront 내의 기본 이메일 로케일을 조정하여 Adobe Workfront 및 Workfront에서 오는 이메일을 표시하는 언어를 변경할 수 있습니다.
+브라우저의 언어 환경 설정(IMS가 아닌 경우) 또는 Adobe Experience Cloud 프로필 언어 환경 설정(IMS인 경우) 및 Adobe Workfront 내의 기본 이메일 로케일을 조정하여 Workfront 및 Workfront에서 보낸 이메일을 표시하는 언어를 변경할 수 있습니다.
 
 Workfront 용어는 모든 Workfront 업데이트에서 지원되는 언어를 위해 업데이트됩니다.
 

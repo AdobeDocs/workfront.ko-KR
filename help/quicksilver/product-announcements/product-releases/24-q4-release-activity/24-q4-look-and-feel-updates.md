@@ -4,9 +4,10 @@ description: 2024년 4분기 릴리스 기간 동안의 룩앤필 업데이트
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 76b44f3d5ff7d7747da801a051a457157e08ea4a
+exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
+source-git-commit: 2d2eac23d08b5dddfd1a3620f20f5a70b5c2821b
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
@@ -16,6 +17,37 @@ ht-degree: 0%
 이 페이지에서는 2024년 4분기 릴리스 기간 내에 이루어진 Adobe Workfront 애플리케이션의 다양한 영역의 모양과 느낌에 대한 작은 업데이트를 설명합니다.
 
 2024년 4분기 릴리스에서 사용 가능한 모든 변경 사항 목록은 [2024년 4분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)를 참조하십시오.
+
+## 사용자 삭제 및 사용자 비활성화 메시지에 대한 룩앤필 업데이트
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2024년 8월 1일, 빠른 릴리스를 위한 프로덕션: 24.8 릴리스 포함(2024년 8월), 분기별 릴리스의 프로덕션: 24.10 릴리스 포함(2024년 10월)
+
+사용자를 삭제하거나 비활성화할 때 사용자에게 표시되는 사용자 삭제 및 비활성화 확인 메시지가 Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 업데이트되었습니다.
+
+사용자 삭제 및 비활성화에 대한 자세한 내용은 [사용자 삭제](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/delete-a-user.md) 및 [사용자 비활성화 또는 다시 활성화](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)를 참조하십시오.
+
+## 작업 삭제 메시지에 대한 룩앤필 업데이트
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2024년 7월 26일, 모든 고객을 위한 프로덕션 릴리스: 2024년 8월 8일
+
+작업을 삭제할 때 사용자에게 표시되는 작업 삭제 확인 메시지가 Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 업데이트되었습니다.
+
+작업 삭제에 대한 자세한 내용은 [작업 삭제](/help/quicksilver/manage-work/tasks/manage-tasks/delete-tasks.md)를 참조하십시오.
+
+
+## 리소스 풀 페이지의 룩앤필 업데이트
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2024년 7월 25일, 빠른 릴리스를 위한 프로덕션: 24.8 릴리스 포함(2024년 8월), 분기별 릴리스의 프로덕션: 24.10 릴리스 포함(2024년 10월)
+
+Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 리소스 풀 페이지를 업데이트했습니다.
+
+자세한 내용은 [리소스 풀 만들기](/help/quicksilver/resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)를 참조하세요.
 
 ## 알림 페이지의 디자인 업데이트
 

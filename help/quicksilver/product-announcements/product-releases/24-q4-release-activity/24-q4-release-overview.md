@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
+source-git-commit: 2d2eac23d08b5dddfd1a3620f20f5a70b5c2821b
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '761'
 ht-degree: 0%
 
 ---
@@ -154,3 +154,11 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/
 ### 교육 업데이트
 
 각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront Tutorials 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
+
+### Workfront에서 곧 제거될 기능
+
+다음 기능은 곧 Workfront에서 제거될 예정입니다.
+
+#### 24.10으로 기존 홈 환경 사용 중단
+
+24.10 릴리스를 통해 기존의 홈 환경을 공식적으로 사용하지 않습니다. 사용자는 새로운 홈을 사용하는 것이 좋습니다. 홈은 사용이 중단되기 전에 추가 기능을 사용하여 계속 향상될 것입니다. 사용자 및 관리자가 준비할 수 있는 작업을 포함하여 전환에 대한 자세한 정보를 제공합니다.
