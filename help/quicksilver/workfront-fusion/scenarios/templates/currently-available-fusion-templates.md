@@ -7,9 +7,9 @@ description: 현재 Adobe Workfront Fusion에서 사용할 수 있는 공용 템
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: e569469c2b5e0ba40569ef86043294acae7a6aa8
+source-git-commit: 3c22860b1a9bdc653a772a48ccfcbb4456b11c8c
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1257'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,12 @@ ht-degree: 0%
 ### [!BADGE 새로 만들기!]{type=Informative}
 
 이 Fusion 템플릿은 특정 보드에 특정 열을 시간 기준으로 입력하는 모든 카드에 대한 표준 검사 목록을 만듭니다.
+
+### [!BADGE 새로 만들기!]{type=Informative}
+
+<!--new Aug 1. 2024-->
+
+이 시나리오는 새 프로젝트를 만들 때 트리거됩니다. 이 시나리오에서는 프로젝트 이름을 딴 보드를 만들고, 필요에 따라 열의 이름을 변경하거나 만들고, 사용자 지정 태그를 만들고, 접수 열 필터를 원래 프로젝트와 연결할 수 있습니다.  수천 개의 추가 변경 사항을 작성할 수 있지만, 여기에서 시작하면 조직의 보드 표준화를 위한 시작점을 만들 수 있는 가능성을 볼 수 있습니다.
 
 ### Workfront - CSV로 프로젝트 만들기
 
