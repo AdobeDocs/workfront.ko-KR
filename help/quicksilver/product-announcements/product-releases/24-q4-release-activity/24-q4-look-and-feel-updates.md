@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 2d2eac23d08b5dddfd1a3620f20f5a70b5c2821b
+source-git-commit: 8c8094dd34f90d51362b43820e1c6fa41ae5b7cd
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
@@ -28,6 +28,16 @@ ht-degree: 0%
 
 사용자 삭제 및 비활성화에 대한 자세한 내용은 [사용자 삭제](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/delete-a-user.md) 및 [사용자 비활성화 또는 다시 활성화](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)를 참조하십시오.
 
+## 리소스 풀 페이지의 룩앤필 업데이트
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2024년 8월 1일, 빠른 릴리스를 위한 프로덕션: 24.8 릴리스 포함(2024년 8월), 분기별 릴리스의 프로덕션: 24.10 릴리스 포함(2024년 10월)
+
+Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 리소스 풀 페이지를 업데이트했습니다.
+
+자세한 내용은 [리소스 풀 만들기](/help/quicksilver/resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)를 참조하세요.
+
 ## 작업 삭제 메시지에 대한 룩앤필 업데이트
 
 >[!NOTE]
@@ -37,17 +47,6 @@ ht-degree: 0%
 작업을 삭제할 때 사용자에게 표시되는 작업 삭제 확인 메시지가 Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 업데이트되었습니다.
 
 작업 삭제에 대한 자세한 내용은 [작업 삭제](/help/quicksilver/manage-work/tasks/manage-tasks/delete-tasks.md)를 참조하십시오.
-
-
-## 리소스 풀 페이지의 룩앤필 업데이트
-
->[!NOTE]
->
->미리보기 릴리스: 2024년 7월 25일, 빠른 릴리스를 위한 프로덕션: 24.8 릴리스 포함(2024년 8월), 분기별 릴리스의 프로덕션: 24.10 릴리스 포함(2024년 10월)
-
-Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 리소스 풀 페이지를 업데이트했습니다.
-
-자세한 내용은 [리소스 풀 만들기](/help/quicksilver/resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)를 참조하세요.
 
 ## 알림 페이지의 디자인 업데이트
 
