@@ -8,18 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 49126ecec4a90c32139b49ee3dc37ce6671bb1d1
+source-git-commit: 634b4dc9a75b306c46168848807faff80ab2eced
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
 
 # 비즈니스 규칙 만들기 및 편집
-
->[!IMPORTANT]
->
->비즈니스 규칙을 일시적으로 사용할 수 없습니다.
 
 비즈니스 규칙을 사용하면 Workfront 객체에 검증을 적용하고 특정 조건이 충족될 때 사용자가 객체를 생성, 편집 또는 삭제하지 못하도록 할 수 있습니다. 비즈니스 규칙을 사용하면 데이터 무결성을 손상시킬 수 있는 작업을 방지하여 데이터 품질과 운영 효율성을 향상시킬 수 있습니다.
 
