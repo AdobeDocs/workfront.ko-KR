@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: eac37369a79303c1477d95aeb9f560aa0089da75
+source-git-commit: 1ffd8a3dbb31154186dc37132c7e77c35de42ac3
 workflow-type: tm+mt
-source-wordcount: '1994'
+source-wordcount: '2001'
 ht-degree: 2%
 
 ---
@@ -87,6 +87,7 @@ Adobe Workfront Planning은 Adobe Workfront의 새로운 제품입니다. Workfr
 | 레코드 페이지의 레이아웃을 업데이트합니다. | ✓ 덧신 |                                 |                  |
 | 작업 공간 공유 | ✓ 덧신 | |  |
 | 보기 공유 | ✓ 덧신 | |  |
+| 외부 리소스와 공개적으로 보기 공유 | ✓ 덧신 | |  |
 | 중복 보기 | ✓ 덧신 | |  |
 | 요청 제출 |                               |                                  | ✓ 덧신 |
 | 크리에이티브 개요 |                               |                                  | ✓ 덧신 |

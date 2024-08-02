@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: 1ffd8a3dbb31154186dc37132c7e77c35de42ac3
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '1020'
 ht-degree: 1%
 
 ---
@@ -27,10 +27,8 @@ ht-degree: 1%
 
 다음 엔티티와 뷰를 공유할 수 있습니다.
 
-* Workfront 사용자
-* Workfront 그룹
-<!--* Publicly, with users outside Workfront
--->
+* 내부적으로, Workfront 사용자 및 그룹 사용
+* 공개적으로, Workfront 외부의 사용자 포함
 
 ## 액세스 요구 사항
 
@@ -95,9 +93,21 @@ ht-degree: 1%
 
 +++
 
-## <!--internally--> 보기에 대한 권한 공유
+## 보기 공유 시 고려 사항
 
-만든 보기나 관리 권한이 있는 보기를 <!--with users or groups in Workfront-->에 공유할 수 있습니다.
+* 내부 Workfront 사용자에게 보기에 대한 보기 또는 관리 권한을 부여할 수 있습니다.
+
+* 관리 권한이 있는 사용자는 보기 설정을 수정, 공유, 복제 또는 삭제할 수 있습니다.
+
+* 공개 링크를 사용하여 조직 외부의 사용자와 보기를 공유할 수 있습니다.
+
+* 보기를 공개적으로 공유할 때는 회사 외부의 모든 사용자가 제한된 시간 동안 만료 날짜로 표시된 링크에 액세스할 수 있습니다. 공유 테이블 보기를 보는 데 로그인이 필요하지 않습니다.
+
+* 보기에 대한 액세스 권한이 있는 조직 외부의 사람은 다른 보기를 만들거나 공유 보기를 편집하거나 표에서 레코드 정보를 추가, 삭제 또는 편집할 수 없습니다.
+
+## 내부적으로 보기에 대한 권한 공유
+
+만든 보기 또는 관리 권한이 있는 보기를 Workfront의 사용자 또는 그룹과 공유할 수 있습니다.
 
 >[!NOTE]
 >
@@ -115,14 +125,14 @@ ht-degree: 1%
 
    ![](assets/more-menu-for-views-expanded-with-share-option.png)
 
-   <!--The Internal sharing tab should be selected by default.-->
+   기본적으로 **내부 공유** 탭을 선택해야 합니다.
 
-1. (선택 사항) 보기를 공유하려면 다음 옵션 중에서 선택합니다.
+1. (선택 사항) **액세스 권한이 있는 사용자** 영역에서 다음 선택 사항 중에서 선택합니다.
 
    * **초대된 사람만 액세스할 수 있습니다**: 보기를 공유할 사용자 또는 그룹을 지정해야 합니다. 기본 옵션입니다.
    * **작업 영역의 모든 사용자가 볼 수 있습니다**: 작업 영역에 대한 보기 이상의 권한이 있는 모든 사용자가 보기에 액세스할 수 있습니다.
 
-1. **보기 액세스 권한 부여** 필드에서 사용자 또는 그룹의 이름을 입력한 다음 목록에 표시될 때 클릭합니다.  <!--***********replace screen shot below when public sharing is released***********-->
+1. **보기 액세스 권한 부여** 필드에서 사용자 또는 그룹의 이름을 입력한 다음 목록에 표시될 때 클릭합니다.
 
    ![](assets/sharing-a-view-ui-with-groups.png)
 
@@ -142,45 +152,41 @@ ht-degree: 1%
    >
    >   나와 공유된 보기의 보기 아이콘 옆에 사용자 표시기 ![](assets/view-shared-with-others-people-icon.png)이(가) 있습니다. 사람 표시기가 없는 보기는 사용자가 만든 보기입니다.
 
-<!--
-## Share permissions to a view publicly
+## 공개적으로 보기에 권한 공유
 
-You can share views you created or views you have Manage permissions to with people that do not have a Workfront license and who might be external to your organization. 
+만든 보기 또는 관리 권한이 있는 보기를 Workfront 라이선스가 없고 조직 외부에 있을 수 있는 사람과 공유할 수 있습니다.
 
-Consider the following when publicly sharing a Workfront Planning view: 
-
-* You can share a public link to a record type page that displays in the view you are sharing.
-* People accessing the record type with the public link you provide have View permissions to the record page. They cannot modify the view, the records, or any of the fields that are visible in the view. 
-* The shared public link must have an expiration date after which the link is no longer accessible. 
-
-To share a view publicly in Workfront Planning: 
+Workfront Planning에서 보기를 공개적으로 공유하려면 다음을 수행합니다.
 
 {{step1-to-planning}}
 
-1. Open the workspace whose view you want to share, then click a record type card. 
+1. 보기를 공유할 작업 영역을 연 다음 레코드 유형 카드를 클릭합니다.
 
-   This opens the record type page.
+   그러면 레코드 유형 페이지가 열립니다.
 
-1. From the view tab, hover over the view you want to share and click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Share**. 
+1. 보기 탭에서 공유할 보기를 마우스로 가리키고 보기 이름 오른쪽에 있는 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭한 다음 **공유**&#x200B;를 클릭합니다.
 
    ![](assets/more-menu-for-views-expanded-with-share-option.png)
 
-1. Click **Public sharing**.
+1. **공개 공유**&#x200B;를 클릭합니다.
 
-1. Enable the **Create public link** setting.
+   ![](assets/public-sharing-tab-for-views.png)
 
-   A link becomes available. This is a public link. When shared, anyone with the link, including people from outside your organization can access the record type page, and view records and fields on the page. 
+1. **공개 링크 만들기** 설정을 사용하도록 설정합니다.
 
-1. Click the **Copy link** icon ![](assets/copy-link-view.png) to copy the link to your clipboard. 
+   링크를 사용할 수 있습니다. 공개 링크입니다. 링크를 공유하면 조직 외부의 직원을 포함하여 모든 사용자가 레코드 유형 페이지에 액세스하고 페이지의 레코드와 필드를 볼 수 있습니다.
 
-1. Manually enter a date, or use the calendar in the **Link expiration date** field to select an expiration date for the public link. The record page view will not be accessible after the selected date. 
+1. **링크 복사** 아이콘 ![](assets/copy-link-view.png)을(를) 클릭하여 클립보드에 링크를 복사합니다.
 
-1. Click **Save**.
+1. 수동으로 날짜를 입력하거나 **링크 만료 날짜** 필드의 달력을 사용하여 공개 링크에 대한 만료 날짜를 선택하십시오. 선택한 날짜 이후에는 레코드 페이지 보기에 액세스할 수 없습니다.
 
-1. Paste the link you copied to an email, chat message, document, or in a Workfront comment to share it with others. 
+1. **저장**&#x200B;을 클릭합니다.
 
--->
+   보기 아이콘이 업데이트되어 보기가 공개적으로 공유됨을 나타냅니다.
 
+   ![](assets/public-shared-view-icon-highlighted.png)
+
+1. (선택 사항) 복사한 링크를 이메일, 채팅 메시지, 문서 또는 Workfront 댓글에 붙여넣어 다른 사용자와 공유할 수 있습니다.
 
 ## 보기에 대한 권한 제거
 
@@ -188,26 +194,16 @@ To share a view publicly in Workfront Planning:
 
 1. 공유를 중지할 보기를 가진 작업 영역을 연 다음 레코드 유형 카드를 클릭합니다. 그러면 레코드 유형 페이지가 열립니다.
 1. 공유를 제거할 보기의 탭 이름 위에 마우스를 올려 놓고 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭한 다음 **공유**&#x200B;를 클릭합니다.
-1. 제거할 사용자 또는 그룹을 찾은 다음 사용자 또는 그룹 이름 오른쪽에 있는 권한 드롭다운 메뉴에서 **제거**&#x200B;를 클릭합니다.
-1. **저장**을 클릭합니다.
-제거된 그룹에 속한 사용자 또는 사용자는 더 이상 보기에 액세스할 수 없습니다. 보기에 액세스하지 못하도록 제거된 사용자에게 이 액세스 권한을 잃었다는 알림이 없습니다.
+1. 보기의 내부 공유를 제거하려면 다음 작업을 수행하십시오.
 
-<!--Replace the above instructions with the following when public sharing is released: 
+   1. **내부 공유** 탭을 선택했는지 확인하십시오.
+   1. 제거할 사용자 또는 그룹을 찾은 다음 사용자 또는 그룹 이름 오른쪽에 있는 권한 드롭다운 메뉴를 확장한 다음 **제거**&#x200B;를 클릭합니다.
 
-{{step1-to-planning}}
+1. 보기의 공개 공유를 제거하려면 다음 작업을 수행하십시오.
 
-1. Open the workspace whose view you want to stop sharing, then click a record type card. This opens the record type page.
-1. Hover over the tab name of the view you want to remove sharing from and click the **More** menu ![](assets/more-menu.png), then click **Share**.
-1. To remove the internal sharing of a view, do the following: 
+   1. **공개 공유** 탭을 클릭합니다.
+   1. **공개 링크 만들기** 옵션을 선택 취소합니다.
 
-   1. Ensure the **Internal sharing** tab is selected.
-   1. Find the user or group what you want to remove, expand the permissions drop-down menu to the right of the user's or group's name, then click **Remove**.
+1. **저장**&#x200B;을 클릭합니다.
 
-1. To remove the public sharing of a view, do the following: 
-
-   1. Click the **Public sharing** tab.
-   1. Deselect the **Create public link** option. 
-
-1. Click **Save**.
-   
-   People no longer have access to the view. There is no notification for the users that have been removed from accessing the view that they no longer have this access.-->
+   사용자는 더 이상 보기에 액세스할 수 없습니다. 보기에 액세스하지 못하도록 제거된 사용자에게 더 이상 이 액세스 권한이 없다는 알림이 없습니다.

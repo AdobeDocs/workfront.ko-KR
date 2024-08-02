@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: bda3dc43828032fd5a8862b12d851c56cf9b6cbd
+source-git-commit: 78e9c4d4ddee8f44d6fafe218c6a9b8c2cb28bf5
 workflow-type: tm+mt
-source-wordcount: '5654'
+source-wordcount: '5786'
 ht-degree: 0%
 
 ---
@@ -38,27 +38,6 @@ Workfront 계획 프로그램은 2023년 5월 22일부터 시작되었습니다.
 릴리스된 기능은 릴리스 순서대로 나열되며 가장 최근의 기능이 먼저 릴리스됩니다. Workfront Planning 프로그램에 참여하는 고객은 프로덕션 환경의 모든 기능에 액세스할 수 있습니다.
 
 Workfront Planning은 2024년 1월부터 미리보기 및 샌드박스 환경에서 일시적으로 제거되었습니다. 이 문서에 설명된 모든 기능은 현재 프로덕션에서 사용할 수 있습니다.
-
-<!--
-### Share Workfront Planning views publicly
-
-(***************ensure this is available for *********ALL************** the views and not just the table---***********)
-
-Production: <date>
-
-Preview: To be determined 
-
-To work seamlessly with external stakeholders, you can now share record views with others from outside your organization. You can share a public link to the view you want others to have access to.  
-
-The following capabilities are included with this update: 
-
-* Share the view of a record type page with a public link that would expire on a specific date. 
-
-* The shared link is accessible by anyone outside of your company for a limited time, indicated by the expiration date. There is no login required to view the shared view.  
-
-* People that access the view from the public link cannot create other views, edit the shared view, or add, delete, or edit record information.  
-
-For more information, see [Share views](/help/quicksilver/planning/access/share-views.md). -->
 
 ## 2024년 7월 29일 주
 
@@ -91,6 +70,23 @@ For more information, see [Share views](/help/quicksilver/planning/access/share-
 
 자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)를 참조하세요.
 
+### Workfront Planning 보기를 공개적으로 공유
+
+프로덕션: 2024년 8월 2일
+
+미리보기: 결정 예정
+
+이제 외부 관련자와 원활하게 작업하기 위해 조직 외부의 다른 사용자와 레코드 보기를 공유할 수 있습니다. 다른 사용자가 액세스할 수 있는 보기에 대한 공개 링크를 공유할 수 있습니다.
+
+이 업데이트에는 다음 기능이 포함되어 있습니다.
+
+* 특정 날짜에 만료되는 공개 링크를 사용하여 레코드 유형 페이지의 보기를 공유합니다.
+
+* 회사 외부의 사용자는 제한된 시간 동안 만료 날짜로 표시된 공유 링크에 액세스할 수 있습니다. 공유 보기를 보는 데 로그인이 필요하지 않습니다.
+
+* 공개 링크에서 보기에 액세스하는 사용자는 다른 보기를 만들거나 공유 보기를 편집하거나 레코드 정보를 추가, 삭제 또는 편집할 수 없습니다.
+
+자세한 내용은 [보기 공유](/help/quicksilver/planning/access/share-views.md)를 참조하세요.
 
 ## 2024년 7월 8일 주
 
