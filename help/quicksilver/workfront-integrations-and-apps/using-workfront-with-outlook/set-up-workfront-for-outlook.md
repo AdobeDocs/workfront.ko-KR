@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] [!DNL Outlook] 추가 기능을 사용하�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: e4f722bab4c4024ca796af8413e7d6b69f6a89a7
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '684'
 ht-degree: 0%
 
 ---
@@ -140,12 +140,13 @@ Workfront은 다음 버전의 [!DNL Outlook]을(를) 지원합니다.
 ## [!DNL Outlook]에서 [!DNL Workfront]에 로그인
 
 1. [!DNL Outlook]에서 전자 메일 메시지를 선택한 다음 전자 메일 헤더의 **[!DNL Workfront]** 아이콘을 클릭합니다.
-1. 메시지에 따라 향상된 인증, OAuth 2.0 또는 SAML(Security Assertion Markup Language) URL을 사용하여 [!DNL Workfront]에 로그인합니다.
+1. 로그인 페이지에서 **Workfront에 로그인**&#x200B;을 클릭합니다.
+1. 메시지에 따라 OAuth 2.0을 사용하여 [!DNL Workfront]에 로그인합니다. <!--Enhanced Authentication or your Security Assertion Markup Language (SAML) URL.-->
 
-   사용자가 SAML을 사용하여 [!DNL Workfront] 추가 기능에 로그인하려면 먼저 [!DNL Workfront] 관리자가 [!DNL Office 365] 추가 기능을 활성화하여 SAML 2.0 솔루션을 사용하여 인증해야 합니다. 자세한 내용은 문서 [SAML 2.0으로 구성 [!DNL Adobe Workfront] 5}에서 [SAML 2.0으로 구성 [!DNL Adobe Workfront] 구성](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md#enable-saml-with-office-365) 섹션을 참조하십시오.](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
+   <!--Before users can log in to the [!DNL Workfront] add-in using SAML, a [!DNL Workfront] administrator must first enable [!DNL Office 365] add-ins to authenticate using a SAML 2.0 solution. For more information, see the section [Configure [!DNL Adobe Workfront] with SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md#enable-saml-with-office-365) in the article [Configure [!DNL Adobe Workfront] with SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md).-->
 
    >[!NOTE]
    >
    >* [!DNL Workfront] 계정의 도메인을 입력하라는 메시지가 표시되면 *yourCompany&#39;sDomain.my.workfront.com* 형식을 사용하여 입력하세요. 회사의 도메인은 일반적으로 회사의 이름입니다.
-   >* 향상된 인증은 [!DNL Workfront] 관리자가 이 통합에 사용하도록 설정할 때까지 사용할 수 없습니다.
 
+<!--ADDITIONAL BULLET REMOVED FROM NOTE BOX: Enhanced Authentication is not available until a Workfront administrator enables it for this integration.-->
