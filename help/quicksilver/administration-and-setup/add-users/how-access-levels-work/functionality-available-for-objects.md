@@ -10,9 +10,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: ad74648a70bbb44e8093e30e111f75859d6baa68
+source-git-commit: 45890d5d9346baebe0984d581828c778d98eec5a
 workflow-type: tm+mt
-source-wordcount: '1601'
+source-wordcount: '1603'
 ht-degree: 11%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 11%
 | 문서 추가 | ✓ 덧신 | ✓ 덧신 |   |   |
 | 문제 추가 | ✓ 덧신 | ✓ 덧신 |   |   |
 |  작업 추가 | ✓ 덧신 |   |   |   |
-| 업데이트/주석 제공 | ✓ 덧신 | ✓ 덧신 |   |   |
+| 업데이트/주석 제공 | ✓ 덧신 | ✓ 덧신 | ✓ 덧신 |   |
 | 상태 변경 | ✓ 덧신 |   |   |   |
 | 로그 시간 | ✓ 덧신 | ✓ 덧신 |   |   |
 | 할당 편집 | ✓ 덧신 |   |   |   |
@@ -89,7 +89,7 @@ ht-degree: 11%
 | 재무 편집 | ✓ 덧신 |   |   |   |
 | 경비 추가/편집 | ✓ 덧신 |   |   |   |
 | 재무 보기 | ✓ 덧신 | ✓ 덧신 |   |   |
-| 업데이트/댓글 추가 | ✓ 덧신 | ✓ 덧신 |   |   |
+| 업데이트/댓글 추가 | ✓ 덧신 | ✓ 덧신 | ✓ 덧신 |   |
 
 {style="table-layout:auto"}
 
