@@ -6,9 +6,9 @@ description: 증명 내에서 영역을 측정할 수 있습니다.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: c44de4f0-654e-4b1e-b3d6-2bd8f1ee9d8a
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 9d2c65516ca1fc612f5f7ee4ee4453019d836cb3
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '353'
 ht-degree: 1%
 
 ---
@@ -80,3 +80,7 @@ ht-degree: 1%
 1. (선택 사항) 측정 영역의 크기를 정확히 조정하려면 **선택 크기** 값을 입력하십시오.
 1. (선택 사항) 영역 내에서 특정 백분율을 측정해야 하는 경우 백분율 계산 상자를 선택합니다. 조정할 수 있는 새 상자가 나타납니다\
    ![](assets/calculate-percentage-350x230.png)
+
+1. 완료되면 증명 뷰어 상단에 있는 **영역 측정** 아이콘을 클릭하여 도구를 닫습니다.
+
+   ![measurement_tool_button.png](assets/measurement-tool-button-350x128.png)
