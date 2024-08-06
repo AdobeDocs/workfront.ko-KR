@@ -7,9 +7,9 @@ description: 일부 트리거 모듈을 사용하면 번들 검색을 시작할 
 author: Becky
 feature: Workfront Fusion
 exl-id: 5ab7cac4-8d50-4be0-b26b-b832544f18f7
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 489ed23fe0d7945753b59810ff9da084bd3e92e4
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '386'
 ht-degree: 1%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 1%
 트리거 모듈에 대한 자세한 내용은 문서 [모듈 유형](../../workfront-fusion/modules/module-types.md)의 [트리거 모듈](../../workfront-fusion/modules/module-types.md#triggers) 섹션을 참조하십시오.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 기능을 사용하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -60,6 +62,8 @@ ht-degree: 1%
 보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
 
 [!DNL Adobe Workfront Fusion] 라이선스에 대한 자세한 내용은 [[!DNL Adobe Workfront Fusion] 라이선스](../../workfront-fusion/get-started/license-automation-vs-integration.md)를 참조하세요.
+
++++
 
 ## 트리거 모듈의 시작 위치 선택
 
