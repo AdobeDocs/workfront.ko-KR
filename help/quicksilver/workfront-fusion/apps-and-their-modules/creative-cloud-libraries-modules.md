@@ -9,9 +9,9 @@ description: ' [!DNL Adobe Workfront Fusion Adobe Creative Cloud] 라이브러�
 author: Becky
 feature: Workfront Fusion
 exl-id: 8affa34b-803d-48a5-a986-9fbe0cb8c8f5
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 103a4a7b58048678739d6125c042503458ae3722
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1338'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,10 @@ ht-degree: 0%
 시나리오를 만드는 방법에 대한 지침은 [시나리오 만들기](../../workfront-fusion/scenarios/create-a-scenario.md)를 참조하십시오.
 
 모듈에 대한 자세한 내용은 [의 모듈 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md)을 참조하세요.
+
+>[!IMPORTANT]
+>
+>현재 Creative Cloud Libraries 커넥터에서는 연결을 만들 수 없습니다. 기존 연결이 예상대로 작동합니다.
 
 ## 액세스 요구 사항
 
@@ -113,7 +117,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>[!DNL Adobe Creative Cloud] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침을 참조하십시오.</td>
+      <td>기존 Creative Cloud Libraries 연결을 선택하십시오. 현재 Creative Cloud Libraries 커넥터에서는 연결을 만들 수 없습니다. 기존 연결이 예상대로 작동합니다.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 라이브러리 ID]</td>
@@ -136,7 +140,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>[!DNL Adobe Creative Cloud] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침을 참조하십시오.</td>
+      <td>기존 Creative Cloud Libraries 연결을 선택하십시오. 현재 Creative Cloud Libraries 커넥터에서는 연결을 만들 수 없습니다. 기존 연결이 예상대로 작동합니다.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 라이브러리 ID]</td>
@@ -182,7 +186,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>[!DNL Adobe Creative Cloud] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침을 참조하십시오.</td>
+      <td>기존 Creative Cloud Libraries 연결을 선택하십시오. 현재 Creative Cloud Libraries 커넥터에서는 연결을 만들 수 없습니다. 기존 연결이 예상대로 작동합니다.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 라이브러리 ID]</td>
@@ -236,7 +240,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>[!DNL Adobe Creative Cloud] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침을 참조하십시오.</td>
+      <td>기존 Creative Cloud Libraries 연결을 선택하십시오. 현재 Creative Cloud Libraries 커넥터에서는 연결을 만들 수 없습니다. 기존 연결이 예상대로 작동합니다.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 라이브러리 ID]</td>
@@ -287,7 +291,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>[!DNL Adobe Creative Cloud] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침을 참조하십시오.</td>
+      <td>기존 Creative Cloud Libraries 연결을 선택하십시오. 현재 Creative Cloud Libraries 커넥터에서는 연결을 만들 수 없습니다. 기존 연결이 예상대로 작동합니다.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 라이브러리 ID]</td>
@@ -311,7 +315,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>[!DNL Adobe Creative Cloud] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침을 참조하십시오.</td>
+      <td>기존 Creative Cloud Libraries 연결을 선택하십시오. 현재 Creative Cloud Libraries 커넥터에서는 연결을 만들 수 없습니다. 기존 연결이 예상대로 작동합니다.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 라이브러리 ID]</td>
@@ -341,7 +345,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>[!DNL Adobe Creative Cloud] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침을 참조하십시오.</td>
+      <td>기존 Creative Cloud Libraries 연결을 선택하십시오. 현재 Creative Cloud Libraries 커넥터에서는 연결을 만들 수 없습니다. 기존 연결이 예상대로 작동합니다.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 제한]</td>
@@ -360,7 +364,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>[!DNL Adobe Creative Cloud] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침을 참조하십시오.</td>
+      <td>기존 Creative Cloud Libraries 연결을 선택하십시오. 현재 Creative Cloud Libraries 커넥터에서는 연결을 만들 수 없습니다. 기존 연결이 예상대로 작동합니다.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 제한]</td>
