@@ -11,9 +11,9 @@ feature: Workfront Fusion
 exl-id: 2c1aea46-edbf-42a3-a6e9-f8aea042a48d
 hide: true
 hidefromtoc: true
-source-git-commit: 4c1b784442d000d189be076903c4c65fca42e68f
+source-git-commit: 357e8e5bb3c81790e503538d96e444fb4f1e0ad5
 workflow-type: tm+mt
-source-wordcount: '3659'
+source-wordcount: '3673'
 ht-degree: 0%
 
 ---
@@ -120,6 +120,10 @@ ht-degree: 0%
         <tr>
         <td role="rowheader">[!UICONTROL 조직 ID]</td>
         <td>[!DNL Adobe] [!UICONTROL 조직 ID]를 입력하십시오. 이 로그는 의 [!UICONTROL 자격 증명] 세부 정보 섹션에서 찾을 수 있습니다. [!DNL Adobe Developer Console]</td>
+        </tr>
+        <tr>
+        <td role="rowheader">[!UICONTROL 샌드박스 이름]</td>
+        <td>이 연결에 사용할 샌드박스의 이름을 입력합니다.</td>
         </tr>
       </tbody>
     </table>
