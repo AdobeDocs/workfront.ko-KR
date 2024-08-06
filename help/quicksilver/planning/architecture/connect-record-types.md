@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
 source-wordcount: '2510'
 ht-degree: 0%
@@ -118,7 +118,7 @@ Workfront Planning 레코드를 다른 응용 프로그램의 개체에 연결�
 
 ## 레코드 유형 연결에 대한 고려 사항
 
-<!--move this to the Connect record types overview article (new)-->
+<!--DELETE THE CONTENT BELOW WHEN YOU MAKE "CONNECT RECORD TYPE OVERVIEW" ARTICLE PUBLIC-->
 
 * Adobe Workfront Planning에서 다음 엔티티를 연결할 수 있습니다.
 

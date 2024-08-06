@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 212dda4289e4d29dbfbff0dbdc55315215b5ad91
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '3775'
+source-wordcount: '3856'
 ht-degree: 0%
 
 ---
@@ -47,12 +47,9 @@ Workfront에 로그인할 수 있는 시간 유형에 대한 자세한 내용은
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td> <p>신규: 
-   <ul><li>타임시트에 일반 시간을 기록하려면 표시등 이상 사용</li>
-   <li>프로젝트, 작업 또는 문제에 시간을 기록하는 표준</li></ul>
-
-
-<p>현재: 
+   <td> <p>신규: </p>
+   <p>가볍게 또는 그 이상: 프로젝트, 작업, 문제 또는 타임시트의 일반 시간을 기록합니다.</p>
+   <p>현재: 
    <ul><li>타임시트에 일반 시간을 기록하려면 이상을 검토하십시오.</li>
    <li>프로젝트, 작업 또는 문제에 시간을 기록하려면 이상 작업</li></ul> </td> 
   </tr> 
@@ -476,6 +473,13 @@ Workfront 모바일 앱에서 시간을 기록할 수 있습니다.
 
 ## 목록 및 보고서에서 기록된 시간 편집
 
+>[!CAUTION]
+>
+>* 종료된 타임시트에 속하는 시간 항목은 수정할 수 없습니다. 먼저 타임시트를 다시 연 다음 시간 입력 정보를 변경해야 합니다.
+>* 수익으로 계산되지 않는 유형에서 수익으로 계산되는 다른 유형으로 시간 유형을 변경하면 프로젝트의 재무 상태도 변경됩니다. 수익으로 계산되는 유형에서 수익으로 계산되지 않는 유형으로 시간 유형을 변경하면 프로젝트의 재정도 업데이트됩니다.
+>
+>자세한 내용은 [시간 유형 관리](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md)를 참조하십시오.
+>
 다음 영역에서 기록된 시간을 편집할 수 있습니다.
 
 * 미종료 타임시트를 포함하여 시간을 추가한 모든 영역

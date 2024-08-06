@@ -6,18 +6,22 @@ description: 승인을 위해 타임시트를 제출하면 관리자가 작업 �
 author: Alina
 feature: Timesheets
 exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
-source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '860'
 ht-degree: 0%
 
 ---
 
 # 승인을 위해 타임시트 제출
 
+<!--Audited: 8/2024-->
+
 승인을 위해 타임시트를 제출하면 관리자가 작업 시간을 파악할 수 있습니다. 승인자는 기록된 모든 시간이 올바른 영역에 할당되었고 해당 기간에 충분한 시간이 기록되었는지 확인할 수 있습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -26,25 +30,28 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>검토 이상</p> </td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td> <p>새로운 기능: 밝게 또는 높음 </p>
+   <p>현재: 검토 이상 </p>
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>작업 및 문제에 대한 액세스 이상 보기</p> <p>여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>작업 및 문제에 대한 보기 또는 상위 액세스 권한 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>작업 및 문제에 대한 이상의 권한 보기</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
+   <td> <p>타임시트에 대한 이상의 권한 보기</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 승인을 위해 타임시트 제출
 
@@ -59,7 +66,7 @@ ht-degree: 0%
 
 1. 승인자가 있도록 구성된 타임시트로 이동합니다.
 1. [로그 시간](../../timesheets/create-and-manage-timesheets/log-time.md)에 설명된 대로 로그 시간입니다.
-1. 타임시트 승인 프로세스를 시작하려면 **승인을 위해 제출**&#x200B;을 클릭하세요.
+1. 타임시트 승인 프로세스를 시작하려면 **승인을 위해 제출**&#x200B;을 클릭하십시오.
 
    ![](assets/submit-for-approval-button-on-timesheet-nwe.png)
 

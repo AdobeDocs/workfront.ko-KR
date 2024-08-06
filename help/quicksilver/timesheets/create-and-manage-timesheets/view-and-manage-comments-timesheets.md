@@ -6,9 +6,9 @@ description: 타임시트, 타임시트에 포함된 작업 항목 및 사용자
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '848'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 0%
 * 작업 또는 문제와 같은 개별 항목에서
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -42,7 +44,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>작업 및 문제에 대한 액세스 이상 보기</p> </td> 
+   <td> <p>작업 및 문제에 대한 보기 이상의 액세스 권한</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
@@ -53,6 +55,8 @@ ht-degree: 0%
 
 *보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오. 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
++++
+
 ## 타임시트의 시간 입력 주석 보기 {#view-hour-entry-comments-on-a-timesheet}
 
 타임시트에 표시할 개별 시간 항목에 대한 설명을 구성할 수 있습니다. 댓글 표시 및 숨기기 옵션은 전체 타임시트에 작성한 댓글이나 개별 항목에 작성된 댓글에는 영향을 주지 않습니다. 자세한 내용은  [타임시트에 댓글을 달기](#make-comments-on-a-timesheet).
@@ -61,9 +65,10 @@ ht-degree: 0%
 
 타임시트에 주석을 표시하려면:
 
-1. Adobe Workfront 오른쪽 상단의 **주 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭합니다.
+{{step1-to-timesheets}}
 
-1. **타임시트**&#x200B;를 클릭합니다.
+**타임시트** 영역이 열립니다.
+
 1. 주석을 표시할 타임시트를 엽니다.
 1. 타임시트의 오른쪽 상단에서 **댓글 표시**를 클릭합니다.
 시간 항목과 댓글이 기록된 항목 아래에 댓글이 표시됩니다.

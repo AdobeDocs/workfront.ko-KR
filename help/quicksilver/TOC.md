@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 68aa3f1fb0d754bb913dbf8ea4e1e64660fd0cda
+source-git-commit: fa6028c04930e2daae7d139ec3863d694484a788
 workflow-type: tm+mt
-source-wordcount: '14290'
+source-wordcount: '14294'
 ht-degree: 1%
 
 ---
@@ -2047,6 +2047,7 @@ ht-degree: 1%
       * [작업 공간 만들기](planning/architecture/create-workspaces.md)
       * [레코드 유형 개요](planning/architecture/overview-of-record-types.md)
       * [레코드 유형 만들기](planning/architecture/create-record-types.md)
+      * [레코드 유형 연결 개요](planning/architecture/connect-record-types-overview.md)
       * [레코드 유형 연결](planning/architecture/connect-record-types.md)
       * [레코드 유형 편집](planning/architecture/edit-record-types.md)
       * [작업 영역 삭제](planning/architecture/delete-workspaces.md)
