@@ -7,7 +7,7 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
+source-git-commit: 1a46fa3a8e87a5f345558cef57a4d66171320c9b
 workflow-type: tm+mt
 source-wordcount: '3856'
 ht-degree: 0%
@@ -480,6 +480,7 @@ Workfront 모바일 앱에서 시간을 기록할 수 있습니다.
 >
 >자세한 내용은 [시간 유형 관리](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md)를 참조하십시오.
 >
+
 다음 영역에서 기록된 시간을 편집할 수 있습니다.
 
 * 미종료 타임시트를 포함하여 시간을 추가한 모든 영역
