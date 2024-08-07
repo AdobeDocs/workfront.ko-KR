@@ -9,9 +9,9 @@ description: Adobe Photoshop 모듈을 사용하면 Adobe Photoshop 계정의 �
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: f20192ea-e363-4fba-8bd2-b1d50443918d
-source-git-commit: 5b2de063836c2cf668e14edfbc5a12f9321d26ca
+source-git-commit: cfd13f8eb422401644f7a1abf54e909218b2e8bf
 workflow-type: tm+mt
-source-wordcount: '3966'
+source-wordcount: '4308'
 ht-degree: 0%
 
 ---
@@ -147,7 +147,7 @@ ht-degree: 0%
 
 ![](assets/map-toggle-350x74.png)
 
-* [Photoshop 편집 적용](#apply-psd-edits)
+* [PSD 편집 적용](#apply-psd-edits)
 * [이미지 자동 색상 교정](#auto-color-correct-an-image)
 * [이미지 형식 변환](#convert-image-format)
 * [마스크 만들기](#create-a-mask)
@@ -263,14 +263,14 @@ ht-degree: 0%
     <tr>
       <td role="rowheader">[!UICONTROL (Output) Storage]</td>
       <td>
-        <p>새 파일을 저장할 파일 서비스를 선택합니다.</p>
+        <p>새 파일을 저장할 파일 서비스를 선택합니다.</p><p>Fusion 내부 저장소를 선택하면 파일을 이후 모듈에서 사용할 수 있지만 시나리오 외부에서 파일을 사용할 수는 없습니다.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL (출력) 파일 위치]</p>
       </td>
-   <td> 새 파일이 저장될 위치의 URL 또는 경로를 입력하거나 매핑합니다. </td> 
+   <td> 새 파일이 저장될 위치의 URL 또는 경로를 입력하거나 매핑합니다. 출력 스토리지에 대해 Fusion 내부 스토리지를 선택하지 않은 경우에만 필요합니다.</td> 
     </tr>
     <tr>
       <td role="rowheader">
@@ -322,14 +322,14 @@ ht-degree: 0%
     <tr>
       <td role="rowheader">[!UICONTROL (Output) Storage]</td>
       <td>
-        <p>새 파일을 저장할 파일 서비스를 선택합니다.</p>
+        <p>새 파일을 저장할 파일 서비스를 선택합니다.</p><p>Fusion 내부 저장소를 선택하면 파일을 이후 모듈에서 사용할 수 있지만 시나리오 외부에서 파일을 사용할 수는 없습니다.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL (출력) 파일 위치]</p>
       </td>
-   <td> 새 파일이 저장될 위치의 URL 또는 경로를 입력하거나 매핑합니다. </td> 
+   <td> 새 파일이 저장될 위치의 URL 또는 경로를 입력하거나 매핑합니다. 출력 스토리지에 대해 Fusion 내부 스토리지를 선택하지 않은 경우에만 필요합니다.</td> 
     </tr>
     <tr>
       <td role="rowheader">
@@ -386,14 +386,14 @@ ht-degree: 0%
     <tr>
       <td role="rowheader">[!UICONTROL (Output) Storage]</td>
       <td>
-        <p>새 파일을 저장할 파일 서비스를 선택합니다.</p>
+        <p>새 파일을 저장할 파일 서비스를 선택합니다.</p><p>Fusion 내부 저장소를 선택하면 파일을 이후 모듈에서 사용할 수 있지만 시나리오 외부에서 파일을 사용할 수는 없습니다.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL (출력) 파일 위치]</p>
       </td>
-   <td> 새 파일이 저장될 위치의 URL 또는 경로를 입력하거나 매핑합니다. </td> 
+   <td> 새 파일이 저장될 위치의 URL 또는 경로를 입력하거나 매핑합니다. 출력 스토리지에 대해 Fusion 내부 스토리지를 선택하지 않은 경우에만 필요합니다. </td> 
     </tr>
     <tr>
       <td role="rowheader">
@@ -445,14 +445,14 @@ ht-degree: 0%
     <tr>
       <td role="rowheader">[!UICONTROL (Output) Storage]</td>
       <td>
-        <p>마스크 파일을 저장할 파일 서비스를 선택합니다.</p>
+        <p>마스크 파일을 저장할 파일 서비스를 선택합니다.</p><p>Fusion 내부 저장소를 선택하면 파일을 이후 모듈에서 사용할 수 있지만 시나리오 외부에서 파일을 사용할 수는 없습니다.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL (출력) 파일 위치]</p>
       </td>
-   <td> 마스크 파일이 저장되는 위치의 URL 또는 경로를 입력하거나 매핑합니다. </td> 
+   <td> 마스크 파일이 저장되는 위치의 URL 또는 경로를 입력하거나 매핑합니다. 출력 스토리지에 대해 Fusion 내부 스토리지를 선택하지 않은 경우에만 필요합니다.</td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 덮어쓰기]</td>
@@ -575,6 +575,119 @@ ht-degree: 0%
    <td> 출력 파일의 압축 레벨을 선택합니다. </td> 
     </tr>
   </tbody>
+</table>
+
+
+
+### Photoshop 작업 실행(JSON)
+
+이 작업 모듈은 JSON 명령을 사용하여 Photoshop 작업을 실행합니다.
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>[!DNL Adobe Photoshop]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >[!DNL Adobe Photoshop]</a>에 대한 연결 만들기 를 참조하십시오.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL (Input) Storage]</td>
+      <td>
+        <p>편집할 파일이 저장된 파일 서비스를 선택합니다.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL (입력) 파일 위치]</p>
+      </td>
+   <td> 편집할 파일의 URL 또는 경로를 입력하거나 매핑합니다. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL 작업 JSON]</td>
+      <td>
+        <p>수행할 작업에 대한 JSON 명령을 입력합니다.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL 글꼴 / 패턴 / 브러쉬 / 추가 이미지]</td>
+      <td>
+        <p>이 작업에 사용할 각 글꼴, 패턴, 브러시 또는 추가 이미지에 대해 항목 추가를 클릭하고 항목의 저장소 및 파일 위치를 입력합니다.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Font / Pattern / Brush file URL]</p>
+      </td>
+   <td> 사용할 파일의 URL 또는 경로를 입력하거나 매핑합니다. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL 출력 파일 저장소]</td>
+      <td>
+        <p>편집한 파일을 저장할 파일 서비스를 선택합니다.</p><p>Fusion 내부 저장소를 선택하면 파일을 이후 모듈에서 사용할 수 있지만 시나리오 외부에서 파일을 사용할 수는 없습니다.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL 출력 파일 URL]</p>
+      </td>
+   <td> 편집된 파일이 저장되는 위치의 URL 또는 경로를 입력하거나 매핑합니다.  출력 스토리지에 대해 Fusion 내부 스토리지를 선택하지 않은 경우에만 필요합니다.</td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL 출력 파일 유형]</p>
+      </td>
+   <td> 편집한 파일의 파일 유형을 선택합니다. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL 덮어쓰기]</td>
+      <td>
+        <p>새로 편집한 파일이 이미 있는 출력 파일을 덮어쓸지 여부를 선택합니다.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Compression]</p>
+      </td>
+   <td> 출력 파일의 압축 레벨을 선택합니다. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL 출력]</td>
+      <td>
+        <p>생성할 변환된 각 파일에 대해 항목 추가 를 클릭하고 이 표에 나열된 대로 저장소, 위치 및 유형을 입력합니다.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL (Output) Storage]</td>
+      <td>
+        <p>새 파일을 저장할 파일 서비스를 선택합니다.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL (출력) 파일 위치]</p>
+      </td>
+   <td> 새 파일이 저장될 위치의 URL 또는 경로를 입력하거나 매핑합니다. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL (Output) Type]</p>
+      </td>
+   <td>파일을 변환할 파일 유형을 선택합니다. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL (출력) 덮어쓰기]</td>
+      <td>
+        <p>새로 편집한 파일이 이미 있는 출력 파일을 덮어쓸지 여부를 선택합니다. 이는 Adobe 저장소에 있는 파일에만 적용됩니다.</p>
+      </td>
+    </tr>
+        <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL 반환되는 최대 결과 수]</p>
+      </td>
+   <td>각 시나리오 실행 주기 동안 모듈이 반환할 최대 레코드 수를 입력하거나 매핑합니다.</td> 
+    </tr>
+      </tbody>
 </table>
 
 ### 깊이 흐림 효과 실행
@@ -725,117 +838,6 @@ ht-degree: 0%
    <td> 출력 파일의 압축 레벨을 선택합니다. </td> 
     </tr>
   </tbody>
-</table>
-
-### Photoshop 작업 실행(JSON)
-
-이 작업 모듈은 JSON 명령을 사용하여 Photoshop 작업을 실행합니다.
-
-<table style="table-layout:auto"> 
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>[!DNL Adobe Photoshop]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >[!DNL Adobe Photoshop]</a>에 대한 연결 만들기 를 참조하십시오.</td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL (Input) Storage]</td>
-      <td>
-        <p>편집할 파일이 저장된 파일 서비스를 선택합니다.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL (입력) 파일 위치]</p>
-      </td>
-   <td> 편집할 파일의 URL 또는 경로를 입력하거나 매핑합니다. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL 작업 JSON]</td>
-      <td>
-        <p>수행할 작업에 대한 JSON 명령을 입력합니다.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL 글꼴 / 패턴 / 브러쉬 / 추가 이미지]</td>
-      <td>
-        <p>이 작업에 사용할 각 글꼴, 패턴, 브러시 또는 추가 이미지에 대해 항목 추가를 클릭하고 항목의 저장소 및 파일 위치를 입력합니다.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Font / Pattern / Brush file URL]</p>
-      </td>
-   <td> 사용할 파일의 URL 또는 경로를 입력하거나 매핑합니다. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL 출력 파일 저장소]</td>
-      <td>
-        <p>편집한 파일을 저장할 파일 서비스를 선택합니다.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL 출력 파일 URL]</p>
-      </td>
-   <td> 편집된 파일이 저장되는 위치의 URL 또는 경로를 입력하거나 매핑합니다. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL 출력 파일 유형]</p>
-      </td>
-   <td> 편집한 파일의 파일 유형을 선택합니다. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL 덮어쓰기]</td>
-      <td>
-        <p>새로 편집한 파일이 이미 있는 출력 파일을 덮어쓸지 여부를 선택합니다.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Compression]</p>
-      </td>
-   <td> 출력 파일의 압축 레벨을 선택합니다. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL 출력]</td>
-      <td>
-        <p>생성할 변환된 각 파일에 대해 항목 추가 를 클릭하고 이 표에 나열된 대로 저장소, 위치 및 유형을 입력합니다.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL (Output) Storage]</td>
-      <td>
-        <p>새 파일을 저장할 파일 서비스를 선택합니다.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL (출력) 파일 위치]</p>
-      </td>
-   <td> 새 파일이 저장될 위치의 URL 또는 경로를 입력하거나 매핑합니다. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL (Output) Type]</p>
-      </td>
-   <td>파일을 변환할 파일 유형을 선택합니다. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL (출력) 덮어쓰기]</td>
-      <td>
-        <p>새로 편집한 파일이 이미 있는 출력 파일을 덮어쓸지 여부를 선택합니다. 이는 Adobe 저장소에 있는 파일에만 적용됩니다.</p>
-      </td>
-    </tr>
-        <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL 반환되는 최대 결과 수]</p>
-      </td>
-   <td>각 시나리오 실행 주기 동안 모듈이 반환할 최대 레코드 수를 입력하거나 매핑합니다.</td> 
-    </tr>
-      </tbody>
 </table>
 
 ### 제품 자르기 실행
@@ -1020,14 +1022,14 @@ ht-degree: 0%
     <tr>
       <td role="rowheader">[!UICONTROL (Output) Storage]</td>
       <td>
-        <p>새 파일을 저장할 파일 서비스를 선택합니다.</p>
+        <p>새 파일을 저장할 파일 서비스를 선택합니다.</p><p>Fusion 내부 저장소를 선택하면 파일을 이후 모듈에서 사용할 수 있지만 시나리오 외부에서 파일을 사용할 수는 없습니다.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL (출력) 파일 위치]</p>
       </td>
-   <td> 새 파일이 저장될 위치의 URL 또는 경로를 입력하거나 매핑합니다. </td> 
+   <td> 새 파일이 저장될 위치의 URL 또는 경로를 입력하거나 매핑합니다.  출력 스토리지에 대해 Fusion 내부 스토리지를 선택하지 않은 경우에만 필요합니다.</td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 덮어쓰기]</td>
@@ -1115,14 +1117,14 @@ ht-degree: 0%
     <tr>
       <td role="rowheader">[!UICONTROL (Output) Storage]</td>
       <td>
-        <p>새 파일을 저장할 파일 서비스를 선택합니다.</p>
+        <p>새 파일을 저장할 파일 서비스를 선택합니다.</p><p>Fusion 내부 저장소를 선택하면 파일을 이후 모듈에서 사용할 수 있지만 시나리오 외부에서 파일을 사용할 수는 없습니다.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL (출력) 파일 위치]</p>
       </td>
-   <td> 새 파일이 저장될 위치의 URL 또는 경로를 입력하거나 매핑합니다. </td> 
+   <td> 새 파일이 저장될 위치의 URL 또는 경로를 입력하거나 매핑합니다.  출력 스토리지에 대해 Fusion 내부 스토리지를 선택하지 않은 경우에만 필요합니다.</td> 
     </tr>
     <tr>
       <td role="rowheader">
@@ -1162,14 +1164,14 @@ ht-degree: 0%
     <tr>
       <td role="rowheader">[!UICONTROL Storage]</td>
       <td>
-        <p>크기를 조정할 파일이 저장된 파일 서비스를 선택합니다.</p>
+        <p>크기를 조정할 파일이 저장된 파일 서비스를 선택합니다.</p><p>Fusion 내부 저장소를 선택하면 파일을 이후 모듈에서 사용할 수 있지만 시나리오 외부에서 파일을 사용할 수는 없습니다.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL 파일 위치]</p>
       </td>
-   <td> 크기를 조정할 파일의 URL 또는 경로를 입력하거나 매핑합니다. </td> 
+   <td> 크기를 조정할 파일의 URL 또는 경로를 입력하거나 매핑합니다.  출력 스토리지에 대해 Fusion 내부 스토리지를 선택하지 않은 경우에만 필요합니다.</td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 출력]</td>
@@ -1269,18 +1271,17 @@ ht-degree: 0%
       </td>
    <td> 워터마크가 적용되어야 하는 이미지 상단과의 거리를 픽셀 단위로 입력하거나 매핑합니다.</td> 
     </tr>  
-    </tr>  
     <tr>
       <td role="rowheader">[!UICONTROL (Output) Storage]</td>
       <td>
-        <p>워터마크 파일을 저장할 파일 서비스를 선택합니다.</p>
+        <p>워터마크 파일을 저장할 파일 서비스를 선택합니다.</p><p>Fusion 내부 저장소를 선택하면 파일을 이후 모듈에서 사용할 수 있지만 시나리오 외부에서 파일을 사용할 수는 없습니다.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL (출력) 파일 위치]</p>
       </td>
-   <td> 워터마크 파일이 저장되는 위치의 URL 또는 경로를 입력하거나 매핑합니다. </td> 
+   <td> 워터마크 파일이 저장되는 위치의 URL 또는 경로를 입력하거나 매핑합니다. 출력 스토리지에 대해 Fusion 내부 스토리지를 선택하지 않은 경우에만 필요합니다.</td> 
     </tr>
     <tr>
       <td role="rowheader">
