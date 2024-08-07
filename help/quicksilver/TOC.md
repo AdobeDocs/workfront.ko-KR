@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 35ec37253655d05a8ce24a5c928b1d5377f7abef
+source-git-commit: 992a4b2c220664b660e871b3d464350d8f6f1a53
 workflow-type: tm+mt
-source-wordcount: '14301'
+source-wordcount: '14306'
 ht-degree: 1%
 
 ---
@@ -2113,6 +2113,7 @@ ht-degree: 1%
          * [ [!DNL Adobe Workfront Fusion]의 기본 시나리오에 웹후크 추가](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-a-webhook.md)
       * [Adobe Workfront Fusion에서 연습 자동화 시나리오 만들기](workfront-fusion/get-started/create-a-practice-automation-scenario.md)
       * [Adobe Workfront Fusion에서 연습 통합 시나리오 만들기](workfront-fusion/get-started/create-a-practice-scenario.md)
+      * [Workfront Fusion의 AI 지원](/help/quicksilver/workfront-fusion/get-started/fusion-ai-assistant.md)
       * [Adobe Workfront Fusion 성능 보호 기능](workfront-fusion/get-started/fusion-performance-guardrails.md)
       * [Adobe Workfront Fusion 액세스용 IP 주소](workfront-fusion/get-started/ip-addresses-for-fusion.md)
       * [Adobe Workfront Fusion 라이선스](workfront-fusion/get-started/license-automation-vs-integration.md)
