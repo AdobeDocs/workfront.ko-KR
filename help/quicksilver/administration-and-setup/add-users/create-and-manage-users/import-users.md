@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: '네트워크 디렉터리 서비스(예: Active Directory 또는 다른 LDAP 디렉터리)의 사용자를 동기화하여 Adobe Workfront 사이트로 사용자를 가져오거나 스프레드시트 가져오기 파일을 사용하여 사용자를 가져올 수 있습니다.'
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3dd99d01-a32f-4af8-90e3-f8c0e9027651
-source-git-commit: 1949a0bb213553f1f1f252c4382a90514fcd0b5b
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,8 @@ ht-degree: 0%
 새 사용자를 작성하기 전에 먼저 사용자와 연관시킬 모든 객체를 작성했는지 확인합니다. 예를 들어, 예약을 만들지 않은 경우 새 사용자에게 일정을 할당할 수 없으며 새 사용자와 일정을 연결하는 데 사용하는 필드가 새 사용자 화면에 나타나지 않습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음이 있어야 합니다.
 
@@ -60,9 +62,11 @@ ht-degree: 0%
  </tbody> 
 </table>
 
++++
+
 ## 스프레드시트 가져오기 파일을 사용하여 사용자 가져오기
 
-1. Adobe Workfront의 오른쪽 상단에 있는 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **사용자** ![](assets/users-icon-in-main-menu.png)를 클릭합니다.
+{{step-1-to-users}}
 
 1. **새 사용자** 드롭다운 화살표를 클릭한 다음 **사용자 가져오기**&#x200B;를 클릭합니다.
 

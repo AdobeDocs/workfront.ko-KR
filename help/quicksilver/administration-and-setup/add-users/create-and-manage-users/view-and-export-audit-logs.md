@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: 시스템의 모든 감사 로그 또는 특정 필터링 기준을 충족하는 감사 로그를 볼 수 있습니다. 감사 로그를 내보낼 수도 있습니다. 감사 로그에는 지난 90일 동안 시스템에서 트리거된 사용자 변경 사항이 나와 있습니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -46,9 +48,11 @@ ht-degree: 0%
  </tbody> 
 </table>
 
++++
+
 ## 감사 로그 보기
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **시스템 > 감사 로그**&#x200B;를 클릭합니다.
 1. **로그 유형** 드롭다운 메뉴에서 보려는 감사 로그 유형을 선택합니다.
@@ -70,7 +74,7 @@ ht-degree: 0%
 
 ## 감사 로그 내보내기
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **시스템 > 감사 로그**&#x200B;를 클릭합니다.
 

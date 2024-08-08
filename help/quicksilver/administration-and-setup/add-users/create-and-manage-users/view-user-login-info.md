@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: 사용자가 Workfront에 로그인하는 빈도와 마지막으로 로그인한 시간을 사용자 목록 보기 또는 사용자 보고서에 이 정보를 포함할지 여부를 표시하여 확인할 수 있습니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b37c34a-d628-4d9b-9688-e4b9f89c666b
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '582'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 1%
 사용자가 Adobe Workfront에 로그인하는 빈도와 마지막으로 로그인한 시간을 사용자 목록 보기 또는 사용자 보고서에 이 정보를 포함할지 여부를 표시하여 확인할 수 있습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음이 있어야 합니다.
 
@@ -45,6 +47,8 @@ ht-degree: 1%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Workfront이 로그인 정보를 기록하는 방법
 

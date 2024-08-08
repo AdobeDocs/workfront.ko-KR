@@ -4,14 +4,14 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 title: 자동 제공된 사용자의 암호 변경
-description: 새 사용자가 임시 암호를 변경하려고 할 때 이메일 주소를 입력하고 잘못된 사용자 이름에 대한 오류를 수신하는 경우가 종종 있습니다. GUID(Globally Unique Identifier)인 시스템 할당 사용자 이름을 입력해야 합니다. GUID는 기억하거나 사용하기 어려우므로 새 사용자의 사용자 이름을 Workfront 메일 주소로 변경한 다음 암호를 변경할 수 있도록 허용하는 것이 좋습니다.
-author: Caroline
+description: 새 사용자의 사용자 이름을 Workfront 메일 주소로 변경한 다음 해당 사용자가 암호를 변경할 수 있도록 허용하는 것이 좋습니다.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 14124911-e5e1-4a4f-9b25-8b4fab0329e1
-source-git-commit: 7bd3d2252b124a07a112aaa2b7798063087e7cab
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,8 @@ GUID 사용자 이름은 사용하기 어려울 수 있으므로 먼저 사용�
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -61,6 +63,8 @@ GUID 사용자 이름은 사용하기 어려울 수 있으므로 먼저 사용�
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 자동 제공된 사용자의 암호 변경
 

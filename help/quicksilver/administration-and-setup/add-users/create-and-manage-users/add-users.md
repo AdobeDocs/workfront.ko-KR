@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1157'
 ht-degree: 1%
 
 ---
@@ -40,6 +40,8 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -67,6 +69,8 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
 
 이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
++++
+
 ## 전제 조건
 
 사용자를 추가하기 전에 아래 나열된 사용자에 대한 정보를 수집하여 해당 사용자와 연결할 정보를 결정하십시오.
@@ -93,7 +97,7 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
 
 ## 처음부터 사용자 만들기
 
-1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)를 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **사용자** ![](assets/users-icon-in-main-menu.png)를 클릭합니다.
+{{step-1-to-users}}
 
 1. 아직 Workfront에 추가되지 않은 사용자를 추가하려면 **새 사용자 > 새 사용자**&#x200B;를 클릭합니다.
 
@@ -145,7 +149,8 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
 
 기존 사용자를 복사하여 새 사용자를 생성하려면 다음을 수행합니다.
 
-1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)를 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **사용자** ![](assets/users-icon-in-main-menu.png)를 클릭합니다.
+{{step-1-to-users}}
+
 1. 복사할 사용자를 선택한 다음 복사 아이콘 ![](assets/copy-icon.png)을(를) 클릭합니다.
 1. 표시되는 **사용자 복사** 상자에서 새 사용자가 사용할 수 있는 필드를 편집합니다.
 

@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: b3717fc89e45983b80471fdd629c79b82086c6ff
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 0%
+source-wordcount: '807'
+ht-degree: 1%
 
 ---
 
@@ -34,6 +34,8 @@ ht-degree: 0%
 -->
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음이 있어야 합니다.
 
@@ -59,6 +61,8 @@ ht-degree: 0%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 사용자 삭제 및 비활성화
 
@@ -118,9 +122,8 @@ ht-degree: 0%
 
 ## 한 명 이상의 사용자 삭제
 
-1. Adobe Workfront 오른쪽 상단의 **주 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭합니다.
+{{step-1-to-users}}
 
-1. **사용자**&#x200B;를 클릭합니다.
 1. 삭제할 사용자를 한 명 이상 선택하고 기타 메뉴 ![](assets/more-icon.png)을(를) 클릭한 다음 **삭제**&#x200B;를 클릭합니다.
 1. 표시되는 상자에서 **삭제**&#x200B;를 클릭하여 삭제를 확인합니다.
 

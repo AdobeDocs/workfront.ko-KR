@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: ece0275518169fd67708dce903b8bf46a9ee7b1b
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1088'
 ht-degree: 0%
 
 ---
@@ -47,6 +47,8 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -72,6 +74,8 @@ ht-degree: 0%
  </tbody> 
 </table>
 
++++
+
 ## 전제 조건
 
 Workfront 관리자 또는 Standard 또는 Plan 라이선스 사용자를 비활성화하려면 먼저 해당 개체 및 활동을 다른 사용자와 연결해야 합니다.
@@ -90,7 +94,7 @@ Workfront 관리자 또는 Standard 또는 Plan 라이선스 사용자를 비활
 
 사용자를 비활성화하려면:
 
-1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)를 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **사용자** ![](assets/users-icon-in-main-menu.png)를 클릭합니다.
+{{step-1-to-users}}
 
 1. 사용자를 선택하고 **자세히** 아이콘 ![](assets/more-icon.png)을(를) 클릭한 다음 **비활성화**&#x200B;를 클릭합니다.
 
@@ -104,7 +108,7 @@ Workfront 관리자 및 플랜 라이선스 사용자는 사용자 프로필에�
 
 사용자의 비활성화를 예약하려면 다음을 수행합니다.
 
-1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)를 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **사용자** ![](assets/users-icon-in-main-menu.png)를 클릭합니다.
+{{step-1-to-users}}
 
 1. 사용자 이름을 선택합니다.
 
@@ -131,7 +135,7 @@ Workfront 관리자 및 플랜 라이선스 사용자는 사용자 프로필에�
 
 ## 사용자 다시 활성화
 
-1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)를 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **사용자** ![](assets/users-icon-in-main-menu.png)를 클릭합니다.
+{{step-1-to-users}}
 
 1. 사용자를 선택하고 기타 아이콘 ![](assets/more-icon.png)을(를) 클릭한 다음 **활성화**&#x200B;를 클릭합니다.
 

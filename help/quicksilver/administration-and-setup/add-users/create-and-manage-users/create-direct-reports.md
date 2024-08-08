@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: 사용자를 다른 사용자에게 직접 보고서로 지정할 수 있습니다. 이를 통해 조직의 관리 구조를 표시하는 조직도를 생성할 수 있습니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: dea77522-d89f-4baa-a701-aea124d2b3a5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '261'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 1%
 사용자를 다른 사용자에게 직접 보고서로 지정할 수 있습니다. 이를 통해 조직의 관리 구조를 표시하는 조직도를 생성할 수 있습니다. 자세한 내용은 [조직도 보기](../../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md)를 참조하세요.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음이 있어야 합니다.
 
@@ -46,6 +48,8 @@ ht-degree: 1%
  </tbody> 
 </table>
 
++++
+
 ## 부하 직원 만들기
 
 1. [사용자 프로필 편집](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)에 설명된 대로 사용자 편집을 시작합니다.
@@ -54,6 +58,5 @@ ht-degree: 1%
    이 필드는 비워둘 수 없습니다.
 
 1. **부하 직원** 필드에 편집 중인 사용자에게 보고하는 사용자를 지정합니다.
-
 1. (선택 사항) **보고 대상** 필드에 이 사용자가 보고할 사용자의 이름을 지정합니다.
 1. **변경 내용 저장**&#x200B;을 클릭합니다.
