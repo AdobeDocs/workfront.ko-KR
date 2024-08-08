@@ -5,18 +5,14 @@ description: ' [!DNL Adobe Workfront] 에서 개체 목록을 보고 해당 개�
 feature: Get Started with Workfront
 author: Lisa
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7d43486ca566ae044fac1bbe20874bb45f833ef7
 workflow-type: tm+mt
-source-wordcount: '2398'
+source-wordcount: '2388'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront]의 목록 시작
-
-<!--
-{{highlighted-preview}}
--->
 
 [!DNL Adobe Workfront]의 개체 목록을 보고 해당 개체의 시작 날짜와 기한, 해당 개체에 할당된 사용자, 해당 개체와 연결된 다른 개체 등 해당 개체에 대한 정보를 얻을 수 있습니다.
 
@@ -208,12 +204,10 @@ ht-degree: 0%
     </ul> </td> 
   </tr>
   <tr> 
-   <td class="preview">사용자 정의 양식 목록</td> 
+   <td>사용자 정의 양식 목록</td> 
    <td> 
     <ul> 
-     <li class="preview"> <p>[!UICONTROL Setup] &gt;[!UICONTROL 사용자 지정 Forms]</p>
-     <!--Remove the following note box when this goes to Production. Or do this when the Preview highlighting becomes available.-->
-     <p><b>참고</b>: 현재 미리 보기 환경에서만 사용할 수 있습니다.</p> </li> 
+     <li>[!UICONTROL Setup] &gt;[!UICONTROL 사용자 지정 Forms] </li> 
     </ul> </td> 
   </tr> 
   <tr> 

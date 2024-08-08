@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 94957250387012738f2ef4c80864d51bdc2d792f
+source-git-commit: 1b3e0ab2d8ee37b7583d0b8fb0472b2fc9623da0
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1237'
 ht-degree: 0%
 
 ---
@@ -167,3 +167,23 @@ ht-degree: 0%
    ![외부 조회 필드가 있는 사용자 정의 양식](assets/external-lookup-countries-example1.png)
 
    ![지역을 기반으로 하는 국가의 외부 조회 옵션](assets/external-lookup-countries-example2.png)
+
+## 외부 조회 필드에 대한 추가 사용 사례
+
+외부 조회를 만드는 다른 사용 사례도 많습니다.
+
+**사용 사례:** 자동 검색 필드를 바꾸면 보고에 문제가 발생할 수 있습니다.
+**솔루션:** 시스템의 기존 개체에 대한 API 호출을 사용합니다.
+
+예제 템플릿용 기본 API URL로, 자동 완성 필드를 대체합니다.
+`$$HOST/attask/api/v17.0/tmpl/search?isActive=true&name_Sort=asc`
+
+**사용 사례:** 더 많은 기능을 사용하여 드롭다운 필드를 만듭니다(예: 외부 조회 필드에 줄 바꿈이 있음).
+**솔루션:** 시스템의 기존 개체에 대한 API 호출을 사용하거나 새 개체를 만들고 이 개체에 대한 API 호출을 사용하십시오.
+
+**사용 사례:** 사용자가 사용자 정의 양식 영역 외부에서 자신의 필드를 유지할 수 있는 방법을 정의합니다. 외부 조회 필드를 설정하면 필드를 구성하는 객체에 사용자를 부여할 수 있습니다. 이 옵션은 유지 관리 수준이 높은 분야 및 팀에 적합합니다.
+**솔루션:** 새 개체를 만들고 이 개체에 대한 API 호출을 사용합니다.
+
+**사용 사례:** Workfront 외부의 개체와 통합됩니다. 예를 들어 자동 완성 필드에서 제한하지 않고 다른 시스템에 액세스하여 모든 사용자의 이름을 가져올 수 있습니다.
+**솔루션:** Webhook/Fusion 자동화를 통해 다른 시스템에 연결할 수 있습니다.
+

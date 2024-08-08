@@ -3,10 +3,10 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 2f11be5feac8ed94c2db52b6a1d329bd670702cd
+source-git-commit: 1b3e0ab2d8ee37b7583d0b8fb0472b2fc9623da0
 workflow-type: tm+mt
 source-wordcount: '14310'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -486,8 +486,8 @@ ht-degree: 1%
          * [작업 역할 비활성화](administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md)
          * [작업 역할 청구 요금 재정의](administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md)
       * 시스템 추적 업데이트 피드 {#system-tracked-updates}
-         * [시스템 추적 업데이트](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md)
-         * [시스템 추적 업데이트](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)
+         * [시스템에서 추적하는 업데이트](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md)
+         * [시스템에서 추적하는 업데이트](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)
          * [시스템 업데이트 구성](administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)
          * [사용자 업데이트에 대한 환경 설정 구성](administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md)
       * Adobe Workfront 테스트 환경 {#testing-environments}
@@ -562,7 +562,7 @@ ht-degree: 1%
       * Workfront {#sso}에서 단일 사인온
          * [SSO(Single Sign-On): 문서 색인](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
          * [SSO(Single Sign-On) 개요](administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
-         * [SSO(Single Sign-On)를 위해 사용자 업데이트](administration-and-setup/add-users/single-sign-on/update-users-sso.md)
+         * [SSO(Single Sign-On)에 대해 사용자에게 업데이트 제공](administration-and-setup/add-users/single-sign-on/update-users-sso.md)
          * [SAML 2.0으로 Workfront 구성](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
          * [ID 공급자에서 SAML 2.0 메타데이터 업데이트](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
          * [ADFS를 사용하여 SAML 2.0으로 Adobe Workfront 구성](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
@@ -577,7 +577,7 @@ ht-degree: 1%
       * Adobe Workfront {#custom-branding}의 사용자 지정 브랜딩
          * [사용자 지정 브랜딩](administration-and-setup/customize-workfront/brand-workfront/brand-workfront.md)
          * [인스턴스 브랜딩](administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)
-         * [사용자 정의 도움말 URL 구성](administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md)
+         * [사용자 정의 도움말 URL 구성하기](administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md)
       * 레이아웃 템플릿 {#layout-templates}
          * [레이아웃 템플릿](administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md)
          * [기본 Workfront 레이아웃](administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)
@@ -639,7 +639,7 @@ ht-degree: 1%
          * [사용자 지정 상태를 기본 상태로 만들기](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md)
          * [사용자 지정 상태 삭제](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/delete-a-custom-status.md)
          * [특정 상태를 사용하여 보류 중인 개체 나열](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/list-objects-pending-approval-certain-status.md)
-         * [우선 순위 만들기 및 사용자 지정](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md)
+         * [우선 순위 만들기 및 사용자 정의](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md)
          * [문제 심각도 만들기 및 사용자 지정](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md)
       * 승인 프로세스 및 마일스톤 페이지 {#approvals-milestones}
          * [승인 프로세스 및 마일스톤 경로](administration-and-setup/customize-workfront/configure-approval-milestone-processes/config-approval-milestone-paths.md)
@@ -649,7 +649,7 @@ ht-degree: 1%
          * [변경 사항이 할당된 승인 프로세스에 미치는 영향](administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md)
          * [마일스톤 경로 만들기](administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)
       * 사용자 지정 조건 {#custom-conditions} 만들기 및 관리
-         * [사용자 지정 조건](administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)
+         * [사용자 정의 상태](administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)
          * [조건 만들기 또는 편집](administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md)
          * [조건의 표시 순서 변경](administration-and-setup/customize-workfront/create-manage-custom-conditions/change-display-order-of-conditions.md)
          * [프로젝트 기본값으로 조건 설정](administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md)
@@ -687,7 +687,7 @@ ht-degree: 1%
          * [새 사용자에게 전자 메일 초대](administration-and-setup/manage-workfront/emails/manage-email-invitations.md)
       * 보안 {#security}
          * [보안](administration-and-setup/manage-workfront/security/security.md)
-         * [시스템 환경 설정 구성](administration-and-setup/manage-workfront/security/configure-security-preferences.md)
+         * [시스템 환경 설정 구성하기](administration-and-setup/manage-workfront/security/configure-security-preferences.md)
          * [인증 암호](administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md)
          * [SSO(Single Sign-On) 옵션 제거](administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
          * [SAML 2.0 메타데이터 인증서 갱신](administration-and-setup/manage-workfront/security/renew-wf-saml-2-certificate.md)
@@ -784,18 +784,18 @@ ht-degree: 1%
       * [Adobe Workfront 통합](administration-and-setup/configure-integrations/workfront-integrations-1.md)
       * [ [!DNL Workfront] 및 [!DNL Frame.io] 통합 구성](administration-and-setup/configure-integrations/configure-wf-and-frame.md)
       * [Experience Manager Assets as a Cloud Service 통합 구성](administration-and-setup/configure-integrations/configure-aacs-integration.md)
-      * [Experience Manager Assets Essentials 통합 구성](documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
+      * [Experience Manager Assets Essentials 통합 구성하기](documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
       * [Adobe Experience Manager 레거시 커넥터를 사용하여 Workfront 구성](administration-and-setup/configure-integrations/configure-workfront-aem.md)
       * [사용자가 모바일 애플리케이션에 액세스할 수 있도록 설정](administration-and-setup/configure-integrations/enable-users-access-mobile-app.md)
       * [Outlook용 Adobe Workfront 활성화](administration-and-setup/configure-integrations/enable-workfront-for-outlook.md)
-      * [문서 통합 구성](administration-and-setup/configure-integrations/configure-document-integrations.md)
+      * [문서 통합 구성하기](administration-and-setup/configure-integrations/configure-document-integrations.md)
       * [문서 통합 비활성화](administration-and-setup/configure-integrations/disable-document-integrations.md)
       * [SharePoint 통합 구성](administration-and-setup/configure-integrations/configure-sharepoint-integration.md)
       * [메타데이터 매핑 설정](administration-and-setup/configure-integrations/set-up-metadata-mapping.md)
       * [Adobe Admin Console에서 사용자를 위한 Adobe Workfront Creative Cloud 패키지 만들기](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
       * [Workfront 통합을 위한 OAuth2 애플리케이션 만들기](administration-and-setup/configure-integrations/create-oauth-application.md)
       * [사용자 정의 OAuth2 애플리케이션 보기 및 관리](administration-and-setup/configure-integrations/manage-custom-oauth2-apps.md)
-      * [JumpSeat 통합 구성](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)
+      * [JumpSeat 통합 구성하기](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)
    * 블루프린트 {#blueprints}
       * [블루프린트](administration-and-setup/blueprints/blueprints.md)
       * [블루프린트 개요](administration-and-setup/blueprints/blueprints-overview.md)
