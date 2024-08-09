@@ -2,18 +2,18 @@
 content-type: reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: "자산 및 문서 승인 설정 및 관리: 문서 색인"
+title: '자산 및 문서 승인 설정 및 관리: 문서 인덱스'
 description: 이 섹션에는 Workfront에서의 에셋 및 문서 승인 관리에 대한 문서가 포함되어 있습니다.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: 66f3b53a06147d531e5e700857ca88219c2d4109
+exl-id: 242910b9-f251-49c3-a6ad-de3039bdd2f5
+source-git-commit: 4fbeeffc48d47e04c00d9695b346cbed2633748e
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
-
 
 # 자산 및 문서 승인 설정 및 관리: 문서 색인
 
@@ -25,3 +25,4 @@ ht-degree: 0%
 * [에셋 또는 문서에서 승인자 또는 검토자 제거](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
 * [자산 및 문서에 대한 승인 템플릿 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
 * [연결된 Workfront 프로젝트에 Frame.io 자산 추가](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/add-frame-asset-to-connected-project.md)
+* [새 문서 승인 및 증명 함께 사용](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
