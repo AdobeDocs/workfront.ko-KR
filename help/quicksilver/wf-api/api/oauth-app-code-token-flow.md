@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a1ab60c4-4255-4d80-87f1-f36d325254c2
-source-git-commit: 6f041459caf040846ffdec5bc75e9d74c99e318b
+source-git-commit: e41b0df5ee0ce092f0811b18c57f6865bbb3abee
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ OAuth2 애플리케이션 만들기에 대한 지침은 [Workfront 통합을 위
 
 * `client_id`: Workfront에서 OAuth2 앱을 만들 때 생성된 클라이언트 ID입니다.
 
-* `redirect_uri`: 앱을 만들 때 입력한 리디렉션 URL입니다. 사용자가 계정에 대한 앱을 승인하면 이 페이지로 이동합니다.
+* `redirect_uri`: 이 URL은 OAuth2 앱을 만들 때 Workfront에 입력한 리디렉션 URL과 동일해야 합니다. 사용자가 계정에 대한 앱을 승인하면 이 페이지로 이동합니다.
 
 * `response_type`: 이 값에는 `code` 값이 있어야 합니다.
 

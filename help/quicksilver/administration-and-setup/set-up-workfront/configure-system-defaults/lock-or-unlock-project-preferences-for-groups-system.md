@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f5a94eaf-ebb8-424b-80ff-ba40cc985a6e
-source-git-commit: 3e97df265df83965d094d8723fe76043ff4af80e
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '549'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 기본 설정이 잠금 해제되고 그룹 관리자가 기본 설정을 수정하면 그룹과 관련된 프로젝트가 시스템 수준 설정이 아닌 그룹 수준 설정에서 해당 기본 설정에 대한 구성을 가져옵니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -44,6 +46,8 @@ ht-degree: 0%
  </tbody> 
 </table>
 
++++
+
 ## 잠금 및 잠금 해제된 환경 설정 정보
 
 시스템 수준에서 구성한 프로젝트, 작업 또는 문제 환경 설정을 잠그면 모든 사람이 해당 환경 설정에 대해 동일한 설정을 사용할 수 있습니다. 잠근 환경 설정을 다시 구성할 수는 있지만 그룹 관리자는 해당 그룹에 대해 환경 설정을 다시 구성할 수는 없습니다.
@@ -60,7 +64,7 @@ ht-degree: 0%
 
 ## 그룹이 구성할 수 있도록 프로젝트 환경 설정 잠금 해제
 
-1. [!DNL Adobe Workfront]의 오른쪽 위 모서리에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 설정]** ![](assets/gear-icon-settings.png)을 클릭합니다.
+{{step-1-to-setup}}
 
 1. **[!UICONTROL 프로젝트 환경 설정]**&#x200B;을 클릭한 다음 **[!UICONTROL 프로젝트]**&#x200B;을 클릭합니다.
 

@@ -4,11 +4,11 @@ product-area: system-administration;setup
 navigation-topic: start-with-workfront-administration
 title: 플랫폼 기반 관리의 차이점(Adobe Workfront/Adobe 비즈니스 플랫폼)
 description: 조직이 Adobe 비즈니스 플랫폼에 온보딩된 경우 사용자는 Adobe 비즈니스 플랫폼을 사용하여 Adobe Workfront에 액세스합니다. 이는 이용자 관리가 대부분 Adobe Admin Console을 통해 이뤄지고, SSO(Single Sign-On)가 Workfront이 아닌 Adobe 비즈니스 플랫폼을 통해 이뤄지고 있다는 것을 의미한다. Adobe Workfront 관리자는 조직이 Adobe 비즈니스 플랫폼에 온보딩되었는지 여부에 따라 관리 책임과 절차가 다릅니다. 이 문서에서는 다르게 처리해야 하는 절차와 Workfront 및 Adobe Admin Console 모두에 대한 지침 링크를 나열합니다.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a84a5a8d-7c2a-4b51-a614-91a6dc9aa4ed
-source-git-commit: 5d4434d090c4b6cdefc9c313fecccf6d6e9a510b
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 0%

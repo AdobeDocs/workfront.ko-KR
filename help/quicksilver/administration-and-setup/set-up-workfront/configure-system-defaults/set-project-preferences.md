@@ -8,14 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: 93a2630ec5c21f03643a29a8730046c8458c795f
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
 source-wordcount: '2561'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# 시스템 전체 프로젝트 환경 설정 구성
+# 시스템 전체에서 프로젝트 환경 설정 구성하기
 
 <!--Audited: 12/2023-->
 

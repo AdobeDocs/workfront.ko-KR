@@ -4,18 +4,18 @@ product-area: system-administration
 navigation-topic: configure-system-defaults
 title: 사용자 정의 경비 유형 만들기
 description: ' [!DNL Adobe Workfront] 관리자는 사용자 지정 경비 유형을 만들어 작업 및 프로젝트와 관련된 경비를 정의하고 추적할 수 있습니다. 경비는 작업 또는 프로젝트와 연관될 수 있는 비인적 비용입니다.'
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 1%
+source-wordcount: '431'
+ht-degree: 3%
 
 ---
 
-# 사용자 정의 경비 유형 만들기
+# 사용자 정의 비용 유형 만들기
 
 <!--**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -24,6 +24,8 @@ ht-degree: 1%
 생성하는 경비 유형을 편집하거나 삭제할 수 있습니다. 기본 제공 [!DNL Workfront] 경비 유형을 삭제하거나 편집할 수 없습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -46,6 +48,8 @@ ht-degree: 1%
  </tbody> 
 </table>
 
++++
+
 ## 기본 경비 유형
 
 기본적으로 [!DNL Workfront]에 있는 경비 형식은 삭제하거나 편집할 수 없습니다.
@@ -57,9 +61,10 @@ ht-degree: 1%
 * [!UICONTROL 자료]
 * [!UICONTROL 여행]
 
-## 사용자 정의 경비 유형 만들기
+## 사용자 정의 비용 유형 만들기
 
-1. [!DNL Adobe Workfront]의 오른쪽 위 모서리에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
+
 1. **[!UICONTROL 경비 유형]**&#x200B;을 클릭하세요.
 1. **[!UICONTROL 새 경비 유형]**&#x200B;을 클릭하세요.
 1. 표시되는 **[!UICONTROL 새 경비 유형]** 상자에서 다음 정보를 지정합니다.
@@ -101,7 +106,8 @@ ht-degree: 1%
 
 ## 사용자 정의 경비 유형 수정
 
-1. [!DNL Adobe Workfront]의 오른쪽 위 모서리에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
+
 1. **[!UICONTROL 경비 유형]**&#x200B;을 클릭하세요.
 1. 수정할 경비 유형을 선택한 다음 **[!UICONTROL 편집]**&#x200B;을 클릭합니다.
 

@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 71ef7a50-7a9f-43c4-b67c-8d9fc722569f
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,8 @@ Adobe Workfront에는 새로운 기능과 업데이트를 릴리스하기 위한
 
 빠른 릴리스 프로세스를 활성화하거나 비활성화하려면 다음을 수행하십시오.
 
-1. **기본 메뉴 아이콘**&#x200B;을 클릭한 다음 **설정**&#x200B;을 클릭합니다.
+{{step-1-to-setup}}
+
 1. 왼쪽 탐색에서 **시스템**&#x200B;을 확장한 다음 **기본 설정**&#x200B;을 클릭합니다.
 1. 빠른 릴리스를 활성화하려면 **빠른 릴리스 프로세스 허용** 확인란을 선택하십시오.
 

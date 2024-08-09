@@ -4,18 +4,18 @@ product-area: system-administration
 navigation-topic: configure-system-defaults
 title: 기본 필터, 보기 및 그룹화 만들기, 편집 및 공유
 description: 기본 필터, 보기 및 그룹화를 만든 다음 조직의 사용자가 사용할 수 있도록 할 수 있습니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 32eb825c-ba50-4820-a659-adc924a6ae52
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 0%
+source-wordcount: '831'
+ht-degree: 1%
 
 ---
 
-# 기본 필터, 보기 및 그룹화 만들기, 편집 및 공유
+# 기본 필터, 보기, 그룹화를 만들기, 편집, 공유
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
@@ -26,6 +26,8 @@ ht-degree: 0%
 이 문서에 설명된 대로 기본 필터, 보기 및 그룹화를 만들면 공유하는 사용자는 목록을 볼 때 활용할 수 있습니다. 사용자는 사용자가 만든 필터, 보기 및 그룹화를 기반으로 고유한 필터, 보기 및 그룹화를 만들 수 있지만 직접 만든 필터, 보기 및 그룹화는 변경할 수 없습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -47,6 +49,8 @@ ht-degree: 0%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 기본 필터, 보기 또는 그룹화 만들기
 

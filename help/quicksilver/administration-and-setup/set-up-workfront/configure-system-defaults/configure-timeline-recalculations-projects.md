@@ -4,13 +4,13 @@ product-area: system-administration;projects;setup
 navigation-topic: configure-system-defaults
 title: 프로젝트에 대한 타임라인 재계산 구성
 description: 타임라인을 다시 계산하면 관리자는 프로젝트 외부의 힘이 프로젝트의 타임라인에 미치는 영향을 확인할 수 있습니다. 프로젝트의 타임라인은 프로젝트의 계획된 일자와 예상 일자를 나타냅니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 67028988-6ac3-48d4-957e-1b5202d33c48
-source-git-commit: 4705c3fc76c1544f8c71e70a773432f164282abb
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 0%
 이 문서에서는 [!DNL Workfront] 관리자로서 [!UICONTROL 설정] 영역에서 프로젝트 환경 설정을 구성하여 [!DNL Workfront]이(가) 프로젝트 타임라인을 자동으로 계산하는 방법과 시기를 확인하는 방법에 대해 설명합니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음이 있어야 합니다.
 
@@ -46,11 +48,13 @@ ht-degree: 0%
  </tbody> 
 </table>
 
++++
+
 ## 자동 재계산 구성
 
 [!DNL Adobe Workfront] 관리자는 [!DNL Workfront]이(가) 프로젝트 타임라인을 자동으로 다시 계산하는 시기를 구성할 수 있습니다. [!DNL Workfront]은(는) 매일 밤 또는 프로젝트 범위가 변경될 때 또는 둘 다 프로젝트 타임라인을 다시 계산할 수 있습니다.
 
-1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭하거나 [!DNL Workfront]의 왼쪽 상단의 [!UICONTROL **주 메뉴**] 아이콘 ![](assets/lines-main-menu.png)을(를) 클릭합니다(사용 가능한 경우). **[!UICONTROL 설정]** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. **[!UICONTROL 프로젝트 환경 설정]** > **[!UICONTROL 프로젝트].**&#x200B;을 클릭합니다.
 

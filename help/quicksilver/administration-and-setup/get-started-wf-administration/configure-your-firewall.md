@@ -4,13 +4,13 @@ product-area: system-administration;setup
 navigation-topic: start-with-workfront-administration
 title: 허용 목록에 추가하다 방화벽 구성
 description: 허용 목록에 추가하다 방화벽 또는 메일 서버가 특정 공급업체에 대해서만 액세스를 허용하도록 구성된 경우 특정 IP 주소를 해당 공급업체에 추가해야 합니다. 이렇게 하면 환경과 Adobe Workfront 서버 간에 통신이 열리고 사용자가 Workfront에서 메시지를 보내고 Active Directory 또는 LDAP와 함께 SSO를 사용할 수 있습니다.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '1635'
+source-wordcount: '1621'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,8 @@ ht-degree: 0%
 
 조직의 클러스터를 찾으려면 다음을 수행합니다.
 
-1. Workfront 관리자는 **주 메뉴** 아이콘 ![주 메뉴](assets/main-menu-icon.png)을 클릭한 다음 **설정**&#x200B;을 클릭합니다.
+{{step-1-to-setup}}
+
 1. 왼쪽 탐색에서 **시스템**&#x200B;을 클릭한 다음 **고객 정보**&#x200B;를 선택합니다.
 1. 페이지 오른쪽 상단에서 **클러스터 설정** 필드를 찾습니다. 조직의 클러스터가 여기에 나열됩니다.
 

@@ -4,13 +4,13 @@ product-area: system-administration;setup
 navigation-topic: configure-system-defaults
 title: 리소스 관리 환경 설정 구성
 description: ' [!DNL Adobe Workfront] 관리자는 시스템에 대한 리소스 관리 기본 설정을 구성할 수 있습니다. 이러한 리소스 관리 환경 설정은  [!DNL Workfront] 리소스 예약 및 계획 도구에 대한 사용자 가용성 또는 용량 및 FTE를 계산하는 방법을 결정합니다.'
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
-source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '711'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,8 @@ Edit the first part, once they add more settings in the Res Management Preferenc
 </table>
 -->
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -77,6 +79,8 @@ Edit the first part, once they add more settings in the Res Management Preferenc
  </tbody> 
 </table>
 
++++
+
 ## 사용자의 수용작업량을 계산할 때 고려되는 정보
 
 사용자의 용량을 계산할 때 Workfront은 다음 정보를 고려합니다.
@@ -97,7 +101,8 @@ Edit the first part, once they add more settings in the Res Management Preferenc
 >
 >이 설정은 전역 설정이므로 이 선택 사항은 모든 리소스 관리 도구에서 전체 시스템, 모든 사용자에 대한 모든 계산에 영향을 줍니다.
 
-1. [!DNL Workfront]의 오른쪽 위 모서리에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 설정]** ![](assets/gear-icon-settings.png)을 클릭합니다.
+{{step-1-to-setup}}
+
 1. **[!UICONTROL 리소스 관리]**&#x200B;를 클릭합니다.
 1. [!DNL Workfront]에서 사용자의 사용 가능 여부를 계산하려면 다음 방법 중 하나를 선택하십시오.
 
