@@ -9,9 +9,9 @@ description: Adobe Workfront Fusion Adobe Workfront 커넥터를 사용하여 Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: f8abe5240f163693c30dc1bd6cf77e4cad5ea476
+source-git-commit: 7c00ea85b4a03346cdb39c937a1cef970d409ef0
 workflow-type: tm+mt
-source-wordcount: '6259'
+source-wordcount: '6280'
 ht-degree: 2%
 
 ---
@@ -147,7 +147,8 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->Workfront 모듈에 최신 필드가 표시되지 않는 경우 캐싱 문제 때문일 수 있습니다. 1시간 기다린 후 다시 시도하십시오.
+>* Workfront 모듈에 최신 필드가 표시되지 않는 경우 캐싱 문제 때문일 수 있습니다. 1시간 기다린 후 다시 시도하십시오.
+>* Adobe Workfront의 HTTP 429 상태 코드는 비활성화가 아니라 시나리오에서 짧은 실행 일시 중지를 트리거해야 합니다.
 
 ![](assets/map-toggle-350x74.png)
 
