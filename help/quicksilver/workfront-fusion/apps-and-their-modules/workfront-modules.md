@@ -9,7 +9,7 @@ description: Adobe Workfront Fusion Adobe Workfront 커넥터를 사용하여 Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 7c00ea85b4a03346cdb39c937a1cef970d409ef0
+source-git-commit: 66cd6f7d231ab8442b08ddabefabc8e4069118d7
 workflow-type: tm+mt
 source-wordcount: '6280'
 ht-degree: 2%
@@ -145,12 +145,12 @@ ht-degree: 2%
 
 필드나 함수 위에 맵 단추가 표시되면 이 단추를 사용하여 해당 필드에 대한 변수와 함수를 설정할 수 있습니다. 자세한 내용은 [한 모듈에서 다른 모듈로 정보를 매핑 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)을 참조하십시오.
 
+
+![](assets/map-toggle-350x74.png)
 >[!NOTE]
 >
 >* Workfront 모듈에 최신 필드가 표시되지 않는 경우 캐싱 문제 때문일 수 있습니다. 1시간 기다린 후 다시 시도하십시오.
 >* Adobe Workfront의 HTTP 429 상태 코드는 비활성화가 아니라 시나리오에서 짧은 실행 일시 중지를 트리거해야 합니다.
-
-![](assets/map-toggle-350x74.png)
 
 * [트리거](#triggers)
 * [작업](#actions)
