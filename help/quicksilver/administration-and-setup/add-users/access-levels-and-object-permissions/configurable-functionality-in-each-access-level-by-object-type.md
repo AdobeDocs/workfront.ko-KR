@@ -1,11 +1,11 @@
 ---
 title: 각 객체 유형에 대한 기능에 대한 구성 가능한 액세스
 description: 이 문서에서는 각 액세스 수준의 각 객체 유형에 대해 Adobe Workfront 관리자가 허용할 수 있는 사항에 대해 설명합니다. 또한 각 액세스 수준 유형에 대한 기본 구성이 무엇인지 설명합니다.
-author: Courtney
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 94e0b205-140c-41c9-bb5a-f89b4c3aaea0
-source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '3436'
 ht-degree: 10%

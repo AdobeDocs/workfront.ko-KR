@@ -6,13 +6,13 @@ product-area: system-administration
 keywords: 액세스,수준,시스템,관리자,표준,조명,기여자
 navigation-topic: access-levels
 description: Workfront에 로그인하고 작업하려면 모든 사용자에게 액세스 수준이 있어야 합니다. 액세스 수준을 사용하여 사용자가 특정 Workfront 개체 및 영역을 보고 수행할 수 있는 작업을 제어합니다.
-author: Courtney
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 58c76187-fc74-4ab4-80e8-c3e296a84f27
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '216'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 1%
 >비활성화되면 할당된 결정 수를 초과하는 비유료 사용자는 자동으로 업그레이드되지 않습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -51,6 +53,8 @@ ht-degree: 1%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 비유료 사용자에 대한 자동 업그레이드 비활성화
 

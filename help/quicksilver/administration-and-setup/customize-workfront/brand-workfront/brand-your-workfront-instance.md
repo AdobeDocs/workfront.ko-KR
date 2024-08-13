@@ -4,18 +4,18 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: brand-workfront
 description: Workfront 관리자는 로그인 화면, 상단 탐색 영역 및 메인 메뉴에 로고가 있는 Workfront을 브랜딩할 수 있습니다. 로그인 화면의 배경 이미지와 색상을 변경할 수도 있습니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 94603393-bdea-4673-9256-08da14f6916e
-source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '912'
 ht-degree: 1%
 
 ---
 
-# Adobe Workfront 인스턴스 브랜딩
+# Adobe Workfront 인스턴스에 브랜드 설정
 
 <!--
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
@@ -57,6 +57,8 @@ Workfront 관리자는 다음 위치에 로고가 있는 Workfront을 브랜딩�
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -78,9 +80,11 @@ Workfront 관리자는 다음 위치에 로고가 있는 Workfront을 브랜딩�
  </tbody> 
 </table>
 
++++
+
 ## 로그인 화면에 브랜딩
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. **시스템** > **브랜딩**&#x200B;을 클릭합니다.
 

@@ -4,20 +4,24 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
 description: 사용자 지정 조건을 삭제할 수 있습니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5fbd4989-460b-4380-a136-8a9f6b79787d
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
 
 # 사용자 지정 조건 삭제
 
+사용자 지정 조건이 더 이상 필요하지 않으면 삭제할 수 있습니다.
+
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -40,9 +44,11 @@ ht-degree: 0%
  </tbody> 
 </table>
 
++++
+
 ## 사용자 지정 조건 삭제
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. **프로젝트 환경 설정** > **조건**&#x200B;을 클릭합니다.
 

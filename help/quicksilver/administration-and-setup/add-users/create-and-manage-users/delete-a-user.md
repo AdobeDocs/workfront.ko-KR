@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: 사용자가 조직을 떠나면 Workfront에서 해당 사용자를 제거할 수 있지만 삭제하는 대신 비활성화하는 것이 좋습니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '807'
 ht-degree: 1%

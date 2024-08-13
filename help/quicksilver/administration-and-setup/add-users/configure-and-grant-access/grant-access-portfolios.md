@@ -1,16 +1,16 @@
 ---
-title: 포트폴리오 액세스 권한 부여
+title: Portfolio 액세스 권한 부여
 user-type: administrator
 product-area: system-administration;portfolios
 navigation-topic: configure-access-to-workfront
 description: Adobe Workfront 관리자는 액세스 수준을 사용하여 Workfront의 포트폴리오에 대한 사용자의 액세스 권한을 정의할 수 있습니다.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f4a9c4f3-8ed4-4629-aced-9cc09b8acd3f
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)에 설명된 대로 액세스 수준을 사용하여 포트폴리오에 대한 사용자의 액세스를 정의할 수 있습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -41,6 +43,8 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 사용자 정의 액세스 수준을 사용하여 포트폴리오에 대한 사용자 액세스 구성
 

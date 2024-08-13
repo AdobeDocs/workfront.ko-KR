@@ -4,12 +4,12 @@ content-type: administrator
 product-area: system-administration
 navigation-topic: add-users-to-workfront
 description: Adobe Workfront 관리자는 사용자에게 액세스 수준을 할당하여 객체를 보거나 편집할 수 있는 액세스 권한을 부여할 수 있습니다. 아래 문서에서는 새로운 액세스 수준의 작동 방식을 설명합니다.
-author: Courtney
+author: Becky
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 05f575d0-bf42-430b-8648-dbdd9297ca08
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 0%

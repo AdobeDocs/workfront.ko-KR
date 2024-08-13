@@ -6,11 +6,11 @@ keywords: 액세스,모델,단계,다이어그램,수준,권한
 navigation-topic: access-levels
 title: 기본 제공 액세스 수준
 description: 6개의 현재 기본 제공 액세스 수준 각각은 시스템 관리자, 플래너, 작업자, 검토자, 요청자 및 외부 사용자를 포함한 특정 유형의 사용자를 위해 설계되었습니다. 이러한 액세스 수준을 사용하면 시스템에서 편집하고 볼 수 있는 사용자를 제어할 수 있습니다. 사용자 지정 액세스 수준이 필요한 경우 기본 제공 액세스 수준을 복사하고 다양한 Workfront 개체 유형에 허용하려는 액세스 양에 따라 수정할 수 있습니다.
-author: Becky, Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5cb42dd8-1557-4fa4-ab3d-8278ce9afd96
-source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '1685'
 ht-degree: 5%

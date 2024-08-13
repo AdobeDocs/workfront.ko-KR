@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
 description: 사용자가 해당 작업에 대한 작업을 클릭하거나 할당된 새 작업에 업데이트 설명을 추가하면(작업에 대한 조건을 수동으로 설정하지 않음) Adobe Workfront에 설정에 구성된 작업의 기본 조건이 표시됩니다. 문제에 대해서도 마찬가지입니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 40b426f4-0a9c-49a6-91c7-b5f8aa48bd37
-source-git-commit: a3cb3d9d340d377e301c98480324bfe8bf507382
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 Workfront에서는 기본 제공 조건 원활하게 진행 중 을 작업의 기본 조건으로 사용하고, 문제에 대해서는 별도로 사용합니다. Workfront 관리자는 이러한 두 객체 유형에 대한 기본 조건을 사용자가 생성한 사용자 정의 조건으로 변경할 수 있습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -44,9 +46,11 @@ Workfront에서는 기본 제공 조건 원활하게 진행 중 을 작업의 �
  </tbody> 
 </table>
 
++++
+
 ## 작업 또는 문제에 대한 기본 조건으로 사용자 지정 조건을 설정합니다.
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. **프로젝트 환경 설정** > **조건**&#x200B;을 클릭합니다.
 

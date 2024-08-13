@@ -6,11 +6,11 @@ product-area: system-administration
 keywords: 액세스,수준,시스템,관리자,플래너,작업자,검토자,요청자,외부,사용자
 navigation-topic: access-levels
 description: Workfront에 로그인하고 작업하려면 모든 사용자에게 액세스 수준이 있어야 합니다. 액세스 수준을 사용하여 사용자가 특정 Workfront 개체 및 영역을 보고 수행할 수 있는 작업을 제어합니다. 내장된 6개의 액세스 수준은 각각 계획, 작업, 검토, 요청 및 외부라는 5개의 Workfront 라이선스 중 하나에 연결되어 있습니다.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
-source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%

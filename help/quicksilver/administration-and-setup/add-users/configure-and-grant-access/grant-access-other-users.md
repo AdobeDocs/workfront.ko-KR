@@ -1,13 +1,13 @@
 ---
 title: 사용자에게 액세스 권한 부여
 description: Adobe Workfront 관리자는 액세스 수준을 사용하여 Workfront의 다른 사용자에 대한 사용자 액세스 권한을 정의할 수 있습니다.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '779'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 1%
 Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)에 설명된 대로 액세스 수준을 사용하여 Workfront의 다른 사용자에 대한 사용자 액세스를 정의할 수 있습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -39,6 +41,8 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 사용자에 대한 액세스 구성
 

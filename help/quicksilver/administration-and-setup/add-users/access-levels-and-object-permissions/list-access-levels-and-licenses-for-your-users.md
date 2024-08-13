@@ -6,13 +6,13 @@ product-area: system-administration
 keywords: 액세스,레벨,라이센스
 navigation-topic: access-levels
 description: 사용자 목록 또는 보고서에서 각 사용자에게 할당된 액세스 수준 및 라이선스를 확인할 수 있습니다.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5d85509d-276a-411e-813c-8b1fa2f512db
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '311'
 ht-degree: 1%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 1%
 사용자 목록 또는 보고서에서 각 사용자에게 할당된 액세스 수준 및 라이선스를 확인할 수 있습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 다음 항목이 있어야 합니다.
 
@@ -46,11 +48,13 @@ ht-degree: 1%
 
 &#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
 
++++
+
 ## 사용자의 액세스 수준 및 라이선스 나열
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **사용자**&#x200B;를 클릭합니다.
+{{step-1-to-users}}
 
-   기본적으로 활성으로 설정된 모든 사용자가 목록에 표시됩니다.
+기본적으로 활성으로 설정된 모든 사용자가 목록에 표시됩니다.
 
 1. **보기** 드롭다운 메뉴에서 **라이선스**&#x200B;를 선택합니다.
 

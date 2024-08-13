@@ -3,14 +3,14 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: add-users-to-workfront
-title: "Workfront의 SSO(Single Sign-On): 기사 인덱스"
+title: "Workfront의 Single Sign-On: 기사 색인"
 description: Workfront을 기존 회사 SSO 솔루션과 통합할 수 있습니다. 이 구성은 설정 및 관리가 쉬우며 OnDemand 및 OnPremise 엔터프라이즈 고객 모두 사용할 수 있습니다.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1ae65deb-bc02-4fdc-b229-30603b33fe7e
-source-git-commit: 157ab840d63388b342db624824db9538d43b70b1
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 0%

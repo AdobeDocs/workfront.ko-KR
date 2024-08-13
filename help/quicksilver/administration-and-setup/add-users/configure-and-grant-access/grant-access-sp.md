@@ -1,13 +1,13 @@
 ---
 title: 시나리오 플래너에 대한 액세스 권한 부여
 description: Adobe Workfront 관리자는 액세스 수준을 사용하여 시나리오 플래너에 대한 사용자의 액세스 권한을 정의할 수 있습니다.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4343f0ff-2f78-4556-801f-db9d94f80c95
-source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 Scenario Planner에 대한 액세스 권한 외에도 시스템 관리자가 아닌 액세스 레벨의 사용자는 계획에 포함된 예산, 비용 및 작업 역할 비율과 같은 재무 정보를 볼 수 있도록 재무 데이터에 대한 액세스 권한도 보유해야 합니다. 자세한 내용은 [재무 데이터에 대한 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)를 참조하십시오.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 다음 항목이 있어야 합니다.
 
@@ -50,6 +52,8 @@ Scenario Planner에 대한 액세스 권한 외에도 시스템 관리자가 아
 </table>
 
 &#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+
++++
 
 ## 사용자 지정 액세스 수준을 사용하여 시나리오 플래너에 대한 사용자 액세스 구성
 

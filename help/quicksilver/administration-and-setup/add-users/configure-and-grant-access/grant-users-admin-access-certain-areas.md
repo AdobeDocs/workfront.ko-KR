@@ -1,13 +1,13 @@
 ---
 title: 사용자에게 특정 영역에 대한 관리 액세스 권한 부여
 description: Adobe Workfront 관리자는 액세스 수준을 사용하여 플랜 라이선스 사용자에게 시스템의 특정 영역에 대한 관리 액세스 권한을 부여할 수 있습니다.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9d12895d-cf7f-41c6-a2ac-bb731770c187
-source-git-commit: 253a116e04e0b3a729331f5d0a29405e82808390
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '843'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,8 @@ Adobe Workfront 관리자는 액세스 수준을 사용하여 플랜 라이선�
 >사용자에게 Workfront에 대한 전체 관리 액세스 권한을 부여하는 것과 다릅니다. 자세한 내용은 [사용자에게 전체 관리 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)를 참조하십시오&#x200B;.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -45,13 +47,15 @@ Adobe Workfront 관리자는 액세스 수준을 사용하여 플랜 라이선�
  </tbody> 
 </table>
 
++++
+
 ## 플랜 사용자에게 Workfront의 특정 영역에 대한 관리 액세스 권한 부여
 
 >[!IMPORTANT]
 >
 >사용자를 설정한 후에 참조할 수 있도록 기본 제공 액세스 수준을 변경하지 않는 것이 좋습니다. 액세스 수준을 사용자 지정하려면 기본 액세스 수준을 복사하고 복사본을 수정합니다. (시스템 관리자 및 외부 사용자를 제외한 모든 액세스 수준에 대해 이 작업을 수행할 수 있습니다.)
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **액세스 수준**&#x200B;을 클릭합니다.
 1. 사용자에게 Workfront의 특정 영역에 대한 관리 액세스 권한을 부여하는 데 사용할 액세스 수준의 이름을 클릭합니다.

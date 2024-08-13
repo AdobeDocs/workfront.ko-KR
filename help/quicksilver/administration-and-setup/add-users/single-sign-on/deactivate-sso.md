@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: single-sign-on-in-workfront
 title: Adobe Workfront에서 SSO(Single Sign-On) 비활성화
 description: Workfront에서 SSO(Single Sign-On)를 비활성화할 수 있습니다.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3d661da6-dc7b-4dea-a56c-28e296acd980
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '161'
 ht-degree: 1%
 
 ---
@@ -23,6 +23,8 @@ Adobe Workfront에서 SSO(Single Sign-On)를 비활성화한 후 사용자는 Wo
 
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -45,9 +47,11 @@ Adobe Workfront에서 SSO(Single Sign-On)를 비활성화한 후 사용자는 Wo
  </tbody> 
 </table>
 
++++
+
 ## SSO 비활성화
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. **시스템** > **SSO(Single Sign-On)**&#x200B;를 클릭합니다.
 

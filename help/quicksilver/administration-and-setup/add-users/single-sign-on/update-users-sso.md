@@ -8,14 +8,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f9c543a-2ae2-4c2c-9c4d-647079263a7e
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '802'
 ht-degree: 1%
 
 ---
 
-# SSO(Single Sign-On)를 위해 사용자 업데이트
+# SSO(Single Sign-On)에 대해 사용자에게 업데이트 제공
 
 <!-- Audited: 1/2024 -->
 
@@ -120,7 +120,7 @@ SSO 사용자 이름 필드를 업데이트해야 하는 Workfront의 모든 사
 
 SSO에 대해 사용자를 업데이트하는 프로세스에서는 SSO 사용자 이름 필드가 없는 경우 이 필드를 Workfront 사용자에게 추가하거나 사용자와 이미 연결된 값이 있는 경우 이 필드의 값을 업데이트합니다.
 
-1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을 클릭합니다.
+{{step-1-to-setup}}
 
 1. **시스템**&#x200B;을 클릭한 다음 **SSO에 대한 사용자 업데이트**&#x200B;를 선택하십시오.
 

@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;resource-management
 navigation-topic: configure-access-to-workfront
 description: Adobe Workfront 관리자는 액세스 수준을 사용하여 Workfront에서 리소스 관리에 대한 사용자의 액세스 권한을 정의할 수 있습니다.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 14948e33-3dd7-4ef3-9307-51628dedd1f5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '523'
 ht-degree: 4%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 4%
 Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)에 설명된 대로 액세스 수준을 사용하여 리소스 관리에 대한 사용자의 액세스 권한을 정의할 수 있습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -41,6 +43,8 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 사용자 지정 액세스 수준을 사용하여 리소스 관리 도구에 대한 사용자 액세스 구성
 

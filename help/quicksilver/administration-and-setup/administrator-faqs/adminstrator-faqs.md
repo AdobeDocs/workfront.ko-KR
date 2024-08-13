@@ -7,9 +7,10 @@ navigation-topic: administration-and-setup
 description: 여기에서 Workfront 관리자를 위한 FAQ에 대한 답변을 찾을 수 있습니다.
 feature: System Setup and Administration
 role: Admin
+author: Lisa
 recommendations: noDisplay, noCatalog
 exl-id: 9b230142-de71-4577-8e67-35e8a6b9b932
-source-git-commit: 210690d230f7e791aa5887098181f3d0bd1cc75e
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
 source-wordcount: '26'
 ht-degree: 0%

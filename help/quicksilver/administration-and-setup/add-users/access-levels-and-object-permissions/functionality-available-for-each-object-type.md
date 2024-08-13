@@ -6,13 +6,13 @@ keywords: 액세스,모델,단계,다이어그램,수준,권한
 navigation-topic: access-levels
 title: 다양한 액세스 수준에 대해 각 객체 유형에 사용할 수 있는 기능
 description: 다음 표에는 다양한 액세스 레벨의 각 객체 유형에 사용할 수 있는 기능이 나열되어 있습니다.
-author: Courtney
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
-source-wordcount: '1883'
+source-wordcount: '1891'
 ht-degree: 10%
 
 ---
@@ -519,7 +519,7 @@ ht-degree: 10%
 |---|---|---|---|---|---|
 | 플래너에서 우선 순위 및 예산 시간 편집 | ✓ &#42; |   |   |   |   |
 | 리소스 풀 만들기, 편집, 삭제&#42;&#42; | ✓ &#42; |   |   |   |   |
-| `Update Planned Hours in the Workload Balancer`&#42;&#42;&#42; | `✓*` |   |   |   |   |
+| 업무 균형자에서 계획된 시간 업데이트&#42;&#42;&#42; | ✓ * |   |   |   |   |
 | 리소스 플래너에서 프로젝트 우선 순위 보기 | ✓ &#42; |   |   |   |   |
 | 자원 계획 도구에서 자원 할당 조회 | ✓ &#42; | ✓ &#42; | ✓ &#42; |   |   |
 | 리소스 풀 보기 | ✓ &#42; | ✓ &#42; | ✓ &#42; |   |   |

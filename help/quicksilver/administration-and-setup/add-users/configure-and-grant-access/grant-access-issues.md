@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-access-to-workfront
 description: Adobe Workfront 관리자는 액세스 수준을 사용하여 Workfront의 문제에 대한 사용자의 액세스를 정의할 수 있습니다.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3c15f90f-ce87-484d-93a7-9eeb2963a798
-source-git-commit: d0ab54670d1767e2fa2a9cdf2e7eda1ce8940c7f
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
 사용자 지정 액세스 수준을 사용하여 Workfront의 다른 개체 형식에 대한 사용자 액세스를 관리하는 방법에 대한 자세한 내용은 [사용자 지정 액세스 수준 만들기 또는 수정](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)을 참조하십시오.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -43,6 +45,8 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 사용자 정의 액세스 수준을 사용하여 문제에 대한 사용자 액세스 권한 부여
 

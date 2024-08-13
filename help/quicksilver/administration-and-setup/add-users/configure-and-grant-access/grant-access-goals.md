@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;documents
 navigation-topic: configure-access-to-workfront
 description: Adobe Workfront 관리자는 액세스 수준을 사용하여 Workfront 목표에 대한 사용자의 액세스를 정의할 수 있습니다.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8639da14-d545-4f9a-894b-12c29699b0db
-source-git-commit: d0ab54670d1767e2fa2a9cdf2e7eda1ce8940c7f
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)에 설명된 대로 액세스 수준을 사용하여 Adobe Workfront 목표에 대한 사용자의 액세스 권한을 정의할 수 있습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 사용자에게 Workfront 목표에 대한 액세스 권한을 부여하려면 다음 권한이 있어야 합니다.
 
@@ -49,6 +51,8 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
 &#42;플랜, 라이선스 유형 또는 액세스 수준을 확인하려면 Workfront 관리자에게 문의하세요.
 
 Workfront 목표에 액세스하는 방법에 대한 자세한 내용은 [Workfront 목표 사용 요구 사항](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md)을 참조하십시오.
+
++++
 
 ## 사용자 정의 액세스 수준을 사용하여 Workfront 목표에 대한 액세스 권한 부여
 

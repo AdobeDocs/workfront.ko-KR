@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;dashboards;calendars
 navigation-topic: configure-access-to-workfront
 description: Adobe Workfront 관리자는 액세스 수준을 사용하여 Workfront에서 보고서, 대시보드 및 캘린더에 대한 사용자의 액세스 권한을 정의할 수 있습니다.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 776bb223-3481-4ea9-8049-276b2dec95c5
-source-git-commit: d0ab54670d1767e2fa2a9cdf2e7eda1ce8940c7f
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '612'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
 >사용자가 보고서, 대시보드 또는 캘린더를 공유할 때 부여할 수 있는 권한에 대한 자세한 내용은 [보고서, 대시보드 및 캘린더 공유](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)를 참조하십시오.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -50,6 +52,8 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 사용자 정의 액세스 수준을 사용하여 보고서, 대시보드 및 달력에 대한 사용자 액세스 구성
 

@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
 description: Adobe Workfront 관리자는 조직의 요구 사항에 맞게 프로젝트, 작업 및 문제에 대한 사용자 지정 조건을 만들거나 편집할 수 있습니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
-source-git-commit: a3cb3d9d340d377e301c98480324bfe8bf507382
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '638'
 ht-degree: 2%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 2%
 Adobe Workfront 관리자는 조직의 요구 사항에 맞게 프로젝트, 작업 및 문제에 대한 사용자 지정 조건을 만들거나 편집할 수 있습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -42,9 +44,11 @@ Adobe Workfront 관리자는 조직의 요구 사항에 맞게 프로젝트, 작
  </tbody> 
 </table>
 
++++
+
 ## 사용자 지정 조건 만들기 또는 편집
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. **프로젝트 환경 설정** > **조건**&#x200B;을 클릭합니다.
 

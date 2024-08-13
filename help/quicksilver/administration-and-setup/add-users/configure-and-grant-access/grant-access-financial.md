@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: configure-access-to-workfront
 description: Adobe Workfront 관리자는 액세스 수준을 통해 Workfront의 재무 데이터에 대한 사용자의 액세스를 정의할 수 있습니다.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: bf4a37ee-9435-4c1c-b18c-a7338a548ab7
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '816'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,8 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
 * 리소스 계획 도구의 리소스 예산 정보
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -46,6 +48,8 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 재무 데이터에 대한 액세스 권한 부여에 대한 고려 사항
 

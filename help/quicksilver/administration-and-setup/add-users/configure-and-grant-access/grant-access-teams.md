@@ -1,13 +1,13 @@
 ---
 title: 팀에 액세스 권한 부여
 description: Adobe Workfront 관리자는 액세스 수준을 사용하여 Workfront의 팀에 대한 사용자의 액세스 권한을 정의할 수 있습니다
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 915d1520-f5c4-4e33-b645-cb219289383c
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '696'
 ht-degree: 5%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 5%
 Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)에 설명된 대로 액세스 수준을 사용하여 Workfront의 팀에 대한 사용자의 액세스 권한을 정의할 수 있습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -38,6 +40,8 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 사용자 정의 액세스 수준을 사용하여 사용자 편집에 대한 사용자 액세스 구성
 

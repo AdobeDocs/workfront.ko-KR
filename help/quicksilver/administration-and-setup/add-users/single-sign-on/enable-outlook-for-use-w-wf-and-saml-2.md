@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: single-sign-on-in-workfront
 title: Workfront 및 SAML 2.0에서 사용할 Outlook 활성화
 description: SAML 2.0 인증을 사용하도록 설정하고 사용자가 SAML 2.0 자격 증명을 사용하여 Microsoft Outlook에서 Workfront에 로그인할 수 있도록 하려면 Office 추가 기능에서 인증하도록 SAML 2.0을 사용하도록 설정해야 합니다.
-author: Caroline, Becky
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8a55d364-962a-4eef-8968-b2233a71cf31
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ SAML 2.0 인증을 사용하도록 설정하고 사용자가 SAML 2.0 자격 증
 >자세한 내용은 네트워크 또는 IT 관리자에게 문의하십시오.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -50,9 +52,12 @@ SAML 2.0 인증을 사용하도록 설정하고 사용자가 SAML 2.0 자격 증
  </tbody> 
 </table>
 
++++
+
 ## Workfront 및 SAML 2.0에서 사용할 Outlook 활성화
 
-1. 전역 탐색 모음에서 Adobe Workfront 오른쪽 상단 근처에 있는 **설정**&#x200B;을 클릭합니다.
+{{step-1-to-setup}}
+
 1. **시스템** > **기본 설정**&#x200B;을 클릭합니다.
 
 1. **보안** 섹션에서 **Office 365 추가 기능에서 SAML 2.0 인증 허용**&#x200B;이 활성화되어 있는지 확인하십시오.

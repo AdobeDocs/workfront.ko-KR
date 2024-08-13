@@ -3,13 +3,13 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration
 navigation-topic: single-sign-on-in-workfront
-title: Adobe Workfront의 Single Sign-On 개요
+title: Adobe Workfront의 SSO(Single Sign-On) 개요
 description: Workfront은 Workfront을 기존 회사 SSO 솔루션과 쉽게 통합하는 중앙 집중식 관리 SSO(Single Sign-On) 구성을 제공합니다. 이 구성은 설정 및 관리가 쉬우며 OnDemand 및 OnPremise 엔터프라이즈 고객 모두 사용할 수 있습니다.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87f1b6c0-6b74-4eac-87cd-899b1c74af25
-source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 0%

@@ -4,18 +4,18 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: brand-workfront
 description: 조직에서 Workfront을 사용하는 방법에 대한 정보가 포함된 사용자 정의 내부 도움말 사이트를 만드는 경우 주 메뉴 도움말 아이콘을 구성하여 해당 사이트로 이동할 수 있습니다. 이는 메인 메뉴의 기본 도움말 링크와 Workfront 전반의 상황에 맞는 도움말 링크에 영향을 주지 않습니다. 이러한 링크는 사용자를 Workfront 도움말 사이트로 안내합니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d2b63508-1943-4f9e-888e-8f1bfb54c33e
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 0%
+source-wordcount: '313'
+ht-degree: 2%
 
 ---
 
-# 사용자 정의 도움말 URL 구성
+# 사용자 정의 도움말 URL 구성하기
 
 조직에서 Workfront을 사용하는 방법에 대한 정보가 포함된 사용자 정의 내부 도움말 사이트를 만드는 경우 주 메뉴 도움말 아이콘을 구성하여 해당 사이트로 이동할 수 있습니다.
 
@@ -28,6 +28,8 @@ ht-degree: 0%
 사용자가 Workfront에서 구성한 사용자 지정 도움말 URL과 일반 Workfront 도움말 사이트에 모두 액세스하는 방법에 대한 자세한 내용은 [새 Adobe Workfront 경험에서 Workfront 도움말에 액세스](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)를 참조하십시오.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -50,9 +52,12 @@ ht-degree: 0%
  </tbody> 
 </table>
 
++++
+
 ## 사용자 정의 도움말 URL 구성
 
-1. Adobe Workfront의 오른쪽 위 모서리에 있는 기본 메뉴 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 설정을 클릭합니다.
+{{step-1-to-setup}}
+
 1. **시스템** > **기본 설정**&#x200B;을 클릭합니다.
 1. **일반 환경 설정** 섹션의 **사용자 지정 도움말 URL** 필드에 사용자 지정 도움말 사이트가 있는 URL을 입력합니다.
 

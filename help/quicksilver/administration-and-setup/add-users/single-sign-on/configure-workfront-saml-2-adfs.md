@@ -4,13 +4,13 @@ product-area: system-administration;setup
 navigation-topic: single-sign-on-in-workfront
 title: ADFS를 사용하여 SAML 2.0으로 Adobe Workfront 구성
 description: SAML 2.0을 사용하여 Workfront에 대한 인증을 활성화할 수 있습니다.
-author: Becky, Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9bc5987b-6e32-47df-90c8-08ea4b1b7451
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '878'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ Adobe Workfront 관리자는 ADFS(Active Directory Federation Services)를 사�
 이 안내서는 자동 프로비저닝 또는 속성 매핑 없이 ADFS를 설정하는 데 중점을 둡니다. 자동 프로비저닝을 설정하기 전에 설정을 완료하고 테스트하는 것이 좋습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -46,6 +48,8 @@ Adobe Workfront 관리자는 ADFS(Active Directory Federation Services)를 사�
  </tbody> 
 </table>
 
++++
+
 ## SAML 2.0으로 Workfront 인증 활성화
 
 SAML 2.0을 사용하여 Workfront 웹 애플리케이션 및 Workfront 모바일 애플리케이션에 대한 인증을 활성화하려면 다음 섹션을 완료하십시오.
@@ -57,7 +61,8 @@ SAML 2.0을 사용하여 Workfront 웹 애플리케이션 및 Workfront 모바�
 
 ### Workfront SSO 메타데이터 파일 검색 {#retrieve-the-workfront-sso-metadata-file}
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
+
 1. 왼쪽 패널에서 **시스템** > **SSO(Single Sign-On)**&#x200B;를 클릭합니다.
 1. **Type** 드롭다운 메뉴에서 **SAML 2.0**&#x200B;을(를) 클릭하여 추가 정보 및 옵션을 표시합니다.
 1. **메타데이터 URL** 뒤에 표시되는 URL을 복사합니다.

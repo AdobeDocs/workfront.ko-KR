@@ -8,14 +8,14 @@ author: Alina and Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 66e6c96ca51a159f6e9a16178f06dd016217c7d8
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1420'
 ht-degree: 0%
 
 ---
 
-# 타임시트 및 시간 환경 설정 구성
+# 타임시트 및 시간 환경 설정 구성하기
 
 <!--Audited: 01/2024-->
 
@@ -33,11 +33,11 @@ ht-degree: 0%
 >
 >자세한 내용은 [로그 시간](../../../timesheets/create-and-manage-timesheets/log-time.md) 및 [타임시트 개요](/help/quicksilver/timesheets/timesheets/timesheets-overview.md)를 참조하십시오.
 
-
-
 타임시트의 변경 사항은 나중에 만들어지는 모든 타임시트에 영향을 줍니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -64,6 +64,8 @@ ht-degree: 0%
 </table>
 
 *자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 타임시트 및 시간 환경 설정 지정
 

@@ -1,13 +1,13 @@
 ---
 title: 사용자에게 전체 관리 액세스 권한 부여
 description: 사용자에게 Workfront에 대한 전체 관리 액세스 권한을 부여할 수 있습니다.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
-source-git-commit: 5d4434d090c4b6cdefc9c313fecccf6d6e9a510b
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '1583'
+source-wordcount: '1579'
 ht-degree: 1%
 
 ---
@@ -34,6 +34,8 @@ Adobe Workfront 관리자는 시스템 관리자 액세스 수준을 할당하�
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -55,9 +57,11 @@ Adobe Workfront 관리자는 시스템 관리자 액세스 수준을 할당하�
  </tbody> 
 </table>
 
++++
+
 ## 단일 사용자에게 전체 시스템 관리자 액세스 권한 부여
 
-1. Adobe Workfront의 오른쪽 상단에 있는 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **사용자** ![](assets/users-icon-in-main-menu.png)를 클릭합니다.
+{{step-1-to-users}}
 
 1. 관리자 권한을 부여할 사용자의 이름을 클릭합니다.
 1. 기타 메뉴 ![](assets/more-icon.png)을(를) 클릭한 다음 **편집**&#x200B;을 클릭합니다.
