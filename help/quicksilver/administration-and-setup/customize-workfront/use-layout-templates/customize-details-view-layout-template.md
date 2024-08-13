@@ -1,5 +1,5 @@
 ---
-title: 레이아웃 템플릿을 사용하여 세부 정보 보기 사용자 지정
+title: 레이아웃 템플릿을 사용하여 세부 사항 보기 사용자 지정
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: 7c624eff8931d206285b6c4d91083f4bf09a88b0
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
@@ -67,6 +67,8 @@ or billing record
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -88,6 +90,8 @@ or billing record
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 세부 정보 보기에 표시되는 사용자 지정
 

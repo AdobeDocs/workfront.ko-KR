@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c6d33d5d-da93-4aba-8897-f177c1171595
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 58%
+source-wordcount: '292'
+ht-degree: 56%
 
 ---
 
@@ -22,6 +22,8 @@ Classic Workfront 경험의 레이아웃 템플릿은 더 이상 Workfront 인�
 클래식 레이아웃 템플릿을 삭제하면 이러한 불일치를 해결할 수 있습니다. Workfront 인터페이스에서는 사용할 수 없으므로 은 Workfront API를 사용하여 삭제해야 합니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -43,6 +45,8 @@ Classic Workfront 경험의 레이아웃 템플릿은 더 이상 Workfront 인�
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## API 호출을 사용하여 클래식 레이아웃 템플릿 삭제
 

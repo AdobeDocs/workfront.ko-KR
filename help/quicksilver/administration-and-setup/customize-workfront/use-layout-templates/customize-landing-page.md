@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 57a1046a-434a-4453-a101-c5f0a16e079e
-source-git-commit: bd1ebbedecff63fcc9165bd6e409ca1b3b632b3d
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,8 @@ Adobe Workfront 관리자는 레이아웃 템플릿을 사용하여 사용자가
 >요청이 랜딩 페이지로 설정되면 레이아웃 템플릿에 할당된 기여자 또는 요청자 사용자에게 홈 페이지가 대신 랜딩 페이지로 표시됩니다. 기여자 또는 요청자 사용자를 위한 레이아웃 템플릿에 대한 요청 이외의 랜딩 페이지를 선택하는 것이 좋습니까?
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -52,6 +54,8 @@ Adobe Workfront 관리자는 레이아웃 템플릿을 사용하여 사용자가
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 랜딩 페이지 사용자 지정
 

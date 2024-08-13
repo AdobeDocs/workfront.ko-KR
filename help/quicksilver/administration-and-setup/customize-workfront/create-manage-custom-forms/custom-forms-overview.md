@@ -1,5 +1,5 @@
 ---
-title: 사용자 정의 양식 개요
+title: 사용자 지정 Forms 개요
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,16 +8,18 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 1b3e0ab2d8ee37b7583d0b8fb0472b2fc9623da0
+source-git-commit: 8e6caabfaa347f0595657078e2d08ce70c0cb697
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 12%
+source-wordcount: '441'
+ht-degree: 9%
 
 ---
 
 # 사용자 정의 양식 개요
 
 <!--Audited: 12/2023-->
+
+{{highlighted-preview}}
 
 {{form-designer-default}}
 
@@ -30,6 +32,8 @@ ht-degree: 12%
 ## 사용자 정의 양식을 만드는 방법
 
 양식 디자이너에는 필드, 캔버스 및 필드 설정을 모두 동시에 볼 수 있는 캔버스 스타일 작업 영역이 있습니다. 양식을 디자인하는 동안 섹션 내에 필드를 끌어다 놓을 수도 있습니다. 화면 오른쪽의 크기를 조정하여 필드 옵션을 위한 공간을 더 확보할 수 있습니다.
+
+<span class="preview">**레이아웃** 단추(이 이미지에는 표시되지 않음)를 사용하면 2열 또는 3열 작업 영역에서 선택할 수 있습니다. 버튼은 현재 선택된 레이아웃을 나타냅니다. 3열 레이아웃은 맨 오른쪽 열에 필드 설정을 표시합니다. 2열 레이아웃에서는 맨 왼쪽 열의 필드 라이브러리 옆에 필드 설정이 표시됩니다.</span>
 
 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
 
