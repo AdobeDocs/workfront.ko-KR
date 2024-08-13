@@ -2,14 +2,14 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: 작업 편집
-description: 생성한 작업 또는 Contribute 또는 관리 권한이 있는 작업에 대한 정보를 편집할 수 있습니다.
+description: 생성한 작업 또는 Contribute 또는 관리 권한이 있는 작업에 대한 정보를 편집할 수 있습니다. 이 문서에서는 작업을 검색하고, 찾고, 편집할 수 있는 권한이 있는 경우 해당 작업을 편집하는 방법에 대해 설명합니다.
 author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 70750dbd382ac1207c3aca1d34694e3adc695393
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
-source-wordcount: '3663'
+source-wordcount: '3684'
 ht-degree: 3%
 
 ---

@@ -2,14 +2,14 @@
 product-area: projects
 navigation-topic: manage-projects
 title: 프로젝트 편집
-description: Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있습니다. 프로젝트가 계획 수립 상태일 때 프로젝트를 편집하는 것이 가장 좋습니다.
+description: Adobe Workfront에서 프로젝트를 필요한 만큼 자주 편집할 수 있습니다. 프로젝트가 계획 수립 상태일 때 프로젝트를 편집하는 것이 가장 좋습니다. 이 문서에서는 권한이 있는 경우 프로젝트를 검색, 찾기 및 편집하는 방법에 대해 설명합니다.
 author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 2ca8539855c2b08d71f47ad2e1b698496456f022
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
-source-wordcount: '7513'
+source-wordcount: '7534'
 ht-degree: 1%
 
 ---

@@ -1,5 +1,5 @@
 ---
-source-git-commit: 56fdec48612520012e606e0906cf3ac05fa27e37
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
 source-wordcount: '2457'
 ht-degree: 1%
@@ -278,6 +278,24 @@ Workfront 프로젝트에 있는 동안 사용자가 Experience Manager에 연�
 >이 단계에 속해 있는 경우 계정 담당자에게 알립니다.
 >
 >자세한 내용은 [Adobe Workfront 계획 개요](/help/quicksilver/planning/general/planning-overview.md)를 참조하십시오.
+
+
+<!--At GA replace the intro with this:
+
+>[!IMPORTANT]
+>
+>The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront. 
+>
+>You must have the following to access Workfront Planning:
+>
+>* A new Workfront plan and license. Workfront Planning is not available for legacy Workfront plans or licenses.
+>* An additional license for Workfront Planning. 
+>* Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience.
+>
+> For a complete list of requirements to access Workfront Planning, see [Access overview](/help/quicksilver/planning/access/access-overview.md). 
+>
+>For more information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).-->
+
 
 <!-- Manage Work -->
 

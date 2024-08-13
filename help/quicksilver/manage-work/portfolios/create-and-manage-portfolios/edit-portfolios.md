@@ -2,13 +2,13 @@
 product-area: portfolios
 navigation-topic: create-and-manage-portfolios
 title: 포트폴리오 편집
-description: 생성한 포트폴리오나 다른 사용자가 생성한 포트폴리오를 사용자와 공유한 경우 해당 포트폴리오에 대한 정보를 편집할 수 있습니다.
+description: 생성한 포트폴리오나 다른 사용자가 생성한 포트폴리오를 사용자와 공유한 경우 해당 포트폴리오에 대한 정보를 편집할 수 있습니다. 이 문서에서는 권한이 있는 경우 포트폴리오를 검색, 찾기 및 편집하는 방법에 대해 설명합니다.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '1018'
 ht-degree: 1%
 
 ---
