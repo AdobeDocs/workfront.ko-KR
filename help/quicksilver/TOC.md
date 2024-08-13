@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 4fbeeffc48d47e04c00d9695b346cbed2633748e
+source-git-commit: 9714e1cd0d9ed4c315ab4004deb4585422b85094
 workflow-type: tm+mt
-source-wordcount: '14317'
+source-wordcount: '14309'
 ht-degree: 2%
 
 ---
@@ -804,9 +804,6 @@ ht-degree: 2%
       * [블루프린트 구성](administration-and-setup/blueprints/configure-template-package.md)
       * [블루프린트 설치 후 수행할 작업](administration-and-setup/blueprints/best-next-actions-after-install.md)
       * [사용 가능한 블루프린트 목록](administration-and-setup/blueprints/list-of-available-blueprints.md)
-   * 관리자 FAQ {#admin-faq}
-      * [관리자 FAQ](administration-and-setup/administrator-faqs/adminstrator-faqs.md)
-      * [AtTask OnPremise 지원 정책](administration-and-setup/administrator-faqs/attask-onpremise-support-policy.md)
    * Adobe Admin Console {#admin-in-admin-console}의 관리
       * [Adobe Admin Console의 Workfront 관리](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
       * [Adobe Admin Console 준비](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)

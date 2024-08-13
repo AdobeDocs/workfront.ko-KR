@@ -9,9 +9,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: f80bb267-be96-41d4-98c5-398bde66499e
-source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
+source-git-commit: 9714e1cd0d9ed4c315ab4004deb4585422b85094
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '71'
 ht-degree: 15%
 
 ---
@@ -34,5 +34,4 @@ ht-degree: 15%
 * [그룹 관리](../administration-and-setup/manage-groups/manage-groups.md)
 * [통합 구성](../administration-and-setup/configure-integrations/workfront-integrations.md)
 * [블루프린트](../administration-and-setup/blueprints/blueprints.md)
-* [관리자 FAQ](../administration-and-setup/administrator-faqs/adminstrator-faqs.md)
 * [관리 및 설정을 위한 팁, 요령 및 문제 해결](../administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)
