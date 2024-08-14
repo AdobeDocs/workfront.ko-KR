@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 1a46fa3a8e87a5f345558cef57a4d66171320c9b
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '521'
 ht-degree: 1%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 1%
 Adobe Workfront Planning에서 작업 공간은 팀이 작업을 계획하는 중앙 집중식 위치입니다.
 
 작업 영역은 팀에서 사용하는 레코드 유형의 컬렉션으로, 팀의 작업 라이프사이클을 나타냅니다. Adobe Workfront Planning에서 작업 공간을 완전히 사용자 정의할 수 있습니다.
+
+작업 영역에 대한 일반적인 정보는 [작업 영역 개요](/help/quicksilver/planning/architecture/workspaces-overview.md)를 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -95,27 +97,6 @@ Adobe Workfront Planning에서 작업 공간은 팀이 작업을 계획하는 �
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## 작업 공간에 대한 고려 사항
-
-* 조직 내의 특정 조직 단위에 대한 작업 공간을 만들어 각 단위의 고유한 작업 방식을 일치시킬 수 있습니다.
-* Workfront 라이선스에 따라 작업 공간은 계획 영역의 다음 탭에 표시됩니다.
-
-   * 시스템 관리자의 경우 작업 공간은 다음 탭으로 표시됩니다.
-
-      * **내 작업 영역**: 사용자가 만든 작업 영역을 표시합니다. <!--Replace with: Workspaces I'm on: Displays workspaces you created or workspaces that are shared with you.-->
-      * **다른 작업 영역**: 사용자와 공유된 작업 영역을 포함하여 시스템의 다른 모든 작업 영역을 표시합니다. &lt;!—바꿀 내용: 기타 작업공간: 시스템의 다른 모든 작업공간을 표시합니다. >
-
-   * 다른 모든 사용자의 경우, 사용자가 생성한 작업공간과 다른 사용자가 사용자와 공유한 작업공간이 작업공간 영역에 표시됩니다.
-
-* 작업 영역에 포함된 레코드 유형은 조직 단위의 작업 라이프사이클을 반영해야 합니다.
-* 작업 공간을 만들 때 사용자만 작업 공간에 액세스하고 관리할 수 있습니다. 다른 사용자가 동일한 공간에서 나와 공동 작업하려면 이 세그먼트를 다른 사용자와 공유해야 합니다. 자세한 내용은 [작업 영역 공유](/help/quicksilver/planning/access/share-workspaces.md)를 참조하십시오. 시스템 관리자는 작성하지 않은 작업 영역까지 모든 작업 영역을 관리할 수 있습니다.
-* 다음과 같은 작업을 수행할 수 있습니다.
-
-   * 하나의 작업 영역에서 최대 50개의 섹션.
-   * 한 작업 영역의 모든 섹션에서 최대 1,000개의 레코드 유형. 모든 레코드 유형은 각 작업 공간에 고유합니다. <!--this might change-->
-   * 조직의 Workfront 인스턴스에서 최대 1,000개의 작업 공간.
-
-
 ## 작업 영역 만들기
 
 작업공간을 만들고 여기에 레코드 유형을 추가하여 Workfront Planning에서 객체를 구성할 수 있습니다. 작업 영역 편집에 대한 자세한 내용은 [작업 영역 편집](/help/quicksilver/planning/architecture/edit-workspaces.md)을 참조하십시오.
@@ -153,7 +134,7 @@ Adobe Workfront Planning에서 작업 공간은 팀이 작업을 계획하는 �
    * 처음부터 작업 영역을 만들 때 레코드 형식을 수동으로 추가할 수 있는 빈 작업 영역(**제목 없는 Workspace**)입니다.
    * 선택한 템플릿 이름을 따라 이름이 지정되고 샘플 레코드 유형으로 채워진 작업 영역입니다. 레코드 유형 및 작업 영역을 추가로 사용자 지정할 수 있습니다.
 
-   Workfront 관리자의 경우 새 작업 영역이 **내 작업 영역** 탭에 표시됩니다. <!--replace this with: Workspaces I'm on tab-->
+   Workfront 관리자의 경우 새 작업 영역이 **내 작업 영역** 탭에 표시됩니다. <!--replace this with: **Workspaces I'm on** tab-->
 1. 새 작업 영역의 헤더에서 작업 영역 이름 내부를 클릭하여 이름을 변경한 다음 Enter 키를 누릅니다.
 
 1. (선택 사항 및 조건부) 템플릿에서 작업 영역을 만든 경우 **작업 레코드 종류** 또는 **분류** 섹션의 이름 내부를 클릭합니다

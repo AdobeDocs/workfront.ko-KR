@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
 source-wordcount: '2495'
 ht-degree: 1%
@@ -147,7 +147,6 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
 * Workfront 계획 및 보기에 대한 액세스 권한 또는 작업 공간에 대한 상위 권한이 있는 모든 사용자는 레코드 간 또는 레코드와 다른 응용 프로그램의 개체 간에 수행하는 연결을 볼 수 있습니다. 연결하려는 응용 프로그램의 사용 권한에 관계없이 연결된 레코드와 개체를 볼 수 있습니다.
 * 연결된 레코드가 있는 작업 영역에 대한 관리 권한이 있는 경우 다른 사용자의 연결을 보고 편집할 수 있습니다.
 * 한 레코드를 다른 응용 프로그램에서 하나 또는 여러 개체에 연결할 수 있습니다.
-
 * Workfront에서 다음 영역의 Workfront Planning 레코드로 객체를 연결할 수 있습니다.
    * Workfront Planning의 Planning 레코드에서.
    * Workfront 객체의 Planning 섹션에서 다음을 수행합니다.

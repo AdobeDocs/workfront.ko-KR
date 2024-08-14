@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '1880'
+source-wordcount: '1888'
 ht-degree: 0%
 
 ---
@@ -128,7 +128,7 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 타�
 
 1. 다음 중 하나를 수행하여 타임라인을 탐색합니다.
 
-   * 왼쪽 및 오른쪽 아이콘을 클릭하거나 가로 스크롤을 사용하여 타임라인에서 앞뒤로 이동합니다.
+   * 왼쪽 및 오른쪽 아이콘을 클릭하거나 가로 스크롤을 사용하여 타임라인에서 앞뒤로 이동합니다. 페이지를 새로 고치면 선택한 시간대가 유지됩니다.
    * 타임라인을 오늘 날짜로 맞추려면 **오늘**&#x200B;을 클릭하세요.
    * 시간 증분을 업데이트하려면 시간대 드롭다운 메뉴에서 다음 옵션 중 하나를 선택합니다.
 

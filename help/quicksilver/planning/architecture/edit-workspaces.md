@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 1a46fa3a8e87a5f345558cef57a4d66171320c9b
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
@@ -91,27 +91,32 @@ Adobe Workfront Planning에서 작업 공간은 팀이 작업을 계획하는 �
 
 {{step1-to-planning}}
 
-1. (조건부) Workfront 관리자인 경우 **내 작업 공간**&#x200B;을 클릭하여 만든 작업 공간에 액세스하거나 **다른 작업 공간**&#x200B;을 클릭하여 나와 공유된 작업 공간에 액세스합니다. <!--change it to Workspaces I'm on-->
+1. (조건부) Workfront 관리자인 경우 **내 작업 공간**&#x200B;을 클릭하여 만든 작업 공간에 액세스하거나 **다른 작업 공간**&#x200B;을 클릭하여 나와 공유된 작업 공간에 액세스합니다. <!--replace My workspaces with **Workspaces I'm on**-->
 
-1. 작업 영역 카드를 클릭하여 작업 영역을 엽니다.
+<!--***********Replace the steps from the next below till the "Update the following information in the Edit workspace box:" (but keep this last step)*******
 
-<!--***********Replace the first step with this:*******
-
-1. (Optional) Click **Show more** to display additional workspaces. The **Show more** link displays only when you have workspaces that display on more than two rows.
+1. (Optional) Click **Show more** to display additional workspaces. The **Show more** link displays only when you have more than two rows of workspace cards.
 1. (Optional) ClicK **Show less** to limit the number of workspaces that display on the screen. 
 1. To edit a workspace, do one of the following:
 
-   * Hover over the workspace card, then click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the card, then click **Edit**. 
-   * Click a workspace card to open the workspace. 
-   
-   ***********Add (Conditional) If you clicked a workspace card,**********-->
+   * Hover over the workspace card, then click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the card
+      Or
+   * Click a workspace card to open the workspace, then click **More** to the right of the workspace name. 
+1. Click **Edit**.
+
+   ![](assets/edit-workspace-box.png)
+   -->
+
+1. 작업 영역 카드를 클릭하여 작업 영역을 엽니다.
+
+   작업 영역 페이지가 열립니다.
 
 1. 새 작업 영역의 머리글에서 작업 영역 이름 안쪽을 클릭하여 이름을 바꾼 다음 **Enter**&#x200B;를 누릅니다.
 1. 헤더의 작업 영역 이름 오른쪽에 있는 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭한 다음 **편집**&#x200B;을(를) 클릭합니다.
 
    ![](assets/edit-workspace-box.png)
 
-   **작업 영역 편집** 상자에서 다음 정보를 업데이트하십시오.
+1. **작업 영역 편집** 상자에서 다음 정보를 업데이트하십시오.
 
    * 작업 공간의 이름을 추가합니다. <!--did they add a label for this field?-->
    * **설명**: 작업 영역에 대한 정보를 추가합니다.

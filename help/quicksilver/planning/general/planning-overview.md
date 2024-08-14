@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: e65b57c903b08dc734e93b9690ce91407f1d08e0
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '2001'
+source-wordcount: '1836'
 ht-degree: 2%
 
 ---
@@ -115,6 +115,8 @@ Adobe Workfront Planning은 Adobe Workfront의 새로운 제품입니다. Workfr
 Workfront Planning은 Workfront의 일부이지만 독점 개념 및 용어와 함께 제공됩니다. 조직에 대한 Workfront Planning 설정을 시작하기 전에 새 개념을 숙지하십시오.
 
 Workfront Planning의 프레임워크는 완전히 사용자 정의할 수 있습니다. 조직의 정확한 요구 사항에 맞게 모든 레코드 종류, 해당 속성 및 이와 연결된 모든 필드를 만들 수 있습니다.
+
+만들 수 있는 Workfront Planning 개체 수에 대한 제한이 있습니다. 자세한 내용은 [Adobe Workfront Planning 개체 제한 개요](/help/quicksilver/planning/general/limitations-overview.md)를 참조하십시오.
 
 다음은 주요 Workfront Planning 개체 및 개념입니다.
 
@@ -252,34 +254,6 @@ Workfront Planning의 프레임워크는 완전히 사용자 정의할 수 있�
 
 
 자세한 내용은 [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md)를 참조하십시오.
-
-
-## Adobe Workfront Planning 개체 제한 사항
-
-다음 표는 Workfront Planning에서 생성할 수 있는 객체 수에 대한 제한을 보여 줍니다. 다음 단계의 개발로 넘어감에 따라 제한 사항이 변경될 수 있습니다.
-
-<!--consider making the table view a stand-alone article when we go to GA-->
-
-| Adobe Workfront Planning 개체 | 제한 |
-|-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
-| 하나의 Workfront 인스턴스에 대한 작업 공간 수 | 1,000 |
-| 하나의 작업 영역에 대한 섹션 수 | 50 |
-| 하나의 작업 영역에 대한 레코드 유형 수 | 1,000(모든 섹션의 레코드 유형과 작업 영역 템플릿을 사용할 때 생성된 레코드 유형 포함) |
-| 하나의 레코드 유형에 대한 레코드 수 | 50,000 |
-| 하나의 레코드 유형 또는 분류법에 대한 필드 수 | 500 |
-| 텍스트 필드의 문자 수 | 1,000자 |
-| 레코드 종류 표에 붙여 넣을 수 있는 파일 크기 | 1MB |
-| 레코드 유형 테이블에 대한 API를 통해 가져올 수 있는 파일의 크기입니다. | 1.5MB |
-| API 요청을 수행할 수 있는 속도입니다 | 분당 요청 200개 |
-| 가져올 수 있는 Excel 파일의 CSV 크기* | 5MB |
-| 한 사용자가 하나의 레코드 유형에 대해 만들 수 있는 보기 수 | 10 |
-
-<!--add to the table above: Maximum number of views created by one use 100 -->
-
->[!IMPORTANT]
->
->*이 기능은 일시적으로 비활성화되었으며 나중에 사용할 수 있습니다.
-
 
 ## Adobe Workfront Planning 찾기
 

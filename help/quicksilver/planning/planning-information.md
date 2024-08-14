@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
@@ -40,15 +40,16 @@ hide: yes
 >
 >아래 섹션에서 참조하는 설명서는 기능이 프로덕션에 릴리스된 후 잠시 사용할 수 있습니다.
 
-## Adobe Workfront Planning의 일반 개요
+## Adobe Workfront Planning에 대한 일반 정보
 
-새로운 Workfront Planning에 대한 개요를 알려면 다음 문서에 액세스하십시오.
+새로운 Workfront Planning에 대한 일반적인 정보를 보려면 다음 문서에 액세스하십시오.
 
 <!--update the video when we have something better, especially after early access - remove it-->
 
 <!--* [View a video demonstration of Adobe Workfront Planning](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
 * [Adobe Workfront Planning 개요](/help/quicksilver/planning/general/planning-overview.md): 이 솔루션에 고유한 용어 및 개념을 포함하여 Adobe Workfront Planning에 대한 높은 수준의 개요입니다. 여기에서 Workfront Planning으로 여정을 시작하는 것이 좋습니다.
+* [Adobe Workfront Planning 개체 제한 사항 개요](/help/quicksilver/planning/general/limitations-overview.md): Workfront Planning에서 만들 수 있는 개체 수에 대한 제한 사항 목록입니다.
 * [Adobe Workfront Planning 현재 릴리스 활동](/help/quicksilver/planning/general/release-activity.md): 정확한 릴리스 날짜와 각 기능에 대한 간단한 개요를 포함하여 2023년 5월 22일 Adobe Workfront Planning 프로그램 시작 이후 릴리스된 모든 기능의 목록입니다.
 * [Adobe Workfront Planning AI Assistant 개요](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): Workfront Planning AI Assistant를 사용하여 명령을 사용하여 레코드를 검색하거나, 레코드를 생성, 업데이트 및 삭제할 수 있으며, 이를 통해 Assistant가 작업을 수행하도록 할 수 있습니다.
 

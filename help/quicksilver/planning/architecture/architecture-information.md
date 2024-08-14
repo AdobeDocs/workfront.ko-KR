@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: 502ab27759749ed428f8adbf486e39165d61fcf0
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ Workfront Planning을 사용하면 조직에서 사용하는 개체 유형(또�
 
 다음 섹션의 문서에서는 Adobe Workfront Planning 작업 영역을 구성하고, 이러한 작업 영역의 기본 구성단위인 레코드 유형을 정의하고, 해당 기능을 사용하는 방법에 대해 설명합니다.
 
+* [작업 공간 개요](/help/quicksilver/planning/architecture/workspaces-overview.md)
 * [작업 공간 만들기](/help/quicksilver/planning/architecture/create-workspaces.md)
 * [작업 공간 템플릿 목록](/help/quicksilver/planning/architecture/workspace-templates.md)
 * [레코드 유형 개요](/help/quicksilver/planning/architecture/overview-of-record-types.md)

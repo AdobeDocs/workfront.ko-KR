@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '2510'
+source-wordcount: '2507'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,8 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 이 문서에서는 두 개의 Workfront Planning 레코드 유형(Workfront Planning 레코드 유형)을 다른 응용 프로그램의 오브젝트와 연결하는 방법에 대해 설명합니다.
 
 레코드나 개체 유형 간에 연결을 설정한 후 개별 레코드를 서로 연결하고 Workfront Planning 레코드에 연결된 레코드나 개체 유형의 필드를 표시할 수 있습니다.
+
+<!-- uncomment out for the release close to GA: For general information about connection types, see [Connection record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).-->
 
 Workfront Planning 레코드를 다른 응용 프로그램의 개체에 연결하는 방법에 대한 자세한 내용은 [레코드 연결](/help/quicksilver/planning/records/connect-records.md)을 참조하십시오.
 
@@ -194,7 +196,9 @@ Workfront Planning 레코드를 다른 응용 프로그램의 개체에 연결�
 
 1. **레코드 종류** 필드에서 레코드 종류를 검색하거나 다음 중 하나를 선택하십시오.
 
-   * 선택한 작업 영역의 섹션에서 다른 레코드 유형
+   * 선택한 작업 영역의 다른 레코드 유형
+
+     <!--replace screen shot below-->
 
      ![](assets/new-connection-tab-fields-with-another-record-selected.png)
 
@@ -204,7 +208,15 @@ Workfront Planning 레코드를 다른 응용 프로그램의 개체에 연결�
      > 
      >선택한 작업 영역에 다른 레코드 유형이 없는 경우 작업 영역 섹션이 표시되지 않습니다.
 
+     <!--remove the first sentence in the tip above at GA-->
+
+     <!--FORMAT THE TIP BELOW AT RELEASE: * A record type from another workspace that was configured to connect from other workspaces. For information, see [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md). (*****add screen shot****)
+        [!TIP]
+         If there are no record types that are configured to connect from other workspace, the workspace section does not display.-->
+
    * **Workfront 개체 유형** 섹션의 **프로젝트, Portfolio, 프로그램, 회사** 또는 **그룹**.
+
+     <!--replace screen shot below-->
 
      ![](assets/workfront-project-connection-selection.png)
 
@@ -221,7 +233,14 @@ Workfront Planning 레코드를 다른 응용 프로그램의 개체에 연결�
    >동일한 레코드나 개체 유형에 여러 연결을 가질 수 있습니다. 연결된 필드 이름을 편집하지 않으면 Workfront은 연결된 레코드 이름 뒤에 숫자를 추가하여 동일한 이름으로 연결된 레코드 유형의 수를 나타냅니다.
 
    * **설명**: 연결된 레코드 필드에 대한 추가 정보입니다. 필드의 설명은 테이블에서 필드의 열 위로 마우스를 가져가면 표시됩니다.
-   * **여러 레코드 허용**: 연결된 레코드 유형 필드가 원본 레코드에 표시될 때 사용자가 여러 레코드를 추가할 수 있도록 허용하려면 이 옵션을 선택하십시오. 이 옵션은 기본적으로 선택되어 있습니다.
+   * **여러 레코드 허용**: 연결된 레코드 유형 필드가 원본 레코드에 표시될 때 사용자가 여러 레코드를 추가할 수 있도록 허용하려면 이 옵션을 선택하십시오. 이 옵션은 기본적으로 선택되어 있습니다. <!--This option is available only when connecting records from two different workspaces or a record and an AEM asset object type.-->
+   <!--* **Connection type**: This option is available only when connecting records from the same workspace or a record and a Workfront object type. Choose from the following connection types:
+        * One to one
+        * One to many
+        * Many to one
+        * Many to many
+        
+        For information about connection types, see [Connect record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md). -->
    * **조회 필드 선택**: 선택한 레코드 종류에서 필드를 추가하려면 이 옵션을 선택하십시오. 조회 필드는 연결 중인 레코드 또는 개체 유형과 관련된 필드입니다. 이 레코드들을 연결하면 연결하려는 레코드나 오브젝트의 정보가 원하는 레코드에 표시됩니다. 이 옵션은 기본적으로 선택되어 있습니다.
 
      >[!TIP]
@@ -245,7 +264,7 @@ Workfront Planning 레코드를 다른 응용 프로그램의 개체에 연결�
    >
    >Workfront 관리자는 Workfront의 메타데이터 매핑을 통해 Workfront Planning 필드를 Experience Manager Assets 필드에 매핑할 수 있습니다. 자세한 내용은 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en)을 참조하십시오.
 
-1. (조건부) Experience Manager Assets 또는 Workfront Planning 레코드 유형에 연결하도록 선택한 경우 연결된 레코드 또는 에셋의 제목을 연결된 필드에 표시하지 않으려면 **레코드 표시** 영역에서 **제목** 전환을 비활성화하십시오. 비활성화하면 레코드의 썸네일만 연결된 필드에 표시됩니다. 썸네일 이미지가 없는 레코드는 이미지 아이콘을 대신 표시합니다. 토글 기능은 기본적으로 활성화되어 있습니다. 연결된 레코드가 표시되는 방법의 예는 **레코드 모양** 영역에 표시됩니다.
+1. (조건부) Experience Manager Assets 또는 Workfront Planning 레코드 유형에 연결하도록 선택한 경우 연결된 레코드 또는 에셋의 제목을 연결된 필드에 표시하지 않으려면 **레코드 모양** 영역에서 **제목** 전환을 선택 취소합니다. 선택을 취소하면 연결된 필드에 레코드의 썸네일만 표시됩니다. 썸네일 이미지가 없는 레코드는 이미지 아이콘을 대신 표시합니다. 기본적으로 토글이 선택됩니다. 연결된 레코드가 표시되는 방법의 예는 **레코드 모양** 영역에 표시됩니다.
 
    >[!TIP]
    >

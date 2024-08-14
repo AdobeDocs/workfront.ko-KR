@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 78e9c4d4ddee8f44d6fafe218c6a9b8c2cb28bf5
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '5786'
+source-wordcount: '5851'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,55 @@ Workfront 계획 프로그램은 2023년 5월 22일부터 시작되었습니다.
 릴리스된 기능은 릴리스 순서대로 나열되며 가장 최근의 기능이 먼저 릴리스됩니다. Workfront Planning 프로그램에 참여하는 고객은 프로덕션 환경의 모든 기능에 액세스할 수 있습니다.
 
 Workfront Planning은 2024년 1월부터 미리보기 및 샌드박스 환경에서 일시적으로 제거되었습니다. 이 문서에 설명된 모든 기능은 현재 프로덕션에서 사용할 수 있습니다.
+
+<!--
+
+### Landing page improvements
+
+Production: <date> 
+
+Preview: To be determined 
+
+We have made the following improvements to the Planning area's main page: 
+
+* "Workfront Planning" displays in the landing page header, to make it clear for users what area of the application they are accessing. (*******************)--not seeing this anywhere – omit this!*************????)
+
+* We added a "More" menu for each workspace card to make it easier to edit or delete the workspace from the main page. 
+
+* We added "Show all" and "Show less" links to display more or fewer workspaces in case there are more than two rows of workspace cards listed on the main page.  
+
+* For system administrators, the workspaces that they did not create have been moved from the "Other workspaces" tab to the "Workspaces I'm on" tab. The "My workspaces" tab has been removed. 
+
+For information, see [Edit workspaces](/help/quicksilver/planning/architecture/edit-workspaces.md).
+
+
+### Connect record types across multiple workspaces
+
+ Production: <date>  
+
+ Preview: To be determined  
+
+ You can now connect record types that belong to different workspaces.  
+
+ System administrators can now configure record types to be connected from other workspaces. After this, a workspace manager can connect to these record types.  
+
+Prior to this enhancement, you could only connect record types that belonged to the same workspace, along with object types from other applications.   
+
+ For information, see Edit record types (help/quicksilver/planning/architecture/edit-record-types.md). 
+
+-->
+
+## 2024년 8월 12일 주
+
+### 타임라인 보기에서 마지막으로 본 시간대 유지
+
+프로덕션: 2024년 8월 14일
+
+미리보기: 결정 예정
+
+이제 타임라인 보기를 열고 과거 또는 미래의 날짜로 스크롤할 때 선택한 날짜는 페이지를 새로 고친 후에 유지됩니다. 이 개선 이전에는 페이지에 오늘 날짜가 표시됩니다.
+
+자세한 내용은 [타임라인 보기 관리](/help/quicksilver/planning/views/manage-the-timeline-view.md)를 참조하십시오.
 
 ## 2024년 7월 29일 주
 
