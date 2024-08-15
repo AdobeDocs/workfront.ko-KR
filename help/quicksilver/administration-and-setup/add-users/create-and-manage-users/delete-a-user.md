@@ -8,14 +8,20 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: f18bf59202ba524173774a0215f4071bd6e77432
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '875'
 ht-degree: 1%
 
 ---
 
 # 사용자 삭제
+
+>[!IMPORTANT]
+>
+>이 페이지에 설명된 절차는 아직 Adobe 비즈니스 플랫폼에 온보딩되지 않은 조직에만 적용됩니다. Adobe 비즈니스 플랫폼에 온보딩한 경우 Adobe Admin Console에서 사용자를 삭제해야 합니다.
+>
+>조직이 Adobe 비즈니스 플랫폼에 온보딩되었는지 여부에 따라 달라지는 프로시저 목록은 [플랫폼 기반 관리 차이점(Adobe Workfront/Adobe 비즈니스 플랫폼)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)을 참조하십시오.
 
 사용자가 조직을 떠나면 Adobe Workfront에서 해당 사용자를 제거할 수 있습니다.
 

@@ -6,7 +6,7 @@ description: 리소스 풀은 Adobe Workfront에서 리소스를 보다 쉽게 �
 author: Lisa
 feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
-source-git-commit: beec2ea4cdfcb89bf8f786a7ab2edeb804a6fbad
+source-git-commit: f18bf59202ba524173774a0215f4071bd6e77432
 workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # 리소스 풀 만들기
 
-{{highlighted-preview}}
+{{preview-and-fast-release-Q424}}
 
 리소스 풀은 Adobe Workfront에서 리소스를 보다 쉽게 관리하는 데 도움이 되는 사용자 컬렉션입니다. 리소스 풀에 대한 자세한 내용은 [리소스 풀 개요](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)를 참조하십시오.
 

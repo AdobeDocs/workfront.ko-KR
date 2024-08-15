@@ -6,7 +6,7 @@ description: 리소스 풀에 보유할 수 있는 사용자 수에는 제한이
 author: Lisa
 feature: Resource Management
 exl-id: b888aa95-8d42-4cc3-8a99-6842435c84d2
-source-git-commit: dfafeaeeca5805c84ff646d8a7a98120d34d44d9
+source-git-commit: f18bf59202ba524173774a0215f4071bd6e77432
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # 리소스 풀에서 사용자 제거
 
-{{highlighted-preview}}
+{{preview-and-fast-release-Q424}}
 
 리소스 풀에 보유할 수 있는 사용자 수에는 제한이 없지만 사용자 목록에는 알파벳순으로 나열된 처음 2000명의 사용자만 표시됩니다.
 
@@ -75,6 +75,7 @@ ht-degree: 1%
    회사, 작업 역할, 팀 또는 그룹의 이름을 입력하십시오. 해당 엔티티와 관련된 모든 사용자를 제거하려면 이름을 입력하십시오.
 
    <span class="preview">미리 보기 환경의 샘플 이미지:<span>
+
    ![리소스 풀에서 사용자 제거](assets/remove-users-from-resource-pool.png)
 
    프로덕션 환경의 샘플 이미지:
