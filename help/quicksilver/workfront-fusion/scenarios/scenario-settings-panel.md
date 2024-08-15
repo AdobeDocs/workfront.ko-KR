@@ -7,7 +7,7 @@ description: 이 문서에서는  [!DNL Adobe Workfront Fusion] 시나리오의 
 author: Becky
 feature: Workfront Fusion
 exl-id: 64a7a39a-f450-4eba-b4db-f31dd22aefdc
-source-git-commit: 4d9832d0870c3fccf847c3932ad4f985a62b9672
+source-git-commit: 1b729960a23e43252bda16d9bfb7ca9656a115a1
 workflow-type: tm+mt
 source-wordcount: '1097'
 ht-degree: 0%
@@ -132,10 +132,7 @@ ht-degree: 0%
 >
 >![](assets/max-number-cycles-1-350x201.png)
 >
->[!UICONTROL Dropbox] >[!UICONTROL 파일 보기] 모듈의 [!UICONTROL 최대 반환 파일 수]이(가) `10`(으)로 설정되어 있습니다.
->
->![](assets/max-number-cycles-10-350x175.png)
->
+>[!UICONTROL Workfront] >[!UICONTROL 레코드 보기] 모듈에서 [!UICONTROL 반환된 최대 파일 수]이(가) `10`(으)로 설정되었습니다.
 >100개의 요청이 [!DNL Workfront]에 제출되고 [!UICONTROL Limit] 필드가 10으로 설정된 경우 시나리오 실행 후 90개의 파일이 처리되지 않은 상태로 남습니다. 다음 10개의 파일이 다음에 예약된 시나리오 실행에서 처리됩니다.
 >
 >### 최대 주기 수는 10으로 설정됩니다.

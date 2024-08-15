@@ -7,10 +7,10 @@ description: ' [!DNL Adobe Workfront Fusion]의 시나리오 세부 정보'
 author: Becky
 feature: Workfront Fusion
 exl-id: 1d8a3492-d609-43c8-a486-a401a597f160
-source-git-commit: ae57c38149bf6db3bbbb471fad8f3567b7d712a7
+source-git-commit: 28b422b818cd3e6774c28aae994526a0e7d0420c
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 1%
+source-wordcount: '603'
+ht-degree: 0%
 
 ---
 
@@ -74,6 +74,10 @@ ht-degree: 1%
      <tr> 
       <td role="rowheader">[!UICONTROL Modules 다이어그램] </td> 
       <td>이 탭에는 시나리오의 시각적 표현이 표시됩니다. 다이어그램은 시나리오 편집기에 표시되는 것과 동일합니다</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL 보고서] (탭) </td> 
+      <td> <p>이 탭을 열면 지난 30일 동안 이 시나리오에서 수행한 작업 수의 그래프를 볼 수 있습니다.</p>  </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL History] (tab) </td> 

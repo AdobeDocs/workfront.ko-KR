@@ -7,7 +7,7 @@ description: '[!UICONTROL 미완료 실행] 폴더는 오류로 인해 정상적
 author: Becky
 feature: Workfront Fusion
 exl-id: 60fcda91-b725-4ada-a42c-5c05720d68c2
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 53582d36ef2256f6073705ce3eabe8cd61c9b2cc
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 5%
@@ -67,7 +67,11 @@ ht-degree: 5%
 
 작업 중 모듈에 오류가 발생하면 미완료 실행 폴더에 새로운 미완료 실행이 추가됩니다. 각 불완전한 실행에는 시나리오의 블루프린트와 실패한 모듈에 매핑할 수 있는 모든 번들이 포함됩니다. 시나리오 세부 정보 페이지에서 [!UICONTROL 불완전 실행] 탭을 클릭하여 불완전 실행 목록을 열 수 있습니다.
 
+<!--
+
 ![](assets/incomplete-executions-tab-350x102.png)
+
+-->
 
 자세한 내용은 [불완전한 실행으로 인한 오류](#errors-resulting-into-incomplete-executions)를 참조하십시오.
 

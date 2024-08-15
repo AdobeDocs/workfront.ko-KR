@@ -7,7 +7,7 @@ description: 시나리오에 대한 모든 실행에 대한 정보를 표시하�
 author: Becky
 feature: Workfront Fusion
 exl-id: cc2c3f87-34dc-4a06-9f5f-1a7fb10a3b82
-source-git-commit: ae57c38149bf6db3bbbb471fad8f3567b7d712a7
+source-git-commit: 1b729960a23e43252bda16d9bfb7ca9656a115a1
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 0%
@@ -70,8 +70,6 @@ ht-degree: 0%
    시나리오 편집기에서 시나리오 작업을 수행하는 경우 창의 왼쪽 위 모서리 근처에 있는 왼쪽 화살표 ![](assets/exit-editing-arrow.png)을(를) 클릭합니다.
 
 1. 오른쪽 목록에 있는 정보를 확인합니다.
-
-   ![](assets/open-history-tab-350x202.png)
 
    을 클릭하여 이 정보의 전체 페이지 보기를 볼 수도 있습니다. 전체 페이지 보기에서 내역을 필터링하여 특정 실행을 볼 수 있습니다.
 

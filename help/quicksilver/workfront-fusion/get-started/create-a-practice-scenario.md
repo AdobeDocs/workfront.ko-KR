@@ -7,7 +7,7 @@ description: 이 문서에서는 Adobe Workfront Fusion과 통합 시나리오�
 author: Becky
 feature: Workfront Fusion
 exl-id: 643bb1d5-d7bc-402b-8ed1-9ca9a30e4560
-source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
+source-git-commit: cb4edb02aad8a0738ea80f058fcc2bc016832ce1
 workflow-type: tm+mt
 source-wordcount: '2139'
 ht-degree: 0%
@@ -120,7 +120,7 @@ Workfront Fusion 라이선스에 대한 자세한 내용은 [Adobe Workfront Fus
    시나리오 편집기에는 중앙에 빈 모듈, 미리 로드한 [!DNL Google Sheets] 앱 및 맨 아래에 있는 도구 모음에 일부 옵션이 포함되어 표시됩니다.
 
 <!--
-   ![](assets/scenario-editor-350x235.png)
+   ![](assets/scenario-editor.png)
 -->
 
 새 시나리오를 만들 때 시나리오의 이름을 만드는 것으로 시작하는 것이 좋습니다.
