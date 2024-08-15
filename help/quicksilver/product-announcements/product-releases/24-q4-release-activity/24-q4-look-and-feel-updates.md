@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 32229f433268d173979e7dba06a9aee3d56181d1
+source-git-commit: 5138321543175cac3e51cc21c8309cbefd8bc1e8
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리보기 릴리스: 2024년 8월 1일, 빠른 릴리스를 위한 프로덕션: 24.8 릴리스 포함(2024년 8월), 분기별 릴리스의 프로덕션: 24.10 릴리스 포함(2024년 10월)
+>미리보기 릴리스: 2024년 8월 1일, 빠른 릴리스를 위한 프로덕션: 24.8 릴리스 포함(2024년 8월 15일), 분기별 릴리스의 프로덕션: 24.10 릴리스 포함(2024년 10월)
 
 사용자를 삭제하거나 비활성화할 때 사용자에게 표시되는 사용자 삭제 및 비활성화 확인 메시지가 Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 업데이트되었습니다.
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리보기 릴리스: 2024년 8월 1일, 빠른 릴리스를 위한 프로덕션: 24.8 릴리스 포함(2024년 8월), 분기별 릴리스의 프로덕션: 24.10 릴리스 포함(2024년 10월)
+>미리보기 릴리스: 2024년 8월 1일, 빠른 릴리스를 위한 프로덕션: 24.8 릴리스 포함(2024년 8월 15일), 분기별 릴리스의 프로덕션: 24.10 릴리스 포함(2024년 10월)
 
 Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 리소스 풀 페이지를 업데이트했습니다.
 
@@ -62,8 +62,8 @@ Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 �
 
 >[!NOTE]
 >
->미리보기 릴리스: 2024년 7월 17일, 빠른 릴리스를 위한 프로덕션: 24.8 릴리스(2024년 8월), 분기별 릴리스를 위한 프로덕션: 24.10 릴리스(2024년 10월)
+>미리보기 릴리스: 2024년 7월 17일, 빠른 릴리스를 위한 프로덕션: 24.8 릴리스 포함(2024년 8월 15일), 분기별 릴리스의 프로덕션: 24.10 릴리스 포함(2024년 10월)
 
 Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 알림 페이지(기본 도구 모음에서 알림 아이콘을 클릭한 다음 모든 알림 을 클릭하여 표시되는)를 업데이트했습니다.
 
-자세한 내용은 [작업 역할 만들기 및 관리](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)를 참조하십시오.
+자세한 내용은 [인앱 알림 보기 및 관리](/help/quicksilver/workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)를 참조하세요.

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 7fc250f40860e52e49a333e3ccf120f35438e14c
+source-git-commit: 5138321543175cac3e51cc21c8309cbefd8bc1e8
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '1072'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,49 @@ ht-degree: 0%
 
 ## Adobe Workfront 개선 사항
 
+* [관리자 개선 사항]
 * [프로젝트 개선 사항](#project-enhancements)
 * [통합 개선 사항](#integration-enhancements)
 * [기타 개선 사항](#other-enhancements)
+
+### 관리자 개선 사항
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">기능</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">릴리스 날짜</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        사용자 지정 양식 디자이너의 <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">레이아웃 단추는 두 개 또는 세 개의 열을 허용합니다</a></p>
+                        <p>사용자 정의 양식 디자이너의 "레이아웃" 버튼을 사용하면 2열 또는 3열 작업 영역 중에서 선택할 수 있습니다. 원래 양식 디자이너는 세 개의 열을 사용하며 필드 설정은 맨 오른쪽 열에 표시됩니다. 두 개의 열을 선택하면 맨 왼쪽 열의 필드 라이브러리 옆에 필드 설정이 표시됩니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2024년 8월 12일</p>
+                            </li>
+                            <li>
+                                <p>빠른 릴리스를 위한 프로덕션: 24.9 릴리스 포함(2024년 9월)</p>
+                            </li>
+                            <li>
+                                <p>모든 고객을 위한 프로덕션 릴리스: TBD</p>
+                            </li>
+                        </ul>
+                        <p><i>이 기능은 단계적 릴리스의 일부이며 9월에 제한된 수의 고객이 사용할 수 있습니다.</i></p>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
 
 ### 프로젝트 개선 사항
 
@@ -77,7 +117,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">더 적절한 스마트 할당</a></p>
-                        [!BADGE In Production for Fast Release ]{type=Positive}
+                        [!BADGE In production ]{type=Informative}
                         <p>Workfront이 작업에 대한 스마트 할당을 계산하고 제안하는 데 사용하는 알고리즘을 변경했습니다. 새 알고리즘은 작업을 지정하는 Workfront의 작업 목록, 작업 헤더의 지정 영역, 홈 및 요약 패널에서 적용됩니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -154,7 +194,29 @@ ht-degree: 0%
                             </li>
                         </ul>
                     </td>
-                </tr>                
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront에서 사용할 수 있는 Adobe AI 길잡이</a></p>
+                        <p>작업을 보다 쉽게 수행할 수 있도록 Adobe의 AI Assistant를 Workfront에 추가했습니다. AI Assistant는 다음을 통해 도움을 줄 수 있습니다.</p>
+                        <ul>
+                            <li>작업 항목 및 문서를 요약하면 작업, 프로젝트 및 에셋에 대한 일반적인 이해를 신속하게 얻을 수 있습니다.</li>
+                            <li>Experience League 설명서에서 정보를 제공하고, 지침과 참조 자료를 Workfront으로 가져오면서, 보다 심층적인 설명서로 연결합니다.</li>
+                            <li>계산된 사용자 정의 양식 필드에 대한 수식 생성 및 세분화, 텍스트 프롬프트에서 수식 생성 또는 기존 수식에서 오류 찾기.</li>
+                            </ul>
+                            <p>Workfront 관리자는 조직에 대해 AI Assistant를 활성화하거나 비활성화할 수 있습니다. AI Assistant는 Select, Prime 및 Ultimate 플랜이 있는 인스턴스에 사용할 수 있습니다.</p>
+                        </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2024년 8월 28일</p>
+                            </li>
+                            <li>
+                                <p class="preview">프로덕션 릴리스: 2024년 8월 28일</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                            
            </tbody>
         </table>
 
