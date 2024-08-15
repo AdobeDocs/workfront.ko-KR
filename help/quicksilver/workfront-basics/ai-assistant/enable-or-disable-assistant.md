@@ -7,7 +7,7 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: fdee3747716f22e291234a2e0ad626eb5a27feda
+source-git-commit: 132c701d8a00897ed7cd1704d8da2e6a24400393
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 1%
@@ -52,14 +52,14 @@ Workfront 관리자는 조직에서 AI Assistant를 활성화할 사용자를 �
 
 ## Workfront에서 AI Assistant 활성화 또는 비활성화
 
-AI Assistant는 기본적으로 활성화되어 있습니다.
+AI Assistant는 기본적으로 비활성화되어 있습니다.
 
-지정된 액세스 수준에 대해 AI Assistant를 비활성화하려면 다음을 수행합니다.
+지정된 액세스 수준에 대해 AI Assistant를 활성화하려면 다음과 같이 하십시오.
 
 1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **[!UICONTROL 설정]** ![설정 아이콘](/help/_includes/assets/gear-icon-setup.png)을 클릭합니다.
 1. 왼쪽 탐색에서 **액세스 수준**&#x200B;을 선택합니다.
 1. AI Assistant를 비활성화할 액세스 수준을 선택합니다.
 1. 액세스 수준 편집 창에서 창 맨 아래로 스크롤하여 **추가 제한 설정...**&#x200B;을 클릭합니다.
-1. 추가 제한 설정 영역에서 **Workfront AI Assistant 사용 안 함** 옵션을 활성화합니다.
+1. 추가 제한 설정 영역에서 **Workfront AI Assistant 사용** 옵션을 활성화합니다.
 1. **저장**&#x200B;을 클릭합니다.
-1. AI Assistant를 비활성화하려는 각 액세스 수준에 대해 3~6단계를 반복합니다.
+1. AI Assistant를 활성화할 각 액세스 수준에 대해 3~6단계를 반복합니다.
