@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: e97d4b7565370feaf23d73b17b97f88f4b8afa63
+source-git-commit: 21ce33ccb09e4fd7d0cc8c31631ef66e3ce73211
 workflow-type: tm+mt
-source-wordcount: '14330'
+source-wordcount: '14333'
 ht-degree: 2%
 
 ---
@@ -2077,6 +2077,7 @@ ht-degree: 2%
    * Adobe Workfront 계획 레코드 {#adobe-workfront-planning-records}
       * [레코드: 문서 인덱스](planning/records/records-information.md)
       * [레코드 만들기](planning/records/create-records.md)
+      * [연결된 레코드 개요](planning/records/connected-records-overview.md)
       * [기록 연결](planning/records/connect-records.md)
       * [레코드 편집](planning/records/edit-records.md)
       * [레코드 삭제](planning/records/delete-records.md)

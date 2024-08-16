@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: 98ba6e1c1624639ba45ccf2cc3fd8e29bc716f89
 workflow-type: tm+mt
-source-wordcount: '1836'
+source-wordcount: '1855'
 ht-degree: 2%
 
 ---
@@ -103,6 +103,9 @@ Adobe Workfront Planning은 Adobe Workfront의 새로운 제품입니다. Workfr
 | Workfront 객체에서 Planning 레코드에 액세스 | ✓ 덧신 |                                  |                 |
 | Workfront 객체에서 Planning 레코드 연결 | ✓ 덧신 |                                  |                 |
 | Workfront Planning 공용 API | ✓ 덧신 |                                  |                 |
+| Workfront Planning AI Assistant* | ✓ 덧신 |                                  |                 |
+
+*AI Assistant가 일시적으로 제거되어 나중에 다시 사용할 수 있습니다.
 
 ## Workfront 인스턴스의 사용자에 대해 Adobe Workfront Planning 활성화
 

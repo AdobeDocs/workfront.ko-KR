@@ -1,23 +1,24 @@
 ---
-title: 'Adobe Workfront Planning AI Assistant 개요'
+title: Adobe Workfront Planning AI Assistant 개요
 description: AI 비서를 사용하여 현재 페이지 컨텍스트 및 레코드 구조를 기반으로 레코드를 생성, 업데이트 또는 제거할 수 있습니다. 사용자의 명령과 AI의 해당 명령 실행은 함께 작동하여 AI가 수행한 변경 사항이 환경에 정확하게 반영되도록 합니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
+exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
+source-git-commit: 98ba6e1c1624639ba45ccf2cc3fd8e29bc716f89
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
 
-
 # Adobe Workfront Planning AI Assistant 개요
 
-<!-- update TOC and miniTOC when making this live-->
+<!-- update metadata above at GA-->
 
 >[!IMPORTANT]
 >
+><span class="preview">AI 도우미가 일시적으로 제거되었으며 나중에 다시 돌아올 예정입니다.</span>
 >이 문서의 정보는 Adobe Workfront Planning 및 Workfront AI Assistant(베타)에 있으며 Adobe Workfront의 새로운 오퍼링입니다.
 >
 >현재 Workfront Planning은 초기 액세스 단계에 있으며 Workfront AI Assistant는 베타 단계에 있습니다.
@@ -36,7 +37,7 @@ AI Assistant를 사용하여 현재 페이지 컨텍스트 및 레코드 구조�
 
 ## AI Assistant에 대한 고려 사항
 
-* Workfront 관리자는 기본적으로 AI Assistant를 사용할 수 있습니다.
+* Workfront 기본 관리자는 기본적으로 AI Assistant를 사용할 수 있습니다. 자세한 내용은 [시스템에 대한 기본 정보 구성](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md)을 참조하십시오.
 
 * Workfront 관리자는 다른 모든 사용자에 대해 AI Assistant를 활성화해야 합니다. 자세한 내용은 [AI Assistant 사용 또는 사용 안 함](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)을 참조하십시오.
 

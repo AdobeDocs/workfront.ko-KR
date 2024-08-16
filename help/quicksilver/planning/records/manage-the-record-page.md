@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1054'
 ht-degree: 0%
 
 ---
@@ -145,11 +145,11 @@ Adobe Workfront Planning에서 레코드 미리 보기 및 페이지의 레이�
 
 1. (선택 사항) 레코드 미리 보기의 오른쪽 상단에 있는 **새 탭에서 열기** 아이콘 ![](assets/open-details-in-a-new-tab-icon.png)을(를) 클릭하여 새 탭에서 레코드 페이지를 엽니다.
 
-   레코드 페이지가 열립니다.
+   레코드 페이지가 열립니다. <!--The Details tab opens by default. -->
 
    ![](assets/details-page.png)
 
-1. 레코드 미리 보기 또는 페이지에서 필드 왼쪽의 공백 위로 마우스를 가져간 다음 **섹션 추가** 아이콘 ![](assets/add-section-icon.png)을(를) 클릭하여 섹션을 추가합니다.
+1. <!--**Details** tab of the--> 레코드 미리 보기 또는 페이지에서 필드 왼쪽의 공백 위로 마우스를 가져간 다음 **섹션 추가** 아이콘 ![](assets/add-section-icon.png)을(를) 클릭하여 섹션을 추가합니다.
 1. 섹션 이름 내부를 클릭하고 **제목 없는 섹션**&#x200B;을(를) 이름으로 바꾼 다음 Enter를 클릭합니다. 섹션 아래에 표시되는 필드는 자동으로 새 섹션의 일부입니다.
 1. 이 문서의 [레코드 미리 보기 또는 세부 정보 페이지에서 필드 다시 정렬](#rearrange-fields-in-the-record-preview-or-details-page) 섹션에 설명된 대로 필드를 새 섹션으로 끌어다 놓습니다.
 
@@ -182,7 +182,13 @@ Adobe Workfront Planning에서 레코드 미리 보기 및 페이지의 레이�
 
    섹션과 필드 순서에 대한 모든 변경 사항은 자동으로 저장됩니다.
 
-## 레코드 미리 보기 또는 세부 정보 페이지에서 필드 다시 정렬
+<!--1. (Optional) Click the **Connections** tab. All records or objects that are connected to the selected record display under the names of the record type, or the application they belong to. 
+
+      ![](assets/connections-tab-on-record-in-workfront-planning.png)
+
+      For information about connecting records from the Connections tab, see [Connect records](/help/quicksilver/planning/records/connect-records.md). -->
+
+## 레코드의 미리 보기 또는 페이지에서 필드 다시 정렬
 
 {{step1-to-planning}}
 

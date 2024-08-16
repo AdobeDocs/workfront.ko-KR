@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: ec3c9668154cdfdd509d37e9621af717f1363d15
 workflow-type: tm+mt
-source-wordcount: '2495'
+source-wordcount: '2292'
 ht-degree: 1%
 
 ---
@@ -31,6 +31,8 @@ hide: yes
 {{planning-important-intro}}
 
 Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프로그램의 객체에 연결할 수 있습니다.
+
+이 문서에서는 레코드를 연결하는 방법에 대해 설명합니다. 레코드 연결에 대한 일반 정보는 [연결된 레코드 개요](/help/quicksilver/planning/records/connected-records-overview.md)를 참조하십시오.
 
 먼저 두 레코드 형식을 서로 연결하거나 다른 응용 프로그램의 개체 형식에 레코드 형식을 연결해야 합니다. 이렇게 하면 연결된 레코드 필드가 만들어집니다. 그런 다음 연결된 레코드 필드를 사용하여 레코드를 서로 연결하거나 레코드를 다른 응용 프로그램의 다른 개체에 연결할 수 있습니다.
 
@@ -131,30 +133,6 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-## 레코드 연결에 대한 고려 사항
-
-* 레코드 유형을 연결하면 연결된 레코드 유형이 연결된 레코드 유형의 테이블 및 해당 레코드 페이지에서 연결된 레코드 필드로 표시됩니다.
-* 연결된 레코드 필드에서 연결된 레코드와 개체 유형의 레코드와 개체를 찾아보고 추가할 수 있습니다.
-* 연결 중인 레코드 유형의 테이블에 연결된 레코드 유형의 필드(조회 필드)를 추가할 수 있습니다.
-
-  연결하는 레코드 유형의 테이블에서 연결할 레코드 유형의 필드(조회 필드)를 추가할 수 있습니다.
-
-  예를 들어 Campaign의 레코드 유형에서 제품의 레코드 유형을 연결하는 경우 캠페인에 대한 제품 필드와 제품에 대한 캠페인 필드를 표시할 수 있습니다.
-* 연결 중인 레코드의 조회 필드 값은 수동으로 업데이트할 수 없습니다.
-
-  연결된 레코드의 조회 필드 값은 원본 레코드나 개체에서 자동으로 연결되는 Workfront Planning 레코드를 채웁니다.
-
-* Workfront 계획 및 보기에 대한 액세스 권한 또는 작업 공간에 대한 상위 권한이 있는 모든 사용자는 레코드 간 또는 레코드와 다른 응용 프로그램의 개체 간에 수행하는 연결을 볼 수 있습니다. 연결하려는 응용 프로그램의 사용 권한에 관계없이 연결된 레코드와 개체를 볼 수 있습니다.
-* 연결된 레코드가 있는 작업 영역에 대한 관리 권한이 있는 경우 다른 사용자의 연결을 보고 편집할 수 있습니다.
-* 한 레코드를 다른 응용 프로그램에서 하나 또는 여러 개체에 연결할 수 있습니다.
-* Workfront에서 다음 영역의 Workfront Planning 레코드로 객체를 연결할 수 있습니다.
-   * Workfront Planning의 Planning 레코드에서.
-   * Workfront 객체의 Planning 섹션에서 다음을 수행합니다.
-
-* 다음 영역에서 Workfront Planning 레코드를 Experience Manager Assets에 연결할 수 있습니다.
-
-   * Workfront Planning의 계획 레코드에서
-
 ## 레코드 연결을 위한 사전 요구 사항
 
 레코드를 다른 레코드나 개체와 연결하려면 다음이 필요합니다.
@@ -171,7 +149,15 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
 
 ## Workfront Planning에서 레코드 연결
 
-### Adobe Workfront 계획 레코드 연결
+다음 영역에서 Workfront Planning의 레코드를 연결할 수 있습니다.
+
+* 테이블 보기의 연결된 필드에 있는 Workfront Planning의 Planning 레코드에서.
+* 레코드 미리 보기 또는 연결된 레코드 필드의 페이지에 있는 Workfront Planning의 Planning 레코드에서.
+  <!--
+  * From a Planning record in Workfront Planning in the record preview or page in the connected record fields on the Details tab.
+  * From a Planning record in the record's preview or page on the Connections tab.  -->
+
+### 테이블 보기 또는 <!--Details tab of the--> 레코드 페이지에서 Adobe Workfront Planning 레코드를 연결합니다.
 
 {{step1-to-planning}}
 
@@ -232,7 +218,7 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
 
    **Campaign** 연결된 레코드 필드에는 제품 레코드 종류 페이지에서 제품에 연결한 캠페인의 이름이 표시됩니다. Campaign 정보를 업데이트하면 제품 레코드 유형에 대한 Campaign 연결 레코드 필드가 자동으로 업데이트됩니다.
 
-### Adobe Workfront Planning 레코드를 Workfront 객체에 연결
+### 테이블 보기 또는 <!--Details tab of the--> 레코드 페이지에서 Adobe Workfront Planning 레코드를 Workfront 개체에 연결합니다.
 
 <!--when we will have more applications to link to from Planning, change the title to something like: Connect Workfront Planning records to objects from other applications-->
 
@@ -311,7 +297,7 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
    이렇게 하면 Workfront Planning 레코드에서 연결된 필드가 추가되거나 제거됩니다. 제거된 필드와 관련된 정보는 Workfront에 남아 있습니다.
 
 
-### Workfront Planning 레코드를 Adobe Experience Manager 객체에 연결
+### 테이블 보기 또는 <!--Details tab of the--> 레코드 페이지에서 Workfront Planning 레코드를 Adobe Experience Manager 개체에 연결합니다.
 
 <!--when we will have more applications to link to from Planning, change the title to something like: Connect Workfront Planning records to objects from other applications-->
 
@@ -327,6 +313,7 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
 >
 >Workfront 관리자가 Experience Manager Assets과 Adobe Experience Manager Assets 간의 통합을 통해 메타데이터 매핑을 구성할 때 Workfront에서 Planning 레코드 및 해당 필드에 액세스할 수 있습니다. 자세한 내용은 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en)을 참조하십시오.
 
+레코드를 AEM Assets와 연결하려면 다음을 수행하십시오.
 
 {{step1-to-planning}}
 
@@ -403,12 +390,41 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
 
    이렇게 하면 레코드에서 연결된 필드가 추가되거나 제거됩니다. 제거된 필드와 관련된 정보는 Experience Assets Adobe에 남아 있습니다.
 
+<!--
+### Connect Workfront Planning records from the Connections tab of the record page
+
+1. Go to any view of a record type that has been connected to other record types or object types from other applications. 
+1. Follow the steps described in the previous subsections to find a record in the view that you want to connect with other records or objects. 
+1. Click the name of a record. 
+
+    The preview page opens. 
+1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) to open the record's page. 
+1. Click the **Connections** tab in the record's preview or page. 
+
+    ![](assets/connections-tab-on-record-in-workfront-planning.png)
+
+    All record or object types that are linked to the selected record type display as sections. Connected records or objects display under their record or object type names on cards. 
+
+1. (Optional) Click the downward-pointing arrow to the left of a section to collapse it. 
+
+1. (Conditional) If there are records or objects connected to the selected record, click **Connect** to add more records or objects of the same type. 
+    The Connect button does not display if there are no records currently connected to the selected record. 
+1. Follow the steps describes in the previous sections to connect records from Workfront Planning or objects from Workfront or AEM Assets. 
+    The records and objects are added immediately.
+1. (Optional) Hover over the connected card of a record or object, then click the **Disconnect record** icon to disconnect it from the selected record. 
+
+    ![](assets/disconnect-record-icon-with-tooltip-on-connections-tab.png)
+
+    The record is immediately disconnected from all areas of Workfront Planning or from other applications where it might show as connected. Any lookup field values are also removed. 
+
+-->
+
 ## Workfront 개체에서 레코드 연결
 
 Workfront 객체에서 Workfront Planning 레코드를 연결하려면 다음이 있어야 합니다.
 
-* 레코드 유형과 Workfront 객체 유형 간의 연결입니다.
+* 레코드 유형과 Workfront Planning에서 설정된 Workfront 객체 유형 간의 연결입니다.
 * 레코드와 Workfront 개체 간 최소 하나 이상의 연결.
-* Workfront 또는 그룹 관리자는 Planning 레코드 유형에 연결할 수 있는 Workfront 객체 유형에 Planning 섹션을 추가해야 합니다.
+* Workfront 또는 그룹 관리자는 레이아웃 템플릿의 Planning 레코드 유형에 연결할 수 있는 Workfront 객체 유형에 Planning 섹션을 추가해야 합니다.
 
 자세한 내용은 [Adobe Workfront 개체의 계획 섹션에서 레코드 관리](/help/quicksilver/planning/records/manage-records-in-planning-section.md)를 참조하십시오.
