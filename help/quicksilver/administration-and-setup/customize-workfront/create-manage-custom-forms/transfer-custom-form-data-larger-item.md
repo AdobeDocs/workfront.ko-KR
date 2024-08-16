@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 2d4d104a-1465-43e2-8184-83dd63d9681c
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: aee8673337b7e5294331bc2d571a6bee57114df5
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,8 @@ ht-degree: 0%
 자세한 내용은 [Adobe Workfront의 문제 전환 개요](../../../manage-work/issues/convert-issues/convert-issues.md) 또는 [Adobe Workfront의 문제 전환 개요](../../../manage-work/issues/convert-issues/convert-issues.md)를 참조하십시오.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음이 있어야 합니다.
 
@@ -53,6 +55,8 @@ ht-degree: 0%
 </table>
 
 이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 첫 번째: 사용자 정의 양식에 추가 오브젝트 추가
 

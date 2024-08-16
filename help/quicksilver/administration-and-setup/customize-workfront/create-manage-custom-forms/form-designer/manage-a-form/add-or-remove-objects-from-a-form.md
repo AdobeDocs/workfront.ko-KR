@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c43ea6b2-7d5b-46f0-a092-f57128de60f0
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 양식 디자이너를 사용하여 기존 사용자 정의 양식에서 개체 유형을 추가하거나 삭제할 수 있습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음이 있어야 합니다.
 
@@ -46,6 +48,8 @@ ht-degree: 0%
 </table>
 
 이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 기존 사용자 정의 양식에 개체 유형 추가
 

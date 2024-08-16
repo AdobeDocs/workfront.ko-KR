@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 420c26c22cb1e6c0eab0f4cb0e211922d9ed2350
+source-git-commit: 3f7f4557c18bbb91ece850f910350d926a9e84bf
 workflow-type: tm+mt
-source-wordcount: '2353'
+source-wordcount: '2319'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,8 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -47,21 +49,26 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront 플랜*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront 플랜</p> </td> 
    <td>임의</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td>플랜</td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td>
+   <p>새로운 기능: 표준</p>
+   <p>또는</p>
+   <p>현재: 플랜</p></td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>사용자 정의 양식에 대한 관리 액세스</p> <p>Workfront 관리자가 이 액세스 권한을 부여하는 방법에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">특정 영역에 대한 관리자 액세스 권한 부여</a>를 참조하십시오.</p> </td> 
-  </tr>  
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>사용자 정의 양식에 대한 관리 액세스</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
-&#42;플랜, 라이선스 유형 또는 액세스 수준 구성을 알아보려면 Workfront 관리자에게 문의하세요.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 사용자 정의 양식에서 기존의 계산된 사용자 정의 필드 재사용
 
@@ -81,7 +88,7 @@ ht-degree: 0%
 
 기존의 계산된 사용자 정의 필드를 재사용하려면 다음을 수행합니다.
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **사용자 지정 Forms**&#x200B;을 클릭합니다.
 
@@ -119,7 +126,7 @@ ht-degree: 0%
 >
 >새 계산된 사용자 정의 필드를 만들기 전에 계산에 필요한 데이터가 Workfront에 있는지 확인할 수 있도록 포함하려는 기존 필드를 식별하십시오.
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **사용자 지정 Forms**&#x200B;을 클릭합니다.
 

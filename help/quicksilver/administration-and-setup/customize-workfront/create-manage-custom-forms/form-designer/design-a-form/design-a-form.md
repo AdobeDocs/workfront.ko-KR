@@ -1,5 +1,5 @@
 ---
-title: 양식 디자이너를 사용하여 양식 디자인
+title: 양식 Designer으로 양식 디자인
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 1b3e0ab2d8ee37b7583d0b8fb0472b2fc9623da0
+source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
 workflow-type: tm+mt
-source-wordcount: '5529'
+source-wordcount: '5540'
 ht-degree: 5%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 5%
 양식 디자이너를 사용하여 사용자 정의 양식을 디자인할 수 있습니다. 다른 Workfront 개체에 사용자 정의 양식을 첨부하여 해당 개체에 대한 데이터를 캡처할 수 있습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음이 있어야 합니다.
 
@@ -46,6 +48,8 @@ ht-degree: 5%
 </table>
 
 이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 사용자 정의 양식 디자인 시작
 

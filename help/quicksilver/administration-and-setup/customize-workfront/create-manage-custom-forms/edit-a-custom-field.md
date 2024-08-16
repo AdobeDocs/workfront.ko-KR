@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: aee8673337b7e5294331bc2d571a6bee57114df5
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 1%
+source-wordcount: '305'
+ht-degree: 0%
 
 ---
 
@@ -24,6 +24,8 @@ ht-degree: 1%
 사용자 정의 양식의 사용자 정의 필드 및 위젯에 대한 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음이 있어야 합니다.
 
@@ -50,6 +52,8 @@ ht-degree: 1%
 </table>
 
 이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 사용자 정의 필드 또는 위젯 추가
 

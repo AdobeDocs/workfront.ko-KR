@@ -1,5 +1,5 @@
 ---
-title: 복사본으로 양식 디자인
+title: 사본에서 양식 디자인
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 578a8bd5-d93f-4327-bb4f-2c17b91b170a
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 기존 양식을 기반으로 하는 새 사용자 정의 양식을 디자인할 수 있습니다. 다른 Workfront 개체에 사용자 정의 양식을 첨부하여 해당 개체에 대한 데이터를 캡처할 수 있습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음이 있어야 합니다.
 
@@ -46,6 +48,8 @@ ht-degree: 0%
 </table>
 
 이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 사용자 정의 양식을 복사하여 새 양식 만들기
 

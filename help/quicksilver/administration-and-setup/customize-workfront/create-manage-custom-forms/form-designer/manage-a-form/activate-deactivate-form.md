@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 6d9a409d-8d16-4c58-ad02-f60aa1ac1714
-source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
+source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 0%
 >사용자 정의 양식이 비활성화되었지만 여전히 대기열 주제 또는 요청 대기열 정의에 속하는 경우 새 요청에 첨부됩니다. 요청에서 양식을 사용하지 않으려면 요청 대기열에서 수동으로 제거해야 합니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음이 있어야 합니다.
 
@@ -50,6 +52,8 @@ ht-degree: 0%
 </table>
 
 이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 사용자 정의 양식 비활성화
 

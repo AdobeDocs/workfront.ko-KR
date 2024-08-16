@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: API의 리치 텍스트 필드 스토리지
 description: 프로젝트, 문제 또는 작업과 같은 오브젝트에 리치 텍스트가 포함된 경우 Workfront API를 통해 매개 변수 값으로 저장되고 액세스할 수 있습니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 2e4b18be-14bb-4d47-8e63-e2f4a5dc376f
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 3f7f4557c18bbb91ece850f910350d926a9e84bf
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
