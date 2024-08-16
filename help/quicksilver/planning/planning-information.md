@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
@@ -51,15 +51,20 @@ hide: yes
 * [Adobe Workfront Planning 개요](/help/quicksilver/planning/general/planning-overview.md): 이 솔루션에 고유한 용어 및 개념을 포함하여 Adobe Workfront Planning에 대한 높은 수준의 개요입니다. 여기에서 Workfront Planning으로 여정을 시작하는 것이 좋습니다.
 * [Adobe Workfront Planning 개체 제한 사항 개요](/help/quicksilver/planning/general/limitations-overview.md): Workfront Planning에서 만들 수 있는 개체 수에 대한 제한 사항 목록입니다.
 * [Adobe Workfront Planning 현재 릴리스 활동](/help/quicksilver/planning/general/release-activity.md): 정확한 릴리스 날짜와 각 기능에 대한 간단한 개요를 포함하여 2023년 5월 22일 Adobe Workfront Planning 프로그램 시작 이후 릴리스된 모든 기능의 목록입니다.
+
+## Workfront Planning에 사용할 수 있는 추가 기능
+
 * [Adobe Workfront Planning AI Assistant 개요](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): Workfront Planning AI Assistant를 사용하여 명령을 사용하여 레코드를 검색하거나, 레코드를 생성, 업데이트 및 삭제할 수 있으며, 이를 통해 Assistant가 작업을 수행하도록 할 수 있습니다.
 
   >[!NOTE]
   >
-  >    Workfront AI Assistant는 현재 베타 단계에서 고객을 선택할 수 있습니다. 이 새로운 서비스를 사용해 볼 수 있는 자격이 있는지 알아보려면 계정 담당자에게 문의하십시오.
+  >    Workfront AI Assistant가 일시적으로 제거되어 나중에 사용할 수 있습니다.
 
 * [Workfront Fusion용 Adobe Workfront 계획 모듈](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md): Adobe Workfront 계획 모듈을 사용하면 Workfront Planning에서 이벤트가 발생할 때 시나리오를 트리거할 수 있습니다. 레코드를 생성, 읽기, 업데이트 및 삭제하거나 Adobe Workfront Planning 계정에 대한 사용자 정의 API 호출을 수행할 수도 있습니다.
 
 * [Adobe Workfront Planning API 기본 사항](/help/quicksilver/planning/general/planning-api-basics.md): Adobe Workfront Planning API의 목표는 HTTP를 통해 작동하는 REST 풀 아키텍처를 도입하여 Planning과의 통합 구축을 간소화하는 것입니다.
+
+<!--* Workfront Planning reporting capabilities: You can now view Workfront Planning information in a report using the Workfront Canvas Dashboard. For information, see [Get started with Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).-->
 
 ## Workfront Planning 아키텍처 및 기능
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: 98ba6e1c1624639ba45ccf2cc3fd8e29bc716f89
+source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-><span class="preview">AI 도우미가 일시적으로 제거되었으며 나중에 다시 돌아올 예정입니다.</span>
+><span class="preview">Workfront AI Assistant가 일시적으로 제거되어 나중에 사용할 수 있습니다.</span>
 >이 문서의 정보는 Adobe Workfront Planning 및 Workfront AI Assistant(베타)에 있으며 Adobe Workfront의 새로운 오퍼링입니다.
 >
 >현재 Workfront Planning은 초기 액세스 단계에 있으며 Workfront AI Assistant는 베타 단계에 있습니다.

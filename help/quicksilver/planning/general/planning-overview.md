@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 98ba6e1c1624639ba45ccf2cc3fd8e29bc716f89
+source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
 workflow-type: tm+mt
-source-wordcount: '1855'
+source-wordcount: '1874'
 ht-degree: 2%
 
 ---
@@ -89,8 +89,9 @@ Adobe Workfront Planning은 Adobe Workfront의 새로운 제품입니다. Workfr
 | 보기 공유 | ✓ 덧신 | |  |
 | 외부 리소스와 공개적으로 보기 공유 | ✓ 덧신 | |  |
 | 중복 보기 | ✓ 덧신 | |  |
-| 요청 제출 |                               |                                  | ✓ 덧신 |
-| 크리에이티브 개요 |                               |                                  | ✓ 덧신 |
+| 요청 제출 |                               | ✓ 덧신 |                 |
+| Word로 레코드 세부 정보 내보내기 |                               | ✓ 덧신 |                 |
+| PDF으로 레코드 세부 정보 내보내기 |                               |                                  | ✓ 덧신 |
 | 레코드의 색상 및 아이콘 사용자 지정 | ✓ 덧신 |                                  |                 |
 | 레코드에 주석 추가 | ✓ 덧신 |                                  |                 |
 | 인앱 알림 수신 | ✓ 덧신 |                                  |                 |
@@ -104,8 +105,9 @@ Adobe Workfront Planning은 Adobe Workfront의 새로운 제품입니다. Workfr
 | Workfront 객체에서 Planning 레코드 연결 | ✓ 덧신 |                                  |                 |
 | Workfront Planning 공용 API | ✓ 덧신 |                                  |                 |
 | Workfront Planning AI Assistant* | ✓ 덧신 |                                  |                 |
+| Workfront Planning 정보 보고(캔버스 대시보드) |                               | ✓ 덧신 |                 |
 
-*AI Assistant가 일시적으로 제거되어 나중에 다시 사용할 수 있습니다.
+*AI Assistant가 일시적으로 제거되어 나중에 사용할 수 있습니다.
 
 ## Workfront 인스턴스의 사용자에 대해 Adobe Workfront Planning 활성화
 

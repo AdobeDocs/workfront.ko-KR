@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '462'
 ht-degree: 3%
 
 ---
@@ -42,8 +42,7 @@ ht-degree: 3%
 1. 레코드 유형 카드를 클릭합니다.
 레코드 유형 페이지가 열리고 해당 유형의 모든 레코드가 표시됩니다.
 
-1. **보기** 드롭다운 메뉴에서 표 보기를 선택하십시오.
-1. 테이블 보기에서 레코드 이름을 클릭합니다.
+1. 보기에서 레코드 이름을 클릭합니다.
 
    레코드 페이지가 열립니다. 주석(Comments) 영역은 기본적으로 오른쪽 패널에 열립니다.
 1. **내역 표시** 아이콘 ![](assets/show-history-icon.png)을(를) 클릭합니다. 레코드의 필드에 대한 모든 변경 사항은 가장 최근 것부터 시작하여 오른쪽 패널에 표시됩니다.
