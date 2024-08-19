@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: 132c701d8a00897ed7cd1704d8da2e6a24400393
+source-git-commit: 592041f8d53004a6261fd743ea65ea323624df69
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '265'
 ht-degree: 1%
 
 ---
@@ -27,19 +27,25 @@ ht-degree: 1%
 
 Workfront 관리자는 조직에서 AI Assistant를 활성화할 사용자를 제어할 수 있습니다. 액세스 수준을 통해 관리됩니다.
 
+## 액세스 요구 사항
+
+이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td>임의</td> 
+   <td><p>새로 만들기: 모두</p>
+       <p>또는</p>
+       <p>현재: 사용할 수 없음</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td><p>새로운 기능: 표준</p>
        <p>또는</p>
-       <p>현재: 플랜</p></td>
+       <p>현재: 사용할 수 없음</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 

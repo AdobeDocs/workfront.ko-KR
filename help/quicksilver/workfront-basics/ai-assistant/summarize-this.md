@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
-source-git-commit: 6dd2fd4d688514540265fa3b0d2634194fb6a7ab
+source-git-commit: 513d33c653901394f35c342d8dbf89906017fb3f
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '234'
 ht-degree: 2%
 
 ---
@@ -32,6 +32,31 @@ AI Assistant는 다음 객체를 요약할 수 있습니다.
 >AI Assistant 요약 기능은 요약 패널과 다릅니다.
 >
 >Workfront의 요약 패널에 대한 자세한 내용은 [요약 개요](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)를 참조하세요.
+
+## 액세스 요구 사항
+
+이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td><p>새로 만들기: 모두</p>
+       <p>또는</p>
+       <p>현재: 사용할 수 없음</p></td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td><p>새로운 기능: 표준</p>
+       <p>또는</p>
+       <p>현재: 사용할 수 없음</p></td>
+  </tr> 
+ </tbody> 
+</table>
+
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 ## 개체 요약
 
