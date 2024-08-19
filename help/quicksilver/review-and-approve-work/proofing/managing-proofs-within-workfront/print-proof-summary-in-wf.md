@@ -6,9 +6,9 @@ description: 증명 요약을 인쇄하거나, PDF으로 저장하거나, Adobe 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 129c8e6b-5c66-445b-a5d0-7b1460aeabd6
-source-git-commit: 1b85267e811f5832480316be5322ee819abaf190
+source-git-commit: 918d51e3b832a3104777346cebd54a4830e2d826
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '765'
 ht-degree: 1%
 
 ---
@@ -56,7 +56,8 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->문서 목록에서 여러 증명 요약을 동시에 인쇄할 수 없습니다.
+>* 1GB보다 큰 요약은 지원되지 않습니다.
+>* 문서 목록에서 여러 증명 요약을 동시에 인쇄할 수 없습니다.
 
 1. 증명이 포함된 문서 목록에서 문서가 포함된 행을 마우스로 가리킨 다음 **인쇄 요약**&#x200B;을 클릭합니다.
 
