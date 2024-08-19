@@ -4,18 +4,18 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 description: 사용자는 심각도를 사용하여 문제의 심각도를 정의할 수 있습니다. Adobe Workfront에 있는 5개의 기본 심각도를 사용자 정의하거나 사용자에 대한 새 심각도를 만들 수 있습니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0331be3c-a2d8-4788-a41a-5e971fb4bbe1
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 4%
+source-wordcount: '588'
+ht-degree: 5%
 
 ---
 
-# 문제 심각도 만들기 또는 사용자 지정
+# 문제 심각도 만들기 또는 맞춤화
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -30,6 +30,8 @@ Linked to Understanding Issue Severity.
 >작업 및 프로젝트에 심각도가 없습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -51,6 +53,8 @@ Linked to Understanding Issue Severity.
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 기본 제공 문제 심각도
 
@@ -85,7 +89,7 @@ Workfront에는 5개의 내장된 문제 심각도가 있습니다.
 
 Workfront 관리자는 사용자의 요구 사항에 맞게 문제 심각도를 만들고 편집할 수 있습니다.
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **프로젝트 환경 설정** > **심각도**&#x200B;를 클릭합니다.
 

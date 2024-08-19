@@ -4,13 +4,13 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: 시스템 수준 및 그룹 상태 순서 바꾸기
 description: Workfront 관리자는 시스템의 모든 사용자 또는 단일 그룹에 대해 프로젝트, 작업 및 문제 상태의 순서를 변경할 수 있습니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6fee45a6-1a55-4351-8b08-88244c742ed5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '516'
 ht-degree: 6%
 
 ---
@@ -35,6 +35,8 @@ Workfront 관리자는 시스템의 모든 사용자 또는 단일 그룹에 대
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -53,6 +55,8 @@ Workfront 관리자는 시스템의 모든 사용자 또는 단일 그룹에 대
 </table>
 
 &#42;보유 중인 플랜 또는 라이선스 유형을 확인해야 하는 경우 Workfront 관리자에게 문의하십시오.
+
++++
 
 ## 기본 상태 순서
 
@@ -108,7 +112,7 @@ Workfront 관리자는 시스템의 모든 사용자 또는 단일 그룹에 대
 
 ## 작업 및 프로젝트의 시스템 전체 또는 그룹 상태 재정렬
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **프로젝트 환경 설정 > 상태**&#x200B;를 클릭합니다.
 1. (조건부) 그룹에 대한 상태를 재정렬하는 경우 오른쪽 상단 모서리의 상자에 그룹 이름을 입력한 다음 표시될 때 이름을 클릭합니다.

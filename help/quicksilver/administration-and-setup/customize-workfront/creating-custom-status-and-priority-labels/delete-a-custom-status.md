@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
 title: 사용자 지정 상태 삭제
 description: 사용자 정의 시스템 상태가 더 이상 조직에 유용하지 않은 경우 삭제할 수 있습니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 73c4eb87-94f6-47bf-b447-eb02a703f7ef
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '482'
 ht-degree: 1%
 
 ---
@@ -41,6 +41,8 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -62,9 +64,11 @@ ht-degree: 1%
  </tbody> 
 </table>
 
++++
+
 ## 사용자 정의 시스템 상태 삭제
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **프로젝트 환경 설정** > **상태**&#x200B;를 클릭합니다.
 

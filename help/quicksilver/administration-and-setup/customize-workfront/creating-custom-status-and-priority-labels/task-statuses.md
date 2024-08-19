@@ -5,13 +5,13 @@ content-type: reference;how-to-procedural
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 description: 작업 상태를 사용하여 주어진 시간에 작업이 어느 개발 단계에 있는지 사용자에게 표시할 수 있습니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2cdedc67-b7b0-4e83-a446-d71e3afe255c
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 0%
 작업 상태를 사용하여 주어진 시간에 작업이 어느 개발 단계에 있는지 사용자에게 표시할 수 있습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -43,11 +45,13 @@ ht-degree: 0%
  </tbody> 
 </table>
 
++++
+
 ## 작업 상태 액세스
 
 시스템 상태를 편집하거나 새 사용자 지정 상태를 만드는 방법에 대한 자세한 내용은 [상태 만들기 또는 편집](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)을 참조하세요.
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. **프로젝트 환경 설정** > **상태**&#x200B;를 클릭합니다.
 

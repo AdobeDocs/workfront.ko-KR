@@ -1,17 +1,17 @@
 ---
-title: 전역 승인 설정 구성
+title: 글로벌 승인 설정 구성
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
 description: Adobe Workfront 관리자는 Workfront에서 승인 프로세스에 대한 전역 설정을 결정할 수 있습니다. 이 설정은 시스템의 모든 작업 항목 승인 프로세스에 영향을 줍니다.
-author: Alina, Caroline
+author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2fb0c647-bb6d-46d0-a985-6ab820b4a7f2
-source-git-commit: a3cb3d9d340d377e301c98480324bfe8bf507382
+source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 1%
+source-wordcount: '897'
+ht-degree: 2%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 1%
 Adobe Workfront 관리자는 Workfront에서 승인 프로세스에 대한 전역 설정을 결정할 수 있습니다. 이 설정은 시스템의 모든 작업 항목 승인 프로세스에 영향을 줍니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -44,12 +46,13 @@ Adobe Workfront 관리자는 Workfront에서 승인 프로세스에 대한 전�
 
 &#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
 
++++
+
 ## 전역 승인 설정 구성
 
-1. Workfront에 Workfront 관리자로 로그인합니다.
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
-1. **프로세스** > **승인** 을 클릭합니다.
+1. **프로세스** > **승인**&#x200B;을 클릭합니다.
 
 1. **승인** 영역 이름 옆의 **설정** 아이콘 ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
 

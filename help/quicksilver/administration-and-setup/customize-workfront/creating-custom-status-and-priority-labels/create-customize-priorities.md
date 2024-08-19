@@ -1,18 +1,18 @@
 ---
 title: 우선 순위 만들기 및 사용자 지정
 description: Workfront의 설정 영역에서 프로젝트, 작업 및 문제의 우선 순위를 제어할 수 있습니다. 우선 순위는 Adobe Workfront의 프로젝트, 작업 또는 문제를 중요시합니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e7952cf-f07a-412b-9f9a-623cdba46849
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '731'
 ht-degree: 2%
 
 ---
 
-# 우선 순위 만들기 및 사용자 지정
+# 우선 순위 만들기 및 사용자 정의
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -21,6 +21,8 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 Workfront의 설정 영역에서 프로젝트, 작업 및 문제의 우선 순위를 제어할 수 있습니다. 우선 순위는 Adobe Workfront의 프로젝트, 작업 또는 문제를 중요시합니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -42,6 +44,8 @@ Workfront의 설정 영역에서 프로젝트, 작업 및 문제의 우선 순�
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 기존 우선 순위 맞춤화
 
@@ -87,7 +91,7 @@ Workfront 관리자는 Workfront에서 제공하는 기본 우선 순위를 다�
 
 Workfront에서 제공하는 기본 우선 순위 외에도 조직의 요구 사항을 반영하기 위해 고유한 우선 순위를 추가할 수 있습니다.
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **프로젝트 환경 설정** > **우선 순위**&#x200B;를 클릭합니다.
 

@@ -5,13 +5,13 @@ content-type: reference;how-to-procedural
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 description: 사용자는 다른 사용자가 주어진 시간에 프로젝트의 현재 개발 단계를 볼 수 있도록 프로젝트 상태를 지정할 수 있습니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1fc91438-1ead-40d2-b0aa-863c1125c2fb
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,8 @@ Workfront에는 9개의 시스템 프로젝트 상태가 있습니다. 이러한
 Workfront 관리자는 시스템의 모든 새 프로젝트에 대한 기본 상태를 구성합니다. 자세한 내용은 [시스템 전체 프로젝트 환경 설정 구성](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)을 참조하십시오.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -49,13 +51,15 @@ Workfront 관리자는 시스템의 모든 새 프로젝트에 대한 기본 상
  </tbody> 
 </table>
 
++++
+
 ## 프로젝트 상태 액세스
 
 Workfront 관리자는 시스템 수준 프로젝트 상태 목록에 액세스할 수 있습니다.
 
 시스템 상태를 편집하고 사용자 지정 상태를 만드는 방법에 대한 자세한 내용은 [상태 만들기 또는 편집](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)을 참조하세요.
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. **프로젝트 환경 설정** > **상태**&#x200B;를 클릭합니다.
 

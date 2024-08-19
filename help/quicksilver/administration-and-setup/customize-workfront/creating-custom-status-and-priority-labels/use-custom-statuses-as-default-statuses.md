@@ -4,13 +4,13 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: 사용자 지정 상태를 기본 상태로 사용
 description: 사용자 지정 상태를 기본 상태로 설정하면 시스템 전체에서 다양한 방식으로 새 기본 상태가 사용됩니다. 기본 시스템 수준 상태로 설정되는지 또는 기본 그룹 수준 상태로 설정되는지에 따라 사용 방법이 달라집니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5b137cee-e03a-4176-a683-b77f2b27f5ce
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '830'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 사용자 지정 상태를 기본 상태로 설정하면 시스템 전체에서 다양한 방식으로 새 기본 상태가 사용됩니다. 기본 시스템 수준 상태로 설정되는지 또는 기본 그룹 수준 상태로 설정되는지에 따라 사용 방법이 달라집니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -41,6 +43,8 @@ ht-degree: 0%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 사용자 정의 기본 시스템 수준 상태
 
@@ -76,7 +80,8 @@ ht-degree: 0%
 
 ## 사용자 지정 상태를 기본 상태로 설정
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
+
 1. 왼쪽 패널에서 **프로젝트 환경 설정** > **상태**&#x200B;를 클릭합니다.
 1. (조건부) 그룹의 기본 상태를 설정하는 경우 오른쪽 상단 모서리의 메뉴에서 그룹 이름을 입력한 다음 표시될 때 선택합니다.
 1. 기본 상태로 설정할 상태 유형에 따라 **프로젝트**, **작업** 또는 **문제** 탭을 엽니다.

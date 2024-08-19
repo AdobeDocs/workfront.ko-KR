@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 35c804b5-569d-4ba8-84b8-6129f0ffbc7f
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '955'
 ht-degree: 2%
 
 ---
@@ -66,7 +66,7 @@ Adobe Workfront 관리자는 프로젝트, 작업 및 문제에 대한 사용자
 
 전체 조직에 대한 사용자 지정 상태를 만들 때 시스템의 모든 그룹이 편집하지 않고 사용할 수 있도록 구성할 수 있습니다. 또는 [그룹 상태 만들기 또는 편집](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md)에 설명된 대로 그룹 관리자가 그룹의 상태를 수정할 수 있도록 구성할 수 있습니다.
 
-1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **[!UICONTROL 설정]** ![설정 아이콘](/help/_includes/assets/gear-icon-setup.png)을 클릭합니다.
+{{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **프로젝트 환경 설정** > **상태**&#x200B;를 클릭합니다.
 

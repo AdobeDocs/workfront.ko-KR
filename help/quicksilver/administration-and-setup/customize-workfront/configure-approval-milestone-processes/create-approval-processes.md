@@ -8,14 +8,14 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
 workflow-type: tm+mt
 source-wordcount: '2174'
 ht-degree: 1%
 
 ---
 
-# 작업 항목에 대한 승인 프로세스 만들기
+# 작업 항목을 위한 승인 프로세스 만들기
 
 <!-- Audited: 12/2023 -->
 
