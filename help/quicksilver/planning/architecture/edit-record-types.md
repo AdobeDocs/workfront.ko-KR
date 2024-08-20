@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 2%
+source-wordcount: '628'
+ht-degree: 1%
 
 ---
 
@@ -35,8 +35,6 @@ hide: yes
 ## 액세스 요구 사항
 
 +++ 를 확장하여 Workfront Planning에 대한 액세스 요구 사항을 봅니다.
-
-<!--update the table to say that: Only system administrators can enable record types to connect from other workspaces.-->
 
 <table style="table-layout:auto">
  <col>
@@ -79,7 +77,8 @@ hide: yes
 <tr>
    <td role="rowheader"><p>권한</p></td>
    <td> <p>작업 영역</a>에 대한 권한 관리 </p>  
-   <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다
+   <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p>
+   <p>시스템 관리자만 다른 작업 영역에서 레코드 유형을 연결할 수 있습니다.</p>
 </td>
   </tr>
 <tr>
@@ -115,60 +114,34 @@ hide: yes
 
    ![](assets/more-menu-options-from-record-type-card.png)
 
-   <!--replace everything below with the commented out text below-->
+1. **레코드 종류 편집** 상자에서 기본적으로 **모양** 탭이 열립니다.
 
-1. **레코드 종류 편집** 상자에서 다음 정보를 업데이트하십시오.
+   ![](assets/edit-record-type-box-appearance-tab.png)
 
-   * 필요한 경우 레코드 유형 이름을 편집합니다. <!--did they add a field label for this? -->
+   **모양** 탭에서 다음 정보를 업데이트합니다.
+
+   * 필요한 경우 레코드 유형 이름을 편집합니다. <!--did they add a field label for this?-->
    * **설명**: 레코드 형식에 대한 자세한 내용을 포함하여 설명을 편집하거나 추가합니다.
    * 레코드 종류와 관련된 아이콘의 색 및 모양을 편집합니다. 다음을 수행합니다.
-      * 레코드 유형을 식별할 색상을 선택합니다. 레코드 유형 아이콘의 색상입니다. 기본적으로 회색이 선택되어 있습니다.
+      * 레코드 유형을 식별할 색상을 선택합니다. 레코드 유형 아이콘의 색상입니다.
       * 목록에서 아이콘을 선택하거나 아이콘 이름을 입력하여 아이콘이 나타내는 내용을 설명한 다음 표시될 때 선택합니다. 레코드 유형의 아이콘입니다. 기본적으로 파일 아이콘이 선택되어 있습니다.
 
-     ![](assets/update-record-type-box.png)
-
-1. **저장**&#x200B;을 클릭합니다.
-1. (선택 사항) 작업 영역 영역에서 레코드 유형 카드를 클릭하여 레코드 유형의 페이지를 엽니다.
-1. 레코드 종류 이름의 오른쪽에 있는 **자세히** 메뉴를 클릭한 다음 **편집**&#x200B;을 클릭하여 레코드 종류에 대한 정보를 업데이트합니다.
-
-   >[!TIP]
-   >
-   >   헤더에서 레코드 유형의 이름을 바꿀 수 있습니다.
-
-   ![](assets/more-menu-options-from-record-type-page.png)
-
-   <!--check this screen shot - not sure this is valid ???-->
-
-1. (선택 사항) 다른 레코드 유형을 편집하려면 레코드 유형 이름의 오른쪽에 있는 아래쪽 방향 화살표를 확장하고 레코드 유형을 검색한 다음 목록에 표시될 때 선택합니다.
-
-<!--*******************For GA - replace the above with this:
-
-1. In the **Edit record type** box, click the **Appearance** tab and update the following information: (*******copy the screen shot above here and update it with the Appearance tab**********)
-
-    * Edit the record type name, if needed. (*****did they add a field label for this?******)
-    * **Description**: Edit or add a description for the record type with more information about it. 
-    * Edit the color and shape of the icon associated with the record type. Do the following: 
-        * Select a color to identify the record type. This is the color of the record type icon. Gray is selected by default.
-        * Select an icon from the list, or start typing the name of an icon to describe what it represents, then select it when it displays. This is the icon of the record type. A file icon is selected by default.
-
-        ![](assets/update-record-type-box.png)
-
-1. (Conditional) If you are a system administrator, click the **Advanced settings** tab in the **Edit record type** box and update the following information: 
-
-   * **Connect from other workspaces**: Select this toggle to allow users to connect to this record type from other workspaces. This is deselected by default.
-   * **System wide**: Select this option to allow users to connect to this record from all workspaces in the system.
-   * **Specific workspaces**: Select this option to restrict the workspaces from which users can connect to this record type, then expand the drop down menu and select the workspaces you want users to connect to this record type from. You can start typing the name of a workspace, and select it when it displays in the list. 
+1. (조건부) 시스템 관리자인 경우 **레코드 종류 편집** 상자에서 **고급 설정** 탭을 클릭합니다.
 
    ![](assets/edit-record-type-box-advanced-settings-tab.png)
 
-   The record type card displays a connectivity icon ![](assets/connect-from-other-workspaces-icon.png) in the upper-right corner to indicate that the record is now accessible from other workspaces. 
+1. (조건부) 시스템 관리자는 **고급 설정** 탭에서 다음 정보를 업데이트합니다.
 
+   * **다른 작업 영역에서 연결**: 사용자가 다른 작업 영역에서 이 레코드 형식에 연결할 수 있도록 하려면 이 토글을 선택하십시오. 기본적으로 선택되어 있지 않습니다.
+   * **시스템 전체**: 사용자가 시스템의 모든 작업 영역에서 이 레코드에 연결할 수 있도록 하려면 이 옵션을 선택하십시오.
+   * **특정 작업 영역**: 사용자가 이 레코드 종류에 연결할 수 있는 작업 영역을 제한하려면 이 옵션을 선택한 다음 드롭다운 메뉴를 확장하고 사용자가 이 레코드 종류에 연결할 작업 영역을 선택하십시오. 작업 공간의 이름을 입력하고 목록에 표시될 때 선택할 수 있습니다.
 
-1. Click **Save**.
-1. (Optional) Click the record type card from the workspace area to open the record type's page, then rename the record type in the header.  
+1. **저장**&#x200B;을 클릭합니다.
 
-1. (Optional) To edit another record type, from the record type page, expand the downward-pointing arrow to the right of a record type name, search for a record type, then select it when it displays in the list.
+   작업 영역의 레코드 유형 카드에 오른쪽 상단 모서리에 연결 아이콘 ![](assets/connect-from-other-workspaces-icon.png)이(가) 표시되어 이제 다른 작업 영역에서 레코드에 액세스할 수 있음을 나타냅니다.
+
+1. (선택 사항) 작업 영역 영역에서 레코드 유형 카드를 클릭하여 레코드 유형의 페이지를 연 다음 헤더에서 레코드 유형의 이름을 변경합니다.
+
+1. (선택 사항) 다른 레코드 유형을 편집하려면 레코드 유형 페이지에서 레코드 유형 이름의 오른쪽에 있는 아래쪽 화살표를 확장하고 레코드 유형을 검색한 다음 목록에 표시될 때 선택합니다.
 
    ![](assets/record-type-drop-down-on-record-type-page-with-search-box.png)
-
-   -->

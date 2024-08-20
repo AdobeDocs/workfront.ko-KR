@@ -4,9 +4,9 @@ description: 작업 영역은 팀에서 사용하는 레코드 유형의 컬렉�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -40,8 +40,8 @@ ht-degree: 0%
 
    * 시스템 관리자의 경우 작업 공간은 다음 탭으로 표시됩니다.
 
-      * **내 작업 영역**: 사용자가 만든 작업 영역을 표시합니다. <!--Replace with: **Workspaces I'm on**: Displays workspaces you created or workspaces that are shared with you.-->
-      * **다른 작업 영역**: 사용자와 공유된 작업 영역을 포함하여 시스템의 다른 모든 작업 영역을 표시합니다. <!--Replace with: **Other workspaces**: Displays all other workspaces in the system.-->
+      * **내가 있는 작업 영역**: 사용자가 만든 작업 영역 또는 사용자와 공유된 작업 영역을 표시합니다.
+      * **다른 작업 영역**: 시스템의 다른 작업 영역을 모두 표시합니다.
 
    * 다른 모든 사용자의 경우, 사용자가 생성한 작업공간과 다른 사용자가 사용자와 공유한 작업공간이 작업공간 영역에 표시됩니다.
 
@@ -55,6 +55,7 @@ ht-degree: 0%
   시스템 관리자는 작성하지 않은 작업 영역까지 모든 작업 영역을 관리할 수 있습니다.
 
 <!--make this live with the GA: * There is no limit for how many workspaces you can create in your environment. However, we recommend not to have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.-->
+
 * Workfront Planning 인스턴스에 만들 수 있는 작업 영역 객체의 수에 제한이 있습니다. 자세한 내용은 [Adobe Workfront Planning 개체 제한 사항 개요](/help/quicksilver/planning/general/limitations-overview.md)를 참조하십시오.
 
 

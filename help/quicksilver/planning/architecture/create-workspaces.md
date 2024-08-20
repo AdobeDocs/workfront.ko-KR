@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '538'
 ht-degree: 1%
 
 ---
@@ -134,7 +134,10 @@ Adobe Workfront Planning에서 작업 공간은 팀이 작업을 계획하는 �
    * 처음부터 작업 영역을 만들 때 레코드 형식을 수동으로 추가할 수 있는 빈 작업 영역(**제목 없는 Workspace**)입니다.
    * 선택한 템플릿 이름을 따라 이름이 지정되고 샘플 레코드 유형으로 채워진 작업 영역입니다. 레코드 유형 및 작업 영역을 추가로 사용자 지정할 수 있습니다.
 
-   Workfront 관리자의 경우 새 작업 영역이 **내 작업 영역** 탭에 표시됩니다. <!--replace this with: **Workspaces I'm on** tab-->
+   Workfront 관리자의 경우 새 작업 영역이 내가 있는 **작업 영역** 탭에 표시됩니다.
+
+   작업 영역을 만들 수 있는 다른 모든 사용자의 경우 **작업 영역** 영역에 새 작업 영역이 표시됩니다.
+
 1. 새 작업 영역의 헤더에서 작업 영역 이름 내부를 클릭하여 이름을 변경한 다음 Enter 키를 누릅니다.
 
 1. (선택 사항 및 조건부) 템플릿에서 작업 영역을 만든 경우 **작업 레코드 종류** 또는 **분류** 섹션의 이름 내부를 클릭합니다

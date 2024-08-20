@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
+source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
@@ -56,6 +56,8 @@ For more information, see [Access requirements in Workfront documentation](/help
 Standard(또는 Plan) 라이선스가 있는 사용자만 작업 공간에 대한 Contribute 또는 관리 권한을 가질 수 있습니다. 다른 모든 라이선스 유형을 가진 사용자는 공유된 작업 공간에 대한 보기 권한을 가질 수 있습니다.
 
 시스템 관리자는 작성하지 않은 작업 영역까지 시스템의 모든 작업 영역을 볼 수 있습니다.
+
+가질 수 있는 Workfront Planning 객체 수에 대한 제한이 있습니다. 자세한 내용은 [Adobe Workfront Planning 개체 제한 사항 개요](/help/quicksilver/planning/general/limitations-overview.md)를 참조하십시오.
 
 >[!INFO]
 >
@@ -115,19 +117,6 @@ Only users with a Standard license can have Manage permissions to views. Users w
 >There is an indication in the sharing box that users cannot be granted permissions to manage a view when they hold a lower-level license, as these permissions levels are dimmed. 
 >
 >![](assets/permissions-grayed-out-for-light-user.png)-->
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

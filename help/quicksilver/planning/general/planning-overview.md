@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '1874'
+source-wordcount: '1880'
 ht-degree: 2%
 
 ---
@@ -78,11 +78,11 @@ Adobe Workfront Planning은 Adobe Workfront의 새로운 제품입니다. Workfr
 | 타임라인 보기에서 레코드 정렬 |                               | ✓ 덧신 |                  |
 | 표 보기에서 그룹화 정렬 |                               | ✓ 덧신 |                  |
 | 타임라인 보기에서 그룹화 정렬 |                               | ✓ 덧신 |                  |
-| 작업 공간 연결 |                               | ✓ 덧신 |                  |
 | 표 보기에서 레코드 검색 | ✓ 덧신 |   |
 | 타임라인 보기에서 레코드 검색 | ✓ 덧신 |   |
 | Workfront Planning 레코드를 Workfront 프로젝트, 프로그램, 포트폴리오, 회사, 그룹에 연결 | ✓ 덧신 |                                 |                  |
 | Workfront Planning 레코드를 Adobe Experience Manager 에셋에 연결 | ✓ 덧신 |                                  |                 |
+| 다른 작업 공간의 Planning 레코드 연결 | ✓ 덧신 |                                  |                 |
 | 자세한 정보가 포함된 페이지 기록 | ✓ 덧신 |                                  |                  |
 | 레코드 페이지의 레이아웃을 업데이트합니다. | ✓ 덧신 |                                 |                  |
 | 작업 공간 공유 | ✓ 덧신 | |  |
@@ -282,10 +282,10 @@ Workfront Planning을 찾으려면 다음을 수행합니다.
 
 
 1. (조건부 및 선택 사항) Workfront 관리자인 경우 다음 탭 중 하나를 클릭합니다.
-   * **내 작업 영역**: 사용자가 만든 작업 영역을 표시합니다. <!--Replace with: Workspaces I'm on: Displays workspaces you created or workspaces that are shared with you.-->
-   * **다른 작업 영역**: 사용자와 공유된 작업 영역을 포함하여 시스템의 다른 모든 작업 영역을 표시합니다. <!--Replace with: Other workspaces: Displays all other workspaces in the system.-->
+   * **내가 있는 작업 영역**: 사용자가 만든 작업 영역 또는 사용자와 공유된 작업 영역을 표시합니다.
+   * **다른 작업 영역**: 시스템의 다른 작업 영역을 모두 표시합니다.
 
-   다른 모든 사용자의 경우 해당 사용자가 만들었거나 사용자와 공유하는 모든 작업 영역이 **작업 영역** 영역에 표시됩니다.
+   다른 모든 사용자의 경우 생성했거나 공유한 두 작업 영역이 모두 **작업 영역** 영역에 표시됩니다.
 
 1. (선택 사항 및 권장) 다음 작업 중 일부를 계속하여 작업 구조를 빌드합니다.
 

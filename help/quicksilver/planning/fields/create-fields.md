@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
 workflow-type: tm+mt
 source-wordcount: '3390'
 ht-degree: 2%
@@ -394,6 +394,24 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
    >
    >* 현재 레코드 유형에서 최대 4개 수준까지 떨어진 필드를 참조할 수 있습니다. 예를 들어, 활동 레코드 유형에 대한 공식 필드를 생성하고 활동이 Workfront 프로젝트에 연결된 캠페인 레코드 유형에 연결된 제품 레코드 유형에 연결된 경우, 활동 레코드 유형에 대해 생성 중인 공식에서 프로젝트의 예산을 참조할 수 있습니다.
 
+<!--1. In the **Format** field, select from the following choices to identify the format of the result displayed in the formula-type field:
+
+    * **Text**: The result of the formula field displays as plain text. 
+    * **Number**: The result of the formula field displays as a number. 
+    * **Percent**: The result of the formula field displays as a number followed by a percentage symbol.  
+    * **Currency**: The result of the formula field displays as a number preceded or followed by a currency symbol.  
+    * **Tags**: The result of the formula field displays as a tag with the object's name. 
+    * **Date**: The result of the formula field displays as a date. 
+
+        A preview of what the result will look like displays under the **Format** field. 
+
+        ![](assets/formula-field-formats-list-with-tag-selected-highlighted.png)
+
+        >[!WARNING]
+        >
+        >If the result of the formula does not match the selected format, the field will show an error message where it displays. 
+
+-->
 1. Click **Create**.
 
    새 수식 필드가 레코드 종류에 열로 추가되고 해당 값은 레코드와 연결될 수 있습니다.

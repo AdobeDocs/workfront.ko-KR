@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,7 @@ Workfront Planning을 사용하면 조직에서 사용하는 개체 유형(또�
 * [레코드 유형 개요](/help/quicksilver/planning/architecture/overview-of-record-types.md)
 * [레코드 유형 만들기](/help/quicksilver/planning/architecture/create-record-types.md)
 * [레코드 유형 편집](/help/quicksilver/planning/architecture/edit-record-types.md)
+* [연결된 레코드 유형 개요](/help/quicksilver/planning/architecture/connect-record-types-overview.md)
 * [레코드 유형 연결](/help/quicksilver/planning/architecture/connect-record-types.md)
 * [레코드 종류 및 레코드 연결의 예](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md)
 * [작업 영역 삭제](/help/quicksilver/planning/architecture/delete-workspaces.md)

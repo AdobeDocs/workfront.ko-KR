@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 1%
+source-wordcount: '360'
+ht-degree: 0%
 
 ---
 
@@ -100,27 +100,16 @@ Adobe Workfront Planning에서 작업 공간은 팀이 작업을 계획하는 �
 
 {{step1-to-planning}}
 
-1. (조건부) Workfront 관리자인 경우 **내 작업 공간**&#x200B;을 클릭하여 만든 작업 공간에 액세스하거나 **다른 작업 공간**&#x200B;을 클릭하여 나와 공유된 작업 공간에 액세스합니다. <!--change it to Workspaces I'm on-->
+1. (조건부) Workfront 관리자인 경우 **내가 속한 작업 영역**&#x200B;을 클릭하여 만든 작업 영역에 액세스하거나 **다른 작업 영역**&#x200B;을 클릭하여 나와 공유된 작업 영역에 액세스합니다.
 
-1. 삭제할 작업 공간의 카드를 클릭합니다.
+1. (선택 사항) 추가 작업 영역을 표시하려면 **모두 표시**&#x200B;를 클릭합니다. 작업 영역 카드가 두 개 이상 있는 경우에만 **모두 표시** 링크가 표시됩니다.
+1. (선택 사항) 화면에 표시되는 작업 영역의 수를 제한하려면 **간단히 표시**&#x200B;를 클릭합니다.
+1. 작업 영역을 삭제하려면 다음 중 하나를 수행합니다.
 
-   작업 영역 페이지가 표시됩니다.
-
-<!--***********Replace the steps from the next below till the "Type "delete" in the space ... " (but keep this last step)*******
-
-1. (Optional) Click **Show more** to display additional workspaces. The **Show more** link displays only when you have more than two rows of workspace cards.
-1. (Optional) ClicK **Show less** to limit the number of workspaces that display on the screen. 
-1. To delete a workspace, do one of the following:
-
-   * Hover over the workspace card, then click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the card
-      Or
-   * Click a workspace card to open the workspace, then click **More** to the right of the workspace name. 
-1. Click **Delete**.
-
-   ![](assets/permanently-delete-workspace-confirmation.png)
-   -->
-
-1. 작업 영역 이름 옆의 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭한 다음 **삭제**&#x200B;를 클릭합니다.
+   * 작업 영역 카드 위로 마우스를 가져간 다음 카드의 오른쪽 상단에 있는 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭합니다
+또는
+   * 작업 영역 카드를 클릭하여 작업 영역을 연 다음 작업 영역 이름 오른쪽에 있는 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭합니다.
+1. **삭제**&#x200B;를 클릭합니다.
 
    ![](assets/permanently-delete-workspace-confirmation.png)
 

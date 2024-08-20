@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
+source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
 workflow-type: tm+mt
-source-wordcount: '2292'
+source-wordcount: '2281'
 ht-degree: 1%
 
 ---
@@ -428,7 +428,6 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
 Workfront 객체에서 Workfront Planning 레코드를 연결하려면 다음이 있어야 합니다.
 
 * 레코드 유형과 Workfront Planning에서 설정된 Workfront 객체 유형 간의 연결입니다.
-* 레코드와 Workfront 개체 간 최소 하나 이상의 연결.
 * Workfront 또는 그룹 관리자는 레이아웃 템플릿의 Planning 레코드 유형에 연결할 수 있는 Workfront 객체 유형에 Planning 섹션을 추가해야 합니다.
 
 자세한 내용은 [Adobe Workfront 개체의 계획 섹션에서 레코드 관리](/help/quicksilver/planning/records/manage-records-in-planning-section.md)를 참조하십시오.

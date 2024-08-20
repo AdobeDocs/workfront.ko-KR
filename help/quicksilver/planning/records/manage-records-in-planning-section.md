@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
+source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '644'
 ht-degree: 1%
 
 ---
@@ -98,8 +98,6 @@ ht-degree: 1%
 ## Workfront 객체의 계획 섹션에 대한 고려 사항
 
 * Workfront Planning 레코드 유형은 Workfront 객체 유형에 연결되어 있어야 합니다.
-
-* Workfront에서 레코드를 볼 수 있으려면 하나 이상의 레코드가 하나의 Workfront 개체에 연결되어 있어야 합니다.
 
   자세한 내용은 다음 문서를 참조하십시오.
 
