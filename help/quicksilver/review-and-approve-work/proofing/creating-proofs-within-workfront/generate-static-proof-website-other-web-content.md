@@ -6,7 +6,7 @@ description: 웹 콘텐츠에 대한 새 정적 증명 또는 기존 정적 증�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1c0511f6-c60b-4a81-bfff-55b6f866add6
-source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
+source-git-commit: 0a7cdf217d3c8227c569831b16f09c0b1d9c7111
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 0%
@@ -75,7 +75,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > URL은 1,000자 미만이어야 합니다.
+   > URL은 2,000자 미만이어야 합니다.
 
 1. 추가한 URL을 클릭합니다.
 

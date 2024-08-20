@@ -8,16 +8,48 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: cfccb120-8759-49f2-8b7b-dabcd57d4fda
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f391f43e96add70f8a5aeed259eee1259ed786a3
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 7%
+source-wordcount: '587'
+ht-degree: 6%
 
 ---
 
 # 기본 증명 설정 구성
 
 이 설정을 사용하면 사용자가 만든 모든 새 증명에 적용되는 기본값을 설정할 수 있습니다. 그러나 사용자는 증명을 만들 때 이러한 설정 대부분을 무시할 수 있습니다.
+
+## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
+이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront 플랜*</td> 
+   <td>임의</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront 라이센스*</td> 
+   <td>
+   <p>새로운 기능: 표준</p>
+   또는
+   <p>현재: 플랜</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">액세스 수준 구성*</td> 
+   <td> <p>Workfront 관리자여야 합니다. Workfront 관리자에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">사용자에게 전체 관리 액세스 권한 부여</a>를 참조하십시오.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+
++++
 
 ## 새 증명 기본 설정 구성
 
