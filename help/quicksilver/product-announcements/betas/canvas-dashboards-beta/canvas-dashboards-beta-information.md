@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 91371c862be6f3b99f0450ff359f601dc913dc0c
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,9 @@ ht-degree: 0%
 캔버스 대시보드 사용에 대한 기본 정보는 [캔버스 대시보드 시작](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)을 참조하십시오.
 모든 캔버스 대시보드 설명서의 목록은 [캔버스 대시보드 개요](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)를 참조하십시오.
 
-**Beta 일정:**
+**Beta 상태**
 
-* 마감된 Beta 시작 일자 - TBA
-* Beta 시작 날짜 열기 - TBA
-* 계획된 릴리스 일자 - TBA
+Canvas Dashboards는 현재 비공개 베타 테스트 단계에 있으므로 특정 고객 초대를 통해서만 사용할 수 있습니다.
 
 ## Beta에 참여
 

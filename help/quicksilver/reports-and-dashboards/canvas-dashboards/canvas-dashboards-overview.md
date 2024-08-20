@@ -7,14 +7,18 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: d82bb8a2-a2a6-43d6-a62e-e90f69229533
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
 
 # 캔버스 대시보드 개요
+
+>[!IMPORTANT]
+>
+>이 페이지에서는 Canvas Dashboards Closed Beta에 등록된 사용자만 사용할 수 있는 기능을 설명합니다. 자세한 내용은 [캔버스 대시보드 베타 정보](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)를 참조하세요.
 
 캔버스 대시보드를 사용하면 다양한 보고서 유형을 사용자 지정 가능한 캔버스에 추가하여 Adobe Workfront 데이터를 쉽게 시각화할 수 있습니다. 캔버스 대시보드 사용에 대한 기본 지침은 [캔버스 대시보드 시작](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md) 문서부터 시작하십시오. 그렇지 않은 경우 특정 주제에 대한 자세한 내용은 아래 문서 색인을 참조하십시오.
 

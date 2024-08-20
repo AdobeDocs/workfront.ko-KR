@@ -6,14 +6,18 @@ description: 데이터를 구성 가능한 테이블로 표시하는 테이블 �
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
-source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
 
 # 캔버스 대시보드에서 표 보고서 작성
+
+>[!IMPORTANT]
+>
+>이 페이지에서는 Canvas Dashboards Closed Beta에 등록된 사용자만 사용할 수 있는 기능을 설명합니다. 자세한 내용은 [캔버스 대시보드 베타 정보](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)를 참조하세요.
 
 데이터를 구성 가능한 테이블로 표시하는 테이블 보고서를 캔버스 대시보드에 추가할 수 있습니다.
 
