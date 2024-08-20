@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 505c183b-6252-4367-898f-2429824860be
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 Adobe Workfront 관리자 또는 Workfront Proof 관리자는 증명을 공유할 수 있는 사용자 계정, 사용자가 모든 버전의 증명을 볼 수 있는지 여부 및 사용자가 공유 항목에 액세스할 수 있는 시기를 구성할 수 있습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 다음 항목이 있어야 합니다.
 
@@ -44,9 +46,11 @@ Adobe Workfront 관리자 또는 Workfront Proof 관리자는 증명을 공유�
 
 &#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
 
++++
+
 ## 다른 계정과의 공유 구성
 
-1. Workfront에서 기본 메뉴 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 증명 ![](assets/proofing-in-main-menu.png)을(를) 클릭하여 Workfront Proof에 액세스합니다.
+{{step1-to-proofing}}
 
 1. **설정** > **계정 설정**&#x200B;을 클릭한 다음 **설정** 탭을 클릭합니다.
 
@@ -57,7 +61,7 @@ Adobe Workfront 관리자 또는 Workfront Proof 관리자는 증명을 공유�
 
 ## 공유 증명의 모든 버전에 대한 가시성 구성
 
-1. Workfront에서 기본 메뉴 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 증명 ![](assets/proofing-in-main-menu.png)을(를) 클릭하여 Workfront Proof에 액세스합니다.
+{{step1-to-proofing}}
 
 1. **설정** > **계정 설정**&#x200B;을 클릭한 다음 **설정** 탭을 클릭합니다.
 
@@ -75,7 +79,7 @@ Adobe Workfront 관리자 또는 Workfront Proof 관리자는 증명을 공유�
 
 자동화된 워크플로가 있는 증명이 사용자에게 표시되는 시기를 구성하려면 다음을 수행합니다.
 
-1. Workfront에서 기본 메뉴 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 증명 ![](assets/proofing-in-main-menu.png)을(를) 클릭하여 Workfront Proof에 액세스합니다.
+{{step1-to-proofing}}
 
 1. **설정** > **계정 설정**&#x200B;을 클릭한 다음 **설정** 탭을 클릭합니다.
 

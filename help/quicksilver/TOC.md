@@ -3,7 +3,7 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: a06df1c4006b06e4fe5c730c1894fcc5122f68f5
+source-git-commit: 5676910e53f1c4f49cab196e42bfbce8704887ca
 workflow-type: tm+mt
 source-wordcount: '14334'
 ht-degree: 2%
@@ -406,13 +406,13 @@ ht-degree: 2%
             * [R1 릴리스 웨비나](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-webinars.md)
    * 공지 {#announcements}
       * [공지](product-announcements/announcements/announcements.md)
-      * [사용자 정의 양식 개선 사항](product-announcements/announcements/custom-form-enhancements.md)
       * [기능 예약이 더 이상 지원되지 않음](product-announcements/announcements/feature-removal-timeline.md)
       * [유지 관리 기간 FAQ](product-announcements/announcements/maintenance-window-faq.md)
       * [허용 목록에 추가하다에 증명을 추가하는 데 필요한 변경 사항](product-announcements/announcements/proofhq-domain-change-workfront.md)
       * [새 Adobe Workfront 경험의 알림 센터 메시지 구독 취소](product-announcements/announcements/unsubscribe-from-ac-messages.md)
       * 공지 보관 {#announcement-archive}
          * [공지 아카이브](product-announcements/announcements/announcement-archive/announcement-archive.md)
+         * [사용자 정의 양식 개선 사항](product-announcements/announcements/announcement-archive/custom-form-enhancements.md)
          * [iOS 및 Android용 모바일 앱 업데이트(2017년 8월 초)](product-announcements/announcements/announcement-archive/updated-mobile-app.md)
          * [Adobe Workfront에서 TLS 1.2 필요](product-announcements/announcements/announcement-archive/tls-1-disabled.md)
          * [이제 Outlook 365 추가 기능을 사용할 수 있습니다.](product-announcements/outlook-365-add-in/outlook-365-add-in-now-available.md)

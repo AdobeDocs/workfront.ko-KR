@@ -4,12 +4,13 @@ content-type: reference
 product-area: system-administration
 navigation-topic: administration-and-setup
 title: Adobe Workfront 관리
-description: Workfront 관리자는 증명 Workfront 기능, 보고서, 이메일, 보안, 환율, 삭제된 항목, 진단을 구성할 수 있습니다.
+description: Workfront 관리자는 증명 기능, 보고서, 이메일, 보안, 환율, 삭제된 항목 및 진단을 구성할 수 있습니다.
 feature: System Setup and Administration
 role: Admin
+author: Lisa
 recommendations: noDisplay, noCatalog
 exl-id: 94f3e03f-ea62-47cd-858c-600ea72ac529
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 2%

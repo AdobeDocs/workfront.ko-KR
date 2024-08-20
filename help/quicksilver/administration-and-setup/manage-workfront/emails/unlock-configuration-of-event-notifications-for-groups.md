@@ -8,9 +8,9 @@ author: Lisa, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 056d76c1-7e9b-49b9-974a-75765e53b7fd
-source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,8 @@ Adobe Workfront 관리자인 경우 그룹 관리자가 관리하는 최상위 �
 >
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -52,13 +54,15 @@ Adobe Workfront 관리자인 경우 그룹 관리자가 관리하는 최상위 �
  </tbody> 
 </table>
 
++++
+
 ## 이벤트 알림 구성 기능 잠금 해제 또는 재잠금
 
 >[!IMPORTANT]
 >
 >알림을 다시 잠그면 시스템의 모든 그룹은 사용자가 설정한 대로 알림을 상속합니다. 이는 그룹 관리자가 그룹에 대해 수행한 모든 변경 사항을 무시하므로 먼저 그룹과 협의하는 것이 좋습니다.
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. **전자 메일** > **알림**&#x200B;을 클릭합니다.
 

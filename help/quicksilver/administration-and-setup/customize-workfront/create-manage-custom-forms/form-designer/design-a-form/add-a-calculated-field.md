@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 3f7f4557c18bbb91ece850f910350d926a9e84bf
+source-git-commit: 8dac7959919014d7bfbbbd39d193d026ca31c4b2
 workflow-type: tm+mt
 source-wordcount: '2319'
 ht-degree: 0%
@@ -239,7 +239,7 @@ ht-degree: 0%
 
         **다중 개체 사용자 정의 양식의 계산된 사용자 정의 필드**
 
-        다중 개체 사용자 정의 양식에서 선택한 개체 유형은 해당 양식의 계산된 사용자 정의 필드에서 참조되는 하나 이상의 필드와 호환되어야 합니다. 오브젝트와 호환되지 않는 필드는 해당 양식에 해당 없음으로 표시됩니다.
+        다중 개체 사용자 정의 양식에서 선택한 개체 유형은 해당 양식의 계산된 사용자 정의 필드에서 참조되는 하나 이상의 필드와 호환되어야 합니다. 개체와 호환되지 않는 필드는 양식에 해당 없음으로 표시됩니다.
 
         계산된 필드에 모든 개체 형식에 대한 올바른 결과가 표시되도록 하려면 `$$OBJCODE`을 사용하여 각 개체 형식에 대한 계산을 정의해야 합니다.
 

@@ -1,14 +1,14 @@
 ---
 navigation-topic: notifications
-title: 이벤트 알림에 대한 이메일 제목 사용자 지정
+title: 이벤트 알림에 대한 이메일 주제 사용자 지정
 description: 이벤트 알림에 의해 트리거된 이메일의 제목 줄을 사용자 지정할 수 있습니다.
 author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f39a091-aec2-4013-a835-0ab1c8789dc3
-source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '604'
 ht-degree: 4%
 
 ---
@@ -32,6 +32,8 @@ ht-degree: 4%
 >
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -58,9 +60,11 @@ ht-degree: 4%
 
 &#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
 
++++
+
 ## 이벤트 알림에 대한 이메일 제목 줄 사용자 지정 {#customize-email-subject-lines-for-event-notifications}
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **전자 메일** > **알림**&#x200B;을 클릭합니다.
 

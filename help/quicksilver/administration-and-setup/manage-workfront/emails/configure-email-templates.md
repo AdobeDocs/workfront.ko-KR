@@ -4,18 +4,18 @@ product-area: system-administration;templates;setup
 navigation-topic: emails-administration
 title: 이메일 템플릿 구성
 description: Adobe Workfront 관리자는 미리 알림을 지원하도록 이메일 템플릿을 구성할 수 있습니다.
-author: Lisa
+author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
 source-wordcount: '821'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
-# 이메일 템플릿 구성
+# 이메일 템플릿 구성하기
 
 Adobe Workfront 관리자는 미리 알림을 지원하도록 이메일 템플릿을 구성할 수 있습니다.
 

@@ -8,10 +8,10 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: ed97b8a6-54db-42f8-afee-d76c2df53a94
-source-git-commit: 9d2c65516ca1fc612f5f7ee4ee4453019d836cb3
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 0%
+source-wordcount: '291'
+ht-degree: 1%
 
 ---
 
@@ -54,7 +54,7 @@ Workfront Proof에서 보내는 알림 설정 구성에 대한 자세한 내용�
 
 Workfront에서 전송되는 증명 이메일 알림 설정을 구성하려면:
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. **전자 메일**&#x200B;을 확장한 다음 **검토 및 승인**&#x200B;을 클릭합니다.
 

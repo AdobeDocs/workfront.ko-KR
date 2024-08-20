@@ -8,10 +8,10 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: cfccb120-8759-49f2-8b7b-dabcd57d4fda
-source-git-commit: f391f43e96add70f8a5aeed259eee1259ed786a3
+source-git-commit: 5676910e53f1c4f49cab196e42bfbce8704887ca
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 6%
+source-wordcount: '557'
+ht-degree: 7%
 
 ---
 
@@ -53,7 +53,8 @@ ht-degree: 6%
 
 ## 새 증명 기본 설정 구성
 
-1. Adobe Workfront의 오른쪽 상단에 있는 **주 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정**&#x200B;을(를) 클릭합니다.
+{{step-1-to-setup}}
+
 1. 왼쪽 패널에서 **증명** > **증명 설정**&#x200B;을 클릭합니다.
 1. **새 증명 기본값** 섹션에서 다음 설정을 구성합니다.
 
@@ -113,7 +114,8 @@ ht-degree: 6%
 
 증명 결정을 구성하려면:
 
-1. Adobe Workfront의 오른쪽 상단에 있는 **주 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정**&#x200B;을(를) 클릭합니다.
+{{step-1-to-setup}}
+
 1. 왼쪽 패널에서 **증명** > **증명 설정**&#x200B;을 클릭합니다.
 1. **결정** 섹션에서 다음을 수행할 수 있습니다.
 

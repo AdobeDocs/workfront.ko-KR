@@ -8,18 +8,20 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: d64213bf-f270-404f-a45a-6f94c7b7cb91
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 1%
+source-wordcount: '550'
+ht-degree: 2%
 
 ---
 
-# 기본 증명 역할 구성
+# 기본 교정 역할 구성하기
 
 Adobe Workfront 관리자는 Workfront에서 생성된 증명에 액세스하는 사용자 및 게스트 사용자에 대한 기본 증명 역할을 구성할 수 있습니다. 증명에 사용자를 추가하는 모든 사람은 이러한 역할을 조정할 수 있습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -44,11 +46,13 @@ Adobe Workfront 관리자는 Workfront에서 생성된 증명에 액세스하는
 
 &#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
 
-## 기본 증명 역할 구성
++++
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+## 기본 교정 역할 구성하기
 
-   <!--
+{{step-1-to-setup}}
+
+<!--
    <li In the left panel, click Proofs Proof roles.
    -->
 

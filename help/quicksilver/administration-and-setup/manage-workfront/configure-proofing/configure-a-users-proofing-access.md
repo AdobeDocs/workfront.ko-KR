@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 98c90139-f31a-41bc-af0b-577dd8b254e3
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1240'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Adobe Workfront 관리자 또는 Workfront Proof 관리자는 Workfront 및 Work
 기본 및 통합 교정에 사용할 수 있는 증명 기능에 대한 자세한 내용은 [Workfront의 증명 기능에 액세스](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md)를 참조하십시오.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -46,6 +48,8 @@ Adobe Workfront 관리자 또는 Workfront Proof 관리자는 Workfront 및 Work
 
 &#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
 
++++
+
 ## 사용자에 대한 증명 활성화 및 비활성화(기존 계획만 해당) {#enable-and-disable-proofing-for-a-user-legacy-plans-only}
 
 조직에서 Workfront 관리자로서 레거시 Select 또는 Premium Workfront 계획을 사용하는 경우 사용자에 대한 증명 기능을 활성화하거나 비활성화할 수 있습니다.
@@ -63,7 +67,8 @@ Adobe Workfront 관리자 또는 Workfront Proof 관리자는 Workfront 및 Work
 
 선택한 권한 프로필은 조직 내에 있는 각 증명에 대해 사용자에게 부여됩니다.
 
-1. Adobe Workfront의 오른쪽 상단에 있는 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **사용자** ![](assets/users-icon-in-main-menu.png)를 클릭합니다.
+{{step-1-to-users}}
+
 1. 사용자를 한 명 이상 선택한 다음 **편집**&#x200B;을 클릭합니다.
 
 1. **액세스** 섹션에서 **증명 권한 프로필** 드롭다운 메뉴에서 다음 Workfront Proof 권한 옵션 중 하나를 클릭합니다.

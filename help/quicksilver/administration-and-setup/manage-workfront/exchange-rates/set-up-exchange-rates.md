@@ -6,11 +6,12 @@ title: 환율 설정
 description: Adobe Workfront 관리자는 Workfront에서 통화 환율을 설정할 수 있습니다.
 feature: System Setup and Administration
 role: Admin
+author: Lisa
 exl-id: 149c08de-fd3a-465a-afd1-0b53012d30d8
-source-git-commit: b0cf0a5ec6b932267c8714b966638d8da93331b8
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 3%
+source-wordcount: '556'
+ht-degree: 2%
 
 ---
 
@@ -41,6 +42,8 @@ Adobe Workfront 관리자는 Workfront에서 통화 환율을 설정할 수 있�
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -62,9 +65,11 @@ Adobe Workfront 관리자는 Workfront에서 통화 환율을 설정할 수 있�
  </tbody> 
 </table>
 
++++
+
 ## 환율 설정
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. **프로젝트 환경 설정** > **환율**&#x200B;을 클릭합니다.
 

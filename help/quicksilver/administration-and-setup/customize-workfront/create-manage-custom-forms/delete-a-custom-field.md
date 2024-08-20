@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c22a7ced-da81-40b5-bb4d-69d59b855add
-source-git-commit: 3f7f4557c18bbb91ece850f910350d926a9e84bf
+source-git-commit: 8dac7959919014d7bfbbbd39d193d026ca31c4b2
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->사용자 정의 필드를 삭제하면 오브젝트에 첨부된 사용자 정의 양식을 작성할 때 사용자가 필드에 입력한 모든 사용자 정의 데이터도 삭제됩니다. 삭제된 데이터는 복구할 수 없습니다.
+>사용자 정의 필드를 삭제하면 오브젝트에 첨부된 사용자 정의 양식을 작성할 때 사용자가 필드에 입력한 모든 사용자 정의 데이터도 삭제됩니다. 삭제된 데이터는 복구할 수 없습니다. 또한 사용자 정의 양식을 사용하는 사람에게 삭제된 것을 경고하기 위한 알림 시스템이 없습니다.
 >
 >삭제하려는 사용자 정의 필드를 사용하는 모든 사용자 정의 양식 및 보고서를 보고 영향을 평가할 수 있습니다. 자세한 내용은 [특정 사용자 정의 필드 또는 위젯을 사용하는 모든 사용자 정의 양식 보기](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md) 및 [특정 사용자 정의 필드 또는 위젯을 사용하는 모든 보고서 보기](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md)를 참조하십시오.
 >

@@ -8,14 +8,14 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: e13e3479-391f-4aec-b998-e9b6057f256b
-source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
 
-# 새 사용자에 대한 이메일 초대 관리
+# 새 사용자를 위한 이메일 초대 관리
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">*** DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
@@ -44,6 +44,8 @@ Adobe Workfront 관리자는 전자 메일 초대를 사용하여 Workfront에 �
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -65,6 +67,8 @@ Adobe Workfront 관리자는 전자 메일 초대를 사용하여 Workfront에 �
  </tbody> 
 </table>
 
++++
+
 ## 이메일 초대 생성 {#generate-email-invitations}
 
 전자 메일 초대는 다음 시나리오에서 생성됩니다.
@@ -80,7 +84,8 @@ Adobe Workfront 관리자는 전자 메일 초대를 사용하여 Workfront에 �
 
 등록되지 않은 기존 사용자에 대한 이메일 초대를 수동으로 생성하려면 다음을 수행합니다.
 
-1. Adobe Workfront의 오른쪽 상단에 있는 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **사용자** ![](assets/users-icon-in-main-menu.png)를 클릭합니다.
+{{step-1-to-users}}
+
 1. 이름 뒤에 **등록되지 않음** 레이블을 표시하는 사용자를 선택하십시오.
 
    ![](assets/unreg-user-qs-350x221.png)
@@ -101,7 +106,7 @@ Adobe Workfront 관리자는 전자 메일 초대를 사용하여 Workfront에 �
 
 Workfront 관리자는 새 사용자에 대한 이메일 초대에 포함하는 메시지를 구성할 수 있습니다.
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. 왼쪽 목록에서 **전자 메일** > **초대**&#x200B;를 클릭합니다.
 

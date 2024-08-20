@@ -3,15 +3,15 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
 title: 자동 알림 설정
-description: 자동 알림 설정
+description: 모든 작업 또는 문제가 기한, 지연 또는 계획된 완료 일자에 근접한 경우 이메일 알림을 트리거하는 자동 미리 알림을 설정할 수 있습니다.
 author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 37ad04a1-d3c8-48b2-aed8-fe40456196ec
-source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 4%
+source-wordcount: '627'
+ht-degree: 3%
 
 ---
 
@@ -35,6 +35,8 @@ Adobe Workfront 관리자는 모든 작업 또는 문제가 기한이 지났거�
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -56,11 +58,13 @@ Adobe Workfront 관리자는 모든 작업 또는 문제가 기한이 지났거�
  </tbody> 
 </table>
 
++++
+
 ## 자동 알림 설정
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
-1. **전자 메일** >**자동 미리 알림**&#x200B;을 클릭합니다.
+1. **전자 메일** > **자동 미리 알림**&#x200B;을 클릭합니다.
 
 1. **지연 알림 보내기** 영역에서 다음 옵션 중 하나를 선택하십시오.
 
@@ -85,7 +89,7 @@ Adobe Workfront 관리자는 모든 작업 또는 문제가 기한이 지났거�
         <td>(<b>기한 알림 보내기</b> 영역에서) 작업 또는 문제에 할당된 사용자가 기한이 임박한 작업 항목에 대한 알림을 받으려면 이 옵션을 선택합니다.</td>
         <td></td>
     </tr>
-</table>
+   </table>
 
 1. 작업 항목의 기한 이전 또는 이후의 시간을 선택하여 자동 미리 알림을 보낼 시간을 선택합니다.
 

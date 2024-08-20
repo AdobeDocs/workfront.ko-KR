@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 29405172-c3dd-431f-a242-fd38b53a307d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '1262'
+source-wordcount: '1221'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 Adobe Workfront 관리자 또는 Workfront Proof 관리자는 조직의 기본 증명 설정을 사용자 지정할 수 있습니다. 이러한 설정에는 기본 공유 옵션, 브랜딩 등이 포함됩니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 다음 항목이 있어야 합니다.
 
@@ -44,6 +46,8 @@ Adobe Workfront 관리자 또는 Workfront Proof 관리자는 조직의 기본 �
 
 &#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
 
++++
+
 ## 작업 구성
 
 증명 뷰어에서 작업을 사용하는 방법에 대한 자세한 내용은 [증명 댓글에 작업 사용](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md)을 참조하십시오.
@@ -56,7 +60,7 @@ Adobe Workfront 관리자 또는 Workfront Proof 관리자는 조직의 기본 �
 
 ### 작업 추가 또는 이름 바꾸기 {#add-or-rename-an-action}
 
-1. Workfront에서 기본 메뉴 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 증명 ![](assets/proofing-in-main-menu.png)을(를) 클릭하여 Workfront Proof에 액세스합니다.
+{{step1-to-proofing}}
 
 1. Workfront Proof 인터페이스의 오른쪽 상단에서 **설정** > **계정 설정**&#x200B;을 클릭한 다음 **설정** 탭을 클릭합니다.
 
@@ -73,7 +77,7 @@ Adobe Workfront 관리자 또는 Workfront Proof 관리자는 조직의 기본 �
 
 ### 작업 비활성화 또는 재활성화 {#deactivate-or-reactivate-an-action}
 
-1. Workfront에서 기본 메뉴 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 증명 ![](assets/proofing-in-main-menu.png)을(를) 클릭하여 Workfront Proof에 액세스합니다.
+{{step1-to-proofing}}
 
 1. Workfront Proof 인터페이스의 오른쪽 상단에서 **설정** > **계정 설정**&#x200B;을 클릭한 다음 **설정** 탭을 클릭합니다.
 
@@ -82,7 +86,7 @@ Adobe Workfront 관리자 또는 Workfront Proof 관리자는 조직의 기본 �
 
 ### 작업 순서 바꾸기 {#reorder-actions}
 
-1. Workfront에서 기본 메뉴 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 증명 ![](assets/proofing-in-main-menu.png)을(를) 클릭하여 Workfront Proof에 액세스합니다.
+{{step1-to-proofing}}
 
 1. Workfront Proof 인터페이스의 오른쪽 상단에서 **설정** > **계정 설정**&#x200B;을 클릭한 다음 **설정** 탭을 클릭합니다.
 
@@ -98,7 +102,7 @@ Adobe Workfront 관리자 또는 Workfront Proof 관리자는 조직의 기본 �
 
 사용자 지정 장치를 추가하려면:
 
-1. Workfront에서 기본 메뉴 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 증명 ![](assets/proofing-in-main-menu.png)을(를) 클릭하여 Workfront Proof에 액세스합니다.
+{{step1-to-proofing}}
 
 1. Workfront Proof 인터페이스의 오른쪽 상단에서 **설정** > **계정 설정**&#x200B;을 클릭한 다음 **설정** 탭을 클릭합니다.
 
