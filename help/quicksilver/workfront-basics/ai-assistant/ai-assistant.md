@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: 3f83dd91-d7de-4050-89b7-f53cbc4389a0
-source-git-commit: 6dd2fd4d688514540265fa3b0d2634194fb6a7ab
+source-git-commit: 2a6de1325895bc36527ab83b1d0b47910636b9b9
 workflow-type: tm+mt
-source-wordcount: '46'
+source-wordcount: '49'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 이 섹션에는 다음 문서가 포함됩니다.
 
+* [AI Assistant 개요](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)
 * [AI Assistant를 사용하여 요약](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md)
 * [AI Assistant에서 도움말 받기](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md)
 * [AI Assistant를 사용하여 계산된 필드 공식 개정](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md)

@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 5676910e53f1c4f49cab196e42bfbce8704887ca
+source-git-commit: 38f103eea19fa85104f40fa368b975673fc74d9d
 workflow-type: tm+mt
-source-wordcount: '14334'
+source-wordcount: '14337'
 ht-degree: 2%
 
 ---
@@ -895,6 +895,7 @@ ht-degree: 2%
          * [내 업데이트 영역 사용](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
    * AI Assistant {#ai-assistant}
       * [AI 어시스턴트](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
+      * [AI Assistant 개요](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)
       * [AI Assistant를 사용하여 요약](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md)
       * [AI Assistant에서 도움말 받기](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md)
       * [AI Assistant를 사용하여 계산된 필드 공식 개정](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md)
