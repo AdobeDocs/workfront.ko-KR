@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 21ce33ccb09e4fd7d0cc8c31631ef66e3ce73211
+source-git-commit: a06df1c4006b06e4fe5c730c1894fcc5122f68f5
 workflow-type: tm+mt
-source-wordcount: '14333'
+source-wordcount: '14334'
 ht-degree: 2%
 
 ---
@@ -2256,6 +2256,7 @@ ht-degree: 2%
       * [Datadog 모듈](workfront-fusion/apps-and-their-modules/datadog-modules.md)
       * [데이터 저장소 모듈](workfront-fusion/apps-and-their-modules/data-store-modules.md)
       * [DocuSign 모듈](workfront-fusion/apps-and-their-modules/docusign-modules.md)
+      * [[!DNL Draft.js]개 모듈](/help/quicksilver/workfront-fusion/apps-and-their-modules/draft-js-modules.md)
       * [Dropbox 모듈](workfront-fusion/apps-and-their-modules/dropbox-modules.md)
       * [이메일 모듈](workfront-fusion/apps-and-their-modules/email-modules.md)
       * [암호화기](workfront-fusion/apps-and-their-modules/encryptor-modules.md)
