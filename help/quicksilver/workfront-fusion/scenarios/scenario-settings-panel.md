@@ -7,9 +7,9 @@ description: 이 문서에서는  [!DNL Adobe Workfront Fusion] 시나리오의 
 author: Becky
 feature: Workfront Fusion
 exl-id: 64a7a39a-f450-4eba-b4db-f31dd22aefdc
-source-git-commit: 1b729960a23e43252bda16d9bfb7ca9656a115a1
+source-git-commit: b9914daa1e176d115226019d6ddf02b0953bc4d6
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1206'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,30 @@ ht-degree: 0%
 
 ## [!UICONTROL 순차적 처리]
 
-이 옵션은 오류가 발생하고 시나리오 실행이 [다음 위치에서 불완전한 실행 보기 및 해결 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md)(으)로 이동되는 경우 [!DNL Workfront Fusion]의 진행 방식을 결정합니다. [!UICONTROL 순차적 처리] 옵션이 활성화된 경우 Workfront Fusion은 모든 불완전한 실행이 해결될 때까지 작업 시퀀스 처리를 모두 중지합니다. [!UICONTROL 순차적 처리] 옵션이 비활성화되어 있으면 시나리오가 일정에 따라 계속 실행되며 불완전한 실행을 다시 실행하려고 반복적으로 시도됩니다.
+이 옵션은 모든 실행을 순서대로 수행하도록 하며 주로 웹후크 및 미완료 실행과 관련이 있습니다.
+
+순차적 처리가 활성화된 경우 시나리오의 병렬 실행이 비활성화됩니다.
+
+### 즉시 웹훅
+
+웹후크 트리거가 `instant`(으)로 구성되어 있고 &quot;순차적 처리&quot;가 활성화된 경우 모든 즉시 웹후크 페이로드는 대기열에 추가되고 도착하는 순서대로 처리됩니다. 이 기능은 외부 시스템의 이벤트를 정확한 순서로 처리할 때 유용할 수 있습니다.
+
+>[!NOTE]
+>
+>다음 페이로드가 시작되기 전에 각 페이로드가 처리되므로 자동 처리가 지연됩니다.
+
+### 불완전한 실행
+
+&quot;미완료 실행&quot;도 활성화된 경우 시나리오를 실행하는 동안 오류가 발생하면 시나리오가 일시 중지됩니다. 그런 다음 다음 다음 중 하나가 발생합니다.
+
+* 순차적 처리 옵션이 **활성화됨**&#x200B;인 경우, Workfront Fusion은 모든 불완전한 실행이 해결될 때까지 기존 시퀀스의 처리를 중지합니다.
+* 순차적 처리 옵션이 **사용 안 함**&#x200B;인 경우, 시나리오는 불완전한 실행을 다시 실행하려고 반복적으로 시도하면서 일정에 따라 계속 실행됩니다.
+
+불완전한 실행에 대한 자세한 내용은 [Adobe Workfront Fusion에서 불완전한 실행 보기 및 해결](/help/quicksilver/workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md)을 참조하십시오.
+
+<!--
+
+This option determines how [!DNL Workfront Fusion] proceeds if an error occurs and the execution of a scenario is moved to the [View and resolve incomplete executions in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md). If the [!UICONTROL Sequential processing] option is enabled, Workfront Fusion stops processing the task sequence altogether until all incomplete executions are resolved. If the [!UICONTROL Sequential processing] option is disabled, the scenario continues to run according to its schedule, accompanied by repeated attempts to rerun the incomplete executions.-->
 
 >[!NOTE]
 >
