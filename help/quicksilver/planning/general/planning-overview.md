@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
 source-wordcount: '1880'
 ht-degree: 2%
@@ -61,12 +61,12 @@ Adobe Workfront Planning은 Adobe Workfront의 새로운 제품입니다. Workfr
 
 새로운 기능 및 릴리스 시기에 대한 자세한 내용은 [Adobe Workfront Planning 현재 릴리스 활동](/help/quicksilver/planning/general/release-activity.md)을 참조하십시오.
 
-| 기능 | 현재 사용 가능 | 곧 사용 가능 | 연구 중 |
+| 기능 | 현재 사용 가능 | 곧 출시 예정 | 연구 중 |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
 | 작업 공간 만들기 | ✓ 덧신 |                                  |                  |
 | 레코드 유형 만들기 | ✓ 덧신 |                                  |                  |
 | 레코드 사용자 정의 필드 만들기 | ✓ 덧신 |                                  |                  |
-| Excel 또는 CSV 파일을 사용하여 레코드 유형 및 필드 가져오기* | ✓ 덧신 |                                  |                  |
+| Excel 또는 CSV 파일을 사용하여 레코드 유형 및 필드 가져오기 |                              | ✓ 덧신 |                  |
 | 레코드 연결 | ✓ 덧신 |                                  |                  |
 | 테이블에서 레코드 보기 | ✓ 덧신 |                                  |                  |
 | 타임라인에서 레코드 보기 | ✓ 덧신 |                                  |                  |

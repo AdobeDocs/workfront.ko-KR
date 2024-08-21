@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: f713e8fa72c98b6df2509e71acd7080d4df46a3a
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '810'
 ht-degree: 1%
 
 ---
@@ -102,11 +102,11 @@ ht-degree: 1%
 
         자세한 내용은 [작업 영역 만들기](/help/quicksilver/planning/architecture/create-workspaces.md)를 참조하십시오.
 
-      * Excel 또는 CSV 파일을 사용하여 가져올 때.
+     <!--* When you import them using an Excel or CSV file. 
 
-        >[!IMPORTANT]
-        >
-        >이 기능은 2024년 3월 21일부터 일시적으로 비활성화되었습니다. 이 기능은 나중에 활성화됩니다.
+            >[!IMPORTANT]
+            >
+            >This functionality has been temporarily removed since March 21, 2024. It will be enabled at a later date.-->
 
      <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a record. This creates a read-only record type in Workfront Planning which is connected to object types from the original application. 
         For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
@@ -145,7 +145,9 @@ Workfront Planning 템플릿을 사용하여 작업 공간을 만들 때 레코�
    작업 영역에서 기존 작업 영역 이름의 오른쪽에 있는 아래쪽 방향 화살표를 확장하고 작업 영역을 검색한 다음 목록에 표시될 때 선택합니다.
 1. (선택 사항) 작업 영역에 새 섹션을 추가하려면 **섹션 추가**&#x200B;를 클릭합니다.
 1. **레코드 종류 추가**&#x200B;를 클릭합니다.
-1. (조건부) Excel 또는 CSV 파일을 가져와서 레코드 형식을 만드는 것이 활성화된 경우 **처음부터**&#x200B;를 클릭합니다. 그렇지 않으면 **레코드 종류 추가** 상자가 열립니다.
+
+   레코드 유형 추가 상자가 열립니다.
+   <!--1. (Conditional) When creating record types by importing an Excel or CSV file is enabled, click **From scratch**. Otherwise, the **Add record type** box opens. -->
 
    ![](assets/add-record-type-box-with-appearance-options.png)
 
@@ -171,9 +173,7 @@ Workfront Planning 템플릿을 사용하여 작업 공간을 만들 때 레코�
 
    레코드 유형 페이지는 기본적으로 테이블 뷰에 표시됩니다. 표의 열은 새 레코드 종류와 관련된 필드입니다. 각 행은 추가해야 하는 고유한 레코드입니다.
 
-   >[!TIP]
-   >
-   >    Excel 또는 CSV 파일에서 레코드 형식을 가져오는 경우 레코드도 가져옵니다.
+   <!--TIP: If you import a record type from an Excel or CSV file, records are also imported.-->
 
    기본적으로 다음 필드는 작업 레코드 유형의 테이블 보기 열에 표시됩니다.
 
@@ -207,86 +207,69 @@ Workfront Planning 템플릿을 사용하여 작업 공간을 만들 때 레코�
    * [레코드 유형 편집](/help/quicksilver/planning/architecture/edit-record-types.md)
    * [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md)
 
-## Excel 또는 CSV 파일을 가져와서 레코드 유형 만들기
+<!--
+## Create record types by importing an Excel or CSV file
 
 >[!IMPORTANT]
 >
->이 기능은 2024년 3월 21일부터 일시적으로 비활성화되었습니다. 이 기능은 나중에 활성화됩니다.
+>This functionality has been temporarily removed since March 21, 2024. It will be enabled at a later date.
 
-Excel 또는 CSV 파일을 사용하여 레코드 유형을 가져올 때는 다음 사항을 고려하십시오.
+Consider the following when importing record types using an Excel or CSV file: 
 
-* Excel 파일의 각 시트는 레코드 유형이 됩니다.
-* 각 시트의 열은 각 레코드 유형과 연관된 필드가 됩니다.
-* 필드는 해당 레코드 유형에 대해 고유합니다.
-* 각 시트의 각 행은 해당 레코드 유형과 연관된 고유한 레코드가 됩니다.
-* Excel 파일의 각 시트는 다음을 초과할 수 없습니다.
-   * 50,000행
-   * 500열
-* Excel 파일은 5MB를 초과할 수 없습니다.
-* 빈 시트는 지원되지 않습니다.
+* Each sheet of the Excel file becomes a record type. 
+* The columns of each sheet become the fields associated with each record type. 
+* Fields are unique for their respective record types. 
+* Each row in each sheet becomes a unique record associated with its respective record type. 
+* Each sheet of the Excel file should not exceed the following: 
+    * 50,000 rows
+    * 500 columns
+* The Excel file should not be larger than 5MB.
+* Empty sheets are not supported. 
 
-Excel 파일을 사용하여 레코드 유형을 가져오려면 다음을 수행합니다.
+To import record types using an Excel file: 
 
 {{step1-to-planning}}
 
-1. 레코드 유형을 만들 작업 영역을 클릭합니다.
+1. Click the workspace where you want to create record types, 
 
-   또는
+    Or
 
-   작업 영역에서 기존 작업 영역 이름의 오른쪽에 있는 아래쪽 방향 화살표를 확장하고 작업 영역을 검색한 다음 목록에 표시될 때 선택합니다.
-1. **레코드 종류 추가**&#x200B;를 클릭합니다.
-1. **Excel/CSV**&#x200B;을 클릭합니다.
-1. 이전에 컴퓨터에 저장한 Excel 또는 CSV 파일을 끌어서 놓거나 **CSV 또는 Excel 파일 선택**&#x200B;을 클릭하여 찾습니다.
-1. **데이터 검토**&#x200B;를 클릭합니다.
-
-   미리보기 및 편집(Preview and edit) 상자에 다음 정보가 표시됩니다.
-
-   * 시트 이름 또는 이후 레코드 유형이 왼쪽 패널에 표시됩니다. Workfront Planning에서는 기본적으로 각 새 레코드 유형에 대해 아이콘과 색상을 선택합니다.
-   * 첫 번째 시트 또는 레코드 유형이 선택되고 연관된 필드의 이름이 열 머리글로 표시됩니다. 각 필드의 유형은 기본적으로 선택됩니다.
-   * 각 행은 새 레코드를 나타냅니다. 처음 10개의 레코드만 [미리 보기 및 편집] 상자에 표시됩니다.
-
-   ![](assets/preview-and-edit-box.png)
-
-1. (선택 사항) 왼쪽 패널에서 각 시트의 이름을 클릭하여 포함된 정보를 검토합니다.
-
-   >[!NOTE]
-   >
-   >    비어 있는 시트는 지원되지 않으며 흐리게 표시됩니다.
-
-
-1. (선택 사항) **가져올 시트 선택** 드롭다운 메뉴를 클릭하고 가져오지 않을 시트를 선택 취소합니다.
-
-   ![](assets/select-sheets-to-import-drop-down-with-unselected.png)
-
-   선택을 취소한 시트는 회색 배경과 함께 표시됩니다.
-
-1. 파일을 가져올 준비가 되면 **가져오기**&#x200B;를 클릭합니다.
-
-   다음 정보는에서 Workfront Planning으로 가져옵니다.
-
-   * 새 레코드 유형
-   * 각 레코드 유형과 연결된 새 필드
-   * 각 레코드 유형과 연결된 새 레코드
-
-   레코드 유형 페이지에서 필드 및 레코드 관리를 시작할 수 있습니다.
-
-   이제 Workfront Planning에 액세스할 수 있는 모든 사용자는 가져온 레코드 유형과 해당 정보를 보고 편집할 수 있습니다. <!--this will change with permissions-->
-
-<!--## Connect record types with object types from another application
-
-You can connect a record type and an object type from another application. This creates a read-only record type in Workfront Planning that corresponds to the object type in the other application. 
-
-For example, you can create record types by connecting Workfront Planning record types with Workfront projects. As a result, the Workfront project object type is imported into Workfront Planning as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
+    From a workspace, expand the downward-pointing arrow to the right of an existing workspace name, search for a workspace, then select it when it displays in the list.
+1. Click **Add record type**. 
+1. Click **Excel/CSV**.
+1. Drag and drop an Excel or CSV file previously saved on your computer, or click **Select a CSV or Excel file** to browse for one. 
+1. Click **Review your data**.
     
-You can import the following objects from the following applications: 
+    The Preview and edit box displays with the following information: 
 
-* From Workfront:
+    * The names of the sheets or of the future record types display in the left panel. Workfront Planning selects an icon and a color for each new record type by default.
+    * The first sheet or record type is selected and the names of the fields associated with it display as the column headers. The type of each field is selected by default. 
+    * Each row represents a new record. Only the first 10 records display in the Preview and edit box. 
 
-    * Projects
-    * Portfolios
-    * Programs
-    * Company
-    * Group
+    ![](assets/preview-and-edit-box.png)
 
-For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
--->
+1. (Optional) Click the name of each sheet in the left panel to review the information it contains. 
+
+    >[!NOTE]
+    >
+    >    Sheets that are empty are not supported and are dimmed. 
+
+
+1. (Optional) Click the **Select sheets to import** drop-down menu and deselect the sheets that you don't want to import. 
+
+    ![](assets/select-sheets-to-import-drop-down-with-unselected.png)
+
+    Sheets you deselected display with a gray background. 
+
+1. Click **Import** when you are ready to import your file. 
+
+    The following information imports in to Workfront Planning:
+
+    * New record types
+    * New fields associated with each record type
+    * New records associated with each record type
+
+    You can start managing fields and records on the record types pages. 
+    
+    Everyone with access to Workfront Planning can now view and edit the imported record types and their information.-->
+

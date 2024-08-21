@@ -4,10 +4,10 @@ description: Adobe Workfront Planning에는 인스턴스에서 생성할 수 있
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 1%
+source-wordcount: '231'
+ht-degree: 2%
 
 ---
 
@@ -31,14 +31,13 @@ Adobe Workfront Planning에는 인스턴스에서 생성할 수 있는 객체 �
 | 레코드 종류 표에 붙여 넣을 수 있는 파일 크기 | 1MB |
 | 레코드 유형 테이블에 대한 API를 통해 가져올 수 있는 파일의 크기입니다. | 1.5MB |
 | API 요청을 수행할 수 있는 속도입니다 | 분당 요청 200개 |
-| 가져올 수 있는 Excel 파일의 CSV 크기* | 5MB |
 | 한 사용자가 하나의 레코드 유형에 대해 만들 수 있는 보기 수 | 10 |
 
-<!--add to the table above: Maximum number of views created by one use 100 -->
+<!--| Size of CSV of Excel file you can import* | 5MB |-->
 
->[!IMPORTANT]
+<!--[!IMPORTANT]
 >
->*이 기능은 일시적으로 비활성화되었으며 나중에 사용할 수 있습니다.
+>*This functionality has been temporarily removed and it will be available at a later date.-->
 
 <!--At GA, replace the table above with this:
 
@@ -55,9 +54,11 @@ Adobe Workfront Planning에는 인스턴스에서 생성할 수 있는 객체 �
 |     Size of file that you can paste in a record type table                    |   1MB                                                                                                           |
 |     Size of file that you can import through the API for a record type table  |   1.5MB                                                                                                         |
 |     The rate at which API requests can be made                                    |   200 requests per minute                                                                                       |
-| Size of CSV of Excel file you can import** | 5MB |
 | Number of views one user can create for one record type | 100 |
 
 *We recommend not to have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.
-**This functionality has been temporarily disabled and it will be available at a later date.
+
+****************KEEP THIS COMMENTED OUT:
+| Size of CSV of Excel file you can import** | 5MB |
+**This functionality has been temporarily removed and it will be available at a later date.**********************
 -->

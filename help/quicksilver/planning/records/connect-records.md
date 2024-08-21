@@ -1,13 +1,13 @@
 ---
-title: 기록 연결
+title: 레코드 연결
 description: 레코드 종류 간에 연결을 만든 후에는 개별 레코드를 서로 연결할 수 있습니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
-source-wordcount: '2281'
+source-wordcount: '2287'
 ht-degree: 1%
 
 ---
@@ -151,11 +151,11 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
 
 다음 영역에서 Workfront Planning의 레코드를 연결할 수 있습니다.
 
-* 테이블 보기의 연결된 필드에 있는 Workfront Planning의 Planning 레코드에서.
+* 테이블 보기의 연결된 레코드 필드에 있는 Workfront Planning의 Planning 레코드에서.
 * 레코드 미리 보기 또는 연결된 레코드 필드의 페이지에 있는 Workfront Planning의 Planning 레코드에서.
   <!--
   * From a Planning record in Workfront Planning in the record preview or page in the connected record fields on the Details tab.
-  * From a Planning record in the record's preview or page on the Connections tab.  -->
+  * From a Planning record in the record's preview or page on the Connections tab.-->
 
 ### 테이블 보기 또는 <!--Details tab of the--> 레코드 페이지에서 Adobe Workfront Planning 레코드를 연결합니다.
 
@@ -211,7 +211,7 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
    >
    >* &quot;연결된 필드&quot;와 &quot;조회 필드&quot;를 서로 교환하여 사용합니다.
    >
-   >* 레코드 종류를 연결할 때 **여러 레코드 허용** 설정을 사용하도록 설정한 경우 선택한 여러 개체의 필드 값이 쉼표로 구분되어 표시되거나 선택한 집계기에 따라 집계됩니다.
+   >* 레코드 유형을 연결할 때 여러 레코드에 연결하도록 선택하면 여러 객체의 필드 값이 쉼표로 구분되어 표시되거나 선택한 집계기에 따라 집계됩니다.
 
 1. (선택 사항) 레코드 유형 페이지를 닫고 선택한 작업 영역으로 이동합니다.
 1. 연결한 레코드 종류의 카드를 클릭합니다.
@@ -286,7 +286,7 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
 
    >[!TIP]
    >
-   >* 여러 레코드 허용 설정을 사용하면 조회 필드 값이 쉼표로 구분되어 표시되거나 선택한 집계기에 따라 집계됩니다.
+   >* 레코드 유형을 연결할 때 여러 레코드를 연결하도록 선택하면 조회 필드의 값이 쉼표로 구분되어 표시되거나 선택한 집계기에 따라 집계됩니다.
    >
    >* Workfront의 연결된 Workfront 개체에 대해 연결된 레코드 필드가 만들어지지 않습니다.
 
@@ -360,7 +360,7 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
 
      >[!TIP]
      >
-     >* 복수 레코드 허용 설정을 활성화한 경우 선택한 집계기에 따라 여러 객체 값이 쉼표로 구분되거나 집계되어 표시됩니다.
+     >* 레코드 유형을 연결할 때 여러 레코드를 연결하도록 선택하면 선택한 집계기에 따라 여러 개체의 값이 쉼표로 구분되거나 집계되어 표시됩니다.
      >
      >* Workfront Planning 연결 레코드에 대한 연결된 레코드 필드는 Experience Manager Assets 애플리케이션에서 연결된 Experience Manager 자산에 대해 생성되지 않습니다.
 
@@ -408,6 +408,12 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
     ![](assets/connections-tab-on-record-in-workfront-planning.png)
 
     All record or object types that are linked to the selected record type display as sections. Connected records or objects display under their record or object type names on cards. 
+
+    >[!TIP]
+    >
+    >    Only connected records that have individual records connected display by default.
+
+1. (Optional) Click **Show all connections** to show all connected record types, including the ones without connected records. 
 
 1. (Optional) Click the downward-pointing arrow to the left of a section to collapse it. 
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
-source-wordcount: '3390'
+source-wordcount: '3361'
 ht-degree: 2%
 
 ---
@@ -43,9 +43,9 @@ Workfront Planning에서 다음과 같은 방법으로 필드를 생성할 수 �
 
 * 처음부터
 * 레코드 유형 연결
-* Excel 또는 CSV 파일을 사용하여 레코드 유형 가져오기
 * 레코드 유형 만들기
 * 템플릿으로 작업 공간 만들기
+  <!--* By importing record types using an Excel or CSV file-->
 
 Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/quicksilver/planning/fields/fields-overview.md)를 참조하십시오.
 
@@ -401,7 +401,13 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
     * **Percent**: The result of the formula field displays as a number followed by a percentage symbol.  
     * **Currency**: The result of the formula field displays as a number preceded or followed by a currency symbol.  
     * **Tags**: The result of the formula field displays as a tag with the object's name. 
+    
+        >[!TIP]
+        >
+        >Tags is the perfect format for fields that show arrays. In this case, each array member displays as a separate tag.
+
     * **Date**: The result of the formula field displays as a date. 
+
 
         A preview of what the result will look like displays under the **Format** field. 
 
@@ -545,9 +551,9 @@ Workfront Planning 필드에 대한 자세한 내용은 [필드 개요](/help/qu
 
 Workfront Planning 레코드 종류 연결에 대한 자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하십시오.
 
-## Excel 또는 CSV 파일을 사용하여 레코드 유형을 가져와서 필드 만들기
+<!--## Create fields by importing record types using an Excel or CSV file
 
-자세한 내용은 [레코드 종류 만들기](/help/quicksilver/planning/architecture/create-record-types.md)를 참조하세요.
+For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).-->
 
 ## 레코드 유형을 만들어 필드 만들기
 

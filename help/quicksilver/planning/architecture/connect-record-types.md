@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
-source-wordcount: '2007'
+source-wordcount: '2009'
 ht-degree: 0%
 
 ---
@@ -35,13 +35,13 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
 레코드 유형을 서로 연결하거나 다른 응용 프로그램의 개체 유형을 사용하여 레코드 유형을 연결할 수 있습니다.
 
-이 문서에서는 두 개의 Workfront Planning 레코드 유형(Workfront Planning 레코드 유형)을 다른 응용 프로그램의 오브젝트와 연결하는 방법에 대해 설명합니다.
+이 문서에서는 두 개의 Workfront Planning 레코드 유형 또는 Workfront Planning 레코드 유형을 다른 응용 프로그램의 객체와 연결하는 방법에 대해 설명합니다.
 
 레코드나 개체 유형 간에 연결을 설정한 후 개별 레코드를 서로 연결하고 Workfront Planning 레코드에 연결된 레코드나 개체 유형의 필드를 표시할 수 있습니다.
 
 연결 유형에 대한 일반적인 정보는 [연결된 레코드 유형 개요](/help/quicksilver/planning/architecture/connect-record-types-overview.md)를 참조하십시오.
 
-Workfront Planning 레코드를 다른 응용 프로그램의 개체에 연결하는 방법에 대한 자세한 내용은 [레코드 연결](/help/quicksilver/planning/records/connect-records.md)을 참조하십시오.
+다른 응용 프로그램의 개체를 사용하여 레코드나 레코드를 연결하는 방법에 대한 자세한 내용은 [레코드 연결](/help/quicksilver/planning/records/connect-records.md)을 참조하십시오.
 
 레코드 종류 및 레코드에 연결하는 예제는 [레코드 종류 및 레코드에 연결하는 예제](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md)를 참조하십시오.
 
@@ -62,7 +62,9 @@ Workfront Planning 레코드를 다른 응용 프로그램의 개체에 연결�
 <td>
    <p> 제품</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>Adobe Workfront Planning 레코드 유형을 Experience Manager Assets에 연결하려면 Adobe Experience Manager Assets 라이선스가 있어야 하며, 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다. 자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 통합 경험 Adobe</a>를 참조하십시오.</p> </td>
+   <p> Adobe Workfront</p> 
+   <p> Adobe Workfront 계획</p>
+   <p>Adobe Workfront Planning 레코드 유형을 Experience Manager Assets에 연결하려면 Adobe Experience Manager Assets 라이선스가 있어야 하며, 조직의 Workfront 인스턴스가 Adobe 통합 경험에 온보딩되어야 합니다. 자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 통합 경험 Adobe</a>를 참조하십시오.</p> </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront 계약</p></td>
    <td>
@@ -96,7 +98,7 @@ Workfront Planning 레코드를 다른 응용 프로그램의 개체에 연결�
 <tr>
    <td role="rowheader"><p>권한</p></td>
    <td> <p>작업 영역</a>에 대한 권한 관리 </p>  
-   <p>시스템 관리자에게는 작성하지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한이 있습니다.
+   <p>시스템 관리자에게는 작성하지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한이 있습니다.</p>
 </td>
   </tr>
  </tbody>
@@ -105,6 +107,86 @@ Workfront Planning 레코드를 다른 응용 프로그램의 개체에 연결�
 *자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
+
+
+<!-- replace the table above with the following table at Planning GA release: 
+
+## Access requirements
+
+You must have the following to be able to access Workfront Planning: 
+
+<table style="table-layout:auto">
+ <col>
+ </col>
+ <col>
+ </col>
+ <tbody>
+    <tr>
+<tr>
+<td>
+   <p> Products</p> </td>
+   <td>
+   <ul><li><p> Adobe Workfront</p></li>
+   <li><p> Adobe Workfront Planning<p></li></ul></td>
+  </tr>  
+ <tr>
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td>
+   <td>
+<p>Any of the following Workfront plans:</p>
+<ul><li>Select</li>
+<li>Prime</li>
+<li>Ultimate</li></ul>
+<p>Workfront Planning is not available for legacy Workfront plans</p>
+   </td>
+
+<tr>
+   <td role="rowheader"><p>Adobe Workfront Planning plan*</p></td>
+   <td>
+<p>Any of the following Workfront Planning plans:</p>
+<ul><li>Planning</li>
+<li>Planning Plus</li>
+</ul>
+<p>For more information about what is included in each Workfront Planning plan, see <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront pricing and packaging</a>. </p>
+   </td>
+
+<tr>
+   <td role="rowheader"><p>Adobe Workfront platform</p></td>
+   <td>
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access all the capabilities of Workfront Planning</p>
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p>
+   </td>
+
+  </tr>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront license*</p></td>
+   <td>
+   <p>Standard</p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p>
+  </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Access level configuration</p></td>
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Object permissions</p></td>
+   <td>
+   <p>Manage permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create.</p>
+  </td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> <p>For information, see <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">Customize the Main Menu using a layout template</a> and and <a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md">Assign users to a layout template</a>. </p>  
+</td>
+  </tr>
+ </tbody>
+</table>
+
+*For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).  
+
 
 <!--Maybe enable this at GA - but planing is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -143,9 +225,8 @@ Workfront Planning 레코드를 다른 응용 프로그램의 개체에 연결�
      > 
      >선택한 작업 영역에 다른 레코드 유형이 없는 경우 작업 영역 섹션이 표시되지 않습니다.
 
-     <!--remove the first sentence in the tip above at GA-->
 
-      * 다른 작업 영역에서 연결하도록 구성된 다른 작업 영역의 레코드 유형입니다. 자세한 내용은 [레코드 종류 편집](/help/quicksilver/planning/architecture/edit-record-types.md)을 참조하세요.
+   * 다른 작업 영역에서 연결하도록 구성된 다른 작업 영역의 레코드 유형입니다. 자세한 내용은 [레코드 종류 편집](/help/quicksilver/planning/architecture/edit-record-types.md)을 참조하세요.
 
      >[!TIP]
      >

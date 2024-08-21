@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,13 @@ Workfront Planning에서 사용자 정의 필드를 만드는 방법에 대한 �
 * 레코드 유형 테이블 보기에서만 필드를 삭제할 수 있습니다.
 * 레코드의 기본 필드는 삭제할 수 없습니다.
 * 필드에 저장된 모든 정보는 삭제되며 복구할 수 없습니다.
-* 연결된 레코드 필드를 삭제하면 연결된 모든 조회 필드도 연결된 레코드 유형에서 삭제됩니다. 연결된 레코드 종류의 연결된 레코드 필드는 삭제되지 않습니다.
+* 연결된 레코드 필드를 삭제하면 연결된 모든 조회 필드도 사용자가 연결한 레코드 유형에서 삭제됩니다. 연결하는 레코드 유형의 연결된 레코드 필드도 연결하는 레코드에서 삭제됩니다.
+
+  예를 들어 캠페인을 제품이라는 다른 레코드 유형에 연결하고 캠페인에서 제품 연결 필드와 제품 상태 조회 필드를 삭제하면 다음 항목이 삭제됩니다.
+
+   * 캠페인의 제품 연결 필드
+   * 캠페인의 제품 상태 조회 필드
+   * 제품의 Campaign 연결 필드.
 
   자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '462'
 ht-degree: 8%
 
 ---
@@ -106,10 +106,12 @@ recommendations: noDisplay, noCatalog
 
 ## 공식 필드에 대한 고려 사항
 
-* 공식 필드는 동일한 레코드 유형에 속하는 필드를 참조합니다. 공식 필드를 만들 때 다른 레코드 유형의 필드를 참조할 수 없습니다. <!--is this still accurate??-->
+* 공식 필드는 동일한 레코드 유형에 속하는 필드를 참조합니다.
+* 다른 레코드 종류를 수식 필드를 만드는 레코드 종류에 연결하는 경우에만 다른 레코드 종류의 필드를 참조할 수 있습니다.
 * 수식 필드를 저장한 후에는 수식 필드의 필드 유형을 변경할 수 없습니다.
 * 배합표 필드를 저장한 후 배합표 필드의 계산을 갱신할 수 있으며, 계산 결과는 동일한 유형의 모든 레코드에 대해 자동으로 갱신됩니다.
 * 수식에서 참조하는 필드가 Workfront Planning 인터페이스에 표시되는 대로 추가해야 합니다.
+* 레코드 유형의 표 보기 또는 레코드 세부 정보 페이지에 표시되는 필드만 참조할 수 있습니다.
 <!--* You can format the result of a formula calculation by choosing from the following options:
 
    * Text
