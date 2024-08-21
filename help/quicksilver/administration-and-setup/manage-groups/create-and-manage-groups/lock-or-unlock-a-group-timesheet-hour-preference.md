@@ -4,13 +4,13 @@ product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 title: 그룹 타임시트 및 시간 환경 설정 잠금 또는 잠금 해제
 description: 그룹 관리자인 경우 Workfront 관리자가 시스템 수준에서 그룹을 잠금 해제한 후 그룹에 대한 타임시트 및 시간 기본 설정을 구성한 다음 잠글 수 있습니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5b36106f-d521-4cc1-9f1f-647415c282b4
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '625'
 ht-degree: 0%
 
 ---
@@ -43,9 +43,10 @@ Unlike other Lock/Unlock articles that start just like this one, we need the ste
 >* 잠금 해제된 환경 설정이 있는 그룹으로 그룹을 이동하면 이동된 그룹은 해당 환경 설정의 영향을 받지 않습니다.
 >
 >  이동 시 이동된 그룹의 기본 설정이 잠겨 있으면 잠긴 상태로 유지되지만 상위 그룹에 대해 잠금 해제되어 있으므로 그룹 관리자가 지금 잠금 해제할 수 있습니다.
->
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음이 있어야 합니다.
 
@@ -66,13 +67,15 @@ Unlike other Lock/Unlock articles that start just like this one, we need the ste
 
 &#42;보유 중인 플랜 또는 라이선스 유형을 확인해야 하는 경우 Workfront 관리자에게 문의하십시오.
 
++++
+
 ## 그룹 타임시트 및 시간 환경 설정 잠금 또는 잠금 해제
 
 >[!TIP]
 >
 >Workfront 관리자인 경우 설정 > 타임시트 및 시간 > 환경 설정으로 이동한 다음 페이지 상단에 있는 상자에서 그룹 이름을 검색하여 1-4단계를 건너뛸 수 있습니다.
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **그룹**&#x200B;을 클릭합니다.
 1. 타임시트 및 시간 환경 설정을 잠그거나 잠금 해제할 그룹의 이름을 클릭합니다.

@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1ee9343e-9452-4e41-a9ff-a6c865d4813b
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '1379'
+source-wordcount: '1364'
 ht-degree: 1%
 
 ---
@@ -81,7 +81,7 @@ Workfront 관리자가 타임시트 및 시간 환경 설정을 잠금 해제하
 >
 >Workfront 관리자인 경우 설정 > 타임시트 및 시간 > 환경 설정으로 이동한 다음 페이지 상단에 있는 상자에서 그룹 이름을 검색하여 1-4단계를 건너뛸 수 있습니다.
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **그룹** ![](assets/groups-icon.png)을(를) 클릭합니다.
 

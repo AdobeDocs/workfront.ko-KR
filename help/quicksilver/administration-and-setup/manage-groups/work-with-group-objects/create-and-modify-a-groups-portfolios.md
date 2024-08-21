@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
-title: 그룹 포트폴리오 만들기 및 수정
+title: 그룹의 Portfolio 만들기 및 수정
 description: 그룹 관리자는 그룹 영역에서 관리하는 그룹을 볼 때 해당 포트폴리오를 보고 작업할 수 있습니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 76ac1f4e-8323-45d1-81f3-6a07e4e2e080
-source-git-commit: 0ca141d790df70894498d0bb35deb0e24db4e698
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '389'
 ht-degree: 1%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 1%
 관리하는 그룹 위에 그룹이 있는 경우 해당 관리자는 해당 그룹에 대해 이 작업을 수행할 수도 있습니다. Workfront 관리자(모든 그룹)의 경우도 마찬가지입니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음이 있어야 합니다.
 
@@ -46,9 +48,11 @@ ht-degree: 1%
 
 &#42;보유 중인 플랜 또는 라이선스 유형을 확인해야 하는 경우 Workfront 관리자에게 문의하십시오.
 
++++
+
 ## 그룹 영역에서 그룹의 포트폴리오를 보고 작업하고 만듭니다.
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **그룹** ![](assets/groups-icon.png)을(를) 클릭합니다.
 

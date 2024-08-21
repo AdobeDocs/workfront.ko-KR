@@ -3,15 +3,15 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: 추가,사용자,그룹,추가,다른,할당,관리자,제거,사용자,보기,역할,구성원,내보내기,멤버십,데이터
 navigation-topic: create-and-manage-groups
-title: 그룹 멤버십 보기 및 관리
+title: 그룹의 멤버십 보기 및 관리
 description: Adobe Workfront 관리자는 관리하는 그룹의 구성원을 보고, 추가하고, 제거하고, 내보내고, 활성화하고, 비활성화할 수 있습니다. 또한 프로필을 편집하고, 프로필에 업데이트를 추가하고, 해당 프로필을 그룹의 추가 그룹 관리자로 지정할 수 있습니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 219e5fa3-cf25-477d-82f6-046e3ff30989
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '735'
 ht-degree: 1%
 
 ---
@@ -23,6 +23,8 @@ Adobe Workfront 관리자는 관리하는 그룹의 구성원을 보고, 추가�
 그룹 위에 그룹이 있는 경우 해당 관리자는 그룹을 위해 이러한 작업을 수행할 수도 있습니다. Workfront 관리자(모든 그룹)의 경우도 마찬가지입니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음이 있어야 합니다.
 
@@ -43,9 +45,11 @@ Adobe Workfront 관리자는 관리하는 그룹의 구성원을 보고, 추가�
 
 &#42;보유 중인 플랜 또는 라이선스 유형을 확인해야 하는 경우 Workfront 관리자에게 문의하십시오.
 
++++
+
 ## 그룹 멤버십 보기 및 관리
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **그룹**&#x200B;을 클릭합니다.
 

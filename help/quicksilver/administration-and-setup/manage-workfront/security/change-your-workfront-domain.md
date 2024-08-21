@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: security
 title: Adobe Workfront 도메인 변경
 description: Adobe Workfront 관리자 및 인증된 Workfront 지원 담당자는 Workfront 지원 팀에 조직의 Workfront 도메인을 변경하는 데 도움을 요청할 수 있습니다.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d817bd2b-1aaa-4dde-8e75-392c1da2943a
-source-git-commit: 22ea9b623d7bc7b216511538cf88e4d020529bd3
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 0%
 Adobe Workfront 관리자 및 인증된 Workfront 지원 담당자는 Workfront 지원 팀에 조직의 Workfront 도메인을 변경하는 데 도움을 요청할 수 있습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -48,6 +50,8 @@ Adobe Workfront 관리자 및 인증된 Workfront 지원 담당자는 Workfront 
  </tbody> 
 </table>
 
++++
+
 ## 도메인 변경 요청
 
 1. Experience League 시 지원 티켓 만들기를 시작합니다.
@@ -64,7 +68,7 @@ Workfront 지원 센터에 문의하여 도메인 변경에 대한 도움을 받
 >
 >조직의 Workfront 인스턴스가 Adobe IMS를 사용하여 활성화된 경우 사용할 수 없습니다. 자세한 내용은 네트워크 또는 IT 관리자에게 문의하십시오.
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. 왼쪽 사이드바에서 **시스템** > **고객 정보**&#x200B;를 클릭하고 고객 정보 페이지에서 도메인이 업데이트되었는지 확인하십시오.
 

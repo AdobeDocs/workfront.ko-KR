@@ -7,9 +7,10 @@ title: 삭제된 항목 관리
 description: Workfront 관리자는 지난 30일 동안 Workfront 프로젝트, 작업, 문제, 문서 및 템플릿이 삭제된 경우 복원할 수 있습니다. 객체를 복원하면 모든 하위 객체와 필드도 복원됩니다.
 feature: System Setup and Administration
 role: Admin
+author: Lisa
 recommendations: noDisplay, noCatalog
 exl-id: 6b76ff52-2809-4d11-aeb0-a328e1efc489
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 0%

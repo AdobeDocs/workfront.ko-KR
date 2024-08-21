@@ -4,13 +4,13 @@ product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 title: 하위 그룹에 대한 프로젝트, 작업 또는 문제 환경 설정 잠금 또는 잠금 해제
 description: Workfront 관리자가 시스템 수준에서 잠금을 해제한 경우 그룹 관리자는 프로젝트, 작업 또는 문제 환경 설정을 구성한 다음 잠글 수 있습니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 05c32b6f-52e1-46a7-9011-633713422f3d
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,8 @@ Workfront 관리자가 시스템의 모든 그룹에 대한 환경 설정을 잠
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -64,9 +66,11 @@ Workfront 관리자가 시스템의 모든 그룹에 대한 환경 설정을 잠
 
 &#42;보유 중인 플랜 또는 라이선스 유형을 확인해야 하는 경우 Workfront 관리자에게 문의하십시오.
 
++++
+
 ## 그룹 프로젝트, 작업 또는 문제 환경 설정 잠금 또는 잠금 해제
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **그룹**&#x200B;을 클릭합니다.
 1. 프로젝트 환경 설정을 잠그거나 잠금 해제할 그룹의 이름을 클릭합니다.

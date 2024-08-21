@@ -3,15 +3,15 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: 킥스타트, 킥스타트, 킥스타트, 킥스타트
 navigation-topic: use-kick-starts
-title: '킥스타트 시나리오: 회사, 그룹, 역할 및 사용자 킥스타트 준비'
+title: "킥스타트 시나리오: 회사, 그룹, 역할 및 사용자 킥스타트 준비"
 description: Adobe Workfront 구현을 시작할 때 수동으로 데이터를 입력하지 않고 고객 목록, 내부 부서, 작업 역할 및 사용자 정보를 가져올 수 있습니다.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1100'
 ht-degree: 2%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 2%
 Adobe Workfront 구현을 시작할 때 수동으로 데이터를 입력하지 않고 고객 목록, 내부 부서, 작업 역할 및 사용자 정보를 가져올 수 있습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -42,6 +44,8 @@ Adobe Workfront 구현을 시작할 때 수동으로 데이터를 입력하지 �
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 가져올 수 있는 항목
 
@@ -67,7 +71,7 @@ Adobe Workfront 구현을 시작할 때 수동으로 데이터를 입력하지 �
  </tbody> 
 </table>
 
-역할 이름은 고유해야 하며 기존 작업 역할은 가져올 수 없습니다.
+역할 이름은 고유해야 합니다. 기존 작업 역할을 가져올 수 없습니다.
 
 다음 표에는 가져올 사용자와 각 사용자의 몇 가지 사용자 속성이 표시됩니다.
 
@@ -157,7 +161,7 @@ Adobe Workfront 구현을 시작할 때 수동으로 데이터를 입력하지 �
 
 ## 킥스타트 템플릿 다운로드
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. **시스템** > **킥스타트** > **데이터 가져오기**&#x200B;를 클릭합니다.
 
@@ -299,4 +303,4 @@ Adobe Workfront 구현을 시작할 때 수동으로 데이터를 입력하지 �
 1. 필요에 따라 다른 사용자 세부 정보를 입력한 다음 파일을 저장합니다.
 1. Excel 파일을 가져옵니다.
 
-   이 문서의 **킥스타트 파일 가져오기** 섹션에 제공된 지침을 따르십시오.
+   [킥스타트 템플릿을 사용하여 Adobe Workfront으로 데이터 가져오기](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)에 제공된 지침을 따르십시오.

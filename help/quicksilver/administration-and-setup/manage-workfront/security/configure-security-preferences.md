@@ -8,14 +8,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 5cc1acffff12d78e48228f3ae223514c0ff379ef
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '877'
 ht-degree: 5%
 
 ---
 
-# 시스템 환경 설정 구성
+# 시스템 환경 설정 구성하기
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
@@ -35,6 +35,8 @@ Adobe Workfront 관리자는 다음을 포함하여 Workfront 시스템에 대�
 Workfront 구현 중에 시스템 환경 설정을 구성하고, 그 이후에 가끔씩만 다시 방문하는 것이 좋습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -60,6 +62,8 @@ Workfront 구현 중에 시스템 환경 설정을 구성하고, 그 이후에 �
 </table>
 
 이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 시스템 환경 설정 구성
 

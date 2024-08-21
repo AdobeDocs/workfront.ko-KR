@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: security
 title: 중복 사용자 방지
 description: 'Adobe Workfront에서 새 사용자를 만들 때 대/소문자에 따라 이메일 주소가 달라지는 경우에도 다른 사용자가 이미 사용 중인 이메일 주소를 더 이상 사용할 수 없습니다(예: JohnDoe@example.com 및 johndoe@example.com). 또한 향후 인증 개선을 준비하려면 모든 사용자에게 Workfront 인스턴스에서 고유한 이메일 주소가 있는지 확인하십시오.'
-author: Caroline
+author: Becky, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 84d9a752-e894-42cf-9b40-375e35f02c97
-source-git-commit: 8bcc2859b3b6ce7a264c8f234536a93b7761ab6b
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 Adobe Workfront에서 새 사용자를 만들 때 대/소문자에 따라 이메일 주소가 달라지는 경우에도 다른 사용자가 이미 사용 중인 이메일 주소를 더 이상 사용할 수 없습니다(예: JohnDoe@example.com 및 johndoe@example.com). 또한 향후 인증 개선을 준비하려면 모든 사용자에게 Workfront 인스턴스에서 고유한 이메일 주소가 있는지 확인하십시오.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -42,6 +44,8 @@ Adobe Workfront에서 새 사용자를 만들 때 대/소문자에 따라 이메
  </tbody> 
 </table>
 
++++
+
 ## 고유 이메일 주소로 사용자 만들기
 
 2019.4 릴리스부터 Workfront에서 새 사용자를 만들 때 사례별로 이메일 주소가 다르더라도 더 이상 다른 사용자가 이미 사용 중인 이메일 주소를 사용할 수 없습니다. 예를 들어, 다른 사용자의 이메일 주소가 JohnDoe@example.com인 경우 이메일 주소가 johndoe@example.com인 사용자를 한 명 만들 수 없습니다.
@@ -53,7 +57,7 @@ Workfront 인스턴스 내에서 중복 이메일 주소를 수정하려면 다�
 
 1. 중복 사용자를 검사하고 더 이상 필요하지 않은 사용자를 결정합니다.
 
-   1. Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **사용자**&#x200B;를 클릭합니다. ![](assets/users-icon-in-main-menu.png)
+   {{step-1-to-users}}
 
    1. **필터** 메뉴에서 **모두**&#x200B;를 선택합니다.
 

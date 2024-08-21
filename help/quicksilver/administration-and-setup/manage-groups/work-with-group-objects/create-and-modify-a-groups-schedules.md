@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: 그룹의 일정 만들기 및 수정
 description: 그룹 영역에서 관리하는 그룹을 볼 때 그룹의 관리자 또는 하위 그룹 중 하나에 관리 액세스 권한이 있는 일정을 보고 작업할 수 있습니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a2a39746-331b-41d6-8c3c-e6a1eb68b43a
-source-git-commit: 3aad2a3d9ad32313cb14670965bc3ad05ab215d3
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,8 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -50,9 +52,11 @@ ht-degree: 0%
 
 &#42;보유 중인 플랜 또는 라이선스 유형을 확인해야 하는 경우 Workfront 관리자에게 문의하십시오.
 
++++
+
 ## 그룹 일정 만들기 또는 수정
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. **그룹**&#x200B;을 클릭합니다.
 

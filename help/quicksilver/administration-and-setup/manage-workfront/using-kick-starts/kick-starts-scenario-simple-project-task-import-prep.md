@@ -3,26 +3,26 @@ user-type: administrator
 product-area: system-administration;projects
 keywords: 킥스타트, 킥스타트, 킥스타트, 킥스타트
 navigation-topic: use-kick-starts
-title: 킥스타트 시나리오 간단한 프로젝트 및 작업 가져오기 준비
+title: "킥스타트 시나리오: 간단한 프로젝트 및 작업 가져오기 준비"
 description: 킥스타트 방법을 사용하여 기본 프로젝트와 작업 가져오기에 사용할 수 있는 설정과 컨트롤에 대해 자세히 설명합니다.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c095ce9d-b189-449b-bd13-2633837697ed
-source-git-commit: 101a5a80d00a8113ce31222b92f77300a5b0ce8a
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1475'
 ht-degree: 9%
 
 ---
 
 # 킥스타트 시나리오: 간단한 프로젝트 및 작업 가져오기 준비
 
-킥스타트 방법을 사용하여 기본 프로젝트와 작업 가져오기에 사용할 수 있는 설정과 컨트롤에 대해 자세히 설명합니다.
+기본 프로젝트 및 Kick-Start 메서드를 사용한 작업 가져오기에 사용할 수 있는 설정 및 컨트롤에 대해 자세히 설명합니다.
 
 ## 시나리오
 
-구현 팀은 이 데이터를 시스템에 수동으로 입력하는 것이 아니라 활성 프로젝트에 대한 프로젝트 및 작업 정보를 가져오는 것이 좋습니다.
+구현 팀은 이 데이터를 시스템에 수동으로 입력하는 대신 활성 프로젝트에 대한 프로젝트 및 작업 정보를 가져오고,
 
 * [프로젝트](#projects)
 * [작업 목록](#task-list)

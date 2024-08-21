@@ -1,13 +1,13 @@
 ---
 title: 향상된 인증을 사용할 때 IDP에서 SAML 2.0 메타데이터 업데이트
 description: Adobe Workfront 관리자는 SAML(Security Assertion Markup Language) 2.0 프로토콜을 지원하는 ID 공급자와 Workfront SSO(Single Sign-On)를 통합할 수 있습니다.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 55d7d8a8-0dfe-45bc-a23a-47111347e9ca
-source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '938'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Adobe Workfront 관리자는 SAML(Security Assertion Markup Language) 2.0 프로
 
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -47,6 +49,8 @@ Adobe Workfront 관리자는 SAML(Security Assertion Markup Language) 2.0 프로
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Okta를 ID 공급자로 사용
 
@@ -120,7 +124,8 @@ Okta는 SAML 2.0을 지원하는 ID 공급자의 예입니다. 이 섹션에서�
    1. 브라우저 URL 필드에 표시되는 URL을 복사합니다.
 
 1. Workfront에 Workfront 관리자로 로그인합니다.
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+
+{{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **시스템** > **SSO(Single Sign-On)**&#x200B;를 클릭합니다.
 

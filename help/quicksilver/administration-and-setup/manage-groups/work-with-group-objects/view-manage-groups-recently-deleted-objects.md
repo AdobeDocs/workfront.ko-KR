@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: 최근에 삭제된 그룹 항목 보기 및 관리
 description: 그룹 영역에서 관리하는 그룹을 볼 때 최근에 삭제된 작업 항목, 문서 및 템플릿을 보고 필터링하고 복원하고 내보낼 수 있습니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: d5fbc71b-3b22-48d1-a056-f2c4b32c220c
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '441'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 1%
 삭제된 항목에 대한 자세한 내용은 [삭제된 항목 관리](../../../administration-and-setup/manage-workfront/manage-deleted-items/manage-deleted-items.md)를 참조하세요.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음이 있어야 합니다.
 
@@ -54,9 +56,11 @@ ht-degree: 1%
 
 &#42;보유 중인 플랜 또는 라이선스 유형을 확인해야 하는 경우 Workfront 관리자에게 문의하십시오.
 
++++
+
 ## 최근에 삭제된 그룹 항목 보기 및 관리
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **그룹** ![](assets/groups-icon.png)을(를) 클릭합니다.
 

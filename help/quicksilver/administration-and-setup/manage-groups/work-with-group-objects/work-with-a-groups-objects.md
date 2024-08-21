@@ -3,14 +3,14 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;user-management
 navigation-topic: manage-groups
-title: 그룹의 오브젝트 작업
+title: 그룹의 개체 작업
 description: 새 개체를 그룹 페이지에 추가할 때 그룹/그룹 관리 overview/groups.html 문서를 업데이트하는 것을 잊지 마십시오
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: d2f9494a-170d-4600-a282-69ad14a0cf6f
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 0%

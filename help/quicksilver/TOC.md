@@ -3,7 +3,7 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 38f103eea19fa85104f40fa368b975673fc74d9d
+source-git-commit: b61879975732bd8e9b6c94143c2134bfe023f7ea
 workflow-type: tm+mt
 source-wordcount: '14337'
 ht-degree: 2%
@@ -707,8 +707,8 @@ ht-degree: 2%
       * 삭제된 항목 관리 {#manage-deleted-items}
          * [삭제된 항목 관리](administration-and-setup/manage-workfront/manage-deleted-items/manage-deleted-items.md)
          * [삭제된 항목 복원](administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)
-         * [복원된 항목 보기](administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)
-         * [삭제된 오브젝트가 오브젝트에 미치는 영향](administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md)
+         * [복구된 항목 보기](administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)
+         * [삭제된 오브젝트가 시간에 미치는 영향](administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md)
          * [개별 하위 개체 복원](administration-and-setup/manage-workfront/manage-deleted-items/restoring-individual-child-objects.md)
       * 진단 {#diagnostics}
          * [진단](administration-and-setup/manage-workfront/run-diagnostics/diagnostics.md)

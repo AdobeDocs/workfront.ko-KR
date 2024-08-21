@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: group-roles
 title: 비즈니스 리더 개요
 description: 그룹에서 비즈니스 리더는 목표, 전략, 예산 및 고용 등에 대해 그룹을 위해 결정을 내리는 사람입니다. 예를 들어, 마케팅 담당 최고 책임자가 있는 조직에서는 해당 사람이 마케팅의 비즈니스 리더일 가능성이 높습니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 4081587f-1ace-4f40-a3a1-57231d5a5d43
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%

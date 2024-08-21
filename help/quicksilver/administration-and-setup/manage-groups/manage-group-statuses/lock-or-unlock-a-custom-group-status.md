@@ -3,14 +3,14 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: 잠금 및 잠금 해제된 그룹 상태
-description: 그룹의 사용자 정의 상태를 잠그는 것은 그룹 및 해당 하위 그룹의 사람들이 작업 흐름에서 동일한 프로세스를 사용하도록 하는 방법입니다. 그룹 상태가 잠겨 있으면 그룹 및 하위 그룹의 모든 사용자가 사용할 수 있습니다. 귀하(또는 Workfront 관리자)는 귀하가 잠근 상태를 편집하거나 삭제할 수 있지만 아래 하위 그룹의 관리자는 해당 그룹에 대해 그렇게 할 수 없습니다. 반대로 그룹의 사용자 지정 상태를 잠금 해제하면 하위 그룹의 관리자가 워크플로를 보다 유연하게 관리할 수 있습니다. 잠금 해제된 상태의 속성을 변경하거나 해당 그룹에 대해 삭제할 수 있습니다.
-author: Caroline
+description: 그룹의 사용자 정의 상태를 잠그는 것은 그룹 및 해당 하위 그룹의 사람들이 작업 흐름에서 동일한 프로세스를 사용하도록 하는 방법입니다. 그룹 상태가 잠겨 있으면 그룹 및 하위 그룹의 모든 사용자가 사용할 수 있습니다.
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 3463e4cb-7336-49b7-b81a-c2acef72f61d
-source-git-commit: d67de32fcbe4706cf8a1fc6f5bb8ec9d08b07119
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---

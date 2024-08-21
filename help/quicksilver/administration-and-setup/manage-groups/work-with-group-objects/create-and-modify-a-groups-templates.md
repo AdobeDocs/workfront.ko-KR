@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f97a12eb-9002-4f11-908a-c68c1e6dc9c9
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1280'
 ht-degree: 1%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 1%
 그룹 위에 그룹이 있는 경우 해당 관리자는 그룹을 위해 이러한 작업을 수행할 수도 있습니다. Workfront 관리자(모든 그룹)의 경우도 마찬가지입니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음이 있어야 합니다.
 
@@ -46,9 +48,11 @@ ht-degree: 1%
 
 &#42;보유 중인 플랜 또는 라이선스 유형을 확인해야 하는 경우 Workfront 관리자에게 문의하십시오.
 
++++
+
 ## 그룹 영역에서 그룹의 템플릿을 보고 작업하고 만듭니다.
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **그룹** ![](assets/groups-icon.png)을(를) 클릭합니다.
 
@@ -138,7 +142,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>업데이트 유형</p> </td> 
-   <td> <p>새 템플릿을 그룹에 연결하면 그룹 수준 프로젝트 환경 설정 "프로젝트 타임라인이 자동으로 다시 계산됩니다"로 구성되며, 그렇지 않으면 동일한 시스템 수준 프로젝트 환경 설정이 사용됩니다.</p> </td> 
+   <td> <p>새 템플릿을 그룹에 연결하는 경우 그룹 수준 프로젝트 환경 설정 "프로젝트 타임라인이 자동으로 다시 계산됩니다"로 구성되고, 그렇지 않은 경우 동일한 시스템 수준 프로젝트 환경 설정이 구성됩니다.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>액세스 섹션 설정</p> </td> 

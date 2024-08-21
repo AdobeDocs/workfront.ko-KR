@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a815aeb1-3403-4491-a8ad-7e47c519905c
-source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,8 @@ Workfront 관리자가 이벤트 알림을 잠금 해제하는 방법에 대한 
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -51,10 +53,15 @@ Workfront 관리자가 이벤트 알림을 잠금 해제하는 방법에 대한 
 
 &#42;보유 중인 플랜 또는 라이선스 유형을 확인해야 하는 경우 Workfront 관리자에게 문의하십시오.
 
++++
+
 ## 그룹의 이벤트 알림 보기 및 구성
 
-1. (조건부 및 선택 사항) Workfront 관리자이고 이미 이메일 알림 페이지(설정 > 이메일 > 알림)에 있는 경우 다음을 수행한 다음 6단계로 건너뛸 수 있습니다. 목록 위의 상자에서 **시스템 이벤트 알림**&#x200B;을 삭제하고 상자에 그룹 이름을 입력한 다음 표시될 때 클릭합니다.
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+>[!TIP]
+>
+>Workfront 관리자이고 전자 메일 알림 페이지(설정 > 전자 메일 > 알림)에 이미 있는 경우 다음을 수행한 다음 6단계로 건너뛸 수 있습니다. 목록 위의 상자에서 **시스템 이벤트 알림**&#x200B;을 삭제하고 상자에 그룹 이름을 입력한 다음 표시될 때 클릭합니다.
+
+{{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **그룹** ![](assets/groups-icon.png)을(를) 클릭합니다.
 

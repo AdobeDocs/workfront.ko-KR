@@ -5,11 +5,11 @@ product-area: system-administration;user-management
 navigation-topic: groups-overview
 title: 하위 그룹 개요
 description: 하나의 그룹 아래에 최대 14개의 하위 그룹 수준을 만들 수 있습니다. 이러한 수준 중 하나에서 병렬 하위 그룹을 무제한으로 만들 수 있습니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a4280498-6719-4911-a69a-b715a5438eed
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 0%

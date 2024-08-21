@@ -1,13 +1,13 @@
 ---
 title: 그룹 세부 정보 보기 및 관리
 description: 관리하는 그룹 또는 하위 그룹에 대한 그룹 세부 정보 페이지를 보고 편집할 수 있습니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: edd2c58a-f912-4638-b6a3-ff3b1b622f48
-source-git-commit: fe399743ee495334face9d4d632686d9472bc8ef
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '633'
 ht-degree: 1%
 
 ---
@@ -42,6 +42,8 @@ Delete this paragraph when Callisto adds the
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -61,9 +63,11 @@ Delete this paragraph when Callisto adds the
 
 &#42;보유 중인 플랜 또는 라이선스 유형을 확인해야 하는 경우 Workfront 관리자에게 문의하십시오.
 
++++
+
 ## 그룹 세부 정보 보기 및 관리
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. **그룹**&#x200B;을 클릭합니다.
 

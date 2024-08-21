@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: security
-title: IP 주소로 Adobe Workfront에 대한 액세스 제한
+title: IP 주소로 Adobe Workfront 액세스 제한
 description: Workfront에 대한 액세스를 45개의 IP 주소 범위로 제한하거나 지정한 Adobe Workfront IP 주소 범위를 포함하도록 허용 목록에 추가하다를 구성할 수 있습니다. 이렇게 하면 Workfront 애플리케이션에 추가 보안 계층을 제공할 수 있습니다.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: aed65b42-d534-453a-885d-f922114987bc
-source-git-commit: 7bd3d2252b124a07a112aaa2b7798063087e7cab
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 1%
+source-wordcount: '447'
+ht-degree: 2%
 
 ---
 
@@ -22,6 +22,8 @@ Workfront에 대한 액세스를 45개의 IP 주소 범위로 제한하거나 �
 이러한 IP 주소 또는 IP 주소 범위는 네트워크 관리자가 제공해야 합니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음이 있어야 합니다.
 
@@ -44,6 +46,8 @@ Workfront에 대한 액세스를 45개의 IP 주소 범위로 제한하거나 �
  </tbody> 
 </table>
 
++++
+
 ## 기타 허용 목록
 
 허용 목록에 추가하다 방화벽 또는 메일 서버가 특정 공급업체에 대해서만 액세스를 허용하도록 구성된 경우 특정 IP 주소를 해당 공급업체에 추가해야 합니다. 그러면 환경과 Adobe Workfront 서버 간에 통신이 열립니다. 허용 목록에 추가하다 자세한 내용은 [방화벽 구성](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)을 참조하세요.
@@ -54,7 +58,7 @@ Workfront에 대한 액세스를 45개의 IP 주소 범위로 제한하거나 �
 
 Workfront허용 목록에 추가하다 에 IP 주소를 추가한 후에는 해당 IP 주소만 Workfront에 액세스하는 데 사용할 수 있습니다. 다른 IP 주소에서 Workfront에 액세스하려고 하는 사용자에게는 IP 주소가 차단되었음을 나타내는 오류 메시지가 표시됩니다.
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. **시스템** > **고객 정보**&#x200B;를 클릭합니다.
 

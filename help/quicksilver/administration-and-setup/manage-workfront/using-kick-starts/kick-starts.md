@@ -6,12 +6,12 @@ keywords: 킥스타트, 킥스타트, 킥스타트, 킥스타트
 navigation-topic: manage-workfront
 title: 킥스타트
 description: Adobe Workfront 관리자는 킥스타트 데이터 내보내기를 사용하여 Workfront으로 데이터를 가져오거나 에서 데이터를 내보낼 수 있습니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6ccaf048-e27e-4ce7-8d38-64a5304e38ae
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
 source-wordcount: '71'
 ht-degree: 2%

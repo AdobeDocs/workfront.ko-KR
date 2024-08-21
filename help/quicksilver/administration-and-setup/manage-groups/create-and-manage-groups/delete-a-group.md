@@ -4,14 +4,14 @@ product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 title: 그룹 삭제
 description: 관리하는 그룹을 삭제할 수 있습니다. 관리하는 그룹 위에 그룹이 있는 경우 해당 관리자는 해당 그룹에 대해 이 작업을 수행할 수도 있습니다. Workfront 관리자(모든 그룹)의 경우도 마찬가지입니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f92eb1f5-fe98-4c7e-8ef7-8ed7134db8d4
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 3%
+source-wordcount: '316'
+ht-degree: 2%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 3%
 하위 그룹 삭제에 대한 자세한 내용은 [그룹 관리](../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md)를 참조하십시오.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음이 있어야 합니다.
 
@@ -42,9 +44,11 @@ ht-degree: 3%
 
 &#42;보유 중인 플랜 또는 라이선스 유형을 확인해야 하는 경우 Workfront 관리자에게 문의하십시오.
 
++++
+
 ## 그룹 삭제
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **그룹** ![](assets/groups-icon.png)을(를) 클릭합니다.
 

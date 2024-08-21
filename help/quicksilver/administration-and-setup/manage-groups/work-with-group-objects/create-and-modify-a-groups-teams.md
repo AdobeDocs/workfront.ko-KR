@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: 그룹의 팀 만들기 및 수정
 description: 그룹 영역에서 관리하는 그룹을 볼 때 그룹 및 해당 하위 그룹과 관련된 팀을 보고 작업할 수 있습니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51967cd7-962e-4354-a04b-6df4e31e70c6
-source-git-commit: 6f9eddd46430990e11d5d661ea09f0595a9acebc
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1010'
 ht-degree: 3%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 3%
 Workfront 관리자가 팀을 만드는 방법에 대한 자세한 내용은 [설정 영역에서 팀 만들기](../../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md)를 참조하십시오.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음이 있어야 합니다.
 
@@ -46,9 +48,11 @@ Workfront 관리자가 팀을 만드는 방법에 대한 자세한 내용은 [�
 
 &#42;보유 중인 플랜 또는 라이선스 유형을 확인해야 하는 경우 Workfront 관리자에게 문의하십시오.
 
++++
+
 ## 그룹 영역에서 그룹을 위한 팀 보기, 작업 및 만들기
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **그룹** ![](assets/groups-icon.png)을(를) 클릭합니다.
 

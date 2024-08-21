@@ -2,23 +2,25 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
-title: 오브젝트가 삭제되고 복원될 때 시간에 대한 영향 구성
+title: 개체가 삭제 및 복원될 때 시간에 대한 효과 구성
 description: 사용자가 시간이 기록되는 프로젝트, 작업 또는 문제를 삭제할 때 시간이 어떻게 되는지 구성할 수 있습니다. 선택하는 옵션은 프로젝트, 작업 또는 문제가 나중에 복원될 경우 시간에 미치는 영향도 결정합니다. Workfront의 항목 복원에 대한 자세한 내용은 삭제된 항목 복원을 참조하십시오.
 feature: System Setup and Administration
 role: Admin
 exl-id: 466c3972-8108-49a6-98f6-f65f5fcc3617
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
 
-# 오브젝트가 삭제되고 복원될 때 시간에 대한 영향 구성
+# 개체가 삭제 및 복원될 때 시간에 대한 효과 구성
 
 사용자가 시간이 기록되는 프로젝트, 작업 또는 문제를 삭제할 때 시간이 어떻게 되는지 구성할 수 있습니다. 선택하는 옵션은 프로젝트, 작업 또는 문제가 나중에 복원될 경우 시간에 미치는 영향도 결정합니다. (Workfront의 항목 복원에 대한 자세한 내용은 [삭제된 항목 복원](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)을 참조하세요.)
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -41,9 +43,11 @@ ht-degree: 0%
  </tbody> 
 </table>
 
++++
+
 ## 항목 삭제 및 복원 시 시간 관리 방법 구성
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. **타임시트 및 시간**&#x200B;을 확장한 다음 **환경 설정**&#x200B;을 클릭합니다.
 

@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 4a039619-0943-4b5b-ba7a-1ad9b5c11df0
-source-git-commit: 0afd578ebaa55d911c04a1d08fbcadddc1d05bbc
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '1677'
+source-wordcount: '1658'
 ht-degree: 3%
 
 ---
@@ -29,6 +29,8 @@ Adobe Workfront 관리자는 사용자 및 프로젝트를 구성하고 Workfron
 그룹 관리자나 Workfront 관리자는 그룹 아래에 하위 그룹을 만들 수도 있습니다. 지침은 [하위 그룹 만들기](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md)를 참조하십시오.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음이 있어야 합니다.
 
@@ -49,13 +51,15 @@ Adobe Workfront 관리자는 사용자 및 프로젝트를 구성하고 Workfron
 
 &#42;보유 중인 플랜 또는 라이선스 유형을 확인해야 하는 경우 Workfront 관리자에게 문의하십시오.
 
++++
+
 ## 처음부터 최상위 그룹 만들기
 
 이 단계에서는 처음부터 새 그룹을 만드는 방법을 설명합니다. 기존 그룹 또는 하위 그룹을 복사하여 그룹 또는 하위 그룹을 만드는 방법에 대한 자세한 내용은 이 문서에서 [기존 그룹 또는 하위 그룹을 복사하여 최상위 그룹 만들기](#create-a-top-level-group-by-copying-an-existing-group-or-subgroup)를 참조하십시오.
 
 최상위 그룹을 생성하려면 Workfront 관리자여야 합니다.
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **그룹** ![](assets/groups-icon.png)을(를) 클릭합니다.
 
@@ -127,7 +131,7 @@ Workfront 관리자는 기존 그룹 또는 하위 그룹을 복사하여 새 �
 
 그룹 또는 하위 그룹을 복사하여 신규 최상위 레벨 그룹을 생성하려면
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **그룹** ![](assets/groups-icon.png)을(를) 클릭합니다.
 

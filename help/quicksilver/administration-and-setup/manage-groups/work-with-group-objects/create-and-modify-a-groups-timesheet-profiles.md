@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: 그룹의 타임시트 프로필 만들기 및 관리
 description: 그룹 영역에서 관리하는 그룹을 볼 때 그룹 또는 그 하위 그룹 중 하나의 관리자가 관리 액세스 권한을 가지는 타임시트 프로필을 보고 작업할 수 있습니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5c895e77-bd88-435f-a903-37c2325eab45
-source-git-commit: fe399743ee495334face9d4d632686d9472bc8ef
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 0%
 관리하는 그룹 위에 그룹이 있는 경우 해당 관리자는 해당 그룹에 대해 이 작업을 수행할 수도 있습니다. Workfront 관리자(모든 그룹)의 경우도 마찬가지입니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음이 있어야 합니다.
 
@@ -50,6 +52,8 @@ ht-degree: 0%
 
 &#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
 
++++
+
 ## 그룹 수준 타임시트 프로필 만들기 및 편집
 
 관리하는 그룹에서 사용할 타임시트 프로필을 만들고 편집할 수 있습니다. 지침은 [타임시트 프로필 만들기, 편집 및 할당](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)을 참조하세요.
@@ -66,7 +70,8 @@ ht-degree: 0%
 
 ## 그룹 수준 타임시트 프로필 내보내기
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
+
 1. **그룹**&#x200B;을 클릭합니다.
 
    표시되는 목록에서 관리하는 그룹과 포함된 하위 그룹을 볼 수 있습니다. Adobe Workfront 관리자는 모든 그룹을 볼 수 있습니다.

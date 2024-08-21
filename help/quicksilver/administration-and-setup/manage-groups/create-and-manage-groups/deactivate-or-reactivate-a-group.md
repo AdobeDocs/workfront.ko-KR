@@ -4,13 +4,13 @@ product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 title: 그룹 비활성화 또는 재활성화
 description: 더 이상 사용하지 않는 관리 그룹을 비활성화할 수 있습니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 99b81090-8d09-4130-a746-44ed1d76f971
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '772'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ If Callisto adds the <b>Is active</b> checkbox to the Details page for groups yo
 더 이상 사용하지 않는 관리 그룹을 비활성화할 수 있습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음이 있어야 합니다.
 
@@ -44,6 +46,8 @@ If Callisto adds the <b>Is active</b> checkbox to the Details page for groups yo
 
 &#42;보유 중인 플랜 또는 라이선스 유형을 확인해야 하는 경우 Workfront 관리자에게 문의하십시오.
 
++++
+
 ## 그룹 비활성화 또는 재활성화
 
 >[!IMPORTANT]
@@ -55,9 +59,8 @@ If Callisto adds the <b>Is active</b> checkbox to the Details page for groups yo
 >* 상위 그룹에서 제거합니다. 자세한 내용은 문서 [하위 그룹 관리](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)에서 [상위 그룹에서 하위 그룹을 제거하고 최상위 그룹으로 만들기](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make) 섹션을 참조하십시오.
 >
 >* 활성 그룹으로 이동합니다. 자세한 내용은 문서 [하위 그룹 관리](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)에서 [하위 그룹을 만들기, 이동, 보기, 편집, 복사, 이름 변경, 내보내기 또는 삭제](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#create) 섹션을 참조하십시오.
->
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **그룹**&#x200B;을 선택합니다.
 

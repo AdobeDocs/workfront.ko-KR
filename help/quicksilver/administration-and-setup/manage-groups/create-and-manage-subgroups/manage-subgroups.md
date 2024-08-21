@@ -5,13 +5,13 @@ keywords: 관리,하위 그룹,편집
 navigation-topic: create-and-manage-subgroups
 title: 하위 그룹 관리
 description: 하위 그룹의 그룹 관리자는 하위 그룹을 생성, 이동, 보기, 편집, 복사, 이름 변경, 내보내기 및 삭제할 수 있습니다. 상위 그룹에서 하위 그룹을 제거하여 최상위 그룹으로 만들 수도 있습니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5186d266-fa9f-445d-9dcc-bc07eb147b60
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1253'
 ht-degree: 1%
 
 ---
@@ -27,6 +27,8 @@ ht-degree: 1%
 하위 그룹에 대한 자세한 내용은 [하위 그룹 개요](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md)를 참조하세요.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음이 있어야 합니다.
 
@@ -47,9 +49,11 @@ ht-degree: 1%
 
 &#42;보유 중인 플랜 또는 라이선스 유형을 확인해야 하는 경우 Workfront 관리자에게 문의하십시오.
 
++++
+
 ## 하위 그룹 만들기, 이동, 보기, 편집, 복사, 이름 변경, 내보내기 또는 삭제
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **그룹** ![](assets/groups-icon.png)을(를) 클릭합니다.
 
@@ -125,9 +129,7 @@ ht-degree: 1%
 >
 >Workfront에서 이 마케팅 부서는 Marketing이라는 그룹으로 표시되며, 3개의 하위 그룹인 Field Marketing, Product Marketing 및 Digital Marketing을 포함합니다. 전체 마케팅 부서(4개 그룹 모두)에 속하는 프로젝트를 나열하려면 다음 필터 규칙으로 프로젝트 영역에 대한 필터를 만들 수 있습니다.
 >
->```
->Group: Top Parent ID > Equal > Marketing
->```
+>`Group: Top Parent ID > Equal > Marketing`
 >
 >최상위 이름 필드를 사용하여 최상위 그룹과 연관된 데이터를 식별할 수도 있지만 필터나 그룹화가 아닌 보기에서만 가능합니다.
 
@@ -141,7 +143,7 @@ ht-degree: 1%
 >
 >그룹 비활성화 및 다시 활성화에 대한 지침은 [그룹 세부 정보 보기 및 관리](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md) 문서의 [그룹 세부 정보 보기 및 관리](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md#view) 및 [그룹 세부 정보 보기 및 관리](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md#inactive) 섹션을 참조하십시오.
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **그룹** ![](assets/groups-icon.png)을(를) 클릭합니다.
 
@@ -159,8 +161,6 @@ ht-degree: 1%
 
 * 복사하는 하위 그룹에 고유한 하위 그룹이 있는 경우 해당 하위 그룹이 복사본에 포함되며 해당 이름의 형식은 다음과 같습니다.
 
-  ```
-  Original subgroup name (Copy)
-  ```
+  `Original subgroup name (Copy)`
 
 * 공개 그룹에 속한 모든 하위 그룹도 공개이므로 그룹 내외에서 사용자 편집 액세스 권한이 있는 모든 사용자는 하위 그룹에 사용자를 추가할 수 있습니다.

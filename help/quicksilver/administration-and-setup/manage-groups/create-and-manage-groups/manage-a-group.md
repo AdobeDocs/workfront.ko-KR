@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 86c120de-16b8-4ca8-a7a1-76ece70c0505
-source-git-commit: 0afd578ebaa55d911c04a1d08fbcadddc1d05bbc
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '1319'
+source-wordcount: '1315'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ Though this might not seem that helpful because it is more of a catalog/TOC, it'
 >그룹에 대한 관리자로 지정되면 그 아래에 있는 모든 하위 그룹에 대한 그룹 관리자 역할을 상속합니다. 하위 그룹을 관리할 수 있는 유일한 사용자는 상위 그룹의 그룹 관리자와 하위 그룹에 할당된 모든 그룹 관리자입니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음이 있어야 합니다.
 
@@ -48,6 +50,8 @@ Though this might not seem that helpful because it is more of a catalog/TOC, it'
 </table>
 
 &#42;보유 중인 플랜 또는 라이선스 유형을 확인해야 하는 경우 Workfront 관리자에게 문의하십시오.
+
++++
 
 ## 그룹의 멤버십 관리
 
@@ -71,7 +75,7 @@ Add this at end of 2nd-to-last sentence in this^ paragraph when they add the **I
 
 보고 있는 그룹의 기본 페이지를 벗어나지 않고도 그룹을 빠르게 편집, 복사 또는 삭제할 수 있습니다.
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. **그룹**&#x200B;을 클릭합니다.
 

@@ -6,11 +6,11 @@ keywords: 킥스타트, 킥스타트, 킥스타트, 킥스타트
 navigation-topic: use-kick-starts
 title: 킥스타트에 대한 FAQ
 description: 킥스타트를 사용하여 Workfront 데이터 가져오기 및 내보내기에 대한 FAQ에 대한 답변을 찾을 수 있습니다.
-author: Caroline
+author: LIsa
 feature: System Setup and Administration
 role: Admin
 exl-id: f286e03e-93a8-43f5-8c2d-2c36203776a8
-source-git-commit: 1ebdb3797e30a7e06f4dfd4a7e0e5f540351c126
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 0%

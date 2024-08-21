@@ -3,14 +3,14 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
 title: 삭제된 항목 복원
-description: Workfront 관리자인 경우 지난 30일 동안 프로젝트, 작업, 문제, 문서 및 템플릿이 삭제된 경우 Adobe Workfront에서 복원할 수 있습니다. 30일 후에는 이러한 항목이 영구적으로 삭제되며 복원할 수 없습니다. 객체를 복원하면 모든 하위 객체와 필드도 복원됩니다. 예를 들어 프로젝트를 복원하면 프로젝트의 모든 작업, 문제, 문서, 시간, 메모, 할당 및 사용자 지정 데이터도 복원됩니다.items
+description: Workfront 관리자인 경우 지난 30일 동안 프로젝트, 작업, 문제, 문서 및 템플릿이 삭제된 경우 Adobe Workfront에서 복원할 수 있습니다. 30일 후에는 이러한 항목이 영구적으로 삭제되며 복원할 수 없습니다.
 feature: System Setup and Administration
 author: Lisa
 role: Admin
 exl-id: e5b63652-ce16-44a9-a806-a41f19970ee1
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1044'
 ht-degree: 2%
 
 ---

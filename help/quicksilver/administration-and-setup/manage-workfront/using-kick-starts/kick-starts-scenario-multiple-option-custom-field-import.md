@@ -3,15 +3,15 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: 킥스타트, 킥스타트, 킥스타트, 킥스타트
 navigation-topic: use-kick-starts
-title: '킥스타트 시나리오: 여러 옵션 사용자 정의 필드를 Workfront에 가져오기'
+title: "킥스타트 시나리오: 여러 옵션 사용자 정의 필드를 Workfront에 가져오기"
 description: 킥스타트 기능을 사용하여 Adobe Workfront에서 여러 옵션이 있는 사용자 정의 필드를 가져올 수 있습니다.
-author: Courtney
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '2128'
+source-wordcount: '2096'
 ht-degree: 0%
 
 ---
@@ -51,8 +51,9 @@ Workfront 데이터베이스 개체 및 구조를 잘 알고 있는 경우 아�
 
 Workfront에서 기존 데이터를 내보내려면:
 
-1. Workfront 인터페이스의 오른쪽 상단에서 **주 메뉴 > 설정**&#x200B;을 클릭합니다.
-1. **시스템** 메뉴를 왼쪽으로 확장한 다음 **데이터 내보내기(킥스타트)**&#x200B;를 클릭합니다.
+{{step-1-to-setup}}
+
+1. 왼쪽 메뉴에서 **시스템**&#x200B;을 확장한 다음 **데이터 내보내기(킥스타트)**&#x200B;를 클릭합니다.
 
    ![](assets/export-data-kick-starts-link-in-setup.png)
 
@@ -88,9 +89,9 @@ Workfront에서 기존 데이터를 내보내려면:
 
 시스템의 기존 사용자 정의 필드에 대한 정보를 스캔한 후 가져올 새 킥스타트 템플릿을 다운로드할 수 있습니다.
 
-1. Workfront 인터페이스의 오른쪽 상단에서 **주 메뉴 > 설정**&#x200B;을 클릭합니다.
+{{step-1-to-setup}}
 
-1. **시스템** 메뉴를 왼쪽으로 확장합니다.
+1. 왼쪽 메뉴에서 **시스템**&#x200B;을(를) 확장합니다.
 
 1. **데이터 가져오기(킥스타트)**&#x200B;를 클릭합니다.
 
@@ -129,9 +130,6 @@ Excel 스프레드시트를 새 사용자 정의 필드에 대한 정보로 채�
    >Workfront 데이터베이스의 개체 이름에 대한 자세한 내용은 [API 탐색기](../../../wf-api/general/api-explorer.md)를 참조하십시오.
    >
    >![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
-
-
-
 
 
 1. 다음 정보의 형식이 올바른지 확인합니다.
@@ -245,7 +243,9 @@ Excel 스프레드시트를 새 사용자 정의 필드에 대한 정보로 채�
 
 이전 섹션에서 설명한 단계를 수행한 후 다음을 계속 진행하여 새 필드와 양식을 Workfront에 업로드합니다.
 
-1. **기본 메뉴 > 설정 > 시스템** 메뉴에서 **데이터 가져오기** **(킥스타트)** 클릭합니다.
+{{step-1-to-setup}}
+
+1. **시스템 > 데이터 가져오기(킥스타트)**&#x200B;를 클릭합니다.
 
 1. **킥스타트 스프레드시트로 데이터 업로드** 섹션에서 **파일 선택**&#x200B;을 클릭합니다.
 

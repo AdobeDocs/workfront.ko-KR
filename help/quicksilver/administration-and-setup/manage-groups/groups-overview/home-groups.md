@@ -3,14 +3,14 @@ title: 홈 그룹 개요
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: groups-overview
-description: 홈 그룹은 사용자의 프로필에 할당됩니다. 모든 사용자에게는 홈 그룹이 있어야 합니다. 사용자는 둘 이상의 그룹에 속할 수 있지만 홈 그룹은 하나만 가질 수 있습니다. 시스템의 기존 그룹은 사용자의 홈 그룹으로 할당할 수 있지만 더 큰 조직 단위를 나타내는 새 그룹을 만들고 할당하는 것이 좋습니다. 홈 그룹을 설정할 때 조직에서 Adobe Workfront 사용자를 나누는 방식을 고려하십시오.
-author: Caroline
+description: 홈 그룹은 사용자의 프로필에 할당됩니다. 모든 사용자에게는 홈 그룹이 있어야 합니다.
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 89adb9ea-bfde-4c0d-9fec-b1f97e925340
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---

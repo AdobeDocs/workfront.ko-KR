@@ -2,19 +2,20 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: run-diagnostics
-title: 진단을 사용하여 자동화된 프로세스 트리거
+title: 진단을 사용해 자동화된 프로세스 트리거
 description: 진단을 사용하여 시간 기반 스크립트, 재계산 또는 이메일 알림과 같은 자동화된 프로세스를 수동으로 트리거할 수 있습니다.
 feature: System Setup and Administration
 role: Admin
+author: Lisa
 exl-id: 9243ee60-006b-4628-bde7-5b037dde7511
-source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 6%
+source-wordcount: '367'
+ht-degree: 9%
 
 ---
 
-# 진단을 사용하여 자동화된 프로세스 트리거
+# 진단을 사용해 자동화된 프로세스 트리거
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
@@ -24,22 +25,30 @@ ht-degree: 6%
 
 ## 액세스 요구 사항
 
-이 문서의 단계를 수행하려면 다음이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
+이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront 플랜</a> </td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
    <td>임의</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">라이선스 개요</a> </td> 
-   <td> <p>플랜 </p>Workfront 관리자여야 합니다. Workfront 관리자에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">사용자에게 전체 관리 액세스 권한 부여</a>를 참조하십시오.</td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td>플랜</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>Workfront 관리자여야 합니다.</p> <p><b>참고</b>: 아직 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정했는지 문의하세요. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 진단을 사용하여 자동화된 프로세스 트리거
 

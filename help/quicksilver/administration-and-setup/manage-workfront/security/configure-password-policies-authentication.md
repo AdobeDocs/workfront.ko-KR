@@ -2,20 +2,20 @@
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: security
-title: 인증을 위한 암호 정책 구성
+title: 인증 암호 정책 구성하기
 description: Adobe Workfront 관리자는 암호 정책 옵션을 구성하여 Workfront 시스템에 대한 인증 환경을 사용자 정의할 수 있습니다.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7832986b-a5e8-4f14-8802-d3b8e32b14bc
-source-git-commit: 970cc86b00dc1afe0473ac3a387e7ce47e4a2433
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 1%
+source-wordcount: '705'
+ht-degree: 2%
 
 ---
 
-# 인증을 위한 암호 정책 구성
+# 인증 암호 정책 구성하기
 
 {{important-admin-console-onboard}}
 
@@ -26,6 +26,8 @@ Workfront 구현 중에 인증 환경 설정을 구성하고 이후에 가끔씩
 암호 관리 기능이 개선되어 곧 출시될 예정입니다. 이미 조직에서 사용할 수 있습니다. 조직에서 새 인증 환경에 액세스할 수 있는지 여부에 따라 다음 섹션 중 하나를 사용합니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -48,13 +50,15 @@ Workfront 구현 중에 인증 환경 설정을 구성하고 이후에 가끔씩
  </tbody> 
 </table>
 
++++
+
 ## 인증 구성(모든 고객이 사용 가능) {#configure-authentication-available-for-all-customers}
 
 모든 고객에 대해 인증 옵션이 표시됩니다. 이 문서의 [향상된 인증 구성)](#configure-enhanced-authentication-coming-soon) 섹션에 설명된 대로 암호 관리 기능이 개선되어 곧 출시되거나 조직에서 이미 사용할 수 있습니다.
 
 인증 기본 설정을 구성하려면 다음을 수행합니다.
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. **시스템** > **인증**&#x200B;을 클릭합니다.
 
@@ -97,7 +101,7 @@ Workfront 구현 중에 인증 환경 설정을 구성하고 이후에 가끔씩
 
 향상된 인증 기본 설정을 구성하려면 다음을 수행하십시오.
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. **시스템** > **향상된 인증**&#x200B;을 클릭합니다.
 1. **암호 길이** 상자에 올바른 암호에 필요한 최소 문자 수를 입력합니다.

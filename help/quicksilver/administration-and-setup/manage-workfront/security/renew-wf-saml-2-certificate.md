@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4b481215-36a1-4945-828a-1598502529d8
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ You must take action to update the metadata in your identity provider with the i
 
 경고 메시지를 검토하고 ID 공급자에서 SAML 2.0 메타데이터의 업데이트를 확인하려면 다음을 수행하십시오.
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. **시스템** > **Single Sign-On**&#x200B;을 클릭합니다.
 

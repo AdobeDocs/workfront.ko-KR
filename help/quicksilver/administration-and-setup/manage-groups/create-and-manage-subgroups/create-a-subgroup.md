@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: create-and-manage-subgroups
 title: 하위 그룹 만들기
 description: 관리하는 그룹 아래에 하위 그룹을 만들어 사용자와 프로젝트를 구성하고 Adobe Workfront 내에 액세스 권한을 할당할 수 있습니다. 일반적으로 그룹 관리자는 그룹 및 하위 그룹을 관리합니다. 그룹 페이지를 사용하여 그룹과 하위 그룹을 한 곳에서 관리할 수 있습니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: b59b1491-9a78-49c0-89c9-ab1ce0099e0b
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '879'
 ht-degree: 3%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 3%
 하지만 일반적으로 그룹 관리자는 그룹 및 하위 그룹을 관리합니다. 그룹 페이지를 사용하여 그룹과 하위 그룹을 한 곳에서 관리할 수 있습니다. Workfront 내에서 그룹과 하위 그룹이 작동하는 방식에 대한 자세한 내용은 [그룹 개요](../../../administration-and-setup/manage-groups/groups-overview/groups.md) 및 [하위 그룹 개요](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md)를 참조하십시오.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음이 있어야 합니다.
 
@@ -44,9 +46,11 @@ ht-degree: 3%
 
 &#42;보유 중인 플랜 또는 라이선스 유형을 확인해야 하는 경우 Workfront 관리자에게 문의하십시오.
 
++++
+
 ## 하위 그룹 추가
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. **그룹**&#x200B;을 클릭합니다.
 

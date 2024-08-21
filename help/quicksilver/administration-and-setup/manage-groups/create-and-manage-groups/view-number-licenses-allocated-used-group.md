@@ -5,9 +5,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8d1870ea-3f9e-4358-8e14-3dcfc3805637
-source-git-commit: 0e8f8973ad4c1310b973bae4e6fe3578c05db204
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ Adobe Workfront 관리자는 그룹 및 해당 하위 그룹에 현재 사용된
 >사용자 라이선스는 그룹이 사용자의 홈 그룹인 경우에만 특정 그룹에서 계산됩니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음이 있어야 합니다.
 
@@ -43,9 +45,11 @@ Adobe Workfront 관리자는 그룹 및 해당 하위 그룹에 현재 사용된
 
 &#42;보유 중인 플랜 또는 라이선스 유형을 확인해야 하는 경우 Workfront 관리자에게 문의하십시오.
 
++++
+
 ## 그룹에 사용된 라이선스 수 보기
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **그룹** ![](assets/groups-icon.png)을(를) 클릭합니다.
 

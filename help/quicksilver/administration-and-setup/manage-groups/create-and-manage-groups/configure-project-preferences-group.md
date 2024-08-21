@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 description: 그룹 관리자인 경우 Adobe Workfront 관리자가 시스템의 모든 그룹에 대한 프로젝트 기본 설정의 잠금을 해제하면 그룹에서 만드는 모든 후속 프로젝트에 영향을 주도록 해당 그룹에 대한 기본 설정을 구성할 수 있습니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '2658'
+source-wordcount: '2654'
 ht-degree: 2%
 
 ---
@@ -36,6 +36,8 @@ Workfront 관리자가 프로젝트 환경 설정을 잠금 해제하는 방법�
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -55,13 +57,15 @@ Workfront 관리자가 프로젝트 환경 설정을 잠금 해제하는 방법�
 
 &#42;보유 중인 플랜 또는 라이선스 유형을 확인해야 하는 경우 Workfront 관리자에게 문의하십시오.
 
++++
+
 ## 그룹에 대해 잠금 해제된 프로젝트 환경 설정 구성
 
 >[!TIP]
 >
 >Workfront 관리자인 경우 설정 > 프로젝트 환경 설정 > 프로젝트로 이동한 다음 페이지 상단에 있는 상자에서 그룹 이름을 검색하여 단계 1-4를 우회할 수 있습니다.
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **그룹** ![](assets/groups-icon.png)을(를) 클릭합니다.
 
@@ -154,7 +158,7 @@ Workfront 관리자가 프로젝트 환경 설정을 잠금 해제하는 방법�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">일정 출처:</td> 
+   <td role="rowheader">일정 기준</td> 
    <td> <p>새 프로젝트를 만들 때 시작 일자 또는 완료 일자에서 예약할지 여부를 결정합니다.</p> 
     <ul> 
      <li><strong>시작 날짜</strong>: 새 작업의 기본값은 가능한 한 빨리 작업 제한으로 설정되며 프로젝트 관리자에게 프로젝트의 계획된 시작 날짜를 입력하라는 메시지가 표시됩니다.</li> 

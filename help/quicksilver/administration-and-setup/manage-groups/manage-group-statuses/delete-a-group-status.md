@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: 그룹 상태 삭제
 description: 그룹 관리자는 관리한 그룹의 상태를 시스템 수준에서 필수 또는 잠긴 상태로 구성되지 않았거나 계층의 상위 그룹에 대해 삭제할 수 있습니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: bfce0325-fe6e-459f-96ca-9a5c94c61ed3
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ ht-degree: 0%
 >* 그룹 또는 해당 하위 그룹 중 하나와 연관된 하나 이상의 객체에 대해 승인 보류 중인 상태입니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음이 있어야 합니다.
 
@@ -49,9 +51,11 @@ ht-degree: 0%
 
 &#42;보유 중인 플랜 또는 라이선스 유형을 확인해야 하는 경우 Workfront 관리자에게 문의하십시오.
 
++++
+
 ## 그룹 상태 삭제
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **그룹**&#x200B;을 클릭합니다.
 1. 최상위 그룹의 이름을 클릭합니다.

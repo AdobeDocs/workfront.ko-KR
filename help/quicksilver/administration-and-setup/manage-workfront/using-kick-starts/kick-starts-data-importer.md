@@ -5,11 +5,11 @@ keywords: 킥스타트, 킥스타트, 킥스타트, 킥스타트
 navigation-topic: use-kick-starts
 title: 킥스타트 데이터 가져오기
 description: 킥스타트를 통해 Adobe Workfront 관리자는 외부 데이터 소스의 데이터를 Workfront으로 가져오고 다른 시스템에서 사용할 Workfront의 기존 데이터를 내보낼 수 있습니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ded3e49-41b2-4ad8-951c-e9ddbb0a9276
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 0%

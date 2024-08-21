@@ -2,19 +2,20 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
-title: 개별 하위 객체 복원
+title: 개별 하위 개체 복원
 description: 이 문서에서는 30일 이전에 Adobe Workfront 프로덕션 또는 미리보기 환경에서 삭제된 개별 하위 객체를 복구하는 데 도움을 받는 방법을 설명합니다.
 feature: System Setup and Administration
 role: Admin
+author: Lisa
 exl-id: e2e4fbb7-5433-4d88-8e36-d82f4cc8a194
-source-git-commit: 8bcc2859b3b6ce7a264c8f234536a93b7761ab6b
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 0%
 
 ---
 
-# 개별 하위 객체 복원
+# 개별 하위 개체 복원
 
 이 문서에서는 30일 이전에 Adobe Workfront 프로덕션 또는 미리보기 환경에서 삭제된 개별 하위 객체를 복구하는 데 도움을 받는 방법을 설명합니다.
 

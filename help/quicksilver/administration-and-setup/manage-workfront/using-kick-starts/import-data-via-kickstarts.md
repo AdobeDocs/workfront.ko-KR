@@ -3,20 +3,20 @@ user-type: administrator
 product-area: system-administration
 keywords: 킥스타트, 킥스타트, 킥스타트, 킥스타트
 navigation-topic: use-kick-starts
-title: 킥스타트 템플릿을 사용하여 Adobe Workfront으로 데이터 가져오기
+title: 킥스타트 템플릿을 사용하여 Workfront으로 데이터 가져오기
 description: 킥스타트는 특별히 형식이 지정된 Excel 통합 문서로, Workfront으로 가져올 데이터로 채울 수 있습니다. Adobe Workfront은 킥스타트 데이터 가져오기에 설명된 대로 이 작업을 수행하는 데 사용할 수 있는 킥스타트 템플릿을 제공합니다.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 8e076e9c89ad208aa94ddefead4b8c6105992542
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '2755'
+source-wordcount: '2753'
 ht-degree: 6%
 
 ---
 
-# 킥스타트 템플릿을 사용하여 Adobe Workfront으로 데이터 가져오기
+# 킥스타트 템플릿을 사용하여 Workfront으로 데이터 가져오기
 
 <!--Audited: 12/2023-->
 

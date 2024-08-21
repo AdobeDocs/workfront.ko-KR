@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: security
 title: API 키 관리
 description: API 보안 취약점을 최소화하기 위해 Adobe Workfront 관리자는 애플리케이션이 사용자를 대신하여 Workfront에 액세스할 수 있도록 하는 데 사용되는 API 키를 관리할 수 있습니다.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: cbbc743cfd69aaf0e5e7468980bef730a1c8fbf5
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '1386'
+source-wordcount: '1322'
 ht-degree: 2%
 
 ---
@@ -35,6 +35,8 @@ Workfront API를 활용하는 애플리케이션의 예는 다음과 같습니�
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -56,6 +58,8 @@ Workfront API를 활용하는 애플리케이션의 예는 다음과 같습니�
  </tbody> 
 </table>
 
++++
+
 ## Workfront API 키
 
 Workfront의 각 사용자에게는 고유한 API 키가 있습니다. 이 키는 사용자가 Workfront API를 활용하는 통합(예: Workfront 모바일 앱 또는 문서 통합)에 액세스할 때 사용자별로 생성됩니다.
@@ -74,7 +78,7 @@ Workfront 관리자에게도 고유한 API 키가 있습니다. 애플리케이�
 >
 >API를 통해 API 키를 생성할 수도 있습니다. 자세한 내용은 [이벤트 구독 API](../../../wf-api/general/event-subs-api.md)의 [이벤트 구독 API](../../../wf-api/general/event-subs-api.md) 섹션을 참조하십시오.
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. **시스템 >** **고객 정보**&#x200B;를 클릭합니다.
 1. (조건부) 다음 작업 중 하나를 수행합니다.
@@ -98,7 +102,7 @@ Workfront 관리자 이외의 역할의 사용자에 대한 API 키를 생성하
 
 1. (조건부) 조직에서 SSO(Single Sign-On) 액세스 관리를 사용하는 경우, SSO 인증을 요구하는 옵션을 일시적으로 비활성화하십시오.
 
-   1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+   {{step-1-to-setup}}
 
    1. **시스템**&#x200B;을 확장한 다음 **SSO(Single Sign-On)**&#x200B;을 클릭합니다.
    1. **유형** 필드에서 조직에서 사용하는 SSO 유형을 선택합니다.
@@ -115,7 +119,7 @@ Workfront 관리자 이외의 역할의 사용자에 대한 API 키를 생성하
 
 1. (조건부) 1단계에서 SSO 인증을 사용하지 않도록 설정한 경우 SSO 인증을 요구하는 옵션을 활성화합니다.
 
-   1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+   {{step-1-to-setup}}
 
    1. **시스템**&#x200B;을 확장한 다음 **SSO(Single Sign-On)**&#x200B;을 클릭합니다.
 
@@ -126,7 +130,7 @@ Workfront 관리자 이외의 역할의 사용자에 대한 API 키를 생성하
 
 API 키가 시스템의 모든 사용자에 대해 만료되도록 구성할 수 있습니다. 사용자의 API 키가 만료되면 사용자는 Workfront API를 사용하여 Workfront에 액세스하는 모든 애플리케이션에 다시 인증해야 합니다. API 키가 만료되는 빈도를 변경할 수 있습니다. 사용자의 암호가 만료될 때 API 키가 만료되는지 여부를 구성할 수도 있습니다.
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. **시스템** > **고객 정보**&#x200B;를 클릭합니다.
 1. **API 키 설정** 영역의 **생성 후**, **API 키가**&#x200B;에 만료됩니다. 드롭다운 목록에서 API 키를 만료하려는 시간대를 선택합니다.
@@ -151,7 +155,7 @@ Workfront 시스템과 관련된 특정 보안 침해가 우려되는 경우 모
 >
 >모든 사용자에 대한 API 키를 제거하면 시스템의 모든 사용자에 대한 모든 API 키가 무효화됩니다. 이 작업을 수행하면 Workfront에서 새 API 키를 생성하고 모든 통합을 업데이트할 때까지 Workfront의 모든 통합이 실패합니다.
 
-1. Adobe Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **설정** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. **시스템**&#x200B;을 확장한 다음 **고객 정보**&#x200B;를 클릭합니다.
 
