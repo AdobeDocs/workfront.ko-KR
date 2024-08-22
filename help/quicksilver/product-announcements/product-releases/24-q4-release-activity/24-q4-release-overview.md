@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 5138321543175cac3e51cc21c8309cbefd8bc1e8
+source-git-commit: 716db8e2d6411495d1809dd320c9c3cca86e2659
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1121'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,10 @@ ht-degree: 0%
 
 ## Adobe Workfront 개선 사항
 
-* [관리자 개선 사항]
-* [프로젝트 개선 사항](#project-enhancements)
+* [관리자 개선 사항](#administrator-enhancements)
 * [통합 개선 사항](#integration-enhancements)
+* [프로젝트 개선 사항](#project-enhancements)
+* [증명 개선 사항](#proofing-enhancements)
 * [기타 개선 사항](#other-enhancements)
 
 ### 관리자 개선 사항
@@ -73,6 +74,41 @@ ht-degree: 0%
                             </li>
                         </ul>
                         <p><i>이 기능은 단계적 릴리스의 일부이며 9월에 제한된 수의 고객이 사용할 수 있습니다.</i></p>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
+### 통합 개선 사항
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">기능</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">릴리스 날짜</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Outlook 통합 로그인 환경 개선 사항</a></p>
+                        <p>Outlook 통합에 대한 로그인 경험이 간소화되어 모든 고객이 IMS를 사용하는지 여부에 관계없이 Workfront에 로그인하는 동일한 버튼을 볼 수 있습니다. 이후 로그인 단계는 IMS 및 비 IMS 인스턴스에 대해 다르게 유지되지만 초기 페이지는 모든 사용자에 대해 동일합니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2024년 8월 6일</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">모든 고객을 위한 프로덕션 릴리스: 2024년 8월 6일</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
            </tbody>
@@ -137,7 +173,7 @@ ht-degree: 0%
            </tbody>
         </table>
 
-### 통합 개선 사항
+### 증명 개선 사항
 
 <table>
             <col style="width: 50%;" />
@@ -155,23 +191,22 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Outlook 통합 로그인 환경 개선 사항</a></p>
-                        <p>Outlook 통합에 대한 로그인 경험이 간소화되어 모든 고객이 IMS를 사용하는지 여부에 관계없이 Workfront에 로그인하는 동일한 버튼을 볼 수 있습니다. 이후 로그인 단계는 IMS 및 비 IMS 인스턴스에 대해 다르게 유지되지만 초기 페이지는 모든 사용자에 대해 동일합니다.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">데스크톱 증명 뷰어에 대한 Chromium 업데이트</a></p>
+                        <p>대화형 증명에서 UI 요소 문제를 해결하는 Chromium 126.0.6478.127을 지원하도록 데스크탑 증명 뷰어를 업그레이드하고 있습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
                             <li>
-                                <p>미리보기 릴리스: 2024년 8월 6일</p>
+                                <p>미리보기 릴리스: 2024년 8월 29일</p>
                             </li>
                             <li>
-                                <p><span class="preview">모든 고객을 위한 프로덕션 릴리스: 2024년 8월 6일</span></p>
+                                <p><span class="preview">모든 고객을 위한 프로덕션 릴리스: 2024년 8월 29일</span></p>
                             </li>
                         </ul>
                     </td>
                 </tr>
            </tbody>
         </table>
-
 
 ### 기타 개선 사항
 
