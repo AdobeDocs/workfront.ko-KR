@@ -3,15 +3,15 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: '오류 메시지: 잘못된 매개변수: 전환 값'
-description: '"기존 사용자 정의 양식에서 사용자 정의 필드의 형식을 변경하려고 하면 ''잘못된 매개변수: 전환 값 "&lt;..&gt;" 오류 메시지가 표시됩니다."'
-author: Caroline
+title: "오류 메시지: 잘못된 매개변수: 전환 값"
+description: "기존 사용자 정의 양식에서 사용자 정의 필드의 형식을 변경하려고 하면 '잘못된 매개변수: 전환 값 `&lt;..&gt;`' 오류 메시지가 표시됩니다."
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4f7aac95-4afb-422d-877b-0fa49ef43883
-source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -29,28 +29,41 @@ ht-degree: 0%
 
 예를 들어 텍스트 형식의 사용자 지정 필드가 있습니다.  이제 사용자 정의 필드의 형식을 통화로 변경합니다. Adobe Workfront 인스턴스 어딘가에 이 필드가 개체에 이미 첨부되어 있고 개체에 이미 지정된 정보가 있습니다. 하나 이상의 해당 필드에 있는 기존 정보의 형식이 이미 텍스트로 지정되어 있습니다. 따라서 필드의 형식은 통화로 변경할 수 없습니다.
 
+## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
+이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p><a href="https://www.workfront.com/plans" target="_blank">Workfront 플랜</a>*</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
    <td>임의</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">라이선스 개요</a>*</p> </td> 
-   <td>플랜</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
+   <td>
+   <p>새로운 기능: 표준</p>
+   <p>또는</p>
+   <p>현재: 플랜</p></td> 
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"><strong>액세스 수준*</strong> </td> 
+  <tr> 
+   <td role="rowheader">액세스 수준 구성</td> 
    <td> <p>액세스 권한 편집 대상:</p> 
     <ul> 
      <li> <p>보고서, 대시보드 및 캘린더 만들기</p> </li> 
      <li> <p>필터, 보기 및 그룹화 만들기</p> </li> 
-    </ul> <p><b>참고</b>: 아직 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정했는지 문의하세요. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+    </ul>
   </tr> 
  </tbody> 
 </table>
+
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 솔루션
 

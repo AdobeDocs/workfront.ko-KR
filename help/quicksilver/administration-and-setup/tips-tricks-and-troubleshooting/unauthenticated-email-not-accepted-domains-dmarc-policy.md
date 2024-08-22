@@ -3,15 +3,15 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: 도메인의 DMARC 정책으로 인해 인증된 이메일이 수락되지 않은 경우
+title: 도메인의 DMARC 정책으로 인해 인증되지 않은 이메일이 수락되지 않음
 description: 도메인의 DMARC 정책으로 인해  [!DNL Workfront] 시스템에서 보낸 전자 메일이 허용되지 않는 경우 전자 메일 관리자가 workfront.com에서 보낸 모든 전자 메일을 허용하도록 전자 메일 시스템을 구성하여 문제를 해결할 수 있습니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2443267a-dcc0-485b-be29-17539fb54188
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---

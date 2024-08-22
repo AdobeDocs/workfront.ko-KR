@@ -4,14 +4,14 @@ content-type: reference
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: 자동 미리 알림과 미리 알림 비교
-description: 이 문서에서는 자동 미리 알림과 미리 알림 간의 차이점에 대해 설명하고 각 항목에 대한 시나리오를 제공합니다. 모든 [!DNL Adobe Workfront] 알림에 대한 자세한 내용은 Adobe [!DNL Workfront] 알림을 참조하십시오.
-author: Caroline
+description: 이 문서에서는 자동 미리 알림과 미리 알림 간의 차이점에 대해 설명하고 각 항목에 대한 시나리오를 제공합니다.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 26c6fa2c-5c3a-4f53-bd7e-e49a623ff60d
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---

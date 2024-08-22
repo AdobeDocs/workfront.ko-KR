@@ -3,15 +3,15 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: '오류: 여러 가지 오류로 인해 SSO 사용자가  [!DNL Adobe Workfront] 에 로그인할 수 없습니다.'
-description: Federated SSO(Single Sign-On)에 대한 로그인 오류, 사용자 이름/암호 조합 또는  [!DNL Workfront], the problem might be that your [!DNL Workfront] 인스턴스에 대한 액세스가 SSO를 사용하므로 잘못된 URL을 사용하여 로그인하려고 합니다. ".com" 다음에 아무 것도 없이 올바른 URL을 사용하여 로그인하는지 확인하십시오.
-author: Caroline
+title: "오류: 여러 가지 오류로 인해 SSO 사용자가  [!DNL Adobe Workfront] 에 로그인할 수 없습니다."
+description: Federated SSO(Single Sign-On)에 대한 로그인 오류, 사용자 이름/암호 조합 또는  [!DNL Workfront], the problem might be that your [!DNL Workfront] 인스턴스에 대한 액세스가 SSO를 사용하므로 잘못된 URL을 사용하여 로그인하려고 합니다.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 92936761-cda3-41ab-88b1-ec1cac3900d4
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---

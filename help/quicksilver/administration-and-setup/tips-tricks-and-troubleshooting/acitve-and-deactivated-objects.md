@@ -5,11 +5,11 @@ product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: 활성 및 비활성화된 개체
 description: ' [!DNL Adobe Workfront] 관리자는 시스템 내의 개체를 활성화하거나 비활성화할 수 있습니다. 비활성화할 수 있는 객체는 삭제하지 않는 것이 좋습니다. 나중에 사용할 수 없도록 개체를 비활성화하고 다른 개체의 드롭다운 메뉴에서 해당 개체를 제거해야 합니다.'
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a0617270-e233-4ebe-a5ee-8df7a8a85823
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 2%

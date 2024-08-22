@@ -3,15 +3,15 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: '''오류 메시지: 약간의 문제가 있습니다. 해당 필드는 다중 양식 구성에서 사용됩니다.'
+title: "오류 메시지: 약간의 문제가 있습니다. 해당 필드는 다중 양식 구성에서 사용됩니다."
 description: 사용자 정의 양식의 계산된 사용자 정의 필드에서 계산을 변경할 때 필드가 다중 양식 구성에서 사용된다는 오류 메시지가 표시되면 필드를 사용할 계산이 포함된 새 필드로 바꿔야 합니다.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 43668525-5572-4d82-8eed-0e320249f296
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1239'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ## 사용자 정의 양식이 첨부된 오브젝트 찾기 {#find-the-object-where-the-custom-forms-are-attached}
 
-1. [!DNL Adobe Workfront]의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **[!UICONTROL 사용자]** ![](assets/users-icon-in-main-menu.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. **[!UICONTROL 사용자 지정 Forms]** > **[!UICONTROL 필드]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 필드 목록]** 보기를 적용하여 수정하려는 계산된 필드를 찾고 이 필드가 사용되는 모든 사용자 정의 양식(예: 양식 1, 양식 2, 양식 3) 을 메모하십시오.

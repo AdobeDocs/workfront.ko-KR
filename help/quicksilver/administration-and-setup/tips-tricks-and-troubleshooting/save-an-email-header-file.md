@@ -5,11 +5,11 @@ product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: 이메일 헤더 파일 저장
 description: ' [!DNL Adobe Workfront] 지원에서 이메일 헤더 파일을 요청할 수도 있습니다. 각 이메일 애플리케이션에는 이 파일을 가져오는 고유한 방법이 있습니다. 머리글을 찾아 저장하는 데 필요한 몇 가지 전자 메일 응용 프로그램 지침이 있습니다. [!DNL Outlook]'
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ee048fc8-63cc-4905-b5e2-f5870bcc6cb2
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 0%

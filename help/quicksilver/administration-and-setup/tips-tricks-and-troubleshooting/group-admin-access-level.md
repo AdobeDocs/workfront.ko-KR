@@ -4,12 +4,12 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: 그룹 관리자는 자신이 관리하는 사용자보다 높은 액세스 권한을 가져야 합니다.
-description: 그룹 관리자의 액세스 수준이 자신이 관리하는 액세스 수준보다 낮은 경우 낮은 액세스 수준을 보거나 수정하거나 할당할 수 없습니다.
-author: Courtney
+description: 그룹 관리자의 액세스 권한이 관리하는 액세스 수준보다 낮은 경우 낮은 액세스 수준을 보거나 수정하거나 할당할 수 없습니다.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2b501a1e-fb56-44fa-8518-07537dc90a5b
-source-git-commit: 0ca335bf0db934d23f607d3f8ce7cfb67e629053
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # 그룹 관리자는 자신이 관리하는 사용자보다 높은 액세스 권한을 가져야 합니다.
 
-그룹 관리자의 액세스 수준이 자신이 관리하는 액세스 수준보다 낮은 경우 낮은 액세스 수준을 보거나 수정하거나 할당할 수 없습니다.
+그룹 관리자의 액세스 권한이 관리하는 액세스 수준보다 낮은 경우 낮은 액세스 수준을 보거나 수정하거나 할당할 수 없습니다.
 
 ## 문제
 
