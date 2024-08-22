@@ -5,8 +5,10 @@ title: Frame.io와 연결된 프로젝트 만들기
 description: 프로젝트는 Adobe Workfront의 대규모 작업 단위입니다. 처음부터 프로젝트를 만들거나 템플릿을 사용하거나 문제 또는 작업을 프로젝트로 전환할 수 있습니다.
 author: Courtney
 feature: Work Management
+hide: true
+hidefromtoc: true
 exl-id: 230d8e62-a3c9-4e38-9b26-5ba1c4f56391
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 1%

@@ -5,8 +5,10 @@ title: 연결된 Workfront 프로젝트에 Frame.io 자산 추가
 description: 광고 팀은 검토해야 하는 에셋을 Frame.io에 추가하고 공식 검토 및 승인을 위해 Workfront으로 전송할 수 있습니다.
 author: Courtney
 feature: Work Management, Digital Content and Documents
+hide: true
+hidefromtoc: true
 exl-id: f196e56f-6e67-4d54-b36d-83bb4a3ae681
-source-git-commit: 850d21fafcf2192600f9011ee936a9bc40f969a4
+source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 0%
