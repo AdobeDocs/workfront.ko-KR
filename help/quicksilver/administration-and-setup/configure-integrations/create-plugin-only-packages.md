@@ -6,8 +6,9 @@ navigation-topic: administrator-integrations
 description: Adobe Admin Console 관리자는 간단한 플러그인 전용 패키지를 만들 수 있습니다. 이렇게 사전 구성된 패키지를 배포하면 관리자는 사용자가 플러그인을 직접 찾을 수 있다는 전제 하에 사용자가 이러한 플러그인을 보유하고 있는지 확인할 수 있습니다. 이러한 간단한 플러그인을 사용하여 조직의 사용자에게 Creative Cloud 플러그인용 Adobe Workfront을 배포하는 것이 좋습니다.
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
+author: Becky
 exl-id: 99c40201-815e-447d-b791-dd026af55ec1
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 4%

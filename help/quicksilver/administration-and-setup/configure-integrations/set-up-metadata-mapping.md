@@ -4,14 +4,14 @@ user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: 메타데이터는 문서와 관련된 설명 정보입니다.  [!DNL Workfront] 응용 프로그램으로 보낸 문서에 메타데이터를 포함하도록  [!DNL Adobe Workfront] 을(를) 설정할 수 있습니다.
-author: Caroline
+author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 7cf4787d-7cff-489e-bd5b-69db3ff09f6e
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 1%
+source-wordcount: '600'
+ht-degree: 0%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 1%
 메타데이터는 문서와 관련된 설명 정보입니다. [!DNL Workfront] 응용 프로그램으로 보낸 문서에 메타데이터를 포함하도록 [!DNL Adobe Workfront]을(를) 설정할 수 있습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -41,6 +43,8 @@ ht-degree: 1%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## [!DNL Workfront]개 메타데이터 정보
 
@@ -64,7 +68,7 @@ ht-degree: 1%
 
 ## 메타데이터를 보내도록 [!DNL Workfront] 구성
 
-1. [!DNL Adobe Workfront]의 오른쪽 위 모서리에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 설정]** ![](assets/gear-icon-settings.png)을 클릭합니다.
+{{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **[!UICONTROL 문서]** > **[!UICONTROL 메타데이터 매핑]**&#x200B;을 클릭합니다.
 
@@ -82,7 +86,8 @@ ht-degree: 1%
 ## 매핑된 필드 삭제
 
 1. [!DNL Workfront]에 관리자로 로그인합니다.
-1. [!DNL Adobe Workfront]의 오른쪽 위 모서리에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 설정]** ![](assets/gear-icon-settings.png)을 클릭합니다.
+
+{{step-1-to-setup}}
 
 1. 왼쪽 패널에서 **[!UICONTROL 문서]** > **[!UICONTROL 메타데이터 매핑]**&#x200B;을 클릭합니다.
 

@@ -6,9 +6,9 @@ description: ' [!DNL Experience Manager Assets]에서 작업을 콘텐츠와 연
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '1679'
+source-wordcount: '1687'
 ht-degree: 0%
 
 ---
@@ -39,36 +39,35 @@ ht-degree: 0%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-다음 항목이 있어야 합니다.
+이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] 계획</strong>
+   <td>[!DNL Adobe Workfront] 플랜
    </td>
    <td>임의
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront]개 라이선스</strong>
+   <td>[!DNL Adobe Workfront] 라이센스
    </td>
-   <td>현재: [!UICONTROL Plan] <br>
-   새로운 기능: [!UICONTROL Standard]
-   </td>
+   <td><p>현재: [!UICONTROL Plan]</p>
+   <p>새로운 기능: [!UICONTROL Standard]</p></td>
   </tr>
   <tr>
-   <td><strong>[!DNL Experience Manager] 라이선스</strong>
+   <td>[!DNL Experience Manager] 라이센스
    </td>
    <td>[!UICONTROL Standard]
    </td>
   </tr>
   <tr>
-   <td><strong>제품</strong>
+   <td>제품
    </td>
    <td>[!DNL Experience Manager Assets as a Cloud Service]이(가) 있어야 하며 제품에 사용자로 추가되어야 합니다.
    </td>
   </tr>
   <tr>
-   <td>액세스 수준 구성*
+   <td>액세스 수준 구성
    </td>
    <td>[!DNL Workfront] 관리자여야 합니다.
    </td>
@@ -78,7 +77,6 @@ ht-degree: 0%
 이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
-
 
 ## 전제 조건
 

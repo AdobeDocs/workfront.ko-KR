@@ -4,13 +4,13 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: 블루프린트에 대한 액세스 구성
 description: 시스템 관리자는 요청을 저장할 요청 대기열을 설정하여 사용자가 블루프린트 설치를 요청할 수 있도록 액세스 권한을 활성화할 수 있습니다. 여기에서 요청을 추적하고 업데이트할 수 있는 단일 위치가 있습니다.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d85f363f-2ab4-45cb-b851-a7f33e1ca905
-source-git-commit: d46eb98c443a421f340b1021972ddb89eda1966b
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '527'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,8 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -41,19 +43,26 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 플랜</strong></td> 
-   <td> <p> 임의</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
+   <td>임의</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe [!DNL Workfront] 라이선스</strong></td> 
-   <td>[!UICONTROL 계획]</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
+   <td>
+   <p>새로운 기능: 표준</p>
+   <p>또는</p>
+   <p>현재: 플랜</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>액세스 수준 구성</strong></td> 
-   <td> <p>[!UICONTROL 시스템 관리자]</p> </td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td>[!DNL Workfront] 관리자여야 합니다. </td> 
   </tr> 
  </tbody> 
 </table>
+
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 전제 조건 {#prerequisites}
 
@@ -68,7 +77,8 @@ ht-degree: 0%
 
 사용자가 블루프린트 설치를 요청하려면 먼저 해당 요청에 대한 요청 대기열을 선택해야 합니다. 요청 대기열이 정의될 때까지 사용자는 블루프린트 카탈로그만 검색할 수 있습니다.
 
-1. [!DNL Adobe Workfront]의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **[!UICONTROL 블루프린트]**&#x200B;를 클릭합니다.
+{{step1-to-blueprints}}
+
 1. 카탈로그 화면의 오른쪽 상단에서 **[!UICONTROL 블루프린트 요청 구성]**&#x200B;을 클릭합니다.
 
    <!--

@@ -6,14 +6,14 @@ description: Experience Manager Assets Essentials의 콘텐츠와 작업을 연�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 0%
+source-wordcount: '626'
+ht-degree: 1%
 
 ---
 
-# Experience Manager Assets Essentials 통합 구성
+# Experience Manager Assets Essentials 통합 구성하기
 
 Experience Manager Assets Essentials의 콘텐츠와 작업 연결&#x200B;:
 
@@ -27,48 +27,51 @@ Experience Manager Assets Essentials의 콘텐츠와 작업 연결&#x200B;:
 
 ## 액세스 요구 사항
 
-다음 항목이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
+이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table>
   <tr>
-   <td><strong>Adobe Workfront 플랜*</strong>
+   <td>[!DNL Adobe Workfront] 플랜
    </td>
    <td>임의
    </td>
   </tr>
   <tr>
-   <td><strong>Adobe Workfront 라이선스*</strong>
+   <td>[!DNL Adobe Workfront] 라이센스
    </td>
-   <td>플랜
+   <td><p>현재: [!UICONTROL Plan]</p>
+   <p>새로운 기능: [!UICONTROL Standard]</p></td>
+  </tr>
+  <tr>
+   <td>[!DNL Experience Manager] 라이센스
+   </td>
+   <td>[!UICONTROL Standard]
    </td>
   </tr>
   <tr>
-   <td><strong>Experience Manager 라이선스</strong>
-   </td>
-   <td>표준
-   </td>
-  </tr>
-  <tr>
-   <td><strong>제품</strong>
+   <td>제품
    </td>
    <td>Experience Manager Assets Essentials가 있어야 하며 Admin Console에서 사용자로 제품에 추가되어야 합니다.
    </td>
   </tr>
   <tr>
-   <td><strong>액세스 수준 구성</strong>
+   <td>액세스 수준 구성
    </td>
-   <td>Workfront 관리자여야 합니다. Workfront 관리자에 대한 자세한 내용은 <strong>사용자에게 전체 관리 액세스 권한 부여</strong>를 참조하십시오.
+   <td>[!DNL Workfront] 관리자여야 합니다.
    </td>
   </tr>
 </table>
 
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
-*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
-
++++
 
 ## 통합 설정
 
-1. Adobe Workfront의 오른쪽 상단에 있는 **기본 메뉴** 아이콘을 클릭한 다음 **설정**&#x200B;을 클릭합니다.
+{{step-1-to-setup}}
+
 1. 왼쪽 패널에서 **문서** ![문서 아이콘](assets/document-icon.png)을 선택한 다음 **Experience Manager 통합**&#x200B;을 선택합니다.
 1. **Experience Manager 통합 추가**&#x200B;를 선택합니다.
 1. 다음을 지정합니다.
@@ -126,20 +129,21 @@ Look for essentials article
 For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=en).
 -->
 
-+++
-
 
 ### 자산
 
 메타데이터는 에셋이 Workfront에서 처음으로 전달될 때 매핑됩니다. 기본 제공 필드 또는 사용자 지정 필드가 있는 문서는 에셋을 Experience Manager Assets Essentials로 처음 전송할 때 지정된 필드에 자동으로 매핑됩니다.
 
 1. **Workfront 필드** 열에서 기본 제공 또는 사용자 지정 Workfront 필드를 선택합니다.
+
    >[!NOTE]
    >
    >단일 Workfront 필드를 여러 Experience Manager Assets 필드에 매핑할 수 있습니다. 여러 Workfront 필드를 단일 Experience Manager Assets 필드에 매핑할 수 없습니다.
+
 1. **Experience Manager** 필드에서 Experience Manager Assets 필드를 선택합니다.
 
    Workfront 필드를 Experience Manager Assets 태그에 매핑하려면 `xcm:keywords`을(를) 선택합니다.
+
 1. 필요에 따라 1단계와 2단계를 반복합니다.
    ![메타데이터 사용](assets/metadata-assets-essentials.png)
 1. **저장**&#x200B;을 클릭하거나 이 문서의 [연결된 폴더 설정(선택 사항)](#set-up-linked-folders-optional) 섹션으로 이동하십시오.

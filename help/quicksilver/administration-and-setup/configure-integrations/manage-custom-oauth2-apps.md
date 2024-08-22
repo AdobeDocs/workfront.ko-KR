@@ -6,10 +6,11 @@ title: 사용자 정의 OAuth2 애플리케이션 보기 및 관리
 description: Adobe Workfront 관리자는 Workfront 인스턴스에 대한 OAuth2 애플리케이션을 보고 관리할 수 있으며, 이를 통해 다른 애플리케이션이 Workfront에 액세스할 수 있습니다.
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
+author: Becky
 exl-id: 158430e5-8857-4bd8-86a6-2ba106b1638c
-source-git-commit: 6f041459caf040846ffdec5bc75e9d74c99e318b
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '666'
 ht-degree: 0%
 
 ---
@@ -29,6 +30,8 @@ ht-degree: 0%
 * PKCE를 사용하여 OAuth2 응용 프로그램을 구성하고 사용하는 방법에 대한 지침은 [PKCE 흐름을 사용하여 조직의 사용자 지정 OAuth2 응용 프로그램 구성 및 사용](../../wf-api/api/oauth-app-pkce-flow.md)을 참조하십시오.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -55,6 +58,8 @@ ht-degree: 0%
 
 &#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
 
++++
+
 ## 전제 조건
 
 보거나 관리하려면 먼저 조직에 대한 [!UICONTROL OAuth2] 응용 프로그램을 만들어야 합니다.
@@ -68,7 +73,7 @@ ht-degree: 0%
 
 ### 사용자 정의 OAuth2 애플리케이션 보기 및 편집 {#view-and-edit-custom-oauth2-applications}
 
-1. [!DNL Adobe Workfront]의 오른쪽 위 모서리에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 설정]** ![](assets/gear-icon-settings.png)을 클릭합니다.
+{{step-1-to-setup}}
 
 1. 왼쪽 탐색 패널에서 **[!UICONTROL 시스템]**&#x200B;을 클릭한 다음 **[!UICONTROL OAuth 응용 프로그램]**&#x200B;을 선택합니다.
 1. **[!UICONTROL 앱 통합 만들기]**&#x200B;를 클릭합니다.
@@ -79,7 +84,7 @@ ht-degree: 0%
 
 ### 사용자 정의 OAuth2 애플리케이션 삭제 {#delete-custom-oauth2-applications}
 
-1. [!DNL Adobe Workfront]의 오른쪽 위 모서리에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 설정]** ![](assets/gear-icon-settings.png)을 클릭합니다.
+{{step-1-to-setup}}
 
 1. 왼쪽 탐색 패널에서 **[!UICONTROL 시스템]**&#x200B;을 클릭한 다음 **[!UICONTROL OAuth 응용 프로그램]**&#x200B;을 선택합니다.
 1. ** 를 **.
@@ -101,9 +106,7 @@ ht-degree: 0%
 >* 새 클라이언트 암호를 만들려면 [통합을 위한 OAuth2 응용 프로그램 만들기 [!DNL Workfront] 통합](../../administration-and-setup/configure-integrations/create-oauth-application.md)에서 [OAuth2 응용 프로그램 만들기](../../administration-and-setup/configure-integrations/create-oauth-application.md#create)를 참조하십시오.
 >
 
-
-
-1. [!DNL Adobe Workfront]의 오른쪽 상단에 있는 *[!UICONTROL *주 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **[!UICONTROL 설정]** ![](assets/gear-icon-settings.png)을(를) 클릭합니다.
+{{step-1-to-setup}}
 
 1. 왼쪽 탐색 패널에서 **[!UICONTROL 시스템]**&#x200B;을 클릭한 다음 **[!UICONTROL OAuth 응용 프로그램]**&#x200B;을 선택합니다.
 1. 응용 프로그램 위로 마우스를 가져간 후 맨 오른쪽에 나타나는 **[!UICONTROL 편집]** 아이콘을 클릭합니다.
@@ -117,7 +120,7 @@ ht-degree: 0%
 
 ### 클라이언트 암호에 대한 메모 추가 또는 편집 {#add-or-edit-notes-for-client-secret}
 
-1. [!DNL Adobe Workfront]의 오른쪽 위 모서리에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 설정]** ![](assets/gear-icon-settings.png)을 클릭합니다.
+{{step-1-to-setup}}
 
 1. 왼쪽 탐색 패널에서 **[!UICONTROL 시스템]**&#x200B;을 클릭한 다음 **[!UICONTROL OAuth 응용 프로그램]**&#x200B;을 선택합니다.
 1. **[!UICONTROL 앱 통합 만들기]**&#x200B;를 클릭합니다.
@@ -135,7 +138,7 @@ ht-degree: 0%
 
 ### 클라이언트 암호 삭제 {#delete-client-secret}
 
-1. [!DNL Adobe Workfront]의 오른쪽 위 모서리에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 설정]** ![](assets/gear-icon-settings.png)을 클릭합니다.
+{{step-1-to-setup}}
 
 1. 왼쪽 탐색 패널에서 **[!UICONTROL 시스템]**&#x200B;을 클릭한 다음 **[!UICONTROL OAuth 응용 프로그램]**&#x200B;을 선택합니다.
 1. **[!UICONTROL 앱 통합 만들기]**&#x200B;를 클릭합니다.

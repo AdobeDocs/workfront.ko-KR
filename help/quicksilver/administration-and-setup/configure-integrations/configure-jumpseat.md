@@ -2,23 +2,26 @@
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
-title: JumpSeat 통합 구성
+title: JumpSeat 통합 구성하기
 description: ' [!DNL JumpSeat] 을(를)  [!DNL Workfront] 과(와) 통합하여 사용자 지정 제품 내 지침을 만들 수 있습니다.'
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
+author: Nolan, Becky
 exl-id: 23edb48b-8cad-47be-8ace-5238a5869677
-source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 1%
+source-wordcount: '258'
+ht-degree: 4%
 
 ---
 
-# JumpSeat 통합 구성
+# JumpSeat 통합 구성하기
 
 [!DNL JumpSeat]을(를) [!DNL Workfront]과(와) 통합하여 사용자 지정 제품 내 지침을 만들 수 있습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -27,25 +30,27 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 플랜*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 플랜*</td> 
    <td> <p>[!UICONTROL Enterprise] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
    <td>[!UICONTROL 계획]</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>제품</strong></td> 
+   <td role="rowheader">제품</td> 
    <td>활성 [!DNL JumpSeat] 플랜이 있어야 합니다.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>액세스 수준 구성*</strong></td> 
+   <td role="rowheader">액세스 수준 구성*</td> 
    <td> <p> [!DNL Workfront] 관리자여야 합니다. [!DNL Workfront] 관리자에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">사용자에게 전체 관리자 액세스 권한 부여</a>를 참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 &#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
+
++++
 
 ## 전제 조건
 
@@ -63,7 +68,8 @@ ht-degree: 1%
 
 [!DNL JumpSeat] 통합을 구성하려면:
 
-1. [!DNL Adobe Workfront]의 오른쪽 위 모서리에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 설정]**&#x200B;을 클릭합니다.
+{{step-1-to-setup}}
+
 1. 왼쪽 패널에서 **[!UICONTROL 시스템]** > **[!UICONTROL [!DNL JumpSeat]통합]**&#x200B;을 클릭합니다.
 1. [!DNL JumpSeat]의 확장 아이콘에 있는 **[!UICONTROL [!DNL JumpSeat]URL]**&#x200B;을(를) 입력하십시오.
 

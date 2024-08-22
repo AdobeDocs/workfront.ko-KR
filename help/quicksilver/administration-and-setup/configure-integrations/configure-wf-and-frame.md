@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 7d909976-d3ff-4e60-9158-c3bffe498e6e
-source-git-commit: 0d737bc410f3db4eeff52fa8954acdb8a0eb1a6e
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '428'
 ht-degree: 0%
 
 ---
@@ -26,25 +26,23 @@ Workfront 관리자는 설정 영역에서 기본 Frame.io 계정을 구성한 �
 >
 >이 기능은 [!DNL Adobe Admin Console]에 온보딩된 조직에서만 사용할 수 있습니다.
 
-다음 항목이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
+이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] 계획</strong>
-   </td>
-   <td>임의
-   </td>
+   <td>[!DNL Adobe Workfront] 플랜</td>
+   <td>임의</td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront]개 라이선스</strong>
+   <td>[!DNL Adobe Workfront] 라이선스
    </td>
-   <td>현재: [!UICONTROL Plan] <br>
-   새로운 기능: [!UICONTROL Standard]
-   </td>
+   <td><p>현재: [!UICONTROL Plan]</p>
+   <p>새로운 기능: [!UICONTROL Standard]</p></td>
   </tr>
-
-<tr>
-   <td><strong>액세스 수준 구성</strong>
+  <tr>
+   <td>액세스 수준 구성
    </td>
    <td>[!DNL Workfront] 관리자여야 합니다.
    </td>
@@ -54,6 +52,7 @@ Workfront 관리자는 설정 영역에서 기본 Frame.io 계정을 구성한 �
 
 이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
++++
 
 ## 기본 [!DNL Frame.io] 계정 구성 [!BADGE 준비 중]{type=Informative}
 

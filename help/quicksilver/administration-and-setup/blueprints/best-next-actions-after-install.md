@@ -5,11 +5,11 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: 블루프린트 설치 후 수행할 작업
 description: 이 문서에서는  [!DNL Adobe Workfront] 에 블루프린트를 설치한 후 시스템 사용자에게 블루프린트를 완전히 배포하기 위해 수행해야 하는 작업에 대해 간략히 설명합니다.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e5da58f-105a-4edf-8fc1-65e8762d43c6
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
 source-wordcount: '1138'
 ht-degree: 0%

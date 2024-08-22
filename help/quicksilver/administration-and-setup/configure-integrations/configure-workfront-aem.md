@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 024b8606-a9b7-413a-b393-8e5cdff37dd4
-source-git-commit: 2f840ea68c9efb78acb4c24346c6775671ed0334
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '1890'
+source-wordcount: '1875'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 [!DNL Adobe Workfront] 관리자는 [!DNL Workfront]을(를) [!UICONTROL Adobe Experience Manager(AEM) Assets]과(와) 통합하고, 조직에서 워크플로우 내의 에셋 생성, 공유 및 유지 관리를 위한 포괄적인 콘텐츠 관리 솔루션을 제공할 수 있습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -43,6 +45,8 @@ ht-degree: 0%
 </table>
 
 &#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
+
++++
 
 ## [!DNL Workfront for AEM Assets]
 
@@ -149,7 +153,8 @@ ht-degree: 0%
       [!DNL Workfront] API 키를 검색하려면
 
       1. 브라우저 탭을 열고 [!DNL Workfront] 계정에 [!DNL Workfront] 관리자로 로그인합니다.
-      1. [!DNL Adobe Workfront]의 오른쪽 위 모서리에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 설정]** ![](assets/gear-icon-settings.png)을 클릭합니다.
+
+      {{step-1-to-setup}}
 
       1. **[!UICONTROL 시스템]** >**[!UICONTROL 고객 정보]**&#x200B;를 클릭합니다.
 
@@ -256,7 +261,7 @@ ht-degree: 0%
    >
    >[!UICONTROL Workfront]에서는 AEM 통합 전용 [!UICONTROL Workfront] 관리자를 만들 것을 권장합니다. 사용자에게 [!UICONTROL Workfront] 관리자 액세스 수준을 할당하는 방법에 대한 자세한 내용은 [특정 영역에 대한 관리자 액세스 권한 부여](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)를 참조하십시오.
 
-1. [!DNL Adobe Workfront]의 오른쪽 위 모서리에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 설정]** ![](assets/gear-icon-settings.png)을 클릭합니다.
+{{step-1-to-setup}}
 
 1. **[!UICONTROL 문서]**> **[!UICONTROL 사용자 지정 통합]을 클릭합니다.**
 
