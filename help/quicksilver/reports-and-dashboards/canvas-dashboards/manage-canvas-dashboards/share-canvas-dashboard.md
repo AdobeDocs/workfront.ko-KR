@@ -6,9 +6,9 @@ description: 다른 Adobe Workfront 사용자가 보거나 편집할 수 있도�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
-source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
+source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->이 페이지에서는 Canvas Dashboards Closed Beta에 등록된 사용자만 사용할 수 있는 기능을 설명합니다. 자세한 내용은 [캔버스 대시보드 베타 정보](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)를 참조하세요.
+>이 페이지에서는 캔버스 대시보드 베타의 일부로 사용할 수 있는 기능에 대해 설명합니다. 자세한 내용은 [캔버스 대시보드 베타 정보](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)를 참조하세요.
 
 다른 Adobe Workfront 사용자가 보거나 편집할 수 있도록 캔버스 대시보드를 공유할 수 있습니다.
 

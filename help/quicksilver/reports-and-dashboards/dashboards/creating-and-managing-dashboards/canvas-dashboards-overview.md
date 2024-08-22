@@ -1,14 +1,11 @@
 ---
-product-area: dashboards
-navigation-topic: creating-and-managing-dashboards
 title: 캔버스 대시보드 개요
 description: 보고 캔버스 시각화를 기존 보고서와 통합하고 새로운 레이아웃 옵션을 제공하는 캔버스 대시보드를 만들 수 있습니다.
-author: Nolan
-feature: Reports and Dashboards
 hidefromtoc: true
 hide: true
+recommendations: noDisplay, noCatalog
 exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
-source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
+source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 0%

@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: b61879975732bd8e9b6c94143c2134bfe023f7ea
+source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
 workflow-type: tm+mt
-source-wordcount: '14337'
+source-wordcount: '14341'
 ht-degree: 2%
 
 ---
@@ -410,6 +410,7 @@ ht-degree: 2%
       * [유지 관리 기간 FAQ](product-announcements/announcements/maintenance-window-faq.md)
       * [허용 목록에 추가하다에 증명을 추가하는 데 필요한 변경 사항](product-announcements/announcements/proofhq-domain-change-workfront.md)
       * [새 Adobe Workfront 경험의 알림 센터 메시지 구독 취소](product-announcements/announcements/unsubscribe-from-ac-messages.md)
+      * [기존 홈 사용 중단 안내서](product-announcements/announcements/legacy-home-deprecation.md)
       * 공지 보관 {#announcement-archive}
          * [공지 아카이브](product-announcements/announcements/announcement-archive/announcement-archive.md)
          * [사용자 정의 양식 개선 사항](product-announcements/announcements/announcement-archive/custom-form-enhancements.md)

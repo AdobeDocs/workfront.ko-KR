@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
+source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 **Beta 상태**
 
-Canvas Dashboards는 현재 비공개 베타 테스트 단계에 있으므로 특정 고객 초대를 통해서만 사용할 수 있습니다.
+Canvas Dashboards는 현재 공개 베타 테스트 단계이므로 자주 변경될 수 있습니다. Beta 등록 방법에 대한 지침은 아래를 참조하십시오.
 
 ## Beta에 참여
 

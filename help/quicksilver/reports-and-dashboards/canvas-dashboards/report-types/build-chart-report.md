@@ -6,9 +6,9 @@ description: 데이터를 막대, 열, 선 또는 원형 차트로 시각화하�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
+source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->이 페이지에서는 Canvas Dashboards Closed Beta에 등록된 사용자만 사용할 수 있는 기능을 설명합니다. 자세한 내용은 [캔버스 대시보드 베타 정보](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)를 참조하세요.
+>이 페이지에서는 캔버스 대시보드 베타의 일부로 사용할 수 있는 기능에 대해 설명합니다. 자세한 내용은 [캔버스 대시보드 베타 정보](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)를 참조하세요.
 
 데이터를 막대, 열, 선 또는 원형 차트로 시각화하는 차트 보고서를 캔버스 대시보드에 추가할 수 있습니다.
 
