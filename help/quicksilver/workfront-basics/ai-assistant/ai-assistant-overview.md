@@ -6,9 +6,9 @@ author: Becky
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: 2a6de1325895bc36527ab83b1d0b47910636b9b9
+source-git-commit: b61f021fe52e5a15afc4bc7e1b9545da97fb03d2
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -64,6 +64,10 @@ Workfront의 AI 어시스턴트는 자연어 대화에서 인앱 정보와 제�
 
   자세한 내용은 [AI Assistant 사용 또는 사용 안 함](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)을 참조하십시오.
 
+* Workfront Planning AI Assistant에는 Workfront AI Assistant와 다른 기능이 있습니다.
+
+  Workfront Planning의 AI Assistant에 대한 자세한 내용은 [Adobe Workfront Planning AI Assistant 개요](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)를 참조하십시오.
+
 
 ## AI Assistant에서 사용 가능한 기능
 
@@ -85,7 +89,7 @@ AI Assistant는 현재 다음과 같은 기능을 제공합니다.
 
   자세한 내용은 [AI Assistant를 사용하여 계산된 필드 수식 생성 또는 수정](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md)을 참조하십시오.
 
-## ## 액세스 AI Assistant
+## AI Assistant 액세스
 
 1. Workfront 페이지 맨 위에서 AI Assistant 아이콘 ![](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png)을(를) 클릭합니다.
 1. 화면의 오른쪽에 있는 패널에 질문이나 프롬프트를 입력합니다.
