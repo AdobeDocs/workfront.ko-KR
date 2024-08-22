@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 8c4e4fbb-2f21-43a1-bfb0-d23ac1a33705
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: 2742594d4f835bb2b81b314075ab374f22074d87
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,7 @@ ht-degree: 0%
 * [Adobe Workfront Planning 객체 제한 사항 개요](/help/quicksilver/planning/general/limitations-overview.md)
 * [Adobe Workfront Planning 현재 릴리스 활동](/help/quicksilver/planning/general/release-activity.md)
 * [Adobe Workfront Planning의 2023년 릴리스 활동 아카이브](/help/quicksilver/planning/general/release-activity-archives-2023.md)
+* [Adobe Workfront Planning 객체 제한 사항 개요](/help/quicksilver/planning/general/limitations-overview.md)
 
 
 

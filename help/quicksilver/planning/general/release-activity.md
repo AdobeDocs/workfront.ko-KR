@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
+source-git-commit: 2742594d4f835bb2b81b314075ab374f22074d87
 workflow-type: tm+mt
-source-wordcount: '6116'
+source-wordcount: '6694'
 ht-degree: 0%
 
 ---
@@ -34,22 +34,7 @@ Adobe Workfront Planning capabilities are currently available to all customers. 
 >You must purchase a Workfront Planning license, in addition to a Workfront license to be able to access and use the Workfront Planning capabilities. 
 >
 >For more information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
->
-
-## Workfront Planning release timeline
-
-| Time               | Release                                 |
-|--------------------|-----------------------------------------|
-| 2023               | Workfront Planning beta release         |
-| First half of 2024 | Workfront Planning early release        |
-| August 28, 2024    | Workfront Planning general availability |
-
-The following articles describe the features released during the release for Workfront Planning: 
-
-* [Adobe Workfront Planning release activity archives for 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md) lists features released during the beta release, in 2023.
-* This article lists the features that were released to Workfront Planning during the early access period in 2024.
-* `[]()` lists features released after the general availability release on August 28, 2024. 
--->
+>-->
 
 >[!IMPORTANT]
 >
@@ -65,73 +50,29 @@ The following articles describe the features released during the release for Wor
 >
 >경우에 따라 아래 섹션에서 참조하는 설명서는 문서화된 기능이 프로덕션에 릴리스된 후에 사용할 수 있습니다.
 
-이 문서에서는 2024년 동안 Workfront Planning에 릴리스된 기능을 나열합니다.
+<!--Not sure if we should enable this - Richard: 
 
-Workfront 계획 프로그램은 2023년 5월 22일부터 시작되었습니다. 2023년에 릴리스된 모든 기능 목록은 [2023년 Adobe Workfront Planning 릴리스 활동 아카이브](/help/quicksilver/planning/general/release-activity-archives-2023.md)를 참조하십시오.
+## Workfront Planning release timeline
 
-릴리스된 기능은 릴리스 순서대로 나열되며 가장 최근의 기능이 먼저 릴리스됩니다. Workfront Planning 프로그램에 참여하는 고객은 프로덕션 환경의 모든 기능에 액세스할 수 있습니다.
+| Time               | Release                                 |
+|--------------------|-----------------------------------------|
+| August - December 2023               | Workfront Planning beta release         |
+| January - August 2024 | Workfront Planning early release        |
+| August 28, 2024    | Workfront Planning general availability |-->
+
+다음 문서에서는 Workfront Planning 릴리스 중 릴리스된 기능에 대해 설명합니다.
+
+* [2023년 Adobe Workfront Planning 릴리스 활동 아카이브](/help/quicksilver/planning/general/release-activity-archives-2023.md)에서는 2023년 동안 베타 릴리스 중에 릴리스된 기능을 나열합니다.
+* 이 문서에서는 2024년 조기 액세스 기간 동안 Workfront Planning에 릴리스된 기능을 나열합니다.
+
+  릴리스된 기능은 릴리스 순서대로 나열되며 가장 최근의 기능이 먼저 릴리스됩니다. Workfront Planning 프로그램에 참여하는 고객은 프로덕션 환경의 모든 기능에 액세스할 수 있습니다.
+
+<!--* See the current release overview documentation for features that were released after the general availability release on August 28, 2024. 
+-->
 
 Workfront Planning은 2024년 1월부터 미리보기 및 샌드박스 환경에서 일시적으로 제거되었습니다. 이 문서에 설명된 모든 기능은 현재 프로덕션에서 사용할 수 있습니다.
 
 <!--
-
-### Break down connected records in the timeline view
-
-Production: <date> 
-
-Preview: To be determined 
-
-As a Timeline view manager, you can now view the relationships between connected records by breaking down records into visual hierarchies in the timeline view.  
-
-For example, when you are viewing Campaigns in the timeline view which are linked to Products, and Products have associations with Projects, you can now break down the campaigns visually by Products first, and further break down Products by Projects.  
-
-This allows you to seamlessly navigate through multiple levels of relationships, all within the same timeline view.  
-
-This is not an actual hierarchy (no object is higher than another). It is a visual hierarchy that displays connected record types in one timeline view.  
-
-You can display up to 5 levels of record types in the same timeline for one record.  
-
-For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md). 
-
-### New Connections tab in the record details area
-
-Production: <date> 
-
-Preview: To be determined 
-
-We have added a new tab on the record's preview and page. Now, when you click the record name in a view, the record's preview and the record's page display the following tabs: 
-
-* **Details**: Displays all record fields, thumbnail, and cover image. 
-
-* **Connections**: Displays all record or object types and their records or objects that are connected to the selected record. You can add more records to the record or object types that already display connected records from the Connections tab.  
-
-For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).  
-
-### Create records, projects, and portfolios as you connect them
-
-Production: <date> 
-
-Preview: To be determined 
-
-You now have the capability to create records, projects, or portfolios as you connect them to existing records. For example, if you connect Workfront Planning campaigns with Workfront projects, and you determine that a particular project does not exist, you can add it as a new project in the connected record field. The project is then added to Workfront. Newly added records are added to their respective record type pages in the table view.   
-
-At this time, you can create the following when connecting records: 
-
-* Records 
-* Projects without a template 
-* Portfolios 
- 
-You cannot create other connected Workfront objects or AEM assets when connecting them to a record. 
-
-For information, see [Create records](/help/quicksilver/planning/records/create-records.md). 
-
-## Export record details to Word
-
-Production: <date> 
-
-Preview: To be determined 
-
-You can now export a record's details to a Word document (.docx). For information, see [Export a record's details](/help/quicksilver/planning/records/export-the-record-page.md). 
 
 ### Reporting capabilities for Workfront Planning with the Canvas Dashboard 
 
@@ -157,29 +98,6 @@ As a workspace manager, you can now define the format for the values displayed i
 * Tags
 
 For information, see the "Formula" section of the article [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
-
-### Add connection type options
-
-Production: <date> 
-Preview: To be determined 
-
-Now, when you configure a connection between two record types, you can define whether users can connect single or multiple records in each of the record types of the connection. This ensures that you can reliably design your team's workflows and ensure that users only select the information expected according to their processes.  
-
-For example, you can now choose from the following types of connections when you link two record types:  
-
-* Many to many. When you select this connection type, it is not possible to change it after you save it 
-* One to many 
-* One to one 
-* Many to one 
- 
-This allows you to define how many records of the connected record types users can connect after a connection is established.  
-
-The new connection types are not supported for the following record type connections: 
- 
-* When you connect record types with AEM assets 
-* When you connect record types that don't belong to the same workspace (**********ensure this feature was released before you post this release note; otherwise, hide**********) 
-
-For information, see [Connect record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md). 
 
 -->
 
@@ -214,6 +132,91 @@ For information, see [Connect record types overview](/help/quicksilver/planning/
 이 기능이 향상되기 전에는 다른 응용 프로그램의 개체 유형과 함께 동일한 작업 영역에 속하는 레코드 유형만 연결할 수 있었습니다.
 
 자세한 내용은 [레코드 종류 편집](/help/quicksilver/planning/architecture/edit-record-types.md)을 참조하세요.
+
+### 분류 기능을 사용하여 타임라인 보기에 연결된 레코드 표시
+
+프로덕션: 2024년 8월 22일
+
+미리보기: 결정 예정
+
+타임라인 보기 관리자는 이제 타임라인 보기에서 레코드를 시각적 계층으로 분류하여 연결된 레코드 간의 관계를 볼 수 있습니다.
+
+예를 들어, 제품에 연결된 타임라인 보기의 캠페인을 볼 때 제품에 프로젝트가 연결되어 있으면 이제 캠페인 아래에 제품을 표시하고 해당 제품 아래에 프로젝트를 표시할 수 있습니다.
+
+이를 통해 동일한 타임라인 보기 내에서 여러 수준의 관계를 원활하게 탐색할 수 있습니다.
+
+이는 실제 계층 구조가 아닙니다(다른 계층보다 높은 개체는 없음). 연결된 레코드 유형을 하나의 타임라인 보기에 표시하는 시각적 계층입니다.
+
+하나의 레코드에 대해 동일한 타임라인에 최대 5개의 레코드 유형을 표시할 수 있습니다.
+
+자세한 내용은 [타임라인 보기 관리](/help/quicksilver/planning/views/manage-the-timeline-view.md)를 참조하십시오.
+
+### 레코드 세부 정보 영역의 새 연결 탭
+
+프로덕션: 2024년 8월 22일
+
+미리보기: 결정 예정
+
+레코드의 미리 보기 및 페이지 영역에 새 탭을 추가했습니다. 이제 보기에서 레코드 이름을 클릭하면 레코드의 미리 보기와 레코드의 페이지에 다음 탭이 표시됩니다.
+
+* **세부 정보**: 모든 레코드 필드, 썸네일 및 표지 이미지를 표시합니다. 세부 정보 탭에서 필드를 편집할 수 있습니다.
+
+* **연결**: 모든 레코드 또는 개체 형식과 연결된 레코드 또는 개체를 표시합니다. 연결 탭에서 레코드를 더 추가할 수 있습니다.
+
+자세한 내용은 [레코드 연결](/help/quicksilver/planning/records/connect-records.md)을 참조하세요.
+
+### 레코드, 프로젝트 및 포트폴리오를 연결할 때 만듭니다.
+
+프로덕션: 2024년 8월 22일
+
+미리보기: 결정 예정
+
+이제 레코드, 프로젝트 및 포트폴리오를 기존 레코드에 연결할 때 만들 수 있습니다.
+
+예를 들어 Workfront Planning 캠페인을 Workfront 프로젝트와 연결하고 특정 프로젝트가 존재하지 않는다고 결정하는 경우 연결된 레코드 필드에 새 프로젝트로 추가할 수 있습니다. 그런 다음 프로젝트가 Workfront에 추가됩니다. 새로 추가된 레코드는 테이블 보기에서 해당 레코드 유형 페이지에 추가됩니다.
+
+이때 레코드를 연결할 때 다음을 만들 수 있습니다.
+
+* Workfront 계획 레코드
+* 템플릿이 없는 Workfront 프로젝트
+* Workfront Portfolio
+
+레코드에 연결할 때 연결된 다른 Workfront 개체 또는 Experience Manager 에셋을 만들 수 없습니다.
+
+자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)를 참조하세요.
+
+## Word로 레코드 세부 정보 내보내기
+
+프로덕션: 2024년 8월 22일
+
+미리보기: 결정 예정
+
+이제 레코드의 세부 사항 페이지를 내보내거나 Word 문서(.docx)로 미리 볼 수 있습니다.
+
+자세한 내용은 [레코드 세부 정보 내보내기](/help/quicksilver/planning/records/export-the-record-page.md)를 참조하십시오.
+
+### 연결 유형 옵션 추가
+
+프로덕션: 2024년 8월 22일
+미리보기: 결정 예정
+
+이제 두 레코드 유형 간의 연결을 구성할 때 사용자가 연결의 각 레코드 유형에서 단일 또는 여러 레코드를 연결할 수 있는지 여부를 정의할 수 있습니다. 이렇게 하면 팀의 워크플로우를 안정적으로 디자인하고 사용자가 프로세스에 따라 예상되는 정보만 선택할 수 있습니다.
+
+이제 두 레코드 유형을 연결할 때 다음 연결 유형 중에서 선택할 수 있습니다.
+
+* 다대다. 이 연결 유형을 선택하면 저장한 후 변경할 수 없습니다.
+* 일대다
+* 일대일
+* 다대일
+
+이렇게 하면 연결이 설정될 때 사용자가 연결할 수 있는 연결된 레코드 유형의 레코드 수를 정의할 수 있습니다.
+
+새 연결 유형은 다음 레코드 유형 연결에 대해 지원되지 않습니다.
+
+* 레코드 유형을 Experience Manager 에셋과 연결하는 경우
+* 동일한 작업 영역에 속하지 않는 레코드 유형을 연결할 때
+
+자세한 내용은 [레코드 종류 연결 개요](/help/quicksilver/planning/architecture/connect-record-types-overview.md)를 참조하십시오.
 
 ## 2024년 8월 12일 주
 

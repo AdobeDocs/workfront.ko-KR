@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
+source-git-commit: e2a930c1ba45c14965d124d98e17025f3a03a23a
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '119'
 ht-degree: 1%
 
 ---
@@ -44,3 +44,4 @@ Adobe Workfront Planning에서 레코드 유형을 만든 후 해당 유형의 �
 * [레코드에 썸네일 추가](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
 * [레코드에 표지 이미지 추가](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
 * [레코드 페이지 레이아웃 관리](/help/quicksilver/planning/records/manage-the-record-page.md)
+* [레코드의 세부 사항 내보내기](/help/quicksilver/planning/records/export-the-record-page.md)

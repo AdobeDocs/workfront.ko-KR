@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: e2a930c1ba45c14965d124d98e17025f3a03a23a
 workflow-type: tm+mt
-source-wordcount: '14341'
+source-wordcount: '14345'
 ht-degree: 2%
 
 ---
@@ -2043,10 +2043,10 @@ ht-degree: 2%
       * [Adobe Workfront Planning 일반 정보: 문서 색인](planning/general/planning-general-article-index.md)
       * [Adobe Workfront Planning 개요](planning/general/planning-overview.md)
       * [Adobe Workfront Planning API 기본 사항](planning/general/planning-api-basics.md)
-      * [Adobe Workfront Planning 객체 제한 사항 개요](planning/general/limitations-overview.md)
       * [Adobe Workfront Planning AI Assistant 개요](planning/general/planning-ai-assistant-overview.md)
       * [Adobe Workfront Planning 현재 릴리스 활동](planning/general/release-activity.md)
       * [Adobe Workfront Planning의 2023년 릴리스 활동 아카이브](planning/general/release-activity-archives-2023.md)
+      * [Adobe Workfront Planning 객체 제한 사항 개요](planning/general/limitations-overview.md)
    * Adobe Workfront 계획 아키텍처 {#adobe-workfront-planning-architecture}
       * [아키텍처: 문서 인덱스](planning/architecture/architecture-information.md)
       * [작업 공간 개요](planning/architecture/workspaces-overview.md)
@@ -2091,6 +2091,7 @@ ht-degree: 2%
       * [레코드에 표지 이미지 추가](planning/records/add-a-cover-image-to-a-record.md)
       * [레코드 페이지 레이아웃 관리](planning/records/manage-the-record-page.md)
       * [Adobe Workfront 오브젝트의 계획 섹션에서 레코드 관리](planning/records/manage-records-in-planning-section.md)
+      * [레코드의 세부 사항 내보내기](/help/quicksilver/planning/records/export-the-record-page.md)
    * Adobe Workfront 계획 보기 {#adobe-workfront-planning-views}
       * [보기: 문서 색인](planning/views/views-information.md)
       * [레코드 보기 관리](planning/views/manage-record-views.md)
