@@ -4,20 +4,17 @@ description: 개별 레코드 종류가 서로 관련되는 방식을 나타내�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
+source-git-commit: 45134c538465a25767de1863d99a10c23bb8edf0
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 0%
+source-wordcount: '1438'
+ht-degree: 1%
 
 ---
 
 
 <!--update metadata at GA-->
-<!--add mini TOC when live, already added to big TOC to get the link-->
 
 # 연결된 레코드 유형 개요
-
-<!--REMOVE THE CONTENT BELOW FROM THE "CONNECT RECORD TYPES" ARTICLE WHEN YOU TURN THIS ARTICLE LIVE- THIS IS THE SAME CONTENT AS THERE, DUPLICATED-->
 
 개별 레코드 유형을 연결하여 서로 관련되거나 다른 응용 프로그램의 오브젝트와 관련됨을 나타낼 수 있습니다.
 
@@ -95,75 +92,76 @@ Workfront Planning에서 연결하는 단계는 두 가지가 있습니다.
 
      연결된 필드 앞에는 필드 유형을 식별하는 아이콘이 표시됩니다. 예를 들어 연결된(또는 조회) 필드 앞에는 필드가 숫자, 단락 또는 날짜임을 나타내는 아이콘이 표시됩니다.
 
-<!--## Connection types
+## 연결 유형
 
-After you establish a connection between two record types or between a record and an object type from another application, you can add records in the connected record fields. 
+두 레코드 유형 간에 또는 다른 응용 프로그램의 레코드와 개체 유형 간에 연결을 설정한 후 연결된 레코드 필드에 레코드를 추가할 수 있습니다.
 
-Depending on how many records you can add to a connected record field, the following are the connection types you can choose from when connecting record types: 
+연결된 레코드 필드에 추가할 수 있는 레코드 수에 따라 레코드 유형을 연결할 때 선택할 수 있는 연결 유형은 다음과 같습니다.
 
-* [Many to many](#many-to-many-connection-type)
-* [One to many](#one-to-many-connection-type)
-* [Many to one](#many-to-one-connection-type)
-* [One to one](#many-to-one-connection-type)
+* [다대다](#many-to-many-connection-type)
+* [일대다](#one-to-many-connection-type)
+* [다대일](#many-to-one-connection-type)
+* [일대일](#many-to-one-connection-type)
 
 >[!WARNING]
 >
->These options are not available when connecting the following: 
->* Two records from different workspaces
+>다음 연결 시 이러한 옵션을 사용할 수 없습니다.
 >
->* A record type and Experience Manager assets
+>* 다른 작업 공간의 두 개 레코드
+>
+>* 레코드 유형 및 Experience Manager 에셋
 
-### Many-to-many connection type
+### 다대다 연결 유형
 
 ![](assets/many-to-many-connection-picker.png)
 
-When you create a many-to-many connection between record types, you can then select multiple records in the connection field from both record types. 
+레코드 유형 간에 다대다 연결을 만들면 두 레코드 유형의 연결 필드에서 여러 레코드를 선택할 수 있습니다.
 
-For example, if you create a many-to-many connection between campaigns and projects, you can select multiple projects for each campaign, and multiple campaigns for each project. 
+예를 들어 캠페인과 프로젝트 간에 다대다 연결을 만드는 경우 각 캠페인에 대해 여러 프로젝트를 선택하고 각 프로젝트에 대해 여러 캠페인을 선택할 수 있습니다.
 
-A real-life example of a many-to-many relationship type is the relationship between movies and actors. Each movie can have multiple actors, and each actor can play in multiple movies. 
+다대다 관계 유형의 실제 사례는 영화와 배우의 관계이다. 각 영화에는 여러 명의 배우가 출연할 수 있으며, 각 배우는 여러 영화에서 연기할 수 있다.
 
-When you select this connection type, you cannot change the connection type after you save it. 
+이 연결 유형을 선택하면 저장한 후 연결 유형을 변경할 수 없습니다.
 
-### One-to-many connection type
+### 일대다 연결 유형
 
 ![](assets/one-to-many-connection-picker.png)
 
 
-When you create a one-to-many connection between record types, you can then select multiple records in the connection field in the current record type, but the corresponding connection field in the record type you connect to will allow selecting only one record. The connected record field that is automatically created on the second record type is automatically set to a many-to-one relationship type. 
+레코드 유형 간에 일대다 연결을 만들 때 현재 레코드 유형의 연결 필드에서 여러 레코드를 선택할 수 있지만 연결하는 레코드 유형의 해당 연결 필드에서는 하나의 레코드만 선택할 수 있습니다. 두 번째 레코드 유형에서 자동으로 생성된 연결된 레코드 필드는 다대일 관계 유형으로 자동 설정됩니다.
 
-For example, if you create a one-to-many connection between campaigns and projects, you can select multiple projects for each campaign, but each project can be connected to only one campaign.
+예를 들어 캠페인과 프로젝트 간에 일대다 연결을 만드는 경우 각 캠페인에 대해 여러 프로젝트를 선택할 수 있지만 각 프로젝트는 하나의 캠페인에만 연결할 수 있습니다.
 
-A real-life example of a one-to-many relationship type is the relationship between libraries and books: a library has many books in its inventory; but one particular book can only be in one library at a given point in time. 
+일대다 관계 유형의 실제 예는 라이브러리와 책 간의 관계입니다. 라이브러리에는 인벤토리에 많은 책이 있지만 특정 시간에 한 개의 특정 책만 한 라이브러리에 있을 수 있습니다.
 
-When you select this connection type, you can later change it only to a many-to-many connection type. 
+이 연결 유형을 선택하면 나중에 다대다 연결 유형으로만 변경할 수 있습니다.
 
-### Many-to-one connection type
+### 다대일 연결 유형
 
 ![](assets/many-to-one-connection-picker.png)
 
 
-When you create a many-to-one connection between record types, you can then connect each record in the current record type with only one record from the connected record type. The connected record field that is automatically created on the second record type is automatically set to a one-to-many relationship type. 
+레코드 유형 간에 다대일 연결을 만들면 현재 레코드 유형의 각 레코드를 연결된 레코드 유형의 레코드와 연결할 수 있습니다. 두 번째 레코드 유형에서 자동으로 생성된 연결된 레코드 필드는 일대다 관계 유형으로 자동 설정됩니다.
 
-For example, if you connect campaigns with projects and you choose this type of connection, you can add only one project to a campaign. But you can add multiple campaigns to one project. 
+예를 들어, 캠페인을 프로젝트와 연결하고 이 연결 유형을 선택하는 경우 캠페인에 프로젝트를 하나만 추가할 수 있습니다. 그러나 하나의 프로젝트에 여러 캠페인을 추가할 수 있습니다.
 
-A real-life example of a many-to-one relationship type is the relationship between many movies and one actor: one actor can be in many movies, but each movie can only have a specific actor once in its cast. 
+다대일 관계 유형의 실제 예는 많은 영화와 한 배우의 관계입니다. 한 배우는 많은 영화에 출연할 수 있지만 각 영화는 한 번만 특정 배우를 캐스팅할 수 있습니다.
 
-When you select this connection type, you can later change it only to a many-to-many connection type.
+이 연결 유형을 선택하면 나중에 다대다 연결 유형으로만 변경할 수 있습니다.
 
-### One-to-one connection type
+### 일대일 연결 유형
 
 ![](assets/one-to-one-connection-picker.png)
 
-When you create a one-to-one connection between record types, in both record types you can connect each record only with one record from the other record type.
+레코드 종류 간에 일대일 연결을 만들 때 두 레코드 종류 모두에서 각 레코드를 다른 레코드 종류의 레코드로만 연결할 수 있습니다.
 
-For example, if you connect campaigns with projects and you choose this type of connection, you can connect one campaign with one project. One project can be connected only to one campaign. 
+예를 들어, 캠페인을 프로젝트와 연결하고 이 연결 유형을 선택하는 경우 하나의 캠페인과 하나의 프로젝트를 연결할 수 있습니다. 하나의 프로젝트는 하나의 캠페인에만 연결할 수 있습니다.
 
-A real-life example of a one-to-one relationship is the one existing between a person and their country's unique identifier (like a Social Security Number, Passport ID, local identification ID): each person has only one unique identifier for a country and each unique identifier can be linked to only one person. 
+일대일 관계의 실제 예는 개인과 해당 국가의 고유 식별자(예: 사회 보장 번호, 여권 ID, 로컬 ID) 사이에 존재하는 것입니다. 각 개인에는 한 국가에 대한 고유 식별자가 하나만 있으며 각 고유 식별자는 한 개인에게만 연결할 수 있습니다.
 
-When you select this connection type, you can later change it to any other connection type. 
+이 연결 유형을 선택하면 나중에 다른 연결 유형으로 변경할 수 있습니다.
 
--->
+
 
 
 

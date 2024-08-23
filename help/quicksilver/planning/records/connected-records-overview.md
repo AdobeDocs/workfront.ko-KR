@@ -4,9 +4,9 @@ description: 레코드 종류 간에 연결을 만든 후에는 개별 레코드
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
+source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -40,23 +40,17 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
 
 * Workfront 계획 및 보기에 대한 액세스 권한 또는 작업 공간에 대한 상위 권한이 있는 모든 사용자는 레코드 간 또는 레코드와 다른 응용 프로그램의 개체 간에 수행하는 연결을 볼 수 있습니다. 연결하려는 응용 프로그램의 사용 권한에 관계없이 연결된 레코드와 개체를 볼 수 있습니다.
 * 연결된 레코드가 있는 작업 영역에 대한 관리 권한이 있는 경우 다른 사용자의 연결을 보고 편집할 수 있습니다.
-* 한 레코드를 다른 응용 프로그램에서 하나 또는 여러 개체에 연결할 수 있습니다. <!--For more information, see the "Connections types" section in the article [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md). -->
+* 한 레코드를 다른 응용 프로그램에서 하나 또는 여러 개체에 연결할 수 있습니다. 자세한 내용은 문서 [연결된 레코드 형식 개요](/help/quicksilver/planning/architecture/connect-record-types-overview.md)의 &quot;연결 형식&quot; 섹션을 참조하십시오.
 
 ## 레코드를 연결할 수 있는 영역
 
 다음 영역에서 다른 레코드 또는 다른 응용 프로그램의 개체에 레코드를 연결할 수 있습니다.
 
-* Workfront Planning에서 다음 영역의 Workfront 객체에 레코드를 연결할 수 있습니다.
-   * 테이블 보기의 연결된 필드에 있는 Workfront Planning의 Planning 레코드에서.
-   * 레코드 미리 보기 또는 연결된 레코드 필드의 페이지에 있는 Workfront Planning의 Planning 레코드에서.
-  <!--
-  * From a Planning record in Workfront Planning in the record preview or page in the connected record fields on the Details tab.
-  * From a Planning record in the record's preview or page on the Connections tab.  -->
+* Workfront Planning의 레코드를 Planning 레코드의 다음 영역에서 Workfront 객체 또는 Experience Manager Assets 객체에 연결할 수 있습니다.
 
-* 다음 영역에서 Workfront Planning 레코드를 Experience Manager Assets에 연결할 수 있습니다.
-
-   * 테이블 보기의 Workfront Planning에 있는 Planning 레코드에서
-  <!--* From a Planning record in the Connections tab on the record's preview or page.  -->
+   * Planning에 있는 레코드 유형의 테이블 뷰에 있는 연결된 레코드 필드.
+   * 세부 정보 탭의 연결된 레코드 필드에 있는 레코드의 미리 보기 또는 페이지입니다.
+   * 연결 탭의 레코드 미리 보기 또는 페이지입니다.
 
 * 다음 영역에서 Workfront 개체를 Workfront Planning 레코드에 연결할 수 있습니다.
 

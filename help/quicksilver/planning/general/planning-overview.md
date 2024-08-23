@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 2742594d4f835bb2b81b314075ab374f22074d87
+source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
 workflow-type: tm+mt
-source-wordcount: '1900'
+source-wordcount: '1909'
 ht-degree: 2%
 
 ---
@@ -22,14 +22,13 @@ ht-degree: 2%
 >
 >이 문서의 정보는 Adobe Workfront의 새 서비스인 Adobe Workfront Planning을 참조합니다.
 >
->현재 Workfront Planning은 제한된 수의 고객에게 개방되어 있는 초기 액세스 단계에 있습니다.
+>Workfront 고객이어야 하며 조직에서 Workfront Planning의 기능에 액세스하려면 Workfront 계획 외에 Adobe Workfront Planning 계획을 구매해야 합니다. <!--Workfront Planning has been available for purchase for all Workfront customers since August 28, 2024. -->
+>Workfront Planning에 대한 액세스 권한을 얻는 방법에 대한 자세한 내용은 [액세스 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
 >
->이러한 기능을 사용하려면 Workfront 고객이어야 합니다.
->
->이 단계에 속해 있다면 계정 담당자가 귀하에게 알려 주었을 것입니다.
->
->Workfront Planning을 문서화하는 모든 섹션 및 문서의 전체 목록은 [Adobe Workfront Planning: 문서 색인](/help/quicksilver/planning/planning-information.md)을 참조하십시오.
 
+이 문서에는 Workfront Planning에 대한 일반적인 정보가 포함되어 있습니다.
+
+Workfront Planning에 대한 설명서가 포함된 전체 문서 목록은 [Adobe Workfront Planning: 문서 색인](/help/quicksilver/planning/planning-information.md)을 참조하십시오.
 
 ## Adobe Workfront Planning 소개
 
@@ -52,11 +51,16 @@ Adobe Workfront Planning은 Adobe Workfront의 새로운 제품입니다. Workfr
 
 ## 현재 사용 가능한 Adobe Workfront Planning 기능
 
-<!--for GA just make a list of what features ARE included in Planning and eliminate the last 2 columns-->
+<!--for GA just make a list of what features ARE included in Planning and eliminate the last 2 columns; also update the title of this section-->
 
 다음 표는 Workfront Planning에서 사용할 수 있는 주요 기능과 해당 기능의 사용 가능 시간표를 보여 줍니다. 목록에 모든 기능이 포함되지 않습니다.
 
+<!--at GA: update the link below to the new place for release notes-->
+
 새로운 기능 및 릴리스 시기에 대한 자세한 내용은 [Adobe Workfront Planning 현재 릴리스 활동](/help/quicksilver/planning/general/release-activity.md)을 참조하십시오.
+
+<!-- at GA: remove the table below, and instead make a bullet list with the available features in Planning-->
+
 
 | 기능 | 현재 사용 가능 | 곧 출시 예정 | 연구 중 |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|

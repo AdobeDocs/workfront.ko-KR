@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
+source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
 workflow-type: tm+mt
-source-wordcount: '1941'
+source-wordcount: '2636'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,76 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 타�
 
 ## 액세스 요구 사항
 
+<!--Updated for GA-->
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
-<!--at GA the plan below will change to Prime, Select and Ultimate only-->
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> 제품</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront 계획<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront 플랜*</p></td> 
+   <td> 
+<p>다음 Workfront 플랜 중 하나:</p> 
+<ul><li>선택</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning은 기존 Workfront 플랜에 사용할 수 없습니다.</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront 계획 계획*</p></td> 
+   <td> 
+<p>임의 </p> 
+<p>각 Workfront 계획 계획에 포함된 내용에 대한 자세한 내용은 <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront 가격 및 패키징</a>을 참조하십시오. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront 플랫폼</p></td> 
+   <td> 
+<p>Workfront Planning의 모든 기능에 액세스할 수 있으려면 조직의 Workfront 인스턴스가 통합 경험 Adobe에 온보딩되어야 합니다.</p> 
+<p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 통합 경험 Adobe</a>를 참조하십시오. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront 라이센스*</p></td> 
+   <td> <ul><li><p>임의, Workfront Planning 정보를 보려면</p></li>
+   <li><p>표준, 작업 공간 만들기</p></li></ul>
+   <p>기존 Workfront 라이선스에는 Workfront Planning을 사용할 수 없습니다.</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>액세스 수준 구성</p></td> 
+   <td> <p>Adobe Workfront Planning에 대한 액세스 수준 제어가 없습니다.</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>개체 권한</p></td> 
+   <td>   <p>보기에 대한 권한 관리</p>  
+   <p>보기 설정을 일시적으로 변경하기 위해 보기에 대한 이상의 권한을 봅니다.</p> </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>레이아웃 템플릿</p></td> 
+   <td> <p>Workfront 관리자를 포함한 모든 사용자에게 메인 메뉴의 계획 영역을 포함하는 레이아웃 템플릿을 할당해야 합니다. </p> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+*Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서의 [액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
+<!--OLD: 
 
 <table style="table-layout:auto">
  <col>
@@ -47,136 +114,54 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 타�
     <tr>
 <tr>
 <td>
-   <p> 제품</p> </td>
+   <p> Product</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
- <td role="rowheader"><p>Adobe Workfront 계약</p></td>
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Workfront Planning의 조기 액세스 단계에 조직을 등록해야 합니다. </p>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront 플랜</p></td>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
    <td>
-<p>임의</p>
+<p>Any</p>
    </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront 라이센스*</p></td>
-   <td>
-   <p>새로운 기능: 표준</p>
-   또는
-   <p>현재: 플랜 </p> 
-  </td>
-  </tr>
-
-<tr>
-   <td role="rowheader"><p>액세스 수준 구성</p></td>
-   <td> Adobe Workfront Planning에 대한 액세스 제어가 없습니다.</p>  
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader"><p>권한</p></td>
-   <td> <p>보기에 대한 권한 관리</p>  
-   <p>보기에 대한 권한을 보고 일시적으로 보기 설정 변경</p>
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader"><p>레이아웃 템플릿</p></td>
-   <td> <p>Workfront 관리자를 포함한 모든 사용자에게 메인 메뉴의 계획 영역을 포함하는 레이아웃 템플릿을 할당해야 합니다. </p> <p>자세한 내용은 <a href="/help/quicksilver/planning/access/access-overview.md">액세스 개요</a>를 참조하십시오. </p> 
-</td>
-  </tr>
- </tbody>
-</table>
-
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
-
-
-<!--EDIT PERMISSIONS AND ACCESS AND REPLACE THE table above with the following table at Planning GA release: 
-## Access requirements
-
-You must have the following to be able to access Workfront Planning: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Products</p> </td>
-   <td>
-   <ul><li><p> Adobe Workfront</p></li>
-   <li><p> Adobe Workfront Planning<p></li></ul></td>
-  </tr>  
- <tr>
-   <td role="rowheader"><p>Adobe Workfront plan*</p></td>
-   <td>
-<p>Any of the following new Workfront plans:</p>
-<ul><li>Select</li>
-<li>Prime</li>
-<li>Ultimate</li></ul>
-<p>Workfront Planning is not available for legacy Workfront plans</p>
-   </td>
-
-<tr>
-   <td role="rowheader"><p>Adobe Workfront Planning plan*</p></td>
-   <td>
-<p>Any of the following Workfront Planning plans:</p>
-<ul><li>Planning</li>
-<li>Planning Plus</li>
-</ul>
-<p>For more information about what is included in each Workfront Planning plan, see <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront pricing and packaging</a>. </p>
-   </td>
-
-<tr>
-   <td role="rowheader"><p>Adobe Workfront platform</p></td>
-   <td>
-<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access all the capabilities of Workfront Planning</p>
-<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p>
-   </td>
-
-  </tr>
   </tr>
   <tr>
    <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
-   <ul><li><p>Any, to view Workfront Planning information</p></li>
-   <li><p>Standard, to create workspaces</p></li></ul>
-   <p>Workfront Planning is not available for legacy Workfront licenses</p>
+   <p>New: Standard</p>
+   Or
+   <p>Current: Plan </p> 
   </td>
   </tr>
+  
   <tr>
-   <td role="rowheader"><p>Access level configuration</p></td>
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>  
+   <td role="rowheader"><p>Access level configurations</p></td>
+   <td> There are no access controls for Adobe Workfront Planning</p>  
 </td>
   </tr>
-<tr>
-   <td role="rowheader"><p>Object permissions</p></td>
-   <td>
-   <p>Manage permissions to a view</p>  
+
+  <tr>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Manage permissions to a view</p>  
    <p>View permissions to a view to temporarily change the view settings</p>
-  </td>
+</td>
   </tr>
+
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> <p>For information, see <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">Customize the Main Menu using a layout template</a> and and <a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md">Assign users to a layout template</a>. </p>  
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> <p>For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
 
-*For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).  
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
-*********ensure that the link ^^^^^^^^above^^^^^^^^ to Workfront Pricing and Packaging now also includes information about Workfront Planning. If not, talk with Lauren S.***************
-
--->
-
++++
 
 ## 타임라인 보기 관리 {#manage-a-timeline-view}
 
@@ -249,7 +234,11 @@ You must have the following to be able to access Workfront Planning:
    * [필터](#add-filters)
    * [그룹화](#add-grouping)
    * [설정](#edit-the-timeline-view-settings)
-     <!--* [Sort](#add-sort) not sure if this is present in timeline views?!; also check the anchor and make sure it's correct-->
+     <!--* [Sort](#add-sort) not yet in timeline; also check the anchor and make sure it's correct-->
+
+1. (선택 사항) 타임라인에 연결된 레코드를 표시하려면 **분류**&#x200B;를 클릭합니다.
+
+   자세한 내용은 [분류 기능을 사용하여 연결된 레코드를 타임라인 보기로 표시](#break-down-connected-records-in-the-timeline-view) 섹션을 참조하십시오.
 
 ### 필터 추가
 
@@ -329,7 +318,6 @@ You must have the following to be able to access Workfront Planning:
 
 1. **레코드 그룹화 기준** 상자 바깥쪽을 클릭하여 닫습니다.
 1. (선택 사항) **설정**&#x200B;을 클릭한 다음 **색상**&#x200B;을 클릭하여 색상 코드 그룹화합니다. 자세한 내용은 이 문서의 [타임라인 보기 설정 편집](#edit-the-timeline-view-settings) 섹션을 참조하십시오.
-   <!--1. (Optional) Click **Breakdown** to display connected records on the timeline. For information, see the section [Use the Breakdown feature to display connected records in the timeline view](#break-down-connected-records-in-the-timeline-view)-->
 
 <!-- 
 
@@ -419,60 +407,54 @@ this is not possible right now; if this is the same functionality as the table v
 
    선택한 사양과 함께 레코드가 타임라인 보기에 표시됩니다.
 
-<!--
-### Use the Breakdown feature to display connected records in the timeline view
+### 분류 기능을 사용하여 연결된 레코드를 타임라인 보기에 표시합니다
 
-You can display connected records in a record's timeline view by using the Breakdown feature. Breaking down records by their connections allows you to view the timelines of other connected records and understand how they might affect the performance and deadlines of your records. 
+분류 기능을 사용하여 레코드의 타임라인 보기에 연결된 레코드를 표시할 수 있습니다. 레코드와 연결을 분류할 경우 연결된 다른 레코드의 타임라인을 보고 해당 레코드가 성능과 기한에 어떤 영향을 미칠 수 있는지 이해할 수 있습니다.
 
-#### Considerations when using the Breakdown feature
+#### 분류 기능을 사용할 때의 고려 사항
 
-* You can display connected records or objects under the records of the selected record type in the timeline view. 
-* You can display the following in the timeline view, using the Breakdown feature:
-    * Workfront Planning records connected to the selected record type. 
-    * Workfront (*************or AEM Assets*************)  object types connected to the selected record type.
-    * Workfront Planning records or objects from other application that are connected to records connected to the selected record type. 
-    
-        For example, you might connect campaigns to portfolios. In addition, you might connect  another record type, products, with projects, as well as with campaigns. When you build the campaign timeline view, you can break down the campaigns by portfolios, products, and projects. 
+* 타임라인 보기에서 선택한 레코드 유형의 레코드 아래에 연결된 레코드나 개체를 표시할 수 있습니다.
+* 분류 기능을 사용하여 타임라인 보기에 다음을 표시할 수 있습니다.
+   * 선택한 레코드 유형에 연결된 Workfront Planning 레코드입니다.
+   * 선택한 레코드 형식에 연결된 Workfront(************* 또는 AEM Assets *************) 개체 형식입니다.
+   * Workfront Planning 레코드 또는 선택한 레코드 유형에 연결된 레코드에 연결된 다른 응용 프로그램의 객체
 
-* You cannot display object types that are connected only to Workfront objects in Workfront, but are not connected to a Workfront Planning record type. You can only display object or record types that are connected in Workfront Planning. 
+     예를 들어 캠페인을 포트폴리오에 연결할 수 있습니다. 또한 다른 레코드 유형인 제품을 캠페인뿐만 아니라 프로젝트와 연결할 수도 있습니다. 캠페인 타임라인 보기를 작성할 때 포트폴리오, 제품 및 프로젝트별로 캠페인을 분류할 수 있습니다.
 
-    For example, tasks, are connected to projects in Workfront. Using the Breakdown feature, you can display projects that are connected to campaigns in Planning, but not tasks connected to projects in Workfront. 
+* Workfront의 Workfront 개체에만 연결되어 있지만 Workfront Planning 레코드 유형에는 연결되어 있지 않은 개체 유형은 표시할 수 없습니다. Workfront Planning에서 연결된 객체 또는 레코드 유형만 표시할 수 있습니다.
 
-    If you want to display both portfolios and projects in the timeline view of a Workfront Planning record type, both the portfolios and the projects must be connected to the Planning record or to a record connected to the Planning record whose timeline view you are managing.
-* You can only display record types that are associated with at least two date fields. 
-* The date fields for the record types you want to display in the timeline view must be visible in the table view of the selected record type, as lookup fields. 
-* The Start and End dates of the record types you want to display in the timeline view must by in chronological order. For example, if a record has a Start date of January 31 and an End date of January 1, it does not display in the timeline view. For more information, see the section [Manage a timeline view](#manage-a-timeline-view) in this article. 
-* There is a limit of 5 record types that you can include in a record's breakdown. 
+  예를 들어 작업은 Workfront의 프로젝트에 연결됩니다. 분류 기능을 사용하면 Planning의 캠페인에 연결되어 있지만 Workfront의 프로젝트에 연결된 작업은 아닌 프로젝트를 표시할 수 있습니다.
 
+  Workfront Planning 레코드 유형의 타임라인 보기에 포트폴리오와 프로젝트를 모두 표시하려면 포트폴리오와 프로젝트가 모두 Planning 레코드나 관리하는 Planning 레코드의 타임라인 보기에 연결된 레코드에 연결되어 있어야 합니다.
+* 두 개 이상의 날짜 필드와 연결된 레코드 유형만 표시할 수 있습니다.
+* 타임라인 보기에 표시할 레코드 종류의 날짜 필드는 선택한 레코드 종류의 표 보기에서 조회 필드로 표시되어야 합니다.
+* 타임라인 보기에 표시할 레코드 유형의 시작 날짜와 종료 날짜는 시간 순서대로 표시되어야 합니다. 예를 들어 레코드에 시작 날짜가 1월 31일이고 종료 날짜가 1월 1일인 경우 타임라인 보기에 표시되지 않습니다. 자세한 내용은 이 문서의 [타임라인 보기 관리](#manage-a-timeline-view) 섹션을 참조하십시오.
+* 레코드 분류에 포함할 수 있는 레코드 유형은 5개로 제한됩니다.
 
-#### Break down connected records in the timeline view
+#### 타임라인 보기에서 연결된 레코드 분류
 
-1. Create a timeline view for a record type, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
-1. Click **Breakdown**.
-1. Expand the **Select a linked record type** box and select a connected record type. (**************add new screen shot***************)
+1. [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md) 문서에 설명된 대로 레코드 유형에 대한 타임라인 보기를 만듭니다.
+1. (조건부) 표준 모드에서 타임라인 보기를 보려면 **분류**&#x200B;를 클릭합니다.
+1. **연결된 레코드 종류 선택** 상자를 확장하고 연결된 레코드 종류를 선택합니다. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
-    ![](assets/breakdown-picker-and-button-on-timeline.png)
+   ![](assets/breakdown-picker-and-button-on-timeline.png)
 
-    >[!TIP]
-    >
-    >    If you do not have any connected records, or if the connected records do not have at least two date fields, the **Select a linked record type** box is not available.
+   >[!TIP]
+   >
+   >    연결된 레코드가 없거나 연결된 레코드에 둘 이상의 날짜 필드가 없는 경우 **연결된 레코드 종류 선택** 상자를 사용할 수 없습니다.
 
-1. Choose a **Start date** and an **End date field**.
+1. **시작 날짜** 및 **종료 날짜 필드**&#x200B;를 선택하세요.
 
-    >[!TIP]
-    >
-    >    The Start and End dates must be sequential. If the End date is before the Start date, no records will display in the timeline. 
+   >[!TIP]
+   >
+   >    시작 및 종료 날짜는 순차적이어야 합니다. 종료 날짜가 시작 날짜 이전이면 타임라인에 레코드가 표시되지 않습니다.
 
-    A right-pointing arrow displays on the selected record's bar in the timeline, if they they are connected with other records. 
+   다른 레코드와 연결된 경우 타임라인에서 선택한 레코드의 막대에 오른쪽 방향 화살표가 표시됩니다.
+1. 레코드 유형을 확장하고 연결을 표시하려면 오른쪽 화살표를 클릭합니다.
 
-    ![](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)    
+   ![](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
 
-
-1. (Optional) Repeat the steps above to add more connected records. 
-
-    >[!TIP]
-    >
-    >    You can add up to 5 connected records in a timeline using the Breakdown feature. 
+1. (선택 사항) 연결된 레코드를 더 추가하려면 위의 단계를 반복합니다.
 
 
--->
+

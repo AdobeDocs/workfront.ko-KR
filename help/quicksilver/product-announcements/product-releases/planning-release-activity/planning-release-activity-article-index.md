@@ -1,12 +1,12 @@
 ---
 title: "Adobe Workfront Planning 릴리스 활동: 문서 색인"
-description: Adobe Workfront Planning 제품의 릴리스 활동입니다.
+description: Adobe Workfront Planning 제품에 대한 릴리스 활동을 문서화하는 문서 목록입니다.
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
+source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
 workflow-type: tm+mt
-source-wordcount: '34'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
@@ -29,5 +29,19 @@ hide: yes
 <!--add to TOC and miniTOC-->
 
 # Adobe Workfront Planning 릴리스 활동: 문서 색인
+
+<!--remove the Important with the 25.1 release-->
+
+>[!IMPORTANT]
+>
+>이 문서의 정보는 Adobe Workfront의 새 서비스인 Adobe Workfront Planning을 참조합니다.
+>
+>Workfront Planning 기능에 액세스하고 사용하려면 Workfront 계획 외에 Workfront Planning 계획을 구매해야 합니다.
+>
+>Workfront Planning에 액세스하기 위한 전체 요구 사항 목록은 [액세스 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
+>Workfront Planning에 대한 개요는 [Adobe Workfront Planning 개요](/help/quicksilver/planning/general/planning-overview.md)를 참조하십시오.
+>
+
+이 문서에는 Adobe Workfront Planning 제품에 대한 릴리스 활동 정보 목록이 포함되어 있습니다.
 
 * [Adobe Workfront Planning의 2024년 4분기 릴리스 활동](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)

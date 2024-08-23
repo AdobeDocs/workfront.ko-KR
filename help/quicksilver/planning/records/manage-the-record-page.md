@@ -5,14 +5,14 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
+source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1356'
 ht-degree: 0%
 
 ---
 
-<!--update the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # 레코드 페이지 레이아웃 관리
 
@@ -36,7 +36,11 @@ Adobe Workfront Planning에서 레코드 미리 보기 및 페이지의 레이�
 
 ## 액세스 요구 사항
 
+<!--Updated for GA-->
+
 +++ 를 확장하여 Workfront Planning에 대한 액세스 요구 사항을 봅니다.
+
+Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 
 <table style="table-layout:auto">
  <col>
@@ -49,49 +53,63 @@ Adobe Workfront Planning에서 레코드 미리 보기 및 페이지의 레이�
 <td>
    <p> 제품</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <ul><li><p> Adobe Workfront</p></li>
+   <li><p> Adobe Workfront 계획<p></li></ul></td>
   </tr>  
- <td role="rowheader"><p>Adobe Workfront 계약</p></td>
+ <tr>
+   <td role="rowheader"><p>Adobe Workfront 플랜*</p></td>
    <td>
-<p>Workfront Planning의 조기 액세스 단계에 조직을 등록해야 합니다. </p>
+<p>다음 Workfront 플랜 중 하나:</p>
+<ul><li>선택</li>
+<li>Prime</li>
+<li>Ultimate</li></ul>
+<p>Workfront Planning은 기존 Workfront 플랜에 사용할 수 없습니다.</p>
    </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront 플랜</p></td>
+
+<tr>
+   <td role="rowheader"><p>Adobe Workfront 계획 계획*</p></td>
    <td>
 <p>임의</p>
+<p>각 Workfront 계획 계획에 포함된 내용에 대한 자세한 내용은 <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront 가격 및 패키징</a>을 참조하십시오. </p>
    </td>
+
+<tr>
+   <td role="rowheader"><p>Adobe Workfront 플랫폼</p></td>
+   <td>
+<p>Workfront Planning의 모든 기능에 액세스할 수 있으려면 조직의 Workfront 인스턴스가 통합 경험 Adobe에 온보딩되어야 합니다.</p>
+<p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 통합 경험 Adobe</a>를 참조하십시오. </p>
+   </td>
+
+</tr>
   </tr>
   <tr>
    <td role="rowheader"><p>Adobe Workfront 라이센스*</p></td>
    <td>
-   <p>새로운 기능: 표준</p>
-   또는
-   <p>현재: 플랜</p> 
+   <p>표준</p>
+   <p>기존 Workfront 라이선스에는 Workfront Planning을 사용할 수 없습니다.</p>
   </td>
   </tr>
-
-<tr>
+  <tr>
    <td role="rowheader"><p>액세스 수준 구성</p></td>
-   <td> <p>Adobe Workfront Planning에 대한 액세스 제어가 없습니다.</p>  
+   <td> <p>Adobe Workfront Planning에 대한 액세스 수준 제어가 없습니다.</p>  
 </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>권한</p></td>
-   <td> <p>작업 영역</a>에 대한 권한 관리 </p>  
-   <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p>
-</td>
+   <td role="rowheader"><p>개체 권한</p></td>
+   <td>
+   <p>작업 영역</a>에 대한 권한 관리 </p>  
+   <p>시스템 관리자는 만들지 않은 작업 영역을 포함하여 모든 작업 영역에 대한 권한을 가집니다</p> 
+  </td>
   </tr>
 <tr>
    <td role="rowheader"><p>레이아웃 템플릿</p></td>
-   <td> <p>Workfront 또는 그룹 관리자는 레이아웃 템플릿에 계획 영역을 추가해야 합니다. 자세한 내용은 <a href="/help/quicksilver/planning/access/access-overview.md">액세스 개요</a>를 참조하십시오. </p>  
+   <td> <p>Workfront 관리자를 비롯한 모든 사용자에게는 프로젝트, 포트폴리오 및 프로그램의 계획 영역과 주 메뉴의 계획 영역을 포함하는 레이아웃 템플릿을 할당해야 합니다. </p> 자세한 내용은 <a href="/help/quicksilver/planning/access/access-overview.md">액세스 개요</a>를 참조하십시오. </p>  </p>  
 </td>
   </tr>
-
-</tbody>
+ </tbody>
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+*Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서의 [액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -145,11 +163,11 @@ Adobe Workfront Planning에서 레코드 미리 보기 및 페이지의 레이�
 
 1. (선택 사항) 레코드 미리 보기의 오른쪽 상단에 있는 **새 탭에서 열기** 아이콘 ![](assets/open-details-in-a-new-tab-icon.png)을(를) 클릭하여 새 탭에서 레코드 페이지를 엽니다.
 
-   레코드 페이지가 열립니다. <!--The Details tab opens by default. -->
+   레코드 페이지가 열립니다. 기본적으로 세부 정보 탭이 열립니다.
 
    ![](assets/details-page.png)
 
-1. <!--**Details** tab of the--> 레코드 미리 보기 또는 페이지에서 필드 왼쪽의 공백 위로 마우스를 가져간 다음 **섹션 추가** 아이콘 ![](assets/add-section-icon.png)을(를) 클릭하여 섹션을 추가합니다.
+1. 레코드 미리 보기 또는 페이지의 **세부 정보** 탭에서 필드 왼쪽의 공백 위로 마우스를 가져간 다음 **섹션 추가** 아이콘 ![](assets/add-section-icon.png)을(를) 클릭하여 섹션을 추가합니다.
 1. 섹션 이름 내부를 클릭하고 **제목 없는 섹션**&#x200B;을(를) 이름으로 바꾼 다음 Enter를 클릭합니다. 섹션 아래에 표시되는 필드는 자동으로 새 섹션의 일부입니다.
 1. 이 문서의 [레코드 미리 보기 또는 세부 정보 페이지에서 필드 다시 정렬](#rearrange-fields-in-the-record-preview-or-details-page) 섹션에 설명된 대로 필드를 새 섹션으로 끌어다 놓습니다.
 
@@ -182,11 +200,23 @@ Adobe Workfront Planning에서 레코드 미리 보기 및 페이지의 레이�
 
    섹션과 필드 순서에 대한 모든 변경 사항은 자동으로 저장됩니다.
 
-<!--1. (Optional) Click the **Connections** tab. All records or objects that are connected to the selected record display under the names of the record type, or the application they belong to. 
+1. (선택 사항) 세부 정보 탭을 Word 파일로 내보내려면 **내보내기** 아이콘 ![](assets/export-icon-in-record-details-page.png)을(를) 클릭합니다. 자세한 내용은 [레코드 세부 정보 내보내기](/help/quicksilver/planning/records/export-the-record-page.md)를 참조하십시오.
 
-      ![](assets/connections-tab-on-record-in-workfront-planning.png)
+1. (선택 사항) **세부 정보** 탭 옆에 있는 **연결** 탭을 클릭합니다. **연결** 탭을 클릭하기 전에 **자세히**&#x200B;를 클릭해야 할 수 있습니다.
 
-      For information about connecting records from the Connections tab, see [Connect records](/help/quicksilver/planning/records/connect-records.md). -->
+   선택한 레코드에 연결된 모든 레코드 또는 개체는 레코드 유형 또는 해당 레코드가 속한 응용 프로그램의 이름 아래에 표시됩니다.
+
+   ![](assets/connections-tab-on-record-in-workfront-planning.png)
+
+1. (선택 사항) [연결] 탭의 오른쪽 상단 모서리에서 **모든 레코드 표시** 설정을 선택합니다. 아직 연결된 레코드가 없는 레코드 종류를 포함하여 연결된 모든 레코드 종류가 표시됩니다. 기본적으로 토글이 선택 해제되고 연결된 레코드가 없는 레코드 유형이 숨겨집니다.
+
+1. (선택 사항) 연결된 레코드 형식에 레코드를 더 추가하려면 **연결**&#x200B;을 클릭합니다. 자세한 내용은 [레코드 연결](/help/quicksilver/planning/records/connect-records.md)을 참조하세요.
+
+1. (선택 사항) 레코드 카드 위로 마우스를 가져간 다음 레코드 연결 끊기 아이콘 **-**&#x200B;을 클릭한 다음 **연결 끊기**&#x200B;를 클릭합니다. <!--this is copied to the Manage the Planning page in Workfront article; update in both articles-->
+다음과 같은 상황이 발생합니다.
+   * 레코드가 더 이상 Workfront 개체에 연결되어 있지 않습니다.
+   * Workfront 개체는 Workfront Planning에서 레코드의 연결된 필드에서도 제거됩니다.
+   * 계획 레코드에 연결된 Workfront 조회 필드의 값도 삭제됩니다.
 
 ## 레코드의 미리 보기 또는 페이지에서 필드 다시 정렬
 
