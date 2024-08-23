@@ -6,9 +6,9 @@ author: Becky
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: e1ac95e8be0f6059700ddacb120b08c7c7b683b1
+source-git-commit: 1517f7480bbe481bc918876441d1b70b09963a97
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -56,6 +56,8 @@ Workfront의 AI 어시스턴트는 자연어 대화에서 인앱 정보와 제�
 * Adobe 통합 경험을 활성화해야 합니다.
 * 조직에 Select, Prime 또는 Ultimate Workfront 플랜이 있어야 합니다.
 * Adobe은 파일에 서명된 Adobe Gen AI 계약이 있어야 합니다.
+
+  계약 서명에 대한 자세한 내용은 이 문서에서 [Adobe Gen AI 계약 서명](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)을 참조하십시오.
 
 ## AI Assistant에 대한 고려 사항
 
