@@ -1,23 +1,25 @@
 ---
-title: Adobe Workfront Planning에서 요청 양식 만들기
-description: Adobe Workfront Planning 영역에서 레코드 유형을 선택한 후 해당 레코드 유형과 연결된 요청 양식을 작성하고 이에 대한 링크를 다른 내부 또는 외부 사용자와 공유할 수 있습니다.
+title: Adobe Workfront Planning에서 요청 양식 생성 및 관리
+description: Adobe Workfront Planning 영역에서 레코드 유형을 선택한 후 요청 양식을 만들어 해당 레코드 유형과 연결할 수 있습니다. 그런 다음 다른 내부 또는 외부 사용자와 링크를 공유할 수 있습니다. 양식에 대한 링크가 있는 사용자는 해당 양식의 필드 값을 채울 수 있으며, 양식 제출을 통해 관련 레코드 유형에 대한 새 레코드를 추가할 수 있습니다.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
+source-git-commit: 80d9fc7f8cf28de8dbb8f1c53835940142681906
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '1101'
 ht-degree: 2%
 
 ---
 
-# Adobe Workfront Planning에서 요청 양식 만들기
+# Adobe Workfront Planning에서 요청 양식 만들기 및 관리
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 {{planning-important-intro}}
 
 Adobe Workfront Planning 영역에서 레코드 유형을 선택한 후 요청 양식을 만들어 해당 레코드 유형과 연결할 수 있습니다. 그런 다음 다른 내부 또는 외부 사용자와 링크를 공유할 수 있습니다. <!--double-check on the external part of it-->
+
+양식에 대한 링크가 있는 사용자는 해당 양식의 필드 값을 채울 수 있으며, 양식 제출을 통해 관련 레코드 유형에 대한 새 레코드를 추가할 수 있습니다.
 
 ## 액세스 요구 사항
 
@@ -52,7 +54,8 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 <tr>
    <td role="rowheader"><p>Adobe Workfront 계획 계획*</p></td>
    <td>
-<p>임의 </p>   </td>
+<p>임의 </p>  
+<p>각 Workfront 계획 계획에 포함된 내용에 대한 자세한 내용은 <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront 가격 및 패키징</a>을 참조하십시오. </td>
 
 <tr>
    <td role="rowheader"><p>Adobe Workfront 플랫폼</p></td>
@@ -118,31 +121,76 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 
 1. Click **Create**. 선택한 레코드 유형에 대한 요청 양식이 열립니다.
 
+   ![](assets/campaigns-request-form-edit-mode.png)
+
    요청 양식에는 기본적으로 다음 정보가 포함되어 있습니다.
 
+   * 선택한 레코드 유형의 표 보기에서 사용할 수 있는 모든 레코드 필드.
    * **기본 섹션**: Workfront이 요청 양식에 적용하는 기본 섹션 구분입니다. 기본 섹션의 이름을 변경하거나 제거할 수 없습니다.
    * **제목** 필드: Workfront에서 요청을 식별하는 필드입니다. 이 기능은 아직 사용할 수 없습니다.
    * 레코드 유형과 연결된 모든 필드.
 
    요청 양식에 포함된 필드는 이 레코드 유형에 요청을 제출하는 모든 사람에게 표시됩니다.
 
-1. (선택 사항) **제목** 필드는 Workfront Planning에 표시되지 않으므로 제거합니다. <!--remove this step when we connect intake with the Requests area in Workfront-->
-1. 제거할 양식의 모든 필드 위에 마우스를 올려 놓습니다. 양식 왼쪽의 **필드** 탭에 추가됩니다.
-1. 필드를 클릭한 다음 양식의 오른쪽에 있는 컨트롤을 사용하여 필드에 대한 다음 정보를 정의합니다.
+1. (선택 사항) 제거할 양식의 필드 위에 마우스를 놓은 다음 **x** 아이콘을 클릭하여 제거합니다. 양식 왼쪽의 **필드** 탭에 추가됩니다.
+
+   예를 들어 **제목** 필드는 Workfront Planning에 표시되지 않으므로 제거합니다. <!--remove this step when we connect intake with the Requests area in Workfront-->
+1. 필드를 클릭한 다음 양식의 오른쪽에 있는 컨트롤을 사용하여 해당 크기나 필드에 대한 다음 정보 중 하나를 정의합니다.
 
    * **레이블**: 요청 양식에 표시되는 필드 이름입니다. 레코드 필드의 이름은 변경되지 않습니다.
    * **지침**: 필드에 대한 정보를 더 추가합니다.
    * **필수 필드 만들기**: 선택한 경우 필드에 값이 있어야 합니다. 그렇지 않으면 양식을 제출할 수 없습니다.
    * **논리 추가**: 필드가 표시되거나 숨겨지기 위해 충족되어야 하는 조건을 정의합니다.
 
-1. 양식 오른쪽에 있는 콘텐츠 요소 탭을 클릭하고 다음 요소 중 하나를 추가합니다.
+1. (선택 사항) 양식 왼쪽에 있는 **콘텐츠 요소** 탭을 클릭하고 다음 요소를 추가합니다.
 
-   * 설명 텍스트
-   * 섹션 구분
+   * **설명 텍스트**
+   * **섹션 구분**
 
    사용자 지정 양식을 작성하는 방법에 대한 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
 
+1. (선택 사항) **미리 보기**&#x200B;를 클릭하여 다른 사용자가 새 레코드를 제출하는 데 사용할 양식을 표시할 방법을 확인합니다.
+1. 양식을 게시하고 고유한 링크를 얻으려면 **Publish**&#x200B;을(를) 클릭하십시오.
 
+   다음과 같은 상황이 발생합니다.
+
+   * Publish 버튼이 제거됩니다.
+   * **게시 취소** 단추가 양식에 추가됩니다. 클릭하면 양식에 액세스할 수 없습니다.
+   * **공유** 단추가 양식에 추가됩니다.
+
+1. 양식을 다른 사용자와 공유하려면 **공유**&#x200B;를 클릭하세요.
+
+   ![](assets/share-box-for-request-form.png)
+
+1. 이 양식에 액세스할 수 있는 사용자 유형을 나타내려면 다음 옵션 중에서 선택합니다.
+
+   * 작업 영역에 대한 보기 이상의 액세스 권한이 있는 모든 사용자
+   * 작업 영역에 대한 참여 이상의 액세스 권한이 있는 모든 사용자
+   * 링크를 보유한 모든 사용자
+
+   >[!IMPORTANT]
+   >
+   >링크가 있는 사용자를 선택하면 누구나, Workfront 계정이 없는 조직 외부의 사람도 양식에 액세스하여 새 레코드를 제출할 수 있습니다.
+
+1. (조건부) 이전 단계에서 **링크가 있는 모든 사용자**&#x200B;를 선택한 경우 사용 가능한 달력에서 **링크 만료 날짜**&#x200B;를 선택하십시오. 링크가 만료된 후 오류가 발생하며 양식 액세스 권한을 다시 부여받으려면 먼저 링크 날짜를 업데이트해야 합니다.  <!--add info here about how long the expiration date should be; logged bug-->
+
+1. **링크 저장 및 복사**&#x200B;를 클릭하여 양식에 대한 공유 세부 정보를 저장합니다.
+
+   양식 공유 옵션이 저장되고 링크가 클립보드에 복사됩니다. 이제 다른 사용자와 공유할 수 있습니다.
+
+   요청 양식에 대한 링크를 사용하여 레코드를 만드는 방법에 대한 자세한 내용은 [Adobe Workfront Planning 요청 제출](/help/quicksilver/planning/requests/submit-requests.md)을 참조하십시오.
+
+1. 화면 오른쪽 아래 모서리에 있는 **저장**&#x200B;을 클릭하여 양식을 저장합니다.
+1. 머리글에서 양식 이름 왼쪽에 있는 왼쪽 화살표를 클릭하여 양식을 닫습니다.
+
+   레코드 유형 페이지가 열립니다.
+1. (선택 사항) 헤더에서 레코드 형식 이름 오른쪽에 있는 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭한 후 다음 중 하나를 수행합니다.
+   * 요청 양식을 변경하려면 **요청 양식 업데이트**&#x200B;를 클릭하십시오.
+   * **요청 양식에 대한 링크 복사**&#x200B;를 클릭하여 양식에 대한 링크를 다른 사용자와 공유합니다.
+
+   >[!TIP]
+   >
+   >이러한 경우 링크가 공개적으로 공유된다는 표시가 있습니다.
 
 
 

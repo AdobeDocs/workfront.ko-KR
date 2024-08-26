@@ -1,30 +1,19 @@
 ---
 title: 필드 개요
 description: 조직의 라이프사이클을 반영하는 새 필드를 Adobe Workfront Planning에 추가할 수 있습니다. 필드는 레코드 유형의 속성입니다.
-hidefromtoc: true
-hide: true
-recommendations: noDisplay, noCatalog
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
+source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 2%
 
 ---
 
+
 # 필드 개요
-
-<!--
-title: Field overview
-description: You can add new fields in Adobe Workfront Planning that reflect your organization's lifecycle. Fields are attributes of record types. 
-hidefromtoc: yes
-author: Alina
-feature: Work Management (***************WE NEED A NEW ONE HERE***********)
-role: User, Admin
-hide: yes
--->
-
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 {{planning-important-intro}}
 

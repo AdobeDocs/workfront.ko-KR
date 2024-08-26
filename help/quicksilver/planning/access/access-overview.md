@@ -1,30 +1,42 @@
 ---
 title: 액세스 개요
-description: Adobe Workfront Planning을 사용하려면 라이선스 및 공유 권한 제한이 있습니다.
-hidefromtoc: true
-hide: true
+description: 조직의 모든 사용자가 Adobe Workfront Planning을 사용할 수 있는 동일한 액세스 및 권한을 가지고 있는 것은 아닙니다. 이 문서에서는 사용자가 Adobe Workfront Planning의 기능을 사용해야 할 수 있는 액세스 및 권한에 대해 설명합니다.
+author: Alina
+feature: Workfront Planning
 recommendations: noDisplay, noCatalog
+role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 0%
+source-wordcount: '665'
+ht-degree: 1%
 
 ---
 
-<!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Workfront Planning. This article describes the levels of access that users could have to Adobe Workfront Planning. -->
-<!--update the title and the metadata title if Workfront Planning is NOT its own product - because the title is too generic for it being a Workfront capability-->
 
 # 액세스 개요
 
-{{planning-important-intro}}
+<!--do not use the snippet for IMPORTANT , as it links to this article-->
+
+>[!IMPORTANT]
+>
+>이 문서의 정보는 Adobe Workfront의 새 서비스인 Adobe Workfront Planning을 참조합니다.
+>
+>Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
+>
+>* 새로운 Workfront 플랜 및 라이선스. 기존 Workfront 계획 또는 라이선스에는 Workfront Planning을 사용할 수 없습니다.
+>* Workfront Planning에 대한 추가 라이선스.
+>* 조직의 Workfront 인스턴스는 통합 경험 Adobe에 온보딩되어야 합니다.
+>
+>Workfront Planning에 대한 자세한 내용은 [Adobe Workfront Planning 개요](/help/quicksilver/planning/general/planning-overview.md)를 참조하십시오.
 
 Adobe Workfront Planning을 사용하려면 라이선스 및 공유 권한 제한이 있습니다.
 
 ## 액세스 요구 사항
 
-<!--do not collapse this table because this is the main content for this article-->
-<!--replace the table below with the next table, at GA-->
+<!--do not collapse the access requirements below - this is the main article about Access overview-->
+
+<!--*********ensure that the link ^^^^^^^^below^^^^^^^^ to Workfront Pricing and Packaging now also includes information about Workfront Planning. If not, talk with Lauren S.***************-->
 
 Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 
@@ -39,32 +51,44 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 <td>
    <p> 제품</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <ul><li><p> Adobe Workfront</p></li>
+   <li><p> Adobe Workfront 계획<p></li></ul></td>
   </tr>  
- <td role="rowheader"><p>Adobe Workfront 계약</p></td>
+ <tr>
+   <td role="rowheader"><p>Adobe Workfront 플랜*</p></td>
    <td>
-<p>Workfront Planning의 조기 액세스 단계에 조직을 등록해야 합니다. </p>
+<p>다음 Workfront 플랜 중 하나:</p>
+<ul><li>선택</li>
+<li>Prime</li>
+<li>Ultimate</li></ul>
+<p>Workfront Planning은 기존 Workfront 플랜에 사용할 수 없습니다.</p>
    </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront 플랜</p></td>
+
+<tr>
+   <td role="rowheader"><p>Adobe Workfront 계획 계획*</p></td>
    <td>
-<p>임의</p>
+<p>다음 Workfront 계획 중 하나.</p>
+<ul><li>계획 수립</li>
+<li>계획 플러스</li>
+</ul>
+<p>각 Workfront 계획 계획에 포함된 내용에 대한 자세한 내용은 <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront 가격 및 패키징</a>을 참조하십시오. </p>
    </td>
+
+<tr>
+   <td role="rowheader"><p>Adobe Workfront 플랫폼</p></td>
+   <td>
+<p>Workfront Planning의 모든 기능에 액세스할 수 있으려면 조직의 Workfront 인스턴스가 통합 경험 Adobe에 온보딩되어야 합니다.</p>
+<p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 통합 경험 Adobe</a>를 참조하십시오. </p>
+   </td>
+
+</tr>
   </tr>
   <tr>
    <td role="rowheader"><p>Adobe Workfront 라이센스*</p></td>
    <td>
-   <p>임의, Workfront 계획 정보 보기</p>
-   <p>작업 공간을 만들려면 다음 라이센스가 있어야 합니다.</p>
-   <ul>
-   <li>
-   새로운 기능: 표준
-   </li>
-   <li>
-   현재: 플랜
-   </li>
-   </ul>
+   <ul><li><p>Workfront Planning 정보를 보려면 표준, 라이트 또는 기여자</p></li>
+   <li><p>표준, 작업 공간 및 뷰 생성</p></li></ul>
+   <p>기존 Workfront 라이선스에는 Workfront Planning을 사용할 수 없습니다.</p>
   </td>
   </tr>
   <tr>
@@ -75,16 +99,20 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 <tr>
    <td role="rowheader"><p>개체 권한</p></td>
    <td>
-   <p>작업 영역 및 보기를 편집, 삭제 및 공유하고, 레코드 유형 및 레코드를 생성, 편집 또는 삭제하기 위해 만들지 않은 작업 영역 및 보기에 대한 Contribute 이상의 권한입니다.</p>
-    <p>시스템 관리자는 자신이 만들지 않은 작업 공간을 관리할 수 있습니다. </p>
-    <p>시스템 관리자는 자신이 만들지 않은 보기를 관리할 수 없습니다. </p>
+   <ul>
+   <li><p>작업 영역 및 해당 객체에 액세스하기 위해 작성하지 않은 뷰 및 작업 영역에 대한 이상의 권한을 봅니다.</p></li>
+   <li><p>레코드 유형 및 레코드를 만들거나, 편집하거나, 삭제하기 위해 만들지 않은 작업 영역에 대한 Contribute 이상의 권한입니다.</p></li>
+   <li><p>만들거나, 편집하고, 삭제하고, 공유하지 않은 보기에 대한 Contribute 이상의 권한</p>
+   </li>
+    <li><p>시스템 관리자는 자신이 만들지 않은 작업 공간을 관리할 수 있습니다. </p></li>
+    <li><p>시스템 관리자는 자신이 만들지 않은 보기에 액세스할 수 없습니다. </p></li></ul>
    <p>Workfront Planning 객체의 권한 공유에 대한 자세한 내용은  
    <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">Adobe Workfront Planning의 공유 권한 개요</a> 
   </td>
   </tr>
 <tr>
    <td role="rowheader"><p>레이아웃 템플릿</p></td>
-   <td> <p>Workfront 관리자를 포함한 모든 사용자에게 메인 메뉴의 계획 영역을 포함하는 레이아웃 템플릿을 할당해야 합니다. </p> <p>자세한 내용은 <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">레이아웃 템플릿을 사용하여 기본 메뉴 사용자 지정</a> 및 <a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md">레이아웃 템플릿에 사용자 할당</a>을 참조하십시오. </p>  
+   <td> <p>Workfront 관리자를 포함한 모든 사용자에게는 주 메뉴의 계획 영역과 Workfront Planning에 연결할 수 있는 객체(프로젝트, 포트폴리오 및 프로그램)에 대한 계획 영역이 포함된 레이아웃 템플릿이 할당되어야 합니다. </p> <p>자세한 내용은 <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">레이아웃 템플릿을 사용하여 기본 메뉴 사용자 지정</a> 및 <a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md">레이아웃 템플릿에 사용자 할당</a>을 참조하십시오. </p>  
 </td>
   </tr>
  </tbody>
@@ -92,12 +120,10 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 
 *Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서의 [액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
-<!--replace the table above with the following table at Planning GA release: 
-## Access requirements
 
-********************do not collapse this table because this is part of the main information in this article*********
+<!--Acccess and permissions before GA (OLD): 
 
-You must have the following to be able to access Workfront Planning: 
+You must have the following to be able to access Workfront Planning:
 
 <table style="table-layout:auto">
  <col>
@@ -108,46 +134,34 @@ You must have the following to be able to access Workfront Planning:
     <tr>
 <tr>
 <td>
-   <p> Products</p> </td>
+   <p> Product</p> </td>
    <td>
-   <ul><li><p> Adobe Workfront</p></li>
-   <li><p> Adobe Workfront Planning<p></li></ul></td>
+   <p> Adobe Workfront</p> </td>
   </tr>  
- <tr>
-   <td role="rowheader"><p>Adobe Workfront plan*</p></td>
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Any of the following Workfront plans:</p>
-<ul><li>Select</li>
-<li>Prime</li>
-<li>Ultimate</li></ul>
-<p>Workfront Planning is not available for legacy Workfront plans</p>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
    </td>
-
-<tr>
-   <td role="rowheader"><p>Adobe Workfront Planning plan*</p></td>
-   <td>
-<p>Any of the following Workfront Planning plans:</p>
-<ul><li>Planning</li>
-<li>Planning Plus</li>
-</ul>
-<p>For more information about what is included in each Workfront Planning plan, see <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront pricing and packaging</a>. </p>
-   </td>
-
-<tr>
-   <td role="rowheader"><p>Adobe Workfront platform</p></td>
-   <td>
-<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access all the capabilities of Workfront Planning.</p>
-<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p>
-   </td>
-
   </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
+   <td>
+<p>Any</p>
+   </td>
   </tr>
   <tr>
    <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
-   <ul><li><p>Any, to view Workfront Planning information</p></li>
-   <li><p>Standard, to create workspaces and views</p></li></ul>
-   <p>Workfront Planning is not available for legacy Workfront licenses</p>
+   <p>Any, to view Workfront planning information</p>
+   <p>To create workspaces, you must have the following license:</p>
+   <ul>
+   <li>
+   New: Standard
+   </li>
+   <li>
+   Current: Plan
+   </li>
+   </ul>
   </td>
   </tr>
   <tr>
@@ -158,30 +172,24 @@ You must have the following to be able to access Workfront Planning:
 <tr>
    <td role="rowheader"><p>Object permissions</p></td>
    <td>
-   <ul>
-   <li><p>View or higher permissions to workspaces and views that you did not create to access them and their objects.</p></li>
-   <li><p>Contribute or higher permissions to workspaces that you did not create to edit them and create, edit, or delete record types and records.</p></li>
-   <li><p>Contribute or higher permissions to views you did not create, to edit, delete, and share them</p>
-   </li>
-    <li><p>System Administrators can manage workspaces they did not create. </p></li>
-    <li><p>System Administrators cannot access views they did not create. </p></li></ul>
+   <p>Contribute or higher permissions to workspaces and views that you did not create to edit, delete, and share them, and to create, edit, or delete record types and records.</p>
+    <p>System Administrators can manage workspaces they did not create. </p>
+    <p>System Administrators cannot manage views they did not create. </p>
    <p>For information about sharing permissions for Workfront Planning objects, see  
    <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">Overview of sharing permissions in Adobe Workfront Planning</a> 
   </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu and the Planning area for the objects that can connect to Workfront Planning: projects, portfolios, and programs. </p> <p>For information, see <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">Customize the Main Menu using a layout template</a> and and <a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md">Assign users to a layout template</a>. </p>  
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> <p>For information, see <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">Customize the Main Menu using a layout template</a> and and <a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md">Assign users to a layout template</a>. </p>  
 </td>
   </tr>
  </tbody>
 </table>
 
-*For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).  
+*For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).  -->
 
-*********ensure that the link ^^^^^^^^above^^^^^^^^ to Workfront Pricing and Packaging now also includes information about Workfront Planning. If not, talk with Lauren S.***************
 
--->
 
 ## 다른 사용자와 메인 메뉴의 계획 영역 공유
 
@@ -205,15 +213,15 @@ You must have the following to be able to access Workfront Planning:
 
 ## 액세스 권한 부여
 
-Workfront Planning에 대한 액세스 제어가 없습니다.
+Workfront Planning에 대한 Workfront 액세스 제어가 없습니다.
 
-모든 유형의 라이선스가 있는 사용자는 Workfront Planning에 액세스할 수 있습니다.
+모든 유형의 Workfront 라이선스가 있는 사용자는 Workfront Planning에 액세스할 수 있습니다.
 
 <!--For information about granting access in Workfront, see [Create and modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
 ## 권한 부여
 
-사용자가 액세스할 수 있도록 사용자가 만드는 작업 공간 및 보기에 대한 사용 권한을 사용자에게 부여해야 합니다.
+사용자가 Workfront Planning 작업 공간 및 뷰에 액세스하려면 사용자에게 사용자가 생성한 작업 공간 및 뷰에 대한 권한을 부여해야 합니다.
 
 자세한 내용은 [Adobe Workfront Planning의 공유 권한 개요](/help/quicksilver/planning/access/sharing-permissions-overview.md)를 참조하십시오.
 

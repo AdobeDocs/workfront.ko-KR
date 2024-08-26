@@ -1,34 +1,17 @@
 ---
+content-type: release-notes
 title: "24.10 릴리스에 대한 Adobe Workfront Planning 릴리스 활동"
-description: 2024년 4분기 Adobe Workfront 릴리스 중 Workfront Planning 제품에 대한 릴리스 활동입니다.
+description: 2024년 4분기 Adobe Workfront Planning 제품 릴리스 활동입니다.
+author: Alina
+feature: Product Announcements
 recommendations: noDisplay, noCatalog
-hidefromtoc: true
-hide: true
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 0%
 
 ---
 
-
-<!--update metadata:
-
----
-content-type: release-notes
-title: "Adobe Workfront Planning Release Activity for the 24.10 Release"
-description: This is the release activity for the Adobe Workfront Planning product. 
-author: Alina
-feature: Product Announcements
-recommendations: noDisplay, noCatalog
-hidefromtoc: yes
-hide: yes
---- -->
-
-
-<!--add to TOC and miniTOC-->
-
-<!-- send Nolan a link to this article for the 24.10 (q4) release overview page-->
 
 # Adobe Workfront Planning의 2024년 4분기 릴리스 활동
 
@@ -47,15 +30,15 @@ hide: yes
 이 문서에서는 2024년 4분기 릴리스 동안 Workfront Planning에 대해 릴리스되는 기능에 대해 설명합니다.
 
 <!--keep the sentence below for all future quarterly release pages-->
+<!--remove the general activity mention after fourth quarter 2024 is released-->
 
-Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록을 보려면 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
+2024년 8월 28일 일반 출시 이후 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록에 대해서는 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
 
 ## Adobe Workfront Planning 일반 공급
 
 >[!NOTE]
 >
->미리보기 릴리스: 미정; 프로덕션 릴리스: 2024년 8월 28일
-
+>미리보기 및 프로덕션 릴리스: 2024년 8월 28일
 
 Workfront Planning은 Workfront 라이선스 외에 Workfront Planning 라이선스를 구입한 모든 고객이 사용할 수 있습니다. Workfront Planning에 대한 자세한 내용은 계정 담당자에게 문의하십시오.
 

@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 716db8e2d6411495d1809dd320c9c3cca86e2659
+source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
 workflow-type: tm+mt
-source-wordcount: '14299'
+source-wordcount: '14318'
 ht-degree: 2%
 
 ---
@@ -250,6 +250,9 @@ ht-degree: 2%
          * [Workfront Fusion 릴리스 활동: 2020년 11월 16일의 주](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-16.md)
          * [Workfront Fusion 릴리스 활동: 2020년 11월 30일 주](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-30.md)
          * [Workfront Fusion 릴리스 활동: 2020년 9월 21일의 주](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-sept-21.md)
+      * Adobe Workfront Planning 릴리스 활동{#planning-release-activity}
+         * [Adobe Workfront Planning 릴리스 활동](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+         * [Adobe Workfront Planning의 2024년 4분기 릴리스 활동](product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
       * Adobe Workfront Scenario Planner 릴리스 활동 {#scenario-planner-release}
          * [Adobe Workfront Scenario Planner 릴리스 활동](product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md)
          * [21.3 릴리스의 Adobe Workfront Scenario Planner](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-3.md)
@@ -2038,8 +2041,8 @@ ht-degree: 2%
       * [Adobe Workfront Planning 개요](planning/general/planning-overview.md)
       * [Adobe Workfront Planning API 기본 사항](planning/general/planning-api-basics.md)
       * [Adobe Workfront Planning AI Assistant 개요](planning/general/planning-ai-assistant-overview.md)
-      * [Adobe Workfront Planning 현재 릴리스 활동](planning/general/release-activity.md)
-      * [Adobe Workfront Planning의 2023년 릴리스 활동 아카이브](planning/general/release-activity-archives-2023.md)
+      * [Adobe Workfront 2024년 릴리스 활동 계획](planning/general/release-activity.md)
+      * [Adobe Workfront 2023년 릴리스 활동 계획](planning/general/release-activity-archives-2023.md)
       * [Adobe Workfront Planning 객체 제한 사항 개요](planning/general/limitations-overview.md)
    * Adobe Workfront 계획 아키텍처 {#adobe-workfront-planning-architecture}
       * [아키텍처: 문서 인덱스](planning/architecture/architecture-information.md)
@@ -2727,7 +2730,7 @@ ht-degree: 2%
       * [문서 웹후크 오류 처리](wf-api/doc-wbhks-api/docu-webhooks-errors.md)
    * Workfront 개체 설명 {#workfrtont-object-descriptions}
       * [Workfront 개체 설명](wf-api/wf-objects/workfront-objects.md)
-      * [범주](wf-api/wf-objects/category.md)
+      * [카테고리](wf-api/wf-objects/category.md)
    * Adobe Workfront API {#tips-troubleshooting-apis}에 대한 팁, 요령 및 문제 해결
       * [Adobe Workfront API에 대한 팁, 요령 및 문제 해결](wf-api/tips-tricks-and-troubleshooting/tips-troubleshoot-api.md)
       * [Adobe Workfront API 호출에 대한 도메인 형식](wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md)

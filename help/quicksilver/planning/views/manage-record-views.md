@@ -1,20 +1,20 @@
 ---
 title: 레코드 보기 관리
 description: Adobe Workfront Planning을 사용할 때 표, 타임라인 또는 달력 보기에 레코드를 표시할 수 있습니다.
-hidefromtoc: true
-hide: true
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1212'
 ht-degree: 1%
 
 ---
 
-# 레코드 보기 관리
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+# 레코드 보기 관리
 
 {{planning-important-intro}}
 
@@ -41,8 +41,6 @@ Adobe Workfront Planning 영역에서 레코드 유형을 선택한 후 다음 �
 
 
 ## 액세스 요구 사항
-
-<!--Updated for GA-->
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
@@ -87,7 +85,7 @@ Adobe Workfront Planning 영역에서 레코드 유형을 선택한 후 다음 �
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront 라이센스*</p></td> 
-   <td> <ul><li><p>임의, Workfront Planning 정보를 보려면</p></li>
+   <td> <ul><li><p>Workfront Planning 정보를 보려면 표준, 라이트 또는 기여자</p></li>
    <li><p>표준, 작업 공간 만들기</p></li></ul>
    <p>기존 Workfront 라이선스에는 Workfront Planning을 사용할 수 없습니다.</p> 
   </td> 

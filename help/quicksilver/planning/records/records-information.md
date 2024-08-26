@@ -1,28 +1,17 @@
 ---
 title: "레코드: 문서 인덱스"
 description: Adobe Workfront Planning에서 레코드 유형을 생성한 후 해당 유형의 개별 레코드를 생성할 수 있습니다. 다음 문서에서는 Adobe Workfront Planning에서 레코드와 해당 정보를 만들고 관리하는 방법을 설명합니다.
-hidefromtoc: true
-hide: true
-recommendations: noDisplay, noCatalog
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: e2a930c1ba45c14965d124d98e17025f3a03a23a
+source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 1%
 
 ---
 
-<!-- update the metadata with real information when making this available in TOC and in the left nav
----
-title: "Records: article index"
-description: After you create record types in Adobe Workfront Planning you can create individual records of those types. The following articles describe how you can create and manage records and their information in Adobe Workfront Planning.
-hidefromtoc: yes
-author: Alina
-feature: Work Management
-role: User
-hide: yes
----
--->
 
 # 레코드: 문서 인덱스
 

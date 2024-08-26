@@ -1,32 +1,17 @@
 ---
+content-type: release-notes
 title: "Adobe Workfront Planning 릴리스 활동: 문서 색인"
-description: Adobe Workfront Planning 제품에 대한 릴리스 활동을 문서화하는 문서 목록입니다.
+description: Adobe Workfront Planning 제품의 릴리스 활동입니다.
+author: Alina
+feature: Product Announcements
 recommendations: noDisplay, noCatalog
-hidefromtoc: true
-hide: true
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
 
-
-
-<!--update metadata:
----
-content-type: release-notes
-title: "Adobe Workfront Planning Release Activity: Article Index"
-description: This is the release activity for the Adobe Workfront Planning product. 
-author: Alina
-feature: Product Announcements
-recommendations: noDisplay, noCatalog
-hidefromtoc: yes
-hide: yes
----
- -->
-
-<!--add to TOC and miniTOC-->
 
 # Adobe Workfront Planning 릴리스 활동: 문서 색인
 
@@ -42,6 +27,13 @@ hide: yes
 >Workfront Planning에 대한 개요는 [Adobe Workfront Planning 개요](/help/quicksilver/planning/general/planning-overview.md)를 참조하십시오.
 >
 
-이 문서에는 Adobe Workfront Planning 제품에 대한 릴리스 활동 정보 목록이 포함되어 있습니다.
+이 문서에는 Adobe Workfront Planning 제품에 대한 릴리스 활동 문서 목록이 포함되어 있습니다.
 
 * [Adobe Workfront Planning의 2024년 4분기 릴리스 활동](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
+
+<!-- remove this after 25.1 and consider removing the pages too-->
+
+2024년 8월 28일 공식 출시 전에 릴리스된 모든 기능 목록에 대해서는 다음 문서를 참조하십시오.
+
+* [Adobe Workfront 2024년 릴리스 활동 계획](/help/quicksilver/planning/general/release-activity.md)
+* [Adobe Workfront 2023년 릴리스 활동 계획](/help/quicksilver/planning/general/release-activity-archives-2023.md)
