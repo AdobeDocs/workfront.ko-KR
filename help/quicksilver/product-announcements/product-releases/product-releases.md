@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 505a9602-580c-4932-a85c-6c9a7c8af457
-source-git-commit: bb508647684f2544368baea0b48e0aad1057b2ca
+source-git-commit: 32107381545777cbe7a6696f7a384287ef781a1a
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '241'
 ht-degree: 11%
 
 ---
@@ -37,7 +37,8 @@ Adobe Workfront 릴리스 일정에 대한 자세한 내용은 [Adobe Workfront 
       <li> <p><a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md" class="MCXref xref" xrefformat="{para}">2024년 2분기 릴리스 개요</a> </p> </li>
       <li> <p><a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md" class="MCXref xref" xrefformat="{para}">2024년 3분기 릴리스 개요</a> </p> </li>
        <li> <p><a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md" class="MCXref xref" xrefformat="{para}">2024년 4분기 릴리스 개요</a> </p> </li>
-   <td> <ul>    <li> <p><a href="../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion 릴리스 활동</a> </p> </li> </ul>   </td> 
+   <td> <ul>    <li> <p><a href="../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion 릴리스 활동</a> </p> </li> 
+   <li> <p><a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Planning 2024년 4분기 릴리스 활동</a> </p> </li></ul>   </td> 
   <tr data-mc-conditions=""> 
    <td> <p>2023년 릴리스</p> 
     <ul> 
