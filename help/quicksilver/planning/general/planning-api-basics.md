@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
-source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
+source-git-commit: 20e8d45264f9441d9576c7d4d5521e4f6053a7f3
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 2%
+source-wordcount: '973'
+ht-degree: 1%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 2%
 Adobe Workfront Planning API의 목표는 HTTP를 통해 작동하는 REST 풀 아키텍처를 도입하여 Planning과의 통합 구축을 간소화하는 것입니다. 이 문서에서는 사용자가 REST 및 JSON 응답에 익숙하다고 가정하고 Planning API의 접근 방식에 대해 설명합니다.
 
 Workfront Planning 스키마에 익숙하면 통합 목적으로 Workfront Planning에서 데이터를 가져오는 데 사용할 수 있는 데이터베이스 관계를 이해하는 데 도움이 됩니다.
+
+Workfront 사용자 정의 양식의 외부 조회 필드에서 계획 API를 호출할 수 있습니다.
+
+외부 조회 필드에 대한 자세한 내용은 [사용자 정의 양식의 외부 조회 필드 예제](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)를 참조하십시오.
 
 ## Workfront Planning API URL
 
