@@ -4,8 +4,9 @@ title: "Adobe Workfront Planning 릴리스 활동: 문서 색인"
 description: Adobe Workfront Planning 제품의 릴리스 활동입니다.
 author: Alina
 feature: Product Announcements
+role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: eeebc09c16c2c0d5a624dc57ae8603fb525d29c1
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 0%

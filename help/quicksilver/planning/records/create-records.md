@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1450'
 ht-degree: 0%
 
 ---
@@ -25,9 +25,9 @@ Adobe Workfront Planning에서 레코드는 레코드 유형의 인스턴스입�
 
 * 테이블 보기의 레코드 유형 페이지에서 레코드 추가
 * 외부 목록에서 레코드 목록 복사 및 붙여넣기
-* 복제
-* 다른 레코드에서 연결할 때 만듭니다.
-  <!--* Create them by submitting a request form-->
+* 테이블 보기에서 레코드 복제
+* 다른 레코드와 연결할 때 레코드 만들기
+* 요청 양식을 레코드 유형으로 제출하여 만듭니다.
 
 이 문서에서는 레코드를 만드는 방법을 설명합니다.
 
@@ -165,8 +165,7 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 
 +++
 
-
-## 레코드 형식 <!--in a record type table (I don't think you can create them elsewhere right now)-->에 추가하여 레코드를 만듭니다.
+## 레코드 유형 테이블의 레코드 유형에 추가하여 레코드 만들기
 
 레코드 유형 페이지의 표 보기에서 레코드를 만들 수 있습니다.
 
@@ -311,13 +310,12 @@ You can import records from other applications by linking them to existing recor
 또는
 세부 정보 페이지를 열고 정보를 추가하려면 해당 이름을 클릭합니다.
 
-<!--
-## Create records by submitting a request form
+## 요청 양식을 레코드 유형으로 제출하여 레코드 생성
 
-After someone creates a request form for a record type and shares a link to it with you, you can submit a request which creates a record for that record type. 
+다른 사용자가 레코드 유형에 대한 요청 양식을 만들고 링크를 공유하면 해당 레코드 유형에 대한 레코드를 만드는 요청을 제출할 수 있습니다.
 
-For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
 
-Both Workfront users and users external to your organization can submit requests to Planning record types and create records, if they have a link to the request form.
+Workfront 사용자와 조직 외부의 사용자 모두 요청 양식에 대한 링크가 있는 경우 Planning 레코드 유형에 요청을 제출하고 레코드를 만들 수 있습니다.
 
-For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md). -->
+자세한 내용은 [레코드를 만들도록 Adobe Workfront Planning 요청 제출](/help/quicksilver/planning/requests/submit-requests.md)을 참조하십시오.

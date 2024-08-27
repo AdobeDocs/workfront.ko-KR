@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '590'
 ht-degree: 7%
 
 ---
@@ -162,17 +162,16 @@ OLD:
 * 배합표 필드를 저장한 후 배합표 필드의 계산을 갱신할 수 있으며, 계산 결과는 동일한 유형의 모든 레코드에 대해 자동으로 갱신됩니다.
 * 수식에서 참조하는 필드가 Workfront Planning 인터페이스에 표시되는 대로 추가해야 합니다.
 * 레코드 유형의 표 보기 또는 레코드 세부 정보 페이지에 표시되는 필드만 참조할 수 있습니다.
-<!--* You can format the result of a formula calculation by choosing from the following options:
+* 다음 형식 옵션 중에서 선택하여 공식 계산 값에 대한 형식을 정의할 수 있습니다.
 
-   * Text
-   * Number
-   * Percent
-   * Currency
-   * Tags
-   * Date
+   * 텍스트
+   * 숫자
+   * 백분율
+   * 통화
+   * 태그
+   * 일자
 
-   For more information, see the "Formula" section in the article [Create fields](/help/quicksilver/planning/fields/create-fields.md). -->
-
+  자세한 내용은 문서 [필드 만들기](/help/quicksilver/planning/fields/create-fields.md)의 &quot;수식&quot; 섹션을 참조하십시오.
 
 ## 지원되는 공식
 

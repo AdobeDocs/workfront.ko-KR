@@ -1,12 +1,13 @@
 ---
 title: Adobe Workfront Planning에서 요청 양식 생성 및 관리
 description: Adobe Workfront Planning 영역에서 레코드 유형을 선택한 후 요청 양식을 만들어 해당 레코드 유형과 연결할 수 있습니다. 그런 다음 다른 내부 또는 외부 사용자와 링크를 공유할 수 있습니다. 양식에 대한 링크가 있는 사용자는 해당 양식의 필드 값을 채울 수 있으며, 양식 제출을 통해 관련 레코드 유형에 대한 새 레코드를 추가할 수 있습니다.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 80d9fc7f8cf28de8dbb8f1c53835940142681906
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1138'
 ht-degree: 2%
 
 ---
@@ -17,9 +18,13 @@ ht-degree: 2%
 
 {{planning-important-intro}}
 
-Adobe Workfront Planning 영역에서 레코드 유형을 선택한 후 요청 양식을 만들어 해당 레코드 유형과 연결할 수 있습니다. 그런 다음 다른 내부 또는 외부 사용자와 링크를 공유할 수 있습니다. <!--double-check on the external part of it-->
+요청 양식을 만들어 Adobe Workfront Planning에서 레코드 유형과 연결할 수 있습니다. 그런 다음 다른 내부 또는 외부 사용자와 링크를 공유할 수 있습니다.
 
-양식에 대한 링크가 있는 사용자는 해당 양식의 필드 값을 채울 수 있으며, 양식 제출을 통해 관련 레코드 유형에 대한 새 레코드를 추가할 수 있습니다.
+양식에 대한 링크가 있는 사용자는 해당 양식의 필드 값을 업데이트하고 이를 제출하여 새 레코드를 추가할 수 있습니다.
+
+이 문서에서는 작업 영역 관리자가 레코드 유형과 연결된 요청 양식을 만드는 방법에 대해 설명합니다.
+
+레코드를 만들기 위해 레코드 형식에 요청을 제출하는 방법에 대한 자세한 내용은 [레코드를 만들기 위한 Adobe Workfront Planning 요청 제출](/help/quicksilver/planning/requests/submit-requests.md)을 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -170,9 +175,11 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 
    >[!IMPORTANT]
    >
-   >링크가 있는 사용자를 선택하면 누구나, Workfront 계정이 없는 조직 외부의 사람도 양식에 액세스하여 새 레코드를 제출할 수 있습니다.
+   >**링크가 있는 모든 사용자**&#x200B;를 선택하면 조직 외부의 사람 중 Workfront 계정이 없는 사람도 양식에 액세스하여 새 레코드를 제출할 수 있습니다.
 
-1. (조건부) 이전 단계에서 **링크가 있는 모든 사용자**&#x200B;를 선택한 경우 사용 가능한 달력에서 **링크 만료 날짜**&#x200B;를 선택하십시오. 링크가 만료된 후 오류가 발생하며 양식 액세스 권한을 다시 부여받으려면 먼저 링크 날짜를 업데이트해야 합니다.  <!--add info here about how long the expiration date should be; logged bug-->
+1. (조건부) 이전 단계에서 **링크가 있는 모든 사용자**&#x200B;를 선택한 경우 사용 가능한 달력에서 **링크 만료 날짜**&#x200B;를 선택하십시오. 링크가 만료된 후 오류가 발생하며 양식 액세스 권한을 다시 부여받으려면 먼저 링크 날짜를 업데이트해야 합니다.
+
+   현재 날짜로부터 180일 이내에 미래 날짜를 선택할 수 있습니다.
 
 1. **링크 저장 및 복사**&#x200B;를 클릭하여 양식에 대한 공유 세부 정보를 저장합니다.
 
@@ -191,6 +198,7 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
    >[!TIP]
    >
    >이러한 경우 링크가 공개적으로 공유된다는 표시가 있습니다.
+   >![](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
 
 
 

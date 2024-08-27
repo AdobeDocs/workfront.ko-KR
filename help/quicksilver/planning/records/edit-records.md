@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '1833'
+source-wordcount: '1868'
 ht-degree: 0%
 
 ---
@@ -187,6 +187,10 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 * [Planning 섹션의 Workfront 객체에서](#edit-a-record-from-a-workfront-object-in-the-planning-section)
 
 ### 레코드 유형의 표 보기에서 인라인 레코드 편집
+
+테이블 보기에서 레코드를 편집할 때 레코드를 볼 때 다른 사용자가 편집하고 있는 필드가 표시됩니다.
+
+자세한 내용은 [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md)를 참조하십시오.
 
 {{step1-to-planning}}
 

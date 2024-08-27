@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '431'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,11 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-다른 사람이 레코드 페이지의 댓글에 귀하를 추가하면 인앱과 댓글에 대한 이메일 알림이 전송됩니다.
+Workfront Planning에서 다음 작업이 발생하면 인앱 또는 이메일 알림을 받을 수 있습니다.
+
+* 누군가가 기록 페이지의 댓글에 귀하를 추가합니다.
+* 누군가 보기 또는 작업 영역에 액세스할 수 있는 권한을 요청합니다.
+* 다른 사용자가 보기 또는 작업 영역 <!--test this - could not test before GA-->에 액세스할 수 있는 권한을 부여하거나 거부합니다.
 
 ## 액세스 요구 사항
 
@@ -90,6 +94,12 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 
 +++
 
+
+Workfront Planning 알림에 대한 자세한 내용은 다음 문서를 참조하십시오.
+
+* 레코드에 대한 댓글에 대한 자세한 내용은 [레코드 댓글 관리](/help/quicksilver/planning/records/manage-record-comments.md)를 참조하십시오.
+* Workfront Planning의 인앱 알림에 대한 자세한 내용은 [Adobe Workfront Planning의 인앱 알림 관리](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md)를 참조하십시오.
+* Workfront Planning의 전자 메일 알림에 대한 자세한 내용은 [Adobe Workfront Planning의 전자 메일 알림 관리](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md)를 참조하십시오.
 <!--
 
 OLD: 
@@ -152,16 +162,18 @@ OLD:
 
 1. Adobe Experience Cloud 자격 증명으로 Workfront에 로그인합니다.
 1. 화면 오른쪽 상단의 **계정 메뉴** 아이콘 ![](assets/account-menu-icon-on-experience-cloud.png)을(를) 클릭한 다음 **기본 설정**&#x200B;을(를) 클릭합니다.
-1. **알림** 섹션에서 **Workfront**을(를) 클릭한 다음 다음 다음 문서의 단계에 따라 Workfront Planning에 대한 알림 환경 설정을 관리합니다.
-   [계정 환경 설정 및 알림](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
+1. **알림** 섹션에서 **Workfront**&#x200B;을(를) 클릭합니다.
+1. 수신하려는 알림을 선택합니다.
+또는
+수신을 중지할 알림의 선택을 취소합니다.
 
-Workfront Planning 알림에 대한 자세한 내용은 다음 문서를 참조하십시오.
+   ![](assets/adobe-experience-cloud-notifications-panel-for-workfront-planning.png)
+1. Workfront에 사용할 수 있는 알림은 다음과 같습니다.
 
-* 레코드에 대한 댓글에 대한 자세한 내용은 [레코드 댓글 관리](/help/quicksilver/planning/records/manage-record-comments.md)를 참조하십시오.
-* Workfront Planning의 인앱 알림에 대한 자세한 내용은 [Adobe Workfront Planning의 인앱 알림 관리](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md)를 참조하십시오.
-* Workfront Planning의 전자 메일 알림에 대한 자세한 내용은 [Adobe Workfront Planning의 전자 메일 알림 관리](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md)를 참조하십시오.
+   * **언급**: 다른 사용자가 Workfront Planning에서 댓글에 태그를 지정하면 알림을 받습니다
+   * **요청**: 누군가 Workfront Planning 개체에 대한 권한을 요청하면 알림을 받습니다
 
-
+   알림 관리에 대한 자세한 내용은 [계정 환경 설정 및 알림](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences)을 참조하세요.
 
 <!--OLD: notifications are not available to non-IMS customers: 
 

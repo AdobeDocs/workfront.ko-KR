@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 98ca7d04-35c2-420a-a87c-50c00939853c
-source-git-commit: 18183b53c783366f467e7330159923372b51deb6
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,6 @@ Workfront 관리자는 Adobe Workfront Planning을 사용하려면 사용자에�
 * [작업 공간 공유](/help/quicksilver/planning/access/share-workspaces.md)
 * [보기 공유](/help/quicksilver/planning/access/share-views.md)
 * [Adobe Workfront Planning 사용 시 라이선스 유형 개요](/help/quicksilver/planning/access/license-type-overview.md)
-  <!--* [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md)-->
+* [보기 또는 작업 영역에 대한 권한 요청](/help/quicksilver/planning/access/request-permissions.md)
 
 

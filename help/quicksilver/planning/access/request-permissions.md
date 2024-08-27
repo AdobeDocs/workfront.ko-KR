@@ -1,11 +1,13 @@
 ---
 title: 보기 또는 Workspace에 권한 요청
 description: 다른 사람이 사용자와 이전에 공유하지 않은 링크를 보낸 보기 또는 작업 영역에 대한 권한을 요청할 수 있습니다.
-hidefrontoc: true
-hide: true
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+feature: Workfront Planning
+role: User, Admin
+author: Alina
+recommendations: noDisplay, noCatalog
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '506'
 ht-degree: 1%
 
 ---
@@ -130,6 +132,6 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 
    * [보기 공유](/help/quicksilver/planning/access/share-views.md)
    * [작업 공간 공유](/help/quicksilver/planning/access/share-workspaces.md)
-1. (조건부) 보기 또는 작업 영역 관리자가 보기 또는 작업 영역에 대한 권한을 부여하면 권한이 부여되었거나 거부되었음을 확인하는 이메일 알림이 전송됩니다. <!--check this - I was not able to test this-->
+1. (조건부) 보기 또는 작업 영역 관리자가 보기 또는 작업 영역에 대한 권한을 부여하면 권한이 부여되었음을 확인하는 이메일 알림 및 인앱 알림을 받게 됩니다. <!--check this - I was not able to test this-->
 
 

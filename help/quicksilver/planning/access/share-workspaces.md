@@ -5,9 +5,9 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '668'
 ht-degree: 2%
 
 ---
@@ -186,29 +186,27 @@ OLD:
 1. 복사한 링크를 다른 사용자와 공유합니다. 링크를 받은 사용자가 활성 사용자여야 하며 작업 영역에 액세스할 수 있도록 Workfront에 로그인해야 합니다.
 1. **저장**&#x200B;을 클릭합니다.
 
-<!--
-## Grant permissions to a workspace from a permission request
+## 권한 요청에서 작업 영역에 대한 권한 부여
 
-Users who access a link to a workspace to which they do not have permissions can request permissions to the workspace. All users with Manage permissions to the workspace receive the permission request and can grant or deny the permissions. 
+권한이 없는 작업 영역 링크에 액세스하는 사용자는 작업 영역에 대한 권한을 요청할 수 있습니다. 작업 영역에 대한 관리 권한이 있는 모든 사용자는 권한 요청을 받고 권한을 부여하거나 거부할 수 있습니다.
 
-1. (Conditional) If you are are the manager of a workspace, you might receive a request from another user to access the view in the following areas:
-   
-   * An in-app notification
-      ![](assets/in-app-notification-for-access-request.png)
-   * An email notification
-      ![](assets/email-notification-for-access-request.png)
-1. (Conditional) From the notification area in Workfront, click the in-app notification
-   Or
-   From the email notification, click **View all notifications**, then click the notification in the list.
+1. (조건부) 작업 공간의 관리자인 경우 다른 사용자로부터 다음 영역의 보기에 대한 액세스 요청을 받을 수 있습니다.
 
-   The **Pending access requests** box displays. 
+   * 인앱 알림
+     ![](assets/in-app-notification-for-access-request.png)
+   * 이메일 알림
+     ![](assets/email-notification-for-access-request.png)
+1. (조건부) Workfront의 알림 영역에서 인앱 알림을 클릭합니다
+또는
+전자 메일 알림에서 **모든 알림 보기**&#x200B;를 클릭한 다음 목록에서 알림을 클릭합니다.
 
-      ![](assets/notifications-list-approval-box.png)
-1. Select the user for whom you want to approve or deny the permission, then click **Approve all** or **Deny all**. 
-1. Click the left-pointing arrow to the left of **Pending access requests**, then click **Save**.
+   **액세스 요청 보류 중** 상자가 표시됩니다.
 
-   If you approved the request, the users are added to the sharing box of the workspace. 
--->
+   ![](assets/notifications-list-approval-box.png)
+1. 권한을 승인하거나 거부할 사용자를 선택한 다음 **모두 승인** 또는 **모두 거부**&#x200B;를 클릭합니다.
+1. **보류 중인 액세스 요청**&#x200B;의 왼쪽에 있는 왼쪽 화살표를 클릭한 다음 **저장**&#x200B;을 클릭합니다.
+
+   요청을 승인하면 작업 영역의 공유 상자에 사용자가 추가됩니다. 권한을 요청하는 사용자는 요청이 승인되었다는 이메일 확인을 받게 됩니다. <!--will they also get an in-app notification??-->
 
 
 ## 작업 공간에 대한 권한 제거

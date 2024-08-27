@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '2708'
+source-wordcount: '2786'
 ht-degree: 3%
 
 ---
@@ -180,6 +180,7 @@ OLD:
    * [필터](#add-filters)
    * [그룹화](#add-groupings)
    * [정렬](#add-a-sort)
+   * [실시간 현재 상태 표시기 활성화](#enable-the-real-time-presence-indicator)
 
 
 ### 열(또는 필드) 추가 {#add-columns}
@@ -523,3 +524,11 @@ To sort grouped records:
 1. ************************* add steps here for sorting grouped records****************
 
 -->
+
+### 실시간 현재 상태 표시기 활성화
+
+기본적으로 모든 레코드 보기의 오른쪽 위 모서리에 표시함과 동시에 레코드 정보를 편집하는 다른 사용자의 아바타입니다.
+
+표 보기를 표시할 때 레코드를 볼 때 다른 사용자가 편집하고 있는 필드를 볼 수도 있습니다.
+
+자세한 내용은 문서 [레코드 보기 관리](/help/quicksilver/planning/views/manage-record-views.md)의 &quot;실시간 현재 상태 표시기 사용&quot; 섹션을 참조하십시오.

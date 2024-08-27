@@ -1,19 +1,18 @@
 ---
 title: Adobe Workfront Planning 요청 제출
 description: 누군가가 Adobe Workfront Planning의 레코드 유형 페이지에서 요청 양식에 대한 링크를 귀하에게 공유하면 요청을 추가하여 요청 양식과 연관된 레코드 유형에 대한 레코드를 생성할 수 있습니다.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 18183b53c783366f467e7330159923372b51deb6
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '659'
 ht-degree: 1%
 
 ---
 
 # Adobe Workfront Planning 요청을 제출하여 레코드 생성
-
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 
@@ -22,6 +21,10 @@ ht-degree: 1%
 누군가가 Adobe Workfront Planning의 레코드 유형 페이지에서 요청 양식에 대한 링크를 귀하에게 공유하면 요청을 추가하여 요청 양식과 연관된 레코드 유형에 대한 레코드를 생성할 수 있습니다.
 
 Workfront 사용자와 외부 사용자는 Planning 레코드 유형에 요청을 제출하고 레코드를 생성할 수 있습니다. <!--double check on the external users-->
+
+이 문서에서는 레코드 유형에 새 레코드를 추가하도록 요청을 제출하는 방법에 대해 설명합니다.
+
+작업 영역 관리자가 요청 양식을 만들고 레코드 유형과 연결하는 방법에 대한 자세한 내용은 [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](/help/quicksilver/planning/requests/create-request-form.md)를 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -57,7 +60,6 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
    <td>
 <p>임의 </p>  
 <p>각 Workfront 계획 계획에 포함된 내용에 대한 자세한 내용은 <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront 가격 및 패키징</a>을 참조하십시오. </td>
-
 <tr>
    <td role="rowheader"><p>Adobe Workfront 플랫폼</p></td>
    <td>
@@ -110,7 +112,7 @@ Workfront Planning 요청 양식에 요청을 제출하려면 먼저 다음 조�
 * 액세스 가능한 방식으로 요청 양식을 링크와 공유해야 합니다. 다음과 같은 시나리오가 있습니다.
 
    * Workfront 계정이 있는 경우 링크는 내부 직원과만 공유되었으며 작업 영역에 액세스할 수 있습니다. Workfront 외부 사용자는 내부적으로 공유된 링크에 액세스할 수 없습니다.
-   * Workfront 계정이 없는 경우 링크가 외부 사용자와 공유되었습니다. Workfront 사용자는 외부 사용자와 공유된 링크를 사용할 수도 있습니다.
+   * Workfront 계정이 없는 경우 링크가 외부 사용자와 공유되었습니다. Workfront 사용자는 외부 사용자와 공유되는 링크에 액세스할 수도 있습니다.
 
 * 양식에 대한 링크가 만료되지 않아야 합니다.
 

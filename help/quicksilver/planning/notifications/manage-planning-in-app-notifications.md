@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '413'
 ht-degree: 1%
 
 ---
@@ -17,15 +17,14 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-누군가가 기록 댓글에서 귀하를 태그하면 해당 태그에 대한 인앱 알림을 받을 수 있습니다.
+다음 시나리오가 있을 때 Workfront Planning에서 인앱 알림을 받을 수 있습니다.
 
->[!IMPORTANT]
->
->Workfront Planning에서 알림을 받으려면 귀사가 Adobe 통합 경험 고객이어야 합니다.
->
->자세한 내용은 [Workfront용 통합 경험 Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)를 참조하십시오.
+* 누군가가 기록 댓글에서 귀하를 태그합니다.
 
-레코드 댓글에 다른 사용자를 태그 지정하는 방법에 대한 자세한 내용은 [레코드 댓글 관리](/help/quicksilver/planning/records/manage-record-comments.md)를 참조하십시오.
+  레코드 댓글에 다른 사용자를 태그 지정하는 방법에 대한 자세한 내용은 [레코드 댓글 관리](/help/quicksilver/planning/records/manage-record-comments.md)를 참조하십시오.
+* 누군가 보기 또는 작업 영역에 액세스할 수 있는 권한을 요청합니다.
+* 누군가 보기 또는 작업 영역 <!--verify this-->에 대한 액세스 권한이 부여되었음을 확인합니다.
+* 누군가 보기 또는 작업 영역에 대한 사용자의 액세스를 거부했습니다. <!--verify this-->
 
 ## 액세스 요구 사항
 
@@ -158,7 +157,7 @@ OLD:
 +++
 -->
 
-## 인앱 알림 관리
+## 다른 사용자가 귀하를 댓글에 태그 지정할 때 인앱 알림 관리
 
 1. (조건부) 다른 사용자가 레코드에 있는 댓글에 귀하를 태그 지정한 후 Adobe Experience Cloud의 인앱 **알림** 아이콘 ![](assets/experience-cloud-notifications-icon.png)(으)로 이동합니다.
 
@@ -170,3 +169,8 @@ OLD:
 
 1. (선택 사항) 모든 알림을 읽었음을 나타내려면 **모두 읽음으로 표시**&#x200B;를 클릭합니다.
 1. (선택 사항) Adobe Experience Cloud의 **알림** 페이지로 이동하려면 **모두 보기**&#x200B;를 클릭합니다.
+
+
+## 보기 또는 작업 영역에 대한 권한을 요청, 부여 또는 거부할 때 인앱 알림 관리
+
+보기 또는 작업 영역에 대한 권한 요청, 부여 또는 거부에 대한 자세한 내용은 [보기 또는 작업 영역에 대한 권한 요청](/help/quicksilver/planning/access/request-permissions.md)을 참조하십시오.

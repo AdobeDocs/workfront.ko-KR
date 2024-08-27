@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '3451'
+source-wordcount: '3609'
 ht-degree: 2%
 
 ---
@@ -449,34 +449,31 @@ OLD:
    >
    >* 현재 레코드 유형에서 최대 4개 수준까지 떨어진 필드를 참조할 수 있습니다. 예를 들어, 활동 레코드 유형에 대한 공식 필드를 생성하고 활동이 Workfront 프로젝트에 연결된 캠페인 레코드 유형에 연결된 제품 레코드 유형에 연결된 경우, 활동 레코드 유형에 대해 생성 중인 공식에서 프로젝트의 예산을 참조할 수 있습니다.
 
-<!--1. In the **Format** field, select from the following choices to identify the format of the result displayed in the formula-type field:
+1. **형식** 필드에서 수식 유형 필드에 표시되는 결과의 형식을 식별하려면 다음 선택 항목 중에서 선택합니다.
 
-    * **Text**: The result of the formula field displays as plain text. 
-    * **Number**: The result of the formula field displays as a number. 
-    * **Percent**: The result of the formula field displays as a number followed by a percentage symbol.  
-    * **Currency**: The result of the formula field displays as a number preceded or followed by a currency symbol.  
-    * **Tags**: The result of the formula field displays as a tag with the object's name. 
-    
-        >[!TIP]
-        >
-        >Tags is the perfect format for fields that show arrays. In this case, each array member displays as a separate tag.
+   * **텍스트**: 수식 필드의 결과가 일반 텍스트로 표시됩니다.
+   * **숫자**: 수식 필드의 결과가 숫자로 표시됩니다.
+   * **백분율**: 수식 필드의 결과는 숫자와 백분율 기호로 표시됩니다.
+   * **통화**: 수식 필드의 결과는 앞에 또는 뒤에 통화 기호가 있는 숫자로 표시됩니다.
+   * **태그**: 수식 필드의 결과가 개체 이름이 있는 태그로 표시됩니다.
 
-    * **Date**: The result of the formula field displays as a date. 
+     >[!TIP]
+     >
+     >배열을 표시하는 필드에는 태그를 사용하는 것이 좋습니다. 이 경우 각 배열 멤버는 별도의 태그로 표시됩니다.
 
+     ![](assets/formula-field-formats-list-with-tag-selected-highlighted.png)
 
-        A preview of what the result will look like displays under the **Format** field. 
+   * **날짜**: 수식 필드의 결과가 날짜로 표시됩니다.
 
-        ![](assets/formula-field-formats-list-with-tag-selected-highlighted.png)
+     결과의 표시 형식 미리 보기가 **형식** 필드 아래에 표시됩니다.
 
-        >[!WARNING]
-        >
-        >If the result of the formula does not match the selected format, the field will show an error message where it displays. 
+     >[!WARNING]
+     >
+     >공식의 결과가 선택한 형식과 일치하지 않으면 필드에 오류 메시지가 표시됩니다.
 
--->
 1. Click **Create**.
 
    새 수식 필드가 레코드 종류에 열로 추가되고 해당 값은 레코드와 연결될 수 있습니다.
-
 
 ### 사용자
 

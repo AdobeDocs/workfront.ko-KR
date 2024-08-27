@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: bcabc57ace3c10f471139ebfb23be472758750be
+source-git-commit: d049d3c3f6d48b2c9d778740905d76a40620c8e0
 workflow-type: tm+mt
-source-wordcount: '14317'
+source-wordcount: '14353'
 ht-degree: 2%
 
 ---
@@ -2073,6 +2073,7 @@ ht-degree: 2%
       * [Adobe Workfront Planning 사용 시 라이선스 유형 개요](planning/access/license-type-overview.md)
       * [작업 공간 공유](planning/access/share-workspaces.md)
       * [보기 공유](planning/access/share-views.md)
+      * [보기 또는 작업 영역에 대한 권한 요청](planning/access/request-permissions.md)
    * Adobe Workfront 계획 레코드 {#adobe-workfront-planning-records}
       * [레코드: 문서 인덱스](planning/records/records-information.md)
       * [레코드 만들기](planning/records/create-records.md)
@@ -2089,6 +2090,10 @@ ht-degree: 2%
       * [레코드 페이지 레이아웃 관리](planning/records/manage-the-record-page.md)
       * [Adobe Workfront 오브젝트의 계획 섹션에서 레코드 관리](planning/records/manage-records-in-planning-section.md)
       * [레코드의 세부 사항 내보내기](/help/quicksilver/planning/records/export-the-record-page.md)
+   * Adobe Workfront Planning 요청 {#adobe-workfront-planning-requests}
+      * [Adobe Workfront Planning 요청: 문서 색인](planning/requests/requests-article-index.md)
+      * [Adobe Workfront Planning에서 요청 양식 만들기 및 관리](planning/requests/create-request-form.md)
+      * [Adobe Workfront Planning 요청을 제출하여 레코드 생성](planning/requests/submit-requests.md)
    * Adobe Workfront 계획 보기 {#adobe-workfront-planning-views}
       * [보기: 문서 색인](planning/views/views-information.md)
       * [레코드 보기 관리](planning/views/manage-record-views.md)

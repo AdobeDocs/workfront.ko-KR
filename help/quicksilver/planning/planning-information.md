@@ -5,9 +5,9 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 3fe348250dae1af6cbb74c3704bc396d90ac378a
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '594'
 ht-degree: 0%
 
 ---
@@ -83,12 +83,10 @@ ht-degree: 0%
    * 레코드 공유
    * Workfront 개체에 대한 Workfront 계획 섹션
 
-<!--
-* [Adobe Workfront Planning Requests: article index](/help/quicksilver/planning/requests/requests-article-index.md) contains the following information:
+* [Adobe Workfront 계획 요청: 문서 인덱스](/help/quicksilver/planning/requests/requests-article-index.md)에는 다음 정보가 포함되어 있습니다.
 
-    * How to create a request form for a record type.
-    * How users can submit a request to a record type request form and create records. 
--->
+   * 레코드 종류에 대한 요청 양식을 만드는 방법.
+   * 사용자가 레코드 유형 요청 양식에 요청을 제출하고 레코드를 만드는 방법입니다.
 
 * [보기 수: 문서 인덱스](/help/quicksilver/planning/views/views-information.md)에는 다음 정보가 포함되어 있습니다.
 

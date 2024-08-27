@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '418'
 ht-degree: 1%
 
 ---
@@ -21,19 +21,11 @@ ht-degree: 1%
 다음 시나리오가 있을 때 Workfront Planning에서 이메일 알림을 받을 수 있습니다.
 
 * 누군가가 기록 댓글에서 귀하를 태그합니다.
-<!--
-* Someone asks for your permission to access a view or a workspace
-* Someone confirms your access has been granted for a view or a workspace
-* Someone has denied your access for a view or a workspace. -->
 
-
->[!IMPORTANT]
->
->Workfront Planning에서 알림을 받으려면 귀사가 Adobe 통합 경험 고객이어야 합니다.
->
->자세한 내용은 [Workfront용 통합 경험 Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)를 참조하십시오.
-
-레코드 댓글에 다른 사용자를 태그 지정하는 방법에 대한 자세한 내용은 [레코드 댓글 관리](/help/quicksilver/planning/records/manage-record-comments.md)를 참조하십시오.
+  레코드 댓글에 다른 사용자를 태그 지정하는 방법에 대한 자세한 내용은 [레코드 댓글 관리](/help/quicksilver/planning/records/manage-record-comments.md)를 참조하십시오.
+* 누군가 보기 또는 작업 영역에 액세스할 수 있는 권한을 요청합니다.
+* 누군가 보기 또는 작업 영역 <!--verify this-->에 대한 액세스 권한이 부여되었음을 확인합니다.
+* 누군가 보기 또는 작업 영역에 대한 사용자의 액세스를 거부했습니다. <!--verify this-->
 
 ## 액세스 요구 사항
 
@@ -160,7 +152,7 @@ OLD:
 -->
 
 
-## 전자 메일 알림 <!--when someone tags you in a comment--> 관리
+## 다른 사용자가 귀하를 댓글에 태그 지정할 때 이메일 알림 관리
 
 1. (조건부) 다른 사용자가 레코드에 있는 댓글에서 귀하를 태그 지정한 후 태그와 댓글을 알려 주는 이메일 알림으로 이동합니다. 이메일 발신자는 Adobe Experience Cloud입니다.
 
@@ -173,8 +165,6 @@ OLD:
 1. (조건부) 사용 가능한 경우 **모든 알림 보기**&#x200B;를 클릭합니다. <!--check with Lilit - do non-IMS users have this button??-->
 Adobe Experience Cloud에서 **알림** 페이지가 열립니다. 모든 Adobe Experience Cloud 애플리케이션의 모든 알림이 표시됩니다.
 
-<!--
-## Manage email notifications when requesting, granting, or denying permissions to a view or a workspace
+## 보기 또는 작업 영역에 대한 권한을 요청, 부여 또는 거부할 때 이메일 알림 관리
 
-For information about requesting, granting, or denying permissions to a view or a workspace, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md). 
--->
+보기 또는 작업 영역에 대한 권한 요청, 부여 또는 거부에 대한 자세한 내용은 [보기 또는 작업 영역에 대한 권한 요청](/help/quicksilver/planning/access/request-permissions.md)을 참조하십시오.
