@@ -3,9 +3,9 @@ title: 보기 또는 Workspace에 권한 요청
 description: 다른 사람이 사용자와 이전에 공유하지 않은 링크를 보낸 보기 또는 작업 영역에 대한 권한을 요청할 수 있습니다.
 hidefrontoc: true
 hide: true
-source-git-commit: 18183b53c783366f467e7330159923372b51deb6
+source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '504'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ title: Request Permissions to a View or a Workspace
 description: You can request permissions to a view or a workspace that others sent you a link to which has not been previously shared with you. 
 author: Alina
 feature: Workfront Planning
-role: User
+role: User, Admin
 ---
 -->
 
@@ -27,6 +27,8 @@ role: User
 # 보기 또는 작업 영역에 대한 권한 요청
 
 다른 사람이 사용자와 이전에 공유하지 않은 링크를 보낸 보기 또는 작업 영역에 대한 권한을 요청할 수 있습니다.
+
+보기에 대한 권한을 요청하는 것은 작업 공간에 권한을 요청하는 것과 비슷합니다.
 
 ## 액세스 요구 사항
 
@@ -86,8 +88,10 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
   </tr> 
 <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
-   <td>  <p>보기에 대한 권한 관리</p>  
-   <p>작업 영역에 대한 관리 권한이 있는 사용자만 보기를 공개적으로 공유할 수 있습니다.</p></td> 
+   <td>  <p>권한 요청이 부여되면 다음 권한을 얻을 수 있습니다.</p>
+   <ul><li><p>보기에 대한 보기 또는 관리</p></li>
+   <li><p>작업 공간에 대한 보기, Contribute 또는 관리</p></li></ul>  
+   <p>작업 공간 및 보기에 대한 관리 권한이 있는 사용자만 보기를 공개적으로 공유할 수 있습니다.</p></td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>레이아웃 템플릿</p></td> 
@@ -100,20 +104,32 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 
 +++
 
-## 보기 또는 작업 영역에 대한 권한 요청 및 부여
+## 보기 또는 작업 영역에 대한 권한 요청
 
-다른 사용자가 액세스 권한이 없는 작업 영역 또는 보기에 대한 링크를 귀하와 공유하는 경우 다음과 같은 시나리오가 존재합니다.
+보기에 대한 권한을 요청하는 것은 작업 공간에 권한을 요청하는 것과 비슷합니다.
+
+다른 사용자가 액세스 권한이 없는 작업 영역 또는 보기에 대한 링크를 귀하와 공유하는 경우:
 
 1. 보기 또는 작업 공간에 대해 사용자와 공유되는 링크를 클릭합니다.
 
    보기 또는 작업 영역에 대한 액세스 권한이 없음을 알리는 **액세스 권한이 없습니다** 페이지가 표시됩니다.
 
+   ![](assets/request-access-to-view.png)
+
 1. (조건부) 공유 링크가 액세스 권한이 있는 작업 영역의 보기용인 경우 **기존 보기로 열기**&#x200B;를 클릭합니다. 작업공간에 액세스할 수 있는 권한이 있는 경우 기본 보기에서 레코드 유형 페이지가 열립니다.
 
-1. (선택 사항) 사용 가능한 상자에 개인화된 메시지를 추가합니다.
+1. (선택 사항 및 조건부) 작업 영역을 볼 수 있는 권한이 없는 경우 사용 가능한 상자에 개인화된 메시지를 추가한 다음 **액세스 요청**&#x200B;을 클릭합니다.
 
-1. **액세스 요청**&#x200B;을 클릭합니다.
+   보기 또는 작업 공간에 대한 관리 권한이 있는 모든 사용자는 액세스 요청에 대해 다음 알림을 받습니다.
+   * 인앱 알림
+     ![](assets/in-app-notification-for-access-request.png)
+   * 이메일 알림
+     ![](assets/email-notification-for-access-request.png)
 
-   보기 또는 작업 공간에 대한 관리 권한이 있는 모든 사용자는 요청에 대한 이메일 알림을 받게 됩니다.
-1. 액세스 요청에 대한 이메일 알림을 받은 사용자는 보기 또는 작업 공간으로 이동하여 권한을 부여합니다.
-1. 보기 또는 작업 영역에 대한 액세스 권한이 부여되었음을 알리는 이메일 알림을 받게 됩니다. 이메일 알림에서 보기 또는 작업 공간에 액세스할 수 있습니다.
+   보기 및 작업 공간에 대한 권한 부여에 대한 자세한 내용은 다음 문서를 참조하십시오.
+
+   * [보기 공유](/help/quicksilver/planning/access/share-views.md)
+   * [작업 공간 공유](/help/quicksilver/planning/access/share-workspaces.md)
+1. (조건부) 보기 또는 작업 영역 관리자가 보기 또는 작업 영역에 대한 권한을 부여하면 권한이 부여되었거나 거부되었음을 확인하는 이메일 알림이 전송됩니다. <!--check this - I was not able to test this-->
+
+

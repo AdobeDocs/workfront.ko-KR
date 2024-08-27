@@ -5,9 +5,9 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
+source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '309'
 ht-degree: 1%
 
 ---
@@ -30,8 +30,8 @@ Adobe Workfront Planning에는 인스턴스에서 생성할 수 있는 객체 �
 | 하나의 작업 영역에 대한 섹션 수 | 50 |
 | 하나의 작업 영역에 대한 레코드 유형 수 | 1,000(모든 섹션의 레코드 유형과 작업 영역 템플릿을 사용할 때 생성된 레코드 유형 포함) |
 | 하나의 레코드 유형에 대한 레코드 수 | 25,000 |
-| 하나의 작업 영역에 대한 레코드 수 | 계획 계획이 있는 고객의 경우 25,000명 <br>계획 플러스 계획이 있는 고객의 경우 500,000명 |
-| Workfront Planning 유형 인스턴스 하나에 대한 총 레코드 수 | 계획 계획이 있는 고객의 경우 50만 개, 계획 플러스 계획이 있는 고객의 경우 <br>2만 개 |
+| 하나의 작업 영역에 대한 레코드 수 | Planning을 사용하는 고객의 경우 25,000명 <br>을(를) 사용하는 고객의 경우 500,000명 Planning Plus를 사용하는 고객 |
+| Workfront Planning 인스턴스 하나에 대한 총 레코드 수 | Planning Plus를 사용하는 고객의 경우 50만 명, Planning Plus를 사용하는 고객의 경우 <br>2만 명 |
 | 하나의 레코드 유형 또는 분류법에 대한 필드 수 | 500 |
 | 텍스트 필드의 문자 수 | 1,000자 |
 | 레코드 종류 표에 붙여 넣을 수 있는 파일 크기 | 1MB |

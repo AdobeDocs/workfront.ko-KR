@@ -1,18 +1,18 @@
 ---
 title: 레코드 페이지 레이아웃 관리
 description: Adobe Workfront Planning에서 레코드 미리 보기 및 페이지의 레이아웃을 편집할 수 있습니다.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
 workflow-type: tm+mt
 source-wordcount: '1356'
 ht-degree: 0%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # 레코드 페이지 레이아웃 관리
 
@@ -35,8 +35,6 @@ Adobe Workfront Planning에서 레코드 미리 보기 및 페이지의 레이�
 * [레코드 만들기](/help/quicksilver/planning/records/create-records.md)
 
 ## 액세스 요구 사항
-
-<!--Updated for GA-->
 
 +++ 를 확장하여 Workfront Planning에 대한 액세스 요구 사항을 봅니다.
 

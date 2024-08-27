@@ -1,18 +1,17 @@
 ---
 title: 연결된 레코드 개요
 description: 레코드 종류 간에 연결을 만든 후에는 개별 레코드를 서로 연결할 수 있습니다. 이 문서에서는 Adobe Workfront Planning에서 레코드를 연결할 때 고려해야 하는 고려 사항에 대해 설명합니다.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 0%
 
 ---
 
-
-<!--update metadata at GA-->
 
 # 연결된 레코드 개요
 

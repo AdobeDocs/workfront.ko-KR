@@ -1,23 +1,20 @@
 ---
-title: Adobe Workfront 오브젝트의 계획 섹션에서 레코드 관리
+title: Adobe Workfront 개체의 계획 섹션에서 레코드 관리
 description: 왼쪽 패널의 Workfront 오브젝트의 계획 섹션에서 Adobe Workfront 오브젝트에 연결된 Workfront Planning 레코드를 표시할 수 있습니다.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 1%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!--add also Group and Company when they are available-->
-
-<!-- opening the Details preview and page is not possible yet - hid those steps, but add them when released-->
-
 
 # Adobe Workfront 오브젝트의 계획 섹션에서 레코드 관리
 
@@ -34,8 +31,6 @@ ht-degree: 1%
 * Company-->
 
 ## 액세스 요구 사항
-
-<!--Updated for GA-->
 
 +++ 를 확장하여 Workfront Planning에 대한 액세스 요구 사항을 봅니다.
 

@@ -1,29 +1,17 @@
 ---
 title: 작업 공간 템플릿 목록
 description: 작업 영역은 팀에서 사용하는 레코드 유형의 컬렉션으로, 팀의 작업 라이프사이클을 나타냅니다. Adobe Workfront Planning에는 작업 영역을 구축할 때 기본 레코드 유형 및 필드를 시작하기 위한 템플릿 세트가 포함되어 있습니다.
-hide: true
-hidefromtoc: true
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 0%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav:
----
-title: List of available workspace templates
-description: You can use templates to create workspaces. This article provides a list of available workspace templates
-hidefromtoc: yes
-hide: yes
-author: Alina
-feature: Work Management
-role: User
----
-
--->
 
 # 작업 공간 템플릿 목록
 

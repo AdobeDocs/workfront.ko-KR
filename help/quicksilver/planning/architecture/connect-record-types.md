@@ -1,28 +1,17 @@
 ---
 title: 레코드 유형 연결
 description: 개별 레코드 종류가 서로 관련되는 방식을 나타내는 방법은 해당 레코드 종류를 연결하는 것입니다. 또한 Adobe Workfront Planning 레코드 유형을 다른 애플리케이션의 객체 유형과 연결하여 사용자 경험을 향상시키고 한 애플리케이션에서 집중할 수 있습니다.
-hidefromtoc: true
-hide: true
-recommendations: noDisplay, noCatalog
+feature: Workfront Planning
+role: User
+author: Alina
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: 743dbef27149f42ee2328e45a76be660657a75bb
 workflow-type: tm+mt
 source-wordcount: '2137'
 ht-degree: 1%
 
 ---
 
-<!-----
-title: Connect record types
-description: A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Adobe Workfront Planning record types with object types from other applications to enhance your users' experience and keep their focus in one application.
-hidefromtoc: yes
-hide: yes
-feature: Work management
-role: User
-author: Alina
---->
-
-<!--update the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # 레코드 유형 연결
 
@@ -46,8 +35,6 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 <!--ensure this last linked article is right; the title and the link should have changed-->
 
 ## 액세스 요구 사항
-
-<!--Updated for GA-->
 
 +++ 를 확장하여 Workfront Planning에 대한 액세스 요구 사항을 봅니다.
 

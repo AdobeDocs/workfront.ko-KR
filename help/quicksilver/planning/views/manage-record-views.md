@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1194'
 ht-degree: 1%
 
 ---
@@ -42,9 +42,9 @@ Adobe Workfront Planning 영역에서 레코드 유형을 선택한 후 다음 �
 
 ## 액세스 요구 사항
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
++++ 를 확장하여 Workfront Planning에 대한 액세스 요구 사항을 봅니다.
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
+Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -85,8 +85,7 @@ Adobe Workfront Planning 영역에서 레코드 유형을 선택한 후 다음 �
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront 라이센스*</p></td> 
-   <td> <ul><li><p>Workfront Planning 정보를 보려면 표준, 라이트 또는 기여자</p></li>
-   <li><p>표준, 작업 공간 만들기</p></li></ul>
+   <td><p> 표준 </p>
    <p>기존 Workfront 라이선스에는 Workfront Planning을 사용할 수 없습니다.</p> 
   </td> 
   </tr> 
@@ -98,7 +97,7 @@ Adobe Workfront Planning 영역에서 레코드 유형을 선택한 후 다음 �
 <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
    <td>   <p>보기에 대한 권한 관리</p>  
-   <p>보기 설정을 일시적으로 변경하기 위해 보기에 대한 이상의 권한을 봅니다.</p> </td> 
+   <p>보기에 대한 권한을 보고 일시적으로 보기 설정 변경</p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>레이아웃 템플릿</p></td> 

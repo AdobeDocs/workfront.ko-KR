@@ -1,30 +1,19 @@
 ---
 title: 타임라인 보기 관리
 description: Adobe Workfront Planning 레코드 유형 페이지의 타임라인 보기에서 레코드에 액세스하고 편집합니다. 필터, 그룹화 및 설정을 사용하여 타임라인을 사용자 지정합니다. 분류 기능을 사용하여 연결된 레코드를 표시합니다.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
 workflow-type: tm+mt
-source-wordcount: '2636'
+source-wordcount: '2621'
 ht-degree: 0%
 
 ---
 
 # 타임라인 보기 관리
-
-<!--
-title: Manage the timeline view 
-description: You can display records in a timeline view, when accessing the record type page in Adobe Workfront Planning. 
-hidefromtoc: yes
-hide: yes
-author: Alina
-feature: Work Management
-role: User
--->
-
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 {{planning-important-intro}}
 
@@ -34,11 +23,9 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 타�
 
 ## 액세스 요구 사항
 
-<!--Updated for GA-->
++++ 를 확장하여 Workfront Planning에 대한 액세스 요구 사항을 봅니다.
 
-+++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
-
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
+Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -79,8 +66,7 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 타�
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront 라이센스*</p></td> 
-   <td> <ul><li><p>임의, Workfront Planning 정보를 보려면</p></li>
-   <li><p>표준, 작업 공간 만들기</p></li></ul>
+   <td><p> 표준 </p>
    <p>기존 Workfront 라이선스에는 Workfront Planning을 사용할 수 없습니다.</p> 
   </td> 
   </tr> 
@@ -92,7 +78,7 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 타�
 <tr> 
    <td role="rowheader"><p>개체 권한</p></td> 
    <td>   <p>보기에 대한 권한 관리</p>  
-   <p>보기 설정을 일시적으로 변경하기 위해 보기에 대한 이상의 권한을 봅니다.</p> </td> 
+   <p>보기에 대한 권한을 보고 일시적으로 보기 설정 변경</p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>레이아웃 템플릿</p></td> 
@@ -102,6 +88,8 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 타�
 </table>
 
 *Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서의 [액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 <!--OLD: 
 
@@ -161,7 +149,6 @@ Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 타�
 
 *For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
-+++
 
 ## 타임라인 보기 관리 {#manage-a-timeline-view}
 

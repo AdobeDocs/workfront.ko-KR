@@ -1,18 +1,18 @@
 ---
 title: 기본 필드 개요
 description: Adobe Workfront Planning에 있는 레코드 유형의 테이블 보기에서 한 줄 텍스트, 숫자 또는 공식 필드를 기본 필드로 지정할 수 있습니다. 기본 필드는 해당 유형의 레코드 제목이 됩니다.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: fe3127ab-3f59-46a0-a747-9e9e1582265b
-source-git-commit: 9a9a756e2b7e30ce3c0139e5e166b65c7e64bffd
+source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 1%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # 기본 필드 개요
 

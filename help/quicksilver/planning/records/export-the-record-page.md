@@ -1,19 +1,17 @@
 ---
 title: 레코드 페이지 내보내기
 description: 레코드의 미리 보기 또는 세부 정보 페이지를 Word로 내보낼 수 있습니다.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User
+author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 1%
 
 ---
 
-
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
-<!--update the miniTOC and TOC when you make this public-->
 
 # 레코드의 세부 사항 내보내기
 
