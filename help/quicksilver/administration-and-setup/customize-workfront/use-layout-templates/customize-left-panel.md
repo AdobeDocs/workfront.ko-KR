@@ -8,7 +8,7 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: 51b8e474cefe63b4db8c42e480990ca0ba431a4d
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 0%
@@ -202,10 +202,10 @@ ht-degree: 0%
    >[!NOTE]
    >
    >**[!UICONTROL 사용자에게 표시되는 항목 사용자 지정]** 드롭다운 목록([!UICONTROL 목록], [!UICONTROL 홈 및 요약], [!UICONTROL 브랜딩])의 마지막 3개 항목은 왼쪽 패널 이외의 영역을 구성하기 위한 것입니다. 자세한 내용은 다음 문서를 참조하십시오.
->   >   
-* [레이아웃 템플릿을 사용하여 필터, 보기 및 그룹화 사용자 지정](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
->* [레이아웃 템플릿을 사용하여 [!UICONTROL Home] 및 [!UICONTROL Summary] 사용자 지정](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
-* [브랜드 Adobe [!DNL Workfront] 레이아웃 템플릿 사용](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
+   >
+   >* [레이아웃 템플릿을 사용하여 필터, 보기 및 그룹화 사용자 지정](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >* [레이아웃 템플릿을 사용하여 [!UICONTROL Home] 및 [!UICONTROL Summary] 사용자 지정](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+   >* [브랜드 Adobe [!DNL Workfront] 레이아웃 템플릿 사용](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
 
 1. (선택 사항) 조직의 대시보드 중 하나에 연결되는 왼쪽 패널 항목을 추가하려면 **[!UICONTROL 사용자 지정 섹션 추가]**&#x200B;를 클릭하고 항목에 대한 **[!UICONTROL 사용자 지정 섹션 제목]**&#x200B;을 입력한 다음 대시보드를 추가하십시오.
@@ -214,7 +214,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   사용자는 사용자 정의 대시보드 항목을 자신의 왼쪽 패널에 추가할 수 있습니다. 레이아웃 템플릿에 사용자 정의 대시보드 항목을 추가하면 항목이 덮어쓰거나 재설정하지 않고 해당 항목과 병합됩니다. 이는 사용자 지정 대시보드 항목이 있는 새 레이아웃 템플릿에 사용자를 할당하는 경우에도 마찬가지입니다. 사용자가 왼쪽 패널을 사용자 지정하는 방법에 대한 자세한 내용은 [사용자 지정 탭 또는 섹션 만들기](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)를 참조하십시오.
+   >사용자는 사용자 정의 대시보드 항목을 자신의 왼쪽 패널에 추가할 수 있습니다. 레이아웃 템플릿에 사용자 정의 대시보드 항목을 추가하면 항목이 덮어쓰거나 재설정하지 않고 해당 항목과 병합됩니다. 이는 사용자 지정 대시보드 항목이 있는 새 레이아웃 템플릿에 사용자를 할당하는 경우에도 마찬가지입니다. 사용자가 왼쪽 패널을 사용자 지정하는 방법에 대한 자세한 내용은 [사용자 지정 탭 또는 섹션 만들기](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)를 참조하십시오.
 
    대시보드에 대한 자세한 내용은 [대시보드](../../../reports-and-dashboards/dashboards/dashboards-overview.md)를 참조하십시오.
 
@@ -226,4 +226,4 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   언제든지 [!UICONTROL 저장]을 클릭하여 진행 상황을 저장한 다음 나중에 템플릿을 계속 수정할 수 있습니다.
+   >언제든지 [!UICONTROL 저장]을 클릭하여 진행 상황을 저장한 다음 나중에 템플릿을 계속 수정할 수 있습니다.

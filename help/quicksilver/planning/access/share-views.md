@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: 4c675fc5cbe82c27182b8f442bec9a6c2d9634fa
 workflow-type: tm+mt
 source-wordcount: '1200'
 ht-degree: 1%
@@ -226,7 +226,7 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 
    >[!TIP]
    >
-   사람 또는 전역 아이콘이 없는 보기는 사용자가 만든 보기이며 다른 사용자와 공유되지 않습니다. 공유되지 않은 보기는 사용자에게만 표시됩니다.
+   >사람 또는 전역 아이콘이 없는 보기는 사용자가 만든 보기이며 다른 사용자와 공유되지 않습니다. 공유되지 않은 보기는 사용자에게만 표시됩니다.
 
 1. 복사한 링크를 다른 사용자와 공유합니다. 링크를 받은 사용자는 활성 사용자여야 하며 레코드 유형 페이지에 액세스하여 선택한 보기에 표시할 수 있도록 Workfront에 로그인해야 합니다.
 
@@ -236,7 +236,7 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 
 >[!IMPORTANT]
 >
-작업 영역에 대한 관리 권한이 있는 사용자만 작업 영역 보기를 공개적으로 공유할 수 있습니다.
+>작업 영역에 대한 관리 권한이 있는 사용자만 작업 영역 보기를 공개적으로 공유할 수 있습니다.
 
 
 Workfront Planning에서 보기를 공개적으로 공유하려면 다음을 수행합니다.

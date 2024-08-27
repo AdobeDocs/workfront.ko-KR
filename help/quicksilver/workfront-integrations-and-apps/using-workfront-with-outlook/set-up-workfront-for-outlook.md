@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] [!DNL Outlook] 추가 기능을 사용하�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: e4f722bab4c4024ca796af8413e7d6b69f6a89a7
+source-git-commit: bcf03609e0503a5db0384fd573066467a1feb341
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ ht-degree: 0%
 Workfront은 다음 버전의 [!DNL Outlook]을(를) 지원합니다.
 
 * [!DNL Windows]의 [!DNL Outlook 2013] 이상
-[!DNL Windows]의 *[!DNL  Outlook 2016] 이상
+* [!DNL Windows]의 [!DNL Outlook 2016] 이상
 * [!DNL Mac]의 [!DNL Outlook]([!DNL Microsoft 365])
 * [!DNL Windows]의 [!DNL Outlook]([!DNL Microsoft 365])
 * 웹에서 [!DNL Outlook]
@@ -90,7 +90,7 @@ Workfront은 다음 버전의 [!DNL Outlook]을(를) 지원합니다.
 
 * [!DNL Exchange]
 * [!DNL Office 365]
-* [!DNL Outlook.com]{&#x200B;1&#x200B;}**&#x200B;클라이언트가 POP3 또는 IMAP에 연결하도록 구성된 경우 [!DNL Workfront] 추가 기능이 로드되지 않습니다.**
+* [!DNL Outlook.com] 클라이언트가 POP3 또는 IMAP에 연결하도록 구성된 경우 [!DNL Workfront] 추가 기능이 로드되지 않습니다.
 
 ### 메일 서버 요구 사항 {#mail-server-requirements}
 

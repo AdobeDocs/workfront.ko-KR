@@ -9,9 +9,9 @@ description: ' [!DNL Adobe Workfront Fusion] Figma 모듈을 사용하면 주석
 author: Becky
 feature: Workfront Fusion
 exl-id: d88db592-32d4-4765-952f-9ffb58cf1720
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: df4ac2c7fdf319fd8e2e8383cd395e8826e19df0
 workflow-type: tm+mt
-source-wordcount: '2312'
+source-wordcount: '2313'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ ht-degree: 0%
 
 * [댓글 나열](#list-comments)
 
-* [Post a 댓글](#post-a-comment)
+* [댓글 게시](#post-a-comment)
 
 
 #### [!UICONTROL 댓글 삭제]
@@ -156,7 +156,7 @@ ht-degree: 0%
 </table>
 
 
-#### [!UICONTROL 댓글 Post]
+#### [!UICONTROL 댓글 게시]
 
 이 작업 모듈은 Figma 파일에 주석을 게시합니다.
 
@@ -363,7 +363,7 @@ ht-degree: 0%
       <td>JSON을 반환할 파일을 선택합니다.</td>
     </tr>
     <tr>
-      <td role="rowheader" [!UICONTROL>노드 ID]</td>
+      <td role="rowheader">[!UICONTROL 노드 ID]</td>
       <td>
         <p>모듈을 렌더링할 노드를 입력합니다.</p>
         <p>렌더링할 각 노드에 대해 <b>[!UICONTROL 추가]</b>를 클릭하고 노드 텍스트를 입력합니다.</p>
