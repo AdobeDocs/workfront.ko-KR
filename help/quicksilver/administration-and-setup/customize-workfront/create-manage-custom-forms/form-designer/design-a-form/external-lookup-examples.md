@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 1b3e0ab2d8ee37b7583d0b8fb0472b2fc9623da0
+source-git-commit: bcc0054f761101ac19d1ced241329fce95be4e99
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1308'
 ht-degree: 0%
 
 ---
@@ -108,6 +108,16 @@ ht-degree: 0%
 1. **적용**&#x200B;을 클릭합니다.
 
    사용자 정의 양식을 Workfront 개체에 추가하면 &quot;콤보 색상&quot; 필드의 모든 값이 외부 조회 필드 드롭다운에 표시됩니다.
+
+## Workfront Planning API에 대한 외부 조회 필드 설정
+
+끝점은 [Workfront Planning API](/help/quicksilver/planning/general/planning-api-basics.md)에서 Get 메서드를 통해 레코드 유형 ID별로 레코드를 검색할 수 있습니다. 이 끝점을 사용하여 외부 조회 필드의 계획 레코드를 참조할 수 있습니다.
+
+* **기본 API URL:** `$$HOST/maestro/api/v1/records/search?recordTypeId={recordTypeID}`
+* **HTTP 메서드:** Get
+* **JSON 경로:** `$.records[*].data.{fieldID}`
+
+  **{fieldID}**&#x200B;은(는) 최종 사용자에 대한 사용자 정의 양식의 외부 조회 검색 결과에 표시할 필드입니다.
 
 ## 공개 API에 대한 외부 조회 필드 설정
 
