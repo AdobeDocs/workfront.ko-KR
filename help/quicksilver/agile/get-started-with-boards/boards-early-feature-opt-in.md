@@ -2,19 +2,19 @@
 filename: boards-early-feature-opt-in
 content-type: reference
 navigation-topic: boards
-title: ' [!DNL Adobe Workfront] 보드에 대한 초기 기능 옵트인'
+title: ' [!DNL Workfront] 보드에 대한 초기 기능 옵트인'
 description: 이 문서를 읽고  [!DNL Workfront Boards] 초기 기능 옵트인에 대해 알아보십시오.
 author: Lisa
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 3706921e4705a05d9d1fa18a3d242632b5e0616b
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Workfront] [!UICONTROL 보드]에 대한 초기 기능 옵트인
+# [!DNL Workfront] [!UICONTROL 보드]에 대한 초기 기능 옵트인
 
 [!DNL Adobe Workfront] [!UICONTROL 보드]에 대한 초기 기능 옵트인이 2022년 7월에 시작되었습니다.
 

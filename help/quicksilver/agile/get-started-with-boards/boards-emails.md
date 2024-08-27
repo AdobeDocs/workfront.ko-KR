@@ -7,9 +7,9 @@ description: Adobe Workfront 보드는 보드에 추가되거나 카드에 할�
 author: Lisa
 feature: Agile
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
@@ -22,26 +22,32 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 플랜*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
-   <td> <p>[!UICONTROL Request] 이상</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
+   <td> 
+   <p>새로운 기능: [!UICONTROL Contributor] 이상</p> 
+   <p>또는</p>
+   <p>현재: [!UICONTROL Request] 이상</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 게시판 이메일에 대한 환경 설정 지정
 

@@ -2,19 +2,19 @@
 filename: boards-video-demonstrations
 content-type: reference
 navigation-topic: boards
-title: Adobe Workfront Boards 비디오 데모
+title: Workfront Boards 비디오 데모
 description: 이 비디오에서는 Adobe Workfront에서 사용할 수 있는 다양한 유형의 보드를 소개하고 일상적인 작업에서 보드를 사용하는 방법에 대한 예를 보여 줍니다.
 author: Lisa
 feature: Agile
 exl-id: 54a5fe37-7a0a-45b1-a0bb-c5e345d3f34d
-source-git-commit: 9ce75ec2daded7f53975857707a39d42a179ba0f
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '345'
 ht-degree: 1%
 
 ---
 
-# Adobe Workfront Boards 비디오 데모
+# Workfront Boards 비디오 데모
 
 <!--Audited: 12/2023-->
 

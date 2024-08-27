@@ -7,9 +7,9 @@ description: 카드가 일정에 따라 보관되거나 보드에서 떨어지�
 author: Lisa
 feature: Agile
 exl-id: 0e4f6b3c-75aa-4314-9cb0-737e5a9d3bda
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '248'
 ht-degree: 0%
 
 ---
@@ -22,30 +22,37 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 플랜*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
-   <td> <p>[!UICONTROL Request] 이상</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
+   <td> 
+   <p>새로운 기능: [!UICONTROL Contributor] 이상</p> 
+   <p>또는</p>
+   <p>현재: [!UICONTROL Request] 이상</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 카드 폴오프 구성
 
-1. [!DNL Adobe Workfront]의 오른쪽 위 모서리에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 게시판]**&#x200B;을 클릭합니다.
+{{step1-to-boards}}
+
 1. 보드에 액세스합니다. 자세한 내용은 [게시판 만들기 또는 편집](../../agile/get-started-with-boards/create-edit-board.md)을 참조하세요.
 1. 보드 오른쪽의 **[!UICONTROL 구성]**&#x200B;을 클릭하여 구성 패널을 엽니다.
 1. **[!UICONTROL 카드]**&#x200B;를 확장합니다.

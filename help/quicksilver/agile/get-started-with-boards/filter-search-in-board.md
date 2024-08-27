@@ -6,9 +6,9 @@ description: 보드를 필터링하여 특정 카드만 표시할 수 있습니�
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: b6a824ac6248c86043f7f21866c8a14a6c97602f
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '688'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,8 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -41,21 +43,28 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 플랜*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
-   <td> <p>[!UICONTROL Request] 이상</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
+   <td> 
+   <p>새로운 기능: [!UICONTROL Contributor] 이상</p> 
+   <p>또는</p>
+   <p>현재: [!UICONTROL Request] 이상</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 피할당자별로 보드 필터링
 
-1. [!DNL Adobe Workfront]의 오른쪽 위 모서리에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 게시판]**&#x200B;을 클릭합니다.
+{{step1-to-boards}}
+
 1. 보드에 액세스합니다. 자세한 내용은 [게시판 만들기 또는 편집](../../agile/get-started-with-boards/create-edit-board.md)을 참조하세요.
 1. [!UICONTROL **필터**]&#x200B;를 클릭하고 [!UICONTROL 구성원] 섹션을 확장한 다음 표시할 카드를 가진 사람을 선택합니다. 할당 해제된 카드를 표시할 수도 있습니다.
 

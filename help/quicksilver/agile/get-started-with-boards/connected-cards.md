@@ -6,9 +6,9 @@ description: Workfront의 기존 작업 및 문제에 연결된 카드를 보드
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 5c093edc97afdbd1d88824376ce4b019f71e099f
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1461'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,8 @@ ht-degree: 0%
 
 ## 연결된 카드 추가
 
-1. Adobe Workfront의 오른쪽 위 모서리에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![기본 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 위 모서리에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![기본 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **[!UICONTROL 보드]**&#x200B;를 클릭합니다.
+{{step1-to-boards}}
+
 1. 보드에 액세스합니다. 자세한 내용은 [게시판 만들기 또는 편집](../../agile/get-started-with-boards/create-edit-board.md)을 참조하세요.
 1. **[!UICONTROL 카드 추가] > [!UICONTROL 연결된 카드]**&#x200B;를 클릭합니다.
 1. 프로젝트를 선택한 다음 보드에 카드로 추가할 작업 또는 문제를 선택하십시오.

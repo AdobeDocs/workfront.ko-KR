@@ -1,14 +1,14 @@
 ---
 content-type: reference
 navigation-topic: boards
-title: 애자일 팀 Kanban 카드를 Workfront 보드로 마이그레이션
+title: 애자일 팀 간판 카드를 Workfront 보드로 마이그레이션
 description: 애자일 팀 Kanban 보드에서 신규 또는 기존 Workfront 보드로 작업 항목을 마이그레이션할 수 있습니다.
 author: Lisa
 feature: Agile
 exl-id: 72e3902b-af9a-497c-817f-63630c4fb73b
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
@@ -23,26 +23,32 @@ Workfront 보드의 카드 배치는 열 정책을 기반으로 합니다. (예�
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-  <tr>
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 플랜*</strong></td>
-   <td> <p>임의</p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td>
-   <td> <p>[!UICONTROL Request] 이상</p> </td>
-  </tr>
- </tbody>
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td> <p>임의</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
+   <td> 
+   <p>새로운 기능: [!UICONTROL Contributor] 이상</p> 
+   <p>또는</p>
+   <p>현재: [!UICONTROL Request] 이상</p>
+   </td> 
+  </tr> 
+ </tbody> 
 </table>
 
-&#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 칸반 카드를 새 보드로 마이그레이션
 

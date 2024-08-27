@@ -1,19 +1,19 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Adobe Workfront 보드 또는 워크스트림에 기존 작업 또는 문제 추가
+title: Workfront 보드에 기존 작업 또는 문제 추가
 description: 목록 또는 보고서 보기에서 Adobe Workfront의 보드에 작업 또는 문제를 추가할 수 있습니다.
 author: Lisa
 feature: Agile
 exl-id: 5e6fd681-8068-4091-9f42-0364b17e0465
-source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '600'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Workfront] 게시판 또는 워크플로에 기존 작업 또는 문제 추가
+# [!DNL Workfront] 보드에 기존 작업 또는 문제 추가
 
 >[!IMPORTANT]
 >
@@ -23,6 +23,8 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto">
@@ -30,26 +32,33 @@ ht-degree: 0%
  <col>
  <tbody>
   <tr>
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 플랜*</strong></td>
+   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td>
    <td> <p>임의</p> </td>
   </tr>
   <tr>
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td>
-   <td> <p>[!UICONTROL Work] 이상</p> </td>
+   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td>
+   <td>
+   <p>새로운 기능: [!UICONTROL Standard]</p> 
+   <p>또는</p>
+   <p>현재: [!UICONTROL Work] 이상</p>
+   </td>
   </tr>
   <tr>
-   <td role="rowheader"><strong>개체 권한</strong></td>
-   <td> <p>작업 또는 문제에 대한 [!UICONTROL 보기] 이상 권한</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td>
+   <td role="rowheader">개체 권한</td>
+   <td>작업 또는 문제에 대한 [!UICONTROL 보기] 이상 권한 </td>
   </tr>
  </tbody>
 </table>
 
-&#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 목록에서 기존 작업 또는 문제를 보드 또는 워크플로에 추가
 
-1. [!DNL Adobe Workfront]의 오른쪽 위 모서리에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭합니다.
-1. **[!UICONTROL 프로젝트]**, **[!UICONTROL 보고]** 또는 **[!UICONTROL 대시보드]** 중 하나를 선택하십시오.
+{{step1-click-main-menu}}
+
+1. **[!UICONTROL 프로젝트]**, **[!UICONTROL 보고서]** 또는 **[!UICONTROL 대시보드]** 중 하나를 선택하십시오.
 1. 게시판이나 워크스트림에 추가할 작업 또는 문제가 포함된 프로젝트, 보고서 또는 대시보드로 이동합니다.
 1. 하나 이상의 작업 또는 문제를 선택하십시오.
 
@@ -70,7 +79,8 @@ ht-degree: 0%
 
 ## 오브젝트 세부 정보에서 보드 또는 워크스트림에 기존 작업 또는 문제 추가
 
-1. [!DNL Adobe Workfront]의 오른쪽 위 모서리에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭합니다.
+{{step1-click-main-menu}}
+
 1. [!UICONTROL **프로젝트**]&#x200B;를 클릭한 다음 프로젝트 이름을 클릭하여 엽니다.
 1. 왼쪽 패널에서 [!UICONTROL **작업**] 또는 [!UICONTROL **문제**]&#x200B;를 클릭합니다.
 1. 게시판이나 워크스트림에 추가할 작업, 하위 작업 또는 문제를 클릭합니다.

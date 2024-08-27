@@ -9,10 +9,10 @@ description: Adobe Workfront Boards 커넥터를 사용하여 Workfront Boards �
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 0b4a25f7-a8f1-47f4-8929-7eff82f1dfdc
-source-git-commit: 7003ea4b6daba68957ef0ec501ecfd4a8d750d4c
+source-git-commit: 0b7b63df57c9e99fb782c59af55d1165283dd634
 workflow-type: tm+mt
-source-wordcount: '2591'
-ht-degree: 1%
+source-wordcount: '2631'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->이 커넥터는 현재 Beta에 있습니다.
+>Boards Fusion 커넥터가 베타 상태입니다. 그 결과, 이 커넥터에 대한 지원은 제한되고 보드의 향후 개발로 인해 변경될 수 있습니다. 또한 Fusion 커넥터 프로세스에 영향을 줄 수 있는 공지 없이 GraphQL API가 변경될 수 있습니다.
 
 Adobe Workfront 보드는 열과 카드가 포함된 공유 보드에 대한 액세스를 제공하여 팀 공동 작업을 허용하는 유연한 도구입니다.
 

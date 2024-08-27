@@ -7,9 +7,9 @@ description: Workfront에서 보드를 삭제하거나 보관할 수 있습니�
 author: Lisa
 feature: Agile
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: a3e9b758867bdbad6afbc0e6cc5e6c81a54f6030
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -20,32 +20,39 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 플랜*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
-   <td> <p>[!UICONTROL Request] 이상</p> </td> 
-  </tr>
-   </tbody> 
+   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
+   <td> 
+   <p>새로운 기능: [!UICONTROL Contributor] 이상</p> 
+   <p>또는</p>
+   <p>현재: [!UICONTROL Request] 이상</p>
+   </td> 
+  </tr> 
+ </tbody> 
 </table>
 
-&#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 보드 삭제
 
 게시판을 삭제하면 [!DNL Workfront]에서 영구적으로 제거되며 복원할 수 없습니다. 보드에 있는 모든 카드도 보드와 함께 삭제됩니다.
 
-1. [!DNL Adobe Workfront]의 오른쪽 위 모서리에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 게시판]**&#x200B;을 클릭합니다.
+{{step1-to-boards}}
+
 1. 대시보드에서 열 보드를 선택합니다.
 1. 게시판 이름 옆에 있는 **[!UICONTROL 기타]** 메뉴 ![[!UICONTROL 기타 메뉴]](assets/more-icon-spectrum.png)를 클릭하고 **[!UICONTROL 삭제]**&#x200B;를 선택합니다. 확인 메시지에서 **[!UICONTROL 게시판 삭제]**&#x200B;를 클릭합니다.
 
@@ -59,7 +66,8 @@ ht-degree: 0%
 
 보관된 보드는 모든 카드 및 할당을 유지합니다. 모든 사용자는 언제든지 보드를 보관하거나 복원할 수 있습니다.
 
-1. [!DNL Adobe Workfront]의 오른쪽 위 모서리에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 게시판]**&#x200B;을 클릭합니다.
+{{step1-to-boards}}
+
 1. 대시보드에서 열 보드를 선택합니다.
 1. 게시판 이름 옆에 있는 **[!UICONTROL 기타]** 메뉴 ![[!UICONTROL 기타 메뉴]](assets/more-icon-spectrum.png)를 클릭하고 **[!UICONTROL 보관]**&#x200B;을 선택합니다.
 
@@ -69,7 +77,8 @@ ht-degree: 0%
 
 보관된 보드는 언제든지 복원할 수 있습니다. 모든 사용자는 보관된 보드를 복원할 수 있습니다.
 
-1. [!DNL Adobe Workfront]의 오른쪽 위 모서리에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 게시판]**&#x200B;을 클릭합니다.
+{{step1-to-boards}}
+
 1. 대시보드에서 필터 아이콘 ![필터](assets/filter-icon-spectrum-25x25.png)를 클릭하고 **[!UICONTROL 보관된 보드]**&#x200B;를 선택합니다.
 1. 복원할 보드를 찾은 다음 보드 이름 옆에 있는 **[!UICONTROL 기타]** 메뉴 ![기타 메뉴](assets/more-icon-spectrum.png)를 클릭하고 **[!UICONTROL 복원]**&#x200B;을 선택합니다.
 
