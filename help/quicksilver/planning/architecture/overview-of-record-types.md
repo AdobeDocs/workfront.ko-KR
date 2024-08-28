@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Workfront Planning에서 조직의 요구 사항에 맞는 사용자 정의 레�
 * 처음부터 만든 작업공간에 레코드 유형을 만들면 작업공간에서 만든 모든 섹션에 레코드 유형을 배치할 수 있습니다.
 * 레코드 유형을 만들면 사용자와 작업 공간에 액세스할 수 있는 권한을 부여한 사용자만 레코드 유형을 볼 수 있습니다.
 * 작업 영역에 대한 레코드 유형을 만들려면 먼저 작업 영역을 만들어야 합니다.
-* 작업 공간에 있는 섹션의 수에 관계없이 하나의 작업 공간에서 총 1,000개의 레코드 유형을 가질 수 있습니다. 여기에는 처음부터 만들거나 템플릿을 사용할 때 만드는 레코드 유형이 포함됩니다.
+* 한 작업 영역 또는 Workfront 인스턴스에서 가질 수 있는 레코드 종류의 수에 대한 제한 사항은 [Adobe Workfront Planning 개체 제한 사항 개요](/help/quicksilver/planning/general/limitations-overview.md)를 참조하십시오.
 
 
 <!--

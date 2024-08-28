@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
-source-wordcount: '2710'
+source-wordcount: '2714'
 ht-degree: 1%
 
 ---
@@ -225,7 +225,7 @@ Workfront Planning에서 Planning 레코드의 다음 영역에 있는 레코드
 
    작업공간이 열리고 레코드 유형이 카드로 표시됩니다.
 1. 레코드 유형의 카드를 클릭하여 레코드 유형 페이지를 엽니다.
-1. **테이블** 보기 이름을 클릭하여 엽니다.
+1. 테이블 뷰의 이름을 클릭하여 엽니다.
 1. (선택 사항) 테이블에 새 행을 추가하여 선택한 레코드 유형에 레코드를 추가합니다. 자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)를 참조하세요.
 1. (조건부) 선택한 레코드 종류를 다른 레코드 종류와 연결한 후 연결된 레코드 열로 이동하여 다른 레코드와 연결할 레코드에 해당하는 셀을 두 번 클릭합니다.
 
@@ -240,7 +240,7 @@ Workfront Planning에서 Planning 레코드의 다음 영역에 있는 레코드
 
    >[!TIP]
    >
-   >    표 보기에서 다음을 수행하여 레코드의 페이지를 열 수 있습니다.
+   >    표 보기에서 다음을 수행하여 레코드의 페이지를 열고 다른 레코드를 연결할 수 있습니다.
    >1. 보기에서 레코드 이름을 클릭합니다.
    >1. 연결된 레코드 필드를 찾아 필드를 두 번 클릭합니다(이미 연결된 레코드가 있는 경우).
    >또는

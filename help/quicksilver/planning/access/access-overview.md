@@ -6,9 +6,9 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '661'
 ht-degree: 1%
 
 ---
@@ -221,11 +221,11 @@ Workfront Planning에 대한 Workfront 액세스 제어가 없습니다.
 
 ## 권한 부여
 
-사용자가 Workfront Planning 작업 공간 및 뷰에 액세스하려면 사용자에게 사용자가 생성한 작업 공간 및 뷰에 대한 권한을 부여해야 합니다.
+사용자에게 Workfront Planning 작업 공간 및 보기에 액세스할 수 있는 권한을 부여해야 합니다.
 
 자세한 내용은 [Adobe Workfront Planning의 공유 권한 개요](/help/quicksilver/planning/access/sharing-permissions-overview.md)를 참조하십시오.
 
-Adobe Workfront 라이선스 유형은 Workfront Planning 권한과 함께 작동하여 Workfront Planning 개체를 보거나, 기여하거나, 관리할 수 있는 액세스 권한을 부여합니다.
+Adobe Workfront 라이선스 유형은 Workfront Planning 권한과 함께 작동하여 Workfront Planning 개체를 보고, 기여하고, 관리할 수 있는 액세스 권한을 부여합니다.
 
 라이선스 유형이 Workfront Planning 개체의 사용 권한 수준에 영향을 주는 방법에 대한 자세한 내용은 [Adobe Workfront Planning 사용 시 라이선스 유형 개요](/help/quicksilver/planning/access/license-type-overview.md)를 참조하십시오.
 

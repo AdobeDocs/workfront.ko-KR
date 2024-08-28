@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: d4aa6bee72ac1f17884ae38d24bd094c0b62336a
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
 source-wordcount: '7432'
 ht-degree: 0%
@@ -179,7 +179,7 @@ Workfront Planning이 일반 공급자로 릴리스됨에 따라 이제 Workfron
 
 ### Workfront Planning에서 AI 도우미가 다시 활성화되었습니다.
 
-프로덕션 및 미리보기: 2024년 8월 28일
+미리보기 및 프로덕션: 2024년 8월 28일
 
 Workfront 계획 영역에 대해 Workfront AI Assistant가 다시 활성화되었습니다.
 
@@ -187,7 +187,7 @@ Workfront Planning AI Assistant에 대한 자세한 내용은 [Adobe Workfront P
 
 ### 캔버스 대시보드를 사용한 Workfront Planning의 보고 기능
 
-프로덕션 및 프로덕션: 2024년 8월 28일
+미리보기 및 프로덕션: 2024년 8월 28일
 
 이제 Workfront Canvas Dashboard를 사용하여 보고서에서 Workfront Planning 정보를 볼 수 있습니다. 자세한 내용은 [캔버스 대시보드 시작](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)을 참조하세요.
 

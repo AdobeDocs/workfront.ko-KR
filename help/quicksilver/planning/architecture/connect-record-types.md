@@ -5,7 +5,7 @@ feature: Workfront Planning
 role: User
 author: Alina
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 743dbef27149f42ee2328e45a76be660657a75bb
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
 source-wordcount: '2137'
 ht-degree: 1%
@@ -191,6 +191,8 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 
 
    * 다른 작업 영역에서 연결하도록 구성된 다른 작업 영역의 레코드 유형입니다. 자세한 내용은 [레코드 종류 편집](/help/quicksilver/planning/architecture/edit-record-types.md)을 참조하세요.
+
+     ![](assets/connect-record-from-another-workspace-new-connection-tab.png)
 
      >[!TIP]
      >

@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
-source-wordcount: '1986'
-ht-degree: 1%
+source-wordcount: '1989'
+ht-degree: 2%
 
 ---
 
@@ -174,8 +174,6 @@ Workfront Planning의 프레임워크는 완전히 사용자 정의할 수 있�
 
 * **Workspace**: 특정 조직의 작업 주기를 정의하는 레코드 형식의 컬렉션입니다. 작업 공간은 조직 단위의 작업 프레임입니다.
 
-  하나의 Workfront 인스턴스에는 최대 1,000개의 작업 공간이 있을 수 있습니다.
-
   ![](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
 
   자세한 내용은 [작업 영역 만들기](/help/quicksilver/planning/architecture/create-workspaces.md)를 참조하십시오.
@@ -204,9 +202,15 @@ Workfront Planning의 프레임워크는 완전히 사용자 정의할 수 있�
 
   ![](assets/workspaces-page-with-templates-thumbnails.png)
 
-  Adobe Workfront Planning에는 판매, 마케팅 및 제품 관리 작업 영역 템플릿이 포함되어 있습니다.
+  Adobe Workfront Planning에는 다음 템플릿이 포함되어 있습니다.
 
-  자세한 내용은 [작업 영역 만들기](/help/quicksilver/planning/architecture/create-workspaces.md)를 참조하십시오.
+   * 기본: 마케팅 관리
+   * 고급: 마케팅 관리
+   * 엔터프라이즈: 마케팅 관리
+   * 영업 관리
+   * 제품 관리
+
+  자세한 내용은 [작업 영역 템플릿 목록](/help/quicksilver/planning/architecture/workspace-templates.md)을 참조하세요.
 
 * **필드**: 필드는 레코드 형식에 추가할 수 있는 특성입니다. 필드에는 레코드 유형에 대한 정보가 포함됩니다. <!--check the shot below, "Connection" needs to be in lowercase-->
 
@@ -293,7 +297,7 @@ Workfront Planning의 프레임워크는 완전히 사용자 정의할 수 있�
 
   다음은 레코드 유형 페이지에 적용할 수 있는 보기 유형입니다.
 
-   * **테이블 보기**: 연결된 필드와 조회 필드를 포함한 레코드와 해당 필드를 테이블 형식으로 표시합니다. 표의 행은 개별 레코드이고 열은 레코드 필드입니다. 기본 보기입니다.
+   * **테이블 보기**: 연결된 필드와 조회 필드를 포함한 레코드와 해당 필드를 테이블 형식으로 표시합니다. 표의 행은 개별 레코드이고 열은 레코드 필드입니다. 테이블 뷰가 기본 뷰입니다.
 
      ![](assets/table-view-example.png)
 
@@ -328,7 +332,7 @@ Workfront Planning을 찾으려면 다음을 수행합니다.
    >    Workfront 관리자는 레이아웃 템플릿의 랜딩 페이지 선택 옵션에 계획 영역을 추가할 수 있으므로 Workfront에 로그인하는 즉시 Planning을 열 수 있습니다. 자세한 내용은 [레이아웃 템플릿을 사용하여 랜딩 페이지 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)을 참조하세요.
 
 1. (조건부 및 선택 사항) Workfront 관리자인 경우 다음 탭 중 하나를 클릭합니다.
-   * **내가 있는 작업 영역**: 사용자가 만든 작업 영역 또는 사용자와 공유된 작업 영역을 표시합니다.
+   * **내가 있는 작업 영역**: 사용자가 만든 작업 영역이나 사용자와 공유되는 작업 영역을 표시합니다.
    * **다른 작업 영역**: 시스템의 다른 작업 영역을 모두 표시합니다.
 
    다른 모든 사용자의 경우 생성했거나 공유한 두 작업 영역이 모두 **작업 영역** 영역에 표시됩니다.

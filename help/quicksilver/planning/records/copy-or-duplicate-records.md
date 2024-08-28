@@ -5,7 +5,7 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 2%
@@ -175,7 +175,7 @@ OLD:
 
      ![](assets/more-menu-from-record-in-table-view.png)
 
-   * 레코드를 선택한 다음 페이지 아래쪽에 있는 도구 모음에서 **복제** 아이콘 ![](assets/duplicate-icon-white-and-blue.png)을(를) 클릭합니다.
+   * 레코드를 선택한 다음 페이지 하단의 도구 모음에서 **복제** 아이콘 ![](assets/duplicate-icon-white-and-blue.png)을(를) 클릭합니다.
 
      ![](assets/duplicate-icon-in-toolbar-in-table-view.png)
 
