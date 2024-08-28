@@ -1,23 +1,23 @@
 ---
-navigation-topic: data-lake-beta
-title: Workfront 데이터 레이크 베타 정보
-description: Workfront 데이터 레이크 베타에 대한 일반 정보
+navigation-topic: data-connect-beta
+title: Workfront Data Connect 베타 정보
+description: Workfront Data Connect 베타에 대한 일반 정보
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 2daf7617-5b3e-49f7-b93b-4210b1b2ea49
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '383'
 ht-degree: 12%
 
 ---
 
-# Workfront 데이터 레이크 베타 정보
+# Workfront Data Connect 베타 정보
 
-Workfront data lake는 복잡한 API 또는 Fusion 솔루션 없이도 조직에서 널리 사용되는 비즈니스 분석가 도구에서 사용하거나 외부 데이터 웨어하우스에 저장할 수 있도록 전용 인터페이스를 제공하는 현재 개발 중인 새로운 도구입니다. 이 페이지에는 진행 중인 베타 버전 동안 이 도구를 테스트하고 피드백을 제공하여 도움을 줄 수 있는 방법에 대한 정보가 포함되어 있습니다.
+Workfront Data Connect는 복잡한 API 또는 Fusion 솔루션 없이도 조직에서 널리 사용되는 비즈니스 분석가 도구에서 사용하거나 외부 데이터 웨어하우스에 저장할 수 있는 전용 인터페이스를 제공하는 현재 개발 중인 새로운 도구입니다. 이 페이지에는 진행 중인 베타 버전 동안 이 도구를 테스트하고 피드백을 제공하여 도움을 줄 수 있는 방법에 대한 정보가 포함되어 있습니다.
 
-Workfront 데이터 레이크 사용에 대한 자세한 내용은 [Workfront 데이터 레이크 개요](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md)를 참조하십시오.
+Workfront Data Connect 사용에 대한 자세한 내용은 [Workfront Data Connect 개요](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md)를 참조하십시오.
 
 **Beta 일정:**
 
@@ -30,11 +30,11 @@ Workfront 데이터 레이크 사용에 대한 자세한 내용은 [Workfront �
 
 >[!IMPORTANT]
 >
->Workfront 데이터 레이크 베타에 등록하려면 Workfront 시스템 관리자여야 합니다.
+>Data Connect 베타에 등록하려면 Workfront 시스템 관리자여야 합니다.
 
 Beta에 조직을 등록하려면 다음 링크에서 양식을 작성하여 제출하십시오.
 
-[Workfront 데이터 레이크 베타 등록](https://adobe.ly/workfrontdatalake)
+[Workfront Data Connect Beta 등록](https://adobe.ly/workfrontdatalake)
 
 ### 피드백 제공
 
@@ -48,7 +48,7 @@ Beta에 조직을 등록하려면 다음 링크에서 양식을 작성하여 제
 
 ## 계획된 기능
 
-다음은 현재 Beta에서 지원되는 오브젝트 목록, Beta 과정에서 지원을 추가할 예정인 오브젝트 목록 및 향후 Workfront 데이터 레이크 로드맵에 포함된 기능입니다.
+아래는 현재 Beta에서 지원되는 오브젝트, Beta 과정에서 지원을 추가할 예정인 오브젝트 및 향후 Data Connect 로드맵에 포함된 기능 목록입니다.
 
 ### 현재 사용 가능한 오브젝트
 

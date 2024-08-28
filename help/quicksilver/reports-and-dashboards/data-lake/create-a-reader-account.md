@@ -1,25 +1,25 @@
 ---
 content-type: reference
 product-area: reports and dashboards
-navigation-topic: data lake
+navigation-topic: data connect
 title: Snowflake을 위한 리더(서비스) 계정 만들기
-description: Workfront 데이터 레이크의 데이터에 액세스하려면 먼저 Snowflake에 대한 리더 계정을 만들어야 합니다.
+description: Data Connect 데이터에 액세스하려면 먼저 Snowflake 판독기 계정을 만들어야 합니다.
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: e5bd25315062ad15ccd3448e008dfe94f1b616da
+source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
 
 # Snowflake을 위한 리더(서비스) 계정 만들기
 
-Workfront 데이터 레이크 데이터에 액세스하려면 먼저 각 새 연결에 대한 Snowflake 판독기(또는 서비스) 계정을 만들어야 합니다. 연결을 만든 후 **기존 연결** 탭 아래의 **데이터 액세스** 페이지(**기본 메뉴** > **설정** > **시스템** > **데이터 액세스**)에서 연결을 클릭하여 연결된 URL과 사용자 이름을 찾을 수 있습니다.
+Data Connect 데이터에 액세스하려면 먼저 각 새 연결에 대한 Snowflake 판독기(또는 서비스) 계정을 만들어야 합니다. 연결을 만든 후 **기존 연결** 탭 아래의 **데이터 액세스** 페이지(**기본 메뉴** > **설정** > **시스템** > **데이터 액세스**)에서 연결을 클릭하여 연결된 URL과 사용자 이름을 찾을 수 있습니다.
 
-외부 제품에 새로 만든 연결을 사용하는 방법에 대한 자세한 내용은 [Workfront 데이터 레이크에 연결 설정](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)을 참조하십시오.
+외부 제품에 새로 만든 연결을 사용하는 방법에 대한 자세한 내용은 [Workfront Data Connect에 연결 설정](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)을 참조하십시오.
 
 ## 액세스 요구 사항
 
@@ -68,7 +68,7 @@ Workfront 데이터 레이크 데이터에 액세스하려면 먼저 각 새 연
 
    ![Snowflake 암호 재설정](/help/quicksilver/reports-and-dashboards/data-lake/assets/reset-snowflake-password.png) {width="300"}
 
-1. 이제 사용자 이름과 새 암호를 사용하여 Snowflake의 Workfront 데이터 레이크 또는 선택한 비즈니스 시각화 도구에 액세스할 수 있습니다.
+1. 이제 사용자 이름과 새 암호를 사용하여 Snowflake의 Data Connect 데이터 레이크 또는 선택한 비즈니스 시각화 도구에 액세스할 수 있습니다.
 
 ## 리더 계정 취소
 

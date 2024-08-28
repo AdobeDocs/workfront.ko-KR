@@ -1,31 +1,31 @@
 ---
 content-type: reference
 product-area: reports and dashboards
-navigation-topic: data lake
-title: 데이터 레이크 데이터 사전
-description: 이 페이지에는 Workfront 데이터 레이크의 데이터 구조 및 컨텐츠에 대한 정보가 포함되어 있습니다.
+navigation-topic: data connect
+title: Workfront Data Connect 데이터 사전
+description: 이 페이지에는 Workfront Data Connect의 데이터 구조 및 내용에 대한 정보가 포함되어 있습니다.
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
+source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '726'
 ht-degree: 5%
 
 ---
 
-# Workfront 데이터 레이크 데이터 사전
+# Workfront Data Connect 데이터 사전
 
-이 페이지에는 Workfront 데이터 레이크의 데이터 구조 및 컨텐츠에 대한 정보가 포함되어 있습니다.
+이 페이지에는 Workfront Data Connect의 데이터 구조 및 내용에 대한 정보가 포함되어 있습니다.
 
 >[!NOTE]
 >
->Workfront 데이터 레이크의 데이터는 4시간마다 새로 고침되므로 최근 변경 사항이 즉시 반영되지 않을 수 있습니다.
+>Data Connect의 데이터는 4시간마다 새로 고침되므로 최근 변경 사항이 즉시 반영되지 않을 수 있습니다.
 
 ## 테이블 유형
 
-가장 많은 통찰력을 제공하는 방식으로 Workfront 데이터를 보는 데 활용할 수 있는 다양한 테이블 유형이 있습니다.
+Data Connect에서 최대한 통찰력을 제공하는 방식으로 Workfront 데이터를 보기 위해 활용할 수 있는 다양한 테이블 유형이 있습니다.
 
 * **현재 테이블**
 
@@ -43,9 +43,9 @@ ht-degree: 5%
 
 ## 엔티티 관계 다이어그램
 
-Workfront의 개체(및 따라서 데이터 레이크)는 개별 값뿐만 아니라 다른 개체와의 관계에 의해 정의됩니다. 아래 엔티티 관계 다이어그램은 Workfront 데이터 레이크의 객체 관계에 대한 높은 수준의 매핑을 제공합니다. 다음 링크를 사용하여 다이어그램을 보고 다운로드할 수 있습니다.
+Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 값뿐만 아니라 다른 개체와의 관계에 의해서도 정의됩니다. 아래의 엔티티 관계 다이어그램은 Data Connect에서 개체 관계의 높은 수준 매핑을 제공합니다. 다음 링크를 사용하여 다이어그램을 보고 다운로드할 수 있습니다.
 
-[Workfront 데이터 레이크 엔티티 관계 다이어그램](/help/quicksilver/reports-and-dashboards/data-lake/assets/Workfront-data-lake_entity-relationship-diagram.pdf)
+[Data Connect 엔티티 관계 다이어그램](/help/quicksilver/reports-and-dashboards/data-lake/assets/Workfront-data-lake_entity-relationship-diagram.pdf)
 
 >[!IMPORTANT]
 >
@@ -62,7 +62,7 @@ Workfront의 개체(및 따라서 데이터 레이크)는 개별 값뿐만 아�
 
 ## 용어 표
 
-다음 표는 Workfront의 개체 이름(인터페이스 및 API의 이름)과 데이터 레이크의 해당 이름을 상호 연관시킵니다.
+다음 표는 Workfront의 개체 이름(인터페이스 및 API의 이름)과 Data Connect의 해당 이름을 상호 연결합니다.
 
 <table>
 <thead>
