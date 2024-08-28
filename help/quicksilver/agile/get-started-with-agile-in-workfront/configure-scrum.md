@@ -6,9 +6,9 @@ description: 팀이 만들어지는 동안 또는 만들어진 후에 스크럼 
 author: Lisa
 feature: Agile
 exl-id: 7509608e-96af-4601-80d4-791ee29046da
-source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: '1739'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,8 @@ Kanban 팀 구성에 대한 자세한 내용은 [Kanban 구성](/help/quicksilve
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -41,26 +43,28 @@ Kanban 팀 구성에 대한 자세한 내용은 [Kanban 구성](/help/quicksilve
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
    <td> <p>임의</p> </td> 
   </tr>
 
 <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
    <td> <p>새로운 기능: [!UICONTROL Standard]</p> 
    또는
    <p>현재: [!UICONTROL Work] 이상</p> </td> 
   </tr>
 
 <tr> 
-   <td role="rowheader">액세스 수준</td> 
+   <td role="rowheader">액세스 수준 구성</td> 
    <td> <p>팀에 대한 액세스 편집</p>  </td> 
   </tr>
 
 </tbody> 
 </table>
 
-*보유 중인 플랜 또는 라이선스 유형을 확인하려면 [!DNL Workfront] 관리자에게 문의하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 스토리를 포인트 또는 시간 단위로 예상할지 구성
 
@@ -72,13 +76,13 @@ Kanban 팀 구성에 대한 자세한 내용은 [Kanban 구성](/help/quicksilve
 
 애자일 팀에 대한 스토리를 추정하는 방법을 구성하려면 다음을 수행하십시오.
 
-1. [!UICONTROL Workfront]의 오른쪽 위 모서리에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **[!UICONTROL 팀]**&#x200B;을(를) 클릭합니다.
+{{step1-to-team}}
 
 1. **[!UICONTROL 팀 전환]** 아이콘을 클릭한 다음 드롭다운 메뉴에서 새 팀을 선택하거나 검색 막대에서 팀을 검색합니다.
 1. 관리할 애자일 팀을 선택합니다.
 1. **[!UICONTROL 자세히]** 메뉴를 클릭한 다음 **[!UICONTROL 편집]**&#x200B;을 선택합니다.
 
-   [!UICONTROL 플랜] 또는 [!UICONTROL 작업] 라이선스가 있는 팀원만 이 옵션을 참조하세요.\
+   [!UICONTROL 표준], [!UICONTROL 플랜] 또는 [!UICONTROL 작업] 라이선스가 있는 팀원만 이 옵션을 참조하세요.
    ![팀 편집](assets/edit-team-settings-350x205.png)
 
 1. **[!UICONTROL 애자일]** 섹션의 **[!UICONTROL 다음에서 스토리 예상]** 영역에서 스토리의 크기(작업 부하)를 예상하는 데 포인트를 사용할지 또는 시간을 사용할지 여부를 선택합니다. 점(Points)을 선택하는 경우 1점과 동일한 시간을 지정합니다. (기본값은 1포인트 = 8시간입니다.) 스토리에 추가된 계획된 시간 수입니다.
@@ -100,7 +104,7 @@ Kanban 팀 구성에 대한 자세한 내용은 [Kanban 구성](/help/quicksilve
 
 애자일 팀과 연관된 스토리 보드에 사용할 수 있는 상태를 정의하려면 다음을 수행합니다.
 
-1. [!DNL Workfront]의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **[!UICONTROL 팀]**&#x200B;을(를) 클릭합니다.
+{{step1-to-team}}
 
 1. **[!UICONTROL 팀 전환]** 아이콘 ![팀 전환 아이콘](assets/switch-team-icon.png)을 클릭한 다음 드롭다운 메뉴에서 새 팀을 선택하거나 검색 막대에서 팀을 검색합니다.
 
@@ -158,13 +162,13 @@ Kanban 팀 구성에 대한 자세한 내용은 [Kanban 구성](/help/quicksilve
 
 애자일 팀에 할당된 스토리 카드를 구성하여 추가 필드를 표시하려면 다음을 수행하십시오.
 
-1. [!UICONTROL Workfront]의 오른쪽 위 모서리에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **[!UICONTROL 팀]**&#x200B;을(를) 클릭합니다.
+{{step1-to-team}}
 
 1. **[!UICONTROL 팀 전환]** 아이콘 ![팀 전환 아이콘](assets/switch-team-icon.png)을 클릭한 다음 드롭다운 메뉴에서 새 팀을 선택하거나 검색 막대에서 팀을 검색합니다.
 
 1. 관리할 애자일 팀을 선택합니다.
-1. **[!UICONTROL 자세히]** 메뉴를 클릭한 다음 **[!UICONTROL 편집]**&#x200B;을 선택합니다.\
-   [!UICONTROL 플랜] 또는 [!UICONTROL 작업] 라이선스가 있는 팀원만 이 옵션을 참조하세요.
+1. **[!UICONTROL 자세히]** 메뉴를 클릭한 다음 **[!UICONTROL 편집]**을 선택합니다.
+[!UICONTROL 플랜] 또는 [!UICONTROL 작업] 라이선스가 있는 팀원만 이 옵션을 참조하세요.
 
    ![팀 편집](assets/edit-team-settings-350x205.png)
 
@@ -182,7 +186,7 @@ Kanban 팀 구성에 대한 자세한 내용은 [Kanban 구성](/help/quicksilve
 
 애자일 팀의 스토리에 색상이 할당되는 방식의 동작을 변경하려면 다음 작업을 수행하십시오.
 
-1. [!DNL Workfront]의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **[!UICONTROL 팀]**&#x200B;을(를) 클릭합니다.
+{{step1-to-team}}
 
 1. **[!UICONTROL 팀 전환]** 아이콘 ![팀 전환 아이콘](assets/switch-team-icon.png)을 클릭한 다음 드롭다운 메뉴에서 새 팀을 선택하거나 검색 막대에서 팀을 검색합니다.
 
@@ -201,7 +205,7 @@ Kanban 팀 구성에 대한 자세한 내용은 [Kanban 구성](/help/quicksilve
 
       * 높음 = 빨간색
       * Medium = 노란색
-      * 낮음 = 녹색\
+      * 낮음 = 녹색
 
         시스템 관리자가 [!DNL Workfront] 시스템에 대해 사용자 지정 우선 순위를 구성한 경우 가장 높은 우선 순위는 빨간색이고 두 번째 높은 우선 순위는 노란색이며 세 번째 높은 우선 순위는 녹색입니다.
    * **[!UICONTROL 작업 소유자]**: 기본 피할당자가 같은 모든 스토리의 색이 같습니다. 기본 할당자는 작업에 처음 할당된 사용자입니다.
@@ -213,15 +217,16 @@ Kanban 팀 구성에 대한 자세한 내용은 [Kanban 구성](/help/quicksilve
 
 기본적으로 작업 항목을 스크럼 반복에 추가하면 작업 항목의 계획된 시작 일자 및 계획된 완료 일자가 반복 시작 및 종료 일자와 일치하도록 수정됩니다. 팀의 모든 작업 항목에 원래 날짜를 유지하도록 선택할 수 있습니다.
 
-1. [!DNL Adobe] Workfront의 오른쪽 위 모서리에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **[!UICONTROL 팀]**&#x200B;을(를) 클릭합니다.
+{{step1-to-team}}
+
 1. (선택 사항) **[!UICONTROL 팀 전환]** 아이콘 ![팀 전환 아이콘](assets/switch-team-icon.png)을 클릭한 다음 드롭다운 메뉴에서 새 스크럼 팀을 선택하거나 검색 창에서 팀을 검색합니다.
-1. **[!UICONTROL 자세히]** 메뉴를 클릭한 다음 **[!UICONTROL 편집]**&#x200B;을 선택합니다.\
-   [!UICONTROL 플랜] 또는 [!UICONTROL 작업] 라이선스가 있는 팀원만 이 옵션을 참조하세요.
+1. **[!UICONTROL 자세히]** 메뉴를 클릭한 다음 **[!UICONTROL 편집]**을 선택합니다.
+[!UICONTROL 플랜] 또는 [!UICONTROL 작업] 라이선스가 있는 팀원만 이 옵션을 참조하세요.
 1. [!UICONTROL 애자일] 섹션의 [!UICONTROL 작업 항목이 반복에 추가되면] 영역에서 다음 옵션 중 하나를 선택하십시오.
 
-   * **[!UICONTROL 반복 시작 및 종료 날짜와 일치하도록 계획된 시작 날짜와 계획된 완료 날짜를 수정합니다]**: 작업 항목이 반복에 추가되면 작업 항목 날짜가 반복 날짜로 변경됩니다.\
+   * **[!UICONTROL 반복 시작 및 종료 날짜와 일치하도록 계획된 시작 날짜 및 계획된 완료 날짜를 수정합니다]**: 작업 항목이 반복에 추가되면 작업 항목 날짜가 반복 날짜로 변경됩니다.
 
-     날짜가 수정되는 방법에 대한 자세한 내용은 [기존 반복에 스토리 추가](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md) 문서의 [스토리 추가가 작업 날짜에 미치는 영향 이해](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md#understa) 섹션을 참조하십시오.
+     날짜가 수정되는 방법에 대한 자세한 내용은 [기존 반복에 스토리 추가](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md) 문서의 [스토리 추가가 작업 날짜에 미치는 영향 이해](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md#understand-how-adding-stories-affects-task-dates) 섹션을 참조하십시오.
    * **[!UICONTROL 반복 시작 및 종료 날짜와 일치하도록 계획된 시작 날짜와 계획된 완료 날짜를 수정하지 마십시오]**: 작업 항목이 반복에 추가되면 작업 항목은 원래 날짜를 유지합니다.
 
    날짜 옵션을 변경하면 반복에 이미 있는 작업 항목의 날짜가 조정되지 않습니다.

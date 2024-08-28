@@ -6,9 +6,9 @@ description: ' [!DNL Kanban] 보드에서 플래그는 스토리가 다음 상�
 author: Lisa
 feature: Agile
 exl-id: e19a007d-737c-42d4-aa69-771d8a9e9fd8
-source-git-commit: 33daf0633701a1c271552e796ffe22a58645c561
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
@@ -28,53 +28,57 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
+ </col> 
  <col> 
+ </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 플랜*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
-   <td> <p>[!UICONTROL Work] 이상</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>액세스 수준 구성*</strong></td> 
-   <td> <p>[!UICONTROL Worker] 이상</p> <p>참고: 여전히 액세스 권한이 없는 경우 [!DNL Workfront] 관리자에게 액세스 수준에 추가 제한을 설정했는지 문의하십시오. [!DNL Workfront] 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
+   <td> <p>새로운 기능: [!UICONTROL Standard]</p> 
+   또는
+   <p>현재: [!UICONTROL Work] 이상</p> </td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## [!UICONTROL Kanban] 보드의 스토리에 플래그 사용
 
 스토리의 플래그를 변경하려면 다음과 같이 하십시오.
 
-1. [!DNL Adobe Workfront]의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **[!UICONTROL 팀]**&#x200B;을(를) 클릭합니다.
+{{step1-to-team}}
 
 1. (선택 사항) **[!UICONTROL 팀 전환]** 아이콘 ![팀 전환 아이콘](assets/switch-team-icon.png)을 클릭한 다음 드롭다운 메뉴에서 새 [!UICONTROL Kanban] 팀을 선택하거나 검색 창에서 팀을 검색합니다.
 
 1. 스토리의 플래그를 변경할 [!UICONTROL Kanban] 보드로 이동합니다.
-1. 스토리 타일을 확장하여 플래그를 봅니다.\
-   기본적으로 각 스토리에 대해 **[!UICONTROL 트랙에서]**(으)로 설정됩니다.\
+1. 스토리 타일을 확장하여 플래그를 봅니다.
+기본적으로 각 스토리에 대해 **[!UICONTROL 트랙에서]**(으)로 설정됩니다.
    ![칸반 카드](assets/agile-storycard-kanban-2021-350x308.png)
 
 1. 현재 플래그를 클릭한 다음 다음 플래그 옵션 중에서 선택합니다.
 
-   * **[!UICONTROL 트랙에서]:** 스토리가 적절한 상태이므로 지금은 아무 작업도 수행할 필요가 없습니다.\
+   * **[!UICONTROL 추적 중]:** 스토리가 적절한 상태이므로 지금은 아무 작업도 수행할 필요가 없습니다.
 
-     칸반 보드의 각 스토리에 대한 기본 플래그입니다.\
-      ![kanban_flag_ontrack.png](assets/kanban-flag-ontrack.png)
+     칸반 보드의 각 스토리에 대한 기본 플래그입니다.
+     ![kanban_flag_ontrack.png](assets/kanban-flag-ontrack.png)
 
-   * **[!UICONTROL 차단됨]:** 스토리가 다음 상태로 진행할 수 없습니다. 이 플래그를 스토리에 설정하면 스토리가 WIP 한도에 계산되지 않습니다. (WIP 제한에 대한 자세한 내용은 [Kanban 구성](../../agile/get-started-with-agile-in-workfront/configure-kanban.md) 문서를 참조하십시오.\
+   * **[!UICONTROL 차단됨]:** 스토리가 다음 상태로 진행할 수 없습니다. 이 플래그를 스토리에 설정하면 스토리가 WIP 한도에 계산되지 않습니다. (WIP 제한에 대한 자세한 내용은 문서 [Kanban 구성](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)을 참조하십시오.)
 
      ![kanban_flag_blocked.png](assets/kanban-flag-blocked.png)
 
-   * **[!UICONTROL 끌어오기 준비]:** 다른 팀원이 다음 상태로 스토리를 이동할 준비가 되었습니다.\
+   * **[!UICONTROL 끌어오기 준비]:** 다른 팀원이 스토리를 다음 상태로 이동할 준비가 되었습니다.
 
      ![kanban_flag_ready.png](assets/kanban-flag-ready.png)

@@ -6,9 +6,9 @@ description: 작업 및 문제는 팀이 사용 중인 애자일 방법론에 �
 author: Lisa
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '1371'
+source-wordcount: '1360'
 ht-degree: 0%
 
 ---
@@ -39,20 +39,18 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 플랜</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스</strong></td> 
-   <td> <p>새로운 기능: [!UICONTROL Standard]</p><p>또는</p><p>현재: [!UICONTROL Work] 이상</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
+   <td> <p>새로운 기능: [!UICONTROL Standard]</p> 
+   또는
+   <p>현재: [!UICONTROL Work] 이상</p> </td> 
+  </tr>
   <tr> 
-   <td role="rowheader"><strong>액세스 수준 구성</strong></td> 
-   <td> <p>새로운 기능: [!UICONTROL Standard]</p><p>또는</p><p>현재: [!UICONTROL Worker] 이상</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>개체 권한</strong></td> 
-   <td> <p>스토리가 있는 프로젝트에 대한 [!UICONTROL 관리] 액세스 권한</p>  </td> 
+   <td role="rowheader">개체 권한</td> 
+   <td>스토리가 있는 프로젝트에 대한 [!UICONTROL 관리] 액세스 권한 </td> 
   </tr> 
  </tbody> 
 </table>
@@ -78,7 +76,7 @@ ht-degree: 0%
    >
    >작업 또는 문제에 애자일 팀이 할당되어 있고 프로젝트가 현재 상태와 동등한 상태가 아닌 경우 백로그에 표시되지 않습니다. 하지만 주문 열의 백로그 카운트에는 여전히 영향을 줍니다.
 
-1. 스토리를 하나 이상 선택한 다음 스토리를 백로그에 표시할 순서로 드래그합니다.\
+1. 스토리를 하나 이상 선택한 다음 스토리를 백로그에 표시할 순서로 드래그합니다.
    ![백로그 항목 끌어다 놓기](assets/agile-backlog-drag-and-drop.png)
 
 ### 스토리 분류 {#break-down-stories}
@@ -96,8 +94,8 @@ ht-degree: 0%
 스토리를 분류하려면:
 
 1. 분류할 스토리가 포함된 백로그로 이동합니다.
-1. 분류할 스토리를 선택한 다음 **[!UICONTROL 스토리 분류]**&#x200B;를 클릭합니다.\
-   [!UICONTROL 분석 스토리] 대화 상자가 표시됩니다.\
+1. 분류할 스토리를 선택한 다음 **[!UICONTROL 스토리 분류]**를 클릭합니다.
+[!UICONTROL 분석 스토리] 대화 상자가 표시됩니다.
    ![분석 스토리 대화 상자](assets/backlog-breakdown-dialog.png)
 
 1. 스토리의 이름과 예상 값을 지정하고 스토리가 준비되었는지 여부를 선택합니다.
@@ -186,12 +184,10 @@ ht-degree: 0%
 1. (선택 사항) 기존 피할당자를 삭제합니다.
 1. **[!UICONTROL 피할당자 추가]**&#x200B;를 클릭합니다.
 1. 작업 또는 문제에 할당할 애자일 팀의 이름을 입력한 다음 드롭다운 목록에 나타나면 팀 이름을 클릭합니다.
-1. **[!UICONTROL 변경 내용 저장]**&#x200B;을 클릭합니다.\
-   이제 작업 또는 문제를 팀 백로그에서 사용할 수 있습니다.
+1. **[!UICONTROL 변경 내용 저장]**을 클릭합니다.
+이제 작업 또는 문제를 팀 백로그에서 사용할 수 있습니다.
 
 ## 백로그 내부 또는 외부로 스토리 이동
-
-{#move-stories-from-the-backlog-to-an-iteration-or-kanban-board}
 
 * [백로그에서 반복 또는 + 보드로 스토리 이동](#move-stories-from-the-backlog-to-an-iteration-or--board)
 * [기존 스토리를 백로그로 이동](#move-existing-stories-to-the-backlog)
@@ -200,9 +196,9 @@ ht-degree: 0%
 ### 백로그에서 반복 또는 + 보드로 스토리 이동
 
 1. 애자일 팀의 백로그로 이동합니다.
-1. 반복 또는 칸반 보드로 이동할 스토리를 선택한 다음 **[!UICONTROL 자세히]** > **[!UICONTROL 다음으로 이동]**&#x200B;을 클릭합니다.\
-   스토리를 [!UICONTROL Kanban] 보드로 이동하면 [!UICONTROL Kanban] 보드로 스토리 이동 보드가 표시됩니다.\
-   스토리를 반복으로 이동하면 [!UICONTROL 스토리를 반복으로 이동] 대화 상자가 표시됩니다.\
+1. 반복 또는 칸반 보드로 이동할 스토리를 선택한 다음 **[!UICONTROL 자세히]** > **[!UICONTROL 다음으로 이동]**을 클릭합니다.
+스토리를 [!UICONTROL Kanban] 보드로 이동하면 [!UICONTROL Kanban] 보드로 스토리 이동 보드가 표시됩니다.
+스토리를 반복으로 이동하면 [!UICONTROL 스토리를 반복으로 이동] 대화 상자가 표시됩니다.
    ![스토리 이동 대화 상자](assets/agile-backlog-addtoiteration.png)
 
 1. 다음 중 하나를 수행합니다.

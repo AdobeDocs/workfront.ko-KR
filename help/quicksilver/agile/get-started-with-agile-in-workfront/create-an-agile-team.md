@@ -6,9 +6,9 @@ description: Adobe Workfront을 사용하면 애자일 팀이 점진적이고 �
 author: Lisa
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1001'
 ht-degree: 1%
 
 ---
@@ -40,11 +40,11 @@ ht-degree: 1%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 플랜*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
    <td> <p>새로운 기능: 표준</p>
    현재: 
    <ul><li><p>새 애자일 팀을 만들려면 [!UICONTROL Plan]</p></li> 
@@ -53,7 +53,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-보유 중인 플랜 또는 라이선스 유형을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -71,14 +71,14 @@ ht-degree: 1%
 
 다음 기능은 이 방법을 지원합니다.
 
-* [!DNL Kanban] 애자일 스토리 보드에 백로그를 표시합니다.\
-   자세한 내용은 [백로그를 [!UICONTROL Kanban] 보드에 추가](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md)를 참조하십시오.
+* [!DNL Kanban] 애자일 스토리 보드에 백로그를 표시합니다.
+자세한 내용은 [백로그를 [!UICONTROL Kanban] 보드에 추가](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md)를 참조하십시오.
 
-* 다른 항목이 완료와 동일한 상태로 이동될 때 백로그에 있는 항목이 [!UICONTROL Kanban] 애자일 스토리 보드에 자동으로 추가되도록 구성하십시오.\
-   자세한 내용은 문서 [Kanban 구성](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)의 [백로그에서 자동으로 추가할 스토리 구성](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5) 섹션을 참조하십시오.
+* 다른 항목이 완료와 동일한 상태로 이동될 때 백로그에 있는 항목이 [!UICONTROL Kanban] 애자일 스토리 보드에 자동으로 추가되도록 구성하십시오.
+자세한 내용은 문서 [Kanban 구성](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)의 [백로그에서 자동으로 추가할 스토리 구성](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5) 섹션을 참조하십시오.
 
-* [!UICONTROL Kanban] 애자일 스토리 보드에 표시할 WIP(Work In Progress) 한도를 구성합니다.\
-   자세한 내용은 [Kanban 보드에서 WIP(작업 진행 중) 제한 관리](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md)를 참조하십시오.
+* [!UICONTROL Kanban] 애자일 스토리 보드에 표시할 WIP(Work In Progress) 한도를 구성합니다.
+자세한 내용은 [Kanban 보드에서 WIP(작업 진행 중) 제한 관리](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md)를 참조하십시오.
 
 ### [!DNL Workfront]에서 스크럼 사용의 이점
 
@@ -89,8 +89,8 @@ ht-degree: 1%
 * [!UICONTROL 스크럼] 스토리 보드에 문제 포함
 * 애자일 팀의 백로그에 문제 포함
 * 하위 작업은 [!UICONTROL 스크럼] 스토리 보드에 표시될 수 있습니다.
-* 번다운 차트를 보고 반복 중 스토리에 대한 진행률을 확인합니다.\
-   자세한 내용은 [애자일 번다운 차트 개요](../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md)를 참조하세요.
+* 번다운 차트를 보고 반복 중 스토리에 대한 진행률을 확인합니다.
+자세한 내용은 [애자일 번다운 차트 개요](../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md)를 참조하세요.
 
 ## 애자일 팀 만들기
 
@@ -150,12 +150,14 @@ ht-degree: 1%
 
 기존 팀을 애자일 팀으로 변환할 수 있습니다.
 
-1. [!DNL Adobe Workfront]의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **[!UICONTROL 팀]**&#x200B;을(를) 클릭합니다.
+{{step1-to-team}}
+
 1. **[!UICONTROL 팀 전환]** 아이콘 ![팀 전환 아이콘](assets/switch-team-icon.png)을 클릭한 다음 드롭다운 메뉴에서 새 팀을 선택하거나 검색 막대에서 팀을 검색합니다.
 
 1. 애자일 팀으로 변환할 팀을 선택합니다.
-1. **[!UICONTROL 자세히]** 메뉴를 클릭한 다음 **[!UICONTROL 편집]**&#x200B;을 선택합니다.\
-   [!UICONTROL 플랜] 또는 [!UICONTROL 작업] 라이선스가 있는 팀원만 이 옵션을 참조하세요.\
+1. **[!UICONTROL 자세히]** 메뉴를 클릭한 다음 **[!UICONTROL 편집]**&#x200B;을 선택합니다.
+
+   [!UICONTROL 표준], [!UICONTROL 플랜] 또는 [!UICONTROL 작업] 라이선스가 있는 팀원만 이 옵션을 참조하세요.
    ![](assets/edit-team-settings-350x205.png)
 
 1. **[!UICONTROL 애자일]** 섹션에서 **[!UICONTROL 애자일 팀입니다]**&#x200B;를 선택합니다.

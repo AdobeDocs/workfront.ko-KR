@@ -6,9 +6,9 @@ description: 반복은 작업 용량 계획에서 스크럼 애자일 팀의 주
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
+source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1051'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -28,27 +30,31 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 플랜*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
-   <td> <p>[!UICONTROL Review] 이상</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
+   <td> <p>새로운 기능: [!UICONTROL Light] 이상</p> 
+   또는
+   <p>현재: [!UICONTROL Review] 이상</p> </td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜 또는 라이선스 유형을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 반복 추가
 
 [!UICONTROL 반복 추가] 기능을 사용하여 신속하게 반복을 만들고 나중에 작업 및 문제를 추가할 수 있습니다.
 
-1. [!DNL Adobe Workfront]의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **[!UICONTROL 팀]**&#x200B;을(를) 클릭합니다.
+{{step1-to-team}}
 
 1. (선택 사항) **[!UICONTROL 팀 전환]** 아이콘 ![팀 전환 아이콘](assets/switch-team-icon.png)을 클릭한 다음 드롭다운 메뉴에서 새 스크럼 팀을 선택하거나 검색 창에서 팀을 검색합니다.
 
-1. **[!UICONTROL 반복]** 탭에서 **[!UICONTROL 반복 추가]**&#x200B;를 클릭합니다.\
+1. **[!UICONTROL 반복]** 탭에서 **[!UICONTROL 반복 추가]**를 클릭합니다.
    ![](assets/add-iteration-adobe-350x275.png)
 
 1. 다음을 지정합니다.
@@ -90,7 +96,7 @@ ht-degree: 0%
 
 백로그에 있는 작업을 사용하여 반복을 만들려면 [!UICONTROL 반복 계획] 기능을 사용하십시오.
 
-1. [!DNL Adobe Workfront]의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **[!UICONTROL 팀]**&#x200B;을(를) 클릭합니다.
+{{step1-to-team}}
 
 1. (선택 사항) **[!UICONTROL 팀 전환]** 아이콘 ![팀 전환 아이콘](assets/switch-team-icon.png)을 클릭한 다음 드롭다운 메뉴에서 새 스크럼 팀을 선택하거나 검색 창에서 팀을 검색합니다.
 
@@ -129,10 +135,10 @@ ht-degree: 0%
     </tbody> 
    </table>
 
-1. (선택 사항) 스토리를 선택하여 이제 반복에 추가하거나, 이 단계를 건너뛰고 나중에 스토리를 반복에 추가할 수 있습니다. 백로그 상단에 있는 스토리가 더 높은 우선 순위입니다. 스토리지는 용량에 적합하면 녹색으로 강조 표시되고 그렇지 않으면 빨간색으로 강조 표시됩니다.\
-   단일 반복에 작업과 문제를 모두 추가할 수 있습니다.
+1. (선택 사항) 스토리를 선택하여 이제 반복에 추가하거나, 이 단계를 건너뛰고 나중에 스토리를 반복에 추가할 수 있습니다. 백로그 상단에 있는 스토리가 더 높은 우선 순위입니다. 스토리지는 용량에 적합하면 녹색으로 강조 표시되고 그렇지 않으면 빨간색으로 강조 표시됩니다.
+단일 반복에 작업과 문제를 모두 추가할 수 있습니다.
 
-   * **반복에 작업을 추가하려면:** **[!UICONTROL 백로그]** 탭에서 **[!UICONTROL 스토리]** 탭이 선택되어 있는지 확인하십시오(백로그를 볼 때 이 탭이 기본적으로 선택됨). 반복에 추가할 스토리를 선택합니다.\
+   * **반복에 작업을 추가하려면:** **[!UICONTROL 백로그]** 탭에서 **[!UICONTROL 스토리]** 탭이 선택되어 있는지 확인하십시오(백로그를 볼 때 이 탭이 기본적으로 선택됨). 반복에 추가할 스토리를 선택합니다.
 
      반복에 작업을 추가하면 [[!UICONTROL 작업 시작 날짜가 반복에 추가될 때 계산되는 방법 이해]에 설명된 대로 작업의 시작 날짜가 계산됩니다](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration).
 
@@ -151,4 +157,4 @@ ht-degree: 0%
 
 [!UICONTROL 프로젝트 종료 날짜]이(가) 대신 사용되었습니다.   프로젝트 시작 일자가 반복 시작 일자 이후이고 프로젝트 종료 일자가 반복 종료 일자 이후인 경우.
 
-개별 스크럼 팀이 반복 날짜가 아닌 프로젝트 날짜를 기본적으로 사용하도록 구성할 수 있습니다. 자세한 내용은 [스크럼 구성](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md) 문서의 [반복에 작업 항목을 추가할 때 날짜가 적용되는 방법 구성](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) 섹션을 참조하십시오.
+개별 스크럼 팀이 반복 날짜가 아닌 프로젝트 날짜를 기본적으로 사용하도록 구성할 수 있습니다. 자세한 내용은 [스크럼 구성](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md) 문서의 [반복에 작업 항목을 추가할 때 날짜가 적용되는 방법 구성](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration) 섹션을 참조하십시오.
