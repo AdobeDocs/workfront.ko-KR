@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 816d45225f2d9c7fa91df901a945457c46af7945
+source-git-commit: 41fe217aee733e8382416366542845d90c1b10fd
 workflow-type: tm+mt
-source-wordcount: '14359'
+source-wordcount: '14358'
 ht-degree: 2%
 
 ---
@@ -438,8 +438,8 @@ ht-degree: 2%
          * [새 댓글 달기 환경](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
          * [새로운 댓글 달기 경험 릴리스 활동](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
          * [새로운 주석 달기 경험 FAQ](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
-      * Workfront 데이터 레이크 베타 {#data-lake-beta}
-         * [Workfront 데이터 레이크 베타 정보](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
+      * Workfront Data Connect Beta {#data-lake-beta}
+         * [Workfront Data Connect 베타 정보](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
 * 관리 및 설정 {#administration-and-setup}
    * [관리 및 설정: 문서 색인](administration-and-setup/administration-and-setup.md)
    * {#get-started-administration} 관리 시작
@@ -1734,12 +1734,12 @@ ht-degree: 2%
       * [향상된 분석에서 프로젝트 활동 시각화 보기](enhanced-analytics/project-activity-overview.md)
       * [향상된 분석에서 프로젝트 트리맵 시각화 보기](enhanced-analytics/project-treemap-overview.md)
       * [향상된 분석에서 팀별 활동 시각화 보기](enhanced-analytics/activity-by-team-overview.md)
-   * Workfront 데이터 레이크 {#data-lake}
-      * [Workfront 데이터 레이크 개요](reports-and-dashboards/data-lake/data-lake-overview.md)
+   * Workfront Data Connect {#data-lake}
+      * [Workfront Data Connect 개요](reports-and-dashboards/data-lake/data-lake-overview.md)
       * [리더 계정 만들기](reports-and-dashboards/data-lake/create-a-reader-account.md)
-      * [Workfront 데이터 레이크에 대한 연결 설정](reports-and-dashboards/data-lake/share-data-externally.md)
-      * [Workfront 데이터 레이크 데이터 사전](reports-and-dashboards/data-lake/data-dictionary.md)
-      * [기본 Workfront 데이터 레이크 쿼리 예](reports-and-dashboards/data-lake/basic-query-examples.md)
+      * [Workfront Data Connect에 연결 설정](reports-and-dashboards/data-lake/share-data-externally.md)
+      * [Workfront Data Connect 데이터 사전](reports-and-dashboards/data-lake/data-dictionary.md)
+      * [Workfront Data Connect 쿼리 예제](reports-and-dashboards/data-lake/basic-query-examples.md)
 * 리소스 관리 {#manage-resources}
    * [리소스 관리](resource-mgmt/manage-resources.md)
    * 리소스 관리 {#resource-management}

@@ -5,9 +5,9 @@ title: 기존 홈 사용 중단 안내서
 description: 이 페이지에는 기존 홈의 향후 사용 중단에 대한 정보가 포함되어 있습니다.
 author: Nolan
 feature: Product Announcements
-source-git-commit: 3f1882b555658b2095d99258900f3bba28246c3f
+source-git-commit: 84f7f80314e4acafb0414b806f7b1e1e4b2845fc
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '808'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Adobe Workfront 커뮤니티, 뉴스가 있습니다. 곧 기존 홈을 더 이�
 
 1. 나머지 사용자를 새 홈 페이지 레이아웃에 재할당합니다.
 
-이를 최대한 빨리 수행하면 사용자가 새 경험에 적응하고 개별 요구 사항에 가장 적합하게 새 홈 페이지를 사용자 지정할 수 있는 시간이 제공됩니다.
+이를 최대한 빨리 수행하면 사용자가 새 경험에 적응하고 개별 요구 사항에 가장 적합하게 새 홈 페이지를 사용자 지정할 수 있는 시간이 제공됩니다. 사용자가 자신의 새 홈 페이지에서 위젯을 사용자 지정하는 방법에 대한 자세한 내용은 [새 홈에서 위젯 제거, 추가 및 다시 정렬](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)을 참조하십시오.
 
 ### 홈 경험이 발전함에 따라 이를 따릅니다.
 
@@ -74,7 +74,7 @@ Adobe Workfront 커뮤니티, 뉴스가 있습니다. 곧 기존 홈을 더 이�
 
 거의 다음과 같습니다.
 
-* 캘린더 : 현재 새 홈에 대한 로드맵에 있습니다.
+* 현재 우선 순위 로드맵에 있는 캘린더.
 
 * 객체 기한에 대한 타임스탬프를 표시하는 것은 현재 사용할 수 없습니다.
 
