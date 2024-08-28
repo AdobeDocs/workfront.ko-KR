@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: eeebc09c16c2c0d5a624dc57ae8603fb525d29c1
+source-git-commit: d4aa6bee72ac1f17884ae38d24bd094c0b62336a
 workflow-type: tm+mt
-source-wordcount: '7338'
+source-wordcount: '7432'
 ht-degree: 0%
 
 ---
@@ -28,28 +28,14 @@ ht-degree: 0%
 >Workfront Planning에 대한 개요는 [Adobe Workfront Planning 개요](/help/quicksilver/planning/general/planning-overview.md)를 참조하십시오.
 >
 
-<!--[!IMPORTANT]
->
->The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront. 
->
->Currently, Workfront Planning is in an early access stage which is open to a limited number of customers. 
->
->You must be a Workfront customer to use these capabilities. 
->
->Your account representative will inform you if you are part of this stage.
->
->For more information, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
->
->In some cases, the documentation referenced in the sections below might be available after the features documented are released to Production. -->
-
 이 문서에서는 2024년 조기 액세스 기간 동안 Workfront Planning에 릴리스된 기능을 나열합니다.
 
-릴리스된 기능은 릴리스 순서대로 나열되며 가장 최근의 기능이 먼저 릴리스됩니다. Workfront Planning 프로그램에 참여하는 고객은 프로덕션 환경의 모든 기능에 액세스할 수 있습니다.
+릴리스된 기능은 릴리스 순서대로 나열되며 가장 최근의 기능이 먼저 릴리스됩니다.
 
 Workfront Planning에 대해 릴리스된 추가 기능은 다음 문서를 참조하십시오.
 
-* [2023년 Adobe Workfront Planning 릴리스 활동](/help/quicksilver/planning/general/release-activity-archives-2023.md)은 2023년 동안 베타 릴리스 중에 릴리스된 기능을 나열합니다.
-* [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)은(는) 2024년 8월 28일에 일반 사용 가능해진 후 Workfront Planning에 현재 릴리스된 기능을 나열합니다.
+* 2023년 베타 릴리스 중에 릴리스된 기능에 대한 [2023년 Adobe Workfront Planning 릴리스 활동](/help/quicksilver/planning/general/release-activity-archives-2023.md).
+* [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)(2024년 8월 28일에 일반 사용 가능하게 된 이후 Workfront Planning에 현재 릴리스된 기능).
 
 ## Workfront Planning 릴리스 타임라인
 
@@ -130,14 +116,6 @@ Workfront Planning이 일반 공급자로 릴리스됨에 따라 이제 Workfron
 
 자세한 내용은 문서 [필드 만들기](/help/quicksilver/planning/fields/create-fields.md)의 &quot;수식&quot; 섹션을 참조하십시오.
 
-### 액세스 요청에 대해 Workfront Planning 알림 활성화
-
-미리보기 및 프로덕션: 2024년 8월 28일
-
-작업 공간에 대한 액세스를 요청하면 액세스 권한을 요청하는 사용자에게 요청에 대한 이메일 알림이 전송됩니다. 요청이 승인되면 요청에 대한 확인 또는 거부가 포함된 이메일 알림을 받게 됩니다. 권한이 부여되면 이메일 알림에서 보기 또는 작업 공간에 액세스할 수 있습니다.
-
-자세한 내용은 [보기 또는 작업 영역에 대한 권한 요청](/help/quicksilver/planning/access/request-permissions.md)을 참조하십시오.
-
 ### 레코드 보기의 실시간 현재 상태 표시기
 
 미리보기 및 프로덕션: 2024년 8월 28일
@@ -175,48 +153,43 @@ Workfront Planning이 일반 공급자로 릴리스됨에 따라 이제 Workfron
 * [사용자 정의 양식의 외부 조회 필드 예제](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
 * [Adobe Workfront Planning API 기본 사항](/help/quicksilver/planning/general/planning-api-basics.md)
 
-<!--
-### New Settings menu in the Calendar view
+### 달력 보기의 새 설정 메뉴
 
-Preview and Production: August 28, 2024 
+미리보기 및 프로덕션: 2024년 8월 28일
 
-There is a new Settings option with which you can personalize the look and feel of the record bars in the Calendar view. You can do the following: 
+달력 보기에서 레코드 모음의 모양과 느낌을 개인화할 수 있는 새로운 설정 옵션이 있습니다. 다음을 수행할 수 있습니다.
 
-* Update the date and time of the records  
+* 레코드 날짜 및 시간 업데이트
 
-* Update the bar style 
+* 막대 스타일 업데이트
 
-* Change the color of the record bars or their groupings to match one of the following:  
+* 다음 중 하나에 맞게 레코드 막대 또는 해당 그룹화의 색상을 변경합니다.
 
-    * The color of the record type 
+   * 레코드 유형의 색상
 
-    * The color of a field that you select 
+   * 선택하는 필드의 색상
 
-    * The color of the grouping 
+   * 그룹화의 색상
 
-    * No color (the default) 
+   * 색상 없음(기본값)
 
- When matching colors to a certain field, you can select only fields with color-coded options. 
+특정 필드에 색상을 일치시킬 때는 색상으로 구분된 옵션이 있는 필드만 선택할 수 있습니다.
 
- For more information, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md). 
+자세한 내용은 [일정 보기 관리](/help/quicksilver/planning/views/manage-the-calendar-view.md)를 참조하세요.
 
+### Workfront Planning에서 AI 도우미가 다시 활성화되었습니다.
 
-### The AI Assistant has been re-enabled for Workfront Planning
+프로덕션 및 미리보기: 2024년 8월 28일
 
-Production and Preview: August 28, 2024
+Workfront 계획 영역에 대해 Workfront AI Assistant가 다시 활성화되었습니다.
 
-The Workfront AI Assistant has been re-enabled for the Workfront Planning area. 
+Workfront Planning AI Assistant에 대한 자세한 내용은 [Adobe Workfront Planning AI Assistant 개요](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)를 참조하십시오.
 
-For more information about the Workfront Planning AI Assistant, see [Adobe Workfront Planning AI Assistant overview](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
- 
+### 캔버스 대시보드를 사용한 Workfront Planning의 보고 기능
 
-### Reporting capabilities for Workfront Planning with the Canvas Dashboard 
+프로덕션 및 프로덕션: 2024년 8월 28일
 
-Production and Production: August 28, 2024 
-
-You can now view Workfront Planning information in a report using the Workfront Canvas Dashboard. For information, see [Get started with Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
-
--->
+이제 Workfront Canvas Dashboard를 사용하여 보고서에서 Workfront Planning 정보를 볼 수 있습니다. 자세한 내용은 [캔버스 대시보드 시작](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)을 참조하세요.
 
 ## 2024년 8월 19일 주
 

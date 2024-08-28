@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: eeebc09c16c2c0d5a624dc57ae8603fb525d29c1
+source-git-commit: d4aa6bee72ac1f17884ae38d24bd094c0b62336a
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,9 @@ ht-degree: 0%
 >
 
 이 문서에서는 2024년 4분기 릴리스 동안 Workfront Planning에 대해 릴리스되는 기능에 대해 설명합니다.
+
+이 릴리스에 포함된 기능에 대한 자세한 내용은 [2024년 Adobe Workfront Planning 릴리스 활동](/help/quicksilver/planning/general/release-activity.md)을 참조하십시오.
+
 
 <!--keep the sentence below for all future quarterly release pages-->
 <!--remove the general activity mention after fourth quarter 2024 is released-->
@@ -53,4 +56,3 @@ Adobe Workfront Planning은 Adobe Workfront의 새로운 제품입니다. Workfr
 
 Workfront Planning에 대한 자세한 내용은 [Adobe Workfront Planning 개요](/help/quicksilver/planning/general/planning-overview.md)를 참조하십시오.
 
-이번 출시 전에 Workfront Planning에 릴리스된 기능에 대한 자세한 내용은 [2024년 Adobe Workfront Planning 릴리스 활동](/help/quicksilver/planning/general/release-activity.md)도 참조하십시오.
