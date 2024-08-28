@@ -4,10 +4,8 @@ content-type: reference
 description: 이 요약 기능을 사용하여 작업 항목과 문서를 빠르게 요약할 수 있습니다.
 author: Becky
 feature: Get Started with Workfront
-hide: true
-hidefromtoc: true
 exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
-source-git-commit: 513d33c653901394f35c342d8dbf89906017fb3f
+source-git-commit: d261fd9eb9b8b649ebe413e35161543db1db8412
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 2%
