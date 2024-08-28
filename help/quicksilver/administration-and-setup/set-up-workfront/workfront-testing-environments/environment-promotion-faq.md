@@ -8,10 +8,10 @@ description: Workfront 환경 프로모션과 관련하여 자주 묻는 질문�
 author: Becky
 feature: System Setup and Administration
 role: Admin
-recommendations: noDisplay, noCatalog
-source-git-commit: e2150f344ddc8626389afaaccc7c394f61c2dbc9
+exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
+source-git-commit: 2bbfd449d913a5134c9c36b1ee10567973c56eaa
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '301'
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 3%
 
 ### 답변
 
-아니요. 환경 프로모션은 IMS 지원 인스턴스와 IMSWorkfront 이외의 인스턴스 모두에서 사용할 수 있습니다.
+아니요. 환경 프로모션은 IMS 지원 인스턴스와 IMS가 아닌 Workfront 인스턴스 둘 다에 사용할 수 있습니다.
 
 ## Workfront 인스턴스가 Prime 또는 Ultimate 라이선스에 있는지 어떻게 확인할 수 있습니까?
 
@@ -73,4 +73,3 @@ ht-degree: 3%
 * &quot;기존 사용&quot;은 대상 환경의 기존 오브젝트에 매핑되고 변경을 수행하지 않으므로 &quot;건너뛰기&quot; 또는 배포를 무시하는 것과 동일합니다.
 * 오브젝트를 건너뛰려면 다음을 제거하는 것이 좋습니다.
 프로모션 패키지 또는 소스 환경에서 직접 설치하지 않으려는 모든 객체 개체를 제거한 후 패키지를 다시 어셈블합니다.
-
