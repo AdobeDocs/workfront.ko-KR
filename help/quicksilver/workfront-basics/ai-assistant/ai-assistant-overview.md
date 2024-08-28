@@ -4,18 +4,14 @@ content-type: reference
 description: AI Assistant 개요
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: d261fd9eb9b8b649ebe413e35161543db1db8412
+source-git-commit: 3db36df88d4bb716cf4c37cd76b6d058a5a6f9b6
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
 
 # AI Assistant 개요
-
->[!IMPORTANT]
->
->Workfront AI Assistant가 일시적으로 제거되어 나중에 사용할 수 있습니다.
 
 Workfront의 AI 어시스턴트는 자연어 대화에서 인앱 정보와 제안을 제공하여 작업을 완수하도록 도와줍니다. AI Assistant는 다음을 통해 더욱 원활한 작업 경험을 제공할 수 있습니다.
 
@@ -47,6 +43,8 @@ Workfront의 AI 어시스턴트는 자연어 대화에서 인앱 정보와 제�
 </table>
 
 이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.## AI Assistant 사전 요구 사항
+
+## AI Assistant 사전 요구 사항
 
 조직에서 AI Assistant를 활성화하려면 다음 중 **모두**&#x200B;을(를) 적용해야 합니다.
 
