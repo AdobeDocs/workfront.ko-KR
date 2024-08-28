@@ -9,7 +9,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a0617270-e233-4ebe-a5ee-8df7a8a85823
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: 307bfb397555c7f9d424e429785dae36c639756a
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 2%
@@ -123,3 +123,4 @@ ht-degree: 2%
 작업 역할을 편집할 때 비활성화할 수 있습니다.
 
 작업 역할 비활성화에 대한 자세한 내용은 [작업 역할 비활성화](../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md)를 참조하십시오.
+

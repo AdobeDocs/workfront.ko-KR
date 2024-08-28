@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] 프로필에 사용자 자신에 대한 �
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: ecf0aba451d530fa3be258d954f827e7cfc6b198
 workflow-type: tm+mt
-source-wordcount: '3276'
+source-wordcount: '3319'
 ht-degree: 1%
 
 ---
@@ -220,7 +220,7 @@ ht-degree: 1%
 이 섹션에는 다음 하위 섹션이 포함됩니다.
 
 * [기본 정보](#basic-info)
-* [작업 정보](#job-info)
+* [직업 정보](#job-info)
 * [연락처 정보](#contact-info)
 
 #### [!UICONTROL 기본 정보]
@@ -339,7 +339,8 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL 전자 메일 로케일]</strong> </td> 
-   <td>여기에서 원하는 언어를 지정하십시오. 발신 전자 메일 메시지에 사용되는 언어, 날짜 및 숫자 형식을 제어합니다.</td> 
+   <td><p>여기에서 원하는 언어를 지정하십시오. 발신 전자 메일 메시지에 사용되는 언어, 날짜 및 숫자 형식을 제어합니다.</p>
+   <p><strong>참고:</strong> 조직이 Adobe 통합 환경에 있는 경우 언어 환경 설정은 Adobe 프로필에 저장되며 전자 메일 로케일은 사용되지 않습니다. 자세한 내용은 문서 <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Adobe Experience Cloud에서 지원되는 언어</a>에서 <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language">Adobe Workfront 언어 변경</a>을 참조하십시오.</p></td> 
   </tr>
 
 <tr> 

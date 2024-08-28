@@ -4,11 +4,11 @@ navigation-topic: get-started-with-workfront
 title: Adobe Workfront에서 지원되는 언어
 description: 브라우저의 언어 환경 설정과 Workfront 내의 기본 이메일 로케일을 조정하여 Adobe Workfront 및 Workfront에서 오는 이메일을 표시하는 언어를 변경할 수 있습니다.
 feature: Get Started with Workfront
-author: Caroline
+author: Nolan
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 2d2eac23d08b5dddfd1a3620f20f5a70b5c2821b
+source-git-commit: cac27d995a1b5295e05ea1f67990b05f28b66211
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1071'
 ht-degree: 1%
 
 ---
@@ -116,7 +116,7 @@ Workfront에서 지원하는 언어에 대한 자세한 내용은 [Adobe Workfro
 
 브라우저 언어를 변경하는 방법에 대한 특정 정보는 브라우저의 &quot;도움말&quot; 메뉴를 참조하십시오.
 
-## Adobe Experience Cloud 언어 변경
+### Adobe Experience Cloud 언어 변경
 
 조직이 IMS에 있는 경우 Adobe Experience Cloud 프로필 언어에 따라 Workfront에 표시되는 언어가 결정됩니다.
 
@@ -149,6 +149,10 @@ Workfront에서 지원하는 언어에 대한 자세한 내용은 [Adobe Workfro
 ### 사용자 이메일 로케일 변경 {#change-the-user-locale}
 
 사용자 이메일 로케일을 변경할 때는 보내는 메시지에 사용되는 언어, 날짜 및 숫자 형식을 수정합니다. 이러한 설정은 설정의 고객 정보 영역에서 선택한 시스템 설정보다 우선 적용됩니다.
+
+>[!NOTE]
+>
+>조직이 Adobe 통합 환경을 사용하는 경우 언어 환경 설정은 Adobe 프로필에 저장되고 이메일 로케일은 사용되지 않습니다. 이 문서에서 [Adobe Experience Cloud 언어 변경](#change-the-adobe-experience-cloud-language)을 참조하십시오.
 
 사용자 전자 메일 로케일을 변경하려면:
 
