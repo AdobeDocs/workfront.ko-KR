@@ -5,7 +5,7 @@ description: AI Assistant를 사용하여 계산된 필드에서 잘못된 사�
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5f144a6f-5c2a-42fc-a961-ab9066432d93
-source-git-commit: d261fd9eb9b8b649ebe413e35161543db1db8412
+source-git-commit: 09c05db7c6a5db7db74dd95ca323415f4318489d
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 0%
@@ -68,3 +68,4 @@ AI 도우미는 공식을 유효한 계산된 필드 표현식으로 수정하�
 >예상 결과를 검색하는지 확인하려면 계산된 필드를 테스트하는 것이 좋습니다.
 
 Workfront의 계산된 필드에 대한 자세한 내용은 [양식에 계산된 필드 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)를 참조하십시오.
+

@@ -4,7 +4,7 @@ content-type: reference
 description: AI Assistant 개요
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 3db36df88d4bb716cf4c37cd76b6d058a5a6f9b6
+source-git-commit: 09c05db7c6a5db7db74dd95ca323415f4318489d
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 0%
@@ -113,4 +113,5 @@ Adobe Gen AI 계약을 요청하려면
 1. Adobe Gen AI 계약에 서명할 조직의 개인 이름과 이메일 주소를 입력합니다.
 
    계약서는 서명을 위해 이 개인에게 전송됩니다. 서명되고 반환되면 조직에 대해 AI 비서가 활성화됩니다.
+
 

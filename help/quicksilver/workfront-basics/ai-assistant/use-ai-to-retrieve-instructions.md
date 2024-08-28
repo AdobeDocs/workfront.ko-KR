@@ -5,7 +5,7 @@ description: 이 요약 기능을 사용하여 작업 항목과 문서를 빠르
 author: Becky
 feature: Get Started with Workfront
 exl-id: c7460e8f-a7ae-415a-8db0-29736e8be0f8
-source-git-commit: d261fd9eb9b8b649ebe413e35161543db1db8412
+source-git-commit: 09c05db7c6a5db7db74dd95ca323415f4318489d
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%
@@ -55,3 +55,4 @@ AI Assistant를 사용하여 Workfront 설명서에서 정보 또는 지침을 �
 1. AI 지원 패널에서 응답을 봅니다.
 1. (선택 사항) 응답에 필요한 정보가 포함되어 있지 않으면 응답을 세분화하고 다시 시도하십시오.
 1. (선택 사항 및 조건부) 응답에 Adobe Experience League 문서에 대한 링크가 포함된 경우 링크를 클릭하여 새 창에서 문서를 엽니다.
+

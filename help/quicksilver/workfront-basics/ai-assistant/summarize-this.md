@@ -5,7 +5,7 @@ description: 이 요약 기능을 사용하여 작업 항목과 문서를 빠르
 author: Becky
 feature: Get Started with Workfront
 exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
-source-git-commit: d261fd9eb9b8b649ebe413e35161543db1db8412
+source-git-commit: 09c05db7c6a5db7db74dd95ca323415f4318489d
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 2%
@@ -67,3 +67,4 @@ AI Assistant는 다음 객체를 요약할 수 있습니다.
    AI Assistant는 객체의 크기 또는 복잡성에 따라 요약을 생성하는 데 몇 분 정도 걸릴 수 있습니다.
 
 1. AI Assistant 패널에서 AI 요약을 봅니다.
+
