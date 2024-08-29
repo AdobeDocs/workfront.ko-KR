@@ -9,9 +9,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 3bb0baa2e8831827f32156b1772fa9ee33694950
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1091'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->이 문서의 정보는 새로운 댓글 달기 환경에 릴리스된 기능을 참조합니다.
+>이 문서의 정보는 새로운 댓글 달기 경험에 릴리스된 기능을 참조합니다.
 >
 >새로운 댓글 달기 경험을 위한 베타 프로그램은 2023년 4월에 시작되어 2023년 10월에 종료되었으며, 2023년 10월 릴리스되었습니다.
 >

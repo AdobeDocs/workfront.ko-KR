@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 role: User, Admin
 exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
-source-git-commit: 3bb0baa2e8831827f32156b1772fa9ee33694950
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
 source-wordcount: '1867'
 ht-degree: 0%
@@ -33,9 +33,9 @@ ht-degree: 0%
 >
 >새로운 댓글 달기 경험을 위한 베타 프로그램은 2023년 4월에 시작되어 2023년 10월에 종료되었으며, 2023년 10월 릴리스되었습니다.
 > 
+>새로운 댓글 달기 환경에 포함된 모든 기능은 2024년 4월 11일부터 프로덕션 환경의 모든 고객이 사용할 수 있습니다.
 >자세한 내용은 [새 댓글 달기 경험](../../betas/new-commenting-experience-beta/unified-commenting-experience.md)을 참조하세요.
 >
->새로운 댓글 달기 환경에 포함된 모든 기능은 2024년 4월 11일부터 프로덕션 환경의 모든 고객이 사용할 수 있습니다.
 
 ## 새 댓글 달기 경험 위치 및 릴리스 타임라인
 

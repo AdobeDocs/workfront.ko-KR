@@ -1,42 +1,35 @@
 ---
 title: 보기 또는 Workspace에 권한 요청
-description: 다른 사람이 사용자와 이전에 공유하지 않은 링크를 보낸 보기 또는 작업 영역에 대한 권한을 요청할 수 있습니다.
+description: 다른 사용자가 액세스 권한이 없는 보기 또는 작업 영역에 대한 링크를 공유할 경우 열 수 있는 권한을 요청할 수 있습니다. 이 문서에서는 열 수 없는 공유 링크가 있을 때 보기 또는 작업 영역에 대한 액세스를 요청하는 단계에 대해 설명합니다.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: 04b0ada9b97445b9b05602b39a6d7ebce7d0cee9
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '562'
 ht-degree: 1%
 
 ---
 
 
-<!-- update metadata when released: 
-
----
-title: Request Permissions to a View or a Workspace
-description: You can request permissions to a view or a workspace that others sent you a link to which has not been previously shared with you. 
-author: Alina
-feature: Workfront Planning
-role: User, Admin
----
--->
-
-<!--add this to miniTOC and TOC-->
-
 # 보기 또는 작업 영역에 대한 권한 요청
 
-다른 사람이 사용자와 이전에 공유하지 않은 링크를 보낸 보기 또는 작업 영역에 대한 권한을 요청할 수 있습니다.
+다른 사용자가 액세스 권한이 없는 보기 또는 작업 영역에 대한 링크를 사용자와 공유하는 경우 보기 또는 작업 영역에 대한 권한을 요청할 수 있습니다.
 
 보기에 대한 권한을 요청하는 것은 작업 공간에 권한을 요청하는 것과 비슷합니다.
+
+이 문서에서는 다른 사용자가 나와 링크를 공유하지만 공유 페이지에 액세스할 수 없는 경우 보기 또는 작업 영역에 대한 액세스를 요청하는 방법에 대해 설명합니다.
+
+보기 및 작업 공간에 대한 권한 부여에 대한 자세한 내용은 다음 문서를 참조하십시오.
+
+* [보기 공유](/help/quicksilver/planning/access/share-views.md)
+* [작업 공간 공유](/help/quicksilver/planning/access/share-workspaces.md)
+
 
 ## 액세스 요구 사항
 
 +++ 를 확장하여 Workfront Planning에 대한 액세스 요구 사항을 봅니다.
-
-<!--at GA, check that the Workfront plans article linked below has Planning info-->
 
 Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 
@@ -128,10 +121,6 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
    * 이메일 알림
      ![](assets/email-notification-for-access-request.png)
 
-   보기 및 작업 공간에 대한 권한 부여에 대한 자세한 내용은 다음 문서를 참조하십시오.
-
-   * [보기 공유](/help/quicksilver/planning/access/share-views.md)
-   * [작업 공간 공유](/help/quicksilver/planning/access/share-workspaces.md)
-1. (조건부) 보기 또는 작업 영역 관리자가 보기 또는 작업 영역에 대한 권한을 부여하면 권한이 부여되었음을 확인하는 이메일 알림 및 인앱 알림을 받게 됩니다. <!--check this - I was not able to test this-->
+1. (조건부) 보기 또는 작업 영역 관리자가 보기 또는 작업 영역에 대한 권한을 부여하면 권한이 부여되었음을 확인하는 이메일 알림 및 인앱 알림을 받게 됩니다. <!--check this - I was not able to test this, but Isk confirmed.-->
 
 

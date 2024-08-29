@@ -10,9 +10,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 08aea7a6-1ce2-46d9-9807-c94526851655
-source-git-commit: 3bb0baa2e8831827f32156b1772fa9ee33694950
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->새로운 댓글 달기 경험 베타 프로그램은 현재 종료되었습니다.
+>새로운 댓글 달기 경험 Beta 프로그램이 현재 종료되었으며 이제 모든 고객이 댓글 달기 기능을 사용할 수 있습니다.
 >
 >Beta 기간 동안 릴리스된 기능은 2023년 4분기 릴리스(2023년 10월)부터 모든 고객이 사용할 수 있습니다.
 

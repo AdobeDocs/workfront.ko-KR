@@ -1,14 +1,14 @@
 ---
 title: "Adobe Workfront Planning 액세스 정보: 문서 색인"
-description: Workfront 관리자는 Adobe Workfront Planning을 사용하려면 사용자에게 액세스 권한을 부여해야 합니다. 다음 문서에는 사용자가 Workfront Planning을 사용하는 데 필요한 액세스 권한에 대한 정보가 포함되어 있습니다.
+description: Workfront 관리자는 Adobe Workfront Planning을 사용하려면 사용자에게 액세스 권한을 부여해야 합니다. 다음 문서에는 사용자가 Workfront Planning을 사용하는 데 필요한 액세스 권한과 사용자가 액세스 권한이 없는 경우 권한을 요청하고 부여하는 방법에 대한 정보가 포함되어 있습니다.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 98ca7d04-35c2-420a-a87c-50c00939853c
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---

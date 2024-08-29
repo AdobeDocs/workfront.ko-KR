@@ -7,14 +7,31 @@ description: Adobe Workfront 목표에는 계정에 대해 활성화할 수 있�
 author: Alina
 feature: Workfront Goals
 exl-id: 40f9b9a3-c829-480b-9897-099b68389cd4
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '223'
 ht-degree: 0%
 
 ---
 
 # Adobe Workfront 목표 알림 활성화
+
+>[!IMPORTANT]
+>
+>이 문서에 설명된 기능을 사용하려면 조직에 다음 사항이 있어야 합니다.
+>
+>* 새 플랜 및 라이선스 구조의 경우:
+>
+>   * 궁극적인 Workfront 플랜
+>    
+>* 현재 플랜 및 라이선스 구조의 경우:
+>
+>   * Pro 이상의 Workfront 플랜
+>   * Workfront 라이선스 외에 Adobe Workfront Goals 라이선스.
+>
+>Workfront Goals 라이선스에 대한 자세한 내용은 Workfront 계정 관리자에게 문의하십시오.
+> 
+>Workfront 목표에 액세스하는 방법에 대한 자세한 내용은 [Workfront 목표 사용 요구 사항](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)을 참조하십시오.
 
 Adobe Workfront 목표에는 계정에 대해 활성화할 수 있는 이벤트 알림 세트가 포함되어 있습니다. 이러한 이벤트 알림은 이벤트에 의해 정의된 조건이 충족될 때마다 이메일 통신을 트리거합니다.
 

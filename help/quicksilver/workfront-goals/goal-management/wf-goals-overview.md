@@ -7,9 +7,9 @@ description: Workfront 목표는 전략을 작업 실행 및 전달에 연결하
 author: Alina
 feature: Workfront Goals
 exl-id: bc0451ba-d729-4e8a-bde3-a2609c667d50
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,8 @@ ht-degree: 0%
 >   * Workfront 라이선스 외에 Adobe Workfront Goals 라이선스.
 >
 >Workfront Goals 라이선스에 대한 자세한 내용은 Workfront 계정 관리자에게 문의하십시오.
-
+> 
+>Workfront 목표에 액세스하는 방법에 대한 자세한 내용은 [Workfront 목표 사용 요구 사항](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)을 참조하십시오.
 
 Workfront 목표는 전략을 작업 실행 및 전달에 연결하여 전략을 정의하고, 전달하고, 전략적 결과를 달성하는 데 도움이 됩니다. 모든 사람의 노력을 중요시하는 일에 집중하고, 성과를 측정 가능하며, 팀이 놀라운 결과를 달성할 수 있도록 할 수 있습니다. 자신의 기여가 의미 있는 영향을 미친다는 것을 알고 최선을 다할 수 있다.
 
@@ -42,9 +43,9 @@ Workfront 목표 사용을 위한 모범 사례에 대한 자세한 내용은 [A
 >
 >Workfront 목표를 사용하여 관리하는 전략적 목표를 프로젝트의 비즈니스 사례에 속하는 프로젝트 수준 목표와 혼동해서는 안 됩니다. 프로젝트 수준 목표에 대한 자세한 내용은 [비즈니스 사례 목표 만들기](../../manage-work/projects/define-a-business-case/create-business-case-goals.md)를 참조하십시오.
 
-## Workfront 목표에 포함된 기능
+## Workfront 목표 기능
 
-현재 Workfront 목표에는 다음 기능이 포함되어 있습니다.
+Workfront 목표에는 다음 기능이 포함되어 있습니다.
 
 * 분기별 또는 연간 목표를 생성하여 사용자, 팀, 그룹 또는 조직에 할당합니다. 목표 타임라인을 사용자 정의할 수도 있습니다.
 

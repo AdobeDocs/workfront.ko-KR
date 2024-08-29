@@ -6,9 +6,9 @@ description: 목표를 만들면 Adobe Workfront 목표가 초안 상태로 목�
 author: Alina
 feature: Workfront Goals
 exl-id: fc556073-fe63-4f13-a313-505ca0ef1f9b
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '496'
 ht-degree: 1%
 
 ---
@@ -40,9 +40,8 @@ ht-degree: 1%
    <td role="rowheader">Adobe Workfront 플랜*</td> 
    <td> 
    <p>새 플랜 및 라이선스 구조의 경우:
-  <ul><li>궁극적인 플랜 </li>
-  또는
-  <li>Prime 또는 Select Adobe Workfront 플랜에 대한 Adobe Workfront Goals에 대한 추가 라이센스입니다. </li></ul> </p>
+  <ul><li>궁극적인 플랜 </li></ul>
+   </p>
 <p>현재 플랜 및 라이선스 구조의 경우: 
 <ul><li> Pro 이상 </li>
   <li>Workfront 라이선스 외에 Adobe Workfront Goals 라이선스.</li></ul></p>

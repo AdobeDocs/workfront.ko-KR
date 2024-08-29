@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '421'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ Workfront Planning에서 다음 작업이 발생하면 인앱 또는 이메일 �
 
 * 누군가가 기록 페이지의 댓글에 귀하를 추가합니다.
 * 누군가 보기 또는 작업 영역에 액세스할 수 있는 권한을 요청합니다.
-* 다른 사용자가 보기 또는 작업 영역 <!--test this - could not test before GA-->에 액세스할 수 있는 권한을 부여하거나 거부합니다.
+* 누군가가 <!--I could not test this but Isk confirmed--> 보기 또는 작업 영역에 액세스할 수 있는 권한을 부여했습니다.
 
 ## 액세스 요구 사항
 
@@ -62,7 +62,7 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
  <tr> 
    <td role="rowheader"><p>Adobe Workfront 플랫폼</p></td> 
    <td> 
-<p>Workfront Planning의 모든 기능에 액세스할 수 있으려면 조직의 Workfront 인스턴스가 통합 경험 Adobe에 온보딩되어야 합니다.</p> 
+<p>조직의 Workfront 인스턴스는 통합 경험 Adobe에 온보딩되어야 합니다.</p> 
 <p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 통합 경험 Adobe</a>를 참조하십시오. </p> 
    </td> 
    </tr> 
@@ -171,7 +171,7 @@ OLD:
 1. Workfront에 사용할 수 있는 알림은 다음과 같습니다.
 
    * **언급**: 다른 사용자가 Workfront Planning에서 댓글에 태그를 지정하면 알림을 받습니다
-   * **요청**: 누군가 Workfront Planning 개체에 대한 권한을 요청하면 알림을 받습니다
+   * **요청**: 누군가 Workfront Planning 개체에 대한 권한을 요청하거나 부여하면 알림을 받습니다
 
    알림 관리에 대한 자세한 내용은 [계정 환경 설정 및 알림](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences)을 참조하세요.
 

@@ -6,9 +6,9 @@ description: Adobe Workfront 개체(프로젝트, 작업 또는 문제)에 업�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 67deb48ebc90dd4a93c2af1cb89442ee2486cb16
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '2984'
+source-wordcount: '3007'
 ht-degree: 0%
 
 ---
@@ -378,7 +378,7 @@ You can add updates to the following objects:
    1. 링크를 삽입할 업데이트를 클릭합니다.
    1. **서식 있는 텍스트** 도구 모음에서 **하이퍼링크** 아이콘 ![](assets/link-icon.png)을(를) 클릭합니다.
 
-   1. **URL**&#x200B;에 나타나는 **링크 만들기** 상자에 연결할 원본 URL을 입력하거나 붙여 넣습니다.
+   1. **링크 만들기** 상자의 **URL**&#x200B;에 연결할 원본 URL을 입력하거나 붙여 넣습니다.
 
    1. **표시할 텍스트**&#x200B;에서 링크 텍스트를 입력하거나 붙여 넣습니다.
    1. **저장**&#x200B;을 클릭합니다.
@@ -386,7 +386,7 @@ You can add updates to the following objects:
 1. (선택 사항) 이미지를 업데이트에 첨부하려면 다음 중 하나를 수행합니다.
 
    * 이미지를 컴퓨터에 저장한 다음 새 댓글 영역에 끌어서 놓습니다.
-   * 컴퓨터에서 스크린샷을 복사한 다음 주석에 붙여넣습니다.<!-- This is not available in the legacy commenting experience.-->
+   * 컴퓨터에서 스크린샷을 복사한 다음 주석에 붙여넣습니다.
    * **이미지 추가** 아이콘 ![](assets/add-image-mountain-with-plus-icon.png)을(를) 클릭하고 컴퓨터에서 이미지를 찾습니다.
 
 
@@ -399,7 +399,8 @@ You can add updates to the following objects:
    >* 이미지 또는 첨부 파일 추가 아이콘을 보려면 Workfront 관리자가 Workfront 인터페이스 영역의 피드 업데이트 환경 설정 섹션에서 이미지 추가를 활성화해야 합니다. 자세한 내용은 [사용자 업데이트에 대한 환경 설정 구성](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md)을 참조하십시오.
    >* 최대 이미지 파일 크기는 7MB입니다. 지원되는 이미지 파일 유형은 .jpg, .gif 및 .png입니다.
    >* 이미지는 개체의 업데이트 섹션에서 액세스할 수 있으며 기본 메뉴 아래의 문서 영역에서도 사용할 수 있습니다.
-   >* Mac 새 주석을 마우스 오른쪽 단추로 클릭하거나 키보드에서 Ctrl+V(Windows의 경우 ⌘+V)를 눌러 이미지를 붙여넣을 수 있습니다.
+   >키보드 조합 또는 Windows 컴퓨터의 화면 인쇄 기능 등을 사용하여 컴퓨터에서 스크린샷을 복사할 수 있습니다.
+   >* Mac 새 주석을 마우스 오른쪽 단추로 클릭한 다음 **붙여넣기**&#x200B;를 클릭하거나 키보드에서 Ctrl+V(Windows의 경우 ⌘+V)를 눌러 이미지를 붙여넣을 수 있습니다.
    >* 텍스트가 아닌 이미지로 업데이트를 보낼 수 있습니다.
    >* 이미지가 포함된 댓글을 삭제하면 해당 이미지는 업데이트 섹션과 문서 영역에서 제거됩니다. 댓글을 편집하고 이미지를 삭제하면 문서 영역에서도 이미지가 삭제됩니다.
    >* 누군가 문서 영역에서 댓글에 첨부된 이미지를 삭제하면 해당 이미지도 댓글에서 제거됩니다.

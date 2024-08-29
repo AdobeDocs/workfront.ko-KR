@@ -6,10 +6,10 @@ description: 목표 진행은 활동, 결과 또는 아동 목표와 같은 진�
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 1%
+source-wordcount: '834'
+ht-degree: 0%
 
 ---
 
@@ -35,12 +35,6 @@ Workfront Goals 라이선스에 대한 자세한 내용은 Workfront 계정 관�
 Workfront 목표에 액세스하는 방법에 대한 자세한 내용은 [Workfront 목표 사용 요구 사항](../../workfront-goals/goal-management/access-needed-for-wf-goals.md)을 참조하십시오.
 
 Adobe Workfront은 진행 표시기의 진행 상황을 기반으로 목표 진행 상황을 자동으로 계산합니다.
-
-## 전제 조건
-
-시작하려면 먼저 다음 항목이 있어야 합니다.
-
-* 메인 메뉴에 목표 영역을 포함하는 레이아웃 템플릿입니다.
 
 ## 목표 진행 상황 및 임계값 개요
 

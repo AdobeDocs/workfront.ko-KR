@@ -6,35 +6,31 @@ description: Workfront 또는 그룹 관리자는 조직의 용어와 더 잘 �
 author: Alina
 feature: Workfront Goals
 exl-id: a3b3e61e-c385-429b-856b-7579b02c9946
-source-git-commit: 514c4ea3eb603bb7a614e4b37abec4272a5febc7
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '221'
 ht-degree: 1%
 
 ---
 
 # Adobe Workfront 목표 용어 사용자 정의
 
-이 문서에 설명된 기능을 사용하려면 조직에 다음 사항이 있어야 합니다.
-
-* 현재 플랜 및 라이선스 구조의 경우:
-
-   * Pro 이상의 [Adobe Workfront 플랜](https://www.workfront.com/plans).
-   * Workfront 라이선스 외에 Adobe Workfront Goals 라이선스.
-
-* 새 플랜 및 라이선스 구조의 경우:
-
-   * 궁극적인 플랜
-
-     또는
-
-     Prime 또는 Select Adobe Workfront 플랜에 대한 Adobe Workfront Goals에 대한 추가 라이센스입니다.
-
-Workfront Goals 라이선스에 대한 자세한 내용은 Workfront 계정 관리자에게 문의하십시오.
-
-Workfront 목표에 액세스하는 방법에 대한 자세한 내용은 [Workfront 목표 사용 요구 사항](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)을 참조하십시오.
-
-자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+>[!IMPORTANT]
+>
+>이 문서에 설명된 기능을 사용하려면 조직에 다음 사항이 있어야 합니다.
+>
+>* 새 플랜 및 라이선스 구조의 경우:
+>
+>   * 궁극적인 Workfront 플랜
+>    
+>* 현재 플랜 및 라이선스 구조의 경우:
+>
+>   * Pro 이상의 Workfront 플랜
+>   * Workfront 라이선스 외에 Adobe Workfront Goals 라이선스.
+>
+>Workfront Goals 라이선스에 대한 자세한 내용은 Workfront 계정 관리자에게 문의하십시오.
+> 
+>Workfront 목표에 액세스하는 방법에 대한 자세한 내용은 [Workfront 목표 사용 요구 사항](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)을 참조하십시오.
 
 Workfront 또는 그룹 관리자는 조직의 용어와 더 잘 일치하도록 Workfront 목표의 개체 이름을 사용자 정의할 수 있습니다.
 

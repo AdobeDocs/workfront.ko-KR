@@ -6,7 +6,7 @@ description: 작업 또는 문제의 상태는 작업 또는 문제의 진행 �
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
 source-wordcount: '1020'
 ht-degree: 1%
@@ -59,7 +59,7 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">개체 권한</td> 
    <td> <p>작업 및 문제에 대한 또는 그 이상의 권한을 보고 해당 조건 보기</p>
-   <p>작업 및 문제에 대한 권한을 관리하여 조건 업데이트</p>
+   <p>조건 업데이트를 위한 작업 및 문제에 대한 Contribute 권한</p>
   </td> 
   </tr> 
  </tbody> 

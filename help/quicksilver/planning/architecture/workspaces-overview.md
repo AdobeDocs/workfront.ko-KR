@@ -3,8 +3,9 @@ title: 작업 공간 개요
 description: 작업 영역은 팀에서 사용하는 레코드 유형의 컬렉션으로, 팀의 작업 라이프사이클을 나타냅니다. 조직 단위의 워크플로와 일치하도록 Adobe Workfront Planning에서 작업 공간을 완전히 사용자 정의할 수 있습니다.
 feature: Workfront Planning
 role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: 425c3d3afb892ac83a10bbd36efb4c7d9712c4dc
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 0%

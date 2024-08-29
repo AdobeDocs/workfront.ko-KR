@@ -3,9 +3,10 @@ title: 레코드 유형 및 레코드 연결의 예
 description: 이 문서에서는 Adobe Workfront Planning 레코드 유형과 Workfront 프로젝트 객체 유형 간의 연결을 만드는 방법의 예를 설명합니다. 또한 Workfront Planning 레코드를 개별 프로젝트에 연결하는 방법에 대해서도 설명합니다.
 feature: Workfront Planning
 role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
+source-git-commit: 425c3d3afb892ac83a10bbd36efb4c7d9712c4dc
 workflow-type: tm+mt
 source-wordcount: '1949'
 ht-degree: 0%

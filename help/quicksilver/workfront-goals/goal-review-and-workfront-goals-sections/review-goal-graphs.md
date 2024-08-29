@@ -6,9 +6,9 @@ description: Adobe Workfront 목표의 그래프 섹션에서 목표의 전반�
 author: Alina
 feature: Workfront Goals
 exl-id: 8d5f3617-c7bf-44ce-99b0-d4ebda106f25
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '976'
 ht-degree: 0%
 
 ---
@@ -37,9 +37,8 @@ Adobe Workfront 목표의 그래프 섹션에서 목표의 전반적인 상태�
    <td role="rowheader">Adobe Workfront 플랜*</td> 
    <td> 
    <p>새 플랜 및 라이선스 구조의 경우:
-  <ul><li>궁극적인 플랜 </li>
-  또는
-  <li>Prime 또는 Select Adobe Workfront 플랜에 대한 Adobe Workfront Goals에 대한 추가 라이센스입니다. </li></ul> </p>
+  <ul><li>궁극적인 플랜 </li></ul>
+   </p>
 <p>현재 플랜 및 라이선스 구조의 경우: 
 <ul><li> Pro 이상 </li>
   <li>Workfront 라이선스 외에 Adobe Workfront Goals 라이선스.</li></ul></p>

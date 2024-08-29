@@ -3,11 +3,12 @@ title: Adobe Workfront Planning 인앱 알림 관리
 description: 누군가가 기록 댓글에서 귀하를 태그하면 해당 태그에 대한 이메일 알림을 받게 됩니다.
 feature: Workfront Planning
 role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '416'
 ht-degree: 1%
 
 ---
@@ -23,8 +24,7 @@ ht-degree: 1%
 
   레코드 댓글에 다른 사용자를 태그 지정하는 방법에 대한 자세한 내용은 [레코드 댓글 관리](/help/quicksilver/planning/records/manage-record-comments.md)를 참조하십시오.
 * 누군가 보기 또는 작업 영역에 액세스할 수 있는 권한을 요청합니다.
-* 누군가 보기 또는 작업 영역 <!--verify this-->에 대한 액세스 권한이 부여되었음을 확인합니다.
-* 누군가 보기 또는 작업 영역에 대한 사용자의 액세스를 거부했습니다. <!--verify this-->
+* 누군가 보기 또는 작업 영역 <!--Isk confirmed there is no notification for denying permissions - did not test-->에 대한 액세스 권한이 부여되었음을 확인합니다.
 
 ## 액세스 요구 사항
 
@@ -64,7 +64,7 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
  <tr> 
    <td role="rowheader"><p>Adobe Workfront 플랫폼</p></td> 
    <td> 
-<p>Workfront Planning의 모든 기능에 액세스할 수 있으려면 조직의 Workfront 인스턴스가 통합 경험 Adobe에 온보딩되어야 합니다.</p> 
+<p>조직의 Workfront 인스턴스는 통합 경험 Adobe에 온보딩되어야 합니다.</p> 
 <p>자세한 내용은 <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront용 통합 경험 Adobe</a>를 참조하십시오. </p> 
    </td> 
    </tr> 
@@ -170,7 +170,10 @@ OLD:
 1. (선택 사항) 모든 알림을 읽었음을 나타내려면 **모두 읽음으로 표시**&#x200B;를 클릭합니다.
 1. (선택 사항) Adobe Experience Cloud의 **알림** 페이지로 이동하려면 **모두 보기**&#x200B;를 클릭합니다.
 
+## 권한 요청 및 부여 시 인앱 알림 관리
 
-## 보기 또는 작업 영역에 대한 권한을 요청, 부여 또는 거부할 때 인앱 알림 관리
+누군가 보기 또는 작업 영역에 대한 권한을 요청하거나 부여하면 인앱 알림을 받습니다.
 
 보기 또는 작업 영역에 대한 권한 요청, 부여 또는 거부에 대한 자세한 내용은 [보기 또는 작업 영역에 대한 권한 요청](/help/quicksilver/planning/access/request-permissions.md)을 참조하십시오.
+
+Workfront Planning 알림 관리에 대한 자세한 내용은 [Adobe Workfront Planning 알림 환경 설정 관리](/help/quicksilver/planning/notifications/manage-notification-preferences.md)를 참조하십시오.
