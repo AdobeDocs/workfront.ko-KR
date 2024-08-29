@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 41fe217aee733e8382416366542845d90c1b10fd
+source-git-commit: 35bc6db1bc9244db6b21a175cee8e02f8188312e
 workflow-type: tm+mt
-source-wordcount: '14358'
+source-wordcount: '14363'
 ht-degree: 2%
 
 ---
@@ -880,6 +880,7 @@ ht-degree: 2%
          * [새 홈](workfront-basics/using-home/new-home/new-home.md)
          * [새 홈 시작](workfront-basics/using-home/new-home/get-started-with-new-home.md)
          * [새 홈에서 위젯 추가, 편집 또는 제거](workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
+         * [새 홈 위젯 필터 개요](workfront-basics/using-home/new-home/widget-filter-overview-new-home.md)
       * 홈 영역 {#use-home-area} 사용
          * [홈 영역 사용](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
          * [홈 시작](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
