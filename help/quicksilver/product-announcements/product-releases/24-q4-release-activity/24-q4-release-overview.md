@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 32107381545777cbe7a6696f7a384287ef781a1a
+source-git-commit: ffa599ff0e25ba960ce01f3f492482ee2e747122
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1300'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 >
 >| 월별 릴리스 | 분기별 릴리스 |
 >|----|----|
->| <ul><li>24.8 (2024년 8월)</li><li>24.9 (2024년 9월)</li><li>24.10 (2024년 10월)</li></ul> | <ul><li>24.10 (2024년 10월)</li></ul> |
+>| <ul><li>24.8 (2024년 8월 15일)</li><li>24.9 (2024년 9월 12일)</li><li>24.10 (2024년 10월)</li></ul> | <ul><li>24.10 (2024년 10월)</li></ul> |
 >
 >각 분기의 최종 릴리스(이번 분기 24.10)의 경우 빠른 릴리스 일정을 사용하는 사용자는 하루 일찍 릴리스를 받게 됩니다.
 >
@@ -58,6 +58,25 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">환경 프로모션 패키지 롤백</a></p>
+                        <p>환경 프로모션을 보다 유연하고 쉽게 사용할 수 있도록 롤백 기능을 활성화했습니다. 이제 24시간 내에 패키지를 롤백하여 환경 프로모션 패키지의 영향을 받은 이전 구성을 보다 쉽게 복원할 수 있습니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2024년 8월 29일</p>
+                            </li>
+                            <li>
+                                <p>빠른 릴리스를 위한 프로덕션: 24.9 릴리스 포함(2024년 9월 12일)</p>
+                            </li>
+                            <li>
+                                <p>모든 고객을 위한 프로덕션 릴리스: 24.10 릴리스 포함(2024년 10월)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         사용자 지정 양식 디자이너의 <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">레이아웃 단추는 두 개 또는 세 개의 열을 허용합니다</a></p>
                         <p>사용자 정의 양식 디자이너의 "레이아웃" 버튼을 사용하면 2열 또는 3열 작업 영역 중에서 선택할 수 있습니다. 원래 양식 디자이너는 세 개의 열을 사용하며 필드 설정은 맨 오른쪽 열에 표시됩니다. 두 개의 열을 선택하면 맨 왼쪽 열의 필드 라이브러리 옆에 필드 설정이 표시됩니다.</p>
                     </td>
@@ -67,7 +86,7 @@ ht-degree: 0%
                                 <p>미리보기 릴리스: 2024년 8월 12일</p>
                             </li>
                             <li>
-                                <p>빠른 릴리스를 위한 프로덕션: 24.9 릴리스 포함(2024년 9월)</p>
+                                <p>빠른 릴리스를 위한 프로덕션: 24.9 릴리스 포함(2024년 9월 12일)</p>
                             </li>
                             <li>
                                 <p>모든 고객을 위한 프로덕션 릴리스: TBD</p>
@@ -192,6 +211,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">데스크톱 증명 뷰어에 대한 Chromium 업데이트</a></p>
+                        [!BADGE In production ]{type=Informative}
                         <p>대화형 증명에서 UI 요소 문제를 해결하는 Chromium 126.0.6478.127을 지원하도록 데스크탑 증명 뷰어를 업그레이드하고 있습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -217,6 +237,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Planning의 일반 가용성</a></p>
+                        [!BADGE In production ]{type=Informative}
                         <p>Workfront Planning은 Workfront 라이선스 외에 Workfront Planning 라이선스를 구입한 모든 고객이 사용할 수 있습니다. Workfront Planning에 대한 자세한 내용은 계정 담당자에게 문의하십시오.</p>
                         <p>분기별 최신 Workfront Planning 릴리스 정보는 아래의 <a href="#workfront-planning-enhancements">Workfront Planning 개선 사항</a> 섹션을 참조하십시오.</p>
                     </td>
@@ -231,6 +252,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront에서 사용할 수 있는 Adobe AI 길잡이</a></p>
+                        [!BADGE In production ]{type=Informative}
                         <p>작업을 보다 쉽게 수행할 수 있도록 Adobe의 AI Assistant를 Workfront에 추가했습니다. AI Assistant는 다음을 통해 도움을 줄 수 있습니다.</p>
                         <ul>
                             <li>작업 항목 및 문서를 요약하면 작업, 프로젝트 및 에셋에 대한 일반적인 이해를 신속하게 얻을 수 있습니다.</li>

@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: f2da081c-bdce-4012-9797-75be317079ef
-source-git-commit: 84f7f80314e4acafb0414b806f7b1e1e4b2845fc
+source-git-commit: ffa599ff0e25ba960ce01f3f492482ee2e747122
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Workfront Data Connect 데이터를 보다 효율적으로 활용할 수 있도�
 
 ### 시나리오:
 
-Finance Integration이라는 사용자 정의 양식을 활용하는 조직 양식은 모든 프로젝트에 첨부되며 다음 필드를 포함합니다.
+조직은 재무 통합이라는 사용자 정의 양식을 사용합니다. 양식은 모든 프로젝트에 첨부되며 다음 필드를 포함합니다.
 
 * **사업부** - 문자열을 포함하는 사용자 지정 필드입니다.
 * **ProjectID** - 숫자 문자열이 포함된 사용자 지정 필드입니다.
