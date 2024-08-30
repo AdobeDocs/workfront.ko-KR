@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 1a2f6e95b5b229f9b749290fcb1767ff794ddd6d
+source-git-commit: ad5d49baddcacaf59c0194fcd3335e71448ae5f7
 workflow-type: tm+mt
 source-wordcount: '5546'
 ht-degree: 5%
@@ -304,7 +304,7 @@ ht-degree: 5%
    * 드롭다운
    * 다중 선택 드롭다운
 
-   ![필드를 캔버스로 드래그](assets/drag-field-to-section-041524.png)
+   ![필드를 캔버스로 드래그](assets/drag-field-to-section.png)
 
 1. 화면 오른쪽에서 추가하려는 사용자 정의 필드 유형에 사용할 수 있는 옵션을 구성합니다.
 
@@ -579,7 +579,7 @@ ht-degree: 5%
      </tr> 
      <tr> 
       <td role="rowheader">이름</td> 
-      <td> <p>(필수) 이 이름은 시스템이 필드를 식별하는 방법입니다. 위젯을 처음 구성하는 경우 레이블을 입력하면 이름 필드가 위젯과 일치하도록 자동으로 채워집니다. 그러나 레이블 및 이름 필드는 동기화되지 않으므로 시스템에서 볼 수 있는 이름을 변경하지 않고도 사용자가 볼 수 있는 레이블을 자유롭게 변경할 수 있습니다.</p> 
+      <td> <p>(필수) 이 이름은 시스템이 필드를 식별하는 방법입니다. 위젯을 처음 구성하는 경우 레이블을 입력하면 이름 필드가 위젯과 일치하도록 자동으로 채워집니다. 그러나 레이블 및 이름 필드는 동기화되지 않으므로 시스템에서 볼 수 있는 이름을 변경하지 않고도 사용자가 볼 수 있는 레이블을 자유롭게 변경할 수 있습니다.</p>
       <p>자세한 내용은 <a href="design-a-form.md#notes-on-field-names-and-labels">필드 이름 및 레이블에 대한 참고</a>을 참조하세요.</p> </td>
      </tr> 
       <td role="rowheader">지침</td> 

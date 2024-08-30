@@ -7,7 +7,7 @@ description: 그룹 및 팀은 Adobe Workfront의 사용자 컬렉션입니다.
 author: Lisa
 feature: People Teams and Groups
 exl-id: 28eb1967-390b-4500-abfc-8ed68ff14a16
-source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
+source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 1%

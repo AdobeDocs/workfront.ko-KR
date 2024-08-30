@@ -7,9 +7,9 @@ description: 사용자 이름이 이미 사용 중이라는 오류가 표시되�
 author: Lisa
 feature: People Teams and Groups
 exl-id: dc9accf0-7ef4-4555-9b1c-d69b2110f3da
-source-git-commit: 24bb9b5c0836196a1c6e15f828eb47bbd489ef25
+source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '318'
 ht-degree: 1%
 
 ---
@@ -18,26 +18,35 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 플랜</strong></td> 
-   <td> <p>임의</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Adobe Workfront 플랜</p> </td> 
+   <td>임의</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스</strong></td> 
-   <td> <p>[!UICONTROL 계획]</p> </td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td>
+   <p>새로운 기능: 표준</p>
+   <p>또는</p>
+   <p>현재: 플랜</p></td>
   </tr> 
-  <tr> 
-   <td role="rowheader"><strong>액세스 수준 구성</strong></td> 
-   <td> <p>[!UICONTROL 시스템 관리자]</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>시스템 관리자</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 질문
 
@@ -57,7 +66,8 @@ ht-degree: 1%
 
 현재 [!DNL Workfront] 인스턴스에서 사용자 이름 및 전자 메일 주소가 고유한지 확인합니다.
 
-1. [!DNL Workfront] 관리자는 [!DNL Adobe Workfront]의 오른쪽 위 모서리에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **[!UICONTROL 사용자]**&#x200B;를 클릭합니다.
+{{step-1-to-users}}
+
 1. 직원 목록에서 **[!UICONTROL 전자 메일]** 열을 확인하여 중복 전자 메일이 없는지 확인하세요.
 1. 보기에 사용자 이름에 대한 열을 추가합니다.
 
