@@ -4,12 +4,12 @@ product-area: resource-management
 navigation-topic: resource-management-overview
 title: 리소스 관리 시작
 description: 자원 관리를 사용하면 자원 가용성에 따라 자원의 사용을 정확하게 예측하도록 시스템을 구성할 수 있으므로 수행해야 하는 작업이 시간 및 예산에 맞춰 완료됩니다.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
+source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1173'
 ht-degree: 0%
 
 ---
@@ -137,11 +137,11 @@ Workfront에서 리소스를 관리하는 프로세스에는 다음 단계가 �
 다음 사용자 중 하나여야 하며 리소스 관리 도구에 액세스하려면 다음 액세스 및 권한이 있어야 합니다.
 
 * 시스템 관리자.
-* 플랜 라이선스가 있는 사용자.
+* Standard 또는 Plan 라이선스가 있는 사용자.
 
   작업 라이선스가 있는 사용자는 프로젝트의 업무 균형자 를 사용하고 할당 및 할당을 관리할 수 있습니다.
 
-  특정 리소스 관리 도구를 사용하려면 Work 또는 Higher 라이센스가 있을 뿐만 아니라 다음을 수행해야 합니다.
+  특정 리소스 관리 도구를 사용하려면 작업 이상의 라이선스(또는 표준 라이선스)가 있을 뿐 아니라 다음과 같은 것이 있어야 합니다.
 
    * 리소스 관리에 대한 액세스 편집(업무 균형자에서 할당할 필요가 없음)
    * 재무 데이터에 대한 액세스 권한을 편집하여 리소스 플래너에 비용 정보 표시
@@ -168,7 +168,6 @@ Workfront에서 리소스 관리 도구를 효율적으로 사용하려면 먼�
 Workfront의 각 리소스 관리 도구에 대한 요구 사항 정보는 다음을 참조하십시오.
 
 * 문서 [리소스 플래너 개요](../../resource-mgmt/resource-planning/get-started-resource-planner.md)의 섹션 [리소스 플래너에서 작업하기 위한 필수 구성 요소](../../resource-mgmt/resource-planning/get-started-resource-planner.md#prerequisites-for-working-in-the-resource-planner).
-  <!--remove this at production: * The section "Prerequisites" in the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).-->
 * [업무 균형자 개요](../../resource-mgmt/workload-balancer/overview-workload-balancer.md) 문서의 [업무 균형자 사용 모범 사례](../../resource-mgmt/workload-balancer/overview-workload-balancer.md#best-practices-for-using-the-workload-balancer) 섹션.
 * [Adobe Workfront에서 리소스 예산을 책정하는 데 필요한 액세스](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 * [업무 균형자에서 리소스를 관리하는 데 액세스](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md)해야 합니다.

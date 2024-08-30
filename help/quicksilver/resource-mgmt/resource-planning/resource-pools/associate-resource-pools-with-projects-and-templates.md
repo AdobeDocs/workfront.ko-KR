@@ -6,10 +6,10 @@ description: 리소스 풀은 Adobe Workfront에서 리소스를 관리하는 �
 author: Lisa
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
-source-git-commit: 36599722aafadcbbc630650a94005fd73b3e517e
+source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 0%
+source-wordcount: '624'
+ht-degree: 1%
 
 ---
 
@@ -41,32 +41,40 @@ Also - take out all the references to Preview and Prod at prod final
 
 ## 액세스 요구 사항
 
-다음 항목이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
+이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>Pro 이상</p> </td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td><p>새로 만들기: 모두</p>
+       <p>또는</p>
+       <p>현재: Pro 이상</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>플랜 </p> </td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td><p>새로운 기능: 표준</p>
+       <p>또는</p>
+       <p>현재: 플랜</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>리소스 풀 관리에 대한 액세스 권한을 포함하는 리소스 관리에 대한 액세스 편집</p> <p>프로젝트, 템플릿 및 사용자에 대한 액세스 편집</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>리소스 풀 관리에 대한 액세스 권한을 포함하는 리소스 관리에 대한 액세스 편집</p> <p>프로젝트, 템플릿 및 사용자에 대한 액세스 편집</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>리소스 풀을 연결할 프로젝트, 템플릿 및 사용자에 대한 권한을 관리합니다.</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
+   <td>리소스 풀을 연결할 프로젝트, 템플릿 및 사용자에 대한 권한을 관리합니다.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 리소스 풀을 하나의 프로젝트 또는 템플릿과 연결
 

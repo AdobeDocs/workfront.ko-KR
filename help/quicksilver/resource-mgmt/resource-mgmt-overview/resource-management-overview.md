@@ -2,16 +2,16 @@
 content-type: reference;overview
 product-area: resource-management
 navigation-topic: resource-management-navigation-topic
-title: 리소스 관리
+title: 리소스 관리 개요
 description: 자원 관리를 통해 자원 관리자는 현재 사용할 수 있는 개별 근로자가 가장 높은 우선순위의 작업에 대해 예산을 책정받을 수 있도록 업무 결정을 내릴 수 있습니다. 작업 역할 수준에서 시작될 수 있지만 결국 리소스 관리는 사용자와 사용자의 과소 활용 또는 과도한 약속에 관심을 갖게 됩니다.
 author: Lisa
 feature: Resource Management
 recommendations: noDisplay, noCatalog
 exl-id: 137787c9-82f6-4b18-a427-720589221a7c
-source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
+source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 1%
+source-wordcount: '128'
+ht-degree: 0%
 
 ---
 
