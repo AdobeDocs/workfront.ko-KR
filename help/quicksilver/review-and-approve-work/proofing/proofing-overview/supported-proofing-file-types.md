@@ -7,9 +7,9 @@ description: '시스템에 설치된 파일(예: Photoshop 또는 Illustrator)�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
+source-git-commit: 0a9bc92df7360565318d7776dae73b414c054fc2
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1052'
 ht-degree: 0%
 
 ---
@@ -181,11 +181,8 @@ Workfront에는 다음과 같은 제한이 있습니다.
 > * PPSX - Microsoft PowerPoint 슬라이드 쇼
 > * XLT - Microsoft Excel 템플릿
 > * XLTX - Microsoft Excel 템플릿
-
->[!WARNING]
-> 보안 문제로 인해 일시적으로 다음 정적 파일 형식을 지원하지 않습니다.
->
 > * EPS - 캡슐화된 PostScript
+
 
 * AI - Adobe Illustrator 아트워크
 * AIT - Adobe Illustrator 템플릿
