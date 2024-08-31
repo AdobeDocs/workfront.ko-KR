@@ -1,31 +1,17 @@
 ---
 title: 레코드 연결
 description: 레코드 종류 간에 연결을 만든 후에는 개별 레코드를 서로 연결할 수 있습니다.
-hidefromtoc: true
-hide: true
 recommendations: noDisplay, noCatalog
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 425c3d3afb892ac83a10bbd36efb4c7d9712c4dc
+source-git-commit: 78a54ec94dd5a5746144e99e14c622e8b3a7ea71
 workflow-type: tm+mt
 source-wordcount: '2714'
 ht-degree: 1%
 
 ---
-
-<!--when you make this live, update the metadata above to this: 
----
-title: Connect records and objects
-description: In addition to connecting records to one another, you can also connect records to objects from other applications.  
-topic: Architecture
-role: User
-hidefromtoc: yes
-hide: yes
----
--->
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 
 # 기록 연결
