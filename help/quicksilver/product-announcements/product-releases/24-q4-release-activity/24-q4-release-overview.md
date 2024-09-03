@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: ffa599ff0e25ba960ce01f3f492482ee2e747122
+source-git-commit: 621e208a17a3a285dda0dc97cbe83638af2de1a5
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1361'
 ht-degree: 0%
 
 ---
@@ -206,6 +206,24 @@ ht-degree: 0%
                     <td>
                         <p><span class="bold">릴리스 날짜</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">데스크톱 증명 뷰어 Windows 사용자를 위한 빈 화면 수정</a></p>
+                        [!BADGE In production ]{type=Informative}
+                        <p>일부 Windows 사용자가 뷰어를 연 후 빈 화면이 표시되는 새로운 2.1.36 Desktop Proofing Viewer 버전 문제를 해결했습니다. </p>
+                        <p>Windows 사용자를 위한 새 버전: 2.1.37</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2024년 8월 30일</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">모든 고객을 위한 프로덕션 릴리스: 2024년 8월 30일</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
