@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '7432'
+source-wordcount: '7462'
 ht-degree: 0%
 
 ---
@@ -98,6 +98,11 @@ Workfront Planning이 일반 공급자로 릴리스됨에 따라 이제 Workfron
 작업 공간 또는 보기에 대한 액세스를 요청하면 액세스 권한을 요청하는 사용자에게 요청에 대한 이메일 알림이 전송됩니다. 요청이 승인되면 요청이 승인되었음을 확인하는 이메일 알림을 받게 됩니다.
 
 권한이 부여되면 이메일 알림에서 보기 또는 작업 공간에 액세스할 수 있습니다.  <!--see if they also get an in-app notification-->
+
+>[!NOTE]
+>
+>사용자가 권한 요청에서 보기 또는 작업 영역에 대한 권한을 요청하고 부여할 수 있으려면 조직이 Adobe 통합 경험에 온보딩되어야 합니다.
+
 
 자세한 내용은 [보기 또는 작업 영역에 대한 권한 요청](/help/quicksilver/planning/access/request-permissions.md)을 참조하십시오.
 

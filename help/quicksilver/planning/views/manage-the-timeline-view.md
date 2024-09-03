@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '2621'
+source-wordcount: '2622'
 ht-degree: 0%
 
 ---
@@ -403,7 +403,7 @@ this is not possible right now; if this is the same functionality as the table v
 * 타임라인 보기에서 선택한 레코드 유형의 레코드 아래에 연결된 레코드나 개체를 표시할 수 있습니다.
 * 분류 기능을 사용하여 타임라인 보기에 다음을 표시할 수 있습니다.
    * 선택한 레코드 유형에 연결된 Workfront Planning 레코드입니다.
-   * 선택한 레코드 형식에 연결된 Workfront(************* 또는 AEM Assets *************) 개체 형식입니다.
+   * Workfront 개체 유형 또는 선택한 레코드 유형에 연결된 Experience Manager 에셋.
    * Workfront Planning 레코드 또는 선택한 레코드 유형에 연결된 레코드에 연결된 다른 응용 프로그램의 객체
 
      예를 들어 캠페인을 포트폴리오에 연결할 수 있습니다. 또한 다른 레코드 유형인 제품을 캠페인뿐만 아니라 프로젝트와 연결할 수도 있습니다. 캠페인 타임라인 보기를 작성할 때 포트폴리오, 제품 및 프로젝트별로 캠페인을 분류할 수 있습니다.

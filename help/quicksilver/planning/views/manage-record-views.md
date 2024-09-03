@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '1368'
+source-wordcount: '1392'
 ht-degree: 1%
 
 ---
@@ -356,10 +356,12 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 
    ![](assets/show-collaborators-toggle-selected.png)
 
-1. (조건부) 표 보기를 열면 다른 사람이 편집 중인 필드가 표 보기에서 해당 아바타의 윤곽선에 해당하는 색으로 윤곽선이 표시됩니다.
+1. (조건부) 표 보기를 열면 다른 사람이 활발하게 편집하고 있는 필드가 표 보기에서 아바타의 윤곽에 해당하는 색으로 강조 표시됩니다.
+
+   아바타의 강조 색상이 회색이면 사용자는 30초 이상 전에 레코드 편집을 중지했습니다.
 
    ![](assets/real-time-indicator-table-field-and-avatar-connection.png)
 
    >[!TIP]
    >
-   >모든 보기에서 **공동 작업자 표시** 전환을 선택할 수 있습니다. 편집된 필드는 표 보기에서만 윤곽선이 표시됩니다.
+   >모든 보기에서 **공동 작업자 표시** 전환을 선택할 수 있습니다. 현재 다른 사용자가 편집한 필드는 테이블 보기에서만 윤곽선이 표시됩니다.

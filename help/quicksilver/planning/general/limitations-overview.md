@@ -5,9 +5,9 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '330'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,9 @@ Adobe Workfront Planning에는 인스턴스에서 생성할 수 있는 객체 �
 | 하나의 작업 영역에 대한 레코드 수 | Planning을 사용하는 고객의 경우 25,000명 <br>을(를) 사용하는 고객의 경우 500,000명 Planning Plus를 사용하는 고객 |
 | Workfront Planning 인스턴스 하나에 대한 총 레코드 수 | Planning Plus를 사용하는 고객의 경우 50만 명, Planning Plus를 사용하는 고객의 경우 <br>2만 명 |
 | 하나의 레코드 유형 또는 분류법에 대한 필드 수 | 500 |
-| 텍스트 필드의 문자 수 | 1,000자 |
+| 한 줄 텍스트 필드의 문자 수 | 1,000자 |
+| 단락 필드의 문자 수 | 100,000자 |
+| 하나의 레코드 종류에 대한 단락 필드 수 | 20개 단락 필드 |
 | 레코드 종류 표에 붙여 넣을 수 있는 파일 크기 | 1MB |
 | 레코드 유형 테이블에 대한 API를 통해 가져올 수 있는 파일의 크기입니다. | 1.5MB |
 | API 요청을 수행할 수 있는 속도입니다 | 분당 요청 200개 |
