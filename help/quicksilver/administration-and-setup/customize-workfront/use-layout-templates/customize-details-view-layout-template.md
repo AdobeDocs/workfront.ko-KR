@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: 21c873d617187518bdbfe54a7a1ee5f1119ed8fd
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -104,11 +104,13 @@ or billing record
 1. **세부 정보** 섹션에서 다음 중 하나를 수행하여 사용자가 세부 정보 보기에서 보는 내용을 사용자 지정합니다.
 
    * 섹션 머리글 ![](assets/move-icon---dots.png)을(를) 끌어 순서를 변경합니다.
-   * **개요** 및 **사용자 지정 Forms**&#x200B;의 옵션을 활성화하거나 비활성화하여 표시하거나 숨깁니다.
+   * 다양한 영역(예: **개요**, **재무** 및 **사용자 지정 Forms**)에서 옵션을 활성화하거나 비활성화하여 표시하거나 숨깁니다.
 
      이러한 섹션 중 하나에 있는 모든 필드를 숨기면 전체 섹션이 숨겨집니다.
 
-     모든 필드는 기본적으로 활성화되어 있습니다.
+     모든 필드는 기본적으로 활성화되어 있습니다. 영역의 **모두 선택** 확인란을 선택하거나 선택 취소하여 해당 영역의 모든 필드를 표시하거나 숨길 수 있습니다.
+
+   ![레이아웃 템플릿의 세부 정보 보기](assets/layout-template-details-view.png)
 
 1. 레이아웃 템플릿을 계속 사용자 지정합니다.
 
