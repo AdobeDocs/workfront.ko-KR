@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion 매핑 패널에서 다음과 같은 일반 
 author: Becky
 feature: Workfront Fusion
 exl-id: 74bfda4e-5690-4b8c-ac58-20cf261f188d
-source-git-commit: a5130e551ad73717796bfac206d99799efc7987d
+source-git-commit: 4cca9738ad9537247234faa0b1c441163d4e315f
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
@@ -73,6 +73,12 @@ ht-degree: 0%
 
 식이 true로 평가되면 `value1`을(를) 반환합니다. 그렇지 않으면 `value2`을(를) 반환합니다.
 
+둘 이상의 식이 true로 평가되는 경우에만 값을 반환하는 if 문을 만들려면 `and` 키워드를 사용합니다.
+
+`if` 문을 결합하려면 `and` 및 `or` 연산자를 사용합니다.
+
+![and 연산자](/help/quicksilver/workfront-fusion/functions/assets/and-in-if-statement.png)
+
 >[!INFO]
 >
 >**예:**
@@ -81,9 +87,14 @@ ht-degree: 0%
 >
 >    A 반환
 >
->* `if( = 2 ; A ; B )`
+>* `if( 1 = 2 ; A ; B )`
 >
 >   B 반환
+>
+>* `if( 1 = 2 and 1 = 2 ; A ; B )`
+>
+>    B 반환
+>   
 
 ## [!UICONTROL ifempty (value1; value2)]
 
@@ -107,7 +118,7 @@ ht-degree: 0%
 
 ## [!UICONTROL switch(expression; value1; result1; [value2; result2; ...]; [else])]
 
-값 목록에 대해 하나의 값(식이라고 함)을 평가하고 첫 번째 일치하는 값에 해당하는 결과를 반환합니다.
+값 목록에 대해 하나의 값(식이라고 함)을 평가하고 첫 번째 일치하는 값에 해당하는 결과를 반환합니다. `else` 값을 포함하려면 최종 식 또는 값 뒤에 추가하십시오.
 
 >[!INFO]
 >
@@ -123,7 +134,9 @@ ht-degree: 0%
 >
 >* `switch( X ; A ; 1 ; B ; 2 ; C ; 3 ; 4 )`
 >
->  반환 4
+>   반환 4
+>   
+>   이 함수에서 4는 식이 적용되지 않는 경우 반환되는 값입니다(`else` 값).
 
 ## [!UICONTROL 생략(object; key1; [key2; ...])]
 
