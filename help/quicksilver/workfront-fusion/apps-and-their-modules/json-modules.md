@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion JSON 앱은 Adobe Workfront Fusion이 데이
 author: Becky
 feature: Workfront Fusion
 exl-id: 60540608-9d2e-4e10-9fb2-5388dda64784
-source-git-commit: 0290772c26ca82af31f14d101b4dde99377d6ce4
+source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1214'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ JSON 문자열 필드에 컬렉션 `{ ... }`이(가) 포함된 경우 출력은 
 >       "name" : "Peter",
 >
 >    
->   "ID" : 1
+   "ID" : 1
 >}
 >```
 >
@@ -108,7 +108,7 @@ JSON 문자열 필드에 배열 `[ ... ]`이(가) 포함된 경우 출력은 일
 >   },
 >
 >  
-> {
+ {
 >       "name" : "Mike",
 >       "ID" : 2
 >   }
@@ -125,13 +125,14 @@ JSON 문자열 필드에 배열 `[ ... ]`이(가) 포함된 경우 출력은 일
 
 ![](assets/map-toggle-350x74.png)
 
-* [JSON으로 집계](#aggregate-to-json)
 * [JSON을 XML로 변환](#convert-json-to-xml)
 * [JSON 구문 분석](#parse-json)
 * [JSON 만들기](#create-json)
 * [JSON 변환](#transform-json)
 
-### [!UICONTROL JSON으로 집계]
+### 집계자
+
+#### [!UICONTROL JSON으로 집계]
 
 이 집계 모듈은 이전 모듈의 출력을 JSON으로 집계합니다.
 
@@ -162,7 +163,14 @@ JSON 문자열 필드에 배열 `[ ... ]`이(가) 포함된 경우 출력은 일
  </tbody> 
 </table>
 
-### [!UICONTROL JSON을 XML로 변환]
+### 트랜스포머
+
+* [JSON을 XML로 변환](#convert-json-to-xml)
+* [JSON 만들기](#create-json)
+* [JSON 구문 분석](#parse-json)
+* [JSON 변환](#transform-json)
+
+#### [!UICONTROL JSON을 XML로 변환]
 
 이 작업 모듈은 JSON 문자열을 XML로 변환합니다.
 
@@ -177,7 +185,22 @@ JSON 문자열 필드에 배열 `[ ... ]`이(가) 포함된 경우 출력은 일
  </tbody> 
 </table>
 
-### [!UICONTROL JSON 구문 분석]
+#### [!UICONTROL JSON 만들기]
+
+이 작업 모듈은 데이터 구조에서 JSON을 생성합니다.
+
+<table style="table-layout:auto"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">데이터 구조</td> 
+   <td> <p>JSON을 만드는 데 사용할 데이터 구조를 선택합니다. 자세한 내용은 이 문서에서 <a href="#data-structure" class="MCXref xref">데이터 구조</a>를 참조하십시오.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL JSON 구문 분석]
 
 이 작업 모듈은 JSON 문자열을 JSON 문자열 내의 데이터에 액세스할 수 있는 데이터 구조로 구문 분석합니다.
 
@@ -196,22 +219,7 @@ JSON 문자열 필드에 배열 `[ ... ]`이(가) 포함된 경우 출력은 일
  </tbody> 
 </table>
 
-### [!UICONTROL JSON 만들기]
-
-이 작업 모듈은 데이터 구조에서 JSON을 생성합니다.
-
-<table style="table-layout:auto"> 
- <col data-mc-conditions=""> 
- <col data-mc-conditions=""> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">데이터 구조</td> 
-   <td> <p>JSON을 만드는 데 사용할 데이터 구조를 선택합니다. 자세한 내용은 이 문서에서 <a href="#data-structure" class="MCXref xref">데이터 구조</a>를 참조하십시오.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### [!UICONTROL JSON 변환]
+#### [!UICONTROL JSON 변환]
 
 이 작업 모듈은 개체를 json 문자열로 변환합니다.
 
@@ -238,28 +246,27 @@ JSON 문자열 필드에 배열 `[ ... ]`이(가) 포함된 경우 출력은 일
 >
 1. [!UICONTROL 배열 집계] 모듈 뒤에 [!UICONTROL JSON] > [!UICONTROL JSON 만들기] 모듈을 연결합니다. 모듈의 설정에는 JSON 형식을 설명하는 데이터 구조가 필요합니다. 데이터 구조 설정을 열려면 **[!UICONTROL 추가]**&#x200B;를 클릭하십시오. 이 데이터 구조를 만드는 가장 쉬운 방법은 JSON 샘플에서 자동으로 생성하는 것입니다. **[!UICONTROL 생성기]**&#x200B;를 클릭하고 JSON 샘플을 **[!UICONTROL 샘플 데이터]** 필드에 붙여 넣으십시오.
 >
->     **예:**
+**예:**
 >
->     ```
->     {
->     
->     "books": [
->     
->     {
->     
->     "id": "ID",
->     
->     "title": "Title",
->     
->     "author": "Author"
->     
->     }
->     
->     ]
->     
->     }
->     
->     ```
+```
+{
+
+"books": [
+
+{
+
+"id": "ID",
+
+"title": "Title",
+
+"author": "Author"
+
+}
+
+]
+
+}
+```
 >
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다. 이제 데이터 구조의 [!UICONTROL Specification] 필드에 생성된 구조가 포함됩니다.
 1. 데이터 구조의 이름을 좀 더 구체적으로 변경하고 **[!UICONTROL 저장]**&#x200B;을 클릭하세요. 루트 배열 속성에 해당하는 필드는 JSON 모듈의 설정에서 매핑 가능한 필드로 표시됩니다.

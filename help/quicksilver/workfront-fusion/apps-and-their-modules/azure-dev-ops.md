@@ -9,9 +9,9 @@ description: ' [!DNL Adobe Workfront Fusion] 시나리오에서는  [!DNL Azure 
 author: Becky
 feature: Workfront Fusion
 exl-id: ecaa93c9-47bb-4fe1-87b4-d2e117cc68ae
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: ed7ea1d3409c39caea5fe8b107b7b2907dc87d76
 workflow-type: tm+mt
-source-wordcount: '1777'
+source-wordcount: '1776'
 ht-degree: 0%
 
 ---
@@ -127,13 +127,13 @@ ht-degree: 0%
 
 ### 액션
 
-* [사용자 정의 API 호출](#custom-api-call)
-* [레코드 읽기](#read-record)
 * [레코드 만들기](#create-a-record)
+* [사용자 정의 API 호출](#custom-api-call)
+* [첨부 파일 다운로드](#download-an-attachment)
+* [작업 항목 연결](#link-work-items)
+* [레코드 읽기](#read-record)
 * [작업 항목 업데이트](#update-a-work-item)
 * [[!UICONTROL 첨부 파일 업로드]](#upload-an-attachment)
-* [첨부 파일 다운로드](#download-an-attachment)
-* [작업 항목 연결]([!UICONTROL #link-work-items])
 
 #### [!UICONTROL 사용자 지정 API 호출]
 
@@ -183,43 +183,6 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-#### [!UICONTROL 레코드 읽기]
-
-이 작업 모듈은 [!DNL Azure DevOps]의 단일 레코드에서 데이터를 읽습니다.
-
-레코드의 ID를 지정합니다.
-
-모듈은 연결에서 액세스하는 사용자 지정 필드 및 값과 함께 레코드 및 관련 필드의 ID를 반환합니다. 이 정보는 시나리오의 후속 모듈에 매핑할 수 있습니다.
-
-이 모듈을 구성할 때 다음 필드가 표시됩니다.
-
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>[!DNL Azure DevOps] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서의 <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">[!UICONTROL Workfront Fusion]에 [!DNL Azure DevOps] 연결</a>을 참조하십시오.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 레코드 유형]</td> 
-   <td> <p>프로젝트를 읽을지 작업 항목을 읽을지 선택</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL 프로젝트]</strong>: 읽을 프로젝트를 선택하십시오.</p> </li> 
-     <li> <p><strong>[!UICONTROL 작업 항목]</strong>: 읽을 작업 항목이 포함된 프로젝트를 선택한 다음 작업 항목 형식을 선택합니다.</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 출력]</td> 
-   <td>이 모듈에 대한 출력 번들에 포함할 정보를 선택합니다. 사용 가능한 필드는 작업 항목 유형에 따라 다릅니다.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL ID]</td> 
-   <td>읽으려는 레코드의 ID를 입력하거나 매핑합니다.</td> 
-  </tr> 
- </tbody> 
-</table>
-
 #### [!UICONTROL 레코드 만들기]
 
 이 작업 모듈은 새 프로젝트 또는 작업 항목을 만듭니다.
@@ -253,6 +216,99 @@ ht-degree: 0%
        <li> <p><strong>[!UICONTROL 기타 필드]</strong>:이 필드에 주어진 속성에 대해 작업 항목에 사용할 값을 입력합니다. 사용 가능한 필드는 작업 항목 유형에 따라 다릅니다.</p> </li> 
       </ul> </li> 
     </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL 첨부 파일 다운로드]
+
+이 작업 모듈은 첨부 파일을 다운로드합니다.
+
+모듈은 첨부 파일의 내용을 반환합니다.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>[!DNL Azure DevOps] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서의 <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">[!UICONTROL Workfront Fusion]에 [!DNL Azure DevOps] 연결</a>을 참조하십시오.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 첨부 파일 URL]</td> 
+   <td> <p>다운로드하려는 첨부 파일의 URL을 입력하거나 매핑합니다.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL 작업 항목 연결]
+
+이 작업 모듈은 두 작업 항목을 연결하고 두 작업 항목 간의 관계를 정의합니다.
+
+모듈은 기본 작업 항목의 ID 및 연결된 필드와 연결이 액세스하는 모든 사용자 지정 필드 및 값을 반환합니다. 이 정보는 시나리오의 후속 모듈에 매핑할 수 있습니다.
+
+이 모듈을 구성할 때 다음 필드가 표시됩니다.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>[!DNL Azure DevOps] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서의 <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">[!UICONTROL Workfront Fusion]에 [!DNL Azure DevOps] 연결</a>을 참조하십시오.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 작업 항목 ID]</td> 
+   <td>다른 작업 항목을 연결할 기본 작업 항목 항목의 ID를 입력하거나 매핑합니다.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 연결된 작업 항목 ID]</td> 
+   <td>기본 작업 항목에 연결할 작업 항목의 ID를 입력하거나 매핑합니다.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 링크 유형]</td> 
+   <td> <p>연결할 작업 항목 간의 관계를 정의합니다.</p> <p>자세한 내용은 [!UICONTROL Azure DevOps] 설명서에서 <a href="https://docs.microsoft.com/en-us/azure/devops/boards/queries/link-type-reference?view=azure-devops">링크 유형 참조</a>를 참조하십시오.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Comment]</td> 
+   <td>댓글의 텍스트를 입력하거나 매핑합니다. 이는 링크의 추론이나 의도를 설명하는 데 유용하다.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL 레코드 읽기]
+
+이 작업 모듈은 [!DNL Azure DevOps]의 단일 레코드에서 데이터를 읽습니다.
+
+레코드의 ID를 지정합니다.
+
+모듈은 연결에서 액세스하는 사용자 지정 필드 및 값과 함께 레코드 및 관련 필드의 ID를 반환합니다. 이 정보는 시나리오의 후속 모듈에 매핑할 수 있습니다.
+
+이 모듈을 구성할 때 다음 필드가 표시됩니다.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>[!DNL Azure DevOps] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서의 <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">[!UICONTROL Workfront Fusion]에 [!DNL Azure DevOps] 연결</a>을 참조하십시오.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 레코드 유형]</td> 
+   <td> <p>프로젝트를 읽을지 작업 항목을 읽을지 선택</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL 프로젝트]</strong>: 읽을 프로젝트를 선택하십시오.</p> </li> 
+     <li> <p><strong>[!UICONTROL 작업 항목]</strong>: 읽을 작업 항목이 포함된 프로젝트를 선택한 다음 작업 항목 형식을 선택합니다.</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 출력]</td> 
+   <td>이 모듈에 대한 출력 번들에 포함할 정보를 선택합니다. 사용 가능한 필드는 작업 항목 유형에 따라 다릅니다.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ID]</td> 
+   <td>읽으려는 레코드의 ID를 입력하거나 매핑합니다.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -319,62 +375,6 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[!UICONTROL Source 파일] </td> 
    <td>이전 모듈에서 소스 파일을 선택하거나 소스 파일의 이름과 내용을 입력하거나 매핑합니다.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL 첨부 파일 다운로드]
-
-이 작업 모듈은 첨부 파일을 다운로드합니다.
-
-모듈은 첨부 파일의 내용을 반환합니다.
-
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>[!DNL Azure DevOps] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서의 <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">[!UICONTROL Workfront Fusion]에 [!DNL Azure DevOps] 연결</a>을 참조하십시오.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 첨부 파일 URL]</td> 
-   <td> <p>다운로드하려는 첨부 파일의 URL을 입력하거나 매핑합니다.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL 작업 항목 연결]
-
-이 작업 모듈은 두 작업 항목을 연결하고 두 작업 항목 간의 관계를 정의합니다.
-
-모듈은 기본 작업 항목의 ID 및 연결된 필드와 연결이 액세스하는 모든 사용자 지정 필드 및 값을 반환합니다. 이 정보는 시나리오의 후속 모듈에 매핑할 수 있습니다.
-
-이 모듈을 구성할 때 다음 필드가 표시됩니다.
-
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>[!DNL Azure DevOps] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서의 <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">[!UICONTROL Workfront Fusion]에 [!DNL Azure DevOps] 연결</a>을 참조하십시오.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 작업 항목 ID]</td> 
-   <td>다른 작업 항목을 연결할 기본 작업 항목 항목의 ID를 입력하거나 매핑합니다.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 연결된 작업 항목 ID]</td> 
-   <td>기본 작업 항목에 연결할 작업 항목의 ID를 입력하거나 매핑합니다.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 링크 유형]</td> 
-   <td> <p>연결할 작업 항목 간의 관계를 정의합니다.</p> <p>자세한 내용은 [!UICONTROL Azure DevOps] 설명서에서 <a href="https://docs.microsoft.com/en-us/azure/devops/boards/queries/link-type-reference?view=azure-devops">링크 유형 참조</a>를 참조하십시오.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Comment]</td> 
-   <td>댓글의 텍스트를 입력하거나 매핑합니다. 이는 링크의 추론이나 의도를 설명하는 데 유용하다.</td> 
   </tr> 
  </tbody> 
 </table>

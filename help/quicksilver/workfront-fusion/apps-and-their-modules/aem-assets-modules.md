@@ -10,9 +10,9 @@ description: ' [!DNL Adobe Workfront Fusion], you can start a scenario based on 
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: e06ca7c05867c12940df487fe4bc4e34744e2f1f
+source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
 workflow-type: tm+mt
-source-wordcount: '1609'
+source-wordcount: '1647'
 ht-degree: 0%
 
 ---
@@ -190,9 +190,18 @@ Adobe Experience Manager Assets 커넥터에 대한 소개는 다음을 참조�
 
 ![](assets/map-toggle-350x74.png)
 
+* [폴더 또는 자산 복사](#copy-a-folder-or-asset)
+* [레코드 만들기](#create-a-record)
+* [폴더, 에셋 또는 렌디션 삭제](#delete-a-folder-asset-or-rendition)
+* [폴더 목록 가져오기](#get-a-folder-listing)
+* [사용자 지정 API 호출 만들기](#make-a-custom-api-call)
+* [폴더 또는 자산 이동](#move-a-folder-or-asset)
+* [레코드 업데이트](#update-a-record)
+* [에셋 업로드](#upload-an-asset)
+
 ### [!UICONTROL 폴더 또는 자산 복사]
 
-이 작업 모듈은 폴더 또는 에셋을 Adobe Experience Manager 에셋 계정의 다른 위치에 복사합니다.
+이 작업 모듈은 폴더 또는 에셋을 Adobe Experience Manager Assets 계정의 다른 위치에 복사합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -260,7 +269,7 @@ Adobe Experience Manager Assets 커넥터에 대한 소개는 다음을 참조�
  </tbody> 
 </table>
 
-### [!UICONTROL 레코드 삭제]
+### [!UICONTROL 폴더, 에셋 또는 렌디션 삭제]
 
 이 작업 모듈은 폴더, 에셋 또는 렌디션을 삭제합니다.
 

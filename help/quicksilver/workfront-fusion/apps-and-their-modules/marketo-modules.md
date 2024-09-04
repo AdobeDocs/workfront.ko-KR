@@ -9,7 +9,7 @@ description: ' [!DNL Adobe Workfront Fusion] 시나리오에서는  [!DNL Market
 author: Becky
 feature: Workfront Fusion
 exl-id: 7f6dace5-ab50-45da-a926-1a8919057f7b
-source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
+source-git-commit: 7e7294e52622a6b8164fc69bbb4be576cc113f63
 workflow-type: tm+mt
 source-wordcount: '2068'
 ht-degree: 0%
@@ -94,8 +94,27 @@ Marketo 커넥터에 대한 비디오 소개는 다음을 참조하십시오.
 
 ### 트리거
 
-* [[!UICONTROL 레코드 보기]](#watch-records)
 * [[!UICONTROL 이벤트 보기(인스턴트)]](#watch-events-instant)
+* [[!UICONTROL 레코드 보기]](#watch-records)
+
+#### [!UICONTROL 이벤트 보기(인스턴트)]
+
+이 트리거 모듈은 레코드가 생성되거나 업데이트될 때 시나리오를 시작합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Webhook]</p> </td> 
+   <td> <p>모듈에서 사용할 웹후크를 입력합니다.</p> <p>웹후크에 대한 자세한 내용은 [!DNL Adobe Workfront Fusion]</a>의 <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref">인스턴트 트리거(웹후크)를 참조하십시오.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 제한]</td> 
+   <td> <p>각 시나리오 실행 주기 동안 모듈이 반환할 최대 레코드 수를 입력하거나 매핑합니다.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 #### [!UICONTROL 레코드 보기]
 
@@ -129,41 +148,22 @@ Marketo 커넥터에 대한 비디오 소개는 다음을 참조하십시오.
  </tbody> 
 </table>
 
-#### [!UICONTROL 이벤트 보기(인스턴트)]
-
-이 트리거 모듈은 레코드가 생성되거나 업데이트될 때 시나리오를 시작합니다.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Webhook]</p> </td> 
-   <td> <p>모듈에서 사용할 웹후크를 입력합니다.</p> <p>웹후크에 대한 자세한 내용은 [!DNL Adobe Workfront Fusion]</a>의 <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref">인스턴트 트리거(웹후크)를 참조하십시오.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 제한]</td> 
-   <td> <p>각 시나리오 실행 주기 동안 모듈이 반환할 최대 레코드 수를 입력하거나 매핑합니다.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
 ### 액션
 
-* [[!UICONTROL 사용자 지정 API 호출]](#custom-api-call)
-* [[!UICONTROL 레코드 만들기]](#create-a-record)
-* [[!UICONTROL 레코드 업데이트]](#update-a-record)
-* [[!UICONTROL 파일 다운로드]](#download-a-file)
-* [[!UICONTROL 파일 업로드]](#upload-a-file)
-* [[!UICONTROL 레코드 읽기]](#read-a-record)
 * [[!UICONTROL 목록에 리드 추가]](#add-leads-to-a-list)
+* [[!UICONTROL 프로그램 복제]](#clone-a-program)
+* [[!UICONTROL 레코드 만들기]](#create-a-record)
+* [[!UICONTROL 사용자 지정 API 호출]](#custom-api-call)
+* [[!UICONTROL 파일 다운로드]](#download-a-file)
+* [[!UICONTROL 레코드 읽기]](#read-a-record)
 * [[!UICONTROL 목록에서 리드 제거]](#remove-leads-from-a-list)
 * [[!UICONTROL 캠페인 예약]](#schedule-a-campaign)
-* [[!UICONTROL 프로그램 복사]](#copy-a-program)
+* [[!UICONTROL 레코드 업데이트]](#update-a-record)
+* [[!UICONTROL 파일 업로드]](#upload-a-file)
 
-#### [!UICONTROL 사용자 지정 API 호출]
+#### [!UICONTROL 목록에 리드 추가]
 
-이 작업 모듈을 사용하면 [!DNL Marketo] API에 대해 사용자 지정 인증된 호출을 수행할 수 있습니다. 이렇게 하면 다른 [!DNL Marketo] 모듈에서 수행할 수 없는 데이터 흐름 자동화를 만들 수 있습니다.
+이 작업 모듈은 리드 ID를 사용하여 하나 이상의 리드를 목록에 추가합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -174,31 +174,39 @@ Marketo 커넥터에 대한 비디오 소개는 다음을 참조하십시오.
    <td> <p>[!DNL Marketo] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">[!DNL Marketo]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL URL]</td> 
-   <td><code>https://{your-base-url}.mktorest.com/</code>과(와) 관련된 경로를 입력하십시오.</td> 
+   <td role="rowheader">[!UICONTROL 목록 ID]</td> 
+   <td>리드를 추가할 목록의 ID를 입력하거나 매핑합니다.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 메서드]</td> 
-   <td> <p>API 호출을 구성하는 데 필요한 HTTP 요청 메서드를 선택합니다. 자세한 내용은 [!DNL Adobe Workfront Fusion]</a>에서 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">HTTP 요청 메서드를 참조하십시오.</p> </td> 
+   <td role="rowheader">[!UICONTROL 리드 ID]</td> 
+   <td> <p>목록에 추가할 각 리드에 대해 <b>[!UICONTROL 추가]</b>를 클릭한 다음 추가할 리드의 ID를 입력하거나 매핑합니다. 목록에 추가할 모듈에 대해 최대 300개의 리드를 추가할 수 있습니다.</p> <p>맵 토글을 클릭하여 목록에 추가하려는 기존 리드 컬렉션을 매핑합니다.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL 프로그램 복제]
+
+이 작업 모듈은 기존 프로그램의 ID를 사용하여 프로그램의 복사본을 만듭니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>[!DNL Marketo] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">[!DNL Marketo]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p>표준 JSON 개체 형태로 요청의 헤더를 추가합니다.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>[!UICONTROL Workfront Fusion]이 사용자에게 권한 부여 헤더를 추가합니다.</p> </td> 
+   <td role="rowheader">[!UICONTROL 기존 프로그램 ID]</td> 
+   <td>복사할 프로그램의 ID를 입력하거나 매핑합니다.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 쿼리 문자열]</td> 
-   <td> <p>표준 JSON 개체 형식으로 API 호출에 대한 쿼리를 추가합니다.</p> <p>For example: <code>{"name":"something-urgent"}</code></p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 새 프로그램 이름]</p> </td> 
+   <td> <p>새 프로그램의 이름 입력 또는 매핑</p> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>표준 JSON 개체의 형태로 API 호출에 대한 본문 콘텐츠를 추가합니다.</p> <p>참고:  <p>JSON에서 <code>if</code>과(와) 같은 조건문을 사용할 때 따옴표를 조건문 외부에 넣으십시오.</p> 
-     <div class="example" data-mc-autonum="<b>Example: </b>"> 
-      <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
-     </div> </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 제한]</td> 
-   <td> <p>각 시나리오 실행 주기 동안 모듈이 사용할 최대 레코드 수를 입력하거나 매핑합니다.</p> </td> 
+   <td role="rowheader">[!UICONTROL 폴더 ID]</td> 
+   <td>새 프로그램을 배치할 폴더의 ID를 입력하거나 매핑합니다.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -260,6 +268,147 @@ Marketo 커넥터에 대한 비디오 소개는 다음을 참조하십시오.
  </tbody> 
 </table>
 
+#### [!UICONTROL 사용자 지정 API 호출]
+
+이 작업 모듈을 사용하면 [!DNL Marketo] API에 대해 사용자 지정 인증된 호출을 수행할 수 있습니다. 이렇게 하면 다른 [!DNL Marketo] 모듈에서 수행할 수 없는 데이터 흐름 자동화를 만들 수 있습니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>[!DNL Marketo] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">[!DNL Marketo]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL URL]</td> 
+   <td><code>https://{your-base-url}.mktorest.com/</code>과(와) 관련된 경로를 입력하십시오.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 메서드]</td> 
+   <td> <p>API 호출을 구성하는 데 필요한 HTTP 요청 메서드를 선택합니다. 자세한 내용은 [!DNL Adobe Workfront Fusion]</a>에서 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">HTTP 요청 메서드를 참조하십시오.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Headers]</td> 
+   <td> <p>표준 JSON 개체 형태로 요청의 헤더를 추가합니다.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>[!UICONTROL Workfront Fusion]이 사용자에게 권한 부여 헤더를 추가합니다.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 쿼리 문자열]</td> 
+   <td> <p>표준 JSON 개체 형식으로 API 호출에 대한 쿼리를 추가합니다.</p> <p>For example: <code>{"name":"something-urgent"}</code></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Body]</td> 
+   <td> <p>표준 JSON 개체의 형태로 API 호출에 대한 본문 콘텐츠를 추가합니다.</p> <p>참고:  <p>JSON에서 <code>if</code>과(와) 같은 조건문을 사용할 때 따옴표를 조건문 외부에 넣으십시오.</p> 
+     <div class="example" data-mc-autonum="<b>Example: </b>"> 
+      <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
+     </div> </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 제한]</td> 
+   <td> <p>각 시나리오 실행 주기 동안 모듈이 사용할 최대 레코드 수를 입력하거나 매핑합니다.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL 파일 다운로드]
+
+이 작업 모듈은 파일 ID를 사용하여 파일을 다운로드합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>[!DNL Marketo] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">[!DNL Marketo]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 파일 ID]</td> 
+   <td>다운로드할 파일의 ID를 매핑합니다.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL 레코드 읽기]
+
+이 작업 모듈은 해당 ID를 사용하여 레코드에 대한 정보를 읽습니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>[!DNL Marketo] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">[!DNL Marketo]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 레코드 유형]</td> 
+   <td> <p>만들려는 레코드 유형을 선택합니다.</p> 
+    <ul> 
+     <li> <p>[!UICONTROL Campaign]</p> </li> 
+     <li> <p>[!UICONTROL Company]</p> </li> 
+     <li> <p>[!UICONTROL 리드]</p> </li> 
+     <li> <p>[!UICONTROL 목록]</p> </li> 
+     <li> <p>[!UICONTROL 프로그램]</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 출력]</td> 
+   <td>이 모듈에 대한 출력 번들에 포함할 정보를 선택합니다. 필드는 선택한 [!UICONTROL 레코드 종류]에 따라 사용할 수 있습니다.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL &lt;개체&gt; ID]</td> 
+   <td>정보를 검색할 개체의 ID를 입력하거나 매핑합니다.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL 목록에서 리드 제거]
+
+이 작업 모듈은 리드 ID를 사용하여 목록에서 하나 이상의 리드를 제거합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>[!DNL Marketo] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">[!DNL Marketo]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 목록 ID]</td> 
+   <td>리드를 제거할 목록의 ID를 입력하거나 매핑합니다.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 리드 ID]</td> 
+   <td> <p>목록에서 제거할 각 리드에 대해 <b>[!UICONTROL 추가]</b>를 클릭한 다음 제거할 리드의 ID를 입력하거나 매핑하십시오. 목록에서 제거할 모듈에 대해 최대 300개의 리드를 추가할 수 있습니다. </p> <p>맵 토글을 클릭하여 목록에서 제거할 기존 리드 컬렉션을 매핑합니다.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL 캠페인 예약]
+
+이 작업 모듈은 특정 날짜에 대한 기존 캠페인을 예약합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>[!DNL Marketo] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">[!DNL Marketo]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 캠페인 ID]</td> 
+   <td>예약하려는 캠페인의 ID를 입력하거나 매핑합니다.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Schedule for Date]</p> </td> 
+   <td>캠페인을 실행할 날짜를 선택합니다. 이 필드를 비워 두면 시나리오가 시작된 후 5분 후에 캠페인이 실행됩니다.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
 #### [!UICONTROL 레코드 업데이트]
 
 이 작업 모듈은 해당 ID를 사용하여 기존 레코드를 업데이트합니다.
@@ -316,25 +465,6 @@ Marketo 커넥터에 대한 비디오 소개는 다음을 참조하십시오.
  </tbody> 
 </table>
 
-#### [!UICONTROL 파일 다운로드]
-
-이 작업 모듈은 파일 ID를 사용하여 파일을 다운로드합니다.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>[!DNL Marketo] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">[!DNL Marketo]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 파일 ID]</td> 
-   <td>다운로드할 파일의 ID를 매핑합니다.</td> 
-  </tr> 
- </tbody> 
-</table>
-
 #### [!UICONTROL 파일 업로드]
 
 이 작업 모듈은 새 파일을 [!UICONTROL Marketo]에 업로드합니다.
@@ -358,136 +488,6 @@ Marketo 커넥터에 대한 비디오 소개는 다음을 참조하십시오.
   <tr> 
    <td role="rowheader">[!UICONTROL 설명]</td> 
    <td>업로드한 파일에 대한 설명을 입력합니다.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL 레코드 읽기]
-
-이 작업 모듈은 해당 ID를 사용하여 레코드에 대한 정보를 읽습니다.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>[!DNL Marketo] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">[!DNL Marketo]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 레코드 유형]</td> 
-   <td> <p>만들려는 레코드 유형을 선택합니다.</p> 
-    <ul> 
-     <li> <p>[!UICONTROL Campaign]</p> </li> 
-     <li> <p>[!UICONTROL Company]</p> </li> 
-     <li> <p>[!UICONTROL 리드]</p> </li> 
-     <li> <p>[!UICONTROL 목록]</p> </li> 
-     <li> <p>[!UICONTROL 프로그램]</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 출력]</td> 
-   <td>이 모듈에 대한 출력 번들에 포함할 정보를 선택합니다. 필드는 선택한 [!UICONTROL 레코드 종류]에 따라 사용할 수 있습니다.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL &lt;개체&gt; ID]</td> 
-   <td>정보를 검색할 개체의 ID를 입력하거나 매핑합니다.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL 목록에 리드 추가]
-
-이 작업 모듈은 리드 ID를 사용하여 하나 이상의 리드를 목록에 추가합니다.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>[!DNL Marketo] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">[!DNL Marketo]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 목록 ID]</td> 
-   <td>리드를 추가할 목록의 ID를 입력하거나 매핑합니다.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 리드 ID]</td> 
-   <td> <p>목록에 추가할 각 리드에 대해 <b>[!UICONTROL 추가]</b>를 클릭한 다음 추가할 리드의 ID를 입력하거나 매핑합니다. 목록에 추가할 모듈에 대해 최대 300개의 리드를 추가할 수 있습니다.</p> <p>맵 토글을 클릭하여 목록에 추가하려는 기존 리드 컬렉션을 매핑합니다.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL 목록에서 리드 제거]
-
-이 작업 모듈은 리드 ID를 사용하여 목록에서 하나 이상의 리드를 제거합니다.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>[!DNL Marketo] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">[!DNL Marketo]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 목록 ID]</td> 
-   <td>리드를 제거할 목록의 ID를 입력하거나 매핑합니다.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 리드 ID]</td> 
-   <td> <p>목록에서 제거할 각 리드에 대해 <b>[!UICONTROL 추가]</b>를 클릭한 다음 제거할 리드의 ID를 입력하거나 매핑하십시오. 목록에서 제거할 모듈에 대해 최대 300개의 리드를 추가할 수 있습니다. </p> <p>맵 토글을 클릭하여 목록에서 제거할 기존 리드 컬렉션을 매핑합니다.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL 캠페인 예약]
-
-이 작업 모듈은 특정 날짜에 대한 기존 캠페인을 예약합니다.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>[!DNL Marketo] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">[!DNL Marketo]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 캠페인 ID]</td> 
-   <td>예약하려는 캠페인의 ID를 입력하거나 매핑합니다.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Schedule for Date]</p> </td> 
-   <td>캠페인을 실행할 날짜를 선택합니다. 이 필드를 비워 두면 시나리오가 시작된 후 5분 후에 캠페인이 실행됩니다.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL 프로그램 복사]
-
-이 작업 모듈은 기존 프로그램의 ID를 사용하여 프로그램의 복사본을 만듭니다.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>[!DNL Marketo] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">[!DNL Marketo]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 기존 프로그램 ID]</td> 
-   <td>복사할 프로그램의 ID를 입력하거나 매핑합니다.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 새 프로그램 이름]</p> </td> 
-   <td> <p>새 프로그램의 이름 입력 또는 매핑</p> <p> </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 폴더 ID]</td> 
-   <td>새 프로그램을 배치할 폴더의 ID를 입력하거나 매핑합니다.</td> 
   </tr> 
  </tbody> 
 </table>

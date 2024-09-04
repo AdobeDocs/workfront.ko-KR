@@ -9,9 +9,9 @@ description: ' [!DNL Adobe Workfront Fusion] 시나리오에서는 SharePoint을
 author: Becky
 feature: Workfront Fusion
 exl-id: 16d49031-06d2-4c86-bac4-f58cd9b2f1f5
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: ed7ea1d3409c39caea5fe8b107b7b2907dc87d76
 workflow-type: tm+mt
-source-wordcount: '2850'
+source-wordcount: '2859'
 ht-degree: 0%
 
 ---
@@ -651,6 +651,10 @@ ht-degree: 0%
 </table>
 
 ### 기타
+
+* [변경 사항 가져오기](#get-changes)
+* [API 호출 만들기](#make-an-api-call)
+* [이벤트 보기](#watch-events)
 
 #### 변경 사항 가져오기
 

@@ -5,7 +5,7 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e0a5736b-dbdb-43c6-83ff-e88a5625a5bf
-source-git-commit: ba161761acfc57e271f8593f534a5f7510187559
+source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
 workflow-type: tm+mt
 source-wordcount: '3719'
 ht-degree: 0%
@@ -150,8 +150,6 @@ OAuth 서버 간 연결을 만들려면 Adobe 개발자 콘솔에서 Adobe PDF �
 
 ![](assets/map-toggle-350x74.png)
 
-* [[!UICONTROL 문서 생성]](#generate-document)
-* [[!UICONTROL 텍스트/표 추출]](#extract-text--table)
 * [[!UICONTROL PDF 파일 결합]](#combine-pdf-files)
 * [[!UICONTROL PDF 파일 압축]](#compress-pdf-files)
 * [[!UICONTROL 문서를 PDF 파일로 변환]](#convert-document-to-pdf-file)
@@ -159,6 +157,8 @@ OAuth 서버 간 연결을 만들려면 Adobe 개발자 콘솔에서 Adobe PDF �
 * [[!UICONTROL 이미지를 PDF 파일로 변환]](#convert-image-to-pdf-file)
 * [[!UICONTROL PDF을 문서로 변환]](#convert-pdf-to-document)
 * [[!UICONTROL PDF을 이미지로 변환]](#convert-pdf-to-image)
+* [[!UICONTROL 텍스트/표 추출]](#extract-text--table)
+* [[!UICONTROL 문서 생성]](#generate-document)
 * [[!UICONTROL PDF 파일 선형화]](#linearize-a-pdf-file)
 * [[!UICONTROL PDF 파일에 대한 OCR]](#ocr-for-pdf-file)
 * [[!UICONTROL 페이지 조작]](#page-manipulation)
@@ -167,127 +167,6 @@ OAuth 서버 간 연결을 만들려면 Adobe 개발자 콘솔에서 Adobe PDF �
 * [[!UICONTROL Protect PDF 파일]](#protect-pdf-file)
 * [[!UICONTROL PDF 파일 보호 제거]](#remove-protection-of-a-pdf-file)
 * [PDF 파일 분할](#split-a-pdf-file)
-
-### [!UICONTROL 문서 생성]
-
-[!UICONTROL 문서 생성] 모듈은 선택한 데이터가 포함된 PDF을 만드는 강력한 방법입니다. [!DNL Microsoft Word] 템플릿을 사용하거나 JSON 형식의 데이터를 제공하여 형식을 지정할 수 있습니다.
-
-[!UICONTROL [!DNL Adobe PDF Services] 문서 생성] 기능에 대한 자세한 내용은 [!DNL Adobe Document Services] 설명서의 [문서 생성 개요](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html)를 참조하십시오.
-
-* [ [!DNL Microsoft Word] 템플릿](#use-the-generate-document-module-with-a-microsoft-word-template)을(를) 사용하여 [!UICONTROL 문서 생성] 모듈 사용
-* [JSON이 있는 [!UICONTROL 문서 생성] 모듈 사용](#use-the-generate-document-module-with-json)
-
-#### [!DNL Microsoft Word] 템플릿으로 [!UICONTROL 문서 생성] 모듈 사용
-
-<!--
->[!NOTE]
->
->For a discussion of Microsoft Word templates, see [Microsoft Word Template modules](../../workfront-fusion/apps-and-their-modules/microsoft-word-templates-modules.md). 
->
->You do not need to use Microsoft Word template modules to use a Microsoft Word template with the PDF Services Generate document module.
--->
-
-[!UICONTROL Microsoft Word] 템플릿으로 [!UICONTROL 문서 생성] 모듈을 사용하려면 먼저 템플릿을 만들어야 합니다. 지침은 [!DNL Microsoft Office] 설명서에서 &quot;템플릿 만들기&quot;를 검색하십시오.
-
-다음과 같이 [!UICONTROL 문서 생성] 모듈 필드를 채웁니다.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> [!DNL Adobe PDF Services]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >[!DNL Adobe PDF Services]</a>에 대한 연결 만들기 를 참조하십시오. </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Source 파일]</td> 
-   <td> <p>이전 모듈에서 소스 파일을 선택하거나 소스 파일의 이름과 데이터를 매핑합니다.</p> <p>이 원본 파일은 모듈이 새 PDF을 생성하는 데 사용하는 [!DNL Microsoft Word ] 템플릿입니다.</p> <p>[!DNL Workfront Fusion]에서 사용하는 [!DNL Microsoft Word] 템플릿에 대해 [!DNL Workfront]에서 프로젝트를 만드는 것이 좋습니다. 그런 다음 [!DNL Workfront] &gt; [!UICONTROL 문서 다운로드] 모듈을 사용하여 적절한 템플릿을 시나리오로 가져올 수 있습니다.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 출력 형식]</td> 
-   <td> <p>생성된 문서의 형식을 선택합니다.</p> 
-    <ul> 
-     <li> <p>PDF</p> </li> 
-     <li> <p>DOCX</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Data for merge]</td> 
-   <td> <p>텍스트로 바꿀 템플릿의 각 값 태그에 대해 다음을 입력합니다.</p> 
-    <ul> 
-     <li> <p>[!UICONTROL 키]</p> <p>키를 입력합니다. 템플릿에서 키는 값 태그에 표시되는 텍스트입니다. 예를 들어 값 태그 <code>&#123;&#123;name&#125;&#125;</code>에 텍스트를 삽입하려면 키 필드에 <code>name </code>을(를) 입력합니다.</p> </li> 
-     <li> <p>값 유형</p> <p>값 필드의 데이터가 값, 개체 또는 개체 배열인지 선택합니다.</p> </li> 
-     <li> <p>[!UICONTROL 값]</p> <p>값 태그 대신 생성된 문서에 표시할 텍스트를 입력하거나 매핑합니다.</p> </li> 
-    </ul> <p> <img src="assets/generate-with-template-350x241.png" style="width: 350;height: 241;"> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### JSON이 있는 [!UICONTROL 문서 생성] 모듈 사용
-
-JSON이 있는 [!UICONTROL 문서 생성] 모듈을 사용하려면 다음과 같이 필드를 채우십시오.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> [!DNL Adobe PDF Services]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >[!DNL Adobe PDF Services]</a>에 대한 연결 만들기 를 참조하십시오. </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Source 파일]</td> 
-   <td> <p>이전 모듈에서 소스 파일을 선택하거나 소스 파일의 이름과 데이터를 매핑합니다.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 출력 형식]</td> 
-   <td> <p>생성된 문서의 형식을 선택합니다.</p> 
-    <ul> 
-     <li> <p>PDF</p> </li> 
-     <li> <p>DOCX</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Data for merge]</td> 
-   <td> <p>이 모듈에서 JSON을 사용하려면 이 필드에서 매핑을 활성화해야 합니다.</p> <p>JSON을 입력하거나 매핑하여 문서를 생성합니다. </p> <p>이 필드에 JSON을 직접 입력하거나 JSON 모듈의 JSON 출력을 매핑할 수 있습니다.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### [!UICONTROL 텍스트/표 추출]
-
-이 작업 모듈에서는 PDF 파일에서 데이터를 추출할 수 있습니다. 모듈은 단락 또는 표의 단일 셀에 있는 텍스트와 같은 개별 텍스트 요소를 출력합니다.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> [!DNL Adobe PDF Services]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >[!DNL Adobe PDF Services]</a>에 대한 연결 만들기 를 참조하십시오. </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Source 파일]</td> 
-   <td>이전 모듈에서 소스 파일을 선택하거나 소스 파일의 이름과 데이터를 매핑합니다.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">JSON으로 추출해야 하는 [!UICONTROL 요소]</td> 
-   <td> 
-    <ul> 
-     <li> <p>[!UICONTROL Text]</p> </li> 
-     <li> <p>[!UICONTROL 테이블]</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 추출 테두리 상자?]</td> 
-   <td>텍스트의 테두리 상자에 대한 데이터를 추출하려면 이 옵션을 활성화합니다.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 출력에 대한 스타일 정보를 포함하시겠습니까?]</td> 
-   <td>이 옵션을 활성화하여 출력 JSON에 스타일 정보를 추가합니다.</td> 
-  </tr> 
- </tbody> 
-</table>
 
 ### [!UICONTROL PDF 파일 결합]
 
@@ -545,6 +424,127 @@ JSON이 있는 [!UICONTROL 문서 생성] 모듈을 사용하려면 다음과 �
      <li>PNG</li> 
      <li>JPEG</li> 
     </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### [!UICONTROL 텍스트/표 추출]
+
+이 작업 모듈에서는 PDF 파일에서 데이터를 추출할 수 있습니다. 모듈은 단락 또는 표의 단일 셀에 있는 텍스트와 같은 개별 텍스트 요소를 출력합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> [!DNL Adobe PDF Services]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >[!DNL Adobe PDF Services]</a>에 대한 연결 만들기 를 참조하십시오. </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Source 파일]</td> 
+   <td>이전 모듈에서 소스 파일을 선택하거나 소스 파일의 이름과 데이터를 매핑합니다.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">JSON으로 추출해야 하는 [!UICONTROL 요소]</td> 
+   <td> 
+    <ul> 
+     <li> <p>[!UICONTROL Text]</p> </li> 
+     <li> <p>[!UICONTROL 테이블]</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 추출 테두리 상자?]</td> 
+   <td>텍스트의 테두리 상자에 대한 데이터를 추출하려면 이 옵션을 활성화합니다.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 출력에 대한 스타일 정보를 포함하시겠습니까?]</td> 
+   <td>이 옵션을 활성화하여 출력 JSON에 스타일 정보를 추가합니다.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### [!UICONTROL 문서 생성]
+
+[!UICONTROL 문서 생성] 모듈은 선택한 데이터가 포함된 PDF을 만드는 강력한 방법입니다. [!DNL Microsoft Word] 템플릿을 사용하거나 JSON 형식의 데이터를 제공하여 형식을 지정할 수 있습니다.
+
+[!UICONTROL [!DNL Adobe PDF Services] 문서 생성] 기능에 대한 자세한 내용은 [!DNL Adobe Document Services] 설명서의 [문서 생성 개요](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html)를 참조하십시오.
+
+* [ [!DNL Microsoft Word] 템플릿](#use-the-generate-document-module-with-a-microsoft-word-template)을(를) 사용하여 [!UICONTROL 문서 생성] 모듈 사용
+* [JSON이 있는 [!UICONTROL 문서 생성] 모듈 사용](#use-the-generate-document-module-with-json)
+
+#### [!DNL Microsoft Word] 템플릿으로 [!UICONTROL 문서 생성] 모듈 사용
+
+<!--
+>[!NOTE]
+>
+>For a discussion of Microsoft Word templates, see [Microsoft Word Template modules](../../workfront-fusion/apps-and-their-modules/microsoft-word-templates-modules.md). 
+>
+>You do not need to use Microsoft Word template modules to use a Microsoft Word template with the PDF Services Generate document module.
+-->
+
+[!UICONTROL Microsoft Word] 템플릿으로 [!UICONTROL 문서 생성] 모듈을 사용하려면 먼저 템플릿을 만들어야 합니다. 지침은 [!DNL Microsoft Office] 설명서에서 &quot;템플릿 만들기&quot;를 검색하십시오.
+
+다음과 같이 [!UICONTROL 문서 생성] 모듈 필드를 채웁니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> [!DNL Adobe PDF Services]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >[!DNL Adobe PDF Services]</a>에 대한 연결 만들기 를 참조하십시오. </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Source 파일]</td> 
+   <td> <p>이전 모듈에서 소스 파일을 선택하거나 소스 파일의 이름과 데이터를 매핑합니다.</p> <p>이 원본 파일은 모듈이 새 PDF을 생성하는 데 사용하는 [!DNL Microsoft Word ] 템플릿입니다.</p> <p>[!DNL Workfront Fusion]에서 사용하는 [!DNL Microsoft Word] 템플릿에 대해 [!DNL Workfront]에서 프로젝트를 만드는 것이 좋습니다. 그런 다음 [!DNL Workfront] &gt; [!UICONTROL 문서 다운로드] 모듈을 사용하여 적절한 템플릿을 시나리오로 가져올 수 있습니다.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 출력 형식]</td> 
+   <td> <p>생성된 문서의 형식을 선택합니다.</p> 
+    <ul> 
+     <li> <p>PDF</p> </li> 
+     <li> <p>DOCX</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Data for merge]</td> 
+   <td> <p>텍스트로 바꿀 템플릿의 각 값 태그에 대해 다음을 입력합니다.</p> 
+    <ul> 
+     <li> <p>[!UICONTROL 키]</p> <p>키를 입력합니다. 템플릿에서 키는 값 태그에 표시되는 텍스트입니다. 예를 들어 값 태그 <code>&#123;&#123;name&#125;&#125;</code>에 텍스트를 삽입하려면 키 필드에 <code>name </code>을(를) 입력합니다.</p> </li> 
+     <li> <p>값 유형</p> <p>값 필드의 데이터가 값, 개체 또는 개체 배열인지 선택합니다.</p> </li> 
+     <li> <p>[!UICONTROL 값]</p> <p>값 태그 대신 생성된 문서에 표시할 텍스트를 입력하거나 매핑합니다.</p> </li> 
+    </ul> <p> <img src="assets/generate-with-template-350x241.png" style="width: 350;height: 241;"> </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### JSON이 있는 [!UICONTROL 문서 생성] 모듈 사용
+
+JSON이 있는 [!UICONTROL 문서 생성] 모듈을 사용하려면 다음과 같이 필드를 채우십시오.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>이 모듈에 사용할 연결을 선택하십시오.</p> [!DNL Adobe PDF Services]에 대한 연결을 만드는 방법에 대한 지침은 이 문서에서 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >[!DNL Adobe PDF Services]</a>에 대한 연결 만들기 를 참조하십시오. </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Source 파일]</td> 
+   <td> <p>이전 모듈에서 소스 파일을 선택하거나 소스 파일의 이름과 데이터를 매핑합니다.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 출력 형식]</td> 
+   <td> <p>생성된 문서의 형식을 선택합니다.</p> 
+    <ul> 
+     <li> <p>PDF</p> </li> 
+     <li> <p>DOCX</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Data for merge]</td> 
+   <td> <p>이 모듈에서 JSON을 사용하려면 이 필드에서 매핑을 활성화해야 합니다.</p> <p>JSON을 입력하거나 매핑하여 문서를 생성합니다. </p> <p>이 필드에 JSON을 직접 입력하거나 JSON 모듈의 JSON 출력을 매핑할 수 있습니다.</p> </td> 
   </tr> 
  </tbody> 
 </table>

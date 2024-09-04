@@ -9,7 +9,7 @@ description: ' [!DNL Adobe Workfront Fusion] 시나리오에서는  [!DNL Workfr
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
-source-git-commit: 614fd206ea2c5fe103beb5be8f5ff99c8a45a502
+source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
 workflow-type: tm+mt
 source-wordcount: '3099'
 ht-degree: 0%
@@ -637,8 +637,31 @@ ht-degree: 0%
 
 ### 검색 결과
 
-* [[!UICONTROL 검색]](#search)
 * [[!UICONTROL 워크플로 템플릿 나열]](#list-workflow-templates)
+* [[!UICONTROL 검색]](#search)
+
+#### [!UICONTROL 워크플로 템플릿 나열]
+
+이 검색 모듈에는 사용 가능한 모든 워크플로우 템플릿이 나열됩니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!DNL Connection]</td> 
+   <td> <p>[!DNL Workfront Proof] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL 출력]</td> 
+   <td> <p>이 모듈에 대한 출력 번들에 포함할 정보를 선택합니다.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL 제한]</td> 
+   <td> <p>각 시나리오 실행 주기 동안 모듈이 반환할 최대 템플릿 수를 입력하거나 매핑합니다.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 #### [!UICONTROL 검색]
 
@@ -677,29 +700,6 @@ ht-degree: 0%
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL 정렬 방향]</td> 
    <td> <p>결과를 오름차순으로 정렬할지 아니면 내림차순으로 정렬할지 선택합니다.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL 워크플로 템플릿 나열]
-
-이 검색 모듈에는 사용 가능한 모든 워크플로우 템플릿이 나열됩니다.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>[!DNL Connection]</td> 
-   <td> <p>[!DNL Workfront Proof] 계정을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]에 연결 만들기 - 기본 지침</a>을 참조하세요.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL 출력]</td> 
-   <td> <p>이 모듈에 대한 출력 번들에 포함할 정보를 선택합니다.</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 제한]</td> 
-   <td> <p>각 시나리오 실행 주기 동안 모듈이 반환할 최대 템플릿 수를 입력하거나 매핑합니다.</p> </td> 
   </tr> 
  </tbody> 
 </table>

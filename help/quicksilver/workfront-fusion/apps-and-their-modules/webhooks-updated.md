@@ -8,9 +8,9 @@ description: 웹후크는 이벤트에 의해 트리거되는 HTTP 호출입니�
 author: Becky
 feature: Workfront Fusion
 exl-id: 987544a4-5840-40d4-9438-41a000aa22ee
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1449'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ ht-degree: 0%
 
    이제 웹후크의 항목을 매핑 패널에서 시나리오의 후속 모듈과 함께 사용할 수 있습니다.
 
-## 대기열
+## Webhook 큐
 
 웹후크가 데이터를 받고 해당 데이터를 예상하는 활성 시나리오가 없는 경우 데이터가 큐에 저장됩니다. 시나리오를 활성화하면 큐에서 대기 중인 모든 번들을 순차적으로 처리합니다.
 
