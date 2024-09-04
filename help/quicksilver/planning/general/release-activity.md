@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
+source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
 workflow-type: tm+mt
-source-wordcount: '7462'
+source-wordcount: '7446'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
+><span class="preview">이 문서에서는 2024년 8월 28일에 일반 릴리스 이전에 2024년에 Workfront Planning 초기 단계에서 릴리스된 기능을 나열합니다.</span>
+>
 >이 문서의 정보는 Adobe Workfront의 새 서비스인 Adobe Workfront Planning을 참조합니다.
 >
 >Workfront Planning 기능에 액세스하고 사용하려면 Workfront 계획 외에 Workfront Planning 계획을 구매해야 합니다.
@@ -28,18 +30,16 @@ ht-degree: 0%
 >Workfront Planning에 대한 개요는 [Adobe Workfront Planning 개요](/help/quicksilver/planning/general/planning-overview.md)를 참조하십시오.
 >
 
-이 문서에서는 2024년 조기 액세스 기간 동안 Workfront Planning에 릴리스된 기능을 나열합니다.
-
-릴리스된 기능은 릴리스 순서대로 나열되며 가장 최근의 기능이 먼저 릴리스됩니다.
-
-Workfront Planning에 대해 릴리스된 추가 기능은 다음 문서를 참조하십시오.
+Workfront Planning 릴리스에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
 * 2023년 베타 릴리스 중에 릴리스된 기능에 대한 [2023년 Adobe Workfront Planning 릴리스 활동](/help/quicksilver/planning/general/release-activity-archives-2023.md).
 * [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)(2024년 8월 28일에 일반 사용 가능하게 된 이후 Workfront Planning에 현재 릴리스된 기능).
 
 ## Workfront Planning 릴리스 타임라인
 
-다음 표는 2023년의 Beta 가용성을 시작으로 Workfront Planning 릴리스의 타임라인을 보여 줍니다.
+<!-- this section is also duplicated in the 2023 release notes article-->
+
+다음 표는 Workfront Planning 릴리스의 타임라인을 보여 줍니다.
 
 | 시간 | 릴리스 |
 |--------------------|-----------------------------------------|

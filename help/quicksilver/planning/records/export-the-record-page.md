@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '437'
 ht-degree: 1%
 
 ---
@@ -15,11 +15,7 @@ ht-degree: 1%
 
 # 레코드의 세부 사항 내보내기
 
-Workfront 계정이 없을 수도 있는 다른 사용자와 더 효율적으로 공동 작업하려면 레코드의 세부 사항을 Word 문서로 내보내고 해당 문서와 공유할 수 있습니다.
-
-<!--replace the above with this, when we release export to PDF:
-
-To collaborate more efficiently with others that might not have a Workfront account, you can export a record's details to a file and share it with them.-->
+Workfront 계정이 없을 수도 있는 다른 사용자와 더 효율적으로 공동 작업하려면 레코드의 세부 사항을 파일로 내보내고 해당 사용자와 공유할 수 있습니다.
 
 ## 액세스 요구 사항
 
@@ -54,7 +50,7 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
    <td role="rowheader"><p>Adobe Workfront 계획 계획*</p></td> 
    <td> 
 <p>임의 </p> 
-<p>각 Workfront 계획 계획에 포함된 내용에 대한 자세한 내용은 <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront 가격 및 패키징</a>을 참조하십시오. </p> 
+<p>각 Workfront Planning 계획에 포함된 사항에 대한 자세한 내용은 Workfront 계정 관리자에게 문의하십시오. </p> 
    </td> 
  <tr> 
    <td role="rowheader"><p>Adobe Workfront 플랫폼</p></td> 
@@ -150,16 +146,12 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 
 ## 레코드 세부 정보 내보내기에 대한 고려 사항:
 
-* 레코드의 세부 사항을 Word 문서로 내보낼 수 있습니다.
+* 레코드의 세부 사항을 다음 파일 형식으로 내보낼 수 있습니다.
 
-<!--replace the first bullet with this, when it's possible:
+   * .docx Word
+   * .pdf
 
-* You can export a record's details to the following file formats:
-
-    * Word
-    * PDF -->
-
-* 레코드 페이지의 세부 정보 페이지를 내보낼 수 있습니다. 연결 탭은 내보낼 수 없습니다.
+* 레코드 페이지의 세부 정보 탭을 내보낼 수 있습니다. 연결 탭은 내보낼 수 없습니다.
 
 * 내보낸 파일은 축소판 및 표지 이미지를 포함하여 레코드 페이지의 레이아웃을 유지합니다.
 
@@ -182,10 +174,15 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 
 1. **세부 정보** 탭을 선택합니다. 기본적으로 세부 정보 탭이 열립니다.
 
-1. 미리 보기 또는 레코드 페이지에서 **내보내기** 아이콘 ![](assets/export-icon-in-record-details-page.png)을(를) 클릭합니다.
+1. 미리 보기 또는 레코드 페이지에서 **내보내기** 아이콘 ![](assets/export-icon-in-record-details-page.png)을(를) 클릭한 후 다음 중 하나를 클릭합니다.
 
-   Word 파일(.docx)이 다운로드되고 컴퓨터에 저장됩니다.
+   * **Microsoft Word**
+   * **Adobe PDF**
+
+   Word(.docx) 또는 PDf 파일이 다운로드되고 컴퓨터에 저장됩니다.
+
+   내보낸 파일의 이름은 레코드의 기본 필드입니다.
 
    ![](assets/exported-word-file.png)
 
-1. (선택 사항) 다운로드한 파일로 이동하여 연 다음 편집하거나 다른 사용자와 공유합니다.
+1. (선택 사항) 다운로드한 파일로 이동하여 열고 편집하거나(Word 파일인 경우) 다른 사용자와 공유합니다.
