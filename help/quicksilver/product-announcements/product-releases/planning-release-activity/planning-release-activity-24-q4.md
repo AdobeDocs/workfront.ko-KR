@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: d4aa6bee72ac1f17884ae38d24bd094c0b62336a
+source-git-commit: 95726a46a0f18353cfee67b69cc94d39d85f111f
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -38,11 +38,23 @@ ht-degree: 0%
 
 2024년 8월 28일 일반 출시 이후 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록에 대해서는 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
 
+## PDF으로 레코드 세부 정보 내보내기
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2024년 9월 3일, 빠른 릴리스를 위한 프로덕션: 24.9 릴리스 포함(2024년 9월 12일), 분기별 릴리스의 프로덕션: 24.10 릴리스 포함(2024년 10월)
+
+이제 레코드의 세부 사항 페이지를 내보내거나 PDF 문서로 미리 볼 수 있습니다.
+
+이 기능이 향상되기 전에는 레코드의 세부 사항 탭을 Word(.docx) 파일로만 내보낼 수 있었습니다.
+
+자세한 내용은 [레코드 세부 정보 내보내기](/help/quicksilver/planning/records/export-the-record-page.md)를 참조하십시오.
+
 ## Adobe Workfront Planning 일반 공급
 
 >[!NOTE]
 >
->미리보기 및 프로덕션 릴리스: 2024년 8월 28일
+>미리보기 릴리스: 2024년 8월 28일, 모든 고객을 위한 프로덕션 릴리스: 2024년 8월 28일
 
 Adobe Workfront Planning은 Adobe Workfront의 새로운 제품입니다. Workfront Planning의 목적은 조직의 운영 세부 정보에 대한 포괄적인 가시성을 확보하고 작업 관리 수명 주기의 각 단계에서 중요한 비즈니스 질문에 답변하는 것입니다.
 

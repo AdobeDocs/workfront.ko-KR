@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 621e208a17a3a285dda0dc97cbe83638af2de1a5
+source-git-commit: 95726a46a0f18353cfee67b69cc94d39d85f111f
 workflow-type: tm+mt
-source-wordcount: '1361'
+source-wordcount: '1447'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,23 @@ ht-degree: 0%
                     <td>
                         <p><span class="bold">릴리스 날짜</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">이제 레이아웃 템플릿에서 "모두 선택" 옵션을 사용할 수 있습니다</a></p>
+                        [!BADGE In production ]{type=Informative}
+                        <p>레이아웃 템플릿으로 필드를 보다 쉽게 표시하거나 숨길 수 있도록 레이아웃 템플릿에서 세부 정보 보기의 개요 및 재무 영역에 "모두 선택" 확인란이 추가되었습니다. 이 옵션은 '사용자에게 표시되는 항목 사용자 지정' 아래에서 프로젝트, 작업, 문제, Portfolio 또는 프로그램을 선택한 경우에 사용할 수 있습니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2024년 8월 29일</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">모든 고객을 위한 프로덕션 릴리스: 2024년 8월 6일</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -117,6 +134,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Outlook 통합 로그인 환경 개선 사항</a></p>
+                        [!BADGE In production ]{type=Informative}
                         <p>Outlook 통합에 대한 로그인 경험이 간소화되어 모든 고객이 IMS를 사용하는지 여부에 관계없이 Workfront에 로그인하는 동일한 버튼을 볼 수 있습니다. 이후 로그인 단계는 IMS 및 비 IMS 인스턴스에 대해 다르게 유지되지만 초기 페이지는 모든 사용자에 대해 동일합니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
