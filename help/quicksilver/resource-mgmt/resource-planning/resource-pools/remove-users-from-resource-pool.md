@@ -6,7 +6,7 @@ description: 리소스 풀에 보유할 수 있는 사용자 수에는 제한이
 author: Lisa
 feature: Resource Management
 exl-id: b888aa95-8d42-4cc3-8a99-6842435c84d2
-source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 1%

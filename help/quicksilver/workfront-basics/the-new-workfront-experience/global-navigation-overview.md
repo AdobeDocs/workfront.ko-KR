@@ -5,9 +5,9 @@ description: ' [!DNL Adobe Workfront] 의 화면 맨 위에 표시되는 위쪽 
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 692f3be1d7d3c3099e822440872ebdf3af3e04d1
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,13 @@ Workfront 관리자는 레이아웃 템플릿을 만들어 사용자에게 할�
 
 자주 방문하는 페이지를 고정하여 위쪽 탐색 모음 내에 표시할 수 있습니다. 고정된 페이지에 대한 자세한 내용은 [페이지를 고정하여 작업 영역 사용자 지정](../../workfront-basics/the-new-workfront-experience/pin-pages.md)을 참조하세요.
 
-## [!UICONTROL 도움말] 메뉴
+<!--
+## [!UICONTROL Help] menu
 
-**[!UICONTROL 도움말]** 메뉴를 사용하면 특정 작업에 대한 도움말을 검색하거나 [!DNL Workfront] 사용에 대한 자세한 정보를 찾거나 현재 사용 중인 페이지와 관련된 콘텐츠를 보거나 사용 경험에 대한 피드백을 제출할 수 있습니다.
+The **[!UICONTROL Help]** menu allows you to search for help with a specific task, find more information on using [!DNL Workfront], view content related to the page you are currently on, or submit feedback about your experience.
 
-도움말 메뉴에 대한 자세한 내용은 [액세스 [!DNL Adobe Workfront] 도움말](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)을 참조하세요.
+To learn more about the Help menu, see [Access [!DNL Adobe Workfront] help](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
+-->
 
 ## [!UICONTROL 알림] 메뉴
 

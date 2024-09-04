@@ -4,10 +4,10 @@ product-area: resource-management
 navigation-topic: resource-planning
 title: 리소스 플래너 탐색 개요
 description: Adobe Workfront 리소스 플래너를 사용하면 리소스의 가용성과 더불어 프로젝트 작업을 완료하는 데 필요한 계획된 시간을 쉽게 이해할 수 있습니다. 그런 다음 할당된 프로젝트에서 사용자 및 사용자 작업 역할의 할당을 관리할 수 있습니다.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 5a1be723-e3ac-443a-9c09-85e8839fcbef
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
 source-wordcount: '2621'
 ht-degree: 1%

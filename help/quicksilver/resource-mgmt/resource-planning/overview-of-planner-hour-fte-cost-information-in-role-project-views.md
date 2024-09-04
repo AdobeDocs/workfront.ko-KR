@@ -4,10 +4,10 @@ product-area: resource-management
 navigation-topic: resource-planning
 title: 리소스 플래너의 프로젝트 및 역할 보기에서 시간, FTE 및 비용 정보 개요
 description: 리소스 플래너의 프로젝트 및 역할 보기에서 시간, FTE 및 비용 정보 개요
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
-source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
 source-wordcount: '2977'
 ht-degree: 0%

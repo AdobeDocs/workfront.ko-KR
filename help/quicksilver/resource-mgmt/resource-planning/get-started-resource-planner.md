@@ -4,10 +4,10 @@ product-area: resource-management
 navigation-topic: resource-planning
 title: 리소스 플래너 개요
 description: 리소스 플래너를 사용하여 배정된 프로젝트에 대한 리소스 할당을 예측하고 예산을 책정하며 향후 작업에 대한 가용성을 예측할 수 있습니다.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
-source-git-commit: 1c8d9a62f5582b0dbc3c72b5881bb5d8f0b790ba
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
 source-wordcount: '2075'
 ht-degree: 0%

@@ -6,7 +6,7 @@ description: 리소스 풀은 Adobe Workfront에서 리소스를 보다 쉽게 �
 author: Lisa
 feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
-source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 2%

@@ -3,12 +3,12 @@ product-area: resource-management
 navigation-topic: resource-planning
 title: 프로젝트 및 역할 보기를 사용하여 리소스 플래너의 예산 리소스
 description: 프로젝트 및 역할 보기를 사용하여 Adobe Workfront 리소스 플래너에서 리소스의 예산을 책정할 수 있습니다. 리소스 플래너의 사용자 보기를 사용하여 리소스 예산을 책정할 수 없습니다.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
-source-wordcount: '2165'
+source-wordcount: '2121'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,8 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -40,27 +42,31 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>Pro 이상</p> </td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
+    <td><p>새로 만들기: 모두</p>
+       <p>또는</p>
+       <p>현재: Pro 이상</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>플랜 </p> </td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td><p>새로운 기능: 표준</p>
+       <p>또는</p>
+       <p>현재: 플랜</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>리소스 플래너에서 우선순위 및 예산 시간 편집에 대한 액세스 권한이 포함된 리소스 관리에 대한 액세스 편집</p> <p>재무 데이터에 대한 액세스 권한을 편집하여 비용별 예산 리소스</p> <p>프로젝트 및 사용자에 대한 액세스 편집</p> <p><b>메모</b>
-
-여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td>
-</tr> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>리소스 플래너에서 우선순위 및 예산 시간 편집에 대한 액세스 권한이 포함된 리소스 관리에 대한 액세스 편집</p> <p>재무 데이터에 대한 액세스 권한을 편집하여 원가별 예산 리소스</p> <p>프로젝트 및 사용자에 대한 액세스 편집</p></td> 
+  </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>정보의 예산을 책정할 프로젝트에 대한 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
+   <td> <p>정보의 예산을 책정할 프로젝트에 대한 권한 관리</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 리소스 플래너의 예산 리소스
 
@@ -74,9 +80,8 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this section is linked to the Budgeting Project Resources in the Business Case article)</p>
 -->
 
-1. Adobe Workfront 오른쪽 상단의 **주 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭합니다.
+{{step1-to-resourcing}}
 
-1. **리소스 조달**&#x200B;을 클릭합니다.
 1. **Planner**&#x200B;이(가) 기본적으로 표시됩니다.
 1. (조건부) **프로젝트별 보기** 보기를 선택합니다.
 1. 프로젝트 및 작업 역할을 확장하여 프로젝트, 작업 역할 또는 사용자에 대한 할당을 관리합니다.
@@ -87,9 +92,7 @@ ht-degree: 0%
    * 사용자의 작업 역할에 대한 **자세히** 메뉴를 클릭한 다음 **사용자 계획 시간을 예산에 맞게 설정**&#x200B;을 클릭합니다.\
      각 사용자의 예산 시간은 다음 공식을 사용하여 계산됩니다.
 
-     ```
-     User Budgeted Hours = User Planned Hours
-     ```
+     `User Budgeted Hours = User Planned Hours`
 
 1. 작업 역할에 대한 할당 예산을 책정하려면 다음 중 하나를 수행합니다.
 
@@ -102,17 +105,13 @@ ht-degree: 0%
    * (조건부) 사용자에 대한 예산 시간이 있는 경우 작업 역할에 대해 **자세히** 메뉴를 클릭한 다음 **역할에 대한 총 사용자 예산 시간**&#x200B;을 클릭합니다.\
      각 역할에 대한 예산 시간은 다음 공식을 사용하여 계산됩니다.
 
-     ```
-     Role Budgeted Hours = SUM(User Budgeted Hours)
-     ```
+     `Role Budgeted Hours = SUM(User Budgeted Hours)`
 
    * 프로젝트에 대한 **자세히** 메뉴를 클릭한 다음 **예산에 따라 역할 계획된 시간 설정**&#x200B;을 클릭합니다.\
      각 역할에 대한 예산 시간은 다음 공식을 사용하여 계산됩니다.\
      *
 
-     ```
-     Role Budgeted Hours = Role Planned Hours
-     ```
+     `Role Budgeted Hours = Role Planned Hours`
 
      >[!NOTE]
      >   
@@ -132,9 +131,7 @@ ht-degree: 0%
    * 7단계에 설명된 대로 프로젝트 아래 역할의 예산을 책정합니다.\
      프로젝트 예산 시간은 다음 공식에 의해 계산됩니다.
 
-     ```
-     Project Budgeted Hours = SUM(Role Budgeted Hours)
-     ```
+     `Project Budgeted Hours = SUM(Role Budgeted Hours)`
 
    * **BDG** 열에서 프로젝트에 대한 예산 시간, FTE 또는 비용을 수동으로 지정하십시오.\
      이렇게 하면 7단계에 설명된 대로 역할 예산 시간이 업데이트됩니다.\
@@ -175,9 +172,7 @@ ht-degree: 0%
    * 프로젝트에 대한 **자세히** 메뉴를 클릭한 다음 **사용자 계획 시간을 예산에 맞게 설정**&#x200B;을 클릭합니다.\
      각 사용자의 예산 시간은 다음 공식을 사용하여 계산됩니다.
 
-     ```
-     User Budgeted Hours = User Planned Hours
-     ```
+     `User Budgeted Hours = User Planned Hours`
 
 1. 작업 역할에 대한 할당 예산을 책정하려면 다음 중 하나를 수행합니다.
 
@@ -187,15 +182,11 @@ ht-degree: 0%
    * 작업 역할에 대한 **자세히** 메뉴를 클릭한 다음 **예산에 따른 프로젝트 계획 시간 설정]을 클릭합니다.**역할 예산 시간은 다음 공식을 사용하여 계산됩니다.\
      *
 
-     ```
-     Role Budgeted Hours = SUM(Project Budgeted Hours)
-     ```
+     `Role Budgeted Hours = SUM(Project Budgeted Hours)`
 
      *프로젝트 예산 시간은 다음 공식을 사용하여 계산됩니다.
 
-     ```
-     Project Budgeted Hours = Project Planned Hours
-     ```
+     `Project Budgeted Hours = Project Planned Hours`
 
    * **BDG** 열에서 작업 역할에 나열된 프로젝트의 예산 시간, FTE 또는 비용을 수동으로 지정하십시오.\
      이렇게 하면 역할에 프로젝트 예산 시간 수가 추가됩니다.
@@ -213,24 +204,20 @@ ht-degree: 0%
    * 작업 역할에 대한 **자세히** 메뉴를 클릭한 다음 **예산에 따라 프로젝트 계획된 시간 설정**&#x200B;을 클릭합니다.\
      프로젝트 예산 시간은 다음 공식에 의해 계산됩니다.
 
-     ```
-     Project Budgeted Hours = Project Planned Hours
-     ```
+     `Project Budgeted Hours = Project Planned Hours`
 
      프로젝트 예산 시간이 역할 예산 시간에 추가됩니다.
 
    * (조건부) 사용자의 예산 시간을 책정했다면 프로젝트에 대해 **기타** 메뉴를 클릭한 다음 **프로젝트의 총 사용자 예산 시간**&#x200B;을 클릭합니다.\
      프로젝트 예산 시간은 다음 공식을 사용하여 계산됩니다.
 
-     ```
-     Project Budgeted Hours = SUM(User Budgeted Hours)
-     ```
+     `Project Budgeted Hours = SUM(User Budgeted Hours)`
 
      ![budget_by_role.png](assets/budget-by-role-350x181.png)
 
 1. **저장**&#x200B;을 클릭합니다.\
-   리소스 플래너에서 리소스의 예산을 책정한 후 리소스 및 이와 연관된 비용에 대한 예산 시간이 모든 프로젝트의 비즈니스 사례에 나열됩니다.\
-   비즈니스 사례의 리소스 예산 책정 영역을 이해하는 방법에 대한 자세한 내용은 문서 [비즈니스 사례의 리소스 예산](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)을 참조하세요.
+   리소스 플래너에서 리소스의 예산을 책정한 후 리소스 및 이와 연관된 비용에 대한 예산 시간이 모든 프로젝트의 비즈니스 사례에 나열됩니다.
+비즈니스 사례의 리소스 예산 책정 영역을 이해하는 방법에 대한 자세한 내용은 문서 [비즈니스 사례의 리소스 예산](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)을 참조하세요.
 
 1. (선택 사항) **사용자별 보기** 보기를 선택하여 각 사용자의 사용 가능 시간과 계획된 시간 사이에 초과 할당 또는 미달 활용률을 확인합니다. 예산 시간은 사용자별 조회 보기에 표시되지 않습니다.
 

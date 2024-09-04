@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
-source-wordcount: '14363'
+source-wordcount: '14362'
 ht-degree: 2%
 
 ---
@@ -693,7 +693,7 @@ ht-degree: 2%
          * [새 사용자에게 전자 메일 초대](administration-and-setup/manage-workfront/emails/manage-email-invitations.md)
       * 보안 {#security}
          * [보안](administration-and-setup/manage-workfront/security/security.md)
-         * [시스템 환경 설정 구성하기](administration-and-setup/manage-workfront/security/configure-security-preferences.md)
+         * [시스템 환경 설정 구성](administration-and-setup/manage-workfront/security/configure-security-preferences.md)
          * [인증 암호](administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md)
          * [SSO(Single Sign-On) 옵션 제거](administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
          * [SAML 2.0 메타데이터 인증서 갱신](administration-and-setup/manage-workfront/security/renew-wf-saml-2-certificate.md)
@@ -1756,7 +1756,7 @@ ht-degree: 2%
          * [사용자와 리소스 풀 연결](resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)
          * [리소스 풀에서 사용자 제거](resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md)
       * [리소스 계획 시작](resource-mgmt/resource-planning/get-started-resource-planning.md)
-      * [Adobe Workfront에서 리소스 예산을 책정하는 데 필요한 액세스 권한](resource-mgmt/resource-planning/access-needed-to-budget-resources.md)
+      * [Workfront에서 리소스 예산을 책정하는 데 필요한 액세스 권한](resource-mgmt/resource-planning/access-needed-to-budget-resources.md)
       * [리소스 플래너 개요](resource-mgmt/resource-planning/get-started-resource-planner.md)
       * [리소스 플래너 찾기](resource-mgmt/resource-planning/locate-resource-planner.md)
       * [리소스 플래너 탐색 개요](resource-mgmt/resource-planning/resource-planner-navigation.md)
