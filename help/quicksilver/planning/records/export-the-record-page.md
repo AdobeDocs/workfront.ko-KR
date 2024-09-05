@@ -5,15 +5,17 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
+source-git-commit: 3823afdc14aaf5646d8edc60f5ad633e48336af7
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '499'
 ht-degree: 1%
 
 ---
 
-
 # 레코드의 세부 사항 내보내기
+
+<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
 
 Workfront 계정이 없을 수도 있는 다른 사용자와 더 효율적으로 공동 작업하려면 레코드의 세부 사항을 파일로 내보내고 해당 사용자와 공유할 수 있습니다.
 
@@ -149,7 +151,7 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 * 레코드의 세부 사항을 다음 파일 형식으로 내보낼 수 있습니다.
 
    * .docx Word
-   * .pdf
+   * <span class="preview">.pdf</span>
 
 * 레코드 페이지의 세부 정보 탭을 내보낼 수 있습니다. 연결 탭은 내보낼 수 없습니다.
 
@@ -177,12 +179,18 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 1. 미리 보기 또는 레코드 페이지에서 **내보내기** 아이콘 ![](assets/export-icon-in-record-details-page.png)을(를) 클릭한 후 다음 중 하나를 클릭합니다.
 
    * **Microsoft Word**
-   * **Adobe PDF**
+   * <span class="preview">**Adobe PDF**</span>
 
-   Word(.docx) 또는 PDf 파일이 다운로드되고 컴퓨터에 저장됩니다.
+   Word(.docx) <span class="preview">또는 PDF</span> 파일이 다운로드되고 컴퓨터에 저장됩니다.
 
    내보낸 파일의 이름은 레코드의 기본 필드입니다.
 
    ![](assets/exported-word-file.png)
 
+   >[!NOTE]
+   >
+   >    페이지에 표시되지 않고 세부 정보 탭에서 자세히 표시를 클릭한 후에만 표시되는 추가 정보는 내보낸 PDF 파일에 표시되지 않습니다. 페이지에 표시되는 정보만 내보낸 파일에 표시됩니다.
+
+
 1. (선택 사항) 다운로드한 파일로 이동하여 열고 편집하거나(Word 파일인 경우) 다른 사용자와 공유합니다.
+

@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 0%
+source-wordcount: '516'
+ht-degree: 4%
 
 ---
 
@@ -64,11 +64,38 @@ ht-degree: 0%
 
 1. 표시되는 드롭다운 메뉴에서 다음 중 하나를 수행합니다.
 
-   * 메인 메뉴 항목을 클릭합니다.
+   * 다음 영역 중에서 선택합니다.
 
-     >[!IMPORTANT]
-     >
-     >시나리오 및 목표 영역을 보려면 추가 라이센스가 필요합니다. Workfront 목표에 대한 자세한 내용은 [Adobe Workfront 목표 개요](../../../workfront-goals/goal-management/wf-goals-overview.md)를 참조하거나 Workfront 시나리오 플래너에 대한 자세한 내용은 [시나리오 플래너 개요](../../../scenario-planner/scenario-planner-overview.md)를 참조하십시오.
+      * 분석
+      * 캘린더
+      * 대시보드
+      * 문서
+      * 목표
+      * 홈
+      * 내 업데이트
+      * 포트폴리오
+      * 프로그램
+      * 프로젝트
+      * 보고서
+      * 요청
+      * 리소스 조달
+      * 시나리오
+      * 팀
+      * 템플릿
+      * 타임시트
+      * 사용자
+      * 블루프린트
+      * 계획 수립
+
+   >[!IMPORTANT]
+   >
+   >시나리오, 목표 및 계획 영역을 보려면 추가 라이센스가 필요합니다.
+   >
+   >* Workfront 목표에 대한 자세한 내용은 [Adobe Workfront 목표 개요](../../../workfront-goals/goal-management/wf-goals-overview.md)를 참조하십시오.
+   >
+   >* Workfront 시나리오 플래너에 대한 자세한 내용은 [시나리오 플래너 개요](../../../scenario-planner/scenario-planner-overview.md)를 참조하십시오.
+   >
+   >* Workfront Planning에 대한 자세한 내용은 [Adobe Workfront Planning 개요](/help/quicksilver/planning/general/planning-overview.md)를 참조하십시오.
 
    * **대시보드 추가**&#x200B;를 클릭한 다음 설명 **사용자 지정 섹션 제목**&#x200B;을 입력하고 대시보드를 추가하십시오.
 

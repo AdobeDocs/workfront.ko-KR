@@ -5,9 +5,10 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
+source-git-commit: 3823afdc14aaf5646d8edc60f5ad633e48336af7
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1159'
 ht-degree: 2%
 
 ---
@@ -130,7 +131,17 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 
    요청 양식에는 기본적으로 다음 정보가 포함되어 있습니다.
 
-   * 선택한 레코드 유형의 표 보기에서 사용할 수 있는 모든 레코드 필드.
+   * 선택한 레코드 유형의 표 보기에서 사용할 수 있는 레코드 필드입니다. <!--they are working on removing the limitation below-->
+
+     >[!IMPORTANT]
+     >
+     >   다음 유형의 필드가 요청 양식에 표시되지 않습니다.
+     >
+     >    * 사용자
+     >    * 연결된 필드(Experience Manager 자산과의 연결 포함)
+     >    * 연결된 조회 필드
+     >    * 공식
+
    * **기본 섹션**: Workfront이 요청 양식에 적용하는 기본 섹션 구분입니다. 기본 섹션의 이름을 변경하거나 제거할 수 없습니다.
    * **제목** 필드: Workfront에서 요청을 식별하는 필드입니다. 이 기능은 아직 사용할 수 없습니다.
    * 레코드 유형과 연결된 모든 필드.
@@ -199,6 +210,3 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
    >
    >이러한 경우 링크가 공개적으로 공유된다는 표시가 있습니다.
    >![](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
-
-
-

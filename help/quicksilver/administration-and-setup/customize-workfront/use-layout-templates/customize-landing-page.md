@@ -8,16 +8,21 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 57a1046a-434a-4453-a101-c5f0a16e079e
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 0%
+source-wordcount: '442'
+ht-degree: 5%
 
 ---
 
 # 레이아웃 템플릿을 사용하여 랜딩 페이지 사용자 지정
 
 Adobe Workfront 관리자는 레이아웃 템플릿을 사용하여 사용자가 Workfront에 로그인할 때마다 볼 영역을 지정할 수 있습니다.
+
+사용자는 다음 중 하나를 열 수 있습니다.
+
+* 지정된 Workfront 지역
+* 사용자 지정 대시보드.
 
 레이아웃 템플릿 만들기에 대한 자세한 내용은 [레이아웃 템플릿 만들기 및 관리](../use-layout-templates/create-and-manage-layout-templates.md)를 참조하십시오.
 
@@ -62,9 +67,38 @@ Adobe Workfront 관리자는 레이아웃 템플릿을 사용하여 사용자가
 1. [레이아웃 템플릿 만들기 및 관리](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)에 설명된 대로 레이아웃 템플릿 작업을 시작합니다.
 1. **위쪽 탐색 영역**&#x200B;에서 **랜딩 페이지 선택**&#x200B;을 클릭한 다음 사용자가 로그인할 때 표시할 영역을 선택하십시오.
 
+   다음 영역 중에서 선택하거나 사용자 지정 대시보드를 추가합니다.
+
+   * 분석
+   * 캘린더
+   * 대시보드
+   * 문서
+   * 목표
+   * 홈
+   * 내 업데이트
+   * 포트폴리오
+   * 프로그램
+   * 프로젝트
+   * 보고서
+   * 요청
+   * 리소스 조달
+   * 시나리오
+   * 팀
+   * 템플릿
+   * 타임시트
+   * 사용자
+   * 블루프린트
+   * 계획 수립
+
    >[!IMPORTANT]
    >
-   >시나리오 및 목표 영역을 보려면 추가 라이센스가 필요합니다. Workfront 목표에 대한 자세한 내용은 [Adobe Workfront 목표 개요](../../../workfront-goals/goal-management/wf-goals-overview.md)를 참조하거나 Workfront 시나리오 플래너에 대한 자세한 내용은 [시나리오 플래너 개요](../../../scenario-planner/scenario-planner-overview.md)를 참조하십시오.
+   >시나리오, 목표 및 계획 영역을 보려면 추가 라이센스가 필요합니다.
+   >
+   >* Workfront 목표에 대한 자세한 내용은 [Adobe Workfront 목표 개요](../../../workfront-goals/goal-management/wf-goals-overview.md)를 참조하십시오.
+   >
+   >* Workfront 시나리오 플래너에 대한 자세한 내용은 [시나리오 플래너 개요](../../../scenario-planner/scenario-planner-overview.md)를 참조하십시오.
+   >
+   >* Workfront Planning에 대한 자세한 내용은 [Adobe Workfront Planning 개요](/help/quicksilver/planning/general/planning-overview.md)를 참조하십시오.
 
 1. 레이아웃 템플릿을 계속 사용자 지정합니다.
 

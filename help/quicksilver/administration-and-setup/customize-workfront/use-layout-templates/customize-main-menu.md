@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '601'
 ht-degree: 4%
 
 ---
@@ -113,6 +113,11 @@ Adobe Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 �
    * 내 업데이트
    * 보드
    * 블루프린트
+   * 계획 수립
+
+     >[!NOTE]
+     >
+     >Planning에는 추가 라이센스가 필요합니다. Workfront Planning에 대한 자세한 내용은 [Adobe Workfront Planning 개요](/help/quicksilver/planning/general/planning-overview.md)를 참조하십시오
 
 1. 다음 중 하나를 수행합니다.
 

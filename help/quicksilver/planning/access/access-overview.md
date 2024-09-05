@@ -6,9 +6,9 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 3232676a77c8e9fcb58e97374a4e7686620136da
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '666'
 ht-degree: 1%
 
 ---
@@ -22,15 +22,15 @@ ht-degree: 1%
 >
 >이 문서의 정보는 Adobe Workfront의 새 서비스인 Adobe Workfront Planning을 참조합니다.
 >
->Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
+>Workfront Planning이 해당 기능에 액세스하려면 귀사에서 추가 라이선스를 구입해야 합니다.
 >
->* 새로운 Workfront 플랜 및 라이선스. 기존 Workfront 계획 또는 라이선스에는 Workfront Planning을 사용할 수 없습니다.
->* Workfront Planning에 대한 추가 라이선스.
->* 조직의 Workfront 인스턴스는 통합 경험 Adobe에 온보딩되어야 합니다.
+>자세한 내용은 계정 관리자에게 문의하십시오
 >
 >Workfront Planning에 대한 자세한 내용은 [Adobe Workfront Planning 개요](/help/quicksilver/planning/general/planning-overview.md)를 참조하십시오.
 
 Adobe Workfront Planning을 사용하려면 라이선스 및 공유 권한 제한이 있습니다.
+
+이 문서에서는 Workfront Planning의 기능을 사용하기 위해 필요한 액세스 및 설정에 대해 설명합니다.
 
 ## 액세스 요구 사항
 
@@ -112,7 +112,12 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
   </tr>
 <tr>
    <td role="rowheader"><p>레이아웃 템플릿</p></td>
-   <td> <p>Workfront 관리자를 포함한 모든 사용자에게는 주 메뉴의 계획 영역과 Workfront Planning에 연결할 수 있는 객체(프로젝트, 포트폴리오 및 프로그램)에 대한 계획 영역이 포함된 레이아웃 템플릿이 할당되어야 합니다. </p> <p>자세한 내용은 <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">레이아웃 템플릿을 사용하여 기본 메뉴 사용자 지정</a> 및 <a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md">레이아웃 템플릿에 사용자 할당</a>을 참조하십시오. </p>  
+   <td> <p>Workfront 관리자를 포함한 모든 사용자에게는 다음 영역에 Planning 옵션이 포함된 레이아웃 템플릿을 할당해야 합니다.</p>
+   <ul><li>메인 메뉴</li>
+   <li>프로젝트, 포트폴리오 및 프로그램의 왼쪽 패널</li>
+   <li>랜딩 페이지</li>
+   <li>고정 항목</li></ul>
+   <p>자세한 내용은 <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">레이아웃 템플릿 만들기 및 관리</a>를 참조하십시오.</p> 
 </td>
   </tr>
  </tbody>
@@ -189,19 +194,24 @@ You must have the following to be able to access Workfront Planning:
 
 *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).  -->
 
-
-
-## 다른 사용자와 메인 메뉴의 계획 영역 공유
+## 레이아웃 템플릿을 사용하여 계획 영역 공유
 
 <!--First, contact your account manager to obtain access to the current Workfront Planning program.-->
 
-조직이 Workfront Planning 프로그램에 등록되면 레이아웃 템플릿을 사용하여 모든 사용자의 기본 메뉴에 계획 영역을 추가할 수 있습니다.
+조직에서 추가 Workfront Planning 라이센스를 구입한 후 시스템 관리자가 사용자를 수정하여 레이아웃 템플릿에 할당하여 다음 영역에 Planning 옵션을 추가할 수 있습니다.
+
+* 메인 메뉴
+* 랜딩 페이지
+* 프로젝트, 포트폴리오 및 프로그램의 왼쪽 패널
+* 고정 항목
+
+Workfront Planning 영역을 Workfront 인스턴스에 추가하려면 다음을 수행합니다.
 
 1. **Workfront**&#x200B;에 Workfront 관리자로 로그인합니다.
 
-1. **레이아웃 템플릿**&#x200B;을(를) 사용하여 **계획** 아이콘 ![](assets/planning-icon.png)을(를) **주 메뉴**&#x200B;에 추가하십시오.
+1. **기본 메뉴** > **설정** > **인터페이스** > **레이아웃 템플릿**(으)로 이동하여 레이아웃 템플릿을 열거나 만듭니다.
 
-   자세한 내용은 [레이아웃 템플릿을 사용하여 기본 메뉴 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)을 참조하십시오.
+   레이아웃 템플릿 사용자 지정에 대한 자세한 내용은 [레이아웃 템플릿 만들기 및 관리](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)를 참조하십시오.
 
 1. Workfront Planning에 액세스할 수 있는 사용자에게 레이아웃 템플릿을 할당합니다.
 

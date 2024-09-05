@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: 51b8e474cefe63b4db8c42e480990ca0ba431a4d
+source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1077'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ ht-degree: 0%
      <tr> 
       <td>[!UICONTROL 프로젝트]</td> 
       <td>프로젝트 이름</td> 
-      <td>[!UICONTROL 작업], [!UICONTROL 프로젝트 세부 사항], [!UICONTROL 비즈니스 사례], [!UICONTROL 업데이트], [!UICONTROL 문서], [!UICONTROL 문제], [!UICONTROL 위험], [!UICONTROL 승인], [!UICONTROL 기준 요소], [!UICONTROL 청구 요금], [!UICONTROL 청구 기록], [!UICONTROL 비용], [!UICONTROL 시간], [!UICONTROL 업무 균형자], [!UICONTROL 사용자], [!UICONTROL 사용자] 사용률], [!UICONTROL 대기열 세부 정보], [!UICONTROL 라우팅 규칙], [!UICONTROL 대기열 주제], [!UICONTROL 주제 그룹], [!UICONTROL 지표]</td> 
+      <td>[!UICONTROL 작업], [!UICONTROL 프로젝트 세부 사항], [!UICONTROL 비즈니스 사례], [!UICONTROL 업데이트], [!UICONTROL 문서], [!UICONTROL 문제], [!UICONTROL 위험], [!UICONTROL 승인], [!UICONTROL 기준 요소], [!UICONTROL 청구 요금], [!UICONTROL 청구 기록], [!UICONTROL 비용], [!UICONTROL 시간], [!UICONTROL 업무 균형자], [!UICONTROL 사용자], [!UICONTROL 사용자] 사용률], [!UICONTROL 대기열 세부 정보], [!UICONTROL 라우팅 규칙], [!UICONTROL 대기열 주제], [!UICONTROL 주제 그룹], [!UICONTROL 지표], [!UICONTROL Planning]*</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL 작업]</td> 
@@ -104,12 +104,12 @@ ht-degree: 0%
      <tr> 
       <td>[!UICONTROL Portfolio]</td> 
       <td>포트폴리오 이름</td> 
-      <td>[!UICONTROL 프로젝트], [!UICONTROL 프로그램], [!UICONTROL Portfolio 세부 사항], [!UICONTROL Portfolio] [!UICONTROL 최적화], [!UICONTROL 문서], [!UICONTROL 업데이트]</td> 
+      <td>[!UICONTROL 프로젝트], [!UICONTROL 프로그램], [!UICONTROL Portfolio 세부 사항], [!UICONTROL Portfolio] [!UICONTROL 최적화], [!UICONTROL 문서], [!UICONTROL 업데이트], [!UICONTROL 계획]*</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL 프로그램]</td> 
       <td>프로그램 이름</td> 
-      <td>[!UICONTROL 프로젝트], [!UICONTROL 프로그램 세부 사항], [!UICONTROL 업데이트], [!UICONTROL 문서]</td> 
+      <td>[!UICONTROL Projects], [!UICONTROL Program Details], [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Planning]*</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Template]</td> 
@@ -198,6 +198,8 @@ ht-degree: 0%
      --> 
     </tbody> 
    </table>
+
+   *이 영역을 프로젝트, 포트폴리오 및 프로그램의 왼쪽 패널에 추가하려면 귀사에서 Workfront Planning에 대해 추가 라이선스를 구입해야 합니다. 자세한 내용은 [Adobe Workfront 계획 개요](/help/quicksilver/planning/general/planning-overview.md)를 참조하십시오.
 
    >[!NOTE]
    >

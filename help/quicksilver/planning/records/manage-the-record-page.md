@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1357'
 ht-degree: 0%
 
 ---
@@ -216,7 +216,7 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
    * Workfront 개체는 Workfront Planning에서 레코드의 연결된 필드에서도 제거됩니다.
    * 계획 레코드에 연결된 Workfront 조회 필드의 값도 삭제됩니다.
 
-## 레코드의 미리 보기 또는 페이지에서 필드 다시 정렬
+## 레코드의 세부 정보 탭에서 필드 다시 정렬
 
 {{step1-to-planning}}
 
@@ -240,11 +240,11 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 
 1. (선택 사항) 레코드 미리 보기의 오른쪽 상단에 있는 **새 탭에서 열기** 아이콘 ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->을(를) 클릭하여 새 탭에서 레코드 페이지를 엽니다.
 
-   레코드 페이지가 열립니다.
+   레코드의 **세부 정보** 탭이 기본적으로 열립니다.
 
    ![](assets/details-page.png)
 
-1. 레코드 미리 보기 또는 페이지에서 필드 이름 왼쪽에 있는 **grab** 아이콘 ![](assets/grab-icon.png)을(를) 클릭한 다음 원하는 위치에 끌어다 놓습니다. <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
+1. 레코드 **세부 정보** 탭에서 필드 이름 왼쪽에 있는 **grab** 아이콘 ![](assets/grab-icon.png)을(를) 클릭한 다음 원하는 위치에 끌어다 놓습니다. <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
 
    필드의 새 위치는 레코드를 보는 모든 사용자에 대해 동일한 유형의 모든 레코드의 미리보기 및 페이지에서 모두 업데이트됩니다.
 
