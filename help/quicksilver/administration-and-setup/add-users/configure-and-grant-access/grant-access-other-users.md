@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 5113771baf269405e758307d11a392f95ee870fe
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '793'
 ht-degree: 1%
 
 ---
@@ -95,7 +95,7 @@ Adobe Workfront 관리자는 [액세스 수준 개요](../../../administration-a
       <td> <p>사용자가 Workfront의 모든 사용자에 대해 다음 작업을 수행할 수 있습니다.</p> 
        <ul> 
         <li>사용자 편집, 삭제 또는 비활성화</li> 
-        <li>사용자로 로그인</li> 
+        <li>사용자로 로그인<p><b>참고</b>: 시스템 관리자인 사용자로 로그인할 수 없습니다.</p></li> 
         <li>사용자 암호 재설정</li> 
        </ul> <p>이 옵션은 기본적으로 비활성화되어 있습니다.</p> </td> 
      </tr> 

@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 5113771baf269405e758307d11a392f95ee870fe
 workflow-type: tm+mt
-source-wordcount: '1891'
+source-wordcount: '1919'
 ht-degree: 10%
 
 ---
@@ -357,7 +357,7 @@ ht-degree: 10%
   </tr> 
   <tr> 
    <td>모든 사용자의 암호 편집, 삭제, 비활성화, 다음으로 로그인 또는 재설정</td> 
-   <td>✓ *</td> 
+   <td>✓ *<p><b>참고</b>: 시스템 관리자인 사용자로 로그인할 수 없습니다.</p></td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -365,7 +365,7 @@ ht-degree: 10%
   </tr> 
   <tr> 
    <td>관리하는 그룹의 모든 사용자에 대한 암호를 편집, 삭제, 비활성화, 다음으로 로그인 또는 재설정합니다</td> 
-   <td>✓ *</td> 
+   <td>✓ *<p><b>참고</b>: 시스템 관리자인 사용자로 로그인할 수 없습니다.</p></td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
