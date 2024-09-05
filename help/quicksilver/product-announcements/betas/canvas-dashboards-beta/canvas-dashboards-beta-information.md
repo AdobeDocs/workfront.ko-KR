@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: 0c37044aaffbe6ebb22af3877c93d5c65d40de98
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '524'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,15 @@ ht-degree: 0%
 
 **Beta 상태**
 
-Canvas Dashboards는 현재 공개 베타 테스트 단계이므로 자주 변경될 수 있습니다. Beta 등록 방법에 대한 지침은 아래를 참조하십시오.
+Canvas Dashboards는 현재 비공개 베타 테스트 단계에 있으므로 자주 변경될 수 있습니다. Beta 등록 방법에 대한 지침은 아래를 참조하십시오.
 
 ## Beta에 참여
+
+>[!IMPORTANT]
+>
+>Canvas Dashboards는 현재 비공개 베타 버전이므로 특정 조직에서만 사용할 수 있습니다. 우리는 관심을 표명한 대기자 명단에서 베타로 조직을 계속 직접 초대합니다. [이 Adobe 피드백 프로그램 양식](https://www.feedbackprogram.adobe.com/c/r/Workfront-Canvas-Dashboards-Visualizations-Beta)을 제출하여 대기자 명단에 조직을 추가할 수 있습니다. 또한 패키지의 일부로 Workfront Planning을 구매한 조직에는 제품 간 보고 기능을 테스트하기 위한 베타 액세스 권한이 부여되었습니다.
+>
+>결국 오픈 베타로 전환하여 모든 조직에서 등록 프로세스를 사용할 수 있게 됩니다.
 
 ### 등록
 
@@ -33,11 +39,7 @@ Beta에 등록하려면:
 
 1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![기본 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![기본 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **대시보드**&#x200B;를 클릭합니다.
 
-1. 페이지의 오른쪽 상단에 있는 **캔버스 대시보드 베타 가입** 베타 단추를 클릭합니다.
-
-   >[!NOTE]
-   >
-   >이 버튼은 조직이 비공개 베타로 승인된 경우에만 사용할 수 있습니다. 공개 베타가 시작되면 모든 조직에서 사용할 수 있습니다.
+1. 페이지의 오른쪽 상단에 있는 **캔버스 대시보드 베타 가입** 베타 단추를 클릭합니다. 이 버튼은 조직이 비공개 베타로 초대된 경우에만 사용할 수 있습니다.
 
 1. 약관을 읽은 다음 **승인**&#x200B;을 클릭합니다. 이제 Beta에 등록되었습니다. 하지만 Canvas Dashboards에서 Workfront 데이터에 완전히 액세스할 수 있으려면 몇 분이 소요됩니다.
 
