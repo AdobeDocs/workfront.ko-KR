@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: c08bd3311892d24a9bd40af138169957f5ea2ca4
+source-git-commit: d92dc8581bef1f5fdbef7a853ac27ffc3fa7ddbe
 workflow-type: tm+mt
-source-wordcount: '2147'
+source-wordcount: '2157'
 ht-degree: 3%
 
 ---
@@ -452,6 +452,12 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 * 단일 구독에 여러 필터를 적용하는 것은 **AND** 논리 연산자를 사용하는 것과 같은 방법입니다.
 * 각 이벤트 구독 간에 하나 이상의 이벤트 구독 필드 매개 변수가 다른 한 단일 오브젝트에 여러 이벤트 구독을 적용할 수 있습니다.
 * 여러 이벤트 구독이 단일 개체에 할당되면 해당 개체와 연결된 모든 이벤트 구독이 단일 끝점에 반환될 수 있습니다. 이 연습은 필터 매개 변수를 사용하여 설정할 수 없는 논리 연산자 **OR**&#x200B;에 대한 동등한 대용으로 사용할 수 있습니다.
+* 다음 필드는 필터링할 수 없습니다.
+
+   * DOCU.groups
+   * RECORD.data
+   * RECORD_TYPE.data
+   * RECORD_TYPE.fields
 
 ### 비교 연산자 사용
 
