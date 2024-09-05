@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: 6437fe98-2c2b-4b49-97e2-f94b23da93fd
-source-git-commit: ed7ea1d3409c39caea5fe8b107b7b2907dc87d76
+source-git-commit: 3abfa92e6ad33243a1cdd19de25bbe04a8e81425
 workflow-type: tm+mt
-source-wordcount: '2072'
+source-wordcount: '2087'
 ht-degree: 1%
 
 ---
@@ -96,7 +96,7 @@ ht-degree: 1%
 1. [!DNL Workfront Fusion]에서 시나리오에 [!DNL Jira] 모듈을 추가하여 **[!UICONTROL 연결 만들기]** 상자를 엽니다.
 1. 다음 정보를 지정합니다.
 
-   * **[!UICONTROL 서비스 URL]**
+   * **[!UICONTROL 서비스 URL]:** Jira 계정에 액세스하는 데 사용하는 기본 URL입니다. 예: `yourorganization.atlassian.net`
    * **[!UICONTROL 사용자 이름]**
    * **[!UICONTROL API 토큰]:** 이 문서의 [API 토큰 만들기 [!DNL Jira]](#create-an-api-token-in-jira) 섹션에서 만든 API 토큰입니다.
 
@@ -231,7 +231,7 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader">[!DNL Service URL]</td> 
-      <td>[!DNL Jira] 인스턴스 URL을 입력하십시오. </td> 
+      <td>[!DNL Jira] 인스턴스 URL을 입력하십시오. 예: <code>yourorganization.atlassian.net</code></td> 
      </tr> 
     </tbody> 
    </table>
@@ -378,9 +378,7 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
    <td> <p>표준 JSON 개체의 형태로 API 호출에 대한 본문 콘텐츠를 추가합니다.</p> <p>참고:  <p>JSON에서 <code>if</code>과(와) 같은 조건문을 사용할 때 따옴표를 조건문 외부에 넣으십시오.</p> 
-     <div class="example" data-mc-autonum="<b>Example: </b>"> 
-      <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
-     </div> </p> </td> 
+     <img src="assets/quotes-in-json-350x120.png">  </td> 
   </tr> 
  </tbody> 
 </table>
