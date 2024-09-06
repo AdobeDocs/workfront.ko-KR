@@ -2,13 +2,13 @@
 product-area: resource-management
 navigation-topic: resource-planning
 title: 리소스 플래너에서 정보 필터링
-description: '(AL:*이 문서에 대해 반복합니다. 사용자 정의 데이터에 의한 필터링. 기타 개선 사항 주의 사항 있는 특수 문자가 변경될 수 있습니다. 스토리를 따라 언제 변경되는지 알아보십시오. 그것은 원래 Beta 3 17.3)에서 왔다'
-author: Alina
+description: 필터를 사용하면 시스템에 저장된 모든 정보에서 리소스 플래너에 표시되는 정보를 수정할 수 있습니다.
+author: Lisa
 feature: Resource Management
 exl-id: 7186cae5-1e16-421e-b26d-afb50aa7f6eb
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
 workflow-type: tm+mt
-source-wordcount: '2416'
+source-wordcount: '2374'
 ht-degree: 0%
 
 ---
@@ -23,38 +23,40 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-다음 항목이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
+이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>Pro 이상</p> </td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td><p>새로 만들기: 모두</p>
+       <p>또는</p>
+       <p>현재: Pro 이상</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>검토 이상<!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-        (this seems to be the case in NWE only, not classic. Waiting on Vazgen's response for this)
-      </MadCap:conditionalText>
-     --></p> </td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td><p>새로운 기능: 밝게 또는 높음</p>
+       <p>또는</p>
+       <p>현재: 검토 이상</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>프로젝트, 사용자 및 리소스 관리에 대한 보기 이상의 액세스 권한 </p> <p><b>메모</b>
-
-여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td>
-</tr> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>프로젝트, 사용자 및 리소스 관리에 대한 액세스 권한 이상 보기</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>프로젝트에 대한 권한 이상 보기</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
+   <td> <p>프로젝트에 대한 권한 이상 보기</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 리소스 플래너 필터 개요
 
@@ -117,18 +119,16 @@ ht-degree: 0%
 
 리소스 플래너에서 필터를 만들려면 다음을 수행하십시오.
 
-1. Adobe Workfront 오른쪽 상단의 **주 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭합니다.
+{{step1-to-resourcing}}
 
-1. **리소스 조달**&#x200B;을 클릭합니다.
+**Planner**&#x200B;이(가) 기본적으로 표시됩니다.
 
-   **Planner**&#x200B;이(가) 기본적으로 표시됩니다.
+기본적으로 리소스 플래너에 처음 액세스하면 <strong>기본 필터</strong>가 적용됩니다.<br>기본 필터에 대한 자세한 내용은 이 문서의 <a href="#overview-of-the-default-filter-in-the-resource-planner" class="MCXref xref">리소스 플래너의 기본 필터 개요</a> 섹션을 참조하십시오.
 
-   기본적으로 리소스 플래너에 처음 액세스하면 <strong>기본 필터</strong>가 적용됩니다.<br>기본 필터에 대한 자세한 내용은 이 문서의 <a href="#overview-of-the-default-filter-in-the-resource-planner" class="MCXref xref">리소스 플래너의 기본 필터 개요</a> 섹션을 참조하십시오.
-
-1. 의 왼쪽 상단 모서리에서 **필터** 아이콘을 클릭합니다.\
-   ![filter_icon.png](assets/filter-icon.png)\
-   또는\
-   **필터** 드롭다운 메뉴를 확장하고 **새 필터 추가**&#x200B;를 클릭합니다.\
+1. 의 왼쪽 상단 모서리에서 **필터** 아이콘을 클릭합니다.
+   ![filter_icon.png](assets/filter-icon.png)
+또는
+**필터** 드롭다운 메뉴를 확장하고 **새 필터 추가**를 클릭합니다.
    ![](assets/rp-filter-dropdown-expanded-with-default-filter-selected-350x283.png)
 
 1. 기본 제공 기준을 사용하여 필터를 빌드하려면 다음 필드 중 하나를 지정합니다.
@@ -156,7 +156,7 @@ ht-degree: 0%
    사용자 기반 또는 날짜 기반 와일드카드를 사용하여 로그인한 사용자와 관련된 정보를 필터링할 수 있습니다.\
    필터에서 지원되는 와일드카드에 대한 자세한 내용은 [와일드카드 필터 변수 개요](../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)를 참조하십시오.
 
-1. 필터 규칙을 저장하려면 **저장**&#x200B;을 클릭합니다.
+1. 필터 규칙을 저장하려면 **저장**&#x200B;을 클릭하세요.
 1. (선택 사항) 다른 개체 또는 필드에 새 규칙을 추가하려면 **필터 규칙 추가**&#x200B;를 클릭합니다.
 1. 필터를 저장하지 않고 적용하려면 **적용**&#x200B;을 클릭하십시오.
 

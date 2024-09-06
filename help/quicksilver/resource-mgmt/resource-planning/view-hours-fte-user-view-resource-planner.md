@@ -4,10 +4,10 @@ product-area: resource-management;user-management
 navigation-topic: resource-planning
 title: 사용자 보기를 사용할 때 리소스 플래너에서 가용, 계획 및 실제 시간 또는 FTE 보기
 description: RP에서 사용자 viewPlanning을 사용할 때 리소스 플래너에서 가용, 계획 및 실제 시간 또는 FTE 보기 - "RP에서 리소스 예산 책정" 또는 "RP에서 리소스 관리"일 수 있습니다. 기타... - 또는 다른 POV에서 용도 변경해야 할 수 있습니다?!)"
-author: Alina
+author: LIsa
 feature: Resource Management
 exl-id: 6b532aa2-435f-4fda-b7ce-abe0a785638f
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
 workflow-type: tm+mt
 source-wordcount: '1739'
 ht-degree: 1%

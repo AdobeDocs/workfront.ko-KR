@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: 0a50e3aef47720d78e798f6111ee503389dde984
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1152'
 ht-degree: 0%
 
 ---
@@ -74,10 +74,17 @@ IF 문에 대한 자세한 내용은 계산된 사용자 지정 필드의 [&quot
 
 API 와일드카드는 비즈니스 규칙에서도 사용할 수 있습니다. `$$ISAPI`을(를) 사용하여 UI에서만 또는 API에서만 규칙을 트리거할 수 있습니다.
 
+`$$BEFORE_STATE` 및 `$$AFTER_STATE` 와일드카드는 편집 전후에 개체의 필드 값에 액세스하는 데 표현식에 사용됩니다.
+
+* 이러한 와일드카드는 모두 편집 트리거에 사용할 수 있습니다. 편집 트리거의 기본 상태(식에 상태가 포함되지 않은 경우)는 `$$AFTER_STATE`입니다.
+* before 상태가 존재하지 않으므로 개체 만들기 트리거에서 `$$AFTER_STATE`만 허용합니다.
+* after 상태가 존재하지 않으므로 개체 삭제 트리거에서는 `$$BEFORE_STATE`만 허용합니다.
+
+
 몇 가지 간단한 비즈니스 규칙 시나리오는 다음과 같습니다.
 
 * 2월 마지막 주 중에는 새 경비를 추가할 수 없습니다. 이 수식은 다음과 같이 지정할 수 있습니다. `IF(MONTH($$TODAY) = 2 && DAYOFMONTH($$TODAY) >= 22, "You cannot add new expenses during the last week of February.")`
-* 완료 상태의 프로젝트는 사용자가 편집할 수 없습니다. 이 수식은 다음과 같이 지정할 수 있습니다. `IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
+* 완료 상태인 프로젝트의 프로젝트 이름은 편집할 수 없습니다. 이 수식은 다음과 같이 지정할 수 있습니다. `IF({status} = "CPL" && {name} != $$BEFORE_STATE.{name}, "You cannot edit the project name.")`
 
 중첩된 IF 문이 있는 시나리오는 다음과 같습니다.
 

@@ -3,10 +3,10 @@ product-area: resource-management;reporting
 navigation-topic: resource-planning
 title: 리소스 플래너 예산 시간에 대한 보고서
 description: 리소스 플래너를 사용하여 프로젝트에 대한 리소스의 예산을 책정할 수 있습니다. Adobe Workfront 리소스 플래너를 사용하여 리소스 예산을 편성하는 방법에 대한 자세한 내용은 프로젝트 및 역할 보기를 사용하여 리소스 플래너의 리소스 예산 문서를 참조하십시오.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 6adf11a4-3c33-484f-80cc-c5d96a7c7112
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%

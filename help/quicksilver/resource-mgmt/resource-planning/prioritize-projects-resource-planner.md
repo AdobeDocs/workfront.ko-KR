@@ -3,12 +3,12 @@ product-area: resource-management;projects
 navigation-topic: resource-planning
 title: 리소스 플래너에서 프로젝트 우선 순위 지정
 description: 프로젝트는 가장 중요한 프로젝트가 맨 위에 있는 리소스 플래너에 우선 순위 순서로 나열됩니다.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: fe9c8cf9-f1e0-4cd5-9299-0f04893d71a5
-source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
+source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
 workflow-type: tm+mt
-source-wordcount: '1323'
+source-wordcount: '1300'
 ht-degree: 1%
 
 ---
@@ -19,34 +19,40 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-다음 항목이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
+이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>Pro 이상</p> </td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
+    <td><p>새로 만들기: 모두</p>
+       <p>또는</p>
+       <p>현재: Pro 이상</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>플랜 </p> </td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td><p>새로운 기능: 표준</p>
+       <p>또는</p>
+       <p>현재: 플랜</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>리소스 플래너에서 우선순위 및 예산 시간 편집에 대한 액세스 권한이 포함된 리소스 관리에 대한 액세스 편집</p> <p>재무 데이터, 프로젝트 및 사용자에 대한 액세스 편집</p> <p><b>메모</b>
-
-여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td>
-</tr> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>리소스 플래너에서 우선순위 및 예산 시간 편집에 대한 액세스 권한이 포함된 리소스 관리에 대한 액세스 편집</p> <p>재무 데이터, 프로젝트 및 사용자에 대한 액세스 편집</p></td> 
+  </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>재무 관리 기능으로 예산을 책정하려는 프로젝트에 대한 권한을 관리합니다.</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
+   <td> <p>재무 관리 기능으로 예산을 책정하려는 프로젝트에 대한 권한을 관리합니다.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 리소스 플래너의 기본 프로젝트 순서
 
@@ -127,7 +133,7 @@ ht-degree: 1%
    둘 이상의 포트폴리오에 속하는 프로젝트가 있는 경우 리소스 플래너에서 포트폴리오 우선 순위가 동일한 여러 프로젝트를 볼 수 있습니다. 이 경우 포트폴리오 우선 순위가 동일한 프로젝트가 다음 기준에 따라 이 순서로 나열됩니다.
 
    1. 정렬 점수
-   1. 계획된 시작 일자 기준
+   1. 계획된 시작 일자
    1. 프로젝트 이름
 
    ![](assets/rp-portfolio-priority-ordered-350x198.png)
