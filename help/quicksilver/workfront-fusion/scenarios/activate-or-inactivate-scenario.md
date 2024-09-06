@@ -7,9 +7,9 @@ description: 이 문서에서는 활성 또는 비활성화된 시나리오가 �
 author: Becky
 feature: Workfront Fusion
 exl-id: b3eea763-f0bf-4037-8d73-20d112dc5ac3
-source-git-commit: 0f6d02733f091d7e548db6005eebb3a24087799a
+source-git-commit: b1764e443ebb0ad48ca4ae0263d326f4156fb155
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '290'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 * 비활성 시나리오는 수동으로 실행할 때만 실행됩니다.
 
-  이 기능은 특정 시간에만 시나리오를 실행하려는 경우에 유용합니다.
+  이 기능은 매번 시나리오를 수동으로 실행하려는 경우에 유용합니다.
 
 시나리오를 사용하려는 방법에 따라 언제든지 시나리오를 활성화하거나 비활성화할 수 있습니다.
 
