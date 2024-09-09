@@ -6,9 +6,9 @@ description: 작업 항목을 효율적으로 찾고 관리하는 사용자 또�
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: b255a3140629a488d24d1df980ba81faa1064d16
 workflow-type: tm+mt
-source-wordcount: '2497'
+source-wordcount: '2470'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,9 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
-다음 항목이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
+이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,38 +45,40 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
-   <td> <p>모든 플랜</p> </td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>리소스 조달 영역에서 업무 균형자 를 사용할 때 계획</p>
-   <p>팀 또는 프로젝트의 업무 균형자 를 사용할 때 작업</p>
- </td> 
-  </tr> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td><p>새로운 기능: 표준</p>
+       <p>또는</p>
+       <p>현재: 리소스 조달 영역에서 업무 균형자 사용 시 계획;</br>
+       팀 또는 프로젝트의 업무 균형자 를 사용할 때 작업</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">액세스 수준*</td> 
+   <td role="rowheader">액세스 수준 구성</td> 
    <td> <p>다음에 대한 액세스 권한 이상:</p> 
     <ul> 
-     <li> <p>리소스 관리</p> </li> 
-     <li> <p>프로젝트</p> </li> 
-     <li> <p>작업</p> </li> 
-     <li> <p>문제</p> </li> 
-     <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>필터, 보기 및 그룹화</p> </li> 
-    </ul> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"><span>필터를 빌드하거나 편집할 때 필터, 보기 및 그룹화에 대한 액세스 편집</span> </p> <p><b>메모</b>
-
-여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td>
-</tr> 
+     <li>리소스 관리</li> 
+     <li>프로젝트</li> 
+     <li>작업</li> 
+     <li>문제</li>
+     <li>필터, 보기 및 그룹화</li>
+    </ul>
+    <p>필터를 작성하거나 편집할 때 필터, 보기 및 그룹화에 대한 액세스 편집 </p> </td>
+  </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
    <td> <p>프로젝트, 작업, 문제에 대한 이상의 권한 보기</p>
    <p>편집하거나 삭제할 필터에 대한 권한 관리</p>
-     </p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 업무 균형자 의 필터 개요
 

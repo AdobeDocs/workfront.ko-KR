@@ -7,15 +7,14 @@ description: 업무 균형자 를 사용하여 작업에 대한 리소스를 예
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
 
 # 업무 균형자 찾기
-
 
 업무 균형자 를 사용하여 작업에 대한 리소스를 예약하거나 해당 리소스의 가용성 및 현재 할당을 검토할 수 있습니다.
 
@@ -36,9 +35,10 @@ ht-degree: 0%
 >* [업무 균형자 탐색](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
 >* [업무 균형자에서 작업 할당 개요](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 >* [업무 균형자에서 사용자 할당 관리](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
->
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -47,35 +47,35 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
    <td> <p>임의 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>리소스 조달 영역에서 업무 균형자 를 사용할 때 계획</p>
-   <p>팀 또는 프로젝트의 업무 균형자 를 사용할 때 작업</p>
- </td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td><p>새로운 기능: 표준</p>
+       <p>또는</p>
+       <p>현재: 리소스 조달 영역에서 업무 균형자 사용 시 계획;</br>
+       팀 또는 프로젝트의 업무 균형자 를 사용할 때 작업</p></td>
   </tr> 
-  <tr> 
-   <td role="rowheader">액세스 수준*</td> 
+   <td role="rowheader">액세스 수준 구성</td> 
    <td> <p>다음에 대한 액세스 권한 이상:</p> 
     <ul> 
-     <li> <p>리소스 관리</p> </li> 
-     <li> <p>프로젝트</p> </li> 
-     <li> <p>작업</p> </li> 
-     <li> <p>문제</p> </li> 
-    </ul> <p><b> 메모</b>
-
-여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td>
-</tr> 
+     <li>리소스 관리</li> 
+     <li>프로젝트</li> 
+     <li>작업</li> 
+     <li>문제</li> 
+    </ul> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>프로젝트, 작업 및 문제에 대한 권한 이상 보기 </p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
+   <td>프로젝트, 작업 및 문제에 대한 권한 이상 보기</td> 
   </tr> 
  </tbody> 
 </table>
 
-*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 사전 정의된 영역의 업무 균형자에 액세스
 
@@ -83,7 +83,8 @@ ht-degree: 0%
 
 ### 리소스 조달 영역의 여러 프로젝트에 대한 업무 균형자 액세스
 
-1. **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을 클릭한 다음 **리소스 조달**&#x200B;을 클릭합니다.
+{{step1-to-resourcing}}
+
 1. 왼쪽 패널에서 **업무 균형자**&#x200B;를 클릭합니다.
 
    ![](assets/nwe-balancer-global.png)
@@ -97,27 +98,27 @@ ht-degree: 0%
 
 ### 팀의 업무 균형자 액세스
 
-1. **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 팀을 클릭합니다.
+{{step1-to-team}}
+
 홈 팀의 페이지가 표시됩니다.
 
-   팀에 대한 업무 균형자 가 기본적으로 표시됩니다.
-
-   ![](assets/nwe-balancer-team-350x172.png)
-
-   팀의 업무 균형자 에는 기본적으로 다음 정보가 표시됩니다.
-
-   * **할당 해제된 작업**: 팀에 할당되고 사용자에게 할당되지 않은 항목입니다.
-   * **할당된 작업**: 모든 할당이 있는 모든 팀원
-
-     >[!TIP]
-     >
-     >팀원에게도 팀에 할당된 작업 또는 다른 팀이나 역할에 할당된 작업에 할당되었을 수 있습니다.
-
-
+    왼쪽 패널에서 **업무 균형자**를 클릭합니다.
+    
+    ![](assets/nwe-balancer-team-350x172.png)
+    
+    팀의 업무 균형자에 기본적으로 다음 정보가 표시됩니다.
+    
+    * **미할당 작업**: 팀에 할당되고 사용자에게 할당되지 않은 항목.
+    * **할당된 작업**: 모든 할당이 있는 모든 팀원
+    
+    >[!TIP]
+    >
+    >팀원이 팀에도 할당된 작업이나 다른 팀이나 역할에 할당된 작업에 할당될 수 있습니다.
 
 ### 프로젝트의 업무 균형자 액세스
 
-1. **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **프로젝트**&#x200B;를 클릭합니다.
+{{step1-to-projects}}
+
 1. 프로젝트 이름을 클릭하여 프로젝트 페이지를 엽니다.
 1. 왼쪽 패널에서 **업무 균형자**&#x200B;를 클릭합니다. **자세히 표시**&#x200B;를 클릭한 다음 **업무 균형자**&#x200B;를 클릭해야 할 수 있습니다.
 

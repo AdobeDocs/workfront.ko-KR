@@ -6,20 +6,16 @@ description: Adobe Workfront 업무 균형자 를 사용하여 여러 작업 및
 author: Lisa
 feature: Resource Management
 exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
-source-wordcount: '1499'
-ht-degree: 2%
+source-wordcount: '1521'
+ht-degree: 1%
 
 ---
 
 # 업무 균형자 를 사용하여 일괄 작업 할당
 
 <!--Audited: 07/2024-->
-
-<!--drafted
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
--->
 
 Adobe Workfront 업무 균형자 를 사용하여 여러 작업 및 문제에 리소스를 일괄 할당할 수 있습니다.
 
@@ -28,6 +24,8 @@ Adobe Workfront 업무 균형자 를 사용하여 여러 작업 및 문제에 �
 ## 액세스 요구 사항
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
+이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,36 +36,31 @@ Adobe Workfront 업무 균형자 를 사용하여 여러 작업 및 문제에 �
    <td> <p>임의 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> 
-   <p>새로운 기능: 표준</p>
-   <p>현재:</p>
-   <ul>
-   <li><p>리소스 조달 영역에서 업무 균형자 를 사용할 때 계획</p></li>
-   <li><p>팀 또는 프로젝트의 업무 균형자 를 사용할 때 작업</p></li></ul>
-
-</td> 
-  </tr> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td><p>새로운 기능: 표준</p>
+       <p>또는</p>
+       <p>현재: 리소스 조달 영역에서 업무 균형자 사용 시 계획;</br>
+       팀 또는 프로젝트의 업무 균형자 를 사용할 때 작업</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">액세스 수준</td> 
+   <td role="rowheader">액세스 수준 구성</td> 
    <td> <p>다음에 대한 액세스 권한 편집:</p> 
     <ul> 
-     <li> <p>리소스 관리</p> </li> 
-     <li> <p>프로젝트</p> </li> 
-     <li> <p>작업</p> </li> 
-     <li> <p>문제</p> </li> 
+     <li>리소스 관리</li> 
+     <li>프로젝트</li> 
+     <li>작업</li> 
+     <li>문제</li> 
     </ul>
-
-</td> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>할당이 포함된 프로젝트, 작업 및 문제에 대한 Contribute 권한 이상</p> </td> 
+   <td>할당이 포함된 프로젝트, 작업 및 문제에 대한 Contribute 권한 이상</td> 
   </tr> 
  </tbody> 
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -100,27 +93,27 @@ Adobe Workfront 업무 균형자 를 사용하여 여러 작업 및 문제에 �
 
 1. (조건부) 리소스 영역 또는 팀에서 업무 균형자에 액세스하는 경우 **프로젝트: 이름** 드롭다운 메뉴를 확장하고 필터 수정자를 사용하여 할당할 프로젝트를 선택합니다. 이름(기본 옵션) 또는 상태별로 프로젝트를 선택할 수 있습니다.
 
-Workfront 필터 수정자에 대한 자세한 내용은 [필터 및 조건 수정자](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)를 참조하십시오.
+   Workfront 필터 수정자에 대한 자세한 내용은 [필터 및 조건 수정자](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)를 참조하십시오.
 
->[!NOTE]
->
->프로젝트에 대한 업무 균형자 를 액세스하면 기본적으로 프로젝트 이름 이 선택됩니다.
+   >[!NOTE]
+   >
+   >프로젝트에 대한 업무 균형자 를 액세스하면 기본적으로 프로젝트 이름 이 선택됩니다.
 
-![](assets/project-name-status-dropdown-bulk-assignments-wb-nwe-350x133.png)
+   ![](assets/project-name-status-dropdown-bulk-assignments-wb-nwe-350x133.png)
 
 1. (선택 사항) **프로젝트 작업 선택**&#x200B;을 클릭하여 할당하려는 작업을 선택한 다음 **작업: 이름** 드롭다운 메뉴에서 이름(기본 옵션) 또는 상태별로 작업을 선택하고 필터 수정자를 사용하여 특정 작업을 검색합니다.
 
-Workfront 필터 수정자에 대한 자세한 내용은 [필터 및 조건 수정자](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)를 참조하십시오.
+   Workfront 필터 수정자에 대한 자세한 내용은 [필터 및 조건 수정자](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)를 참조하십시오.
 
->[!NOTE]
->
->완료 상태의 작업은 선택할 수 없습니다.
+   >[!NOTE]
+   >
+   >완료 상태의 작업은 선택할 수 없습니다.
 
-![](assets/task-name-status-dropdown-bulk-assignments-wb-nwe-350x102.png)
+   ![](assets/task-name-status-dropdown-bulk-assignments-wb-nwe-350x102.png)
 
->[!TIP]
->
->문제와 작업에 일괄 할당하려면 이 선택을 비워 두십시오.
+   >[!TIP]
+   >
+   >문제와 작업에 일괄 할당하려면 이 선택을 비워 두십시오.
 
 1. (선택 사항) 선택한 기준 중 하나 옆에 있는 **삭제** 아이콘 ![](assets/delete.png)을(를) 클릭합니다
 

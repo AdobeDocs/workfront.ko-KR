@@ -6,16 +6,14 @@ description: 업무 균형자에서 요약 패널을 열어 할당된 작업 영
 author: Lisa
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
-source-git-commit: d19b817aabf169e1b8f38bf63f6ca5cc3c0de308
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 1%
+source-wordcount: '403'
+ht-degree: 2%
 
 ---
 
 # 요약을 사용하여 업무 균형자에서 작업 항목 업데이트
-
-{{highlighted-preview}}
 
 작업 또는 문제의 요약 패널을 사용하여 해당 항목에 대한 중요한 정보를 업데이트할 수 있습니다. 업무 균형자에서.
 
@@ -23,40 +21,46 @@ ht-degree: 1%
 
 ## 액세스 요구 사항
 
-다음 항목이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
+이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
    <td> <p>임의 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>리소스 조달 영역에서 업무 균형자 를 사용할 때 계획</p>
-   <p>팀 또는 프로젝트의 업무 균형자 를 사용할 때 작업</p> 
- </p> </td> 
-  </tr> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td><p>새로운 기능: 표준</p>
+       <p>또는</p>
+       <p>현재: 리소스 조달 영역에서 업무 균형자 사용 시 계획;</br>
+       팀 또는 프로젝트의 업무 균형자 를 사용할 때 작업</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
+   <td role="rowheader">액세스 수준 구성</td> 
    <td> <p>다음에 대한 액세스 권한 편집:</p> 
     <ul> 
-     <li> <p>리소스 관리</p> </li> 
-     <li> <p>프로젝트</p> </li> 
-     <li> <p>작업</p> </li> 
-     <li> <p>문제</p> </li> 
-    </ul> <p>여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+     <li>리소스 관리</li> 
+     <li>프로젝트</li> 
+     <li>작업</li> 
+     <li>문제</li> 
+    </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>프로젝트, 작업 및 문제에 대한 Contribute 권한 이상 </p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
+   <td>프로젝트, 작업 및 문제에 대한 Contribute 권한 이상</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 업무 균형자 요약 패널에서 작업 및 문제 업데이트
 
@@ -82,15 +86,7 @@ ht-degree: 1%
 
    오른쪽에 요약 패널이 열립니다.
 
-   <div class="preview">
-
-   미리보기 환경의 요약 패널 예:
    ![요약 패널](assets/summary-panel-task-wb-new-comments.png)
-
-   </div>
-
-   프로덕션 환경의 요약 패널 예:
-   ![요약 패널](assets/summary-panel-for-task-in-workload-balancer-350x449.png)
 
 1. 작업 항목에 대한 필드 수를 수정하거나, 업데이트를 입력하거나, 여기에서 Workfront의 다른 영역으로 이동하여 작업 항목에 문서 또는 기타 정보를 추가합니다.
 

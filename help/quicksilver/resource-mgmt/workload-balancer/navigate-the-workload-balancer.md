@@ -6,9 +6,9 @@ description: 업무 균형자 를 사용하여 리소스의 가용성을 이해�
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
-source-wordcount: '4146'
+source-wordcount: '4068'
 ht-degree: 0%
 
 ---
@@ -21,47 +21,9 @@ Adobe Workfront의 업무 균형자 를 사용하여 가용성에 따라 사용�
 
 업무 균형자 위치에 대한 자세한 내용은 [업무 균형자 찾기](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer.html?lang=en)를 참조하십시오.
 
-
 ## 액세스 요구 사항
 
-<!--drafted - replace table for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-<td><p>Current license: Standard </p>
-    Or 
-<p>Legacy license:</p>
-    <ul>
-    <li><p>Plan, when using the Workload Balancer for a team or in the Resourcing area </p></li>
-    <li><p>Work, when using the Workload Balancer of a project </p></li>
-    </ul>
- </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to the following:</p> 
-    <ul> 
-     <li> <p>Resource Management</p> </li> 
-     <li> <p>Projects</p> </li> 
-     <li> <p>Tasks</p> </li> 
-     <li> <p>Issues</p> </li> 
-    </ul> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to the projects, tasks, and issues </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -70,33 +32,37 @@ Adobe Workfront의 업무 균형자 를 사용하여 가용성에 따라 사용�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
    <td> <p>임의 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>리소스 조달 영역에서 업무 균형자 를 사용할 때 계획</p>
-   <p>팀 또는 프로젝트의 업무 균형자 를 사용할 때 작업</p>
- </td> 
-  </tr> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td><p>새로운 기능: 표준</p>
+       <p>또는</p>
+       <p>현재: 리소스 조달 영역에서 업무 균형자 사용 시 계획;</br>
+       팀 또는 프로젝트의 업무 균형자 를 사용할 때 작업</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
+   <td role="rowheader">액세스 수준 구성</td> 
    <td> <p>다음에 대한 액세스 권한 이상:</p> 
     <ul> 
-     <li> <p>리소스 관리</p> </li> 
-     <li> <p>프로젝트</p> </li> 
-     <li> <p>작업</p> </li> 
-     <li> <p>문제</p> </li> 
-    </ul> <p>여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 변경하는 방법에 대한 자세한 내용은 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+     <li>리소스 관리</li> 
+     <li>프로젝트</li> 
+     <li>작업</li> 
+     <li>문제</li> 
+    </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>프로젝트, 작업 및 문제에 대한 이상의 권한 보기 </p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
+   <td>프로젝트, 작업 및 문제에 대한 이상의 권한 보기</td> 
   </tr> 
  </tbody> 
 </table>
 
-*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 업무 균형자에서 항목을 보기 위한 고려 사항
 
@@ -156,7 +122,8 @@ Adobe Workfront의 업무 균형자 를 사용하여 가용성에 따라 사용�
 
 여러 프로젝트에 대한 업무 균형자 를 탐색하려면 다음을 수행하십시오.
 
-1. Workfront 오른쪽 상단의 **기본 메뉴** 아이콘 ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **리소스 조달**&#x200B;을(를) 클릭합니다.
+{{step1-to-resourcing}}
+
 1. 왼쪽 패널에서 **업무 균형자**&#x200B;를 클릭합니다.
 
    ![워크로드 밸런서](assets/nwe-balancer-global.png)
@@ -433,9 +400,11 @@ Adobe Workfront의 업무 균형자 를 사용하여 가용성에 따라 사용�
 
 팀의 업무 균형자 탐색은 여러 프로젝트에 대한 업무 균형자 탐색 방법과 유사합니다. 자세한 내용은 이 문서의 [여러 프로젝트에 대한 업무 균형자 탐색](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) 섹션을 참조하십시오.
 
-1. **주 메뉴** 아이콘 ![주 메뉴](assets/main-menu-icon.png)을 클릭한 다음 **팀**을 클릭합니다.
+{{step1-to-team}}
+
 홈 팀의 페이지가 기본적으로 표시됩니다.
-1. 왼쪽 패널에서 **업무 균형자**&#x200B;를 클릭합니다. 기본적으로 팀의 업무 균형자 가 표시되어야 합니다.
+
+1. 왼쪽 패널에서 **업무 균형자**&#x200B;를 클릭합니다.
 
    ![팀의 업무 균형자](assets/nwe-balancer-team-350x172.png)
 
@@ -448,7 +417,8 @@ Adobe Workfront의 업무 균형자 를 사용하여 가용성에 따라 사용�
 
 ## 단일 프로젝트의 업무 균형자 탐색
 
-1. **주 메뉴** 아이콘 ![주 메뉴](assets/main-menu-icon.png)을 클릭한 다음 **프로젝트**&#x200B;를 클릭합니다.
+{{step1-to-projects}}
+
 1. 프로젝트 이름을 클릭하여 프로젝트 페이지를 엽니다.
 1. 왼쪽 패널에서 **업무 균형자**&#x200B;를 클릭합니다. **자세히 표시**&#x200B;를 클릭한 다음 **업무 균형자**&#x200B;를 클릭해야 할 수 있습니다.
 

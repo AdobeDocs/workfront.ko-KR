@@ -6,7 +6,7 @@ description: 리소스 관리자는 사용자에게 작업을 할당하고 업�
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
 source-wordcount: '2898'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-다음 항목이 있어야 합니다.
+이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,26 +35,21 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td>
-   <p>리소스 조달 영역에서 업무 균형자 를 사용할 때 필요한 사항은 다음과 같습니다.</p>
-   <p>새로운 기능: 표준</p>
-   <p>또는</p>
-   <p>현재: 플랜</p>
-   <p>팀 또는 프로젝트의 업무 균형자 를 사용할 때 필요한 사항은 다음과 같습니다.</p>
-   <p>새로운 기능: 표준</p>
-   <p>또는</p>
-   <p>현재: 작업</p>
- </td> 
-  </tr> 
+   <td><p>새로운 기능: 표준</p>
+       <p>또는</p>
+       <p>현재: 리소스 조달 영역에서 업무 균형자 사용 시 계획;</br>
+       팀 또는 프로젝트의 업무 균형자 를 사용할 때 작업</p></td>
+  </tr>
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
    <td> <p>다음에 대한 액세스 권한 편집:</p> 
     <ul> 
-     <li> <p>리소스 관리</p> </li> 
-     <li> <p>프로젝트</p> </li> 
-     <li> <p>작업</p> </li> 
-     <li> <p>문제</p> </li> 
-    </ul> </td> 
+     <li>리소스 관리</li> 
+     <li>프로젝트</li> 
+     <li>작업</li> 
+     <li>문제</li> 
+    </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
