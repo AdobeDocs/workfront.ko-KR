@@ -5,13 +5,13 @@ product-area: system-administration
 navigation-topic: workfront-testing-environments
 title: ' [!DNL Adobe Workfront] 샌드박스 환경 미리 보기'
 description: 미리보기 샌드박스는 라이브 환경의 복제본 역할을 하는 테스트 환경입니다. 그것은 Workfront에 의해 매 주말마다 새로 고쳐집니다. 금요일에 라이브 환경에 추가된 데이터는 다음 월요일까지 미리보기 샌드박스에 표시됩니다. 모든 지원 패키지는 이 샌드박스에 액세스할 수 있습니다.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1176'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 미리보기 샌드박스에 액세스하려면:
 
-1. [!DNL Adobe Workfront]의 오른쪽 위 모서리에 있는 **[!UICONTROL 기본 메뉴]** 아이콘 ![](assets/main-menu-icon.png)을 클릭한 다음 **[!UICONTROL 설정]** ![](assets/gear-icon-settings.png)을 클릭합니다.
+{{step-1-to-setup}}
 
 1. **[!UICONTROL 시스템]** > **[!UICONTROL 기본 설정]**&#x200B;을 클릭합니다.
 

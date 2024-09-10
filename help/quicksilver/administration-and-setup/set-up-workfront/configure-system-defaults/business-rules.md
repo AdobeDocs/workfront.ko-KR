@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 0a50e3aef47720d78e798f6111ee503389dde984
+source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
 workflow-type: tm+mt
 source-wordcount: '1152'
 ht-degree: 0%
@@ -80,7 +80,6 @@ API 와일드카드는 비즈니스 규칙에서도 사용할 수 있습니다. 
 * before 상태가 존재하지 않으므로 개체 만들기 트리거에서 `$$AFTER_STATE`만 허용합니다.
 * after 상태가 존재하지 않으므로 개체 삭제 트리거에서는 `$$BEFORE_STATE`만 허용합니다.
 
-
 몇 가지 간단한 비즈니스 규칙 시나리오는 다음과 같습니다.
 
 * 2월 마지막 주 중에는 새 경비를 추가할 수 없습니다. 이 수식은 다음과 같이 지정할 수 있습니다. `IF(MONTH($$TODAY) = 2 && DAYOFMONTH($$TODAY) >= 22, "You cannot add new expenses during the last week of February.")`
@@ -92,7 +91,7 @@ API 와일드카드는 비즈니스 규칙에서도 사용할 수 있습니다. 
 
 ```
 IF(
-    {status}="CPL",
+    $$AFTER_STATE.{status}="CPL",
     "You cannot edit a completed project",
     IF(
         MONTH({plannedCompletionDate})=3,

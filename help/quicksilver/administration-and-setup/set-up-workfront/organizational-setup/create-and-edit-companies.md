@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 1b3e0ab2d8ee37b7583d0b8fb0472b2fc9623da0
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '1473'
+source-wordcount: '1419'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-[!DNL Workfront]에서 회사를 관리하려면 다음 항목이 있어야 합니다.
+이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -38,9 +38,9 @@ ht-degree: 0%
    <td>임의</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!DNL Adobe Workfront] 라이센스*</p> </td> 
+   <td role="rowheader"> <p>[!DNL Adobe Workfront] 라이센스</p> </td> 
    <td><p>현재: [!UICONTROL Plan]</p>
-   또는
+   <p>또는</p>
    <p>새로운 기능: [!UICONTROL Standard]</p>
    </td> 
   </tr> 
@@ -48,22 +48,23 @@ ht-degree: 0%
    <td role="rowheader">액세스 수준 구성</td> 
    <td> <p>다음 중 하나:</p> 
     <ul> 
-     <li> <p>시스템에서 회사를 편집할 수 있는 [!UICONTROL 시스템 관리자] 액세스 수준입니다. 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md">사용자에게 전체 관리 액세스 권한 부여</a>를 참조하십시오. </p> </li> 
-     <li> <p>회사 관리에 대한 관리 액세스 권한으로, 시스템에서 모든 회사를 편집할 수 있습니다. 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md">특정 영역에 대한 관리자 액세스 권한 부여</a>를 참조하십시오.</p> </li> 
+     <li> <p>시스템에서 회사를 편집할 수 있는 [!UICONTROL 시스템 관리자] 액세스 수준입니다.</p> </li> 
+     <li> <p>회사 관리에 대한 관리 액세스 권한으로, 시스템에서 모든 회사를 편집할 수 있습니다.</p> </li> 
     </ul> <p><b>참고</b>:  
      <ul> 
       <li> <p>그룹 관리자로 할당된 모든 그룹과 연결된 회사를 관리할 수도 있습니다.</p> </li> 
       <li> <p>[!DNL Workfront] 시스템에 사용자를 추가하고 제거하려면 다음 중 하나가 있어야 합니다.</p> 
        <ul> 
-        <li> <p>[!UICONTROL 시스템 관리자] 액세스 수준입니다. 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">사용자에게 전체 관리 액세스 권한 부여</a>를 참조하십시오. </p> </li> 
+        <li> <p>[!UICONTROL 시스템 관리자] 액세스 수준입니다. </p> </li> 
         <li> <p>액세스 수준에서 [!UICONTROL 사용자] 설정에 대해 [!UICONTROL 편집]을 선택해야 합니다. 또한 [!UICONTROL 사용자] 설정의 경우 [!UICONTROL 설정 미세 조정] <img src="assets/gear-icon-in-access-levels.png">에서 [!UICONTROL 만들기] 옵션과 두 [!UICONTROL 사용자 관리] 옵션 중 하나 이상을 활성화해야 합니다. </p> <p> <img src="assets/access-req-users.png"> </p> <p>[!UICONTROL 사용자 관리자(그룹 사용자)] 옵션을 사용하는 경우 사용자가 멤버인 그룹의 그룹 관리자여야 합니다.</p> </li> 
-       </ul> <p>액세스 수준의 사용자 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">사용자에게 액세스 권한 부여</a>를 참조하십시오.</p> </li> 
+       </ul>
+       </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;플랜, 라이선스 유형 또는 액세스 수준 구성을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요. 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -91,11 +92,12 @@ ht-degree: 0%
 
 회사를 추가하거나 편집하려면:
 
-{#step-1-to-setup}
+{{step-1-to-setup}}
 
 1. **[!UICONTROL 회사]**&#x200B;를 클릭합니다.
 
    회사 목록이 표시됩니다.
+
 1. 회사를 추가하려면 **[!UICONTROL 새 회사]**&#x200B;를 클릭하세요.
 
    또는

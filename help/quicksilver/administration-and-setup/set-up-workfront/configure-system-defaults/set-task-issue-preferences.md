@@ -8,14 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 51b8e474cefe63b4db8c42e480990ca0ba431a4d
+source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
 workflow-type: tm+mt
-source-wordcount: '2075'
+source-wordcount: '2073'
 ht-degree: 0%
 
 ---
 
-# 시스템 전체에서 작업 및 문제 환경 설정 구성하기
+# 시스템 전체에서 작업 및 문제 환경 설정 구성
 
 <!-- Audited: 2/2024 -->
 
@@ -49,7 +49,7 @@ Linked to Converting Issues.-->
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>[!DNL Workfront] 관리자여야 합니다.</p> </td> 
+   <td>[!UICONTROL 시스템 관리자]</td>
   </tr> 
  </tbody> 
 </table>
@@ -74,7 +74,7 @@ Linked to Converting Issues.-->
 
    <!--
 <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">작업</a> </li>
-  -->
+  —&gt;
 
 * [[!UICONTROL 액세스]](#access)
 
