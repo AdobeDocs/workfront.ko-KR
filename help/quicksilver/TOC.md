@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: d43bc45ca400846307958fc15e04e16ef37eff11
 workflow-type: tm+mt
-source-wordcount: '14362'
+source-wordcount: '14372'
 ht-degree: 2%
 
 ---
@@ -172,6 +172,7 @@ ht-degree: 2%
          * [21.1 기타 개선 사항](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Fusion 릴리스 활동 {#fusion-release}
          * [Adobe Workfront Fusion 릴리스 활동](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+         * [Workfront Fusion 릴리스 활동: 2024년 8월 19일 주](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-8-19.md)
          * [Workfront Fusion 릴리스 활동: 2024년 8월 5일 주](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-8-5.md)
          * [Workfront Fusion 릴리스 활동: 2024년 7월 29일 주](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-7-29.md)
          * [Workfront Fusion 릴리스 활동: 2024년 7월 22일 주](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-7-22.md)
@@ -655,7 +656,7 @@ ht-degree: 2%
          * [변경 사항이 할당된 승인 프로세스에 미치는 영향](administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md)
          * [마일스톤 경로 만들기](administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)
       * 사용자 지정 조건 {#custom-conditions} 만들기 및 관리
-         * [사용자 정의 상태](administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)
+         * [사용자 정의 조건](administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)
          * [조건 만들기 또는 편집](administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md)
          * [조건의 표시 순서 변경](administration-and-setup/customize-workfront/create-manage-custom-conditions/change-display-order-of-conditions.md)
          * [프로젝트 기본값으로 조건 설정](administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md)
@@ -793,14 +794,14 @@ ht-degree: 2%
       * [Adobe Experience Manager 레거시 커넥터를 사용하여 Workfront 구성](administration-and-setup/configure-integrations/configure-workfront-aem.md)
       * [사용자가 모바일 애플리케이션에 액세스할 수 있도록 설정](administration-and-setup/configure-integrations/enable-users-access-mobile-app.md)
       * [Outlook용 Adobe Workfront 활성화](administration-and-setup/configure-integrations/enable-workfront-for-outlook.md)
-      * [문서 통합 구성하기](administration-and-setup/configure-integrations/configure-document-integrations.md)
+      * [문서 통합 구성](administration-and-setup/configure-integrations/configure-document-integrations.md)
       * [문서 통합 비활성화](administration-and-setup/configure-integrations/disable-document-integrations.md)
       * [SharePoint 통합 구성](administration-and-setup/configure-integrations/configure-sharepoint-integration.md)
       * [메타데이터 매핑 설정](administration-and-setup/configure-integrations/set-up-metadata-mapping.md)
       * [Adobe Admin Console에서 사용자를 위한 Adobe Workfront Creative Cloud 패키지 만들기](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
       * [Workfront 통합을 위한 OAuth2 애플리케이션 만들기](administration-and-setup/configure-integrations/create-oauth-application.md)
       * [사용자 정의 OAuth2 애플리케이션 보기 및 관리](administration-and-setup/configure-integrations/manage-custom-oauth2-apps.md)
-      * [JumpSeat 통합 구성하기](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)
+      * [JumpSeat 통합 구성](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)
    * 블루프린트 {#blueprints}
       * [블루프린트](administration-and-setup/blueprints/blueprints.md)
       * [블루프린트 개요](administration-and-setup/blueprints/blueprints-overview.md)
@@ -1450,6 +1451,7 @@ ht-degree: 2%
          * [포트폴리오에서 프로젝트 제거](manage-work/portfolios/create-and-manage-portfolios/remove-project-from-portfolio.md)
          * [요청된 프로젝트 검토](manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md)
       * {#create-and-manage-programs} 프로그램 만들기 및 관리
+         * [ [!DNL Adobe Workfront]의 프로그램 개요](manage-work/portfolios/create-and-manage-programs/programs-overview.md)
          * [프로그램 제작 및 관리](manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)
          * [프로그램 만들기](manage-work/portfolios/create-and-manage-programs/create-program.md)
          * [프로그램 편집](manage-work/portfolios/create-and-manage-programs/edit-programs.md)

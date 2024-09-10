@@ -7,16 +7,18 @@ description: 템플릿을 만든 후 템플릿 작업에 대한 정보를 편집
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
 workflow-type: tm+mt
-source-wordcount: '2385'
+source-wordcount: '2409'
 ht-degree: 4%
 
 ---
 
 # 템플릿 작업 편집
 
-템플릿을 만든 후 템플릿 작업에 대한 정보를 편집할 수 있습니다. 템플릿을 사용하여 프로젝트를 만들거나 템플릿을 프로젝트에 첨부한 후에는 템플릿 작업에 대해 업데이트하는 정보가 프로젝트 작업과 연결됩니다.
+<!--Audited: 09/2024-->
+
+템플릿을 만든 후 템플릿 작업의 정보를 편집할 수 있습니다. 템플릿을 사용하여 프로젝트를 만들거나 템플릿을 프로젝트에 첨부한 후에는 템플릿 작업에 대해 업데이트하는 정보가 프로젝트 작업과 연결됩니다.
 
 템플릿 만들기에 대한 자세한 내용은 [프로젝트 템플릿 만들기](../../../manage-work/projects/create-and-manage-templates/create-template.md)를 참조하십시오.
 
@@ -28,6 +30,8 @@ ht-degree: 4%
 
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -55,7 +59,9 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-*보유 중인 플랜, 라이선스 유형 또는 액세스 수준을 확인하려면 Workfront 관리자에게 문의하십시오. 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 전제 조건
 
@@ -88,7 +94,7 @@ ht-degree: 4%
 
    >[!TIP]
    >
-   >세부 정보 영역에 표시되는 모든 필드에 대한 자세한 내용은 아래의 템플릿 작업 편집 상자를 사용하여 모든 필드 편집을 계속하십시오.
+   >세부 정보 영역에 표시되는 모든 필드에 대한 자세한 내용은 아래 설명된 대로 템플릿 작업 편집 상자를 사용하여 모든 필드를 계속 편집합니다.
 
 1. (조건부) 템플릿 작업에 대한 모든 정보를 편집하려면 템플릿 작업 이름 옆에 있는 **자세히** 메뉴 ![](assets/qs-more-icon-on-an-object.png)을(를) 클릭한 다음 **편집**&#x200B;을(를) 클릭합니다.
 
@@ -212,7 +218,7 @@ ht-degree: 4%
 
 ### 재무 {#finance}
 
-1. 위에서 설명한 대로 작업 편집을 시작합니다.
+1. 위에서 설명한 대로 템플릿 작업 편집을 시작합니다.
 1. **재무**&#x200B;을 클릭합니다.
 
    ![edit_task_finance.png](assets/edit-task-finance-350x216.png)
@@ -259,7 +265,7 @@ ht-degree: 4%
 
 ### 설정 {#settings}
 
-1. 위에서 설명한 대로 작업 편집을 시작합니다.
+1. 위에서 설명한 대로 템플릿 작업 편집을 시작합니다.
 1. **설정**&#x200B;을 클릭합니다.
 
    ![](assets/edit-template-tasks-settings-classic-350x231.png)
@@ -319,7 +325,7 @@ ht-degree: 4%
 
 ### 할당 {#assignments}
 
-1. 위에서 설명한 대로 작업 편집을 시작합니다.
+1. 위에서 설명한 대로 템플릿 작업 편집을 시작합니다.
 1. **할당**&#x200B;을 클릭합니다.
 
    ![assignments_edit_tasks.png](assets/assignments-edit-tasks-350x87.png)
@@ -343,14 +349,22 @@ ht-degree: 4%
 
 ### 사용자 정의 양식 {#custom-forms}
 
-작업이 프로젝트에 추가될 때 작업에 자동으로 첨부될 기본 사용자 정의 양식을 정의할 수 있습니다. 기본 작업 사용자 정의 양식을 포함하도록 프로젝트를 설정하는 방법에 대한 자세한 내용은 문서 [프로젝트 편집](../../../manage-work/projects/manage-projects/edit-projects.md)의 &quot;작업&quot; 섹션을 참조하십시오.
+작업이 프로젝트에 추가될 때 기본적으로 작업에 자동으로 첨부될 사용자 정의 양식을 정의할 수 있습니다. 기본 작업 사용자 정의 양식을 포함하도록 프로젝트를 설정하는 방법에 대한 자세한 내용은 문서 [프로젝트 편집](../../../manage-work/projects/manage-projects/edit-projects.md)의 &quot;작업&quot; 섹션을 참조하십시오.
 
-1. 위에서 설명한 대로 작업 편집을 시작합니다. 테스트
+템플릿 작업에 사용자 정의 양식을 추가하여 템플릿에서 프로젝트를 만들 때 프로젝트의 향후 작업에 사용자 정의 양식을 추가할 수도 있습니다.
+
+1. 위에서 설명한 대로 템플릿 작업 편집을 시작합니다.
 1. **사용자 지정 Forms**&#x200B;을 클릭합니다.
 
    ![custom_forms_edit_task.png](assets/custom-forms-edit-task-350x136.png)
 
-1. 템플릿 작업과 연결할 사용자 정의 양식을 선택합니다. 이 필드에서 사용자 정의 양식을 선택하려면 먼저 사용자 정의 양식을 작성해야 합니다. 활성 사용자 정의 양식만 목록에 표시됩니다. 사용자 정의 양식 작성에 대한 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오. 템플릿 작업에 최대 10개의 사용자 정의 양식을 추가할 수 있습니다. 양식은 템플릿에서 만든 작업에 자동으로 추가됩니다.
+1. 템플릿 작업과 연결할 사용자 정의 양식을 선택합니다.
+
+   이 필드에서 사용자 정의 양식을 선택하려면 먼저 사용자 정의 양식을 작성해야 합니다.
+활성 사용자 정의 양식만 목록에 표시됩니다.
+사용자 정의 양식 작성에 대한 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
+템플릿 작업에 최대 10개의 사용자 정의 양식을 추가할 수 있습니다.
+양식은 템플릿에서 만든 작업에 자동으로 추가됩니다.
 1. (조건부 및 선택 사항) 사용자 정의 양식을 템플릿 작업에 첨부한 경우 양식의 모든 필드를 편집합니다. 템플릿 작업을 저장하려면 모든 필수 필드를 지정해야 합니다.
 
    >[!NOTE]
@@ -368,14 +382,12 @@ ht-degree: 4%
 
 ### 댓글 {#comment}
 
-1. 위에서 설명한 대로 작업 편집을 시작합니다.
+1. 위에서 설명한 대로 템플릿 작업 편집을 시작합니다.
 1. **댓글**&#x200B;을 클릭하세요.
 
    ![comment_edit_task.png](assets/comment-edit-task-350x138.png)
 
 1. 사용 가능한 필드에 템플릿 작업의 업데이트 스트림에 표시할 주석을 지정합니다. 이 주석은 템플릿 및 템플릿 작업에 대한 보기 액세스 권한이 있고 메모를 볼 수 있는 액세스 권한이 있는 모든 사용자가 볼 수 있습니다.
 1. **변경 내용 저장**&#x200B;을 클릭합니다.
-
-   이 템플릿 작업에 대한 변경 사항이 제출됩니다.
 
    사용자 또는 다른 사용자가 이 템플릿에서 프로젝트를 만들 때 템플릿 작업에 적용한 모든 설정이 프로젝트 작업의 설정이 됩니다.

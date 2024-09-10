@@ -6,20 +6,24 @@ description: Portfolio 또는 프로젝트 Portfolio 관리(PPM)는 특정 비�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 26fb28ce-0957-4db6-a275-174b1d149180
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '646'
 ht-degree: 1%
 
 ---
 
 # Portfolio 관리 개요
 
-<!--Audited: 12/2023-->
+<!--Audited: 09/2024-->
 
 ## 프로젝트 Portfolio 관리 개요(PPM)
 
-Portfolio 또는 프로젝트 Portfolio 관리(PPM)는 특정 비즈니스 목표를 달성하기 위해 프로젝트 목록을 우선 순위 지정하고 관리하는 프로세스입니다. 따라서 포트폴리오는 일반적인 비즈니스 목표를 가진 프로젝트의 컬렉션입니다. 효과적인 PPM 방법론의 결과로 경영진은 다음과 같은 이점을 얻을 수 있습니다.
+Portfolio 또는 프로젝트 Portfolio 관리(PPM)는 특정 비즈니스 목표를 달성하기 위해 프로젝트 목록을 우선 순위 지정하고 관리하는 프로세스입니다.
+
+이 문서에서는 포트폴리오 관리에 대한 일반적인 개념을 설명합니다. Adobe Workfront의 포트폴리오 관리에 대한 일반적인 정보는 [Adobe Workfront의 Portfolio 개요](/help/quicksilver/manage-work/portfolios/portfolios-overview/portfolio-overview.md)를 참조하십시오.
+
+포트폴리오는 일반적인 비즈니스 목표를 가진 프로젝트 모음입니다. 효과적인 PPM 방법론의 결과로 경영진은 다음과 같은 이점을 얻을 수 있습니다.
 
 * 포트폴리오의 모든 프로젝트를 식별합니다.
 * 각 프로젝트가 리소스, 비용 및 매출에 미치는 영향을 이해합니다.
@@ -40,12 +44,12 @@ Portfolio 또는 프로젝트 Portfolio 관리(PPM)는 특정 비즈니스 목�
 
 다음 다이어그램은 [!DNL Workfront]의 PPM 프로세스에 대한 높은 수준의 개요를 보여 줍니다.
 
-![](assets/pm1-350x88.png)
+![](assets/project-portfolio-management-process-diagram.png)
 
 * [프로젝트 요청](#project-request)
 * [프로젝트 검토](#project-review)
 * [포트폴리오 최적화](#portfolio-optimization)
-* [리소스 계획 수립](#resource-planning)
+* [리소스 관리](#resource-management)
 * [프로젝트 실행](#project-execution)
 * [사후에 프로젝트](#project-postmortem)
 
@@ -59,7 +63,7 @@ Portfolio 또는 프로젝트 Portfolio 관리(PPM)는 특정 비즈니스 목�
 
 프로젝트 요청을 제출하면 Portfolio 관리자 또는 경영진 팀이 이를 검토하고 프로젝트 승인 여부를 결정합니다. 사용자가 프로젝트를 승인하면 프로젝트가 회사 프로젝트 Portfolio에 대해 선택됩니다.
 
-포트폴리오에 대한 자세한 내용은 [Portfolio 개요 [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)비즈니스 사례 승인에 대한 자세한 내용은 [비즈니스 사례 승인](../../../manage-work/projects/define-a-business-case/approve-business-case.md)을 참조하세요.
+포트폴리오에 대한 자세한 내용은 [Portfolio 개요 [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)를 참조하십시오. 비즈니스 사례 승인에 대한 자세한 내용은 [비즈니스 사례 승인](../../../manage-work/projects/define-a-business-case/approve-business-case.md)을 참조하세요.
 
 ### 포트폴리오 최적화 {#portfolio-optimization}
 
@@ -67,7 +71,7 @@ Portfolio 또는 프로젝트 Portfolio 관리(PPM)는 특정 비즈니스 목�
 
 포트폴리오 최적화에 대한 자세한 내용은 [Portfolio 최적화 도구에서 프로젝트 최적화](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)를 참조하십시오.
 
-### 리소스 계획 수립 {#resource-planning}
+### 리소스 관리 {#resource-management}
 
 리소스 관리자는 포트폴리오의 성과를 최적화하고 프로젝트의 우선 순위를 지정할 뿐만 아니라 적절한 리소스가 프로젝트에 할당되도록 합니다. [!DNL Workfront]에서 사용할 수 있는 리소스 관리 도구를 사용하여 리소스의 사용 가능 여부 및 할당을 평가합니다.
 
@@ -79,7 +83,8 @@ Portfolio 또는 프로젝트 Portfolio 관리(PPM)는 특정 비즈니스 목�
 
 프로젝트 소유자로서 Portfolio 관리자의 프로젝트 승인과 리소스 관리자의 리소스 유효성 검사를 받은 후 프로젝트를 [!UICONTROL 현재] 상태로 설정할 수 있으며, 사용자가 작업을 시작하여 프로젝트를 완료할 수 있습니다. 이 단계에서 프로젝트의 기준선을 캡처하여 프로젝트에 대한 참조점을 원래 상태로 유지하는 것이 좋습니다.
 
-[!DNL Workfront]에서 프로젝트를 관리하는 방법에 대한 자세한 내용은 [프로젝트 관리: 문서 인덱스](../../../manage-work/projects/manage-projects/manage-projects-overview.md)를 참조하십시오.\
+[!DNL Workfront]에서 프로젝트를 관리하는 방법에 대한 자세한 내용은 [프로젝트 관리: 문서 인덱스](../../../manage-work/projects/manage-projects/manage-projects-overview.md)를 참조하십시오.
+
 프로젝트에서 기준선을 만드는 방법에 대한 자세한 내용은 [프로젝트 기준선 만들기](../../../manage-work/projects/create-projects/create-baselines.md)를 참조하십시오.
 
 ### 사후에 프로젝트 {#project-postmortem}

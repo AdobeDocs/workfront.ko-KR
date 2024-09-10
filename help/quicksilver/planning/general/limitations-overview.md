@@ -5,13 +5,13 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
+exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
+source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 1%
 
 ---
-
 
 <!--check the workfront.com/plans article linked below to see if there is content in there about Planning - after August 28, 2024-->
 
@@ -34,7 +34,7 @@ Adobe Workfront Planning에는 인스턴스에서 생성할 수 있는 객체 �
 | Workfront Planning 인스턴스 하나에 대한 총 레코드 수 | Planning Plus를 사용하는 고객의 경우 50만 명, Planning Plus를 사용하는 고객의 경우 <br>2만 명 |
 | 하나의 레코드 유형 또는 분류법에 대한 필드 수 | 500 |
 | 한 줄 텍스트 필드의 문자 수 | 1,000자 |
-| 단락 필드의 문자 수 | 100,000자 |
+| 단락 필드의 문자 수 | 10,000자 |
 | 하나의 레코드 종류에 대한 단락 필드 수 | 20개 단락 필드 |
 | 레코드 종류 표에 붙여 넣을 수 있는 파일 크기 | 1MB |
 | 레코드 유형 테이블에 대한 API를 통해 가져올 수 있는 파일의 크기입니다. | 1.5MB |
@@ -73,4 +73,3 @@ Workfront Planning 가격 및 패키징에 대한 자세한 내용은 [Adobe Wor
 <!--[!IMPORTANT]
 >
 >*This functionality has been temporarily removed and it will be available at a later date.-->
-
