@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3dd99d01-a32f-4af8-90e3-f8c0e9027651
-source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
+source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -49,18 +49,20 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td>플랜</td> 
+   <td><p>새로운 기능: 표준</p><p>또는</p><p>현재: 플랜</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
    <td> <p>다음 중 하나가 있어야 합니다.</p> 
     <ul> 
-     <li> <p>시스템 관리자 액세스 수준입니다. 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">사용자에게 전체 관리 액세스 권한 부여</a>를 참조하십시오. </p> </li> 
-     <li> <p>액세스 수준의 <b>사용자</b> 설정이 <b>편집</b> 액세스로 구성되었으며, <b>만들기</b>와 <b>설정을 미세 조정</b> <img src="assets/gear-icon-in-access-levels.png">에서 두 개의 <b>사용자 관리</b> 옵션 중 하나 이상을 사용할 수 있습니다. </p> <p>이 두 옵션 중 사용자 <b>관리자(그룹 사용자)</b>이(가) 활성화된 경우 사용자가 멤버인 그룹의 그룹 관리자여야 합니다.</p> <p>액세스 수준의 <b>사용자</b> 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">사용자에게 액세스 권한 부여</a>를 참조하십시오.</p> </li> 
+     <li> <p>시스템 관리자 액세스 수준입니다. </li> 
+     <li> <p>액세스 수준의 <b>사용자</b> 설정이 <b>편집</b> 액세스로 구성되었으며, <b>만들기</b>와 <b>설정을 미세 조정</b> <img src="assets/gear-icon-in-access-levels.png">에서 두 개의 <b>사용자 관리</b> 옵션 중 하나 이상을 사용할 수 있습니다. </p> <p>이 두 옵션 중 사용자 <b>관리자(그룹 사용자)</b>이(가) 활성화된 경우 사용자가 멤버인 그룹의 그룹 관리자여야 합니다.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
+
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 

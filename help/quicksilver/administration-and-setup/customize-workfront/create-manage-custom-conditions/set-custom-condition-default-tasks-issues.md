@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 40b426f4-0a9c-49a6-91c7-b5f8aa48bd37
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
@@ -36,15 +36,21 @@ Workfront에서는 기본 제공 조건 원활하게 진행 중 을 작업의 �
    <td>임의</td> 
   </tr> 
   <tr> 
+  <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td>플랜</td> 
+   <td><p>새로운 기능: 표준</p>
+       <p>또는</p>
+       <p>현재: 플랜</p></td>
+  </tr> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>Workfront 관리자여야 합니다.</p> <p><b>참고</b>: 아직 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정했는지 문의하세요. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+   <td>[!UICONTROL 시스템 관리자]</td>
   </tr> 
  </tbody> 
 </table>
+
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 

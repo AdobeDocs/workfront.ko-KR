@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3d523584-dcb8-4aa6-8217-611f22dc1450
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '960'
 ht-degree: 1%
 
 ---
@@ -42,7 +42,7 @@ SSO(Single Sign-On)를 사용하여 ID 공급자의 Active Directory에서 Adobe
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>Workfront 관리자여야 합니다.</p> </td> 
+   <td>[!UICONTROL 시스템 관리자]</td>
   </tr> 
  </tbody> 
 </table>

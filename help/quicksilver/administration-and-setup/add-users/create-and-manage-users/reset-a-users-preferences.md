@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
+source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '404'
 ht-degree: 2%
 
 ---
@@ -45,7 +45,7 @@ Adobe Workfront 관리자는 Workfront 시스템의 모든 사용자에 대한 �
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>Workfront 관리자여야 합니다.</p> </td> 
+   <td>[!UICONTROL 시스템 관리자]</td>
   </tr> 
  </tbody> 
 </table>

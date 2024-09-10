@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
+source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
 workflow-type: tm+mt
-source-wordcount: '2174'
+source-wordcount: '2180'
 ht-degree: 1%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 1%
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-다음 항목이 있어야 합니다.
+이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -56,14 +56,14 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td> <p>새 플랜: 표준 </p>
+   <td> <p>새로운 기능: 표준 </p>
  <p>또는</p> 
-<p>현재 플랜: 플랜 </p> 
+<p>현재: 플랜 </p> 
 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>Workfront 관리자이거나 승인 프로세스에 대한 관리 액세스 권한이 있는 경우 시스템 수준 승인 프로세스나 특정 그룹에 대한 그룹 수준 승인 프로세스를 만들 수 있습니다.</p> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>시스템 관리자이거나 승인 프로세스에 대한 관리 액세스 권한이 있는 경우 특정 그룹에 대해 시스템 레벨 승인 프로세스나 그룹 레벨 승인 프로세스를 생성할 수 있습니다.</p> 
    <p>그룹 관리자인 경우 관리하는 그룹에 대해 그룹 수준 승인 프로세스를 만들 수 있습니다.</p> </td> 
   </tr> 
  </tbody> 

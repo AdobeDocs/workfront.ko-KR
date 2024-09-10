@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
+source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '738'
 ht-degree: 0%
 
 ---
@@ -61,20 +61,20 @@ Some users, such as executives, need to be able to control which administrators 
    <td>임의</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이센스*</td> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
    <td> <p>새로운 기능: 표준</p>
+   <p>또는</p>
    <p>현재: 플랜</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td> <p>시스템 관리자 액세스 수준을 사용하면 다른 사용자로 로그인할 수 있습니다. 이 액세스 수준에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">사용자에게 전체 관리 액세스 권한 부여</a>를 참조하십시오. </p> <p>Planner 액세스 수준을 사용하면 액세스 수준의 <b>사용자</b> 설정이 <b>편집</b> 액세스로 구성된 경우 <b>만들기</b> 및 <b>설정 세부 조정</b> <img src="assets/gear-icon-in-access-levels.png">에서 두 <b>사용자 관리</b> 옵션 중 하나 이상을 사용할 수 있으므로 라이선스 수준이 낮은 사용자로 로그인할 수 있습니다. </p> 
-   <p><b>참고</b>: 이 두 옵션 중 사용자 <b>관리자(그룹 사용자)</b>를 사용하도록 설정한 경우 사용자가 구성원인 그룹의 그룹 관리자여야 합니다.</p> 
-   <p>액세스 수준의 <b>사용자</b> 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">사용자에게 액세스 권한 부여</a>를 참조하십시오.</p> </td> 
+   <td> <p>시스템 관리자 액세스 수준을 사용하면 다른 사용자로 로그인할 수 있습니다.</p> <p>표준 또는 플래너 액세스 수준이 있는 경우, 액세스 수준의 <b>사용자</b> 설정이 <b>편집</b> 액세스로 구성되어 있고 <b>만들기</b>와 <b>설정 세부 조정</b> <img src="assets/gear-icon-in-access-levels.png">에서 두 <b>사용자 관리</b> 옵션 중 하나 이상을 사용할 수 있는 경우 라이선스 수준이 낮은 사용자로 로그인할 수 있습니다. </p> 
+   <p><b>참고</b>: 이 두 옵션 중 사용자 <b>관리자(그룹 사용자)</b>를 사용하도록 설정한 경우 사용자가 구성원인 그룹의 그룹 관리자여야 합니다.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 

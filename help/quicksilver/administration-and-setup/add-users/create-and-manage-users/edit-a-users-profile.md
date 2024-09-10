@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 1e70620514f180d547c61970c0dd49d281377ce5
+source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
 workflow-type: tm+mt
-source-wordcount: '3336'
+source-wordcount: '3298'
 ht-degree: 0%
 
 ---
@@ -48,26 +48,20 @@ Adobe Workfront 관리자는 사용자를 만들고 기존 사용자의 프로�
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td> <p>새로운 기능: 표준</p>
-   또는
-   <p>현재: 플랜</p></td> 
+   <td><p>새로운 기능: 표준</p><p>또는</p><p>현재: 플랜</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
    <td> <p>다음 중 하나가 있어야 합니다.</p> 
     <ul> 
-     <li> <p>시스템 관리자 액세스 수준입니다. 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">사용자에게 전체 관리 액세스 권한 부여</a>를 참조하십시오. </p> </li> 
-     <li> <p>액세스 수준의 <b>사용자</b> 개체가 <b>편집</b> 액세스로 구성되었으며, <b>만들기</b>와 다음 두 <b>사용자 관리</b> 옵션 중 하나 이상이 <b>설정 세부 조정</b> <img src="assets/gear-icon-in-access-levels.png">에서 활성화됩니다. </p> 
-     <ul><li> 사용 관리자(모든 사용자)</li>
-     <li>사용자 관리자(그룹 사용자)</li></ul>
-     <p><b>사용자 관리자(그룹 사용자)</b>를 사용하도록 설정한 경우 사용자를 편집하려면 사용자가 구성원인 그룹의 그룹 관리자여야 합니다.</p> 
-     <p>액세스 수준의 <b>사용자</b> 설정에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">사용자에게 액세스 권한 부여</a>를 참조하십시오.</p> </li> 
+     <li> <p>시스템 관리자 액세스 수준입니다. </li> 
+     <li> <p>액세스 수준의 <b>사용자</b> 설정이 <b>편집</b> 액세스로 구성되었으며, <b>만들기</b>와 <b>설정을 미세 조정</b> <img src="assets/gear-icon-in-access-levels.png">에서 두 개의 <b>사용자 관리</b> 옵션 중 하나 이상을 사용할 수 있습니다. </p> <p>이 두 옵션 중 사용자 <b>관리자(그룹 사용자)</b>이(가) 활성화된 경우 사용자가 멤버인 그룹의 그룹 관리자여야 합니다.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
