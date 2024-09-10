@@ -7,9 +7,9 @@ description: ' [!DNL Adobe Workfront] 을(를) 타사 응용 프로그램과 통
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: ac349d205d7526b03bebc497883f9ed1682191ad
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '550'
 ht-degree: 3%
 
 ---
@@ -45,6 +45,17 @@ ht-degree: 3%
      </ul>
      <li><p><a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>에서 다운로드/설치</p></li></ul>
      <p>자세한 내용 및 지침은 <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">[!DNL Creative Cloud]개 응용 프로그램용 [!DNL Adobe Workfront] 플러그 인 설치</a>를 참조하십시오.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Adobe Experience Manager Assets 및 Assets Essentials </p>  </p> </td> 
+   <td> 
+    <ul> 
+     <li>Workfront과 Adobe Experience Manager 간에 연결된 폴더 자동 생성 
+      <li>기존의 연결된 자산에 대한 메타데이터 동기화</p></li>
+      <li>Workfront에서 메타타가 변경되면 포트폴리오, 프로그램, 프로젝트, 작업, 문제 및 문서를 자동으로 업데이트합니다.</li>
+      <li>조직 ID를 통해 여러 Experience Manager Assets 저장소를 하나의 Workfront 환경에 또는 여러 Workfront 환경을 하나의 Experience Manager Assets 저장소에 원활하게 연결합니다</li></ul>
+     <p>자세한 내용 및 지침은 <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md" class="MCXref xref">Adobe Experience Manager Assets 통합 개요</a>를 참조하십시오.</p> 
+     </td>
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Box</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 
@@ -142,7 +153,7 @@ ht-degree: 3%
      <li>[!DNL Slack]에서 [!DNL Workfront]개의 알림 수신 </li> 
      <li>Slack에서 승인 관리 </li> 
      <li>[!DNL Slack]에서 [!DNL Workfront]개의 작업 및 문제 만들기 </li> 
-     <li>Slack에서 프로젝트 또는 작업에 대한 Post 주석</li> 
+     <li>Slack에서 프로젝트 또는 작업에 주석 게시</li> 
     </ul> </td> 
   </tr> 
   <tr> 

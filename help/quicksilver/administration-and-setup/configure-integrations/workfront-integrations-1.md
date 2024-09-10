@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: ac349d205d7526b03bebc497883f9ed1682191ad
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1260'
 ht-degree: 0%
 
 ---
@@ -101,6 +101,18 @@ ht-degree: 0%
      <p>자세한 내용 및 지침은 <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">[!DNL Creative Cloud]개 응용 프로그램용 [!DNL Adobe Workfront] 플러그 인 설치</a>를 참조하십시오.</p> 
      </td>  <td> </td> 
    <td> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Adobe Experience Manager Assets 및 Assets Essentials </p>  </p> </td> 
+   <td> 
+    <ul> 
+     <li>Workfront과 Adobe Experience Manager 간에 연결된 폴더 자동 생성 
+      <li>기존의 연결된 자산에 대한 메타데이터 동기화</p></li>
+      <li>Workfront에서 메타타가 변경되면 포트폴리오, 프로그램, 프로젝트, 작업, 문제 및 문서를 자동으로 업데이트합니다.</li>
+      <li>조직 ID를 통해 여러 Experience Manager Assets 저장소를 하나의 Workfront 환경에 또는 여러 Workfront 환경을 하나의 Experience Manager Assets 저장소에 원활하게 연결합니다</li></ul>
+     <p>자세한 내용 및 지침은 <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md" class="MCXref xref">Adobe Experience Manager Assets 통합 개요</a>를 참조하십시오.</p> 
+     </td>
+   <td><ul><li>Workfront은 할당된 조직 ID가 있는 Admin Console에 있어야 합니다.</li><li>Workfront 및 Experience Manager Assets 또는 Assets Essentials은 통합을 구성하는 사용자에게 제품으로 할당되어야 합니다.</li></ul></td>   <td> </td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Box]</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 

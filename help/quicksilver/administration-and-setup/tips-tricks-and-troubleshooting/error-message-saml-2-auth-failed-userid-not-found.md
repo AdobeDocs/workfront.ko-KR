@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 9467cdff-7965-49ba-ac13-ed79c496a725
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ ADFS에서 **신뢰 당사자 트러스트**&#x200B;에는 **UID** 또는 **이�
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td>[!DNL Workfront] 관리자여야 합니다. </td> 
+   <td>[!UICONTROL 시스템 관리자]</td> 
   </tr> 
  </tbody> 
 </table>

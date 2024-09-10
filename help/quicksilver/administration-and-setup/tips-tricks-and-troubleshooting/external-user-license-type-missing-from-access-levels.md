@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: fcc876d9-0512-424a-a731-6bbacd55af3f
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '142'
 ht-degree: 1%
 
 ---
@@ -23,8 +23,6 @@ ht-degree: 1%
 설정의 액세스 수준에 외부 사용자 라이선스 유형이 더 이상 표시되지 않습니다.
 
 ## 액세스 요구 사항
-
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
@@ -47,7 +45,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td>[!DNL Workfront] 관리자여야 합니다. </td> 
+   <td>[!UICONTROL 시스템 관리자]</td> 
   </tr> 
  </tbody> 
 </table>

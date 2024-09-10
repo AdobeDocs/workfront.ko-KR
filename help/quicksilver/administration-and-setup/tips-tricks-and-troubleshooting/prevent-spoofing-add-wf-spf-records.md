@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e93e3334-d72a-4f7b-9379-358f498c873b
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,6 @@ ht-degree: 0%
 사용자가 [!DNL Adobe Workfront]개의 전자 메일 알림을 받지 못하는 경우 [!DNL Workfront]개의 SPF 레코드를 방화벽에 추가해야 합니다. SPF 레코드를 추가하려면 IT 팀과 협력해야 합니다.
 
 ## 액세스 요구 사항
-
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
@@ -47,7 +45,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td>[!DNL Workfront] 관리자여야 합니다. </td> 
+   <td>[!UICONTROL 시스템 관리자]</td> 
   </tr> 
  </tbody> 
 </table>

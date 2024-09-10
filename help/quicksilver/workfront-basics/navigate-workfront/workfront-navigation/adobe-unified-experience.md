@@ -6,9 +6,9 @@ description: Adobe Experience Cloud을 통해  [!DNL Workfront] 에 액세스하
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: ca74ef02b83a76fad92d2bc8b1a9afc3927693ec
+source-git-commit: 84b63191d2f288b2c280a2634d551d89d594a9f6
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 [!DNL Adobe Experience Cloud]을(를) 통해 [!DNL Workfront]에 액세스하면 모든 [!DNL Adobe] 응용 프로그램을 관리할 수 있는 원활하고 통합된 환경을 얻을 수 있습니다. 단일 ID 관리를 사용하면 여러 URL이나 로그인 ID 없이 한 곳에서 로그인할 수 있습니다.
 
-조직이 Adobe 통합 환경에 있는지 확인하려면 Workfront에 액세스하는 데 사용하는 URL을 검사하십시오.
+조직이 통합 경험 Adobe에 있는 경우 Workfront에 액세스하는 데 사용하는 URL은 `experience.adobe.com`(으)로 시작합니다.
 
 | URL | Adobe 경험 |
 |------------|------------|
@@ -109,3 +109,4 @@ ht-degree: 0%
 [Adobe 암호를 변경하려면 이 문서를 참조하세요.](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}
 
 암호 변경에 대한 자세한 내용은 관리자에게 문의하십시오.
+

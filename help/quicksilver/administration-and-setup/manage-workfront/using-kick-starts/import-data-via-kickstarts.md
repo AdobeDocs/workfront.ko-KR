@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
-source-wordcount: '2753'
+source-wordcount: '2750'
 ht-degree: 6%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
-   <td>Workfront 관리자여야 합니다. </td> 
+   <td>[!UICONTROL 시스템 관리자]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -106,12 +106,12 @@ ht-degree: 6%
      <tr> 
       <td scope="col"> <p>대시보드</p> <p>시스템의 모든 대시보드를 내보낼 수 있습니다. 단일 내보내기에서 최대 100개의 특정 대시보드를 선택할 수 있습니다.</p> </td> 
       <td scope="col">ZIP 파일로 내보내기</td> 
-      <td scope="col"> <p>매개변수</p> <p>설명 텍스트</p><p>매개변수 옵션</p> <p>매개변수 그룹</p> <p>범주 매개변수</p> <p>범주</p> <p>보고서</p> <p>포털 탭 섹션</p> <p>대시보드</p> <p>환경 설정</p> </td> 
+      <td scope="col"> <p>매개변수</p> <p>설명 텍스트</p><p>매개변수 옵션</p> <p>매개변수 그룹</p> <p>범주 매개변수</p> <p>카테고리</p> <p>보고서</p> <p>포털 탭 섹션</p> <p>대시보드</p> <p>환경 설정</p> </td> 
      </tr> 
      <tr> 
       <td scope="col"> <p>보고서</p> <p>시스템의 모든 보고서를 내보낼 수 있습니다. 단일 내보내기에서 최대 100개의 특정 보고서를 선택할 수 있습니다.</p> <p>킥스타트는 텍스트 모드 필터를 지원하지 않습니다. 내보내기에 성공하려면 보고 필터를 표준 모드로 전환해야 합니다.</p> </td> 
       <td scope="col">ZIP 파일로 내보내기 </td> 
-      <td scope="col"> <p scope="col">매개변수</p> <p scope="col">설명 텍스트</p> <p scope="col">매개변수 옵션</p> <p scope="col">매개변수 그룹</p> <p scope="col">범주 매개변수</p> <p scope="col">범주</p> <p scope="col">보고서</p> <p scope="col">환경 설정</p> </td> 
+      <td scope="col"> <p scope="col">매개변수</p> <p scope="col">설명 텍스트</p> <p scope="col">매개변수 옵션</p> <p scope="col">매개변수 그룹</p> <p scope="col">범주 매개변수</p> <p scope="col">카테고리</p> <p scope="col">보고서</p> <p scope="col">환경 설정</p> </td> 
      </tr> 
      <tr> 
       <td scope="col"> <p>승인</p> </td> 
@@ -121,7 +121,7 @@ ht-degree: 6%
      <tr> 
       <td scope="col"> <p>사용자 정의 데이터</p> </td> 
       <td scope="col"> <p>Excel 파일로 내보내기</p> </td> 
-      <td scope="col"> <p>매개변수</p> <p>설명 텍스트</p>  <p>매개변수 옵션</p> <p>매개변수 그룹</p> <p>범주 매개변수</p> <p>범주</p> <p>환경 설정</p> </td> 
+      <td scope="col"> <p>매개변수</p> <p>설명 텍스트</p>  <p>매개변수 옵션</p> <p>매개변수 그룹</p> <p>범주 매개변수</p> <p>카테고리</p> <p>환경 설정</p> </td> 
      </tr> 
      <tr> 
       <td scope="col"> <p>경비 유형</p> </td> 

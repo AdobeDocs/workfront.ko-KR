@@ -3,21 +3,21 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
 title: 개별 하위 개체 복원
-description: 이 문서에서는 30일 이전에 Adobe Workfront 프로덕션 또는 미리보기 환경에서 삭제된 개별 하위 객체를 복구하는 데 도움을 받는 방법을 설명합니다.
+description: 이 문서에서는 이전에 30일 이내에 Adobe Workfront 프로덕션 또는 미리보기 환경에서 삭제된 개별 하위 개체를 복구하는 데 도움을 받는 방법을 설명합니다.
 feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: e2e4fbb7-5433-4d88-8e36-d82f4cc8a194
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '641'
 ht-degree: 0%
 
 ---
 
 # 개별 하위 개체 복원
 
-이 문서에서는 30일 이전에 Adobe Workfront 프로덕션 또는 미리보기 환경에서 삭제된 개별 하위 객체를 복구하는 데 도움을 받는 방법을 설명합니다.
+이 문서에서는 이전에 30일 이내에 Adobe Workfront 프로덕션 또는 미리보기 환경에서 삭제된 개별 하위 개체를 복구하는 데 도움을 받는 방법을 설명합니다.
 
 [삭제된 항목 복원](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)에 설명된 대로 Workfront 관리자는 각 Workfront 인스턴스의 프로젝트, 작업, 문제 및 문서를 복원할 수 있습니다. 하지만 Workfront 데이터베이스 팀만 작업, 문제, 문서, 사용자 정의 양식, 시간 및 메모와 같은 개체를 상위 개체와 독립적으로 복원할 수 있습니다.
 
@@ -42,6 +42,39 @@ Workfront에서 데이터를 내보내는 방법에 대한 자세한 내용은 [
 >[!IMPORTANT]
 >
 >문서는 이러한 복원 방법에 대한 예외입니다. 미리보기 환경에서 수동으로 다운로드하여 프로덕션 환경에 다시 업로드할 수 있습니다. 문서를 일괄적으로 다운로드하고 업로드하려면 Workfront에서 데이터 복원을 요청해야 합니다.
+
+## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
+이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
+   <td>임의</td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront 라이선스</td> 
+   <td><p>새로운 기능: 표준</p>
+       <p>또는</p>
+       <p>현재: 플랜</p></td>
+  </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td>[!UICONTROL 시스템 관리자]</td>
+  </tr> 
+ </tbody> 
+</table>
+
+이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 데이터 복원에 필요한 정보
 

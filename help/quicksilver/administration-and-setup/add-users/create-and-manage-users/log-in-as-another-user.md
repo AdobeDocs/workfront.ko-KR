@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
 source-wordcount: '738'
 ht-degree: 0%
@@ -69,7 +69,7 @@ Some users, such as executives, need to be able to control which administrators 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
    <td> <p>시스템 관리자 액세스 수준을 사용하면 다른 사용자로 로그인할 수 있습니다.</p> <p>표준 또는 플래너 액세스 수준이 있는 경우, 액세스 수준의 <b>사용자</b> 설정이 <b>편집</b> 액세스로 구성되어 있고 <b>만들기</b>와 <b>설정 세부 조정</b> <img src="assets/gear-icon-in-access-levels.png">에서 두 <b>사용자 관리</b> 옵션 중 하나 이상을 사용할 수 있는 경우 라이선스 수준이 낮은 사용자로 로그인할 수 있습니다. </p> 
-   <p><b>참고</b>: 이 두 옵션 중 사용자 <b>관리자(그룹 사용자)</b>를 사용하도록 설정한 경우 사용자가 구성원인 그룹의 그룹 관리자여야 합니다.</p></td> 
+   <p><b>참고</b>: 이 두 옵션 중 <b>사용자 관리자(그룹 사용자)</b>를 사용하도록 설정한 경우 사용자가 구성원인 그룹의 그룹 관리자여야 합니다.</p></td>
   </tr> 
  </tbody> 
 </table>
