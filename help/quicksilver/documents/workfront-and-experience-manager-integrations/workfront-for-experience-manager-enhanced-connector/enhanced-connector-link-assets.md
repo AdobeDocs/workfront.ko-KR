@@ -5,18 +5,26 @@ author: Courtney
 draft: Probably
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 35c80f6a-419b-4237-8139-f59ab7bbd5c7
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: dd8718b00a310bee6caa13db7644b86174b476f4
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
+
 
 # 향상된 커넥터로 에셋 및 폴더 연결
 
 Experience Manager Assets의 에셋 또는 폴더를 문서를 지원하는 모든 Workfront 개체에 연결할 수 있습니다. Experience Manager Assets에서 보낸 Assets은 Workfront의 전체 문서 스토리지에 포함되지 않습니다. Workfront에서 Experience Manager Assets으로 업로드되고 전송된 문서는 전체 스토리지에 포함됩니다.
 
+
+>[!NOTE]
+>
+>향상된 커넥터를 통해 연결된 Excel 파일은 Workfront에서 미리 볼 수 없습니다. 액세스하려면 파일을 다운로드해야 합니다.
+
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -30,7 +38,9 @@ Experience Manager Assets의 에셋 또는 폴더를 문서를 지원하는 모�
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>요청 이상</p> </td> 
+   <td> <p>현재: 요청 이상</p> 
+   또는
+   <p>새로운 기능: 기여자 이상</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">제품</td> 
@@ -48,6 +58,7 @@ Experience Manager Assets의 에셋 또는 폴더를 문서를 지원하는 모�
 </table>
 
 &#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
++++
 
 ## 전제 조건
 
