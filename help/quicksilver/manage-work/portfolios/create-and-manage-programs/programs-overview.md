@@ -6,7 +6,7 @@ title: ' [!DNL Adobe Workfront]의 프로그램 개요'
 description: 프로그램(Program)은 통합 특성을 갖는 프로젝트의 모음입니다. 이러한 프로젝트는 일반적으로 동일한 리소스, 예산 또는 시간대에 대해 경쟁합니다. 프로그램은 포트폴리오의 하위 그룹입니다. 프로젝트를 포트폴리오에 추가하기 전에 프로그램과 연결할 수 있습니다.
 author: Alina
 feature: Work Management, Strategic Planning
-source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 1%
@@ -34,12 +34,12 @@ Adobe Workfront에서 프로그램은 통합적인 특성을 가진 프로젝트
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 플랜*</td> 
    <td> <p>새로 만들기: 모두</p>
-   <p>현재:[!UICONTROL Business] 이상</p> </td> 
+   <p>현재: [!UICONTROL Business] 이상</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
    <td> <p>새로운 기능: [!UICONTROL Standard]</p>
-   <p>현재:[!UICONTROL 계획] </p> </td> 
+   <p>현재: [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 

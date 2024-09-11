@@ -6,15 +6,17 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 969f7c609afcc0029fa9ba054de113904a10917b
 workflow-type: tm+mt
-source-wordcount: '2135'
+source-wordcount: '2197'
 ht-degree: 1%
 
 ---
 
 
 # 레코드 유형 연결
+
+<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
 
 {{planning-important-intro}}
 
@@ -183,8 +185,7 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 
    * 선택한 작업 영역의 다른 레코드 유형
 
-     ![](assets/new-connection-tab-fields-with-another-record-selected.png)
-
+     <span class="preview">![](assets/many-to-many-connection-picker.png)</span>
      >[!TIP]
      >
      > 
@@ -193,7 +194,7 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 
    * 다른 작업 영역에서 연결하도록 구성된 다른 작업 영역의 레코드 유형입니다. 자세한 내용은 [레코드 종류 편집](/help/quicksilver/planning/architecture/edit-record-types.md)을 참조하세요.
 
-     ![](assets/connect-record-from-another-workspace-new-connection-tab.png)
+     <span class="preview">![](assets/new-connection-allow-multiple-records-box.png)</span>
 
      >[!TIP]
      >
@@ -206,7 +207,7 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 
    * **응용 프로그램 Adobe** 섹션의 **Experience Manager Assets**.
 
-     ![](assets/aem-assets-connection-selection.png)
+     <span class="preview">![](assets/aem-assets-connection-selection.png)</span>
 
 1. 다음 정보를 업데이트합니다.
 
@@ -221,7 +222,7 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 
      이 옵션은 두 개의 다른 작업 영역 또는 레코드와 Adobe Experience Manager 에셋 개체의 레코드를 연결하는 경우에만 사용할 수 있습니다.
 
-     ![](assets/new-connection-allow-multiple-records-box.png)
+     <span class="preview">![](assets/new-connection-allow-multiple-records-box.png)</span>
 
    * **연결 유형**: 다음 옵션 중 하나를 선택하여 연결할 수 있는 레코드 수를 나타냅니다.
 
@@ -232,7 +233,7 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 
      이 옵션은 동일한 작업 영역 또는 레코드와 Workfront 개체 유형의 레코드를 연결하는 경우에만 사용할 수 있습니다.
 
-     ![](assets/many-to-many-connection-picker.png)
+     <span class="preview">![](assets/many-to-many-connection-picker.png)</span>
 
      연결 유형에 대한 자세한 내용은 [연결된 레코드 유형 개요](/help/quicksilver/planning/architecture/connect-record-types-overview.md)를 참조하십시오.
 
@@ -259,13 +260,21 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
    >
    >Workfront 관리자는 Workfront의 메타데이터 매핑을 통해 Workfront Planning 필드를 Experience Manager Assets 필드에 매핑할 수 있습니다. 자세한 내용은 [Adobe Workfront과 Experience Manager Assets 간의 에셋 메타데이터 매핑 구성](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en)을 참조하십시오.
 
-1. (조건부) Experience Manager Assets 또는 Workfront Planning 레코드 유형에 연결하도록 선택한 경우 연결된 레코드 또는 에셋의 제목을 연결된 필드에 표시하지 않으려면 **레코드 모양** 영역에서 **제목** 전환을 선택 취소합니다. 선택을 취소하면 연결된 필드에 레코드의 썸네일만 표시됩니다. 썸네일 이미지가 없는 레코드는 이미지 아이콘을 대신 표시합니다. 기본적으로 토글이 선택됩니다. 연결된 레코드가 표시되는 방법의 예는 **레코드 모양** 영역에 표시됩니다.
+1. (조건부) Experience Manager Assets 또는 Workfront Planning 레코드 유형에 연결하도록 선택한 경우 **기록 모양** 영역에서 다음 옵션 중 하나를 선택합니다.
+
+   * <span class="preview">**이름 및 이미지**: 연결된 레코드의 이름과 축소판 그림 또는 아이콘이 모두 연결된 레코드 필드에 표시됩니다. 기본 옵션입니다. </span>
+   * <span class="preview">**이름**: 연결된 레코드의 이름만 연결된 레코드 필드에 표시됩니다.</span>
+   * <span class="preview">**이미지**: 연결된 레코드의 축소판이나 아이콘만 연결된 레코드 필드에 표시됩니다.</span>
+
+   썸네일 이미지가 없는 레코드에는 레코드 유형 아이콘이 대신 표시됩니다. 연결된 레코드가 표시되는 방법의 예는 **레코드 모양** 영역에 표시됩니다.
 
    >[!TIP]
    >
    >    여러 레코드를 연결할 수 있도록 허용하는 경우 축소판만 표시하면 레코드 보기와 같이 더 작은 영역에 공간이 절약될 수 있습니다.
    >
-   >레코드의 제목은 레코드의 기본 필드입니다. 자세한 내용은 [기본 필드 개요](/help/quicksilver/planning/fields/primary-field-overview.md)를 참조하세요.
+   >레코드의 이름은 레코드의 기본 필드입니다. 자세한 내용은 [기본 필드 개요](/help/quicksilver/planning/fields/primary-field-overview.md)를 참조하세요.
+   >
+   >Workfront 개체 유형을 선택할 때는 레코드 모양을 선택할 수 없습니다.
 
 1. Click **Create**.
 
@@ -286,7 +295,7 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
    >    작업 영역에 대한 보기 이상의 권한이 있는 모든 사용자는 연결된 객체 유형의 응용 프로그램에서 자신의 권한 또는 액세스 수준에 관계없이 연결된 필드에서 정보를 볼 수 있습니다.
 
 
-1. (선택 사항) 연결된 레코드 또는 개체 형식에서 필드 추가를 건너뛰려면 **건너뛰기**&#x200B;를 클릭합니다. 연결된 레코드의 **이름** 또는 **제목**&#x200B;은(는) 연결하는 레코드 종류의 테이블 보기에서 볼 수 있는 유일한 필드입니다.
+1. (선택 사항) 연결된 레코드 또는 개체 형식에서 필드 추가를 건너뛰려면 **건너뛰기**&#x200B;를 클릭합니다. 연결된 레코드의 이름 또는 기본 필드는 사용자가 연결하는 레코드 유형의 테이블 보기에 표시되는 유일한 필드입니다.
 
 1. (선택 사항 및 조건부) 숫자, 통화, 백분율 또는 날짜 유형 필드를 연결하도록 선택하는 경우 여러 값을 요약할 집계 값도 선택합니다. 사용자가 연결된 레코드 필드에서 둘 이상의 연결된 레코드를 선택하면 연결된 필드의 값이 선택한 집계기에 따라 쉼표로 구분되거나 요약된 값으로 표시됩니다.
 

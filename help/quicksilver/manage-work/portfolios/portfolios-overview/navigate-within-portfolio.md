@@ -6,9 +6,9 @@ description: 포트폴리오 내에서 탐색
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '598'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,9 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -32,25 +35,28 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 플랜*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 플랜</td> 
    <td> <p>임의 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
-   <td> <p>[!UICONTROL 계획] </p> </td> 
+   <td> <p>새로운 기능: [!UICONTROL Standard] </p>
+   <p>현재: [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>프로젝트 및 Portfolio에 대한 [!UICONTROL 편집] 액세스</p> <p>참고: 여전히 액세스 권한이 없는 경우 [!DNL Workfront] 관리자에게 액세스 수준에 추가 제한을 설정했는지 문의하십시오. [!DNL Workfront] 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>프로젝트 및 Portfolio에 대한 [!UICONTROL 편집] 액세스</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>포트폴리오에 대한 [!UICONTROL 관리] 권한</p> <p>프로젝트에 대한 권한 보기 이상</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
+   <td> <p>포트폴리오에 대한 [!UICONTROL 관리] 권한</p> <p>프로젝트에 대한 권한 보기 이상</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 포트폴리오 내에서 탐색
 
@@ -60,15 +66,15 @@ ht-degree: 0%
 1. **[!UICONTROL 필터]** 드롭다운 메뉴에서 다음을 선택합니다.
 
    * **[!UICONTROL 내가 소유한 Portfolio]**: [!UICONTROL Portfolio 관리자](으)로 지정된 포트폴리오 목록을 포함합니다.
-   * **[!UICONTROL 모두]**: 적어도 보기 액세스 권한이 있는 모든 포트폴리오를 포함합니다.\
+   * **[!UICONTROL 모두]**: 적어도 볼 수 있는 액세스 권한이 있는 모든 포트폴리오를 포함합니다.
 
-     Portfolio 액세스에 대한 자세한 내용은 [액세스 수준 개요](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)를 참조하세요.\
-      Portfolio 권한에 대한 자세한 내용은 [포트폴리오 공유](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md)를 참조하십시오.
+     Portfolio 액세스에 대한 자세한 내용은 [액세스 수준 개요](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)를 참조하세요.
+Portfolio 권한에 대한 자세한 내용은 [포트폴리오 공유](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md)를 참조하십시오.
 
      새 포트폴리오를 추가하려면 [포트폴리오 만들기](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)를 참조하세요.
 
-1. 액세스하려면 포트폴리오의 이름을 클릭합니다.\
-   다음 포트폴리오 성능 지표는 포트폴리오 내의 [!UICONTROL Portfolio 세부 정보] 영역에 표시됩니다.
+1. 액세스하려면 포트폴리오의 이름을 클릭합니다.
+다음 포트폴리오 성능 지표는 포트폴리오 내의 [!UICONTROL Portfolio 세부 정보] 영역에 표시됩니다.
 
    * 포트폴리오가 [!UICONTROL 정시]인지 여부
    * 포트폴리오가 [!UICONTROL 예산에 있음]인지 여부
@@ -96,8 +102,8 @@ ht-degree: 0%
      필터 만들기에 대한 자세한 내용은 [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)를 참조하세요.
 
 
-1. 왼쪽 패널의 **[!UICONTROL 프로그램]**&#x200B;을 클릭하여 포트폴리오 내에서 프로그램을 만들거나 기존 프로그램을 관리합니다.\
-   프로그램에 대한 자세한 내용은 [프로그램 만들기 및 관리](../../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md) 섹션을 참조하십시오.
+1. 왼쪽 패널의 **[!UICONTROL 프로그램]**을 클릭하여 포트폴리오 내에서 프로그램을 만들거나 기존 프로그램을 관리합니다.
+프로그램에 대한 자세한 내용은 [프로그램 만들기 및 관리](../../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md) 섹션을 참조하십시오.
 
 1. (선택 사항) 왼쪽 패널에서 **[!UICONTROL Portfolio 세부 정보]** 영역을 확장한 다음 **[!UICONTROL 개요]** 또는 **[!UICONTROL 사용자 지정 Forms]**&#x200B;을 클릭하여 포트폴리오에 대한 정보를 편집합니다.
 

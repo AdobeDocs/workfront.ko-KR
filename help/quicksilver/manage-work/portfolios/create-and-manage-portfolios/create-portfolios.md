@@ -6,10 +6,10 @@ description: Portfolio은 동일한 리소스, 예산 및 일정을 위해 경�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 2%
+source-wordcount: '668'
+ht-degree: 1%
 
 ---
 
@@ -31,8 +31,7 @@ Portfolio을 사용하여 동일한 제품 라인, 부서, 부서, 회사 또는
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 플랜*</td> 
-   <td> <p>새로 만들기: 모두</p>
-   <p>현재:[!UICONTROL Business] 이상</p> </td> 
+   <td> <p>임의</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
@@ -53,6 +52,27 @@ Portfolio을 사용하여 동일한 제품 라인, 부서, 부서, 회사 또는
 *자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
+
+## 포트폴리오를 만드는 방법
+
+다음 방법 중 하나를 사용하여 Workfront에서 포트폴리오를 만들 수 있습니다.
+
+* 메인 메뉴의 Portfolio 영역에서 시작하여 처음부터 포트폴리오를 만듭니다. 이 문서에서는 처음부터 포트폴리오를 만드는 방법에 대해 설명합니다.
+
+* 킥스타트를 사용하여 포트폴리오를 가져옵니다.
+
+  Workfront 관리자는 킥스타트를 사용하여 포트폴리오를 가져올 수 있습니다.
+
+  Workfront에서 킥스타트를 사용하여 데이터를 가져오는 방법에 대한 자세한 내용은 [킥스타트 템플릿을 사용하여 Adobe Workfront으로 데이터 가져오기](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)를 참조하십시오.
+
+* Workfront Planning의 레코드 유형에서 포트폴리오를 연결할 때 포트폴리오를 추가합니다.
+
+  Workfront Planning에 대한 새 Workfront 라이선스와 추가 Workfront Planning 라이선스가 있어야 합니다.
+
+  Workfront Planning에 액세스하는 방법에 대한 자세한 내용은 [액세스 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
+
+  포트폴리오를 레코드에 추가하여 만드는 방법에 대한 자세한 내용은 문서 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)의 &quot;연결할 때 레코드 만들기&quot; 섹션을 참조하십시오.
+
 
 ## 포트폴리오 만들기
 

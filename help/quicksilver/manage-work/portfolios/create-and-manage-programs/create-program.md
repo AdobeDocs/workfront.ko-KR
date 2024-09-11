@@ -6,10 +6,10 @@ description: 프로그램은 프로젝트 경계를 초월하는 공통 전략, 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '1143'
-ht-degree: 1%
+source-wordcount: '1228'
+ht-degree: 0%
 
 ---
 
@@ -57,6 +57,18 @@ ht-degree: 1%
 이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
+
+## 프로그램을 만드는 방법
+
+다음 방법 중 하나를 사용하여 Workfront에서 프로그램을 만들 수 있습니다.
+
+* 기본 메뉴의 프로그램 영역이나 포트폴리오의 프로그램 섹션에서 처음부터 프로그램을 만듭니다. 이 문서에서는 처음부터 프로그램을 만드는 방법에 대해 설명합니다.
+
+* 킥스타트를 사용하여 프로그램을 가져옵니다.
+
+  Workfront 관리자는 킥스타트를 사용하여 프로그램을 가져올 수 있습니다.
+
+  Workfront에서 킥스타트를 사용하여 데이터를 가져오는 방법에 대한 자세한 내용은 [킥스타트 템플릿을 사용하여 Adobe Workfront으로 데이터 가져오기](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)를 참조하십시오.
 
 ## 프로그램 만들기
 

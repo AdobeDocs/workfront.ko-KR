@@ -6,9 +6,9 @@ description: 프로젝트는 Adobe Workfront의 대규모 작업 단위입니다
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1299'
 ht-degree: 1%
 
 ---
@@ -112,7 +112,22 @@ ht-degree: 1%
 
   킥스타트를 사용하여 프로젝트를 가져오는 방법에 대한 자세한 내용은 [킥스타트 시나리오: 간단한 프로젝트 및 작업 가져오기 준비](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md)를 참조하십시오.
 
-* Publish은 Adobe Workfront Scenario Planner의 시나리오에서 나온 이니셔티브입니다. 시나리오 플래너에는 추가 라이센스가 필요합니다. Workfront 시나리오 플래너에 대한 자세한 내용은 [시나리오 플래너 개요](../../../scenario-planner/scenario-planner-overview.md)를 참조하십시오. 이니셔티브를 게시하여 프로젝트를 만드는 방법에 대한 자세한 내용은 [시나리오 플래너에서 이니셔티브를 게시하여 프로젝트 업데이트 또는 만들기](../../../scenario-planner/publish-scenarios-update-projects.md)를 참조하십시오.
+* Publish은 Adobe Workfront Scenario Planner의 시나리오에서 나온 이니셔티브입니다.
+
+  시나리오 플래너에는 다음 중 하나가 필요합니다.
+
+   * 현재 Workfront 라이선스 구조에 대한 추가 라이선스.
+   * 새로운 Workfront 라이선스 구조에 대한 Ultimate 라이선스.
+
+  Workfront 시나리오 플래너에 대한 자세한 내용은 [시나리오 플래너 개요](../../../scenario-planner/scenario-planner-overview.md)를 참조하십시오. 이니셔티브를 게시하여 프로젝트를 만드는 방법에 대한 자세한 내용은 [시나리오 플래너에서 이니셔티브를 게시하여 프로젝트 업데이트 또는 만들기](../../../scenario-planner/publish-scenarios-update-projects.md)를 참조하십시오.
+
+* Workfront Planning의 레코드 유형에서 프로젝트를 연결할 때 프로젝트를 추가합니다. Workfront Planning에서 템플릿 없이 프로젝트만 만들 수 있습니다.
+
+  Workfront Planning에 대한 새 Workfront 라이선스와 추가 Workfront Planning 라이선스가 있어야 합니다.
+
+  Workfront Planning에 액세스하는 방법에 대한 자세한 내용은 [액세스 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
+
+  레코드에 프로젝트를 추가하여 만드는 방법에 대한 자세한 내용은 문서 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)의 &quot;연결할 때 레코드 만들기&quot; 섹션을 참조하십시오.
 
 ## 전제 조건
 
