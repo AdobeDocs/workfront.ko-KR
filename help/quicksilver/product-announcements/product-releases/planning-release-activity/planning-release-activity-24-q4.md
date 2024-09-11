@@ -1,18 +1,18 @@
 ---
 content-type: release-notes
-title: "24.10 릴리스에 대한 Adobe Workfront Planning 릴리스 활동"
+title: 24.10 릴리스에 대한 Adobe Workfront Planning 릴리스 활동
 description: 2024년 4분기 Adobe Workfront Planning 제품 릴리스 활동입니다.
 author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 95726a46a0f18353cfee67b69cc94d39d85f111f
+exl-id: d27f937b-e179-4f67-aebd-ed351440cb0f
+source-git-commit: 2c6d01d009e3dc09b65d7c414e1a3d8536d384e0
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Workfront Planning의 2024년 4분기 릴리스 활동
 
@@ -37,6 +37,22 @@ ht-degree: 0%
 <!--remove the general activity mention after fourth quarter 2024 is released-->
 
 2024년 8월 28일 일반 출시 이후 Adobe Workfront Planning에 대해 릴리스된 모든 기능 목록에 대해서는 [Adobe Workfront Planning 릴리스 활동: 문서 색인](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)을 참조하십시오.
+
+## 연결된 레코드에 대한 옵션 표시
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2024년 9월 9일, 모든 고객을 위한 프로덕션 릴리스: 24.10 릴리스 포함(2024년 10월)
+
+레코드 유형을 연결할 때 레코드 모양 영역을 다시 디자인했습니다. 이제 연결된 필드에 연결된 레코드가 표시되는 방법을 결정할 때 다음 옵션 중에서 선택할 수 있습니다.
+
+* 이름
+* 이름 및 이미지
+* 이미지
+
+이 개선 전에 제목 토글을 선택하거나 선택 해제하여 레코드의 이름을 표시하거나 아이콘이나 썸네일만 표시할 수 있습니다. 제목 토글이 제거되었습니다.
+
+자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
 
 ## PDF으로 레코드 세부 정보 내보내기
 
@@ -67,4 +83,3 @@ Adobe Workfront Planning은 Adobe Workfront의 새로운 제품입니다. Workfr
 * 다른 시스템의 오브젝트 유형에 연결하여 모든 프로세스에 대해 일관된 프레임워크를 만듭니다.
 
 Workfront Planning에 대한 자세한 내용은 [Adobe Workfront Planning 개요](/help/quicksilver/planning/general/planning-overview.md)를 참조하십시오.
-
