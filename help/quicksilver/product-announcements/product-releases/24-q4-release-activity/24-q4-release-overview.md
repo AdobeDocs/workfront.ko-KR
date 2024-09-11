@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 0c37044aaffbe6ebb22af3877c93d5c65d40de98
+source-git-commit: 57c08a06a57bebfaa81035e4fe801f3077e6a829
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1588'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,9 @@ ht-degree: 0%
 * [통합 개선 사항](#integration-enhancements)
 * [프로젝트 개선 사항](#project-enhancements)
 * [증명 개선 사항](#proofing-enhancements)
+* [보고서 및 대시보드 개선 사항](#report-and-dashboard-enhancements)
 * [기타 개선 사항](#other-enhancements)
+
 
 ### 관리자 개선 사항
 
@@ -259,6 +261,39 @@ ht-degree: 0%
                                 <p><span class="preview">모든 고객을 위한 프로덕션 릴리스: 2024년 8월 29일</span></p>
                             </li>
                         </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
+### 보고서 및 대시보드 개선 사항
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">기능</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">릴리스 날짜</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">새로운 플랜에 Workfront Data Connect 사용 가능</a></p>
+                        <p>Workfront Data Connect는 새로운 Workfront 계획 중 하나에 있는 조직에서 사용할 수 있습니다. Data Connect를 사용하면 조직은 비즈니스 인텔리전스 도구를 사용하여 분석하고 시각화하거나 외부에 저장할 수 있는 안전하고 확장 가능한 데이터 레이크로 데이터에 액세스할 수 있습니다. 또한 조직은 Data Connect를 사용하여 시간 기반 트렌드 분석, 변수 매핑, Workfront 데이터와 결합된 외부 시스템 데이터 분석과 같이 이전에 사용할 수 없었던 데이터 분석을 볼 수 있습니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p><span class="preview">모든 고객을 위한 프로덕션 릴리스: 24.10 릴리스 포함(2024년 10월)</span></p>
+                            </li>
+                        </ul>
+                        <p><i>새로운 Adobe Workfront 플랜 중 하나의 조직에서만 사용할 수 있습니다. Data Connect는 Ultimate 플랜에 포함되어 있거나 Prime 및 Select 플랜의 추가 기능으로 구입할 수 있습니다.</i></p>
                     </td>
                 </tr>
            </tbody>

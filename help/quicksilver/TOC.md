@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: d43bc45ca400846307958fc15e04e16ef37eff11
+source-git-commit: 57c08a06a57bebfaa81035e4fe801f3077e6a829
 workflow-type: tm+mt
-source-wordcount: '14372'
+source-wordcount: '14378'
 ht-degree: 2%
 
 ---
@@ -25,6 +25,7 @@ ht-degree: 2%
          * [2024년 4분기 통합 개선 사항](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md)
          * [2024년 4분기 프로젝트 개선 사항](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md)
          * [2024년 4분기 교정 개선 사항](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md)
+         * [2024년 4분기 보고서 및 대시보드 개선 사항](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-report-and-dashboard-enhancements.md)
          * [2024년 4분기 릴리스 일정 동안의 기타 개선 사항](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md)
          * [2024년 4분기 릴리스 기간 동안의 룩앤필 업데이트](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-look-and-feel-updates.md)
       * 2024년 3분기 릴리스 {#release-24-q3}
