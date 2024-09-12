@@ -9,16 +9,17 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 84a72ab4547a582707351948052fdd59cc57a9d5
+exl-id: 70f7e2a8-bb27-4546-afb7-53e0eec30bf1
+source-git-commit: 7e15301dae4b761d19c85a3581bfdb4540ed40fd
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 0%
+source-wordcount: '397'
+ht-degree: 1%
 
 ---
 
 # 환경 프로모션 패키지 롤백
 
-<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
+
 
 패키지를 설치한 후 롤백할 수 있습니다. 이렇게 하면 대상 환경에서 패키지가 변경한 사항이 제거되고 영향을 받는 오브젝트가 이전 구성으로 복원됩니다.
 
@@ -86,10 +87,3 @@ ht-degree: 0%
 
 1. (선택 사항) 롤백 미리 보기 영역에서 배포가 롤백될 때 발생하는 변경 사항을 확인합니다.
 1. 화면 오른쪽 상단의 **되돌리기**&#x200B;를 클릭합니다.
-
-
-
-
-
-
-
