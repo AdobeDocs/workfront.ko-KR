@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: 21c873d617187518bdbfe54a7a1ee5f1119ed8fd
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '577'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ or billing record
   ![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)
 
 
-* 작업 및 문제 목록에 대한 요약 ![](assets/summary-panel-icon.png) 패널
+* 작업 및 문제 목록에 대한 요약 패널 ![](assets/summary-panel-icon.png)
 
   ![](assets/summary-area.png)
 
@@ -80,16 +80,20 @@ or billing record
    <td>임의</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td>플랜</td> 
+   <td role="rowheader">Adobe Workfront 라이센스*</td> 
+   <td><p>새로운 기능: 표준</p>
+  <p> 현재: 플랜</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
    <td> <p>시스템 수준에서 이러한 단계를 수행하려면 시스템 관리자 액세스 수준이 필요합니다.
-그룹에 대해 이러한 작업을 수행하려면 해당 그룹의 관리자여야 합니다</p> <p><b>참고</b>: 아직 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정했는지 문의하세요. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+그룹에 대해 이러한 작업을 수행하려면 해당 그룹의 관리자여야 합니다.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 

@@ -6,9 +6,9 @@ description: 프로젝트와 이니셔티브를 연결한 후 리소스 할당�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 77152e46-0b7b-4937-9d16-1a20c2a7fdf1
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '672'
 ht-degree: 0%
 
 ---
@@ -33,8 +33,10 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 플랜*</p> </td> 
-   <td> <p>현재: [!UICONTROL Business] 이상</p>
-   <p>새로운 기능: Ultimate </p>
+   <td> <ul></li>
+   <li><p>새로운 기능: Ultimate </p></li>
+   <p>새 Workfront Select 또는 Workfront 플랜에는 시나리오 플래너를 사용할 수 없습니다. </p>
+   <li><p>현재: [!UICONTROL Business] 이상</p></ul>
    </td> 
   </tr> 
   <tr> 
@@ -44,17 +46,19 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>제품* </td> 
-   <td> 
-   <p>현재 Workfront 플랜의 경우: </p>
-   <p>이 문서에 설명된 기능에 액세스하려면 [!DNL Adobe Workfront Scenario Planner]에 대한 추가 라이선스를 구입해야 합니다.</p> <p>[!DNL Workfront Scenario Planner]에 대한 액세스 및 사용 권한에 대한 자세한 내용은 [!DNL Scenario Planner]</a>을(를) 사용하는 데 필요한 <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">액세스를 참조하십시오. </p> </td> 
+   <td> <ul><li><p>새로운 Workfront 플랜의 경우:</p><p> Adobe Workfront</li></p>
+   <li><p>현재 Workfront 플랜의 경우: </p>
+   <p>Adobe Workfront</p> <p>Adobe Workfront 시나리오 플래너</p></li></ul>
+
+<p>자세한 내용은 [!DNL Scenario Planner]</a>을(를) 사용하는 데 필요한 <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">액세스를 참조하십시오. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>액세스 수준 </td> 
-   <td> <p>[!UICONTROL Projects]에 대한 [!UICONTROL 보기] 이상 액세스</p> </td> 
+   <td> <p>프로젝트에 대한 보기 이상의 액세스 권한.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>개체 권한 </p> </td> 
-   <td> <p>프로젝트에 대한 [!UICONTROL 보기] 권한</p> </td> 
+   <td> <p> 프로젝트에 대한 보기 이상의 권한.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -67,7 +71,7 @@ ht-degree: 0%
 
 회사에서 [!DNL Workfront Scenario Planner] 라이선스를 구입한 경우 프로젝트의 [!UICONTROL 작업] 섹션에서 이니셔티브와 연결된 프로젝트 간의 리소스 할당을 조정할 수 있습니다.
 
-1. (조건부) 이 문서의 [작업 목록에 프로젝트 및 이니셔티브에 대한 역할 할당 표시](#Connect)에 설명된 방법 중 하나를 사용하여 프로젝트와 이니셔티브를 연결합니다.
+1. (조건부) 이 문서의 [작업 목록에서 프로젝트 및 이니셔티브에 대한 역할 할당 표시](#show-role-allocation-for-projects-and-initiatives-in-the-task-list) 섹션에 설명된 방법 중 하나를 사용하여 프로젝트를 이니셔티브와 연결해야 합니다.
 
    >[!IMPORTANT]
    >

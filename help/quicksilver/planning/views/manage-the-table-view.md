@@ -1,14 +1,14 @@
 ---
 title: 표 보기 관리
-description: Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테이블 보기에 레코드와 해당 필드를 표시할 수 있습니다.
+description: Adobe Workfront Planning의 레코드 유형 페이지에 액세스할 때 테이블 보기에 레코드와 해당 필드를 표시할 수 있습니다. 이 문서에서는 테이블 뷰를 만들고 기존 뷰를 편집하거나 삭제하는 방법에 대해 설명합니다.
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '2784'
+source-wordcount: '2801'
 ht-degree: 3%
 
 ---

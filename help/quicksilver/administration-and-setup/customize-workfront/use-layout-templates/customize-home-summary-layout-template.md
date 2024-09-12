@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '977'
 ht-degree: 2%
 
 ---
@@ -49,16 +49,20 @@ ht-degree: 2%
    <td>임의</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td>플랜</td> 
+   <td role="rowheader">Adobe Workfront 라이센스*</td> 
+   <td><p>새로운 기능: 표준</p>
+  <p> 현재: 플랜</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
    <td> <p>시스템 수준에서 이러한 단계를 수행하려면 시스템 관리자 액세스 수준이 필요합니다.
-그룹에 대해 이러한 작업을 수행하려면 해당 그룹의 관리자여야 합니다.</p> <p><b>참고</b>: 아직 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정했는지 문의하세요. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+그룹에 대해 이러한 작업을 수행하려면 해당 그룹의 관리자여야 합니다.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -68,7 +72,7 @@ ht-degree: 2%
 
 1. **사용자에게 표시되는 항목 사용자 지정** 아래의 아래쪽 화살표 ![](assets/dropdown-arrow.png)을(를) 클릭한 다음 **홈 및 요약**&#x200B;을(를) 클릭합니다.
 
-1. 왼쪽에 표시되는 목록에서 홈 및 요약에서 사용자 지정할 개체 유형(**작업**, **문제**, **프로젝트**, **문서** 또는 **문서 버전**)을 클릭합니다.
+1. 왼쪽 목록에서 홈 및 요약에서 사용자 지정할 개체 유형(**작업**, **문제**, **프로젝트**, **문서** 또는 **문서 버전**)을 클릭합니다.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -139,7 +143,7 @@ ht-degree: 2%
         <li>계획된 완료 일자 기준</li>
         <li>커밋 일자</li>
         <li>제출 날짜</li>
-       </ul><p><b>참고</b>: 이 옵션을 사용하면 기한이 지난 작업 항목이 시간이 아닌 날짜만을 기준으로 홈 작업 목록에서 지연 그룹화로 이동됩니다.</p></td> 
+       </ul><p><b>참고</b>:</p> <p> 이 옵션을 활성화하면 기한이 지난 작업 항목은 시간이 아닌 날짜만을 기준으로 홈 작업 목록에서 지연 그룹화로 이동됩니다.</p></td> 
      </tr> 
     </tbody> 
    </table>

@@ -6,10 +6,10 @@ description: 프로젝트 및 이니셔티브를 연결한 후 리소스 할당�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: cdc3a1b0-7021-4853-9b51-c3682fd55430
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 0%
+source-wordcount: '799'
+ht-degree: 1%
 
 ---
 
@@ -33,8 +33,10 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 플랜*</p> </td> 
-   <td> <p>현재: [!UICONTROL Business] 이상</p>
-   <p>새로운 기능: Ultimate </p>
+   <td> <ul></li>
+   <li><p>새로운 기능: Ultimate </p></li>
+   <p>새 Workfront Select 또는 Workfront 플랜에는 시나리오 플래너를 사용할 수 없습니다. </p>
+   <li><p>현재: [!UICONTROL Business] 이상</p></ul>
    </td> 
   </tr> 
   <tr> 
@@ -44,17 +46,19 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>제품* </td> 
-   <td> 
-   <p>현재 Workfront 플랜의 경우: </p>
-   <p>이 문서에 설명된 기능에 액세스하려면 [!DNL Adobe Workfront Scenario Planner]에 대한 추가 라이선스를 구입해야 합니다.</p> <p>[!DNL Workfront Scenario Planner]에 대한 액세스 및 사용 권한에 대한 자세한 내용은 [!DNL Scenario Planner]</a>을(를) 사용하는 데 필요한 <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">액세스를 참조하십시오. </p> </td> 
+   <td> <ul><li><p>새로운 Workfront 플랜의 경우:</p><p> Adobe Workfront</li></p>
+   <li><p>현재 Workfront 플랜의 경우: </p>
+   <p>Adobe Workfront</p> <p>Adobe Workfront 시나리오 플래너</p></li></ul>
+
+<p>자세한 내용은 [!DNL Scenario Planner]</a>을(를) 사용하는 데 필요한 <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">액세스를 참조하십시오. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>액세스 수준 </td> 
-   <td> <p>[!UICONTROL Projects]에 대한 [!UICONTROL 보기] 이상 액세스</p> </td> 
+   <td> <p>프로젝트에 대한 보기 이상의 액세스 권한.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>개체 권한 </p> </td> 
-   <td> <p>프로젝트에 대한 [!UICONTROL 보기] 권한</p> </td> 
+   <td> <p> 프로젝트에 대한 보기 이상의 권한.</p> </td> 
   </tr> 
  </tbody> 
 </table>

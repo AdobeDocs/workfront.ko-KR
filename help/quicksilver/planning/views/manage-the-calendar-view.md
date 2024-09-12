@@ -1,14 +1,14 @@
 ---
 title: 달력 보기 관리
-description: 달력 보기에서 레코드와 해당 필드를 표시할 수 있습니다.
+description: 달력 보기에서 레코드와 해당 필드를 표시할 수 있습니다. 이 문서에서는 달력 보기를 만들고 기존 달력 보기를 편집하거나 삭제하는 방법에 대해 설명합니다.
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '712'
 ht-degree: 1%
 
 ---

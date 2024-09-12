@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 4%
+source-wordcount: '630'
+ht-degree: 3%
 
 ---
 
@@ -26,6 +26,8 @@ Adobe Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 �
 >[!NOTE]
 >
 >사용자가 볼 수 있는 메인 메뉴 옵션은 라이선스 유형과 액세스 수준에서 구성된 설정에 따라 다릅니다. 이 레이아웃 템플릿을 사용할 일부 사용자에게는 여기에서 선택한 일부 옵션이 표시되지 않을 수 있습니다. 자세한 내용은 [액세스 수준과 사용 권한이 함께 작동하는 방식](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md) 및 [각 개체 유형에 대한 기능에 대한 구성 가능한 액세스](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)를 참조하십시오.
+>
+>조직이 Adobe Workfront 통합 경험에 온보딩된 경우 메인 메뉴에 다른 옵션이 표시될 수 있습니다. 자세한 내용은 [Workfront용 통합 경험 Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)를 참조하십시오.
 
 레이아웃 템플릿 만들기에 대한 자세한 내용은 [레이아웃 템플릿 만들기 및 관리](../use-layout-templates/create-and-manage-layout-templates.md)를 참조하십시오.
 

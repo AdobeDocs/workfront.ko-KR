@@ -9,16 +9,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '307'
 ht-degree: 6%
 
 ---
 
 # 기본 Adobe Workfront 레이아웃 정보
 
-기본 레이아웃은 Adobe Workfront 관리자가 레이아웃 템플릿을 사용하여 변경하기 전에 기본 메뉴 ![](assets/main-menu-icon.png), 왼쪽 패널, 보기, 그룹화 및 필터의 배열입니다.
+기본 레이아웃은 레이아웃 템플릿을 사용하여 Adobe Workfront 관리자가 변경하기 전에 왼쪽 패널과 보기, 그룹화 및 필터의 배열로 기본 메뉴 ![](assets/main-menu-icon.png) 또는 기본 메뉴 ![](assets/lines-main-menu.png)입니다(사용 가능한 경우).
 
 Workfront 관리자가 사용자에게 레이아웃 템플릿을 할당하여 사용자의 기본 레이아웃을 수정하는 방법에 대한 자세한 내용은 [사용자를 레이아웃 템플릿에 할당](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)을 참조하십시오.
 
@@ -30,7 +30,7 @@ Workfront 관리자가 사용자에게 레이아웃 템플릿을 할당하여 �
 
 각 사용자의 기본 레이아웃은 액세스 수준에 따라 다릅니다. 일부 사용자는 할당된 액세스 수준에 따라 주 메뉴나 특정 왼쪽 패널 항목의 특정 영역이 표시되지 않을 수 있습니다.
 
-다음 표는 기본적으로 각 액세스 수준에 대해 표시되는 왼쪽 패널 항목을 보여 줍니다. 각 액세스 수준에 대한 기본 랜딩 영역도 표시됩니다.
+다음 표는 기본 랜딩 영역과 각 액세스 수준에 대해 표시되는 왼쪽 패널 항목을 보여 줍니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,8 +45,8 @@ Workfront 관리자가 사용자에게 레이아웃 템플릿을 할당하여 �
   <tr> 
    <th>구역</th> 
    <th> 왼쪽 패널 항목 </th> 
-   <th> <p>시스템 관리자</p> </th> 
-   <th> <p>플래너</p> </th> 
+   <th> 시스템 관리자</th> 
+   <th> 플래너 </th> 
    <th>보조</th> 
    <th>검토자</th> 
    <th>요청자</th> 
@@ -150,7 +150,7 @@ Workfront 관리자가 사용자에게 레이아웃 템플릿을 할당하여 �
   </tr> 
   <tr> 
    <td rowspan="3"><strong>요청</strong> </td> 
-   <td><strong>새 요청</strong> </td> 
+   <td>새 요청 </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 

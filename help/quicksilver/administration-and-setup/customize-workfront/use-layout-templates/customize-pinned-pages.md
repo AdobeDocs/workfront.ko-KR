@@ -8,16 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '495'
 ht-degree: 4%
 
 ---
 
 # 레이아웃 템플릿을 사용하여 고정된 페이지 사용자 지정
 
-레이아웃 템플릿에서 사용자가 Adobe Workfront의 맨 위에서 항상 사용할 수 있도록 하려는 페이지를 고정할 수 있습니다. 메인 메뉴 ![](assets/main-menu-icon.png) 또는 대시보드를 통해 액세스하는 페이지일 수 있습니다.
+레이아웃 템플릿에서 사용자가 Adobe Workfront의 맨 위에서 항상 사용할 수 있도록 하려는 페이지를 고정할 수 있습니다. 기본 메뉴 ![](assets/main-menu-icon.png) 또는 사용 가능한 경우 기본 메뉴 ![](assets/lines-main-menu.png)을(를) 통해 액세스하는 페이지나 대시보드일 수 있습니다.
 
 사용자가 직접 추가한 핀은 레이아웃 템플릿에 추가한 핀 오른쪽에 표시됩니다.
 
@@ -44,16 +44,20 @@ ht-degree: 4%
    <td>임의</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td>플랜</td> 
+   <td role="rowheader">Adobe Workfront 라이센스*</td> 
+   <td><p>새로운 기능: 표준</p>
+  <p> 현재: 플랜</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 
    <td> <p>시스템 수준에서 이러한 단계를 수행하려면 시스템 관리자 액세스 수준이 필요합니다.
-그룹에 대해 이러한 작업을 수행하려면 해당 그룹의 관리자여야 합니다.</p> <p><b>참고</b>: 아직 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정했는지 문의하세요. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+그룹에 대해 이러한 작업을 수행하려면 해당 그룹의 관리자여야 합니다.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 

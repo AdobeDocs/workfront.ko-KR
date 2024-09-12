@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Adobe Workfront 관리자는 감사 로그를 사용하여 지난 90일 동안 시스템에서 트리거된 사용자 변경 사항을 추적할 수 있습니다.
-author: Lisa
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1530'
 ht-degree: 3%
 
 ---
@@ -65,6 +65,7 @@ Adobe Workfront 관리자는 아래에 설명된 감사 로그를 사용하여 �
 ## 감사 로그 유형 및 이를 트리거하는 작업
 
 * [액세스 수준](#access-level)
+* [비즈니스 규칙](#business-rules)
 * [회사](#company)
 * [조건](#condition)
 * [사용자 지정 필드](#custom-field)
@@ -97,6 +98,21 @@ Adobe Workfront 관리자는 아래에 설명된 감사 로그를 사용하여 �
      >시스템은 재무 데이터 또는 보기 및 편집 액세스 유형에 대한 권한 변경 사항을 기록하지 않습니다.
      >
      >예를 들어 사용자가 계획자 액세스 유형을 보기에서 편집으로 변경하면 설정 세부 조정 드롭다운 메뉴에 포함된 정보가 시스템에 표시되지 않습니다.
+
+### 비즈니스 규칙
+
+비즈니스 규칙은 Ultimate Workfront 플랜을 구입한 고객에게만 제공됩니다. 자세한 내용은 [비즈니스 규칙 만들기 및 편집](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)을 참조하세요.
+
+사용자가 다음 중 하나를 수행하면 시스템에서 비즈니스 규칙 감사 로그 항목을 생성합니다.
+
+* 비즈니스 규칙 만들기
+* 비즈니스 규칙 편집:
+
+   * 이름 바꾸기
+   * 표현식 추가 또는 제거
+   * 트리거 변경
+
+* 비즈니스 규칙 삭제
 
 ### 회사 {#company}
 
@@ -160,7 +176,7 @@ Adobe Workfront 관리자는 아래에 설명된 감사 로그를 사용하여 �
 * 사용자 정의 필드 삭제
 * 사용자 정의 필드 공유
 
-### 사용자 정의 양식 {#custom-forms}
+### 사용자 정의 양식 {#custom-form}
 
 사용자가 다음 작업 중 하나를 수행하면 시스템에서 사용자 지정 Forms 감사 로그 항목을 생성합니다.
 
@@ -241,7 +257,7 @@ Adobe Workfront 관리자는 아래에 설명된 감사 로그를 사용하여 �
 사용자가 다음 작업 중 하나를 수행하면 시스템에서 로그인 시도 감사 로그 항목을 생성합니다.
 
 * Workfront(브라우저 및 모바일 앱)에서 로그인하거나 로그아웃하거나 로그인에 실패합니다.
-* 모든 Workfront 통합(예: Slack의 경우 Workfront, Salesforce의 경우 Workfront)에서 로그인하거나 로그아웃하거나 로그인하지 못합니다.
+* Workfront 통합(예: Slack의 경우 Workfront, Salesforce의 경우 Workfront)에서 로그인하거나 로그아웃하거나 로그인하지 못합니다.
 * Workfront API에 로그인하거나 로그아웃합니다.
 
 Workfront 관리자가 다음으로 로그인 기능을 사용하는 경우 로그인 시도 로그가 기록되지 않습니다.

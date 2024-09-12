@@ -1,14 +1,14 @@
 ---
 title: "보기: 문서 색인"
-description: 테이블, 타임라인 또는 달력 보기에서 Adobe Workfront Planning 레코드를 표시할 수 있습니다. 다음 문서에서는 Adobe Workfront Planning 레코드 보기를 만들고 관리하는 방법에 대해 설명합니다.
+description: 테이블, 타임라인 또는 달력 보기에서 Adobe Workfront Planning 레코드를 표시할 수 있습니다. 이 문서에는 보기를 만들고 기존 보기를 편집 또는 삭제하는 방법을 설명하는 문서에 대한 링크가 포함되어 있습니다.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0f93014b-d0f7-4ea3-9b11-3314b46f1ef3
-source-git-commit: 78a54ec94dd5a5746144e99e14c622e8b3a7ea71
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---

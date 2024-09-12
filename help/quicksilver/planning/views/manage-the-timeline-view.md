@@ -1,14 +1,14 @@
 ---
 title: 타임라인 보기 관리
-description: Adobe Workfront Planning 레코드 유형 페이지의 타임라인 보기에서 레코드에 액세스하고 편집합니다. 필터, 그룹화 및 설정을 사용하여 타임라인을 사용자 지정합니다. 분류 기능을 사용하여 연결된 레코드를 표시합니다.
+description: Adobe Workfront Planning 레코드 유형 페이지의 타임라인 보기에서 레코드에 액세스하고 편집합니다. 이 문서에서는 타임라인 보기를 만들고 기존 타임라인 보기를 편집하거나 삭제하는 방법에 대해 설명합니다. 필터, 그룹화 및 설정을 사용하여 타임라인을 사용자 지정합니다. 분류 기능을 사용하여 연결된 레코드를 표시합니다.
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '2620'
+source-wordcount: '2637'
 ht-degree: 0%
 
 ---

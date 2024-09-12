@@ -1,14 +1,14 @@
 ---
 title: 레코드 보기 관리
-description: Adobe Workfront Planning을 사용할 때 표, 타임라인 또는 달력 보기에 레코드를 표시할 수 있습니다.
+description: Adobe Workfront Planning을 사용할 때 표, 타임라인 또는 달력 보기에 레코드를 표시할 수 있습니다. 이 문서에서는 보기를 만들고 기존 보기를 편집하거나 삭제하는 방법에 대해 설명합니다.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '1390'
+source-wordcount: '1406'
 ht-degree: 1%
 
 ---

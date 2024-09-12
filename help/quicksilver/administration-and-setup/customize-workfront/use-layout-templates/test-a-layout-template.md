@@ -8,16 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8786648a-3630-4aa9-8e85-9df47a9e4609
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---
 
 # 새 레이아웃 템플릿 테스트
 
-사용자에게 할당하기 전에 새로 만들거나 레이아웃 템플릿을 테스트하는 것이 중요합니다.
+사용자에게 할당하기 전에 새로 만든 레이아웃 템플릿을 테스트하는 것이 중요합니다.
 
 레이아웃 템플릿에 대한 자세한 내용은 [레이아웃 템플릿 만들기 및 관리](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)를 참조하십시오.
 
