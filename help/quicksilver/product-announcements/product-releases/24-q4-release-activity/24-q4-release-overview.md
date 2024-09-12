@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 57c08a06a57bebfaa81035e4fe801f3077e6a829
+source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
 workflow-type: tm+mt
-source-wordcount: '1588'
+source-wordcount: '1606'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
 * [증명 개선 사항](#proofing-enhancements)
 * [보고서 및 대시보드 개선 사항](#report-and-dashboard-enhancements)
 * [기타 개선 사항](#other-enhancements)
-
+* [Workfront에서 곧 제거될 기능](#functionality-soon-to-be-removed-from-workfront)
 
 ### 관리자 개선 사항
 
@@ -78,6 +78,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">환경 프로모션 패키지 롤백</a></p>
+                        [!BADGE In Production for Fast Release ]{type=Positive}
                         <p>환경 프로모션을 보다 유연하고 쉽게 사용할 수 있도록 롤백 기능을 활성화했습니다. 이제 24시간 내에 패키지를 롤백하여 환경 프로모션 패키지의 영향을 받은 이전 구성을 보다 쉽게 복원할 수 있습니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -192,7 +193,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">더 적절한 스마트 할당</a></p>
-                        [!BADGE In production ]{type=Informative}
+                        [!BADGE In Production for Fast Release ]{type=Positive}
                         <p>Workfront이 작업에 대한 스마트 할당을 계산하고 제안하는 데 사용하는 알고리즘을 변경했습니다. 새 알고리즘은 작업을 지정하는 Workfront의 작업 목록, 작업 헤더의 지정 영역, 홈 및 요약 패널에서 적용됩니다.</p>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
@@ -362,6 +363,14 @@ ht-degree: 0%
            </tbody>
         </table>
 
+### Workfront에서 곧 제거될 기능
+
+다음 기능은 곧 Workfront에서 제거될 예정입니다.
+
+#### 24.10으로 기존 홈 환경 사용 중단
+
+24.10 릴리스를 통해 기존의 홈 환경을 공식적으로 사용하지 않습니다. 사용자는 새로운 홈을 사용하는 것이 좋습니다. 홈은 사용이 중단되기 전에 추가 기능을 사용하여 계속 향상될 것입니다. 사용자 및 관리자가 준비할 수 있는 작업에 대한 조언을 포함하여 전환에 대한 자세한 내용은 [기존 홈 사용 중단 안내서](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md)를 참조하십시오.
+
 ## 공지
 
 ### Workfront Fusion 개선 사항
@@ -399,11 +408,3 @@ API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/
 ### 교육 업데이트
 
 각 Adobe Workfront 제품 릴리스의 학습 프로그램, 학습 경로, 비디오 및 안내서에 대한 최신 업데이트를 살펴보십시오. 자세한 내용은 [Workfront Tutorials 페이지](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)의 &quot;새로운 기능&quot; 섹션을 참조하십시오.
-
-### Workfront에서 곧 제거될 기능
-
-다음 기능은 곧 Workfront에서 제거될 예정입니다.
-
-#### 24.10으로 기존 홈 환경 사용 중단
-
-24.10 릴리스를 통해 기존의 홈 환경을 공식적으로 사용하지 않습니다. 사용자는 새로운 홈을 사용하는 것이 좋습니다. 홈은 사용이 중단되기 전에 추가 기능을 사용하여 계속 향상될 것입니다. 사용자 및 관리자가 준비할 수 있는 작업에 대한 조언을 포함하여 전환에 대한 자세한 내용은 [기존 홈 사용 중단 안내서](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md)를 참조하십시오.

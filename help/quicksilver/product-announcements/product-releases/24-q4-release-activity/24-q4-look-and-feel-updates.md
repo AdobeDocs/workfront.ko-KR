@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 5138321543175cac3e51cc21c8309cbefd8bc1e8
+source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리보기 릴리스: 2024년 7월 18일, 빠른 릴리스를 위한 프로덕션: 24.9 릴리스 포함(2024년 9월), 분기별 릴리스의 프로덕션: 24.10 릴리스 포함(2024년 10월)
+>미리보기 릴리스: 2024년 7월 18일, 빠른 릴리스를 위한 프로덕션: 24.9 릴리스 포함(2024년 9월 12일), 분기별 릴리스의 프로덕션: 24.10 릴리스 포함(2024년 10월)
 
 설정 > 시스템 > 환경 설정 페이지를 Workfront의 다른 영역과 일치하는 보다 현대적인 디자인으로 업데이트했습니다.
 

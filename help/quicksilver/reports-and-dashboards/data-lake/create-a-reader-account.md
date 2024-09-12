@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
+source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ Data Connect 데이터에 액세스하려면 먼저 각 새 연결에 대한 Sno
 
 ## 액세스 요구 사항
 
++++ 를 확장하여 액세스 요구 사항을 확인합니다.
+
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -31,7 +33,17 @@ Data Connect 데이터에 액세스하려면 먼저 각 새 연결에 대한 Sno
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 플랜</td> 
-   <td>TBD</td> 
+   <td><p>다음 플랜에 포함됩니다.</p>
+    <ul>
+        <li>Ultimate</li> 
+    </ul>    
+   <p>다음 플랜에 대한 추가 기능으로 구입할 수 있습니다.</p> 
+    <ul>
+        <li>선택</li> 
+        <li>Prime</li>
+    </ul> 
+    <p>Workfront Data Connect는 기존 Workfront 플랜에 사용할 수 없습니다.</p> 
+   </td> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이선스</td> 
@@ -45,6 +57,8 @@ Data Connect 데이터에 액세스하려면 먼저 각 새 연결에 대한 Sno
 </table>
 
 이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 리더 계정 만들기
 
