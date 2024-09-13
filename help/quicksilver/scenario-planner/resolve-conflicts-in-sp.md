@@ -6,9 +6,9 @@ description: 이니셔티브가 서로 충돌하면 동일한 리소스를 놓�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d3a3e177-bece-4e03-89d7-9cee6127bc55
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
 workflow-type: tm+mt
-source-wordcount: '2171'
+source-wordcount: '2172'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
    <td> <p>[!DNL Adobe Workfront] 플랜*</p> </td> 
    <td> <ul></li>
    <li><p>새로운 기능: Ultimate </p></li>
-   <p>새 Workfront Select 또는 Workfront 플랜에는 시나리오 플래너를 사용할 수 없습니다. </p>
+   <p>새 Workfront Select 또는 Workfront Prime 플랜에는 시나리오 플래너를 사용할 수 없습니다. </p>
    <li><p>현재: [!UICONTROL Business] 이상</p></ul>
    </td> 
   </tr> 

@@ -7,9 +7,9 @@ description: 기존 이니셔티브에서 프로젝트를 만들고, Adobe Workf
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 46d3666a-4454-4a84-8c02-a79f3947a18f
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
 workflow-type: tm+mt
-source-wordcount: '1670'
+source-wordcount: '1671'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
    <td> <p>[!DNL Adobe Workfront] 플랜*</p> </td> 
    <td> <ul></li>
    <li><p>새로운 기능: Ultimate </p></li>
-   <p>새 Workfront Select 또는 Workfront 플랜에는 시나리오 플래너를 사용할 수 없습니다. </p>
+   <p>새 Workfront Select 또는 Workfront Prime 플랜에는 시나리오 플래너를 사용할 수 없습니다. </p>
    <li><p>현재: [!UICONTROL Business] 이상</p></ul>
    </td> 
   </tr> 

@@ -6,9 +6,9 @@ description: Adobe Workfront Scenario Planner를 사용할 때 생성했거나 �
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: a811bad0-d3c0-4cba-8b78-d9a14ffc8482
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: '1626'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
    <td> <p>[!DNL Adobe Workfront] 플랜*</p> </td> 
    <td> <ul></li>
    <li><p>새로운 기능: Ultimate </p></li>
-   <p>새 Workfront Select 또는 Workfront 플랜에는 시나리오 플래너를 사용할 수 없습니다. </p>
+   <p>새 Workfront Select 또는 Workfront Prime 플랜에는 시나리오 플래너를 사용할 수 없습니다. </p>
    <li><p>현재: [!UICONTROL Business] 이상</p></ul>
    </td> 
   </tr> 

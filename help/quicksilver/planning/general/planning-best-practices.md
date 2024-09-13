@@ -1,10 +1,11 @@
 ---
 title: Adobe Workfront 계획 모범 사례
 description: 마케팅 운영 리더로서 Adobe Workfront Planning을 사용하여 모든 팀의 마케팅 라이프사이클 전반에서 작업을 구성할 수 있습니다. 다음은 Workfront Planning을 시작할 때 권장하는 몇 가지 모범 사례입니다.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: ae10d35c61bf40c9e6f0422bd670b9733ad62aae
+source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
 workflow-type: tm+mt
 source-wordcount: '3225'
 ht-degree: 0%

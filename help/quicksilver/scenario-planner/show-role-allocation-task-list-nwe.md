@@ -6,9 +6,9 @@ description: 프로젝트와 이니셔티브를 연결한 후 리소스 할당�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 77152e46-0b7b-4937-9d16-1a20c2a7fdf1
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '673'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
    <td> <p>[!DNL Adobe Workfront] 플랜*</p> </td> 
    <td> <ul></li>
    <li><p>새로운 기능: Ultimate </p></li>
-   <p>새 Workfront Select 또는 Workfront 플랜에는 시나리오 플래너를 사용할 수 없습니다. </p>
+   <p>새 Workfront Select 또는 Workfront Prime 플랜에는 시나리오 플래너를 사용할 수 없습니다. </p>
    <li><p>현재: [!UICONTROL Business] 이상</p></ul>
    </td> 
   </tr> 

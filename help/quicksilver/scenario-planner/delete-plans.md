@@ -6,9 +6,9 @@ description: 생성한 계획을 삭제할 수 있습니다. 공유된 플랜은
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 74515723-3822-425a-aa9e-970af63f9189
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '508'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 1%
    <td> <p>[!DNL Adobe Workfront] 플랜*</p> </td> 
    <td> <ul></li>
    <li><p>새로운 기능: Ultimate </p></li>
-   <p>새 Workfront Select 또는 Workfront 플랜에는 시나리오 플래너를 사용할 수 없습니다. </p>
+   <p>새 Workfront Select 또는 Workfront Prime 플랜에는 시나리오 플래너를 사용할 수 없습니다. </p>
    <li><p>현재: [!UICONTROL Business] 이상</p></ul>
    </td> 
   </tr> 

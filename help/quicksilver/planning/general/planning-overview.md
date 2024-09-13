@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
+source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
 workflow-type: tm+mt
-source-wordcount: '2039'
+source-wordcount: '2102'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,12 @@ ht-degree: 1%
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
 <!--do not use the snippet for IMPORTANT as it links to this article-->
+
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리 보기 환경이나 빠른 릴리스를 활성화한 고객의 프로덕션 환경에서만 사용할 수 있습니다.</span>
+
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>을 참조하세요.
+
+<span class="preview">현재 릴리스에 대한 자세한 내용은 [2023년 4분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)를 참조하십시오.</span>
 
 >[!IMPORTANT]
 >
@@ -89,8 +95,7 @@ Adobe Workfront Planning은 Adobe Workfront의 새로운 제품입니다. Workfr
 * 외부 리소스와 공개적으로 보기 공유
 * 중복 보기
 * 요청을 제출하여 레코드 만들기
-* Word로 레코드 세부 정보 내보내기\
-  <!--* Export record details to PDF-->
+* Word <span class="preview"> 및 PDF으로 레코드 세부 정보를 내보냅니다.</span>
 * 레코드에 주석 추가
 * 인앱 알림 수신
 * 이메일 알림 수신
