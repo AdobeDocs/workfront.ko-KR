@@ -6,9 +6,9 @@ description: ' [!DNL Workfront] 과(와) Adobe Experience Cloud 간에 몇 가�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: b3837dc83c56cb3d7796b8bee39e8bab78e35415
+source-git-commit: b4c1f9c29dd6ad1e07acc741ab52e95a7bae7f67
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1352'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,7 @@ ht-degree: 0%
 | [!UICONTROL 기본 메뉴] 및 위쪽 탐색 영역을 통해 도움말에 액세스할 수 있습니다. | [!UICONTROL 기본 메뉴] 및 [!DNL Workfront] 탐색 모음을 통해 도움말에 액세스할 수 있습니다. |
 | 증명 뷰어가 새 탭에서 열립니다 | 증명 뷰어가 Workfront 내에서 열립니다 |
 | Workfront에 액세스하는 데 사용된 URL은 `experience.adobe.com`입니다. | Workfront에 액세스하는 데 사용된 URL은 `(CompanyName).my.workfront.com`입니다. |
+| 날짜 형식(예: YYYY/MM/DD)은 브라우저 환경 설정을 기반으로 합니다. | 날짜 형식(예: YYYY/MM/DD)은 통합 경험 언어 설정을 기반으로 합니다. 사용자가 언어 설정을 업데이트하지 않으면 `en-US` 설정이 사용됩니다. |
 
 {style="table-layout:auto"}
 
