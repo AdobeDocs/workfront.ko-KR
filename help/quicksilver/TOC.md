@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 541b2048800b53b6f2302eaafe0598761a1f619b
+source-git-commit: 6d32b7c7427f1f8f9d1858724574cdd13b89fa1f
 workflow-type: tm+mt
-source-wordcount: '14390'
+source-wordcount: '14398'
 ht-degree: 2%
 
 ---
@@ -1017,6 +1017,7 @@ ht-degree: 2%
       * [홈 작업 목록에 표시되는 중복 승인 프로세스](workfront-basics/tips-tricks-and-troubleshooting/duplicate-apprval-processes-home.md)
       * [필터 단추가 페이지 헤더에 표시되지 않음](workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
       * [내가 진행 중인 프로젝트에 예기치 않은 결과가 포함됨](workfront-basics/tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
+      * [여러 브라우저 탭으로 인해 Workfront이 로그아웃됨](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/multiple-browser-tabs-cause-logout.md)
 * 애자일 {#agile}
    * [애자일](agile/agile.md)
    * [보드 개요](agile/boards-overview.md)
@@ -2742,7 +2743,7 @@ ht-degree: 2%
       * [문서 웹후크 오류 처리](wf-api/doc-wbhks-api/docu-webhooks-errors.md)
    * Workfront 개체 설명 {#workfrtont-object-descriptions}
       * [Workfront 개체 설명](wf-api/wf-objects/workfront-objects.md)
-      * [카테고리](wf-api/wf-objects/category.md)
+      * [범주](wf-api/wf-objects/category.md)
    * Adobe Workfront API {#tips-troubleshooting-apis}에 대한 팁, 요령 및 문제 해결
       * [Adobe Workfront API에 대한 팁, 요령 및 문제 해결](wf-api/tips-tricks-and-troubleshooting/tips-troubleshoot-api.md)
       * [Adobe Workfront API 호출에 대한 도메인 형식](wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md)
