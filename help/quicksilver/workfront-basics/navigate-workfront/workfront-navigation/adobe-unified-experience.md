@@ -6,9 +6,9 @@ description: Adobe Experience Cloud을 통해  [!DNL Workfront] 에 액세스하
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: 84b63191d2f288b2c280a2634d551d89d594a9f6
+source-git-commit: ef85b267b3417dddd0c9cc4a2b916b83dc416e14
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,10 @@ ht-degree: 0%
 1. [!UICONTROL 로그인] 화면에서 전자 메일 주소를 입력하고 **[!UICONTROL 계속]**&#x200B;을 클릭합니다.
 
    [!DNL Adobe Experience Cloud]](assets/aec-login-page.png)에 ![로그인
+
+>[!NOTE]
+>
+>Workfront이 열려 있는 페이지에서 브라우저 탭 세션이 만료되고 다른 브라우저 탭에 활성 Workfront 세션이 있는 경우 만료된 탭을 다시 로드하여 Workfront 페이지를 다시 열 수 있습니다.
 
 ## [!DNL Workfront] 액세스
 
