@@ -5,9 +5,10 @@ title: 기존 홈 사용 중단 안내서
 description: 이 페이지에는 기존 홈의 향후 사용 중단에 대한 정보가 포함되어 있습니다.
 author: Nolan
 feature: Product Announcements
-source-git-commit: 84f7f80314e4acafb0414b806f7b1e1e4b2845fc
+exl-id: 1fef08c9-624d-4783-a0bd-8009413fc2bd
+source-git-commit: 629fc09ded495e9add5f24144c4fdffc31e40552
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '853'
 ht-degree: 0%
 
 ---
@@ -79,6 +80,10 @@ Adobe Workfront 커뮤니티, 뉴스가 있습니다. 곧 기존 홈을 더 이�
 * 객체 기한에 대한 타임스탬프를 표시하는 것은 현재 사용할 수 없습니다.
 
 * 업데이트 피드 내에 커밋 일자 표시를 현재 사용할 수 없습니다. 그러나 사용 가능한 해결 방법이 있습니다. 레이아웃 템플릿 사용자 지정을 통해 헤더에 커밋 일자를 표시합니다.
+* 내가 제출한 승인은 현재 새 홈에서 지원되지 않습니다. 이 기능이 필요한 경우 다음 커뮤니티 게시물에 투표를 하거나 여기에 댓글을 게시하십시오.
+   * [새 홈에 &quot;내가 제출한 승인&quot; 위젯 추가](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/add-quot-approvals-i-submitted-quot-widget-to-new-home/idc-p/704664#M25269)
+   * [새 홈에 &quot;내가 제출한 승인&quot; 추가](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/add-quot-approvals-i-submitted-quot-widget-to-new-home/idc-p/704664#M25269)
+
 +++
 
 +++새 홈에서 사용자가 액세스할 수 있는 위젯을 어떻게 규제합니까?
