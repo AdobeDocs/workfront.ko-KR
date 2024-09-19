@@ -5,9 +5,10 @@ title: 새 홈 위젯 필터 개요
 description: 다양한 위젯 중에서 선택하여 홈 페이지에 표시되는 콘텐츠를 맞춤화할 수 있습니다. 홈 페이지에서 이러한 위젯의 크기를 조정하고 정렬할 수 있습니다.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: a1fcaaa9695fb059ffa9dc670ae4fe3e5609aa23
+exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
+source-git-commit: 6fe37148bbb242f3a954a4fd26284fd7e70a5cdf
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '742'
 ht-degree: 14%
 
 ---
@@ -19,6 +20,7 @@ ht-degree: 14%
 * [내 프로젝트](#my-projects)
 * [내 작업](#my-tasks)
 * [내 문제](#my-issues)
+* [내 작업]
 
 ## 내 프로젝트
 
@@ -229,4 +231,52 @@ ht-degree: 14%
     <td>내 역할에 할당되지 않음</td>
     <td>할당된 기본 사용자가 없지만 할당된 역할이 있는 모든 문제를 표시합니다. </td>
   </tr>
+</table>
+
+## 내 작업
+
+내 작업 위젯에서 다음 필터를 사용할 수 있습니다.
+
+<table>
+  <tbody>
+    <tr>
+      <td>작업 중</td>
+      <td>현재 작업 중인 항목을 표시합니다.</td>
+    </tr>
+    <tr>
+      <td>시작 준비 완료</td>
+      <td>항목이 있는 항목 표시 
+      <ul>
+      <li>완료되지 않은 전임 작업 또는 작업 제한 없음</li>
+      <li>계획된 시작 일자가 과거 또는 최대 2주 미래입니다.</li>
+      </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>준비 안 됨</td>
+      <td>다음과 같은 항목이 있는 항목 표시
+       <ul>
+      <li>항목이 작업되지 않도록 하는 불완전한 전임 작업 또는 작업 제한</li>
+      또는
+      <li>2주 이상 후의 계획된 시작 일자</li>
+      </ul>
+       </td>
+    </tr>
+    <tr>
+      <td>요청됨</td>
+      <td>작업을 시작하지 않은 문제를 표시합니다.</td>
+    </tr>
+    <tr>
+      <td>내가 위임함</td>
+      <td>다른 사용자에게 위임한 항목을 표시합니다.</td>
+    </tr>
+    <tr>
+      <td>내게 위임함</td>
+      <td>사용자가 귀하에게 위임한 항목을 표시합니다.</td>
+    </tr>
+    <tr>
+      <td>완료됨</td>
+      <td>지난 2주 이내에 완료된 작업을 표시합니다. 이 필터 옵션에는 승인이 포함되지 않습니다.</td>
+    </tr>
+  </tbody>
 </table>
