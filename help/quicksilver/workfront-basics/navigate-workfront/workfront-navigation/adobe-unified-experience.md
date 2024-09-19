@@ -6,9 +6,9 @@ description: Adobe Experience Cloud을 통해  [!DNL Workfront] 에 액세스하
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: ef85b267b3417dddd0c9cc4a2b916b83dc416e14
+source-git-commit: e6688408c3316a3f99fdb051adeb306f359057d1
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -113,4 +113,5 @@ ht-degree: 0%
 [Adobe 암호를 변경하려면 이 문서를 참조하세요.](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}
 
 암호 변경에 대한 자세한 내용은 관리자에게 문의하십시오.
+
 
