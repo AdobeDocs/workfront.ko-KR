@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 6d32b7c7427f1f8f9d1858724574cdd13b89fa1f
+source-git-commit: 2f731d1ee8381df6a9d0d767743dc8b5b52f4a1b
 workflow-type: tm+mt
-source-wordcount: '14398'
+source-wordcount: '14404'
 ht-degree: 2%
 
 ---
@@ -2135,6 +2135,7 @@ ht-degree: 2%
       * [Adobe Workfront Fusion 액세스용 IP 주소](workfront-fusion/get-started/ip-addresses-for-fusion.md)
       * [Adobe Workfront Fusion 라이선스](workfront-fusion/get-started/license-automation-vs-integration.md)
       * [ [!DNL Adobe Workfront Fusion]의 작업](workfront-fusion/get-started/operations-in-workfront-fusion.md)
+      * [Fusion에서 큰 파일 작업](/help/quicksilver/workfront-fusion/get-started/fusion-large-files.md)
       * [Adobe Workfront Fusion 비디오 개요](/help/quicksilver/workfront-fusion/get-started/fusion-basics-videos.md)
    * Adobe Workfront Fusion 기본 사항 {#workfront-fusion-basics}
       * [Adobe Workfront Fusion 기본 사항](workfront-fusion/workfront-fusion-basics/workfront-fusion-basics.md)
