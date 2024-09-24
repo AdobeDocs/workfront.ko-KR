@@ -9,7 +9,7 @@ description: ' [!DNL Adobe Acrobat Sign] 모듈을 사용하면  [!DNL Adobe] Ac
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 01158218-31a6-4c68-a9b7-6a678a8f40c9
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
 workflow-type: tm+mt
 source-wordcount: '6636'
 ht-degree: 0%
@@ -453,7 +453,7 @@ ht-degree: 0%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Post sign option]</td> 
+   <td role="rowheader">[!UICONTROL Post sign 옵션]</td> 
    <td> <p>계약 서명 후 서명자에게 성공 페이지로 연결할지 여부를 선택합니다. <b>[!UICONTROL 예]</b>를 선택하는 경우 다음 필드를 채우십시오.</p> 
     <ul> 
      <li> <p><b>[!UICONTROL 리디렉션 지연]</b> </p> <p>서명자가 성공 페이지로 리디렉션되기 전 시간(초)을 나타내는 숫자를 입력하거나 매핑합니다. 이 값이 0보다 크면 사용자는 먼저 표준 [!DNL Adobe Sign] 성공 메시지를 확인한 다음 지연 시간이 지나면 성공 페이지로 리디렉션됩니다.</p> </li> 
