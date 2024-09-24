@@ -5,7 +5,7 @@ title: 기존 홈에서 새 홈으로 이동
 description: 레거시 홈은 4분기 릴리스를 통해 10월 17일에 Workfront에서 제거됩니다. 이 문서에서는 새 홈에서 사용할 수 있는 기능에 대한 정보와 새 홈 경험으로 사용자를 이동하기 위한 권장 사항을 제공합니다.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: b34de7dc66d69b030e313ee891a7404e1d5470e8
+source-git-commit: 69b264ac060a7c76a151536df622011b5eeb7953
 workflow-type: tm+mt
 source-wordcount: '1596'
 ht-degree: 5%

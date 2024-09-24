@@ -8,7 +8,7 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: a9f182c0-11cb-4e94-be86-b19ba5102faa
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 7a2cfddf4683b5b49121bbe3987498297b963ffa
 workflow-type: tm+mt
 source-wordcount: '2075'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Adobe Workfront 관리자는 조직의 콘텐츠 검토 프로세스가 자주 �
 자동화된 워크플로우 템플릿을 사용할 때는 다음 사항을 고려하십시오.
 
 1. 자동화된 워크플로 템플릿의 설정은 증명에 대한 자동화된 워크플로로 수행할 수 있는 작업을 결정합니다. 예를 들어, 템플릿에서 단계 추가 버튼이 비활성화되어 있는 경우 증명에 대한 자동화된 워크플로 설정으로 작업할 때 이 버튼이 표시되지 않습니다.
-1. 어떤 사람이 자동화된 워크플로 템플릿의 단계에 추가되었지만 증명에서 검토자로 이미 존재하는 경우 템플릿을 적용하면 검토자가 단계에서 제거됩니다. 스테이지에 다른 검토자를 추가하지 않으면 하나를 추가하라는 메시지가 표시됩니다.
+1. 자동화된 워크플로 템플릿의 단계에 추가되었지만 증명에 이미 검토자로 존재하는 경우 템플릿을 적용하면 검토자가 단계에서 제거됩니다. 스테이지에 다른 검토자를 추가하지 않으면 하나를 추가하라는 메시지가 표시됩니다.
 1. 자동화된 워크플로 템플릿을 수정하는 기능은 의 설명과 같이 Workfront 관리자가 구성한 템플릿 설정에 따라 다릅니다. 템플릿 수정 기능이 비활성화된 경우 템플릿 소유자만 수정할 수 있습니다.
 
 자동화된 워크플로에 대한 자세한 내용은 [자동화된 워크플로 개요](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md)를 참조하십시오.
