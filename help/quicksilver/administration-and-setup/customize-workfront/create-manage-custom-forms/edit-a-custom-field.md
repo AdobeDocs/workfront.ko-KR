@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: aee8673337b7e5294331bc2d571a6bee57114df5
+source-git-commit: 2e526059e240c45ca333bb52cd57e61f87a032f2
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 0%
 1. **새 사용자 지정 필드**&#x200B;를 클릭합니다.
 1. 표시되는 상자에 추가할 항목에 대한 필수 정보와 선택적 정보를 입력합니다.
 
-   자세한 내용은 [양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하세요.
+   자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
 
 1. Click **Create**.
 
@@ -77,6 +77,6 @@ ht-degree: 0%
 1. 사용자 지정 필드, 섹션 구분 또는 위젯을 선택한 다음 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.
 1. 표시되는 상자에서 편집 중인 항목에 사용할 수 있는 옵션을 변경합니다.
 
-   자세한 내용은 [양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하세요.
+   자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
 
 1. 완료되면 **편집**&#x200B;을 클릭하세요.

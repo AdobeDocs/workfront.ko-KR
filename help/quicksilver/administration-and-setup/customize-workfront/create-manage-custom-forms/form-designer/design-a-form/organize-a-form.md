@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 3f7f4557c18bbb91ece850f910350d926a9e84bf
+source-git-commit: 8d9a9d8356f195d1e1fcbf0ae6c9b08f20ba4bbf
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1300'
 ht-degree: 0%
 
 ---
@@ -61,11 +61,11 @@ ht-degree: 0%
 
 개체에 대한 사용 권한에 대한 자세한 내용은 [개체에 대한 사용 권한 공유 개요](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)를 참조하십시오.
 
-사용자 정의 양식의 사용자 정의 필드 및 위젯에 대한 자세한 내용은 [양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
+사용자 정의 양식의 사용자 정의 필드 및 위젯에 대한 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
 
 ### 사용자 정의 양식의 섹션에 대한 액세스 만들기 및 구성
 
-1. [양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)에 설명된 대로 사용자 정의 양식을 만들거나 편집하고 필드를 추가하십시오.
+1. [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)에 설명된 대로 사용자 정의 양식을 만들거나 편집하고 필드를 추가합니다.
 
 1. **섹션 구분**&#x200B;을 클릭하고 캔버스에서 원하는 위치로 끕니다.
 
@@ -147,7 +147,7 @@ ht-degree: 0%
 ## 사용자 정의 양식에 사용자 정의 필드 및 위젯 배치
 
 
-1. [양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)에 설명된 대로 사용자 정의 양식을 만들거나 편집하십시오.
+1. [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)에 설명된 대로 사용자 정의 양식을 만들거나 편집하십시오.
 
 1. 사용자 정의 필드와 위젯을 동일한 행에 배치하려면 사이에 선이 나타날 때까지 한 필드를 다른 행 옆에 드래그합니다.
 
@@ -166,7 +166,7 @@ ht-degree: 0%
 
 ## 사용자 정의 양식 미리 보기
 
-1. [양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)에 설명된 대로 사용자 정의 양식을 만들거나 편집하고 필드를 추가하십시오.
+1. [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)에 설명된 대로 사용자 정의 양식을 만들거나 편집하고 필드를 추가합니다.
 
 1. 오른쪽 상단의 **미리 보기**&#x200B;를 클릭하여 양식 사용 시 표시되는 모양을 확인한 다음 **미리 보기 종료**&#x200B;를 클릭하여 양식 편집으로 돌아갑니다.
 
