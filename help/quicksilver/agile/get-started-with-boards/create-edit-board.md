@@ -6,9 +6,9 @@ description: '[!UICONTROL 보드] 대시보드에서 새 보드를 만들거나 
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: efe636e14964cc8705839c9f534a9947327803d7
+source-git-commit: 0c0c1f538cfd12e18c504fcb42ee424789d1cde8
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '858'
 ht-degree: 1%
 
 ---
@@ -107,6 +107,8 @@ ht-degree: 1%
 
 1. 대시보드에서 열 보드를 선택합니다.
 1. 필요에 따라 보드를 편집합니다. 보드 이름을 클릭하여 이름을 바꿀 수 있습니다.
+
+   연결된 카드를 Workfront과 동기화하고 보드 또는 접수 열로 새 작업 및 문제를 가져오려면 보드 이름 옆에 있는 **[!UICONTROL 추가]** 메뉴 ![[!UICONTROL 추가 메뉴]](assets/more-icon-spectrum.png)를 클릭하고 **[!UICONTROL 연결된 항목 동기화]**&#x200B;를 선택합니다.
 
    자세한 내용은 [보드에 구성원 추가 또는 제거](../../agile/get-started-with-boards/add-members-to-board.md), [보드 열 관리](../../agile/get-started-with-boards/manage-board-columns.md) 및 [보드에 카드 추가](../../agile/get-started-with-boards/add-card-to-board.md)를 참조하십시오.
 

@@ -6,9 +6,9 @@ description: Workfront의 기존 작업 및 문제에 연결된 카드를 보드
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 0c0c1f538cfd12e18c504fcb42ee424789d1cde8
 workflow-type: tm+mt
-source-wordcount: '1461'
+source-wordcount: '1483'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ ht-degree: 0%
 * [!UICONTROL 예상] / [!UICONTROL 스토리 포인트]
 * [!UICONTROL 하위 작업]
 * [!UICONTROL 문서]
+
+연결된 카드를 Workfront과 동기화하려면 보드 이름 옆에 있는 **[!UICONTROL 기타]** 메뉴 ![[!UICONTROL 기타 메뉴]](assets/more-icon-spectrum.png)를 클릭하고 **[!UICONTROL 연결된 항목 동기화]**&#x200B;를 선택합니다.
 
 >[!NOTE]
 >

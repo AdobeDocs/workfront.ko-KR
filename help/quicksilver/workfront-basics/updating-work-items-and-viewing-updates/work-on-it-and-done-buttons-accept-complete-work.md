@@ -8,9 +8,9 @@ author: Lisa and Alina
 feature: Get Started with Workfront
 role: User
 exl-id: cfda6702-1a9a-4645-b031-8b2f201ac0af
-source-git-commit: a634e29df16d401812fb87ea53521d5028f7fd20
+source-git-commit: f5632af0fb87739fc41c4e2f41dc8ebab0f8be8b
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '816'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,14 @@ ht-degree: 0%
 
 상황별 버튼을 사용하여 작업 항목을 수락하거나 완료하면 Adobe Workfront에서 직접 업데이트하지 않고도 항목의 여러 필드를 업데이트할 수 있습니다.
 
+다음과 같은 사용자는 처리 중(Work On It) 및 완료(Done) 단추를 볼 수 있습니다.
+
+* Standard 라이센스(신규) 또는 Plan 또는 Work 라이센스(현재)
+* 작업 또는 문제에 대한 편집 액세스 권한 이상 제한
+
 ## 작업 및 완료 버튼 이름
 
-작업 또는 문제에 액세스하는 Workfront의 영역에 따라 다음 시나리오에 설명된 대로 작업 또는 완료 버튼이 이름을 변경할 수 있습니다. 
+작업 또는 문제에 액세스하는 Workfront의 영역에 따라 다음 시나리오에 설명된 대로 작업 또는 완료 버튼이 이름을 변경할 수 있습니다.
 
 * 작업 또는 문제가 처음 사용자에게 할당되고 상태가 신규인 경우 해당 작업에 대한 작업으로 버튼이 표시됩니다.
 
@@ -86,7 +91,7 @@ Workfront의 다음 영역에서 처리 및 완료 버튼을 찾을 수 있습�
 처리 중 단추를 클릭할 때 업데이트되는 필드 외에도 다음 필드는 시작 단추를 클릭할 때 작업 또는 문제에 대해 자동으로 업데이트됩니다.
 
 * 상태
-* 실제 시작 일자
+* 실제 시작 일자 기준
 
   실제 시작 날짜에 대한 자세한 내용은 [프로젝트 실제 시작 날짜의 개요](../../manage-work/projects/planning-a-project/project-actual-start-date.md)를 참조하십시오.
 
@@ -110,7 +115,7 @@ Workfront의 다음 영역에서 처리 및 완료 버튼을 찾을 수 있습�
 
 * 상태
 * 할당 상태 업데이트 작업에서 완료로
-* 실제 완료 일자
+* 실제 완료 일자 기준
 
 팀의 완료 버튼 구성에 대한 자세한 내용은 다음 문서를 참조하십시오.
 

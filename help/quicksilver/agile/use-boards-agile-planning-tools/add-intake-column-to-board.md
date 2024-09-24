@@ -7,9 +7,9 @@ description: 정의한 필터에 따라 Workfront에 작업 및 문제를 추가
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 0c0c1f538cfd12e18c504fcb42ee424789d1cde8
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1126'
 ht-degree: 3%
 
 ---
@@ -41,6 +41,8 @@ ht-degree: 3%
 >[!IMPORTANT]
 >
 >여러 사용자가 동시에 보드에서 작업하는 경우 보드를 자주 새로 고치는 것이 좋습니다. 페이지를 새로 고치면 보드의 시각적 변경 사항을 최신 상태로 유지하는 데 도움이 되며 중복 카드가 접수 열에서 보드로 이동하는 것과 같은 문제가 방지됩니다.
+>
+>Workfront과 동기화하여 새로운 작업 및 문제를 게시판 또는 접수 열로 가져오려면 게시판 이름 옆에 있는 **[!UICONTROL 자세히]** 메뉴 ![[!UICONTROL 추가 메뉴]](assets/more-icon-spectrum.png)를 클릭하고 **[!UICONTROL 연결된 항목 동기화]**&#x200B;를 선택합니다.
 
 열에 대한 자세한 내용은 [보드 열 관리](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)를 참조하십시오. 연결된 카드에 대한 자세한 내용은 [보드에 연결된 카드 사용](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)을 참조하세요.
 
