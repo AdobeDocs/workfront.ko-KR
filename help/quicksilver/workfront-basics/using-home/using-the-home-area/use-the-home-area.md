@@ -7,9 +7,9 @@ author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 246e3f71-6403-4381-866c-fa693fb9944d
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: b9a01dd8b46a4af195c00858ed91ad3b4995d51b
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 0%
 이 섹션에는 다음 문서가 포함됩니다.
 
 * [[!UICONTROL 홈] 시작](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
+* [기존 홈에서 새 홈으로 이동](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)
 * [[!UICONTROL 내 업데이트] 영역 사용](../../../workfront-basics/using-home/using-the-home-area/my-updates-area.md)
 * [[!UICONTROL Home] 영역의 [!UICONTROL 작업 목록]에 항목 표시](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
 * [[!UICONTROL 홈] 영역에서 작업의 우선 순위 지정](../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)

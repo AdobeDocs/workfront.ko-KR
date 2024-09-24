@@ -5,9 +5,9 @@ title: 내 작업 위젯을 사용하여 작업 관리
 description: 내 작업 위젯은 할당된 모든 작업, 문제 및 요청을 한 곳에 표시합니다. 여기에서 작업을 필터링 및 구성하고 시간을 기록하며 업데이트하고 작업 항목을 완료로 표시할 수 있습니다.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: c96169186af3bc83b823ec8870173911cf546091
+source-git-commit: 09dd8d24d021e8a25b3a7a63fe93d074f8a8ee0c
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '704'
 ht-degree: 5%
 
 ---
@@ -74,6 +74,7 @@ ht-degree: 5%
       <td>항목이 있는 항목 표시 
       <ul>
       <li>완료되지 않은 전임 작업 또는 작업 제한 없음</li>
+      <p>및</p>
       <li>계획된 시작 일자가 과거 또는 최대 2주 미래입니다.</li>
       </ul>
       </td>
@@ -83,7 +84,7 @@ ht-degree: 5%
       <td>다음과 같은 항목이 있는 항목 표시
        <ul>
       <li>항목이 작업되지 않도록 하는 불완전한 전임 작업 또는 작업 제한</li>
-      또는
+      <p>또는</p>
       <li>2주 이상 후의 계획된 시작 일자</li>
       </ul>
        </td>
@@ -127,7 +128,7 @@ ht-degree: 5%
 
 >[!TIP]
 >
->내 작업 위젯의 맨 위에 모든 기한 경과 항목을 표시하는 목록을 만들려면 기한을 기준으로 정렬하고 그룹을 적용하지 마십시오.
+>내 작업 위젯의 맨 위에 모든 기한 경과 항목을 표시하는 목록을 만들려면 기한을 기준으로 정렬하고 그룹화를 적용하지 마십시오.
 
 
 ![](assets/sort-my-work-widget.png)
