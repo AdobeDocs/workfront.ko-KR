@@ -6,9 +6,9 @@ description: 자동 보고서 배달 예약
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 4bd88c0e4a3d27e30580fefea993224fe5446e32
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1172'
 ht-degree: 2%
 
 ---
@@ -130,7 +130,7 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader"> <p>시간</p> </td> 
-      <td> <p>게재를 보낼 시간을 선택합니다.</p> <p>팁: 시스템 로드는 보고서 배달 시간에 영향을 줄 수 있으므로 예약된 시간과 실제 배달 시간 사이에 지연이 있을 수 있습니다. 특정 시간까지 보고서를 배달해야 하는 경우에는 필요한 시간 전에 배달을 예약하는 것이 좋습니다. 예를 들어, 필요한 날짜보다 하루 전에 게재를 예약하는 것이 좋습니다.</p> </td> 
+      <td> <p>게재를 보낼 시간을 선택합니다.</p> <p>팁: 시스템 로드는 보고서 배달 시간에 영향을 줄 수 있으므로 예약된 시간과 실제 배달 시간 사이에 최대 24시간의 지연이 있을 수 있습니다. 특정 시간까지 보고서를 배달해야 하는 경우에는 필요한 시간 전에 배달을 예약하는 것이 좋습니다. 일반적으로 필요한 날짜보다 최소 하루 전에 게재를 예약하는 것이 좋습니다.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>반복 일자</p> </td> 

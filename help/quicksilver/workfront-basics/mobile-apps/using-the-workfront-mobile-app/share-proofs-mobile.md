@@ -6,9 +6,9 @@ description: 모바일 앱에서 직접 내부 및 외부 수신자와 증명 �
 author: Nolan
 feature: Get Started with Workfront
 exl-id: a97ddd1e-1cae-49a8-b3a4-7c9850169179
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 4bd88c0e4a3d27e30580fefea993224fe5446e32
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 ## 증명 다운로드
 
-증명 문서의 사본을 모바일 장치에 다운로드할 수 있습니다.
+증명 문서의 사본을 모바일 장치에 다운로드할 수 있습니다. 비디오 파일을 미리 볼 수는 없지만 계속 다운로드할 수 있습니다.
 
 1. 문서 증명을 열고 문서의 오른쪽 상단에 있는 **[!UICONTROL 추가]** 메뉴 ![추가 메뉴](assets/mobile-verticalmoremenu-20x33.png)를 선택합니다. 그런 다음 **[!UICONTROL 자세히]**&#x200B;를 선택합니다.
 1. **[!UICONTROL 다운로드]**&#x200B;를 선택합니다.

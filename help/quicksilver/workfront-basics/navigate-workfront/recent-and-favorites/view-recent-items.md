@@ -6,16 +6,16 @@ description: '[!UICONTROL 최근 항목] 메뉴는 위쪽 탐색 모음에 있�
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 531b6b77-bf54-4ab3-a757-5c59fc0586a6
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 4bd88c0e4a3d27e30580fefea993224fe5446e32
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
 
 # 최근 항목 보기
 
-[!UICONTROL 최근 항목] 메뉴는 위쪽 탐색 모음에 있습니다. 이 메뉴에는 최근에 본 프로젝트, 보고서, 대시보드, 작업, 문제 등이 표시됩니다.
+[!UICONTROL 최근 항목] 메뉴는 위쪽 탐색 모음에 있습니다. 이 메뉴에는 최근에 본 프로젝트, 보고서, 대시보드, 작업, 문제 등이 표시됩니다. 지난 2주 내에 본 객체만 포함되며 객체 유형당 최대 20개가 포함되며 가장 최근에 본 순서대로 나열됩니다.
 
 ## 액세스 요구 사항
 
