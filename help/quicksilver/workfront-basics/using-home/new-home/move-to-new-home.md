@@ -5,9 +5,9 @@ title: 기존 홈에서 새 홈으로 이동
 description: 레거시 홈은 4분기 릴리스를 통해 10월 17일에 Workfront에서 제거됩니다. 이 문서에서는 새 홈에서 사용할 수 있는 기능에 대한 정보와 새 홈 경험으로 사용자를 이동하기 위한 권장 사항을 제공합니다.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 69b264ac060a7c76a151536df622011b5eeb7953
+source-git-commit: 8666870341227f2bdcd08ad77753a28748ed9847
 workflow-type: tm+mt
-source-wordcount: '1596'
+source-wordcount: '1632'
 ht-degree: 5%
 
 ---
@@ -185,7 +185,7 @@ Workfront 관리자는 레이아웃 템플릿을 사용하여 새 홈에서 사�
 
 +++
 
-  ![](assets/widgets-menu.png)
+![](assets/widgets-menu.png)
 
 ### 각 라이선스 유형에 사용할 수 있는 위젯 보기
 
@@ -262,3 +262,17 @@ Workfront 관리자는 레이아웃 템플릿을 사용하여 새 홈에서 사�
 1. 나머지 사용자를 새 홈 페이지 레이아웃에 재할당합니다.
 
 이를 최대한 빨리 수행하면 사용자가 새 경험에 적응하고 개별 요구 사항에 가장 적합하게 새 홈 페이지를 사용자 지정할 수 있는 시간이 제공됩니다. 사용자가 자신의 새 홈 페이지에서 위젯을 사용자 지정하는 방법에 대한 자세한 내용은 [새 홈에서 위젯 제거, 추가 및 다시 정렬](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)을 참조하십시오.
+
+### 최종 사용자를 위한 리소스
+
+**도움말 문서**
+
+* [내 작업 위젯을 사용하여 작업 관리](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)
+
+**교육**
+
+* Adobe Workfront의 [작업자 기본 사항](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)
+
+>[!IMPORTANT]
+>
+>무료 강좌이지만 액세스하려면 로그인하고 등록해야 합니다.
