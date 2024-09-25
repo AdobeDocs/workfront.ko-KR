@@ -7,9 +7,9 @@ description: Adobe Workfront Fusion에서 조직에 사용자를 추가할 수 �
 author: Becky
 feature: Workfront Fusion
 exl-id: 98248cca-98f5-4eb5-b203-67e261df33f1
-source-git-commit: 1b4a6d2b2ad57ddf1afd5dadf8b1fed358f95b61
+source-git-commit: 5cdc438c6757d438b2c09796cf77e59dc19c45d9
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '663'
 ht-degree: 0%
 
 ---
@@ -93,6 +93,9 @@ ht-degree: 0%
 <p><strong>Add a user to an organization that has not been onboarded to the Adobe Business Console</strong></p>
 
 -->
+>[!NOTE]
+>
+>조직이 현재 Adobe Admin Console으로 이동하는 중인 경우 Workfront에서 사용자를 관리(사용자 추가 또는 삭제)할 수 없습니다. 마이그레이션이 완료된 후 Adobe Admin Console에서 이러한 작업을 수행할 수 있습니다.
 
 조직에 사용자를 추가하려면 사용자를 추가하려는 조직의 관리자여야 합니다. 역할에 대한 자세한 내용은 [조직 역할 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/organizations/organization-roles.md)을 참조하세요.
 

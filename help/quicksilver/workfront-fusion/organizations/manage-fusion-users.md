@@ -8,9 +8,9 @@ description: 조직의  [!DNL Adobe Workfront Fusion] 사용자 관리
 author: Becky
 feature: Workfront Fusion
 exl-id: fbb858a6-1230-41b4-892a-4ffeb2711922
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 5cdc438c6757d438b2c09796cf77e59dc19c45d9
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,10 @@ ht-degree: 0%
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront Fusion/Adobe Business Platform)](../../workfront-fusion/fusion-in-admin-console/fusion-adobe-admin-console.md).
 
 -->
+
+>[!NOTE]
+>
+>조직이 현재 Adobe Admin Console으로 이동하는 중인 경우 Workfront에서 사용자를 관리(사용자 추가 또는 삭제)할 수 없습니다. 마이그레이션이 완료된 후 Adobe Admin Console에서 이러한 작업을 수행할 수 있습니다.
 
 ## 액세스 요구 사항
 
