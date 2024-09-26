@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 8dac7959919014d7bfbbbd39d193d026ca31c4b2
+source-git-commit: 0e7651389a8762a2b09b0bcf87bf08c7be72adee
 workflow-type: tm+mt
-source-wordcount: '2319'
+source-wordcount: '2353'
 ht-degree: 0%
 
 ---
@@ -279,6 +279,8 @@ ht-degree: 0%
 +++
 
    1. 큰 텍스트 상자를 클릭한 다음 계산에 추가할 수 있는 **식** 및 **필드**&#x200B;를 클릭합니다.
+
+      **필드**&#x200B;에서 개체 이름을 확장하여 해당 개체에 사용할 수 있는 모든 필드를 봅니다. 목록은 200개 항목으로 제한됩니다. 필드 이름을 알고 있으면 검색할 수 있습니다.
 
       큰 텍스트 상자에 식이나 필드를 입력한 다음 표시될 때 선택할 수도 있습니다. 각 항목은 필드에 &quot;F&quot;를 표시하거나 표현식에 &quot;E&quot;를 표시합니다.
 
