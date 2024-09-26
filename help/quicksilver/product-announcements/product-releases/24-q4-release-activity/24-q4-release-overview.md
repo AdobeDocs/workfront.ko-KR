@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
+source-git-commit: d3df6dca10054970feca493d27639cb8235ca5f5
 workflow-type: tm+mt
-source-wordcount: '1606'
+source-wordcount: '1600'
 ht-degree: 0%
 
 ---
@@ -103,16 +103,16 @@ ht-degree: 0%
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
                             <li>
-                                <p>미리보기 릴리스: 2024년 8월 12일</p>
+                                <p><s>미리보기 릴리스: 2024년 8월 12일</s></p>
                             </li>
                             <li>
-                                <p>빠른 릴리스를 위한 프로덕션: 24.9 릴리스 포함(2024년 9월 12일)</p>
+                                <p>빠른 릴리스를 위한 프로덕션: 해당 사항 없음</p>
                             </li>
                             <li>
-                                <p>모든 고객을 위한 프로덕션 릴리스: TBD</p>
+                                <p>모든 고객을 위한 프로덕션 릴리스: 해당 사항 없음</p>
                             </li>
                         </ul>
-                        <p><i>이 기능은 단계적 릴리스의 일부이며 9월에 제한된 수의 고객이 사용할 수 있습니다.</i></p>
+                        <p><i>이 기능은 미리보기에서 제거되었으며 향후 릴리스와 함께 릴리스되지 않습니다.</i></p>
                     </td>
                 </tr>
            </tbody>
