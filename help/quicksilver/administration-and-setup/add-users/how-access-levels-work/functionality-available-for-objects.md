@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 56f59e901e4c20159cd8b40cea0cbbe24271099b
+source-git-commit: 2fa590235063e194d6277394f13b3d6be752ec4f
 workflow-type: tm+mt
 source-wordcount: '1646'
 ht-degree: 11%
@@ -390,3 +390,4 @@ Standard 라이선스를 가진 사용자만 리소스 관리에 대한 전체 �
 | 왼쪽 패널에서 체크인 영역 보기 |   | ✓ 덧신 |
 | 왼쪽 패널에서 설정 영역 보기 | ✓ 덧신 | ✓ 덧신 |
 | 목표 목록 인쇄 | ✓ 덧신 | ✓ 덧신 |
+
