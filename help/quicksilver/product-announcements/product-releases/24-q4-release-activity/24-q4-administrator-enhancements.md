@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
+source-git-commit: b0b56dfb8d50fbbd40e2a1de82f95352c182615a
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -46,9 +46,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리보기 릴리스: 2024년 8월 12일, 빠른 릴리스를 위한 프로덕션: 24.9 릴리스 포함(2024년 9월 12일), 분기별 릴리스의 프로덕션: TBD
+>미리 보기 릴리스: ~~2024년 8월 12일~~, 빠른 릴리스를 위한 프로덕션: 해당 사항 없음, 분기별 릴리스를 위한 프로덕션: 해당 사항 없음
 >
->_이 기능은 단계적 릴리스의 일부이며 9월에 제한된 수의 고객이 사용할 수 있습니다. 피드백을 수집하는 동안 미리 보기 환경에 오래 유지됩니다._
+>_이 기능은 미리 보기에서 제거되었으며 향후 릴리스와 함께 릴리스되지 않습니다._
 
 사용자 정의 양식 디자이너의 &quot;레이아웃&quot; 버튼을 사용하면 2열 또는 3열 작업 영역 중에서 선택할 수 있습니다. 원래 양식 디자이너는 세 개의 열을 사용하며 필드 설정은 맨 오른쪽 열에 표시됩니다. 두 개의 열을 선택하면 맨 왼쪽 열의 필드 라이브러리 옆에 필드 설정이 표시됩니다.
 
