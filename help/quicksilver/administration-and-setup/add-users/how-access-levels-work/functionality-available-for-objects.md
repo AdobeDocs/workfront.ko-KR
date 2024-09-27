@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 60e56dce7c4d0da07ba2d463766c8309e8aca23d
+source-git-commit: 56f59e901e4c20159cd8b40cea0cbbe24271099b
 workflow-type: tm+mt
-source-wordcount: '1612'
+source-wordcount: '1646'
 ht-degree: 11%
 
 ---
@@ -24,6 +24,11 @@ ht-degree: 11%
 다음 표에는 다양한 액세스 레벨의 각 객체 유형에 사용할 수 있는 기능이 나열되어 있습니다.
 
 또한 Workfront 관리자가 액세스 수준을 사용하여 비활성화하거나 활성화할 수 있는 작업도 표시됩니다.
+
+>[!NOTE]
+>
+>이 문서에서는 현재 Workfront 계획 모델의 액세스 수준에 사용할 수 있는 기능에 대해 설명합니다. 새 계획 모델에서 사용할 수 있는 기능을 보려면 [다양한 액세스 수준에 대해 각 개체 유형에 사용할 수 있는 기능](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)을 참조하십시오.
+
 
 ## 프로젝트
 
