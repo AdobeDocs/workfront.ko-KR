@@ -4,9 +4,9 @@ description: 2024년 4분기 홈 개선 사항
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d07aea784f69d7b2d499b9bc7f9bce3dbbb4444c
+source-git-commit: c32d08a0b32c6695a29ef45400a7eb1e10e665fd
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## 우선 순위가 있는 작업 소유자의 Workfront 경험 간소화
 
-우선 순위 소개: 작업 소유자를 위한 단순하고 능률적이며 직관적인 Workfront 환경.
+우선 순위 소개: 작업 소유자를 위한 보다 간단하고 능률적이며 직관적인 Workfront 환경.
 
 우선 순위는 집중력과 생산성을 향상시켜 고객이 더 짧은 시간에 더 많은 성과를 달성하도록 지원합니다.
 

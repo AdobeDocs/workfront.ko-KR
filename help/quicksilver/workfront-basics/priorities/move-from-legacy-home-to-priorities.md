@@ -5,9 +5,9 @@ description: 레거시 홈은 4분기 릴리스를 통해 10월 17일에 Workfro
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 3b530431ea9db318e03ac1f348e40cfbdedefc01
+source-git-commit: e0eeb62dc1e29849258fa7b111ccce6480767812
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '564'
 ht-degree: 3%
 
 ---
@@ -49,9 +49,7 @@ ht-degree: 3%
 
 #### 작업 위임
 
-지금은 우선 순위에서 위임된 작업을 위임하거나 볼 수 없습니다.
-
-사용자는 여전히 다음 위젯의 새 홈에서 작업을 위임할 수 있습니다.
+지금은 우선 순위에서 위임된 작업을 위임하거나 볼 수 없습니다. 하지만 사용자는 다음 위젯의 새 홈에서 작업을 계속 위임할 수 있습니다.
 
 * 내 작업
 * 내 작업
