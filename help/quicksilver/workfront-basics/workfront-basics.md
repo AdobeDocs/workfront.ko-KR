@@ -7,10 +7,10 @@ author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c0b25ec2-38a5-4499-9366-be3b71ae62a2
-source-git-commit: d261fd9eb9b8b649ebe413e35161543db1db8412
+source-git-commit: fe7ed0282a857fb8b7e0c2cfefb2accd17d88def
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 16%
+source-wordcount: '89'
+ht-degree: 15%
 
 ---
 
@@ -22,6 +22,7 @@ ht-degree: 16%
 * [Adobe Workfront 브라우저 요구 사항](../workfront-basics/workfront-browser-requirements.md)
 * [Adobe Workfront에서 지원되는 언어](../workfront-basics/supported-languages-in-workfront.md)
 * [Adobe Workfront 탐색: 문서 인덱스](../workfront-basics/navigate-workfront/navigate-workfront.md)
+* [우선 순위: 문서 색인](/help/quicksilver/workfront-basics/priorities/priorities-toc.md)
 * [홈](../workfront-basics/using-home/home.md)
 * [작업 항목 업데이트 및 업데이트 보기: 문서 인덱스](../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
 * [사용자 정의 양식으로 작업](../workfront-basics/work-with-custom-forms/work-with-custom-forms.md)

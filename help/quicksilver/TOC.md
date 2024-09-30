@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: b9a01dd8b46a4af195c00858ed91ad3b4995d51b
+source-git-commit: fe7ed0282a857fb8b7e0c2cfefb2accd17d88def
 workflow-type: tm+mt
-source-wordcount: '14419'
+source-wordcount: '14437'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 2%
          * [2024년 4분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
          * [2024년 4분기 관리자 개선 사항](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md)
          * [2024년 4분기 통합 개선 사항](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md)
+         * [2024년 4분기 홈 개선 사항](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md)
          * [2024년 4분기 프로젝트 개선 사항](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md)
          * [2024년 4분기 교정 개선 사항](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md)
          * [2024년 4분기 보고서 및 대시보드 개선 사항](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-report-and-dashboard-enhancements.md)
@@ -877,6 +878,9 @@ ht-degree: 2%
       * [작업 라이선스 사용자의 탐색 이해](workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
       * [Review-license 사용자의 탐색 이해](workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)
       * [Workfront의 프로젝트, 작업 및 문제 날짜 개요](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
+   * 우선 순위 {#priorities}
+      * [우선 순위: 문서 색인](workfront-basics/priorities/priorities-toc.md)
+      * [우선 순위 시작](workfront-basics/priorities/get-started-with-priorities.md)
    * 홈 {#home}
       * [홈](workfront-basics/using-home/home.md)
       * 새 홈 {#new-home}
@@ -888,6 +892,7 @@ ht-degree: 2%
       * 홈 영역 {#use-home-area} 사용
          * [홈 영역 사용](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
          * [기존 홈에서 새 홈으로 이동](workfront-basics/using-home/new-home/move-to-new-home.md)
+         * [기존 홈에서 우선 순위로 이동](workfront-basics/priorities/move-from-legacy-home-to-priorities.md)
          * [홈 시작](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
          * [홈 영역의 작업 목록에 항목 표시](workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
          * [홈 영역에서 작업 우선 순위 지정](workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)
