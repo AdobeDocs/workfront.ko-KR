@@ -7,9 +7,9 @@ description: 단기간 동안 부재 중일 경우 일시적으로 다른 사용
 author: Lisa
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 70e20df7c9738f33496e37b31b6e11caf0ac2f0f
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '886'
 ht-degree: 1%
 
 ---
@@ -28,11 +28,11 @@ ht-degree: 1%
 
 * 나에게 할당된 작업
 * 나에게 할당된 문제
-* 프로젝트, 작업, 문제, 문서 승인이 귀하에게 할당되었습니다.
+* 프로젝트, 작업 또는 문제 승인이 귀하에게 할당되었습니다.
 
 이 문서에는 작업 및 문제 위임에 대한 일반적인 정보가 포함되어 있습니다.
 
-프로젝트, 작업, 문제 및 문서 승인 위임에 대한 자세한 내용은 [승인 요청 위임](../../review-and-approve-work/manage-approvals/delegate-approval-requests.md)을 참조하세요.
+프로젝트, 작업 및 문제 승인 위임에 대한 자세한 내용은 [승인 요청 위임](../../review-and-approve-work/manage-approvals/delegate-approval-requests.md)을 참조하십시오.
 
 작업 및 문제를 위임하는 방법에 대한 자세한 내용은 [작업 및 문제 위임](../../manage-work/delegate-work/how-to-delegate-work.md)을 참조하세요.
 
@@ -43,6 +43,7 @@ ht-degree: 1%
 * [!DNL Workfront] 또는 그룹 관리자가 [!UICONTROL 설정] 영역에서 위임 환경 설정을 활성화해야 다른 사용자에게 작업을 위임할 수 있습니다.
 
   자세한 내용은 [시스템 전체 작업 및 문제 환경 설정 구성](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)을 참조하십시오.
+
 * [!UICONTROL Home] 영역에서만 작업 및 문제를 위임할 수 있습니다.
 * 다음 라이선스 유형에 대한 예외가 있습니다.
 
@@ -73,7 +74,7 @@ ht-degree: 1%
 
 ## 할당과 위임의 차이점 및 유사점
 
-| 개 액션 | 할당 | 위임 |
+| 액션 | 할당 | 위임 |
 |--------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------------------------------------|
 | 할당되거나 위임된 사용자는 할당되거나 위임된 작업 항목을 편집하거나 삭제할 수 있습니다 | 권한 및 액세스 수준 기반 | 권한 및 액세스 수준 기반 |
 | 할당 또는 위임된 사용자가 작업 항목의 헤더에 표시됩니다 | 예 | 예 |
