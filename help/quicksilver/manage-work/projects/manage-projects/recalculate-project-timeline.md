@@ -6,9 +6,9 @@ description: 타임라인을 다시 계산하면 관리자는 프로젝트와 �
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
-source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
+source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1058'
 ht-degree: 0%
 
 ---
@@ -94,6 +94,11 @@ ht-degree: 0%
 
 * [프로젝트 타임라인 자동 다시 계산](#automatic-recalculation-of-project-timelines)
 * [프로젝트 타임라인의 자동 재계산을 트리거하는 작업](#actions-that-trigger-an-automatic-recalculation-of-project-timelines)
+
+
+>[!IMPORTANT]
+>
+>미리보기 및 사용자 지정 새로 고침 샌드박스 환경의 경우 야간 다시 계산이 비활성화되고 프로젝트 타임라인이 자동으로 다시 계산되지 않습니다. 미리보기 및 사용자 지정 새로 고침 샌드박스 환경에 대한 프로젝트 타임라인을 수동으로 다시 계산해야 합니다.
 
 ### 프로젝트 타임라인 자동 재계산 {#automatic-recalculation-of-project-timelines}
 

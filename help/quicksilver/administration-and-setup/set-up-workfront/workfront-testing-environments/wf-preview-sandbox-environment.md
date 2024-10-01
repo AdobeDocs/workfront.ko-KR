@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1282'
 ht-degree: 0%
 
 ---
@@ -168,6 +168,16 @@ SSO(Single Sign-On) 솔루션에서 작동하도록 미리보기 샌드박스를
 미리보기 샌드박스에서 SSO(Single Sign-On)를 구성하는 단계는 프로덕션 환경에서 구성하는 단계와 유사합니다.
 
 SSO를 사용하여 [!DNL Workfront]을(를) 구성하는 방법에 대한 자세한 내용은 [Adobe Workfront의 Single Sign-On 개요](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)를 참조하십시오.
+
+## 프로젝트 타임라인 자동 재계산
+
+타임라인을 다시 계산하면 관리자는 프로젝트 외부의 힘이 프로젝트의 타임라인에 미치는 영향을 확인할 수 있습니다. 프로젝트의 타임라인은 프로젝트의 계획된 일자와 예상 일자를 나타냅니다.
+
+Workfront 관리자는 Workfront이 프로젝트 타임라인을 자동으로 다시 계산하는 시기를 구성할 수 있습니다. Workfront은 매일 밤, 프로젝트 범위가 변경될 때 또는 둘 다 프로젝트 타임라인을 다시 계산할 수 있습니다.
+
+자세한 내용은 [프로젝트에 대한 타임라인 다시 계산 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)을 참조하십시오.
+
+미리보기 환경의 경우 야간 다시 계산이 비활성화되고 프로젝트 타임라인이 자동으로 다시 계산되지 않습니다. 미리보기 환경에 대한 프로젝트 타임라인을 수동으로 다시 계산해야 합니다. 자세한 내용은 [프로젝트 타임라인 다시 계산](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md)을 참조하십시오.
 
 ## 환경 성능 및 가용성 미리보기
 

@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
 workflow-type: tm+mt
-source-wordcount: '1639'
+source-wordcount: '1749'
 ht-degree: 0%
 
 ---
@@ -199,6 +199,16 @@ SSO를 사용하여 [!DNL Workfront]을(를) 구성하는 방법에 대한 자�
 >[!NOTE]
 >
 >조직의 [!DNL Workfront] 인스턴스가 Adobe IMS에서 활성화된 경우에는 사용할 수 없습니다. 자세한 내용은 네트워크 또는 IT 관리자에게 문의하십시오.
+
+## 프로젝트 타임라인 자동 재계산
+
+타임라인을 다시 계산하면 관리자는 프로젝트 외부의 힘이 프로젝트의 타임라인에 미치는 영향을 확인할 수 있습니다. 프로젝트의 타임라인은 프로젝트의 계획된 일자와 예상 일자를 나타냅니다.
+
+Workfront 관리자는 Workfront이 프로젝트 타임라인을 자동으로 다시 계산하는 시기를 구성할 수 있습니다. Workfront은 매일 밤, 프로젝트 범위가 변경될 때 또는 둘 다 프로젝트 타임라인을 다시 계산할 수 있습니다.
+
+자세한 내용은 [프로젝트에 대한 타임라인 다시 계산 구성](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)을 참조하십시오.
+
+사용자 정의 샌드박스 새로 고침 환경의 경우 야간 다시 계산이 비활성화되고 프로젝트 타임라인이 자동으로 다시 계산되지 않습니다. 사용자 지정 새로 고침 샌드박스 환경에 대한 프로젝트 타임라인을 수동으로 다시 계산해야 합니다. 자세한 내용은 [프로젝트 타임라인 다시 계산](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md)을 참조하십시오.
 
 ## 의도한 사용 및 가용성
 

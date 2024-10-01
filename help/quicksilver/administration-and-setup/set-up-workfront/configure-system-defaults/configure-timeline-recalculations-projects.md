@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 67028988-6ac3-48d4-957e-1b5202d33c48
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -77,6 +77,11 @@ ht-degree: 0%
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
    시스템에 있는 모든 프로젝트의 타임라인이 각 프로젝트의 업데이트 유형에 따라 자동으로 다시 계산됩니다.
+
+>[!IMPORTANT]
+>
+>미리보기 및 사용자 지정 새로 고침 샌드박스 환경의 경우 야간 다시 계산이 비활성화되고 프로젝트 타임라인이 자동으로 다시 계산되지 않습니다. 미리보기 및 사용자 지정 새로 고침 샌드박스 환경에 대한 프로젝트 타임라인을 수동으로 다시 계산해야 합니다. 자세한 내용은 [프로젝트 타임라인 다시 계산](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md)을 참조하십시오.
+
 
 ## 전체 [!DNL Workfront] 인스턴스에 대한 타임라인 다시 계산
 
