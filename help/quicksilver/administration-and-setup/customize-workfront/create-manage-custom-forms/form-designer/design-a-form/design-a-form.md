@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 9a8498adb51f5bc18747667865ebf4b248e57bb5
+source-git-commit: eee683edc36b33b74d67a9ffbcab9697826e3a86
 workflow-type: tm+mt
-source-wordcount: '5541'
+source-wordcount: '5575'
 ht-degree: 5%
 
 ---
 
 # 양식 디자이너를 사용하여 양식 디자인
+
+{{highlighted-preview}}
 
 양식 디자이너를 사용하여 사용자 정의 양식을 디자인할 수 있습니다. 다른 Workfront 개체에 사용자 정의 양식을 첨부하여 해당 개체에 대한 데이터를 캡처할 수 있습니다.
 
@@ -89,6 +91,8 @@ ht-degree: 5%
 ## 사용자 정의 양식에 새 필드 또는 기존 필드 추가
 
 사용자 정의 양식을 디자인할 때 새 필드 또는 기존 필드를 사용할 수 있습니다.
+
+<span class="preview">사용자 정의 양식은 500개의 필드로 제한됩니다. 왼쪽 하단의 카운터는 폼에 사용되는 필드 수를 표시하며 폼 디자이너 내에서 스크롤할 때 항상 표시됩니다.</span>
 
 ### 다른 사용자 정의 양식에서 이미 사용된 기존 필드 또는 위젯 재사용
 
