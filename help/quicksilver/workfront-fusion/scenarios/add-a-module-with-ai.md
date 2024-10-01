@@ -2,16 +2,16 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: AI를 사용하여 모듈 생성
+title: AI를 사용하여 시나리오 세그먼트 생성
 description: 텍스트 프롬프트를 입력하여 프롬프트에 구성된 HTTP 모듈을 만들 수 있습니다.
 author: Becky
 feature: Workfront Fusion
 hide: true
 hidefromtoc: true
 exl-id: 899641a0-a104-4be9-b423-34a32e985b53
-source-git-commit: 67e1d158b09ca339d25473ebedf8851155b2c1c0
+source-git-commit: 7013c8a88f047c5c8e769a4d7b71f2033c767b4a
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
@@ -93,6 +93,7 @@ Fusion AI는 현재 다음 애플리케이션에 연결하는 모듈을 생성�
 >여기에는 `Workfront Planning` 응용 프로그램과 `get field details` 작업이 포함됩니다.
 >
 >다음 예는 올바르지 않습니다.
+>
 >* `Generate an image in Adobe Firefly and upload it to Dropbox`
 >
 >    이 예제는 두 개 이상의 애플리케이션을 포함하므로 올바르지 않습니다
