@@ -8,20 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: db7b5213fb58e219fdabbacfa5bddac7b9da0b00
+source-git-commit: a9cc21d182051410c87e1b6a4fbe8fd8cbe2a178
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 9%
+source-wordcount: '383'
+ht-degree: 11%
 
 ---
 
 # 사용자 정의 양식 개요
 
 <!--Audited: 12/2023-->
-
-{{highlighted-preview}}
-
-{{form-designer-default}}
 
 사용자가 Adobe Workfront 개체에 첨부할 수 있는 사용자 정의 양식을 작성할 수 있습니다. 오브젝트에 대한 작업을 수행하는 사용자는 사용자 정의 양식을 작성하여 오브젝트에 대한 정보를 제공할 수 있습니다.
 
@@ -32,8 +28,6 @@ ht-degree: 9%
 ## 사용자 정의 양식을 만드는 방법
 
 양식 디자이너에는 필드, 캔버스 및 필드 설정을 모두 동시에 볼 수 있는 캔버스 스타일 작업 영역이 있습니다. 양식을 디자인하는 동안 섹션 내에 필드를 끌어다 놓을 수도 있습니다. 화면 오른쪽의 크기를 조정하여 필드 옵션을 위한 공간을 더 확보할 수 있습니다.
-
-<span class="preview">레이아웃 단추(이 이미지에 표시되지 않음)를 사용하면 2열 또는 3열 작업 영역에서 선택할 수 있습니다. 버튼은 현재 선택된 레이아웃을 나타냅니다. 3열 레이아웃은 맨 오른쪽 열에 필드 설정을 표시합니다. 2열 레이아웃에서는 맨 왼쪽 열의 필드 라이브러리 옆에 필드 설정이 표시됩니다.</span>
 
 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
 
