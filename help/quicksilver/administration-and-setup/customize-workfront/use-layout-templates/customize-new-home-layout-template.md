@@ -8,28 +8,30 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: cf722e3dc021cf4302e9542fd65a0e5dd0043de5
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '808'
 ht-degree: 1%
 
 ---
 
 # 레이아웃 템플릿을 사용하여 새 홈 맞춤화
 
-레이아웃 템플릿 을 사용하여 사용자가 새 홈을 열 때 표시되는 내용을 구성할 수 있습니다.
+레이아웃 템플릿을 사용하여 사용자가 새 홈을 처음 열 때 표시되는 내용을 구성할 수 있습니다.
 
 다음을 구성할 수 있습니다.
 
-* 기본적으로 작업 영역에 표시되는 위젯과 해당 레이아웃이 페이지에 표시됨
+* 기본적으로 작업 공간에 표시되는 위젯
 * 선택한 배경
 * 내 프로젝트, 내 작업 및 내 문제 위젯에 사용할 수 있는 필터 및 그룹과 해당 기본값을 포함한 특정 위젯 설정
 
 >[!IMPORTANT]
 >
->이 페이지에 설명된 관리자 레이아웃 템플릿 선택 사항은 개별 사용자의 사용자 정의 선택 사항을 무시합니다.
->
->레이아웃 템플릿에 대한 변경 사항이 저장되면 해당 레이아웃 템플릿의 사용자는 레이아웃 템플릿과 일치하도록 새 홈 페이지를 변경하고 기존 위젯 선택 사항을 페이지 맨 아래로 푸시합니다. 관리자가 선택한 위젯은 사용자가 위치를 변경하고 크기를 조정할 수 있지만 제거할 수 없습니다.
+>최종 사용자는 레이아웃 템플릿이 적용된 후 페이지에서 배경을 변경하고 위젯을 재정렬할 수 있습니다. Workfront 관리자가 포함하는 위젯은 제거할 수 없습니다.
+> <br>
+>관리자는 사용자를 위한 새 위젯을 추가할 수 있습니다. 그러나 최종 사용자가 이미 위젯 순서 또는 배경 선택을 맞춤화한 경우 이러한 특정 맞춤화는 변경되지 않습니다.
+
+
 
 새 홈에 대한 자세한 내용은 [새 홈 시작](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)을 참조하세요.
 
@@ -72,6 +74,8 @@ ht-degree: 1%
 +++
 
 ## 레이아웃 템플릿을 사용하여 새 홈 맞춤화
+
+레이아웃 템플릿을 사용하여 새 홈을 사용자 정의하려면 다음을 수행합니다.
 
 1. [레이아웃 템플릿 만들기 및 관리](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)에 설명된 대로 레이아웃 템플릿 작업을 시작합니다.
 
