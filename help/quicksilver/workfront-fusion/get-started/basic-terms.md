@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion에는 Adobe Workfront 라이센스 외에 Ad
 author: Becky
 feature: Workfront Fusion
 exl-id: 2169dc2e-2135-47e0-a615-3de12cd120a9
-source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
+source-git-commit: eb39c26b076e89acb8bc4eef1a459b6ef8cd389b
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '858'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>개 액션</p> </td> 
+   <td role="rowheader"> <p>액션</p> </td> 
    <td>선택한 앱 또는 서비스에서 또는 서비스에 번들을 읽거나 쓸 수 있는 모듈입니다.</td> 
   </tr> 
   <tr> 
@@ -101,6 +101,10 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader"> <p>시나리오</p> </td> 
    <td> <p>사용자가 만든 일련의 자동화된 단계로, 각 단계는 모듈에 의해 표현되고 수행됩니다. 시나리오의 목적은 데이터를 이동하고 조작하는 것입니다.</p> <p> <img src="assets/scenario-350x178.jpg" style="width: 350;height: 178;"> </p> <p> 자세한 내용은 <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">[!UICONTROL Adobe Workfront Fusion]에서 시나리오 만들기</a>를 참조하십시오.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>시나리오 세그먼트</p> </td> 
+   <td> <p> 시나리오의 섹션으로, 모두 동일한 애플리케이션에 연결되는 일련의 모듈로 구성됩니다. 시나리오 세그먼트는 종종 애플리케이션에서 짧은 워크플로우를 나타냅니다.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>트랜잭션</p> </td> 
