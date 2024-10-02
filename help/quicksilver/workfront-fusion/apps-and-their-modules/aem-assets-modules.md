@@ -10,9 +10,9 @@ description: ' [!DNL Adobe Workfront Fusion], you can start a scenario based on 
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
+source-git-commit: 993d10a93eca28573aaa38e4ce76e5a1b30ec42e
 workflow-type: tm+mt
-source-wordcount: '1647'
+source-wordcount: '1706'
 ht-degree: 0%
 
 ---
@@ -127,20 +127,28 @@ Adobe Experience Manager Assets 커넥터에 대한 소개는 다음을 참조�
                   <td>[!DNL Adobe Experience Manager] 인스턴스의 URL을 입력하십시오. URL 끝에 슬래시 <code>/</code>을(를) 포함하지 마십시오.</td>
               </tr>
               <tr>
+                  <td role="rowheader">[!UICONTROL 계정 세부 사항 채우기 옵션]</td>
+                  <td>계정 세부 정보를 설명하는 JSON을 제공할지 또는 세부 정보를 수동으로 입력할지 선택합니다.</td>
+              </tr>
+              <tr>
+                  <td role="rowheader">[!UICONTROL JSON 형식의 기술 계정 세부 정보]</td>
+                  <td>JSON을 제공하는 경우 계정 세부 사항을 설명하는 JSON을 입력하거나 붙여 넣습니다.</td>
+              </tr>
+              <tr>
                   <td role="rowheader">[!UICONTROL 클라이언트 ID]</td>
-                  <td>[!UICONTROL 서버 간] 설정에서 생성된 클라이언트 ID를 입력합니다.</td>
+                  <td>세부 정보를 수동으로 입력하는 경우 [!UICONTROL 서버 간] 설정에서 생성된 클라이언트 ID를 입력합니다.</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL 클라이언트 암호]</td>
-                  <td>[!UICONTROL Server-to-Server] 설정에서 생성된 클라이언트 암호를 입력합니다.</td>
+                  <td>세부 정보를 수동으로 입력하는 경우 [!UICONTROL 서버 간] 설정에서 생성된 클라이언트 암호를 입력합니다.</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL 기술 계정 ID]</td>
-                  <td>기술 계정의 ID를 입력합니다. 클라이언트 자격 증명 JSON 파일의 "[!UICONTROL ID]" 필드입니다.</td>
+                  <td>세부 정보를 수동으로 입력하는 경우 기술 계정의 ID를 입력합니다. 클라이언트 자격 증명 JSON 파일의 "[!UICONTROL ID]" 필드입니다.</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL 조직 ID]</td>
-                  <td class="">조직의 ID를 입력합니다. 클라이언트 자격 증명 JSON 파일의 "[!UICONTROL org]" 필드입니다.</td>
+                  <td class="">상세내역을 수동으로 입력하는 경우 조직의 ID를 입력합니다. 클라이언트 자격 증명 JSON 파일의 "[!UICONTROL org]" 필드입니다.</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL 메타 범위]</td>
