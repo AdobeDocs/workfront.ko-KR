@@ -5,9 +5,9 @@ description: 우선 순위는 작업 소유자에게 맞는 능률적이고 직�
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: fa7bb26215caba62edfbe8eabc15526427abd0b8
+source-git-commit: 08221eb867a052187138be5c51a8720bb095f31b
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '832'
 ht-degree: 3%
 
 ---
@@ -182,6 +182,7 @@ Catch me up 기능을 사용하여 놓친 내용을 확인하십시오. Catch me
 
 ## 고려 사항
 
+* 현재 Workfront 관리자는 레이아웃 템플릿을 통해 우선 순위를 사용자 정의할 수 없습니다.
 * 우선 순위의 작업에 액세스하는 것은 여러 탭에 걸쳐 있습니다. 향후 문서, 하위 작업, 승인 등과 같은 탭을 추가할 계획입니다. **피드백 제공** 단추를 사용하여 피드백을 제출하여 이러한 항목이 필요한지 알려 주십시오.
 
 

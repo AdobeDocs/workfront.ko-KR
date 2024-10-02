@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+source-git-commit: a3b172a40dc539504da356f37377d2332edad4dc
 workflow-type: tm+mt
 source-wordcount: '1729'
 ht-degree: 0%
@@ -173,7 +173,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">우선 순위 소개: 작업 소유자를 위한 보다 간단하고 능률적이며 직관적인 Workfront 환경</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">우선 순위 소개: 작업 소유자를 위한 단순하고 능률적이며 직관적인 Workfront 환경</a></p>
                         <p>우선 순위는 집중력과 생산성을 향상시켜 고객이 더 짧은 시간에 더 많은 성과를 달성하도록 지원합니다.</p>
                         <p>Priority 를 사용하면 다음과 같은 이점을 누릴 수 있습니다.</p>
                         <ul>
