@@ -6,9 +6,9 @@ description: 이 페이지에는 기존 홈의 향후 사용 중단에 대한 �
 author: Nolan
 feature: Product Announcements
 exl-id: 1fef08c9-624d-4783-a0bd-8009413fc2bd
-source-git-commit: 629fc09ded495e9add5f24144c4fdffc31e40552
+source-git-commit: 695674b1f89aa116e592081d72403b4be568f931
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '890'
 ht-degree: 0%
 
 ---
@@ -55,6 +55,13 @@ Adobe Workfront 커뮤니티, 뉴스가 있습니다. 곧 기존 홈을 더 이�
 1. 나머지 사용자를 새 홈 페이지 레이아웃에 재할당합니다.
 
 이를 최대한 빨리 수행하면 사용자가 새 경험에 적응하고 개별 요구 사항에 가장 적합하게 새 홈 페이지를 사용자 지정할 수 있는 시간이 제공됩니다. 사용자가 자신의 새 홈 페이지에서 위젯을 사용자 지정하는 방법에 대한 자세한 내용은 [새 홈에서 위젯 제거, 추가 및 다시 정렬](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)을 참조하십시오.
+
+### 새로운 홈 및 우선 순위에서 사용할 수 있는 사항 알아보기
+
+아래 문서에서는 새 홈 및 우선 순위에서 사용할 수 있는 기능에 대한 정보를 제공합니다.
+
+* [기존 홈에서 새 홈으로 이동](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)
+* [기존 홈에서 우선 순위로 이동](/help/quicksilver/workfront-basics/priorities/move-from-legacy-home-to-priorities.md)
 
 ### 홈 경험이 발전함에 따라 이를 따릅니다.
 

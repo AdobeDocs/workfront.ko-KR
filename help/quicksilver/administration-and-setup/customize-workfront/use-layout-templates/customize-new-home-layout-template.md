@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: cf722e3dc021cf4302e9542fd65a0e5dd0043de5
+source-git-commit: 21e81e6395680e3ea7ffd05424217e5352fff0f6
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '830'
 ht-degree: 1%
 
 ---
@@ -114,7 +114,7 @@ ht-degree: 1%
       <p>편집할 위젯을 선택하면 사용 가능한 옵션이 오른쪽에 표시됩니다. 이러한 옵션에는 <b>필터</b>, <b>열</b> 및 <b>그룹</b>이 포함됩니다. 다음을 수행할 수 있습니다.</p>
       <ul>
       <li><p><b>사용자가 사용할 수 있는 필터, 열 또는 그룹을 선택하고 순서를 지정합니다.</b></p>
-      <p>목록에서 사용자가 사용할 수 있게 하려는 모든 옵션 옆에 있는 상자를 선택합니다. 선택하지 않은 옵션은 사용자에게 표시되지 않습니다. 목록에서 옵션을 끌어다 놓아 순서를 설정합니다.</li></p>
+      <p>목록에서 사용자가 사용할 수 있게 하려는 모든 옵션 옆에 있는 상자를 선택합니다. 이러한 옵션은 요약 패널까지 확장되지 않습니다. 레이아웃 템플릿의 요약 탭에서 해당 영역을 구성해야 합니다. 선택하지 않은 옵션은 사용자에게 표시되지 않습니다. 목록에서 옵션을 끌어다 놓아 순서를 설정합니다.</li></p>
       <p>
 
 >[!IMPORTANT]
