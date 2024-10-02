@@ -4,9 +4,9 @@ description: 2024년 4분기 보고서 및 대시보드 개선 사항
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2c6d01d009e3dc09b65d7c414e1a3d8536d384e0
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->모든 고객을 위한 프로덕션 릴리스: 24.10 릴리스 포함(2024년 10월)
+>모든 고객을 위한 프로덕션 릴리스: 24.10 릴리스 포함(2024년 10월 17일)
 >
 >_새 Adobe Workfront 플랜 중 하나의 조직에서만 사용할 수 있습니다. Data Connect는 Ultimate 플랜에 포함되어 있거나 Prime 및 Select 플랜에 대한 추가 기능으로 구입할 수 있습니다._
 

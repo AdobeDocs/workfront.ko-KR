@@ -6,9 +6,9 @@ description: 자동 보고서 배달 예약
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: 4bd88c0e4a3d27e30580fefea993224fe5446e32
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1272'
 ht-degree: 2%
 
 ---
@@ -160,6 +160,12 @@ ht-degree: 2%
    보고서는 **보고서 보내기** 대화 상자의 **반복 배달** 섹션에 표시되며 예약된 시간에 전송됩니다.
 
    보고서 배달에 영향을 줄 수 있는 크기 제한에 대한 자세한 내용은 [보고서 배달 제한](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#understanding-export-limits) 및 [내보내기 제한](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#export) 섹션을 참조하십시오.
+
+>[!IMPORTANT]
+>
+>예약된 보고서는 배달을 위해 처리될 때 내부 시간 제한을 받습니다. 보고서를 보내는 데 제한 시간보다 오래 걸리는 경우 알림을 받게 되며 나머지 예약된 배달에 관계없이 보고서가 더 이상 배달되지 않습니다. 보고서를 계속 보내려면 먼저 필터 및 보기를 통해 보고서 크기를 줄인 다음 예약된 새 게재를 만듭니다.
+>
+>예약된 보고서 배달을 사용하여 BI 도구를 통해 Workfront 데이터를 분석하는 경우 Workfront Data Connect를 대신 사용하는 것이 좋습니다. 자세한 내용은 [Workfront Data Connect 개요](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md)를 참조하십시오.
 
 1. (선택 사항) 예약된 게재를 삭제하려면
 

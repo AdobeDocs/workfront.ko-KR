@@ -7,9 +7,9 @@ description: 달력 보고서는 작업의 시각적 표현을 제공하는 동�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: c65cf8ab-e37f-42a4-9a81-70962629e9ba
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '352'
 ht-degree: 4%
 
 ---
@@ -57,7 +57,3 @@ ht-degree: 4%
 >[!NOTE]
 >
 >달력 보고서를 실행할 때 504 오류가 표시되는 경우 보고서에 필터가 너무 많을 수 있습니다. 필터 수를 줄이면 보고서를 실행할 수 있습니다.
-
-## 대시보드에 캘린더 추가
-
-캘린더 보고서를 대시보드에 표시하여 빠르게 액세스할 수 있습니다. 대시보드에 캘린더를 추가하는 방법은 [대시보드 편집](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/edit-dashboard.md)을 참조하세요.

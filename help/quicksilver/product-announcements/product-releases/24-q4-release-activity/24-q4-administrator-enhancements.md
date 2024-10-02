@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-source-git-commit: b0b56dfb8d50fbbd40e2a1de82f95352c182615a
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리보기 릴리스: 2024년 8월 29일, 빠른 릴리스를 위한 프로덕션: 24.9 릴리스 포함(2024년 9월 12일), 분기별 릴리스의 프로덕션: 24.10 릴리스 포함(2024년 10월)
+>미리보기 릴리스: 2024년 8월 29일, 빠른 릴리스를 위한 프로덕션: 24.9 릴리스 포함(2024년 9월 12일), 분기별 릴리스의 프로덕션: 24.10 릴리스 포함(2024년 10월 17일)
 
 환경 프로모션을 보다 유연하고 쉽게 사용할 수 있도록 롤백 기능을 활성화했습니다. 이제 24시간 내에 패키지를 롤백하여 환경 프로모션 패키지의 영향을 받은 이전 구성을 보다 쉽게 복원할 수 있습니다.
 
