@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: a63ec4e0-ba39-42c1-8061-c29350ef4bbb
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: 11e7a376719e52db3f5e98afff44cb4b4d07db01
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '131'
 ht-degree: 1%
 
 ---
@@ -39,3 +39,4 @@ ht-degree: 1%
 * [애자일 보기에서 프로젝트 관리](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
 * [프로젝트 제한 개요](../../../manage-work/projects/manage-projects/project-maximums.md)
 * [프로젝트 지표 개요](../../../manage-work/projects/manage-projects/project-metrics.md)
+* [AI Assistant를 사용하여 업데이트 요약](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)

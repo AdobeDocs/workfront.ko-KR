@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: ada8aa9f72b57d6008473c6d9dcc17765d8656c4
+source-git-commit: a2810eae52a0392107a214967e50a662239e1e5f
 workflow-type: tm+mt
-source-wordcount: '14445'
+source-wordcount: '14455'
 ht-degree: 2%
 
 ---
@@ -925,6 +925,7 @@ ht-degree: 2%
       * [업데이트에 다른 사용자 태그 지정](workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
       * [메모 보고서의 모든 업데이트 보기](workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
       * [작업 및 완료 버튼 개요](workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
+      * [AI Assistant를 사용하여 업데이트 요약](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/summarize-updates-ai-assistant.md)
    * 사용자 정의 양식 {#work-with-custom-forms} 작업
       * [사용자 정의 양식을 사용한 작업](workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
       * [오브젝트에 사용자 정의 양식 추가](workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)
@@ -1246,6 +1247,7 @@ ht-degree: 2%
          * [애자일 보기에서 프로젝트 관리](manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
          * [프로젝트 지표 개요](manage-work/projects/manage-projects/project-metrics.md)
          * [프로젝트 제한 개요](manage-work/projects/manage-projects/project-maximums.md)
+         * [AI Assistant를 사용하여 업데이트 요약](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)
       * 프로젝트 템플릿 만들기 및 관리 {#create-and-manage-project-templates}
          * [프로젝트 템플릿 만들기 및 관리: 문서 색인](manage-work/projects/create-and-manage-templates/create-manage-templates.md)
          * [프로젝트 템플릿 개요](manage-work/projects/create-and-manage-templates/project-template-overview.md)

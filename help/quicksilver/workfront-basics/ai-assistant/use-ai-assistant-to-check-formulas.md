@@ -5,9 +5,9 @@ description: AI Assistant를 사용하여 계산된 필드에서 잘못된 사�
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5f144a6f-5c2a-42fc-a961-ab9066432d93
-source-git-commit: 09c05db7c6a5db7db74dd95ca323415f4318489d
+source-git-commit: bec1318d83938964697d76b83062ef11745802e3
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,16 @@ AI Assistant를 사용하여 제공한 프롬프트에 따라 공식을 생성�
 
 이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
-## 계산된 필드 표현식 생성
+## 전제 조건
+
+* Workfront 관리자가 조직에 대해 AI Assistant를 활성화해야 합니다.
+
+  자세한 내용은 AI Assistant 개요 문서의 [AI Assistant에 대한 필수 구성 요소](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)를 참조하십시오.
+* Workfront 관리자가 귀하의 액세스 수준에 대해 AI Assistant를 활성화해야 합니다.
+
+  자세한 내용은 [AI Assistant 사용 또는 사용 안 함](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)을 참조하십시오.
+
+<!--## Generate a calculated field expression-->
 
 ## 계산된 필드 표현식 수정
 

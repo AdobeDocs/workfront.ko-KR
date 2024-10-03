@@ -5,10 +5,10 @@ description: 이 요약 기능을 사용하여 작업 항목과 문서를 빠르
 author: Becky
 feature: Get Started with Workfront
 exl-id: c7460e8f-a7ae-415a-8db0-29736e8be0f8
-source-git-commit: 09c05db7c6a5db7db74dd95ca323415f4318489d
+source-git-commit: bec1318d83938964697d76b83062ef11745802e3
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 0%
+source-wordcount: '297'
+ht-degree: 1%
 
 ---
 
@@ -42,6 +42,15 @@ AI Assistant는 Workfront 설명서에서 정보를 찾을 수 있으므로 필�
 </table>
 
 이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
+## 전제 조건
+
+* Workfront 관리자가 조직에 대해 AI Assistant를 활성화해야 합니다.
+
+  자세한 내용은 AI Assistant 개요 문서의 [AI Assistant에 대한 필수 구성 요소](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)를 참조하십시오.
+* Workfront 관리자가 귀하의 액세스 수준에 대해 AI Assistant를 활성화해야 합니다.
+
+  자세한 내용은 [AI Assistant 사용 또는 사용 안 함](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)을 참조하십시오.
 
 ## AI Assistant에서 정보 가져오기
 

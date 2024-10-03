@@ -1,31 +1,24 @@
 ---
-title: AI Assistant를 사용하여 요약
-content-type: reference
-description: 이 요약 기능을 사용하여 작업 항목과 문서를 빠르게 요약할 수 있습니다.
+product-area: projects
+navigation-topic: update-work-items-and-view-updates
+title: AI Assistant를 사용하여 업데이트 요약
+description: 오브젝트의 업데이트에는 AI Assistant를 사용하여 업데이트를 요약하는 버튼이 포함되어 있습니다.
 author: Becky
 feature: Get Started with Workfront
-exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
-source-git-commit: bec1318d83938964697d76b83062ef11745802e3
+source-git-commit: 11e7a376719e52db3f5e98afff44cb4b4d07db01
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 1%
+source-wordcount: '401'
+ht-degree: 0%
 
 ---
 
-# AI Assistant를 사용하여 요약
+# AI Assistant를 사용하여 업데이트 요약
+
+Workfront의 AI 도우미는 업데이트 스트림의 콘텐츠를 요약할 수 있으므로 Workfront 오브젝트와 관련하여 발생하는 의견과 토론을 빠르게 이해할 수 있습니다.
+
+콘텐츠 요약 버튼을 사용하여 요약을 생성하거나 AI Assistant에 프롬프트를 입력할 수 있습니다.
 
 <span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
-
-Workfront의 AI Assistant는 일부 객체를 요약할 수 있으므로 객체의 의도 또는 세부 사항을 세부적으로 파악할 수 있습니다.
-
-예를 들어, AI Assistant에 프로젝트 요약을 요청하는 경우 프로젝트의 목적과 상태에 대한 간단한 설명을 반환하고, 완료된 작업과 아직 보류 중인 작업의 예를 제공하며, 몇 가지 추가 세부 사항과 메모를 제공합니다.
-
-AI Assistant는 다음 객체를 요약할 수 있습니다.
-
-* 프로젝트
-* 작업
-* 문제
-* 문서
 
 >[!NOTE]
 >
@@ -69,18 +62,12 @@ AI Assistant는 다음 객체를 요약할 수 있습니다.
 
 <div class="preview">
 
-## 요약 버튼을 사용하여 요약
+## 콘텐츠 요약 버튼을 사용하여 요약
 
-다음 영역에는 AI Assistant를 사용하여 요약을 생성하는 버튼이 있습니다.
+1. 요약할 업데이트 스트림으로 이동합니다.
+1. **콘텐츠 요약** 단추를 클릭합니다.
 
-* 프로젝트 헤더: 프로젝트 요약
-* 업데이트 영역: 내용 요약
-
-프로젝트 요약 또는 콘텐츠 요약 버튼을 사용하려면 다음 작업을 수행하십시오.
-
-1. 버튼을 클릭합니다.
-
-   AI Assistant가 열리고 프로젝트 또는 업데이트 스트림에 대한 최근 7일 동안의 의견이 요약된다는 프롬프트가 표시됩니다.
+   AI Assistant가 열리고 업데이트 스트림에 대한 최근 7일 동안의 주석을 요약하라는 메시지가 표시됩니다.
 
    AI Assistant는 객체의 크기 또는 복잡성에 따라 요약을 생성하는 데 몇 분 정도 걸릴 수 있습니다.
 
