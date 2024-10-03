@@ -8,14 +8,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
+source-git-commit: 21c8c8d6aed7620dc2d7b99fd01c6be41f918eeb
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '905'
 ht-degree: 5%
 
 ---
 
-# 시스템 환경 설정 구성하기
+# 시스템 환경 설정 구성
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
@@ -128,8 +128,12 @@ Workfront 구현 중에 시스템 환경 설정을 구성하고, 그 이후에 �
       <td>기본적으로 사용자에게 새 홈 환경이 표시되는지 여부를 지정할 수 있습니다. 활성화하면 기본적으로 새 홈 환경이 표시되지만, 개별적으로 새 홈을 활성화하거나 비활성화하도록 선택할 수 있습니다. 비활성화하면 새 홈으로 전환할 수 있는 배너가 표시되지 않지만 인스턴스 URL 끝에 <code>/home/workspaces</code>을(를) 수동으로 입력하여 새 홈 페이지로 이동할 수 있습니다. 이 설정은 기본적으로 활성화되어 있습니다.</td> 
      </tr>
      <tr> 
+      <td role="rowheader">우선 순위 작업 목록 활성화 </td> 
+      <td>사용자에 대해 우선 순위 작업 목록 환경을 활성화하거나 비활성화하도록 선택할 수 있습니다. <!--Users will still see the Priorities icons in Workfront, but they will not have access to the functionality.--> 우선 순위에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">우선 순위 시작</a>을 참조하세요.</td> 
+     </tr>
+     <tr> 
       <td role="rowheader">테스트 환경</td> 
-      <td>Workfront 테스트 환경에 액세스할 수 있습니다. 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Adobe Workfront 미리 보기 샌드박스 환경</a>을 참조하십시오.</p></td> 
+      <td>Workfront 테스트 환경에 액세스할 수 있습니다. 자세한 내용은 <a href="/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md">Adobe Workfront 미리 보기 샌드박스 환경</a>을 참조하십시오.</p></td> 
     </tbody> 
    </table>
 

@@ -5,17 +5,15 @@ description: 레거시 홈은 4분기 릴리스를 통해 10월 17일에 Workfro
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: e0eeb62dc1e29849258fa7b111ccce6480767812
+source-git-commit: 4e2b59a93137e6b4cbe9dab0d4e6c1467bc0cc4b
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '556'
 ht-degree: 3%
 
 ---
 
 
 # 기존 홈에서 우선 순위로 이동
-
-<span class="preview">우선 순위는 2024년 10월 3일 미리 보기에서 사용할 수 있습니다</span>
 
 레거시 홈은 4분기 릴리스를 통해 10월 17일에 Workfront에서 제거됩니다. 이 문서에서는 우선 순위에서 사용할 수 있는 기능에 대한 정보와 사용자를 우선 순위로 이동하는 Workfront 관리자에 대한 권장 사항을 제공합니다.
 

@@ -5,17 +5,15 @@ description: 우선 순위는 작업 소유자에게 맞는 능률적이고 직�
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 08221eb867a052187138be5c51a8720bb095f31b
+source-git-commit: 4e2b59a93137e6b4cbe9dab0d4e6c1467bc0cc4b
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '883'
 ht-degree: 3%
 
 ---
 
 
 # 우선 순위 시작
-
-<span class="preview">우선 순위는 2024년 10월 3일 미리 보기에서 사용할 수 있습니다</span>
 
 우선 순위는 작업 소유자에게 맞는 능률적이고 직관적인 경험입니다. 우선 순위는 작업 목록부터 시작하여 단계적으로 롤아웃됩니다.
 
@@ -118,6 +116,16 @@ Priority를 사용하면 다음과 같은 이점을 누릴 수 있습니다
 ## 작업 및 문제 해결
 
 우선 순위에서 작업 항목을 업데이트하여 작업 항목 세부 사항을 최신 상태로 유지하고, 시간을 기록하여 작업 시간을 정확하게 추적하고, 프로젝트로 이동할 필요 없이 자산을 업로드하고, 자주 사용하는 리소스에 쉽게 액세스할 수 있는 빠른 링크를 추가할 수 있습니다.
+
+>[!NOTE]
+>
+>Light, Review, Contributor 및 Requestor 라이선스에서는 우선 순위에 대한 액세스가 제한됩니다. 이러한 라이선스 유형이 작업 및 문제와 상호 작용하는 방법에 대한 자세한 내용은
+>
+>* [새 라이선스의 개체 및 영역에 액세스](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+>* [새 액세스 수준에 각 개체 유형에 사용할 수 있는 기능](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
+>* [라이선스 유형별 개체 및 영역에 액세스](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
+>* [각 개체 유형에 사용할 수 있는 기능](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
+
 
 ### 업데이트 추가 및 보기
 

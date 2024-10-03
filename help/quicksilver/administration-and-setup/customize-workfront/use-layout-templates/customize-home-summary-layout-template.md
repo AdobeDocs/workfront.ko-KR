@@ -8,14 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: 115757a829b92c13cb684369120e26602b9a1782
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '1006'
 ht-degree: 2%
 
 ---
 
 # 레이아웃 템플릿을 사용하여 홈 및 요약 맞춤화
+
+<span class="preview">10월 17일 4분기 릴리스에서 레거시 홈을 Workfront에서 제거하면 이 문서의 이름이 &quot;레이아웃 템플릿을 사용하여 요약 패널 사용자 지정&quot;으로 변경됩니다. 2024년.</span>
 
 레이아웃 템플릿을 사용하여 사용자가 홈 및 요약에서 작업 또는 문제를 클릭할 때 표시되는 내용을 구성할 수 있습니다. 아래 단계를 사용하여 구성하는 각 내용은 홈 영역과 요약 패널에 동일한 방식으로 영향을 줍니다. 이러한 사용자 지정은 문서 요약 패널에 적용되지 않습니다.
 
