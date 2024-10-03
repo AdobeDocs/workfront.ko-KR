@@ -5,14 +5,14 @@ title: AI Assistant를 사용하여 프로젝트 요약
 description: 프로젝트 헤더에는 AI Assistant를 사용하여 프로젝트를 요약하는 버튼이 포함되어 있습니다.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: bec1318d83938964697d76b83062ef11745802e3
+source-git-commit: df10444228de70dd460c4df72c4ba7dba6455f15
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 1%
 
 ---
 
-# AI Assistant를 사용하여 업데이트 요약
+# AI Assistant를 사용하여 프로젝트 요약
 
 Workfront의 AI Assistant는 프로젝트를 요약할 수 있으므로 프로젝트 목적 및 상태와 같은 프로젝트 정보를 빠르게 이해할 수 있고, 완료되고 아직 보류 중인 작업의 예를 제공하며, 몇 가지 추가 세부 정보와 메모를 제공합니다.
 
