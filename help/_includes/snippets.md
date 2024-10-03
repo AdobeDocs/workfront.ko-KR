@@ -1,5 +1,5 @@
 ---
-source-git-commit: 621e208a17a3a285dda0dc97cbe83638af2de1a5
+source-git-commit: 385dbe63d0db9b13692fb6f5c78ed56bd0d823c4
 workflow-type: tm+mt
 source-wordcount: '2550'
 ht-degree: 1%
@@ -350,8 +350,8 @@ Workfront 프로젝트에 있는 동안 사용자가 Experience Manager에 연�
 ## 최신 DPV 버전 {#latest-version}
 
 **최신 버전**:
-* Mac: 2024년 8월 29일 현재 2.1.36
-* Windows: 2024/8/30 중 2.1.37
+* Mac: 2024년 10월 2일 현재 2.1.39
+* Windows: 2024년 10월 2일 중 2.1.39
 
 <!-- Release -->
 
