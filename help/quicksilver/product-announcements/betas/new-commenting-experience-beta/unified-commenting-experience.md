@@ -9,9 +9,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1071'
 ht-degree: 1%
 
 ---
@@ -35,6 +35,8 @@ ht-degree: 1%
 >새로운 댓글 달기 경험을 위한 베타 프로그램은 2023년 4월에 시작되어 2023년 10월에 종료되었으며, 2023년 10월 릴리스되었습니다.
 >
 >2024년 4월 11일부터 모든 고객을 위한 프로덕션 환경에서 새로운 댓글 달기 경험을 위한 모든 기능을 사용할 수 있습니다.
+>
+> 이전 댓글 달기 경험이 Workfront에서 제거되었습니다.
 
 ## 기능
 
@@ -47,7 +49,7 @@ ht-degree: 1%
 * 오브젝트에 새 댓글이 추가될 때 실시간 표시기
 * 의견 제출 후 편집
 
-다음 기능은 제거되었거나 새 경험에서 더 이상 사용되지 않습니다.
+다음 기능이 새 경험에서 제거되었습니다.
 
 * 시스템 업데이트에 대한 댓글을 달습니다. 이전에 시스템 업데이트에 추가한 주석은 새 시스템 활동 탭에서 읽기 전용 주석으로 가져왔습니다.
 * 작업 및 문제에 대한 댓글을 달면서 상태, 조건, 커밋 일자 및 완료율을 편집하는 기능.
@@ -85,13 +87,10 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td><strong>새 댓글 환경에 있음 </strong>
    </td>
-   <td><strong>새 댓글 달기 환경 </strong>에 도입됩니다.
+
+<td><strong>새 댓글 달기 환경에 도입됨 </strong>
    </td>
-   <td><strong>새 댓글 달기 환경에 도입 시기 </strong>
-   </td>
-   <td></strong> 조사의 <strong>
-   </td>
-  </tr>
+   </tr>
   <tr>
    <td>댓글 만들기/읽기/회신/삭제 
    </td>
@@ -99,13 +98,11 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   </td>
    <td>✓ 덧신 
    </td>
-   <td> 
+
+<td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>리치 텍스트(인용 및 이모지 제외)
    </td>
@@ -113,12 +110,10 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td>✓ 덧신
    </td>
-   <td> 
+
+<td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
+   &gt;
   </tr>
 
 <tr>
@@ -130,11 +125,8 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
 
 <tr>
    <td>리치 텍스트(블록 인용)
@@ -143,13 +135,10 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> ✓ 덧신
    </td>
-   <td> 
+    <td> 2023년 2분기
    </td>
-   <td> 2023년 2분기
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
 <tr>
    <td> 견적 주석
@@ -158,13 +147,10 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> ✓ 덧신
    </td>
-   <td> 
-   </td>
    <td> 2023년 2분기
    </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>댓글에 반응(예: 
    </td>
@@ -174,11 +160,8 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>댓글에 이미지 첨부 
    </td>
@@ -186,13 +169,10 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td>✓ 덧신 
    </td>
-   <td> 
+      <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>댓글에 직원 태그 지정 
    </td>
@@ -202,11 +182,8 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>스레드 참가자 제거
    </td>
@@ -216,23 +193,13 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
   </tr>
-
-
-<tr>
+  <tr>
    <td>모든 스레드 참가자에 자동으로 태그 지정
    </td>
    <td> 
    </td>
    <td>✓ 덧신
-   </td>
-   <td> 
-   </td>
-   <td> 
    </td>
    <td> 
    </td>
@@ -247,10 +214,6 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
   </tr>
   <tr>
    <td>댓글 게시 취소 
@@ -259,11 +222,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td>댓글 편집으로 대체됨 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
+     <td> 
    </td>
   </tr>
   <tr>
@@ -275,11 +234,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
   <tr>
    <td>댓글 편집 
    </td>
@@ -289,11 +244,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
   <tr>
    <td>페이지에서 이동할 때 주석 초안 저장 
    </td>
@@ -303,21 +254,13 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
   <tr>
    <td>새 댓글을 실시간으로 확인(댓글 삭제 시 확인 포함)
    </td>
    <td> 
    </td>
    <td>✓ 덧신
-   </td>
-   <td> 
-   </td>
-   <td> 
    </td>
    <td> 
    </td>
@@ -331,10 +274,6 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
   </tr>
     <tr>
    <td>스레드 링크 복사 
@@ -343,11 +282,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 복사 링크로 대체됨
    </td>
-   <td> 
-   </td>
    <td>2023년 2분기 
-   </td>
-   <td> 
    </td>
   </tr>
   <tr>
@@ -359,11 +294,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
   <tr>
    <td>견적 주석 텍스트 
    </td>
@@ -371,13 +302,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td>✓ 덧신
    </td>
-   <td> 
+  <td>2023년 2분기 
    </td>
-   <td>2023년 2분기 
-   </td>
-   <td> 
-   </td>
-  </tr>
+   </tr>
   <tr>
    <td>본문 복사 
    </td>
@@ -385,13 +312,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> ✓ 덧신
    </td>
-   <td> 
-   </td>
    <td>
    </td>
-   <td> 
-   </td>
-  </tr>
+   </tr>
     <tr>
    <td>댓글에서 검색 
    </td>
@@ -399,13 +322,10 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> ✓ 덧신
    </td>
-   <td> 
-   </td>
    <td>2024년 1분기 
    </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
 
 <tr>
    <td>댓글에 이미지 복사 및 붙여넣기
@@ -414,13 +334,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> ✓ 덧신
    </td>
-   <td> 
-   </td>
    <td>2024년 1분기 
    </td>
-   <td> 
-   </td>
-  </tr>
+     </tr>
 
 <tr>
    <td>댓글에 이미지 드래그 앤 드롭
@@ -429,22 +345,14 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> ✓ 덧신
    </td>
-   <td> 
-   </td>
    <td>2024년 1분기 
    </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
 
 <tr>
    <td>사용자 정의 양식 편집 
    </td>
    <td>✓ 덧신 
-   </td>
-   <td> 
-   </td>
-   <td> 
    </td>
    <td> 
    </td>
@@ -460,10 +368,6 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td>
-   </td>
   </tr>
 <tr>
    <td>시스템 업데이트에 대한 회신 
@@ -472,11 +376,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
    <td>
-   </td>
-   <td> 
    </td>
   </tr>
 <tr>
@@ -486,11 +386,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> ✓ 덧신
    </td>
-   <td> 
-   </td>
    <td>
-   </td>
-   <td> 
    </td>
   </tr>
 
@@ -499,13 +395,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> ✓ 덧신
    </td>
-   <td> 나중에 릴리스될 수 있습니다.
-   </td>
    <td> 
    </td>
-   <td>
-   </td>
-   <td> ✓ 덧신
+   <td> 
    </td>
   </tr>
 </table>
@@ -519,41 +411,41 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 >Workfront 개체의 업데이트 관리에 대한 자세한 내용은 [작업 업데이트](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)를 참조하세요.
 
 
-다음은 프로덕션 환경에 대한 새로운 댓글 달기 환경의 릴리스에 대한 주요 이정표가 포함된 계획된 타임라인입니다. 아래 이정표 외에도, 더 작은 개선 사항으로 주석 달기 환경을 계속 개선해 나갈 것입니다.
+다음 정보는 프로덕션 환경에 대한 새 댓글 달기 환경의 릴리스에 대한 주요 이정표가 포함된 타임라인에 대해 설명합니다. 아래 이정표 외에도, 더 작은 개선 사항으로 주석 달기 환경을 계속 개선해 나갈 것입니다.
 
-Beta 기간이 종료된 후 새 주석 달기 경험을 위해 릴리스된 기능에 대한 자세한 내용은 현재 릴리스 개요 페이지를 참조하십시오.
+Beta 기간이 종료된 후 새 주석 달기 경험을 위해 릴리스된 기능에 대한 자세한 내용은 현재 릴리스 개요 페이지를 참조하십시오. 자세한 내용은 [제품 릴리스](/help/quicksilver/product-announcements/product-releases/product-releases.md)를 참조하세요.
 
 다음은 새로운 댓글 달기 환경의 릴리스에 대해 계획된 타임라인입니다.
 
 * 23.2 릴리스(2023년 4월 6일):
-   * 문제에 대한 주석 달기 경험 Beta 시작
-   * 목표에 대한 새 댓글 달기 경험 릴리스(유일한 경험으로)
+   * 문제에 대한 주석 달기 경험 Beta을 시작했습니다.
+   * 목표에 대한 새 댓글 달기 경험을 발표했습니다(유일한 경험으로).
 * 23.3 릴리스(2023년 7월 20일):
-   * 프로젝트, 작업 및 문서에 대한 주석 달기 경험 Beta을 시작합니다.
-   * 보드 영역에서 카드에 대한 새 댓글 달기 경험을 해제합니다(유일한 경험으로).
+   * 프로젝트, 작업 및 문서에 대한 주석 달기 경험 Beta을 시작했습니다.
+   * 보드 영역에서 카드에 대한 새로운 댓글 달기 경험을 발표했습니다(유일한 경험으로).
 * 2023년 4분기 릴리스(제한된 릴리스, 빠른 릴리스를 선택하는 고객만 사용 가능) 중:
-   * 템플릿, 템플릿 작업, 프로그램, 포트폴리오, 팀, 사용자 및 타임시트에 대한 새로운 댓글 달기 환경(유일한 경험으로) 릴리스
-   * 프로젝트, 작업, 문제 및 문서에 대한 주석 달기 경험 Beta을 업데이트하여 기본 옵션으로 설정합니다. &quot;Beta&quot; 레이블이 제거됩니다.
+   * 템플릿, 템플릿 작업, 프로그램, 포트폴리오, 팀, 사용자 및 타임시트에 대한 새 댓글 달기 환경을 릴리스했습니다(유일한 경험으로).
+   * 프로젝트, 작업, 문제 및 문서에 대한 주석 달기 경험 Beta이 기본 옵션으로 업데이트되었습니다. &quot;Beta&quot; 레이블이 제거되었습니다.
 * 2023년 4분기(23.10) 릴리스 포함(2023년 10월 26일)
-   * 모든 고객에게 템플릿, 템플릿 작업, 프로그램, 포트폴리오, 팀, 사용자 및 타임시트에 대한 새로운 댓글 달기 환경(유일한 경험으로)을 릴리스합니다.
-   * 프로젝트, 작업, 문제 및 문서에 대한 새로운 댓글 달기 환경을 기본 옵션으로 설정합니다.
+   * 템플릿, 템플릿 작업, 프로그램, 포트폴리오, 팀, 사용자 및 타임시트에 대한 새로운 댓글 달기 환경(유일한 경험으로)을 모든 고객에게 릴리스했습니다.
+   * 프로젝트, 작업, 문제 및 문서에 대한 새로운 댓글 달기 환경을 기본 옵션으로 설정했습니다.
 
   >[!IMPORTANT]
   >
-  >    이로써 새로운 댓글 달기 환경의 Beta 단계가 마무리됩니다.
+  >    이로써 새로운 댓글 달기 환경의 Beta 단계가 마무리되었습니다.
 
-   * 현재 정기 월별 및 분기별 릴리스의 이 날짜 부분부터 새로운 댓글 달기 경험을 위해 릴리스된 모든 기능을 사용할 수 있습니다.
+   * 이 날짜 부분부터 새로운 댓글 달기 경험을 위해 현재 정기 월별 및 분기별 릴리스의 모든 기능이 릴리스되었습니다.
 * 2023년 말:
-   * 프로젝트, 작업, 문제 및 문서 개체에 대한 보조 옵션으로 기존 주석 달기 환경을 유지합니다. 새 댓글 달기 환경은 이러한 오브젝트의 모든 사용자에 대한 기본 옵션입니다.
-   * 새 댓글 달기 경험을 다른 모든 오브젝트에 대한 유일한 경험으로 만듭니다.
-
-  >[!NOTE]
-  >
-  >    반복에는 기존 댓글 달기 환경이 계속 유지됩니다. 새 주석 달기 경험을 반복할 수 없습니다.
+   * 프로젝트, 작업, 문제 및 문서 개체에 대한 보조 옵션으로 기존 주석 달기 환경을 유지했습니다. 새 댓글 달기 환경은 이러한 오브젝트의 모든 사용자에 대한 기본 옵션입니다.
+   * 새 주석 달기 경험이 다른 모든 오브젝트에 대한 유일한 경험으로 설정되었습니다.
 
 * 2024년 2분기 릴리스(2024년 4월 11일):
 
-  옵션을 제거하여 기존 댓글 달기 스트림으로 다시 전환하고 새 댓글 달기 스트림을 모든 개체에 대한 유일한 환경으로 만듭니다.
+  기존 댓글 달기 스트림으로 다시 전환하고 새 댓글 달기 스트림을 모든 개체의 유일한 환경으로 만드는 옵션이 제거되었습니다.
+
+* 2024년 10월 3일:
+
+  업데이트 영역에서 피드백 남기기 버튼을 제거했습니다.
 
 ## 새 댓글 달기 환경 찾기
 

@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
+source-git-commit: 64a8d2ff8546874cf829738dcea03b2946c360cb
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
-
 
 # 연결된 레코드 개요
 
@@ -30,7 +30,7 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
 * 연결된 레코드 필드에서 연결된 레코드와 개체 유형의 레코드와 개체를 찾아보고 추가할 수 있습니다.
 * 연결 중인 레코드 유형의 테이블에 연결된 레코드 유형의 필드(조회 필드)를 추가할 수 있습니다.
 
-  연결하는 레코드 유형의 테이블에서 연결할 레코드 유형의 필드(조회 필드)를 추가할 수 있습니다.
+  또한 연결할 레코드 유형의 테이블에서 연결할 레코드 유형의 필드(조회 필드)를 추가할 수도 있습니다.
 
   예를 들어 Campaign의 레코드 유형에서 제품의 레코드 유형을 연결하는 경우 캠페인에 대한 제품 필드와 제품에 대한 캠페인 필드를 표시할 수 있습니다.
 * 연결 중인 레코드의 조회 필드 값은 수동으로 업데이트할 수 없습니다.
@@ -54,4 +54,3 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
 * 다음 영역에서 Workfront 개체를 Workfront Planning 레코드에 연결할 수 있습니다.
 
    * Workfront 객체의 Planning 섹션에서 다음을 수행합니다.
-

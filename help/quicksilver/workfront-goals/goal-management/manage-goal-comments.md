@@ -6,9 +6,9 @@ description: Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,8 @@ After the monthly releases to Production, the same features are also available i
 Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석을 추가할 수 있습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서에 설명된 작업을 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -87,6 +89,8 @@ Adobe Workfront 목표에서 볼 수 있는 모든 목표에 주석을 추가할
 </table>
 
 *자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 목표 댓글 관리
 

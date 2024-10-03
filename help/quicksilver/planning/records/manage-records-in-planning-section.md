@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 64a8d2ff8546874cf829738dcea03b2946c360cb
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '797'
 ht-degree: 1%
 
 ---
@@ -110,14 +110,16 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 
 ## Workfront 객체의 계획 섹션에 대한 고려 사항
 
-* Workfront Planning 레코드 유형은 Workfront 객체 유형에 연결되어 있어야 합니다.
+Workfront 객체의 계획 섹션에서 Workfront Planning 레코드를 볼 때는 다음 사항을 고려하십시오.
+
+* Workfront Planning 레코드 유형은 먼저 Workfront 객체 유형에 연결되어야 합니다.
 
   자세한 내용은 다음 문서를 참조하십시오.
 
    * [레코드 유형 연결](/help/quicksilver/planning/architecture/connect-record-types.md)
    * [기록 연결](/help/quicksilver/planning/records/connect-records.md)
 * Workfront 객체와 연관된 레코드가 없는 경우에도 Workfront 객체에서 계획 섹션을 볼 수 있습니다.
-* Workfront 객체에 연결된 레코드가 하나 이상 있는 경우 계획 섹션에서 Workfront의 Workfront 객체와 Planning 레코드를 연결할 수 있습니다.
+* Workfront의 계획 영역에서 Workfront 객체를 연결할 수 있을 뿐만 아니라 계획 섹션에서 Workfront의 Workfront 객체와 계획 레코드를 연결할 수 있습니다.
 
 ## 계획 섹션의 레코드 관리
 
@@ -131,6 +133,10 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 1. 테이블 보기 또는 레코드의 세부 사항 페이지에서 Workfront 개체와 연결된 연결된 레코드 필드로 이동합니다. 자세한 내용은 [레코드 연결](/help/quicksilver/planning/records/connect-records.md)을 참조하세요.
 1. 연결된 레코드 필드에서 Workfront 개체의 이름을 클릭합니다.
 개체의 페이지가 Workfront에서 열립니다.
+
+   >[!NOTE]
+   >
+   >  Planning 레코드에 이미 연결된 Workfront 객체를 알고 있는 경우 Workfront 객체에서 Planning 섹션으로 이동할 수 있습니다.
 
 1. 왼쪽 패널에서 **계획**&#x200B;을 클릭합니다.
 
@@ -152,7 +158,7 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 1. 레코드에 대한 자세한 내용을 표시하려면 레코드 카드를 클릭합니다. 레코드 미리 보기 상자가 표시됩니다.
 1. (선택 사항) 레코드의 미리 보기 상자에서 필드 수정을 시작합니다. 변경 사항은 자동으로 저장됩니다.
 1. (선택 사항) 미리 보기 상자의 오른쪽 상단에 있는 **새 탭에서 열기** 아이콘 ![](assets/open-details-in-a-new-tab-icon.png)을(를) 클릭하여 레코드의 세부 정보 페이지를 엽니다. 레코드의 세부 사항 페이지가 Workfront Planning에 열립니다.
-1. 레코드 카드에 마우스를 가져다 대고 레코드 연결 끊기 아이콘 **-**&#x200B;을 클릭한 다음 **연결 끊기**을 클릭합니다.
+1. (선택 사항) 레코드 카드 위로 마우스를 가져간 다음 레코드 연결 끊기 아이콘 **-**&#x200B;을 클릭한 다음 **연결 끊기**를 클릭합니다.
 다음과 같은 상황이 발생합니다.
    * 레코드가 더 이상 Workfront 개체에 연결되어 있지 않습니다.
    * Workfront 개체는 Workfront Planning에서 레코드의 연결된 필드에서도 제거됩니다.

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 969f7c609afcc0029fa9ba054de113904a10917b
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '2197'
+source-wordcount: '2196'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 <!--
 You can use Adobe Workfront Planning to design fully-customizable workspaces that contain record types needed in your organization. A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Workfront Planning record types with object types from other applications to enhance your users' experience and keep their focus in one application. -->
 
-레코드 유형을 서로 연결하거나 다른 응용 프로그램의 개체 유형을 사용하여 레코드 유형을 연결할 수 있습니다.
+레코드 유형을 서로 연결하거나 다른 응용 프로그램의 개체 유형과 레코드 유형을 연결할 수 있습니다.
 
 이 문서에서는 두 개의 Workfront Planning 레코드 유형 또는 Workfront Planning 레코드 유형을 다른 응용 프로그램의 객체와 연결하는 방법에 대해 설명합니다.
 
@@ -183,7 +183,7 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 
 1. **레코드 종류** 필드에서 레코드 종류를 검색하거나 다음 중 하나를 선택하십시오.
 
-   * 선택한 작업 영역의 다른 레코드 유형
+   * 현재 작업 공간의 다른 레코드 유형
 
      <span class="preview">![](assets/many-to-many-connection-picker.png)</span>
      >[!TIP]
@@ -198,7 +198,7 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 
      >[!TIP]
      >
-     >다른 작업 영역에서 연결하도록 구성된 레코드 유형이 없는 경우 작업 영역 섹션이 표시되지 않습니다.
+     >다른 작업공간에서 연결하도록 구성된 레코드 유형이 없는 경우 작업공간 섹션이 표시되지 않습니다.
 
 
    * **Workfront 개체 유형** 섹션의 **프로젝트, Portfolio, 프로그램, 회사** 또는 **그룹**.
@@ -218,7 +218,7 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
    >동일한 레코드나 개체 유형에 여러 연결을 가질 수 있습니다. 연결된 필드 이름을 편집하지 않으면 Workfront은 연결된 레코드 이름 뒤에 숫자를 추가하여 동일한 이름으로 연결된 레코드 유형의 수를 나타냅니다.
 
    * **설명**: 연결된 레코드 필드에 대한 추가 정보입니다. 필드의 설명은 테이블에서 필드의 열 위로 마우스를 가져가면 표시됩니다.
-   * **여러 레코드 허용**: 연결된 레코드 유형 필드가 원본 레코드에 표시될 때 사용자가 여러 레코드를 추가할 수 있도록 허용하려면 이 옵션을 선택하십시오. 이 옵션은 기본적으로 선택되어 있습니다.
+   * **여러 레코드 허용**: 연결된 레코드 유형 필드가 원본 레코드에 표시될 때 사용자가 여러 레코드를 추가할 수 있도록 하려면 이 옵션을 선택하십시오. 이 옵션은 기본적으로 선택되어 있습니다.
 
      이 옵션은 두 개의 다른 작업 영역 또는 레코드와 Adobe Experience Manager 에셋 개체의 레코드를 연결하는 경우에만 사용할 수 있습니다.
 
@@ -237,7 +237,7 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 
      연결 유형에 대한 자세한 내용은 [연결된 레코드 유형 개요](/help/quicksilver/planning/architecture/connect-record-types-overview.md)를 참조하십시오.
 
-   * **조회 필드 선택**: 선택한 레코드 종류에서 필드를 추가하려면 이 옵션을 선택하십시오. 조회 필드는 연결 중인 레코드 또는 개체 유형과 관련된 필드입니다. 이 레코드들을 연결하면 연결하려는 레코드나 오브젝트의 정보가 원하는 레코드에 표시됩니다. 이 옵션은 기본적으로 선택되어 있습니다.
+   * **조회 필드 선택**: 선택한 레코드 종류에서 필드를 추가하려면 이 옵션을 선택하십시오. 조회 필드는 연결 중인 레코드 또는 개체 유형과 관련된 필드입니다. 이 레코드들을 연결하면 연결하려는 레코드의 레코드나 개체에 있는 정보가 표시됩니다. 이 옵션은 기본적으로 선택되어 있습니다.
 
      >[!TIP]
      >
@@ -305,7 +305,7 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 
    * 레코드는 필드 값의 고유한 조합별로 그룹화됩니다
 
-   * 타임라인 보기는 첫 번째 날짜 값을 기반으로 빌드됩니다.
+   * 타임라인 보기는 첫 번째 날짜 값을 기반으로 빌드됩니다
 
    >[!IMPORTANT]
    >
@@ -353,11 +353,11 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 
      `<Name of the original field on the linked record> (from <Name of your linked field>)`
 
-     예를 들어 캠페인 레코드 종류를 프로그램 레코드 종류 및 프로그램 연결 레코드 필드의 이름을 &quot;프로그램 정보&quot;로 연결한 다음, Campaign의 테이블 보기에서 프로그램 예산 필드도 표시하도록 선택하면 연결된 필드의 이름이 캠페인의 테이블 보기에서 자동으로 `Budget (from Program information)`(으)로 지정됩니다.
+     예를 들어 캠페인 레코드 유형을 프로그램 레코드 유형과 연결하고 프로그램 연결 레코드 필드의 이름을 &quot;프로그램 정보&quot;로 지정한 다음, Campaign의 테이블 보기에서 프로그램 예산 필드도 표시하도록 선택한 경우, 연결된 필드의 이름이 캠페인의 테이블 보기에서 자동으로 `Budget (from Program information)`(으)로 지정됩니다.
 
    * 레코드 종류를 서로 연결하면 연결된 레코드 종류에도 연결된 레코드 필드가 추가됩니다. 연결된 레코드 유형의 연결된 레코드 필드 이름은 연결된 레코드 유형의 이름입니다.
 
-     예를 들어 &quot;캠페인&quot; 레코드 유형에서 &quot;제품&quot; 레코드 유형을 연결하고 캠페인의 연결된 필드 이름을 &quot;연결된 제품&quot;으로 지정하면 제품 레코드 유형에 대해 &quot;캠페인&quot; 연결된 레코드 필드가 만들어집니다.
+     예를 들어 &quot;캠페인&quot; 레코드 유형에서 &quot;제품&quot; 레코드 유형을 연결하고 캠페인의 연결된 필드를 &quot;연결된 제품&quot;으로 지정한 경우 제품 레코드 유형에 대해 &quot;캠페인&quot; 연결된 레코드 필드가 만들어집니다.
 
      >[!TIP]
      >
@@ -365,7 +365,7 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 
 1. (선택 사항 및 조건부) 원래 레코드 유형 또는 연결된 레코드 유형 테이블 보기에서 연결된 레코드 필드의 머리글에 있는 아래쪽 방향 화살표를 클릭한 다음 다음 중 하나를 클릭합니다.
 
-   * **필드 편집**: 필드의 **이름** 및 **설명** 정보를 업데이트할 수 있습니다.
+   * **필드 편집**: 필드의 **이름** 및 **설명** 정보를 업데이트합니다.
    * **조회 필드 편집**: 연결된 레코드의 필드를 추가하거나 제거합니다.
 
    ![](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)

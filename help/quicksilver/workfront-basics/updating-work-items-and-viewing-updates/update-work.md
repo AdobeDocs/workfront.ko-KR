@@ -6,9 +6,9 @@ description: Adobe Workfront 개체(프로젝트, 작업 또는 문제)에 업�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '3007'
+source-wordcount: '3037'
 ht-degree: 0%
 
 ---
@@ -130,12 +130,19 @@ Adobe Workfront 개체에 대한 업데이트를 추가하여 해당 개체의 �
 
    * Workfront 개체의 업데이트 섹션(프로젝트, 작업 및 문제의 경우)에서
    * 홈 영역에서(작업 및 문제의 경우)
+
+     자세한 내용은 [내 작업 위젯으로 작업 관리](/help/quicksilver/workfront-basics/using-home/new-home/my-work-widget.md)를 참조하십시오.
    * 다음 영역(작업, 문제 및 문서의 경우)의 요약 패널에서
 
       * 오브젝트 목록
       * 타임시트
       * 홈
       * 업무 균형자
+
+     자세한 내용은 다음 문서를 참조하십시오.
+
+      * [요약 개요](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+      * [요약을 사용하여 업무 균형자에서 작업 항목 업데이트](/help/quicksilver/resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
 
 <!--info for April 11: hide the section below: add an update to a work item-->
 

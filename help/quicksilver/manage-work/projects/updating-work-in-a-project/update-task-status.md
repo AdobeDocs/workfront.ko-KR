@@ -6,14 +6,16 @@ description: 작업 상태를 업데이트하여 작업의 위치와 전체 프�
 author: Alina
 feature: Work Management
 exl-id: e1efc676-e110-486e-91dc-f521421575e8
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '648'
 ht-degree: 1%
 
 ---
 
 # 작업 상태 업데이트
+
+<!--Audited: 10/2024-->
 
 작업 상태를 업데이트하여 작업의 위치와 전체 프로젝트 진행 상황을 다른 사용자에게 알릴 수 있습니다.
 
@@ -22,6 +24,8 @@ ht-degree: 1%
 작업 상태를 수동으로 업데이트하거나 특정 작업이 발생할 때 Workfront에서 자동으로 업데이트하도록 할 수 있습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 작업을 수동으로 업데이트하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -51,7 +55,9 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오. 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 작업 상태 업데이트에 대한 고려 사항
 
@@ -127,7 +133,7 @@ Workfront은 아래 표에 나열된 작업이 발생할 때 작업의 기존 �
  <col> 
  <tbody> 
   <tr> 
-   <td><b>개 액션</b></td> 
+   <td><b>액션</b></td> 
    <td><b>원래 상태</b></td> 
    <td><b>새 상태</b></td> 
   </tr> 

@@ -6,10 +6,10 @@ description: 문제 상태를 업데이트하여 문제의 위치와 진행 방�
 author: Alina
 feature: Work Management
 exl-id: 6e09dfcf-dceb-4f33-9592-0769283369c7
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 2%
+source-wordcount: '645'
+ht-degree: 3%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 2%
 문제 상태를 업데이트하여 문제의 위치와 진행 방법을 다른 사용자에게 알릴 수 있습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -33,9 +35,9 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>새 라이선스: 기여자 이상</p>
+   <td> <p>새로운 기능: 기여자 이상</p>
    또는
-   <p>현재 라이선스: 요청 이상</p>
+   <p>현재: 요청 이상</p>
    </td> 
   </tr> 
   <tr> 
@@ -49,7 +51,9 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오. 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 문제 상태
 
@@ -144,7 +148,7 @@ Workfront은 아래 표에 나열된 작업이 발생하면 문제의 기존 상
  <col> 
  <tbody> 
   <tr> 
-   <td><b>개 액션</b></td> 
+   <td><b>액션</b></td> 
    <td><b>원래 상태</b></td> 
    <td><b>새 상태</b></td> 
   </tr> 
