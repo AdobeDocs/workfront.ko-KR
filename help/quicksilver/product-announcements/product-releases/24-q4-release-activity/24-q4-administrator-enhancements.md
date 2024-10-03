@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+source-git-commit: 4f7e664123785235179418faa2a630e3c4c1c4d0
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '480'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,18 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2024년 4분기 릴리스의 모든 관리자 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2024년 4분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2024년 4분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)를 참조하십시오.
+
+## 사용자 정의 양식의 카운터는 필드 수를 보여 줍니다
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2024년 10월 1일, 모든 고객을 위한 프로덕션 릴리스: 24.10 릴리스 포함(2024년 10월 17일)
+
+사용자 정의 양식은 500개의 필드로 제한됩니다. 긴 형식에서는 형식에 몇 개의 필드가 있으며 한도에 도달하는지 여부를 알기 어려울 수 있습니다.
+
+왼쪽 하단의 사용자 정의 양식에 카운터가 추가되었습니다. 카운터는 폼에 사용되는 필드 수를 표시하며 폼 디자이너 내에서 스크롤할 때 항상 표시됩니다.
+
+자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
 
 ## 이제 레이아웃 템플릿에서 &quot;모두 선택&quot; 옵션을 사용할 수 있습니다
 

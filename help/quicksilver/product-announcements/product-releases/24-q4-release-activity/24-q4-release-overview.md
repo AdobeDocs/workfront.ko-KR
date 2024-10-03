@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: a3b172a40dc539504da356f37377d2332edad4dc
+source-git-commit: 4f7e664123785235179418faa2a630e3c4c1c4d0
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '2017'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,7 @@ ht-degree: 0%
 ## Adobe Workfront 개선 사항
 
 * [관리자 개선 사항](#administrator-enhancements)
+* [문서 관리 개선 사항](#document-management-enhancements)
 * [통합 개선 사항](#integration-enhancements)
 * [홈 개선 사항](#home-enhancements)
 * [프로젝트 개선 사항](#project-enhancements)
@@ -46,8 +47,8 @@ ht-degree: 0%
 ### 관리자 개선 사항
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -57,6 +58,22 @@ ht-degree: 0%
                     <td>
                         <p><span class="bold">릴리스 날짜</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">사용자 정의 양식의 카운터가 필드 수를 표시합니다</a></p>
+                        <p>사용자 정의 양식은 500개의 필드로 제한됩니다. 긴 형식에서는 형식에 몇 개의 필드가 있으며 한도에 도달하는지 여부를 알기 어려울 수 있습니다. 왼쪽 하단의 사용자 정의 양식에 카운터가 추가되었습니다. 카운터는 폼에 사용되는 필드 수를 표시하며 폼 디자이너 내에서 스크롤할 때 항상 표시됩니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2024년 10월 1일</p>
+                            </li>
+                            <li>
+                                <p>모든 고객을 위한 프로덕션 릴리스: 24.10 릴리스 포함(2024년 10월 17일)</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -117,13 +134,68 @@ ht-degree: 0%
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
+
+### 문서 관리 개선 사항
+
+>[!IMPORTANT]
+>
+>**문서 관리 개선 사항**&#x200B;에 나열된 기능은 단계별 릴리스의 일부이며, 특정 고객에게만 제공됩니다.
+
+<table>
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">기능</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">릴리스 날짜</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md">문서 목록에서 직접 문서 결정 상태 보기</a></p>
+                        <p>이제 문서 목록에서 직접 문서의 결정 상태를 볼 수 있습니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2024년 10월 3일</p>
+                            </li>
+                            <li>
+                                <p>모든 고객을 위한 프로덕션 릴리스: 24.10 릴리스 포함(2024년 10월 17일)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md">이전 검토자와 승인자를 새 문서 버전에 빠르게 추가</a></p>
+                        <p>이제 이전 문서 버전에서 검토자와 승인자를 빠르게 추가할 수 있습니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2024년 10월 3일</p>
+                            </li>
+                            <li>
+                                <p>모든 고객을 위한 프로덕션 릴리스: 24.10 릴리스 포함(2024년 10월 17일)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+</table>
 
 ### 통합 개선 사항
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -153,13 +225,13 @@ ht-degree: 0%
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
 
 ### 홈 개선 사항
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -194,14 +266,14 @@ ht-degree: 0%
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
 
 
 ### 프로젝트 개선 사항
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -254,13 +326,13 @@ ht-degree: 0%
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
 
 ### 증명 개선 사항
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -275,6 +347,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">데스크톱 증명 뷰어에 대한 복사/붙여넣기 문제 해결</a></p>
+                        [!BADGE In production ]{type=Informative}
                         <p>Desktop Proofing Viewer의 업데이트 섹션에서 콘텐츠가 잘못 붙여넣는 문제가 수정되었습니다.</p>
                         <p>신규 버전: 2.1.39</p>
                     </td>
@@ -325,13 +398,13 @@ ht-degree: 0%
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
 
 ### 보고서 및 대시보드 개선 사항
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -351,21 +424,37 @@ ht-degree: 0%
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
                             <li>
-                                <p><span class="preview">모든 고객을 위한 프로덕션 릴리스: 24.10 릴리스 포함(2024년 10월 17일)</span></p>
+                                <p>모든 고객을 위한 프로덕션 릴리스: 24.10 릴리스 포함(2024년 10월 17일)</p>
                             </li>
                         </ul>
                         <p><i>새로운 Adobe Workfront 플랜 중 하나의 조직에서만 사용할 수 있습니다. Data Connect는 Ultimate 플랜에 포함되어 있거나 Prime 및 Select 플랜의 추가 기능으로 구입할 수 있습니다.</i></p>
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
 
 ### 기타 개선 사항
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">한 번의 클릭으로 프로젝트 또는 업데이트 요약</a></p>
+                        <p>프로젝트 또는 업데이트 스트림의 주요 사항을 더 쉽게 볼 수 있도록 Workfront의 해당 영역에 요약 버튼을 추가했습니다. 이제 버튼을 클릭하여 AI Assistant에서 요약을 생성할 수 있습니다.</p><p>이전에는 사용자가 AI Assistant를 열고 프로젝트 요약을 생성하거나 스트림을 업데이트하라는 메시지를 입력할 수 있었습니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2024년 10월 3일</p>
+                            </li>
+                            <li>
+                                <p>모든 고객을 위한 프로덕션 릴리스: 24.10 릴리스 포함(2024년 10월 17일)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Planning의 일반 가용성</a></p>
@@ -421,7 +510,7 @@ ht-degree: 0%
                     </td>
                 </tr>                            
            </tbody>
-        </table>
+</table>
 
 ### Workfront에서 곧 제거될 기능
 

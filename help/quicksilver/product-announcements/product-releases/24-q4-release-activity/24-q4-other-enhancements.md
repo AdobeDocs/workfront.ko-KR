@@ -4,9 +4,10 @@ description: 2024년 4분기 릴리스 기간 동안의 기타 개선 사항
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 11a5d4d2e1c7ac5339aa880b494730d75e40a812
+exl-id: 13208dca-afc9-419a-bb08-e063c6d9b480
+source-git-commit: 4f7e664123785235179418faa2a630e3c4c1c4d0
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -16,6 +17,20 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2024년 4분기 릴리스의 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2024년 4분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2024년 4분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)를 참조하십시오.
+
+## 한 번의 클릭으로 프로젝트 또는 업데이트 요약
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2024년 10월 3일, 모든 고객을 위한 프로덕션 릴리스: 24.10 릴리스 포함(2024년 10월 17일)
+
+프로젝트 또는 업데이트 스트림의 주요 사항을 더 쉽게 볼 수 있도록 Workfront의 해당 영역에 요약 버튼을 추가했습니다. 이제 버튼을 클릭하여 AI Assistant에서 요약을 생성할 수 있습니다.
+
+이전에는 사용자가 AI Assistant를 열고 프로젝트 요약을 생성하거나 스트림을 업데이트하라는 메시지를 입력할 수 있었습니다.
+
+Workfront 관리자는 조직에 대해 AI Assistant를 활성화하거나 비활성화할 수 있습니다. AI Assistant는 Select, Prime 및 Ultimate 플랜이 있는 인스턴스에 사용할 수 있습니다.
+
+자세한 내용은 [AI Assistant를 사용하여 요약](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md)을 참조하십시오.
 
 ## Workfront에서 사용 가능한 Adobe AI Assistant
 
