@@ -5,13 +5,13 @@ title: 새 문서 승인 및 증명 함께 사용
 description: 증명이 포함된 새 문서 승인을 사용할 수 있습니다.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 8dc9df69bbce86f141ac451381fcc41a112ca0bc
+exl-id: be484629-6e70-4809-ad4c-a489d5814da6
+source-git-commit: bea547e7a7400798d4544fb4f299f72e18a700be
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '940'
 ht-degree: 0%
 
 ---
-
 
 # 새 문서 승인 및 증명 함께 사용
 
@@ -85,9 +85,9 @@ Workfront의 새 문서 승인에는 문서를 검토하고 승인하는 데 도
 
 1. (선택 사항) 승인 기한을 설정합니다. 사용자와 팀은 지정된 기한 24시간 전에 이메일로 72시간 전에 알림을 받습니다.
 
-1. 승인자를 추가하려면 승인자 버튼을 클릭하고 사용자 또는 팀 이름을 입력하십시오.
+1. 승인자를 추가하려면 [승인자] 단추를 클릭하고 사용자 또는 팀 이름 <span class="preview">을(를) 입력하거나 이전 버전에서 승인자를 선택하십시오.</span>
 
-1. 검토자를 추가하려면 [검토자] 단추를 클릭하고 사용자 또는 팀 이름을 입력하십시오.
+1. 검토자를 추가하려면 [검토자] 단추를 클릭하고 사용자 또는 팀 이름 <span class="preview">을(를) 입력하거나 이전 버전에서 검토자를 선택하십시오. </span>
 
    ![](assets/add-approvers.png)
 
@@ -125,4 +125,3 @@ Workfront의 새 문서 승인에는 문서를 검토하고 승인하는 데 도
    * **작업 필요**: 문서를 변경해야 하며 사용할 준비가 되지 않았습니다. 지정된 변경 사항이 적용되면 문서를 새 버전으로 업로드하고 다른 승인을 거쳐야 합니다. 새 버전을 업로드하는 방법에 대한 자세한 내용은 이 문서에서 [필요에 따라 새 버전 만들기](#create-a-new-version-as-needed)를 참조하십시오.
 
 결정을 내리면 문서 소유자에게 이메일을 통해 알림이 전송됩니다.
-

@@ -6,9 +6,9 @@ description: 이미 보류 중인 승인이 있는 문서에 승인자 또는 �
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: f3d94dff-a855-44ae-9e85-1dcbc4d417a0
-source-git-commit: 850d21fafcf2192600f9011ee936a9bc40f969a4
+source-git-commit: a1a5c2bb9395748c4e0103d10dcf66624238032b
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
@@ -75,6 +75,10 @@ ht-degree: 0%
 1. 문서 요약 창의 **승인** 섹션까지 아래로 스크롤합니다. 이 섹션에는 기존 승인자와 검토자가 모두 나열됩니다. 승인자를 추가하려면 **승인자** 확인란이 선택되어 있는지 확인한 다음 **검토자** 텍스트 상자에 입력을 시작합니다. 이름별로 Workfront 사용자 또는 팀을 추가할 수 있습니다. 대신 검토자를 추가하려면 입력하기 전에 **승인자** 확인란의 선택을 취소하면 됩니다.
 
 1. 이전 단계를 반복하여 승인자 또는 검토자를 추가합니다.
+
+## 이전 버전에서 추가 검토 및 승인자 추가
+
+새 문서 버전에 대한 승인이 필요한 경우 쉽게 추가할 수 있습니다
 
 <!--
 ## Add additional approvers or reviewers from Home

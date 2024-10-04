@@ -6,7 +6,7 @@ description: Adobe Workfront에서 문서에 대한 다른 사용자의 승인�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: 796955fb073905337755fc04e9fb43dbc85b6450
+source-git-commit: a1a5c2bb9395748c4e0103d10dcf66624238032b
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 0%
@@ -75,7 +75,7 @@ Adobe Workfront에서 문서에 대한 다른 사용자 또는 팀의 승인을 
 
 1. 이전 단계를 반복하여 승인자 또는 검토자를 추가합니다.
 
-## 문서 요약 창에서 문서 검토 또는 승인 요청 만들기
+## 문서 요약 패널에서 문서 검토 또는 승인 요청 만들기
 
 1. 문서가 포함된 프로젝트, 작업 또는 문제로 이동한 다음 **문서**&#x200B;을(를) 선택합니다.
 
@@ -96,6 +96,10 @@ Adobe Workfront에서 문서에 대한 다른 사용자 또는 팀의 승인을 
    ![](assets/add-approver-and-deadline.png)
 
 1. 이전 단계를 반복하여 승인자 또는 검토자를 추가합니다.
+
+
+
+
 
 <!--
 ## Resubmit an approval on a new version

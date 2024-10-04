@@ -8,9 +8,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 242910b9-f251-49c3-a6ad-de3039bdd2f5
-source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
+source-git-commit: ddce65dd04752ee68f8bf249e8aa07082a02d3a6
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '88'
 ht-degree: 0%
 
 ---
@@ -24,3 +24,4 @@ ht-degree: 0%
 * [에셋 또는 문서에서 승인자 또는 검토자 제거](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
 * [자산 및 문서에 대한 승인 템플릿 만들기](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
 * [새 문서 승인 및 증명 함께 사용](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
+* [새 문서 버전 업로드 및 승인 요청](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)
