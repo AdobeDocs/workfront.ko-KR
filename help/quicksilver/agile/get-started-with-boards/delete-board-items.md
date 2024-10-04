@@ -6,9 +6,9 @@ description: 보드에서 카드를 삭제하면 영구적으로 삭제되며 �
 author: Lisa
 feature: Agile
 exl-id: 68b7d2e5-92f0-462d-8122-eaecb1e6b87c
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 81e87793905fd925db00c7a0ac107150263a1365
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 접수 열이 있는 다른 보드 유형에서 연결된 카드를 삭제하면 연결된 작업 또는 문제가 아직 완료로 표시되지 않은 경우 보드를 새로 고칠 때 카드가 접수 열에 다시 나타납니다. 접수 열에 대한 자세한 내용은 [보드에 접수 열 추가](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)를 참조하십시오.
 
 카드를 보관하면 아카이브로 전송되고 나중에 보드에 복원할 수 있습니다.
+
+보관된 카드가 Workfront 작업 및 문제와 동기화되지 않습니다. 카드를 복원하면 다시 동기화됩니다.
 
 ## 액세스 요구 사항
 
@@ -71,7 +73,7 @@ ht-degree: 0%
 
 1. 보관된 카드를 복원하려면 카드에서 **[!UICONTROL 추가]** 메뉴 ![추가 메뉴](assets/more-icon-spectrum.png)를 클릭하고 **[!UICONTROL 복원]**&#x200B;을 선택하십시오.
 
-## 보드를 필터링하여 보관된 카드 표시 {#filter-a-board-to-show-archived-cards}
+## 보드를 필터링하여 보관된 카드 표시
 
 기본적으로 활성 카드만 보드에 표시됩니다. 보드를 필터링하여 보관된 카드도 표시할 수 있습니다.
 
