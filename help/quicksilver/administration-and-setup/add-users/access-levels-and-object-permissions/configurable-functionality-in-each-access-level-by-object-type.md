@@ -5,16 +5,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 94e0b205-140c-41c9-bb5a-f89b4c3aaea0
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 5d924e510ad94098b9f417494f9fc6e8696c90d6
 workflow-type: tm+mt
-source-wordcount: '3436'
+source-wordcount: '3485'
 ht-degree: 10%
 
 ---
 
 # 각 객체 유형에 대한 기능에 대한 구성 가능한 액세스
 
-이 문서에서는 각 액세스 수준의 각 객체 유형에 대해 Adobe Workfront 관리자가 허용할 수 있는 사항에 대해 설명합니다. 또한 각 액세스 수준 유형에 대한 기본 구성이 무엇인지 설명합니다.
+조직에 대한 액세스 수준을 구성할 때 액세스 수준에서 사용할 수 있는 특정 작업을 결정할 수 있습니다.
+
+이 문서에서는 Adobe Workfront 관리자가 각 액세스 수준의 각 객체 유형에 대해 선택할 수 있는 옵션에 대해 설명합니다. 또한 각 액세스 수준 유형에 대한 기본 구성이 무엇인지 설명합니다.
+
+예를 들어 Workfront 관리자가 주어진 액세스 수준에서 프로젝트에 대해 &quot;보기&quot;를 선택하면 해당 액세스 수준의 사용자는 프로젝트를 편집할 수 없고 볼 수만 있습니다.
 
 각 액세스 수준의 개체 유형에 사용할 수 있는 모든 기능에 대한 자세한 내용은 [각 개체 유형에 사용할 수 있는 기능](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)을 참조하십시오.
 

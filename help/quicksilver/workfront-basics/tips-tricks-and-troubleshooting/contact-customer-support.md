@@ -6,9 +6,9 @@ description: Adobe Workfront 고객은 전화나 온라인으로 티켓을 제�
 feature: Get Started with Workfront
 author: Becky
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
-source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
+source-git-commit: 5d924e510ad94098b9f417494f9fc6e8696c90d6
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
@@ -52,19 +52,14 @@ ht-degree: 0%
 
    [!UICONTROL 지원] 홈 페이지에서 진행 중인 지원 사례로 이동하거나, 새로운 사례를 기록하거나, 상위 [!UICONTROL 지원] 문서를 보거나, 추가 학습 소스에 액세스할 수 있습니다.
 
-1. 서비스 케이스를 제출하려면 **[!UICONTROL 지원 서비스 케이스 열기]** 옵션을 선택한 다음&#x200B;**에서**[!UICONTROL &#x200B;서명]을 클릭하세요.
+<!--1. To submit a case, select the option **[!UICONTROL Open a support case]**, then click **[!UICONTROL Sign] In**.-->
 
-1. 왼쪽 사이드바에서 **[!UICONTROL 대/소문자 열기]**&#x200B;를 클릭합니다.
-
-<!--
-   ![](assets/left-nav-bar-for-exl-support-portal.png)
--->
-
+1. 왼쪽 사이드바에서 **[!UICONTROL 티켓 열기]**를 클릭합니다.
 제품 이름([!DNL Adobe Workfront], [!DNL Adobe Workfront Fusion] 등), 사례 제목 및 사례 설명을 입력할 수 있는 [!UICONTROL 사례 만들기] 페이지가 열립니다.
 
->[!TIP]
->
->문제 해결 프로세스를 신속하게 완료하는 데 도움이 되도록 직면한 문제를 설명할 때 가능한 한 자세히 설명하십시오.
+   >[!TIP]
+   >
+   >문제 해결 프로세스를 신속하게 완료하는 데 도움이 되도록 직면한 문제를 설명할 때 가능한 한 자세히 설명하십시오.
 
 
 1. 다음 필드에 대한 정보를 입력하여 보다 구체적인 세부 정보를 제공합니다.
@@ -97,9 +92,9 @@ ht-degree: 0%
 
 1. (선택 사항) 사례 보기에서 지정된 사례 소유자와 함께 최신 주석을 검토하고 추가 첨부 파일 또는 응답을 추가합니다.
 
-1. (선택 사항) 서비스 케이스를 에스컬레이션하려면 **[!UICONTROL 서비스 케이스 세부 정보]의 페이지 오른쪽에서 **[!UICONTROL 관리로 에스컬레이션]**&#x200B;을 클릭하세요.
+1. (선택 사항) 서비스 케이스를 에스컬레이션하려면 **[!UICONTROL 서비스 케이스 세부 정보]** 아래의 페이지 오른쪽에서 **[!UICONTROL 관리로 에스컬레이션]**&#x200B;을 클릭하세요.
 
-1. **[!UICONTROL 대/소문자 닫기]** 단추를 클릭하여 대/소문자를 닫습니다.
+1. (선택 사항) 서비스 케이스를 닫으려면 **[!UICONTROL 서비스 케이스 닫기]** 단추를 클릭합니다.
 
 
 <!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)

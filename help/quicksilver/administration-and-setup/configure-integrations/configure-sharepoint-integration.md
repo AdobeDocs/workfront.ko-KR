@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 3c87c88245e79581c2a880c13038bcedb24caf4b
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: '1729'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->새로운 [!DNL SharePoint] 통합은 22.3 릴리스(2022년 7월)를 사용하여 프로덕션에 릴리스되었습니다. 기존 [!DNL SharePoint] 통합을 통해 연결된 문서에 계속 액세스할 수 있지만 SharePoint의 문서를 연결하려면 새 [!DNL SharePoint] 통합을 사용해야 합니다.
+>새로운 [!DNL SharePoint] 통합은 22.3 릴리스(2022년 7월)를 사용하여 프로덕션에 릴리스되었습니다.
+>
+>* 사용자는 이전 [!DNL SharePoint] 통합을 통해 연결된 문서에 계속 액세스할 수 있지만 이를 통해 문서를 연결할 수는 없습니다. SharePoint의 문서를 연결하려면 새 [!DNL SharePoint] 통합을 사용해야 합니다.
+>
+>* 기존 SharePoint 통합이 구성되어 있지 않으면 추가할 수 없습니다. 문서를 SharePoint에 연결하려면 새 SharePoint 통합을 사용해야 합니다.
 >
 >* 새 SharePoint 통합은 관리자가 구성하지 않아도 되며, 개별 사용자가 설정할 수 있습니다. 그러나 새 SharePoint 통합으로 원활하게 전환하려면 Workfront 관리자가 Workfront 설정 영역에서 일부 설정을 변경해야 합니다.
 >
