@@ -9,9 +9,9 @@ description: Adobe Workfront Fusion Adobe Workfront 커넥터를 사용하여 Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
+source-git-commit: 3eb7f8988f441cfa5b353274526450510810b156
 workflow-type: tm+mt
-source-wordcount: '6280'
+source-wordcount: '6518'
 ht-degree: 2%
 
 ---
@@ -744,7 +744,7 @@ ht-degree: 2%
 
 +++ **[!UICONTROL 문서 업로드]**
 
-이 작업 모듈은 프로젝트, 작업 또는 문제와 같은 [!DNL Workfront] 개체에 문서를 업로드합니다.
+이 작업 모듈은 프로젝트, 작업 또는 문제와 같은 [!DNL Workfront] 개체에 문서를 업로드합니다. 이 모듈은 청크로 문서를 업로드하므로 Workfront의 업로드 프로세스가 더 원활해집니다.
 
 문서의 위치, 업로드할 파일 및 파일의 새 이름(선택 사항)을 지정합니다.
 
@@ -767,6 +767,51 @@ ht-degree: 2%
   <tr> 
    <td>[!UICONTROL 관련 레코드 유형]</td> 
    <td>모듈을 통해 문서를 업로드할 [!DNL Workfront] 레코드의 형식을 선택하십시오.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL 폴더 ID]</td> 
+   <td>관련 레코드 유형에 따라 폴더 ID를 입력하거나 매핑해야 할 수 있습니다.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Source 파일]</td> 
+   <td> <p>이전 모듈에서 소스 파일을 선택하거나 소스 파일의 이름과 데이터를 매핑합니다.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+각  [!DNL Workfront] 모듈](#workfront-object-types-available-for-each-workfront-module)에 사용할 수 있는 [[!DNL Workfront] 개체 유형에서 이 모듈을 사용할 수 있는 [!DNL Workfront] 개체 유형 목록을 참조하십시오.
+
++++
+
++++ **[!UICONTROL 문서 업로드(기존)]**
+
+이 작업 모듈은 프로젝트, 작업 또는 문제와 같은 [!DNL Workfront] 개체에 문서를 업로드합니다. 전체 문서를 한 번에 업로드합니다.
+
+문서의 위치, 업로드할 파일 및 파일의 새 이름(선택 사항)을 지정합니다.
+
+모듈은 연결이 액세스하는 사용자 지정 필드 및 값과 함께 문서의 ID 및 관련 필드를 반환합니다. 이 정보는 시나리오의 후속 모듈에 매핑할 수 있습니다.
+
+이 모듈을 구성할 때 다음 필드가 표시됩니다.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+   <td> <p>[!DNL Workfront] 앱을 [!DNL Workfront Fusion]에 연결하는 방법에 대한 지침은 이 문서에서 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">[!DNL Workfront]을(를) [!DNL Workfront Fusion]</a>에 연결 을 참조하십시오.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL 관련 레코드 ID]</td> 
+   <td>문서를 업로드할 레코드의 고유 [!DNL Workfront] ID를 입력하십시오.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL 관련 레코드 유형]</td> 
+   <td>모듈을 통해 문서를 업로드할 [!DNL Workfront] 레코드의 형식을 선택하십시오.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL 폴더 ID]</td> 
+   <td>관련 레코드 유형에 따라 폴더 ID를 입력하거나 매핑해야 할 수 있습니다.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Source 파일]</td> 
