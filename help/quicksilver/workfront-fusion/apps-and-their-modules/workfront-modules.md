@@ -9,9 +9,9 @@ description: Adobe Workfront Fusion Adobe Workfront 커넥터를 사용하여 Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 3eb7f8988f441cfa5b353274526450510810b156
+source-git-commit: 3fde10cfa0428971b289a9de57cf49e24a15a0e8
 workflow-type: tm+mt
-source-wordcount: '6518'
+source-wordcount: '6558'
 ht-degree: 2%
 
 ---
@@ -324,6 +324,10 @@ ht-degree: 2%
 * 문제를 작업으로 전환
 * 작업을 프로젝트로 전환
 
+>[!NOTE]
+>
+>2024년 7월부터 개체를 변환할 때 사용자 정의 양식을 포함할 수 있습니다.
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -603,6 +607,10 @@ ht-degree: 2%
 +++ **[!UICONTROL 기타 동작]**
 
 이 작업 모듈을 사용하면 API에 대해 작업을 수행할 수 있습니다.
+
+>[!NOTE]
+>
+>2024년 7월부터 `convertToProject` 작업에 `copyCategories` 필드가 포함됩니다. `TRUE`(으)로 설정하면 문제가 전환된 프로젝트에 모든 사용자 정의 양식이 포함됩니다.
 
 이 모듈을 구성할 때 다음 필드가 표시됩니다.
 
