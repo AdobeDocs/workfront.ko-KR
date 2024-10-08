@@ -5,9 +5,9 @@ title: 기존 홈에서 새 홈으로 이동
 description: 레거시 홈은 4분기 릴리스를 통해 10월 17일에 Workfront에서 제거됩니다. 이 문서에서는 새 홈에서 사용할 수 있는 기능에 대한 정보와 새 홈 경험으로 사용자를 이동하기 위한 권장 사항을 제공합니다.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 8666870341227f2bdcd08ad77753a28748ed9847
+source-git-commit: 9a71080c732363bf346b18d3bf61353c6c3859f7
 workflow-type: tm+mt
-source-wordcount: '1632'
+source-wordcount: '1641'
 ht-degree: 5%
 
 ---
@@ -271,6 +271,7 @@ Workfront 관리자는 레이아웃 템플릿을 사용하여 새 홈에서 사�
 
 **교육**
 
+* [홈 자습서에서 위젯 제거, 추가 및 다시 정렬](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
 * Adobe Workfront의 [작업자 기본 사항](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)
 
 >[!IMPORTANT]

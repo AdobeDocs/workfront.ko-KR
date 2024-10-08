@@ -4,9 +4,9 @@ description: 2024년 4분기 홈 개선 사항
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0d2bb434b1b52ea175ad912c554b4aa07d5d2f7d
+source-git-commit: 9de54aafb07d5c5858494c51356ae9322e1a0f79
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,10 @@ Priority를 사용하면 다음과 같은 이점을 누릴 수 있습니다
 
 24.10 릴리스를 통해 기존의 홈 환경을 공식적으로 사용하지 않습니다.
 
-이 변경 사항으로 인해 레이아웃 템플릿의 _홈 및 요약_ 영역 이름이 _요약 패널_(으)로 바뀝니다. 이 영역의 사용자 지정은 여전히 새 홈의 요약 패널에 적용됩니다. 자세한 내용은 [레이아웃 템플릿을 사용하여 홈 및 요약 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)을 참조하십시오.
+이 변경 사항으로 인해 레이아웃 템플릿의 다음 영역 이름이 바뀝니다.
+
+* _Home 작업 영역_ 영역의 이름이 _Home_(으)로 바뀝니다.
+* _홈 및 요약_ 영역의 이름이 _요약 패널_(으)로 바뀝니다. 이 영역의 사용자 지정은 여전히 새 홈의 요약 패널에 적용됩니다. 자세한 내용은 [레이아웃 템플릿을 사용하여 홈 및 요약 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)을 참조하십시오.
 
 사용자는 새로운 홈을 사용하는 것이 좋습니다. 홈은 사용이 중단되기 전에 추가 기능을 사용하여 계속 향상될 것입니다. 사용자 및 관리자가 준비할 수 있는 작업에 대한 조언을 포함하여 전환에 대한 자세한 내용은 [기존 홈 사용 중단 안내서](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md)를 참조하십시오.
 

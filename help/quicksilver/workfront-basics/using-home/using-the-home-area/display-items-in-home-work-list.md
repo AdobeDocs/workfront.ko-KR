@@ -6,9 +6,9 @@ description: '[!UICONTROL Home] 영역의 [!UICONTROL 작업 목록]에는 사�
 author: Nolan
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: d614d5cbded1de6fd899a47495a6e058f9eaf3cf
 workflow-type: tm+mt
-source-wordcount: '1837'
+source-wordcount: '1843'
 ht-degree: 0%
 
 ---
@@ -94,6 +94,7 @@ ht-degree: 0%
         <p>시작할 준비가 된 작업만 표시합니다. 다음 문은 모두 true여야 합니다.</p> 
         <ul> 
          <li> <p>과제와 그 부모에게는 작업을 할 수 없는 전임자나 과업 제한이 없다.</p> </li> 
+         <li> <p>모든 전임 작업이 완료되었습니다.</p> </li> 
          <li> <p>작업의 [!UICONTROL 계획된 시작 일자]가 과거 또는 최대 2주 후입니다.</p> </li> 
         </ul> 
        </div> </td> 
