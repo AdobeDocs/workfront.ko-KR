@@ -7,10 +7,10 @@ description: 객체의 업데이트 섹션에는 사용자가 객체에 대해 �
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 5%
+source-wordcount: '1088'
+ht-degree: 4%
 
 ---
 
@@ -75,8 +75,12 @@ ht-degree: 5%
 * 타임시트
 * 팀
 * 목표
-* 보드 영역의 카드
 * 반복
+
+다음 객체에는 주석을 추가하고 시스템 업데이트를 검토할 수 있는 영역이 있습니다.
+
+* 보드에 있는 카드
+* Workfront Planning의 레코드
 
 <!--info for April 11: remove all the information below, all the way down to the following section: -->
 
@@ -120,7 +124,7 @@ Depending on what objects you access the commenting experience for, you might fi
 
 <!--Info for April 11: reword the section title below to: Overview of the Updates section; and remove the preview tags-->
 
-### 업데이트 섹션 개요
+### 업데이트 섹션 탭 개요
 
 ![업데이트 섹션](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
@@ -134,6 +138,10 @@ Depending on what objects you access the commenting experience for, you might fi
      >
      >주석 및 시스템 활동 탭이 실시간으로 업데이트됩니다. 최신 업데이트를 보려면 모두 탭을 새로 고쳐야 합니다.
 
+
+### 다른 오브젝트의 업데이트 영역 간의 유사점과 차이점
+
+다른 객체에 대해 주석과 업데이트가 표시되는 방식에는 차이가 있습니다.
 
 * 다음 오브젝트는 업데이트 섹션의 세 탭 모두에서 비슷한 경험을 제공합니다.
 
@@ -152,10 +160,23 @@ Depending on what objects you access the commenting experience for, you might fi
    * 템플릿 작업
 
 * 다음 개체에는 시스템 활동 탭이나 모두 탭이 없으며, 설명 탭의 경험은 다른 모든 개체의 경험과 다릅니다.
+
    * 반복
-   * 임시 카드
+   * 보드 영역의 임시 카드
 
      카드 업데이트에 대한 자세한 내용은 [보드에 임시 카드 추가](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md)를 참조하십시오.
+
+* 다음 개체에는 시스템 활동 탭이 있고 모두 탭은 없습니다.
+
+   * 보드 영역의 연결된 카드
+
+     자세한 내용은 [보드에 연결된 카드 사용](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)을 참조하세요.
+
+* 다음 객체에는 시스템 활동 탭을 대체하는 내역 탭이 있습니다.
+
+   * Workfront Planning의 레코드
+
+     자세한 내용은 [기록 섹션 개요](/help/quicksilver/planning/records/history-section-overview.md)를 참조하십시오.
 
 * 다음 객체에는 모두 탭이 없고 주석 탭의 경험은 대부분의 객체와 일치합니다.
 

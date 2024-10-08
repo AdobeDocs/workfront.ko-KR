@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 83827c24bd9157d2a4fb151e61c38cd6892a7c86
 workflow-type: tm+mt
-source-wordcount: '1448'
+source-wordcount: '1512'
 ht-degree: 0%
 
 ---
@@ -23,13 +23,11 @@ Adobe Workfront Planning에서 레코드는 레코드 유형의 인스턴스입�
 
 다음 중 하나를 수행하여 레코드를 만들 수 있습니다.
 
-* 테이블 보기의 레코드 유형 페이지에서 레코드 추가
-* 외부 목록에서 레코드 목록 복사 및 붙여넣기
-* 테이블 보기에서 레코드 복제
-* 다른 레코드와 연결할 때 레코드 만들기
-* 요청 양식을 레코드 유형으로 제출하여 만듭니다.
-
-이 문서에서는 레코드를 만드는 방법을 설명합니다.
+* [테이블 보기의 레코드 유형 페이지에서 레코드 추가](#create-records-by-adding-them-to-a-record-type-in-a-record-type-table)
+* [외부 목록에서 레코드 목록 복사 및 붙여넣기](#create-records-by-copying-and-pasting-them-from-an-external-list)
+* [테이블 보기에서 레코드 복제](#create-records-by-duplicating-them)
+* [다른 레코드와 연결할 때 레코드 만들기](#create-records-as-you-connect-them)
+* [요청 양식을 레코드 유형으로 제출하여 만듭니다.](#create-records-by-submitting-a-request-form-to-a-record-type)
 
 테이블 또는 타임라인 보기에서 레코드 관리에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
@@ -106,62 +104,6 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 </table>
 
 *Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서의 [액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
-
-<!--OLD info: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>New: Standard</p>
-   <p>Current: Plan</p>  
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configurations</p></td>
-   <td> <p>There are no access controls for Adobe Workfront Planning </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Contribute or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-
- </tbody>
-</table>
-
-*For more information, see [Access requirements for Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
 +++
 
@@ -305,6 +247,15 @@ You can import records from other applications by linking them to existing recor
    ![](assets/add-button-to-create-records-in-context-highlighted.png)
 
    레코드가 생성되고 연결된 레코드 필드에 추가됩니다.
+
+   >[!IMPORTANT]
+   >
+   >* 레코드에서 프로젝트 및 포트폴리오를 연결할 때 Workfront에서 프로젝트 및 포트폴리오만 만들 수 있습니다.
+   >
+   >* Workfront Planning의 레코드에서 프로그램, 그룹 또는 회사를 연결할 때 만들 수 없습니다.
+   >
+   >* 레코드에서 프로젝트를 연결하여 만들 때는 템플릿에서 프로젝트를 만들 수 없습니다. 작업 및 프로젝트 정보 또는 템플릿을 레코드에 추가한 후 수동으로 새 프로젝트에 추가해야 합니다.
+
 1. (선택 사항) 레코드를 생성한 레코드 유형의 테이블 뷰로 이동합니다. 새 레코드가 보기의 마지막 행에 표시됩니다.
 1. (선택 사항) 테이블 보기에서 새 레코드에 대한 정보 추가를 시작합니다
 또는

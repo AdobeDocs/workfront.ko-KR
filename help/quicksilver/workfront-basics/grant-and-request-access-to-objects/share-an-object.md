@@ -6,9 +6,9 @@ description: Adobe Workfront 관리자는 사용자가 액세스 수준을 할�
 author: Alina, Nolan
 feature: Get Started with Workfront
 exl-id: 27a1beb9-e83a-4ef6-bf5f-ad52575a993c
-source-git-commit: 310935c7ad1cc97a7d26fc2ff40d2d68d192bb39
+source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
 workflow-type: tm+mt
-source-wordcount: '1954'
+source-wordcount: '1971'
 ht-degree: 0%
 
 ---
@@ -51,11 +51,22 @@ Workfront의 다른 모든 개체를 공유하는 방법에 대한 자세한 내
 * 문서 폴더의 경우 [문서 폴더 공유](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md)를 참조하십시오.
 * 플랜에 대해서는 [시나리오 플래너에서 플랜 공유](../../scenario-planner/share-a-plan.md)를 참조하십시오.
 
-  이를 위해서는 추가 라이센스가 필요합니다.
+  Workfront Scenario Planner에 추가 라이센스가 필요할 수 있습니다.
 
-* 목표에 대해서는 [Workfront 목표에서 목표 공유](../../workfront-goals/workfront-goals-settings/share-a-goal.md)를 참조하십시오. 이를 위해서는 추가 라이센스가 필요합니다.
+* 목표에 대해서는 [Workfront 목표에서 목표 공유](../../workfront-goals/workfront-goals-settings/share-a-goal.md)를 참조하십시오.
+
+  Workfront 목표에는 추가 라이선스가 필요할 수 있습니다.
+
+* Workfront Planning 객체의 경우 다음 문서를 참조하십시오.
+
+   * [보기 공유](/help/quicksilver/planning/access/share-views.md)
+   * [작업 공간 공유](/help/quicksilver/planning/access/share-workspaces.md)
+
+  Workfront Planning 액세스에는 추가 라이센스가 필요합니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 객체를 공유하려면 다음 항목이 있어야 합니다.
 
@@ -85,7 +96,9 @@ Workfront의 다른 모든 개체를 공유하는 방법에 대한 자세한 내
  </tbody> 
 </table>
 
-*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오. 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 해당 페이지에서 프로젝트, 작업 또는 문제 공유
 
@@ -176,7 +189,7 @@ Workfront의 다른 모든 개체를 공유하는 방법에 대한 자세한 내
 
    개체 이름 옆에 있는 **공유** 단추를 클릭합니다.
 
-   ![](assets/new-share-button.png)
+   ![](assets/new-share-button-on-portfolio.png)
 
    또는
 
@@ -186,20 +199,15 @@ Workfront의 다른 모든 개체를 공유하는 방법에 대한 자세한 내
 
    ![](assets/share-a-document-350x160.png)
 
-1. **개체 이름 &lt; 액세스 권한 부여** 상자에서 개체를 공유할 사용자, 팀, 역할, 그룹 또는 회사의 이름을 입력한 다음 드롭다운 목록에 표시될 때 해당 이름을 클릭합니다.
+1. **다음 &lt; 개체 이름 > 액세스 권한 부여** 필드에서 개체를 공유할 사용자, 팀, 역할, 그룹 또는 회사의 이름을 입력한 다음 드롭다운 목록에 표시될 때 해당 이름을 클릭합니다.
 
-   ![](assets/list-share-add-people.png){width="350"}
-
-   >[!TIP]
-   >
-   >활성 사용자, 팀, 역할 또는 회사와만 객체를 공유할 수 있습니다.
-
-
+   ![](assets/portfolio-access-box.png)
 
    >[!TIP]
    >
-   >이름이 비슷한 여러 엔티티가 있는 경우 해당 유형 아래에 모두 나열됩니다. 엔티티의 이름은 알파벳순으로 나타납니다. 그러나 엔티티 유형이 나타나는 순서는 임의입니다.
+   >* 이름이 비슷한 여러 엔티티가 있는 경우 해당 유형 아래에 모두 나열됩니다. 엔티티의 이름은 알파벳순으로 나타납니다. 그러나 엔티티 유형이 나타나는 순서는 임의입니다.
    >
+   >* 활성 사용자, 팀, 역할 또는 회사와만 객체를 공유할 수 있습니다.
 
 1. (선택 사항) 객체에 대한 액세스 권한을 부여할 각 사용자, 팀, 역할 또는 그룹에 대해 3단계를 반복합니다.
 
@@ -216,14 +224,12 @@ Workfront의 다른 모든 개체를 공유하는 방법에 대한 자세한 내
      >
      >Workfront 관리자 또는 개체 작성자는 이러한 엔티티에서 권한을 제거할 수 있습니다.
 
-     ![](assets/screen-shot-2013-12-04-at-1.13.11-pm.png)
+     ![](assets/view-manage-sharing-options-for-portfolio-or-document.png)
 
 1. (선택 사항) 개체에 대한 특정 권한을 구성하려면 **고급 설정**&#x200B;을 클릭합니다.
 
-   보기, 관리 및 Contribute에는 선택한 개체에 따라 다른 고급 옵션이 있습니다.\
+   보기 및 관리 권한에는 선택한 객체에 따라 다른 고급 옵션이 있습니다.\
    권한 수준에 대한 자세한 내용은 [개체에 대한 공유 권한 개요](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)를 참조하십시오.
-
-   ![](assets/screen-shot-2013-12-04-at-1.14.11-pm.png)
 
 1. (선택 사항) 시스템의 모든 사용자가 이 개체를 사용할 수 있도록 하려면 **톱니바퀴** 아이콘 ![](assets/gear-icon-settings-with-dn-arrow.jpg)을(를) 클릭한 다음, 드롭다운 메뉴에서 **시스템 전체에 표시**&#x200B;를 클릭합니다.
 
@@ -255,19 +261,20 @@ Workfront의 다른 모든 개체를 공유하는 방법에 대한 자세한 내
 
 1. 공유할 개체 옆의 확인란을 클릭한 다음 페이지 상단의 **공유 아이콘** ![](assets/share-icon.png)을(를) 클릭합니다.
 
+   **&lt; 개체 > 액세스** 상자가 열립니다.
+
    ![](assets/list-share-object-select.png){width="350"}
 
-1. **&lt; 개체 > 액세스** 창이 나타나면 **편집 &lt; 개체 이름 > 액세스 대상** 상자에 개체를 공유할 사용자, 팀, 역할, 그룹 또는 회사의 이름을 입력한 다음 드롭다운 목록에 나타나면 이름을 클릭합니다.
+1. **편집 &lt; 개체 이름 > 액세스 대상** 상자에서 개체를 공유할 사용자, 팀, 역할, 그룹 또는 회사의 이름을 입력한 다음 드롭다운 목록에 표시될 때 이름을 클릭합니다.
 
    ![](assets/list-share-add-people.png){width="350"}
 
    >[!TIP]
    >
-   >활성 사용자, 팀, 역할 또는 회사와만 객체를 공유할 수 있습니다.
-
-   >[!TIP]
+   >* 활성 사용자, 팀, 역할 또는 회사와만 객체를 공유할 수 있습니다.
    >
-   >이름이 비슷한 여러 엔티티가 있는 경우 해당 유형 아래에 모두 나열됩니다. 엔티티의 이름은 알파벳순으로 나타납니다. 그러나 엔티티 유형이 나타나는 순서는 임의입니다.
+   >
+   >* 이름이 비슷한 여러 엔티티가 있는 경우 해당 유형 아래에 모두 나열됩니다. 엔티티의 이름은 알파벳순으로 나타납니다. 그러나 엔티티 유형이 나타나는 순서는 임의입니다.
    >
 
 1. (선택 사항) 객체에 대한 액세스 권한을 부여할 각 사용자, 팀, 역할 또는 그룹에 대해 3단계를 반복합니다.

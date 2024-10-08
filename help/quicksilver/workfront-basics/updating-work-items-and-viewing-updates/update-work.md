@@ -6,9 +6,9 @@ description: Adobe Workfront 개체(프로젝트, 작업 또는 문제)에 업�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
 workflow-type: tm+mt
-source-wordcount: '3037'
+source-wordcount: '3075'
 ht-degree: 0%
 
 ---
@@ -51,11 +51,15 @@ ht-degree: 0%
 ><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. </span>
 -->
 
-Adobe Workfront 개체에 대한 업데이트를 추가하여 해당 개체의 진행 상황에 대해 다른 사용자와 통신할 수 있습니다. Workfront에서 업데이트를 추가할 수 있는 개체에 대한 자세한 내용은 [업데이트 섹션 개요](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)를 참조하십시오.
+다른 사용자에게 오브젝트의 상태 또는 진행 상황을 알리거나 추가 정보 또는 추가 리소스를 요청하기 위해 주석을 추가하여 Adobe Workfront 오브젝트에 업데이트를 추가할 수 있습니다.
 
-이 문서의 정보는 프로젝트, 작업 및 문제에 대한 정보를 댓글로 달거나 업데이트하는 방법에 대해 설명합니다. 개체를 할당받거나 구독 중인 사용자는 업데이트를 볼 수 있습니다. 사용자에 태그를 지정하여 업데이트에 주의를 기울일 수도 있습니다.
+Workfront에서 업데이트를 추가할 수 있는 개체에 대한 자세한 내용은 [업데이트 섹션 개요](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)를 참조하십시오.
 
-다른 오브젝트에 설명을 추가하는 것은 프로젝트, 작업 및 문제를 업데이트하는 것과 비슷합니다. 카드 및 목표에 대한 추가 정보는 다음 문서를 참조하십시오.
+이 문서의 정보에서는 프로젝트, 작업 및 문제에 대해 댓글을 작성하는 방법에 대해 설명합니다. 오브젝트에 할당되거나 가입한 사용자는 업데이트를 볼 수 있습니다. 사용자에 태그를 지정하여 업데이트에 주의를 기울일 수도 있습니다.
+
+다른 Workfront 오브젝트에 주석을 추가하는 것은 프로젝트, 작업 및 문제를 업데이트하는 것과 비슷합니다.
+
+Workfront Planning의 카드, 목표 및 레코드에 대한 댓글에 대한 추가 정보는 다음 문서를 참조하십시오.
 
 * [Adobe Workfront 목표의 목표 댓글을 관리합니다](../../workfront-goals/goal-management/manage-goal-comments.md).
 
@@ -65,7 +69,7 @@ Adobe Workfront 개체에 대한 업데이트를 추가하여 해당 개체의 �
 
 * [보드에서 연결된 카드 사용](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)
 
-<!--Add a bullet for record comments when Planning is in GA: help/quicksilver/planning/records/manage-record-comments.md-->
+* [레코드 주석 관리](/help/quicksilver/planning/records/manage-record-comments.md)
 
 ## 액세스 요구 사항
 
@@ -84,7 +88,7 @@ Adobe Workfront 개체에 대한 업데이트를 추가하여 해당 개체의 �
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront 라이선스</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront 라이센스*</strong></td> 
    <td> 
    <p>현재: 문제 및 문서에 대해 요청 이상, 다른 모든 객체에 대해 검토 이상</p>
    <p>새로운 기능: 문제 및 문서에 대한 기여자 이상: 기타 모든 오브젝트에 대해 라이트 이상</p> 
@@ -101,11 +105,11 @@ Adobe Workfront 개체에 대한 업데이트를 추가하여 해당 개체의 �
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
-## 작업 업데이트에 대한 고려 사항
+## 개체에 댓글을 달 때 고려 사항
 
 * 업데이트 섹션에서 Adobe Workfront의 대부분의 오브젝트에 주석을 추가할 수 있습니다. 업데이트 섹션을 표시하는 개체에 대한 자세한 내용은 [업데이트 섹션 개요](../updating-work-items-and-viewing-updates/updates-tab-overview.md)를 참조하십시오.
 
@@ -234,23 +238,13 @@ You can add updates to the following objects:
 
 <!--info for April 11: reword the title of this section to: "Add an update to a work item"; take out the step that says you need to enable the "New commenting" toggle (I think it is step 3??)-->
 
-## 작업 항목에 업데이트 추가
+## 작업 항목에 주석 추가
 
 이 문서에서는 프로젝트, 작업 또는 문제를 업데이트하는 방법에 대해 설명합니다. 대부분의 다른 객체를 업데이트하는 것도 유사합니다.
 
-1. 업데이트할 개체를 찾은 다음 개체 이름을 클릭하여 개체의 페이지를 엽니다.
+1. 주석을 추가할 개체를 찾은 다음 해당 이름을 클릭하여 개체 페이지를 엽니다.
 1. 왼쪽 패널에서 **업데이트**를 클릭합니다.
 기본적으로 **댓글** 탭이 선택되어 있습니다.
-
-   <!--
-   1. (Conditional) If the **New commenting** option is disabled, click to enable it. 
-
-      This enables the new commenting experience. 
-
-         >[!TIP]
-         >
-         ><span class="preview">The New commenting option has been removed in the Preview environment.</span>
-   -->
 
 1. **새 댓글** 상자에 댓글을 입력하세요.
 
@@ -329,12 +323,12 @@ You can add updates to the following objects:
    >
    >모든 탭에서 기존 댓글에 댓글에 답글을 달거나 다른 사용자를 태그 지정할 수 없습니다. 모두 탭에서 댓글에 회신하려면 **댓글에 회신**&#x200B;을 클릭하여 댓글 탭에서 댓글을 엽니다.
 
-## Workfront 업데이트에서 리치 텍스트 사용{#use-rich-text-in-a-workfront-update}
+## Workfront 주석에서 서식 있는 텍스트 사용{#use-rich-text-in-a-workfront-comment}
 
-리치 텍스트를 사용하거나 이모지, 링크 또는 이미지와 같은 다양한 항목을 추가하여 업데이트를 향상시킬 수 있습니다.
+리치 텍스트를 사용하거나 이모지, 링크 또는 이미지와 같은 다양한 항목을 추가하여 설명을 향상시킬 수 있습니다.
 
-1. Workfront 개체의 **업데이트** 영역으로 이동하여 댓글을 입력하세요.
-1. (선택 사항) 업데이트에 서식 있는 텍스트 서식을 추가하려면 입력할 때 **서식 있는 텍스트** 도구 모음의 특성을 사용합니다.
+1. Workfront 개체의 **업데이트** 영역으로 이동하여 **댓글** 탭을 열고 댓글을 입력하세요.
+1. (선택 사항) 설명에 서식 있는 텍스트 서식을 추가하려면 **서식 있는 텍스트** 도구 모음의 특성을 입력하세요.
 
    ![](assets/rich-text-toolbar.png)
 
@@ -444,19 +438,17 @@ You can add updates to the following objects:
 
 <!-- when we release search to production, check above and make sure you don't have to add that the users tagged/ owners are also searchable-->
 
-## 업데이트 복사
+## 주석 복사
 
-업데이트를 복사할 수 있는 방법에는 여러 가지가 있습니다.
+주석을 복사할 수 있는 방법에는 몇 가지가 있습니다.
 
-업데이트에 대한 링크를 복사하거나 업데이트 콘텐츠를 복사하여 새 업데이트에서 사용할 수 있습니다.
+댓글에 대한 링크를 복사하거나, 댓글의 콘텐츠를 복사하여 새 업데이트에 사용할 수 있습니다.
 
 <!--Copying an update differs depending on which commenting experience you use.-->
 
 <!--info for April 11: take the sentence above out and reword the section title below to: Copy an update-->
 
-### 업데이트 <!--in the new commenting experience--> 복사
-
-<!--For information about what features are available for the new commenting experience and for what objects, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).-->
+### 댓글 복사
 
 다음 중 하나를 수행하여 기존 주석에서 정보를 복사할 수 있습니다.
 
@@ -466,11 +458,11 @@ You can add updates to the following objects:
 
 ![](assets/copy-comment-ways-from-more-menu-on-comment.png)
 
-#### 링크 복사
+#### 댓글에 링크 복사
 
 링크 복사 옵션은 댓글 또는 스레드 링크를 클립보드에 복사하여 다른 사용자와 댓글 또는 전체 스레드를 공유할 수 있습니다.
 
-1. 링크를 복사할 업데이트로 이동합니다.
+1. 링크를 복사할 주석으로 이동합니다.
 
 1. **자세히** 메뉴를 클릭한 다음 **링크 복사**&#x200B;를 클릭합니다.
 
@@ -484,16 +476,16 @@ You can add updates to the following objects:
 
 #### 본문 복사
 
-본문 텍스트 복사 옵션은 특정 업데이트의 텍스트를 클립보드로 복사합니다.
+본문 텍스트 복사 옵션은 특정 주석의 텍스트를 클립보드로 복사합니다.
 
-1. 복사하려는 업데이트 또는 회신으로 이동합니다.
+1. 복사할 댓글 또는 답장으로 이동합니다.
 1. **자세히** 메뉴를 클릭한 다음 **본문 복사**&#x200B;를 클릭합니다.
 
 #### 견적 회신
 
 견적 회신 옵션은 원래 댓글을 새 회신에 블록 견적으로 복사합니다.
 
-1. 복사하려는 업데이트 또는 회신으로 이동합니다.
+1. 복사할 댓글 또는 답장으로 이동합니다.
 1. **자세히** 메뉴를 클릭한 다음 **회신 견적**&#x200B;을 클릭합니다.
 
    새 댓글 상자가 열리고 인용된 회신이 새 댓글에 포함되어 블록 인용으로 표시됩니다.
@@ -563,14 +555,16 @@ The Quote Reply option copies the original comment to a new reply as a block quo
 1. Continue adding your update and click **Reply** to add the comment.
 -->
 
-## 업데이트 또는 답글 삭제
+## 댓글 또는 답글 삭제
 
-Workfront 관리자가 제공하는 액세스 권한에 따라, 오브젝트의 업데이트 탭에서 추가한 업데이트를 삭제할 수 있습니다. 자세한 내용은 문서 [사용자 지정 액세스 수준 만들기 또는 수정](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)에서 [사용자 지정 액세스 수준 만들기 또는 수정](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch)을 참조하십시오.
+Workfront 관리자가 제공하는 액세스 권한에 따라, 오브젝트의 업데이트 섹션에서 추가한 주석을 삭제할 수 있습니다.
+
+자세한 내용은 문서 [사용자 지정 액세스 수준 만들기 또는 수정](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)에서 [사용자 지정 액세스 수준 만들기 또는 수정](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch)을 참조하십시오.
 
 Workfront 사용자(Workfront 관리자 포함)는 다른 사용자가 업데이트한 내용을 삭제할 수 없습니다. 그러나 사용자의 액세스 수준에서 자체 업데이트를 삭제할 수 있는 경우 Workfront 관리자가 해당 사용자로 로그인하여 수행한 업데이트를 삭제할 수 있습니다. 자세한 내용은 [사용자 지정 액세스 수준 만들기 또는 수정](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) 및 [다른 사용자로 로그인](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md)을 참조하십시오.
 
-1. 삭제할 업데이트 또는 회신으로 이동합니다.
-1. 삭제하려는 업데이트 또는 답글 옆에 있는 **자세히** 메뉴를 클릭한 다음 **삭제**&#x200B;를 클릭합니다.
+1. 삭제하려는 댓글 또는 답장으로 이동합니다.
+1. 삭제하려는 댓글 또는 답글 옆에 있는 **기타** 메뉴를 클릭한 다음 **삭제**&#x200B;를 클릭합니다.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -608,7 +602,7 @@ Workfront 객체의 업데이트 섹션에는 두 가지 유형의 정보가 표
    * 템플릿 작업
    * 임시 카드
 
-업데이트 섹션의 시스템 업데이트에 대한 자세한 내용은 [업데이트 섹션 개요](../updating-work-items-and-viewing-updates/updates-tab-overview.md)를 참조하십시오.
+사용자 및 시스템 업데이트와 Workfront 개체의 업데이트 섹션에 표시되는 방법에 대한 자세한 내용은 [업데이트 섹션 개요](../updating-work-items-and-viewing-updates/updates-tab-overview.md)를 참조하십시오.
 
 
 <!--
