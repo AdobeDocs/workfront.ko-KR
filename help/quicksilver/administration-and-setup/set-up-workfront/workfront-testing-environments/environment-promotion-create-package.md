@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: 2801c18cebbc7e1338c29652bc87303029a2e289
+source-git-commit: 2e4bcd6400971104e9138fab0faf20d33af32e51
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '726'
 ht-degree: 0%
 
 ---
@@ -91,14 +91,17 @@ ht-degree: 0%
 
 ## 기존 패키지 편집 또는 결합
 
-1. 패키지를 생성할 환경으로 이동합니다. **from**&#x200B;에서 개체를 복사하는 환경입니다.
+패키지를 편집하려면 `DRAFT` 상태여야 합니다.
+
+1. 패키지를 편집할 환경으로 이동합니다. 원래 패키지가 생성된 환경입니다.
 1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **[!UICONTROL 설정]** ![설정 아이콘](/help/_includes/assets/gear-icon-setup.png)을 클릭합니다.
 1. 왼쪽 탐색에서 **시스템**&#x200B;을 선택한 다음 **환경 홍보**&#x200B;를 선택합니다.
 1. 표시된 목록에서 패키지를 선택합니다.
 1. (조건부) 비활성화된 패키지를 보려면 **중단된 패키지 표시** 옵션을 활성화하십시오.
 1. (선택 사항) 모든 개체와 하위 개체를 포함한 내용을 보려면 **내용** 섹션에서 개체 형식 옆에 있는 드롭다운 화살표를 클릭합니다.
 1. (선택 사항) 이 패키지의 이전 설치 및 설치 시도를 보려면 **배포**&#x200B;를 클릭하십시오.
-1. (선택 사항) 패키지를 편집하려면 화면 오른쪽 상단의 **패키지 편집**&#x200B;을 클릭합니다.
+1. (선택 사항) 패키지를 편집하려면 화면 오른쪽 상단의 **패키지 편집**을 클릭합니다.
+패키지를 편집하려면 `DRAFT` 상태여야 합니다. 패키지를 `DRAFT` 상태로 이동하려면 **상태** 필드에서 `Draft`을(를) 선택합니다. 그런 다음 패키지 편집을 계속할 수 있습니다.
 1. 패키지를 설치하려면 화면 오른쪽 상단의 **설치**&#x200B;를 클릭합니다.
 
    패키지 설치에 대한 지침은 [환경 프로모션 패키지 설치](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)를 참조하십시오.
