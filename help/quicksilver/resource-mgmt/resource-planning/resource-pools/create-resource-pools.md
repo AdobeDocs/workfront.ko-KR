@@ -6,14 +6,19 @@ description: 리소스 풀은 Adobe Workfront에서 리소스를 보다 쉽게 �
 author: Lisa
 feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: 2f5e0b8ba4ec4f32ae0457a6a901a43d03389773
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '606'
 ht-degree: 2%
 
 ---
 
-# 리소스 풀 만들기
+# 리소스 풀 만들기 {#create-resource-pools}
+
+>[!CONTEXTUALHELP]
+>id="wf_resource_pools"
+>title="리소스 풀"
+>abstract="리소스 풀은 프로젝트 완료에 동시에 필요한 사용자 컬렉션입니다. 리소스 풀을 만든 후 프로젝트 및 템플릿과 연결할 수 있습니다."
 
 {{preview-and-fast-release-Q424}}
 
