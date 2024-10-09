@@ -9,9 +9,9 @@ description: Adobe Workfront Fusion Adobe Workfront 커넥터를 사용하여 Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 3fde10cfa0428971b289a9de57cf49e24a15a0e8
+source-git-commit: 38b6fef43157f47c93dcd9cf543f1001142d86dd
 workflow-type: tm+mt
-source-wordcount: '6558'
+source-wordcount: '6621'
 ht-degree: 2%
 
 ---
@@ -138,6 +138,9 @@ ht-degree: 2%
 >   SSO에 대한 자세한 내용은 [Single Sign-On 개요 [!DNL Adobe Workfront]](../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)를 참조하십시오.
 >   
 >* [!DNL Workfront] API에 대한 OAuth 2.0 연결이 더 이상 API 키를 사용하지 않습니다.
+>* Workfront 샌드박스 환경에 대한 연결을 만들려면 해당 환경에서 OAuth2 애플리케이션을 만든 다음 해당 애플리케이션에서 생성된 클라이언트 ID 및 클라이언트 암호를 연결에서 사용해야 합니다.
+>
+>   Workfront에서 OAuth2 애플리케이션을 만드는 방법에 대한 지침은 Workfront 통합을 위한 OAuth2 애플리케이션 만들기 문서의 [사용자 자격 증명을 사용하여 OAuth2 애플리케이션 만들기(인증 코드 흐름)](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-application-using-user-credentials-authorization-code-flow)를 참조하십시오.
 
 ## [!DNL Workfront]개 모듈 및 해당 필드
 
