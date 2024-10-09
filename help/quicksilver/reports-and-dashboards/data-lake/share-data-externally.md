@@ -2,15 +2,14 @@
 content-type: overview;reference
 product-area: reports and dashboards
 navigation-topic: data connect
-title: Workfront 데이터 레이크에 대한 연결 설정
-description: Workfront 데이터 레이크를 사용하면 많이 사용되는 비즈니스 인텔리전스 도구를 사용하여 조직의 Workfront 데이터를 사용하거나 외부 데이터 웨어하우스에 저장할 수 있습니다.
+title: Workfront Data Connect에 연결 설정
+description: Workfront Data Connect를 사용하면 비즈니스 인텔리전스 도구를 통해 조직의 Workfront 데이터를 사용하거나 외부 데이터 웨어하우스에 저장할 수 있습니다.
 author: Nolan
 feature: Reports and Dashboards
-recommendations: noDisplay, noCatalog
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '591'
 ht-degree: 1%
 
 ---
@@ -103,16 +102,16 @@ Data Connect 데이터 레이크를 외부 제품과 연결하려면 먼저 아�
 
 ## 비즈니스 인텔리전스 도구를 사용하여 데이터 공유
 
-여러 가지 일반적인 비즈니스 인텔리전스 도구가 아래에 나와 있습니다. 링크를 클릭하면 서비스 설명서 사이트로 이동하여 데이터 레이크 연결에 대해 자세히 알아봅니다.
+다음은 여러 일반적인 비즈니스 인텔리전스 도구입니다. 데이터 레이크에 연결하는 방법에 대해 자세히 알아보려면 설명서 사이트를 방문하십시오.
 
-* [타블로](https://help.tableau.com/current/pro/desktop/en-us/basicconnectoverview.htm)
-* [Power BI](https://learn.microsoft.com/power-query/connectors/snowflake)
-* [Domo](https://www.domo.com/appstore/connector/snowflake-connector/overview)
+* 타블로
+* Power BI
+* 도모
 * SAP HANA
 
 ## 외부 데이터 웨어하우스에 데이터 저장
 
-아래에 여러 개의 공통 데이터 웨어하우스가 나와 있습니다. 링크를 클릭하면 데이터 레이크 연결에 대해 자세히 알아볼 수 있는 각 서비스의 설명서 사이트로 이동합니다.
+아래에 여러 개의 공통 데이터 웨어하우스가 나와 있습니다. 데이터 레이크 연결에 대한 자세한 내용은 해당 문서 사이트를 참조하십시오.
 
-* [데이터 블록](https://docs.databricks.com/en/connect/index.html)
-* [AWS Redshift](https://docs.aws.amazon.com/redshift/latest/gsg/federated-query.html)
+* 데이터 블록
+* AWS Redshift

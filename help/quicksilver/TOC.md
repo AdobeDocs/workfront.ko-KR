@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법을 알아보십시오.
 role: User
 feature-set: Workfront
-source-git-commit: 1944c21c8234755ac5bc1c6caaed10b817ef409e
+source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
 workflow-type: tm+mt
-source-wordcount: '14476'
+source-wordcount: '14482'
 ht-degree: 2%
 
 ---
@@ -1758,6 +1758,7 @@ ht-degree: 2%
       * [Workfront Data Connect에 연결 설정](reports-and-dashboards/data-lake/share-data-externally.md)
       * [Workfront Data Connect 데이터 사전](reports-and-dashboards/data-lake/data-dictionary.md)
       * [Workfront Data Connect 쿼리 예제](reports-and-dashboards/data-lake/basic-query-examples.md)
+      * [Workfront Data Connect 사용 지표 보기](reports-and-dashboards/data-lake/view-usage-metrics.md)
 * 리소스 관리 {#manage-resources}
    * [리소스 관리](resource-mgmt/manage-resources.md)
    * 리소스 관리 {#resource-management}

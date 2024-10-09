@@ -6,9 +6,8 @@ title: Snowflake을 위한 리더(서비스) 계정 만들기
 description: Data Connect 데이터에 액세스하려면 먼저 Snowflake 판독기 계정을 만들어야 합니다.
 author: Nolan
 feature: Reports and Dashboards
-recommendations: noDisplay, noCatalog
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
+source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 0%

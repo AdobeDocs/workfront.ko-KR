@@ -6,9 +6,8 @@ title: Workfront Data Connect 데이터 사전
 description: 이 페이지에는 Workfront Data Connect의 데이터 구조 및 내용에 대한 정보가 포함되어 있습니다.
 author: Nolan
 feature: Reports and Dashboards
-recommendations: noDisplay, noCatalog
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
+source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
 workflow-type: tm+mt
 source-wordcount: '4294'
 ht-degree: 4%
@@ -181,7 +180,7 @@ Workfront의 개체(및 따라서 Data Connect 데이터 레이크)는 개별 �
         <td>자체<br>사용자_현재 | USERID<br>USERS_CURRENT | USERID<br>비인적 자원 범주 테이블은 현재 지원되지 않음<br>NONLABORRESOURCES_CURRENT | NONLABORRESOURCEID<br>OBJOBJCODE 필드에서 식별된 개체의 ID<br>PROJECTS_CURRENT | PROJECTID <br>관계가 아님, 내부 응용 프로그램 용도로 사용됨<br>TASKS_CURRENT | TASKID     <br>TEMPLATES_CURRENT | TEMPLATEID<br>TEMPLATETASKS_CURRENT | TEMPLATETASKID<br>TOPOBJCODE 필드에서 식별된 개체의 ID입니다</td>
     </tr>
     <tr>
-        <td>카테고리</td>
+        <td>범주</td>
         <td>사용자 정의 양식</td>
         <td>CTGY | 범주</td>
         <td>CATEGORIES_CURRENT<br>CATEGORIES_DAILY_HISTORY<br>CATEGORIES_EVENT</td>

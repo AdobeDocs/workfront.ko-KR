@@ -1,7 +1,7 @@
 ---
-source-git-commit: 385dbe63d0db9b13692fb6f5c78ed56bd0d823c4
+source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
 workflow-type: tm+mt
-source-wordcount: '2550'
+source-wordcount: '2586'
 ht-degree: 1%
 
 ---
@@ -154,6 +154,10 @@ Workfront 프로젝트에 있는 동안 사용자가 Experience Manager에 연�
 >* 조직 설명을 위해 사용자 지정된 이미지로 대체합니다. 이 경우 아이콘은 이 문서에 표시된 것과 다르게 표시됩니다.
 >* 연결된 페이지를 다른 페이지로 바꿉니다. 이 경우 페이지의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** ![주 메뉴](/help/_includes/assets/main-menu-icon.png)를 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을 클릭합니다.
 >
+
+## 1단계 - 우선 순위 만들기 - {#step1-to-priorities}
+
+1. Adobe Workfront의 오른쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon.png)을 클릭하거나(가능한 경우) 왼쪽 상단에 있는 **[!UICONTROL 주 메뉴]** 아이콘 ![주 메뉴](/help/_includes/assets/main-menu-icon-left-nav.png)을 클릭한 다음 **[!UICONTROL 우선 순위]**&#x200B;를 클릭합니다.
 
 <!-- Integrations -->
 
