@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] 용어집에는  [!DNL Adobe Workfront]. Y
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
+source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
 workflow-type: tm+mt
-source-wordcount: '20384'
+source-wordcount: '20938'
 ht-degree: 0%
 
 ---
@@ -629,8 +629,37 @@ ht-degree: 0%
   <tr> 
    <td>[!UICONTROL 상태 업데이트]</td> 
    <td> <p>이 필드에는 작업, 프로젝트 또는 문제의 현재 상태가 표시됩니다. 이 옵션은 작업, 프로젝트 또는 문제의 소유자가 [!UICONTROL 업데이트 상태] 필드에 제공한 최신 업데이트와 새 조건을 표시합니다.</p> <p>조건 업데이트에 대한 설명은 [!UICONTROL 조건 업데이트] 열에 표시되지 않고 기본 업데이트만 표시됩니다.</p> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL 연결된 레코드 유형]</td> 
+   <td> <p>Workfront Planning에서 다음 중 하나를 연결할 수 있습니다. </p>
+   <ul>
+   <li>두 가지 레코드 유형</li>
+   <li>레코드 유형 및 Workfront 개체 유형</li>
+   <li>레코드 유형 및 Adobe Experience Manager 에셋</li></ul>
+   <p>레코드 유형을 연결하면 한 레코드 또는 개체 유형의 정보를 다른 레코드 유형에 표시할 수 있습니다.</p>
+   <p>자세한 내용은 <a href="/help/quicksilver/planning/architecture/connect-record-types-overview.md">연결된 레코드 종류 개요</a>를 참조하세요.  </p>
+  <p>Workfront Planning에는 추가 라이센스가 필요합니다. </p>
+ </td> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL 연결된 레코드]</td> 
+   <td> <p>Workfront Planning에서 두 가지 레코드 유형을 연결한 후 해당 유형의 두 개별 레코드를 서로 연결할 수 있습니다.  </p>
+   <p>레코드를 연결하면 한 레코드나 다른 응용 프로그램의 개체 정보를 다른 레코드에 표시할 수 있습니다.</p>
+   <p>자세한 내용은 <a href="/help/quicksilver/planning/records/connected-records-overview.md">연결된 레코드 개요</a>를 참조하십시오. </p>
+
+<p>Workfront Planning에는 추가 라이센스가 필요합니다. </p>
+ </td> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL 연결]</td> 
+   <td> <p>Workfront Planning에서 연결은 연결된 레코드 유형 또는 연결된 레코드를 의미할 수 있습니다. Workfront Planning에는 추가 라이센스가 필요합니다.</p> </td> 
+  </tr>
+
+<tr> 
    <td>[!UICONTROL 제약 조건 날짜]</td> 
    <td> <p>[!UICONTROL Must Start On]과 같이 특정 날짜에 연결된 [!UICONTROL Task Constraint]를 사용하는 경우 해당 특정 날짜가 작업의 [!UICONTROL Constraint Date]가 됩니다.</p> <p>다음 작업 제약 조건은 [!UICONTROL 제약 조건 날짜] 필드를 업데이트합니다.</p> 
     <ul> 
@@ -882,11 +911,11 @@ ht-degree: 0%
 
 <p>자세한 내용은 <a href="../../../wf-api/general/api-explorer.md">API 탐색기</a> 및 <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md">텍스트 모드 개요</a>를 참조하십시오.</p>
 
-<p>기본적으로 Workfront에는 개체와 해당 정보를 정의하는 필드 세트가 함께 제공됩니다. 사용자 정의 필드를 만들어 객체를 정의할 수도 있지만 사용자 정의 객체를 만들 수는 없습니다.</p> 
-   </td> 
-  </tr>
+<p>기본적으로 Workfront에는 개체와 해당 정보를 정의하는 필드 세트가 함께 제공됩니다. 사용자 정의 필드를 만들어 객체를 정의할 수도 있지만 사용자 정의 객체를 만들 수는 없습니다.</p>
 
-<tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
+<p>Workfront Planning에서 모든 레코드 유형에 대한 사용자 정의 필드를 만들 수 있습니다. Workfront 레코드 유형은 매우 제한된 수의 필드를 제공합니다. 모든 필드를 처음부터 만들고 레코드 유형과 연결해야 합니다. 자세한 내용은 <a href="/help/quicksilver/planning/fields/fields-overview.md">필드 개요</a>를 참조하세요. </p> <p>Workfront Planning에는 추가 라이센스가 필요합니다. </p>   
+  </tr>
+  <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Filter]</td> 
    <td> <p>화면에 표시되는 정보를 정의하는 보고서 또는 목록 요소의 기본 구성 요소 중 하나입니다. 보고 요소에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">보고 요소: 필터, 보기 및 그룹화</a>를 참조하십시오.</p> <p>필터는 보고서 또는 [!DNL Workfront] 패널 목록에 표시되는 결과(예: 프로젝트, 작업 또는 문제)를 결정합니다.</p> </td> 
   </tr> 
@@ -1032,7 +1061,6 @@ The designated full time equivalency for users. A full-time user should have 100
    <li><b>청구됨 및 승인됨</b>: 시간이 기록되었으며 프로젝트 소유자가 승인했으며 청구 기록 상태가 청구됨으로 표시되었습니다.</li>
    </ul>
 
-
 <p>시간이 청구 기록의 일부인 경우 시간 상태는 시간이 승인되었는지 또는 시간이 속한 청구 기록이 청구되었는지 여부를 나타냅니다. 시간 항목의 시간 상태는 시간 목록 또는 보고서에만 표시됩니다. </p>
 
 <p>청구 기록에 시간을 추가하는 방법에 대한 자세한 내용은 문서 <a href="../../../manage-work/projects/project-finances/create-billing-records.md" >청구 기록 만들기</a>의 "청구 기록에 시간 추가" 섹션을 참조하십시오.</p>
@@ -1043,8 +1071,6 @@ The designated full time equivalency for users. A full-time user should have 100
 
 <p>작업 항목에 직접 기록되지 않는 일반 시간은 시간 상태를 표시하지 않습니다. </p> </td> 
   </tr>
-
-
 
 <tr> 
    <td>[!UICONTROL 시간 유형]</td> 
@@ -1248,6 +1274,14 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr> 
    <td>[!UICONTROL 목록 컨트롤]</td> 
    <td> <p>사용자 지정 필터, 보기 및 그룹화를 개별 사용자에게 연결하거나 모든 사용자에게 전역적으로 연결할 수 있는 [!UICONTROL 인터페이스 설치]의 일부입니다.</p> </td> 
+  </tr> 
+<tr> 
+   <td>[!UICONTROL 조회 필드]</td> 
+   <td> <p>Workfront Planning에서 두 레코드 유형 간에 연결을 설정하고 개별 레코드를 함께 연결한 후 연결 중인 레코드에서 연결된 레코드의 필드를 참조할 수 있습니다.</p>
+   <p>예를 들어 캠페인 레코드 유형을 Workfront 프로젝트 오브젝트 유형과 연결하는 경우, 캠페인 레코드에 연결된 프로젝트의 예산 필드를 표시할 수 있습니다. 예산 프로젝트 필드는 캠페인에 대한 프로젝트의 조회 필드입니다.</p> <p>조회 필드의 값은 연결된 레코드에서 자동으로 채워집니다.</p>
+   <p>자세한 내용은 <a href="/help/quicksilver/planning/records/connected-records-overview.md">연결된 레코드 개요</a>를 참조하십시오.</p>
+   <p>Workfront Planning에는 추가 라이센스가 필요합니다.</p>
+    </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1798,8 +1832,26 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr> 
    <td>[!UICONTROL 준비]</td> 
    <td> <p>작업 보고서의 이 필드는 [!UICONTROL 애자일] 작업이 백로그에서 [!UICONTROL 준비]로 표시되었는지 여부를 나타냅니다. 이 플래그는 [!UICONTROL Agile] 팀에 할당된 작업인 [!UICONTROL Agile] 작업에만 적용됩니다. </p> </td> 
-  </tr> 
-  <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL 레코드]</td> 
+   <td> <p>Workfront Planning에서 레코드는 레코드 유형의 고유한 인스턴스입니다.</p>
+<p>작업 영역에 레코드 유형을 추가한 후 레코드 유형의 페이지에 해당 유형의 레코드를 추가할 수 있습니다.</p>
+<p>예를 들어 "Campaign"은 레코드 유형이고 "EMEA에 대한 여름 캠페인"은 캠페인 레코드 유형의 레코드입니다.</p>
+<p>레코드 만들기에 대한 자세한 내용은 <a href="/help/quicksilver/planning/records/create-records.md">레코드 만들기</a>를 참조하세요. </p> <p>Workfront Planning에는 추가 라이센스가 필요합니다. </p></td> 
+  </tr>
+
+
+<tr> 
+   <td>[!UICONTROL 레코드 유형]</td> 
+   <td> <p>Workfront Planning의 객체 유형입니다.</p>
+<p>객체 유형이 사전 정의된 Workfront과 달리 Workfront Planning에서는 고유한 객체 유형을 만들 수 있습니다.Workfront Planning 객체 유형을 레코드 유형이라고 합니다.</p>
+<p>예를 들어 Workfront에서 프로그램, Portfolio, 프로젝트, 작업 또는 문제의 객체 유형이 이미 생성되었습니다.</p>
+<p>Workfront Planning에서 조직의 워크플로에 맞는 모든 레코드 유형을 만들 수 있습니다. 나중에 레코드 종류 간에 어떤 관계가 있는지 정의하거나 양식 종속성을 정의할 수 있습니다.</p> 레코드 종류 만들기에 대한 자세한 내용은 <a href="/help/quicksilver/planning/architecture/create-record-types.md">레코드 종류 만들기</a>를 참조하세요. </p> <p>Workfront Planning에는 추가 라이센스가 필요합니다. </p></td> 
+  </tr>
+
+<tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td>[!UICONTROL 반복 빈도]</td> 
    <td> <p>반복 작업 상위의 [!UICONTROL 작업 세부 사항] 또는 [!UICONTROL 작업 편집] 상자에 표시되는 필드입니다. 반복 작업이 발생하는 빈도입니다. 반복 작업 만들기에 대한 자세한 내용은 <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">반복 작업 만들기</a>를 참조하십시오. </p> </td> 
   </tr> 
@@ -2340,7 +2392,14 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr> 
    <td>[!UICONTROL 보기]</td> 
    <td> <p>보기는 보고서나 개체 목록의 열을 수정할 수 있는 보고 요소를 나타냅니다.</p> 
-   <p> 또한 보기는 액세스 수준이나 해당 객체에 대한 권한 공유 수준에 따라 객체에 대한 정보만 볼 수 있는 사용자의 권한을 의미합니다.</p> </td> 
+   <p> 또한 보기는 액세스 수준이나 해당 객체에 대한 권한 공유 수준에 따라 객체에 대한 정보만 볼 수 있는 사용자의 권한을 의미합니다.</p> 
+   <p>Workfront Planning에서 레코드는 다음 보기 유형 중 하나의 레코드 유형 페이지에 표시됩니다.</p>
+   <ul><li>테이블</li>
+   <li>타임라인</li>
+   <li>캘린더</li></ul>
+   <p>Workfront Planning에서 보기에는 필터, 그룹화, 정렬 및 화면의 레코드에 적용되는 기타 설정이 포함됩니다.</p> <p>자세한 내용은 <a href="/help/quicksilver/planning/views/manage-record-views.md">레코드 보기 관리</a>를 참조하십시오.</p>   
+   <p>Workfront Planning에는 추가 라이센스가 필요합니다.</p>
+   </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 보기 아이콘]</td> 
@@ -2481,6 +2540,15 @@ The designated full time equivalency for users. A full-time user should have 100
    <p>valueformat=HTML</p>
    </code>
     <p>텍스트 모드 사용에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">텍스트 모드 구문 개요</a>를 참조하십시오. </p> </td> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Workspace] </td> 
+   <td> <p>Workfront Planning에서 작업 공간은 특정 조직의 운영 라이프사이클을 정의하는 레코드 유형의 컬렉션입니다. 작업 공간은 조직 단위의 작업 프레임입니다.</p>
+   <p>Workfront Planning에는 추가 라이센스가 필요합니다. </p>
+   <p>자세한 내용은 <a href="/help/quicksilver/planning/architecture/create-workspaces.md">작업 영역 만들기</a>를 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+

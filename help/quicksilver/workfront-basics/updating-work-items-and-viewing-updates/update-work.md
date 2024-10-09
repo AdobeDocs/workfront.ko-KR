@@ -6,9 +6,9 @@ description: Adobe Workfront 개체(프로젝트, 작업 또는 문제)에 업�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
+source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
 workflow-type: tm+mt
-source-wordcount: '3075'
+source-wordcount: '3065'
 ht-degree: 0%
 
 ---
@@ -62,8 +62,6 @@ Workfront에서 업데이트를 추가할 수 있는 개체에 대한 자세한 
 Workfront Planning의 카드, 목표 및 레코드에 대한 댓글에 대한 추가 정보는 다음 문서를 참조하십시오.
 
 * [Adobe Workfront 목표의 목표 댓글을 관리합니다](../../workfront-goals/goal-management/manage-goal-comments.md).
-
-  Workfront 목표에 액세스하려면 추가 라이선스가 있어야 합니다.
 
 * [보드에 애드혹 카드 추가](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md)
 

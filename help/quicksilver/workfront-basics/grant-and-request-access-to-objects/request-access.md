@@ -6,9 +6,9 @@ description: Adobe Workfront에서 개체에 대한 가시성은 해당 개체 �
 author: Alina
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
+source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1421'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Adobe Workfront에서 개체에 대한 가시성은 해당 개체 유형에 대�
 >
 >* 시나리오 플래너는 Adobe Workfront 시나리오 플래너에서 계획합니다. 자세한 내용은 [시나리오 플래너의 플랜에 대한 액세스 요청](../../scenario-planner/request-access-to-plan.md)을 참조하십시오. 이를 위해서는 추가 라이센스가 필요합니다.
 >
->* Workfront Planning의 보기 및 작업 공간 자세한 내용은 [Adobe Workfront Planning의 공유 권한 개요](/help/quicksilver/planning/access/sharing-permissions-overview.md)를 참조하십시오.
+>* Workfront Planning의 보기 및 작업 공간 자세한 내용은 [Adobe Workfront Planning의 공유 권한 개요](/help/quicksilver/planning/access/sharing-permissions-overview.md)를 참조하십시오. 이를 위해서는 추가 라이센스가 필요합니다.
 
 
 Workfront 관리자는 액세스 수준의 오브젝트 유형에 대한 액세스를 구성합니다. 자세한 내용은 [액세스 수준과 사용 권한이 함께 작동하는 방법](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)을 참조하세요.

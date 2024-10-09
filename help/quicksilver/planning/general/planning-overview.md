@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
 workflow-type: tm+mt
 source-wordcount: '2102'
 ht-degree: 1%
@@ -183,7 +183,7 @@ Workfront Planning의 프레임워크는 완전히 사용자 정의할 수 있�
 
   자세한 내용은 [작업 영역 만들기](/help/quicksilver/planning/architecture/create-workspaces.md)를 참조하십시오.
 
-* **레코드 종류**: 개체 종류 또는 Workfront Planning.
+* **레코드 형식**: Workfront Planning의 개체 형식입니다.
 
   객체 유형이 사전 정의된 Workfront과 달리 Workfront Planning에서는 고유한 객체 유형을 만들 수 있습니다.
 
@@ -199,7 +199,7 @@ Workfront Planning의 프레임워크는 완전히 사용자 정의할 수 있�
 
   작업 영역에 레코드 유형을 추가한 후 레코드 유형의 페이지에 해당 유형의 레코드를 추가할 수 있습니다.
 
-  예를 들어 &quot;Campaign&quot;은 레코드 유형이고 &quot;EMEA에 대한 여름 캠페인&quot;은 캠페인 레코드 유형의 레코드입니다
+  예를 들어 &quot;Campaign&quot;은 레코드 유형이고 &quot;EMEA에 대한 여름 캠페인&quot;은 캠페인 레코드 유형의 레코드입니다.
 
   자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)를 참조하세요.
 
