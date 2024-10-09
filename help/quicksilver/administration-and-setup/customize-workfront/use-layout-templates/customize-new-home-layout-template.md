@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: 21e81e6395680e3ea7ffd05424217e5352fff0f6
+source-git-commit: 7bae31a9454c88bd0e5525f4b4d11cd9e76ccd39
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '827'
 ht-degree: 1%
 
 ---
@@ -145,7 +145,6 @@ ht-degree: 1%
 
    사용자 지정을 마쳤으면 왼쪽 하단의 **저장**&#x200B;을 클릭합니다.
 
-
->[!NOTE]
+>[!IMPORTANT]
 >
->자체 레이아웃 템플릿을 사용자 정의하는 관리자는 변경 사항을 보려면 페이지를 새로 고쳐야 합니다.
+>레이아웃 템플릿의 사용자 지정을 보려면 새 홈 페이지를 새로 고쳐야 합니다.

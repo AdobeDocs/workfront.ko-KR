@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 21c8c8d6aed7620dc2d7b99fd01c6be41f918eeb
+source-git-commit: 222e940432f9cdea2b7da7fefbb429d75a3824d7
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '923'
 ht-degree: 5%
 
 ---
@@ -129,7 +129,7 @@ Workfront 구현 중에 시스템 환경 설정을 구성하고, 그 이후에 �
      </tr>
      <tr> 
       <td role="rowheader">우선 순위 작업 목록 활성화 </td> 
-      <td>사용자에 대해 우선 순위 작업 목록 환경을 활성화하거나 비활성화하도록 선택할 수 있습니다. <!--Users will still see the Priorities icons in Workfront, but they will not have access to the functionality.--> 우선 순위에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">우선 순위 시작</a>을 참조하세요.</td> 
+      <td>사용자에 대해 우선 순위 작업 목록 환경을 활성화하거나 비활성화하도록 선택할 수 있습니다. 사용자는 Workfront에 우선순위 아이콘을 계속 볼 수 있지만 기능에 액세스할 수는 없습니다. 우선 순위에 대한 자세한 내용은 <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">우선 순위 시작</a>을 참조하세요.</td> 
      </tr>
      <tr> 
       <td role="rowheader">테스트 환경</td> 
