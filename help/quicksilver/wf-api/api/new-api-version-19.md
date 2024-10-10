@@ -6,9 +6,9 @@ description: Adobe Workfront은 2022년 4월 6일에 API 버전 19를 출시했�
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: e3f50efa03a43c44e9defd0a724b0516504b0e83
+source-git-commit: 13910328903744aa9bf619e8b4c376520c21b89e
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
@@ -384,7 +384,7 @@ Parameter 개체는 사용자 지정 필드입니다.
             </ul>
           </li>
           <li>
-            <p><b>displayType</b></p><p>다음과 같은 가능한 값이 추가되었습니다.
+            <p><b>displayType</b></p><p>보다 사용자 친화적이고 유연한 시스템을 만들기 위해 <b>위젯(WIDGET)</b> 필드 형식은 더 이상 사용되지 않으며 다음 필드 형식으로 분할됩니다.
             <ul>
             <li>Adobe XD (ADOBEXD)</li>
             <li>이미지(이미지)</li>
@@ -444,7 +444,7 @@ ScoreCardQuestion 객체는 스코어카드에 추가된 질문을 나타냅니�
     <tr>
       <td role="rowheader">직접 필드</td>
       <td>
-            <p><b>displayType</b></p><p>다음과 같은 가능한 값이 추가되었습니다.
+            <p><b>displayType</b></p><p>보다 사용자 친화적이고 유연한 시스템을 만들기 위해 <b>위젯(WIDGET)</b> 필드 형식은 더 이상 사용되지 않으며 다음 필드 형식으로 분할됩니다.
             <ul>
             <li>Adobe XD (ADOBEXD)</li>
             <li>이미지(이미지)</li>
