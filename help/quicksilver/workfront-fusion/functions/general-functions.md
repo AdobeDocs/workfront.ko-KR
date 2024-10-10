@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion 매핑 패널에서 다음과 같은 일반 
 author: Becky
 feature: Workfront Fusion
 exl-id: 74bfda4e-5690-4b8c-ac58-20cf261f188d
-source-git-commit: 4cca9738ad9537247234faa0b1c441163d4e315f
+source-git-commit: 5cd1cbd1976d5574668098be53daee780a9cc1fb
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -161,3 +161,8 @@ ht-degree: 0%
 >`pick(` 사용자 `;` 암호 `;` 전자 메일 `)`
 >
 >사용자의 암호와 전자 메일 주소만 모아 놓은 컬렉션을 반환합니다.
+
+## mergeCollections(collection1 , collection2)
+
+키-값 쌍을 결합하여 두 컬렉션을 병합합니다. 두 컬렉션에 동일한 키가 들어 있으면 두 번째 컬렉션의 값이 첫 번째 컬렉션의 값을 덮어씁니다.
+

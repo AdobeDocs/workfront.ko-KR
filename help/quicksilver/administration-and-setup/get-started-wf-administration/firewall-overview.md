@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: 5cd1cbd1976d5574668098be53daee780a9cc1fb
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '724'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Adobe Workfront은 조직의 네트워크와 통신하므로 해당 통신을 �
 이는 본질적으로 방화벽을 통해 데이터를 전송하거나 수신할 수 있는 사이트의 &quot;목록&quot;인 허용 목록에 추가하다를 통해 수행됩니다. 사이트는 다음 두 가지 방법 중 하나로 식별할 수 있습니다.
 
 * **IP 주소**: 52.31.132.175와 같은 일련의 숫자
-* **도메인**: www.thisdomain.com의 &quot;thisdomain&quot;과 같은 URL의 일부
+* **도메인**: URL의 일부(예: `www.thisdomain.com`의 `thisdomain`).
 
 Workfront은 웹 통신에 특정 IP 주소 및 도메인을 사용합니다. 조직에서 Workfront을 사용하려면 먼저 조직의 허용 목록에 추가하다에 추가해야 합니다.
 
