@@ -2,12 +2,12 @@
 content-type: api
 navigation-topic: api-navigation-topic
 title: API 버전 18의 새로운 기능
-description: Adobe Workfront은 2022년 4월 6일에 API 버전 18을 출시했습니다. API 버전 18에는 버전 15의 다음 변경 사항이 포함되어 있습니다.
+description: Adobe Workfront은 2022년 4월 6일에 API 버전 18을 출시했습니다. API 버전 18에는 버전 17의 다음 변경 사항이 포함되어 있습니다.
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d0675dc1-b2d9-4d80-8c12-f26284cfb4cf
-source-git-commit: c2ce6776ceebe3c1d3915e3791fc84eb0245ba4d
+source-git-commit: 842b26177a11225049ef42f779ca77dd81926b74
 workflow-type: tm+mt
 source-wordcount: '1141'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # API 버전 18의 새로운 기능
 
-Adobe Workfront은 2024년 4월 8일에 API 버전 18을 출시했습니다. API 버전 18에는 버전 15의 다음 변경 사항이 포함되어 있습니다.
+Adobe Workfront은 2024년 4월 8일에 API 버전 18을 출시했습니다. API 버전 18에는 버전 17의 다음 변경 사항이 포함되어 있습니다.
 
 ## 추가된 리소스
 

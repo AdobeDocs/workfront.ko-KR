@@ -2,12 +2,12 @@
 content-type: api
 navigation-topic: api-navigation-topic
 title: API 버전 17의 새로운 기능
-description: Adobe Workfront은 2022년 4월 6일에 API 버전 17을 출시했습니다. API 버전 17에는 버전 15의 다음 변경 사항이 포함되어 있습니다.
+description: Adobe Workfront은 2022년 4월 6일에 API 버전 17을 출시했습니다. API 버전 17에는 버전 16의 다음 변경 사항이 포함되어 있습니다.
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 08e90754-5505-424c-ae67-015cc987b5df
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: 842b26177a11225049ef42f779ca77dd81926b74
 workflow-type: tm+mt
 source-wordcount: '1353'
 ht-degree: 1%
@@ -297,7 +297,7 @@ DocumentVersion 개체는 작성된 자료, 이미지 또는 다른 형태의 �
 
 ### 환율(환율)
 
-ExchangeRate 개체는 Workfront에서 설정된 통화 환율을 나타냅니다. Exchange 개체가 동적이지 않습니다.
+ExchangeRate 개체는 Workfront에 설정된 통화 환율을 나타냅니다. Exchange 개체가 동적이지 않습니다.
 
 <table>
   <col/>
