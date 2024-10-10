@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 7b5441b2aa17b22f0fd54cfe4921aa5dab2e0461
 workflow-type: tm+mt
-source-wordcount: '2196'
+source-wordcount: '2222'
 ht-degree: 1%
 
 ---
@@ -268,13 +268,15 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 
    썸네일 이미지가 없는 레코드에는 레코드 유형 아이콘이 대신 표시됩니다. 연결된 레코드가 표시되는 방법의 예는 **레코드 모양** 영역에 표시됩니다.
 
-   >[!TIP]
+   >[!NOTE]
    >
-   >    여러 레코드를 연결할 수 있도록 허용하는 경우 축소판만 표시하면 레코드 보기와 같이 더 작은 영역에 공간이 절약될 수 있습니다.
+   >* 여러 레코드를 연결할 수 있도록 허용하는 경우 축소판만 표시하면 레코드 보기와 같이 더 작은 영역에 공간이 절약될 수 있습니다.
    >
-   >레코드의 이름은 레코드의 기본 필드입니다. 자세한 내용은 [기본 필드 개요](/help/quicksilver/planning/fields/primary-field-overview.md)를 참조하세요.
+   >* 레코드의 이름은 레코드의 기본 필드입니다. 자세한 내용은 [기본 필드 개요](/help/quicksilver/planning/fields/primary-field-overview.md)를 참조하세요.
    >
-   >Workfront 개체 유형을 선택할 때는 레코드 모양을 선택할 수 없습니다.
+   >* Workfront 개체 유형을 선택할 때는 레코드 모양을 선택할 수 없습니다.
+   >
+   >* 레코드 표시 영역에서 선택하는 사항에 따라 모든 보기 및 세부 정보 페이지를 포함하여 시스템의 모든 위치에서 연결에 레코드가 표시되는 방식이 결정됩니다.
 
 1. Click **Create**.
 

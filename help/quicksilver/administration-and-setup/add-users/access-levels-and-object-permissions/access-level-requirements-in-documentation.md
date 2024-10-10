@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 39ea0d53-ec31-4644-b772-cfe260b8e013
-source-git-commit: 85e27a1e7979eadf2731be9aaca9279a82587bbf
+source-git-commit: 7b5441b2aa17b22f0fd54cfe4921aa5dab2e0461
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 0%
+source-wordcount: '941'
+ht-degree: 1%
 
 ---
 
@@ -62,6 +62,7 @@ Workfront 설명서 방법 문서에는 해당 절차에 필요한 액세스 및
    <li>Workfront Fusion</li>
    <li>Workfront Goals</li>
    <li>Workfront 시나리오 플래너</li>
+   <li>Workfront Planning</li>
    </ul>
    <p>조직에서 이러한 추가 제품 중 하나를 구입했는지 확인하려면 Workfront 관리자에게 문의하십시오.</p></td> 
   </tr> 
