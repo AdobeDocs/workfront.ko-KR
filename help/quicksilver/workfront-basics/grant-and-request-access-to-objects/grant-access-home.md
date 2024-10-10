@@ -6,9 +6,9 @@ description: 사용자는 Adobe Workfront 내의 오브젝트에 대한 액세�
 author: Alina
 feature: Get Started with Workfront
 exl-id: e0a69ed5-57c3-47ac-bb7a-65495f93b3e3
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ ht-degree: 0%
 
 1. (조건부) 새 홈 영역에서 다음 작업을 수행합니다.
 
-   1. **내 승인 대기 중** 위젯으로 이동하여 추가 액세스 요청을 찾은 다음 **액세스 권한 부여**&#x200B;를 클릭합니다.
+   1. **내 승인** 위젯으로 이동하여 추가 액세스 요청을 찾은 다음 **액세스 권한 부여**&#x200B;를 클릭합니다.
 
       ![](assets/request-for-access-to-project-in-new-home-approvals-widget.png)
 

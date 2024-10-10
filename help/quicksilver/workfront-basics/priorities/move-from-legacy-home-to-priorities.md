@@ -5,9 +5,9 @@ description: 레거시 홈은 4분기 릴리스를 통해 10월 17일에 Workfro
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 4e2b59a93137e6b4cbe9dab0d4e6c1467bc0cc4b
+source-git-commit: e63180a5d2b542f98c96ec5a2bd2fb0df078bb11
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '564'
 ht-degree: 3%
 
 ---
@@ -80,13 +80,13 @@ ht-degree: 3%
 
 #### 내가 제출한 승인 보기
 
-사용자가 우선 순위에서 제출한 승인을 볼 수 없습니다. 임시 해결 방법으로, 사용자는 승인 보고서를 만들어 이 정보를 볼 수 있습니다.
+사용자가 우선 순위에서 제출한 승인을 볼 수 없습니다. 임시 해결 방법으로, 사용자는 내가 제출한 승인 필터 옵션을 사용하여 홈의 내 승인 위젯에서 이 정보를 볼 수 있습니다.
 
 ### 승인 및 팀 요청 보기
 
 사용자는 우선순위에서 승인 및 팀 요청과 상호 작용할 수 없습니다. 하지만 다음 위젯을 사용하여 새 홈에서 승인 및 팀 요청을 관리할 수 있습니다.
 
-* 승인 대기 중
+* 내 승인
 * 모든 승인
 * 팀 요청
 

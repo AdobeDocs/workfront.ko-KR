@@ -5,9 +5,9 @@ title: 내 작업 위젯을 사용하여 작업 관리
 description: 내 작업 위젯은 할당된 모든 작업, 문제 및 요청을 한 곳에 표시합니다. 여기에서 작업을 필터링 및 구성하고 시간을 기록하며 업데이트하고 작업 항목을 완료로 표시할 수 있습니다.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 20791e9f2cc0716b9b0ddd8f98c31ae0bea7ff45
+source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '703'
 ht-degree: 5%
 
 ---
@@ -185,7 +185,7 @@ Workfront 관리자는 레이아웃 템플릿의 요약에 표시되는 필드�
 
 승인 및 팀 요청이 내 작업 위젯에 표시되지 않습니다. 승인 및 팀 요청으로 정기적으로 작업하는 경우 새 홈 페이지에 다음 위젯을 추가하는 것이 좋습니다.
 
-* 승인 대기 중
+* 내 승인
 * 모든 승인
 * 팀 요청
 

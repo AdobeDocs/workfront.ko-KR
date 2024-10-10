@@ -5,9 +5,9 @@ title: 기존 홈에서 새 홈으로 이동
 description: 레거시 홈은 4분기 릴리스를 통해 10월 17일에 Workfront에서 제거됩니다. 이 문서에서는 새 홈에서 사용할 수 있는 기능에 대한 정보와 새 홈 경험으로 사용자를 이동하기 위한 권장 사항을 제공합니다.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 9a71080c732363bf346b18d3bf61353c6c3859f7
+source-git-commit: e63180a5d2b542f98c96ec5a2bd2fb0df078bb11
 workflow-type: tm+mt
-source-wordcount: '1641'
+source-wordcount: '1596'
 ht-degree: 5%
 
 ---
@@ -51,12 +51,12 @@ ht-degree: 5%
 * 내 작업
 * 내 작업
 * 내 문제
-* 내 승인 대기 중
+* 내 승인
 
 사용자는 다음 위젯에서 자신에게 위임된 작업을 찾을 수 있습니다.
 
 * 내게 위임된 필터를 사용한 내 작업 위젯
-* 위임된 승인 필터를 사용하여 내 승인 대기 중
+* 위임된 승인 필터를 사용한 내 승인
 
 | **기존 홈** | **새 홈** |
 |------------|-----------|
@@ -72,10 +72,7 @@ New Home에서는 더 이상 달력 보기를 사용할 수 없습니다. 그러
 
 #### 내가 제출한 승인 보기
 
-사용자가 새 홈에서 제출한 승인을 볼 수 없습니다. 조직의 사용자에게 이 기능이 필요한 경우 다음 커뮤니티 게시물에 해결 방법 또는 투표를 통해 승인 보고서를 작성하거나 댓글을 달 수 있습니다.
-
-* [새 홈에 &quot;내가 제출한 승인&quot; 위젯 추가](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/add-quot-approvals-i-submitted-quot-widget-to-new-home/idc-p/704664#M25269)
-* [새 홈에 &quot;내가 제출한 승인&quot; 추가](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/add-quot-approvals-i-submitted-quot-widget-to-new-home/idc-p/704664#M25269)
+사용자는 내가 제출한 승인 필터를 사용하여 내 승인 위젯의 새 홈에서 제출한 승인을 볼 수 있습니다.
 
 #### 내 우선 순위에 항목 추가
 
@@ -131,7 +128,7 @@ Workfront 관리자는 레이아웃 템플릿의 요약에 표시되는 필드�
 
 사용자는 여전히 다음 위젯을 사용하여 새 홈에서 승인 및 팀 요청을 관리할 수 있습니다.
 
-* 승인 대기 중
+* 내 승인
 * 모든 승인
 * 팀 요청
 
@@ -167,7 +164,7 @@ Workfront 관리자는 레이아웃 템플릿을 사용하여 새 홈에서 사�
 * **팀 요청**\
     팀별로 정렬된 팀에 대해 보류 중인 모든 요청과 사용자에게 직접 요청을 할당하거나 직접 작업할 수 있는 버튼을 표시합니다.
 
-* **내 승인 대기 중**\
+* **내 승인**\
     보류 중인 할당 또는 위임된 승인, 승인을 위임하는 버튼 및 위젯 내에서 직접 승인을 결정하는 버튼을 모두 표시합니다.
 
 * **모든 승인**\
@@ -202,15 +199,15 @@ Workfront 관리자는 레이아웃 템플릿을 사용하여 새 홈에서 사�
     </tr>
     <tr>
         <td>라이트</td>
-        <td>내 작업, 승인 대기 중</td>
+        <td>내 작업, 내 승인</td>
     </tr>
     <tr>
         <td>기여자</td>
-        <td>내 요청, 언급, 승인 대기 중, 게시판</td>
+        <td>내 요청, 언급, 내 승인, 게시판</td>
     </tr>
     <tr>
         <td>외부</td>
-        <td>내 승인 대기 중</td>
+        <td>내 승인</td>
     </tr>
 </table>
 
@@ -233,7 +230,7 @@ Workfront 관리자는 레이아웃 템플릿을 사용하여 새 홈에서 사�
     </tr>
     <tr>
         <td>요청</td>
-        <td>내 프로젝트, 승인 대기 중</td>
+        <td>내 프로젝트, 내 승인</td>
     </tr>
     <tr>
         <td>참여</td>
@@ -241,7 +238,7 @@ Workfront 관리자는 레이아웃 템플릿을 사용하여 새 홈에서 사�
     </tr>
     <tr>
         <td>외부</td>
-        <td>내 승인 대기 중</td>
+        <td>내 승인</td>
     </tr>
 </table>
 

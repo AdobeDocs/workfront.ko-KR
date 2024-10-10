@@ -5,9 +5,9 @@ description: 우선 순위는 작업 소유자에게 맞는 능률적이고 직�
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 4e2b59a93137e6b4cbe9dab0d4e6c1467bc0cc4b
+source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '882'
 ht-degree: 3%
 
 ---
@@ -176,7 +176,7 @@ Priority를 사용하면 다음과 같은 이점을 누릴 수 있습니다
 
 에셋을 검토하고 승인하는 기능은 우선 순위 로드맵에 있습니다.
 
-지금은 새 홈에서 내 승인 대기 및 모든 승인 위젯을 사용하는 것이 좋습니다.
+지금은 새 홈에서 내 승인 및 모든 승인 위젯을 사용하는 것이 좋습니다.
 
 자세한 내용은 [새 홈에서 위젯 추가, 편집 또는 제거](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)를 참조하세요.
 

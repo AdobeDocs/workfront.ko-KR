@@ -6,10 +6,10 @@ description: 새로운 홈은 작업 관리를 위한 강력한 새로운 기능
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 233016ccc574118df705b857092d647767c05835
+source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
 workflow-type: tm+mt
-source-wordcount: '1173'
-ht-degree: 5%
+source-wordcount: '1168'
+ht-degree: 3%
 
 ---
 
@@ -56,8 +56,8 @@ Adobe Workfront의 새로운 홈 경험은 현재의 홈 경험을 개선하는 
 * **팀 요청**\
     팀별로 정렬된 팀에 대해 보류 중인 모든 요청과 사용자에게 직접 요청을 할당하거나 직접 작업할 수 있는 버튼을 표시합니다.
 
-* **내 승인 대기 중**\
-    보류 중인 할당 또는 위임된 승인, 승인을 위임하는 버튼 및 위젯 내에서 직접 승인을 결정하는 버튼을 모두 표시합니다.
+* **내 승인**\
+    보류, 할당, 위임 및 제출된 모든 승인, 승인을 위임하는 버튼 및 위젯 내에서 직접 승인 결정을 내리는 버튼을 표시합니다.
 
 * **모든 승인**\
         평균 승인 시간 및 의사 결정과 보류 중인 승인 및 기한 경과 승인의 목록 보기에 대한 정보가 포함된 2개의 차트를 표시합니다. <span style="color: #ff0000;">이 기능은 단계적 릴리스의 일부이며 현재 특정 고객에게만 제공됩니다.</span>
@@ -85,15 +85,15 @@ Adobe Workfront의 새로운 홈 경험은 현재의 홈 경험을 개선하는 
     </tr>
     <tr>
         <td>라이트</td>
-        <td>내 작업, 승인 대기 중</td>
+        <td>내 작업, 내 승인</td>
     </tr>
     <tr>
         <td>기여자</td>
-        <td>내 요청, 언급, 승인 대기 중, 게시판</td>
+        <td>내 요청, 언급, 내 승인, 게시판</td>
     </tr>
     <tr>
         <td>외부</td>
-        <td>내 승인 대기 중</td>
+        <td>내 승인</td>
     </tr>
 </table>
 
@@ -116,7 +116,7 @@ Adobe Workfront의 새로운 홈 경험은 현재의 홈 경험을 개선하는 
     </tr>
     <tr>
         <td>요청</td>
-        <td>내 프로젝트, 승인 대기 중</td>
+        <td>내 프로젝트, 내 승인</td>
     </tr>
     <tr>
         <td>참여</td>
@@ -124,7 +124,7 @@ Adobe Workfront의 새로운 홈 경험은 현재의 홈 경험을 개선하는 
     </tr>
     <tr>
         <td>외부</td>
-        <td>내 승인 대기 중</td>
+        <td>내 승인</td>
     </tr>
 </table>
 

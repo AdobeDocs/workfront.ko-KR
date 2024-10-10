@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 68b91aad-af76-473f-861d-da846fdfb84c
-source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
+source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
 workflow-type: tm+mt
-source-wordcount: '1152'
+source-wordcount: '1151'
 ht-degree: 0%
 
 ---
@@ -122,7 +122,7 @@ Frame.io에 대한 자세한 내용은 [I&#39;ve been invited to collaborate on 
 사용자는 다음과 같은 방법으로 Frame.io 뷰어에 액세스할 수 있습니다.
 
 * Workfront 이메일 알림
-* 새 Workfront 홈 영역의 내 승인 대기 중 위젯
+* 새 Workfront 홈 영역의 내 승인 위젯
   ![](assets/awaiting-my-approval.png)
 
 >[!NOTE]
