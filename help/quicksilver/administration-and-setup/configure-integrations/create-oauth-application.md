@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 09f7e854c2df1291feb150d2169fa6ccd5cdb1d6
 workflow-type: tm+mt
-source-wordcount: '1957'
+source-wordcount: '1981'
 ht-degree: 6%
 
 ---
@@ -177,6 +177,14 @@ OAuth2 애플리케이션을 만들 때 통합의 요구 사항에 가장 적합
 사용자 자격 증명(인증 코드 흐름)과 함께 OAuth2 애플리케이션을 구성하고 사용하는 방법에 대한 지침은 [JWT 흐름을 사용하여 조직의 사용자 지정 OAuth2 애플리케이션 구성 및 사용](../../wf-api/api/oauth-app-jwt-flow.md)을 참조하십시오.
 
 ### 사용자 자격 증명을 사용하여 OAuth2 애플리케이션 만들기(인증 코드 흐름) {#create-an-oauth2-application-using-user-credentials-authorization-code-flow}
+
+>[!NOTE]
+>
+>Workfront Fusion에 연결할 애플리케이션을 만드는 경우 다음 리디렉션 URL 중 하나를 사용합니다.
+>
+>* `https://app.workfrontfusion.com/oauth/cb/workfront-workfront`
+>* `https://app-eu.workfrontfusion.com/oauth/cb/workfront-workfront`(EU 데이터 센터)
+>* `https://app-az.workfrontfusion.com/oauth/cb/workfront-workfront`(Azure 데이터 센터)
 
 {{step-1-to-setup}}
 
