@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 4f7e664123785235179418faa2a630e3c4c1c4d0
+source-git-commit: 2d5cfabe17e4bc0f82c412e9144488160f13c717
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -22,28 +22,29 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리보기 릴리스: 2024년 9월 26일, 모든 고객을 위한 프로덕션 릴리스: 24.10 릴리스 포함(2024년 10월 17일)
+>미리보기 릴리스: 10월 15일, 모든 고객을 위한 프로덕션 릴리스: 24.10 릴리스 포함(2024년 10월 17일)
 
 대시보드를 인쇄할 때 인쇄 미리 보기 화면에 대한 개선 사항을 포함하여 Workfront의 다른 영역 디자인에 맞게 대시보드 인터페이스를 다양하게 업데이트했습니다.
 
-이러한 변경으로 인해 캘린더를 더 이상 대시보드에 배치할 수 없습니다. 대신 대시보드의 기존 캘린더에 캘린더에 대한 링크가 표시됩니다.
-
 대시보드에 대한 자세한 내용은 [대시보드 만들기 및 관리](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md)를 참조하십시오. 캘린더에 대한 자세한 내용은 [캘린더 보고서 개요](/help/quicksilver/reports-and-dashboards/reports/calendars/calendar-reports-overview.md)를 참조하세요.
 
-<!--
-
-## Look and feel updates for reports
+## 보고서에 대한 업데이트 확인
 
 >[!NOTE]
 >
->Preview release: September 19, 2024; Production release for all customers: With the 24.10 release (October 17, 2024)
+>미리보기 릴리스: 2024년 9월 12일부터, 모든 고객을 위한 프로덕션 릴리스: 다양한 모든 업데이트는 2024년 11월 8일까지 제공됩니다
 
-We have made a variety of updates to the reports interface to match the design of other areas of Workfront, including:
+Workfront의 다른 영역 디자인에 맞게 보고서 인터페이스를 다양하게 업데이트했습니다. 이러한 업데이트에는 다음을 포함하여 다양한 보고 기능에 대한 몇 가지 추가 변경 사항이 포함됩니다.
 
-* changes to existing reports that improve their use in Canvas Dashboards
-* an expanded color palette for conditional formatting rules in reports
+* 보고서 열을 편집할 때 텍스트 모드로 전환하는 새 버튼
+* 상대적 날짜 와일드카드 및 와일드카드 단축키의 기능에 대한 작은 변경 사항
+* 더 이상 조건부 규칙을 만들 때 &quot;완료&quot; 단추를 클릭할 필요가 없습니다
+* 보고서의 조건부 서식 규칙에 대한 확장된 색상 팔레트
+* 캔버스 대시보드에서의 사용을 개선하는 기존 보고서 변경 사항
 
-For more information about -->
+이러한 업데이트는 2024년 9월 12일부터 미리보기 및 프로덕션에서 개별적으로 구현됩니다. 모든 업데이트는 2024년 11월 8일까지 모든 고객을 위한 프로덕션 환경에 완전히 구현됩니다.
+
+Workfront 보고에 대한 자세한 내용은 [보고서 시작](/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)을 참조하세요.
 
 ## 시스템 환경설정에 대한 룩앤필 업데이트 페이지
 

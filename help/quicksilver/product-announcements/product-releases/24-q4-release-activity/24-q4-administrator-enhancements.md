@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-source-git-commit: 4f7e664123785235179418faa2a630e3c4c1c4d0
+source-git-commit: e48ef14cc3d0377a6d95f68b502f952ffe4880c4
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 0%
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리 보기 릴리스: ~~2024년 8월 12일~~, 빠른 릴리스를 위한 프로덕션: 해당 사항 없음, 분기별 릴리스를 위한 프로덕션: 해당 사항 없음
+>~~미리 보기 릴리스: 2024년 8월 12일~~; 빠른 릴리스를 위한 프로덕션: 해당 사항 없음; 분기별 릴리스를 위한 프로덕션: 해당 사항 없음
 >
 >_이 기능은 미리 보기에서 제거되었으며 향후 릴리스와 함께 릴리스되지 않습니다._
 

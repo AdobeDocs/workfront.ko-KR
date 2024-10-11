@@ -4,9 +4,9 @@ description: 2024년 4분기 홈 개선 사항
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 9de54aafb07d5c5858494c51356ae9322e1a0f79
+source-git-commit: e48ef14cc3d0377a6d95f68b502f952ffe4880c4
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,19 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2024년 4분기 릴리스의 모든 홈 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2024년 4분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2024년 4분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)를 참조하십시오.
+
+## 새 홈에서 내 승인 대기 중 위젯에 대한 업데이트
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2024년 10월 10일, 모든 고객을 위한 프로덕션 릴리스: 2024년 10월 10일.
+
+내 승인 대기 위젯에 대해 다음과 같이 변경되었습니다.
+
+* **위젯 이름을 변경함**: 이제 이 위젯의 이름이 내 승인입니다.
+* **필터 옵션으로 제출한 승인이 추가되었습니다**: 이제 이 위젯을 사용하여 새 홈에서 제출한 승인을 볼 수 있습니다.
+
+자세한 내용은 [새 홈 시작](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)을 참조하세요.
 
 ## 우선 순위가 있는 작업 소유자의 Workfront 경험 간소화
 

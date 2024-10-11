@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 4f7e664123785235179418faa2a630e3c4c1c4d0
+source-git-commit: e48ef14cc3d0377a6d95f68b502f952ffe4880c4
 workflow-type: tm+mt
-source-wordcount: '2017'
+source-wordcount: '2098'
 ht-degree: 0%
 
 ---
@@ -36,8 +36,8 @@ ht-degree: 0%
 
 * [관리자 개선 사항](#administrator-enhancements)
 * [문서 관리 개선 사항](#document-management-enhancements)
-* [통합 개선 사항](#integration-enhancements)
 * [홈 개선 사항](#home-enhancements)
+* [통합 개선 사항](#integration-enhancements)
 * [프로젝트 개선 사항](#project-enhancements)
 * [증명 개선 사항](#proofing-enhancements)
 * [보고서 및 대시보드 개선 사항](#report-and-dashboard-enhancements)
@@ -164,6 +164,23 @@ ht-degree: 0%
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
                             <li>
+                                <p><s>미리보기 릴리스: 2024년 10월 3일</s></p>
+                            </li>
+                            <li>
+                                <p>모든 고객을 위한 프로덕션 릴리스: 24.10 릴리스 포함(2024년 10월 17일)</p>
+                            </li>
+                            <p><i>이 기능은 미리보기에서 일시적으로 제거되었습니다.</i></p>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md">이전 검토자와 승인자를 새 문서 버전에 빠르게 추가</a></p>
+                        <p>이제 이전 문서 버전에서 검토자와 승인자를 빠르게 추가할 수 있습니다.</p>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
                                 <p>미리보기 릴리스: 2024년 10월 3일</p>
                             </li>
                             <li>
@@ -172,10 +189,56 @@ ht-degree: 0%
                         </ul>
                     </td>
                 </tr>
+           </tbody>
+</table>
+
+### 홈 개선 사항
+
+<table>
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
+            <tbody>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md">이전 검토자와 승인자를 새 문서 버전에 빠르게 추가</a></p>
-                        <p>이제 이전 문서 버전에서 검토자와 승인자를 빠르게 추가할 수 있습니다.</p>
+                        <p><span class="bold">기능</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">릴리스 날짜</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">새 홈에서 내 승인 대기 중인 위젯에 대한 업데이트</a></p>
+                        [!BADGE In production ]{type=Informative}
+                        <p>내 승인 대기 위젯에 대해 다음과 같이 변경되었습니다.</p>
+                            <ul>
+                                <li>위젯 이름 변경됨: 이 위젯의 이름이 이제 내 승인입니다.</li>
+                                <li>필터 옵션으로 제출한 승인이 추가되었습니다. 이제 이 위젯을 사용하여 새 홈에서 제출한 승인을 볼 수 있습니다.</li>
+                            </ul>
+                    </td>
+                    <td><p><b>다음 날짜에 사용 가능:</b></p>
+                        <ul>
+                            <li>
+                                <p>미리보기 릴리스: 2024년 10월 10일</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">모든 고객을 위한 프로덕션 릴리스: 2024년 10월 10일</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">우선 순위 소개: 작업 소유자를 위한 단순하고 능률적이며 직관적인 Workfront 환경</a></p>
+                        <p>우선 순위는 집중력과 생산성을 향상시켜 고객이 더 짧은 시간에 더 많은 성과를 달성하도록 지원합니다.</p>
+                        <p>Priority 를 사용하면 다음과 같은 이점을 누릴 수 있습니다.</p>
+                            <ul>
+                                <li>일별 작업 관리 및 우선 순위 지정: 보다 명확성을 위해 통합 탐색으로 하루 또는 주일을 구성합니다.</li>
+                                <li>생산성 향상: 클릭 수를 줄여 프로젝트 컨텍스트에 액세스하고 작업을 보다 신속하게 수행할 수 있습니다.</li>
+                                <li>개인화된 기능: 작업 소유자를 위해 고유하게 설계된 기능의 이점을 누려보십시오.</li>
+                            </ul>
                     </td>
                     <td><p><b>다음 날짜에 사용 가능:</b></p>
                         <ul>
@@ -226,48 +289,6 @@ ht-degree: 0%
                 </tr>
            </tbody>
 </table>
-
-### 홈 개선 사항
-
-<table>
-        <col style="width: 50%;" />
-        <col style="width: 50%;" />
-            <tbody>
-                <tr>
-                    <td>
-                        <p><span class="bold">기능</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">릴리스 날짜</span>
-                        </p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">우선 순위 소개: 작업 소유자를 위한 단순하고 능률적이며 직관적인 Workfront 환경</a></p>
-                        <p>우선 순위는 집중력과 생산성을 향상시켜 고객이 더 짧은 시간에 더 많은 성과를 달성하도록 지원합니다.</p>
-                        <p>Priority 를 사용하면 다음과 같은 이점을 누릴 수 있습니다.</p>
-                        <ul>
-                        <li>일별 작업 관리 및 우선 순위 지정: 보다 명확성을 위해 통합 탐색으로 하루 또는 주별 구성</li>
-                        <li>생산성 향상: 클릭 수를 줄여 프로젝트 컨텍스트에 액세스하고 작업을 보다 신속하게 수행할 수 있습니다.</li>
-                        <li>맞춤형 기능: 작업 소유자를 위해 고유하게 설계된 기능의 이점</li>
-                        </ul>
-                    </td>
-                    <td><p><b>다음 날짜에 사용 가능:</b></p>
-                        <ul>
-                            <li>
-                                <p>미리보기 릴리스: 2024년 10월 3일</p>
-                            </li>
-                            <li>
-                                <p>모든 고객을 위한 프로덕션 릴리스: 24.10 릴리스 포함(2024년 10월 17일)</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-           </tbody>
-</table>
-
 
 ### 프로젝트 개선 사항
 
@@ -542,11 +563,11 @@ Workfront Planning의 새로운 기능은 프로덕션에서 사용할 수 있�
 
 릴리스의 현재 시점에는 Workfront 목표 업데이트가 없습니다. 업데이트를 사용할 수 있으면 이 영역이 업데이트됩니다.
 
-### API 버전 18
+### API 버전 19
 
-API 버전 18의 경우 일부 리소스 및 끝점을 수정했습니다. 일부 변경 사항은 새로운 기능을 지원하며, 다른 변경 사항을 통해 API를 통해 사용 가능한 정보를 보다 쉽게 사용할 수 있습니다.
+API 버전 19의 경우 일부 리소스 및 끝점을 수정했습니다. 일부 변경 사항은 새로운 기능을 지원하며, 다른 변경 사항을 통해 API를 통해 사용 가능한 정보를 보다 쉽게 사용할 수 있습니다.
 
-새로운 기능 및 업데이트 내용은 [API 버전 18의 새로운 기능](/help/quicksilver/wf-api/api/new-api-version-18.md)을 참조하세요.
+새로운 기능 및 업데이트 내용은 [API 버전 19의 새로운 기능](/help/quicksilver/wf-api/api/new-api-version-19.md)을 참조하세요.
 
 API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/help/quicksilver/wf-api/api/api-version-support-schedule.md)을 참조하십시오.
 
