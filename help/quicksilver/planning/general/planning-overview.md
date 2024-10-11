@@ -1,14 +1,14 @@
 ---
 title: Adobe Workfront Planning 개요
-description: Adobe Workfront Planning은 Adobe Workfront의 새로운 제품입니다. 완전히 사용자 정의 가능한 작업 공간을 만들어 기업의 각 조직 단위 요구 사항을 충족하는 워크플로우를 정의할 수 있습니다.
+description: Adobe Workfront Planning은 Adobe Workfront의 추가 기능입니다. 완전히 사용자 정의 가능한 작업 공간을 만들어 기업의 각 조직 단위 요구 사항을 충족하는 워크플로우를 정의할 수 있습니다.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
-source-wordcount: '2102'
+source-wordcount: '2116'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->이 문서의 정보는 Adobe Workfront의 새 서비스인 Adobe Workfront Planning을 참조합니다.
+>이 문서의 정보는 Adobe Workfront의 추가 기능인 Adobe Workfront Planning을 참조합니다.
 >
 >Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 >
@@ -44,9 +44,9 @@ Workfront Planning에 대한 설명서가 포함된 전체 문서 목록은 [Ado
 
 ## Adobe Workfront Planning 소개
 
-Adobe Workfront Planning은 Adobe Workfront의 새로운 제품입니다. Workfront Planning의 목적은 조직의 운영 세부 정보에 대한 포괄적인 가시성을 확보하고 작업 관리 수명 주기의 각 단계에서 중요한 비즈니스 질문에 답변하는 것입니다.
+Adobe Workfront Planning은 Adobe Workfront의 추가 기능입니다. Workfront Planning의 목적은 조직의 운영 세부 정보에 대한 포괄적인 가시성을 확보하고 작업 관리 수명 주기의 각 단계에서 중요한 비즈니스 질문에 답변하는 것입니다.
 
-팀 및 리더쉽은 다음과 같은 질문에 대한 명확한 답변을 필요로 합니다.
+Workfront Planning은 다음과 같은 질문에 답변할 수 있습니다.
 
 * 4분기에 EMEA에서 얼마나 많은 캠페인을 실행하고 있습니까?
 * 동시 캠페인 간에 대상이 겹치나요?
@@ -69,7 +69,7 @@ Adobe Workfront Planning은 Adobe Workfront의 새로운 제품입니다. Workfr
 
 새로운 기능 및 릴리스 시기에 대한 자세한 내용은 [2024년 Adobe Workfront Planning 릴리스 활동](/help/quicksilver/planning/general/release-activity.md)을 참조하십시오.
 
-다음은 현재 Workfront Planning에서 사용할 수 있는 기능입니다.
+현재 Workfront Planning에서 사용할 수 있는 기능은 다음과 같습니다.
 
 * 작업 공간 만들기
 * 레코드 유형 만들기
@@ -92,7 +92,7 @@ Adobe Workfront Planning은 Adobe Workfront의 새로운 제품입니다. Workfr
 * 레코드 페이지의 레이아웃 사용자 지정
 * 작업 공간 공유
 * 보기 공유
-* 외부 리소스와 공개적으로 보기 공유
+* Workfront 사용자가 아닌 사용자도 외부 리소스와 공개적으로 보기를 공유할 수 있습니다
 * 중복 보기
 * 요청을 제출하여 레코드 만들기
 * Word <span class="preview"> 및 PDF으로 레코드 세부 정보를 내보냅니다.</span>
@@ -161,11 +161,11 @@ Adobe Workfront Planning은 Adobe Workfront의 새로운 제품입니다. Workfr
 
 ## Workfront 인스턴스의 사용자에 대해 Workfront Planning 활성화
 
-조직에서 Workfront Planning용 라이선스를 구입한 후 Workfront Planning에 액세스하려면 먼저 다음 조건을 충족해야 합니다.
+조직에서 Workfront Planning에 대한 라이선스를 구입한 후 Workfront 관리자는 사용자가 Workfront Planning에 액세스하려면 먼저 다음 사항이 준비되었는지 확인해야 합니다.
 
-* Workfront 관리자는 사용자를 메인 메뉴에 Planning이 포함된 레이아웃 템플릿에 할당해야 합니다. 자세한 내용은 [레이아웃 템플릿을 사용하여 기본 메뉴 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) 및 [레이아웃 템플릿에 사용자 할당](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)을 참조하십시오.
+* 메인 메뉴에 Planning이 포함된 레이아웃 템플릿을 Planning에 액세스해야 하는 사용자에게 할당합니다. 자세한 내용은 [레이아웃 템플릿을 사용하여 기본 메뉴 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) 및 [레이아웃 템플릿에 사용자 할당](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)을 참조하십시오.
 
-* Workfront 관리자는 사용자에게 Workfront Planning에서 개체를 보거나 만들 수 있는 Workfront 라이선스 및 Workfront Planning 권한을 할당해야 합니다. 액세스 권한을 부여하고 다른 사용자가 Workfront Planning을 사용할 수 있도록 하는 방법에 대한 자세한 내용은 [액세스 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
+* Workfront Planning에서 5554hview 또는 개체 생성을 허용하는 Workfront 라이선스 및 Workfront Planning 권한을 사용자에게 할당합니다. 액세스 권한을 부여하고 다른 사용자가 Workfront Planning을 사용할 수 있도록 하는 방법에 대한 자세한 내용은 [액세스 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
 
 ## Workfront Planning 용어
 
@@ -183,7 +183,7 @@ Workfront Planning의 프레임워크는 완전히 사용자 정의할 수 있�
 
   자세한 내용은 [작업 영역 만들기](/help/quicksilver/planning/architecture/create-workspaces.md)를 참조하십시오.
 
-* **레코드 형식**: Workfront Planning의 개체 형식입니다.
+* **레코드 형식**: Workfront Planning의 개체 형식 이름입니다.
 
   객체 유형이 사전 정의된 Workfront과 달리 Workfront Planning에서는 고유한 객체 유형을 만들 수 있습니다.
 
@@ -318,7 +318,7 @@ Workfront Planning의 프레임워크는 완전히 사용자 정의할 수 있�
 
 ## Adobe Workfront Planning 찾기
 
-조직에서 Workfront Planning에 대한 액세스 권한을 받았으며 시스템 또는 그룹 관리자가 Main Menu에 Planning 영역을 추가했는지 확인합니다. 자세한 내용은 [액세스 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
+Adobe Planning을 찾으려면 조직에서 Workfront Planning에 대한 액세스 권한을 받았는지, 시스템 또는 그룹 관리자가 [기본 메뉴]에 [계획] 영역을 추가했는지 확인하십시오. 자세한 내용은 [액세스 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
 
 Workfront Planning을 찾으려면 다음을 수행합니다.
 

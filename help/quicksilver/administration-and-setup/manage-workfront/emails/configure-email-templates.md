@@ -8,14 +8,18 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 3%
 
 ---
 
+
 # 이메일 템플릿 구성하기
+
+<!--Audited: 10/2024-->
+
 
 Adobe Workfront 관리자는 미리 알림을 지원하도록 이메일 템플릿을 구성할 수 있습니다.
 
@@ -40,9 +44,10 @@ Adobe Workfront 관리자는 미리 알림을 지원하도록 이메일 템플�
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td><p>현재: 플랜</p>
+   <td><p>새로운 기능: 표준</p>
    또는
-   <p>새로운 기능: 표준</p></td> 
+   <p>현재: 플랜</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성</td> 

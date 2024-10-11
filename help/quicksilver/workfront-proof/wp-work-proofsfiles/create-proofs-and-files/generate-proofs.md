@@ -7,9 +7,9 @@ description: Workfront Proof을 사용하면 문서 또는 웹 사이트에서 �
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 49657851-2948-4d3b-b2ce-c8359eeb315b
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
-source-wordcount: '2253'
+source-wordcount: '2257'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ ht-degree: 0%
 
      증명 공유에 대한 자세한 내용은 [다음 기간 내에 증명 공유 [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)에서 &quot;증명에 사용자 추가&quot;를 참조하십시오.
 
-   * **자동:** 검토 프로세스가 복잡하거나 검토용 콘텐츠를 동일한 사용자 그룹에 정기적으로 보내는 경우 콘텐츠 검토 및 승인을 관리하려면 이 옵션을 선택하십시오. 자동화된 워크플로를 사용하면 증명이 최종 승인까지 단계에서 스테이지로 이동합니다. 관련 사용자는 승인을 해야 할 때마다 알림을 받습니다.
+   * **자동:** 검토 프로세스가 복잡하거나 검토용 콘텐츠를 동일한 사용자 그룹에 정기적으로 보내는 경우 콘텐츠 검토 및 승인을 관리하려면 이 옵션을 선택하십시오. 자동화된 워크플로를 사용하면 증명이 최종 승인될 때까지 단계에서 스테이지로 이동합니다. 관련 사용자는 승인을 해야 한다는 알림을 언제든지 받습니다.
 
      자동화된 워크플로 만들기에 대한 자세한 내용은 [자동화된 워크플로를 사용하여 증명 설정 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md#create2)을 참조하십시오.
 
@@ -106,7 +106,7 @@ ht-degree: 0%
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">이 증명에는 단 하나의 결정만 필요합니다.</td> 
+      <td role="rowheader">이 증명에는 하나의 결정만 필요합니다.</td> 
       <td> <p>이 선택지를 선택하면, 의사 결정자 중 한 명이 결정을 한 후 심사가 완료된다.</p> <p>이 옵션은 기본적으로 비활성화되어 있습니다.</p> </td> 
      </tr> 
      <tr> 
@@ -220,7 +220,7 @@ URL에 대한 증명을 생성하려면:
 
 1. **[!UICONTROL 완료]**&#x200B;를 클릭합니다.
 
-   기존 URL 증명에 새 버전을 추가하는 경우 원본 증명 또는 이전 버전에 구성된 모든 옵션이 이 버전에서 유지됩니다.기존 URL 증명에 새 버전을 추가하는 경우 원본 증명 또는 이전 버전에 구성된 모든 옵션이 이 버전에서 유지됩니다.
+   기존 URL 증명에 새 버전을 추가하는 경우 원래 증명 또는 이전 버전에 구성된 모든 옵션이 이 버전에서 유지됩니다. 기존 URL 증명에 새 버전을 추가하는 경우 원래 증명 또는 이전 버전에 구성된 모든 옵션이 이 버전에서 유지됩니다.
 
 1. **[!UICONTROL 증명 만들기]**&#x200B;를 클릭합니다.
 

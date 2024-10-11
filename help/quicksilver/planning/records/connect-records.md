@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
 source-wordcount: '2713'
 ht-degree: 1%
@@ -122,66 +122,6 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 
 *Workfront 액세스 요구 사항에 대한 자세한 내용은 Workfront 설명서의 [액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
-<!--OLD:
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> 
-   <p>To connect Adobe Workfront Planning records with Experience Manager Assets, you must have an Adobe Experience Manager Assets license and your organization's instance of Workfront must be onboarded to the Adobe Unified Experience. For information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p>
-   </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>New: Standard</p>
-   <p>Current: Plan</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configuration</p></td>
-   <td> <p>There are no access level controls for Workfront Planning</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a workspace to connect records </p>  
-   <p>View or higher permissions to a workspace to view all connections to objects and fields from other applications, regardless of your access in the other application. </p>
-   <p>View or higher permissions to the objects you want to link from Workfront or Experience Manager Assets. </p>
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create.</p>
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-
- </tbody>
-</table>
-
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
-
 +++
 
 ## 레코드 연결을 위한 사전 요구 사항
@@ -210,13 +150,13 @@ Workfront Planning에서 Planning 레코드의 다음 영역에 있는 레코드
 
 {{step1-to-planning}}
 
-1. 연결할 레코드가 있는 작업 영역을 클릭합니다
+1. 연결할 레코드가 있는 작업 영역을 클릭합니다.
 
    작업공간이 열리고 레코드 유형이 카드로 표시됩니다.
 1. 레코드 유형의 카드를 클릭하여 레코드 유형 페이지를 엽니다.
 1. 테이블 뷰의 이름을 클릭하여 엽니다.
 1. (선택 사항) 테이블에 새 행을 추가하여 선택한 레코드 유형에 레코드를 추가합니다. 자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)를 참조하세요.
-1. (조건부) 선택한 레코드 종류를 다른 레코드 종류와 연결한 후 연결된 레코드 열로 이동하여 다른 레코드와 연결할 레코드에 해당하는 셀을 두 번 클릭합니다.
+1. (조건부) 선택한 레코드 유형을 다른 레코드 유형과 연결한 후 연결된 레코드 열로 이동하여 다른 레코드와 연결할 레코드에 해당하는 셀을 두 번 클릭합니다.
 
    ![](assets/connect-other-records-smaller-box-in-table-view.png)
 
@@ -225,7 +165,7 @@ Workfront Planning에서 Planning 레코드의 다음 영역에 있는 레코드
    * 목록에서 연결된 레코드의 이름을 클릭하여 선택한 레코드에 추가합니다. 레코드가 자동으로 추가됩니다.
    * 레코드의 이름을 입력하고 목록에 표시될 때 클릭합니다. 레코드가 자동으로 추가됩니다.
 
-1. (선택 사항) 연결할 레코드 또는 개체를 찾을 수 없고 해당 개체를 추가하려면 **+ 추가**&#x200B;를 클릭하여 새 레코드를 추가합니다. 자세한 내용은 문서 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)의 &quot;연결할 때 레코드 만들기&quot;를 참조하십시오.
+1. (선택 사항) 연결할 레코드 또는 개체를 찾을 수 없고 해당 개체를 추가하려면 **+ 추가**&#x200B;를 클릭하여 새 레코드를 추가합니다. 자세한 내용은 문서 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)의 &quot;연결할 때 레코드 만들기&quot; 섹션을 참조하십시오.
 
    >[!TIP]
    >
@@ -275,7 +215,7 @@ Workfront Planning에서 Planning 레코드의 다음 영역에 있는 레코드
 
 <!--when we will have more applications to link to from Planning, change the title to something like: Connect Workfront Planning records to objects from other applications-->
 
-레코드 형식과 Workfront 개체 형식 간의 연결을 만든 후에는 개별 레코드를 Workfront의 개체에 연결할 수 있습니다. 연결한 Workfront 필드는 개체를 연결할 레코드에서 자동으로 채워집니다.
+레코드 형식과 Workfront 개체 형식 간에 연결을 만든 후 개별 레코드를 Workfront의 개체에 연결할 수 있습니다. 연결한 Workfront 필드는 개체를 연결할 레코드에서 자동으로 채워집니다.
 
 >[!NOTE]
 >
@@ -292,7 +232,7 @@ Workfront Planning에서 Planning 레코드의 다음 영역에 있는 레코드
 
 1. 선택한 레코드 종류에 개별 레코드를 추가하려면 **새 레코드**&#x200B;을(를) 클릭하십시오. 자세한 내용은 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)를 참조하세요.
 
-1. (조건부) 선택한 레코드 종류를 Workfront 개체 형식과 연결한 후 연결된 개체 열로 이동하여 Workfront의 개체와 연결할 레코드에 해당하는 셀을 두 번 클릭합니다.
+1. (조건부) 선택한 레코드 유형을 Workfront 개체 유형과 연결한 후 연결된 개체 열로 이동하여 Workfront의 개체와 연결할 레코드에 해당하는 셀을 두 번 클릭합니다.
 
    ![](assets/connect-projects-smaller-box-in-table-view.png)
 
@@ -307,11 +247,11 @@ Workfront Planning에서 Planning 레코드의 다음 영역에 있는 레코드
 
 1. (선택 사항) 연결할 개체를 찾을 수 없고 개체를 추가하려면 **+ 추가**&#x200B;를 클릭하여 새 프로젝트 또는 포트폴리오를 만들고 추가하십시오.
 
-   템플릿 또는 포트폴리오가 없는 프로젝트만 Planning 레코드에 연결할 때 추가할 수 있습니다. 새 프로그램, 사용자 또는 회사를 추가할 수 없습니다.
+   템플릿 또는 포트폴리오가 없는 프로젝트만 Planning 레코드에 연결할 때 추가할 수 있습니다. 새 프로그램, 그룹 또는 회사를 추가할 수 없습니다.
 
 1. (선택 사항) 적어도 볼 수 있는 권한이 있는 모든 개체를 표시하려면 **모두 보기**&#x200B;를 클릭합니다.
 
-1. (조건부) 이전 단계에서 **모두 보기**&#x200B;를 클릭한 경우 **개체 연결** 상자가 표시됩니다.
+   이전 단계에서 **모두 보기**&#x200B;를 클릭한 경우 **개체 연결** 상자가 표시됩니다.
 
    ![](assets/connect-objects-box-to-select-projects.png)
 
@@ -473,7 +413,7 @@ Workfront Planning에서 Planning 레코드의 다음 영역에 있는 레코드
 1. (조건부) 같은 형식의 레코드나 개체를 더 추가하려면 **연결**&#x200B;을 클릭합니다.
 1. 이전 섹션에서 설명한 단계에 따라 Workfront Planning의 레코드 또는 Workfront 또는 Experience Manager Assets의 개체를 연결합니다.
 레코드와 개체가 즉시 추가됩니다.
-1. (선택 사항) 레코드 또는 개체의 연결된 카드 위에 마우스를 놓은 다음 **레코드 연결 끊기** 아이콘 **-**&#x200B;을 클릭하여 선택한 레코드에서 연결을 끊습니다.
+1. (선택 사항) 레코드 또는 개체의 연결된 카드 위에 마우스를 놓은 다음 **레코드 연결 끊기** 아이콘 ![](assets/disconnect-icon-with-tooltip.png)을 클릭하여 선택한 레코드에서 연결을 끊습니다.
 
    ![](assets/disconnect-record-icon-with-tooltip-on-connections-tab.png)
 

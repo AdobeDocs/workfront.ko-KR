@@ -1,5 +1,5 @@
 ---
-source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
 source-wordcount: '2586'
 ht-degree: 1%
@@ -281,7 +281,7 @@ Workfront 프로젝트에 있는 동안 사용자가 Experience Manager에 연�
 
 >[!IMPORTANT]
 >
->이 문서의 정보는 Adobe Workfront의 새 서비스인 Adobe Workfront Planning을 참조합니다.
+>이 문서의 정보는 Adobe Workfront의 추가 기능인 Adobe Workfront Planning을 참조합니다.
 >
 >Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 >
