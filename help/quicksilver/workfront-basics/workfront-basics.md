@@ -2,7 +2,7 @@
 content-type: reference
 navigation-topic: get-started-with-workfront
 title: Adobe Workfront 기본 사항
-description: Adobe Workfront의 기본 사항을 이해하려면 다음 영역을 검토하십시오.
+description: Adobe Workfront의 기본 사항을 이해하려면 다음 영역을 검토합니다.
 author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
