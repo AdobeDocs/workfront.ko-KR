@@ -7,9 +7,9 @@ description: 댓글 요약은 Workfront Proof에서 액세스할 수 있습니�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 212d465c-5605-4bb9-af5a-cea377619cfe
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -30,13 +30,13 @@ ht-degree: 0%
 
 ### 증명 뷰어 {#the-proof-viewer}
 
-증명 뷰어에서 **[!UICONTROL 인쇄]** 아이콘을 클릭하여 증명의 축소판 또는 전체 보기 이미지를 포함하여 증명의 댓글 요약을 인쇄할 수 있습니다. (1)
+증명 뷰어에서 **[!UICONTROL 인쇄]** 아이콘을 클릭하여 증명의 축소판 또는 전체 보기 이미지를 포함하여 증명의 댓글 요약을 인쇄할 수 있습니다.
 
 ![PV_print_all_comm.png](assets/pv-print-all-comm-350x158.png)
 
 ### 증명 세부 정보 페이지 {#the-proof-details-page}
 
-증명 세부 정보 페이지에서 **[!UICONTROL 인쇄]** 아이콘을 클릭하여 증명의 댓글 요약을 인쇄할 수 있습니다. (2)
+증명 세부 정보 페이지에서 **[!UICONTROL 인쇄]** 아이콘을 클릭하여 증명의 댓글 요약을 인쇄할 수 있습니다.
 
 ![proof_details_page.png](assets/proof-details-page-350x231.png)
 
@@ -46,17 +46,18 @@ ht-degree: 0%
 
 목록 보기에서 [!UICONTROL 댓글 요약] 페이지에 액세스하려면:
 
-1. **[!UICONTROL 작업]** 메뉴를 클릭합니다. (3)
-1. **[!UICONTROL 댓글 인쇄]**&#x200B;를 선택합니다. (4)
+1. **[!UICONTROL 작업]** 메뉴를 클릭합니다.
+1. **[!UICONTROL 댓글 인쇄]**&#x200B;를 선택합니다.
 
-![List_view.png](assets/list-view-350x155.png)\
-설명 요약 페이지에서 다음과 같은 인쇄 옵션을 선택할 수 있습니다.
+   ![List_view.png](assets/list-view-350x155.png)
 
-* 썸네일 보기(1)
-* 전체 페이지 보기 (2)
-* 페이지 인쇄 (3)
-* 댓글이 포함된 증명을 PDF 파일로 내보내기(4)
-* 증명 주석을 [!DNL Excel] 파일로 내보내기(5)
+   설명 요약 페이지에서 다음과 같은 인쇄 옵션을 선택할 수 있습니다.
+
+   * 썸네일 보기(1)
+   * 전체 페이지 보기 (2)
+   * 페이지 인쇄 (3)
+   * 댓글이 포함된 증명을 PDF 파일로 내보내기(4)
+   * 증명 주석을 [!DNL Excel] 파일로 내보내기(5)
 
 ![PV_thumb_full_option_callouts.png](assets/pv-thumb-full-option-callouts-350x154.png)
 
@@ -89,7 +90,8 @@ ht-degree: 0%
 증명 세부 정보 페이지에서 [!DNL Excel] 요약을 다운로드하려면 다음을 수행하십시오.
 
 1. **[!DNL Excel]**(으)로 내보내기 아이콘을 클릭합니다. (2)
-1. ![Export_to_excel.png](assets/export-to-excel-350x185.png)
+
+   ![Export_to_excel.png](assets/export-to-excel-350x185.png)
 
 ## PDF으로 내보내기
 

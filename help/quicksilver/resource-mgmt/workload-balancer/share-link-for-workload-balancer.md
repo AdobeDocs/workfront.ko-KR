@@ -6,7 +6,7 @@ description: 리소스 조달 영역을 사용할 수 없는 다른 사용자와
 author: Lisa
 feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 1%
@@ -136,4 +136,4 @@ ht-degree: 1%
 
      >[!IMPORTANT]
      >
-     >업무 균형자 를 객체의 사용자 정의 섹션에 추가할 때 업무 균형자에 있는 정보가 객체에 의해 필터링되지 않습니다. 업무 균형자에 원래 적용된 필터로 필터링된 정보가 표시됩니다.
+     >업무 균형자 를 객체의 사용자 정의 섹션에 추가할 때 업무 균형자에 있는 정보가 객체에 의해 필터링되지 않습니다. 업무 균형자에 원래 적용된 필터로 필터링된 정보가 표시됩니다.

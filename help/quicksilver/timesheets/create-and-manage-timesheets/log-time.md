@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
 workflow-type: tm+mt
-source-wordcount: '3856'
+source-wordcount: '3830'
 ht-degree: 0%
 
 ---
@@ -335,10 +335,8 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
 
 홈에서 프로젝트별 시간을 기록할 수 있습니다.
 
-홈 영역 사용에 대한 일반 정보는 다음 섹션을 참조하십시오.
+홈 영역 사용에 대한 일반적인 정보는 [홈 영역 사용](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)을 참조하십시오.
 
-* 기존 홈 영역 사용에 대한 자세한 내용은 [홈 영역 사용](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)을 참조하십시오.
-* 새 홈 영역 사용에 대한 자세한 내용은 [새 홈 시작](../../workfront-basics/using-home/new-home/get-started-with-new-home.md)을 참조하세요.
 
 #### 새 홈 영역의 작업 항목에 시간을 기록합니다.
 

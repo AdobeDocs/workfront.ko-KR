@@ -7,7 +7,7 @@ description: 리소스 플래너의 프로젝트 및 역할 보기에서 시간,
 author: Lisa
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
 workflow-type: tm+mt
 source-wordcount: '2977'
 ht-degree: 0%
@@ -329,7 +329,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->**순 시간, FTE 또는 비용이 빨간색으로 표시되는 경우 예산 책정된 시간 또는 예산에 충분한 사용 가능한 시간 또는 예산이 없습니다** 또는 작업과 관련된 계획된 시간 또는 비용입니다. 이 경우 자원이 초과 할당됩니다.
+>순 시간, FTE 또는 비용이 적색으로 표시되는 경우 예산책정된 시간이나 작업과 연관된 계획된 시간 또는 비용을 처리할 수 있는 가용 시간이나 예산이 충분하지 않습니다. 이 경우 자원이 초과 할당됩니다.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(the table below is ideal but it does not transfer to Markdown)</p>

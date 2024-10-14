@@ -6,14 +6,16 @@ description: Adobe Experience Cloud을 통해  [!DNL Workfront] 에 액세스하
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: e6688408c3316a3f99fdb051adeb306f359057d1
+source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
 
 # [!DNL Workfront]에 대한 [!DNL Adobe Unified Experience]
+
+<!--Audited: 10/2024-->
 
 [!DNL Adobe Experience Cloud]을(를) 통해 [!DNL Workfront]에 액세스하면 모든 [!DNL Adobe] 응용 프로그램을 관리할 수 있는 원활하고 통합된 환경을 얻을 수 있습니다. 단일 ID 관리를 사용하면 여러 URL이나 로그인 ID 없이 한 곳에서 로그인할 수 있습니다.
 
@@ -25,6 +27,8 @@ ht-degree: 0%
 | experience.adobe.com | 통합 경험 Adobe |
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -38,23 +42,26 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
-   <td> <p>[!UICONTROL Request] 이상</p> </td> 
+   <td> <p>새로운 기능: [!UICONTROL Contributor] 이상</p> 
+   <p>현재: [!UICONTROL Request] 이상</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 전제 조건
 
-조직의 [!DNL Workfront] 인스턴스는 [!DNL Adobe Business Platform]/[!DNL Adobe Admin Console]에 온보딩되어야 합니다.
+조직의 [!DNL Workfront] 인스턴스는 [!DNL Adobe Business Platform] 또는 [!DNL Adobe Admin Console]에 온보딩되어야 합니다.
 
 [!DNL Adobe Admin Console] 온보딩에 대한 질문이 있는 경우 [[!DNL Adobe Unified Experience] FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md/)를 참조하세요.
 
 ## [!DNL Adobe Experience Cloud]에 로그인
 
 1. 브라우저 창을 열고 <https://experience.adobe.com>(으)로 이동합니다.
-1. [!UICONTROL 로그인] 화면에서 전자 메일 주소를 입력하고 **[!UICONTROL 계속]**&#x200B;을 클릭합니다.
+1. [!UICONTROL **로그인**] 화면에서 전자 메일 주소를 입력하고 **[!UICONTROL 계속]**&#x200B;을 클릭합니다.
 
    [!DNL Adobe Experience Cloud]](assets/aec-login-page.png)에 ![로그인
 
