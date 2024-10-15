@@ -6,9 +6,9 @@ description: ' [!DNL Workfront] 과(와) Adobe Experience Cloud 간에 몇 가�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: be60ec38495a7c25d88e325cf4ba96decf083ea3
+source-git-commit: d4ae54f14c2328888ce80902275b0d390fb4fbb7
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1363'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,7 @@ ht-degree: 0%
 | 증명 뷰어가 새 탭에서 열립니다 | 증명 뷰어가 Workfront 내에서 열립니다 |
 | Workfront에 액세스하는 데 사용된 URL은 `experience.adobe.com`입니다. | Workfront에 액세스하는 데 사용된 URL은 `(CompanyName).my.workfront.com`입니다. |
 | 날짜 형식(예: YYYY/MM/DD)은 통합 경험 언어 설정을 기반으로 합니다. 사용자가 언어 설정을 업데이트하지 않으면 `en-US` 설정이 사용됩니다. | 날짜 형식(예: YYYY/MM/DD)은 브라우저 환경 설정을 기반으로 합니다. |
+| JumpSeat 통합은 지원되지 않습니다. | Jumpseat 통합이 지원됩니다 |
 
 {style="table-layout:auto"}
 

@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion에는 Adobe Workfront 라이센스 외에 Ad
 author: Becky
 feature: Workfront Fusion
 exl-id: f6295cc7-367f-4c8b-891b-cc11ff42a225
-source-git-commit: 55a4fda46f6d314c71d9ef98864b21b84f946b09
+source-git-commit: d4ae54f14c2328888ce80902275b0d390fb4fbb7
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,28 @@ ht-degree: 0%
 >[!DNL Adobe Workfront Fusion]에는 [!DNL Adobe Workfront license] 외에 [!DNL Adobe Workfront Fusion] 라이선스가 필요합니다.
 
 허용 목록에 추가하다 방화벽 또는 메일 서버가 특정 공급업체에 대한 액세스만 허용하도록 구성된 경우 해당 공급업체에 특정 IP 주소를 추가하여 해당 환경과 [!DNL Adobe Workfront Fusion] 간에 열린 통신을 허용해야 합니다.
+
+## 데이터 센터 식별
+
+IP 주소는 데이터가 저장되는 위치에 따라 다릅니다.
+
+URL을 통해 Fusion에 액세스하는 경우 URL을 검사하여 데이터 센터를 찾을 수 있습니다.
+
+| URL | 데이터 센터 |
+| --- | --- |
+| `https://app.workfrontfusion.com/` | 미국 데이터 센터 |
+| `https://app-eu.workfrontfusion.com/` | EU 데이터 센터 |
+| `https://app-az.workfrontfusion.com/` | Azure 데이터 센터 |
+
+experience.adobe.com을 통해 Fusion에 액세스하는 경우 브라우저에서 네트워크 탭을 확인하여 데이터 센터를 식별할 수 있습니다.
+
+| URL | 데이터 센터 |
+| --- | --- |
+| `https://fusion.adobe.com`에 대한 호출 | 미국 데이터 센터 |
+| `https://eu.fusion.adobe.com`에 대한 호출 | EU 데이터 센터 |
+| `https://az.fusion.adobe.com`에 대한 호출 | Azure 데이터 센터 |
+
+## Workfront Fusion용 IP 주소
 
 [!DNL Workfront Fusion]이(가) 시스템에 액세스할 수 있도록 하려면 다음 IP 주소를 허용 목록에 추가하다에 추가하십시오.
 
