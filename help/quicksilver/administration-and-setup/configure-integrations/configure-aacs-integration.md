@@ -6,9 +6,9 @@ description: ' [!DNL Experience Manager Assets]에서 작업을 콘텐츠와 연
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 99924f690c53584c090d19fff90d23d84ec306d4
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1700'
 ht-degree: 0%
 
 ---
@@ -242,9 +242,11 @@ When this option is enabled, any asset that has been pushed to Adobe Experience 
 
 ## 워크플로우 설정(선택 사항)
 
-워크플로는 Workfront을 Adobe Experience Manager as a Cloud Service에 연결하는 작업 세트입니다. Workfront 관리자는 Workfront에서 워크플로우를 구성한 다음 프로젝트 템플릿에 할당할 수 있습니다. 워크플로가 할당된 프로젝트 템플릿을 사용하여 프로젝트를 만들면 워크플로에 정의된 작업이 트리거됩니다.
+워크플로는 Workfront을 Adobe Experience Manager as a Cloud Service에 연결하는 작업 세트입니다. Workfront 관리자는 Workfront에서 워크플로우를 구성한 다음 프로젝트 템플릿에 할당할 수 있습니다.
 
-Adobe Experience Manager 전체에 대해 워크플로우가 활성화되고 구성됩니다. 그런 다음 이러한 워크플로를 프로젝트 템플릿에 적용하고 템플릿 또는 프로젝트 수준에서 조정하거나 사용자 정의할 수 있습니다.
+워크플로가 할당된 프로젝트 템플릿을 사용하여 프로젝트를 만들면 워크플로에 정의된 작업이 트리거됩니다.
+
+Adobe Experience Manager 전체에 대해 워크플로우가 활성화되고 구성됩니다. 그런 다음 이러한 워크플로를 프로젝트 템플릿에 적용할 수 있습니다. 템플릿 수준 또는 해당 템플릿에서 프로젝트를 만들 때 프로젝트 수준에서 조정하거나 사용자 지정할 수 있습니다.
 
 Adobe Experience Manager 통합에서 사용할 수 있는 워크플로는 다음과 같습니다.
 

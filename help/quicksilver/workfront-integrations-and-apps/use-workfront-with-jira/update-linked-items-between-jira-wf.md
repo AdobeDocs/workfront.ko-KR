@@ -6,9 +6,9 @@ description: ' [!DNL Jira] 문제를  [!DNL Adobe Workfront] 작업 또는 문�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 79ac6ff1-2f7d-4abc-8735-398f6aac5191
-source-git-commit: e01f5eaf3133fa1bdaedf4dad56e9a8175b70667
+source-git-commit: 99924f690c53584c090d19fff90d23d84ec306d4
 workflow-type: tm+mt
-source-wordcount: '1570'
+source-wordcount: '1576'
 ht-degree: 0%
 
 ---
@@ -122,7 +122,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!UICONTROL Comments]</td> 
-   <td> <p>댓글이 [!DNL Jira] 문제의 <strong>[!DNL Workfront]</strong> 탭에 추가됩니다. [!DNL Jira] 문제의 <strong>[!UICONTROL Comments]</strong> 탭에 추가되지 않았습니다.</p> <p>참고: 두 개의 기존 항목을 수동으로 연결할 때 [!DNL Jira]에 연결하기 전에 [!DNL Workfront] 항목에 추가된 댓글은 [!DNL Jira] 문제와 동기화되지 않습니다. </p> </td> 
+   <td> <p>댓글이 [!DNL Jira] 문제의 <strong>[!DNL Workfront]</strong> 탭에 추가됩니다. [!DNL Jira] 문제의 <strong>[!UICONTROL Comments]</strong> 탭에 추가되지 않았습니다.</p> <p>참고: 두 개의 기존 항목을 수동으로 연결할 때 [!DNL Jira]에 연결하기 전에 [!DNL Workfront] 항목에 추가된 댓글은 [!DNL Jira] 문제와 동기화되지 않습니다. </p> <p>Jira 주석은 Workfront과 동기화됩니다.</td> 
   </tr> 
  </tbody> 
 </table>
