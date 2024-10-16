@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: ac14cbb856181f2bef5ab69a9d5408ef8137190f
+source-git-commit: 00a1876e005f0f0c47bdebaab77bbcfe42318612
 workflow-type: tm+mt
-source-wordcount: '14488'
+source-wordcount: '14530'
 ht-degree: 2%
 
 ---
@@ -884,6 +884,14 @@ ht-degree: 2%
    * 우선 순위 {#priorities}
       * [우선 순위: 문서 색인](workfront-basics/priorities/priorities-toc.md)
       * [우선 순위 시작](workfront-basics/priorities/get-started-with-priorities.md)
+      * [우선 순위에서 작업 필터링 및 그룹화](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
+      * [작업 목록 열 사용자 정의](/help/quicksilver/workfront-basics/priorities/customize-worklist-columns.md)
+      * [중요한 작업 항목의 우선 순위 지정](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md)
+      * [우선 순위에서 작업 및 문제 만들기](/help/quicksilver/workfront-basics/priorities/create-task-issue-priorities.md)
+      * [우선 순위에서 업데이트 추가 및 보기](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md)
+      * [우선 순위에 시간 기록](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md)
+      * [우선 순위로 파일 업로드](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md)
+      * [우선 순위에 빠른 링크 추가 및 관리](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md)
    * 홈 {#home}
       * [홈](workfront-basics/using-home/home.md)
       * 새 홈 {#new-home}

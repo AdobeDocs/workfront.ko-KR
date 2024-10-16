@@ -5,15 +5,15 @@ description: 우선 순위는 작업 소유자에게 맞는 능률적이고 직�
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
+source-git-commit: 00a1876e005f0f0c47bdebaab77bbcfe42318612
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '955'
 ht-degree: 3%
 
 ---
 
 
-# 우선 순위 시작
+# [!DNL Priorities] 시작
 
 우선 순위는 작업 소유자에게 맞는 능률적이고 직관적인 경험입니다. 우선 순위는 작업 목록부터 시작하여 단계적으로 롤아웃됩니다.
 
@@ -80,6 +80,10 @@ Priority를 사용하면 다음과 같은 이점을 누릴 수 있습니다
     <td>상태</td>
     <td>작업 또는 문제를 신규, 진행 중 및 완료 상태로 표시</td>
     </tr>
+     <tr>
+    <td>내 포커스</td>
+    <td>포커스 수준이 할당된 의 작업 또는 문제를 표시합니다. 포커스 수준은 개별 사용자가 할당 및 관리합니다.</td>
+    </tr>
   </tbody>
 </table>
 
@@ -88,11 +92,12 @@ Priority를 사용하면 다음과 같은 이점을 누릴 수 있습니다
 작업을 필터링한 후에는 다음을 기준으로 항목을 그룹화할 수 있습니다.
 
 * 없음
+* 내 포커스
 * 주 마감일
 * 상태
 * 프로젝트
 
-<!--For more information, see [Find and organize your work in Priorities]().-->
+자세한 내용은 [우선 순위에서 작업 필터링 및 그룹화](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)를 참조하십시오.
 
 ### 내 포커스를 사용하여 중요한 작업 항목의 우선 순위 지정
 
@@ -105,7 +110,7 @@ Priority를 사용하면 다음과 같은 이점을 누릴 수 있습니다
 
 작업 항목에 포커스 수준을 할당하면 열을 정렬하여 작업 목록의 맨 위에 긴급 항목을 표시할 수 있습니다.
 
-<!--For more information, see [Prioritize important work items with My Focus]().-->
+자세한 내용은 [중요한 작업 항목 우선 순위 지정](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md)을 참조하십시오.
 
 ![](assets/my-focus-column.png)
 
@@ -133,7 +138,7 @@ Priority를 사용하면 다음과 같은 이점을 누릴 수 있습니다
 
 업데이트 섹션에는 시스템 업데이트와 지난 90일 이내에 수행한 가장 최근 업데이트 사용자 중 최대 200명이 표시됩니다.
 
-<!--For more information, see [Add and view updates in Priorities]().-->
+자세한 내용은 [우선 순위에서 댓글 추가 및 보기](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md)를 참조하십시오.
 
 ![](assets/new-update.png)
 
@@ -141,7 +146,7 @@ Priority를 사용하면 다음과 같은 이점을 누릴 수 있습니다
 
 작업 항목에 대한 시간을 기록하여 작업에 소비한 시간을 나타낼 수 있습니다. 휴가, 병가, 회의 등 업무와 관련 없는 시간도 기록할 수 있다. 기록한 시간이 타임시트에 표시됩니다.
 
-<!--For more information, see [Log time in Priorities]().-->
+자세한 내용은 [우선 순위에 시간 기록](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md)을 참조하십시오.
 
 ![](assets/log-time.png)
 
@@ -154,7 +159,7 @@ Priority를 사용하면 다음과 같은 이점을 누릴 수 있습니다
 * 추가 파일 추가
 * 연결된 문서 통합에서 파일 가져오기
 
-<!--For more information, see [Upload files in Priorities]().-->
+자세한 내용은 [우선 순위로 파일 업로드](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md)를 참조하십시오.
 
 ![](assets/upload-file.png)
 
@@ -170,7 +175,7 @@ Priority를 사용하면 다음과 같은 이점을 누릴 수 있습니다
 
 ![](assets/quick-links.png)
 
-<!--For more information, see [Add and manage quick links in Priorities]().-->
+자세한 내용은 [우선 순위에서 빠른 링크 추가 및 관리](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md)를 참조하십시오.
 
 ### 자산 검토 및 승인 [!BADGE 준비 중]{type=Informative}
 
@@ -181,9 +186,9 @@ Priority를 사용하면 다음과 같은 이점을 누릴 수 있습니다
 자세한 내용은 [새 홈에서 위젯 추가, 편집 또는 제거](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)를 참조하세요.
 
 
-## [!BADGE 준비 중]에 놓친 내용을 확인하려면 회람을 사용하세요.{type=Informative}
+## [!DNL Catch me up]을(를) 사용하여 놓친 항목 확인 [!BADGE 곧 출시]{type=Informative}
 
-Catch me up 기능을 사용하여 놓친 내용을 확인하십시오. Catch me는 업데이트, 업로드된 문서, 승인 및 프로젝트에 대한 기타 주요 변경 사항을 24시간, 3일, 7일 이내에 요약합니다.
+[!DNL Catch me up] 기능을 사용하여 놓친 내용을 확인하세요. Catch me는 업데이트, 업로드된 문서, 승인 및 프로젝트에 대한 기타 주요 변경 사항을 24시간, 3일, 7일 이내에 요약합니다.
 
 
 ![](assets/catch-me-up.png)

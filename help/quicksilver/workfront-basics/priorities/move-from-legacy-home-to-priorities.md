@@ -5,9 +5,9 @@ description: 레거시 홈은 4분기 릴리스를 통해 10월 17일에 Workfro
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: e63180a5d2b542f98c96ec5a2bd2fb0df078bb11
+source-git-commit: 00a1876e005f0f0c47bdebaab77bbcfe42318612
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '568'
 ht-degree: 3%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 3%
 
 | **필터** | **그룹화** |
 |------------|-----------|
-| - <br>에서 작업 중 - 시작 준비 완료 <br> - 준비 안 됨 <br> - 요청된 <br> - 완료 <br> - 프로젝트 <br> - 기한 <br> - 상태 | - 없음 <br> - 기한 <br> - 상태 <br> - 프로젝트 |
+| - <br>에서 작업 중 - 시작 준비 완료 <br> - 준비 안 됨 <br> - 요청된 <br> - 완료 <br> - 프로젝트 <br> - 기한 <br> - 상태 <br> - 내 포커스 | - 없음 <br> - 내 포커스 <br> - 기한 주 <br> - 상태 <br> - 프로젝트 |
 
 
 **우선 순위에서 레거시 홈 필터 및 그룹화 옵션을 사용할 수 없음**
