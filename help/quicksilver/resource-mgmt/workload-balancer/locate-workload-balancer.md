@@ -7,7 +7,7 @@ description: 업무 균형자 를 사용하여 작업에 대한 리소스를 예
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: 2375cf5d7ae817340ce9552994d87cb5af9a054b
 workflow-type: tm+mt
 source-wordcount: '704'
 ht-degree: 0%
@@ -104,16 +104,16 @@ ht-degree: 0%
 
 1. 왼쪽 패널에서 **업무 균형자**&#x200B;를 클릭합니다.
 
-![](assets/nwe-balancer-team-350x172.png)
+   ![](assets/nwe-balancer-team-350x172.png)
 
-팀의 업무 균형자 에는 기본적으로 다음 정보가 표시됩니다.
+   팀의 업무 균형자 에는 기본적으로 다음 정보가 표시됩니다.
 
-* **할당 해제된 작업**: 팀에 할당되고 사용자에게 할당되지 않은 항목입니다.
-* **할당된 작업**: 모든 할당이 있는 모든 팀원
+   * **할당 해제된 작업**: 팀에 할당되고 사용자에게 할당되지 않은 항목입니다.
+   * **할당된 작업**: 모든 할당이 있는 모든 팀원
 
-  >[!TIP]
-  >
-  >팀원에게도 팀에 할당된 작업 또는 다른 팀이나 역할에 할당된 작업에 할당되었을 수 있습니다.
+     >[!TIP]
+     >
+     >팀원에게도 팀에 할당된 작업 또는 다른 팀이나 역할에 할당된 작업에 할당되었을 수 있습니다.
 
 ### 프로젝트의 업무 균형자 액세스
 
