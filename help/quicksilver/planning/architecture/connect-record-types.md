@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 7b5441b2aa17b22f0fd54cfe4921aa5dab2e0461
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '2222'
+source-wordcount: '2248'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # 레코드 유형 연결
 
-<span class="preview">이 페이지의 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>-->
 
 {{planning-important-intro}}
 
@@ -41,7 +41,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
 +++ 를 확장하여 Workfront Planning에 대한 액세스 요구 사항을 봅니다.
 
-Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
+이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -55,7 +55,12 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
    <p> 제품</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront 계획<p></li></ul></td> 
+   <li><p> Adobe Workfront 계획<p></li>
+   <li><p> Adobe Experience Manager Assets, AEM assets를 Planning 레코드 유형과 연결하려면<p>
+   <p>Adobe Experience Manager Assets 라이선스가 있어야 하며 AEM Assets과 Workfront 간의 통합이 있어야 합니다.
+    자세한 내용은 <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Experience Manager Assets 및 Assets Essentials용 Adobe Workfront: 문서 색인</a>을 참조하세요. </p>
+   </li>
+   </ul></td> 
   </tr>   
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 플랜*</p></td> 
@@ -185,7 +190,8 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 
    * 현재 작업 공간의 다른 레코드 유형
 
-     <span class="preview">![](assets/many-to-many-connection-picker.png)</span>
+     ![](assets/many-to-many-connection-picker.png)
+
      >[!TIP]
      >
      > 
@@ -194,7 +200,7 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 
    * 다른 작업 영역에서 연결하도록 구성된 다른 작업 영역의 레코드 유형입니다. 자세한 내용은 [레코드 종류 편집](/help/quicksilver/planning/architecture/edit-record-types.md)을 참조하세요.
 
-     <span class="preview">![](assets/new-connection-allow-multiple-records-box.png)</span>
+     ![](assets/new-connection-allow-multiple-records-box.png)
 
      >[!TIP]
      >
@@ -207,7 +213,7 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 
    * **응용 프로그램 Adobe** 섹션의 **Experience Manager Assets**.
 
-     <span class="preview">![](assets/aem-assets-connection-selection.png)</span>
+     ![](assets/aem-assets-connection-selection.png)
 
 1. 다음 정보를 업데이트합니다.
 
@@ -222,7 +228,7 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 
      이 옵션은 두 개의 다른 작업 영역 또는 레코드와 Adobe Experience Manager 에셋 개체의 레코드를 연결하는 경우에만 사용할 수 있습니다.
 
-     <span class="preview">![](assets/new-connection-allow-multiple-records-box.png)</span>
+     ![](assets/new-connection-allow-multiple-records-box.png)
 
    * **연결 유형**: 다음 옵션 중 하나를 선택하여 연결할 수 있는 레코드 수를 나타냅니다.
 
@@ -233,7 +239,7 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 
      이 옵션은 동일한 작업 영역 또는 레코드와 Workfront 개체 유형의 레코드를 연결하는 경우에만 사용할 수 있습니다.
 
-     <span class="preview">![](assets/many-to-many-connection-picker.png)</span>
+     ![](assets/many-to-many-connection-picker.png)
 
      연결 유형에 대한 자세한 내용은 [연결된 레코드 유형 개요](/help/quicksilver/planning/architecture/connect-record-types-overview.md)를 참조하십시오.
 
@@ -262,9 +268,9 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 
 1. (조건부) Experience Manager Assets 또는 Workfront Planning 레코드 유형에 연결하도록 선택한 경우 **기록 모양** 영역에서 다음 옵션 중 하나를 선택합니다.
 
-   * <span class="preview">**이름 및 이미지**: 연결된 레코드의 이름과 축소판 그림 또는 아이콘이 모두 연결된 레코드 필드에 표시됩니다. 기본 옵션입니다. </span>
-   * <span class="preview">**이름**: 연결된 레코드의 이름만 연결된 레코드 필드에 표시됩니다.</span>
-   * <span class="preview">**이미지**: 연결된 레코드의 축소판이나 아이콘만 연결된 레코드 필드에 표시됩니다.</span>
+   * **이름 및 이미지**: 연결된 레코드의 이름과 축소판 그림 또는 아이콘이 모두 연결된 레코드 필드에 표시됩니다. 기본 옵션입니다.
+   * **이름**: 연결된 레코드의 이름만 연결된 레코드 필드에 표시됩니다.
+   * **이미지**: 연결된 레코드의 축소판이나 아이콘만 연결된 레코드 필드에 표시됩니다.
 
    썸네일 이미지가 없는 레코드에는 레코드 유형 아이콘이 대신 표시됩니다. 연결된 레코드가 표시되는 방법의 예는 **레코드 모양** 영역에 표시됩니다.
 
@@ -276,7 +282,7 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
    >
    >* Workfront 개체 유형을 선택할 때는 레코드 모양을 선택할 수 없습니다.
    >
-   >* 레코드 표시 영역에서 선택하는 사항에 따라 모든 보기 및 세부 정보 페이지를 포함하여 시스템의 모든 위치에서 연결에 레코드가 표시되는 방식이 결정됩니다.
+   >* 레코드 표시 영역에서 선택하는 내용은 모든 보기 및 세부 정보 페이지를 포함하여 시스템의 모든 위치에서 연결에 레코드가 표시되는 방식을 결정합니다.
 
 1. Click **Create**.
 

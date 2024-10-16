@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '2116'
+source-wordcount: '2100'
 ht-degree: 1%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 1%
 
 <!--do not use the snippet for IMPORTANT as it links to this article-->
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리 보기 환경이나 빠른 릴리스를 활성화한 고객의 프로덕션 환경에서만 사용할 수 있습니다.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>을 참조하세요.
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">현재 릴리스에 대한 자세한 내용은 [2023년 4분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)를 참조하십시오.</span>
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>-->
 
 >[!IMPORTANT]
 >
@@ -86,7 +86,9 @@ Workfront Planning은 다음과 같은 질문에 답변할 수 있습니다.
 * 동일한 작업 영역에 속하는 레코드 연결
 * 다른 작업 공간에 속한 레코드 연결
 * Workfront Planning 레코드를 Workfront 프로젝트, 프로그램, 포트폴리오, 회사, 그룹에 연결
-* Workfront Planning 레코드를 Adobe Experience Manager 에셋에 연결
+* Workfront Planning 레코드를 Adobe Experience Manager 에셋에 연결\
+  Adobe Experience Manager Assets 라이선스가 있어야 하며 AEM Assets과 Workfront 간의 통합이 있어야 합니다.
+자세한 내용은 [Experience Manager Assets 및 Assets Essentials용 Adobe Workfront: 문서 색인](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)을 참조하세요.
 * 세부 정보 탭에서 레코드 정보 보기
 * 연결 탭에서 레코드 연결 보기
 * 레코드 페이지의 레이아웃 사용자 지정
@@ -95,7 +97,7 @@ Workfront Planning은 다음과 같은 질문에 답변할 수 있습니다.
 * Workfront 사용자가 아닌 사용자도 외부 리소스와 공개적으로 보기를 공유할 수 있습니다
 * 중복 보기
 * 요청을 제출하여 레코드 만들기
-* Word <span class="preview"> 및 PDF으로 레코드 세부 정보를 내보냅니다.</span>
+* Word 및 PDF으로 레코드 세부 사항을 내보냅니다.
 * 레코드에 주석 추가
 * 인앱 알림 수신
 * 이메일 알림 수신
@@ -108,7 +110,8 @@ Workfront Planning은 다음과 같은 질문에 답변할 수 있습니다.
 * Workfront Planning 공용 API
 * Adobe Workfront Fusion용 Adobe Workfront Planning 모듈
 * Workfront Planning AI Assistant
-* Workfront Planning 정보 보고(캔버스 대시보드)
+* Workfront Planning 정보 보고
+캔버스 대시보드를 사용하여 Planning 정보에 대해 보고할 수 있습니다. 자세한 내용은 [캔버스 대시보드 개요](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)를 참조하십시오.
 
 <!--OLD: 
 
@@ -375,7 +378,7 @@ Workfront Planning에 대한 새로운 기능을 정기적으로 릴리스하고
 
 ## Workfront Planning을 위한 추가 리소스
 
-* [Adobe Workfront Planning: 문서 색인](/help/quicksilver/planning/planning-information.md): 관심 영역별로 그룹화된 Workfront Planning에 대한 설명서가 포함된 모든 문서가 있는 색인입니다.
+* [Adobe Workfront Planning: 문서 색인](/help/quicksilver/planning/planning-information.md): 관심 영역별로 그룹화된 Workfront Planning에 대한 설명서가 포함된 모든 문서의 색인입니다.
 * [Adobe Workfront Planning AI Assistant 개요](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): Workfront Planning AI Assistant를 사용하여 명령을 사용하여 레코드를 검색하거나, 레코드를 생성, 업데이트 및 삭제할 수 있으며, 이를 통해 Assistant가 작업을 수행하도록 할 수 있습니다.
   <!--
     >[!NOTE]

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '2073'
+source-wordcount: '2110'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Linked to Converting Issues.-->
 
    <!--
 <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">작업</a> </li>
-  -->
+  —&gt;
 
 * [[!UICONTROL 액세스]](#access)
 
@@ -193,15 +193,22 @@ Linked to Converting Issues.-->
 
 이 설정을 사용하면 사용자에게 다음이 표시됩니다.
 
-* [!UICONTROL Home] 영역의 [!UICONTROL Delegate] 링크 여기에서 승인 또는 작업 및 문제 할당을 위임할 수 있습니다.
+* [!UICONTROL 홈] 영역의 [!UICONTROL 내 작업], [!UICONTROL 내 작업] 또는 [!UICONTROL 내 문제] 위젯에 있는 [!UICONTROL **대리인**] 링크입니다. 여기에서 작업 및 문제 할당을 위임할 수 있습니다.
+
+  >[!NOTE]
+  >
+  >  [!UICONTROL **승인 위임**] 링크는 항상 [!UICONTROL Home] 영역에서 활성화됩니다.
+
 * 작업 또는 문제 헤더의 [!UICONTROL 할당 및 위임] 영역에서 작업 또는 문제가 다른 사용자에게 위임되었음을 나타냅니다.
+* 작업 또는 문제가 [!UICONTROL Home]의 [!UICONTROL 내 작업] 위젯에서 다른 사용자에게 위임되었음을 나타냅니다.
 
   [!UICONTROL 사용자가 자신의 작업 및 문제를 위임하도록 허용] 설정을 사용하지 않도록 설정하면 현재 예약된 위임이 중지되고 위임된 사용자는 위임이 중지되었다는 이메일 알림을 받게 됩니다.
 
 다른 사용자에게 작업을 위임하는 방법에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
 * [작업 위임 개요](../../../manage-work/delegate-work/delegate-work-overview.md)
-* [작업 및 문제 위임 관리](../../../manage-work/delegate-work/how-to-delegate-work.md)
+* [작업 및 문제 위임](../../../manage-work/delegate-work/how-to-delegate-work.md)
+
 
 <!--
 <p><strong>Work On It</strong></p>

@@ -7,9 +7,9 @@ author: Lisa
 feature: Resource Management
 role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '721'
 ht-degree: 1%
 
 ---
@@ -105,7 +105,7 @@ Adobe Workfront 업무 균형자 를 사용하여 사용자에게 작업 항목�
 
    >[!TIP]
    >
-   > Workfront 또는 그룹 관리자가 사용자 환경에서 위임을 활성화한 경우 할당 탭을 사용하여 사용자를 작업 또는 문제에 할당합니다. 위임 탭을 사용하여 작업 항목에 위임된 사용자를 봅니다. 작업 위임에 대한 자세한 내용은 [작업 및 문제 위임 관리](../../manage-work/delegate-work/how-to-delegate-work.md)를 참조하십시오.
+   > Workfront 또는 그룹 관리자가 사용자 환경에서 위임을 활성화한 경우 할당 탭을 사용하여 사용자를 작업 또는 문제에 할당합니다. 위임 탭을 사용하여 작업 항목에 위임된 사용자를 봅니다. 작업 위임에 대한 자세한 내용은 [작업 및 문제 위임](../../manage-work/delegate-work/how-to-delegate-work.md)을 참조하세요.
 
 
    지정된 할당자에게 작업 항목을 할당하거나 재할당합니다.

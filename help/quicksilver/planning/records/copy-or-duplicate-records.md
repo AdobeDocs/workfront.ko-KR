@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+exl-id: 2fed8c96-0c9c-4662-a9c4-66dae507ff2a
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '586'
 ht-degree: 2%
 
 ---
-
 
 # 중복 레코드
 
@@ -25,7 +25,7 @@ Adobe Workfront Planning에서 레코드는 레코드 유형의 인스턴스입�
 
 +++ 를 확장하여 Workfront Planning에 대한 액세스 요구 사항을 봅니다.
 
-Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
+이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
 <col> 

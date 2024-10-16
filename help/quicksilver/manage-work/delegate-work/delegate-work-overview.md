@@ -7,9 +7,9 @@ description: 단기간 동안 부재 중일 경우 일시적으로 다른 사용
 author: Lisa
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
-source-git-commit: 70e20df7c9738f33496e37b31b6e11caf0ac2f0f
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '898'
 ht-degree: 1%
 
 ---
@@ -30,13 +30,18 @@ ht-degree: 1%
 * 나에게 할당된 문제
 * 프로젝트, 작업 또는 문제 승인이 귀하에게 할당되었습니다.
 
-이 문서에는 작업 및 문제 위임에 대한 일반적인 정보가 포함되어 있습니다.
+  >[!TIP]
+  >
+  >   타임시트, 문서 또는 증명 승인을 위임할 수 없습니다.
+
+
+이 문서에는 사용자에게 할당된 작업 및 문제 위임에 대한 일반적인 정보가 포함되어 있습니다.
 
 프로젝트, 작업 및 문제 승인 위임에 대한 자세한 내용은 [승인 요청 위임](../../review-and-approve-work/manage-approvals/delegate-approval-requests.md)을 참조하십시오.
 
 작업 및 문제를 위임하는 방법에 대한 자세한 내용은 [작업 및 문제 위임](../../manage-work/delegate-work/how-to-delegate-work.md)을 참조하세요.
 
-## 작업 위임 개요
+## 작업 및 문제 위임 개요
 
 작업 및 문제를 위임할 때는 다음 사항을 고려하십시오.
 
@@ -62,7 +67,7 @@ ht-degree: 1%
 * 작업을 다른 사용자에게 위임하도록 선택한 기간 동안 추가 작업 및 문제가 사용자에게 할당된 경우 작업 또는 문제 날짜가 해당 기간 내에 있는 경우 선택한 기간에 대해 새로 할당된 작업이 자동으로 동일한 사람에게 위임됩니다.
 * 여러 사용자가 동일한 사용자를 위임자로 선택할 수 있습니다.
 * 위임된 작업 및 문제는 위임된 사용자의 [!UICONTROL 업무 균형자] 또는 [!UICONTROL 리소스 플래너]와 같은 리소스 관리 도구에 표시되지 않습니다.
-* [!DNL Workfront]의 여러 영역에서 위임된 작업 및 대리인 이름을 볼 수 있습니다. 자세한 내용은 문서 [작업 및 문제 위임 관리](../delegate-work/how-to-delegate-work.md)에서 &quot;위임된 작업 및 위임 정보 찾기&quot; 섹션을 참조하십시오.
+* [!DNL Workfront]의 여러 영역에서 위임된 작업 및 대리인 이름을 볼 수 있습니다. 자세한 내용은 문서 [작업 및 문제 위임](../delegate-work/how-to-delegate-work.md)의 &quot;위임된 작업 및 위임 정보 찾기&quot; 섹션을 참조하십시오.
 
 
   >[!IMPORTANT]

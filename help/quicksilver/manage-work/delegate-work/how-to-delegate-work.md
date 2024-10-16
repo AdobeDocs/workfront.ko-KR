@@ -3,19 +3,19 @@ filename: how-to-delegate-work
 navigation-topic: delegate-work
 title: 작업 및 문제 위임
 description: 부재 중 할당된 작업을 임시로 위임할 수 있습니다. 이 문서에서는 작업 및 문제 할당을 위임하는 방법에 대해 설명합니다.
-author: Lisa
+author: Alina
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '1460'
+source-wordcount: '1518'
 ht-degree: 0%
 
 ---
 
-# 작업 및 문제 위임 관리
+# 작업 및 문제 위임
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 10/2024 -->
 
 
 <!--
@@ -59,7 +59,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 라이센스</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 라이센스*</td> 
    <td> <p>새로운 기능: 기여자 이상</p><p>또는</p><p>현재: 검토 이상</p>
 
 >[!NOTE]
@@ -80,7 +80,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -92,7 +92,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 
 이 문서에 설명된 활동을 수행하기 전에 다음을 확인해야 합니다.
 
-* [!DNL Workfront] 또는 그룹 관리자가 [!DNL Workfront] 인스턴스의 [!UICONTROL 설정] 영역에서 [!UICONTROL 기록된 시간이 있는 작업 및 문제를 사용자가 삭제할 수 있도록 허용] 설정을 사용하도록 설정했습니다.
+* [!DNL Workfront] 또는 그룹 관리자가 [!DNL Workfront] 인스턴스의 [!UICONTROL 설정] 영역에 있는 [!UICONTROL 작업 및 문제 환경 설정] 섹션에서 [!UICONTROL **사용자가 작업 및 문제를 위임하도록 허용**] 설정을 사용하도록 설정했습니다.
 
   자세한 내용은 [시스템 전체 작업 및 문제 환경 설정 구성](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)을 참조하십시오.
 
@@ -104,11 +104,16 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 
 작업 및 문제를 다른 사람에게 위임하려면 다음 작업을 수행하십시오.
 
-1. [!UICONTROL **Home**] 영역으로 이동한 다음 [!UICONTROL **작업 목록**]&#x200B;의 맨 위에서 [!UICONTROL **위임**]&#x200B;을 클릭합니다.
+1. [!UICONTROL **Home**] 영역으로 이동합니다.
+1. [!UICONTROL **홈**]&#x200B;에 [!UICONTROL **내 작업**], [!UICONTROL **내 작업**] 또는 [!UICONTROL **내 문제**] 위젯이 추가되었는지 확인하세요.
 
-   ![](assets/delegate-button-in-home.png)
+   자세한 내용은 [홈에서 위젯 추가, 편집 또는 제거](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)를 참조하세요.
 
-1. [!UICONTROL **작업 및 문제 위임**] 탭에서 다음을 업데이트하십시오.
+1. [!UICONTROL **내 작업**], [!UICONTROL **내 작업**] 또는 [!UICONTROL **내 문제**] 위젯의 왼쪽 상단 모서리에서 [!UICONTROL **위임**]&#x200B;을 클릭합니다.
+
+   ![](assets/delegate-button-on-my-work-widget.png)
+
+1. 다음 내용을 업데이트합니다.
 
    * [!UICONTROL **작업 및 문제를 위임할 대상**]: 작업 및 문제를 위임할 사용자 이름을 입력한 다음 목록에 표시될 때 선택합니다. 한 명의 사용자만 선택할 수 있습니다.
 
@@ -129,6 +134,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
      >종료 날짜 필드를 비워 두고 종료 날짜 없음 옵션을 선택하지 않으면 위임은 현재 날짜에만 설정됩니다.
 
      ![](assets/delegate-box-expanded-in-home.png)
+     <!--check screen shot - submitted bug for casing-->
 
 1. [!UICONTROL **저장**]&#x200B;을 클릭합니다.
 
@@ -141,18 +147,18 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
      >   위임 시간대 내에 날짜가 있는 완료된 작업 항목은 위임되지 않습니다.
 
 
-   * 화면 오른쪽 상단에 작업을 다른 사용자에게 위임할 수 있음을 확인하는 메시지가 표시됩니다. 위임 사용자의 이름이 확인 메시지에 표시됩니다.
+   * 다른 사용자에게 작업 위임을 활성화했음을 확인하는 메시지가 화면 하단에 나타납니다. 위임 사용자의 이름이 확인 메시지에 표시됩니다.
 
    * 작업 및 문제가 다른 사용자에게 위임되었다는 표시는 [!DNL Workfront]에서 할당을 볼 수 있는 대부분의 영역에 표시됩니다. 대리자 이름이 포함되지 않은 영역에 대한 자세한 내용은 [위임 작업 개요](delegate-work-overview.md)를 참조하십시오.
 
-   * 위임이 있음을 나타내기 위해 [!UICONTROL Home] 영역의 [!UICONTROL **Delegate**] 단추가 [!UICONTROL **위임 편집**](으)로 변경됩니다.
-   <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   (NOTE: is this shot correct?&nbsp;See UI - this is a mock)
-   </MadCap:conditionalText>
-   -->
+   * 위임이 있음을 나타내기 위해 [!UICONTROL **Home**] 영역의 [!UICONTROL **Delegate**] 단추가 [!UICONTROL **위임 편집**](으)로 변경됩니다.
+     <!--
+      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+      (NOTE: is this shot correct?&nbsp;See UI - this is a mock)
+      </MadCap:conditionalText>
+      -->
 
-   ![](assets/work-delegated-button-in-home.png)
+     ![](assets/edit-delegation-button-on-my-work-widget.png)
 
    * 이벤트 알림 및 개인 알림이 활성화된 경우 위임에 대한 이메일 확인도 받습니다.
 
@@ -164,8 +170,8 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 
 종료 날짜를 선택하거나 수동으로 위임을 중지할 수 있습니다. 위임 날짜가 변경된 경우 위임 시간대를 수정할 수도 있습니다.
 
-1. [!UICONTROL 홈] 영역으로 이동한 다음 작업 목록의 오른쪽 상단 모서리에서 [!UICONTROL 위임 편집]을 클릭합니다.
-1. [!UICONTROL 작업 및 문제 위임] 탭에서 다음 중 하나를 수행합니다.
+1. [!UICONTROL **홈**] 영역으로 이동한 다음 **내 작업**, **내 작업** 또는 **내 문제** 위젯에서 [!UICONTROL **위임 편집**]&#x200B;을 클릭합니다.
+1. [!UICONTROL 작업 및 문제 위임 중지] 상자에서 다음 중 하나를 수행합니다.
    * [!UICONTROL **시작 날짜**] 또는 [!UICONTROL **종료 날짜**]&#x200B;를 수정하세요.
    * [!UICONTROL **위임 중지**] 클릭
 
@@ -173,7 +179,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
    >
    >    위임이 이미 시작된 경우 위임 종료 날짜만 편집할 수 있습니다.
 
-   ![](assets/stop-delegation-screen-in-home.png)
+   ![](assets/stop-delegation-box-new-home-tasks-and-issues.png)
 
 1. (조건부) 새 위임 날짜를 저장하려면 [!UICONTROL **저장**]&#x200B;을 클릭합니다
 
@@ -182,7 +188,6 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
    확인 상자에서 [!UICONTROL **위임 중지**]&#x200B;를 클릭하여 위임 중지를 확인합니다.
 
    위임이 날짜를 업데이트하거나 중단했으며 위임된 사용자가 작업 및 문제에서 제거되었습니다. 작업 및 문제에 대한 해당 사용자의 권한은 그대로 유지됩니다.
-
 
 ## 위임된 작업 및 위임 정보 찾기
 
@@ -229,24 +234,31 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 
 ### [!UICONTROL Home]에서 위임된 작업 찾기
 
-1. [!UICONTROL **홈**] 영역으로 이동한 다음 필터 드롭다운 메뉴를 클릭하고 다음 옵션 중 하나 이상을 선택합니다.
+1. [!UICONTROL **내 작업**] 위젯의 [!UICONTROL **홈**] 영역으로 이동합니다.
+1. 필터 드롭다운 메뉴를 클릭하고 다음 옵션 중 하나 이상을 선택합니다.
    * [!UICONTROL **위임됨**]: 귀하 또는 귀하가 위임한 작업 및 문제를 봅니다.
    * [!UICONTROL **내게 위임됨**]: 다른 사용자가 내게 위임한 작업 및 문제를 봅니다.
    * [!UICONTROL **내가 위임함**]: 사용자가 다른 사용자에게 위임한 작업 및 문제를 봅니다.
 
-   ![](assets/delegated-to-me-or-by-me-filters-in-home.png)
+     ![](assets/delegated-tasks-and-issues-new-home-filter.png)
 
-1. 다음 기준으로 목록을 정렬하려면 [!UICONTROL 정렬] 드롭다운 메뉴를 클릭하십시오.
-   * [!UICONTROL 계획된 완료]. 기본 정렬 옵션입니다.
-   * [!UICONTROL 계획된 시작]
-   * [!UICONTROL 커밋 일자]
+1. (선택 사항) 다음 기준으로 목록을 정렬하려면 [!UICONTROL **정렬**] 드롭다운 메뉴를 클릭합니다.
+   * [!UICONTROL 기한]. 기본 정렬 옵션입니다.
+   * [!UICONTROL 이름]
+   * [!UICONTROL 완료율]
+   * [!UICONTROL 상태]
+1. (선택 사항) [!UICONTROL **내 작업**] 위젯의 오른쪽 상단에서 그룹화 드롭다운 메뉴를 확장하고 다음 기준 중 하나로 그룹화합니다.
+   * 아무것도 아냐 기본 그룹화 옵션입니다.
    * [!UICONTROL 프로젝트]
-   * [!UICONTROL 내 우선 순위]
-1. [!UICONTROL **작업 목록**]&#x200B;의 그룹화를 확장하여 위임된 작업 항목을 봅니다. 다음과 같은 시나리오가 있습니다.
-   * 다른 사람에게 위임한 항목의 경우 대리인의 이름이 오른쪽의 [!UICONTROL **작업 목록**] 및 [!UICONTROL **할당 및 위임**] 필드에 표시됩니다.
+   * [!UICONTROL 상태]
+   * [!UICONTROL 기한]
 
-   * 내게 위임된 항목의 경우 할당자의 이름이 오른쪽의 [!UICONTROL **작업 목록**] 및 **[!UICONTROL 할당 및 위임]** 필드에 표시됩니다.
+1. 귀하가 위임했거나 귀하에게 위임된 항목을 보려면 다음 중 하나를 봅니다.
 
-   >[!TIP]
-   >
-   >    위임이 오늘 이후의 날짜에 시작되도록 설정된 경우 [!UICONTROL 작업 목록]에도 위임 시작 날짜가 표시됩니다. 위임된 항목은 그룹화 유형에 따라 [!UICONTROL 작업 목록]에 대해 선택한 그룹화에 표시됩니다. 예를 들어 [!UICONTROL 계획된 완료 일자]별로 그룹화하는 경우 위임된 항목은 계획된 완료 일자와 일치하는 그룹화에 표시됩니다.
+   * 다른 사람에게 위임한 항목의 경우 [!UICONTROL **위임자**] 이후 작업 또는 문제의 상태에서 위임자 이름을 찾으십시오.
+
+   * 내게 위임된 항목의 경우 [!UICONTROL **내게 위임한 사람**] 이후 작업 또는 문제의 상태에서 피할당자의 이름을 찾으십시오.
+
+     >[!TIP]
+     >
+     >    위임이 오늘 이후의 날짜에 시작되도록 설정된 경우 [!UICONTROL 작업 목록]에도 위임 시작 날짜가 표시됩니다. 위임된 항목은 그룹화 유형에 따라 [!UICONTROL 작업 목록]에 대해 선택한 그룹화에 표시됩니다. 예를 들어 [!UICONTROL 계획된 완료 일자]별로 그룹화하는 경우 위임된 항목은 계획된 완료 일자와 일치하는 그룹화에 표시됩니다.

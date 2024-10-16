@@ -5,9 +5,10 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+exl-id: 635045c5-17e6-483e-912b-4e9617571137
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '658'
 ht-degree: 1%
 
 ---
@@ -30,7 +31,7 @@ Workfront 사용자와 외부 사용자는 Planning 레코드 유형에 요청�
 
 +++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
-Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
+이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto">
  <col>
@@ -136,8 +137,3 @@ Workfront Planning 요청 양식에 요청을 제출하려면 먼저 다음 조�
 1. **제출**&#x200B;을 클릭합니다.
 
    양식이 제출되고 새 레코드가 양식과 연결된 레코드 유형에 추가됩니다.
-
-
-
-
-

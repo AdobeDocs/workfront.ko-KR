@@ -6,9 +6,9 @@ description: 업무 균형자 를 사용하여 리소스의 가용성을 이해�
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '4068'
+source-wordcount: '4067'
 ht-degree: 0%
 
 ---
@@ -323,7 +323,7 @@ Adobe Workfront의 업무 균형자 를 사용하여 가용성에 따라 사용�
 
      >[!TIP]
      >
-     >Workfront 또는 그룹 관리자가 사용자 환경에서 위임을 활성화한 경우 할당 탭을 사용하여 사용자를 작업 또는 문제에 할당합니다. 작업 위임에 대한 자세한 내용은 [작업 및 문제 위임 관리](../../manage-work/delegate-work/how-to-delegate-work.md)를 참조하십시오.
+     >Workfront 또는 그룹 관리자가 사용자 환경에서 위임을 활성화한 경우 할당 탭을 사용하여 사용자를 작업 또는 문제에 할당합니다. 작업 위임에 대한 자세한 내용은 [작업 및 문제 위임](../../manage-work/delegate-work/how-to-delegate-work.md)을 참조하세요.
 
    * **할당을 편집**&#x200B;한 다음 사용자에 대한 일별 또는 주별 할당을 편집합니다. 사용자 할당 관리에 대한 자세한 내용은 [업무 균형자에서 사용자 할당 관리](../workload-balancer/manage-user-allocations-workload-balancer.md)를 참조하십시오.
 

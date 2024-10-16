@@ -6,9 +6,9 @@ description: '[!UICONTROL Home] 영역의 [!UICONTROL 작업 목록]에는 사�
 author: Nolan
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: d614d5cbded1de6fd899a47495a6e058f9eaf3cf
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1840'
 ht-degree: 0%
 
 ---
@@ -141,7 +141,7 @@ ht-degree: 0%
       <td> 
        <div> 
         <p>다른 사용자에게 위임한 작업 항목만 표시합니다.</p> 
-        <p>작업 위임에 대한 자세한 내용은 <a href="/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md#delegate-tasks-and-issues-to-another-user" class="MCXref xref">다른 사용자에게 작업 및 문제 위임</a>을 참조하십시오.
+        <p>작업 위임에 대한 자세한 내용은 <a href="/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md#delegate-tasks-and-issues-to-another-user" class="MCXref xref">작업 및 문제 위임</a>을 참조하세요.
        </div> </td> 
      </tr> 
      <tr> 

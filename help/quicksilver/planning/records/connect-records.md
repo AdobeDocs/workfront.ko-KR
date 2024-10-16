@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '2713'
+source-wordcount: '2793'
 ht-degree: 1%
 
 ---
@@ -56,7 +56,7 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
 
 +++ 를 확장하여 Workfront Planning에 대한 액세스 요구 사항을 봅니다.
 
-Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
+이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -70,7 +70,12 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
    <p> 제품</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront 계획<p></li></ul></td> 
+   <li><p> Adobe Workfront 계획<p></li>
+   <li><p>Adobe Experience Manager Assets, AEM assets를 Planning 레코드와 연결하려면<p>
+   <p>Adobe Experience Manager Assets 라이선스가 있어야 하며 AEM Assets과 Workfront 간의 통합이 있어야 합니다.
+    자세한 내용은 <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Experience Manager Assets 및 Assets Essentials용 Adobe Workfront: 문서 색인</a>을 참조하세요. </p>
+   </li>  
+   </ul></td> 
   </tr>   
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 플랜*</p></td> 
@@ -146,7 +151,7 @@ Workfront Planning에서 Planning 레코드의 다음 영역에 있는 레코드
 * 세부 정보 탭의 연결된 레코드 필드에 있는 레코드의 미리 보기 또는 페이지입니다.
 * 연결 탭의 레코드 미리 보기 또는 페이지입니다.
 
-### 레코드 페이지의 테이블 보기 또는 세부 정보 탭에서 Adobe Workfront Planning 레코드를 연결합니다.
+### 테이블 보기 또는 세부 정보 영역에서 Adobe Workfront Planning 레코드 연결
 
 {{step1-to-planning}}
 
@@ -164,6 +169,11 @@ Workfront Planning에서 Planning 레코드의 다음 영역에 있는 레코드
 
    * 목록에서 연결된 레코드의 이름을 클릭하여 선택한 레코드에 추가합니다. 레코드가 자동으로 추가됩니다.
    * 레코드의 이름을 입력하고 목록에 표시될 때 클릭합니다. 레코드가 자동으로 추가됩니다.
+
+   >[!TIP]
+   >
+   >    레코드 유형이 연결되어 있을 때 표시할 레코드 이미지만 선택한 경우 연결된 필드에 레코드의 축소판이나 아이콘만 표시됩니다. 자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
+
 
 1. (선택 사항) 연결할 레코드 또는 개체를 찾을 수 없고 해당 개체를 추가하려면 **+ 추가**&#x200B;를 클릭하여 새 레코드를 추가합니다. 자세한 내용은 문서 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)의 &quot;연결할 때 레코드 만들기&quot; 섹션을 참조하십시오.
 

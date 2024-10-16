@@ -7,14 +7,16 @@ description: 사용자 위임 보고서 만들기
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c860574b-0488-499e-8d36-d0f3f85aac2d
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '383'
 ht-degree: 1%
 
 ---
 
 # 사용자 위임 보고서 만들기
+
+<!--Audited: 10/2024-->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider moving this to the Custom&nbsp;View, Filter, Grouping Samples section as an example of a report)</p>
@@ -39,6 +41,8 @@ Adobe Workfront에서 사용자는 프로젝트, 작업 및 문제 승인을 다
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -46,12 +50,13 @@ Adobe Workfront에서 사용자는 프로젝트, 작업 및 문제 승인을 다
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>플랜 </p> </td> 
+   <td> <p>새로운 기능: 표준 </p>
+   <p>현재: 플랜 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">액세스 수준 구성*</td> 
@@ -64,7 +69,8 @@ Adobe Workfront에서 사용자는 프로젝트, 작업 및 문제 승인을 다
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+*보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
++++
 
 ## 사용자 위임 보고서 만들기
 
@@ -79,14 +85,14 @@ Adobe Workfront에서 사용자는 프로젝트, 작업 및 문제 승인을 다
    |---|---|
    | **사용자로부터** | 이 사용자는 작업, 문제 및 프로젝트 승인을 다른 사용자에게 위임하는 사용자입니다. |
    | **사용자에게** | 작업, 문제 및 프로젝트 승인이 위임된 사용자입니다. |
-   | **시작** | 위임을 수행한 사용자의 종료 시간이 시작됩니다. |
-   | **종료** | 위임을 수행한 사용자의 종료 시간입니다. |
+   | **시작 날짜** | 위임을 수행한 사용자의 종료 시간이 시작됩니다. |
+   | **종료 날짜** | 위임을 수행한 사용자의 종료 시간입니다. |
 
    {style="table-layout:auto"}
 
 1. (선택 사항) Report Builder에서 다음을 수정합니다.
 
-   * 열
+   * 열(조회)
    * 그룹화
    * 필터
    * 차트
@@ -94,7 +100,5 @@ Adobe Workfront에서 사용자는 프로젝트, 작업 및 문제 승인을 다
    이러한 기능에 대한 자세한 내용은 [사용자 지정 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)를 참조하세요.
 
 1. 보고서 작성이 끝나면 **저장 + 닫기**&#x200B;를 클릭합니다.
-
-1. **보고서 이름** 필드에 새 이름을 입력한 다음 **보고서 저장**&#x200B;을 클릭합니다.
 
    보고서가 표시됩니다.

@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 00a1876e005f0f0c47bdebaab77bbcfe42318612
+source-git-commit: 426b7f7d556933dea26d27c82aa2082738d39767
 workflow-type: tm+mt
-source-wordcount: '14530'
+source-wordcount: '14529'
 ht-degree: 2%
 
 ---
@@ -1511,7 +1511,7 @@ ht-degree: 2%
    * 작업 {#delegate-work} 위임
       * [작업 위임](manage-work/delegate-work/delegate-work.md)
       * [작업 및 문제 위임 개요](manage-work/delegate-work/delegate-work-overview.md)
-      * [작업 및 문제 위임 관리](manage-work/delegate-work/how-to-delegate-work.md)
+      * [작업 및 문제 위임](manage-work/delegate-work/how-to-delegate-work.md)
 * 팀 및 그룹 {#teams-groups}
    * [팀 및 그룹](people-teams-and-groups/people-teams-and-groups.md)
    * {#create-manage-teams} 팀 만들기 및 관리

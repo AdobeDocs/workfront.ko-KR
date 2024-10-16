@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '3830'
+source-wordcount: '3650'
 ht-degree: 0%
 
 ---
@@ -46,9 +46,8 @@ Workfront에 로그인할 수 있는 시간 유형에 대한 자세한 내용은
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 라이선스</td> 
-   <td> <p>신규: </p>
-   <p>가볍게 또는 그 이상: 프로젝트, 작업, 문제 또는 타임시트의 일반 시간을 기록합니다.</p>
+   <td role="rowheader">Adobe Workfront 라이센스*</td> 
+   <td> <p>새로 만들기: 가볍게 또는 그 이상: 프로젝트, 작업, 문제의 시간 또는 타임시트의 일반 시간을 기록합니다.</p>
    <p>현재: 
    <ul><li>타임시트에 일반 시간을 기록하려면 이상을 검토하십시오.</li>
    <li>프로젝트, 작업 또는 문제에 시간을 기록하려면 이상 작업</li></ul> </td> 
@@ -64,7 +63,7 @@ Workfront에 로그인할 수 있는 시간 유형에 대한 자세한 내용은
  </tbody> 
 </table>
 
-이 표의 정보에 대한 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -338,13 +337,13 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
 홈 영역 사용에 대한 일반적인 정보는 [홈 영역 사용](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)을 참조하십시오.
 
 
-#### 새 홈 영역의 작업 항목에 시간을 기록합니다.
+<!--#### Log time on a work item from the new Home area-->
 
 홈 영역의 요약 패널을 사용하여 모든 위젯의 작업 및 문제에 시간을 기록할 수 있습니다. 자세한 내용은 이 문서의 [요약 패널](#summary-panel) 섹션을 참조하십시오.
 
 또한 내 작업 위젯의 항목에 대한 시간을 기록하려면 다음을 수행합니다.
 
-1. **Home** 영역에 연결되었습니다.
+1. **Home** 영역으로 이동합니다.
 1. **내 작업** 위젯을 홈에 추가합니다.
 1. (선택 사항) 목록에서 작업, 문제 또는 요청을 선택한 다음 **처리**&#x200B;를 클릭합니다.
 1. 시간을 기록할 작업 또는 문제를 마우스로 가리킨 다음 작업 정보 오른쪽에 있는 **시간 기록** 아이콘 ![](assets/log-time-icon-in-new-home.png)을(를) 클릭합니다.
@@ -353,21 +352,21 @@ Workfront의 다음 영역에서 시간을 기록할 수 있습니다.
 
 1. **로그 시간**&#x200B;을 클릭합니다.
 
-   기록된 시간이 오브젝트의 시간 섹션 및 타임시트에 표시됩니다.
+   기록된 시간이 오브젝트의 시간 섹션과 타임시트에 표시됩니다.
 
-#### 기존 홈 영역의 작업 항목에 시간을 기록합니다.
+<!--#### Log time on a work item from the legacy Home area
 
-1. **작업 목록** 영역에서 시간을 기록할 항목을 선택합니다.
-1. 오른쪽 패널에서 **로그 시간**&#x200B;을 클릭합니다.
+1. In the **Work List** area, select the item where you want to log time.
+1. In the right panel, click **Log Time**.  
+  
+   ![](assets/log-time-home-350x181.png)  
 
-   ![](assets/log-time-home-350x181.png)
+1. In the **Enter Hours** drop-down menu, select the appropriate hour type.  
+   Hour types are available depending on what has been defined at the system, project, and user levels, as described in [Define hour types and availability](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+1. (Conditional) If your Workfront or group administrator has enabled the **Assign job roles to hour entries manually** setting, select a job role from the drop-down menu. The role specified when you are assigned to the work item displays by default. If you are not assigned a role on the object, your Primary Role displays as the default. For more information on this setting, see the article [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+1. Specify the time you want to log, then click **Log Time**.
 
-1. **시간 입력** 드롭다운 메뉴에서 적절한 시간 유형을 선택합니다.\
-   [시간 유형 및 가용성 정의](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)에 설명된 대로 시스템, 프로젝트 및 사용자 수준에서 정의된 내용에 따라 시간 유형을 사용할 수 있습니다.
-1. (조건부) Workfront 또는 그룹 관리자가 **시간 항목에 수동으로 작업 역할 할당** 설정을 활성화한 경우 드롭다운 메뉴에서 작업 역할을 선택합니다. 작업 항목에 할당할 때 지정된 역할이 기본적으로 표시됩니다. 오브젝트에 역할이 할당되지 않은 경우 기본 역할이 기본값으로 표시됩니다. 이 설정에 대한 자세한 내용은 문서 [타임시트 및 시간 환경 설정 구성](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)을 참조하십시오.
-1. 기록할 시간을 지정한 다음 **로그 시간**&#x200B;을 클릭합니다.
-
-   기록된 시간이 오브젝트의 시간 섹션 및 타임시트에 표시됩니다.
+   The logged time displays in the object's Hours section, nad in your timesheet. -->
 
 ### 프로젝트, 작업 또는 문제 {#project-task-or-issue}
 

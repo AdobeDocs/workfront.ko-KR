@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '444'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ Adobe Workfront Planning에서 작업 공간은 팀이 작업을 계획하는 �
 
 +++ 를 확장하여 Workfront Planning에 대한 액세스 요구 사항을 봅니다.
 
-Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
+이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
 <col> 

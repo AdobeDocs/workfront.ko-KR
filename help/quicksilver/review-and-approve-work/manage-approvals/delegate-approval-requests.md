@@ -6,16 +6,16 @@ description: '승인 요청을 위임하면 다른 사용자에게 일정 기간
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '1262'
+source-wordcount: '1261'
 ht-degree: 0%
 
 ---
 
 # 승인 요청 위임
 
-부재 중 할당된 작업을 임시로 위임할 수 있습니다. 작업 및 문제 할당을 위임하거나 승인 요청을 위임할 수 있습니다. 이 문서에서는 승인 요청을 위임하는 방법에 대해 설명합니다. 작업 및 문제 할당 위임에 대한 자세한 내용은 [작업 및 문제 위임 관리](../../manage-work/delegate-work/how-to-delegate-work.md)를 참조하십시오.
+부재 중 할당된 작업을 임시로 위임할 수 있습니다. 작업 및 문제 할당을 위임하거나 승인 요청을 위임할 수 있습니다. 이 문서에서는 승인 요청을 위임하는 방법에 대해 설명합니다. 작업 및 문제 할당 위임에 대한 자세한 내용은 [작업 및 문제 위임](../../manage-work/delegate-work/how-to-delegate-work.md)을 참조하세요.
 
 승인이 귀하에게 지정된 방식(귀하에게 직접 지정되었는지, 멤버인 팀이나 귀하의 작업 역할에 지정되었는지 여부에 상관없이 다음 유형의 승인을 위임할 수 있습니다.
 

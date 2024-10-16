@@ -6,20 +6,20 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '480'
 ht-degree: 1%
 
 ---
 
 # 레코드의 세부 사항 내보내기
 
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객의 미리 보기 환경이나 빠른 릴리스를 활성화한 고객의 프로덕션 환경에서만 사용할 수 있습니다.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>을 참조하세요.
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">현재 릴리스에 대한 자세한 내용은 [2023년 4분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)를 참조하십시오.</span>
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>-->
 
 
 Workfront 계정이 없을 수도 있는 다른 사용자와 더 효율적으로 공동 작업하려면 레코드의 세부 사항을 파일로 내보내고 해당 사용자와 공유할 수 있습니다.
@@ -28,7 +28,7 @@ Workfront 계정이 없을 수도 있는 다른 사용자와 더 효율적으로
 
 +++ 를 확장하여 Workfront Planning에 대한 액세스 요구 사항을 봅니다.
 
-Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
+이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -156,7 +156,7 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 * 레코드의 세부 사항을 다음 파일 형식으로 내보낼 수 있습니다.
 
    * .docx Word
-   * <span class="preview">.pdf</span>
+   * .pdf
 
 * 레코드 페이지의 세부 정보 탭을 내보낼 수 있습니다. 연결 탭은 내보낼 수 없습니다.
 
@@ -184,9 +184,9 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 1. 미리 보기 또는 레코드 페이지에서 **내보내기** 아이콘 ![](assets/export-icon-in-record-details-page.png)을(를) 클릭한 후 다음 중 하나를 클릭합니다.
 
    * **Microsoft Word**
-   * <span class="preview">**Adobe PDF**</span>
+   * **Adobe PDF**
 
-   Word(.docx) <span class="preview">또는 PDF</span> 파일이 다운로드되고 컴퓨터에 저장됩니다.
+   Word(.docx) 또는 PDF 파일을 다운로드하여 컴퓨터에 저장합니다.
 
    내보낸 파일의 이름은 레코드의 기본 필드입니다.
 
@@ -194,7 +194,7 @@ Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 
    >[!NOTE]
    >
-   >    페이지에 표시되지 않고 세부 정보 탭에서 자세히 표시를 클릭한 후에만 표시되는 추가 정보는 내보낸 PDF 파일에 표시되지 않습니다. 페이지에 표시되는 정보만 내보낸 파일에 표시됩니다.
+   >    기록 세부 정보 영역에서 자세히 표시를 클릭한 후에만 표시되는 페이지에 표시되지 않는 추가 정보는 내보낸 PDF 파일에 표시되지 않습니다. 페이지에 표시되는 정보만 내보낸 파일에 표시됩니다.
 
 
 1. (선택 사항) 다운로드한 파일로 이동하여 열고 편집하거나(Word 파일인 경우) 다른 사용자와 공유합니다.
