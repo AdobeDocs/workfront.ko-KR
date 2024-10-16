@@ -5,7 +5,7 @@ description: 이 요약 기능을 사용하여 작업 항목과 문서를 빠르
 author: Becky
 feature: Get Started with Workfront
 exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
-source-git-commit: bec1318d83938964697d76b83062ef11745802e3
+source-git-commit: bbe4ad6a8528e7d0e3a5f6f2b669c1b5d8d2e313
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 1%
@@ -74,9 +74,9 @@ AI Assistant는 다음 객체를 요약할 수 있습니다.
 다음 영역에는 AI Assistant를 사용하여 요약을 생성하는 버튼이 있습니다.
 
 * 프로젝트 헤더: 프로젝트 요약
-* 업데이트 영역: 내용 요약
+* 업데이트 영역: 댓글 요약
 
-프로젝트 요약 또는 콘텐츠 요약 버튼을 사용하려면 다음 작업을 수행하십시오.
+프로젝트 요약 또는 설명 요약 버튼을 사용하려면 다음 작업을 수행하십시오.
 
 1. 버튼을 클릭합니다.
 
