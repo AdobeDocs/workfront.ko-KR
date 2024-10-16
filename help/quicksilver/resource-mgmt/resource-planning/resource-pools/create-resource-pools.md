@@ -6,10 +6,10 @@ description: 리소스 풀은 Adobe Workfront에서 리소스를 보다 쉽게 �
 author: Lisa
 feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
-source-git-commit: 2f5e0b8ba4ec4f32ae0457a6a901a43d03389773
+source-git-commit: 854197fcb8c4d3a87e4d93fe2ae9e968a3254027
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,9 +18,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="wf_resource_pools"
 >title="리소스 풀"
->abstract="리소스 풀은 프로젝트 완료에 동시에 필요한 사용자 컬렉션입니다. 리소스 풀을 만든 후 프로젝트 및 템플릿과 연결할 수 있습니다."
-
-{{preview-and-fast-release-Q424}}
+>abstract="리소스 풀은 프로젝트를 완료하는 데 동시에 필요한 사용자들의 집합입니다. 리소스 풀을 만든 후에는 이를 프로젝트 및 템플릿과 연결할 수 있습니다."
 
 리소스 풀은 Adobe Workfront에서 리소스를 보다 쉽게 관리하는 데 도움이 되는 사용자 컬렉션입니다. 리소스 풀에 대한 자세한 내용은 [리소스 풀 개요](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)를 참조하십시오.
 
@@ -66,14 +64,10 @@ ht-degree: 2%
 {{step1-to-resourcing}}
 
 1. 왼쪽 패널에서 **리소스 풀**&#x200B;을 클릭합니다.
-
-   <span class="preview">미리 보기 환경의 샘플 이미지:</span>
-   <span class="preview">![리소스 풀](assets/list-of-resource-pools.png)</span>
-
-   프로덕션 환경의 샘플 이미지:
-   ![리소스 풀](assets/resource-pools-tab-350x198.png)
-
 1. **새 리소스 풀**&#x200B;을 클릭합니다.
+
+   ![리소스 풀](assets/list-of-resource-pools.png)
+
 1. 다음을 지정합니다.
 
    <table style="table-layout:auto">
@@ -108,11 +102,7 @@ ht-degree: 2%
    >
    >리소스 풀에 보유할 수 있는 사용자 수에는 제한이 없습니다. 그러나 그렇지 않으면 리소스 관리가 문제가 될 수 있으므로 리소스 풀에 사용자를 너무 많이 추가하지 않는 것이 좋습니다. 사용자 목록에는 리소스 풀의 처음 2,000명의 사용자만 표시되며 알파벳순으로 표시됩니다.
 
-   <span class="preview">미리 보기 환경의 샘플 이미지:</span>
-   <span class="preview">![사용자가 리소스 풀에 추가됨](assets/users-in-resource-pool2.png)</span>
-
-   프로덕션 환경의 샘플 이미지:
-   ![사용자가 리소스 풀에 추가됨](assets/resource-pools-new---undo-button-for-teams-groups-etc-350x113.png)
+   ![사용자가 리소스 풀에 추가됨](assets/users-in-resource-pool2.png)
 
 1. (선택 사항) 사용자를 제거하려면 사용자 이름 오른쪽에 있는 X 아이콘을 클릭합니다. 리소스 풀에서 사용자를 제거하는 방법에 대한 자세한 내용은 [리소스 풀에서 사용자 제거](../../../resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md)를 참조하십시오.
 1. (선택 사항) **검색** 옵션을 사용하여 리소스 풀에서 사용자를 찾습니다.

@@ -6,16 +6,14 @@ description: 리소스 풀에 보유할 수 있는 사용자 수에는 제한이
 author: Lisa
 feature: Resource Management
 exl-id: b888aa95-8d42-4cc3-8a99-6842435c84d2
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: 854197fcb8c4d3a87e4d93fe2ae9e968a3254027
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 리소스 풀에서 사용자 제거
-
-{{preview-and-fast-release-Q424}}
 
 리소스 풀에 보유할 수 있는 사용자 수에는 제한이 없지만 사용자 목록에는 알파벳순으로 나열된 처음 2000명의 사용자만 표시됩니다.
 
@@ -73,15 +71,10 @@ ht-degree: 1%
    또는\
    회사, 작업 역할, 팀 또는 그룹의 이름을 입력하십시오. 해당 엔티티와 관련된 모든 사용자를 제거하려면 이름을 입력하십시오.
 
-   <span class="preview">미리 보기 환경의 샘플 이미지:<span>
-
    ![리소스 풀에서 사용자 제거](assets/remove-users-from-resource-pool.png)
 
-   프로덕션 환경의 샘플 이미지:
-   ![리소스 풀에서 검색](assets/search-inside-new-resource-pool-350x314.png)
-
-1. 사용자 수준에서 &#39;x&#39; 아이콘을 클릭하여 리소스 풀에서 사용자를 제거합니다. 해당 항목이 표시되는 모든 목록에서 제거됩니다.\
-   또는\
-   작업 역할, 그룹, 팀 또는 회사와 관련된 모든 사용자를 제거하려면 작업 역할, 그룹, 팀 수준 또는 회사 수준에서 **제거**&#x200B;를 클릭하십시오. 리소스 풀에서 해당 작업 역할, 그룹, 팀 또는 회사와 연관된 모든 사용자가 제거됩니다.
+1. 리소스 풀에서 사용자를 제거하려면 사용자 수준에서 X 아이콘을 클릭하십시오. 해당 항목이 표시되는 모든 목록에서 제거됩니다.
+   <!--Or  
+   To remove all users associated with a job role, group, team, or company, click **Remove** at the job role, group, team level, or company level. This removes all the users associated with that job role, group, team, or company from the Resource Pool.-->
 
 1. **저장**&#x200B;을 클릭합니다.
