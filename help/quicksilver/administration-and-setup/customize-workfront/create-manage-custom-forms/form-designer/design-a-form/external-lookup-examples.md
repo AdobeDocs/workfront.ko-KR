@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: bcc0054f761101ac19d1ced241329fce95be4e99
+source-git-commit: 7a1df83c0dd7ddf7dd6cf41643ba65c5903d6eba
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1314'
 ht-degree: 0%
 
 ---
@@ -35,10 +35,10 @@ ht-degree: 0%
 1. 화면 왼쪽에서 **외부 조회**&#x200B;를 찾아 캔버스의 섹션으로 끕니다.
 1. 필드의 **레이블** 및 **이름**&#x200B;을(를) 입력하십시오.
 1. 필드의 **형식**&#x200B;을(를) 선택하십시오.
-1. **기본 API URL** 필드에 API URL 호출을 입력합니다.
+1. **기본 API URL** 필드에 API 호출을 입력합니다.
 
-   * 동일한 인스턴스를 참조하도록 $$HOST를 추가할 수 있습니다.
-   * $$QUERY를 추가하여 다른 필드 쿼리를 기준으로 결과를 필터링할 수 있습니다.
+   * 사용자 정의 양식이 있는 동일한 Workfront 인스턴스를 참조하려면 URL에 $$HOST를 사용하십시오.
+   * 다른 필드의 쿼리를 기준으로 결과를 필터링하려면 $$QUERY를 추가합니다.
 
    **예**
    `$$HOST/attask/api/v15.0/project/search?status={DE:StatusQuery}&$$QUERY`

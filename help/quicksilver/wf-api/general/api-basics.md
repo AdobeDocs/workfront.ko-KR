@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 70cbeaa132127d1fc879b04fb6b5eb339945ff78
+source-git-commit: 7a1df83c0dd7ddf7dd6cf41643ba65c5903d6eba
 workflow-type: tm+mt
-source-wordcount: '4395'
+source-wordcount: '4419'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,11 @@ Workfront API를 호출하는 데 사용할 URL에 대한 자세한 내용은 [A
 
 개체 유형은 대소문자를 구분하지 않으며 축약된 ObjCode(예: proj) 또는 대체 개체 이름(프로젝트)일 수 있습니다.
 
-유효한 ObjCodes 목록에 대해서는  [API 탐색기](../../wf-api/general/api-explorer.md).
+개체 목록, 유효한 ObjCodes 및 개체 필드는  [API 탐색기](../../wf-api/general/api-explorer.md).
+
+>[!NOTE]
+>
+>Workfront API의 컨텍스트에서 사용자 정의 양식은 `Category` 개체이고 사용자 정의 필드는 `Parameter` 개체입니다.
 
 ### 작업
 
