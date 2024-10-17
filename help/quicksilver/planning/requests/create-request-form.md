@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1262'
 ht-degree: 2%
 
 ---
@@ -175,11 +175,12 @@ ht-degree: 2%
    사용자 지정 양식을 작성하는 방법에 대한 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
 
 1. (선택 사항) **미리 보기**&#x200B;를 클릭하여 다른 사용자가 새 레코드를 제출하는 데 사용할 양식을 표시할 방법을 확인합니다.
+1. (선택 사항) 헤더의 양식 이름 오른쪽에 있는 **자세히** 메뉴 ![](assets/more-menu.png)을(를) 클릭한 다음 **편집**&#x200B;을(를) 클릭하여 양식 이름을 업데이트합니다.
 1. 양식을 게시하고 고유한 링크를 얻으려면 **Publish**&#x200B;을(를) 클릭하십시오.
 
    다음과 같은 상황이 발생합니다.
 
-   * Publish 버튼이 제거됩니다.
+   * **Publish** 단추가 제거되었습니다.
    * **게시 취소** 단추가 양식에 추가됩니다. 클릭하면 양식에 액세스할 수 없습니다.
    * **공유** 단추가 양식에 추가됩니다.
 

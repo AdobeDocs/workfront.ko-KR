@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
 workflow-type: tm+mt
-source-wordcount: '1358'
+source-wordcount: '1361'
 ht-degree: 0%
 
 ---
@@ -198,7 +198,7 @@ Adobe Workfront Planning에서 레코드 미리 보기 및 페이지의 레이�
 
    섹션과 필드 순서에 대한 모든 변경 사항은 자동으로 저장됩니다.
 
-1. (선택 사항) 세부 정보 탭을 Word 파일로 내보내려면 **내보내기** 아이콘 ![](assets/export-icon-in-record-details-page.png)을(를) 클릭합니다. 자세한 내용은 [레코드 세부 정보 내보내기](/help/quicksilver/planning/records/export-the-record-page.md)를 참조하십시오.
+1. (선택 사항) **내보내기** 메뉴 ![](assets/export-icon-in-record-details-page.png)를 클릭하여 세부 사항 탭을 Word 또는 PDF 파일로 내보냅니다. 자세한 내용은 [레코드 세부 정보 내보내기](/help/quicksilver/planning/records/export-the-record-page.md)를 참조하십시오.
 
 1. (선택 사항) **세부 정보** 탭 옆에 있는 **연결** 탭을 클릭합니다. **연결** 탭을 클릭하기 전에 **자세히**&#x200B;를 클릭해야 할 수 있습니다.
 

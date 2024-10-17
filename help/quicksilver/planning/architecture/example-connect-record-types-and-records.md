@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 425c3d3afb892ac83a10bbd36efb4c7d9712c4dc
+source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
 workflow-type: tm+mt
-source-wordcount: '1949'
+source-wordcount: '1957'
 ht-degree: 0%
 
 ---
@@ -55,10 +55,13 @@ Product라는 다른 레코드 유형이 있으며 Budget이라는 통화 필드
      >
      >**연결 유형** 옵션은 다른 작업 영역의 레코드를 연결하거나 Experience Manager 자산을 연결할 때 사용할 수 없습니다. 자세한 내용은 [연결된 레코드 종류 개요](/help/quicksilver/planning/architecture/connect-record-types-overview.md)를 참조하세요.
 
-   * **모양 기록**: 캠페인의 제품 정보 필드에 제품 이름을 추가할 때 제품 이름을 표시하지 않으려면 **제목** 전환을 선택 취소합니다. 활성화되면 레코드에 썸네일과 제목이 모두 표시됩니다. 토글 기능은 기본적으로 활성화되어 있습니다.
+   * **모양 기록**: 다음 옵션 중에서 선택하십시오.
+      * **이름 및 이미지**: 연결된 레코드의 이름과 축소판 또는 아이콘을 표시합니다. 이 옵션은 기본적으로 선택되어 있습니다.
+      * **이름**: 연결된 레코드의 이름만 표시합니다.
+      * **이미지**: 연결된 레코드의 축소판이나 아이콘만 표시합니다.
    * **조회 필드 선택**: 이 옵션을 선택한 상태로 두면 다음에 **조회 필드 추가** 상자가 열려 제품 필드를 캠페인 레코드 유형과 연결할 수 있습니다. **건너뛰기**&#x200B;를 클릭하여 이 단계를 건너뛰고 나중에 제품 필드를 추가할 수 있습니다.
 
-   ![](assets/new-connection-with-product-record-type.png)
+     ![](assets/new-connection-with-product-record-type.png)
 
 1. (조건부) 이전 단계에서 **조회 필드 선택**&#x200B;을 선택한 경우 **제품** 레코드 유형과 연결된 필드 목록에서 **예산** 필드에 대한 **+** 아이콘을 클릭한 다음 **필드 추가**&#x200B;를 클릭합니다. 이렇게 하면 연결된 필드의 이름인 **Budget(제품 정보에서)**&#x200B;이라는 필드가 만들어집니다. 제품 예산에 대한 모든 정보가 캠페인 레코드에 대한 이 필드에 표시됩니다.
 

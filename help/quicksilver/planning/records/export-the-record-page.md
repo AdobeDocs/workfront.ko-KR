@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '474'
 ht-degree: 1%
 
 ---
@@ -94,63 +94,6 @@ Workfront 계정이 없을 수도 있는 다른 사용자와 더 효율적으로
 
 +++
 
-<!--OLD:
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>New: Standard</p>
-   Or
-   <p>Current: Plan</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configurations</p></td>
-   <td> <p>There are no access controls for Adobe Workfront Planning</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-
- </tbody>
-</table>
-
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
-
 ## 레코드 세부 정보 내보내기에 대한 고려 사항:
 
 * 레코드의 세부 사항을 다음 파일 형식으로 내보낼 수 있습니다.
@@ -158,7 +101,7 @@ Workfront 계정이 없을 수도 있는 다른 사용자와 더 효율적으로
    * .docx Word
    * .pdf
 
-* 레코드 페이지의 세부 정보 탭을 내보낼 수 있습니다. 연결 탭은 내보낼 수 없습니다.
+* 레코드 페이지의 세부 정보 탭을 내보낼 수 있습니다.
 
 * 내보낸 파일은 축소판 및 표지 이미지를 포함하여 레코드 페이지의 레이아웃을 유지합니다.
 
@@ -181,7 +124,7 @@ Workfront 계정이 없을 수도 있는 다른 사용자와 더 효율적으로
 
 1. **세부 정보** 탭을 선택합니다. 기본적으로 세부 정보 탭이 열립니다.
 
-1. 미리 보기 또는 레코드 페이지에서 **내보내기** 아이콘 ![](assets/export-icon-in-record-details-page.png)을(를) 클릭한 후 다음 중 하나를 클릭합니다.
+1. 미리 보기 또는 레코드 페이지에서 **내보내기** 메뉴 ![](assets/export-icon-in-record-details-page.png)을(를) 클릭한 후 다음 중 하나를 클릭합니다.
 
    * **Microsoft Word**
    * **Adobe PDF**

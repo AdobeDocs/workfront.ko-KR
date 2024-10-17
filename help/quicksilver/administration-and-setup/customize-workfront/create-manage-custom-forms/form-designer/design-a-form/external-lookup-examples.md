@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 7a1df83c0dd7ddf7dd6cf41643ba65c5903d6eba
+source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1321'
 ht-degree: 0%
 
 ---
@@ -111,13 +111,15 @@ ht-degree: 0%
 
 ## Workfront Planning API에 대한 외부 조회 필드 설정
 
-끝점은 [Workfront Planning API](/help/quicksilver/planning/general/planning-api-basics.md)에서 Get 메서드를 통해 레코드 유형 ID별로 레코드를 검색할 수 있습니다. 이 끝점을 사용하여 외부 조회 필드의 계획 레코드를 참조할 수 있습니다.
+끝점은 Workfront Planning API에서 Get 메서드를 통해 레코드 유형 ID별로 레코드를 검색하는 데 사용할 수 있습니다. 이 끝점을 사용하여 외부 조회 필드의 계획 레코드를 참조할 수 있습니다.
 
 * **기본 API URL:** `$$HOST/maestro/api/v1/records/search?recordTypeId={recordTypeID}`
 * **HTTP 메서드:** Get
 * **JSON 경로:** `$.records[*].data.{fieldID}`
 
   **{fieldID}**&#x200B;은(는) 최종 사용자에 대한 사용자 정의 양식의 외부 조회 검색 결과에 표시할 필드입니다.
+
+자세한 내용은 [Workfront 계획 API](/help/quicksilver/planning/general/planning-api-basics.md)를 참조하십시오.
 
 ## 공개 API에 대한 외부 조회 필드 설정
 
