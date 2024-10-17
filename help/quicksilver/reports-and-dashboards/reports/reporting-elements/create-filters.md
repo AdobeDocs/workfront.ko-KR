@@ -6,7 +6,7 @@ description: 필터를 사용하여 항목 목록의 화면에 표시되는 정�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
 source-wordcount: '2461'
 ht-degree: 1%
@@ -399,7 +399,7 @@ Workfront 개체에 대한 자세한 내용은 [Adobe Workfront의 개체 이해
      >
      >여러 개의 OR 문으로 AND 문 그룹을 연결하는 경우 각 문 그룹의 OR 문 간에 변경되지 않는 필드를 반복해야 합니다.
      >
-     >![연결된 필터 문](assets/filters-and-statements-connected-by-or-statements-builder-ui-old-filters-2022.png)
+     >![연결된 필터 문](assets/filters-and-statements-connected-by-or-statements-builder-ui-legacy-filters.png)
      >
      >&quot;marketing&quot;이라는 단어가 포함되어 있고 현재 또는 계획 상태인 프로젝트에 대한 필터를 작성할 때 다음과 같은 필터 규칙이 있어야 합니다.
      >

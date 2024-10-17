@@ -6,9 +6,9 @@ description: Adobe Workfront의 다른 사용자와 보고서를 공유할 때 �
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 0ea65b3f-fbcf-40f4-a4d1-4dd91619c349
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1218'
 ht-degree: 3%
 
 ---
@@ -139,7 +139,7 @@ Adobe Workfront의 다른 사용자와 보고서를 공유할 때 특정 정보�
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>텍스트 색상</strong></td> 
-      <td> <p>텍스트가 표시되는 색상을 선택합니다. 8가지 색상이 있습니다</p> <p><b>메모</b></p> <p> 필드에 하이퍼링크가 포함되어 있으면 텍스트 색상 선택이 이 필드에 적용되지 않습니다.</p> </td> 
+      <td> <p>색상 선택기를 사용하여 텍스트가 표시되는 색상을 선택합니다.</p> <p><b>메모</b></p> <p> 필드에 하이퍼링크가 포함되어 있으면 텍스트 색상 선택이 이 필드에 적용되지 않습니다.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>텍스트 포맷</strong></td> 
@@ -151,7 +151,7 @@ Adobe Workfront의 다른 사용자와 보고서를 공유할 때 특정 정보�
      </tr> 
      <tr> 
       <td role="rowheader"><strong>배경</strong></td> 
-      <td>텍스트 배경색을 선택합니다. 8가지 색상이 있습니다</td> 
+      <td>색상 선택기를 사용하여 텍스트의 배경색을 선택합니다.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>아이콘 표시</strong></td> 
@@ -189,6 +189,6 @@ Adobe Workfront의 다른 사용자와 보고서를 공유할 때 특정 정보�
    * 지연 프로젝트의 빨간색 배경에 대한 열 규칙을 다시 추가합니다.
    * 규칙 및 보기를 저장할 때 빨간색 배경이 취소된 프로젝트에 적용되지 않습니다.
 
-1. **완료**&#x200B;를 클릭합니다.
+1. **저장**&#x200B;을 클릭합니다.
 1. **저장 및 닫기**&#x200B;를 클릭합니다.\
    지정된 조건이 충족되는 경우 보고서에 형식 변경 사항이 표시됩니다.

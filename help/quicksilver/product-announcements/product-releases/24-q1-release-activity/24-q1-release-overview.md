@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '1631'
+source-wordcount: '1628'
 ht-degree: 0%
 
 ---
@@ -361,7 +361,7 @@ ht-degree: 0%
                                 <p>빠른 릴리스를 위한 프로덕션: 24.3 릴리스 포함(2024년 3월)</p>
                             </li>
                             <li>
-                                <p>모든 고객을 위한 프로덕션: 24.10 릴리스 포함(2024년 10월)</p>
+                                <p>모든 고객을 위한 프로덕션: 발표 예정</p>
                             </li>
                         </ul>
                     </td>

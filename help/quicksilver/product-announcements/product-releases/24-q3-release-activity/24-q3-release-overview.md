@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 634b4dc9a75b306c46168848807faff80ab2eced
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '1830'
+source-wordcount: '1824'
 ht-degree: 0%
 
 ---
@@ -296,7 +296,7 @@ ht-degree: 0%
                                 <p>빠른 릴리스를 위한 프로덕션: 24.5 릴리스 포함(2024년 5월 16일)</p>
                             </li>
                             <li>
-                                <p>모든 고객을 위한 프로덕션 릴리스: 24.10 릴리스 포함(2024년 10월)</p>
+                                <p>모든 고객을 위한 프로덕션 릴리스: 발표 예정</p>
                             </li>
                         </ul>
                     </td>
@@ -316,7 +316,7 @@ ht-degree: 0%
                                 <p>빠른 릴리스를 위한 프로덕션: 24.5 릴리스 포함(2024년 5월 16일)</p>
                             </li>
                             <li>
-                                <p>모든 고객을 위한 프로덕션 릴리스: 24.10 릴리스 포함(2024년 10월)</p>
+                                <p>모든 고객을 위한 프로덕션 릴리스: 발표 예정</p>
                             </li>
                         </ul>
                     </td>

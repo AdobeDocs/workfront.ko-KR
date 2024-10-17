@@ -6,9 +6,9 @@ description: '참고: /Content/Reports and Dashboards/Reports/Reporting Elements
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '482'
 ht-degree: 1%
 
 ---
@@ -97,13 +97,11 @@ ht-degree: 1%
    >
    >텍스트 모드를 사용하여 뷰를 편집하려면 한 번에 한 열씩 편집해야 합니다.
 
-1. 빌더의 오른쪽 위 모서리에서 **텍스트 모드로 전환**&#x200B;을 클릭합니다.
+1. 빌더의 오른쪽 상단에 있는 **텍스트 모드로 전환**&#x200B;을 클릭한 다음 **텍스트 모드 편집**&#x200B;을 클릭합니다.
 
    >[!NOTE]
    >
    >텍스트 모드에서 열을 편집하면 Workfront에서 `textmode=true` 코드 행을 열에 추가합니다. 텍스트 모드에서 열이 수정되었음을 나타냅니다.
-
-   ![](assets/switch-to-text-mode-in-view-nwe-highlighted-350x447.png)
 
    다음 표에서는 텍스트 모드 보기의 주요 행에 대해 설명합니다.
 

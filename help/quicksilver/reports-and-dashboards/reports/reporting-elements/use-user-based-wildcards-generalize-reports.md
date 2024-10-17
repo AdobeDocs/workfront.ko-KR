@@ -6,7 +6,7 @@ description: 특정 보고 요소를 작성할 때 특정 정보 대신 와일�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 216e2869-b4f8-4cc7-9497-a12ebe00fe49
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 1%
@@ -78,8 +78,6 @@ ht-degree: 1%
 1. **이름을 입력하세요...** 상자에 `$$USER.ID` 또는 `$$USER.name`을(를) 입력하십시오. 보고서에 이름을 기준으로 로그인하는 사용자에 대한 정보를 표시하려면 다음이 필요합니다. 로그인한 사용자의 그룹, 팀, 회사 또는 기타 정보를 참조하는 다른 와일드카드를 삽입할 수 있습니다.
 
    사용자 기반 와일드카드의 전체 목록을 보려면 [와일드카드 필터 변수 개요](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)를 참조하십시오.
-
-   ![](assets/user-based-wildcard-in-project-filter-350x74.png)
 
 1. **저장 및 닫기**&#x200B;를 클릭합니다.
 

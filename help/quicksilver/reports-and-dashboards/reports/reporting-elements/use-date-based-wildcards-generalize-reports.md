@@ -6,9 +6,9 @@ description: 특정 보고 요소를 작성할 때 특정 정보 대신 와일�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 759b0bea-729e-4206-808c-0a7216ded4ff
-source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '687'
 ht-degree: 1%
 
 ---
@@ -68,7 +68,6 @@ ht-degree: 1%
 
 1. 날짜 기반 와일드카드를 삽입할 보고서로 이동합니다.
 1. **보고서 동작**&#x200B;을 클릭한 다음 **편집**&#x200B;을 클릭합니다.
-
 1. **필터** 탭을 클릭합니다.
 1. **필터 규칙 추가**&#x200B;를 클릭합니다.
 1. 필터링 기준으로 사용할 필드의 이름을 입력하십시오.\
@@ -79,7 +78,7 @@ ht-degree: 1%
    >
    >Adobe Workfront에서 와일드카드로 작업할 때 항상 **같음** 필터 변수를 선택해야 합니다.
 
-1. **이름 입력 시작...** 상자에 보고서를 실행한 바로 그 날에 발생하는 정보를 표시하려면 `$$TODAY`을(를) 입력하십시오.
+1. **상대적 날짜 설정** 토글을 클릭한 다음 나타나는 텍스트 상자에 보고서가 실행되는 당일 발생한 항목에 대한 정보를 표시하려면 `$$TODAY` 형식을 입력합니다.
 
    또는
 
@@ -91,8 +90,6 @@ ht-degree: 1%
 1. (선택 사항) 보고서가 실행되기 전 일정 기간 내에 발생한 항목에 대한 정보를 표시하려면 `$$TODAY-1w`을(를) 입력하여 이전 주의 정보를 표시하거나 `$$TODAY-2m`을(를) 입력하여 이전 2개월의 정보를 표시합니다. 분기, 시간, 일 또는 연도의 기간을 표시할 수도 있습니다.
 
    날짜 기반 와일드카드에 사용할 수 있는 전체 특성, 한정자 및 연산자 목록은 문서 [와일드카드 필터 변수 개요](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)를 참조하십시오.
-
-   ![](assets/video-date-based-wildcard-in-task-filter-350x81.png)
 
 1. **저장 및 닫기**&#x200B;를 클릭합니다.
 

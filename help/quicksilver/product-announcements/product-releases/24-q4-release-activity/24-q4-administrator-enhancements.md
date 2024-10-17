@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-source-git-commit: e48ef14cc3d0377a6d95f68b502f952ffe4880c4
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '567'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,18 @@ ht-degree: 0%
 이 페이지에서는 미리보기 환경에 대한 2024년 4분기 릴리스의 모든 관리자 개선 사항에 대해 설명합니다. 이러한 개선 사항은 언급된 대로 프로덕션 환경에서 사용할 수 있습니다.
 
 2024년 4분기 릴리스 주기에 이 시점에서 사용할 수 있는 모든 변경 사항 목록은 [2024년 4분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)를 참조하십시오.
+
+## 이제 환경 프로모션에서 액세스 수준을 사용할 수 있습니다.
+
+>[!NOTE]
+>
+>미리보기 릴리스: 2024년 10월 17일, 모든 고객을 위한 프로덕션 릴리스: 24.10 릴리스 포함(2024년 10월 17일)
+
+환경 프로모션 기능의 기능을 확장하기 위해 액세스 수준을 포함하는 기능이 추가되었습니다. 이제 샌드박스 환경에서 액세스 수준을 구성한 다음 해당 액세스 수준을 프로덕션 환경으로 승격할 수 있습니다.
+
+이전에는 환경 프로모션에 액세스 수준을 사용할 수 없었습니다.
+
+환경 프로모션에 사용할 수 있는 개체에 대한 자세한 내용은 환경 프로모션 개요 문서에서 [환경 프로모션에 대해 지원되는 개체](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion)를 참조하십시오.
 
 ## 사용자 정의 양식의 카운터는 필드 수를 보여 줍니다
 

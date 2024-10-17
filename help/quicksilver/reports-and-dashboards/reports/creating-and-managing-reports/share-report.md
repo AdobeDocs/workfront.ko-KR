@@ -6,9 +6,9 @@ description: Adobe Workfront 관리자는 사용자가 액세스 수준을 할�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 225e815a-0354-493d-bbcf-59304ef77570
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '817'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 보�
 
      >[!NOTE]
      >
-     >보고서에 프롬프트가 있고 공개적으로 공유하는 경우 보고서를 실행하는 사용자가 Workfront에 로그인해야 프롬프트를 사용하여 보고서를 실행할 수 있습니다. Workfront에 로그인할 수 없는 경우 보고서에 적용하라는 메시지가 표시되지 않습니다. 프롬프트와 보고서를 공유하는 제한 사항에 대한 자세한 내용은 문서 [보고서에 프롬프트 추가](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)의 [프롬프트 보고서 공유 제한](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports) 섹션을 참조하십시오.
+     >보고서에 프롬프트가 있고 공개적으로 공유하는 경우 공개 공유 링크를 통해 보고서를 실행하는 사용자는 프롬프트를 사용하여 보고서를 실행할 수 없습니다. Workfront에 로그인하지 않고 공개 공유 링크를 사용하지 않고 보고서에 액세스하지 않으면 보고서에 적용된다는 프롬프트 없이 보고서가 표시됩니다. 프롬프트가 있는 보고서를 공유하는 제한 사항에 대한 자세한 내용은 문서 [보고서에 프롬프트 추가](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)의 [프롬프트 보고서 공유 제한](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports) 섹션을 참조하십시오.
 
    * **시스템 전체에 표시:** 보고서에 대한 액세스 권한이 있는 모든 Workfront 사용자가 보고서를 볼 수 있도록 이 옵션을 선택하십시오.
 
