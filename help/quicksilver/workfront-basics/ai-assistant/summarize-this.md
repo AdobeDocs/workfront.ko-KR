@@ -5,16 +5,14 @@ description: 이 요약 기능을 사용하여 작업 항목과 문서를 빠르
 author: Becky
 feature: Get Started with Workfront
 exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
-source-git-commit: bbe4ad6a8528e7d0e3a5f6f2b669c1b5d8d2e313
+source-git-commit: 59c74b6530df09cb664e146b611d246465cf0116
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '415'
 ht-degree: 1%
 
 ---
 
 # AI Assistant를 사용하여 요약
-
-<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
 
 Workfront의 AI Assistant는 일부 객체를 요약할 수 있으므로 객체의 의도 또는 세부 사항을 세부적으로 파악할 수 있습니다.
 
@@ -67,8 +65,6 @@ AI Assistant는 다음 객체를 요약할 수 있습니다.
 
   자세한 내용은 [AI Assistant 사용 또는 사용 안 함](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)을 참조하십시오.
 
-<div class="preview">
-
 ## 요약 버튼을 사용하여 요약
 
 다음 영역에는 AI Assistant를 사용하여 요약을 생성하는 버튼이 있습니다.
@@ -88,8 +84,6 @@ AI Assistant는 다음 객체를 요약할 수 있습니다.
 1. (선택 사항) 필요한 정보를 제공하도록 프롬프트를 세분화합니다.
 
    예를 들어 콘텐츠 요약 프롬프트를 미세 조정하여 지난 7일이 아니라 지난 14일 동안의 주석을 요약할 수 있습니다.
-
-   </div>
 
 ## AI Assistant에서 오브젝트 요약
 
