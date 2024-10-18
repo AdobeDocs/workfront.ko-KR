@@ -3,21 +3,18 @@ product-area: projects
 navigation-topic: use-the-home-area
 title: 내 업데이트 영역 사용
 description: '[!UICONTROL 내 업데이트] 영역을 사용하여 결정을 기다리는 승인 또는 포함된 대화를 빠르게 검토할 수 있습니다.'
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
+source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL 내 업데이트] 영역 사용
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: there is a similar article like this in the "My Work" folder that is conditioned for Classic only)</p>
--->
 
 [!UICONTROL 내 업데이트] 영역을 사용하여 결정을 기다리는 승인 또는 포함된 대화를 빠르게 검토할 수 있습니다.
 
@@ -28,6 +25,8 @@ ht-degree: 0%
 [검토]와 다른 라이선스 유형이 있는 경우 [!DNL Workfront] 또는 그룹 관리자가 레이아웃 템플릿에 [!UICONTROL 내 업데이트] 영역을 추가하여 기본 메뉴에 표시해야 합니다. 자세한 내용은 [레이아웃 템플릿을 사용하여 [!UICONTROL 주 메뉴 사용자 지정]](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)을 참조하세요.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -57,6 +56,8 @@ ht-degree: 0%
 </table>
 
 *보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하십시오. 자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 전제 조건
 

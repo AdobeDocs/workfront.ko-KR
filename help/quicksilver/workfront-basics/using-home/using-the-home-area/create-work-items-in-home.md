@@ -1,25 +1,26 @@
 ---
 product-area: projects
 navigation-topic: use-the-home-area
-title: 홈 영역에서 작업 항목 만들기
-description: '[!UICONTROL Home] 영역에서 작업 항목을 만들 수 있습니다. 개인 작업을 직접 만들거나 다른 사용자에게 작업을 요청하거나 특정 프로젝트에 작업을 추가할 수 있습니다.'
-author: Nolan
+title: 홈 영역에서 작업 항목 및 프로젝트 만들기
+description: '[!UICONTROL Home] 영역에서 작업 항목 및 프로젝트를 만들 수 있습니다.'
+author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 644e2487dae0d3b2f7931660fb8e6ed68e6b8b93
+source-git-commit: 5ff0fabb60cb9e7c2a7b3506693efdb6c5d8e956
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 0%
+source-wordcount: '669'
+ht-degree: 3%
 
 ---
 
-# 홈 영역에서 작업 항목 만들기
+# 홈 영역에서 작업 항목 및 프로젝트 만들기
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: From Courtney: Need to rename)</p>
--->
+[!UICONTROL Home] 영역에서 작업 항목 및 프로젝트를 만들 수 있습니다. 홈에서 다음을 수행할 수 있습니다
 
-[!UICONTROL Home] 영역에서 작업 항목을 만들 수 있습니다. 개인 작업을 직접 만들거나 다른 사용자에게 작업을 요청하거나 특정 프로젝트에 작업을 추가할 수 있습니다.
+* 개인 할 일 만들기
+* 요청 제출
+* 특정 프로젝트에 작업 및 문제 추가
+* 템플릿에서 프로젝트를 만들거나, 빈 프로젝트를 만들거나, MS 프로젝트를 가져옵니다.
 
 ## 액세스 요구 사항
 
@@ -51,71 +52,117 @@ ht-degree: 0%
 
 &#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
 
-## 개인 작업 만들기
+## 개인 할 일 항목 만들기
 
-[!UICONTROL Home] 영역에서 본인만 사용할 수 있는 개인 작업을 만들 수 있습니다.
-
-1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을(를) 클릭합니다.
-1. **[!UICONTROL 새 작업]** > **[!UICONTROL 개인]**&#x200B;을 클릭합니다.
-
-   ![](assets/creating-work-items-new-task-personal-nwe-350x228.png)
-
-1. **[!UICONTROL 이름]** 필드에 작업 이름을 지정하십시오.
-1. (선택 사항) **[!UICONTROL 날짜 선택]**&#x200B;을 클릭한 다음 작업이 만료되는 날짜를 선택합니다. 작업의 [!UICONTROL 계획된 완료 일자]를 설정합니다.\
-   오른쪽 패널에서 날짜를 클릭하거나 **[!UICONTROL 이 작업을]** 날짜까지 직접 편집하여 **[!UICONTROL 계획된 완료 날짜]**&#x200B;를 변경할 수 있습니다.
-
-1. 작업을 저장하려면 **[!UICONTROL 만들기]**&#x200B;를 클릭하십시오.\
-   작업이 사용자에게 할당되었으며 [!UICONTROL Home] 영역에서 사용할 수 있습니다.
-
->[!NOTE]
->
->* 개인 작업을 만들면 [!UICONTROL Workfront]에서 검색할 수 없는 &quot;숨겨진&quot; 프로젝트에 저장됩니다. 프로젝트 이름은 &quot;&lt; 사용자 이름 > 의 작업&quot;으로 지정됩니다. 사용자 이름은 작업을 만든 사용자의 전체 이름입니다. 예를 들어 작업의 이동 경로에서 [!UICONTROL 홈] 영역의 개인 작업을 클릭할 때만 이 프로젝트에 액세스할 수 있습니다.
->
->* 일반 프로젝트 작업과 달리, 개인 작업은 Workfront 인터페이스에 표시되는 제한된 필드 집합을 가지며 타임라인이나 프로젝트의 진행에 영향을 주지 않습니다. 개인 작업을 다른 사용자에게 재할당하면 모든 작업 필드가 개인 작업에 추가되지만 작업은 작업을 만든 사용자의 개인 프로젝트에 유지됩니다.
->
->
->* 개인 작업은 시간이 기록되거나 타임시트에 고정된 경우에만 타임시트에 표시됩니다. 작업에 기록된 시간이 있는 경우에만 개인 작업을 타임시트에 고정할 수 있습니다. 자세한 내용은 [로그 시간](../../../timesheets/create-and-manage-timesheets/log-time.md)을 참조하세요.
-> 
->* 개인 작업을 일반 워크플로우의 일부로 만들려면 프로젝트를 만들고 개인 작업을 프로젝트로 이동하는 것이 좋습니다.
->
-> ![[!UICONTROL 개인 작업에 대한 프로젝트]](assets/createworkitems-personal--project-350x105.png)
-
-## 다른 사용자로부터 작업 요청
-
-홈 영역에서 직접 다른 사용자에게 작업을 요청할 수 있습니다. 이 섹션에 설명된 대로 다른 사용자에게 작업을 요청하면 사용자가 **[!UICONTROL 작업]**&#x200B;을 클릭할 때까지 작업이 사용자의 홈 영역에 요청으로 표시됩니다.
-
-[!UICONTROL Home] 영역에서 다른 사용자의 작업을 요청하려면:
+[!UICONTROL Home] 영역에서 본인만 사용할 수 있는 개인 할 일 항목을 만들 수 있습니다.
 
 1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을(를) 클릭합니다.
-1. **[!UICONTROL 새 작업]**&#x200B;을 클릭한 다음 **[!UICONTROL 요청]**&#x200B;을 선택합니다.
+1. (조건부) 할 일 위젯을 홈 화면에 추가합니다. **사용자 지정**&#x200B;을 클릭하고 **할 일**&#x200B;을 찾으십시오.
+1. **할 일** 위젯으로 이동한 다음 **할 일 추가**&#x200B;를 클릭합니다.
+1. 을(를) 입력합니다
+1. (선택 사항) **날짜** 아이콘 ![](assets/date-icon.png)을(를) 클릭하여 항목의 기한을 추가합니다.
+   ![](assets/my-work-to-dos.png)
 
-   ![](assets/creating-work-items-new-task-request-nwe-350x283.png)
 
-1. **[!UICONTROL 이름]** 필드에 작업 이름을 지정하십시오.
-1. **[!UICONTROL 할당 대상]** 필드에 할당할 사용자, 팀 또는 역할의 이름을 입력한 다음 드롭다운 메뉴에 나타나는 이름을 클릭합니다.
-1. [!UICONTROL 다른 이름으로 추가] 드롭다운 메뉴에서 작업 또는 문제를 추가할지 여부를 선택합니다.
-1. **[!UICONTROL 날짜 선택]**&#x200B;을 클릭한 다음 작업이 만료되는 날짜와 시간을 선택합니다.
-1. 작업을 저장하려면 **[!UICONTROL 만들기]**&#x200B;를 클릭하십시오.\
-   지정한 사용자의 [!UICONTROL Home] 영역에 작업이 작업 요청으로 표시됩니다.
 
-## 프로젝트에 작업 또는 문제 추가
+## 프로젝트에 작업 추가
 
-홈 영역에서 기존 프로젝트에 작업 또는 문제를 직접 추가할 수 있습니다.
+홈 영역에서 기존 프로젝트에 작업을 직접 추가할 수 있습니다.
 
-1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **홈**&#x200B;을(를) 클릭합니다.
-1. **[!UICONTROL 새 작업]**&#x200B;을 클릭한 다음 **[!UICONTROL 프로젝트 작업]**&#x200B;을 선택합니다.
+1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을(를) 클릭합니다.
+1. (조건부) 홈 화면에 **내 작업** 위젯을 추가합니다. **사용자 지정**&#x200B;을 클릭하고 **내 작업**&#x200B;을 찾습니다.
+1. **내 작업** 위젯으로 이동한 다음 **새로 만들기**를 클릭합니다.
+   ![](assets/create-new-task.png)
+1. **새 작업** 대화 상자에서 작업 이름을 입력합니다.
+1. 프로젝트 이름을 입력한 다음 목록에서 이름을 선택합니다.
+1. (선택 사항) 다음 필드에 정보를 입력합니다.
 
-   ![](assets/creating-work-items-new-project-task-nwe-350x358.png)
+   | 필드 | 지침 |
+   |----------|----------|
+   | **설명** | 설명을 입력합니다. |
+   | **할당** | 사용자를 할당합니다. |
+   | **기간** | 기간을 입력합니다. |
+   | **계획된 완료 일자** | 계획된 완료 일자를 선택합니다. |
+   | **추가 옵션** | 작업에 대한 추가 설정을 구성하려면 추가 옵션을 선택하십시오. 작업 만들기에 대한 자세한 내용은 [작업 편집](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md)을 참조하세요. |
 
-1. **[!UICONTROL 이름]** 필드에 작업 또는 문제의 이름을 지정하십시오.
-1. **[!UICONTROL 할당 대상]** 필드에 할당할 사용자, 팀 또는 역할의 이름을 입력한 다음 드롭다운 메뉴에 나타나는 이름을 클릭합니다.
-1. 작업 또는 문제를 만들 프로젝트의 이름을 입력한 다음 드롭다운 메뉴에 표시될 때 이름을 클릭합니다.
+1. **작업 만들기**&#x200B;를 클릭합니다.
 
-   >[!IMPORTANT]
-   >
-   >[!UICONTROL 상태] 프로젝트가 [!UICONTROL 현재](으)로 설정된 경우에만 작업 또는 문제가 [!UICONTROL 작업 목록]에 표시됩니다.
 
-1. (조건부) 문제를 만들려면 **[!UICONTROL 다른 이름으로 추가]** 드롭다운 메뉴에서 **[!UICONTROL 문제]**&#x200B;를 선택하십시오. 기본적으로 **[!UICONTROL 작업]**&#x200B;이(가) 선택됩니다.
+## 프로젝트에 문제 추가
 
-1. **[!UICONTROL 날짜 선택]**&#x200B;을 클릭한 다음 작업이 만료되는 날짜와 시간을 선택합니다.
-1. 작업을 저장하려면 **[!UICONTROL 만들기]**&#x200B;를 클릭하십시오.
+홈 영역에서 기존 프로젝트에 문제를 바로 추가할 수 있습니다.
+
+1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을(를) 클릭합니다.
+1. (조건부) **내 문제** 위젯을 홈 화면에 추가합니다. **사용자 지정**&#x200B;을 클릭하고 **내 문제**&#x200B;를 찾습니다.
+1. **내 문제** 위젯으로 이동한 다음 **새로 만들기**를 클릭합니다.
+   ![](assets/create-new-issue.png)
+1. **새 문제 대화 상자** 상자에서 프로젝트 이름을 입력한 다음 목록에서 이름을 선택합니다.
+1. 문제 이름을 입력하십시오.
+1. (선택 사항) 다음 필드에 정보를 입력합니다.
+
+   | 필드 | 지침 |
+   |----------|----------|
+   | **설명** | 설명을 입력합니다. |
+   | **할당** | 사용자를 할당합니다. |
+   | **우선 순위** | 우선 순위 수준을 선택합니다. |
+   | **문서** | 문서를 업로드합니다. |
+
+1. **새 문제 저장**&#x200B;을 클릭합니다.
+
+## 요청 만들기
+
+홈 영역에서 직접 요청을 만들 수 있습니다.
+
+1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을(를) 클릭합니다.
+1. (조건부) **내 요청** 위젯을 홈 화면에 추가합니다. **사용자 지정**&#x200B;을 클릭하고 **내 요청**&#x200B;을 찾습니다.
+1. **내 요청** 위젯으로 이동한 다음 **새로 만들기**를 클릭합니다.
+   ![](assets/create-new-request.png)
+
+1. **새 요청** 대화 상자에서 요청 큐의 이름을 입력하세요.
+1. 관련 필드를 채웁니다.
+1. **제출**&#x200B;을 클릭합니다.
+
+요청 제출에 대한 자세한 내용은 [요청 만들기 및 제출](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)을 참조하십시오.
+
+## 프로젝트 만들기
+
+홈 영역에서 바로 프로젝트를 만들 수 있습니다.
+
+1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을(를) 클릭합니다.
+1. (조건부) **내 프로젝트** 위젯을 홈 화면에 추가합니다. **사용자 지정**&#x200B;을 클릭하고 **내 프로젝트**&#x200B;를 찾습니다.
+1. **내 프로젝트** 위젯으로 이동한 다음 **새로 만들기**를 클릭합니다.
+   ![](assets/create-new-project.png)
+1. 다음 옵션 중 하나를 선택합니다.
+
+   | 필드 | 지침 |
+   |----------|----------|
+   | 템플릿에서 | 템플릿으로 프로젝트를 만드는 방법에 대한 자세한 지침을 보려면 [템플릿을 사용하여 프로젝트 만들기](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md)(으)로 이동하십시오. |
+   | 빈 프로젝트 | 빈 프로젝트 만들기에 대한 자세한 지침은 [처음부터 프로젝트 만들기](/help/quicksilver/manage-work/projects/create-projects/create-project.md#create-a-project-from-scratch)(으)로 이동하십시오. |
+   | MS 프로젝트 가져오기 | MS 프로젝트 가져오기에 대한 자세한 지침은 [Microsoft 프로젝트에서 프로젝트 가져오기](/help/quicksilver/manage-work/projects/create-projects/import-project-from-ms-project.md)(으)로 이동하십시오. |
+
+
+<!--
+## Create a board
+
+You can create a board directly from the Home area:
+
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. (Conditional) Add the **Boards** widget to your home screen. Click **Customize**, and find **Boards**. -->
+
+
+
+
+
+<!--
+## Delete a to-do item
+
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Go to the to-do widget.
+1. Hover over the item, then click the **Delete** icon ![](assets/delete-to-do.png). 
+
+## Edit a to-do item
+
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Go to the to-do widget.
+1. Edit the item name.
+1. Click on the **Date** icon ![](assets/date-icon.png) to add or adjust a due date. -->

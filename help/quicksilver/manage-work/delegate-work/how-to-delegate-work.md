@@ -6,7 +6,7 @@ description: 부재 중 할당된 작업을 임시로 위임할 수 있습니다
 author: Alina
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 9d0caff0381ee50bf8dd7060bebafb5354c0f0d8
 workflow-type: tm+mt
 source-wordcount: '1518'
 ht-degree: 0%
@@ -107,7 +107,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 1. [!UICONTROL **Home**] 영역으로 이동합니다.
 1. [!UICONTROL **홈**]&#x200B;에 [!UICONTROL **내 작업**], [!UICONTROL **내 작업**] 또는 [!UICONTROL **내 문제**] 위젯이 추가되었는지 확인하세요.
 
-   자세한 내용은 [홈에서 위젯 추가, 편집 또는 제거](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)를 참조하세요.
+   자세한 내용은 [홈에서 위젯 추가, 편집 또는 제거](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)를 참조하세요.
 
 1. [!UICONTROL **내 작업**], [!UICONTROL **내 작업**] 또는 [!UICONTROL **내 문제**] 위젯의 왼쪽 상단 모서리에서 [!UICONTROL **위임**]&#x200B;을 클릭합니다.
 

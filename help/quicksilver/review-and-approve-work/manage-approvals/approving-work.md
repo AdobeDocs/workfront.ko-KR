@@ -6,10 +6,10 @@ description: 작업 승인
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6e43edbb-14dd-493d-a76b-84be6c3bef82
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: 216bf9ea9cb58294b42cc41d70ca0ab99b6dc827
 workflow-type: tm+mt
-source-wordcount: '1145'
-ht-degree: 0%
+source-wordcount: '896'
+ht-degree: 1%
 
 ---
 
@@ -66,68 +66,75 @@ Workfront의 다양한 영역에서 승인을 보고 관리할 수 있습니다.
 
 ## 홈 영역에서 작업 승인
 
-1. Adobe Workfront의 왼쪽 위 모서리에 있는 **Home** 아이콘 ![](assets/home-icon-30x29.png)을(를) 클릭합니다.
+1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을(를) 클릭합니다.
+1. (조건부) **사용자 지정**&#x200B;을 클릭하여 **내 승인** 위젯을 추가합니다.
+1. (조건부) **필터** 드롭다운 메뉴를 클릭한 다음 **모두**&#x200B;를 선택하여 귀하에게 할당 및 위임된 승인을 확인합니다.
 
    >[!NOTE]
    >
-   >Workfront 관리자는 사용자 환경의 홈 아이콘을 다음과 같이 변경할 수 있습니다.
-   >
-   >   
-   >* 조직 설명을 위해 사용자 지정된 이미지로 대체합니다. 이 경우 아이콘은 이 문서에 표시된 것과 다르게 표시됩니다.
-   >* 연결된 페이지를 다른 페이지로 바꿉니다. 이 경우 페이지의 오른쪽 상단에 있는 **기본 메뉴** ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **홈**&#x200B;을(를) 클릭합니다.
+   >작업 역할 또는 그룹에 할당된 승인이 홈에 표시되지 않습니다. 팀에 할당된 승인은 각 팀 구성원의 내 승인 위젯에 표시됩니다.
 
-1. **필터** 드롭다운 메뉴를 클릭합니다.
 
-   ![](assets/displaying-work-items-filters-nwe-350x401.png)
-
-1. **승인**&#x200B;을 선택합니다.\
-   승인이 필요한 모든 작업 항목이 표시됩니다. 
-
-   >[!NOTE]
-   >
-   >작업 역할 또는 그룹에 할당된 승인이 홈에 표시되지 않습니다. 팀에 할당된 승인은 작업 목록의 팀 요청 그룹에 표시됩니다.
-
-1. (선택 사항) 문서 [홈 영역의 작업 목록에 항목 표시](../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)의 &quot;날짜, 프로젝트 또는 우선 순위별로 그룹화 및 정렬&quot; 섹션에 설명된 대로 승인이 표시되는 순서를 변경합니다.
 1. 승인 결정을 내릴 품목을 선택합니다.
 
-   ![](assets/task-approval-home-350x127.png)
+   ![](assets/my-approvals-widget.png)
 
 1. 오른쪽 패널에서 승인 결정을 내릴 때 사용할 수 있는 옵션 중 하나를 클릭합니다. 승인하는 항목의 유형에 따라 페이지의 오른쪽 상단에 다음 옵션이 표시됩니다.
 
-   * **프로젝트:** **승인** 또는 **거부**&#x200B;를 클릭합니다.
+   <table>
+   <tr>
+      <td>
+      <p><strong>액세스</strong></p>
+      </td>
+      <td>
+      <p><strong>작업 항목</strong></p>
+      </td>
+      <td>
+      <p><strong>문서</strong></p>
+      </td>
+      <td>
+      <p><strong>증명</strong></p>
+      </td>
+   </tr>
+   <tr>
+      <td>
+       <ul>
+      <li>부여</li>
+      <li>무시</li>
+      </ul>
+      원하는 경우 <b>액세스 변경</b> 드롭다운 메뉴에서 액세스 수준을 조정할 수 있습니다.
+      </td>
+      <td>
+         <ul>
+         <li>승인</li>
+         <li>거부</li>
+         </ul>
+      결정 버튼의 드롭다운 메뉴를 클릭하여 결정과 함께 주석을 남길 수 있습니다.
+      </td>
+      <td>
+   승인자로 할당됨
+         <ul>
+         <li>승인</li>
+         <li>변경 사항과 함께 승인</li>
+         <li>작업 필요</li>
+         </ul>
+   검토자로 할당됨
+         <ul>
+         <li>내 리뷰 완료</li>
+         </ul>
+      이 열의 옵션은 새 문서 승인에만 적용됩니다. 기존 문서 승인은 작업 항목 승인과 동일하게 표시됩니다. 
+      </td>
+      <td>
+         <ul>
+         <li>증명으로 이동</li>
+         </ul>
+         증명 뷰어에서 결정을 내립니다. 증명 검토에 대한 자세한 내용은 <a href="../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md">Adobe Workfront 내에서 증명 검토</a>를 참조하십시오.
+      </td>
+   </tr>
+   </table>
 
-   * **작업:** **승인** 또는 **거부** 을 클릭합니다.
+결정을 내리면 내 승인 위젯에서 승인이 제거됩니다.
 
-   * **문제:** **승인** 또는 **거부** 을 클릭합니다.
-
-   * **타임시트:** **승인** 또는 **거부** 을 클릭합니다.
-
-   * **문서:** **승인**, **거부** 또는 **변경**&#x200B;을 클릭합니다.\
-      볼 때 다음 사항을 고려하십시오  승인:
-
-      * 사용자가 [Adobe Workfront 내에서 증명 공유](../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) 문서의 &quot;증명 링크 공유&quot; 섹션에 설명된 대로 증명을 공유할 때 증명 승인이 여기에 표시됩니다.
-      * 증명 승인은 Workfront 환경이 Workfront Proof Premium 계정과 통합된 경우에만 홈 영역에 표시됩니다. 여기에 설명된 대로 증명을 사용할 수 없는 경우 Workfront 관리자에게 문의하십시오.
-      * 증명 승인을 알리는 인앱 알림을 받게 됩니다.\
-        인앱 알림에 대한 자세한 내용은 [인앱 알림 보기 및 관리](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)를 참조하십시오.
-
-      * 승인을 요청한 사용자의 이름은 홈 영역의 썸네일 이미지 옆에 표시되며 다음과 같은 텍스트가 표시됩니다.\
-        &quot;*사용자 A*&#x200B;이(가) 다음에 대한 승인을 원합니다.&quot;
-
-        <!--      
-        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">      
-        (NOTE:&nbsp;From&nbsp;Courtney: Is this true?)      
-        </MadCap:conditionalText>      
-        -->
-
-        사용자 이름을 사용할 수 없는 경우 다음 텍스트가 표시됩니다.\
-        &quot;증명의 새 버전을 볼 준비가 되었습니다.&quot;
-      * 증명에 대한 승인 결정을 내리려면 **증명으로 이동**&#x200B;을 클릭하고 **검토 완료**&#x200B;를 클릭한 다음 사용 가능한 옵션 중 하나를 클릭하십시오. 증명을 승인할 때 사용할 수 있는 옵션은 **승인됨**, **변경 사항과 함께 승인됨**, **변경 필요** 및 **관련 없음**&#x200B;입니다.
-
-      * 증명에 대한 결정이 내려지면 **새로 고침** 단추를 클릭하거나 브라우저 페이지를 새로 고칠 때까지 증명이 &quot;결정됨&quot; 텍스트와 함께 내 승인 탭에 유지됩니다.
-
-        증명 검토에 대한 자세한 내용은 [Adobe Workfront 내에서 증명 검토](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)를 참조하십시오.
-
-   * **액세스:** **액세스 권한 변경** 드롭다운 메뉴에서 부여할 액세스 수준을 선택한 다음 **액세스 권한 부여**&#x200B;를 클릭합니다. 또는 **무시**&#x200B;를 클릭합니다.
 
 ## 프로젝트, 작업 또는 문제에서 직접 작업 승인
 

@@ -4,9 +4,9 @@ description: 2024년 4분기 홈 개선 사항
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: e68972f7334a93f7fbd3db29919a2f2746ce64fe
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 * **필터 옵션으로 제출한 승인이 추가되었습니다**: 이제 이 위젯을 사용하여 새 홈에서 제출한 승인을 볼 수 있습니다.
 * **기한**: 이제 증명 기한이 설정된 경우 이를 볼 수 있습니다. 기한을 설정하지 않으면 기한의 기본값이 생성 일자로 설정됩니다.
 
-자세한 내용은 [새 홈 시작](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)을 참조하세요.
+자세한 내용은 [홈 시작](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md)을 참조하세요.
 
 ## 우선 순위가 있는 작업 소유자의 Workfront 경험 간소화
 

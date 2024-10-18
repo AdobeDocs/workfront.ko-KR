@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 29d8b581-27c9-4215-8147-8044b3e2bc5e
-source-git-commit: fcd3e565c10a952bd78b4f628b071c6718c92747
+source-git-commit: 145dd86575951d837e66e18ceb235dc3694571cc
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,6 @@ ht-degree: 0%
 
 이제 새 홈의 내 작업, 내 프로젝트, 내 작업 및 내 문제 위젯에 있는 **새 업데이트 추가** 빠른 작업 단추에 새 댓글 달기 기능을 추가했습니다.
 
-자세한 내용은 [새 홈 시작](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)을 참조하세요.
 
 ## 새 댓글 달기 환경에서 사용할 수 있는 추가 댓글 정보
 

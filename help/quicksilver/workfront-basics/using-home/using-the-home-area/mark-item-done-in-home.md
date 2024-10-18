@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: use-the-home-area
 title: 홈 영역에서 항목을 완료로 표시
 description: 작업 또는 문제 피할당자인 경우 작업 또는 문제를 완료로 표시할 수 있습니다. 작업 또는 문제를 완료로 표시하면 작업 또는 문제의 상태가 완료로 변경됩니다.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 4c3638aa-5ee3-422a-9fee-41c4749fe48b
-source-git-commit: 073e6c7d4e830dfd2b8920a20e1490c5524d71bd
+source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '846'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >작업 또는 문제에 할당된 리소스 중 하나가 아니면 [!UICONTROL 완료] 단추가 표시되지 않습니다.
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 ## 액세스 요구 사항
 
@@ -52,18 +54,27 @@ ht-degree: 0%
 
 &#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
 
-## 작업 또는 문제를 [!UICONTROL 완료](으)로 표시
++++
 
-작업 또는 문제에 할당된 사용자만 [!UICONTROL 완료](으)로 표시할 수 있습니다.
+## 내 작업 위젯에서 작업 항목을 완료로 표시
 
 1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을(를) 클릭합니다.
-1. **[!UICONTROL 작업 목록]**&#x200B;에서 작업 대기 중인 항목을 찾습니다.
-1. 다음 중 하나를 수행합니다.
+1. (조건부) **사용자 지정**&#x200B;을 클릭하여 **내 작업** 위젯을 추가합니다.
+1. 작업 항목을 찾은 다음 작업 항목에서 **[!UICONTROL 완료로 표시]**를 클릭합니다.
+이 단추가 표시되는 방법에 대한 자세한 내용은 [[!UICONTROL 완료] 단추의 옵션 이해](#understand-the-options-of-the-done-button)를 참조하십시오.
+   ![](assets/my-work-done.png)
 
-* 작업 항목에서 **[!UICONTROL 완료]**&#x200B;를 클릭합니다.\
-   이 단추가 표시되는 방법에 대한 자세한 내용은 [[!UICONTROL 완료] 단추의 옵션 이해](#understand-the-options-of-the-done-button)를 참조하십시오.
 
-* 완료로 표시할 항목을 선택하고 오른쪽 패널에서 **[!UICONTROL 상태 업데이트]**&#x200B;를 클릭한 다음 항목의 상태를 [!UICONTROL 완료] 또는 [!UICONTROL 닫힘]과(와) 같은 상태로 변경합니다.
+## 요약 패널에서 작업 항목을 완료됨으로 표시
+
+요약 패널을 사용하여 내 작업 및 내 문제 위젯에서 작업 항목을 완료 로 표시할 수 있습니다.
+
+1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을(를) 클릭합니다.
+1. (조건부) **사용자 지정**&#x200B;을 클릭하여 **내 작업** 또는 **내 문제** 위젯을 추가합니다.
+1. 작업 항목을 마우스로 가리킨 다음 **요약** 아이콘을 클릭합니다.
+   ![](assets/open-summary-new-home.png)
+1. 요약 패널 상단의 **완료 표시**&#x200B;를 클릭합니다.
+
 
 ## [!UICONTROL 완료] 단추의 옵션 이해
 
@@ -81,7 +92,7 @@ ht-degree: 0%
 
 [!UICONTROL 완료] 단추가 하나의 상태와 연결되어 있고 작업 항목만 사용자에게 할당되어 있으면 단추는 **[!UICONTROL 완료]**&#x200B;입니다. 클릭하면 작업 또는 문제의 상태가 [!UICONTROL 완료] 단추와 연결된 상태로 변경됩니다.
 
-![완료 단추](assets/Done.png)
+![완료 단추](assets/done-button-status.png)
 
 [!UICONTROL 완료] 단추와 관련된 상태를 이해하려면 [팀 설정 편집](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md)에 설명된 대로 홈 팀의 [!UICONTROL 팀 설정]에서 [!UICONTROL 완료 단추] 섹션을 확인하십시오.
 
@@ -93,17 +104,14 @@ ht-degree: 0%
 
 여러 상태를 [!UICONTROL 완료] 단추와 연결하는 방법은 [작업에 대한 [!UICONTROL 완료] 단추 구성](../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md) 및 [문제에 대한 [!UICONTROL 완료] 단추 구성](../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)을 참조하세요.
 
-<!--
-<img src="assets/marking-an-item-done-multiple-statuses-350x171.png" style="width: 350;height: 171;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
--->
-
 ### 여러 리소스에 할당된 항목에 대한 [!UICONTROL 완료] 단추
 
-작업 또는 문제가 둘 이상의 리소스에 할당되면 버튼에 **[!UICONTROL 완료]**&#x200B;라는 단어가 표시되며 그 뒤에는 드롭다운 메뉴가 표시됩니다. 드롭다운 메뉴에서 **[!UICONTROL 내 파트 완료]**(작업의 일부 완료됨) 또는 [!UICONTROL 완료] 버튼(항목 완료)과 관련된 상태 중에서 선택할 수 있는 옵션이 있습니다. **[!UICONTROL 내 파트로 완료]**&#x200B;를 선택하면 작업 항목이 작업 목록에서 제거되지만 작업 항목에 할당된 작업 목록에는 남아 있습니다.\
+작업 또는 문제가 둘 이상의 리소스에 할당되면 버튼에 **[!UICONTROL 완료]**&#x200B;라는 단어가 표시되며 그 뒤에는 드롭다운 메뉴가 표시됩니다. 드롭다운 메뉴에서 **[!UICONTROL 내 파트 완료]**(작업의 일부 완료됨) 또는 [!UICONTROL 완료] 버튼(항목 완료)과 관련된 상태 중 하나를 선택할 수 있습니다. **[!UICONTROL 내 파트로 완료]**&#x200B;를 선택하면 작업 항목이 작업 목록에서 제거되지만 작업 항목에 할당된 작업 목록에는 남아 있습니다.\
 완료 단추가 여러 상태와 연결되어 있으면 **내 부분으로 완료** 아래에 나열됩니다.
 
 >[!NOTE]
 >
 >여러 명의 할당자가 있는 작업 또는 문제에서 각 사용자는 작업 또는 문제에 대한 자신의 할당이 실제로 완료되었음을 표시할 책임이 있습니다. 따라서 각 할당자는 [!UICONTROL 완료]를 클릭하여 항목에서 할당된 작업을 완료했음을 표시해야 합니다.
 
-![](assets/marking-an-item-done-with-my-part-grop-by-drop-down-nwe-350x266.png)
+![](assets/done-with-my-part.png)
+

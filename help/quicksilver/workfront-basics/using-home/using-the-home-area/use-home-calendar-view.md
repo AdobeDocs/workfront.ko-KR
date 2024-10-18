@@ -6,29 +6,35 @@ description: '[!UICONTROL 홈] 영역의 [일정] 보기를 사용하여 근무�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 07b33b56-ae57-4ae5-890e-c21feae1c4fd
-source-git-commit: d1babaf52c4035c20bf3990272af5a2f401b7fcb
+source-git-commit: 1131c2329d194f0c9181b6a5cbd39f19a5247ef0
 workflow-type: tm+mt
-source-wordcount: '1603'
+source-wordcount: '48'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL 홈 일정] 보기 사용
 
-[!UICONTROL 홈] 영역의 [일정] 보기를 사용하여 근무일과 작업 할당을 관리할 수 있습니다. [!UICONTROL 홈 캘린더]를 보고 관리할 수 있습니다.
+>[!IMPORTANT]
+>
+>이 기능은 2014/10/17 기존 홈 사용 중지와 함께 제거되었습니다.
+
+<!--
+
+You can use the Calendar view in the [!UICONTROL Home] area to manage your work day and work assignments. Only you can view and manage your [!UICONTROL Home Calendar].
 
 >[!NOTE]
 >
->[!UICONTROL Home] 영역의 [!UICONTROL Calendar] 보기는 작업의 시각적 표현을 제공하는 동적 보고서인 [!DNL Adobe Workfront] [!UICONTROL Calendar] 보고서와 다릅니다. [!DNL Workfront] [!UICONTROL 캘린더] 보고서에 대한 자세한 내용은 [캘린더 보고서 개요](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md)를 참조하십시오.
+>The [!UICONTROL Calendar] view in the [!UICONTROL Home] area is different from a [!DNL Adobe Workfront] [!UICONTROL Calendar] report, which is a dynamic report that provides a visual representation of your work. For information about the [!DNL Workfront] [!UICONTROL Calendar] report, see [Calendar reports overview](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 >
 >  <!--
 >  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Due to a temporary problem, your Workfront Calendar data might not display as described in this article. This problem will be fixed in the near future. (NOTE: From Alina: Spoke with Lisa and Court and they agreed to draft or delete this. Court could not remember what this was referring to and Lisa did not add this note. Lisa might update this if she hears from the team that this is still accurate.)</li>>
->  -->
+>  
 
 
-## 액세스 요구 사항
+## Access requirements
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,128 +44,128 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
-   <td> <p>[!UICONTROL Work] 이상</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
+   <td> <p>[!UICONTROL Work] or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>액세스 수준 구성*</strong></td> 
-   <td> <p>작업 및 문제에 대한 [!UICONTROL 편집] 액세스</p> <p>참고: 여전히 액세스 권한이 없는 경우 [!DNL Workfront] 관리자에게 액세스 수준에 추가 제한을 설정했는지 문의하십시오. [!DNL Workfront] 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+   <td role="rowheader"><strong>Access level configurations*</strong></td> 
+   <td> <p>[!UICONTROL Edit] access to Tasks and Issues</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>개체 권한</strong></td> 
-   <td> <p>캘린더에 추가할 작업 및 문제에 대한 [!UICONTROL Contribute] 권한 이상</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
+   <td role="rowheader"><strong>Object permissions</strong></td> 
+   <td> <p>[!UICONTROL Contribute] permissions or higher to the tasks and issues you want to add to the calendar</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-## [!UICONTROL 홈 일정]에서 작업 항목 예약
+## Schedule work items in your [!UICONTROL Home Calendar]
 
-[!UICONTROL 홈 일정]을 사용하여 주별 작업 항목을 예약할 수 있습니다.
+You can use the [!UICONTROL Home Calendar] to schedule work items for your week.
 
 >[!NOTE]
 >
->[!UICONTROL 홈 일정]에 작업 항목을 추가해도 작업 항목과 연결된 기존 날짜는 변경되지 않습니다.
+>Placing a work item on your [!UICONTROL Home Calendar] does not change the existing dates associated with the work item.
 
-캘린더에 [!DNL Workfront] 작업 항목을 추가하려면:
+To add a [!DNL Workfront] work item to your calendar:
 
-1. [홈 캘린더 보기]](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md)에 설명된 대로 [!UICONTROL 홈 캘린더] 보기로 이동합니다.[!UICONTROL 
+1. Go to the [!UICONTROL Home Calendar] view, as explained in [View the [!UICONTROL Home Calendar]](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md).
 
-   사용자 또는 사용자의 그룹, 팀 또는 작업 역할에 할당된 모든 작업 항목이 왼쪽 패널에 표시됩니다. 목록을 정렬하고 필터링하여 특정 항목만 표시할 수 있습니다.
+   All the work items assigned to you or your groups, teams, or job roles display in the left panel. You can sort the list and filter it to display only certain items.
 
-   자세한 내용은 이 문서의 뒷부분에서 [작업 항목 필터링 및 정렬](#filter-and-sort-work-items)을 참조하세요.
+   For more information, see [Filter and sort work items](#filter-and-sort-work-items) later in this article.
 
-1. 왼쪽 패널에서 작업 항목을 작업할 날짜와 시간으로 드래그합니다.
+1. From the left panel, drag the work item to the day and time when you want to work on it.
 
-   계획된 완료 일자 후 또는 계획된 시간 수보다 많은 시간 동안 항목에 대한 작업을 수행하도록 스케줄을 지정하면 작업 항목이 빨간색으로 표시되고 경고가 나타납니다.
+   If you schedule yourself to work on an item after its planned completion date or for more time than the number of hours it's planned for, the work item displays in red and a warning appears.
 
-   작업 항목 기한과 이 기한이 [!UICONTROL 홈 일정]에 할당된 시간에 미치는 영향에 대해 알아보려면 [[!UICONTROL 홈 일정] 보기](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md)를 참조하세요.
+   To learn about work item due dates and how they affect allocated time in the [!UICONTROL Home Calendar], see  [[!UICONTROL Home Calendar] view](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
 
-1. 다음 중 하나를 수행합니다.
+1. Do any of the following:
 
-   * **작업 항목을 여러 날 동안 예약하려면:** 2단계를 반복하여 작업을 수행하려는 각 날짜와 시간에 항목을 추가합니다.
-   * **일정 항목의 기간을 수정하려면:** 커서가 이중 화살표가 될 때까지 항목의 아래쪽 가장자리를 마우스로 가리킨 다음 아래쪽 가장자리를 원하는 종료 시간으로 끕니다.
-   * **일정 항목을 삭제하려면:** 항목을 마우스로 가리킨 다음 표시되는 [!UICONTROL 휴지통] 아이콘을 클릭합니다.
+   * **To schedule a work item for multiple days:** Repeat step 2 to add the item to each day and time when you want to work on it.
+   * **To modify the duration of a calendar item:** Hover over the bottom edge of the item until the cursor becomes a double arrow, then drag the bottom edge to the ending time you want.
+   * **To delete a calendar item:** Hover over the item, then click the [!UICONTROL trashcan] icon that is displayed.
 
-## [!UICONTROL 홈 일정]에서 작업 항목 업데이트
+## Update a work item on your [!UICONTROL Home Calendar]
 
-[!UICONTROL 홈 일정] 보기에 표시되는 작업 항목을 업데이트할 수 있습니다. 실제 작업 항목의 [!UICONTROL 업데이트] 탭에도 업데이트가 표시됩니다.
+You can make updates to work items that display in [!UICONTROL Home Calendar] view. Your updates also appear on the [!UICONTROL Updates] tab of the actual work item.
 
-1. [홈 캘린더 보기]](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md)에 설명된 대로 [!UICONTROL 홈 캘린더] 보기로 이동합니다.[!UICONTROL 
+1. Go to the [!UICONTROL Home Calendar] view, as explained in [View the [!UICONTROL Home Calendar]](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md).
 
-1. 업데이트할 작업 항목의 [!UICONTROL 세부 정보] 패널을 엽니다.
+1. Open the [!UICONTROL Details] panel for the work item you want to update:
 
-   * 왼쪽 패널에서 작업 항목을 선택한 다음 **[!UICONTROL 세부 정보]**&#x200B;를 클릭합니다.
-   * 달력에서: 예약된 달력 이벤트를 클릭합니다.
+   * From the left panel: Select the work item, then click **[!UICONTROL Details]**.
+   * From the calendar: Click the scheduled calendar event.
 
-   작업 항목에 대한 세부 정보가 창 오른쪽에 나타나는 패널에 표시됩니다.
+   Details for the work item display in a panel that appears on the right of the window.
 
    ![](assets/click-cal-item-to-see-details-350x217.png)
 
-1. 다음 중 하나를 수행하여 작업 항목을 업데이트합니다.
+1. Do any of the following to update the work item:
 
-   * **[!UICONTROL 새 업데이트 시작]** 상자에서 업데이트를 입력하고 다음 정보를 지정한 다음 **[!UICONTROL 업데이트]**&#x200B;를 클릭합니다.
+   * In the **[!UICONTROL Start a new update]** box, type your update, specify any of the following information, then click **[!UICONTROL Update]**.
 
-     <table style="table-layout:auto">
+      <table style="table-layout:auto">
       <col>
       <col>
       <tbody>
        <tr>
         <td role="rowheader"><strong>[!UICONTROL Notify]</strong></td>
-        <td><p> 업데이트에 대해 알릴 사용자를 태그합니다. 자세한 내용은 <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">업데이트에 다른 사용자 태그 지정</a>을 참조하세요.</p><p> </p></td>
+        <td><p> Tag users you want to notify about your update. For more information, see <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Tag others on updates</a>.</p><p> </p></td>
        </tr>
        <tr data-mc-conditions="">
-        <td role="rowheader"><strong>[!UICONTROL 커밋 일자]</strong></td>
-        <td>드롭다운 달력에서 작업 항목을 완료하기로 약속하는 날짜를 선택합니다. [!UICONTROL 커밋 일자] 설정에 대한 자세한 내용은 <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">[!UICONTROL 커밋 일자] 개요</a>를 참조하십시오.</td>
+        <td role="rowheader"><strong>[!UICONTROL Commit Date]</strong></td>
+        <td>In the drop-down calendar, select the date when you are committing to complete the work item. For information about setting the [!UICONTROL Commit Date], see <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">[!UICONTROL Commit Date] overview</a>.</td>
        </tr>
        <tr data-mc-conditions="">
-        <td role="rowheader"><strong>[!UICONTROL 어떻게 되어가고 있습니까?]</strong></td>
-        <td>작업 또는 문제에 대한 새 조건을 선택합니다. 작업 및 문제 조건에 대한 자세한 내용은 <a href="../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">작업 및 문제에 대한 상태 업데이트</a>를 참조하십시오.</td>
+        <td role="rowheader"><strong>[!UICONTROL How's this going?]</strong></td>
+        <td>Select a new condition for the task or issue. For information about task and issue conditions, see <a href="../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">Update Condition for tasks and issues</a>.</td>
        </tr>
        <tr>
-        <td role="rowheader"><strong>[!UICONTROL Private to] 내 회사</strong></td>
-        <td>회사 외부의 사용자가 이 업데이트를 볼 수 없도록 하려면 비활성화하십시오.</td>
+        <td role="rowheader"><strong>[!UICONTROL Private to] my company</strong></td>
+        <td>Disable to prevent users outside your company from being able to view this update.</td>
        </tr>
       </tbody>
      </table>
 
-   * 항목에 대한 현재 **[!UICONTROL 상태]**&#x200B;를 클릭한 다음 표시되는 목록에서 새 상태를 클릭합니다. 자세한 내용은 [승인 프로세스 개요](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md)를 참조하십시오.
+   * Click the current **[!UICONTROL Status]** for the item, then click a new status in the list that appears. For more information, see [Approval process overview](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md).
 
-     >[!NOTE]
-     >
-     >할당된 작업 항목을 [!UICONTROL 완료 - 승인 보류 중](으)로 표시하면 캘린더에 더 이상 표시되지 않을 수 있습니다. 항목을 승인하도록 설정된 사용자가 항목을 [!UICONTROL 승인됨](으)로 표시할 때까지 추가 작업이 필요하지 않기 때문입니다. 이 경우 캘린더에 있는 항목을 [!UICONTROL 승인됨] 항목으로 볼 수 있습니다.
+      >[!NOTE]
+      >
+      >If you mark a work item assigned to you as [!UICONTROL Complete - Pending Approval], you may notice that it no longer appears on your calendar. This is because no further action is expected of you until the user who is set to approve the item marks it as [!UICONTROL Approved]. When this occurs, you will be able to see the item on your calendar as an [!UICONTROL Approved] item.
 
-   * (선택 사항) 기존 댓글 또는 업데이트에 회신하려면 **[!UICONTROL 회신]**&#x200B;을 클릭하고 **[!UICONTROL 알림]** 상자에 수신자를 지정한 다음 회신을 입력한 다음 **[!UICONTROL 회신]**&#x200B;을 클릭합니다.\
+   * (Optional) To reply to an existing comment or update, click **[!UICONTROL Reply]**, specify any recipients in the **[!UICONTROL Notify]** box, type your reply, then click **[!UICONTROL Reply]**.\
 
-     받는 사람 지정에 대한 정보가 필요한 경우 [업데이트에 다른 사람 태그 지정](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)을 참조하세요.
+      If you need information about specifying recipients, see [Tag others on updates](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
-1. (선택 사항) **[!UICONTROL 세부 정보]** 패널을 닫으려면 패널 바깥쪽을 클릭합니다.
+1. (Optional) To close the **[!UICONTROL Details]** panel, click anywhere outside it.
 
-## 통합 달력에서 이벤트 업데이트
+## Update events from integrated calendars
 
-[!UICONTROL 홈 일정]에서 통합 일정 이벤트를 업데이트하려면:
+To update the integrated calendar events in your [!UICONTROL Home Calendar]:
 
-1. [홈 캘린더 보기]](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md)에 설명된 대로 [!UICONTROL 홈 캘린더] 보기로 이동합니다.[!UICONTROL 
-1. [!UICONTROL 홈 캘린더]의 오른쪽 위 모서리에 있는 **[!UICONTROL 캘린더 새로 고침]**&#x200B;을 클릭합니다.
+1. Go to the [!UICONTROL Home Calendar] view, as explained in [View the [!UICONTROL Home Calendar]](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md).
+1. Click **[!UICONTROL Refresh calendars]** in the upper right corner of the [!UICONTROL Home Calendar].
 
    ![](assets/refresh-qs-350x360.png)
 
-   [!UICONTROL 홈 일정] 보기를 열거나 [!UICONTROL 홈 일정]을 새로 고치면 통합 일정 이벤트가 자동으로 업데이트됩니다.
+   Integrated calendar events update automatically when you open your [!UICONTROL Home Calendar] view or when you refresh your [!UICONTROL Home Calendar].
 
-## 작업 항목 필터링 및 정렬
+## Filter and sort work items
 
-1. [홈 캘린더 보기]](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md)에 설명된 대로 [!UICONTROL 홈 캘린더] 보기로 이동합니다.[!UICONTROL 
-1. **[!UICONTROL 필터]** 드롭다운 메뉴를 클릭합니다.
+1. Go to the [!UICONTROL Home Calendar] view, as explained in [View the [!UICONTROL Home Calendar]](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md).
+1. Click the **[!UICONTROL Filter]** drop-down menu.
 
    >[!NOTE]
    >
-   >일부 필터 옵션은 개체(작업, 요청, 문제, 승인, 증명 및 개인)를 기반으로 하고, 다른 옵션은 상태([!UICONTROL 작업 중], [!UICONTROL 시작할 준비가 됨], [!UICONTROL 준비되지 않음] 및 [!UICONTROL 완료됨])를 기반으로 합니다. 선택한 상태가 없으면 [!UICONTROL 홈 일정]에 선택한 모든 상태의 개체가 표시됩니다. 마찬가지로, 선택된 객체가 없으면 선택된 상태의 모든 객체가 표시됩니다.
+   >Some filter options are based on objects (Tasks, Requests, Issues, Approvals, Proofs, and Personal), and others are based on state ([!UICONTROL Working On], [!UICONTROL Ready to Start], [!UICONTROL Not Ready], and [!UICONTROL Completed]). If no state is selected, the [!UICONTROL Home Calendar] displays all selected objects of any state. Similarly, if no object is selected, it displays all objects of any selected state.
 
-1. 다음 필터 옵션 중에서 선택하여 표시할 항목 유형을 지정합니다.
+1. Select from the following filter options to specify the types of items you want to display::
 
    <table style="table-layout:auto"> 
     <col> 
@@ -167,110 +173,112 @@ ht-degree: 0%
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL All]</strong></td> 
-      <td><span>모든 항목을 표시하고 선택합니다. 여기에는 작업,</span> <span data-mc-edit-date="2022-02-16T13:45:46.9712518-05:00" data-mc-editor="alinaw" data-mc-comment="this might need indenting when it goes to Preview" data-mc-initials="AL" data-mc-creator="alinaw" data-mc-create-date="2022-02-16T13:45:23.7889689-05:00">문제</span><span>, 승인, 개인 작업 및 완료된 작업 및 문제가 포함됩니다.</span></td> 
+      <td><span>Displays and selects all items. This includes tasks,</span> <span data-mc-edit-date="2022-02-16T13:45:46.9712518-05:00" data-mc-editor="alinaw" data-mc-comment="this might need indenting when it goes to Preview" data-mc-initials="AL" data-mc-creator="alinaw" data-mc-create-date="2022-02-16T13:45:23.7889689-05:00">issues</span><span>, approvals, personal tasks and completed tasks and issues.</span></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 작업 처리 중]</strong></td> 
-      <td> <p><span>현재 진행 중인 작업만 표시합니다. [!UICONTROL Work On It] 단추를 클릭한 사용자에게 할당된 작업입니다.</span> </p> </td> 
+      <td role="rowheader"><strong>[!UICONTROL Tasks Working On]</strong></td> 
+      <td> <p><span>Displays only tasks that you are actively working on. These are tasks assigned to you for which you have clicked the [!UICONTROL Work On It] button.</span> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 작업 시작할 준비 완료]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL Tasks Ready to Start]</strong></td> 
       <td> 
        <div> 
-        <p>시작할 준비가 된 작업만 표시합니다. 다음 문은 모두 true여야 합니다.</p> 
+        <p>Displays only tasks that are ready for you to start. Both of the following statements must be true:</p> 
         <ul style="list-style-type: square;"> 
-         <li> <p>과제와 그 부모에게는 작업을 할 수 없는 전임자나 과업 제한이 없다.</p> </li> 
-         <li> <p>작업의 [!UICONTROL 계획된 시작 일자]가 과거 또는 최대 2주 후입니다.</p> </li> 
+         <li> <p>The tasks and their parents have no predecessors or task constraints preventing them from being worked on.</p> </li> 
+         <li> <p>The [!UICONTROL Planned Start Date] of the tasks is in the past or up to two weeks in the future.</p> </li> 
         </ul> 
        </div> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 작업이 준비되지 않음]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL Tasks Not Ready]</strong></td> 
       <td> 
        <div> 
-        <p>아직 시작할 준비가 되지 않은 작업만 표시합니다. 다음 문 중 하나가 true여야 합니다.</p> 
+        <p>Displays only tasks that are not yet ready to start. Either one of the following statements must be true:</p> 
         <ul> 
-         <li> <p>작업 및 상위 사용자에게 작업을 수행할 수 없는 선행 작업 또는 작업 제한이 있을 수 있습니다.</p> </li> 
-         <li> <p>작업에 앞으로 2주 이상 소요되는 [!UICONTROL 계획된 시작 일자]가 있습니다.</p> </li> 
+         <li> <p>The tasks and their parents might have predecessors or task constraints that prevent them from being worked on.</p> </li> 
+         <li> <p>The tasks have a [!UICONTROL Planned Start Date] that is more than two weeks in the future.</p> </li> 
         </ul> 
        </div> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 문제 처리 중]</strong></td> 
-      <td> <p>현재 진행 중인 문제만 표시합니다. 이는 [!UICONTROL Work On It] 버튼을 클릭한 사용자에게 할당된 문제입니다.</p> </td> 
+      <td role="rowheader"><strong>[!UICONTROL Issues Working On]</strong></td> 
+      <td> <p>Displays only issues that you are actively working on. These are issues assigned to you for which you have clicked the [!UICONTROL Work On It] button.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 문제 요청됨]</strong></td> 
-      <td><span>할당되었지만 [!UICONTROL Work On It] 단추를 클릭하지 않은 문제만 표시합니다.</span> </td> 
+      <td role="rowheader"><strong>[!UICONTROL Issues Requested]</strong></td> 
+      <td><span>Displays only issues that you are assigned to but for which you have not clicked the [!UICONTROL Work On It] button.</span> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Personal]</strong></td> 
-      <td>개인 작업만 표시합니다. 문서 <a href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md">[!UICONTROL 홈] 영역에서 작업 항목 만들기</a>의 <a href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#creating-a-personal-task">[!UICONTROL 개인 작업 만들기]</a> 섹션에 설명된 대로 [!UICONTROL 할 일] 작업으로 만드는 작업입니다.</td> 
+      <td>Displays only personal tasks. These are tasks that you create as a [!UICONTROL To Do] task, as described in the section <a href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#creating-a-personal-task">[!UICONTROL Create a personal task]</a> in the article <a href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md">Create work items from the [!UICONTROL Home] area</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Approvals]</strong></td> 
       <td> 
        <div> 
-        <p>귀하에게 할당되거나 위임된 승인 및 귀하가 제출한 승인만 표시합니다. 승인에는 작업 항목(프로젝트, 작업 및 문제)에 대한 승인과 문서, 증명, 액세스 요청 및 타임시트에 대한 승인이 포함됩니다. 승인에 대한 자세한 내용은 다음 문서를 참조하십시오.</p> 
+        <p>Displays only approvals assigned or delegated to you and approvals you have submitted. Approvals include approvals on work items (projects, tasks, and issues), and approvals for documents, proofs, requests for access, and timesheets. For more information about approvals, see the following articles:</p> 
         <ul> 
-         <li><a href="../../../review-and-approve-work/manage-approvals/view-approvals.md" class="MCXref xref">승인 보기 </a> </li> 
+         <li><a href="../../../review-and-approve-work/manage-approvals/view-approvals.md" class="MCXref xref">View approvals </a> </li> 
         </ul> 
         <ul> 
-         <li> <p><a href="../../../review-and-approve-work/manage-approvals/manage-approvals.md" class="MCXref xref">승인 관리</a> </p> </li> 
+         <li> <p><a href="../../../review-and-approve-work/manage-approvals/manage-approvals.md" class="MCXref xref">Manage approvals</a> </p> </li> 
         </ul> 
-        <p>참고: 제출한 승인과 승인자 중 하나인 승인은 두 번 계산됩니다. </p> 
+        <p>Note: Approvals that you submitted and where you are also one of the approvers are counted twice. </p> 
        </div> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 완료]</strong></td> 
-      <td><span>완료된 작업, 문제 및 개인 작업만 표시합니다. 완료된 작업이 이전 2주 동안 표시되고 주별로 작업 목록에 그룹화됩니다. 승인이 포함되지 않았습니다.</span> </td> 
+      <td role="rowheader"><strong>[!UICONTROL Completed]</strong></td> 
+      <td><span>Displays only completed tasks, issues, and personal tasks. Completed work displays for the previous two weeks, and is grouped in the Work List according to week. Approvals are not included.</span> </td> 
      </tr> 
     </tbody> 
    </table>
 
    ![](assets/calendar-filters-nwe-350x392.png)
 
-1. 작업 목록을 그룹화하고 정렬하려면 **[!UICONTROL 그룹화 기준]** 드롭다운 메뉴를 클릭한 다음 사용할 기준을 선택하십시오.
+1. To group and sort your list of work, click the **[!UICONTROL Group by]** drop-down menu, then select the criteria you want to use.
 
-   항목은 지정한 순서와 기준에 따라 달력의 왼쪽에 나열됩니다.
+   The items are listed on the left side of the calendar according to the criteria and in the order that you specify.
 
    ![](assets/home-calendar-sort-group-nwe-350x288.png)
 
-   다음 옵션 중에서 선택합니다.
+   Choose from the following options:
 
    <table style="table-layout:auto">
     <tr>
-        <td><strong>[!UICONTROL 계획된 완료]</strong></td>
-        <td>작업 및 문제는 [!UICONTROL 계획된 완료 일자] 순서로 정렬됩니다. [!UICONTROL 계획된 완료 일자]에 대한 자세한 내용은 <a href="../../../manage-work/tasks/task-information/planned-hours.md">계획된 시간 개요</a>를 참조하십시오.</td>
+        <td><strong>[!UICONTROL Planned Completion]</strong></td>
+        <td>Tasks and issues sort in order of the [!UICONTROL Planned Completion dates]. To learn more about [!UICONTROL Planned Completion dates], see <a href="../../../manage-work/tasks/task-information/planned-hours.md">Planned Hours overview</a>.</td>
         <td></td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 계획 시작]</strong></td>
-        <td>작업 및 문제는 [!UICONTROL 계획된 시작 일자] 순서로 정렬됩니다. 작업 [!UICONTROL 계획된 시작 일자]에 대한 자세한 내용은 <a href="../../../manage-work/tasks/task-information/task-planned-start-date.md">작업 [!UICONTROL 계획된 시작 일자] 개요</a>를 참조하십시오.</td>
+        <td><strong>[!UICONTROL Planned Start]</strong></td>
+        <td>Tasks and issues sort in order of the [!UICONTROL Planned Start dates]. For more information about task [!UICONTROL Planned Start Dates], see <a href="../../../manage-work/tasks/task-information/task-planned-start-date.md">Overview of the task [!UICONTROL Planned Start Date]</a>.</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 커밋 일자]</strong></td>
-        <td>작업 및 문제는 [!UICONTROL 커밋 일자] 순서로 정렬됩니다. [!UICONTROL 커밋 일자]에 대한 자세한 내용은 <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md">[!UICONTROL 커밋 일자] 개요</a>를 참조하십시오.</td>
+        <td><strong>[!UICONTROL Commit Date]</strong></td>
+        <td>Tasks and issues sort in order of the [!UICONTROL Commit dates]. To learn more about [!UICONTROL Commit dates], see <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md">[!UICONTROL Commit Date] overview</a>.</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 프로젝트]</strong></td>
-        <td>프로젝트별로 작업 항목을 정렬합니다.</td>
+        <td><strong>[!UICONTROL Project]</strong></td>
+        <td>Work items sort by project.</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 내 우선 순위]</strong></td>
-        <td>선택한 순서대로 항목이 표시됩니다. 자세한 내용은 <a href="../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md">[!UICONTROL Home] 영역에서 작업 우선 순위 지정</a>을 참조하십시오.</td>
+        <td><strong>[!UICONTROL My Priority]</strong></td>
+        <td>Items display in an order you choose. For more information, see <a href="../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md">Prioritize work in the [!UICONTROL Home] area</a>.</td>
     </tr>
    </table>
 
-## 다른 주로 이동
+## Navigate to a different week
 
-1. [홈 캘린더 보기]](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md)에 설명된 대로 [!UICONTROL 홈 캘린더] 보기로 이동합니다.[!UICONTROL 
-1. **[!UICONTROL 달력 도구 모음]**&#x200B;에서 날짜 표시기의 왼쪽 화살표를 클릭하여 달력 보기를 1주일 뒤로 이동하거나 오른쪽 화살표를 클릭하여 1주일 앞으로 이동합니다.
+1. Go to your [!UICONTROL Home Calendar] view, as explained in [View the [!UICONTROL Home Calendar]](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md).
+1. On the **[!UICONTROL Calendar toolbar]**, click the left arrow of the date indicator to move the calendar view back one week or the right arrow to move forward one week.
 
    ![](assets/week-arrows-350x206.png)
 
-   **[!UICONTROL 오늘]**&#x200B;을 클릭하여 현재 주로 돌아갈 수 있습니다.
+   You can click **[!UICONTROL Today]** to return to the current week.
 
-## 표시할 캘린더 지정
+## Specify which calendars you view
 
-[!UICONTROL 홈 캘린더]에서 볼 통합 캘린더(예: 유급휴가, 생일 또는 휴일 캘린더)를 지정할 수 있습니다. 지침은 [[!UICONTROL 홈 일정 구성] 보기 설정 구성](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md)을 참조하세요.
+You can specify which integrated calendars, such as your PTO, Birthdays, or Holidays calendar, you want to view on your [!UICONTROL Home Calendar]. For instructions, see [Configure your [!UICONTROL Home Calendar] view settings](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).
+
+-->

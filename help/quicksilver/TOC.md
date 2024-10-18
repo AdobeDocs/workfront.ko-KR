@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 426b7f7d556933dea26d27c82aa2082738d39767
+source-git-commit: c243aafc5d62fdd5ed2f209fe963e92f2548965c
 workflow-type: tm+mt
-source-wordcount: '14529'
+source-wordcount: '14514'
 ht-degree: 2%
 
 ---
@@ -894,22 +894,18 @@ ht-degree: 2%
       * [우선 순위에 빠른 링크 추가 및 관리](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md)
    * 홈 {#home}
       * [홈](workfront-basics/using-home/home.md)
-      * 새 홈 {#new-home}
-         * [새 홈](workfront-basics/using-home/new-home/new-home.md)
-         * [새 홈 시작](workfront-basics/using-home/new-home/get-started-with-new-home.md)
-         * [새 홈에서 위젯 추가, 편집 또는 제거](workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
-         * [새 홈 위젯 필터 개요](workfront-basics/using-home/new-home/widget-filter-overview-new-home.md)
-         * [내 작업 위젯을 사용하여 작업 관리](workfront-basics/using-home/new-home/my-work-widget.md)
       * 홈 영역 {#use-home-area} 사용
          * [홈 영역 사용](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
-         * [기존 홈에서 새 홈으로 이동](workfront-basics/using-home/new-home/move-to-new-home.md)
          * [기존 홈에서 우선 순위로 이동](workfront-basics/priorities/move-from-legacy-home-to-priorities.md)
          * [홈 시작](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
+         * [새 홈에서 위젯 추가, 편집 또는 제거](workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)
          * [홈 영역의 작업 목록에 항목 표시](workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
+         * [홈 위젯 필터 개요](workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md)
+         * [내 작업 위젯을 사용하여 작업 관리](workfront-basics/using-home/using-the-home-area/my-work-widget.md)
          * [홈 영역에서 작업 우선 순위 지정](workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)
          * [홈 영역에서 작업 및 팀 요청 관리](workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)
          * [홈 영역에서 작업 항목 업데이트 또는 편집](workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)
-         * [홈 영역에서 작업 항목 만들기](workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
+         * [홈 영역에서 작업 항목 및 프로젝트 만들기](workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
          * [홈 영역의 작업 항목에 시간을 기록합니다.](workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
          * [홈 영역에서 항목을 완료로 표시](workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)
          * [홈 캘린더 보기](workfront-basics/using-home/using-the-home-area/home-calendar-view.md)

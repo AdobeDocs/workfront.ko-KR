@@ -6,7 +6,7 @@ description: 타임시트 승인 프로세스를 통해 관리자는 직접 보�
 author: Alina
 feature: Timesheets
 exl-id: b27b3307-f61b-456d-8076-590d1c391b4b
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 9d0caff0381ee50bf8dd7060bebafb5354c0f0d8
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 0%
@@ -122,7 +122,7 @@ Adobe Workfront은 이 영역에서 지원할 타임시트 승인을 구성하�
 
 홈 영역이 열립니다.
 
-1. 홈 영역에 **내 승인** 위젯이 추가되었는지 확인하십시오. 자세한 내용은 [새 홈에서 위젯 추가, 편집 또는 제거](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)를 참조하세요.
+1. 홈 영역에 **내 승인** 위젯이 추가되었는지 확인하십시오. 자세한 내용은 [새 홈에서 위젯 추가, 편집 또는 제거](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)를 참조하세요.
 1. 내 승인 위젯에서 타임시트 승인을 찾습니다.
 1. (선택 사항) 승인 또는 거부 단추 오른쪽에 있는 드롭다운 메뉴를 확장하여 결정에 대한 댓글을 추가한 다음 **추가**&#x200B;를 클릭합니다.
 1. 다음 버튼 중 하나를 클릭하여 승인 결정을 내립니다.

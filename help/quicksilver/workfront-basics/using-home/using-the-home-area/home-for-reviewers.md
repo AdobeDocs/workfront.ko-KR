@@ -5,36 +5,40 @@ description: 기본 페이지였던 "ReviewersHome" 영역의 홈 영역입니�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 699199a7-1a11-4025-aa90-6721e5cb6b45
-source-git-commit: d1babaf52c4035c20bf3990272af5a2f401b7fcb
+source-git-commit: 1131c2329d194f0c9181b6a5cbd39f19a5247ef0
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 1%
+source-wordcount: '65'
+ht-degree: 0%
 
 ---
 
 # 검토자용 [!UICONTROL 홈] 영역
 
+>[!IMPORTANT]
+>
+>이 기능은 2014/10/17 기존 홈 사용 중지와 함께 제거되었습니다.
+
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: from Alina: not sure if we should still keep this one or not. In the past, Reviewers had a limited "Home" area which was their default page. Since now they created a "My Updates" area which is their new default, not sure if this makes much sense to still keep. The "My Updates" article is linked from this one, right at the top.)</p>
--->
 
-기본적으로 검토자에게 [!UICONTROL 내 업데이트] 영역이 할당됩니다. [!DNL Adobe Workfront] 관리자가 레이아웃 템플릿에 [!UICONTROL Home] 영역을 추가한 경우에만 수정된 [!UICONTROL Home] 영역 버전에 액세스할 수 있습니다.
 
-이 문서에서는 [!UICONTROL 검토] 라이선스가 있는 경우 [!UICONTROL 홈] 영역에서 수행할 수 있는 활동에 대해 설명합니다.
+Reviewers are assigned the [!UICONTROL My Updates] area by default. They can access a modified version of the [!UICONTROL Home] area only when an [!DNL Adobe Workfront] administrator adds the [!UICONTROL Home] area to their layout template.
 
-[!UICONTROL Review] 라이선스 사용자의 기본 탐색에 대한 자세한 내용은 [[!UICONTROL Review] 라이선스 사용자의 탐색 이해](../../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)를 참조하십시오. [!UICONTROL 내 업데이트] 영역에 대한 자세한 내용은 [내 업데이트 사용[!UICONTROL 내 업데이트 사용] 영역](../../../workfront-basics/using-home/using-the-home-area/my-updates-area.md)을 참조하세요.
+This article describes activities that you can perform in the [!UICONTROL Home] area if you have a [!UICONTROL Review] license.
+
+For more information about the default navigation of [!UICONTROL Review]-license users, see [Understand the navigation for a [!UICONTROL Review]-license user](../../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md). For more information about the [!UICONTROL My Updates] area, see [Use the [!UICONTROL My Updates] area](../../../workfront-basics/using-home/using-the-home-area/my-updates-area.md).
 
 >[!TIP]
 >
->* 개체 외부의 사용자 간 일반 업데이트는 사용할 수 없습니다.
->* [!UICONTROL 검토] 라이선스가 있는 사용자에게 작업을 할당할 수 있지만 할당과 관련된 전자 메일이나 기타 알림은 받지 않으며 이를 &quot;[!UICONTROL 완료]&quot;로 표시할 수 없습니다.
+>* General updates between users outside of an object are not enabled.
+>* Although users with a [!UICONTROL Review] license can be assigned tasks, they do not receive email or other notifications regarding assignments, and they cannot mark them as "[!UICONTROL Done]."
 >
 
 
 
-## 액세스 요구 사항
+## Access requirements
 
-이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,93 +48,94 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
-   <td> <p>임의</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 라이센스*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
    <td> <p>[!UICONTROL Review] </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜 또는 라이선스 유형을 확인하려면 [!DNL Workfront] 관리자에게 문의하세요.
+&#42;To find out what plan or license type you have, contact your [!DNL Workfront] administrator.
 
-## 작업 승인
+## Approve work
 
-1. (조건부) [!DNL Workfront] 관리자가 레이아웃 템플릿에 홈 영역을 추가한 경우 [!DNL Adobe Workfront]의 왼쪽 위 모서리에 있는 **[!DNL Workfront]아바타** 아이콘 ![](assets/home-icon-30x29.png)을(를) 클릭합니다.
+1. (Conditional) If your [!DNL Workfront] administrator added the Home area to your layout template, click the **[!DNL Workfront] avatar** icon ![](assets/home-icon-30x29.png) in the upper-left corner of [!DNL Adobe Workfront].
 
-   또는
+   Or
 
-   **[!UICONTROL 기본 메뉴]** ![](assets/main-menu-icon.png)를 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을 클릭합니다.
+   Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png), then click **[!UICONTROL Home]**.
 
    >[!NOTE]
    >
-   >[!DNL Workfront] 관리자가 사용자 환경의 [!DNL Workfront] 아이콘을 다음과 같이 변경할 수 있습니다.
+   >The [!DNL Workfront] administrator might make the following changes to the [!DNL Workfront] icon in your environment:
    >
    >   
    >   
-   >   * 조직 설명을 위해 사용자 지정된 이미지로 대체합니다. 이 경우 아이콘은 이 문서에 표시된 것과 다르게 표시됩니다.
-   >   * 연결된 페이지를 다른 페이지로 바꿉니다. 이 경우 페이지의 오른쪽 상단에 있는 **[!UICONTROL 기본 메뉴]** ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을(를) 클릭합니다.
+   >   * Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article.
+   >   * Replace the page linked to it with a different page. In this case, click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click **[!UICONTROL Home]**.
 
 
    ![](assets/home-for-reviewers-adobe-350x159.png)
 
-1. 화면 왼쪽의 [!UICONTROL 작업 목록]에서 승인을 선택합니다.
-1. **[!UICONTROL 승인]**, **[!UICONTROL 변경]** 또는 **[!UICONTROL 거부]**&#x200B;를 클릭합니다.
+1. Select an approval from the [!UICONTROL Work List] on the left side of the screen.
+1. Click **[!UICONTROL Approve]**, **[!UICONTROL Changes]**, or **[!UICONTROL Reject]**.
 
    >[!IMPORTANT]
    >
-   >승인 결정을 한 후에는 변경할 수 없습니다.
+   >Once you've made an approval decision, you can't change it.
 
-1. (선택 사항) 승인 결정에 주석을 추가합니다.
+1. (Optional) Add a comment to your approval decision.
 
-## 승인 위임
+## Delegate approvals
 
-1. (조건부) [!DNL Workfront] 관리자가 레이아웃 템플릿에 홈 영역을 추가한 경우 [!DNL Adobe Workfront]의 왼쪽 위 모서리에 있는 **[!UICONTROL Workfront] 아바타** 아이콘 ![](assets/home-icon-30x29.png)을(를) 클릭합니다
+1. (Conditional) If your [!DNL Workfront] administrator added the Home area to your layout template, click the **[!UICONTROL Workfront] avatar** icon ![](assets/home-icon-30x29.png) in the upper-left corner of [!DNL Adobe Workfront]
 
-   또는
+   Or
 
-   **[!UICONTROL 기본 메뉴]** ![](assets/main-menu-icon.png)를 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을 클릭합니다.
+   Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png), then click **[!UICONTROL Home]**.
 
-1. 작업 목록 위에 있는 **[!UICONTROL 내 승인 위임]**&#x200B;을 클릭합니다.
-
-   ![](assets/home-for-reviewers-adobe-350x159.png)
-
-1. 승인을 위임할 사용자의 이름을 입력합니다. 프로젝트, 작업 및 문제 승인만 위임할 수 있습니다.
-1. **[!UICONTROL 시작 날짜]**&#x200B;를 선택하세요.
-1. **[!UICONTROL 종료 날짜]**&#x200B;를 선택하세요.\
-   또는\
-   **[!UICONTROL 종료일 없음]**&#x200B;을 선택하세요.
-
-1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
-
-## 제출한 승인 알림 또는 회수
-
-1. (조건부) [!DNL Workfront] 관리자가 레이아웃 템플릿에 홈 영역을 추가한 경우 [!DNL Adobe Workfront]의 왼쪽 위 모서리에 있는 **[!UICONTROL Workfront] 아바타** 아이콘 ![](assets/home-icon-30x29.png)을(를) 클릭합니다.
-
-   또는
-
-   **[!UICONTROL 기본 메뉴]** ![](assets/main-menu-icon.png)를 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을 클릭합니다.
+1. Click **[!UICONTROL Delegate My Approvals]** above the work list.
 
    ![](assets/home-for-reviewers-adobe-350x159.png)
 
-1. 작업 목록에서 **[!UICONTROL 내가 제출한 승인]** 그룹화를 확장합니다.
-1. 승인을 선택합니다.
-1. 오른쪽 상단 모서리에서 **[!UICONTROL 회수]** 또는 **[!UICONTROL 미리 알림]**&#x200B;을 클릭합니다.
+1. Type the name of a user you'd like to delegate your approvals to. You can delegate only Project, Task, and Issue approvals.
+1. Choose a **[!UICONTROL Start Date]**.
+1. Choose an **[!UICONTROL End Date]**.\
+   or\
+   Choose **[!UICONTROL No end date]**.
 
-## 댓글 달기
+1. Click **[!UICONTROL Save]**.
 
-1. (조건부) [!DNL Workfront] 관리자가 [!UICONTROL Home] 영역을 레이아웃 템플릿에 추가한 경우 [!DNL Adobe Workfront]의 왼쪽 위 모서리에 있는 **[!UICONTROL Workfront] 아바타** 아이콘 ![](assets/home-icon-30x29.png)을(를) 클릭합니다.
+## Remind or recall approvals you've submitted
 
-   또는
+1. (Conditional) If your [!DNL Workfront] administrator added the Home area to your layout template, click the **[!UICONTROL Workfront] avatar** icon ![](assets/home-icon-30x29.png) in the upper-left corner of [!DNL Adobe Workfront].
 
-   **[!UICONTROL 기본 메뉴]** ![](assets/main-menu-icon.png)를 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을 클릭합니다.
+   Or
+
+   Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png), then click **[!UICONTROL Home]**.
 
    ![](assets/home-for-reviewers-adobe-350x159.png)
 
-1. 화면 왼쪽의 [!UICONTROL 작업 목록]에서 승인을 선택합니다.
-1. 오른쪽 패널에서 **[!UICONTROL 새 업데이트 시작]** 상자를 클릭합니다.
-1. 업데이트하십시오.
-1. **[!UICONTROL 업데이트]**&#x200B;를 클릭합니다.
+1. Expand the **[!UICONTROL Approvals I've Submitted]** grouping in the work list.
+1. Select an approval.
+1. In the top-right corner, click **[!UICONTROL Recall]** or **[!UICONTROL Remind]**.
 
+## Make comments
 
+1. (Conditional) If your [!DNL Workfront] administrator added the [!UICONTROL Home] area to your layout template, click the **[!UICONTROL Workfront] avatar** icon ![](assets/home-icon-30x29.png) in the upper-left corner of [!DNL Adobe Workfront].
+
+   Or
+
+   Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png), then click **[!UICONTROL Home]**.
+
+   ![](assets/home-for-reviewers-adobe-350x159.png)
+
+1. Select an approval from the [!UICONTROL Work List] on the left side of the screen.
+1. In the right panel, click in the **[!UICONTROL Start a new update]** box.
+1. Make your update.
+1. Click **[!UICONTROL Update]**.
+
+ 
+-->

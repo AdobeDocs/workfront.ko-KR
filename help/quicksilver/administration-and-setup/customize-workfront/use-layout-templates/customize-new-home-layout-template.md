@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: 7bae31a9454c88bd0e5525f4b4d11cd9e76ccd39
+source-git-commit: 1426f806b72d740712eba5e337c8424f8af6c9dc
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '824'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 
 
-새 홈에 대한 자세한 내용은 [새 홈 시작](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)을 참조하세요.
+새 홈에 대한 자세한 내용은 [홈 시작](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md)을 참조하세요.
 
 레이아웃 템플릿 만들기에 대한 자세한 내용은 [레이아웃 템플릿 만들기 및 관리](../use-layout-templates/create-and-manage-layout-templates.md)를 참조하십시오.
 
@@ -91,8 +91,8 @@ ht-degree: 1%
       <td role="rowheader">디자인 및 레이아웃</td> 
       <td>
       <p>사용자의 작업 영역에 표시될 위젯과 해당 위치를 선택하고 배경을 선택합니다. 사용자는 선택한 위젯을 제거할 수 없지만 자유롭게 이동하고 크기를 조정할 수 있으며 위젯을 추가할 수도 있습니다.</p>
-      <p>이 탭은 기본적으로 작은 새 홈 작업 영역으로 작동합니다. 따라서 <a href="/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">새 홈에서 위젯을 추가, 편집 또는 제거</a>하는 단계에 따라 사용자 지정할 수 있습니다. 위젯을 선택하고 사용자에게 표시하려는 대로 작업 영역을 정렬합니다.</p>
-      <p>배경을 변경하려면 <a href="/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md" class="MCXref xref">새 홈 시작</a>에서 <b>배경 사용자 지정</b>의 단계를 따르십시오.</p>
+      <p>이 탭은 기본적으로 작은 새 홈 작업 영역으로 작동합니다. 따라서 <a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">홈에서 위젯을 추가, 편집 또는 제거</a>하는 단계에 따라 사용자 지정할 수 있습니다. 위젯을 선택하고 사용자에게 표시하려는 대로 작업 영역을 정렬합니다.</p>
+      <p>배경을 변경하려면 <a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md" class="MCXref xref">홈 시작</a>에서 <b>백그라운드 사용자 지정</b>의 단계를 따르십시오.</p>
       <p>
 
 >[!NOTE]

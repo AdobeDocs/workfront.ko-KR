@@ -4,9 +4,9 @@ description: 2024년 1분기 홈 개선 사항
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 54bbcc0a86516f4e4b561a7fae8c73c3979e59a4
+source-git-commit: 145dd86575951d837e66e18ceb235dc3694571cc
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,6 @@ ht-degree: 0%
 
 소유한 프로젝트에 대한 승인 및 검토의 상태를 더 쉽게 확인할 수 있도록 새로운 승인 보류 중 위젯을 홈에 추가했습니다. 여기에서 소유한 프로젝트의 문서를 승인하거나 검토하도록 할당된 사용자 목록을 볼 수 있고 검토 또는 승인 상태를 볼 수 있으며 검토자 및 승인자에게 검토 또는 승인을 완료하도록 알릴 수 있습니다.
 
-홈 위젯에 대한 자세한 내용은 [새 홈 시작하기](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)를 참조하십시오.
 
 ## 레이아웃 템플릿을 사용하는 새 홈에 대한 관리자 컨트롤
 
@@ -34,5 +33,3 @@ ht-degree: 0%
 ## 내 작업 빠른 작업 버튼이 마우스오버에만 표시되도록 변경됨
 
 성능 향상을 위해 이제 내 작업 위젯에서 사용할 수 있는 빠른 작업 버튼이 작업 항목을 마우스로 가리킬 때만 표시됩니다.
-
-내 작업 위젯에서 사용할 수 있는 빠른 작업 단추에 대한 자세한 내용은 [새 홈 시작](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)을 참조하십시오.

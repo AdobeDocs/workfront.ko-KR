@@ -6,7 +6,7 @@ description: Adobe Workfront 개체(프로젝트, 작업 또는 문제)에 업�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
+source-git-commit: 1426f806b72d740712eba5e337c8424f8af6c9dc
 workflow-type: tm+mt
 source-wordcount: '3065'
 ht-degree: 0%
@@ -133,7 +133,7 @@ Workfront Planning의 카드, 목표 및 레코드에 대한 댓글에 대한 �
    * Workfront 개체의 업데이트 섹션(프로젝트, 작업 및 문제의 경우)에서
    * 홈 영역에서(작업 및 문제의 경우)
 
-     자세한 내용은 [내 작업 위젯으로 작업 관리](/help/quicksilver/workfront-basics/using-home/new-home/my-work-widget.md)를 참조하십시오.
+     자세한 내용은 [내 작업 위젯으로 작업 관리](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-work-widget.md)를 참조하십시오.
    * 다음 영역(작업, 문제 및 문서의 경우)의 요약 패널에서
 
       * 오브젝트 목록

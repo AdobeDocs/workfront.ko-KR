@@ -5,9 +5,9 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 588dc03b-3b39-4640-8a28-023c7f4a1972
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 145dd86575951d837e66e18ceb235dc3694571cc
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,6 @@ New Home은 우리가 계속 발전하고 발전할 것으로 기대되는 주�
 
 새 홈은 릴리스 시 모든 사용자의 기본 환경이 됩니다. 그러나 기능을 계속 개발할 때 기존 홈 환경으로 되돌릴 수 있습니다.
 
-자세한 내용은 [Adobe Workfront에서 새 홈 시작](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)을 참조하세요.
 
 [이 기능의 비디오 데모 보기](https://video.tv.adobe.com/v/3420969/){target=_blank}
 

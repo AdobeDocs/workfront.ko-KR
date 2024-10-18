@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
+source-git-commit: e68972f7334a93f7fbd3db29919a2f2746ce64fe
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '969'
 ht-degree: 1%
 
 ---
@@ -96,7 +96,6 @@ Workfront과 Frame.io 간의 프로젝트 동기화를 개선하기 위한 노�
 
 위에 나열된 카테고리로 드릴다운하여 보다 자세히 볼 수 있습니다. 모든 승인 위젯은 새 홈 및 캔버스 대시보드에서 사용할 수 있습니다.
 
-자세한 내용은 [새 홈 시작](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)을 참조하세요.
 
 ### 전반적인 결정이 내려지면 검토 및 승인 잠금
 

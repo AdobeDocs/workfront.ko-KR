@@ -1,25 +1,24 @@
 ---
-title: 레이아웃 템플릿을 사용하여 홈 및 요약 맞춤화
+title: 레이아웃 템플릿을 사용하여 요약 패널 사용자 정의
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: 레이아웃 템플릿을 사용하여 사용자가 홈 및 요약에서 작업 또는 문제를 클릭할 때 표시되는 내용을 구성할 수 있습니다. 아래 단계를 사용하여 구성하는 각 내용은 홈 영역과 요약 패널에 동일한 방식으로 영향을 줍니다. 이러한 사용자 지정은 문서 요약 패널에 적용되지 않습니다.
+description: 레이아웃 템플릿을 사용하여 사용자가 요약에서 작업 또는 문제를 클릭할 때 표시되는 내용을 구성할 수 있습니다. 아래 단계를 사용하여 수행하는 각 구성은 요약 패널에 영향을 줍니다. 이러한 사용자 지정은 문서 요약 패널에 적용되지 않습니다.
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 115757a829b92c13cb684369120e26602b9a1782
+source-git-commit: 507145d1afb1f497dc34072d455ee443263361fe
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '940'
 ht-degree: 2%
 
 ---
 
-# 레이아웃 템플릿을 사용하여 홈 및 요약 맞춤화
+# 레이아웃 템플릿을 사용하여 요약 패널 사용자 정의
 
-<span class="preview">10월 17일 4분기 릴리스에서 레거시 홈을 Workfront에서 제거하면 이 문서의 이름이 &quot;레이아웃 템플릿을 사용하여 요약 패널 사용자 지정&quot;으로 변경됩니다. 2024년.</span>
 
-레이아웃 템플릿을 사용하여 사용자가 홈 및 요약에서 작업 또는 문제를 클릭할 때 표시되는 내용을 구성할 수 있습니다. 아래 단계를 사용하여 구성하는 각 내용은 홈 영역과 요약 패널에 동일한 방식으로 영향을 줍니다. 이러한 사용자 지정은 문서 요약 패널에 적용되지 않습니다.
+레이아웃 템플릿을 사용하여 사용자가 요약에서 작업 또는 문제를 클릭할 때 표시되는 내용을 구성할 수 있습니다. 아래 단계를 사용하여 수행하는 각 구성은 요약 패널에 영향을 줍니다. 이러한 사용자 지정은 문서 요약 패널에 적용되지 않습니다.
 
 다음을 구성할 수 있습니다.
 
@@ -28,7 +27,7 @@ ht-degree: 2%
 
 사용자가 할당된 프로젝트 승인, 문서 승인 또는 문서 버전 승인을 클릭할 때 홈 영역에 표시되는 필드를 사용자 지정할 수도 있습니다.
 
-홈 영역에 대한 자세한 내용은 [홈 영역 사용](../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)을 참조하세요. 요약 패널에 대한 자세한 내용은 [요약 개요](../../../workfront-basics/the-new-workfront-experience/summary-overview.md)를 참조하십시오.
+요약 패널에 대한 자세한 내용은 [요약 개요](../../../workfront-basics/the-new-workfront-experience/summary-overview.md)를 참조하십시오.
 
 레이아웃 템플릿 만들기에 대한 자세한 내용은 [레이아웃 템플릿 만들기 및 관리](../use-layout-templates/create-and-manage-layout-templates.md)를 참조하십시오.
 
@@ -68,11 +67,11 @@ ht-degree: 2%
 
 +++
 
-## 레이아웃 템플릿을 사용하여 홈 및 요약 맞춤화
+## 레이아웃 템플릿을 사용하여 요약 패널 사용자 정의
 
 1. [레이아웃 템플릿 만들기 및 관리](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)에 설명된 대로 레이아웃 템플릿 작업을 시작합니다.
 
-1. **사용자에게 표시되는 항목 사용자 지정** 아래의 아래쪽 화살표 ![](assets/dropdown-arrow.png)을(를) 클릭한 다음 **홈 및 요약**&#x200B;을(를) 클릭합니다.
+1. **사용자에게 표시되는 항목 사용자 지정** 아래의 아래쪽 화살표 ![](assets/dropdown-arrow.png)을(를) 클릭한 다음 **요약 패널**&#x200B;을(를) 클릭합니다.
 
 1. 왼쪽 목록에서 홈 및 요약에서 사용자 지정할 개체 유형(**작업**, **문제**, **프로젝트**, **문서** 또는 **문서 버전**)을 클릭합니다.
 
@@ -82,23 +81,28 @@ ht-degree: 2%
     <tbody> 
      <tr> 
       <td role="rowheader">작업</td> 
-      <td> <p>홈에서 이 설정에 대한 구성은 사용자가 작업을 클릭할 때 작업 오른쪽의 영역에 영향을 줍니다. 또한 작업 목록에서 사용자가 작업을 선택한 다음 요약 열기 아이콘 <img src="assets/summary-panel-icon.png">을(를) 클릭하면 페이지 오른쪽에 표시되는 요약 패널에 영향을 줍니다.</p> <p>예를 들어 사용자가 홈에서 작업을 선택할 때 세부 정보 영역에 표시되는 필드를 결정할 수 있습니다.</p> <p><img src="assets/home-details-adobe branding.jpg"></p> <p>요약에서 작업을 선택하는 경우:</p> <p> <img src="assets/summary-details.jpg"> </p> </td> 
+      <td><p> <img src="assets/summary-details.jpg"> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">문제</td> 
-      <td> <p>홈에서 이 설정에 대한 구성은 사용자가 문제를 클릭할 때 문제의 오른쪽 영역에 영향을 줍니다.</p> <p>문제 목록에서 이 설정은 사용자가 문제를 선택한 다음 요약 열기 아이콘 <img src="assets/summary-panel-icon.png">을(를) 클릭할 때 페이지 오른쪽에 표시되는 요약 패널에 영향을 줍니다.</p> </td> 
+      <td><p>문제 목록에서 이 설정은 사용자가 문제를 선택한 다음 요약 열기 아이콘 <img src="assets/summary-panel-icon.png">을(를) 클릭할 때 페이지 오른쪽에 표시되는 요약 패널에 영향을 줍니다.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">프로젝트</td> 
-      <td>홈에서 사용자가 자신에게 할당된 프로젝트 승인을 클릭하면 이 설정에 대한 구성이 승인 오른쪽 영역에 영향을 줍니다.</td> 
+      <td><p>홈에서 사용자가 자신에게 할당된 프로젝트 승인을 클릭하면 이 설정에 대한 구성이 승인 오른쪽 영역에 영향을 줍니다.</p>
+      <p>중요: 더 이상 사용되지 않는 기능입니다. 이 영역에 대한 모든 변경 사항은 Workfront에서 제거한 기능과 관련이 있습니다. 이 옵션은 나중에 유지 보수 업데이트를 통해 Workfront에서 제거됩니다.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">문서</td> 
-      <td>홈에서 사용자가 자신에게 할당된 문서 승인을 클릭하면 이 설정에 대한 구성이 승인 오른쪽 영역에 영향을 줍니다.</td> 
+      <td><p>홈에서 사용자가 자신에게 할당된 문서 승인을 클릭하면 이 설정에 대한 구성이 승인 오른쪽 영역에 영향을 줍니다.</p>
+      <p>중요: 더 이상 사용되지 않는 기능입니다. 이 영역에 대한 모든 변경 사항은 Workfront에서 제거한 기능과 관련이 있습니다. 이 옵션은 나중에 유지 보수 업데이트를 통해 Workfront에서 제거됩니다.</p>
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">문서 버전</td> 
-      <td>홈에서 사용자가 특정 버전의 문서에 대해 할당된 승인을 클릭하면 이 설정에 대한 구성이 승인 오른쪽 영역에 영향을 줍니다.</td> 
+      <td><p>홈에서 사용자가 특정 버전의 문서에 대해 할당된 승인을 클릭하면 이 설정에 대한 구성이 승인 오른쪽 영역에 영향을 줍니다.</p>
+      <p>중요: 더 이상 사용되지 않는 기능입니다. 이 영역에 대한 모든 변경 사항은 Workfront에서 제거한 기능과 관련이 있습니다. 이 옵션은 나중에 유지 보수 업데이트를 통해 Workfront에서 제거됩니다.</p>
+      </td> 
      </tr> 
     </tbody> 
    </table>
@@ -119,7 +123,7 @@ ht-degree: 2%
 
    ![](assets/lt-home-add-hide-fields-adobe-branding.png)
 
-1. 다른 객체 유형에 대해 홈 영역 및 요약 패널을 사용자 정의하려면 3-6단계를 반복합니다.
+1. 다른 객체 유형에 대해 요약 패널을 사용자 정의하려면 3-6단계를 반복합니다.
 1. 왼쪽 아래 모서리 근처에서 **전역 설정**&#x200B;을 클릭한 다음 홈 및 요약의 Adobe Workfront 개체와 관련된 다음 옵션을 활성화하거나 비활성화합니다.
 
    <table style="table-layout:auto"> 

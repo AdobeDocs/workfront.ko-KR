@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9f7873e0-3645-49db-8dec-fb0c6eff3e8d
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+source-git-commit: 145dd86575951d837e66e18ceb235dc3694571cc
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 2%
+source-wordcount: '333'
+ht-degree: 3%
 
 ---
 
@@ -61,5 +61,3 @@ ht-degree: 2%
 * 기한이 경과된 승인
 
 위에 나열된 카테고리로 드릴다운하여 보다 자세히 볼 수 있습니다. 모든 승인 위젯은 새 홈 및 캔버스 대시보드에서 사용할 수 있습니다.
-
-자세한 내용은 [새 홈 시작](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)을 참조하세요.

@@ -5,9 +5,9 @@ description: 우선 순위는 작업 소유자에게 맞는 능률적이고 직�
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 00a1876e005f0f0c47bdebaab77bbcfe42318612
+source-git-commit: 61f4fef12ec53b77feb4adba7b8e4561248be2fd
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '954'
 ht-degree: 3%
 
 ---
@@ -183,7 +183,7 @@ Priority를 사용하면 다음과 같은 이점을 누릴 수 있습니다
 
 지금은 새 홈에서 내 승인 및 모든 승인 위젯을 사용하는 것이 좋습니다.
 
-자세한 내용은 [새 홈에서 위젯 추가, 편집 또는 제거](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)를 참조하세요.
+자세한 내용은 [홈에서 위젯 추가, 편집 또는 제거](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)를 참조하세요.
 
 
 ## [!DNL Catch me up]을(를) 사용하여 놓친 항목 확인 [!BADGE 곧 출시]{type=Informative}
