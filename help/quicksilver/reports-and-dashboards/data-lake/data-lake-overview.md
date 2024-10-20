@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5224c12a-7879-491b-87ec-6173bcf9525c
-source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
+source-git-commit: 1713a5855b8798d888866447338291975ff69cb7
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,6 @@ Workfront Data Connect는 Snowflake 기술을 사용하여 Workfront 데이터�
 
 Data Connect에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
-* [Workfront Data Connect 베타 정보](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
 * [Snowflake을 위한 리더(서비스) 계정 만들기](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md)
 * [Workfront Data Connect에 연결 설정](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)
 * [Workfront Data Connect 데이터 사전](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md)
