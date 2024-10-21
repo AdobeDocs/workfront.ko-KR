@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 507145d1afb1f497dc34072d455ee443263361fe
+source-git-commit: 43cf88c533b80324266f0660648c6a1ab13ca8fc
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '905'
 ht-degree: 2%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 2%
 
 1. **사용자에게 표시되는 항목 사용자 지정** 아래의 아래쪽 화살표 ![](assets/dropdown-arrow.png)을(를) 클릭한 다음 **요약 패널**&#x200B;을(를) 클릭합니다.
 
-1. 왼쪽 목록에서 홈 및 요약에서 사용자 지정할 개체 유형(**작업**, **문제**, **프로젝트**, **문서** 또는 **문서 버전**)을 클릭합니다.
+1. 왼쪽 목록에서 요약 패널에서 사용자 지정할 개체 유형(**작업**, **문제**, **프로젝트**, **문서** 또는 **문서 버전**)을 클릭합니다.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -115,7 +115,7 @@ ht-degree: 2%
 
    ![](assets/choose-cat-cstmz-nwe-adobe-branding.png)
 
-1. (조건부) **기본 작업 설정 단추** 드롭다운 메뉴가 나타나면(왼쪽 목록에서 **작업** 또는 **문제**&#x200B;를 선택한 경우) 홈 영역 및 요약 패널에서 작업 또는 문제를 볼 때 사용자가 사용할 수 있는 기본 작업(**완료** 또는 **상태**)을 클릭합니다.
+1. (조건부) **기본 작업 설정 단추** 드롭다운 메뉴가 나타나면(왼쪽 목록에서 **작업** 또는 **문제**&#x200B;를 선택한 경우) 작업 또는 문제를 볼 때 요약 패널에서 사용자가 사용할 수 있는 기본 작업(**완료** 또는 **상태**)을 클릭합니다.
 
    ![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
 
@@ -124,7 +124,7 @@ ht-degree: 2%
    ![](assets/lt-home-add-hide-fields-adobe-branding.png)
 
 1. 다른 객체 유형에 대해 요약 패널을 사용자 정의하려면 3-6단계를 반복합니다.
-1. 왼쪽 아래 모서리 근처에서 **전역 설정**&#x200B;을 클릭한 다음 홈 및 요약의 Adobe Workfront 개체와 관련된 다음 옵션을 활성화하거나 비활성화합니다.
+1. 왼쪽 아래 모서리 근처에서 **전역 설정**&#x200B;을 클릭한 다음 요약에서 Adobe Workfront 개체와 관련된 다음 옵션을 활성화하거나 비활성화합니다.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -132,7 +132,7 @@ ht-degree: 2%
     <tbody> 
      <tr> 
       <td role="rowheader">작업 업데이트 보기</td> 
-      <td>홈 또는 요약에서 선택한 작업 또는 문제에 대한 모든 업데이트를 표시합니다. 여기에는 시스템 업데이트와 사용자가 수행한 업데이트가 모두 포함됩니다. 사용자는 <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">작업 업데이트</a>의 <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable" class="MCXref xref">시스템 업데이트 사용 또는 사용 안 함</a>에 설명된 대로 시스템 업데이트를 계속 필터링할 수 있습니다.</td> 
+      <td>요약 패널에서 선택한 작업 또는 문제에 대한 모든 업데이트를 표시합니다. 여기에는 시스템 업데이트와 사용자가 수행한 업데이트가 모두 포함됩니다. 사용자는 <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">작업 업데이트</a>의 <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable" class="MCXref xref">시스템 업데이트 사용 또는 사용 안 함</a>에 설명된 대로 시스템 업데이트를 계속 필터링할 수 있습니다.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">작업에 대한 시간 기록</td> 
@@ -140,16 +140,16 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader">작업과 연결된 문서 보기</td> 
-      <td>작업 또는 문제를 선택하면 홈 및 요약에 문서 영역을 표시하고 작업 또는 문제에 첨부된 모든 문서를 나열합니다. 사용자는 문서를 클릭하여 미리보기 창에서 볼 수 있습니다.</td> 
+      <td>작업 또는 문제를 선택할 때 요약 패널에 문서 영역을 표시하고 작업 또는 문제에 첨부된 모든 문서를 나열합니다. 사용자는 문서를 클릭하여 미리보기 창에서 볼 수 있습니다.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">타임스탬프 숨기기</td> 
-      <td>홈 및 요약의 다음 날짜 필드에 대한 타임스탬프를 숨깁니다.
+      <td>요약 패널에서 다음 날짜 필드에 대한 타임스탬프를 숨깁니다.
        <ul>
         <li>계획된 완료 일자 기준</li>
         <li>커밋 일자</li>
         <li>제출 날짜</li>
-       </ul><p><b>참고</b>:</p> <p> 이 옵션을 활성화하면 기한이 지난 작업 항목은 시간이 아닌 날짜만을 기준으로 홈 작업 목록에서 지연 그룹화로 이동됩니다.</p></td> 
+       </ul></td> 
      </tr> 
     </tbody> 
    </table>

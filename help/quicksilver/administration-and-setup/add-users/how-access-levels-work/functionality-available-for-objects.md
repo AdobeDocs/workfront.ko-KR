@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 2fa590235063e194d6277394f13b3d6be752ec4f
+source-git-commit: b2135fb5f29ebc794763ab6d3fb1c539de6125b4
 workflow-type: tm+mt
-source-wordcount: '1646'
+source-wordcount: '1644'
 ht-degree: 11%
 
 ---
@@ -113,7 +113,7 @@ ht-degree: 11%
 | 사용자 정의 양식 첨부 | ✓ 덧신 | ✓ 덧신 | ✓ 덧신 |   |
 | 사용자 정의 필드 편집 | ✓ 덧신 | ✓ 덧신 | ✓ 덧신 |   |
 | 문제 승인 | ✓ 덧신 | ✓ 덧신 | ✓ 덧신 |   |
-| 승인 프로세스 추가 | ✓ 덧신 | ✓ 덧신 | ✓ 덧신 |   |
+| 승인 프로세스 추가 | ✓ 덧신 |   |   |   |
 | 문서 추가 | ✓ 덧신 | ✓ 덧신 | ✓ 덧신 |   |
 | 문제 복사 | ✓ 덧신 | ✓ 덧신 | ✓ 덧신 |   |
 | 문제 이동 | ✓ 덧신 | ✓ 덧신 | ✓ 덧신 |   |
