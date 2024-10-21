@@ -9,7 +9,7 @@ description: Adobe Photoshop 모듈을 사용하면 Adobe Photoshop 계정의 �
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: f20192ea-e363-4fba-8bd2-b1d50443918d
-source-git-commit: cfd13f8eb422401644f7a1abf54e909218b2e8bf
+source-git-commit: c3187e3dc21b4705a0e249ed8cc6df66575ef06b
 workflow-type: tm+mt
 source-wordcount: '4308'
 ht-degree: 0%
@@ -240,7 +240,7 @@ ht-degree: 0%
       <td role="rowheader">
         <p>[!UICONTROL (Options) Fonts]</p>
       </td>
-   <td> 문서에 필요한 각 글꼴에 대해 항목 추가 를 클릭하고 글꼴의 저장 위치와 파일 위치를 입력합니다. </td> 
+   <td> 문서에 필요한 각 글꼴에 대해 항목 추가 를 클릭하고 글꼴의 저장소 위치와 파일 위치를 입력합니다. </td> 
     </tr>
     <tr>
       <td role="rowheader">
