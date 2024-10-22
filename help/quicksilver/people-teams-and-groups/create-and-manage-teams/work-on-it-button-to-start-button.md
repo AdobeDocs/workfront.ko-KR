@@ -6,9 +6,9 @@ description: Adobe Workfront의 기본 구성에는 할당된 항목에 대해 �
 author: Lisa
 feature: People Teams and Groups
 exl-id: 9387c5ae-2835-4d8f-80ec-22fcd16c5b6e
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '794'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL 팀]** 드롭다운 메뉴에서 팀을 선택합니다.\
    또는\
-   **[!UICONTROL 팀 만들기]**&#x200B;를 클릭합니다.
+   **[!UICONTROL 새 팀 만들기]**&#x200B;를 클릭합니다.
 
 1. **[!UICONTROL 자세히]** 아이콘 ![](assets/more-icon.png)을 클릭한 다음 **[!UICONTROL 편집]**&#x200B;을 클릭합니다.
 

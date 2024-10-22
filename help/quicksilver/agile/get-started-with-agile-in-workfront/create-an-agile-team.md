@@ -6,9 +6,9 @@ description: Adobe Workfront을 사용하면 애자일 팀이 점진적이고 �
 author: Lisa
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1003'
 ht-degree: 1%
 
 ---
@@ -98,7 +98,7 @@ ht-degree: 1%
 
 1. **[!UICONTROL 팀 전환]** 아이콘 ![팀 전환 아이콘](assets/switch-team-icon.png)을 클릭한 다음 **[!UICONTROL 새 팀 만들기]**&#x200B;를 클릭합니다.
 
-   ![새 팀 만들기를 선택하십시오.](assets/create-new-team-350x198.png)
+   ![새 팀 만들기 선택](assets/create-new-team.png)
 
    새 팀 상자가 표시됩니다.
 
@@ -158,7 +158,7 @@ ht-degree: 1%
 1. **[!UICONTROL 자세히]** 메뉴를 클릭한 다음 **[!UICONTROL 편집]**&#x200B;을 선택합니다.
 
    [!UICONTROL 표준], [!UICONTROL 플랜] 또는 [!UICONTROL 작업] 라이선스가 있는 팀원만 이 옵션을 참조하세요.
-   ![](assets/edit-team-settings-350x205.png)
+   ![편집 선택](assets/edit-team-settings.png)
 
 1. **[!UICONTROL 애자일]** 섹션에서 **[!UICONTROL 애자일 팀입니다]**&#x200B;를 선택합니다.
 

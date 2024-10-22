@@ -6,7 +6,7 @@ description: 팀을 만들면 기본적으로 팀 소유자가 됩니다.
 author: Lisa
 feature: People Teams and Groups
 exl-id: 4bef734c-de86-4c58-a0e8-fbb3c5785f4c
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL 팀 전환]** 아이콘 ![팀 전환 아이콘](assets/switch-team-icon.png)을 클릭한 다음 **[!UICONTROL 새 팀 만들기]**&#x200B;를 클릭합니다.
 
-   ![새 팀 만들기를 선택하십시오.](assets/create-new-team-350x198.png)
+   ![새 팀 만들기를 선택하십시오.](assets/create-new-team.png)
 
 1. 표시되는 **[!UICONTROL 새 팀]** 상자에 다음 정보를 입력하십시오.
 

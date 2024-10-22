@@ -6,9 +6,9 @@ description: Workfront 관리자 및 플랜 또는 작업 라이선스가 있는
 author: Lisa
 feature: People Teams and Groups
 exl-id: b6761188-8630-446e-bc70-70fe272881ce
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
@@ -55,11 +55,11 @@ ht-degree: 0%
 
 1. **[!UICONTROL 자세히]** 메뉴 ![](assets/more-icon.png)을(를) 클릭한 다음 **[!UICONTROL 편집]**&#x200B;을(를) 선택합니다.
 
-   [!UICONTROL 플랜] 또는 [!UICONTROL 작업] 라이선스가 있는 팀원만 이 옵션을 참조하세요.
+   [!UICONTROL 표준], [!UICONTROL 플랜] 또는 [!UICONTROL 작업] 라이선스가 있는 팀원만 이 옵션을 참조하세요.
 
    [!UICONTROL 편집] 옵션이 있어야 하지만 표시되지 않는 경우 Workfront 관리자에게 [!UICONTROL 팀 설정]이 [!UICONTROL 스크럼 팀], [!UICONTROL 칸반 팀] 또는 [!UICONTROL Waterfall 팀]의 레이아웃 템플릿에 표시되는지 확인하십시오.
 
-   ![](assets/edit-team-settings-1.png)
+   ![](assets/edit-team-settings.png)
 
 1. 팀 설정에서 다음과 같은 종류의 변경을 수행할 수 있습니다.
 

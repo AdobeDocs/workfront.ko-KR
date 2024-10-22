@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 393405424c0ce3334304643c9474369e12417406
+source-git-commit: 5180bbad9ae2767ebc540127bc92fb688431b5d1
 workflow-type: tm+mt
-source-wordcount: '14505'
+source-wordcount: '14507'
 ht-degree: 2%
 
 ---
@@ -1515,7 +1515,7 @@ ht-degree: 2%
       * [애자일 팀 만들기 및 관리](people-teams-and-groups/create-and-manage-teams/create-and-manage-agile-teams.md)
       * [팀 설정 편집](people-teams-and-groups/create-and-manage-teams/edit-team-settings.md)
       * [팀이 작업 중인 항목 관리](people-teams-and-groups/create-and-manage-teams/manage-what-your-team-is-working-on.md)
-      * [팀 비활성화](people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md)
+      * [팀 비활성화 또는 삭제](people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md)
       * [작업에 대한 완료 버튼 구성](people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
       * [문제에 대한 완료 버튼 구성](people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
       * [처리 중 단추를 시작 단추로 바꾸기](people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)
@@ -1925,7 +1925,7 @@ ht-degree: 2%
             * [비디오 증명에서 루프 활성화](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/enable-loop-video.md)
             * [증명 잠금 또는 잠금 해제](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/lock-or-unlock-proof.md)
             * [증명 내 콘텐츠 검색](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/search-in-a-proof.md)
-            * [증명 비교](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/compare-proofs.md)
+            * [교정쇄 비교](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/compare-proofs.md)
             * [증명 뷰어에서 증명 다운로드](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/download-a-proof-in-viewer.md)
             * [증명 뷰어의 키보드 단축키](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)
             * [웹 증명 뷰어에서 대화형 콘텐츠 증명 설정](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md)

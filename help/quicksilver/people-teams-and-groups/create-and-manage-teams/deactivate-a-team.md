@@ -1,19 +1,19 @@
 ---
 product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
-title: 팀 비활성화
+title: 팀 비활성화 또는 삭제
 description: 연결된 내역 데이터를 유지하면서 더 이상 사용하지 않는 팀을 비활성화할 수 있습니다. Adobe Workfront 관리자는 설정의 팀 영역에서 언제든지 팀을 다시 활성화할 수 있습니다.
 author: Lisa
 feature: People Teams and Groups
 exl-id: 634e4c0f-aa1d-4197-92e3-54f414344ac0
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
 
-# 팀 비활성화
+# 팀 비활성화 또는 삭제
 
 연결된 내역 데이터를 유지하면서 더 이상 사용하지 않는 팀을 비활성화할 수 있습니다. [!DNL Adobe Workfront] 관리자는 설정의 팀 영역에서 언제든지 팀을 다시 활성화할 수 있습니다. 팀을 비활성화하면 팀이 더 이상 다음 영역에 표시되지 않습니다.
 
@@ -53,7 +53,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront 플랜</p> </td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
    <td>임의</td> 
   </tr> 
   <tr> 
@@ -62,7 +62,12 @@ ht-degree: 0%
    <p>새로운 기능: 표준</p>
    <p>또는</p>
    <p>현재: 플랜</p></td>
-  </tr> 
+  </tr>
+  <tr>
+   <td>액세스 수준 구성</td>
+   <td><p>팀을 비활성화하려면 구성이 필요하지 않습니다.</p>
+   <p>팀을 삭제하려면 시스템 관리자여야 합니다.</p></td>
+  </tr>
  </tbody> 
 </table>
 
@@ -85,13 +90,28 @@ ht-degree: 0%
 1. **[!DNL Switch team]** 아이콘을 클릭한 다음 드롭다운 메뉴에서 새 팀을 선택하거나 검색 막대에서 팀을 검색합니다.
 1. **[!UICONTROL 자세히]** 메뉴를 클릭한 다음 **[!UICONTROL 편집]**&#x200B;을 선택합니다.
 
-   ![](assets/edit-team-settings-350x205.png)
+   ![](assets/edit-team-settings.png)
 
-1. **[!UICONTROL 활성 상태임]** 확인란의 선택을 취소합니다.
+1. 팀 설정에서 **[!UICONTROL 활성 상태임]** 확인란의 선택을 취소하십시오.
 1. **[!UICONTROL 변경 내용 저장]**&#x200B;을 클릭합니다.
 
-## 알려진 제한 사항
+## 팀 비활성화의 알려진 제한 사항
 
 비활성화된 팀은 다음 영역에 표시됩니다.
 
 * [!DNL Workfront Goals]의 소유자 필드. [!DNL Adobe Workfront Goals]에 대한 추가 라이선스가 필요합니다. 자세한 내용은 [시작하기 [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md)를 참조하십시오.
+
+## 팀 삭제
+
+시스템 관리자만 팀을 삭제할 수 있습니다. 관리자가 아닌 팀 소유자이며 팀을 삭제하려고 하면 오류 메시지가 표시됩니다.
+
+팀을 삭제하려면:
+
+{{step1-to-team}}
+
+1. **[!DNL Switch team]** 아이콘을 클릭한 다음 드롭다운 메뉴에서 새 팀을 선택하거나 검색 막대에서 팀을 검색합니다.
+1. **[!UICONTROL 자세히]** 메뉴를 클릭한 다음 **[!UICONTROL 삭제]**&#x200B;를 선택합니다.
+
+   ![](assets/edit-team-settings.png)
+
+1. 팀을 영구적으로 삭제하려면 확인 메시지에서 [!UICONTROL **확인**]&#x200B;을 클릭합니다. 삭제된 팀은 복구할 수 없습니다.

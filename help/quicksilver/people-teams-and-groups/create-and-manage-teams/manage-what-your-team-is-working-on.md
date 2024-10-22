@@ -6,9 +6,9 @@ description: 현재 팀에서 작업 중인 작업 및 문제에 대한 달력 �
 author: Lisa
 feature: People Teams and Groups
 exl-id: 4bdec4b9-18b0-4981-a067-f47e259bc708
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
@@ -21,4 +21,4 @@ ht-degree: 0%
 
 팀에 할당된 작업을 관리하는 방법에 대한 자세한 내용은 [[!UICONTROL 업무 균형자]](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)를 참조하십시오.
 
-![](assets/team-page-with-team-requests-and-balancer-sections-left.png)
+![업무 균형자를 표시하는 팀 페이지](assets/team-page-workload-balancer.png)
