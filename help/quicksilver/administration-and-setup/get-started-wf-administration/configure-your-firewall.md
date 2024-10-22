@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: d7565c00c7c81110e1292d8a1d6057d75036dd43
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '1623'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 0%
 
 ### 클러스터 1, 2, 3, 5, 7, 8 및 9를 허용하는 IP 주소 {#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9}
 
-프로덕션 환경이 클러스터 1, 2, 3, 5 또는 7에 있는 경우 다음 IP 주소를 허용해야 합니다.
+프로덕션 환경이 클러스터 1, 2, 3, 5, 7, 8 또는 9에 있는 경우 다음 IP 주소를 허용해야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
