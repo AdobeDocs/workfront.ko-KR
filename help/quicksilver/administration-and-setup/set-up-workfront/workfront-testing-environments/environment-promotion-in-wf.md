@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 094a742e62bbf222e695d984efca612b32d9fadf
+source-git-commit: a46c6d1f8a0ae58e07f0fb9d14ecdd06a856223f
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 1%
+source-wordcount: '1019'
+ht-degree: 2%
 
 ---
 
@@ -98,6 +98,7 @@ ht-degree: 1%
 | 위험 유형(RSKTYP) | 위험 유형 |
 | 리소스 풀(RSPL) | 리소스 풀 |
 | 액세스 수준(ACSLVL) | 액세스 수준 |
+| 등급 카드(RTCRD) | 요율 카드 |
 
 \* 현재 사용할 수 없음
 
