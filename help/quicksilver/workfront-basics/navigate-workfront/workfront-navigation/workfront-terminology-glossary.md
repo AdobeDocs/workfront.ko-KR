@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] 용어집에는  [!DNL Adobe Workfront]. Y
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '20938'
+source-wordcount: '20901'
 ht-degree: 0%
 
 ---
@@ -471,7 +471,9 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!UICONTROL Calendar]</td> 
-   <td> <p>[!DNL Workfront]에는 [!UICONTROL 홈 캘린더]와 캘린더 보고서의 두 가지 유형이 있습니다.</p> <p>[!UICONTROL 홈 캘린더]는 사용자가 [!DNL Workfront]의 사용 가능한 시간에 대한 작업 로드를 관리할 수 있는 개인 캘린더입니다. 사용자는 [!UICONTROL 홈 캘린더]를 [!DNL Outlook]과(와) 통합할 수도 있습니다([!DNL Google] 및 [!DNL Microsoft] 통합 예정). </p> <p>[!UICONTROL 홈 캘린더]에 대한 자세한 내용은 <a href="../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md" class="MCXref xref">[!UICONTROL 홈 캘린더] 보기</a>를 참조하십시오.</p> <p>달력 보고서는 사용자가 기한과 작업 상태, 이벤트를 할당할 사용자 등 이벤트의 날짜 및 기타 중요한 세부 정보를 볼 수 있는 동적 보고서입니다.</p> <p> 일정 보고서에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md" class="MCXref xref">일정 보고서 개요</a>를 참조하십시오.</p> </td> 
+   <td> <p>Workfront에서 달력 보고서는 사용자가 기한과 작업 상태, 이벤트를 할당할 사용자 등 이벤트의 기타 중요한 세부 사항과 날짜를 볼 수 있는 동적 보고서입니다.</p> <p> 일정 보고서에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md" class="MCXref xref">일정 보고서 개요</a>를 참조하십시오.</p>
+   <p> Workfront Planning에서 달력 보기는 달력의 레코드를 표시하는 레코드 유형의 보기 유형입니다. Workfront Planning에 액세스하려면 추가 라이선스가 있어야 합니다. </p>
+    </td> 
   </tr> 
    <tr> 
    <td>[!UICONTROL 시작 가능]</td> 
@@ -1644,7 +1646,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL 포털 프로필]</td> 
-   <td>[!DNL Workfront] 응용 프로그램 [!UICONTROL 홈] 및 기타 대시보드에 표시되는 관리자 정의 탭 및 포털 섹션 컬렉션입니다.</td> 
+   <td>[!DNL Workfront]에 표시되는 관리자 정의 탭 및 섹션 컬렉션.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 포털 섹션]</td> 

@@ -7,9 +7,9 @@ description: 단기간 동안 부재 중일 경우 일시적으로 다른 사용
 author: Lisa
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '902'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 1%
   자세한 내용은 [시스템 전체 작업 및 문제 환경 설정 구성](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)을 참조하십시오.
 
 * [!UICONTROL Home] 영역에서만 작업 및 문제를 위임할 수 있습니다.
-* 다음 라이선스 유형에 대한 예외가 있습니다.
+* 작업을 위임할 때 다음 라이선스 유형에 대한 예외가 있습니다.
 
    * [!DNL Workfront]이(가) 작업을 추천하지 않지만 검토자 또는 요청자에게 작업을 위임할 수 있습니다.
    * 검토자는 다른 사람에게 작업을 위임할 수 있습니다. [!UICONTROL Home] 영역에서 작업 항목을 볼 수 없습니다. 승인만 볼 수 있습니다.

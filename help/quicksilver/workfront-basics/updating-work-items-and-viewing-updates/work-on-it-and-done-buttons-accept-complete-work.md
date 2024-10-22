@@ -8,10 +8,10 @@ author: Lisa and Alina
 feature: Get Started with Workfront
 role: User
 exl-id: cfda6702-1a9a-4645-b031-8b2f201ac0af
-source-git-commit: f5632af0fb87739fc41c4e2f41dc8ebab0f8be8b
+source-git-commit: 7b5018f546d4c654832298e85c10504375f380b4
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 0%
+source-wordcount: '776'
+ht-degree: 1%
 
 ---
 
@@ -38,19 +38,20 @@ ht-degree: 0%
   >
   >처리 중(Work On It) 단추를 시작(Start) 단추로 바꿀 수 있습니다. [처리 중] 단추를 [시작] 단추로 바꾸는 방법에 대한 자세한 내용은 [[처리 중] 단추를 [시작] 단추로 바꾸기](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md) 를 참조하십시오.
 
-* 처리 작업 동의를 클릭하면 Workfront에서 작업 또는 문제에 액세스하는 위치에 따라 완료 또는 완료로 표시 버튼이 변경됩니다. 처리 중 단추에 액세스할 수 있는 위치에 대한 자세한 내용은 이 문서의 [처리 중 찾기 및 완료 단추](#locate-the-work-on-it-and-done-button) 섹션을 참조하십시오.
+* 처리(Work On It) 동의를 클릭하면 버튼이 완료로 표시로 변경됩니다. 처리 중 단추에 액세스할 수 있는 위치에 대한 자세한 내용은 이 문서의 [처리 중 찾기 및 완료 단추](#locate-the-work-on-it-and-done-button) 섹션을 참조하십시오.
 
   ![](assets/nwe-mark-as-done-button-350x122.png)
 
-* 사용자만이 작업 또는 문제에 할당되어 있지 않고 홈 영역의 작업 목록에서 작업 항목에 액세스하는 경우 버튼이 내 부품 완료로 변경됩니다.
 
-  ![](assets/home-left-done-with-my-part-button-350x184.png)
+<!--If you are not the only one assigned to the task or issue and you are accessing your work item from the My Work widget in the Home area, the button changes to Done with my part.
 
-## 작업 위치 및 완료 버튼 {#locate-the-work-on-it-and-done-button}
+  ![](assets/home-left-done-with-my-part-button-350x184.png)-->
 
-Workfront의 다음 영역에서 처리 및 완료 버튼을 찾을 수 있습니다.
+## 해당 작업을 찾아 완료로 표시 단추 {#locate-the-work-on-it-and-done-button}
 
-* 작업 목록 또는 세부 정보 패널의 홈 영역
+Workfront의 다음 영역에서 작업 영역 및 완료로 표시 버튼을 찾을 수 있습니다.
+
+* 내 작업 위젯의 홈 영역
 
   항목을 [홈] 영역에서 [완료]로 표시하는 방법에 대한 자세한 내용은 [항목을 [홈] 영역에서 [완료]로 표시](../../workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)를 참조하십시오.
 
@@ -58,13 +59,13 @@ Workfront의 다음 영역에서 처리 및 완료 버튼을 찾을 수 있습�
 
   개체 헤더에 대한 자세한 내용은 [새 개체 헤더](../../workfront-basics/the-new-workfront-experience/new-object-headers.md)를 참조하십시오.
 
-* 목록 또는 업무 균형자의 작업 또는 문제 요약 패널에서
+* 작업 또는 문제 요약 패널에서
 
   요약 패널 사용에 대한 자세한 내용은 [요약 개요](../../workfront-basics/the-new-workfront-experience/summary-overview.md)를 참조하십시오.
 
-## 처리 중 및 완료 단추를 클릭하면 자동으로 업데이트되는 필드 개요
+## 작업 을 클릭하고 완료로 표시 단추를 클릭하면 자동으로 업데이트되는 필드의 개요
 
-처리 중(Work On It) 및 완료(Done) 단추를 사용하면 Workfront에서 사용자에게 할당된 작업 항목에 대한 정보를 자동으로 업데이트할 수 있다는 이점이 있습니다.
+처리 중(Work On It) 및 완료로 표시(Mark as done) 단추를 사용하면 Workfront에서 자신에게 할당된 작업 항목에 대한 정보를 자동으로 업데이트할 수 있다는 이점이 있습니다.
 
 * [처리 중 단추](#work-on-it-button)
 * [시작 단추](#start-button)
@@ -111,7 +112,11 @@ Workfront의 다음 영역에서 처리 및 완료 버튼을 찾을 수 있습�
 
 ### 완료 버튼 {#the-done-button}
 
-팀을 편집할 수 있는 액세스 권한이 있는 경우, 항목을 완료됨으로 표시할 때 팀에서 작업 또는 문제 상태를 업데이트하도록 완료 버튼을 구성할 수 있습니다. 해당 팀을 홈 팀으로 사용하는 사용자가 해당 항목의 완료 단추를 클릭하면 작업 또는 문제에 대해 다음 필드가 자동으로 업데이트됩니다.
+>[!NOTE]
+>
+>완료 버튼은 Workfront의 모든 영역에서 완료로 표시로 표시됩니다.
+
+팀을 편집할 수 있는 액세스 권한이 있는 경우, 항목을 완료됨으로 표시할 때 팀에서 작업 또는 문제 상태를 업데이트하도록 완료 버튼을 구성할 수 있습니다. 해당 팀을 홈 팀으로 사용하는 사용자가 해당 항목에서 완료로 표시 단추를 클릭하면 작업 또는 문제에 대해 다음 필드가 자동으로 업데이트됩니다.
 
 * 상태
 * 할당 상태 업데이트 작업에서 완료로

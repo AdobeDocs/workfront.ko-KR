@@ -1,20 +1,20 @@
 ---
-title: 액세스 개요
+title: Adobe Workfront Planning 액세스 개요
 description: 조직의 모든 사용자가 Adobe Workfront Planning을 사용할 수 있는 동일한 액세스 및 권한을 가지고 있는 것은 아닙니다. 이 문서에서는 사용자가 Adobe Workfront Planning의 기능을 사용해야 할 수 있는 액세스 및 권한에 대해 설명합니다.
 author: Alina
 feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '673'
 ht-degree: 1%
 
 ---
 
 
-# 액세스 개요
+# Adobe Workfront Planning 액세스 개요
 
 <!--do not use the snippet for IMPORTANT , as it links to this article-->
 

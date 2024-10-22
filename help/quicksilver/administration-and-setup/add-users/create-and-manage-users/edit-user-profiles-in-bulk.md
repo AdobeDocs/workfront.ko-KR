@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '2236'
+source-wordcount: '2213'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ ht-degree: 0%
        <ul> 
         <li><b>시간대:</b> 사용자의 시간대입니다.</li> 
         <li><b>로케일</b>: 사용자가 선호하는 로케일입니다. 이 오류는 Workfront에서 전송되는 이메일의 숫자 및 날짜 형식에 영향을 줍니다.</li> 
-        <li><b>내가 자신에게 할당한 작업을 내 처리 중 탭으로 보내기</b>: 사용자가 자신에게 할당한 모든 작업을 [처리 중] 탭에 직접 표시하려면 이 옵션을 선택하십시오. 기본적으로 사용자에게 할당된 모든 항목이 작업 요청 탭에 나열됩니다.</li> 
+        <li><b>내가 자신에게 할당한 작업을 내 처리 중 탭으로 보내기</b>: 이 설정은 Workfront에서 제거된 사용되지 않는 기능을 참조합니다.</li> 
        </ul> </td> 
      </tr> 
      <tr> 

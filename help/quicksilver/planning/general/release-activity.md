@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '7484'
+source-wordcount: '7488'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 >
 >Workfront Planning 기능에 액세스하고 사용하려면 Workfront 계획 외에 Workfront Planning 계획을 구매해야 합니다.
 >
->Workfront Planning에 액세스하기 위한 전체 요구 사항 목록은 [액세스 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
+>Workfront Planning에 액세스하기 위한 전체 요구 사항 목록은 [Adobe Planning 액세스 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
 >Workfront Planning에 대한 개요는 [Adobe Workfront Planning 개요](/help/quicksilver/planning/general/planning-overview.md)를 참조하십시오.
 >
 
@@ -1259,7 +1259,7 @@ Adobe Workfront Planning 기능이 미리보기 및 샌드박스 환경에서 �
 * 보기: 사용자는 레코드 유형 페이지의 보기 드롭다운 메뉴에서 보기를 선택할 수 있습니다.
 * 관리: 사용자가 보기를 편집, 공유 및 삭제할 수 있습니다.
 
-자세한 내용은 [액세스 개요](/help/quicksilver/planning/access/access-overview.md) 및 [Adobe Workfront Planning 기능의 공유 권한 개요](/help/quicksilver/planning/access/sharing-permissions-overview.md)를 참조하십시오.
+자세한 내용은 [Adobe 계획 액세스 개요](/help/quicksilver/planning/access/access-overview.md) 및 [Adobe Workfront 계획 기능의 공유 권한 개요](/help/quicksilver/planning/access/sharing-permissions-overview.md)를 참조하십시오.
 
 ### 새 공식 필드 유형
 

@@ -7,7 +7,7 @@ description: ' [!DNL Adobe Workfront] 관리자가 할당한 액세스 수준에
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 다음 영역이 [!UICONTROL Worker]의 기본 레이아웃에 포함되어 있습니다.
 
-* **[!UICONTROL 홈]**: 사용자에게 할당된 작업 및 문제가 여기에 표시됩니다. 이 페이지는 작업자 의 기본 랜딩 페이지이지만 Workfront 관리자가 레이아웃 템플릿에 추가하지 않으면 [!UICONTROL 기본 메뉴]에 표시되지 않습니다.  자세한 내용은 [[!UICONTROL Home]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md) 시작하기 를 참조하십시오.
+* **[!UICONTROL 홈]**: 사용자에게 할당된 작업 및 문제가 여기에 표시됩니다. 이 페이지는 작업자의 기본 랜딩 페이지이지만 Workfront 관리자가 레이아웃 템플릿에 추가하지 않으면 [!UICONTROL 기본 메뉴]에 표시되지 않습니다.  자세한 내용은 [[!UICONTROL Home]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md) 시작하기 를 참조하십시오.
 
 * **[!UICONTROL 프로젝트]**: 나와 공유된 프로젝트가 여기에 표시됩니다. 자세한 내용은 [프로젝트: 문서 색인](../../../manage-work/projects/projects-overview.md)을 참조하세요.
 

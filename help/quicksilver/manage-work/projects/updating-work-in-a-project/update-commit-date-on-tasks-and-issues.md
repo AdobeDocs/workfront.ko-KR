@@ -6,7 +6,7 @@ description: 할당된 작업 또는 문제의 커밋 일자를 수동으로 업
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
 workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 0%
@@ -95,7 +95,7 @@ Workfront의 다음 영역에서 작업 또는 문제의 커밋 일자를 업데
 >자세한 내용은 다음 문서를 참조하십시오.
 >
 >* [요약 개요](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
->* [레이아웃 템플릿을 사용하여 홈 및 요약을 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+>* [레이아웃 템플릿을 사용하여 요약 패널을 사용자 지정합니다](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 
 1. **소유자**(으)로 할당된 작업 또는 문제로 이동합니다.

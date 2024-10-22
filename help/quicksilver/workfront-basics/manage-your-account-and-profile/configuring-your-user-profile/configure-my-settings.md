@@ -3,12 +3,12 @@ product-area: user-management;setup
 navigation-topic: configure-your-user-profile
 title: 내 설정 구성
 description: ' [!DNL Adobe Workfront] 프로필에 사용자 자신에 대한 정보(예: 이름, 전자 메일 주소, 주소, 전화 번호, 직함 등)가 포함되어 있습니다.  [!DNL Workfront]  및 회사의 다른 사용자와의 상호 작용에 대한 정보도 포함되어 있습니다.'
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: ecf0aba451d530fa3be258d954f827e7cfc6b198
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '3319'
+source-wordcount: '3306'
 ht-degree: 1%
 
 ---
@@ -345,7 +345,7 @@ ht-degree: 1%
 
 <tr> 
    <td role="rowheader"><strong>[!UICONTROL 자신에게 할당된 작업을 내 처리 중 탭으로 보내기]</strong> </td> 
-   <td>[!UICONTROL 작업 요청] 탭 대신 [!UICONTROL 작업 중] 탭에서 직접 자신에게 할당하는 작업을 표시하려면 이 필드를 선택합니다.</td> 
+   <td>이 필드는 [!DNL Workfront]에서 제거된 사용되지 않는 기능을 참조합니다.</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>(조건부) 문서 업로드 시 증명을 자동으로 생성합니다</strong></td> 

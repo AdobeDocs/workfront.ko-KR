@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 08a47320-b847-4b18-b4c0-1b9f67cfd248
-source-git-commit: 4a9936b6bc034f2176167fc3939d647ee679a888
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 2%
+source-wordcount: '87'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 2%
 작업은 프로젝트 완료에 기여하는 Adobe Workfront의 더 작은 작업 항목입니다. 다음 하위 섹션의 문서에서 작업 관리에 대해 알아봅니다.
 
 * [작업 정보](../../manage-work/tasks/task-information/task-information.md)
-* [작업 만들기](../../manage-work/tasks/create-tasks/create-tasks-overview-1.md)
+* [작업 만들기: 문서 인덱스](../../manage-work/tasks/create-tasks/create-tasks-overview-1.md)
 * [작업 할당](../../manage-work/tasks/assign-tasks/assign-tasks-1.md)
 * [작업 관리](../../manage-work/tasks/manage-tasks/manage-tasks.md)
 * [작업 제한](../../manage-work/tasks/task-constraints/task-constraints.md)

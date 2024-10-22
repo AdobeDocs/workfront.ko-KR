@@ -4,10 +4,11 @@ navigation-topic: the-new-workfront-experience
 title: 개체 헤더 개요
 description: 머리글을 검토할 때  [!DNL Adobe Workfront] 의 개체에 대한 정보를 한눈에 볼 수 있습니다. 헤더의 정보에는 오브젝트의 소유자, 상태 또는 완료율이 포함될 수 있습니다.
 feature: Get Started with Workfront
+author: Courtney
 exl-id: 76e21df0-9272-4bfb-8a97-c16ae5f4b5dc
-source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '3707'
+source-wordcount: '3697'
 ht-degree: 0%
 
 ---
@@ -31,12 +32,12 @@ ht-degree: 0%
 
    ![](assets/project-header-350x18.png)
 
-## [!UICONTROL 홈] 헤더 개요
+<!--## [!UICONTROL Home] header overview 
 
-홈에서 다음 헤더를 사용할 수 있습니다.
+The following headers are available in Home:
 
-* 작업: 이 헤더를 사용하는 방법에 대한 자세한 내용은 이 문서의 [작업 헤더 개요](#task-header-overview)를 참조하십시오.
-* 문제: 이 헤더를 사용하는 방법에 대한 자세한 내용은 이 문서의 [문제 헤더 개요](#issue-header-overview)를 참조하십시오.
+* Task: For more information on how you can use this header, see the [Task header overview](#task-header-overview) in this article.
+* Issue: For more information on how you can use this header, see the [Issue header overview](#issue-header-overview) in this article.-->
 
 ## 사용자 지정 가능한 헤더
 
@@ -80,8 +81,8 @@ ht-degree: 0%
    <td> <p>텍스트 "[!UICONTROL PROJECT]"가 헤더의 프로젝트 이름 위에 표시됩니다.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">작업의 작업 영역</td> 
-   <td> <p>프로젝트 이름 옆에 작업 영역이 표시됩니다.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p>  </td> 
+   <td role="rowheader">프로젝트의 작업 영역</td> 
+   <td> <p>프로젝트 이름 옆에 <b>공유</b> 옵션이 포함된 작업 영역이 표시됩니다.</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 완료율]</td> 
@@ -144,7 +145,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">작업의 작업 영역</td> 
-   <td> <p>작업 이름 옆에 [!UICONTROL actions] 영역이 표시됩니다.</p> <p> <img src="assets/nwe-dependency-action-area.png"> </p> <p>종속성 아이콘이 표시되면 아이콘을 클릭하여 작업의 전임 작업 또는 후임 작업을 볼 수 있습니다.</p> </td> 
+   <td> <p>작업 이름 옆에 <b>공유</b> 옵션을 포함하는 작업 영역이 표시됩니다.</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </p> <p>종속성 아이콘이 표시되면 아이콘을 클릭하여 작업의 전임 작업 또는 후임 작업을 볼 수 있습니다.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 완료율]</td> 
@@ -207,7 +208,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">문제의 작업 영역</td> 
-   <td> <p>문제의 이름 옆에 [!UICONTROL actions] 영역이 표시됩니다.</p> <p> <img src="assets/nwe-dependency-action-area.png"> </p> <p>[!UICONTROL 종속성] 아이콘이 표시되면 아이콘을 클릭하여 문제에 대한 전임 작업 또는 후임 작업을 볼 수 있습니다.</p>  </td> 
+   <td> <p>문제 이름 옆에 <b>공유</b> 옵션이 포함된 작업 영역이 표시됩니다.</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> <p>[!UICONTROL 종속성] 아이콘이 표시되면 아이콘을 클릭하여 문제에 대한 전임 작업 또는 후임 작업을 볼 수 있습니다.</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 완료율]</td> 
@@ -274,7 +275,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">프로그램의 작업 영역</td> 
-   <td> <p>프로그램 이름 옆에 [!UICONTROL actions] 영역이 표시됩니다.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p> </td> 
+   <td> <p>프로그램 이름 옆에 <b>공유</b> 옵션이 포함된 작업 영역이 표시됩니다.</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 완료율]</td> 
@@ -328,8 +329,8 @@ ht-degree: 0%
    <td> <p>포트폴리오가 비활성화되면 헤더의 포트폴리오 이름 위에 "[!UICONTROL PORTFOLIO DEACTIVATED]" 텍스트가 표시됩니다.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">포트폴리오의 [!UICONTROL actions] 영역</td> 
-   <td> <p>포트폴리오 이름 옆에 [!UICONTROL 작업] 영역이 표시됩니다.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p></td> 
+   <td role="rowheader">포트폴리오의 작업 영역</td> 
+   <td> <p>포트폴리오 이름 옆에 [!UICONTROL 작업] 영역이 표시됩니다.</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Portfolio 관리자]</td> 
@@ -392,7 +393,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">템플릿의 작업 영역입니다</td> 
-   <td> <p>템플릿 이름 옆에 작업 영역이 표시됩니다.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p> </td> 
+   <td> <p>템플릿 이름 옆에 작업 영역이 표시됩니다.</p> <p> <img src="assets/actions-area-icons-without-share-button.png"> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 템플릿 소유자]</td> 
@@ -439,7 +440,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">템플릿 작업의 작업 영역</td> 
-   <td> <p>템플릿 작업 이름 옆에 작업 영역이 표시됩니다.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p> </td> 
+   <td> <p>템플릿 작업 이름 옆에 작업 영역이 표시됩니다.</p> <p> <img src="assets/actions-area-icons-without-share-button.png"> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Assignments]</td> 
@@ -485,12 +486,15 @@ ht-degree: 0%
    <td> <p>"[!UICONTROL BILLING RECORD]" 텍스트가 헤더의 청구 기록 이름 위에 표시됩니다.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">청구 기록의 작업 영역</td> 
+   <td role="rowheader">청구 기록을 위한 기타 메뉴</td> 
    <td> <p>청구 기록 이름 옆에 다음 옵션을 선택할 수 있는 [!UICONTROL 기타] 메뉴 <img src="assets/more-menu.png">이(가) 표시됩니다.</p> 
     <ul> 
      <li> <p>[!UICONTROL 편집]</p> </li> 
-     <li> <p> </p> </li> 
-    </ul> </td> 
+     <li> <p> 삭제 </p> </li> 
+    </ul>
+    <p><b>메모</b></p>
+    <p>청구됨 상태의 청구 기록에 대해서는 기타 메뉴가 표시되지 않습니다. 청구된 레코드는 편집하거나 삭제할 수 없습니다.</p>
+     </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 청구 기록 합계]</td> 
@@ -542,7 +546,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">사용자의 작업 영역</td> 
-   <td> <p>사용자 이름 옆에 작업 영역이 표시됩니다.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p></td> 
+   <td> <p>사용자 이름 옆에 작업 영역이 표시됩니다.</p> <p> <img src="assets/actions-area-icons-without-share-button.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">이메일 주소</td> 
@@ -589,7 +593,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">팀의 작업 영역</td> 
-   <td> <p>팀 이름 옆에 [!UICONTROL actions] 영역이 표시됩니다.</p> <p> <img src="assets/nwe-switch-team-actions-area.png"> </p></td> 
+   <td> <p>팀 이름 옆에 작업 영역이 표시됩니다.</p> <p> <img src="assets/actions-area-icons-for-a-team.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">팀원 프로필 사진</td> 
@@ -632,8 +636,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">반복의 작업 영역</td> 
-   <td> <p>헤더의 오른쪽 상단 모서리에 작업 영역이 표시됩니다.</p> <p> <img src="assets/nwe-iteration-action-area.png"> </p></td> 
-  </tr> 
+   <td> <p>이터레이션 이름 옆에 작업 영역이 표시됩니다.</p> <p> <img src="assets/actions-area-icons-for-an-iteration.png">
   <tr> 
    <td role="rowheader">소유자</td> 
    <td>반복의 [!UICONTROL 소유자]입니다. 헤더에서 [!UICONTROL 소유자]를 편집할 수 없습니다.</td> 
@@ -735,7 +738,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">문서의 작업 영역</td> 
-   <td> <p>문서 이름 옆에 작업 영역이 표시됩니다.</p> <p> <img src="assets/nwe-doc-version-actions-area.png"> </p></td> 
+   <td> <p>문서 이름 옆에 작업 영역이 표시됩니다.</p> <p> <img src="assets/actions-area-icons-for-a-document.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">승인 [!UICONTROL 결정] 영역</td> 
@@ -773,7 +776,7 @@ ht-degree: 0%
    <td> <p>"[!UICONTROL COMPANY]" 텍스트가 헤더의 회사 이름 위에 표시됩니다.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">회사의 작업 영역</td> 
+   <td role="rowheader">회사의 더 보기 메뉴</td> 
    <td> <p>회사 이름 옆에 다음 옵션을 선택할 수 있는 [!UICONTROL 기타] 메뉴 <img src="assets/more-menu.png">이(가) 표시됩니다.</p> 
     <ul> 
      <li> <p>[!UICONTROL 편집]</p> </li> 
@@ -819,7 +822,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">플랜의 작업 영역</td> 
-   <td> <p>계획명 옆에 조치 영역이 표시됩니다.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p></td> 
+   <td> <p>계획명 옆에 조치 영역이 표시됩니다.</p> <p> <img src="assets/actions-area-icons-without-share-button.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">추가 플랜 작업</td> 
@@ -885,9 +888,9 @@ ht-degree: 0%
    <td> <p>텍스트 "[!UICONTROL GOAL]"이 헤더의 목표 이름 위에 표시됩니다.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">목표의 작업 영역</td> 
-   <td> <p>목표의 이름 옆에 작업 영역이 표시됩니다.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p>
-   목표의 작업 영역에서 다음 작업을 수행할 수 있습니다.
+   <td role="rowheader">목표의 기타 메뉴</td> 
+   <td> <p>목표의 이름 옆에 기타 메뉴 <img src="assets/more-icon.png">이(가) 표시됩니다.</p> </p>
+   목표의 기타 메뉴에서 다음 작업을 수행할 수 있습니다.
    <ul><li>[!UICONTROL 편집]</li>
    <li>[!UICONTROL 목표 복사]</li>
    <li>[!UICONTROL 목표 삭제]</li>

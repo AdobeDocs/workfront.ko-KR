@@ -9,9 +9,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '510'
 ht-degree: 1%
 
 ---
@@ -29,6 +29,7 @@ Adobe Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 �
 * 메인 메뉴
 * 왼쪽 탐색 패널
 * 홈 영역
+* 요약 패널
 * 목록 및 보고서에서 사람들이 사용하는 보기, 필터 및 그룹입니다.
 * 화면 용어
 * 프로젝트, 작업 및 문제 헤더
@@ -101,7 +102,8 @@ Adobe Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 �
    * [레이아웃 템플릿을 사용하여 왼쪽 패널 사용자 지정](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
    * [레이아웃 템플릿을 사용하여 고정된 페이지 사용자 지정](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
    * [레이아웃 템플릿을 사용하여 세부 정보 보기 사용자 지정](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
-   * [레이아웃 템플릿을 사용하여 홈 및 요약 사용자 지정](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+   * [레이아웃 템플릿을 사용하여 요약 패널 사용자 지정](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+   * [레이아웃 템플릿을 사용하여 홈 맞춤화](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
    * [레이아웃 템플릿을 사용하여 랜딩 페이지 사용자 지정](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
    * [레이아웃 템플릿을 사용하여 필터, 보기 및 그룹화 사용자 지정](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    * [레이아웃 템플릿을 사용하여 사용자 인터페이스 용어 맞춤화](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)

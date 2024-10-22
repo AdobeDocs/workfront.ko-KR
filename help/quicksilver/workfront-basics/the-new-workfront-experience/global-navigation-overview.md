@@ -3,9 +3,9 @@ content-type: overview
 title: 상단 탐색 막대 개요
 description: ' [!DNL Adobe Workfront] 의 화면 맨 위에 표시되는 위쪽 탐색 막대를 사용하면 플랫폼의 다른 영역을 쉽게 찾아 탐색할 수 있습니다.'
 feature: Get Started with Workfront
-author: Nolan
+author: Courtney
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 0a50e3aef47720d78e798f6111ee503389dde984
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 0%

@@ -6,9 +6,9 @@ description: 스마트 할당을 사용하여 작업을 완료하는 데 가장 
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,6 @@ ht-degree: 0%
    * 작업 또는 문제 헤더
    * 작업 또는 문제 요약 패널
    * <span class="preview">새 작업</span> 또는 새 문제 상자 <span class="preview">새 작업</span> 또는 문제를 프로젝트에 추가할 때
-   * 홈 영역에 나열된 항목에 대한 지정 필드
    * 업무 균형자의 작업 또는 문제
 
 1. 지정 필드에 커서를 놓고 2초 동안 기다립니다.

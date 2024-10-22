@@ -7,9 +7,9 @@ description: Adobe Workfront에서 필터를 사용하여 목록, 보고서 또�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: 9add9857213bb3eca5fbc3bbe3f4e1bb9b5020fa
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '1830'
+source-wordcount: '1807'
 ht-degree: 1%
 
 ---
@@ -71,8 +71,8 @@ Workfront의 개체 및 보고서를 작성할 수 있는 개체에 대한 자�
 
 Workfront의 다음 영역에서 기본 제공 필터를 사용하거나 사용자 지정 필터를 빌드할 수 있습니다.
 
-* 홈\
-  자세한 내용은 문서 [홈 영역의 작업 목록에 항목 표시](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)의 [작업 목록 필터링](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md#filter-the-work-list) 섹션을 참조하십시오.
+<!--* Home   
+  For information, see the [Filter the Work List](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md#filter-the-work-list) section in the article [Display items in the Work List in the Home area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).-->
 * 요청 영역입니다. 요청 영역에서는 필터를 사용자 지정할 수 없습니다.
 
   자세한 내용은 [제출된 요청 찾기](../../../manage-work/requests/create-requests/locate-submitted-requests.md)를 참조하십시오.

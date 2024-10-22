@@ -6,7 +6,7 @@ description: 문제의 계획된 완료 일자는 문제가 완료될 것으로 
 author: Alina
 feature: Work Management
 exl-id: bdb206dc-18f8-4f8a-862b-e881408a8408
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 0%
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 문제의 계획된 완료 일자는 문제가 완료될 것으로 예상되는 일자입니다.
 
-문제의 계획된 완료 일자 를 지정하거나 특정 기준에 따라 Adobe Workfront에 맡겨 계산할 수 있습니다. 
+문제의 계획된 완료 일자 를 지정하거나 특정 기준에 따라 Adobe Workfront에 맡겨 계산할 수 있습니다.
 
-문제의 계획된 완료 일자는 프로젝트의 계획된 완료 일자에 영향을 주지 않습니다. 작업의 계획된 완료 일자만 프로젝트의 계획된 완료 일자에 영향을 줍니다. 프로젝트 계획 완료 날짜에 대한 자세한 내용은 [프로젝트 계획 완료 일자 설정](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)을 참조하십시오.
+문제의 계획된 완료 일자는 프로젝트의 계획된 완료 일자에 영향을 주지 않습니다. 작업의 계획된 완료 일자만 프로젝트의 계획된 완료 일자에 영향을 줍니다. 프로젝트 계획 완료 날짜에 대한 자세한 내용은 [프로젝트 계획 완료 일자 설정](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)을 참조하십시오.
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 Workfront의 다음 영역에서 문제의 계획된 완료 일자 를 수동으로 설정할 수 있습니다.
 
-* 문제를 만들거나 편집할 때 문제 편집 상자 또는 문제 세부 정보 영역에서 확인할 수 있습니다. 자세한 내용은 [문제 편집](../../../manage-work/issues/manage-issues/edit-issues.md)을 참조하세요.
+* 문제를 만들거나 편집할 때 문제 편집 상자 또는 문제 세부 정보 영역에서 확인할 수 있습니다. 자세한 내용은 [문제 편집](../../../manage-work/issues/manage-issues/edit-issues.md)을 참조하세요.
 * 문제를 볼 때 계획된 완료 일자 가 표시되는 경우 홈 영역에서 을 참조하십시오. 자세한 내용은 [홈 영역에서 작업 항목 업데이트 또는 편집](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)을 참조하세요.
 * 문제 헤더에서 확인할 수 있습니다. 자세한 내용은 [새 개체 헤더](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md)를 참조하십시오.
 * 보기에 계획된 완료 일자 필드가 표시되는 경우 문제 목록 또는 보고서에서
@@ -54,13 +54,13 @@ Workfront이 문제의 계획된 완료 일자를 자동으로 계산할 때 다
 
   시작 일자 및 계획된 시작 일자는 문제를 처음 생성할 때 문제에 대해 일치해야 합니다.
 
-* 프로젝트의 대기열 세부 정보 섹션에 구성된 기본 기간. 자세한 내용은 [요청 큐 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)를 참조하세요.
+* 프로젝트의 대기열 세부 정보 섹션에 구성된 기본 기간. 자세한 내용은 [요청 큐 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)를 참조하세요.
 
   기본 기간이 0일인 경우, 계획된 완료 일자가 문제의 계획된 시작 일자와 일치합니다.
 
 * 프로젝트 일정
 
-자동으로 설정된 경우 다음 계산에 따라 계획된 완료 일자가 결정됩니다. 
+자동으로 설정된 경우 다음 계산에 따라 계획된 완료 일자가 결정됩니다.
 
 ```
 Planned Completion Date = Planned Start Date (or Entry Date + Default Duration
@@ -77,4 +77,4 @@ Planned Completion Date = Planned Start Date (or Entry Date + Default Duration
 >
 >Workfront은 계획된 완료 일자를 계산할 때 휴일 및 주말과 같은 스케줄 예외를 고려합니다.
 
- 
+

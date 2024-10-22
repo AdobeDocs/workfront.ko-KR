@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 5180bbad9ae2767ebc540127bc92fb688431b5d1
+source-git-commit: fc321f099c2c6903d0a1cebdd041115ca8a716ff
 workflow-type: tm+mt
-source-wordcount: '14507'
+source-wordcount: '14512'
 ht-degree: 2%
 
 ---
@@ -1342,7 +1342,7 @@ ht-degree: 2%
          * [원래 작업 기간 및 원래 계획된 시간 개요](manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md)
          * [작업의 계획된 기간 및 기간 차이](manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md)
       * 작업 {#create-tasks} 만들기
-         * [작업 만들기](manage-work/tasks/create-tasks/create-tasks-overview-1.md)
+         * [작업 만들기: 문서 색인](manage-work/tasks/create-tasks/create-tasks-overview-1.md)
          * [작업 만들기 개요](manage-work/tasks/create-tasks/create-tasks-overview.md)
          * [프로젝트에서 작업 만들기](manage-work/tasks/create-tasks/create-tasks-in-project.md)
          * [하위 작업 만들기](manage-work/tasks/create-tasks/create-subtasks.md)
@@ -2092,7 +2092,7 @@ ht-degree: 2%
       * [기본 필드 개요](planning/fields/primary-field-overview.md)
    * Adobe Workfront Planning 액세스 {#adobe-workfront-planning-access}
       * [Adobe Workfront Planning 액세스 정보: 문서 색인](planning/access/access-information.md)
-      * [액세스 개요](planning/access/access-overview.md)
+      * [Adobe Workfront Planning 액세스 개요](planning/access/access-overview.md)
       * [Adobe Workfront Planning의 공유 권한 개요](planning/access/sharing-permissions-overview.md)
       * [Adobe Workfront Planning 사용 시 라이선스 유형 개요](planning/access/license-type-overview.md)
       * [작업 공간 공유](planning/access/share-workspaces.md)

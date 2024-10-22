@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '631'
 ht-degree: 3%
 
 ---
@@ -78,7 +78,7 @@ Adobe Workfront 관리자 또는 그룹 관리자는 레이아웃 템플릿을 �
 
      >[!TIP]
      >
-     >기본적으로 홈 영역 외에 기본 메뉴의 내 업데이트 영역을 포함하는 프로필과 연결된 레이아웃 템플릿이 없는 경우 기본 메뉴의 홈 아이콘에는 검토 라이선스 사용자(현재 라이선스 계획)의 내 업데이트 영역이 표시됩니다.
+     >홈 영역 외에 기본 메뉴의 내 업데이트 영역을 포함하는 프로필과 연결된 레이아웃 템플릿이 없는 경우 기본적으로 기본 메뉴의 홈 아이콘에는 검토 라이선스 사용자(현재 라이선스 계획)의 내 업데이트 영역이 표시됩니다.
 
    * 포트폴리오
    * 프로그램

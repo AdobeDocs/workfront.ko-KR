@@ -5,9 +5,9 @@ description: 요약 패널을 사용하여 작업 문제 목록, 문서 또는 �
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '960'
 ht-degree: 2%
 
 ---
@@ -187,9 +187,7 @@ Workfront 또는 그룹 관리자는 요약 패널에 표시되는 영역과 필
 
 [!UICONTROL 요약]의 [!UICONTROL 세부 정보] 섹션을 사용하여 높은 수준의 작업 항목 세부 정보를 보거나 할당하거나 시작 날짜를 추가하십시오. 작업 또는 문제의 [!UICONTROL 세부 정보] 탭으로 직접 이동하려면 **[!UICONTROL 모두 보기]**&#x200B;를 클릭하십시오.
 
->[!NOTE]
->
->이 섹션에 나타나는 필드는 홈의 오른쪽 패널에 나타나는 필드와 동일합니다. 레이아웃 템플릿을 사용하여 [[!UICONTROL Home] 및 [!UICONTROL 요약]을(를) 사용자 지정할 수 있습니다](../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+
 
 요약 패널의 ![세부 정보 섹션](assets/summary-details-section.png)
 

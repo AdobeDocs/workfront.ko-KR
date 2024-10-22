@@ -2,22 +2,24 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: tasks
-title: 작업 만들기
-description: 특정 프로젝트에서 작업을 만들거나 홈 영역에서 작업을 만들 수 있습니다.
+title: "작업 만들기: 문서 색인"
+description: 특정 프로젝트에서 작업을 생성할 수 있습니다.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 5776570c-f303-4e62-bc80-5038191a83fd
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 7%
+source-wordcount: '46'
+ht-degree: 0%
 
 ---
 
-# 작업 만들기
+# 작업 만들기: 문서 색인
 
-특정 프로젝트에서 작업을 만들거나 홈 영역에서 작업을 만들 수 있습니다.
+<!--Audited: 10/2024-->
+
+Adobe Workfront의 특정 프로젝트에서 작업을 생성할 수 있습니다.
 
 이 섹션에는 다음 문서가 포함됩니다.
 

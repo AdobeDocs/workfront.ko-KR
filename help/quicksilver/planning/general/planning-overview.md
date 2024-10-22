@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '2100'
+source-wordcount: '2106'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 1%
 >* Workfront Planning에 대한 추가 라이선스.
 >* 조직의 Workfront 인스턴스는 통합 경험 Adobe에 온보딩되어야 합니다.
 >
-> Workfront Planning에 액세스하기 위한 전체 요구 사항 목록은 [액세스 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
+> Workfront Planning에 액세스하기 위한 전체 요구 사항 목록은 [Adobe Planning 액세스 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
 > 
 
 이 문서에는 Workfront Planning에 대한 일반적인 정보가 포함되어 있습니다.
@@ -168,7 +168,7 @@ Workfront Planning은 다음과 같은 질문에 답변할 수 있습니다.
 
 * 메인 메뉴에 Planning이 포함된 레이아웃 템플릿을 Planning에 액세스해야 하는 사용자에게 할당합니다. 자세한 내용은 [레이아웃 템플릿을 사용하여 기본 메뉴 사용자 지정](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) 및 [레이아웃 템플릿에 사용자 할당](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)을 참조하십시오.
 
-* Workfront Planning에서 5554hview 또는 개체 생성을 허용하는 Workfront 라이선스 및 Workfront Planning 권한을 사용자에게 할당합니다. 액세스 권한을 부여하고 다른 사용자가 Workfront Planning을 사용할 수 있도록 하는 방법에 대한 자세한 내용은 [액세스 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
+* Workfront Planning에서 5554hview 또는 개체 생성을 허용하는 Workfront 라이선스 및 Workfront Planning 권한을 사용자에게 할당합니다. 액세스 권한을 부여하고 다른 사용자가 Workfront Planning을 사용할 수 있도록 하는 방법에 대한 자세한 내용은 [Adobe Planning 액세스 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
 
 ## Workfront Planning 용어
 
@@ -321,7 +321,7 @@ Workfront Planning의 프레임워크는 완전히 사용자 정의할 수 있�
 
 ## Adobe Workfront Planning 찾기
 
-Adobe Planning을 찾으려면 조직에서 Workfront Planning에 대한 액세스 권한을 받았는지, 시스템 또는 그룹 관리자가 [기본 메뉴]에 [계획] 영역을 추가했는지 확인하십시오. 자세한 내용은 [액세스 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
+Adobe Planning을 찾으려면 조직에서 Workfront Planning에 대한 액세스 권한을 받았는지, 시스템 또는 그룹 관리자가 [기본 메뉴]에 [계획] 영역을 추가했는지 확인하십시오. 자세한 내용은 [Adobe 계획 액세스 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
 
 Workfront Planning을 찾으려면 다음을 수행합니다.
 
