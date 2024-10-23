@@ -7,14 +7,16 @@ description: Adobe Workfront을 사용하면 작업 항목과 관련이 없는 �
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 2375cf5d7ae817340ce9552994d87cb5af9a054b
+source-git-commit: 8dd932fe0203fb4a0391f1cbc2d6b8b58a87a00a
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
 
 # 다른 사용자에게 다이렉트 메시지 보내기
+
+{{highlighted-preview}}
 
 [!DNL Adobe Workfront]을(를) 사용하면 작업 항목과 관련이 없는 메시지를 다른 [!DNL Workfront] 사용자에게 직접 빠르고 쉽게 보낼 수 있습니다. 이 섹션에 설명된 대로 보낸 메시지는 사용자 프로필 페이지의 [!UICONTROL 업데이트] 탭에 표시되며 모든 사용자가 볼 수 있습니다. 업데이트에 대한 자세한 내용은 [작업 항목 업데이트 및 업데이트 보기: 문서 색인](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)을 참조하세요.
 
@@ -72,17 +74,18 @@ ht-degree: 0%
 1. **[!UICONTROL 업데이트]를 클릭합니다.**
 사용자 프로필 페이지의 **[!UICONTROL 업데이트]** 탭에 있는 메시지 목록 맨 위에 메시지가 게시됩니다.
 
-<!--
-## Send a message to one or more users from the User list
+## 사용자 목록에서 한 명 이상의 사용자에게 메시지 보내기
 
-This option is only available if you have a Standard, Plan, or Work license.
+이 옵션은 Standard, Plan 또는 Work 라이선스가 있는 경우에만 사용할 수 있습니다.
 
 {{step-1-to-users}}
 
-1. Select the user or users you want to send a message to, and click [!UICONTROL **Send Update to User**].
-1. Type your message in the [!UICONTROL Send update to user] window.
-1. (Optional) Search for any additional users you want to tag on the message. You do not need to tag the users you already selected in the user list.
-1. (Optional) Select **[!UICONTROL Private to my company]** to make this message visible only to other users in your company.
-1. Click [!UICONTROL **Send**].
-   The message is posted at the top of the list of messages on the **[!UICONTROL Updates]** tab on each user's profile page.
--->
+1. 메시지를 보낼 사용자를 선택하고 [!UICONTROL **사용자에게 업데이트 보내기**]&#x200B;를 클릭합니다.
+1. [!UICONTROL 사용자에게 업데이트 보내기] 창에 메시지를 입력하세요.
+
+   <span class="preview">![사용자에게 업데이트 보내기 창의 메시지 사용자](assets/send-message-to-user-dialog-from-user-list.png)</span>
+
+1. (선택 사항) 메시지에 태깅할 추가 사용자를 검색합니다. 사용자 목록에서 이미 선택한 사용자에 태그를 지정할 필요가 없습니다.
+1. (선택 사항) 이 메시지가 회사의 다른 사용자에게만 표시되도록 하려면 **[!UICONTROL 내 회사에 비공개]**&#x200B;를 선택합니다.
+1. [!UICONTROL **보내기**]를 클릭합니다.
+각 사용자의 프로필 페이지의 **[!UICONTROL 업데이트]** 탭에 있는 메시지 목록 맨 위에 메시지가 게시됩니다.
