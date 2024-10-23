@@ -9,14 +9,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: a46c6d1f8a0ae58e07f0fb9d14ecdd06a856223f
+source-git-commit: bff394325882dae7b447c319db9cad8c196340d3
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 2%
+source-wordcount: '1041'
+ht-degree: 1%
 
 ---
 
 # Workfront 환경 간 객체 이동 개요(환경 프로모션)
+
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 미리 보기 샌드박스 환경에서만 사용할 수 있습니다.</span>
 
 환경 홍보 기능을 사용하면 한 Workfront 환경에서 다른 환경으로 개체를 이동할 수 있습니다. 예를 들어, 테스트하는 것이 조직의 실제 데이터에 영향을 주지 않는다는 것을 알고 템플릿을 만들어 샌드박스 환경에서 구성할 수 있습니다. 템플릿을 구성하고 테스트한 후 사용할 수 있도록 프로덕션 환경으로 이동할 수 있습니다.
 
@@ -98,7 +100,7 @@ ht-degree: 2%
 | 위험 유형(RSKTYP) | 위험 유형 |
 | 리소스 풀(RSPL) | 리소스 풀 |
 | 액세스 수준(ACSLVL) | 액세스 수준 |
-| 등급 카드(RTCRD) | 요율 카드 |
+| <span class="preview">등급 카드(RTCRD)</span> | <span class="preview">등급 카드</span> |
 
 \* 현재 사용할 수 없음
 
