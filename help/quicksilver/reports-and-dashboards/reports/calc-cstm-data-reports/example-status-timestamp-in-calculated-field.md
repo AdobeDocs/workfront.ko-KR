@@ -7,9 +7,9 @@ description: 다음 계산된 필드에는 오브젝트 상태가 진행 중(INP
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 55817a68-3655-4288-8cc7-48547829c46e
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -62,8 +62,8 @@ ht-degree: 0%
 
 1. 필드를 추가할 사용자 정의 양식으로 이동합니다.
 1. 양식에 계산된 사용자 지정 필드를 추가하려면 **계산됨**&#x200B;을(를) 클릭하십시오.
-1. *상태 타임스탬프 사용자 지정 필드*&#x200B;와 같은 사용자 지정 필드에 **레이블**&#x200B;을(를) 입력하십시오.
-1. **완료**&#x200B;를 클릭한 다음 **저장+닫기**&#x200B;를 클릭합니다.
+1. 사용자 지정 필드에 **Label**&#x200B;을(를) 입력하십시오. 예를 들어 &quot;상태 타임스탬프 사용자 정의 필드&quot;입니다.
+1. **저장+닫기**&#x200B;를 클릭합니다.
 1. 사용자 정의 양식을 다시 연 다음 양식의 새 **상태 타임스탬프 사용자 정의 필드**&#x200B;을(를) 선택하십시오.
 1. **계산** 상자에서 사용자 지정 필드에 대해 다음 계산을 복사하여 붙여 넣습니다.
 

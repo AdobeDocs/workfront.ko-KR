@@ -6,9 +6,9 @@ description: ' [!DNL Experience Manager Assets]에서 작업을 콘텐츠와 연
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 99924f690c53584c090d19fff90d23d84ec306d4
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1700'
+source-wordcount: '1697'
 ht-degree: 0%
 
 ---
@@ -124,7 +124,7 @@ ht-degree: 0%
 1. [Adobe 간 에셋 메타데이터 매핑 구성 [!DNL Workfront] 과(와) [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en)에 설명된 대로 [!DNL Experience Manager Assets]에서 메타데이터 스키마를 구성합니다.
 
 
-1. Workfront에서 사용자 정의 양식 필드를 구성합니다. [!DNL Workfront]에 사용할 수 있는 기본 제공 사용자 지정 필드가 많습니다. 그러나 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)에 설명된 대로 사용자 정의 필드를 만들 수도 있습니다.
+1. Workfront에서 사용자 정의 양식 필드를 구성합니다. [!DNL Workfront]에 사용할 수 있는 기본 제공 사용자 지정 필드가 많습니다. 그러나 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)에 설명된 대로 사용자 정의 필드를 만들 수도 있습니다.
 
 +++ **지원되는 Workfront 및 Experience Manager Assets 필드에 대한 자세한 내용을 보려면 확장**
 

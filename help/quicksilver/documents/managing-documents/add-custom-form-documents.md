@@ -6,9 +6,9 @@ description: 사용자 정의 양식을 문서 또는 문서 버전에 추가하
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 6c974293-1f54-447b-8d42-8d039f7911f1
-source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '327'
 ht-degree: 1%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >드롭다운 메뉴에 활성 사용자 정의 양식만 표시됩니다. 문서당 최대 10개의 사용자 정의 양식을 추가할 수 있습니다. 사용자 정의 양식을 만들어야 하는 경우 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
+   >드롭다운 메뉴에 활성 사용자 정의 양식만 표시됩니다. 문서당 최대 10개의 사용자 정의 양식을 추가할 수 있습니다. 사용자 정의 양식을 만들어야 하는 경우 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 
 ## 사용자 정의 양식 편집
 

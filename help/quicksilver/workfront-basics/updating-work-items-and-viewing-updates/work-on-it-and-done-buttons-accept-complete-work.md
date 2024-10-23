@@ -8,9 +8,9 @@ author: Lisa and Alina
 feature: Get Started with Workfront
 role: User
 exl-id: cfda6702-1a9a-4645-b031-8b2f201ac0af
-source-git-commit: 7b5018f546d4c654832298e85c10504375f380b4
+source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '768'
 ht-degree: 1%
 
 ---
@@ -25,6 +25,10 @@ ht-degree: 1%
 
 * Standard 라이센스(신규) 또는 Plan 또는 Work 라이센스(현재)
 * 작업 또는 문제에 대한 편집 액세스 권한 이상 제한
+
+>[!NOTE]
+>
+>완료 버튼은 Workfront의 모든 영역에서 완료로 표시로 표시됩니다.
 
 ## 작업 및 완료 버튼 이름
 
@@ -47,9 +51,9 @@ ht-degree: 1%
 
   ![](assets/home-left-done-with-my-part-button-350x184.png)-->
 
-## 해당 작업을 찾아 완료로 표시 단추 {#locate-the-work-on-it-and-done-button}
+## 작업 위치 및 완료 버튼 {#locate-the-work-on-it-and-done-button}
 
-Workfront의 다음 영역에서 작업 영역 및 완료로 표시 버튼을 찾을 수 있습니다.
+Workfront의 다음 영역에서 처리 및 완료 버튼을 찾을 수 있습니다.
 
 * 내 작업 위젯의 홈 영역
 
@@ -63,9 +67,9 @@ Workfront의 다음 영역에서 작업 영역 및 완료로 표시 버튼을 �
 
   요약 패널 사용에 대한 자세한 내용은 [요약 개요](../../workfront-basics/the-new-workfront-experience/summary-overview.md)를 참조하십시오.
 
-## 작업 을 클릭하고 완료로 표시 단추를 클릭하면 자동으로 업데이트되는 필드의 개요
+## 처리 중 또는 완료 단추를 클릭하면 자동으로 업데이트되는 필드 개요
 
-처리 중(Work On It) 및 완료로 표시(Mark as done) 단추를 사용하면 Workfront에서 자신에게 할당된 작업 항목에 대한 정보를 자동으로 업데이트할 수 있다는 이점이 있습니다.
+처리 중(Work On It) 및 완료(Done) 단추를 사용하면 Workfront에서 사용자에게 할당된 작업 항목에 대한 정보를 자동으로 업데이트할 수 있다는 이점이 있습니다.
 
 * [처리 중 단추](#work-on-it-button)
 * [시작 단추](#start-button)
@@ -111,10 +115,6 @@ Workfront의 다음 영역에서 작업 영역 및 완료로 표시 버튼을 �
 >
 
 ### 완료 버튼 {#the-done-button}
-
->[!NOTE]
->
->완료 버튼은 Workfront의 모든 영역에서 완료로 표시로 표시됩니다.
 
 팀을 편집할 수 있는 액세스 권한이 있는 경우, 항목을 완료됨으로 표시할 때 팀에서 작업 또는 문제 상태를 업데이트하도록 완료 버튼을 구성할 수 있습니다. 해당 팀을 홈 팀으로 사용하는 사용자가 해당 항목에서 완료로 표시 단추를 클릭하면 작업 또는 문제에 대해 다음 필드가 자동으로 업데이트됩니다.
 

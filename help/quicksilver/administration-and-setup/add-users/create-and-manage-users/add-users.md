@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1129'
 ht-degree: 1%
 
 ---
@@ -93,7 +93,7 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
 * 이 사용자는 어느 홈 팀에 속해 있어야 합니까? 대상이 두 개 이상의 팀에 속해 있어야 합니까? 팀에 대한 자세한 내용은 [팀 개요](../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md)를 참조하세요.
 * 이 사용자와 연결하는 데 필요한 사용자 정의 정보는 무엇입니까?
 
-  사용자에 대한 정보가 사용자가 만든 사용자 정의 필드에 캡처되어 있는 경우 사용자를 만들 때 사용자 정의 양식을 준비해야 합니다. 사용자 지정 양식에 대한 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
+  사용자에 대한 정보가 사용자가 만든 사용자 정의 필드에 캡처되어 있는 경우 사용자를 만들 때 사용자 정의 양식을 준비해야 합니다. 사용자 정의 양식에 대한 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 
 ## 처음부터 사용자 만들기
 

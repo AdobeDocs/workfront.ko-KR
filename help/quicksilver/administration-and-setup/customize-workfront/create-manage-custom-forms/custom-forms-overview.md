@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: a9cc21d182051410c87e1b6a4fbe8fd8cbe2a178
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '380'
 ht-degree: 11%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 11%
 
 양식 디자이너에는 필드, 캔버스 및 필드 설정을 모두 동시에 볼 수 있는 캔버스 스타일 작업 영역이 있습니다. 양식을 디자인하는 동안 섹션 내에 필드를 끌어다 놓을 수도 있습니다. 화면 오른쪽의 크기를 조정하여 필드 옵션을 위한 공간을 더 확보할 수 있습니다.
 
-자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
+자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 
 ![샘플 양식 디자이너](assets/form-designer-example.png)
 

@@ -6,9 +6,9 @@ description: 목록이나 보고서에 표시될 때 오브젝트를 인라인�
 feature: Get Started with Workfront
 author: Lisa
 exl-id: a94b5aaf-71de-4fcd-946b-459ca3edf7e4
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '744'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ ht-degree: 0%
    >[!NOTE]
    >
    >사용자 정의 필드가 서식을 허용하도록 구성된 경우 업데이트된 목록에서 필드를 인라인 편집할 때 텍스트를 굵게, 기울임꼴 또는 밑줄로 표시할 수 있습니다.
-   >사용자 지정 필드의 서식 구성에 대한 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
+   >사용자 지정 필드의 서식 구성에 대한 자세한 내용은 [사용자 지정 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
    >업데이트된 목록에 대한 자세한 내용은 문서 [목록 시작 [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)의 &quot;업데이트된 목록과 기존 목록의 차이점&quot; 섹션을 참조하십시오.
 
 1. 편집 가능한 다음 셀로 이동하려면 [!UICONTROL Tab]을 누릅니다.

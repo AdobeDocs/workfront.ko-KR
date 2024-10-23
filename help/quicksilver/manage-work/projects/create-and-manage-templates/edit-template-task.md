@@ -7,9 +7,9 @@ description: 템플릿을 만든 후 템플릿 작업에 대한 정보를 편집
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '2409'
+source-wordcount: '2406'
 ht-degree: 4%
 
 ---
@@ -362,7 +362,7 @@ ht-degree: 4%
 
    이 필드에서 사용자 정의 양식을 선택하려면 먼저 사용자 정의 양식을 작성해야 합니다.
 활성 사용자 정의 양식만 목록에 표시됩니다.
-사용자 정의 양식 작성에 대한 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
+사용자 정의 양식 작성에 대한 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 템플릿 작업에 최대 10개의 사용자 정의 양식을 추가할 수 있습니다.
 양식은 템플릿에서 만든 작업에 자동으로 추가됩니다.
 1. (조건부 및 선택 사항) 사용자 정의 양식을 템플릿 작업에 첨부한 경우 양식의 모든 필드를 편집합니다. 템플릿 작업을 저장하려면 모든 필수 필드를 지정해야 합니다.

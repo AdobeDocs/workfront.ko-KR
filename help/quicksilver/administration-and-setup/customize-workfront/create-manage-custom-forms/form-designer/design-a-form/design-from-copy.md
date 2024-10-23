@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 578a8bd5-d93f-4327-bb4f-2c17b91b170a
-source-git-commit: 8d9a9d8356f195d1e1fcbf0ae6c9b08f20ba4bbf
+source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
 
 # 복사본으로 양식 디자인
+
+<!--add preview tags and see below in commet out-->
 
 기존 양식을 기반으로 하는 새 사용자 정의 양식을 디자인할 수 있습니다. 다른 Workfront 개체에 사용자 정의 양식을 첨부하여 해당 개체에 대한 데이터를 캡처할 수 있습니다.
 
@@ -84,7 +86,7 @@ ht-degree: 0%
    마찬가지로 원본 양식의 섹션 구분에 대한 액세스 옵션이 새 양식에 추가하는 오브젝트 유형과 호환되지 않으면 옵션을 조정하라는 메시지가 표시됩니다.
 
 1. 복사한 양식을 선택한 다음 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.
-1. [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) 문서의 다음 섹션에 설명된 대로 양식을 변경합니다.
+1. [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) 문서의 다음 섹션에 설명된 대로 양식을 변경합니다.
 
    * [다른 사용자 정의 양식에서 이미 사용된 기존 필드 또는 위젯 재사용](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)
       * [텍스트 필드 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-text-fields)
@@ -93,5 +95,6 @@ ht-degree: 0%
       * [자동 완성 및 날짜 필드 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-typeahead-and-date-fields)
       * [이미지, PDF 및 비디오 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-images-pdfs-and-videos)
       * [Adobe XD 파일 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-adobe-xd-files)
+        <!--* [Add Planning connection fields](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-planning-connection-fields)-->
 
 1. (선택 사항) **저장+닫기**&#x200B;를 클릭한 후 [개체에 사용자 정의 양식 추가](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)에 설명된 대로 양식을 사용할 개체에 첨부합니다.

@@ -5,9 +5,9 @@ description: 사용자 지정 Forms은 기존 Adobe Workfront 필드에 표시�
 author: Alina
 feature: Work Management
 exl-id: f781fd00-968c-4e5d-b82c-a74acedb2734
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 사용자 지정 Forms은 기존 Adobe Workfront 필드에 표시되지 않는 정보를 수집하는 데 사용됩니다. 
 
-사용자 지정 Forms 만들기에 대한 자세한 내용은 문서 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
+사용자 지정 Forms 만들기에 대한 자세한 내용은 문서 [사용자 지정 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 
 ## 액세스 요구 사항
 

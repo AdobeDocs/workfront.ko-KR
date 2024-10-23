@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 40722f2b-f8b2-4dc5-805e-2b434a0d46c3
-source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 변경하거나 삭제하려는 사용자 정의 필드 또는 위젯을 사용하는 사용자 정의 양식을 확인할 수 있습니다. 이러한 사용자 정의 양식이 제대로 작동하도록 조정해야 하는지 또는 필드 또는 위젯을 변경하거나 삭제한 후 계속 유용하게 사용되도록 조정해야 하는지 여부를 평가하는 것이 중요합니다.
 
-사용자 정의 양식의 사용자 정의 필드 및 위젯에 대한 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
+사용자 정의 양식의 사용자 정의 필드 및 위젯에 대한 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 
 ## 액세스 요구 사항
 

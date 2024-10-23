@@ -7,7 +7,7 @@ description: 작업을 시작할 준비가 되면 Adobe Workfront은 작업 시�
 author: Alina
 feature: Work Management
 exl-id: 158f8370-9717-4c61-99fa-e3b76a9e61cb
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Workfront은 시작 가능 필드에 대해 작업을 True로 표시하기 전�
 
 * 작업에 상위 항목이 있는 경우 True로 설정된 상위 항목에 대해 시작 가능 여부 값입니다. 상위 값이 False이면 모든 하위 작업의 값이 Can Start도 False로 설정됩니다.
 * 과제의 전임자와 부모의 전임자가 모두 완결되었는지 여부. 작업이 완료되면 작업의 시작 가능 값이 True로 설정됩니다. 작업 전임 작업이나 상위 작업의 전임 작업이 완료되지 않았거나 승인 보류 중 상태인 경우 작업에 대한 시작 가능 값이 False로 설정됩니다.
-* 작업 종속성 유형이 시작-시작 또는 시작-완료인지 여부. 종속성 유형이 시작-시작 또는 시작-완료인 경우 부모 작업이 진행 중일 때(또는 부모 작업의 완료율이 1%보다 클 때) 종속 작업의 &quot;시작 가능&quot; 플래그가 True로 설정됩니다. <!--not sure if this should say PARENT or PREDECESSOR??; asking on the issue-->
+* 작업 종속성 유형이 시작-시작 또는 시작-완료인지 여부. 종속성 유형이 시작-시작 또는 시작-완료인 경우 종속 작업은 전임 작업이 진행 중인 후(또는 전임 작업의 완료율이 1%보다 큰 후) &quot;시작 가능&quot; 플래그가 True로 설정됩니다.
 
   작업 전임 작업에 대한 자세한 내용은 [작업 전임 작업 개요](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md)를 참조하십시오.
 

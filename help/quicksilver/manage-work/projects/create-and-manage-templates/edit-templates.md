@@ -6,9 +6,9 @@ description: 프로젝트 프로세스 및 설정의 변경 사항을 반영하�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '4726'
+source-wordcount: '4720'
 ht-degree: 2%
 
 ---
@@ -771,7 +771,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 1. **사용자 정의 양식 추가** 필드 내부를 클릭하고 템플릿과 연결할 사용자 정의 양식을 선택합니다. 이 필드에서 사용자 정의 양식을 선택하려면 먼저 사용자 정의 양식을 작성해야 합니다.
 
-   활성 사용자 정의 양식만 목록에 표시됩니다. 사용자 정의 양식 작성에 대한 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
+   활성 사용자 정의 양식만 목록에 표시됩니다. 사용자 정의 양식 작성에 대한 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 
    템플릿에 최대 10개의 사용자 정의 양식을 추가할 수 있습니다.
 
@@ -927,7 +927,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
    ![](assets/edit-template-box-tax-settings-section.png)
 
 1. **작업 기본 승인 프로세스** 상자에서 이 템플릿으로 만든 프로젝트에 새 작업을 추가할 때 모든 새 작업과 연결할 승인 프로세스를 선택합니다. 작업과 연결하려면 먼저 작업에 대한 승인 프로세스를 만들어야 합니다. 활성 승인 프로세스만 목록에 표시됩니다. 승인 프로세스 만들기에 대한 자세한 내용은 [승인 프로세스 만들기](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)를 참조하십시오.
-1. **작업 기본 사용자 지정 Forms** 상자에서 이 템플릿으로 만든 프로젝트에 새 작업을 추가할 때 모든 새 작업과 연결할 사용자 지정 양식을 선택합니다. 이 필드에서 사용자 정의 양식을 선택하려면 먼저 사용자 정의 양식을 작성해야 합니다. 활성 사용자 정의 양식만 목록에 표시됩니다. 사용자 정의 양식 작성에 대한 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오. 작업에 최대 10개의 사용자 정의 양식을 연결할 수 있습니다.
+1. **작업 기본 사용자 지정 Forms** 상자에서 이 템플릿으로 만든 프로젝트에 새 작업을 추가할 때 모든 새 작업과 연결할 사용자 지정 양식을 선택합니다. 이 필드에서 사용자 정의 양식을 선택하려면 먼저 사용자 정의 양식을 작성해야 합니다. 활성 사용자 정의 양식만 목록에 표시됩니다. 사용자 정의 양식 작성에 대한 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오. 작업에 최대 10개의 사용자 정의 양식을 연결할 수 있습니다.
 1. (선택 사항) 템플릿에서 만든 프로젝트에서 계획된 시간 대신 작업 노력을 사용하여 작업 노력을 관리하려면 **작업 노력 사용을 선택하여 작업 계획된 시간을 자동으로 계산합니다**.
 1. (조건부 및 선택 사항) 작업 노력 사용을 선택하여 작업 계획 시간을 자동으로 계산하는 경우 드롭다운 메뉴를 눌러 각 작업 노력 레벨에 대한 백분율을 갱신합니다. 다음 백분율 값이 기본값입니다.
 

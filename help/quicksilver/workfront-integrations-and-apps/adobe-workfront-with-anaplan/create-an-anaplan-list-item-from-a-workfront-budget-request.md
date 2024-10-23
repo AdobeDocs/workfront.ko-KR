@@ -6,9 +6,9 @@ description: 이 통합 시나리오는  [!DNL Adobe Workfront] 프로젝트(캠
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: e6505ece-21aa-4397-8d68-543bf89d2f00
-source-git-commit: 51b8e474cefe63b4db8c42e480990ca0ba431a4d
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '801'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ ht-degree: 0%
    </tbody> 
   </table>
 
-  사용자 정의 양식을 만드는 방법에 대한 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
+  사용자 정의 양식 만들기에 대한 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 
 * [!UICONTROL 예산 요청] 대기열 주제로 구성된 캠페인 및 자금이 필요한 기타 프로젝트를 나타내는 프로젝트 템플릿입니다. [!UICONTROL 예산 요청] 대기열 주제는 [!UICONTROL 예산 요청] 사용자 정의 양식을 사용하도록 할당되었습니다.
 * 프로젝트 개체에 대한 **[!UICONTROL 캠페인 개요]** 양식입니다.
@@ -141,7 +141,7 @@ ht-degree: 0%
    </tbody> 
   </table>
 
-  사용자 정의 양식을 만드는 방법에 대한 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
+  사용자 정의 양식 만들기에 대한 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 
 ## [!DNL Anaplan] 구성이 필요합니다.
 

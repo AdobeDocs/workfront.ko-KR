@@ -7,9 +7,9 @@ description: 텍스트 모드를 사용해야만 Adobe Workfront 보고서의 �
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 0%
 다중 선택 사용자 지정 필드로 그룹화하려면 다음 사전 요구 사항이 있어야 합니다.
 
 * 다중 선택 사용자 정의 필드를 사용자 정의 양식에서 작성합니다.\
-  사용자 정의 양식을 작성하고 사용자 정의 필드를 추가하는 방법에 대한 자세한 내용은 문서 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
+  사용자 정의 양식을 작성하고 사용자 정의 필드를 추가하는 방법에 대한 자세한 내용은 문서 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 
 * 사용자 정의 양식을 오브젝트에 첨부합니다.
 * 다중 선택 사용자 정의 필드를 각 오브젝트의 값으로 채웁니다. 

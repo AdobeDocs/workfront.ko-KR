@@ -5,9 +5,9 @@ description: 비즈니스 사례를 사용하여 프로젝트를 요청하고 �
 author: Alina
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '828'
 ht-degree: 0%
 
 ---
@@ -106,7 +106,7 @@ ht-degree: 0%
 
    사용자 지정 Forms을 프로젝트에 첨부하려면 먼저 만들어야 합니다.
 
-   사용자 지정 Forms에 대한 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) 문서를 참조하십시오.
+   사용자 지정 Forms에 대한 자세한 내용은 문서 [사용자 지정 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 
 1. **제출**&#x200B;을 클릭합니다.
 

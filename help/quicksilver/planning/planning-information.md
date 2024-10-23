@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
 recommendations: noDisplay, noCatalog
-source-git-commit: 8b087b69a671852d7a71e1bb3fa4491bbac1b770
+source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 0%
@@ -83,7 +83,7 @@ ht-degree: 0%
    * 레코드 페이지의 레이아웃 관리
    * 댓글 및 기록 섹션 기록
    * 레코드 공유
-   * Workfront 개체에 대한 Workfront 계획 섹션
+   * Workfront에서 Workfront Planning 레코드 관리
 
 * [Adobe Workfront 계획 요청: 문서 인덱스](/help/quicksilver/planning/requests/requests-article-index.md)에는 다음 정보가 포함되어 있습니다.
 

@@ -6,9 +6,9 @@ description: 작업 항목을 효율적으로 찾고 관리하는 사용자 또�
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: b255a3140629a488d24d1df980ba81faa1064d16
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '2470'
+source-wordcount: '2467'
 ht-degree: 0%
 
 ---
@@ -187,7 +187,7 @@ ht-degree: 0%
 
       >[!IMPORTANT]
       >
-      >사용자 정의 필드를 참조할 때는 필드 레이블이 아니라 필드 이름을 입력해야 합니다. 필드 레이블은 오브젝트에 첨부된 사용자 정의 양식에 표시됩니다. 사용자 지정 필드의 레이블과 이름 간의 차이에 대한 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
+      >사용자 정의 필드를 참조할 때는 필드 레이블이 아니라 필드 이름을 입력해야 합니다. 필드 레이블은 오브젝트에 첨부된 사용자 정의 양식에 표시됩니다. 레이블과 사용자 지정 필드의 이름 간의 차이에 대한 자세한 내용은 [사용자 지정 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 
    1. (조건부) **필드 찾아보기**&#x200B;를 클릭한 경우 **검색** 필드에 필드 이름을 입력하고 목록에 표시될 때 선택합니다.
 

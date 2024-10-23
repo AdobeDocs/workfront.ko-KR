@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
 workflow-type: tm+mt
-source-wordcount: '2106'
+source-wordcount: '2108'
 ht-degree: 1%
 
 ---
@@ -105,7 +105,7 @@ Workfront Planning은 다음과 같은 질문에 답변할 수 있습니다.
 * 레코드의 변경 내용 보기
 * 단락 필드에 대한 서식 있는 텍스트 서식
 * Workfront 객체에서 Planning 레코드에 액세스
-* Workfront 객체에서 Planning 레코드 연결
+* Workfront 오브젝트에서 Planning 레코드 연결 및 연결 해제
 * 요청 양식을 제출하여 Planning 레코드 생성
 * Workfront Planning 공용 API
 * Adobe Workfront Fusion용 Adobe Workfront Planning 모듈

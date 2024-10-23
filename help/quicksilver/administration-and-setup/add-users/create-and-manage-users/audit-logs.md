@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: '1527'
 ht-degree: 3%
 
 ---
@@ -44,7 +44,7 @@ Adobe Workfront 관리자는 아래에 설명된 감사 로그를 사용하여 �
    <td> <p>작업을 수행한 사용자의 이름입니다.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">개 액션</td> 
+   <td role="rowheader">액션</td> 
    <td> 변경, 만들기 및 삭제와 같이 사용자가 수행한 작업입니다. </td> 
   </tr> 
   <tr> 
@@ -208,7 +208,7 @@ Adobe Workfront 관리자는 아래에 설명된 감사 로그를 사용하여 �
 * 사용자 정의 섹션의 이름 또는 설명을 변경합니다.
 * 사용자 정의 섹션을 삭제합니다.
 
-사용자 지정 양식의 사용자 지정 섹션에 대한 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
+사용자 정의 양식의 사용자 정의 섹션에 대한 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 
 ### 환율 {#exchange-rate}
 

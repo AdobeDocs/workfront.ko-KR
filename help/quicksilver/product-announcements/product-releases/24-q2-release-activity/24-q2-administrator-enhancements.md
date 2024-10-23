@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a297ee8d-d949-45ab-a219-437316fa8fa3
-source-git-commit: a1386652f5181d4aa94ddab8e4f9714ef1c08b73
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 이제 회사 또는 사용자에 사용자 정의 양식을 첨부할 때 외부 조회 필드 및 Workfront 기본 필드와 같은 고급 사용자 정의 양식 기능을 사용할 수 있습니다. 고급 기능은 회사 편집 및 사용자 편집 대화 상자가 아닌 회사 세부 정보 및 사용자 세부 정보 페이지에서 사용할 수 있습니다. 이러한 필드 유형을 사용하려면 새 양식 디자이너에서 사용자 정의 양식을 만들어야 합니다.
 
-사용자 지정 양식 필드에 대한 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
+사용자 정의 양식 필드에 대한 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 
 ## 이제 새로운 패키지 유형에 JumpSeat 통합을 사용할 수 있습니다.
 
@@ -64,7 +64,7 @@ JumpSeat 통합에 대한 자세한 내용은 [JumpSeat 통합 구성](/help/qui
 
 이 기능은 기존 양식 빌더가 아닌 양식 디자이너 Beta에서만 사용할 수 있습니다.
 
-자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
+자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 
 [이 기능에 대한 비디오 데모를 봅니다.](https://video.tv.adobe.com/v/3427702/){target=_blank}
 

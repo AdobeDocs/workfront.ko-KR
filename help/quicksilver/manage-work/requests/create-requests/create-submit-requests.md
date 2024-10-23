@@ -6,9 +6,9 @@ description: 계획된 작업은 Adobe Workfront에서 프로젝트 및 작업�
 author: Lisa
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '2303'
+source-wordcount: '2300'
 ht-degree: 1%
 
 ---
@@ -87,7 +87,7 @@ Workfront 관리자는 요청 대기열의 다음 구성 요소를 만들어야 
   자세한 내용은 문서 [주제 그룹 만들기](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)를 참조하십시오.
 
 * (선택 사항) 사용자 정의 양식을 요청합니다.\
-  자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) 문서를 참조하십시오.
+  자세한 내용은 문서 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 
 * (선택 사항) 승인 프로세스를 요청합니다.\
   자세한 내용은 문서 [작업 항목에 대한 승인 프로세스 만들기](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)를 참조하십시오.

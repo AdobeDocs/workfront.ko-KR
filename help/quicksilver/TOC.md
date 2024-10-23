@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: fc321f099c2c6903d0a1cebdd041115ca8a716ff
+source-git-commit: e3e12718441c030c24a7a0625d3c1d1b63ddf974
 workflow-type: tm+mt
-source-wordcount: '14512'
+source-wordcount: '14518'
 ht-degree: 2%
 
 ---
@@ -614,7 +614,7 @@ ht-degree: 2%
          * [사용자 정의 양식 개요](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
          * 사용자 정의 양식 {#design-a-form} 디자인
             * [양식 디자인: 문서 색인](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form-toc.md)
-            * [양식 디자이너를 사용하여 양식 디자인](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
+            * [사용자 정의 양식 만들기](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
             * [복사본으로 양식 디자인](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-from-copy.md)
             * [양식에 계산된 필드 추가](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
             * [양식에 표시 논리 및 건너뛰기 논리 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)
@@ -1933,6 +1933,7 @@ ht-degree: 2%
             * [증명 뷰어에서 이전 증명 버전 보기](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-previous-version.md)
             * [증명 뷰어에서 대화형 증명 해상도 변경](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md)
             * [증명 뷰어 설정 구성](review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)
+            * [Adobe Workfront 검토 도구를 사용하여 대화형 콘텐츠 검토](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md)
          * 증명 {#comment-on-a-proof}에 주석 달기
             * [증명에 대한 주석: 문서 색인](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)
             * [증명에 주석 달기](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md)

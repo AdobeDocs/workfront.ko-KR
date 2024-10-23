@@ -6,9 +6,9 @@ description: 비용을 생성하고 관리하는 프로세스는 프로젝트 �
 author: Alina
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '577'
 ht-degree: 1%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 1%
    * **청구 가능:** 이 비용을 청구하려면 이 옵션을 선택하십시오. 청구 기록을 생성할 때 경비를 청구 가능으로 분류하는 것이 중요합니다.
    * **정산 가능:** 경비를 정산해야 하는 경우 이 옵션을 선택하십시오. 그런 다음 경비가 상환된 후 경비를 상환된 것으로 표시할 수 있습니다.
 
-1. **사용자 정의 양식**&#x200B;을(를) 선택하고 필요한 추가 정보를 지정하십시오. 사용자 정의 양식을 비용과 연결하려면 먼저 만들어야 합니다. 활성 사용자 정의 양식만 목록에 표시됩니다. 사용자 정의 양식을 만드는 방법에 대한 자세한 내용은 문서 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
+1. **사용자 정의 양식**&#x200B;을(를) 선택하고 필요한 추가 정보를 지정하십시오. 사용자 정의 양식을 비용과 연결하려면 먼저 만들어야 합니다. 활성 사용자 정의 양식만 목록에 표시됩니다. 사용자 정의 양식 만들기에 대한 자세한 내용은 문서 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 
 1. **변경 내용 저장**&#x200B;을 클릭합니다.
 

@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a0617270-e233-4ebe-a5ee-8df7a8a85823
-source-git-commit: 307bfb397555c7f9d424e429785dae36c639756a
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '747'
 ht-degree: 2%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 2%
 
 사용자 정의 양식을 편집하는 동안 사용자 정의 양식을 활성화할 수 있습니다.
 
-사용자 정의 양식 편집에 대한 정보와 연결할 수 있는 개체 목록은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
+사용자 정의 양식 편집에 대한 정보와 연결할 수 있는 개체 목록은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 
 ## 회사
 

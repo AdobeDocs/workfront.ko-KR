@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 왼쪽 하단의 사용자 정의 양식에 카운터가 추가되었습니다. 카운터는 폼에 사용되는 필드 수를 표시하며 폼 디자이너 내에서 스크롤할 때 항상 표시됩니다.
 
-자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
+자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 
 ## 이제 레이아웃 템플릿에서 &quot;모두 선택&quot; 옵션을 사용할 수 있습니다
 

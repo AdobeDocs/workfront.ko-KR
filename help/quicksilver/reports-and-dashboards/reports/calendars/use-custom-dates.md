@@ -6,9 +6,9 @@ description: 달력 보고서는 작업의 시각적 표현을 제공하는 동�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 40cc8628-7641-41ce-b8e5-7f5ed5ad36c7
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '692'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 1%
 
 ## 전제 조건
 
-1. [!DNL Workfront] 인스턴스에서 사용할 수 있는 필드 내에 사용자 지정 날짜 필드와 값이 있어야 합니다. 사용자 지정 날짜가 포함된 사용자 지정 양식이 설정되어 있지 않은 경우 [양식 디자이너를 사용하여 양식을 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)의 지침을 따릅니다.
+1. [!DNL Workfront] 인스턴스에서 사용할 수 있는 필드 내에 사용자 지정 날짜 필드와 값이 있어야 합니다. 사용자 지정 날짜가 포함된 사용자 지정 양식이 설정되어 있지 않은 경우 [사용자 지정 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)의 지침을 따릅니다.
 1. 달력에 추가하려는 프로젝트, 작업 또는 문제에 사용자 정의 양식을 첨부하고 날짜를 지정합니다. 자세한 내용은 [개체에 사용자 정의 양식 추가](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)를 참조하십시오.
 
 ## 항목 그룹 설정

@@ -5,9 +5,9 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7ed37978-b821-488e-9ca1-b81825255be3
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '317'
 ht-degree: 0%
 
 ---
@@ -40,4 +40,4 @@ ht-degree: 0%
 >
 >기존 양식 빌더에서는 새 **외부 조회** 필드 유형을 사용할 수 없습니다.
 
-자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
+자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.

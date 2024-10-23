@@ -6,9 +6,9 @@ description: 한 오브젝트에 첨부된 사용자 정의 양식의 표시 순
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1106'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 ## 전제 조건
 
-* Workfront 관리자 또는 사용자 정의 양식에 대한 관리 액세스 권한이 있는 계획 사용자는 사용자 환경에서 사용자 정의 양식을 만들어야 합니다. 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
+* Workfront 관리자 또는 사용자 정의 양식에 대한 관리 액세스 권한이 있는 계획 사용자는 사용자 환경에서 사용자 정의 양식을 만들어야 합니다. 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 * 오브젝트에 사용자 정의 양식을 첨부해야 합니다.
 
   개체에 사용자 정의 양식을 적용하는 방법에 대한 자세한 내용은 [개체에 사용자 정의 양식 추가](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)를 참조하십시오.

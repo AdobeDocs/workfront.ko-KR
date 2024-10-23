@@ -5,9 +5,9 @@ title: 시간대 간 작업
 description: ' [!DNL Adobe Workfront] 이(가) 시간대를 사용하여 오브젝트와 이메일과 같은 다른 영역의 시간을 계산하는 방법을 이해하는 것이 도움이 될 수 있습니다.'
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1147'
 ht-degree: 0%
 
 ---
@@ -117,4 +117,4 @@ ht-degree: 0%
 
 다른 시간대의 사용자를 위해 개체에서 구성한 시간을 [!DNL Workfront]에서 변환하지 않도록 하려면 날짜 필드 대신 개체에 첨부하는 사용자 지정 양식의 텍스트 필드를 사용할 수 있습니다. 이렇게 하면 프로젝트의 모든 사용자에 대해 입력한 시간이 시간에 표시됩니다.
 
-이 작업을 수행하는 경우 작업의 시작 및 종료 시점을 사용자가 결정할 수 있도록 양식의 사용자에게 표준 시간대와 사용자의 시간대의 차이를 계산하도록 알리는 것이 좋습니다. 사용자 정의 양식에 입력하는 지침이나 해당 필드의 도구 설명에 이를 포함할 수 있습니다. 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
+이 작업을 수행하는 경우 작업의 시작 및 종료 시점을 사용자가 결정할 수 있도록 양식의 사용자에게 표준 시간대와 사용자의 시간대의 차이를 계산하도록 알리는 것이 좋습니다. 사용자 정의 양식에 입력하는 지침이나 해당 필드의 도구 설명에 이를 포함할 수 있습니다. 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.

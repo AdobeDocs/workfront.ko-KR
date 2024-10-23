@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1279'
+source-wordcount: '1270'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 0%
 ## 디스플레이 논리 및 건너뛰기 논리 사용에 대한 고려 사항
 
 * 사용자 지정 필드, 위젯 또는 섹션 구분에 표시 논리를 추가하려면 적어도 하나의 다중 선택 필드(라디오 버튼, 드롭다운 또는 확인란)를 양식에서 그 앞에 배치해야 합니다.
-사용자 정의 양식의 사용자 정의 필드 및 위젯에 대한 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
+사용자 정의 양식의 사용자 정의 필드 및 위젯에 대한 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 * 위젯 또는 섹션 구분에 건너뛰기 논리를 추가할 수 없습니다. 다중 선택 필드(라디오 단추, 드롭다운 또는 확인란)에만 추가할 수 있습니다.
 * 사용자 정의 필드에 대해 다음 내용이 모두 참인 경우 표시 논리와 건너뛰기 논리를 모두 사용자 정의 필드에 추가할 수 있습니다.
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 {{step-1-to-setup}}
 
 1. **사용자 지정 Forms**&#x200B;을 클릭합니다.
-1. 새 사용자 정의 양식을 만들거나 기존 양식을 엽니다. 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
+1. 새 사용자 정의 양식을 만들거나 기존 양식을 엽니다. 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 1. 필요에 따라 양식에 필드를 추가합니다. 하나 이상의 객관식 필드(라디오 버튼, 드롭다운 또는 확인란)를 표시할 대상 필드 앞에 배치해야 합니다.
 1. 대상 필드를 선택하고 화면 왼쪽 하단에서 **논리 추가**&#x200B;를 클릭합니다.
 1. **표시 논리** 탭을 선택합니다.
@@ -128,7 +128,7 @@ ht-degree: 0%
 {{step-1-to-setup}}
 
 1. **사용자 지정 Forms**&#x200B;을 클릭합니다.
-1. 새 사용자 정의 양식을 만들거나 기존 양식을 엽니다. 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
+1. 새 사용자 정의 양식을 만들거나 기존 양식을 엽니다. 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 1. 필요에 따라 양식에 필드를 추가합니다. 건너뛰기 논리를 위한 정의 필드는 다중 선택 필드(라디오 단추, 드롭다운 또는 확인란)여야 합니다.
 1. 정의 필드를 선택하고 화면 왼쪽 하단에서 **논리 추가**&#x200B;를 클릭합니다.
 1. **논리 건너뛰기** 탭을 선택합니다.

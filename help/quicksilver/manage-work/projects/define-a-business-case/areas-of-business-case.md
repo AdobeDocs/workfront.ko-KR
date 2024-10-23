@@ -6,9 +6,9 @@ description: 이 문서에서는 프로젝트의 비즈니스 사례 영역에 �
 author: Alina
 feature: Work Management
 exl-id: 0646e4f0-e8fb-48f2-b533-358229543081
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1606'
+source-wordcount: '1603'
 ht-degree: 2%
 
 ---
@@ -179,7 +179,7 @@ Workfront 관리자는 사용자 정의 위험 유형을 설정할 수 있습니
 
 사용자 정의 양식을 적용하려면 Workfront 관리자가 먼저 사용자 정의 양식을 만들어야 합니다.
 
-사용자 지정 양식을 만드는 방법에 대한 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
+사용자 정의 양식 만들기에 대한 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 
 사용자 정의 양식을 사용하여 비즈니스 사례의 다른 필드에 표시되지 않는 추가 정보를 수집할 수 있습니다.
 

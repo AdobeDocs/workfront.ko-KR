@@ -6,14 +6,16 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 64a8d2ff8546874cf829738dcea03b2946c360cb
+source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
 
 # 연결된 레코드 개요
+
+<!--for the Planning connection field, see commented out below; also add preview tags-->
 
 {{planning-important-intro}}
 
@@ -54,3 +56,6 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
 * 다음 영역에서 Workfront 개체를 Workfront Planning 레코드에 연결할 수 있습니다.
 
    * Workfront 객체의 Planning 섹션에서 다음을 수행합니다.
+  <!--* From a Planning connection field on a Workfront object's custom form. -->
+
+  자세한 내용은 [Workfront 개체에서 레코드 연결 관리](/help/quicksilver/planning/records/manage-records-in-planning-section.md)를 참조하십시오.

@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '2155'
+source-wordcount: '2146'
 ht-degree: 0%
 
 ---
@@ -210,7 +210,7 @@ Excel 스프레드시트를 새 사용자 정의 필드에 대한 정보로 채�
 
    필드의 값은 보고서에 나타나는 이름이지만, 이름은 객체에 첨부된 사용자 정의 양식에 표시됩니다.
 
-   자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
+   자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 
    ![](assets/parameter-sheet-filled-out-kick-starts.png)
 
@@ -231,7 +231,7 @@ Excel 스프레드시트를 새 사용자 정의 필드에 대한 정보로 채�
 
    * **`setParameterID`** = _Brand_ 사용자 지정 필드에 해당하는 옵션에는 **`setParameterID`**&#x200B;이(가) 1이고, _Media_&#x200B;에 해당하는 옵션에는 **`setParameterID`**이(가) 2입니다. `PARAM` 및 `POPT` 시트는 서로 상호 참조하여 사용자 지정 필드에 속하는 옵션을 나타냅니다.
    * **`setDisplayOrder`**= 표시 순서 열은 옵션이 사용자 지정 필드에 표시되는 순서를 나타냅니다. 1로 시작하여 해당 옵션이 속할 필드에 관계없이 모든 옵션에 대해 오름차순으로 계속할 수 있습니다. 여기서 중요한 것은 각 옵션에 대해 고유한 번호를 갖는 것입니다.
-   * **`setLabel`** 및 `**setValue`** 열에는 일반적으로 동일한 정보가 포함되며 Workfront UI에서 원하는 이름을 반영해야 합니다. 옵션의 값은 보고서에 표시되는 이름인 반면 레이블은 오브젝트에 첨부할 때 사용자 정의 양식에 표시됩니다. 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
+   * **`setLabel`** 및 `**setValue`** 열에는 일반적으로 동일한 정보가 포함되며 Workfront UI에서 원하는 이름을 반영해야 합니다. 옵션의 값은 보고서에 표시되는 이름인 반면 레이블은 오브젝트에 첨부할 때 사용자 정의 양식에 표시됩니다. 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
    * **`setIsHidden`** = 옵션을 숨기려면 `TRUE`을(를) 입력합니다.
 
    ![](assets/parameter-option-sheet-filled-out-kick-starts.png)
@@ -296,7 +296,7 @@ Excel 스프레드시트를 새 사용자 정의 필드에 대한 정보로 채�
    >가져온 새 양식과 필드가 아직 연결되지 않았습니다. 사용자 정의 필드 없이 양식을 가져옵니다. 필드를 새 사용자 정의 양식 또는 다른 기존 사용자 정의 양식에 수동으로 추가해야 합니다.
 
 
-   사용자 정의 양식에 필드를 추가하는 방법에 대한 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
+   사용자 정의 양식에 필드를 추가하는 방법에 대한 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 
 1. (조건부) 가져오기에 성공하지 못하면 문제가 무엇인지에 대한 오류 메시지가 표시됩니다. 문제가 발생한 필드, 시트 및 행 번호를 식별하고 Excel 파일의 정보를 수정한 다음 파일을 다시 가져오십시오.
 

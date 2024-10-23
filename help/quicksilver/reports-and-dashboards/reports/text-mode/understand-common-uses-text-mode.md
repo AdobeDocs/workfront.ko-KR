@@ -6,9 +6,9 @@ description: 텍스트 모드의 일반적인 사용 개요
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 81512837-1ec4-4dbc-ace4-bdf08fe667ce
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Workfront에서 다음을 달성하고자 할 때 텍스트 모드를 사용할 
 
 텍스트 모드를 사용하여 계산된 사용자 정의 필드를 사용자 정의 양식에 추가할 수 있습니다.
 
-사용자 지정 양식에 계산된 사용자 지정 필드를 추가하는 방법에 대한 자세한 내용은 [양식 디자이너를 사용하여 양식 디자인](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)을 참조하십시오.
+사용자 정의 양식에 계산된 사용자 정의 필드를 추가하는 방법에 대한 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
 
 텍스트 모드에서 계산된 사용자 지정 필드를 만드는 방법에 대한 자세한 내용은 [양식에 계산된 필드 추가](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)를 참조하십시오.
 
