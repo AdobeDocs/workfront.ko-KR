@@ -6,16 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: e82cf1b586ea3b08f419802bd1e88c6567b61b95
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
 
 # 연결된 레코드 개요
 
-<!--for the Planning connection field, see commented out below; also add preview tags-->
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>을 참조하세요.
 
 {{planning-important-intro}}
 
@@ -56,6 +58,6 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
 * 다음 영역에서 Workfront 개체를 Workfront Planning 레코드에 연결할 수 있습니다.
 
    * Workfront 객체의 Planning 섹션에서 다음을 수행합니다.
-  <!--* From a Planning connection field on a Workfront object's custom form. -->
+   * <span class="preview">Workfront 개체의 사용자 정의 양식에 있는 Planning 연결 필드에서 가져왔습니다. </span>
 
   자세한 내용은 [Workfront 개체에서 레코드 연결 관리](/help/quicksilver/planning/records/manage-records-in-planning-section.md)를 참조하십시오.

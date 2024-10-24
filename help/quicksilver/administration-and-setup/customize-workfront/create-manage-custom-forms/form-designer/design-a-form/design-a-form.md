@@ -8,14 +8,18 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: e82cf1b586ea3b08f419802bd1e88c6567b61b95
 workflow-type: tm+mt
-source-wordcount: '5537'
+source-wordcount: '6294'
 ht-degree: 5%
 
 ---
 
 # 사용자 정의 양식 만들기
+
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>을 참조하세요.
 
 Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양식을 디자인할 수 있습니다. 다른 Workfront 개체에 사용자 정의 양식을 첨부하여 해당 개체에 대한 데이터를 캡처할 수 있습니다.
 
@@ -85,7 +89,7 @@ Adobe Workfront에서 양식 디자이너를 사용하여 사용자 정의 양�
    * [이미지, PDF 및 비디오 추가](#add-images-pdfs-and-videos)
    * [Workfront 기본 필드 추가](#add-workfront-native-fields)
    * [Adobe XD 파일 추가](#add-adobe-xd-files)
-     <!--* [Add Planning connection fields](#add-planning-connection-fields)-->
+   * <span class="preview">[Planning 연결 필드 추가](#add-planning-connection-fields)</span>
 
 ## 사용자 정의 양식에 새 필드 또는 기존 필드 추가
 
@@ -903,102 +907,102 @@ Adobe XD 파일을 추가하려면:
 
    **저장 후 닫기**&#x200B;를 클릭합니다.
 
-<!--
-### Add Planning connection fields
+<div class="preview">
+
+### Planning 연결 필드 추가
 
 >[!IMPORTANT]
 >
->The information in this section refers to Adobe Workfront Planning, an additional capability from Adobe Workfront. 
+>이 섹션의 정보는 Adobe Workfront의 추가 기능인 Adobe Workfront Planning에 나와 있습니다.
 >
->You must have the following to access Workfront Planning:
+>Workfront Planning에 액세스하려면 다음 항목이 있어야 합니다.
 >
->* A new Workfront plan and license. Workfront Planning is not available for legacy Workfront plans or licenses. 
->* An additional license for Workfront Planning. 
->* Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience.
+>* 새로운 Workfront 플랜 및 라이선스. 기존 Workfront 계획 또는 라이선스에는 Workfront Planning을 사용할 수 없습니다.
+>* Workfront Planning에 대한 추가 라이선스.
+>* 조직의 Workfront 인스턴스는 통합 경험 Adobe에 온보딩되어야 합니다.
 >
-> For a complete list of requirements to access Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
+> Workfront Planning에 액세스하기 위한 전체 요구 사항 목록은 [Adobe Workfront Planning 액세스 개요](/help/quicksilver/planning/access/access-overview.md)를 참조하십시오.
 > 
->For more information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
+>Workfront Planning에 대한 자세한 내용은 [Adobe Workfront Planning 개요](/help/quicksilver/planning/general/planning-overview.md)를 참조하십시오.
 
-You can view records connected from Workfront Planning in a custom field on a Workfront object by adding a  Planning connection custom field to an object's custom form. 
+Planning 연결 사용자 정의 필드를 객체의 사용자 정의 양식에 추가하여 Workfront Planning에서 연결된 레코드를 Workfront 객체의 사용자 정의 필드에서 볼 수 있습니다.
 
-You can add the Planning connection field to all objects' custom forms. However, you can display connected records only on the custom forms associated with Workfront objects that can be connected from Workfront Planning. 
+모든 개체의 사용자 정의 양식에 Planning 연결 필드를 추가할 수 있습니다. 하지만 Workfront Planning에서 연결할 수 있는 Workfront 객체와 연결된 사용자 정의 양식에만 연결된 레코드를 표시할 수 있습니다.
 
 >[!NOTE]
 >
->Users viewing information in the custom field must have access to Workfront Planning and to the workspaces that contain the record types connected to Workfront objects.
+>사용자 정의 필드에서 정보를 보는 사용자는 Workfront Planning 및 Workfront 객체에 연결된 레코드 유형이 포함된 작업 공간에 액세스할 수 있어야 합니다.
 
+Planning 연결 필드를 추가하려면
 
-To add a Planning connection field:
-
-1. On the left side of the screen, find **Planning connection** and drag it to a section on the canvas. 
-1. On the right side of the screen, configure the options for the custom field:
+1. 화면 왼쪽에서 **Planning 연결**&#x200B;을 찾아 캔버스의 섹션으로 끕니다.
+1. 화면 오른쪽에서 사용자 정의 필드에 대한 옵션을 구성합니다.
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Label</td> 
-      <td> <p>(Required) Type a descriptive label to display above the field. You can change the label at any time.</p> <p><b>IMPORTANT</b>:</p> <p>Avoid using special characters in this label.</p> 
-      <p>We recommend that you choose a label by which you can easily identify where the Planning record is coming from. Add information like the name of the workspace or the name of the record type. </p>   </td> 
+      <td role="rowheader">레이블</td> 
+      <td> <p>(필수) 필드 위에 표시할 설명 레이블을 입력합니다. 언제든지 레이블을 변경할 수 있습니다.</p> <p><b>중요</b>:</p> <p>이 레이블에는 특수 문자를 사용하지 마십시오.</p> 
+      <p>계획 레코드의 출처를 쉽게 식별할 수 있는 레이블을 선택하는 것이 좋습니다. 작업 공간 이름 또는 레코드 유형 이름과 같은 정보를 추가합니다. </p>   </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Name</td>
-      <td> <p>(Required) The name is how the system identifies the field. When you are configuring the field for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p></td> 
+      <td role="rowheader">이름</td>
+      <td> <p>(필수) 이름은 시스템이 필드를 식별하는 방법입니다. 필드를 처음 구성할 때 레이블을 입력하면 이름 필드가 자동으로 채워집니다. 그러나 레이블 및 이름 필드는 동기화되지 않으므로 시스템에서 볼 수 있는 이름을 변경하지 않고도 사용자가 볼 수 있는 레이블을 자유롭게 변경할 수 있습니다.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Instructions</td> 
-      <td> <p>(Recommended) Type any additional information about the field. When users fill out the custom form, they can hover over the question mark icon to view a tool tip containing the information you type here.</p>
-      <p>Here, you can add explicit information about the record and the objects you are connecting. </p>
+      <td role="rowheader">지침</td> 
+      <td> <p>(권장) 필드에 대한 추가 정보를 입력합니다. 사용자가 사용자 정의 양식을 작성할 때 물음표 아이콘 위로 마우스를 가져가 여기에 입력하는 정보가 포함된 도구 설명을 볼 수 있습니다.</p>
+      <p>여기서 연결하는 레코드 및 개체에 대한 명시적 정보를 추가할 수 있습니다. </p>
       </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Object type</td> 
-      <td><p>(Required) Select a Workfront object type that is connected to a record type in Workfront Planning.</p>
-      You may select from the following object types:
-      <ul><li> Project</li>
-      <li> Portfolio</li><li> Program</li><li> Company</li><li> Group</li></ul>
-       <p>Only Workfront object types for the form's object types are available.</p> <p> For example, if the Object Types list at the top of the form designer shows Project, you can only select Project in this field, and you cannot select Portfolios, although portfolios can also be connected to record types.</p>
+      <td role="rowheader">오브젝트 유형</td> 
+      <td><p>(필수) Workfront Planning의 레코드 유형에 연결된 Workfront 객체 유형을 선택합니다.</p>
+      다음 객체 유형 중에서 선택할 수 있습니다.
+      <ul><li> 프로젝트</li>
+      <li> Portfolio</li><li> 프로그램</li><li> 회사</li><li> 그룹</li></ul>
+       <p>양식의 오브젝트 유형에 대한 Workfront 오브젝트 유형만 사용할 수 있습니다.</p> <p> 예를 들어, 양식 디자이너 상단의 개체 유형 목록에 프로젝트가 표시되면 이 필드에서는 프로젝트만 선택할 수 있고 Portfolio은 선택할 수 없지만 레코드 유형에는 포트폴리오를 연결할 수 있습니다.</p>
       </td>
      </tr>
      <tr> 
-      <td role="rowheader">Workspace</td> 
-      <td> <p>(Required) Select the workspace where the records you want to display in Workfront come from in Workfront Planning.</p> <p> Only workspaces that are connected to the object types you selected in the I=Object type field display. </td> 
+      <td role="rowheader">작업 영역</td> 
+      <td> <p>(필수) Workfront에 표시할 레코드의 출처가 되는 Planning 작업 영역을 선택합니다.</p> <p> 객체 유형 필드에서 선택한 객체 유형에 연결된 작업공간만 표시됩니다. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Record Type</td> 
-      <td><p>(Required) Select the Workfornt Planning record type whose records are connected to the Workfront object associated with this form.</p><p>Only record types that have connections to the object type you selected in the Object type field display. </p></td> 
+      <td role="rowheader">레코드 유형</td> 
+      <td><p>(필수) Workfront 개체 유형과 연결된 Workfront Planning 레코드 유형을 선택합니다.</p><p>객체 유형 필드에서 선택한 객체 유형에 대한 연결이 있는 레코드 유형만 표시됩니다. </p></td> 
      </tr>
      <tr> 
-      <td role="rowheader">Connection field</td> 
-      <td><p>(Required) Select the Workfront Planning connection field that displays the Workfront objects that are associated with this form.</p> <p> <b>NOTE</b></p><p>You can have multiple connection fields between the same object and record types.</p>  </td> 
+      <td role="rowheader">연결 필드</td> 
+      <td><p>(필수) Workfront 객체에 표시할 선택한 Planning 레코드 유형과 Workfront 객체 유형 간의 연결 필드를 선택합니다. </p> <p> <b>참고</b></p><p>동일한 객체와 레코드 유형 간에 여러 연결 필드가 있을 수 있지만 하나의 필드만 선택할 수 있습니다.</p>  </td> 
      </tr>
     </tbody> 
    </table>
 
-1. (Optional) Repeat the previous steps to add any other fields. 
+1. (선택 사항) 다른 필드를 추가하려면 이전 단계를 반복하십시오.
 
-    or
+   또는
 
-    To copy a field, hover over a field, and click the copy icon.
+   필드를 복사하려면 필드 위로 마우스를 가져간 다음 복사 아이콘을 클릭합니다.
 
-    ![copy icon](assets/copy-field.png)
+   ![복사 아이콘](assets/copy-field.png)
 
-1. To save your changes, click **Apply** and move on to another section to continue building your form.
+1. 변경 내용을 저장하려면 **적용**&#x200B;을 클릭하고 다른 섹션으로 이동하여 양식을 계속 작성하십시오.
 
-    or
+   또는
 
-    Click **Save and Close**.
+   **저장 후 닫기**&#x200B;를 클릭합니다.
 
-    You can now attach the form to an object connected from Workfront Planning and do one of the following:
+   이제 Workfront Planning에서 연결된 오브젝트에 양식을 첨부하고 다음 중 하나를 수행할 수 있습니다.
 
-    * View Workfront Planning record types connected to the Workfront object
-    * Connect or disconnect records from the Workfront object associated with the form. 
+   * Workfront 개체에 연결된 Workfront Planning 레코드 유형(있는 경우)을 봅니다.
+   * Workfront 개체에서 레코드를 연결하거나 연결을 끊습니다.
 
-    For more information, see [Manage record connections from Workfront objects](/help/quicksilver/planning/records/manage-records-in-planning-section.md)
+   자세한 내용은 [Workfront 개체에서 레코드 연결 관리](/help/quicksilver/planning/records/manage-records-in-planning-section.md)를 참조하십시오.
 
--->
+</div>
 
 ## 양식 디자이너를 사용하여 양식 구성 및 미리 보기
 
