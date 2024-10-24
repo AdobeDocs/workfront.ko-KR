@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 2b2c15f53602fd250ef490fd06a032fa80ccdcd7
+source-git-commit: df5f37e741f5bd771f91383f9b782ffab8e6160f
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -53,4 +53,6 @@ Workfront 개체를 Workfront Planning 레코드에 계속 브리징하기 위�
 Workfront 객체에 대한 Planning 연결 필드를 일괄적으로 편집할 수는 없습니다.
 
 자세한 내용은 [사용자 정의 양식 만들기](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)를 참조하십시오.
+
+[이 기능의 비디오 데모 보기](https://video.tv.adobe.com/v/3435633/){target=_blank}
 
