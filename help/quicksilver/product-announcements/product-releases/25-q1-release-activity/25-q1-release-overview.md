@@ -4,7 +4,7 @@ description: 이 페이지에서는 2025년 1분기 릴리스에 포함된 기�
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8dba597ac5f91a88ff71f57b13b563c398ef4c9b
+source-git-commit: e2db8c095acca049be72ad26ec090867f9590c04
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 >|----|----|
 >| <ul><li>24.11 (2024년 11월 14일)</li><li>24.12 (2024년 12월 12일)</li><li>25.1 (2025년 1월 15일)</li></ul> | <ul><li>25.1 (2025년 1월 16일)</li></ul> |
 >
->각 분기의 최종 릴리스(이번 분기 24.10)의 경우 빠른 릴리스 일정을 사용하는 사용자는 하루 일찍 릴리스를 받게 됩니다.
+>각 분기의 최종 릴리스(이번 분기 25.1)의 경우 빠른 릴리스 일정을 사용하는 사용자는 하루 일찍 릴리스를 받게 됩니다.
 >
 >빠른 릴리스 프로세스에 대한 자세한 내용은 [빠른 릴리스 프로세스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하십시오.
 
