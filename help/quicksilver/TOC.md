@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: e3e12718441c030c24a7a0625d3c1d1b63ddf974
+source-git-commit: 2b1a066bb769b46d50c45f087ccd668266b4639c
 workflow-type: tm+mt
-source-wordcount: '14518'
+source-wordcount: '14549'
 ht-degree: 2%
 
 ---
@@ -19,6 +19,9 @@ ht-degree: 2%
       * [제품 릴리스 개요](product-announcements/product-releases/product-releases.md)
       * [Adobe Workfront 릴리스 일정 및 프로세스](product-announcements/product-releases/workfront-release-schedule.md)
       * [Adobe Workfront 분기 릴리스 준비](product-announcements/product-releases/release-readiness.md)
+      * 2025년 1분기 릴리스 {#release-25-q1}
+         * [2025년 1분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
+         * [2025년 1분기 릴리스 기간 동안의 룩앤필 업데이트](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md)
       * 2024년 4분기 릴리스 {#release-24-q4}
          * [2024년 4분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
          * [2024년 4분기 관리자 개선 사항](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md)
@@ -175,6 +178,7 @@ ht-degree: 2%
          * [21.1 기타 개선 사항](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Fusion 릴리스 활동 {#fusion-release}
          * [Adobe Workfront Fusion 릴리스 활동](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+         * [Workfront Fusion 릴리스 활동: 2024년 10월 21일이 있는 주](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-10-21.md)
          * [Workfront Fusion 릴리스 활동: 2024년 10월 7일이 있는 주](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-10-7.md)
          * [Workfront Fusion 릴리스 활동: 2024년 9월 30일 주](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-9-30.md)
          * [Workfront Fusion 릴리스 활동: 2024년 9월 9일 주](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-9-9.md)
@@ -259,6 +263,7 @@ ht-degree: 2%
          * [Workfront Fusion 릴리스 활동: 2020년 9월 21일의 주](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-sept-21.md)
       * Adobe Workfront Planning 릴리스 활동{#planning-release-activity}
          * [Adobe Workfront Planning 릴리스 활동](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+         * [Adobe Workfront Planning의 2025년 1분기 릴리스 활동](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
          * [Adobe Workfront Planning의 2024년 4분기 릴리스 활동](product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
       * Adobe Workfront Scenario Planner 릴리스 활동 {#scenario-planner-release}
          * [Adobe Workfront Scenario Planner 릴리스 활동](product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md)
