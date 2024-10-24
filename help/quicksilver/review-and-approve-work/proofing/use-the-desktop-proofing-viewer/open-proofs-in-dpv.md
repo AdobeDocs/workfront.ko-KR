@@ -6,7 +6,7 @@ description: 아래 설명된 대로 증명을 열 수 없는 경우 Adobe Workf
 author: Courtney
 feature: Digital Content and Documents
 exl-id: bff8bf09-fca7-41cb-b6bc-813f08d3e18f
-source-git-commit: 21d4fb3bd2a6c08b390338d28e357a80f4befeae
+source-git-commit: 4311e93964c7161b7de5d5aa680e3a822c67012a
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 5%
@@ -67,7 +67,3 @@ Desktop Proofing Viewer에서 대화형 콘텐츠를 정기적으로 검토하�
    >Desktop Proofing Viewer는 로그인이 필요한 웹 사이트를 지원하지 않습니다.
 
 1. 표시되는 화면에서 **증명 열기**&#x200B;를 클릭합니다. 
-
- 
-
- 
