@@ -3,9 +3,9 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 2b1a066bb769b46d50c45f087ccd668266b4639c
+source-git-commit: d3151a23f18ec91420f7f9b53f84386d8adc2bb1
 workflow-type: tm+mt
-source-wordcount: '14549'
+source-wordcount: '14559'
 ht-degree: 2%
 
 ---
@@ -423,6 +423,7 @@ ht-degree: 2%
    * 공지 {#announcements}
       * [공지](product-announcements/announcements/announcements.md)
       * [기능 예약이 더 이상 지원되지 않음](product-announcements/announcements/feature-removal-timeline.md)
+      * [향상된 Analytics 사용 중단 안내서](product-announcements/announcements/enhanced-analytics-deprecation.md)
       * [기존 홈 사용 중단 안내서](product-announcements/announcements/legacy-home-deprecation.md)
       * [유지 관리 기간 FAQ](product-announcements/announcements/maintenance-window-faq.md)
       * [허용 목록에 추가하다에 증명을 추가하는 데 필요한 변경 사항](product-announcements/announcements/proofhq-domain-change-workfront.md)
@@ -929,6 +930,7 @@ ht-degree: 2%
       * [업데이트 섹션 개요](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
       * [작업 업데이트](workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
       * [필드의 문자 제한](workfront-basics/updating-work-items-and-viewing-updates/character-limits-in-fields.md)
+      * [개인 작업 만들기](workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md)
       * [업데이트에 대한 회신](workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md)
       * [이메일 알림에 회신](workfront-basics/updating-work-items-and-viewing-updates/reply-to-email-notifications.md)
       * [업데이트에 다른 사용자 태그 지정](workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
@@ -1619,6 +1621,7 @@ ht-degree: 2%
          * [사용자 정의 보기, 필터링 및 그룹화 샘플: 문서 인덱스](reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
          * [보고서 또는 목록: 객체와 연관된 사용자를 표시합니다.](reports-and-dashboards/reports/custom-view-filter-grouping-samples/display-object-users-in-report.md)
          * [필터: 불완전한 프로젝트 간 전임 작업 표시](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-predecessors.md)
+         * [필터: 개인 작업](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md)
          * [필터: 불완전한 프로젝트 간 후임 작업 표시](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-successors.md)
          * [필터: 승인 보류 중인 현재 프로젝트 표시](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-current-projects-pending-approval.md)
          * [필터: 승인 상태의 항목만 표시](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-for-items-in-approval-status.md)
