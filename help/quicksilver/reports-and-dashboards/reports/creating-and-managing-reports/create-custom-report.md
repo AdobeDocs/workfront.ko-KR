@@ -6,7 +6,7 @@ description: 보고서를 만들어 Adobe Workfront에서 조직에 필요한 �
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
 workflow-type: tm+mt
 source-wordcount: '1828'
 ht-degree: 1%
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # 사용자 지정 보고서 만들기
 
-<!--Audited: 12/2023-->
+<!--Audited: 10/2024-->
 
 보고서를 만들어 Adobe Workfront에서 조직에 필요한 정보에 대한 액세스 권한을 제공할 수 있습니다. Workfront에서 사용할 수 있는 모든 기본 제공 보고서를 사용하거나 사용자 지정 보고서를 처음부터 빌드할 수 있습니다.
 
@@ -126,7 +126,7 @@ ht-degree: 1%
 
    또는
 
-   기존 열을 변경하려면 열을 클릭하고 Report Builder의 왼쪽 위 모서리에 있는 **이 열 필드에 표시** 상자에서 현재 필드 왼쪽의 **제거** 아이콘 ![](assets/x-icon-circled.png)을(를) 클릭한 다음 새 필드를 입력한 다음 목록에 표시될 때 클릭합니다.
+   기존 열을 변경하려면 열을 클릭하고 Report Builder의 왼쪽 위 모서리에 있는 **이 열 필드에 표시** 영역에서 현재 필드 오른쪽에 있는 **제거** 아이콘 ![](assets/remove-column-icon.png)을(를) 클릭한 다음 새 필드를 입력한 다음 목록에 표시될 때 클릭합니다.
 
    열에 표시되는 필드에 대한 자세한 내용은 [Adobe Workfront 용어](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)를 참조하십시오.
 

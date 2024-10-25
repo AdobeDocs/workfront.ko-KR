@@ -6,9 +6,9 @@ description: Adobe Workfront의 [!UICONTROL Home] 영역 내에서 작업 항목
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: 3786f62c16c7d295de3b19fd6b7ea5ec21fc8ce6
+source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '678'
 ht-degree: 4%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 4%
 
 [!UICONTROL 작업] 목록에 있는 모든 작업 항목에 대한 업데이트를 제공할 수 있습니다.
 
-1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을(를) 클릭합니다.
+1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![](assets/main-menu-icon.png)을(를) 클릭하거나 왼쪽 상단의 **주 메뉴** ![](assets/lines-main-menu.png)을(를) 클릭합니다(가능한 경우). **[!UICONTROL 홈]**&#x200B;을 클릭합니다.
 1. (조건부) 다음 위젯을 추가하려면 **사용자 지정**&#x200B;을 클릭합니다.
 
    | 위젯 | 설명 |
@@ -102,7 +102,7 @@ ht-degree: 4%
 
 편집할 수 있는 액세스 권한이 있는 작업 항목의 모든 필드를 편집할 수 있습니다.
 
-1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을(를) 클릭합니다.
+1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![](assets/main-menu-icon.png)을(를) 클릭하거나 왼쪽 상단의 **주 메뉴** ![](assets/lines-main-menu.png)을(를) 클릭합니다(가능한 경우). **[!UICONTROL 홈]**&#x200B;을 클릭합니다.
 1. (조건부) 다음 위젯을 추가하려면 **사용자 지정**&#x200B;을 클릭합니다.
 
    | 위젯 | 설명 |

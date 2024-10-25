@@ -6,9 +6,9 @@ description: 완료 버튼을 사용하면 작업 또는 문제의 상태를 자
 author: Lisa
 feature: People Teams and Groups
 exl-id: 2e72854a-2d49-4665-b307-b88f660b141e
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1183'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 1%
 # 문제에 대한 [!UICONTROL 완료] 단추 구성
 
 [!UICONTROL 완료] 단추를 사용하면 작업 또는 문제의 상태를 자동으로 설정할 수 있습니다. 기본적으로 [!DNL Adobe Workfront]은(는) 피할당자가 작업 항목에서 [!UICONTROL 완료]를 클릭할 때 문제를 [!UICONTROL 해결됨](으)로 표시합니다.
+
+>[!NOTE]
+>
+>완료 버튼은 Workfront의 모든 영역에서 완료로 표시로 표시됩니다.
 
 ## 개요
 
