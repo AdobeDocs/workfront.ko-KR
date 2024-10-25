@@ -7,24 +7,41 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '959'
 ht-degree: 1%
 
 ---
 
 # 프로젝트에서 작업 만들기
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 10/2024 -->
 
-프로젝트를 만든 후에만 프로젝트에서 작업을 만들 수 있습니다.
+Adobe Workfront에서 다음과 같은 방법으로 작업을 만들 수 있습니다.
 
-예를 들어 프로젝트를 만든 후 작업을 추가하고 수정하여 프로젝트 계획을 구성할 수 있습니다. 프로젝트 만들기에 대한 자세한 내용은 [프로젝트 만들기](../../../manage-work/projects/create-projects/create-project.md)를 참조하십시오.
+* 프로젝트를 만든 후 처음부터 프로젝트에서 작업을 만듭니다.
 
-<!--Not possible anymore, after new Home: For information about creating personal tasks that are not in a project, see the [Create a personal task](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-personal-task) section in the article [Create work items and projects from the Home area](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).-->
+  프로젝트를 만든 후 작업을 추가하고 수정하여 프로젝트 계획을 구성할 수 있습니다. 프로젝트 만들기에 대한 자세한 내용은 [프로젝트 만들기](../../../manage-work/projects/create-projects/create-project.md)를 참조하십시오.
 
-이 문서에서는 처음부터 작업을 만드는 방법에 대해 설명합니다. 다음과 같은 방법으로 작업을 생성할 수도 있습니다.
+* 프로젝트에 템플릿을 추가하여 작업을 만듭니다.
+
+  자세한 내용은 [프로젝트에 템플릿 첨부](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-template-to-project.md)를 참조하십시오.
+
+* 개인 작업을 생성하여 프로젝트로 이동합니다.
+
+  다음 중 하나를 수행하여 개인 태스크를 생성할 수 있습니다.
+
+   * 임시 작업 요청을 만들고 사용자에게 보냅니다.
+   * 홈 영역에 할 일 항목 만들기
+
+  프로젝트에 없는 개인 작업을 만드는 방법에 대한 자세한 내용은 [개인 작업 만들기](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md)를 참조하십시오.
+
+  개인 작업을 프로젝트로 이동할 수 있으며 작업 작업이 됩니다.
+
+이 문서에서는 처음부터 작업을 만드는 방법과 개인 작업을 프로젝트로 이동하는 방법에 대해 설명합니다.
+
+다음과 같은 방법으로 작업을 생성할 수도 있습니다.
 
 * 기존 작업을 복사하거나 복제합니다. 자세한 내용은 [작업 복사 및 복제](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)를 참조하십시오.
 * 한 프로젝트에서 다른 프로젝트로 작업 이동 자세한 내용은 [작업 이동](../../../manage-work/tasks/manage-tasks/move-tasks.md)을 참조하세요.
@@ -152,3 +169,21 @@ ht-degree: 1%
          * 언제든지 **실행 취소**&#x200B;를 클릭하여 마지막 변경 내용을 취소하거나 **취소**&#x200B;를 클릭하여 작업 목록에 적용한 모든 변경 내용을 취소합니다.
          * 이전에 **실행 취소**&#x200B;를 클릭한 경우 **다시 실행**&#x200B;을 클릭하여 마지막으로 취소한 변경 내용을 다시 적용합니다.
          * 작업 목록에 변경 사항을 저장하려면 **저장**&#x200B;을 클릭하세요.
+
+## 개인 작업을 프로젝트로 이동하여 작업 만들기
+
+1. (조건부) 사용자 또는 다른 사용자가 개인 작업을 생성했는지 확인합니다.
+
+   자세한 내용은 [개인 작업 만들기](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md)를 참조하세요.
+1. 개인 작업 필터를 만들어 작업 보고서 또는 목록에 적용합니다.
+
+   자세한 내용은 [필터: 개인 작업](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md)을 참조하세요.
+
+   ![](assets/personal-tasks-report.png)
+1. 개인 작업 보고서에서 작업 이름을 눌러 엽니다.
+
+   Workfront은 개인 작업을 항상 &quot;&lt; 사용자의 전체 이름 > 의 작업&quot; 패턴에 따라 이름이 지정되는 목록에 없는 개인 프로젝트에 저장합니다. 예를 들어 개인 프로젝트의 이름을 &quot;Rick&#39;s Tasks&quot;로 지정할 수 있습니다.
+
+1. 작업 페이지에서 **추가 메뉴** ![](assets/more-icon.png)를 클릭한 다음 **이동**&#x200B;을 클릭합니다. 작업 이동에 대한 자세한 내용은 [작업 이동](/help/quicksilver/manage-work/tasks/manage-tasks/move-tasks.md)을 참조하십시오.
+
+   작업 이동이 완료되면 선택한 프로젝트에 작업이 표시됩니다. 프로젝트 타임라인은 새 작업의 타임라인에 의해 영향을 받을 수 있습니다.

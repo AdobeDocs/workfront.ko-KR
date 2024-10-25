@@ -7,10 +7,10 @@ description: 이 작업 필터는 불완전한 프로젝트 간 전임 작업을
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 7ee2432c-1d82-454e-a73a-f1f6b6a5c10d
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 1%
+source-wordcount: '247'
+ht-degree: 0%
 
 ---
 
@@ -54,11 +54,11 @@ ht-degree: 1%
 
 이 필터를 적용하려면:
 
-1. 작업 목록으로 이동합니다.
+1. 작업 목록 또는 작업 보고서로 이동합니다.
 1. **필터** 드롭다운 메뉴에서 **새 필터**&#x200B;을(를) 선택합니다.
 
-1. **텍스트 모드로 전환**&#x200B;을 클릭합니다.
-1. **보고서에 대한 필터 규칙 설정** 영역에 다음 코드를 붙여넣습니다.
+1. (조건부) 목록에서 필터에 액세스한 경우 **텍스트 모드**&#x200B;를 클릭하고, 보고서에서 필터에 액세스한 경우 **텍스트 모드로 전환**&#x200B;을 클릭합니다.
+1. 새 영역에 다음 코드를 붙여넣습니다.
    <pre>predecessorsMM:projectID=FIELD:projectID<br>predecessorsMM:projectID_Mod=ne<br>percentComplete=100<br>percentComplete_Mod=ne</pre>
 
-1. **필터 저장**&#x200B;을 클릭합니다.
+1. (조건부) 보고서에서 필터에 액세스한 경우 **필터 저장**&#x200B;을 클릭하고 작업 목록에서 필터에 액세스한 경우 **적용**&#x200B;을 클릭한 다음 **새 필터로 저장**&#x200B;을 클릭합니다.

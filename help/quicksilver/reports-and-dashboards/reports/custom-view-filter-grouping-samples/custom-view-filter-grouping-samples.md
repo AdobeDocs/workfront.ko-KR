@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: beac1ea6-a983-4d12-8972-91150914f731
-source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
+source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
@@ -95,6 +95,7 @@ ht-degree: 0%
 
 * [필터: 불완전한 프로젝트 간 전임 작업을 표시합니다](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-predecessors.md)
 * [필터: 불완전한 프로젝트 간 후임 작업을 표시합니다](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-successors.md)
+* [필터: 개인 작업](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md)
 * [필터: 승인 보류 중인 현재 프로젝트를 표시합니다](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-current-projects-pending-approval.md)
 * [필터: 승인 상태의 항목만 표시](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-for-items-in-approval-status.md)
 * [필터: 두 필드를 비교하여 목록에 있는 항목을 제거합니다.](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-items-by-comparing-two-fields.md)

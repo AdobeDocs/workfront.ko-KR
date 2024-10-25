@@ -6,7 +6,7 @@ description: 작업의 완료율을 업데이트하여 해당 작업의 완료 �
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
 workflow-type: tm+mt
 source-wordcount: '553'
 ht-degree: 0%
@@ -91,7 +91,7 @@ ht-degree: 0%
 
 * **홈**: 홈 영역의 요약 패널 또는 내 작업 위젯에서 작업 또는 문제의 완료율을 업데이트할 수 있습니다.
 
-자세한 내용은 [홈 시작하기](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md)를 참조하세요.
+  자세한 내용은 [홈 시작하기](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md)를 참조하세요.
 
 ## 작업 완료율 업데이트에 대한 고려 사항
 
