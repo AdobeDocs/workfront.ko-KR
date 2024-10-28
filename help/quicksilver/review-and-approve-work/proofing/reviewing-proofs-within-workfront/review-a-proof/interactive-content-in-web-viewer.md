@@ -6,14 +6,19 @@ description: Desktop Proofing Viewer를 사용하여 모든 대화형 콘텐츠�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: daddc225-62df-4e1a-98fd-8bb7c7c5553b
-source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
+source-git-commit: eeaf2f2cec65fae9e4b898ed43d8c9b781b29d9e
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
 
 # 웹 증명 뷰어에서 대화형 콘텐츠 증명 설정
+
+>[!IMPORTANT]
+>
+>레거시 브라우저 확장 기능이며 더 이상 지원되지 않습니다. 현재 베타 버전인 새 브라우저 확장 기능을 설치하는 것이 좋습니다. [Adobe Workfront 검토 도구](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md).
+
 
 Desktop Proofing Viewer를 사용하여 모든 대화형 콘텐츠를 검토하는 것이 좋습니다. 그러나 조직의 정책으로 인해 이러한 문제가 발생하지 않는 경우 Workfront 관리자는 대화형 증명을 위해 웹 증명 뷰어를 사용하도록 시스템을 구성할 수 있습니다. 이 두 뷰어에 대한 비교 정보는 [웹 증명 뷰어와 데스크톱 증명 뷰어의 차이점](../../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)을 참조하십시오.
 
@@ -47,5 +52,3 @@ Workfront 관리자가 웹 증명 뷰어에서 대화형 증명을 위해 시스
 1. 웹 증명 뷰어에서 **증명 다시 로드**&#x200B;를 클릭합니다.
 
 브라우저에 확장 프로그램이 설치되어 있으면 증명 뷰어가 **댓글 추가**&#x200B;를 클릭할 때마다 컨텐츠의 정적 스크린샷을 만듭니다. 이 스크린샷에서는 마크업을 사용하여 주석을 추가할 수 있습니다.
-
- 
