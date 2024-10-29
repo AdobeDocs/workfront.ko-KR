@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: b2135fb5f29ebc794763ab6d3fb1c539de6125b4
+source-git-commit: 06c3cb557cf35d79b09e4f68e0f3e8cb69fbe4a6
 workflow-type: tm+mt
 source-wordcount: '1644'
 ht-degree: 11%
@@ -27,7 +27,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->이 문서에서는 현재 Workfront 계획 모델의 액세스 수준에 사용할 수 있는 기능에 대해 설명합니다. 새 계획 모델에서 사용할 수 있는 기능을 보려면 [다양한 액세스 수준에 대해 각 개체 유형에 사용할 수 있는 기능](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)을 참조하십시오.
+>이 문서에서는 새 Workfront 계획 모델의 액세스 수준에 사용할 수 있는 기능에 대해 설명합니다. 현재 계획 모델에서 사용할 수 있는 기능을 보려면 [다양한 액세스 수준에 대해 각 개체 유형에 사용할 수 있는 기능](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)을 참조하십시오.
 
 
 ## 프로젝트
