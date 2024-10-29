@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 8bd7f0b7ed864bf8aa07dbd9ce1104b8da1edb4a
 workflow-type: tm+mt
-source-wordcount: '2208'
+source-wordcount: '2200'
 ht-degree: 0%
 
 ---
@@ -187,7 +187,6 @@ ht-degree: 0%
                         <li>
                             <p>모든 고객을 위한 프로덕션 릴리스: 24.10 릴리스 포함(2024년 10월 17일)</p>
                         </li>
-                        <p><i>이 기능은 미리보기에서 일시적으로 제거되었습니다.</i></p>
                     </ul>
                 </td>
             </tr>
@@ -594,7 +593,7 @@ API 버전 19의 경우 일부 리소스 및 끝점을 수정했습니다. 일�
 
 API 버전에 대한 자세한 내용은 [API 버전 관리 및 지원 일정](/help/quicksilver/wf-api/api/api-version-support-schedule.md)을 참조하십시오.
 
-### Workfront 유지 보수 업데이트
+### Workfront 유지 관리 업데이트
 
 2024년 4분기 릴리스 중 유지 관리 업데이트에 대한 자세한 내용은 [Workfront 유지 관리 업데이트](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)를 참조하십시오.
 

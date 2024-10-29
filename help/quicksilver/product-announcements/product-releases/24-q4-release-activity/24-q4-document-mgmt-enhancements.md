@@ -4,9 +4,9 @@ description: 2024년 4분기 문서 관리 개선 사항
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: e48ef14cc3d0377a6d95f68b502f952ffe4880c4
+source-git-commit: 8bd7f0b7ed864bf8aa07dbd9ce1104b8da1edb4a
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,6 @@ ht-degree: 0%
 >[!NOTE]
 >
 >~~미리 보기 릴리스: 2024년 10월 3일~~; 모든 고객의 프로덕션: 24.10 릴리스 포함(2024년 10월 17일)
->
->_이 기능은 미리 보기에서 일시적으로 제거되었습니다._
 
 이제 문서 목록에서 직접 문서의 결정 상태를 볼 수 있습니다.
 
