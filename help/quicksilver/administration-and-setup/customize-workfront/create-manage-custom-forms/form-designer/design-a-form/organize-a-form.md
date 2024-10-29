@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 83995ccd5fc4a94d7d2574bfa7514f3df6f3618e
 workflow-type: tm+mt
-source-wordcount: '1288'
+source-wordcount: '1329'
 ht-degree: 0%
 
 ---
 
 # 양식 구성 및 미리 보기
+
+{{highlighted-preview}}
 
 양식 디자이너를 사용하여 사용자 정의 양식을 구성하고 미리 보기하여 제대로 설정되었는지 확인할 수 있습니다.
 
@@ -157,6 +159,14 @@ ht-degree: 0%
    >* 사용자 정의 필드 및 위젯은 사용자가 볼 때 사용할 수 있는 화면 공간의 크기에 따라 양식에서 항상 동일한 방식으로 표시되지 않을 수 있습니다. 예를 들어, 수평 공간이 제한되는 경우 필드 행의 세 번째 필드는 다음 필드 행으로 래핑될 수 있다.
 
 1. (선택 사항) 사용자 정의 필드 또는 위젯을 다른 필드 위 또는 아래에 배치하려면 항목 사이에 가로 파란색 선이 나타날 때까지 위 또는 아래로 드래그합니다.
+
+<div class="preview">
+
+1. 사용자 지정 필드를 양식의 다른 섹션으로 이동하려면 해당 위치로 끌어서 놓거나 필드의 **이동** 아이콘을 클릭하고 이동할 섹션을 선택합니다.
+
+   ![필드를 섹션으로 이동](assets/move-field-to-section.png)
+
+</div>
 
 1. 변경 내용을 저장하려면 **적용**&#x200B;을 클릭하세요.
 

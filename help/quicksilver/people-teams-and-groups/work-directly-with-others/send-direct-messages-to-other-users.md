@@ -7,9 +7,9 @@ description: Adobe Workfront을 사용하면 작업 항목과 관련이 없는 �
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 8dd932fe0203fb4a0391f1cbc2d6b8b58a87a00a
+source-git-commit: 019701abe441169f1f898df6b5cb1a6f743753f3
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -82,6 +82,8 @@ ht-degree: 0%
 
 1. 메시지를 보낼 사용자를 선택하고 [!UICONTROL **사용자에게 업데이트 보내기**]&#x200B;를 클릭합니다.
 1. [!UICONTROL 사용자에게 업데이트 보내기] 창에 메시지를 입력하세요.
+
+   <span class="preview">미리 보기 환경의 샘플 이미지:</span>
 
    <span class="preview">![사용자에게 업데이트 보내기 창의 메시지 사용자](assets/send-message-to-user-dialog-from-user-list.png)</span>
 
