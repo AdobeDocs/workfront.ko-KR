@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion에는 Adobe Workfront 라이센스 외에 Ad
 author: Becky
 feature: Workfront Fusion
 exl-id: f6295cc7-367f-4c8b-891b-cc11ff42a225
-source-git-commit: d4ae54f14c2328888ce80902275b0d390fb4fbb7
+source-git-commit: 2f1244d15ad7729941a35a1dc7ad9f1128d24404
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,34 @@ ht-degree: 0%
 
 허용 목록에 추가하다 방화벽 또는 메일 서버가 특정 공급업체에 대한 액세스만 허용하도록 구성된 경우 해당 공급업체에 특정 IP 주소를 추가하여 해당 환경과 [!DNL Adobe Workfront Fusion] 간에 열린 통신을 허용해야 합니다.
 
-## 데이터 센터 식별
+모든 Fusion IP 주소 및 도메인을 허용 목록에 추가하다에 추가하거나, 클러스터를 찾아 해당 클러스터의 IP 주소 및 도메인만 추가할 수 있습니다.
+
+## 모든 Fusion IP 주소 및 도메인 추가
+
+다음 IP 주소를 허용 목록에 추가합니다.
+
+* 52.30.133.50
+* 54.220.93.204
+* 34.254.76.122
+* 54.244.142.219
+* 52.39.217.230
+* 44.241.82.96
+* 100.20.126.137
+* 34.223.32.4
+* 52.39.176.220
+* 20.36.133.48/28
+* 20.81.156.240/28
+* 172.172.84.48/28
+
+또한 조직에서 아웃바운드 네트워크 필터링을 사용하는 경우 허용 목록에 추가하다에 다음 도메인을 추가하여 시스템이 Workfront Fusion에 액세스할 수 있도록 합니다.
+
+* hook.app.workfrontfusion.com
+* hook.app-eu.workfrontfusion.com
+* hook.app-az.workfrontfusion.com
+
+## 클러스터에 대해서만 Fusion IP 주소 및 도메인 추가
+
+### 데이터 센터 식별
 
 IP 주소는 데이터가 저장되는 위치에 따라 다릅니다.
 
@@ -43,7 +70,7 @@ experience.adobe.com을 통해 Fusion에 액세스하는 경우 브라우저에�
 | `https://eu.fusion.adobe.com`에 대한 호출 | EU 데이터 센터 |
 | `https://az.fusion.adobe.com`에 대한 호출 | Azure 데이터 센터 |
 
-## Workfront Fusion용 IP 주소
+### 데이터 센터의 IP 주소 및 도메인 추가
 
 [!DNL Workfront Fusion]이(가) 시스템에 액세스할 수 있도록 하려면 다음 IP 주소를 허용 목록에 추가하다에 추가하십시오.
 
