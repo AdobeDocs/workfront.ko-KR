@@ -7,14 +7,16 @@ description: 이 사용자 정의 프로젝트 그룹에서는 시작 날짜 값
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 511faad5-b5bd-4e2d-8daa-3fcde49a502c
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: a6874c3a2dfda02b8a25f78056767d8c59c888e9
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
 
 # 그룹화: 입력 날짜별 프로젝트
+
+<!--Audited: 10/2024-->
 
 이 사용자 정의 프로젝트 그룹에서는 시작 날짜 값으로 그룹화된 프로젝트를 표시할 수 있습니다.
 
@@ -76,11 +78,14 @@ ht-degree: 0%
 1. **그룹화 기준** 영역에서 텍스트를 제거합니다.
 1. 텍스트를 다음 코드로 바꿉니다.
 
+
+   ```
    group.0.linkedname=direct
-group.0.name=프로젝트 시작
-group.0.valueexpression=IF(ABS(DATEDIFF({entryDate},$$TODAY))&lt;=30,&quot;최근 30일&quot;,IF(ABS(DATEDIFF({entryDate},$$TODAY))>30&amp;&amp;ABS(DATEDIFF({entryDate},$$TODAY))&lt;=60,&quot;30-60일&quot;,&quot;60일 이상&quot;)
-group.0.valueformat=atDateAsMonthString
-textmode=true
+   group.0.name=Project Entry
+   group.0.valueexpression=IF(ABS(DATEDIFF({entryDate},$$TODAY))<=30,"Last 30 Days",IF(ABS(DATEDIFF({entryDate},$$TODAY))>30&&ABS(DATEDIFF({entryDate},$$TODAY))<=60,"30-60 Days","Older than 60 days"))
+   group.0.valueformat=atDateAsMonthString
+   textmode=true
+   ```
 
 1. **완료** > **그룹화 저장**&#x200B;을 클릭합니다.
 1. (선택 사항) 그룹화 이름을 업데이트한 다음 **그룹화 저장**&#x200B;을 클릭합니다.

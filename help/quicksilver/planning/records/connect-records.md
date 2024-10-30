@@ -1,14 +1,14 @@
 ---
 title: 레코드 연결
-description: 레코드 종류 간에 연결을 만든 후에는 개별 레코드를 서로 연결할 수 있습니다.
+description: 레코드 종류 간에 연결을 만든 후에는 개별 레코드를 서로 연결할 수 있습니다. 레코드를 연결할 때 한 레코드의 정보를 다른 레코드에 표시할 수 있습니다.
 recommendations: noDisplay, noCatalog
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 82633fcb858273dee360fc44b031fec5a5cdff54
 workflow-type: tm+mt
-source-wordcount: '2793'
+source-wordcount: '2988'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,13 @@ ht-degree: 1%
 
 # 기록 연결
 
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
+
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
+
 {{planning-important-intro}}
 
-Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프로그램의 객체에 연결할 수 있습니다.
+Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프로그램의 객체에 연결할 수 있습니다. 레코드를 연결할 때 한 레코드의 정보를 다른 레코드에 표시할 수 있습니다.
 
 이 문서에서는 레코드를 연결하는 방법에 대해 설명합니다. 레코드 연결에 대한 일반 정보는 [연결된 레코드 개요](/help/quicksilver/planning/records/connected-records-overview.md)를 참조하십시오.
 
@@ -129,11 +133,11 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
 
 +++
 
-## 레코드 연결을 위한 사전 요구 사항
+## 레코드 연결에 대한 고려 사항
 
-레코드를 다른 레코드나 개체와 연결하려면 다음이 필요합니다.
+* 레코드를 다른 레코드나 개체와 연결하려면 다음이 필요합니다.
 
-* 하나 이상의 작업 공간, 레코드 유형 및 레코드.
+   * 하나 이상의 작업 공간, 레코드 유형 및 레코드.
 
   자세한 내용은 다음 문서를 참조하십시오.
 
@@ -141,7 +145,9 @@ Adobe Workfront Planning 레코드를 서로 연결하거나 다른 응용 프�
    * [레코드 유형 만들기](/help/quicksilver/planning/architecture/create-record-types.md)
    * [레코드 만들기](/help/quicksilver/planning/records/create-records.md)
 
-* 레코드 유형 간 또는 레코드 유형과 다른 응용 프로그램의 개체 간 연결입니다. 자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
+   * 레코드 유형 간 또는 레코드 유형과 다른 응용 프로그램의 개체 간 연결입니다. 자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
+
+* 하나 또는 여러 개의 레코드나 개체를 서로 연결할 수 있습니다. 레코드 또는 개체 유형을 연결할 때 선택한 연결 유형에 따라 다릅니다. 자세한 내용은 [레코드 종류 연결 개요](/help/quicksilver/planning/architecture/connect-record-types-overview.md)를 참조하십시오.
 
 ## Workfront Planning에서 레코드 연결
 
@@ -172,9 +178,10 @@ Workfront Planning에서 Planning 레코드의 다음 영역에 있는 레코드
 
    >[!TIP]
    >
-   >    레코드 유형이 연결되어 있을 때 표시할 레코드 이미지만 선택한 경우 연결된 필드에 레코드의 축소판이나 아이콘만 표시됩니다. 자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
+   >레코드 유형이 연결되어 있을 때 표시할 레코드 이미지만 선택한 경우 연결된 필드에 레코드의 축소판이나 아이콘만 표시됩니다. 자세한 내용은 [레코드 종류 연결](/help/quicksilver/planning/architecture/connect-record-types.md)을 참조하세요.
+   >
 
-
+1. <span class="preview">(조건부) 레코드 형식을 연결할 때 연결 형식에 대해 일대다 또는 일대일을 선택한 경우 다른 곳에 이미 연결되어 있는 레코드나 개체를 연결하려고 하면 다시 연결하면 원본 연결에서 제거된다는 경고가 표시됩니다. 제거를 허용하고 레코드를 연결하려면 **연결**&#x200B;을 클릭하고 필드로 돌아가 다른 레코드를 선택하려면 **취소**&#x200B;를 클릭하십시오.</span>
 1. (선택 사항) 연결할 레코드 또는 개체를 찾을 수 없고 해당 개체를 추가하려면 **+ 추가**&#x200B;를 클릭하여 새 레코드를 추가합니다. 자세한 내용은 문서 [레코드 만들기](/help/quicksilver/planning/records/create-records.md)의 &quot;연결할 때 레코드 만들기&quot; 섹션을 참조하십시오.
 
    >[!TIP]

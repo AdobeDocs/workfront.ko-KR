@@ -7,9 +7,9 @@ description: 목록 및 보고서에서 그룹화의 이름을 사용자에게 �
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 072d3c2b-9ede-4bb9-9a27-dc77ceb732c4
-source-git-commit: 138181de2ad8257785773a5296bc5bcfc144a801
+source-git-commit: a6874c3a2dfda02b8a25f78056767d8c59c888e9
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,8 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -37,37 +39,34 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 플랜*</td> 
+   <td role="rowheader">Adobe Workfront 플랜</td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td>
+   <td> 
+    <p>신규:</p>
+   <ul><li><p>필터를 수정하는 기여자 </p></li>
+   <li><p>보고서를 수정하는 표준</p></li> </ul>
 
-<p>신규: </p>
-   <ul>
-   <li> <p>그룹화 수정 기여자 </p></li>
-   <li><p>보고서를 수정하는 표준</p></li></ul>
-
-<p> 현재:</p>
-   <ul>  
-   <li><p>그룹화 수정 요청 </p></li>
-   <li><p>보고서 수정 계획</p></li> </td> 
+<p>현재:</p>
+   <ul><li><p>필터 수정 요청 </p></li>
+   <li><p>보고서 수정 계획</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">액세스 수준 구성*</td> 
-   <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 권한을 편집하여 보고서 수정</p> <p>필터, 보기, 그룹화에 대한 액세스 권한을 편집하여 그룹화 수정</p> <p><b>메모</b>
-
-여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td>
-</tr>  
+   <td role="rowheader">액세스 수준 구성</td> 
+   <td> <p>보고서, 대시보드, 캘린더에 대한 액세스 권한을 편집하여 보고서 수정</p> <p>필터, 보기, 그룹화에 대한 액세스 권한을 편집하여 필터 수정</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">개체 권한</td> 
-   <td> <p>보고서에 대한 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
+   <td> <p>보고서에 대한 권한 관리</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 그룹화에서 표시 이름 편집
 
@@ -76,7 +75,7 @@ ht-degree: 0%
 1. 프로젝트 목록으로 이동합니다.
 1. **그룹화** 드롭다운 메뉴에서 **새 그룹화**&#x200B;을 선택합니다.
 
-1. **그룹화 추가**&#x200B;를 클릭하고 **첫 번째 기준:** 필드에 &quot;Portfolio 이름&quot;을 입력한 다음 목록에 표시될 때 선택합니다.
+1. **그룹화 추가**&#x200B;를 클릭하고 **그룹화 기준:** 필드에 &quot;Portfolio 이름&quot;을 입력한 다음 목록에 표시될 때 선택합니다.
 
 1. **텍스트 모드로 전환**&#x200B;을 클릭합니다.
 1. 다음 중 하나를 수행합니다.
@@ -87,7 +86,7 @@ ht-degree: 0%
      `group.0.displayname=Your Value`
 
 
-     또는 이 경우:
+     예를 들어 다음 코드를 추가하여 표시 이름을 &quot;Portfolio&quot;로 변경합니다.
 
      `group.0.displayname=Portfolio`
 
@@ -95,7 +94,7 @@ ht-degree: 0%
 
      `group.0.name=Your Value`
 
-     또는 이 경우:
+     예를 들어 다음 코드를 추가하여 표시 이름을 &quot;Portfolio&quot;로 변경합니다.
 
      `group.0.name=Portfolio`
 
@@ -107,5 +106,6 @@ ht-degree: 0%
      ![](assets/grouping-edited-name-no-name-350x162.png)
 
 1. **완료**&#x200B;를 클릭한 다음 **그룹화 저장**&#x200B;을 클릭합니다.
+1. (선택 사항) 그룹화 이름을 업데이트한 다음 **그룹화 저장**&#x200B;을 클릭합니다.
 
    그룹화의 기본 이름은 텍스트 모드 정보에 따라 수정됩니다.
