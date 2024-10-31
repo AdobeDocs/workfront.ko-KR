@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 3606b6c3-b373-47ea-9cb5-813bd3af8da7
-source-git-commit: c547ff323ad9e43472074964ac365447755e4aa5
+source-git-commit: 8f8a5aea1eeecff76150b87a6e7fe38b21f7d033
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 2%
@@ -105,9 +105,9 @@ Listen 443
 
 다음 링크를 클릭하여 클라이언트 인증서를 다운로드합니다.
 
-* [클라이언트 인증서 - 프로덕션 환경](assets/event_subscription_nov_2023_production.crt)
-* [클라이언트 인증서 - 환경 미리보기](assets/event_subscription_nov_2023_preview.crt)
-* [클라이언트 인증서 - 샌드박스 환경](assets/event_subscription_nov_2023_sandboxes.crt)
+* [클라이언트 인증서 - 프로덕션 환경](assets/prod-environment-nov-2024.crt)
+* [클라이언트 인증서 - 환경 미리보기](assets/preview-environment-nov-2024.crt)
+* [클라이언트 인증서 - 샌드박스 환경](assets/sandbox-environment-nov-2024.crt)
 
 >[!NOTE]
 >
