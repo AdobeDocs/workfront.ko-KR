@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: a01ca10fdd4e8faaefcac861c9d64843b71ed9c8
+source-git-commit: 523c2fe466b0afb8f65730ae8f2434f613e31439
 workflow-type: tm+mt
 source-wordcount: '1666'
 ht-degree: 11%
@@ -28,7 +28,7 @@ ht-degree: 11%
 >[!NOTE]
 >
 >* 이 문서에서는 새 Workfront 계획 모델의 액세스 수준에 사용할 수 있는 기능에 대해 설명합니다. 현재 계획 모델에서 사용할 수 있는 기능을 보려면 [다양한 액세스 수준에 대해 각 개체 유형에 사용할 수 있는 기능](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)을 참조하십시오.
-> * 새 플랜 모델의 다양한 플랜에서 사용할 수 있는 기능 목록을 보려면 [Adobe Workfront 가격 및 패키징](https://business.adobe.com/products/workfront/pricing.html)을 참조하십시오.
+>* 새 플랜 모델의 다양한 플랜에서 사용할 수 있는 기능 목록을 보려면 [Adobe Workfront 가격 및 패키징](https://business.adobe.com/products/workfront/pricing.html)을 참조하십시오.
 
 ## 프로젝트
 
