@@ -6,9 +6,9 @@ draft: Probably
 feature: Workfront API, Workfront Proof
 role: Developer
 exl-id: fcf89bd6-0e07-42a7-9ae3-9a1309e51946
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 79b6370ec3283922a16435e8eb8069f7f9560c55
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,4 @@ API를 호출할 때마다 새 세션 ID를 가져올 필요가 없으며 24시�
 `https://app.proofhq.com/viewer/proofingcode?referer=closingurl.com&customparam1=somevalue&customparam2=`은(는) 다음으로 인코딩해야 합니다. 
 사용자 지정 매개 변수를 전달하려면 `https://app.proofhq.com/viewer/proofingcode?referer=closingurl.com%26customparam1=somevalue%26customparam2=`을(를) 사용하십시오.
 
-## Java Web Service 클라이언트를 만드는 방법
-
-[이 비디오](https://screencast.com/t/xsSNrqs5b)에서는 Eclipse 및 Workfront Proof WSDL 정의를 사용하여 Java 웹 서비스 클라이언트를 만드는 방법을 보여 줍니다.
 
