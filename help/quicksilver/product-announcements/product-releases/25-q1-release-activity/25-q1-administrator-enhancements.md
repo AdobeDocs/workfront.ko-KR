@@ -4,9 +4,9 @@ description: 2025년 1분기 관리자 개선 사항
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0736b1913a8b5a58c88da19fefd55558eb7014eb
+source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->미리보기 릴리스: 2024년 10월 24일, 빠른 릴리스를 위한 프로덕션: 24.11 릴리스(2024년 11월 14일), 분기별 릴리스의 프로덕션: 25.1 릴리스(2024년 1월 16일)
+>미리보기 릴리스: 2024년 10월 29일, 빠른 릴리스를 위한 프로덕션: 24.11 릴리스(2024년 11월 14일), 분기별 릴리스의 프로덕션: 25.1 릴리스(2025년 1월)
 
 사용자 정의 양식에 필드가 많은 섹션이 포함된 경우 끌어다 놓아 한 섹션에서 다른 섹션으로 필드를 이동하는 데 어려움이 있을 수 있습니다. 각 필드에 &quot;이동&quot; 아이콘이 추가되어 필드가 배치될 섹션을 선택할 수 있습니다.
 

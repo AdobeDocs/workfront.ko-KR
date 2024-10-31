@@ -4,9 +4,9 @@ description: 이 페이지에서는 2025년 1분기 릴리스에 포함된 기�
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: e2db8c095acca049be72ad26ec090867f9590c04
+source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
@@ -33,12 +33,49 @@ ht-degree: 0%
 
 ## Adobe Workfront 개선 사항
 
-<!--* [Administrator enhancements](#administrator-enhancements)-->
+* [관리자 개선 사항](#administrator-enhancements)
+  <!--* [Boards enhancements](#boards-enhancements)-->
 * [기타 개선 사항](#other-enhancements)
 
-<!--
+### 관리자 개선 사항
 
-### Administrator enhancements
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 50%;" />
+        <tbody>
+            <tr>
+                <td>
+                    <p><span class="bold">기능</span>
+                    </p>
+                </td>
+                <td>
+                    <p><span class="bold">릴리스 날짜</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">"이동" 아이콘이 사용자 지정 필드에 추가됨</a></p>
+                    <p>사용자 정의 양식에 필드가 많은 섹션이 포함된 경우 끌어다 놓아 한 섹션에서 다른 섹션으로 필드를 이동하는 데 어려움이 있을 수 있습니다. 각 필드에 "이동" 아이콘이 추가되어 필드가 배치될 섹션을 선택할 수 있습니다.</p>
+                </td>
+                <td><p><b>다음 날짜에 사용 가능:</b></p>
+                    <ul>
+                        <li>
+                            <p>미리보기 릴리스: 2024년 10월 29일</p>
+                        </li>
+                        <li>
+                            <p>빠른 릴리스를 위한 프로덕션: 24.11 릴리스 포함(2024년 11월 14일)</p>
+                        </li>
+                        <li>
+                            <p>모든 고객을 위한 프로덕션 릴리스: 25.1 릴리스 포함(2025년 1월)</p>
+                        </li>
+                   </ul>
+                </td>
+            </tr>
+        </tbody>
+</table>
+
+<!--### Boards enhancements
 
 <table>
     <col style="width: 50%;" />
@@ -56,13 +93,13 @@ ht-degree: 0%
             </tr>
             <tr>
                 <td>
-                    <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">"Move to" icon added to custom fields</a></p>
-                    <p>When a custom form contains multiple sections with many fields, it can be difficult to move a field from one section to another by dragging and dropping. A "move to" icon has been added to each field, allowing you to select the section that the field is placed in.</p>
+                    <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Change the owner of a board</a></p>
+                    <p>The creator of a board is the owner by default. The board owner is the only person who can delete that board or update its filters in the Configure panel. Functionality has been added to allow Workfront system administrators to change the owner of a board. The current owner of a board can also change the owner of that specific board.</p>
                 </td>
                 <td><p><b>Available on these dates:</b></p>
                     <ul>
                         <li>
-                            <p>Preview release: October 24, 2024</p>
+                            <p>Preview release: October 31, 2024</p>
                         </li>
                         <li>
                             <p>Production for fast release: With the 24.11 release (November 14, 2024)</p>
@@ -74,9 +111,7 @@ ht-degree: 0%
                 </td>
             </tr>
         </tbody>
-</table> 
-
--->
+</table>-->
 
 ### 기타 개선 사항
 
@@ -84,7 +119,26 @@ ht-degree: 0%
     <col style="width: 50%;" />
     <col style="width: 50%;" />
         <tbody>
-             <tr>
+            <tr>
+                <td>
+                    <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">AI 도우미가 프로젝트, 작업 및 문제를 처리할 수 있습니다</a></p>
+                    <p>Workfront에서 작업 항목을 보다 쉽게 관리할 수 있도록 프로젝트, 작업 및 문제 관련 작업이 가능하도록 AI Assistant를 업데이트했습니다. 이제 AI 도우미는 "이번 주 기한인 내 작업 찾기"와 같이 지정한 기준에 따라 프로젝트, 작업 및 문제를 찾을 수 있습니다.</p>
+                </td>
+                <td><p><b>다음 날짜에 사용 가능:</b></p>
+                    <ul>
+                        <li>
+                            <p>미리보기 릴리스: 2024년 10월 31일</p>
+                        </li>
+                        <li>
+                            <p>빠른 릴리스를 위한 프로덕션: 24.11 릴리스 포함(2024년 11월 14일)</p>
+                        </li>
+                        <li>
+                            <p>모든 고객을 위한 프로덕션 릴리스: 25.1 릴리스 포함(2025년 1월)</p>
+                        </li>
+                   </ul>
+                </td>
+            </tr>
+            <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">2025년 1분기 동안의 룩앤필 업데이트</a></p>
                     <p>2025년 1분기 내에 Adobe Workfront 애플리케이션의 다양한 영역의 모양과 느낌에 대한 작은 업데이트가 이루어지고 있습니다. 특정 릴리스 날짜는 개별 릴리스 정보를 검토하십시오.</p>
@@ -108,7 +162,6 @@ ht-degree: 0%
 
 The following functionality is soon to be removed from Workfront:
 -->
-
 
 ## 공지
 

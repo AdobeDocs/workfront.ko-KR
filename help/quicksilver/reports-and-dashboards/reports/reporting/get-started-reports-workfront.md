@@ -7,9 +7,9 @@ description: 보고서는 사용자 및 작업에 발생한 상황을 파악할 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
 workflow-type: tm+mt
-source-wordcount: '3295'
+source-wordcount: '3296'
 ht-degree: 0%
 
 ---
@@ -64,8 +64,7 @@ ht-degree: 0%
 
 보고서를 작성할 때 Report Builder에서 이러한 요소를 개별적으로 수정할 수 있습니다.
 
-보고서에 포함된 정보의 관련성을 높이는 또 다른 방법은 보기에 조건부 서식을 적용하는 것입니다.\
-조건부 서식 사용에 대한 자세한 내용은 [보기에서 조건부 서식 사용](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)을 참조하십시오.
+보고서에 포함된 정보의 관련성을 높이는 또 다른 방법은 보기에 조건부 서식을 적용하는 것입니다. 조건부 서식 사용에 대한 자세한 내용은 [보기에서 조건부 서식 사용](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)을 참조하십시오.
 
 ## 시스템 보고서
 
@@ -81,17 +80,20 @@ Workfront에서 제공하는 시스템 보고서 외에도 조직의 요구 사�
 보고서를 만들려면 다음 중 하나를 수행할 수 있습니다.
 
 * 보고서를 처음부터 새로 작성하십시오.
-* 기존 보고서를 복사합니다.\
+* 기존 보고서를 복사합니다.
+
   다른 사용자가 만든 보고서를 복사하려면 적어도 보기 권한이 있어야 합니다. 보고서 복사에 대한 자세한 내용은 [보고서 복사본 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md)를 참조하세요.
 
-보고서 만들기에 대한 자세한 내용은 [달력 보고서 개요](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md)를 참조하세요.
+보고서 만들기에 대한 자세한 내용은 [사용자 지정 보고서 만들기](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)를 참조하세요.
 
 ### 보고서를 만들기 위한 사전 요구 사항 {#prerequisites-for-creating-reports}
 
-* 보고서를 만들려면 플랜 라이선스(현재 라이선스) 또는 표준 라이선스(새 라이선스)가 있어야 합니다.\
+* 보고서를 만들려면 플랜 라이선스(현재 라이선스) 또는 표준 라이선스(새 라이선스)가 있어야 합니다.
+
   Workfront 라이선스 유형에 대한 자세한 내용은 현재 라이선스의 경우 [라이선스 개요](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)를, 새 라이선스의 경우 [새 라이선스 개요](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)를 참조하십시오.
 
-* Workfront 관리자는 액세스 수준에서 보고서 편집에 대한 액세스 권한을 부여해야 합니다.\
+* Workfront 관리자는 액세스 수준에서 보고서 편집에 대한 액세스 권한을 부여해야 합니다.
+
   보고서 편집에 대한 액세스 권한을 부여하는 방법에 대한 자세한 내용은 [보고서, 대시보드 및 일정에 대한 액세스 권한 부여](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)를 참조하십시오.
 
 * Workfront 관리자는 액세스 수준의 필터, 보기 및 그룹화 편집에 대한 액세스 권한을 부여해야 합니다.
@@ -109,7 +111,7 @@ Workfront에서 보고서를 만들면 보고서의 기본 소유자가 되어 �
 
 **입력한 사람** 필드를 검토하여 누가 보고서를 소유하는지 확인할 수 있습니다.
 
-![필드에 의해 입력됨](assets/nwe-entered-by-350x218.png)
+![필드에 의해 입력됨](assets/unshimmed-entered-by.png)
 
 ### 빌더 인터페이스에서 보고서 만들기 {#create-reports-in-the-builder-interface}
 
@@ -306,7 +308,7 @@ Workfront 보고서와 관련하여 다음과 같은 용어가 사용됩니다.
    <td> <p>보고서를 저장한 후 Report Builder 내의 탭, 보고서 탭 및 보고서에 차트를 추가할 수 있는 보고서의 선택적 요소입니다. 차트를 만들려면 먼저 보고서에 그룹화를 정의해야 합니다.</p> <p>다음은 보고서에 추가할 수 있는 차트 유형입니다.<br></p> 
     <ul> 
      <li>열</li> 
-     <li>바</li> 
+     <li>막대</li> 
      <li>파이</li> 
      <li>선</li> 
      <li>게이지</li> 

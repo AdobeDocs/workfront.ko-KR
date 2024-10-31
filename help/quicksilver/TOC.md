@@ -3,10 +3,10 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: 30b4db53220c67a3fa8fe8865329f74a80cd7343
+source-git-commit: 8facde17caa9054354c3a632ea3a3ab2ba112a5e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '14547'
+ht-degree: 2%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 0%
       * [Adobe Workfront 분기 릴리스 준비](product-announcements/product-releases/release-readiness.md)
       * 2025년 1분기 릴리스 {#release-25-q1}
          * [2025년 1분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
+         * [2025년 1분기 관리자 개선 사항](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md)<!--* [2025 Q1 Boards enhancements](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-boards-enhancements.md)-->
+         * [2025년 1분기 릴리스 일정 동안의 기타 개선 사항](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md)
          * [2025년 1분기 릴리스 기간 동안의 룩앤필 업데이트](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md)
       * 2024년 4분기 릴리스 {#release-24-q4}
          * [2024년 4분기 릴리스 개요](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
@@ -902,23 +904,16 @@ ht-degree: 0%
       * [홈](workfront-basics/using-home/home.md)
       * 홈 영역 {#use-home-area} 사용
          * [홈 영역 사용](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
-         * [기존 홈에서 우선 순위로 이동](workfront-basics/priorities/move-from-legacy-home-to-priorities.md)
          * [홈 시작](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
          * [새 홈에서 위젯 추가, 편집 또는 제거](workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)
          * [홈 영역의 작업 목록에 항목 표시](workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
          * [홈 위젯 필터 개요](workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md)
          * [내 작업 위젯을 사용하여 작업 관리](workfront-basics/using-home/using-the-home-area/my-work-widget.md)
-         * [홈 영역에서 작업 우선 순위 지정](workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)
          * [홈 영역에서 작업 및 팀 요청 관리](workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)
          * [홈 영역에서 작업 항목 업데이트 또는 편집](workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)
          * [홈 영역에서 작업 항목 및 프로젝트 만들기](workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
          * [홈 영역의 작업 항목에 시간을 기록합니다.](workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
          * [홈 영역에서 항목을 완료로 표시](workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)
-         * [홈 캘린더 보기](workfront-basics/using-home/using-the-home-area/home-calendar-view.md)
-         * [홈 캘린더 보기 설정 구성](workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md)
-         * [검토자의 홈 영역](workfront-basics/using-home/using-the-home-area/home-for-reviewers.md)
-         * [홈 캘린더 보기 사용](workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md)
-         * [홈 캘린더 보기](workfront-basics/using-home/using-the-home-area/view-home-calendar.md)
          * [내 업데이트 영역 사용](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
    * AI Assistant {#ai-assistant}
       * [AI 어시스턴트](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
@@ -1037,7 +1032,6 @@ ht-degree: 0%
       * [혁신 연구소](workfront-basics/tips-tricks-and-troubleshooting/idea-exchange.md)
       * [시간대 간 작업](workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md)
       * [Workfront Proof Manager 권한 문제 해결](workfront-basics/tips-tricks-and-troubleshooting/wp-manager-permissions-troubleshooting.md)
-      * [홈 작업 목록에 표시되는 중복 승인 프로세스](workfront-basics/tips-tricks-and-troubleshooting/duplicate-apprval-processes-home.md)
       * [필터 단추가 페이지 헤더에 표시되지 않음](workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
       * [내가 진행 중인 프로젝트에 예기치 않은 결과가 포함됨](workfront-basics/tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
       * [여러 브라우저 탭으로 인해 Workfront이 로그아웃됨](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/multiple-browser-tabs-cause-logout.md)
