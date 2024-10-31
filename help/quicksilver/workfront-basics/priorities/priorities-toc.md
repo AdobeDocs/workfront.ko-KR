@@ -5,10 +5,10 @@ description: Adobe Workfront의 우선 순위 영역을 이해하려면 이러�
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: b27df0431a958774b0933b8c7ea967cf34153fad
+source-git-commit: f6cd525e061ef3e33d8c8b000596aa15897b62f5
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,6 +16,7 @@ ht-degree: 1%
 
 이 섹션에는 다음 하위 섹션이 포함됩니다.
 
+* [우선 순위: 예정된 릴리스](/help/quicksilver/workfront-basics/priorities/priorities-upcoming-releases.md)
 * [우선 순위 시작](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md)
 * [우선 순위에서 작업 필터링 및 그룹화](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
 * [우선 순위 작업 목록 열 사용자 정의](/help/quicksilver/workfront-basics/priorities/customize-worklist-columns.md)
