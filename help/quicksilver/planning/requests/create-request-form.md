@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 82633fcb858273dee360fc44b031fec5a5cdff54
+source-git-commit: a7cdee912e5047f1c8ef224aff6a41eaa3633df6
 workflow-type: tm+mt
-source-wordcount: '1259'
+source-wordcount: '1375'
 ht-degree: 2%
 
 ---
@@ -16,11 +16,12 @@ ht-degree: 2%
 # Adobe Workfront Planning에서 요청 양식 만들기 및 관리
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
+
 <!--take Preview and Production references at Production time-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">이 페이지에서 강조 표시된 정보는 아직 일반적으로 사용할 수 없는 기능을 참조합니다. 모든 고객을 위한 미리보기 환경에서만 사용할 수 있습니다. 월별 프로덕션 릴리스 이후 빠른 릴리스를 활성화한 고객을 위해 프로덕션 환경에서도 동일한 기능을 사용할 수 있습니다. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">빠른 릴리스에 대한 자세한 내용은 [조직의 빠른 릴리스 사용 또는 사용 안 함](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)을 참조하세요. </span>
 
 {{planning-important-intro}}
 
@@ -140,33 +141,19 @@ ht-degree: 2%
 
      >[!IMPORTANT]
      >
-     >   다음 유형의 필드가 요청 양식에 표시되지 않습니다.
+     > 요청 양식을 만드는 데 사용하는 환경에 따라 다음과 같은 시나리오가 있습니다.
+     >
+     >* 다음 형식의 필드가 미리 보기 </span> 또는 프로덕션 환경의 요청 양식 <span class="preview">에 표시되지 않습니다.
      >
      >    * 직원(작성자 및 마지막 수정자 포함)
-     >    * 연결된 필드(Workfront 연결 및 Experience Manager 에셋 포함)
-     >    * 연결된 조회 필드
      >    * 공식
      >    * 제작 일자
      >    * 마지막 수정일
+     >    * Workfront 개체의 연결된 필드 또는 조회 필드
+     >    * Workfront Planning의 연결된 조회 필드
+     >* 다음 유형의 필드는 프로덕션 환경의 요청 양식에 표시되지 않습니다. <span class="preview">미리 보기 환경에 표시됩니다.</span>
+     >    * <span class="preview"> Workfront Planning의 연결된 필드(Workfront 연결 및 Experience Manager 자산 포함)</span>
 
-     <!--replace the above with this: 
-
-            >[!IMPORTANT]
-            >
-            > Depending on what environment you use to create a request form, the following scenarios exist:
-            >
-            >* Fields of the following types do not display in the request form in the Preview or Production environments: 
-            >
-            >    * People (includes Created by and Last modified by)
-            >    * Formula
-            >    * Created date
-            >    * Last modified date
-            >    * Workfront object connected fields
-            >    * Workfront objects connected lookup fields
-            >* <span class="preview">Fields of the following types do not display in the request form in the Production environment. They display in the Preview environment:</span>
-            >    * <span class="preview">Planning records' connected fields (includes connections with Workfront, and Experience Manager assets)</span>
-            >    * <span class="preview">Planning records' connected lookup fields</span>
-      -->
 
    * **기본 섹션**: Workfront이 요청 양식에 적용하는 기본 섹션 구분입니다. 기본 섹션의 이름을 변경하거나 제거할 수 없습니다.
    * **제목** 필드: Workfront에서 요청을 식별하는 필드입니다. 이 기능은 아직 사용할 수 없습니다. 제목 필드의 구성 및 값을 편집할 수 없습니다.
