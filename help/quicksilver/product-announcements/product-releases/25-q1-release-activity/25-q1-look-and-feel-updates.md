@@ -4,9 +4,9 @@ description: 2025년 1분기 릴리스 기간 동안의 룩앤필 업데이트
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
+source-git-commit: 4b92c4ede61690211dad2cb908c502dbb63d7c34
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,10 @@ ht-degree: 0%
 
 성능을 개선하기 위해 Workfront 탐색 막대를 업그레이드했습니다. 모양과 느낌의 변화는 미미합니다.
 
-가장 눈에 띄는 변경 사항은 즐겨찾기 및 최근 항목 드롭다운 화면에 더 이상 닫기 버튼이 없다는 것입니다. 화면에서 멀리 클릭하여 닫거나 키보드에서 Esc 키를 누르면 됩니다.
+가장 눈에 띄는 변화는 다음과 같습니다.
+
+* 즐겨찾기 및 최근 항목 드롭다운 화면에는 더 이상 닫기 버튼이 없습니다. 화면에서 멀리 클릭하여 닫거나 키보드에서 Esc 키를 누르면 됩니다.
+* 더 이상 고정된 페이지를 드래그 앤 드롭하여 정렬할 수 없습니다. 대신 고정된 페이지를 이동할 수 있는 버튼이 있는 드롭다운 메뉴가 있습니다.
 
 ## 사용자 창으로 업데이트 보내기 룩앤필 업데이트
 

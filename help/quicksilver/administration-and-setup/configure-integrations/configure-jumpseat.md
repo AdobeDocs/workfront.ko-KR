@@ -2,20 +2,20 @@
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
-title: JumpSeat 통합 구성하기
+title: JumpSeat 통합 구성
 description: ' [!DNL JumpSeat] 을(를)  [!DNL Workfront] 과(와) 통합하여 사용자 지정 제품 내 지침을 만들 수 있습니다.'
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 author: Nolan, Becky
 exl-id: 23edb48b-8cad-47be-8ace-5238a5869677
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 01b7eb79028eb3fe47f988a31cb62ace31bba3f1
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '274'
 ht-degree: 4%
 
 ---
 
-# JumpSeat 통합 구성하기
+# JumpSeat 통합 구성
 
 [!DNL JumpSeat]을(를) [!DNL Workfront]과(와) 통합하여 사용자 지정 제품 내 지침을 만들 수 있습니다.
 
@@ -58,6 +58,12 @@ ht-degree: 4%
 
 * [!DNL JumpSeat]에서 응용 프로그램으로 [!DNL Workfront]을(를) 추가하고 활성화합니다. 자세한 내용은 [응용 프로그램을 추가하거나 삭제하는 방법](https://support.jumpseat.io/article/how-to-add-an-application/)을 참조하세요.
 
+>[!IMPORTANT]
+>
+>통합 환경 Adobe을 사용하는 경우 응용 프로그램 URL `.workfront.adobe.com`을(를) 사용해야 합니다.
+
+
+
 ## [!DNL JumpSeat] 통합 구성
 
 미리 보기 및 프로덕션 환경 모두에서 [!DNL JumpSeat] 통합을 설정하는 것이 좋습니다.
@@ -73,7 +79,15 @@ ht-degree: 4%
 1. 왼쪽 패널에서 **[!UICONTROL 시스템]** > **[!UICONTROL [!DNL JumpSeat]통합]**&#x200B;을 클릭합니다.
 1. [!DNL JumpSeat]의 확장 아이콘에 있는 **[!UICONTROL [!DNL JumpSeat]URL]**&#x200B;을(를) 입력하십시오.
 
-   **예:** [!DNL https]://{mycompanyname}.jumpseat.io
+>[!BEGINSHADEBOX]
+
+**예:**
+
+https://{mycompanyname}.jumpseat.io
+
+>>
+
+>[!ENDSHADEBOX]
 
 1. **[!UICONTROL [!DNL JumpSeat]통합 토큰]**&#x200B;을(를) 입력하십시오. [!DNL JumpSeat]의 **[!UICONTROL 구성]** 페이지에서 찾을 수 있습니다.
 
