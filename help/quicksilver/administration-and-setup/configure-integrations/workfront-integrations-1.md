@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: ac349d205d7526b03bebc497883f9ed1682191ad
+source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1249'
 ht-degree: 0%
 
 ---
@@ -186,7 +186,7 @@ ht-degree: 0%
     <ul> 
      <li> <p>클라우드 호스팅 [!DNL Office 365] 또는 [!DNL Outlook Live.]의 웹 기반 버전 [!DNL Outlook]과(와) 통합 </p> </li> 
      <li> <p>[!DNL Outlook] 캘린더의 모든 이벤트와 선택한 관련 캘린더(예: 생일 및 휴일 캘린더)를 [!UICONTROL 홈 캘린더]에 표시합니다.</p> </li> 
-    </ul> <p><b>참고</b>: [!UICONTROL Outlook] 일정 구성은 [!DNL Outlook] 추가 기능([!DNL Outlook] 통합 또는 [!DNL Workfront for Outlook])과 완전히 별개입니다. 달력을 구성하는 데 필요한 설치가 없습니다.</p> <p>자세한 내용은 <a href="../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md" class="MCXref xref">[!UICONTROL 홈 캘린더] 보기 설정 구성</a>을 참조하십시오.</p> </td> 
+    </ul> <p><b>참고</b>: [!UICONTROL Outlook] 일정 구성은 [!DNL Outlook] 추가 기능([!DNL Outlook] 통합 또는 [!DNL Workfront for Outlook])과 완전히 별개입니다. 달력을 구성하는 데 필요한 설치가 없습니다.</p></td> 
    <td> </td> 
    <td> </td> 
   </tr> 

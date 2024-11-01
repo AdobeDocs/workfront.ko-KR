@@ -6,9 +6,9 @@ description: 문서를 공유하거나 증명에 사용자를 추가하여 Adobe
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a5438db3-6507-4ebc-a27c-65f02c45783e
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: aaf5beb8692b2fdbb797ba908796d78b4ee8866c
 workflow-type: tm+mt
-source-wordcount: '1233'
+source-wordcount: '1231'
 ht-degree: 0%
 
 ---
@@ -172,6 +172,6 @@ Workfront 내에서 공유된 증명 승인에 대해 보고하는 보고서를 
 
 ## 공유 증명 승인
 
-사용자가 증명에 귀하를 추가하고 자동 워크플로를 사용하여 승인자 역할 또는 검토자 및 승인자 역할을 부여하면 홈 또는 내 작업 영역의 승인 탭에 승인 요청이 표시됩니다. 그런 다음 증명을 보고 Workfront에서 직접 증명에 대한 승인 결정을 내릴 수 있습니다.
+사용자가 증명에 귀하를 추가하고 자동화된 워크플로를 사용하여 승인자 역할 또는 검토자 및 승인자 역할을 부여하면 홈 영역의 내 승인 위젯에 승인 요청이 표시됩니다. 그런 다음 증명을 보고 Workfront에서 직접 증명에 대한 승인 결정을 내릴 수 있습니다.
 
-내 작업 영역에서 승인 결정을 내리는 방법에 대한 자세한 내용은 [작업 승인](../../../review-and-approve-work/manage-approvals/approving-work.md)에서 [홈 영역에서 작업 승인](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area) 또는 [작업 승인](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area)을 참조하십시오.
+내 승인 위젯에서 승인 결정을 내리는 방법에 대한 자세한 내용은 [작업 승인](../../../review-and-approve-work/manage-approvals/approving-work.md)에서 [홈 영역에서 작업 승인](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area) 또는 [작업 승인](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area)을 참조하십시오.

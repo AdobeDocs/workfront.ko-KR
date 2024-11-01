@@ -7,9 +7,9 @@ author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 246e3f71-6403-4381-866c-fa693fb9944d
-source-git-commit: 770f9cd41f4d5b8d17928f98dd4cbd1646dd298a
+source-git-commit: 403fcb01d5a06c257e830724e6e02f0936cc106a
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
@@ -18,8 +18,6 @@ ht-degree: 0%
 
 이 섹션에는 다음 문서가 포함됩니다.
 
-* [기존 홈에서 우선 순위로 이동](/help/quicksilver/workfront-basics/priorities/move-from-legacy-home-to-priorities.md)
-  <!--* [Move from Legacy home to New Home](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)-->
 * [[!UICONTROL 홈] 시작](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
 * [새 홈에서 위젯 추가, 편집 또는 제거](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)
 * [[!UICONTROL 내 업데이트] 영역 사용](../../../workfront-basics/using-home/using-the-home-area/my-updates-area.md)
@@ -30,12 +28,3 @@ ht-degree: 0%
 * [[!UICONTROL Home] 영역에서 작업 항목 및 프로젝트 만들기](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
 * [[!UICONTROL Home] 영역의 작업 항목에 시간을 기록합니다.](../../../workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
 * [[!UICONTROL Home] 영역에서 항목을 [!UICONTROL Done](으)로 표시](../../../workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)
-
-다음 문서에 포함된 기능은 2014/10/17 레거시 홈 사용 중지와 함께 제거되었습니다.
-
-* [[!UICONTROL 홈] 영역에서 작업의 우선 순위 지정](../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)
-* [[!UICONTROL 홈 일정] 보기](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md)
-* [[!UICONTROL 홈 일정] 보기 설정 구성](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md)
-* [[!UICONTROL 홈 일정] 보기 사용](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md)
-* [[!UICONTROL 홈 캘린더] 보기](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md)
-* [검토자용 [!UICONTROL 홈] 영역](../../../workfront-basics/using-home/using-the-home-area/home-for-reviewers.md)

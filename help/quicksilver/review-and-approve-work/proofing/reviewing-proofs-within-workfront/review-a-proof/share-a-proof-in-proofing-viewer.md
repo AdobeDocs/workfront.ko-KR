@@ -6,9 +6,9 @@ description: 증명 소유자 또는 작성자가 공유를 활성화한 경우 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 20bd2d94-1401-4a38-9042-335d0cb32a3d
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: aaf5beb8692b2fdbb797ba908796d78b4ee8866c
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1509'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ ht-degree: 0%
 기본적으로 증명에 추가하는 사용자는 다음과 같습니다.
 
 * 증명에 대한 링크가 포함된 이메일 알림을 받습니다.
-* [작업 승인](../../../../review-and-approve-work/manage-approvals/approving-work.md)에 설명된 대로 홈 또는 내 작업 영역에서 증명에 대한 승인 결정을 내릴 수 있습니다.
+* [작업 승인](../../../../review-and-approve-work/manage-approvals/approving-work.md)에 설명된 대로 홈 영역에서 증명에 대한 승인 결정을 내릴 수 있습니다.
 * 증명을 검토하기 위해 증명을 활성화하지 않아도 됩니다.
 
 자동화된 워크플로가 활성화되고 Workfront에서 증명이 활성화되지 않은 사용자를 증명에 추가하면 자동화된 워크플로 내에 새 단계가 생성됩니다. 추가하려는 사용자가 증명을 처음 볼 때 이 새 단계에 자동으로 추가됩니다. 자세한 내용은 [자동화된 워크플로 개요](../../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md)를 참조하십시오.

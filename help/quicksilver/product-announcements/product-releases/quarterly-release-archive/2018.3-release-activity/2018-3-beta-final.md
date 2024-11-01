@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d4411916-7f58-4174-b9a5-f19cde181d8b
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
@@ -39,8 +39,6 @@ ht-degree: 0%
 Outlook 일정과 동기화하도록 홈 일정을 구성하면 이제 홈 일정에서 가져온 항목이 Outlook 일정에 나타납니다.
 
 이전에는 Outlook 일정에서 홈 일정으로만 항목을 동기화할 수 있었습니다.
-
-Outlook과 동기화하도록 홈 일정을 구성하는 방법에 대한 자세한 내용은 [홈 일정 보기 설정 구성](../../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md)을 참조하십시오.
 
 ## 홈의 새 작업 추가를 위한 업데이트 {#updates-for-adding-new-tasks-in-home}
 

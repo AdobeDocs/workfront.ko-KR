@@ -6,9 +6,9 @@ description: 증명 승인은 Adobe Workfront 환경이 Workfront Proof Premium 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 3f012b1d-69a8-4426-8894-3dafb1e6b837
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: b0b83e8a8a2a076ec20691183605e3d25d10129d
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -52,26 +52,16 @@ ht-degree: 0%
 
 ## 제출된 증명 승인 보기
 
-1. Adobe Workfront의 왼쪽 위 모서리에 있는 **Home** 아이콘 ![](assets/home-icon-30x29.png)을(를) 클릭합니다.
+1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을(를) 클릭합니다.
+1. (조건부) **사용자 지정**&#x200B;을 클릭하여 **내 승인** 위젯을 추가합니다.
+1. (조건부) **필터** 드롭다운 메뉴를 클릭한 다음 **내가 제출한 승인**&#x200B;을 선택하여 제출한 승인을 확인합니다.
 
-   >[!NOTE]
-   >
-   >Workfront 관리자는 사용자 환경의 홈 아이콘을 다음과 같이 변경할 수 있습니다.
-   >
-   >* 조직 설명을 위해 사용자 지정된 이미지로 대체합니다. 이 경우 아이콘은 이 문서에 표시된 것과 다르게 표시됩니다.
-   >* 연결된 페이지를 다른 페이지로 바꿉니다. 이 경우 페이지의 오른쪽 상단에 있는 **기본 메뉴** ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **홈**&#x200B;을(를) 클릭합니다.
-
-1. **작업 목록** 영역에서 **내가 제출한 승인** 그룹화로 이동합니다.
-
-1. 작업 목록에서 **증명** 승인을 클릭합니다.
-
-   그러면 작업 목록 오른쪽에 증명 승인이 열립니다.
+   ![](assets/proof-approval.png)
 
    >[!NOTE]
    >
    > 게스트 증명 사용자에게 승인을 제출하면 홈 페이지에 승인이 표시되지 않습니다.
 
-   ![](assets/proof-approval-pending-home-nwe-350x230.png)
 
 1. (선택 사항) 오른쪽 패널의 오른쪽 위 모서리에 있는 **증명으로 이동**&#x200B;을 클릭하여 증명 뷰어를 시작합니다.
 

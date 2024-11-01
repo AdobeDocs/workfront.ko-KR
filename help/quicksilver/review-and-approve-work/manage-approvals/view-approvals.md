@@ -6,9 +6,9 @@ description: 승인 프로세스를 통해 프로젝트, 작업 및 문제에 �
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: b0b83e8a8a2a076ec20691183605e3d25d10129d
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '796'
 ht-degree: 0%
 
 ---
@@ -62,9 +62,9 @@ Workfront의 여러 영역에서 승인을 보거나 관리할 수 있습니다.
 
 * 홈 영역에서
 
-   * 승인 대기 중인 모든 프로젝트, 작업, 문제, 타임시트, 문서 및 액세스는 모두 보기 또는 승인을 선택했을 때 홈 영역에 표시됩니다.
-   * 직접 제출한 승인도 작업 목록의 홈 영역에서 내가 제출한 승인 섹션에 표시됩니다. 자세한 내용은 이 문서의 [홈 영역에서 승인을 위해 제출한 작업 검토](#review-work-you-submit-for-approval-in-the-home-area) 섹션을 참조하십시오.
-   * 관련된 프로젝트, 작업 또는 문제가 해결됨, 보류 중, 마감됨 또는 취소됨으로 표시되면 홈 영역에서 승인이 제거됩니다.
+   * 모든 프로젝트, 작업, 문제, 타임시트, 문서 및 승인 대기 중인 액세스가 홈 영역의 내 승인 위젯에 표시됩니다.
+   * 내가 제출한 승인 필터 옵션을 선택하면 직접 제출한 승인이 홈 영역의 내 승인 위젯에도 표시됩니다. 자세한 내용은 이 문서의 [홈 영역에서 승인을 위해 제출한 작업 검토](#review-work-you-submit-for-approval-in-the-home-area) 섹션을 참조하십시오.
+   * 관련된 프로젝트, 작업 또는 문제가 해결됨, 보류 중, 마감됨 또는 취소됨으로 표시되면 홈 영역의 내 승인 위젯에서 승인이 제거됩니다.
 
   홈 사용에 대한 자세한 내용은 [홈 시작](../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md)을 참조하세요.
 
@@ -82,19 +82,10 @@ Workfront의 여러 영역에서 승인을 보거나 관리할 수 있습니다.
 
 ## 홈 영역에서 승인을 위해 제출한 작업 검토 {#review-work-you-submit-for-approval-in-the-home-area}
 
-1. Adobe Workfront의 왼쪽 위 모서리에 있는 **Home** 아이콘 ![](assets/home-icon-30x29.png)을(를) 클릭합니다.
+1. 오른쪽 상단의 **[!UICONTROL 주 메뉴]** ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **[!UICONTROL 홈]**&#x200B;을(를) 클릭합니다.
+1. (조건부) **사용자 지정**&#x200B;을 클릭하여 **내 승인** 위젯을 추가합니다.
+1. (조건부) **필터** 드롭다운 메뉴를 클릭한 다음 **내가 제출한 승인**&#x200B;을 선택하여 제출한 승인을 확인합니다.
 
-   >[!NOTE]
-   >
-   >Workfront 관리자는 사용자 환경의 홈 아이콘을 다음과 같이 변경할 수 있습니다.
-   >
-   >* 조직 설명을 위해 사용자 지정된 이미지로 대체합니다. 이 경우 아이콘은 이 문서에 표시된 것과 다르게 표시됩니다.
-   >* 연결된 페이지를 다른 페이지로 바꿉니다. 이 경우 페이지의 오른쪽 상단에 있는 **기본 메뉴** ![](assets/main-menu-icon.png)을(를) 클릭한 다음 **홈**&#x200B;을(를) 클릭합니다.
-
-1. **작업 목록**&#x200B;을 선택한 다음 **필터** 드롭다운 메뉴를 클릭하고 **승인**&#x200B;을 선택합니다.
-1. **내가 제출한 승인** 섹션을 확장하고 제출한 승인을 찾습니다.
-
-   ![](assets/approvals-submitted-section-in-home-nwe-350x401.png)
 
 ## 오브젝트의 승인 상태 보기
 

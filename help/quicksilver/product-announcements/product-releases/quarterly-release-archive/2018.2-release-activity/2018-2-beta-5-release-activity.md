@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0a8602aa-34c8-44d0-a102-9497d106f806
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
 workflow-type: tm+mt
-source-wordcount: '3165'
+source-wordcount: '3158'
 ht-degree: 1%
 
 ---
@@ -59,8 +59,6 @@ ht-degree: 1%
 * 할당된 작업 업데이트
 
 Outlook에서 일정을 사용하는 경우 일정을 통합하여 홈 일정 보기에서 Outlook 이벤트를 표시할 수 있습니다.
-
-자세한 내용은 [홈 일정 보기](../../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md)를 참조하세요.
 
 ## 홈의 작업 목록(왼쪽 패널)에 대한 추가 업데이트 {#additional-updates-to-the-work-list-left-panel-in-home}
 

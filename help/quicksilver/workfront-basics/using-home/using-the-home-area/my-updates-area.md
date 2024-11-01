@@ -6,7 +6,7 @@ description: '[!UICONTROL 내 업데이트] 영역을 사용하여 결정을 기
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
+source-git-commit: 57b6453d4e67e1cb70c4233c1150620867f2e9d1
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 0%
@@ -146,8 +146,6 @@ ht-degree: 0%
 1. (선택 사항) 승인 목록에서 액세스 요청을 승인하지 않고 지우려면 **[!UICONTROL 무시]**&#x200B;를 클릭합니다.
 1. 한동안 승인 결정을 내릴 수 없는 경우 **[!UICONTROL 내 승인 위임]**&#x200B;을 클릭하여 제출된 승인을 위임합니다. 승인 위임에 대한 자세한 내용은 [승인 요청 위임](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md)을 참조하십시오.
 1. 승인 아래의 **[!UICONTROL 멘션]** 영역으로 스크롤합니다. 여기에서 대화에 포함된 모든 항목을 볼 수 있습니다.
-
-   ![](assets/mentions-area-for-reviewers-nwe-350x191.png)
 
    >[!TIP]
    >

@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 452fc235-ff90-4451-b48b-354671227f6f
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
@@ -49,8 +49,6 @@ ht-degree: 0%
 이제 내 우선 순위 정렬 옵션을 사용하여 중요한 작업 목록의 작업 항목에 우선 순위를 지정할 수 있습니다.
 
 이전에는 내 작업 영역에서 작업과 문제만 우선 지정할 수 있었습니다.
-
-자세한 내용은 [홈 영역에서 작업 우선 순위 지정](../../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)을 참조하십시오.
 
 ## 그룹 관리자로 사용자 프로필에서 역할 업데이트 {#update-roles-in-the-user-profile-as-a-group-administrator}
 
