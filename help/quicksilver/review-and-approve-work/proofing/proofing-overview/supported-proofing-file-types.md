@@ -3,22 +3,22 @@ content-type: reference
 product-area: documents
 navigation-topic: proofing-overview
 title: 지원되는 증명 파일 유형 및 크기 제한 개요
-description: '시스템에 설치된 파일(예: Photoshop 또는 Illustrator)을 만드는 데 사용되는 소프트웨어가 없어도 검토자와 다양한 유형의 파일을 공유하고 검토할 수 있습니다. 정적, 비디오, 오디오, 웹 캡처 및 최대 4GB의 대화형 파일 형식을 지원합니다.'
+description: '검토자와 다양한 유형의 파일을 공유하고 검토할 수 있으며, 균일 검토자의 컴퓨터에 파일을 만드는 데 사용되는 소프트웨어(예: Photoshop 또는 Illustrator)가 설치되어 있지 않은 경우 검토자와 파일을 검토하고 검토할 수 있습니다. 최대 4GB 크기의 정적, 비디오, 오디오, 웹 캡처 및 대화형 파일 형식을 지원합니다.'
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 0a9bc92df7360565318d7776dae73b414c054fc2
+source-git-commit: b0454e68bdd6e9e78bd748868fc82a7b0cf8f379
 workflow-type: tm+mt
 source-wordcount: '1052'
 ht-degree: 0%
 
 ---
 
-# 지원되는 증명 파일 유형 및 크기 제한 개요
+# 지원되는 교정 파일 유형 및 크기 제한 개요
 
 <!--Audited: 12/2023-->
 
-시스템에 설치된 파일(예: Photoshop 또는 Illustrator)을 만드는 데 사용되는 소프트웨어가 없어도 검토자와 다양한 유형의 파일을 공유하고 검토할 수 있습니다. 정적, 비디오, 오디오, 웹 캡처 및 최대 4GB의 대화형 파일 형식을 지원합니다.
+검토자와 다양한 유형의 파일을 공유하고 검토할 수 있으며, 균일 검토자의 컴퓨터에 파일을 만드는 데 사용되는 소프트웨어(예: Photoshop 또는 Illustrator)가 설치되어 있지 않은 경우 검토자와 파일을 검토하고 검토할 수 있습니다. 최대 4GB 크기의 정적, 비디오, 오디오, 웹 캡처 및 대화형 파일 형식을 지원합니다.
 
 ## 파일 크기 제한
 
@@ -39,7 +39,7 @@ Workfront에는 다음과 같은 제한이 있습니다.
 ## 정적 파일
 
 >[!IMPORTANT]
-> 다음 정적 파일 유형은 더 이상 지원되지 않습니다.
+> 다음과 같은 정적 파일 형식은 더 이상 지원되지 않습니다.
 >
 > * DOT - Microsoft Word 문서 템플릿
 > * DOTX - Microsoft Word 문서 템플릿
@@ -49,6 +49,7 @@ Workfront에는 다음과 같은 제한이 있습니다.
 > * PPSX - Microsoft PowerPoint 슬라이드 쇼
 > * XLT - Microsoft Excel 템플릿
 > * XLTX - Microsoft Excel 템플릿
+> * EPS - 캡슐화된 PostScript
 
 * ABC - LEAD Advanced Bitonal Compression
 * ABIC - 적응형 이중 수준 이미지 압축
@@ -87,8 +88,8 @@ Workfront에는 다음과 같은 제한이 있습니다.
 * EXIF - 교환 가능한 이미지 파일 형식
 * 팩스 - LaserView 레이저 데이터
 * FITS - 유연한 이미지 전송 시스템
-* FLC - Flic 애니메이션
-* FPX - Kodak FlashPix
+* FLC - 플릭 애니메이션
+* FPX - 코닥 플래시픽스
 * GBR - 거버 GIF - CompuServe
 * GIF - 그래픽 교환 형식(새 Workfront Proof 뷰어의 애니메이션 GIF 전용)
 * GIF HDP - Windows HD 사진
@@ -100,7 +101,7 @@ Workfront에는 다음과 같은 제한이 있습니다.
 * JBG - JBIG
 * JB2 - JBIG2
 * JPG - Joint Photography Experts Group(JPEG)
-* JPEG-XR - Windows Media 사진 / HD 사진(HDP)
+* JPEG-XR - Windows Media 사진/HD 사진(HDP)
 * JPEG-LS - JPEG 무손실
 * J2K - JPEG 2000
 * JP2 - JPEG 2000 Compressed
@@ -146,7 +147,7 @@ Workfront에는 다음과 같은 제한이 있습니다.
 * SGI - 실리콘 그래픽 이미지
 * SHP - ESRI 모양
 * SMP - Xionics
-* SNP - Microsoft 액세스 보고서 스냅샷
+* SNP - Microsoft Access 보고서 스냅숏
 * SR2 - Sony Raw 형식
 * SRF - Sony Raw 형식
 * SVG - 확장 가능한 벡터 그래픽
@@ -181,7 +182,6 @@ Workfront에는 다음과 같은 제한이 있습니다.
 > * PPSX - Microsoft PowerPoint 슬라이드 쇼
 > * XLT - Microsoft Excel 템플릿
 > * XLTX - Microsoft Excel 템플릿
-> * EPS - 캡슐화된 PostScript
 
 
 * AI - Adobe Illustrator 아트워크
@@ -216,9 +216,9 @@ Workfront에는 다음과 같은 제한이 있습니다.
 * 3GP/3G2
 * Ogg Theora
 * MJPEG
-* DV
+* DV (DV)
 * 원시 YUV/RGB
-* MKV
+* 증권 시세 표시기
 * 입력 오디오 코덱(비디오의 일부)
 
    * MP3
@@ -236,7 +236,7 @@ Workfront에는 다음과 같은 제한이 있습니다.
 
 ## 웹 캡처
 
-정적 웹 페이지 증명을 만들 수 있습니다. 자세한 내용은 [웹 사이트 또는 기타 웹 콘텐츠에 대한 정적 증명 만들기](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md) 및 [Workfront Proof을 사용하여 정적 웹 사이트 증명 만들기](../../../workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md)를 참조하십시오.
+정적 웹 페이지 증명을 만들 수 있습니다. 자세한 내용은 [웹 사이트 또는 다른 웹 컨텐츠](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md) 에 대한 정적 증명 만들기 및 [Workfront 증명을](../../../workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md) 사용하여 정적 웹 사이트 증명 만들기 참조하십시오.
 
 ## Zip 파일
 
