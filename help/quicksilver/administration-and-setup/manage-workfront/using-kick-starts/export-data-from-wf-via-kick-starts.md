@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 7b9989b73f7be46690073f323203ae2d9ca1a4b5
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 8%
+source-wordcount: '1028'
+ht-degree: 7%
 
 ---
 
@@ -23,6 +23,8 @@ ht-degree: 8%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
+
+{{highlighted-preview}}
 
 Adobe Workfront 관리자는 킥스타트 데이터 내보내기를 사용하여 Workfront에서 데이터를 내보낼 수 있습니다. 내보낸 후 다른 응용 프로그램에서 사용할 수 있습니다.
 
@@ -334,11 +336,15 @@ Workfront 내에서 데이터를 내보내는 방법에는 두 가지가 있습�
 
    매트릭스 보고서는 내보낼 수 없습니다. 매트릭스 보고서에 대한 자세한 내용은 [매트릭스 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)를 참조하십시오.
 
-   킥스타트는 텍스트 모드 필터를 지원하지 않습니다. 내보내기에 성공하려면 보고 필터를 표준 모드로 전환해야 합니다.
+   킥스타트는 텍스트 모드 필터 또는 그룹화를 지원하지 않습니다. 내보내기에 성공하려면 보고 필터 및 그룹화를 표준 모드로 전환해야 합니다.
 
-   단일 내보내기에서 최대 100개의 대시보드 및 100개의 보고서를 선택할 수 있습니다.
+   단일 내보내기에서 최대 100개의 대시보드와 100개의 보고서를 선택할 수 있습니다.
 
-   ![](assets/kickstart-export-350x381.png)
+   <span class="preview">미리 보기 환경의 샘플 이미지:</span>
+   ![킥스타트 내보내기](assets/kickstart-export-spreadsheet-options.png)
+
+   프로덕션 환경의 샘플 이미지:
+   ![킥스타트 내보내기](assets/kickstart-export-350x381.png)
 
    한 번에 여러 객체를 내보낼 수 있습니다.
 
@@ -346,4 +352,3 @@ Workfront 내에서 데이터를 내보내는 방법에는 두 가지가 있습�
 
    대규모 내보내기의 경우 Workfront은 백그라운드에서 작동하여 Excel 파일을 생성하고 지연에 대한 경고 메시지를 제공합니다. 다운로드가 완료되면 킥스타트 파일이 이메일로 전송됩니다.
 
-   ![](assets/large-kick-start-file-warning-350x65.png)

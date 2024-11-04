@@ -9,14 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 7b9989b73f7be46690073f323203ae2d9ca1a4b5
 workflow-type: tm+mt
-source-wordcount: '2146'
+source-wordcount: '2175'
 ht-degree: 0%
 
 ---
 
 # 킥스타트 시나리오: 여러 옵션 사용자 정의 필드를 Workfront에 가져오기
+
+{{highlighted-preview}}
 
 킥스타트 기능을 사용하여 Adobe Workfront에서 여러 옵션이 있는 사용자 정의 필드를 가져올 수 있습니다.
 
@@ -86,23 +88,23 @@ Workfront에서 기존 데이터를 내보내려면:
 
 1. 왼쪽 메뉴에서 **시스템**&#x200B;을 확장한 다음 **데이터 내보내기(킥스타트)**&#x200B;를 클릭합니다.
 
-   ![](assets/export-data-kick-starts-link-in-setup.png)
-
 1. **포함할 항목** 섹션에서 **사용자 지정 데이터**&#x200B;를 선택합니다.
 
-   ![](assets/existing-custom-data-box-checked-kick-starts.png)
+   미리보기 환경의 샘플 이미지:
+   ![사용자 지정 데이터 선택](assets/kickstarts-select-existing-data.png)
+
+   프로덕션 환경의 샘플 이미지:
+   ![사용자 지정 데이터 선택](assets/existing-custom-data-box-checked-kick-starts.png)
 
 1. **다운로드 형식** 섹션에서 **.xlsx 파일**&#x200B;을(를) 선택하십시오.
 
    >[!TIP]
    >
-   >    시스템에 있는 사용자 정의 데이터의 양에 따라 이 작업은 시간이 오래 걸릴 수 있습니다.
+   >시스템에 있는 사용자 정의 데이터의 양에 따라 이 작업은 시간이 오래 걸릴 수 있습니다.
 
-   ![](assets/download-button-for-kick-starts.png)
+1. **다운로드**&#x200B;를 클릭합니다. .xlsx 파일을 컴퓨터로 다운로드합니다. 해당 페이지로 이동하여 엽니다.
 
-1. **다운로드**&#x200B;를 클릭합니다. .xlsx 파일을 컴퓨터로 다운로드합니다. 로 이동하여 엽니다.
-
-   ![](assets/existing-data-excel-parameter-sheet.png)
+   ![Excel에서 내보낸 데이터](assets/existing-data-excel-parameter-sheet.png)
 
 1. 다운로드한 파일을 검사하고 다음 세부 사항을 기록해 둡니다.
 
@@ -126,9 +128,10 @@ Workfront에서 기존 데이터를 내보내려면:
 
 1. **데이터 가져오기(킥스타트)**&#x200B;를 클릭합니다.
 
-   ![](assets/import-data-kick-starts-link-in-setup.png)
-
 1. **빈 킥스타트 스프레드시트 다운로드** 영역에서 **사용자 지정 데이터** 확인란을 선택하고 **다운로드**&#x200B;를 클릭합니다.
+
+   미리보기 환경의 샘플 이미지:
+   ![사용자 지정 데이터 선택](assets/kickstarts-select-existing-data.png)
 
    ![](assets/blank-custom-data-option-checked-kick-starts.png)
 
@@ -280,7 +283,7 @@ Excel 스프레드시트를 새 사용자 정의 필드에 대한 정보로 채�
 
 1. **킥스타트 스프레드시트로 데이터 업로드** 섹션에서 **파일 선택**&#x200B;을 클릭합니다.
 
-1. 컴퓨터에서 준비한 Excel 스프레드시트를 검색하고 찾으면 선택합니다.  Workfront에서 파일을 인식하면 업로드 버튼이 파란색으로 바뀝니다.
+1. 컴퓨터에서 준비한 Excel 스프레드시트를 검색하고 찾으면 선택합니다. Workfront이 파일을 인식하면 업로드 버튼이 파란색으로 바뀝니다.
 1. **업로드**&#x200B;를 클릭합니다.
 
    ![](assets/kick-start-file-selected-and-upload-blue-button.png)
