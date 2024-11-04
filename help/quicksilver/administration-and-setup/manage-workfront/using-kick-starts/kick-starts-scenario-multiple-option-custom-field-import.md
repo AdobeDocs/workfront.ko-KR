@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 7b9989b73f7be46690073f323203ae2d9ca1a4b5
+source-git-commit: 7512f3e79b3a6af4917cebf631c3f8405baafa2b
 workflow-type: tm+mt
-source-wordcount: '2175'
+source-wordcount: '2184'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Workfront에서 기존 데이터를 내보내려면:
 
 1. **포함할 항목** 섹션에서 **사용자 지정 데이터**&#x200B;를 선택합니다.
 
-   미리보기 환경의 샘플 이미지:
+   <span class="preview">미리 보기 환경의 샘플 이미지:</span>
    ![사용자 지정 데이터 선택](assets/kickstarts-select-existing-data.png)
 
    프로덕션 환경의 샘플 이미지:
@@ -130,10 +130,11 @@ Workfront에서 기존 데이터를 내보내려면:
 
 1. **빈 킥스타트 스프레드시트 다운로드** 영역에서 **사용자 지정 데이터** 확인란을 선택하고 **다운로드**&#x200B;를 클릭합니다.
 
-   미리보기 환경의 샘플 이미지:
+   <span class="preview">미리 보기 환경의 샘플 이미지:</span>
    ![사용자 지정 데이터 선택](assets/kickstarts-select-existing-data.png)
 
-   ![](assets/blank-custom-data-option-checked-kick-starts.png)
+   프로덕션 환경의 샘플 이미지:
+   ![사용자 지정 데이터 선택](assets/blank-custom-data-option-checked-kick-starts.png)
 
    빈 킥스타트 파일이 컴퓨터로 다운로드됩니다.
 
@@ -182,7 +183,7 @@ Excel 스프레드시트를 새 사용자 정의 필드에 대한 정보로 채�
 
      >[!TIP]
      >
-     >    행이 Workfront에 이미 있는 기존 필드를 나타내는 경우 **`isNew`** = **`FALSE`**&#x200B;을(를) 입력합니다.
+     >행이 Workfront에 이미 있는 기존 필드를 나타내는 경우 **`isNew`** = **`FALSE`**&#x200B;을(를) 입력합니다.
 
    * **`ID`** = 새 필드를 나타내는 각 줄의 고유 숫자여야 합니다. 각 새 필드에 고유한 숫자가 있는 한 1로 시작하는 숫자를 사용할 수 있습니다.
    * **`setDataType`** = 새 필드를 나타내는 각 줄에 대해 필드가 지원하는 데이터 형식을 입력합니다. 데이터 유형은 데이터베이스에 나타나는 대로 입력해야 합니다. 다음 데이터 유형 중에서 선택합니다.
