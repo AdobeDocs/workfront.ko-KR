@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: a7cdee912e5047f1c8ef224aff6a41eaa3633df6
+source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1367'
 ht-degree: 2%
 
 ---
@@ -139,20 +139,20 @@ ht-degree: 2%
 
    * 선택한 레코드 유형의 표 보기에서 사용할 수 있는 레코드 필드입니다. <!--they are working on removing the limitation below-->
 
-     >[!IMPORTANT]
-     >
-     > 요청 양식을 만드는 데 사용하는 환경에 따라 다음과 같은 시나리오가 있습니다.
-     >
-     >* 다음 형식의 필드가 미리 보기 </span> 또는 프로덕션 환경의 요청 양식 <span class="preview">에 표시되지 않습니다.
-     >
-     >    * 직원(작성자 및 마지막 수정자 포함)
-     >    * 공식
-     >    * 제작 일자
-     >    * 마지막 수정일
-     >    * Workfront 개체의 연결된 필드 또는 조회 필드
-     >    * Workfront Planning의 연결된 조회 필드
-     >* 다음 유형의 필드는 프로덕션 환경의 요청 양식에 표시되지 않습니다. <span class="preview">미리 보기 환경에 표시됩니다.</span>
-     >    * <span class="preview"> Workfront Planning의 연결된 필드(Workfront 연결 및 Experience Manager 자산 포함)</span>
+   >[!IMPORTANT]
+   >
+   > 요청 양식을 만드는 데 사용하는 환경에 따라 다음과 같은 시나리오가 있습니다.
+   >
+   >* 다음 형식의 필드가 미리 보기 </span> 또는 프로덕션 환경의 요청 양식 <span class="preview">에 표시되지 않습니다.
+   >
+   >    * 직원(작성자 및 마지막 수정자 포함)
+   >    * 공식
+   >    * 제작 일자
+   >    * 마지막 수정일
+   >    * Workfront 개체의 연결된 필드 또는 조회 필드
+   >    * Workfront Planning의 연결된 조회 필드
+   >* 다음 유형의 필드는 프로덕션 환경의 요청 양식에 표시되지 않습니다. <span class="preview">미리 보기 환경에 표시됩니다.</span>
+   >    * <span class="preview"> Workfront Planning 레코드의 연결된 필드</span>
 
 
    * **기본 섹션**: Workfront이 요청 양식에 적용하는 기본 섹션 구분입니다. 기본 섹션의 이름을 변경하거나 제거할 수 없습니다.

@@ -4,19 +4,19 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: '보기: 시간 및 날짜 차이 계산'
 description: 시간 및 날짜 차이를 계산하는 방법을 알아봅니다.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '613'
 ht-degree: 0%
 
 ---
 
 # 보기: 시간 및 날짜 차이 계산
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 11/2024 -->
 
 >[!IMPORTANT]
 >
@@ -109,10 +109,8 @@ ht-degree: 0%
 
 1. **열 추가**&#x200B;를 클릭하고 **이 열에 표시** 필드에 &quot;계획된 완료 일자&quot;를 입력한 다음 목록에 표시될 때 선택합니다.
 
-1. **열 추가**&#x200B;를 클릭한 다음 **텍스트 모드로 전환**&#x200B;을 클릭합니다.
-
-1. 텍스트 모드 영역 위로 마우스를 가져간 후 **텍스트를 편집하려면 클릭**&#x200B;합니다.
-1. **텍스트 모드** 상자에서 찾은 텍스트를 제거하고 다음 코드 중 하나로 바꿉니다.
+1. **열 추가**&#x200B;를 클릭한 다음 **텍스트 모드로 전환** > **텍스트 모드 편집**&#x200B;을 클릭합니다.
+1. **텍스트 모드 편집** 상자에서 찾은 텍스트를 제거하고 다음 코드 중 하나로 바꿉니다.
 
    * 프로젝트의 계획된 완료 일자와 태스크의 계획된 완료 일자 간의 차이를 표시하려면
 
@@ -131,4 +129,4 @@ ht-degree: 0%
       displayname=Parent Planned Completion - Planned Completion (Days)
      ```
 
-1. **저장**&#x200B;을 클릭한 다음 **보기 저장**&#x200B;을 클릭합니다.
+1. **완료**&#x200B;를 클릭한 다음 **보기 저장**&#x200B;을 클릭합니다.
