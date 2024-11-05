@@ -8,7 +8,7 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: beac1ea6-a983-4d12-8972-91150914f731
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 0%
@@ -47,7 +47,7 @@ ht-degree: 0%
 * [보기: 시간 목록의 결합된 작업 및 문제 세부 정보](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-combined-task-issue-details-hour-list.md)
 * [보기: 열에 문자열 대신 이미지를 표시합니다](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-image-in-view.md)
 * [보기: 표준 인터페이스에 포함되지 않은 개체를 표시합니다](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-objects-not-in-standard-interface.md)
-* [보기: 작업 및 프로젝트 목록에 원본 문제 정보 표시](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
+* [보기: 작업 또는 프로젝트 목록에 원본 문제 정보 표시](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
 * [보기: 작업 보기에 프로그램 및 Portfolio 정보를 표시합니다](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-program-portfolio-info-task-view.md)
 * [보기: 작업 목록에 작업 들여쓰기를 표시합니다](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-task-identations.md)
 * [보기: 증명에 대한 링크가 있는 문서 보고서](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-document-report-with-proof-link.md)

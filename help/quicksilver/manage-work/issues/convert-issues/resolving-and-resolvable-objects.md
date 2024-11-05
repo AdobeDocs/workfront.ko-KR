@@ -7,7 +7,7 @@ description: 해결 가능한 오브젝트는 해결 방법이 해결 중인 오
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
 source-wordcount: '1743'
 ht-degree: 1%
@@ -228,7 +228,7 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
    <td>✓ 덧신</td> 
   </tr> 
   <tr> 
-   <td><strong>원래 문제 이름, 원래 문제 입력 날짜, 작성자 이름</strong>: 텍스트 모드 사용자 지정 보기에서 원래 문제의 이름, 입력 날짜 및 문제를 만든 사용자의 이름을 표시합니다.<br>원래 문제에 대한 정보를 표시하는 프로젝트나 작업 보고서 또는 목록의 텍스트 모드 사용자 지정 보기를 만드는 방법에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">보기: 작업 및 프로젝트 목록에 원래 문제 정보 표시</a>를 참조하십시오.<br></td> 
+   <td><strong>원래 문제 이름, 원래 문제 입력 날짜, 작성자 이름</strong>: 텍스트 모드 사용자 지정 보기에서 원래 문제의 이름, 입력 날짜 및 문제를 만든 사용자의 이름을 표시합니다.<br>원래 문제에 대한 정보를 표시하는 프로젝트나 작업 보고서 또는 목록의 텍스트 모드 사용자 지정 보기를 만드는 방법에 대한 자세한 내용은 <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">보기: 작업 또는 프로젝트 목록에 원래 문제 정보 표시</a>를 참조하십시오.<br></td> 
    <td> </td> 
    <td> ✓ 덧신</td> 
    <td> ✓ 덧신</td> 

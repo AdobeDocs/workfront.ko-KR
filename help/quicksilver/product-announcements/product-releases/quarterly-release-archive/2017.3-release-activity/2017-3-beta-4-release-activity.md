@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d6bb889c-a057-453f-8f80-761cfb1ad4a1
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
 source-wordcount: '1676'
 ht-degree: 0%
@@ -151,7 +151,7 @@ Workfront은 사용 가능한 사용자 간 현재 작업 할당을 분석하고
 
 이 변경 이전에는 이 정보에 대해 보고할 수 없었습니다.
 
-원래 문제의 정보를 캡처하는 사용자 지정 텍스트 모드 보기를 만드는 방법에 대한 자세한 내용은 [보기: 작업 및 프로젝트 목록에 원래 문제 정보 표시](../../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)를 참조하십시오.
+원래 문제의 정보를 캡처하는 사용자 지정 텍스트 모드 보기를 만드는 방법에 대한 자세한 내용은 [보기: 작업 또는 프로젝트 목록에 원래 문제 정보 표시](../../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)를 참조하십시오.
 
 ## 업데이트 스트림의 필터 시스템 업데이트가 이제 모든 오브젝트에서 지속됨 {#filter-system-updates-in-the-update-stream-is-now-persistent-across-objects}
 

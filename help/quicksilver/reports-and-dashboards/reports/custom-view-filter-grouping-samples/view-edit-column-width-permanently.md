@@ -4,19 +4,19 @@ product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: '보기: 열의 너비를 영구적으로 편집'
 description: 원하는 너비와 일치하도록 여백을 드래그 앤 드롭하여 열의 너비로 일시적으로 수정할 수 있습니다. 자세한 내용은 열 너비 및 순서 수정을 참조하십시오.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 42633036-8e42-4cec-876c-f20a5ece2478
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: 71c0bf664af66bec7122651c1b62dd1c28022565
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
 
 # 보기: 열의 너비를 영구적으로 편집
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 11/2024 -->
 
 원하는 너비와 일치하도록 여백을 드래그 앤 드롭하여 열의 너비로 일시적으로 수정할 수 있습니다. 자세한 내용은 [열 너비 및 순서 수정](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)을 참조하십시오.
 
@@ -73,7 +73,7 @@ ht-degree: 0%
    기존 열의 열 헤더를 클릭합니다.
 
 1. **텍스트 모드로 전환**&#x200B;을 클릭합니다.
-1. 텍스트 모드 영역 위로 마우스를 가져간 후 **텍스트를 편집하려면 클릭**&#x200B;합니다.
+1. **텍스트 모드 편집**&#x200B;을 클릭합니다.T
 1. 열의 텍스트 모드에 다음 코드를 추가합니다.
 
    ```
@@ -83,6 +83,6 @@ ht-degree: 0%
 
    **width** 줄의 경우 열에 표시할 너비를 나타내는 숫자(픽셀 단위)를 지정합니다.
 
-1. **저장**&#x200B;을 클릭한 다음 **보기 저장**&#x200B;을 클릭합니다.
+1. **완료**&#x200B;를 클릭한 다음 **보기 저장**&#x200B;을 클릭합니다.
 
 

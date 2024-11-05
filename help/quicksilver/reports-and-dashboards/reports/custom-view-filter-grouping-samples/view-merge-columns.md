@@ -2,21 +2,21 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '보기: 하나의 공유 열에 있는 여러 열의 정보 병합'
+title: '보기: 하나의 공유 열에 여러 열의 정보 병합'
 description: 여러 개별 열에 표시되는 정보를 병합하여 하나의 공유 열에 표시할 수 있습니다.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 8c51f8acbe4cefc2404709d9b52c2fe5ec3c7fca
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
 
 # 보기: 여러 열의 정보를 하나의 공유 열에 병합
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 11/2024 -->
 
 여러 개별 열에 표시되는 정보를 병합하여 하나의 공유 열에 표시할 수 있습니다.
 
@@ -94,7 +94,10 @@ ht-degree: 0%
 
 줄 바꿈 없이 두 열의 데이터를 병합하려면 다음을 수행합니다.
 
-1. 뷰에 텍스트 모드를 사용하여 병합할 첫 번째 열에 다음 텍스트를 추가합니다.
+1. 개체 목록으로 이동합니다.
+1. **보기** 드롭다운에서 보기를 선택한 다음 **편집** 아이콘 ![](assets/edit-icon.png)을(를) 클릭하여 보기를 편집합니다.
+1. 병합할 첫 번째 열로 이동한 다음 **텍스트 모드로 전환** > **텍스트 모드 편집**&#x200B;을 클릭합니다.
+1. 병합할 첫 번째 열에 다음 텍스트를 추가합니다.
 
    `sharecol=true`
 
@@ -104,32 +107,31 @@ ht-degree: 0%
 
    두 개 이상의 열을 공유하는 경우 각 열에 대한 공유 정보가 들어 있는 코드 행에 열 번호를 추가해야 합니다.
 
+
    **예:** 다음은 목록의 두 번째 열부터 시작하여 세 개의 개별 열이 포함된 병합된 열의 텍스트 모드 코드입니다. 병합된 값은 프로젝트 이름, 계획된 시작 일자 및 프로젝트 소유자의 이름이며 세 값 사이에는 차이가 없습니다.
 
-   `column.1.valuefield=name`
+   ```
+   column.1.valuefield=name
+   column.1.valueformat=HTML
+   column.1.sharecol=true
+   column.2.valuefield=plannedStartDate
+   column.2.valueformat=atDate
+   column.2.sharecol=true
+   column.3.valuefield=owner:name
+   column.3.valueformat=HTML
+   ```
 
-   `column.1.valueformat=HTML`
+   ![](assets/shared-column-no-line-breaks-350x142.png)
 
-   `column.1.sharecol=true`
 
-   `column.2.valuefield=plannedStartDate`
-
-   `column.2.valueformat=atDate`
-
-   `column.2.sharecol=true`
-
-   `column.3.valuefield=owner:name`
-
-   `column.3.valueformat=HTML`
-
-![](assets/shared-column-no-line-breaks-350x142.png)
-
-1. **저장**&#x200B;을 클릭한 다음 **보기 저장**&#x200B;을 클릭합니다.
+1. **완료**&#x200B;를 클릭한 다음 **보기 저장**&#x200B;을 클릭합니다.
 
 ## 줄 바꿈을 사용하여 두 열의 데이터 병합
 
 여러 열의 데이터를 병합하여 각 열의 값 사이에 줄 바꿈을 사용하여 하나의 공통 열에 표시하려면 다음을 수행합니다.
 
+1. 개체 목록으로 이동합니다.
+1. **보기** 드롭다운에서 보기를 선택한 다음 **편집** 아이콘 ![](assets/edit-icon.png)을(를) 클릭하여 보기를 편집합니다.
 1. 병합할 두 열 사이에 세 번째 열을 추가합니다.
 
    >[!TIP]
@@ -137,18 +139,16 @@ ht-degree: 0%
    >* 병합할 열은 서로 인접해야 합니다.
    >* 병합할 첫 번째 열을 클릭해야 합니다.
 
-1. **텍스트 모드로 전환**&#x200B;을 클릭하고 1단계에서 추가한 가운데 열에 다음 코드를 추가합니다.
+1. **텍스트 모드로 전환** > **텍스트 모드 편집**&#x200B;을 클릭하고 1단계에서 추가한 가운데 열에 다음 코드를 추가합니다.
 
-   `value=<br>`
+   ```
+   value=<br>
+   valueformat=HTML
+   width=1
+   sharecol=true
+   ```
 
-   `valueformat=HTML`
-
-   `width=1`
-
-   `sharecol=true`
-
-
-1. 첫 번째 열을 클릭하고 **텍스트 모드로 전환**&#x200B;을 클릭한 다음 열에 다음 텍스트를 추가합니다.
+1. 첫 번째 열을 클릭하고 **텍스트 모드로 전환** > **텍스트 모드 편집**&#x200B;을 클릭한 다음 열에 다음 텍스트를 추가합니다.
 
    `sharecol=true`
 
@@ -160,47 +160,28 @@ ht-degree: 0%
 
    **예:** 다음은 프로젝트 이름, 계획된 시작 날짜 및 줄 바꿈이 있는 프로젝트 소유자 이름이 포함된 공유 열의 텍스트 모드 코드입니다. 공유 열은 프로젝트 보기의 두 번째 열입니다.
 
-
-   `column.1.displayname=Project_StartDate_Owner`
-
-   `column.1.sharecol=true`
-
-   `column.1.textmode=true`
-
-   `column.1.valuefield=name`
-
-   `column.1.valueformat=HTML`
-
-   `column.2.value=<br>`
-
-   `column.2.width=1`
-
-   `column.2.valueformat=HTML`
-
-   `column.2.sharecol=true`
-
-   `column.3.valuefield=plannedStartDate`
-
-   `column.3.valueformat=atDate`
-
-   `column.3.sharecol=true`
-
-   `column.4.value=<br>`
-
-   `column.4.width=1`
-
-   `column.4.valueformat=HTML`
-
-   `column.4.sharecol=true`
-
-   `column.5.textmode=true`
-
-   `column.5.valuefield=owner:name`
-
-   `column.5.valueformat=HTML`
-
+   ```
+   column.1.displayname=Project_StartDate_Owner
+   column.1.sharecol=true
+   column.1.textmode=true
+   column.1.valuefield=name
+   column.1.valueformat=HTML
+   column.2.value=<br>
+   column.2.width=1
+   column.2.valueformat=HTML
+   column.2.sharecol=true
+   column.3.valuefield=plannedStartDate
+   column.3.valueformat=atDate
+   column.3.sharecol=true
+   column.4.value=<br>
+   column.4.width=1
+   column.4.valueformat=HTML
+   column.4.sharecol=true
+   column.5.textmode=true
+   column.5.valuefield=owner:name
+   column.5.valueformat=HTML 
+   ```
 
    ![](assets/shared-column-with-line-breaks-350x199.png)
 
-
-1. **저장**&#x200B;을 클릭한 다음 **보기 저장**&#x200B;을 클릭합니다.
+1. **완료**&#x200B;를 클릭한 다음 **보기 저장**&#x200B;을 클릭합니다.

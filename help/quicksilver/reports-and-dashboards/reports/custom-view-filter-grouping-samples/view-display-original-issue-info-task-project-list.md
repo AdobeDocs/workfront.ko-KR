@@ -2,19 +2,19 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '보기: 작업 및 프로젝트 목록에 원래 문제 정보 표시'
+title: '보기: 작업 또는 프로젝트 목록에 원래 문제 정보 표시'
 description: 문제가 목록의 작업 및 프로젝트로 전환된 후 원래 문제의 정보를 작업 및 프로젝트 목록 보기에 표시할 수 있습니다.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 235156b6-a9b6-484e-b126-54874da705c8
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 5%
 
 ---
 
-# 보기: 작업 및 프로젝트 목록에 원래 문제 정보 표시
+# 보기: 작업 또는 프로젝트 목록에 원래 문제 정보 표시
 
 문제가 목록의 작업 및 프로젝트로 전환된 후 원래 문제의 다음 정보를 작업 및 프로젝트 목록 보기에 표시할 수 있습니다.
 

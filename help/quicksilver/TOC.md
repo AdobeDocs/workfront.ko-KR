@@ -3,7 +3,7 @@ user-guide-title: Workfront 안내서
 user-guide-description: 문서, 튜토리얼 및 추가 리소스를 활용하여 조직에서 Adobe Workfront를 구현하고 효과적으로 사용하는 방법에 대해 알아봅니다.
 role: User
 feature-set: Workfront
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
 source-wordcount: '14547'
 ht-degree: 2%
@@ -1658,7 +1658,7 @@ ht-degree: 2%
          * [보기: 시간 목록의 결합된 작업 및 문제 세부 정보](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-combined-task-issue-details-hour-list.md)
          * [보기: 열에 문자열 대신 이미지 표시](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-image-in-view.md)
          * [보기: 표준 인터페이스에 포함되지 않은 객체를 표시합니다.](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-objects-not-in-standard-interface.md)
-         * [보기: 작업 및 프로젝트 목록에 원래 문제 정보 표시](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
+         * [보기: 작업 또는 프로젝트 목록에 원래 문제 정보 표시](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
          * [보기: 작업 보기에 프로그램 및 Portfolio 정보 표시](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-program-portfolio-info-task-view.md)
          * [보기: 작업 목록에 작업 들여쓰기 표시](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-task-identations.md)
          * [보기: 작업을 들여써서 작업의 상위-하위 관계를 표시합니다.](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-parent-child-relationship-by-indenting-tasks-with-custom-view.md)
