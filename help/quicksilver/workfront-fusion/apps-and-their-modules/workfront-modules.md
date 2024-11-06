@@ -9,9 +9,9 @@ description: Adobe Workfront Fusion Adobe Workfront 커넥터를 사용하여 Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 38b6fef43157f47c93dcd9cf543f1001142d86dd
+source-git-commit: d14ea876ef58c190a38f1b3b1bfc205df5681bca
 workflow-type: tm+mt
-source-wordcount: '6621'
+source-wordcount: '6797'
 ht-degree: 2%
 
 ---
@@ -282,7 +282,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 레코드 유형]</td> 
-   <td> <p>(<strong>필터</strong>를 선택하면 표시됩니다.) 모듈을 감시할 [!DNL Workfront] 레코드 형식을 선택하십시오.</p> <p>예를 들어 새 프로젝트를 만들 때마다 시나리오를 시작하려면 [!UICONTROL 프로젝트]를 선택합니다</p> </td> 
+   <td> <p>(<strong>필터</strong>을(를) 선택하면 표시됩니다.) 모듈에서 감시할 [!DNL Workfront] 레코드 형식을 선택합니다.</p> <p>예를 들어 새 프로젝트를 만들 때마다 시나리오를 시작하려면 [!UICONTROL 프로젝트]를 선택합니다</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 출력]</td> 
@@ -631,7 +631,7 @@ ht-degree: 2%
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Action]</td> 
-   <td> <p>모듈에서 수행할 작업을 선택합니다.</p> <p>선택한 [!UICONTROL 레코드 유형] 및 [!UICONTROL 작업]에 따라 추가 필드를 작성해야 할 수 있습니다. 이 두 설정의 일부 조합에는 레코드 ID만 필요하지만, 다른 조합(예: <strong>[!UICONTROL 레코드 유형]</strong>에 대한 Project 및 <strong>[!UICONTROL 작업]</strong>에 대한 [!UICONTROL 첨부 템플릿])에는 추가 정보(예: 개체 ID 및 템플릿 ID)가 필요합니다.</p> <p>개별 필드에 대한 자세한 내용은 <a href="http://developer.workfront.com/">Workfront 개발자 설명서</a>를 참조하세요. <p><strong>참고</strong>: 개발자 설명서 사이트에는 API 버전 14를 통해서만 정보가 포함되지만 API 호출에 대한 중요한 정보가 포함되어 있습니다. </p> 
+   <td> <p>모듈에서 수행할 작업을 선택합니다.</p> <p>선택한 [!UICONTROL 레코드 유형] 및 [!UICONTROL 작업]에 따라 추가 필드를 작성해야 할 수 있습니다. 이 두 설정의 일부 조합에는 레코드 ID만 필요하지만, 다른 조합(예: <strong>[!UICONTROL 레코드 유형]</strong>에 대한 Project 및 <strong>[!UICONTROL 작업]</strong>에 대한 [!UICONTROL 첨부 템플릿])에는 추가 정보(예: 개체 ID 및 템플릿 ID)가 필요합니다.</p><p>일부 작업에 사용할 수 있는 옵션은 이 문서에서 <a href="#misc-action-options" class="MCXref xref">기타 작업 옵션</a>을 참조하십시오.</p> <p>개별 필드에 대한 자세한 내용은 <a href="http://developer.workfront.com/">Workfront 개발자 설명서</a>를 참조하세요. <p><strong>참고</strong>: 개발자 설명서 사이트에는 API 버전 14를 통해서만 정보가 포함되지만 API 호출에 대한 중요한 정보가 포함되어 있습니다. </p> 
     <ol> 
      <li value="1"> <p>[!DNL Workfront] 개발자 설명서 페이지의 왼쪽 탐색에서 레코드 종류를 선택합니다. 다음 유형에는 자체 페이지가 있습니다.</p> 
       <ul> 
@@ -653,6 +653,156 @@ ht-degree: 2%
 </table>
 
 각  [!DNL Workfront] 모듈](#workfront-object-types-available-for-each-workfront-module)에 사용할 수 있는 [[!DNL Workfront] 개체 유형에서 이 모듈을 사용할 수 있는 [!DNL Workfront] 개체 유형 목록을 참조하십시오.
+
+#### 기타 작업 옵션
+
+##### 작업
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <th>액션</th> 
+   <th>옵션</th> 
+  </tr> 
+  <tr> 
+   <td>복사</td> 
+   <td>
+   <ul>
+   <li>clearApprovers</li>
+   <li>clearAssets</li>
+   <li>clearConstrains</li>
+   <li>clearCustomData</li>
+   <li>clearDocuments</li>
+   <li>clearExpenses</li>
+   <li>clearFinancials<p>재무 데이터 지우기</p></li>
+   <li>clearPermissions</li>
+   <li>clearPredecessors</li>
+   <li>clearProgress</li>
+   <li>clearTimedNotifications<p>미리 알림 지우기</p></li>
+   </ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td>이동</td> 
+   <td>
+   <ul>
+   <li>clearApprovers</li>
+   <li>clearAssets</li>
+   <li>clearDocuments</li>
+   <li>clearConstrains</li>
+   <li>clearExpenses</li>
+   <li>clearFinancials<p>재무 데이터 지우기</p></li>
+   <li>clearPermissions</li>
+   <li>clearPredecessors</li>
+   <li>clearProgress</li>
+   <li>clearTimedNotifications<p>미리 알림 지우기</p></li>
+   </ul>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+##### 문제
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <th>액션</th> 
+   <th>옵션</th> 
+  </tr> 
+  <tr> 
+   <td>복사</td> 
+   <td>
+   <ul>
+   <li>clearApprovers</li>
+   <li>clearAssets</li>
+   <li>clearCustomData</li>
+   <li>clearDocuments</li>
+   <li>clearPermissions</li>
+   <li>clearProgress</li>
+   </ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td>작업으로 전환</td> 
+   <td>
+   <ul>
+   <li>preserveIssue<p>원래 문제를 유지하고 해결 방법을 이 작업에 연결</p></li>
+   <li>preservePrimaryContact<p>이 작업에 대한 문제의 기본 담당자 액세스 허용</p></li>
+   <li>preserveCompletionDate<p>문제의 계획된 완료 일자 유지</p></li>
+   </ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td>프로젝트로 전환</td> 
+   <td>
+   <ul>
+   <li>preserveIssue<p>원래 문제를 유지하고 해결 방법을 이 작업에 연결</p></li>
+   <li>preservePrimaryContact<p>이 작업에 대한 문제의 기본 담당자 액세스 허용</p></li>
+   </ul>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+##### 프로젝트
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <th>액션</th> 
+   <th>옵션</th> 
+  </tr> 
+  <tr> 
+   <td>복사</td> 
+   <td>
+   <ul>
+   <li>clearApprovers</li>
+   <li>clearAssets</li>
+   <li>clearCustomData</li>
+   <li>clearDocuments</li>
+   <li>clearExpenses</li>
+   <li>clearFinancials<p>재무 데이터 지우기</p></li>
+   <li>clearPermissions</li>
+   <li>clearPredecessors</li>
+   <li>clearProgress</li>
+   <li>clearTimedNotifications<p>미리 알림 지우기</p></li>
+   </ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td>템플릿 첨부 / 템플릿으로 저장</td> 
+   <td>
+   <ul>
+   <li>clearApprovers</li>
+   <li>clearAssets</li>
+   <li>clearBillingRates</li>
+   <li>clearConstrains</li>
+   <li>clearDeliverables<p>목표 지우기</p></li>
+   <li>clearDocuments</li>
+   <li>clearExpenses</li>
+   <li>clearFinancials<p>재무 데이터 지우기</p></li>
+   <li>clearHourTypes</li>
+   <li>clearIssueSetup<p>대기열 속성 및 문제 설정 지우기</p></li>
+   <li>clearPredecessors</li>
+   <li>clearRisk</li>
+   <li>지우기 공유 옵션</li>
+   <li>clearTimedNotifications<p>미리 알림 지우기</p></li>
+   </ul>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
 
 +++
 
@@ -929,6 +1079,7 @@ ht-degree: 2%
   </tr> 
  </tbody> 
 </table>
+
 +++
 
 +++ **[!UICONTROL 검색(기존)]**
