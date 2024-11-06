@@ -4,22 +4,24 @@ description: 기존 그룹화 편집
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bd9e6794-3196-4a73-a86a-9ba6048e613b
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
 
 # 기존 그룹화 편집
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This is the third part of a former artcle split in 3: two how-tos and one refernece article about creating and customizing groupings)</p>
--->
+<!-- Audited: 11/2024 -->
+
+<!--NOTE: This is the third part of a former article split in 3: two how-tos and one reference article about creating and customizing groupings)-->
 
 원래 만들었거나 사용자와 공유된 기존 그룹화를 사용자 지정할 수 있습니다. 그런 다음 새 그룹화로 저장할 수 있습니다.
 
 ## 액세스 요구 사항
+
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
 
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
@@ -33,20 +35,31 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront 라이센스*</strong></td> 
-   <td> <p>요청 이상 </p> </td> 
+   <td> 
+      <p>신규:</p>
+         <ul>
+         <li><p>기여자 이상</p></li>
+         </ul>
+      <p>현재:</p>
+         <ul>
+         <li><p>요청 이상</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>액세스 수준 구성*</strong></td> 
-   <td> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> <p>보고서, 대시보드, 캘린더에 대한 액세스 권한을 편집하여 보고서에서 그룹화를 편집할 수 있습니다.</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+   <td> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> <p>보고서, 대시보드, 캘린더에 대한 액세스 권한을 편집하여 보고서에서 그룹화를 편집할 수 있습니다.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>개체 권한</strong></td> 
-   <td> <p>보고서에서 그룹화를 편집하려면 보고서에 대한 권한 관리</p> <p>그룹화에 대한 권한 관리 </p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
+   <td> <p>보고서에서 그룹화를 편집하려면 보고서에 대한 권한 관리</p> <p>그룹화에 대한 권한 관리</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 전제 조건
 
@@ -58,7 +71,7 @@ ht-degree: 0%
 
 1. 사용자 지정할 그룹화가 포함된 개체 목록으로 이동합니다.
 1. **그룹화** 아이콘을 클릭합니다.
-1. 사용자 지정할 그룹화를 선택한 다음 **편집** 아이콘을 클릭합니다.
+1. 사용자 지정할 그룹화를 선택한 다음 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.
 
    ![편집 아이콘을 선택합니다.](assets/customizegrouping-nwe-standard-350x291.png)
 
@@ -83,4 +96,4 @@ ht-degree: 0%
 1. 4, 5, 6단계를 반복하여 추가 그룹화를 정의합니다.\
    정보 구성을 위해 최대 3개의 그룹화를 정의할 수 있습니다. 매트릭스 보고서를 만들어 최대 4개의 그룹화로 정보를 추가로 구성할 수 있습니다. 매트릭스 보고서에 대한 자세한 내용은 [매트릭스 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)를 참조하십시오.
 
-1. 현재 그룹화를 변경 내용으로 바꾸려면 **새 그룹화로 저장**&#x200B;을 클릭하세요.
+1. 현재 그룹화를 변경 내용으로 바꾸려면 **그룹화 저장**&#x200B;을 클릭하세요.

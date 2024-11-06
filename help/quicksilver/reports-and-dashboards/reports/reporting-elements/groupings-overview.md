@@ -7,18 +7,18 @@ description: 그룹화를 추가하여 보고서와 목록의 정보 레이아�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: d050372e-c4a0-4c49-b220-5b35334ab8d0
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
 
 # Adobe Workfront의 그룹화 개요
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This article was supposed to be replaced by "Groupings overview", but decided to keep this here because this is linked in too many places. "Create groupings" and "Edit existing groupings" have been added also (with videos) to replace portions of the old content here.) </p>
--->
+<!-- Audited: 11/2024 -->
+
+<!--(NOTE: This article was supposed to be replaced by "Groupings overview", but decided to keep this here because this is linked in too many places. "Create groupings" and "Edit existing groupings" have been added also (with videos) to replace portions of the old content here.)-->
 
 그룹화를 추가하여 보고서와 목록의 정보 레이아웃을 관리할 수 있습니다.
 
@@ -32,13 +32,13 @@ ht-degree: 0%
 
   처음부터 그룹화를 만드는 방법에 대한 자세한 내용은 [Adobe Workfront에서 그룹화 만들기](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)를 참조하십시오.
 
-그룹화는 기본적으로 보고서나 목록에서 회색 또는 파란색 강조 표시로 표시됩니다. 보고서 또는 목록의 결과는 개별 그룹화 아래에 강조 표시 없이 나열됩니다.
+기본적으로 그룹화는 보고서나 목록에서 회색 강조 표시로 표시됩니다. 보고서 또는 목록의 결과는 개별 그룹화 아래에 강조 표시 없이 나열됩니다.
+
+![그룹화 예](assets/grouping-example-blue.png)
 
 보고서에 최대 3개의 그룹화를 추가할 수 있습니다. 매트릭스 보고서를 만들어 최대 4개의 그룹화로 정보를 구성할 수 있습니다. 매트릭스 보고서에 대한 자세한 내용은 [매트릭스 보고서 만들기](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)를 참조하십시오.
 
-표준 그룹화 보고서에서 첫 번째 그룹화는 더 어두운 색상이고 두 번째 및 세 번째 그룹화는 더 밝습니다. 그룹화에 대한 강조 표시의 색상 또는 그룹화 이름의 글꼴을 사용자 지정할 수 없습니다. 그룹화 이름 뒤에 괄호 안에 있는 숫자는 해당 그룹화 아래의 결과 수를 나타냅니다. 보고서가 여러 페이지에 걸쳐 있는 경우 보고서나 목록에 결과를 *모두*&#x200B;하여 각 그룹화에서의 결과를 정확하게 계산해야 합니다.
-
-![샘플 그룹화](assets/grouping-example-blue.png)
+그룹화 이름 뒤에 괄호 안에 있는 숫자는 해당 그룹화 아래의 결과 수를 나타냅니다. 보고서가 여러 페이지에 걸쳐 있는 경우 보고서나 목록에 결과를 *모두*&#x200B;하여 각 그룹화에서의 결과를 정확하게 계산해야 합니다.
 
 그룹화를 사용할 때는 다음 사항을 고려하십시오.
 

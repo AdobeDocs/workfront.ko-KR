@@ -6,21 +6,19 @@ description: 보기 액세스 권한이 있는 필터, 보기 및 그룹화를 �
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
-source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '1211'
+source-wordcount: '1178'
 ht-degree: 1%
 
 ---
 
 # 필터, 보기 또는 그룹화 공유
 
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>(NOTE: CONSIDER SPLITTING THIS in three articles for each reporting element?)</p>
-<p>(NOTE: This is linked from the TOC article in WF Basics > permissions section)&nbsp;</p>
-</div>
--->
+<!-- Audited: 11/2024 -->
+
+<!--(NOTE: CONSIDER SPLITTING THIS in three articles for each reporting element?)
+(NOTE: This is linked from the TOC article in WF Basics > permissions section)-->
 
 Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 개체를 보거나 편집할 수 있는 액세스 권한을 사용자에게 부여합니다. 개체에 대한 액세스 권한을 부여하는 방법에 대한 자세한 내용은 [사용자 지정 액세스 수준 만들기 또는 수정](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)을 참조하십시오.
 
@@ -38,7 +36,9 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 개�
 
 ## 액세스 요구 사항
 
-다음 항목이 있어야 합니다.
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
+이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -50,26 +50,35 @@ Adobe Workfront 관리자는 사용자가 액세스 수준을 할당할 때 개�
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront 라이센스*</strong></td> 
-   <td> <p>요청 이상</p> </td> 
+   <td> 
+      <p>신규:</p>
+         <ul>
+         <li><p>기여자 이상</p></li>
+         </ul>
+      <p>현재:</p>
+         <ul>
+         <li><p>요청 이상</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>액세스 수준 구성*</strong></td> 
-   <td> <p>필터, 보기, 그룹화에 대한 보기 또는 상위 액세스</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+   <td> <p>필터, 보기, 그룹화에 대한 보기 또는 상위 액세스</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>개체 권한</strong></td> 
-   <td> <p>보기, 필터 또는 그룹화에 대한 공유 액세스 권한이 있는 보기 이상의 권한</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
+   <td><p>보기, 필터 또는 그룹화에 대한 공유 액세스 권한이 있는 보기 이상의 권한</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 필터, 보기 또는 그룹화 공유
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: when the beta filters/ groupings come out either consider splitting this in different kinds of FVGs or splitting this article in FVGs for showing sharing on each one of them??)</p>
--->
+<!--(NOTE: when the beta filters/ groupings come out either consider splitting this in different kinds of FVGs or splitting this article in FVGs for showing sharing on each one of them??)-->
 
 선택 목록의 필터 공유는 필터를 공유하는 데 사용하는 인터페이스(표준 또는 레거시)에 따라 다릅니다. 필터 빌드 인터페이스 유형에 대한 자세한 내용은 [Adobe Workfront에서 필터 만들기 또는 편집](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md)을 참조하십시오.
 

@@ -8,7 +8,7 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5b5385ac-3b75-4500-bf4d-ec6ad4bf727a
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 2%
@@ -16,6 +16,8 @@ ht-degree: 2%
 ---
 
 # 보고 요소 개요
+
+<!-- Audited: 11/2024 -->
 
 모든 Adobe Workfront 보고서와 목록은 다음 세 가지 필수 요소의 조합입니다.
 

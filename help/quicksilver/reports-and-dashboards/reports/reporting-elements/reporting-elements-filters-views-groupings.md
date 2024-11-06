@@ -6,24 +6,22 @@ description: Workfront에서 모든 목록과 보고서에 포함해야 하는 �
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5697905e-42c0-403b-85d4-798a1a3a2e7f
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '838'
 ht-degree: 0%
 
 ---
 
 # 보고 요소: 필터, 보기 및 그룹화
 
-<!--
-<div style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>AL: Add information here about all the different kinds of FVGs: in reports, in lists, beta, etc // OR: this article should be a high-level overview of reporting elements. Then, each type of element should have:</p>
+<!-- Audited: 11/2024 -->
+
+<!--AL: Add information here about all the different kinds of FVGs: in reports, in lists, beta, etc // OR: this article should be a high-level overview of reporting elements. Then, each type of element should have:</p>
 <p>- overview for Filters</p>
 <p>- create a filter</p>
 <p>- share a filter</p>
-<p>ALL in Reporting elements but the Shared ones should be linked to Basics> Sharing; some of the articles in the Basics> Navigation> Use lists might beed to link here as well</p>
-</div>
--->
+<p>ALL in Reporting elements but the Shared ones should be linked to Basics> Sharing; some of the articles in the Basics> Navigation> Use lists might beed to link here as well-->
 
 Adobe Workfront에서 목록 또는 보고서를 가능하게 하는 몇 가지 요소가 있습니다. 모든 목록과 보고서에 포함해야 하는 주요 요소는 필터, 보기 및 그룹입니다. 각 요소는 모든 보고서 내에 서로 다른 정보를 제공합니다.
 
@@ -56,11 +54,10 @@ Adobe Workfront에서 목록 또는 보고서를 가능하게 하는 몇 가지 
 
   필터에 대한 자세한 내용은 문서 [필터 개요](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)를 참조하십시오.
 
-![필터 아이콘](assets/projects-list-with-filter-drop-down-highlighted-nwe.png)
-
 ## 보기
 
-보고서 보기를 정의하여 보고서에 포함할 정보를 정의합니다. 모든 보고 요소와 마찬가지로 보기는 하나의 객체 유형을 기반으로 합니다.\
+보고서 보기를 정의하여 보고서에 포함할 정보를 정의합니다. 모든 보고 요소와 마찬가지로 보기는 하나의 객체 유형을 기반으로 합니다.
+
 예를 들어 작업 보고서 보기에는 기한을 표시하거나 비용 등 주요 재무 세부 정보를 포함하거나 할당 및 납품 일자 세부 정보를 표시하는 데 사용할 수 있습니다. 보기는 보고서의 데이터에 대한 다양한 세부 사항을 전달하는 데 사용할 수 있습니다.
 
 보기의 일부 속성은 다음과 같습니다.

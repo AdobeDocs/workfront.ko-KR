@@ -6,14 +6,16 @@ description: 보기를 사용하여 화면에 표시할 정보 유형을 사용�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '1788'
+source-wordcount: '1718'
 ht-degree: 1%
 
 ---
 
 # Adobe Workfront에서 보기 만들기 또는 편집
+
+<!-- Audited: 11/2024 -->
 
 보기를 사용하여 화면에 표시할 정보 유형을 사용자 정의할 수 있습니다. Adobe Workfront에서 여러 유형의 보기를 사용할 수 있습니다.
 
@@ -30,25 +32,36 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront 플랜*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront 플랜</strong></td> 
    <td> <p>임의</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront 라이센스*</strong></td> 
-   <td> <p>요청 이상</p> </td> 
+   <td> 
+      <p>신규:</p>
+         <ul>
+         <li><p>기여자 이상</p></li>
+         </ul>
+      <p>현재:</p>
+         <ul>
+         <li><p>요청 이상</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>액세스 수준 구성*</strong></td> 
-   <td> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> <p>보고서, 대시보드, 캘린더에 대한 액세스 권한을 편집하여 보고서에서 보기 만들기</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+   <td> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> <p>보고서, 대시보드, 캘린더에 대한 액세스 권한을 편집하여 보고서에서 보기 만들기</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>개체 권한</strong></td> 
-   <td> <p>보고서에서 보기를 만들거나 편집하려면 보고서에 대한 권한 관리</p> <p>보기에 대한 편집 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
+   <td role="rowheader"><strong>개체 권한*</strong></td> 
+   <td> <p>보고서에서 보기를 만들거나 편집하려면 보고서에 대한 권한 관리</p> <p>보기에 대한 편집 권한 관리</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -64,10 +77,11 @@ ht-degree: 1%
 새 표준 뷰를 생성하거나 이전에 생성한 기존 표준 뷰를 사용자 정의할 수 있습니다.
 
 1. 보기를 만들거나 사용자 지정할 목록에서 **보기** 드롭다운 메뉴를 클릭합니다.
-1. (선택 사항) 기존 보기를 사용자 정의하려면 사용자 정의할 표준 보기를 선택합니다.\
-   표준 보기는 보고서, 프로젝트 목록 또는 작업 목록과 같은 Workfront의 모든 유형의 목록에서 사용할 수 있습니다.
-1. **보기** 드롭다운 메뉴를 클릭한 다음 **보기 사용자 지정** 또는 **새 보기**&#x200B;를 클릭합니다.\
-   **보기 사용자 지정** 대화 상자가 표시됩니다.
+
+1. 새 보기를 만들려면 **+ 새 보기** 단추를 클릭하십시오.
+또는
+편집할 기존 보기의 오른쪽 마우스에 표시되는 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.
+**보기 사용자 지정** 대화 상자가 표시됩니다.
 
 1. **열 미리 보기** 섹션에서 다음 중 하나를 수행합니다.
 
@@ -121,7 +135,7 @@ ht-degree: 1%
           </tr> 
           <tr> 
            <td role="rowheader"><strong>열 규칙</strong></td> 
-           <td><p><strong>이 열에 대한 규칙 추가</strong>를 클릭하여 열에 대한 규칙을 정의합니다. 규칙을 추가한 후 해당 규칙과 일치하는 필드가 표시되는 방식에 대한 필드 및 텍스트 스타일을 정의할 수 있습니다. 규칙 정의를 마치면 <strong>규칙 추가</strong>를 클릭합니다.</p></td> 
+           <td><p><strong>+ 이 열에 대한 규칙 추가</strong>를 클릭하여 열에 대한 규칙을 정의합니다. 규칙을 추가한 후 해당 규칙과 일치하는 필드가 표시되는 방식에 대한 필드 및 텍스트 스타일을 정의할 수 있습니다. 규칙 정의를 마치면 <strong>규칙 추가</strong>를 클릭합니다.</p></td> 
           </tr> 
          </tbody> 
         </table>
@@ -234,7 +248,7 @@ ht-degree: 1%
     </tbody> 
    </table>
 
-1. **애자일** 섹션의 **추가 필드** 영역에서 **필드 추가**&#x200B;를 클릭한 다음 스토리 카드에 추가할 필드를 선택합니다. (이는 보기를 사용자 정의하거나 보고서에 대한 열을 만들 때 추가할 수 있는 필드와 동일합니다.)\
+1. **추가 필드** 영역에서 **필드 추가**&#x200B;를 클릭한 다음 스토리 카드에 추가할 필드를 선택합니다. (이는 보기를 사용자 정의하거나 보고서에 대한 열을 만들 때 추가할 수 있는 필드와 동일합니다.)\
    이 프로세스를 반복하여 스토리 카드에 최대 3개의 추가 필드를 추가합니다.\
    스토리 카드에 필드를 추가할 때 필드는 보기 전용이며 필드가 채워질 때만 표시됩니다.
 

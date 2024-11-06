@@ -6,7 +6,7 @@ description: 마일스톤 보기를 프로젝트 목록 또는 보고서에 적�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
 source-wordcount: '1302'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 마일스톤 보기 사용
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 11/2024 -->
 
 마일스톤 보기를 프로젝트 목록 또는 보고서에 적용할 수 있습니다.
 
@@ -42,8 +42,15 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront 라이선스</strong></td> 
    <td> 
-   <p>새로운 기능: 표준</p>
-   <p>현재: 작업 시간 이상 </p> </td> 
+      <p>신규:</p>
+         <ul>
+         <li><p>표준</p></li>
+         </ul>
+      <p>현재:</p>
+         <ul>
+         <li><p>작업 이상</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>액세스 수준 구성*</strong></td> 

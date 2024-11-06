@@ -6,7 +6,7 @@ description: Adobe Workfront 인스턴스에 포함된 기본 보고서의 복�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e3fa0bc6-a8c3-408e-924f-228c270ff579
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # 기본 보고서를 새 보고서로 저장
+
+<!-- Audited: 11/2024 -->
 
 Adobe Workfront 인스턴스에 포함된 기본 보고서의 복사본을 수정하고 새 보고서로 저장할 수 있습니다.
 

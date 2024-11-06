@@ -6,14 +6,16 @@ description: Workfront에서 열 너비 지침 및 열 너비와 순서를 변�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ece3f908-a0da-45d4-9f4f-0b34c69ce8fa
-source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1010'
 ht-degree: 0%
 
 ---
 
 # 열 너비 및 순서 수정
+
+<!-- Audited: 11/2024 -->
 
 다음은 Adobe Workfront에서 열 너비가 작동하는 방식에 대한 지침입니다.
 
@@ -36,6 +38,8 @@ ht-degree: 0%
 
 ## 액세스 요구 사항
 
++++ 을 확장하여 이 문서의 기능에 대한 액세스 요구 사항을 봅니다.
+
 이 문서의 단계를 수행하려면 다음 액세스 권한이 있어야 합니다.
 
 <table style="table-layout:auto"> 
@@ -48,20 +52,31 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront 라이센스*</strong></td> 
-   <td> <p>요청 이상 </p> </td> 
+   <td> 
+      <p>신규:</p>
+         <ul>
+         <li><p>기여자 이상</p></li>
+         </ul>
+      <p>현재:</p>
+         <ul>
+         <li><p>요청 이상</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>액세스 수준 구성*</strong></td> 
-   <td> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> <p>보고서, 대시보드, 캘린더에 대한 액세스 권한을 편집하여 보고서에서 보기 편집</p> <p>참고: 여전히 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+   <td> <p>필터, 보기, 그룹화에 대한 액세스 편집</p> <p>보고서, 대시보드, 캘린더에 대한 액세스 권한을 편집하여 보고서에서 보기 편집</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>개체 권한</strong></td> 
-   <td> <p>보고서에서 보기를 편집하려면 보고서에 대한 권한 관리</p> <p>보기에 대한 편집 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
+   <td> <p>보고서에서 보기를 편집하려면 보고서에 대한 권한 관리</p> <p>보기에 대한 편집 권한 관리</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
+
++++
 
 ## 열 너비 및 순서 수정
 
@@ -113,17 +128,13 @@ Workfront 목록에 대한 자세한 내용은 문서 [Adobe Workfront 목록 �
 #### 일시적으로 열 크기 조정 {#resize-columns-temporarily}
 
 1. 수정할 목록으로 이동합니다.
-1. 열이 원하는 크기에 도달할 때까지 열의 테두리를 드래그합니다.\
+1. 열이 원하는 크기에 도달할 때까지 열 머리글의 테두리를 드래그합니다.\
    ![](assets/column-resize-350x124.png)
 
 #### 일시적으로 열 순서 바꾸기 {#reorder-columns-temporarily}
 
 1. 수정할 목록으로 이동합니다.
-1. 다른 위치로 이동할 열을 클릭하여 열을 선택합니다.
-1. 열을 올바른 위치로 드래그합니다.
-1. 열을 위치에 놓아 이동합니다.
-
-   ![](assets/column-reorder-350x118.png)
+1. 이동할 열 헤더를 클릭하여 원하는 위치로 드래그합니다.
 
 >[!TIP]
 >

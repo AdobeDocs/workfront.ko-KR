@@ -7,7 +7,7 @@ description: 목록 또는 보고서의 보기를 관리하여 목록 또는 보
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18016417-e24d-4797-9422-00915db47bb9
-source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Adobe Workfront의 보기 개요
 
-<!--Audited: 01/2024-->
+<!--Audited: 11/2024-->
 
 목록 또는 보고서의 보기를 관리하여 목록 또는 보고서에 표시하는 정보 유형을 사용자 지정할 수 있습니다. 뷰에 객체와 해당 속성을 표시할 수 있습니다. Adobe Workfront 개체에 대한 자세한 내용은 [Adobe Workfront의 개체 이해](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)를 참조하십시오.
 

@@ -6,16 +6,16 @@ description: 필터를 사용하여 항목 목록의 화면에 표시되는 정�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '2461'
+source-wordcount: '2419'
 ht-degree: 1%
 
 ---
 
 # Adobe Workfront에서 필터 만들기 또는 편집
 
-<!--Audited: 12/2023-->
+<!-- Audited: 11/2024 -->
 
 필터를 사용하여 항목 목록의 화면에 표시되는 정보의 양을 제한할 수 있습니다. 객체에 대한 특정 정보를 기준으로 특정 기준을 정의하고 해당 기준을 충족하는 객체만 표시할 수 있습니다.
 
@@ -47,42 +47,36 @@ Adobe Workfront에서 다음 유형의 필터를 적용할 수 있습니다.
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront 라이센스*</strong></td> 
-   <td> <p>새로운 기능: 기여자 이상</p>
-
-또는
-
-<p>현재: 요청 이상</p>
-
-<p><b>참고:</b></p>
-
-보고서에서 필터를 편집하려면 다음 라이센스가 있어야 합니다.
-
-<p>새로운 기능: 표준</p>
-
-또는
-
-<p>현재: 플랜</p>
-
-</td> 
+   <td> 
+      <p>신규:</p>
+         <ul>
+         <li><p>필터를 수정하는 기여자</p></li>
+         <li><p>보고서에서 필터를 수정하는 표준</p></li>
+         </ul>
+      <p>현재:</p>
+         <ul>
+         <li><p>필터 수정 요청</p></li>
+         <li><p>보고서의 필터 수정 계획</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>액세스 수준 구성*</strong></td> 
    <td> <ul><li><p>필터, 보기 및 그룹화에 대한 액세스 편집</p></li></ul>
-    <p><b>참고:</b></p>
-   보고서에서 필터를 편집하려면 필터, 보기 및 그룹화에 대한 편집 액세스 권한 외에도 다음 액세스 수준 구성이 있어야 합니다.
 
-<ul><li><p>보고서, 대시보드 및 캘린더에 대한 액세스 편집</p></li></ul>
+보고서에서 필터를 편집하려면 필터, 보기 및 그룹화에 대한 편집 액세스 권한 외에도 다음 액세스 수준 구성이 있어야 합니다.
 
-<p><b>참고:</b></p> <p> 액세스 권한이 없는 경우 Workfront 관리자에게 액세스 수준에서 추가 제한을 설정하는지 문의하십시오. Workfront 관리자가 액세스 수준을 수정하는 방법에 대한 자세한 내용은 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">사용자 지정 액세스 수준 만들기 또는 수정</a>을 참조하십시오.</p> </td> 
+<ul><li><p>보고서, 대시보드 및 캘린더에 대한 액세스 편집</p></li></ul>   
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>개체 권한</strong></td> 
-   <td> <p>필터에 대한 권한 관리</p> <p>추가 액세스 요청에 대한 자세한 내용은 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">개체 </a>에 대한 액세스 요청 을 참조하십시오.</p> </td> 
+   <td role="rowheader"><strong>개체 권한*</strong></td> 
+   <td> <p>필터에 대한 권한 관리</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-보유 중인 플랜, 라이선스 유형 또는 액세스 권한을 확인하려면 Workfront 관리자에게 문의하십시오.
+*자세한 내용은 [Workfront 설명서의 액세스 요구 사항](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)을 참조하십시오.
 
 +++
 
@@ -369,19 +363,17 @@ Workfront 개체에 대한 자세한 내용은 [Adobe Workfront의 개체 이해
 필터를 만드는 데 사용하는 방법에 관계없이 필터를 처음부터 만들거나 기존 필터에서 만드는 방법은 유사합니다.
 
 1. 사용자 지정할 필터가 포함된 목록 또는 보고서로 이동합니다.
-1. **필터** 아이콘 ![필터 아이콘](assets/filter-nwepng.png)을 클릭합니다.
+1. **필터** 아이콘 ![필터 아이콘](assets/filter-nwepng.png)을 클릭한 다음 **자세히** 아이콘 ![자세히 아이콘](assets/more-icon.png)을 클릭하고 **기존 필터로 돌아가기**&#x200B;를 클릭합니다.
 
    >[!TIP]
    >
    >보고서에서 필터 드롭다운 목록을 보려면 보고서 작성자가 필터 편집을 허용해야 합니다. 보고서 기본값 필터는 기본적으로 보고서에 적용됩니다. 보고서를 편집할 때만 보고서 기본값 필터를 사용자 지정할 수 있습니다.
 
-   ![필터 드롭다운](assets/filter-drop-down-expanded-nwe.png)
-
-1. 필터 목록 맨 위에 있는 **새 필터**&#x200B;를 클릭합니다.
+1. 필터 목록 맨 위에 있는 **+ 새 필터**&#x200B;을(를) 클릭합니다.
 
    또는
 
-   수정할 필터 위로 마우스를 가져간 후 **편집** 아이콘 ![](assets/edit-icon.png)을(를) 클릭합니다.
+   수정할 필터 위로 마우스를 가져간 후 **편집** 아이콘 ![편집 아이콘](assets/edit-icon.png)을 클릭합니다.
 
    필터 실행을 사용자 지정하는 빌더입니다.
 
@@ -423,7 +415,7 @@ Workfront 개체에 대한 자세한 내용은 [Adobe Workfront의 개체 이해
 
    또는
 
-   선택한 필터에서 필터를 만들려면 **새 필터로 저장**&#x200B;을 클릭합니다.
+   선택한 필터에서 새 필터를 만들려면 **새 필터로 저장**&#x200B;을 클릭합니다.
 
    새 필터가 필터 목록에 표시되고 선택한 목록 또는 보고서에 자동으로 적용됩니다.
 

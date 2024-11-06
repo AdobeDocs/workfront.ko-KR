@@ -7,7 +7,7 @@ description: Adobe Workfront에서 필터를 사용하여 목록, 보고서 또�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
 source-wordcount: '1821'
 ht-degree: 1%
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # 필터 개요
 
-<!-- Audited: 01/2024 -->
+<!-- Audited: 11/2024 -->
 
 Adobe Workfront에서 필터를 사용하여 목록, 보고서 또는 기타 영역의 화면에 표시되는 정보의 양을 줄일 수 있습니다.
 
@@ -71,13 +71,16 @@ Workfront의 개체 및 보고서를 작성할 수 있는 개체에 대한 자�
 
 Workfront의 다음 영역에서 기본 제공 필터를 사용하거나 사용자 지정 필터를 빌드할 수 있습니다.
 
-* 홈\
+* 홈
+
   자세한 내용은 [홈 영역의 작업 목록에 항목 표시](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)를 참조하십시오.
+
 * 요청 영역입니다. 요청 영역에서는 필터를 사용자 지정할 수 없습니다.
 
   자세한 내용은 [제출된 요청 찾기](../../../manage-work/requests/create-requests/locate-submitted-requests.md)를 참조하십시오.
 
-* 리소스 플래너\
+* 리소스 플래너
+
   자세한 내용은 문서 [리소스 플래너의 필터 정보](../../../resource-mgmt/resource-planning/filter-resource-planner.md)를 참조하십시오.
 
 * 활용성 보고서
@@ -104,9 +107,7 @@ Workfront의 다음 영역에서 기본 제공 필터를 사용하거나 사용�
   >
   >시나리오 플래너에서는 필터를 사용자 정의할 수 없습니다.
 
-  <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the tip above: this might change with the beta filters??)</p>
-  -->
+  <!--(NOTE: the tip above: this might change with the beta filters??)-->
 
   기본 제공 필터를 계획, 이니셔티브 또는 프로젝트에 사용할 수 있으며 시나리오 플래너에서 프로젝트 필터를 사용자 지정할 수 있습니다.
 
