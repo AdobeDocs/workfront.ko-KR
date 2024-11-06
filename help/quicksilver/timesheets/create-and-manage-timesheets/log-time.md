@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 114fb6282924cde478f17a1b754157b6e47a7e3b
+source-git-commit: 17a277a5a63a521ec7285e3f5051bfd42fc204bf
 workflow-type: tm+mt
-source-wordcount: '3652'
+source-wordcount: '3657'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,10 @@ Workfront에 로그인할 수 있는 시간 유형에 대한 자세한 내용은
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 라이센스*</td> 
-   <td> <p>새로 만들기: 가볍게 또는 그 이상: 프로젝트, 작업, 문제의 시간 또는 타임시트의 일반 시간을 기록합니다.</p>
+   <td> <p>신규:</p>
+   <ul><li><p> 가볍게 또는 그 이상: 작업, 문제 또는 타임시트의 일반 시간에 기록</p>
+   <li><p>프로젝트에 시간을 기록하는 표준</p></li></ul>
+   <p>
    <p>현재: 
    <ul><li>타임시트에 일반 시간을 기록하려면 이상을 검토하십시오.</li>
    <li>프로젝트, 작업 또는 문제에 시간을 기록하려면 이상 작업</li></ul> </td> 
