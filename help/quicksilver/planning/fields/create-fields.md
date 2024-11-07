@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 82633fcb858273dee360fc44b031fec5a5cdff54
+source-git-commit: 092c94219e77ba3cef316f581646cb0b4488c5cd
 workflow-type: tm+mt
-source-wordcount: '3689'
+source-wordcount: '3847'
 ht-degree: 2%
 
 ---
@@ -383,21 +383,20 @@ OLD:
 
      >[!NOTE]
      >
-     >    음수 허용을 선택하고 음수 값이 필드가 첨부된 레코드에 저장되는 경우 향후 설정을 더 이상 선택 해제할 수 없습니다.
+     >음수 허용을 선택하고 음수 값이 필드가 첨부된 레코드에 저장되는 경우 향후 설정을 더 이상 선택 해제할 수 없습니다.
 
-   <!--<div class="preview">  
+   <div class="preview">
 
-    * **Show as**: From the drop-down menu, choose how you want the percentage values to display in the table view. Select from the following options:
-        * **Number**: The percent value displays as a number followed by the percentage sign. 
-        * **Bar**: The percent value displays as a bar next to the percentage number. The fill color of the bar indicates the percent value. 
-        * **Circle**: The percent value displays as the outline of a circle next to the percentage number. The fill color of the circle's outline indicates the percent value.
+   * **다음으로 표시**: 드롭다운 메뉴에서 백분율 값을 테이블 보기에 표시할 방법을 선택합니다. 다음 옵션 중에서 선택합니다.
+      * **숫자**: 백분율 값이 숫자와 백분율 기호로 표시됩니다.
+      * **막대**: 백분율 값이 백분율 숫자 옆에 막대로 표시됩니다. 막대의 채우기 색상은 백분율 값을 나타냅니다.
+      * **원**: 백분율 값이 백분율 숫자 옆에 원의 윤곽선으로 표시됩니다. 원 윤곽선의 채우기 색상은 백분율 값을 나타냅니다.
 
-    >[!NOTE]
-    >
-    >* The selection you make in the Show as field only applies to the percentage value visible in the table view. The percent value of the field displays as a number followed by the percentage sign everywhere else in Workfront Planning. This also applies to the percentage-type field when it displays as a lookup field in other records' table views.
-    >* You can change the Show as selection when editing the field later. 
-    </div>-->
-
+   >[!NOTE]
+   >
+   >* 다음으로 표시 필드에서 선택한 사항은 테이블 뷰에 표시되는 백분율 값에만 적용됩니다. 필드의 퍼센트 값은 숫자로 표시되고 그 뒤에 Workfront Planning의 다른 모든 곳에서 퍼센트 기호가 표시됩니다. 이는 다른 레코드의 테이블 보기에서 조회 필드로 표시되는 경우 백분율 유형 필드에도 적용됩니다.
+   >* 나중에 필드를 편집할 때 선택 항목으로 표시를 변경할 수 있습니다.
+   </div>
 
 1. Click **Create**.
 
